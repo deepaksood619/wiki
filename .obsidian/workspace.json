@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Journal/Templates/Daily Journal Template.md",
+                "file": "AI/Courses/Customer-Analytics-in-Python/Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Journal/Templates/Daily Journal Template.md",
+                "file": "AI/Courses/Customer-Analytics-in-Python/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Journal/Templates/Daily Journal Template.md",
+                "file": "AI/Courses/Customer-Analytics-in-Python/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Journal/Templates/Daily Journal Template.md"
+                "file": "AI/Courses/Customer-Analytics-in-Python/Intro.md"
               }
             }
           },
@@ -152,17 +152,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "978fd2faf621af33",
+  "active": "a115d7e51ac76155",
   "lastOpenFiles": [
+    "AI/Courses/Course---Data-Storage-and-Processing---edX.md",
+    "AI/Courses/Course---Big-Data-Computing---NPTEL.md",
+    "README.md",
+    "Journal/Templates/Daily Journal Template.md",
     "TEst.md",
     "Databases/Concepts/Concepts.md",
     "Data-Structures/General/Data.md",
     "Databases/Concepts/Types-of-Databases.md",
     "Databases/Concepts/Intro.md",
-    "Databases/Concepts/Indexing.md",
-    "Databases/Modeling/Data-Modeling.md",
-    "Databases/Modeling/Database-Workloads.md",
-    "Databases/Concepts/MVCC,-MultiVersion-Concurrency-Control.md",
-    "Databases/Concepts/Isolation-Levels.md"
+    "Databases/Concepts/Indexing.md"
   ]
 }
