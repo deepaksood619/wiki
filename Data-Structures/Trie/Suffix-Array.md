@@ -1,0 +1,112 @@
+# Suffix Array
+
+Created: 2018-04-10 22:51:14 +0500
+
+Modified: 2021-06-12 09:00:01 +0500
+
+---
+
+***A suffix array is a sorted array of all suffixes of a given string***. The definition is similar to[Suffix Tree which is compressed trie of all suffixes of the given text](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/). Any suffix tree based algorithm can be replaced with an algorithm that uses a suffix array enhanced with additional information and solves the same problem in the same time complexity.
+
+
+
+A suffix array can be constructed from Suffix tree by doing a DFS traversal of the suffix tree. In fact Suffix array and suffix tree both can be constructed from each other in linear time.
+
+
+
+Advantages of suffix arrays over suffix trees include improved space requirements, simpler linear time construction algorithms (e.g., compared to Ukkonen's algorithm) and improved cache locality
+
+
+
+**Applications -**
+-   Full text indices
+-   Data compression algorithms
+-   Field of bibliometrics
+
+
+
+# Suffix Arrays and Suffix Sort
+
+![Keyword-in-context search Given a text of N characters, preprocess it to enable fast sut (find all occurrences of query string context). % more tale . txt it it it it it it it it it it was was was was was was was was was was the the the the the the the the the the best of times worst of times age of wi sdom age of foolishness epoch of belief epoch of incredulity season of light season of darkness spring of hope winter of despair ](media/Suffix-Array-image1.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Keyword-in-context search Given a text of N characters, preprocess it to enable fast sut (find all occurrences of query string context). characters of % java KWIC tale. txt 15 search o st giless to her unavailing le and gone in t provinces in dispersing in n that bed and better thing t is a far far some sense of search search search search search search better better surrounding context for contraband for your fathe of her husband of impoveri she of other carri the straw hold thing that i do than things else forgotte ](media/Suffix-Array-image2.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Suffix sort form suffixes input string o 1 2 3 4 5 6 7 8 9 10 11 i t w a s e s i t w t w a s e s i t w a w a s e s i t w a s a s e s i t w a s w s e s i t w a s w e i t w a s w e s i t w a s w i o s i t w a s w t 1 i t w a s w w 2 i t w a s w a 3 t w a s w s 4 a s w 5 s w e 6 w s 7 8 w a s w i 9 3 12 5 6 o 9 4 7 13 8 1 10 t 10 w 11 a 12 s 13 w 14 sort suffixes to bring rel a a e i i s s t t s s e s t t w i w w w s w w e i t a a e i a a s t w s s s i t s s w a w t t w w i a s e w a t s w S ](media/Suffix-Array-image3.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Keyword-in-context search: suffix-sorting solution suffix sort the text. • Preprocess: binary search for query; scan until mismatch. • Query: KWIC search for "search" in Tale of Two Cities 632698 713727 660598 67610 4430 42705 499797 182045 143399 411801 S S e e e e e e e e e e a a a 1 m m m r r r r r r e s s c c c c c c d h h h h h h e e e f t s s s s s s i o e i w C y m t s t s h o o p O n r t h V a W w r u w f e a a f s c a n s b a b i h n t a t a s O ](media/Suffix-Array-image4.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Longest repeated substring Given a string of N characters, find the longest repeated sub a g c c a a t c a g a g c c g a a a a c a t g c a g c c c a g a t g t a t a a a a a c g a t c c g g g t g a g c t a a t t c t a t c c a t t c c t a a t a t a t g g a g c a a a t t c g c a c a c a g c a t c t a a c a c a t a a t g t g c g c c a g g a a c c a g c c g g t c c t a a t a t t a a t a g c c c a t a g a a t g g c c g c g g a a t a g g a t t a t c c a t c t c a g a a g a a a g t c a c a g c t t a c a a t g a C a c t g c c c g c g c c a t c t a a a a t a t a t t t a a ](media/Suffix-Array-image5.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![](media/Suffix-Array-image6.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+
+
+**Longest common prefix (LCP)**
+
+![Longest repeated substring Given a string of N characters, find the longest repeated sub Brute-force algorithm. • Try all indices i and j for start of possible match. • Compute longest common prefix (LCP) for each pair. a a c a a g t t t a c a a ](media/Suffix-Array-image7.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Longest repeated substring: input string a sorting solution a 4 g 5 t 6 t 7 t 8 form suffixes o 1 2 3 4 5 6 7 8 9 10 11 a o t t a c a 1 t a c a 2 3 c a a 9 o 11 3 9 1 12 4 10 2 13 5 ca agc 10 11 12 13 14 sort suffixes to bring rel a a c a a g t t t a c a a c a g t t t a c a c a a g t t t a c a a a g t t t a c a a g t t t a c a g t t a c a t t t a c a a c a a a a a a a a c c c g a a c c g a a t c g a a t t a t g t t t t a ](media/Suffix-Array-image8.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Longest repeated substring: Java implementation public String Irs(String s) int N = s. length() ; Stri ng[] suffi xes = new String[N] ; for (int i = 0; i < N; i + + ) suffi xes [i ] = s. substring(i, N); Arrays . sort (suffi xes) ; String 1 rs for (int i --- 0; i < N-l; i + + ) int len = lcp(suffixes[i], suffixes[i+l]); if (len > Irs.length()) = suffixes [i] . substri ng(0, len) ; 1 rs return Irs; ](media/Suffix-Array-image9.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Sorting challenge Problem. Five scientists A, B, C, D, and E are looking for Ion substring in a genome with over I billion nucleotides. • A has a grad student do it by hand. • B uses brute force (check all pairs). • C uses suffix sorting solution with insertion sort. • D uses suffix sorting solution with LSD string sort. • E uses suffix sorting solution with 3-way string quicksor b ](media/Suffix-Array-image10.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Longest repeated substring: empirical analysis input file LRS . java amendments . txt aesop. txt mobydi Ck . txt chromosomell. txt pi . txt characters 2,162 1 8,369 191 ,945 1.2 million million 7.1 10 million brute 0.6 sec 37 sec 1.2 hours 43 hours 2 months 4 months suffix sort 0.14 sec 0.25 sec I .0 sec 7.6 sec 61 sec 84 sec ](media/Suffix-Array-image11.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Suffix sorting: worst-case input Bad input: longest repeated substring very long. Ex: Ex: o 1 2 3 4 5 6 7 8 9 same letter repeated N times. two copies of the same Java codebase. form suffixes sorted suffixes t i n s t i n s i n s t i n s i n t i n s n s t i n S s t i n s t i n s i n s n s s 9 8 7 6 5 4 3 2 1 o i i n n S s t t n n s s t i s s t 1 i n n t i n n s s i n s s t i n S t n s i s i n n s ](media/Suffix-Array-image12.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Suffix sorting challenge Problem. Suffix sort an arbitrary string of length N. Q. What is worst-case running time of best algorithm for pr • Quadratic. Linearithmic. Linear. Nobody knows. Manber-Myers algorithm suffix trees (beyond our scope) ](media/Suffix-Array-image13.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Suffix sorting in linearithmic time Manber-Myers MSD algorithm overview. • Phase 0: sort on first character using key-indexed count • Phase i: given array of suffixes sorted on first 2i-l chara create array of suffixes sorted on first 2i characters. Worst-case running time. NIgN. • Finishes after lgN phases. • Can perform a phase in linear time. (!) [ahead] ](media/Suffix-Array-image14.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Linearithmic suffix sort example: original suffixes phase O key-indexed counting sort (fi 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 b a b a a a a b c b a b a a a a b a a a a b c b a b a a a a b a a a a b c b a b a a a a a a a a b c b a b a a a a a a a b c b a b a a a a a a b c b a b a a a a a a b c b a b a a a a a 0 b c b a b a a a a 0 c b a b a a a a b a b a a a a a b a a a a a b a a a a a 0 a a a a 0 a a a a a a 17 1 16 3 4 5 6 15 14 13 12 10 o 9 11 a a a a a a a a a a b b b b a a a b a a a a b a a a a a a b c 0 a a a a b a a a b c b 0 a a a a a a b c b a a a a a a c b a b a a a b b a b a a a c a b a a a b b a a a c 0 a a a a a a a a a a a a ](media/Suffix-Array-image15.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Linearithmic suffix sort example: original suffixes phase 1 index sort (first two charactel 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 b a b a a a a b c b a b a a a a b a a a a b c b a b a a a a b a a a a b c b a b a a a a a a a a b c b a b a a a a a a a b c b a b a a a a a a b c b a b a a a a a a b c b a b a a a a a 0 b c b a b a a a a 0 c b a b a a a a b a b a a a a a b a a a a a b a a a a a 0 a a a a 0 a a a a a a 17 16 12 3 4 5 13 15 14 6 1 10 o 9 11 a a a a a a a a a a b b b a a a a a a a b b b a a a a a a b a 0 a c a a b b a a a b c 0 b a a a a a b c b a a a a a a c b a b a a a a b a b a b a a abaaa b a a aa aaaaa c b aba ](media/Suffix-Array-image16.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Linearithmic suffix sort example: original suffixes phase 2 index sort (first four characte 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 b a b a a a a b c b a b a a a a b a a a a b c b a b a a a a b a a a a b c b a b a a a a a a a a b c b a b a a a a a a a b c b a b a a a a a a b c b a b a a a a a a b c b a b a a a a a 0 b c b a b a a a a 0 c b a b a a a a b a b a a a a a b a a a a a b a a a a a 0 a a a a 0 a a a a a a 17 16 15 14 3 12 13 4 5 1 10 6 2 11 o a a a a a a a a a a b b b a a a a a a a b b b a a a 0 a a a a a b a a a a b 0 a a b c a a b a a a b c b a a a a a a c b a a a b b a b a b b a c a a b a c a b b b a a b a a c a a a a a b b a a a a a a a a a b ](media/Suffix-Array-image17.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Linearithmic suffix sort example: original suffixes phase 3 index sort (first eight charact 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 b a b a a a a b c b a b a a a a b a a a a b c b a b a a a a b a a a a b c b a b a a a a a a a a b c b a b a a a a a a a b c b a b a a a a a a b c b a b a a a a a a b c b a b a a a a a 0 b c b a b a a a a 0 c b a b a a a a b a b a a a a a b a a a a a b a a a a a 0 a a a a 0 a a a a a a 17 16 15 14 13 12 3 4 5 10 1 6 11 2 9 a a a a a a a a a a b b b a a a a a a a b b b a a a 0 a a a a a b a a a a b 0 a a b c a b a a b c b a a a a c b a a a b b a b a b b a c a a b a c a b a b a a b a a 0 a a a a a b a a a a a a a a ](media/Suffix-Array-image18.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![Constant-time string compare by indexing into inverse original suffixes index sort (first four characte 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 b a b a a a a b c b a b a a a a b a a a a b c b a b a a a a b a a a a b c b a b a a a a a a a a b c b a b a a a a a a a b c b a b a a a a a a b c b a b a a a a a a b c b a b a a a a a 0 b c b a b a a a a 0 c b a b a a a a b a b a a a a a b a a a a a b a a a a a 0 a a a a 0 9 a a a a a a 4 - 13 17 16 15 14 3 12 13 4 5 1 10 6 2 11 o a a a a a a a a a a b b a a a a a a a b b b a a 0 a a a a a b a a a b 0 a a b c a a b a a b c b a a a a a a c b a a a b b a b a b b a c a a b a c a b b b a a b a a c a a a a a b b a a a a a a a a a b ](media/Suffix-Array-image19.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![String sorting summary We can develop linear-time sorts. • Key compares not necessary for string keys. • Use characters as index in an array. We can develop sublinear-time sorts. • Input size is amount of data in keys (not number of kev • Not all of the data has to be examined. 3-way string quicksort is asymptotically optimal. • 1.39 NIgNchars for random data. Long strings are rarely random in practice. ](media/Suffix-Array-image20.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+
+
+![What is the main reason to use the Manber-Myers algorithm instead of 3-way quicksort in order to suffix sort a string of length N? To use less space. To guarantee N log N performance. Correct While 3-way radix quicksort runs faster than Manber-Myers on typical inputs, the Manber-Myers algorithm has a worst-case running time of N log N, which is superior to that of 3-way radix quicksort. The Manber-Myers algorithm requires several auxiliary arrays and uses more extra space than 3-way radix quicksort. Stability is not a relevant concept for suffix sorting. To guarantee stability. To run faster on typical pieces of English text. ](media/Suffix-Array-image21.png){width="5.739583333333333in" height="1.8958333333333333in"}
+
+
+
+![String challenge: array of SUffixes Q. How to efficiently form array of suffixes? input string 01 2 suffixes a 11 a a g c 12 g c 13 14 c o 1 2 3 4 5 6 7 8 a a c a a g t t t a c a a g t t t a c a a g t t t a c a 3 a g t t t a c a a 4 a t t t a c a a g 5 g t t a c a a g t 6 t t a c a a g c t 7 t t a c a a g c t 8 t a c a a g c a 9 a c a a g c c 10 c a a g c ](media/Suffix-Array-image22.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+![String vs. StringBuiIder Q. How to efficiently form array of suffixes? A. B. public static String[] suffixes(String s) int N s. length() ; Stri ng[] suffixes = new String [N] ; for (int i --- suffi xes [i ] s.substring(i, N); return suffixes; public int static Stri s) --- s. length(); ](media/Suffix-Array-image23.png){width="5.979166666666667in" height="4.479166666666667in"}
+
+
+
+![What is the order of growth of the amount of memory used by Algorithm A to form the n suffixes of a string of length n? Linear in both Java 6 and Java 7. Linear in Java 6 and quadratic inJava 7, Update 6. Correct Amazingly, Oracle and OpenJDK changed their representation of the String data type in Java 7, Update 6 so that the underlying char[] array is no longer shared! Now, it takes linear extra space and time to extract a substring (instead of constant extra space and time). See this article for more details. Quadratic in Java 6 and linear in Java 7, Update 6. Quadratic in both Java 6 and Java 7. ](media/Suffix-Array-image24.png){width="5.125in" height="1.8333333333333333in"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

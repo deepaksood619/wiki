@@ -1,0 +1,47 @@
+# Databases
+
+Created: 2020-12-15 22:39:11 +0500
+
+Modified: 2020-12-15 22:45:01 +0500
+
+---
+
+1.  SnowFlake
+
+2.  AWS Redshift
+
+3.  Snowflake
+
+4.  AWS Athena
+
+5.  Google BigQuery
+
+6.  Elastic
+
+7.  Hadoop
+
+8.  Druid/Impy
+
+9.  MemSQL
+
+10. Presto
+
+```{=html}
+<!-- -->
+```
+11. **FireBolt**
+
+**A new class of cloud data warehouses built for AWS**
+
+
+
+Firebolt has completely redesigned the cloud data warehouse to deliver a super fast, incredibly efficient analytics experience at any scale
+
+
+
+Firebolt's serverless architecture connects to your S3 data lake as its data source and to the entire data ecosystem using standard SQL as its destination
+
+
+
+![Operations Engine Customer dashboards SQL SQL Data science SQL Meta layer (DBMS) Compute layer (isolated resources) Engine Engine Engine Engine Data prep Engine Storage layer ( aws S3 data lake) ](media/Data-Warehousing_Databases-image1.png){width="5.0in" height="4.614583333333333in"}
+

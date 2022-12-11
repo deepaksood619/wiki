@@ -1,0 +1,91 @@
+# Normal Distributions
+
+Created: 2018-07-02 00:56:44 +0500
+
+Modified: 2021-10-20 20:45:37 +0500
+
+---
+
+In[probability theory](https://en.wikipedia.org/wiki/Probability_theory), the**normal(orGaussianorGaussorLaplace--Gauss)**distributionis a very common[continuous probability distribution](https://en.wikipedia.org/wiki/Continuous_probability_distribution). Normal distributions are important in[statistics](https://en.wikipedia.org/wiki/Statistics)and are often used in the[natural](https://en.wikipedia.org/wiki/Natural_science)and[social sciences](https://en.wikipedia.org/wiki/Social_science)to represent real-valued[random variables](https://en.wikipedia.org/wiki/Random_variable)whose distributions are not known. A[random variable](https://en.wikipedia.org/wiki/Random_variable)with a Gaussian distribution is said to benormally distributedand is called anormal deviate.
+
+
+
+The normal distribution is useful because of the[central limit theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). In its most general form, under some conditions (which include finite[variance](https://en.wikipedia.org/wiki/Variance)), it states that averages of samples of observations of[random variables](https://en.wikipedia.org/wiki/Random_variables)independently drawn from independent distributions[converge in distribution](https://en.wikipedia.org/wiki/Convergence_in_distribution)to the normal, that is, become normally distributed when the number of observations is sufficiently large. Physical quantities that are expected to be the sum of many independent processes (such as[measurement errors](https://en.wikipedia.org/wiki/Measurement_error)) often have distributions that are nearly normal.Moreover, many results and methods (such as[propagation of uncertainty](https://en.wikipedia.org/wiki/Propagation_of_uncertainty)and[least squares](https://en.wikipedia.org/wiki/Least_squares) parameter fitting) can be derived analytically in explicit form when the relevant variables are normally distributed.
+
+
+
+![一 suea A!l!qeq0Jd * 2 · 1 % 13 · 6 % * · 1 % ; * 34 · 1 % 13 · 6 % 2 +10 +20 + 30 P b * 68 · 2 % 99.7 % ](media/Normal-Distributions-image1.jpeg){width="6.291666666666667in" height="4.0in"}
+
+
+-   99% of the data should fall in 3 standard deviations from the mean
+
+
+
+**Properties of normal distributions**
+-   **Dispersion:** The standard deviation in a normal distribution measures the spread around the mean, but with links to probabilities of a number occuring in the sample falling within or out of that spread
+-   **Skewness:** A normal distribution is symmetric and has no skewness
+-   **Kurtosis:** A variable that is normally distributed can take on values from minus infinity to plus infinity, but the likelihood of extreme values is contrained. The kurtosis for a normal distribution is three, which becomes the standard against which other distributions are measured
+
+![](media/Normal-Distributions-image2.jpeg){width="5.0in" height="3.2395833333333335in"}
+
+
+-   The t distribution
+
+![Z distribution (standard normal) t-distribution (n close to 30) t-distribution (n smaller than 30) ](media/Normal-Distributions-image3.jpg){width="5.0in" height="2.8854166666666665in"}
+
+
+-   The Symmetric Triangular Distribution
+
+![](media/Normal-Distributions-image4.jpg){width="5.0in" height="2.9166666666666665in"}
+-   A Uniform Distribution
+
+![mean: g = E X --- ](media/Normal-Distributions-image5.jpg){width="5.0in" height="2.3958333333333335in"}
+-   Negative Skew: Minimum Extreme Value
+
+![Weibull Distribution ](media/Normal-Distributions-image6.jpeg){width="5.0in" height="2.9479166666666665in"}
+-   Positive Skew: Log Normal Distribution
+
+![2 부 0.02 0.14 0.26 0.38 0.50 0.62 0.74 0.86 1.10 1.22 1.34 1.46 1.70 1.82 1.94 2.06 2.18 2.30 2.42 2.54 2.66 2.78 ](media/Normal-Distributions-image7.jpeg){width="5.0in" height="2.5416666666666665in"}
+-   Thin tails and Fat tails
+
+![o Losses "Normal" Distribution: Low probability of events producing outsized market gains or losses "Fat Tail" Distribution: Greater probability of events producing outsized gains or losses Gains ](media/Normal-Distributions-image8.jpeg){width="4.385416666666667in" height="3.65625in"}
+
+
+
+**Measured with kurtosis**
+-   Kurtosis is a measure of the combined weights of the tails, relative to the rest of the distribution
+-   Most often, kurtosis is measured against the **normal distribution.** Pearson's kurtosis is the excess kurtosis over three
+    -   If the Pearson kurtosis is close to 0, then a normal distribution is often assumed. These are called mesokurtic distributions
+    -   If the Pearson kurtosis is less than 0, then the distribution has thin tails and is called a platykurtic distribution. (Uniform distribution is a good example)
+    -   If the Pearson kurtosis is greater than 0, then the distribution has fat tails and is called a leptokurtic distribution
+
+
+
+![ard symme e "l s Birorul m nthe Only Mirimum 血 △ 人 辶 ](media/Normal-Distributions-image9.jpeg){width="6.635416666666667in" height="4.0625in"}
+
+
+
+**Properties of Normal Distribution are as follows**
+
+1.  Unimodal-onemode
+
+2.  Symmetrical -left and right halves are mirror images
+
+3.  Bell-shaped-maximumheight(mode)atthemean
+
+4.  Mean,Mode,andMedianarealllocatedinthecenter
+
+5.  Asymptotic
+
+
+
+<https://en.wikipedia.org/wiki/Normal_distribution>
+
+
+
+
+
+
+
+
+

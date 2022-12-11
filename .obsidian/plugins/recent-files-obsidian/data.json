@@ -1,0 +1,63 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Daily Journal Template",
+      "path": "Journal/Templates/Daily Journal Template.md"
+    },
+    {
+      "basename": "Concepts",
+      "path": "Databases/Concepts/Concepts.md"
+    },
+    {
+      "basename": "Data",
+      "path": "Data-Structures/General/Data.md"
+    },
+    {
+      "basename": "Types-of-Databases",
+      "path": "Databases/Concepts/Types-of-Databases.md"
+    },
+    {
+      "basename": "Intro",
+      "path": "Databases/Concepts/Intro.md"
+    },
+    {
+      "basename": "Indexing",
+      "path": "Databases/Concepts/Indexing.md"
+    },
+    {
+      "basename": "Data-Modeling",
+      "path": "Databases/Modeling/Data-Modeling.md"
+    },
+    {
+      "basename": "Database-Workloads",
+      "path": "Databases/Modeling/Database-Workloads.md"
+    },
+    {
+      "basename": "MVCC,-MultiVersion-Concurrency-Control",
+      "path": "Databases/Concepts/MVCC,-MultiVersion-Concurrency-Control.md"
+    },
+    {
+      "basename": "Isolation-Levels",
+      "path": "Databases/Concepts/Isolation-Levels.md"
+    },
+    {
+      "basename": "Chat---HelpDesk---Ticketing",
+      "path": "Office/Projects/Chat---HelpDesk---Ticketing.md"
+    },
+    {
+      "basename": "Database-Index",
+      "path": "Databases/Concepts/Indexing/Database-Index.md"
+    },
+    {
+      "basename": "Journal-Format-Template",
+      "path": "Office/TODO/Journal-Format-Template.md"
+    },
+    {
+      "basename": "Customer-support-improvements",
+      "path": "Office/Projects/Customer-support-improvements.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ide
+.DS_Store
+
+# personal wikis
+Office
+Journal
+AI
+Knowledge
+Technologies
+Algorithms

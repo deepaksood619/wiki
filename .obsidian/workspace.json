@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "73f6ab4c4309c9ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5e487e6ca96101e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a115d7e51ac76155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Journal/Templates/Daily Journal Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9aec715e40fe0b5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c70a10eecdd7016",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "978fd2faf621af33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eae646b9619747a1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "601242bcde43eecc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "49b522e32aa98db2",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a8d7936637e41db9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f589876d77bdbf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9870e99c14257fc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Journal/Templates/Daily Journal Template.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8030d7701727900e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journal/Templates/Daily Journal Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "917be788c63afc8d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3a44f20d32c586d3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Journal/Templates/Daily Journal Template.md"
+              }
+            }
+          },
+          {
+            "id": "44031abfca79f000",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "978fd2faf621af33",
+  "lastOpenFiles": [
+    "TEst.md",
+    "Databases/Concepts/Concepts.md",
+    "Data-Structures/General/Data.md",
+    "Databases/Concepts/Types-of-Databases.md",
+    "Databases/Concepts/Intro.md",
+    "Databases/Concepts/Indexing.md",
+    "Databases/Modeling/Data-Modeling.md",
+    "Databases/Modeling/Database-Workloads.md",
+    "Databases/Concepts/MVCC,-MultiVersion-Concurrency-Control.md",
+    "Databases/Concepts/Isolation-Levels.md"
+  ]
+}
