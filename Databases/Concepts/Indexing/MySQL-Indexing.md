@@ -2,7 +2,7 @@
 
 Created: 2020-10-12 23:31:27 +0500
 
-Modified: 2022-05-11 23:39:13 +0500
+Modified: 2022-12-11 14:39:00 +0500
 
 ---
 
@@ -458,7 +458,7 @@ This isn't a range, we can't use a B-Tree to traverse this obviously. Imagine yo
 
 In general all of the below could leave an index unusable:
 -   !=
--   <>
+-   less than equal to operator
 -   NOT LIKE, NOT IN...
 -   NOT EXISTS ( SELECT * ... ) --- essentially a LEFT JOIN, often efficient
 -   NOT (expression)
@@ -467,13 +467,11 @@ In general all of the below could leave an index unusable:
 
 **Don't use functions in your queries**
 
-MySQL generally can't use indexes on columns unless the columns are isolated in the query. So don't use functions or expressions in your queries e.g:
-
-The expression on the left should be a column e.g.<column> <operator> <value>
+MySQL generally can't use indexes on columns unless the columns are isolated in the query. So don't use functions or expressions in your queries.
 
 
 
-The second you dofunc(column) <operator> <value>you can't use the index and a full table scan will occur.
+The second you dofunc(column) on leftyou can't use the index and a full table scan will occur.
 
 
 

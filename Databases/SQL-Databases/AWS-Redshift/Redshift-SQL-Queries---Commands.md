@@ -2,7 +2,7 @@
 
 Created: 2021-12-05 14:04:40 +0500
 
-Modified: 2022-08-22 12:54:08 +0500
+Modified: 2022-12-11 14:27:30 +0500
 
 ---
 
@@ -14,7 +14,7 @@ copy public.perfios_parsed
 
 from'[s3://stashfin-migration-data/bank_score_data/perfios/parsed_data/old_data/2017/01/Jan_2017](s3://stashfin-migration-data/bank_score_data/perfios/parsed_data/old_data/2017/01/Jan_2017)'
 
-iam_role 'arn:aws:iam::331916247734:role/<>'
+iam_role 'arn:aws:iam::331916247734:role/'
 
 COMPUPDATE off FORMATASPARQUET;
 

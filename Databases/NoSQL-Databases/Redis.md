@@ -2,7 +2,7 @@
 
 Created: 2019-05-08 16:24:51 +0500
 
-Modified: 2022-02-28 21:24:12 +0500
+Modified: 2022-12-11 13:47:19 +0500
 
 ---
 
@@ -96,7 +96,7 @@ When installing the chart withcluster.enabled=trueandsentinel.enabled=true, it w
 
 For read-only operations, access the service using port 6379. For write operations, it's necessary to access the Redis Sentinel cluster and query the current master using the command below (using redis-cli or similar:
 
-SENTINEL get-master-addr-by-name <name of your MasterSet. Example: mymaster>
+SENTINEL get-master-addr-by-name mymaster
 
 
 

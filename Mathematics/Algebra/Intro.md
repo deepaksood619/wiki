@@ -2,11 +2,11 @@
 
 Created: 2018-04-01 23:51:28 +0500
 
-Modified: 2021-06-06 16:40:32 +0500
+Modified: 2022-12-11 19:29:37 +0500
 
 ---
 
-# Algebra - 1
+**Algebra - 1**
 
 1.  Solving equations
 
@@ -36,18 +36,12 @@ Modified: 2021-06-06 16:40:32 +0500
 
 
 
-# Algebra - 2
+**Algebra - 2**
 
 1.  Functions
 
-```{=html}
-<!-- -->
-```
-2.  **Complex numbers**
+2.  Complex numbers
 
-```{=html}
-<!-- -->
-```
 3.  Polynomials
 
 4.  Radical relationships
@@ -56,24 +50,12 @@ Modified: 2021-06-06 16:40:32 +0500
 
 6.  Exponential growth and decay
 
-```{=html}
-<!-- -->
-```
-7.  **Exponential and logarithms**
+7.  Exponential and logarithms
 
-```{=html}
-<!-- -->
-```
 8.  Trigonometry
 
-```{=html}
-<!-- -->
-```
-9.  **Series**
+9.  Series
 
-```{=html}
-<!-- -->
-```
 10. Modeling
 
 11. Conic sections

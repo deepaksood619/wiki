@@ -2,7 +2,7 @@
 
 Created: 2018-06-02 14:02:02 +0500
 
-Modified: 2019-12-23 00:04:18 +0500
+Modified: 2022-12-11 19:27:35 +0500
 
 ---
 
@@ -256,16 +256,13 @@ Uniform Hashing Assumption
 
 1.  **Social network connectivity.**Given a social network containingnmembers and a log file containingmtimestamps at which times pairs of members formed friendships, design an algorithm to determine the earliest time at which all members are connected (i.e., every member is a friend of a friend of a friend ... of a friend). Assume that the log file is sorted by timestamp and that friendship is an equivalence relation. The running time of your algorithm should bemlognor better and use extra space proportional ton.
 
-```{=html}
-<!-- -->
-```
 2.  **Union-find with specific canonical element.**Add a method𝚏𝚒𝚗𝚍()to the union-find data type so that𝚏𝚒𝚗𝚍(𝚒)returns the largest element in the connected component containingi. The operations,𝚞𝚗𝚒𝚘𝚗(),𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍(), and𝚏𝚒𝚗𝚍()should all take logarithmic time or better. For example, if one of the connected components is{1,2,6,9}, then the𝚏𝚒𝚗𝚍()method should return9for each of the four elements in the connected components.
 
-3.  **Successor with delete**. Given a set ofnintegersS={0,1,...,n−1}and a sequence of requests of the following form:
+3.  **Successor with delete.** Given a set ofnintegersS={0,1,...,n−1}and a sequence of requests of the following form:
 
 RemovexfromS
 
-Find the*successor*ofx: the smallestyinSsuch thaty≥x.
+Find thesuccessorofx: the smallestyinSsuch thaty≥x.
 
 design a data type so that all operations (except construction) take logarithmic time or better in the worst case.
 
@@ -275,19 +272,16 @@ design a data type so that all operations (except construction) take logarithmic
 
 1.  **3-SUM in quadratic time.**Design an algorithm for the 3-SUM problem that takes time proportional ton2in the worst case. You may assume that you can sort thenintegers in time proportional ton2or better.
 
-```{=html}
-<!-- -->
-```
-2.  **Search in a bitonic array.**An array is*bitonic*if it is comprised of an increasing sequence of integers followed immediately by a decreasing sequence of integers. Write a program that, given a bitonic array ofndistinct integer values, determines whether a given integer is in the array.
-    -   **Standard version: Use∼3lgncompares in the worst case.**
-        -   **Signing bonus: Use∼2lgncompares in the worst case (and prove that no algorithm can guarantee to perform fewer than∼2lgncompares in the worst case).**
+2.  **Search in a bitonic array.**An array isbitonicif it is comprised of an increasing sequence of integers followed immediately by a decreasing sequence of integers. Write a program that, given a bitonic array ofndistinct integer values, determines whether a given integer is in the array.
+    -   Standard version: Use∼3lgncompares in the worst case.
+        -   Signing bonus: Use∼2lgncompares in the worst case (and prove that no algorithm can guarantee to perform fewer than∼2lgncompares in the worst case).
 
 3.  **Egg drop.**Suppose that you have ann-story building (with floors 1 throughn) and plenty of eggs. An egg breaks if it is dropped from floorTor higher and does not break otherwise. Your goal is to devise a strategy to determine the value ofTgiven the following limitations on the number of eggs and tosses:
-    -   **Version 0: 1 egg,≤Ttosses.**
-    -   **Version 1:∼1lgneggs and∼1lgntosses.**
-    -   **Version 2:∼lgTeggs and∼2lgTtosses.**
-    -   **Version 3:2eggs and∼2√ntosses.**
-    -   **Version 4:2eggs and≤c√T tosses for some fixed constantc.**
+    -   Version 0: 1 egg,≤Ttosses.
+    -   Version 1:∼1lgneggs and∼1lgntosses.
+    -   Version 2:∼lgTeggs and∼2lgTtosses.
+    -   Version 3:2eggs and∼2√ntosses.
+    -   Version 4:2eggs and≤c√T tosses for some fixed constantc.
 
 
 
@@ -406,20 +400,14 @@ What data structure or data structures would you use?
 
 1.  **Red--black BST with no extra memory.**Describe how to save the memory for storing the color information when implementing a red--black BST.
 
-```{=html}
-<!-- -->
-```
 2.  **Document search.**Design an algorithm that takes a sequence ofndocument words and a sequence ofmquery words and find the shortest interval in which themquery words appear in the document in the order given. The length of an interval is the number of words in that interval.
 
-```{=html}
-<!-- -->
-```
-3.  **Generalized queue**. Design a generalized queue data type that supports all of the following operations in logarithmic time (or better) in the worst case.
-    -   **Create an empty data structure.**
-    -   **Append an item to the end of the queue.**
-    -   **Remove an item from the front of the queue.**
-    -   **Return theithitem in the queue.**
-    -   **Remove theithitem from the queue.**
+3.  **Generalized queue.** Design a generalized queue data type that supports all of the following operations in logarithmic time (or better) in the worst case.
+    -   Create an empty data structure.
+    -   Append an item to the end of the queue.
+    -   Remove an item from the front of the queue.
+    -   Return theithitem in the queue.
+    -   Remove theithitem from the queue.
 
 
 

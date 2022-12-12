@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Intro",
-      "path": "AI/Courses/Customer-Analytics-in-Python/Intro.md"
+      "basename": "(1)-Linux-General---Unix-Linux-Commands",
+      "path": "Technologies/DevOps/Terminal-Bash/(1)-Linux-General---Unix-Linux-Commands.md"
     },
     {
-      "basename": "Course---Data-Storage-and-Processing---edX",
-      "path": "AI/Courses/Course---Data-Storage-and-Processing---edX.md"
+      "basename": "Unix---Linux",
+      "path": "Computer-Science/Operating-System/Unix---Linux.md"
     },
     {
-      "basename": "Course---Big-Data-Computing---NPTEL",
-      "path": "AI/Courses/Course---Big-Data-Computing---NPTEL.md"
+      "basename": "Obsidian---Note-Taking---Second-Brain",
+      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+    },
+    {
+      "basename": "Next-Steps---Reviews---Feedbacks---Team",
+      "path": "Office/Stashfin/Next-Steps---Reviews---Feedbacks---Team.md"
+    },
+    {
+      "basename": "Improvements---Feedbacks",
+      "path": "Office/Ideas/Improvements---Feedbacks.md"
+    },
+    {
+      "basename": "Business---Product",
+      "path": "Office/Stashfin/Business---Product.md"
+    },
+    {
+      "basename": "Reductions",
+      "path": "Algorithms/Advanced-Algorithms/Reductions.md"
     },
     {
       "basename": "README",
@@ -19,58 +35,6 @@
     {
       "basename": "Daily Journal Template",
       "path": "Journal/Templates/Daily Journal Template.md"
-    },
-    {
-      "basename": "Concepts",
-      "path": "Databases/Concepts/Concepts.md"
-    },
-    {
-      "basename": "Data",
-      "path": "Data-Structures/General/Data.md"
-    },
-    {
-      "basename": "Types-of-Databases",
-      "path": "Databases/Concepts/Types-of-Databases.md"
-    },
-    {
-      "basename": "Intro",
-      "path": "Databases/Concepts/Intro.md"
-    },
-    {
-      "basename": "Indexing",
-      "path": "Databases/Concepts/Indexing.md"
-    },
-    {
-      "basename": "Data-Modeling",
-      "path": "Databases/Modeling/Data-Modeling.md"
-    },
-    {
-      "basename": "Database-Workloads",
-      "path": "Databases/Modeling/Database-Workloads.md"
-    },
-    {
-      "basename": "MVCC,-MultiVersion-Concurrency-Control",
-      "path": "Databases/Concepts/MVCC,-MultiVersion-Concurrency-Control.md"
-    },
-    {
-      "basename": "Isolation-Levels",
-      "path": "Databases/Concepts/Isolation-Levels.md"
-    },
-    {
-      "basename": "Chat---HelpDesk---Ticketing",
-      "path": "Office/Projects/Chat---HelpDesk---Ticketing.md"
-    },
-    {
-      "basename": "Database-Index",
-      "path": "Databases/Concepts/Indexing/Database-Index.md"
-    },
-    {
-      "basename": "Journal-Format-Template",
-      "path": "Office/TODO/Journal-Format-Template.md"
-    },
-    {
-      "basename": "Customer-support-improvements",
-      "path": "Office/Projects/Customer-support-improvements.md"
     }
   ],
   "omittedPaths": [],

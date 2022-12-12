@@ -198,7 +198,7 @@ Modified: 2019-11-20 00:28:52 +0500
 | GET          | /druid­/br­oke­r/v­1/l­oad­status | Returns a flag indicating if the Broker knows about all segments in Zookeeper. |
 
 | Query Server |                      |                                                                                               |
-|-----------|----------------|---------------------------------------------|
+|-----------|----------------|----------------------------------------------|
 | Queries      |                      |                                                                                               |
 | POST         | /druid/v2/            | The endpoint for submitting queries. Accepts an option ?pretty that pretty prints the results. |
 | POST         | /druid­/v2­/ca­ndi­dates/ | Returns segment inform­ation lists including server locations for the given query..             |

@@ -2,7 +2,7 @@
 
 Created: 2018-11-14 00:36:17 +0500
 
-Modified: 2021-11-10 16:58:40 +0500
+Modified: 2022-12-11 19:31:00 +0500
 
 ---
 
@@ -52,7 +52,7 @@ Study of algebraic structures, which are sets and operations defined on these se
 ```
 -   [Analysis](https://en.wikipedia.org/wiki/Mathematical_analysis)
 
-**Calculus and Analysis -** Studies the computation of limits, derivatives, and integrals of functions of real numbers, and in particular studies instantaneous rates of change.
+Calculus and Analysis - Studies the computation of limits, derivatives, and integrals of functions of real numbers, and in particular studies instantaneous rates of change.
 
 
 -   [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
@@ -120,7 +120,7 @@ Studies natural, whole and prime numbers.
 
 
 
-[**Applied mathematics**](https://en.wikipedia.org/wiki/Applied_mathematics)
+[Applied mathematics](https://en.wikipedia.org/wiki/Applied_mathematics)
 -   [Approximation theory](https://en.wikipedia.org/wiki/Approximation_theory)
 -   [Combinatorics](https://en.wikipedia.org/wiki/Combinatorics)([outline](https://en.wikipedia.org/wiki/Outline_of_combinatorics))
 
@@ -210,7 +210,7 @@ Study of algorithms and data structures
 ```{=html}
 <!-- -->
 ```
--   **Information theory and signal processing**
+-   Information theory and signal processing
 
 Quantification of information (fundamental limits on compressing and reliably communicating data)
 

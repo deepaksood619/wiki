@@ -2,7 +2,7 @@
 
 Created: 2020-02-20 00:39:21 +0500
 
-Modified: 2022-11-29 17:55:19 +0500
+Modified: 2022-12-11 19:59:49 +0500
 
 ---
 
@@ -30,7 +30,7 @@ There are two types of Aurora MySQL parameter groups: DB parameter groups and DB
 
 
 
-<table>
+<table style="width:100%;">
 <colgroup>
 <col style="width: 31%" />
 <col style="width: 14%" />
@@ -58,8 +58,8 @@ There are two types of Aurora MySQL parameter groups: DB parameter groups and DB
 <tr class="even">
 <td><strong>max_connections</strong></td>
 <td>Functionality</td>
-<td>{Variable} <strong>(Current - 893)</strong></td>
-<td>{Variable}</td>
+<td>Variable <strong>(Current - 893)</strong></td>
+<td>Variable</td>
 <td>Limits the maximum number of concurrent database connections.</td>
 </tr>
 <tr class="odd">
@@ -117,7 +117,7 @@ There are two types of Aurora MySQL parameter groups: DB parameter groups and DB
 <tr class="even">
 <td><strong>innodb_buffer_pool_size</strong></td>
 <td>Performance</td>
-<td><p>{Variable}</p>
+<td><p>Variable</p>
 <p>3/4 of instance memory</p></td>
 <td><p>134217728</p>
 <p>(128 MB)</p></td>
@@ -162,7 +162,7 @@ There are two types of Aurora MySQL parameter groups: DB parameter groups and DB
 <tr class="odd">
 <td><strong>query_cache_size</strong></td>
 <td>Performance</td>
-<td>{Variable} 1/24 memory size</td>
+<td>Variable 1/24 memory size</td>
 <td><p>1048576</p>
 <p>(bytes)</p></td>
 <td>Amount of memory reserved for caching result sets. in multiples of 1,024.</td>
@@ -586,23 +586,6 @@ To tell if your working set is almost all in memory, check the ReadIOPS metric (
 **Wait Events**
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Tuning.wait-events.html>
-
-| **Wait event**                                                                                                                               | **Description**                                                                                                      |
-|---------------------------------------|---------------------------------|
-| [cpu](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.cpu.html)                                                       | This event occurs when a thread is active in CPU or is waiting for CPU.                                              |
-| [io/aurora_redo_log_flush](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.io-auredologflush.html)                    | This event occurs when a session is writing persistent data to Aurora storage.                                       |
-| [io/aurora_respond_to_client](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.resond-to-client.html)                  | This event occurs when a thread is waiting to return a result set to a client.                                       |
-| [io/file/innodb/innodb_data_file](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.innodb-data-file.html)              | This event occurs when there are threads waiting on I/O operations from storage.                                     |
-| [io/socket/sql/client_connection](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.client-connection.html)             | This event occurs when a thread is in the process of handling a new connection.                                      |
-| [io/table/sql/handler](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.waitio.html)                                   | This event occurs when work has been delegated to a storage engine.                                                  |
-| [synch/cond/mysys/my_thread_var::suspend](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.suspend.html)               | This event occurs when threads are suspended because they are waiting on a condition.                                |
-| [synch/cond/sql/MDL_context::COND_wait_status](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.cond-wait-status.html) | This event occurs when there are threads waiting on a table metadata lock.                                           |
-| [synch/mutex/innodb/aurora_lock_thread_slot_futex](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.waitsynch.html)    | This event occurs when one session has locked a row for an update, and another session tries to update the same row. |
-| [synch/mutex/innodb/buf_pool_mutex](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.bufpoolmutex.html)                | This event occurs when a thread has acquired a lock on the InnoDB buffer pool to access a page in memory.            |
-| [synch/mutex/innodb/fil_system_mutex](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.innodb-fil-system-mutex.html)   | This event occurs when a session is waiting to access the tablespace memory cache.                                   |
-| [synch/mutex/innodb/trx_sys_mutex](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.trxsysmutex.html)                  | This event occurs when there is high database activity with a large number of transactions.                          |
-| [synch/rwlock/innodb/hash_table_locks](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.rw-lock-hash-table-locks.html) | This event occurs when there is contention on modifying the hash table that maps the buffer cache.                   |
-| [synch/sxlock/innodb/hash_table_locks](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/ams-waits.sx-lock-hash-table-locks.html) | This event occurs when pages not found in the buffer pool must be read from a file.                                  |
 
 
 

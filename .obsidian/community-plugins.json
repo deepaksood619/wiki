@@ -11,5 +11,9 @@
   "periodic-notes",
   "obsidian-wikipedia",
   "url-into-selection",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "obsidian-reveal-active-file",
+  "editing-toolbar",
+  "obsidian-linter",
+  "obsidian-reading-time"
 ]

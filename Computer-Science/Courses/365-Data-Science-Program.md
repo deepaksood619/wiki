@@ -2,22 +2,16 @@
 
 Created: 2020-04-05 01:22:40 +0500
 
-Modified: 2021-09-20 23:27:20 +0500
+Modified: 2022-12-11 19:24:37 +0500
 
 ---
 
-1.  **Intro to Data and Data Science**
+1.  Intro to Data and Data Science
 
-```{=html}
-<!-- -->
-```
-2.  *Introduction to Microsoft Excel*
+2.  Introduction to Microsoft Excel
 
-3.  *Advanced Microsoft Excel*
+3.  Advanced Microsoft Excel
 
-```{=html}
-<!-- -->
-```
 4.  Probability
 
 5.  Statistics
@@ -42,14 +36,8 @@ Modified: 2021-09-20 23:27:20 +0500
 
 13. Introduction to R Programming
 
-```{=html}
-<!-- -->
-```
-14. *Advanced Statistical Methods*
+14. Advanced Statistical Methods
 
-```{=html}
-<!-- -->
-```
 15. Deep Learning with TensorFlow
 
 <https://365datascience.teachable.com/courses/enrolled/284663>

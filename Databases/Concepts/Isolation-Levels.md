@@ -11,6 +11,7 @@ SELECT @@TX_ISOLATION; - REPEATABLE-READ
 SHOW ENGINE INNODB STATUS;
 
 
+
 In[database](https://en.wikipedia.org/wiki/Database)systems,isolationdetermines how[transaction](https://en.wikipedia.org/wiki/Database_transaction)integrity is visible to other users and systems. For example, when a user is creating a Purchase Order and has created the header, but not the Purchase Order lines, is the header available for other systems/users (carrying out[concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science))operations, such as a report on Purchase Orders) to see? (Refers to current, not past database systems)
 
 
