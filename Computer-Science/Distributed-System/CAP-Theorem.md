@@ -180,14 +180,14 @@ In[theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_compu
 <td></td>
 </tr>
 <tr class="even">
-<td>Hazelcast IMDG</a></td>
+<td>Hazelcast IMDG</td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
 </tr>
 <tr class="odd">
-<td>FaunaDB</a></td>
+<td>FaunaDB</td>
 <td></td>
 <td>Yes</td>
 <td>Yes</td>
