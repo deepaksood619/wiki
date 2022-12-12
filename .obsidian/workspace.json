@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md"
               }
             }
           },
@@ -152,11 +152,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "978fd2faf621af33",
+  "active": "e4dac95d81b51876",
   "lastOpenFiles": [
+    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
     "Technologies/DevOps/Terminal-Bash/(1)-Linux-General---Unix-Linux-Commands.md",
     "Computer-Science/Operating-System/Unix---Linux.md",
-    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
     "Office/Stashfin/Next-Steps---Reviews---Feedbacks---Team.md",
     "Office/Ideas/Improvements---Feedbacks.md",
     "Office/Stashfin/Business---Product.md",

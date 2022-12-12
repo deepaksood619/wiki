@@ -51,7 +51,7 @@ In the presence of a network partition, you must choose betwen consistency and a
 -   A distributed storage system can achieve at most two of C, A, and P.
 -   When partition-tolerance is important, you have to choose between consistency and availability
 
-![Con istency HBase, HyperTable, BigTable, Spanner Pick 2 Partition-tolerance RDBMSs (non-replicated) Availability Cassandra, RIAK, Dynayo, Voldemort ](media/CAP-Theorem-image1.png){width="5.0in" height="4.65625in"}
+![Con istency HBase, HyperTable, BigTable, Spanner Pick 2 Partition-tolerance RDBMSs (non-replicated) Availability Cassandra, RIAK, Dynayo, Voldemort ](media/CAP-Theorem-image1.png)
 **Eventual Consistency**
 -   If all writes stop (to a key), then all its values (replicas) will converge eventually.
 -   If writes continue, then system always tries to keep converging.
@@ -78,8 +78,8 @@ In[theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_compu
 -   [Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB)supports five tunable consistency levels that allow for tradeoffs between C/A during P, and L/C during E.[Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB)never violates the specified consistency level, so it's formally CP.
 -   [MongoDB](https://en.wikipedia.org/wiki/MongoDB)can be classified as a PA/EC system. In the baseline case, the system guarantees reads and writes to be consistent.
 -   PNUTS is a PC/EL system.
--   Hazelcast IMDG and indeed most in-memory data grids are an implementation of a PA/EC system; Hazelcast can be configured to be EL rather than EC.Concurrency primitives (Lock, AtomicReference, CountDownLatch, etc.) can be either PC/EC or PA/EC.[[5]](https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-:0-5)
--   [FaunaDB](https://news.ycombinator.com/item?id=18257128)implements[Calvin](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf), a transaction protocol created by Dr. Daniel Abadi and author[[1]](https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-Abadi-1)of PACELC theorem, and offers users adjustable controls for LC tradeoff. It is PC/EC for strictly serializable transactions, and EL for serializable reads.
+-   Hazelcast IMDG and indeed most in-memory data grids are an implementation of a PA/EC system; Hazelcast can be configured to be EL rather than EC.Concurrency primitives (Lock, AtomicReference, CountDownLatch, etc.) can be either PC/EC or PA/EC.
+-   [FaunaDB](https://news.ycombinator.com/item?id=18257128) implements [Calvin](http://cs.yale.edu/homes/thomson/publications/calvin-sigmod12.pdf), a transaction protocol created by Dr. Daniel Abadi and author of PACELC theorem, and offers users adjustable controls for LC tradeoff. It is PC/EC for strictly serializable transactions, and EL for serializable reads.
 
 <table>
 <colgroup>
@@ -101,99 +101,101 @@ In[theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_compu
 <tbody>
 <tr class="odd">
 <td>DynamoDB</td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><p><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></p>
-<p><a href="https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-lctradeoff-6">[a]</a></p></td>
+<td><p>Yes</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Cassandra</td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><p><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></p>
-<p><a href="https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-lctradeoff-6">[a]</a></p></td>
+<td><p>Yes</p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Cosmos DB</td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Couchbase</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
 <td>Riak</td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><p><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></p>
-<p><a href="https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-lctradeoff-6">[a]</a></p></td>
+<td><p>Yes</p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>VoltDB/H-Store</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
 <td>Megastore</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 </tr>
 <tr class="even">
 <td>BigTable/HBase</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
 <td>MySQL Cluster</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 </tr>
 <tr class="even">
 <td>MongoDB</td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 <td></td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
 <td>PNUTS</td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
+<td>Yes</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Hazelcast IMDG<a href="https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-7">[6]</a><a href="https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-:0-5">[5]</a></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Hazelcast IMDG</a></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
 </tr>
 <tr class="odd">
-<td>FaunaDB<a href="https://en.wikipedia.org/wiki/PACELC_theorem#cite_note-8">[7]</a></td>
+<td>FaunaDB</a></td>
 <td></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
-<td><img src="media/CAP-Theorem-image2.png" style="width:0.13542in;height:0.13542in" alt="Yes" /></td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
-<https://en.wikipedia.org/wiki/PACELC_theorem>
-<https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed>
+
+[PACELC theorem - Wikipedia](https://en.wikipedia.org/wiki/PACELC_theorem)
+[CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed)
+
