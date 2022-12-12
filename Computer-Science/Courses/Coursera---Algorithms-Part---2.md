@@ -27,9 +27,6 @@ Modified: 2018-07-01 22:55:14 +0500
 5.  Connected Components
 
 6.  Graph Challenges
-
-
-
 **Directed Graph**
 
 1.  Introduction to Digraphs
@@ -51,15 +48,9 @@ Modified: 2018-07-01 22:55:14 +0500
     a.  Garbage Collection
 
     b.  Web Crawling
-
-
-
 **Assignment**
 
 WordNet
-
-
-
 **Week - 2**
 
 **Minimum Spanning Tree**
@@ -75,9 +66,6 @@ WordNet
 5.  Prim's Algorithm
 
 6.  MST Context
-
-
-
 **Shortest Path**
 
 1.  Shortest Path APIs
@@ -89,15 +77,9 @@ WordNet
 4.  Edge-Weighted DAGs
 
 5.  Negative Weights (Bellman Ford Algorithm)
-
-
-
 **Assignment**
 
 Seam Carving
-
-
-
 **Week - 3**
 
 **Maximum Flow and Minimum Cut**
@@ -113,15 +95,9 @@ Seam Carving
 5.  Java Implementation
 
 6.  Maxflow Applications
-
-
-
 **Assignment**
 
 Baseball Elimination
-
-
-
 **Radix Sorts**
 
 1.  Strings in Java
@@ -135,9 +111,6 @@ Baseball Elimination
 5.  3-way Radix Quicksort
 
 6.  Suffix Arrays
-
-
-
 **Week - 4**
 
 **Tries**
@@ -147,9 +120,6 @@ Baseball Elimination
 2.  Ternary Search Tries
 
 3.  Character-Based Operations
-
-
-
 **Substring Search**
 
 1.  Introduction to Substring Search
@@ -161,15 +131,9 @@ Baseball Elimination
 4.  Boyer-Moore
 
 5.  Rabin-Karp
-
-
-
 **Assignment**
 
 Boggle
-
-
-
 **Week - 5**
 
 **Regular Expressions**
@@ -183,9 +147,6 @@ Boggle
 4.  NFA Construction
 
 5.  RE Applications
-
-
-
 **Data Compression**
 
 1.  Introduction
@@ -195,15 +156,9 @@ Boggle
 3.  Huffman Compression
 
 4.  LZW Compression
-
-
-
 **Assignment**
 
 Burrows-Wheeler
-
-
-
 **Week - 6**
 
 **Reductions**
@@ -215,9 +170,6 @@ Burrows-Wheeler
 3.  Establishing Lower Bounds
 
 4.  Classifying Problems
-
-
-
 **Linear Programming**
 
 1.  Brewer's Problem
@@ -227,9 +179,6 @@ Burrows-Wheeler
 3.  Simplex Implementations
 
 4.  Linear Programming Reductions
-
-
-
 **Intractability**
 
 1.  Introduction
@@ -243,19 +192,11 @@ Burrows-Wheeler
 5.  NP-Completeness
 
 6.  Coping with Intractability
-
-
-
 # Interview Questions
 
 # 1.1 Undirected Graphs
 
-1.  **Nonrecursive depth-first search.**Implement depth-first search in an undirected graph without using recursion.
-
-```{=html}
-<!-- -->
-```
-2.  **Diameter and center of a tree.**Given a connected graph with no cycles
+1.  **Nonrecursive depth-first search.**Implement depth-first search in an undirected graph without using recursion.2.  **Diameter and center of a tree.**Given a connected graph with no cycles
     -   ***Diameter*: design a linear-time algorithm to find the longest simple path in the graph.**
     -   ***Center*: design a linear-time algorithm to find a vertex such that its maximum distance from any other vertex is minimized.**
 
@@ -277,9 +218,6 @@ For example,
 -   *animal*is a hypernym of both*bird*and*fish*;
 -   *bird*is a hypernym of*eagle*,*pigeon*, and*seagull*.
 -   Spoon is a hyponym of cutlery
-
-
-
 References -
 
 <http://coursera.cs.princeton.edu/algs4/assignments/wordnet.html>

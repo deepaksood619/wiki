@@ -15,7 +15,4 @@ Create a series starting with N, if even then divide by 2, if odd then 3n+1. The
 -   If even divide by 2
 -   If odd multiply by 3 and add one
 -   Repeat above two steps with new value
-
-
-
 2.  Riemann hypotesis

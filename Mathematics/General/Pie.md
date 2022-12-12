@@ -7,21 +7,7 @@ Modified: 2018-05-28 20:23:56 +0500
 ---
 
 Pie is the ratio of circumference of a circle to its diameter
-
-
-
 [What is Pi?](https://www.youtube.com/watch?v=DLcjed7qy4I)
-
-
-
 ![150k+ views ](media/Pie-image1.jpg){width="5.0in" height="2.8020833333333335in"}
-
-
-
 [Area of a circle, how to get the formula.](https://www.youtube.com/watch?v=YokKp3pwVFc)
-
-
-
 ![](media/Pie-image2.jpg){width="5.0in" height="2.8020833333333335in"}
-
-

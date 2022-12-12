@@ -25,9 +25,6 @@ environment:
 MONGO_INITDB_ROOT_USERNAME: root
 
 MONGO_INITDB_ROOT_PASSWORD: example
-
-
-
 mongo_express:
 
 stdin_open: true
@@ -49,27 +46,15 @@ environment:
 ME_CONFIG_MONGODB_ADMINUSERNAME: root
 
 ME_CONFIG_MONGODB_ADMINPASSWORD: example
-
-
-
 brew install mongodb
-
-
-
 # start mongodb server
 
 brew services start mongo
-
-
-
 **# start mongo client**
 
 mongo
 
 mongo -u root -p example
-
-
-
 **Mongo DB Queries**
 
 db.stats()
@@ -85,13 +70,7 @@ show dbs #show databases, only shows database with atleast one document
 db.movie.insert({'name':'End game'}) #automatically creates a collection movie if not present
 
 db.dropDatabase()
-
-
-
 db.createUser({user:"deepak", pwd:"12345", roles:["readWrite", "dbAdmin"]})
-
-
-
 db.createCollection(name, options)
 
 show collections
@@ -104,9 +83,6 @@ db.createCollection("mycol", { capped : true, autoIndexId : true, size :
 db.customers.insert({"first_name":"Deepak","last_name":"Sood"});
 
 db.COLLECTION_NAME.drop()
-
-
-
 db.COLLECTION_NAME.find()
 
 db.COLLECTION_NAME.find().pretty()
@@ -116,9 +92,6 @@ db.sms_collection.find({device_id: "009906bcc9ed9d86"})
 db.sms_collection.find({device_id: "009906bcc9ed9d86"}, {device_id: 1})
 
 db.sms_collection.find({}, {device_id: 1})
-
-
-
 db.COLLECTION_NAME.update(SELECTION_CRITERIA, UPDATED_DATA) #updates the values in the existing document.
 
 db.COLLECTION_NAME.save({_id:ObjectId(),NEW_DATA}) #replaces the existing document with the new document passed in the save() method.
@@ -132,23 +105,11 @@ db.COLLECTION_NAME.find().limit(NUMBER)
 db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER) #accepts number type argument and is used to skip the number of documents.
 
 db.COLLECTION_NAME.find().sort({KEY:1}) #1 is used for ascending order while -1 is used for descending order.
-
-
-
 db.customers.find().forEach(function(doc){print("Cust Name: "+doc.first_name)}); # looping through all data
-
-
-
 db.collection.createIndex( { name: -1 } )
 
 db.sms_collection.getIndexes()
-
-
-
 db.COLLECTION_NAME.aggregate(AGGREGATE_OPERATION)
-
-
-
 **RDBMS Where Clause Equivalents in MongoDB**
 
 To query the document on the basis of some condition, you can use following operations.
@@ -161,8 +122,5 @@ To query the document on the basis of some condition, you can use following oper
 | Greater Than        | {<key>:{$gt:<value>}}  | db.mycol.find({"likes":{$gt:50}}).pretty()        | where likes > 50              |
 | Greater Than Equals | {<key>:{$gte:<value>}} | db.mycol.find({"likes":{$gte:50}}).pretty()       | where likes >= 50             |
 | Not Equals          | {<key>:{$ne:<value>}}  | db.mycol.find({"likes":{$ne:50}}).pretty()        | where likes != 50              |
-
-
-
 **Others**
 -   VS Code extension for mongodb

@@ -7,15 +7,9 @@ Modified: 2021-12-04 17:36:03 +0500
 ---
 
 [System design : Design Autocomplete or Typeahead Suggestions for Google search](https://www.youtube.com/watch?v=us0qySiUsGU)
-
-
-
 Use Case
 
 1.  Suggestions for Google Search
-
-
-
 Modules
 
 1.  Autocorrect for misspelled words
@@ -25,15 +19,9 @@ Modules
 3.  Personalized results
 
 4.  More than one Language
-
-
-
 Data Structure
 
 1.  Distributed Trie
-
-
-
 Important Concepts
 
 1.  Request Flow
@@ -44,9 +32,6 @@ Important Concepts
     -   Getting list of strings from a background process, aggregate them and update trie
     -   Aggregators
     -   Appliers
-
-
-
 Request Flow
 
 1.  User types query in search bar
@@ -60,26 +45,11 @@ Request Flow
 5.  If not found, looks into zookeeper instance for finding the Trie that is reponsible for the given prefix.
 
 6.  Get the prefixes from Trie, populate the cache for future use and return the suggestions.
-
-
-
 Optimizations
 
 1.  Cache in CDN (Content Delivery Networks)
 
 2.  Cache results in Local Machine
-
-
-
 ![ii9 ](media/System-Design---Autocomplete-or-TypeAhead-image1.png){width="5.0in" height="4.5in"}
-
-
-
 ![DO 0 ](media/System-Design---Autocomplete-or-TypeAhead-image2.png){width="5.0in" height="4.385416666666667in"}
-
-
-
 ![Neo プ ャ ](media/System-Design---Autocomplete-or-TypeAhead-image3.png){width="5.0in" height="5.53125in"}
-
-
-

@@ -29,9 +29,6 @@ In other words, the total distance traveled is 402 meters, or a quarter mile. Mu
 # HOW TO CALCULATE ACCELERATION
 
 In physics terms, acceleration,a, is the amount by which your velocity changes in a given amount of time. Given the initial and final velocities,viandvf, and the initial and final times over which your speed changes,tiandtf, you can write the equation like this:
-
-
-
 ![acceleration formula](media/Distance-Speed-and-Time-image4.png){width="1.15625in" height="0.46875in"}
 
 In terms of units, the equation looks like this:
@@ -61,13 +58,4 @@ Great. Plugging in the numbers, you get the following:
 ![](media/Distance-Speed-and-Time-image8.png){width="0.9479166666666666in" height="1.90625in"}
 
 Okay, the acceleration is approximately 27 meters per second2. What's that in more understandable terms? The acceleration due to gravity,g,is 9.8 meters per second2, so this is about 2.7 g's --- you'd feel yourself pushed back into your seat with a force about 2.7 times your own weight.
-
-
-
-
-
-
-
-
-
 

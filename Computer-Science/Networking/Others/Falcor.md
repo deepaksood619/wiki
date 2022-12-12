@@ -7,9 +7,6 @@ Modified: 2018-12-04 00:48:23 +0500
 ---
 
 A JavaScript library for efficient data fetching
-
-
-
 1.  One Model Everywhere
 
 Falcor lets you represent all your remote data sources as a single domain model via a virtual JSON graph. You code the same way no matter where the data is, whether in memory on the client or over the network on the server.
@@ -21,9 +18,6 @@ A JavaScript-like path syntax makes it easy to access as much or as little data 
 3.  Bind to the Cloud
 
 Falcor automatically traverses references in your graph and makes requests as needed. Falcor transparently handles all network communications, opportunistically batching and de-duping requests.
-
-
-
 **References**
 
 <https://netflix.github.io/falcor/>

@@ -13,23 +13,11 @@ Modified: 2022-08-18 15:27:11 +0500
 -   Google Meet
 -   Skype
 -   <https://goodmeetings.ai/>
-
-
-
 RTMP - Real-Time Messaging Protocol
 
 <https://github.com/facebookincubator/rtmp-go-away>
-
-
-
 HLS - <https://www.toptal.com/apple/introduction-to-http-live-streaming-hls>
-
-
-
 MPEG-DASH - Dynamic Adaptive Streaming over HTTP
-
-
-
 **WebRTC**
 
 **Peer to peer live streaming protocol**
@@ -58,27 +46,12 @@ MPEG-DASH - Dynamic Adaptive Streaming over HTTP
 -   Ensures the call works in almost all environments
 -   Relays packet from point A to point B
 -   All TURN servers are also STUN servers
-
-
-
 ![Signaling App App SessionDescription WebRTC Browser Caller Media Signaling App SessionDescription Browser Callee ](media/Video---Live-Streaming-image1.png){width="5.0in" height="2.9479166666666665in"}
-
-
-
 ![Signalling TURN server Media NAT peer STUN server webrtc Signalling TURN server NAT Peer STUN server ](media/Video---Live-Streaming-image2.png){width="5.0in" height="3.3020833333333335in"}
-
-
-
 [WebRTC Crash Course](https://youtu.be/FExZvpVvYxA)
-
-
-
 **FFMPEG Streaming**
 
 ffmpeg (fast forward motion pictures expert group) for streaming videos over rtp to any number of different locations using multicasting
-
-
-
 **Commands**
 
 ffmpeg -i demo.mp4 -v 0 -vcodec mpeg4 -f mpegts udp://192.168.1.119:1234
@@ -87,20 +60,11 @@ ffplay udp://192.168.1.119:1234
 
 ffmpeg -i rtp://@239.35.10.4:10000 -map 0:0 -map 0:2 -vcodec copy -acodec
 
-copy -t 10 -y test.mkv
-
-
--   Wowza Streaming Server
+copy -t 10 -y test.mkv-   Wowza Streaming Server
 -   Red5 FOSS Streaming Server
-
-
-
 FFMPEG stitching multiple files into one
 
 <https://trac.ffmpeg.org/wiki/Concatenate>
-
-
-
 **References**
 
 <https://www.wowza.com/docs/tutorials>
@@ -108,27 +72,15 @@ FFMPEG stitching multiple files into one
 <http://red5.org/>
 
 <https://www.wowza.com/docs/how-to-publish-a-video-file-as-a-live-stream>
-
-
-
 <https://s3-ap-southeast-1.amazonaws.com/shivamzenatix/Test-Deepak/demo.mp4>
-
-
-
 <https://aws.amazon.com/cloudfront/streaming/>
 
 <https://aws.amazon.com/answers/media-entertainment/live-streaming/>
-
-
-
 <https://trac.ffmpeg.org/wiki/Map>
 
 <https://trac.ffmpeg.org/wiki/StreamingGuide>
 
 <https://trac.ffmpeg.org/wiki/Capture/Webcam>
-
-
-
 [**https://go.bitmovin.com/ultimate-guide-container-formats**](https://go.bitmovin.com/ultimate-guide-container-formats)
 
 ![Chapter 1 Welcome to the ultimate guide to Container Formats. This all---inclusive whitepaper covers the four most common container formats (as of 2019) and it matters to you, The first chapter defines key terminology and how containers function Within Video players. Container Basics & Terminology Definition Of Codecs Codecs are an internet protocol used to store media Signals in binary form. The goal Of most CO-docs 'o compress the raw media Signal in a IOSSY Way. meaning 'hot the compression is irreversible. Partial data is discarded from the media Signal and approximations ore made. The most cornrnon media signals are Video, audio and Specific examples Of Video COdøcs include: AVI, 4264. HEVC, and VP9: The most commonly used audio codecs AAC MP3, and Opus. There ore many different for each media Signal (as illustrated in fig l). Subtitles SRI SCC Video Audio AAC MP3 opus A Single media Signal is Often called an Elementary Stream or more Simply - Stream. The video development/broodcast industry will Often use terms Such Media, or H (or H interchangeably with • Video Streams: What is a media container? Media Containers (also known as Container Formats) are a metafile format specification describing how different multimedia data elements (streams) and metadata coexist in Some of the elements specified by a container format are; Stream Encapsulation Allowance of one or more media streams to exist in a single Timing/ Synchrmization --- The container adds dota on how the different streams in the file can be used together, Ex; Affixing correct timestamps to synchronize lip-movement in a video stream with sounds in the audio stream, Seeking --- The container provides additional time-oriented information that determines a specific point which a viewer can jump to in a video file/stream, Ex; A viewer wants to watch a movie from a specific scene or would like to Skip the Intro of their favorite series ](media/Video---Live-Streaming-image3.png){width="6.041666666666667in" height="8.552083333333334in"}
@@ -146,34 +98,10 @@ FFMPEG stitching multiple files into one
 ![](media/Video---Live-Streaming-image9.png){width="6.041666666666667in" height="8.552083333333334in"}
 
 ![](media/Video---Live-Streaming-image10.png){width="6.041666666666667in" height="8.552083333333334in"}
-
-
-
-![from Encoder MOAT Still being encoded/rruxed Traditional fMP4 Segment to Decoder Chunked CMAF Segment "DAT Can already be loaded and player Playback of segment can only start once fully downloaded. Playback can be started once first chunk is received. Player already plays on one end while encoder Still writes on the other. In traditional (f)MP4 the whole segment has to be fully downloaded to be played out. With chunked encoding, any completely loaded chunks of the segment can be decoded and played, while loading the rest of the segment. Hereby, the achievable live latency is no longer dependent on the segment duration as muxed chunks of an incomplete segment can be loaded and played at the client. With (f)MP4, MPEG-CMAF, and Chunked CMAF have been covered, you're ready for the complex container functions: MPEG-TS & Matroska (WebM) ](media/Video---Live-Streaming-image11.jpg){width="5.0in" height="3.21875in"}
-
-
-
-
-
-![Chapter 3 MPEG Transport Streams (MPEG-TS) a Muxing MPEG Transport Stream wcs Standardized in MPEG-2 Parf I and specifically designed for Digital Video Broadcasting (DVB) applications. Compared to its counterpart, 'he MPEG Program Stream, Which wos airned for storing and found ifs use in applications like DVD, the MPEG Transport Stream (MPEG-IS) is o more transport-oriented forma[ An MPEG---TS consists Of individual packets built to increase resilience against and minimize implications Of corruption or loss. the forma' includes Forward Error Correction (EEC) techniques that Which catch and Correct transmission errors 'he receiver. Simply put, 'he MPEG-TS format wos designed for the use on IOS" transport Channels. Muxing in MPEG-TS Containers so. What is the process behind transport channels - Muxing the stream! The process begins With an Elementary Stream CES) from an encoder converting into Packetized Elementary S'rø•am (PES) by adding o PES Header. The added PES header typically includes a identifier, 'ho PES pocket length and information about media timestamps, among Other things - like padding. Next, the PES is split up into 184 byte Chunks and turned into a Transport US) by adding a 4 byte header to each Chunk. The resulting TS consists Of pockets With a fixed length Of 188 bytes. Each TS packet's header carries the SOr•nø Pocket Identifier (PID) os 'ho PES TS (illustrated packet from the elementary it originated. In Short: Muxing z ES in fig 11) the PES ](media/Video---Live-Streaming-image12.png){width="6.041666666666667in" height="8.552083333333334in"}
+![from Encoder MOAT Still being encoded/rruxed Traditional fMP4 Segment to Decoder Chunked CMAF Segment "DAT Can already be loaded and player Playback of segment can only start once fully downloaded. Playback can be started once first chunk is received. Player already plays on one end while encoder Still writes on the other. In traditional (f)MP4 the whole segment has to be fully downloaded to be played out. With chunked encoding, any completely loaded chunks of the segment can be decoded and played, while loading the rest of the segment. Hereby, the achievable live latency is no longer dependent on the segment duration as muxed chunks of an incomplete segment can be loaded and played at the client. With (f)MP4, MPEG-CMAF, and Chunked CMAF have been covered, you're ready for the complex container functions: MPEG-TS & Matroska (WebM) ](media/Video---Live-Streaming-image11.jpg){width="5.0in" height="3.21875in"}![Chapter 3 MPEG Transport Streams (MPEG-TS) a Muxing MPEG Transport Stream wcs Standardized in MPEG-2 Parf I and specifically designed for Digital Video Broadcasting (DVB) applications. Compared to its counterpart, 'he MPEG Program Stream, Which wos airned for storing and found ifs use in applications like DVD, the MPEG Transport Stream (MPEG-IS) is o more transport-oriented forma[ An MPEG---TS consists Of individual packets built to increase resilience against and minimize implications Of corruption or loss. the forma' includes Forward Error Correction (EEC) techniques that Which catch and Correct transmission errors 'he receiver. Simply put, 'he MPEG-TS format wos designed for the use on IOS" transport Channels. Muxing in MPEG-TS Containers so. What is the process behind transport channels - Muxing the stream! The process begins With an Elementary Stream CES) from an encoder converting into Packetized Elementary S'rø•am (PES) by adding o PES Header. The added PES header typically includes a identifier, 'ho PES pocket length and information about media timestamps, among Other things - like padding. Next, the PES is split up into 184 byte Chunks and turned into a Transport US) by adding a 4 byte header to each Chunk. The resulting TS consists Of pockets With a fixed length Of 188 bytes. Each TS packet's header carries the SOr•nø Pocket Identifier (PID) os 'ho PES TS (illustrated packet from the elementary it originated. In Short: Muxing z ES in fig 11) the PES ](media/Video---Live-Streaming-image12.png){width="6.041666666666667in" height="8.552083333333334in"}
 
 ![Muxing multiple Elementary Streams A single elernentary stream represents either audio or video content. Most video elementary streams aro accompanied by ot least ono audio elementary stream. These correlated ES•s are muxed into the same transport stream with separate PI DS for each ES and it's packets. Illustrated in fig 12; Vide E Muxing multiple Programs The most complex variation Of muxing a stream is the process Of multiple programs. With MPEG-TS, a program is o set Of related elementary streams 'hat belong together, e.g. Video and the matching audio. A Single transport can Carry multiple programs, e.g. o different TV channel. This process Can be seen in Fig 13: program I Program 2 PES PES ](media/Video---Live-Streaming-image13.png){width="6.041666666666667in" height="8.552083333333334in"}
 
 ![Program Association From a Icnn-level perspective a transport stream is just a sequence of 188 byte Bng TS packets. As previously mentioned, there can be many programs with multiple elementary streams, but a client is usually only capable of presenting one program ot a time. It must therefore determine which packets to consume and which to discard upon receiving tho transport stream. For this purpose there aro two kinds of special pockets: program Association Tab l. (PAT) --- PAT packet. the PID O and contains the PID. for program Map tables of all programs within the transport stream. program Map Table (PMT) - PMT represent. a and PID. for The prcn:ess by which PATS and PMTS determine which packets to consume takes four steps, as defined in fig 14 and elaborated below: TS Packet PID 202 PID 102 TS Packet PID 200 PID 100 PID O 202 Inspect the TS Pocket With PID O, Which contains the PAT _ 2_ Find the PMT---PID Of the Program the player Should play back in the PAT (in this example: 200), 3. Get the TS Pocket with the relevant PMT- PID, which the PMT (200). _ The PMT contains the PID for all the media tracks, which are part Of the Program to play. A client receiving the transport Stream would first read the PAT packet it received and pick a program to be played depending on o user'S selection. The Client pulls the selected program's PMT (including the ESS and AIDS) from the PAL Then, the Client filters for the specified ADS, each representing a separate ES Of the chosen program, and Consumes deco-des and plays them for the user. OTT---specific aspects and Conclusion MPEG-TS is very broadcast---oriented, in OTT, however, there additional special considerations. OTT clients hove network connections that are unstable and do not have guaranteed bandwidth: ](media/Video---Live-Streaming-image14.png){width="6.041666666666667in" height="8.552083333333334in"}
 
 ![](media/Video---Live-Streaming-image15.png){width="6.041666666666667in" height="8.552083333333334in"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

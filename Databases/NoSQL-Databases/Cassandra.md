@@ -13,13 +13,7 @@ Apache Cassandrais a[free and open-source](https://en.wikipedia.org/wiki/Free_an
 -   Is a highly scalable, distributed and high-performance NoSQL database. Cassandra is designed to handle a huge amount of data
 -   Cassandra handles the huge amount of data with its distributed architecture
 -   Data is placed on different machines with more than one replication factor that provides high availability and no single point of failure
-
-
-
 Under hood cassandra uses **consistent hashing to shard your data** and also use **gossiping to keep all the nodes informed about the cluster.**
-
-
-
 **Features**
 
 1.  Distributed columnar data store
@@ -61,9 +55,6 @@ Cassandra introduced the Cassandra Query Language (CQL). CQL is a simple interfa
 11. Easily maintainable
 
 12. Almost infinitely scalable
-
-
-
 **Cassandra Data Model**
 
 1.  KeySpace
@@ -77,23 +68,11 @@ A keyspace in Cassandra is a namespace that defines data replication on nodes. A
 4.  Column
 
 5.  SuperColumn
-
-
-
 <https://www.tutorialspoint.com/cassandra/cassandra_data_model.htm>
-
-
-
 Cassandra is fundamentally a key-value store and distributes data around the cluster by a **PARTITION KEY**, then sorts the data on that partition (or row) by the **CLUSTERING key**. Adding new data to that row is almost free, and updates are handled by marking the previous cell value with a **tombstone** and adding the new value to the row. Eventually, you will need to **compact** these partitions as data becomes fragmented over multiple files, but remember that you are amortizing your INSERTs and UPDATEs over time with almost instantaneous commits. This makes scanning a single partition or row very fast as the disk head only performs a single seek operation. However, if you want more than a single Cassandra partition, performance goes south fairly quickly as **scatter/gather** queries are an **anti-pattern**, and[secondary indexes](https://www.datastax.com/dev/blog/cassandra-native-secondary-index-deep-dive)are only useful in extremely rare and specific occasions. Therefore, when you know what partition you want to scan, and you don't want to do any aggregations, GROUPBYs, or any other more analytical operations, then you are in good shape. The result is that Cassandra is great for small, tightly constrained, well-known queries and high-volume inserts and updates.
-
-
-
 **Node**
 -   6000 - 12000 transactions/second/core
 -   2 - 4 TB
-
-
-
 Cassandra vs RDBMS
 -   On > 50 GB data
 -   MySQL
@@ -102,17 +81,11 @@ Cassandra vs RDBMS
 -   Cassandra
     -   Writes 0.12 ms avg
     -   Reads 15 ms avg
-
-
-
 Alternative - ScyllaDB
 
 ![Client ](media/Cassandra-image1.jpg){width="5.0in" height="2.59375in"}
 
 In the image above, circles are Cassandra nodes and lines between the circles shows distributed architecture, while the client is sending data to the node
-
-
-
 **References**
 
 [**https://academy.datastax.com/**](https://academy.datastax.com/)
@@ -128,6 +101,3 @@ In the image above, circles are Cassandra nodes and lines between the circles sh
 [Introduction to Apache Cassandra™ + What's New in 4.0 by Patrick McFadin | DataStax Presents](https://www.youtube.com/watch?v=d7o6a75sfY0)
 
 [Cassandra Tutorial Videos](https://www.youtube.com/playlist?list=PL9ooVrP1hQOGJ4Yz9vbytkRmLaD6weg8k)
-
-
-

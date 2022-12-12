@@ -25,17 +25,11 @@ sendmultiple commandsto the server without waiting for the replies at all, and f
 -   [Creating secondary indexes with Redis](https://redis.io/topics/indexes): Use Redis data structures to create secondary indexes, composed indexes and traverse graphs.
 
 <https://redis.io/topics/indexes>
-
-
-
 **Redis modules API**
 -   [Introduction to Redis modules](https://redis.io/topics/modules-intro). A good place to start learing about Redis 4.0 modules programming.
 -   [Implementing native data types](https://redis.io/topics/modules-native-types). Modules scan implement new data types (data structures and more) that look like built-in data types. This documentation covers the API to do so.
 -   [Blocking operations](https://redis.io/topics/modules-blocking-ops)with modules. This is still an experimental API, but a very powerful one to write commands that can block the client (without blocking Redis) and can execute tasks in other threads.
 -   [Redis modules API reference](https://redis.io/topics/modules-api-ref). Directly generated from the top comments in the source code insidesrc/module.c. Contains many low level details about API usage.
-
-
-
 **Tutorials & FAQ**
 -   [Introduction to Redis data types](https://redis.io/topics/data-types-intro): This is a good starting point to learn the Redis API and data model.
 -   [Introduction to Redis streams](https://redis.io/topics/streams-intro): A detailed description of the Redis 5 new data type, the Stream.
@@ -43,9 +37,6 @@ sendmultiple commandsto the server without waiting for the replies at all, and f
 -   [Auto complete with Redis](http://autocomplete.redis.io/)
 -   [Data types short summary](https://redis.io/topics/data-types): A short summary of the different types of values that Redis supports, not as updated and info rich as the first tutorial listed in this section.
 -   [FAQ](https://redis.io/topics/faq): Some common questions about Redis.
-
-
-
 **Administration**
 -   [Redis-cli](https://redis.io/topics/rediscli): Learn how to master the Redis command line interface, something you'll be using a lot in order to administer, troubleshoot and experiment with Redis.
 -   [Configuration](https://redis.io/topics/config): How to configure redis.
@@ -60,9 +51,6 @@ sendmultiple commandsto the server without waiting for the replies at all, and f
 -   [Latency monitoring](https://redis.io/topics/latency-monitor): Redis integrated latency monitoring and reporting capabilities are helpful to tune Redis instances for low latency workloads.
 -   [Benchmarks](https://redis.io/topics/benchmarks): See how fast Redis is in different platforms.
 -   [Redis Releases](https://redis.io/topics/releases): Redis development cycle and version numbering.
-
-
-
 **Embedded and IoT**
 -   [Redis on ARM and Raspberry Pi](https://redis.io/topics/ARM): Starting with Redis 4.0 ARM and the Raspberry Pi are officially supported platforms. This page contains general information and benchmarks.
 -   [A reference implementation of Redis for IoT and Edge Computing can be found here](https://redislabs.com/redis-enterprise/redis-edge/).

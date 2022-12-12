@@ -361,7 +361,4 @@ SQL Cheat Sheet
 | CEIL(t­ime­sta­mp_expr TO <­un­it>)                                              |
 | TIMEST­AMP­ADD­(<­u­nit­>, <­co­unt­>, <­ti­mes­tam­p>)                              |
 | timest­amp­_expr { + | - } <­in­ter­val­_ex­pr>                                 |
-
-
-
 <https://imply.io/druid/cheat-sheet>

@@ -11,9 +11,6 @@ MAC - Multiplier, Adder, Accumulator
 Tensor - n-dimensional array
 
 Specifically for matrix operations
-
-
-
 **CPU / GPU**
 -   A CPU is a scalar machine, which means it processes instructions one step at a time.
 -   A GPU is composed of hundreds of cores that can handle thousands of threads simultaneously.
@@ -25,9 +22,6 @@ Specifically for matrix operations
 -   This way, we can perform more computations per second, but we have to perform the same computation on a vector of data in parallel.
 -   GPUs are general purpose chips. They don't just perform matrix operations, they can really do any kind of computation.
 -   GPUs are optimized for taking huge batches of data and performing the same operation over and over very quickly
-
-
-
 **TPU**
 -   TPU hardware is comprised of four independent chips.
 -   Each chip consists of two compute cores called Tensor Cores.
@@ -37,12 +31,7 @@ Specifically for matrix operations
 -   Each MXU is capable of performing 16K multiply-accumulate operations in each cycle.
 -   While the MXU's inputs and outputs are 32-bit floating point values, the MXU performs multiplies at reduced bfloat16 precision.
 -   Bfloat16 is a 16-bit floating point representation that provides better training and model accuracy than the IEEE half-precision representation. -From a software perspective, each of the 8 cores on a Cloud TPU can execute user computations (XLA ops) independently.
--   High-bandwidth interconnects allow the chips to communicate directly with each other.
-
-```{=html}
-<!-- -->
-```
--   ![alt text](media/CPU---GPU---TPU-image2.png){width="4.25in" height="6.125in"}
+-   High-bandwidth interconnects allow the chips to communicate directly with each other.-   ![alt text](media/CPU---GPU---TPU-image2.png){width="4.25in" height="6.125in"}
 
 **The Systolic Array**
 -   The way to achieve that matrix performance is through a piece of architecture called a systolic array.
@@ -51,9 +40,6 @@ Specifically for matrix operations
 -   "Systolic" describes how data moves in waves across the chip, like the beating of a human heart.
 
 ![alt text](media/CPU---GPU---TPU-image3.png){width="5.0in" height="0.9166666666666666in"}
-
-
-
 **Use Cases**
 
 CPUs:
@@ -75,12 +61,6 @@ TPUs:
 -   Models with no custom TensorFlow operations inside the main training loop
 -   Models that train for weeks or months
 -   Larger and very large models with very large effective batch sizes
-
-
-
 **CPU Time**
 
 <https://dzone.com/articles/nice-cpu-time-ni-time-in-top>
-
-
-

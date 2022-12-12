@@ -7,32 +7,20 @@ Modified: 2021-12-08 21:00:46 +0500
 ---
 
 Multidimensional schema is especially designed to model data warehouse systems. The schemas are designed to address the unique needs of very large databases designed for the analytical purpose (OLAP).
-
-
-
 **Types of Data Warehouse Schema**
 
 Following are 3 chief types of multidimensional schemas each having its unique advantages.
 -   Star Schema
 -   Snowflake Schema
 -   Galaxy Schema
-
-
-
 **What is a Star Schema?**
 
 In theStar Schema, the center of the star can have one fact table and a number of associated dimension tables. It is known as star schema as its structure resembles a star. The star schema is the simplest type of Data Warehouse schema. It is also known as Star Join Schema and is optimized for querying large data sets.
 
 ![Dimension Table Dealer Dealer_lD Location ID Country_ID Dealer NM Dealer CNTCT Dimension Table Branch Dim Branch ID Name Address Country Fact Table Revenue Dealer ID Model ID Branch_ID Date ID Units Sold Revenue Dimension Table Date Dim Date ID Year Month Quarter Date Dimension Table Product Product ID Product Name Model_lD Variant ID ](media/Data-Warehousing_Warehouse-Schemas-image1.png){width="5.0in" height="4.34375in"}
-
-
-
 **Example of Star Schema**
 
 For example, as you can see in the above-given image that fact table is at the center which contains keys to every dimension table like Dealer_ID, Model ID, Date_ID, Product_ID, Branch_ID & other attributes like Units sold and revenue.
-
-
-
 **Characteristics of Star Schema**
 -   Every dimension in a star schema is represented with the only one-dimension table
 -   The dimension table should contain the set of attributes
@@ -42,39 +30,21 @@ For example, as you can see in the above-given image that fact table is at the c
 -   The Star schema is easy to understand and provides optimal disk usage
 -   The dimension tables arenot normalized. For instance, in the above figure, Country_ID does not have Country lookup table as an OLTP design would have
 -   The schema is widely supported by BI Tools
-
-
-
 [**https://docs.microsoft.com/en-us/power-bi/guidance/star-schema**](https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)
 
 **Book -** The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling(3rd edition, 2013) by Ralph Kimball et al.
-
-
-
 Star schemais a mature modeling approach widely adopted by relational data warehouses. It requires modelers to classify their model tables as eitherdimensionorfact.
-
-
-
 **What is a Snowflake Schema?**
 
 A Snowflake Schema is an extension of a Star Schema, and it adds additional dimensions. It is called snowflake because its diagram resembles a Snowflake
-
-
-
 The dimension tables arenormalizedwhich splits data into additional tables. In the following example, Country is further normalized into an individual table.
 
 ![mens on a Location Location_ID R ion Dimension Table Country Country_ID Countr _ Name Dimension Table Dealer Dealer_1D Location_ID Country_ID Dealer NM Dealer_CNTCT Dimension Table Branch Dim Branch ID Name Add ress Country Fact Table Revenue Dealer ID Model ID Branch ID Date ID Un its_Sold Revenue Dimension Table Date Dim Date_lD Year Month Quarter Date Dimension Table Product Product_ID Product_Name Model_lD Variant_ID Dimension Table Variant Variant_lD Variant_Name Fuel type ](media/Data-Warehousing_Warehouse-Schemas-image2.png){width="5.0in" height="2.2916666666666665in"}
-
-
-
 **Characteristics of Snowflake Schema:**
 -   The main benefit of the snowflake schema it uses smaller disk space.
 -   Easier to implement a dimension is added to the Schema
 -   Due to multiple tables query performance is reduced
 -   The primary challenge that you will face while using the snowflake Schema is that you need to perform more maintenance efforts because of the more lookup tables.
-
-
-
 **Star Vs Snowflake Schema: Key Differences**
 
 | **Star Schema**                                                                                                        | **Snow Flake Schema**                                                                                             |
@@ -88,9 +58,6 @@ The dimension tables arenormalizedwhich splits data into additional tables. In t
 | Single Dimension table contains aggregated data.                                                                       | Data Split into different Dimension Tables.                                                                       |
 | Cube processing is faster.                                                                                             | Cube processing might be slow because of the complex join.                                                        |
 | Offers higher performing queries using Star Join Query Optimization. Tables may be connected with multiple dimensions. | The Snow Flake Schema is represented by centralized fact table which unlikely connected with multiple dimensions. |
-
-
-
 **What is a Galaxy schema?**
 
 A Galaxy Schema contains two fact table that shares dimension tables. It is also called Fact Constellation Schema. The schema is viewed as a collection of stars hence the name Galaxy Schema.
@@ -102,36 +69,18 @@ As you can see in above figure, there are two facts table
 1.  Revenue
 
 2.  Product
-
-
-
 In Galaxy schema shares dimensions are called Conformed Dimensions.
-
-
-
 **Characteristics of Galaxy Schema:**
 -   The dimensions in this schema are separated into separate dimensions based on the various levels of hierarchy.
 -   For example, if geography has four levels of hierarchy like region, country, state, and city then Galaxy schema should have four dimensions.
 -   Moreover, it is possible to build this type of schema by splitting the one-star schema into more Star schemes.
 -   The dimensions are large in this schema which is needed to build based on the levels of hierarchy.
 -   This schema is helpful for aggregating fact tables for better understanding.
-
-
-
 **What is Star Cluster Schema?**
 
 ![](media/Data-Warehousing_Warehouse-Schemas-image4.png){width="5.0in" height="1.3645833333333333in"}
-
-
-
 Snowflake schema contains fully expanded hierarchies. However, this can add complexity to the Schema and requires extra joins. On the other hand, star schema contains fully collapsed hierarchies, which may lead to redundancy. So, the best solution may be a balance between these two schemas which is star cluster schema design.
-
-
-
 Overlapping dimensions can be found as forks in hierarchies. A fork happens when an entity acts as a parent in two different dimensional hierarchies. Fork entities then identified as classification with one-to-many relationships.
-
-
-
 **Summary:**
 -   Multidimensional schema is especially designed to model data warehouse systems
 -   The star schema is the simplest type of Data Warehouse schema.
@@ -142,13 +91,7 @@ Overlapping dimensions can be found as forks in hierarchies. A fork happens when
 -   A snowflake schema requires many joins to fetch the data.
 -   A Galaxy Schema contains two fact table that shares dimension tables. It is also called Fact Constellation Schema.
 -   Star cluster schema contains attributes of Star schema and Slow flake schema.
-
-
-
 <https://www.guru99.com/star-snowflake-data-warehousing.html>
 
 <https://www.geeksforgeeks.org/difference-between-star-schema-and-snowflake-schema/>
-
-
-
 

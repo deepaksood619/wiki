@@ -9,33 +9,18 @@ Modified: 2019-09-15 15:07:52 +0500
 Properties -
 -   Explicit Data Structure
 -   Can be used to store key value pairs for a symbol table implementation
-
-
-
 "A Binary Search Tree is sometimes called ordered or sorted binary trees, and it keeps its values in sorted order, so that lookup and other operations can use the principle of binary search" --- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
-
-
-
 A BST is a binary tree in symmetric order
 
 Each node has a key, and every node's key is:
 -   Larger than all keys in its left subtree
 -   Smaller than all keys in its right subtree
-
-
-
 A BST is a reference to a root Node.
 
 A Node is comprised of four fields:
 -   A Key and a Value
 -   A reference to the left and right subtree
-
-
-
 ![pri vate class Node private Key key; private Value val; private Node left, ri ght; Node public Node (Key key, Value val) ke left this. key = this.val key; val; BST with smaller keys BST val right BST with larger keys Binary search tree Key and Value are generic types; Key is Comparable ](media/Binary-Search-Tree-image1.png){width="5.0in" height="1.9895833333333333in"}
-
-
-
 Search: If less, go left; if greater, go right; if equal, search hit.
 
 Insert: If less, go left; if greater, go right; if null, insert.
@@ -45,9 +30,6 @@ Get: Return value corresponding to given key, or null if no such key
 Cost: Number of compares is equal to 1 + depth of node
 
 ![public Value get(Key key) Node x = root; while (x null) int cmp = key. compareTo(x. key) ; if (cmp else if (cmp else if (cmp = return null ; < 0) x = x. left; > 0) x = x. right; return x. val ; ](media/Binary-Search-Tree-image2.png){width="5.0in" height="3.4375in"}
-
-
-
 Put: Associate value with key
 
 Search for key, then two cases:
@@ -55,21 +37,12 @@ Search for key, then two cases:
 -   Key not in tree -> add new node
 
 ![public void put(Key key, { root = put(root, key, private Node put(Node x, Value val) val); concise, but tricky, recursive code; read carefully! Key key, Value val) if (x null) return new Node(key, val); int cmp = key. compareTo(x. key if (cmp < 0) x. left = put (x. left, else if (cmp > 0) x. right = put (x. right, if (cmp 0) x. val = val return x; key, key, val); val); ](media/Binary-Search-Tree-image3.png){width="5.0in" height="3.4270833333333335in"}
-
-
-
 Cost: Number of compares is equal to 1 + depth of node
-
-
-
 A BST is a binary tree in symmetric order
 
 Each node has a key, and every node's key is:
 -   Larger than all keys in its left subtree
 -   Smaller than all keys in its right subtree
-
-
-
 **Operations in BST -**
 
 a.  Get
@@ -119,26 +92,14 @@ Find successor x of t
 Delete the minimum in t's right subtree
 
 Put x in t's spot
-
-
-
 ![node to delete search for key E successor mi n(t. ri ght) go right, then go left until reaching null left link t. left eleteMin(t. ri ght) update links and node counts after recursive calls ](media/Binary-Search-Tree-image4.png){width="4.5in" height="2.6354166666666665in"}
-
-
-
 Unsatisfactory solution - Not symmetric
 
 After a long random sequence of insert and delete operation, the height of tree becomes sqrt(N)
 
 The main defect of Hibbard deletion is that it unbalances the tree leading to sqrt(N) height
 
-If instead of replacing the node to delete with its successor, we flip a coin and choose to replace it with either the successor or predecessor, then in practice the height becomes logarithmic (But nobody has been able to prove this fact mathematically)
-
-
-
-
-
-### Binary Searchtree
+If instead of replacing the node to delete with its successor, we flip a coin and choose to replace it with either the successor or predecessor, then in practice the height becomes logarithmic (But nobody has been able to prove this fact mathematically)### Binary Searchtree
 
 An important property of a Binary Search Tree is that the value of a Binary Search Tree nodeis larger than the value of the offspring of its left child, but smaller than the value of the offspring of its right child."
 
@@ -205,9 +166,6 @@ Now let's code it.
 | self.right_child.insert_node(value)            |
 | else:                                          |
 | self.right_child = BinarySearchTree(value)     |
-
-
-
 It seems very simple.
 
 The powerful part of this algorithm is the recursion part, which is on line 9 and line 13. Both lines of code call the insert_node method, and use it for its left and right children, respectively. Lines 11 and 15 are the ones that do the insertion for each child.
@@ -250,9 +208,6 @@ Now let's code it.
 |                        | if value > self.value and self.right_child: |
 |                        | return self.right_child.find_node(value)     |
 |                        | return value == self.value                   |
-
-
-
 Let's beak down the code:
 -   Lines 8 and 9 fall under rule #1.
 -   Lines 10 and 11 fall under rule #2.
@@ -274,9 +229,6 @@ And now we will insert many new nodes.
 |                    | bst.insert_node(17) |
 |                    | bst.insert_node(25) |
 |                    | bst.insert_node(19) |
-
-
-
 For each inserted node, we will test if our find_node method really works.
 
 | print(bst.find_node(15)) # True |
@@ -288,9 +240,6 @@ For each inserted node, we will test if our find_node method really works.
 | print(bst.find_node(17)) # True |
 | print(bst.find_node(25)) # True |
 | print(bst.find_node(19)) # True |
-
-
-
 Yeah, it works for these given values! Let's test for a value that doesn't exist in our Binary Search Tree.
 
 print(bst.find_node(0)) # False
@@ -310,9 +259,6 @@ Deletion is a more complex algorithm because we need to handle different cases. 
 |                 | # |30| |70| (DELETE 20) ---> |30| |70| |
 |                 | # /                                           |
 |                 | # |20| |40| |40|                            |
-
-
-
 If the node we want to delete has no children, we simply delete it. The algorithm doesn't need to reorganize the tree.
 -   **Scenario #2**: A node with just one child (left or right child).
 
@@ -322,9 +268,6 @@ If the node we want to delete has no children, we simply delete it. The algorith
 |                 | # |30| |70| (DELETE 30) ---> |20| |70| |
 |                 | # /                                               |
 |                 | # |20|                                          |
-
-
-
 In this case, our algorithm needs to make the parent of the node point to the child node. If the node is the left child, we make the parent of the left child point to the child. If the node is the right child of its parent, we make the parent of the right child point to the child.
 -   **Scenario #3**: A node with two children.
 
@@ -334,9 +277,6 @@ In this case, our algorithm needs to make the parent of the node point to the ch
 |                 | # |30| |70| (DELETE 30) ---> |40| |70| |
 |                 | # /  /                                          |
 |                 | # |20| |40| |20|                            |
-
-
-
 When the node has 2 children, we need to find the node with the minimum value, starting from the node'sright child. We will put this node with minimum value in the place of the node we want to remove.
 
 It's time to code.
@@ -374,9 +314,6 @@ It's time to code.
 | self.value = self.right_child.find_minimum_value()                                        |
 | self.right_child.remove_node(self.value, self)                                            |
 | return True                                                                               |
-
-
-
 1.  **First**: Note the parameters value and parent. We want to find the nodethat has this value, and the node's parent is important to the removal of the node.
 
 2.  **Second**: Note the returning value. Our algorithm will return a boolean value. It returns True if it finds the node and removes it. Otherwise it will return False.
@@ -401,19 +338,13 @@ It's time to code.
 
 12. **From line 28 to line 30**: We cover the node with both left and rightchildren. We get the node with the smallest value (the code is shown below) and set it to the value of the current node. Finish it by removing the smallest node.
 
-13. **Line 32**: If we find the node we are looking for, it needs to return True. From line 11 to line 31, we handle this case. So just return True and that's it.
-
-
--   To use the clear_node method: set the None value to all three attributes --- (value, left_child, and right_child)
+13. **Line 32**: If we find the node we are looking for, it needs to return True. From line 11 to line 31, we handle this case. So just return True and that's it.-   To use the clear_node method: set the None value to all three attributes --- (value, left_child, and right_child)
 
 | def clear_node(self): |                        |
 |-----------------------|-------------------------|
 |                      | self.value = None       |
 |                      | self.left_child = None  |
-|                      | self.right_child = None |
-
-
--   To use the find_minimum_value method: go way down to the left. If we can't find anymore nodes, we found the smallest one.
+|                      | self.right_child = None |-   To use the find_minimum_value method: go way down to the left. If we can't find anymore nodes, we found the smallest one.
 
 | def find_minimum_value(self): |                                            |
 |-------------------------------|-----------------------------------------|
@@ -421,9 +352,6 @@ It's time to code.
 |                              | return self.left_child.find_minimum_value() |
 |                              | else:                                       |
 |                              | return self.value                           |
-
-
-
 Now let's test it.
 
 We will use this tree to test our remove_node algorithm.
@@ -436,9 +364,6 @@ We will use this tree to test our remove_node algorithm.
 |          | # |8| |12| |17| |25| |
 |          | #                          |
 |          | # |19|                     |
-
-
-
 Let's remove the node with the value 8. It's a node with no child.
 
 | print(bst.remove_node(8, None)) # True |                          |
@@ -451,9 +376,6 @@ Let's remove the node with the value 8. It's a node with no child.
 |                                        | # |12| |17| |25|   |
 |                                        | #                      |
 |                                        | # |19|                 |
-
-
-
 Now let's remove the node with the value 17. It's a node with just one child.
 
 | print(bst.remove_node(17, None)) # True |                          |
@@ -464,9 +386,6 @@ Now let's remove the node with the value 17. It's a node with just one child.
 |                                         | # |10| |20|          |
 |                                         | #  /                 |
 |                                         | # |12| |19| |25|   |
-
-
-
 Finally, we will remove a node with two children. This is the root of our tree.
 
 | print(bst.remove_node(15, None)) # True |                          |
@@ -477,9 +396,6 @@ Finally, we will remove a node with two children. This is the root of our tree.
 |                                         | # |10| |20|          |
 |                                         | #                    |
 |                                         | # |12| |25|          |
-
-
-
 **Geometric applications of BSTs**
 
 **Problem -** Intersections among geometric objects (find among a group of rectangles, how many rectangles intersect) - Binary search trees
@@ -487,19 +403,7 @@ Finally, we will remove a node with two children. This is the root of our tree.
 **Applications -** CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
 
 ![problem Id range search 2d orthogonal line segment intersection kd range search Id interval search 2d orthogonal rectangle intersection example solution BST sweep line reduces to Id range search kd tree interval search tree sweep line reduces to Id interval search ](media/Binary-Search-Tree-image9.png){width="5.0in" height="3.59375in"}
-
-
-
 **Further Reading**
 -   2-3 Trees
 -   Red-Black binary search trees
 -   B-trees
-
-
-
-
-
-
-
-
-

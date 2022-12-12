@@ -10,9 +10,6 @@ Modified: 2020-05-07 16:01:40 +0500
 -   [Contribution Guidelines](https://grpc.io/docs/guides/contributing/)
 -   [Error Handling](https://grpc.io/docs/guides/error/)
 -   [gRPC Concepts](https://grpc.io/docs/guides/concepts/)
-
-
-
 **Others**
 -   Custom data types
     -   Enum

@@ -7,25 +7,13 @@ Modified: 2021-06-11 00:18:38 +0500
 ---
 
 Andrew S. Tanenbaum - A Collection of independent computers that appears to its users as one computer.
-
-
-
-![Centralized Systems Legend Decentralized Systems Server connected Centralized to main central Server server Distributed Systems Individual nodes or terminals ](media/Intro-image1.jpg){width="6.322916666666667in" height="3.875in"}
-
-
--   In**Centralized Systems**there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
+![Centralized Systems Legend Decentralized Systems Server connected Centralized to main central Server server Distributed Systems Individual nodes or terminals ](media/Intro-image1.jpg){width="6.322916666666667in" height="3.875in"}-   In**Centralized Systems**there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
 -   In**Decentralized Systems**there are multiple servers who receive messages from one central server. The individual nodes are connected to the secondary servers.However, in some systems, all servers can be of equal in hierarchy with no central server as well.
 -   In**Distributed systems**there is no central authority. Each node is connected to every other node and has the exact same authority. Of course, in terms of computing distributed systems the processing power of each node might vary to a huge extent.
-
-
-
 **Characteristics**
 -   The computers operate concurrently
 -   The computers fail independently
 -   The computers do not share a global clock
-
-
-
 **Main Topics**
 
 1.  Distributed Storage
@@ -54,12 +42,7 @@ To scale up we do following things -
 6.  CAP Theorem (can only have 2 of these 3)
     -   Consistency
     -   Availability
-    -   Partition Tolerance
-
-```{=html}
-<!-- -->
-```
-2.  Distributed Computation
+    -   Partition Tolerance2.  Distributed Computation
 
     a.  MapReduce
 
@@ -88,9 +71,6 @@ To scale up we do following things -
     e.  Processed by brokers
 
     f.  Usually persistent over the short term
-
-
-
 **Problems**
 
 1.  What if a topic gets too big for one computer?
@@ -112,9 +92,6 @@ To scale up we do following things -
 5.  Consumer: a single-threaded process that subscribes to a topic
 
 6.  Broker: one of the servers that comprises a cluster
-
-
-
 **Links**
 
 1.  **Fair-Loss Link**
@@ -128,9 +105,6 @@ Keep re-transmitting messages indefinitely, hoping that eventually one of the me
 3.  **Perfect Link**
 
 Eventually deliver messages and make sure this delivery is done at most once
-
-
-
 **Questions while designing a distributed system**
 
 The following qualities are all important in the design of a realtime data system
@@ -154,15 +128,9 @@ Can data be sharded and resharded to pro-cess partitions of it in parallel? How 
 5.  Correctness
 
 Are ACID guarantees required? Must all data that is sent to an entry point be processed and appear in results at the exit point?
-
-
-
 **Principles of Distributed System Design**
 
 [From the March 14, 2006, press release for the S3 (Simple Storage Service) launch](https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-s3-simple-storage-service)2
-
-
-
 Amazon used the following principles of distributed system design to meet Amazon S3 requirements:
 -   **Decentralization.** Use fully decentralized techniques to remove scaling bottlenecks and single points of failure.
 -   **Asynchrony.** The system makes progress under all circumstances.
@@ -174,28 +142,13 @@ Amazon used the following principles of distributed system design to meet Amazon
 -   **Decompose into small, well-understood building blocks.** Do not try to provide a single service that does everything for everyone, but instead build small components that can be used as building blocks for other services.
 -   **Symmetry.** Nodes in the system are identical in terms of functionality, and require no or minimal node-specific configuration to function.
 -   **Simplicity.** The system should be made as simple as possible, but no simpler.
-
-
-
 **References -**
 
 <https://www.youtube.com/watch?v=Y6Ev8GIlbxc>
-
-
-
 <https://www.researchgate.net/publication/282914203_A_comparative_evaluation_of_AMQP_and_MQTT_protocols_over_unstable_and_mobile_networks>
 
 <https://dev.to/uyouthe/scalable-architecture-without-magic-and-how-to-build-it-if-youre-not-google-336a>
-
-
-
 <https://en.wikipedia.org/wiki/High_availability>
-
-
-
 <https://lethain.com/distributed-systems-vocabulary/>
-
-
-
 <https://www.kislayverma.com/post/code-review-checklist-for-distributed-systems>
 

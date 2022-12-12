@@ -11,19 +11,10 @@ Modified: 2022-11-21 15:35:38 +0500
 brew install redis
 
 apt-get install redis
-
-
-
 docker run --name redis -p 6379:6379 redis
-
-
-
 docker run --name redis -e ALLOW_EMPTY_PASSWORD=yes --rm -p 6379:6379 bitnami/redis:latest
 
 docker exec -it redis bash
-
-
-
 redis:
 
 stdin_open: true
@@ -57,15 +48,9 @@ retries: 5
 volumes:
 
 - ./data/redis:/bitnami/redis/data
-
-
-
 **Redis Insight**
 
 docker run -rm -it -v redisinsight:/db -p 8001:8001 redislabs/redisinsight
-
-
-
 **Kubernetes**
 
 <https://github.com/bitnami/charts/tree/master/bitnami/redis>
@@ -73,20 +58,11 @@ docker run -rm -it -v redisinsight:/db -p 8001:8001 redislabs/redisinsight
 <https://raw.githubusercontent.com/bitnami/charts/master/bitnami/redis/values-production.yaml>
 
 helm upgrade --install redis --values k8s/infra/redis-values-production.yaml --namespace apps bitnami/redis
-
-
-
 | Redis                                                                                                                                                                    | Redis Cluster                                                                                                                                                                    |
 |-------------------------------|-----------------------------------------|
 | Supports multiple databases                                                                                                                                              | Supports only one database. Better if you have a big dataset                                                                                                                     |
 | Single write point (single master)                                                                                                                                       | Multiple write points (multiple masters)                                                                                                                                         |
-| ![Redis Topology](media/Redis_Commands-image1.png){width="2.3333333333333335in" height="1.6458333333333333in"} | ![Redis Cluster Topology](media/Redis_Commands-image2.png){width="3.2083333333333335in" height="1.6979166666666667in"} |
-
-
-
-
-
-**Commands**
+| ![Redis Topology](media/Redis_Commands-image1.png){width="2.3333333333333335in" height="1.6458333333333333in"} | ![Redis Cluster Topology](media/Redis_Commands-image2.png){width="3.2083333333333335in" height="1.6979166666666667in"} |**Commands**
 
 redis-cli ping
 
@@ -99,15 +75,9 @@ redis-cli -h redis-dashboard -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
 **#decision engine** redis-cli -h localhost -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
 
 **#streams** redis-cli -h localhost -p 6379 -a y2Tb8FaxGyk6qm1s
-
-
-
 **# find out all keys with no ttl set**
 
 redis-cli -a a6ad92769ef04b711eea18dccfff85ea --no-auth-warning --scan | while read LINE ; do TTL=`redis-cli --no-auth-warning -a a6ad92769ef04b711eea18dccfff85ea ttl "$LINE"`; if [ $TTL -eq -1 ]; then echo "$LINE"; fi; done;
-
-
-
 **DML**
 
 **CONFIG GET ***
@@ -125,35 +95,20 @@ config set maxmemory 48gb
 config set maxmemory 80gb
 
 maxmemory-policy
-
-
-
 **Cleanups**
 
 **BGREWRITEAOF #Compress AOF**
-
-
-
 **auto-aof-rewrite-percentage**
 
 **CONFIG SET auto-aof-rewrite-percentage 50**
 
 <https://www.oreilly.com/library/view/redis-4x-cookbook/9781783988167/64284aa9-a324-4383-b9f4-9db3ae95ffb4.xhtml>
-
-
-
 **DDL**
 
 # -n for setting database
 
 redis-cli -h redis-dashboard -p 6379 -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -n 1
-
-
-
 redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
-
-
-
 >>> redis-cli
 
 >>> subscribe <channel_name>
@@ -161,15 +116,9 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 >>> publish <channel_name> "message"
 
 >>> flushdb
-
-
-
 >>> keys *
 
 **>>> keys sms:key:***
-
-
-
 > set mykey somevalue
 
 > set mykey 100 ex 10 # mykey will expire after 10 seconds
@@ -221,9 +170,6 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 > hgetall user:1000
 
 > DEBUG OBJECT <key> #show size of key
-
-
-
 **>** scan 0 MATCH sms:score:*
 
 **>** sscan myset 0 match f*
@@ -231,21 +177,7 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 **> hscan seen: 0**
 
 **>** zscan queue:default 0
-
-
-
-<https://redis.io/commands/scan>
-
-
-
-
-
-ACL GENPASS
+<https://redis.io/commands/scan>ACL GENPASS
 
 ACL GETUSER default
-
-
-
 Some of the commands that are considered dangerous include: **FLUSHDB, FLUSHALL, KEYS, PEXPIRE, DEL, CONFIG, SHUTDOWN, BGREWRITEAOF, BGSAVE, SAVE, SPOP, SREM, RENAME, and DEBUG.**
-
-

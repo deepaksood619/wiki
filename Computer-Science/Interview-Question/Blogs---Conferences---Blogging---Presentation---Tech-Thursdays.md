@@ -35,21 +35,12 @@ Modified: 2022-09-16 00:32:48 +0500
 8.  Data infra - kafka and all
 
 9.  Setting up staging, QA and prod
-
-
-
 <https://www.freecodecamp.org/news/how-to-start-a-blog-book/>
-
-
-
 Question-Based vs Statement-Based Headline
 
 Problem based vs Solution based Headline
 
 Curious vs Non-curious headlines
-
-
-
 **Series**
 
 1.  Docker
@@ -80,15 +71,7 @@ Curious vs Non-curious headlines
 
 8.  API Gateway
 
-    a.  Kong
-
-```{=html}
-<!-- -->
-```
-9.  **Deploy everything**
-
-
-
+    a.  Kong9.  **Deploy everything**
 **Brokers**
 
 1.  EMQX
@@ -102,21 +85,9 @@ Curious vs Non-curious headlines
     c.  Producers / Consumers
 
 3.  vernemq
-
-
-
 GraphQL
-
-
-
 How I Learned Series
-
-
-
 Level up - As a Developer, series
-
-
-
 **Conferences**
 
 1.  How to be a detective in Kubernetes (Debugging in kubernetes)
@@ -124,30 +95,15 @@ Level up - As a Developer, series
 2.  Failcon
 
 3.  Pycon
-
-
-
 <https://dev.to/stephsmithio/writing-is-thinking-learning-to-write-with-confidence-1ijh>
-
-
-
 **Course maker**
 
 <https://teachable.com/>
-
-
-
 **Projects**
 -   Monte carlo simulation for dice roll with one dice and two dice
-
-
-
 **Presentations**
 
 <https://www.slideshare.net/billkarwin/extensible-data-modeling>
-
-
-
 **Tech Thursdays**
 
 **Icebreakers**
@@ -175,9 +131,6 @@ Level up - As a Developer, series
 <https://github.com/git-game/git-game>
 
 <https://github.com/deepaksood619/GitGames>
-
-
-
 **SQL Games**
 
 <https://mystery.knightlab.com/>
@@ -191,21 +144,12 @@ Level up - As a Developer, series
 <https://www.w3schools.com/mysql/trymysql.asp?filename=trysql_select_where_and_or>
 
 <https://use-the-index-luke.com/3-minute-test/mysql>
-
-
-
 Terraria
-
-
-
 **Assessments**
 
 <https://www.bigshyft.com/assessments/rd9pl>
 
 <https://www.bigshyft.com/assessments/x9q4g>
-
-
-
 **System Design**
 -   Airbnb: <https://lnkd.in/dAPjjaA3>
 -   Amazon: <https://lnkd.in/dyp43Yqp>

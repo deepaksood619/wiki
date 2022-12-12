@@ -7,9 +7,6 @@ Modified: 2018-08-20 16:37:33 +0500
 ---
 
 **Bridge**is a structural design pattern that divides one or more classes into two separate hierarchies - abstraction and implementation, allowing them to be changed independently of each other.
-
-
-
 Let's take a simple example. You have a class called Figure that has the subclasses - Circle and Square. You want to expand the shapes hierarchy in color, that is, to have the Red and Blue figures. But to combine all of this, you'll have to create 4 combinations of subclasses, like BlueCircle and RedSquare.
 
 When adding new types of shapes and colors, the number of combinations will grow exponentially. For example, to introduce triangles into the program, you'll have to create two new subclasses of triangles for each color. After this, a new color will require the creation of three classes for all kinds of figures. It only gets worse. Visually, it can be featured as:
@@ -49,11 +46,6 @@ By the way, because of this point Bridge is often confused with Strategy. Note t
 **Cons:**
 
 - Complicates the program code due to the introduction of additional classes.
-
-
-
 **References**
 
 <https://py.checkio.org/blog/design-patterns-part-3/>
-
-

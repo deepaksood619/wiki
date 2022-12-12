@@ -479,9 +479,6 @@ Repository
 6.2.11 Password Management
 
 <https://dev.mysql.com/doc/refman/5.7/en/password-management.html>
-
-
-
 MySQL supports these password-management capabilities:
 -   Password expiration, to require passwords to be changed periodically.
 -   Password reuse restrictions, to prevent old passwords from being chosen again.
@@ -490,13 +487,7 @@ MySQL supports these password-management capabilities:
 -   Password strength assessment, to require strong passwords.
 -   Random password generation, as an alternative to requiring explicit administrator-specified literal passwords.
 -   Password failure tracking, to enable temporary account locking after too many consecutive incorrect-password login failures.
-
-
-
 <https://dev.mysql.com/doc/mysql-security-excerpt/8.0/en/password-management.html>
-
-
-
 6.2.12 Server Handling of Expired Passwords
 
 6.2.13 Pluggable Authentication
@@ -508,21 +499,12 @@ MySQL supports these password-management capabilities:
 **6.2.16 Setting Account Resource Limits**
 
 One means of restricting client use of MySQL server resources is to set the global [max_user_connections](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_user_connections) system variable to a nonzero value. This limits the number of simultaneous connections that can be made by any given account, but places no limits on what a client can do once connected. In addition, setting[max_user_connections](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_user_connections)does not enable management of individual accounts. Both types of control are of interest to MySQL administrators.
-
-
-
 To address such concerns, MySQL permits limits for individual accounts on use of these server resources:
 -   The number of queries an account can issue per hour
 -   The number of updates an account can issue per hour
 -   The number of times an account can connect to the server per hour
 -   The number of simultaneous connections to the server by an account
-
-
-
 <https://dev.mysql.com/doc/refman/8.0/en/user-resources.html>
-
-
-
 6.2.17 Troubleshooting Problems Connecting to MySQL
 
 6.2.18 SQL-Based Account Activity Auditing
@@ -719,13 +701,7 @@ To address such concerns, MySQL permits limits for individual accounts on use of
 8.9.5 The Optimizer Cost Model
 
 To generate execution plans, the optimizer uses a cost model that is based on estimates of the cost of various operations that occur during query execution. The optimizer has a set of compiled-in default"cost constants" available to it to make decisions regarding execution plans.
-
-
-
 <https://dev.mysql.com/doc/refman/5.7/en/cost-model.html>
-
-
-
 8.10 Buffering and Caching
 
 8.10.1 InnoDB Buffer Pool Optimization
@@ -739,9 +715,6 @@ To generate execution plans, the optimizer uses a cost model that is based on es
 **8.11 Optimizing Locking Operations**
 -   Internal locking is performed within the MySQL server itself to manage contention for table contents by multiple threads. This type of locking is internal because it is performed entirely by the server and involves no other programs.
 -   External locking occurs when the server and other programs lock[MyISAM](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)table files to coordinate among themselves which program can access the tables at which time.
-
-
-
 8.11.1 Internal Locking Methods
 
 MySQL uses[**row-level locking**](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_row_lock)forInnoDBtables to support simultaneous write access by multiple sessions, making them suitable for multi-user, highly concurrent, and OLTP applications.
@@ -754,21 +727,12 @@ Advantages of row-level locking:
 -   Fewer lock conflicts when different sessions access different rows.
 -   Fewer changes for rollbacks.
 -   Possible to lock a single row for a long time.
-
-
-
 MySQL uses[**table-level locking**](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_table_lock)forMyISAM,MEMORY, andMERGEtables
-
-
-
 8.11.2 Table Locking Issues
 
 8.11.3 Concurrent Inserts
 
 8.11.4 Metadata Locking
-
-
-
 8.11.5 External Locking
 
 8.12 Optimizing the MySQL Server
@@ -852,9 +816,6 @@ MySQL uses[**table-level locking**](https://dev.mysql.com/doc/refman/5.7/en/glos
 10 Character Sets, Collations, Unicode
 
 SQLServercollationrefers to a set of character and character encoding rules, and influences how information is stored according to the order in the data page, how data is matched by comparing two columns, and how information is arranged in the T-SQLquery statement.
-
-
-
 10.1 Character Sets and Collations in General
 
 10.2 Character Sets and Collations in MySQL
@@ -1216,31 +1177,13 @@ SQLServercollationrefers to a set of character and character encoding rules, and
 13.3.1 START TRANSACTION, COMMIT, and ROLLBACK Statements
 
 InInnoDB, all user activity occurs inside a transaction. If[autocommit](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_autocommit)mode is enabled, each SQL statement forms a single transaction on its own. By default, MySQL starts the session for each new connection with[autocommit](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_autocommit)enabled, so MySQL does a commit after each SQL statement if that statement did not return an error. If a statement returns an error, the commit or rollback behavior depends on the error. See[Section15.21.4, "InnoDB Error Handling"](https://dev.mysql.com/doc/refman/8.0/en/innodb-error-handling.html).
-
-
-
 A session that has[autocommit](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_autocommit)enabled can perform a multiple-statement transaction by starting it with an explicit[START TRANSACTION](https://dev.mysql.com/doc/refman/8.0/en/commit.html)or[BEGIN](https://dev.mysql.com/doc/refman/8.0/en/commit.html)statement and ending it with a[COMMIT](https://dev.mysql.com/doc/refman/8.0/en/commit.html)or[ROLLBACK](https://dev.mysql.com/doc/refman/8.0/en/commit.html)statement. See[Section13.3.1, "START TRANSACTION, COMMIT, and ROLLBACK Statements"](https://dev.mysql.com/doc/refman/8.0/en/commit.html).
-
-
-
 If[autocommit](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_autocommit)mode is disabled within a session withSET autocommit = 0, the session always has a transaction open. A[COMMIT](https://dev.mysql.com/doc/refman/8.0/en/commit.html)or[ROLLBACK](https://dev.mysql.com/doc/refman/8.0/en/commit.html)statement ends the current transaction and a new one starts.
-
-
-
 If a session that has[autocommit](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_autocommit)disabled ends without explicitly committing the final transaction, MySQL rolls back that transaction.
-
-
-
 Some statements implicitly end a transaction, as if you had done a[COMMIT](https://dev.mysql.com/doc/refman/8.0/en/commit.html)before executing the statement. For details, see[Section13.3.3, "Statements That Cause an Implicit Commit"](https://dev.mysql.com/doc/refman/8.0/en/implicit-commit.html).
 
 A[COMMIT](https://dev.mysql.com/doc/refman/8.0/en/commit.html)means that the changes made in the current transaction are made permanent and become visible to other sessions. A[ROLLBACK](https://dev.mysql.com/doc/refman/8.0/en/commit.html)statement, on the other hand, cancels all modifications made by the current transaction. Both[COMMIT](https://dev.mysql.com/doc/refman/8.0/en/commit.html)and[ROLLBACK](https://dev.mysql.com/doc/refman/8.0/en/commit.html)release allInnoDBlocks that were set during the current transaction.
-
-
-
 <https://dev.mysql.com/doc/refman/8.0/en/innodb-autocommit-commit-rollback.html>
-
-
-
 13.3.2 Statements That Cannot Be Rolled Back
 
 13.3.3 Statements That Cause an Implicit Commit
@@ -1402,9 +1345,6 @@ Statements
 <https://dev.mysql.com/doc/refman/8.0/en/innodb-compression-usage.html>
 
 <https://dev.mysql.com/doc/refman/8.0/en/innodb-compression-internals.html>
-
-
-
 14.9.2 InnoDB Page Compression
 
 14.10 InnoDB File-Format Management
@@ -2034,9 +1974,6 @@ show triggers;
 CREATE TRIGGER ins_sum BEFORE INSERT ON account FOR EACH ROW SET @sum = @sum + NEW.amount;
 
 DROP TRIGGER test.ins_sum;
-
-
-
 mysql> delimiter //
 
 mysql> CREATE TRIGGER upd_check BEFORE UPDATE ON account
@@ -2058,59 +1995,23 @@ mysql> CREATE TRIGGER upd_check BEFORE UPDATE ON account
 -> END;//
 
 mysql> delimiter ;
-
-
-
 A trigger is a named database object that is associated with a table, and that activates when a particular event occurs for the table. Some uses for triggers are to perform checks of values to be inserted into a table or to perform calculations on values involved in an update.
-
-
-
 **Does MySQL 5.6 have statement-level or row-level triggers?**
 
 In MySQL 5.6 and MySQL 8.0, all triggers areFOR EACH ROW; that is, the trigger is activated for each row that is inserted, updated, or deleted. MySQL 5.6 does not support triggers usingFOR EACH STATEMENT.
-
-
-
 The SQL standard defines two types of triggers: row-level triggers and statement-level triggers.
 -   A row-level trigger is activated for each row that is inserted, updated, or deleted. For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected.
 -   A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
-
-
-
 MySQL supports only row-level triggers. It doesn't support statement-level triggers.
-
-
-
 <https://www.mysqltutorial.org/mysql-triggers.aspx/>
-
-
-
 **When to use and not to use Triggers**
 
 Triggers are a requirement for any complex data integrity rules. These cannot be enforced anywhere except the database or you will have data integrity problems.
-
-
-
 They are also the best place for auditing unless you don't want to capture all changes to the database (which is the problem of auditing from the application).
-
-
-
 Triggers can cause performance issues if not written carefully and not enough developers are knowledgeable enough to write them well. This is part of where they get their bad rap.
-
-
-
 Triggers are often slower than other means of maintaining data integrity, so if you can use a check constraint, use that instead of a trigger.
-
-
-
 It is easy to write bad triggers that do stupid things like try to send emails. Do you really want to be unable to change records in the db if the email server goes down?
-
-
-
 In SQL server, triggers operate on a batch of records. All too often developers think they only need to handle one record inserts, updates or deletes. That is not the only kind of data changes that happen to a database and all triggers should be tested under the conditions of 1 record change and many record changes. Forgetting to do the second test can lead to extremely poorly performing triggers or a loss of data integrity.
-
-
-
 **Use of database triggers**
 
 1.  To drive column values automatically.
@@ -2124,15 +2025,9 @@ In SQL server, triggers operate on a batch of records. All too often developers 
 5.  To maintain replicate tables.
 
 6.  To audit data modification.
-
-
-
 **Different Types of Triggers**
 
 A MySQLtriggeris a stored program (with queries) which is executed automatically to respond to a specific event such as insertion, updation or deletion occurring in a table.
-
-
-
 There are 6 different types of triggers in MySQL:
 
 1.  Before Update Trigger
@@ -2146,13 +2041,7 @@ There are 6 different types of triggers in MySQL:
 5.  Before Delete Trigger
 
 6.  After Delete Trigger
-
-
-
 <https://www.geeksforgeeks.org/different-types-of-mysql-triggers-with-examples/>
-
-
-
 23.3.1 Trigger Syntax and Examples
 
 23.3.2 Trigger Metadata
@@ -2160,15 +2049,9 @@ There are 6 different types of triggers in MySQL:
 23.4 Using the Event Scheduler
 
 MySQL Events are tasks that run according to a schedule. Therefore, we sometimes refer to them as*scheduled*events. When you create an event, you are creating a named database object containing one or more SQL statements to be executed at one or more regular intervals, beginning and ending at a specific date and time. Conceptually, this is similar to the idea of the Unixcrontab(also known as a"cron job") or the Windows Task Scheduler.
-
-
-
 <https://www.mysqltutorial.org/mysql-triggers/working-mysql-scheduled-event/>
 
 <https://dev.mysql.com/doc/refman/8.0/en/events-overview.html>
-
-
-
 23.4.1 Event Scheduler Overview
 
 23.4.2 Event Scheduler Configuration
@@ -2602,9 +2485,6 @@ CONNECTION_CONTROL_FAILED_LOGIN_ATTEMPTS Table
 29.8 MySQL Enterprise Data Masking and De-Identification Overview
 
 30 MySQL Workbench
-
-
-
 A MySQL 5.7 Frequently Asked Questions
 
 A.1 MySQL 5.7 FAQ: General
@@ -2642,9 +2522,6 @@ A.16 MySQL 5.7 FAQ: InnoDB Change Buffer
 A.17 MySQL 5.7 FAQ: InnoDB Data-at-Rest Encryption
 
 A.18 MySQL 5.7 FAQ: Virtualization Support
-
-
-
 B Errors, Error Codes, and Common Problems
 
 B.1 Error Message Sources and Components
@@ -2674,7 +2551,4 @@ B.4.5 Optimizer-Related Issues
 B.4.6 Table Definition-Related Issues
 
 B.4.7 Known Issues in MySQL
-
-
-
 <https://dev.mysql.com/doc/refman/8.0/en/>

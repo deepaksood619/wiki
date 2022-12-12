@@ -7,9 +7,6 @@ Modified: 2018-08-20 15:55:03 +0500
 ---
 
 A mediator is a behavioral design pattern that allows you to reduce the connectivity of multiple classes with each other, by moving these connections to the one mediation class.
-
-
-
 Suppose you have a dialog for creating a user profile. It consists of all possible controls - the text fields, checkboxes, buttons.
 
 The individual elements of the dialog should interact with each other. For example, the checkbox "I have a dog" opens a hidden field for entering the name of a pet, and the clicking on the submit button initiates the checking of all fields values of the form.
@@ -25,9 +22,6 @@ To make code even more flexible, you can select a common interface for all of th
 Let's look at another example:
 
 The pilots of landing aircrafts or the ones that are taking off don't communicate directly with other pilots. Instead, they contact the dispatcher, who coordinates the actions of several aircrafts at the same time. Without a dispatcher, pilots would have to be on a high alert all the time and monitor all the surrounding aircraft on their own, which would lead to frequent disasters in the sky. It's important to understand that the dispatcher is not needed during the entire flight. He's involved only in the area of the airport, when it's necessary to coordinate the interactions of a lot of aircrafts.
-
-
-
 **Situations in which the pattern is worth using:**
 
 **1.**When it's difficult for you to change some classes because they have many chaotic connections to other classes.
@@ -41,9 +35,6 @@ After applying the pattern, the components lose their previous connections to ot
 **3.**When you have to create multiple subclasses of components to use the same components in different contexts.
 
 If earlier the connection changes in one component could lead to a huge avalanche of changes in all other components, now it's enough for you to create a mediator subclass and change the connections between its components.
-
-
-
 **Pros:**
 
 - it eliminates the dependencies between the components allowing them to be reused;
@@ -55,9 +46,6 @@ If earlier the connection changes in one component could lead to a huge avalanch
 **Cons:**
 
 - the mediator class can "blow itself up" quite a bit, which can complicate the work with it.
-
-
-
 **References**
 
 <https://py.checkio.org/blog/design-patterns-part-2/>

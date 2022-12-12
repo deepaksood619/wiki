@@ -15,37 +15,19 @@ Modified: 2022-01-07 22:23:17 +0500
 <https://www.youtube.com/watch?v=3Kq1MIfTWCE>
 
 <https://github.com/Hack-with-Github/Awesome-Hacking>
-
-
-
 **CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more.
 
 <https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam/>
-
-
-
 **Use Cases and Abuse Cases**
-
-
-
 **White Hat hackers**
 
 A white hat hacker is an individual who uses hacking skills to identify security vulnerabilities in hardware, software or networks. However, unlike black hat hackers, white hat hackers respect the rule of law as it applies to hacking.
-
-
-
 **Gray Hat Hackers**
 
 Gray hat hackers fall between white and black hats on the moral spectrum. Gray hats generally consider themselves good guys who are more flexible about the rules under which they operate. For example, a gray hat hacker may be more likely than a white hat hacker to access systems without getting permission or authorization from the owners, but would be less likely than a black hat hacker to cause damage to those systems. While not typically motivated by financial gain, gray hat hackers may try to get the owners of a system they've hacked to pay them to patch or fix those systems.
-
-
-
 **Black Hat Hackers**
 
 A black hat hacker has no qualms about selling vulnerabilities and exploits to the highest bidder, such as a criminal organization, usually for the purpose of exploiting them. Black hat hackers are willing to break the law to discover, create and use security flaws maliciously for personal gain or to make a political statement.
-
-
-
 **Websites**
 
 <https://www.quora.com/Are-there-any-website-that-I-can-hack-legally-for-practice>
@@ -61,43 +43,22 @@ A black hat hacker has no qualms about selling vulnerabilities and exploits to t
 [**https://tryhackme.com/**](https://tryhackme.com/)
 
 <https://haveibeenpwned.com/>
-
-
-
 **Tools**
 
 **Festin**
 
 FestInis a tool for discovering open S3 Buckets starting from a domains.
-
-
-
 <https://github.com/cr0hn/festin>
-
-
-
 **Practice / Learning**
 
 **Damn Vulnerable Web Application (DVWA)**
 
 <http://www.dvwa.co.uk/>
-
-
-
 **Digital Forensics**
 
 ![](media/Ethical-Hacking-image1.png){width="7.385416666666667in" height="5.708333333333333in"}
-
-
-
 ![](media/Ethical-Hacking-image2.png){width="7.385416666666667in" height="5.708333333333333in"}
-
-
-
 ![Modus Operandi • What do attackers do: • Credential Harvesting • Credential Stuffing • Credential Testing • Account takeover • Credit card testing • Penetration testing attacks LexisNexis• RISK SOLUTIONS Fraudsters Antimalware DMZ ontentFl r IDPS VOIP Protectio Message Security Application Firewall ICAM Firewall e nse Perimeter Security DLP Network Security emo cess Messa nd oin ecuri a a Monitorin Application assi Ica 10 Sanitization Data Security DLP Data Classification ERM PKI ONFID TIAL Data Integrity Monitoring ](media/Ethical-Hacking-image3.png){width="7.104166666666667in" height="4.010416666666667in"}
-
-
-
 | **SOLUTIONS**                                           | **PARTNERS/OEM's**                        |
 |-------------------------------------|-----------------------------------|
 | **Cloud Security(WAF, NGFW), Email Security, Firewall** | Cisco/ PaloAlto/Fortinet/Sophos/Barracuda |
@@ -119,10 +80,4 @@ FestInis a tool for discovering open S3 Buckets starting from a domains.
 | **SD-WAN**                                              | Cisco Viptela, CATO Networks              |
 | **CASB**                                                | Netskope, Forcepoint, Paloalto            |
 | **MDM**                                                 | Vmware, SOTI, Citrix, Meraki              |
-| **Structured Cabling**                                  | Belden, Siemon                            |
-
-
--   Saffron Networks
-
-
-
+| **Structured Cabling**                                  | Belden, Siemon                            |-   Saffron Networks

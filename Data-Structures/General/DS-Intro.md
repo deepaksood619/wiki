@@ -9,27 +9,12 @@ Modified: 2021-06-06 16:40:07 +0500
 1.  **Implicit Data Structure -**
 
 In[computer science](https://en.wikipedia.org/wiki/Computer_science), an**implicit[data structure](https://en.wikipedia.org/wiki/Data_structure)**or**space-efficient data structure**is a data structure that stores very little information other than the main or required data: a data structure that requires low[overhead](https://en.wikipedia.org/wiki/Overhead_(computing)). They are called "implicit" because the position of the elements carries meaning and relationship between elements.
-
-
-
 Formally, an implicit data structure is one with constant*O*(1)space overhead
-
-
-
 2.  **Explicit data structure -**
-
-
-
 3.  **Succinct data structure -**
 
 A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/Data_structure)which uses an amount of space that is "close" to the[information-theoretic](https://en.wikipedia.org/wiki/Information-theoretic)lower bound, but (unlike other compressed representations) still allows for efficient query operations.
-
-
-
 <https://en.wikipedia.org/wiki/Succinct_data_structure>
-
-
-
 **Linear Data Structure (they all have a logical start and a logical end)**
 
 1.  Array
@@ -51,9 +36,6 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
     c.  Randomized Queue
 
     d.  Priority Queue (Using array)
-
-
-
 **Hierarchical Data Structure**
 
 1.  Tree(Ex - Family tree, HTML DOM)
@@ -85,9 +67,6 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
     b.  Directed graph
 
 6.  Rope (Efficient for String concatenation)
-
-
-
 <https://www.wisdomjobs.com/e-university/data-structures-tutorial-290.html>
 
 <https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c>

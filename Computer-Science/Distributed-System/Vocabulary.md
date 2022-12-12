@@ -11,15 +11,9 @@ Harvest and Yield
 CALM - ConsistencyasLogicalMonotonicity
 
 A program has a consistent, coordination-free distributed implementation if any only if it is monotonic.
-
-
-
 **Availability configurations**
 -   Active-activeimplies that a request routed to any node will be handled properly.
 -   Active-passiveimplies that a request will always be routed to a single active node, but that it's possible to quickly elect a new active node if the current active node becomes degraded.
-
-
-
 **Conflict resolution**
 
 Conflict resolution mechanisms for distributed systems:
@@ -28,40 +22,22 @@ Conflict resolution mechanisms for distributed systems:
 -   **write repair-** inconsistencies fixed at write, slowing writes
 -   **asynchronous repair-** inconsistencies fixed out of band somehow, not synchronously within read or write operation
 -   **vector clocks**create a logical clock to reconcile writes, described in[Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
-
-
-
 **Other stuff**
 -   **Single point of failure**(SPOF) a single component that causes dependent services to fail
 -   [**Fault domains**](https://lethain.com/fault-domains/)is a set of components that share a SPOF
 -   **Fault tolerant**describes a system that has multiple fault domains at the same level of functionality
 -   **Replication**is streaming changes from one process to another
 -   **Synchronous replication**is commiting change on a replica at same time as committing on the primary (e.g. MySQL's[semisynchronous replication](https://dev.mysql.com/doc/refman/5.5/en/replication-semisync.html). Typically very, very slow
-
-
-
 <https://lethain.com/distributed-systems-vocabulary/>
-
-
-
 **State Machine Replication**
 
 In[computer science](https://en.wikipedia.org/wiki/Computer_science),**state machine replication**or**state machine approach**is a general method for implementing a fault-tolerant service by replicating servers and coordinating client interactions with server replicas. The approach also provides a framework for understanding and designing replication management protocols.
-
-
-
 <https://en.wikipedia.org/wiki/State_machine_replication>
-
-
-
 **Highy Available and Fault Tolerant**
 
 ![](media/Vocabulary-image1.jpg){width="5.0in" height="3.9270833333333335in"}
 
 <https://medium.com/baseds/ready-and-available-distributed-systems-161023aca378>
-
-
-
 **Fault**
 
 Afaultis really just anything in our system that is different from what we expect it to be. Whenever some piece of our system deviates from its expected behavior, or whenever something unexpectedly occurs in our system, that behavior itself is a fault!
@@ -69,17 +45,8 @@ Afaultis really just anything in our system that is different from what we expec
 ![](media/Vocabulary-image2.jpg){width="5.0in" height="4.510416666666667in"}
 
 ![](media/Vocabulary-image3.jpg){width="4.75in" height="6.5in"}
-
-
-
 A fault, which can originate in any part of a system, can cause unexpected behavior, which results in an unexpected result, or an error. If that error isn't handled in some way or hidden from the rest of the system, the originating node --- where the fault first presented itself --- will return that error, which is what we also call afailure. When we talk about different kinds of failures in a system, which could come from different kinds of faults, we can categorize them in different ways.
-
-
-
 The different classifications for the kinds of failures we see in a distributed system are also known as failure modes.Failure modesare how we can identify the exact way that a system has failed. Interestingly, failure modes are classified somewhat holistically; that is to say, when we try to identify what kind of failure we're dealing with, we take the whole system into account.
-
-
-
 **Types of Failures**
 -   **timing failures**
     -   If a node in a system delivers a response correctly, but that response is outside the expected time interval.
@@ -101,19 +68,10 @@ The different classifications for the kinds of failures we see in a distributed 
     -   also called a Byzantine failure
     -   In a Byzantine failure, a node can send differing responses to other nodes, and it can forge responses/messages from other nodes
     -   A subset of this failure is Authentication Detectable Byzantine Failures, where a node cannot forge a message on the behalf of another node
-
-
-
 **Error**
 
 Errorsare manifestations of faults within our system, and when an error occurs and then spreadsor propagates through the system
-
-
-
 ![](media/Vocabulary-image4.jpeg){width="5.0in" height="4.927083333333333in"}
-
-
-
 <https://medium.com/baseds/fantastic-faults-and-what-to-call-them-56d91a1b198c>
 
 <https://medium.com/baseds/modes-of-failure-part-1-6687504bfed6>
@@ -121,7 +79,4 @@ Errorsare manifestations of faults within our system, and when an error occurs a
 <https://medium.com/baseds/modes-of-failure-part-2-4d050794be2f>
 
 <https://medium.com/baseds/weeding-out-distributed-system-bugs-28a01e37f70c>
-
-
-
 

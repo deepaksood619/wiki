@@ -9,27 +9,15 @@ Modified: 2021-07-04 22:16:04 +0500
 **Internet of Things (IoT)**
 
 IoT world is all about communication between devices, gateways and the cloud; messages are exchanged between all these parties in order to provide a comprehensive end-to-end solution.
-
-
-
 **Shadow (Device Shadow) -**
 
 A json file maintained on the cloud where all the updates are performed. These is synced with the devices on fields.
-
-
-
 **Digital Twin**
 
 <https://dzone.com/articles/apache-kafka-as-digital-twin-in-industrial-iot-iio>
-
-
-
 **TPM - Trusted Platform Module**
 
 Is an[international standard](https://en.wikipedia.org/wiki/International_standard)for a[secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor), a dedicated[microcontroller](https://en.wikipedia.org/wiki/Microcontroller)designed to secure hardware through integrated[cryptographic keys](https://en.wikipedia.org/wiki/Cryptographic_keys).
-
-
-
 **Four basic architectural components**
 -   **Devices**
 
@@ -43,9 +31,6 @@ The cloud platform---usually offered as a software-as-a-service solution--- has 
 -   **Applications**
 
 Applications range from simple web-based data visualization dashboards to highly domain-specific mobile apps.
-
-
-
 On a high level, the software architecture choices for IoT client devices fall into the following seven categories, ranging from simple to more complex:
 -   no-OS architectures
 -   RTOS (real-time OS) architectures
@@ -54,9 +39,6 @@ On a high level, the software architecture choices for IoT client devices fall i
 -   app-OS architectures
 -   server-OS architectures
 -   container-OS architectures
-
-
-
 # Software architecture options for IoT devices
 
 | Feature                         |                                                                |                                               |                                                         | Architecture option                       |                                                                               |                                                                                                                    |
@@ -70,22 +52,13 @@ On a high level, the software architecture choices for IoT client devices fall i
 | Dynamic software updates        | Firmware updates only                                           | Yes                                            | Yes                                                      | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
 | Third-party apps supported      | No                                                              | Yes                                            | Yes                                                      | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
 | Isomorphic apps possible        | No                                                              | Yes                                            | Only if the hardware architectures are binary compatible | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
-
-
-
 **Key points -**
 -   Windowing for streaming data
-
-
-
 **Messaging mechanisms**
 
 1.  Store and forward mechanism (using queues, topic/subscriptions in a broker)
 
 2.  Direct messaging (receiver needs to be online in order to allow the devices to send data)
-
-
-
 **Messaging Patterns**
 
 1.  competing consumers
@@ -95,9 +68,6 @@ A messaging pattern in which more consumers get messages from a common source (i
 2.  request/reply
 
 3.  pub/sub
-
-
-
 **Communication patterns**
 
 1.  **Telemetry**
@@ -116,13 +86,7 @@ Requests from the device looking to gather required information or asking to ini
 4.  **Notifications**
 
 Information flows in one direction from other systems to a device (or a group of devices) for conveying status changes
-
-
-
 ![IOT Communication Patterns Telemetry Inquiries a Cloud Commands a Notifications ](media/IoT-Intro-image1.png){width="5.0in" height="2.6041666666666665in"}
-
-
-
 **Classifying Device States**
 
 <table>
@@ -162,18 +126,12 @@ Information flows in one direction from other systems to a device (or a group of
 </tr>
 </tbody>
 </table>
-
-
-
 **Tools**
 
 1.  **Node-RED**
     -   **Flow-based programming for the Internet of Things**
     -   **Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.**
     -   **It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.**
-
-
-
 **IoT Protocols**
 
 1.  Infrastructure(ex: 6LowPAN, IPv4/IPv6, RPL)
@@ -191,13 +149,7 @@ Information flows in one direction from other systems to a device (or a group of
 7.  Semantic(ex: JSON-LD, Web Thing Model)
 
 8.  Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
-
-
-
 <https://www.postscapes.com/internet-of-things-protocols/>
-
-
-
 **References -**
 
 <https://cloudplatform.googleblog.com/2018/04/implementing-an-event-driven-architecture-on-serverless-the-Smart-Parking-story.html?m=1>
@@ -205,14 +157,5 @@ Information flows in one direction from other systems to a device (or a group of
 IoT Applications, Protocols, and Best Practices - DZone Research Guides
 
 <https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things>
-
-
-
-End to end overview - <https://cloud.google.com/solutions/iot-overview>
-
-
--   <https://www.edx.org/course/iot-system-architecture-design-and-evaluation>
+End to end overview - <https://cloud.google.com/solutions/iot-overview>-   <https://www.edx.org/course/iot-system-architecture-design-and-evaluation>
 -   <https://www.edx.org/microsoft-professional-program-certificate-in-iot>
-
-
-

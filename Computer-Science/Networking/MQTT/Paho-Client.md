@@ -6,6 +6,7 @@ Modified: 2020-01-07 19:08:39 +0500
 
 ---
 
+```
 import paho.mqtt.client as mqtt
 
 # The callback for when the client receives a CONNACK response from the server.
@@ -31,17 +32,12 @@ client.connect("localhost", 1883, 60)
 # Other loop*() functions are available that give a threaded interface and a
 # manual interface.
 client.loop_forever()
-
-
-
 Publish single message
 
 import paho.mqtt.publish as publish
 
 publish.single("paho/test/single", "payload", hostname="localhost")
-
-
+```
 
 **References**
-
 <https://github.com/eclipse/paho.mqtt.python>

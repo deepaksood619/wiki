@@ -19,9 +19,6 @@ Modified: 2018-05-24 15:19:36 +0500
 6.  [More determinant depth](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#determinant-depth)
 
 7.  [Transpose of a matrix](https://www.khanacademy.org/math/linear-algebra/matrix-transformations#matrix-transpose)
-
-
-
 **References**
 
 <https://www.khanacademy.org/math/linear-algebra/matrix-transformations>

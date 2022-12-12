@@ -22,9 +22,6 @@ Modified: 2021-08-08 09:21:53 +0500
 -   [Assertion Testing](https://www.tutorialspoint.com/software_testing_dictionary/assertion_testing.htm)
 -   [Audit](https://www.tutorialspoint.com/software_testing_dictionary/audit.htm)
 -   [Automated Software Testing](https://www.tutorialspoint.com/software_testing_dictionary/automated_software_testing.htm)
-
-
-
 # B
 -   [Backward Compatibility Testing](https://www.tutorialspoint.com/software_testing_dictionary/backward_compatibility_testing.htm)
 -   [Baseline Artifacts](https://www.tutorialspoint.com/software_testing_dictionary/baseline_artifacts.htm)
@@ -73,9 +70,6 @@ Modified: 2021-08-08 09:21:53 +0500
 -   [Correctness](https://www.tutorialspoint.com/software_testing_dictionary/correctness.htm)
 -   [Coverage Items](https://www.tutorialspoint.com/software_testing_dictionary/coverage_items.htm)
 -   [Cyclomatic Complexity](https://www.tutorialspoint.com/software_testing_dictionary/cyclomatic_complexity.htm)
-
-
-
 # D
 -   [Data Integrity Testing](https://www.tutorialspoint.com/software_testing_dictionary/data_and_database_integrity_testing.htm)
 -   [Data Driven Testing](https://www.tutorialspoint.com/software_testing_dictionary/data_driven_testing.htm)
@@ -95,9 +89,6 @@ Modified: 2021-08-08 09:21:53 +0500
 -   [Domain Testing](https://www.tutorialspoint.com/software_testing_dictionary/domain_testing.htm)
 -   [Durability Testing](https://www.tutorialspoint.com/software_testing_dictionary/durability_testing.htm)
 -   [Dynamic Testing](https://www.tutorialspoint.com/software_testing_dictionary/dynamic_testing.htm)
-
-
-
 # E
 -   [Emulator](https://www.tutorialspoint.com/software_testing_dictionary/emulator.htm)
 -   [End-to-End Testing](https://www.tutorialspoint.com/software_testing_dictionary/end_to_end_testing.htm)
@@ -113,13 +104,7 @@ Modified: 2021-08-08 09:21:53 +0500
 -   [**Exploratory Testing**](https://www.tutorialspoint.com/software_testing_dictionary/exploratory_testing.htm)
 
 Exploratory testing is a form of testing that is done without a plan. In an exploratory test, you're just exploring the application.
-
-
-
 To have a complete set of manual tests, all you need to do is make a list of all the features your application has, the different types of input it can accept, and the expected results. Now, every time you make a change to your code, you need to go through every single item on that list and check it.
-
-
-
 # F
 -   [Failover Testing](https://www.tutorialspoint.com/software_testing_dictionary/failover_testing.htm)
 -   [Failure](https://www.tutorialspoint.com/software_testing_dictionary/failure.htm)
@@ -133,39 +118,24 @@ To have a complete set of manual tests, all you need to do is make a list of all
 -   [Fuzz Testing](https://www.tutorialspoint.com/software_testing_dictionary/fuzz_testing.htm)
 
 Fuzz testing is a software testing technique using which a random data is given as the inputs to the system. If the application fails, then those issues/defects are to be addressed by the system. In short, unexpected or random inputs might lead to unexpected results
-
-
-
 **Attack Types**
 -   Number/Character Fuzzing
 -   Application Fuzzing
 -   Protocol Fuzzing
 -   File Format Fuzzing
-
-
-
 <https://github.com/minimaxir/big-list-of-naughty-strings>
 
 <https://www.freecodecamp.org/news/whats-fuzzing-fuzz-testing-explained/>
-
-
-
 # G
 -   [Glass Box Testing](https://www.tutorialspoint.com/software_testing_dictionary/glass_box_testing.htm)
 -   [Globalization Testing](https://www.tutorialspoint.com/software_testing_dictionary/globalization_testing.htm)
 -   [Gorilla Testing](https://www.tutorialspoint.com/software_testing_dictionary/gorilla_testing.htm)
 -   [Grey Box Testing](https://www.tutorialspoint.com/software_testing_dictionary/grey_box_testing.htm)
 -   [GUI Software Testing](https://www.tutorialspoint.com/software_testing_dictionary/gui_software_testing.htm)
-
-
-
 # H
 -   [Harness](https://www.tutorialspoint.com/software_testing_dictionary/harness.htm)
 -   [Heuristics](https://www.tutorialspoint.com/software_testing_dictionary/heuristics.htm)
 -   [Hybrid Integration Testing](https://www.tutorialspoint.com/software_testing_dictionary/hybrid_integration_testing.htm)
-
-
-
 # I
 -   [Implementation Testing](https://www.tutorialspoint.com/software_testing_dictionary/implementation_testing.htm)
 -   [Incremental Testing](https://www.tutorialspoint.com/software_testing_dictionary/incremental_testing.htm)
@@ -179,16 +149,10 @@ Fuzz testing is a software testing technique using which a random data is given 
 -   [Inter Systems Testing](https://www.tutorialspoint.com/software_testing_dictionary/inter_systems_testing.htm)
 -   [Isolation Testing](https://www.tutorialspoint.com/software_testing_dictionary/isolation_testing.htm)
 -   [Issues](https://www.tutorialspoint.com/software_testing_dictionary/issues.htm)
-
-
-
 # K
 -   [Keyword Driven Testing](https://www.tutorialspoint.com/software_testing_dictionary/keyword_driven_testing.htm)
 -   [Key Performance Indicator](https://www.tutorialspoint.com/software_testing_dictionary/key_performance_indicator.htm)
 -   [Known Issues](https://www.tutorialspoint.com/software_testing_dictionary/known_issues.htm)
-
-
-
 # L
 -   [LCSAJ Testing](https://www.tutorialspoint.com/software_testing_dictionary/lcsaj_testing.htm)
 -   [Load Generator](https://www.tutorialspoint.com/software_testing_dictionary/load_generator.htm)
@@ -196,9 +160,6 @@ Fuzz testing is a software testing technique using which a random data is given 
 -   [Localization Testing](https://www.tutorialspoint.com/software_testing_dictionary/localization_testing.htm)
 -   [Logic Coverage Test](https://www.tutorialspoint.com/software_testing_dictionary/logic_coverage_test.htm)
 -   [Loop Testing](https://www.tutorialspoint.com/software_testing_dictionary/loop_testing.htm)
-
-
-
 # M
 -   [Maintainability](https://www.tutorialspoint.com/software_testing_dictionary/maintainability.htm)
 -   [Manual Testing](https://www.tutorialspoint.com/software_testing_dictionary/manual_testing.htm)
@@ -209,21 +170,12 @@ Fuzz testing is a software testing technique using which a random data is given 
 -   [**Mutation Testing**](https://www.tutorialspoint.com/software_testing_dictionary/mutation_testing.htm)
 
 <https://medium.com/analytics-vidhya/unit-testing-in-python-mutation-testing-7a70143180d8>
-
-
-
 # N
 -   [Negative Testing](https://www.tutorialspoint.com/software_testing_dictionary/negative_testing.htm)
 -   [Non-functional Testing](https://www.tutorialspoint.com/software_testing_dictionary/non_functional_testing.htm)
-
-
-
 # O
 -   [Operational Testing](https://www.tutorialspoint.com/software_testing_dictionary/operational_testing.htm)
 -   [Orthogonal Array Testing](https://www.tutorialspoint.com/software_testing_dictionary/orthogonal_array_testing.htm)
-
-
-
 # P
 -   [Pair Testing](https://www.tutorialspoint.com/software_testing_dictionary/pair_testing.htm)
 -   [Pairwise Testing](https://www.tutorialspoint.com/software_testing_dictionary/pairwise_testing.htm)
@@ -235,13 +187,7 @@ Fuzz testing is a software testing technique using which a random data is given 
 -   [Penetration Testing](https://www.tutorialspoint.com/software_testing_dictionary/penetration_testing.htm) / pentest
 
 "Pentest" is short for "penetration test", and involves having a trusted security expert attack a system for the purpose of discovering, and repairing, security vulnerabilities before malicious attackers can exploit them. This is a critical procedure for securing a system, as the alternative method for discovering vulnerabilities is to wait for unknown agents to exploit them. By this time it is, of course, too late to do anything about them.
-
-
-
-In order to keep a system secure, it is advisable to conduct a pentest on a regular basis, especially when new technology is added to the stack, or vulnerabilities are exposed in your current stack.
-
-
--   [Performance Testing](https://www.tutorialspoint.com/software_testing_dictionary/performance_testing.htm)
+In order to keep a system secure, it is advisable to conduct a pentest on a regular basis, especially when new technology is added to the stack, or vulnerabilities are exposed in your current stack.-   [Performance Testing](https://www.tutorialspoint.com/software_testing_dictionary/performance_testing.htm)
 -   [Portability Testing](https://www.tutorialspoint.com/software_testing_dictionary/portability_testing.htm)
 -   [Positive Testing](https://www.tutorialspoint.com/software_testing_dictionary/positive_testing.htm)
 -   [Post Condition](https://www.tutorialspoint.com/software_testing_dictionary/post_condition.htm)
@@ -251,17 +197,11 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   [Process Cycle Test](https://www.tutorialspoint.com/software_testing_dictionary/process_cycle_test.htm)
 -   [Progressive Testing](https://www.tutorialspoint.com/software_testing_dictionary/progressive_testing.htm)
 -   [Prototype Testing](https://www.tutorialspoint.com/software_testing_dictionary/prototype_testing.htm)
-
-
-
 # Q
 -   [Quality Assurance](https://www.tutorialspoint.com/software_testing_dictionary/quality_assurance.htm)
     -   How to hire a Great QA Engineer - <https://www.toptal.com/qa>
 -   [Quality Control](https://www.tutorialspoint.com/software_testing_dictionary/quality_control.htm)
 -   [Quality Management](https://www.tutorialspoint.com/software_testing_dictionary/quality_management.htm)
-
-
-
 # R
 -   [Random Testing](https://www.tutorialspoint.com/software_testing_dictionary/random_testing.htm)
 -   [Recovery Testing](https://www.tutorialspoint.com/software_testing_dictionary/recovery_testing.htm)
@@ -277,9 +217,6 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   [Risk](https://www.tutorialspoint.com/software_testing_dictionary/risk.htm)
 -   [Risk Management](https://www.tutorialspoint.com/software_testing_dictionary/risk_management.htm)
 -   [Root Cause](https://www.tutorialspoint.com/software_testing_dictionary/root_cause.htm)
-
-
-
 # S
 -   [Safety Testing](https://www.tutorialspoint.com/software_testing_dictionary/safety_testing.htm)
 -   [Sanity Testing](https://www.tutorialspoint.com/software_testing_dictionary/sanity_testing.htm)
@@ -307,9 +244,6 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   [System Integration Testing](https://www.tutorialspoint.com/software_testing_dictionary/system_Integration_testing.htm)
 -   [System Testing](https://www.tutorialspoint.com/software_testing_dictionary/system_testing.htm)
 -   [System Under Test](https://www.tutorialspoint.com/software_testing_dictionary/system_under_test.htm)
-
-
-
 # T
 -   [Technical Review](https://www.tutorialspoint.com/software_testing_dictionary/technical_review.htm)
 -   [Test Approach](https://www.tutorialspoint.com/software_testing_dictionary/test_approach.htm)
@@ -338,9 +272,6 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   [Top Down Integ. Testing](https://www.tutorialspoint.com/software_testing_dictionary/top_down_integration_testing.htm)
 -   [Total Quality Management](https://www.tutorialspoint.com/software_testing_dictionary/total_quality_management.htm)
 -   [Traceability](https://www.tutorialspoint.com/software_testing_dictionary/traceability.htm)
-
-
-
 # U
 -   [Unit Testing](https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm)
 -   [Unreachable Code](https://www.tutorialspoint.com/software_testing_dictionary/unreachable_code.htm)
@@ -348,9 +279,6 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   [Use Case Testing](https://www.tutorialspoint.com/software_testing_dictionary/use_case_testing.htm)
 -   [User Acceptance Testing](https://www.tutorialspoint.com/software_testing_dictionary/use_acceptance_testing.htm)
 -   [User Interface Testing](https://www.tutorialspoint.com/software_testing_dictionary/use_interface_testing.htm)
-
-
-
 # V
 -   [V Model](https://www.tutorialspoint.com/software_testing_dictionary/v_model.htm)
 -   [Validation Testing](https://www.tutorialspoint.com/software_testing_dictionary/validation_testing.htm)
@@ -358,22 +286,13 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   [Virtual Users](https://www.tutorialspoint.com/software_testing_dictionary/virtual_users.htm)
 -   [Volume Testing](https://www.tutorialspoint.com/software_testing_dictionary/volume_testing.htm)
 -   [Vulnerability Testing](https://www.tutorialspoint.com/software_testing_dictionary/vulnerability_testing.htm)
-
-
-
 # W
 -   [Web Application Testing](https://www.tutorialspoint.com/software_testing_dictionary/web_application_testing.htm)
 -   [White box Testing](https://www.tutorialspoint.com/software_testing_dictionary/white_box_testing.htm)
 -   [Workflow Testing](https://www.tutorialspoint.com/software_testing_dictionary/workflow_testing.htm)
-
-
-
 <https://dev.to/maxwell_dev/the-testing-introduction-i-wish-i-had-2dn>
 
 <https://dev.to/conw_y/towards-zero-bugs-1bop>
-
-
-
 **Testing terms**
 -   Code Freeze
 -   Code Inspection
@@ -391,7 +310,4 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 -   Context Driven Testing
 -   Control Flow Path
 -   Conversion Testing
-
-
-
 <https://www.tutorialspoint.com/software_testing_dictionary/index.htm>

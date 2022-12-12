@@ -15,9 +15,6 @@ Computing Expected Values
 The Probability Frequency Distribution
 
 Complements
-
-
-
 **Combinatorics**
 
 Fundamentals of Combinatorics
@@ -41,9 +38,6 @@ Winning the Lottery
 A Summary of Combinatorics
 
 Combinatorics: Practical Example
-
-
-
 **Bayesian Inference**
 
 Sets and Events
@@ -69,9 +63,6 @@ Multiplication Rule
 Bayes Rule
 
 Bayesian: Practical Example
-
-
-
 **Probability Distributions**
 
 An overview of distributions
@@ -103,7 +94,4 @@ Exponential Distributions
 Logistic Distributions
 
 Probability Distributions: A Practical Example
-
-
-
 <https://365datascience.teachable.com/courses/enrolled/506102>

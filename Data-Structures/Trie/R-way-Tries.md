@@ -17,9 +17,6 @@ Modified: 2018-05-03 23:28:29 +0500
 ![Search in a trie Follow links corresponding to each character in the key. • Search hit: node where search ends has a non-null value Search miss: reach null link or node where search ends I get("shelter") b y s 4 a 6 h e h 0 o ](media/R-way-Tries-image5.png){width="6.489583333333333in" height="5.010416666666667in"}
 
 ![Insertion into a trie Follow links corresponding to each character in the key. • Encounter a null link: create new node. • Encounter the last character of the key: put("shore", 7) b y s 4 a 6 h e set value in that h 0 ](media/R-way-Tries-image6.png){width="6.489583333333333in" height="5.010416666666667in"}
-
-
-
 ![Trie construction demo trie ](media/R-way-Tries-image7.png){width="6.489583333333333in" height="5.010416666666667in"}
 
 ![Trie representation: Java implementation Node. A value, plus references to R nodes. private static class Node private Object val ue; private Node[] next = new Node [R] ; characters are implicitly s use Object insl no generic arr; s h h e 0 defined by link index 2 ](media/R-way-Tries-image8.png){width="6.489583333333333in" height="5.010416666666667in"}
@@ -37,18 +34,3 @@ Modified: 2018-05-03 23:28:29 +0500
 ![Deletion in an R-way trie To delete a key-value pair: • Find the node corresponding to key and set value to null • If node has null value and all null links, remove that nod( b y s 4 a 6 h e h 0 o ](media/R-way-Tries-image14.png){width="6.489583333333333in" height="5.010416666666667in"}
 
 ![String symbol table implementations cost summary character accesses (typical case) implementation red-black BST hashing (linear probing) R-way trie R-way trie. search hit L+C lg2N search miss c lg2N log RN insert c lg2N space (references) 4N to 16N ](media/R-way-Tries-image15.png){width="6.489583333333333in" height="5.010416666666667in"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

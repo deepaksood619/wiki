@@ -7,9 +7,6 @@ Modified: 2021-12-04 17:52:01 +0500
 ---
 
 [System design: Design Multiplayer game](https://www.youtube.com/playlist?list=PLkQkbY7JNJuCoOw3epgKcNIU6rFri4iQk)
-
-
-
 **Game Loop**
 
 ![31 Events Input Display physiCS Game Loop Draw ](media/System-Design---MMOG---Game-image1.png){width="5.0in" height="4.25in"}
@@ -23,43 +20,25 @@ update_game_state()
 render_screen()
 
 }
-
-
-
 **Physics Engines**
 -   Unity
 -   Unreal Engine
-
-
-
 ![Audio Graphics n p u t user Input Game Logc Andoid Framework Phone o p u t ](media/System-Design---MMOG---Game-image2.png){width="5.0in" height="1.9375in"}
-
-
-
 1.  Strategic games
 
 2.  Slow turn games
 
 3.  First person games
-
-
-
 **Authoritative Server**
 -   Holds all the state information and validates each state information with it's own state
 -   No one can hack the client and run mod commands
 -   Therefore can't have peer to peer connection between players
-
-
-
 **Networking**
 -   **Deterministic Lock Step**
 -   Sends only input only and not the new state of game character
 -   Encode each bit for each input thereby saving more bandwidth
 -   Using this other side can simulate their own environment
 -   Sampling size - 60 / sec
-
-
-
 1.  TCP (Head of line blocking), therefore can't use TCP
 
 2.  Playout Buffer (keep 5 sec in buffer like in youtube, netflix, that keeps preloaded some data beforehand, so intermittent network can be smoothened)
@@ -70,10 +49,7 @@ render_screen()
 
 ![](media/System-Design---MMOG---Game-image3.png){width="5.0in" height="1.96875in"}
 -   Send previous inputs in all packets
--   Add timestamps for replay
-
-
--   **State Synchronization**
+-   Add timestamps for replay-   **State Synchronization**
     -   Sync state of the environments object
         -   Object State
             -   Position
@@ -85,9 +61,6 @@ render_screen()
         -   Linear Interpolation
         -   Polar Interpolation
         -   Hermite Interpolation
-
-
-
 **Handling states, corner cases, rules for objects**
 -   Via if-else statement
     -   Not maintainable
@@ -95,34 +68,16 @@ render_screen()
     -   No design pattern
 
 ![R AS ?ReSS 十 ](media/System-Design---MMOG---Game-image4.png){width="5.0in" height="3.0625in"}
-
-
-
 ![// Interface class PlayerState { handlelnput ( player , update (player) { input ) ](media/System-Design---MMOG---Game-image5.png){width="5.0in" height="3.1041666666666665in"}
-
-
-
 ![class StandingState implements PlayerState { handlelnput (player, input) { // Code update (player) { // Code ](media/System-Design---MMOG---Game-image6.png){width="5.0in" height="2.625in"}
-
-
-
 ![Online ames S stem desi n backend Tube TechDummies CDN LOAD B LANCERS LOGIN SERVER PATCH SERVER PROXY / CONNECTION SERVER WORLD GAME CLIENT Hadoop ELK DB SERVER CACHE AREA/GAME SERVER 0 0:23/ 33:22 ](media/System-Design---MMOG---Game-image7.png){width="6.385416666666667in" height="3.9895833333333335in"}
 -   World Server
 -   Game /Area Server
 -   Data Structure - Map Template
-
-
-
 ![Player crossing Area/Area server Inter server data transfe Area server 1 Area server Serialize deserialize criti al save data Worid server DataBase oad ](media/System-Design---MMOG---Game-image8.png){width="5.0in" height="4.302083333333333in"}
-
-
-
 **Patch Servers**
 -   Everyone should be in same version in MMOG
 -   Real time updates
-
-
-
 **Game State Backup**
 
 1.  Important bits
@@ -132,24 +87,10 @@ render_screen()
 3.  Individual
 
 4.  Async
-
-
-
 **CDN**
 
 Game Sprites
-
-
-
 **Database**
 -   SQL
 -   Sharded SQL
 -   NoSQL
-
-
-
-
-
-
-
-
