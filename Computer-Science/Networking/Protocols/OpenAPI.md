@@ -8,21 +8,12 @@ Modified: 2022-02-05 00:21:12 +0500
 
 1.  [What Is OpenAPI?](https://swagger.io/docs/specification/about/)
 
-An**open API**(often referred to as a public API) is a publicly available[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)that provides developers with programmatic access to a proprietary software application or web service.
-
-
--   Writing API Specification
+An**open API**(often referred to as a public API) is a publicly available[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)that provides developers with programmatic access to a proprietary software application or web service.-   Writing API Specification
 -   API specifications can be written in YAML or JSON
-
-
-
 Swaggeris a set of open-source tools built around the OpenAPI Specification that can help you design, build, document and consume REST APIs. The major Swagger tools include:
 -   [Swagger Editor](http://editor.swagger.io/)-- browser-based editor where you can write OpenAPI specs.
 -   [Swagger UI](https://swagger.io/swagger-ui/)-- renders OpenAPI specs as interactive API documentation.
 -   [Swagger Codegen](https://github.com/swagger-api/swagger-codegen)-- generates server stubs and client libraries from an OpenAPI spec.
-
-
-
 2.  [Basic Structure](https://swagger.io/docs/specification/basic-structure/)
 
 3.  [API Server and Base Path](https://swagger.io/docs/specification/api-host-and-base-path/)
@@ -72,9 +63,6 @@ Swaggeris a set of open-source tools built around the OpenAPI Specification that
 18. [Grouping Operations With Tags](https://swagger.io/docs/specification/grouping-operations-with-tags/)
 
 19. [OpenAPI Extensions](https://swagger.io/docs/specification/openapi-extensions/)
-
-
-
 OpenAPI has a way to define multiple security "schemes"
 -   **apiKey:** an application specific key that can come from:
     -   A query parameter
@@ -93,9 +81,6 @@ OpenAPI has a way to define multiple security "schemes"
         -   password: some next chapters will cover examples of this
 -   **openIdConnect:** has a way to define how to discover OAuth2 authentication data automatically
     -   This automatic discovery is what is defined in the OpenID Connect specification
-
-
-
 **Other Tools**
 -   Apiary
 -   OpenAPI
@@ -104,9 +89,6 @@ OpenAPI has a way to define multiple security "schemes"
     -   <https://stoplight.io/>
 -   Spectral - api validation
 -   <https://github.com/apideck-libraries/portman>
-
-
-
 <https://swagger.io/docs/specification/about/>
 
 <https://www.openapis.org/>

@@ -17,13 +17,7 @@ Modified: 2018-08-20 15:55:15 +0500
 ![Analysis The strategy in this case is the flying behavior. If a poor duck breaks its wing we do: duck. flying behavior = NonF1yingBeh Flexibility to change the behaviour at runtime! Could have avoided code duplication with inheritan NonF1yingDuck). Could make sense, but is less Relying less on inheritance and more on compositio Strategy Pattern means: Encapsulate the different strategies in different clæ ](media/Behavioral---Strategy-image5.png){width="6.40625in" height="4.854166666666667in"}
 
 ![Strategy Pattern with Functions What if our behavior only needs a single method? Stop writing classes! TM Use a function! Standard examples: Sorting with a customized sort key: >>> sorted( [ " 12 " " 2 " ] , key---lambda x: '1', '12'] predicate function: Filtering with a >>> predicate = lambda x: int (x) > 2 " 12 " ] data --- >>> [x for x in data if predicate (x) ] int(x)) ](media/Behavioral---Strategy-image6.png){width="6.40625in" height="4.854166666666667in"}
-
-
-
 A strategy is a behavioral design pattern that defines a family of similar algorithms and places each of them in its own class, after which the algorithms can be interchanged right during the execution of the program.
-
-
-
 Pros:
 
 - "hot" algorithm replacement on the fly;
@@ -32,18 +26,6 @@ Pros:
 
 Cons:
 
-- complicates the program due to the additional classes.
-
-
-
-
-
-**References**
+- complicates the program due to the additional classes.**References**
 
 <https://py.checkio.org/blog/design-patterns-part-1/>
-
-
-
-
-
-

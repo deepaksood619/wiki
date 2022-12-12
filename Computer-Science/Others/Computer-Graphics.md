@@ -21,13 +21,7 @@ Modified: 2022-04-03 14:22:24 +0500
 7.  Binning
 
 8.  Bounding Voluming Hierarchy
-
-
-
 [TU Wien Rendering / Ray Tracing Course](https://www.youtube.com/playlist?list=PLujxSBD-JXgnGmsn7gEyN28P1DnRZG7qi) (2 Minute Papers)
-
-
-
 Pipeline
 
 1.  Deferred shading
@@ -45,15 +39,9 @@ Pipeline
 7.  Transparency and Transluency
 
 8.  Post processing
-
-
-
 **OpenGL**
 
 **Open Graphics Library**(**OpenGL**)^[[3]](https://en.wikipedia.org/wiki/OpenGL#cite_note-3)[[4]](https://en.wikipedia.org/wiki/OpenGL#cite_note-4)^is a[cross-language](https://en.wikipedia.org/wiki/Language-independent_specification),[cross-platform](https://en.wikipedia.org/wiki/Cross-platform)[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API) for rendering[2D](https://en.wikipedia.org/wiki/2D_computer_graphics)and[3D](https://en.wikipedia.org/wiki/3D_computer_graphics)[vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). The API is typically used to interact with a[graphics processing unit](https://en.wikipedia.org/wiki/Graphics_processing_unit)(GPU), to achieve[hardware-accelerated](https://en.wikipedia.org/wiki/Hardware_acceleration)[rendering](https://en.wikipedia.org/wiki/Rendering_(computer_graphics)).
-
-
-
 <https://en.wikipedia.org/wiki/OpenGL>
 
 <https://www.opengl.org/>
@@ -63,9 +51,6 @@ Pipeline
 <https://www.freecodecamp.org/news/create-complex-graphics-with-opengl/>
 
 <https://www.freecodecamp.org/news/advanced-opengl-animation-technique-skeletal-animations/>
-
-
-
 **Game Development**
 
 <https://www.techspot.com/article/1916-how-to-3d-rendering-texturing/>

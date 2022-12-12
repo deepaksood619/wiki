@@ -15,17 +15,8 @@ where*A*and*B*are two finite sets and |*S*| indicates the[cardinality](https://e
 The principle is more clearly seen in the case of three sets, which for the sets*A*,*B*and*C*is given by
 
 ![](media/Inclusion-Exclusion-Principle-image2.png){width="5.0in" height="0.1875in"}
-
-
-
 **Illustration using Venn Diagram:**
 
 ![впс с АпВпС ](media/Inclusion-Exclusion-Principle-image3.png){width="4.583333333333333in" height="3.6666666666666665in"}
-
-
-
 **References**
 -   <https://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle>
-
-
-

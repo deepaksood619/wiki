@@ -14,16 +14,10 @@ Modified: 2020-11-20 21:12:35 +0500
 
 4xx - Client Error
 
-5xx - Server Error
-
-
--   **1×× Informational**
+5xx - Server Error-   **1×× Informational**
     -   [100Continue](https://httpstatuses.com/100)
     -   [101Switching Protocols](https://httpstatuses.com/101)
-    -   [102Processing](https://httpstatuses.com/102)
-
-
--   **2×× Success**
+    -   [102Processing](https://httpstatuses.com/102)-   **2×× Success**
     -   [200OK](https://httpstatuses.com/200)
     -   [201Created](https://httpstatuses.com/201)
     -   [202Accepted](https://httpstatuses.com/202)
@@ -33,10 +27,7 @@ Modified: 2020-11-20 21:12:35 +0500
     -   [206Partial Content](https://httpstatuses.com/206)
     -   [207Multi-Status](https://httpstatuses.com/207)
     -   [208Already Reported](https://httpstatuses.com/208)
-    -   [226IM Used](https://httpstatuses.com/226)
-
-
--   **3×× Redirection**
+    -   [226IM Used](https://httpstatuses.com/226)-   **3×× Redirection**
     -   [300Multiple Choices](https://httpstatuses.com/300)
     -   [301Moved Permanently](https://httpstatuses.com/301)
     -   [302Found](https://httpstatuses.com/302)
@@ -44,10 +35,7 @@ Modified: 2020-11-20 21:12:35 +0500
     -   [304Not Modified](https://httpstatuses.com/304)
     -   [305Use Proxy](https://httpstatuses.com/305)
     -   [307Temporary Redirect](https://httpstatuses.com/307)
-    -   [308Permanent Redirect](https://httpstatuses.com/308)
-
-
--   **4×× Client Error**
+    -   [308Permanent Redirect](https://httpstatuses.com/308)-   **4×× Client Error**
     -   [400Bad Request](https://httpstatuses.com/400)
     -   [401Unauthorized](https://httpstatuses.com/401)
     -   [402Payment Required](https://httpstatuses.com/402)
@@ -83,10 +71,7 @@ Can be solved by increasing the size of URI that server can accept
 -   [451Unavailable For Legal Reasons](https://httpstatuses.com/451)
 -   [499Client Closed Request](https://httpstatuses.com/499)
 
-HTTP 499 in Nginx means that the**client closed the connection**before the server answered the request.
-
-
--   **5×× Server Error**
+HTTP 499 in Nginx means that the**client closed the connection**before the server answered the request.-   **5×× Server Error**
     -   [500Internal Server Error](https://httpstatuses.com/500)
     -   [501Not Implemented](https://httpstatuses.com/501)
     -   [502Bad Gateway](https://httpstatuses.com/502)
@@ -99,15 +84,9 @@ HTTP 499 in Nginx means that the**client closed the connection**before the serve
     -   [510Not Extended](https://httpstatuses.com/510)
     -   [511Network Authentication Required](https://httpstatuses.com/511)
     -   [599Network Connect Timeout Error](https://httpstatuses.com/599)
-
-
-
 <https://httpstatuses.com/>
 
 <https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-conclusion-2pf8>
-
-
-
 **Most Important Error Codes**
 
 | **Error Code** | **Meaning**                                                                                 |
@@ -123,5 +102,3 @@ HTTP 499 in Nginx means that the**client closed the connection**before the serve
 | 429            | Too Many Requests -- You're requesting too many kittens! Slow down!                       |
 | 500            | Internal Server Error -- We had a problem with our server. Try again later.                |
 | 503            | Service Unavailable -- We're temporarily offline for maintenance. Please try again later. |
-
-

@@ -13,13 +13,7 @@ Modified: 2021-08-27 19:59:20 +0500
 2.  Algorithmic Problem Solution
 
 3.  Object Oriented Design Question
-
-
-
 Problem Statement - Design a parking lot, Wants a system to manage thousands of cars.
-
-
-
 1.  Handling Ambiguity - recognize the breadth of the question
 
 2.  Clarify question like
@@ -73,9 +67,6 @@ Problem Statement - Design a parking lot, Wants a system to manage thousands of 
         iv. Economical parking spot
 
         v.  Dynamic pricing (Higher pricing at high rush hour)
-
-
-
 Design a system for 4 sizes -
 
 1.  Small (motorcycle)
@@ -85,23 +76,14 @@ Design a system for 4 sizes -
 3.  Large (Bus)
 
 4.  Extra Large (Truck)
-
-
-
 Assumption
 
 1.  Can put small car to bigger spot
-
-
-
 Class Hierarchy -
 
 **Abstract Vehicle**
 -   String licensePlate
 -   enum color
-
-
-
 Implementation of vehicle (Create 4 classes that inherit from the vehicle)
 
 a.  MotorCycle (S)
@@ -111,39 +93,18 @@ b.  Car (M)
 c.  Bus (L)
 
 d.  Truck (XL)
-
-
-
 class ParkingLot ( zipCode:int )
 
 placeVehicle ( vehicle:Vehicle )
 
 return Spot
-
-
-
 class Spot ( id:Long, size:enum )
-
-
-
 Database for storing spots, vehicles etc.
-
-
-
 Find free spot (can have an array of spot, but it will be a linear operation to find a free spot)
 
 We can create a stack which have free spots.
-
-
-
 4 stacks, each for storing free spots of each size.
-
-
-
 placeVehicle - O(1), constant time operation + put in HashMap (Fast Lookup)
-
-
-
 Spot : removeVehicle ( vehicle : Vehicle )
 
 Look up Hashmap

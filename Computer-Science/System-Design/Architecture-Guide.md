@@ -18,23 +18,12 @@ Modified: 2020-08-20 01:58:00 +0500
 
 iii. Event-driven architecture
 
-iv. Microservices
-
-```{=html}
-<!-- -->
-```
-v.  **N-tier application**
+iv. Microservicesv.  **N-tier application**
 
 vi. **Web-queue-worker**
 
 For a purely PaaS solution, consider a[Web-Queue-Worker](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker)architecture. In this style, the application has a web front end that handles HTTP requests and a back-end worker that performs CPU-intensive tasks or long-running operations. The front end communicates to the worker through an asynchronous message queue.
-
-
-
 Web-queue-worker is suitable for relatively simple domains with some resource-intensive tasks. Like N-tier, the architecture is easy to understand. The use of managed services simplifies deployment and operations. But with complex domains, it can be hard to manage dependencies. The front end and the worker can easily become large, monolithic components that are hard to maintain and update. As with N-tier, this can reduce the frequency of updates and limit innovation.
-
-
-
 | **Architecture style**    | **Dependency management**                                                        | **Domain type**                                                  |
 |----------------|--------------------------------|------------------------|
 | N-tier                    | Horizontal tiers divided by subnet                                               | Traditional business domain. Frequency of updates is low.        |
@@ -43,9 +32,6 @@ Web-queue-worker is suitable for relatively simple domains with some resource-in
 | Event-driven architecture | Producer/consumer. Independent view per sub-system.                              | IoT and real-time systems                                        |
 | Big data                  | Divide a huge dataset into small chunks. Parallel processing on local datasets.  | Batch and real-time data analysis. Predictive analysis using ML. |
 | Big compute               | Data allocation to thousands of cores.                                           | Compute intensive domains such as simulation.                    |
-
-
-
 b.  Design Principles
 
     i.  Design for self-healing
@@ -118,12 +104,7 @@ e.  Performance Antipatterns
 
     vii. No Caching
 
-    viii. Synchronous I/O
-
-```{=html}
-<!-- -->
-```
-2.  Design Patterns
+    viii. Synchronous I/O2.  Design Patterns
     -   [Ambassador](https://docs.microsoft.com/en-us/azure/architecture/patterns/ambassador)
     -   [Anti-corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
     -   [Availability](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/availability)
@@ -131,13 +112,7 @@ e.  Performance Antipatterns
     -   [Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead)
 
 The Bulkhead pattern is a type of application design that is tolerant of failure. In a bulkhead architecture, elements of an application are isolated into pools so that if one fails, the others will continue to function. It's named after the sectioned partitions (bulkheads) of a ship's hull. If the hull of a ship is compromised, only the damaged section fills with water, which prevents the ship from sinking.
-
-
-
-<https://www.youtube.com/watch?v=R2FT5edyKOg>
-
-
--   [Cache-Aside](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
+<https://www.youtube.com/watch?v=R2FT5edyKOg>-   [Cache-Aside](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
 -   [Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography)
 -   [Circuit Breaker](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
 -   [Claim Check](https://docs.microsoft.com/en-us/azure/architecture/patterns/claim-check)
@@ -175,9 +150,6 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
 -   [Strangler](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler)
 -   [Throttling](https://docs.microsoft.com/en-us/azure/architecture/patterns/throttling)
 -   [Valet Key](https://docs.microsoft.com/en-us/azure/architecture/patterns/valet-key)
-
-
-
 3.  Pillars of Software Quality
 
     a.  Reliability
@@ -217,17 +189,8 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
     m.  Web apps
 
 5.  Cloud Adoption Framework
-
-
-
 <https://docs.microsoft.com/en-us/azure/architecture/guide/>
 
 <https://github.com/MicrosoftDocs/architecture-center>
-
-
-
 <https://thenewstack.io/primer-understanding-software-and-system-architecture/>
-
-
-
 <https://www.freecodecamp.org/news/systems-design-for-interviews/>

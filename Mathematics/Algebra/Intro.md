@@ -33,9 +33,6 @@ Modified: 2022-12-11 19:29:37 +0500
 12. Quadratics
 
 13. Irrational numbers
-
-
-
 **Algebra - 2**
 
 1.  Functions
@@ -59,7 +56,4 @@ Modified: 2022-12-11 19:29:37 +0500
 10. Modeling
 
 11. Conic sections
-
-
-
 <https://www.freecodecamp.org/news/learn-algebra-to-improve-your-programming-skills/>

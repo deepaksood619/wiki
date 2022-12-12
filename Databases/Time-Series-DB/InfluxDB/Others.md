@@ -17,14 +17,8 @@ Modified: 2020-01-17 19:40:28 +0500
 4.  [Prometheus](https://docs.influxdata.com/influxdb/v1.7/supported_protocols/prometheus/)
 
 5.  [UDP](https://docs.influxdata.com/influxdb/v1.7/supported_protocols/udp/)
-
-
-
 # High Availability
 -   Clustering
-
-
-
 # Guides
 
 1.  [Writing data with the HTTP API](https://docs.influxdata.com/influxdb/v1.7/guides/writing_data/)
@@ -36,9 +30,6 @@ Modified: 2020-01-17 19:40:28 +0500
 4.  [Hardware sizing guidelines](https://docs.influxdata.com/influxdb/v1.7/guides/hardware_sizing/)
 
 5.  [Calculating percentages in a query](https://docs.influxdata.com/influxdb/v1.7/guides/calculating_percentages/)
-
-
-
 **Performance Tuning**
 
 1.  Change the shard duration

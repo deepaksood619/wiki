@@ -7,26 +7,17 @@ Modified: 2021-06-28 13:08:01 +0500
 ---
 
 Nonparametric statisticsis the branch of[statistics](https://en.wikipedia.org/wiki/Statistics)that is not based solely on[parametrized](https://en.wikipedia.org/wiki/Statistical_parameter)families of[probability distributions](https://en.wikipedia.org/wiki/Probability_distribution)(common examples of parameters are the mean and variance). Nonparametric statistics is based on either being distribution-free or having a specified distribution but with the distribution's parameters unspecified. Nonparametric statistics includes both[descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics)and[statistical inference](https://en.wikipedia.org/wiki/Statistical_inference).
-
-
-
 **Non-parametric models**
 
 Non-parametric modelsdiffer from[parametric](https://en.wikipedia.org/wiki/Parametric_statistics)models in that the model structure is not specifieda prioribut is instead determined from data. The termnon-parametricis not meant to imply that such models completely lack parameters but that the number and nature of the parameters are flexible and not fixed in advance.
 -   A[histogram](https://en.wikipedia.org/wiki/Histogram)is a simple nonparametric estimate of a probability distribution.
 -   **[Kernel density estimation](https://en.wikipedia.org/wiki/Kernel_density_estimation)(KDE)** provides better estimates of the density than histograms.
 
-In[statistics](https://en.wikipedia.org/wiki/Statistics),kernel density estimation(KDE) is a[non-parametric](https://en.wikipedia.org/wiki/Non-parametric_statistics)way to [estimate](https://en.wikipedia.org/wiki/Density_estimation) the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function)of a[random variable](https://en.wikipedia.org/wiki/Random_variable). Kernel density estimation is a fundamental data smoothing problem where inferences about the[population](https://en.wikipedia.org/wiki/Statistical_population)are made, based on a finite data[sample](https://en.wikipedia.org/wiki/Statistical_sample). In some fields such as[signal processing](https://en.wikipedia.org/wiki/Signal_processing)and[econometrics](https://en.wikipedia.org/wiki/Econometrics)it is also termed the**Parzen--Rosenblatt window**method, after[Emanuel Parzen](https://en.wikipedia.org/wiki/Emanuel_Parzen)and[Murray Rosenblatt](https://en.wikipedia.org/wiki/Murray_Rosenblatt), who are usually credited with independently creating it in its current form.One of the famous applications of kernel density estimation is in estimating the class-conditional marginal densities of data when using a[naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier),which can improve its prediction accuracy.
-
-
--   [Nonparametric regression](https://en.wikipedia.org/wiki/Nonparametric_regression)and[semiparametric regression](https://en.wikipedia.org/wiki/Semiparametric_regression)methods have been developed based on[kernels](https://en.wikipedia.org/wiki/Kernel_(statistics)),[splines](https://en.wikipedia.org/wiki/Spline_(mathematics)), and[wavelets](https://en.wikipedia.org/wiki/Wavelet).
+In[statistics](https://en.wikipedia.org/wiki/Statistics),kernel density estimation(KDE) is a[non-parametric](https://en.wikipedia.org/wiki/Non-parametric_statistics)way to [estimate](https://en.wikipedia.org/wiki/Density_estimation) the [probability density function](https://en.wikipedia.org/wiki/Probability_density_function)of a[random variable](https://en.wikipedia.org/wiki/Random_variable). Kernel density estimation is a fundamental data smoothing problem where inferences about the[population](https://en.wikipedia.org/wiki/Statistical_population)are made, based on a finite data[sample](https://en.wikipedia.org/wiki/Statistical_sample). In some fields such as[signal processing](https://en.wikipedia.org/wiki/Signal_processing)and[econometrics](https://en.wikipedia.org/wiki/Econometrics)it is also termed the**Parzen--Rosenblatt window**method, after[Emanuel Parzen](https://en.wikipedia.org/wiki/Emanuel_Parzen)and[Murray Rosenblatt](https://en.wikipedia.org/wiki/Murray_Rosenblatt), who are usually credited with independently creating it in its current form.One of the famous applications of kernel density estimation is in estimating the class-conditional marginal densities of data when using a[naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier),which can improve its prediction accuracy.-   [Nonparametric regression](https://en.wikipedia.org/wiki/Nonparametric_regression)and[semiparametric regression](https://en.wikipedia.org/wiki/Semiparametric_regression)methods have been developed based on[kernels](https://en.wikipedia.org/wiki/Kernel_(statistics)),[splines](https://en.wikipedia.org/wiki/Spline_(mathematics)), and[wavelets](https://en.wikipedia.org/wiki/Wavelet).
 -   [Data envelopment analysis](https://en.wikipedia.org/wiki/Data_envelopment_analysis)provides efficiency coefficients similar to those obtained by[multivariate analysis](https://en.wikipedia.org/wiki/Multivariate_analysis)without any distributional assumption.
 -   [KNNs](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)classify the unseen instance based on the K points in the training set which are nearest to it.
 -   A[support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)(with a Gaussian kernel) is a nonparametric large-margin classifier.
 -   [Method of moments (statistics)](https://en.wikipedia.org/wiki/Method_of_moments_(statistics))with polynomial probability distributions.
-
-
-
 **Methods**
 
 Non-parametric(ordistribution-free)inferential statistical methodsare mathematical procedures for statistical hypothesis testing which, unlike[parametric statistics](https://en.wikipedia.org/wiki/Parametric_statistics), make no assumptions about the[probability distributions](https://en.wikipedia.org/wiki/Probability_distribution)of the variables being assessed. The most frequently used tests include
@@ -55,7 +46,4 @@ Non-parametric(ordistribution-free)inferential statistical methodsare mathematic
 -   [Tukey--Duckworth test](https://en.wikipedia.org/wiki/Tukey%E2%80%93Duckworth_test): tests equality of two distributions by using ranks
 -   [Wald--Wolfowitz runs test](https://en.wikipedia.org/wiki/Wald%E2%80%93Wolfowitz_runs_test): tests whether the elements of a sequence are mutually independent/random
 -   [Wilcoxon signed-rank test](https://en.wikipedia.org/wiki/Wilcoxon_signed-rank_test): tests whether matched pair samples are drawn from populations with different mean ranks
-
-
-
 <https://en.wikipedia.org/wiki/Nonparametric_statistics>

@@ -21,9 +21,6 @@ Modified: 2019-06-23 20:19:26 +0500
 7.  Graph
 
 8.  Riddles
-
-
-
 **References**
 
 <https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/>

@@ -15,8 +15,3 @@ Modified: 2018-08-20 15:55:00 +0500
 ![Example (Il) Lets perform the iteration manually using this interface: iterable = Mylterable( iterator = iter( iterable) # or use iterable. iter ( ) try : while True: i t em = iterator. next( ) print item except Stoplteration: pass print " Iteration done. " ..or just use the Python for-loop: for item in iterable: print item print " Iteration done. " ](media/Behavioral---Iterator-image4.png){width="6.40625in" height="4.854166666666667in"}
 
 ![Summary Whenever you use a for-loop in Python you use the Iterator Pattern! Implement the iterable interface in your containers. Accept an iterable (or iterator) in your consumers. The iterator has a single responsibility, while the ite have to keep track of the iteration (which isn't its is semantically different for i Note that iter iterators (duck typing fail!). Normally one uses generator functions with yield writing iterator classes. ](media/Behavioral---Iterator-image5.png){width="6.40625in" height="4.854166666666667in"}
-
-
-
-
-

@@ -6,15 +6,9 @@ Modified: 2021-01-29 02:06:32 +0500
 
 ---
 
-Apache Druid (incubating) is a real-time analytics database designed for fast slice-and-dice analytics ("[OLAP](http://en.wikipedia.org/wiki/Online_analytical_processing)" queries) on large data sets. Druid is most often used as a database for powering use cases where real-time ingest, fast query performance, and high uptime are important. As such, Druid is commonly used for powering GUIs of analytical applications, or as a backend for highly-concurrent APIs that need fast aggregations. Druid works best with event-oriented data.
-
-
--   **High performance, column oriented, distributed data store**
+Apache Druid (incubating) is a real-time analytics database designed for fast slice-and-dice analytics ("[OLAP](http://en.wikipedia.org/wiki/Online_analytical_processing)" queries) on large data sets. Druid is most often used as a database for powering use cases where real-time ingest, fast query performance, and high uptime are important. As such, Druid is commonly used for powering GUIs of analytical applications, or as a backend for highly-concurrent APIs that need fast aggregations. Druid works best with event-oriented data.-   **High performance, column oriented, distributed data store**
 -   Druid is primarily used to store, query, and analyze large event streams
 -   Druid is optimized for sub-second queries to slice-and-dice, drill down, search, filter, and aggregate this data. Druid is commonly used to power interactive applications where performance, concurrency, and uptime are important.
-
-
-
 **Features**
 -   Column-oriented storage
 -   Native search indexes
@@ -35,9 +29,6 @@ Once Druid has ingested your data, a copy is stored safely in[deep storage](http
 -   Time-optimized partitioning
 -   SQL support
 -   Horizontally scalable
-
-
-
 **Applications**
 -   Clickstream analytics
 -   Network telemetry analytics (network performance monitoring)
@@ -46,35 +37,14 @@ Once Druid has ingested your data, a copy is stored safely in[deep storage](http
 -   Application performance metrics
 -   Digital marketing/advertising analytics
 -   Business intelligence / OLAP
-
-
-
 **Druid Important Points**
 
 Druid does not natively support nested data, so, we need to flatten arrays in our JSON events by providing a[flattenspec](https://druid.apache.org/docs/latest/ingestion/index.html#flattenspec), or by doing some preprocessing before the event lands in it.
-
-
-
 Druid assigns types to columns --- string, long, float, complex, etc. The type enforcement at the column level can be restrictive if the incoming data presents with mixed types for a particular field/fields. Each column except the timestamp can be of type dimension or metric.
-
-
-
 One can filter and group by on dimension columns, but not on metric columns. This needs some forethought when picking which columns to pre-aggregate and which ones will be used for slice-and-dice analyses.
-
-
-
 Partition keys must be picked carefully for load-balancing and scaling up. Streaming new updates to the table after creation requires using one of the[supported ways of ingesting](https://druid.apache.org/docs/latest/ingestion/index.html#streaming)--- Kafka, Kinesis, or Tranquility.
-
-
-
 Druid works well for event analytics in environments where data is somewhat predictable and rollups and pre-aggregations can be defined a priori. It involves some maintenance and tuning overhead in terms of engineering, but for event analytics that doesn't involve complex joins, it can serve queries with low latency and scale up as required.
-
-
-
 Druid is fundamentally a column store, and is designed for analytical queries (GROUPBYs with complex WHERE clauses) that need to scan across multiple partitions. Druid stores its index in[segment files](http://druid.io/docs/latest/design/segments.html), which are partitioned by time. Segment files are columnar, with the data for each column laid out in **separate data structures**. By storing each column separately, Druid can decrease query latency by scanning only those columns that are required for a query. There are different column types for different data types (string, numbers, etc.). Different columns can have different encoding and compression algorithms applied. For example, string columns will be dictionary encoded, LZF compressed, and have search indexes created for faster filtering. Numeric columns will have completely different compression and encoding algorithms applied. Druid segments are immutable once finalized, so updates in Druid have limitations. Although more recent versions of Druid have added "lookups", or the ability to join a mutable table external to Druid with an immutable one in Druid, I would not recommend Druid for any workflows where the same underlying data is frequently updated and those updates need to complete in less than a second (say, powering a social media profile page). Druid supports bulk updates, which are more commonly seen with analytic workloads.
-
-
-
 **Druid File Format**
 
 **Segments**
@@ -100,9 +70,6 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
     -   Compression of like data performs better than a row-oriented format
     -   Druid only needs to read the columns involved in a query, eliminating extraneous fetches from disk and memory
 -   ![Query Broker Deep Storage Masters Coordinator Overlord If deep storage is not available, the files are already copied to Drud, but new files won't be. Data Historical Only the Historical and MiddleManager nodes interact with deep storage. MiddeManager Segments deleted On Druid servers wont be lost, but data deleted in deep storage wil be lost. Deep Storage (S3, HDFS) ](media/Druid-image2.png){width="5.0in" height="3.6458333333333335in"}
-
-
-
 **Druid Data Modelling**
 -   Designing a data model for Druid is different than a RDBMS
 -   Most RDBMS design focuses on normalization
@@ -114,12 +81,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   When designing a table, you must
     -   Choose the datasource name
     -   The source for the input data
-    -   The columns you want to store
-
-```{=html}
-<!-- -->
-```
--   **Columns**
+    -   The columns you want to store-   **Columns**
 -   Creating a data model is more than just copying the table structure of a RDBMS table
 -   When transitioning from a RDBMS, you will need to choose
     -   Which columns should be included
@@ -161,17 +123,11 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Group By Query
 
 ![SELECT mydimension, as itemcount FROM datasourcename GROUP BY mydimension SELECT mydimension, anotherdimension, as itemcount FROM datasourcename GROUP BY mydimension, anotherdimension SELECT mydtmenston, SIN( mydimension) as mysum, AVG( mydtmension) as myaverage, COUNT( * ) as itemcount FROM datasourcename GROUP BY mydimens ion ](media/Druid-image8.png){width="5.0in" height="1.8125in"}
-
-
-
 **Druid kafka ingestion**
 
 <http://druid.io/docs/latest/development/extensions-core/kafka-ingestion.html>
 
 <http://druid.io/docs/latest/tutorials/tutorial-kafka.html>
-
-
-
 **Kafka Indexing Service - Exactly once ingestion**
 
 <https://imply.io/post/exactly-once-streaming-ingestion>
@@ -179,37 +135,19 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 ![An indexing task reads a subset of the Kafka topic partitions](media/Druid-image9.png){width="5.0in" height="3.1041666666666665in"}
 
 ![Supervisors live on the Overlord and manage indexing tasks which run on Middle Managers](media/Druid-image10.png){width="5.0in" height="3.2083333333333335in"}
-
-
-
 ![1. All real-time data is initially ingested into Kafka from a producer or Kafka Connect. Kafka Query Broker Masters Coordinator Overlord 2. Data may optionally be enriched or joined by stream processors. 3. Data is then consumed by MiddleManager processes, which will create Druid segments. Data Historical MiddleManager ](media/Druid-image11.png){width="5.0in" height="4.447916666666667in"}
 
 **References**
 
 <http://druid.io/docs/latest/design/index.html>
-
-
-
 <https://medium.com/@leventov/the-problems-with-druid-at-large-scale-and-high-load-part-1-714d475e84c9>
 
 <https://medium.com/@leventov/the-challenges-of-running-druid-at-large-scale-and-future-directions-part-2-ef594ce298f2>
-
-
-
 <https://druid.apache.org/docs/latest/ingestion/data-management.html>
-
-
-
 <https://imply.io/druid-university/intro-to-druid-university>
-
-
-
 **Imply Druid**
 -   tiered data
--   data volumes
-
-
--   Plywood
+-   data volumes-   Plywood
     -   queries
     -   expressions
 -   Pivot - alerts
@@ -218,9 +156,6 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Virtual columns (middle manager)
 -   Clarity
 -   Imply Manager
-
-
-
 **Others**
 -   Ingestion Spec can handle flattening of schema
 -   Primary partition keys
@@ -238,9 +173,6 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Middle manager will skip the data if it's not in the right format. There's no way
 
 to know which data was skipped.
-
-
-
 **Ingestion spec tuning**
 
 1.  Task duration - 60 minutes (PT60M) (current - 5 minutes)
@@ -252,14 +184,3 @@ to know which data was skipped.
 4.  Segment granularity - 1 day/1hour (current - 1 hour)
 
 5.  Handoff period - currently too large (tune it)
-
-
-
-
-
-
-
-
-
-
-

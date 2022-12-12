@@ -11,12 +11,7 @@ Modified: 2019-04-17 14:52:21 +0500
 -   Improved error reporting (Reason Code & Reason String)
 -   Formalize common patterns including capability discovery and request response
 -   Extensibility mechanisms includinguser properties, payload format and content type
--   Performance improvements and improved support for small clients
-
-```{=html}
-<!-- -->
-```
--   Session expiry: Split the Clean Session flag into a Clean Start flag which indicates that the session should start without using an existing session, and a Session Expiry interval which says how long to retain the session after a disconnect. The session expiry interval can be modified at disconnect. Setting of Clean Start to 1 and Session Expiry Interval to 0 is equivalent in MQTT v3.1.1 of setting Clean Session to 1.
+-   Performance improvements and improved support for small clients-   Session expiry: Split the Clean Session flag into a Clean Start flag which indicates that the session should start without using an existing session, and a Session Expiry interval which says how long to retain the session after a disconnect. The session expiry interval can be modified at disconnect. Setting of Clean Start to 1 and Session Expiry Interval to 0 is equivalent in MQTT v3.1.1 of setting Clean Session to 1.
 -   Message expiry: Allow an expiry interval to be set when a message is published.
 -   Reason code on all ACKs: Change all response packets to contain a reason code. This include CONNACK, PUBACK, PUBREC, PUBREL, PUBCOMP, SUBACK, UNSUBACK, DISCONNECT, and AUTH. This allows the invoker to determine whether the requested function succeeded.
 -   Reason string on all ACKs: Change most packets with a reason code to also allow an optional reason string. This is designed for problem determination and is not intended to be parsed by the receiver.
@@ -36,9 +31,6 @@ Modified: 2019-04-17 14:52:21 +0500
 -   Server Keep Alive: Allow the Server to specify the value it wishes the Client to use as a keep alive. This allows the Server to set a maximum allowed keepalive and still have the Client honor it.
 -   Assigned ClientID: In cases where the ClientID is assigned by the Server, return the assigned ClientID. This also lifts the restriction that Server assigned ClientIDs can only be used with Clean Session=1 connections.
 -   Server reference: Allow the Server to specify an alternate Server to use on CONNACK or DISCONNECT. This can be used as a redirect or to do provisioning.
-
-
-
 **References**
 
 <https://github.com/mqtt/mqtt.github.io/wiki/Differences-between-3.1.1-and-5.0>

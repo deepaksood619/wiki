@@ -7,9 +7,6 @@ Modified: 2020-01-17 19:40:33 +0500
 ---
 
 Tag sets are indexed, field sets are not. InfluxDB's speed is based on the fact that tag sets are stored in-memory, whereas the field sets are stored on-disk.
-
-
-
 [Key concepts](https://docs.influxdata.com/influxdb/v1.7/concepts/key_concepts/)
 
 [Glossary of terms](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/)
@@ -25,9 +22,6 @@ Tag sets are indexed, field sets are not. InfluxDB's speed is based on the fact 
 [Time Series Index (TSI) overview](https://docs.influxdata.com/influxdb/v1.7/concepts/time-series-index/)
 
 [Time Series Index (TSI) details](https://docs.influxdata.com/influxdb/v1.7/concepts/tsi-details/)
-
-
-
 # InfluxDB design insights and tradeoffs
 
 InfluxDB is a time series database. Optimizing for this use case entails some tradeoffs, primarily to increase performance at the cost of functionality. Below is a list of some of those design insights that lead to tradeoffs:
@@ -63,13 +57,7 @@ InfluxDB is a time series database. Optimizing for this use case entails some tr
 8.  No one point is too important.
     Pro:InfluxDB has very powerful tools to deal with aggregate data and large data sets.
     Con:Points don't have IDs in the traditional sense, they are differentiated by timestamp and series.
-
-
-
 <https://docs.influxdata.com/influxdb/v1.7/concepts/insights_tradeoffs/>
-
-
-
 # InfluxDB schema design and data layouts
 
 Every InfluxDB use case is special and your[schema](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#schema)will reflect that uniqueness. There are, however, general guidelines to follow and pitfalls to avoid when designing your schema.
@@ -81,13 +69,7 @@ Every InfluxDB use case is special and your[schema](https://docs.influxdata.com/
 3.  Discouraged Schema Design
 
 4.  Shard Group Duration Management
-
-
-
 <https://docs.influxdata.com/influxdb/v1.7/concepts/schema_and_data_layout/>
-
-
-
 **Basic Concepts**
 
 1.  Measurement
@@ -109,9 +91,6 @@ Fields are the columns on whichmathematical operations such as sum, mean, non-ne
 5.  Series
 
 A series is the most important concept of Influxdb.A series is a combination of tags, measurement, and retention policy (default of Influxdb).An Influxdb database performance is highly dependent on the number of unique series it contains,which in turn is the cardinality of tags x no. of measurement x retention policy
-
-
-
 **Glossary of Terms**
 
 1.  Replication factor
@@ -133,19 +112,7 @@ A series is the most important concept of Influxdb.A series is a combination of 
 9.  tsm (Time Structured Merge tree)
 
 10. wal (Write Ahead Log)
-
-
-
-![Architecture Wrtt• WUS.cr Pod UI Slote Noes OȘCt ](media/InfluxDB-image1.png){width="6.666666666666667in" height="3.7395833333333335in"}
-
-
-
-
-
-[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
-
-
-
+![Architecture Wrtt• WUS.cr Pod UI Slote Noes OȘCt ](media/InfluxDB-image1.png){width="6.666666666666667in" height="3.7395833333333335in"}[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
 TICK Stack (<https://www.influxdata.com/time-series-platform/>)
 
 a.  Telegraf
@@ -155,9 +122,4 @@ b.  InfluxDB
 c.  Choronograf
 
 d.  Kapacitor
-
-
-
 ![Chronograf Complete Interface for the InfluxData Platform System Stats Databases Networking Message Queues Apps result InfluxDB da shbcards access control Telegraf Agent for Collecting and Reporting Metrics and Events loc, glu ins Service Discovery Purpose Built Time Series Database Kapacitor Real-time streaming data processing engine. a eit Alerting Frameworks based Anomaly Detection Machine Learning user Defined Functions ](media/InfluxDB-image2.png){width="5.0in" height="3.3333333333333335in"}
-
-

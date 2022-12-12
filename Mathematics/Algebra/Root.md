@@ -48,12 +48,3 @@ The index is only necessary to distinguish between higher indexed roots, such as
 
 Again, you can take*any root of any non-negative number*(and in certain cases of negative numbers as well), but for many numbers you'll need a calculator since the answers are irrational.
 
-
-
-
-
-
-
-
-
-

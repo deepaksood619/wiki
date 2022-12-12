@@ -9,39 +9,18 @@ Modified: 2021-10-24 15:35:34 +0500
 **COUPLING**
 
 **An indication of the strength of interconnections between program units.**
-
-
-
 Highly coupled have program units dependent on each other. Loosely coupled are made up of units that are independent or almost independent.
-
-
-
 Modules are independent if they can function completely without the presence of the other. Obviously, can't have modules completely independent of each other. Must interact so that can produce desired outputs. The more connections between modules, the more dependent they are in the sense that more info about one modules is required to understand the other module.
-
-
-
 Three factors: number of interfaces, complexity of interfaces, type of info flow along interfaces.
 
 Want to minimize number of interfaces between modules, minimize the complexity of each interface, and control the type of info flow. An interface of a module is used to pass information to and from other modules.
-
-
-
 In general, modules tightly coupled if they use shared variables or if they exchange control info.
 
 Loose coupling if info held within a unit and interface with other units via parameter lists. Tight coupling if shared global data.
-
-
-
 If need only one field of a record, don't pass entire record. Keep interface as simple and small as possible.
-
-
-
 Two types of info flow: data or control.
 -   Passing or receiving back control info means that the action of the module will depend on this control info, which makes it difficult to understand the module.
 -   Interfaces with only data communication result in lowest degree of coupling, followed by interfaces that only transfer control data. Highest if data is hybrid.
-
-
-
 Ranked highest to lowest:
 
 1.  Content coupling: if one directly references the contents of the other.
@@ -57,9 +36,6 @@ Ranked highest to lowest:
 4.  Stamp coupling: similar to common coupling except that global variables are shared selectively among routines that require the data. E.g., packages in Ada. More desirable than common coupling because fewer modules will have to be modified if a shared data structure is modified. Pass entire data structure but need only parts of it.
 
 5.  Data coupling: use of parameter lists to pass data items between routines.
-
-
-
 **COHESION**
 
 **Measure of how well module fits together.**
@@ -67,9 +43,6 @@ Ranked highest to lowest:
 A component should implement a single logical function or single logical entity. All the parts should contribute to the implementation.
 
 Coupling, in the computer science lingo, means to link two parts of a system, so that changes in one of them directly affect the other one, and is usually avoided as much as possible.
-
-
-
 **Many levels of cohesion**
 
 1.  Coincidental cohesion: the parts of a component are not related but simply bundled into a single component.

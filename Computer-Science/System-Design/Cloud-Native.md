@@ -7,21 +7,9 @@ Modified: 2020-12-16 00:11:35 +0500
 ---
 
 Cloud native is a term used to describe **container-based environments.** Cloud-native technologies are used to develop applications built with services packaged in containers, deployed as microservices and managed on elastic infrastructure through agile DevOps processes and continuous delivery workflows.
-
-
-
 Where operations teams would manage the infrastructure resource allocations to traditional applications manually, cloud-native applications are deployed on infrastructure that abstracts the underlying compute, storage and networking primitives. Developers and operators dealing with this new breed of applications don't directly interact with application programming interfaces (APIs) exposed by infrastructure providers. Instead, the orchestrator handles resource allocation automatically, according to policies set out by DevOps teams. The controller and scheduler, which are essential components of the orchestration engine, handle resource allocation and the life cycle of applications.
-
-
-
 Cloud-native platforms, like Kubernetes, expose a flat network that is overlaid on existing networking topologies and primitives of cloud providers. Similarly, the native storage layer is often abstracted to expose logical volumes that are integrated with containers. Operators can allocate storage quotas and network policies that are accessed by developers and resource administrators. The infrastructure abstraction not only addresses the need for portability across cloud environments, but also lets developers take advantage of emerging patterns to build and deploy applications. Orchestration managers become the deployment target, irrespective of the underlying infrastructure that may be based on physical servers or virtual machines, private clouds or public clouds.
-
-
-
 Kubernetes is an ideal platform for running contemporary workloads designed as cloud-native applications. It's become the de facto operating system for the cloud, in meuch the same way Linux is the operating system for the underlying machines.
-
-
-
 **10 Key Attributes of Cloud-Native Applications**
 
 1.  Packaged as lightweight containers
@@ -43,15 +31,9 @@ Kubernetes is an ideal platform for running contemporary workloads designed as c
 9.  Automated capabilities
 
 10. Defined, policy-driven resource allocation
-
-
-
 <https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it>
 
 <https://thenewstack.io/primer-distributed-systems-and-cloud-native-computing/>
-
-
-
 **Self service Edge Stack**
 
 <table>

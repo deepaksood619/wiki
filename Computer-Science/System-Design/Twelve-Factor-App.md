@@ -12,17 +12,8 @@ In the modern era, software is commonly delivered as a service: calledweb apps, 
 -   Are suitable for**deployment**on modern**cloud platforms**, obviating the need for servers and systems administration
 -   **Minimize divergence**between development and production, enabling**continuous deployment**for maximum agility
 -   And can**scale up**without significant changes to tooling, architecture, or development practices
-
-
-
 The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
-
-
-
 These best practices are designed to enable applications to be built with portability and resilience when deployed to[the web](https://en.wikipedia.org/wiki/The_web).
-
-
-
 | **#** | **Factor**              | **Description**                                                                                                     |
 |---------|-------------|--------------------------------------------------|
 | I      | **Codebase**            | There should be exactly one codebase for a deployed service with the codebase being used for many deployments.      |
@@ -37,9 +28,6 @@ These best practices are designed to enable applications to be built with portab
 | X      | **Dev/Prod parity**     | All environments should be as similar as possible.                                                                  |
 | XI     | **Logs**                | Applications should produce logs as event streams and leave the execution environment to aggregate.                 |
 | XII    | **Admin Processes**     | Any needed admin tasks should be kept in source control and packaged with the application.                          |
-
-
-
 References
 
 <https://12factor.net/>

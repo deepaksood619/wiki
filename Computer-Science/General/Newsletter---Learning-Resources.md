@@ -7,9 +7,6 @@ Modified: 2022-05-30 23:23:24 +0500
 ---
 
 <https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send/>
-
-
-
 **#1**
 
 This is a weeklynewsletter for our tech team. This will contain links worth reading in and around tech.
@@ -25,9 +22,6 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 4.<https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
 5.<https://www.youtube.com/watch?v=W2Z7fbCLSTw&ab_channel=Fireship>
-
-
-
 **Advanced**
 
 1.<https://www.geeksforgeeks.org/indexing-in-databases-set-1/>
@@ -37,13 +31,7 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 3.<https://fauna.com/blog/introduction-to-transaction-isolation-levels>
 
 Some links are prettydeep and if you have any difficulty understanding any concept feelfree to reach out to me.
-
-
-
 **Quote of the Week:**"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
-
-
-
 **Websites worth checking out**
 
 1.<https://www.freecodecamp.org/>
@@ -51,9 +39,6 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 2.<https://medium.com/>
 
 3. Awesome Repositories -<https://github.com/ossu/computer-science>
-
-
-
 **Youtube channelsworth subscribing**
 
 1. GotoConf -<https://www.youtube.com/user/GotoConferences>
@@ -63,9 +48,6 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 3. Coding Tech -<https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ>
 
 4. Tech Dummies -<https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA>
-
-
-
 **#2**
 
 **This is all about Coding**
@@ -76,26 +58,17 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 * Helpers
 
 * Core controller model
-
-
-
 * Libraries
 
 * Caching
 
-* Logging
-
-
--   High Cohesion
+* Logging-   High Cohesion
 -   Low Coupling
 -   Object Oriented Programming
 -   Algorithms
 -   Data Structures
 -   Design Patterns
 -   Testable Code
-
-
-
 **Newsletter**
 
 Interview Cake Weekly Problem
@@ -109,9 +82,6 @@ Daily coding
 <https://programmingdigest.net/>
 
 Medium Daily Digest
-
-
-
 **Learning Resources / Bootcamps**
 
 <https://github.com/jwasham/coding-interview-university>
@@ -121,13 +91,7 @@ Medium Daily Digest
 <https://www.freecodecamp.org/news/best-coding-games-online-adults-learn-to-code/>
 
 <https://www.masaischool.com/>
-
-
-
 <https://repl.it/>
-
-
-
 [**https://www.freecodecamp.org/news/tech-talks-software-development-conferences/**](https://www.freecodecamp.org/news/tech-talks-software-development-conferences/)
 
 <https://roadmap.sh/backend>
@@ -137,17 +101,11 @@ Medium Daily Digest
 [**https://github.com/kdn251/interviews**](https://github.com/kdn251/interviews)
 
 <https://github.com/sdmg15/Best-websites-a-programmer-should-visit>
-
-
-
 **Blogs**
 
 <https://about.gitlab.com/2019/08/27/tyranny-of-the-clock/>
 
 <https://fremtidensuddannelser.dk/en>
-
-
-
 **Repositories**
 
 <https://gitstar-ranking.com/repositories>
@@ -157,9 +115,6 @@ Medium Daily Digest
 <https://github.com/gothinkster/realworld>
 
 <https://codebase.show/projects/realworld>
-
-
-
 Make sure to finish following documentation and POC in next 30-45 days, since after that you will not get time, since tasks will be very aggressive
 -   Python (OOPS concept)
 -   Writing Clean Code

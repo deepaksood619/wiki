@@ -34,9 +34,3 @@ Modified: 2019-12-30 16:06:43 +0500
 
 ![Types of Consistency • Cassandra offers Eventual Consistency • Are there other types of weak consistency models? Big Data Computing Design of Key-Value Stores ](media/Cassandra_Consistency-image5.png){width="7.5in" height="5.614583333333333in"}
 
-
-
-
-
-
-

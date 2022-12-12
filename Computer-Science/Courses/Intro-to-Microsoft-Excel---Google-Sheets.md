@@ -9,13 +9,7 @@ Modified: 2022-11-30 19:09:53 +0500
 **Features**
 -   Timeline View
 
-<https://support.google.com/docs/answer/12935277>
-
-
-
-
-
-<https://www.youtube.com/watch?v=Vl0H-qTclOg&feature=youtu.be&ab_channel=freeCodeCamp.org>
+<https://support.google.com/docs/answer/12935277><https://www.youtube.com/watch?v=Vl0H-qTclOg&feature=youtu.be&ab_channel=freeCodeCamp.org>
 -   enter data
 -   navigate through a spreadsheet
 -   create formulas to solve problems
@@ -25,15 +19,9 @@ Modified: 2022-11-30 19:09:53 +0500
 -   implement VLOOKUP
 -   use pivot tables
 -   split and concatenate text
-
-
-
 Columns - 16,384
 
-Rows - 1,048,576
-
-
--   Text to column
+Rows - 1,048,576-   Text to column
 -   Pivot Tables
 -   Preferences > View > Developer Tab in the Ribbon (For macros)
 -   Fix cells (Absolute and Relative Cells, use dollar as prefix or postfix in functions for addresses of cells)
@@ -47,9 +35,6 @@ Rows - 1,048,576
 ![Principles of custom formatting > Four fields separated by ; or , 1) Positive numbers 2) Negative numbers 3) How to display Os 4) How to display text # vs O: types of placeholders used #: flexible placeholder O: fixed placeholder ](media/Intro-to-Microsoft-Excel---Google-Sheets-image1.png){width="4.260416666666667in" height="3.5416666666666665in"}
 -   IF
     -   SUMIF, SUMIFS, COUNTIF, COUNTIFS
-
-
-
 **Microsoft Excel - Useful Tools & Tips**
 
 How to Make Your Spreadsheets Look Professional
@@ -65,9 +50,6 @@ Work Efficiently by Using Cut, Copy, and Paste
 Format Cells
 
 Pasting Values, Formulas and Formats with Paste Special
-
-
-
 Inserting a Line Break with Alt + Enter
 
 Do More with Your Sales Data with Excel's Text to Columns Feature
@@ -125,9 +107,6 @@ Conditional Formatting
 Introduction to Custom Cell Formatting
 
 Custom Formatting - An example
-
-
-
 **Microsoft Excel - Beginner, Intermediate & Advanced Functions**
 
 Key Excel Functions: If
@@ -163,9 +142,6 @@ Create Flexible Financial Models with Choose
 Goal Seek Will Help You Find the Result You Are Looking For
 
 Perform Sensitivity Analysis with Excel's Data Tables Functionality
-
-
-
 **Microsoft Excel - Practical Exercise "Build a P&L From Scratch"**
 
 Introduction to the Case Study
@@ -199,9 +175,6 @@ Populate the P&L Sheet with Sumif
 Learn How to Find Mistakes with Countif
 
 Calculating Growth Rates in Excel
-
-
-
 **Microsoft Excel - Building Professional Charts in Excel**
 
 Introduction to Excel Charts
@@ -225,9 +198,6 @@ Doughnut Chart
 Area Chart
 
 Bridge Chart
-
-
-
 **Introduction to Pivot tables**
 
 Intro to Pivot tables
@@ -241,9 +211,6 @@ Adjusting a Pivot table
 GETPIVOTDATA
 
 Slicers
-
-
-
 **A practical case study with Pivot Tables**
 
 Introduction to the case study
@@ -267,13 +234,7 @@ Combining Slicers and GetPivotData: The key to our success
 Getting fancy with Excel slicers
 
 This is how the report can be used in practice by high-level executives
-
-
-
 <https://365datascience.teachable.com/courses/enrolled/526364>
-
-
-
 **Advanced Microsoft Excel**
 
 **Proficient Excel formatting**
@@ -293,9 +254,6 @@ Formatting Cells Part II - Customize numbers the way you like
 Highlight key data with Excel Conditional Formatting
 
 Filter by color
-
-
-
 **How to be 3.0x faster than average users**
 
 Use multiple screens simultaneously
@@ -307,9 +265,6 @@ How to select visible cells only
 Grouping Excel rows and columns - The correct way to do it!
 
 Working on multiple sheets at the same time
-
-
-
 **Excel mechanics**
 
 Find & Replace - Our favourite Excel tool
@@ -321,9 +276,6 @@ What Are Circular References in Excel
 Circular References - An example
 
 Trace precedents - Display the relationship between formulas and cells
-
-
-
 **Not so simple Excel functions**
 
 What is a nested function
@@ -343,9 +295,6 @@ Advanced Excel functions Choose; Vlookup & Choose
 Advanced Excel functions Offset; Offset & Match
 
 Date functions
-
-
-
 **Excel tips & tricks**
 
 Excel tips & tricks Part 1
@@ -355,19 +304,8 @@ Excel tips & tricks Part 2
 Excel tips & tricks Part 3
 
 Excel tips & tricks Part 4
-
-
-
 <https://365datascience.teachable.com/courses/enrolled/233558>
-
-
-
 ![1 STARTED THE WITH I-OTS OF PROBLEns. BUT NOW, AFTER HOVE AND HOVRS OF IADRK, 1 HAVE LOTS OF PROBLEt1S A SPREADSHEET y) ](media/Intro-to-Microsoft-Excel---Google-Sheets-image2.png){width="2.8541666666666665in" height="4.53125in"}
-
-
-
 [Google Sheets - Full Course](https://www.youtube.com/watch?v=N2opj8XzYBY&ab_channel=freeCodeCamp.org)
 -   =GOOGLEFINANCE("GOOGL")
 -   =image("https://image.jpg")
-
-

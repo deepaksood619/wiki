@@ -37,28 +37,5 @@ Modified: 2020-08-18 23:26:22 +0500
 ![53 2010s - TIMESERIES SYSTEMS Specialized systems that are designed to store timeseries / event data. The design of these systems make deep assumptions about the distribution of datæan workload query patterns. TIMESCALE VICTORIA V METRICS 15-721 (spring 2020) O influxdb ClickHouse fS ±CMU.DB ](media/History-image15.png){width="7.479166666666667in" height="4.197916666666667in"}
 
 ![±CMU.DB 54 2010s - SPECIALIZED SYSTEMS Embedded DBMSs Multi-Model DBMSs Blockchain DBMSs Hardware Acceleration 15-721 (spring 2020) ](media/History-image16.png){width="7.479166666666667in" height="4.197916666666667in"}
-
-
-
 [01 - History of Databases (CMU Databases / Spring 2020)](https://www.youtube.com/watch?v=SdW5RKUboKc)
-
-
-
 ![u Carnegie Mellon University ADVANCED DATABASE SYSTEMS History of // 15-721 // spriög 2020 ](media/History-image17.jpg){width="5.0in" height="2.8020833333333335in"}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

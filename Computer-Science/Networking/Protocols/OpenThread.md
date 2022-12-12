@@ -13,9 +13,6 @@ Thread is designed to address the unique interoperability, security, power, and 
 -   Thread enables device-to-device and device-to-cloud communicationsand reliably connects hundreds (or thousands) of products and includes mandatory security features.
 -   Thread networks have no single point of failure,can self-heal and reconfigure when a device is added or removed, and are simple to setup and use.
 -   Thread is based on the broadly supported IEEE 802.15.4 radio standard,which is designed from the ground up for extremely low power consumption and low latency.
-
-
-
 [Thread](http://threadgroup.org/)is an IPv6-based networking protocol designed for low-power Internet of Things devices in an IEEE 802.15.4-2006 wireless mesh network, commonly called a Wireless Personal Area Network (WPAN). Thread is independent of other 802.15.4 mesh networking protocols, such a ZigBee, Z-Wave, and Bluetooth LE.
 
 Thread's primary features include:
@@ -24,15 +21,9 @@ Thread's primary features include:
 -   Reliability --- Self-healing mesh networking, with no single point of failure, and spread-spectrum techniques to provide immunity to interference
 -   Efficiency --- Low-power Thread devices can sleep and operate on battery power for years
 -   Scalability --- Thread networks can scale up to hundreds of devices
-
-
-
 **Features**
 
 OpenThread implements all Thread networking layers (IPv6, 6LoWPAN, IEEE 802.15.4 with MAC security, Mesh Link Establishment, Mesh Routing) and device roles, as well as Border Router support.
-
-
-
 [APPLICATION SERVICES](https://openthread.io/reference/)
 -   IPv6 configuration and raw data interface
 -   UDP sockets
@@ -56,9 +47,6 @@ OpenThread implements all Thread networking layers (IPv6, 6LoWPAN, IEEE 802.15.4
 -   Thread Border Agent to support an External Commissioner
 -   NAT64 for connecting to IPv4 networks
 -   Thread interface driver using wpantund
-
-
-
 **Node Roles and Types**
 
 In a Thread network, nodes are split into two forwarding roles:
@@ -76,13 +64,7 @@ An End Device (ED) is a node that:
 -   communicates primarily with a single Router
 -   does not forward packets for other network devices
 -   can disable its transceiver to reduce power
-
-
-
 ![OT Node Roles](media/OpenThread-image1.png){width="5.0in" height="5.15625in"}
-
-
-
 **Device Types**
 
 **Full Thread Device**
@@ -101,16 +83,7 @@ A Minimal Thread Device does not subscribe to multicast traffic and forwards all
 -   Sleepy End Device (SED) --- normally disabled, wakes on occasion to poll for messages from its parent
 
 An MTD can only operate as an End Device (Child).
-
-
-
-![OT Device Taxonomy](media/OpenThread-image2.png){width="5.0in" height="5.697916666666667in"}
-
-
-
-
-
-**References**
+![OT Device Taxonomy](media/OpenThread-image2.png){width="5.0in" height="5.697916666666667in"}**References**
 
 <https://openthread.io/>
 
@@ -119,5 +92,3 @@ An MTD can only operate as an End Device (Child).
 <https://openthread.io/guides/thread-primer/node-roles-and-types>
 
 <https://openthread.io/guides/ncp>
-
-
