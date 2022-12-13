@@ -102,7 +102,7 @@ If the first character of the administrator's hashed password is an 'a', wait fo
 
 <https://dotweak.com/2019/08/16/sql-injection-tutorial-for-beginners-Zm5NSWw3MjJCUVMrT2hmWUdNeTZiQT09>
 
-<https://www.freecodecamp.org/news/what-is-sql-injection-how-to-prevent-it/>
+<https://www.freecodecamp.org/news/what-is-sql-injection-how-to-prevent-it>
 **Row Hammer Attack**
 
 Row hammer(also written asrowhammer) is a security exploit that takes advantage of an unintended and undesirable side effect in[dynamic random-access memory](https://en.wikipedia.org/wiki/Dynamic_random-access_memory)(DRAM) in which[memory cells](https://en.wikipedia.org/wiki/Memory_cell_(computing))leak their charges by interactions between themselves, possibly leaking or changing the contents of nearby[memory rows](https://en.wikipedia.org/wiki/Memory_row)that were not[addressed](https://en.wikipedia.org/wiki/Memory_address)in the original memory access. This bypass of the isolation between DRAM memory cells results from the high cell density in modern DRAM, and can be triggered by specially crafted[memory access patterns](https://en.wikipedia.org/wiki/Memory_access_pattern)that rapidly activate the same memory rows numerous times. While cell charge leakage is normal and mitigated by refreshes, additional leakage occurs during a rowhammer attack which causes cells to leak enough charge to change its content within a refresh interval.

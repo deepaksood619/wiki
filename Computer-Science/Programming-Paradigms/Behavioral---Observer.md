@@ -18,6 +18,6 @@ All the items that are subscribed, will call the observer whenever an event happ
 -   the subscribers are notified at random (it's worth bearing in mind, since this may be important for some situations)
 **References**
 
-<https://py.checkio.org/blog/design-patterns-part-2/>
+<https://py.checkio.org/blog/design-patterns-part-2>
 
 <https://www.youtube.com/watch?v=oNalXg67XEE>

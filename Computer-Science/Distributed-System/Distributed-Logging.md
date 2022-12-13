@@ -63,6 +63,6 @@ A "-" in a field indicates missing data.-   127.0.0.1is the IP address of the cl
 
 <https://github.com/magnhaug/blogposts/blob/master/distributed-logging.md>
 
-<https://blog.treasuredata.com/blog/2016/08/03/distributed-logging-architecture-in-the-container-era/>
+<https://blog.treasuredata.com/blog/2016/08/03/distributed-logging-architecture-in-the-container-era>
 <https://devops.stackexchange.com/questions/422/how-to-have-multiple-log-streams-in-docker>
 

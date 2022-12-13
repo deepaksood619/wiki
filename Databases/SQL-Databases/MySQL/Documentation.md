@@ -2003,7 +2003,7 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 -   A row-level trigger is activated for each row that is inserted, updated, or deleted. For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected.
 -   A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
 MySQL supports only row-level triggers. It doesn't support statement-level triggers.
-<https://www.mysqltutorial.org/mysql-triggers.aspx/>
+<https://www.mysqltutorial.org/mysql-triggers.aspx>
 **When to use and not to use Triggers**
 
 Triggers are a requirement for any complex data integrity rules. These cannot be enforced anywhere except the database or you will have data integrity problems.
@@ -2041,7 +2041,7 @@ There are 6 different types of triggers in MySQL:
 5.  Before Delete Trigger
 
 6.  After Delete Trigger
-<https://www.geeksforgeeks.org/different-types-of-mysql-triggers-with-examples/>
+<https://www.geeksforgeeks.org/different-types-of-mysql-triggers-with-examples>
 23.3.1 Trigger Syntax and Examples
 
 23.3.2 Trigger Metadata
@@ -2049,7 +2049,7 @@ There are 6 different types of triggers in MySQL:
 23.4 Using the Event Scheduler
 
 MySQL Events are tasks that run according to a schedule. Therefore, we sometimes refer to them as*scheduled*events. When you create an event, you are creating a named database object containing one or more SQL statements to be executed at one or more regular intervals, beginning and ending at a specific date and time. Conceptually, this is similar to the idea of the Unixcrontab(also known as a"cron job") or the Windows Task Scheduler.
-<https://www.mysqltutorial.org/mysql-triggers/working-mysql-scheduled-event/>
+<https://www.mysqltutorial.org/mysql-triggers/working-mysql-scheduled-event>
 
 <https://dev.mysql.com/doc/refman/8.0/en/events-overview.html>
 23.4.1 Event Scheduler Overview
@@ -2551,4 +2551,4 @@ B.4.5 Optimizer-Related Issues
 B.4.6 Table Definition-Related Issues
 
 B.4.7 Known Issues in MySQL
-<https://dev.mysql.com/doc/refman/8.0/en/>
+<https://dev.mysql.com/doc/refman/8.0/en>

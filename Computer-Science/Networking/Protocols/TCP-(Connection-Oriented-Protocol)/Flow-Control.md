@@ -12,7 +12,7 @@ It's important to understand that this isnotthe same as*Congestion Control*. Alt
 **rwnd - Receiver Window and cwnd - Congestion Window**
 
 Congestion Window (cwnd) is a TCP state variable that limits the amount of data the[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)can send into the network before receiving an[ACK](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)). The Receiver Window (rwnd) is a variable that advertises the amount of data that the destination side can receive. Together, the two variables are used to regulate data flow in TCP connections, minimize congestion, and improve network performance.
-<https://blog.stackpath.com/glossary-cwnd-and-rwnd/>
+<https://blog.stackpath.com/glossary-cwnd-and-rwnd>
 **How it works**
 
 When we need to send data over a network, this is normally what happens.
@@ -119,7 +119,7 @@ When there's some spare space in the receiver's buffer again it can advertise a 
 -   When the window size is 0,TCPwill stop transmitting data and will start the persist timer;
 -   It will then periodically send a smallWindowProbemessage to the receiver to check if it can start receiving data again;
 -   When it receives a non-zero window size, it resumes the transmission.
-<https://www.brianstorti.com/tcp-flow-control/>
+<https://www.brianstorti.com/tcp-flow-control>
 **TCP Slow Start**
 
 Slow start is a mechanism which balances the speed of a TCP network connection. It escalates the amount of data transmitted until it finds the network's maximum carrying capacity.cwdnstands for the Congestion Window.

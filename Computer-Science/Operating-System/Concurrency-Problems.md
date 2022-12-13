@@ -69,6 +69,6 @@ The problem is how to design a discipline of behavior (a[concurrent](https://en.
 
 <https://en.wikipedia.org/wiki/Dining_philosophers_problem>
 
-<https://www.geeksforgeeks.org/operating-system-dining-philosopher-problem-using-semaphores/>
+<https://www.geeksforgeeks.org/operating-system-dining-philosopher-problem-using-semaphores>
 
-<https://www.geeksforgeeks.org/dining-philosophers-solution-using-monitors/>
+<https://www.geeksforgeeks.org/dining-philosophers-solution-using-monitors>

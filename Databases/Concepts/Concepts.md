@@ -59,7 +59,7 @@ Implicit Cursors are also known as Default Cursors of SQL SERVER. These Cursors 
 2.  **Explicit Cursors**
 
 Explicit Cursors are Created by Users whenever the user requires them. Explicit Cursors are used for Fetching data from Table in Row-By-Row Manner.
-<https://www.geeksforgeeks.org/what-is-cursor-in-sql/>
+<https://www.geeksforgeeks.org/what-is-cursor-in-sql>
 
 [**How Database Cursors Help in Fetching Large Result sets from your SQL**](https://www.youtube.com/watch?v=C1Y6P6vDFts)
 
@@ -87,7 +87,7 @@ LIMITandOFFSETallow you to retrieve just a portion of the rows that are generate
 -   Change offset to where query to filter using id, using index scan
 -   A good alternative for using OFFSET will be the Seek Method
 -   The seek method is all about finding a unique column or set of columns that identifies each row. Then, instead of using the OFFSET clause, we can just use that unique value as a bookmark that presents the position of the last row we've fetched and query the next set of rows by starting from this position in the WHERE clause.
-<https://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow/>
+<https://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow>
 **Cursor Pagination vs Offset Pagination**
 
 **Pros**
@@ -108,7 +108,7 @@ LIMITandOFFSETallow you to retrieve just a portion of the rows that are generate
 
 <https://www.django-rest-framework.org/api-guide/pagination/#cursorpagination>
 
-<https://slack.engineering/evolving-api-pagination-at-slack/>
+<https://slack.engineering/evolving-api-pagination-at-slack>
 
 <https://betterprogramming.pub/building-apis-a-comparison-between-cursor-and-offset-pagination-88261e3885f8>
 

@@ -68,8 +68,8 @@ Here are some recommendations specific to Avro:
 
 <http://cloudurable.com/blog/avro/index.html>
 
-<http://avro.apache.org/docs/current/>
+<http://avro.apache.org/docs/current>
 
 <https://docs.oracle.com/database/nosql-12.1.3.0/GettingStartedGuide/avroschemas.html>
 
-<https://www.sderosiaux.com/articles/2017/03/02/serializing-data-efficiently-with-apache-avro-and-dealing-with-a-schema-registry/>
+<https://www.sderosiaux.com/articles/2017/03/02/serializing-data-efficiently-with-apache-avro-and-dealing-with-a-schema-registry>

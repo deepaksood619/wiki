@@ -33,4 +33,4 @@ Modified: 2020-01-03 19:27:43 +0500
 13. What is the main difference between the security adversary in network surveillance and censorship and the security in standard discussions of security protocols? Explain a few ways in which a network censor can censor access to the Internet for its customers.
 **References**
 
-<https://cs.nyu.edu/courses/fall17/CSCI-UA.0480-009/>
+<https://cs.nyu.edu/courses/fall17/CSCI-UA.0480-009>

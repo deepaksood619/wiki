@@ -20,7 +20,7 @@ A JavaScript-like path syntax makes it easy to access as much or as little data 
 Falcor automatically traverses references in your graph and makes requests as needed. Falcor transparently handles all network communications, opportunistically batching and de-duping requests.
 **References**
 
-<https://netflix.github.io/falcor/>
+<https://netflix.github.io/falcor>
 
 <https://netflix.github.io/falcor/starter/what-is-falcor.html>
 

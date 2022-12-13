@@ -21,7 +21,7 @@ Binary format for network transmission
 ![message HelloRequest { string greeting • 1; message HeiloResponse { string reply service HeiloService { rpc SayHeiio(HelloRequest) returns (HeiloResponse); ](media/Protocol-Buffers-Protobuf-image1.png)
 <https://github.com/google/protobuf>
 
-<https://developers.google.com/protocol-buffers/>
+<https://developers.google.com/protocol-buffers>
 **Advantages over XML**
 
 1.  are simpler

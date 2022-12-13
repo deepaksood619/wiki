@@ -64,7 +64,7 @@ Warning - ConcatKDFHash should not be used for password storage.-   KBKDF
 -   X963KDF
 <https://en.wikipedia.org/wiki/Key_derivation_function>
 
-<https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/>
+<https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions>
 **Cryptographic Hash Functions**
 -   MD5
 
@@ -88,7 +88,7 @@ user = User(password=password_hash, username=username)
 db.session.add(user)
 
 db.session.commit()
-<https://auth0.com/blog/hashing-in-action-understanding-bcrypt/>
+<https://auth0.com/blog/hashing-in-action-understanding-bcrypt>
 -   Whirlpool
 -   SHA-2
 -   SHA-3

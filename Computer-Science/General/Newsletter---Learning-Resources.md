@@ -6,7 +6,7 @@ Modified: 2022-05-30 23:23:24 +0500
 
 ---
 
-<https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send/>
+<https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send>
 **#1**
 
 This is a weeklynewsletter for our tech team. This will contain links worth reading in and around tech.
@@ -24,7 +24,7 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 5.<https://www.youtube.com/watch?v=W2Z7fbCLSTw&ab_channel=Fireship>
 **Advanced**
 
-1.<https://www.geeksforgeeks.org/indexing-in-databases-set-1/>
+1.<https://www.geeksforgeeks.org/indexing-in-databases-set-1>
 
 2.<https://www.toptal.com/database/sql-indexes-explained-pt-1>
 
@@ -34,9 +34,9 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 **Quote of the Week:**"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
 **Websites worth checking out**
 
-1.<https://www.freecodecamp.org/>
+1.<https://www.freecodecamp.org>
 
-2.<https://medium.com/>
+2.<https://medium.com>
 
 3. Awesome Repositories -<https://github.com/ossu/computer-science>
 **Youtube channelsworth subscribing**
@@ -75,23 +75,23 @@ Interview Cake Weekly Problem
 
 Daily coding
 
-<http://gamedevjsweekly.com/>
+<http://gamedevjsweekly.com>
 
-<https://dailyproductprep.com/>
+<https://dailyproductprep.com>
 
-<https://programmingdigest.net/>
+<https://programmingdigest.net>
 
 Medium Daily Digest
 **Learning Resources / Bootcamps**
 
 <https://github.com/jwasham/coding-interview-university>
 
-<https://www.freecodecamp.org/>
+<https://www.freecodecamp.org>
 
-<https://www.freecodecamp.org/news/best-coding-games-online-adults-learn-to-code/>
+<https://www.freecodecamp.org/news/best-coding-games-online-adults-learn-to-code>
 
-<https://www.masaischool.com/>
-<https://repl.it/>
+<https://www.masaischool.com>
+<https://repl.it>
 [**https://www.freecodecamp.org/news/tech-talks-software-development-conferences/**](https://www.freecodecamp.org/news/tech-talks-software-development-conferences/)
 
 <https://roadmap.sh/backend>
@@ -103,7 +103,7 @@ Medium Daily Digest
 <https://github.com/sdmg15/Best-websites-a-programmer-should-visit>
 **Blogs**
 
-<https://about.gitlab.com/2019/08/27/tyranny-of-the-clock/>
+<https://about.gitlab.com/2019/08/27/tyranny-of-the-clock>
 
 <https://fremtidensuddannelser.dk/en>
 **Repositories**

@@ -44,8 +44,8 @@ If you consider a use case like displaying real-time market news, market data, c
 -   HTTP/2 Push server can only be processed by browsers, not by applications.
 -   Combining HTTP/2 and SSE provides efficient HTTP-based bidirectional communication.
 WebSocket will probably remain used but SSE and its EventSource API combined with the power of HTTP/2 will provide the same result in most use cases, just simpler.
-<https://www.infoq.com/articles/websocket-and-http2-coexist/>
-<https://sookocheff.com/post/networking/how-do-websockets-work/>
+<https://www.infoq.com/articles/websocket-and-http2-coexist>
+<https://sookocheff.com/post/networking/how-do-websockets-work>
 
 <https://ably.com/topic/websockets>
 **socketio / socket.io**
@@ -54,7 +54,7 @@ Bidirectional and low-latency communication for every platform
 
 <https://github.com/socketio/socket.io>
 
-<https://socket.io/>
+<https://socket.io>
 **Websocket vs socketio**
 
 Socketio advantages are that it simplifies the usage of WebSockets, and probably more importantly it provides fail-overs to other protocols in the event that WebSockets are not supported on the browser or server.

@@ -91,8 +91,8 @@ Information flows in one direction from other systems to a device (or a group of
 
 <table>
 <colgroup>
-<col style="width: 15%" />
-<col style="width: 84%" />
+<col style="width: 15%" >
+<col style="width: 84%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -149,7 +149,7 @@ Information flows in one direction from other systems to a device (or a group of
 7.  Semantic(ex: JSON-LD, Web Thing Model)
 
 8.  Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
-<https://www.postscapes.com/internet-of-things-protocols/>
+<https://www.postscapes.com/internet-of-things-protocols>
 **References -**
 
 <https://cloudplatform.googleblog.com/2018/04/implementing-an-event-driven-architecture-on-serverless-the-Smart-Parking-story.html?m=1>

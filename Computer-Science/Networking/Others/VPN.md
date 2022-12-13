@@ -39,19 +39,19 @@ The IPsec protocols AH and ESP can be implemented in a host-to-host transport mo
 OpenVPN allows[peers](https://en.wikipedia.org/wiki/Peer-to-peer)to[authenticate](https://en.wikipedia.org/wiki/Authentication)each other using[pre-shared secret keys](https://en.wikipedia.org/wiki/Pre-shared_key),[certificates](https://en.wikipedia.org/wiki/Public_key_certificate)or[username](https://en.wikipedia.org/wiki/User_(computing))/[password](https://en.wikipedia.org/wiki/Password). When used in a multiclient-server configuration, it allows the server to release an[authentication certificate](https://en.wikipedia.org/wiki/Public_key_certificate)for every client, using[signatures](https://en.wikipedia.org/wiki/Digital_signature)and[certificate authority](https://en.wikipedia.org/wiki/Certificate_authority). It uses the[OpenSSL](https://en.wikipedia.org/wiki/OpenSSL)encryption[library](https://en.wikipedia.org/wiki/Library_(computing))extensively, as well as the[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)protocol, and contains many security and control features.
 <https://en.wikipedia.org/wiki/OpenVPN>
 
-<https://openvpn.net/>
+<https://openvpn.net>
 
 <https://medium.com/swlh/creating-a-vpn-with-2-factor-authentication-using-openvpn-and-docker-9569e609151a>
 **WireGuard**
 
 WireGuard is a novel VPN that runs inside the Linux Kernel and utilizesstate-of-the-art cryptography. It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. WireGuard is designed as a general purpose VPN for running on embedded interfaces and super computers alike, fit for many different circumstances. It runs over UDP.
-<https://www.wireguard.com/>
+<https://www.wireguard.com>
 
-<https://www.freecodecamp.org/news/how-to-set-up-a-vpn-server-at-home/>
+<https://www.freecodecamp.org/news/how-to-set-up-a-vpn-server-at-home>
 **NGrok**
 
 ngrok is a reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service. ngrok captures and analyzes all traffic over the tunnel for later inspection and replay.
-<https://ngrok.com/>
+<https://ngrok.com>
 
 <https://github.com/inconshreveable/ngrok>
 **Secure access service edge (SASE) model**

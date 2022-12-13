@@ -71,4 +71,4 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
 
 <https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c>
 
-<https://www.freecodecamp.org/news/learn-all-about-data-structures-used-in-computer-science/>
+<https://www.freecodecamp.org/news/learn-all-about-data-structures-used-in-computer-science>

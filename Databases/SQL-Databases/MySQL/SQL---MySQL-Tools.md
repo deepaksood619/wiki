@@ -11,7 +11,7 @@ Modified: 2021-11-25 19:26:25 +0500
 <https://www.percona.com/doc/percona-monitoring-and-management/index.html>
 
 **MySQL Diagnostic Manager (Monyog) - <https://www.webyog.com/product/monyog>**
-<https://www.eversql.com/top-5-mysql-monitoring-tools/>
+<https://www.eversql.com/top-5-mysql-monitoring-tools>
 **Testing**
 
 **mysqlslap**
@@ -165,4 +165,4 @@ Anomaly detection on SQL data warehouses and databases
 
 <https://github.com/cuebook/cueobserve>
 
-<https://cueobserve.cuebook.ai/>
+<https://cueobserve.cuebook.ai>

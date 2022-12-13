@@ -46,7 +46,7 @@ The solution is we can't support Remove operation in this simple bloom filters. 
 ![Bloom Filter • Compact way of representing a set of items • Checking for existence in set is cheap • Some probability of false positives: an item not in set may check true as being in set • Never false negatives Key-K Ha Has Ha k Large Bit Map 1 2 3 69 111 127 On insert, set all hashed bits. On check-if-present, return true if all hashed bits set. • False positives False positive rate low • m=4 hash functions . 100 items 3200 bits • FP rate 0.02% Big Data Computing Design of Key-Value Stores ](media/Bloom-Filters-image3.png)
 **References -**
 
-<https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/>
+<https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation>
 
 <https://en.wikipedia.org/wiki/Bloom_filter>
 
@@ -54,4 +54,4 @@ The solution is we can't support Remove operation in this simple bloom filters. 
 
 <https://www.quora.com/What-are-the-best-applications-of-Bloom-filters>
 
-Python Implentation - <https://diogodanielsoaresferreira.github.io/bloom-filter/>
+Python Implentation - <https://diogodanielsoaresferreira.github.io/bloom-filter>

@@ -23,16 +23,16 @@ allow you to have compute-intensive data warehouses with local SSD storage inclu
 **DS2 nodes**
 
 enable you to create large data warehouses using hard disk drives (HDDs), and we recommend using RA3 nodes instead. If you are using DS2 nodes, see[Overview of RA3 Node Types](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-ra3-node-types)in the Cluster Management Guide for upgrade guidelines. Customers using eight or more nodes of DS2.xlarge, or any number of DS2.8xlarge nodes, can now upgrade to RA3 and get 2x more storage and better performance for the same on-demand cost.
-<https://aws.amazon.com/redshift/pricing/>
+<https://aws.amazon.com/redshift/pricing>
 <table style="width:100%;">
 <colgroup>
-<col style="width: 22%" />
-<col style="width: 8%" />
-<col style="width: 11%" />
-<col style="width: 8%" />
-<col style="width: 19%" />
-<col style="width: 11%" />
-<col style="width: 18%" />
+<col style="width: 22%" >
+<col style="width: 8%" >
+<col style="width: 11%" >
+<col style="width: 8%" >
+<col style="width: 19%" >
+<col style="width: 11%" >
+<col style="width: 18%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,7 +63,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td><p>0.16TB SSD</p>
 <p>= 160 GB</p></td>
 <td>0.60 GB/s</td>
-<td>$0.315per Hour<br />
+<td>$0.315per Hour<br >
 <strong>0.315 * 8 = $2.52 per Hour</strong></td>
 </tr>
 <tr class="odd">

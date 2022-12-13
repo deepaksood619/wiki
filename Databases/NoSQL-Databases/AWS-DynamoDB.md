@@ -78,4 +78,4 @@ Furthermore, AWS encourages the use of DynamoDB as a materialized view for relat
 
 <https://medium.com/expedia-group-tech/dynamodb-data-modeling-c4b02729ac08>
 
-<https://aws.amazon.com/about-aws/whats-new/2021/05/learn-how-to-develop-applications-with-amazon-dynamodb/>
+<https://aws.amazon.com/about-aws/whats-new/2021/05/learn-how-to-develop-applications-with-amazon-dynamodb>

@@ -140,7 +140,7 @@ How do certificates get validated?
 -   Your browser once more looks up the certificate that signed the intermediate certificate. (It's the root certificate!)
 -   The entire certificate chain is trusted, and thus the site certificate is trusted as well.
 -   In the event that the last certificate is not a root certificate, and there are no more certificates to download, the chain is untrusted.
-<https://howhttps.works/certificate-authorities/>
+<https://howhttps.works/certificate-authorities>
 **CSR (Certificate Signing Request)**
 
 A CSR or Certificate Signing request is a block of encoded text that is given to a Certificate Authority when applying for an SSL Certificate. It is usually generated on the server where the certificate will be installed and contains information that will be included in the certificate such as the organization name, common name (domain name), locality, and country. It also contains the public key that will be included in the certificate. A private key is usually created at the same time that you create the CSR, making a key pair. A CSR is generally encoded using ASN.1 according to the PKCS #10 specification.
@@ -182,13 +182,13 @@ Cloud IAM typically includes the following features:
 -   Single Access Control Interface. Cloud IAM solutions provide a clean and consistent access control interface for all cloud platform services. The same interface can be used for all cloud services.
 -   Enhanced Security. You can define increased security for critical applications.
 -   Resource-level Access Control. You can define roles and grant permissions to users to access resources at different granularity levels.
-<https://auth0.com/learn/cloud-identity-access-management/>
+<https://auth0.com/learn/cloud-identity-access-management>
 **Privacy**
 
 **Privacy is not for the passive. -- Jeffrey Rosen**
 Privacy-enhancing technologies (PETs)
 The problem of matching records using an identifier while preserving privacy has been well studied as a class of algorithms called private set intersection.
-<https://engineering.fb.com/open-source/private-matching/>
+<https://engineering.fb.com/open-source/private-matching>
 Secret Introduction Problem
 **Differential Privacy**
 

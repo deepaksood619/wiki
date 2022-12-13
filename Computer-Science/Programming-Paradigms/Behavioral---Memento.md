@@ -29,4 +29,4 @@ The Memento pattern allows you to create any number of the object's snapshots an
 
 - It can entail additional memory costs, if the objects storing the history don't release the resources occupied by the outdated images.**References**
 
-<https://py.checkio.org/blog/design-patterns-part-3/>
+<https://py.checkio.org/blog/design-patterns-part-3>

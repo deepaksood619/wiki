@@ -84,10 +84,10 @@ Aurora architecture works on the basis of a cluster volume that manages the data
 Same as MySQL, Aurora supports materialized views
 <https://dbdb.io/db/aurora>
 
-<https://aws.amazon.com/rds/aurora/faqs/>
+<https://aws.amazon.com/rds/aurora/faqs>
 **Aurora vs RDS MySQL**
 
-<https://www.percona.com/blog/2018/07/17/when-should-i-use-amazon-aurora-and-when-should-i-use-rds-mysql/>
+<https://www.percona.com/blog/2018/07/17/when-should-i-use-amazon-aurora-and-when-should-i-use-rds-mysql>
 
-<https://www.actifio.com/company/blog/post/comparing-aws-rds-for-aurora-vs-mysql-vs-postgresql/>
+<https://www.actifio.com/company/blog/post/comparing-aws-rds-for-aurora-vs-mysql-vs-postgresql>
 

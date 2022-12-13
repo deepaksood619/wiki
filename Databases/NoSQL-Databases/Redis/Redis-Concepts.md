@@ -107,7 +107,7 @@ BGREWRITEAOF
 
 [**https://redis.io/topics/persistence**](https://redis.io/topics/persistence)
 
-<https://redislabs.com/ebook/part-2-core-concepts/chapter-4-keeping-data-safe-and-ensuring-performance/4-1-persistence-options/>
+<https://redislabs.com/ebook/part-2-core-concepts/chapter-4-keeping-data-safe-and-ensuring-performance/4-1-persistence-options>
 **Redis Keyspace Notifications**
 
 Keyspace notifications allow clients to subscribe to Pub/Sub channels in order to receive events affecting the Redis data set in some way.

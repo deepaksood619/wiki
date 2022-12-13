@@ -44,4 +44,4 @@ Therefore the minimum number of students required to ensure department club to b
 
 10 + 8 + 6 + 4 -- 4 + 1 = 25**References**
 -   <https://en.wikipedia.org/wiki/Pigeonhole_principle>
--   <https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle/>
+-   <https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle>

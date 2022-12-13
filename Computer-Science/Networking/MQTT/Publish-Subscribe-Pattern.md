@@ -38,4 +38,4 @@ Another big difference is that in a traditional message queue a message can be p
 A queue is far more rigid than a topic. Before a queue can be used, the queue must be created explicitly with a separate command. Only after the queue is named and created is it possible to publish or consume messages. In contrast, MQTT topics are extremely flexible and can be created on the fly.
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part2-publish-subscribe/>
+<https://www.hivemq.com/blog/mqtt-essentials-part2-publish-subscribe>

@@ -45,7 +45,7 @@ Effective access time = m(for page table) + m(for particular page in page table)
 
 ![save2](media/Swap---Paging---Caching-image3.jpg)
 
-<https://www.geeksforgeeks.org/operating-system-paging/>
+<https://www.geeksforgeeks.org/operating-system-paging>
 
 <https://en.wikipedia.org/wiki/Page_table>
 **Translation Lookaside Buffer (TLB)**
@@ -72,7 +72,7 @@ Page table entry has the following information
 5.  **Caching enabled/disabled --**Some times we need the fresh data. Let us say the user is typing some information from the keyboard and your program should run according to the input given by the user. In that case, the information will come into the main memory. Therefore main memory contains the latest information which is typed by the user. Now if you try to put that page in the cache, that cache will show the old information. So whenever freshness is required, we don't want to go for caching or many levels of the memory.The information present in the closest level to the CPU and the information present in the closest level to the user might be different. So we want the information has to be consistency, which means whatever information user has given, CPU should be able to see it as first as possible. That is the reason we want to disable caching. So, this bitenables or disablecaching of the page.
 
 6.  **Modified bit --**Modified bit says whether the page has been modified or not. Modified means sometimes you might try to write something on to the page. If a page is modified, then whenever you should replace that page with some other page, then the modified information should be kept on the hard disk or it has to be written back or it has to be saved back. It is set to 1 by hardware on write-access to page which is used to avoid writing when swapped out. Sometimes this modified bit is also called as theDirty bit.
-<https://www.geeksforgeeks.org/operating-system-page-table-entries/>
+<https://www.geeksforgeeks.org/operating-system-page-table-entries>
 **Swap**
 
 A swap file (or swap space or, in Windows NT, a pagefile) is a space on a[hard disk](http://searchstorage.techtarget.com/definition/hard-disk)used as the[virtual memory](http://searchstorage.techtarget.com/definition/virtual-memory)extension of a computer's real memory ([RAM](http://searchstorage.techtarget.com/definition/RAM-random-access-memory)). Having a swap file allows your computer's[operating system](http://whatis.techtarget.com/definition/operating-system-OS)to pretend that you have more RAM than you actually do. The least recently used files in RAM can be "swapped out" to your hard disk until they are needed later so that new files can be "swapped in" to RAM. In larger operating systems (such as IBM's[OS/390](http://searchdatacenter.techtarget.com/definition/OS-390)), the units that are moved are calledpages and the swapping is calledpaging.
@@ -120,4 +120,4 @@ Both CPU Cache and TLB are hardware used in microprocessors but what's the diffe
 But the scope of operation forTLBandCPU Cache is different. TLB is about 'speeding up address translation for Virtual memory' so that page-table needn't to be accessed for every address. CPU Cache is about 'speeding up main memory access latency' so that RAM isn't accessed always by CPU. TLB operation comes at the time of address translation by MMU while CPU cache operation comes at the time of memory access by CPU. In fact, any modern processor deploys all I-Cache, L1 & L2 D-Cache and TLB.
 
 ![virtual physical address address TLB CPU Lookup miss Translation miss Main Memory Cache data ](media/Swap---Paging---Caching-image5.png)
-<https://www.geeksforgeeks.org/whats-difference-between-cpu-cache-and-tlb/>
+<https://www.geeksforgeeks.org/whats-difference-between-cpu-cache-and-tlb>

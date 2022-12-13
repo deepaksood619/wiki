@@ -28,7 +28,7 @@ Unstructured data is a data which is not organized in a predefined manner or doe
 | **Scalability**            | It is very difficult to scale DB schema                | It's scaling is simpler than structured data                                      | It is more scalable.                               |
 | **Robustness**             | Very robust                                            | New technology, not very spread                                                   | ---                                                |
 | **Query performance**      | Structured query allow complex joining                | Queries over anonymous nodes are possible                                         | Only textual queries are possible                  |
-<https://www.geeksforgeeks.org/difference-between-structured-semi-structured-and-unstructured-data/>
+<https://www.geeksforgeeks.org/difference-between-structured-semi-structured-and-unstructured-data>
 **Types of Large Objects (LOBs)**
 
 There are different kinds of LOBs which can be stored either in the database or in external files.
@@ -67,10 +67,10 @@ Up to 10 BFILES can be opened simultaneously in one session.
 | Character Large Object (CLOB)           | Stores string data in the database having character set format. Used for large set of characters/strings or documents that use the database character.                                 |
 | National Character Large Object (NCLOB) | Stores string data in National Character Set format. Used for large set of characters/strings or documents in the National Character Set. Supports characters of varying width format. |
 | External Binary File (BFILE)            | BFILEs can be accessed from your application on a read-only basis. Use BFILEs to store static data, such as image data, that does not need to be manipulated in applications.          |
-<https://www.geeksforgeeks.org/types-of-large-objectslobs/>
+<https://www.geeksforgeeks.org/types-of-large-objectslobs>
 
-<https://www.geeksforgeeks.org/introducing-lob-locators/>
+<https://www.geeksforgeeks.org/introducing-lob-locators>
 
-<https://www.geeksforgeeks.org/basic-operations-and-working-of-lob/>
+<https://www.geeksforgeeks.org/basic-operations-and-working-of-lob>
 
-<https://www.geeksforgeeks.org/large-objectslobs-for-semi-structured-and-unstructured-data/>
+<https://www.geeksforgeeks.org/large-objectslobs-for-semi-structured-and-unstructured-data>

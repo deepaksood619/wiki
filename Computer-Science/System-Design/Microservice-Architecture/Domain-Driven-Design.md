@@ -37,7 +37,7 @@ At a very high level, the process we just followed is called[Domain-Driven Desig
 Notice that each microservice has its own dedicated database for**isolation**. The**empowered autonomous team**that owns the blue bounded context chose[RediSearch](https://redislabs.com/modules/redis-search/)to support their "Authenticate Digital Identity" microservice, and[RedisBloom](https://redislabs.com/modules/redis-bloom/)to support their "Probabilistic Fraud Detection Checkpoint" microservice. Meanwhile, a separate team that owns the purple bounded context chose[RedisAI](https://redislabs.com/modules/redis-ai/)to support "Transaction Risk Scoring" in real-time.
 ![](media/Microservice-Architecture_Domain-Driven-Design-image3.png)
 
-<https://www.domainlanguage.com/ddd/reference/attachment/pattern-language-overview-med/>
+<https://www.domainlanguage.com/ddd/reference/attachment/pattern-language-overview-med>
 
 <https://www.youtube.com/watch?v=hv-LiKQgN90>
 

@@ -63,7 +63,7 @@ However, remember that these IDs arenot random, and their uniqueness is now your
 If you don't know what to go with, go with v4. It's good enough, and the chances of collision are practically none.
 If you actuallywantyour UUID to give some indication of the date and computer in which it was created, then UUID v1 may be for you (although it is).
 UUID v5 is normally used only for very specific use cases, when you want to derive a UUID from another piece of information on the fly.
-<https://www.sohamkamani.com/uuid-versions-explained/>
+<https://www.sohamkamani.com/uuid-versions-explained>
 **FlakeIDs**
 
 Many distributed systems have a requirement to generate time sorted, unique ids of some kind - for distinguishing incoming events, for resolving conflicts, for using as keys in key/value stores, for logging, and a whole bunch more.
@@ -107,7 +107,7 @@ Translation (T9N)
 | SCSI command time-out          | 30 s            | 3000 years            |
 | Hardware virtualization reboot | 40 s            | 4000 years            |
 | Physical system reboot         | 5 m             | 32 millenia           |
-<https://blog.codinghorror.com/the-infinite-space-between-words/>
+<https://blog.codinghorror.com/the-infinite-space-between-words>
 **Responsiveness matters**
 -   Walmart has found a sharp decline in conversion rates as latency climbs from 1s to 4s.
 -   Amazon found that every 100ms of latency cost them 1% in sales.
@@ -116,7 +116,7 @@ Translation (T9N)
 
 ![100ms is the holy grail from the RAIL model User Perception Of Performance Delays Oto 16ms Oto 100ms 100 to 300ms 300 to IOOOms 1000ms or more 10000ms or more Users are exceptionally good at tracking motion, and they dislike it when animations aren't smooth. They perceive animations as smooth so long as 60 new frames are rendered every second. That's 16ms per frame, including the time it takes for the browser to paint the new frame to the screen, leaving an app about 1 Oms to produce a frame. Respond to user actions within this time window and users feel like the result is immediate. Any longer, and the connection between action and reaction is broken. Users experience a slight perceptible delay. Within this window, things feel part of a natural and continuous progression of tasks. For most users on the web, loading pages or changing views represents a task. Beyond 1000 milliseconds (1 second), users lose focus on the task they are performing. Beyond 10000 milliseconds (10 seconds), users are frustrated and are likely to abandon tasks. They may or may not come back later. ](media/Others-image2.jpeg)
 
-RAIL Model - <https://web.dev/rail/>
+RAIL Model - <https://web.dev/rail>
 **Linear-feedback shift register (LSFR)**
 
 In[computing](https://en.wikipedia.org/wiki/Computing), alinear-feedback shift register(LFSR) is a[shift register](https://en.wikipedia.org/wiki/Shift_register)whose input bit is a[linear function](https://en.wikipedia.org/wiki/Linear#Boolean_functions)of its previous state.

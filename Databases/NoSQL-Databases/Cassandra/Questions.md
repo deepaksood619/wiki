@@ -6,7 +6,7 @@ Modified: 2020-01-07 23:12:53 +0500
 
 ---
 
-<https://www.edureka.co/blog/interview-questions/cassandra-interview-questions/>
+<https://www.edureka.co/blog/interview-questions/cassandra-interview-questions>
 Which of the following is *not* a feature of Cassandra?
 -   No single point of failure
 -   High availability

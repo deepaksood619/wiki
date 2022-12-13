@@ -41,7 +41,7 @@ GridDB is a distributed Key-Value Store (KVS) database built by Toshiba. It has 
 -   Amazon Timestream Database
 **References**
 
-<https://www.influxdata.com/time-series-database/>
+<https://www.influxdata.com/time-series-database>
 
 <https://misfra.me/2016/04/09/tsdb-list>
 

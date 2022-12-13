@@ -126,7 +126,7 @@ Several methods have been devised that increase the effectiveness of memory mana
 Application-level memory management is generally categorized as either automatic memory management, usually involving[garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)), or[manual memory management](https://en.wikipedia.org/wiki/Manual_memory_management).
 [https://en.wikipedia.org/wiki/Memory_management](https://en.wikipedia.org/wiki/Memory_management#HEAP)
 
-<https://gceasy.io/>
+<https://gceasy.io>
 **Memory Hierarchy**
 -   **[Processor registers](https://en.wikipedia.org/wiki/Processor_register)--** the fastest possible access (usually 1 CPU cycle). A few thousand bytes in size
 -   [**Cache**](https://en.wikipedia.org/wiki/CPU_cache)
@@ -146,7 +146,7 @@ The lower levels of the hierarchy -- from disks downwards -- are also known as[t
 -   Offline storage is not immediately available, and requires some human intervention to bring online.
 <https://en.wikipedia.org/wiki/Memory_hierarchy>
 
-<https://www.thegeekstuff.com/2012/02/linux-memory-swap-cache-shared-vm/>
+<https://www.thegeekstuff.com/2012/02/linux-memory-swap-cache-shared-vm>
 **Transparent Huge Pages (THP)**
 
 Transparent Huge Pages (THP) is a Linux memory management system that reduces the overhead of Translation Lookaside Buffer (TLB) lookups on machines with large amounts of memory by using larger memory pages.

@@ -69,7 +69,7 @@ Do note that for signed tokens this information, though protected against tamper
 -   JWE - JSON Web Encryption
 -   JWK - JSON Web Key
 -   JWA - JSON Web Algorithms
-<https://jwt.io/>
+<https://jwt.io>
 
 <https://jwt.io/introduction>
 
@@ -79,7 +79,7 @@ Do note that for signed tokens this information, though protected against tamper
 
 <https://www.pingidentity.com/en/company/blog/posts/2019/jwt-security-nobody-talks-about.html>
 
-<https://auth0.com/learn/json-web-tokens/>
+<https://auth0.com/learn/json-web-tokens>
 
 [OAuth Vs JWT | What is the difference? | Tech Primers](https://www.youtube.com/watch?v=a9R3Gq1BKxI)
 
@@ -165,5 +165,5 @@ return middleware
 
 app = web.Application(middlewares=[auth_middleware])
 app.router.add_route('GET', '/get-user', get_user)
-<https://steelkiwi.com/blog/jwt-authorization-python-part-1-practise/>
+<https://steelkiwi.com/blog/jwt-authorization-python-part-1-practise>
 

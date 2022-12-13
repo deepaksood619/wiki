@@ -37,5 +37,5 @@ Currently, it is not possible to speak pure MQTT in a browser because it is not 
 You can leverage Transport Layer Security (TLS) to use secure WebSockets with encryption of the whole connection. This method works seamlessly with HiveMQ. However, there are a few points that you need to keep in mind.
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-special-mqtt-over-websockets/>
+<https://www.hivemq.com/blog/mqtt-essentials-special-mqtt-over-websockets>
 

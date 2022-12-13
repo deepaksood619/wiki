@@ -81,7 +81,7 @@ In order to program for data integrity, it is crucial to have an understanding o
 ![[Data flow diagram]](media/Disk-IO-image6.png)
 
 At the top is the running application which has data that it needs to save to stable storage. That data starts out as one or more blocks of memory, or buffers, in the application itself. Those buffers can also be handed to a library, which may perform its own buffering. Regardless of whether data is buffered in application buffers or by a library, the data lives in the application's address space. The next layer that the data goes through is the kernel, which keeps its own version of a write-back cache called the page cache. Dirty pages can live in the page cache for an indeterminate amount of time, depending on overall system load and I/O patterns. When dirty data is finally evicted from the kernel's page cache, it is written to a storage device (such as a hard disk). The storage device may further buffer the data in a volatile write-back cache. If power is lost while data is in this cache, the data will be lost. Finally, at the very bottom of the stack is the non-volatile storage. When the data hits this layer, it is considered to be "safe."
-<https://lwn.net/Articles/457667/>
+<https://lwn.net/Articles/457667>
 **Access Patterns**
 
 Access patterns are patterns with which a program reads and writes the data. In general, we distinguish between the r**andom and sequential access patterns**. But, of course, nothing is absolute. Having fully sequential reads is not possible for ad-hoc queries, since the data has to be located first, but as soon as it is located, it can be read sequentially.
@@ -129,7 +129,7 @@ Some disagreement exists in the literature as to the maximum number of PE cycles
 TheDistributedAsynchronousObjectStorage (DAOS) is an open-source software-defined object store designed from the ground up for massively distributed Non Volatile Memory (NVM). DAOS takes advantage of next generation NVM technology like Storage Class Memory (SCM) and NVM express (NVMe) while presenting a key-value storage interface and providing features such as transactional non-blocking I/O, advanced data protection with self healing on top of commodity hardware, end-to-end data integrity, fine grained data control and elastic storage to optimize performance and cost.
 <https://github.com/daos-stack/daos>
 
-<https://www.sigarch.org/from-flops-to-iops-the-new-bottlenecks-of-scientific-computing/>
+<https://www.sigarch.org/from-flops-to-iops-the-new-bottlenecks-of-scientific-computing>
 **Anatomy of SSD**
 
-<https://www.techspot.com/amp/article/1985-anatomy-ssd/>
+<https://www.techspot.com/amp/article/1985-anatomy-ssd>

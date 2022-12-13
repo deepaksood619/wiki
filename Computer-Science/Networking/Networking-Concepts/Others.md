@@ -17,7 +17,7 @@ All spine switches can handle Layer 3 (L3) with high port density, which allows 
 
 ![Spine Switches Diagram](media/Others-image1.jpg)
 ![](media/Others-image2.jpg)
-<https://www.sdxcentral.com/data-center/definitions/what-are-spine-switches/>
+<https://www.sdxcentral.com/data-center/definitions/what-are-spine-switches>
 **NAS**
 
 Network-attached storage(NAS) is a file-level (as opposed to[block-level](https://en.wikipedia.org/wiki/Block_device))[computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage)server connected to a[computer network](https://en.wikipedia.org/wiki/Computer_network)providing data access to a[heterogeneous](https://en.wikipedia.org/wiki/Heterogeneous_computing)group of clients. NAS is specialized for[serving files](https://en.wikipedia.org/wiki/File_server)either by its hardware, software, or configuration. It is often manufactured as a[computer appliance](https://en.wikipedia.org/wiki/Computer_appliance)-- a purpose-built specialized computer.[[nb 1]](https://en.wikipedia.org/wiki/Network-attached_storage#cite_note-1)NAS systems are networked appliances which contain one or more[storage drives](https://en.wikipedia.org/wiki/Hard_disk_drive), often arranged into logical, redundant storage containers or[RAID](https://en.wikipedia.org/wiki/RAID). Network-attached storage removes the responsibility of file serving from other servers on the network. They typically provide access to files using network file sharing protocols such as[NFS](https://en.wikipedia.org/wiki/Network_File_System_(protocol)),[SMB](https://en.wikipedia.org/wiki/Server_Message_Block), or[AFP](https://en.wikipedia.org/wiki/Apple_Filing_Protocol). From the mid-1990s, NAS devices began gaining popularity as a convenient method of sharing files among multiple computers. Potential benefits of dedicated network-attached storage, compared to general-purpose servers also serving files, include faster data access, easier administration, and simple configuration.
@@ -25,7 +25,7 @@ The hard disk drives with "NAS" in their name are functionally similar to other 
 <https://en.wikipedia.org/wiki/Network-attached_storage>
 **Peer to Peer Networks**
 
-<https://skerritt.blog/designing-effective-peer-to-peer-networks/>
+<https://skerritt.blog/designing-effective-peer-to-peer-networks>
 **VPC / RDP**
 
 ssh -i ec2_ssh_key.pem -X ubuntu@13.233.36.211
@@ -34,10 +34,10 @@ mac - cmd+space
 vnc://13.233.36.211:5901
 <https://ubuntu.com/tutorials/tutorial-ubuntu-desktop-aws#1-overview>
 
-<https://datawookie.netlify.app/blog/2017/08/remote-desktop-on-an-ubuntu-ec2-instance/>
+<https://datawookie.netlify.app/blog/2017/08/remote-desktop-on-an-ubuntu-ec2-instance>
 **NoMachine**
 
-<https://www.nomachine.com/>
+<https://www.nomachine.com>
 **Windows remote desktop (RDP)**
 
 **Multi user access**
@@ -55,7 +55,7 @@ $LocalTempDir = $env:TEMP; $ChromeInstaller = "ChromeInstaller.exe"; (new-object
 **ONAP**
 
 ONAP is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. Real-time, policy-driven orchestration and automation of physical and virtual network functions enables rapid automation of new services and complete lifecycle management critical for 5G and next-generation networks.
-<https://www.onap.org/>
+<https://www.onap.org>
 **IPVS**
 
 IPVS(IP Virtual Server) implements transport-layer[load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)), usually called[Layer 4](https://en.wikipedia.org/wiki/Layer_4)[LAN switching](https://en.wikipedia.org/wiki/LAN_switching), as part of the[Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel). It's configured via the user-space utility [ipvsadm(8)](https://man.cx/?page=ipvsadm(8)) tool.
@@ -71,7 +71,7 @@ In a nutshell, IPVS is used to expose an entrypoint service with a unique virtua
 RFID is the process by which items are uniquely identified using radio waves, and NFC is a specialized subset within the family of RFID technology. Specifically, NFC is a branch of High-Frequency (HF) RFID, and both operate at the 13.56 MHz frequency. NFC is designed to be a secure form of data exchange, and an NFC device is capable of being both an NFC reader and an[NFC tag](https://www.atlasrfidstore.com/near-field-communication/). This unique feature allows NFC devices to communicate peer-to-peer.
 RFID tags are either[Active or Passive](https://blog.atlasrfidstore.com/active-rfid-vs-passive-rfid).
 -   **Active RFID tags** contain their own power source giving them the ability to broadcast with a read range of up to 100 meters. Their long read range makes active RFID tags ideal for many industries where asset location and other improvements in logistics are important.-   [**Passive RFID tags**](https://www.atlasrfidstore.com/rfid-tags/)do not have their own power source. Instead, they are powered by the electromagnetic energy transmitted from the RFID reader. Because the radio waves must be strong enough to power the tags, passive RFID tags have a read range from near contact and up to 25 meters.
-<https://www.atlasrfidstore.com/rfid-insider/rfid-vs-nfc/>
+<https://www.atlasrfidstore.com/rfid-insider/rfid-vs-nfc>
 **Mobile Cell Service**
 
 [How Cell Service Actually Works](https://youtu.be/0faCad2kKeg)

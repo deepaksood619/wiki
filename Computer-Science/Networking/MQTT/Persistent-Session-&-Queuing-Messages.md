@@ -45,4 +45,4 @@ Persistent sessions are often used for MQTT clients on constrained devices and c
 People often ask how long the broker stores the session. The easy answer is: The broker stores the session until the clients comes back online and receives the message. However,what happens if a client does not come back online for a long time?Usually, the memory limit of the operating system is the primary constraint on message storage. There is no standard answer for this scenario. The right solution depends on your use case.
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages/>
+<https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages>

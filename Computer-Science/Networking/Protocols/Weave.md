@@ -19,7 +19,7 @@ Weave was designed with the following goals in mind:
 ![Weave Components](media/Weave-image1.png)
 **References**
 
-<https://openweave.io/>
+<https://openweave.io>
 
 <https://openweave.io/guides/weave-primer>
 

@@ -56,12 +56,12 @@ Object-oriented databases store data items as objects, seeking to bridge the gap
 -   SQLite
 -   RethinkDB
 
-<https://rethinkdb.com/>
+<https://rethinkdb.com>
 6.  Hierarchical database / Graph based database (Entities, Relationships)
     -   Dgraph
     -   Nebula-graph
 
-<https://nebula-graph.io/>
+<https://nebula-graph.io>
 -   [Alibaba Graph Database](https://cn.aliyun.com/product/gdb)- A real-time, reliable, cloud-native graph database service that supports property graph model.
 -   [Amazon Neptune](https://aws.amazon.com/neptune/)- Fully-managed graph database service.
 -   [ArangoDB](https://github.com/ArangoDB-Community/arangodb-tinkerpop-provider)- OLTP Provider for ArangoDB.
@@ -90,7 +90,7 @@ Object-oriented databases store data items as objects, seeking to bridge the gap
 -   [Titan (Amazon)](https://github.com/awslabs/dynamodb-titan-storage-backend)- The Amazon DynamoDB storage backend for Titan.
 -   [Titan (Tupl)](https://github.com/classmethod/tupl-titan-storage-backend)- The Tupl storage backend for Titan.
 -   [Unipop](https://github.com/rmagen/unipop)- OLTP Elasticsearch and JDBC backed graph.
-<http://tinkerpop.apache.org/>
+<http://tinkerpop.apache.org>
 Examples
 -   Filesystems
 -   DNS
@@ -140,7 +140,7 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 
 15. Embedded databases
 
-<https://jsondb.io/>
+<https://jsondb.io>
 **Comparision**
 
 ![](media/Types-of-Databases-image1.png)
@@ -163,7 +163,7 @@ Amazon RDS Proxy
 
 Amazon RDS Proxy is a fully managed, highly available database proxy for[Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/)that makes applications more scalable, more resilient to database failures, and more secure.
 Many applications, including those built on modern[serverless architectures](https://aws.amazon.com/serverless/), can have a large number of open connections to the database server, and may open and close database connections at a high rate, exhausting database memory and compute resources. Amazon RDS Proxy allows applications to pool and share connections established with the database, improving database efficiency and application scalability. With RDS Proxy, failover times for Aurora and RDS databases are reduced by up to 66% and database credentials, authentication, and access can be managed through integration with AWS Secrets Manager and AWS Identity and Access Management (IAM).
-<https://aws.amazon.com/rds/proxy/>
+<https://aws.amazon.com/rds/proxy>
 3.  Amazon RDS on VMWare
 
 Automate on-premises database management
@@ -179,14 +179,14 @@ In-memory Data Store and Cache-   Query Caching
 -   Delayed Transactions
 -   Read / Write Splitting
 -   Connection Polling
-Elasticache between rds and application - <https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds/>
+Elasticache between rds and application - <https://aws.amazon.com/blogs/database/automating-sql-caching-for-amazon-elasticache-and-amazon-rds>
 
-<https://www.heimdalldata.com/aws/>
+<https://www.heimdalldata.com/aws>
 
 <http://demoa.heimdalldata.com:8087/docs/theory/caching.html>
 **ElastiCache using Redis**
 
-<https://aws.amazon.com/redis/>
+<https://aws.amazon.com/redis>
 7.  Amazon Redshift
 
 Fast, Simple, Cost-effecitive Data Warehousing
@@ -196,11 +196,11 @@ Fully Managed Graph Database Service
 9.  AWS Database Migration Service (DMS)
 
 Migrate Databases with Minimal Downtime
-<https://aws.amazon.com/dms/>
+<https://aws.amazon.com/dms>
 
-<https://aws.amazon.com/blogs/database/archiving-data-from-relational-databases-to-amazon-glacier-via-aws-dms/>
+<https://aws.amazon.com/blogs/database/archiving-data-from-relational-databases-to-amazon-glacier-via-aws-dms>
 
-<https://aws.amazon.com/blogs/database/automating-aws-dms-migration-tasks/>
+<https://aws.amazon.com/blogs/database/automating-aws-dms-migration-tasks>
 10. AWS Managed Apache Cassandra Service
 
 Amazon Managed Apache Cassandra Service is a scalable, highly available, and managed Apache Cassandra--compatible database service. With Amazon Managed Cassandra Service, you can run your Cassandra workloads on AWS using the same Cassandra application code and developer tools that you use today. You don't have to provision, patch, or manage servers, and you don't have to install, maintain, or operate software. Amazon Managed Cassandra Service is serverless, so you pay for only the resources you use and the service automatically scales tables up and down in response to application traffic. You can build applications that serve thousands of requests per second with virtually unlimited throughput and storage.
@@ -224,7 +224,7 @@ Fully managed ledged database
 | Graph             | Fraud detection, social networking, recommendation engines                                     | [Amazon Neptune](https://aws.amazon.com/neptune/?c=db&sec=srv)                                                                                                                                 |
 | Time series       | IoT applications, DevOps, industrial telemetry                                                 | [Amazon Timestream](https://aws.amazon.com/timestream/?c=db&sec=srv)                                                                                                                           |
 | Ledger            | Systems of record, supply chain, registrations, banking transactions                           | [Amazon Quantum Ledger Database](https://aws.amazon.com/qldb/?c=db&sec=srv)                                                                                                                    |
-<https://aws.amazon.com/products/databases/>
+<https://aws.amazon.com/products/databases>
 **Row Oriented vs Column Oriented (columnar) Databases**
 
 Here is an example: Say we have a table that stores the following data for 1M users:user_id, name, # logins, last_login. So we effectively have 1M rows and 4 columns. A row-oriented data store will physically store each user's data (i.e., each row) contiguously on disk. By contrast, a columnar store will store all of the user_id's together, all of the names together, and so forth, so that each column's data is stored contiguously on disk.
@@ -233,7 +233,7 @@ In particular, columnar stores do really well with narrow queries over very wide
 Additionally, because individual columns of data are typically the same type and are often drawn from a more limited domain or range, they typically compress better than an entire wide row of data comprising many different data types and ranges. For example, our column of number of logins would all be of an integer type and may cover a small range of numeric values.
 Yet columnar stores are not without trade-offs. First of all, inserts take much longer: the system needs to split each record into the appropriate columns and write it to disk accordingly. Second, it is easier for row-based stores to take advantage of an index (e.g., B-tree) to quickly find the appropriate records. Third, with a row-store it is easier to normalize your dataset, such that you can more efficiently store related datasets in other tables. 
 As a result, the choice of row-oriented vs. columnar database greatly depends on your workload. Typically, row-oriented stores are used with transactional (OLTP) workloads, while columnar stores are used with analytical (OLAP) workloads.
-<https://blog.timescale.com/blog/building-columnar-compression-in-a-row-oriented-database/>
+<https://blog.timescale.com/blog/building-columnar-compression-in-a-row-oriented-database>
 **Benefits of Columnar Formats**
 
 **READ-OPTIMIZATION**
@@ -291,11 +291,11 @@ Arelational databaseis a type of database. It uses a structure that allows us to
 <https://www.toptal.com/database/database-migrations-caterpillars-butterflies>
 
 <https://www.toptal.com/database/database-design-bad-practices>
-<https://dbdb.io/>
+<https://dbdb.io>
 
 <https://www.sciencedirect.com/science/article/pii/S1319157816300453>
 [Rust at speed --- building a fast concurrent database](https://www.youtube.com/watch?v=s19G6n0UjsM)
 
 <https://www.youtube.com/watch?v=Cym4TZwTCNU>
-<https://www.freecodecamp.org/news/learn-nosql-in-3-hours/>
+<https://www.freecodecamp.org/news/learn-nosql-in-3-hours>
 

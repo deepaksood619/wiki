@@ -84,7 +84,7 @@ Not withstanding their differences, we can observe that there is a close relatio
 In fact, a table is fully defined by its underlying change stream. If you have ever worked with a relational database such as Oracle or MySQL, these change streams exist there, too! Here, however, they are a hidden implementation detail---albeit an absolutely critical one---and have names like[redo log](https://docs.oracle.com/cd/B28359_01/server.111/b28310/onlineredo001.htm#ADMIN11302)or[binary log](https://dev.mysql.com/doc/internals/en/binary-log-overview.html). In event streaming, the redo log is much more than an implementation detail. It's a first-class entity: a stream. We can turn streams into tables and tables into streams, which is one reason why we say that event streaming and Kafka are[turning the database inside out](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/).
 
 ![Figure 2. Because of the stream-table duality, we can easily turn a stream into a table, and vice versa. Even more, we can do this in a continuous, streaming manner so that both the stream and the table are always up to date with the latest events.](media/Event-driven-architecture-image3.png)
-<https://www.confluent.io/blog/kafka-streams-tables-part-1-event-streaming/>
+<https://www.confluent.io/blog/kafka-streams-tables-part-1-event-streaming>
 
 ![Events ItemAdd Bread Basket Bread Tinned Spaghetti emAdd Baked Beans ItemRemove Baked Beans ItemAdd Tinned Spaghetti ](media/Event-driven-architecture-image4.png)
 
@@ -139,12 +139,12 @@ This pattern shows how to split a large message into a claim check and a payload
 7.  Major advantages of choreography over orchestration:1) Orchestration suffers from tight coupling, whereas choreography offers loose coupling. 2) Orchestration depends on RESTful APIs and hence requires more maintenance due to failures whereas choreography requires less maintenance and is fault-tolerant because it is mostly stateless and messages can be retried.
 <https://www.youtube.com/watch?v=ePHpAPacOdI>
 
-<https://segment.com/blog/exactly-once-delivery/>
+<https://segment.com/blog/exactly-once-delivery>
 
 [GOTO 2017 • The Many Meanings of Event-Driven Architecture • Martin Fowler](https://www.youtube.com/watch?v=STKCRSUsyP0)
 LMAX Architecture
 -   <https://martinfowler.com/articles/lmax.html>
--   <https://lmax-exchange.github.io/disruptor/>
+-   <https://lmax-exchange.github.io/disruptor>
 
 <https://cloudplatform.googleblog.com/2018/04/Cloud-native-architecture-with-serverless-microservices-the-Smart-Parking-story.html>
 
@@ -183,6 +183,6 @@ All three protocols are supported by RabbitMQ broker, making it an ideal choice 
 **pika**
 
 Pika is a RabbitMQ (AMQP 0-9-1) client library for Python.
-<https://pypi.org/project/pika/>
+<https://pypi.org/project/pika>
 
 <https://pika.readthedocs.io/en/stable/intro.html>

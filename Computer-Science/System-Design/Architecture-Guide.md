@@ -189,8 +189,8 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
     m.  Web apps
 
 5.  Cloud Adoption Framework
-<https://docs.microsoft.com/en-us/azure/architecture/guide/>
+<https://docs.microsoft.com/en-us/azure/architecture/guide>
 
 <https://github.com/MicrosoftDocs/architecture-center>
-<https://thenewstack.io/primer-understanding-software-and-system-architecture/>
-<https://www.freecodecamp.org/news/systems-design-for-interviews/>
+<https://thenewstack.io/primer-understanding-software-and-system-architecture>
+<https://www.freecodecamp.org/news/systems-design-for-interviews>

@@ -115,7 +115,7 @@ While directory based sharding is the most flexible of the sharding methods disc
     b.  DynamoDB and Cassandra -- Consistent Hash Sharding
 
     c.  Google Spanner and HBase -- Range Sharding
-<https://blog.yugabyte.com/four-data-sharding-strategies-we-analyzed-in-building-a-distributed-sql-database/>
+<https://blog.yugabyte.com/four-data-sharding-strategies-we-analyzed-in-building-a-distributed-sql-database>
 **Should I Shard?**
 
 Whether or not one should implement a sharded database architecture is almost always a matter of debate. Some see sharding as an inevitable outcome for databases that reach a certain size, while others see it as a headache that should be avoided unless it's absolutely necessary, due to the operational complexity that sharding adds.
@@ -134,7 +134,7 @@ High Scalability - <http://highscalability.com/unorthodox-approach-database-desi
 
 <https://docs.oracle.com/cd/B19306_01/server.102/b14220/partconc.htm>
 <https://dev.mysql.com/doc/refman/5.7/en/partitioning-overview.html>
-<https://www.vertabelo.com/blog/everything-you-need-to-know-about-mysql-partitions/>
+<https://www.vertabelo.com/blog/everything-you-need-to-know-about-mysql-partitions>
 
 MySQL partitioning is about altering -- ideally, optimizing -- the way the database engine physically stores data. It allows you to distribute portions of table data (a.k.a. partitions) across the file system based on a set of user-defined rules (a.k.a. the "partitioning function"). In this way, if the queries you perform access only a fraction of table data and the partitioning function is properly set, there will be less to scan and queries will be faster.
 It is important to note that partitioning makes the most sense when dealing with large data sets. If you have fewer than a million rows or only thousands of records, partitioning will not make a difference.

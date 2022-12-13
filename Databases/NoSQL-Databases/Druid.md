@@ -167,7 +167,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
     -   0.5 GB/s/HT for data sitting in disk
 -   Druid is not good for computing moving averages
 -   No ML library in Druid
--   Duplicate data removal using HyperLogLog- <https://cleanprogrammer.net/getting-unique-counts-from-druid-using-hyperloglog/>
+-   Duplicate data removal using HyperLogLog- <https://cleanprogrammer.net/getting-unique-counts-from-druid-using-hyperloglog>
 -   Druid not build for historical storage
 -   MiddleManager creates segments, and then put it in deep storage, Historical pulls data from deep storage, create segment cache and serves it. Local Cache is there until the retention policy.
 -   Middle manager will skip the data if it's not in the right format. There's no way

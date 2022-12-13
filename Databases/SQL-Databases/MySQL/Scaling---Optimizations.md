@@ -47,7 +47,7 @@ Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
 **Optimizations**
 -   **Always do bulk inserts/updates wherever possible**
 
-<https://blog.jooq.org/2018/04/19/the-performance-difference-between-sql-row-by-row-updating-batch-updating-and-bulk-updating/>
+<https://blog.jooq.org/2018/04/19/the-performance-difference-between-sql-row-by-row-updating-batch-updating-and-bulk-updating>
 if autoincrement is used, then for every query there is roundtrip to database to check the autoincrement value, so use bulk insert if possible-   **Explicitly ORDER BY After GROUP BY**
 
 By default, the database sorts all 'GROUP BY col1, col2, ...' queries as if you specified 'ORDER BY col1, col2, ...' in the query as well. If a query includes a GROUP BY clause but you want to avoid the overhead of sorting the result, you can suppress sorting by specifying 'ORDER BY NULL'.
@@ -73,14 +73,14 @@ OPTIMIZE TABLE table_name;
 CHECK TABLE table_name;
 
 REPAIR TABLE table_name;
-<https://www.mysqltutorial.org/mysql-database-table-maintenance-statements.aspx/>
+<https://www.mysqltutorial.org/mysql-database-table-maintenance-statements.aspx>
 **Defragmentation**
 
 OPTIMIZE TABLE sttash_website_LIVE.email_instance_moratorium;
 During optimization, MySQL will create a temporary table for the table, and after the optimization it will delete the original table, and rename this temporary table to the original table.
 You can use[OPTIMIZE TABLE](https://dev.mysql.com/doc/refman/8.0/en/optimize-table.html)to reclaim the unused space and to defragment the data file. After extensive changes to a table, this statement may also improve performance of statements that use the table, sometimes significantly.
 This statement requires[SELECT](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_select)and[INSERT](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_insert)privileges for the table.
-<https://www.thegeekstuff.com/2016/04/mysql-optimize-table/>
+<https://www.thegeekstuff.com/2016/04/mysql-optimize-table>
 
 <https://dev.mysql.com/doc/refman/8.0/en/optimize-table.html>-   Optimizing data size
     -   **Table Columns**

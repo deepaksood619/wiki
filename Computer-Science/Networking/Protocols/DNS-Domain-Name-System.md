@@ -6,7 +6,7 @@ Modified: 2022-03-08 21:55:31 +0500
 
 ---
 
-<https://dnschecker.org/>
+<https://dnschecker.org>
 DNS stands for domain name system. It is an application layer protocol used to provide a human-friendly naming mechanism for internet resources. It is what ties a domain name to an IP address and allows you to access sites by name in your browser.
 DNS is the directory of the Internet. Whenever you click on a link, send an email, open a mobile app, often one of the first things that has to happen is your device needs to look up the address of a domain.
 **There are two sides of the DNS network:**
@@ -20,7 +20,7 @@ Every domain needs to have an Authoritative DNS provider.
 On the other side of the DNS system are resolvers. Every device that connects to the Internet needs a DNS resolver.
 Cloudfare DNS = 1.1.1.1
 
-<https://blog.cloudflare.com/announcing-1111/>
+<https://blog.cloudflare.com/announcing-1111>
 ![](media/DNS-Domain-Name-System-image1.png)
 Youtube - [What is DNS? - Introduction to Domain Name System](https://www.youtube.com/watch?v=e2xLV7pCOLI)
 **Recursive Nameserver**
@@ -29,7 +29,7 @@ A recursive nameserver is different because if it does not know the ip address f
 The recursive nameserver will check its cache first. If the IP address is not there, it will ask a root nameserver (root nameservers do not know IP addresses, but they can read requests and tell the recursive nameserver where to go next). All recursive nameservers come with 13 root nameservers' IP addresses pre-configured. The recursive nameserver picks one and asks it the same question ("what is the IP address for [www.google.com](http://www.google.com)?").
 The root nameserver reads the top-level domain (the end of the request), in this case .com, ([www.google.com](http://www.google.com)) and will tell the recursive nameserver to ask the Global Top Level Domain Servers (GTLD). GTLDs are essentially reference lists for each type of domain --- .com, .net., .edu, etc. While they don't know the IP addresses for websites, they do know which nameservers will have that information.
 The GTLD nameserver will read the next part of your request, reading from right to left (in this case the 'google' of[www.google.com](http://www.google.com))and will send back a message with the authoritative nameserver to contact. An authoritative nameserver is a nameserver that is responsible for the domain (and is the primary source of information).
-<https://www.freecodecamp.org/news/what-is-dns-anyway/>
+<https://www.freecodecamp.org/news/what-is-dns-anyway>
 **Fully Qualified Domain Name**
 
 A**fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*,is a[domain name](https://en.wikipedia.org/wiki/Domain_name)that specifies its exact location in the tree hierarchy of the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a[second-level domain](https://en.wikipedia.org/wiki/Second-level_domain)and a[top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
@@ -134,7 +134,7 @@ Cloudflare DNS, available at 1.1.1.1, is a free public DNS service run by the CD
 
 **DoT (DNS over TLS) and DoH (DNS over HTTPS)**
 
-<https://blog.cloudflare.com/dns-encryption-explained/>
+<https://blog.cloudflare.com/dns-encryption-explained>
 **Which services can use SNI?**
 
 SNI is an extension to TLS that provides support for multiple hostnames on a single IP address. The most common use of TLS is HTTPS for secure websites. However, it is present in all protocols that use TLS for security.
@@ -149,7 +149,7 @@ The TLS extension SNI works by requiring the client to transmit the hostname of 
 -   **Sideways delegation**
 
 ![Step reinvent-2017.com 600 IN NS ns-1084 awsdns-07 org. reinvent-2017.com 600 IN NS ms 1831 awsans-36 uk reinvent-2017.com 600 IN NS ns- 190 awsdns-23 com reinvent-2017.com 600 IN NS ns-634 awsdns- 15 NS com. reinvent-2017.com (DNS Provider) F:lnvent 0 2017. Amazon Web Services, Inc. or its Affiliates Alt rights reserved. In-Zone (t = 2 Days) reinvent-2017.com 172800 IN NS nsl.provider.com. reinvent-2017.com 172800 IN NS ns2.provider.com. reinvent-2017.com 172800 IN NS ns3.provider.com. reinvent-2017.com 172800 IN NS ns4.provider.com. reinvent-2017.com. (Route 53) reinvent-2017.com 600 IN NS ns-1084.awsdns-07.org. reinvent-2017.com 600 IN NS ns-1831.awsdns-36.co.uk. reinvent-2017.com 600 IN NS ns-190.awsdns-23.com. reinvent-2017.com 600 IN NS ns-634.awsdns-15.net. ](media/DNS-Domain-Name-System-image7.png)
-<https://aws.amazon.com/blogs/aws/latency-based-multi-region-routing-now-available-for-aws/>
+<https://aws.amazon.com/blogs/aws/latency-based-multi-region-routing-now-available-for-aws>
 
 [AWS re:Invent 2017: DNS Demystified: Global Traffic Management with Amazon Route 53 (NET302)](https://www.youtube.com/watch?v=PVBC1gb78r8)
 ![DÅX9{tified Global Tra fic Manageme t'Mith Amazon Route 53 Develop Xuan Shi, Software Developer, Ine. November 28, 2017 Flnvent ](media/DNS-Domain-Name-System-image8.jpg)

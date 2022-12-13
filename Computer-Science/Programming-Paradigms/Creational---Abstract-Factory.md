@@ -20,4 +20,4 @@ Cons:
 - it's difficult to add support for the new kinds of products.
 **References**
 
-<https://py.checkio.org/blog/design-patterns-part-1/>
+<https://py.checkio.org/blog/design-patterns-part-1>

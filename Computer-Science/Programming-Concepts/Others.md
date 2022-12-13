@@ -39,14 +39,14 @@ b.  MINOR version when you add functionality in a backwards-compatible manner, a
 
 c.  PATCH version when you make backwards-compatible bug fixes.
 
-<https://semver.org/>
+<https://semver.org>
 **Calendar Versioning (CalVer)**
 
 CalVer is a versioning convention based on your project's release calendar, instead of arbitrary numbers.
 
 **YYYY.MINOR.MICRO -** 2020.1.1
 
-<https://calver.org/>
+<https://calver.org>
 <https://www.wikiwand.com/en/Software_versioning>
 **What is Dynamic Binding (late binding)?**
 

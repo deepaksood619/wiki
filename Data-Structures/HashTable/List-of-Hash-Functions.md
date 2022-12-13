@@ -54,9 +54,9 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 
 <table>
 <colgroup>
-<col style="width: 37%" />
-<col style="width: 29%" />
-<col style="width: 32%" />
+<col style="width: 37%" >
+<col style="width: 29%" >
+<col style="width: 32%" >
 </colgroup>
 <thead>
 <tr class="header">

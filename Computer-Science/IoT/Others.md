@@ -15,7 +15,7 @@ Modified: 2022-10-30 23:34:37 +0500
 -   Low Power Wide Area Network (LPWAN)
 -   LoRa Network Protocol (Long Range)
 
-<https://www.postscapes.com/long-range-wireless-iot-protocol-lora/>
+<https://www.postscapes.com/long-range-wireless-iot-protocol-lora>
 **P2PLoc for Group-Motion Applications**
 
 P2PLoc (peer-to-peer localization) envisions wearable IoT devices on users' arms or wrists that exchange wireless messages to ultimately compute the relative positions of each group member. The outcome is a topology or configuration of mo- bile users that can be tracked in real time.
@@ -33,7 +33,7 @@ Managing Energy Consumption as an Architectural Quality Attribute -- Computing E
 
 <https://github.com/home-assistant/core>
 
-<https://www.home-assistant.io/>
+<https://www.home-assistant.io>
 
 <https://developers.home.google.com/matter>
 

@@ -34,10 +34,10 @@ Beyond basic routing correctness, two important constraints on the topology are 
 
 <table>
 <colgroup>
-<col style="width: 13%" />
-<col style="width: 15%" />
-<col style="width: 13%" />
-<col style="width: 57%" />
+<col style="width: 13%" >
+<col style="width: 15%" >
+<col style="width: 13%" >
+<col style="width: 57%" >
 </colgroup>
 <thead>
 <tr class="header">

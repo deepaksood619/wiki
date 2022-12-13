@@ -8,9 +8,9 @@ Modified: 2022-08-10 10:47:14 +0500
 
 **Fake API REST Mocks Server Tests**
 
-<https://reqres.in/>
+<https://reqres.in>
 
-<http://example.com/>
+<http://example.com>
 
 [**https://jsonplaceholder.typicode.com/**](https://jsonplaceholder.typicode.com/)
 
@@ -22,26 +22,26 @@ Modified: 2022-08-10 10:47:14 +0500
 
 [**https://fakestoreapi.com/**](https://fakestoreapi.com/)
 
-<https://anapioficeandfire.com/>
+<https://anapioficeandfire.com>
 
 **Public APIs**
 
 <https://github.com/public-apis/public-apis>
 
-<https://anapioficeandfire.com/>
+<https://anapioficeandfire.com>
 
 [**https://httpdump.io/**](https://httpdump.io/)
 
 <https://github.com/typicode/json-server>
 
-<https://my-json-server.typicode.com/>
+<https://my-json-server.typicode.com>
 **API Marketplace**
 
-<https://www.programmableweb.com/>
+<https://www.programmableweb.com>
 
-<https://rapidapi.com/>
+<https://rapidapi.com>
 **Postman VScode**
--   Thunder Client - <https://www.thunderclient.com/>
+-   Thunder Client - <https://www.thunderclient.com>
 **Variables**
 
 Variables allow you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests---and if you need to update the value, you only have to change it in one place.
@@ -51,7 +51,7 @@ Postman supports the following variable scopes:
 -   Environment
 -   Data
 -   Local
-<https://learning.postman.com/docs/postman/variables-and-environments/variables/>
+<https://learning.postman.com/docs/postman/variables-and-environments/variables>
 **Environments**
 
 Environments allow you to run requests and collections against different data sets. For example, you could have an environment for development, one for testing, and another for production. You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
@@ -69,7 +69,7 @@ Examples of dynamic variables are as follows:
 
 The Collection Runner allows you to run sets of requests in a specified sequence. The Collection Runner will log your request test results, and your scripts can pass data between requests as well as altering the request workflow.
 You can run collections against specific environments, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using monitors. You can integrate collection runs to your CI/CD pipeline using Postman's CLI Newman.
-<https://learning.postman.com/docs/running-collections/intro-to-collection-runs/>
+<https://learning.postman.com/docs/running-collections/intro-to-collection-runs>
 **Mock Server**
 **Monitoring**
 <https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d>
@@ -78,7 +78,7 @@ You can run collections against specific environments, and can pass data files i
 **Newman**
 
 Newman is a command line Collection Runner for Postman. It allows you to run and test a Postman Collection directly from the command line. It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
-<https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/>
+<https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman>
 **Pre-Request Script**
 
 varkey**=**'6aeb53996e29f845ae6b52dbda150df5fb03b981da8eaac63e3faa327fdce343';
@@ -122,10 +122,10 @@ CMD +  - show/hide sidebar
 
 Hoppscotch - <https://github.com/hoppscotch/hoppscotch>
 
-<https://hypertest.co/>
+<https://hypertest.co>
 **Others**
 
-<https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/>
+<https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it>
 
 [Testing your APIs with Postman and Newman](https://www.youtube.com/watch?v=fTtA9qXkNAk)
 

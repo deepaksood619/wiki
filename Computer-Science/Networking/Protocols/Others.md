@@ -49,7 +49,7 @@ TheWeb Proxy Auto-Discovery (WPAD) Protocolis a method used by clients to locate
 
 **Constrained Application Protocol(CoAP)** is a specialized Internet Application Protocol for constrained devices, as defined in[RFC 7252](https://tools.ietf.org/html/rfc7252). It enables those constrained devices called "nodes" to communicate with the wider Internet using similar protocols. CoAP is designed for use between devices on the same constrained network (e.g., low-power, lossy networks), between devices and general nodes on the Internet, and between devices on different constrained networks both joined by an internet. CoAP is also being used via other mechanisms, such as SMS on mobile communication networks.
 CoAP is a[service layer](https://en.wikipedia.org/wiki/Service_layer)protocol that is intended for use in resource-constrained internet devices, such as[wireless sensor network](https://en.wikipedia.org/wiki/Wireless_sensor_network)nodes. CoAP is designed to easily translate to[HTTP](https://en.wikipedia.org/wiki/HTTP)for simplified integration with the web, while also meeting specialized requirements such as[multicast](https://en.wikipedia.org/wiki/Multicast)support, very low overhead, and simplicity.Multicast, low overhead, and simplicity are extremely important for[Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things)(IoT) and[Machine-to-Machine](https://en.wikipedia.org/wiki/Machine-to-Machine)(M2M) devices, which tend to be deeply[embedded](https://en.wikipedia.org/wiki/Embedded_system)and have much less memory and power supply than traditional internet devices have. Therefore, efficiency is very important. CoAP can run on most devices that support[UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)or a UDP analogue.
-<https://www.eclipse.org/californium/>
+<https://www.eclipse.org/californium>
 **Lightweight Directory Access Protocol (LDAP)**
 
 LDAP is an open, vendor-neutral, industry standard[application protocol](https://en.wikipedia.org/wiki/Application_protocol)for accessing and maintaining distributed[directory information services](https://en.wikipedia.org/wiki/Directory_service)over an[Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)(IP) network.[Directory services](https://en.wikipedia.org/wiki/Directory_service)play an important role in developing[intranet](https://en.wikipedia.org/wiki/Intranet)and Internet applications by allowing the sharing of information about users, systems, networks, services, and applications throughout the network.As examples, directory services may provide any organized set of records, often with a hierarchical structure, such as a corporate[email](https://en.wikipedia.org/wiki/Email) directory. Similarly, a[telephone directory](https://en.wikipedia.org/wiki/Telephone_directory)is a list of subscribers with an address and a phone number.
@@ -73,7 +73,7 @@ BACnet Protocol (Building Automation and Control networks)
 **Zero Overhead Pub/sub, Store/Query and Compute.**
 
 zenoh unifies data in motion, data in-use, data at rest and computations. It carefully blends traditional pub/sub with geo-distributed storages, queries and computations, while retaining a level of time and space efficiency that is well beyond any of the mainstream stacks.
-<http://zenoh.io/>
+<http://zenoh.io>
 **OPC Unified Architecture(OPC UA)**
 
 OPC Unified Architecture(OPC UA) is a[machine to machine](https://en.wikipedia.org/wiki/Machine_to_machine)[communication protocol](https://en.wikipedia.org/wiki/Communication_protocol)for[industrial automation](https://en.wikipedia.org/wiki/Industrial_automation)developed by the[OPC Foundation](https://en.wikipedia.org/wiki/OPC_Foundation). Distinguishing characteristics are:
@@ -117,9 +117,9 @@ The OPC UA specification is a multi-part specification and consists of the follo
 14. PubSub
 <https://en.wikipedia.org/wiki/OPC_Unified_Architecture>
 
-<https://opcfoundation.org/about/opc-technologies/opc-ua/>
+<https://opcfoundation.org/about/opc-technologies/opc-ua>
 **Dedicated short-range communications (DSRC)**
 
 Dedicated short-range communications(DSRC) are one-way or two-way short-range to medium-range[wireless](https://en.wikipedia.org/wiki/Wireless)communication channels specifically designed for automotive use[[1]](https://en.wikipedia.org/wiki/Dedicated_short-range_communications#cite_note-1)and a corresponding set of protocols and standards.
 <https://en.wikipedia.org/wiki/Dedicated_short-range_communications>
-<https://web.dev/webtransport/>
+<https://web.dev/webtransport>

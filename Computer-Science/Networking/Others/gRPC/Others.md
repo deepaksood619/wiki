@@ -15,12 +15,12 @@ JSON is not useful where:
 -   No type safety
 **Python**
 
-<https://grpc.github.io/grpc/python/>
+<https://grpc.github.io/grpc/python>
 
 <https://medium.com/@biplav.nep/grpc-using-flask-restful-code-2ed5607ae9a>
 **grpc-web**
 
-<https://www.freecodecamp.org/news/how-to-use-grpc-web-with-react-1c93feb691b5/>
+<https://www.freecodecamp.org/news/how-to-use-grpc-web-with-react-1c93feb691b5>
 
 <https://medium.com/@karandeepahluwalia/grpc-web-and-react-a-match-made-in-heaven-51a7a8ec86e6>
 <https://www.youtube.com/watch?v=_RiZkNR__60&ab_channel=GOTOConferences>

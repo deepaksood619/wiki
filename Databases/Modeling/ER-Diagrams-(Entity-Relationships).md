@@ -69,4 +69,4 @@ Cardinalitydefines the number of entities in one entity set, which can be associ
 ![Many-to-many relation](media/ER-Diagrams-(Entity-Relationships)-image5.png)
 ![[User should be able to view/edit his profile containing following information: -pic cm • On top left we should show user's Profile Photo • On the right side of Profile pic the name and contact information should be displayed. uses ](media/ER-Diagrams-(Entity-Relationships)-image6.jpeg)<https://www.tutorialspoint.com/dbms/er_model_basic_concepts.htm>
 
-<https://www.geeksforgeeks.org/introduction-of-er-model/>
+<https://www.geeksforgeeks.org/introduction-of-er-model>

@@ -23,8 +23,8 @@ The on-disk columnstore is actually fronted by an in-memory rowstore-like struct
 
 A MemSQL cluster can be configured in "High Availability" mode, where every data partition is automatically created with master and slave versions on two separate leaf nodes. In High Availability mode, aggregators send transactions to the master partitions, which then send logs to the slave partitions. In the event of an unexpected master failure, the slave partitions take over as master partitions in a fully online operation.
 Effortlessly set up streaming ingest feeds from[Apache Kafka](http://docs.memsql.com/docs/kafka-extractor),[Amazon S3](http://docs.memsql.com/docs/s3-pipelines-overview), and[HDFS](https://docs.memsql.com/docs/hdfs-pipelines-overview/) using a single[CREATE PIPELINE](http://docs.memsql.com/docs/create-pipeline)command
-<https://www.memsql.com/>
+<https://www.memsql.com>
 
 <https://en.wikipedia.org/wiki/MemSQL>
 
-<https://www.memsql.com/blog/a-technical-introduction-to-memsql/>
+<https://www.memsql.com/blog/a-technical-introduction-to-memsql>

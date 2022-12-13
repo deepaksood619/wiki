@@ -15,10 +15,10 @@ It was designed to be a reference model for describing the functions of a commun
 
 <table>
 <colgroup>
-<col style="width: 8%" />
-<col style="width: 16%" />
-<col style="width: 21%" />
-<col style="width: 53%" />
+<col style="width: 8%" >
+<col style="width: 16%" >
+<col style="width: 21%" >
+<col style="width: 53%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -232,9 +232,9 @@ OSI model acts as a reference model and is not implemented in Internet because o
 
 <https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols>
 
-<https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/>
+<https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english>
 
-<https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners/>
+<https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners>
 
-<https://www.freecodecamp.org/news/the-five-layers-model-explained/>
+<https://www.freecodecamp.org/news/the-five-layers-model-explained>
 

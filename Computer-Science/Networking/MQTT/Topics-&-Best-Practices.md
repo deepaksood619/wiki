@@ -99,4 +99,4 @@ Topics are a flexible concept and there is no need to preallocate them in any wa
 When you name topics, don't use them in the same way as in a queue. Be as specific topics as possible. For example, if you have three sensors in your living room, create topics for _myhome/livingroom/temperature, _myhome/livingroom/brightness and _myhome/livingroom/humidity. Do not send all values over _myhome/livingroom. Use of a single topic for all messages is a anti pattern. Specific naming also makes it possible for you to use other MQTT features such as retained messages.
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices/>
+<https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices>

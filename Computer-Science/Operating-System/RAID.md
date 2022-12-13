@@ -87,4 +87,4 @@ Parity is a redundancy check that ensures full protection of data without mainta
 ![RAID Parity](media/RAID-image3.png)
 The parity bits are used to re-create the data at the time of failure. Parity information can be stored on separate,dedicated HDDsor distributed across all the drives in a RAID set. In the above image, parity is stored on a separate disk.
 The first three disks, labeled D, contain the data. The fourth disk, labeled P, stores the parity information, which in this case is the sum of the elements in each row. Now, if one of the Disks (D) fails, the missing value can be calculated by subtracting the sum of the rest of the elements from the parity value.
-<https://www.storagetutorials.com/understanding-concept-striping-mirroring-parity/>
+<https://www.storagetutorials.com/understanding-concept-striping-mirroring-parity>

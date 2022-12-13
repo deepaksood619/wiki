@@ -48,7 +48,7 @@ Precalculus - <https://www.youtube.com/watch?v=eI4an8aSsgw>
 
 [What is Calculus? (Mathematics)](https://www.youtube.com/watch?v=w3GV9pumczQ)
 ![What is Calculus? ](media/Intro-image1.jpg)
-<https://www.freecodecamp.org/news/learn-calculus-2-in-this-free-7-hour-course/>
+<https://www.freecodecamp.org/news/learn-calculus-2-in-this-free-7-hour-course>
 -   Area Between Curves
 -   Volumes of Solids of Revolution
 -   Volumes Using Cross-Sections

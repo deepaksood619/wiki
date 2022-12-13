@@ -49,7 +49,7 @@ ii. Queries are distributed across a scalable Aggregator tier.The ability to sca
 
 iii. The Tailer, Leaf, and Aggregator run as discrete microservices in disaggregated fashion.Each Tailer, Leaf, or Aggregator tier can be independently scaled up and down as needed. The system scales Tailers when there is more data to ingest, scales Leaves when data size grows, and scales Aggregators when the number or complexity of queries increases. This independent scalability allows the system to bring significant resources to bear on complex queries when needed, while making it cost-effective to do so.
 The most significant difference is that the Lambda architecture performs data transformations up front so that results are pre-materialized, while the ALT architecture allows for query on demand with on-the-fly transformations.
-<https://rockset.com/blog/aggregator-leaf-tailer-an-architecture-for-live-analytics-on-event-streams/>
+<https://rockset.com/blog/aggregator-leaf-tailer-an-architecture-for-live-analytics-on-event-streams>
 **Dead Letter Queues**
 
 In[message queueing](https://en.wikipedia.org/wiki/Message_queue)thedead letter queueis a service implementation to store messages that meet one or more of the following criteria:
@@ -70,13 +70,13 @@ Amazon SQS supports*dead-letter queues*, which other queues (*source queues*) ca
 Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to*poison-pill messages*(messages that can be received but can't be processed).
 <https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html>
 
-<https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda/>
+<https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda>
 **Systemantics**
 
 General Systemantics(retitled toSystemanticsin its second edition andThe Systems Biblein its third) is a[systems engineering](https://en.wikipedia.org/wiki/Systems_engineering)treatise by[John Gall](https://en.wikipedia.org/wiki/John_Gall_(author))in which he offers practical principles of systems design based on experience and anecdotes.
 It is offered from the perspective of hownotto design systems, based on system engineering failures. The primary precept of treatise is that large[complex systems](https://en.wikipedia.org/wiki/Complex_system)are extremely difficult to design correctly despite best intentions, so care must be taken to design smaller, less-complex systems and to do so with incremental functionality based on close and continual touch with user needs and measures of effectiveness.
 <https://en.wikipedia.org/wiki/Systemantics>
-<https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture/>
+<https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture>
 
 **Notification System**
 -   APNS - Apple Push Notification System

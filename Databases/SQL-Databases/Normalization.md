@@ -113,7 +113,7 @@ Tables cannot have multi-valued dependencies on a Primary Key.
 **Fifth Normal Form (5NF)**
 
 A composite key shouldn't have any cyclic dependencies.
-<https://www.w3schools.in/dbms/database-normalization/>
+<https://www.w3schools.in/dbms/database-normalization>
 
 <http://www.bkent.net/Doc/simple5.htm>
 **Denormalization**

@@ -72,12 +72,12 @@ In long-format output of ls, Unix sockets are marked by "s" symbol:
 
 $ ls -al /dev/log
 srw-rw-rw- 1 root root 0 Sep 7 05:04 /dev/log
-<https://www.unixtutorial.org/unix-file-types/>
+<https://www.unixtutorial.org/unix-file-types>
 **Linux Capabilities**
 
 Normally the root user (or any ID with UID of 0) gets a special treatment when running processes. The kernel and applications are usually programmed to skip the restriction of some activities when seeing this user ID. In other words, this user is allowed to do (almost) anything.
 Linux capabilities provide a subset of the available root privileges to a process. This effectively breaks up root privileges into smaller and distinctive units. Each of these units can then be independently be granted to processes. This way the full set of privileges is reduced and decreasing the risks of exploitation.
-<https://linux-audit.com/linux-capabilities-101/>
+<https://linux-audit.com/linux-capabilities-101>
 
 <https://blog.container-solutions.com/linux-capabilities-why-they-exist-and-how-they-work>
 **Linux kernel**
@@ -220,4 +220,4 @@ firewalld provides a dynamically managed firewall with support for network/firew
 -   **ip** (network display and configuration tool)
 
 The ip program is part of the net-tools package, and is designed to be a replacement for the ifconfig command. The ip command will show or manipulate routing, network devices, routing information and tunnels
-<https://www.freecodecamp.org/news/securing-linux-servers-with-se-linux/>
+<https://www.freecodecamp.org/news/securing-linux-servers-with-se-linux>

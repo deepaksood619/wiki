@@ -62,4 +62,4 @@ A data mart is a data warehouse that serves the needs of a specific team or busi
 
 <https://www.guru99.com/data-warehouse-architecture.html>
 
-<https://aws.amazon.com/data-warehouse/>
+<https://aws.amazon.com/data-warehouse>

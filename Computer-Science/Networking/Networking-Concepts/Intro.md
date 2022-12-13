@@ -70,7 +70,7 @@ There are four main types of network bridging technologies: simple bridging, mul
 **References**
 
 <https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols>
-<https://www.freecodecamp.org/news/free-computer-networking-course/>
+<https://www.freecodecamp.org/news/free-computer-networking-course>
 -   Intro to Network Devices
 -   Networking Services and Applications
 -   DHCP in the Network
@@ -125,4 +125,4 @@ There are four main types of network bridging technologies: simple bridging, mul
 -   Cable Management
 -   Basics of Change Management
 -   Common Networking Protocols
-<https://www.freecodecamp.org/news/how-does-the-internet-work/>
+<https://www.freecodecamp.org/news/how-does-the-internet-work>

@@ -149,6 +149,6 @@ Amazon used the following principles of distributed system design to meet Amazon
 
 <https://dev.to/uyouthe/scalable-architecture-without-magic-and-how-to-build-it-if-youre-not-google-336a>
 <https://en.wikipedia.org/wiki/High_availability>
-<https://lethain.com/distributed-systems-vocabulary/>
+<https://lethain.com/distributed-systems-vocabulary>
 <https://www.kislayverma.com/post/code-review-checklist-for-distributed-systems>
 

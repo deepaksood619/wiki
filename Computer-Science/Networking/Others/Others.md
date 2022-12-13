@@ -24,7 +24,7 @@ OpenSSH is not a single computer program, but rather a suite of programs that se
 GStreamer supports a wide variety of media-handling components, including simple[audio](https://en.wikipedia.org/wiki/Audio_frequency)playback, audio and video playback,[recording](https://en.wikipedia.org/wiki/Sound_recording_and_reproduction),[streaming](https://en.wikipedia.org/wiki/Streaming_media)and editing. The pipeline design serves as a base to create many types of[multimedia](https://en.wikipedia.org/wiki/Multimedia)applications such as[video editors](https://en.wikipedia.org/wiki/Video_editing),[transcoders](https://en.wikipedia.org/wiki/Transcoding), streaming media broadcasters and[media players](https://en.wikipedia.org/wiki/Media_player_(application_software)).
 <https://en.wikipedia.org/wiki/GStreamer>
 
-<https://gstreamer.freedesktop.org/>
+<https://gstreamer.freedesktop.org>
 **Others**
 
 NNStreamer - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices.
@@ -70,7 +70,7 @@ pmacct is a small set of multi-purpose passive network monitoring tools. It can 
 -   Pluggable architecture for easy integration of new capturing environments and data backends
 -   Careful SQL support: data pre-processing, triggers, dynamic table naming
 -   It's free, open-source, developed and supported with passion and open mind for more than 10 years
-<https://brooks.sh/2019/11/17/network-flow-analysis-with-prometheus/>
+<https://brooks.sh/2019/11/17/network-flow-analysis-with-prometheus>
 
 <https://github.com/pmacct/pmacct>
 **Ribbon**

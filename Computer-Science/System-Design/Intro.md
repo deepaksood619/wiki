@@ -86,7 +86,7 @@ Callbacks
     -   Reliability
     -   Replication
     -   Tradeoffs
-<https://www.freecodecamp.org/news/systems-design-for-interviews/>
+<https://www.freecodecamp.org/news/systems-design-for-interviews>
 
 <https://hackernoon.com/anatomy-of-a-system-design-interview-4cb57d75a53f>
 

@@ -35,4 +35,4 @@ Modified: 2019-04-17 14:52:21 +0500
 
 <https://github.com/mqtt/mqtt.github.io/wiki/Differences-between-3.1.1-and-5.0>
 
-<https://blog.codecentric.de/en/2017/11/hello-mqtt-version-5-0/>
+<https://blog.codecentric.de/en/2017/11/hello-mqtt-version-5-0>

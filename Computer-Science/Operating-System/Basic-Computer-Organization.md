@@ -157,7 +157,7 @@ Each ELF file is made up of one ELF header, followed by file data. The data can 
 ![Linux executable walPthrough HEXADECMAL ANGE ALBERTINI CORKAMI.COM DUtQ DISSECTED ao ee 28 oe 80 34 28 ee 83 eo ee 08 E3 E2 '01 E3 78 74 61 ee ao ee ao ee 00 ee ee ee 80 eB ee ee ee ee ee ee ee ee 08 ee ee ao ee ee ee ee ee ee ee ee 80 oe ee 80 ee ao ee ee ee FILE 1/2 HEADER TECHNCAL FOR DENTFICATON EXECUTION SECTIONS CONTENTS OF EXECUTABLE 2/2 HEADER TECHNICAL DETAILS FOR FOR EXECUTION) 2 MAPPING 7F 84 45 46 01 01 el ea ea .ELF... ---$ uname -m armv71 ---$ ./simple.ARM Helto World! SIMPLE.ARM LOADING PROCESS 'l HEADER THE ELF HEADER IS PARSED ELF HEADER C€mTFY AS PROGRAM HEADER TABLE ident e El "RG El CLASS, El El VERSION e_tgpe nachine e version e e-phoff e snoff e ehstze e phentslze e -Phnun e shentsize e shnu• e shstrndx 2 p_type p_offset p_vacdr P---paddr p_fi I p_fl ags ARM ASSEMBLY CODE DATA SECTIONS NAMES el ee ee ee oe ea 9B ee ee ee 9e ee 28 E3 '14 1B eo 80 EF ee rl, re, r z:ata_. 48 6 C 2E 73 68 ea 2E 72 01 72 Re E3 'e: 74 72 61 ee 02 ae 62 ee 88 ae ee 64 ee ee ee ee ee ee ee 08 08 ae 21 ae ae ae e: ee ee 74 2B ee 88 19 oe ee ee Be ee ee ee oe ee ee 78 E3 65 oe ee ee oe ae ee oe oe oe Hello. korld!. shstrtab.. text .. rodäta. nov add nov nov svc nov nov svc 1 2 .13 pc, •2B"' STRT "Hello korl SECTION I SECTION HEADER TABLE lccc«c Tm, PROGRAM@ECTSI 3 EXECUTION ee ee ee 80 ee ee ee ee ee ee ee 73 64 oe oe oe 74 61 ea ea ea ea ee 74 ee ee ee ee . shrtrtab . text . rodata . shrtrtab 1 1 3 THE PROGRAM HEADER IS PARSED THE FILE IS MAPPED IN MEMORY ACCORDING TO ITS SEGMENT(S) ENTRY IS CALLED SYSCALLS ARE ACCESSED VIA: TRIVIA THE ELF WAS FIRS ](media/Basic-Computer-Organization-image11.png)
 <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
 
-<https://www.thegeekstuff.com/2012/07/elf-object-file-format/>
+<https://www.thegeekstuff.com/2012/07/elf-object-file-format>
 **Von Neumann Architecture**
 
 Thevon Neumann architecture---also known as thevon Neumann modelorPrinceton architecture---is a[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture)based on a 1945 description by[John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)and others in the[First Draft of a Report on the EDVAC](https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC). That document describes a design architecture for an electronic[digital computer](https://en.wikipedia.org/wiki/Digital_computer)with these components:
@@ -190,4 +190,4 @@ Historically there have been 2 types of Computers:
 6.  **Instruction Buffer Register (IBR):**The instruction that is not to be executed immediately is placed in the instruction buffer register IBR
 <https://en.wikipedia.org/wiki/Von_Neumann_architecture>
 
-<https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture/>
+<https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture>

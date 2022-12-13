@@ -52,4 +52,4 @@ return Math.**sqrt**(dx*dx + dy*dy);
 }
 **Hyperbolic functions**
 
-<https://betterexplained.com/articles/hyperbolic-functions/>
+<https://betterexplained.com/articles/hyperbolic-functions>

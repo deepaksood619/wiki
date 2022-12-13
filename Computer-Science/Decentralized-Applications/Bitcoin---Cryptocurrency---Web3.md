@@ -39,7 +39,7 @@ The blockchain trilemma is a concept coined by[Vitalik Buterin](https://coinmark
 <https://medium.com/logos-network/everything-you-know-about-the-scalability-trilemma-is-probably-wrong-bc4f4b7a7ef>
 <https://www.toptal.com/bitcoin/intro-to-bitcoin-lightning-network>
 
-<https://www.freecodecamp.org/news/create-cryptocurrency-using-python/>
+<https://www.freecodecamp.org/news/create-cryptocurrency-using-python>
 
 [ETHEREUM 2.0 - A GAME CHANGER? Proof Of Stake, The Beacon Chain, Sharding, Docking Explained](https://youtu.be/ctzGr58_jeI)
 -   Solidity
@@ -91,7 +91,7 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
 -   10% - Smart Contract Projects
 -   5% - NFT (Mana / Chiliz / Axie infinity)
 -   5% - Shitcoins/Memecoins-   **NFT (Non Fungible Token)**-   **Platforms**
-    -   <https://coinmarketcap.com/rankings/exchanges/>
+    -   <https://coinmarketcap.com/rankings/exchanges>
     -   **Binance (Sagar)**
     -   Crypto.com
     -   Vauld (FDs)
@@ -107,14 +107,14 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
     -   Lightning network-   **Others**
     -   NFT
     -   DeFi wallet-   **Tools**
-    -   <https://coinmarketcap.com/>
+    -   <https://coinmarketcap.com>
     -   <https://www.coingecko.com/en>
-    -   <https://www.intotheblock.com/>
-    -   <https://interest.coinmarketcap.com/> (Earn crypto from crypto)
-    -   **<https://cryptopanic.com/> (All news in one page)**
-    -   <https://coinmarketcal.com/en/> (Events)
+    -   <https://www.intotheblock.com>
+    -   <https://interest.coinmarketcap.com> (Earn crypto from crypto)
+    -   **<https://cryptopanic.com> (All news in one page)**
+    -   <https://coinmarketcal.com/en> (Events)
     -   <https://studio.glassnode.com/metrics> (Analytics)
-    -   <https://messari.io/> (Analytics)-   **Technical Analysis**
+    -   <https://messari.io> (Analytics)-   **Technical Analysis**
     -   Total Market Cap
     -   24 hours volume
     -   BTC Dominance (if BTC dominance decreases, alt coins take lead)

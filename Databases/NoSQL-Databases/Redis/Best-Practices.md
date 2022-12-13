@@ -35,7 +35,7 @@ Redis is a good option locking since has a simple key-based data model, each sha
     -   [Bit Counting Pattern](https://redislabs.com/redis-best-practices/counting/bit-counting-pattern/)
     -   [HyperLogLog](https://redislabs.com/redis-best-practices/counting/hyperloglog/)
 -   [Lua Helpers](https://redislabs.com/redis-best-practices/lua-helpers/)
-<https://redislabs.com/redis-best-practices/>
+<https://redislabs.com/redis-best-practices>
 **Best practices and performance tuning**
 
 **TCP-KeepAlive**
@@ -112,7 +112,7 @@ List is just a link list of arrays, where none of the arrays are compressed. By 
 [Reclaim Expired Keys Memory Faster](https://docs.redislabs.com/latest/ri/memory-optimizations/reclaim-expired-keys-memory-faster/)
 
 When you set an expiry on a key, redis does not expire it at that instant. Instead, it uses a randomized algorithm to find out keys that should be expired. Since this algorithm is random, there are chances that the keys are not expired. This means that redis consumes memory to hold keys that have already expired. The moment the key is accessed, it is deleted. If there are only a few keys that have expired and redis hasn't deleted them - it is fine.
-<https://docs.redislabs.com/latest/ri/memory-optimizations/>
+<https://docs.redislabs.com/latest/ri/memory-optimizations>
 
 <https://redis.io/topics/memory-optimization>
 

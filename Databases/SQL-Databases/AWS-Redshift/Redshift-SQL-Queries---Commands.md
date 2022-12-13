@@ -172,7 +172,7 @@ select a.txn_owner, a.txn_db, a.xid, a.pid, a.txn_start, a.lock_mode, a.relation
 SELECT * from stl_query where pid=4887;
 
 SELECT pg_terminate_backend(4887);
-<https://aws.amazon.com/premiumsupport/knowledge-center/redshift-high-cpu-usage/>
+<https://aws.amazon.com/premiumsupport/knowledge-center/redshift-high-cpu-usage>
 
 While the queries are running,[retrieve locking information](https://aws.amazon.com/premiumsupport/knowledge-center/prevent-locks-blocking-queries-redshift/). To identify long-running sessions, use the following SQL query:
 

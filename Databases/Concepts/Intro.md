@@ -76,7 +76,7 @@ Example
 
 <https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
-<https://littlekendra.com/>
+<https://littlekendra.com>
 
 [**https://www.freecodecamp.org/news/watch-a-cornell-university-database-course-for-free/**](https://www.freecodecamp.org/news/watch-a-cornell-university-database-course-for-free/)
 

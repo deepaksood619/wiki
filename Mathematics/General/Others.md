@@ -30,4 +30,4 @@ Lean is a functional programming language that makes it easy to write correct an
 
 <https://github.com/leanprover/lean4>
 
-<https://leanprover.github.io/about/>
+<https://leanprover.github.io/about>

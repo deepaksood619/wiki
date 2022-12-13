@@ -17,7 +17,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 
 export PATH="$PATH:$(go env GOPATH)/bin"
 protoc --proto_path=proto proto/*.proto --go_out=plugins=grpc:pb
-<https://grpc.io/docs/quickstart/go/>
+<https://grpc.io/docs/quickstart/go>
 # for python
 
 import memory_message_pb2

@@ -11,7 +11,7 @@ Modified: 2022-05-30 14:45:55 +0500
 **Redis Streams**doubles as a communication channel for building streaming architectures and as a log-like data structure for persisting data, making Streams the perfect solution for event sourcing.
 **Redis Pub/Sub**is an extremely lightweight messaging protocol designed for broadcasting live notifications within a system. It's ideal for propagating short-lived messages when low latency and huge throughput are critical.
 **Redis Lists and Redis Sorted Sets**are the basis for implementing message queues. They can be used both directly to build bespoke solutions, or via a framework that makes message processing more idiomatic for your programming language of choice.
-<https://redislabs.com/solutions/use-cases/messaging/>
+<https://redislabs.com/solutions/use-cases/messaging>
 The Stream is a new data type introduced with Redis 5.0, which models alog data structurein a more abstract way, however the essence of the log is still intact: like a log file, often implemented as a file open in append only mode, Redis streams are primarily an append only data structure. At least conceptually, because being Redis Streams an abstract data type represented in memory, they implement more powerful operations, to overcome the limits of the log file itself.
 What makes Redis streams the most complex type of Redis, despite the data structure itself being quite simple, is the fact that it implements additional, non mandatory features: a set of blocking operations allowing consumers to wait for new data added to a stream by producers, and in addition to that a concept calledConsumer Groups.
 Consumer groups were initially introduced by the popular messaging system called Kafka. Redis reimplements a similar idea in completely different terms, but the goal is the same: to allow a group of clients to cooperate consuming a different portion of the same stream of messages.
@@ -173,7 +173,7 @@ A Stream, like any other Redis data structure, is asynchronously replicated to s
 **Latency tests results**
 <https://redis.io/topics/streams-intro>
 
-<https://events.redislabs.com/sessions/build-message-bus-redis-streams-fastapi/>
+<https://events.redislabs.com/sessions/build-message-bus-redis-streams-fastapi>
 
 [Delayed Message Processing with Redis Streams - RedisConf 2020](https://www.youtube.com/watch?v=hkGYRYe5NE8)
 **PUBSUB**

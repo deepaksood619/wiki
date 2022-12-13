@@ -12,7 +12,7 @@ Aerospike is a distributed key-value DBMS. It is mainly targeted at OLTP workloa
 Drop-in replacement for redis
 <https://dbdb.io/db/aerospike>
 
-<https://www.aerospike.com/>
+<https://www.aerospike.com>
 **bbolt / BoltDB**
 
 An embedded key/value database for Go.

@@ -189,4 +189,4 @@ aws dynamodbtransact-get-itemsis a synchronous operation that atomically retriev
 aws dynamodbtransact-write-itemsa synchronous write operation that groups up to25 action requests. These actions can target items in different tables, but not in different AWS accounts or Regions, and no two actions can target the same item.
 aws dynamodbqueryfinds items based on primary key values. You can query table or secondary index that has a composite primary key.
 aws dynamodbscanreturns one or more items and item attributes by accessing every item in a table or a secondary index.
-<https://www.freecodecamp.org/news/ultimate-dynamodb-2020-cheatsheet/>
+<https://www.freecodecamp.org/news/ultimate-dynamodb-2020-cheatsheet>

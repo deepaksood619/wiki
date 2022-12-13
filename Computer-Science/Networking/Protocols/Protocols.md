@@ -94,7 +94,7 @@ The updated protocol added a function called "0-RTT resumption" that enables the
 -   From now on the TLS session transmits the application (HTTP) data encrypted with the agreed symmetric key
 <https://en.wikipedia.org/wiki/Transport_Layer_Security>
 
-<https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/>
+<https://www.cloudflare.com/learning/ssl/transport-layer-security-tls>
 
 <https://security.stackexchange.com/questions/93333/what-layer-is-tls>
 **Mutual Authentication**

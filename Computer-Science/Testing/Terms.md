@@ -125,7 +125,7 @@ Fuzz testing is a software testing technique using which a random data is given 
 -   File Format Fuzzing
 <https://github.com/minimaxir/big-list-of-naughty-strings>
 
-<https://www.freecodecamp.org/news/whats-fuzzing-fuzz-testing-explained/>
+<https://www.freecodecamp.org/news/whats-fuzzing-fuzz-testing-explained>
 # G
 -   [Glass Box Testing](https://www.tutorialspoint.com/software_testing_dictionary/glass_box_testing.htm)
 -   [Globalization Testing](https://www.tutorialspoint.com/software_testing_dictionary/globalization_testing.htm)

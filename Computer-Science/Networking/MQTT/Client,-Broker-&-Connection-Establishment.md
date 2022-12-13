@@ -71,4 +71,4 @@ The second flag in the[CONNACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/m
 | 5           | Connection refused, not authorized                |
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/>
+<https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment>

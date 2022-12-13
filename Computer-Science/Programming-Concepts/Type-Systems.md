@@ -48,8 +48,8 @@ Most scripting languages have this feature as there is no compiler to do static 
 -   Get ready for lots and lots of unit testing
 <table>
 <colgroup>
-<col style="width: 47%" />
-<col style="width: 52%" />
+<col style="width: 47%" >
+<col style="width: 52%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,18 +84,21 @@ Most scripting languages have this feature as there is no compiler to do static 
 </tr>
 </tbody>
 </table>
-![Erlang Clojure Python Dynamic perl VB Strong Groovy Ruby Magik JavaScript Weak Java c Scala Haskell Static C++ ](media/Type-Systems-image1.png)
-<https://www.sitepoint.com/typing-versus-dynamic-typing/>
-# Strong Typed vs Weak Typed language
 
+![Erlang Clojure Python Dynamic perl VB Strong Groovy Ruby Magik JavaScript Weak Java c Scala Haskell Static C++ ](media/Type-Systems-image1.png)
+<https://www.sitepoint.com/typing-versus-dynamic-typing>
+
+# Strong Typed vs Weak Typed language
 In strongly typed languages, variables are necessarily bound to a particular data type. Python is strong typed, and so is Java.
 As opposed to strong typed languages, weak typed languages are those in which variables are not of a specific data type. It should be noted that this does not imply that variables do not have types; it does mean that variables are not "bound" to a specific data type. PHP and C are examples of weak typed languages.
 Thus, Python is dynamic typed and strong typed; Java is static typed and strong typed; PHP is dynamic typed and weak typed; C is static typed and weak typed (owing to its casting ability).
+
 **See Also**
 -   Programming Styles > Duck typing
+
 **Others**
 -   Algebraic Data Types (ADT)
-**References**
 
+**References**
 [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
 ![TYPE SYSTEMS ](media/Type-Systems-image2.jpg)

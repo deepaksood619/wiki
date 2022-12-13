@@ -37,7 +37,7 @@ The root cause is the actual cause of a specific problem or set of problems, and
 RCA is a reactive method, as opposed to preventive, since it will be employed only after a problem has occurred in order to find its cause and prevent it from happening again.
 <https://www.techopedia.com/definition/30361/root-cause-analysis-rca>
 
-<https://www.freecodecamp.org/news/what-is-a-software-post-mortem/>
+<https://www.freecodecamp.org/news/what-is-a-software-post-mortem>
 
 <https://about.gitlab.com/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis.html>
 **Pre Production Testing**
@@ -73,7 +73,7 @@ RCA is a reactive method, as opposed to preventive, since it will be employed on
 -   Real user monitoring
 -   User engagement tests
 -   **A/B testing**
-    -   <https://www.optimizely.com/>
+    -   <https://www.optimizely.com>
 **Multivariate Testing**
 
 Multivariate testing(or A/B testing)is when you make product changes that are only seen by some of your users. This gives you some people that see the A version of your product and other people that see the B version of your product. Then you can see if version A or B gives you the results you want. A debate within multivariate testing is whether or not multi-armed bandit testing is the best kind of A/B test. Bandit testing is a continuous form of A/B testing that always send people toward the best performing options. In essence, the experiment never ends. I'm not going to get into this debate here, but I wanted you to know that there is a debate.

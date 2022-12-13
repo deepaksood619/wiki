@@ -50,7 +50,7 @@ While RTP allows for real-time data transfer, RTCP provides out-of-band statisti
 
 SSRC (Synchronization Source) values are randomly assigned in order to keep track of synchronization sources within a given RTP session. No two sources within the same session will have the same SSRC identifiers; users can spot and trace looping audio paths if overlaps do occur.
 CSRC (Contributing Source) values make up the full array of up to 15 contributing sources for a given packet payload within an RTP session. For example, if multiple audio sources are mixing together on a conference call, CSRC can help differentiate between those sources.
-<https://www.extrahop.com/resources/protocols/rtp/>
+<https://www.extrahop.com/resources/protocols/rtp>
 **OCSP Stapling**
 
 The**Online Certificate Status Protocol (OCSP) stapling**, formally known as the**TLS Certificate Status Request**extension, is a standard for checking the revocation status of[X.509](https://en.wikipedia.org/wiki/X.509)[digital certificates](https://en.wikipedia.org/wiki/Digital_certificate).It allows the presenter of a certificate to bear the resource cost involved in providing[Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)(OCSP) responses by appending ("stapling") a[time-stamped](https://en.wikipedia.org/wiki/Timestamp)OCSP response[signed](https://en.wikipedia.org/wiki/Cryptographic_signature)by the CA to the initial[TLS handshake](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_handshake), eliminating the need for clients to contact the CA, with the aim of improving both security and performance.
@@ -71,9 +71,9 @@ The MAC address is how machines on a subnet communicate. When machine A sends pa
 ARP stands for Address Resolution Protocol. When you try to ping an IP address on your local network, say 192.168.1.1, your system has to turn the IP address 192.168.1.1 into a MAC address. This involves using ARP to resolve the address, hence its name.
 Systems keep an ARP look-up table where they store information about what IP addresses are associated with what MAC addresses. When trying to send a packet to an IP address, the system will first consult this table to see if it already knows the MAC address. If there is a value cached, ARP is not used.
 If the IP address is not found in the ARP table, the system will then send a broadcast packet to the network using the ARP protocol to ask "who has 192.168.1.1". Because it is a broadcast packet, it is sent to a special MAC address that causes all machines on the network to receive it. Any machine with the requested IP address will reply with an ARP packet that says "I am 192.168.1.1", and this includes the MAC address which can receive packets for that IP.
-<https://www.tummy.com/articles/networking-basics-how-arp-works/>
+<https://www.tummy.com/articles/networking-basics-how-arp-works>
 
-<https://www.geeksforgeeks.org/how-address-resolution-protocol-arp-works/>
+<https://www.geeksforgeeks.org/how-address-resolution-protocol-arp-works>
 
 <https://en.wikipedia.org/wiki/Address_Resolution_Protocol>
 

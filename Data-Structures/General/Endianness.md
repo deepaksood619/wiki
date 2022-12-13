@@ -27,7 +27,7 @@ Suppose integer is stored as 4 bytes (For those who are using DOS based compiler
 
 ![EO | , 0 : 0 0 to 、 、 0 001 ' 0 €0t 丶 0 : 0 【 0 【 01 0 ](media/Endianness-image1.gif)
 
-<https://www.geeksforgeeks.org/little-and-big-endian-mystery/>
+<https://www.geeksforgeeks.org/little-and-big-endian-mystery>
 Historically, various methods of endianness have been used in computing, including exotic forms such as middle-endianness. Today, however, big-endianness is the dominant ordering in networking protocols ([IP](https://en.wikipedia.org/wiki/Internet_Protocol),[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol),[UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). Conversely, little-endianness is the dominant ordering for processor architectures ([x86](https://en.wikipedia.org/wiki/X86), most[ARM](https://en.wikipedia.org/wiki/ARM_architecture)implementations) and their associated[memory](https://en.wikipedia.org/wiki/Computer_memory).[File formats](https://en.wikipedia.org/wiki/File_format)can use either ordering; some formats use a mixture of both.
 In[left-to-right scripts](https://en.wikipedia.org/wiki/Writing_system#Directionality), numbers are written with their digits in big-endian order. Similarly, programming languages use big-endian digit ordering for numeric[literals](https://en.wikipedia.org/wiki/Literal_(computer_programming))as well as big-endian language ("left" and "right") for[bit-shift](https://en.wikipedia.org/wiki/Bitwise_operation#Logical_shift)operations, regardless of the endianness of the target architecture. This can lead to confusion when interacting with little-endian numbers.
 ![Big-Endian](media/Endianness-image2.png)

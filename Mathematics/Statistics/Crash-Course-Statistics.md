@@ -34,7 +34,7 @@ Ex- we use this to prove that there is no largest positive integer
 3.  **p-values (how rare your data is)**
 
 If your p-value were 0.10 you could say that your sample is in the top 10% most extreme samples we'd expect to see based on the distribution of sample means.
-<https://www.freecodecamp.org/news/what-is-statistical-significance-p-value-defined-and-how-to-calculate-it/>
+<https://www.freecodecamp.org/news/what-is-statistical-significance-p-value-defined-and-how-to-calculate-it>
 4.  **p-value problems**
 
     a.  Alternative Distribution

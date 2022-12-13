@@ -137,4 +137,4 @@ All java classes inherit a method hashCode(), which returns a 32 bit int
 ・If field is a reference type, use hashCode().
 
 ・If field is an array, apply to each entry. or use Arrays.deepHashCode()
-<http://blog.chapagain.com.np/hash-table-implementation-in-python-data-structures-algorithms/>
+<http://blog.chapagain.com.np/hash-table-implementation-in-python-data-structures-algorithms>

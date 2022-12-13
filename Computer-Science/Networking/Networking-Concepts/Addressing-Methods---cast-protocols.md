@@ -45,5 +45,5 @@ The types of ARQ protocols include**[Stop-and-wait ARQ](https://en.wikipedia.org
 <https://en.wikipedia.org/wiki/Automatic_repeat_request>
 **References**
 
-<https://www.geeksforgeeks.org/computer-network-difference-unicast-broadcast-multicast/>
+<https://www.geeksforgeeks.org/computer-network-difference-unicast-broadcast-multicast>
 

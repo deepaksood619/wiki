@@ -109,7 +109,7 @@ Now a device using PAR resend the data unit until it receives an acknowledgement
 
 The steps 1, 2 establish the connection parameter (sequence number) for one direction and it is acknowledged. The steps 2, 3 establish the connection parameter (sequence number) for the other direction and it is acknowledged. With these, a full-duplex communication is established.
 Initial sequence numbers are randomly selected while establishing connections between client and server.
-<https://www.geeksforgeeks.org/tcp-3-way-handshake-process/>
+<https://www.geeksforgeeks.org/tcp-3-way-handshake-process>
 **TCP Connection Termination**
 
 ![11](media/TCP-(Connection-Oriented-Protocol)-image6.png)
@@ -130,7 +130,7 @@ TCP states visited by ClientSide --
 TCP states visited by ServerSide --
 
 ![Sewer application creates a listen socket Closed RCV ACK, Send nothin AST A Receive SYN & send send FIN SYN & ACK Receive ACK, send nothin Established Receive FIN, send ACK Fig TCP states visited by a client TCP ](media/TCP-(Connection-Oriented-Protocol)-image8.png)
-<https://www.geeksforgeeks.org/tcp-connection-termination/>
+<https://www.geeksforgeeks.org/tcp-connection-termination>
 **Problems**
 -   **Head of line blocking**
 

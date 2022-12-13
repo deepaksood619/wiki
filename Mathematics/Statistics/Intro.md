@@ -71,7 +71,7 @@ b.  Nuremberg code
 c.  Beneficence
 **Outliers**
 
-<https://www.freecodecamp.org/news/what-is-an-outlier-definition-and-how-to-find-outliers-in-statistics/>
+<https://www.freecodecamp.org/news/what-is-an-outlier-definition-and-how-to-find-outliers-in-statistics>
 **Courses**
 
 <https://www.youtube.com/watch?v=VPZD_aij8H0>

@@ -16,7 +16,7 @@ A**flat file database**is a[database](https://en.wikipedia.org/wiki/Database)sto
     -   **NoSQL Database**
     -   **Written in C++**
     -   **Alternative - Cassandra**
-<https://www.scylladb.com/>
+<https://www.scylladb.com>
 3.  **RocksDB: A Persistent Key-Value Store for Flash and RAM Storage** by Facebook Database Engineering Team
 This code is a library that forms the core building block for a fast key value server, especially suited for storing data on flash drives. It has a Log-Structured-Merge-Database (LSM) design with flexible tradeoffs between Write-Amplification-Factor (WAF), Read-Amplification-Factor (RAF) and Space-Amplification-Factor (SAF). It has multi-threaded compactions, making it specially suitable for storing multiple terabytes of data in a single database.
 **Features**
@@ -84,9 +84,9 @@ LevelDB is a fast key-value storage library written at Google that provides an o
 <https://github.com/google/leveldb>
 6.  **Gorilla TSDB (Used by Prometheus for storing metrics)**
 
-<https://blog.acolyer.org/2016/05/03/gorilla-a-fast-scalable-in-memory-time-series-database/>
+<https://blog.acolyer.org/2016/05/03/gorilla-a-fast-scalable-in-memory-time-series-database>
 
-<https://fabxc.org/tsdb/>
+<https://fabxc.org/tsdb>
 7.  **CockroachDB**
 
 CockroachDB is a cloud-native SQL database for building global, scalable cloud services that survive disasters.
@@ -95,14 +95,14 @@ CockroachDB is a distributed SQL database built on a transactional and strongly-
 8.  **AresDB**
 
 A GPU-powered real-time analytics storage and query engine. It features low query latency, high data freshness and highly efficient in-memory and on disk storage management.
-<https://eng.uber.com/aresdb/>
+<https://eng.uber.com/aresdb>
 
 <https://github.com/uber/aresdb>
 9.  **Riak**
 
 **Riak**(pronounced "ree-ack"[^[2]^](https://en.wikipedia.org/wiki/Riak#cite_note-Riak_1.0_Release_Party-2)) is a distributed[NoSQL](https://en.wikipedia.org/wiki/NoSQL)key-value[data store](https://en.wikipedia.org/wiki/Data_store)that offers high availability, fault tolerance, operational simplicity, and scalability.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)In addition to the[open-source](https://en.wikipedia.org/wiki/Open-source_software)version, it comes in a supported enterprise version and a[cloud storage](https://en.wikipedia.org/wiki/Cloud_storage)version.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)Riak implements the principles from Amazon's[Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system))paper[^[4]^](https://en.wikipedia.org/wiki/Riak#cite_note-4)with heavy influence from the[CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in[Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience.
 The Riak product line of distributed databases is built on a set of core services providing a highly reliable, scalable distributed systems framework.[RiakKV](https://riak.com/products/riak-kv/index.html)is a distributed NoSQL database.[RiakTS](https://riak.com/products/riak-ts/index.html)is builton the same core foundation as RiakKV and is highly optimized for IoT and time series data.Riak also integrates with[RiakS2](https://riak.com/products/riak-s2/index.html?p=6196.html)to optimize large object storage, and integrates with other data services including[Apache Spark](https://riak.com/products/apache-spark/index.html),[Redis Caching](https://riak.com/products/redis/index.html?p=6927.html),[Apache Solr](https://riak.com/products/solr/index.html), and[Apache Mesos](https://riak.com/products/apache-mesos/index.html?p=11511.html).
-<https://riak.com/products/>
+<https://riak.com/products>
 
 <https://en.wikipedia.org/wiki/Riak>
 10. **JanusGraph (Opensource distributed graph database)**
@@ -135,7 +135,7 @@ Key Features
 -   State-of-the-art algorithms
 -   Detailed documentation
 -   Clean documented code
-<https://clickhouse.yandex/>
+<https://clickhouse.yandex>
 
 <https://github.com/yandex/ClickHouse>
 Used by - Zerodha
@@ -150,7 +150,7 @@ Inside the TiDB platform, the main components are as follows:
 -   [Placement Driver (PD) server](https://github.com/pingcap/pd)is a metadata cluster powered by[etcd](https://github.com/etcd-io/etcd)that manages and schedules TiKV.
 <https://github.com/pingcap/tidb>
 
-<https://pingcap.com/success-stories/lesson-learned-from-queries-over-1.3-trillion-rows-of-data-within-milliseconds-of-response-time-at-zhihu/>
+<https://pingcap.com/success-stories/lesson-learned-from-queries-over-1.3-trillion-rows-of-data-within-milliseconds-of-response-time-at-zhihu>
 
 <https://dzone.com/articles/building-a-large-scale-distributed-storage-system>
 13. **tikv**
@@ -160,7 +160,7 @@ TiKV ("Ti" stands for Titanium) is an open source distributed transactional key-
 14. **ObjectBox**
 
 ObjectBox is a super fast database and sychronization solution, built uniquely for Mobile and IoT devices. We bring edge computing to small devices, allowing data to be stored and processed from sensor to server for reliable, fast and secure data management. ObjectBox is smaller than 1MB, so it is the ideal solution across hardware from Mobile Apps, to IoT Devices and IoT Gateways. We are the first high-performance NoSQL, ACID-compliant on-device edge database. All of our products are built with developers in mind, so they are easy to use and take minimal code to implement.
-<https://objectbox.io/>
+<https://objectbox.io>
 15. **LF**
 
 LF (pronounced "aleph") is a fully decentralized fully replicated key/value store.
@@ -213,7 +213,7 @@ cur = db.cursor()
 cur.execute('''SELECT itemid, AVG(price) FROM BoughtItem GROUP BY itemid''')
 
 print(cur.fetchall())
-<https://realpython.com/data-engineer-interview-questions-python/>
+<https://realpython.com/data-engineer-interview-questions-python>
 17. **Supersqllite**
 
 A feature-packed Python package and for utilizing SQLite in Python by[Plasticity](https://www.plasticity.ai/). It is intended to be a drop-in replacement to Python's built-in[SQLite API](https://docs.python.org/3/library/sqlite3.html), but without any limitations. It offers unique features like[remote streaming over HTTP](https://github.com/plasticityai/supersqlite#remote-streaming-over-http)and[bundling of extensions like JSON, R-Trees (geospatial indexing), and Full Text Search](https://github.com/plasticityai/supersqlite#extensions). SuperSQLite is also packaged with pre-compiled native binaries for SQLite and all of its extensions for nearly every platform as to avoid any C/C++ compiler errors during install.
@@ -223,7 +223,7 @@ A feature-packed Python package and for utilizing SQLite in Python by[Plasticity
 A full-text search database based on the fast LMDB key-value store
 <https://github.com/meilisearch/MeiliDB>
 
-<https://www.meilisearch.com/>
+<https://www.meilisearch.com>
 19. **Lightning Memory-Mapped Database(LMDB)**
 
 LMDB is a[software library](https://en.wikipedia.org/wiki/Software_library)that provides a high-performance embedded transactional database in the form of a[key-value store](https://en.wikipedia.org/wiki/Key-value_store). LMDB is written in[C](https://en.wikipedia.org/wiki/C_(programming_language))with[API bindings](https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database#API_and_uses) for several[programming languages](https://en.wikipedia.org/wiki/Programming_language). LMDB stores arbitrary key/data pairs as byte arrays, has a range-based search capability, supports multiple data items for a single key and has a special mode for appending records at the end of the database (MDB_APPEND) which gives a dramatic write performance increase over other similar stores.LMDB is not a[relational database](https://en.wikipedia.org/wiki/Relational_database), it is strictly a key-value store like[Berkeley DB](https://en.wikipedia.org/wiki/Berkeley_DB)and[dbm](https://en.wikipedia.org/wiki/DBM_(computing)).
@@ -243,7 +243,7 @@ Unlike other well-known database mechanisms which use either write-ahead transac
 The memory map can be used as a read-only or read-write map. It is read-only by default as this provides total immunity to corruption. Using read-write mode offers much higher write performance, but adds the possibility for stray application writes thru pointers to silently corrupt the database. Of course if your application code is known to be bug-free (...) then this is not an issue.
 <https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database>
 
-<http://www.lmdb.tech/doc/>
+<http://www.lmdb.tech/doc>
 20. **etcd**
 
 etcd is a distributed key value store that provides a reliable way to store data across a cluster of machines. It's open-source and available on GitHub. etcd gracefully handles leader elections during network partitions and will tolerate machine failure, including the leader.
@@ -255,13 +255,13 @@ Advanced uses take advantage of the consistency guarantees to implement database
 etcdis a distributed key-value store. In fact,etcdis the primary datastore of **Kubernetes;** storing and replicating allKubernetescluster state. As a critical component of aKubernetescluster having a reliable automated approach to its configuration and management is imperative.
 -   As a distributed consensus-based system, the cluster configuration of etcd can be complicated. Bootstrapping, maintaining quorum, reconfiguring cluster membership, creating backups, handling disaster recovery, and monitoring critical events are tedious work, and require etcd-specific expertise.
 -   Uses Raft consensus algorithm
-    -   <https://raft.github.io/>
+    -   <https://raft.github.io>
 -   etcd is pronounced/ˈɛtsiːdiː/, and means distributedetcdirectory.
 -   Operator
 
 An Operator builds upon the basic Kubernetes resource and controller concepts but includes application domain knowledge to take care of common tasks. They reduce the complexity of running distributed systems and help you focus on the desired configuration, not the details of manual deployment and lifecycle management.-   **References**
 
-<https://coreos.com/etcd/>
+<https://coreos.com/etcd>
 
 <https://github.com/etcd-io/etcd>
 
@@ -271,7 +271,7 @@ An Operator builds upon the basic Kubernetes resource and controller concepts bu
 21. **KsqlDB**
 
 The event streaming database purpose-built for stream processing applications.
-<https://ksqldb.io/>
+<https://ksqldb.io>
 
 <https://www.confluent.io/blog/intro-to-ksqldb-sql-database-streaming>22. **Memcached**
     -   **Distributed cache and hold the data in-memory**
@@ -288,25 +288,25 @@ The event streaming database purpose-built for stream processing applications.
 Minio is a high performance distributed object storage server, designed for
 
 large-scale private cloud infrastructure.
-<https://minio.io/>
+<https://minio.io>
 **Others**
 -   **GlusterFS**
 24. **Ehcache**
 
 Ehcache is an open source, standards-based cache that boosts performance, offloads your database, and simplifies scalability. It's the most widely-used Java-based cache because it's robust, proven, full-featured, and integrates with other popular libraries and frameworks. Ehcache scales from in-process caching, all the way to mixed in-process/out-of-process deployments with terabyte-sized caches.
-<https://www.ehcache.org/>
+<https://www.ehcache.org>
 
 <https://github.com/ehcache/ehcache3>25. **Realm**
 
 Realm is a mobile database: an alternative to SQLite & key-value stores
 <https://github.com/realm/realm-js>
 
-<https://realm.io/>
+<https://realm.io>
 26. **Datomic**
 
 A transactional database with a flexible data model, elastic scaling, and rich queries.
 [Datomic](https://en.wikipedia.org/wiki/Datomic)is a distributed database designed to enable scalable, flexible and intelligent applications, running on new cloud architectures. It uses Datalog as the query language.
-<https://www.datomic.com/>
+<https://www.datomic.com>
 
 <https://docs.datomic.com/on-prem/index.html>
 

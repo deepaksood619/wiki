@@ -82,7 +82,7 @@ Interleaved sort gives equal weight to each column in the Redshift sort keys. As
 -   UseInterleaved Sort Keywhen you plan to use one column as Sort Key or when WHERE clauses in your query have highly selective restrictive predicates. Or if the tables are huge. You may want to check table statistics by querying the STV_BLOCKLIST system table. Look for the tables with a high number of 1MB blocks per slice and distributed over all slices.
 -   UseCompound Sort Key,when you have more that one column as Sort Key, when your query includes JOINS, GROUP BY, ORDER BY and PARTITION BY when your table size is small.
 -   Don't use aninterleaved sort keyon columns with monotonically increasing attributes, like an identity column, dates or timestamps.
-<https://hevodata.com/blog/redshift-sort-keys-choosing-best-sort-style/>
+<https://hevodata.com/blog/redshift-sort-keys-choosing-best-sort-style>
 **Data sorting**
 -   Goal: make queries run faster by increasing the effectiveness of zone maps and reducing I/O
 -   Impact: enables range-restricted scans to prune blocks by leveraging zone maps
@@ -133,7 +133,7 @@ Choose columns used in the query that leads to least skewness as the DISTKEY. Th
 -   ChooseALLstyle for small tables that do not often change. For example, a table containing telephone ISD codes against the country name.
 -   It is beneficial to select aKEYdistribution if a table is used in JOINS. Also, consider the other joining tables and their distribution style.
 -   If one particular node contains the skew data, the processing on this node will be slower. This results in much longer total query processing time. This query under skewed configuration may take even longer than the query made against the table without a DISTKEY
-<https://hevodata.com/blog/redshift-distribution-keys/>
+<https://hevodata.com/blog/redshift-distribution-keys>
 **Data Distribution**
 
 Distribution style is a table property which dictates how that table's data is distributed throughout the cluster

@@ -20,7 +20,7 @@ A joke: A "combination lock" should really be called a "permutation lock". The o
 Combinations sound simpler than permutations, and they are. You have fewer combinations than permutations.
 **References**
 
-<https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples/>
+<https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples>
 <https://betterexplained.com/articles/easy-permutations-and-combinations/#!parentId=756>
 
 [Easy Combinations and Permutations | BetterExplained](https://www.youtube.com/watch?v=bAk_7p5gAWc)

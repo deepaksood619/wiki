@@ -28,9 +28,9 @@ Other features -
 1.  connection migration
 
 2.  zero round trip time resumption
-<https://blog.cloudflare.com/http3-the-past-present-and-future/>
+<https://blog.cloudflare.com/http3-the-past-present-and-future>
 
-<https://blog.cloudflare.com/the-road-to-quic/>
+<https://blog.cloudflare.com/the-road-to-quic>
 <https://www.mnot.net/blog/2018/11/27/header_compression>
 
 <https://www.mnot.net/blog/2019/10/13/h2_api_multiplexing>

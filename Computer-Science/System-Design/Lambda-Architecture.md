@@ -38,5 +38,5 @@ If you are a data practitioner, you would probably have either implemented or us
 2.  If you are an application developer or data scientist who wants to make changes to your streaming or batch pipeline, you have to either learn how to operate and modify the pipeline, or you have to wait for someone else to make the changes on your behalf. The former option requires you to pick up data engineering tasks and detracts from your primary role, while the latter forces you into a holding pattern waiting on the pipeline team for resolution.
 
 3.  Most of the data transformation happens as new data enters the system at write time, whereas the serving layer is a simpler key-value lookup that does not handle complex transformations. This complicates the job of the application developer because she/he cannot easily apply new transformations retroactively on pre-existing data.
-<https://rockset.com/blog/aggregator-leaf-tailer-an-architecture-for-live-analytics-on-event-streams/>
+<https://rockset.com/blog/aggregator-leaf-tailer-an-architecture-for-live-analytics-on-event-streams>
 **Others - ALT (Aggregator Leaf Tailer)**

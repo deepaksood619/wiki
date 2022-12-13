@@ -247,9 +247,9 @@ It is halfway between the spatial locality and the branch locality. Consider a l
 In order to benefit from the very frequently occurring temporal and spatial locality, most of the information storage systems are[hierarchical](https://en.wikipedia.org/wiki/Computer_data_storage#Hierarchy_of_storage). The equidistant locality is usually supported by the diverse nontrivial increment instructions of the processors. For branch locality, the contemporary processors have sophisticated branch predictors, and on the basis of this prediction the memory manager of the processor tries to collect and preprocess the data of the plausible alternatives.
 <https://en.wikipedia.org/wiki/Locality_of_reference>
 
-<https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory/>ƒ
+<https://www.geeksforgeeks.org/locality-of-reference-and-cache-operation-in-cache-memory>ƒ
 
-<https://www.geeksforgeeks.org/computer-organization-locality-and-cache-friendly-code/>
+<https://www.geeksforgeeks.org/computer-organization-locality-and-cache-friendly-code>
 **Cache-oblivious algorithm**
 
 In[computing](https://en.wikipedia.org/wiki/Computing), acache-oblivious algorithm(or cache-transcendent algorithm) is an[algorithm](https://en.wikipedia.org/wiki/Algorithm)designed to take advantage of a[CPU cache](https://en.wikipedia.org/wiki/CPU_cache)without having the size of the cache (or the length of the[cache lines](https://en.wikipedia.org/wiki/Cache_line), etc.) as an explicit parameter. An**optimal cache-oblivious algorithm**is a cache-oblivious algorithm that uses the cache optimally (in an[asymptotic](https://en.wikipedia.org/wiki/Asymptotic_notation)sense, ignoring constant factors). Thus, a cache-oblivious algorithm is designed to perform well, without modification, on multiple machines with different cache sizes, or for a[memory hierarchy](https://en.wikipedia.org/wiki/Memory_hierarchy)with different levels of cache having different sizes. Cache-oblivious algorithms are contrasted with explicit[blocking](https://en.wikipedia.org/wiki/Loop_tiling),as in[loop nest optimization](https://en.wikipedia.org/wiki/Loop_nest_optimization), which explicitly breaks a problem into blocks that are optimally sized for a given cache.
@@ -264,12 +264,12 @@ An ETag is an opaque identifier assigned by a Web server to a specific version o
 **Others**
 -   set-associative (SA) caches
 -   log-structured (LS) caches
--   Kangaroo - <https://engineering.fb.com/2021/10/26/core-data/kangaroo/>
+-   Kangaroo - <https://engineering.fb.com/2021/10/26/core-data/kangaroo>
 **References**
 
 [https://en.wikipedia.org/wiki/Cache_(computing)](https://en.wikipedia.org/wiki/Cache_(computing)#WRITE-BACK)
 
-<https://www.freecodecamp.org/news/what-is-cached-data/>
+<https://www.freecodecamp.org/news/what-is-cached-data>
 
-<https://engineering.fb.com/2021/09/02/open-source/cachelib/>
+<https://engineering.fb.com/2021/09/02/open-source/cachelib>
 

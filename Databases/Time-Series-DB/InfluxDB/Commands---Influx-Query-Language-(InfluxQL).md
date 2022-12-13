@@ -61,7 +61,7 @@ SHOW TAG VALUES
 SHOW TAG VALUES ON "telegraf" WITH KEY = "topic";
 
 INSERT temp,tag1='tag1',tag2='tag2' value=22.2
-<https://docs.influxdata.com/influxdb/v1.7/query_language/schema_exploration/>
+<https://docs.influxdata.com/influxdb/v1.7/query_language/schema_exploration>
 **Examples**
 
 SELECT client_ip FROM "apache_access_log" (huge amount of data)
@@ -88,4 +88,4 @@ docker run --rm -d --name chronograf -p 8888:8888 --net=influxdb chronograf
 
 Continuous Queries (CQ) are InfluxQL queries that run automatically and periodically on realtime data and store query results in a specified measurement.
 CQs were designed to aggregate the data you want to keep in a new measurement (referred to as downsampling). Your time series data comes in thousands or millions of points; you don't want to store them all forever unless absolutely necessary because the disk requirements quickly get out of hand. CQs offer a way for you to keep the summaries of your data without keeping all of the individual points.With CQs, you can have the full resolution data expire with a retention policy (or you can drop it manually) and you keep only what you need.
-<https://docs.influxdata.com/influxdb/v1.7/query_language/continuous_queries/>
+<https://docs.influxdata.com/influxdb/v1.7/query_language/continuous_queries>

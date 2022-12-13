@@ -55,7 +55,7 @@ If an actor receive a message it can do 3 things
 2.  Send messages to actors it knows
 
 3.  Designate what to do with the next message
-<https://www.brianstorti.com/the-actor-model/>
+<https://www.brianstorti.com/the-actor-model>
 
 <https://www.youtube.com/watch?v=7erJ1DV_Tlo>
 **Multi-Tenancy**

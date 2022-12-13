@@ -72,7 +72,7 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
     -   **load balancing (Client-side / Look-aside load balancing)**
 
 ![Lookaside Load Balancing Server List LB Load Reports server _vt•.zabcn ](media/gRPC-image2.png)-   Proxyless RPC Mesh
-<https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears/>
+<https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears>
 **Client side load balancing**
 
 Two main components needed for the gRPC client-side load balancing to work
@@ -111,7 +111,7 @@ Two main components needed for the gRPC client-side load balancing to work
 1.  grpc server not available in php
     -   Spiral framework
 
-<https://spiral.dev/>
+<https://spiral.dev>
 
 2.  Load Balancing
 
@@ -151,7 +151,7 @@ gRPC-Web provides a Javascript library that lets browser clients access a gRPC s
 1.  Rsocket
 **Getting Started**
 
-<https://www.semantics3.com/blog/a-simplified-guide-to-grpc-in-python-6c4e25f0c506/>
+<https://www.semantics3.com/blog/a-simplified-guide-to-grpc-in-python-6c4e25f0c506>
 **POC**
 -   load balancing (gRPC will not work with Kubernetes service load balancing out of the box)
 -   Istio sidecar proxy load balancing of grpc services
@@ -171,24 +171,24 @@ gRPC-Web provides a Javascript library that lets browser clients access a gRPC s
 
 <https://en.wikipedia.org/wiki/GRPC>
 
-<https://grpc.io/docs/guides/>
+<https://grpc.io/docs/guides>
 
-<https://alexandreesl.com/tag/grpc/>
+<https://alexandreesl.com/tag/grpc>
 
 <https://medium.com/@EdgePress/is-grpc-the-future-of-client-server-communication-b112acf9f365>
 
 Online book - Practical gRPC
 
-<https://bleedingedgepress.com/practical-grpc/>
+<https://bleedingedgepress.com/practical-grpc>
 
-<https://www.semantics3.com/blog/a-simplified-guide-to-grpc-in-python-6c4e25f0c506/>
+<https://www.semantics3.com/blog/a-simplified-guide-to-grpc-in-python-6c4e25f0c506>
 <https://dev.to/techschoolguru/is-grpc-better-than-rest-where-to-use-it-3blg>
 
-<https://grpc.io/blog/optimizing-grpc-part-1/>
+<https://grpc.io/blog/optimizing-grpc-part-1>
 
 <https://github.com/grpc-ecosystem/awesome-grpc>
 
-<https://www.udemy.com/course/protocol-buffers/>
+<https://www.udemy.com/course/protocol-buffers>
 
 [The Story of Why We Migrate to gRPC and How We Go About It - Matthias Grüter, Spotify](https://www.youtube.com/watch?v=fMq3IpPE3TU)
 [**The complete gRPC course [Protobuf, Go, Java]**](https://www.youtube.com/playlist?list=PLy_6D98if3UJd5hxWNfAqKMr15HZqFnqf)

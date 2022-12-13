@@ -15,7 +15,7 @@ BDD is largely facilitated through the use of a simple[domain-specific language]
 **Frameworks**
 -   Radish
 
-<http://radish-bdd.io/>
+<http://radish-bdd.io>
 **REPL Driven Development**
 
 The[REPL](https://clojure.org/guides/repl/introduction)puts developers in charge of development. Instead of "compile time", "test time", and "production time", you have dynamic, interactive environments to use as you please. You can move seamlessly back and forth between exploration, development, testing, and release, gaining instant feedback at every step and maintaining rich context and history as you go.

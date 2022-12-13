@@ -30,4 +30,4 @@ Modified: 2021-06-06 16:49:19 +0500
 **ARM - Advanced RISC Machine**
 **References**
 
-<https://www.edgefxkits.com/blog/what-is-risc-and-cisc-architecture/>
+<https://www.edgefxkits.com/blog/what-is-risc-and-cisc-architecture>

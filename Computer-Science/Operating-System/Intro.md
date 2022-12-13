@@ -25,4 +25,4 @@ Modified: 2021-09-06 23:49:34 +0500
 2.  Modular OS, in which some part of the system core will be located in independent files called modules that can be added to the system at run time
 
 3.  Micro OS, where the kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space
-<https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/>
+<https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners>

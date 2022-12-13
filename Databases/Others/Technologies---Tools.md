@@ -15,13 +15,13 @@ By encapsulating shard-routing logic, Vitess allows application code and databas
 ![Begin Select Select Select Insert Database Select Update Commit User Module Campaign Module Matching Module Client ](media/Technologies---Tools-image1.png)
 <https://github.com/vitessio/vitess>
 
-<https://vitess.io/>
+<https://vitess.io>
 
 <https://www.planetscale.com/blog/videos-intro-to-vitess-its-powerful-capabilities-and-how-to-get-started>
 **MySQL Workbench / MySQLWorkbench**
 
 <https://dev.mysql.com/doc/workbench/en/wb-performance-explain.html>
-<https://www.mysql.com/products/workbench/>
+<https://www.mysql.com/products/workbench>
 <https://dev.to/realtrevorfaux/8-new-sql-tools-that-will-change-how-you-work-in-2020-n63>
 **Settings**
 -   Preferences > SQL Editor > DBMS connection read timeout interval (in seconds) > 3000
@@ -60,7 +60,7 @@ Having usability as its main goal, DBeaver offers:
 -   Capability to work with various extensions for integration with Excel, Git and others.
 -   Great number of features
 -   Multiplatform support
-<https://dbeaver.io/>
+<https://dbeaver.io>
 
 <https://github.com/dbeaver/dbeaver>
 **Shortcuts**
@@ -89,7 +89,7 @@ Track which changes have or have not been deployed
 **Commands**
 
 liquibase update
-<https://www.liquibase.org/>
+<https://www.liquibase.org>
 **Fixing Forward**
 
 Since rolling back database changes is complicated, time-consuming, and error-prone, the fixing forward approach is very quickly getting very popular.

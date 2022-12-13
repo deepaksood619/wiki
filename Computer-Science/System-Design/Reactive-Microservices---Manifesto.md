@@ -122,7 +122,7 @@ A system provides services to its users or clients. Systems can be large or smal
 We use this term informally to refer to any consumer of a service, be that a human or another service.
 **References**
 
-<https://www.reactivemanifesto.org/>
+<https://www.reactivemanifesto.org>
 
 <https://www.reactivemanifesto.org/glossary>
 

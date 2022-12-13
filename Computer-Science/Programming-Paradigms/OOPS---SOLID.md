@@ -31,7 +31,7 @@ Hiding internal details and showing functionalityis known as abstraction. For ex
 In java, we use abstract class and interface to achieve abstraction.
 **Leaky Abstraction**
 
-<https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/>
+<https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions>
 
 Abstractions fail. Sometimes a little, sometimes a lot. There's leakage. Things go wrong. It happens all over the place when you have abstractions.
 All non-trivial abstractions, to some degree, are leaky.
@@ -160,7 +160,7 @@ from SomeOtherProduct.SomeModule import SomeClass
 def speak(self):
 return "ook ook eee eee eee!"
 SomeClass.speak = speak
-<https://thecodebits.com/monkey-patching-in-python-explained-with-examples/>
+<https://thecodebits.com/monkey-patching-in-python-explained-with-examples>
 **OOAD (Object Oriented Analysis and Design)**
 
 Object-oriented analysis and design(OOAD) is a popular technical approach for analyzing and designing an application, system, or business by applying[object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming), as well as using visual modeling throughout the[development life cycles](https://en.wikipedia.org/wiki/Software_development_process)to foster better stakeholder communication and product quality.
@@ -180,7 +180,7 @@ According to the popular guide[Unified Process](https://en.wikipedia.org/wiki/Un
 
 <https://en.wikipedia.org/wiki/Mixin>
 
-<http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance/>
+<http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance>
 **SOLID principles**
 
 1.  **Single Responsibility Principle**
@@ -203,7 +203,7 @@ A client should never be forced to implement an interface that it doesn't use or
 Entities must depend on abstractions not on concretions
 It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 The dependency inversion principle tells us that we should always try to have dependencies on interfaces (or Abstract Classes), not classes.
-<https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency/>
+<https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency>
 
 <https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>
 **STUPID**

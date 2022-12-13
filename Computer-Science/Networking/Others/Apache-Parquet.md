@@ -75,7 +75,7 @@ As an aside - I still almost always recommend still using a columnar file format
 
 <https://en.wikipedia.org/wiki/Apache_Parquet>
 
-<https://parquet.apache.org/documentation/latest/>
+<https://parquet.apache.org/documentation/latest>
 
 <https://blog.matthewrathbone.com/2019/12/20/parquet-or-bust.html>
 

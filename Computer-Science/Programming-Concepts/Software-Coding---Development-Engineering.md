@@ -7,7 +7,7 @@ Modified: 2022-09-29 00:05:52 +0500
 ---
 -   **Learning and Discovery -** Iteration, Feedback, Incrementalism, Experimentation and Empiricism
 -   **Managing Complexity -** Modularity, Information Hiring, Seperation of Concerns, Loose-Coupling, Cohesion
-<https://dont.build/>
+<https://dont.build>
 Making great software is more about managing complexity and thinking through details than it is about design or pretty pixels. One of the biggest misunderstandings of our era.
 **Research first code later**
 
@@ -66,7 +66,7 @@ Brownfield development is a term commonly used in the IT industry to describe pr
 
 The Self-contained System (SCS) approach is an architecture that focuses on a separation of the functionality into many independent systems, making the complete logical system a collaboration of many smaller software systems. This avoids the problem of large monoliths that grow constantly and eventually become unmaintainable.
 
-<https://scs-architecture.org/>
+<https://scs-architecture.org>
 [**http://engineering-principles.onejl.uk/**](http://engineering-principles.onejl.uk/)
 -   ARCHITECTURE
     -   [Build Differentiators](http://engineering-principles.onejl.uk/architecture/Build_Differentiators.html)
@@ -112,7 +112,7 @@ A sequence diagram simply depicts interaction between objects in a sequential or
 
 ![1 : Open Application 2 : Access Webcam 3 : Get Photo 4 : Detect face 5 : Retrieve Mood 7 : Display Mood 6 : Mood 8 : Retrieve Music 10 : Playlist 9 : Generated Playlist ](media/Software-Coding---Development-Engineering-image3.png)
 
-<https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/>-   Flowchart
+<https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams>-   Flowchart
 -   Usecase diagram
 -   Class diagram
 -   Activity diagram
@@ -129,22 +129,22 @@ A sequence diagram simply depicts interaction between objects in a sequential or
 **Non-UML diagrams**
 -   Wireframe graphical interface
 
-<https://www.freecodecamp.org/news/what-is-a-wireframe-ux-design-tutorial-website/>-   Archimate diagram
+<https://www.freecodecamp.org/news/what-is-a-wireframe-ux-design-tutorial-website>-   Archimate diagram
 -   Specification and Description Language (SDL)
 -   Ditaa diagram
 -   Gantt diagram
-<http://plantuml.com/>
+<http://plantuml.com>
 
-<https://mermaidjs.github.io/> (Can be rendered using markdown in gitlab)
+<https://mermaidjs.github.io> (Can be rendered using markdown in gitlab)
 **Business Process Model and Notation (BPMN)**
 
 Business Process Model and Notation(BPMN) is a[graphical representation](https://en.wikipedia.org/wiki/Information_visualization)for specifying[business processes](https://en.wikipedia.org/wiki/Business_process)in a[business process model](https://en.wikipedia.org/wiki/Business_process_modeling).
 Originally developed by the[Business Process Management Initiative](https://en.wikipedia.org/wiki/Business_Process_Management_Initiative)(BPMI), BPMN has been maintained by the[Object Management Group](https://en.wikipedia.org/wiki/Object_Management_Group)(OMG) since the two organizations merged in 2005. Version 2.0 of BPMN was released in January 2011,at which point the name was amended toBusiness Process ModelandNotationto reflect the introduction of execution semantics, which were introduced alongside the existing notational and diagramming elements. Though it is an OMG specification, BPMN is also ratified as[ISO](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)19510. The latest version is BPMN 2.0.2, published in January 2014.
 <https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation>
 
-<http://www.bpmn.org/>
+<http://www.bpmn.org>
 
-<https://camunda.com/>
+<https://camunda.com>
 **Workflow**
 
 A Workflow is a series of decisions made by different people that determines what happens to a particular request that one of those people made, according to a defined and repeatable process.
@@ -294,7 +294,7 @@ As a system evolves, it's complexity increases unless work is done to maintan or
 <https://news.ycombinator.com/item?id=13416935>
 [Prioritizing Technical Debt as if Time and Money Matters • Adam Tornhill • GOTO 2020](https://www.youtube.com/watch?v=FnmYGqZAAuI)
 
-<https://zerodha.tech/blog/being-future-ready-with-common-sense/>
+<https://zerodha.tech/blog/being-future-ready-with-common-sense>
 -   Slow down to speed up
 -   Organisations often overestimate the importance of the features they continuously ship (and underestimate the importance of features they don't ship)
 -   Don't fix what is not broken, but fix what might soon break
@@ -324,7 +324,7 @@ Brooks goes on to argue that there is a difference between "good" designers and 
 -   Do you have testers?
 -   Do new candidates write code during their interview?
 -   Do you do hallway usability testing?
-<https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/>
+<https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code>
 
 <https://medium.com/squad-engineering/squad-takes-the-joel-test-9189709a6235>
 **The 7 R's: Common use cases and deployment**

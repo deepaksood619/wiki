@@ -153,7 +153,7 @@ INTO TABLE tbl_name
 Aurora MySQL parallel query is an optimization that parallelizes some of the I/O and computation involved in processing data-intensive queries. The work that is parallelized includes retrieving rows from storage, extracting column values, and determining which rows match the conditions in the WHERE clause and join clauses. This data-intensive work is delegated (in database optimization terms,pushed down) to multiple nodes in the Aurora distributed storage layer. Without parallel query, each query brings all the scanned data to a single node within the Aurora MySQL cluster (the head node) and performs all the query processing there.
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-mysql-parallel-query.html>
 
-<https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora/>
+<https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora>
 **Cloning Database**
 
 Using database cloning, you can quickly and cost-effectively create clones of all of the databases within an Aurora DB cluster. The clone databases require only minimal additional space when first created.
@@ -165,7 +165,7 @@ Backtracking lets you rewind the Aurora DB cluster to the time you specify. With
 Backtracking is not a replacement for backing up your DB cluster so that you can restore it to a point in time.
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Backtrack.html>
 
-<https://aws.amazon.com/getting-started/tutorials/aurora-cloning-backtracking/>
+<https://aws.amazon.com/getting-started/tutorials/aurora-cloning-backtracking>
 **References**
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html>

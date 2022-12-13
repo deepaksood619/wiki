@@ -17,7 +17,7 @@ Protection against Buffer Overflow attacks / Stash smashing attacks
 6.  OS hardening
 
 7.  Object Code Checking (Provided by GCC)
-<https://www.freecodecamp.org/news/buffer-overflow-attacks/>
+<https://www.freecodecamp.org/news/buffer-overflow-attacks>
 Access Controls -
 
 1.  DAC (Discretionary Access Control) - Owners of objects can modify their permissions
@@ -50,7 +50,7 @@ Integrity protection
 GNU Privacy Guard(GnuPGorGPG) is a[free-software](https://en.wikipedia.org/wiki/Free-software)replacement for [Symantec](https://en.wikipedia.org/wiki/NortonLifeLock)'s [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) [cryptographic](https://en.wikipedia.org/wiki/Cryptography) software suite, and is compliant with[RFC 4880](https://tools.ietf.org/html/rfc4880), the[IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)standards-track specification of[OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP). Modern versions of[PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)are[interoperable](https://en.wikipedia.org/wiki/Interoperability)with GnuPG and other OpenPGP-compliant systems.
 GPG is the Gnu Privacy Guard and it is an implementation of OpenPGP (Open Pretty Good Privacy). It is an encryption technique that was originally developed for use in e-mail exchanges that is now used in a number of different applications such as code signing for Linux code repositories and source code repositories like github. OpenPGP is a hybrid of the two-key cryptography approach where the message to be exchanged (called plaintext) is first compressed and then a session key is created as a one-time use secret key. The compressed plaintext is then encrypted with the session key. The session key is then encrypted with the destination's public key and bundled with the encrypted message (called ciphertext). The destination can decrypt the session key with their private key then then decompress it to recover the original plaintext.
 There are several different ways to create a GPG key. The easiest is with the "gpg" or "gpg2" commands available on many major operating systems. Many commercial encryption programs also include a way to generate a GPG key. You can then store the public version on a public key server so folks can start sending you encrypted files/message traffic. Only you will be able to decrypt it because only you have the associated private key.
-<https://gnupg.org/>
+<https://gnupg.org>
 
 <https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages>-   LibSSL - SSL/TLS
 -   Libcrypto - Encryption and Decryption

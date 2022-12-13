@@ -33,13 +33,13 @@ Kubernetes is an ideal platform for running contemporary workloads designed as c
 10. Defined, policy-driven resource allocation
 <https://cloud.google.com/blog/products/application-development/5-principles-for-cloud-native-architecture-what-it-is-and-how-to-master-it>
 
-<https://thenewstack.io/primer-distributed-systems-and-cloud-native-computing/>
+<https://thenewstack.io/primer-distributed-systems-and-cloud-native-computing>
 **Self service Edge Stack**
 
 <table>
 <colgroup>
-<col style="width: 42%" />
-<col style="width: 57%" />
+<col style="width: 42%" >
+<col style="width: 57%" >
 </colgroup>
 <thead>
 <tr class="header">

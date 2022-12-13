@@ -42,5 +42,5 @@ Constraint - Not enough memory to store N items
 -   Median Maintanence (Have two heaps and keep invariant that ~i/2 smallest elements in one heap and other ~i/2 elements in another heap)
 **Further Reading**
 -   Heap Sort
-<https://engineering.fb.com/2021/02/22/production-engineering/foqs-scaling-a-distributed-priority-queue/>
+<https://engineering.fb.com/2021/02/22/production-engineering/foqs-scaling-a-distributed-priority-queue>
 

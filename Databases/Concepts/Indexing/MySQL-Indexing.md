@@ -264,8 +264,8 @@ Consider this query:
 
 <table>
 <colgroup>
-<col style="width: 30%" />
-<col style="width: 69%" />
+<col style="width: 30%" >
+<col style="width: 69%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -304,7 +304,7 @@ SHOW INDEXES FROM table_name;
 
 <https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html>
 
-<https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/>
+<https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd>
 
 [**https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html**](https://dev.mysql.com/doc/refman/8.0/en/optimization-indexes.html)
 
@@ -312,7 +312,7 @@ SHOW INDEXES FROM table_name;
 
 select count(*) from sys.schema_unused_indexes;
 
-<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database/>
+<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database>
 **Rebuilding or Repairing Tables or Indexes**
 
 **Methods for rebuilding a table include:**

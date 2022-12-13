@@ -66,6 +66,6 @@ When compared with a flat array of numbers, the Fenwick tree achieves a much bet
 ![](media/Tree-DS-image7.jpeg)
 <https://en.wikipedia.org/wiki/Fenwick_tree>
 
-<https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/>
-<https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/>
+<https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2>
+<https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties>
 

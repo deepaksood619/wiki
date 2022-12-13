@@ -13,4 +13,4 @@ ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking lib
 
 <http://zguide.zeromq.org/page:all>
 
-<https://www.pythonforthelab.com/blog/using-pyzmq-for-inter-process-communication-part-1/>
+<https://www.pythonforthelab.com/blog/using-pyzmq-for-inter-process-communication-part-1>

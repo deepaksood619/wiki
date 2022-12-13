@@ -6,7 +6,7 @@ Modified: 2020-11-01 15:51:15 +0500
 
 ---
 
-<https://thenewstack.io/how-redis-simplifies-microservices-design-patterns/>
+<https://thenewstack.io/how-redis-simplifies-microservices-design-patterns>
 **Financial System**
 
 ![API Gateway 1 Authenticate Digital Identity RedisGearE Probabilistic Fraud Detection Checkpoint RedisGE3Æ Transaction Risk Scoring RediEGeäÆ Approve I Decline Payment RESiscx Legend Redis EnWprise Payment History Clearing & Settlement Update Risk Profile Message Broker n n n n GdiE i:re-m Synchronous Communication --- --- Asynchronous Communication Analytics Dashboard ](media/Microservice-Architecture_Example-image1.png)

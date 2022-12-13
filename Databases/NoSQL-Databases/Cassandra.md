@@ -92,11 +92,11 @@ In the image above, circles are Cassandra nodes and lines between the circles sh
 
 <https://en.wikipedia.org/wiki/Apache_Cassandra>
 
-<http://cassandra.apache.org/>
+<http://cassandra.apache.org>
 
 <https://www.tutorialspoint.com/cassandra/index.htm>
 
-<https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/>
+<https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial>
 
 [Introduction to Apache Cassandra™ + What's New in 4.0 by Patrick McFadin | DataStax Presents](https://www.youtube.com/watch?v=d7o6a75sfY0)
 

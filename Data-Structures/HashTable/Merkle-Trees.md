@@ -12,7 +12,7 @@ Merkle trees are used in distributed systems for efficient data verification. Th
 ![Н( Н(ађ) + H(cd) = Н(ађ) = Нф) ](media/Merkle-Trees-image1.png)
 
 Image - A basic Merkle Tree. I've abbreviated the middle nodes as H(cd) and H(ab) respectively, but without this shorthand the root hash could also be called H(H(H(a) + H(b)) + H(H(c) +H(d)))
-<https://brilliant.org/wiki/merkle-tree/>
+<https://brilliant.org/wiki/merkle-tree>
 
 <https://hackernoon.com/merkle-tree-introduction-4c44250e2da7>
 

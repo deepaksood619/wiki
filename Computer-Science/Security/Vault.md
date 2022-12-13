@@ -303,4 +303,4 @@ capabilities = ["read"]
 ![Vault ](media/Vault-image8.jpg)
 **Comparision**
 
-<https://www.cncf.io/announcements/2021/02/23/cncf-provides-insights-into-secrets-management-tools-with-latest-end-user-technology-radar/>
+<https://www.cncf.io/announcements/2021/02/23/cncf-provides-insights-into-secrets-management-tools-with-latest-end-user-technology-radar>

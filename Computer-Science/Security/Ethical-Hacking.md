@@ -17,7 +17,7 @@ Modified: 2022-01-07 22:23:17 +0500
 <https://github.com/Hack-with-Github/Awesome-Hacking>
 **CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more.
 
-<https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam/>
+<https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam>
 **Use Cases and Abuse Cases**
 **White Hat hackers**
 
@@ -34,15 +34,15 @@ A black hat hacker has no qualms about selling vulnerabilities and exploits to t
 
 [**https://hack.me/**](https://hack.me/)
 
-<https://hackthissite.org/>
+<https://hackthissite.org>
 
-<https://w3challs.com/>
+<https://w3challs.com>
 
-<https://dst.com.ng/15-vulnerable-sites-legally-practice-hacking-skills/>
+<https://dst.com.ng/15-vulnerable-sites-legally-practice-hacking-skills>
 
 [**https://tryhackme.com/**](https://tryhackme.com/)
 
-<https://haveibeenpwned.com/>
+<https://haveibeenpwned.com>
 **Tools**
 
 **Festin**
@@ -53,7 +53,7 @@ FestInis a tool for discovering open S3 Buckets starting from a domains.
 
 **Damn Vulnerable Web Application (DVWA)**
 
-<http://www.dvwa.co.uk/>
+<http://www.dvwa.co.uk>
 **Digital Forensics**
 
 ![](media/Ethical-Hacking-image1.png)

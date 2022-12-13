@@ -17,6 +17,6 @@ The core features of YugabyteDB include:
 -   **100% open source**YugabyteDB is fully open-source under the[Apache 2.0 license](https://github.com/yugabyte/yugabyte-db/blob/master/LICENSE.md). The open-source version has powerful enterprise features distributed backups, encryption of data at-rest, in-flight TLS encryption, change data capture, read replicas and others.
 <https://github.com/yugabyte/yugabyte-db>
 
-<https://docs.yugabyte.com/latest/comparisons/>
+<https://docs.yugabyte.com/latest/comparisons>
 
-<https://docs.yugabyte.com/latest/architecture/design-goals/>
+<https://docs.yugabyte.com/latest/architecture/design-goals>

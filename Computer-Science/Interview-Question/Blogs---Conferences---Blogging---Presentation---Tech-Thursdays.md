@@ -35,7 +35,7 @@ Modified: 2022-09-16 00:32:48 +0500
 8.  Data infra - kafka and all
 
 9.  Setting up staging, QA and prod
-<https://www.freecodecamp.org/news/how-to-start-a-blog-book/>
+<https://www.freecodecamp.org/news/how-to-start-a-blog-book>
 Question-Based vs Statement-Based Headline
 
 Problem based vs Solution based Headline
@@ -98,7 +98,7 @@ Level up - As a Developer, series
 <https://dev.to/stephsmithio/writing-is-thinking-learning-to-write-with-confidence-1ijh>
 **Course maker**
 
-<https://teachable.com/>
+<https://teachable.com>
 **Projects**
 -   Monte carlo simulation for dice roll with one dice and two dice
 **Presentations**
@@ -115,7 +115,7 @@ Level up - As a Developer, series
 -   1 GB Sort
 -   Scavenger/Treasure Hunt
 -   PythonChallenge
--   <http://flaws.cloud/>
+-   <http://flaws.cloud>
 -   **Game Days**
     -   Killing something in production
 -   Blue/Green teams
@@ -133,9 +133,9 @@ Level up - As a Developer, series
 <https://github.com/deepaksood619/GitGames>
 **SQL Games**
 
-<https://mystery.knightlab.com/>
+<https://mystery.knightlab.com>
 
-<https://selectstarsql.com/>
+<https://selectstarsql.com>
 
 <https://www.hackerrank.com/domains/sql>
 

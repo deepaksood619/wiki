@@ -23,11 +23,11 @@ There are two types of Aurora MySQL parameter groups: DB parameter groups and DB
 2.  Parameters that might affect performance by managing how resources, such as caching and internal memory-based buffers, are allocated in the instance
 <table style="width:100%;">
 <colgroup>
-<col style="width: 31%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 25%" />
+<col style="width: 31%" >
+<col style="width: 14%" >
+<col style="width: 14%" >
+<col style="width: 14%" >
+<col style="width: 25%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -334,7 +334,7 @@ Impact:This setting also indirectly contributes to Performance Schema memory usa
 
 Recommended settings: Default (16,777,216 bytes). Together withmax_heap_table_size, this parameter limits the size for in-memory tables used for query processing. When the temporary table size limit is exceeded, tables are then swapped to disk.
 Impact:Very large values (hundreds of megabytes or more) are notorious for causing memory issues and out-of-memory errors. This parameter doesn't affect tables created with the MEMORY engine.
-<https://aws.amazon.com/blogs/database/best-practices-for-amazon-aurora-mysql-database-configuration/>
+<https://aws.amazon.com/blogs/database/best-practices-for-amazon-aurora-mysql-database-configuration>
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html>
 
@@ -356,18 +356,18 @@ Aurora Serverless v2 (Preview) supports all manner of database workloads, from d
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html>
 **Optimizations**
 
-<https://aws.amazon.com/blogs/database/planning-and-optimizing-amazon-aurora-with-mysql-compatibility-for-consolidated-workloads/>
+<https://aws.amazon.com/blogs/database/planning-and-optimizing-amazon-aurora-with-mysql-compatibility-for-consolidated-workloads>
 **DB instance RAM recommendations**
 
 An Amazon RDS performance best practice is to allocate enough RAM so that yourworking setresides almost completely in memory. The working set is the data and indexes that are frequently in use on your instance. The more you use the DB instance, the more the working set will grow.
 To tell if your working set is almost all in memory, check the ReadIOPS metric (using Amazon CloudWatch) while the DB instance is under load. The value of ReadIOPS should be small and stable. If scaling up the DB instance class---to a class with more RAM---results in a dramatic drop in ReadIOPS, your working set was not almost completely in memory. Continue to scale up until ReadIOPS no longer drops dramatically after a scaling operation, or ReadIOPS is reduced to a very small amount. For information on monitoring a DB instance's metrics, see[Viewing DB instance metrics](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MonitoringOverview.html#USER_Monitoring).
 <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html>
 
-<https://aws.amazon.com/premiumsupport/knowledge-center/rds-instance-high-cpu/>
+<https://aws.amazon.com/premiumsupport/knowledge-center/rds-instance-high-cpu>
 **Wait Events**
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Tuning.wait-events.html>
-<https://aws.amazon.com/premiumsupport/knowledge-center/aurora-mysql-synch-wait-events/>
+<https://aws.amazon.com/premiumsupport/knowledge-center/aurora-mysql-synch-wait-events>
 **Aurora IO Costs/Optimization**
 
 [Amazon Aurora I/O Cost Optimization Methodology | Amazon Web Services](https://www.youtube.com/watch?v=dpLRAlEX7Lo)
@@ -379,4 +379,4 @@ innodb_flush_log_at_trx_commit
 innodb_flush_log_at_timeout
 **RDS Proxy**
 
-<https://aws.amazon.com/rds/proxy/>
+<https://aws.amazon.com/rds/proxy>

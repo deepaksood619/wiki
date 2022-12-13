@@ -104,24 +104,24 @@ For example, Google implements Single Sign On in its services. Google's central 
 **WHAT IS MULTIFACTOR AUTHENTICATION?**
 
 Multifactor authentication (MFA) is a method of identifying users by presenting several separate authentication stages. Some of those stages could be Time-based One-Time Password (TOTP), Mobile verification, a hardware token, among others. 2-Factor Authentication (2FA) is the most used type of MFA.
-<https://auth0.com/learn/multifactor-authentication/>
+<https://auth0.com/learn/multifactor-authentication>
 IdP - Identity Provider
 
 **IAM - Identity and Access Management**
 -   [ORY Hydra](https://www.ory.sh/)
 
-<https://www.ory.sh/>
+<https://www.ory.sh>
 
 <https://github.com/ory/hydra>-   [Keycloak](https://www.keycloak.org/)
 -   Okta
 -   Auth0
 -   Supertokens
 
-<https://supertokens.io/>
+<https://supertokens.io>
 -   **jumpcloud (Oyster)**
 
 <https://jumpcloud.com/daas-glossary/identity-management>
--   <https://magic.link/>
+-   <https://magic.link>
 <https://withblue.ink/2020/04/08/stop-writing-your-own-user-authentication-code.html>
 **Signed Request**
 
@@ -147,7 +147,7 @@ Query parameters needs to be in a sorted in an acending order while generating t
 
 <https://medium.com/@vivekmadurai/different-ways-to-authenticate-a-web-application-e8f3875c254a>
 
-<https://blog.risingstack.com/web-authentication-methods-explained/>
+<https://blog.risingstack.com/web-authentication-methods-explained>
 [Identity and Access Management: Technical Overview](https://www.youtube.com/watch?v=Tcvsefz5DmA)
 **OAuth2**
 
@@ -171,5 +171,5 @@ But Facebook login doesn't support OpenID Connect. It has its own flavor of OAut
 There was also an "OpenID" specification. That tried to solve the same thing asOpenID Connect, but was not based on OAuth2.
 So, it was a complete additional system.
 It is not very popular or used nowadays.
-<https://fastapi.tiangolo.com/tutorial/security/>
+<https://fastapi.tiangolo.com/tutorial/security>
 

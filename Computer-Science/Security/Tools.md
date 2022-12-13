@@ -41,7 +41,7 @@ spire-agent
 **Workload Identity**
 
 ![Parent ID: Selector: Selector: Selector: SPIFFE ID: spiffe://exampLe.org/k8s/cluster/foo k8s:ns:operations k8s:sa:mediawiki docker:image-id:746b819f315e spiffe://example.org/ops/wiki ](media/Tools-image4.png)
-<https://spiffe.io/spiffe/>
+<https://spiffe.io/spiffe>
 
 [Zero Trust Service Mesh with Calico, SPIRE, and Envoy - Shaun Crampton & Evan Gilman](https://www.youtube.com/watch?v=rKOEYoINdOE)
 
@@ -49,13 +49,13 @@ spire-agent
 **Casbin**
 
 An authorization library that supports access control models like ACL, RBAC, ABAC in Golang
-<https://casbin.org/>
+<https://casbin.org>
 
 <https://github.com/casbin/casbin>
 **Lavabit**
 
 Secure emailfor the world
-<https://lavabit.com/>
+<https://lavabit.com>
 **Android**
 
 <https://github.com/google/nogotofail>
@@ -64,7 +64,7 @@ Secure emailfor the world
 <https://www.devglan.com/online-tools/aes-encryption-decryption>
 **NaCl**
 
-<http://nacl.cr.yp.to/>
+<http://nacl.cr.yp.to>
 **libsodium**
 
 Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.
@@ -87,23 +87,23 @@ cert-manager builds on top of Kubernetes, introducing certificate authorities an
 -   Webhook
 -   CA Injector
 
-<https://cert-manager.io/>
+<https://cert-manager.io>
 
-<https://cert-manager.io/docs/concepts/>
+<https://cert-manager.io/docs/concepts>
 
-<https://cert-manager.io/docs/installation/kubernetes/>
+<https://cert-manager.io/docs/installation/kubernetes>
 <https://www.youtube.com/watch?v=JJTJfl-V_UM>
 
 [Use cert-manager with Let's Encrypt® Certificates Tutorial: Automatic Browser-Trusted HTTPS](https://www.youtube.com/watch?v=etC5d0vpLZE)
 **Letsencrypt**
 
-<https://letsencrypt.org/getting-started/>
+<https://letsencrypt.org/getting-started>
 **certbot**
 
-<https://certbot.eff.org/>
+<https://certbot.eff.org>
 **SASS**
 
-<https://www.crowdstrike.com/>
+<https://www.crowdstrike.com>
 
-<https://snyk.io/>
+<https://snyk.io>
 

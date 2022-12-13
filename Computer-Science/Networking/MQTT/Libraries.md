@@ -10,8 +10,8 @@ Modified: 2019-03-12 23:42:03 +0500
 
 <table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 83%" />
+<col style="width: 16%" >
+<col style="width: 83%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,7 +60,7 @@ Modified: 2019-03-12 23:42:03 +0500
 </tbody>
 </table>
 
-<https://blog.autsoft.hu/choosing-an-mqtt-broker-for-your-iot-project/>
+<https://blog.autsoft.hu/choosing-an-mqtt-broker-for-your-iot-project>
 
 <https://en.wikipedia.org/wiki/Comparison_of_MQTT_Implementations>
 
@@ -79,9 +79,9 @@ Public mqtt brokers for testing - <https://github.com/mqtt/mqtt.github.io/wiki/p
 
 <table>
 <colgroup>
-<col style="width: 19%" />
-<col style="width: 15%" />
-<col style="width: 65%" />
+<col style="width: 19%" >
+<col style="width: 15%" >
+<col style="width: 65%" >
 </colgroup>
 <thead>
 <tr class="header">

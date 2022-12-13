@@ -94,7 +94,7 @@ Index records comprise search-key values and data pointers. Multilevel index is 
 ![Multi-level Index](media/Indexing-image7.png)
 
 Multi-level Index helps in breaking down the index into several smaller indices in order to make the outermost level so small that it can be saved in a single disk block, which can easily be accommodated anywhere in the main memory.
-<https://www.geeksforgeeks.org/indexing-in-databases-set-1/>
+<https://www.geeksforgeeks.org/indexing-in-databases-set-1>
 
 <https://www.tutorialspoint.com/dbms/dbms_indexing.htm>
 <https://www.toptal.com/database/sql-indexes-explained-pt-1>
@@ -106,7 +106,7 @@ Writing to a table with a clustered index can be slower, if there is a need to r
 **KEY** is the synonym for INDEX . You use the KEY when you want to create an index for a column or a set of columns that is not the part of aprimary keyorunique key. AUNIQUEindex ensures that values in a column must beunique. Unlike the PRIMARY index, MySQL allows NULL values in theUNIQUEindex.
 
 Key is synonymous to an index. If you want to create an index for a column, then use 'Key'.
-<https://www.mysqltutorial.org/mysql-primary-key/>
+<https://www.mysqltutorial.org/mysql-primary-key>
 **Cardinality**
 
 Index cardinality refers to the uniqueness of values stored in a specified column within an index.
@@ -128,5 +128,5 @@ Index selectivity is the ratio of the number of distinct indexed values (the ​
 -   Using the phonebook example: an index of(first_name, last_name)might be less effective than(last_name, first_name)because first names are much less distinct when compared to last_names, meaning it narrow down less results.
 **Why low cardinality indexes negatively impact performance**
 
-<https://www.ibm.com/developerworks/data/library/techarticle/dm-1309cardinal/>
+<https://www.ibm.com/developerworks/data/library/techarticle/dm-1309cardinal>
 

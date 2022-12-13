@@ -55,12 +55,12 @@ Prevention - Sanitize user inputs
 **Cross-site request forgery**, also known as**one-click attack**or**session riding**and abbreviated as**CSRF orXSRF**, is a type of malicious[exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security))of a[website](https://en.wikipedia.org/wiki/Website)where unauthorized commands are transmitted from a[user](https://en.wikipedia.org/wiki/User_(computing))that the web application trusts.[[2]](https://en.wikipedia.org/wiki/Cross-site_request_forgery#cite_note-Ristic-2)There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and[JavaScript](https://en.wikipedia.org/wiki/JavaScript)XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike[cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser.
 <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
 
-<https://victorzhou.com/blog/csrf/>
+<https://victorzhou.com/blog/csrf>
 
 <https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html>
 
-<https://www.freecodecamp.org/news/what-is-cross-site-request-forgery/>
-<https://victorzhou.com/blog/xss/>
+<https://www.freecodecamp.org/news/what-is-cross-site-request-forgery>
+<https://victorzhou.com/blog/xss>
 8.  [Insecure Deserialization](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A8-Insecure_Deserialization)
 
 Insecure deserialization often leads to remote code execution. Even if deserialization flaws do not result in remote code execution, they can be used to perform attacks, including replay attacks, injection attacks, and privilege escalation attacks.
@@ -70,9 +70,9 @@ Components, such as libraries, frameworks, and other software modules, run with 
 10. [Insufficient Logging & Monitoring](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A10-Insufficient_Logging%252526Monitoring)
 
 Insufficient logging and monitoring, coupled with missing or ineffective integration with incident response, allows attackers to further attack systems, maintain persistence, pivot to more systems, and tamper, extract, or destroy data. Most breach studies show time to detect a breach is over 200 days, typically detected by external parties rather than internal processes or monitoring.
-<https://owasp.org/www-project-top-ten/>
+<https://owasp.org/www-project-top-ten>
 
-<https://www.cloudflare.com/learning/security/threats/owasp-top-10/>
+<https://www.cloudflare.com/learning/security/threats/owasp-top-10>
 
 <https://www.toptal.com/security/owasp-top-10-changelog-2017-revision>
 **OWASP Cheet Sheet**
@@ -160,7 +160,7 @@ Process for Attack Simulation and Threat Analysis (PASTA) is a seven-step, risk-
 -   [Web Service Security](https://cheatsheetseries.owasp.org/cheatsheets/Web_Service_Security_Cheat_Sheet.html)
 -   [XML External Entity Prevention](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html)
 -   [XML Security](https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Sheet.html)
-<https://cheatsheetseries.owasp.org/>
+<https://cheatsheetseries.owasp.org>
 **Social Engineering**
 
 "Social engineering" refers to the use of humans as an attack vector to compromise a system. It involves fooling or otherwise manipulating human personnel into revealing information or performing actions on the attacker's behalf. Social engineering is known to be a very effective attack strategy, since even the strongest security system can be compromised by a single poor decision. In some cases, highly secure systems that cannot be penetrated by computer or cryptographic means, can be compromised by simply calling a member of the target organization on the phone and impersonating a colleague or IT professional.

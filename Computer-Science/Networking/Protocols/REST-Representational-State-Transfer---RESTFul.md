@@ -134,7 +134,7 @@ This encoding is the same as the one used in URL parameters. You just need to en
 A raw request can contain anything. Postman doesn't touch the string entered in the raw editor except replacing environment variables. Whatever you put in the text area gets sent with the request. The raw editor lets you set the formatting type along with the correct header that you should send with the raw body. You can set the Content-Type header manually as well. Normally, you would be sending XML or JSON data here.-   **binary**
 
 binary data allows you to send things which you can not enter in Postman. For example, image, audio or video files. You can send text files as well. As mentioned earlier in the form-data section, you would have to reattach a file if you are loading a request through the history or the collection.
-<http://restcookbook.com/>
+<http://restcookbook.com>
 **Six Contraints**
 -   Uniform Interface
 -   Stateless
@@ -230,7 +230,7 @@ Here are some quick-hit rules for URL path (resource name) design:
 **Others**
 
 HATEOAS (Hypermedia As The Engine Of Application State, is a constraint of the REST application architecture that distinguishes it from most other network application architectures. The principle is that a client interacts with a network application entirely through hypermedia provided dynamically by application servers)
-<http://restcookbook.com/Basics/hateoas/>
+<http://restcookbook.com/Basics/hateoas>
 **References**
 
 <https://medium.com/@liran.tal/a-comprehensive-guide-to-contract-testing-apis-in-a-service-oriented-architecture-5695ccf9ac5a>

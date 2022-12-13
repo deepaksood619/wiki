@@ -64,7 +64,7 @@ Luckily,[OpenID Connect](https://openid.net/connect/)or OIDC brings some sanity 
 <https://blog.runscope.com/posts/understanding-oauth-2-and-openid-connect>
 **Map of OAuth 2.0 Specs**
 
-<https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs/>
+<https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs>
 
 <https://tools.ietf.org/html/rfc6749>
 ![](media/Authentication_OAuth-image3.png)
@@ -87,6 +87,6 @@ Luckily,[OpenID Connect](https://openid.net/connect/)or OIDC brings some sanity 
 <https://www.youtube.com/watch?v=g_aVPdwBTfw>
 **Others**
 
-<https://developer.okta.com/docs/concepts/api-access-management/>
+<https://developer.okta.com/docs/concepts/api-access-management>
 
 <https://www.youtube.com/watch?v=996OiexHze0>

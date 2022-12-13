@@ -76,7 +76,7 @@ Modified: 2022-02-05 01:13:53 +0500
 
     d.  Spring cloud gateway
 
-    e.  <https://apisix.apache.org/>
+    e.  <https://apisix.apache.org>
 **API Gateways**
 
 **Gloo**
@@ -102,11 +102,11 @@ Rate Limiting Service
 
 [What is an API Gateway?](https://www.youtube.com/watch?v=vHQqQBYJtLI)
 
-<https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh/>
+<https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh>
 
-<https://developer.ibm.com/apiconnect/2018/11/13/service-mesh-vs-api-management/>
+<https://developer.ibm.com/apiconnect/2018/11/13/service-mesh-vs-api-management>
 
-<https://blog.christianposta.com/microservices/api-gateways-are-going-through-an-identity-crisis/>
+<https://blog.christianposta.com/microservices/api-gateways-are-going-through-an-identity-crisis>
 
-<https://konghq.com/blog/the-difference-between-api-gateways-and-service-mesh/>
+<https://konghq.com/blog/the-difference-between-api-gateways-and-service-mesh>
 

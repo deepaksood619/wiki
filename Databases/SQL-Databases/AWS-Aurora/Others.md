@@ -8,7 +8,7 @@ Modified: 2021-04-07 20:54:03 +0500
 
 **Auditing**
 
-<https://aws.amazon.com/premiumsupport/knowledge-center/advanced-audit-aurora-mysql-cloudwatch/>
+<https://aws.amazon.com/premiumsupport/knowledge-center/advanced-audit-aurora-mysql-cloudwatch>
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Auditing.html>
 **Autoscaling**
@@ -46,7 +46,7 @@ An important visual cue in the load chart is theMax CPUline. This line represent
 **CPU bottleneck**
 
 In the preceding examples,there are two vCPU cores, so only two sessions can concurrently run on the CPU without queueing. If three sessions run on the CPU concurrently, then, at any given point in time, at least one of them is waiting in the run queue and therefore not getting work done.
-<https://aws.amazon.com/blogs/database/analyzing-amazon-rds-database-workload-with-performance-insights/>
+<https://aws.amazon.com/blogs/database/analyzing-amazon-rds-database-workload-with-performance-insights>
 **Metrics**
 
 **Freeable memory**

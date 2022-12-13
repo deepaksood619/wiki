@@ -62,10 +62,10 @@ Envelope Encryption is an approach/process used within many applications to encr
     -   Once the plain text version of the data key is obtained then the encrypted message itself is decrypted.
 Using this approach if one wants to decrypt data, they need be authenticated with the KMS, since the master keys are only held there and never exported, and only the KMS can decrypt the data keys.
 ![image](media/Cryptography-Intro_Cryptography-Terms-image1.png)
-<https://devender.me/2016/07/13/envelope-encryption/>
+<https://devender.me/2016/07/13/envelope-encryption>
 ![з. РпмаЛ-а Х КЕА ' (5?JJte 4. Л¯ы-Еясток • Ргнп€е • Ргша}с • %qaqenhle ](media/Cryptography-Intro_Cryptography-Terms-image2.png)
 
-<https://www.druva.com/blog/druva-tech-moments-digital-envelope-encryption/><https://crypto.stackexchange.com/questions/3965/what-is-the-main-difference-between-a-key-an-iv-and-a-nonce>
+<https://www.druva.com/blog/druva-tech-moments-digital-envelope-encryption><https://crypto.stackexchange.com/questions/3965/what-is-the-main-difference-between-a-key-an-iv-and-a-nonce>
 
 **A[key](https://en.wikipedia.org/wiki/Key_(cryptography)),** in the context of[symmetric cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm), is something you keep secret. Anyone who knows your key (or can guess it) can decrypt any data you've encrypted with it (or forge any authentication codes you've calculated with it, etc.).
 (There's also "asymmetric" or[public key cryptography](https://en.wikipedia.org/wiki/Public-key_encryption), where the key effectively has two parts: the private key, which allows decryption and/or signing, and a public key (derived from the corresponding private key) which allows encryption and/or signature verification.)

@@ -77,4 +77,4 @@ Examples of compatibility testing include:
 -   browser testing (checking to make sure your website or mobile site is fully compatible with different browsers)
 -   mobile testing (making sure your application is compatible with iOS and Android)
 -   or software testing (if you're going to be creating multiple software applications that need to be interacting with one another, you'll need to conduct compatibility testing to ensure that they actually do so).
-<https://www.freecodecamp.org/news/types-of-software-testing/>
+<https://www.freecodecamp.org/news/types-of-software-testing>

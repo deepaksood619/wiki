@@ -83,11 +83,11 @@ In[theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_compu
 
 <table>
 <colgroup>
-<col style="width: 35%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 17%" />
-<col style="width: 10%" />
+<col style="width: 35%" >
+<col style="width: 17%" >
+<col style="width: 17%" >
+<col style="width: 17%" >
+<col style="width: 10%" >
 </colgroup>
 <thead>
 <tr class="header">

@@ -22,4 +22,4 @@ There is also a very simple way to delete the retained message of a topic: send 
 
 **A retained message makes sense when you want newly-connected subscribers to receive messages immediately (without waiting until a publishing client sends the next message)**.This is extremely helpful for status updates of components or devices on individual topics. For example, the status of device1 is on the topicmyhome/devices/device1/status. When retained messages are used, new subscribers to the topic get the status (online/offline) of the device immediately after they subscribe. The same is true for clients that send data in intervals, temperature, GPS coordinates, and other data.**Without retained messages, new subscribers are kept in the dark between publish intervals.**Using retained messages helps provide the last good value to a connecting client immediately.**References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part-8-retained-messages/>
+<https://www.hivemq.com/blog/mqtt-essentials-part-8-retained-messages>

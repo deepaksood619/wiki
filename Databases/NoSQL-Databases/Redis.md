@@ -74,12 +74,12 @@ Sentinel - <https://redis.io/topics/sentinel>
 
 keydb - Multithreaded fork of redis
 
-<https://docs.keydb.dev/blog/2019/10/07/blog-post/>
+<https://docs.keydb.dev/blog/2019/10/07/blog-post>
 **twenproxy (by twitter)**
 
 twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight proxy for[memcached](http://www.memcached.org/)and[redis](http://redis.io/)protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.
 
-<https://github.com/twitter/twemproxy/>
+<https://github.com/twitter/twemproxy>
 **codis**
 
 Proxy based Redis cluster solution supporting pipeline and scaling dynamically
@@ -117,10 +117,10 @@ Both Redis and MemCached are in-memory, open-source data stores. Memcached, a hi
 | [Pub/Sub](https://aws.amazon.com/elasticache/redis-vs-memcached/#Pub.2FSub)                                                                                 | -            | Yes       |
 | [Lua scripting](https://aws.amazon.com/elasticache/redis-vs-memcached/#Lua_scripting)                                                                       | -            | Yes       |
 | [Geospatial support](https://aws.amazon.com/elasticache/redis-vs-memcached/#Geospatial_support)                                                             | -            | Yes       |
-<https://aws.amazon.com/elasticache/redis-vs-memcached/>
+<https://aws.amazon.com/elasticache/redis-vs-memcached>
 **Books**
 
-<https://redislabs.com/redis-in-action/>
+<https://redislabs.com/redis-in-action>
 **Redis 6**
 
 Redis 6.0 open source
@@ -145,7 +145,7 @@ Redis Enterprise 6.0
 
 <https://redis.io/commands>
 
-<https://www.tutorialspoint.com/redis/>
+<https://www.tutorialspoint.com/redis>
 
 <https://redis.io/topics/rediscli>
 

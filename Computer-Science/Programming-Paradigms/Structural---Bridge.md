@@ -48,4 +48,4 @@ By the way, because of this point Bridge is often confused with Strategy. Note t
 - Complicates the program code due to the introduction of additional classes.
 **References**
 
-<https://py.checkio.org/blog/design-patterns-part-3/>
+<https://py.checkio.org/blog/design-patterns-part-3>

@@ -57,9 +57,9 @@ Functional decomposition is a term that engineers use to describea set of steps 
 
 <table>
 <colgroup>
-<col style="width: 22%" />
-<col style="width: 58%" />
-<col style="width: 19%" />
+<col style="width: 22%" >
+<col style="width: 58%" >
+<col style="width: 19%" >
 </colgroup>
 <thead>
 <tr class="header">
@@ -299,7 +299,7 @@ Functional decomposition is a term that engineers use to describea set of steps 
 </tr>
 </tbody>
 </table>
-<https://docs.microsoft.com/en-us/azure/architecture/patterns/>
+<https://docs.microsoft.com/en-us/azure/architecture/patterns>
 **Enterprise Application Architecture**
 -   **Domain Logic Patterns:** Transaction Script, Domain Model, Table Module, Service Layer.
 -   **Data Source Architectural Patterns:** Table Data Gateway, Row Data Gateway, Active Record, Data Mapper.

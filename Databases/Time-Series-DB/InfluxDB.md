@@ -57,7 +57,7 @@ InfluxDB is a time series database. Optimizing for this use case entails some tr
 8.  No one point is too important.
     Pro:InfluxDB has very powerful tools to deal with aggregate data and large data sets.
     Con:Points don't have IDs in the traditional sense, they are differentiated by timestamp and series.
-<https://docs.influxdata.com/influxdb/v1.7/concepts/insights_tradeoffs/>
+<https://docs.influxdata.com/influxdb/v1.7/concepts/insights_tradeoffs>
 # InfluxDB schema design and data layouts
 
 Every InfluxDB use case is special and your[schema](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#schema)will reflect that uniqueness. There are, however, general guidelines to follow and pitfalls to avoid when designing your schema.
@@ -69,7 +69,7 @@ Every InfluxDB use case is special and your[schema](https://docs.influxdata.com/
 3.  Discouraged Schema Design
 
 4.  Shard Group Duration Management
-<https://docs.influxdata.com/influxdb/v1.7/concepts/schema_and_data_layout/>
+<https://docs.influxdata.com/influxdb/v1.7/concepts/schema_and_data_layout>
 **Basic Concepts**
 
 1.  Measurement
@@ -113,7 +113,7 @@ A series is the most important concept of Influxdb.A series is a combination of 
 
 10. wal (Write Ahead Log)
 ![Architecture Wrtt• WUS.cr Pod UI Slote Noes OȘCt ](media/InfluxDB-image1.png)[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
-TICK Stack (<https://www.influxdata.com/time-series-platform/>)
+TICK Stack (<https://www.influxdata.com/time-series-platform>)
 
 a.  Telegraf
 

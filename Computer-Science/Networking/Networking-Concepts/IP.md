@@ -80,7 +80,7 @@ IP Address Management (IPAM) is an integrated suite of tools to enable end-to-en
 | Decimal ip notation - ping 167772673 | 10.0.2.1              |
 | Hex ip notation - ping 0xA000201     | 10.0.2.1              |
 | Octal ip notation - ping 10.0.2.010  | 10.0.2.8              |
-<https://ma.ttias.be/theres-more-than-one-way-to-write-an-ip-address/>
+<https://ma.ttias.be/theres-more-than-one-way-to-write-an-ip-address>
 **References**
 
 <https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking>

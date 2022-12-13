@@ -7,11 +7,11 @@ Modified: 2022-01-05 23:09:26 +0500
 ---
 
 **Website Performance Testing Tools**
--   <https://gtmetrix.com/>
+-   <https://gtmetrix.com>
 -   LightHouse
--   <https://www.browserstack.com/>
--   <https://www.sitespeed.io/>
--   <https://estimator.dev/>
+-   <https://www.browserstack.com>
+-   <https://www.sitespeed.io>
+-   <https://estimator.dev>
 **Bash - add artificial load to the CPU**
 
 while true; do i=0; done
@@ -92,19 +92,19 @@ wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <https://facebook.com>-   **Apache
 
 **brew install apache2**
 
-ab -c 50 -n 500 -s 90 <http://www.stashfin.com/>
+ab -c 50 -n 500 -s 90 <http://www.stashfin.com>
 
-ab -c 50 -n 500 -s 90 <http://stashfin-website.staging/>
+ab -c 50 -n 500 -s 90 <http://stashfin-website.staging>
 
-ab -c 100 -n 500 -s 90 <http://stashfin-website.staging/> (Success)
+ab -c 100 -n 500 -s 90 <http://stashfin-website.staging> (Success)
 
-ab -c 500 -n 5000 -s 90 <http://stashfin-website.staging/> (Fail)
+ab -c 500 -n 5000 -s 90 <http://stashfin-website.staging> (Fail)
 
-ab -c 500 -n 5000 -s 90 <http://bigbet-nlb-7ac1185001d91c31.elb.us-west-2.amazonaws.com/>
+ab -c 500 -n 5000 -s 90 <http://bigbet-nlb-7ac1185001d91c31.elb.us-west-2.amazonaws.com>
 
 **ab -c 500 -n 5000 -s 90 [URL]**
 
-**ab -c 500 -n 500 -s 90** <https://freefincal.com/used-car-vs-new-car-which-is-a-better-buy/>
+**ab -c 500 -n 500 -s 90** <https://freefincal.com/used-car-vs-new-car-which-is-a-better-buy>
 
 ab -c 50 -n 5000 -s 90 -p data.json -T application/json -rk <https://staff.lendenclub.com/core/lender_app/prospect/verify>
 **ab**[ -**A***auth-username*:*password*] [ -**b***windowsize*] [ -**B***local-address*] [ **-c*concurrency***] [ -**C***cookie-name*=*value*] [ -**d**] [ -**e***csv-file*] [ -**E***client-certificate file*] [ -**f***protocol*] [ -**g***gnuplot-file*] [ -**h**] [ -**H***custom-header*] [ -**i**] [ -**k**] [ -**l**] [ -**m***HTTP-method*] [ -**n*****requests***] [ -**p***POST-file*] [ -**P***proxy-auth-username*:*password*] [ -**q**] [ -**r**] [ -**s*****timeout***] [ -**S**] [ -**t***timelimit*] [ -**T***content-type*] [ -**u***PUT-file*] [ -**v***verbosity*] [ -**V**] [ -**w**] [ -**x***<table>-attributes*] [ -**X***proxy*[:*port*] ] [ -**y***<tr>-attributes*] [ -**z***<td>-attributes*] [ -**Z***ciphersuite*] [http[s]://]*hostname*[:*port*]/*path*
@@ -118,7 +118,7 @@ apt-get install -y siege
 siege -c2 -t2m [URL]-   hey / boom
 
 hey <https://dev.stashfin.com>
-<https://github.com/rakyll/hey>-   <https://k6.io/>
+<https://github.com/rakyll/hey>-   <https://k6.io>
 
 Open source load testing tool and SaaS for engineering teams-   [**https://fortio.org/**](https://fortio.org/)
 
@@ -136,7 +136,7 @@ Fortio runs at a specified query per second (qps) and records an histogram of ex
 <https://github.com/blueperf>
 **References**
 
-<https://www.testingexcellence.com/top-10-open-source-performance-testing-tools/>
+<https://www.testingexcellence.com/top-10-open-source-performance-testing-tools>
 **Locust**
 
 Locust is an easy-to-use, distributed, user load testing tool. It is intended for load-testing websites (or other systems) and figuring out how many concurrent users a system can handle.
@@ -166,7 +166,7 @@ locust -f mqttClient.py --no-web -c 2 -r 1
 **Dashboard**
 
 localhost:8089
-<https://locust.io/>
+<https://locust.io>
 
 <https://docs.locust.io/en/stable/quickstart.html>
 
@@ -227,4 +227,4 @@ Subscribe
 -   Lambdatest
 **Others**
 
-<https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3/>
+<https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3>

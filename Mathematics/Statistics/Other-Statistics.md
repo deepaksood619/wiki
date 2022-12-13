@@ -102,8 +102,8 @@ The Lorenz curve is a graphical representation of[income inequality](https://www
 Rank order items are analyzed using[Spearman](http://changingminds.org/explanations/research/analysis/spearman.htm)or[Kendall](http://changingminds.org/explanations/research/analysis/kendall.htm)correlation.
 **Statistical Power**
 
-<https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python/>
+<https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python>
 **Effect Size**
 
-<https://machinelearningmastery.com/effect-size-measures-in-python/>
+<https://machinelearningmastery.com/effect-size-measures-in-python>
 

@@ -99,6 +99,6 @@ new_node = BinaryTree(value)
 new_node.right_child = self.right_child
 
 self.right_child = new_node
-<https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties/>
+<https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties>
 
-<https://www.freecodecamp.org/news/how-to-implement-binary-tree-algorithms-in-technical-interviews/>
+<https://www.freecodecamp.org/news/how-to-implement-binary-tree-algorithms-in-technical-interviews>

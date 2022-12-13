@@ -64,9 +64,9 @@ Unix time(also known asEpoch time,POSIX time,seconds since the Epoch,orUNIX Epoc
 It should also be pointed out that this point in time technically does not change no matter where you are located on the globe. This is very useful to computer systems for tracking and sorting dated information in dynamic and distributed applications both online and client side. The reason why Unix timestamps are used by many webmasters is because they can represent all time zones at once.
 <https://www.wikiwand.com/en/Unix_time>
 
-<https://www.epochconverter.com/>
+<https://www.epochconverter.com>
 
-<https://everytimezone.com/>
+<https://everytimezone.com>
 **Time - ISO 8601**
 
 ISO 8601Data elements and interchange formats -- Information interchange -- Representation of dates and times is an[international standard](https://en.wikipedia.org/wiki/International_standard)covering the exchange of[date](https://en.wikipedia.org/wiki/Calendar_date)- and[time](https://en.wikipedia.org/wiki/Time)-related data. It was issued by the [International Organization for Standardization](https://en.wikipedia.org/wiki/International_Organization_for_Standardization) (ISO) and was first published in 1988. The purpose of this standard is to provide an unambiguous and well-defined method of representing dates and times, so as to avoid misinterpretation of numeric representations of dates and times, particularly when data is transferred between [countries with different conventions](https://en.wikipedia.org/wiki/Date_and_time_notation_by_country) for writing numeric dates and times.
@@ -110,7 +110,7 @@ Solution - python 7.py
 
 [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
 <https://www.youtube.com/watch?v=0vPt7GI-2kc>
-<https://blog.codinghorror.com/new-programming-jargon/>
+<https://blog.codinghorror.com/new-programming-jargon>
 **Typosquatting**
 
 <https://medium.com/@williambengtson/python-typosquatting-for-fun-not-profit-99869579c35d>

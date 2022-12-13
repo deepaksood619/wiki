@@ -37,7 +37,7 @@ There are three types of sequence files:
 Amazon Ionis a[richly-typed](http://amzn.github.io/ion-docs/guides/why.html#rich-type-system),[self-describing](http://amzn.github.io/ion-docs/guides/why.html#self-describing), hierarchical data serialization format offering[interchangeable binary and text](http://amzn.github.io/ion-docs/guides/why.html#dual-format-interoperability)representations. The[text format](http://amzn.github.io/ion-docs/docs/spec.html)(a superset of[JSON](http://json.org/)) is easy to read and author, supporting rapid prototyping. The[binary representation](http://amzn.github.io/ion-docs/docs/binary.html)is[efficient to store, transmit, and skip-scan parse](http://amzn.github.io/ion-docs/guides/why.html#read-optimized-binary-format). The rich type system provides unambiguous semantics for long-term preservation of data which can survive multiple generations of software evolution.
 Ion was built to address rapid development, decoupling, and efficiency challenges faced every day while engineering large-scale, service-oriented architectures. It has been addressing these challenges within Amazon for nearly a decade, and we believe others will benefit as well.
 The Ion text format is a superset of JSON; thus, any valid JSON document is also a valid Ion document.
-<http://amzn.github.io/ion-docs/>
+<http://amzn.github.io/ion-docs>
 
 <http://amzn.github.io/ion-docs/docs/spec.html>
 **File Format Benchmarks - Avro, JSON, ORC, Parquet**
@@ -159,7 +159,7 @@ Parquet
 -   If your use case needs column projection or predicate push down use ORC or Parquet
 -   For complex tables with common strings - Avro with Snappy is a good fit (w/o projection)
 -   For other tables - ORC with Zlib or Snappy is a good fit
-**Key conclusions -** <https://eng.uber.com/trip-data-squeeze-json-encoding-compression/>
+**Key conclusions -** <https://eng.uber.com/trip-data-squeeze-json-encoding-compression>
 
 1.  Simply compressing JSON with zlib would yield a reasonable tradeoff in size and speed. The result would be just a little bigger, but execution was much faster than using BZ2 on JSON.
 
@@ -247,9 +247,9 @@ HDF5®allows you to keep the metadata with the data, streamlining data lifecycle
 
 [**https://docs.h5py.org/en/stable/**](https://docs.h5py.org/en/stable/)
 
-<https://www.hdfgroup.org/>
+<https://www.hdfgroup.org>
 
-<https://www.geeksforgeeks.org/hdf5-files-in-python/>
+<https://www.geeksforgeeks.org/hdf5-files-in-python>
 [**https://realpython.com/storing-images-in-python/**](https://realpython.com/storing-images-in-python/)
 
 [**https://github.com/realpython/materials/blob/storing-images/storing-images/storing_images.ipynb**](https://github.com/realpython/materials/blob/storing-images/storing-images/storing_images.ipynb)

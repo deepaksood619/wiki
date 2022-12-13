@@ -35,4 +35,4 @@ Chronograf is the user interface component of InfluxData's[TICK Stack](https://w
 
 Kapacitor is a native data processing engine in the[TICK Stack](https://www.influxdata.com/time-series-platform/). It can process both stream and batch data from InfluxDB. It lets you plug in your own custom logic or user-defined functions to process alerts with dynamic thresholds, match metrics for patterns, compute statistical anomalies, and perform specific actions based on these alerts like dynamic load rebalancing. It also integrates with HipChat, OpsGenie, Alerta, Sensu, PagerDuty, Slack, and[more](https://www.influxdata.com/products/integrations/).**References**
 
-<https://www.influxdata.com/products/>
+<https://www.influxdata.com/products>

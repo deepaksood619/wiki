@@ -34,7 +34,7 @@ Code Coverage = (Number of lines of code exercised)/(Total Number of lines of co
 -   **Branch coverage**
 -   Modified condition/decision coverage
 Knowing the percentage of code that is covered by tests, can help developers assess the quality of their test cases and help them add missing tests and thereby find and remove software faults
-<https://codecov.io/>
+<https://codecov.io>
 **Lint / Linting / Linter**
 
 Lint (In computer programming, lint is a Unix utility that flags some suspicious and non-portable constructs (likely to be bugs) in C language source code; generically, lint or a linter is any tool that flags suspicious usage in software written in any computer language.)
@@ -45,7 +45,7 @@ Lint (In computer programming, lint is a Unix utility that flags some suspicious
 -   Providing suggestions for common best practices
 -   Keeping track of TODO's and FIXME's
 -   Keeping a consistent code style
-<https://www.freecodecamp.org/news/dont-just-lint-your-code-fix-it-with-prettier/>
+<https://www.freecodecamp.org/news/dont-just-lint-your-code-fix-it-with-prettier>
 Code Validator / Linter / Analysis - [https://deepsource.io](https://deepsource.io/)
 **Application Inspector**
 
@@ -59,10 +59,10 @@ SonarQube(formerlySonar)is an[open-source](https://en.wikipedia.org/wiki/Open-so
 SonarQube can record metrics history and provides evolution graphs. SonarQube provides fully automated analysis and integration with[Maven](https://en.wikipedia.org/wiki/Apache_Maven),[Ant](https://en.wikipedia.org/wiki/Apache_Ant),[Gradle](https://en.wikipedia.org/wiki/Gradle),[MSBuild](https://en.wikipedia.org/wiki/MSBuild)and[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)tools ([Atlassian Bamboo](https://en.wikipedia.org/wiki/Bamboo_(software)),[Jenkins](https://en.wikipedia.org/wiki/Jenkins_(software)),[Hudson](https://en.wikipedia.org/wiki/Hudson_(software)), etc.).
 <https://en.wikipedia.org/wiki/SonarQube>
 
-<https://www.sonarqube.org/>
+<https://www.sonarqube.org>
 **AI Autocomplete & Assistant**
 -   Kite
--   <https://www.tabnine.com/>
+-   <https://www.tabnine.com>
 **Other Tools**
 -   CodeScene
 -   <https://github.com/adamtornhill/code-maat>
@@ -70,8 +70,8 @@ SonarQube can record metrics history and provides evolution graphs. SonarQube pr
 
 <https://github.com/codeclimate/codeclimate>
 
-<https://codeclimate.com/>
+<https://codeclimate.com>
 -   Sourcegraph
 
-<https://about.sourcegraph.com/>
--   <https://www.jetbrains.com/qodana/>
+<https://about.sourcegraph.com>
+-   <https://www.jetbrains.com/qodana>

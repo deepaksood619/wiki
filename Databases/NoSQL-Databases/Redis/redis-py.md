@@ -97,11 +97,11 @@ Returns the type of keyname
 **Sentinel**
 
 redis-py can be used together with[Redis Sentinel](https://redis.io/topics/sentinel)to discover Redis nodes. You need to have at least one Sentinel daemon running in order to use redis-py's Sentinel support.
-<https://redis-py.readthedocs.io/en/latest/>
+<https://redis-py.readthedocs.io/en/latest>
 
-<https://realpython.com/python-redis/>
+<https://realpython.com/python-redis>
 
-<https://pypi.org/project/redis/>
+<https://pypi.org/project/redis>
 
 <https://github.com/andymccurdy/redis-py>
 **# purge queue**
@@ -117,4 +117,4 @@ redis_client.xack('send:offer_sms', 'offer_sms_consumer', i['message_id'])
 
 <https://github.com/redis/redis-om-python>
 
-<https://redis.com/blog/introducing-redis-om-client-libraries/>
+<https://redis.com/blog/introducing-redis-om-client-libraries>

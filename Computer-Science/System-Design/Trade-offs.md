@@ -57,4 +57,4 @@ Visualisation
 <https://medium.com/kudos-engineering/choosing-the-elastic-stack-as-a-time-series-database-9fac202c53ba>
 **TSDB**
 
-<https://outlyer.com/blog/top10-open-source-time-series-databases/>
+<https://outlyer.com/blog/top10-open-source-time-series-databases>

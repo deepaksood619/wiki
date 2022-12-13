@@ -52,7 +52,7 @@ $$ LANGUAGE plpythonu;
 -   in-memory caching
 -   full text search
 
-<https://rob.conery.io/2019/10/29/fine-tuning-full-text-search-with-postgresql-12/>
+<https://rob.conery.io/2019/10/29/fine-tuning-full-text-search-with-postgresql-12>
 -   specialized indexing
 -   key-value storage
 -   Partial indexes
@@ -88,7 +88,7 @@ used for geospatial data manipulation and running location queries in SQL
 
 4.  **pg_timetable - Advanced postgres job scheduling**
 
-<https://www.cybertec-postgresql.com/en/pg_timetable-advanced-postgresql-job-scheduling/>
+<https://www.cybertec-postgresql.com/en/pg_timetable-advanced-postgresql-job-scheduling>
 SELECT * FROM pg_available_extensions;
 | tablefunc          | functions that manipulate whole tables, including crosstab           |
 |-------------------|-----------------------------------------------------|
@@ -149,7 +149,7 @@ A bloom index is perfect for multi-column queries on big tables where you only n
 -   [GIN and GiST indexes](https://www.postgresql.org/docs/11/textsearch-indexes.html)
 
 Use a GIN or GiST index for efficient indexes based on composite values like text, arrays, and JSON.
-<https://habr.com/en/company/postgrespro/blog/448746/>
+<https://habr.com/en/company/postgrespro/blog/448746>
 **pgagroal**
 
 pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](https://www.postgresql.org/).
@@ -239,12 +239,12 @@ This is used to enforce that commit will wait for WAL to be written on disk befo
 
 PostgreSQL writes changes into WAL. The checkpoint process flushes the data into the data files. This activity is done when CHECKPOINT occurs. This is an expensive operation and can cause a huge amount of IO. This whole process involves expensive disk read/write operations. Users can always issue CHECKPOINT whenever it seems necessary or automate the system by PostgreSQL's parameterscheckpoint_timeoutandcheckpoint_completion_target.
 The checkpoint_timeout parameter is used to set time between WAL checkpoints. Setting this too low decreases crash recovery time, as more data is written to disk, but it hurts performance too since every checkpoint ends up consuming valuable system resources. The checkpoint_completion_target is the fraction of time between checkpoints for checkpoint completion. A high frequency of checkpoints can impact performance. For smooth checkpointing,checkpoint_timeoutmust be a low value. Otherwise the OS will accumulate all the dirty pages until the ratio is met and then go for a big flush.
-<https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance/>
+<https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance>
 
-<https://postgresqlco.nf/en/doc/param/>
+<https://postgresqlco.nf/en/doc/param>
 **Caching**
 
-<https://madusudanan.com/blog/understanding-postgres-caching-in-depth/>
+<https://madusudanan.com/blog/understanding-postgres-caching-in-depth>
 **Database Physical Storage**
 
 <https://www.postgresql.org/docs/current/storage.html>
@@ -258,20 +258,20 @@ Many powerful features are included in pgBackRest, including parallel backup and
 [**https://www.kubegres.io/**](https://www.kubegres.io/)
 **Advanced**
 
-Low level working - <https://erthalion.info/2019/12/06/postgresql-stay-curious/>
+Low level working - <https://erthalion.info/2019/12/06/postgresql-stay-curious>
 
 Locking Tuples internals - <https://github.com/postgres/postgres/blob/master/src/backend/access/heap/README.tuplock>
 
 Youtube - [Breaking PostgreSQL at Scale --- Christophe Pettus](https://www.youtube.com/watch?v=XUkTUMZRBE8)
 **Configuration**
 
-<https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services/>
+<https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services>
 **Tools**
 
 **pgadmin**
 **References**
 
-<http://www.postgresqltutorial.com/>
+<http://www.postgresqltutorial.com>
 
 <https://dev.to/digitalocean/-an-introduction-to-queries-in-postgresql-44la>
 
@@ -281,7 +281,7 @@ SE Radio - 328: Postgres Query Planner (Robert Blumen with Bruce Momjian)
 
 <https://dev.to/heroku/postgres-is-underrated-it-handles-more-than-you-think-4ff3>
 
-<https://sql-performance-explained.com/>
+<https://sql-performance-explained.com>
 
 <https://wiki.postgresql.org/wiki/Don%27t_Do_This>
 
@@ -289,4 +289,4 @@ SE Radio - 328: Postgres Query Planner (Robert Blumen with Bruce Momjian)
 
 [PostgreSQL Tutorials](https://www.youtube.com/playlist?list=PLdTaEgcmPg9KiTCPWh-K961tiZrvhgfFu)
 
-<https://zerodha.tech/blog/working-with-postgresql/>
+<https://zerodha.tech/blog/working-with-postgresql>

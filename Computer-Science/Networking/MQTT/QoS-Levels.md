@@ -87,5 +87,5 @@ The packet identifier that MQTT uses for QoS 1 and QoS 2 is unique between a spe
 All messages sent with QoS 1 and 2 are queued for offline clients until the client is available again. However, this queuing is only possible if the client has a[persistent session](https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages/).
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/>
+<https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels>
 

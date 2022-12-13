@@ -121,4 +121,4 @@ typically contain slowly changing attributes of specific entities, and attribute
 | It is used for analysis purpose and decision making.                       | While the main task of dimension table is to store the information about a business and its process. |
 <https://www.guru99.com/data-warehouse-architecture.html>
 
-<https://www.geeksforgeeks.org/difference-between-fact-table-and-dimension-table/>
+<https://www.geeksforgeeks.org/difference-between-fact-table-and-dimension-table>

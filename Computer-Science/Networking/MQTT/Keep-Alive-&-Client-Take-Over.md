@@ -47,4 +47,4 @@ When the broker receives a PINGREQ packet, the broker must reply with a PINGRESP
 Usually, a disconnected client tries to reconnect. Sometimes, the broker still has an half-open connection for the client. In MQTT, if the broker detects a half-open connection, it performs a 'client take-over'.The broker closes the previous connection to the same client (determined by the client identifier), and establishes a new connection with the client.This behavior ensures that the half-open connection does not stop the disconnected client from re-establishing a connection.
 **References**
 
-<https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over/>
+<https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over>

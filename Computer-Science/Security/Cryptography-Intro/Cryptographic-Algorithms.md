@@ -53,7 +53,7 @@ Fernet is a symmetric encryption method which makes sure that the message encryp
 
 <https://medium.com/coinmonks/if-youre-struggling-picking-a-crypto-suite-fernet-may-be-the-answer-95196c0fec4b>
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
-<https://cryptography.io/en/latest/fernet/>
+<https://cryptography.io/en/latest/fernet>
 **Galois/Counter Mode (GCM)**
 
 In[cryptography](https://en.wikipedia.org/wiki/Cryptography),Galois/Counter Mode(GCM) is a[mode of operation](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)for symmetric-key cryptographic[block ciphers](https://en.wikipedia.org/wiki/Block_cipher)which is widely adopted for its performance. GCM throughput rates for state-of-the-art, high-speed communication channels can be achieved with inexpensive hardware resources.The operation is an[authenticated encryption](https://en.wikipedia.org/wiki/Authenticated_encryption)algorithm designed to provide both data authenticity (integrity) and confidentiality. GCM is defined for block ciphers with a block size of 128 bits.Galois Message Authentication Code(GMAC) is an authentication-only variant of the GCM which can form an incremental message authentication code. Both GCM and GMAC can accept initialization vectors of arbitrary length.

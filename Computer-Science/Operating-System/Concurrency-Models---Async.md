@@ -37,5 +37,5 @@ Compared to the synchronous model, the asynchronous model performs best when:
 3.  The tasks are largely independent from one another so there is little need for inter-task communication (and thus for one task to wait upon another).
 **References**
 
-<http://krondo.com/in-which-we-begin-at-the-beginning/>
+<http://krondo.com/in-which-we-begin-at-the-beginning>
 

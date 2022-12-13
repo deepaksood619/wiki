@@ -85,7 +85,7 @@ A Minimal Thread Device does not subscribe to multicast traffic and forwards all
 An MTD can only operate as an End Device (Child).
 ![OT Device Taxonomy](media/OpenThread-image2.png)**References**
 
-<https://openthread.io/>
+<https://openthread.io>
 
 <https://openthread.io/guides/thread-primer>
 

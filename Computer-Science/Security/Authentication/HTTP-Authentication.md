@@ -55,10 +55,10 @@ In a digest authentication flow, the client sends a request to a server, which s
 
 <https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication>
 
-<http://docs.python-requests.org/en/master/user/authentication/>
+<http://docs.python-requests.org/en/master/user/authentication>
 
 <http://qnimate.com/understanding-http-authentication-in-depth/#Basic_Authentication>
-<https://nullsweep.com/http-security-headers-a-complete-guide/>
+<https://nullsweep.com/http-security-headers-a-complete-guide>
 
-<https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis/>
+<https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis>
 

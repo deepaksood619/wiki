@@ -32,4 +32,4 @@ The second technique uses multiple partitions at any given time to fan out inser
 <https://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html>
 **Others**
 
-<https://shermandigital.com/blog/designing-a-cassandra-data-model/>
+<https://shermandigital.com/blog/designing-a-cassandra-data-model>

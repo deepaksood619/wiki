@@ -40,7 +40,7 @@ Replicated write capacity unit (rWCU)-   One**read capacity unit**represents one
 ![ATTRIBUTES PARTITION KEY Mandatory Key-value access pattern Determines data distribution TABLE SORT KEY Optional Model 1 relationships Enables rich query capabilities TABLE ITEMS All items for key "begins with" "between" "contains" "in" sorted results counts top/bottom N values ](media/AWS-DynamoDB_Working-image1.png)-   Secondary Indexes
     -   Local secondary indexes
     -   Global secondary indexes (asynchronous)
-<https://aws.amazon.com/dynamodb/pricing/provisioned/>
+<https://aws.amazon.com/dynamodb/pricing/provisioned>
 **NoSQL Data Modeling**
 -   Normalized vs De-normalized schema
 **Common NoSQL Design Patterns**

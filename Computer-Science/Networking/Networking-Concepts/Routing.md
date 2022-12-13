@@ -71,7 +71,7 @@ The Quagga architecture consists of a core daemon,zebra, which acts as an abstra
 | bgpd  |       | - BGPv4+ (including address family support for multicast and IPv6) |
 | isisd |       | - IS-IS with support for IPv4 and IPv6                             |
 Quagga daemons are each configurable via a network accessible CLI (called a 'vty'). The CLI follows a style similar to that of other routing software. There is an additional tool included with Quagga called 'vtysh', which acts as a single cohesive front-end to all the daemons, allowing one to administer nearly all aspects of the various Quagga daemons in one place.
-<https://www.quagga.net/>
+<https://www.quagga.net>
 **Administrative Distance**
 
 Administrative distance (AD)orroute preferenceis a number of[arbitrary unit](https://en.wikipedia.org/wiki/Arbitrary_unit)assigned to[dynamic routes](https://en.wikipedia.org/wiki/Dynamic_route),[static routes](https://en.wikipedia.org/wiki/Static_route)and directly-connected routes. The value is used in[routers](https://en.wikipedia.org/wiki/Router_(computing))to rank routes from most preferred (low administrative distance value) to least preferred (high administrative distance value).When multiple paths to the same destination are available in its[routing table](https://en.wikipedia.org/wiki/Routing_table), the router uses the route with the lowest administrative distance.

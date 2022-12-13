@@ -22,7 +22,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 3.  Client
 ![NETFLIXS stem desi n software architecture for netflix NET FL IX / TochDummios Narondra L NAREN.LGOgmail.oorn OpenConnect 0 4:20/ 51:25 Mecno scnv•ces EVENT ](media/System-Design---Others-image3.png)
-<https://www.linkedin.com/pulse/system-design-netflix-narendra-l/>
+<https://www.linkedin.com/pulse/system-design-netflix-narendra-l>
 
 <https://netflixtechblog.com/netflixs-viewing-data-how-we-know-where-you-are-in-house-of-cards-608dd61077da>
 

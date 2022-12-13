@@ -86,10 +86,10 @@ We recommend thesliding windowapproach because it gives the flexibility to scale
 It is used to identify elements in a data stream whose frequency count exceeds a user-given threshold.
 
 𝙐𝙨𝙚 𝙘𝙖𝙨𝙚: Frequency count over the data streams.
-<https://konghq.com/blog/how-to-design-a-scalable-rate-limiting-algorithm/>
+<https://konghq.com/blog/how-to-design-a-scalable-rate-limiting-algorithm>
 
-<https://blog.cloudflare.com/counting-things-a-lot-of-different-things/>
+<https://blog.cloudflare.com/counting-things-a-lot-of-different-things>
 
-<https://www.figma.com/blog/an-alternative-approach-to-rate-limiting/>
+<https://www.figma.com/blog/an-alternative-approach-to-rate-limiting>
 
 **Youtube - [Rate Limiting system design | TOKEN BUCKET, Leaky Bucket, Sliding Logs](https://www.youtube.com/watch?v=mhUQe4BKZXs)**

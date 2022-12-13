@@ -26,4 +26,4 @@ Molecular Visualization System
 
 <https://www.youtube.com/watch?v=jBlTQjcKuaY>
 
-<https://www.freecodecamp.org/news/python-for-bioinformatics-use-machine-learning-and-data-analysis-for-drug-discovery/>
+<https://www.freecodecamp.org/news/python-for-bioinformatics-use-machine-learning-and-data-analysis-for-drug-discovery>

@@ -66,13 +66,13 @@ Introduced the concept of HTTP "streams": an abstraction that allows HTTP implem
 
 Privacy, Integrity and Identification
 
-<https://howhttps.works/why-do-we-need-https/>
+<https://howhttps.works/why-do-we-need-https>
 
-<https://howhttps.works/the-handshake/>
+<https://howhttps.works/the-handshake>
 **Https vs TLS (Transport Layer Security) vs SSL (Secure Sockets Layer)**
 
 HTTP is the protocol used by your browser and web servers to communicate and exchange information. When that exchange of data is encrypted with SSL/TLS, then we call it HTTPS. The "S" stands for "Secure". SSL is the predecessor to TLS.
-<https://howhttps.works/https-ssl-tls-differences/>
+<https://howhttps.works/https-ssl-tls-differences>
 **TLS (Tranport Layer Security)**
 
 Transport Layer Security(TLS), and its now-deprecated predecessor,Secure Sockets Layer(SSL),are[cryptographic protocols](https://en.wikipedia.org/wiki/Cryptographic_protocol)designed to provide[communications security](https://en.wikipedia.org/wiki/Communications_security)over a[computer network](https://en.wikipedia.org/wiki/Computer_network).Several versions of the protocols find widespread use in applications such as[web browsing](https://en.wikipedia.org/wiki/Web_navigation),[email](https://en.wikipedia.org/wiki/Email),[instant messaging](https://en.wikipedia.org/wiki/Instant_messaging), and[voice over IP](https://en.wikipedia.org/wiki/Voice_over_IP)(VoIP).[Websites](https://en.wikipedia.org/wiki/Website)can use TLS to secure all communications between their[servers](https://en.wikipedia.org/wiki/Server_(computing))and[web browsers](https://en.wikipedia.org/wiki/Web_browser).
@@ -121,9 +121,9 @@ When you submit a form, what request method does your browser use?
 -   The default is POST, but you can use < form method = "GET" > to send a GET request
 -   POST puts the form data in the request body
 -   GET puts the data in the URL.
-HTTP2.0 Demo - <http://www.http2demo.io/>
+HTTP2.0 Demo - <http://www.http2demo.io>
 
-<https://www.code-maze.com/http-series-part-1/>
+<https://www.code-maze.com/http-series-part-1>
 
 [The Journey of an HTTP request to the Backend | Backend Engineering Show](https://youtu.be/K2qV6VpfR7I)
 

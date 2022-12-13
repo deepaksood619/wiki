@@ -250,7 +250,7 @@ responses.add(
 
 responses.GET,
 
-"<http://ip.jsontest.com/>",
+"<http://ip.jsontest.com>",
 
 json={"ip": "123.456.789.0"},
 
@@ -331,7 +331,7 @@ For any system you integrate with via HTTP or HTTPS MockServer can be used as:
 -   a[mock](https://www.mock-server.com/mock_server/getting_started.html)configured to return specific responses for different requests
 -   a[proxy](https://www.mock-server.com/proxy/getting_started.html)recording and optionally modifying requests and responses
 -   both a[proxy](https://www.mock-server.com/proxy/getting_started.html)for some requests and a[mock](https://www.mock-server.com/mock_server/getting_started.html)for other requests at the same time
-<https://www.mock-server.com/>
+<https://www.mock-server.com>
 
 <https://github.com/mock-server/mockserver>
 If you want to learn more about the default mocks, have a look at the awesome article by Yeray Diaz:[What the mock? --- A cheatsheet for mocking in Python](https://medium.com/@yeraydiazdiaz/what-the-mock-cheatsheet-mocking-in-python-6a71db997832).

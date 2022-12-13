@@ -8,11 +8,11 @@ Modified: 2022-08-18 15:27:11 +0500
 
 **Tools**
 -   **Zoom**
--   <https://meet.jit.si/>
--   <https://jitsi.org/>
+-   <https://meet.jit.si>
+-   <https://jitsi.org>
 -   Google Meet
 -   Skype
--   <https://goodmeetings.ai/>
+-   <https://goodmeetings.ai>
 RTMP - Real-Time Messaging Protocol
 
 <https://github.com/facebookincubator/rtmp-go-away>
@@ -38,7 +38,7 @@ MPEG-DASH - Dynamic Adaptive Streaming over HTTP
 -   What is my public IP address (because of NAT)
 -   NAT Hole punching
 -   A server that is publicly available on internet and that server will respond with your public ip and port that you requested with.
--   Google/Twilio hosts STUN server / CoTurn/ Xirsys (<https://xirsys.com/>)
+-   Google/Twilio hosts STUN server / CoTurn/ Xirsys (<https://xirsys.com>)
 
 **TURN - Traversal Using Relay around NAT**
 -   Provide a cloud fallback if peer-to-peer communication fails
@@ -69,13 +69,13 @@ FFMPEG stitching multiple files into one
 
 <https://www.wowza.com/docs/tutorials>
 
-<http://red5.org/>
+<http://red5.org>
 
 <https://www.wowza.com/docs/how-to-publish-a-video-file-as-a-live-stream>
 <https://s3-ap-southeast-1.amazonaws.com/shivamzenatix/Test-Deepak/demo.mp4>
-<https://aws.amazon.com/cloudfront/streaming/>
+<https://aws.amazon.com/cloudfront/streaming>
 
-<https://aws.amazon.com/answers/media-entertainment/live-streaming/>
+<https://aws.amazon.com/answers/media-entertainment/live-streaming>
 <https://trac.ffmpeg.org/wiki/Map>
 
 <https://trac.ffmpeg.org/wiki/StreamingGuide>
