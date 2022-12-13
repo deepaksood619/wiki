@@ -24,7 +24,7 @@ Indexing is a way to optimize the performance of a database by minimizing the nu
 -   The first column is the**Search key**that contains a copy of the primary key or candidate key of the table. These values are stored in sorted order so that the corresponding data can be accessed quickly.
     Note: The data may or may not be stored in sorted order.-   The second column is the**Data ReferenceorPointer**which contains a set of pointers holding the address of the disk block where that particular key value can be found.
 
-![Structure of an Index in Database Search Key Key Data Reference Value A single index ](media/Indexing-image1.jpeg){width="5.583333333333333in" height="3.4375in"}
+![Structure of an Index in Database Search Key Key Data Reference Value A single index ](media/Indexing-image1.jpeg)
 
 The indexing has various attributes:
 -   **Access Types:** This refers to the type of access such as value based search, range access, etc.
@@ -48,14 +48,14 @@ In general, there are two types of file organization mechanism which are followe
         -   For every search key value in the data file, there is an index record.
         -   This record contains the search key and also a reference to the first data record with that search key value.
 
-![Dense Index c D c D Data File For every search value in a Data File, There is an Index Record. Hence the name Dense Index. Index Record ](media/Indexing-image2.jpeg){width="5.635416666666667in" height="3.46875in"}
+![Dense Index c D c D Data File For every search value in a Data File, There is an Index Record. Hence the name Dense Index. Index Record ](media/Indexing-image2.jpeg)
 -   **Sparse Index:**
     -   In sparse index, index records are not created for every search key. An index record here contains a search key and an actual pointer to the data on the disk. To search a record, we first proceed by index record and reach at the actual location of the data. If the data we are looking for is not where we directly reach by following the index, then the system starts sequential search until the desired data is found.
     -   The index record appears only for a few items in the data file. Each item points to a block as shown.
     -   To locate a record, we find the index record with the largest search key value less than or equal to the search key value we are looking for.
     -   We start at that record pointed to by the index record, and proceed along with the pointers in the file (that is, sequentially) until we find the desired record.
 
-![ه يو ـب ك ح د ي ي ق ع ل ى E ، ه ن ة 00 00 00 00 00000000 ](media/Indexing-image3.jpeg){width="5.645833333333333in" height="3.4791666666666665in"}
+![ه يو ـب ك ح د ي ي ق ع ل ى E ، ه ن ة 00 00 00 00 00000000 ](media/Indexing-image3.jpeg)
 
 2.  **Hash File organization:**Indices are based on the values being distributed uniformly across a range of buckets. The buckets to which a value is assigned is determined by a function called a hash function.
 There are primarily three methods of indexing:
@@ -71,7 +71,7 @@ Clustering index is defined on an ordered data file. The data file is ordered on
 
 For example, students studying in each semester are grouped together. i.e. 1stSemester students, 2ndsemester students, 3rdsemester students etc are grouped.
 
-![cluster_index](media/Indexing-image4.png){width="6.4375in" height="2.9479166666666665in"}
+![cluster_index](media/Indexing-image4.png)
 
 Clustered index sorted according to first name (Search key)
 
@@ -82,16 +82,16 @@ This is a type of Clustered Indexing wherein the data is sorted according to the
     A non clustered index just tells us where the data lies, i.e. it gives us a list of virtual pointers or references to the location where the data is actually stored. Data is not physically stored in the order of the index. Instead, data is present in leaf nodes. For eg. the contents page of a book. Each entry gives us the page number or location of the information stored. The actual data here(information on each page of the book) is not organized but we have an ordered reference(contents page) to where the data points actually lie. We can have only dense ordering in the non-clustered index as sparse ordering is not possible because data is not physically organized accordingly.
     It requires more time as compared to the clustered index because some amount of extra work is done in order to extract the data by further following the pointer. In the case of a clustered index, data is directly present in front of the index.
 
-![indexing3](media/Indexing-image5.png){width="6.447916666666667in" height="4.21875in"}
+![indexing3](media/Indexing-image5.png)
 
 3.  **Multilevel Indexing**
     With the growth of the size of the database, indices also grow. As the index is stored in the main memory, a single-level index might become too large a size to store with multiple disk accesses. The multilevel indexing segregates the main block into various smaller blocks so that the same can be stored in a single block. The outer blocks are divided into inner blocks which in turn are pointed to the data blocks. This can be easily stored in the main memory with fewer overheads.
 
-![](media/Indexing-image6.png){width="5.552083333333333in" height="5.46875in"}
+![](media/Indexing-image6.png)
 
 Index records comprise search-key values and data pointers. Multilevel index is stored on the disk along with the actual database files. As the size of the database grows, so does the size of the indices. There is an immense need to keep the index records in the main memory so as to speed up the search operations. If single-level index is used, then a large size index cannot be kept in memory which leads to multiple disk accesses.
 
-![Multi-level Index](media/Indexing-image7.png){width="5.0in" height="5.375in"}
+![Multi-level Index](media/Indexing-image7.png)
 
 Multi-level Index helps in breaking down the index into several smaller indices in order to make the outermost level so small that it can be saved in a single disk block, which can easily be accommodated anywhere in the main memory.
 <https://www.geeksforgeeks.org/indexing-in-databases-set-1/>

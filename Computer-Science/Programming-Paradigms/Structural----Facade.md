@@ -10,12 +10,12 @@ According to[Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns)definit
 Thefacade decouples clients from subinterfaces of our modules. The client uses just one object - the facade, to delegate work to many separated components.The client doesn't have to know the details of our architecture - it is all hidden behind a clean interface of the facade.
 Without Facade
 
-![Facade Pattern](media/Structural----Facade-image1.jpg){width="5.239583333333333in" height="5.552083333333333in"}
+![Facade Pattern](media/Structural----Facade-image1.jpg)
 
 The client knows the elements of module and orchestrates the work.
 With Facade
 
-![Facade Pattern](media/Structural----Facade-image2.jpg){width="5.239583333333333in" height="5.552083333333333in"}
+![Facade Pattern](media/Structural----Facade-image2.jpg)
 
 The client doesn't know anything about subsystem, it communicates with the facade only.
 When to use?

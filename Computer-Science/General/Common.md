@@ -114,7 +114,7 @@ Solution - python 7.py
 **Typosquatting**
 
 <https://medium.com/@williambengtson/python-typosquatting-for-fun-not-profit-99869579c35d>
-**Three-way comparison Operator (SpaceShip Operator <=>)**
+**Three-way comparison Operator (SpaceShip Operator < = >)**
 
 In[computer science](https://www.wikiwand.com/en/Computer_science), athree-way comparisontakes two values A and B belonging to a type with a[total order](https://www.wikiwand.com/en/Total_order)and determines whether A < B, A = B, or A > B in a single operation, in accordance with the mathematical[law of trichotomy](https://www.wikiwand.com/en/Trichotomy_(mathematics)).
 <https://www.wikiwand.com/en/Three-way_comparison>

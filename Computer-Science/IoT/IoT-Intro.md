@@ -86,7 +86,7 @@ Requests from the device looking to gather required information or asking to ini
 4.  **Notifications**
 
 Information flows in one direction from other systems to a device (or a group of devices) for conveying status changes
-![IOT Communication Patterns Telemetry Inquiries a Cloud Commands a Notifications ](media/IoT-Intro-image1.png){width="5.0in" height="2.6041666666666665in"}
+![IOT Communication Patterns Telemetry Inquiries a Cloud Commands a Notifications ](media/IoT-Intro-image1.png)
 **Classifying Device States**
 
 <table>

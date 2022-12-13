@@ -84,7 +84,7 @@ twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight pro
 
 Proxy based Redis cluster solution supporting pipeline and scaling dynamically
 
-![architecture](media/Redis-image1.png){width="5.0in" height="2.4895833333333335in"}
+![architecture](media/Redis-image1.png)
 
 <https://github.com/CodisLabs/codis>
 |                                      | Codis       | Twemproxy   | Redis Cluster                                                               |

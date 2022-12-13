@@ -50,6 +50,6 @@ Optimizations
 1.  Cache in CDN (Content Delivery Networks)
 
 2.  Cache results in Local Machine
-![ii9 ](media/System-Design---Autocomplete-or-TypeAhead-image1.png){width="5.0in" height="4.5in"}
-![DO 0 ](media/System-Design---Autocomplete-or-TypeAhead-image2.png){width="5.0in" height="4.385416666666667in"}
-![Neo プ ャ ](media/System-Design---Autocomplete-or-TypeAhead-image3.png){width="5.0in" height="5.53125in"}
+![ii9 ](media/System-Design---Autocomplete-or-TypeAhead-image1.png)
+![DO 0 ](media/System-Design---Autocomplete-or-TypeAhead-image2.png)
+![Neo プ ャ ](media/System-Design---Autocomplete-or-TypeAhead-image3.png)

@@ -29,12 +29,12 @@ This allows the broker to detect a half-open connection and close the connection
 
 **PINGREQ**
 
-![pingreq](media/Keep-Alive-&-Client-Take-Over-image1.png){width="5.09375in" height="3.03125in"}
+![pingreq](media/Keep-Alive-&-Client-Take-Over-image1.png)
 
 The PINGREQ is sent by the client and indicates to the broker that the client is still alive. If the client does not send any other type of packets (for example, a PUBLISH or SUBSCRIBE packet), the client must send a PINGREQ packet to the broker. The client can send a PINGREQ packet any time it wants to confirm that the network connection is still alive. The PINGREQ packet does not contain a payload.
 **PINGRESP**
 
-![pingresp](media/Keep-Alive-&-Client-Take-Over-image2.png){width="5.09375in" height="3.03125in"}
+![pingresp](media/Keep-Alive-&-Client-Take-Over-image2.png)
 
 When the broker receives a PINGREQ packet, the broker must reply with a PINGRESP packet to show the client that it is still available. The PINGRESP packet also does not contain a payload.
 **Good to Know**

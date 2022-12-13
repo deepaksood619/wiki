@@ -31,7 +31,7 @@ Modified: 2020-01-04 11:38:21 +0500
 -   Drivers intelligently choose which node would best coordinate a request
 -   Per-query basis:
 
-ResultSet results = session.execute("<query>");-   TokenAwarePolicy - driver chooses node which contains the data
+ResultSet results = session.execute("[query]");-   TokenAwarePolicy - driver chooses node which contains the data
 -   RoundRobinPolicy - driver round robins the ring
 -   DCAwareRoundRobinPolicy - driver round robins the target data center
 **Data Placement Strategies**
@@ -55,7 +55,7 @@ Uses the partitioner, of which there are two kinds
 -   Some options:
     -   **SimpleSnitch:** Unaware of Topology (Rack-unaware)
     -   **RackInferring:** Assumes topology of network by octet of server's IP address
-        -   101.102.103.104 = x.<DC octet>.<rack octet>.<node octet>
+        -   101.102.103.104 = x.< DC octet >.< rack octet >.< node octet >
     -   **PropertyFileSnitch:** uses a config file
     -   **EC2Snitch:** uses EC@
         -   EC2 Region = DC

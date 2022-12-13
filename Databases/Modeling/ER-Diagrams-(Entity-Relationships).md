@@ -7,7 +7,7 @@ Modified: 2021-12-02 23:32:42 +0500
 ---
 
 An**entity--relationship model**(or**ER model**) describes interrelated things of interest in a specific domain of knowledge. A basic ER model is composed of entity types (which classify the things of interest) and specifies relationships that can exist between[entities](https://en.wiktionary.org/wiki/entity)(instances of those entity types).
-![AcctName Password LastSignedOn SbscrbrName SbscrbrAddress SbscrbrEMail SbscrbrPhone AcctCreatedOn CreepName HitPoints Mana Attack LastPlayed CreatedOn GharName Level ExpPoints Type n Has MaxHitPoints MaxMana CurrHitPoints CurrMana n 1 Contains Account m Ranlnto n Creep 1 1 IDNum Modifier n IsType Character 1 Carrying Item Instantiation Can-ying 1 Creep Instantiation IDNum n IsType WhenCreated 1 ReqionName Climate Precipitation Foliage Playersln Region ItemName Item Item Type ItemDamage 1 Contains ](media/ER-Diagrams-(Entity-Relationships)-image1.png){width="5.0in" height="4.447916666666667in"}
+![AcctName Password LastSignedOn SbscrbrName SbscrbrAddress SbscrbrEMail SbscrbrPhone AcctCreatedOn CreepName HitPoints Mana Attack LastPlayed CreatedOn GharName Level ExpPoints Type n Has MaxHitPoints MaxMana CurrHitPoints CurrMana n 1 Contains Account m Ranlnto n Creep 1 1 IDNum Modifier n IsType Character 1 Carrying Item Instantiation Can-ying 1 Creep Instantiation IDNum n IsType WhenCreated 1 ReqionName Climate Precipitation Foliage Playersln Region ItemName Item Item Type ItemDamage 1 Contains ](media/ER-Diagrams-(Entity-Relationships)-image1.png)
 
 An entity--relationship diagram for a[MMORPG](https://en.wikipedia.org/wiki/MMORPG)using Chen's notation.
 In[software engineering](https://en.wikipedia.org/wiki/Software_engineering), an ER model is commonly formed to represent things a business needs to remember in order to perform business processes. Consequently, the ER model becomes an abstract[data model](https://en.wikipedia.org/wiki/Data_modeling), that defines a data or information structure which can be implemented in a[database](https://en.wikipedia.org/wiki/Database), typically a[relational database](https://en.wikipedia.org/wiki/Relational_database).
@@ -57,16 +57,16 @@ The number of participating entities in a relationship defines the degree of the
 Cardinalitydefines the number of entities in one entity set, which can be associated with the number of entities of other set via relationship set.
 -   One-to-one− One entity from entity set A can be associated with at most one entity of entity set B and vice versa.
 
-![One-to-one relation](media/ER-Diagrams-(Entity-Relationships)-image2.png){width="3.3854166666666665in" height="2.4479166666666665in"}
+![One-to-one relation](media/ER-Diagrams-(Entity-Relationships)-image2.png)
 -   One-to-many− One entity from entity set A can be associated with more than one entities of entity set B however an entity from entity set B, can be associated with at most one entity.
 
-![One-to-many relation](media/ER-Diagrams-(Entity-Relationships)-image3.png){width="3.3854166666666665in" height="2.4479166666666665in"}
+![One-to-many relation](media/ER-Diagrams-(Entity-Relationships)-image3.png)
 -   Many-to-one− More than one entities from entity set A can be associated with at most one entity of entity set B, however an entity from entity set B can be associated with more than one entity from entity set A.
 
-![Many-to-one relation](media/ER-Diagrams-(Entity-Relationships)-image4.png){width="3.40625in" height="2.4479166666666665in"}
+![Many-to-one relation](media/ER-Diagrams-(Entity-Relationships)-image4.png)
 -   Many-to-many− One entity from A can be associated with more than one entity from B and vice versa.
 
-![Many-to-many relation](media/ER-Diagrams-(Entity-Relationships)-image5.png){width="3.40625in" height="2.4479166666666665in"}
-![[User should be able to view/edit his profile containing following information: -pic cm • On top left we should show user's Profile Photo • On the right side of Profile pic the name and contact information should be displayed. uses ](media/ER-Diagrams-(Entity-Relationships)-image6.jpeg){width="5.3125in" height="4.0625in"}<https://www.tutorialspoint.com/dbms/er_model_basic_concepts.htm>
+![Many-to-many relation](media/ER-Diagrams-(Entity-Relationships)-image5.png)
+![[User should be able to view/edit his profile containing following information: -pic cm • On top left we should show user's Profile Photo • On the right side of Profile pic the name and contact information should be displayed. uses ](media/ER-Diagrams-(Entity-Relationships)-image6.jpeg)<https://www.tutorialspoint.com/dbms/er_model_basic_concepts.htm>
 
 <https://www.geeksforgeeks.org/introduction-of-er-model/>

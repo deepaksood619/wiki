@@ -62,7 +62,7 @@ helm upgrade --install redis --values k8s/infra/redis-values-production.yaml --n
 |-------------------------------|-----------------------------------------|
 | Supports multiple databases                                                                                                                                              | Supports only one database. Better if you have a big dataset                                                                                                                     |
 | Single write point (single master)                                                                                                                                       | Multiple write points (multiple masters)                                                                                                                                         |
-| ![Redis Topology](media/Redis_Commands-image1.png){width="2.3333333333333335in" height="1.6458333333333333in"} | ![Redis Cluster Topology](media/Redis_Commands-image2.png){width="3.2083333333333335in" height="1.6979166666666667in"} |**Commands**
+| ![Redis Topology](media/Redis_Commands-image1.png) |**Commands**
 
 redis-cli ping
 
@@ -111,9 +111,9 @@ redis-cli -h redis-dashboard -p 6379 -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70s
 redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 >>> redis-cli
 
->>> subscribe <channel_name>
+>>> subscribe channel_name
 
->>> publish <channel_name> "message"
+>>> publish channel_name "message"
 
 >>> flushdb
 >>> keys *
@@ -169,7 +169,7 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 
 > hgetall user:1000
 
-> DEBUG OBJECT <key> #show size of key
+> DEBUG OBJECT key #show size of key
 **>** scan 0 MATCH sms:score:*
 
 **>** sscan myset 0 match f*

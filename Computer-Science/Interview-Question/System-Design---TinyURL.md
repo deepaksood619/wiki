@@ -18,7 +18,7 @@ getLong(tinyUrl) -> longUrl
 -   Add Expiration time
 **Application layer**
 
-![](media/System-Design---TinyURL-image1.png){width="5.0in" height="3.09375in"}
+![](media/System-Design---TinyURL-image1.png)
 **Load Balancer**
 
 Delegate requests to one of the worker threads
@@ -37,7 +37,7 @@ Delegate requests to one of the worker threads
 -   Length of generated tinyURL - 7 characters long
 -   Total combinations - 62^7 - 3.5 trillion (million requests/second - 40 days, 1000 requests/second - 110 years exhaust)
 -   Any number from 0 to 3.5 trillion can be represented by 43 bits
-![ア ヤ っ 一 ご 新 に Pick 「 一 こ 主 レ 習 一 ャ い - む 一 。 ま に ](media/System-Design---TinyURL-image2.png){width="5.0in" height="2.90625in"}
+![ア ヤ っ 一 ご 新 に Pick 「 一 こ 主 レ 習 一 ャ い - む 一 。 ま に ](media/System-Design---TinyURL-image2.png)
 **Database**
 -   Key as tiny url
 -   value as longer url
@@ -99,7 +99,7 @@ Convert 43 bits to 7 characters long url
          -   These all allotments of ranges is maintained by zookeeper
          -   It guarantees that there are no collisions.
          -   Also can add some random bits to increase security.
-![WA Coc 孓 3e3 冖 D,&ea ](media/System-Design---TinyURL-image3.png){width="5.0in" height="2.5833333333333335in"}
+![WA Coc 孓 3e3 冖 D,&ea ](media/System-Design---TinyURL-image3.png)
 Get requests can be cached using CDN
 [Paste bin system design | Software architecture for paste bin](https://www.youtube.com/watch?v=josjRSBqEBI)
 
@@ -147,7 +147,7 @@ User
 -   name
 -   created
 -   metadata
-![pool < ](media/System-Design---TinyURL-image4.png){width="5.0in" height="3.15625in"}
+![pool < ](media/System-Design---TinyURL-image4.png)
 DKGS - Distributed Key Generation Service
 
 8 byte/8char

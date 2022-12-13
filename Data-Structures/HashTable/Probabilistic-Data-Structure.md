@@ -16,7 +16,7 @@ Probabilistic data structures are a group of data structures that are extremely 
 4.  **Frequency Estimation: Count-Mean-Min Sketch**
 
 5.  **Locality-sensitive hashing**(**LSH**)
-![106 distinct values domain of 32-bit integers 4 MB 106 pairs 32-bit value, 24-bit counter 107 elements Estimation, Range Query --- Sorted Table or Hash Map 40 MB Raw Data 0.6 MB Membership Query with 4% error --- Bloom Filter Exact Membership Query, Cardinality Estimation --- Sorted IDs or Hash Table 48 KB Frequenes of top-IOO most frequent elements with 4% error ---Count-Min Sketch • 14 KB Top-IOO most frequent elements with 4% error --- Stream-summary Cardinality Estimation with 4% error --- Loglog Counter 125 KB Cardinality Estimation with 4% error --- Linear Counter Exact Frequency ](media/Probabilistic-Data-Structure-image1.png){width="5.0in" height="5.6875in"}
+![106 distinct values domain of 32-bit integers 4 MB 106 pairs 32-bit value, 24-bit counter 107 elements Estimation, Range Query --- Sorted Table or Hash Map 40 MB Raw Data 0.6 MB Membership Query with 4% error --- Bloom Filter Exact Membership Query, Cardinality Estimation --- Sorted IDs or Hash Table 48 KB Frequenes of top-IOO most frequent elements with 4% error ---Count-Min Sketch • 14 KB Top-IOO most frequent elements with 4% error --- Stream-summary Cardinality Estimation with 4% error --- Loglog Counter 125 KB Cardinality Estimation with 4% error --- Linear Counter Exact Frequency ](media/Probabilistic-Data-Structure-image1.png)
 **Ribbon Filter (practically smaller than Bloom and Xor)**
 
 <https://engineering.fb.com/2021/07/09/data-infrastructure/ribbon-filter/>

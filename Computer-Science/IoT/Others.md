@@ -10,7 +10,7 @@ Modified: 2022-10-30 23:34:37 +0500
 -   802.11b - Received Signal Strength Indication (RSSI)
     -   Due to multipath fading, the RSSI fall-off from the antenna does not follow a uniform inverse square law and is distorted by the building materials that it travels through.
     -   Large errors of 10 to 20 meters
-    -   ![Phone Time distance = c x ((t4-t1) FTM request FTM Ping Ack Pong FTM: ti, t4 - (t3-t2)) / 2 t4 Figure 2. The 802.11mc Fine Timing Measurement (F TM) Protocol. ](media/Others-image1.png){width="5.0in" height="2.78125in"}
+    -   ![Phone Time distance = c x ((t4-t1) FTM request FTM Ping Ack Pong FTM: ti, t4 - (t3-t2)) / 2 t4 Figure 2. The 802.11mc Fine Timing Measurement (F TM) Protocol. ](media/Others-image1.png)
 -   Bluetooth low energy beacons
 -   Low Power Wide Area Network (LPWAN)
 -   LoRa Network Protocol (Long Range)

@@ -141,7 +141,7 @@ vault lease revoke aws/creds/my-role/0bce0782-32aa-25ec-f61d-c026ff22106
 **K8s annotations**
 
 **# remove pre-populate-only, to run sidecar that can sync credentials**
-![{{- with secret "secret/helloworld" -}} postgresql . Data.data.username }}:{{ . Data.data.password }}@postgres:5432/wizard end vault. hashi corp.com/agent-inj ect-status : " update" vault. hashi corp.com/agent-inj ect-secret-payment : " secret/payment-api " vault. hashi corp.com/agent-inj ect-template-payment : {{- with secret "secret/payment-api " # payment gw api key .Data.data.APIKEY end } } vault. hashi corp.com/agent-inj ect-status : "update" vault.hashicorp.com/agent-inject-secret-sendmail: "secret/sendmail-api " vault.hashicorp.com/agent-inject-template-sendmail: I {{- with secret "secret/sendmail-api" -n # smtp relay api key .Data.data.APIKEY { {- end } } vault.hashicorp.com/role: "myapp" ](media/Vault-image1.png){width="5.885416666666667in" height="2.7291666666666665in"}
+![{{- with secret "secret/helloworld" -}} postgresql . Data.data.username }}:{{ . Data.data.password }}@postgres:5432/wizard end vault. hashi corp.com/agent-inj ect-status : " update" vault. hashi corp.com/agent-inj ect-secret-payment : " secret/payment-api " vault. hashi corp.com/agent-inj ect-template-payment : {{- with secret "secret/payment-api " # payment gw api key .Data.data.APIKEY end } } vault. hashi corp.com/agent-inj ect-status : "update" vault.hashicorp.com/agent-inject-secret-sendmail: "secret/sendmail-api " vault.hashicorp.com/agent-inject-template-sendmail: I {{- with secret "secret/sendmail-api" -n # smtp relay api key .Data.data.APIKEY { {- end } } vault.hashicorp.com/role: "myapp" ](media/Vault-image1.png)
 apiVersion: batch/v1beta1
 
 kind: CronJob
@@ -237,14 +237,14 @@ sleep infinity
 restartPolicy: OnFailure
 **App Roles**
 
-![Setup Administrator Deployer oao vault auth enable approle vault write auth/approle/role/myrole token_policies="myapp• token_ttl=l h 000 vault read -field=role_id auth/approle/role/myrole/role-id > role-id vault write -f auth/approle/role/myrole/secret-id > secret-id ](media/Vault-image2.png){width="5.0in" height="2.3958333333333335in"}
-![Approle Authentication Application Login $ grep . role-id secret-id role-id:4bdd6e8e-47e5-5d6f-c698-397a373c9c56 secret-id:649e149e-aa11-2cb1-f4ae-b2f9da824a62 $ vault write auth/approle/login role_id=$(cat role-id) secret_id=$(cat secret-id) Key token token duration policies Value s. pstokYLHuv3rBGrb7zHVCF61 lh [ "default" "myapp"] ](media/Vault-image3.png){width="5.0in" height="2.1354166666666665in"}
-![](media/Vault-image4.png){width="5.0in" height="2.0416666666666665in"}
-![Approle workflow example System Engineer retrieves AppRole RoleID, embeds it in smrce code o o Security Engineer configures Orchestrator retrieves SecretlD as it provisions instance trom template containing RolelD Instance enters production state, authenticating to Vault to retrieve ard secrets Instance boots and performs AppRole login event using RoleID and Secret ID. securely introducing authentication token successful validation ](media/Vault-image5.png){width="5.0in" height="2.9270833333333335in"}
+![Setup Administrator Deployer oao vault auth enable approle vault write auth/approle/role/myrole token_policies="myapp• token_ttl=l h 000 vault read -field=role_id auth/approle/role/myrole/role-id > role-id vault write -f auth/approle/role/myrole/secret-id > secret-id ](media/Vault-image2.png)
+![Approle Authentication Application Login $ grep . role-id secret-id role-id:4bdd6e8e-47e5-5d6f-c698-397a373c9c56 secret-id:649e149e-aa11-2cb1-f4ae-b2f9da824a62 $ vault write auth/approle/login role_id=$(cat role-id) secret_id=$(cat secret-id) Key token token duration policies Value s. pstokYLHuv3rBGrb7zHVCF61 lh [ "default" "myapp"] ](media/Vault-image3.png)
+![](media/Vault-image4.png)
+![Approle workflow example System Engineer retrieves AppRole RoleID, embeds it in smrce code o o Security Engineer configures Orchestrator retrieves SecretlD as it provisions instance trom template containing RolelD Instance enters production state, authenticating to Vault to retrieve ard secrets Instance boots and performs AppRole login event using RoleID and Secret ID. securely introducing authentication token successful validation ](media/Vault-image5.png)
 
 **Review Approle**
 
-![Define an approle role with appropriate privileges, restrictions Bundle Vault Agent and role_id along with your app Deliver single-use secret_id with short TTL to your app/Agent Agent authenticates with role_id, secret_id Agent renders secrets via template, signals your app App reads rendered template, alerts if secrets missing/unuseable ](media/Vault-image6.png){width="5.0in" height="2.6354166666666665in"}
+![Define an approle role with appropriate privileges, restrictions Bundle Vault Agent and role_id along with your app Deliver single-use secret_id with short TTL to your app/Agent Agent authenticates with role_id, secret_id Agent renders secrets via template, signals your app App reads rendered template, alerts if secrets missing/unuseable ](media/Vault-image6.png)
 **Database Rotation**
 
 The database secrets engine generates database credentials dynamically based on configured roles. It works with a number of different databases through a plugin interface. There are a number of builtin database types and an exposed framework for running custom database types for extendability. This means that services that need to access a database no longer need to hardcode credentials: they can request them from Vault, and use Vault's leasing mechanism to more easily roll keys. These are referred to as "dynamic roles" or "dynamic secrets".
@@ -256,7 +256,7 @@ The database secrets engine supports the concept of "static roles", which are a 
 Vault's[database secrets engine](https://www.vaultproject.io/docs/secrets/databases/index.html)provides a centralized workflow for managing credentials for various database systems. By leveraging this, every service instance gets a unique set of database credentials instead of sharing one. Having those credentials tied directly to each service instance and live only for the life of the service, any abnormal access pattern can be mapped to a specific service instance and its credential can be revoked immediately.
 This reduces the manual tasks performed by the database administrator and makes the database access more efficient and secure.
 
-![DB Root Credentials](media/Vault-image7.png){width="5.489583333333333in" height="2.0625in"}
+![DB Root Credentials](media/Vault-image7.png)
 <https://learn.hashicorp.com/tutorials/vault/database-root-rotation>
 
 <https://learn.hashicorp.com/tutorials/vault/database-secrets>
@@ -300,7 +300,7 @@ capabilities = ["read"]
 
 <https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes>
 [Kubernetes Secret Management guide beginners using Vault](https://www.youtube.com/playlist?list=PLHq1uqvAteVtq-NRX3yd1ziA_wJSBu3Oj)
-![Vault ](media/Vault-image8.jpg){width="5.0in" height="2.8020833333333335in"}
+![Vault ](media/Vault-image8.jpg)
 **Comparision**
 
 <https://www.cncf.io/announcements/2021/02/23/cncf-provides-insights-into-secrets-management-tools-with-latest-end-user-technology-radar/>

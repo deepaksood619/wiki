@@ -117,7 +117,7 @@ CMD + ? - show all shortcuts
 CMD +  - show/hide sidebar
 **OAuth 2.0 - Authentication and Authorization with Identity Server (KeyCloak)**
 
-![](media/Postman-image1.png){width="5.0in" height="3.7083333333333335in"}
+![](media/Postman-image1.png)
 **Alternatives**
 
 Hoppscotch - <https://github.com/hoppscotch/hoppscotch>

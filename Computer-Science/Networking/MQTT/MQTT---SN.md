@@ -38,7 +38,7 @@ There are two mechanisms used:
 Both methods use a multicast packet. Currently there is no standardized multicast packet address.
 **MQTT-SN Architecture**
 The architecture of MQTT-SN can be represented by the following figure -
-![MQTT-SN Architecture](media/MQTT---SN-image1.jpg){width="5.208333333333333in" height="2.9479166666666665in"}
+![MQTT-SN Architecture](media/MQTT---SN-image1.jpg)
 There are three kinds of MQTT-SN components -
 
 1.  MQTT-SN clients,

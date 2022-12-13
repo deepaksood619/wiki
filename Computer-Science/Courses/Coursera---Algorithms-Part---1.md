@@ -243,10 +243,13 @@ The performance requirements are as follows:
 
 1.  **Merging with smaller auxiliary array.**Suppose that the subarray𝚊[𝟶]to𝚊[𝚗−𝟷]is sorted and the subarray𝚊[𝚗]to𝚊[𝟸∗𝚗−𝟷]is sorted. How can you merge the two subarrays so that𝚊[𝟶]to𝚊[𝟸∗𝚗−𝟷]is sorted using an auxiliary array of lengthn(instead of2n)?
 
-2.  **Counting inversions**. An*inversion*in an arraya[]is a pair of entriesa[i]anda[j]such thati<jbuta[i]>a[j]. Given an array, design a linearithmic algorithm to count the number of inversions.
+2.  **Counting inversions**
+    An *inversion* in an arraya[] is a pair of entries a[i] and a[j] such that i < j but a[i] > a[j]. Given an array, design a linearithmic algorithm to count the number of inversions.
 
-<https://www.geeksforgeeks.org/counting-inversions/>
-3.  **Shuffling a linked list.**Given a singly-linked list containingnitems, rearrange the items uniformly at random. Your algorithm should consume a logarithmic (or constant) amount of extra memory and run in time proportional tonlognin the worst case.
+    <https://www.geeksforgeeks.org/counting-inversions/>
+
+3.  **Shuffling a linked list.**
+    Given a singly-linked list containingnitems, rearrange the items uniformly at random. Your algorithm should consume a logarithmic (or constant) amount of extra memory and run in time proportional tonlognin the worst case.
 ## 3.2. Quick Sort
 
 1.  **Nuts and bolts.**A disorganized carpenter has a mixed pile ofnnuts andnbolts. The goal is to find the corresponding pairs of nuts and bolts. Each nut fits exactly one bolt and each bolt fits exactly one nut. By fitting a nut and a bolt together, the carpenter can see which one is bigger (but the carpenter cannot compare two nuts or two bolts directly). Design an algorithm for the problem that usesnlogncompares (probabilistically).
@@ -295,7 +298,8 @@ What data structure or data structures would you use?
 ## 6.1. Hash Tables
 
 1.  **4-SUM.**Given an arraya[]ofintegers, the 4-SUM problem is to determine if there exist distinct indicesi, j, k, andlsuch that a[i] + a[j] = a[k] + a[l]. Design an algorithm for the 4-SUM problem that takes time proportional ton^2(under suitable technical assumptions).
-2.  ![Hashing with wrong hashCode() or equals(). Suppose that you implement a data type OlympicAth1ete for use in a java. util . HashMap. • Describe what happens if you override hashCode ( ) but not equals ( ). • Describe what happens if you override equals ( ) but not hashCode ( ). • Describe what happens if you override hashCode ( ) but implement public boolean equals (OlympicAth1ete that) instead of public boolean equals (Object that) . ](media/Coursera---Algorithms-Part---1-image1.png){width="5.0in" height="1.6666666666666667in"}
+2.  ![Hashing with wrong hashCode() or equals(). Suppose that you implement a data type OlympicAth1ete for use in a java. util . HashMap. • Describe what happens if you override hashCode ( ) but not equals ( ). • Describe what happens if you override equals ( ) but not hashCode ( ). • Describe what happens if you override hashCode ( ) but implement public boolean equals (OlympicAth1ete that) instead of public boolean equals (Object that) . ](media/Coursera---Algorithms-Part---1-image1.png)
+
 # Assignments
 
 **1.1. Union Find**

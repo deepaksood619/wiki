@@ -6,7 +6,7 @@ Modified: 2022-06-02 19:21:01 +0500
 
 ---
 
-![Compute Node 1 Node Slices Client Applications Leader Node Compute Node n Node Slices Data Warehouse Cluster ](media/AWS-Redshift_Architecture-image1.png){width="6.895833333333333in" height="4.822916666666667in"}
+![Compute Node 1 Node Slices Client Applications Leader Node Compute Node n Node Slices Data Warehouse Cluster ](media/AWS-Redshift_Architecture-image1.png)
 Redshift is meant to work in a Cluster formation. A typical Redshift Cluster has two or more**Compute Nodes**which are coordinated through a**Leader Node**.All client applications communicate with the cluster only with the Leader Node.
 1.  **Leader Node**
 
@@ -20,7 +20,7 @@ There are two types of Compute Nodes available in Redshift architecture:
 -   Dense Compute (DC) --Dense Compute nodes allow you to create high-performance data warehouses using Solid-State Drives (SSDs).
 A more detailed explanation of how responsibilities are divided among Leader and Compute Nodes are depicted in the diagram below:
 
-![Redshift Architecture - Leader and Compute Nodes](media/AWS-Redshift_Architecture-image2.png){width="6.645833333333333in" height="6.708333333333333in"}
+![Redshift Architecture - Leader and Compute Nodes](media/AWS-Redshift_Architecture-image2.png)
 3.  **Node slices**
 
 A compute node consist of slices. Each Slice has a portion of Compute Node's memory and disk assigned to it where it performs Query Operations. The Leader Node is responsible for assigning a Query code and data to a slice for execution. Slices once assigned query load work in parallel to generate query results.

@@ -21,7 +21,7 @@ Because it uses[B-trees](https://en.wikipedia.org/wiki/B-trees)to index table ob
 
 Cap'n Proto is an insanely fast data interchange format and capability-based RPC system. Think JSON, except binary. Or think[Protocol Buffers](http://protobuf.googlecode.com/), except faster.
 Cap'n Proto gets a perfect score because*there is no encoding/decoding step*. The Cap'n Proto encoding is appropriate both as a data interchange format and an in-memory representation, so once your structure is built, you can simply write the bytes straight out to disk!
-![Encoding round-trip time ](media/Data-formats-image1.png){width="2.6666666666666665in" height="2.4375in"}<https://capnproto.org/>
+![Encoding round-trip time ](media/Data-formats-image1.png)<https://capnproto.org/>
 
 <https://github.com/capnproto/capnproto>
 **Apache Thrift**

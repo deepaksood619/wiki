@@ -8,7 +8,7 @@ Modified: 2019-03-12 23:30:56 +0500
 
 In MQTT, the word topic refers to an UTF-8 string that the broker uses to filter messages for each connected client. The topic consists of one or more topic levels. Each topic level is separated by a forward slash (topic level separator).
 
-![topic_basics](media/Topics-&-Best-Practices-image1.png){width="6.65625in" height="1.5520833333333333in"}
+![topic_basics](media/Topics-&-Best-Practices-image1.png)
 
 In comparison to a message queue, MQTT topics are very lightweight. The client does not need to create the desired topic before they publish or subscribe to it. The broker accepts each valid topic without any prior initialization.
 Here are some examples of topics:
@@ -45,17 +45,17 @@ Wildcards **are not allowed in topic names when publishing messages**. The wildc
 
 As the name suggests, a single-level wildcard replaces one topic level. The plus symbol represents a single-level wildcard in a topic.
 
-![topic_wildcard_plus](media/Topics-&-Best-Practices-image2.png){width="6.65625in" height="1.5208333333333333in"}
+![topic_wildcard_plus](media/Topics-&-Best-Practices-image2.png)
 
 Any topic matches a topic with single-level wildcard if it contains an arbitrary string instead of the wildcard. For example a subscription to _myhome/groundfloor/+/temperature can produce the following results:
 
-![topic_wildcard_plus_example](media/Topics-&-Best-Practices-image3.png){width="4.15625in" height="1.3333333333333333in"}
+![topic_wildcard_plus_example](media/Topics-&-Best-Practices-image3.png)
 **Multi Level: #**
 
 The multi-level wildcard covers many topic levels. The hash symbol represents the multi-level wild card in the topic. For the broker to determine which topics match, the multi-level wildcard must be placed as the last character in the topic and preceded by a forward slash.
 
-![topic_wildcard_hash](media/Topics-&-Best-Practices-image4.png){width="6.65625in" height="1.21875in"}
-![topic_wildcard_hash_example](media/Topics-&-Best-Practices-image5.png){width="4.15625in" height="1.1145833333333333in"}
+![topic_wildcard_hash](media/Topics-&-Best-Practices-image4.png)
+![topic_wildcard_hash_example](media/Topics-&-Best-Practices-image5.png)
 
 When a client subscribes to a topic with a multi-level wildcard, it receives all messages of a topic that begins with the pattern before the wildcard character, no matter how long or deep the topic is. If you specify only the multi-level wildcard as a topic (_#), you receive all messages that are sent to the MQTT broker. If you expect high throughput, subscription with a multi-level wildcard alone is an anti-pattern (see the best practices below).
 **Topics beginning with $**

@@ -6,7 +6,7 @@ Modified: 2021-12-08 21:03:26 +0500
 
 ---
 
-![Data Warehouse Architecture Presentation Transaction Databases Operational Systems External Cleansing & Transaction Data Warehouse Databse Meta Data Query Tools Data Mart Data Mart Analytic application Reporüng/ Analysis/ Mining Tools Interactive Reports Ad-hoc reports Static reports @ guru9.com ](media/Data-Warehousing_Concepts-image1.png){width="5.0in" height="2.3333333333333335in"}
+![Data Warehouse Architecture Presentation Transaction Databases Operational Systems External Cleansing & Transaction Data Warehouse Databse Meta Data Query Tools Data Mart Data Mart Analytic application Reporüng/ Analysis/ Mining Tools Interactive Reports Ad-hoc reports Static reports @ guru9.com ](media/Data-Warehousing_Concepts-image1.png)
 
 The data warehouse is based on an RDBMS server which is a central information repository that is surrounded by some key components to make the entire environment functional, manageable and accessible
 There are mainly five components of Data Warehouse:
@@ -108,7 +108,7 @@ typically contain slowly changing attributes of specific entities, and attribute
 **Fact tables supportsummarization**
 **Fact table vs Dimension table**
 
-![Dimension Table Product Product_Key Product_Name Brand Colour Fact Table Order_Measure Product _ Key Time_Key Store_Key Order_Dollars Order_Quantity Store Store_Key City Store_name Phone_no Dimension Table Dimension Table Time Time_Key Date Day Month ](media/Data-Warehousing_Concepts-image2.jpg){width="4.260416666666667in" height="3.34375in"}
+![Dimension Table Product Product_Key Product_Name Brand Colour Fact Table Order_Measure Product _ Key Time_Key Store_Key Order_Dollars Order_Quantity Store Store_Key City Store_name Phone_no Dimension Table Dimension Table Time Time_Key Date Day Month ](media/Data-Warehousing_Concepts-image2.jpg)
 | **Fact Table**                                                             | **Dimension Table**                                                                                  |
 |--------------------------------|----------------------------------------|
 | Fact table contains the measuring on the attributes of a dimension table.  | Dimension table contains the attributes on that truth table calculates the metric.                   |

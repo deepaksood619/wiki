@@ -7,7 +7,7 @@ Modified: 2019-12-03 23:16:10 +0500
 ---
 
 Acircular buffer,circular queue,cyclic bufferorring bufferis a[data structure](https://en.wikipedia.org/wiki/Data_structure)that uses a single, fixed-size[buffer](https://en.wikipedia.org/wiki/Buffer_(computer_science))as if it were connected end-to-end. This structure lends itself easily to buffering[data streams](https://en.wikipedia.org/wiki/Data_stream).
-![](media/Circular-Buffer-image1.png){width="2.0729166666666665in" height="2.0729166666666665in"}
+![](media/Circular-Buffer-image1.png)
 **Uses**
 
 The useful property of a circular buffer is that it does not need to have its elements shuffled around when one is consumed. (If a non-circular buffer were used then it would be necessary to shift all elements when one is consumed.) In other words, the circular buffer is well-suited as a[FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics))buffer while a standard, non-circular buffer is well suited as a[LIFO](https://en.wikipedia.org/wiki/LIFO_(computing))buffer.

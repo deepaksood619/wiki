@@ -23,19 +23,19 @@ Property
 -   Height only increases when N is a power of 2
 A tree is a collection of entities called nodes. Nodes are connected by edges. Each node contains a value or data, and it may or may not have a child node.
 
-![4de Z noosi ](media/Tree-DS-image1.jpeg){width="6.0in" height="3.375in"}
+![4de Z noosi ](media/Tree-DS-image1.jpeg)
 
 The first node of the tree is called the root. If this root node is connected by another node, the root is then a parent node and the connected node is a child.
 
-![Links called ](media/Tree-DS-image2.jpeg){width="6.0in" height="3.375in"}
+![Links called ](media/Tree-DS-image2.jpeg)
 
 All Tree nodes are connected by links called edges. It's an important part of trees, because it's manages the relationship between nodes.
 
-![LEAFS ](media/Tree-DS-image3.jpeg){width="6.0in" height="3.375in"}
+![LEAFS ](media/Tree-DS-image3.jpeg)
 
 Leaves are the last nodes on a tree. They are nodes without children. Like real trees, we have the root, branches, and finally the leaves.
 
-![](media/Tree-DS-image4.png){width="5.0in" height="2.8125in"}
+![](media/Tree-DS-image4.png)
 
 Other important concepts to understand are height and depth.
 
@@ -61,9 +61,9 @@ Terminology summary
 A**Fenwick tree**or**binary indexed tree**is a data structure that can efficiently update elements and calculate[prefix sums](https://en.wikipedia.org/wiki/Prefix_sum)in a table of numbers.
 When compared with a flat array of numbers, the Fenwick tree achieves a much better balance between two operations: element update and prefix sum calculation. In a flat array ofnnumbers, you can either store the elements, or the prefix sums. In the first case, computing prefix sums requires linear time; in the second case, updating the array elements requires linear time (in both cases, the other operation can be performed in constant time). Fenwick trees allow both operations to be performed inO(log n)time. This is achieved by representing the numbers as a[tree](https://en.wikipedia.org/wiki/Tree_(data_structure)), where the value of each node is the sum of the numbers in that subtree. The tree structure allows operations to be performed using onlyO(log n)node accesses.
 
-![](media/Tree-DS-image5.jpeg){width="5.0in" height="2.0729166666666665in"}
-![](media/Tree-DS-image6.jpeg){width="5.0in" height="2.4270833333333335in"}
-![](media/Tree-DS-image7.jpeg){width="5.0in" height="3.625in"}
+![](media/Tree-DS-image5.jpeg)
+![](media/Tree-DS-image6.jpeg)
+![](media/Tree-DS-image7.jpeg)
 <https://en.wikipedia.org/wiki/Fenwick_tree>
 
 <https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/>

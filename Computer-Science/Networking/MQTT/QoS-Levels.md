@@ -27,14 +27,14 @@ QoS is a key feature of the MQTT protocol. QoS gives the client the power to cho
 
 The minimal QoS level is zero. This service level guarantees a best-effort delivery. There is no guarantee of delivery. The recipient does not acknowledge receipt of the message and the message is not stored and re-transmitted by the sender. QoS level 0 is often called "fire and forget" and provides the same guarantee as the underlying TCP protocol.
 
-![publish_qos0_flow](media/QoS-Levels-image1.png){width="6.65625in" height="2.5729166666666665in"}
+![publish_qos0_flow](media/QoS-Levels-image1.png)
 
 **QoS 1 - at least once**
 
 QoS level 1 guarantees that a message is delivered at least one time to the receiver. The sender stores the message until it gets a[PUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718043)packet from the receiver that acknowledges receipt of the message. It is possible for a message to be sent or delivered multiple times.
 
-![publish_qos1_flow](media/QoS-Levels-image2.png){width="6.65625in" height="2.5729166666666665in"}
-![puback_packet](media/QoS-Levels-image3.png){width="5.0in" height="2.96875in"}
+![publish_qos1_flow](media/QoS-Levels-image2.png)
+![puback_packet](media/QoS-Levels-image3.png)
 
 The sender uses the packet identifier in each packet to match the PUBLISH packet to the corresponding PUBACK packet. If the sender does not receive a PUBACK packet in a reasonable amount of time, the sender resends the PUBLISH packet. When a receiver gets a message with QoS 1, it can process it immediately. For example, if the receiver is a broker, the broker sends the message to all subscribing clients and then replies with a PUBACK packet. If the publishing client sends the message again it sets a duplicate (DUP) flag. In QoS 1, this DUP flag is only used for internal purposes and is not processed by broker or client. The receiver of the message sends a PUBACK, regardless of the DUP flag.
 **QoS 2 - exactly once**
@@ -45,19 +45,19 @@ The sender uses the packet identifier in each packet to match the PUBLISH packet
 
 QoS 2 is the highest level of service in MQTT. This level guarantees that each message is received only once by the intended recipients. QoS 2 is the safest and slowest quality of service level. The guarantee is provided by at least two request/response flows (a four-part handshake) between the sender and the receiver. The sender and receiver use the packet identifier of the original PUBLISH message to coordinate delivery of the message.
 
-![publish_qos2_flow](media/QoS-Levels-image4.png){width="6.65625in" height="2.5729166666666665in"}
+![publish_qos2_flow](media/QoS-Levels-image4.png)
 
 When a receiver gets a QoS 2 PUBLISH packet from a sender, it processes the publish message accordingly and replies to the sender with a[PUBREC](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718048)packet that acknowledges the PUBLISH packet. If the sender does not get a PUBREC packet from the receiver, it sends the PUBLISH packet again with a duplicate (DUP) flag until it receives an acknowledgement.
 
-![pubrec_packet](media/QoS-Levels-image5.png){width="5.0in" height="2.96875in"}
+![pubrec_packet](media/QoS-Levels-image5.png)
 
 Once the sender receives a PUBREC packet from the receiver, the sender can safely discard the initial PUBLISH packet. The sender stores the PUBREC packet from the receiver and responds with a[PUBREL](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718053)packet.
 
-![pubrel_packet](media/QoS-Levels-image6.png){width="5.0in" height="2.96875in"}
+![pubrel_packet](media/QoS-Levels-image6.png)
 
 After the receiver gets the PUBREL packet, it can discard all stored states and answer with a[PUBCOMP](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718058)packet (the same is true when the sender receives the PUBCOMP). Until the receiver completes processing and sends the PUBCOMP packet back to the sender, the receiver stores a reference to the packet identifier of the original PUBLISH packet. This step is important to avoid processing the message a second time. After the sender receives the PUBCOMP packet, the packet identifier of the published message becomes available for reuse.
 
-![pubcomp_packet](media/QoS-Levels-image7.png){width="5.0in" height="2.96875in"}
+![pubcomp_packet](media/QoS-Levels-image7.png)
 
 When the QoS 2 flow is complete, both parties are sure that the message is delivered and the sender has confirmation of the delivery..
 

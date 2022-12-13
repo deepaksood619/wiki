@@ -25,13 +25,13 @@ The three types of buffering available are unbuffered, block buffered, and line 
 Standard IO usesread()andwrite()syscalls for performing IO operations. When reading the data, Page Cache is addressed first. If the data is absent, thePage Faultis triggered and contents are paged in. This means that reads, performed against the currently unmapped area will take longer, as caching layer is transparent to user.
 During writes, buffer contents are first written to Page Cache. This means that data does not reach the disk right away. The actual hardware write is done when Kernel decides it's time to perform awritebackof thedirty page.
 
-![Application read ( ) Page Cache 4K Page write ( ) ](media/Disk-IO-image1.png){width="7.28125in" height="5.0in"}
+![Application read ( ) Page Cache 4K Page write ( ) ](media/Disk-IO-image1.png)
 
 Standard IO takes a user space buffer and then copies it's content to the page cache. When the O_DIRECT flag is used, the buffer is written directly to the blockdevice.
 **Page Cache**
 
 [Page Cache](https://github.com/torvalds/linux/blob/master/include/linux/buffer_head.h)stores the recently accessed fragments of files that are more likely to be accessed in the nearest time. When working with disk files,read()andwrite()calls do not initiate disk accesses directly and go through Page Cache instead.
-![Appl i cat i on Kernel Page Cache 4K Page Block Device 612B Block ](media/Disk-IO-image2.png){width="6.34375in" height="6.40625in"}
+![Appl i cat i on Kernel Page Cache 4K Page Block Device 612B Block ](media/Disk-IO-image2.png)
 How Buffered IO works: Applications perform reads and writes through the Kernel Page Cache, which allows sharing pages processes, serving reads from cache and throttling writes to reduceIO.
 When thereadoperation is performed, the Page Cache is consulted first. If the data is already loaded in the Page Cache, it is simply copied out for the user: no disk access is performed and read is served entirely from memory. Otherwise file contents are loaded in Page Cache and then returned to the user. If Page Cache is full, least recently used pages are flushed on disk and evicted from cache to free space for new pages.
 
@@ -49,7 +49,7 @@ When performing a write that's backed by the kernel and/or a library buffer, it 
 
 There are situations when it's undesirable to use the Kernel Page Cache to perform IO. In such cases, one can use[O_DIRECT](https://ext4.wiki.kernel.org/index.php/Clarifying_Direct_IO%27s_Semantics)flag when opening a file. It instructs the Operating Systems to bypass thePage Cache, avoid storing extra copy of data and perform IO operations directly against the block device. This means that buffers are flushed directly on disk, without copying their contents to the corresponding cached page first and waiting for the Kernel to trigger a writeback.
 For a "traditional" application using Direct IO will most likely cause a performance degradation rather than the speedup, but in the right hands it can help to gain a fine-grained control over IO operations and improve performance. Usually applications using this type of IO implement their own application-specific caching layer.
-![App1ication В1осК Device 512B В1осК ](media/Disk-IO-image3.png){width="6.15625in" height="4.333333333333333in"}
+![App1ication В1осК Device 512B В1осК ](media/Disk-IO-image3.png)
 
 How Direct IO works: Application bypasses the Page Cache, so the writes are made towards the hardware storage right away. This might result into performance degradation, since the Kernel buffers and caches the writes, sharing the cache contents between application. When used well, can result into major performance gains and improved memoryusage.
 Using Direct IO is often frowned upon by the Kernel developers. It goes so far, that Linux man page quotes Linus Torwalds: "[The thing that has always disturbed me about O_DIRECT is that the whole interface is just stupid](http://yarchive.net/comp/linux/o_direct.html)".
@@ -60,11 +60,11 @@ It is discouraged to open the same file with Direct IO and Page Cache simultaneo
 
 Because Direct IO involves direct access to backing store, bypassing intermediate buffers in Page Cache, it is required that all operations are aligned to sector boundary.
 
-![512B Block ](media/Disk-IO-image4.png){width="7.28125in" height="0.6979166666666666in"}
+![512B Block ](media/Disk-IO-image4.png)
 
 Examples of unaligned writes (highlighted). Left to right: the write neither starts, nor ends on the block boundary; the write starts on the block boundary, but the write size isn't a multiple of the block size; the write doesn't start on the block boundary.
 In other words, every operation has to have a starting offset of a multiple of 512 and a buffer size has to be a multiple of 512 as well. When using Page Cache, because writes first go to memory, alignment is not important: when actual block device write is performed, Kernel will make sure to split the page into parts of the right size and perform aligned writes towards hardware.
-![612B Block ](media/Disk-IO-image5.png){width="7.28125in" height="0.6979166666666666in"}
+![612B Block ](media/Disk-IO-image5.png)
 
 Examples of aligned writes (highlighted). Left to right: the write starts and ends on the block boundary and is exactly the size of the block; the write starts and ends on the block boundary and has a size that is a multiple of the blocksize.
 For example, RocksDB is making sure that the operations are block-aligned[by checking it upfront](https://github.com/facebook/rocksdb/blob/master/env/io_posix.cc#L312-L316)(older versions were allowing unaligned access by aligning in the background).
@@ -78,7 +78,7 @@ For same reason, something you would usually use in Network context, likeselecta
 
 In order to program for data integrity, it is crucial to have an understanding of the overall system architecture. Data can travel through several layers before it finally reaches stable storage, as seen below:
 
-![[Data flow diagram]](media/Disk-IO-image6.png){width="5.208333333333333in" height="2.7916666666666665in"}
+![[Data flow diagram]](media/Disk-IO-image6.png)
 
 At the top is the running application which has data that it needs to save to stable storage. That data starts out as one or more blocks of memory, or buffers, in the application itself. Those buffers can also be handed to a library, which may perform its own buffering. Regardless of whether data is buffered in application buffers or by a library, the data lives in the application's address space. The next layer that the data goes through is the kernel, which keeps its own version of a write-back cache called the page cache. Dirty pages can live in the page cache for an indeterminate amount of time, depending on overall system load and I/O patterns. When dirty data is finally evicted from the kernel's page cache, it is written to a storage device (such as a hard disk). The storage device may further buffer the data in a volatile write-back cache. If power is lost while data is in this cache, the data will be lost. Finally, at the very bottom of the stack is the non-volatile storage. When the data hits this layer, it is considered to be "safe."
 <https://lwn.net/Articles/457667/>

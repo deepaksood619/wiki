@@ -58,7 +58,7 @@ Please consider the impacts of auto-incremented IDs vs UUIDs on indexing, partit
 
 <https://medium.com/yugabyte/a-busy-developers-guide-to-database-storage-engines-the-basics-6ce0a3841e59>
 
-![DATABASE STORAGE ENGINES B-TREE Server DB2 LSM TREE HBRSE cassandra O Google Cloud Bigtable O influxdb elasticsearch O LEVELDB DB mongo MySQL. Couchbase z RocksDB Byte DB ](media/Others-image1.png){width="6.09375in" height="2.9375in"}
+![DATABASE STORAGE ENGINES B-TREE Server DB2 LSM TREE HBRSE cassandra O Google Cloud Bigtable O influxdb elasticsearch O LEVELDB DB mongo MySQL. Couchbase z RocksDB Byte DB ](media/Others-image1.png)
 **Performance Benchmarks**
 
 **SQL Databases**
@@ -66,6 +66,6 @@ Please consider the impacts of auto-incremented IDs vs UUIDs on indexing, partit
 When you make a lot of inserts or updates do it one statement or disable autocommit and use explicit transactions.
 <https://docs.google.com/spreadsheets/d/1fbrqhC83l8GNb_WuNu_53_QgAXAi661wsv7bun-IMt0/edit?usp=sharing>
 
-![0.100 0075 0050 0025 Red,hift Databases insert comparision 10 100 ](media/Others-image2.png){width="6.666666666666667in" height="3.1770833333333335in"}
+![0.100 0075 0050 0025 Red,hift Databases insert comparision 10 100 ](media/Others-image2.png)
 
 <https://github.com/harryho/db-samples>

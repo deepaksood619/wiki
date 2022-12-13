@@ -25,7 +25,7 @@ b.  **Middle Tier:**The middle tier in Data warehouse is an OLAP server which is
 c.  **Top-Tier:**The top tier is a front-end client layer. Top tier is the tools and API that you connect and get data out from the data warehouse. It could be Query tools, reporting tools, managed query tools, Analysis tools and Data mining tools.
 **Architecture Components**
 
-![Data Warehouse Architecture Components](media/Data-Warehousing_Architecture-image1.png){width="5.385416666666667in" height="3.4375in"}
+![Data Warehouse Architecture Components](media/Data-Warehousing_Architecture-image1.png)
 **Data Warehouse Tech Stack**
 
 <table>

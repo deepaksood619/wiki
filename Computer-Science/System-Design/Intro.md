@@ -140,8 +140,8 @@ Architects are often writing the ADRs ([Architecture Decision Record](https://gi
 Thescale cubeis a technology model that indicates three methods (or approaches) by which technology platforms may be scaled to meet increasing levels of demand upon the system in question. The three approaches defined by the model include scaling through replication or cloning (the "X axis"), scaling through segmentation along service boundaries or dissimilar components (the "Y axis") and segmentation or partitioning along similar components (the "Z axis").
 **3 Dimensions to Scaling**
 
-![THE ART Y axis - functional decomposition Scale by splitting different things X axis - horizontal duplication Scale by cloning ](media/Intro-image1.jpeg){width="5.0in" height="3.7916666666666665in"}
+![THE ART Y axis - functional decomposition Scale by splitting different things X axis - horizontal duplication Scale by cloning ](media/Intro-image1.jpeg)
 <https://en.wikipedia.org/wiki/Scale_cube>
 
 <https://microservices.io/articles/scalecube.html>
-![](media/Intro-image2.jpeg){width="7.364583333333333in" height="5.645833333333333in"}
+![](media/Intro-image2.jpeg)

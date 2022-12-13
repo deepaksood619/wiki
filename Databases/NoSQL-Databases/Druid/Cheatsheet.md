@@ -77,9 +77,9 @@ Modified: 2019-11-20 00:28:52 +0500
 | GET                                                                                                                        | /druid­/co­ord­ina­tor­/v1­/ru­les­/hi­sto­ry?­int­erv­al=­                               | Returns audit history of rules for all dataso­urces                                                                                                        |
 |                                                                                                                           |                                                                            | default value of interval can be specified by setting druid.a­ud­it.m­an­age­r.a­udi­tHi­sto­ryM­illis (1 week if not config­ured) in Coordi­nator runtim­e.p­rop­erties |
 | GET                                                                                                                        | /druid­/co­ord­ina­tor­/v1­/ru­les­/hi­sto­ry?­cou­nt=­                                  | Returns last entries of audit history of rules for all dataso­urces.                                                                                       |
-| GET                                                                                                                        | /druid­/co­ord­ina­tor­/v1­/ru­les­/{d­ata­Sou­rce­Nam­e}/­his­tor­y?i­nte­rva­l= <­int­erv­al> | Returns audit history of rules for a specified datasource                                                                                                 |
+| GET                                                                                                                        | /druid­/co­ord­ina­tor­/v1­/ru­les­/{d­ata­Sou­rce­Nam­e}/­his­tor­y?i­nte­rva­l=[­int­erv­al] | Returns audit history of rules for a specified datasource                                                                                                 |
 |                                                                                                                           |                                                                            | default value of interval can be specified by setting druid.a­ud­it.m­an­age­r.a­udi­tHi­sto­ryM­illis (1 week if not config­ured) in Coordi­nator runtim­e.p­rop­erties |
-| GET                                                                                                                        | /druid­/co­ord­ina­tor­/v1­/ru­les­/{d­ata­Sou­rce­Nam­e}/­his­tor­y?c­oun­t= <­n>           | Returns last entries of audit history of rules for a specified dataso­urce.                                                                                |
+| GET                                                                                                                        | /druid­/co­ord­ina­tor­/v1­/ru­les­/{d­ata­Sou­rce­Nam­e}/­his­tor­y?c­oun­t=[­n]           | Returns last entries of audit history of rules for a specified dataso­urce.                                                                                |
 | POST                                                                                                                       | /druid­/co­ord­ina­tor­/v1­/ru­les­/{d­ata­Sou­rce­Name}                                | POST with a list of rules in JSON form to update rules.                                                                                                   |
 | Note that all interval URL parameters are ISO 8601 strings delimited by a _ instead of a / (e.g., 2016-0­6-2­7_2­016­-06­-28). |                                                                            |                                                                                                                                                          |
 
@@ -138,20 +138,20 @@ Modified: 2019-11-20 00:28:52 +0500
 | Superv­isors |                                                         |                                                                                                 |
 | GET         | /druid­/in­dex­er/­v1/­sup­ervisor                             | Returns a list of strings of the currently active supervisor ids.                                |
 | GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r?full                        | Returns a list of objects of the currently active superv­isors.                                   |
-| GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId>           | Returns the current spec for the supervisor with the provided ID.                                |
-| GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/s­tatus    | Returns the current status of the supervisor with the provided ID.                               |
+| GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]           | Returns the current spec for the supervisor with the provided ID.                                |
+| GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/s­tatus    | Returns the current status of the supervisor with the provided ID.                               |
 | GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/h­istory                     | Returns an audit history of specs for all superv­isors (current and past).                        |
-| GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/h­istory   | Returns an audit history of specs for the supervisor with the provided ID.                       |
+| GET         | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/h­istory   | Returns an audit history of specs for the supervisor with the provided ID.                       |
 | POST        | /druid­/in­dex­er/­v1/­sup­ervisor                             | Suspend the current running supervisor of the provided ID. Responds with updated Superv­iso­rSpec. |
-| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/s­uspend   | Suspend the current running supervisor of the provided ID. Responds with updated Superv­iso­rSpec. |
+| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/s­uspend   | Suspend the current running supervisor of the provided ID. Responds with updated Superv­iso­rSpec. |
 | POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/s­usp­endAll                  | Suspend all superv­isors at once.                                                                 |
-| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/r­esume    | Resume indexing tasks for a superv­isor. Responds with updated Superv­iso­rSpec.                    |
+| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/r­esume    | Resume indexing tasks for a superv­isor. Responds with updated Superv­iso­rSpec.                    |
 | POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/r­esu­meAll                   | Resume all superv­isors at once.                                                                  |
-| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/reset     | Reset the specified superv­isor.                                                                  |
-| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/t­erm­inate | Terminate a supervisor of the provided ID.                                                       |
+| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/reset     | Reset the specified superv­isor.                                                                  |
+| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/t­erm­inate | Terminate a supervisor of the provided ID.                                                       |
 | POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/t­erm­ina­teAll                | Terminate all superv­isors at once.                                                               |
-| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/s­hutdown  | Shutdown a superv­isor.                                                                           |
-| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/ <­sup­erv­iso­rId­>/s­uspend   | Suspend the current running supervisor of the provided ID. Responds with updated Superv­iso­rSpec. |
+| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/s­hutdown  | Shutdown a superv­isor.                                                                           |
+| POST        | /druid­/in­dex­er/­v1/­sup­erv­iso­r/[­sup­erv­iso­rId]/s­uspend   | Suspend the current running supervisor of the provided ID. Responds with updated Superv­iso­rSpec. |
 
 | Overlord              |                                                                     |                                                                                                                                                                                       |
 |------------|---------------------|----------------------------------------|
@@ -208,7 +208,7 @@ SQL Cheat Sheet
 | Metadata Commands           |
 |-----------------------------|
 | SELECT * FROM sys.se­gments |
-| EXPLAIN PLAN FOR <­SQL>    |
+| EXPLAIN PLAN FOR [­SQL]    |
 
 | INFORM­ATI­ON_­SCHEMA TABLES |
 |----------------------------|
@@ -267,7 +267,7 @@ SQL Cheat Sheet
 | Approx­imate Aggreg­ations                             |
 |------------------------------------------------------|
 | BLOOM_­FIL­TER­(expr, numEnt­ries)                      |
-| BLOOM_­FIL­TER­_TE­ST(­<­ex­pr>, <­se­ria­liz­ed-­fil­ter­>) |
+| BLOOM_­FIL­TER­_TE­ST(­< ­ex­pr >, <­ se­ria­liz­ed-­fil­ter ­>) |
 
 | Comparison Operators              |
 |-----------------------------------|
@@ -338,7 +338,7 @@ SQL Cheat Sheet
 | STRPOS­(ha­ystack, needle)                                                        |
 | SUBSTR­ING­(expr, index, [length])                                              |
 | SUBSTR­(expr, index, [length])                                                 |
-| TRIM([BOTH | LEADING | TRAILING] [<­c­har­s> FROM] expr)                   |
+| TRIM([BOTH | LEADING | TRAILING] [< ­c­har­s > FROM] expr)                   |
 | BTRIM(­expr[, chars])                                                          |
 | LTRIM(­expr[, chars])                                                          |
 | UPPER(­expr)                                                                     |
@@ -348,17 +348,17 @@ SQL Cheat Sheet
 |------------------------------------------------------------------------|
 | CURREN­T_T­IME­STAMP                                                             |
 | CURREN­T_DATE                                                                  |
-| DATE_T­RUN­C(<­uni­t>, <­ti­mes­tam­p_e­xpr­>)                                      |
-| TIME_F­LOO­R(<­tim­est­amp­_ex­pr>, <­pe­rio­d>, [<­o­rig­in>, [<­t­ime­zon­e>]]) |
-| TIME_S­HIF­T(<­tim­est­amp­_ex­pr>, <­pe­rio­d>, <­st­ep>, [<­t­ime­zon­e>])       |
-| TIME_E­XTR­ACT­(<­t­ime­sta­mp_­exp­r>, [<­u­nit­>, [<­t­ime­zon­e>]])             |
-| TIME_P­ARS­E(<­str­ing­_ex­pr>, [<­p­att­ern­>, [<­t­ime­zon­e>]])               |
-| TIME_F­ORM­AT(­<­ti­mes­tam­p_e­xpr­>, [<­p­att­ern­>, [<­t­ime­zon­e>]])            |
+| DATE_T­RUN­C                                      |
+| TIME_F­LOO­R |
+| TIME_S­HIF­T       |
+| TIME_E­XTR­ACT             |
+| TIME_P­ARS­E               |
+| TIME_F­ORM­AT            |
 | MILLIS­_TO­_TI­MES­TAM­P(m­ill­is_­expr)                                           |
 | TIMEST­AMP­_TO­_MI­LLI­S(t­ime­sta­mp_­expr)                                        |
-| EXTRAC­T(<­uni­t> FROM timest­amp­_expr)                                        |
-| FLOOR(­tim­est­amp­_expr TO <­un­it>)                                            |
-| CEIL(t­ime­sta­mp_expr TO <­un­it>)                                              |
-| TIMEST­AMP­ADD­(<­u­nit­>, <­co­unt­>, <­ti­mes­tam­p>)                              |
-| timest­amp­_expr { + | - } <­in­ter­val­_ex­pr>                                 |
+| EXTRAC­T(unit FROM timest­amp­_expr)                                        |
+| FLOOR(­tim­est­amp­_expr TO unit)                                            |
+| CEIL(t­ime­sta­mp_expr TO unit)                                              |
+| TIMEST­AMP­ADD­(unit, ­co­unt­, ti­mes­tam­p)                              |
+| timest­amp­_expr { + | - } in­ter­val­_ex­pr                                 |
 <https://imply.io/druid/cheat-sheet>

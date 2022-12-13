@@ -8,7 +8,7 @@ Modified: 2020-08-31 01:27:07 +0500
 
 An N-tier architecture divides an application intological layersandphysical tiers.
 
-![WAF Client Web Tier Messaging Service Middle Tier 1 Cache Data Tier Middle Tier 2 ](media/Architecture-Guide_N-Tier-Application-Architecture-image1.png){width="5.0in" height="2.3125in"}
+![WAF Client Web Tier Messaging Service Middle Tier 1 Cache Data Tier Middle Tier 2 ](media/Architecture-Guide_N-Tier-Application-Architecture-image1.png)
 
 Layers are a way to separate responsibilities and manage dependencies. Each layer has a specific responsibility. **A higher layer can use services in a lower layer, but not the other way around.**
 Tiers are physically separated, running on separate machines. A tier can call to another tier directly, or use asynchronous messaging (message queue). Although each layer might be hosted in its own tier, that's not required. Several layers might be hosted on the same tier. Physically separating the tiers improves scalability and resiliency, but also adds latency from the additional network communication.
@@ -54,7 +54,7 @@ N-tier architectures are very common in traditional on-premises applications, so
 -   Restrict access to the data tier, by allowing requests only from the middle tier(s).
 **N-tier architecture on virtual machines**
 
-![Physical diagram of an N-tier architecture](media/Architecture-Guide_N-Tier-Application-Architecture-image2.png){width="5.0in" height="1.8541666666666667in"}
+![Physical diagram of an N-tier architecture](media/Architecture-Guide_N-Tier-Application-Architecture-image2.png)
 Each tier consists of two or more VMs, placed in an availability set or virtual machine scale set. Multiple VMs provide resiliency in case one VM fails. Load balancers are used to distribute requests across the VMs in a tier. A tier can be scaled horizontally by adding more VMs to the pool.
 Each tier is also placed inside its own subnet, meaning their internal IP addresses fall within the same address range. That makes it easy to apply network security group rules and route tables to individual tiers.
 The web and business tiers are stateless. Any VM can handle any request for that tier. The data tier should consist of a replicated database. For Windows, we recommend SQL Server, using Always On availability groups for high availability. For Linux, choose a database that supports replication, such as Apache Cassandra.

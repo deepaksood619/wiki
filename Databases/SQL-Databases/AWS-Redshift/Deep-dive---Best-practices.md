@@ -90,9 +90,9 @@ Designed for large writes
 UPDATE and DELETE
 -   Immutable blocks means that we only logically delete rows on UPDATE or DELETE
 -   Must VACUUM or DEEP COPY to remove ghost rows from table
-![Data ingestion: Deduplication/UPSERT 2016-09-01 2017-10-20 2016-09-14 2017-10-20 2017-04-01 2017-10-10 2017-05-14 2017-11-29 Table: deep_dive s3://bucket/dd.csv aid 2 3 4 loc SFO JFK SFO JFK dt aid 2 5 6 loc SFO JFK SJC SEA dt ](media/AWS-Redshift_Deep-dive---Best-practices-image1.png){width="5.0in" height="2.0520833333333335in"}
+![Data ingestion: Deduplication/UPSERT 2016-09-01 2017-10-20 2016-09-14 2017-10-20 2017-04-01 2017-10-10 2017-05-14 2017-11-29 Table: deep_dive s3://bucket/dd.csv aid 2 3 4 loc SFO JFK SFO JFK dt aid 2 5 6 loc SFO JFK SJC SEA dt ](media/AWS-Redshift_Deep-dive---Best-practices-image1.png)
 
-![aid 2 3 4 5 6 Table: deep_dive 2017-10-20 2017-10-20 2017-04-01 2017-05-14 2017-10-10 2017-11-29 s3://bucket/dd.csv loc SFO JFK SFO JFK SJC SEA dt aid 2 5 6 loc SFO JFK SJC SEA dt 2017-10-20 2017-10-20 2017-10-10 2017-11-29 ](media/AWS-Redshift_Deep-dive---Best-practices-image2.png){width="5.0in" height="2.2604166666666665in"}
+![aid 2 3 4 5 6 Table: deep_dive 2017-10-20 2017-10-20 2017-04-01 2017-05-14 2017-10-10 2017-11-29 s3://bucket/dd.csv loc SFO JFK SFO JFK SJC SEA dt aid 2 5 6 loc SFO JFK SJC SEA dt 2017-10-20 2017-10-20 2017-10-10 2017-11-29 ](media/AWS-Redshift_Deep-dive---Best-practices-image2.png)
 Steps
 
 1.  Load CSV data into a staging table
@@ -102,7 +102,7 @@ Steps
 3.  Insert (or append) data from the staging into the production table
 Create a Transaction
 
-![BEGIN ; CREATE TEMP TABLE staging (LIKE deep _ dive) ; COPY staging FROM s 3: / / bucket/ dd. creds COMPUPDATE OFF; DELETE FROM deep_dive d USING staging s WHERE d. aid = s. aid; INSERT INTO deep dive SELECT * FROM staging; DROP TABLE staging; COMMIT ; ](media/AWS-Redshift_Deep-dive---Best-practices-image3.png){width="5.0in" height="2.1354166666666665in"}
+![BEGIN ; CREATE TEMP TABLE staging (LIKE deep _ dive) ; COPY staging FROM s 3: / / bucket/ dd. creds COMPUPDATE OFF; DELETE FROM deep_dive d USING staging s WHERE d. aid = s. aid; INSERT INTO deep dive SELECT * FROM staging; DROP TABLE staging; COMMIT ; ](media/AWS-Redshift_Deep-dive---Best-practices-image3.png)
 **Best practices: ELT**
 
 Wrap workflow/statements in an explicit transaction
@@ -168,7 +168,7 @@ Short query acceleration (SQA):
 -   Database administrators
 **Create a queue for each workload type**
 
-![Queue name Ingestion Dashboard Default (Analysts) Memory Concurrency Timeout (seconds) 20% 50% 25% 2 10 3 None 120 None Concurrency Scaling Never Automatic Never or Automatic ](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg){width="5.0in" height="1.3229166666666667in"}-   Unallocated memory goes into a general pool that can be used by any queue
+![Queue name Ingestion Dashboard Default (Analysts) Memory Concurrency Timeout (seconds) 20% 50% 25% 2 10 3 None 120 None Concurrency Scaling Never Automatic Never or Automatic ](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg)-   Unallocated memory goes into a general pool that can be used by any queue
 -   Enable: Short Query Acceleration
 -   Hidden superuser queue can be used by admins manually switched into:
 

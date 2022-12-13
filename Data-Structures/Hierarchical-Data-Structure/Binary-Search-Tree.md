@@ -20,7 +20,7 @@ A BST is a reference to a root Node.
 A Node is comprised of four fields:
 -   A Key and a Value
 -   A reference to the left and right subtree
-![pri vate class Node private Key key; private Value val; private Node left, ri ght; Node public Node (Key key, Value val) ke left this. key = this.val key; val; BST with smaller keys BST val right BST with larger keys Binary search tree Key and Value are generic types; Key is Comparable ](media/Binary-Search-Tree-image1.png){width="5.0in" height="1.9895833333333333in"}
+![pri vate class Node private Key key; private Value val; private Node left, ri ght; Node public Node (Key key, Value val) ke left this. key = this.val key; val; BST with smaller keys BST val right BST with larger keys Binary search tree Key and Value are generic types; Key is Comparable ](media/Binary-Search-Tree-image1.png)
 Search: If less, go left; if greater, go right; if equal, search hit.
 
 Insert: If less, go left; if greater, go right; if null, insert.
@@ -29,14 +29,14 @@ Get: Return value corresponding to given key, or null if no such key
 
 Cost: Number of compares is equal to 1 + depth of node
 
-![public Value get(Key key) Node x = root; while (x null) int cmp = key. compareTo(x. key) ; if (cmp else if (cmp else if (cmp = return null ; < 0) x = x. left; > 0) x = x. right; return x. val ; ](media/Binary-Search-Tree-image2.png){width="5.0in" height="3.4375in"}
+![public Value get(Key key) Node x = root; while (x null) int cmp = key. compareTo(x. key) ; if (cmp else if (cmp else if (cmp = return null ; < 0) x = x. left; > 0) x = x. right; return x. val ; ](media/Binary-Search-Tree-image2.png)
 Put: Associate value with key
 
 Search for key, then two cases:
 -   Key in tree -> reset value
 -   Key not in tree -> add new node
 
-![public void put(Key key, { root = put(root, key, private Node put(Node x, Value val) val); concise, but tricky, recursive code; read carefully! Key key, Value val) if (x null) return new Node(key, val); int cmp = key. compareTo(x. key if (cmp < 0) x. left = put (x. left, else if (cmp > 0) x. right = put (x. right, if (cmp 0) x. val = val return x; key, key, val); val); ](media/Binary-Search-Tree-image3.png){width="5.0in" height="3.4270833333333335in"}
+![public void put(Key key, { root = put(root, key, private Node put(Node x, Value val) val); concise, but tricky, recursive code; read carefully! Key key, Value val) if (x null) return new Node(key, val); int cmp = key. compareTo(x. key if (cmp < 0) x. left = put (x. left, else if (cmp > 0) x. right = put (x. right, if (cmp 0) x. val = val return x; key, key, val); val); ](media/Binary-Search-Tree-image3.png)
 Cost: Number of compares is equal to 1 + depth of node
 A BST is a binary tree in symmetric order
 
@@ -92,7 +92,7 @@ Find successor x of t
 Delete the minimum in t's right subtree
 
 Put x in t's spot
-![node to delete search for key E successor mi n(t. ri ght) go right, then go left until reaching null left link t. left eleteMin(t. ri ght) update links and node counts after recursive calls ](media/Binary-Search-Tree-image4.png){width="4.5in" height="2.6354166666666665in"}
+![node to delete search for key E successor mi n(t. ri ght) go right, then go left until reaching null left link t. left eleteMin(t. ri ght) update links and node counts after recursive calls ](media/Binary-Search-Tree-image4.png)
 Unsatisfactory solution - Not symmetric
 
 After a long random sequence of insert and delete operation, the height of tree becomes sqrt(N)
@@ -103,7 +103,7 @@ If instead of replacing the node to delete with its successor, we flip a coin an
 
 An important property of a Binary Search Tree is that the value of a Binary Search Tree nodeis larger than the value of the offspring of its left child, but smaller than the value of the offspring of its right child."
 
-![](media/Binary-Search-Tree-image5.png){width="5.0in" height="1.71875in"}
+![](media/Binary-Search-Tree-image5.png)
 
 Here is a breakdown of the above illustration:
 -   **A** is inverted. The subtree 7--5--8--6 needs to be on the right side, and the subtree 2--1--3 needs to be on the left.
@@ -124,7 +124,7 @@ Imagine that we have an empty tree and we want to add new nodes with the followi
 
 The first thing we need to know is if 50 is the root of our tree.
 
-![](media/Binary-Search-Tree-image6.png){width="5.0in" height="2.8125in"}
+![](media/Binary-Search-Tree-image6.png)
 
 We can now start inserting node by node.
 -   76 is greater than 50, so insert 76 on the right side.
@@ -135,7 +135,7 @@ We can now start inserting node by node.
 -   64 is greater than 50. Node with value 50 has a right child 76. Since 64 is smaller than 76, insert 64 on the left side of this node.
 -   52 is greater than 50. Node with value 50 has a right child 76. Since 52 is smaller than 76, node with value 76 has a left child 64. 52 is smaller than 64, so insert 54 on the left side of this node.
 
-![](media/Binary-Search-Tree-image7.png){width="5.0in" height="3.34375in"}
+![](media/Binary-Search-Tree-image7.png)
 
 Do you notice a pattern here?
 
@@ -180,11 +180,11 @@ Let's take a look at an example.
 
 Imagine that we have this tree.
 
-![](media/Binary-Search-Tree-image7.png){width="5.0in" height="3.34375in"}
+![](media/Binary-Search-Tree-image7.png)
 
 Now we want to know if we have a node based on value 52.
 
-![SO 3 2 ](media/Binary-Search-Tree-image8.png){width="5.0in" height="3.4166666666666665in"}
+![SO 3 2 ](media/Binary-Search-Tree-image8.png)
 
 Let's break it down.
 
@@ -402,7 +402,7 @@ Finally, we will remove a node with two children. This is the root of our tree.
 
 **Applications -** CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
 
-![problem Id range search 2d orthogonal line segment intersection kd range search Id interval search 2d orthogonal rectangle intersection example solution BST sweep line reduces to Id range search kd tree interval search tree sweep line reduces to Id interval search ](media/Binary-Search-Tree-image9.png){width="5.0in" height="3.59375in"}
+![problem Id range search 2d orthogonal line segment intersection kd range search Id interval search 2d orthogonal rectangle intersection example solution BST sweep line reduces to Id range search kd tree interval search tree sweep line reduces to Id interval search ](media/Binary-Search-Tree-image9.png)
 **Further Reading**
 -   2-3 Trees
 -   Red-Black binary search trees

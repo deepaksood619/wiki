@@ -153,7 +153,7 @@ locust --no-reset-stats -f mqttClient.py
 locust -f mqttClient.py
 
 locust -f mqttClient.py --master
-locust -f mqttClient.py --slave --master-host=<master-ip>
+locust -f mqttClient.py --slave --master-host=[master-ip]
 
 locust -f mqttClient.py --master --expect-slaves=5 #when running locust without webui in distributed mode
 

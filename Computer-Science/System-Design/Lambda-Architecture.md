@@ -8,9 +8,9 @@ Modified: 2019-11-22 13:26:35 +0500
 
 Lambda architectureis a[data-processing](https://en.wikipedia.org/wiki/Data_processing)architecture designed to handle massive quantities of data by taking advantage of both[batch](https://en.wikipedia.org/wiki/Batch_processing)and[stream-processing](https://en.wikipedia.org/wiki/Stream_processing)methods. This approach to architecture attempts to balance[latency](https://en.wikipedia.org/wiki/Latency_(engineering)),[throughput](https://en.wikipedia.org/wiki/Throughput), and[fault-tolerance](https://en.wikipedia.org/wiki/Fault-tolerance)by using batch processing to provide comprehensive and accurate views of batch data, while simultaneously using real-time stream processing to provide views of online data. The two view outputs may be joined before presentation. The rise of lambda architecture is correlated with the growth of[big data](https://en.wikipedia.org/wiki/Big_data), real-time analytics, and the drive to mitigate the latencies of[map-reduce](https://en.wikipedia.org/wiki/Map-reduce).
 Lambda architecture depends on a data model with an append-only, immutable data source that serves as a system of record.It is intended for ingesting and processing timestamped events that are appended to existing events rather than overwriting them. State is determined from the natural time-based ordering of the data.
-![Lambda Architecture](media/Lambda-Architecture-image1.png){width="5.0in" height="1.4375in"}
+![Lambda Architecture](media/Lambda-Architecture-image1.png)
 
-![lambda](media/Lambda-Architecture-image2.png){width="5.0in" height="2.8020833333333335in"}
+![lambda](media/Lambda-Architecture-image2.png)
 
 **Overview**
 

@@ -10,7 +10,7 @@ Modified: 2021-07-27 22:26:07 +0500
 
 Memory mapping ([mmap](http://man7.org/linux/man-pages/man2/mmap.2.html)) allows you to access a file as if it was loaded in memory entirely.It simplies file access and is frequently used by database and application developers.
 
-![Application Mapped Buffer Page Cache 4K Page ](media/Memory-Mapping-mmap-image1.png){width="4.125in" height="2.8020833333333335in"}
+![Application Mapped Buffer Page Cache 4K Page ](media/Memory-Mapping-mmap-image1.png)
 
 Memory mapping maps the process virtual pages directly to the Kernel Page Cache, avoiding additional copy from and to user-space buffer as it is done with StandardIO.
 Withmmapa file can be mapped to a memory segmentprivatelyor in shared mode. Private mapping allows reading from the file, but any write would trigger copy-on-write of the page in question in order to leave the original page intact and keep the changes private, so none of the changes will get reflected on the file itself. Insharedmode, the file mapping is shared with other processes so they can see updates to the mapped memory segment. Additionally, changes are carried through to the underlying file (precise control over which requires the use of[msync](http://man7.org/linux/man-pages/man2/msync.2.html)).
@@ -47,7 +47,7 @@ It's worth mentioning that Linux AIO shouldn't be confused with[Posix AIO](http:
 
 One, possibly less popular, method of performing IO operations is Vectored IO (also known as Scatter/Gather). It is called this way because it operates on a vector of buffers and allows reading and writing data to/from disk using multiple buffers per system call.
 When performing a vectored read, bytes will be read from the source into the buffer first (up to first buffers's length offset). Then, bytes from the source starting at the first buffer's length and up to the second buffer's length offset will be read into the second buffer and so on,as ifthe source was filling up buffers one after another (although operation order and parallelism are not deterministic). A vectored write works in a similar manner: Buffers will be written as if they were concatenated before the write.
-![Vectored 一 0 Buffers 日 目 日 日 目 目 囗 目 囗 目 目 囗 囗 目 目 ](media/Memory-Mapping-mmap-image2.png){width="6.0625in" height="1.96875in"}
+![Vectored 一 0 Buffers 日 目 日 日 目 目 囗 目 囗 目 目 囗 囗 目 目 ](media/Memory-Mapping-mmap-image2.png)
 
 Vectored IO example: userspace buffers of different size are mapped to the contiguous file region, allowing filling up and flushing multiple buffers with a singlesyscall.
 Such an approach can help by allowing reading smaller chunks (therefore avoiding allocation of large memory areas for contiguous blocks) and, at the same time, reducing the amount of system calls required to fill up all these buffers with data from disk. Another advantage is that both reads and writes are atomic: The kernel prevents other processes from performing IO on the same descriptor during read and write operations, guaranteeing data integrity.

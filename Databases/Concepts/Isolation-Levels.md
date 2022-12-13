@@ -71,7 +71,7 @@ There are two additional isolation levels:
     -   Guarantees that all reads made in a transaction see a consistent snapshot of the database that existed at the time the transaction started.
     -   A transaction will commit only if its writes do not conflict with any concurrent updates made since that snapshot.
     -   Susceptible to write skew anomaly.
-![Linearizable Sequential Repeatable Read Cursor Stability Read Committed Read U ncommitted Strict Serializable Serializable Snapshot Isolation Monotonic Atomic View Writes Follow Reads Monotonic Reads Causal Monotonic Writes Read Your Writes ](media/Isolation-Levels-image1.png){width="5.59375in" height="3.78125in"}
+![Linearizable Sequential Repeatable Read Cursor Stability Read Committed Read U ncommitted Strict Serializable Serializable Snapshot Isolation Monotonic Atomic View Writes Follow Reads Monotonic Reads Causal Monotonic Writes Read Your Writes ](media/Isolation-Levels-image1.png)
 <https://en.wikipedia.org/wiki/Isolation_(database_systems)>
 
 <http://highscalability.com/blog/2011/2/10/database-isolation-levels-and-their-effects-on-performance-a.html>

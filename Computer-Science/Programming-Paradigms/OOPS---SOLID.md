@@ -63,7 +63,7 @@ Types of polymorphism
 
 This is a pretty common technique in many languages, albeit better known as "Generics". The core idea is to allow programmers to use a wildcard type when defining data structures that can later be filled with any type.
 
-![class List< > { class Node<T> { T data Node<T> next public Node<T> head public void pushFront(T data The T is the type variable because you can later "assign" any type you want: List<String myNumberList List<String >(); new myNumberList . pushFront ( " foo " myNumberList . pushFront(8) // Error: 8 is not a string ](media/OOPS---SOLID-image1.png){width="5.0in" height="3.2083333333333335in"}
+![class List< > { class Node< T > { T data Node< T > next public Node< T > head public void pushFront(T data The T is the type variable because you can later "assign" any type you want: List< String myNumberList List< String >(); new myNumberList . pushFront ( " foo " myNumberList . pushFront(8) // Error: 8 is not a string ](media/OOPS---SOLID-image1.png)
 2.  Subtype polymorphism (most used type, using shape like triangle, rectangle and calling area like traingle.area(), rectangle.area())
 
 Subtyping is better known as object oriented inheritance. The classic example is a vehicle type, here in Java:
@@ -115,7 +115,7 @@ Solution
 -   Contain
 -   Delegate-   Diamond Problem
 
-![PoweredDevice Scanner ](media/OOPS---SOLID-image2.png){width="2.9791666666666665in" height="2.21875in"}
+![PoweredDevice Scanner ](media/OOPS---SOLID-image2.png)
 
 Both Scanner and Printer has the same function, so Copier will inherit which function? (Most OO language doesn't let you do that)-   Fragile Base Class Problem
 

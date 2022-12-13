@@ -24,7 +24,7 @@ Another category of tests that's very applicable to microservices are contract t
 **End-to-end tests**
 
 The test suites we discussed earlier are applicable to testing individual services. End-to-end tests, however, are more coarse-grained and try to test the functionality of an overall system. Depending on the deployment architecture you're going for, if you are deploying all of your services in a pre-production environment in an aggregate manner, you can run end-to-end tests there. Since end-to-end tests are usually brittle and take a long time to run, you'll usually want to restrict the number of these tests to as few as possible. If you have microservices that are completely independent and don't get deployed to a pre-production test environment, then consider approaches that test in production.
-![E2E CONTRACT TESTS COMPONENT TESTS INTEGRATION TESTS UNIT TESTS ](media/Test-Pyramid-image1.png){width="5.0in" height="3.96875in"}
+![E2E CONTRACT TESTS COMPONENT TESTS INTEGRATION TESTS UNIT TESTS ](media/Test-Pyramid-image1.png)
 **Fault Injection**
 
 Introducing errors in a controlled manner in production to see if your system can hold up to those errors.
@@ -55,7 +55,7 @@ There are a[range of application security tests](https://securityboulevard.com/2
 
 SAST analyzes the code itself rather than the final application, and you can run it without actually executing the code.
 
-![05. Reporting Detailed report on critical vulnerabilities along with remediation guidelines 04. Analysis & Verification Manual Triage of code security flaws to identify exploitable security critical vulnerabilities after eliminating false positives. Static Application Security Testing (SAST) 01. Information Gathering Analyze application tech stack (languages and frameworks), core security critical functionalities and the build process 02. Preparation and compilation Configure application source code and required dependencies for SCA build process. 03. Source Code Vulnerability Scanning Run automated code scan through build integrated process or offline scans on your application code base ](media/Test-Pyramid-image2.jpeg){width="6.802083333333333in" height="3.3229166666666665in"}
+![05. Reporting Detailed report on critical vulnerabilities along with remediation guidelines 04. Analysis & Verification Manual Triage of code security flaws to identify exploitable security critical vulnerabilities after eliminating false positives. Static Application Security Testing (SAST) 01. Information Gathering Analyze application tech stack (languages and frameworks), core security critical functionalities and the build process 02. Preparation and compilation Configure application source code and required dependencies for SCA build process. 03. Source Code Vulnerability Scanning Run automated code scan through build integrated process or offline scans on your application code base ](media/Test-Pyramid-image2.jpeg)
 
 **Dynamic Application Security Testing (DAST)**
 
@@ -71,7 +71,7 @@ IAST conducts continuous real-time scanning of an application for errors and vul
 Compatibility testing assesses how your application operates and how secure it is on various devices and environments, including mobile devices and on different operating systems.
 Compatibility testing can also assess whether a current version of software is compatible with other software versions. Version testing can be backward or forward facing.
 
-![Devices Software Browser Compatibility Testing Operating System Network Versions 1 Mobile ](media/Test-Pyramid-image3.jpg){width="5.0in" height="3.4583333333333335in"}
+![Devices Software Browser Compatibility Testing Operating System Network Versions 1 Mobile ](media/Test-Pyramid-image3.jpg)
 
 Examples of compatibility testing include:
 -   browser testing (checking to make sure your website or mobile site is fully compatible with different browsers)

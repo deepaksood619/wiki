@@ -17,7 +17,7 @@ The Operating System maintains the following important process scheduling queues
 -   Ready queue:This queue keeps a set of all processes residing in the main memory, ready and waiting to execute. A new process is always put in this queue.
 -   Device queues:The processes which are blocked due to unavailability of an I/O device constitute this queue.
 
-![](media/Scheduling-image1.jpg){width="7.083333333333333in" height="5.3125in"}
+![](media/Scheduling-image1.jpg)
 
 The OS can use different policies to manage each queue (FIFO, Round Robin, Priority, etc.). The OS scheduler determines how to move processes between the ready and run queues which can only have one entry per processor core on the system. In the above diagram, it has been merged with the CPU.
 Two-state process models refer to running and non-running states:

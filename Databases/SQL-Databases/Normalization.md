@@ -95,7 +95,7 @@ Products Brand table:
 | 2    | 1         | 2       |
 | 3    | 2         | 3       |
 | 4    | 3         | 4       |
-![Second Normal Form (2NF)](media/Normalization-image1.png){width="4.75in" height="2.6666666666666665in"}
+![Second Normal Form (2NF)](media/Normalization-image1.png)
 **Third Normal Form (3NF)**
 -   Should be already in 2NF
 -   No transition dependency exists

@@ -9,7 +9,7 @@ Modified: 2022-03-01 17:10:45 +0500
 [System Design: How to design Twitter? Interview question at Facebook, Google, Microsoft](https://www.youtube.com/watch?v=KmAyPUv9gOY)
 
 [Twitter system design | twitter Software architecture | twitter interview questions](https://www.youtube.com/watch?v=wYk0xPP_P_8)
-![DB SYSTEM DESIGN YOIC 'TECH DUMMIES NAREN.LG@GMALCOM Balancer CLIENTS DB Writer Trends data Apache storm} update cache Entries for followers FANOUT (Async) zookeeper for maintaining redis cluster REDIS cluster Home and User Timeline Timeline Search service PUSH WEBSOCK persistant connection Earlybird (Based on Lucene) ](media/System-Design---Twitter-image1.jpg){width="6.177083333333333in" height="4.302083333333333in"}
+![DB SYSTEM DESIGN YOIC 'TECH DUMMIES NAREN.LG@GMALCOM Balancer CLIENTS DB Writer Trends data Apache storm} update cache Entries for followers FANOUT (Async) zookeeper for maintaining redis cluster REDIS cluster Home and User Timeline Timeline Search service PUSH WEBSOCK persistant connection Earlybird (Based on Lucene) ](media/System-Design---Twitter-image1.jpg)
 **Core Features -**
 
 1.  Tweeting

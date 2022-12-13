@@ -20,7 +20,7 @@ TCP is the protocol of choice for many of the most popular uses for the internet
 **General Strategy**
 -   Increase sending rate if ACK
 -   Decrease if ACK missed
-![ACKs being received, X loss, so decrease rate so increase rate ](media/TCP-(Connection-Oriented-Protocol)-image1.png){width="5.0in" height="2.3125in"}
+![ACKs being received, X loss, so decrease rate so increase rate ](media/TCP-(Connection-Oriented-Protocol)-image1.png)
 cat /proc/sys/net/ipv4/tcp_congestion_control
 **TCP BBR**
 
@@ -47,7 +47,7 @@ Path MTU Discovery(PMTUD) is a standardized technique in[computer networking](ht
 **MSS (Maximum Segment Size)**
 
 Maximum segment size is the maximum TCP datagram size. It represents the maximum payload size an endpoint is willing to accept within a single packet. Maximum MSS value is 1460 bytes. The MSS, IP header and TCP header, together make up the MTU value. That is, 1500 MTU = 1460 byte MSS + 20 byte IP header + 20 byte TCP header. Said another way, MSS = MTU --- 40.
-![20 bytes IP header 20 bytes TCP header MTU 1460 bytes TCP Payload MSS ](media/TCP-(Connection-Oriented-Protocol)-image2.png){width="7.083333333333333in" height="0.6458333333333334in"}
+![20 bytes IP header 20 bytes TCP header MTU 1460 bytes TCP Payload MSS ](media/TCP-(Connection-Oriented-Protocol)-image2.png)
 
 Do note that MSS is only announced during the TCP handshake in the SYN segment, it is not a negotiated parameter. Meaning, client and server can announce their own individual and different MSS values[[rfc879]](https://tools.ietf.org/html/rfc879). The actual MSS is selected based on the endpoint's buffer and outgoing interface MTU. This can be represented visually by considering a communication between client A and server B[[cisco-ipfrag]](https://www.cisco.com/c/en/us/support/docs/ip/generic-routing-encapsulation-gre/25885-pmtud-ipfrag.html).**TCP Segment Structure**
 
@@ -57,7 +57,7 @@ The termTCP packetappears in both informal and formal usage, whereas in more pre
 Processes transmit data by calling on the TCP and passing buffers of data as arguments. The TCP packages the data from these buffers into segments and calls on the internet module [e.g. IP] to transmit each segment to the destination TCP.
 A TCP segment consists of **a segmentheaderand adatasection**. The TCP header contains 10 mandatory fields, and an optional extension field (Options, pink background in table).
 The data section follows the header. Its contents are the payload data carried for the application. The length of the data section is not specified in the TCP segment header. It can be calculated by subtracting the combined length of the TCP header and the encapsulating IP header from the total IP datagram length (specified in the IP header).
-![Offsets Octet 7 6 5 4 3 2 1 TCP Header 1 4 3 2 3 Octet o 4 8 12 16 20 Bit o 32 64 96 128 160 o 7 Source port 2 1 7 6 5 210765 Destination port Window Size Urgent pointer (if URG set) 2 1 Sequence number Acknowledgment number (if ACK set) Data offset Reserved 000 s C w R E R G c p s R T N N Checksum Options (if data offset > 5. Padded at the end with "O" bytes if necessary.) ](media/TCP-(Connection-Oriented-Protocol)-image3.png){width="6.822916666666667in" height="2.1666666666666665in"}
+![Offsets Octet 7 6 5 4 3 2 1 TCP Header 1 4 3 2 3 Octet o 4 8 12 16 20 Bit o 32 64 96 128 160 o 7 Source port 2 1 7 6 5 210765 Destination port Window Size Urgent pointer (if URG set) 2 1 Sequence number Acknowledgment number (if ACK set) Data offset Reserved 000 s C w R E R G c p s R T N N Checksum Options (if data offset > 5. Padded at the end with "O" bytes if necessary.) ](media/TCP-(Connection-Oriented-Protocol)-image3.png)
 **Sequence number (32 bits)**
 
 TCP uses sequence number field to keep track of the amount of data sent in a communication stream. TCP uses a random 32-bit number to identify the beginning of a conversation. This is known as the initial sequence number (ISN). Rather than starting all TCP conversations with 1, a random ISN helps to identify and keep traffic separate for each flow
@@ -77,7 +77,7 @@ This is the length of the TCP payload + the current sequence number. It indicate
 
 This TCP option is used to identify a block of data that was received by a host. The sender does not re-transmit data identified by the left edge and right edge of SACK. This option can be used only if supported by both the parties and is negotiated during the TCP handshake[[packetlife-sack]](http://packetlife.net/blog/2010/jun/17/tcp-selective-acknowledgments-sack/).
 
-![Options: (12 bytes), Maxirnurn segment size, No-operation (NOP), TCP Option --- Maximum segment size: 146e bytes TCP Option --- No---operation (NOP) TCP Option --- Window scale: 8 (multiply by 256) TCP Option --- No---operation (NOP) TCP Option --- No---operation (NOP) TCP Option --- SACK permitted Kind: SACK Permitted (4) Length: 2 Window scale, No-operation (NOP), No-operation (NOP), SACK permitted ](media/TCP-(Connection-Oriented-Protocol)-image4.png){width="7.083333333333333in" height="1.0833333333333333in"}
+![Options: (12 bytes), Maxirnurn segment size, No-operation (NOP), TCP Option --- Maximum segment size: 146e bytes TCP Option --- No---operation (NOP) TCP Option --- Window scale: 8 (multiply by 256) TCP Option --- No---operation (NOP) TCP Option --- No---operation (NOP) TCP Option --- SACK permitted Kind: SACK Permitted (4) Length: 2 Window scale, No-operation (NOP), No-operation (NOP), SACK permitted ](media/TCP-(Connection-Oriented-Protocol)-image4.png)
 **Duplicate ACK**
 
 As part of the TCP fast re-transmit mechanism, duplicate ACKs are used to inform sender of either segments received out-of-order or lost segments. Re-transmission of missing segments is performed immediately[[rfc2001-sec3]](https://tools.ietf.org/html/rfc2001).
@@ -102,7 +102,7 @@ Contains 9 1-bit flags
 
 A three-way handshake is a method used in a TCP/IP network to create a connection between a local host/client and server. It is a three-step method that requires both the client and server to exchange SYN and ACK (acknowledgment) packets before actual data communication begins.
 Now a device using PAR resend the data unit until it receives an acknowledgement. If the data unit received at the receiver's end is damaged(It checks the data with checksum functionality of the transport layer that is used for Error Detection), then receiver discards the segment. So the sender has to resend the data unit for which positive acknowledgement is not received.
-![HOST p send SYN (seq-x) receive SYN (seq y, ACK-x+1) send ACK (ack=y+l) HOST Q receive SYN (seq x) send SYN, (seq-y, ACK=x+1 receive ACK (ack=y+l) ](media/TCP-(Connection-Oriented-Protocol)-image5.png){width="4.802083333333333in" height="3.8125in"}
+![HOST p send SYN (seq-x) receive SYN (seq y, ACK-x+1) send ACK (ack=y+l) HOST Q receive SYN (seq x) send SYN, (seq-y, ACK=x+1 receive ACK (ack=y+l) ](media/TCP-(Connection-Oriented-Protocol)-image5.png)
 -   **Step 1 (SYN):**In the first step, client wants to establish a connection with server, so it sends a segment with SYN(Synchronize Sequence Number) which informs server that client is likely to start communication and with what sequence number it starts segments with
 -   **Step 2 (SYN + ACK):**Server responds to the client request with SYN-ACK signal bits set. Acknowledgement(ACK) signifies the response of segment it received and SYN signifies with what sequence number it is likely to start the segments with
 -   **Step 3 (ACK):**In the final part client acknowledges the response of server and they both establish a reliable connection with which they will start the actual data transfer
@@ -112,7 +112,7 @@ Initial sequence numbers are randomly selected while establishing connections be
 <https://www.geeksforgeeks.org/tcp-3-way-handshake-process/>
 **TCP Connection Termination**
 
-![11](media/TCP-(Connection-Oriented-Protocol)-image6.png){width="4.40625in" height="3.5729166666666665in"}
+![11](media/TCP-(Connection-Oriented-Protocol)-image6.png)
 
 1.  **Step 1 (FIN From Client) --**Suppose that the client application decides it wants to close the connection. (Note that the server could also choose to close the connection). This causes the client send a TCP segment with the**FIN**bit set to**1**to server and to enter the**FIN_WAIT_1**state. While in the**FIN_WAIT_1**state, the client waits for a TCP segment from the server with an acknowledgment (ACK).
 
@@ -125,11 +125,11 @@ Initial sequence numbers are randomly selected while establishing connections be
 5.  **Step 5 (ACK from Client) --**When Client receive FIN bit segment from the Server, the client acknowledges the server's segment and enters the**TIME_WAIT**state. The**TIME_WAIT**state lets the client resend the final acknowledgment in case the**ACK**is lost.The time spent by client in the**TIME_WAIT**state is depend on their implementation, but their typical values are 30 seconds, 1 minute, and 2 minutes. After the wait, the connection formally closes and all resources on the client side (including port numbers and buffer data) are released.
 TCP states visited by ClientSide --
 
-![Closed Wait 30 seconds Receive FIN, Send ACK IN WAIT Receive ACK, send nothin Client application initiates a TCP connection Send SYN sta Receive SYN & ACK, send ACK Send FIN Client application initiates close connection Fig TCP states visited by a client TCP ](media/TCP-(Connection-Oriented-Protocol)-image7.png){width="5.0in" height="3.8333333333333335in"}
+![Closed Wait 30 seconds Receive FIN, Send ACK IN WAIT Receive ACK, send nothin Client application initiates a TCP connection Send SYN sta Receive SYN & ACK, send ACK Send FIN Client application initiates close connection Fig TCP states visited by a client TCP ](media/TCP-(Connection-Oriented-Protocol)-image7.png)
 
 TCP states visited by ServerSide --
 
-![Sewer application creates a listen socket Closed RCV ACK, Send nothin AST A Receive SYN & send send FIN SYN & ACK Receive ACK, send nothin Established Receive FIN, send ACK Fig TCP states visited by a client TCP ](media/TCP-(Connection-Oriented-Protocol)-image8.png){width="5.0in" height="3.8333333333333335in"}
+![Sewer application creates a listen socket Closed RCV ACK, Send nothin AST A Receive SYN & send send FIN SYN & ACK Receive ACK, send nothin Established Receive FIN, send ACK Fig TCP states visited by a client TCP ](media/TCP-(Connection-Oriented-Protocol)-image8.png)
 <https://www.geeksforgeeks.org/tcp-connection-termination/>
 **Problems**
 -   **Head of line blocking**
@@ -159,7 +159,7 @@ One of the well known problems of TCP splitting is that by breaking the end-to-e
 
 [split tcp protocol | Adhoc N/W | lec-34 | Bhanu Priya](https://www.youtube.com/watch?v=U1ryk2zIAjc)
 
-![阿 さ 、 ~ 為 4 い 要 & 募 ぐ 」 1 ( イ 、 阜 ](media/TCP-(Connection-Oriented-Protocol)-image9.jpg){width="5.0in" height="2.8020833333333335in"}
+![阿 さ 、 ~ 為 4 い 要 & 募 ぐ 」 1 ( イ 、 阜 ](media/TCP-(Connection-Oriented-Protocol)-image9.jpg)
 **Tools**
 
 **netstat**

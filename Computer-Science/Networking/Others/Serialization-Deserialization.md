@@ -16,7 +16,7 @@ When selecting a data serialization format, the following characteristic should 
 -   Splitability
 -   Support in Big Data / Fast Data Ecosystem
 
-![](media/Serialization-Deserialization-image1.png){width="6.635416666666667in" height="4.083333333333333in"}
+![](media/Serialization-Deserialization-image1.png)
 **Forward Compatibility**
 
 Forwards compatibility means that consumers can read data produced from a client using a later version of the schema than that consumer. In the case where a new field is added to a Protobuf message, the message will be decoded by the consumer but it will have no knowledge of that new field until it moves to the later version.

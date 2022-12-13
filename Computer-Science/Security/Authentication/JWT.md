@@ -37,7 +37,7 @@ Theheadertypically consists of two parts: the token's type, and the hashing algo
 
 Thesignatureis used to verify that the message was not altered before reaching its destination. This is usually done by using private keys.
 These three parts are usually encoded into three Base64-URI strings that are separated by a.in between them.
-![Browser POST (login with username + password Return JWT to the browser Send JWT in Authorization header Send response to client Server Create JWT with secret Check JWT signature with secret. Get user info from JWT ](media/Authentication_JWT-image1.png){width="5.0in" height="3.5729166666666665in"}
+![Browser POST (login with username + password Return JWT to the browser Send JWT in Authorization header Send response to client Server Create JWT with secret Check JWT signature with secret. Get user info from JWT ](media/Authentication_JWT-image1.png)
 
 **Payload**
 

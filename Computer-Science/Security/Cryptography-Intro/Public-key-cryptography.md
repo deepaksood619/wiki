@@ -12,9 +12,9 @@ In a public key encryption system, any person can encrypt a message using the re
 -   Relies on a centralized authority, aka Certificate Authority (CA)
 -   Users generally have their own identities - public-private key pair which is attested by the CA and stored in the form of certificates
 -   X.509 certificate format
-![Submitted To Certificate Signing Request (CSR) Key Pair Public Key Protected Private Key Store Created By Private Key Public Subject Identifier Client To Client Certificate Authority (CA) Issues Certificate ](media/Cryptography-Intro_Public-key-cryptography-image1.png){width="5.0in" height="3.4479166666666665in"}
-![Computer "Alice" Yo can I have your public key? Neat! Hey let's use this to encrypt stuff: spspspspspsps pspspspspsspp pspsppspspsps pp 3 Sure! It's BEGIN Oh nice! Let's do that. Now I can tell you secrets! pspspspsp Computer "Bob" ](media/Cryptography-Intro_Public-key-cryptography-image2.png){width="5.0in" height="2.1875in"}
-![my certificate: By the way, can you send yours? Certificate Authoritie Hmm. Hey what do you think? Yep that's bob Yo Bob is that you? Computer "Alice" certificate: By the way let's talk secrets: pspspspsps Computer "Bob" Yo is this Alice? Certificate Authorities Yep Nice! spspsps ](media/Cryptography-Intro_Public-key-cryptography-image3.png){width="5.0in" height="2.8125in"}
+![Submitted To Certificate Signing Request (CSR) Key Pair Public Key Protected Private Key Store Created By Private Key Public Subject Identifier Client To Client Certificate Authority (CA) Issues Certificate ](media/Cryptography-Intro_Public-key-cryptography-image1.png)
+![Computer "Alice" Yo can I have your public key? Neat! Hey let's use this to encrypt stuff: spspspspspsps pspspspspsspp pspsppspspsps pp 3 Sure! It's BEGIN Oh nice! Let's do that. Now I can tell you secrets! pspspspsp Computer "Bob" ](media/Cryptography-Intro_Public-key-cryptography-image2.png)
+![my certificate: By the way, can you send yours? Certificate Authoritie Hmm. Hey what do you think? Yep that's bob Yo Bob is that you? Computer "Alice" certificate: By the way let's talk secrets: pspspspsps Computer "Bob" Yo is this Alice? Certificate Authorities Yep Nice! spspsps ](media/Cryptography-Intro_Public-key-cryptography-image3.png)
 <https://medium.com/sitewards/the-magic-of-tls-x509-and-mutual-authentication-explained-b2162dec4401>
-![](media/Cryptography-Intro_Public-key-cryptography-image4.png){width="5.625in" height="2.9583333333333335in"}
+![](media/Cryptography-Intro_Public-key-cryptography-image4.png)
 

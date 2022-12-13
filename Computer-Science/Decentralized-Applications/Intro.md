@@ -50,11 +50,11 @@ Modified: 2022-04-07 20:49:34 +0500
 4.  Scalability issues
 
 5.  Peer to peer chat
-![alt text](media/Intro-image1.jpeg){width="3.3854166666666665in" height="2.3020833333333335in"}
+![alt text](media/Intro-image1.jpeg)
 
 **What is Whisper**
 
-![alt text](media/Intro-image2.png){width="3.6875in" height="2.1666666666666665in"}
+![alt text](media/Intro-image2.png)
 -   Darkness as a feature
 <https://github.com/llSourcell/Decentralized_Chat/blob/master/Decentralized%20Chat.ipynb>
 Decentralized News

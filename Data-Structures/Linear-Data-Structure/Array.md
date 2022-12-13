@@ -26,7 +26,7 @@ An array is collection of items stored at continuous memory locations. The idea 
 -   When computing the slice of a list, the result is a new list instance.
 -   New list has references to the same elements that are in the original list.
 -   temp = primes[3:6]
-![temp: primes: 11 13 15 17 19 ](media/Array-image1.png){width="5.0in" height="2.4166666666666665in"}**Copying Arrays**
+![temp: primes: 11 13 15 17 19 ](media/Array-image1.png)**Copying Arrays**
 -   Shallow copy
     -   Create a new list that has the references to the same elements as in first list.
 -   Deep copy
@@ -34,11 +34,11 @@ An array is collection of items stored at continuous memory locations. The idea 
 counters = [0]*8
 All eight cells references the same object.
 
-![counters: ](media/Array-image2.png){width="5.0in" height="1.59375in"}
+![counters: ](media/Array-image2.png)
 
 But since integers are immutable, therefore changing an item doesn't change values of all the elements in the array
 
-![counters[2] += 1 Does not technically change the valueof the existing integer instance. This computes a new integer counters: ](media/Array-image3.png){width="5.0in" height="2.4791666666666665in"}-   primes.extend(extras)
+![counters[2] += 1 Does not technically change the valueof the existing integer instance. This computes a new integer counters: ](media/Array-image3.png)-   primes.extend(extras)
 
 Extending a list only copy references of the elements from second list to first list.**Introduction to Arrays**
 

@@ -23,7 +23,7 @@ In Data Warehouse, integration means the establishment of a common unit of measu
 A data warehouse is developed by integrating data from varied sources like a mainframe, relational databases, flat files, etc. Moreover, it must keep consistent naming conventions, format, and coding.
 This integration helps in effective analysis of data. Consistency in naming conventions, attribute measures, encoding structure etc. have to be ensured. Consider the following example:
 
-![Application A Gender: m,f Balance: Bal on Hand Application B Gender: 0,1 Date (yymmdd) Balance: Current Bal Application C Gender: male, fem Date (mmddyyyy) Balance: CashOnhand Data Integration Issues Data Warehouse Gender: Transformation Date( Julian) and Cleansing Balance: Balance Dec. fixed (13,2) O Guru99.com ](media/Data-Warehousing_Characteristics-image1.png){width="5.0in" height="3.0in"}
+![Application A Gender: m,f Balance: Bal on Hand Application B Gender: 0,1 Date (yymmdd) Balance: Current Bal Application C Gender: male, fem Date (mmddyyyy) Balance: CashOnhand Data Integration Issues Data Warehouse Gender: Transformation Date( Julian) and Cleansing Balance: Balance Dec. fixed (13,2) O Guru99.com ](media/Data-Warehousing_Characteristics-image1.png)
 In the above example, there are three different application labeled A, B and C. Information stored in these applications are Gender, Date, and Balance. However, each application's data is stored different way.
 -   In Application A gender field store logical values like M or F
 -   In Application B gender field is a numerical value,

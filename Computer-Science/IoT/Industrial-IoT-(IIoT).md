@@ -8,7 +8,7 @@ Modified: 2018-11-20 15:19:13 +0500
 
 **Reference Architecure**
 
-![page1image65052384](media/Industrial-IoT-(IIoT)-image1.png){width="5.395833333333333in" height="5.395833333333333in"}
+![page1image65052384](media/Industrial-IoT-(IIoT)-image1.png)
 **Sensors**
 -   Pressure
 -   Temperature

@@ -59,4 +59,4 @@ Guaranteed logarithmic performance for search and insert
 ・Need to move back up the tree to split 4-nodes.
 
 ・Large number of cases for splitting.
-![3-node smaller than E between E and J 2-node larger than J ](media/2-3-Search-Trees-image1.png){width="5.0in" height="2.8854166666666665in"}
+![3-node smaller than E between E and J 2-node larger than J ](media/2-3-Search-Trees-image1.png)

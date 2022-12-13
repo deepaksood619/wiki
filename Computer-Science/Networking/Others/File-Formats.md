@@ -68,7 +68,7 @@ Parquet
 -   Simpler type-model with logical types
 -   All data pushed to leaves of the tree
 -   Integrated compression and indexes
-![Image for post](media/File-Formats-image1.png){width="5.0in" height="1.7395833333333333in"}
+![Image for post](media/File-Formats-image1.png)
 **DataSets**
 -   NYC Taxi Data
     -   18 columns with no null values
@@ -88,22 +88,22 @@ Parquet
 -   All the formats have general compression
     -   ZLIB (GZip) - tight compression, slower
     -   Snappy - Some compression, faster
-![Оном мох вон мое - Aaaeus бо•п 0t.31 !хеш ](media/File-Formats-image2.png){width="7.375in" height="4.145833333333333in"}
+![Оном мох вон мое - Aaaeus бо•п 0t.31 !хеш ](media/File-Formats-image2.png)
 **Taxi size analysis**
 -   Don' use JSON
 -   Use either Snappy or Zlib compression
 -   Avor's small compression window hurts
 -   Parquet Zlib is smaller than ORC
     -   Group the column sizes by type
-![19 Parquet & ORC Taxi Column Sizes •parquet •orc Inc, Rights HORTONWORKS ](media/File-Formats-image3.png){width="7.375in" height="4.145833333333333in"}
+![19 Parquet & ORC Taxi Column Sizes •parquet •orc Inc, Rights HORTONWORKS ](media/File-Formats-image3.png)
 
-![Sales Size 2.SE.10 1.5010 1 E.to parq tlib snap" none snap" avro snappy parquet none 20 Inc, Rights HORTONWORKS ](media/File-Formats-image4.png){width="7.375in" height="4.145833333333333in"}
+![Sales Size 2.SE.10 1.5010 1 E.to parq tlib snap" none snap" avro snappy parquet none 20 Inc, Rights HORTONWORKS ](media/File-Formats-image4.png)
 **Taxi size analysis**
 -   ORC did better than expected
     -   String columns have small cardinality
     -   Lots of timestamp columns
     -   No doubles
-![Github Size 3.5010 2010 1SE•10 1010 s E.09 22 Inc, Rights avro snapcr,' Ott avo snappy parq uet snappv HORTONWORKS ](media/File-Formats-image5.png){width="7.375in" height="4.145833333333333in"}
+![Github Size 3.5010 2010 1SE•10 1010 s E.09 22 Inc, Rights avro snapcr,' Ott avo snappy parq uet snappv HORTONWORKS ](media/File-Formats-image5.png)
 **Github Size Analysis**
 -   Surprising win for JSON and Avro
     -   Worst when uncompressed
@@ -114,14 +114,14 @@ Parquet
 -   Read all columns & rows
 -   All formats except JSON are splitable
     -   Different workers do different parts of file
-![Taxi gs/record none avro 26 none Inc, Rights snappy orc zlib orc snappy avro zlib avro snappy none zlib none parquetlparquet parquet json snappy json zlib HORTONWORKS ](media/File-Formats-image6.png){width="7.375in" height="4.145833333333333in"}
+![Taxi gs/record none avro 26 none Inc, Rights snappy orc zlib orc snappy avro zlib avro snappy none zlib none parquetlparquet parquet json snappy json zlib HORTONWORKS ](media/File-Formats-image6.png)
 **Taxi read performance analysis**
 -   JSON is very slow to read
     -   Large storage size for this data set
     -   Needs to do a lot of string parsing
 -   Tradeoff between space & time
     -   Less compression is sometimes faster
-![Sales gs/record none avro snappy avro awo none snappy parquet parquet parquet json snappy json t lib J son 28 Inc, Rights HORTONWORKS ](media/File-Formats-image7.png){width="7.375in" height="4.145833333333333in"}
+![Sales gs/record none avro snappy avro awo none snappy parquet parquet parquet json snappy json t lib J son 28 Inc, Rights HORTONWORKS ](media/File-Formats-image7.png)
 **Sales read performance analysis**
 -   Read performance is dominated by format
     -   Compression matters less for this data set
@@ -130,7 +130,7 @@ Parquet
     -   ORC 0.3 to 1.4% of time
     -   Avro < 0.1% of time
     -   Parquet 4 to 8% of time
-![Github gs/record 30 snappy Snappy Inc, Rights orc ppy j son j son snappy none ison parquet parquet parquet HORTONWORKS ](media/File-Formats-image8.png){width="7.375in" height="4.145833333333333in"}
+![Github gs/record 30 snappy Snappy Inc, Rights orc ppy j son j son snappy none ison parquet parquet parquet HORTONWORKS ](media/File-Formats-image8.png)
 **Github read performance analysis**
 -   Garbage collection is critical
     -   ORC 2.1 to 3.4% of time
@@ -139,7 +139,7 @@ Parquet
 -   A lot of columns needs more space
     -   Suspect that we need bigger stripes
     -   Rows/stripe - ORC: 18.6k, Parquet: 88.1k
-![Column Projection Often just need a few columns ---Only ORC & Parquet are columnar ---Only read, decompress, & deserialize some columns 'thub hub ales ales 32 Inc, AA Rights ar ar uet uet uet zlib zlib 21.319 72.494 1.866 12.893 2.766 3.496 o. 185 0.585 0.05 0.329 0.063 0.718 0.87 0.81 3. 2.55 2. 20.54 HORTONWORKS ](media/File-Formats-image9.png){width="7.375in" height="4.145833333333333in"}
+![Column Projection Often just need a few columns ---Only ORC & Parquet are columnar ---Only read, decompress, & deserialize some columns 'thub hub ales ales 32 Inc, AA Rights ar ar uet uet uet zlib zlib 21.319 72.494 1.866 12.893 2.766 3.496 o. 185 0.585 0.05 0.329 0.063 0.718 0.87 0.81 3. 2.55 2. 20.54 HORTONWORKS ](media/File-Formats-image9.png)
 **Projection & Predicate Pushdown**
 -   Sometimes have a filter predicate on table
     -   Select a superset of rows that match
@@ -164,7 +164,7 @@ Parquet
 1.  Simply compressing JSON with zlib would yield a reasonable tradeoff in size and speed. The result would be just a little bigger, but execution was much faster than using BZ2 on JSON.
 
 2.  Going with IDL-based protocols, Thrift and Protocol Buffers compressed with zlib or Snappy would give us the best gain in size and/or speed.
-![ParetoFront](media/File-Formats-image10.png){width="5.895833333333333in" height="4.71875in"}
+![ParetoFront](media/File-Formats-image10.png)
 
 <https://www.slideshare.net/oom65/file-format-benchmarks-avro-json-orc-parquet>
 **Compression (zlib)**

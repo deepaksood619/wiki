@@ -18,7 +18,7 @@ Structure of the request and response
 -   Wire Format
 
 Binary format for network transmission
-![message HelloRequest { string greeting • 1; message HeiloResponse { string reply service HeiloService { rpc SayHeiio(HelloRequest) returns (HeiloResponse); ](media/Protocol-Buffers-Protobuf-image1.png){width="3.25in" height="3.2708333333333335in"}
+![message HelloRequest { string greeting • 1; message HeiloResponse { string reply service HeiloService { rpc SayHeiio(HelloRequest) returns (HeiloResponse); ](media/Protocol-Buffers-Protobuf-image1.png)
 <https://github.com/google/protobuf>
 
 <https://developers.google.com/protocol-buffers/>

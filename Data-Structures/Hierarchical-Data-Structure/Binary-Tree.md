@@ -27,17 +27,17 @@ T = Number of internal nodes with two children
 
 Empty or node with links to left and right binary trees.
 
-![](media/Binary-Tree-image1.png){width="0.8020833333333334in" height="1.3229166666666667in"}
+![](media/Binary-Tree-image1.png)
 
 This is neither full nor complete
-![2 0 10 12 3 0 4 0 ](media/Binary-Tree-image2.png){width="1.2604166666666667in" height="1.4479166666666667in"}
+![2 0 10 12 3 0 4 0 ](media/Binary-Tree-image2.png)
 
 This is both full and complete
 **Full Binary tree / proper binary tree / 2-tree / strictly binary tree**
 
 Tree in which every node other than the leaves has two children.
 
-![20 12 20 30 40 ](media/Binary-Tree-image3.png){width="1.1875in" height="1.3333333333333333in"}
+![20 12 20 30 40 ](media/Binary-Tree-image3.png)
 
 This is full but not complete
 **Complete tree**
@@ -46,13 +46,13 @@ Perfectly balanced, except for bottom level, and all nodes are as far left as po
 -   Height of complete tree with N nodes is floor(lg N)
 -   Height only increases when N is a power of 2
 
-![12 20 30 30 ](media/Binary-Tree-image4.png){width="1.5416666666666667in" height="1.7916666666666667in"}
+![12 20 30 30 ](media/Binary-Tree-image4.png)
 
 This is complete but not full
 **Binary trees**
 
 In computer science, a binary tree is a tree data structure in which each node has at the most two children, which are referred to as the left child and the right child." --- [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
-![](media/Binary-Tree-image5.png){width="5.0in" height="2.8125in"}
+![](media/Binary-Tree-image5.png)
 The first thing we need to keep in mind when we implement a binary tree is that it is a collection of nodes. Each node has three attributes: value, left_child, and right_child.
 How do we implement a simple binary tree that initializes with these three properties?
 class BinaryTree:

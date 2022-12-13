@@ -30,17 +30,17 @@ The primary difference between[converged infrastructure (CI)](https://www.wikiwa
 NIST defines cloud computing as "a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources. For instance: networks, servers, storage, applications, and services that can be rapidly provisioned and released with minimal management effort or service provider interaction."
 [According to NIST](https://classroom.udacity.com/nanodegrees/nd321-1/parts/cd9ca74f-cbf3-40f8-9726-289a03b5560a/modules/c1b1466d-dba6-4e06-9014-b1cca87f5ca4/lessons/81e12a4b-5f16-4a67-8da0-8fe5eea1f483/concepts/The%20cloud%20is%20an%20experience%20and%20a%20mindset%20%5bshow:%20https:/csrc.nist.gov/publications/detail/sp/800-145/final%5d), the cloud model has 5 essential characteristics, 3 service models, and 4 deployment models.
 
-![Essential Characteristics On-demand self-service Broad network access Resource pooling Rapid elasticity Measured service Service Models Infrastructure: laaS Platform: Software: paaS saas Deployment Models Private Cloud Community Cloud Public Cloud Hybrid Cloud ](media/Nutanix-Hybrid-Cloud-image1.png){width="6.989583333333333in" height="1.8645833333333333in"}
-![Service Models Traditional On- premises IT Apolications Databases Doerating System Virtualization Physical Servers Network & Storage Data Center Colocation Data Apolications Databases Operating System Virtualization Physical Servers Network & Storage Data Center Hosting Data Apolications Doerating System Virtualization Physical Servers Network & Storage Data Center laaS Data Applications Databases Ooerating System Virtualization Physical Servers Network & Storage Data Center Data Applications Databases Ooerating System Virtualization Physical Servers Network & Storage Data Center Self-Managed Provider-Suoplied SaaS Data Apolications Databases Doerating System Virtualization Physical Servers Network & Storage Data Center ](media/Nutanix-Hybrid-Cloud-image2.png){width="6.989583333333333in" height="3.65625in"}
-![Monolith Data Application Database Operating System Virtualization Physical Servers Network & Storage Data Center ](media/Nutanix-Hybrid-Cloud-image3.png){width="2.6770833333333335in" height="6.5in"}
+![Essential Characteristics On-demand self-service Broad network access Resource pooling Rapid elasticity Measured service Service Models Infrastructure: laaS Platform: Software: paaS saas Deployment Models Private Cloud Community Cloud Public Cloud Hybrid Cloud ](media/Nutanix-Hybrid-Cloud-image1.png)
+![Service Models Traditional On- premises IT Apolications Databases Doerating System Virtualization Physical Servers Network & Storage Data Center Colocation Data Apolications Databases Operating System Virtualization Physical Servers Network & Storage Data Center Hosting Data Apolications Doerating System Virtualization Physical Servers Network & Storage Data Center laaS Data Applications Databases Ooerating System Virtualization Physical Servers Network & Storage Data Center Data Applications Databases Ooerating System Virtualization Physical Servers Network & Storage Data Center Self-Managed Provider-Suoplied SaaS Data Apolications Databases Doerating System Virtualization Physical Servers Network & Storage Data Center ](media/Nutanix-Hybrid-Cloud-image2.png)
+![Monolith Data Application Database Operating System Virtualization Physical Servers Network & Storage Data Center ](media/Nutanix-Hybrid-Cloud-image3.png)
 
-![Web Load Balancer Webl Web Presentation Tier Web3 Web2 Web4 AppServer Load Balancer AppServer1 Application Logic Tier AppServer3 Databas Database Clu Database3 AppServer2 Server4 Database2 Database4 ](media/Nutanix-Hybrid-Cloud-image4.png){width="5.0in" height="4.114583333333333in"}
+![Web Load Balancer Webl Web Presentation Tier Web3 Web2 Web4 AppServer Load Balancer AppServer1 Application Logic Tier AppServer3 Databas Database Clu Database3 AppServer2 Server4 Database2 Database4 ](media/Nutanix-Hybrid-Cloud-image4.png)
 
 There are first two major aspects of cloud consumption that organizations need to take into consideration: fiscal consumption and workload predictability.
 -   Rent vs Buy
 **Virtualization**
 
-![VIRTUAL MACHINES HYPERVISOR SERVER STORAGE NETWORK STORAGE Virtualized 3 Tier Architecture ](media/Nutanix-Hybrid-Cloud-image5.png){width="4.583333333333333in" height="6.5in"}
+![VIRTUAL MACHINES HYPERVISOR SERVER STORAGE NETWORK STORAGE Virtualized 3 Tier Architecture ](media/Nutanix-Hybrid-Cloud-image5.png)
 
 Virtualizationuses an abstraction layer and resource scheduler called a hypervisor to run virtual machines on shared hardware resources. Virtual machines, or VMs, can be run at 80% or higher resource utilization without contention, solving one of the major problems of distributed and 3-tier architecture.
 In addition to resource utilization efficiency, VMs offer other advantages as well. They can be moved between hosts without downtime. And cloning, backup, and recovery of both servers and applications are simpler.
@@ -113,7 +113,7 @@ d.  **Automation application management:**Application management can also be aut
 e.  **Lower cloud costs:**You can also reduce your datacenter TCO by up to 60%. This will help optimize your public cloud spend with lower cloud costs.
 
 f.  **True hybrid cloud:**This refers to the ability for you to combine both public and private cloud operations with unified management.
-![Interfaces Management HTML 5 UI prism Acropolis REST API CLI VMS 1 Policy Services Analytics App Mobility Fabric (AMF) Storage Services Distributed Storage Fabric (DSF) t: ](media/Nutanix-Hybrid-Cloud-image6.png){width="5.8125in" height="3.2395833333333335in"}
+![Interfaces Management HTML 5 UI prism Acropolis REST API CLI VMS 1 Policy Services Analytics App Mobility Fabric (AMF) Storage Services Distributed Storage Fabric (DSF) t: ](media/Nutanix-Hybrid-Cloud-image6.png)
 
 1.  Acropolis:The data plane
 

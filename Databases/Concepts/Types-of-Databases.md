@@ -143,7 +143,7 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 <https://jsondb.io/>
 **Comparision**
 
-![](media/Types-of-Databases-image1.png){width="2.9895833333333335in" height="6.5in"}
+![](media/Types-of-Databases-image1.png)
 **Relational vs Non-Relational Databases**
 
 A**relational database**is one where data is stored in the form of a table. Each table has a**schema**, which is the columns and types a record is required to have. Each schema must have at least one primary key that uniquely identifies that record. In other words, there are no duplicate rows in your database. Moreover, each table can be related to other tables using foreign keys.

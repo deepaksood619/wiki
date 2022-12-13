@@ -24,7 +24,7 @@ Integrating with Amazon Data Pipeline
 
 Simplify Amazon DynamoDB data extraction and analysis by using AWS Glue and Amazon Athena
 
-![Architecture diagram of the solution beginning from the Amazon DynamoDB table](media/AWS-DynamoDB_Documentation-image1.gif){width="5.0in" height="2.4270833333333335in"}
+![Architecture diagram of the solution beginning from the Amazon DynamoDB table](media/AWS-DynamoDB_Documentation-image1.gif)
 
 <https://aws.amazon.com/blogs/database/simplify-amazon-dynamodb-data-extraction-and-analysis-by-using-aws-glue-and-amazon-athena/>
 

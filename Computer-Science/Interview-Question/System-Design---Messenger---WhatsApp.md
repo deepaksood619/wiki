@@ -57,10 +57,6 @@ Modified: 2021-08-27 19:59:58 +0500
 -   Network
 
     a.  **Ephermeral**
-
-    ```{=html}
-    <!-- -->
-    ```
     b.  TCP - Handshake
 
     c.  Load balancing (layers of load balancing and caching)
@@ -112,22 +108,22 @@ User talks to Load Balancer (which can operate at Level-3, Level-4 or Level-7)
 Load Balancer then talks to one of the node servers
 
 Networking - HTTP, WebSockets
-![](media/System-Design---Messenger---WhatsApp-image1.png){width="4.020833333333333in" height="2.8125in"}-   User will login using username and password at that time server will know that user is online
+![](media/System-Design---Messenger---WhatsApp-image1.png)-   User will login using username and password at that time server will know that user is online
 -   User A will send request to a load balancer, Load balancer will redirect the request to one of the hosts using FIFO or number of connections or load average of these hosts.
 -   Bidirectional connection is needed for heartbeat
 -   We store all the data of heartbeat in in-memory cache i.e. redis
 -   Using the last heartbeat user can know when a user was last online (like 45 mins ago)
 -   All the messages will be stored in Cassandra DB
 -   If user is not online then text message will be stored in unread table
-![](media/System-Design---Messenger---WhatsApp-image2.png){width="5.0in" height="3.4583333333333335in"}
+![](media/System-Design---Messenger---WhatsApp-image2.png)
 **Sending messages when user is offline**
 
-![VS e I - CD ](media/System-Design---Messenger---WhatsApp-image3.png){width="5.0in" height="2.71875in"}
+![VS e I - CD ](media/System-Design---Messenger---WhatsApp-image3.png)
 **Sending Images**
 -   Use thumbnail to send image
 -   Save into blob storage and pass down url
 
-![BE s l.)VWeed ](media/System-Design---Messenger---WhatsApp-image4.png){width="5.0in" height="2.4479166666666665in"}
+![BE s l.)VWeed ](media/System-Design---Messenger---WhatsApp-image4.png)
 **Optimizations**
 -   Persisting messages
 -   Convert old data messages to blob structure and save it in blob storage

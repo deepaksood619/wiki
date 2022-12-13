@@ -46,10 +46,10 @@ The following table shows code point values for several characters:
 
 | Character       | Unicode Code Point | Glyph                                                                                                                                                                                                              |
 |--------------------------|----------------------------------|------------|
-| Latin A         | U+0041             | ![The Latin character A](media/Standards-image1.gif){width="0.1875in" height="0.1875in"}                                                     |
-| Latin sharp S   | U+00DF             | ![The Latin small letter sharp S](media/Standards-image2.gif){width="0.1875in" height="0.1875in"}                                            |
-| Han for East    | U+6771             | ![The Han character for east, eastern or eastward](media/Standards-image3.gif){width="0.22916666666666666in" height="0.22916666666666666in"} |
-| Deseret, LONG I | U+10400            | ![The Deseret capital letter long I](media/Standards-image4.gif){width="0.13541666666666666in" height="0.19791666666666666in"}               |
+| Latin A         | U+0041             | ![The Latin character A](media/Standards-image1.gif)                                                     |
+| Latin sharp S   | U+00DF             | ![The Latin small letter sharp S](media/Standards-image2.gif)                                            |
+| Han for East    | U+6771             | ![The Han character for east, eastern or eastward](media/Standards-image3.gif) |
+| Deseret, LONG I | U+10400            | ![The Deseret capital letter long I](media/Standards-image4.gif)               |
 
 As previously described, characters that are in the range U+10000 to U+10FFFF are called supplementary characters. The set of characters from U+0000 to U+FFFF are sometimes referred to as theBasic Multilingual Plane (BMP).
 <https://www.asciitohex.com/>

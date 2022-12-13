@@ -12,7 +12,7 @@ When more and more users connect to the database, more and more user threads exe
 
 Connectionscorrespond toSessionsin SQL standard terminology. A client connects to the MySQL Server and stays connected until it does a disconnect. Figure 1 illustrates what happens when a MySQL Client connects to a MySQL Server.
 
-![Clients Thread Cache poo Connection Requests Receiver Thread mysqld User Threads THDs ](media/MySQL_Connection-Handling-image1.png){width="6.28125in" height="2.625in"}
+![Clients Thread Cache poo Connection Requests Receiver Thread mysqld User Threads THDs ](media/MySQL_Connection-Handling-image1.png)
 **Clients**
 
 A MySQL Client is a command line tool or an application that talks to the MySQL Server over the MySQL Client-Server protocol using the[libmysqlclient](https://dev.mysql.com/doc/refman/8.0/en/c-api-implementations.html)library or some of the many MySQL connectors. A single multi-threaded client can open many connections to the server, but for simplicity we here sayone client opens one connectionto the server.
@@ -31,9 +31,9 @@ It is the user thread that handles the[client-server protocol](https://dev.mysql
 **THD**
 
 The connection is represented by a data structure called the THD which is created when the connection is established and deleted when the connection is dropped. There is always a one-to-one correspondence between a user connection and a THD, i.e. THDs are not reused across connections. The size of the THD is ~10K and its definition is found in[sql_class.h](https://dev.mysql.com/doc/dev/mysql-server/latest/classTHD.html). The THD is a large data structure which is used to keep track of various aspects of execution state. Memory rooted in the THD will grow significantly during query execution, but exactly how much it grows will depend upon the query. For memory planning purposes we recommend to plan for ~10MB per connection on average.
-![mysqld Client User Thread Que Result THD ](media/MySQL_Connection-Handling-image2.png){width="6.28125in" height="1.2083333333333333in"}
+![mysqld Client User Thread Que Result THD ](media/MySQL_Connection-Handling-image2.png)
 Figure 2 illustrates the command phase. Here, the client sends queries to the server and get results back in several rounds. In general, a sequence of statements can be enclosed by a start transaction and a commit/rollback. In this case there is a need to keep track of thetransaction context. In auto-commit mode, each statement will be executed as a transaction (each statement constitutes the full transaction context). In addition there is thesession context, i.e. the session can hold session variables, user variables, and temporary tables. Thus, as long as the context is relevant for executing queries, all queries on a connection must use the same THD.
-![mysqld Client COM Thread Cache er Thread QUIT THD ](media/MySQL_Connection-Handling-image3.png){width="6.28125in" height="1.4375in"}
+![mysqld Client COM Thread Cache er Thread QUIT THD ](media/MySQL_Connection-Handling-image3.png)
 Figure 3 illustrates what happens when a MySQL Client disconnects from a MySQL Server. The Client sends a[COM_QUIT](https://dev.mysql.com/doc/dev/mysql-server/latest/page_protocol_com_quit.html)command which causes the server to close the socket. A disconnect can also happen when either side closes its end of the socket. Upon a disconnect the user thread will clean up, deallocate the THD, and finally put itself in the Thread Cache as "suspended" if there are free slots. If there are no free slots, the user thread will be "terminated".
 **Short Lived Connections**
 

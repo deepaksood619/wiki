@@ -83,7 +83,7 @@ Cassandra vs RDBMS
     -   Reads 15 ms avg
 Alternative - ScyllaDB
 
-![Client ](media/Cassandra-image1.jpg){width="5.0in" height="2.59375in"}
+![Client ](media/Cassandra-image1.jpg)
 
 In the image above, circles are Cassandra nodes and lines between the circles shows distributed architecture, while the client is sending data to the node
 **References**

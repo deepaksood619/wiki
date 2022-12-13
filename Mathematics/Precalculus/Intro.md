@@ -33,10 +33,6 @@ Modified: 2021-06-06 16:54:11 +0500
     f.  Permutations
 
     g.  Combinations
-
-    ```{=html}
-    <!-- -->
-    ```
     h.  **Probability using combinatorics**
 
         i.  Birthday Paradox

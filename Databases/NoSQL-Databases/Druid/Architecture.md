@@ -29,7 +29,7 @@ Druid's process types are:
     -   Managing locks so tasks don't conflict with each other
     -   Returning supervisor and task status to callers-   [**Router**](http://druid.io/docs/latest/development/router.html)processes areoptionalprocesses that provide a unified API gateway in front of Druid Brokers, Overlords, and Coordinators. They are optional since you can also simply contact the Druid Brokers, Overlords, and Coordinators directly.
 
-![Diagram](media/Druid_Architecture-image1.png){width="6.03125in" height="2.4479166666666665in"}
+![Diagram](media/Druid_Architecture-image1.png)
 <https://docs.imply.io/cloud/design>
 Druid processes can be deployed individually (one per physical server, virtual server, or container) or can be colocated on shared servers. One common colocation plan is a three-type plan:
 
@@ -45,4 +45,4 @@ In addition to these process types, Druid also has three external dependencies. 
 The idea behind this architecture is to make a Druid cluster simple to operate in production at scale. For example, the separation of deep storage and the metadata store from the rest of the cluster means that Druid processes are radically fault tolerant: even if every single Druid server fails, you can still relaunch your cluster from data stored in deep storage and the metadata store.
 The following diagram shows how queries and data flow through this architecture:
 
-![Coordinator Nodes Overlord Nodes Druid nodes External Dependencies Metadata Data/Segments Client Queries Streaming Data Nodes MiddleManager Nodes 1 1 1 Deep Storage Metadata Storage Zookeeper Historical Broker Nodes Batch ](media/Druid_Architecture-image2.png){width="8.322916666666666in" height="4.6875in"}
+![Coordinator Nodes Overlord Nodes Druid nodes External Dependencies Metadata Data/Segments Client Queries Streaming Data Nodes MiddleManager Nodes 1 1 1 Deep Storage Metadata Storage Zookeeper Historical Broker Nodes Batch ](media/Druid_Architecture-image2.png)

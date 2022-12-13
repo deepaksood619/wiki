@@ -28,19 +28,19 @@ spire-server
 -   Identity Mapping
 -   Node Attestation
 
-![Node Attestation spire-agent Node Attestor @evan2645 AWS spire-server Node Attestor S SCYTALE ](media/Tools-image1.png){width="4.96875in" height="2.75in"}
+![Node Attestation spire-agent Node Attestor @evan2645 AWS spire-server Node Attestor S SCYTALE ](media/Tools-image1.png)
 -   SVID Issuance
 spire-agent
 -   Workload Attestation
 
-![kubelet API Socket spire-agent Linux Kernel Server Workload ](media/Tools-image2.png){width="4.96875in" height="2.65625in"}
+![kubelet API Socket spire-agent Linux Kernel Server Workload ](media/Tools-image2.png)
 -   Workload API
 **SPIRE Overview**
 
-![spire-agent WL WL spire-server spire-agent WL WL spire-agent WL WL ](media/Tools-image3.png){width="5.0in" height="2.21875in"}
+![spire-agent WL WL spire-server spire-agent WL WL spire-agent WL WL ](media/Tools-image3.png)
 **Workload Identity**
 
-![Parent ID: Selector: Selector: Selector: SPIFFE ID: spiffe://exampLe.org/k8s/cluster/foo k8s:ns:operations k8s:sa:mediawiki docker:image-id:746b819f315e spiffe://example.org/ops/wiki ](media/Tools-image4.png){width="5.0in" height="2.25in"}
+![Parent ID: Selector: Selector: Selector: SPIFFE ID: spiffe://exampLe.org/k8s/cluster/foo k8s:ns:operations k8s:sa:mediawiki docker:image-id:746b819f315e spiffe://example.org/ops/wiki ](media/Tools-image4.png)
 <https://spiffe.io/spiffe/>
 
 [Zero Trust Service Mesh with Calico, SPIRE, and Envoy - Shaun Crampton & Evan Gilman](https://www.youtube.com/watch?v=rKOEYoINdOE)

@@ -12,7 +12,7 @@ Modified: 2022-04-18 18:28:52 +0500
 
 In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. On the server side, the server implements this interface and runs a gRPC server to handle client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
 
-![gRPC Server C++ Service Bequest proto Bespo Proto Request roto Response(s) I gRPC Stub Ruby Client gRPC stub Android-Java Client ](media/gRPC-image1.png){width="5.0in" height="2.9583333333333335in"}
+![gRPC Server C++ Service Bequest proto Bespo Proto Request roto Response(s) I gRPC Stub Ruby Client gRPC stub Android-Java Client ](media/gRPC-image1.png)
 
 gRPC clients and servers can run and talk to each other in a variety of environments - from servers inside Google to your own desktop - and can be written in any of gRPC's supported languages. So, for example, you can easily create a gRPC server in Java with clients in Go, Python, or Ruby. In addition, the latest Google APIs will have gRPC versions of their interfaces, letting you easily build Google functionality into your applications.
 **Types of gRPC service**
@@ -71,7 +71,7 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
     -   **Service discovery**
     -   **load balancing (Client-side / Look-aside load balancing)**
 
-![Lookaside Load Balancing Server List LB Load Reports server _vt•.zabcn ](media/gRPC-image2.png){width="5.0in" height="3.40625in"}-   Proxyless RPC Mesh
+![Lookaside Load Balancing Server List LB Load Reports server _vt•.zabcn ](media/gRPC-image2.png)-   Proxyless RPC Mesh
 <https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears/>
 **Client side load balancing**
 
@@ -79,10 +79,10 @@ Two main components needed for the gRPC client-side load balancing to work
 -   [name resolver](https://github.com/grpc/grpc/blob/master/doc/naming.md)
 -   [load balancing policy](https://github.com/grpc/grpc/blob/master/doc/load-balancing.md).
 
-![](media/gRPC-image3.png){width="5.0in" height="2.8854166666666665in"}
+![](media/gRPC-image3.png)
 <https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples>-   **Automatic retries, hedging* (Retry hedging)**
 
-![Ваос Hedgi09 Pathway ](media/gRPC-image4.png){width="5.0in" height="2.40625in"}
+![Ваос Hedgi09 Pathway ](media/gRPC-image4.png)
 -   Hit all backend
 -   If you get response from one client, cancel all requests
 -   Problem - Cascading Failures

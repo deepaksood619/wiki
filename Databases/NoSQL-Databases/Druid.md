@@ -64,12 +64,12 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Columns are further compressed with general-purpose algorithms like LZ4 (Lossless compression)
 -   Example
 
-![Take this table's data as an exam le Timestamp 2019-01-@ITOI : 00: ooz 2019-01 -OITOI : 00:01Z 2019-01-OITOI : 00: loz Druid would save this out on disk as: Domain example.com example.com druid . io Amount 10 20 10 Field Timestamp [2019-01-OITOI Values Array Domain Amount example. com, example.com, druid. iol [10, 20, 10] ](media/Druid-image1.png){width="5.0in" height="2.0729166666666665in"}
+![Take this table's data as an exam le Timestamp 2019-01-@ITOI : 00: ooz 2019-01 -OITOI : 00:01Z 2019-01-OITOI : 00: loz Druid would save this out on disk as: Domain example.com example.com druid . io Amount 10 20 10 Field Timestamp [2019-01-OITOI Values Array Domain Amount example. com, example.com, druid. iol [10, 20, 10] ](media/Druid-image1.png)
 -   This on-disk format has several benefits:
     -   Filtering if a domain exists require reading less data
     -   Compression of like data performs better than a row-oriented format
     -   Druid only needs to read the columns involved in a query, eliminating extraneous fetches from disk and memory
--   ![Query Broker Deep Storage Masters Coordinator Overlord If deep storage is not available, the files are already copied to Drud, but new files won't be. Data Historical Only the Historical and MiddleManager nodes interact with deep storage. MiddeManager Segments deleted On Druid servers wont be lost, but data deleted in deep storage wil be lost. Deep Storage (S3, HDFS) ](media/Druid-image2.png){width="5.0in" height="3.6458333333333335in"}
+-   ![Query Broker Deep Storage Masters Coordinator Overlord If deep storage is not available, the files are already copied to Drud, but new files won't be. Data Historical Only the Historical and MiddleManager nodes interact with deep storage. MiddeManager Segments deleted On Druid servers wont be lost, but data deleted in deep storage wil be lost. Deep Storage (S3, HDFS) ](media/Druid-image2.png)
 **Druid Data Modelling**
 -   Designing a data model for Druid is different than a RDBMS
 -   Most RDBMS design focuses on normalization
@@ -92,10 +92,10 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
     -   Metrics (partially aggregated)
 -   **Supported Types**
 
-![Type tong float double string complex Description 64 bit signed int 32-bit float 64-bit double UT F-8 string Represents column types provided by sketches and Druid extensions, including hyperUnique, approxHistogram, DataSketches types. Timestamps use the long type and are milliseconds since epoch • Each row has a primary timestamp that is stored as a long complex types are often used to power approximate computations, such as approximate count distinct, histograms, and quantiles. ](media/Druid-image3.png){width="5.0in" height="2.3645833333333335in"}
+![Type tong float double string complex Description 64 bit signed int 32-bit float 64-bit double UT F-8 string Represents column types provided by sketches and Druid extensions, including hyperUnique, approxHistogram, DataSketches types. Timestamps use the long type and are milliseconds since epoch • Each row has a primary timestamp that is stored as a long complex types are often used to power approximate computations, such as approximate count distinct, histograms, and quantiles. ](media/Druid-image3.png)
 -   **Multi-value and Nested Dimensions**
 
-![Druid supports multi-value arrays A Druid column can have a value that is an array, like: "mykey": ["valueone", "valuetwo"] Druid does not support nested dimensions Nested data beyond simple lists should be flattened out, either before ingestion, or during ingestion using Druid flattenspecs. ](media/Druid-image4.png){width="5.0in" height="1.7708333333333333in"}
+![Druid supports multi-value arrays A Druid column can have a value that is an array, like: "mykey": ["valueone", "valuetwo"] Druid does not support nested dimensions Nested data beyond simple lists should be flattened out, either before ingestion, or during ingestion using Druid flattenspecs. ](media/Druid-image4.png)
 -   **Druid Native Batch**
     -   Native batch is a built-in way to index data in Druid
     -   Native batch ingestion is useful when you have a file that you want to load into Druid
@@ -103,7 +103,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
     -   Druid also supports batching ingestion with Hadoop
     -   **Native Batch Architecture**
 
-![Query Broker Masters Overlord 2. The Overlord will instruct MiddleManagers to run the submitted task. 4. MiddleManagers push the segments to deep storage, where they can be loaded by Historicals. 3. MiddleManagers load the data file and create Druid segments. ay happen on MiddleManagers 1. An ingestion spec that uses Native Batch is submitted to the Overlord process. 5. Once Historicals load the segments, they are available for querying. D ta Historical Middle Manager MiddleManager ](media/Druid-image5.png){width="5.0in" height="4.34375in"}
+![Query Broker Masters Overlord 2. The Overlord will instruct MiddleManagers to run the submitted task. 4. MiddleManagers push the segments to deep storage, where they can be loaded by Historicals. 3. MiddleManagers load the data file and create Druid segments. ay happen on MiddleManagers 1. An ingestion spec that uses Native Batch is submitted to the Overlord process. 5. Once Historicals load the segments, they are available for querying. D ta Historical Middle Manager MiddleManager ](media/Druid-image5.png)
 -   **Druid SQL Query API**
     -   Data stored in Druid can be queried with a SQL API
     -   These calls go over a HTTP REST API
@@ -116,13 +116,13 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
         -   The SQL API is virtually at parity with the JSON and is easier to use
     -   Where clauses
 
-![SELECT FROM datasourcename WHERE mydimension = SELECT FROM datasourcename WHERE mydimension = " somet hing" " somet hing" AND myotherdimension = The timestamp column in Druid is named _ _ time Timestamps can be written out in SQL with TIMESTAMP YYYY-m-DD SELECT * FROM datasourcename WHERE __time = TIMESTAMP '2019-01-01 ](media/Druid-image6.png){width="5.0in" height="1.875in"}
+![SELECT FROM datasourcename WHERE mydimension = SELECT FROM datasourcename WHERE mydimension = " somet hing" " somet hing" AND myotherdimension = The timestamp column in Druid is named _ _ time Timestamps can be written out in SQL with TIMESTAMP YYYY-m-DD SELECT * FROM datasourcename WHERE __time = TIMESTAMP '2019-01-01 ](media/Druid-image6.png)
 -   Limiting
 
-![Druid can further optimize queries when a LIMIT is applied • This makes Druid use less resources while querying data This is a general best practice SELECT * FROM datasourcename LIMIT 10 SELECT * FROM datasourcename WHERE mydimension = " something" LIMIT 10 ](media/Druid-image7.png){width="5.0in" height="1.5625in"}
+![Druid can further optimize queries when a LIMIT is applied • This makes Druid use less resources while querying data This is a general best practice SELECT * FROM datasourcename LIMIT 10 SELECT * FROM datasourcename WHERE mydimension = " something" LIMIT 10 ](media/Druid-image7.png)
 -   Group By Query
 
-![SELECT mydimension, as itemcount FROM datasourcename GROUP BY mydimension SELECT mydimension, anotherdimension, as itemcount FROM datasourcename GROUP BY mydimension, anotherdimension SELECT mydtmenston, SIN( mydimension) as mysum, AVG( mydtmension) as myaverage, COUNT( * ) as itemcount FROM datasourcename GROUP BY mydimens ion ](media/Druid-image8.png){width="5.0in" height="1.8125in"}
+![SELECT mydimension, as itemcount FROM datasourcename GROUP BY mydimension SELECT mydimension, anotherdimension, as itemcount FROM datasourcename GROUP BY mydimension, anotherdimension SELECT mydtmenston, SIN( mydimension) as mysum, AVG( mydtmension) as myaverage, COUNT( * ) as itemcount FROM datasourcename GROUP BY mydimens ion ](media/Druid-image8.png)
 **Druid kafka ingestion**
 
 <http://druid.io/docs/latest/development/extensions-core/kafka-ingestion.html>
@@ -132,10 +132,10 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 
 <https://imply.io/post/exactly-once-streaming-ingestion>
 
-![An indexing task reads a subset of the Kafka topic partitions](media/Druid-image9.png){width="5.0in" height="3.1041666666666665in"}
+![An indexing task reads a subset of the Kafka topic partitions](media/Druid-image9.png)
 
-![Supervisors live on the Overlord and manage indexing tasks which run on Middle Managers](media/Druid-image10.png){width="5.0in" height="3.2083333333333335in"}
-![1. All real-time data is initially ingested into Kafka from a producer or Kafka Connect. Kafka Query Broker Masters Coordinator Overlord 2. Data may optionally be enriched or joined by stream processors. 3. Data is then consumed by MiddleManager processes, which will create Druid segments. Data Historical MiddleManager ](media/Druid-image11.png){width="5.0in" height="4.447916666666667in"}
+![Supervisors live on the Overlord and manage indexing tasks which run on Middle Managers](media/Druid-image10.png)
+![1. All real-time data is initially ingested into Kafka from a producer or Kafka Connect. Kafka Query Broker Masters Coordinator Overlord 2. Data may optionally be enriched or joined by stream processors. 3. Data is then consumed by MiddleManager processes, which will create Druid segments. Data Historical MiddleManager ](media/Druid-image11.png)
 
 **References**
 

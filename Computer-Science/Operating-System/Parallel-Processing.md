@@ -10,7 +10,7 @@ Modified: 2020-03-16 22:46:23 +0500
 
 **Symmetric Multi-Processing (SMP)** is a tightly coupled multiprocessor system where processors share resources -- single instances of the Operating System (OS), memory, I/O devices and connected using a common bus. SMP is the primary parallel architecture employed in servers and is depicted in the following image.
 
-![Cache CPU Cache CPU Cache BUS Shared Memory CPU Cache I/O ](media/Parallel-Processing-image1.jpg){width="5.0in" height="3.6770833333333335in"}
+![Cache CPU Cache CPU Cache BUS Shared Memory CPU Cache I/O ](media/Parallel-Processing-image1.jpg)
 
 **Massively Parallel Processing (MPP)** is the coordinated processing of a single task by multiple processors, each processor using its own OS and memory and communicating with each other using some form of messaging interface. MPP can be setup with a shared nothing or shared disk architecture.
 
@@ -18,7 +18,7 @@ In a shared nothing architecture, there is no single point of contention across 
 
 MPP with shared-nothing architecture is depicted in the following image.
 
-![High-Speed Interconnect Node 2 Node 1 G...R s...z Node 3 ](media/Parallel-Processing-image2.jpg){width="5.0in" height="3.46875in"}
+![High-Speed Interconnect Node 2 Node 1 G...R s...z Node 3 ](media/Parallel-Processing-image2.jpg)
 
 **Message Passing Interface (MPI)**
 

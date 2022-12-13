@@ -12,7 +12,8 @@ Many applications require that we process items having keys in order, but not ne
 **Goal:** Remove the largest (or smallest) item.
 **Implementation of Priority Queue**
 
-![public class MaxPQ<Key extends Comparable<Key>> private Key[] pq; private int N; public MaxPQ(int capaci ty) (Key C]) new Comparable [capacity+l] ; pq = public bool ean isEmpty() return N public void insert(Key key) public Key delMax() / * see previous_code * / private void swim(int k) private void sink(int k) / * see previous code * / private boolean less(int i, int j) return pq[i] . < O; private void exch(int i, int j) pq[i] = pq[j] Key t = fixed capacity (for simplicity) PQ ops heap helper functions array helper functions ](media/Priority-Queue-image1.png){width="5.0in" height="3.6979166666666665in"}
+![public](media/Priority-Queue-image1.png)
+
 **Python 3**
 
 **Python > Documentation > Concurrent Execution**

@@ -23,17 +23,17 @@ The Law of Large Numbers basically tells us that if we take a sample (n) observa
 The Central Limit Theorem, tells us that if we take the mean of the samples (n) and plot the frequencies of their mean, we get a normal distribution! And as the sample size (n) increases --> approaches infinity, we find a normal distribution.
 **Sampling distribution of the sample mean**
 
-![](media/Central-Limit-Theorem-image1.jpeg){width="5.0in" height="1.7291666666666667in"}
+![](media/Central-Limit-Theorem-image1.jpeg)
 **Positive skew and negative skew in a probability distribution**
 
-![](media/Central-Limit-Theorem-image2.jpeg){width="5.0in" height="2.2291666666666665in"}
+![](media/Central-Limit-Theorem-image2.jpeg)
 **Positive Kurtosis and Negative Kurtosis in a probability distribution**
 
 Positive Kurtosis - Fatter tails and pointy middle
 
 Negative Kurtosis
 
-![](media/Central-Limit-Theorem-image3.jpeg){width="5.0in" height="2.5in"}
+![](media/Central-Limit-Theorem-image3.jpeg)
 **Chebyshev's inquality**
 
 In a normal distribution, for instance, roughly two thirds of the values have to fall within one standard deviation of the mean and 95% within two standard deviations. Chebyshev's inequality is more general, stating that a minmum of just 75% of values must lie within two standard deviations of the mean and 88.89% within three standard deviations for a broad range of different probability distributions

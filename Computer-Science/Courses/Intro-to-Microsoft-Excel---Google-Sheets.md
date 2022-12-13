@@ -32,7 +32,7 @@ Rows - 1,048,576-   Text to column
 -   Conditional Formatting
 -   Custom cell formatting
 
-![Principles of custom formatting > Four fields separated by ; or , 1) Positive numbers 2) Negative numbers 3) How to display Os 4) How to display text # vs O: types of placeholders used #: flexible placeholder O: fixed placeholder ](media/Intro-to-Microsoft-Excel---Google-Sheets-image1.png){width="4.260416666666667in" height="3.5416666666666665in"}
+![Principles of custom formatting > Four fields separated by ; or , 1) Positive numbers 2) Negative numbers 3) How to display Os 4) How to display text # vs O: types of placeholders used #: flexible placeholder O: fixed placeholder ](media/Intro-to-Microsoft-Excel---Google-Sheets-image1.png)
 -   IF
     -   SUMIF, SUMIFS, COUNTIF, COUNTIFS
 **Microsoft Excel - Useful Tools & Tips**
@@ -305,7 +305,7 @@ Excel tips & tricks Part 3
 
 Excel tips & tricks Part 4
 <https://365datascience.teachable.com/courses/enrolled/233558>
-![1 STARTED THE WITH I-OTS OF PROBLEns. BUT NOW, AFTER HOVE AND HOVRS OF IADRK, 1 HAVE LOTS OF PROBLEt1S A SPREADSHEET y) ](media/Intro-to-Microsoft-Excel---Google-Sheets-image2.png){width="2.8541666666666665in" height="4.53125in"}
+![1 STARTED THE WITH I-OTS OF PROBLEns. BUT NOW, AFTER HOVE AND HOVRS OF IADRK, 1 HAVE LOTS OF PROBLEt1S A SPREADSHEET y) ](media/Intro-to-Microsoft-Excel---Google-Sheets-image2.png)
 [Google Sheets - Full Course](https://www.youtube.com/watch?v=N2opj8XzYBY&ab_channel=freeCodeCamp.org)
 -   =GOOGLEFINANCE("GOOGL")
 -   =image("https://image.jpg")

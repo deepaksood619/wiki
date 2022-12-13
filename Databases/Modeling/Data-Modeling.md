@@ -7,7 +7,7 @@ Modified: 2021-07-24 17:22:24 +0500
 ---
 
 **Data modeling**in[software engineering](https://en.wikipedia.org/wiki/Software_engineering)is the process of creating a[data model](https://en.wikipedia.org/wiki/Data_model)for an[information system](https://en.wikipedia.org/wiki/Information_system)by applying certain formal techniques.
-![Activity Model Detailed Data Requirements Technical Environment Performance Considerations Business Data Create/U pd ate Logical Data Model Create/Update Physical Data Model Create/Update Data Conceptual Data Model Entities/Subtypes Attributes Relationships Integrity Rules Physical Data Model Tables Columns Keys/lndices Triggers Data ](media/Data-Modeling-image1.png){width="5.0in" height="3.6666666666666665in"}
+![Activity Model Detailed Data Requirements Technical Environment Performance Considerations Business Data Create/U pd ate Logical Data Model Create/Update Physical Data Model Create/Update Data Conceptual Data Model Entities/Subtypes Attributes Relationships Integrity Rules Physical Data Model Tables Columns Keys/lndices Triggers Data ](media/Data-Modeling-image1.png)
 
 The data modeling process. The figure illustrates the way data models are developed and used today . A[conceptual data model](https://en.wikipedia.org/wiki/Conceptual_schema)is developed based on the data[requirements](https://en.wikipedia.org/wiki/Requirement)for the application that is being developed, perhaps in the context of an[activity model](https://en.wikipedia.org/wiki/Activity_diagram). The data model will normally consist of entity types, attributes, relationships, integrity rules, and the definitions of those objects. This is then used as the start point for interface or database design.
 <https://en.wikipedia.org/wiki/Data_modeling>
@@ -37,7 +37,7 @@ b.  **Logical:**Defines**HOW**the system should be implemented regardless of the
 
 c.  **Physical:** This Data Model describes**HOW**the system will be implemented using a specific DBMS system. This model is typically created by DBA and developers. The purpose is actual implementation of the database.
 
-![Process Models Data Requirements Technical Requirements Performance Requirements Business Data Logical Data Modeling Physical Data Modeling Create/Update Data iCal ata Mod Physical ta Mod Data ](media/Data-Modeling-image2.png){width="5.0in" height="3.5in"}
+![Process Models Data Requirements Technical Requirements Performance Requirements Business Data Logical Data Modeling Physical Data Modeling Create/Update Data iCal ata Mod Physical ta Mod Data ](media/Data-Modeling-image2.png)
 <https://www.guru99.com/data-modelling-conceptual-logical.html>
 **Tenets of NoSQL Data Modeling**
 -   Understand the use case
@@ -87,21 +87,21 @@ Then we'll discuss the pros and cons of alternative data modeling patterns, with
 -   Solution
     -   **Extra Columns**
 
-![TABLE id int. (11) title text imdb index Title ( NOT NULL AUTO INCREMENT PRIMARY KEY, NOT NULL, varchar(12) DEFAULT NULL, kind_id int(ll) NULL, production_year int ( II ) DEFAULT NULL, imdb_id int(ll) DEFAULT NULL, phonetic code varchar( 5 ) extra extra extra extra extra extra dat a 1 data2 data3 data4 data5 data6 TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT DEPAtLT NULL, NULL, NULL, NULL, NULL, NULL, NULL, use for whatever comes up that we ddnt think of at the Start of the ](media/Data-Modeling-image3.jpg){width="5.0in" height="2.4583333333333335in"}
+![TABLE id int. (11) title text imdb index Title ( NOT NULL AUTO INCREMENT PRIMARY KEY, NOT NULL, varchar(12) DEFAULT NULL, kind_id int(ll) NULL, production_year int ( II ) DEFAULT NULL, imdb_id int(ll) DEFAULT NULL, phonetic code varchar( 5 ) extra extra extra extra extra extra dat a 1 data2 data3 data4 data5 data6 TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT TEXT DEFAULT DEPAtLT NULL, NULL, NULL, NULL, NULL, NULL, NULL, use for whatever comes up that we ddnt think of at the Start of the ](media/Data-Modeling-image3.jpg)
 -   **Entity-Attribute-Value**
 
 Store each attribute in a row instead of a column
 
-![CREATE TABLE Attributes ( entity INT NOT NULL, attribute VARCHAR(20) NOT NULL, value TEXT , FOREIGN KEY (entity) REFERENCES Title (id) ](media/Data-Modeling-image4.jpeg){width="3.125in" height="1.2916666666666667in"}
-![SELECT * entity 207468 207468 207468 207468 FROM Attributes ; attribute title production_year rating length value Gold f in ger 1964 7.8 110 min ](media/Data-Modeling-image5.jpeg){width="3.6666666666666665in" height="1.5416666666666667in"}
+![CREATE TABLE Attributes ( entity INT NOT NULL, attribute VARCHAR(20) NOT NULL, value TEXT , FOREIGN KEY (entity) REFERENCES Title (id) ](media/Data-Modeling-image4.jpeg)
+![SELECT * entity 207468 207468 207468 207468 FROM Attributes ; attribute title production_year rating length value Gold f in ger 1964 7.8 110 min ](media/Data-Modeling-image5.jpeg)
 -   **Class Table Inheritance**
     -   Some attributes apply to all, other attributes apply to one subtype or the other
     -   Title table
 
-![CREATE TABLE id int (11) title text imdb index Title ( NOT NULL AUTO INCREMENT PRIMARY KEY, NOT NULL, varchar(12) DEFAULT NULL, kind id int(ll) NOT NULL, production _ year int (11 ) DEFAULT NULL, imdb id int(ll) DEFAULT NULL, phonetic code varchar( 5 ) DEFAULT NULL , episode of_id int( 11) DEFAULT NULL, season nr int( 11) DEFAULT NULL, only for tv shows episode_nr int( 11) DEFAULT NULL, series_years varchar( 49) DEFAULT NULL, title crc32 int( 10) unsigned DEFAULT NULL ](media/Data-Modeling-image6.jpeg){width="5.0in" height="2.3020833333333335in"}
+![CREATE TABLE id int (11) title text imdb index Title ( NOT NULL AUTO INCREMENT PRIMARY KEY, NOT NULL, varchar(12) DEFAULT NULL, kind id int(ll) NOT NULL, production _ year int (11 ) DEFAULT NULL, imdb id int(ll) DEFAULT NULL, phonetic code varchar( 5 ) DEFAULT NULL , episode of_id int( 11) DEFAULT NULL, season nr int( 11) DEFAULT NULL, only for tv shows episode_nr int( 11) DEFAULT NULL, series_years varchar( 49) DEFAULT NULL, title crc32 int( 10) unsigned DEFAULT NULL ](media/Data-Modeling-image6.jpeg)
 -   Title table with subtype tables
 
-![CREATE TABLE Title ( id int(ll) NOT NULL AUTO INCREMENT PRIMARY KEY, title text NOT NULL, imdb index varehar(12) DEFAULT NULL, kind id int(ll) NOT NULL, production_year int(ll) DEFAULT NULL, imdb id int(ll) DEFAULT NULL, phonetie_eode varchar( 5) DEFAULT NULL, title_erc32 int(10) unsigned DEFAULT NULL, PRIMARY KEY (id) i; CREATE TABLE Film ( id int(ll) NOT NULL PRIMARY KEY , aspect _ ratio varchar(20) , FOREIGN KEY (id) REFERENCES CREATE TABLE TVShow ( id int(ll) NOT NULL PRIMARY KEY episode_of id int(ll) DEFAULT NULL, season_nr int(ll) DEFAULT NULL, episode nr int(ll) DEFAULT NULL, series_years varchar(49) DEFAULT NULL, FOREIGN KEY (id) REFERENCES Title( {d) i; ](media/Data-Modeling-image7.jpeg){width="5.0in" height="2.2916666666666665in"}
+![CREATE TABLE Title ( id int(ll) NOT NULL AUTO INCREMENT PRIMARY KEY, title text NOT NULL, imdb index varehar(12) DEFAULT NULL, kind id int(ll) NOT NULL, production_year int(ll) DEFAULT NULL, imdb id int(ll) DEFAULT NULL, phonetie_eode varchar( 5) DEFAULT NULL, title_erc32 int(10) unsigned DEFAULT NULL, PRIMARY KEY (id) i; CREATE TABLE Film ( id int(ll) NOT NULL PRIMARY KEY , aspect _ ratio varchar(20) , FOREIGN KEY (id) REFERENCES CREATE TABLE TVShow ( id int(ll) NOT NULL PRIMARY KEY episode_of id int(ll) DEFAULT NULL, season_nr int(ll) DEFAULT NULL, episode nr int(ll) DEFAULT NULL, series_years varchar(49) DEFAULT NULL, FOREIGN KEY (id) REFERENCES Title( {d) i; ](media/Data-Modeling-image7.jpeg)
 -   Pros
     -   Best to support a finite set of subtypes, which are likely unchanging after creation
     -   Data types and contraints work normally

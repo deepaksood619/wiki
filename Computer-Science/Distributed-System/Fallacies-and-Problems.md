@@ -50,7 +50,7 @@ The effects of the fallacies
 <https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-2-b8ff29beed56>
 **Byzantine Generals' Problem / Two Generals' Problem**
 
-![COMMANDER "he said 'retreat•" Figure 1 "attek" LIEUTENANT LIEUTENANT LIEUTENANT The one with stripes is the traitor because of which a consensus cannot be reached COMMANDER *'he said •retreat*" Figure 2 " retreat" LIEUTENANT 2 ](media/Fallacies-and-Problems-image1.jpg){width="5.0in" height="5.885416666666667in"}
+![COMMANDER "he said 'retreat•" Figure 1 "attek" LIEUTENANT LIEUTENANT LIEUTENANT The one with stripes is the traitor because of which a consensus cannot be reached COMMANDER *'he said •retreat*" Figure 2 " retreat" LIEUTENANT 2 ](media/Fallacies-and-Problems-image1.jpg)
 
 All participating nodes have to agree upon every message that is transmitted between the nodes. If a group of nodes is corrupt or the message that they transmit is corrupt then still the network as a whole should not be affected by it and should resist this 'Attack'. In short, the network in its entirety has to agree upon every message transmitted in the network. This agreement is called as**consensus**.
 **Two Generals Problem**
@@ -62,7 +62,7 @@ It is related to the more general[Byzantine Generals](https://en.wikipedia.org/w
 Imagine two armies, led by generals, preparing to attack a fortified city. Armies are located on the two sides of the city and can succeed in their siege only if their attack is synchronized. They can communicate by sending messengers and already have a devised attack plan. Now they only have to agree on the fact that they both will proceed with the attack, otherwise the attack can not succeed.
 GeneralAsends a messageMSG(attack at 7PM)stating that their army will proceed with the attack. Once messenger is dispatched,Adoesn't know whether messenger has arrived or no. GeneralB, upon receiving the message, has to send an acknowledgementACK(MSG(attack at 7PM)). However, messenger carrying this acknowledgement might get captured or fail to deliver, so nowBdoesn't have any way of knowing if the messenger has successfully delivered it. To be sure about it,Bhas to wait for a second-order acknowledgementACK(ACK(MSG(attack at 7PM)stating that A had received an acknowledgement for the acknowledgement.
 
-![GeneraI А Fortified City General В ](media/Fallacies-and-Problems-image2.png){width="5.75in" height="2.03125in"}
+![GeneraI А Fortified City General В ](media/Fallacies-and-Problems-image2.png)
 
 No amount of further confirmations can solve the problem, as the generals will be oneACKaway from knowing if they can safely proceed with the attack. Generals are doomed to wonder if the message carrying this last acknowledgment has reached the destination.
 <https://medium.com/all-things-ledger/the-byzantine-generals-problem-168553f31480>

@@ -27,8 +27,8 @@ SRS - Simple Random Sample, is a sample taken so that each member in a set of n 
 
     d.  Binomial Distribution
 
-![10 1--1 01 FI ](media/Binomial-Random-Variables-image1.png){width="5.0in" height="2.78125in"}
-![(d-D ま ( 乞 ・ 0 ど 0 一 7 ・ 0 ノ 。 。 し 0 豸 ・ 0 コ 。 0 と ー --- 丿 0 つ 5 CIO 」 ](media/Binomial-Random-Variables-image2.png){width="5.0in" height="1.7708333333333333in"}
+![10 1--1 01 FI ](media/Binomial-Random-Variables-image1.png)
+![(d-D ま ( 乞 ・ 0 ど 0 一 7 ・ 0 ノ 。 。 し 0 豸 ・ 0 コ 。 0 と ー --- 丿 0 つ 5 CIO 」 ](media/Binomial-Random-Variables-image2.png)
 e.  Binompdf (Binomial Probability Distribution Function) and Binomcdf (Binomial Cumulative Distribution Function) functions
 
 f.  Bimodal distribution
@@ -41,10 +41,10 @@ h.  Bernoulli distribution
 -   Follow Binomial Distribution (**Central limit theorem**, says that under large number of trials like 3000 balls a binomial distribution approximates a normal distribution)
 -   **Pascal's Triangle**
 
-![Image result for pascal's triangle](media/Binomial-Random-Variables-image3.png){width="5.0in" height="3.875in"}
+![Image result for pascal's triangle](media/Binomial-Random-Variables-image3.png)
 -   **Creates Fibonacci Series**
 
-![Image result for pascal's triangle with diagonals](media/Binomial-Random-Variables-image4.gif){width="3.7916666666666665in" height="2.3125in"}-   **Rows gives sequence of coefficients in binomial powers**
+![Image result for pascal's triangle with diagonals](media/Binomial-Random-Variables-image4.gif)-   **Rows gives sequence of coefficients in binomial powers**
 
 **(a + b)^2^ = a^2^ + 2.a.b + b^2^ [FOIL - First, Outer, Inner, Last]**
 

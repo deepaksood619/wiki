@@ -39,7 +39,7 @@ Another point to think about is to not cache data that is fast to retrieve anywa
 When a system writes data to cache, it must at some point write that data to the backing store as well. The timing of this write is controlled by what is known as thewrite policy.
 -   **Write-through**
 
-![1. Data written to the Cache Cache & Database 2. Data written to the both are always in Database sync ](media/Caches---Caching-image1.png){width="3.7708333333333335in" height="2.4583333333333335in"}
+![1. Data written to the Cache Cache & Database 2. Data written to the both are always in Database sync ](media/Caches---Caching-image1.png)
 write is done synchronously both to the cache and to the backing store. The significance here is not the order in which it happens or whether it happens in parallel. The significance is that I/O completion is only confirmed once the data has been written to both places.
 -   **Advantage:**Ensures fast retrieval while making sure the data is in the backing store and is not lost in case the cache is disrupted.
 -   **Disadvantage:**Writing data will experience latency as you have to write to two places every time.
@@ -47,7 +47,7 @@ write is done synchronously both to the cache and to the backing store. The sign
 
 The write-through policy is good for applications that has more reads than writes. This will result in slightly higher write latency but low read latency. So, it's ok to spend a bit longer writing once, but then benefit from reading frequently with low latency.-   **Write-back(also calledwrite-behind)**
 
-![1. Data written to the Cache 2. Asynchronous replication between Cache & Database ](media/Caches---Caching-image2.png){width="3.5625in" height="2.46875in"}
+![1. Data written to the Cache 2. Asynchronous replication between Cache & Database ](media/Caches---Caching-image2.png)
 Initially, writing is done only to the cache. The write to the backing store is postponed until the modified content is about to be replaced by another cache block.
 Using the write-back policy, data is written to the cache and immediately I/O completion is confirmed. The data is then typically also written to the backing store in the background but the completion confirmation is not blocked on that.-   **Advantage:**Low latency and high throughput for write-intensive applications.
 -   **Disadvantage:**There is data availability risk because the cache could fail (and so suffer from data loss) before the data is persisted to the backing store. This result in the data being lost.
@@ -55,7 +55,7 @@ Using the write-back policy, data is written to the cache and immediately I/O co
 
 The write-back policy is the best performer for mixed workloads as both read and write I/O have similar response time levels. In reality, you can add resiliency (e.g. by duplicating writes) to reduce the likelihood of data loss.-   **Write-around**
 
-![Cache queries database for missing entries Data written to the database ](media/Caches---Caching-image3.png){width="4.15625in" height="2.7291666666666665in"}
+![Cache queries database for missing entries Data written to the database ](media/Caches---Caching-image3.png)
 Using the write-around policy, data is written only to the backing store without writing to the cache. So, I/O completion is confirmed as soon as the data is written to the backing store.
 -   **Advantage:**Good for not flooding the cache with data that may not subsequently be re-read.
 -   **Disadvantage:**Reading recently written data will result in a cache miss (and so a higher latency) because the data can only be read from the slower backing store.
@@ -171,7 +171,7 @@ Disadvantages:
 
 In[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture),cache coherenceis the uniformity of shared resource data that ends up stored in multiple[local caches](https://en.wikipedia.org/wiki/Cache_(computing)). When clients in a system maintain[caches](https://en.wikipedia.org/wiki/CPU_cache)of a common memory resource, problems may arise with incoherent data, which is particularly the case with[CPUs](https://en.wikipedia.org/wiki/Central_processing_unit)in a[multiprocessing](https://en.wikipedia.org/wiki/Multiprocessing)system.
 In the illustration, consider both the clients have a cached copy of a particular memory block from a previous read. Suppose the client on the bottom updates/changes that memory block, the client on the top could be left with an invalid cache of memory without any notification of the change. Cache coherence is intended to manage such conflicts by maintaining a coherent view of the data values in multiple caches.
-![](media/Caches---Caching-image4.png){width="3.8541666666666665in" height="1.65625in"}
+![](media/Caches---Caching-image4.png)
 **Requirements for cache coherence**
 
 **Write Propagation**

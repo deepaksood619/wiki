@@ -12,14 +12,14 @@ A process is basically a program in execution. The execution of a process must p
 
 When a program is loaded into the memory and it becomes a process, it can be divided into four sections ─ stack, heap, text, and data.
 
-![1 ](media/Concepts-image1.jpg){width="2.9791666666666665in" height="3.9479166666666665in"}
+![1 ](media/Concepts-image1.jpg)
 -   Stack:The process Stack contains the temporary data, such as method/function parameters, return address, and local variables.
 -   Heap:This is dynamically allocated memory to a process during its run time.
 -   Text:This includes the current activity represented by the value of Program Counter and the contents of the processor's registers.
 -   Data:This section contains the global and static variables.
 When a process executes, it passes through different states. These stages may differ in different operating systems, and the names of these states are also not standardized. In general, a process can have one of the following five states at a time:
 
-![Start Ready Running Wait Terminated ](media/Concepts-image2.jpg){width="6.25in" height="2.09375in"}
+![Start Ready Running Wait Terminated ](media/Concepts-image2.jpg)
 -   Start:The initial state when a process is first started/created.
 -   Ready:The process is waiting to be assigned to a processor. Ready processes are waiting to have the processor allocated to them by the operating system so that they can run. A process may come into this state after theStartstate, or while running it by but getting interrupted by the scheduler to assign CPU to some other process.
 -   Running:Once the process has been assigned to a processor by the OS scheduler, the process state is set to running and the processor executes its instructions.
@@ -27,7 +27,7 @@ When a process executes, it passes through different states. These stages may di
 -   Terminated or Exit:Once the process finishes its execution, or it is terminated by the operating system, it is moved to the terminated state where it waits to be removed from main memory.
 A Process Control Block is a data structure maintained by the Operating System for every process. The PCB is identified by an integer process ID (PID). A PCB keeps all the information needed to keep track of a process as listed below:
 
-![Process ID State Pointer Priority Program counter CPU registers I/O information Accounting information etc.... ](media/Concepts-image3.jpg){width="2.84375in" height="4.375in"}
+![Process ID State Pointer Priority Program counter CPU registers I/O information Accounting information etc.... ](media/Concepts-image3.jpg)
 -   Process State:The current state of the process --- whether it is ready, running, waiting, or whatever.
 -   Process Privileges:This is required to allow/disallow access to system resources.
 -   Process ID:Unique identification for each of the processes in the operating system.
@@ -49,7 +49,7 @@ Processes can communicate with each other in two ways: Shared Memory and Message
 Let's say there are two processes: the Producer and the Consumer. The producer produces some item and the Consumer consumes that item. The two processes shares a common space or memory location known as the "buffer," where the item produced by the Producer is stored and from where the Consumer consumes the item if needed.
 There are two versions of this problem: the first one is known as the unbounded buffer problem, in which the Producer can keep on producing items and there is no limit on the size of the buffer. The second one is known as the bounded buffer problem, in which the Producer can produce up to a certain number of items, and after that it starts waiting for the Consumer to consume them.
 
-![stack heap data shared memory (mapped) text Process PI shared memory Shared Memory stack heap data shared memory (mapped) text Process P2 ](media/Concepts-image4.png){width="7.083333333333333in" height="3.5416666666666665in"}
+![stack heap data shared memory (mapped) text Process PI shared memory Shared Memory stack heap data shared memory (mapped) text Process P2 ](media/Concepts-image4.png)
 
 In the bounded buffer problem, the Producer and the Consumer will share some common memory. Then the Producer will start producing items. If the total number of produced items is equal to the size of buffer, the Producer will wait until they're consumed by the Consumer.
 Similarly, the Consumer first checks for the availability of the item, and if no item is available, the Consumer will wait for the Producer to produce it. If there are items available, the Consumer will consume them.
@@ -59,7 +59,7 @@ In this method, processes communicate with each other without using any kind of 
 -   Establish a communication link (if a link already exists, no need to establish it again.)
 -   Start exchanging messages using basic primitives. We need at least two primitives: send(message, destination) orsend(message) andreceive(message, host) or receive(message)
 
-![Big Picture Ooit sleep and wakeup oute*es semaphores shared memory message passing 0 communication? ](media/Concepts-image5.png){width="5.0in" height="3.28125in"}
+![Big Picture Ooit sleep and wakeup oute*es semaphores shared memory message passing 0 communication? ](media/Concepts-image5.png)
 
 The message size can be fixed or variable. If it is a fixed size, it is easy for the OS designer but complicated for the programmer. If it is a variable size, then it is easy for the programmer but complicated for the OS designer. A standard message has two parts: aheaderand abody.
 Theheaderis used for storing the Message type, destination id, source id, message length, and control information. The control information contains information like what to do if it runs out of buffer space, the sequence number, and its priority. Generally, the message is sent using the FIFO style.
@@ -70,7 +70,7 @@ AnI/O systemis required to take an application I/O request and send it to the ph
 -   **Block devices:**A block device is one with which the driver communicates by sending entire blocks of data. For example, hard disks, USB cameras, Disk-On-Key, and so on.
 -   **Character Devices:**A character device is one with which the driver communicates by sending and receiving single characters (bytes, octets). For example, serial ports, parallel ports, sounds cards, and so on.
 
-![Memory Memory CPU Controller Monitor Video Controller keyboard Keyboard Controller USB Drive USB Controller Disk Drive Disk Controller ](media/Concepts-image6.jpg){width="5.0in" height="1.96875in"}
+![Memory Memory CPU Controller Monitor Video Controller keyboard Keyboard Controller USB Drive USB Controller Disk Drive Disk Controller ](media/Concepts-image6.jpg)
 The CPU must have a way to pass information to and from an I/O device. There are three approaches available to communicate with the CPU and Device.
 1.  **Special Instruction I/O**
 
@@ -79,7 +79,7 @@ This uses CPU instructions that are specifically made for controlling I/O device
 
 When using memory-mapped I/O, the same address space is shared by memory and I/O devices. The device is connected directly to certain main memory locations so that the I/O device can transfer block of data to/from the memory without going through the CPU.
 
-![CPU Data I/O Commands 1/0 Device Data Memory ](media/Concepts-image7.jpg){width="4.09375in" height="3.0729166666666665in"}
+![CPU Data I/O Commands 1/0 Device Data Memory ](media/Concepts-image7.jpg)
 
 While using memory mapped I/O, the OS allocates buffer in the memory and informs the I/O device to use that buffer to send data to the CPU. The I/O device operates asynchronously with the CPU, and interrupts the CPU when finished.
 The advantage to this method is that every instruction which can access memory can be used to manipulate an I/O device. Memory-mapped I/O is used for most high-speed I/O devices like disks and communication interfaces.
@@ -107,7 +107,7 @@ Simply put, virtualization creates the environments and resources you need from 
 
 A distributed file system is a client/server-based application that allows clients to access and process data stored on the server as if it were on their own computer. When a user accesses a file on the server, the server sends the user a copy of the file, which is cached on the user's computer while the data is being processed and is then returned to the server.
 Ideally, a distributed file system organizes file and directory services of individual servers into a global directory in such a way that remote data access is not location-specific but is identical from any client. All files are accessible to all users of the global file system and organization is hierarchical and directory-based.
-![Node 1 DataNode Process Local File System Node 2 DataNode Process Local File System Master Node NameNode Process File System Metadata Node 3 DataNode Process Local File System Node N DataNode Process Local File Sustem HDFS Data Blocks HDFS ](media/Concepts-image8.png){width="6.177083333333333in" height="3.4479166666666665in"}
+![Node 1 DataNode Process Local File System Node 2 DataNode Process Local File System Master Node NameNode Process File System Metadata Node 3 DataNode Process Local File System Node N DataNode Process Local File Sustem HDFS Data Blocks HDFS ](media/Concepts-image8.png)
 
 Since more than one client may access the same data simultaneously, the server must have a mechanism in place (such as maintaining information about the times of access) to organize updates so that the client always receives the most current version of data and that data conflicts do not arise. Distributed file systems typically use file or database replication (distributing copies of data on multiple servers) to protect against data access failures.
 Sun Microsystems' Network File System ([NFS](http://searchenterprisedesktop.techtarget.com/definition/Network-File-System)), Novell[NetWare](http://searchnetworking.techtarget.com/definition/NetWare), Microsoft's Distributed File System, and IBM's DFS are some examples of distributed file systems.
@@ -116,7 +116,7 @@ Sun Microsystems' Network File System ([NFS](http://searchenterprisedesktop.tech
 Distributed Shared Memory (DSM) is a resource management component of a distributed operating system that implements the shared memory model in distributed systems, which have no physically shared memory. The shared memory provides a virtual address space that is shared among all computers in a distributed system.
 In DSM, data is accessed from a shared space similar to the way that virtual memory is accessed. Data moves between secondary and main memory, as well as, between the distributed main memories of different nodes. Ownership of pages in memory starts out in some pre-defined state but changes during the course of normal operation. Ownership changes take place when data moves from one node to another due to an access by a particular process.
 
-![Distributed shared memory: goal Distributed in- memory state 2 read/write Ranks Graph IStrl Ute Storage 3 ](media/Concepts-image9.jpg){width="6.416666666666667in" height="4.8125in"}
+![Distributed shared memory: goal Distributed in- memory state 2 read/write Ranks Graph IStrl Ute Storage 3 ](media/Concepts-image9.jpg)
 
 **Advantages of Distributed Shared Memory:**
 -   Hide data movement and provide a simpler abstraction for sharing data. Programmers don't need to worry about memory transfers between machines like when using the message passing model.

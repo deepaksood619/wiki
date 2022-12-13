@@ -61,9 +61,9 @@ Envelope Encryption is an approach/process used within many applications to encr
     -   KMS is requested to decrypt the data key using the same master key as that was used to generate it.
     -   Once the plain text version of the data key is obtained then the encrypted message itself is decrypted.
 Using this approach if one wants to decrypt data, they need be authenticated with the KMS, since the master keys are only held there and never exported, and only the KMS can decrypt the data keys.
-![image](media/Cryptography-Intro_Cryptography-Terms-image1.png){width="5.0in" height="3.8541666666666665in"}
+![image](media/Cryptography-Intro_Cryptography-Terms-image1.png)
 <https://devender.me/2016/07/13/envelope-encryption/>
-![з. РпмаЛ-а Х КЕА ' (5?JJte 4. Л¯ы-Еясток • Ргнп€е • Ргша}с • %qaqenhle ](media/Cryptography-Intro_Cryptography-Terms-image2.png){width="5.0in" height="3.5416666666666665in"}
+![з. РпмаЛ-а Х КЕА ' (5?JJte 4. Л¯ы-Еясток • Ргнп€е • Ргша}с • %qaqenhle ](media/Cryptography-Intro_Cryptography-Terms-image2.png)
 
 <https://www.druva.com/blog/druva-tech-moments-digital-envelope-encryption/><https://crypto.stackexchange.com/questions/3965/what-is-the-main-difference-between-a-key-an-iv-and-a-nonce>
 
@@ -71,7 +71,7 @@ Using this approach if one wants to decrypt data, they need be authenticated wit
 (There's also "asymmetric" or[public key cryptography](https://en.wikipedia.org/wiki/Public-key_encryption), where the key effectively has two parts: the private key, which allows decryption and/or signing, and a public key (derived from the corresponding private key) which allows encryption and/or signature verification.)
 **An[IV](https://en.wikipedia.org/wiki/Initialization_vector)or initialization vector** is, in its broadest sense, just the initial value used to start some iterated process. The term is used in a couple of different contexts and implies different security requirements in each of them. For example,[cryptographic hash functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function)typically have a fixed IV, which is just an arbitrary constant which is included in the hash function specification and is used as the initial hash value before any data is fed in:
 
-![Diagram of a Merkle-Damgård hash function from Wikipedia](media/Cryptography-Intro_Cryptography-Terms-image3.png){width="4.15625in" height="1.9375in"}
+![Diagram of a Merkle-Damgård hash function from Wikipedia](media/Cryptography-Intro_Cryptography-Terms-image3.png)
 
 Conversely, most[block cipher modes of operation](https://en.wikipedia.org/wiki/Block_cipher_modes_of_operation)require an IV which is random and unpredictable, or at least unique for each message encrypted with a given key. (Of course,ifeach key is only ever used to encrypt a single message, one can get away with using a fixed IV.) This random IV ensures that each message encrypts differently, such that seeing multiple messages encrypted with the same key doesn't give the attacker any more information than just seeing a single long message. In particular, it ensures that encrypting thesamemessage twice yields two completely different ciphertexts, which is necessary in order for the encryption scheme to be[semantically secure](https://en.wikipedia.org/wiki/Semantic_security).
 In any case, the IV never needs to be kept secret --- if it did, it would be a key, not an IV. Indeed, in most cases, keeping the IV secret would not be practical even if you wanted to since the recipient needs to know it in order to decrypt the data (or verify the hash, etc.).

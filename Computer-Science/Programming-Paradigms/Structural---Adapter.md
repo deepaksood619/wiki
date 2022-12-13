@@ -8,7 +8,7 @@ Modified: 2020-02-10 22:38:31 +0500
 
 If there are 3 languages that need to be typed and you know a 4th language than you will not write the same thing 3 times everytime you have to write something, what we do it to create an adapter for the three languages that sit infront of 3 classes that will translate from 4th language to their specific language. All the translations will be handled by the adapter.
 But in this design pattern also we have to make 3 calls to the 3 adapters everytime. So to solve this we use facade design pattern. When using interfaces we follow facade design pattern. We will make one call to function and this function will call all other functions in the adapter.
-![Adapter pattern example](media/Structural---Adapter-image1.jpg){width="6.25in" height="6.25in"}
+![Adapter pattern example](media/Structural---Adapter-image1.jpg)
 
 So, as you can see in the picture, the purpose of the adapter is totake one interface and make it compatible with another. In programming, its purpose is the same - you'll want to use this pattern when you have some type/class and you want to make it compatible with another.
 **How to do the trick?**

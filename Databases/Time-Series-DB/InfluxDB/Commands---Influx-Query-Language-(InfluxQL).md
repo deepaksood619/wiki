@@ -31,7 +31,7 @@ $ influx -precision rfc3339
 InfluxQL is an SQL-like query language for interacting with data in InfluxDB.
 **SHOW Commands**
 
-SHOW <DATABASES, DIAGNOSTICS, MEASUREMENTS, QUERIES, SERIES, SHARDS, STATS, SUBSCRIPTIONS, TAG, USERS>
+SHOW [DATABASES, DIAGNOSTICS, MEASUREMENTS, QUERIES, SERIES, SHARDS, STATS, SUBSCRIPTIONS, TAG, USERS]
 **Schema Exploration**
 
 CREATE DATABASE parameter_series;

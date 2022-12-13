@@ -177,7 +177,7 @@ SELECT pg_terminate_backend(4887);
 While the queries are running,[retrieve locking information](https://aws.amazon.com/premiumsupport/knowledge-center/prevent-locks-blocking-queries-redshift/). To identify long-running sessions, use the following SQL query:
 
 select *,datediff(s,txn_start,getdate())/86400||' days '||datediff(s,txn_start,getdate())%86400/3600||' hrs '||datediff(s,txn_start,getdate())%3600/60||' mins '||datediff(s,txn_start,getdate())%60||' secs'
-from svv_transactions where lockable_object_type='transactionid' and pid<>pg_backend_pid() order by 3;
+from svv_transactions where lockable_object_type='transactionid' and pid <> pg_backend_pid() order by 3;
 Then, run[PG_TERMINATE_BACKEND](https://docs.aws.amazon.com/redshift/latest/dg/PG_TERMINATE_BACKEND.html)to stop any long-running transactions. To prevent these sessions from remaining open, be sure that all transactions are closed. For example, make sure that all transactions starting with a[BEGIN](https://docs.aws.amazon.com/redshift/latest/dg/r_BEGIN.html)statement are also accompanied by anENDorCOMMITstatement.
 
 Then, run the following SQL query to identify queries consuming high CPU:
@@ -190,7 +190,7 @@ where query_cpu_usage_percent is not null and starttime > sysdate - 1
 order by query_cpu_usage_percent desc;
 To analyze segment and slice-level execution steps for each query, run the following query:
 
-select query, segment, step, label ,is_rrscan as rrS, is_diskbased as disk, is_delayed_scan as DelayS, min(start_time) as starttime, max(end_time) as endtime, datediff(ms, min(start_time), max(end_time)) as "elapsed_msecs", sum(rows) as row_s , sum(rows_pre_filter) as rows_pf, CASE WHEN sum(rows_pre_filter) = 0 THEN 100 ELSE sum(rows)::float/sum(rows_pre_filter)::float*100 END as pct_filter, SUM(workmem)/1024/1024 as "Memory(MB)", SUM(bytes)/1024/1024 as "MB_produced" from svl_query_report where query in (<query_ids>) group by query, segment, step, label , is_rrscan, is_diskbased , is_delayed_scan order by query, segment, step, label;-   Reduce query concurrency per queue to provide more memory to each query slot. This reduction helps queries that require more memory to run more efficiently.
+select query, segment, step, label ,is_rrscan as rrS, is_diskbased as disk, is_delayed_scan as DelayS, min(start_time) as starttime, max(end_time) as endtime, datediff(ms, min(start_time), max(end_time)) as "elapsed_msecs", sum(rows) as row_s , sum(rows_pre_filter) as rows_pf, CASE WHEN sum(rows_pre_filter) = 0 THEN 100 ELSE sum(rows)::float/sum(rows_pre_filter)::float*100 END as pct_filter, SUM(workmem)/1024/1024 as "Memory(MB)", SUM(bytes)/1024/1024 as "MB_produced" from svl_query_report where query in (query_ids) group by query, segment, step, label , is_rrscan, is_diskbased , is_delayed_scan order by query, segment, step, label;-   Reduce query concurrency per queue to provide more memory to each query slot. This reduction helps queries that require more memory to run more efficiently.
 -   Enable[short query acceleration](https://docs.aws.amazon.com/redshift/latest/dg/wlm-short-query-acceleration.html)(SQA) to prioritize short-running queries over long-running queries.
 **UNLOAD**
 

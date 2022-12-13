@@ -13,10 +13,10 @@ Modified: 2018-05-26 00:40:01 +0500
 3.  [Special right triangles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-special-right-triangles)
     -   30-60-90 triangle rule
 
-![A 30-60-90-degree right triangle.](media/Right-Triangles-and-Geometry-image1.jpg){width="4.15625in" height="2.6666666666666665in"}
+![A 30-60-90-degree right triangle.](media/Right-Triangles-and-Geometry-image1.jpg)
 4.  [Introduction to the trigonometric ratios](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-trig-ratios-intro)
 
-![〇 ` も 」 の " 5 の ① い 5 の 一 の 0 の 一 & S キ 95 、 す 5 ① い Ad レ ](media/Right-Triangles-and-Geometry-image2.png){width="5.0in" height="2.7916666666666665in"}
+![〇 ` も 」 の " 5 の ① い 5 の 一 の 0 の 一 & S キ 95 、 す 5 ① い Ad レ ](media/Right-Triangles-and-Geometry-image2.png)
 Mnemonic - SOH CAH TOA
 
 Sine - Opposite / Hypotenuse
@@ -24,7 +24,7 @@ Sine - Opposite / Hypotenuse
 Cosine - Adjacent / Hypotenuse
 
 Tangent - Opposite / Adjacent
-![o sin(A) --- cos(A) tan (A) adjacent opposite hypotenuse adjacent hypotenuse opposite adjacent ](media/Right-Triangles-and-Geometry-image3.png){width="5.0in" height="2.90625in"}
+![o sin(A) --- cos(A) tan (A) adjacent opposite hypotenuse adjacent hypotenuse opposite adjacent ](media/Right-Triangles-and-Geometry-image3.png)
 5.  [Solving for a side in a right triangle using the trigonometric ratios:](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-solve-for-a-side)
 
 6.  [Solving for an angle in a right triangle using the trigonometric ratios](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-solve-for-an-angle)

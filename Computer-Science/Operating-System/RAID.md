@@ -72,19 +72,19 @@ Many configurations other than the basic numbered RAID levels are possible, and 
 **Striping**
 
 We all know that,RAID is collection of multiple disk'sand in these disk predefined number of contiguously addressable disk blocks are defined which are called asstripsand collection of such strips in aligned in multiple disk is calledstripe.
-![RAID Striping](media/RAID-image1.png){width="5.96875in" height="3.28125in"}
+![RAID Striping](media/RAID-image1.png)
 Suppose you have[hard disk](https://www.storagetutorials.com/add-storage-vm-host-without-reboot/), which is a collection of multiple addressable block and these blocks are stacked together and called strip and you have multiple such hard disk, which are place parallel or serially. Then such combination of disk is calledstripe.
 Note:Without mirroring and parity, Striped RAID cannot protect data but striping may significantly improve I/O performance.
 **Mirroring**
 
 Mirroringis very simple to understand and one of the most reliable way of data protection. In this technique, you just make amirror copy of diskwhich you want to protect and in this way you have two copies of data. In the time of failure, the controller use second disk to serve the data, thus making data availability continuous.
-![RAID Mirroring](media/RAID-image2.png){width="5.0625in" height="3.6979166666666665in"}
+![RAID Mirroring](media/RAID-image2.png)
 When the failed disk is replaced with a new disk, the controller copies the data from the surviving disk of themirrored pair. Data is simultaneously recorded on both the disk. Though this type of RAID gives you highest availability of data but it is costly as it requires double amount of disk space and thus increasing the cost.
 **Parity**
 
 As explained above, mirroring involves high cost, so to protect the data new technique is used with striping called parity. This is reliable andlow cost solution for data protection. In this method and additional HDD or disk is added to the stripe width to hold parity bit.
 Parity is a redundancy check that ensures full protection of data without maintaining a full set of duplicate data.
-![RAID Parity](media/RAID-image3.png){width="6.1875in" height="3.7291666666666665in"}
+![RAID Parity](media/RAID-image3.png)
 The parity bits are used to re-create the data at the time of failure. Parity information can be stored on separate,dedicated HDDsor distributed across all the drives in a RAID set. In the above image, parity is stored on a separate disk.
 The first three disks, labeled D, contain the data. The fourth disk, labeled P, stores the parity information, which in this case is the sum of the elements in each row. Now, if one of the Disks (D) fails, the missing value can be calculated by subtracting the sum of the rest of the elements from the parity value.
 <https://www.storagetutorials.com/understanding-concept-striping-mirroring-parity/>

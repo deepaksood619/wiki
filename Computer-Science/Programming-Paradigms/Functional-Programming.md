@@ -38,7 +38,7 @@ Name/value binding is fixed once bound
 -   Pass code as function parameters
 -   Ex
 
-![H tkr-orde ](media/Functional-Programming-image1.png){width="4.21875in" height="0.9791666666666666in"}
+![H tkr-orde ](media/Functional-Programming-image1.png)
 Here map can use computers parallel programming capabilities and split the list in multiple lists and then perform parallel operation as opposed to for loop.
 
 Hence Map-Reduce, without Reduce.

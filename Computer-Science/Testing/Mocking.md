@@ -188,8 +188,6 @@ Or you can create a Mock like this:
 
 Traceback (most recent call last):
 
-File "<stdin>", line 1, in <module>
-
 File "/home/moose/.pyenv/versions/3.8.1/lib/python3.8/unittest/mock.py", line 635, in __getattr__
 
 raise AttributeError("Mock object has no attribute %r" % name)
@@ -198,7 +196,7 @@ AttributeError: Mock object has no attribute 'foo'# That is ok:
 
 >>> a.datetime
 
-<Mock name='mock.datetime' id='139883597784544'>
+< Mock name='mock.datetime' id='139883597784544' >
 The next parameter of**patch** is **autospec**. Where spec looks at the mocked object,autospecalso looks at the attributes of that object (and their attributes and those attributes, ...).
 Finally, there is**spec_set**. That one prevents you from setting attributes that don't exist.
 Usually, I would useautospec=Trueandspec_set=Trueeverywhere. Code which uses introspection might be an example where you don't want that.

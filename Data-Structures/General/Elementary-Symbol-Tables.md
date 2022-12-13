@@ -103,18 +103,20 @@ Goal: Preprocess a text corpus to support concordance queries: given a word, fin
 Sparse Matrix-vector multiplication
 
 Using symbol table, we can have space proportional to number of nonzero values. We can use hash table because the order is also not important. Keys will be the position of the nonzero element in each row and value will be the actual value.
-![Summary of the performance of symbol-table implemen Order of growth of the frequency of operations. implementation red-black BST hash table search log N It typical case insert log N delete log N ordered operations yes no t under uniform ](media/Elementary-Symbol-Tables-image1.png){width="6.75in" height="5.21875in"}
+![Summary of the performance of symbol-table implemen Order of growth of the frequency of operations. implementation red-black BST hash table search log N It typical case insert log N delete log N ordered operations yes no t under uniform ](media/Elementary-Symbol-Tables-image1.png)
 
-![String symbol table basic API String symbol table. Symbol table specialized to string keys public class voi d Value voi d Stri ngST<Va1 ue> Stri ngST() put(String key, Value get(String key) delete (String key) val) create an enu put key-value pair return value pai delete key and ct ](media/Elementary-Symbol-Tables-image2.png){width="6.75in" height="5.21875in"}
+![String symbol table basic API String symbol table.](media/Elementary-Symbol-Tables-image2.png)
 
-![implementation red-black BST hashing (linear probing) Parameters • N = number of strings • L = length of string String symbol table implementations cost summary character accesses (typical case) • R = radix search hit L + cig2N search miss clg2N insert c lg2N space (references) 4N to 16N file moby.txt actors.txt size 1.2 ME 82 ME ](media/Elementary-Symbol-Tables-image3.png){width="6.75in" height="5.21875in"}
+![implementation red-black BST hashing (linear probing) Parameters • N = number of strings • L = length of string String symbol table implementations cost summary character accesses (typical case) • R = radix search hit L + cig2N search miss clg2N insert c lg2N space (references) 4N to 16N file moby.txt actors.txt size 1.2 ME 82 ME ](media/Elementary-Symbol-Tables-image3.png)
+
 # Character Based Operations
 
-![String symbol table API Character-based operations. The string symbol table API sur useful character-based operations. Prefix match. key by sea sells she shells shore the Keys with prefix sh: she, value 4 6 3 7 5 shells, and shore. ](media/Elementary-Symbol-Tables-image4.png){width="6.75in" height="5.21875in"}
+![String symbol table API Character-based operations. The string symbol table API sur useful character-based operations. Prefix match. key by sea sells she shells shore the Keys with prefix sh: she, value 4 6 3 7 5 shells, and shore. ](media/Elementary-Symbol-Tables-image4.png)
 
-![String symbol table API public class voi d Value voi d Iterabl e<Stri ng> Iterabl e<Stri ng> Iterabl e<Stri ng> St ri ngST<Va1 ue> Stri ngST() put(String key, Value val) get (String key) delete(String key) keys() keysWithPrefix(String s) keysThatMatch(String s) create a symbol tat put key-value pair i/ value paire delete key and cor all k keys having keys that match s (w, ](media/Elementary-Symbol-Tables-image5.png){width="6.75in" height="5.21875in"}
+![String symbol table](media/Elementary-Symbol-Tables-image5.png)
 
-![Warmup: ordered iteration To iterate through all keys in sorted order: • Do inorder traversal of trie; add keys encountered to a • Maintain sequence of characters on path from root to no by sea keys ( ) key b by s se sea sel sell sells sh she shell shells by by by by sea sea sea sells sells sells b shells s O h O O s t h e o O O she she ](media/Elementary-Symbol-Tables-image6.png){width="6.75in" height="5.21875in"}
+![Warmup: ordered iteration To iterate through all keys in sorted order: • Do inorder traversal of trie; add keys encountered to a • Maintain sequence of characters on path from root to no by sea keys ( ) key b by s se sea sel sell sells sh she shell shells by by by by sea sea sea sells sells sells b shells s O h O O s t h e o O O she she ](media/Elementary-Symbol-Tables-image6.png)
 
-![Ordered iteration: Java implementation To iterate through all keys in sorted order: • Do inorder traversal of trie; add keys encountered to a • Maintain sequence of characters on path from root to no public Iterabl e<Stri keys() Queue<String> queue = new Queue<String>() ; col lect(root, queue) ; return queue; private void collect (Node x, if (x == null) return; sequence of ch on path from rl String prefix, Queue<Strn ](media/Elementary-Symbol-Tables-image7.png){width="6.75in" height="5.21875in"}
-![String symbol tables summary A success story in algorithm design and analysis. Red-black BST. • Performance guarantee: log N key compares. • Supports ordered symbol table API. Hash tables. • Performance guarantee: constant number of probes. • Requires good hash function for key type. Tries. R-way, TST. • Performance guarantee: log N characters accessed. ](media/Elementary-Symbol-Tables-image8.png){width="6.75in" height="5.21875in"}
+![Ordered iteration](media/Elementary-Symbol-Tables-image7.png)
+
+![String symbol tables summary A success story in algorithm design and analysis. Red-black BST. • Performance guarantee: log N key compares. • Supports ordered symbol table API. Hash tables. • Performance guarantee: constant number of probes. • Requires good hash function for key type. Tries. R-way, TST. • Performance guarantee: log N characters accessed. ](media/Elementary-Symbol-Tables-image8.png)

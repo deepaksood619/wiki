@@ -23,12 +23,12 @@ The broker also holds the sessions of all persisted clients, including subscript
 The MQTT protocol is based on TCP/IP. Both the client and the broker need to have a TCP/IP stack.
 The MQTT connection is always between one client and the broker. Clients never connect to each other directly. To initiate a connection,**the client sends a CONNECT message to the broker. The broker responds with a CONNACK message**and a status code. Once the connection is established, the broker keeps it open until the client sends a disconnect command or the connection breaks.
 
-![MQTT Connection Flow](media/Client,-Broker-&-Connection-Establishment-image1.gif){width="5.0in" height="1.5520833333333333in"}
+![MQTT Connection Flow](media/Client,-Broker-&-Connection-Establishment-image1.gif)
 **MQTT Connect**
 
 To initiate a connection, the client sends a command message to the broker. If this CONNECT message is malformed (according to the MQTT specification) or too much time passes between opening a network socket and sending the connect message, the broker closes the connection.
 
-![MQTT Connect message content](media/Client,-Broker-&-Connection-Establishment-image2.png){width="5.0in" height="3.1354166666666665in"}
+![MQTT Connect message content](media/Client,-Broker-&-Connection-Establishment-image2.png)
 
 **ClientID**
 
@@ -53,7 +53,7 @@ The CONNACK message contains two data entries:
 -   The session present flag
 -   A connect acknowledge flag
 
-![MQTT Connack contents](media/Client,-Broker-&-Connection-Establishment-image3.png){width="5.0in" height="2.96875in"}
+![MQTT Connack contents](media/Client,-Broker-&-Connection-Establishment-image3.png)
 **Session Presentflag**
 
 Thesession present flag tells the client whether the broker already has a persistent session available from previous interactions with the client. When a client connects with Clean Session set to true, the session present flag is always false because there is no session available. If a client connects with Clean Session set to false, there are two possibilities: If session information is available for the client Id. and the broker has stored session information, the session present flag is true. Otherwise, if the broker does not have any session information for the client ID, the session present flag is false. This flag was added in MQTT 3.1.1 to help clients determine whether they need to subscribe to topics or if the topics are still stored in a persistent session.

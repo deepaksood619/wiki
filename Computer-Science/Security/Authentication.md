@@ -31,7 +31,7 @@ The downside to this method of authentication, and the reason it's not utilized 
 -   SAML (Security Assertion Markup Language)
 **Basic Access Authentication (BA)**
 
-In the context of an[HTTP](https://www.wikiwand.com/en/HTTP)transaction,basic access authenticationis a method for an[HTTP user agent](https://www.wikiwand.com/en/User_agent)(e.g. a[web browser](https://www.wikiwand.com/en/Web_browser)) to provide a[user name](https://www.wikiwand.com/en/User_name)and[password](https://www.wikiwand.com/en/Password)when making a request. In basic HTTP authentication, a request contains a header field in the form ofAuthorization: Basic <credentials>, where credentials is the[Base64](https://www.wikiwand.com/en/Base64)encoding of ID and password joined by a single colon
+In the context of an[HTTP](https://www.wikiwand.com/en/HTTP)transaction,basic access authenticationis a method for an[HTTP user agent](https://www.wikiwand.com/en/User_agent)(e.g. a[web browser](https://www.wikiwand.com/en/Web_browser)) to provide a[user name](https://www.wikiwand.com/en/User_name)and[password](https://www.wikiwand.com/en/Password)when making a request. In basic HTTP authentication, a request contains a header field in the form ofAuthorization: Basic < credentials >, where credentials is the[Base64](https://www.wikiwand.com/en/Base64)encoding of ID and password joined by a single colon
 HTTP Basic authentication (BA) implementation is the simplest technique for enforcing[access controls](https://www.wikiwand.com/en/Access_controls)to web resources because it does not require[cookies](https://www.wikiwand.com/en/HTTP_cookie), session identifiers, or login pages; rather, HTTP Basic authentication uses standard fields in the[HTTP header](https://www.wikiwand.com/en/HTTP_header).
 The BA mechanism does not provide[confidentiality](https://www.wikiwand.com/en/Information_security#Confidentiality)protection for the transmitted credentials. They are merely encoded with[Base64](https://www.wikiwand.com/en/Base64)in transit and not[encrypted](https://www.wikiwand.com/en/Encryption)or[hashed](https://www.wikiwand.com/en/Cryptographic_hash)in any way. Therefore, basic authentication is typically used in conjunction with[HTTPS](https://www.wikiwand.com/en/HTTPS)to provide confidentiality.
 
@@ -47,7 +47,7 @@ Technically, digest authentication is an application of[MD5](https://www.wikiwan
 
 The client posts the login credential to the server, server verifies the credential and creates session id which is stored in server(state-full) and returned to client via set-cookie. On subsequent request the session id from the cookie is verified in the server and the request get processed. Upon logout session id will be cleared from both client cookie and server.
 
-![](media/Authentication-image1.png){width="6.0in" height="3.40625in"}
+![](media/Authentication-image1.png)
 
 **Flow**
 -   Enter login credentials

@@ -175,7 +175,7 @@ DynamoDB Global tables provide a fully managed solution for deployingmulti-regio
 DynamoDB Streamsallows you to set up a Lambda function triggered every time data is modified in a table to react to changes.Streams do not consume RCUs.
 **DynamoDB API**
 
-DynamoDB API's most notable commands via CLI: aws dynamodb <command>
+DynamoDB API's most notable commands via CLI: aws dynamodb < command >
 aws dynamodbget-itemreturns a set of attributes for the item with the given primary key. If no matching item, then it does not return any data and there will be no Item element in the response.
 
 aws dynamodbput-itemCreates a new item, or replaces an old item with a new item. If an item that has the same primary key as the new item already exists in the specified table, the new item completely replaces the existing item.

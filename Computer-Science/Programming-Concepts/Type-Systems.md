@@ -84,7 +84,7 @@ Most scripting languages have this feature as there is no compiler to do static 
 </tr>
 </tbody>
 </table>
-![Erlang Clojure Python Dynamic perl VB Strong Groovy Ruby Magik JavaScript Weak Java c Scala Haskell Static C++ ](media/Type-Systems-image1.png){width="3.3229166666666665in" height="2.7916666666666665in"}
+![Erlang Clojure Python Dynamic perl VB Strong Groovy Ruby Magik JavaScript Weak Java c Scala Haskell Static C++ ](media/Type-Systems-image1.png)
 <https://www.sitepoint.com/typing-versus-dynamic-typing/>
 # Strong Typed vs Weak Typed language
 
@@ -98,4 +98,4 @@ Thus, Python is dynamic typed and strong typed; Java is static typed and strong 
 **References**
 
 [Functional Programming: Type Systems](https://www.youtube.com/watch?v=hy1wjkcIBCU)
-![TYPE SYSTEMS ](media/Type-Systems-image2.jpg){width="3.3229166666666665in" height="1.8645833333333333in"}
+![TYPE SYSTEMS ](media/Type-Systems-image2.jpg)

@@ -26,7 +26,7 @@ Modern processors can executed multiple threads at once (multi-threading) and al
 A thread shares with its peer threads various information like code segment, data segment, and open files. When one thread alters a code segment memory item, all other threads see that.
 A thread is also called a**lightweight process**. Threads provide a way to improve application performance through parallelism. Threads represent a software approach to improving the performance of operating systems by reducing the overhead. A thread is equivalent to a classical process.
 Each thread belongs to exactly one process, and no thread can exist outside a process. Each thread represents a separate flow of control. Threads have been successfully used in implementing network servers and web servers. They also provide a suitable foundation for parallel execution of applications on shared memory multiprocessors.
-![](media/Concurrency---Threading-image1.jpg){width="7.083333333333333in" height="4.083333333333333in"}
+![](media/Concurrency---Threading-image1.jpg)
 **Advantages of threads:**
 -   They minimize the context switching time.
 -   Using them provides concurrency within a process.
@@ -40,7 +40,7 @@ Each thread belongs to exactly one process, and no thread can exist outside a pr
 
 In this case, the thread management kernel is not aware of the existence of threads. The thread library contains code for creating and destroying threads, for passing messages and data between threads, for scheduling thread execution, and for saving and restoring thread contexts. The application starts with a single thread.
 
-![](media/Concurrency---Threading-image2.png){width="4.8125in" height="2.8541666666666665in"}
+![](media/Concurrency---Threading-image2.png)
 **Advantages:**
 -   Thread switching does not require Kernel mode privileges.
 -   User level thread can run on any operating system.
@@ -54,7 +54,7 @@ In this case, the thread management kernel is not aware of the existence of thre
 In this case, thread management is done by the Kernel. There is no thread management code in the application area. Kernel threads are supported directly by the operating system. Any application can be programmed to be multithreaded. All of the threads within an application are supported within a single process.
 The Kernel maintains context information for the process as a whole and for individuals threads within the process. Scheduling by the Kernel is done on a thread basis. The Kernel performs thread creation, scheduling, and management in Kernel space. Kernel threads are generally slower to create and manage than the user threads.
 
-![](media/Concurrency---Threading-image3.png){width="4.802083333333333in" height="2.84375in"}
+![](media/Concurrency---Threading-image3.png)
 **Advantages**
 -   The Kernel can simultaneously schedule multiple threads from the same process on multiple processes.
 -   If one thread in a process is blocked, the Kernel can schedule another thread of the same process.
@@ -202,5 +202,5 @@ Python > Advanced > Concurrency
 Dijkstra's Guarded Commands - <https://en.wikipedia.org/wiki/Guarded_Command_Language>
 Communicating sequential processes **- C.A.R. Hoare**
 [Rob Pike - 'Concurrency Is Not Parallelism'](https://vimeo.com/49718712)
-![](media/Concurrency---Threading-image4.jpg){width="5.0in" height="2.8125in"}
+![](media/Concurrency---Threading-image4.jpg)
 

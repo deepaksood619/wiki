@@ -20,7 +20,7 @@ The most common authentication scheme is the "Basic" authentication scheme which
 
 Basic and Digest authentication use a four step process to authenticate users.
 
-![](media/Authentication_HTTP-Authentication-image1.jpg){width="6.53125in" height="2.9375in"}
+![](media/Authentication_HTTP-Authentication-image1.jpg)
 
 First HTTP client makes a request to the web server. Request method doesn't has to be GET it can be any method. If web server sees that the requested resource need authentication to access then it sends backs 401 Unauthorized status code along with WWW-Authenticate header. And then client displays a dialog box to take username and password as input. Once the credentials has been enter the client sends it using the Authorization header. If the credentials are correct then server responds with 200 status code and Authentication-Info header.
 
@@ -41,7 +41,8 @@ curl --header "Authorization: Basic am9objpzZWNyZXQ=" my-website.com
 
 >>> **from** requests.auth **import** HTTPBasicAuth
 >>> requests.get**(**'https://api.github.com/user'**,** auth=HTTPBasicAuth**(**'user'**,** 'pass'**))**
-<Response [200]>
+Response[200]
+
 **Cons**
 -   the username and password are sent with every request, potentially exposing them - even if sent via a secure connection
 -   connected to SSL/TLS, if a website uses weak encryption, or an attacker can break it, the usernames and passwords will be exposed immediately

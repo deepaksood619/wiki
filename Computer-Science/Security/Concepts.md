@@ -84,7 +84,7 @@ RAC method is largely context based. Example of this would be only allowing stud
 
 Information is accessed based on the responsibilities assigned to an actor or a business role
 <https://en.wikipedia.org/wiki/Access_control>
-![A CRYPTO NERD'S HIS LAPTOPS ENCRYPTED. LETS NIL.D A MIUOJ-DOUAR CWSTER To CRACK IT. NO GOODI tT's -BIT RSA! OCR EVIL WHAT ACTVALLY HAPPEN: Hts LAPrOPS ENCRYPrzD. Hin AND HIT Hin WITH $5 WRENCH HE TELLS VS THZ PA$..ORD. ](media/Concepts-image1.png){width="5.0in" height="3.0625in"}
+![A CRYPTO NERD'S HIS LAPTOPS ENCRYPTED. LETS NIL.D A MIUOJ-DOUAR CWSTER To CRACK IT. NO GOODI tT's -BIT RSA! OCR EVIL WHAT ACTVALLY HAPPEN: Hts LAPrOPS ENCRYPrzD. Hin AND HIT Hin WITH $5 WRENCH HE TELLS VS THZ PA$..ORD. ](media/Concepts-image1.png)
 **Entity vs Identity**
 
 Entity is a**thing**that exists as an**individual unit**while identity is a**set of attributes that can be used to distinguish the entity within a context**.
@@ -193,7 +193,7 @@ Secret Introduction Problem
 **Differential Privacy**
 
 Differential privacy aims to maximize the accuracy of queries from statistical databases while minimizing the chances of identifying its records - it adds noise and provides guarantees against a "privacy budget"
-![OPINIONS ON INIERNET PRIVACY PHILOSOPHER: *RIVAC€• IYPRACTGL ABOUT IN IN UHCH WR SOCI- THE NIHILIST: sacs ON Ti-Ü1, GAT-ERING ALL IHS ON ME AS IF TAE CRYPTO NOT: MY IS BERND I-AYERS OFSfrt•ETRC R-ßuc-•ÆY PE?LE 0 D(HlßlTiONff•. 15.)æ POPE TAE NSA ME BITE INTO TEE STABERRJES!! r DRPPED sa-E SHRT! BETTER TAKE GOOGLE, T{IS IDIiON FEELS somo cu. 01SPR9CtST•. TEE LEAKS JUST IHETP OF ICECRG. TERES A WAREHWSE IN UTAH THE HE T-IE EM77RE ICEÆRG I mgr KNOW THERE. SPGE: 1 KNOU RCARE UI-BT DATA IS IS REAL. ](media/Concepts-image2.jpeg){width="5.0in" height="5.114583333333333in"}
+![OPINIONS ON INIERNET PRIVACY PHILOSOPHER: *RIVAC€• IYPRACTGL ABOUT IN IN UHCH WR SOCI- THE NIHILIST: sacs ON Ti-Ü1, GAT-ERING ALL IHS ON ME AS IF TAE CRYPTO NOT: MY IS BERND I-AYERS OFSfrt•ETRC R-ßuc-•ÆY PE?LE 0 D(HlßlTiONff•. 15.)æ POPE TAE NSA ME BITE INTO TEE STABERRJES!! r DRPPED sa-E SHRT! BETTER TAKE GOOGLE, T{IS IDIiON FEELS somo cu. 01SPR9CtST•. TEE LEAKS JUST IHETP OF ICECRG. TERES A WAREHWSE IN UTAH THE HE T-IE EM77RE ICEÆRG I mgr KNOW THERE. SPGE: 1 KNOU RCARE UI-BT DATA IS IS REAL. ](media/Concepts-image2.jpeg)
 **Clients**
 -   Confidential Client
     -   Applications running on the server

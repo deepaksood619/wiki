@@ -54,8 +54,8 @@ In a "normal execution" of any single[distributed transaction](https://en.wikipe
 a.  **Thecommit-request phase(orvoting phase / prepare phase)**, in which acoordinatorprocess attempts to prepare all the transaction's participating processes (namedparticipants,cohorts, orworkers) to take the necessary steps for either committing or aborting the transaction and tovote, either "Yes": commit (if the transaction participant's local portion execution has ended properly), or "No": abort (if a problem has been detected with the local portion), and
 
 b.  **Thecommit phase**, in which, based onvotingof the participants, the coordinator decides whether to commit (only ifallhave voted "Yes") or abort the transaction (otherwise), and notifies the result to all the participants. The participants then follow with the needed actions (commit or abort) with their local transactional resources (also calledrecoverable resources; e.g., database data) and their respective portions in the transaction's other output (if applicable).
-![9 を の 月 0 ′ ス 0 ′ V 0 フ ノ み ノ く ー ス 加 5 の ? ア ア 川 ィ ー 0 フ 知 >IO d 月 0 フ 人 叱 ー い い VS レ 。 甲 人 。 - の } , 川 Ⅲ の フ 物 % 言 ](media/Consensus-Protocols-image1.png){width="5.0in" height="4.375in"}
-![](media/Consensus-Protocols-image2.png){width="5.0in" height="3.0729166666666665in"}
+![9 を の 月 0 ′ ス 0 ′ V 0 フ ノ み ノ く ー ス 加 5 の ? ア ア 川 ィ ー 0 フ 知 >IO d 月 0 フ 人 叱 ー い い VS レ 。 甲 人 。 - の } , 川 Ⅲ の フ 物 % 言 ](media/Consensus-Protocols-image1.png)
+![](media/Consensus-Protocols-image2.png)
 
 Two-phase commit is a blocking protocol. The coordinator blocks waiting for votes from its cohorts, and cohorts block waiting for a commit/rollback message from the coordinator. Unfortunately, this means 2PC can, in some circumstances, result in a deadlock, e.g. the coordinator dies while cohorts wait or a cohort dies while the coordinator waits. Another problematic scenario is when a coordinator and cohort simultaneously fail. Even if another coordinatortakes its place, it won't be able to determine whether to commit or rollback.
 <https://en.wikipedia.org/wiki/Two-phase_commit_protocol>
@@ -63,8 +63,8 @@ Two-phase commit is a blocking protocol. The coordinator blocks waiting for vote
 [**https://bravenewgeek.com/understanding-consensus/**](https://bravenewgeek.com/understanding-consensus/)
 **3 Phase Commit**
 
-![g Compu/ f (O - oydu Can VoHcĂ (OrMWf,• DO (O 1 2 ](media/Consensus-Protocols-image3.png){width="5.0in" height="4.322916666666667in"}
-![](media/Consensus-Protocols-image4.png){width="5.0in" height="4.166666666666667in"}
+![g Compu/ f (O - oydu Can VoHcĂ (OrMWf,• DO (O 1 2 ](media/Consensus-Protocols-image3.png)
+![](media/Consensus-Protocols-image4.png)
 
 Three-phase commit (3PC) is designed to solve the problems identified in two-phase by implementing a non-blocking protocol with an added "prepare" phase. Like 2PC, it relies on a coordinator which relays messages to its cohorts.
 Unlike 2PC, cohorts do not executea transaction during the voting phase. Rather, they simply indicate if they are prepared to perform the transaction. If cohorts timeout during this phase or there is one or more "no" vote, the transaction is aborted. If the vote is unanimously "yes," the coordinator moves on to the "prepare" phase, sending a message to its cohorts to acknowledge the transaction will be committed. Again, if an ack times out, the transactionis aborted. Once all cohorts have acknowledged the commit, we are guaranteed to be in a state where*all*cohorts have agreed to commit. At this point, if the commit message from the coordinator is not received in the third phase, the cohort will go ahead and commit anyway. This solves the deadlocking problems described earlier. However, 3PC is still susceptible to network partitions. If a partition occurs, the coordinator will timeout and progress will not be made.
@@ -73,7 +73,7 @@ Unlike 2PC, cohorts do not executea transaction during the voting phase. Rather,
 
 Protocols like[Raft](https://ramcloud.stanford.edu/raft.pdf),[Paxos](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf), and[Zab](http://web.stanford.edu/class/cs347/reading/zab.pdf)are popular and widely used solutions to the problem of distributed consensus. These implement state replication or primary-backup using leaders, quorums, and replicas of operation logs or incremental delta states.
 
-![c set x Client Quorum c set x = 5 Client ](media/Consensus-Protocols-image5.png){width="5.0in" height="3.1979166666666665in"}
+![c set x Client Quorum c set x = 5 Client ](media/Consensus-Protocols-image5.png)
 
 These protocols workby electing a leader (coordinator). Like multi-phase commit, all changes must go through thatleader, who then broadcasts the changes to the group. Changes occur by appending a log entry, and each node has its own log replica. Where multi-phase commit falls down in the face of network partitions, these protocols are able to continue working by relying on a quorum (majority). The leader commits the change once the quorum has acknowledged it.
 The use of quorums provide partition tolerance by fencing minority partitions while the majority continues to operate.This is the pessimistic approach to solving split-brain, so it comes with an inherent availability trade-off. This problem is mitigated by the fact that each node hosts a replicated state machine which can be rebuilt or reconciled once the partition is healed.
@@ -92,11 +92,11 @@ Implement each business transaction that spans multiple services is a saga. A sa
 1.  Choreography - Event based
 
 Each local transaction publishes domain events that trigger local transactions in other services
-![Choreography ORDER_CREATE O ORDER_CREATED ORDER_PAID ORDER_PREPARED O Order service Payment service Restaurant service ORDER_DELIVERED Delivery service ](media/Consensus-Protocols-image6.png){width="5.0in" height="2.8333333333333335in"}
+![Choreography ORDER_CREATE O ORDER_CREATED ORDER_PAID ORDER_PREPARED O Order service Payment service Restaurant service ORDER_DELIVERED Delivery service ](media/Consensus-Protocols-image6.png)
 2.  Orchestration - Command based
 
 An orchestrator (object) tells the participants what local transactions to execute
-![ORDER_CREATE Order service ORDER_CREATED Orchestration Restaurant Payment service Delivery service OR ER_PAID Orchestrator service service ORPZR_PREPARED ORDER_DELIVERED ](media/Consensus-Protocols-image7.png){width="5.0in" height="2.7395833333333335in"}
+![ORDER_CREATE Order service ORDER_CREATED Orchestration Restaurant Payment service Delivery service OR ER_PAID Orchestrator service service ORPZR_PREPARED ORDER_DELIVERED ](media/Consensus-Protocols-image7.png)
 Youtube - [SAGA | Microservices Architecture Patterns | Tech Primers](https://www.youtube.com/watch?v=WnZ7IcaN_JA)
 
 Youtube - [Do you know Distributed transactions?](https://www.youtube.com/watch?v=S4FnmSeRpAY)

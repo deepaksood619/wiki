@@ -17,7 +17,7 @@ Following are 3 chief types of multidimensional schemas each having its unique a
 
 In theStar Schema, the center of the star can have one fact table and a number of associated dimension tables. It is known as star schema as its structure resembles a star. The star schema is the simplest type of Data Warehouse schema. It is also known as Star Join Schema and is optimized for querying large data sets.
 
-![Dimension Table Dealer Dealer_lD Location ID Country_ID Dealer NM Dealer CNTCT Dimension Table Branch Dim Branch ID Name Address Country Fact Table Revenue Dealer ID Model ID Branch_ID Date ID Units Sold Revenue Dimension Table Date Dim Date ID Year Month Quarter Date Dimension Table Product Product ID Product Name Model_lD Variant ID ](media/Data-Warehousing_Warehouse-Schemas-image1.png){width="5.0in" height="4.34375in"}
+![Dimension Table Dealer Dealer_lD Location ID Country_ID Dealer NM Dealer CNTCT Dimension Table Branch Dim Branch ID Name Address Country Fact Table Revenue Dealer ID Model ID Branch_ID Date ID Units Sold Revenue Dimension Table Date Dim Date ID Year Month Quarter Date Dimension Table Product Product ID Product Name Model_lD Variant ID ](media/Data-Warehousing_Warehouse-Schemas-image1.png)
 **Example of Star Schema**
 
 For example, as you can see in the above-given image that fact table is at the center which contains keys to every dimension table like Dealer_ID, Model ID, Date_ID, Product_ID, Branch_ID & other attributes like Units sold and revenue.
@@ -39,7 +39,7 @@ Star schemais a mature modeling approach widely adopted by relational data wareh
 A Snowflake Schema is an extension of a Star Schema, and it adds additional dimensions. It is called snowflake because its diagram resembles a Snowflake
 The dimension tables arenormalizedwhich splits data into additional tables. In the following example, Country is further normalized into an individual table.
 
-![mens on a Location Location_ID R ion Dimension Table Country Country_ID Countr _ Name Dimension Table Dealer Dealer_1D Location_ID Country_ID Dealer NM Dealer_CNTCT Dimension Table Branch Dim Branch ID Name Add ress Country Fact Table Revenue Dealer ID Model ID Branch ID Date ID Un its_Sold Revenue Dimension Table Date Dim Date_lD Year Month Quarter Date Dimension Table Product Product_ID Product_Name Model_lD Variant_ID Dimension Table Variant Variant_lD Variant_Name Fuel type ](media/Data-Warehousing_Warehouse-Schemas-image2.png){width="5.0in" height="2.2916666666666665in"}
+![mens on a Location Location_ID R ion Dimension Table Country Country_ID Countr _ Name Dimension Table Dealer Dealer_1D Location_ID Country_ID Dealer NM Dealer_CNTCT Dimension Table Branch Dim Branch ID Name Add ress Country Fact Table Revenue Dealer ID Model ID Branch ID Date ID Un its_Sold Revenue Dimension Table Date Dim Date_lD Year Month Quarter Date Dimension Table Product Product_ID Product_Name Model_lD Variant_ID Dimension Table Variant Variant_lD Variant_Name Fuel type ](media/Data-Warehousing_Warehouse-Schemas-image2.png)
 **Characteristics of Snowflake Schema:**
 -   The main benefit of the snowflake schema it uses smaller disk space.
 -   Easier to implement a dimension is added to the Schema
@@ -62,7 +62,7 @@ The dimension tables arenormalizedwhich splits data into additional tables. In t
 
 A Galaxy Schema contains two fact table that shares dimension tables. It is also called Fact Constellation Schema. The schema is viewed as a collection of stars hence the name Galaxy Schema.
 
-![Dimension Table Dealer]D Location_lD Country_lD Dealer _NM Dealer_CNTCT Fact Table Revenue Dealer ID Branch ID Date D Units Sold Revenue Dimension Table Branch Dim Branch _ID Name Address Country imension Table Date Dim Date ID Year Month Qiarter Date Fact Table Product Product_D Product_Name Variant_lD Dimension Table Product ID Product_Name Model ID Variant D ](media/Data-Warehousing_Warehouse-Schemas-image3.png){width="5.0in" height="2.2916666666666665in"}
+![Dimension Table Dealer]D Location_lD Country_lD Dealer _NM Dealer_CNTCT Fact Table Revenue Dealer ID Branch ID Date D Units Sold Revenue Dimension Table Branch Dim Branch _ID Name Address Country imension Table Date Dim Date ID Year Month Qiarter Date Fact Table Product Product_D Product_Name Variant_lD Dimension Table Product ID Product_Name Model ID Variant D ](media/Data-Warehousing_Warehouse-Schemas-image3.png)
 
 As you can see in above figure, there are two facts table
 
@@ -78,7 +78,7 @@ In Galaxy schema shares dimensions are called Conformed Dimensions.
 -   This schema is helpful for aggregating fact tables for better understanding.
 **What is Star Cluster Schema?**
 
-![](media/Data-Warehousing_Warehouse-Schemas-image4.png){width="5.0in" height="1.3645833333333333in"}
+![](media/Data-Warehousing_Warehouse-Schemas-image4.png)
 Snowflake schema contains fully expanded hierarchies. However, this can add complexity to the Schema and requires extra joins. On the other hand, star schema contains fully collapsed hierarchies, which may lead to redundancy. So, the best solution may be a balance between these two schemas which is star cluster schema design.
 Overlapping dimensions can be found as forks in hierarchies. A fork happens when an entity acts as a parent in two different dimensional hierarchies. Fork entities then identified as classification with one-to-many relationships.
 **Summary:**

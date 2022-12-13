@@ -49,7 +49,7 @@ MQTT excels in scenarios where reliable message delivery is crucial for an appli
 **History**
 
 The MQTT protocol was invented in 1999 by Andy Stanford-Clark (IBM) and Arlen Nipper (Arcom, now Cirrus Link). They needed a protocol for minimal battery loss and minimal bandwidth to[connect with oil pipelines via satellite](http://www.ibm.com/podcasts/software/websphere/connectivity/piper_diaz_nipper_mq_tt_11182011.pdf).
-![MOTT History 2010 MQTT 3.1 released royalty free 2014 MQTT 3.1.1 officially released 1999 MQTT Invention 2013 HiveMQ 1.3 released 2018 MQTT 5 released ](media/Intro-image1.png){width="5.958333333333333in" height="2.3854166666666665in"}
+![MOTT History 2010 MQTT 3.1 released royalty free 2014 MQTT 3.1.1 officially released 1999 MQTT Invention 2013 HiveMQ 1.3 released 2018 MQTT 5 released ](media/Intro-image1.png)
 **Real world deployments**
 -   Facebook mobile application
 **See also**

@@ -13,12 +13,12 @@ Ex - 5mph is a scaler quantity, because it doesn't tell the direction in which o
 
 Ex - 5mph East is a vector quantity (and we will not call this as speed, we will call this as velocity, therefore velocity is a vector quantity)
 
-![I cooramate spaces I vectors ana spaces I Linear Algeora I Knan loc a -2 uecl 2 recÄ - v wweD c-pycæc-.g Ik3- o X-C..A-..Q coo ](media/Vectors-and-Spaces-image1.png){width="5.0in" height="3.0625in"}-   Real Coordinate Space - Can be any dimensions, all possible real-valued ordered 2-tuple for a 2 dimensional real coordinate space.
+![I cooramate spaces I vectors ana spaces I Linear Algeora I Knan loc a -2 uecl 2 recÄ - v wweD c-pycæc-.g Ik3- o X-C..A-..Q coo ](media/Vectors-and-Spaces-image1.png)-   Real Coordinate Space - Can be any dimensions, all possible real-valued ordered 2-tuple for a 2 dimensional real coordinate space.
 -   Adding Vectors algebraically and graphically
 -   Multiplying vector by a scaler ( change its magnitude, but scale it only on the same dimension, colinear )
 -   Unit Vectors
 
-![7 b + ) j ](media/Vectors-and-Spaces-image2.png){width="5.0in" height="3.0208333333333335in"}
+![7 b + ) j ](media/Vectors-and-Spaces-image2.png)
 -   Parametric representations of the line
 2.  [Linear combinations and spans](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces#linear-combinations)
 

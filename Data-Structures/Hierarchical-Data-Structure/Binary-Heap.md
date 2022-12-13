@@ -24,7 +24,7 @@ A binary heap is a complete binary tree which satisfies the heap ordering proper
 
 Throughout this chapter the word "heap" will always refer to a min-heap.
 
-![12 15 10 15 17 10 10 ](media/Binary-Heap-image1.png){width="5.0in" height="1.9791666666666667in"}
+![12 15 10 15 17 10 10 ](media/Binary-Heap-image1.png)
 
 In a heap the highest (or lowest) priority element is always stored at the root, hence the name "heap". A heap is not a sorted structure and can be regarded as partially ordered. As you see from the picture, there is no particular relationship among nodes on any given level, even among the siblings.
 
@@ -35,7 +35,7 @@ A heap is useful data structure when you need to remove the object with the high
 
 A complete binary tree can be uniquely represented by storing its level order traversal in an array.
 
-![](media/Binary-Heap-image2.png){width="4.1875in" height="3.15625in"}
+![](media/Binary-Heap-image2.png)
 
 The root is the second item in the array. We skip the index zero cell of the array for the convenience of implementation. Consider k-th element of the array, the
 
@@ -70,7 +70,7 @@ Eliminate the violation -
 -   Exchange key in child with key in parent
 -   Repeat until heap order restored
 
-![Promotion in a heap Scenario. Child's key becomes larger key than its parent's key. To eliminate the violation: • Exchange key in child with key in parent. • Repeat until heap order restored. s private void swim(int k) while (k > 1&& less(k/2, exch(k, k/ 2) ; k- parent of node at k is at k/2 E 1 2 s E 1 violates heap order (larger key than parent) 1 ](media/Binary-Heap-image3.png){width="5.0in" height="3.2083333333333335in"}
+![Promotion in a heap Scenario. Child's key becomes larger key than its parent's key. To eliminate the violation: • Exchange key in child with key in parent. • Repeat until heap order restored. s private void swim(int k) while (k > 1&& less(k/2, exch(k, k/ 2) ; k- parent of node at k is at k/2 E 1 2 s E 1 violates heap order (larger key than parent) 1 ](media/Binary-Heap-image3.png)
 **For 0th index array**
 
 def perc_up(self, k):
@@ -84,7 +84,7 @@ k = (k-1)//2
 -   Add node at end, then swim it up
 -   At most 1 + lg N compares
 
-![Insertion in a heap Insert. Add node at end, then swim it up. Cost. At most I +1gN compares. public void insert(Key x) swi m(N) ; insert key to insert add key to heap violates heap order ;wim up ](media/Binary-Heap-image4.png){width="5.0in" height="3.6666666666666665in"}
+![Insertion in a heap Insert. Add node at end, then swim it up. Cost. At most I +1gN compares. public void insert(Key x) swi m(N) ; insert key to insert add key to heap violates heap order ;wim up ](media/Binary-Heap-image4.png)
 **Demotion in a heap (sink / shift-down / downheap / percolate down / bubble-down)**
 
 Parent's key becomes smaller than one (or both) of its children's.
@@ -93,12 +93,12 @@ Eliminate the violation -
 -   Exchange key in parent with key in larger child
 -   Repeat until heap order restored
 
-![Demotion in a heap Scenario. Parent's key becomes smaller than one (or both) of its children's. To eliminate the violation: why not smaller child? • Exchange key in parent with key in larger child. • Repeat until heap order restored. private void sink(int k) children of node at k while (2*k N) violates henp order (smaller than a chilcl) E 1 s 10 E 1 s int j = if (j < if (!less(k, exch(k, j); are 2k and 2k+l less(j, j+l)) j + ; j)) break; Top-down reheapify (sink) Power struggle. Better subordinate promoted. ](media/Binary-Heap-image5.png){width="5.0in" height="3.75in"}
+![Demotion in a heap Scenario. Parent's key becomes smaller than one (or both) of its children's. To eliminate the violation: why not smaller child? • Exchange key in parent with key in larger child. • Repeat until heap order restored. private void sink(int k) children of node at k while (2*k N) violates henp order (smaller than a chilcl) E 1 s 10 E 1 s int j = if (j < if (!less(k, exch(k, j); are 2k and 2k+l less(j, j+l)) j + ; j)) break; Top-down reheapify (sink) Power struggle. Better subordinate promoted. ](media/Binary-Heap-image5.png)
 **Delete the maximum in a heap**
 -   Exchange root with node at end, then sink it down
 -   At most 2 lg N compares
 
-![Delete the maximum in a heap Delete max. Exchange root with node at end, then sink it down. Cost. At most 2 lgN compares. remove the maximum s public Key delMax() Key max = exch(l, N--); si nk (1) ; pq [N+I] = null; return max; key to remove exchange key with root violates heap order E 1 s prevent loitering E 1 sink down E 1 remove node from heap s ](media/Binary-Heap-image6.png){width="5.0in" height="3.6458333333333335in"}
+![Delete the maximum in a heap Delete max. Exchange root with node at end, then sink it down. Cost. At most 2 lgN compares. remove the maximum s public Key delMax() Key max = exch(l, N--); si nk (1) ; pq [N+I] = null; return max; key to remove exchange key with root violates heap order E 1 s prevent loitering E 1 sink down E 1 remove node from heap s ](media/Binary-Heap-image6.png)
 **Bottom-up heap construction -**
 
 Goal: Build max heap using bottom-up method

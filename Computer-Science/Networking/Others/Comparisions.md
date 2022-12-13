@@ -9,7 +9,7 @@ Modified: 2020-05-06 10:17:55 +0500
 **Avro vs Protobuf**
 
 What should you choose then? Avro, especially at the beginning, seems much easier to use. The cost of this is that you will need to provide both reader and writer schema to deserialize anything.
-![](media/Comparisions-image1.png){width="7.083333333333333in" height="2.125in"}
+![](media/Comparisions-image1.png)
 
 Sometimes this might be quite problematic. That's why tools like[Schema Registry](https://www.confluent.io/confluent-schema-registry/)were developed.
 The next problem you might face with Avro is the overall impact on your domain events. At some point, Avro can leak into your domain. Some constructions like e.g. a map with keys that are not strings are not supported in Avro model. When the serialization mechanism is forcing you to change something in your domain model --- it's not a good sign.
@@ -17,71 +17,71 @@ With Protocol Buffers, schema management is much simpler --- you just need schem
 Personally, I would use Avro for simple domains with mostly primitive types. For rich domains, with complex types and structures, I've been using Protocol Buffers for quite some time. Clean domain with no serialization influence is really worth paying the boilerplate code price.
 <https://blog.softwaremill.com/the-best-serialization-strategy-for-event-sourcing-9321c299632b>
 [(Big) Data Serialization with Avro and Protobuf](https://www.slideshare.net/gschmutz/big-data-serialization-with-avro-and-protobuf)
-![](media/Comparisions-image2.png){width="7.479166666666667in" height="5.28125in"}
-![](media/Comparisions-image3.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image2.png)
+![](media/Comparisions-image3.png)
 
-![](media/Comparisions-image4.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image4.png)
 
-![](media/Comparisions-image5.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image5.png)
 
-![](media/Comparisions-image6.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image6.png)
 
-![](media/Comparisions-image7.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image7.png)
 
-![](media/Comparisions-image8.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image8.png)
 
-![](media/Comparisions-image9.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image9.png)
 
-![](media/Comparisions-image10.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image10.png)
 
-![](media/Comparisions-image11.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image11.png)
 
-![](media/Comparisions-image12.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image12.png)
 
-![](media/Comparisions-image13.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image13.png)
 
-![](media/Comparisions-image14.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image14.png)
 
-![](media/Comparisions-image15.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image15.png)
 
-![](media/Comparisions-image16.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image16.png)
 
-![](media/Comparisions-image17.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image17.png)
 
-![](media/Comparisions-image18.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image18.png)
 
-![](media/Comparisions-image19.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image19.png)
 
-![](media/Comparisions-image20.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image20.png)
 
-![](media/Comparisions-image21.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image21.png)
 
-![](media/Comparisions-image22.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image22.png)
 
-![](media/Comparisions-image23.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image23.png)
 
-![](media/Comparisions-image24.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image24.png)
 
-![](media/Comparisions-image25.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image25.png)
 
-![](media/Comparisions-image26.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image26.png)
 **Big Data and Fast Data**
 
-![](media/Comparisions-image27.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image27.png)
 
-![](media/Comparisions-image28.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image28.png)
 
-![](media/Comparisions-image29.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image29.png)
 
-![](media/Comparisions-image30.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image30.png)
 
-![](media/Comparisions-image31.png){width="7.479166666666667in" height="5.28125in"}
-![](media/Comparisions-image32.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image31.png)
+![](media/Comparisions-image32.png)
 **Summary**
 
-![](media/Comparisions-image33.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image33.png)
 
-![](media/Comparisions-image34.png){width="7.479166666666667in" height="5.28125in"}
+![](media/Comparisions-image34.png)
 **Performance benchmarks**
 
 <https://labs.criteo.com/2017/05/serialization/>
@@ -104,11 +104,11 @@ I cannot overstate the benefit of a 100x improvement in record throughput. It pr
 
 When simply counting rows, Parquet blows Avro away, thanks to the metadata parquet stores in the header of row groups.
 
-![Parquet Row count](media/Comparisions-image35.png){width="4.875in" height="3.2291666666666665in"}
+![Parquet Row count](media/Comparisions-image35.png)
 
 When running a group-by query, parquet is still almost 2x faster (although I'm unsure of the exact query used here).
 
-![Parquet Group by](media/Comparisions-image36.png){width="4.864583333333333in" height="2.9479166666666665in"}
+![Parquet Group by](media/Comparisions-image36.png)
 
 The same case study also finds improvements in storage space, and even in full-table scans, likely due to Spark having to scan a smaller datasize.
 **BENEFITS OF AVRO OVER PARQUET**

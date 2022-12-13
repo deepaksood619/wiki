@@ -21,7 +21,7 @@ With RedisTimeSeries, ingest and query millions of metrics and events per second
 
 RedisEdge from Redis Labs is a purpose-built, multi-model database for the demanding conditions at the Internet of Things (IoT) edge. It can ingest millions of writes per second with <1ms latency and a very small footprint (<5MB), so it easily resides in constrained compute environments. It can run on a variety of edge devices and sensors ranging from ARM32 to x64-based hardware. RedisEdge bundles open source Redis (version 5 with Redis Streams) with the RedisAI and RedisTimeSeries modules, along with RedisGears for inter-module communication.
 
-![RedisEdge --- EDGE Redis Time Streams + Series Gears ](media/Redis_Others-image1.png){width="6.739583333333333in" height="1.75in"}
+![RedisEdge --- EDGE Redis Time Streams + Series Gears ](media/Redis_Others-image1.png)
 **Redis Insight**
 
 Inspect your Redis data, monitor health, and perform runtime server configuration with a browser-based management interface for your Redis deployment

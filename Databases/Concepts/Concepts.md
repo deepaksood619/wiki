@@ -82,7 +82,7 @@ LIMITandOFFSETallow you to retrieve just a portion of the rows that are generate
 -   as the offset increases the database need to do more work, which means offset is very very expensive
 -   You can accidently read duplicate rows, if someone inserted new row after reading 1st page
 
-![select title from news offset 110 neu row Inserted read twice new row row i i row 112 row 121 tow 122 ](media/Concepts-image1.jpeg){width="4.020833333333333in" height="2.5729166666666665in"}
+![select title from news offset 110 neu row Inserted read twice new row row i i row 112 row 121 tow 122 ](media/Concepts-image1.jpeg)
 -   select * from communication_log where id > 140211644 limit 100;
 -   Change offset to where query to filter using id, using index scan
 -   A good alternative for using OFFSET will be the Seek Method

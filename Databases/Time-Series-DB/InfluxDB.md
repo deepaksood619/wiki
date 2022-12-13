@@ -112,7 +112,7 @@ A series is the most important concept of Influxdb.A series is a combination of 
 9.  tsm (Time Structured Merge tree)
 
 10. wal (Write Ahead Log)
-![Architecture Wrtt• WUS.cr Pod UI Slote Noes OȘCt ](media/InfluxDB-image1.png){width="6.666666666666667in" height="3.7395833333333335in"}[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
+![Architecture Wrtt• WUS.cr Pod UI Slote Noes OȘCt ](media/InfluxDB-image1.png)[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
 TICK Stack (<https://www.influxdata.com/time-series-platform/>)
 
 a.  Telegraf
@@ -122,4 +122,4 @@ b.  InfluxDB
 c.  Choronograf
 
 d.  Kapacitor
-![Chronograf Complete Interface for the InfluxData Platform System Stats Databases Networking Message Queues Apps result InfluxDB da shbcards access control Telegraf Agent for Collecting and Reporting Metrics and Events loc, glu ins Service Discovery Purpose Built Time Series Database Kapacitor Real-time streaming data processing engine. a eit Alerting Frameworks based Anomaly Detection Machine Learning user Defined Functions ](media/InfluxDB-image2.png){width="5.0in" height="3.3333333333333335in"}
+![Chronograf Complete Interface for the InfluxData Platform System Stats Databases Networking Message Queues Apps result InfluxDB da shbcards access control Telegraf Agent for Collecting and Reporting Metrics and Events loc, glu ins Service Discovery Purpose Built Time Series Database Kapacitor Real-time streaming data processing engine. a eit Alerting Frameworks based Anomaly Detection Machine Learning user Defined Functions ](media/InfluxDB-image2.png)

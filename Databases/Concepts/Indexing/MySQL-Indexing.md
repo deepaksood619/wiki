@@ -40,7 +40,7 @@ To speed this up, we can sort our list by last name and then by first name.
 ALTER TABLE `phonebook` ADD INDEX (`last_name`, `first_name`);
 SELECT phone_number FROM phonebook where first_name = 'john' AND last_name = 'south';
 
-![Image for post](media/Indexing_MySQL-Indexing-image1.png){width="5.0in" height="2.4791666666666665in"}
+![Image for post](media/Indexing_MySQL-Indexing-image1.png)
 As an example: the index we've just discussed(last_name, first_name)would not be beneficial for a query such as:
 
 SELECT * FROM phonebook where first_name = 'Donald';
@@ -98,7 +98,7 @@ Since the primary index contains a direct reference to the data block address th
 Obviously there can only be one clustered index --- because you can't store the row data in two places at once; Therefore secondary indexes (any indexes we apply that aren't the primary) are not clustered, and are in fact separate structures to the table itself.
 The leaf nodes for secondary indexes don't store row data as the Primary Key B-Tree did, instead they simply store Primary Key values which serve as "pointers" to the row data, as you can see below:
 
-![Image for post](media/Indexing_MySQL-Indexing-image2.png){width="2.6041666666666665in" height="2.5729166666666665in"}
+![Image for post](media/Indexing_MySQL-Indexing-image2.png)
 
 This typically means when utilizing a secondary index, InnoDB will first use the B-Tree of the secondary index to retrieve the Primary Key values of the applicable rows, and then after use these values in conjunction with the Primary Key B-tree to fetch the row data!
 **Disadvantages of a Secondary Index**

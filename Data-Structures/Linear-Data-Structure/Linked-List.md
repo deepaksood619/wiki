@@ -36,17 +36,17 @@ Modified: 2020-01-07 22:36:30 +0500
 
 The idea is simple, we create multiple layers so that we can skip some nodes.
 
-![10 20 Express Lane 22 23 27 30 30 Lane 43 45 50 57 58 59 62 65 67 ](media/Linked-List-image1.png){width="5.0in" height="0.7083333333333334in"}
+![10 20 Express Lane 22 23 27 30 30 Lane 43 45 50 57 58 59 62 65 67 ](media/Linked-List-image1.png)
 
 6.  Intrusive Linked List
 
 Intrusive linked lists are a variation of[linked lists](https://www.data-structures-in-practice.com/linked-lists/)where the links are embedded in the structure that's being linked.
 In a typical linked list implementation, a list node contains adatapointer to the linked data and anextpointer to the next node in the list.
 
-![data next data next NULL ](media/Linked-List-image2.png){width="2.75in" height="1.1979166666666667in"}
+![data next data next NULL ](media/Linked-List-image2.png)
 In an intrusive linked list implementation, the list node containsnextpointer to the next list node, but nodatapointer because the list is embedded in the linked object itself.
 
-![next next NULL ](media/Linked-List-image3.png){width="2.8645833333333335in" height="1.0in"}
+![next next NULL ](media/Linked-List-image3.png)
 
 There are two main reasons to use intrusive lists over non-intrusive linked lists:
 -   Fewer memory allocations

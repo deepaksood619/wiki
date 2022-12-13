@@ -39,11 +39,11 @@ a0
 0
 
 If we consider all of the above suffixes as individual words and build a trie, we get following.
-![](media/Suffix-Tree-image1.png){width="5.0in" height="4.53125in"}
+![](media/Suffix-Tree-image1.png)
 If we join chains of single nodes, we get the following compressed trie, which is the Suffix Tree for given text "banana0"
 
-![Oeu Oeu eu eu e Oeueueq ](media/Suffix-Tree-image2.png){width="5.0in" height="2.7291666666666665in"}
-![Suffix tree Suffix tree. • Patricia trie of suffixes of a string. • Linear-time construction: beyond this course. suffix tree for BANANAS BANANAS s b s s s NAS ](media/Suffix-Tree-image3.png){width="5.979166666666667in" height="4.614583333333333in"}
+![Oeu Oeu eu eu e Oeueueq ](media/Suffix-Tree-image2.png)
+![Suffix tree Suffix tree. • Patricia trie of suffixes of a string. • Linear-time construction: beyond this course. suffix tree for BANANAS BANANAS s b s s s NAS ](media/Suffix-Tree-image3.png)
 # Suffix Tree and Its Construction
 
 Suffix Tree were first introduced to solve SubString Problem -

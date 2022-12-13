@@ -43,7 +43,8 @@ It is possible to get the number of items inside a Stream just using theXLENcomm
 
 The entry ID returned by theXADDcommand, and identifying univocally each entry inside a given stream, is composed of two parts:
 
-<millisecondsTime>-<sequenceNumber>
+millisecondsTime - sequenceNumber
+
 The milliseconds time part is actually the local time in the local Redis node generating the stream ID, however if the current milliseconds time happens to be smaller than the previous entry time, then the previous entry time is used instead, so if a clock jumps backward the monotonically incrementing ID property still holds. The sequence number is used for entries created in the same millisecond. Since the sequence number is 64 bit wide, in practical terms there are no limits in the number of entries that can be generated within the same millisecond.
 The format of such IDs may look strange at first, and the gentle reader may wonder why the time is part of the ID. The reason is that Redis streams support range queries by ID. Because the ID is related to the time the entry is generated, this gives the ability to query for ranges of time basically for free. We will see this soon while covering theXRANGEcommand.
 If for some reason the user needs incremental IDs that are not related to time but are actually associated to another external system ID, as previously already observed, theXADDcommand can take an explicit ID instead of the*wildcard ID that triggers auto-generation, like in the following examples:

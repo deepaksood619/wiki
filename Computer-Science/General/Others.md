@@ -32,7 +32,7 @@ The canonical 8-4-4-4-12 format string is based on the "record layout" for the 1
 | time_hi_and_version                | 2                  | 4                       | 4-bit "version" in the most significant bits, followed by the high 12 bits of the time     |
 | clock_seq_hi_and_res clock_seq_low | 2                  | 4                       | 1--3-bit "variant" in the most significant bits, followed by the 13--15-bit clock sequence |
 | node                               | 6                  | 12                      | the 48-bit node id                                                                           |
-![Timestamp (48) Address Family (8) 573E010013647A49B8F6B3E35E8B3C4 Reserved (16) Host ID (56) ](media/Others-image1.png){width="6.322916666666667in" height="1.5833333333333333in"}
+![Timestamp (48) Address Family (8) 573E010013647A49B8F6B3E35E8B3C4 Reserved (16) Host ID (56) ](media/Others-image1.png)
 
 <https://tools.ietf.org/html/rfc4122.html>
 **UUID V1 : Uniqueness**
@@ -114,7 +114,7 @@ Translation (T9N)
 -   Estimates from Akamai show that a 1s delay in page response can
     result in a 7% reduction in conversions.
 
-![100ms is the holy grail from the RAIL model User Perception Of Performance Delays Oto 16ms Oto 100ms 100 to 300ms 300 to IOOOms 1000ms or more 10000ms or more Users are exceptionally good at tracking motion, and they dislike it when animations aren't smooth. They perceive animations as smooth so long as 60 new frames are rendered every second. That's 16ms per frame, including the time it takes for the browser to paint the new frame to the screen, leaving an app about 1 Oms to produce a frame. Respond to user actions within this time window and users feel like the result is immediate. Any longer, and the connection between action and reaction is broken. Users experience a slight perceptible delay. Within this window, things feel part of a natural and continuous progression of tasks. For most users on the web, loading pages or changing views represents a task. Beyond 1000 milliseconds (1 second), users lose focus on the task they are performing. Beyond 10000 milliseconds (10 seconds), users are frustrated and are likely to abandon tasks. They may or may not come back later. ](media/Others-image2.jpeg){width="6.083333333333333in" height="2.9583333333333335in"}
+![100ms is the holy grail from the RAIL model User Perception Of Performance Delays Oto 16ms Oto 100ms 100 to 300ms 300 to IOOOms 1000ms or more 10000ms or more Users are exceptionally good at tracking motion, and they dislike it when animations aren't smooth. They perceive animations as smooth so long as 60 new frames are rendered every second. That's 16ms per frame, including the time it takes for the browser to paint the new frame to the screen, leaving an app about 1 Oms to produce a frame. Respond to user actions within this time window and users feel like the result is immediate. Any longer, and the connection between action and reaction is broken. Users experience a slight perceptible delay. Within this window, things feel part of a natural and continuous progression of tasks. For most users on the web, loading pages or changing views represents a task. Beyond 1000 milliseconds (1 second), users lose focus on the task they are performing. Beyond 10000 milliseconds (10 seconds), users are frustrated and are likely to abandon tasks. They may or may not come back later. ](media/Others-image2.jpeg)
 
 RAIL Model - <https://web.dev/rail/>
 **Linear-feedback shift register (LSFR)**

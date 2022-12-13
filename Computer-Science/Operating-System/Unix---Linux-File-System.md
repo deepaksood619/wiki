@@ -155,7 +155,7 @@ xinetd performs the same function as inetd: it starts programs that provide Inte
 In[Unix](https://en.wikipedia.org/wiki/Unix)and[related](https://en.wikipedia.org/wiki/Unix-like)computer operating systems, afile descriptor(FD, less frequently fildes) is an abstract indicator ([handle](https://en.wikipedia.org/wiki/Handle_(computing))) used to access a[file](https://en.wikipedia.org/wiki/File_(computing))or other [input/output](https://en.wikipedia.org/wiki/Input/output) [resource](https://en.wikipedia.org/wiki/System_resource), such as a[pipe](https://en.wikipedia.org/wiki/Pipe_(Unix))or[network socket](https://en.wikipedia.org/wiki/Network_socket). File descriptors form part of the [POSIX](https://en.wikipedia.org/wiki/POSIX) [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface). A file descriptor is a non-negative[integer](https://en.wikipedia.org/wiki/Integer), generally represented in the[C](https://en.wikipedia.org/wiki/C_(programming_language))programming language as the typeint(negative values being reserved to indicate "no value" or an error condition).
 Each Unix[process](https://en.wikipedia.org/wiki/Process_(computing))(except perhaps a[daemon](https://en.wikipedia.org/wiki/Daemon_(computer_software))) should expect to have three standard POSIX file descriptors, corresponding to the three[standard streams](https://en.wikipedia.org/wiki/Standard_streams):
 
-| Integer value | Name                                                    | <[unistd.h](https://en.wikipedia.org/wiki/Unistd.h)>symbolic constant[[1]](https://en.wikipedia.org/wiki/File_descriptor#cite_note-1) | <[stdio.h](https://en.wikipedia.org/wiki/Stdio.h)>file stream[[2]](https://en.wikipedia.org/wiki/File_descriptor#cite_note-2) |
+| Integer value | Name                                                    | symbolic constant | file stream |
 |-------------|---------------|--------------------------|-------------------|
 | 0             | [Standard input](https://en.wikipedia.org/wiki/Stdin)   | STDIN_FILENO                                                                                                                               | stdin                                                                                                                              |
 | 1             | [Standard output](https://en.wikipedia.org/wiki/Stdout) | STDOUT_FILENO                                                                                                                              | stdout                                                                                                                             |
@@ -182,8 +182,8 @@ The write permission gives you the authority to modify the contents of a file. T
 
 In Windows, an executable program usually has an extension ".exe" and which you can easily run. In Unix/Linux, you cannot run a program unless the execute permission is set. If the execute permission is not set, you might still be able to see/modify the program code (provided read & write permissions are set), but not run it.
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image1.png){width="4.072916666666667in" height="2.71875in"}
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image2.png){width="4.895833333333333in" height="0.65625in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image1.png)
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image2.png)
 r= read permission
 
 w= write permission
@@ -191,7 +191,7 @@ w= write permission
 x= execute permission
 
 -= no permission
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image3.png){width="3.3229166666666665in" height="1.6145833333333333in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image3.png)
 **Changing file/directory permissions with 'chmod' command**
 
 There are 2 ways to use the command
@@ -216,11 +216,11 @@ The table below gives numbers for all for permissions types.
 | 7      | Read + Write +Execute | rwx    |
 Let's see the chmod command in action.
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image4.png){width="5.0in" height="1.875in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image4.png)
 
 In the above-given terminal window, we have changed the permissions of the file 'sample to '764'.
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image5.png){width="3.2604166666666665in" height="1.7083333333333333in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image5.png)
 
 '764' absolute code says the following:
 -   Owner can read, write and execute
@@ -251,7 +251,7 @@ The various owners are represented as -
 
 We will not be using permissions in numbers like 755 but characters like rwx. Let's look into an example
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image6.png){width="5.0in" height="3.2291666666666665in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image6.png)
 **Changing Ownership and Group**
 
 For changing the ownership of a file/directory, you can use the following command:
@@ -262,22 +262,22 @@ In case you want to change the user as well as group for a file or directory use
 **chown user:group filename**
 Let's see this in action
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image7.png){width="5.0in" height="3.4166666666666665in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image7.png)
 
 In case you want to change group-owner only, use the command
 
 **chgrp group_name filename**
 'chgrp'stands for change group.
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image8.png){width="5.0in" height="2.0416666666666665in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image8.png)
 **Tip**
 -   The file /etc/group contains all the groups defined in the system
 -   You can use the command "groups" to find all the groups you are a member of
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image9.png){width="5.0in" height="0.5520833333333334in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image9.png)
 -   You can use the command newgrp to work as a member a group other than your default group
 
-![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image10.png){width="4.927083333333333in" height="1.3958333333333333in"}
+![File Permissions in Linux/Unix](media/Unix---Linux-File-System-image10.png)
 -   You cannot have 2 groups owning the same file.
 -   You do not have nested groups in Linux. One group cannot be sub-group of other
 -   x- eXecuting a directory means Being allowed to "enter" a dir and gain possible access to sub-dirs

@@ -25,5 +25,5 @@ Combinations sound simpler than permutations, and they are. You have fewer combi
 
 [Easy Combinations and Permutations | BetterExplained](https://www.youtube.com/watch?v=bAk_7p5gAWc)
 
-![COMBINATIONS vs PERMlJTATlONS E (Μάι ](media/Permutation-and-Combination-image1.jpg){width="5.0in" height="2.8020833333333335in"}
+![COMBINATIONS vs PERMlJTATlONS E (Μάι ](media/Permutation-and-Combination-image1.jpg)
 

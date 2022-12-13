@@ -26,7 +26,7 @@ conjunction with websockets to allow any web application to behave like a full-f
 
 WebSocket is a network protocol that provides bi-directional communication between a browser and a web server. The protocol was standardized in 2011 and all modern browsers provide built-in support for it. Similar to MQTT, the WebSocket protocol is based on TCP.
 
-![websockets](media/MQTT-over-WebSockets-image1.png){width="5.0in" height="2.125in"}
+![websockets](media/MQTT-over-WebSockets-image1.png)
 
 InMQTT over WebSockets, the MQTT message (for example, a CONNECT or PUBLISH packet) is transferred over the network and encapsulated by one or more WebSocket frames. WebSockets are a good transport method for MQTT because they provide bi-directional, ordered, and lossless communication (WebSockets also leverage TCP). To communicate with an MQTT broker over WebSockets, the broker must be able to handle native WebSockets. Occasionally, people use a webserver and bridge WebSockets to the MQTT broker, but we don't recommend this method. When using HiveMQ, it is very easy to get started with WebSockets. Simply enable the native support in the configuration. For more information, read[MQTT over WebSockets with HiveMQ](https://www.hivemq.com/mqtt-over-websockets-with-hivemq/).
 **Why not use MQTT directly?**

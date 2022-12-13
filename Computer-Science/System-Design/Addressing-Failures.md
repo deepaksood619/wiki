@@ -63,7 +63,7 @@ A cascading failure is a failure that grows over time as a result of positive fe
 **Load Shedding**
 
 The idea is to ignore some requests rather than crashing a system and making it fail to serve any request.
-![request Source 429 Too Many Requests API Gateway Sink 4. Partial degradation* "shed load" response ](media/Addressing-Failures-image1.png){width="5.0in" height="1.6145833333333333in"}
+![request Source 429 Too Many Requests API Gateway Sink 4. Partial degradation* "shed load" response ](media/Addressing-Failures-image1.png)
 
 8.  Retries
 

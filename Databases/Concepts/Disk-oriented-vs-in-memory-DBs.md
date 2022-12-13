@@ -20,7 +20,7 @@ For a disk oriented DBMS, the system architecture is predicated on the assumptio
 -   buffer pool
 -   concurrency control
 -   logging/recovery
-![DISK-ORIENTED DBMS OVERHEAD Measured CPU Instructions 16% 12% 16% 34% O BUFFER POOL a LATCHING O LOCKING LOGGING O B-TREE KEYS O REAL WORK H THE LOOKING GLASS, FOUND THERE ](media/Disk-oriented-vs-in-memory-DBs-image1.png){width="4.28125in" height="2.5729166666666665in"}
+![DISK-ORIENTED DBMS OVERHEAD Measured CPU Instructions 16% 12% 16% 34% O BUFFER POOL a LATCHING O LOCKING LOGGING O B-TREE KEYS O REAL WORK H THE LOOKING GLASS, FOUND THERE ](media/Disk-oriented-vs-in-memory-DBs-image1.png)
 **Buffer Pool**
 
 The DBMS organizes the database as a set of fixed-length blocks called **slotted pages**. The system uses an in-memory (volatile) buffer pool to cache the blocks cached from disk.
@@ -40,7 +40,7 @@ In a disk oriented DBMS, the system assumes that a transaction could stall at an
 **Logging and Recovery**
 
 Most DBMS use STEAL+NO-FORCE buffer pool policies, so all modifications have to be flushed to the WAL before a transaction can commit. Each log entry contain before and after image of record modified. Lots of work to keep track of LSNs all throughout the DBMS.
-![DISK-ORIENTED DATA ORGANIZATION Index Pageld+ Slot # CARNEGIE MELLON Buffer Pool page6 page4 Database (On-Disk) pageO page 1 page2 Page Tab ](media/Disk-oriented-vs-in-memory-DBs-image2.png){width="3.90625in" height="2.1041666666666665in"}
+![DISK-ORIENTED DATA ORGANIZATION Index Pageld+ Slot # CARNEGIE MELLON Buffer Pool page6 page4 Database (On-Disk) pageO page 1 page2 Page Tab ](media/Disk-oriented-vs-in-memory-DBs-image2.png)
 **Why not MMaps?**
 
 Memory-map (mmap) a database file into DRAM and let the OS be in charge of swapping data in and out as needed.
@@ -71,7 +71,7 @@ An in-memory DBMS splits the data for tuples into fixed-length and variable-leng
 -   Direct memory pointers vs record ids
 -   Fixed-length vs variable-length data pools
 -   Use checksums to detct software errors from trashing the database
-![IN-MEMORY DATA ORGANIZATION Index Block Id+ Offset Fixed-Length Data Blocks Variable-Length Data Blocks ](media/Disk-oriented-vs-in-memory-DBs-image3.png){width="3.90625in" height="1.96875in"}
+![IN-MEMORY DATA ORGANIZATION Index Block Id+ Offset Fixed-Length Data Blocks Variable-Length Data Blocks ](media/Disk-oriented-vs-in-memory-DBs-image3.png)
 **Concurrency Control**
 
 In-memory DBMSs still use either a pessimistic or optimistic concurrency control schemes to interleave transactions. They will use modern variants of these algorithms that are designed for in-memory data stor-age. The new bottleneck is contention caused from transactions trying to access data at the same time.

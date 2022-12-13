@@ -9,22 +9,22 @@ Modified: 2021-10-15 11:52:59 +0500
 **Gaussian Noise**
 
 **Gaussian noise**is[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1)[[2]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In other words, the values that the noise can take on are Gaussian-distributed.
-![The probability density function p of a Gaussian random variable z is given by: 1 PG (z) --- a 27T where z represents the grey level, the mean value and the standard deviation. ](media/Other-Statistics-image1.png){width="5.0in" height="1.1041666666666667in"}
+![The probability density function p of a Gaussian random variable z is given by: 1 PG (z) --- a 27T where z represents the grey level, the mean value and the standard deviation. ](media/Other-Statistics-image1.png)
 A special case is*white Gaussian noise*, in which the values at any pair of times are[identically distributed](https://en.wikipedia.org/wiki/Iid)and[statistically independent](https://en.wikipedia.org/wiki/Statistically_independent)(and hence[uncorrelated](https://en.wikipedia.org/wiki/Uncorrelated)). In[communication channel](https://en.wikipedia.org/wiki/Channel_(communications))testing and modelling, Gaussian noise is used as additive[white noise](https://en.wikipedia.org/wiki/White_noise)to generate[additive white Gaussian noise](https://en.wikipedia.org/wiki/Additive_white_Gaussian_noise).
 <https://en.wikipedia.org/wiki/Gaussian_noise>
 **Monotonic Function**
 
 A monotonic function is a function which is either entirely[nonincreasing](http://mathworld.wolfram.com/NonincreasingFunction.html)or[nondecreasing](http://mathworld.wolfram.com/NondecreasingFunction.html). A function is monotonic if its first[derivative](http://mathworld.wolfram.com/Derivative.html)(which need not be continuous) does not change sign.
 
-![](media/Other-Statistics-image2.png){width="2.2916666666666665in" height="2.1979166666666665in"}
+![](media/Other-Statistics-image2.png)
 
 Figure 1. A monotonically increasing function.
 
-![](media/Other-Statistics-image3.png){width="2.2916666666666665in" height="2.1979166666666665in"}
+![](media/Other-Statistics-image3.png)
 
 Figure 2. A monotonically decreasing function
 
-![](media/Other-Statistics-image4.png){width="2.2916666666666665in" height="2.1979166666666665in"}
+![](media/Other-Statistics-image4.png)
 
 Figure 3. A function that is not monotonic
 In[mathematics](https://en.wikipedia.org/wiki/Mathematics), a**monotonic function** (or**monotone function**) is a[function](https://en.wikipedia.org/wiki/Function_(mathematics))between[ordered sets](https://en.wikipedia.org/wiki/List_of_order_structures_in_mathematics)that preserves or reverses the given[order](https://en.wikipedia.org/wiki/Order_relation).
@@ -66,7 +66,7 @@ For example, Zipf's law states that given some[corpus](https://en.wikipedia.org/
 
 In[statistics](https://en.wikipedia.org/wiki/Statistics), a**power law**is a functional relationship between two quantities, where a relative change in one quantity results in a proportional relative change in the other quantity, independent of the initial size of those quantities: one quantity varies as a[power](https://en.wikipedia.org/wiki/Exponentiation)of another. For instance, considering the area of a square in terms of the length of its side, if the length is doubled, the area is multiplied by a factor of four.
 
-![](media/Other-Statistics-image5.png){width="3.125in" height="1.625in"}
+![](media/Other-Statistics-image5.png)
 
 An example power-law graph, being used to demonstrate ranking of popularity. To the right is the[long tail](https://en.wikipedia.org/wiki/Long_tail), and to the left are the few that dominate (also known as the[80--20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
 <https://en.wikipedia.org/wiki/Power_law>
@@ -80,7 +80,7 @@ Pivot tables are a technique in[data processing](https://en.wikipedia.org/wiki/D
 This plot draws a line showing us what percent of our data falls below a certain value on the x-axis. Here the x-axis displays the value of the data and the y-axis the percent of our data that falls below a specific value on the x-axis.
 On the chart below, take the point 6 on the x-axis and use your finger to trace a straight path up until you hit the line---the value on the y-axis at the point you hit the line is about 75%. So 75% of the data in the example below are lower than 6.
 
-![pasted image 0 (8)](media/Other-Statistics-image6.png){width="5.0in" height="5.0in"}
+![pasted image 0 (8)](media/Other-Statistics-image6.png)
 
 **Gini Coefficient**
 
@@ -95,7 +95,7 @@ There are some issues in interpreting a Gini coefficient. The same value may res
 
 The Lorenz curve is a graphical representation of[income inequality](https://www.investopedia.com/terms/i/income-inequality.asp)or wealth inequality developed by American economistMax Lorenz in 1905. The graph plotspercentiles of the population on the horizontal axis according to income or wealth. It plots cumulativeincome or wealth on the vertical axis, so that an x-value of 45 and a y-value of 14.2 would mean that the bottom 45% of the population controls 14.2% of the total income or wealth.
 
-![00 ロ ロ ロ 000000 ロ 00 ロ 000000 ロ ロ 0 00 ロ ロ 00 ロ 000 ロ ロ 00 ロ ロ 00 ロ ロ 00 ろ 0 ー 0 回 ロ ロ ロ 回 ロ ロ 00 ロ ロ 00 ロ 000 ロ ロ 0 0 ロ ー 0 ロ ロ ロ ロ 00000 ロ 000 ロ ロ 00 ロ ロ ろ 0 ロ ロ ! 3WO)Nl ち V ま 岩 ミ そ ) 缶 d 00 ロ ロ 00 ロ ロ 00 ロ ロ 00 ロ ロ 00 ろ 000 ロ 000 ロ ロ 0 ロ ロ 00 ロ 000 ロ ロ 0 ろ 0000 ロ リ 00 ロ ロ ロ 00 ロ 00 ロ ロ 0 口 ろ 0 ロ ロ ロ 0 ー 劇 00 ロ ロ 0 ロ ロ ロ 0 ロ ロ ′ 、 0 0 回 ロ ロ ロ 00 ロ 0 回 00 回 ロ ロ 0 0 ロ 00 ロ ロ 00 ロ 0 ロ 、 0 ロ 0 0 ロ ロ 0 ロ ロ 0 ロ ロ ロ 00 ロ 0 ロ 澄 ろ 000 ロ 直 期 0 ロ ′ ロ ロ ロ ロ 0 ロ ロ ロ 0 ロ ロ 0 0000 ロ 可 延 00 00 ロ ロ 00 ロ ロ 0000 00 ロ ロ 0 ロ 0 0 0 宿 0 ロ ロ ロ ロ ロ ロ ロ ロ ロ ろ 0 ロ ロ ロ ロ ロ ロ 0 ・ ク ■ 0 ロ ロ ロ 0 ロ ロ ロ 0 ろ 0 ロ ロ ロ ロ 00 ロ 0 ク ■ ゝ ■ 0 ロ ロ 00 ロ ロ ロ 0 ロ 000 ロ 00 ′ 2 、 - ■ ■ 回 ロ ロ ロ 0 000 ロ ロ 0 ′ ロ 0 ロ レ 0 ロ ロ 0 ロ ロ ロ 0 0 ロ ロ 回 固 ロ ロ 00 ロ ロ 000 ロ 000 ロ PERCENTAGE OF HOUSEHOLDS 100 ](media/Other-Statistics-image7.jpeg){width="2.8541666666666665in" height="2.8125in"}
+![00 ロ ロ ロ 000000 ロ 00 ロ 000000 ロ ロ 0 00 ロ ロ 00 ロ 000 ロ ロ 00 ロ ロ 00 ロ ロ 00 ろ 0 ー 0 回 ロ ロ ロ 回 ロ ロ 00 ロ ロ 00 ロ 000 ロ ロ 0 0 ロ ー 0 ロ ロ ロ ロ 00000 ロ 000 ロ ロ 00 ロ ロ ろ 0 ロ ロ ! 3WO)Nl ち V ま 岩 ミ そ ) 缶 d 00 ロ ロ 00 ロ ロ 00 ロ ロ 00 ロ ロ 00 ろ 000 ロ 000 ロ ロ 0 ロ ロ 00 ロ 000 ロ ロ 0 ろ 0000 ロ リ 00 ロ ロ ロ 00 ロ 00 ロ ロ 0 口 ろ 0 ロ ロ ロ 0 ー 劇 00 ロ ロ 0 ロ ロ ロ 0 ロ ロ ′ 、 0 0 回 ロ ロ ロ 00 ロ 0 回 00 回 ロ ロ 0 0 ロ 00 ロ ロ 00 ロ 0 ロ 、 0 ロ 0 0 ロ ロ 0 ロ ロ 0 ロ ロ ロ 00 ロ 0 ロ 澄 ろ 000 ロ 直 期 0 ロ ′ ロ ロ ロ ロ 0 ロ ロ ロ 0 ロ ロ 0 0000 ロ 可 延 00 00 ロ ロ 00 ロ ロ 0000 00 ロ ロ 0 ロ 0 0 0 宿 0 ロ ロ ロ ロ ロ ロ ロ ロ ロ ろ 0 ロ ロ ロ ロ ロ ロ 0 ・ ク ■ 0 ロ ロ ロ 0 ロ ロ ロ 0 ろ 0 ロ ロ ロ ロ 00 ロ 0 ク ■ ゝ ■ 0 ロ ロ 00 ロ ロ ロ 0 ロ 000 ロ 00 ′ 2 、 - ■ ■ 回 ロ ロ ロ 0 000 ロ ロ 0 ′ ロ 0 ロ レ 0 ロ ロ 0 ロ ロ ロ 0 0 ロ ロ 回 固 ロ ロ 00 ロ ロ 000 ロ 000 ロ PERCENTAGE OF HOUSEHOLDS 100 ](media/Other-Statistics-image7.jpeg)
 <https://www.investopedia.com/terms/l/lorenz-curve.asp>
 **Rank Order Scale / Rank Ordering / Ranking scale**
 

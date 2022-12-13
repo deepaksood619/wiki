@@ -21,7 +21,7 @@ On the other side of the DNS system are resolvers. Every device that connects to
 Cloudfare DNS = 1.1.1.1
 
 <https://blog.cloudflare.com/announcing-1111/>
-![](media/DNS-Domain-Name-System-image1.png){width="5.0in" height="2.4583333333333335in"}
+![](media/DNS-Domain-Name-System-image1.png)
 Youtube - [What is DNS? - Introduction to Domain Name System](https://www.youtube.com/watch?v=e2xLV7pCOLI)
 **Recursive Nameserver**
 
@@ -97,8 +97,8 @@ A**Service record**(**SRV record**) is a specification of data in the[Domain Nam
 <https://dev.to/chrisachard/dns-record-crash-course-for-web-developers-35hn>
 **Dissecting a domain name (URL - Uniform Resource Locator)**
 
-![](media/DNS-Domain-Name-System-image2.png){width="5.0in" height="0.7916666666666666in"}
-![](media/DNS-Domain-Name-System-image3.png){width="5.84375in" height="2.53125in"}
+![](media/DNS-Domain-Name-System-image2.png)
+![](media/DNS-Domain-Name-System-image3.png)
 **Domain name hierarchy**
 
 Root Name Server (13)
@@ -111,9 +111,9 @@ DNS Zone Files (collection of related dns names)
 
 Resolver / Recursive DNS
 
-![Do the com. Resolvers Know? amazon.com. reinvent- 2017.com. "." (The Roots) org. wikipedia.org. kernel.org. ](media/DNS-Domain-Name-System-image4.png){width="5.0in" height="2.2604166666666665in"}
-![Internet Corporation for Assigned Names and Numbers Allocates IP addresses to Regional Internet Registries (RIRs) ICANN RIPS: Allocate IP addresses to Network Providers in their respective regions •ARIN (Canada, United States, some Caribbean nations) •RIPE NCC (Europe, Russia, Middle East, Central Asia) •APNIC (Asia-Pacific region) •LACNIC (Latin America, some Caribbean nations) .AFRINIC (Africa) Network Providers (Verizon, CenturyLink) hand out IP Addresses to their customers End Customer can provide IP address for their servers ](media/DNS-Domain-Name-System-image5.png){width="5.0in" height="4.208333333333333in"}
-![Contracts with Domain Name Registries Domain Name Registries Maintain the database of Domain Names registered within their respective TLDs (e.g. The registry for .com is Verisign) Accredits Domain Name Registrars ICANN Domain Name Reqistrars Registers new domain names on behalf of applicants. Checks with Peqistrv that the name is available Domain Name Reqistrant Requests (Buys) a domain name from the Registrar Informs the Registrar the names and IP address of their Authoritative DNS Name Server ](media/DNS-Domain-Name-System-image6.png){width="6.166666666666667in" height="2.6458333333333335in"}[https://ns1.com/academy#](https://ns1.com/academy)
+![Do the com. Resolvers Know? amazon.com. reinvent- 2017.com. "." (The Roots) org. wikipedia.org. kernel.org. ](media/DNS-Domain-Name-System-image4.png)
+![Internet Corporation for Assigned Names and Numbers Allocates IP addresses to Regional Internet Registries (RIRs) ICANN RIPS: Allocate IP addresses to Network Providers in their respective regions •ARIN (Canada, United States, some Caribbean nations) •RIPE NCC (Europe, Russia, Middle East, Central Asia) •APNIC (Asia-Pacific region) •LACNIC (Latin America, some Caribbean nations) .AFRINIC (Africa) Network Providers (Verizon, CenturyLink) hand out IP Addresses to their customers End Customer can provide IP address for their servers ](media/DNS-Domain-Name-System-image5.png)
+![Contracts with Domain Name Registries Domain Name Registries Maintain the database of Domain Names registered within their respective TLDs (e.g. The registry for .com is Verisign) Accredits Domain Name Registrars ICANN Domain Name Reqistrars Registers new domain names on behalf of applicants. Checks with Peqistrv that the name is available Domain Name Reqistrant Requests (Buys) a domain name from the Registrar Informs the Registrar the names and IP address of their Authoritative DNS Name Server ](media/DNS-Domain-Name-System-image6.png)[https://ns1.com/academy#](https://ns1.com/academy)
 **Punycode**
 
 **Punycode**is a representation of[Unicode](https://en.wikipedia.org/wiki/Unicode)with the limited[ASCII](https://en.wikipedia.org/wiki/ASCII)character subset used for Internet[host names](https://en.wikipedia.org/wiki/Host_(network)). Using Punycode, host names containing Unicode characters are transcoded to a subset of ASCII consisting of letters, digits, and hyphen, which is called the Letter-Digit-Hyphen (LDH) subset. For example,*München*([German](https://en.wikipedia.org/wiki/German_language)name for[Munich](https://en.wikipedia.org/wiki/Munich)) is encoded as*Mnchen-3ya*.
@@ -148,11 +148,11 @@ The TLS extension SNI works by requiring the client to transmit the hostname of 
 -   **POPs, Authoritative name servers, recursive name servers**
 -   **Sideways delegation**
 
-![Step reinvent-2017.com 600 IN NS ns-1084 awsdns-07 org. reinvent-2017.com 600 IN NS ms 1831 awsans-36 uk reinvent-2017.com 600 IN NS ns- 190 awsdns-23 com reinvent-2017.com 600 IN NS ns-634 awsdns- 15 NS com. reinvent-2017.com (DNS Provider) F:lnvent 0 2017. Amazon Web Services, Inc. or its Affiliates Alt rights reserved. In-Zone (t = 2 Days) reinvent-2017.com 172800 IN NS nsl.provider.com. reinvent-2017.com 172800 IN NS ns2.provider.com. reinvent-2017.com 172800 IN NS ns3.provider.com. reinvent-2017.com 172800 IN NS ns4.provider.com. reinvent-2017.com. (Route 53) reinvent-2017.com 600 IN NS ns-1084.awsdns-07.org. reinvent-2017.com 600 IN NS ns-1831.awsdns-36.co.uk. reinvent-2017.com 600 IN NS ns-190.awsdns-23.com. reinvent-2017.com 600 IN NS ns-634.awsdns-15.net. ](media/DNS-Domain-Name-System-image7.png){width="5.0in" height="3.0625in"}
+![Step reinvent-2017.com 600 IN NS ns-1084 awsdns-07 org. reinvent-2017.com 600 IN NS ms 1831 awsans-36 uk reinvent-2017.com 600 IN NS ns- 190 awsdns-23 com reinvent-2017.com 600 IN NS ns-634 awsdns- 15 NS com. reinvent-2017.com (DNS Provider) F:lnvent 0 2017. Amazon Web Services, Inc. or its Affiliates Alt rights reserved. In-Zone (t = 2 Days) reinvent-2017.com 172800 IN NS nsl.provider.com. reinvent-2017.com 172800 IN NS ns2.provider.com. reinvent-2017.com 172800 IN NS ns3.provider.com. reinvent-2017.com 172800 IN NS ns4.provider.com. reinvent-2017.com. (Route 53) reinvent-2017.com 600 IN NS ns-1084.awsdns-07.org. reinvent-2017.com 600 IN NS ns-1831.awsdns-36.co.uk. reinvent-2017.com 600 IN NS ns-190.awsdns-23.com. reinvent-2017.com 600 IN NS ns-634.awsdns-15.net. ](media/DNS-Domain-Name-System-image7.png)
 <https://aws.amazon.com/blogs/aws/latency-based-multi-region-routing-now-available-for-aws/>
 
 [AWS re:Invent 2017: DNS Demystified: Global Traffic Management with Amazon Route 53 (NET302)](https://www.youtube.com/watch?v=PVBC1gb78r8)
-![DÅX9{tified Global Tra fic Manageme t'Mith Amazon Route 53 Develop Xuan Shi, Software Developer, Ine. November 28, 2017 Flnvent ](media/DNS-Domain-Name-System-image8.jpg){width="5.0in" height="2.8020833333333335in"}
+![DÅX9{tified Global Tra fic Manageme t'Mith Amazon Route 53 Develop Xuan Shi, Software Developer, Ine. November 28, 2017 Flnvent ](media/DNS-Domain-Name-System-image8.jpg)
 **DNS Subdomain Names**
 
 Most resource types require a name that can be used as a DNS subdomain name as defined in[RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:

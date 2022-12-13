@@ -12,10 +12,10 @@ Modified: 2021-07-08 01:08:01 +0500
 According to[OAuth's website](http://oauth.net/about/)the protocol is not unlike a valet key.
 
 Many luxury cars today come with a valet key. It is a special key you give the parking attendant and unlike your regular key, will not allow the car to drive more than a mile or two. Some valet keys will not open the trunk, while others will block access to your onboard cell phone address book. Regardless of what restrictions the valet key imposes, the idea is very clever. You give someone limited access to your car with a special key, while using your regular key to unlock everything.
-![OAuth 2.0 Roles User Application API ](media/Authentication_OAuth-image1.png){width="3.4895833333333335in" height="1.9583333333333333in"}
+![OAuth 2.0 Roles User Application API ](media/Authentication_OAuth-image1.png)
 **Workflow of OAuth 2.0**
 
-![MyBucks Application InterSystems Authorization Request Authorization Grant Authorization Grant Access Token Access Token Protected Resource Sara Memorial Bank Authorization Server Memorial Bank Resource Server ](media/Authentication_OAuth-image2.png){width="5.0in" height="2.5729166666666665in"}
+![MyBucks Application InterSystems Authorization Request Authorization Grant Authorization Grant Access Token Access Token Protected Resource Sara Memorial Bank Authorization Server Memorial Bank Resource Server ](media/Authentication_OAuth-image2.png)
 Throughout this workflow OAuth 2.0 serves as an authorization framework, the actual authentication of user occurs through OpenID Connect, through the use of ID tokens that are passed along with the access token.
 **4 Grant Types**
 
@@ -67,7 +67,7 @@ Luckily,[OpenID Connect](https://openid.net/connect/)or OIDC brings some sanity 
 <https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs/>
 
 <https://tools.ietf.org/html/rfc6749>
-![](media/Authentication_OAuth-image3.png){width="5.0in" height="2.5416666666666665in"}
+![](media/Authentication_OAuth-image3.png)
 **PKCE - Proof-Key for Code Exchange (pronounced - pixie)**
 **OAuth 2.1**
 -   Authorization Code + PKCE

@@ -28,7 +28,7 @@ Making great software is more about managing complexity and thinking through det
 
 Used for setting, communicating and monitoring quarterly goals and results in organizations.
 
-![OKRs cheatsheet DO's Make it a bottom-up exercise Stretch OKRs Talk about goals every week Align individual goals with team.org Make goals accessible to everyone Base goals off of data not "feelings" DON'Ts Confuse OKRs with KPls Confuse initiatives with KRs Include recurring tasks ](media/Software-Coding---Development-Engineering-image1.png){width="5.0in" height="2.4791666666666665in"}
+![OKRs cheatsheet DO's Make it a bottom-up exercise Stretch OKRs Talk about goals every week Align individual goals with team.org Make goals accessible to everyone Base goals off of data not "feelings" DON'Ts Confuse OKRs with KPls Confuse initiatives with KRs Include recurring tasks ](media/Software-Coding---Development-Engineering-image1.png)
 <https://soapboxhq.com/goal-examples/engineering>
 
 <https://okrexamples.co/technology-engineering-rnd-okr-examples>
@@ -50,7 +50,7 @@ Yak shaving is programming lingo for the seemingly endless series of small tasks
 -   The pillow was originally stuffed with yak hair. In order to re-stuff the pillow you need to get some new yak hair.
 -   And that's how you end up shaving a yak, when all you really wanted to do was wax your car.
 **SLAP - Single Level of Abstraction Principle**
-![Three stages](media/Software-Coding---Development-Engineering-image2.png){width="5.0in" height="3.9895833333333335in"}
+![Three stages](media/Software-Coding---Development-Engineering-image2.png)
 **Legacy code**
 
 One of the definitions - The code without test cases.
@@ -110,7 +110,7 @@ An interaction diagram is used to show theinteractive behaviorof a system. Since
 
 A sequence diagram simply depicts interaction between objects in a sequential order i.e. the order in which these interactions take place. We can also use the terms event diagrams or event scenarios to refer to a sequence diagram. Sequence diagrams describe how and in what order the objects in a system function. These diagrams are widely used by businessmen and software developers to document and understand requirements for new and existing systems.
 
-![1 : Open Application 2 : Access Webcam 3 : Get Photo 4 : Detect face 5 : Retrieve Mood 7 : Display Mood 6 : Mood 8 : Retrieve Music 10 : Playlist 9 : Generated Playlist ](media/Software-Coding---Development-Engineering-image3.png){width="5.0in" height="3.2916666666666665in"}
+![1 : Open Application 2 : Access Webcam 3 : Get Photo 4 : Detect face 5 : Retrieve Mood 7 : Display Mood 6 : Mood 8 : Retrieve Music 10 : Playlist 9 : Generated Playlist ](media/Software-Coding---Development-Engineering-image3.png)
 
 <https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams/>-   Flowchart
 -   Usecase diagram
@@ -152,7 +152,7 @@ A Workflow is a series of decisions made by different people that determines wha
 
 Aswimlane(orswimlane diagram) is used in[process flow diagrams](https://www.wikiwand.com/en/Flowchart), or flowcharts, that visually distinguishes [job sharing](https://www.wikiwand.com/en/Job_sharing) and responsibilities for sub-processes of a[business process](https://www.wikiwand.com/en/Business_process). Swimlanes may be arranged either horizontally or vertically.
 
-![Swimlane flowchart. Here, the swimlanes are named Customer, Sales, Contracts, Legal, and Fulfillment, and are arranged vertically.](media/Software-Coding---Development-Engineering-image4.png){width="4.583333333333333in" height="4.239583333333333in"}
+![Swimlane flowchart. Here, the swimlanes are named Customer, Sales, Contracts, Legal, and Fulfillment, and are arranged vertically.](media/Software-Coding---Development-Engineering-image4.png)
 
 <https://www.wikiwand.com/en/Swim_lane>
 **Life Critical System**
@@ -171,10 +171,10 @@ Safety-critical elements are systems or components that are designed to prevent,
 <https://www.toptal.com/software/life-critical-systems>
 **Non Functional Requirements**
 
-<https://en.wikipedia.org/wiki/Non-functional_requirement>![An Architect's SUCCess Formula Dogma and rules 10% 20 % Experience Pragmatism 20% Flexibility 10% Minimalism 10% Trends and future needs 10% Experiments & PoCs 10% Hands-on participation 10% Vendor advice 0% ](media/Software-Coding---Development-Engineering-image5.png){width="5.0in" height="4.145833333333333in"}
-![What architects actually do Do te nical stuff Defend architecture Act as salespeopl 30% 30 % ](media/Software-Coding---Development-Engineering-image6.png){width="5.0in" height="3.6458333333333335in"}
-![What architects want to do Explore technologies Shape strategy 20 % 30% entor developers 20% Make important decisio 30% ](media/Software-Coding---Development-Engineering-image7.png){width="5.0in" height="3.6875in"}
-![Donald Knuth 10-page literal Pascal program, including innovative new data structure Doug Mcllroy tr -cs A-Za-z 'n' I tr A-Z a-z I sort I uniq -c I sort -rn I sed ${l}q ](media/Software-Coding---Development-Engineering-image8.png){width="5.0in" height="2.375in"}
+<https://en.wikipedia.org/wiki/Non-functional_requirement>![An Architect's SUCCess Formula Dogma and rules 10% 20 % Experience Pragmatism 20% Flexibility 10% Minimalism 10% Trends and future needs 10% Experiments & PoCs 10% Hands-on participation 10% Vendor advice 0% ](media/Software-Coding---Development-Engineering-image5.png)
+![What architects actually do Do te nical stuff Defend architecture Act as salespeopl 30% 30 % ](media/Software-Coding---Development-Engineering-image6.png)
+![What architects want to do Explore technologies Shape strategy 20 % 30% entor developers 20% Make important decisio 30% ](media/Software-Coding---Development-Engineering-image7.png)
+![Donald Knuth 10-page literal Pascal program, including innovative new data structure Doug Mcllroy tr -cs A-Za-z 'n' I tr A-Z a-z I sort I uniq -c I sort -rn I sed ${l}q ](media/Software-Coding---Development-Engineering-image8.png)
 **Junior developer training guide**
 -   Message format for asking question
 -   technical private messages, all messages with pain points should be public. So if anyone else has the same question, they can refer to previous conversations
@@ -253,7 +253,7 @@ Here, the applicant clearly describes what they did (launch Facebook Messenger),
 -   It is an attitude that can be encapsulated in a simple but demanding rule: always think both big picture and fine detail -- Will Gompertz - Think Like an Artist
 **Cycle time compression**
 
-![What you initially thought the goal was What the initial optimal solution was Optimal solution moved to ](media/Software-Coding---Development-Engineering-image9.png){width="5.0in" height="3.6041666666666665in"}
+![What you initially thought the goal was What the initial optimal solution was Optimal solution moved to ](media/Software-Coding---Development-Engineering-image9.png)
 **Time Estimation**
 
 There is a huge difference between precision and accuracy

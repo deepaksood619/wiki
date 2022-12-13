@@ -82,13 +82,13 @@ top
 As computers typically are running multiple tasks, reading and writing directly from/to physical memory is a bad idea. Imagine how easy is to write a program, which reads all the stuff (including your passwords) out of memory or a program, which would write at different program's memory addresses.
 So, instead of doing things with Physical Memory we have a concept ofVirtual Memory. When your program runs, it only sees it's memory and it thinks that it's the only one in here. Also, not all of your program's stored memory bytes could be in RAM. If you don't access specific memory block often enough, Operating System can put some block of memory into slower storage (like disk) saving precious RAM. And OS won't even admit to your application that OS did it. But we all know that OS did it.
 
-![](media/Memory-image1.png){width="4.552083333333333in" height="4.03125in"}
+![](media/Memory-image1.png)
 
 Virtual memory can be implemented usingSegmentationorPage tablesbased on your CPU architecture and OS. Page tables are way more common than segmentation.
 InPaged Virtual Memory, we divide virtual memory into blocks, calledPages. Pages can vary in size based on hardware, but usually pages are4-64 KB, often with the capability to use huge pages from2 MB to 1 GB. The division into blocks is useful as it would require a lot more memory to manage each memory slot individually and would slow down performance of your computer.
 In order to implement Paged Virtual Memory, there is a chip calledMemory Management Unit (MMU), which sits between CPU and your memory. MMU holds mapping from virtual address to physical address in a table (which it stores in memory) calledPage Table, containing onePage Table Entry (PTE)per page. Also MMU has a physical cache calledTranslation Lookaside Buffer (TLB), which store recent translations from Virtual Memory to Physical. Schematically it looks like this:
 
-![TLB bus Physical Memory 1011 1000 cpu 1011 1011 Virtual Address 0010 0010 MMLJ 1000 1011 0100 1001 ](media/Memory-image2.png){width="8.28125in" height="4.375in"}
+![TLB bus Physical Memory 1011 1000 cpu 1011 1011 Virtual Address 0010 0010 MMLJ 1000 1011 0100 1001 ](media/Memory-image2.png)
 
 So let's say OS decides to put some virtual memory page into disk and your program tries to access it. This process looks like this:
 
@@ -103,7 +103,7 @@ So let's say OS decides to put some virtual memory page into disk and your progr
 5.  With some Memory Management Units, there can also be a shortage of Page Table Entrys, in which case the OS will have to free one for the new mapping.
 Operating systems usually manages multiple applications(processes) so the whole memory management bit looks like this:
 
-![](media/Memory-image3.png){width="6.90625in" height="4.25in"}
+![](media/Memory-image3.png)
 
 Each process has one linear virtual address space, with addresses running from0 to some huge maximum. Virtual address space doesn't need to be contiguous, so that not all of these virtual addresses are actually used to store data and they don't consume space in RAM or disk. What's really cool about this is that the same frame of real memory can back multiple virtual pages belonging to multiple processes.
 [https://povilasv.me/go-memory-management/#](https://povilasv.me/go-memory-management/)

@@ -9,14 +9,14 @@ Modified: 2019-03-12 22:56:53 +0500
 Because MQTT is often used in scenarios that include unreliable networks, it's reasonable to assume that some of the MQTT clients in these scenarios will occasionally disconnect ungracefully. An ungraceful disconnect can occur due to loss of connection, empty batteries, or many other reasons. Knowing whether a client disconnected gracefully (with an MQTTDISCONNECTmessage) or ungracefully (without a disconnect message), helps you respond correctly. The Last Will and Testament feature provides a way for clients to respond to ungraceful disconnects in an appropriate way.
 In MQTT, you use the Last Will and Testament (LWT) feature to notify other clients about an ungracefully disconnected client. Each client can specify its last will message when it connects to a broker. The last will message is a normal MQTT message with a topic, retained message flag, QoS, and payload. The broker stores the message until it detects that the client has disconnected ungracefully. In response to the ungraceful disconnect, the broker sends the last-will message to all subscribed clients of the last-will message topic. If the client disconnects gracefully with a correct DISCONNECT message, the broker discards the stored LWT message.
 
-![disconnect](media/Last-Will-and-Testament-image1.png){width="5.09375in" height="3.03125in"}
+![disconnect](media/Last-Will-and-Testament-image1.png)
 
 LWT helps you implement various strategies when the connection of a client drops (or at least inform other clients about the offline status).
 **How do you specify a LWT message for a client?**
 
 Clients can specify an LWT message in the CONNECT message that initiates the connection between the client and the broker.
 
-![MQTT Connect message content](media/Last-Will-and-Testament-image2.png){width="5.09375in" height="3.0625in"}
+![MQTT Connect message content](media/Last-Will-and-Testament-image2.png)
 **When does a broker send the LWT message?**
 
 According to the[MQTT 3.1.1 specification](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.html), the broker must distribute the LWT of a client in the following situations:

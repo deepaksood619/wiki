@@ -59,5 +59,5 @@ Modified: 2020-04-26 00:23:08 +0500
 
 Building a really good query optimizer and query execution system in a distributed database system is hard. It requires a number of sophisticated components including statistics, cardinality estimation, plan space search, the right storage structures, fast query execution operators, intelligent shuffle, both broadcast and point-to-point data transmission, and more.
 [15-721 Advanced Database Systems (Spring 2020)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O)
-![](media/Course---Advanced-Database-Systems-image1.jpg){width="5.0in" height="2.8020833333333335in"}
+![](media/Course---Advanced-Database-Systems-image1.jpg)
 

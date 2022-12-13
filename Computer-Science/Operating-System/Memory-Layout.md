@@ -17,7 +17,7 @@ A typical memory representation of C program consists of following sections.
 4.  Stack
 
 5.  Heap
-![high addres low address stack heap uninitialized data(bss) initialized data text command-line arguments and environment variables initialized to zero by exec read from program file by exec ](media/Memory-Layout-image1.jpg){width="5.208333333333333in" height="3.4791666666666665in"}
+![high addres low address stack heap uninitialized data(bss) initialized data text command-line arguments and environment variables initialized to zero by exec read from program file by exec ](media/Memory-Layout-image1.jpg)
 A typical memory layout of a running process
 
 1.  **Text Segment:**

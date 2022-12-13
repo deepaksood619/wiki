@@ -12,12 +12,12 @@ Path: Sequence of vertices connected by edges
 
 Cycle: Path whose first and last vertices are the same
 Two vertices are connected if there is a path between them
-![cycle of length 5 vertex of degree 3 vertex path of length 4 connected components ](media/Undirected-Graph-image1.png){width="5.0in" height="4.75in"}
+![cycle of length 5 vertex of degree 3 vertex path of length 4 connected components ](media/Undirected-Graph-image1.png)
 **Handshaking Lemma**
 
 In every finite undirected graph number of vertices with odd degree is always even.The handshaking lemma is a consequence of the degree sum formula (also sometimes called the handshaking lemma)
 
-![](media/Undirected-Graph-image2.png){width="1.3020833333333333in" height="0.15625in"}
+![](media/Undirected-Graph-image2.png)
 **Properties**
 
 1.  **In a k-ary tree where every node has either 0 or k children, following property is always true.**

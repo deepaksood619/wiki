@@ -14,14 +14,14 @@ Ex - Given two sets (for example set A = {1, 2, 3} and set B = {2, 3, 4}), the m
 In[mathematics](https://en.wikipedia.org/wiki/Mathematics),injections,surjectionsandbijectionsare classes of[functions](https://en.wikipedia.org/wiki/Function_(mathematics))distinguished by the manner in which[arguments](https://en.wikipedia.org/wiki/Parameter)(input[expressions](https://en.wikipedia.org/wiki/Expression_(mathematics))from the[domain](https://en.wikipedia.org/wiki/Domain_(mathematics))) and[images](https://en.wikipedia.org/wiki/Image_(mathematics))(output expressions from the[codomain](https://en.wikipedia.org/wiki/Codomain)) are related ormapped toeach other.
 A function[maps](https://en.wikipedia.org/wiki/Map_(mathematics))elements from its domain to elements in its codomain. Given a function*f: X -> Y*-   The function is[injective](https://en.wikipedia.org/wiki/Injective_function), orone-to-one, if each element of the codomain is mapped to byat mostone element of the domain, or equivalently, if distinct elements of the domain map to distinct elements in the codomain. An injective function is also called aninjection.Notationally:
 
-![](media/Sets-image1.png){width="4.458333333333333in" height="0.4375in"}
+![](media/Sets-image1.png)
 
 Or, equivalently (using[logical transposition](https://en.wikipedia.org/wiki/Transposition_(logic))),
 
-![](media/Sets-image2.png){width="5.0in" height="0.5208333333333334in"}
+![](media/Sets-image2.png)
 -   The function is[surjective](https://en.wikipedia.org/wiki/Surjective_function), oronto, if each element of the codomain is mapped to byat leastone element of the domain. That is, the image and the codomain of the function are equal. A surjective function is asurjection.Notationally:
 
-![Vy e Y, e X such that y f(x). ](media/Sets-image3.png){width="5.0in" height="0.5416666666666666in"}
+![Vy e Y, e X such that y f(x). ](media/Sets-image3.png)
 -   The function is[bijective](https://en.wikipedia.org/wiki/Bijective_function)(one-to-one and ontoorone-to-one correspondence) if each element of the codomain is mapped to byexactlyone element of the domain. That is, the function isbothinjective and surjective. A bijective function is also called abijection.
 An injective function need not be surjective (not all elements of the codomain may be associated with arguments), and a surjective function need not be injective (some images may be associated withmore than oneargument). The four possible combinations of injective and surjective features are illustrated in the adjacent diagrams.
 <https://en.wikipedia.org/wiki/Bijection,_injection_and_surjection>

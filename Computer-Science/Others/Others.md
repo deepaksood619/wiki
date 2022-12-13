@@ -27,11 +27,11 @@ Two types of users -
 2.  **Explorers -** trive to find hid- den items they can likely collect by exploring a software system's differ- ent areas
 **Performance Modelling**
 
-![performance modeling model as real-world system theoretical model analyze results translate back * makes assumptions about the system: request arrival rate, service order, times. cannot apply the results if your system does not satisfy them! ](media/Others-image1.png){width="5.0in" height="3.28125in"}
-![a single server open, closed queueing systems utilization law, the P-K formula, Little's law CoDeI, adaptive LIFO a cluster of many servers the USL scaling bottlenecks stepping back the role of performance modeling ](media/Others-image2.png){width="5.0in" height="3.8958333333333335in"}
-![model the web server as a queueing system. web server queueing delay + service time = response time assumptions 1. requests are independent and random, arrive at some "arrival rate". 2. requests are processed one at a time, in FIFO order; requests queue if server is busy ("queueing delay"). ](media/Others-image3.png){width="5.0in" height="2.84375in"}
-!["What's the maximum throughput of this server?" i.e. given a response time target arrival rate increases Utilization law server utilization increases linearly P-K formula P(request has to queue) increases, so mean queue length increases, so mean queueing delay increases. ](media/Others-image4.png){width="5.0in" height="3.6458333333333335in"}
-![Pollaczek-l<hinchine (P-K) formula U * (mean service time) * (service time variability)2 mean queueing delay = assuming constant service time and so, request sizes: mean queueing delay (queueing delay + service time) since response time queueing delay Q) utilization (U) Q) utilization (U) ](media/Others-image5.png){width="5.0in" height="2.6458333333333335in"}
+![performance modeling model as real-world system theoretical model analyze results translate back * makes assumptions about the system: request arrival rate, service order, times. cannot apply the results if your system does not satisfy them! ](media/Others-image1.png)
+![a single server open, closed queueing systems utilization law, the P-K formula, Little's law CoDeI, adaptive LIFO a cluster of many servers the USL scaling bottlenecks stepping back the role of performance modeling ](media/Others-image2.png)
+![model the web server as a queueing system. web server queueing delay + service time = response time assumptions 1. requests are independent and random, arrive at some "arrival rate". 2. requests are processed one at a time, in FIFO order; requests queue if server is busy ("queueing delay"). ](media/Others-image3.png)
+!["What's the maximum throughput of this server?" i.e. given a response time target arrival rate increases Utilization law server utilization increases linearly P-K formula P(request has to queue) increases, so mean queue length increases, so mean queueing delay increases. ](media/Others-image4.png)
+![Pollaczek-l<hinchine (P-K) formula U * (mean service time) * (service time variability)2 mean queueing delay = assuming constant service time and so, request sizes: mean queueing delay (queueing delay + service time) since response time queueing delay Q) utilization (U) Q) utilization (U) ](media/Others-image5.png)
 **Software defined radio**
 
 **WHAT IS SOFTWARE-DEFINED RADIO USED FOR?**

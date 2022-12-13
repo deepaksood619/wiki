@@ -24,8 +24,8 @@ b) It has depth as k.
 c) There are exactly ^k^Cinodes at depth i for i = 0, 1, . . . , k.
 
 d) The root has degree k and children of root are themselves Binomial Trees with order k-1, k-2,.. 0 from left to right.
-![7-거9 니1d00 ](media/Binomial-Heap-image1.png){width="5.0in" height="3.8645833333333335in"}
-![0"스쇠 0 ](media/Binomial-Heap-image2.png){width="5.0in" height="2.3020833333333335in"}
+![7-거9 니1d00 ](media/Binomial-Heap-image1.png)
+![0"스쇠 0 ](media/Binomial-Heap-image2.png)
 **Structure of a Binomial Heap:**
 -   A Binomial Heap is a set of Binomial Trees where each Binomial Tree follows Min Heap property.
 -   And there can be at-most one Binomial Tree of any degree.

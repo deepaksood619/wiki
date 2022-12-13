@@ -7,10 +7,10 @@ Modified: 2018-12-24 15:30:58 +0500
 ---
 
 The complete time series platform.
-![InfluxData Functional Architecture 10T & Sensors Systems Metrics & Events Apps Message Queues InfluxData Platform ACT Visualize Notify Automate Decision Makers Systems 10T ](media/InfluxDB_Influx-image1.png){width="5.0in" height="2.3854166666666665in"}
+![InfluxData Functional Architecture 10T & Sensors Systems Metrics & Events Apps Message Queues InfluxData Platform ACT Visualize Notify Automate Decision Makers Systems 10T ](media/InfluxDB_Influx-image1.png)
 **TICK Stack**
 
-![Chronograf Complete Interface for the InfluxData Platform Query Results System Stats Databases Networking Message Queues Apps Telegraf Agent for Collecting and Reporting Metrics and Events Plugins InfluxDB Purpose Built Time Series Database Clustered Kapacitor Real-time Streaming Data Processing Engine Define Alert Alerting Frameworks Pull Based Service Discovery Azure / AWS Kubemetexw Anomaly Detection Clustered User Machine Defined Learning Functions ](media/InfluxDB_Influx-image2.png){width="5.0in" height="3.9270833333333335in"}
+![Chronograf Complete Interface for the InfluxData Platform Query Results System Stats Databases Networking Message Queues Apps Telegraf Agent for Collecting and Reporting Metrics and Events Plugins InfluxDB Purpose Built Time Series Database Clustered Kapacitor Real-time Streaming Data Processing Engine Define Alert Alerting Frameworks Pull Based Service Discovery Azure / AWS Kubemetexw Anomaly Detection Clustered User Machine Defined Learning Functions ](media/InfluxDB_Influx-image2.png)
 1.  Telegraf
 
 **Telegraf is the Agent for Collecting & Reporting Metrics & Data**

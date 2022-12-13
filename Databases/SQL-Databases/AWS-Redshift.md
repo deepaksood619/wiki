@@ -46,7 +46,7 @@ Under this encoding, each block is compressed with a standard compression algori
 -   Compression can return raw if there are very less number of rows in a column or data is very sparse (i.e. column has a lot of NULL)
 -   Changing column encoding requires a table rebuild
 -   SELECT "column", type, encoding FROM pg_table_def WHERE tablename = 'deep dive';
-![Compression: Example CREATE TABLE deep_dive ( aid aid INT ENCODE , loc CHAR(3) ENCODE , dt DATE ENCODE ZSTD BYTE-DICT RUNLENGTH dt loc SFO JFK SFO JFK dt 2017-10-20 2017-10-20 2017-04-01 2017-05-14 aid æ:lnvent loc More efficient compression is due to storing the same data type in the columnar architecture Columns grow and shrink independently Reduces storage requirements Reduces I/O 2018, Amazon Web Services. or its affiliates, All rights reserved, aws ](media/AWS-Redshift-image1.png){width="5.0in" height="2.6875in"}
+![Compression: Example CREATE TABLE deep_dive ( aid aid INT ENCODE , loc CHAR(3) ENCODE , dt DATE ENCODE ZSTD BYTE-DICT RUNLENGTH dt loc SFO JFK SFO JFK dt 2017-10-20 2017-10-20 2017-04-01 2017-05-14 aid æ:lnvent loc More efficient compression is due to storing the same data type in the columnar architecture Columns grow and shrink independently Reduces storage requirements Reduces I/O 2018, Amazon Web Services. or its affiliates, All rights reserved, aws ](media/AWS-Redshift-image1.png)
 **Concurrency Control**
 
 [Multi-version Concurrency Control (MVCC)](https://dbdb.io/browse?concurrency-control=multi-version-concurrency-control-mvcc)
@@ -132,7 +132,7 @@ To ensure data availability during disk or node failure, Redshift utilizes synch
 -   Load, unload, backup, restore
 **Amazon Redshift Spectrum Nodes**
 -   Execute queries directly again Amazon S3
-![Compute ---node --- SQL clients/Bl tools JDBC/ODBC Leader ---node --- Compute ---node--- Compute ---node --- Load Query Amazon Redshift Spectrum Amazon S3 ](media/AWS-Redshift-image2.png){width="5.0in" height="4.322916666666667in"}
+![Compute ---node --- SQL clients/Bl tools JDBC/ODBC Leader ---node --- Compute ---node--- Compute ---node --- Load Query Amazon Redshift Spectrum Amazon S3 ](media/AWS-Redshift-image2.png)
 **Views**
 
 [Virtual Views](https://dbdb.io/browse?views=virtual-views)

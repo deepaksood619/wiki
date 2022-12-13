@@ -51,7 +51,7 @@ The token bucket algorithm can be conceptually understood as follows
 -   If at least*n*tokens are in the bucket,*n*tokens are removed from the bucket, and the packet is sent to the network.
 -   If fewer than*n*tokens are available, no tokens are removed from the bucket, and the packet is considered to benon-conformant.
 This solution can have problem in a distributed environment where each user can come at a different server. Can cause a race condition too.
-![/ c 1<611 (Buckcf 5 /vmin Il : OJ : OS 5 U2 ](media/Rate-Limiting-image1.png){width="5.0in" height="3.8541666666666665in"}
+![/ c 1<611 (Buckcf 5 /vmin Il : OJ : OS 5 U2 ](media/Rate-Limiting-image1.png)
 **Hierarchical Token Bucket**
 
 The hierarchical token bucket (HTB) is a faster replacement for the[class-based queueing](https://en.wikipedia.org/wiki/Class-based_queueing) (CBQ) [queuing discipline](https://en.wikipedia.org/wiki/Queuing_discipline) in [Linux](https://en.wikipedia.org/wiki/Linux). It is useful to limit a client's[download](https://en.wikipedia.org/wiki/Download)/[upload](https://en.wikipedia.org/wiki/Upload)rate so that the limited client cannot saturate the total bandwidth.
@@ -62,24 +62,24 @@ Hierarchical Token Bucket implements a classful queuing mechanism for the linux 
 **Leaky Bucket**
 
 [Leaky bucket](https://en.wikipedia.org/wiki/Leaky_bucket)(closely related to[token bucket](https://en.wikipedia.org/wiki/Token_bucket)) is an algorithm that provides a simple, intuitive approach to rate limiting via a queue which you can think of as a bucket holding the requests. When a request is registered, it is appended to the end of the queue. At a regular interval, the first item on the queue is processed. This is also known as a first in first out (FIFO) queue. If the queue is full, then additional requests are discarded (or leaked).
-![Capacity Two requests processed per minute Request 3: Dropped Request 2: Queued Request 1: Queued ](media/Rate-Limiting-image2.png){width="4.875in" height="1.15625in"}
+![Capacity Two requests processed per minute Request 3: Dropped Request 2: Queued Request 1: Queued ](media/Rate-Limiting-image2.png)
 The advantage of this algorithm is that it smooths out bursts of requests and processes them at an approximately average rate. It's also easy to implement on a single server or load balancer, and is memory efficient for each user given the limited queue size.
 However, a burst of traffic can fill up the queue with old requests and starve more recent requests from being processed. It also provides no guarantee that requests get processed in a fixed amount of time. Additionally, if you load balance servers for fault tolerance or increased throughput, you must use a policy to coordinate and enforce the limit between them.
 <https://en.wikipedia.org/wiki/Leaky_bucket>
 **Fixed Window**
 
 In afixed windowalgorithm, a window size of n seconds (typically using human-friendly values, such as 60 or 3600 seconds) is used to track the rate. Each incoming request increments the counter for the window. If the counter exceeds a threshold, the request is discarded. The windows are typically defined by the floor of the current timestamp, so 12:00:03 with a 60 second window length, would be in the 12:00:00 window.
-![12:00 Request 3: Denied Request 2: Ok Request 1: Ok 12:01 ](media/Rate-Limiting-image3.png){width="2.6041666666666665in" height="1.4375in"}
+![12:00 Request 3: Denied Request 2: Ok Request 1: Ok 12:01 ](media/Rate-Limiting-image3.png)
 The advantage of this algorithm is that it ensures more recent requests gets processed without being starved by old requests. However, a single burst of traffic that occurs near the boundary of a window can result in twice the rate of requests being processed, because it will allow requests for both the current and next windows within a short time. Additionally, if many consumers wait for a reset window, for example at the top of the hour, then they may stampede your API at the same time.
 **Sliding Log**
 
 Sliding Lograte limiting involves tracking a time stamped log for each consumer's request. These logs are usually stored in a hash set or table that is sorted by time. Logs with timestamps beyond a threshold are discarded. When a new request comes in, we calculate the sum of logs to determine the request rate. If the request would exceed the threshold rate, then it is held.
-![Request at 12:00:35 Holc Request at 12:00:15 0k Request at 12:00:01 0k ](media/Rate-Limiting-image4.png){width="2.34375in" height="1.2708333333333333in"}
+![Request at 12:00:35 Holc Request at 12:00:15 0k Request at 12:00:01 0k ](media/Rate-Limiting-image4.png)
 The advantage of this algorithm is that it does not suffer from the boundary conditions of fixed windows. The rate limit will be enforced precisely. Also, because the sliding log is tracked for each consumer, you don't have the stampede effect that challenges fixed windows. However, it can be very expensive to store an unlimited number of logs for every request. It's also expensive to compute because each request requires calculating a summation over the consumer's prior requests, potentially across a cluster of servers. As a result, it does not scale well to handle large bursts of traffic or denial of service attacks.
 **Sliding Window Counter**
 
 This is a hybrid approach that combines the low processing cost of the fixed window algorithm, and the improved boundary conditions of the sliding log. Like the fixed window algorithm, we track a counter for each fixed window. Next, we account for a weighted value of the previous window's request rate based on the current timestamp to smooth out bursts of traffic. For example, if the current window is 25% through, then we weight the previous window's count by 75%. The relatively small number of data points needed to track per key allows us to scale and distribute across large clusters.
-![Request 3: Ok Request 2: Denied Request 1: Ok ](media/Rate-Limiting-image5.png){width="2.5729166666666665in" height="1.5520833333333333in"}
+![Request 3: Ok Request 2: Denied Request 1: Ok ](media/Rate-Limiting-image5.png)
 We recommend thesliding windowapproach because it gives the flexibility to scale rate limiting with good performance. The rate windows are an intuitive way she to present rate limit data to API consumers. It also avoids the starvation problem of leaky bucket, and the bursting problems of fixed window implementations.
 𝗟𝗢𝗦𝗦𝗬 𝗖𝗢𝗨𝗡𝗧
 

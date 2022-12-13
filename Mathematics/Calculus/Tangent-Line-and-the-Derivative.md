@@ -16,28 +16,28 @@ Alternative Definition - The tangent line through a point A is the line that pas
 1.  Tangent line must touch the curve
 
 2.  Limit from left = Limit from right
-![x ](media/Tangent-Line-and-the-Derivative-image1.png){width="2.46875in" height="2.09375in"}
-![sin 0 o undefined o ](media/Tangent-Line-and-the-Derivative-image2.png){width="2.4895833333333335in" height="1.7708333333333333in"}
+![x ](media/Tangent-Line-and-the-Derivative-image1.png)
+![sin 0 o undefined o ](media/Tangent-Line-and-the-Derivative-image2.png)
 Therefore this line doesn't have a tangent line at point (0,1), since tangent lines must touch the curve
-![冖 0 'z-) ](media/Tangent-Line-and-the-Derivative-image3.png){width="3.0520833333333335in" height="2.4375in"}
-![Left hand limit * Right hand limit (2 (1 0) ](media/Tangent-Line-and-the-Derivative-image4.png){width="3.0416666666666665in" height="1.8958333333333333in"}
+![冖 0 'z-) ](media/Tangent-Line-and-the-Derivative-image3.png)
+![Left hand limit * Right hand limit (2 (1 0) ](media/Tangent-Line-and-the-Derivative-image4.png)
 Since the left hand limit line not equal to right hand limit line, we say limit does not exists, therefore there is no tangent line for the curve at point (-2, 0)
-![Tangent Line = Best approximation by a line ](media/Tangent-Line-and-the-Derivative-image5.png){width="5.0in" height="2.4270833333333335in"}
+![Tangent Line = Best approximation by a line ](media/Tangent-Line-and-the-Derivative-image5.png)
 2.  Secant Line
 
 A line that touches the curve at two points.
 
-![](media/Tangent-Line-and-the-Derivative-image6.png){width="2.3541666666666665in" height="2.3645833333333335in"}
+![](media/Tangent-Line-and-the-Derivative-image6.png)
 **Derivative**
 
-![Derivative = Slope of Tangent Line ](media/Tangent-Line-and-the-Derivative-image7.png){width="3.7604166666666665in" height="2.03125in"}
-![ل - ل ](media/Tangent-Line-and-the-Derivative-image8.png){width="3.78125in" height="3.3229166666666665in"}
-![As P + A, secant + tangent, m --- -u derivative Ax ](media/Tangent-Line-and-the-Derivative-image9.png){width="3.8125in" height="2.0520833333333335in"}
-![As P + A, secant + tangent, m = Ax dx ](media/Tangent-Line-and-the-Derivative-image10.png){width="3.84375in" height="0.40625in"}
-![Secant Lines: Tangent Lines: m Ax dx Ax, dx, Ay are numbers dy are differentials ](media/Tangent-Line-and-the-Derivative-image11.png){width="3.84375in" height="0.78125in"}
-![Finding equation of tangent line Point slope form: Y ¯ Yl = m(x --- Xl) Point: A = (Xl, Yl) Slope: m = dx ](media/Tangent-Line-and-the-Derivative-image12.png){width="3.8645833333333335in" height="1.9583333333333333in"}
+![Derivative = Slope of Tangent Line ](media/Tangent-Line-and-the-Derivative-image7.png)
+![ل - ل ](media/Tangent-Line-and-the-Derivative-image8.png)
+![As P + A, secant + tangent, m --- -u derivative Ax ](media/Tangent-Line-and-the-Derivative-image9.png)
+![As P + A, secant + tangent, m = Ax dx ](media/Tangent-Line-and-the-Derivative-image10.png)
+![Secant Lines: Tangent Lines: m Ax dx Ax, dx, Ay are numbers dy are differentials ](media/Tangent-Line-and-the-Derivative-image11.png)
+![Finding equation of tangent line Point slope form: Y ¯ Yl = m(x --- Xl) Point: A = (Xl, Yl) Slope: m = dx ](media/Tangent-Line-and-the-Derivative-image12.png)
 **References**
 
 [The Tangent Line and the Derivative (Calculus)](https://www.youtube.com/watch?v=O_cwTAfjgAQ)
-![Tangent Lines ](media/Tangent-Line-and-the-Derivative-image13.jpg){width="5.0in" height="2.8020833333333335in"}
+![Tangent Lines ](media/Tangent-Line-and-the-Derivative-image13.jpg)
 

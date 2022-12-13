@@ -24,8 +24,8 @@ Apache Parquet is a self-describing data format which embeds the schema, or stru
     -   Compression techniques specific to a type can be applied as the column values tend to be of the same type
     -   Queries that fetch specific column values need not read the entire raw data thus improving performance
     -   Different encoding techniques can be applied to different columns
-![Dataset Data stored as CSV files Data stored in Apache Parquet format* Savings / Speedup Size on Amazon S3 130 GB 87% less with Parquet Query Run time 236 seconds 6.78 seconds 34x faster Data Scanned 1.15 TB 2.51 GB 99% less data scanned Cost $5.75 $0.01 99.7% savings ](media/Apache-Parquet-image1.png){width="6.9375in" height="1.1041666666666667in"}
-![Dataset Data stored as CSV file Data stored as GZIP CSV file Data stored as Parquet file Columns 4 4 4 Size on Amazon S3 4 TB ITB ITB Data Scanned 4 TB ITB .25TB Cost $20 (4TB x $5/TB) $5 (ITB x $5/TB) $1.25 (.25TB x $5/TB) ](media/Apache-Parquet-image2.png){width="6.989583333333333in" height="1.1979166666666667in"}
+![Dataset Data stored as CSV files Data stored in Apache Parquet format* Savings / Speedup Size on Amazon S3 130 GB 87% less with Parquet Query Run time 236 seconds 6.78 seconds 34x faster Data Scanned 1.15 TB 2.51 GB 99% less data scanned Cost $5.75 $0.01 99.7% savings ](media/Apache-Parquet-image1.png)
+![Dataset Data stored as CSV file Data stored as GZIP CSV file Data stored as Parquet file Columns 4 4 4 Size on Amazon S3 4 TB ITB ITB Data Scanned 4 TB ITB .25TB Cost $20 (4TB x $5/TB) $5 (ITB x $5/TB) $1.25 (.25TB x $5/TB) ](media/Apache-Parquet-image2.png)
 **Compression and encoding**
 
 In Parquet, compression is performed column by column, which enables different encoding schemes to be used for text and integer data. This strategy also keeps the door open for newer and better encoding schemes to be implemented as they are invented.
@@ -58,7 +58,7 @@ Even ignoring the runtime of your production jobs, let me outline some of my fav
 5.  Analytics- Ok, I cheated and put it in anyway. Yes, Parquet is AMAZING for analytics, anyone running SQL queries will thank you for saving them hours a day in front of a SQL prompt when their queries run up to 1000x faster.
 **Working**
 
-![Parquet File Layout Diagram](media/Apache-Parquet-image3.gif){width="5.0in" height="3.96875in"}
+![Parquet File Layout Diagram](media/Apache-Parquet-image3.gif)
 **Comparison**
 
 Apache Parquet is comparable to[RCFile](https://en.wikipedia.org/wiki/RCFile)and[Optimized Row Columnar (ORC)](https://en.wikipedia.org/wiki/Apache_ORC)file formats---all three fall under the category of columnar data storage within the Hadoop ecosystem. They all have better compression and encoding with improved read performance at the cost of slower writes. In addition to these features, Apache Parquet supports limited[schema evolution](https://en.wikipedia.org/wiki/Schema_evolution), i.e., the schema can be modified according to the changes in the data. It also provides the ability to add new columns and merge schemas that don't conflict.

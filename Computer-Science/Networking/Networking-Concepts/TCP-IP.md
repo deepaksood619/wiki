@@ -18,7 +18,7 @@ TheOSI Modelwe just looked at is just a reference/logical model. It was designed
 **TCP is built on top of IP. TCP is obliged to somehow send data reliably using only an unreliable tool (IP).**
 The diagrammatic comparison of the TCP/IP and OSI model is as follows
 
-![TCP/IP MODEL Application Layer Transport Layer Internet Layer Network Access Layer MODEL Application Layer Presentation Layer Session Layer Transport Layer Network Layer Data Link Layer Physical Layer ](media/TCP-IP-image1.png){width="6.9375in" height="3.1354166666666665in"}
+![TCP/IP MODEL Application Layer Transport Layer Internet Layer Network Access Layer MODEL Application Layer Presentation Layer Session Layer Transport Layer Network Layer Data Link Layer Physical Layer ](media/TCP-IP-image1.png)
 
 **1. Network Access Layer / Link layer**
 
@@ -53,7 +53,7 @@ b.  **SSH --**SSH stands for Secure Shell. It is a terminal emulations software 
 
 c.  **NTP --**NTP stands for Network Time Protocol. It is used to synchronize the clocks on our computer to one standard time source. It is very useful in situations like bank transactions. Assume the following situation without the presence of NTP. Suppose you carry out a transaction,where your computer reads the time at 2:30 PM while the server records it at 2:28 PM. The server can crash very badly if it's out of sync.
 
-![](media/TCP-IP-image2.png){width="5.0in" height="5.322916666666667in"}
+![](media/TCP-IP-image2.png)
 
 **Is UDP port 80 the same as TCP port 80?**
 -   UDP and TCP both support the same port numbers (1-65535) but they're different protocols. You can run 2 different servers on UDP port 80 and TCP port 80 at the same time.

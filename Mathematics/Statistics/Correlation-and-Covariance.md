@@ -41,12 +41,12 @@ Usually, in statistics, we measure four types of correlations:
 2.  0, Neutral Correlation - No relationship in the change of the variables, independent
 
 3.  -1, Negative Correlation - Variables change in opposite directions
-![Sxy Sample correlation formula: r = sxsy oxy Population correlation formula: p = In Excel, correlation is calculated by: =CORRELO ](media/Correlation-and-Covariance-image1.jpg){width="2.3020833333333335in" height="1.2604166666666667in"}
+![Sxy Sample correlation formula: r = sxsy oxy Population correlation formula: p = In Excel, correlation is calculated by: =CORRELO ](media/Correlation-and-Covariance-image1.jpg)
 The performance of some algorithms can deteriorate if two or more variables are tightly related, called **multicollinearity**. An example is linear regression, where one of the offending correlated variables should be removed in order to improve the skill of the model. We can quantify the relationship between samples of two variables using a statistical method called Pearson's correlation coefficient, named for the developer of the method, Karl Pearson.
 **Pearson r Correlation**
 
 Pearsonrcorrelation is the most widely used correlation statistic to measure the degree of the relationship between linearly related variables. For example, in the stock market, if we want to measure how two stocks are related to each other, Pearsonrcorrelation is used to measure the degree of relationship between the two. The point-biserial correlation is conducted with the Pearson correlation formula except that one of the variables is dichotomous. The following formula is used to calculate the Pearsonrcorrelation:
-![](media/Correlation-and-Covariance-image2.jpg){width="4.03125in" height="0.5104166666666666in"}
+![](media/Correlation-and-Covariance-image2.jpg)
 r= Pearson r correlation coefficient
 
 N = number of observations
@@ -75,7 +75,7 @@ For the Pearsonrcorrelation, both variables should be normally distributed (norm
 
 Kendall rank correlation is a non-parametric test that measures the strength of dependence between two variables. If we consider two samples, a and b, where each sample size isn, we know that the total number of pairings with a b isn(n-1)/2. The following formula is used to calculate the value of Kendall rank correlation:
 
-![---n(n --- 1) ](media/Correlation-and-Covariance-image3.jpg){width="0.96875in" height="0.6666666666666666in"}
+![---n(n --- 1) ](media/Correlation-and-Covariance-image3.jpg)
 
 Nc= number of concordant
 
@@ -90,7 +90,7 @@ Nd= Number of discordant
 Spearman rank correlation is a non-parametric test that is used to measure the degree of association between two variables. The Spearman rank correlation test does not carry any assumptions about the distribution of the data and is the appropriate correlation analysis when the variables are measured on a scale that is at least ordinal.
 
 The following formula is used to calculate the Spearman rank correlation:
-![](media/Correlation-and-Covariance-image4.jpg){width="1.15625in" height="0.5416666666666666in"}
+![](media/Correlation-and-Covariance-image4.jpg)
 ρ= Spearman rank correlation
 
 di= the difference between the ranks of corresponding variables
@@ -122,7 +122,7 @@ In an ordinal scale, the levels of a variable are ordered such that one level ca
 Covariance is a measure of the joint variability of two variables
 Covariance can take on values from -inf to +inf. This is the problem as it is very hard to put such numbers into perspective
 
-![Sample covariance formula: s n---l Population covariance formula: In Excel, the covariance is calculated by: Sample covariance: -COVARIANCE-SO Population covariance. • -COVARIANCE-PO ](media/Correlation-and-Covariance-image5.jpg){width="4.291666666666667in" height="1.8645833333333333in"}
+![Sample covariance formula: s n---l Population covariance formula: In Excel, the covariance is calculated by: Sample covariance: -COVARIANCE-SO Population covariance. • -COVARIANCE-PO ](media/Correlation-and-Covariance-image5.jpg)
 Like the correlation, a positive covariance indicates that two variables move together, a zero covariance that there is no relationship between the two variables, and a negative covariance an indication that they move in opposite directions
 **Correlation doesn't equal Causation**
 
@@ -149,4 +149,4 @@ h.  Spurious correlations: If two variables are correlated, we are often tempted
 i.  Past vs Future: The data that we use to estimate correlation come from the past, and past correlation is not always a predictor of future correlation
 **A Best Fit Line**
 
-![The Intercept: In the scatter plot, the intercept is where the best-fit line crosses the Y axis. In simple terms, it is the value that the Y variable has when the X variable is zero. The-Rsguared: This measures the how well the line fits the data. If the line is a perfect fit (every point is on it), the R squared will be one (as will the correlation). The Best Fit Line: In an ordinary-least-squares (OLS) regression, the best fit line is the one that minimizes the squared distances from the line. 14.0 12 10 8 6 The-Slope: The slope of the best fit line is also a measure of how changes in the X variable show up as changes in the Y variable. When there is no (positive, negative) relationship between the variables, the slope will be zero (positive, negative). ](media/Correlation-and-Covariance-image6.jpeg){width="6.666666666666667in" height="3.78125in"}
+![The Intercept: In the scatter plot, the intercept is where the best-fit line crosses the Y axis. In simple terms, it is the value that the Y variable has when the X variable is zero. The-Rsguared: This measures the how well the line fits the data. If the line is a perfect fit (every point is on it), the R squared will be one (as will the correlation). The Best Fit Line: In an ordinary-least-squares (OLS) regression, the best fit line is the one that minimizes the squared distances from the line. 14.0 12 10 8 6 The-Slope: The slope of the best fit line is also a measure of how changes in the X variable show up as changes in the Y variable. When there is no (positive, negative) relationship between the variables, the slope will be zero (positive, negative). ](media/Correlation-and-Covariance-image6.jpeg)

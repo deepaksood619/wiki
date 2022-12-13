@@ -9,7 +9,7 @@ Modified: 2019-10-14 11:32:39 +0500
 **Logs -**
 
 A log is perhaps the simplest possible storage abstraction. It is an append-only, totally-ordered sequence of records ordered by time. It looks like this:
-![1st Record Next Record Written ](media/Distributed-Logging-image1.png){width="5.0in" height="2.4375in"}
+![1st Record Next Record Written ](media/Distributed-Logging-image1.png)
 Database people generally differentiate between*physical*and*logical*logging. **Physical logging** means logging the contents of each row that is changed. **Logical logging** means logging not the changed rows but the SQL commands that lead to the row changes (the insert, update, and delete statements).
 Every programmer is familiar with another definition of logging---the unstructured error messages or trace info an application might write out to a local file using syslog or log4j. For clarity I will call this **"application logging".**
 Logging can be used for -

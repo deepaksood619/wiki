@@ -63,7 +63,7 @@ LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wi
 
 In LSM Trees, all the writes are performed against the mutable in-memory data structure (once again, often implemented using a data structure allowing logarithmic time lookup, such as a B-Tree or a[SkipList](http://epaperpress.com/sortsearch/download/skiplist.pdf)). Whenever the size of the tree reaches a certain threshold (or after some predefined time period elapses, whichever comes first), we write the data the disk, creating a new SSTable. This process is sometimes called "flush". Retrieving the data may require searching all SSTables on disk, checking the in-memory table and merging their contents together before returning the result.
 
-![Memory key I Reads Writes Flush Disk key2 key4 key4 key7 key8 key5 key6 key8 Reads ](media/LSM-(Log-Structured-Merge-Trees)-image1.png){width="7.28125in" height="2.0104166666666665in"}
+![Memory key I Reads Writes Flush Disk key2 key4 key4 key7 key8 key5 key6 key8 Reads ](media/LSM-(Log-Structured-Merge-Trees)-image1.png)
 
 Structure of an LSM Tree: a memory-resident table, used for writes. Whenever the memory table is large enough, it's sorted contents are written on disk, becoming an SSTable. Reads are served, hitting all SSTables and the memory-resident table, requiring a merge process to reconcile thedata.
 The merge step during the read is required, since the data can be split in several parts (for example, an insert followed by delete operation, where delete would shadow the originally inserted record; or an insert, followed by the update operation, where a new field is added to the record).

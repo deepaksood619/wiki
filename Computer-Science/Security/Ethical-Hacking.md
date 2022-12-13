@@ -56,9 +56,9 @@ FestInis a tool for discovering open S3 Buckets starting from a domains.
 <http://www.dvwa.co.uk/>
 **Digital Forensics**
 
-![](media/Ethical-Hacking-image1.png){width="7.385416666666667in" height="5.708333333333333in"}
-![](media/Ethical-Hacking-image2.png){width="7.385416666666667in" height="5.708333333333333in"}
-![Modus Operandi • What do attackers do: • Credential Harvesting • Credential Stuffing • Credential Testing • Account takeover • Credit card testing • Penetration testing attacks LexisNexis• RISK SOLUTIONS Fraudsters Antimalware DMZ ontentFl r IDPS VOIP Protectio Message Security Application Firewall ICAM Firewall e nse Perimeter Security DLP Network Security emo cess Messa nd oin ecuri a a Monitorin Application assi Ica 10 Sanitization Data Security DLP Data Classification ERM PKI ONFID TIAL Data Integrity Monitoring ](media/Ethical-Hacking-image3.png){width="7.104166666666667in" height="4.010416666666667in"}
+![](media/Ethical-Hacking-image1.png)
+![](media/Ethical-Hacking-image2.png)
+![Modus Operandi • What do attackers do: • Credential Harvesting • Credential Stuffing • Credential Testing • Account takeover • Credit card testing • Penetration testing attacks LexisNexis• RISK SOLUTIONS Fraudsters Antimalware DMZ ontentFl r IDPS VOIP Protectio Message Security Application Firewall ICAM Firewall e nse Perimeter Security DLP Network Security emo cess Messa nd oin ecuri a a Monitorin Application assi Ica 10 Sanitization Data Security DLP Data Classification ERM PKI ONFID TIAL Data Integrity Monitoring ](media/Ethical-Hacking-image3.png)
 | **SOLUTIONS**                                           | **PARTNERS/OEM's**                        |
 |-------------------------------------|-----------------------------------|
 | **Cloud Security(WAF, NGFW), Email Security, Firewall** | Cisco/ PaloAlto/Fortinet/Sophos/Barracuda |

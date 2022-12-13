@@ -52,7 +52,7 @@ Used in latent semantic analysis, stores the occurrences of words in documents i
 **Star Tree Index**
 
 Allows us to maintain pre-aggregated values for some combination of dimensions example country and browser in below example. Incredible fast lookup.
-![Star-Tree Index Country Browser Root US CA Star Star Star ](media/Indexing_Database-Index-image1.jpeg){width="4.947916666666667in" height="1.1354166666666667in"}
+![Star-Tree Index Country Browser Root US CA Star Star Star ](media/Indexing_Database-Index-image1.jpeg)
 
 <https://engineering.linkedin.com/blog/2019/06/star-tree-index--powering-fast-aggregations-on-pinot>
 

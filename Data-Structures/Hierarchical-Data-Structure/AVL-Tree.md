@@ -8,7 +8,7 @@ Modified: 2018-08-03 00:14:06 +0500
 
 AVL tree (named after inventors**A**delson-**V**elsky and**L**andis) is a self-balancing Binary Search Tree (BST) where the difference between heights of left and right subtrees cannot be more than one for all nodes.
 
-![12 18 ](media/AVL-Tree-image1.jpg){width="5.0in" height="4.239583333333333in"}
+![12 18 ](media/AVL-Tree-image1.jpg)
 
 The above tree is AVL because differences between heights of left and right subtrees for every node is less than or equal to 1.
 **Why AVL Trees?**

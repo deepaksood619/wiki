@@ -56,38 +56,39 @@ Replaying all the events from the logs can give any state of the system at any t
 CQRS is a fancy name for an architecture that uses different data models to represent read and write operations.
 At its heart is the notion that you can use a different model to update information than the model you use to read information.
 
-![query services update presentations trom query model reads trom database query mode/ Query In Command Model es ](media/Event-driven-architecture-image1.png){width="6.010416666666667in" height="4.375in"}
+![query services update presentations trom query model reads trom database query mode/ Query In Command Model es ](media/Event-driven-architecture-image1.png)
 Event-driven architecture (EDA) means constructing your system as a series of commands and/or events. A user submits an online form to make a purchase: that's a command. The items in stock are reserved: that's an event. A confirmation is sent to the user: that's an event. The concept is very simple. Everything in our system is either a command or an event. Commands lead to events and events may lead to new commands and so on.
 **Event Sourcing** is a style of application design where state changes are logged as a time-ordered sequence of records.
 **Publisher subscriber rule**
 -   Consumers should not know who producers are
 -   Producers should not know who consumers are
 
-![png](media/Event-driven-architecture-image2.jpg){width="5.6875in" height="5.416666666666667in"}
+![png](media/Event-driven-architecture-image2.jpg)
 
 **Streams and Tables in Kafka**
 -   A**stream**provides immutable data. It supports only inserting (appending) new events, whereas existing events cannot be changed. Streams are persistent, durable, and fault tolerant. Events in a stream can be keyed, and you can have many events for one key, like "all of Bob's payments." If you squint a bit, you could consider a stream to be like a table in a relational database (RDBMS) that has no unique key constraint and that is append only.
 -   A**table**provides mutable data. New events---rows---can be inserted, and existing rows can be updated and deleted. Here, an event's key aka row key identifies which row is being mutated. Like streams, tables are persistent, durable, and fault tolerant. Today, a table behaves much like an RDBMS materialized view because it is being changed automatically as soon as any of its input streams or tables change, rather than letting you directly run insert, update, or delete operations against it.
 |                                          | **Stream** | **Table**   |
 |-------------------------------------------|------------|-------------|
-| First event with keybobarrives          | Insert     | Insert      |
-| Another event with keybobarrives        | Insert     | Update      |
-| Event with keyboband valuenullarrives | Insert     | Delete      |
-| Event with keynullarrives               | Insert     | <ignored> |
+| First event with key bob arrives          | Insert     | Insert      |
+| Another event with key bob arrives        | Insert     | Update      |
+| Event with key bob and value null arrives | Insert     | Delete      |
+| Event with key null arrives               | Insert     | ignored |
+
 **Stream-table duality**
 
-Notwithstanding their differences, we can observe that there is a close relationship between a stream and a table. We call this the[stream-table duality](https://www.confluent.io/blog/streams-tables-two-sides-same-coin/). What this means is:
+Not withstanding their differences, we can observe that there is a close relationship between a stream and a table. We call this the[stream-table duality](https://www.confluent.io/blog/streams-tables-two-sides-same-coin/). What this means is:
 -   We can turn a stream into a tableby aggregating the stream with operations such asCOUNT()orSUM(), for example. In our chess analogy, we could reconstruct the board's latest state (table) by replaying all recorded moves (stream).
 -   We can turn a table into a streamby capturing the changes made to the table---inserts, updates, and deletes---into a "change stream." This process is often called[change data capture](https://en.wikipedia.org/wiki/Change_data_capture)or CDC for short. In the chess analogy, we could achieve this by observing the last played move and recording it (into the stream) or, alternatively, by comparing the board's state (table) before and after the last move and then recording the difference of what changed (into the stream), though this is likely slower than the first option.
 
 In fact, a table is fully defined by its underlying change stream. If you have ever worked with a relational database such as Oracle or MySQL, these change streams exist there, too! Here, however, they are a hidden implementation detail---albeit an absolutely critical one---and have names like[redo log](https://docs.oracle.com/cd/B28359_01/server.111/b28310/onlineredo001.htm#ADMIN11302)or[binary log](https://dev.mysql.com/doc/internals/en/binary-log-overview.html). In event streaming, the redo log is much more than an implementation detail. It's a first-class entity: a stream. We can turn streams into tables and tables into streams, which is one reason why we say that event streaming and Kafka are[turning the database inside out](https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/).
 
-![Figure 2. Because of the stream-table duality, we can easily turn a stream into a table, and vice versa. Even more, we can do this in a continuous, streaming manner so that both the stream and the table are always up to date with the latest events.](media/Event-driven-architecture-image3.png){width="5.875in" height="3.4166666666666665in"}
+![Figure 2. Because of the stream-table duality, we can easily turn a stream into a table, and vice versa. Even more, we can do this in a continuous, streaming manner so that both the stream and the table are always up to date with the latest events.](media/Event-driven-architecture-image3.png)
 <https://www.confluent.io/blog/kafka-streams-tables-part-1-event-streaming/>
 
-![Events ItemAdd Bread Basket Bread Tinned Spaghetti emAdd Baked Beans ItemRemove Baked Beans ItemAdd Tinned Spaghetti ](media/Event-driven-architecture-image4.png){width="5.0in" height="2.6770833333333335in"}
+![Events ItemAdd Bread Basket Bread Tinned Spaghetti emAdd Baked Beans ItemRemove Baked Beans ItemAdd Tinned Spaghetti ](media/Event-driven-architecture-image4.png)
 
-![Basket Bread Tinned Spaghetti ti ](media/Event-driven-architecture-image5.png){width="1.7291666666666667in" height="3.5in"}
+![Basket Bread Tinned Spaghetti ti ](media/Event-driven-architecture-image5.png)
 **Asynchronous Messaging**
 
 Consider these patterns when implementing asynchronous messaging:
@@ -116,12 +117,12 @@ This pattern shows how to split a large message into a claim check and a payload
 [Kafka in the Wild • Laura Schornack & Maureen Penzenik • GOTO 2021](https://www.youtube.com/watch?v=iMx8otu3rFg&ab_channel=GOTOConferences)
 **Choreography vs Orchestration**
 
-![](media/Event-driven-architecture-image6.jpeg){width="3.9479166666666665in" height="3.625in"}
+![](media/Event-driven-architecture-image6.jpeg)
 **Orchestration -** command-driven architecture
 
 **Choreography -** event-driven communication
-![Messaoe Evenł Record (ommand I Inłend/ Evenł Facłl happend in łhe pasł/ immułab(e Wanł S.łh. ło happeni The inłenłion iłse(ł is a łacł ](media/Event-driven-architecture-image7.jpeg){width="5.0in" height="3.6875in"}
-![Direction of dependency Retrieve paymen+ Event-driven: Decision to couple is on the receivinq Side payment received Command-driven Decision to couple is on the Sendinq Side Direction of dependency ](media/Event-driven-architecture-image8.jpeg){width="5.0in" height="2.9270833333333335in"}
+![Messaoe Evenł Record (ommand I Inłend/ Evenł Facłl happend in łhe pasł/ immułab(e Wanł S.łh. ło happeni The inłenłion iłse(ł is a łacł ](media/Event-driven-architecture-image7.jpeg)
+![Direction of dependency Retrieve paymen+ Event-driven: Decision to couple is on the receivinq Side payment received Command-driven Decision to couple is on the Sendinq Side Direction of dependency ](media/Event-driven-architecture-image8.jpeg)
 <https://www.youtube.com/watch?v=zt9DFMkjkEA&ab_channel=GOTOConferences>
 1.  Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are: 1) Highly maintainable and testable 2) Loosely coupled 3) Independently deployable.
 

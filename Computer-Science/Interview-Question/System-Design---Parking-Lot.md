@@ -43,19 +43,11 @@ Problem Statement - Design a parking lot, Wants a system to manage thousands of 
         i.  depedencies
 
         ii. optimize to fill up certain areas first
-
-    ```{=html}
-    <!-- -->
-    ```
     d.  **Multiple entrances**
 
         i.  **Concurrency issue**
 
         ii. **race condition** (When system tries to access same spot at same time)
-
-    ```{=html}
-    <!-- -->
-    ```
     e.  Pricing strategy
 
         i.  Premium

@@ -59,7 +59,7 @@ Dijkstra's Two-stack algorithm (Use - Interpreter)
 **Code**
 
 1.  **Linked List Implementation**
-![public class Li nkedStack0fStrings pri vate Node fi rst = null; pri vate class Node String item; Node next; public boolean isEmpty() { return fi rst null; public void push (String item) Node oldfi rst = fi rst; first = new Node() ; fi rst. item = item; fi rst.next = 01 dfi rst; public String pop() String item = first. item; fi rst = first. next; return item; private inner class (access modifiers don't matter) ](media/Stack-LIFO-image1.png){width="5.0in" height="4.125in"}
+![public class Li nkedStack0fStrings pri vate Node fi rst = null; pri vate class Node String item; Node next; public boolean isEmpty() { return fi rst null; public void push (String item) Node oldfi rst = fi rst; first = new Node() ; fi rst. item = item; fi rst.next = 01 dfi rst; public String pop() String item = first. item; fi rst = first. next; return item; private inner class (access modifiers don't matter) ](media/Stack-LIFO-image1.png)
 **Loitering -**
 
 Holding the reference to an object, when it is no longer needed.

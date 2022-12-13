@@ -52,7 +52,7 @@ Nonprobability data sampling methods include:
 Once generated, a sample can be used for[predictive analytics](https://searchbusinessanalytics.techtarget.com/definition/predictive-analytics). For example, a retail business might use data sampling to uncover patterns about customer behavior and[predictive modeling](https://searchenterpriseai.techtarget.com/definition/predictive-modeling)to create more effective sales strategies.
 **Sample Size**
 
-![8000 points 2000 Points 500 Points ](media/Sampling-image1.jpeg){width="5.0in" height="1.5in"}
+![8000 points 2000 Points 500 Points ](media/Sampling-image1.jpeg)
 **Sampling Sins**
 -   Bias: The sample has to be representative of the population. If the sampling method creates bias, the results from the sample cannot be extrapolated to the population
     -   Exclusion: Some parts of the population may not even make into the sampling universe

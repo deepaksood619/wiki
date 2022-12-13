@@ -11,7 +11,7 @@ Modified: 2020-12-27 15:51:16 +0500
     a.  Chained hash table (Using linked list if collision)
 
 Chainingis where each item in the hash table array is a list. When an item is added to the array at an index, it's added to corresponding list.
-![](media/Hashing-Techniques-image1.png){width="2.2083333333333335in" height="1.5104166666666667in"}
+![](media/Hashing-Techniques-image1.png)
 **Variants**
 -   Two-probe hashing
     -   Hash to two positions, insert key in shorter of the two chains
@@ -19,7 +19,7 @@ Chainingis where each item in the hash table array is a list. When an item is ad
 2.  **Open Addressing (closed hashing)**
 
 Open addressinghandles collisions by searching for an empty slot in the array by following a deterministic sequence. This checking is known asprobing, and the sequence is known as a probing sequence. A simple probing sequence is to check each slot one after the other.
-![Collision! ](media/Hashing-Techniques-image2.png){width="2.4166666666666665in" height="1.53125in"}
+![Collision! ](media/Hashing-Techniques-image2.png)
 
 The benefits of this approach are:
 -   **Predictable memory usage
@@ -39,7 +39,7 @@ iii. **Quadratic probing -** Quadratic probing operates by taking the original h
      -   Effectively eliminates clustering
      -   Can allow table to become nearly full
      -   More difficult to implement delete
-![工 型 qnoa 61Jlqo 」 d 0 一 一 e 」 peno 6UlqOJd 」 2 ① u コ VVVVV ](media/Hashing-Techniques-image3.png){width="5.0in" height="2.6145833333333335in"}
+![工 型 qnoa 61Jlqo 」 d 0 一 一 e 」 peno 6UlqOJd 」 2 ① u コ VVVVV ](media/Hashing-Techniques-image3.png)
 **Removal**
 -   Tombstones (Can create contamination)
 **Variants**
@@ -53,7 +53,7 @@ iii. **Quadratic probing -** Quadratic probing operates by taking the original h
 Coalesced hashing is a technique for implementing a hash table. It's an[open addressing](https://programming.guide/hash-tables-open-addressing.html) technique which means that all keys are**stored in the array itself**(e.g. it doesn't use for example linked lists to handle collisions). As opposed to other open addressing techniques however, it also uses**nodes with next-poiners**to form collision chains.
 **Example:**Coalesced hash table holding five keys in two collision chains. (Keys of the same color hash to the same bucket.)
 
-![](media/Hashing-Techniques-image4.png){width="0.7083333333333334in" height="2.6354166666666665in"}
+![](media/Hashing-Techniques-image4.png)
 **Removal**
 -   clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-   The approach commonly used in practice is to clear the slot holding the key, and then**reinsert**all following keys in the chain.
 -   This maintains the invariants, avoids contamination and potentially even breaks apart previously coalesced chains.
@@ -62,7 +62,7 @@ Coalesced hashing is a technique for implementing a hash table. It's an[open add
 A common optimization (so common in fact, that it is almost to be considered a part of the standard implementation) is to reserve part of the hash table array to be used only for storing colliding keys. This part is called**the cellar**.
 **Example:**A coalescing hash table array with*M* = 10and*N* = 3.
 
-![The addressable part: The slots to which keys can hash to. The cellar: Slots used when dealing with collisions. ](media/Hashing-Techniques-image5.png){width="2.1666666666666665in" height="2.6666666666666665in"}
+![The addressable part: The slots to which keys can hash to. The cellar: Slots used when dealing with collisions. ](media/Hashing-Techniques-image5.png)
 <https://programming.guide/coalesced-hashing.html>
 4.  **Robin hood hashing**
 5.  **Cuckoo Hashing**

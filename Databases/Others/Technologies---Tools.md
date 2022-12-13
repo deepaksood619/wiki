@@ -12,7 +12,7 @@ Vitess is a database clustering system for horizontal scaling of MySQL through g
 By encapsulating shard-routing logic, Vitess allows application code and database queries to remain agnostic to the distribution of data onto multiple shards. With Vitess, you can even split and merge shards as your needs grow, with an atomic cutover step that takes only a few seconds.
 **Traditional Transactional Architecture**
 
-![Begin Select Select Select Insert Database Select Update Commit User Module Campaign Module Matching Module Client ](media/Technologies---Tools-image1.png){width="5.0in" height="2.1145833333333335in"}
+![Begin Select Select Select Insert Database Select Update Commit User Module Campaign Module Matching Module Client ](media/Technologies---Tools-image1.png)
 <https://github.com/vitessio/vitess>
 
 <https://vitess.io/>

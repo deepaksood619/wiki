@@ -59,7 +59,7 @@ Many methods for concurrency control exist. Most of them can be implemented with
                 -   wait
                 -   commit suicide
                 -   kill the other txn
-![Txn #1 READ(A) LOCX(B) LNLOCK(A) MUTE(B) Growing Phase Shrinking Phase ](media/Concurrency-Control-image1.png){width="5.0in" height="1.4583333333333333in"}
+![Txn #1 READ(A) LOCX(B) LNLOCK(A) MUTE(B) Growing Phase Shrinking Phase ](media/Concurrency-Control-image1.png)
 2.  **Serialization[graph checking](https://en.wikipedia.org/wiki/Serializability#Testing_conflict_serializability)**(also called Serializability, or Conflict, or Precedence graph checking)
 
 Checking for[cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory))in the schedule's[graph](https://en.wikipedia.org/wiki/Directed_graph)and breaking them by aborts.
@@ -123,15 +123,15 @@ There are different ways for the DBMS to allocate timestamps for transactions. E
 
 1.  **Read-only workloads**
 
-![14 12 10 0-0 DL DETECT NO WAIT WAIT DIE 200 TIMESTAMP o. o MVCC occ 400 600 800 1000 Number of Cores ](media/Concurrency-Control-image2.png){width="5.0in" height="2.53125in"}
+![14 12 10 0-0 DL DETECT NO WAIT WAIT DIE 200 TIMESTAMP o. o MVCC occ 400 600 800 1000 Number of Cores ](media/Concurrency-Control-image2.png)
 
 2.  **Write-intensive / Medium-contention**
 
-![4.5 4.0 4-1 3.5 e 3.0 2.5 2.0 1.5 1.0 0.5 0.0 DL DETECT NO WAIT WAIT DIE 200 0-0 TIMESTAMP MVCC occ 400 600 800 1000 Number of Cores ](media/Concurrency-Control-image3.png){width="5.0in" height="2.5104166666666665in"}
+![4.5 4.0 4-1 3.5 e 3.0 2.5 2.0 1.5 1.0 0.5 0.0 DL DETECT NO WAIT WAIT DIE 200 0-0 TIMESTAMP MVCC occ 400 600 800 1000 Number of Cores ](media/Concurrency-Control-image3.png)
 
 3.  **Write-intensive / High-contention**
 
-![0-0 O 0.25 0.20 0.15 0.10 0.05 0.00 DL DETECT NO WAIT WAIT DIE TIMESTAMP o. o MVCC occ 200 400 600 800 1000 Number of Cores ](media/Concurrency-Control-image4.png){width="5.0in" height="2.4791666666666665in"}
+![0-0 O 0.25 0.20 0.15 0.10 0.05 0.00 DL DETECT NO WAIT WAIT DIE TIMESTAMP o. o MVCC occ 200 400 600 800 1000 Number of Cores ](media/Concurrency-Control-image4.png)
 **Performance Bottlenecks**
 
 All concurrency control protocols have performance and scalability problems when there are a large number of concurrent threads and large amount of contention (i.e., the transactions are all trying to read/write to the same set of tuples).-   **Lock Thrashing:**
@@ -141,7 +141,7 @@ All concurrency control protocols have performance and scalability problems when
         -   Force txns to acquire locks in primary key order
         -   Deadlocks are not possible
 
-![101 100 Q 10 100 theta theta theta -0.6 -0.8 101 102 Number of Cores 103 ](media/Concurrency-Control-image5.png){width="5.0in" height="2.1041666666666665in"}-   **Timestamp Allocation**
+![101 100 Q 10 100 theta theta theta -0.6 -0.8 101 102 Number of Cores 103 ](media/Concurrency-Control-image5.png)-   **Timestamp Allocation**
     -   All T/O algorithms + WAIT_DIE
     -   Mutex (Worst option)
     -   Atomic Addition (Requires cache invaliadtion on write)
@@ -149,7 +149,7 @@ All concurrency control protocols have performance and scalability problems when
     -   Hardware Clock (Not sure if it will exist in future CPUs)
     -   Hardware Counter (Not implemented in existing CPUs)
 
-![O 10000 1000 100 10 1 o 1 Clock Hardware Atomic batch=16 Atomic batch=8 Atomic Mutex 10 100 1000 Number of Cores ](media/Concurrency-Control-image6.png){width="5.0in" height="2.1770833333333335in"}-   **Memory Allocation**
+![O 10000 1000 100 10 1 o 1 Clock Hardware Atomic batch=16 Atomic batch=8 Atomic Mutex 10 100 1000 Number of Cores ](media/Concurrency-Control-image6.png)-   **Memory Allocation**
     -   OCC + MVCC
     -   Copying data on every read/write access slows down the DBMS because of contention on the memory controller.
         -   In-place updates and non-copying reads are not affected as much

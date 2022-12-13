@@ -133,13 +133,13 @@ Other popular online schema change tools, such as Percona's[pt-online-schema-cha
 Since Gh-ost operates using the binary log, it is not susceptible to the[trigger-based drawbacks](https://github.com/github/gh-ost/blob/master/doc/why-triggerless.md). Finally Gh-ost is able to effectively[throttle activity to zero events](https://github.com/github/gh-ost/blob/master/doc/interactive-commands.md#examples), allowing you to pause the schema migration for a while if your server begins to struggle, and resume when the activity bubble moves on.
 So how does Gh-ost work? By default, Gh-ost connects to a replica (slave), identifies the master, and applies the migration on the master. It receives changes on a replica to the source table in[binlog_format=ROW](https://dev.mysql.com/doc/en/binary-log-setting.html), parses the log, and converts these statements to be re-executed on the master's shadow table.It keeps track of the row counts on the replica and identifies when it is time to perform an atomic cutover (switch tables).
 
-![gh ost general flow](media/MySQL_SQL---MySQL-Tools-image1.jpg){width="6.458333333333333in" height="3.2604166666666665in"}
+![gh ost general flow](media/MySQL_SQL---MySQL-Tools-image1.jpg)
 
 **Gh-ost operation modes**
 Gh-ost provides an alternative mode where you execute the migration directly on the master (whether it has slaves or not), read back the master'sbinlog_format=ROWevents, and then re-apply them to the shadow table.
 A final option is available to run the migration only on the replica without impacting the master, so you can test or otherwise validate the migration.
 
-![gh ost operation modes](media/MySQL_SQL---MySQL-Tools-image2.jpg){width="6.458333333333333in" height="3.0416666666666665in"}
+![gh ost operation modes](media/MySQL_SQL---MySQL-Tools-image2.jpg)
 
 **Gh-ost general flow**
 Note that if your schema has foreign keys then Gh-ost may not operate cleanly, as this configuration is not supported.

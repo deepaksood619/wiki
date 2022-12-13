@@ -30,7 +30,7 @@ Globus Toolkit - GSIFTP
 Aggregator Leaf Tailer (ALT)is the data architecture favored by web-scale companies, like Facebook, LinkedIn, and Google, for its efficiency and scalability.
 The ALT architecture addresses these shortcomings of Lambda architectures. The key component of ALT is a high-performance serving layer that serves complex queries, and not just key-value lookups. The existence of this serving layer obviates the need for complex data pipelines.
 
-![ALT](media/Others-image1.png){width="5.0in" height="2.8125in"}
+![ALT](media/Others-image1.png)
 
 **The ALT architecture described**
 

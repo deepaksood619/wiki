@@ -142,7 +142,7 @@ Used by - Zerodha
 12. **tidb**
 
 TiDB ("Ti" stands for Titanium) is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is MySQL compatible and features horizontal scalability, strong consistency, and high availability.
-![TiDB platform architecture](media/Databases---Others-image1.png){width="5.125in" height="2.0416666666666665in"}
+![TiDB platform architecture](media/Databases---Others-image1.png)
 Inside the TiDB platform, the main components are as follows:
 -   [TiDB server](https://github.com/pingcap/tidb)is a stateless SQL layer that processes users' SQL queries, accesses data in the storage layer, and returns the corresponding results to the application. It is MySQL-compatible and sits on top of TiKV.
 -   [TiKV server](https://github.com/pingcap/tikv)is the distributed transactional key-value storage layer where the data persists. It uses the[Raft](https://raft.github.io/) consensus protocol for replication to ensure strong data consistency and high availability.

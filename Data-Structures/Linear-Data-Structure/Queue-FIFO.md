@@ -38,7 +38,7 @@ The process to add an element into queue is called**Enqueue**and the process of 
 
 1.  **Using Linked-list**
 
-![public class Li nkedQueueOfStri ngs private Node fi rst, last; private class Node { / * same as i n StackOfStrings public boolean isEmpty() { return fi rst null; public void enqueue(String item) Node oldl ast = last; last = new Node() ; last. item = item; last. next = null; if (i sEmpty()) fi rst = last; special cases for empty queue old 1 ast. next public String dequeue() String item = first. item; = last; fi rst = first. next; if (i sEmpty()) last = null; return item; ](media/Queue-FIFO-image1.png){width="5.0in" height="4.739583333333333in"}
+![public class Li nkedQueueOfStri ngs private Node fi rst, last; private class Node { / * same as i n StackOfStrings public boolean isEmpty() { return fi rst null; public void enqueue(String item) Node oldl ast = last; last = new Node() ; last. item = item; last. next = null; if (i sEmpty()) fi rst = last; special cases for empty queue old 1 ast. next public String dequeue() String item = first. item; = last; fi rst = first. next; if (i sEmpty()) last = null; return item; ](media/Queue-FIFO-image1.png)
 2.  **Using resizing array****Interview Questions**
 -   Implement stack using a queue
 -   Reverse first k elements of a queue
