@@ -34,17 +34,16 @@ The result for this algorithm will be 1--2--3--4--5--6--7.
 
 3. Go to the right child and print it. This is if, and only if, it has a right child.
 
+```python
 def pre_order(self):
-
-print(self.value)
-
-if self.left_child:
-
-self.left_child.pre_order()
-
-if self.right_child:
-
-self.right_child.pre_order()
+    print(self.value)
+    
+    if self.left_child:
+        self.left_child.pre_order()
+    
+    if self.right_child:
+        self.right_child.pre_order()
+```
 
 ## In-order
 
@@ -54,17 +53,16 @@ The result of the in-order algorithm for this tree example is 3--2--4--1--6--5--
 
 The left first, the middle second, and the right last.
 
+```python
 def in_order(self):
-
-if self.left_child:
-
-self.left_child.in_order()
-
-print(self.value)
-
-if self.right_child:
-
-self.right_child.in_order()
+    if self.left_child:
+        self.left_child.in_order()
+    
+    print(self.value)
+    
+    if self.right_child:
+        self.right_child.in_order()
+```
 
 1. Go to the left child and print it. This is if, and only if, it has a left child.
 
@@ -80,17 +78,16 @@ The result of the post order algorithm for this tree example is 3--4--2--6--7--5
 
 The left first, the right second, and the middle last.
 
+```python
 def post_order(self):
-
-if self.left_child:
-
-self.left_child.post_order()
-
-if self.right_child:
-
-self.right_child.post_order()
-
-print(self.value)
+    if self.left_child:
+        self.left_child.post_order()
+    
+    if self.right_child:
+        self.right_child.post_order()
+    
+    print(self.value)
+```
 
 1. Go to the left child and print it. This is if, and only if, it has a left child.
 
@@ -108,30 +105,20 @@ DFS(to visit a vertex v)
 ![image](media/Depth-First-Search-(DFS)-image4.png)
 
 ## Non-Recursive
-
+```java
 public void dfs(Graph G, int v) {
-
-Stack<Integer> stack = new Stack<Integer>();
-
-stack.push(v);
-
-while(!stack.isEmpty()) {
-
-v = stack.pop();
-
-marked[v] = true;
-
-for (int w : G.adj(v)) {
-
-if (!marked[w])
-
-stack.push(w);
-
+    Stack<Integer> stack = new Stack<Integer>();
+    stack.push(v);
+    while(!stack.isEmpty()) {
+        v = stack.pop();
+        marked[v] = true;
+        for (int w : G.adj(v)) {
+            if (!marked[w])
+                stack.push(w);
+        }
+    }
 }
-
-}
-
-}
+```
 
 ## Properties
 
