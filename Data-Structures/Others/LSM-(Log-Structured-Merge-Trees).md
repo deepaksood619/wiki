@@ -13,13 +13,14 @@ A particular key may appear in several runs, and what that means for a query dep
 In order to keep down the cost of queries, the system must avoid a situation where there are too many runs.
 Extensions to the 'leveled' method to incorporate[B+ tree](https://en.wikipedia.org/wiki/B%2B_tree)structures have been suggested, for example bLSMand Diff-Index.
 LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wiki/Bigtable), [HBase](https://en.wikipedia.org/wiki/HBase), [LevelDB](https://en.wikipedia.org/wiki/LevelDB), [SQLite4](https://en.wikipedia.org/wiki/SQLite4), [Tarantool](https://en.wikipedia.org/wiki/Tarantool) , [RocksDB](https://en.wikipedia.org/wiki/RocksDB), [WiredTiger](https://en.wikipedia.org/wiki/WiredTiger) (MongoDB Engine), [Apache Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra), [InfluxDB](https://en.wikipedia.org/wiki/InfluxDB) and[VictoriaMetrics](https://en.wikipedia.org/w/index.php?title=VictoriaMetrics&action=edit&redlink=1).
+
 <table>
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong><a href="https://en.wikipedia.org/wiki/Time_complexity">Time complexity</a>in<a href="https://en.wikipedia.org/wiki/Big_O_notation">big O notation</a></strong></th>
+<th>Time complexity in big O notation</th>
 </tr>
 </thead>
 <tbody>
@@ -58,10 +59,12 @@ LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wi
 </tr>
 </tbody>
 </table>
-<https://en.wikipedia.org/wiki/Log-structured_merge-tree>
-**Anatomy**
 
-In LSM Trees, all the writes are performed against the mutable in-memory data structure (once again, often implemented using a data structure allowing logarithmic time lookup, such as a B-Tree or a[SkipList](http://epaperpress.com/sortsearch/download/skiplist.pdf)). Whenever the size of the tree reaches a certain threshold (or after some predefined time period elapses, whichever comes first), we write the data the disk, creating a new SSTable. This process is sometimes called "flush". Retrieving the data may require searching all SSTables on disk, checking the in-memory table and merging their contents together before returning the result.
+[Log-structured merge-tree - Wikipedia](https://en.wikipedia.org/wiki/Log-structured_merge-tree)
+
+## Anatomy
+
+In LSM Trees, all the writes are performed against the mutable in-memory data structure (once again, often implemented using a data structure allowing logarithmic time lookup, such as a B-Tree or a [SkipList](http://epaperpress.com/sortsearch/download/skiplist.pdf)). Whenever the size of the tree reaches a certain threshold (or after some predefined time period elapses, whichever comes first), we write the data the disk, creating a new SSTable. This process is sometimes called "flush". Retrieving the data may require searching all SSTables on disk, checking the in-memory table and merging their contents together before returning the result.
 
 ![Memory key I Reads Writes Flush Disk key2 key4 key4 key7 key8 key5 key6 key8 Reads ](media/LSM-(Log-Structured-Merge-Trees)-image1.png)
 
