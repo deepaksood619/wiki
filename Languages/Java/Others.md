@@ -15,26 +15,25 @@ Jshell for java REPL (Read-Eval-Print Loop, interactive toplevel or language she
 2. Discover type mismatch errors at compile-time instead of run-time.
 
 3. AutoBoxing
-
+```java
 Stack<Integer> stack = new Stack<Integer>();
 
 s.push(17) // s.push(new Integer(17));
 
 int a = s.pop() // int a = s.pop().intValue();
+```
 
 ## Iterators
 
 Iterable Interface
 
 What is Iterable?
-
-It is a class that has a method that returns an Iterator.
+  It is a class that has a method that returns an Iterator.
 
 What is Iterator?
+  Class that has methods hasNext() and next() (also remove(), but not used)
 
-Class that has methods hasNext() and next() (also remove(), but not used)
-
-## Comparator Interface -
+## Comparator Interface
 
 Supports multiple orderings of a given data type.
 
