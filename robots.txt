@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://deepaksood619.github.io/wiki//sitemap/sitemap-index.xml
+Host: https://deepaksood619.github.io
