@@ -26,13 +26,13 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <https://aws.amazon.com/redshift/pricing>
 <table style="width:100%;">
 <colgroup>
-<col style="width: 22%" >
-<col style="width: 8%" >
-<col style="width: 11%" >
-<col style="width: 8%" >
-<col style="width: 19%" >
-<col style="width: 11%" >
-<col style="width: 18%" >
+<col style="width: 22%" />
+<col style="width: 8%" />
+<col style="width: 11%" />
+<col style="width: 8%" />
+<col style="width: 19%" />
+<col style="width: 11%" />
+<col style="width: 18%" />
 </colgroup>
 <thead>
 <tr class="header">

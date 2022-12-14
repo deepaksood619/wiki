@@ -30,8 +30,8 @@ c.  **Top-Tier:**The top tier is a front-end client layer. Top tier is the tools
 
 <table>
 <colgroup>
-<col style="width: 20%" >
-<col style="width: 79%" >
+<col style="width: 20%" />
+<col style="width: 79%" />
 </colgroup>
 <thead>
 <tr class="header">

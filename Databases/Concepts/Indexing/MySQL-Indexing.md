@@ -264,8 +264,8 @@ Consider this query:
 
 <table>
 <colgroup>
-<col style="width: 30%" >
-<col style="width: 69%" >
+<col style="width: 30%" />
+<col style="width: 69%" />
 </colgroup>
 <thead>
 <tr class="header">

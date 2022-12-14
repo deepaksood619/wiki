@@ -57,9 +57,9 @@ Functional decomposition is a term that engineers use to describea set of steps 
 
 <table>
 <colgroup>
-<col style="width: 22%" >
-<col style="width: 58%" >
-<col style="width: 19%" >
+<col style="width: 22%" />
+<col style="width: 58%" />
+<col style="width: 19%" />
 </colgroup>
 <thead>
 <tr class="header">

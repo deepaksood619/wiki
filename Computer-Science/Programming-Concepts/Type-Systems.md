@@ -48,8 +48,8 @@ Most scripting languages have this feature as there is no compiler to do static 
 -   Get ready for lots and lots of unit testing
 <table>
 <colgroup>
-<col style="width: 47%" >
-<col style="width: 52%" >
+<col style="width: 47%" />
+<col style="width: 52%" />
 </colgroup>
 <thead>
 <tr class="header">

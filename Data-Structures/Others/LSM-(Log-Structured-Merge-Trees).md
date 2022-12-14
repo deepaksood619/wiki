@@ -15,7 +15,7 @@ Extensions to the 'leveled' method to incorporate[B+ tree](https://en.wikipedia.
 LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wiki/Bigtable), [HBase](https://en.wikipedia.org/wiki/HBase), [LevelDB](https://en.wikipedia.org/wiki/LevelDB), [SQLite4](https://en.wikipedia.org/wiki/SQLite4), [Tarantool](https://en.wikipedia.org/wiki/Tarantool) , [RocksDB](https://en.wikipedia.org/wiki/RocksDB), [WiredTiger](https://en.wikipedia.org/wiki/WiredTiger) (MongoDB Engine), [Apache Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra), [InfluxDB](https://en.wikipedia.org/wiki/InfluxDB) and[VictoriaMetrics](https://en.wikipedia.org/w/index.php?title=VictoriaMetrics&action=edit&redlink=1).
 <table>
 <colgroup>
-<col style="width: 100%" >
+<col style="width: 100%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -26,9 +26,9 @@ LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wi
 <tr class="odd">
 <td><table>
 <colgroup>
-<col style="width: 37%" >
-<col style="width: 29%" >
-<col style="width: 33%" >
+<col style="width: 37%" />
+<col style="width: 29%" />
+<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">

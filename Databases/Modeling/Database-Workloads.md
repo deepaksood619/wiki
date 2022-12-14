@@ -23,9 +23,9 @@ The following table summarizes the major differences between OLTP and OLAP syste
 
 <table>
 <colgroup>
-<col style="width: 14%" >
-<col style="width: 40%" >
-<col style="width: 44%" >
+<col style="width: 14%" />
+<col style="width: 40%" />
+<col style="width: 44%" />
 </colgroup>
 <thead>
 <tr class="header">

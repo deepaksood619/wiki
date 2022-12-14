@@ -23,11 +23,11 @@ There are two types of Aurora MySQL parameter groups: DB parameter groups and DB
 2.  Parameters that might affect performance by managing how resources, such as caching and internal memory-based buffers, are allocated in the instance
 <table style="width:100%;">
 <colgroup>
-<col style="width: 31%" >
-<col style="width: 14%" >
-<col style="width: 14%" >
-<col style="width: 14%" >
-<col style="width: 25%" >
+<col style="width: 31%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">

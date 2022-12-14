@@ -38,8 +38,8 @@ Kubernetes is an ideal platform for running contemporary workloads designed as c
 
 <table>
 <colgroup>
-<col style="width: 42%" >
-<col style="width: 57%" >
+<col style="width: 42%" />
+<col style="width: 57%" />
 </colgroup>
 <thead>
 <tr class="header">

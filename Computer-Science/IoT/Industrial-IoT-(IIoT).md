@@ -23,8 +23,8 @@ Modified: 2018-11-20 15:19:13 +0500
 Industrial Control Systems (ICSs) are used to monitor and control the processes and interactions between sensors and actuators.
 <table>
 <colgroup>
-<col style="width: 11%" >
-<col style="width: 88%" >
+<col style="width: 11%" />
+<col style="width: 88%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,8 +57,8 @@ Industrial Control Systems (ICSs) are used to monitor and control the processes 
 
 <table>
 <colgroup>
-<col style="width: 14%" >
-<col style="width: 85%" >
+<col style="width: 14%" />
+<col style="width: 85%" />
 </colgroup>
 <thead>
 <tr class="header">

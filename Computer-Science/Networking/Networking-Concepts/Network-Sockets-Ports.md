@@ -38,8 +38,8 @@ The port numbers are divided into three ranges: thewell-known ports, theregister
 These are allocated toserver servicesby theInternet Assigned Numbers Authority(IANA).
 <table>
 <colgroup>
-<col style="width: 18%" >
-<col style="width: 81%" >
+<col style="width: 18%" />
+<col style="width: 81%" />
 </colgroup>
 <thead>
 <tr class="header">

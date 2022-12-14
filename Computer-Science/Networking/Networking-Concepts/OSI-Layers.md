@@ -15,10 +15,10 @@ It was designed to be a reference model for describing the functions of a commun
 
 <table>
 <colgroup>
-<col style="width: 8%" >
-<col style="width: 16%" >
-<col style="width: 21%" >
-<col style="width: 53%" >
+<col style="width: 8%" />
+<col style="width: 16%" />
+<col style="width: 21%" />
+<col style="width: 53%" />
 </colgroup>
 <thead>
 <tr class="header">

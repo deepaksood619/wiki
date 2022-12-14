@@ -91,8 +91,8 @@ Information flows in one direction from other systems to a device (or a group of
 
 <table>
 <colgroup>
-<col style="width: 15%" >
-<col style="width: 84%" >
+<col style="width: 15%" />
+<col style="width: 84%" />
 </colgroup>
 <thead>
 <tr class="header">
