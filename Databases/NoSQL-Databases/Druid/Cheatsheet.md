@@ -270,37 +270,40 @@ SQL Cheat Sheet
 | BLOOM_­FIL­TER­_TE­ST(­< ­ex­pr >, <­ se­ria­liz­ed-­fil­ter ­>) |
 
 ### Comparison Operators
-* x = y 
-* x <> y 
-* x > y 
-* x >= y 
-* x < y 
-* x <= y 
-* x BETWEEN y AND z 
-* x NOT BETWEEN y AND z 
-* x LIKE pattern [ESCAPE esc]
-* x NOT LIKE pattern [ESCAPE esc]
-* x IS NULL 
-* x IS NOT NULL 
-* x IS TRUE 
-* x IS NOT TRUE 
-* x IS FALSE 
-* x IS NOT FALSE 
-* x IN (values)
-* x NOT IN (values)
-* x IN (subquery)
-* x NOT IN (subquery)
-* x AND y 
-* x OR y 
-* NOT x 
+```
+x = y 
+x <> y 
+x > y 
+x >= y 
+x < y 
+x <= y 
+x BETWEEN y AND z 
+x NOT BETWEEN y AND z 
+x LIKE pattern [ESCAPE esc]
+x NOT LIKE pattern [ESCAPE esc]
+x IS NULL 
+x IS NOT NULL 
+x IS TRUE 
+x IS NOT TRUE 
+x IS FALSE 
+x IS NOT FALSE 
+x IN (values)
+x NOT IN (values)
+x IN (subquery)
+x NOT IN (subquery)
+x AND y 
+x OR y 
+NOT x 
+```
 
-| Other Functions                                                                                                |
-|------------------------------------------------------------------------|
-| CAST(value AS TYPE)                                                                                            |
-| CASE expr WHEN value1 THEN result1 [ WHEN value2 THEN result2 ... ] [ ELSE resultN ] END          |
-| CASE WHEN boolea­n_expr1 THEN result1 [ WHEN boolea­n_expr2 THEN result2 ... ] [ ELSE resultN ] END |
-| NULLIF­(va­lue1, value2)                                                                                         |
-| COALES­CE(­value1, value2, ...)                                                                                 |
+## Other Functions
+```
+CAST(value AS TYPE)
+CASE expr WHEN value1 THEN result1 [ WHEN value2 THEN result2 ... ] [ ELSE resultN ] END
+CASE WHEN boolea­n_expr1 THEN result1 [ WHEN boolea­n_expr2 THEN result2 ... ] [ ELSE resultN ] END |
+NULLIF­(va­lue1, value2)
+COALES­CE(­value1, value2, ...)
+```
 
 | Numeric Functions                                                                          |
 |------------------------------------------------------------------------|
