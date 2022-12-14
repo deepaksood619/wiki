@@ -140,7 +140,8 @@ XINFO HELP
 Fetching data from a stream via a consumer group, and not acknowledging such data, has the effect of creating*pending entries*.The[XACK](https://redis.io/commands/xack)command will immediately remove the pending entry from the Pending Entries List (PEL) since once a message is successfully processed, there is no longer need for the consumer group to track it and to remember the current owner of the message.
 The[XPENDING](https://redis.io/commands/xpending)command is the interface to inspect the list of pending messages, and is as thus a very important command in order to observe and understand what is happening with a streams consumer groups: what clients are active, what messages are pending to be consumed, or to see if there are idle messages
 <https://redis.io/commands/xpending>
-**Differences with Kafka partitions**
+
+## Differences with Kafka partitions**
 
 The partitions are onlylogicaland the messages are just put into a single Redis key, so the way the different clients are served is based on who is ready to process new messages, and not from which partition clients are reading. For instance, if the consumer C3 at some point fails permanently, Redis will continue to serve C1 and C2 all the new messages arriving, as if now there are only twologicalpartitions.
 Similarly, if a given consumer is much faster at processing messages than the other consumers, this consumer will receive proportionally more messages in the same unit of time. This is possible since Redis tracks all the unacknowledged messages explicitly, and remembers who received which message and the ID of the first message never delivered to any consumer.
@@ -180,7 +181,8 @@ A Stream, like any other Redis data structure, is asynchronously replicated to s
 
 [SUBSCRIBE](https://redis.io/commands/subscribe),[UNSUBSCRIBE](https://redis.io/commands/unsubscribe)and[PUBLISH](https://redis.io/commands/publish)implement the[Publish/Subscribe messaging paradigm](http://en.wikipedia.org/wiki/Publish/subscribe)where (citing Wikipedia) senders (publishers) are not programmed to send their messages to specific receivers (subscribers). Rather, published messages are characterized into channels, without knowledge of what (if any) subscribers there may be. Subscribers express interest in one or more channels, and only receive messages that are of interest, without knowledge of what (if any) publishers there are. This decoupling of publishers and subscribers can allow for greater scalability and a more dynamic network topology.
 <https://redis.io/topics/pubsub>
-**PUBSUB vs Streams**
+
+## PUBSUB vs Streams**
 
 **Data storage**
 

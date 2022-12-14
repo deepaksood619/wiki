@@ -17,14 +17,16 @@ Because it uses[B-trees](https://en.wikipedia.org/wiki/B-trees)to index table ob
 **References**
 
 <https://en.wikipedia.org/wiki/Hierarchical_Data_Format>
-**Cap'n Proto**
+
+## Cap'n Proto**
 
 Cap'n Proto is an insanely fast data interchange format and capability-based RPC system. Think JSON, except binary. Or think[Protocol Buffers](http://protobuf.googlecode.com/), except faster.
 Cap'n Proto gets a perfect score because*there is no encoding/decoding step*. The Cap'n Proto encoding is appropriate both as a data interchange format and an in-memory representation, so once your structure is built, you can simply write the bytes straight out to disk!
 ![Encoding round-trip time ](media/Data-formats-image1.png)<https://capnproto.org>
 
 <https://github.com/capnproto/capnproto>
-**Apache Thrift**
+
+## Apache Thrift**
 
 **Thrift**is an[interface definition language](https://en.wikipedia.org/wiki/Interface_definition_language)and[binary communication protocol](https://en.wikipedia.org/wiki/Binary_protocol)used for defining and creating[services](https://en.wikipedia.org/wiki/Service_(systems_architecture))for numerous languages. It forms a[remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)(RPC) framework and was developed at[Facebook](https://en.wikipedia.org/wiki/Facebook)for "scalable cross-language services development". It combines a software stack with a code generation engine to build[cross-platform](https://en.wikipedia.org/wiki/Cross-platform)services which can connect applications written in a variety of languages and frameworks, including [ActionScript](https://en.wikipedia.org/wiki/ActionScript), [C](https://en.wikipedia.org/wiki/C_(programming_language)), [C++](https://en.wikipedia.org/wiki/C%2B%2B), [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), [Cappuccino](https://en.wikipedia.org/wiki/Cappuccino_(application_development_framework)), [Cocoa](https://en.wikipedia.org/wiki/Cocoa_(API)), [Delphi](https://en.wikipedia.org/wiki/Embarcadero_Delphi), [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), [Go](https://en.wikipedia.org/wiki/Go_(programming_language)), [Haskell](https://en.wikipedia.org/wiki/Haskell_(programming_language)), [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [Node.js](https://en.wikipedia.org/wiki/Node.js), [Objective-C](https://en.wikipedia.org/wiki/Objective-C), [OCaml](https://en.wikipedia.org/wiki/OCaml), [Perl](https://en.wikipedia.org/wiki/Perl), [PHP](https://en.wikipedia.org/wiki/PHP), [Python](https://en.wikipedia.org/wiki/Python_(programming_language)), [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)) and [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk).
 <https://en.wikipedia.org/wiki/Apache_Thrift>

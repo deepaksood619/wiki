@@ -13,7 +13,8 @@ It's important to understand that this isnotthe same as*Congestion Control*. Alt
 
 Congestion Window (cwnd) is a TCP state variable that limits the amount of data the[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)can send into the network before receiving an[ACK](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)). The Receiver Window (rwnd) is a variable that advertises the amount of data that the destination side can receive. Together, the two variables are used to regulate data flow in TCP connections, minimize congestion, and improve network performance.
 <https://blog.stackpath.com/glossary-cwnd-and-rwnd>
-**How it works**
+
+## How it works**
 
 When we need to send data over a network, this is normally what happens.
 

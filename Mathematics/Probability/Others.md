@@ -43,7 +43,8 @@ In[mathematics](https://en.wikipedia.org/wiki/Mathematics), thesoftmax function,
 ![The standard (unit) softmax function a : eZi for i --- 1, K and z is defined by the formula e IRK ](media/Others-image2.png)
 
 <https://en.wikipedia.org/wiki/Softmax_function>
-**Probabilistic Tools**
+
+## Probabilistic Tools**
 -   **Probit/Logit:** A probit/logit measures the likelihood or probability of an event happening, based upon observable variables
     -   Example: Measuring the probability that a company will be acquired, given variables that you believe are correlated
 -   **Decision Trees:** When you have a series of discrete events that are sequential, a decision tree allows you to compute the likelihood of events happening, condidtional on events leading up to it

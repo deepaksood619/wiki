@@ -32,13 +32,15 @@ Used for setting, communicating and monitoring quarterly goals and results in or
 <https://soapboxhq.com/goal-examples/engineering>
 
 <https://okrexamples.co/technology-engineering-rnd-okr-examples>
-**TPM - Total Productive Maintainence**
+
+## TPM - Total Productive Maintainence**
 **MVP - Minimum Viable Products**
 
 **RAT - Riskiest Assumption Test**
 
 <https://hackernoon.com/the-mvp-is-dead-long-live-the-rat-233d5d16ab02>
-**Yak Shaving**
+
+## Yak Shaving**
 
 Yak shaving is programming lingo for the seemingly endless series of small tasks that have to be completed before the next step in a project can move forward.
 
@@ -145,7 +147,8 @@ Originally developed by the[Business Process Management Initiative](https://en.w
 <http://www.bpmn.org>
 
 <https://camunda.com>
-**Workflow**
+
+## Workflow**
 
 A Workflow is a series of decisions made by different people that determines what happens to a particular request that one of those people made, according to a defined and repeatable process.
 **SwimLane**
@@ -155,7 +158,8 @@ Aswimlane(orswimlane diagram) is used in[process flow diagrams](https://www.wiki
 ![Swimlane flowchart. Here, the swimlanes are named Customer, Sales, Contracts, Legal, and Fulfillment, and are arranged vertically.](media/Software-Coding---Development-Engineering-image4.png)
 
 <https://www.wikiwand.com/en/Swim_lane>
-**Life Critical System**
+
+## Life Critical System**
 
 A life-critical system is a system whose failure or malfunction may result in death or serious injury. It comprises all software and hardware necessary to perform a critical function.
 **Dependability**
@@ -169,7 +173,8 @@ Safety-critical elements are systems or components that are designed to prevent,
 -   Aviation
 -   Communications
 <https://www.toptal.com/software/life-critical-systems>
-**Non Functional Requirements**
+
+## Non Functional Requirements**
 
 <https://en.wikipedia.org/wiki/Non-functional_requirement>![An Architect's SUCCess Formula Dogma and rules 10% 20 % Experience Pragmatism 20% Flexibility 10% Minimalism 10% Trends and future needs 10% Experiments & PoCs 10% Hands-on participation 10% Vendor advice 0% ](media/Software-Coding---Development-Engineering-image5.png)
 ![What architects actually do Do te nical stuff Defend architecture Act as salespeopl 30% 30 % ](media/Software-Coding---Development-Engineering-image6.png)
@@ -224,7 +229,8 @@ Safety-critical elements are systems or components that are designed to prevent,
 -   Constant learning and skills improvement
 -   Design of replaceable, disposable software
 <https://toolshed.com/2019/01/FourKeys.html>
-**Lean Software Development**
+
+## Lean Software Development**
 -   [Eliminate waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 -   [Amplify learning](https://en.wikipedia.org/wiki/Lean_software_development#Amplify_learning)
 -   [Decide as late as possible](https://en.wikipedia.org/wiki/Lean_software_development#Decide_as_late_as_possible)
@@ -233,11 +239,13 @@ Safety-critical elements are systems or components that are designed to prevent,
 -   [Build integrity in](https://en.wikipedia.org/wiki/Lean_software_development#Build_integrity_in)
 -   [See the whole](https://en.wikipedia.org/wiki/Lean_software_development#See_the_whole)
 <https://en.wikipedia.org/wiki/Lean_software_development>
-**Unified Process**
+
+## Unified Process**
 
 TheUnified Software Development ProcessorUnified Processis an[iterative and incremental](https://en.wikipedia.org/wiki/Iterative_and_incremental_development)[software development process](https://en.wikipedia.org/wiki/Software_development_process)framework. The best-known and extensively documented refinement of the Unified Process is the[Rational Unified Process](https://en.wikipedia.org/wiki/Rational_Unified_Process)(RUP). Other examples are[OpenUP](https://en.wikipedia.org/wiki/OpenUP)and[Agile Unified Process](https://en.wikipedia.org/wiki/Agile_Unified_Process).
 <https://en.wikipedia.org/wiki/Unified_Process>
-**STAR method (Situation-Task-Action-Result)**
+
+## STAR method (Situation-Task-Action-Result)**
 
 Here's the Action-Result method:
 -   Action:Given the task at hand, how did you accomplish it? Once again, be clear and concise.
@@ -311,7 +319,8 @@ Brooks claims that the accidental complexity has decreased substantially, and to
 Brooks advocates "growing" software organically through incremental development. He suggests devising and implementing the main and subprograms right at the beginning, filling in the working sub-sections later. He believes that programming this way excites the engineers and provides a working system at every stage of development.
 Brooks goes on to argue that there is a difference between "good" designers and "great" designers. He postulates that as programming is a creative process, some designers are inherently better than others. He suggests that there is as much as a tenfold difference between an ordinary designer and a great one. He then advocates treating star designers equally well as star managers, providing them not just with equal[remuneration](https://en.wikipedia.org/wiki/Remuneration), but also all the perks of higher status: large office, staff, travel funds, etc.
 <https://en.wikipedia.org/wiki/No_Silver_Bullet>
-**Joel Test**
+
+## Joel Test**
 -   Do you use source control?
 -   Can you make a build in one step?
 -   Do you make daily builds?
@@ -327,7 +336,8 @@ Brooks goes on to argue that there is a difference between "good" designers and 
 <https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code>
 
 <https://medium.com/squad-engineering/squad-takes-the-joel-test-9189709a6235>
-**The 7 R's: Common use cases and deployment**
+
+## The 7 R's: Common use cases and deployment**
 -   Rehost (also known as "lift-and-shift")
 
 Quickly moving applications to the cloud without changing them.

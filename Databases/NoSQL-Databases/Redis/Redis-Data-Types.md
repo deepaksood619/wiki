@@ -273,7 +273,8 @@ Redis is also able to perform the union of HLLs
 -   It is possible to run[Lua scripts server side](https://redis.io/commands/eval)to improve latency and bandwidth.
 -   Redis is also a[Pub-Sub server](https://redis.io/topics/pubsub).
 <https://redis.io/topics/data-types-intro>
-**Redis single-­‐argument commands and their corresponding multi-­‐argument alternatives**
+
+## Redis single-­‐argument commands and their corresponding multi-­‐argument alternatives**
 
 | **Single-­‐Argument Command** | **Single-­‐Argument Description**  | **Multi-­‐Argument Alternative** | **Multi-­‐Argument Description**             |
 |---------------|------------------------|---------------|------------------|
@@ -288,7 +289,8 @@ Redis is also able to perform the union of HLLs
 Another way to reduce latency associated with high command volume is to pipeline several commands together so that you reduce latency due to network usage. Rather than sending 10 client commands to the Redis server individually and taking the network latency hit 10 times, pipelining the commands will send them all at once and pay the network latency cost only once. Pipelining commands is supported by the Redis server and by most clients. This is only beneficial if network latency is significantly larger than your instance's
 ![throughput vs command with or without redis pipeline](media/Redis_Redis-Data-Types-image1.png)
 <https://redis.io/topics/pipelining>
-**Redis commands with high time complexity**
+
+## Redis commands with high time complexity**
 
 | **Command**     | **Description**                                 | **Improve Performance By**                                                                   |
 |--------------|------------------------------|-----------------------------|

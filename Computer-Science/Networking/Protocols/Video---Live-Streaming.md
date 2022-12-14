@@ -65,7 +65,8 @@ copy -t 10 -y test.mkv-   Wowza Streaming Server
 FFMPEG stitching multiple files into one
 
 <https://trac.ffmpeg.org/wiki/Concatenate>
-**References**
+
+## References**
 
 <https://www.wowza.com/docs/tutorials>
 

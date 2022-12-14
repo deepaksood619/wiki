@@ -17,7 +17,8 @@ In a distributed system, we mostly deal with partially ordered events, simply be
 So how do we reconcile this lack of knowledge throughout our system? Well, it involves some reframing of how we think about time...and whether we even need it at all (?!).
 The answer to this mystery is**causal ordering**, which helps us order events not based on thetimethat they occurred, but rather, based on cause and effect. Causal ordering reframes how we think about events. If we can just figure out which events causeotherevents, we can come up with a loose ordering of how those events occurred.
 <https://medium.com/baseds/ordering-distributed-events-29c1dd9d1eff>
-**Lamport Timestamps**
+
+## Lamport Timestamps**
 
 The algorithm of**Lamport timestamps**is a simple algorithm used to determine the order of events in a[distributed computer system](https://en.wikipedia.org/wiki/Distributed_computer_system). As different nodes or processes will typically not be perfectly synchronized, this algorithm is used to provide a[partial ordering](https://en.wikipedia.org/wiki/Partially_ordered_set)of events with minimal overhead, and conceptually provide a starting point for the more advanced[vector clock](https://en.wikipedia.org/wiki/Vector_clock)method. They are named after their creator,[Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport).
 Lamport's solution is to shift our thinking. He presents a novel idea: we don't actually need to think about causality in the context of total ordering to start. Instead, he says that we can start with a partial ordering of events, and then just deal with figuring out which events happened before other events. Once we figure out a partial ordering, we can turn it into a consistent total ordering.
@@ -28,7 +29,8 @@ The idea of one event happening before another is central to Lamport's paper. He
 <https://en.wikipedia.org/wiki/Lamport_timestamps>
 
 <https://medium.com/baseds/logical-time-and-lamport-clocks-part-1-d0317e407112>
-**Logical Clock**
+
+## Logical Clock**
 
 Alogical clockis a mechanism for capturing chronological and causal relationships in a[distributed system](https://en.wikipedia.org/wiki/Distributed_system). Distributed systems may have no physically synchronous global clock, so a logical clock allows global ordering on events from different processes in such systems.
 In logical clock systems each process has two data structures:*logical local time*and*logical global time*. Logical local time is used by the process to mark its own events, and logical global time is the local information about global time. A special protocol is used to update logical local time after each local event, and logical global time when processes exchange data.
@@ -41,10 +43,12 @@ By using basic counters instead of physical clocks, Lamport simplifies clocks in
 <https://medium.com/baseds/ticking-clocks-in-a-distributed-system-ef2aa4df07a3>
 
 <https://medium.com/baseds/logical-time-and-lamport-clocks-part-2-272c097dcdda>
-**Interval Tree Clocks: A Logical Clock for Dynamic Systems**
+
+## Interval Tree Clocks: A Logical Clock for Dynamic Systems**
 
 <https://github.com/catwell/itc.lua>
-**Leap Second**
+
+## Leap Second**
 
 Before we dive into the details of our NTP service, we need to look at a phenomenon called a leap second. Because of the Earth's rotation irregularities, we occasionally need to add or remove a second from time, or a[leap second](https://caps.gsfc.nasa.gov/simpson/time/leapseconds.html). For humans, adding or removing a second creates an almost unnoticeable hiccup when watching a clock. Servers, however, can miss a ton of transactions or events or experience a serious software malfunction when they expect time to go forward continuously. One of the most popular approaches for addressing that is to "[smear" the leap second](https://docs.ntpsec.org/latest/leapsmear.html), which means to change the time in very small increments across multiple hours.
 

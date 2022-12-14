@@ -39,7 +39,8 @@ c.  **Physical:** This Data Model describes**HOW**the system will be implemented
 
 ![Process Models Data Requirements Technical Requirements Performance Requirements Business Data Logical Data Modeling Physical Data Modeling Create/Update Data iCal ata Mod Physical ta Mod Data ](media/Data-Modeling-image2.png)
 <https://www.guru99.com/data-modelling-conceptual-logical.html>
-**Tenets of NoSQL Data Modeling**
+
+## Tenets of NoSQL Data Modeling**
 -   Understand the use case
     -   Nature of the application
         -   OLTP/OLAP/DSS (Decision Support System)
@@ -63,7 +64,8 @@ c.  **Physical:** This Data Model describes**HOW**the system will be implemented
         -   Define indexes for secondary access patterns
 -   Review -> Repeat -> Review
 <https://www.toptal.com/data-modeling/interview-questions>
-**Schema**
+
+## Schema**
 
 From a very simple point of view, a relational database comprises *tables* with multiple *columns* and *rows*, and *relationships* between them. The collection of database objects' definitions associated within a certain namespace is called a *schema*. You can also consider a schema to be the definition of your data structures within your database.
 Just as our data changes over time with Data Manipulation Language (DML) statements, so does our schema. We need to add more tables, add and remove columns, and so on. The process of evolving our database structure over time is called *schema evolution*.

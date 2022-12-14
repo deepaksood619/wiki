@@ -22,7 +22,8 @@ Binary format for network transmission
 <https://github.com/google/protobuf>
 
 <https://developers.google.com/protocol-buffers>
-**Advantages over XML**
+
+## Advantages over XML**
 
 1.  are simpler
 

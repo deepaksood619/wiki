@@ -48,7 +48,8 @@ The effects of the fallacies
 <https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53>
 
 <https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-2-b8ff29beed56>
-**Byzantine Generals' Problem / Two Generals' Problem**
+
+## Byzantine Generals' Problem / Two Generals' Problem**
 
 ![COMMANDER "he said 'retreat•" Figure 1 "attek" LIEUTENANT LIEUTENANT LIEUTENANT The one with stripes is the traitor because of which a consensus cannot be reached COMMANDER *'he said •retreat*" Figure 2 " retreat" LIEUTENANT 2 ](media/Fallacies-and-Problems-image1.jpg)
 

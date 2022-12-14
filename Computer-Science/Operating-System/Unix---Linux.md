@@ -73,14 +73,16 @@ In long-format output of ls, Unix sockets are marked by "s" symbol:
 $ ls -al /dev/log
 srw-rw-rw- 1 root root 0 Sep 7 05:04 /dev/log
 <https://www.unixtutorial.org/unix-file-types>
-**Linux Capabilities**
+
+## Linux Capabilities**
 
 Normally the root user (or any ID with UID of 0) gets a special treatment when running processes. The kernel and applications are usually programmed to skip the restriction of some activities when seeing this user ID. In other words, this user is allowed to do (almost) anything.
 Linux capabilities provide a subset of the available root privileges to a process. This effectively breaks up root privileges into smaller and distinctive units. Each of these units can then be independently be granted to processes. This way the full set of privileges is reduced and decreasing the risks of exploitation.
 <https://linux-audit.com/linux-capabilities-101>
 
 <https://blog.container-solutions.com/linux-capabilities-why-they-exist-and-how-they-work>
-**Linux kernel**
+
+## Linux kernel**
 
 ![Linux kemel SCI (System Call Interface) Erminals Character devi ce drivers 1/0 subsystem Linux kemel Virtual File System Sockets Netfilter / Nftables Network protocols Linux kemel Packet Scheduler Network devi ce drivers IRQs File systems block layer Linux kemel 1/0 Scheduler Block drivers Memory management subsystem Virtual memory Paging page Page cache Dispatcher Process management subsystem Signal handling process/thread creation & termination Linux kemel Process Scheduler ](media/Unix---Linux-image2.png)
 The kernel space is where we have system memory for low level applications on the kernel running. The user space is the environment where our user processes function and execute.
@@ -158,11 +160,13 @@ Functions
 -   **Accounting:**a group's resource usage is monitored and measured.
 -   **Control:**groups of processes can be frozen or stopped and restarted.
 <https://itnext.io/breaking-down-containers-part-0-system-architecture-37afe0e51770>
-**POSIX**
+
+## POSIX**
 
 ThePortable Operating System Interface(POSIX)is a family of[standards](https://en.wikipedia.org/wiki/Standardization)specified by the [IEEE Computer Society](https://en.wikipedia.org/wiki/IEEE_Computer_Society)for maintaining compatibility between[operating systems](https://en.wikipedia.org/wiki/Operating_system). POSIX defines the[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API), along with command line[shells](https://en.wikipedia.org/wiki/Unix_shell)and utility interfaces, for software compatibility with variants of[Unix](https://en.wikipedia.org/wiki/Unix)and other operating systems.
 <https://en.wikipedia.org/wiki/POSIX>
-**Boot Process**
+
+## Boot Process**
 
 ![The Boot Process Boot BIOS Boot L Kerhel (from initramfs) grub2 POST initramfs boot dev Stagel + Stage2 /sys/* fi rmware /proc/sys/* /boot/grub2/grub.cfg grub2-insta11 sysctl dracut grub2-mkconfig 'etc/ sysctl . conf .71 /etc/dracut .conf /etc/grub . d /etc/default/grub Boot Parameters rd. break systemd.unit=rescue.target systemd. unit-emergency. target letc/fstab initrd.target Mounts actual rootfs to /sysroot RO rd. break Pivot kernel rootfs to /sysroot systemd (from f') default. target rescue. target emergency. target sulogin s sinit.target FS Checks Remounts / RW ](media/Unix---Linux-image6.jpg)
 **Distributions**

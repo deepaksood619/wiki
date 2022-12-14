@@ -2004,7 +2004,8 @@ The SQL standard defines two types of triggers: row-level triggers and statement
 -   A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
 MySQL supports only row-level triggers. It doesn't support statement-level triggers.
 <https://www.mysqltutorial.org/mysql-triggers.aspx>
-**When to use and not to use Triggers**
+
+## When to use and not to use Triggers**
 
 Triggers are a requirement for any complex data integrity rules. These cannot be enforced anywhere except the database or you will have data integrity problems.
 They are also the best place for auditing unless you don't want to capture all changes to the database (which is the problem of auditing from the application).

@@ -56,7 +56,8 @@ SQL Server Integration Services(SSIS) is a component of the[Microsoft SQL Server
 SSIS is a platform for[data integration](https://en.wikipedia.org/wiki/Data_integration)and[workflow applications](https://en.wikipedia.org/wiki/Workflow_application). It features a[data warehousing](https://en.wikipedia.org/wiki/Data_warehouse)tool used for data[extraction, transformation, and loading (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load). The tool may also be used to automate maintenance of SQL Server databases and updates to multidimensional[cube data](https://en.wikipedia.org/wiki/OLAP_cube).
 First released with Microsoft SQL Server 2005, SSIS replaced[Data Transformation Services](https://en.wikipedia.org/wiki/Data_Transformation_Services), which had been a feature of SQL Server since Version 7.0. Unlike DTS, which was included in all versions, SSIS is only available in the "Standard", "Business Intelligence" and "Enterprise" editions.With Microsoft "Visual Studio Dev Essentials" it is now possible to use SSIS with Visual Studio 2017 free of cost so long as it is for development and learning purposes only.
 <https://en.wikipedia.org/wiki/SQL_Server_Integration_Services>
-**SQL Server Reporting Service (SSRS)**
+
+## SQL Server Reporting Service (SSRS)**
 
 SQL Server Reporting Services (SSRS) provides a set of on-premises tools and services that create, deploy, and manage mobile and paginated reports.
 <https://www.toptal.com/sql/oracle-sql-server-differences>
@@ -64,7 +65,8 @@ SQL Server Reporting Services (SSRS) provides a set of on-premises tools and ser
 <https://www.toptal.com/sql/oracle-sql-server-migrations-pt-2>
 
 <https://www.toptal.com/sql/oracle-sql-server-migrations-pt-3>
-**Codd's 12 rules**
+
+## Codd's 12 rules**
 
 Codd's twelve rulesare a set of thirteen rules ([numbered zero to twelve](https://www.wikiwand.com/en/Zero-based_numbering)) proposed by[Edgar F. Codd](https://www.wikiwand.com/en/Edgar_F._Codd), a pioneer of the[relational model](https://www.wikiwand.com/en/Relational_model)for[databases](https://www.wikiwand.com/en/Database), designed to define what is required from a[database management system](https://www.wikiwand.com/en/Database_management_system)in order for it to be consideredrelational, i.e., a[relational database management system](https://www.wikiwand.com/en/Relational_database_management_system)(RDBMS).They are sometimes jokingly referred to as "Codd's Twelve Commandments".
 Rule 0: The foundation rule

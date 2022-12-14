@@ -12,7 +12,8 @@ Modified: 2022-01-05 23:09:26 +0500
 -   <https://www.browserstack.com>
 -   <https://www.sitespeed.io>
 -   <https://estimator.dev>
-**Bash - add artificial load to the CPU**
+
+## Bash - add artificial load to the CPU**
 
 while true; do i=0; done
 i = 0
@@ -48,7 +49,8 @@ if=/dev/zero of=/tmp/test1.img bs=1G count=1 oflag=dsync
 TheApache JMeter application is open source software. It is a pure Java application designed to load test an application and measure its performance.
 
 <https://towardsdatascience.com/load-testing-of-a-real-time-pipeline-d32475163285>
-**Gatling**
+
+## Gatling**
 
 Gatling is a highly capable load testing tool. It is designed for ease of use, maintainability and high performance.
 **Gatling**is an open-source load and performance testing framework based on[Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)),[Akka](https://en.wikipedia.org/wiki/Akka_(toolkit))and[Netty](https://en.wikipedia.org/wiki/Netty_(software)). The first stable release was published on January 13, 2012. In 2015, Gatling's founder, Stéphane Landelle, created a company (named "Gatling Corp"), dedicated to the development of the open-source project. According to Gatling Corp's official blog, Gatling was downloaded more than 800,000 times (August 2017).[^[1]^](https://en.wikipedia.org/wiki/Gatling_(software)#cite_note-1)In June 2016, Gatling officially presented Gatling FrontLine, Gatling's Enterprise Version with additional features.
@@ -186,7 +188,8 @@ localhost:8089
 <https://docs.locust.io/en/stable/quickstart.html>
 
 <https://docs.locust.io/en/stable/running-locust-distributed.html>
-**MQTT Stresser**
+
+## MQTT Stresser**
 
 docker run inovex/mqtt-stresser -broker tcp://[104.211.220.105:1883](http://104.211.220.105:1883/) -num-clients 100 -num-messages 10 -rampup-delay 1s -rampup-size 10 -global-timeout 180s -timeout 20s -username *zenatix_mqtt_client -password xitanez123*
 **EMQTT Benchmark**

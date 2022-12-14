@@ -127,7 +127,8 @@ Application-level memory management is generally categorized as either automatic
 [https://en.wikipedia.org/wiki/Memory_management](https://en.wikipedia.org/wiki/Memory_management#HEAP)
 
 <https://gceasy.io>
-**Memory Hierarchy**
+
+## Memory Hierarchy**
 -   **[Processor registers](https://en.wikipedia.org/wiki/Processor_register)--** the fastest possible access (usually 1 CPU cycle). A few thousand bytes in size
 -   [**Cache**](https://en.wikipedia.org/wiki/CPU_cache)
     -   Level 0 (L0)[Micro operations](https://en.wikipedia.org/wiki/Micro-operation)cache -- 6[KiB](https://en.wikipedia.org/wiki/KiB)in size
@@ -147,7 +148,8 @@ The lower levels of the hierarchy -- from disks downwards -- are also known as[t
 <https://en.wikipedia.org/wiki/Memory_hierarchy>
 
 <https://www.thegeekstuff.com/2012/02/linux-memory-swap-cache-shared-vm>
-**Transparent Huge Pages (THP)**
+
+## Transparent Huge Pages (THP)**
 
 Transparent Huge Pages (THP) is a Linux memory management system that reduces the overhead of Translation Lookaside Buffer (TLB) lookups on machines with large amounts of memory by using larger memory pages.
 A **compressible resource** can be throttled, but an impressible resource---not so much. For example, CPU is considered compressible and memory is incompressible.

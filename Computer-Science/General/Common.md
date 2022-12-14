@@ -58,7 +58,8 @@ TheYear 2038 problem(also called Y2038, Epochalypse,Y2k38, or Unix Y2K) relates 
 **RFC**
 
 **4122** - UUID/GUID <https://tools.ietf.org/html/rfc4122.html>
-**Epoch Time / Unix Time**
+
+## Epoch Time / Unix Time**
 
 Unix time(also known asEpoch time,POSIX time,seconds since the Epoch,orUNIX Epoch time) is a system for describing a[point in time](https://www.wikiwand.com/en/Timestamp). It is the number of[seconds](https://www.wikiwand.com/en/Second)that have elapsed since theUnix epoch, minus[leap seconds](https://www.wikiwand.com/en/Leap_second); the Unix epoch is 00:00:00[UTC](https://www.wikiwand.com/en/Coordinated_Universal_Time)on 1 January 1970 (an arbitrary date); leap seconds are ignored, with a leap second having the same Unix time as the second before it, and every day is treated as if it contains exactly86400seconds.Due to this treatment Unix time is not a true representation of UTC.
 It should also be pointed out that this point in time technically does not change no matter where you are located on the globe. This is very useful to computer systems for tracking and sorting dated information in dynamic and distributed applications both online and client side. The reason why Unix timestamps are used by many webmasters is because they can represent all time zones at once.
@@ -67,7 +68,8 @@ It should also be pointed out that this point in time technically does not chang
 <https://www.epochconverter.com>
 
 <https://everytimezone.com>
-**Time - ISO 8601**
+
+## Time - ISO 8601**
 
 ISO 8601Data elements and interchange formats -- Information interchange -- Representation of dates and times is an[international standard](https://en.wikipedia.org/wiki/International_standard)covering the exchange of[date](https://en.wikipedia.org/wiki/Calendar_date)- and[time](https://en.wikipedia.org/wiki/Time)-related data. It was issued by the [International Organization for Standardization](https://en.wikipedia.org/wiki/International_Organization_for_Standardization) (ISO) and was first published in 1988. The purpose of this standard is to provide an unambiguous and well-defined method of representing dates and times, so as to avoid misinterpretation of numeric representations of dates and times, particularly when data is transferred between [countries with different conventions](https://en.wikipedia.org/wiki/Date_and_time_notation_by_country) for writing numeric dates and times.
 **General Principles**
@@ -77,7 +79,8 @@ ISO 8601Data elements and interchange formats -- Information interchange -- Repr
 -   For reduced precision,any number of values may be dropped from any of the date and time representations, but in the order from the least to the most significant. For example, "2004-05" is a valid ISO 8601 date, which indicates May (the fifth month) 2004. This format will never represent the 5th day of an unspecified month in 2004, nor will it represent a time-span extending from 2004 into 2005.
 -   If necessary for a particular application, the standard supports the addition of a[decimal fraction](https://www.wikiwand.com/en/Decimal_fractions)to the smallest time value in the representation.
 <https://en.wikipedia.org/wiki/ISO_8601>
-**IEC Prefixes**
+
+## IEC Prefixes**
 
 | **Factor** | **Name** | **Symbol** | **Origin**              | **Derivation**  |
 |------------|------------|-------------|----------------------|---------------|
@@ -88,7 +91,8 @@ ISO 8601Data elements and interchange formats -- Information interchange -- Repr
 | 2^50^      | pebi      | Pi          | petabinary: (2^10^)^5^  | peta: (10^3^)^5^ |
 | 2^60^      | exbi      | Ei          | exabinary: (2^10^)^6^   | exa: (10^3^)^6^  |
 <https://physics.nist.gov/cuu/Units/binary.html>
-**shim** in computing means application compatibility workaround.
+
+## shim** in computing means application compatibility workaround.
 **IMP Coding Snippets**
 
 **Sweep Line Algorithm (Find intersection of two lines)**
@@ -111,20 +115,25 @@ Solution - python 7.py
 [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
 <https://www.youtube.com/watch?v=0vPt7GI-2kc>
 <https://blog.codinghorror.com/new-programming-jargon>
-**Typosquatting**
+
+## Typosquatting**
 
 <https://medium.com/@williambengtson/python-typosquatting-for-fun-not-profit-99869579c35d>
-**Three-way comparison Operator (SpaceShip Operator < = >)**
+
+## Three-way comparison Operator (SpaceShip Operator < = >)**
 
 In[computer science](https://www.wikiwand.com/en/Computer_science), athree-way comparisontakes two values A and B belonging to a type with a[total order](https://www.wikiwand.com/en/Total_order)and determines whether A < B, A = B, or A > B in a single operation, in accordance with the mathematical[law of trichotomy](https://www.wikiwand.com/en/Trichotomy_(mathematics)).
 <https://www.wikiwand.com/en/Three-way_comparison>
-**FP64, FP32, FP16, BFloat16, TF32 (Floating Points)**
+
+## FP64, FP32, FP16, BFloat16, TF32 (Floating Points)**
 
 <https://medium.com/@moocaholic/fp64-fp32-fp16-bfloat16-tf32-and-other-members-of-the-zoo-a1ca7897d407>
-**Valid Emails**
+
+## Valid Emails**
 
 <https://www.youtube.com/watch?v=60BPETbra9U>
-**[Zawinski's Law](https://en.wikipedia.org/wiki/Jamie_Zawinski#Principles)---** "Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can." (related:[Greenspun's tenth rule](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)--- "any sufficiently complicated C or Fortran program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.")
+
+## [Zawinski's Law](https://en.wikipedia.org/wiki/Jamie_Zawinski#Principles)---** "Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can." (related:[Greenspun's tenth rule](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)--- "any sufficiently complicated C or Fortran program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.")
 **[Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)---** "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
 
 **Eroom's Law**

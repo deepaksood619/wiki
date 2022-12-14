@@ -15,10 +15,12 @@ Modified: 2022-01-07 22:23:17 +0500
 <https://www.youtube.com/watch?v=3Kq1MIfTWCE>
 
 <https://github.com/Hack-with-Github/Awesome-Hacking>
-**CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more.
+
+## CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more.
 
 <https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam>
-**Use Cases and Abuse Cases**
+
+## Use Cases and Abuse Cases**
 **White Hat hackers**
 
 A white hat hacker is an individual who uses hacking skills to identify security vulnerabilities in hardware, software or networks. However, unlike black hat hackers, white hat hackers respect the rule of law as it applies to hacking.
@@ -43,18 +45,21 @@ A black hat hacker has no qualms about selling vulnerabilities and exploits to t
 [**https://tryhackme.com/**](https://tryhackme.com/)
 
 <https://haveibeenpwned.com>
-**Tools**
+
+## Tools**
 
 **Festin**
 
 FestInis a tool for discovering open S3 Buckets starting from a domains.
 <https://github.com/cr0hn/festin>
-**Practice / Learning**
+
+## Practice / Learning**
 
 **Damn Vulnerable Web Application (DVWA)**
 
 <http://www.dvwa.co.uk>
-**Digital Forensics**
+
+## Digital Forensics**
 
 ![](media/Ethical-Hacking-image1.png)
 ![](media/Ethical-Hacking-image2.png)

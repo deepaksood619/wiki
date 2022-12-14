@@ -34,7 +34,8 @@ Multi-paxos - models the log as a series of consensus problems, one for each slo
 [Paxos lecture (Raft user study)](https://www.youtube.com/watch?v=JEpsBg0AO6o)
 
 <https://engineering.fb.com/2022/03/07/core-data/augmenting-flexible-paxos-logdevice>
-**Raft - Consensus Algorithm**
+
+## Raft - Consensus Algorithm**
 
 [RAFT](https://raft.github.io/raft.pdf)is a much simpler consensus algorithm.
 Used by -
@@ -43,7 +44,8 @@ Used by -
 <https://raft.github.io>
 
 <http://thesecretlivesofdata.com/raft>
-**SWIM**
+
+## SWIM**
 
 [SWIM](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf)is a distributed gossip protocol for group membership (e.g. for determining members of a caching ring, etc)
 **Two-Phase Commit Protocol**
@@ -69,7 +71,8 @@ Two-phase commit is a blocking protocol. The coordinator blocks waiting for vote
 Three-phase commit (3PC) is designed to solve the problems identified in two-phase by implementing a non-blocking protocol with an added "prepare" phase. Like 2PC, it relies on a coordinator which relays messages to its cohorts.
 Unlike 2PC, cohorts do not executea transaction during the voting phase. Rather, they simply indicate if they are prepared to perform the transaction. If cohorts timeout during this phase or there is one or more "no" vote, the transaction is aborted. If the vote is unanimously "yes," the coordinator moves on to the "prepare" phase, sending a message to its cohorts to acknowledge the transaction will be committed. Again, if an ack times out, the transactionis aborted. Once all cohorts have acknowledged the commit, we are guaranteed to be in a state where*all*cohorts have agreed to commit. At this point, if the commit message from the coordinator is not received in the third phase, the cohort will go ahead and commit anyway. This solves the deadlocking problems described earlier. However, 3PC is still susceptible to network partitions. If a partition occurs, the coordinator will timeout and progress will not be made.
 <https://bravenewgeek.com/understanding-consensus>
-**State Replication**
+
+## State Replication**
 
 Protocols like[Raft](https://ramcloud.stanford.edu/raft.pdf),[Paxos](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf), and[Zab](http://web.stanford.edu/class/cs347/reading/zab.pdf)are popular and widely used solutions to the problem of distributed consensus. These implement state replication or primary-backup using leaders, quorums, and replicas of operation logs or incremental delta states.
 
@@ -79,7 +82,8 @@ These protocols workby electing a leader (coordinator). Like multi-phase commit,
 The use of quorums provide partition tolerance by fencing minority partitions while the majority continues to operate.This is the pessimistic approach to solving split-brain, so it comes with an inherent availability trade-off. This problem is mitigated by the fact that each node hosts a replicated state machine which can be rebuilt or reconciled once the partition is healed.
 Google relies on Paxos for its high-replication datastore in App Engine as well as its[Chubby lock service](http://static.googleusercontent.com/media/research.google.com/en/us/archive/chubby-osdi06.pdf). The distributed key-value store[etcd](https://github.com/coreos/etcd)uses Raft to manage highly available replicated logs. Zab, which differentiates itself from the former by implementing a primary-backup protocol, was designed for the[ZooKeeper](http://zookeeper.apache.org/)coordination service. In general, there are several different implementations of these protocols, such as the[Go implementation](https://github.com/goraft/raft)of Raft.
 <https://bravenewgeek.com/understanding-consensus>
-**SAGA (Asynchronous Distributed Transactions)**
+
+## SAGA (Asynchronous Distributed Transactions)**
 
 **Context**
 
@@ -102,13 +106,15 @@ Youtube - [SAGA | Microservices Architecture Patterns | Tech Primers](https://ww
 Youtube - [Do you know Distributed transactions?](https://www.youtube.com/watch?v=S4FnmSeRpAY)
 
 <https://microservices.io/patterns/data/saga.html>
-**Gossip / Gossiping**
+
+## Gossip / Gossiping**
 
 Agossip protocolis a procedure or process of computer peer-to-peer communication that is based on the way that[epidemics](https://en.wikipedia.org/wiki/Epidemic)spread. Some[distributed systems](https://en.wikipedia.org/wiki/Distributed_computing)use peer-to-peer gossip to ensure that data is routed to all members of an ad-hoc network. Some ad-hoc networks have no central registry and the only way to spread common data is to rely to each member to pass it along to their neighbors.
 
 The termepidemic protocolis sometimes used as a synonym for a gossip protocol, because gossip spreads information in a manner similar to the spread of a[virus](https://en.wikipedia.org/wiki/Virus)in a biological community.
 <https://en.wikipedia.org/wiki/Gossip_protocol>
-**FLP Impossibility**
+
+## FLP Impossibility**
 
 States that reaching a multi-party consensus in a asynchronous system is not possible and, in order for consensus to be reachable, we need**Failure Detectors**.
 In order for processes to agree, several invariants have to be persevered:

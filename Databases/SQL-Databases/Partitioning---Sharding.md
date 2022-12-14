@@ -116,7 +116,8 @@ While directory based sharding is the most flexible of the sharding methods disc
 
     c.  Google Spanner and HBase -- Range Sharding
 <https://blog.yugabyte.com/four-data-sharding-strategies-we-analyzed-in-building-a-distributed-sql-database>
-**Should I Shard?**
+
+## Should I Shard?**
 
 Whether or not one should implement a sharded database architecture is almost always a matter of debate. Some see sharding as an inevitable outcome for databases that reach a certain size, while others see it as a headache that should be avoided unless it's absolutely necessary, due to the operational complexity that sharding adds.
 Because of this added complexity, sharding is usually only performed when dealing with very large amounts of data. Here are some common scenarios where it may be beneficial to shard a database:

@@ -87,7 +87,8 @@ c.  **Top-Tier:**The top tier is a front-end client layer. Top tier is the tools
 </tr>
 </tbody>
 </table>
-**More (dzone refcardz) -**
+
+## More (dzone refcardz) -**
 -   Data
 -   Data Modeling
 -   Normalized Data

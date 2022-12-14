@@ -71,7 +71,8 @@ As an aside - I still almost always recommend still using a columnar file format
 **Tools**
 
 <https://github.com/apache/parquet-mr/tree/master/parquet-tools>
-**References**
+
+## References**
 
 <https://en.wikipedia.org/wiki/Apache_Parquet>
 

@@ -57,7 +57,8 @@ Modified: 2020-01-07 22:08:50 +0500
     -   Run periodically and locally at each server-   TimeWindowCompactionStrategy
 
 <https://thelastpickle.com/blog/2016/12/08/TWCS-part1.html>
-**Deletes**: don't delete item right away
+
+## Deletes**: don't delete item right away
 -   Add a tombstone to the log
 -   Eventually, when compaction encounters tombstone it will delete item
 **Reads**: Similar to writes, expect

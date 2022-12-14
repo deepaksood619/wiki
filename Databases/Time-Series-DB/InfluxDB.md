@@ -70,7 +70,8 @@ Every InfluxDB use case is special and your[schema](https://docs.influxdata.com/
 
 4.  Shard Group Duration Management
 <https://docs.influxdata.com/influxdb/v1.7/concepts/schema_and_data_layout>
-**Basic Concepts**
+
+## Basic Concepts**
 
 1.  Measurement
 

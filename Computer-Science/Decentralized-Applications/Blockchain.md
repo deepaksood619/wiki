@@ -77,7 +77,8 @@ The EVM is a complete virtual machine, and its only limitation is that its bound
 Hyperledger is an open source community focused on developing a suite of stable frameworks, tools and libraries for enterprise-grade blockchain deployments.
 It serves as a neutral home for various distributed ledger frameworks including Hyperledger Fabric, Sawtooth, Indy, as well as tools like Hyperledger Caliper and libraries like Hyperledger Ursa.
 <https://www.hyperledger.org>
-**Hyperledger Fabric**
+
+## Hyperledger Fabric**
 
 **Type: Distributed ledger software**
 Hyperledger Fabric is intended as a foundation for developing applications or solutions with a modular architecture. Hyperledger Fabric allows components, such as consensus and membership services, to be plug-and-play. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.

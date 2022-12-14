@@ -64,7 +64,8 @@ We will use equation of a line to model the line and then find lines using this 
 **For edge detection - HED - Holistically Nested Edge Detection**
 
 <https://www.pyimagesearch.com/2019/03/04/holistically-nested-edge-detection-with-opencv-and-deep-learning>
-**Project**
+
+## Project**
 -   Project:[Finding Lane Lines](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8/modules/5d1efbaa-27d0-4ad5-a67a-48729ccebd9c/lessons/7c075239-1f65-4952-bde8-1810354d7988/project)
 
 Tools

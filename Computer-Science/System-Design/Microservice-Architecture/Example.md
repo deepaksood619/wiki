@@ -7,7 +7,8 @@ Modified: 2020-11-01 15:51:15 +0500
 ---
 
 <https://thenewstack.io/how-redis-simplifies-microservices-design-patterns>
-**Financial System**
+
+## Financial System**
 
 ![API Gateway 1 Authenticate Digital Identity RedisGearE Probabilistic Fraud Detection Checkpoint RedisGE3Æ Transaction Risk Scoring RediEGeäÆ Approve I Decline Payment RESiscx Legend Redis EnWprise Payment History Clearing & Settlement Update Risk Profile Message Broker n n n n GdiE i:re-m Synchronous Communication --- --- Asynchronous Communication Analytics Dashboard ](media/Microservice-Architecture_Example-image1.png)
 **Design Pattern: Bounded Context -> Domain-Driven Design**
@@ -49,7 +50,8 @@ Code-complexity can be added to each microservice to handle various failure and 
 
 To avoid the risks and costs of various application-level implementations, the recommended patterns are[transactional outbox and message replay](https://microservices.io/patterns/data/transactional-outbox.html). Redis simplifies and supports the combined implementation of both patterns, known as[write-behind](https://github.com/RedisGears/rgsync), by using[Redis Streams](https://university.redislabs.com/courses/ru202/)as the transactional outbox and[RedisGears](https://redislabs.com/modules/redis-gears/)as the message relay. Within Redis a secondary thread can listen for changed-data events, durably store them in time order, and publish them to the message broker --- whenever it's available. This can be uniformly enabled or upgraded on each Redis database at the same time withinfrastructure automation.
 <https://microservices.io/patterns/data/transactional-outbox.html>
-**Design Pattern: Command Query Responsibility Segregation (CQRS) -> Performance**
+
+## Design Pattern: Command Query Responsibility Segregation (CQRS) -> Performance**
 
 Notice that when we defined our fraud-related bounded contexts, we left out the final stage of the payment-processing workflow. This was because itsempowered autonomous teamchose a non-Redis database to support its microservice.
 

@@ -15,7 +15,8 @@ A json file maintained on the cloud where all the updates are performed. These i
 **Digital Twin**
 
 <https://dzone.com/articles/apache-kafka-as-digital-twin-in-industrial-iot-iio>
-**TPM - Trusted Platform Module**
+
+## TPM - Trusted Platform Module**
 
 Is an[international standard](https://en.wikipedia.org/wiki/International_standard)for a[secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor), a dedicated[microcontroller](https://en.wikipedia.org/wiki/Microcontroller)designed to secure hardware through integrated[cryptographic keys](https://en.wikipedia.org/wiki/Cryptographic_keys).
 **Four basic architectural components**
@@ -126,7 +127,8 @@ Information flows in one direction from other systems to a device (or a group of
 </tr>
 </tbody>
 </table>
-**Tools**
+
+## Tools**
 
 1.  **Node-RED**
     -   **Flow-based programming for the Internet of Things**
@@ -150,7 +152,8 @@ Information flows in one direction from other systems to a device (or a group of
 
 8.  Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
 <https://www.postscapes.com/internet-of-things-protocols>
-**References -**
+
+## References -**
 
 <https://cloudplatform.googleblog.com/2018/04/implementing-an-event-driven-architecture-on-serverless-the-Smart-Parking-story.html?m=1>
 

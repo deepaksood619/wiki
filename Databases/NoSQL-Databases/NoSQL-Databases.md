@@ -13,7 +13,8 @@ Drop-in replacement for redis
 <https://dbdb.io/db/aerospike>
 
 <https://www.aerospike.com>
-**bbolt / BoltDB**
+
+## bbolt / BoltDB**
 
 An embedded key/value database for Go.
 

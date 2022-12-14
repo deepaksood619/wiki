@@ -30,6 +30,7 @@ A variation on this technique is to use a different table per time window. For i
 This strategy has a primary benefit of being useful for archiving and quickly dropping old data. For instance, at the beginning of each month, we could archive last month's data to HDFS or S3 in parquet format, taking advantage of cheap storage for analytics purposes. When we don't need the data in Cassandra anymore, we can simply drop the table. You can probably see there's a bit of extra maintenance around creating and removing tables, so this method is really only useful if archiving is a requirement. There are other methods to archive data as well, so this style of bucketing may be unnecessary.
 The second technique uses multiple partitions at any given time to fan out inserts to the entire cluster. The nice part about this strategy is we can use a single partition for low volume, and many partitions for high volume.
 <https://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html>
-**Others**
+
+## Others**
 
 <https://shermandigital.com/blog/designing-a-cassandra-data-model>

@@ -12,21 +12,24 @@ Modified: 2021-11-25 19:26:25 +0500
 
 **MySQL Diagnostic Manager (Monyog) - <https://www.webyog.com/product/monyog>**
 <https://www.eversql.com/top-5-mysql-monitoring-tools>
-**Testing**
+
+## Testing**
 
 **mysqlslap**
 
 It's a benchmarking tool that can help DBAs and developers load test their database servers.
 mysqlslap can emulate a large number of client connections hitting the database server at the same time. The load testing parameters are fully configurable and the results from different test runs can be used to fine-tune database design or hardware resources.
 <https://www.digitalocean.com/community/tutorials/how-to-measure-mysql-query-performance-with-mysqlslap>
-**Optimizations**
+
+## Optimizations**
 
 **MySQLTuner**
 
 <https://github.com/major/MySQLTuner-perl>
 
 <https://github.com/pdufault/mysqlfragfinder/blob/master/mysqlfragfinder.sh>
-**Mysqlreport**
+
+## Mysqlreport**
 
 Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report that provides an in-depth understanding of how well MySQL is running. mysqlreport is a better alternative (and practically the only alternative) to manually interpreting SHOW STATUS.
 **percona-toolkit**
@@ -107,11 +110,13 @@ Works by creating an empty copy of the table to alter, modifying it as desired, 
 -   [pt-variable-advisor](https://www.percona.com/doc/percona-toolkit/LATEST/pt-variable-advisor.html)
 -   [pt-visual-explain](https://www.percona.com/doc/percona-toolkit/LATEST/pt-visual-explain.html)
 <https://www.percona.com/software/database-tools/percona-toolkit>
-**Event Reduce**
+
+## Event Reduce**
 
 An algorithm to optimize database queries that run multiple times
 <https://github.com/pubkey/event-reduce>
-**SQLCheck**
+
+## SQLCheck**
 
 SQL anti-patterns can slow down queries, but often it takes experienced DBAs and developers poring over code to identify and resolve them.
 Four categories of anti-pattern:
@@ -125,7 +130,8 @@ iii. Query
 iv. Application development
 Sqlcheck can be targeted at varying risk levels, categorized as low, medium, or high risk. This is helpful if your list of anti-patterns is large, since you can prioritize the queries with the greatest performance impact.All you need to do to get started is gather a list of your distinct queries into a file and then pass them as an argument to the tool.
 <https://github.com/jarulraj/sqlcheck>
-**Gh-ost (Ghost)**
+
+## Gh-ost (Ghost)**
 
 If like 99 percent of MySQL DBAs you have faced implementing a change to a MySQL table while fearing the impact on production, then you should consider[Gh-ost](https://github.com/github/gh-ost) (GitHub Online Schema Migration). Gh-ost provides MySQL schema changes without blocking writes, without using triggers, and with the ability to pause and resume the migration!
 Why is this so important? Since MySQL 5.6 shipped with new[ALTER TABLE ... ALGORITHM=INPLACE](https://dev.mysql.com/doc/refman/5.6/en/alter-table.html)DDL (Data Definition Language) functionality, it became possible to modify a table without blocking writes for common operations such as adding an index (B-tree). However, there remain a few conditions where[writes (DML statements) are blocked](https://dev.mysql.com/doc/refman/5.7/en/innodb-create-index-overview.html#innodb-online-ddl-summary-grid), most notably the addition of aFULLTEXTindex, the encryption of the tablespace, and the conversion of a column type.
@@ -145,7 +151,8 @@ A final option is available to run the migration only on the replica without imp
 Note that if your schema has foreign keys then Gh-ost may not operate cleanly, as this configuration is not supported.
 <https://github.com/github/gh-ost>
 <https://www.infoworld.com/article/3241730/top-5-open-source-tools-for-mysql-administrators.html>
-**Maintenance Scripts**
+
+## Maintenance Scripts**
 
 <https://jonlabelle.com/snippets/view/shell/mysql-database-maintenance-script>
 
@@ -159,7 +166,8 @@ InnoDB stores data using a page-allocation method and does not suffer from fragm
 
 orchestratoris a MySQL high availability and replication management tool, runs as a service and provides command line access, HTTP API and Web interface.
 <https://github.com/openark/orchestrator>
-**CueObserve**
+
+## CueObserve**
 
 Anomaly detection on SQL data warehouses and databases
 

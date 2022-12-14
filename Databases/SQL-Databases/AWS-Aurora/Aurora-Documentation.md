@@ -7,7 +7,8 @@ Modified: 2021-03-15 10:49:56 +0500
 ---
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_AuroraOverview.html>
-**Integration Aurora MySQL with AWS Services > Saving data into text files in Amazon S3**
+
+## Integration Aurora MySQL with AWS Services > Saving data into text files in Amazon S3**
 
 You can use the**SELECT INTO OUTFILE S3**statement to query data from an Amazon Aurora MySQL DB cluster and save it directly into text files stored in an Amazon S3 bucket. You can use this functionality to skip bringing the data down to the client first, and then copying it from the client to Amazon S3. The**LOAD DATA FROM S3**statement can use the files created by this statement to load data into an Aurora DB cluster.
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Integrating.SaveIntoS3.html>
@@ -154,19 +155,22 @@ Aurora MySQL parallel query is an optimization that parallelizes some of the I/O
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-mysql-parallel-query.html>
 
 <https://aws.amazon.com/blogs/aws/new-parallel-query-for-amazon-aurora>
-**Cloning Database**
+
+## Cloning Database**
 
 Using database cloning, you can quickly and cost-effectively create clones of all of the databases within an Aurora DB cluster. The clone databases require only minimal additional space when first created.
 Database cloning uses acopy-on-write protocol,in which data is copied at the time that data changes, either on the source databases or the clone databases. You can make multiple clones from the same DB cluster. You can also create additional clones from other clones. For more information on how the copy-on-write protocol works in the context of Aurora storage, see[Copy-on-Write Protocol for Database Cloning](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Clone.html#Aurora.Managing.Clone.Protocol).
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.Managing.Clone.html>
-**Backtracking an Amazon Aurora DB**
+
+## Backtracking an Amazon Aurora DB**
 
 Backtracking lets you rewind the Aurora DB cluster to the time you specify. With backtracking enabled, Aurora keeps a record of changes to your database and allows you to switch to a previous consistent state. With this feature you can easily undo mistakes. For example, if by accident you perform a destructive action, such as a DELETE without a WHERE clause, you can quickly backtrack to a state before the accident. Unlike restoring from a snapshot or automated backup---a slower operation, backtracking lets you move back and forth in time in a matter of minutes.
 Backtracking is not a replacement for backing up your DB cluster so that you can restore it to a point in time.
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Managing.Backtrack.html>
 
 <https://aws.amazon.com/getting-started/tutorials/aurora-cloning-backtracking>
-**References**
+
+## References**
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html>
 

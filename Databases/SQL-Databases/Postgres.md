@@ -66,14 +66,16 @@ ON orders (user_id)
 
 WHERE completed IS TRUE;
 <https://www.postgresql.org/docs/12/indexes-partial.html>
-**JSON Types**
+
+## JSON Types**
 
 PostgreSQLoffers two types for storing JSON data:jsonandjsonb.
 Thejsonandjsonbdata types accept*almost*identical sets of values as input. The major practical difference is one of efficiency. Thejsondata type stores an exact copy of the input text, which processing functions must reparse on each execution; whilejsonbdata is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed.jsonbalso supports indexing, which can be a significant advantage.
 <https://www.postgresql.org/docs/current/datatype-json.html>
 
 <https://severalnines.com/database-blog/overview-json-capabilities-within-postgresql>
-**Containment**
+
+## Containment**
 
 Containment tests whether one document (a set or an array) is contained within another.
 **Postgres Extensions**
@@ -150,7 +152,8 @@ A bloom index is perfect for multi-column queries on big tables where you only n
 
 Use a GIN or GiST index for efficient indexes based on composite values like text, arrays, and JSON.
 <https://habr.com/en/company/postgrespro/blog/448746>
-**pgagroal**
+
+## pgagroal**
 
 pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](https://www.postgresql.org/).
 **Features**
@@ -164,10 +167,12 @@ pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](ht
 -   Daemon mode
 -   User vault
 <https://github.com/agroal/pgagroal>
-**PgBouncer -** PgBouncer is a lightweight connection pooler for PostgreSQL.
+
+## PgBouncer -** PgBouncer is a lightweight connection pooler for PostgreSQL.
 
 <https://github.com/pgbouncer/pgbouncer/blob/master/etc/pgbouncer.ini>
-**DATABASES_HOST**:**"zpg-postgresql-headless.zenalytix"**
+
+## DATABASES_HOST**:**"zpg-postgresql-headless.zenalytix"**
 
 **DATABASES_PORT**:**"5432"**
 
@@ -196,20 +201,24 @@ pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](ht
 
 Advanced multi-threaded PostgreSQL connection pooler and request router.
 <https://github.com/yandex/odyssey>
-**Postgres on Kubernetes**
+
+## Postgres on Kubernetes**
 
 <https://github.com/zalando/patroni>
-**Streaming replication asynchronous and synchronous**
+
+## Streaming replication asynchronous and synchronous**
 
 <https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql>
-**pg_trgm**
+
+## pg_trgm**
 
 Trigram (Trigraph) concepts
 
 A trigram is a group of three consecutive characters taken from a string. We can measure the similarity of two strings by counting the number of trigrams they share. This simple idea turns out to be very effective for measuring the similarity of words in many natural languages.
 **Note:**pg_trgmignores non-word characters (non-alphanumerics) when extracting trigrams from a string. Each word is considered to have two spaces prefixed and one space suffixed when determining the set of trigrams contained in the string. For example, the set of trigrams in the string"cat"is"c","ca","cat", and"at". The set of trigrams in the string"foo|bar"is"f","fo","foo","oo","b","ba","bar", and"ar".
 <https://www.postgresql.org/docs/9.6/pgtrgm.html>
-**Postgres database tunable parameters to optimize performance (configurations)**
+
+## Postgres database tunable parameters to optimize performance (configurations)**
 
 1.  shared_buffer
 
@@ -242,13 +251,16 @@ The checkpoint_timeout parameter is used to set time between WAL checkpoints. Se
 <https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance>
 
 <https://postgresqlco.nf/en/doc/param>
-**Caching**
+
+## Caching**
 
 <https://madusudanan.com/blog/understanding-postgres-caching-in-depth>
-**Database Physical Storage**
+
+## Database Physical Storage**
 
 <https://www.postgresql.org/docs/current/storage.html>
-**Others**
+
+## Others**
 
 **pgbackrest**
 
@@ -266,7 +278,8 @@ Youtube - [Breaking PostgreSQL at Scale --- Christophe Pettus](https://www.youtu
 **Configuration**
 
 <https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services>
-**Tools**
+
+## Tools**
 
 **pgadmin**
 **References**

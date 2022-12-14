@@ -25,7 +25,8 @@ A little bit better is a test that just executes a function but does not check i
 In contrast, an**unhappyexecution path** is dealing with unwanted inputs. This is also called[**negative testing**](https://en.wikipedia.org/wiki/Negative_testing). You check if you actually throw an error. Not throwing an error and silently failing is bad as it hides bugs.
 **Property testing**is pretty cool. There you don't test for single values, but you check if a property is still held. For example, the output of a factorization function can be multiplied and should equal the input.
 <https://medium.com/swlh/unit-testing-in-python-basics-21a9a57418a0>
-**Property Based Testing**
+
+## Property Based Testing**
 
 <https://levelup.gitconnected.com/unit-testing-in-python-property-based-testing-892a741fc119>
 
@@ -40,7 +41,8 @@ RCA is a reactive method, as opposed to preventive, since it will be employed on
 <https://www.freecodecamp.org/news/what-is-a-software-post-mortem>
 
 <https://about.gitlab.com/handbook/customer-success/professional-services-engineering/workflows/internal/root-cause-analysis.html>
-**Pre Production Testing**
+
+## Pre Production Testing**
 -   Shadowing
 -   Mutation tests
 -   Contract tests
@@ -74,7 +76,8 @@ RCA is a reactive method, as opposed to preventive, since it will be employed on
 -   User engagement tests
 -   **A/B testing**
     -   <https://www.optimizely.com>
-**Multivariate Testing**
+
+## Multivariate Testing**
 
 Multivariate testing(or A/B testing)is when you make product changes that are only seen by some of your users. This gives you some people that see the A version of your product and other people that see the B version of your product. Then you can see if version A or B gives you the results you want. A debate within multivariate testing is whether or not multi-armed bandit testing is the best kind of A/B test. Bandit testing is a continuous form of A/B testing that always send people toward the best performing options. In essence, the experiment never ends. I'm not going to get into this debate here, but I wanted you to know that there is a debate.
 When running A/B tests it is important to remember that sample size matters. If option A and B are only shown to a few hundred visitors then it doesn't really matter what the results say. You don't have enough participants in the test to make the statistics meaningful. Here is an anecdote to illuminate this point. If you run an A/B test for 1 day, and on that day you have 2,000 visitors, and option A gave you the results you wanted 70% of the time, then you'd think this experiment is a success. Later you find out that this was the same day that a new blog linked to your product and the traffic from this blog accounted for 90% of your traffic that day. At best, your A/B test has uncovered something about the audience of this blog, not about the users of your product as a whole.-   Traffic shifting

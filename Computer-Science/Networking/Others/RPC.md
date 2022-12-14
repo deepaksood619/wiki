@@ -7,7 +7,8 @@ Modified: 2020-05-12 01:12:57 +0500
 ---
 
 <https://sbdevel.wordpress.com/2009/12/17/the-case-rpc-vs-messaging>
-**RPC stands for Remote Procedure Call**
+
+## RPC stands for Remote Procedure Call**
 RPC has a greater learning curve than REST
 **RPC** is a mechanism that allows you to call methods on remote services as though they were methods on a local object.
 Remote Procedure Call is a protocol that one program can use to request a service from a program located in another computer on a network
@@ -63,7 +64,8 @@ Finagle provides a robust implementation of:
 <https://blog.twitter.com/engineering/en_us/a/2011/finagle-a-protocol-agnostic-rpc-system.html>
 
 <https://twitter.github.io/finagle>
-**Tools**
+
+## Tools**
 
 **BloomRPC**
 

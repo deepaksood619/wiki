@@ -104,7 +104,8 @@ redis-py can be used together with[Redis Sentinel](https://redis.io/topics/senti
 <https://pypi.org/project/redis>
 
 <https://github.com/andymccurdy/redis-py>
-**# purge queue**
+
+## # purge queue**
 
 z = redis_client.xpending_range('send:offer_sms', 'offer_sms_consumer', "-", "+", 10000)
 

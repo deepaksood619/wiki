@@ -77,7 +77,8 @@ There are two additional isolation levels:
 <http://highscalability.com/blog/2011/2/10/database-isolation-levels-and-their-effects-on-performance-a.html>
 
 <https://fauna.com/blog/introduction-to-transaction-isolation-levels>
-**Demystifying Database Systems: Correctness Anomalies Under SerializableIsolation**
+
+## Demystifying Database Systems: Correctness Anomalies Under SerializableIsolation**
 
 **What Does "Serializable" Mean in a Distributed/ReplicatedSystem?**
 
@@ -94,7 +95,8 @@ We defined "serializable isolation" above as a guarantee that even though a data
 | PARTITIONED SERIALIZABLE    | Not Possible                           | Not Possible                           | Possible                               |
 | STRICT SERIALIZABLE         | Not Possible                           | Not Possible                           | Not Possible                           |
 <https://fauna.com/blog/demystifying-database-systems-correctness-anomalies-under-serializable-isolation>
-**Isolation Table with Anomalies**
+
+## Isolation Table with Anomalies**
 
 | **System Guarantee**                                               | **Dirty read** | **Non-repeatable read** | **Phantom Read** | **Write Skew** | **Immortal write** | **Stale read** | **Causal reverse** |
 |--------------|--------|----------|---------|--------|---------|--------|--------|
@@ -110,7 +112,8 @@ We defined "serializable isolation" above as a guarantee that even though a data
 -   **Efficiency:**Taking a lock saves you from unnecessarily doing the same work twice (e.g. some expensive computation). If the lock fails and two nodes end up doing the same piece of work, the result is a minor increase in cost (you end up paying 5 cents more to AWS than you otherwise would have) or a minor inconvenience (e.g. a user ends up getting the same email notification twice)
 -   **Correctness:**Taking a lock prevents concurrent processes from stepping on each others' toes and messing up the state of your system. If the lock fails and two nodes concurrently work on the same piece of data, the result is a corrupted file, data loss, permanent inconsistency, the wrong dose of a drug administered to a patient, or some other serious problem
 <https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html>
-**SLOG - Serializable, Low-Latency, Geo-Replicated transactions**
+
+## SLOG - Serializable, Low-Latency, Geo-Replicated transactions**
 **MySQL**
 
 You can enforce a high degree of consistency with the default[REPEATABLE READ](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_repeatable-read)level, for operations on crucial data where[ACID](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_acid)compliance is important. Or you can relax the consistency rules with[READ COMMITTED](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_read-committed)or even[READ UNCOMMITTED](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_read-uncommitted), in situations such as bulk reporting where precise consistency and repeatable results are less important than minimizing the amount of overhead for locking. [SERIALIZABLE](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_serializable)enforces even stricter rules than[REPEATABLE READ](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_repeatable-read), and is used mainly in specialized situations, such as with[XA](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_xa)transactions and for troubleshooting issues with concurrency and[deadlocks](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_deadlock).
@@ -121,7 +124,8 @@ You can enforce a high degree of consistency with the default[REPEATABLE READ](h
 <https://forums.mysql.com/read.php?22,56420,57733>
 
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html>
-**References**
+
+## References**
 
 <https://dbmsmusings.blogspot.com/2019/08/an-explanation-of-difference-between.html>
 

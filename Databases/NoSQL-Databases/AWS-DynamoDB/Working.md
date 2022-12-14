@@ -17,7 +17,8 @@ The total size of an item is the sum of the lengths of its attribute names and v
 -   The size of a null attribute or a Boolean attribute is(length of attribute name) + (1 byte).
 -   An attribute of typeListorMaprequires 3 bytes of overhead, regardless of its contents. The size of aListorMapis(length of attribute name) + sum (size of nested elements) + (3 bytes). The size of an emptyListorMapis(length of attribute name) + (3 bytes).
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/CapacityUnitCalculations.html>
-**Scan vs Query**
+
+## Scan vs Query**
 
 A query operation searches only primary key attribute values and supports a subset of comparison operators on key attribute values to refine the search process.
 
@@ -29,7 +30,8 @@ Also, think about the global secondary index to support a different kind of quer
 <https://stackoverflow.com/questions/43452219/what-is-the-difference-between-scan-and-query-in-dynamodb-when-use-scan-query>
 
 <https://medium.com/@amos.shahar/dynamodb-query-vs-scan-sql-syntax-and-join-tables-part-1-371288a7cb8f>
-**Working**
+
+## Working**
 
 Read capacity unit (RCU)
 
@@ -41,7 +43,8 @@ Replicated write capacity unit (rWCU)-   One**read capacity unit**represents one
     -   Local secondary indexes
     -   Global secondary indexes (asynchronous)
 <https://aws.amazon.com/dynamodb/pricing/provisioned>
-**NoSQL Data Modeling**
+
+## NoSQL Data Modeling**
 -   Normalized vs De-normalized schema
 **Common NoSQL Design Patterns**
 -   Composite Keys

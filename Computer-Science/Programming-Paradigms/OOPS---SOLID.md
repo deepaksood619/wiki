@@ -104,7 +104,8 @@ public String prettyPrint(char c) { /* ... */ }
 
 8.  Levity Polymorphism
 <https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh>
-**Inheritance, Encapsulation and Polymorphism are 3 pillars of OOPs**
+
+## Inheritance, Encapsulation and Polymorphism are 3 pillars of OOPs**
 **Problems**
 
 **Inheritance**
@@ -161,12 +162,14 @@ def speak(self):
 return "ook ook eee eee eee!"
 SomeClass.speak = speak
 <https://thecodebits.com/monkey-patching-in-python-explained-with-examples>
-**OOAD (Object Oriented Analysis and Design)**
+
+## OOAD (Object Oriented Analysis and Design)**
 
 Object-oriented analysis and design(OOAD) is a popular technical approach for analyzing and designing an application, system, or business by applying[object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming), as well as using visual modeling throughout the[development life cycles](https://en.wikipedia.org/wiki/Software_development_process)to foster better stakeholder communication and product quality.
 According to the popular guide[Unified Process](https://en.wikipedia.org/wiki/Unified_Process), OOAD in modern software engineering is best conducted in an iterative and incremental way. Iteration by iteration, the outputs of OOAD activities, analysis models for OOA and design models for OOD respectively, will be refined and evolve continuously driven by key factors like risks and business value.
 <https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design>
-**Important Points**
+
+## Important Points**
 -   class, object (and the difference between the two)
 -   method (as opposed to, say, a C function)
 -   virtual method, pure virtual method
@@ -181,7 +184,8 @@ According to the popular guide[Unified Process](https://en.wikipedia.org/wiki/Un
 <https://en.wikipedia.org/wiki/Mixin>
 
 <http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance>
-**SOLID principles**
+
+## SOLID principles**
 
 1.  **Single Responsibility Principle**
 
@@ -206,7 +210,8 @@ The dependency inversion principle tells us that we should always try to have de
 <https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency>
 
 <https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>
-**STUPID**
+
+## STUPID**
 
 STUPIDis an acronym that describes bad practices in Oriented Object Programming:
 -   [Singleton](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#singleton)

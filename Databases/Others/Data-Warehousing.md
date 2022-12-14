@@ -14,7 +14,8 @@ The data stored in the warehouse is[uploaded](https://en.wikipedia.org/wiki/Uplo
 # 
 
 <https://en.wikipedia.org/wiki/Data_warehouse>
-**Data Warehouse vs Database**
+
+## Data Warehouse vs Database**
 
 A data warehouse is specially designed for data analytics, which involves reading large amounts of data to understand relationships and trends across the data. A database is used to capture and store data, such as recording details of a transaction.
 

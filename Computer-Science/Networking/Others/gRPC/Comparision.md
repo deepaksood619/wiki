@@ -10,7 +10,8 @@ Modified: 2020-05-04 01:12:16 +0500
 
 gRPC is roughly 7 times faster than REST when receiving data & roughly 10 times faster than REST when sending data for this specific payload. This is mainly due to the tight packing of the Protocol Buffers and the use of HTTP/2 by gRPC. However I had to spend roughly 45 mins implementing this simple gRPC Service, where I only spent around 10 mins building the WebAPI.
 <https://medium.com/@EmperorRXF/evaluating-performance-of-rest-vs-grpc-1b8bdf0b22da>
-**High-level comparison**
+
+## High-level comparison**
 
 | **Feature**                | **gRPC**                                                                                                                           | **HTTP APIs with JSON**       |
 |----------------------|-------------------------|--------------------------|

@@ -58,7 +58,8 @@ SENTINEL get-master-addr-by-name mymaster
 This command will return the address of the current master, which can be accessed from inside the cluster.
 In case the current master crashes, the Sentinel containers will elect a new master node.
 <https://redis.io/topics/sentinel>
-**Redis Cluster**
+
+## Redis Cluster**
 
 <https://redis.io/topics/cluster-tutorial>
 
@@ -75,12 +76,14 @@ Sentinel - <https://redis.io/topics/sentinel>
 keydb - Multithreaded fork of redis
 
 <https://docs.keydb.dev/blog/2019/10/07/blog-post>
-**twenproxy (by twitter)**
+
+## twenproxy (by twitter)**
 
 twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight proxy for[memcached](http://www.memcached.org/)and[redis](http://redis.io/)protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.
 
 <https://github.com/twitter/twemproxy>
-**codis**
+
+## codis**
 
 Proxy based Redis cluster solution supporting pipeline and scaling dynamically
 
@@ -118,10 +121,12 @@ Both Redis and MemCached are in-memory, open-source data stores. Memcached, a hi
 | [Lua scripting](https://aws.amazon.com/elasticache/redis-vs-memcached/#Lua_scripting)                                                                       | -            | Yes       |
 | [Geospatial support](https://aws.amazon.com/elasticache/redis-vs-memcached/#Geospatial_support)                                                             | -            | Yes       |
 <https://aws.amazon.com/elasticache/redis-vs-memcached>
-**Books**
+
+## Books**
 
 <https://redislabs.com/redis-in-action>
-**Redis 6**
+
+## Redis 6**
 
 Redis 6.0 open source
 -   Access control lists (ACLs)
@@ -139,7 +144,8 @@ Redis Enterprise 6.0
 -   1 Million small Keys -> String Value pairs use ~ 85MB of memory
 -   1 Million Keys -> Hash value, representing an object with 5 fields, use ~ 160 MB of memory
 <https://redis.io/topics/faq>
-**References**
+
+## References**
 
 [https://redis.io/](https://redis.io/commands)
 

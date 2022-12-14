@@ -7,7 +7,8 @@ Modified: 2022-05-30 23:23:24 +0500
 ---
 
 <https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send>
-**#1**
+
+## #1**
 
 This is a weeklynewsletter for our tech team. This will contain links worth reading in and around tech.
 
@@ -22,7 +23,8 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 4.<https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
 5.<https://www.youtube.com/watch?v=W2Z7fbCLSTw&ab_channel=Fireship>
-**Advanced**
+
+## Advanced**
 
 1.<https://www.geeksforgeeks.org/indexing-in-databases-set-1>
 
@@ -39,7 +41,8 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 2.<https://medium.com>
 
 3. Awesome Repositories -<https://github.com/ossu/computer-science>
-**Youtube channelsworth subscribing**
+
+## Youtube channelsworth subscribing**
 
 1. GotoConf -<https://www.youtube.com/user/GotoConferences>
 
@@ -48,7 +51,8 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 3. Coding Tech -<https://www.youtube.com/channel/UCtxCXg-UvSnTKPOzLH4wJaQ>
 
 4. Tech Dummies -<https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA>
-**#2**
+
+## #2**
 
 **This is all about Coding**
 -   **Codeigniter**
@@ -101,12 +105,14 @@ Medium Daily Digest
 [**https://github.com/kdn251/interviews**](https://github.com/kdn251/interviews)
 
 <https://github.com/sdmg15/Best-websites-a-programmer-should-visit>
-**Blogs**
+
+## Blogs**
 
 <https://about.gitlab.com/2019/08/27/tyranny-of-the-clock>
 
 <https://fremtidensuddannelser.dk/en>
-**Repositories**
+
+## Repositories**
 
 <https://gitstar-ranking.com/repositories>
 

@@ -11,7 +11,8 @@ Modified: 2022-11-23 22:57:58 +0500
 <https://www.freecodecamp.org/news/code-an-endless-runner-game-using-unreal-engine-and-c>
 <https://developer.mozilla.org/en-US/docs/Games>
 <https://www.freecodecamp.org/news/create-a-arcade-style-shooting>
-**Tools**
+
+## Tools**
 -   Blender
 
 <https://www.blender.org>-   Agones
@@ -26,7 +27,8 @@ Host, Run and Scale dedicated game servers on Kubernetes
 <https://games.withgoogle.com>
 
 <https://www.freecodecamp.org/news/code-a-2d-game-engine-using-java>
-**Finite State Machine**
+
+## Finite State Machine**
 
 A finite-state machine (FSM) is a model of computation. In an FSM, just one of a finite number of hypothetical states can be active at any given time.
 In the competitive world of gaming, developers strive to offer an entertaining user experience for those who interact with the non-player characters (NPCs) that we create. Developers can deliver this interactivity by using finite-state machines (FSMs) to create[AI](https://www.toptal.com/artificial-intelligence)solutions that simulate intelligence in our NPCs.

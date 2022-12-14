@@ -91,7 +91,8 @@ GRANT SELECT on public.sentinel_customers TO bhupesh_goyal;
 GRANT SELECT on public.dsa_customers TO bhupesh_goyal;
 **grant** **select**,**update**,**delete** **on** **all** tables **in** **schema** colender **to** developer;
 <https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_USER.html>
-**select**
+
+## select**
 
 id,
 
@@ -196,7 +197,8 @@ select query, segment, step, label ,is_rrscan as rrS, is_diskbased as disk, is_d
 **UNLOAD**
 
 <https://docs.aws.amazon.com/redshift/latest/dg/r_UNLOAD.html>
-**Redshift Spectrum**
+
+## Redshift Spectrum**
 
 SELECT * FROM SVV_EXTERNAL_DATABASES;
 

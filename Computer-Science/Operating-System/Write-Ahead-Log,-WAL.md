@@ -13,7 +13,8 @@ WAL allows updates of a database to be done[in-place](https://en.wikipedia.org/w
 [ARIES](https://en.wikipedia.org/wiki/Algorithms_for_Recovery_and_Isolation_Exploiting_Semantics)is a popular algorithm in the WAL family.
 Modern[file systems](https://en.wikipedia.org/wiki/File_system)typically use a variant of WAL for at least file system[metadata](https://en.wikipedia.org/wiki/Metadata)called[journaling](https://en.wikipedia.org/wiki/Journaling_file_system).
 <https://en.wikipedia.org/wiki/Write-ahead_logging>
-**InfluxDB WAL**
+
+## InfluxDB WAL**
 
 The temporary cache for recently written points. To reduce the frequency with which the permanent storage files are accessed, InfluxDB caches new points in the WAL until their total size or age triggers a flush to more permanent storage. This allows for efficient batching of the writes into the TSM.
 Points in the WAL can be queried, and they persist through a system reboot. On process start, all points in the WAL must be flushed before the system accepts new writes.

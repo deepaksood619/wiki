@@ -62,18 +62,21 @@ Introduced the concept of HTTP "streams": an abstraction that allows HTTP implem
 -   SSE (Server Sent Events / EventSource)
 -   HTTP/2 Server Push
 <https://medium.com/platform-engineer/web-api-design-35df8167460>
-**HTTPS**
+
+## HTTPS**
 
 Privacy, Integrity and Identification
 
 <https://howhttps.works/why-do-we-need-https>
 
 <https://howhttps.works/the-handshake>
-**Https vs TLS (Transport Layer Security) vs SSL (Secure Sockets Layer)**
+
+## Https vs TLS (Transport Layer Security) vs SSL (Secure Sockets Layer)**
 
 HTTP is the protocol used by your browser and web servers to communicate and exchange information. When that exchange of data is encrypted with SSL/TLS, then we call it HTTPS. The "S" stands for "Secure". SSL is the predecessor to TLS.
 <https://howhttps.works/https-ssl-tls-differences>
-**TLS (Tranport Layer Security)**
+
+## TLS (Tranport Layer Security)**
 
 Transport Layer Security(TLS), and its now-deprecated predecessor,Secure Sockets Layer(SSL),are[cryptographic protocols](https://en.wikipedia.org/wiki/Cryptographic_protocol)designed to provide[communications security](https://en.wikipedia.org/wiki/Communications_security)over a[computer network](https://en.wikipedia.org/wiki/Computer_network).Several versions of the protocols find widespread use in applications such as[web browsing](https://en.wikipedia.org/wiki/Web_navigation),[email](https://en.wikipedia.org/wiki/Email),[instant messaging](https://en.wikipedia.org/wiki/Instant_messaging), and[voice over IP](https://en.wikipedia.org/wiki/Voice_over_IP)(VoIP).[Websites](https://en.wikipedia.org/wiki/Website)can use TLS to secure all communications between their[servers](https://en.wikipedia.org/wiki/Server_(computing))and[web browsers](https://en.wikipedia.org/wiki/Web_browser).
 The TLS protocol aims primarily to provide[privacy](https://en.wikipedia.org/wiki/Privacy)and[data integrity](https://en.wikipedia.org/wiki/Data_integrity)between two or more communicating computer applications.When secured by TLS, connections between a client (e.g., a web browser) and a server (e.g., wikipedia.org) should have one or more of the following properties:
@@ -81,14 +84,16 @@ The TLS protocol aims primarily to provide[privacy](https://en.wikipedia.org/wik
 -   The identity of the communicating parties can beauthenticatedusing[public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography). This authentication can be made optional, but is generally required for at least one of the parties (typically the server).
 -   The connection isreliablebecause each message transmitted includes a message integrity check using a[message authentication code](https://en.wikipedia.org/wiki/Message_authentication_code)to prevent undetected loss or alteration of the data during[transmission](https://en.wikipedia.org/wiki/Data_transmission).
 <https://en.wikipedia.org/wiki/Transport_Layer_Security>
-**ALPN (Application Layer Protocol Negotiation)**
+
+## ALPN (Application Layer Protocol Negotiation)**
 
 [Application-Layer](https://en.wikipedia.org/wiki/Application_layer)Protocol Negotiation(ALPN) is a[Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)(TLS) extension that allows the application layer to negotiate which[protocol](https://en.wikipedia.org/wiki/Communications_protocol)should be performed over a secure connection in a manner that avoids additional round trips and which is independent of the application-layer protocols. It is needed by secure[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)connections, which improves the compression of web pages and reduces their latency compared to HTTP/1.x. The ALPN and HTTP/2 standards emerged from development work done by Google on the now withdrawn[SPDY](https://en.wikipedia.org/wiki/SPDY)protocol.
 
 ![Client Server ClientHello (ALPN Extension + List of Protocols) ServerHello (ALPN Extension + Selected Protocol) ChangeCipherSpec Finished ChangeCipherSpec Finished ](media/HTTP---HTTPS-image1.png)
 
 <https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation>
-**SOP - Same Origin Policy**
+
+## SOP - Same Origin Policy**
 
 Thesame-origin policyis a critical security mechanism that restricts how a document or script loaded from one[origin](https://developer.mozilla.org/en-US/docs/Glossary/origin)can interact with a resource from another origin.It helps isolate potentially malicious documents, reducing possible attack vectors.
 <https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy>

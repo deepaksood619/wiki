@@ -11,7 +11,8 @@ Modified: 2022-08-11 15:37:07 +0500
 Dex is an identity service that uses[OpenID Connect](https://openid.net/connect/)to drive authentication for other apps.
 Dex acts as a portal to other identity providers through["connectors."](https://github.com/dexidp/dex#connectors)This lets dex defer authentication to LDAP servers, SAML providers, or established identity providers like GitHub, Google, and Active Directory. Clients write their authentication logic once to talk to dex, then dex handles the protocols for a given backend.
 <https://github.com/dexidp/dex>
-**SPIFFE (Secure Production Identity Framework for Everyone)**
+
+## SPIFFE (Secure Production Identity Framework for Everyone)**
 
 Inspired by the production infrastructure of Google and others, SPIFFE is a set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments.
 SPIFFE is a set of open-source specifications for a framework capable of bootstrapping and issuing identity to services across heterogeneous environments and organizational boundaries. The heart of these specifications is the one that defines short lived cryptographic identity documents -- called[SVIDs](http://localhost:1313/spiffe/concepts/#spiffe-verifiable-identity-document-svid)via a[simple API](https://spiffe.io/spiffe/concepts/#spiffe-workload-api). Workloads can then use these identity documents when authenticating to other workloads, for example by establishing a TLS connection or by signing and verifying a JWT token.
@@ -52,25 +53,31 @@ An authorization library that supports access control models like ACL, RBAC, ABA
 <https://casbin.org>
 
 <https://github.com/casbin/casbin>
-**Lavabit**
+
+## Lavabit**
 
 Secure emailfor the world
 <https://lavabit.com>
-**Android**
+
+## Android**
 
 <https://github.com/google/nogotofail>
-**Cryptographic tools**
+
+## Cryptographic tools**
 
 <https://www.devglan.com/online-tools/aes-encryption-decryption>
-**NaCl**
+
+## NaCl**
 
 <http://nacl.cr.yp.to>
-**libsodium**
+
+## libsodium**
 
 Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.
 
 <https://github.com/jedisct1/libsodium>
-**cert-manager**
+
+## cert-manager**
 
 cert-manager builds on top of Kubernetes, introducing certificate authorities and certificates as first-class resource types in the Kubernetes API. This makes it possible to provide 'certificates as a service' to developers working within your Kubernetes cluster.
 **Highlights**
@@ -98,10 +105,12 @@ cert-manager builds on top of Kubernetes, introducing certificate authorities an
 **Letsencrypt**
 
 <https://letsencrypt.org/getting-started>
-**certbot**
+
+## certbot**
 
 <https://certbot.eff.org>
-**SASS**
+
+## SASS**
 
 <https://www.crowdstrike.com>
 

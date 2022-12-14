@@ -17,7 +17,8 @@ Redshift managed storage uses large, high-performance SSDs in each RA3 node for 
 
 The new managed storage is equally exciting. There's a cache of large-capacity, high-performance SSD-based storage on each instance, backed by[S3](https://aws.amazon.com/s3/), for scale, performance, and durability. The storage system uses multiple cues, including data block temperature, data blockage, and workload patterns, to manage the cache for high performance. Data is automatically placed into the appropriate tier, and you need not do anything special to benefit from the caching or the other optimizations. You pay the same low price for SSD and S3 storage, and you can scale the storage capacity of your data warehouse without adding and paying for additional instances.
 <https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-clusters.html#rs-ra3-node-types>
-**DC2 nodes**
+
+## DC2 nodes**
 
 allow you to have compute-intensive data warehouses with local SSD storage included. You choose the number of nodes you need based on data size and performance requirements. DC2 nodes store your data locally for high performance, and as the data size grows, you can add more compute nodes to increase the storage capacity of the cluster. **For datasets under 1TB uncompressed,** we recommend DC2 node types for the best performance at the lowest price. If you expect your data to grow, we recommend using RA3 nodes so you can size compute and storage independently to achieve the best price and performance.
 **DS2 nodes**
@@ -141,7 +142,8 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 </tr>
 </tbody>
 </table>
-**Migrate from DC2 to DS2**
+
+## Migrate from DC2 to DS2**
 -   **50% cheaper**
 -   **2x query time**
 <https://medium.com/tensult/how-to-migrate-aws-redshift-dc2-to-ds2-node-cluster-73f320dc57f6>

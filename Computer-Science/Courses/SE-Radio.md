@@ -36,7 +36,8 @@ Classifiers
 
 Using classifiers and clusterization, find different problems in logs and also solutions to those using stackoverflow and other discussion forums.
 <http://www.se-radio.net>
-**Cloud Search with Liam Cavanagh, 17 Oct 2018**
+
+## Cloud Search with Liam Cavanagh, 17 Oct 2018**
 
 Search is part of almost every application. Users search for movies to watch. Engineers search through terabytes of log messages to find exceptions. Drivers search through maps to find a destination. Search remains an unsolved problem, with lots of room for optimization.
 Many search applications have been built[Elasticsearch, an open source distributed search engine](https://softwareengineeringdaily.com/2017/04/12/elasticsearch-with-philipp-krenn/). Elasticsearch is the code that powers some search-as-a-service products offered by major cloud providers. After eight years of open source development, Elasticsearch is excellent at core search functionalities, such as indexing data, sharding, and serving queries.

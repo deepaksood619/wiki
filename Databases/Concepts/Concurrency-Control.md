@@ -83,7 +83,8 @@ The most common mechanism type in database systems since their early days in the
 <https://www.geeksforgeeks.org/two-phase-locking-protocol>
 
 <https://vladmihalcea.com/database-deadlock>
-**Timestamp Ordering Concurrency Control**
+
+## Timestamp Ordering Concurrency Control**
 
 Use timestamps to determine the order of transactions.
 **Basic T/O Protocol**
@@ -176,6 +177,7 @@ A short overview of how OT works :
 <https://medium.com/coinmonks/operational-transformations-as-an-algorithm-for-automatic-conflict-resolution-3bf8920ea447>
 
 <https://operational-transformation.github.io>
-**Differential Synchronization -** <https://neil.fraser.name/writing/sync>
+
+## Differential Synchronization -** <https://neil.fraser.name/writing/sync>
 
 Keeping two or more copies of the same document synchronized with each other in real-time is a complex challenge. **Differential synchronization** offers scalability, fault-tolerance, and responsive collaborative editing across an unreliable network.

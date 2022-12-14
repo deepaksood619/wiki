@@ -289,7 +289,8 @@ Minio is a high performance distributed object storage server, designed for
 
 large-scale private cloud infrastructure.
 <https://minio.io>
-**Others**
+
+## Others**
 -   **GlusterFS**
 24. **Ehcache**
 

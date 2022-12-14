@@ -39,7 +39,8 @@ The division of large portions of IP space into classes is now almost a legacy c
 
 One of the most useful reserved ranges is the loopback range specified by addresses from 127.0.0.0 to 127.255.255.255. This range is used by each host to test networking to itself. Typically, this is expressed by the first address in this range: 127.0.0.1.
 <https://en.wikipedia.org/wiki/Reserved_IP_addresses>
-**LoopBack Address**
+
+## LoopBack Address**
 
 Thelocalhostis the default name describing the local computer address also known as theloopback address. For example, typing:ping localhostwould ping the local IP address of 127.0.0.1 (the loopback address). When setting up a web server or software on a web server, 127.0.0.1 is used to point the software to the local machine.
 cat /etc/hosts
@@ -56,7 +57,8 @@ The address0.0.0.0is a non-routable meta-address used to designate an invalid, u
 
 <https://en.wikipedia.org/wiki/0.0.0.0>
 <https://whatismyipaddress.com/localhost>
-**Netmasks and Subnets**
+
+## Netmasks and Subnets**
 
 The process of dividing a network into smaller network sections is calledsubnetting. This can be useful for many different purposes and helps isolate groups of hosts together and deal with them easily.
 **CIDR Notation**
@@ -69,7 +71,8 @@ For example, we could express the idea that the IP address192.168.0.15is associa
 [IPAM (IP Address Management)](https://www.infoblox.com/products/ipam-dhcp/)is the administration of DNS and DHCP, which are the network services that assign and resolve IP addresses to machines in a TCP/IP network. Simply put, IPAM is a means of planning, tracking, and managing the Internet Protocol address space used in a network. Most commonly, tools such as DNS and DHCP are used in tandem to perform this task, though true IPAM will glue these services together so that each is aware of changes in the other (for instance DNS knowing of the IP address taken by a client via DHCP, and updating itself accordingly).
 IP Address Management (IPAM) is an integrated suite of tools to enable end-to-end planning, deploying, managing and monitoring of your IP address infrastructure, with a rich user experience. IPAM automatically discovers IP address infrastructure servers and Domain Name System (DNS) servers on your network and enables you to manage them from a central interface.
 <https://docs.microsoft.com/en-us/windows-server/networking/technologies/ipam/ipam-top>
-**Ip address examples**
+
+## Ip address examples**
 
 | ping 0                               | 127.0.0.1 (Linux)     |
 |--------------------------------------|-----------------------|
@@ -81,6 +84,7 @@ IP Address Management (IPAM) is an integrated suite of tools to enable end-to-en
 | Hex ip notation - ping 0xA000201     | 10.0.2.1              |
 | Octal ip notation - ping 10.0.2.010  | 10.0.2.8              |
 <https://ma.ttias.be/theres-more-than-one-way-to-write-an-ip-address>
-**References**
+
+## References**
 
 <https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking>

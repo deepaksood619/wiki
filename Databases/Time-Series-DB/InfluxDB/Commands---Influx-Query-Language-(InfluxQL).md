@@ -62,7 +62,8 @@ SHOW TAG VALUES ON "telegraf" WITH KEY = "topic";
 
 INSERT temp,tag1='tag1',tag2='tag2' value=22.2
 <https://docs.influxdata.com/influxdb/v1.7/query_language/schema_exploration>
-**Examples**
+
+## Examples**
 
 SELECT client_ip FROM "apache_access_log" (huge amount of data)
 

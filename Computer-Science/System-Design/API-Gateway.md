@@ -77,14 +77,16 @@ Modified: 2022-02-05 01:13:53 +0500
     d.  Spring cloud gateway
 
     e.  <https://apisix.apache.org>
-**API Gateways**
+
+## API Gateways**
 
 **Gloo**
 
 The Hybrid Application Gateway built on top of Envoy
 Gloo is a feature-rich, Kubernetes-native ingress controller, and next-generation API gateway. Gloo is exceptional in its function-level routing; its support for legacy apps, microservices and serverless; its discovery capabilities; its numerous features; and its tight integration with leading open-source projects. Gloo is uniquely designed to support hybrid applications, in which multiple technologies, architectures, protocols, and clouds can coexist
 <https://github.com/solo-io/gloo>
-**Ambassador**
+
+## Ambassador**
 
 [Ambassador](https://www.getambassador.io/)is an open source Kubernetes-native API Gateway built on[Envoy](https://www.envoyproxy.io/), designed for microservices. Ambassador essentially serves as an Envoy ingress controller, but with many more features.
 Key features include:

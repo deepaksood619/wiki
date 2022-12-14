@@ -51,7 +51,8 @@ Pipeline
 <https://www.freecodecamp.org/news/create-complex-graphics-with-opengl>
 
 <https://www.freecodecamp.org/news/advanced-opengl-animation-technique-skeletal-animations>
-**Game Development**
+
+## Game Development**
 
 <https://www.techspot.com/article/1916-how-to-3d-rendering-texturing>
 

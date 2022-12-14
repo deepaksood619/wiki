@@ -141,7 +141,8 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 15. Embedded databases
 
 <https://jsondb.io>
-**Comparision**
+
+## Comparision**
 
 ![](media/Types-of-Databases-image1.png)
 **Relational vs Non-Relational Databases**
@@ -151,7 +152,8 @@ One important aspect of relational databases is that a change in a schema must b
 <https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37>
 
 <http://www.cattell.net/datastores/Datastores.pdf>
-**AWS Databases**
+
+## AWS Databases**
 
 1.  Amazon Aurora
 
@@ -184,7 +186,8 @@ Elasticache between rds and application - <https://aws.amazon.com/blogs/database
 <https://www.heimdalldata.com/aws>
 
 <http://demoa.heimdalldata.com:8087/docs/theory/caching.html>
-**ElastiCache using Redis**
+
+## ElastiCache using Redis**
 
 <https://aws.amazon.com/redis>
 7.  Amazon Redshift
@@ -225,7 +228,8 @@ Fully managed ledged database
 | Time series       | IoT applications, DevOps, industrial telemetry                                                 | [Amazon Timestream](https://aws.amazon.com/timestream/?c=db&sec=srv)                                                                                                                           |
 | Ledger            | Systems of record, supply chain, registrations, banking transactions                           | [Amazon Quantum Ledger Database](https://aws.amazon.com/qldb/?c=db&sec=srv)                                                                                                                    |
 <https://aws.amazon.com/products/databases>
-**Row Oriented vs Column Oriented (columnar) Databases**
+
+## Row Oriented vs Column Oriented (columnar) Databases**
 
 Here is an example: Say we have a table that stores the following data for 1M users:user_id, name, # logins, last_login. So we effectively have 1M rows and 4 columns. A row-oriented data store will physically store each user's data (i.e., each row) contiguously on disk. By contrast, a columnar store will store all of the user_id's together, all of the names together, and so forth, so that each column's data is stored contiguously on disk.
 As a result, shallow-and-wide queries will be faster on a row store (e.g., "fetch all data for user X"), while deep-and-narrow queries will be faster on a column store (e.g., "calculate the average number of logins for all users").
@@ -234,7 +238,8 @@ Additionally, because individual columns of data are typically the same type and
 Yet columnar stores are not without trade-offs. First of all, inserts take much longer: the system needs to split each record into the appropriate columns and write it to disk accordingly. Second, it is easier for row-based stores to take advantage of an index (e.g., B-tree) to quickly find the appropriate records. Third, with a row-store it is easier to normalize your dataset, such that you can more efficiently store related datasets in other tables. 
 As a result, the choice of row-oriented vs. columnar database greatly depends on your workload. Typically, row-oriented stores are used with transactional (OLTP) workloads, while columnar stores are used with analytical (OLAP) workloads.
 <https://blog.timescale.com/blog/building-columnar-compression-in-a-row-oriented-database>
-**Benefits of Columnar Formats**
+
+## Benefits of Columnar Formats**
 
 **READ-OPTIMIZATION**
 
@@ -257,7 +262,8 @@ The biggest negative of columnar formats is that re-constructing a complete reco
 For real columnar file formats (like[Parquet](http://parquet.apache.org/)), this downside is minimized by some clever tricks like breaking the file up into 'row groups' and building extensive metadata, although for particularly wide datasets (like 200+ columns), the speed impact can be fairly significant.
 The other downside, is that they are more CPU and ram intensive to write, as the file writer needs to collect a whole bunch of metadata, and reorganize the rows before it can write the file.
 <https://blog.matthewrathbone.com/2019/11/21/guide-to-columnar-file-formats.html>
-**Choosing the Database**
+
+## Choosing the Database**
 
 1.  Instant performance (respond in less than 1ms)
 
@@ -280,7 +286,8 @@ The other downside, is that they are more CPU and ram intensive to write, as the
 
 One of the crucial differences between In-Memory Data Grids and In-Memory Databases lies in the ability to scale to hundreds and thousands of servers. That is the In-Memory Data Grid's**inherent capability**for such scale due to their MPP (Massively Parallel Processing) architecture, and the In-Memory Database's**explicit inability**to scale due to fact that SQL joins, in general, cannot be efficiently performed in a distribution context.
 <https://www.gridgain.com/resources/blog/in-memory-database-vs-in-memory-data-grid-revisited>
-**RDBMS**
+
+## RDBMS**
 
 A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database. Most relational database management systems use the SQL language to access the database.
 Arelational databaseis a type of database. It uses a structure that allows us to identify and access datain relationto another piece of data in the database. Often, data in a relational database is organized into tables.

@@ -293,7 +293,8 @@ In order to keep a system secure, it is advisable to conduct a pentest on a regu
 <https://dev.to/maxwell_dev/the-testing-introduction-i-wish-i-had-2dn>
 
 <https://dev.to/conw_y/towards-zero-bugs-1bop>
-**Testing terms**
+
+## Testing terms**
 -   Code Freeze
 -   Code Inspection
 -   Code Review

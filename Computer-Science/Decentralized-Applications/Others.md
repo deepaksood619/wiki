@@ -19,23 +19,27 @@ IPFS is a peer-to-peer distributed file system that seeks to connect all computi
 <https://ipfs.io>
 
 <https://en.wikipedia.org/wiki/InterPlanetary_File_System>
-**Orbit Chat**
+
+## Orbit Chat**
 
 A distributed, serverless, peer-to-peer chat application on IPFS
 
 <https://github.com/orbitdb/orbit>
-**OrbitDB**
+
+## OrbitDB**
 
 Peer-to-Peer Databases for the Decentralized Web
 
 <https://github.com/orbitdb>
-**OpenBazaar**
+
+## OpenBazaar**
 
 **OpenBazaar**is an open source project developing a protocol for[e-commerce](https://en.wikipedia.org/wiki/E-commerce)transactions in a fully[decentralized](https://en.wikipedia.org/wiki/Decentralization)marketplace.[^[1]^](https://en.wikipedia.org/wiki/OpenBazaar#cite_note-1)It uses[cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency)as medium of exchange and was inspired by a[hackathon](https://en.wikipedia.org/wiki/Hackathon)project called**DarkMarket**.
 <https://en.wikipedia.org/wiki/OpenBazaar>
 
 <https://openbazaar.org>
-**EOS Storage**
+
+## EOS Storage**
 
 EOS.IO Storage is a proposed decentralized file system designed to give everyone the ability to permanently store and host files accessible by any web browser.
 
@@ -44,12 +48,14 @@ EOS.IO Storage is a proposed decentralized file system designed to give everyone
 Earth Observation System - <https://eos.com/eos-storage>
 
 <https://github.com/cern-eos/eos>
-**XRootD**
+
+## XRootD**
 
 The XROOTD project aims at giving high performance, scalable fault tolerant access to data repositories of many kinds. The typical usage is to give access to file-based ones. It is based on a scalable architecture, a communication protocol, and a set of plugins and tools based on those. The freedom to configure it and to make it scale (for size and performance) allows the deployment of data access clusters of virtually any size, which can include sophisticated features, like authentication/authorization, integrations with other systems, WAN data distribution, etc.
 XRootD software framework is a fully generic suite for fast, low latency and scalable data access, which can serve natively any kind of data, organized as a hierarchical filesystem-like namespace, based on the concept of directory. As a general rule, particular emphasis has been put in the quality of the core software parts.
 <http://xrootd.org>
-**Bittorrent**
+
+## Bittorrent**
 -   💭 Who Created BitTorrent?
 -   🥊 BitTorrent vs Cient-Server Downloading
 -   📑 High Level Overview
@@ -72,7 +78,8 @@ XRootD software framework is a fully generic suite for fast, low latency and sca
 Others - **WebTorrent**
 
 <https://github.com/webtorrent/webtorrent>
-**DApps**
+
+## DApps**
 
 **Decentralized database**
 

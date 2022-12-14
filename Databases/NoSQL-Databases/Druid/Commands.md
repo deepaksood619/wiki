@@ -58,7 +58,8 @@ remove last 20 days of segments
 -   curl -X 'POST' -H 'Content-Type:application/json' -d @wikipedia-top-pages.json [http://localhost:8082/druid/v2?pretty](http://localhost:8082/druid/v2/?pretty) #query top pages from wikipedia dataset
 -   curl -XPOST -H'Content-Type: application/json' -d @wikipedia-kafka-supervisor.json <http://localhost:8090/druid/indexer/v1/supervisor> #submit supervisor spec to kafka-indexing-service
 -   curl -XPOST -H'Content-Type: application/json' -d @smap-kafka-supervisor-spec.json <http://localhost:8090/druid/indexer/v1/supervisor>
-**Dashboards**
+
+## Dashboards**
 -   8081: coordinator (for seeing clusters and datasources
 -   8090: overlord (for managing supervisor spec and tasks)
 -   Others
@@ -110,7 +111,8 @@ ORDER BY __time DESC
 **Dashboard**
 
 <http://10.9.1.21:8888/unified-console.html>
-**Ingestion Spec**
+
+## Ingestion Spec**
 
 {
 

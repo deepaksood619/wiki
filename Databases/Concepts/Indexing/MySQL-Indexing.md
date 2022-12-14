@@ -86,7 +86,8 @@ With very few rows in a table, it is common to hit this 50% limit often (ie. if 
 There are two modes for MySQL Fulltext searching: natural language mode and Boolean mode. A restriction of natural language mode is " ... words that are present in 50% or more of the rows are considered common and do not match. Full-text searches are natural language searches if no modifier is given." And natural language is the default mode.
 <https://stackoverflow.com/questions/1125678/mysql-fulltext-not-working>
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-index-types.html>
-**Primary Key Indexes - MySQL**
+
+## Primary Key Indexes - MySQL**
 -   Because the clustered index "is" the table in InnoDB, it's important that you choose a suitable primary key, as this key will be used often, and restructuring can be very expensive.
 -   Non-sequential primary keys could lead to fragmentation issues. Causing page splits and disk fragmentations that lead to overheads in I/O operations.
 -   You should strive to insert data in primary key order when using InnoDB, and you should try to use a clustering key that will give a monotonically increasing values for each new row. This will ensure that rows are inserted in sequential order and will offer better performance for joins using primary keys.
@@ -313,14 +314,16 @@ SHOW INDEXES FROM table_name;
 select count(*) from sys.schema_unused_indexes;
 
 <https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database>
-**Rebuilding or Repairing Tables or Indexes**
+
+## Rebuilding or Repairing Tables or Indexes**
 
 **Methods for rebuilding a table include:**
 -   [Dump and Reload Method](https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html#rebuilding-tables-dump-reload)
 -   [ALTER TABLE Method](https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html#rebuilding-tables-alter-table)
 -   [REPAIR TABLE Method](https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html#rebuilding-tables-repair-table)
 <https://dev.mysql.com/doc/refman/8.0/en/rebuilding-tables.html>
-**MySQL 8.0 - Invisible Index**
+
+## MySQL 8.0 - Invisible Index**
 
 Invisible indexes make it possible to test the effect of removing an index on query performance, without making a destructive change that must be undone should the index turn out to be required. Dropping and re-adding an index can be expensive for a large table, whereas making it invisible and visible are fast, in-place operations.
 <https://dev.mysql.com/doc/refman/8.0/en/invisible-indexes.html>

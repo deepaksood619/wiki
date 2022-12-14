@@ -36,7 +36,8 @@ Redis is a good option locking since has a simple key-based data model, each sha
     -   [HyperLogLog](https://redislabs.com/redis-best-practices/counting/hyperloglog/)
 -   [Lua Helpers](https://redislabs.com/redis-best-practices/lua-helpers/)
 <https://redislabs.com/redis-best-practices>
-**Best practices and performance tuning**
+
+## Best practices and performance tuning**
 
 **TCP-KeepAlive**
 
@@ -48,10 +49,12 @@ Pipelines are a subclass of the base Redis class that provide support for buffer
 <https://github.com/andymccurdy/redis-py#pipelines>
 Pipelining isn't a silver bullet - you need to understand what it does before you use it. What pipelining does is batch several operations that are sent as bulk, as is their response from the server. What you gain is that the network round trip time for each operation is replaced by that of the batch. But infinitely-sized batches are a real drain on resource - you need to keep their size small enough to be effective. As a rule of thumb I usually try to aim to 60KB per pipeline and since every data is different, so does the number of actual operations in a pipeline. Assuming that your key and its value are ~1KB, you need to callpipeline.execute()every 60 operations or so.
 <https://stackoverflow.com/questions/32149626/how-to-insert-billion-of-data-to-redis-efficiently>
-**Mass Insertion / Bulk Inserts**
+
+## Mass Insertion / Bulk Inserts**
 
 <https://redis.io/topics/mass-insert>
-**Max-Connection**
+
+## Max-Connection**
 
 define the maximum connection limit to the Redis Server.
 **Overcommit memory**
@@ -119,7 +122,8 @@ When you set an expiry on a key, redis does not expire it at that instant. Inste
 <https://cloud.google.com/memorystore/docs/redis/memory-management-best-practices>
 
 <https://www.datadoghq.com/pdf/Understanding-the-Top-5-Redis-Performance-Metrics.pdf>
-**Performance Metrics**
+
+## Performance Metrics**
 
 1.  Memory Usage: used_memory
 

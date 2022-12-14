@@ -12,7 +12,8 @@ Ethereum's mechanism to choose the most valid chain is called the "GHOST protoco
 -   The smart contracts language Solidity is tailored to the ethereum blockchain since it compiles down to bytecode specific for Ethereum's stack machine.
 -   Solidity is Turing-complete meaning it can theoretically any kind of computation.
 <https://www.theschool.ai/wp-content/uploads/2018/09/Reading-Assignment-Semantics-of-the-EVM-.pdf>
-**Blinkist - Ethereum by Henning Diedrich**
+
+## Blinkist - Ethereum by Henning Diedrich**
 -   blockchain - secure and shared database that contains transactions
 -   smart contracts
 -   bitcoin

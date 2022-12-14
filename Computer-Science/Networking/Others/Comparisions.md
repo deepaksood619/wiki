@@ -89,7 +89,8 @@ Personally, I would use Avro for simple domains with mostly primitive types. For
 <https://medium.com/ssense-tech/csv-vs-parquet-vs-avro-choosing-the-right-tool-for-the-right-job-79c9f56914a8>
 
 <https://www.datanami.com/2018/05/16/big-data-file-formats-demystified>
-**Parquet vs Avro**
+
+## Parquet vs Avro**
 
 On their face, Avro and Parquet are similar they both write the schema of their enclosed data in a file header and deal well with schema drift (adding/removing columns). They're so similar in this respect that Parquet even natively supports[Avro schemas](https://github.com/apache/parquet-mr#avro), so you can migrate your Avro pipelines to Parquet storage in a pinch.
 The big difference in the two formats is that Avro stores data BY ROW, and parquet stores data BY COLUMN..

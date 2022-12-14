@@ -32,7 +32,8 @@ There are three types of sequence files:
 -   If you want to perform analytics on your data and you want to store your data efficiently for that then you can useRCFILEformat.
 -   If you want to store your data in an optimized way which lessens your storage and increases your performance then you can useORCFILEformat.
 <https://acadgild.com/blog/apache-hive-file-formats>
-**Amazon Ion**
+
+## Amazon Ion**
 
 Amazon Ionis a[richly-typed](http://amzn.github.io/ion-docs/guides/why.html#rich-type-system),[self-describing](http://amzn.github.io/ion-docs/guides/why.html#self-describing), hierarchical data serialization format offering[interchangeable binary and text](http://amzn.github.io/ion-docs/guides/why.html#dual-format-interoperability)representations. The[text format](http://amzn.github.io/ion-docs/docs/spec.html)(a superset of[JSON](http://json.org/)) is easy to read and author, supporting rapid prototyping. The[binary representation](http://amzn.github.io/ion-docs/docs/binary.html)is[efficient to store, transmit, and skip-scan parse](http://amzn.github.io/ion-docs/guides/why.html#read-optimized-binary-format). The rich type system provides unambiguous semantics for long-term preservation of data which can survive multiple generations of software evolution.
 Ion was built to address rapid development, decoupling, and efficiency challenges faced every day while engineering large-scale, service-oriented architectures. It has been addressing these challenges within Amazon for nearly a decade, and we believe others will benefit as well.
@@ -40,7 +41,8 @@ The Ion text format is a superset of JSON; thus, any valid JSON document is also
 <http://amzn.github.io/ion-docs>
 
 <http://amzn.github.io/ion-docs/docs/spec.html>
-**File Format Benchmarks - Avro, JSON, ORC, Parquet**
+
+## File Format Benchmarks - Avro, JSON, ORC, Parquet**
 
 Avro
 -   Cross-language file format for Hadoop
@@ -167,7 +169,8 @@ Parquet
 ![ParetoFront](media/File-Formats-image10.png)
 
 <https://www.slideshare.net/oom65/file-format-benchmarks-avro-json-orc-parquet>
-**Compression (zlib)**
+
+## Compression (zlib)**
 
 **In 1 mb of memory**
 

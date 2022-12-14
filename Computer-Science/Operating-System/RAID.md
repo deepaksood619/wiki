@@ -69,7 +69,8 @@ Many configurations other than the basic numbered RAID levels are possible, and 
 
 5.  Write-cache reliability
 <https://en.wikipedia.org/wiki/RAID>
-**Striping**
+
+## Striping**
 
 We all know that,RAID is collection of multiple disk'sand in these disk predefined number of contiguously addressable disk blocks are defined which are called asstripsand collection of such strips in aligned in multiple disk is calledstripe.
 ![RAID Striping](media/RAID-image1.png)

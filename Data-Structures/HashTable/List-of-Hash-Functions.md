@@ -151,7 +151,8 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 </tr>
 </tbody>
 </table>
-**Keyed cryptographic hash functions**
+
+## Keyed cryptographic hash functions**
 
 Main article:[Message authentication code](https://en.wikipedia.org/wiki/Message_authentication_code)
 

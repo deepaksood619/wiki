@@ -96,15 +96,18 @@ Level up - As a Developer, series
 
 3.  Pycon
 <https://dev.to/stephsmithio/writing-is-thinking-learning-to-write-with-confidence-1ijh>
-**Course maker**
+
+## Course maker**
 
 <https://teachable.com>
-**Projects**
+
+## Projects**
 -   Monte carlo simulation for dice roll with one dice and two dice
 **Presentations**
 
 <https://www.slideshare.net/billkarwin/extensible-data-modeling>
-**Tech Thursdays**
+
+## Tech Thursdays**
 
 **Icebreakers**
 -   Typing Games (TypingCat, TypeRacer)
@@ -131,7 +134,8 @@ Level up - As a Developer, series
 <https://github.com/git-game/git-game>
 
 <https://github.com/deepaksood619/GitGames>
-**SQL Games**
+
+## SQL Games**
 
 <https://mystery.knightlab.com>
 
@@ -150,7 +154,8 @@ Terraria
 <https://www.bigshyft.com/assessments/rd9pl>
 
 <https://www.bigshyft.com/assessments/x9q4g>
-**System Design**
+
+## System Design**
 -   Airbnb: <https://lnkd.in/dAPjjaA3>
 -   Amazon: <https://lnkd.in/dyp43Yqp>
 -   Asana: <https://lnkd.in/dWqZxf6Y>

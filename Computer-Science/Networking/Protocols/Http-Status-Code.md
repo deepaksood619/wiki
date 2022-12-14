@@ -87,7 +87,8 @@ HTTP 499 in Nginx means that the**client closed the connection**before the serve
 <https://httpstatuses.com>
 
 <https://dev.to/khaosdoctor/the-complete-guide-to-status-codes-for-meaningful-rest-apis-conclusion-2pf8>
-**Most Important Error Codes**
+
+## Most Important Error Codes**
 
 | **Error Code** | **Meaning**                                                                                 |
 |-----------|-------------------------------------------------------------|

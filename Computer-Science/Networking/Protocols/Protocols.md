@@ -56,7 +56,8 @@ Modified: 2021-06-04 10:28:47 +0500
         -   Carrier-sense multiple access with collision detection(CSMA/CD)
         -   Carrier-sense multiple access with collision avoidance(CSMA/CA)
 <https://en.wikipedia.org/wiki/Internet_protocol_suite>
-**Networking Protocols**
+
+## Networking Protocols**
 -   **http2 -** multiple requests in one connection-   **BOSH - Bidirectional stream Over Synchronous HTTP,** it works over HTTP (User will request a connection to the server and than server will hold onto that request until some time, and return to him if any data needs to be transfered, than user will again initiate the request)
 -   **Long Polling over HTTP -** Client will request information to the server, and then server will respond with that information or tell the client that there is no new information. After that client will wait some time before again sending request.
 **STOMP (Simple/Streaming Text Oriented Message Protocol)**
@@ -97,7 +98,8 @@ The updated protocol added a function called "0-RTT resumption" that enables the
 <https://www.cloudflare.com/learning/ssl/transport-layer-security-tls>
 
 <https://security.stackexchange.com/questions/93333/what-layer-is-tls>
-**Mutual Authentication**
+
+## Mutual Authentication**
 
 Mutual authenticationortwo-way authenticationrefers to two parties[authenticating](https://en.wikipedia.org/wiki/Authenticating)each other at the same time, being a default mode of[authentication](https://en.wikipedia.org/wiki/Authentication_protocol)in some protocols ([IKE](https://en.wikipedia.org/wiki/Internet_Key_Exchange),[SSH](https://en.wikipedia.org/wiki/Secure_Shell)) and optional in others ([TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)).
 By default the TLS protocol only proves the identity of the server to the client using[X.509 certificate](https://en.wikipedia.org/wiki/X.509_certificate)and the authentication of the client to the server is left to the application layer. TLS also offers client-to-server authentication using client-side X.509 authentication.As it requires provisioning of the certificates to the clients and involves less user-friendly experience, it's rarely used in end-user applications.

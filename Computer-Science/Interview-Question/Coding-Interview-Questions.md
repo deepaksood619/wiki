@@ -116,7 +116,8 @@ func(rem, prefix + str.charAt( i ));
 <https://www.geeksforgeeks.org/must-coding-questions-company-wise>
 
 <https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview>
-**Interview**
+
+## Interview**
 -   How do you find the missing number in a given integer array of 1 to 100?
 -   How do you find the third node from the end in a singly linked list?
 -   How do you find all pairs of an integer array whose sum is equal to a given number?

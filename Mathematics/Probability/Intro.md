@@ -30,7 +30,8 @@ Ex - 2 defects found in a test of 100 cars. What is the probability of getting a
 In[probability theory](https://en.wikipedia.org/wiki/Probability_theory), therule of successionis a formula introduced in the 18th century by[Pierre-Simon Laplace](https://en.wikipedia.org/wiki/Pierre-Simon_Laplace)in the course of treating the[sunrise problem](https://en.wikipedia.org/wiki/Sunrise_problem).
 The formula is still used, particularly to estimate underlying probabilities when there are few observations, or for events that have not been observed to occur at all in (finite) sample data. Assigning events a[zero probability](https://en.wikipedia.org/wiki/Zero_probability)contravenes[Cromwell's rule](https://en.wikipedia.org/wiki/Cromwell%27s_rule); such contravention can never be strictly justified in physical situations, albeit sometimes must be assumed in practice.
 <https://en.wikipedia.org/wiki/Rule_of_succession>
-**Probability part 1 - Rules and Patterns**
+
+## Probability part 1 - Rules and Patterns**
 
 a.  Pareidolia - A product of our brains that causes us to see the pattern of a face in a non-face objects
 
@@ -60,7 +61,8 @@ c.  Cumulative geometric distribution
 
 In[probability theory](https://en.wikipedia.org/wiki/Probability_theory), aprobability density function(PDF), ordensityof a[continuous random variable](https://en.wikipedia.org/wiki/Continuous_random_variable), is a[function](https://en.wikipedia.org/wiki/Function_(mathematics)), whose value at any given sample (or point) in the[sample space](https://en.wikipedia.org/wiki/Sample_space)(the set of possible values taken by the random variable) can be interpreted as providing arelative likelihoodthat the value of the random variable would equal that sample.
 <https://en.wikipedia.org/wiki/Probability_density_function>
-**Two views of probability**
+
+## Two views of probability**
 -   Frequentist view
 
 In the frequentist view, probability measures the frequency with which an event will occur, if it is repeated many times

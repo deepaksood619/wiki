@@ -141,7 +141,8 @@ Redshift supports virtual views. The contents of the view are not directly mater
 
 <https://docs.aws.amazon.com/redshift/latest/dg/c_challenges_achieving_high_performance_queries.html>
 <https://dbdb.io/db/redshift>
-**Table Locks**
+
+## Table Locks**
 
 Amazon Redshift uses table-level locks
 Amazon Redshift has three lock modes:

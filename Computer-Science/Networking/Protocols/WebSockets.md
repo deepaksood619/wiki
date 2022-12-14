@@ -48,17 +48,20 @@ WebSocket will probably remain used but SSE and its EventSource API combined wit
 <https://sookocheff.com/post/networking/how-do-websockets-work>
 
 <https://ably.com/topic/websockets>
-**socketio / socket.io**
+
+## socketio / socket.io**
 
 Bidirectional and low-latency communication for every platform
 
 <https://github.com/socketio/socket.io>
 
 <https://socket.io>
-**Websocket vs socketio**
+
+## Websocket vs socketio**
 
 Socketio advantages are that it simplifies the usage of WebSockets, and probably more importantly it provides fail-overs to other protocols in the event that WebSockets are not supported on the browser or server.
 <https://stackoverflow.com/questions/10112178/differences-between-socket-io-and-websockets>
 
 <https://davidwalsh.name/websocket>
-**>> Django Channels**
+
+## >> Django Channels**

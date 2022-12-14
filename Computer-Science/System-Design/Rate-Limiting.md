@@ -23,7 +23,8 @@ However, the session management and rate limiting algorithm usually must be buil
 
 Datacenters widely use rate-limiting to control the share of resources given to different tenants and applications according to their service level agreement.A variety of rate-limiting techniques are applied in datacenters using software and hardware. Virtualized datacenters may also apply rate-limiting at the hypervisor layer. Two important performance metrics of rate-limiters in datacenters are resource footprint (memory and CPU usage) which determines scalability, and precision. There usually exists a trade-off, that is, higher precision can be achieved by dedicating more resources to the rate-limiters. A considerable body of research exists with focus on improving performance of rate-limiting in datacenters.
 <https://en.wikipedia.org/wiki/Rate_limiting>
-**Uses**
+
+## Uses**
 -   Limit use of an API in API as a service
 -   Prevent DDOS attack
 **Why**
@@ -59,14 +60,16 @@ Conceptually, HTB is an arbitrary number of token buckets arranged in a hierarch
 In HTB, rate means the guaranteed bandwidth available for a given class and ceil is short for ceiling, which indicates the maximum bandwidth that class is allowed to consume. Any bandwidth used between rate and ceil is borrowed from a parent class, hence the suggestion that rate and ceil be the same in the top-level class.
 Hierarchical Token Bucket implements a classful queuing mechanism for the linux traffic control system, and provides rate and ceil to allow the user to control the absolute bandwidth to particular classes of traffic as well as indicate the ratio of distribution of bandwidth when extra bandwidth become available(up to ceil).
 <https://en.wikipedia.org/wiki/Token_bucket>
-**Leaky Bucket**
+
+## Leaky Bucket**
 
 [Leaky bucket](https://en.wikipedia.org/wiki/Leaky_bucket)(closely related to[token bucket](https://en.wikipedia.org/wiki/Token_bucket)) is an algorithm that provides a simple, intuitive approach to rate limiting via a queue which you can think of as a bucket holding the requests. When a request is registered, it is appended to the end of the queue. At a regular interval, the first item on the queue is processed. This is also known as a first in first out (FIFO) queue. If the queue is full, then additional requests are discarded (or leaked).
 ![Capacity Two requests processed per minute Request 3: Dropped Request 2: Queued Request 1: Queued ](media/Rate-Limiting-image2.png)
 The advantage of this algorithm is that it smooths out bursts of requests and processes them at an approximately average rate. It's also easy to implement on a single server or load balancer, and is memory efficient for each user given the limited queue size.
 However, a burst of traffic can fill up the queue with old requests and starve more recent requests from being processed. It also provides no guarantee that requests get processed in a fixed amount of time. Additionally, if you load balance servers for fault tolerance or increased throughput, you must use a policy to coordinate and enforce the limit between them.
 <https://en.wikipedia.org/wiki/Leaky_bucket>
-**Fixed Window**
+
+## Fixed Window**
 
 In afixed windowalgorithm, a window size of n seconds (typically using human-friendly values, such as 60 or 3600 seconds) is used to track the rate. Each incoming request increments the counter for the window. If the counter exceeds a threshold, the request is discarded. The windows are typically defined by the floor of the current timestamp, so 12:00:03 with a 60 second window length, would be in the 12:00:00 window.
 ![12:00 Request 3: Denied Request 2: Ok Request 1: Ok 12:01 ](media/Rate-Limiting-image3.png)

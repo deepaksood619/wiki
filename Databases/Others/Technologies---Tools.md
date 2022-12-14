@@ -18,12 +18,14 @@ By encapsulating shard-routing logic, Vitess allows application code and databas
 <https://vitess.io>
 
 <https://www.planetscale.com/blog/videos-intro-to-vitess-its-powerful-capabilities-and-how-to-get-started>
-**MySQL Workbench / MySQLWorkbench**
+
+## MySQL Workbench / MySQLWorkbench**
 
 <https://dev.mysql.com/doc/workbench/en/wb-performance-explain.html>
 <https://www.mysql.com/products/workbench>
 <https://dev.to/realtrevorfaux/8-new-sql-tools-that-will-change-how-you-work-in-2020-n63>
-**Settings**
+
+## Settings**
 -   Preferences > SQL Editor > DBMS connection read timeout interval (in seconds) > 3000
 **Shortcuts**
 
@@ -44,7 +46,8 @@ find all objects that names start with test
 **NoSQL Workbench**
 
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html>
-**DBeaver**
+
+## DBeaver**
 
 **Universal Database Tool**
 DBeaveris an SQL client and a database administration tool. For[relational databases](https://en.wikipedia.org/wiki/Relational_database)it uses the[JDBC](https://en.wikipedia.org/wiki/JDBC)API to interact with databases via a JDBC driver. For other databases ([NoSQL](https://en.wikipedia.org/wiki/NoSQL)) it uses proprietary database drivers. It provides an editor that supports[code completion](https://en.wikipedia.org/wiki/Autocomplete)and[syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting). It provides a plugin architecture (based on the[Eclipse](https://en.wikipedia.org/wiki/Eclipse_(software))plugins architecture) that allows users to modify much of the application's behavior to provide database-specific functionality or features that are database-independent. This is a desktop application written in[Java](https://en.wikipedia.org/wiki/Java_platform)and based on[Eclipse](https://en.wikipedia.org/wiki/Eclipse_(software))platform.
@@ -63,7 +66,8 @@ Having usability as its main goal, DBeaver offers:
 <https://dbeaver.io>
 
 <https://github.com/dbeaver/dbeaver>
-**Shortcuts**
+
+## Shortcuts**
 -   Ctrl + ] - New sql script
 **Teradata**
 
@@ -72,7 +76,8 @@ Analytics, Data Lakes and Data Warehouses Unified in the Cloud
 
 Datastage is an ETL tool which extracts data, transform and load data from source to the target. The data sources might include sequential files, indexed files, relational databases, external data sources, archives, enterprise applications, etc. DataStage facilitates business analysis by providing quality data to help in gaining business intelligence.
 <https://www.guru99.com/datastage-tutorial.html>
-**Liquibase**
+
+## Liquibase**
 
 Liquibase helps millions of teams track, version, and deploy database schema changes.
 Liquibase Hub - Visualize all changes-   Changelogs
@@ -90,7 +95,8 @@ Track which changes have or have not been deployed
 
 liquibase update
 <https://www.liquibase.org>
-**Fixing Forward**
+
+## Fixing Forward**
 
 Since rolling back database changes is complicated, time-consuming, and error-prone, the fixing forward approach is very quickly getting very popular.
 **Fixing forward is lower-risk.**

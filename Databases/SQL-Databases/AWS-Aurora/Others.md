@@ -11,7 +11,8 @@ Modified: 2021-04-07 20:54:03 +0500
 <https://aws.amazon.com/premiumsupport/knowledge-center/advanced-audit-aurora-mysql-cloudwatch>
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Auditing.html>
-**Autoscaling**
+
+## Autoscaling**
 
 To meet your connectivity and workload requirements, Aurora Auto Scaling dynamically adjusts the number of Aurora Replicas provisioned for an Aurora DB cluster using single-master replication. Aurora Auto Scaling is available for both Aurora MySQL and Aurora PostgreSQL. Aurora Auto Scaling enables your Aurora DB cluster to handle sudden increases in connectivity or workload. When the connectivity or workload decreases, Aurora Auto Scaling removes unnecessary Aurora Replicas so that you don't pay for unused provisioned DB instances.
 You define and apply a scaling policy to an Aurora DB cluster. Thescaling policydefines the minimum and maximum number of Aurora Replicas that Aurora Auto Scaling can manage. Based on the policy, Aurora Auto Scaling adjusts the number of Aurora Replicas up or down in response to actual workloads, determined by using Amazon CloudWatch metrics and target values.
@@ -28,7 +29,8 @@ You define and apply a scaling policy to an Aurora DB cluster. Thescaling policy
 <https://docs.newrelic.com/docs/integrations/amazon-integrations/aws-integrations-list/aws-rds-enhanced-monitoring-integration>
 
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_PerfInsights.UsingDashboard.html>
-**Performance Monitoring**
+
+## Performance Monitoring**
 
 **Why does Performance Insights measure database load in sessions?**
 
@@ -47,7 +49,8 @@ An important visual cue in the load chart is theMax CPUline. This line represent
 
 In the preceding examples,there are two vCPU cores, so only two sessions can concurrently run on the CPU without queueing. If three sessions run on the CPU concurrently, then, at any given point in time, at least one of them is waiting in the run queue and therefore not getting work done.
 <https://aws.amazon.com/blogs/database/analyzing-amazon-rds-database-workload-with-performance-insights>
-**Metrics**
+
+## Metrics**
 
 **Freeable memory**
 

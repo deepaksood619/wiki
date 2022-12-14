@@ -41,7 +41,8 @@ sdb3 = 3rd partition on the second HD ('b' is second of two or more active HDs)
 shm / shmfs is also known as tmpfs, which is a common name for a temporary file storage facility on many Unix-like operating systems. It is intended to appear as a mounted file system, but one which uses virtual memory instead of a persistent storage device.
 You can use /dev/shm to improve the performance of application software such as Oracle or overall Linux system performance. On heavily loaded system, it can make tons of difference. For example VMware workstation/server can be optimized to improve your Linux host's performance (i.e. improve the performance of your virtual machines).
 <https://www.cyberciti.biz/tips/what-is-devshm-and-its-practical-usage.html>
-**/etc**
+
+## /etc**
 
 This is one area of the filesystem where you will spend a lot of time if you are working as a system administrator. This directory is basically a configuration directory for various system-wide services.
 
@@ -80,7 +81,8 @@ The[computer file](https://en.wikipedia.org/wiki/Computer_file)**hosts**is an op
 <https://en.wikipedia.org/wiki/Hosts_(file)>
 
 <https://bencane.com/2013/10/29/managing-dns-locally-with-etchosts>
-**/home**
+
+## /home**
 
 This location contains the home directories of all of the users on the system (except for the administrative user, root). If you have created other users, a directory matching their username will typically be created under this directory.
 
@@ -150,7 +152,8 @@ cat /var/run/utmp
 xinetd, the eXtended InterNET Daemon, is an open-source daemon which runs on many Linux and Unix systems and manages Internet-based connectivity. It offers a more secure extension to or version of inetd, the Internet daemon.
 xinetd performs the same function as inetd: it starts programs that provide Internet services. Instead of having such servers started at system initialization time, and be dormant until a connection request arrives, xinetd is he only daemon process started and it listens on all service ports for the services listed in its configuration file. When a request comes in, xinetd starts the appropriate server. Because of the way it operates, xinetd (as well as inetd) is also referred to as a super-server.
 <https://www.cyberciti.biz/faq/linux-how-do-i-configure-xinetd-service>
-**File Descriptor**
+
+## File Descriptor**
 
 In[Unix](https://en.wikipedia.org/wiki/Unix)and[related](https://en.wikipedia.org/wiki/Unix-like)computer operating systems, afile descriptor(FD, less frequently fildes) is an abstract indicator ([handle](https://en.wikipedia.org/wiki/Handle_(computing))) used to access a[file](https://en.wikipedia.org/wiki/File_(computing))or other [input/output](https://en.wikipedia.org/wiki/Input/output) [resource](https://en.wikipedia.org/wiki/System_resource), such as a[pipe](https://en.wikipedia.org/wiki/Pipe_(Unix))or[network socket](https://en.wikipedia.org/wiki/Network_socket). File descriptors form part of the [POSIX](https://en.wikipedia.org/wiki/POSIX) [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface). A file descriptor is a non-negative[integer](https://en.wikipedia.org/wiki/Integer), generally represented in the[C](https://en.wikipedia.org/wiki/C_(programming_language))programming language as the typeint(negative values being reserved to indicate "no value" or an error condition).
 Each Unix[process](https://en.wikipedia.org/wiki/Process_(computing))(except perhaps a[daemon](https://en.wikipedia.org/wiki/Daemon_(computer_software))) should expect to have three standard POSIX file descriptors, corresponding to the three[standard streams](https://en.wikipedia.org/wiki/Standard_streams):
@@ -162,7 +165,8 @@ Each Unix[process](https://en.wikipedia.org/wiki/Process_(computing))(except per
 | 2             | [Standard error](https://en.wikipedia.org/wiki/Stderr)  | STDERR_FILENO                                                                                                                              | stderr                                                                                                                             |
 /proc/113/fd -> 0,1,2 -> 2>&1
 <https://en.wikipedia.org/wiki/File_descriptor>
-**Ownership of Linux Files**
+
+## Ownership of Linux Files**
 
 **User**
 

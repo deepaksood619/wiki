@@ -37,7 +37,8 @@ In the paper that introduced Aurora, the authors stated that Aurora has exactly 
 
 REPEATABLE-READ
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Reference.html#AuroraMySQL.Reference.IsolationLevels>
-**Joins**
+
+## Joins**
 
 [Hash Join](https://dbdb.io/browse?joins=hash-join)
 Aurora has different join algorithm compared to MySQL. It supports hash join in addition to the already-existing nested loop join in MySQL. When the hash join option is enabled, Aurora's optimizer will automatically choose a join method as it evaluates the query plan. However, there are several restrictions for hash join in Aurora. To be more specific, left-right outer joins, semijoins such as subqueries and multiple-table updates or deletes are not supported.
@@ -85,7 +86,8 @@ Same as MySQL, Aurora supports materialized views
 <https://dbdb.io/db/aurora>
 
 <https://aws.amazon.com/rds/aurora/faqs>
-**Aurora vs RDS MySQL**
+
+## Aurora vs RDS MySQL**
 
 <https://www.percona.com/blog/2018/07/17/when-should-i-use-amazon-aurora-and-when-should-i-use-rds-mysql>
 

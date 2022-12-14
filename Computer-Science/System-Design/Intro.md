@@ -135,7 +135,8 @@ Architects are often writing the ADRs ([Architecture Decision Record](https://gi
 <https://github.com/joelparkerhenderson/architecture-decision-record>
 
 <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions>
-**Scale Cube**
+
+## Scale Cube**
 
 Thescale cubeis a technology model that indicates three methods (or approaches) by which technology platforms may be scaled to meet increasing levels of demand upon the system in question. The three approaches defined by the model include scaling through replication or cloning (the "X axis"), scaling through segmentation along service boundaries or dissimilar components (the "Y axis") and segmentation or partitioning along similar components (the "Z axis").
 **3 Dimensions to Scaling**

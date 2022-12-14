@@ -7,7 +7,8 @@ Modified: 2021-10-25 22:56:10 +0500
 ---
 
 <https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial>
-**Hash Function**
+
+## Hash Function**
 
 A**hash function**is any[function](https://en.wikipedia.org/wiki/Function_(mathematics))that can be used to map[data](https://en.wikipedia.org/wiki/Data_(computing))of arbitrary size to data of fixed size. The values returned by a hash function are called*hash values*,*hash codes*,*digests*, or simply*hashes*. The values are used to index a fixed-size table called a*hash table*. Use of a hash function to index a hash table is called *hashing* or *scatter storage addressing*.
 **Consistent Hashing**
@@ -16,7 +17,8 @@ Consistent Hashing is a special kind of hashing such that when a hash table is r
 <https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf>
 
 <https://www.toptal.com/big-data/consistent-hashing>
-**Modular based hashing**
+
+## Modular based hashing**
 **Applications**
 -   **Associative arrays:** Hash tables are commonly used to implement many types of in-memory tables. They are used to implement associative arrays (arrays whose indices are arbitrary strings or other complicated objects).
 -   **Database indexing:** Hash tables may also be used as disk-based data structures and database indices (such as in dbm).
@@ -86,7 +88,8 @@ On what metric is the 2-choice algorithm better than the standard hashing algori
 
 The 2-choice algorithm is better on the metric of likelihood of overflowing the hash tables given a certain number of inserts into the hash table (equivalently, given a certain occupancy ratio). This is because the 2-choice algorithm explicitly favors the hash table location that has lower occupancy, which means that it is less likely to overflow an already full location in the hash table. The standard hashing algorithm, on the other hand, pays no attention to how occupied a location is.
 <https://en.wikipedia.org/wiki/2-choice_hashing>
-**2-left Hashing**
+
+## 2-left Hashing**
 
 A[dictionary](https://xlinux.nist.gov/dads/HTML/dictionary.html)implemented with two[hash tables](https://xlinux.nist.gov/dads/HTML/hashtab.html)of equal size, T1and T2, and two different[hash functions](https://xlinux.nist.gov/dads/HTML/hash.html), h1and h2. A new[key](https://xlinux.nist.gov/dads/HTML/key.html)is put in table 2 only if there are fewer (colliding) keys at T2[h2(key)] than at T1[h1(key)], otherwise it is put in table 1. With n keys and two tables of size n/2, the most collisions is 0.69... log2ln n +[O](https://xlinux.nist.gov/dads/HTML/bigOnotation.html)(1) with high probability.
 **Hash Table Implementations**
@@ -99,7 +102,8 @@ Hashing-based approximate[nearest neighbor search](https://en.wikipedia.org/wiki
 <https://en.wikipedia.org/wiki/Locality-sensitive_hashing>
 
 <https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134>
-**Further Reading**
+
+## Further Reading**
 -   Birthday Paradox
 -   Pigeonhole Principle
 <https://en.wikipedia.org/wiki/Hash_function>

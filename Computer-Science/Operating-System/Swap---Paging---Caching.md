@@ -48,12 +48,14 @@ Effective access time = m(for page table) + m(for particular page in page table)
 <https://www.geeksforgeeks.org/operating-system-paging>
 
 <https://en.wikipedia.org/wiki/Page_table>
-**Translation Lookaside Buffer (TLB)**
+
+## Translation Lookaside Buffer (TLB)**
 
 Atranslation lookaside buffer(TLB) is a memory[cache](https://en.wikipedia.org/wiki/CPU_cache)that is used to reduce the time taken to access a user memory location.It is a part of the chip's[memory-management unit](https://en.wikipedia.org/wiki/Memory_management_unit)(MMU). The TLB stores the recent translations of[virtual memory](https://en.wikipedia.org/wiki/Virtual_memory)to[physical memory](https://en.wikipedia.org/wiki/Physical_memory)and can be called an address-translation cache. A TLB may reside between the[CPU](https://en.wikipedia.org/wiki/Central_processing_unit)and the[CPU cache](https://en.wikipedia.org/wiki/CPU_cache), between CPU cache and the main memory or between the different levels of the multi-level cache. The majority of desktop, laptop, and server processors include one or more TLBs in the memory-management hardware, and it is nearly always present in any processor that utilizes[paged](https://en.wikipedia.org/wiki/Paging)or[segmented](https://en.wikipedia.org/wiki/Memory_segmentation)[virtual memory](https://en.wikipedia.org/wiki/Virtual_memory).
 The TLB is sometimes implemented as[content-addressable memory](https://en.wikipedia.org/wiki/Content-addressable_memory)(CAM). The CAM search key is the virtual address, and the search result is a[physical address](https://en.wikipedia.org/wiki/Physical_address). If the requested address is present in the TLB, the CAM search yields a match quickly and the retrieved physical address can be used to access memory. This is called a TLB hit. If the requested address is not in the TLB, it is a miss, and the translation proceeds by looking up the[page table](https://en.wikipedia.org/wiki/Page_table)in a process called apage walk. The page walk is time-consuming when compared to the processor speed, as it involves reading the contents of multiple memory locations and using them to compute the physical address. After the physical address is determined by the page walk, the virtual address to physical address mapping is entered into the TLB. The[PowerPC 604](https://en.wikipedia.org/wiki/PowerPC_604), for example, has a two-way[set-associative](https://en.wikipedia.org/wiki/Set-associative)TLB for data loads and stores.Some processors have different instruction and data address TLBs.
 <https://en.wikipedia.org/wiki/Translation_lookaside_buffer>
-**Page Table Entries**
+
+## Page Table Entries**
 
 Page table has page table entries where each page table entry stores a frame number and optional status (like protection) bits. Many of status bits used in the virtual memory system. The mostimportantthing in PTE isframe Number.
 Page table entry has the following information
@@ -73,7 +75,8 @@ Page table entry has the following information
 
 6.  **Modified bit --**Modified bit says whether the page has been modified or not. Modified means sometimes you might try to write something on to the page. If a page is modified, then whenever you should replace that page with some other page, then the modified information should be kept on the hard disk or it has to be written back or it has to be saved back. It is set to 1 by hardware on write-access to page which is used to avoid writing when swapped out. Sometimes this modified bit is also called as theDirty bit.
 <https://www.geeksforgeeks.org/operating-system-page-table-entries>
-**Swap**
+
+## Swap**
 
 A swap file (or swap space or, in Windows NT, a pagefile) is a space on a[hard disk](http://searchstorage.techtarget.com/definition/hard-disk)used as the[virtual memory](http://searchstorage.techtarget.com/definition/virtual-memory)extension of a computer's real memory ([RAM](http://searchstorage.techtarget.com/definition/RAM-random-access-memory)). Having a swap file allows your computer's[operating system](http://whatis.techtarget.com/definition/operating-system-OS)to pretend that you have more RAM than you actually do. The least recently used files in RAM can be "swapped out" to your hard disk until they are needed later so that new files can be "swapped in" to RAM. In larger operating systems (such as IBM's[OS/390](http://searchdatacenter.techtarget.com/definition/OS-390)), the units that are moved are calledpages and the swapping is calledpaging.
 One advantage of a swap file is that it can be organized as a single contiguous space so that fewer I/O operations are required to read or write a complete file.
@@ -94,7 +97,8 @@ Well Known Deterministic online paging algorithms -
 
 Adaptive Replacement Cache(ARC) is a[page replacement algorithm](https://en.wikipedia.org/wiki/Page_replacement_algorithm)with better performance than [LRU](https://en.wikipedia.org/wiki/Cache_algorithms) (least recently used). This is accomplished by keeping track of both frequently used and recently used pages plus a recent eviction history for both.
 <https://en.wikipedia.org/wiki/Adaptive_replacement_cache>
-**EC2 instances and Linux doesn't have swap**
+
+## EC2 instances and Linux doesn't have swap**
 
 | **Amount of physical RAM**                | **Recommended swap space**                     |
 |----------------------------------|--------------------------------------|
@@ -112,7 +116,8 @@ Adaptive Replacement Cache(ARC) is a[page replacement algorithm](https://en.wiki
 <https://www.kernel.org/doc/gorman/html/understand/understand014.html>
 
 <https://chrisdown.name/2018/01/02/in-defence-of-swap.html>
-**What's difference between CPU Cache and TLB?**
+
+## What's difference between CPU Cache and TLB?**
 
 Both CPU Cache and TLB are hardware used in microprocessors but what's the difference, especially when someone says that TLB is also a type of Cache?
 **CPU Cache**is a fast memory which is used to improve latency of fetching information from Main memory (RAM) to CPU registers. So CPU Cache sits between Main memory and CPU. And this cache stores information temporarily so that the next access to the same information is faster. A CPU cache which used to store executable instructions, it's called Instruction Cache (I-Cache). A CPU cache which is used to store data, it's called Data Cache (D-Cache). So I-Cache and D-Cache speeds up fetching time for instructions and data respectively. A modern processor contains both I-Cache and D-Cache. For completeness, let us discuss about D-cache hierarchy as well. D-Cache is typically organized in a hierarchy i.e. Level 1 data cache, Level 2 data cache etc.. It should be noted that L1 D-Cache is faster/smaller/costlier as compared to L2 D-Cache. But the basic idea of 'CPU cache' is to speed up instruction/data fetch time from Main memory to CPU.

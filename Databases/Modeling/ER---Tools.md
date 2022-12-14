@@ -27,7 +27,8 @@ Modified: 2022-01-27 23:19:24 +0500
 <https://sqldbm.com> (Best but too costly)
 
 <https://www.quickdatabasediagrams.com>
-**Oracle EBS docs (Oracle E-Business Suite)**
+
+## Oracle EBS docs (Oracle E-Business Suite)**
 
 Oracle E-Business Suite (EBS) applications technical documentation. EBS is an ERP application for enterprises with huge database (24 thousand tables). Its documentation is broken down to application (a module), each having its own document. Each document hasHigh Level Design and Detailed Design.
 High Level Design has a list of small diagrams each showing entities and relationships between them of one aspect/topic of the module. Diagrams only include primary key columns.

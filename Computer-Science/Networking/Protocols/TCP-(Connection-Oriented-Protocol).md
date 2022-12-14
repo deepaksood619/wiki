@@ -30,7 +30,8 @@ New Backoff algorithm for handling network congestion. Great for clients working
 
 Only needed to set a flag on server, Client doesn't need to be updated
 <https://medium.com/google-cloud/tcp-bbr-magic-dust-for-network-performance-57a5f1ccf437>
-**Additive increase/multiplicative decrease (AIMD)**
+
+## Additive increase/multiplicative decrease (AIMD)**
 
 Theadditive-increase/multiplicative-decrease(AIMD) algorithm is a feedback control algorithm best known for its use in[TCP congestion control](https://en.wikipedia.org/wiki/TCP_congestion_control). AIMD combines linear growth of the congestion window with an exponential reduction when congestion is detected. Multiple flows using AIMD congestion control will eventually converge to use equal amounts of a shared link.The related schemes of multiplicative-increase/multiplicative-decrease (MIMD) and additive-increase/additive-decrease (AIAD) do not reach[stability](https://en.wikipedia.org/wiki/Stability_theory).
 <https://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease>
@@ -44,7 +45,8 @@ The absolute limitation onTCPpacketsizeis 64K (65535 bytes), but in practicality
 Maximum transmission unit is the maximum size of a packet or frame that can flow across the network, without being fragmented. For Ethernet networks, the maximum MTU value is 1500 bytes.
 Path MTU Discovery(PMTUD) is a standardized technique in[computer networking](https://en.wikipedia.org/wiki/Computer_networking) for determining the[maximum transmission unit (MTU)](https://en.wikipedia.org/wiki/Maximum_transmission_unit)size on the network path between two Internet Protocol (IP) hosts, usually with the goal of avoiding[IP fragmentation](https://en.wikipedia.org/wiki/IP_fragmentation). PMTUD was originally intended for routers in[Internet Protocol Version 4](https://en.wikipedia.org/wiki/IPv4)(IPv4).However, all modern operating systems use it on endpoints. In[IPv6](https://en.wikipedia.org/wiki/IPv6), this function has been explicitly delegated to the end points of a communications session.
 <https://en.wikipedia.org/wiki/Path_MTU_Discovery>
-**MSS (Maximum Segment Size)**
+
+## MSS (Maximum Segment Size)**
 
 Maximum segment size is the maximum TCP datagram size. It represents the maximum payload size an endpoint is willing to accept within a single packet. Maximum MSS value is 1460 bytes. The MSS, IP header and TCP header, together make up the MTU value. That is, 1500 MTU = 1460 byte MSS + 20 byte IP header + 20 byte TCP header. Said another way, MSS = MTU --- 40.
 ![20 bytes IP header 20 bytes TCP header MTU 1460 bytes TCP Payload MSS ](media/TCP-(Connection-Oriented-Protocol)-image2.png)
@@ -98,7 +100,8 @@ Contains 9 1-bit flags
 <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>
 
 <https://medium.com/walmartlabs/how-tcp-segment-size-can-affect-application-traffic-flow-7bbceed5816e>
-**TCP Handshake (3-way handshake) (Positive Acknowledgement with Re-transmission / PAR)**
+
+## TCP Handshake (3-way handshake) (Positive Acknowledgement with Re-transmission / PAR)**
 
 A three-way handshake is a method used in a TCP/IP network to create a connection between a local host/client and server. It is a three-step method that requires both the client and server to exchange SYN and ACK (acknowledgment) packets before actual data communication begins.
 Now a device using PAR resend the data unit until it receives an acknowledgement. If the data unit received at the receiver's end is damaged(It checks the data with checksum functionality of the transport layer that is used for Error Detection), then receiver discards the segment. So the sender has to resend the data unit for which positive acknowledgement is not received.
@@ -110,7 +113,8 @@ Now a device using PAR resend the data unit until it receives an acknowledgement
 The steps 1, 2 establish the connection parameter (sequence number) for one direction and it is acknowledged. The steps 2, 3 establish the connection parameter (sequence number) for the other direction and it is acknowledged. With these, a full-duplex communication is established.
 Initial sequence numbers are randomly selected while establishing connections between client and server.
 <https://www.geeksforgeeks.org/tcp-3-way-handshake-process>
-**TCP Connection Termination**
+
+## TCP Connection Termination**
 
 ![11](media/TCP-(Connection-Oriented-Protocol)-image6.png)
 
@@ -131,7 +135,8 @@ TCP states visited by ServerSide --
 
 ![Sewer application creates a listen socket Closed RCV ACK, Send nothin AST A Receive SYN & send send FIN SYN & ACK Receive ACK, send nothin Established Receive FIN, send ACK Fig TCP states visited by a client TCP ](media/TCP-(Connection-Oriented-Protocol)-image8.png)
 <https://www.geeksforgeeks.org/tcp-connection-termination>
-**Problems**
+
+## Problems**
 -   **Head of line blocking**
 
 The role of TCP is to deliver the entire stream of bytes, in the correct order, from one endpoint to the other. When a TCP packet carrying some of those bytes is lost on the network path, it creates a gap in the stream and TCP needs to fill it by resending the affected packet when the loss is detected. While doing so, none of the successfully delivered bytes that follow the lost ones can be delivered to the application, even if they were not themselves lost and belong to a completely independent HTTP request. So they end up getting unnecessarily delayed as TCP cannot know whether the application would be able to process them without the missing bits. This problem is known as "head-of-line blocking".
@@ -150,7 +155,8 @@ Available PEP implementations use different methods to enhance performance.
 -   Snoop
 -   D-proxy
 <https://en.wikipedia.org/wiki/Performance-enhancing_proxy>
-**TCP Split**
+
+## TCP Split**
 
 TCP splitting uses a performance enhancing proxy access node that divides the end-to-end TCP connection between the client and the server into a multi-overlay-hop path where each overlay hop is an independent TCP connection, such that the RTT of each overlay hop is lower than the direct RTT between A and B. Each hop's throughput is governed by that hop's RTT and is individually higher than the direct throughput between A and B.
 But performance issues can arise due to the interaction among path segments and different layers for any particular solution. For example, in TCP Splitting, the intermediate node (the spoofer) sends back a spoofing ACK packet to the TCP sender immediately upon receiving a TCP data packet instead of waiting for the ACK from the final TCP destination.

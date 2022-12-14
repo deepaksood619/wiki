@@ -118,7 +118,8 @@ These can be registered for services with theIANAand should be treated assemi-re
 
 These are used byclient programsand you are free to use these in client programs. When a Web browser connects to a web server the browser will allocate itself a port in this range. Also known asephemeral ports.
 <https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers>
-**Network behavior**
+
+## Network behavior**
 
 [Transport layer](https://en.wikipedia.org/wiki/Transport_layer)protocols, such as the[Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)(TCP) and the[User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP), transfer data using[protocol data units](https://en.wikipedia.org/wiki/Protocol_data_unit)(PDUs). For TCP, the PDU is a[segment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure), and a[datagram](https://en.wikipedia.org/wiki/Datagram)for UDP. Both protocols use a[header](https://en.wikipedia.org/wiki/Header_(computing))field for recording the source and destination port number. The port numbers are encoded in the transport protocol[packet header](https://en.wikipedia.org/wiki/Packet_header), and they can be readily interpreted not only by the sending and receiving computers, but also by other components of the networking infrastructure. In particular,[firewalls](https://en.wikipedia.org/wiki/Firewall_(networking))are commonly configured to differentiate between packets based on their source or destination port numbers.[Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding)is an example application of this.
 **Port scanning**

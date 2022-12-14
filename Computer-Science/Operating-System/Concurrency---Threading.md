@@ -70,7 +70,8 @@ The Kernel maintains context information for the process as a whole and for indi
 | IO             | Network connection, file operation | Multithreading    |
 | CPU            | Complex math problem, search       | Multiprocessing   |
 <https://zacs.site/blog/linear-python.html>
-**Are Threads Lighter than Processes**
+
+## Are Threads Lighter than Processes**
 
 Yes and No.
 In concept,
@@ -176,7 +177,8 @@ Semaphores are signalling mechanisms which can allow one or more threads/process
 
 Some semaphores would allow only one thread or process in the code section. Such Semaphores are called binary semaphore and are very similar to Mutex. Here, if the value of semaphore is 1, the thread is allowed to access and if the value is 0, the access is denied.
 <https://en.wikipedia.org/wiki/Synchronization_(computer_science)>
-**Hyper - Threading Technology (HTT)**
+
+## Hyper - Threading Technology (HTT)**
 
 Hyper-threading(officially calledHyper-Threading TechnologyorHT Technologyand abbreviated asHTTorHT) is[Intel's](https://en.wikipedia.org/wiki/Intel)[proprietary](https://en.wikipedia.org/wiki/Proprietary_hardware)[simultaneous multithreading](https://en.wikipedia.org/wiki/Simultaneous_multithreading)(SMT) implementation used to improve[parallelization](https://en.wikipedia.org/wiki/Parallel_computation)of computations (doing multiple tasks at once) performed on[x86](https://en.wikipedia.org/wiki/X86)microprocessors. It first appeared in February 2002 on[Xeon](https://en.wikipedia.org/wiki/Xeon)server[processors](https://en.wikipedia.org/wiki/Central_processing_unit)and in November 2002 on[Pentium4](https://en.wikipedia.org/wiki/Pentium_4)desktop CPUs.Later, Intel included this technology in[Itanium](https://en.wikipedia.org/wiki/Itanium),[Atom](https://en.wikipedia.org/wiki/Intel_Atom), and[Core 'i' Series](https://en.wikipedia.org/wiki/Intel_Core)CPUs, among others.
 For each[processor core](https://en.wikipedia.org/wiki/Processor_core)that is physically present, the[operating system](https://en.wikipedia.org/wiki/Operating_system)addresses two virtual (logical) cores and shares the workload between them when possible. The main function of hyper-threading is to increase the number of independent instructions in the pipeline; it takes advantage of[superscalar](https://en.wikipedia.org/wiki/Superscalar_processor)architecture, in which multiple instructions operate on separate data[in parallel](https://en.wikipedia.org/wiki/Parallel_computing). With HTT, one physical core appears as two processors to the operating system, allowing[concurrent](https://en.wikipedia.org/wiki/Concurrent_computing)scheduling of two processes per core. In addition, two or more processes can use the same resources: If resources for one process are not available, then another process can continue if its resources are available.
@@ -193,7 +195,8 @@ __sync_bool_compare_and_swap(&M, 20, 30)
 
 __sync_bool_compare_and_swap(Address, Compare Value, New Value)
 <https://en.wikipedia.org/wiki/Compare-and-swap>
-**See also -**
+
+## See also -**
 
 Python > Advanced > Concurrency
 **References**

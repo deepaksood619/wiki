@@ -44,7 +44,8 @@ Cobar is a proxy for sharding databases and tables,compatible with MySQL protoco
 -   **Compatible with MySQL protocol:**Use Cobar as MySQL. You can replace MySQL with Cobar to power your application.
 
 <https://github.com/alibaba/cobar>
-**InnoDB**
+
+## InnoDB**
 
 **InnoDB**is a[storage engine](https://en.wikipedia.org/wiki/Database_engine)for the[database management system](https://en.wikipedia.org/wiki/Database_management_system)[MySQL](https://en.wikipedia.org/wiki/MySQL). Since the release of MySQL 5.5.5 in 2010, it replaced[MyISAM](https://en.wikipedia.org/wiki/MyISAM)as MySQL's default table type.^[[1]](https://en.wikipedia.org/wiki/InnoDB#cite_note-1)[[2]](https://en.wikipedia.org/wiki/InnoDB#cite_note-2)^It provides the standard[ACID](https://en.wikipedia.org/wiki/ACID)-compliant[transaction](https://en.wikipedia.org/wiki/Database_transaction)features, along with[foreign key](https://en.wikipedia.org/wiki/Foreign_key)support ([Declarative Referential Integrity](https://en.wikipedia.org/wiki/Declarative_Referential_Integrity)). It is included as standard in most[binaries](https://en.wikipedia.org/wiki/Binaries)distributed by[MySQL AB](https://en.wikipedia.org/wiki/MySQL_AB), the exception being some[OEM](https://en.wikipedia.org/wiki/Original_equipment_manufacturer)versions.
 **mariadb**
@@ -66,7 +67,8 @@ MySQL 8.0 brought enormous changes and modifications that were pushed by the Ora
 -   Resource Groups
     -   <https://dev.mysql.com/doc/refman/5.7/en/user-resources.html>
     -   <https://dzone.com/articles/mysql-8-load-fine-tuning-with-resource-groups>
-**Important**
+
+## Important**
 -   Removed Query Cache
 -   Dual Passwords
 **Resources**

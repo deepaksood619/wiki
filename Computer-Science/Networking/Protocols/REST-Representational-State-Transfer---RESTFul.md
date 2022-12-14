@@ -111,7 +111,8 @@ followed by thecustomersdata requested inapplication/json format.
 | DELETE          | Yes            | No       |
 | PATCH           | No             | No       |
 <https://www.codecademy.com/articles/what-is-rest>
-**Form content types**
+
+## Form content types**
 
 1.  **application/x-www-form-urlencoded**
 
@@ -135,7 +136,8 @@ A raw request can contain anything. Postman doesn't touch the string entered in 
 
 binary data allows you to send things which you can not enter in Postman. For example, image, audio or video files. You can send text files as well. As mentioned earlier in the form-data section, you would have to reattach a file if you are loading a request through the history or the collection.
 <http://restcookbook.com>
-**Six Contraints**
+
+## Six Contraints**
 -   Uniform Interface
 -   Stateless
 -   Client-server
@@ -204,7 +206,8 @@ binary data allows you to send things which you can not enter in Postman. For ex
     -   Portability
     -   Reliability
 <https://www.restapitutorial.com/lessons/whatisrest.html>
-**Best Practices**
+
+## Best Practices**
 
 Producing a great API is 80% art and 20% science. Creating a URL hierarchy representing sensible resources is the art part. Having sensible resource names (which are just URL paths, such as /customers/12345/orders) improves the clarity of what a given request does.
 Appropriate resource names provide context for a service request, increasing understandability of the API. Resources are viewed hierarchically via their URI names, offering consumers a friendly, easily-understood hierarchy of resources to leverage in their applications.
@@ -224,14 +227,17 @@ Here are some quick-hit rules for URL path (resource name) design:
 <https://www.restapitutorial.com/lessons/restquicktips.html>
 
 <https://www.restapitutorial.com/lessons/restfulresourcenaming.html>
-**API Authentication**
+
+## API Authentication**
 
 <https://medium.com/data-rebels/fastapi-authentication-revisited-enabling-api-key-authentication-122dc5975680>
-**Others**
+
+## Others**
 
 HATEOAS (Hypermedia As The Engine Of Application State, is a constraint of the REST application architecture that distinguishes it from most other network application architectures. The principle is that a client interacts with a network application entirely through hypermedia provided dynamically by application servers)
 <http://restcookbook.com/Basics/hateoas>
-**References**
+
+## References**
 
 <https://medium.com/@liran.tal/a-comprehensive-guide-to-contract-testing-apis-in-a-service-oriented-architecture-5695ccf9ac5a>
 <https://blog.feathersjs.com/design-patterns-for-modern-web-apis-1f046635215>

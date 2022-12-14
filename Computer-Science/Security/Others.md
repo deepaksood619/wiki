@@ -21,7 +21,8 @@ Hidden Wiki - <http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page>
 <https://en.wikipedia.org/wiki/Tor_(anonymity_network)>
 
 <https://skerritt.blog/designing-effective-peer-to-peer-networks>
-**steganography**
+
+## steganography**
 
 Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. The wordsteganographycombines the[Greek](https://en.wikipedia.org/wiki/Greek_language)wordssteganos([στεγανός](https://en.wiktionary.org/wiki/%CF%83%CF%84%CE%B5%CE%B3%CE%B1%CE%BD%CF%8C%CF%82#Greek)), meaning "covered, concealed, or protected", andgraphein([γράφειν](https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%AC%CF%86%CE%B5%CE%B9%CE%BD#Greek)) meaning "writing".
 <https://en.wikipedia.org/wiki/Steganography>
@@ -29,7 +30,8 @@ Steganography is the practice of concealing a file, message, image, or video wit
 <https://www.boxentriq.com/code-breaking>
 
 <https://29a.ch/photo-forensics>
-**stegosploit**
+
+## stegosploit**
 
 Stegosploit creates a new way to encode "drive-by" browser exploits and deliver them through image files. These payloads are undetectable using current means. This paper discusses two broad underlying techniques used for image based exploit delivery - Steganography and Polyglots. Drive-by browser exploits are steganographically encoded into JPG and PNG images. The resultant image file is fused with HTML and Javascript decoder code, turning it into an HTML+Image polyglot. The polyglot looks and feels like an image, but is decoded and triggered in a victim's browser when loaded.
 [https://stegosploit.info](https://stegosploit.info/)
@@ -41,7 +43,8 @@ Stegosploit creates a new way to encode "drive-by" browser exploits and deliver 
 <https://picoctf.org>
 
 **CMDCTRL -** <https://cmdnctrl.net>
-**NT (New Technology) LAN Manager(NTLM)**
+
+## NT (New Technology) LAN Manager(NTLM)**
 
 In a[Windows](https://www.wikiwand.com/en/Microsoft_Windows)network,**NT (New Technology) LAN Manager(NTLM)** is a suite of[Microsoft](https://www.wikiwand.com/en/Microsoft)security protocols intended to provide authentication, integrity, and confidentiality to users.NTLM is the successor to the authentication protocol in Microsoft[LAN Manager](https://www.wikiwand.com/en/LAN_Manager)(LANMAN), an older Microsoft product. The NTLM protocol suite is implemented in a[Security Support Provider](https://www.wikiwand.com/en/SSPI#Windows_SSPs), which combines the[LAN Manager](https://www.wikiwand.com/en/LAN_Manager) authentication protocol, NTLMv1, NTLMv2 and NTLM2 Session protocols in a single package. Whether these protocols are used or can be used on a system is governed by[Group Policy](https://www.wikiwand.com/en/Group_Policy)settings, for which different versions of Windows have different default settings. NTLM passwords are considered weak because they can be brute-forced very easily with modern hardware.
 **Zero Knowledge Proofs**
@@ -49,6 +52,7 @@ In a[Windows](https://www.wikiwand.com/en/Microsoft_Windows)network,**NT (New Te
 What if the average developer could benefit from proofs of computational integrity (CI) that would normally require an in-depth knowledge of cryptography to implement?
 **CI proofs, of which zero-knowledge proofs (ZKPs)** are a subset, are a cryptographic technology that let you do seemingly impossible things. For example, you can run a computation and get some result. You can then use a CI proof to convince anyone that you did the computation correctly without their having to rerun the computation themselves.And they can verify this correctness in just a few milliseconds, regardless of how complex or long-running the original computation was.
 <https://engineering.fb.com/2021/08/04/open-source/winterfell>
-**Others**
+
+## Others**
 
 <https://www.freecodecamp.org/news/what-is-devsecops>

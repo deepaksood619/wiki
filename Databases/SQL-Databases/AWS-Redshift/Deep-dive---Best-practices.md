@@ -9,7 +9,8 @@ Modified: 2022-12-02 09:41:04 +0500
 **Insert performance**
 
 <https://stackoverflow.com/questions/16485425/aws-redshift-jdbc-insert-performance>
-**Optimizations / Best practices**
+
+## Optimizations / Best practices**
 
 <https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-redshift-announces-automatic-table-optimization>
 
@@ -23,7 +24,8 @@ Modified: 2022-12-02 09:41:04 +0500
 <https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-techniques-for-amazon-redshift>
 
 <https://aws.amazon.com/blogs/big-data/amazon-redshift-engineerings-advanced-table-design-playbook-preamble-prerequisites-and-prioritization>
-**Data storage, ingestion and ELT**
+
+## Data storage, ingestion and ELT**
 -   **Redundancy**
 
 Amazon Redshift utilizes locally attached storage devices
@@ -210,12 +212,14 @@ The COPY command loads data into Amazon Redshift tables from either data files o
     -   In contrast, when you load delimited data from a large, uncompressed file, Amazon Redshift makes use of multiple slices. These slices work in parallel, automatically. This provides fast load performance. Specifically, when Amazon Redshift loads uncompressed, delimited data, data is split into ranges and handled by slices in each node.
     -   If you intend to load data from a large, compressed file, we recommend that you split your data into smaller files that are about equal size, from 1 MB to 1 GB after compression. For optimum parallelism, the ideal file size is 1--125 MB after compression. Make the number of files a multiple of the number of slices in your cluster.
 <https://docs.aws.amazon.com/redshift/latest/dg/c_loading-data-best-practices.html>
-**Copy Job**
+
+## Copy Job**
 
 Automatically loads the new files detected in the specified Amazon S3 path
 
 <https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-supports-auto-copy-amazon-s3>
-**AWS Glue**
+
+## AWS Glue**
 **Redshift ETL Best Practices**
 
 1.  While using the COPY command of Redshift, it is always better to use it on multiple source files rather than one big file. This helps in parallelly loading them and can save a lot of time. Using a manifest file is recommended in case of loading from multiple files.

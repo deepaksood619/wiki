@@ -103,7 +103,8 @@ maxmemory-policy
 **CONFIG SET auto-aof-rewrite-percentage 50**
 
 <https://www.oreilly.com/library/view/redis-4x-cookbook/9781783988167/64284aa9-a324-4383-b9f4-9db3ae95ffb4.xhtml>
-**DDL**
+
+## DDL**
 
 # -n for setting database
 

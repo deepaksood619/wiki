@@ -33,7 +33,8 @@ When a user sets their password (often on signing up), a random salt should be g
 Without going into too much detail, hackers commonly use[rainbow table attacks](https://www.geeksforgeeks.org/understanding-rainbow-table-attack/),[dictionary attacks](https://en.wikipedia.org/wiki/Dictionary_attack), and[brute-force attacks](http://www.tenminutetutor.com/data-formats/cryptography/attacks-on-hash-algorithms/)to try and crack password hashes. While hackers can't compute the original password given only a hash, they can take a long list of possible passwords and compute hashes for them to try and match them with the passwords in the database. This is effectively how these types of attacks work, although each of the above works somewhat differently.
 A salt makes it much more difficult for hackers to perform these types of attacks. Depending on the hash function, salted hashes take nearly exponentially more time to crack than unsalted ones. They also make rainbow table attacks nearly impossible. It's therefore important to always use salts in your hashes.
 <https://dev.to/kmistele/how-to-securely-hash-and-store-passwords-in-your-next-application-4e2f>
-**Key derivation function**
+
+## Key derivation function**
 
 In[cryptography](https://en.wikipedia.org/wiki/Cryptography), akey derivation function(KDF) is a[cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)that derives one or more[secret keys](https://en.wikipedia.org/wiki/Key_(cryptography))from a secret value such as a main key, a[password](https://en.wikipedia.org/wiki/Password), or a[passphrase](https://en.wikipedia.org/wiki/Passphrase)using a [pseudorandom function](https://en.wikipedia.org/wiki/Pseudorandom_function). KDFs can be used to stretch keys into longer keys or to obtain keys of a required format, such as converting a group element that is the result of a[Diffie--Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)into a symmetric key for use with[AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).[Keyed cryptographic hash functions](https://en.wikipedia.org/wiki/HMAC)are popular examples of pseudorandom functions used for key derivation.
 There are many forms of KDF's, and not all functions used as KDF are explicitly named as KDF's. For instance, the KDF of TLS is simply called "the PRF" for Pseudo-Random-Functions, which is a much more generic term.
@@ -65,7 +66,8 @@ Warning - ConcatKDFHash should not be used for password storage.-   KBKDF
 <https://en.wikipedia.org/wiki/Key_derivation_function>
 
 <https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions>
-**Cryptographic Hash Functions**
+
+## Cryptographic Hash Functions**
 -   MD5
 
 Was commonly used for password hashing, but now considered insecure for cryptographic purposes due to some vulnerabilities that were discovered in it

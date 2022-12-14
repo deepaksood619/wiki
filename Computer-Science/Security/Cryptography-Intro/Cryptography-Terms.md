@@ -38,13 +38,15 @@ Modified: 2021-10-25 23:02:01 +0500
 
 In[cryptography](https://en.wikipedia.org/wiki/Cryptography), asemantically secure[cryptosystem](https://en.wikipedia.org/wiki/Cryptosystem)is one where only negligible information about the[plaintext](https://en.wikipedia.org/wiki/Plaintext)can be feasibly extracted from the[ciphertext](https://en.wikipedia.org/wiki/Ciphertext). Specifically, any[probabilistic, polynomial-time algorithm](https://en.wikipedia.org/wiki/PP_(complexity))(PPTA) that is given the ciphertext of a certain messagem (taken from any distribution of messages), and the message's length, cannot determine any partial information on the message with probability[non-negligibly](https://en.wikipedia.org/wiki/Negligible_function)higher than all other PPTA's that only have access to the message length (and not the ciphertext).This concept is the computational complexity analogue to[Shannon's](https://en.wikipedia.org/wiki/Claude_Shannon)concept of[perfect secrecy](https://en.wikipedia.org/wiki/Perfect_secrecy). Perfect secrecy means that the ciphertext reveals no information at all about the plaintext, whereas semantic security implies that any information revealed cannot be feasibly extracted.
 <https://en.wikipedia.org/wiki/Semantic_security>
-**Forward Secrecy**
+
+## Forward Secrecy**
 
 In cryptography,**forward secrecy(FS), also known asperfect forward secrecy(PFS)**, is a feature of specific key agreement protocols that gives assurances that session keys will not be compromised even if the private key of the server is compromised.Forward secrecy protects past sessions against future compromises of secret keys or passwords.By generating a unique session key for every session a user initiates, the compromise of a single session key will not affect any data other than that exchanged in the specific session protected by that particular key.
 Forward secrecy further protects data on the transport layer of a network that uses common SSL/TLS protocols, including[OpenSSL](https://en.wikipedia.org/wiki/OpenSSL), which had previously been affected by the [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) security bug. If forward secrecy is used, encrypted communications and sessions recorded in the past cannot be retrieved and decrypted should long-term secret keys or passwords be compromised in the future, even if the adversary actively interfered, for example via a[man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
 The value of forward secrecy depends on the assumed capabilities of an adversary. Forward secrecy has value if an adversary is assumed to be able to obtain secret keys from a device (READ access) but not modify the way keys are generated in a device (WRITE access). In some cases an adversary who can read keys from a device may also be able to modify the functioning of the session key generator. In these cases forward secrecy has no value.
 <https://en.wikipedia.org/wiki/Forward_secrecy>
-**Envelope Encryption**
+
+## Envelope Encryption**
 
 Envelope encryption is the practice of encrypting data with a data encryption key (DEK) and then encrypting the DEK with a root key that you can fully manage.
 Envelope Encryption is an approach/process used within many applications to encrypt data. Using this approach your data is protected two-fold.
@@ -89,7 +91,8 @@ The only secret in a properly designed crypto system is the key (and obviously t
 
 <https://stackoverflow.com/questions/38059749/handling-transfer-of-iv-initialization-vectors>
 <https://en.wikipedia.org/wiki/Initialization_vector>
-**MAC (Message Authentication Code)**
+
+## MAC (Message Authentication Code)**
 
 In[cryptography](https://en.wikipedia.org/wiki/Cryptography), a**message authentication code**(**MAC**), sometimes known as a*tag*, is a short piece of information used to[authenticate a message](https://en.wikipedia.org/wiki/Message_authentication)---in other words, to confirm that the message came from the stated sender (its authenticity) and has not been changed. The MAC value protects both a message's[data integrity](https://en.wikipedia.org/wiki/Data_integrity)as well as its[authenticity](https://en.wikipedia.org/wiki/Message_authentication), by allowing verifiers (who also possess the secret key) to detect any changes to the message content.
 Informally, a message authentication code consists of three algorithms:
@@ -97,7 +100,8 @@ Informally, a message authentication code consists of three algorithms:
 -   A signing algorithm efficiently returns a tag given the key and the message.
 -   A verifying algorithm efficiently verifies the authenticity of the message given the key and the tag. That is, return*accepted*when the message and tag are not tampered with or forged, and otherwise return*rejected*
 <https://en.wikipedia.org/wiki/Message_authentication_code>
-**Message Integrity Codes (MIC) / MACs (Message Authentication Code)**
+
+## Message Integrity Codes (MIC) / MACs (Message Authentication Code)**
 -   Attacks
     -   Existential Forgery
     -   Selective Forgery

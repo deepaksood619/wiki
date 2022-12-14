@@ -100,7 +100,8 @@ MOV EAX,04
 -   **Register Indirect Addressing**
 -   **Indexed Addressing**
 <https://www.i-programmer.info/babbages-bag/150.html>
-**Branch Predictor**
+
+## Branch Predictor**
 
 In[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture), a**branch predictor**^[[1]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-dbp-class-report-1)[[2]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-schemes-and-performances-2)[[3]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-3)[[4]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-4)[[5]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-5)^is a[digital circuit](https://en.wikipedia.org/wiki/Digital_electronics)that tries to guess which way a[branch](https://en.wikipedia.org/wiki/Branch_(computer_science))(e.g. an[if--then--else structure](https://en.wikipedia.org/wiki/Conditional_(programming))) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the[instruction pipeline](https://en.wikipedia.org/wiki/Instruction_pipeline). Branch predictors play a critical role in achieving high effective[performance](https://en.wikipedia.org/wiki/Computer_performance)in many modern[pipelined](https://en.wikipedia.org/wiki/Pipeline_(computing))[microprocessor](https://en.wikipedia.org/wiki/Microprocessor)architectures[^[6]^](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-BPdynSurvey-6)such as[x86](https://en.wikipedia.org/wiki/X86).
 
@@ -132,13 +133,15 @@ Branch prediction is not the same as[branch target prediction](https://en.wikipe
 -   [1.15 Overriding branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Overriding_branch_prediction)
 -   [1.16 Neural branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Neural_branch_prediction)
 <https://en.wikipedia.org/wiki/Branch_predictor>
-**Application Binary Interface (ABI)**
+
+## Application Binary Interface (ABI)**
 
 In[computer software](https://en.wikipedia.org/wiki/Computer_software), anapplication binary interface(ABI) is an[interface](https://en.wikipedia.org/wiki/Interface_(computing))between two binary program modules; often, one of these modules is a[library](https://en.wikipedia.org/wiki/Library_(computing))or[operating system](https://en.wikipedia.org/wiki/Operating_system)facility, and the other is a program that is being run by a user.
 AnABIdefines how data structures or computational routines are accessed in[machine code](https://en.wikipedia.org/wiki/Machine_code), which is a low-level, hardware-dependent format; in contrast, an[API](https://en.wikipedia.org/wiki/Application_programming_interface)defines this access in[source code](https://en.wikipedia.org/wiki/Source_code), which is a relatively high-level, hardware-independent, often[human-readable](https://en.wikipedia.org/wiki/Human-readable)format. A common aspect of an ABI is the[calling convention](https://en.wikipedia.org/wiki/Calling_convention), which determines how data is provided as input to or read as output from computational routines; examples are the[x86 calling conventions](https://en.wikipedia.org/wiki/X86_calling_conventions).
 Adhering to an ABI (which may or may not be officially standardized) is usually the job of a[compiler](https://en.wikipedia.org/wiki/Compiler), operating system, or library author; however, an application programmer may have to deal with an ABI directly when writing a program in a mix of programming languages, which can be achieved by using[foreign function calls](https://en.wikipedia.org/wiki/Foreign_function_call).
 <https://en.wikipedia.org/wiki/Application_binary_interface>
-**ELF (Executable and Linkable Format)**
+
+## ELF (Executable and Linkable Format)**
 
 In[computing](https://en.wikipedia.org/wiki/Computing), theExecutable and Linkable Format(ELF, formerly namedExtensible Linking Format), is a common standard[file format](https://en.wikipedia.org/wiki/File_format)for[executable](https://en.wikipedia.org/wiki/Executable)files,[object code](https://en.wikipedia.org/wiki/Object_code),[shared libraries](https://en.wikipedia.org/wiki/Library_(computing)), and[core dumps](https://en.wikipedia.org/wiki/Core_dump). First published in the specification for the[application binary interface](https://en.wikipedia.org/wiki/Application_binary_interface)(ABI) of the[Unix](https://en.wikipedia.org/wiki/Unix) operating system version named[System V Release 4](https://en.wikipedia.org/wiki/System_V_Release_4) (SVR4), and later in the Tool Interface Standard,it was quickly accepted among different vendors of[Unix](https://en.wikipedia.org/wiki/Unix)systems. In 1999, it was chosen as the standard binary file format for Unix and[Unix-like](https://en.wikipedia.org/wiki/Unix-like)systems on[x86](https://en.wikipedia.org/wiki/X86)processors by the[86open](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format#86open) project.
 By design, the ELF format is flexible, extensible, and[cross-platform](https://en.wikipedia.org/wiki/Cross-platform). For instance it supports different endiannesses and address sizes so it does not exclude any particular [central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit) (CPU) or[instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture). This has allowed it to be adopted by many different[operating systems](https://en.wikipedia.org/wiki/Operating_system)on many different hardware [platforms](https://en.wikipedia.org/wiki/Computing_platform)
@@ -158,7 +161,8 @@ Each ELF file is made up of one ELF header, followed by file data. The data can 
 <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
 
 <https://www.thegeekstuff.com/2012/07/elf-object-file-format>
-**Von Neumann Architecture**
+
+## Von Neumann Architecture**
 
 Thevon Neumann architecture---also known as thevon Neumann modelorPrinceton architecture---is a[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture)based on a 1945 description by[John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)and others in the[First Draft of a Report on the EDVAC](https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC). That document describes a design architecture for an electronic[digital computer](https://en.wikipedia.org/wiki/Digital_computer)with these components:
 -   A[processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)that contains an[arithmetic logic unit](https://en.wikipedia.org/wiki/Arithmetic_logic_unit)and[processor registers](https://en.wikipedia.org/wiki/Processor_register)

@@ -128,7 +128,8 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 <http://druid.io/docs/latest/development/extensions-core/kafka-ingestion.html>
 
 <http://druid.io/docs/latest/tutorials/tutorial-kafka.html>
-**Kafka Indexing Service - Exactly once ingestion**
+
+## Kafka Indexing Service - Exactly once ingestion**
 
 <https://imply.io/post/exactly-once-streaming-ingestion>
 
@@ -145,7 +146,8 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 <https://medium.com/@leventov/the-challenges-of-running-druid-at-large-scale-and-future-directions-part-2-ef594ce298f2>
 <https://druid.apache.org/docs/latest/ingestion/data-management.html>
 <https://imply.io/druid-university/intro-to-druid-university>
-**Imply Druid**
+
+## Imply Druid**
 -   tiered data
 -   data volumes-   Plywood
     -   queries

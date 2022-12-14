@@ -103,11 +103,13 @@ With a non clustered index there is a second list that has pointers to the physi
 It is generally faster to read from a clustered index if you want to get back all the columns. You do not have to go first to the index and then to the table.
 Writing to a table with a clustered index can be slower, if there is a need to rearrange the data.
 <https://stackoverflow.com/questions/1251636/what-do-clustered-and-non-clustered-index-actually-mean>
-**KEY** is the synonym for INDEX . You use the KEY when you want to create an index for a column or a set of columns that is not the part of aprimary keyorunique key. AUNIQUEindex ensures that values in a column must beunique. Unlike the PRIMARY index, MySQL allows NULL values in theUNIQUEindex.
+
+## KEY** is the synonym for INDEX . You use the KEY when you want to create an index for a column or a set of columns that is not the part of aprimary keyorunique key. AUNIQUEindex ensures that values in a column must beunique. Unlike the PRIMARY index, MySQL allows NULL values in theUNIQUEindex.
 
 Key is synonymous to an index. If you want to create an index for a column, then use 'Key'.
 <https://www.mysqltutorial.org/mysql-primary-key>
-**Cardinality**
+
+## Cardinality**
 
 Index cardinality refers to the uniqueness of values stored in a specified column within an index.
 MySQL generates the index cardinality based on statistics stored as integers, therefore, the value may not be necessarily exact.

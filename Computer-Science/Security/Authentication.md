@@ -38,12 +38,14 @@ The BA mechanism does not provide[confidentiality](https://www.wikiwand.com/en/I
 Because the BA field has to be sent in the header of each HTTP request, the web browser needs to[cache](https://www.wikiwand.com/en/Cache_(computing))credentials for a reasonable period of time to avoid constantly prompting the user for their username and password. Caching policy differs between browsers.
 This is the simplest to implement and for some implementations can work well, however it requires transport level encryption as the user name and password are presented with ever request.
 <https://www.wikiwand.com/en/Basic_access_authentication>
-**Digest Access Authentication**
+
+## Digest Access Authentication**
 
 Digest access authenticationis one of the agreed-upon methods a[web server](https://www.wikiwand.com/en/Web_server)can use to negotiate credentials, such as username or password, with a user's[web browser](https://www.wikiwand.com/en/Web_browser). This can be used to confirm the identity of a user before sending sensitive information, such as online banking transaction history. It applies a[hash function](https://www.wikiwand.com/en/Hash_function)to the username and[password](https://www.wikiwand.com/en/Password)before sending them over the network. In contrast,[basic access authentication](https://www.wikiwand.com/en/Basic_access_authentication)uses the easily reversible[Base64](https://www.wikiwand.com/en/Base64)encoding instead of hashing, making it non-secure unless used in conjunction with[TLS](https://www.wikiwand.com/en/Transport_Layer_Security).
 Technically, digest authentication is an application of[MD5](https://www.wikiwand.com/en/MD5)[cryptographic hashing](https://www.wikiwand.com/en/Cryptographic_hash)with usage of[nonce](https://www.wikiwand.com/en/Cryptographic_nonce)values to prevent[replay attacks](https://www.wikiwand.com/en/Replay_attack). It uses the[HTTP](https://www.wikiwand.com/en/Hypertext_Transfer_Protocol)protocol.
 <https://www.wikiwand.com/en/Digest_access_authentication>
-**Cookie-Based Authentication (Stateful)**
+
+## Cookie-Based Authentication (Stateful)**
 
 The client posts the login credential to the server, server verifies the credential and creates session id which is stored in server(state-full) and returned to client via set-cookie. On subsequent request the session id from the cookie is verified in the server and the request get processed. Upon logout session id will be cleared from both client cookie and server.
 
@@ -91,7 +93,8 @@ Service Provider--- Trusts the identity provider and authorizes the given user t
 -   Loose Coupling of Directories:SAML doesn't require user information to be maintained and synchronized between directories.
 -   Reduced Costs for Service Providers:With SAML, you don't have to maintain account information across multiple services. The identity provider bears this burden.
 <https://duo.com/blog/the-beer-drinkers-guide-to-saml>
-**Tricks**
+
+## Tricks**
 -   For Single SignOn OpenId has taken most of the consumer market, SAML is often the choice for many enterprise application.
 -   If you have to support only web application go for Cookie or Token based authentication.
 -   If you have to support both web as well mobile client go with API-token with that of Cookie based authentication.
@@ -123,7 +126,8 @@ IdP - Identity Provider
 <https://jumpcloud.com/daas-glossary/identity-management>
 -   <https://magic.link>
 <https://withblue.ink/2020/04/08/stop-writing-your-own-user-authentication-code.html>
-**Signed Request**
+
+## Signed Request**
 
 Request signing is the process to add authentication information to Credit Saison India requests sent by HTTP.
 For security, all requests to Credit Saison India must be signed with your credentials, which consists of an Client ID and Client Secret. These two keys are commonly referred to as your security credentials.
