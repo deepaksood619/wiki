@@ -20,9 +20,9 @@ It does this by taking the core of Django and layering a fully asynchronous laye
 
 
 
-<https://realpython.com/getting-started-with-django-channels/>
+<https://realpython.com/getting-started-with-django-channels
 
-<https://channels.readthedocs.io/en/latest/>
+<https://channels.readthedocs.io/en/latest
 
 <https://www.sourcelair.com/blog/articles/115/django-channels-chat>
 
@@ -48,7 +48,7 @@ Pinax provides:
 
 
 
-<https://pinaxproject.com/pinax/what_is_pinax/>
+<https://pinaxproject.com/pinax/what_is_pinax
 
 
 
@@ -102,7 +102,7 @@ Comma seperate values
 
 Django workflow library that supports on the fly changes
 
-<https://djangopackages.org/grids/g/workflow/>
+<https://djangopackages.org/grids/g/workflow
 
 
 
@@ -118,7 +118,7 @@ django-reversion is an extension to the Django web framework that provides versi
 
 
 
-<https://django-crispy-forms.readthedocs.io/en/latest/>
+<https://django-crispy-forms.readthedocs.io/en/latest
 
 django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will let you control the rendering behavior of your[Django](https://djangoproject.com/)forms in a very elegant and DRY way. Have full control without writing custom form templates. All this without breaking the standard way of doing things in[Django](https://djangoproject.com/), so it plays nice with any other form application.
 
@@ -147,11 +147,11 @@ graphene-django==2.3.2
 
 pyinotify==0.9.6
 
-<https://djangopackages.org/grids/g/bulk_update/>
+<https://djangopackages.org/grids/g/bulk_update
 
 <https://github.com/burke-software/django-mass-edit>
 
-<http://whitenoise.evans.io/en/stable/>
+<http://whitenoise.evans.io/en/stable
 
 
 
@@ -179,7 +179,7 @@ Django model mixins and utilities
 -   Celery
 -   drf-api-logger
 
-<https://pypi.org/project/drf-api-logger/>
+<https://pypi.org/project/drf-api-logger
 
 
 

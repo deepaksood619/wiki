@@ -95,7 +95,7 @@ EXEC*procedure_name*;
 
 
 
-<https://www.mysqltutorial.org/mysql-error-handling-in-stored-procedures/>
+<https://www.mysqltutorial.org/mysql-error-handling-in-stored-procedures
 
 
 

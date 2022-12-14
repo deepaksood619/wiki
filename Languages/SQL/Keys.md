@@ -124,7 +124,7 @@ Example: In the given table Stud ID, Roll No, and email are candidate keys which
 
 
 
-![candidate keg dlD Roll No 2 3 First Name 11 Tom 12 Nick 13 Dana LastName price Wright Natan Email abc@gmaiLcom xyz@gmailcom mno@yahoo.com primrg keg Alternate keg ](media/Keys-image1.png){width="5.0in" height="2.0833333333333335in"}
+![candidate keg dlD Roll No 2 3 First Name 11 Tom 12 Nick 13 Dana LastName price Wright Natan Email abc@gmaiLcom xyz@gmailcom mno@yahoo.com primrg keg Alternate keg ](media/Keys-image1.png)
 
 
 
@@ -228,7 +228,7 @@ Surrogate keys are allowed when
 
 
 
-<https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database/>
+<https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database
 
 Whenever you're choosing a Primary Key, think of an identity crisis.
 

@@ -17,7 +17,7 @@ Modified: 2020-09-18 09:55:57 +0500
 
 
 
-![Block - 0 8 Block - 1 0 1 2 3 4 5 Block - 2 15 6 7 8 ](media/MO's-Algorithm-image1.png){width="5.0in" height="3.40625in"}
+![Block - 0 8 Block - 1 0 1 2 3 4 5 Block - 2 15 6 7 8 ](media/MO's-Algorithm-image1.png)
 
 **Problem -** We are given an array and a set of query ranges, we are required to find sum of every query range.
 
@@ -56,13 +56,13 @@ Processing all queries takes**O(n * √n)**+**O(m * √n)**=**O((m+n) * √n)**t
 
 **More -**
 
-<https://www.geeksforgeeks.org/range-minimum-query-for-static-array/>
+<https://www.geeksforgeeks.org/range-minimum-query-for-static-array
 
-<https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/>
+<https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query
 
-<https://www.geeksforgeeks.org/mos-algorithm-query-square-root-decomposition-set-1-introduction/>
+<https://www.geeksforgeeks.org/mos-algorithm-query-square-root-decomposition-set-1-introduction
 
 <https://cp-algorithms.com/data_structures/sqrt_decomposition.html>
 
-<https://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction/>
+<https://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction
 

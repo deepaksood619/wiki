@@ -24,7 +24,7 @@ Randomized quicksort with 3-way partitioning reduces running time from linearith
 
 
 
-![private static void a, if (hi <= 10) return; int It = 10, gt = hi Comparable int 1 --- 10 while (1 int cmp = a[l] • compare To(v) ; It - 1) int if else else sort (a, sort (a, if 10, (cmp < (cmp > 0) exch(a, lt++, i + + ) ; 0) exch(a, i, gt--); +1, hi); before during after 10, 10 10 int hi) It It hi hi ](media/3-Way-Quick-Sort-image1.png){width="5.0in" height="3.4479166666666665in"}
+![private static void a, if (hi <= 10) return; int It = 10, gt = hi Comparable int 1 --- 10 while (1 int cmp = a[l] • compare To(v) ; It - 1) int if else else sort (a, sort (a, if 10, (cmp < (cmp > 0) exch(a, lt++, i + + ) ; 0) exch(a, i, gt--); +1, hi); before during after 10, 10 10 int hi) It It hi hi ](media/3-Way-Quick-Sort-image1.png)
 
 
 

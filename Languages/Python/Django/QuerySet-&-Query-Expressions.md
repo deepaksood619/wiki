@@ -44,9 +44,6 @@ Internally, a**QuerySet**can be constructed, filtered, sliced, and generally pas
 
 6.  distinct()
 
-```{=html}
-<!-- -->
-```
 7.  **values()**
 
 Returns a**QuerySet**that returns dictionaries, rather than model instances, when used as an iterable.
@@ -87,9 +84,6 @@ Client.objects.filter(customer__name=customer_name)**.values_list('metrics_metad
 
 15. difference()
 
-```{=html}
-<!-- -->
-```
 16. **select_related()**
 
 Returns a QuerySet that will "follow" foreign-key relationships, selecting additional related-object data when it executes its query. This is a performance booster which results in a single more complex query but means later use of foreign-key relationships won't require database queries.
@@ -139,21 +133,12 @@ to_attr='active_subcategories'
 
 19. defer()
 
-```{=html}
-<!-- -->
-```
 20. **only()**
 
-```{=html}
-<!-- -->
-```
 21. using()
 
 22. select_for_update()
 
-```{=html}
-<!-- -->
-```
 23. **raw()**
 
 
@@ -253,14 +238,8 @@ to_attr='active_subcategories'
 
 25. second
 
-```{=html}
-<!-- -->
-```
 26. **isnull**
 
-```{=html}
-<!-- -->
-```
 27. regex
 
 28. iregex
@@ -424,6 +403,6 @@ question__startswith='Who',
 
 **References**
 
-<https://docs.djangoproject.com/en/2.0/ref/models/querysets/>
+<https://docs.djangoproject.com/en/2.0/ref/models/querysets
 
-<https://docs.djangoproject.com/en/2.0/topics/db/queries/>
+<https://docs.djangoproject.com/en/2.0/topics/db/queries

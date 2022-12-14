@@ -22,4 +22,4 @@ There are 3 possible actions that can be applied on a character:
 
 **References**
 
-<http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/>
+<http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance

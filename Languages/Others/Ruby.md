@@ -43,7 +43,7 @@ If you're using aGemfileyou would first runbundle installto install the gems, th
 
 
 
-<https://jekyllrb.com/docs/ruby-101/>
+<https://jekyllrb.com/docs/ruby-101
 
 
 
@@ -140,7 +140,7 @@ Run - ruby test.rb
 
 
 
-<https://www.ruby-lang.org/en/documentation/quickstart/>
+<https://www.ruby-lang.org/en/documentation/quickstart
 
 
 
@@ -162,7 +162,7 @@ Sinatra is a DSL for quickly creating web applications in Ruby with minimal effo
 
 
 
-<http://sinatrarb.com/>
+<http://sinatrarb.com
 
 
 

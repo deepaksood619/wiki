@@ -14,7 +14,7 @@ b.  Binary Search
 
 c.  Ternary Search
 
-<https://www.hackerearth.com/practice/algorithms/searching/ternary-search/tutorial/>
+<https://www.hackerearth.com/practice/algorithms/searching/ternary-search/tutorial
 
 d.  Hash Table
 
@@ -49,11 +49,11 @@ Type of algorithm based on sorting technique-
 
 
 
-![selection insertion shell quick 3-way quick merge heap 777 inplace? x x x x x x x stable? x x x worst 7 2 Nig N average N 2/4 7 2 N In N 2 N In N best N Nig N Nig N Nig N Nig N remarks N exchanges use for small N or partially ordered tight code, subquadratic N log N probabilistic guarantee fastest in practice improves quicksort in presence of duplicate keys N log N guarantee, stable N log N guarantee, in-place holy sorting grail ](media/Intro-image1.png){width="5.0in" height="2.9375in"}
+![selection insertion shell quick 3-way quick merge heap 777 inplace? x x x x x x x stable? x x x worst 7 2 Nig N average N 2/4 7 2 N In N 2 N In N best N Nig N Nig N Nig N Nig N remarks N exchanges use for small N or partially ordered tight code, subquadratic N log N probabilistic guarantee fastest in practice improves quicksort in presence of duplicate keys N log N guarantee, stable N log N guarantee, in-place holy sorting grail ](media/Intro-image1.png)
 
 
 
-![Review: summary of the performance of sorting algorii Frequency of operations = key compares. algorithm insertion sort mergesort quicksort heapsort guarantee Nig N 1.39 Nig N 2NlgN random 1/4 N2 1.39 Nig N 2 Nig N extra space stable? yes yes no no ](media/Intro-image2.png){width="6.989583333333333in" height="5.239583333333333in"}
+![Review: summary of the performance of sorting algorii Frequency of operations = key compares. algorithm insertion sort mergesort quicksort heapsort guarantee Nig N 1.39 Nig N 2NlgN random 1/4 N2 1.39 Nig N 2 Nig N extra space stable? yes yes no no ](media/Intro-image2.png)
 
 
 
@@ -76,7 +76,7 @@ Sol - **Callback = reference to executable code**
 
 **Rules -**
 -   **Total Order**
--   ![A total order is a binary relation < that satisfies: • Antisymmetry: if vs w and wsv, then v = w. • Transitivity: if vs w and w s x, then v s x. • Totality: either vs w or or both. Ex. • Standard order for natural and real numbers. Chronological order for dates or times. Alphabetical order for strings. ](media/Intro-image3.png){width="5.0in" height="3.2395833333333335in"}
+-   ![A total order is a binary relation < that satisfies: • Antisymmetry: if vs w and wsv, then v = w. • Transitivity: if vs w and w s x, then v s x. • Totality: either vs w or or both. Ex. • Standard order for natural and real numbers. Chronological order for dates or times. Alphabetical order for strings. ](media/Intro-image3.png)
 
 
 

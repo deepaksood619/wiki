@@ -6,7 +6,7 @@ Modified: 2022-01-16 15:12:55 +0500
 
 ---
 
-<https://quixdb.github.io/squash-benchmark/>
+<https://quixdb.github.io/squash-benchmark
 
 
 
@@ -71,7 +71,7 @@ Compress: Generates a compressed representation C(B)
 
 Expand: Reconstructs original bitstream B
 
-![bitstream B 0110110101. Compress compressed version C(B) Basic model for data compression Expand original bitstream B 0110110101. . ](media/Intro-image1.jpeg){width="5.0in" height="0.9270833333333334in"}
+![bitstream B 0110110101. Compress compressed version C(B) Basic model for data compression Expand original bitstream B 0110110101. . ](media/Intro-image1.jpeg)
 
 Compression ratio: Bits in C(B) / bits in B
 
@@ -85,7 +85,7 @@ Genome: String over the alphabet { A, C, T, G }
 
 Goal: Encode an N-character genome: A T A G A T G C A T A G . . .
 
-![Standard ASCII encoding. • 8 bits per char. • 8 N bits. Two-bit encoding. • 2 bits per char. • 2 N bits. char binary char A c G hex 41 43 54 47 binary 01000001 01000011 01010100 01000111 c G 01 10 11 ](media/Intro-image2.jpg){width="5.0in" height="2.3958333333333335in"}
+![Standard ASCII encoding. • 8 bits per char. • 8 N bits. Two-bit encoding. • 2 bits per char. • 2 N bits. char binary char A c G hex 41 43 54 47 binary 01000001 01000011 01010100 01000111 c G 01 10 11 ](media/Intro-image2.jpg)
 
 
 
@@ -101,7 +101,7 @@ Binary standard input and standard output: Libraries to read and write bits from
 
 
 
-![public class BinaryStdIn bool ean readB001 ean() char readChar() char readChar(i nt r) read I bit of data and return as a boolean value read 8 bits of data and return as a char value read r bits of data and return as a char value [similar methods for byte (8 bits); short (16 bits); int (32 bits); long and double (64 bits)] bool ean isEmpty ( ) void close() public class BinaryStdOut void write (bool ean b) void write(char c) is the bitstream empty? close the bitstream write the specified bit write the specified 8-bit char void write (char c, int r) write the r least significant bits of the specified char [similar methods for byte (8 bits); short (16 bits); int (32 bits); long and double (64 bits)) void close() close the bitstream ](media/Intro-image3.jpg){width="5.0in" height="3.90625in"}
+![public class BinaryStdIn bool ean readB001 ean() char readChar() char readChar(i nt r) read I bit of data and return as a boolean value read 8 bits of data and return as a char value read r bits of data and return as a char value [similar methods for byte (8 bits); short (16 bits); int (32 bits); long and double (64 bits)] bool ean isEmpty ( ) void close() public class BinaryStdOut void write (bool ean b) void write(char c) is the bitstream empty? close the bitstream write the specified bit write the specified 8-bit char void write (char c, int r) write the r least significant bits of the specified char [similar methods for byte (8 bits); short (16 bits); int (32 bits); long and double (64 bits)) void close() close the bitstream ](media/Intro-image3.jpg)
 
 
 
@@ -109,7 +109,7 @@ Binary standard input and standard output: Libraries to read and write bits from
 
 Date representation - Three different ways to represent 12/31/1999
 
-![A character stream (StdOut) StdOut.print(month + 'i/" + day + 'i/" + year); 0110001 0111001 1 2 3 1 1 9 0111001 0111001 9 1999 80 bits Three ints (BinaryStdOut) Bi naryStdOut. wri te (month) ; Bi naryStdOut. wri te(day) ; Bi naryStd0ut. wri te (year) ; 12 31 96 bits A 4-bit field, a 5-bit field, and a 12-bit field (BinaryStdOut) Bi naryStdOut.write(month, 4) ; Bi naryStd0ut.write(day, 5) ; Bi naryStdOut.write(year, 12) ; 31 12 21 bits ( + 3 bits for byte alignment at close) ](media/Intro-image4.jpg){width="5.0in" height="3.0in"}
+![A character stream (StdOut) StdOut.print(month + 'i/" + day + 'i/" + year); 0110001 0111001 1 2 3 1 1 9 0111001 0111001 9 1999 80 bits Three ints (BinaryStdOut) Bi naryStdOut. wri te (month) ; Bi naryStdOut. wri te(day) ; Bi naryStd0ut. wri te (year) ; 12 31 96 bits A 4-bit field, a 5-bit field, and a 12-bit field (BinaryStdOut) Bi naryStdOut.write(month, 4) ; Bi naryStd0ut.write(day, 5) ; Bi naryStdOut.write(year, 12) ; 31 12 21 bits ( + 3 bits for byte alignment at close) ](media/Intro-image4.jpg)
 
 
 
@@ -117,7 +117,7 @@ Date representation - Three different ways to represent 12/31/1999
 
 How to examine the contents of a bitstream?
 
-![Standard character stream % more abra. txt ABRACADABRA! Bitstream represented as O and 1 characters % java BinaryDump 16 < abra.txt 0100000101000010 0101001001000001 0100001101000001 0100010001000001 0100001001010010 0100000100100001 96 bits Bitstream represented with hex digits % java HexDump 4 < abra. txt 41 42 52 41 43 41 44 41 42 52 41 21 12 bytes Bitstream represented as pixels in a Picture % java PictureDump 16 6 < abra. txt 16-by-6 pixel window, magnified 96 bits 0123456789 ABCDEF O NUL 1 6 Hexadecimal to ASCII conversion table ](media/Intro-image5.jpg){width="5.0in" height="3.7291666666666665in"}
+![Standard character stream % more abra. txt ABRACADABRA! Bitstream represented as O and 1 characters % java BinaryDump 16 < abra.txt 0100000101000010 0101001001000001 0100001101000001 0100010001000001 0100001001010010 0100000100100001 96 bits Bitstream represented with hex digits % java HexDump 4 < abra. txt 41 42 52 41 43 41 44 41 42 52 41 21 12 bytes Bitstream represented as pixels in a Picture % java PictureDump 16 6 < abra. txt 16-by-6 pixel window, magnified 96 bits 0123456789 ABCDEF O NUL 1 6 Hexadecimal to ASCII conversion table ](media/Intro-image5.jpg)
 
 
 
@@ -146,7 +146,7 @@ Proof 2 - by counting
 
 **Lossless data compression benchmarks (using Calgary corpus)**
 
-![year 1 967 950 1 977 1 984 987 1 987 1 987 1 987 1 988 1 994 1 994 1 995 1 997 1 999 scheme ASCII Huffman LZ77 LZMW LZH move-to-front LZB gzip PPMC SAKDC PPM Burrows-Wheeler BOA bits / char 7.00 4.70 3.94 3.32 3.30 3.24 3.18 2.71 2.48 2.47 2.34 2.29 I .99 .89 ](media/Intro-image6.jpg){width="2.65625in" height="3.9895833333333335in"}
+![year 1 967 950 1 977 1 984 987 1 987 1 987 1 987 1 988 1 994 1 994 1 995 1 997 1 999 scheme ASCII Huffman LZ77 LZMW LZH move-to-front LZB gzip PPMC SAKDC PPM Burrows-Wheeler BOA bits / char 7.00 4.70 3.94 3.32 3.30 3.24 3.18 2.71 2.48 2.47 2.34 2.29 I .99 .89 ](media/Intro-image6.jpg)
 
 
 
@@ -162,7 +162,7 @@ Proof 2 - by counting
 
 **Theoretical limits on compression - Shannon entropy**
 
-![](media/Intro-image7.jpg){width="2.78125in" height="0.8333333333333334in"}
+![](media/Intro-image7.jpg)
 
 
 
@@ -182,7 +182,7 @@ Predicate pushdown is actually a simple concept:
 
 
 
-![LZR LZ77 LZSS LZH DEFLATE Brotli GZip LZB LZ78 LZW LZM LZMA Zip 7Zip GIF PNG ](media/Intro-image8.jpg){width="5.0in" height="2.9583333333333335in"}
+![LZR LZ77 LZSS LZH DEFLATE Brotli GZip LZB LZ78 LZW LZM LZMA Zip 7Zip GIF PNG ](media/Intro-image8.jpg)
 
 
 

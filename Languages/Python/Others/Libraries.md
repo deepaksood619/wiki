@@ -40,9 +40,6 @@ This manager should be attached to a base model class in a model-inheritance tre
 -   SoftDeletableManager
 -   Mixins
 
-```{=html}
-<!-- -->
-```
 -   Miscellaneous Utilities
     -   Choices
     -   Field Tracker
@@ -76,7 +73,7 @@ py-spy is a sampling profiler for Python programs. It lets you visualize what yo
 
 <https://gitlab.com/pythonspeed/filprofiler>
 
-<https://pythonspeed.com/articles/memory-profiler-data-scientists/>
+<https://pythonspeed.com/articles/memory-profiler-data-scientists
 
 
 
@@ -110,7 +107,7 @@ Nativedatetimeinstances are enough for basic cases but when you face more comple
 
 <https://github.com/sdispater/pendulum>
 
-<https://pendulum.eustace.io/>
+<https://pendulum.eustace.io
 
 
 
@@ -154,7 +151,7 @@ python-magic is a Python interface to the libmagic file type identification libr
 
 
 
-<https://pypi.org/project/python-magic/>
+<https://pypi.org/project/python-magic
 
 
 
@@ -166,11 +163,11 @@ Tkinter ► GUI
 
 wxPython ► GUI toolkit
 
-<https://wxpython.org/>
+<https://wxpython.org
 
 PyQt ► GUI toolkit
 
-<https://pypi.org/project/PyQt5/>
+<https://pypi.org/project/PyQt5
 
 
 
@@ -182,7 +179,7 @@ Requests ► HTTP library/Web
 
 Scrapy ► webscraping
 
-<https://scrapy.org/>
+<https://scrapy.org
 
 BeautifulSoup ► parsing/webscraping <https://www.crummy.com/software/Beaut>...
 
@@ -196,7 +193,7 @@ Zappa ► server-less application on API Gateway and Amazon Web Services Lambda
 
 Poetry ► manage python packaging and dependencies
 
-<https://python-poetry.org/>
+<https://python-poetry.org
 
 Pywin32 ► Interact with Windows
 
@@ -214,7 +211,7 @@ Babel - the Python Internationalization Library - <https://github.com/python-bab
 
 
 
-<https://tryolabs.com/blog/2019/12/10/top-10-python-libraries-of-2019/>
+<https://tryolabs.com/blog/2019/12/10/top-10-python-libraries-of-2019
 
 <https://dev.to/squash/16-amazing-python-libraries-you-should-be-using-now-2020-updated-2aja>
 
@@ -232,7 +229,7 @@ An in-process scheduler for periodic jobs that uses the builder pattern for conf
 
 <https://github.com/dbader/schedule>
 
-<https://schedule.readthedocs.io/en/stable/>
+<https://schedule.readthedocs.io/en/stable
 
 
 
@@ -240,29 +237,29 @@ An in-process scheduler for periodic jobs that uses the builder pattern for conf
 
 3d animation and game creation engine
 
-<http://pyglet.org/>
+<http://pyglet.org
 
 
 
 **pygame**
 
-<https://www.pygame.org/>
+<https://www.pygame.org
 
-![Beginner's Python Cheat Sheet - Pygame What is pygame? right Pygame is a for making games Python, Making games is fun. and it's a great way to expand ywr Skills and pygame takes care of many of the tasks games. which lets you foCug the aspects of your game that make it interesting Installing Pygame P an systems. but Sligtlt/y P WY" n a. and a Of M don V *Our sysfwn. Pygame on Lin rect(screen, S wdo apt-get install ne libsd12-dev libsdl S pip - hvhttø; /bitbucket on OS X rms to 3. S install he sdl_ttf S pip • hg+httg: y' /bitbucket. pygame on fie. fie. -m pip install - , midbotton Testing your installation Pyrw M my imp&t gygane center Starting a game Lip an Wp a An empty game window as ps def ) ze up pg. init() pg.displ y. Stu•t Ale True: event in gg.qUIT: Refresh sc pg. display-flip() Setting a calstom window size = (1200, 8øø) scæ --- Pygame rect objects (cont.} Useful attributes hme a Individual and y søø)) . top , centerl width, Tuples center Creating a rect object øg.Rect(1bØ, color = lag, løø) Working with images . cent height lee, 3, IS) bullet_reet) Setting a Custom Color are de a o' CL255 bgßlor - 23B, 230) (bg_color) Pygame rect objects Many e be Rimpvß Shave. Simplifies ronceaO'y game Pygame has a that easy Getting ræt object the center Of Screen a game images are it's wtmap (bmp) Vnage files, witn mg, und Loading an image ship = pg. luge _ load( •Lnages/shig&p•) Gettitg the rect frcm an image Positioning ima* the Python Crash Course Covers python 3 Md python 2 n asta hp res s com/pythoocra rse ](media/Libraries-image1.png){width="6.052083333333333in" height="4.666666666666667in"}
+![Beginner's Python Cheat Sheet - Pygame What is pygame? right Pygame is a for making games Python, Making games is fun. and it's a great way to expand ywr Skills and pygame takes care of many of the tasks games. which lets you foCug the aspects of your game that make it interesting Installing Pygame P an systems. but Sligtlt/y P WY" n a. and a Of M don V *Our sysfwn. Pygame on Lin rect(screen, S wdo apt-get install ne libsd12-dev libsdl S pip - hvhttø; /bitbucket on OS X rms to 3. S install he sdl_ttf S pip • hg+httg: y' /bitbucket. pygame on fie. fie. -m pip install - , midbotton Testing your installation Pyrw M my imp&t gygane center Starting a game Lip an Wp a An empty game window as ps def ) ze up pg. init() pg.displ y. Stu•t Ale True: event in gg.qUIT: Refresh sc pg. display-flip() Setting a calstom window size = (1200, 8øø) scæ --- Pygame rect objects (cont.} Useful attributes hme a Individual and y søø)) . top , centerl width, Tuples center Creating a rect object øg.Rect(1bØ, color = lag, løø) Working with images . cent height lee, 3, IS) bullet_reet) Setting a Custom Color are de a o' CL255 bgßlor - 23B, 230) (bg_color) Pygame rect objects Many e be Rimpvß Shave. Simplifies ronceaO'y game Pygame has a that easy Getting ræt object the center Of Screen a game images are it's wtmap (bmp) Vnage files, witn mg, und Loading an image ship = pg. luge _ load( •Lnages/shig&p•) Gettitg the rect frcm an image Positioning ima* the Python Crash Course Covers python 3 Md python 2 n asta hp res s com/pythoocra rse ](media/Libraries-image1.png)
 
-![Working with images (cont.) Drawing an image to the screen me In-we * ship to screen ship_rect) The blitme() method is the def ship at rrent self_rect) Responding to keyboard input as key presses and You top. to km/ presses aliens, ---t can lif v t key pg.K-LEFT; ship. Responding to mouse events S registers mouse to the mm-ase button for in n eve t.get(); ship, the position useMS --- Clicking a button the a if start ) Hiding the mouse pygame groups has a Group makes a gmup a' A gmup Ike 8 fist, with extra funchCnaMy that S and filling a group sprite import Sprite, def def def bullets - Bullet() bullets Lcnping through the items in a group a grasp u e s. prLtg(): r bullet in b 11 t s bullet Caning a nup bullets. update ( ) Pygame groups (cont.) Renu:rhng an item from a g.rmp Detecting collisions YO u Can a COåidCS With any a single and a Ehe if pg. sprite, spritecollideany(ship, aliens); ships_left 1 Collisions two collisions - pg. ide( ons) • for in n . eve t.get(); - pg.KEYDhN: if event. k ey Pn key pg.K_SPACE; elif eve t. t key pg.K-q; to released keys key, KEYup is if event. type pg_KEYUP: if y e pg.K_RtGfT; = False Pygame documentation The 'or 'he at home page 'or The TOSC o,' the are Dams about o' Pygame. soc*' as Class the rages, score Rendering text can we e of a Can Share players. and digp'a»• a Displaying a message a "ze 48 of gel We " play again?" "S _col or ( reg, lag, lee) - (Be, 230, 23B) f 48) ug_image = f. rend ( s = ug_ina center screen. center Mure cheat sheets available at ](media/Libraries-image2.png){width="6.052083333333333in" height="4.666666666666667in"}
+![Working with images (cont.) Drawing an image to the screen me In-we * ship to screen ship_rect) The blitme() method is the def ship at rrent self_rect) Responding to keyboard input as key presses and You top. to km/ presses aliens, ---t can lif v t key pg.K-LEFT; ship. Responding to mouse events S registers mouse to the mm-ase button for in n eve t.get(); ship, the position useMS --- Clicking a button the a if start ) Hiding the mouse pygame groups has a Group makes a gmup a' A gmup Ike 8 fist, with extra funchCnaMy that S and filling a group sprite import Sprite, def def def bullets - Bullet() bullets Lcnping through the items in a group a grasp u e s. prLtg(): r bullet in b 11 t s bullet Caning a nup bullets. update ( ) Pygame groups (cont.) Renu:rhng an item from a g.rmp Detecting collisions YO u Can a COåidCS With any a single and a Ehe if pg. sprite, spritecollideany(ship, aliens); ships_left 1 Collisions two collisions - pg. ide( ons) • for in n . eve t.get(); - pg.KEYDhN: if event. k ey Pn key pg.K_SPACE; elif eve t. t key pg.K-q; to released keys key, KEYup is if event. type pg_KEYUP: if y e pg.K_RtGfT; = False Pygame documentation The 'or 'he at home page 'or The TOSC o,' the are Dams about o' Pygame. soc*' as Class the rages, score Rendering text can we e of a Can Share players. and digp'a»• a Displaying a message a "ze 48 of gel We " play again?" "S _col or ( reg, lag, lee) - (Be, 230, 23B) f 48) ug_image = f. rend ( s = ug_ina center screen. center Mure cheat sheets available at ](media/Libraries-image2.png)
 
 
 
-<https://humberto.io/blog/exploring-pygame-5-movement-and-collision/>
+<https://humberto.io/blog/exploring-pygame-5-movement-and-collision
 
 
 
 **pygal**
 
-![](media/Libraries-image3.png){width="6.052083333333333in" height="4.666666666666667in"}
+![](media/Libraries-image3.png)
 
-![](media/Libraries-image4.png){width="6.052083333333333in" height="4.666666666666667in"}
+![](media/Libraries-image4.png)
 
 
 
@@ -272,7 +269,7 @@ Jinja2 is a full-featured template engine for Python. It has full unicode suppor
 
 
 
-<https://palletsprojects.com/p/jinja/>
+<https://palletsprojects.com/p/jinja
 
 
 

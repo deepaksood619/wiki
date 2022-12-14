@@ -30,10 +30,10 @@ MEAN - MongoDB, Expressjs, Angular, Nodejs
 
 MERN - MongoDB, Expressjs, React, Nodejs
 
-<https://www.geeksforgeeks.org/mern-stack/>
+<https://www.geeksforgeeks.org/mern-stack
 
 
 
 PERN - Postgres, Express, React, Node
 
-<https://www.freecodecamp.org/news/learn-the-pern-stack-full-course/>
+<https://www.freecodecamp.org/news/learn-the-pern-stack-full-course

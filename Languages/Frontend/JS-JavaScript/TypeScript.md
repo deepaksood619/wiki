@@ -34,7 +34,7 @@ In addition to static type analysis, TypeScript also adds the following features
 
 
 
-<https://www.freecodecamp.org/news/learn-typescript-with-this-crash-course/>
+<https://www.freecodecamp.org/news/learn-typescript-with-this-crash-course
 
 <https://www.typescriptlang.org/docs/handbook/intro.html>
 
@@ -42,10 +42,10 @@ In addition to static type analysis, TypeScript also adds the following features
 
 [Why Program in TypeScript](https://youtu.be/x6Gtxb4PoUw)
 
-<https://www.freecodecamp.org/news/how-to-code-your-react-app-with-typescript/>
+<https://www.freecodecamp.org/news/how-to-code-your-react-app-with-typescript
 
 
 
 <https://www.toptal.com/typescript/typescript-vs-javascript-guide>
 
-<https://www.freecodecamp.org/news/build-strongly-typed-polymorphic-components-with-react-and-typescript/>
+<https://www.freecodecamp.org/news/build-strongly-typed-polymorphic-components-with-react-and-typescript

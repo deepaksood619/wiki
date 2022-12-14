@@ -63,7 +63,7 @@ brew install go
 
 <https://www.tutorialspoint.com/go>
 
-<https://learnxinyminutes.com/docs/go/>
+<https://learnxinyminutes.com/docs/go
 
 <https://golang.org/doc/code.html>
 
@@ -81,4 +81,4 @@ brew install go
 
 
 
-<https://www.freecodecamp.org/news/learn-go-by-building-11-projects/>
+<https://www.freecodecamp.org/news/learn-go-by-building-11-projects

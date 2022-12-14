@@ -20,7 +20,7 @@ A modern, JVM-based, full-stack framework for building modular, easily testable 
 
 
 
-<https://micronaut.io/>
+<https://micronaut.io
 
 
 
@@ -40,7 +40,7 @@ Quarkus is a Cloud Native, (Linux) Container First framework for writing Java ap
 
 
 
-<https://quarkus.io/>
+<https://quarkus.io
 
 
 
@@ -50,7 +50,7 @@ Picocli aims to be the easiest way to create rich command line applications that
 
 
 
-<https://picocli.info/>
+<https://picocli.info
 
 
 
@@ -74,6 +74,6 @@ Eclipse Vert.x isevent drivenandnon blocking. This means your app can handle a l
 
 
 
-<https://vertx.io/>
+<https://vertx.io
 
-<https://vertx.io/docs/vertx-core/java/>
+<https://vertx.io/docs/vertx-core/java

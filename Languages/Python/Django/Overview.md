@@ -6,7 +6,7 @@ Modified: 2022-05-20 20:29:33 +0500
 
 ---
 
-<https://www.djangoproject.com/start/overview/>
+<https://www.djangoproject.com/start/overview
 
 
 
@@ -95,7 +95,7 @@ StackedInline can be replaced with TabularInline for table view
 
 **Anatomy of a Dynamic Site**
 
-![](media/Overview-image1.png){width="5.0in" height="2.375in"}
+![](media/Overview-image1.png)
 
 
 
@@ -131,7 +131,7 @@ $ django-admin.py startproject samplesite .
 
 <https://www.youtube.com/watch?v=Z5WQMSdcYv8>
 
-<https://www.freecodecamp.org/news/django-for-everybody-learn-the-popular-python-framework-from-dr-chuck/>
+<https://www.freecodecamp.org/news/django-for-everybody-learn-the-popular-python-framework-from-dr-chuck
 
 [Django (3.0) Crash Course Tutorials | Customer Management App](https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO)
 -   CRUD with model forms

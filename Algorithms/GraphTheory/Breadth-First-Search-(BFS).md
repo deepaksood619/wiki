@@ -14,11 +14,11 @@ BFS "is an algorithm for traversing or searching tree data structure. It starts 
 
 BFS algorithm traverses the tree level by level and depth by depth.
 
-![](media/Breadth-First-Search-(BFS)-image1.png){width="5.0in" height="2.8125in"}
+![](media/Breadth-First-Search-(BFS)-image1.png)
 
 Here is an example that helps to better explain this algorithm:
 
-![](media/Breadth-First-Search-(BFS)-image2.png){width="5.0in" height="2.8125in"}
+![](media/Breadth-First-Search-(BFS)-image2.png)
 
 So we traverse level by level. In this example, the result is 1--2--5--3--4--6--7.
 -   Level/Depth 0: only node with value 1
@@ -43,7 +43,7 @@ Now let's code it.
 
 To implement a BFS algorithm, we use the queue data structure to help.
 
-![](media/Breadth-First-Search-(BFS)-image3.png){width="5.0in" height="5.5625in"}
+![](media/Breadth-First-Search-(BFS)-image3.png)
 
 1.  First add the root node into the queue with the put method.
 
@@ -72,11 +72,11 @@ This means that once a vetex is colored black, it has no white vertices adjacent
 
 
 
-![Breadth-first search demo Repeat until queue is empty: • Remove vertex v from queue. • Add to queue all unmarked vertices adjacent to v and mark them. v edgeTo[] distTo[l ](media/Breadth-First-Search-(BFS)-image4.png){width="5.0in" height="2.8958333333333335in"}
+![Breadth-first search demo Repeat until queue is empty: • Remove vertex v from queue. • Add to queue all unmarked vertices adjacent to v and mark them. v edgeTo[] distTo[l ](media/Breadth-First-Search-(BFS)-image4.png)
 
 
 
-![Depth-first search. Put unvisited vertices on a stack. Breadth-first search. Put unvisited vertices on a queue. Shortest path. Find path from s to t that uses fewest number of edges. BFS (from source vertex s) Put s onto a FIFO queue, and mark s as visited. Repeat until the queue is empty: - remove the least recently added vertex v - add each of v's unvisited neighbors to the queue, and mark them as visited. Intuition. BFS examines vertices in increasing distance from s. ](media/Breadth-First-Search-(BFS)-image5.png){width="5.0in" height="3.4479166666666665in"}
+![Depth-first search. Put unvisited vertices on a stack. Breadth-first search. Put unvisited vertices on a queue. Shortest path. Find path from s to t that uses fewest number of edges. BFS (from source vertex s) Put s onto a FIFO queue, and mark s as visited. Repeat until the queue is empty: - remove the least recently added vertex v - add each of v's unvisited neighbors to the queue, and mark them as visited. Intuition. BFS examines vertices in increasing distance from s. ](media/Breadth-First-Search-(BFS)-image5.png)
 
 
 
@@ -86,7 +86,7 @@ Properties -
 
 
 
-![public class BreadthFi rstPaths pri vate bool ean[] marked; private int[] edgeTo; private void bfs(Graph G, int s) = new Queue<lnteger>() ; Queue<lnteger> q q. enqueue(s) ; marked[s] = true; while (!q.isEmpty()) int v = q. dequeue(); for (int w : G.adj if (!marked[w]) q . enqueue(w) ; marked [w] = true; edgeTo[w] = v; ](media/Breadth-First-Search-(BFS)-image6.png){width="5.0in" height="5.447916666666667in"}
+![public class BreadthFi rstPaths pri vate bool ean[] marked; private int[] edgeTo; private void bfs(Graph G, int s) = new Queue<lnteger>() ; Queue<lnteger> q q. enqueue(s) ; marked[s] = true; while (!q.isEmpty()) int v = q. dequeue(); for (int w : G.adj if (!marked[w]) q . enqueue(w) ; marked [w] = true; edgeTo[w] = v; ](media/Breadth-First-Search-(BFS)-image6.png)
 
 
 

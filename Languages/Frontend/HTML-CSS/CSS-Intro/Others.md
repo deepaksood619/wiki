@@ -26,7 +26,7 @@ To get your HTML content styled by CSS the browser uses the following method. Up
 
 **Media Queries**
 
-<https://www.freecodecamp.org/news/how-to-use-css-media-queries-to-create-responsive-websites/>
+<https://www.freecodecamp.org/news/how-to-use-css-media-queries-to-create-responsive-websites
 
 
 
@@ -110,12 +110,12 @@ Web Content Accessibility Guidelines (WCAG) 2.0 covers a wide range of recommend
 
 
 
-<https://www.w3.org/TR/WCAG20/>
+<https://www.w3.org/TR/WCAG20
 
 
 
 **Resources**
 
-<https://www.freecodecamp.org/news/how-to-make-a-landing-page-using-html-scss-and-javascript/>
+<https://www.freecodecamp.org/news/how-to-make-a-landing-page-using-html-scss-and-javascript
 
 

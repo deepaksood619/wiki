@@ -82,4 +82,4 @@ Notice that when you recommend the indexes to use, the queryoptimizer may either
 
 
 
-<https://www.mysqltutorial.org/mysql-index/mysql-use-index/>
+<https://www.mysqltutorial.org/mysql-index/mysql-use-index

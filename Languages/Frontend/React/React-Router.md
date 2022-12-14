@@ -14,7 +14,7 @@ This is of high significance as it's anentry point of your application. There ca
 
 
 
-<https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/>
+<https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks
 
 [**https://www.freecodecamp.org/news/learn-react-router-6/**](https://www.freecodecamp.org/news/learn-react-router-6/)
 
@@ -22,13 +22,13 @@ This is of high significance as it's anentry point of your application. There ca
 
 A Complete Guide to React Router: Everything You Need to Know
 
-<https://ui.dev/react-router-tutorial/>
+<https://ui.dev/react-router-tutorial
 
 
 
 <https://reactrouter.com/docs/en/v6/getting-started/tutorial>
 
-<https://reactrouter.com/>
+<https://reactrouter.com
 
 React Router is a lightweight, fully-featured routing library for the[React](https://reactjs.org/)JavaScript library. React Router runs everywhere that React runs; on the web, on the server (using node.js), and on React Native.
 
@@ -65,7 +65,7 @@ Switch component is used to render only the first route that matches the locatio
 
 
 
-<https://www.geeksforgeeks.org/reactjs-router/>
+<https://www.geeksforgeeks.org/reactjs-router
 
 
 

@@ -46,8 +46,8 @@ Modified: 2021-11-29 12:12:09 +0500
 
 **Image Compression**
 
-<https://imgix.com/>
+<https://imgix.com
 
 [**https://squoosh.app/**](https://squoosh.app/)
 
-Birme - <https://www.birme.net/>
+Birme - <https://www.birme.net

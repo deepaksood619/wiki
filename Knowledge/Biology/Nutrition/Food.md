@@ -1,0 +1,1175 @@
+# Food
+
+Created: 2018-08-11 18:15:52 +0500
+
+Modified: 2022-09-16 12:47:58 +0500
+
+---
+
+The way you eat not only decides your physical health, but the very way you think, feel, and experience life. -- Sadhguru
+
+
+
+Only eat till you are 80% full
+
+**Zero Oil Cooking**
+
+
+
+**Tips**
+-   Front-loading your eating and eating only while the sun's up are great ways to be healthier
+-   Stack your meals so that three quarters (or more) of what you eat comes before 2 p.m., the rest between then and sundown
+-   Eating dinner for breakfast and keeping your eating consistent add up to a better diet
+-   Your gut wall can be strenghened by a pair of pheonomena called **hormesis and autophagy**
+    -   Hormesis - beneficial ways in which your body responds to low amounts of stress, the source of which is known as a hormetic stressor
+    -   Autophagy - self devouring
+-   To benefit from hormesis and autophagy, seek out polyphenols and moderate amounts of alcohol and exercise (moderate)
+-   To live a long and healthy life, make your bacteria hungry
+    -   Partial intermittent fasting (5 consecutive days per month, limit to consuming fewer than 900 calories per day)
+    -   mitogenesis - mitochondria reproduction
+-   Food Tips
+    -   One carrot a day provides all the vitamin A for a day that body needs
+    -   Folate (Vitamin B9) during pregnency
+    -   Kidney - Drink a lot of water during the day; drink less water at night; empty your bladder before going to bed
+    -   Pancreas - Avoid overfeeding
+
+
+
+Recommended Calorie intake - 2800
+
+
+
+**Good foods**
+
+1.  Almonds (Brain)
+
+2.  Eggs (Brain)
+
+    a.  Egg Yolk - Vitamin D
+
+<https://blog.bigbasket.com/2021/06/26/eggs-the-best-superfoods-for-everyone
+
+3.  Bananas (Brain)
+
+4.  Walnuts / pistachios / Almonds (Brain)
+
+5.  Broccoli (Brain, boosts cancer-fighting defence system)
+
+6.  Fish/seafood
+
+    a.  Fatty Fish (men who ate fish at least once a month were 43% less likely to have ischemic strokes compared with men who never ate fish like tuna)
+
+    b.  Salmon (Brain)
+
+7.  Nimbu pani
+
+8.  Curd
+
+9.  Milk (low-fat or fat-free milk / skim-milk) / ButterMilk / Tea / Coffee
+
+10. Sprouts
+
+11. Lettuce - Vitamin A, B6, B9, K
+
+12. Chicken - Vitamin B1, B2, B3, B5, B6, B12
+
+13. Tomato - Vitamin C
+
+14. Cucumber - Vitamin K
+
+15. Kale - Karam Saag
+
+16. Blueberries
+
+17. Oats (carbs, fiber, beta-glucan)
+
+18. Chocolate
+
+    a.  cocoa (high-flavanol cocoa drink twic a day) (boost ability to repair and regenerate)
+
+19. **Sweet Potatos**
+
+20. Spinach
+
+21. Flexseeds, chia seeds, pumpkin seeds (rich in omega-3, decrease fatigue)
+
+22. Turmeric
+
+23. **Extra virgin Olive oil**
+
+24. Coconut water
+
+25. Soy Foods (boosts cancer-fighting defence system, 10 grams of soy protein daily)
+
+    a.  contain genistein, a potent cancer-fighting substance that suppresses the blood vessels that feed nutrients to tumors.
+
+26. **Pomegranate/Juice (keep anemia away, rich in iron)**
+
+27. Parmigiano-Reggiano cheese
+
+28. White button Mushroom
+
+29. Berry Juice (cherries, red grapes, blackcurrants, blackberries and chokeberries)
+
+30. Beer (xanthohumol, anti-cancer properties)
+
+
+
+**Normal foods**
+
+1.  Ghee in limited quantity
+
+
+
+**Bad foods**
+
+1.  Eggplant (inhibit absorption of calcium)
+
+2.  Red meet (beef/pork)
+
+3.  Ice cream, whole milk and cheese (The healthiest milk and milk products are low-fat versions, such as skim milk, milk with 1% fat, and reduced-fat cheeses)
+
+4.  Pastries (cookies, pie, crois- sants, tarts, cake, and Danish)
+
+5.  Doughnuts
+
+6.  Sugar
+
+7.  Salt
+
+8.  Muffins, croissants, crackers, bagels, and other baked goods made with white flour
+
+9.  Butter
+
+10. Palm oil
+
+
+
+**Supplements**
+
+1.  creatine
+
+2.  beet juice
+
+3.  antioxidant multivitamins
+
+4.  Folic acid - Vitamin B9
+    -   Important for making red blood cells and thymine and cytosine (2 of the 4 bases that make up DNA)
+    -   Pregnant women need it the most
+
+5.  Melatonin
+
+6.  St John's Wort (flower)
+
+
+
+**Pregnant / Pregnancies food**
+
+Soya ataa + wheat ataa ( 1kg to 8 kg )
+
+
+
+**Facts**
+-   Stem cells regenerate lungs every eight days, skin once a fortnight, small intestine almost every other day
+
+
+
+Curd - lactobacillus - lactic acid bacteria
+
+Yogurt - lactobacillus bulgaris and streptococcus thermophilus.
+
+
+
+**Gain Weight Diet Plan**
+
+Keep 10 almonds soaked in water over-night and eat them as soon as you wake up the next morning. You must have a glass of banana shake during breakfast clubbed with either 1 bowl vegetable daliya or vegetable oats. You can substitute these with 2 slices of multigrain bread or 30g paneer, tofu or chicken breast.
+-   During mid-morning, have 1 whole fruit of your choice and drink 1 glass of lassi, coconut water or butter milk
+-   In lunch, you must have 2-3 chappati with 1 bowl vegetables and cottage cheese and curd
+-   During your snack time, have 1 glass banana shake again along with 2 biscuits, 1 bowl upma or 1 grilled sandwich
+-   Before dinner, don't forget to have 1 bowl chicken or vegetable soup
+-   In dinner, have 2-3 chappatis along with 1 bowl vegetable, 1 bowl dal, 1 bowl curd or sweet dish
+-   Before going off to sleep, have 1 glass of milk with a pinch of turmeric and 1 tablespoon honey in it
+
+
+
+<https://www.onlymyhealth.com/how-gain-weight-in-days-1326451658>
+
+
+
+**Eating patterns**
+
+**Meal-eaters vs grazers**
+-   Eating 3 meals of 800 calories will cause the same thermic effect as eating 6 meals of 400 calories. There is literally no difference.
+-   Multiple studies have compared eating many smaller versus fewer larger meals and concluded that there is no significant effect on either metabolic rate or the total amount of fat lost
+-   Fewer and larger meals lower your average daily blood sugar levels. Getting most of your calories in the morning and eating fewer in the afternoon and evening also seems to reduce average blood sugar levels.
+-   Skipping meals every now and then helps you lose weight and may improve your blood sugar control over time.
+
+
+
+![HEALTHY EATING PLATE Use healthy oils (like olive and canola oil) for cooking, on salad, and at the table. Limit butter. Avoid trans fat. The more veggies--- and the greater the variety---the better. HEALTHY OILS Potatoes and french fries don't count. Eat plenty of fruits of all colors. STAY ACTIVE! @ Harvard University VEGETABLES FRUITS WHOLE GRAINS HEALTHY PROTEIN WATER Drink water, tea, or coffee (with little or no sugar). Limit milk/dairy (I -2 servings/day) and juice (I small glass/day). Avoid sugary drinks. Eat whole grains (like brown rice, whole-wheat bread, and whole-grain pasta). Limit refined grains (like white rice and white bread). Choose fish, poultry, beans, and nuts; limit red meat; avoid bacon, cold cuts, and other processed meats. ](media/Nutrition_Food-image1.png)
+
+
+
+**Food Pyramid**
+
+![Grains Vegetables quits ](media/Nutrition_Food-image2.png)
+
+**Grains:** Make half your grain whole. Eat at least 3 oz. of whole grain cereals, breads, crackers, rice, or pasta every day.
+
+**Vegetables:** Vary your vegetables. Eat more dark green veg- etables like broccoli and spinach. Eat more orange vegetables like carrots and sweet potatoes. Eat more dry beans and peas.
+
+**Fruits:** Eat a variety of fruits. Choose fresh, frozen, canned, or dried fruit. Go easy on fruit juices, which have high sugar content without much fiber.
+
+**Milk:** Eat calcium-rich foods. Choose low-fat or fat-free dairy products. If you don't drink milk or eat dairy products, choose lactose-free products or other calcium sources such as fortified foods and drinks.
+
+**Meat and beans:** Eat lean proteins. Choose low-fat or lean cuts of meat and poultry. Bake, broil, or grill your meats. Eat more fish, beans, peas, nuts, and seeds.
+
+
+
+![Red meat, butter White rice, white bread, white pasta; potatoes. soda, and sweets use sparingly Dairy or calcium supplement. 1---2 time/day Multiple vitamins ' Fish, Itty. eggs. 0-2 timestday ' for most Nuts, legumes, 1---3 times/day Alcohol in moderation fif appropriate) Vegetables (tn abundance) Whole-grain foods (at most meals) • Fruits, 2---3 times/day Plant oils (olive, canola, soy, corn, sunflower, peanut. and other vegetable oils) Daily exercise and weight control ](media/Nutrition_Food-image3.png)
+
+
+
+[How We Got the Science of Weight Loss Wrong - with Giles Yeo](https://www.youtube.com/watch?v=GQJ0Z0DRumg&ab_channel=TheRoyalInstitution)
+-   Protein - 16% of your daily energy intake
+-   Fibre > 30 grams per day
+-   Free sugar < 5 per cent of your daily energy intake
+-   Meat - free days
+
+
+
+**Vegetables**
+-   Daikon, White Radish - Mooli
+
+
+
+<https://www.healthline.com/nutrition/list-of-vegetables>
+
+
+
+**Eight principles of low-glycemic eating**
+
+1.  Eat a lot of non-starchy vegetables, beans, and fruits such as apples, pears, peaches, and berries. Even tropi- cal fruits like bananas, mangoes, and papayas tend to have a lower glycemic index than typical desserts
+
+2.  Eat grains in the least-processed state possible: "unbroken," such as whole-kernel bread, brown rice, and whole barley, millet, and wheat berries; or tra- ditionally processed, such as stone-ground bread, steel-cut oats, and natural granola or muesli breakfast cereals
+
+3.  Limit white potatoes and refined grain products such as white breads and white pasta to small side dishes.
+
+4.  Limit concentrated sweets---including high-calorie foods with a low glycemic index, such as ice cream--- to occasional treats. Reduce fruit juice to no more than one cup a day. Completely eliminate sugar-sweetened drinks
+
+5.  Eat a healthful type of protein, such as beans, fish, or skinless chicken, at most meals
+
+6.  Choose healthful fats, such as olive oil, nuts (almonds, walnuts, pecans), and avocados. Limit saturated fats from dairy and other animal products. Completely eliminate partially hydrogenated fats (trans fats), which are in fast food and many packaged foods
+
+7.  Have three meals and one or two snacks each day, and don't skip breakfast
+
+8.  Eat slowly and stop when full
+
+
+
+<http://hrccatalog.hrrh.on.ca/InmagicGenie/DocumentFolder/healthy%20eating.pdf>
+
+[Fed Up 2014](https://www.youtube.com/watch?v=Y647tNm8nTI)
+
+
+
+Smooth, bright, seedless, conveniently wrapped; the banana is the original fast food
+
+
+
+**Milk**
+-   Cow's Milk
+-   Almond Milk
+-   **Soy Milk (best for planet)**
+-   **Oat Milk (best for planet)**
+
+
+
+<https://www.youtube.com/watch?v=s6TXDFp1EcM>
+
+
+
+**Fruits**
+
+![Bipe As rt 1+47/ C Ripen on your Counter Depends On Variety @ 000 00 eoo Avocado Plum Banana Tomato Cherries Pomegranate mee•pple Raspberry Strawberry ](media/Nutrition_Food-image4.jpeg)
+
+
+
+**Vitamins**
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>They decide how our skin looks. How strong our bones are. How we fight infections. Whether we wake up happy or grumpy. Vitamins wield immense power over our bodies and minds. What’s more, Bigbasketeer, vitamin deficiencies can have some pretty serious consequences. Reason enough to take a closer look at them?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Vitamins are...</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 43%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>1.</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A group of compounds</strong></td>
+</tr>
+<tr class="even">
+<td>There are 13 vitamins in all: A, C, D, E, K, and the B-complex of 8 vitamins</td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>2.</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Micronutrients</strong></td>
+</tr>
+<tr class="even">
+<td>We need them in tiny quantities (milli or micrograms). Unlike carbs/proteins, which are macronutrients.</td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>3.</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Essential nutrients</strong></td>
+</tr>
+<tr class="even">
+<td>They’re not produced directly by our bodies but supplied from our food (with a few exceptions.)</td>
+</tr>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><strong>Vitamin supplements: Good or Bad?</strong></td>
+</tr>
+<tr class="odd">
+<td><img src="media/Nutrition_Food-image5.png" style="width:5in;height:2.38542in" alt="Vitamin supplements: Good or Bad?" </td>
+</tr>
+<tr class="even">
+<td><p>When it comes to vitamins, there is such a thing as too much.<strong>Every vitamin has a recommended daily intake</strong>and you can get this from a healthy, diverse diet. But if you’re eating fortified foods and taking supplements (often ordered online without checking dosage or composition), you may consume more than you need.</p>
+<p>So, unless you have a diagnosed deficiency,<strong>get your vitamins from food.</strong>There is<a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAEMTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;">evidence</a>that this has better health outcomes overall!</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Your guide to a vitamin-rich diet</strong></td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="media/Nutrition_Food-image6.png" style="width:5in;height:0.72917in" alt="Vitamin A" </th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 61%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Important for</strong></th>
+<th><img src="media/Nutrition_Food-image7.png" style="width:0.55208in;height:0.55208in" alt="Important For" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Growth</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Immunity</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Skin &amp; bone formation</td>
+</tr>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Reproductive health</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Eyesight</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 60%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Get it from</strong></th>
+<th><img src="media/Nutrition_Food-image8.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Orange/yellow produce (carrots, red capsicum, mango, papaya, pumpkin)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Green leafy veggies</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Eggs</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAENTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN A FOODS</strong></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><img src="media/Nutrition_Food-image9.png" style="width:5in;height:0.72917in" alt="Vitamin B" </td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 49%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Important for</strong></th>
+<th><img src="media/Nutrition_Food-image10.png" style="width:0.57292in;height:0.57292in" alt="Important For" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Metabolism</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>DNA synthesis</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Nervous system function</td>
+</tr>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>RBC creation</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 60%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Get it from</strong></th>
+<th><img src="media/Nutrition_Food-image11.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Seafood, meat &amp; poultry</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Eggs &amp; dairy</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Legumes (beans, lentils)</td>
+</tr>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Green leafy veggies</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Beetroot</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAETw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN B FOODS</strong></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><img src="media/Nutrition_Food-image12.png" style="width:5in;height:0.72917in" alt="Vitamin C" </td>
+</tr>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 41%" />
+<col style="width: 58%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Important for</strong></th>
+<th><img src="media/Nutrition_Food-image13.png" style="width:0.57292in;height:0.57292in" alt="Important For" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Collagen for skin &amp; hair</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Immunity</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Antioxidant properties</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 60%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Get it from</strong></th>
+<th><img src="media/Nutrition_Food-image14.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Citrus fruits</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Kiwi &amp; amla</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Potato &amp; tomato</td>
+</tr>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Green leafies</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Cruciferous veggies (cabbage, gobi, broccoli)</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAFTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN C FOODS</strong></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><img src="media/Nutrition_Food-image15.png" style="width:5in;height:0.72917in" alt="Vitamin E" </td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 62%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Important for</strong></th>
+<th><img src="media/Nutrition_Food-image16.png" style="width:0.55208in;height:0.55208in" alt="Important For" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 61%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Skin &amp; hair</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Eyesight</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Antioxidant properties</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 60%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Get it from</strong></th>
+<th><img src="media/Nutrition_Food-image17.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Nuts and seeds such as almonds, sunflower seeds, and peanuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Egg yolks</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Whole grains</td>
+</tr>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Green leafy veggies</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAGTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN E FOODS</strong></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><img src="media/Nutrition_Food-image18.png" style="width:5in;height:0.72917in" alt="Vitamin K" </td>
+</tr>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 54%" />
+<col style="width: 45%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 64%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Important for</strong></th>
+<th><img src="media/Nutrition_Food-image19.png" style="width:0.57292in;height:0.57292in" alt="Important For" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Bone health</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Blood clotting &amp; wound healing</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+<th><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><table>
+<colgroup>
+<col style="width: 60%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Get it from</strong></th>
+<th><img src="media/Nutrition_Food-image20.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><table>
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>»</strong></th>
+<th>Green leafy vegetables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>»</strong></td>
+<td>Avocado</td>
+</tr>
+<tr class="even">
+<td><strong>»</strong></td>
+<td>Kiwi</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAHTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN K FOODS</strong></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td>Wondering what happened to vitamins B4, B8, B10, and B11? They got the boot! As scientists’ understanding of vitamins evolved, these were no longer regarded as vitamins. Reminds you of Pluto, huh?</td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 75%" />
+<col style="width: 24%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Found this useful?</p>
+<p><strong>Save it for later and pass it on!</strong></p>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAADTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>DOWNLOAD GUIDE</strong></a></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></th>
+<th><img src="media/Nutrition_Food-image21.png" style="width:0.88542in;height:0.875in" alt="Download" </th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
+<td><strong>Wait, what about Vitamin D?</strong></td>
+</tr>
+<tr class="even">
+<td><img src="media/Nutrition_Food-image22.png" style="width:5in;height:2.38542in" alt="Wait, what about Vitamin D?" </td>
+</tr>
+<tr class="odd">
+<td><p>We saved it for the last because it’s kinda special! Vitamin D has many roles to play—blood pressure regulation, bone growth, calcium balance, hormone production, immune health, nervous system function etc.</p>
+<p>Unlike the others, vitamin D can be produced by our bodies, provided our skin is exposed to adequate sunshine. Unfortunately, most of us don’t get enough time in the sun and hence, are D-deficient. ☹️</p></td>
+</tr>
+<tr class="even">
+<td><table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="media/Nutrition_Food-image23.png" style="width:1.20833in;height:1.3125in" alt="Pro Tip" </th>
+<th><p><strong>Make Vit D while the sun shines</strong></p>
+<p>Try to get 10–20 minutes of sunlight ideally before noon, 3-4 times a week. Darker skin needs more sun than lighter skin; so adjust your sun exposure based on your need.</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

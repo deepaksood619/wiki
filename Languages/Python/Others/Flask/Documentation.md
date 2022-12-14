@@ -134,9 +134,6 @@ Flask uses a concept of*blueprints*for making application components and support
 -   [Building URLs](https://flask.palletsprojects.com/en/1.1.x/blueprints/#building-urls)
 -   [Error Handlers](https://flask.palletsprojects.com/en/1.1.x/blueprints/#error-handlers)
 
-```{=html}
-<!-- -->
-```
 -   [Extensions](https://flask.palletsprojects.com/en/1.1.x/extensions/)
     -   [Finding Extensions](https://flask.palletsprojects.com/en/1.1.x/extensions/#finding-extensions)
     -   [Using Extensions](https://flask.palletsprojects.com/en/1.1.x/extensions/#using-extensions)
@@ -245,4 +242,4 @@ Flask uses a concept of*blueprints*for making application components and support
 
 
 
-<https://flask.palletsprojects.com/en/1.1.x/>
+<https://flask.palletsprojects.com/en/1.1.x

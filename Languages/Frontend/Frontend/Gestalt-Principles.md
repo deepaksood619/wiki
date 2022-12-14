@@ -15,31 +15,31 @@ Modified: 2021-07-06 01:03:29 +0500
 
 3.  Similarity
 
-![ロ ロ ロ ロ 0 0 0 0 0 0 0 0 ロ ロ ロ ロ 0 0 0 0 ロ ロ ロ ロ 0 0 0 0 ロ ロ ロ ロ ](media/Gestalt-Principles-image1.png){width="4.28125in" height="2.15625in"}
+![ロ ロ ロ ロ 0 0 0 0 0 0 0 0 ロ ロ ロ ロ 0 0 0 0 ロ ロ ロ ロ 0 0 0 0 ロ ロ ロ ロ ](media/Gestalt-Principles-image1.png)
 
 
 
 4.  Pragnanz
 
-![](media/Gestalt-Principles-image2.png){width="4.28125in" height="1.9791666666666667in"}
+![](media/Gestalt-Principles-image2.png)
 
 
 
 5.  Proximity
 
-![](media/Gestalt-Principles-image3.png){width="4.28125in" height="2.5in"}
+![](media/Gestalt-Principles-image3.png)
 
 
 
 6.  Continuity
 
-![οο οο ](media/Gestalt-Principles-image4.png){width="4.28125in" height="3.3125in"}
+![οο οο ](media/Gestalt-Principles-image4.png)
 
 
 
 7.  Closure
 
-![](media/Gestalt-Principles-image5.png){width="4.28125in" height="3.8333333333333335in"}
+![](media/Gestalt-Principles-image5.png)
 
 
 

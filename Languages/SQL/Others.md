@@ -14,9 +14,9 @@ TheCommon Table Expressions (CTE)were introduced into standard SQL in order to s
 
 <https://dev.to/helenanders26/why-you-should-use-sql-ctes-25lk>
 
-<https://www.geeksforgeeks.org/cte-in-sql/>
+<https://www.geeksforgeeks.org/cte-in-sql
 
-<https://www.essentialsql.com/introduction-common-table-expressions-ctes/>
+<https://www.essentialsql.com/introduction-common-table-expressions-ctes
 
 
 

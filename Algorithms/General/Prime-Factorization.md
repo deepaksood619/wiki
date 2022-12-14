@@ -28,7 +28,7 @@ Using a prime factorization tree to see the work, prime decomposition of 100 = 2
 
 
 
-![100 50 ](media/Prime-Factorization-image1.png){width="2.8125in" height="4.020833333333333in"}
+![100 50 ](media/Prime-Factorization-image1.png)
 
 
 
@@ -186,7 +186,7 @@ Auxiliary Space : O(1)
 
 
 
-<https://www.geeksforgeeks.org/find-divisors-natural-number-set-1/>
+<https://www.geeksforgeeks.org/find-divisors-natural-number-set-1
 
 
 

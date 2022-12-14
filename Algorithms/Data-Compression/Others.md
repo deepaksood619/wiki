@@ -6,7 +6,7 @@ Modified: 2022-01-16 15:12:39 +0500
 
 ---
 
-![Image for post](media/Others-image1.png){width="6.895833333333333in" height="4.572916666666667in"}
+![Image for post](media/Others-image1.png)
 
 **Zstd (by facebook)**
 
@@ -16,7 +16,7 @@ Zstandard, orzstdas short version, is a fast lossless compression algorithm, tar
 
 <https://github.com/facebook/zstd>
 
-<https://facebook.github.io/zstd/>
+<https://facebook.github.io/zstd
 
 
 
@@ -97,7 +97,7 @@ Roaring bitmaps are compressed bitmaps which tend to outperform conventional com
 
 
 
-<https://roaringbitmap.org/>
+<https://roaringbitmap.org
 
 
 

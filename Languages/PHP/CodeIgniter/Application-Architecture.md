@@ -8,7 +8,7 @@ Modified: 2020-09-03 00:10:16 +0500
 
 **Application Architecture**
 
-![Architecture of CodeIgniter](media/CodeIgniter_Application-Architecture-image1.png){width="6.208333333333333in" height="3.0625in"}
+![Architecture of CodeIgniter](media/CodeIgniter_Application-Architecture-image1.png)
 
 
 -   It will first go toindex.phppage
@@ -24,7 +24,7 @@ Modified: 2020-09-03 00:10:16 +0500
 
 The image given below shows the directory structure of the CodeIgniter
 
-![Directory Structure](media/CodeIgniter_Application-Architecture-image2.png){width="1.875in" height="3.5104166666666665in"}
+![Directory Structure](media/CodeIgniter_Application-Architecture-image2.png)
 
 
 
@@ -135,7 +135,7 @@ Beside these three folders, there is one more important file named "index.php". 
 
 CodeIgniter is based on theModel-View-Controller (MVC) development pattern. MVC is a software approach that separates application logic from presentation. In practice, it permits your web pages to contain minimal scripting since the presentation is separate from the PHP scripting.
 
-![MVC Framework](media/CodeIgniter_Application-Architecture-image3.jpg){width="4.03125in" height="4.177083333333333in"}
+![MVC Framework](media/CodeIgniter_Application-Architecture-image3.jpg)
 -   TheModelrepresents your data structures. Typically, your model classes will contain functions that help you retrieve, insert and update information in your database.
 -   TheViewis information that is being presented to a user. A View will normally be a web page, but in CodeIgniter, a view can also be a page fragment like a header or footer. It can also be an RSS page, or any other type of "page".
 -   TheControllerserves as an intermediary between the Model, the View, and any other resources needed to process the HTTP request and generate a web page.

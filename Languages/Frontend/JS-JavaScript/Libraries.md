@@ -12,7 +12,7 @@ Promise based HTTP client for the browser and node.js
 
 <https://github.com/axios/axios>
 
-<https://www.freecodecamp.org/news/how-to-use-axios-with-react/>
+<https://www.freecodecamp.org/news/how-to-use-axios-with-react
 
 <https://axios-http.com/docs/intro>
 
@@ -42,7 +42,7 @@ And the UI will be always fast and reactive.
 
 
 
-<https://swr.vercel.app/>
+<https://swr.vercel.app
 
 
 

@@ -16,7 +16,7 @@ Modified: 2021-12-01 16:17:51 +0500
 
 4.  DCL -- Data Control Language
 
-![DDL Data Definition Language CREATE ALTER DROP RENAME TRUNCATE COMMENT DQL Data Query Language SELECT SQL Commands DML Data Manipulation Data Control Language Language UPDATE EXPLAIN PLAN LOCK TABLE ](media/SQL-Commands-image1.jpg){width="5.0in" height="4.708333333333333in"}
+![DDL Data Definition Language CREATE ALTER DROP RENAME TRUNCATE COMMENT DQL Data Query Language SELECT SQL Commands DML Data Manipulation Data Control Language Language UPDATE EXPLAIN PLAN LOCK TABLE ](media/SQL-Commands-image1.jpg)
 
 
 

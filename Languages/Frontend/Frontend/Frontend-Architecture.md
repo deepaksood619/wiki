@@ -49,7 +49,7 @@ Beyond targeting the fundamental goals and standards of PWAs, PRPL strives to op
 
 
 
-<https://developers.google.com/web/fundamentals/performance/prpl-pattern/>
+<https://developers.google.com/web/fundamentals/performance/prpl-pattern
 
 <https://www.toptal.com/ui-ux-frontend-developer/interview-questions>
 
@@ -59,7 +59,7 @@ Beyond targeting the fundamental goals and standards of PWAs, PRPL strives to op
 
 **Single Page Applications (SPAs) / Multiple Page Applications (MPAs)**
 
-![Single Page Application Template Template SPA Templates view Template NO page refresh on request Traditional Web Application Page Whole page refresh on request Page Page ](media/Frontend-Architecture-image1.png){width="5.0in" height="2.9479166666666665in"}
+![Single Page Application Template Template SPA Templates view Template NO page refresh on request Traditional Web Application Page Whole page refresh on request Page Page ](media/Frontend-Architecture-image1.png)
 
 Before the advent of SPA's, Multiple Page Applications (MPA's) were widely used. Let's first see how MPA's work so that we can understand how useful SPA's are.
 
@@ -118,7 +118,7 @@ Pre-rendering is a tradeoff between client-side and server-side rendering. Every
 
 In an optimistic update the UI behaves as though a change was successfully completed before receiving confirmation from the server that it actually was - it is being optimistic that it will eventually get the confirmation rather than an error. This allows for a more responsive user experience.
 
-<https://www.apollographql.com/docs/react/v2/performance/optimistic-ui/>
+<https://www.apollographql.com/docs/react/v2/performance/optimistic-ui
 
 <https://medium.com/guidesmiths-dev/anatomy-of-a-react-application-optimistic-updates-e4a3318665c7>
 
@@ -165,7 +165,7 @@ Gatsby (React) and Gridsome (Vue)
 -   React Native - Build native mobile apps using the React framework
 -   **NativeScript** - Build native mobile apps with JS, TS, Angular or Vue
 
-<https://nativescript.org/>
+<https://nativescript.org
 -   Ionic - Build hybird mobile apps with JavaScript
 -   Xamarin - Build native mobile apps with C#
 
@@ -181,7 +181,7 @@ Gatsby (React) and Gridsome (Vue)
 
 
 
-<https://www.pwabuilder.com/>
+<https://www.pwabuilder.com
 
 
 

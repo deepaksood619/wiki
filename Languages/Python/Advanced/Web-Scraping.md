@@ -47,4 +47,4 @@ print(i, soup.body.div.div)
 
 <https://www.toptal.com/python/web-scraping-with-python>
 
-<https://www.freecodecamp.org/news/how-to-scrape-websites-with-python/>
+<https://www.freecodecamp.org/news/how-to-scrape-websites-with-python

@@ -16,7 +16,7 @@ Badges, Buttons, Breadcrumbs, Cards, Chips, Collections, Footer, Forms, Icons, N
 
 
 
-<https://mui.com/getting-started/supported-components/>
+<https://mui.com/getting-started/supported-components
 -   Accordion (Legacy Material v1)
 -   App bars
     -   Top

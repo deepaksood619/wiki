@@ -26,14 +26,14 @@ Modified: 2022-10-30 23:34:15 +0500
 
 **Sideways building**
 
-![Not this if (product == Products. CreditCard) { if (customer Type Customer. Primary) { if (customerStatus Status. Active) { if (customerAccounts.1ength > 2) { if (featureTogg1e0n) { displaylcon() ](media/Server-Driven-Mobile-UIs-image1.png){width="5.0in" height="4.09375in"}
+![Not this if (product == Products. CreditCard) { if (customer Type Customer. Primary) { if (customerStatus Status. Active) { if (customerAccounts.1ength > 2) { if (featureTogg1e0n) { displaylcon() ](media/Server-Driven-Mobile-UIs-image1.png)
 
 
 -   **Frontend should be dumb**
 
 
 
-![What does a server driven UI look like? Frontend templateld. Backend ](media/Server-Driven-Mobile-UIs-image2.png){width="5.0in" height="2.7708333333333335in"}
+![What does a server driven UI look like? Frontend templateld. Backend ](media/Server-Driven-Mobile-UIs-image2.png)
 -   **Frontend Templates**
     -   Templates are predefined UI layouts
     -   Templates have static layout, but dynamic content
@@ -59,7 +59,7 @@ Modified: 2022-10-30 23:34:15 +0500
 
 **Data Flow**
 
-![Mobile UI Template Engine(s) Static Resources Backend APIs ](media/Server-Driven-Mobile-UIs-image3.png){width="5.0in" height="2.1875in"}
+![Mobile UI Template Engine(s) Static Resources Backend APIs ](media/Server-Driven-Mobile-UIs-image3.png)
 
 
 
@@ -86,12 +86,12 @@ Use Case
     -   User setup can be customized based on product type
     -   You can easily create non-linear flows
 
-![Sign Up Page Product Type A Product Type B Product Type C Update Email Success Screen ](media/Server-Driven-Mobile-UIs-image4.png){width="5.0in" height="1.34375in"}
+![Sign Up Page Product Type A Product Type B Product Type C Update Email Success Screen ](media/Server-Driven-Mobile-UIs-image4.png)
 -   You can easily add new screen without UI updates
 -   Isolation of view & business logic enables better testing
     -   Testing of flows can be done on backend!
 
-![Sign Up Page Product Type A Product Type B Product Type C Update Email Success Screen Update Notifications ](media/Server-Driven-Mobile-UIs-image5.png){width="5.0in" height="1.1875in"}
+![Sign Up Page Product Type A Product Type B Product Type C Update Email Success Screen Update Notifications ](media/Server-Driven-Mobile-UIs-image5.png)
 
 **Tips & Tricks**
 -   Define a good use case first
@@ -118,9 +118,9 @@ Use Case
 
 
 
-![goto; ](media/Server-Driven-Mobile-UIs-image6.jpg){width="5.0in" height="2.8020833333333335in"}
+![goto; ](media/Server-Driven-Mobile-UIs-image6.jpg)
 
-![1}Il묺 나주」 ](media/Server-Driven-Mobile-UIs-image7.png){width="5.0in" height="4.520833333333333in"}
+![1}Il묺 나주」 ](media/Server-Driven-Mobile-UIs-image7.png)
 
 
 

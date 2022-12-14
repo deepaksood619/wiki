@@ -22,7 +22,7 @@ Non degeneracy Assumption - All x- and y- coordinates are distinct
 -   h-segment (right endpoint): remove y-coordinate from BST
 -   v-segment: 1 d range search for interval of y-endpoints
 
-![1-pjpas эбирј р [ ](media/Sweep-Line-Algorithm-image1.png){width="5.0in" height="2.2291666666666665in"}
+![1-pjpas эбирј р [ ](media/Sweep-Line-Algorithm-image1.png)
 
 
 

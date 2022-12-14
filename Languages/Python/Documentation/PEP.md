@@ -18,7 +18,7 @@ PEP-20 - Zen of Python (import this)
 
 
 
-<https://www.python.org/dev/peps/pep-0020/> (The Zen of Python)
+<https://www.python.org/dev/peps/pep-0020 (The Zen of Python)
 
 
 

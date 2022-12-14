@@ -8,7 +8,7 @@ Modified: 2021-11-24 07:02:48 +0500
 
 npx - npm package runner
 
-<https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference/>
+<https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference
 
 
 
@@ -102,7 +102,7 @@ yarn build # build a production ready deployment
 
 Fast, disk space efficient package manager
 
-<https://pnpm.io/>
+<https://pnpm.io
 
 <https://github.com/pnpm/pnpm>
 

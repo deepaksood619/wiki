@@ -273,7 +273,7 @@ Some test runners provide coverage integration to make it easy to use coverage.p
 
 
 
-<https://coverage.readthedocs.io/en/latest/>
+<https://coverage.readthedocs.io/en/latest
 
 
 -   **pytest-cov**
@@ -316,11 +316,11 @@ tox is a tool for automating test environment management and testing against mul
 
 <https://github.com/robotframework/robotframework>
 
-<https://robotframework.org/>
+<https://robotframework.org
 
 
 
-<https://realpython.com/python-testing/>
+<https://realpython.com/python-testing
 
 <https://medium.com/swlh/unit-testing-in-python-basics-21a9a57418a0>
 
@@ -360,7 +360,7 @@ assert sum([1, 2, 3]) == 6, "Should be 6"
 
 
 
-![from math import pi def circle_area(r): if type(r) not in [int, float]: raise TypeError("The radius must be a non-negative real number. ") if r < 0: raise ValueError("The radius cannot be negative. ") return pi* (r* *2) ](media/27.-Development-Tools_Testing-image1.png){width="5.0in" height="1.3854166666666667in"}
+![from math import pi def circle_area(r): if type(r) not in [int, float]: raise TypeError("The radius must be a non-negative real number. ") if r < 0: raise ValueError("The radius cannot be negative. ") return pi* (r* *2) ](media/27.-Development-Tools_Testing-image1.png)
 
 
 

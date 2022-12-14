@@ -73,7 +73,7 @@ Tables are divided into four different types,set,ordered_set,bag, andduplicate_b
 
 
 
-<https://elixirschool.com/en/lessons/specifics/ets/>
+<https://elixirschool.com/en/lessons/specifics/ets
 
 <http://erlang.org/doc/man/ets.html>
 
@@ -81,6 +81,6 @@ Tables are divided into four different types,set,ordered_set,bag, andduplicate_b
 
 **References**
 
-<https://www.erlang.org/>
+<https://www.erlang.org
 
 <https://www.erlang.org/course>

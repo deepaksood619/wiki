@@ -23,7 +23,7 @@ In Go language, defer statements delay the execution of the[function](https://ww
 
 
 
-<https://www.geeksforgeeks.org/defer-keyword-in-golang/>
+<https://www.geeksforgeeks.org/defer-keyword-in-golang
 
 
 

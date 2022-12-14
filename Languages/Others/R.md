@@ -179,7 +179,7 @@ The tidyverse is an opinionated[collection of R packages](https://www.tidyverse.
 
 
 
-<https://www.tidyverse.org/>
+<https://www.tidyverse.org
 
 
 

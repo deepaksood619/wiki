@@ -35,7 +35,7 @@ ReactDOM is a package that provides DOM specific methods that can be used at the
 
 
 
-<https://www.geeksforgeeks.org/reactjs-reactdom/>
+<https://www.geeksforgeeks.org/reactjs-reactdom
 
 <https://reactjs.org/docs/react-dom.html>
 

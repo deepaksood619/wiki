@@ -14,7 +14,7 @@ Goal: Rearrange array so that the result is a uniformly random permutation in li
 
 
 
-![public class StdRandom public static void a) int N = a. length; for (int i = 0; i < N; i + + ) int r = StdRandom.uniform(i + 1); exch (a, between O and i ](media/Knuth-Shuffle-image1.png){width="5.0in" height="2.4791666666666665in"}
+![public class StdRandom public static void a) int N = a. length; for (int i = 0; i < N; i + + ) int r = StdRandom.uniform(i + 1); exch (a, between O and i ](media/Knuth-Shuffle-image1.png)
 
 
 

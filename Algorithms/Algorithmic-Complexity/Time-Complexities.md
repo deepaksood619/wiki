@@ -191,7 +191,7 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 
 
 
-![log-log plot 512T 64T 4T 1K logarithmic constant 512K 2K 4K 8K swe Typical orders of growth ](media/Time-Complexities-image1.png){width="5.0in" height="4.697916666666667in"}
+![log-log plot 512T 64T 4T 1K logarithmic constant 512K 2K 4K 8K swe Typical orders of growth ](media/Time-Complexities-image1.png)
 
 
 

@@ -39,7 +39,7 @@ return start;
 
 
 
-<https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/monk-and-search-2/editorial/>
+<https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/monk-and-search-2/editorial
 
 
 
@@ -91,4 +91,4 @@ return mid + 1
 
 
 
-<https://www.geeksforgeeks.org/count-smaller-equal-elements-sorted-array/>
+<https://www.geeksforgeeks.org/count-smaller-equal-elements-sorted-array

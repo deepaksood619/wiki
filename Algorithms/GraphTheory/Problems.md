@@ -21,7 +21,7 @@ This is an example of Hamiltonian Path Problem. If the path's starting point and
 
 **Inorder Successor of BST**
 
-<https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/>
+<https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree
 
 
 
@@ -35,4 +35,4 @@ Ex - POP_ which will match both POPE and POPS
 
 
 
-<https://www.freecodecamp.org/news/8-essential-graph-algorithms-in-javascript/>
+<https://www.freecodecamp.org/news/8-essential-graph-algorithms-in-javascript

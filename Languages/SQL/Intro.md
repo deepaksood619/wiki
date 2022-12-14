@@ -26,7 +26,7 @@ Typically, you need to extract, transform, and load data into your RDBMS before 
 
 
 
-<http://www.helenanderson.co.nz/sql-concepts-from-a-to-z/>
+<http://www.helenanderson.co.nz/sql-concepts-from-a-to-z
 
 
 
@@ -34,11 +34,11 @@ SQL Queries Order - **FWGHSOL**
 
 
 
-![LIA EVANS SQL queries run in *his order FROM WHERE GRouP BY HAVING SELECT window funcåions happen here ORDER BY LIMIT ](media/Intro-image1.jpg){width="4.270833333333333in" height="6.5in"}
+![LIA EVANS SQL queries run in *his order FROM WHERE GRouP BY HAVING SELECT window funcåions happen here ORDER BY LIMIT ](media/Intro-image1.jpg)
 
 
 
-<https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/>
+<https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select
 
 
 
@@ -73,7 +73,7 @@ SQL's shortcomings can be grouped into these categories:
 
 **SQL Naming Conventions**
 
-<https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/>
+<https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions
 
 
 
@@ -117,11 +117,11 @@ Use HAVING COUNT(*) > 5 instead
 
 **Games**
 
-<https://mystery.knightlab.com/>
+<https://mystery.knightlab.com
 
-<https://selectstarsql.com/>
+<https://selectstarsql.com
 
-<https://littlekendra.com/course-category/sqlchallenges/>
+<https://littlekendra.com/course-category/sqlchallenges
 
 <https://github.com/WebDevSimplified/Learn-SQL>
 
@@ -131,7 +131,7 @@ Use HAVING COUNT(*) > 5 instead
 
 <https://dev.to/helenanders26/sql-201-10-ways-to-tweak-slow-running-queries-3pkb>
 
-<https://sql-steps.wizardzines.com/>
+<https://sql-steps.wizardzines.com
 
 <https://hakibenita.com/sql-dos-and-donts>
 

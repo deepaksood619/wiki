@@ -8,7 +8,7 @@ Modified: 2022-04-19 22:44:41 +0500
 
 [**https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062**](https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062)
 
-<https://prettier.io/>
+<https://prettier.io
 
 
 
@@ -26,11 +26,11 @@ Despite all the recent hype, setting up a new TypeScript (x React) library can b
 
 Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application. It uses the standardized ES module format for code, instead of previous idiosyncratic solutions such as CommonJS and AMD. ES modules let you freely and seamlessly combine the most useful individual functions from your favorite libraries. Rollup can optimize ES modules for faster native loading in modern browsers, or output a legacy module format allowing ES module workflows today.
 
-<https://stackblitz.com/>
+<https://stackblitz.com
 
 <https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en>
 
-<https://lisperator.net/uglifyjs/>
+<https://lisperator.net/uglifyjs
 
 <https://github.com/reactjs/react-codemod>
 
@@ -44,7 +44,7 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 
 [**https://github.com/vitejs/vite**](https://github.com/vitejs/vite)
 
-<https://vitejs.dev/>
+<https://vitejs.dev
 
 Next Generation Frontend Tooling
 
@@ -74,7 +74,7 @@ bundle assets, images, scripts, styles
 
 Install npm packages on the frontend
 
-![](media/Tools-image1.png){width="5.8125in" height="2.4375in"}
+![](media/Tools-image1.png)
 
 
 
@@ -84,7 +84,7 @@ Webpack also provides features like a local server with hot reload (they call it
 
 <https://www.toptal.com/react/webpack-react-tutorial-pt-1>
 
-<https://webpack.js.org/>
+<https://webpack.js.org
 
 <https://github.com/webpack/webpack>
 
@@ -228,7 +228,7 @@ ESLint helps you get used to best practices, but that's not its only benefit. ES
 
 <https://github.com/thedaviddias/Front-End-Checklist>
 
-<https://frontendchecklist.io/>
+<https://frontendchecklist.io
 
 
 

@@ -16,9 +16,9 @@ Modified: 2022-11-12 18:59:18 +0500
 
 
 
-<https://docs.djangoproject.com/en/4.1/topics/db/transactions/>
+<https://docs.djangoproject.com/en/4.1/topics/db/transactions
 
-<https://seddonym.me/2020/11/19/trouble-atomic/>
+<https://seddonym.me/2020/11/19/trouble-atomic
 
 
 

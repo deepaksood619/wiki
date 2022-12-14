@@ -14,7 +14,7 @@ Tornado is a Python web framework and asynchronous networking library. By using 
 
 <https://github.com/tornadoweb/tornado>
 
-<https://www.tornadoweb.org/en/stable/>
+<https://www.tornadoweb.org/en/stable
 
 
 
@@ -28,7 +28,7 @@ Pyramid makes it easy to write web applications. You can**start small**with this
 
 
 
-<https://trypyramid.com/>
+<https://trypyramid.com
 
 <https://github.com/Pylons/pyramid>
 
@@ -52,7 +52,7 @@ When it comes to building HTTP APIs, other frameworks weigh you down with tons o
 
 
 
-<https://falcon.readthedocs.io/en/stable/>
+<https://falcon.readthedocs.io/en/stable
 
 <https://github.com/falconry/falcon>
 
@@ -121,7 +121,7 @@ python test.py goodbye Deepak
 
 python test.py goodbye --formal Deepak
 
-<https://typer.tiangolo.com/>
+<https://typer.tiangolo.com
 
 
 
@@ -153,7 +153,7 @@ Sanic is arguably the most popular and most loved async framework in the Python 
 
 <https://github.com/huge-success/sanic>
 
-<https://sanic.readthedocs.io/en/latest/>
+<https://sanic.readthedocs.io/en/latest
 
 
 
@@ -161,7 +161,7 @@ Sanic is arguably the most popular and most loved async framework in the Python 
 
 [Vibora](https://vibora.io/)is a close cousin of Sanic, except that it's fixated on becoming the fastest Python web server out there. In fact, the very first visit of its website greets you with a framework comparison:
 
-![vibora-perf](media/Frameworks-image1.png){width="5.625in" height="2.8125in"}
+![vibora-perf](media/Frameworks-image1.png)
 
 As you can see, Vibora claims to be several times faster than the classic frameworks and being more than twice as fast as Sanic, its nearest competitor. Of course, benchmarks are to be taken with a grain of salt. 🙂
 

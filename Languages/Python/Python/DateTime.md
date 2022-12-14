@@ -67,7 +67,7 @@ print("time taken = %4.4f seconds" % (end_time-start_time))
 
 
 
-<https://realpython.com/python-timer/>
+<https://realpython.com/python-timer
 
 
 

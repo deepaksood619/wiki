@@ -16,7 +16,7 @@ For all elements -
 
 
 
-![public class Selection public static void a) int N = a. length; for (int i = int min = i for (int J if min = j; exch(a, i, min); private static boolean less(Comparab1e v, Comparable w) / * as before * / private static void / * as before * / a, int i, int j) ](media/Selection-Sort-image1.png){width="5.0in" height="3.8541666666666665in"}
+![public class Selection public static void a) int N = a. length; for (int i = int min = i for (int J if min = j; exch(a, i, min); private static boolean less(Comparab1e v, Comparable w) / * as before * / private static void / * as before * / a, int i, int j) ](media/Selection-Sort-image1.png)
 
 
 

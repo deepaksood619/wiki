@@ -77,7 +77,7 @@ The event loop is the term given to the process of the waiting for the queue to 
 
 
 
-![Call Stack link.addEventListener("click", changeColor) init() 2: its global eval: init "hey Runtime, call •changeColor• when someone clicks link when someone clicks the link.. enqueue a rnessage "click": changeColor Message Queue Event Loop ](media/Intro-image1.png){width="7.083333333333333in" height="4.041666666666667in"}
+![Call Stack link.addEventListener("click", changeColor) init() 2: its global eval: init "hey Runtime, call •changeColor• when someone clicks link when someone clicks the link.. enqueue a rnessage "click": changeColor Message Queue Event Loop ](media/Intro-image1.png)
 
 
 
@@ -97,7 +97,7 @@ V8 JS Engine - <https://www.youtube.com/watch?v=xckH5s3UuX4&ab_channel=freeCodeC
 
 2.  Alternative to AppCache
 
-<https://developers.google.com/web/fundamentals/primers/service-workers/>
+<https://developers.google.com/web/fundamentals/primers/service-workers
 
 
 
@@ -122,7 +122,7 @@ A scripting language specification on which the syntax of JavaScript - along wit
 
 
 
-<https://www.taniarascia.com/es6-syntax-and-feature-overview/>
+<https://www.taniarascia.com/es6-syntax-and-feature-overview
 
 ECMAScript 2015, also known as ES6, introduced many changes to JavaScript.
 
@@ -130,7 +130,7 @@ ECMAScript 2015, also known as ES6, introduced many changes to JavaScript.
 
 **ES Modules**
 
-<https://www.freecodecamp.org/news/javascript-modules-beginners-guide/>
+<https://www.freecodecamp.org/news/javascript-modules-beginners-guide
 
 
 
@@ -152,23 +152,23 @@ Why I hate JS - <https://charlieharvey.org.uk/page/javascript_the_weird_parts>
 
 <https://www.toptal.com/javascript/tips-and-practices>
 
-<https://www.freecodecamp.org/news/how-javascript-implements-oop/>
+<https://www.freecodecamp.org/news/how-javascript-implements-oop
 
-<https://www.freecodecamp.org/news/complete-introduction-to-the-most-useful-javascript-array-methods/>
+<https://www.freecodecamp.org/news/complete-introduction-to-the-most-useful-javascript-array-methods
 
-<https://www.freecodecamp.org/news/javascript-lexical-scope-tutorial/>
+<https://www.freecodecamp.org/news/javascript-lexical-scope-tutorial
 
-<https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/>
+<https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript
 
-<https://www.freecodecamp.org/news/learn-javascript-form-validation-by-making-a-form/>
+<https://www.freecodecamp.org/news/learn-javascript-form-validation-by-making-a-form
 
 <https://github.com/airbnb/javascript>
 
 <https://www.freecodecamp.org/news/execution-context-how-javascript-works-behind-the-scenes>
 
-<https://www.freecodecamp.org/news/javascript-es-modules-and-module-bundlers/>
+<https://www.freecodecamp.org/news/javascript-es-modules-and-module-bundlers
 
-<https://www.freecodecamp.org/news/lexical-scope-in-javascript/>
+<https://www.freecodecamp.org/news/lexical-scope-in-javascript
 
-<https://www.freecodecamp.org/news/objects-in-javascript-for-beginners/>
+<https://www.freecodecamp.org/news/objects-in-javascript-for-beginners
 

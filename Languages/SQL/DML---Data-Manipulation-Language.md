@@ -133,7 +133,7 @@ WHERE hash_key = '2322675,test3'
 
 LIMIT 1;
 
-<https://ypereirareis.github.io/blog/2016/03/22/mysql-insert-ignore-alternatives/>
+<https://ypereirareis.github.io/blog/2016/03/22/mysql-insert-ignore-alternatives
 
 
 
@@ -210,7 +210,7 @@ It is non-destructive, means it doesn't have to drop the duplicate row. Instead,
 
 
 
-<https://www.techbeamers.com/mysql-upsert/>
+<https://www.techbeamers.com/mysql-upsert
 
 <https://www.javatpoint.com/mysql-upsert>
 
@@ -256,4 +256,4 @@ What you don't want to see in Extra:
 
 
 
-<https://www.sitepoint.com/using-explain-to-write-better-mysql-queries/>
+<https://www.sitepoint.com/using-explain-to-write-better-mysql-queries

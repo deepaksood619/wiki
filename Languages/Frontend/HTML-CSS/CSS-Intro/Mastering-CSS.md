@@ -27,7 +27,7 @@ Property: value;
 
 
 
-<https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/>
+<https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage
 
 
 
@@ -67,7 +67,7 @@ Inline Elements sit next to each other, they only take up size only as much as t
 
 Used to eliminate browser inconsistencies with default browser styling and really eliminate all browser defaults in general.
 
-Load css reset - eric meyer's reset <http://meyerweb.com/eric/tools/css/reset/>
+Load css reset - eric meyer's reset <http://meyerweb.com/eric/tools/css/reset
 
 
 

@@ -18,7 +18,7 @@ The complete set of design standards, documentation, UI patterns, and components
 
 
 
-![Design System Spacing ios Icons Colors React Components Consumer Web Fonts Android ](media/Design-System-image1.png){width="5.0in" height="3.6666666666666665in"}
+![Design System Spacing ios Icons Colors React Components Consumer Web Fonts Android ](media/Design-System-image1.png)
 
 
 
@@ -38,13 +38,13 @@ Atomic design is methodology for creating design systems. There are five distinc
 
 
 
-![ATOMS MOLECULES 0000 0+0+0+0 0+0+0+0 ORGANISMS TEMPLATES PAGES ](media/Design-System-image2.jpeg){width="5.0in" height="1.375in"}
+![ATOMS MOLECULES 0000 0+0+0+0 0+0+0+0 ORGANISMS TEMPLATES PAGES ](media/Design-System-image2.jpeg)
 
 
 
-<https://bradfrost.com/blog/post/atomic-web-design/>
+<https://bradfrost.com/blog/post/atomic-web-design
 
-<https://atomicdesign.bradfrost.com/table-of-contents/>
+<https://atomicdesign.bradfrost.com/table-of-contents
 
 
 
@@ -68,48 +68,48 @@ Storybook is an open source tool for developing UI components in isolation for R
 
 
 
-<https://www.freecodecamp.org/news/what-is-storybook-and-how-can-i-use-it-to-create-a-component-libary-in-react/>
+<https://www.freecodecamp.org/news/what-is-storybook-and-how-can-i-use-it-to-create-a-component-libary-in-react
 
-<https://storybook.js.org/>
+<https://storybook.js.org
 
 <https://github.com/storybookjs/storybook>
 
 
--   <https://patternlab.io/>
+-   <https://patternlab.io
 
 Pattern Lab is a frontend workshop environment that helps you build, view, test, and showcase your design system's UI components.
 
 
--   <https://penpot.app/>
+-   <https://penpot.app
 
 Penpot is the first Open Source design and prototyping platform meant for cross-domain teams. Non dependent on operating systems, Penpot is web based and works with open web standards (SVG). For all and empowered by the community.
 
 
--   <https://www.invisionapp.com/>
+-   <https://www.invisionapp.com
 
 
 
 **Color Palette picker**
 
-<http://colormind.io/>
+<http://colormind.io
 
-<https://mycolor.space/>
+<https://mycolor.space
 
-<https://coolors.co/>
+<https://coolors.co
 
 
 
 **Typography tools**
 
-<https://type-scale.com/>
+<https://type-scale.com
 
-<https://www.modularscale.com/>
+<https://www.modularscale.com
 
-<https://www.figma.com/best-practices/typography-systems-in-figma/>
+<https://www.figma.com/best-practices/typography-systems-in-figma
 
-<https://www.figma.com/best-practices/typography-systems-in-figma/typography-scales/>
+<https://www.figma.com/best-practices/typography-systems-in-figma/typography-scales
 
-<https://jhildenbiddle.github.io/vertical-rhythm-reset/>
+<https://jhildenbiddle.github.io/vertical-rhythm-reset
 
 
 
@@ -117,7 +117,7 @@ Penpot is the first Open Source design and prototyping platform meant for cross-
 
 
 
-**Course - <https://www.freecodecamp.org/news/how-to-design-good-typography/>**
+**Course - <https://www.freecodecamp.org/news/how-to-design-good-typography**
 
 
 
@@ -127,10 +127,10 @@ Penpot is the first Open Source design and prototyping platform meant for cross-
 
 
 
-<https://www.invisionapp.com/inside-design/guide-to-design-systems/>
+<https://www.invisionapp.com/inside-design/guide-to-design-systems
 
 <https://medium.com/@siw_grinaker/top-12-design-systems-b598368be5a6>
 
-<https://www.freecodecamp.org/news/how-to-create-and-implement-a-design-system-with-css/>
+<https://www.freecodecamp.org/news/how-to-create-and-implement-a-design-system-with-css
 
 

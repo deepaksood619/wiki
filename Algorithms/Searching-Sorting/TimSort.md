@@ -28,7 +28,7 @@ Tim sort is a hybrid algorithm which uses Binary insertion sort and improved mer
 
 Binary insertion sort uses Binary search to insert a new value in a sorted array. Binary search reduces number of comparisons thus more efficient than linear search.
 
-![Sort](media/TimSort-image1.png){width="5.0in" height="2.7708333333333335in"}
+![Sort](media/TimSort-image1.png)
 
 In above example, Binary insertion sort requires 2 iteration to find location to insert 8 whereas linear search would find location in 4th iteration.
 
@@ -44,7 +44,7 @@ An input array is divided into different sub-arrays, count of elements inside a 
 
 A RUN can be either ascending or strictly descending. If elements are decreasing then in place swapping converts them into ascending order, elements that have equal values aren't swapped to maintain stability
 
-![RUN](media/TimSort-image2.png){width="5.0in" height="1.90625in"}
+![RUN](media/TimSort-image2.png)
 
 A run smaller than min run is extended to make count equal to min run. Now this new run is sorted using binary insertion sort which has a best run time on partially ordered data. Ultimately, every run should be greater or equal to the min run and it shouldn't be less than 2.
 
@@ -56,7 +56,7 @@ MIN_RUN ensures that input array is split in such a way that when merge happens,
 
 Let's understand it with an example below-:
 
-![Merge](media/TimSort-image3.png){width="5.0in" height="2.1875in"}
+![Merge](media/TimSort-image3.png)
 
 In left diagram above, we have 4 sub-arrays of size 2 which perform perfectly balanced merge at each step. In right diagram, we have 5 sub-arrays of size 2 which doesn't allow perfect balanced merge to happen.
 
@@ -82,7 +82,7 @@ If we consider three sub-arrays A, B and C from left to right then Tim sort comp
 
 2.  B > C
 
-![stack](media/TimSort-image4.png){width="5.0in" height="2.7708333333333335in"}
+![stack](media/TimSort-image4.png)
 
 Merging two sub-arrays in place efficiently is very difficult and slow but if we have a temporary array this process can be faster and easier to implement. Tim sort uses temp array to perform merge between two arrays.
 
@@ -106,7 +106,7 @@ In below example, 101 is searched inside array A for 7 times and every time arra
 
 Now we compare 101 directly with A[mid] = 50 thus save lot of comparisons.
 
-![gallop](media/TimSort-image5.png){width="5.0in" height="2.2083333333333335in"}
+![gallop](media/TimSort-image5.png)
 
 
 
@@ -116,7 +116,7 @@ Now we compare 101 directly with A[mid] = 50 thus save lot of comparisons.
 
 <https://svn.python.org/projects/python/trunk/Objects/listsort.txt>
 
-<https://skerritt.blog/timsort-the-fastest-sorting-algorithm-youve-never-heard-of/>
+<https://skerritt.blog/timsort-the-fastest-sorting-algorithm-youve-never-heard-of
 
 
 

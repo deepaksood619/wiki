@@ -180,7 +180,7 @@ Context managers that have state should use Context Variables instead of [thread
 
 **MicroPython**
 
-<https://realpython.com/micropython/>
+<https://realpython.com/micropython
 
 
 
@@ -199,7 +199,7 @@ If your descriptor implements just.__get__(), then it's said to be anon-data des
 
 
 
-<https://realpython.com/python-descriptors/>
+<https://realpython.com/python-descriptors
 
 
 
@@ -260,13 +260,13 @@ python -m package.standalone
 
 **Others**
 
-<https://dev.libreneitor.com/expert-python-topics-you-should-know/>
+<https://dev.libreneitor.com/expert-python-topics-you-should-know
 
-<https://realpython.com/run-python-scripts/>
+<https://realpython.com/run-python-scripts
 
-<https://realpython.com/storing-images-in-python/>
+<https://realpython.com/storing-images-in-python
 
-<https://realpython.com/python-coding-interview-tips/>
+<https://realpython.com/python-coding-interview-tips
 
 
 

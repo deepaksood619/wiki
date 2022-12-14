@@ -8,9 +8,9 @@ Modified: 2022-09-07 23:25:06 +0500
 
 **Nocode**
 
-<https://flutterflow.io/>
+<https://flutterflow.io
 
-<https://www.judo.app/>
+<https://www.judo.app
 
 Judo brings server-driven UI to your iOS and Android apps. Build user interfaces visually in a fraction of time and publish them instantly without submitting to the app store.
 
@@ -32,7 +32,7 @@ Judo brings server-driven UI to your iOS and Android apps. Build user interfaces
 
 #Contexts = #Activities + #Services + #1 Application Context
 
-![ContentProvider Starting Activity Layout Inflation Trigger Dialog Starting Service Service Binding Send Broadcast Register Broadcast Load Resources Context used right way Activity Yes Yes Yes Yes Yes Yes Yes Yes Application Not Recommended Not Recommended Yes Yes Yes Yes Yes Service Not Recommended Not Recommended Yes Yes Yes Yes BroadcastReceiver Not Recommended Not Recommended Not Recommended Not Recommended Yes Yes Yes Yes Yes Yes Yes Not Recommended Yes ](media/Android-image1.png){width="5.0in" height="2.8645833333333335in"}
+![ContentProvider Starting Activity Layout Inflation Trigger Dialog Starting Service Service Binding Send Broadcast Register Broadcast Load Resources Context used right way Activity Yes Yes Yes Yes Yes Yes Yes Yes Application Not Recommended Not Recommended Yes Yes Yes Yes Yes Service Not Recommended Not Recommended Yes Yes Yes Yes BroadcastReceiver Not Recommended Not Recommended Not Recommended Not Recommended Yes Yes Yes Yes Yes Yes Yes Not Recommended Yes ](media/Android-image1.png)
 
 
 
@@ -76,7 +76,7 @@ Mosquitto MQTT Broker
 
 **Serializable vs Parcelable**
 
-<http://www.developerphil.com/parcelable-vs-serializable/>
+<http://www.developerphil.com/parcelable-vs-serializable
 
 
 
@@ -163,7 +163,7 @@ AIDL (Android Interface Definition Language) allows you to define the programmin
 
 **HAL (Hardware Abstraction Layer)**
 
-<https://source.android.com/devices/architecture/hal-types/>
+<https://source.android.com/devices/architecture/hal-types
 
 
 
@@ -178,7 +178,7 @@ The goals of Hilt are:
 -   To create a standard set of components and scopes to ease setup, readability/understanding, and code sharing between apps.
 -   To provide an easy way to provision different bindings to various build types (e.g. testing, debug, or release).
 
-<https://dagger.dev/hilt/>
+<https://dagger.dev/hilt
 
 <https://developer.android.com/codelabs/android-hilt>
 
@@ -252,7 +252,7 @@ Crashlytics.log(int priority, String tag, String msg);
 <https://developer.android.com/training/testing/fundamentals>
 
 
--   Parceler (<http://parceler.org/>)
+-   Parceler (<http://parceler.org)
 
 
 
@@ -304,7 +304,7 @@ Crashlytics.log(int priority, String tag, String msg);
 
 **Activity Lifecycle**
 
-![User navigates to the activity App process killed Apps with higher priority need memory on Create() onstart() onResume() running Another activity comes into the foreground onPauseO The activity is no longer visible onStop() The activity is finishing or being destroyed by the system onDestroy() shut down on Restart() user returns to the activity User navigates to the activity ](media/Android-image2.png){width="5.0in" height="6.458333333333333in"}
+![User navigates to the activity App process killed Apps with higher priority need memory on Create() onstart() onResume() running Another activity comes into the foreground onPauseO The activity is no longer visible onStop() The activity is finishing or being destroyed by the system onDestroy() shut down on Restart() user returns to the activity User navigates to the activity ](media/Android-image2.png)
 
 
 
@@ -463,7 +463,7 @@ The broadcast receiver communicates with the operation system messages such as "
 
 **Testing**
 
-![Image for post](media/Android-image3.jpg){width="5.0in" height="3.75in"}
+![Image for post](media/Android-image3.jpg)
 
 <https://proandroiddev.com/a-guide-to-test-pyramid-in-android-end-to-end-and-manual-tests-part-4-3a16af96b78c>
 
@@ -525,13 +525,13 @@ Smartlookrecords users on websites and in mobile apps.With features that allow y
 
 
 
-<https://www.smartlook.com/>
+<https://www.smartlook.com
 
 <https://smartlook.github.io/docs/sdk/android>
 
 
 -   <https://github.com/CameraKit/camerakit-android>
--   <https://ui.perfetto.dev/>
+-   <https://ui.perfetto.dev
 -   Bluestacks
 -   <https://github.com/Genymobile/scrcpy>
 

@@ -126,13 +126,13 @@ return max_so_far
 
 
 
-<https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/>
+<https://www.geeksforgeeks.org/largest-sum-contiguous-subarray
 
 
 
 **Maximum Product Subarray**
 
-<https://www.geeksforgeeks.org/maximum-product-subarray/>
+<https://www.geeksforgeeks.org/maximum-product-subarray
 
 
 
@@ -273,7 +273,7 @@ search(x)
 
 
 
-<https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time/>
+<https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time
 
 
 

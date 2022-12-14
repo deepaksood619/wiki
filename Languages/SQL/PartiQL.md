@@ -12,7 +12,7 @@ Data may also reside in the data lake, stored in formats that may lack schema, o
 
 Today we are happy to announce[PartiQL](https://partiql.org/), a SQL-compatible query language that makes it easy to efficiently query data, regardless of where or in what format it is stored. As long as your query engine supports PartiQL, you can process structured data from relational databases (both transactional and analytical), semi-structured and nested data in open data formats (such as an Amazon S3 data lake), and even schema-less data in NoSQL or document databases that allow different attributes for different rows. We are open sourcing the PartiQL[tutorial](https://partiql.org/tutorial.html),[specification](https://partiql.org/assets/PartiQL-Specification.pdf), and a[reference implementation](https://github.com/partiql/)of the language under the Apache2.0 license, so that everyone can participate, contribute, and use it to drive widespread adoption for this unifying query language.
 
-![Diagram showing where PartiQL fits with other data sources.](media/PartiQL-image1.png){width="4.114583333333333in" height="2.90625in"}
+![Diagram showing where PartiQL fits with other data sources.](media/PartiQL-image1.png)
 
 
 
@@ -30,9 +30,9 @@ The PartiQL open source will make it easy for developers to parse and embed Part
 
 
 
-![PartiQL reference implementation architecture.](media/PartiQL-image2.png){width="6.197916666666667in" height="4.270833333333333in"}
+![PartiQL reference implementation architecture.](media/PartiQL-image2.png)
 
-<https://aws.amazon.com/blogs/opensource/announcing-partiql-one-query-language-for-all-your-data/>
+<https://aws.amazon.com/blogs/opensource/announcing-partiql-one-query-language-for-all-your-data
 
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html>
 

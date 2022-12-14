@@ -26,7 +26,7 @@ if x <= y <= z:
 
 2.  **Use the falsy and truthy concept**
 
-<https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/>
+<https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python
 
 
 

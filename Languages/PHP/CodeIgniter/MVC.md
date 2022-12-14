@@ -6,7 +6,7 @@ Modified: 2020-10-30 00:29:19 +0500
 
 ---
 
-![Flow Chart](media/CodeIgniter_MVC-image1.png){width="5.0in" height="3.40625in"}
+![Flow Chart](media/CodeIgniter_MVC-image1.png)
 
 
 

@@ -12,7 +12,7 @@ Modified: 2022-05-04 20:50:24 +0500
 
 **Assembly Language**
 
-<https://www.freecodecamp.org/news/learn-assembly-language-programming-with-arm/>
+<https://www.freecodecamp.org/news/learn-assembly-language-programming-with-arm
 
 
 
@@ -22,9 +22,9 @@ Elixir's relationship to the Erlang virtual machine (BEAM); the advantages of th
 
 
 
-<https://schneider.dev/blog/elixir-phoenix-absinthe-graphql-react-apollo-absurdly-deep-dive/>
+<https://schneider.dev/blog/elixir-phoenix-absinthe-graphql-react-apollo-absurdly-deep-dive
 
-<https://foxbox.com/blog/elixir-vs-ruby/>
+<https://foxbox.com/blog/elixir-vs-ruby
 
 
 
@@ -88,7 +88,7 @@ Apache Groovyis a[Java](https://en.wikipedia.org/wiki/Java_(programming_language
 
 <https://en.wikipedia.org/wiki/Apache_Groovy>
 
-<http://groovy-lang.org/>
+<http://groovy-lang.org
 
 
 
@@ -100,7 +100,7 @@ Dark is a holistic programming language, editor, and infrastructure for building
 
 
 
-<https://darklang.com/>
+<https://darklang.com
 
 <https://darklang.com/a/deepaksood619>
 
@@ -122,11 +122,11 @@ As an explanatory analogy, Apache TinkerPop and Gremlin are to[graph databases](
 
 
 
-<http://tinkerpop.apache.org/>
+<http://tinkerpop.apache.org
 
 <https://tinkerpop.apache.org/gremlin.html>
 
-<http://sql2gremlin.com/>
+<http://sql2gremlin.com
 
 <https://github.com/tinkerpop/gremlin/wiki>
 
@@ -178,9 +178,9 @@ Why Clojure sucks
 
 <https://medium.com/swlh/what-i-learned-after-writing-clojure-for-424-days-straight-8884ec471f8e>
 
-Reading - <https://www.braveclojure.com/>
+Reading - <https://www.braveclojure.com
 
-<https://clojure.org/>
+<https://clojure.org
 
 <https://clojure.org/about/rationale>
 
@@ -215,7 +215,7 @@ Datalog is a deductive query system combining a database of facts (the Datomic d
 
 <https://en.wikipedia.org/wiki/Datalog>
 
-<https://docs.racket-lang.org/datalog/>
+<https://docs.racket-lang.org/datalog
 
 
 
@@ -225,7 +225,7 @@ Racket is a[general-purpose programming language](https://docs.racket-lang.org/q
 
 
 
-<https://racket-lang.org/>
+<https://racket-lang.org
 
 
 
@@ -260,7 +260,7 @@ Rather than being a standalone programming language, Halide is embedded in C++. 
 
 
 
-<http://halide-lang.org/>
+<http://halide-lang.org
 
 
 
@@ -310,11 +310,11 @@ Flux is a lightweight scripting language for querying databases (like InfluxDB) 
 
 
 
-<https://www.influxdata.com/blog/why-were-building-flux-a-new-data-scripting-and-query-language/>
+<https://www.influxdata.com/blog/why-were-building-flux-a-new-data-scripting-and-query-language
 
 <https://github.com/influxdata/flux>
 
-<https://docs.influxdata.com/flux/v0.7/>
+<https://docs.influxdata.com/flux/v0.7
 
 <https://github.com/fluxcd/flux2>
 
@@ -344,4 +344,4 @@ Simple, fast, safe, compiled language for developing maintainable software. Supp
 
 <https://github.com/vlang/v>
 
-<https://vlang.io/>
+<https://vlang.io

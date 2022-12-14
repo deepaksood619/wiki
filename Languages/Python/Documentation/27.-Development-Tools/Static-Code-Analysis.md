@@ -54,9 +54,6 @@ $ pylint --disable=all --enable=duplicate-code .
 
 4.  pyflakes
 
-```{=html}
-<!-- -->
-```
 5.  **autoflake**
 
 autoflakeremoves unused imports and unused variables from Python code. It makes use of[pyflakes](http://pypi.python.org/pypi/pyflakes)to do this.
@@ -81,13 +78,13 @@ You can mix dynamic and static typing in your programs. You can always fall back
 
 <https://github.com/python/mypy>
 
-<http://mypy-lang.org/>
+<http://mypy-lang.org
 
 <https://medium.com/analytics-vidhya/type-annotations-in-python-3-8-3b401384403d>
 
 
 
-<https://sourcery.ai/blog/python-best-practices/>
+<https://sourcery.ai/blog/python-best-practices
 
 
 
@@ -129,7 +126,7 @@ Pyre ships withPysa, a security focused static analysis tool we've built on top 
 
 [https://pyre-check.org](https://pyre-check.org/)
 
-<https://github.com/facebook/pyre-check/>
+<https://github.com/facebook/pyre-check
 
 
 
@@ -299,7 +296,7 @@ additional_dependencies: [black==20.8b1]
 
 <https://pre-commit.com/hooks.html>
 
-<https://pre-commit.com/>
+<https://pre-commit.com
 
 [**https://github.com/pre-commit/pre-commit-hooks**](https://github.com/pre-commit/pre-commit-hooks)
 
@@ -432,7 +429,7 @@ Bandit is a tool designed to find common security issues in Python code. To do t
 
 
 
-<https://pypi.org/project/bandit/>
+<https://pypi.org/project/bandit
 
 
 
@@ -446,7 +443,7 @@ black .
 
 
 
-![Image for post](media/27.-Development-Tools_Static-Code-Analysis-image1.png){width="5.0in" height="1.0520833333333333in"}
+![Image for post](media/27.-Development-Tools_Static-Code-Analysis-image1.png)
 
 
 
@@ -504,7 +501,7 @@ Besides radon, there are various other packages and Flake8 plugins:
 
 
 
-Linting & formatting - <https://realpython.com/python-pep8/>
+Linting & formatting - <https://realpython.com/python-pep8
 
 **Pep8 Naming Convention for files**
 -   modules (filenames) should have*short, all-lowercase names*, and they can contain underscores;

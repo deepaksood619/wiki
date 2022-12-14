@@ -162,4 +162,4 @@ y **=** x1
 
 1.  <https://en.wikipedia.org/wiki/Euclidean_algorithm>
 
-2.  <https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/>
+2.  <https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended

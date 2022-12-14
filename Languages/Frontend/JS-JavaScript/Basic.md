@@ -157,9 +157,6 @@ Inequality operator will convert data types of values while comparing
 
 3.  3 != "3" // true
 
-```{=html}
-<!-- -->
-```
 3.  Greater than ( > )
 
 4.  Less than ( < )
@@ -180,9 +177,6 @@ It means "Strictly Not Equal". Strict inequality will not convert data types.
 
 3.  4 !== 3 // true
 
-```{=html}
-<!-- -->
-```
 3.  Logical or Relational Operators
 
     a.  Logical AND (&&)
@@ -374,9 +368,6 @@ if (0) {
 
 1.  String.length
 
-```{=html}
-<!-- -->
-```
 2.  String.prototype.split()
 
 3.  String.prototype.replace()
@@ -831,7 +822,7 @@ console.log(rest);
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>
 
-<https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript/>
+<https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript
 
 
 
@@ -845,7 +836,7 @@ Spread syntax(...) allows an iterable such as an array expression or string to b
 
 
 
-<https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/>
+<https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter
 -   Object destructuring is new syntax introduced in ES6. It helps create variables by extracting the object's properties in a much simpler way.
 -   If you are working with (or planning to use) a framework/library likeangular,react, orvue, you will be using a lot of object destructuring syntax.
 -   Object destructuring and Spread syntax are not the same thing.

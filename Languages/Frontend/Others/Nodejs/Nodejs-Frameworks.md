@@ -8,7 +8,7 @@ Modified: 2022-11-23 22:58:25 +0500
 
 **Comparision**
 
-<http://nodeframework.com/>
+<http://nodeframework.com
 
 
 
@@ -33,7 +33,7 @@ Modified: 2022-11-23 22:58:25 +0500
 -   AdonisJS
 -   Express.js
 
-<https://www.freecodecamp.org/news/the-express-handbook/>
+<https://www.freecodecamp.org/news/the-express-handbook
 -   Meteor.js
 -   Nest.js
 -   Sails.js
@@ -45,14 +45,8 @@ Modified: 2022-11-23 22:58:25 +0500
 -   Molecular
 -   Apollo Data Graph Platform
 
-```{=html}
-<!-- -->
-```
 -   **Ghost (Blogging platform)**
 
-```{=html}
-<!-- -->
-```
 -   Feather.js (feathers)
 -   Mean.io
 -   Strapi.js
@@ -269,7 +263,7 @@ Moleculer is a fault tolerant framework. It has built-in load balancer, circuit 
 
 
 
-<https://moleculer.services/>
+<https://moleculer.services
 
 <https://github.com/moleculerjs/moleculer>
 
@@ -282,7 +276,7 @@ Simplify app development by combining APIs, databases, and microservices into a 
 
 
 
-<https://www.apollographql.com/>
+<https://www.apollographql.com
 
 
 -   **Ghost (CMS)**

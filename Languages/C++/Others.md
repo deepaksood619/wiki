@@ -60,4 +60,4 @@ The loss of type and dimensions of an array is known as decay of an array.This g
 
 
 
-<https://www.geeksforgeeks.org/what-is-array-decay-in-c-how-can-it-be-prevented/>
+<https://www.geeksforgeeks.org/what-is-array-decay-in-c-how-can-it-be-prevented

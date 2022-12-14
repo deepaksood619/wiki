@@ -118,7 +118,7 @@ Don't worry about the x1, y1,, x2 and y2. You'll never create cubic-bezier curve
 
 You can rely on both Chrome and Firefox's trusty developer tools to help you create your curves. To use it, you add a transition-timing-function into an element, then open up devtools and click on the timing function.
 
-![Both Chrome and Firefox provides you with a cubic-bezier tool](media/CSS-Intro_CSS-Transitions-image1.png){width="6.5in" height="3.3333333333333335in"}
+![Both Chrome and Firefox provides you with a cubic-bezier tool](media/CSS-Intro_CSS-Transitions-image1.png)
 
 Both Chrome and Firefox provides you with a cubic-bezier tool
 
@@ -188,5 +188,5 @@ Remember to change your transition-timing-function so your animation looks more 
 
 
 
-<https://zellwk.com/blog/css-transitions/>
+<https://zellwk.com/blog/css-transitions
 

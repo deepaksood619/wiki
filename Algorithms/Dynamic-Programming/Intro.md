@@ -44,7 +44,7 @@ A given problems has Optimal Substructure Property if optimal solution of the gi
 
 Both Tabulated and Memoized store the solutions of subproblems. In Memoized version, table is filled on demand while in Tabulated version, starting from the first entry, all entries are filled one by one. Unlike the Tabulated version, all entries of the lookup table are not necessarily filled in Memoized version.
 
-![tabulation-vs-memoization](media/Intro-image1.png){width="5.65625in" height="2.9270833333333335in"}
+![tabulation-vs-memoization](media/Intro-image1.png)
 
 Majority of the Dynamic Programming problems can be categorized into two types:
 
@@ -72,13 +72,13 @@ Algorithms
 
 
 
-<https://www.geeksforgeeks.org/dynamic-programming/>
+<https://www.geeksforgeeks.org/dynamic-programming
 
-<https://www.geeksforgeeks.org/dynamic-programming-set-1/>
+<https://www.geeksforgeeks.org/dynamic-programming-set-1
 
-<https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/>
+<https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property
 
-<https://www.freecodecamp.org/news/learn-dynamic-programing-to-solve-coding-challenges/>
+<https://www.freecodecamp.org/news/learn-dynamic-programing-to-solve-coding-challenges
 
 [Dynamic Programming](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
 

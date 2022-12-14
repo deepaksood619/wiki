@@ -619,8 +619,8 @@ MySQL converts TIMESTAMP values from the current time zone to UTC for storage, a
 
 
 
-<https://www.eversql.com/mysql-datetime-vs-timestamp-column-types-which-one-i-should-use/>
+<https://www.eversql.com/mysql-datetime-vs-timestamp-column-types-which-one-i-should-use
 
 <https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql>
 
-<https://www.c-sharpcorner.com/article/difference-between-mysql-datetime-and-timestamp-datatypes/>
+<https://www.c-sharpcorner.com/article/difference-between-mysql-datetime-and-timestamp-datatypes

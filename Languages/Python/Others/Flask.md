@@ -26,7 +26,7 @@ Flask is classified as a microframework because it does not require particular t
 
 
 
-<https://stxnext.com/blog/2018/09/27/beginners-introduction-python-frameworks/>
+<https://stxnext.com/blog/2018/09/27/beginners-introduction-python-frameworks
 
 
 
@@ -490,21 +490,21 @@ to_python()is used to convert the path in the URL to a Python object that will b
 
 **Debugging**
 
-<https://blog.theodo.com/2020/05/debug-flask-vscode/>
+<https://blog.theodo.com/2020/05/debug-flask-vscode
 
 
 
 **Flask Extensions / Libraries / Plugins**
 
-**Flask-admin -** <https://flask-admin.readthedocs.io/en/latest/>
+**Flask-admin -** <https://flask-admin.readthedocs.io/en/latest
 
 <https://www.youtube.com/watch?v=ysdShEL1HMM>
 
 **Flask-blueprint**
 
-<https://flask.palletsprojects.com/en/1.1.x/blueprints/>
+<https://flask.palletsprojects.com/en/1.1.x/blueprints
 
-<https://realpython.com/flask-blueprint/>
+<https://realpython.com/flask-blueprint
 
 
 
@@ -512,29 +512,29 @@ to_python()is used to convert the path in the URL to a Python object that will b
 
 **Flask-Restful - <https://github.com/flask-restful/flask-restful>**
 
-**Flask-restplus (DEAD) -** <https://flask-restplus.readthedocs.io/en/stable/>
+**Flask-restplus (DEAD) -** <https://flask-restplus.readthedocs.io/en/stable
 
 <https://medium.com/@preslavrachev/designing-well-structured-rest-apis-with-flask-restplus-part-1-7e96f2da8850>
 
-**Flask-Marshmallow -** <https://flask-marshmallow.readthedocs.io/en/latest/>
+**Flask-Marshmallow -** <https://flask-marshmallow.readthedocs.io/en/latest
 
 <https://www.youtube.com/watch?v=Gl-5m1_eVjI>
 
-**Flask-WTF -** <https://flask-wtf.readthedocs.io/en/stable/>
+**Flask-WTF -** <https://flask-wtf.readthedocs.io/en/stable
 
 
 
 **Security / Auth**
 
-**Flask-security -** <https://pythonhosted.org/Flask-Security/>
+**Flask-security -** <https://pythonhosted.org/Flask-Security
 
 Flask-Security allows you to quickly add common security mechanisms to your Flask application.
 
-**Flask-login -** <https://flask-login.readthedocs.io/en/latest/>
+**Flask-login -** <https://flask-login.readthedocs.io/en/latest
 
 **Flask-Login -** <https://github.com/maxcountryman/flask-login>
 
-**Flask Praetorian -** <https://flask-praetorian.readthedocs.io/en/latest/>
+**Flask Praetorian -** <https://flask-praetorian.readthedocs.io/en/latest
 
 This extesion offers a batteries-included approach to security for your API.
 
@@ -552,15 +552,15 @@ This extesion offers a batteries-included approach to security for your API.
 
 [**https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4**](https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4)
 
-**geo-alchemy2 -** <https://geoalchemy-2.readthedocs.io/en/latest/>
+**geo-alchemy2 -** <https://geoalchemy-2.readthedocs.io/en/latest
 
 **Flask-PyMongo -** <https://github.com/dcrosta/flask-pymongo>
 
 
 
-**Flask-mail -** <https://pythonhosted.org/Flask-Mail/>
+**Flask-mail -** <https://pythonhosted.org/Flask-Mail
 
-**Flask-principal -** <https://pythonhosted.org/Flask-Principal/>
+**Flask-principal -** <https://pythonhosted.org/Flask-Principal
 
 **Flask-sslify -** <https://github.com/kennethreitz-archive/flask-sslify>
 
@@ -568,11 +568,11 @@ This extesion offers a batteries-included approach to security for your API.
 
 Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
 
-<https://click.palletsprojects.com/en/7.x/>
+<https://click.palletsprojects.com/en/7.x
 
 **Flask-Uploads -** <https://github.com/maxcountryman/flask-uploads>
 
-**Flask-Caching -** <https://flask-caching.readthedocs.io/en/latest/>
+**Flask-Caching -** <https://flask-caching.readthedocs.io/en/latest
 
 <https://www.youtube.com/watch?v=iO0sL6Vyfps>
 
@@ -736,4 +736,4 @@ time.sleep(5)
 
 **Resources**
 
-<https://www.freecodecamp.org/news/learn-the-flask-python-web-framework-by-building-a-market-platform/>
+<https://www.freecodecamp.org/news/learn-the-flask-python-web-framework-by-building-a-market-platform

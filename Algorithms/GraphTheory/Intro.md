@@ -18,7 +18,7 @@ Question: if it was possible to take a walk through the town by visiting each ar
 
 Leonhard Euler solved the problem in 1735 by proving that it is not possible.
 
-![](media/Intro-image1.png){width="3.125in" height="3.0625in"}
+![](media/Intro-image1.png)
 
 
 
@@ -64,7 +64,7 @@ Answer: A connected graph is Eulerian iff all vertices have even edges
 
 
 
-![compute the degree of v compute maximum degree compute average degree count self-loops public static int degree (Graph G, int v) int degree = 0; for (int w : G. adj (v)) degree++; return degree; public static int maxDegree(Graph G) int max = O; for (int v = O; v < G.V(); v++) if (degree(G, v) > max) max = degree(G, v) ; return max; public static double averageDegree(Graph G) { return 2.0 * G.E() / C.V(); public static int numberOfSeIfLoops(Graph G) int count = 0; for (int v = O; v for (int w : G. if (v return count/ 2; adj (v)) cou nt++ ; // each edge counted twi ce ](media/Intro-image2.png){width="5.0in" height="4.364583333333333in"}
+![compute the degree of v compute maximum degree compute average degree count self-loops public static int degree (Graph G, int v) int degree = 0; for (int w : G. adj (v)) degree++; return degree; public static int maxDegree(Graph G) int max = O; for (int v = O; v < G.V(); v++) if (degree(G, v) > max) max = degree(G, v) ; return max; public static double averageDegree(Graph G) { return 2.0 * G.E() / C.V(); public static int numberOfSeIfLoops(Graph G) int count = 0; for (int v = O; v for (int w : G. if (v return count/ 2; adj (v)) cou nt++ ; // each edge counted twi ce ](media/Intro-image2.png)
 
 
 
@@ -86,7 +86,7 @@ In[graph theory](https://en.wikipedia.org/wiki/Graph_theory), a**planar graph**i
 
 In the[mathematical](https://en.wikipedia.org/wiki/Mathematics)discipline of[graph theory](https://en.wikipedia.org/wiki/Graph_theory), thedual graphof a[plane graph](https://en.wikipedia.org/wiki/Plane_graph)Gis a graph that has a[vertex](https://en.wikipedia.org/wiki/Vertex_(graph_theory))for each[face](https://en.wikipedia.org/wiki/Face_(graph_theory))ofG. The dual graph has an[edge](https://en.wikipedia.org/wiki/Edge_(graph_theory))whenever two faces ofGare separated from each other by an edge, and a[self-loop](https://en.wikipedia.org/wiki/Self-loop)when the same face appears on both sides of an edge. Thus, each edgeeofGhas a corresponding dual edge, whose endpoints are the dual vertices corresponding to the faces on either side ofe. The definition of the dual depends on the choice of embedding of the graphG, so it is a property of plane graphs (graphs that are already embedded in the plane) rather than[planar graphs](https://en.wikipedia.org/wiki/Planar_graph)(graphs that may be embedded but for which the embedding is not yet known). For planar graphs generally, there may be multiple dual graphs, depending on the choice of planar embedding of the graph.
 
-![](media/Intro-image3.png){width="3.2604166666666665in" height="2.3229166666666665in"}
+![](media/Intro-image3.png)
 
 
 
@@ -94,9 +94,9 @@ In the[mathematical](https://en.wikipedia.org/wiki/Mathematics)discipline of[gra
 
 <https://www.youtube.com/watch?v=09_LlHjoEiY>
 
-<https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews/>
+<https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews
 
-<https://www.freecodecamp.org/news/learn-how-graph-algorithms-work/>
+<https://www.freecodecamp.org/news/learn-how-graph-algorithms-work
 
 
 

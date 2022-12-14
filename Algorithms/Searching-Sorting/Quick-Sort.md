@@ -39,7 +39,7 @@ Code -
 
 1.  Partitioning
 
-![private static int parti t ion (Comparable[] a, int 1 10 j = hi+l; while (true) int 10, int hi) whi le if whi le if if (i al 10] ) ) hi) break; (j 10) break; j) break; find item on left to swap find item on right to swap check if pointers cross swap swap with partitioning item exch (a , exch(a, 10, return j; hi j); during before V 10 return index of item now known to be in place after 10 hi ](media/Quick-Sort-image1.png){width="5.0in" height="3.1875in"}
+![private static int parti t ion (Comparable[] a, int 1 10 j = hi+l; while (true) int 10, int hi) whi le if whi le if if (i al 10] ) ) hi) break; (j 10) break; j) break; find item on left to swap find item on right to swap check if pointers cross swap swap with partitioning item exch (a , exch(a, 10, return j; hi j); during before V 10 return index of item now known to be in place after 10 hi ](media/Quick-Sort-image1.png)
 
 
 
@@ -47,7 +47,7 @@ Code -
 
 
 
-![public class Quick private static int / * see previous public static void partition (Comparablen a, slide * / sort (Comparablen a) int 10, int hi) StdRandom . shuffl e (a) ; sort(a, O, a. length private static void sort(Comparab1eC] a, shuffle needed for performance guarantee (stay tuned) int 10, int hi) if (hi int j sort(a, sort(a, 10) return; partition(a, 10, hi); 10, j-l); j+l,_ hi) • ](media/Quick-Sort-image2.png){width="5.0in" height="2.6979166666666665in"}
+![public class Quick private static int / * see previous public static void partition (Comparablen a, slide * / sort (Comparablen a) int 10, int hi) StdRandom . shuffl e (a) ; sort(a, O, a. length private static void sort(Comparab1eC] a, shuffle needed for performance guarantee (stay tuned) int 10, int hi) if (hi int j sort(a, sort(a, 10) return; partition(a, 10, hi); 10, j-l); j+l,_ hi) • ](media/Quick-Sort-image2.png)
 
 
 

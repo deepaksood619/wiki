@@ -20,15 +20,15 @@ Modified: 2018-12-23 22:45:49 +0500
 
 
 
-![](media/Substring-Search-Intro-image1.png){width="6.40625in" height="4.947916666666667in"}
+![](media/Substring-Search-Intro-image1.png)
 
-![](media/Substring-Search-Intro-image2.png){width="6.40625in" height="4.947916666666667in"}
+![](media/Substring-Search-Intro-image2.png)
 
-![Substring search cost summary Cost of searching for an M-character pattern in an N-characte operation count algorithm brute force Knuth-Morris-Pratt Boyer-Moore version guarantee backup correct in input? full DFA (Algorithm 5.6) mismatch transitions only full algorithm mismatched char heuristic only (Algorithm 5.7) Monte Carlo MN MN typical 1.1 N 1.1 N 1.1 N yes no no yes yes yes yes yes yes yes ](media/Substring-Search-Intro-image3.png){width="6.40625in" height="4.947916666666667in"}
+![Substring search cost summary Cost of searching for an M-character pattern in an N-characte operation count algorithm brute force Knuth-Morris-Pratt Boyer-Moore version guarantee backup correct in input? full DFA (Algorithm 5.6) mismatch transitions only full algorithm mismatched char heuristic only (Algorithm 5.7) Monte Carlo MN MN typical 1.1 N 1.1 N 1.1 N yes no no yes yes yes yes yes yes yes ](media/Substring-Search-Intro-image3.png)
 
 
 
-![Which of the following are properties of the Monte Carlo version of the Rabin-Karp algorithm for substring search? Select the best answer. Always returns correct answer. Always runs in linear time. Correct The Monte Carlo version always runs in linear time but can return the wrong answer; the Las Vegas version always returns the correct answer but takes time proportional to M N in the worst case. Both A and B. Neither A nor B. ](media/Substring-Search-Intro-image4.png){width="6.020833333333333in" height="1.6458333333333333in"}
+![Which of the following are properties of the Monte Carlo version of the Rabin-Karp algorithm for substring search? Select the best answer. Always returns correct answer. Always runs in linear time. Correct The Monte Carlo version always runs in linear time but can return the wrong answer; the Las Vegas version always returns the correct answer but takes time proportional to M N in the worst case. Both A and B. Neither A nor B. ](media/Substring-Search-Intro-image4.png)
 
 
 

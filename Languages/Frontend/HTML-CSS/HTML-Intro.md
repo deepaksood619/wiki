@@ -48,7 +48,7 @@ Semantic markup (Device Agnostic)
 
 <https://www.toptal.com/css/svg-animation-css-tutorial>
 
-<https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images/>
+<https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images
 
 
 
@@ -80,7 +80,7 @@ Web Workers Api - Dedicated, shared
 
 **Tools**
 
-Emmet - Write html faster - <https://emmet.io/> (Avabilable in vs code as extension)
+Emmet - Write html faster - <https://emmet.io (Avabilable in vs code as extension)
 
 <https://github.com/h5bp/html5-boilerplate>
 

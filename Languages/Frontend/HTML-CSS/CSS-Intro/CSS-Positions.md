@@ -38,7 +38,7 @@ Position relative allows you to do two different things
     When set to position relative, elements take up the same amount of space at the same exact position it was supposed to take as if its position was static.
     It can however, appear to be pushed to a different location visually.
 
-![](media/CSS-Intro_CSS-Positions-image1.jpg){width="5.0in" height="2.5in"}
+![](media/CSS-Intro_CSS-Positions-image1.jpg)
 
 2.  Allow a child element to be positioned absolutely with reference to it. (See below)
 
@@ -50,7 +50,7 @@ Position absolute takes the document out of the document flow. This means that i
 
 When position absolute is used on an element, it is positioned absolutely with reference to the closest parent that has a position relative value.
 
-![top: O left: O btm: Element with position relative op: O; btm: O', ight: O Element with position absolute ](media/CSS-Intro_CSS-Positions-image2.jpg){width="5.0in" height="2.5in"}
+![top: O left: O btm: Element with position relative op: O; btm: O', ight: O Element with position absolute ](media/CSS-Intro_CSS-Positions-image2.jpg)
 
 If there are no parent elements that has a relative position, then the absolutely positioned element will take its reference from the browser window.
 
@@ -60,7 +60,7 @@ If there are no parent elements that has a relative position, then the absolutel
 
 Similar to position absolute, an element that has fixed position is taken out of the document flow. The major difference with position absolute is it always takes its positioning relative to the browser window.
 
-![top: 0•, left:O Element with position relative Element with position fixed ](media/CSS-Intro_CSS-Positions-image3.jpg){width="5.0in" height="2.5in"}
+![top: 0•, left:O Element with position relative Element with position fixed ](media/CSS-Intro_CSS-Positions-image3.jpg)
 
 
 

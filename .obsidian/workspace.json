@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Languages/Others/Regular-Expressions---Regex.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Languages/Others/Regular-Expressions---Regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Languages/Others/Regular-Expressions---Regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+                "file": "Languages/Others/Regular-Expressions---Regex.md"
               }
             }
           },
@@ -152,25 +152,33 @@
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "cec9827f5e0bd9b7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "978fd2faf621af33",
+  "active": "3a44f20d32c586d3",
   "lastOpenFiles": [
-    "Data-Structures/Others/LSM-(Log-Structured-Merge-Trees).md",
+    "Office/TODO/Tech-&-Courses-TODO.md",
+    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+    "AI/Deep-Learning/NLP/NLTK.md",
+    "AI/Deep-Learning/NLP.md",
     "Office/Personality/Resumes---Jobs---Companies---Company.md",
-    "Computer-Science/Distributed-System/CAP-Theorem.md",
-    "Computer-Science/Interview-Question/Coding-Interview-Questions.md",
-    "Languages/Others/Markdown.md",
-    "Computer-Science/Programming-Concepts/Type-Systems.md",
-    "Databases/SQL-Databases/AWS-Redshift/Redshift-SQL-Queries---Commands.md",
-    "Office/Projects/Frontend-React-Admin-Website-Migration.md",
-    "Office/Stashfin/Modules.md",
-    "Computer-Science/Interview-Question/System-Design---Messenger---WhatsApp.md"
+    "Office/TODO/Personal-TODO.md",
+    "Office/TODO/Goals.md",
+    "Office/TODO/Daily-Routine.md",
+    "14-12-2022.md",
+    "Office/Stashfin/Office---TODO.md"
   ]
 }

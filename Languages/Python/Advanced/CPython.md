@@ -28,5 +28,5 @@ Each frame has one of each type of stack associated with it.
 
 
 
-![. pyc ](media/CPython-image1.jpg){width="4.760416666666667in" height="2.6770833333333335in"}
+![. pyc ](media/CPython-image1.jpg)
 

@@ -48,7 +48,7 @@ Client-side JavaScript, in particular, has many APIs available to it --- these a
 **D**
 -   [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
-<https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/>
+<https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript
 
 
 

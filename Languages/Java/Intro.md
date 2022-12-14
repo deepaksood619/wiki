@@ -40,4 +40,4 @@ Examples of contexts in which Jakarta EE referencing runtimes are used are:[e-co
 
 <https://en.wikipedia.org/wiki/Jakarta_EE>
 
-<https://jakarta.ee/>
+<https://jakarta.ee

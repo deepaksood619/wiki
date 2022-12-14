@@ -65,7 +65,7 @@ poetryalso comes with a full fledged dependency resolution library.
 
 <https://github.com/python-poetry/poetry>
 
-<https://python-poetry.org/docs/>
+<https://python-poetry.org/docs
 
 
 

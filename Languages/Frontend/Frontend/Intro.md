@@ -106,9 +106,9 @@ When cookies were first developed, they were used to better the developer's expe
 
 
 
-![](media/Intro-image1.jpg){width="4.885416666666667in" height="6.5in"}
+![](media/Intro-image1.jpg)
 
-<https://www.geeksforgeeks.org/difference-between-local-storage-session-storage-and-cookies/>
+<https://www.geeksforgeeks.org/difference-between-local-storage-session-storage-and-cookies
 
 
 

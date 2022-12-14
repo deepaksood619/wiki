@@ -111,7 +111,7 @@ Generic views abstract common patterns to the point where you don't even need to
 
 **Custom Authentication Backend / Authorization**
 
-<https://docs.djangoproject.com/en/1.11/topics/auth/customizing/>
+<https://docs.djangoproject.com/en/1.11/topics/auth/customizing
 
 
 
@@ -192,7 +192,7 @@ Using this example model,Person.objectswill generate anAttributeErrorexception, 
 
 
 
-<https://docs.djangoproject.com/en/2.2/topics/db/managers/>
+<https://docs.djangoproject.com/en/2.2/topics/db/managers
 
 
 
@@ -212,7 +212,7 @@ Bold and italics are done like this:
 
 **Django Resources**
 
-<https://www.reddit.com/r/django/comments/rrcj0m/any_enterprise_level_open_source_django_project/>
+<https://www.reddit.com/r/django/comments/rrcj0m/any_enterprise_level_open_source_django_project
 
 <https://github.com/getsentry/sentry>
 
@@ -228,7 +228,7 @@ Bold and italics are done like this:
 
 <https://medium.com/@hakibenita/things-you-must-know-about-django-admin-as-your-app-gets-bigger-6be0b0ee9614>
 
-<https://data-flair.training/blogs/django-file-upload/>
+<https://data-flair.training/blogs/django-file-upload
 
 <https://docs.djangoproject.com/en/2.0/topics/class-based-views/intro/#decorating-the-class>
 
@@ -236,9 +236,9 @@ Bold and italics are done like this:
 
 [Python Django and Google APIs - Project Tutorial](https://www.youtube.com/watch?v=_vCT42vDfgw&ab_channel=freeCodeCamp.org)
 
-<https://www.freecodecamp.org/news/django-project-create-a-digital-resume-using-django-and-python/>
+<https://www.freecodecamp.org/news/django-project-create-a-digital-resume-using-django-and-python
 
-<https://www.freecodecamp.org/news/create-a-netflix-clone-with-django-and-tailwind-css/>
+<https://www.freecodecamp.org/news/create-a-netflix-clone-with-django-and-tailwind-css
 
 
 

@@ -17,7 +17,7 @@ Stability - Yes
 
 
 
-![public class Insertion public static void a) int N = a. length; for (int i = for (int j = i, if a[j-l])) exch(a, j, j-l); else break; private static boolean less (Comparable v, Comparable w) / * as before * / private static void / * as before * / a, int i, int j) ](media/Insertion-Sort-image1.png){width="5.0in" height="3.6145833333333335in"}
+![public class Insertion public static void a) int N = a. length; for (int i = for (int j = i, if a[j-l])) exch(a, j, j-l); else break; private static boolean less (Comparable v, Comparable w) / * as before * / private static void / * as before * / a, int i, int j) ](media/Insertion-Sort-image1.png)
 
 
 
@@ -35,7 +35,7 @@ Worst case - If the array is in descending order (and no duplicates), insertion 
 
 **Inversion -** An inversion is a pair of keys that are out of order
 
-![AE ELMOTRXPS T-R T-P T-S R-P X-P X-S (6 inversions) ](media/Insertion-Sort-image2.png){width="5.0in" height="1.4375in"}
+![AE ELMOTRXPS T-R T-P T-S R-P X-P X-S (6 inversions) ](media/Insertion-Sort-image2.png)
 
 
 
@@ -51,7 +51,7 @@ Pf. Number of exchanges equals the number of inversions.
 
 
 
-![Sorting Insertion Sort One Of the Simplest methods to ScYt an array is an insertion Sort An example Of an Insertion Sort occurs in everyday life while playing cards, To sort the cards in your hand you extract a card. shift remaining cards. then insert the extracted Card the correct place. This until cards are the Both average and Mrst-case time ig O(nZ) For hrther consult Theory Stuting near the top Of array in Figure 2-l(a). we extract the 3. Then the are shittff_i dcm•n until we find the correct place to insert the 3, This process repeats in Figure 2-11b) "Sth the next rwmber_ Fülally. 2-I(C), we COnWete the Sort by ngerting 2 the (a) Figure 2-1: Insertion Sort Assuming there are n elements in the array. we must index through n • I entries. For each entry, we may to examine and Shift up to n - Other entries. resulting a algwithm The insertion sort is an in-place sort. That is. we son the array in•place. No extra memory is required. The insertion Sort is also a Stable Sort. Stable Sorts the ordering Of keys keys are present in the input data. Implementation in C An ANSI-C for is Included Type&f T and Ctmparigon operator compGT shouJd be altered reflect the data stored in the table, Implementation in Visual Basic A Visual Basic implementation for is included. ](media/Insertion-Sort-image3.png){width="6.375in" height="8.239583333333334in"}
+![Sorting Insertion Sort One Of the Simplest methods to ScYt an array is an insertion Sort An example Of an Insertion Sort occurs in everyday life while playing cards, To sort the cards in your hand you extract a card. shift remaining cards. then insert the extracted Card the correct place. This until cards are the Both average and Mrst-case time ig O(nZ) For hrther consult Theory Stuting near the top Of array in Figure 2-l(a). we extract the 3. Then the are shittff_i dcm•n until we find the correct place to insert the 3, This process repeats in Figure 2-11b) "Sth the next rwmber_ Fülally. 2-I(C), we COnWete the Sort by ngerting 2 the (a) Figure 2-1: Insertion Sort Assuming there are n elements in the array. we must index through n • I entries. For each entry, we may to examine and Shift up to n - Other entries. resulting a algwithm The insertion sort is an in-place sort. That is. we son the array in•place. No extra memory is required. The insertion Sort is also a Stable Sort. Stable Sorts the ordering Of keys keys are present in the input data. Implementation in C An ANSI-C for is Included Type&f T and Ctmparigon operator compGT shouJd be altered reflect the data stored in the table, Implementation in Visual Basic A Visual Basic implementation for is included. ](media/Insertion-Sort-image3.png)
 
 
 

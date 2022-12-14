@@ -27,7 +27,7 @@ The benefits of the micro-frontend pattern include
 Micro-frontends let you build a website or web app as a composition of features that you can create and work on separately.
 -   asynchronous loading, error handling, shared state, cross platform micro-frontends, how to route multiple applications together, and even how to test micro-frontend code.
 
-![End-to-End Teams with Micro Frontends o o Team Inspire Mission: helps the customer to discover products Team Search Mission: quickly find the right product Team Product Mission: present the product (specs, images, ...) Team Checkout Mission: provide a good checkout experience ](media/Microfrontend-Architecture-image1.jpeg){width="5.0in" height="2.9479166666666665in"}
+![End-to-End Teams with Micro Frontends o o Team Inspire Mission: helps the customer to discover products Team Search Mission: quickly find the right product Team Product Mission: present the product (specs, images, ...) Team Checkout Mission: provide a good checkout experience ](media/Microfrontend-Architecture-image1.jpeg)
 -   Why Micro-Frontends?
 -   Why Module Federation?
 -   Asynchronous Loading
@@ -48,15 +48,15 @@ Micro-frontends let you build a website or web app as a composition of features 
 
 
 
-<https://www.freecodecamp.org/news/learn-all-about-micro-frontends/>
+<https://www.freecodecamp.org/news/learn-all-about-micro-frontends
 
-<https://micro-frontends.org/>
+<https://micro-frontends.org
 
 <https://medium.com/@lucamezzalira/i-dont-understand-micro-frontends-88f7304799a9>
 
 <https://martinfowler.com/articles/micro-frontends.html>
 
-<https://single-spa.js.org/>
+<https://single-spa.js.org
 
-<https://bit.dev/>
+<https://bit.dev
 

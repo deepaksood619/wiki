@@ -1,0 +1,556 @@
+# Chatbot / chatops
+
+Created: 2022-01-14 23:47:57 +0500
+
+Modified: 2022-10-21 22:38:45 +0500
+
+---
+
+<https://www.freecodecamp.org/news/how-to-build-an-ai-chatbot-with-redis-python-and-gpt
+
+
+
+**Rasa**
+
+Open source machine learning tools for developers to build, improve, and deploy text-and voice-based chatbots and assistants
+-   The core of building a Rasa assistant is **providing examples that your system learns from**
+    -   How do people say things?
+    -   How do conversations go?
+
+
+
+**Types of chatbot**
+
+1.  Rule-based Chatbots / Workflow chatbots
+
+2.  Intellectually Independent Chatbots
+
+3.  AI-powered Chatbots
+
+
+
+**Types of product chatbots**
+
+Customer Service Bots
+
+1.  Welcome Bots
+
+2.  Resolution Bots
+
+3.  Navigation Bots
+
+
+
+E-Commerce Bots
+
+1.  Sales Bots
+
+2.  Product Recommendation Bots
+
+3.  Billing Bots
+
+4.  Order Management Bots
+
+
+
+<https://www.freshworks.com/live-chat-software/chatbots/chatbot-ideas-blog
+
+
+
+**Task Oriented Dialogue System**
+-   Task Oriented - Users want to accomplish something (task they want to achieve)
+-   Dialogue system - Talking with an automated system in a two-way conversation
+-   Chit chat bot - Goal is to have an ongoing conversation without necessarily doing anything
+
+
+
+![An (extremely) brief history of NLP Symbolic rule-based systems 1950's - 1980's 1990's- 2000's Statistical methods Neural methods embeddings, RNN's 2010's 2017+ Neural methods pt 2 transformers ](media/NLP_Chatbot---chatops-image1.jpeg)
+
+
+
+**State machines vs neural methods**
+
+1.  **Understanding Text**
+    -   **NLU - raw text in, machine-readable information out**
+    -   **Rule based**
+        -   **Example: A regular rexpression that finds and extracts email addresses**
+        -   **You don't need much/any data for these approaches**
+        -   **They can run very fast**
+        -   **But they're not very good at handling things they haven't seen before**
+    -   **Neural**
+        -   **Example: A transformer-based model (e.g. DIET) that sorts text into intents based on examples it's been provided**
+        -   **Require training examples (in general, the more the better)**
+        -   **But they're very good at handling things they haven't seen before, making "informed guesses"**
+
+
+
+A Rasa assistant might use both, but the neural methods are the core of the framework
+
+
+
+2.  **Deciding what do do next**
+    -   **Dialog policy - Given the conversation so far, what should your assistant say or do next?**
+    -   **Rule-based**
+        -   **Example: A big dialog tree of all possible paths a conversation can take**
+        -   **This is a traditional approach to dialog and it can work well in some cases**
+        -   **But they can't hand digressions and are a bit of a pain to extend/maintain**
+    -   **Neural**
+        -   **A transformer-based model (e.g. TED) that picks the next best turn based on the conversation so far and all the conversations it's been trained on**
+        -   **Require training examples (in general, the more the better)**
+        -   **But this approach let's users have a more natural conversations, even if they say things in a different order every time**
+
+
+
+Both 1 and 2 is recommended to use in tandem
+
+
+
+How to make sure conversations work (and improve over time)
+-   The Rasa approach is
+    -   Flexible, every conversation might be unique
+    -   Works better the more high-quality training data you have
+-   How do you make sure conversations work?
+    -   Manually reviewing and annotating conversations
+-   How do you make sure conversations improve over time?
+    -   Correct any errors your assistant made in a conversation, then add it to the training data, retrain and redeploy
+    -   A Rasa conversational AI ystem itsn't static, It changes and adapts over time
+-   We call this process **"conversation-driven development"**
+
+
+
+**Files**
+-   domain.yml
+-   config.yml
+-   Data files
+    -   nlu.yml
+    -   stories.yml
+    -   rules.yml
+
+
+
+**Commands**
+
+pip3 install --upgrade rasa
+
+rasa init
+
+rasa train
+
+rasa shell
+
+rasa shell --debug
+
+rasa -h
+
+
+
+**Domain.yml**
+
+The domain file is a directory of everything our assistant "knows"
+-   Responses: These are the things the assistant can say to users
+-   Intents: These are categories of things users say
+    -   affirm
+    -   deny
+    -   greet
+    -   thankyou
+    -   goodbye
+    -   search_concerts
+    -   search_venues
+    -   compare_reviews
+    -   bot_challenge
+    -   how_to_get_started
+-   Slots: These are variables remembered over the course of a conversation
+-   Entities: These are pieces of information extracted from incoming text
+-   Forms & actions: These add application logic and extend what your assistant can do
+
+
+
+**Data**
+-   The text data used to pretrain any models or features you're using (e.g. language models,, word embeddings, etc.)
+-   User-generated text
+-   Patterns of conversations
+-   Examples:
+    -   Customer support logs
+    -   **User conversations with your assistant**
+-   How should conversations with your chatbot go?
+    -   Stories
+    -   Rules
+-   How do users say things?
+    -   Intents
+-   **If you have data**
+    -   Modified content analysis
+        -   Go through data (or sample) by hand and assign each datapoint to a group
+        -   If no existing group fits, add a new one
+        -   At given intervals, go through your groups and combine or separate them as needed
+        -   Start with 2-3 passes through your dataset
+    -   Can't you just automate this i.e. intent discovery and classification
+        -   It's easiest to use interactive learning to create stories
+-   **If you don't have data**
+    -   Start with the most common intent
+    -   Start with the smallest possible number of intents (that conver your core use case)
+    -   Everything else goes in and out of scope intent
+        -   If your assistant can't handle something, give users an escape hatch right away
+    -   Additional intents will come from user data
+-   **Have fewer intents**
+    -   Rasa style CDD
+        -   You only need to start with the most popular, important intents & a way to handle things outside them
+        -   Continue to build from there if that's what users need
+    -   Human reasons
+        -   More intents = more training data, maintenance, documentation
+        -   More intents = annotation more difficult
+    -   ML reasons
+        -   Transformer classifiers scale linearly with the # of classes
+        -   Entity extraction (esp with very lightweight rule-baed system like Duckling) is often faster
+-   **Paring down intents**
+    -   Don't use intents as a way to store information (use slots instead)
+    -   Consider to combine, if a lot of same tokens show up in training data for two intents
+    -   **Example**
+
+![book. train • One train ticket • Need to book train ide • A ail iourney please book _ plane • One plane ticket • Need to book a plane ride make_booking: • One (train)(train) ticket • Need to book a (trainl(train) ride • A journey please • One (plane)(air) ticket • Need to book a (planel(air) ride • i'd like to book a trip • Need a vacation ](media/NLP_Chatbot---chatops-image2.jpeg)
+
+
+-   Training data for an intent
+    -   User-generated > synthetic
+    -   Each utterance should unambigously match to a single intent
+        -   You can verify this using human sorting & inter-rater reliability
+    -   Is an utterance ambiguous?
+        -   Use end-to-end instead (the raw text as training data w/out classifying it)
+
+
+
+**Stories**
+
+Training data to teach your assistant what it should do next
+-   If you have conversational data, start with those patterns
+-   Generate your own conversational patterns
+    -   It's easiest to use interactive learning to create stories
+    -   Start with common flows, happy paths
+    -   Then add common errors/digressions
+-   Once your model is trained, add more data from user conversations
+
+
+
+![stories : --- story: happy path s teps : --- intent: --- action: --- intent: --- action: greet utter moood utter greet great happy ](media/NLP_Chatbot---chatops-image3.jpeg)
+
+
+
+**Or statements**
+
+![stories : - story: newsletter signup with OR steps : --- intent: signup newsletter --- action: utter ask confirm signup --- or: --- intent: affirm --- intent: thanks --- action: action signup newsletter ](media/NLP_Chatbot---chatops-image4.jpeg)
+
+
+
+**Checkpoints**
+
+![stories : --- story: beginning of conversation steps : --- intent: greet action: utter greet --- intent: goodbye --- action: utter goodbye check oxnt: ask feedback ](media/NLP_Chatbot---chatops-image5.jpg)
+
+
+
+![--- story: user provides feedback steps : --- checkpoint: ask feedback --- action: utter ask feedback --- intent: inform --- action: utter thank_you --- action: utter anything else --- story: user doesn't have feedback steps : --- checkpoint: ask feedback - action: --- intent: --- action : --- action : utter deny utter utter ask feedback no_problem anything else ](media/NLP_Chatbot---chatops-image6.jpg)
+
+
+
+**Rules**
+
+A way to describe short pieces of conversations that always go the same way
+-   User rules for one-off interactions (checking account balance, checking if this is a bot)
+-   Don't use rules for multi-turn interactions
+-   Don't use OR statements and checkpointing often
+-   Don't write out every possible conversation flow start to finish
+-   Don't delay user testing
+
+
+
+**Entities**
+
+Entities are structured pieces of information inside of a user message
+
+An entity can be any important detail that your assitant could use later in a conversation:
+-   Numbers
+-   Dates
+-   Country names
+-   Product names, etc
+
+
+
+There are 3 ways entities can be extracted in Rasa
+
+1.  Using pre-build models
+    -   Duckling for extracting numbers, dates, url, email addresses
+    -   SpaCy - for extracting names, product names, locations, etc
+
+2.  Using Regex
+    -   For entities that match a specific pattern (e.g. phone numbers, postcodes, etc.)
+
+3.  Using ML
+    -   For extracting custom entities
+
+![I would like to check my savings account entity: account _ type value: savings _ account component: DIE TCI ass i fier ntu: --- intent: check_batance examples: I I would tike to check my [savings account) (account _ type) Can you show ne the balance of my (current account J (account _ type) ](media/NLP_Chatbot---chatops-image7.jpeg)
+
+
+
+The output of the entity extraction is a snippet of JSON which contains the details of
+-   Entity category ("city")
+-   Entity value ("New York City")
+-   Confidence levels
+-   The component that extracted the entity
+
+
+
+**Synonyms**
+
+Synonyms can be used to map the extracted values to a single standardized value
+
+![Credft Card Account Credit Credit Account nlu: synonym: examples: - credit --- credit credit card account account ](media/NLP_Chatbot---chatops-image8.jpg)
+
+
+
+OR during entity extraction
+
+
+
+![ntu: intent: check _ balance - tike to check my (credit card account) ("entity---: "account •value": "credit") Ho. do I check the (credit account) ("entity" : "account", "value": ---credit") ](media/NLP_Chatbot---chatops-image9.jpeg)
+
+
+
+**Others**
+
+<https://rasa.com/docs/action-server/knowledge-bases
+
+<https://github.com/RasaHQ/tutorial-knowledge-base>
+
+NER - Rasa NLU for Entity Extraction
+
+
+
+**Learning**
+
+[**https://learning.rasa.com/certification-study-guide/**](https://learning.rasa.com/certification-study-guide/)
+
+[Conversational AI with Rasa Open Source 3.x](https://www.youtube.com/playlist?list=PL75e0qA87dlEjGAc9j9v3a5h1mxI2Z9fi)
+
+[Rasa 3.x Tutorials](https://www.youtube.com/playlist?list=PL75e0qA87dlHogEVKnBJLhqyaZKDg2f0W)
+
+<https://rasa.com/docs
+
+[Algorithm Whiteboard](https://www.youtube.com/playlist?list=PL75e0qA87dlG-za8eLI6t0_Pbxafk-cxb)
+
+[Level 3 AI Assistant Conference 2021](https://www.youtube.com/playlist?list=PL75e0qA87dlH3kgGVl3EphdsU9HOaOEyf)
+
+
+
+**Demo**
+
+<http://financial-demo.rasa.com/guest/conversations/production/d379406177e14dcfa67ed47ebfdd9106>
+
+<https://rasa.com/showcase/albert-heijn
+
+
+
+**Responses**
+
+<https://rasa.com/docs/rasa/responses
+
+<https://rasa.com/blog/response-retrieval-models
+
+<https://rasa.com/docs/rasa/chitchat-faqs
+
+
+
+**Rasa 3.0**
+
+<https://rasa.com/blog/updated-learning-resources-for-rasa-open-source-3-0
+
+<https://rasa.com/blog/slots-in-rasa-open-source-3-0
+
+<https://rasa.com/blog/markers-in-rasa-open-source-3-0
+
+<https://rasa.com/blog/bending-the-ml-pipeline-in-rasa-3-0
+
+
+
+<https://rasa.com
+
+[**https://github.com/rasaHQ/**](https://github.com/rasaHQ/)
+
+<https://blog.rasa.com
+
+<https://github.com/RasaHQ/helpdesk-assistant>
+
+[Building Your First Chatbot in Python || Rachael Tatman](https://www.youtube.com/watch?v=VpvmLxO3Ys0)
+
+
+
+<https://enterprisebot.ai/case-studies
+
+<https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python
+
+[Conversational AI with Rasa: Integration with a Website](https://www.youtube.com/watch?v=ZhRo3gfLk90)
+
+[**Webinar: New Chatbot Starter Packs for Banking and IT Support**](https://www.youtube.com/watch?v=nHqriTMRvPI)
+
+<https://github.com/RasaHQ/financial-demo>
+
+<https://github.com/RasaHQ/helpdesk-assistant>
+
+<https://rasa.com/blog/rasa-example-helpdesk
+
+
+
+**Solutions**
+
+<https://rasa.com/solutions/lead-generation-sales
+
+<https://rasa.com/solutions/customer-service-automation
+
+<https://info.rasa.com/poc-to-production-whitepaper>
+
+
+
+**Resources**
+
+[Level 3 AI Assistant Conference 2021](https://www.youtube.com/playlist?list=PL75e0qA87dlH3kgGVl3EphdsU9HOaOEyf)
+
+
+
+**Chatbot strategy**
+
+![Customer Support Account Management Upsetting Customer Service Internat Processes IT Helpdesk Dev Ops HR I Recruitment Core Business Processes Sates & Marketing Lead Generation Setting a Simple Product Assistant as Product Feature Onboarding Usability ](media/NLP_Chatbot---chatops-image10.jpeg)
+
+
+
+**Chats: Human and Bots**
+-   IT helpdesk chatbot
+-   Intercom
+
+-   **tawk (Free)**
+
+Monitor and chat with the visitors on your website, respond to support tickets and create a help center to empower customers to help themselves -- all 100% Free
+
+<https://www.tawk.to
+
+
+-   <https://www.chatify.com/tawkto-alternative>
+-   <https://www.tidio.com
+
+
+-   Dialogflow
+-   rasa
+
+
+
+**Intercom**
+
+<https://www.intercom.com/help/en/articles/3568632-how-task-bots-custom-bots-and-resolution-bot-work>
+
+Operator is the automation technology that powers all of Intercom's bots. Depending on which bot you're using, Operator will step in to help automate a simple task, answer a question, route customers to the correct inbox, and more.
+
+
+
+Resolution Bot answers common customer questions using automation and machine learning.
+
+
+
+Custom Bots are used to both proactively and reactively qualify leads, route customers to the correct team, and engage users and visitors on your website.
+
+
+
+Task bots are triggered by actions that customers take on your website or app.
+
+**Others**
+
+<https://www.tidio.com/blog/chatbot-framework
+
+
+
+**Conversation design workflow**
+
+<https://medium.com/voice-tech-podcast/conversation-design-workflow-how-to-design-your-chatbot-in-10-basic-steps-721652b056d>
+
+
+
+<https://ai.facebook.com/blog/state-of-the-art-open-source-chatbot
+
+[**https://github.com/botpress/botpress**](https://github.com/botpress/botpress)
+
+docker run -d --name=botpress -p 3000:3000 botpress/server
+
+[Building a Cool Bot with Botpress](https://www.youtube.com/playlist?list=PLlJHGGklthGmFnbXHI6--kgJO3ZyFS9mD)
+
+
+
+<https://github.com/howdyai/botkit>
+
+<https://github.com/botman/botman>
+
+<https://github.com/wit-ai>
+
+
+
+**SAAS**
+-   **Dialogflow**
+
+[Dialogflow](https://dialogflow.com/docs/getting-started/basics)is a conversation building tool. It takes the human language and cleverly splits it into intents and arguments.
+-   Agents
+-   Intents
+-   Entities
+-   Contexts
+-   Fulfillment
+
+-   Amazon Lex
+-   yellowmessenger chatbot (Ex - <https://www.gripinvest.in)
+-   Kuba from LiveChat
+-   <https://getstream.io/chat
+-   <https://sendbird.com
+-   Sales - <https://www.heyday.ai
+-   <https://netcorecloud.com
+-   <https://getcogno.ai
+
+
+
+<https://tiledesk.com
+
+
+
+<https://www.dashbot.io
+
+Turn your unstructured chatbot data into immediate action. Identify unhandled and mishandled intents. Improve escalation and failure rates by more than 30%.
+
+
+
+**Examples**
+
+<https://goldenpi.com
+
+<https://www.wintwealth.com (WhatsApp Strategy)
+
+
+
+**Use Cases**
+-   Customer service
+-   Customer routing
+-   Customer intake
+-   Retain & product selection
+-   Surveys
+-   Booking services
+-   Delivery services
+-   Location-based search
+
+
+
+Business motivation for implementing virtual assistants in companies
+-   End users need 24 hour support
+-   Cost savings
+-   Employee productivity
+-   High or fluctuating contact center volume
+-   Brand loyalty
+
+
+
+
+
+
+
+
+
+

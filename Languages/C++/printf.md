@@ -240,4 +240,4 @@ If a multibyte character encoding error occurs while writing wide characters,[er
 
 **Reference**
 
-<http://www.cplusplus.com/reference/cstdio/printf/>
+<http://www.cplusplus.com/reference/cstdio/printf

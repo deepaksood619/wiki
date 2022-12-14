@@ -8,52 +8,28 @@ Modified: 2021-11-29 21:14:19 +0500
 
 Its different from wildcards (Wildcards have very few metacharacters than Regular Expressions)
 
-
-
-**Standards**
-
+## Standards
 1.  BRE (Basic Regular Expressions)
-
 2.  ERE (Extended Regular Expressions)
 
+A **regex processor** translates a regular expression into an internal representation which can be executed and matched against a [string](https://en.wikipedia.org/wiki/String_(computing))representing the text being searched in. One possible approach is the[Thompson's construction algorithm](https://en.wikipedia.org/wiki/Thompson%27s_construction_algorithm)to construct a[nondeterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)(NFA), which is then[made deterministic](https://en.wikipedia.org/wiki/Powerset_construction)and the resulting[deterministic finite automaton](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)(DFA) is run on the target text string to recognize substrings that match the regular expression.
 
-
-A**regex processor**translates a regular expression into an internal representation which can be executed and matched against a[string](https://en.wikipedia.org/wiki/String_(computing))representing the text being searched in. One possible approach is the[Thompson's construction algorithm](https://en.wikipedia.org/wiki/Thompson%27s_construction_algorithm)to construct a[nondeterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)(NFA), which is then[made deterministic](https://en.wikipedia.org/wiki/Powerset_construction)and the resulting[deterministic finite automaton](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)(DFA) is run on the target text string to recognize substrings that match the regular expression.
-
-
-
-**Regex Engines**
-
+## Regex Engines
 1.  C#
-
 2.  Ruby
-
 3.  PHP
-
 4.  Perl (PCRE - Perl Compatible Regular Expressions)
-
 5.  Java
-
 6.  JavaScript
-
 7.  Python
 
-
-
-**Regular Expression**
-
+## Regular Expression
 At its core, a regular expression is a search pattern that is used to find substrings inside a string. We can use it to validate whether a string follows a specific pattern or not.
 
+In the 1950s, the mathematician [Stephen Cole Kleene](https://en.wikipedia.org/wiki/Stephen_Cole_Kleene)created regular expressions as a way to describe[regular languages](https://en.wikipedia.org/wiki/Regular_language). That's a language that you can express as a regular expression. (So meta!) [So meta meaning self aware, self referencing]
 
-
-In the 1950s, the mathematician[Stephen Cole Kleene](https://en.wikipedia.org/wiki/Stephen_Cole_Kleene)created regular expressions as a way to describe[regular languages](https://en.wikipedia.org/wiki/Regular_language). That's a language that you can express as a regular expression. (So meta!) [So meta meaning self aware, self referencing]
-
-
-
-**Syntax**
-
+## Syntax
 1.  **Delimiters**
-
 Delimiters are the boundaries of our regular expressions. The most common delimiter is forward slash ( / ).
 
 It depends on the type of programming language. Other delimiters are -
@@ -65,13 +41,9 @@ It depends on the type of programming language. Other delimiters are -
 
 Reason for using these many types of delimiters is readability. If we use one type of delimiters and that same delimiter is also used inside the regex then we have to escape all the other symbol using backslash. But using other delimiter instead of that is far easier.
 
-
-
 2.  **Pattern, atoms and metacharacters**
 
 Inside our delimiters, we have the pattern that we want our regular expression to look for. This pattern is made up of what we call atoms. An atom can be either a character literal or metacharacter or a character class.
-
-
 
 Metacharacters have a special meaning when used in regular expressions and are by far the most important part of a regular expression. A regular expression without metacharacters is just a string literal.
 
@@ -189,14 +161,8 @@ f.  ?? - lazy question mark
 
 g.  **{n} -** The preceding item is matched exactly*n*times.
 
-```{=html}
-<!-- -->
-```
 h.  **{min,} -** The preceding item is matched*min*or more times.
 
-```{=html}
-<!-- -->
-```
 i.  **{min, max} -** The preceding item is matched at least*min*times, but not more than*max*times.
 
 j.  **{min, max}? -** Lazy quantifier
@@ -554,8 +520,8 @@ In above example space was directly used to match the pattern instead of lookaro
 
 <table>
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 79%" />
+<col style="width: 20%" 
+<col style="width: 79%" 
 </colgroup>
 <thead>
 <tr class="header">
@@ -582,8 +548,8 @@ A - Anchor asserts that the current position is the beginning of the string
 z - Anchor asserts that the current position is the end of the string
 
 
-
-<https://dzone.com/refcardz/regular-expressions>
+<col style="width: 20%" />
+<col style="width: 79%" />rdz/regular-expressions>
 
 <http://www.rexegg.com/regex-quickstart.html>
 
@@ -607,7 +573,7 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 **Learn**
 
-<https://carlalexander.ca/beginners-guide-regular-expressions/>
+<https://carlalexander.ca/beginners-guide-regular-expressions
 
 <http://www.regular-expressions.info/tutorial.html>
 
@@ -615,7 +581,7 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 **Tools**
 
-<https://regex101.com/>
+<https://regex101.com
 
 <https://regexr.com>
 
@@ -625,13 +591,13 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 <https://www.hackerrank.com/domains/regex/re-introduction>
 
-<https://regex.sketchengine.co.uk/>
+<https://regex.sketchengine.co.uk
 
-<https://regexcrossword.com/> (Rank - <https://regexcrossword.com/profile/38485>)
+<https://regexcrossword.com (Rank - <https://regexcrossword.com/profile/38485>)
 
-<https://regexone.com/>
+<https://regexone.com
 
-<http://play.inginf.units.it/#/>
+<http://play.inginf.units.it/#
 
 
 
@@ -646,3 +612,9 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 <https://www.soscisurvey.de/tools/view-chars.php>
 
 
+## Search and Replace using Variables
+```
+(<col style="width: )(.*)
+$1$2/>
+```
+[VS Code: Search-and-Replace Regex - DEV Community 👩‍💻👨‍💻](https://dev.to/rfornal/vs-code-search-and-replace-regex-mn2)

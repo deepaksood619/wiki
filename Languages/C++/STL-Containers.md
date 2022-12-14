@@ -108,7 +108,7 @@ swap
 
 
 
-<http://www.cplusplus.com/reference/vector/vector/>
+<http://www.cplusplus.com/reference/vector/vector
 
 
 
@@ -307,7 +307,7 @@ Ex: set<int>::iterator itr=s.find(100); //If 100 is not present then it==s.end()
 
 
 
-<https://www.geeksforgeeks.org/set-in-cpp-stl/>
+<https://www.geeksforgeeks.org/set-in-cpp-stl
 
 
 
@@ -445,7 +445,7 @@ find_itr->second = find_itr->second + marks;
 
 
 
-<https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/>
+<https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl
 
 
 

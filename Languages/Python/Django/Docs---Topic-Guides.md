@@ -28,9 +28,6 @@ Modified: 2021-10-02 13:00:26 +0500
 -   [Database instrumentation](https://docs.djangoproject.com/en/2.0/topics/db/instrumentation/)
 -   [Examples of model relationship API usage](https://docs.djangoproject.com/en/2.0/topics/db/examples/)
 
-```{=html}
-<!-- -->
-```
 -   [Handling HTTP requests](https://docs.djangoproject.com/en/2.0/topics/http/)
     -   [URL dispatcher](https://docs.djangoproject.com/en/2.0/topics/http/urls/)
     -   [Writing views](https://docs.djangoproject.com/en/2.0/topics/http/views/)
@@ -175,7 +172,7 @@ Modified: 2021-10-02 13:00:26 +0500
 
 
 
-<https://docs.djangoproject.com/en/2.0/topics/>
+<https://docs.djangoproject.com/en/2.0/topics
 
 
 
@@ -202,7 +199,7 @@ Modified: 2021-10-02 13:00:26 +0500
 
 
 
-<https://docs.djangoproject.com/en/2.0/howto/>
+<https://docs.djangoproject.com/en/2.0/howto
 
 
 
@@ -238,7 +235,7 @@ Modified: 2021-10-02 13:00:26 +0500
 
 
 
-<https://docs.djangoproject.com/en/2.0/ref/>
+<https://docs.djangoproject.com/en/2.0/ref
 
 
 

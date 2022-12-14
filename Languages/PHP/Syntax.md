@@ -367,10 +367,10 @@ $num += 6;
 $orignum = 10;
 addFive( $orignum );
 
-echo "Original Value is $orignum<br />";
+echo "Original Value is $orignum<br ";
 
 addSix( $orignum );
-echo "Original Value is $orignum<br />";
+echo "Original Value is $orignum<br ";
 ?>
 
 
@@ -402,7 +402,7 @@ printMe();
 
 <?php
 **function** sayHello() {
-echo "Hello<br />";
+echo "Hello<br ";
 }
 
 $function_holder = "sayHello";

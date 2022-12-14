@@ -18,11 +18,11 @@ Modified: 2021-12-09 21:04:45 +0500
 
 2.  Never user the built-in Django User model directly, even if the built-in Django User implementation fulfill all the requirements of your application.
 
-![User Types Flowchart](media/Advanced-image1.png){width="4.822916666666667in" height="6.5in"}
+![User Types Flowchart](media/Advanced-image1.png)
 
 
 
-**Signals -** <https://anonbadger.wordpress.com/2018/12/15/python-signal-handlers-and-exceptions/>
+**Signals -** <https://anonbadger.wordpress.com/2018/12/15/python-signal-handlers-and-exceptions
 
 [Introduction to Django Signals | Django (3.0) Crash Course Tutorials (pt 18)](https://www.youtube.com/watch?v=Kc1Q_ayAeQk&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO&index=18)
 
@@ -34,7 +34,7 @@ A context processor has a very simple interface: It's just a Python function tha
 
 
 
-<https://djangobook.com/writing-context-processors/>
+<https://djangobook.com/writing-context-processors
 
 <https://docs.djangoproject.com/en/2.2/ref/templates/api/#using-requestcontext>
 
@@ -42,7 +42,7 @@ A context processor has a very simple interface: It's just a Python function tha
 
 **Middlewares**
 
-<http://www.gustavwengel.dk/django-middleware-walkthrough/>
+<http://www.gustavwengel.dk/django-middleware-walkthrough
 
 
 
@@ -76,7 +76,7 @@ This reduces the number of round-trips to the database from N+1 to 2. Most ORM t
 
 
 
-<https://theorangeone.net/posts/django-orm-performance/>
+<https://theorangeone.net/posts/django-orm-performance
 
 
 
@@ -86,7 +86,7 @@ ASGI Support
 
 
 
-<https://docs.djangoproject.com/en/3.0/releases/3.0/>
+<https://docs.djangoproject.com/en/3.0/releases/3.0
 
-<https://arunrocks.com/a-guide-to-asgi-in-django-30-and-its-performance/>
+<https://arunrocks.com/a-guide-to-asgi-in-django-30-and-its-performance
 

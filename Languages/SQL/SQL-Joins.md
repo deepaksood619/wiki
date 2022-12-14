@@ -19,7 +19,7 @@ A SQL join is a Structured Query Language (SQL) instruction to combine data from
 
 Theinner joinis probably the most commonly-used type of join in SQL. Inner joins return all rows from two or more tables that meet the join condition.
 
-![](media/SQL-Joins-image1.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image1.png)
 
 
 
@@ -39,7 +39,7 @@ ON A.columnName = B.columnName;
 
 The left outer join (sometimes abbreviated to left join) returns all rows from theleft-hand table specified in the ON condition andonlythe rows from theright-hand table that meet the join condition.
 
-![](media/SQL-Joins-image2.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image2.png)
 
 Sample SQL
 
@@ -55,7 +55,7 @@ ON A.columnName = B.columnName
 
 This join is a variant on the basic left outer join, but instead, it returns all rows from theleft-hand table specified in the ON condition that also meet the join condition andnoneof the rows from theright-hand table that meet the join condition.
 
-![](media/SQL-Joins-image3.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image3.png)
 
 Sample SQL
 
@@ -72,7 +72,7 @@ The right outer join (sometimes abbreviated to right join) returns all rows from
 
 
 
-![](media/SQL-Joins-image4.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image4.png)
 
 Sample SQL
 
@@ -88,7 +88,7 @@ ON A.columnName = B.columnName
 
 This join is a variant on the basic right outer join, but instead, it returns all rows from theright-hand table specified in the ON condition that also meet the join condition andnoneof the rows from theleft-hand table that meet the join condition.
 
-![](media/SQL-Joins-image5.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image5.png)
 
 Sample SQL
 
@@ -105,7 +105,7 @@ The full outer join (sometimes abbreviated to full join) returns all rows from b
 
 
 
-![](media/SQL-Joins-image6.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image6.png)
 
 Sample SQL
 
@@ -121,7 +121,7 @@ ON A.columnName = B.columnName
 
 This variant of the full outer join (sometimes abbreviated to full join) returns all rows from both tables named in the ON condition where the join condition isnotmet (excluding NULL values).
 
-![](media/SQL-Joins-image7.png){width="4.15625in" height="2.5729166666666665in"}
+![](media/SQL-Joins-image7.png)
 
 Sample SQL
 
@@ -201,9 +201,9 @@ A hashtable of the smaller data set is created, then SQL Server loops through th
 
 **References**
 
-<http://www.sql-join.com/sql-join-types/>
+<http://www.sql-join.com/sql-join-types
 
-<https://www.freecodecamp.org/news/sql-joins-tutorial/>
+<https://www.freecodecamp.org/news/sql-joins-tutorial
 
 
 

@@ -134,7 +134,7 @@ Used by convention to avoid naming conflicts with Python keywords
 
 [Python: How Decorators Function](https://www.youtube.com/watch?v=vtoXyxcfmUo&t=2s&ab_channel=CodingTech)
 
-<https://realpython.com/primer-on-python-decorators/>
+<https://realpython.com/primer-on-python-decorators
 
 
 

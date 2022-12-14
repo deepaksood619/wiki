@@ -30,13 +30,13 @@ In JSON, they take on these forms:
 
 Anobjectis an unordered set of name/value pairs. An object begins with{(left brace)and ends with}(right brace). Each name is followed by:(colon)and the name/value pairs are separated by,(comma).
 
-![object string value ](media/JSON-image1.gif){width="6.21875in" height="1.1770833333333333in"}
+![object string value ](media/JSON-image1.gif)
 
 2.  **Array**
 
 Anarrayis an ordered collection of values. An array begins with[(left bracket)and ends with](right bracket). Values are separated by,(comma).
 
-![ател Леше ](media/JSON-image2.gif){width="6.21875in" height="1.1770833333333333in"}
+![ател Леше ](media/JSON-image2.gif)
 
 
 
@@ -91,7 +91,7 @@ JSONP([JSON](https://en.wikipedia.org/wiki/JSON)with Paddingor JSON-P) is a java
 
 **jsonnet**
 
-<https://jsonnet.org/>
+<https://jsonnet.org
 
 
 
@@ -123,7 +123,7 @@ az network public-ip list --resource-group MC_Technology_dev-kubernetes-cluster_
 
 
 
-<http://jmespath.org/>
+<http://jmespath.org
 
 <http://jmespath.org/tutorial.html>
 
@@ -131,10 +131,10 @@ az network public-ip list --resource-group MC_Technology_dev-kubernetes-cluster_
 
 **References**
 
-<http://json.org/>
+<http://json.org
 
 JSON Schema Definition - <http://json-schema.org/draft-04/json-schema-core.html>
 
-<https://www.jsonschema.net/>
+<https://www.jsonschema.net
 
 

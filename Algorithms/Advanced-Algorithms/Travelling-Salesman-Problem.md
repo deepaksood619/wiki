@@ -26,6 +26,6 @@ Sanjeev Arora discovered a PTAS for TSP when the distances come from a Euclidean
 
 **References**
 
-<https://diego.codes/post/som-tsp/>
+<https://diego.codes/post/som-tsp
 
 <https://github.com/DiegoVicen/som-tsp>

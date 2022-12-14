@@ -10,7 +10,7 @@ The N Queen is the problem of placing N chess queens on an N×N chessboard so th
 
 
 
-![](media/N-Queens-Problem-image1.jpg){width="5.0in" height="3.75in"}
+![](media/N-Queens-Problem-image1.jpg)
 
 
 
@@ -20,7 +20,7 @@ The N Queen is the problem of placing N chess queens on an N×N chessboard so th
 
 
 
-![冖 "02 -3 CO") ](media/N-Queens-Problem-image2.png){width="5.0in" height="2.5104166666666665in"}
+![冖 "02 -3 CO") ](media/N-Queens-Problem-image2.png)
 
 
 
@@ -65,11 +65,11 @@ backtracking.
 
 
 
-![](media/N-Queens-Problem-image3.png){width="5.0in" height="2.7395833333333335in"}
+![](media/N-Queens-Problem-image3.png)
 
 
 
-![P-ocblem ](media/N-Queens-Problem-image4.png){width="5.0in" height="2.8229166666666665in"}
+![P-ocblem ](media/N-Queens-Problem-image4.png)
 
 
 
@@ -87,7 +87,7 @@ Space Complexity - n*n
 
 
 
-![](media/N-Queens-Problem-image5.png){width="5.0in" height="2.8020833333333335in"}
+![](media/N-Queens-Problem-image5.png)
 
 
 

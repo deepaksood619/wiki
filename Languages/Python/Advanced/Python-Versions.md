@@ -17,9 +17,6 @@ Modified: 2021-10-02 22:35:16 +0500
 
 2.  dataclasses
 
-```{=html}
-<!-- -->
-```
 3.  **ordered dictionaries by default** (OrderedDict**preserves the order**in which the keys are inserted. A regular dict doesn't track the insertion order, and iterating it gives the values in an arbitrary order. By contrast, the order the items are inserted is remembered by OrderedDict.)
 
 
@@ -59,9 +56,6 @@ return "animal" in sentence
 
 4.  Enumerations (3.4+)
 
-```{=html}
-<!-- -->
-```
 5.  **Built-in LRU cache (3.2+)**
 
 Using decorator @lru_cache(maxsize=512)
@@ -74,7 +68,7 @@ Using decorator @lru_cache(maxsize=512)
 
 
 
-<https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/>
+<https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should
 
 
 

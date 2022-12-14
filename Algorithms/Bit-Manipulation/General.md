@@ -83,7 +83,7 @@ x^x = 0
 
 5.  If rem = 3 ,then xor will be 0.
 
-<https://www.geeksforgeeks.org/calculate-xor-1-n/>
+<https://www.geeksforgeeks.org/calculate-xor-1-n
 
 
 
@@ -103,5 +103,5 @@ Caching or Indexing is a technique used to store counts of values which lie in a
 
 
 
-![<signed binary> ](media/General-image1.jpg){width="5.0in" height="2.8020833333333335in"}
+![<signed binary> ](media/General-image1.jpg)
 

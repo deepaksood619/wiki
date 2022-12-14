@@ -68,7 +68,7 @@ print(repr(serializer))
 
 4.  **Authentication & Permissions**
 
-<https://nezhar.com/blog/django-rest-framework-permissions-in-depth/>
+<https://nezhar.com/blog/django-rest-framework-permissions-in-depth
 
 
 

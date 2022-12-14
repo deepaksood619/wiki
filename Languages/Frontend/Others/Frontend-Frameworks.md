@@ -10,29 +10,14 @@ Modified: 2022-12-11 12:42:40 +0500
 
 1.  jQuery
 
-```{=html}
-<!-- -->
-```
 2.  **React**
 
-```{=html}
-<!-- -->
-```
 3.  Preact
 
-```{=html}
-<!-- -->
-```
 4.  **Angular**
 
-```{=html}
-<!-- -->
-```
 5.  Angular.io
 
-```{=html}
-<!-- -->
-```
 6.  **Vue**
 
 <https://github.com/ElemeFE/element>
@@ -85,7 +70,7 @@ You can share data using Svelte's Context API - a mechanism for components to co
 
 
 
-<https://svelte.dev/>
+<https://svelte.dev
 
 <https://github.com/sveltejs/svelte>
 
@@ -111,9 +96,9 @@ It is designed from the ground up to be incrementally adoptable, and can easily 
 
 [**https://www.freecodecamp.org/news/build-a-portfolio-with-vuejs/**](https://www.freecodecamp.org/news/build-a-portfolio-with-vuejs/)
 
-<https://www.freecodecamp.org/news/vue-3-full-course/>
+<https://www.freecodecamp.org/news/vue-3-full-course
 
-<https://www.freecodecamp.org/news/how-to-code-a-framework-vuejs-example/>
+<https://www.freecodecamp.org/news/how-to-code-a-framework-vuejs-example
 
 
 
@@ -149,7 +134,7 @@ Frontity is a free and open source framework to build super fast WordPress theme
 
 
 
-<https://frontity.org/>
+<https://frontity.org
 
 
 
@@ -210,7 +195,7 @@ npm run develop
 
 
 
-<https://www.gatsbyjs.org/>
+<https://www.gatsbyjs.org
 
 <https://github.com/gatsbyjs/gatsby>
 
@@ -220,11 +205,11 @@ npm run develop
 
 Transform your plain text into staticwebsites andblogs
 
-<https://jekyllrb.com/>
+<https://jekyllrb.com
 
-<https://jamstackthemes.dev/ssg/jekyll/>
+<https://jamstackthemes.dev/ssg/jekyll
 
-<https://jekyllthemes.io/>
+<https://jekyllthemes.io
 
 <https://github.com/topics/jekyll-theme>
 

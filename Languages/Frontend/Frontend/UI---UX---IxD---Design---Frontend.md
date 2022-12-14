@@ -10,7 +10,7 @@ Modified: 2022-10-30 23:58:08 +0500
 
 
 
-<https://www.freecodecamp.org/news/ui-ux-design-guide/>
+<https://www.freecodecamp.org/news/ui-ux-design-guide
 
 
 
@@ -76,7 +76,7 @@ Adark patternis "a[user interface](https://en.wikipedia.org/wiki/User_interface)
 
 <https://medium.com/beautiful-code-smart-design-by-10clouds/5-common-ux-dark-patterns-interfaces-designed-to-trick-you-61fdede9718c>
 
-<https://techcrunch.com/2018/07/01/wtf-is-dark-pattern-design/>
+<https://techcrunch.com/2018/07/01/wtf-is-dark-pattern-design
 
 [How to Encourage Clicks Without the Shady Tricks | UX Consultant | Paul Boag](https://www.youtube.com/watch?v=6tvR1rz_Nb8)
 
@@ -93,7 +93,7 @@ Adark patternis "a[user interface](https://en.wikipedia.org/wiki/User_interface)
 
 
 
-<https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course/>
+<https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course
 
 
 
@@ -126,7 +126,7 @@ However, flat design is limiting at times and may make designs too minimal and l
 
 -   Neumorphism (Soft UI)
 
-![Image for post](media/UI---UX---IxD---Design---Frontend-image1.png){width="4.552083333333333in" height="3.7604166666666665in"}
+![Image for post](media/UI---UX---IxD---Design---Frontend-image1.png)
 
 
 
@@ -134,15 +134,15 @@ While neumorphic design looks aesthetically pleasing, it certainly has a lot of 
 
 
 
-<https://www.justinmind.com/blog/neumorphism-ui/>
+<https://www.justinmind.com/blog/neumorphism-ui
 
 <https://medium.com/@artofofiare/neumorphism-the-right-way-a-2020-design-trend-386e6a09040a>
 
-<https://css-tricks.com/neumorphism-and-css/>
+<https://css-tricks.com/neumorphism-and-css
 
 
 
-![Image for post](media/UI---UX---IxD---Design---Frontend-image2.png){width="5.0in" height="1.7291666666666667in"}
+![Image for post](media/UI---UX---IxD---Design---Frontend-image2.png)
 
 
 -   **Glassmorphism**
@@ -151,9 +151,9 @@ The main aspect of this trend is a semi-transparent background, with a sublime s
 
 
 
-<https://ui.glass/>
+<https://ui.glass
 
-<https://www.freecodecamp.org/news/glassmorphism-design-effect-with-html-css/>
+<https://www.freecodecamp.org/news/glassmorphism-design-effect-with-html-css
 
 
 
@@ -161,27 +161,27 @@ The main aspect of this trend is a semi-transparent background, with a sublime s
 
 **Icons - Free figma icons**
 
-**Templates -** <https://www.templatefreebies.com/>
+**Templates -** <https://www.templatefreebies.com
 
 <https://www.youtube.com/watch?v=FTFaQWZBqQ8&ab_channel=AJ%26Smart>
 
-<https://www.freecodecamp.org/news/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma/>
+<https://www.freecodecamp.org/news/ui-ux-design-tutorial-from-zero-to-hero-with-wireframe-prototype-figma
 
 <https://www.toptal.com/designers/ui/figma-design-tool>
 
 <https://www.freecodecamp.org/news/learn-how-to-create-a-design-system-in-figma/lo>
 
-<https://www.freecodecamp.org/news/ui-design-with-figma-tutorial/>
+<https://www.freecodecamp.org/news/ui-design-with-figma-tutorial
 
-<https://www.freecodecamp.org/news/use-user-reseach-to-create-the-perfect-ui-design/>
+<https://www.freecodecamp.org/news/use-user-reseach-to-create-the-perfect-ui-design
 
-Figma Variants - <https://www.freecodecamp.org/news/design-a-scalable-mobile-app-with-figma-variants/>
+Figma Variants - <https://www.freecodecamp.org/news/design-a-scalable-mobile-app-with-figma-variants
 
 
 
 **Accessibility**
 
-<https://www.freecodecamp.org/news/designing-keyboard-accessibility-for-complex-react-experiences/>
+<https://www.freecodecamp.org/news/designing-keyboard-accessibility-for-complex-react-experiences
 
 
 
@@ -214,7 +214,7 @@ The time during which the user interacts with the interface. An example of this 
 
 Behavior defines how users respond to the interface. Users may have different reactions in this interface.
 
-<https://xd.adobe.com/ideas/principles/human-computer-interaction/what-is-interaction-design/>
+<https://xd.adobe.com/ideas/principles/human-computer-interaction/what-is-interaction-design
 
 
 
@@ -253,14 +253,14 @@ Information architecture (IA) involves the way a website/app is structured and h
 
 
 
-![interaction design model](media/UI---UX---IxD---Design---Frontend-image3.png){width="5.0in" height="5.427083333333333in"}
+![interaction design model](media/UI---UX---IxD---Design---Frontend-image3.png)
 
-![umbrella model showing how UX solves problems](media/UI---UX---IxD---Design---Frontend-image4.png){width="5.0in" height="3.7395833333333335in"}
+![umbrella model showing how UX solves problems](media/UI---UX---IxD---Design---Frontend-image4.png)
 
 
 
 [UX / UI Inspiration for 2019](https://www.youtube.com/watch?v=7wlM_uOhKH4)
--   **producthunt -** <https://www.producthunt.com/>
+-   **producthunt -** <https://www.producthunt.com
 -   mobbin.design
 -   dribble
 -   evernote.design
@@ -276,7 +276,7 @@ Information architecture (IA) involves the way a website/app is structured and h
 
 **Occupied vs Unoccupied time**
 
-![Walking Unoccupied Occupied LEAVE PLANE Waiting GET LUGGAGE 7 MINUTES ](media/UI---UX---IxD---Design---Frontend-image5.jpeg){width="6.447916666666667in" height="2.1666666666666665in"}
+![Walking Unoccupied Occupied LEAVE PLANE Waiting GET LUGGAGE 7 MINUTES ](media/UI---UX---IxD---Design---Frontend-image5.jpeg)
 
 **Elevators**
 -   Put up mirrors
@@ -288,17 +288,17 @@ Speed is broken up in two pieces, **real** and **perceived**
 
 
 
-![User behaviour is affected by; Intention Occupied time State of mind Importance State of body ](media/UI---UX---IxD---Design---Frontend-image6.jpeg){width="3.5625in" height="2.125in"}
+![User behaviour is affected by; Intention Occupied time State of mind Importance State of body ](media/UI---UX---IxD---Design---Frontend-image6.jpeg)
 
 
 
-![I was just browsing without a particular purpose or need in mind (34% for Retail sites) I wanted to find out about something that I might do in the future (49% for Travel sites) I wanted to do something then and there (57% for Financial sites) ](media/UI---UX---IxD---Design---Frontend-image7.jpeg){width="5.0in" height="2.1770833333333335in"}
+![I was just browsing without a particular purpose or need in mind (34% for Retail sites) I wanted to find out about something that I might do in the future (49% for Travel sites) I wanted to do something then and there (57% for Financial sites) ](media/UI---UX---IxD---Design---Frontend-image7.jpeg)
 
 
 
 **UX important hierarchy**
 
-![The speed it takes to load a page How easy it is to find what I'm looking for How well the site fits my screen How simple the site is to use How attractive the sites looks 75% 61% 58% ](media/UI---UX---IxD---Design---Frontend-image8.jpeg){width="5.0in" height="2.03125in"}
+![The speed it takes to load a page How easy it is to find what I'm looking for How well the site fits my screen How simple the site is to use How attractive the sites looks 75% 61% 58% ](media/UI---UX---IxD---Design---Frontend-image8.jpeg)
 
 
 
@@ -311,7 +311,7 @@ The five phases of the Design Thinking Process are:
 -   Prototype
 -   Test
 
-<https://www.freecodecamp.org/news/the-design-thinking-process-explained/>
+<https://www.freecodecamp.org/news/the-design-thinking-process-explained
 
 
 
@@ -330,11 +330,11 @@ ec2 machine
 -   moqups (Online Mockup, Wireframe, UI prototyping tool)
 -   figma
 
-<https://www.figma.com/>
--   <https://balsamiq.com/>
+<https://www.figma.com
+-   <https://balsamiq.com
 -   Mural
 
-<https://www.mural.co/>
+<https://www.mural.co
 
 <https://www.mural.co/templates?template-categories=all-templates>
 
@@ -352,19 +352,19 @@ ec2 machine
 
 <https://www.toptal.com/web/website-performance-critical-rendering-path>
 
-<https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/>
+<https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages
 
-<https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker/>
+<https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker
 
 <https://www.toptal.com/designers/web/interview-questions>
 
 <https://www.toptal.com/designers/interactive/interview-questions>
 
-**Courses - <https://www.interaction-design.org/>**
+**Courses - <https://www.interaction-design.org**
 
-<https://wittysparks.com/professional-design-process-explained/>
+<https://wittysparks.com/professional-design-process-explained
 
-<https://www.freecodecamp.org/news/ux-vs-ui-whats-the-difference-definition-and-meaning/>
+<https://www.freecodecamp.org/news/ux-vs-ui-whats-the-difference-definition-and-meaning
 
 
 

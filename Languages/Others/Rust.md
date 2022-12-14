@@ -33,12 +33,12 @@ When you install Rustup you'll also get the latest stable version of the Rust bu
 
 <https://en.wikipedia.org/wiki/Rust_(programming_language)>
 
-<https://www.rust-lang.org/>
+<https://www.rust-lang.org
 
 <https://www.youtube.com/watch?v=s19G6n0UjsM>
 
 <https://www.rust-lang.org/learn>
 
-<https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/>
+<https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular
 
-<https://www.freecodecamp.org/news/rust-in-replit/>
+<https://www.freecodecamp.org/news/rust-in-replit

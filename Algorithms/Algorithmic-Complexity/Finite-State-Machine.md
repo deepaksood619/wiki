@@ -26,7 +26,7 @@ The finite state machine has less computational power than some other models of 
 
 
 
-![](media/Finite-State-Machine-image1.png){width="3.125in" height="2.34375in"}
+![](media/Finite-State-Machine-image1.png)
 
 
 

@@ -6,7 +6,7 @@ Modified: 2020-10-12 00:32:56 +0500
 
 ---
 
-<https://kinsta.com/blog/php-frameworks/>
+<https://kinsta.com/blog/php-frameworks
 -   **Laravel**
 -   Symfony
 -   **CodeIgniter**

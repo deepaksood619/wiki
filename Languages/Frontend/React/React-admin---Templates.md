@@ -24,6 +24,6 @@ Modified: 2022-01-18 23:49:51 +0500
 
 **Admin Templates**
 
-<https://www.templatemonster.com/>
+<https://www.templatemonster.com
 
-<https://themeforest.net/>
+<https://themeforest.net

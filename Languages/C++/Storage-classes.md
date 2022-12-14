@@ -84,7 +84,7 @@ d.  Static Methods in class
 
     d.  The extern modifier is most used when there are two or more files that share the same global variables or functions.
 
-5.  Mutable (<http://www.geeksforgeeks.org/c-mutable-keyword/>)
+5.  Mutable (<http://www.geeksforgeeks.org/c-mutable-keyword)
 
     a.  Applies only to class objects.
 

@@ -47,7 +47,7 @@ PM2 is daemon process manager that will help you manage and keep your applicatio
 
 
 
-<http://pm2.keymetrics.io/>
+<http://pm2.keymetrics.io
 
 
 
@@ -91,7 +91,7 @@ You can add npm to a project simply by using the "npm init" command. When you ru
 
 
 
-<https://www.freecodecamp.org/news/async-local-storage-nodejs/>
+<https://www.freecodecamp.org/news/async-local-storage-nodejs
 
 <https://www.toptal.com/nodejs/interview-questions>
 
@@ -105,6 +105,6 @@ You can add npm to a project simply by using the "npm init" command. When you ru
 
 [**https://www.toptal.com/express-js/nodejs-typescript-rest-api-pt-3**](https://www.toptal.com/express-js/nodejs-typescript-rest-api-pt-3)
 
-<https://www.freecodecamp.org/news/free-8-hour-node-express-course/>
+<https://www.freecodecamp.org/news/free-8-hour-node-express-course
 
-<https://www.freecodecamp.org/news/build-six-node-js-and-express-js/>
+<https://www.freecodecamp.org/news/build-six-node-js-and-express-js

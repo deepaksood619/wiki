@@ -43,9 +43,9 @@ Nest is inspired by Angular
 
 <https://docs.nestjs.com/first-steps>
 
-<https://www.merixstudio.com/blog/nestjs-how-and-why-use-it/>
+<https://www.merixstudio.com/blog/nestjs-how-and-why-use-it
 
-<https://www.freecodecamp.org/news/learn-nestjs-by-building-a-crud-api/>
+<https://www.freecodecamp.org/news/learn-nestjs-by-building-a-crud-api
 
 
 

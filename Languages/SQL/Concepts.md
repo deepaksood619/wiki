@@ -74,7 +74,7 @@ Select User_ID, FirstName, LastName, Salary from UserDetail where FirstName LIKE
 
 Window functions can be simply explained as calculation functions similar to aggregating, but where normal aggregating via theGROUP BYclause combines then hides the individual rows being aggregated, window functions have access to individual rows and can add some of the attributes from those rows into the result set.
 
-![Diagram comparing aggregate functions and window functions](media/Concepts-image1.png){width="7.1875in" height="1.84375in"}
+![Diagram comparing aggregate functions and window functions](media/Concepts-image1.png)
 
 
 
@@ -82,5 +82,5 @@ Window functions can be simply explained as calculation functions similar to agg
 
 <https://www.toptal.com/sql/intro-to-sql-windows-functions>
 
-<https://mjk.space/advances-sql-window-frames/>
+<https://mjk.space/advances-sql-window-frames
 

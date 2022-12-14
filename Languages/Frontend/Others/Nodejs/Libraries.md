@@ -27,7 +27,7 @@ Lodash makes JavaScript easier by taking the hassle out of working with arrays, 
 
 <https://github.com/lodash/lodash>
 
-<https://lodash.com/>
+<https://lodash.com
 
 
 
@@ -37,9 +37,9 @@ Passport is authentication middleware for[Node.js](https://nodejs.org/). Extreme
 
 <https://github.com/jaredhanson/passport>
 
-<http://www.passportjs.org/>
+<http://www.passportjs.org
 
-<https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js/>
+<https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js
 
 Nodejs passport login system - <https://www.youtube.com/watch?v=-RCnNyD0L-s>
 
@@ -51,7 +51,7 @@ Node + Passport User Authentication
 
 User Authentication Choices
 
-![Kuxe/dwoo Sees ](media/Nodejs_Libraries-image1.png){width="5.0in" height="2.5208333333333335in"}
+![Kuxe/dwoo Sees ](media/Nodejs_Libraries-image1.png)
 
 
 

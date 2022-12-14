@@ -100,7 +100,7 @@ ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
 
 The useMemo is a hook used in the functional component of react that returns a memoized value.
 
-<https://www.geeksforgeeks.org/react-js-usememo-hook/>
+<https://www.geeksforgeeks.org/react-js-usememo-hook
 
 
 
@@ -192,7 +192,7 @@ return (
 
 <>
 
-<input value={query} onChange={e => setQuery(e.target.value)} />
+<input value={query} onChange={e => setQuery(e.target.value)} 
 
 <ul>
 
@@ -208,7 +208,7 @@ return (
 
 </ul>
 
-</>
+<
 
 );
 
@@ -216,7 +216,7 @@ return (
 
 const rootElement = document.getElementById("root");
 
-ReactDOM.render(<SearchResults />, rootElement);
+ReactDOM.render(<SearchResults , rootElement);
 
 
 

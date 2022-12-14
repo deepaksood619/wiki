@@ -131,9 +131,6 @@ Gives the total number of items in the dictionary
 Produces a printable string representation of a dictionary
 -   type(variable)
 
-```{=html}
-<!-- -->
-```
 -   **Methods**
     -   dict.clear()
 
@@ -272,7 +269,7 @@ print(dict2)
 -   Eachentryin the table actually a combination of the three values:< hash, key, value >. This is implemented as a C struct
 -   The figure below is a logical representation of a Python hash table. In the figure below,0, 1, ..., i, ...on the left are indices of theslotsin the hash table (they are just for illustrative purposes and are not stored along with the table obviously!).
 
-![# Logical model of Python Hash table 01 <hashlkeylvalue>l ](media/Data-Structure_Dictionary-image1.png){width="3.0625in" height="2.4270833333333335in"}
+![# Logical model of Python Hash table 01 <hashlkeylvalue>l ](media/Data-Structure_Dictionary-image1.png)
 -   When a new dict is initialized it starts with 8slots.
 -   When adding entries to the table, we start with some slot,i, that is based on the hash of the key. CPython initially usesi = hash(key) & mask(wheremask = PyDictMINSIZE - 1, but that's not really important). Just note that the initial slot,i, that is checked depends on thehashof the key.
 -   If that slot is empty, the entry is added to the slot (by entry, I mean,<hash|key|value>). But what if that slot is occupied!? Most likely because another entry has the same hash (hash collision!)
@@ -343,7 +340,7 @@ In a combined table, the hash table has two important arrays. One is the entries
 
 The other array is the indices array that acts as the hash table. Theindices arrayelements contain the index of their corresponding entry in the entries array.
 
-![0000*000000'010 ](media/Data-Structure_Dictionary-image2.png){width="10.083333333333334in" height="12.270833333333334in"}
+![0000*000000'010 ](media/Data-Structure_Dictionary-image2.png)
 
 CPython uses a few different structs to represent a dictionary and these arrays.
 
@@ -451,7 +448,7 @@ return i;
 
 Linear probing can be inefficient in CPython, because some of the CPython hash functions result in many keys mapping to the same index. If there are many collisions at the same index, linear probing results in clusters of active slots causing the linear probe to go through many iterations before finding a match.
 
-![multiple collisions Clustering ](media/Data-Structure_Dictionary-image3.png){width="10.083333333333334in" height="2.75in"}
+![multiple collisions Clustering ](media/Data-Structure_Dictionary-image3.png)
 
 One solution would be to use improved hash functions at the price of slower hashing. Instead, CPython makes the probing more random. It uses the rest of the hash to generate a new index. This is done by storing the hash in a variable namedperturband shiftingperturbdown 5 bits (PERTURB_SHIFT) each iteration. This is combined with the following calculation:
 
@@ -464,7 +461,7 @@ After a few shifts,perturbbecomes 0, meaning justi*5 + 1is used. This is fine be
 
 
 
-<https://www.data-structures-in-practice.com/hash-tables/>
+<https://www.data-structures-in-practice.com/hash-tables
 
 <https://www.youtube.com/watch?v=npw4s1QTmPg>
 

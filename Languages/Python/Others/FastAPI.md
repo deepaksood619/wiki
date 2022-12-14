@@ -32,7 +32,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 
 <https://github.com/long2ice/fastapi-admin>
 
-<https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly/>
+<https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly
 
 [**https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/**](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/)
 

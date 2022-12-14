@@ -6,7 +6,7 @@ Modified: 2022-11-28 16:07:03 +0500
 
 ---
 
-![Modern Javascript Tooling Our project files component_l.js component_2js component_3js React,js Redux.js A Web Page Hello World! Tooling (Transpile JSX + ES6 to ES5) webpack + babel index.html application.js style.css ](media/Intro-image1.png){width="6.854166666666667in" height="2.6875in"}
+![Modern Javascript Tooling Our project files component_l.js component_2js component_3js React,js Redux.js A Web Page Hello World! Tooling (Transpile JSX + ES6 to ES5) webpack + babel index.html application.js style.css ](media/Intro-image1.png)
 
 
 
@@ -41,7 +41,7 @@ This abstraction layer for the DOM provides a simple interface for developers wh
 
 
 
-<https://www.freecodecamp.org/news/how-to-manipulate-the-dom-beginners-guide/>
+<https://www.freecodecamp.org/news/how-to-manipulate-the-dom-beginners-guide
 
 
 -   **Declarative**
@@ -54,9 +54,6 @@ Design simple views for each state in your application, and React will efficient
 Build encapsulated components that manage their own state, then compose them to make complex UIs
 -   Class based components
 
-```{=html}
-<!-- -->
-```
 -   React also has an unidirectional dataflow. UI in React is actually the function of the state. This means that as the state updates it updates the UI as well. So our UI progresses as the state changes.
 
 
@@ -161,7 +158,7 @@ Encapsulates the idea that all the code that we write in separate files is siloe
 
 Draw boxes around every component (and subcomponent) in the mock and give them all names.
 
-![Search... Only show products in stock Name Price Sporting Goods Football $49.99 Baseball $9.99 4 Basketball $29.99 Electronics iPod Touch $99.99 iPhone5 $399.99 Nexus 7 $199.99 2 3 5 ](media/Intro-image2.jpeg){width="3.8125in" height="2.4791666666666665in"}
+![Search... Only show products in stock Name Price Sporting Goods Football $49.99 Baseball $9.99 4 Basketball $29.99 Electronics iPod Touch $99.99 iPhone5 $399.99 Nexus 7 $199.99 2 3 5 ](media/Intro-image2.jpeg)
 
 1.  FilterableProductTable(orange):contains the entirety of the example
 

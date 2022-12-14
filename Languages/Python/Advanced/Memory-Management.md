@@ -12,7 +12,7 @@ Everything in Python is an object. Some objects can hold other objects, such as 
 
 We can depict the whole system as a set of hierarchical layers:
 
-![int dict list strin Object-specific memory Python's object allocator Object memory Python core Non-object memory Internal buffers Python's raw memory allocator (PyMem_ API) Python memory (under PyMem manager's control) Underlying general-purpose allocator (ex: C malloc) Virtual memory allocated for the python process OS-specific Virtual Memory Manager (VMM) Kernel dynamic storage allocation & management Physical memory: Secondary storage (swap) ROM/RAM ](media/Memory-Management-image1.png){width="5.0in" height="5.614583333333333in"}
+![int dict list strin Object-specific memory Python's object allocator Object memory Python core Non-object memory Internal buffers Python's raw memory allocator (PyMem_ API) Python memory (under PyMem manager's control) Underlying general-purpose allocator (ex: C malloc) Virtual memory allocated for the python process OS-specific Virtual Memory Manager (VMM) Kernel dynamic storage allocation & management Physical memory: Secondary storage (swap) ROM/RAM ](media/Memory-Management-image1.png)
 
 
 
@@ -103,11 +103,11 @@ sys._debugmallocstats()
 
 
 
-<https://rushter.com/blog/python-memory-managment/>
+<https://rushter.com/blog/python-memory-managment
 
 
 
 **Others**
 
-<https://adamj.eu/tech/2019/09/19/working-around-memory-leaks-in-your-django-app/>
+<https://adamj.eu/tech/2019/09/19/working-around-memory-leaks-in-your-django-app
 

@@ -14,7 +14,7 @@ When dealing with gains, it is referred to as "maximin" - to maximize the minimu
 
 
 
-<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction/>
+<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-1-introduction
 
 Minimax is a kind of[backtracking](http://www.geeksforgeeks.org/tag/backtracking/)algorithm that is used in decision making and game theory to find the optimal move for a player, assuming that your opponent also plays optimally. It is widely used in two player turn based games such as Tic-Tac-Toe, Backgamon, Mancala, Chess, etc.
 
@@ -24,17 +24,17 @@ In Minimax the two players are called maximizer and minimizer. The**maximizer**t
 
 
 
-<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-2-evaluation-function/>
+<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-2-evaluation-function
 
 
 
-<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/>
+<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move
 
 Create a **Game-Tree** which shows all the possible moves that an AI can take.
 
 
 
-<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-4-alpha-beta-pruning/>
+<http://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-4-alpha-beta-pruning
 
 
 

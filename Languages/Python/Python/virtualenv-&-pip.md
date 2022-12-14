@@ -116,7 +116,7 @@ pip list --outdated #show all outdated pip packages in requirements.txt
 
 
 
-<https://pypi.org/project/pipreqs/>
+<https://pypi.org/project/pipreqs
 
 Generate pip requirements.txt file based on imports of any project
 

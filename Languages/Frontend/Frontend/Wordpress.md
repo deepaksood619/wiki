@@ -14,7 +14,7 @@ WordPress is a content management system that powers 34% of all websites on the 
 
 
 
-<https://www.advancedcustomfields.com/>
+<https://www.advancedcustomfields.com
 
 [Overview of WordPress (Beginners Guide 2020)](https://www.youtube.com/watch?v=jmqu4HC3zmo)
 
@@ -33,20 +33,17 @@ Pages - That are not part of blog, and are standalone pages like about us, conta
 
 
 **Themes**
--   <https://generatepress.com/>
--   Divi Theme - <https://www.elegantthemes.com/> <https://www.elegantthemesdemo.com/>
+-   <https://generatepress.com
+-   Divi Theme - <https://www.elegantthemes.com <https://www.elegantthemesdemo.com
 -   Astra
--   <https://www.isitwp.com/top-wordpress-themes/>
--   <https://rishitheme.com/>
+-   <https://www.isitwp.com/top-wordpress-themes
+-   <https://rishitheme.com
 
 
 
 **Plugins**
--   <https://wp-rocket.me/>
+-   <https://wp-rocket.me
 
-```{=html}
-<!-- -->
-```
 -   W3 Total Cache
 -   WP Super Cache
 -   Kinsta Cache
@@ -59,7 +56,7 @@ Pages - That are not part of blog, and are standalone pages like about us, conta
 -   jonRadio multiple themes
 -   All-in-One WP Migration by ServMask
 -   Accordian plugin
--   <https://wordpress.org/support/article/managing-plugins/>
+-   <https://wordpress.org/support/article/managing-plugins
 
 
 
@@ -77,8 +74,8 @@ The[Advanced Database Cleaner](https://wordpress.org/plugins/advanced-database-c
 -   Query Monitor
 
 When things are running slowly and you're not sure what to blame,[Query Monitor](https://wordpress.org/plugins/query-monitor/)lets you see what queries are taking too long to execute, as well as show you PHP warnings and errors.
--   <https://themeisle.com/blog/wordpress-version-control/>
--   <https://kinsta.com/blog/wordpress-version-control/>
+-   <https://themeisle.com/blog/wordpress-version-control
+-   <https://kinsta.com/blog/wordpress-version-control
     -   [WP Pusher](https://wppusher.com/)-- lets you deploy themes and plugins from any Git repository. Note that this one focuses specifically on themes and plugins.
     -   [Revisr](https://wordpress.org/plugins/revisr/)-- offers a much more comprehensive approach to using Git with WordPress. You can track your entire site, including your database, in a Git repository. You can also commit changes from inside your WordPress dashboard, revert files, and push/pull changes to a remote repository (like Bitbucket or GitHub).
     -   [VersionPress](https://versionpress.com/)is an open source project that aims to "bring the full power of Git to WordPress" by version-controlling both your site's files and database. Though it also relies on Git, VersionPress gets its own section because it does things a little differently than the methods above.
@@ -182,9 +179,6 @@ There are two kinds of hooks:
 -   Actions hook
 -   Filters hook
 
-```{=html}
-<!-- -->
-```
 -   What are the difference between action hook and filter hook in WordPress?
 
     1.  **Actions Hook**
@@ -302,7 +296,7 @@ A tag is one of the pre-defined taxonomy in WordPress. You can add tags to posts
 
 -   What are the difference between Tag & Category in WordPress?
 
-![WordPress Interview Questions](media/Wordpress-image1.jpg){width="5.0in" height="2.4270833333333335in"}
+![WordPress Interview Questions](media/Wordpress-image1.jpg)
 
 
 
@@ -326,13 +320,13 @@ While there are different ways to add Google Analytics your WordPress site, here
 
 **Others**
 
-<https://www.wpbeginner.com/wp-themes/how-to-use-multiple-themes-for-pages-in-wordpress/>
+<https://www.wpbeginner.com/wp-themes/how-to-use-multiple-themes-for-pages-in-wordpress
 
 <https://www.toptal.com/wordpress/tips-and-practices>
 
 <https://www.toptal.com/wordpress/interview-questions>
 
-<https://www.freecodecamp.org/news/how-to-create-an-ecommere-website-using-woocomerce/>
+<https://www.freecodecamp.org/news/how-to-create-an-ecommere-website-using-woocomerce
 
-<https://www.freecodecamp.org/news/easily-create-a-website-using-elementor-and-wordpress/>
+<https://www.freecodecamp.org/news/easily-create-a-website-using-elementor-and-wordpress
 

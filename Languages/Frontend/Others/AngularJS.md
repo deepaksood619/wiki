@@ -10,7 +10,7 @@ Modified: 2022-09-14 20:50:47 +0500
 
 <https://medium.freecodecamp.org/want-to-learn-angular-heres-our-free-33-part-course-by-dan-wahlin-fc2ff27ab451>
 
-<https://www.freecodecamp.org/news/learn-angular-full-course/>
+<https://www.freecodecamp.org/news/learn-angular-full-course
 
 <https://www.toptal.com/angular-js/interview-questions>
 
@@ -30,7 +30,7 @@ Then you launch the app by*bootstrapping*the*root module*. Angular takes over, p
 
 
 
-![Metadata Compo we ](media/AngularJS-image1.png){width="5.0in" height="2.5416666666666665in"}
+![Metadata Compo we ](media/AngularJS-image1.png)
 
 
 

@@ -42,7 +42,7 @@ Now we can log in as the new user and run show tables to see that it only has ac
 
 
 
-<https://chartio.com/resources/tutorials/mysql-table-level-permissions/>
+<https://chartio.com/resources/tutorials/mysql-table-level-permissions
 
 
 

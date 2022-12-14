@@ -61,7 +61,7 @@ A Game is any interaction between multiple people in which each person's payoff 
 
 14. [Mean field game theory](https://en.wikipedia.org/wiki/Game_theory#Mean_field_game_theory)
 
-![Prisoner's dilemma (PD) Rational decision Iterative PD making n-person PD Game Bounded Irrational rationality Theory behavior Cooperation versus Spatial/network competition game theory Social dynamics Collective intelligence Herd Self-organized criticality mentality Collective Agent- Phase based transition Behavior modeling Synchronization Ant colony optimization Particle swarm optimization Time series analysis Ordinary differential equations Iterative maps Phase space Nonlinear Stability Attractors analysis Dynamics Chaos Population dynamics Multistability Bifurcation Coupled map lattices Homeostasis Evolutionary game theory Swarm behavior Scale-free networks Small-world Emergence over scale Social network analysis networks Community identification Centrality Graph Motifs Networks theory Scaling Robustness/vulnerability Systems Complex Systems biology Dynamical networks Feedbacks Self-reference Goal-oriented/ System dynamics guided behavior Systems Entropy making Theory Autopoiesis Cybernetics Computation Self-Organization over time Spatial fractals Reaction-diffusion systems Partial differential equations Adaptive networks Artificial neural networks Evolutionary computation Genetic algorithms/programming Evolution & Artificial Machine learning life I nformation theory theory Complexity measurement Adaptation Evo-Devo Artificial intelligence Evolutionary robotics Evolvability Dissipative Percolation Pattern structures Cellular Formation automata Self-replication Spatial ecology Spatial evolutionary biology Geomorphology ](media/Game-Theory-image1.jpg){width="5.895833333333333in" height="5.90625in"}
+![Prisoner's dilemma (PD) Rational decision Iterative PD making n-person PD Game Bounded Irrational rationality Theory behavior Cooperation versus Spatial/network competition game theory Social dynamics Collective intelligence Herd Self-organized criticality mentality Collective Agent- Phase based transition Behavior modeling Synchronization Ant colony optimization Particle swarm optimization Time series analysis Ordinary differential equations Iterative maps Phase space Nonlinear Stability Attractors analysis Dynamics Chaos Population dynamics Multistability Bifurcation Coupled map lattices Homeostasis Evolutionary game theory Swarm behavior Scale-free networks Small-world Emergence over scale Social network analysis networks Community identification Centrality Graph Motifs Networks theory Scaling Robustness/vulnerability Systems Complex Systems biology Dynamical networks Feedbacks Self-reference Goal-oriented/ System dynamics guided behavior Systems Entropy making Theory Autopoiesis Cybernetics Computation Self-Organization over time Spatial fractals Reaction-diffusion systems Partial differential equations Adaptive networks Artificial neural networks Evolutionary computation Genetic algorithms/programming Evolution & Artificial Machine learning life I nformation theory theory Complexity measurement Adaptation Evo-Devo Artificial intelligence Evolutionary robotics Evolvability Dissipative Percolation Pattern structures Cellular Formation automata Self-replication Spatial ecology Spatial evolutionary biology Geomorphology ](media/Game-Theory-image1.jpg)
 
 
 
@@ -176,7 +176,7 @@ It is inspired by a rule called **divide and choose** which has been used throug
 
 <https://en.wikipedia.org/wiki/Fair_division>
 
-<https://brilliant.org/wiki/fair-division/>
+<https://brilliant.org/wiki/fair-division
 
 
 
@@ -184,5 +184,5 @@ It is inspired by a rule called **divide and choose** which has been used throug
 
 [Game Theory: The Science of Decision-Making](https://www.youtube.com/watch?v=MHS-htjGgSY)
 
-<https://www.freecodecamp.org/news/introduction-to-evolutionary-game-theory/>
+<https://www.freecodecamp.org/news/introduction-to-evolutionary-game-theory
 

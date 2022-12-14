@@ -1,0 +1,744 @@
+# People / Team Management / Culture
+
+Created: 2020-07-03 13:56:44 +0500
+
+Modified: 2022-12-09 23:57:21 +0500
+
+---
+
+I am available anytime, I can mentor, Any help you need you can always come to me. -- Deepak
+
+To not sound arrogant you should tell things with smile with sir, madam
+
+If you want a problem solved make it someone's project. If you want it managed make it someone's job.
+
+
+
+Most people are terrible managers
+
+
+
+**What When How**
+-   **What** are you going to do
+-   **When** are you going to do it
+-   **How** are you going to do it
+
+
+
+[The puzzle of motivation | Dan Pink](https://www.youtube.com/watch?v=rrkrvAUbU9Y)
+-   As long as the task involved only mechanical skill, bonuses worked as they would be expected: the higher the pay, the better the performance.
+-   But once the task called for "even rudimentary cognitive skill," a larger reward "led to poorer performance."
+-   Higher incentives led to worse performances
+-   Financial incentives, can resullt in a negative impact on overall performance
+-   New approach - intrinsic motivation
+    -   Autonomy
+        -   Traditional management is great if you want compliance, but if you want engagement self-direction works better
+        -   20 percent time
+    -   Mastery
+    -   Purpose
+
+
+
+**Psychological Safety**
+
+1.  **Make** it an explicit priority
+
+2.  **Facilitate** everyone speaking up
+
+3.  **Establish** norms for how failure is handled
+
+4.  **Create** space for new ideas (even wild ones)
+
+5.  **Embrace** productive conflict
+
+
+
+<https://hbr.org/2017/08/high-performing-teams-need-psychological-safety-heres-how-to-create-it>
+
+1.  Approach conflict as a collaborator, not an adversary
+
+2.  Speak human to human
+
+3.  Anticipate reactions and plan countermoves
+
+4.  Replace blame with curiosity
+
+5.  Ask for feedback on delivery
+
+6.  Measure psychological safety
+
+
+
+**The Fearless Organization by Amy C. Edmondson**
+
+Creating **psychological safety** in the workplace for learning, innovation, and growth
+-   A fearless workplace starts with reframing failure and redefining the boss's role
+-   Those who are not the boss are seen as valued contributors, as people with crucial knowledge and insight
+-   When leaders are curious and admit that they don't know everything, people are encouraged to speak up
+-   When people take risks and speak up, it's important for leaders to respond productively
+-   You don't have to be a leader to help create a fearless work environment
+    -   I need help
+    -   I don't know
+    -   I made a mistake
+    -   What challenges are you facing?
+    -   What can I do to help you?
+
+
+
+
+
+![Establishing a sense of urgency Anchoring new approaches inlhe culture Consolidating gains and producing more change Generating short-term wins Creating the guiding coalition Developing a vision and strategy Communicating the change vision Empowering employees for broad.based action Ftgure 2-2. Ketter etght-step process for maktng organt:attonal change ](media/People---Team-Management---Culture-image1.png)
+
+
+
+![WRITING ASYCHRONOUSLY TRUST SOCIAL CONNECTION PROCESS 1:1s ](media/People---Team-Management---Culture-image2.png)
+
+
+
+![LET YOUR TEAM KNOW Over-communication is helpful. The more everyone proactively shares progress + concerns, the better. Empathize empathy. Not sure what someone meant by their note? Assume positive intent. Feeling bothered by the way someone communicated their request? Kindly share the feedback of what you observed + how you'd like things to be different next time. ](media/People---Team-Management---Culture-image3.png)
+
+[Work Principles](https://deepstash.com/idea/58882/work-principles)
+-   **Value knowing the truth.** You have nothing to fear from knowing it
+-   Cultivate**meaningful work and meaningful relationships**
+-   Foster**a culture that allows mistakes**and encourages learning from them
+-   **Weight your decision making**in a realistic way
+-   Recognize how to get beyond disagreement
+-   Remember that**WHO is more important than WHAT**
+-   **Hire right,** because the costs for hiring wrong are huge
+-   Constantly**train, test, evaluate, and sort people**
+-   **Identify and don't tolerate problems**
+-   **Diagnose problems to get at their root causes**
+-   Design improvements to your machine to get around your problems
+-   **Do what you set out to do**
+-   Use tools and protocols to shape how work is done
+-   **Don't overlook governance.**
+
+
+
+**Mentors--** Does the firm prioritize mentorship? Do employees feel like they have advocates within the firm? Do the mentees eventually become the mentors?
+
+
+
+**Trust--** Do people at the firm trust those around and above them? If younger employees look left and right in a meeting, do they admire these people? Do they aspire to be in their bosses' shoes in the future?
+
+
+
+**Strategy--** Do the "higher ups" value their employees' opinions? Do they encourage open discussions or do they "steer" the conversation? Do they value differing opinions or just say they do?
+
+
+
+**Recruiting--** What types of qualities does the firm prioritize when hiring? How much emphasis is placed on character versus sheer intellectual horsepower? Where do they recruit from?
+
+
+
+**Accountability--** How has the firm handled disruptive colleagues? Are the most talented colleagues given exceptions or are they held to the same standard? How are good team players acknowledged and rewarded?
+
+
+
+<https://blog.trello.com/hold-team-accountable-without-micromanaging>
+
+
+
+**Engineering Manager / Tech Lead**
+-   The tech lead is the **owner of the technological vision** for a project, and the **technical leader** of the project team.
+-   A tech lead is a software engineer, **responsible** for **leading** a development team, and responsible for the quality of its **technical deliverables**
+-   At the end of the day, it's about **making good software with a team**
+-   Achieve tech lead mastery in 3 easy steps:
+    -   **Facilitate**
+        -   Help your team do their jobs
+        -   Always be asking yourself - What's next
+        -   Remove roadblocks
+        -   Perceive the need
+        -   Tactic #1 - Tickets, hours & **burndowns**
+        -   Know the answers - Or where to find them
+            -   be a router
+            -   suggest a resource
+            -   tell keywords for searching in google
+        -   It's fine to admit not knowing something but never ever as an excuse. **"I don't know,'** should burst joyfully from your lips, followed by **'but I will find out!'**
+    -   **Advocate**
+        -   Keep the big picture in mind
+        -   You need to have the 10,000 foot view in your head, so you can make good decisions about what to do on the ground.
+        -   Try to know whys of the decision and not only what
+        -   Tactic #2 - Write down **everything**
+            -   send recap emails
+        -   How to advocate when talking to
+            -   Developers - finish in few weeks so don't overengineer
+                -   Always tell developers why we are doing this
+            -   Management
+                -   Advocate for developers
+            -   Clients
+                -   No but
+                    -   Will take 3 more weeks
+                    -   Will take 10K more
+                    -   Let me explore and get back to you
+            -   Just say NO to **feature creep** (That's advocating for the project)
+    -   **Motivate**
+        -   Guide your team to the best possible result
+        -   Intrinsic motivation
+        -   First key to motivation
+            -   Your attitude - You set the tone for the team
+                -   Never let developers take blame
+            -   Tactic #3 - Passive-aggressive **whiteboarding**
+        -   **Tech lead paradox -** You're not writing the code, but you shoulder the responsibility for it.
+        -   Minimize Risk
+            -   Go after the parts that scare you the most
+            -   Hunt for answers until you aren't scared
+        -   It can be hard to code when you're a tech lead
+            -   Coders work on the maker's schedule
+            -   But TL's are on the manager's schedule
+        -   Growth Opportunities
+            -   Bored people quit
+
+
+
+1.  Remove blockers
+
+2.  Empower your team
+
+3.  Share credit, take blame
+
+4.  Never devalue people
+
+5.  Be vulnerable and authentic
+
+6.  Prioritize and focus
+
+7.  Invest in your communication skills
+
+
+-   **Senior tech lead**
+    -   The world willl no longer be binary
+    -   You don't need to have all the answers
+        -   I don't know. Let's ask someone or find someone who knows
+    -   Your role is not to be liked by everyone
+        -   If you try to please all, you please none
+    -   You are not alone
+    -   Non-technical areas are also important
+    -   People are complex
+    -   You can't do everything yourself
+        -   Use the **situational leadership model**
+
+The fundamental principle of the situational leadership model is that there is **no single "best" style of leadership**. Effective leadership is task-relevant, and the most successful leaders are those who adapt their leadership style to theperformance readiness(ability and willingness) of the individual or group they are attempting to lead or influence. Effective leadership varies, not only with the person or group that is being influenced, but it also depends on the task, job, or function that needs to be accomplished
+
+
+
+<https://www.wikiwand.com/en/Situational_leadership_theory>
+
+
+-   Depends on
+    -   Skill
+    -   Motivation
+    -   Urgency
+
+![Tell Sell Participate Delegate ](media/People---Team-Management---Culture-image4.png)
+
+![High Participate Delegate Low Directing behaviour Low Sell Tell ](media/People---Team-Management---Culture-image5.png)
+
+
+
+![High Participate Delegate Tell Low Directing behaviour Low Sell ](media/People---Team-Management---Culture-image6.png)
+-   Three are many ways to lead
+    -   Coach
+    -   Shepherd
+    -   Shaman
+    -   Champion
+-   Saying no
+
+
+
+!["Managing the system" Planning Supporting Organstng 000 00 Budgeting ](media/People---Team-Management---Culture-image7.png)
+
+
+
+!["Leading Technical Topics & Teams" Aligntng Team Technical Vision O o Technical Risk Vanagement b Growing Technical Knowledge 6 Tech Debt Management ](media/People---Team-Management---Culture-image8.png)
+
+1.  Awareness
+
+2.  Training
+
+3.  Coaching
+
+4.  Practice (deliberate)
+
+
+
+**Leadership skills to invest in**
+-   Empathy
+-   Self-Awareness
+-   Motivation
+-   Conflict Resolution
+-   Communication
+-   Coaching
+-   Feedback
+-   Influencing
+-   Delegation
+
+![Leadership Skills to Invest In POWER POSITIVE LEADERSHIP EET VE crucial onversat10ft• suns 01 pATTEÅNS EMOTIONAL 2.0 BUSY MANAGER'S GUIDE t. DELEGATION The Char. the SECREIS GREAT THINS FEEiiACK ](media/People---Team-Management---Culture-image9.png)
+
+
+
+<https://blog.trello.com/flexibility-secret-of-great-leaders-everywhere>
+
+
+
+**Strengths Finder**
+-   Woo
+-   Strategic
+-   Achiever
+-   Intellection
+
+
+
+Move from Maker to Multiplier mode
+
+
+
+![ENTREPREN Freelance Dev Junior Dev Solopreneur Startup nder O Project Manager O Dev Manager Mid Dev Dev Evangelist Small Business CEO Founder, 2nd company O Director of Product O Engineering/ Te Lead Sr. Dev author/ Speaker O Founder, 3rd company O VP of Product Director/vp Engineering Distinguished Dev Keynote Speaker WEB CAMP Chairperson of the Board MANAGER O CTO Chief Rrchitect DEVELOPER Brandon Hays ](media/People---Team-Management---Culture-image10.png)
+
+
+
+[You're The Tech Lead! Now What?](https://www.youtube.com/watch?v=muls9BogsVQ)
+
+
+
+**CTO**
+
+• Actions speak louder than words. Data speaks louder than actions.
+
+• Functional skills may be necessary in early leadership journey but what got you here won't get you there
+
+• Strategy and execution are equally important
+
+• Not all processes are evil
+
+
+
+<https://dev.to/eisabai/four-things-i-wish-i-knew-as-the-new-cto-of-a-startup-4k9j>
+
+
+
+<https://www.patkua.com/blog/5-engineering-manager-archetypes
+
+
+
+**Solutions Architect**
+
+A solutions architect creates the overall technical vision for a specific solution to a business problem.
+
+
+
+A good solutions architect looks at the existing environment and analyzes what technologies are available and what software product must be developed to provide the best solution for the problem that needs to be solved. From there, the solutions architect creates an overall strategic technical vision---not unlike an architect designing a blueprint for a building. They develop a budget for producing a software product based on that vision.
+
+
+
+<https://www.coursera.org/articles/solutions-architect>
+
+
+
+**KPI - Key Performance Indicators**
+
+**KPA - Key Performance Areas**
+
+**KRA - Key Result Areas**
+
+1.  Complexity/Innovation- Task Based
+
+2.  Code Quality
+
+3.  Communication with project owner
+
+4.  Responsibility and Teamwork.
+
+
+-   **Taking ownership for his deliverables end to end**
+-   Scoping
+-   Managing Stakeholders
+-   Designing
+-   Coding
+-   Documentation (And meeting notes)
+-   Deploying
+-   Debugging
+-   Monitoring
+-   Alerting
+-   **Finding problems proactively**
+-   **Participating in knowledge sharing (Tech sessions)**
+
+
+-   **Understanding the specifications**for the "thing" you are about to implement.
+-   **Estimating time**required to implement something.
+-   **Communications skills**and clearness in your reporting and communication.
+-   **Knowledge in the programming languages**you use.
+-   **Knowledge in the libraries**you use.
+-   **Knowledge in the tool-sets**you use.
+-   **Analytical thinking**and experience (practical when you design the architecture of the "thing" prior to coding it).
+-   **Technological understanding**(ability to see your new "thing" in a wider perspective, for example how a small library fit into a large project or product).
+-   **Creativity**(finding better ways to achieve your projects goals).
+-   **Planning**
+-   **Coding**(testable code, clean reusable code, maintainable code, readable code, bug-free code, beautiful code).
+-   **Correctness**(few bugs, few iterations with refactoring).
+-   **Application performance**(the application does what it's supposed to do without wasting CPU, memory or other resources).
+-   **Learning**(your ability to learn about and use new technologies, protocols, libraries, or even languages as needed).
+-   **Durability**(to stay on track no matter what, even when you feel dead bored, or in way over your head).
+
+
+
+**Effectiveness**
+-   Actual delivery time vs Estimated delivery time
+-   One time successful delivery vs Total delivery
+-   Overall accomplish time: issue created time to issue resolved time.
+
+**Quality**
+-   Avg code review score
+-   Re-do work counts
+-   Bug Reports: Total vs Critical
+
+**Productivity**
+-   Number of critical issues solved
+-   Count of positive team reviews
+-   Any public doc created
+-   Innovative ideas shared and worked
+
+
+
+<https://lastviking.eu/key_result_areas_for_developers.html>
+
+
+
+Logically segment the business into micro-subdomains, so that each can be supported by a small**empowered autonomous team**.
+
+
+
+**Tips**
+-   Create shared calendar for leaves/wfh
+-   Calendly for scheduling interviews
+-   Employee of the month award
+-   Incentive structuring (Always have a yearly bonus for retention, and should be in an staggered manner)
+-   Courses?
+-   Quarterly review
+-   Talk to people in party, motivate them to scale up and take ownership, give esops, give them vision, give them bigger goals, get them motivated instead of talking about other things
+-   Intrinsic motivated people, who are themselves motivated and everyone should get out of their way, extrinsic when people are motivated by external pressure or force or incentives
+
+
+
+**Performance reviews (Engineering reviews) (Engineering**
+
+<https://blog.pragmaticengineer.com/performance-reviews-for-software-engineers
+
+<https://docs.google.com/spreadsheets/d/1tyt8juaRrbHJGglg8z0WS_tYfdMgKS9AHc1l3jpcg6k/edit?usp=sharing>
+
+<https://about.gitlab.com/blog/2020/08/27/measuring-engineering-productivity-at-gitlab
+
+![Lead A looc"ng performer who otofots to monogo projects over monogjng peop!e Depth, expertise, innovot,on, ootsuoston. strotoø•c. confidence; programs not oto;ects Leads tho delivery ot st-upped products; Oohveted successful work ot the scope of 'product oroos• Principal /nospensoble indivduo/ contobutot Breadth. mentorship. evonge/tsrn. thought k»oderstwn visionary. leads tooms in framing ard solving hord problems, hos driven innovotrvo etfotts that urcovorod now voluo With new kinds of oxporioncos; presents company os an jndustry leader in doson Director Oynornc leader. focused on strotegrc vision. gtomng talent ord execution Mentorshrp, new creoron, otøoryzotion-wvdo leadership. planning; operations Storehcont monogement expeneoce (teams up to 10 oeoplo); recruited and h'tod teams Artjcutoto o compo,Wng vision; be.ip run tho company RocruJteng and hirrng; ostobåst»ng cuJtuto; occountabf'ty; vision evangelism Successfulty run design organ•zattons (of around IO•IS Ot fewer); Oomonstrotod obllity to onqogo oxocutivo oodershjp octoss the company ](media/People---Team-Management---Culture-image11.jpeg)
+
+
+
+**Bus Factor**
+
+A project'sbus factor(or truck factor) is a number equal to the number of team members who, if run over by a bus, would put the project in jeopardy. The smallest bus factor is 1. Larger numbers are preferable. Essentially, a low bus factor represents a single point of failure within the team.
+
+
+
+<https://deviq.com/bus-factor
+
+
+
+Escalation matrix
+
+
+
+**One Minute Manager**
+
+![THE NEW ONE MINUTE MANAGER'S GAME PLAN Start Let people know up front what you are going to do to help them win. ONE MINUTE GOALS • Make it clear what the goals are. • Show what good behavior looks like. • Put each goal on one page • Quickly review goals frequently. • Encourage people to notice what thefre doing and see if it matches their goals • If not, urge them to change what they're doing and Wirt Is Achieved loc any part of the goals) ONE MINUTE PRAISINGS • Praise the behavior. • Do it soon. Be specific. • Say how good you feel about it • Pause to let people feel good too • Encourage them to keep up the good work. Proceed with More Success Goals Not Achieved You Lose To Help You Win ONE MINUTE RE-DIRECTS Re-clanfy & agree on goals. Confirm what happened. • Describe the mistake soon. • Say how concerned you feel. Pause to let people feel their own concern. • Tell them they're better than the mistake & you value them. • When it's over, its over. Proceed to Better Performance ](media/People---Team-Management---Culture-image12.png)
+
+
+
+[**https://klinger.io/posts/managing-people-%F0%9F%A4%AF**](https://klinger.io/posts/managing-people-%F0%9F%A4%AF)
+-   There is no point being angry at your team -- ever
+-   You are in charge of processes and people
+    -   And you got more information than they do, always
+-   You either created the processes where this outcome happened
+    -   or you hired (or did not fire) the wrong people
+-   Ultimately everything is your fault
+
+
+
+**Feedbacks**
+-   What would you say is my biggest strength?
+
+This is a question that I love asking my manager and peers because I experience imposter syndrome a lot more than I'd like to admit. Asking this question tackles two things: getting feedback from those around me and squashing feelings of imposter syndrome as they creep up.
+
+
+
+**Word Cloud**
+-   Integrity
+-   Fairness
+-   Transparency
+-   Move up / out
+-   Fail fast, Fail often
+-   Take ownership
+-   Excecute well, Execute quickly
+-   Process Orientation
+-   Customer centricity
+-   Innovate
+-   Obligation to Dissent
+-   Focus on product
+-   Attention to detail
+-   Communicate well & Clearly
+
+
+
+![to OBNERSHIPU- TRANSPARENCY INTEGRITY PROCESS CUSTOMER ORIENTAÜON ](media/People---Team-Management---Culture-image13.png)
+
+
+
+**Remote Working / Teams**
+-   **TODOs**
+    -   Creating remote teams once a month/quarter meetups
+    -   Daily stand-up
+    -   Evening syncups
+    -   Fixed set of tasks
+    -   Everything should be written down and organized
+-   **Benefits**
+    -   Hiring firing is easy
+-   Transfer operational knowledge
+-   Over paid vs under paid
+-   Really need good managers to take over team
+-   Creating feedback loop for every process
+
+
+
+**Remote working tips**
+
+1.  Default to action (if remote and waiting for someone respond, then default to action, take a decision and move on)
+
+"As far as life philosophies go, "The right time is right now" isn't a bad one. Most of us would benefit from a greater bias toward action.
+
+If you move fast, you can try more things. And if you try more things, you're likely to find something that works for you."
+
+
+
+2.  Over-communicate where possible
+
+3.  Make yourself available
+
+4.  Prioritize face-to-face conversations
+
+5.  Offer space to de-stress
+
+6.  Share strategies to help your local community
+
+
+
+**Distributed Team (Trust) - Values (Gitlab) (CREDIT)**
+-   Collaboration
+-   Results
+-   Efficiency
+-   Diversity & Inclusion
+-   Iteration
+-   Transparency - Record by default
+    -   Record everything, cannot afford to train people in meetings
+    -   self-paced learning and discovery
+    -   send links to avoid wasting valuable time holding meetings or getting interrupted by same questions
+    -   access the best version of the information
+
+
+
+To complement the self-assessment of the stress continuum, McGladrey recently piloted a system she calls **"3-3-3"** --- basically an informal **check-in three days, three weeks, and three months** after a significant event. At the three-day mark, the idea is to gauge the mental state of participants at the time of the event and identify some red flags for bad outcomes. These check-ins can also identify people who need more support."
+
+
+
+[Debbie Lovich: 3 tips for leaders to get the future of work right | TED](https://youtu.be/kTS1jJgXsfw)
+
+<https://blog.trello.com/boundaries-to-start-setting-with-your-team>
+
+<https://blog.trello.com/conflict-management-strategies-for-hybrid-teams>
+
+
+
+**Deadlines**
+
+<https://irrationallabs.com/blog/papers-were-reading-week-17>
+
+
+
+**Learning and Development Officer (CLO - Chief Learning Officer)**
+
+<https://360learning.com/blog/6-key-skills-chief-learning-officer
+
+<https://360learning.com/blog/lifelong-learning
+
+
+
+**TEAM MANAGEMENT (Collaboration, Motivation, Solving Problems, Conflict Resolution, Likeability)**
+
+| **S No** | **Self Remarks**    | **Self Rating** |
+|----------|---------------------|-----------------|
+| 1        | Collaboration       | Rating - 3/5    |
+| 2        | Motivation          | Rating - 4/5    |
+| 3        | Solving Problems    | Rating - 4/5    |
+| 4        | Conflict Resolution | Rating - 3/5    |
+| 5        | Likeability         | Rating - 3/5    |
+
+
+
+**QRC Team Topologies**
+
+![QRC Team Topologies Based on Team Topologies, QRC by Henny Portman, May 2020 Conway's law: "Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these or anizations." Team first approach: start with the team for effective software delivery. There are multiple aspects to consider and nurture: team size, team lifespan, team relationships, and team cognition. Organizational sensing: expect to adapt and evolve Scaling teams: Organizational groupings should follow Dunbar's number, beginning with around 5- 8 people, then increasing to around 15 people, then 50, then 150, then 500, and so on Brook's law: "Adding new people to a team doesn't immediatel increase its capacit . Cognitive load: "The total amount of mental effort being used in the working memory." Restrict team responsibilities to match the maximum team cognitive load. • Intrinsic cognitive load --- relates to aspects of the task fundamental to the problem space • Extraneous cognitive load --- relates to the environment in which the task is being done • Germane cognitive load --- relates to aspects of the task that need special attention for learning or high performance Interaction mode: Facilitating Stream-Aligned Team Complicated- Subsystem Team Interaction mode: L......J X-as-a-Service Stream-Aligned Team Rapid feedback Platform team Enabling Team Stream-Aligned Team: a team aligned to the main flow of business change, with cross-functional skills mix and the ability to deliver significant increments without waiting on another team. TEAM TOPOLOGIES ORGANIZING euslNEss ANO TECHNOLOGY TEAMS VOR VAST now MATTHEW SKELTON d MANUEL PAIS Interaction mode: Collaborating Interaction mode: X-as-a-Service Evolution of team topologies Discover Establish 1 Live Use Platform team: a team that works on the underlying platform supporting stream-aligned teams in delivery. The platform simplifies otherwise complex technology and reduces cognitive load for teams that use it. Enabling team: a team that assists other teams in adopting and modifying software as part of a transition or learning period. Complicated-Subsystem Team: a team with a special remit for a subsystem that is too complicated to be dealt with by a normal stream-aligned team or platform team. Optional and only used when really necessary. Primary interaction modes for the 4 fundamental team topologies: Collaboration: working closely together with another team H X-as-a Service: consuming or providing something with minimal collaboration o Facilitating: helping (or being helped by) another team to clear impediments ](media/People---Team-Management---Culture-image14.jpeg)
+
+**Managing Managers**
+
+**Do**:
+-   Treat your direct reports in the same way you want them to treat their team members.
+-   Look for opportunities to observe them in action.
+-   Spend time getting to know their team members.
+
+**Don't**:
+-   Dictate exactly how they should manage. Instead, give them advice and let them find their own authentic style.
+-   Criticize them in front of their team. You should be looking for opportunities to bolster their credibility.
+-   Wait until the annual review cycle to ask for input. Regularly seek feedback on how you're doing as their manager.
+
+
+
+<https://hbr.org/2016/08/how-to-manage-managers>
+
+<https://www.shrm.org/resourcesandtools/hr-topics/people-managers/pages/managing-managers.aspx>
+
+<https://www.managementcenter.org/resources/tips-managing-managers
+
+1.  Cultivate and affirm ownership
+
+2.  Understand their management and leadership style
+
+3.  Always be modeling
+
+4.  See them in action
+
+5.  See the work in action, too
+
+6.  Build relationships with your managers' teams
+
+
+
+<https://www.entrepreneur.com/article/378072>
+
+1.  Help them go from manager to leader
+
+2.  Give managers a budget
+
+3.  Empower and encourage managers to take care of their top performersin terms of needs, pay and recognition
+
+4.  Respect their position as manager and allow them to task their teams and set deliverables
+
+5.  Ensure they know how you want to be kept informed
+
+6.  Create trust so managers can come to you for help when they need a sounding board
+
+7.  Make sure they can tell the difference between a people issue and simply being misaligned
+
+
+
+**Negative Connotation**
+
+I have been observing interactions between you & my team.
+
+My understanding is that you agreed to do a project, deliverables were clear & they were not met. Even the first milestone was not achieved by you, no question of it being close to agreed timelines.
+
+The code you committed did not work in simple dev tests, so the question of it being of any use to us is absurd.
+
+
+
+What is the escalation about? My suggestion is we close the topic here, we have no interestin using anythingthat you have written, simplybecause it is not usable at all so its totally worthless.
+
+If you wish to take this forward & threaten my team in any way then we will be forced to defend with all tools available to us.
+
+I hope your intention is not to threaten or escalate this matter & it is an error in my interpretation. If so please excuse me.
+
+Please note thatwe can't take threats of legal action lightly so hopefully you see sense in this and retract that claim.
+
+
+
+Anger
+
+Fear
+
+Greed
+
+Jealousy
+
+Uncertainty
+
+
+
+<https://ideas.ted.com/3-things-that-keep-people-feeling-motivated-at-work
+-   Self-determination theory essentially argued that people are motivated when they can determine for themselves what to work on and how to work on it.
+-   Indeed they posit that incentives can drive down motivation --"because incentives take away a sense of power to determine the work for oneself."
+
+
+
+1.  The first motivational driver is **autonomy**. Autonomy refers to how much people feel in control of their own life and able to make their own choices. In the context of work, autonomy means people feel they have a say in what they work on and how they work on it. They don't feel micromanaged; they feel empowered by their managers to pursue objectives and deadlines on their terms.
+
+...One easy way to judge whether you are leading from a place of autonomy versus control is to pay attention to your feedback or coaching conversations with the team. Specifically, do this: Pay attention to how many times you're giving them advice vs. asking them questions. If you're often giving advice or telling people how to do something, you could be diminishing their sense of autonomy. But if you are asking questions designed to guide them to finding their own solutions, then you are leaving them in control.
+
+
+
+2.  The second motivational driver is **competence**. Competence refers to our desires to seek control but also to experience mastery. Competence speaks to our natural human desire to be learners, to be growing and feeling like we're making progress. It could be progress in our career, progress towards a set of objectives or working for a team or a company that is making progress. Anything that helps individuals feel they are moving toward mastery leverages competence as a motivation.
+
+...make sure that even when you are giving people constructive feedback, you are pairing it with a lot of positive feedback and praise as well. That way it reminds them of the progress they've already made --- and show them you're trying to help them make even more progress.
+
+
+
+3.  The third and final motivational driver is **relatedness**. Relatedness refers to our will to connect with others, interact and care for other people. In terms of research, we've only just begun to grasp just how important relatedness to others truly is. But we know that humans are much more motivated to take actions when they're seen as pro-social --- that is, when they're seen as being able to help other people.
+
+...if you can ensure the members of your team know who exactly is being helped by their efforts, you can almost guarantee they'll be willing to work hard to help those people.
+
+
+
+**There are two types of managers**
+
+"One who manages with fear, the other with motivation."
+
+
+
+"In fact, 95% of people use fear management- tell people they're doing things wrong, demotivate them, show they didn't live up to expectations."
+
+
+
+"Both styles work well."
+
+
+
+"But they also forget one important thing."
+
+
+
+"At the end of the day, people garner hatred for a person that manages with fear. When there's no respect, no connection, even though the business might do well in the short run, things will start falling apart slowly."
+
+
+
+"What nobody taught us, is the other path."
+
+
+
+"It's difficult because it comes with the possibility of people becoming lax and satisfied."
+
+
+
+"But the manager who makes himself/herself vulnerable- who guides, nurtures, supports, respects--they're the people whom others look up to."
+
+
+
+"No organization in the world is built on a product. It's built on people."
+
+
+
+
+
+
+
+
+
+
+
+
+
+

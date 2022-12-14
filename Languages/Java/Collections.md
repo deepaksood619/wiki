@@ -23,5 +23,5 @@ Apart from the Java Collections Framework, the best-known examples of collection
 
 
 
-![Collection Framework Set Types Set HashSet LinkedHashSet SortedSet NavigableSet TreeSet Vector Stack Collection List ArrayList List Types Ma T es Map LinkedList PriorityQul ](media/Collections-image1.png){width="5.0in" height="3.3333333333333335in"}
+![Collection Framework Set Types Set HashSet LinkedHashSet SortedSet NavigableSet TreeSet Vector Stack Collection List ArrayList List Types Ma T es Map LinkedList PriorityQul ](media/Collections-image1.png)
 

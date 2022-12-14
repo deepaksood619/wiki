@@ -33,12 +33,12 @@ Another application of debouncing is in content-loading webpages like Facebook a
 
 
 
-<https://www.geeksforgeeks.org/debouncing-in-javascript/>
+<https://www.geeksforgeeks.org/debouncing-in-javascript
 
-<https://css-tricks.com/debouncing-throttling-explained-examples/>
+<https://css-tricks.com/debouncing-throttling-explained-examples
 
 
 
 **Currying**
 
-<https://www.freecodecamp.org/news/how-to-use-currying-and-composition-in-javascript/>
+<https://www.freecodecamp.org/news/how-to-use-currying-and-composition-in-javascript

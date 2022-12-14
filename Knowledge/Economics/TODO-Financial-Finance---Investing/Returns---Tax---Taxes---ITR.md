@@ -1,0 +1,311 @@
+# Returns / Tax / Taxes / ITR
+
+Created: 2019-09-04 23:28:02 +0500
+
+Modified: 2022-10-26 21:30:50 +0500
+
+---
+
+<https://taxbuddy.com
+
+
+
+**Tax evasion (punishable) vs tax avoidance (your legitimate right) of saving tax**
+
+**Tax Consulation -** <https://www.charteredclub.com/tax-consultation-with-ca-karan-batra
+
+**CA**
+
+1.  Insurance receipt
+
+2.  NGO receipt
+
+3.  Add your name while filling, and not from my portal
+
+4.  HUF / consultant (for better tax savings)
+
+
+
+F&O - 2.5 lakh profit exemption per financial year
+
+Driver allowance
+
+<http://www.gnr8tr.online/driver_salary_receipt_india>
+
+Vehicle registration no - CG18N0950
+
+<https://billgenerator.in
+
+
+
+Share driver receipt 10K
+
+Fuel receipts 15K
+
+LTA 191330
+
+Telephone 3K
+
+Periodicals 2K
+
+
+
+Consultant - 194J instead 192
+
+
+-   Donation to NGO for tax savings
+-   Donation to political party for tax savings
+
+
+
+[Tax on Stocks, Mutual Funds, Gold and Real Estate | STCG and LTCG | ETMONEY](https://www.youtube.com/watch?v=sYtnOVgdH_I)
+
+[7 Questions to Ask Before Selling Equity Mutual Funds or Stocks | ETMONEY](https://www.youtube.com/watch?v=KJ4kinqOW6c)
+
+[What is Tax Harvesting | What is Tax Loss Harvesting | Tax Harvesting in Mutual Funds](https://www.youtube.com/watch?v=t_y0kNP-apY)
+
+[Tax on Equity Mutual Funds in India | Income Taxation on Capital Gains & Dividends](https://www.youtube.com/watch?v=G-DFuEi7NcA)
+
+
+
+<https://cleartax.in/s/marginal-relief-surcharge>
+
+10% surcharge for people earning more than 50 lakh (get marginal relief surcharge)
+
+
+
+**Taxability**
+
+For taxation purposes, all mutual funds with investments lower than 65% in equity instruments are considered debt funds. Short-term capital gains of less than 36 months are taxed corresponding to the investor's income tax slab.
+
+
+
+A tax rate of 20% is levied on long-term capital gains above 36 months after indexation. Indexation refers to the adjustment of the price of debt funds after factoring in the inflation between the years when that fund was purchased and the year when you sell them. This adjustment allows for the inflation of purchase price, thereby bringing down the overall quantum of capital gains. Subsequently, your taxable income reduces proportionately.
+
+
+
+**Indexation**
+
+Indexationis a technique to adjust income payments by means of a price index, in order to maintain the purchasing power of the public after inflation, while deindexation is the unwinding ofindexation.
+
+
+
+<https://cleartax.in/s/indexation-helps-reduce-tax-debt-fund-gains>
+
+<https://groww.in/blog/indexation-in-mutual-funds-meaningbenefits-and-more
+
+<https://www.youtube.com/watch?v=KKlsYoSaKAs>
+
+
+
+**Unrealized Gains / Unrealized Loss / "paper" profits or losses**
+
+An unrealized gain is a potential profit that exists on paper, resulting from an investment. It is an increase in the value of an[asset](https://www.investopedia.com/terms/a/asset.asp)that has yet to be sold for cash, such as a stock position that has increased in value but still remains open. A gain becomes[realized](https://www.investopedia.com/terms/r/realizedprofit.asp)once the position is sold for a profit.
+
+
+
+**Key Takeaways**
+-   An unrealized gain is a theoretical profit that exists on paper, resulting from an investment that has not yet been sold for cash.
+-   Unrealized gains are recorded on the financial statements differently depending on the type of security.
+-   Gains do not affect taxes until the investment is sold and a realized gain is recognized.
+
+
+
+<https://www.investopedia.com/terms/u/unrealizedgain.asp>
+
+
+
+**Income Tax**
+
+| Income Tax Slabs        | Tax Rate for Individual & HUF Below the Age Of 60 Years |
+|------------------------|------------------------------------------------|
+| Up to ₹2,50,000*       | Nil                                                     |
+| ₹2,50,001 to ₹5,00,000  | 5% of total income exceeding ₹2,50,000                  |
+| ₹5,00,001 to ₹10,00,000 | ₹12,500 + 20% of total income exceeding ₹5,00,000       |
+| Above ₹10,00,000        | ₹1,12,500 + 30% of total income exceeding ₹10,00,000    |
+
+
+
+An additional 4% Health & education cess will be applicable on the tax amount calculated as above.
+
+Surcharge: 10% of income tax, where total income exceeds Rs.50 lakh up to Rs.1 crore.
+
+Surcharge: 15% of income tax, where the total income exceeds Rs.1 crore.
+
+
+
+So ~3cr or 2% of Indians out of 140cr invest.
+
+ITR filings for FY 20/21 by income.
+
+~4.8cr ₹5lks
+
+~90lks ₹5 to ₹10lks
+
+~43lks ₹10lks
+
+If people have to invest or spend more, they need to earn at least ₹2.5lks/yr?
+
+
+
+**Deductions**
+
+**Deduction U/S 10 - House Rent - 8300 * 12 = 99600**
+
+
+
+Sec 80D - Medical Insurance Premium (If the policy covers a senior citizen then exemption is Rs.50,000/-) for self and family- Existing or new policy bought between April 2019 till March 2020.
+
+
+
+Medical Insurance 80D for Parents (Here you can claim the amount upto maximum of Rs 25,000 per annum for the premiums paid for your parents. If your parents are senior citizens, the amount is increased to Rs 30,000 per annum. You can also claim preventive health check-up amount of Rs 5,000 for your parents too.)
+
+Sec 80DD - Handicapped Dependent (Medical Treatment on handicapped dependent, Copies of medical bills and duly completed Form 10-IA have to be submitted.)
+-   Rs 75,000 (Starting from the financial year 2015-16) where disability is more than 40% and less than 80%.
+-   Rs 1,25,000 (Starting fromthe financialyear 2015-16) where disability is more than 80%.
+-   These deductions are allowed irrespective of your actual expenditure.
+
+
+
+Sec 80E - Repayment of Loan for higher education (only Interest)
+
+Sec 80GG - Rent Paid
+
+Sec 80U - Handicapped
+
+**Sec 80TTA / 80TTB - Interest on saving a/c (upto 10000)**
+
+[**https://cleartax.in/s/claiming-deduction-on-interest-under-section-80tta**](https://cleartax.in/s/claiming-deduction-on-interest-under-section-80tta)
+
+**80DDB - Dependent Critical Illness (upto 1,00,000)**
+
+
+
+HRA - <https://freefincal.com/tax-benefits-hra-home-loans
+
+
+
+**DEDUCTION U/S 80C** (Max 150000)
+
+Contribution to Pension Fund (Jeevan Suraksha)
+
+Life Insurance Premium on life of self/spouse/child only
+
+Deferred Annuity
+
+**Public Provident Fund in own name/spouse/child only**
+
+ULIP of UTI/LIC in own name or spouse and child only
+
+Repayment of Housing Loan (Only principal)
+
+Contribution to Pension Fund or UTI or Notified Mutual Fund
+
+Investment in ELSS made in units of Notified Mutual Fund
+
+Children Tuition Fee: Restricted to a max of 2 Children
+
+Deposit in home loan account scheme of NHB/HDFC
+
+5 yrs. Term deposit in a Sch.Bank
+
+Others (please specify)
+
+Others (please specify)
+
+
+
+DEDUCTION U/S 80CCCAnnuity/Pension Plan
+
+
+
+DEDUCTION U/S 80CCDNotified Pension Scheme (NPS) (Max 50000)
+
+Asset Classes (Equity, Corporate debt, Government Bonds and AlternativeInvestmentFunds)
+
+
+
+**DEDUCTION U/S 24**
+
+Interest on Housing Loan on fully constructed accomodation only (Limit - 200,000)
+
+Interest if the loan is taken before 01/04/99 on fully constructed accomodation only (Limit - 30,000)
+
+
+
+**10(5) LTA**
+-   13739
+
+<https://economictimes.indiatimes.com/wealth/tax/how-to-claim-lta-from-your-employer/articleshow/66246473.cms?from=mdr>
+
+
+
+Loss from business and profession cannot be set off against income chargeable to tax under the head "Salaries". 8) Loss under the head "house property" shall be allowed to be set-off against any other head of income only to the extent of Rs. 2,00,000 for any assessment year.
+
+
+
+**Tax**
+
+1.  Max - 1.5 lakh
+
+![NAME EPF ( Deducted @ up F Sal M') L) ppF @ Sci--- "J Natimal Unit Link plan Life Policy Fees ('J post Super C' NAEARO NPS Employee ](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image1.png)
+
+
+
+![SECTION NAME 80CCD(18) S 80CCD(2) BOD S BOD S 80DDB S BOEE S 8DEEA S 80EEB S BOG S BOG S BOG S 80GGC S BOQQB S BORRB S 80TT8 S DEDUCTION NAME NPS Employee Contribution @ NPS Employer Contribution Medical Insurance premium Parents Medical Insurance Premium Preventive Health Check-up Medical Expenditure for a Handicapped Relative Medical Expenditure on Self or Dependent Repayment Of Interest on Higher Education Loan Home Loan Interest for First Time Home Owners Interest on loan for acquiring residential house property C) Interest on loan for acquiring Electric Vehicle Donations towards Social Causes (100% deduction without qualifying limit) ('J Donations towards Social Causes (50% deduction without qualifying limit) Donations towards Social Causes (100% deduction with qualifying limit) Donations towards Social Causes (50% deduction With qualifying limit) @ Donation for Research or Rural development Donations to political parties Royalty on book Royalty on patent Savings account interest tax Savings account interest tax (Senior Citizens) Deduction with respect to person suffering from physical Disability MAX LIMIT 50,000 50,000 50,000 5,000 50,000 10.000 50,000 ](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image2.png)
+-   PF - tax free upto 1 lakh
+
+
+
+![SECTION NAME 1 0(5) DEDUCTION NAME Leave Travel Allowance (LTA) o MAX LIMIT No Limit ](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image3.png)
+
+
+-   Rent
+
+
+
+![Deductions (u/s) 80C (Deduction in respect of life insurance premia, deferred annuity, (a) contributions to provident fund, subscription to certain equity shares or debentures, etc.) 80CCD(1 B) (Deduction in respect of contribution to pension scheme of (b) Central Government.) (c) 80D (Deduction in respect of health insurance premia) 80G (Deduction in respect of donations to certain funds, charitable (d) institutions, etc.) (e) 80TTA (Deduction in respect of interest on deposits in savings account) Total deductions under chapter VI-A (sum of the items above) (As restricted to the amount claimed in the return) 50,000 50,000 10,000 50,000 50,000 10,000 ](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image4.jpg)
+
+
+
+<https://www.etmoney.com/blog/beyond-section-80c-10-ways-to-save-taxes
+
+
+
+**Stocks Tax**
+
+<https://www.youtube.com/watch?v=nfX-esge_3o>
+
+
+
+**CTC Breakup**
+
+Basic Pay (27,500)
+
+House Rent Allowance (13,750)
+
+City Compensation Allowance (23,108)
+
+Special Allowance (23,108)
+
+Food Coupons (1,100)
+
+Transport Allowance (1,600)
+
+Medical Allowance (1,500)
+
+
+
+**Stashfin**
+
+Telephone Reimbursement 3000.00
+
+Fuel Reimbursement 15000.00
+
+Periodicals 2000.00
+
+Driver Salary 10000.00
+
+
+
+

@@ -28,7 +28,7 @@ A common misconception is that theNPin "NP-hard" stands for "non-polynomial" whe
 
 
 
-![Euler diagram for P, NP, NP-complete, and NP-hard set of problems.](media/NP-Hardness-image1.png){width="5.385416666666667in" height="3.3645833333333335in"}
+![Euler diagram for P, NP, NP-complete, and NP-hard set of problems.](media/NP-Hardness-image1.png)
 
 
 
@@ -104,7 +104,7 @@ If P and NP are different, then there exist decision problems in the region of N
 
 
 
-![P vs. NP](media/NP-Hardness-image2.png){width="6.666666666666667in" height="6.666666666666667in"}
+![P vs. NP](media/NP-Hardness-image2.png)
 
 
 

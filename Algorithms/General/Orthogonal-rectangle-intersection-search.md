@@ -10,7 +10,7 @@ Goal: find all intersections among a set of N orthogonal rectangles
 
 **Sweep-line algorithm (**Sweep vertical line from left to right) -
 
-![Orthogonal rectangle intersection: sweep-line algorithm Sweep vertical line from left to right. • x-coordinates of left and right endpoints define events. • Maintain set of rectangles that intersect the sweep line in an interval search tree (using y-intervals of rectangle). • Left endpoint: interval search fory-interval of rectangle; insert y-interval. • Right endpoint: remove y-interval. 3 2 3 2 10 y-coordinates ](media/Orthogonal-rectangle-intersection-search-image1.png){width="5.0in" height="3.8958333333333335in"}
+![Orthogonal rectangle intersection: sweep-line algorithm Sweep vertical line from left to right. • x-coordinates of left and right endpoints define events. • Maintain set of rectangles that intersect the sweep line in an interval search tree (using y-intervals of rectangle). • Left endpoint: interval search fory-interval of rectangle; insert y-interval. • Right endpoint: remove y-interval. 3 2 3 2 10 y-coordinates ](media/Orthogonal-rectangle-intersection-search-image1.png)
 
 
 

@@ -37,7 +37,7 @@ M - prebuild Markup
 
 
 
-<https://www.freecodecamp.org/news/jamstack-full-course/>
+<https://www.freecodecamp.org/news/jamstack-full-course
 
 
 
@@ -59,13 +59,13 @@ A CMS is used to add content to your website/application. It is great for client
 
 
 
-<https://www.wpbeginner.com/showcase/best-cms-platforms-compared/>
+<https://www.wpbeginner.com/showcase/best-cms-platforms-compared
 
 
 
 **Headless CMS**
 
-<https://strapi.io/>
+<https://strapi.io
 
 DesignAPIs fast, manage content easily
 
@@ -94,9 +94,9 @@ Strapi is a free and open-source headless CMS delivering your content anywhere y
 
 **Strapi v4 -** [Announcing Strapi v4](https://www.youtube.com/watch?v=qWKdF8N8LQU&list=PL7Q0DQYATmvjJyxrLw0xCOKwjv8Bh7yLx)
 
-<https://design-system.strapi.io/>
+<https://design-system.strapi.io
 
-<https://design-system-alpha.vercel.app/>
+<https://design-system-alpha.vercel.app
 
 
 
@@ -139,9 +139,9 @@ react-admin strapi - <https://github.com/nazirov91/ra-strapi-rest>
 
 
 
-<https://jamstack.org/headless-cms/>
+<https://jamstack.org/headless-cms
 
-<https://www.contentful.com/r/knowledgebase/what-is-headless-cms/>
+<https://www.contentful.com/r/knowledgebase/what-is-headless-cms
 
 <https://www.storyblok.com/tp/headless-cms-explained>
 
@@ -164,7 +164,7 @@ The following CMSs have high popularity among Gatsby users and support key funct
 | [Prismic](https://www.prismic.io/)                         | [guide](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-prismic/)     | [docs](https://www.gatsbyjs.com/plugins/gatsby-source-prismic)      | [starter](https://github.com/prismicio/gatsby-blog)                                        |
 | [NetlifyCMS](https://www.netlifycms.org/)                  | [guide](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-netlify-cms/) | [docs](https://www.gatsbyjs.com/plugins/gatsby-plugin-netlify-cms)  | [starter](https://www.gatsbyjs.com/starters/netlify-templates/gatsby-starter-netlify-cms/) |
 | Plone (Open Source Enterprise CMS)                         |                                                                                       |                                                                    |                                                                                           |
-| **Wagtail (Open Source Django CMS) <https://wagtail.io/>** |                                                                                       |                                                                    |                                                                                           |
+| **Wagtail (Open Source Django CMS) <https://wagtail.io** |                                                                                       |                                                                    |                                                                                           |
 
 
 
@@ -311,12 +311,12 @@ The extension brings Content Management System (CMS) capabilities straight withi
 
 
 
-<https://frontmatter.codes/>
+<https://frontmatter.codes
 
 <https://github.com/estruyf/vscode-front-matter>
 
 
 
-<https://pages.cloudflare.com/>
+<https://pages.cloudflare.com
 
 Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.

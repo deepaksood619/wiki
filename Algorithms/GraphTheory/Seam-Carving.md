@@ -65,19 +65,19 @@ Computing the seam consists of finding the path of minimum energy cost from one 
 
 
 
-![Resize an image without distortion for Seam carving. [Avidan and Shamir] display on cell phones and web browsers. ](media/Seam-Carving-image1.png){width="5.0in" height="2.6041666666666665in"}
+![Resize an image without distortion for Seam carving. [Avidan and Shamir] display on cell phones and web browsers. ](media/Seam-Carving-image1.png)
 
 
 
-![To find vertical seam: • Grid DAG: vertex = pixel; edge = from pixel to 3 downward neighbors. • Weight of pixel = energy function of 8 neighboring pixels. • Seam = shortest path (sum of vertex weights) from top to bottom. ](media/Seam-Carving-image2.png){width="5.0in" height="3.34375in"}
+![To find vertical seam: • Grid DAG: vertex = pixel; edge = from pixel to 3 downward neighbors. • Weight of pixel = energy function of 8 neighboring pixels. • Seam = shortest path (sum of vertex weights) from top to bottom. ](media/Seam-Carving-image2.png)
 
 
 
-![seam ](media/Seam-Carving-image3.png){width="5.0in" height="4.697916666666667in"}
+![seam ](media/Seam-Carving-image3.png)
 
 
 
-![To remove vertical seam: • Delete pixels on seam (one in each row). seam ](media/Seam-Carving-image4.png){width="5.0in" height="4.666666666666667in"}
+![To remove vertical seam: • Delete pixels on seam (one in each row). seam ](media/Seam-Carving-image4.png)
 
 
 
@@ -85,7 +85,7 @@ Move the pixels left to merge the picture
 
 
 
-![](media/Seam-Carving-image5.png){width="5.0in" height="5.0in"}
+![](media/Seam-Carving-image5.png)
 
 
 

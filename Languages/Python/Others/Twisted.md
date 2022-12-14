@@ -12,7 +12,7 @@ Twisted is a robust, cross-platform implementation of the Reactor Pattern with l
 
 
 
-![Figure 6: the reactor making a callback](media/Twisted-image1.png){width="2.2604166666666665in" height="2.6354166666666665in"}
+![Figure 6: the reactor making a callback](media/Twisted-image1.png)
 
 *fig - what happens during a callback*
 
@@ -70,7 +70,7 @@ Twisted Network Programming Essentials by Abe Fettig
 
 
 
-<https://twistedmatrix.com/trac/>
+<https://twistedmatrix.com/trac
 
 [**http://krondo.com/an-introduction-to-asynchronous-programming-and-twisted/**](http://krondo.com/an-introduction-to-asynchronous-programming-and-twisted/)
 

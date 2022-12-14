@@ -24,9 +24,9 @@ Search engine marketing is the practice of marketing a business using paid adver
 
 **Tools**
 
-<https://developers.google.com/speed/pagespeed/insights/>
+<https://developers.google.com/speed/pagespeed/insights
 
-<https://sitechecker.pro/>
+<https://sitechecker.pro
 
 <https://seositecheckup.com/seo-audit/www.stashfin.com>
 
@@ -34,13 +34,13 @@ Search engine marketing is the practice of marketing a business using paid adver
 
 <https://app.neilpatel.com/en/seo_analyzer/site_audit>
 
-<https://answerthepublic.com/>
+<https://answerthepublic.com
 
-<https://stories.google/>
+<https://stories.google
 
-<https://purifycss.online/>
+<https://purifycss.online
 
-<https://moz.com/>
+<https://moz.com
 
 
 
@@ -90,7 +90,7 @@ Generally, white hat SEO refers to any practice that improves your search rankin
 
 <https://www.wordstream.com/white-hat-seo>
 
-<https://www.searchenginejournal.com/7-white-hat-seo-techniques-to-double-traffic/182243/>
+<https://www.searchenginejournal.com/7-white-hat-seo-techniques-to-double-traffic/182243
 
 
 
@@ -170,7 +170,7 @@ Optimizing websites is an art that few are familiar with. The more the engineer 
 
 **Google Tag Manager**
 
-<https://www.freecodecamp.org/news/how-to-use-google-tag-manager-to-maintain-google-analytics-and-other-marketing-tags/>
+<https://www.freecodecamp.org/news/how-to-use-google-tag-manager-to-maintain-google-analytics-and-other-marketing-tags
 
 
 
@@ -233,11 +233,11 @@ Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https:
 
 <https://en.wikipedia.org/wiki/UTM_parameters>
 
-<https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters/>
+<https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters
 
 
 
-**PDP SEO -** <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages/>
+**PDP SEO -** <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages
 
 
 
@@ -245,7 +245,7 @@ Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https:
 
 Use subdirectory wherever possible
 
-<https://www.semrush.com/blog/subdomain-vs-subdirectory/>
+<https://www.semrush.com/blog/subdomain-vs-subdirectory
 
 
 
@@ -253,14 +253,14 @@ Use subdirectory wherever possible
 
 <https://www.toptal.com/full-stack/interview-questions>
 
-<https://neilpatel.com/blog/10-advanced-seo-techniques-thatll-double-your-search-traffic/>
+<https://neilpatel.com/blog/10-advanced-seo-techniques-thatll-double-your-search-traffic
 
-<https://neilpatel.com/blog/google-ranking/>
+<https://neilpatel.com/blog/google-ranking
 
 
 
-<https://neilpatel.com/blog/get-your-mba-in-seo-with-these-10-guides-and-5-courses/>
+<https://neilpatel.com/blog/get-your-mba-in-seo-with-these-10-guides-and-5-courses
 
-<https://neilpatel.com/blog/seo-for-ecommerce-websites/>
+<https://neilpatel.com/blog/seo-for-ecommerce-websites
 
-<https://neilpatel.com/blog/seo-templates/>
+<https://neilpatel.com/blog/seo-templates

@@ -8,7 +8,7 @@ Modified: 2020-10-22 21:52:49 +0500
 
 **Working**
 
-![Python Code Syntax Checker and Translator Byte Code Input Python Virtual Machine (PVM) Output ](media/Architecture-image1.png){width="8.8125in" height="3.8541666666666665in"}
+![Python Code Syntax Checker and Translator Byte Code Input Python Virtual Machine (PVM) Output ](media/Architecture-image1.png)
 
 **The Python interpreter performs following tasks to execute a Python program :**
 -   **Step 1 :**The interpreter reads a python code or instruction. Then it verifies that the instruction is well formatted, i.e. it checks the syntax of each line.If it encounters any error, it immediately halts the translation and shows an error message.
@@ -17,7 +17,7 @@ Modified: 2020-10-22 21:52:49 +0500
 
 
 
-<https://www.geeksforgeeks.org/internal-working-of-python/>
+<https://www.geeksforgeeks.org/internal-working-of-python
 
 
 
@@ -29,7 +29,7 @@ Modified: 2020-10-22 21:52:49 +0500
 
 **References**
 
-<https://rushter.com/blog/python-memory-managment/>
+<https://rushter.com/blog/python-memory-managment
 
 <https://github.com/python/cpython/blob/7d6ddb96b34b94c1cbdf95baa94492c48426404e/Objects/obmalloc.c>
 

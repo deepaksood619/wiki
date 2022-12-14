@@ -10,7 +10,7 @@ Modified: 2020-09-24 00:18:15 +0500
 
 <https://codeigniter.com/user_guide/general/logging.html>
 
-<https://www.loggly.com/ultimate-guide/php-logging-basics/>
+<https://www.loggly.com/ultimate-guide/php-logging-basics
 
 
 

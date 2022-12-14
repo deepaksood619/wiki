@@ -34,7 +34,7 @@ When we go deep to the leaf and backtrack, this is called DFS algorithm.
 
 **Pre-order**
 
-![](media/Depth-First-Search-(DFS)-image1.jpg){width="5.0in" height="2.25in"}
+![](media/Depth-First-Search-(DFS)-image1.jpg)
 
 
 
@@ -70,7 +70,7 @@ self.right_child.pre_order()
 
 **In-order**
 
-![](media/Depth-First-Search-(DFS)-image2.jpg){width="5.0in" height="2.2708333333333335in"}
+![](media/Depth-First-Search-(DFS)-image2.jpg)
 
 
 
@@ -108,7 +108,7 @@ self.right_child.in_order()
 
 **Post-order**
 
-![](media/Depth-First-Search-(DFS)-image3.jpg){width="5.0in" height="2.1875in"}
+![](media/Depth-First-Search-(DFS)-image3.jpg)
 
 
 
@@ -154,7 +154,7 @@ DFS(to visit a vertex v)
 
 
 
-![public cl ass DepthFi rstPaths pri vate bool ean[] marked; pri vate int [ ] edgeTo; private int s • public DepthFi rstPaths(Graph G, dfs(G, s); marked [v] = true if v connected to s edgeTo [v] = previous vertex on path from s to v int s) initialize data structures find vertices connected to s pri vate void dfs(Graph G, int v) recursive DFS does the work marked [v] true; for (int w : G. adj (v)) if marked [w] ) dfs(G, w); edgeTo [w] ](media/Depth-First-Search-(DFS)-image4.png){width="5.0in" height="3.6875in"}
+![public cl ass DepthFi rstPaths pri vate bool ean[] marked; pri vate int [ ] edgeTo; private int s • public DepthFi rstPaths(Graph G, dfs(G, s); marked [v] = true if v connected to s edgeTo [v] = previous vertex on path from s to v int s) initialize data structures find vertices connected to s pri vate void dfs(Graph G, int v) recursive DFS does the work marked [v] true; for (int w : G. adj (v)) if marked [w] ) dfs(G, w); edgeTo [w] ](media/Depth-First-Search-(DFS)-image4.png)
 
 
 
@@ -210,27 +210,27 @@ Dynamic graph - Union-find
 
 Maze Graph
 
-![Maze graph. • Vertex = intersection. • Edge = passage. c:] intersection passage Goal. Explore every intersection in the maze. ](media/Depth-First-Search-(DFS)-image5.png){width="5.0in" height="4.041666666666667in"}
+![Maze graph. • Vertex = intersection. • Edge = passage. c:] intersection passage Goal. Explore every intersection in the maze. ](media/Depth-First-Search-(DFS)-image5.png)
 
 
 
-![Trémaux maze exploration Algorithm. • Unroll a ball of string behind you. • Mark each visited intersection and each visited passage. • Retrace steps when no unvisited options. ](media/Depth-First-Search-(DFS)-image6.png){width="5.0in" height="3.7395833333333335in"}
+![Trémaux maze exploration Algorithm. • Unroll a ball of string behind you. • Mark each visited intersection and each visited passage. • Retrace steps when no unvisited options. ](media/Depth-First-Search-(DFS)-image6.png)
 
 
 
-![Depth-first search Goal. Systematically search through a graph. Idea. Mimic maze exploration. DFS (to visit a vertex v) Mark v as visited. Recursively visit all unmarked vertices w adjacent to v. Typical applications. • Find all vertices connected to a given source vertex. • Find a path between two vertices. ](media/Depth-First-Search-(DFS)-image7.png){width="5.0in" height="4.354166666666667in"}
+![Depth-first search Goal. Systematically search through a graph. Idea. Mimic maze exploration. DFS (to visit a vertex v) Mark v as visited. Recursively visit all unmarked vertices w adjacent to v. Typical applications. • Find all vertices connected to a given source vertex. • Find a path between two vertices. ](media/Depth-First-Search-(DFS)-image7.png)
 
 
 
-![Design pattern for graph processing Design pattern. Decouple graph data type from graph processing. • Create a Graph object. • Pass the Graph to a graph-processing routine. • Query the graph-processing routine for information. public class Paths Paths (Graph G, int s) bool ean hasPathTo(int v) Iterabl e<lnteger> pathTo(int v) Paths paths --- new Paths (G, for (int v O; v < G.V(); if (paths . hasPathTo(v)) StdOut . pri ntl n (v) ; find paths in G from source s is there a path from s to v? path from s to v; null if no such path s); print all vertices connected to s ](media/Depth-First-Search-(DFS)-image8.png){width="5.0in" height="4.052083333333333in"}
+![Design pattern for graph processing Design pattern. Decouple graph data type from graph processing. • Create a Graph object. • Pass the Graph to a graph-processing routine. • Query the graph-processing routine for information. public class Paths Paths (Graph G, int s) bool ean hasPathTo(int v) Iterabl e<lnteger> pathTo(int v) Paths paths --- new Paths (G, for (int v O; v < G.V(); if (paths . hasPathTo(v)) StdOut . pri ntl n (v) ; find paths in G from source s is there a path from s to v? path from s to v; null if no such path s); print all vertices connected to s ](media/Depth-First-Search-(DFS)-image8.png)
 
 
 
-![Depth-first search demo To visit a vertex v: • Mark vertex v as visited. • Recursively visit all unmarked vertices adjacent to v. v 10 11 12 vertices reachable from O marked [l edgeTo[v] ](media/Depth-First-Search-(DFS)-image9.png){width="5.0in" height="3.8958333333333335in"}
+![Depth-first search demo To visit a vertex v: • Mark vertex v as visited. • Recursively visit all unmarked vertices adjacent to v. v 10 11 12 vertices reachable from O marked [l edgeTo[v] ](media/Depth-First-Search-(DFS)-image9.png)
 
 
 
-![public cl ass DepthFi rstPaths pri vate bool ean[] marked; pri vate int [ ] edgeTo; private int s • public DepthFi rstPaths(Graph G, dfs(G, s); marked [v] = true if v connected to s edgeTo [v] = previous vertex on path from s to v int s) initialize data structures find vertices connected to s pri vate void dfs(Graph G, int v) recursive DFS does the work marked [v] true; for (int w : G. adj (v)) if marked [w] ) dfs(G, w); edgeTo [w] ](media/Depth-First-Search-(DFS)-image4.png){width="5.0in" height="3.6875in"}
+![public cl ass DepthFi rstPaths pri vate bool ean[] marked; pri vate int [ ] edgeTo; private int s • public DepthFi rstPaths(Graph G, dfs(G, s); marked [v] = true if v connected to s edgeTo [v] = previous vertex on path from s to v int s) initialize data structures find vertices connected to s pri vate void dfs(Graph G, int v) recursive DFS does the work marked [v] true; for (int w : G. adj (v)) if marked [w] ) dfs(G, w); edgeTo [w] ](media/Depth-First-Search-(DFS)-image4.png)
 
 
 

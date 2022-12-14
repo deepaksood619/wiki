@@ -16,7 +16,7 @@ Modified: 2021-06-03 14:00:11 +0500
 
 
 
-![What is MAD Skills? MAD Skills Andrdd ](media/Android_Kotlin-image1.jpg){width="3.6979166666666665in" height="2.0729166666666665in"}
+![What is MAD Skills? MAD Skills Andrdd ](media/Android_Kotlin-image1.jpg)
 
 
 

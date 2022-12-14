@@ -71,8 +71,8 @@ print(f'{now=:Y-%m-%d}')
 <td>2</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_center.htm"><strong>center(width, fillchar)</strong></a></p>
 <p>Returns a space-padded string with the original string centered to a total of width columns.</p>
-<p>&gt;&gt;&gt; width = 20<br />
-&gt;&gt;&gt; print 'HackerRank'.center(width,'-')<br />
+<p>&gt;&gt;&gt; width = 20<br 
+&gt;&gt;&gt; print 'HackerRank'.center(width,'-')<br 
 -----HackerRank-----</p></td>
 </tr>
 <tr class="even">
@@ -159,8 +159,8 @@ print(f'{now=:Y-%m-%d}')
 <td>18</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_join.htm"><strong>join(seq)</strong></a></p>
 <p>Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string.</p>
-<p>s = "-";<br />
-seq = ("a", "b", "c"); # This is sequence of strings.<br />
+<p>s = "-";<br 
+seq = ("a", "b", "c"); # This is sequence of strings.<br 
 print s.join( seq )</p>
 <p></p>
 <p>Also lists can also be joined</p>
@@ -176,8 +176,8 @@ print s.join( seq )</p>
 <td>20</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_ljust.htm"><strong>ljust(width[, fillchar])</strong></a></p>
 <p>Returns a space-padded string with the original string left-justified to a total of width columns.</p>
-<p>&gt;&gt;&gt; width = 20<br />
-&gt;&gt;&gt; print 'HackerRank'.ljust(width,'-')<br />
+<p>&gt;&gt;&gt; width = 20<br 
+&gt;&gt;&gt; print 'HackerRank'.ljust(width,'-')<br 
 HackerRank----------</p></td>
 </tr>
 <tr class="even">
@@ -226,8 +226,8 @@ HackerRank----------</p></td>
 <td>29</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_rjust.htm"><strong>rjust(width,[, fillchar])</strong></a></p>
 <p>Returns a space-padded string with the original string right-justified to a total of width columns.</p>
-<p>&gt;&gt;&gt; width = 20<br />
-&gt;&gt;&gt; print 'HackerRank'.rjust(width,'-')<br />
+<p>&gt;&gt;&gt; width = 20<br 
+&gt;&gt;&gt; print 'HackerRank'.rjust(width,'-')<br 
 ----------HackerRank</p></td>
 </tr>
 <tr class="odd">
@@ -300,7 +300,7 @@ HackerRank----------</p></td>
 
 'Hello {}'.format('Deepak')
 
-<https://pyformat.info/>
+<https://pyformat.info
 
 
 -   Positional Formating (Positional Arguments)
@@ -654,7 +654,7 @@ Python also allows a form of indexing syntax that extracts substrings from a str
 
 Negative indices can be used with slicing as well.-1refers to the last character -2 the second-to-last, and so on, just as with simple indexing. The diagram below shows how to slice the substring'oob'from the string'foobar'using both positive and negative indices:
 
-![String index 3](media/Strings-image1.png){width="4.041666666666667in" height="1.3541666666666667in"}
+![String index 3](media/Strings-image1.png)
 
 >>> s = 'foobar'
 
@@ -679,13 +679,13 @@ Adding an additional:and a third index designates a stride (also called a step),
 
 For example, for the string'foobar', the slice0:6:2starts with the first character and ends with the last character (the whole string), and every second character is skipped. This is shown in the following diagram:
 
-![String stride 1](media/Strings-image2.png){width="4.322916666666667in" height="1.4583333333333333in"}
+![String stride 1](media/Strings-image2.png)
 
 
 
 Similarly,1:6:2specifies a slice starting with the second character (index1) and ending with the last character, and again the stride value2causes every other character to be skipped:
 
-![String stride 2](media/Strings-image3.png){width="4.34375in" height="1.4583333333333333in"}
+![String stride 2](media/Strings-image3.png)
 
 You can specify a negative stride value as well, in which case Python steps backward through the string. In that case, the starting/first index should be greater than the ending/second index:
 
@@ -768,9 +768,9 @@ Python string formatters
 
 <https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3>
 
-<https://pyformat.info/>
+<https://pyformat.info
 
-<https://realpython.com/python-encodings-guide/>
+<https://realpython.com/python-encodings-guide
 
 
 

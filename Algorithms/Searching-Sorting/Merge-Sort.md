@@ -25,13 +25,13 @@ Merge sortrecursively halves the given array. Once the subarrays reach trivial l
 
 **Abstract in-place Merging**
 
-![private static void merge(Comparab1e[] a, Comparable[] aux, int 10, int mid, int hi) assert isSorted(a, 10, mid) ; assert isSorted(a, mi d+l, hi); for (int k aux [k] = ace ; = 10, int for (int k if (i > mid) else if (j > hi) else if (1 ess(aux [j] , el se // precondition: aC10. .mid] sorted // precondition: almi d+l.. hi] sorted copy merge aux[i])) aCk] = aux [j++] ; = aux Ci++] ; = aux [j++] ; = aux Ci++] ; assert isSorted(a, 10, hi); // postcondition: a C 10.. hi] sorted ](media/Merge-Sort-image1.png){width="5.0in" height="2.4583333333333335in"}
+![private static void merge(Comparab1e[] a, Comparable[] aux, int 10, int mid, int hi) assert isSorted(a, 10, mid) ; assert isSorted(a, mi d+l, hi); for (int k aux [k] = ace ; = 10, int for (int k if (i > mid) else if (j > hi) else if (1 ess(aux [j] , el se // precondition: aC10. .mid] sorted // precondition: almi d+l.. hi] sorted copy merge aux[i])) aCk] = aux [j++] ; = aux Ci++] ; = aux [j++] ; = aux Ci++] ; assert isSorted(a, 10, hi); // postcondition: a C 10.. hi] sorted ](media/Merge-Sort-image1.png)
 
 
 
 **Sort**
 
-![public class Merge private static void merge(... ) / * as before * / private static void sort(Comparab1eC] a, if (hi 10) return; int mid = 10 + (hi - 10) / 2; sort(a, aux, 10, mid); sort(a, aux, mi d+l, hi); merge(a, aux, 10, mid, hi); public static void sort(Comparab1eC] a) aux = new Comparable[a. length] ; sort(a, aux, 0, a. length Comparable[] aux, int 10, int hi) ](media/Merge-Sort-image2.png){width="5.0in" height="2.9583333333333335in"}
+![public class Merge private static void merge(... ) / * as before * / private static void sort(Comparab1eC] a, if (hi 10) return; int mid = 10 + (hi - 10) / 2; sort(a, aux, 10, mid); sort(a, aux, mi d+l, hi); merge(a, aux, 10, mid, hi); public static void sort(Comparab1eC] a) aux = new Comparable[a. length] ; sort(a, aux, 0, a. length Comparable[] aux, int 10, int hi) ](media/Merge-Sort-image2.png)
 
 
 
@@ -49,17 +49,17 @@ Merge sortrecursively halves the given array. Once the subarrays reach trivial l
 -   Stop if already sorted
     -   Is biggest item in first half <= smallest item in second half
     -   Helps for partially-ordered arrays
-    -   ![private static void sort(Comparab1eC] a, if (hi 10) return; int mid = 10 + (hi • - 10) / 2; sort (a, aux, 10, mid); sort (a, aux, mid+l, hi); if a [mid])) return; merge(a, aux, 10, mid, hi); Comparabl aux, int 10, int hi) ](media/Merge-Sort-image3.png){width="5.0in" height="1.4479166666666667in"}
+    -   ![private static void sort(Comparab1eC] a, if (hi 10) return; int mid = 10 + (hi • - 10) / 2; sort (a, aux, 10, mid); sort (a, aux, mid+l, hi); if a [mid])) return; merge(a, aux, 10, mid, hi); Comparabl aux, int 10, int hi) ](media/Merge-Sort-image3.png)
 -   Eliminate the copy to the auxiliary array
     -   Save time (but not space by switching the role of the input and auxiliary array in each recursive call)
 
 
 
-![private static void merge(Comparab1e[] a, int • = 10 , j = mid+l; for (int k if else if else if else private static Comparable[] aux, Comparable[] aux, int 10, int mid, int hi) (i > mid) (j > hi) = hi; k++) aux [k] aux [k] a[i])) aux[k] aux [k] merge from to aux[] void sort (Comparable[] a, if (hi <= 10) return; int mid = 10 + (hi • - 10) / 2; sort (aux, a, 10, mid); sort (aux, a, mid+l, hi); int 10, int hi) merge(a, aux, 10, switch roles of aux C] mid, hi); and Note: sort(a) initializes aux C] and sets aux [i] = a[i] for each i. ](media/Merge-Sort-image4.png){width="5.0in" height="2.8541666666666665in"}
+![private static void merge(Comparab1e[] a, int • = 10 , j = mid+l; for (int k if else if else if else private static Comparable[] aux, Comparable[] aux, int 10, int mid, int hi) (i > mid) (j > hi) = hi; k++) aux [k] aux [k] a[i])) aux[k] aux [k] merge from to aux[] void sort (Comparable[] a, if (hi <= 10) return; int mid = 10 + (hi • - 10) / 2; sort (aux, a, 10, mid); sort (aux, a, mid+l, hi); int 10, int hi) merge(a, aux, 10, switch roles of aux C] mid, hi); and Note: sort(a) initializes aux C] and sets aux [i] = a[i] for each i. ](media/Merge-Sort-image4.png)
 
 
 
-![How many compares does mergesort---the pure version without any optimizations---make to sort an input array that is already sorted? constant logarithmic linear • linearithmic Correct It makes --- NIgN compares, which is the best case for mergesort. We note that the optimized version that checks whether a[mid] a[mid + l] only requires N compares. ](media/Merge-Sort-image5.png){width="5.0in" height="2.5520833333333335in"}
+![How many compares does mergesort---the pure version without any optimizations---make to sort an input array that is already sorted? constant logarithmic linear • linearithmic Correct It makes --- NIgN compares, which is the best case for mergesort. We note that the optimized version that checks whether a[mid] a[mid + l] only requires N compares. ](media/Merge-Sort-image5.png)
 
 
 
@@ -71,7 +71,7 @@ Basic Plan -
 
 
 
-![public class MergeBU private static void merge(... ) / * as before * / public static void a) int N = a. length; Comparable [J aux = new Comparable [N] ; for (int sz = 1; sz < N; sz = SZ+SZ) for (int 10 = O; 10 < N-sz; 10 sz+sz) Math . mi n(10+sz+sz-1, but about 10% slower than recursive, Bottom line. top-down mergesort on typical systems Simple and non-recursive version of mergesort. ](media/Merge-Sort-image6.png){width="5.0in" height="3.5104166666666665in"}
+![public class MergeBU private static void merge(... ) / * as before * / public static void a) int N = a. length; Comparable [J aux = new Comparable [N] ; for (int sz = 1; sz < N; sz = SZ+SZ) for (int 10 = O; 10 < N-sz; 10 sz+sz) Math . mi n(10+sz+sz-1, but about 10% slower than recursive, Bottom line. top-down mergesort on typical systems Simple and non-recursive version of mergesort. ](media/Merge-Sort-image6.png)
 
 
 

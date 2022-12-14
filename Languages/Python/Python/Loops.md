@@ -6,9 +6,9 @@ Modified: 2021-06-07 20:21:06 +0500
 
 ---
 
-<http://www.geeksforgeeks.org/any-all-in-python/>
+<http://www.geeksforgeeks.org/any-all-in-python
 
-<http://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/>
+<http://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python
 
 
 
@@ -114,7 +114,7 @@ False
 
 
 
-![All All One One Truthy values Falsy values Truthy value Falsy value (all others are Falsy) (all others are Truthy) Empty Iterable any True False True True False all T rue False False False T rue ](media/Loops-image1.png){width="4.78125in" height="2.1666666666666665in"}
+![All All One One Truthy values Falsy values Truthy value Falsy value (all others are Falsy) (all others are Truthy) Empty Iterable any True False True True False all T rue False False False T rue ](media/Loops-image1.png)
 
 
 
@@ -199,7 +199,7 @@ Unlike traditional C-styleforloops, Python'sforloops don't have index variables.
 
 
 
-<https://treyhunner.com/2019/06/loop-better-a-deeper-look-at-iteration-in-python/>
+<https://treyhunner.com/2019/06/loop-better-a-deeper-look-at-iteration-in-python
 
 
 

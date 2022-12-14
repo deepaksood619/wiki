@@ -66,7 +66,7 @@ select * from sys.schema_unused_indexes;
 
 
 
-<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database/>
+<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database
 
 
 

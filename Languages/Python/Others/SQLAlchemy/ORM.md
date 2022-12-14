@@ -149,8 +149,8 @@ ORM, which stands forObject Relational Mapper, is the specialization of the[Data
 
 
 
-<https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/>
+<https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers
 
-<https://www.infoq.com/articles/optimizing-orm-performance/>
+<https://www.infoq.com/articles/optimizing-orm-performance
 
 <https://stackoverflow.com/questions/451845/orm-performance-cost>

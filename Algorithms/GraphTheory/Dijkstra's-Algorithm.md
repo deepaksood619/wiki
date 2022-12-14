@@ -23,27 +23,27 @@ Dijkstra's algorithm is very similar to[Prim's algorithm for minimum spanning tr
 
 
 
-![Diikstra's algorithm demo • Consider vertices in increasing order of distance from s (non-tree vertex with the lowest distToC] value). • Add vertex to tree and relax all edges pointing from that vertex. 5.0 9.0 12 12.0 15.0 4.0 3.0 11.0 9.0 4.0 13 20.0 20 5.0 1.0 13.0 an edge-weighted digraph 6.0 7.0 ](media/Dijkstra's-Algorithm-image1.png){width="5.0in" height="4.052083333333333in"}
+![Diikstra's algorithm demo • Consider vertices in increasing order of distance from s (non-tree vertex with the lowest distToC] value). • Add vertex to tree and relax all edges pointing from that vertex. 5.0 9.0 12 12.0 15.0 4.0 3.0 11.0 9.0 4.0 13 20.0 20 5.0 1.0 13.0 an edge-weighted digraph 6.0 7.0 ](media/Dijkstra's-Algorithm-image1.png)
 
 
 
-![](media/Dijkstra's-Algorithm-image2.png){width="5.0in" height="2.40625in"}
+![](media/Dijkstra's-Algorithm-image2.png)
 
 
 
-![Diikstra's algorithm: correctness proof Proposition. Dijkstra's algorithm computes a SPT in any edge-weighted digraph with nonnegative weights. • Each edge e = is relaxed exactly once (when v is relaxed), leaving dist To [w] s dist To [v] + e. weight(). • Inequality holds until algorithm terminates because: di stTo [w] cannot increase di stTo[] values are monotone decreasing distToCv] will not change we choose lowest di st To [ ] value at each step (and edge weights are nonnegative) • Thus, upon termination, shortest-paths optimality conditions hold. ](media/Dijkstra's-Algorithm-image3.png){width="5.0in" height="2.9479166666666665in"}
+![Diikstra's algorithm: correctness proof Proposition. Dijkstra's algorithm computes a SPT in any edge-weighted digraph with nonnegative weights. • Each edge e = is relaxed exactly once (when v is relaxed), leaving dist To [w] s dist To [v] + e. weight(). • Inequality holds until algorithm terminates because: di stTo [w] cannot increase di stTo[] values are monotone decreasing distToCv] will not change we choose lowest di st To [ ] value at each step (and edge weights are nonnegative) • Thus, upon termination, shortest-paths optimality conditions hold. ](media/Dijkstra's-Algorithm-image3.png)
 
 
 
-![public class Di jkstraSP private Di rectedEdge[] edgeTo; private double[] distTo; private IndexMinPQ<Doub1e> pq; public Di jkstraSP(EdgeWeightedDigraph G, edgeTo = new Di ; distTo = new = new IndexMinPQ<Doub1e>(G.V()); pq for (int v = 0; v < G.V(); v++) int s) distTo[v] = Double. POSITIVE_INFINITY; di stTo[s] = 0.0; pq.insert(s, 0.0); while (!pq.isEmpty()) int v = pq.de1Min(); for (Di rectedEdge e . rel ax(e) ; relax vertices in order of distance from s G. adj (v)) ](media/Dijkstra's-Algorithm-image4.png){width="5.0in" height="3.8541666666666665in"}
+![public class Di jkstraSP private Di rectedEdge[] edgeTo; private double[] distTo; private IndexMinPQ<Doub1e> pq; public Di jkstraSP(EdgeWeightedDigraph G, edgeTo = new Di ; distTo = new = new IndexMinPQ<Doub1e>(G.V()); pq for (int v = 0; v < G.V(); v++) int s) distTo[v] = Double. POSITIVE_INFINITY; di stTo[s] = 0.0; pq.insert(s, 0.0); while (!pq.isEmpty()) int v = pq.de1Min(); for (Di rectedEdge e . rel ax(e) ; relax vertices in order of distance from s G. adj (v)) ](media/Dijkstra's-Algorithm-image4.png)
 
 
 
-![private void relax(Di rectedEdge e) int v = e. from(), w = e.to(); if (di st To [w] > di stTo[v] + e.weight()) distTo[w] = di stTo[v] + e.weight() ; edgeTo [w] = e; if (pq . contains (w)) pq.decreaseKey(w, di st To ; di st To ; update PQ else pq. insert ](media/Dijkstra's-Algorithm-image5.png){width="5.0in" height="1.7395833333333333in"}
+![private void relax(Di rectedEdge e) int v = e. from(), w = e.to(); if (di st To [w] > di stTo[v] + e.weight()) distTo[w] = di stTo[v] + e.weight() ; edgeTo [w] = e; if (pq . contains (w)) pq.decreaseKey(w, di st To ; di st To ; update PQ else pq. insert ](media/Dijkstra's-Algorithm-image5.png)
 
 
 
-![Diikstra's algorithm: which priority queue? Depends on PQ implementation: V insert, V delete-min, E decrease-key. PQ implementation unordered array binary heap d-way heap (Johnson 1975) Fibonacci heap (Fredman-Tarjan 1984) Bottom line. insert log V logd V delete-min decrease-key log V d logd V log V t log V logd V total E log V E loguv V E+V log v t amortized • Array implementation optimal for dense graphs. • Binary heap much faster for sparse graphs. 4-way heap worth the trouble in performance-critical situations. • Fibonacci heap best in theory, but not worth implementing. ](media/Dijkstra's-Algorithm-image6.png){width="5.0in" height="4.104166666666667in"}
+![Diikstra's algorithm: which priority queue? Depends on PQ implementation: V insert, V delete-min, E decrease-key. PQ implementation unordered array binary heap d-way heap (Johnson 1975) Fibonacci heap (Fredman-Tarjan 1984) Bottom line. insert log V logd V delete-min decrease-key log V d logd V log V t log V logd V total E log V E loguv V E+V log v t amortized • Array implementation optimal for dense graphs. • Binary heap much faster for sparse graphs. 4-way heap worth the trouble in performance-critical situations. • Fibonacci heap best in theory, but not worth implementing. ](media/Dijkstra's-Algorithm-image6.png)
 
 
 

@@ -150,8 +150,8 @@ next export #allows you to export your app to static HTML, which can be run stan
 
 **References**
 
-<https://www.freecodecamp.org/news/the-next-js-handbook/>
+<https://www.freecodecamp.org/news/the-next-js-handbook
 
-<https://masteringnextjs.com/>
+<https://masteringnextjs.com
 
-<https://www.freecodecamp.org/news/nextjs-tutorial/>
+<https://www.freecodecamp.org/news/nextjs-tutorial

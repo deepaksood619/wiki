@@ -97,10 +97,10 @@ Every object in C++ has access to its own address through an important pointer c
 
 **C**
 
-<https://www.freecodecamp.org/news/the-c-beginners-handbook/>
+<https://www.freecodecamp.org/news/the-c-beginners-handbook
 
 
 
 **Pointers in C**
 
-<https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think/>
+<https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think

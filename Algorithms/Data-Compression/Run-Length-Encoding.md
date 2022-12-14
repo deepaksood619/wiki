@@ -6,7 +6,7 @@ Modified: 2021-10-28 21:15:06 +0500
 
 ---
 
-![](media/Run-Length-Encoding-image1.jpeg){width="5.0in" height="1.4791666666666667in"}
+![](media/Run-Length-Encoding-image1.jpeg)
 
 
 
@@ -28,13 +28,13 @@ Applications: JPEG, ITU-T T4 Group 3 Fax
 
 **Java implementation**
 
-![](media/Run-Length-Encoding-image2.jpeg){width="5.0in" height="3.2604166666666665in"}
+![](media/Run-Length-Encoding-image2.jpeg)
 
 
 
 **Application: compress a bitmap**
 
-![](media/Run-Length-Encoding-image3.jpeg){width="5.0in" height="3.4583333333333335in"}
+![](media/Run-Length-Encoding-image3.jpeg)
 
 
 

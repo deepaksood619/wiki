@@ -40,7 +40,7 @@ The difference between them is that buffered channels can be pulled with the dat
 
 **Python vs C++**
 
-<https://realpython.com/python-vs-cpp/>
+<https://realpython.com/python-vs-cpp
 
 
 

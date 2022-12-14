@@ -134,7 +134,7 @@ npx eslint . --fix
 
 
 
-<https://create-react-app.dev/docs/analyzing-the-bundle-size/>
+<https://create-react-app.dev/docs/analyzing-the-bundle-size
 
 [Source map explorer](https://www.npmjs.com/package/source-map-explorer)analyzes JavaScript bundles using the source maps. This helps you understand where code bloat is coming from.
 
@@ -154,7 +154,7 @@ const Example = (props) => {
 
 // You can use Hooks here!
 
-return <div />;
+return <div ;
 
 }
 
@@ -164,7 +164,7 @@ function Example(props) {
 
 // You can use Hooks here!
 
-return <div />;
+return <div ;
 
 }
 
@@ -214,7 +214,7 @@ return (
 
 ReactDOM.render(
 
-<Toggle />,
+<Toggle ,
 
 document.getElementById('root')
 
@@ -286,11 +286,11 @@ return (
 
 <div>
 
-<Clock/>
+<Clock
 
-<Clock/>
+<Clock
 
-<Clock/>
+<Clock
 
 </div>
 
@@ -300,7 +300,7 @@ return (
 
 ReactDOM.render(
 
-<Clocks />,
+<Clocks ,
 
 document.getElementById('root')
 
@@ -330,11 +330,11 @@ const isLoggedIn = props.isLoggedIn;
 
 if (isLoggedIn) {
 
-return <UserGreeting />;
+return <UserGreeting ;
 
 }
 
-return <GuestGreeting />;
+return <GuestGreeting ;
 
 }
 
@@ -400,11 +400,11 @@ let button;
 
 if (isLoggedIn) {
 
-button = <LogoutButton onClick={this.handleLogoutClick} />;
+button = <LogoutButton onClick={this.handleLogoutClick} ;
 
 } else {
 
-button = <LoginButton onClick={this.handleLoginClick} />;
+button = <LoginButton onClick={this.handleLoginClick} ;
 
 }
 
@@ -412,7 +412,7 @@ return (
 
 <div>
 
-<Greeting isLoggedIn={isLoggedIn} />
+<Greeting isLoggedIn={isLoggedIn} 
 
 {button}
 
@@ -426,7 +426,7 @@ return (
 
 ReactDOM.render(
 
-<LoginControl />,
+<LoginControl ,
 
 document.getElementById('root')
 
@@ -474,7 +474,7 @@ return (
 
 {sidebar}
 
-<hr />
+<hr 
 
 {content}
 
@@ -494,7 +494,7 @@ const posts = [
 
 ReactDOM.render(
 
-<Blog posts={posts} />,
+<Blog posts={posts} ,
 
 document.getElementById('root')
 
@@ -542,11 +542,11 @@ return (
 
 Name:
 
-<input type="text" value={this.state.value} onChange={this.handleChange} />
+<input type="text" value={this.state.value} onChange={this.handleChange} 
 
 </label>
 
-<input type="submit" value="Submit" />
+<input type="submit" value="Submit" 
 
 </form>
 
@@ -558,7 +558,7 @@ Name:
 
 ReactDOM.render(
 
-<NameForm />,
+<NameForm ,
 
 document.getElementById('root')
 
@@ -660,7 +660,7 @@ value={temperature}
 
 onChange={this.handleChange}
 
-/>
+
 
 </fieldset>
 
@@ -722,7 +722,7 @@ temperature={celsius}
 
 onTemperatureChange={this.handleCelsiusChange}
 
-/>
+
 
 <TemperatureInput
 
@@ -732,9 +732,9 @@ temperature={fahrenheit}
 
 onTemperatureChange={this.handleFahrenheitChange}
 
-/>
 
-<BoilingVerdict celsius={parseFloat(celsius)} />
+
+<BoilingVerdict celsius={parseFloat(celsius)} 
 
 </div>
 
@@ -744,7 +744,7 @@ onTemperatureChange={this.handleFahrenheitChange}
 
 }
 
-ReactDOM.render(<Calculator />, document.getElementById("root"));
+ReactDOM.render(<Calculator , document.getElementById("root"));
 
 
 
@@ -840,7 +840,7 @@ rows.push(
 
 category={product.category}
 
-key={product.category} />
+key={product.category} 
 
 );
 
@@ -854,7 +854,7 @@ product={product}
 
 key={product.name}
 
-/>
+
 
 );
 
@@ -928,7 +928,7 @@ value={this.props.filterText}
 
 onChange={this.handleFilterTextChange}
 
-/>
+
 
 <p>
 
@@ -940,7 +940,7 @@ checked={this.props.inStockOnly}
 
 onChange={this.handleInStockChange}
 
-/>
+
 
 {' '}
 
@@ -1012,7 +1012,7 @@ onFilterTextChange={this.handleFilterTextChange}
 
 onInStockChange={this.handleInStockChange}
 
-/>
+
 
 <ProductTable
 
@@ -1022,7 +1022,7 @@ filterText={this.state.filterText}
 
 inStockOnly={this.state.inStockOnly}
 
-/>
+
 
 </div>
 
@@ -1052,7 +1052,7 @@ const PRODUCTS = [
 
 ReactDOM.render(
 
-<FilterableProductTable products={PRODUCTS} />,
+<FilterableProductTable products={PRODUCTS} ,
 
 document.getElementById('root')
 

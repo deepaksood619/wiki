@@ -33,7 +33,7 @@ Hamiltion app
 
 
 
-![HOME HAMILTON OPEN LOTTERIES "0 mCom Google Analytics Authentication Realtime Database Cloud Storage App Engine Cron Cloud Cloud Functions LuckySeat stackdriver Logs Mag ento API Stripe ](media/Flutter-image1.png){width="5.0in" height="2.8645833333333335in"}
+![HOME HAMILTON OPEN LOTTERIES "0 mCom Google Analytics Authentication Realtime Database Cloud Storage App Engine Cron Cloud Cloud Functions LuckySeat stackdriver Logs Mag ento API Stripe ](media/Flutter-image1.png)
 
 
 
@@ -97,13 +97,13 @@ Hamiltion app
 
 <https://www.toptal.com/flutter/flutter-tutorial>
 
-<https://www.freecodecamp.org/news/flutter-app-course-mobile-web-desktop/>
+<https://www.freecodecamp.org/news/flutter-app-course-mobile-web-desktop
 
 [In Record Time: How we Quickly Built a Serverless app with Firebase and Flutter (GDD Europe '17)](https://www.youtube.com/watch?v=prlK_QL_qOA)
 
 
 
-<https://www.freecodecamp.org/news/code-a-full-stack-instagram-clone-with-flutter-and-firebase/>
+<https://www.freecodecamp.org/news/code-a-full-stack-instagram-clone-with-flutter-and-firebase
 
-<https://www.freecodecamp.org/news/learn-flutter-full-course/>
+<https://www.freecodecamp.org/news/learn-flutter-full-course
 

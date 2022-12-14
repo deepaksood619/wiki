@@ -90,9 +90,6 @@ Unordered List (Sequential Search)
 
 5.  Deletion in BSTs
 
-```{=html}
-<!-- -->
-```
 9.  Balanced Search Trees
 
     a.  2-3 Search Trees
@@ -275,9 +272,6 @@ Unordered List (Sequential Search)
 
 9.  Custom data structures (suffix tree)
 
-```{=html}
-<!-- -->
-```
 10. **Binary search**
 
 
@@ -309,7 +303,7 @@ Unordered List (Sequential Search)
 
 
 
-<https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/>
+<https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python
 
 [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
 

@@ -29,7 +29,7 @@ Solution -
 
 [Raymond Hettinger, Keynote on Concurrency, PyBay 2017](https://www.youtube.com/watch?v=9zinZmE3Ogk&index=2&list=WL&t=0s)
 
-<https://realpython.com/python-concurrency/>
+<https://realpython.com/python-concurrency
 
 <https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python>
 

@@ -98,7 +98,7 @@ ReactDOM.render(
 
 <Provider store={store}>
 
-<App />
+<App 
 
 </Provider>,
 
@@ -232,9 +232,9 @@ The official, opinionated, batteries-included toolset for efficient Redux develo
 
 <https://github.com/reduxjs/redux-toolkit>
 
-<https://redux-toolkit.js.org/>
+<https://redux-toolkit.js.org
 
-<https://www.freecodecamp.org/news/learn-redux-toolkit-the-recommended-way-to-use-redux/>
+<https://www.freecodecamp.org/news/learn-redux-toolkit-the-recommended-way-to-use-redux
 
 
 
@@ -312,9 +312,9 @@ store.dispatch(decremented())
 
 **References**
 
-<https://daveceddia.com/react-redux-immutability-guide/>
+<https://daveceddia.com/react-redux-immutability-guide
 
-<https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/>
+<https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained
 
 
 

@@ -78,7 +78,7 @@ Jetpack is a set of libraries, tools and architectural guidance to help make it 
 
 
 
-<https://developer.android.com/jetpack/>
+<https://developer.android.com/jetpack
 
 
 

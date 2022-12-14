@@ -57,7 +57,7 @@ As Grace Hopper said:
 
 
 
-![As Grace Hopper said: I've always been more interested in the future than in the past. ](media/Markdown-image1.png){width="3.4375in" height="1.34375in"}
+![As Grace Hopper said: I've always been more interested in the future than in the past. ](media/Markdown-image1.png)
 
 
 
@@ -257,7 +257,7 @@ console.log("look ma', no spaces");
 -   [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 -   [x] list syntax required (any unordered or ordered list supported)
 
-![O this is a complete item this is an incomplete item @mentions, #refs, links, formatting, and togs supported list syntax required (any unordered or ordered list supported) ](media/Markdown-image2.png){width="2.1145833333333335in" height="0.9895833333333334in"}
+![O this is a complete item this is an incomplete item @mentions, #refs, links, formatting, and togs supported list syntax required (any unordered or ordered list supported) ](media/Markdown-image2.png)
 
 
 
@@ -267,7 +267,7 @@ Tables aren't part of the core Markdown spec, but they are part of GFM and*Markd
 
 We can create tables by assembling a list of words and dividing them with hyphens '-' (for the first row), and then separating each column with a pipe |:
 
-![First Header I Second Header Content cell 1 | Content cell 2 Content column I I Content column 2 First Header Content cell 1 Content column 1 Second Header Content cell 2 Content column 2 ](media/Markdown-image3.png){width="2.6145833333333335in" height="1.9166666666666667in"}
+![First Header I Second Header Content cell 1 | Content cell 2 Content column I I Content column 2 First Header Content cell 1 Content column 1 Second Header Content cell 2 Content column 2 ](media/Markdown-image3.png)
 
 
 
@@ -328,7 +328,7 @@ You write markdown with embedded components through JSX
 
 It gets compiled to JavaScript that you can use in any framework that supports JSX
 
-<https://mdxjs.com/>
+<https://mdxjs.com
 
 
 
@@ -338,7 +338,7 @@ It gets compiled to JavaScript that you can use in any framework that supports J
 
 Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.
 
-<https://markdown-here.com/>
+<https://markdown-here.com
 
 [Markdown vs. HTML – What Makes the Most Powerful Notes Editor?](https://www.thebrain.com/blog/markdown-vs-html)
 

@@ -40,9 +40,6 @@ Can be solved in n^2 log N
 
 2.  For each pair of numbers a[i] and a[j], binary search for -(a[i] + a[j])
 
-```{=html}
-<!-- -->
-```
 2.  1-Sum problem -
 
 How many integers are 0 in an array
@@ -97,21 +94,21 @@ There are three main types of amortized analysis:aggregate analysis, theaccounti
 
 
 
-<https://brilliant.org/wiki/amortized-analysis/>
+<https://brilliant.org/wiki/amortized-analysis
 
 
 
 **Memory**
 
-![Typical memory usage for primitive types and arrays type boolean byte char int fl oat 1 ong doubl e bytes 2 4 4 8 8 type char [ ] int[] doubl e C] bytes 2N+24 4N+24 8N+24 for one---dimensional arrays type char C] [ ] doubl el] C] bytes for primitive types for two-dimensional arrays ](media/Analysis-of-Algorithms-image1.png){width="5.0in" height="4.072916666666667in"}
+![Typical memory usage for primitive types and arrays type boolean byte char int fl oat 1 ong doubl e bytes 2 4 4 8 8 type char [ ] int[] doubl e C] bytes 2N+24 4N+24 8N+24 for one---dimensional arrays type char C] [ ] doubl el] C] bytes for primitive types for two-dimensional arrays ](media/Analysis-of-Algorithms-image1.png)
 
 
 
-![Typical memory usage for objects in Java Object overhead. 16 bytes. Reference. 8 bytes. Padding. Each object uses a multiple of 8 bytes. Ex l. A Date object uses 32 bytes of memory. public class Date pri vate int day; pri vate int month; pri vate int year; object overhead day month year padding int values 16 bytes (object overhead) 4 bytes (int) 4 bytes (int) 4 bytes (int) 4 bytes (padding) 32 bytes ](media/Analysis-of-Algorithms-image2.png){width="5.0in" height="4.09375in"}
+![Typical memory usage for objects in Java Object overhead. 16 bytes. Reference. 8 bytes. Padding. Each object uses a multiple of 8 bytes. Ex l. A Date object uses 32 bytes of memory. public class Date pri vate int day; pri vate int month; pri vate int year; object overhead day month year padding int values 16 bytes (object overhead) 4 bytes (int) 4 bytes (int) 4 bytes (int) 4 bytes (padding) 32 bytes ](media/Analysis-of-Algorithms-image2.png)
 
 
 
-![Typical memory usage for obiects in Java Object overhead. 16 bytes. Reference. 8 bytes. Padding. Each object uses a multiple of 8 bytes. Ex 2. A virgin String of length N uses 2N bytes of memory. public class Stri ng private char C] value; private int offset; private int count; private int hash; object overhead val ue offset count hash padding reference int values 1 6 bytes (object overhead) 8 bytes (reference to array) 2N + 24 bytes (chart] array) 4 bytes (int) 4 bytes (int) 4 bytes (int) 4 bytes (padding) 2N + 64 bytes ](media/Analysis-of-Algorithms-image3.png){width="5.0in" height="3.9895833333333335in"}
+![Typical memory usage for obiects in Java Object overhead. 16 bytes. Reference. 8 bytes. Padding. Each object uses a multiple of 8 bytes. Ex 2. A virgin String of length N uses 2N bytes of memory. public class Stri ng private char C] value; private int offset; private int count; private int hash; object overhead val ue offset count hash padding reference int values 1 6 bytes (object overhead) 8 bytes (reference to array) 2N + 24 bytes (chart] array) 4 bytes (int) 4 bytes (int) 4 bytes (int) 4 bytes (padding) 2N + 64 bytes ](media/Analysis-of-Algorithms-image3.png)
 
 
 

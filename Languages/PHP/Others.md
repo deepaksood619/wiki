@@ -44,7 +44,7 @@ php -m
 
 <https://developers.ibexa.co/blog/performance-composer-2.0-php-8.0-jit>
 
-<https://packagist.org/>
+<https://packagist.org
 
 Packagist is the main[Composer](https://getcomposer.org/)repository. It aggregates public PHP packages installable with Composer.
 
@@ -68,7 +68,7 @@ pecl
 
 
 
-<https://pecl.php.net/>
+<https://pecl.php.net
 
 
 
@@ -131,17 +131,17 @@ sudo apt-get install libapache2-mod-fastcgi php7.0-fpm
 
 
 
-<https://blog.layershift.com/which-php-mode-apache-vs-cgi-vs-fastcgi/>
+<https://blog.layershift.com/which-php-mode-apache-vs-cgi-vs-fastcgi
 
-<https://php-fpm.org/>
+<https://php-fpm.org
 
 
 
 **Optimization**
 
-<https://www.cloudways.com/blog/php-performance/>
+<https://www.cloudways.com/blog/php-performance
 
-<https://geekflare.com/php-fpm-optimization/>
+<https://geekflare.com/php-fpm-optimization
 
 
 
@@ -161,7 +161,7 @@ Adminer (formerly phpMinAdmin) is a full-featured database management tool writt
 
 
 
-<https://www.adminer.org/>
+<https://www.adminer.org
 
 
 
@@ -215,7 +215,7 @@ cd /var/www/html
 
 <http://phpmd.org/download/index.html>
 
-<https://scrutinizer-ci.com/docs/tools/php/php-analyzer/>
+<https://scrutinizer-ci.com/docs/tools/php/php-analyzer
 
 
 
@@ -252,9 +252,9 @@ PHPStan is a static analysis tool for PHP code. It parses your code and tries to
 
 **PSR-1, PSR-2, PSR-12: Coding Style Guide**
 
-<https://www.php-fig.org/psr/psr-2/>
+<https://www.php-fig.org/psr/psr-2
 
-<https://www.php-fig.org/psr/psr-12/>
+<https://www.php-fig.org/psr/psr-12
 
 
 

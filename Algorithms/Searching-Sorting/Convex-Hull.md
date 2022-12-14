@@ -10,7 +10,7 @@ Modified: 2018-05-12 00:01:03 +0500
 
 
 
-![The convex hull of a set of N points is the smallest perimeter fence enclosing the points. on convex hull boundary, but not vertices Convex hull output. Sequence of vertices in counterclockwise order. ](media/Convex-Hull-image1.png){width="5.0in" height="3.2291666666666665in"}
+![The convex hull of a set of N points is the smallest perimeter fence enclosing the points. on convex hull boundary, but not vertices Convex hull output. Sequence of vertices in counterclockwise order. ](media/Convex-Hull-image1.png)
 
 
 

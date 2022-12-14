@@ -20,7 +20,7 @@ Maintain sketch on the fly, as the data is updated
 
 
 
-<https://www.sketchingbigdata.org/>
+<https://www.sketchingbigdata.org>
 
 <https://www.youtube.com/watch?v=xbTM3t26xLk>
 

@@ -4,8 +4,8 @@ const path = require("path");
 
 const pathPrefix = "/wiki/";
 const siteMetadata = {
-  title: "Keeping knowledge outside my brain",
-  shortName: "Brain Dam",
+  title: "Everything that I know",
+  shortName: "Deepak's Wiki",
   description:
     "Accumulating thoughts, knowledge, tips and anything that is worth keeping a not of. These notes are build using the obsidian tool and deployed here as well for easy access.",
   imageUrl: "/hoover_dam.jpg",

@@ -87,4 +87,4 @@ Microservices are optional, and fully supported:
 
 <https://github.com/jhipster/generator-jhipster>
 
-<https://www.jhipster.tech/>
+<https://www.jhipster.tech

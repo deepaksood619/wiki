@@ -214,5 +214,5 @@ v1.x = 4 *# uses the setter, printing the value*
 
 
 
-![e' PYTHON Creating Classes ](media/OOPS-image1.jpg){width="3.6979166666666665in" height="2.0729166666666665in"}
+![e' PYTHON Creating Classes ](media/OOPS-image1.jpg)
 

@@ -51,9 +51,6 @@ back until it is handled.
 
 2.  **ImportError -** If python cannot find the module
 
-```{=html}
-<!-- -->
-```
 3.  **ValueError -** Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value
 
 4.  **KeyboardInterrupt -** Raised when the user hits the interrupt key (normally Control-C or Delete)
@@ -133,7 +130,7 @@ print('Goodbye, world!')
 
 
 
-![try: Run this code except: Execute this code when there is an exception else: No exceptions? Run this code. finally: Always run this code. ](media/Exceptions-image1.png){width="5.0in" height="3.625in"}
+![try: Run this code except: Execute this code when there is an exception else: No exceptions? Run this code. finally: Always run this code. ](media/Exceptions-image1.png)
 
 
 

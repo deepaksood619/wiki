@@ -18,4 +18,4 @@ JavaFX Scene Graph
 
 **References**
 
-<http://fxexperience.com/2011/07/worker-threading-in-javafx-2-0/>
+<http://fxexperience.com/2011/07/worker-threading-in-javafx-2-0

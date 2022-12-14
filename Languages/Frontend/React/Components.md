@@ -35,7 +35,7 @@ App is a type of instances. This is a const class and can have many instances. T
 
 
 
-To create an instance <App /> or <App></App> (wrap component name with JSX tags)
+To create an instance <App  or <App></App> (wrap component name with JSX tags)
 
 
 
@@ -71,7 +71,7 @@ React is diverged into two libraries
 
 Where to put the rendered HTML must be specified
 
-ReactDOM.render(<App />, document.queryselector('.container.'))
+ReactDOM.render(<App , document.queryselector('.container.'))
 
 
 
@@ -137,7 +137,7 @@ class SearchBar extends React.Component {
 
 render() {
 
-return <input />
+return <input 
 
 }
 
@@ -155,7 +155,7 @@ Always start with functional component and then switch to class based component 
 
 render() {
 
-return <input onChange={this.onInputChange} />
+return <input onChange={this.onInputChange} 
 
 }
 
@@ -219,7 +219,7 @@ Clockis now defined as a class rather than a function.
 
 
 
-Therendermethod will be called each time an update happens, but as long as we render<Clock />into the same DOM node, only a single instance of theClockclass will be used. This lets us use additional features such as local state and lifecycle methods.
+Therendermethod will be called each time an update happens, but as long as we render<Clock into the same DOM node, only a single instance of theClockclass will be used. This lets us use additional features such as local state and lifecycle methods.
 
 
 
@@ -239,7 +239,7 @@ Returningnullfrom a component'srendermethod does not affect the firing of the co
 
 value={this.state.term}
 
-onChange={event => this.setState({ term: event.target.value })} />
+onChange={event => this.setState({ term: event.target.value })} 
 
 
 
@@ -259,7 +259,7 @@ this.setState({ videos })
 
 Passing some data from parent compoent to children components
 
-<VideoList videos={this.state.videos} />
+<VideoList videos={this.state.videos} 
 
 // passing data like this is refered to as passing props in React
 

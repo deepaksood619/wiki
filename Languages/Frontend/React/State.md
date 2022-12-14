@@ -24,7 +24,7 @@ Only the most parent component in application must be responsible to fetch data 
 
 
 
-<https://overreacted.io/react-as-a-ui-runtime/>
+<https://overreacted.io/react-as-a-ui-runtime
 
 
 
@@ -52,7 +52,7 @@ return <h1>Hello, {props.name}</h1>;
 
 
 
-const element = <Welcome name="Sara" />;
+const element = <Welcome name="Sara" ;
 
 
 

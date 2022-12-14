@@ -380,7 +380,7 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 
 
 
-<https://database.guide/4-ways-to-replace-null-with-a-different-value-in-mysql/>
+<https://database.guide/4-ways-to-replace-null-with-a-different-value-in-mysql
 -   TheIFNULL()function
 -   TheCOALESCE()function
 -   TheIF()function combined with theIS NULL(orIS NOT NULL) operator
@@ -418,7 +418,7 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 
 Window functions can be simply explained as calculation functions similar to aggregating, but where normal aggregating via the GROUP BY clause combines then hides the individual rows being aggregated, window functions have access to individual rows and can add some of the attributes from those rows into the result set.
 
-![Diagram comparing aggregate functions and window functions](media/Functions-image1.png){width="7.520833333333333in" height="1.9270833333333333in"}
+![Diagram comparing aggregate functions and window functions](media/Functions-image1.png)
 
 <https://www.toptal.com/sql/intro-to-sql-windows-functions>
 

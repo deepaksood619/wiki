@@ -52,13 +52,13 @@ for graph-like problems (e.g. finding shortest paths)
 
 
 
-7.  <https://rapids.ai/> <https://github.com/rapidsai>
+7.  <https://rapids.ai <https://github.com/rapidsai>
 
 
 
 **Optimizing Python Memory Objects**
 
-<https://habr.com/en/post/458518/>
+<https://habr.com/en/post/458518
 
 <https://towardsdatascience.com/memory-management-in-python-6bea0c8aecc9>
 

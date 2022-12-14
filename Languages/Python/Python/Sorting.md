@@ -68,7 +68,7 @@ strs = ['ccc', 'aaaa', 'd', 'bb']
 
 print sorted(strs, key=len) ## ['d', 'bb', 'ccc', 'aaaa']
 
-![calling sorted with key=len](media/Sorting-image1.png){width="4.15625in" height="3.1145833333333335in"}
+![calling sorted with key=len](media/Sorting-image1.png)
 
 
 

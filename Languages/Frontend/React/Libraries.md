@@ -7,14 +7,14 @@ Modified: 2022-06-01 23:54:08 +0500
 ---
 
 **TODO**
--   **React Query -** <https://react-query.tanstack.com/>
+-   **React Query -** <https://react-query.tanstack.com
 -   **React Router -** <https://github.com/remix-run/react-router/blob/main/docs/getting-started/installation.md>
 
 
 
 **JS libraries**
 
-<https://underscorejs.org/> <https://github.com/jashkenas/underscore>
+<https://underscorejs.org <https://github.com/jashkenas/underscore>
 
 Underscore.js is a utility-belt library for JavaScript that provides support for the usual functional suspects (each, map, reduce, filter...) without extending any core JavaScript objects.
 
@@ -62,7 +62,7 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 
 <https://www.npmjs.com/package/react-responsive>
 
-<https://introjs.com/>
+<https://introjs.com
 
 <https://www.npmjs.com/package/react-virtualized> (instead use react-window)
 
@@ -72,7 +72,7 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 
 [**https://www.npmjs.com/package/dayjs**](https://www.npmjs.com/package/dayjs)
 
-<https://date-fns.org/>
+<https://date-fns.org
 
 date-fns provides the most comprehensive, yet simple and consistent toolset for manipulatingJavaScript datesinabrowser&Node.js.
 
@@ -96,7 +96,7 @@ date-fns provides the most comprehensive, yet simple and consistent toolset for 
 
 **Select2**
 
-<https://select2.org/>
+<https://select2.org
 
 
 
@@ -157,13 +157,13 @@ Fetch, cache and update data in your React and React Native applications all wit
 -   SSR Support
 -   Data Selectors
 
-<https://react-query.tanstack.com/>
+<https://react-query.tanstack.com
 
 
 
 **Flux**
 
-<https://facebook.github.io/flux/>
+<https://facebook.github.io/flux
 
 
 
@@ -179,7 +179,7 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 
 
-<https://www.freecodecamp.org/news/how-to-test-react-applications/>
+<https://www.freecodecamp.org/news/how-to-test-react-applications
 
 
 
@@ -195,9 +195,9 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 End-to-end testing
 
-<https://www.cypress.io/how-it-works/>
+<https://www.cypress.io/how-it-works
 
-<https://www.cypress.io/>
+<https://www.cypress.io
 
 
 
@@ -254,4 +254,4 @@ className={cn({
 
 
 
-<https://www.freecodecamp.org/news/front-end-development-tools-you-should-know/>
+<https://www.freecodecamp.org/news/front-end-development-tools-you-should-know

@@ -50,7 +50,7 @@ A promise in JavaScript is like a placeholder value that is expected to eventual
 
 **What is Node.js promise?**
 
-A promise may at first glance look like syntactic sugar for a callback but actually, it isn't. A promise may serve the same purpose of a callback in a different way but underneath it is so much different. <https://www.promisejs.org/>
+A promise may at first glance look like syntactic sugar for a callback but actually, it isn't. A promise may serve the same purpose of a callback in a different way but underneath it is so much different. <https://www.promisejs.org
 
 
 

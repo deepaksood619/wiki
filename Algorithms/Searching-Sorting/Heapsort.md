@@ -29,5 +29,5 @@ Significance - In-place sorting algorithm with N log N wost-case
 
 
 
-![Heapsort: Java implementation public class Heap public static void a) int N = a. length; for (int k sink(a, while (N > exch(a, sink(a, = N/2; k 1; 1) 1, private static void si a, / * as before * / private static bool ean / * as before * / private static voi a , / * as before * / int k, int N) a, int i, int j) int i, int j) but convert from I -based indexing to O-base indexing ](media/Heapsort-image1.png){width="5.0in" height="4.416666666666667in"}
+![Heapsort: Java implementation public class Heap public static void a) int N = a. length; for (int k sink(a, while (N > exch(a, sink(a, = N/2; k 1; 1) 1, private static void si a, / * as before * / private static bool ean / * as before * / private static voi a , / * as before * / int k, int N) a, int i, int j) int i, int j) but convert from I -based indexing to O-base indexing ](media/Heapsort-image1.png)
 

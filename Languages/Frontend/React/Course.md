@@ -26,15 +26,15 @@ Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>
 
 **Course**
 
-<https://www.freecodecamp.org/news/getting-started-with-react-a-modern-project-based-guide-for-beginners-including-hooks-2/>
+<https://www.freecodecamp.org/news/getting-started-with-react-a-modern-project-based-guide-for-beginners-including-hooks-2
 
-<https://www.freecodecamp.org/news/best-react-javascript-tutorial/>
+<https://www.freecodecamp.org/news/best-react-javascript-tutorial
 
-<https://www.freecodecamp.org/news/react-10-hour-course/>
+<https://www.freecodecamp.org/news/react-10-hour-course
 
-<https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/>
+<https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript
 
-<https://www.freecodecamp.org/news/learn-all-about-micro-frontends/>
+<https://www.freecodecamp.org/news/learn-all-about-micro-frontends
 
 
 
@@ -54,17 +54,17 @@ Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>
 
 
 
-**Project -** <https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript/>
+**Project -** <https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript
 
-<https://www.freecodecamp.org/news/solidify-your-react-skills-by-building-15-projects/>
+<https://www.freecodecamp.org/news/solidify-your-react-skills-by-building-15-projects
 
-<https://www.freecodecamp.org/news/react-beginner-handbook/>
+<https://www.freecodecamp.org/news/react-beginner-handbook
 
-<https://www.freecodecamp.org/news/learn-react-js-in-this-free-7-hour-course/>
+<https://www.freecodecamp.org/news/learn-react-js-in-this-free-7-hour-course
 
-<https://www.freecodecamp.org/news/code-a-dictionary-with-react-and-material-ui/>
+<https://www.freecodecamp.org/news/code-a-dictionary-with-react-and-material-ui
 
-<https://www.freecodecamp.org/news/learn-react-by-building-an-ecommerce-site/>
+<https://www.freecodecamp.org/news/learn-react-by-building-an-ecommerce-site
 
 Export html to pdf - <https://www.telerik.com/blogs/generating-pdf-react-easy-as-1-2-3>
 
@@ -74,11 +74,11 @@ TODO project - [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHS
 
 <https://github.com/enaqx/awesome-react>
 
-<https://www.freecodecamp.org/news/free-react-course-2022/>
+<https://www.freecodecamp.org/news/free-react-course-2022
 
-<https://www.freecodecamp.org/news/create-a-portfolio-with-react-featuring-cool-animations/>
+<https://www.freecodecamp.org/news/create-a-portfolio-with-react-featuring-cool-animations
 
-<https://www.freecodecamp.org/news/build-a-google-docs-clone-with-react-and-firebase/>
+<https://www.freecodecamp.org/news/build-a-google-docs-clone-with-react-and-firebase
 
 
 
@@ -86,9 +86,9 @@ TODO project - [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHS
 
 <https://github.com/taniarascia/takenote>
 
-<https://codewithnico.com/production-ready-react-apps/>
+<https://codewithnico.com/production-ready-react-apps
 
-<https://madewithreact.com/>
+<https://madewithreact.com
 
 
 

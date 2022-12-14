@@ -6,7 +6,7 @@ Modified: 2021-05-08 16:13:07 +0500
 
 ---
 
-<https://web.dev/vitals/>
+<https://web.dev/vitals
 
 Web Vitals is an initiative by Google to provide unified guidance for quality signals that are essential to delivering a great user experience on the web.
 
@@ -34,7 +34,7 @@ Cumulative Layout Shift (CLS) is an important, user-centric metric for measuring
 
 
 
-<https://web.dev/cls/>
+<https://web.dev/cls
 
 
 
@@ -102,10 +102,10 @@ screenshot - For capture of screen
 
 >: Disable Javascript
 
-<https://developer.chrome.com/docs/devtools/javascript/disable/>
+<https://developer.chrome.com/docs/devtools/javascript/disable
 
 
 
 <https://dev.to/yashints/chrome-devtools-can-do-that-4a8l>
 
-<https://www.freecodecamp.org/news/learn-how-to-use-the-chrome-devtools-to-troubleshoot-websites/>
+<https://www.freecodecamp.org/news/learn-how-to-use-the-chrome-devtools-to-troubleshoot-websites

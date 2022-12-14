@@ -6,11 +6,11 @@ Modified: 2021-03-20 13:29:38 +0500
 
 ---
 
-<https://github.com/PyMySQL/PyMySQL/>
+<https://github.com/PyMySQL/PyMySQL
 
-<https://pymysql.readthedocs.io/en/latest/>
+<https://pymysql.readthedocs.io/en/latest
 
-<https://pypi.org/project/PyMySQL/>
+<https://pypi.org/project/PyMySQL
 
 pip install PyMySQL==0.9.3
 
@@ -311,7 +311,7 @@ self.conn = None
 
 
 
-<https://hackersandslackers.com/python-mysql-pymysql/>
+<https://hackersandslackers.com/python-mysql-pymysql
 
 <https://medium.com/@vipinc.007/python-a-database-interaction-class-using-pymysql-3338fb90f38c>
 
@@ -319,7 +319,7 @@ self.conn = None
 
 **Others**
 
-<https://pypi.org/project/mysql-connector-python/>
+<https://pypi.org/project/mysql-connector-python
 
 
 
@@ -337,9 +337,9 @@ Psycopg 2 is both Unicode and Python 3 friendly.
 
 
 
-<https://pypi.org/project/psycopg2-binary/>
+<https://pypi.org/project/psycopg2-binary
 
-<https://www.psycopg.org/docs/>
+<https://www.psycopg.org/docs
 
 <https://www.psycopg.org/docs/usage.html>
 

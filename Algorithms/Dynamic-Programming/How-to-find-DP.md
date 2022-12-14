@@ -51,4 +51,4 @@ This is the easiest part of a dynamic programming solution. We just need to stor
 
 **References**
 
-<https://www.geeksforgeeks.org/solve-dynamic-programming-problem/>
+<https://www.geeksforgeeks.org/solve-dynamic-programming-problem

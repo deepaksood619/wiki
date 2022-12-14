@@ -16,7 +16,7 @@ Thedominating set problemconcerns testing whether γ(G)≤Kfor a given graphGand
 
 
 
-![](media/Other-Graph-Algorithms-image1.png){width="1.5625in" height="2.0729166666666665in"}
+![](media/Other-Graph-Algorithms-image1.png)
 
 Dominating sets (redvertices).
 

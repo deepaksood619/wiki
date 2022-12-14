@@ -6,7 +6,7 @@ Modified: 2019-12-29 01:57:36 +0500
 
 ---
 
-![JVM Architecture Diagram](media/JVM-Architecture-image1.png){width="5.0in" height="4.385416666666667in"}
+![JVM Architecture Diagram](media/JVM-Architecture-image1.png)
 
 
 
@@ -92,7 +92,7 @@ c.  Garbage Collector: Garbage Collector is a part of Execution Engine, it colle
 
 
 
-<https://www.javainterviewpoint.com/java-virtual-machine-architecture-in-java/>
+<https://www.javainterviewpoint.com/java-virtual-machine-architecture-in-java
 
 
 

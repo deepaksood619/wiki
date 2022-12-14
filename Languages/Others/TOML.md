@@ -70,4 +70,4 @@ hosts = [
 
 <https://github.com/toml-lang/toml>
 
-<https://learnxinyminutes.com/docs/toml/>
+<https://learnxinyminutes.com/docs/toml

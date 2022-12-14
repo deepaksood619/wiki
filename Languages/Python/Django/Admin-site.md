@@ -98,7 +98,7 @@ fieldsets=(
 
 )
 
-![Change client Airtel-01 Client name Display name Kamla Nagar Unique id Airtel-01 Customer this site Airtel belongs to Campus name Airtel-01 Source name Metadata {"key": "value"} a Is public Subscription key U21nkG17AGEsUu04CvrM7BCjOPFXjreXfaSY Archiver address ems.zenatix.com Default is Ip given on Docker network Archiver port 9105 Database address ems.zenatix.com Default is Ip given on Docker network Database port 7838 Default is Port given on Docker network Url conf Available meters admin console home services disabled summary_console create frontend dashboard retail admin analytics trends devices reports_retail reports Choose all Hold down "Control", or "Command" on a Mac, to select more than one. Mail signature Mail signature for automated emails Latitude 28.68319526000( Latitude Longitude 77.20194563000( Longitude Order Sites can be ordered using this field q Filter Excluded issues AdvanceESPHighReboot a AdvanceESPPoorSignalStrength BatteryDataCountLessThanExpected a CommunicationErrors CommunicationPointsLessThan20 a CommunicationPointsLessThan85 ConstantDoorStatus a ConstantRelayStatus ControlBasedOnScheduleMissed a ControllerHang ControllerHighBandwidthConsumption a ControllerHighDiskUsage ControllerHighDriverRestartCount n ControllerHiqhRebootCount Choose items and order by drag & drop. a Site disabled Working days Monday - Sunday Choose your Working days. Street address Kamla Nagar City Delhi State Delhi Country India Zipcode 110007 Other Details Office start time Billing type Total floors Chosen meters Select your choice(s) and click control alerts Clear all Enter the office start time. KWh Choose the billing parameter (KVAh or KWh) Enter the number of floors. Office end time Billing cycle Total carpet area Enter the office end time. Enter the total carpet area (in sq. feet). Number of workstations Sanctioned load Occupancy Enter the number of workstations in office. In KW Enter the maximum occupancy in the office. Type of workstation Dg test frequency Total ahu History Laptops Select the type of workstation. Enter number of tests in a week. Enter the total number of AHU's supported by the panels. ](media/Admin-site-image1.png){width="5.53125in" height="11.885416666666666in"}
+![Change client Airtel-01 Client name Display name Kamla Nagar Unique id Airtel-01 Customer this site Airtel belongs to Campus name Airtel-01 Source name Metadata {"key": "value"} a Is public Subscription key U21nkG17AGEsUu04CvrM7BCjOPFXjreXfaSY Archiver address ems.zenatix.com Default is Ip given on Docker network Archiver port 9105 Database address ems.zenatix.com Default is Ip given on Docker network Database port 7838 Default is Port given on Docker network Url conf Available meters admin console home services disabled summary_console create frontend dashboard retail admin analytics trends devices reports_retail reports Choose all Hold down "Control", or "Command" on a Mac, to select more than one. Mail signature Mail signature for automated emails Latitude 28.68319526000( Latitude Longitude 77.20194563000( Longitude Order Sites can be ordered using this field q Filter Excluded issues AdvanceESPHighReboot a AdvanceESPPoorSignalStrength BatteryDataCountLessThanExpected a CommunicationErrors CommunicationPointsLessThan20 a CommunicationPointsLessThan85 ConstantDoorStatus a ConstantRelayStatus ControlBasedOnScheduleMissed a ControllerHang ControllerHighBandwidthConsumption a ControllerHighDiskUsage ControllerHighDriverRestartCount n ControllerHiqhRebootCount Choose items and order by drag & drop. a Site disabled Working days Monday - Sunday Choose your Working days. Street address Kamla Nagar City Delhi State Delhi Country India Zipcode 110007 Other Details Office start time Billing type Total floors Chosen meters Select your choice(s) and click control alerts Clear all Enter the office start time. KWh Choose the billing parameter (KVAh or KWh) Enter the number of floors. Office end time Billing cycle Total carpet area Enter the office end time. Enter the total carpet area (in sq. feet). Number of workstations Sanctioned load Occupancy Enter the number of workstations in office. In KW Enter the maximum occupancy in the office. Type of workstation Dg test frequency Total ahu History Laptops Select the type of workstation. Enter number of tests in a week. Enter the total number of AHU's supported by the panels. ](media/Admin-site-image1.png)
 
 Here notice the different sections and also the sub-sections in the "Other Details" section.
 
@@ -193,7 +193,7 @@ A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personaliz
 
 **Django Open Source projects**
 
-<https://www.upgrad.com/blog/django-open-source-projects/>
+<https://www.upgrad.com/blog/django-open-source-projects
 -   Wagtail (Open Source CMS)
 -   Ownphotos (Open Source Google Photos)
 -   PostHog - <https://github.com/PostHog/posthog> (Open Source Event Tracking)
@@ -204,7 +204,7 @@ A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personaliz
 
 **Others**
 
-<https://awesomeopensource.com/>
+<https://awesomeopensource.com
 
 <https://github.com/sindresorhus/awesome>
 
@@ -212,5 +212,5 @@ A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personaliz
 
 **Others**
 
-<https://realpython.com/manage-users-in-django-admin/>
+<https://realpython.com/manage-users-in-django-admin
 

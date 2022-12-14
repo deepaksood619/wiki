@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Regular-Expressions---Regex",
+      "path": "Languages/Others/Regular-Expressions---Regex.md"
+    },
+    {
+      "basename": "Tech-&-Courses-TODO",
+      "path": "Office/TODO/Tech-&-Courses-TODO.md"
+    },
+    {
       "basename": "Obsidian---Note-Taking---Second-Brain",
       "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
     },
     {
-      "basename": "LSM-(Log-Structured-Merge-Trees)",
-      "path": "Data-Structures/Others/LSM-(Log-Structured-Merge-Trees).md"
+      "basename": "NLTK",
+      "path": "AI/Deep-Learning/NLP/NLTK.md"
+    },
+    {
+      "basename": "NLP",
+      "path": "AI/Deep-Learning/NLP.md"
     },
     {
       "basename": "Resumes---Jobs---Companies---Company",
       "path": "Office/Personality/Resumes---Jobs---Companies---Company.md"
+    },
+    {
+      "basename": "Personal-TODO",
+      "path": "Office/TODO/Personal-TODO.md"
+    },
+    {
+      "basename": "Goals",
+      "path": "Office/TODO/Goals.md"
+    },
+    {
+      "basename": "Daily-Routine",
+      "path": "Office/TODO/Daily-Routine.md"
+    },
+    {
+      "basename": "Office---TODO",
+      "path": "Office/Stashfin/Office---TODO.md"
+    },
+    {
+      "basename": "LSM-(Log-Structured-Merge-Trees)",
+      "path": "Data-Structures/Others/LSM-(Log-Structured-Merge-Trees).md"
     },
     {
       "basename": "CAP-Theorem",

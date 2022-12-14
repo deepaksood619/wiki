@@ -16,17 +16,17 @@ Modified: 2021-08-27 18:36:53 +0500
 
 <https://github.com/vinta/awesome-python#algorithms-and-design-patterns>
 
-<https://pymotw.com/3/>
+<https://pymotw.com/3
 
 
 
-<https://gto76.github.io/python-cheatsheet/>
+<https://gto76.github.io/python-cheatsheet
 
 
 
 **For String format**
 
-<https://pyformat.info/>
+<https://pyformat.info
 
 <https://docs.python.org/3.6/library/string.html#format-specification-mini-language>
 
@@ -38,7 +38,7 @@ Modified: 2021-08-27 18:36:53 +0500
 
 <https://github.com/python/cpython>
 
-<https://devguide.python.org/>
+<https://devguide.python.org
 
 
 
@@ -50,7 +50,7 @@ Modified: 2021-08-27 18:36:53 +0500
 
 **Import**
 
-<https://www.pythonforthelab.com/blog/complete-guide-to-imports-in-python-absolute-relative-and-more/>
+<https://www.pythonforthelab.com/blog/complete-guide-to-imports-in-python-absolute-relative-and-more
 
 
 

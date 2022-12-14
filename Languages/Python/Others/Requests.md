@@ -65,7 +65,7 @@ print(response.text)
 
 
 
-<https://julien.danjou.info/python-and-fast-http-clients/>
+<https://julien.danjou.info/python-and-fast-http-clients
 
 
 
