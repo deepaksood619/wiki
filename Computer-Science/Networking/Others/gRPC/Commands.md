@@ -9,8 +9,9 @@ Modified: 2020-10-02 20:17:17 +0500
 **brew install protobuf**
 
 >>> protoc
-# for go
 
+### for go
+```
 export GO111MODULE=on # Enable module-aware mode
 go get google.golang.org/grpc@v1.28.1
 go get github.com/golang/protobuf/protoc-gen-go
@@ -18,7 +19,9 @@ go get github.com/golang/protobuf/protoc-gen-go
 export PATH="$PATH:$(go env GOPATH)/bin"
 protoc --proto_path=proto proto/*.proto --go_out=plugins=grpc:pb
 <https://grpc.io/docs/quickstart/go>
-# for python
+```
+
+### for python
 ```
 import memory_message_pb2
 
