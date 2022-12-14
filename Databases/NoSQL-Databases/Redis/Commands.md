@@ -81,21 +81,19 @@ redis-cli -a a6ad92769ef04b711eea18dccfff85ea --no-auth-warning --scan | while r
 **DML**
 
 **CONFIG GET ***
-
+```
 info # <https://redis.io/commands/info>
 
-config set maxmemory <value>
-
+config set maxmemory [value]
 config set maxmemory 2gb
-
 config set maxmemory 5gb
-
 config set maxmemory 48gb
-
 config set maxmemory 80gb
 
 maxmemory-policy
-**Cleanups**
+```
+
+### Cleanups
 
 **BGREWRITEAOF #Compress AOF**
 **auto-aof-rewrite-percentage**
@@ -104,8 +102,8 @@ maxmemory-policy
 
 <https://www.oreilly.com/library/view/redis-4x-cookbook/9781783988167/64284aa9-a324-4383-b9f4-9db3ae95ffb4.xhtml>
 
-## DDL**
-
+## DDL
+```
 # -n for setting database
 
 redis-cli -h redis-dashboard -p 6379 -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -n 1
@@ -182,3 +180,4 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 
 ACL GETUSER default
 Some of the commands that are considered dangerous include: **FLUSHDB, FLUSHALL, KEYS, PEXPIRE, DEL, CONFIG, SHUTDOWN, BGREWRITEAOF, BGSAVE, SAVE, SPOP, SREM, RENAME, and DEBUG.**
+```

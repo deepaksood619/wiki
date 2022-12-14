@@ -296,7 +296,7 @@ x OR y
 NOT x 
 ```
 
-## Other Functions
+### Other Functions
 ```
 CAST(value AS TYPE)
 CASE expr WHEN value1 THEN result1 [ WHEN value2 THEN result2 ... ] [ ELSE resultN ] END
@@ -363,4 +363,5 @@ COALES­CE(­value1, value2, ...)
 | CEIL(t­ime­sta­mp_expr TO unit)                                              |
 | TIMEST­AMP­ADD­(unit, ­co­unt­, ti­mes­tam­p)                              |
 | timest­amp­_expr { + | - } in­ter­val­_ex­pr                                 |
+
 <https://imply.io/druid/cheat-sheet>
