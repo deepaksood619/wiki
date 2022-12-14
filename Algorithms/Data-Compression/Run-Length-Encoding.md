@@ -1,0 +1,42 @@
+# Run Length Encoding
+
+Created: 2018-05-29 13:10:46 +0500
+
+Modified: 2021-10-28 21:15:06 +0500
+
+---
+
+![](media/Run-Length-Encoding-image1.jpeg){width="5.0in" height="1.4791666666666667in"}
+
+
+
+Que: How many bits to store the counts?
+
+Ans: We'll use 8 (but 4 in the example above)
+
+
+
+Que: What to do when run length exceeds max count?
+
+Ans: If longer than 255, intersperse runs of length 0
+
+
+
+Applications: JPEG, ITU-T T4 Group 3 Fax
+
+
+
+**Java implementation**
+
+![](media/Run-Length-Encoding-image2.jpeg){width="5.0in" height="3.2604166666666665in"}
+
+
+
+**Application: compress a bitmap**
+
+![](media/Run-Length-Encoding-image3.jpeg){width="5.0in" height="3.4583333333333335in"}
+
+
+
+
+

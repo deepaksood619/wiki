@@ -1,0 +1,34 @@
+# Sweep Line Algorithm
+
+Created: 2018-02-06 11:31:54 +0500
+
+Modified: 2018-02-06 11:32:29 +0500
+
+---
+
+**[Orthogonal Line Segment Intersection -]{.underline}**
+
+Given N horizontal and vertical line segments, find all intersections
+
+Naïve and brute-force algorithm - Check all pairs of line segments for intersection.
+
+Non degeneracy Assumption - All x- and y- coordinates are distinct
+
+
+
+**Sweep-line algorithm (**Sweep vertical line from left to right)
+-   x - coordinates define events.
+-   h-segment (left endpoint): insert y-coordinate into BST
+-   h-segment (right endpoint): remove y-coordinate from BST
+-   v-segment: 1 d range search for interval of y-endpoints
+
+![1-pjpas эбирј р [ ](media/Sweep-Line-Algorithm-image1.png){width="5.0in" height="2.2291666666666665in"}
+
+
+
+**Sweep-line analysis**
+
+Proposition: The sweep-line algorithm takes time proportional to N log N + R to find all R intersections among N orthogonal line segments
+
+Bottom line: Sweep line reduces 2d orthogonal line segment intersection search to 1d range search
+
