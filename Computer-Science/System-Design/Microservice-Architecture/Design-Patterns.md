@@ -299,8 +299,10 @@ Functional decomposition is a term that engineers use to describea set of steps 
 </tr>
 </tbody>
 </table>
+
 <https://docs.microsoft.com/en-us/azure/architecture/patterns>
-**Enterprise Application Architecture**
+
+## Enterprise Application Architecture
 -   **Domain Logic Patterns:** Transaction Script, Domain Model, Table Module, Service Layer.
 -   **Data Source Architectural Patterns:** Table Data Gateway, Row Data Gateway, Active Record, Data Mapper.
 -   **Object-Relational Behavioral Patterns:** Unit of Work, Identity Map, Lazy Load
