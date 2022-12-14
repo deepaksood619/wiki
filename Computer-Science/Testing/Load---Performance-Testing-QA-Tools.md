@@ -81,17 +81,19 @@ abis a tool for benchmarking your Apache Hypertext Transfer Protocol (HTTP) serv
 Locust
 **HTTP Load Testing Tools**
 -   [wrk](https://github.com/wg/wrk)
-
+```
 wrk --duration 20s --threads 10 --connections 200 [URL]
 
 wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <http://application-cpu>
 
-wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <https://facebook.com>-   **Apache Bench - [Apache HTTP Server Benchmarking Tool](https://httpd.apache.org/docs/2.4/programs/ab.html) (for percentiles)**
+wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <https://facebook.com>
+```
 
-**apt install apache2**
+-   **Apache Bench - [Apache HTTP Server Benchmarking Tool](https://httpd.apache.org/docs/2.4/programs/ab.html) (for percentiles)**
 
-**brew install apache2**
-
+```
+apt install apache2
+brew install apache2
 ab -c 50 -n 500 -s 90 <http://www.stashfin.com>
 
 ab -c 50 -n 500 -s 90 <http://stashfin-website.staging>
@@ -104,26 +106,37 @@ ab -c 500 -n 5000 -s 90 <http://bigbet-nlb-7ac1185001d91c31.elb.us-west-2.amazon
 
 **ab -c 500 -n 5000 -s 90 [URL]**
 
-**ab -c 500 -n 500 -s 90** <https://freefincal.com/used-car-vs-new-car-which-is-a-better-buy>
+**ab -c 500 -n 500 -s 90**
 
 ab -c 50 -n 5000 -s 90 -p data.json -T application/json -rk <https://staff.lendenclub.com/core/lender_app/prospect/verify>
-**ab**[ -**A***auth-username*:*password*] [ -**b***windowsize*] [ -**B***local-address*] [ **-c*concurrency***] [ -**C***cookie-name*=*value*] [ -**d**] [ -**e***csv-file*] [ -**E***client-certificate file*] [ -**f***protocol*] [ -**g***gnuplot-file*] [ -**h**] [ -**H***custom-header*] [ -**i**] [ -**k**] [ -**l**] [ -**m***HTTP-method*] [ -**n*****requests***] [ -**p***POST-file*] [ -**P***proxy-auth-username*:*password*] [ -**q**] [ -**r**] [ -**s*****timeout***] [ -**S**] [ -**t***timelimit*] [ -**T***content-type*] [ -**u***PUT-file*] [ -**v***verbosity*] [ -**V**] [ -**w**] [ -**x***<table>-attributes*] [ -**X***proxy*[:*port*] ] [ -**y***<tr>-attributes*] [ -**z***<td>-attributes*] [ -**Z***ciphersuite*] [http[s]://]*hostname*[:*port*]/*path*
 
 -r Don't exit on socket receive errors.
 
--k Enable the HTTP KeepAlive feature, i.e., perform multiple requests within one HTTP session. Default is no KeepAlive.-   [Siege](https://github.com/JoeDog/siege) (for constant load)
+-k Enable the HTTP KeepAlive feature, i.e., perform multiple requests within one HTTP session. Default is no KeepAlive.
 
+```
+
+- [Siege](https://github.com/JoeDog/siege) (for constant load)
+```
 apt-get install -y siege
 
-siege -c2 -t2m [URL]-   hey / boom
+siege -c2 -t2m [URL]
+```
 
+-   hey / boom
+```
 hey <https://dev.stashfin.com>
-<https://github.com/rakyll/hey>-   <https://k6.io>
+<https://github.com/rakyll/hey>
+```
 
-Open source load testing tool and SaaS for engineering teams-   [**https://fortio.org/**](https://fortio.org/)
+-   <https://k6.io>
+Open source load testing tool and SaaS for engineering teams
+
+-   [**https://fortio.org/**](https://fortio.org/)
 
 Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats.
 Fortio runs at a specified query per second (qps) and records an histogram of execution time and calculates percentiles (e.g. p99 ie the response time such as 99% of the requests take less than that number (in seconds, SI unit)). It can run for a set duration, for a fixed number of calls, or until interrupted (at a constant target QPS, or max speed/load per connection/thread).
+
 **Datasets for load testing databases**
 -   TPCC benchmark
 -   Yahoo! Cloud Serving Benchmark (YCSB)
@@ -131,22 +144,24 @@ Fortio runs at a specified query per second (qps) and records an histogram of ex
     -   20 million tuples
     -   Each tuple is 1KB (total database is ~20GB)
     -   Each transactions reads/modifies 16 tuples
-**Test application**
 
+**Test application**
 <https://github.com/blueperf>
+
 **References**
 
 <https://www.testingexcellence.com/top-10-open-source-performance-testing-tools>
-**Locust**
 
+**Locust**
 Locust is an easy-to-use, distributed, user load testing tool. It is intended for load-testing websites (or other systems) and figuring out how many concurrent users a system can handle.
 Locust is a scalable load testing framework written in Python
 Locust is completely event-based, and therefore it's possible to support thousands of concurrent users on a single machine. In contrast to many other event-based apps it doesn't use callbacks. Instead it uses light-weight processes, through[gevent](http://www.gevent.org/). Each locust swarming your site is actually running inside its own process (or greenlet, to be correct). This allows you to write very expressive scenarios in Python without complicating your code with callbacks.
+
 **Running Locust Distributed**
-
 You start one instance of Locust in master mode using the--masterflag. This is the instance that will be running Locust's web interface where you start the test and see live statistics. The master node doesn't simulate any users itself. Instead you have to start one or ---most likely---multiple slave Locust nodes using the--slaveflag, together with the--master-host(to specify the IP/hostname of the master node).
-**Commands**
 
+**Commands**
+```
 locust -f tasks.py --host localhost:5000
 locust --no-reset-stats -f mqttClient.py
 
@@ -221,10 +236,12 @@ Subscribe
 
 ./emqtt_bench_pub -h mqtt.zenatix.com -u zenatix_mqtt_client -P xitanez123 -c 10000 -I 30000 -t bench/%i -s 10000 -q 1
 <https://github.com/emqtt/emqtt_benchmark>
-**QA Companies**
+```
+
+## QA Companies
 -   Browserstack
 -   Saucelabs
 -   Lambdatest
-**Others**
 
+## Others
 <https://aws.amazon.com/about-aws/whats-new/2021/05/introducing-distributed-load-testing-v1-3>
