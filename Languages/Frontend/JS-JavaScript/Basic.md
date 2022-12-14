@@ -104,9 +104,6 @@ A constant cannot share its name with a function or a variable in the same scope
 
     e.  Modulus / Remainder (%)
 
-    ```{=html}
-    <!-- -->
-    ```
     f.  Exponentiation (**)
 
     g.  Increment (++)

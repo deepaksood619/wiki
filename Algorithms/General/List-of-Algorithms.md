@@ -15,10 +15,6 @@ Modified: 2019-11-22 19:29:14 +0500
         i.  Brent's algorithm
 
         ii. Floyd's cycle-finding algorithm
-
-        ```{=html}
-        <!-- -->
-        ```
         iii. Gale - Shapley algorithm (Stable Marriage Problem)
 
         iv. Pseudorandom number generator
@@ -46,19 +42,11 @@ Modified: 2019-11-22 19:29:14 +0500
             5.  Tarjan's off-line least common ancestors algorithm
 
             6.  Topological sort
-
-        ```{=html}
-        <!-- -->
-        ```
         ii. **Graph drawing**
 
             1.  Force-based algorithms
 
             2.  Spectral layout
-
-        ```{=html}
-        <!-- -->
-        ```
         iii. **Network theory**
 
         iv. **Routing in graphs**

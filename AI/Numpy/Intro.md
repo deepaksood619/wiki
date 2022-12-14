@@ -25,10 +25,10 @@ Furthermore, NumPy provides vectorized mathematical functions. When, e.g., you c
 -   Fourier transforms and routines for shape manipulation
 -   Operations related to linear algebra. NumPy has in-built functions for linear algebra and random number generation
 
-## Sum
-
+### Sum
 The sum tool returns the sum of array elements over a given axis
 
+```
 import numpy
 
 my_array = numpy.array([ [1, 2], [3, 4] ])
@@ -37,11 +37,12 @@ print numpy.sum(my_array, axis = 0) #Output : [4 6]
 print numpy.sum(my_array, axis = 1) #Output : [3 7]
 print numpy.sum(my_array, axis = None) #Output : 10
 print numpy.sum(my_array) #Output : 10
+```
 
-## Prod
+### Prod
+The prod tool returns the product of array elements over a given axis.
 
-Theprodtool returns the product of array elements over a given axis.
-
+```
 import numpy
 
 my_array = numpy.array([ [1, 2], [3, 4] ])
@@ -50,17 +51,15 @@ print numpy.prod(my_array, axis = 0) #Output : [3 8]
 print numpy.prod(my_array, axis = 1) #Output : [2 12]
 print numpy.prod(my_array, axis = None) #Output : 24
 print numpy.prod(my_array) #Output : 24
+```
 
 ## [Speeding up your code]{.underline}
 
 <https://m.youtube.com/watch?v=EEUXKG97YRw>
 
 1.  Use NumPy's ufuncs
-
 2.  Use NumPy's aggregations
-
 3.  Use NumPy's broadcasting
-
 4.  Use Numpy's slicing, masking and fancy indexing
 
 Goal: push repeated operations into compiled code and Get Rid of Slow Loops (removing python loop)

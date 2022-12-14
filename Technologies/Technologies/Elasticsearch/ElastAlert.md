@@ -87,9 +87,6 @@ In addition to this basic usage, there are many other features that make alerts 
 
     l.  search_extra_index
 
-    ```{=html}
-    <!-- -->
-    ```
     m.  **aggregation**
 
 aggregation:

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md"
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
               }
             }
           },
@@ -168,17 +168,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "ae67541099e1433c",
+  "active": "978fd2faf621af33",
   "lastOpenFiles": [
-    "Languages/Python/Python/Regular-Expressions.md",
     "Office/Credentials/External-Tech.md",
-    "Office/Credentials/Business.md",
+    "Office/Credentials/Internal-Tech.md",
     "Languages/Others/Regular-Expressions---Regex.md",
+    "Languages/Python/Python/Regular-Expressions.md",
+    "Office/Credentials/Business.md",
     "Office/TODO/Tech-&-Courses-TODO.md",
     "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
     "AI/Deep-Learning/NLP/NLTK.md",
     "AI/Deep-Learning/NLP.md",
-    "Office/Personality/Resumes---Jobs---Companies---Company.md",
-    "Office/TODO/Personal-TODO.md"
+    "Office/Personality/Resumes---Jobs---Companies---Company.md"
   ]
 }

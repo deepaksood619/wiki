@@ -310,6 +310,7 @@ A good example where I usually don't mock anything are file system interactions.
 ## Dependency Injection: Randomness
 
 Just like adding a time parameter for functions which use by default the current time might make your code way easier to test, adding arandom_stateparameter or aseedparameter to functions which use randomness helps.
+
 Here are some ways to seed random number generators:
 ```
 >>> import random
@@ -330,7 +331,8 @@ Here are some ways to seed random number generators:
 
 0.5488135039273248
 ```
-Setting a random state / seed is also very helpful for debugging. If you haven't heard of the Heisenbug or the Higgs-Bugson, you missed some[programming jargon](https://blog.codinghorror.com/new-programming-jargon/). And if your interested in research, reproducibility matters.
+
+Setting a random state / seed is also very helpful for debugging. If you haven't heard of the Heisenbug or the Higgs-Bugson, you missed some [programming jargon](https://blog.codinghorror.com/new-programming-jargon/). And if your interested in research, reproducibility matters.
 
 ## Terminology
 -   **Patching vs Mocking:** Patching a function is adjusting it's functionality. In the context of unit testing we patch a dependency away; so we replace the dependency. Mocking is imitating. Usually we patch a function to use a mock we control instead of a dependency we don't control.

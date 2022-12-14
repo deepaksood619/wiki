@@ -120,24 +120,12 @@ Go to keep.google.com > go to chrome more tools > create shortcut > check open a
 
     b.  **Slack**
 
-    ```{=html}
-    <!-- -->
-    ```
     c.  dbeaver
 
-    ```{=html}
-    <!-- -->
-    ```
     d.  **mysql workbench**
 
-    ```{=html}
-    <!-- -->
-    ```
     e.  Microsoft office
 
-    ```{=html}
-    <!-- -->
-    ```
     f.  **postman**
 
     g.  **Android studio**

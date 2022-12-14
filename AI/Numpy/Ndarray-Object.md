@@ -38,8 +38,8 @@ numpy.array(object, dtype = None, copy = True, order = None, subok = False, ndmi
 
 Thendarrayobject consists of contiguous one-dimensional segment of computer memory, combined with an indexing scheme that maps each item to a location in the memory block. The memory block holds the elements in a row-major order (C style) or a column-major order (FORTRAN or MatLab style).
 
-## Examples -
-
+## Examples
+```
 >>> import numpy as np
 >>> a = np.array([1,2,3])
 >>> print a
@@ -67,4 +67,4 @@ Thendarrayobject consists of contiguous one-dimensional segment of computer memo
 >>> print a
 
 [ 1.+0.j, 2.+0.j, 3.+0.j]
-
+```

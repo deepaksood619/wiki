@@ -6,6 +6,7 @@ Modified: 2021-04-23 10:22:58 +0500
 
 ---
 
+```python
 import sys
 import logging
 
@@ -54,8 +55,6 @@ print (type(up.value))
 
 for filename,data in up.value.items():
 
-print('===========================================================')
-
 print(filename)
 
 for k,v in data['metadata'].items():
@@ -63,8 +62,6 @@ for k,v in data['metadata'].items():
 print(f' -{k:13}:[{v}]')
 
 print(f' -content len :[{len(data["content"])}]')
-
-print('===========================================================')
 
 up.value.clear()
 
@@ -75,5 +72,4 @@ upload_btn = FileUpload()
 upload_btn.observe(on_upload_change, names='_counter')
 
 upload_btn
-
-
+```
