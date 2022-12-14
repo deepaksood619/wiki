@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Header-files",
+      "path": "Languages/C++/Header-files.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Languages/Others/Markdown.md"
+    },
+    {
       "basename": "Python-Tricks",
       "path": "Languages/Python/Advanced/Python-Tricks.md"
     },
@@ -95,10 +103,6 @@
     {
       "basename": "Coding-Interview-Questions",
       "path": "Computer-Science/Interview-Question/Coding-Interview-Questions.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Languages/Others/Markdown.md"
     },
     {
       "basename": "Type-Systems",
