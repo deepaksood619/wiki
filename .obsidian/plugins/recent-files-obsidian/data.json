@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "CAP-Theorem",
+      "path": "Computer-Science/Distributed-System/CAP-Theorem.md"
+    },
+    {
+      "basename": "Coding-Interview-Questions",
+      "path": "Computer-Science/Interview-Question/Coding-Interview-Questions.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "Languages/Others/Markdown.md"
+    },
+    {
       "basename": "Type-Systems",
       "path": "Computer-Science/Programming-Concepts/Type-Systems.md"
     },
     {
       "basename": "Redshift-SQL-Queries---Commands",
       "path": "Databases/SQL-Databases/AWS-Redshift/Redshift-SQL-Queries---Commands.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Languages/Others/Markdown.md"
     },
     {
       "basename": "Frontend-React-Admin-Website-Migration",
@@ -23,14 +31,6 @@
     {
       "basename": "System-Design---Messenger---WhatsApp",
       "path": "Computer-Science/Interview-Question/System-Design---Messenger---WhatsApp.md"
-    },
-    {
-      "basename": "CAP-Theorem",
-      "path": "Computer-Science/Distributed-System/CAP-Theorem.md"
-    },
-    {
-      "basename": "Coding-Interview-Questions",
-      "path": "Computer-Science/Interview-Question/Coding-Interview-Questions.md"
     },
     {
       "basename": "Photoshop",

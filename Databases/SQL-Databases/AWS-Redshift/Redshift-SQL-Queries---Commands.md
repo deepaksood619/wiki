@@ -116,8 +116,9 @@ sttash_website_live.fos_scan_doc_comment
 **limit** 1;
 
 <https://docs.aws.amazon.com/redshift/latest/dg/json-functions.html>
-**# getting blocking queries**
 
+**# getting blocking queries**
+```
 SELECT waiting.relation::regclass AS waiting_table,
 
 blocking.relation::regclass AS blocking_table,
@@ -222,3 +223,4 @@ ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 
 LOCATION 's3://data-team-reporting/test/';
 SELECT * FROM spectrum_schema.test_loan_data limit 10;
+```

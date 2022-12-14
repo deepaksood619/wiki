@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Science/Programming-Concepts/Type-Systems.md",
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Science/Programming-Concepts/Type-Systems.md",
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Science/Programming-Concepts/Type-Systems.md",
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Science/Programming-Concepts/Type-Systems.md"
+                "file": "Computer-Science/Distributed-System/CAP-Theorem.md"
               }
             }
           },
@@ -160,16 +160,16 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "978fd2faf621af33",
+  "active": "ae67541099e1433c",
   "lastOpenFiles": [
-    "Databases/SQL-Databases/AWS-Redshift/Redshift-SQL-Queries---Commands.md",
-    "Computer-Science/Programming-Concepts/Type-Systems.md",
+    "Computer-Science/Interview-Question/Coding-Interview-Questions.md",
     "Languages/Others/Markdown.md",
+    "Computer-Science/Distributed-System/CAP-Theorem.md",
+    "Computer-Science/Programming-Concepts/Type-Systems.md",
+    "Databases/SQL-Databases/AWS-Redshift/Redshift-SQL-Queries---Commands.md",
     "Office/Projects/Frontend-React-Admin-Website-Migration.md",
     "Office/Stashfin/Modules.md",
     "Computer-Science/Interview-Question/System-Design---Messenger---WhatsApp.md",
-    "Computer-Science/Distributed-System/CAP-Theorem.md",
-    "Computer-Science/Interview-Question/Coding-Interview-Questions.md",
     "Technologies/DevOps/IDEs/Photoshop.md",
     "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
   ]
