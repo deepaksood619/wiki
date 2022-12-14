@@ -140,6 +140,3 @@ Git merge iss14
 # delete the branch
 
 Git branch -d iss14
-
-
-

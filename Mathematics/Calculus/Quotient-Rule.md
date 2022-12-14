@@ -13,4 +13,3 @@ Modified: 2018-12-05 00:51:08 +0500
 
 [The Quotient Rule (Calculus)](https://www.youtube.com/watch?v=OPjN7Gvb4-8)
 ![image](media/Quotient-Rule-image4.jpg)
-

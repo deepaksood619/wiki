@@ -51,4 +51,3 @@ ng serve --open
 # Create a Component
 
 ng generate component heroes
-

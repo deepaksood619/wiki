@@ -164,7 +164,7 @@ return (
 
 <>
 
-<input value={query} onChange={e => setQuery(e.target.value)} 
+<input value={query} onChange={e => setQuery(e.target.value)}
 
 <ul>
 

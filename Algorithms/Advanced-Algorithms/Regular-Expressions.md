@@ -123,24 +123,3 @@ Parse text files
 ![image](media/Regular-Expressions-image40.png)
 
 ![image](media/Regular-Expressions-image41.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

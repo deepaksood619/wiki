@@ -155,4 +155,3 @@ It is inspired by a rule called **divide and choose** which has been used throug
 [Game Theory: The Science of Decision-Making](https://www.youtube.com/watch?v=MHS-htjGgSY)
 
 <https://www.freecodecamp.org/news/introduction-to-evolutionary-game-theory
-

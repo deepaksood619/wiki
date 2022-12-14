@@ -196,4 +196,3 @@ In[computational complexity theory](https://en.wikipedia.org/wiki/Computational_
 In general, the numeric value of the input is exponential in the input length, which is why a pseudo-polynomial time algorithm does not necessarily run in polynomial time with respect to the input length.
 
 <https://en.wikipedia.org/wiki/Pseudo-polynomial_time>
-

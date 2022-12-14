@@ -96,4 +96,3 @@ When building an AI model, we try to replicate the human brain. The human brain 
 ## Why is resampling done?
 
 Once we have sampled our data, we can use this set to find patterns in the data. But this is a very rigid method. There may be patterns we are overlooking if we only have one sample. In this case, we use resampling methods. They are used to validate our findings from the previous sample or adjust our model if inaccuracies are observed.
-

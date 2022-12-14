@@ -59,9 +59,9 @@ exit();
 <body>
 
 <form action = "<?php $_PHP_SELF ?>" method = "GET">
-Name: <input type = "text" name = "name" 
-Age: <input type = "text" name = "age" 
-<input type = "submit" 
+Name: <input type = "text" name = "name"
+Age: <input type = "text" name = "age"
+<input type = "submit"
 </form>
 
 </body>
@@ -92,9 +92,9 @@ exit();
 <body>
 
 <form action = "<?php $_PHP_SELF ?>" method = "POST">
-Name: <input type = "text" name = "name" 
-Age: <input type = "text" name = "age" 
-<input type = "submit" 
+Name: <input type = "text" name = "name"
+Age: <input type = "text" name = "age"
+<input type = "submit"
 </form>
 
 </body>
@@ -119,9 +119,9 @@ exit();
 <body>
 
 <form action = "<?php $_PHP_SELF ?>" method = "POST">
-Name: <input type = "text" name = "name" 
-Age: <input type = "text" name = "age" 
-<input type = "submit" 
+Name: <input type = "text" name = "name"
+Age: <input type = "text" name = "age"
+<input type = "submit"
 </form>
 
 </body>
@@ -206,4 +206,3 @@ As usual when writing files it is necessary for both temporary and final locatio
 An uploaded file could be a text file or image file or any document.
 
 <https://www.tutorialspoint.com/php/php_file_uploading.htm>
-

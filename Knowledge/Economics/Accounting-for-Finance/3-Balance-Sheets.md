@@ -83,6 +83,3 @@ Modified: 2021-12-22 21:22:08 +0500
 ![image](media/Accounting-for-Finance_3-Balance-Sheets-image2.jpg)
 
 ![image](media/Accounting-for-Finance_3-Balance-Sheets-image3.jpg)
-
-
-

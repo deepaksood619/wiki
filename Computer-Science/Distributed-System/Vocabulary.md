@@ -82,4 +82,3 @@ Errorsare manifestations of faults within our system, and when an error occurs a
 <https://medium.com/baseds/modes-of-failure-part-2-4d050794be2f>
 
 <https://medium.com/baseds/weeding-out-distributed-system-bugs-28a01e37f70c>
-

@@ -67,4 +67,3 @@ Window functions can be simply explained as calculation functions similar to agg
 <https://www.toptal.com/sql/intro-to-sql-windows-functions>
 
 <https://mjk.space/advances-sql-window-frames
-

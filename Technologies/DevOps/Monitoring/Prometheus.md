@@ -137,5 +137,3 @@ TSDB - <https://fabxc.org/tsdb
 On Kubernetes - <https://github.com/coreos/prometheus-operator/tree/master/contrib/kube-prometheus>
 
 <https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack>
-
-

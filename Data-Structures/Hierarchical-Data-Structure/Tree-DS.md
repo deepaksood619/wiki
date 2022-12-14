@@ -68,4 +68,3 @@ When compared with a flat array of numbers, the Fenwick tree achieves a much bet
 
 <https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2>
 <https://www.geeksforgeeks.org/handshaking-lemma-and-interesting-tree-properties>
-

@@ -52,5 +52,3 @@ Modified: 2018-05-22 19:28:49 +0500
 2.  Prim's Algorithm
 
 3.  Boruvka's Algorithm
-
-

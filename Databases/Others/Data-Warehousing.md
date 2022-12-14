@@ -11,7 +11,7 @@ In[computing](https://en.wikipedia.org/wiki/Computing), adata warehouse(DWorDWH)
 The data stored in the warehouse is[uploaded](https://en.wikipedia.org/wiki/Upload)from the[operational systems](https://en.wikipedia.org/wiki/Operational_system)(such as marketing or sales). The data may pass through an[operational data store](https://en.wikipedia.org/wiki/Operational_data_store)and may require[data cleansing](https://en.wikipedia.org/wiki/Data_cleansing)for additional operations to ensure[data quality](https://en.wikipedia.org/wiki/Data_quality)before it is used in the DW for reporting.
 [Extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_load)(ETL) and[Extract, load, transform](https://en.wikipedia.org/wiki/Extract,_load,_transform)(E-LT) are the two main approaches used to build a data warehouse system.
 
-# 
+#
 
 <https://en.wikipedia.org/wiki/Data_warehouse>
 

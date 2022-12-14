@@ -16,4 +16,3 @@ In the above two images, the values of the function are represented in black and
 ## References
 
 <https://en.wikipedia.org/wiki/Gradient>
-

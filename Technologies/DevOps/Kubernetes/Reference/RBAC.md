@@ -39,7 +39,3 @@ Modified: 2020-09-14 10:29:16 +0500
 kubectl create clusterrolebinding kubernetes-dashboard -n kube-system --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
 
 <https://www.youtube.com/watch?v=mvvCf3eQ1cc>
-
-
-
-

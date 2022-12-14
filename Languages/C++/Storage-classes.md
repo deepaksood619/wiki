@@ -99,5 +99,3 @@ printf("%d ", x);
 return 0;
 
 }
-
-

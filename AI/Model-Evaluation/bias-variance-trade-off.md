@@ -57,4 +57,3 @@ The types of selection bias include:
 Overfitting results from too many parameters are found to be used accurately and the correct relationship between the data. This can be combated using 'generalization.' Here, the dataset is broadened by giving more generic data to the model.
 
 Underfitting is when too little parameters are found to be used to categorize the data. To eliminate this, just increase the number of parameters or the complexity of the model.
-

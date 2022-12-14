@@ -69,6 +69,3 @@ plt.show()
 ### bokeh
 
 <https://docs.bokeh.org/en/latest/index.html>
-
-
-

@@ -578,11 +578,3 @@ Uncertainty
 "But the manager who makes himself/herself vulnerable- who guides, nurtures, supports, respects--they're the people whom others look up to."
 
 "No organization in the world is built on a product. It's built on people."
-
-
-
-
-
-
-
-

@@ -366,5 +366,3 @@ So here are the steps required to read a file with PHP.
 A new file can be written or text can be appended to an existing file using the PHPfwrite()function. This function requires two arguments specifying afile pointerand the string of data that is to be written. Optionally a third integer argument can be included to specify the length of the data to write. If the third argument is included, writing would will stop after the specified length has been reached.
 
 <https://www.tutorialspoint.com/php/php_files.htm>
-
-

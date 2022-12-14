@@ -95,5 +95,3 @@ In[computational complexity theory](https://en.wikipedia.org/wiki/Computational_
 With ordinary[polynomial-time many-one reductions](https://en.wikipedia.org/wiki/Polynomial-time_many-one_reduction), if we can describe a[reduction](https://en.wikipedia.org/wiki/Reduction_(complexity))from a problem A to a problem B, then any polynomial-time solution for B can be composed with that reduction to obtain a polynomial-time solution for the problem A. Similarly, our goal in defining PTAS reductions is so that given a PTAS reduction from an optimization problem A to a problem B, a PTAS for B can be composed with the reduction to obtain a PTAS for the problem A.
 
 <https://en.wikipedia.org/wiki/PTAS_reduction>
-
-

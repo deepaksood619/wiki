@@ -35,4 +35,3 @@ Django web applications typicallygroup the code that handles each of these steps
 -   **View:**A view is arequest handler function, which receives HTTP requests and returns HTTP responses. Views access the data needed to satisfy requests via*models*, and delegate the formatting ofthe response to*templates*.
 -   **Models:**Models are Python objects thatdefinethe structure of anapplication's data, and providemechanisms to manage (add, modify, delete) and query records in the database.
 -   **Templates:**Atemplate is a text file defining the structure or layout of a file (such as an HTML page), with placeholders used to represent actual content. A*view*can dynamically create an HTML page using an HTML template, populating it with data from a*model*. A template can be used to define the structure of any type of file; it doesn't have to be HTML!
-

@@ -315,4 +315,3 @@ Functional decomposition is a term that engineers use to describea set of steps 
 -   **Session State Patterns:** Client Session State, Server Session State, Database Session State.
 -   **Base Patterns:** Gateway, Mapper, Layer Supertype, Separated Interface, Registry, Value Object, Money, Special Case, Plugin, Service Stub, Record Set
 <https://martinfowler.com/eaaCatalog/index.html>
-

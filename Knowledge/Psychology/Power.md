@@ -357,7 +357,7 @@ By acknowledging a petty problem you give it existence and credibility. The more
 -   Desire creates paradoxical effects: the more you want something, the more you chase after it, the more it eludes you. You need to do the reverse: turn your back on what you want, show your contempt and disdain to create desire.
 -   Instead of focusing attention on a problem, it is often better not to acknowledge it's existence:
 -   Sour-grapes approach: act as if something never really interested you in the first place.
--   When attacked, look away, answer sweetly, and show how little the attack concerns you. 
+-   When attacked, look away, answer sweetly, and show how little the attack concerns you.
 -   Treat it lightly if you have committed a blunder.
 -   Note: make sure to show the above publicly, but to monitor the problem privately, making sure it is remedied.
 
@@ -452,7 +452,7 @@ Appearing better than others is always dangerous, but most dangerous of all is t
 -   Keep a wary eye for envy in those below you as you grow more successful.
 -   Expect that those envious of you will work against you.
 -   Emphasize luck, and do not adopt a false modesty that will be seen through.
--   Deflect envy of political power by not seeming ambitious. 
+-   Deflect envy of political power by not seeming ambitious.
 -   Disguise your power as a kind of self-sacrifice rather than a source of happiness for you. Emphasize your troubles and you turn potential envy into a source of moral support (pity).
 -   Beware signs of envy: excessive praise, hypercritical people, public slandering.
 -   Note: once envy is present, it is sometimes best to display the utmost disdain for those who envy you.

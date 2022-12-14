@@ -76,4 +76,3 @@ Clients -
 <https://github.com/eclipse/paho.mqtt-sn.embedded-c>
 
 <https://www.eclipse.org/paho/clients/c/embedded-sn>
-

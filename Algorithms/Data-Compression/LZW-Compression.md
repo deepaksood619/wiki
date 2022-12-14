@@ -112,6 +112,3 @@ Ans: An array of size 2^w^.
 -   LZSS
 
 <https://en.wikipedia.org/wiki/LZ77_and_LZ78>
-
-
-

@@ -341,5 +341,3 @@ Global gold - 7 trillion dollar
 ## Largest sovereign wealth funds
 
 ![image](media/TODO-Financial-Finance---Investing-image2.jpg)
-
-

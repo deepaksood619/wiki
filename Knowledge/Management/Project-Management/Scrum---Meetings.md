@@ -302,8 +302,3 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 Sounding board meetings are typically group forums designed to elicit opinions about a particular matter. Some small business owners use these types of meetings to troubleshoot new product or marketing ideas, while others use them as problem-resolution platforms. Sounding board meetings can be very advantageous, as they can help a small business owner discover breakthrough ideas or solutions to ongoing problems, as well as move forward on new projects quickly. If you are planning to launch a new product or service, or you simply want to clear up misunderstandings that are plaguing the office, plan an effective, efficient sounding board meeting.
 
 ![image](media/Project-Management_Scrum---Meetings-image7.jpg)
-
-
-
-
-

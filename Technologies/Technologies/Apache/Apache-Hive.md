@@ -165,7 +165,3 @@ The following table defines how Hive interacts with Hadoop framework:
 <https://en.wikipedia.org/wiki/Apache_Hive>
 
 <https://www.tutorialspoint.com/hive/hive_introduction.htm>
-
-
-
-

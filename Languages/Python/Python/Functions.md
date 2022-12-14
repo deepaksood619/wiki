@@ -140,5 +140,3 @@ print(kwargs)
 ## Nested Functions
 
 Because of the first class nature of python, we can define functions inside other functions.
-
-

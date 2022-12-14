@@ -50,9 +50,3 @@ Data Structure Used - Indexed Priority Queue, with decreaseKey API to decrease p
 2.  Clustering (single-link clustering algorithm)
 
 3.  Dendograms of cancers in humans
-
-
-
-
-
-

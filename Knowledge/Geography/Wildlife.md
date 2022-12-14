@@ -79,4 +79,3 @@ Indian forests can be broadly divided into 5 types
 4.  Montane Forests
 
 5.  Littoral and Swamp Forests
-

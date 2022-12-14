@@ -19,5 +19,3 @@ api key - zMRUg3RlEL2E0LJDyLRd
 <https://towardsdatascience.com/introduction-to-interactive-time-series-visualizations-with-plotly-in-python-d3219eb7a7af>
 
 <http://nbviewer.jupyter.org/github/WillKoehrsen/Data-Analysis/blob/master/plotly/plotly-time-series.ipynb>
-
-

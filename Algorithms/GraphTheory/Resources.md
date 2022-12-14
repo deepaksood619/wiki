@@ -71,22 +71,3 @@ Modified: 2020-07-14 23:24:59 +0500
 ![](media/Resources-image32.png)
 
 ![](media/Resources-image33.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -92,4 +92,3 @@ Same as MySQL, Aurora supports materialized views
 <https://www.percona.com/blog/2018/07/17/when-should-i-use-amazon-aurora-and-when-should-i-use-rds-mysql>
 
 <https://www.actifio.com/company/blog/post/comparing-aws-rds-for-aurora-vs-mysql-vs-postgresql>
-

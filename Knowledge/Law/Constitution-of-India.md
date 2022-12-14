@@ -1203,5 +1203,3 @@ Distribution of Revenues between the Union and the States
 ## Basic Structure of the Constitution
 
 ![image](media/Constitution-of-India-image2.jpeg)
-
-

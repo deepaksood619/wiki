@@ -168,7 +168,7 @@ If you want to mark something **as** code, indent it by 4 spaces**.**
 
 ## <**p**>**This has been indented 4 spaces**.</**p**>
 
-# 
+#
 
 # Github Flavored Markdown (GFM)
 
@@ -297,4 +297,3 @@ Google Chrome, Firefox, and Thunderbird extension that lets you write email in M
 <https://markdown-here.com
 
 [Markdown vs. HTML – What Makes the Most Powerful Notes Editor?](https://www.thebrain.com/blog/markdown-vs-html)
-

@@ -70,12 +70,12 @@ docker network inspect ingress
 
 docker network rm ingress
 
-docker network create 
---driver overlay 
---ingress 
---subnet=10.11.0.0/16 
---gateway=10.11.0.2 
---opt com.docker.network.mtu=1200 
+docker network create
+--driver overlay
+--ingress
+--subnet=10.11.0.0/16
+--gateway=10.11.0.2
+--opt com.docker.network.mtu=1200
 my-ingress
 
 docker_gwbridge commands #brctl = bridge-utils
@@ -170,4 +170,3 @@ A toolkit for orchestrating distributed systems at any scale. It includes primit
 <https://docs.docker.com/v17.09/engine/swarm/networking
 
 <https://success.docker.com/article/ucp-service-discovery>
-

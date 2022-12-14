@@ -597,5 +597,3 @@ Un hermano y una hermana - A brother and a sister
 Él y ella - He and she
 
 ![image](media/Spanish-image2.jpg)
-
-

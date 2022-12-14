@@ -275,6 +275,3 @@ docker run -p 8888:8888 jupyter/pyspark-notebook
 <https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427>
 
 <https://www.freecodecamp.org/news/use-pyspark-for-data-processing-and-machine-learning
-
-
-

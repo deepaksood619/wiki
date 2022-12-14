@@ -22,4 +22,3 @@ Modified: 2018-05-12 00:01:03 +0500
 -   Choose point p with smallest y-coordinate
 -   Sort points by polar angle with p
 -   Consider points in order; discard unless it create a counterclockwise (ccw) turn.
-

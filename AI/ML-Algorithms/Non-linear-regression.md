@@ -69,6 +69,3 @@ where the g's are non-linear functions
 y = Σ w~k~ y~y~
 -   Why? Any predictions from a point estimate of parameters or a single model has only a small chance of the being the best
 -   Averaging makes our predictions more stable and less sensitive to random variations data set (good for less stable models like trees)
-
-
-

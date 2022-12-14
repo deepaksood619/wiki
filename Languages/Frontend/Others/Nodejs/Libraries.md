@@ -78,4 +78,3 @@ FingerprintJS is a browser fingerprinting library that queries browser attribute
 <https://github.com/fingerprintjs/fingerprintjs>
 
 ## Request - <https://github.com/request/request>
-

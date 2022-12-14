@@ -38,4 +38,3 @@ Compared to the synchronous model, the asynchronous model performs best when:
 ## References
 
 <http://krondo.com/in-which-we-begin-at-the-beginning>
-

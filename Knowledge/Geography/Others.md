@@ -36,5 +36,3 @@ The term**hermit kingdom**is used to refer to any country, organization or socie
 -   Hadley Cell
 
 [Lakes in India](https://www.youtube.com/playlist?list=PL1vNLZF5gfwd1-1Wli0O6m2J3sJjr1FA5)
-
-

@@ -33,7 +33,7 @@ Modified: 2021-06-06 16:40:19 +0500
 -   Process - Write scalable stream processing applications that react to events in real-time
 -   Store - Store streams of data safely in a distributed, replicated, fault-tolerant cluster
 
-### 
+###
 
 ### Example Applications
 
@@ -178,5 +178,3 @@ Log compaction is a mechanism to give finer-grained per-record retention, rather
 -   <https://dzone.com/articles/20-best-practices-for-working-with-apache-kafka-at>
 -   <https://engineering.linkedin.com/kafka/benchmarking-apache-kafka-2-million-writes-second-three-cheap-machines>
 -   <https://www.datadoghq.com/blog/kafka-at-datadog
-
-

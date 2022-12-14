@@ -32,5 +32,3 @@ Modified: 2022-09-21 00:06:59 +0500
 ## Earth History
 
 <http://timelineofearth.com
-
-

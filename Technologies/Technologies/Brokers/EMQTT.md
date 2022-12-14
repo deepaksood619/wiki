@@ -103,4 +103,3 @@ The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT co
 MQTT-SN: <http://emqtt.io/docs/v3/mqtt-sn.html>
 
 Enterpise: <https://www.emqx.io/products/enterprise>
-

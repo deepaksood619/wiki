@@ -314,21 +314,3 @@ Katta serves large, replicated, indices as shards to serve high loads and very l
 ![](media/Big-Data_Design-of-Zookeeper-image35.png)
 
 ![image](media/Big-Data_Design-of-Zookeeper-image36.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

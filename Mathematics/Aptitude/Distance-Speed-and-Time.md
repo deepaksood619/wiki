@@ -24,7 +24,7 @@ The second term drops out becausevi= 0, so all you have to do is plug in the num
 
 In other words, the total distance traveled is 402 meters, or a quarter mile. Must be a quarter-mile racetrack.
 
-# 
+#
 
 # HOW TO CALCULATE ACCELERATION
 
@@ -58,4 +58,3 @@ Great. Plugging in the numbers, you get the following:
 ![](media/Distance-Speed-and-Time-image8.png)
 
 Okay, the acceleration is approximately 27 meters per second2. What's that in more understandable terms? The acceleration due to gravity,g,is 9.8 meters per second2, so this is about 2.7 g's --- you'd feel yourself pushed back into your seat with a force about 2.7 times your own weight.
-

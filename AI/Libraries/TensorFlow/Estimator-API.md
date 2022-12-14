@@ -85,7 +85,7 @@ Modified: 2021-06-19 14:15:13 +0500
 
 ![media](media/TensorFlow_Estimator-API-image32.png)
 
-# 
+#
 
 # Monitoring with TensorBoard
 

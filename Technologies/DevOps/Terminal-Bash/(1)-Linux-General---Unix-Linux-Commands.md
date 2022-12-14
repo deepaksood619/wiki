@@ -729,10 +729,10 @@ du -sh file_path
 -   The options-share (fromman du):
     -s, --summarize
     display only a total for each argument
-    
+
     -h, --human-readable
     print sizes in human readable format (e.g., 1K 234M 2G)
-    
+
     To check more than one directory and see the total, usedu -sch:
     -c, --total
     produce a grand total

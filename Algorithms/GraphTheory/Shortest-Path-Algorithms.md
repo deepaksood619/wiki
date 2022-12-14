@@ -84,9 +84,3 @@ Arbitrage - the simultaneous buying and selling of securities, currency, or comm
 ![image](media/Shortest-Path-Algorithms-image7.png)
 
 ![image](media/Shortest-Path-Algorithms-image8.png)
-
-
-
-
-
-

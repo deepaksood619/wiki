@@ -11,5 +11,3 @@ It is easier to find shortest paths in an edge-weighted digraph that has no dire
 ![image](media/Acyclic-Edge-Weighted-Digraphs-image1.png)
 
 ![image](media/Acyclic-Edge-Weighted-Digraphs-image2.png)
-
-

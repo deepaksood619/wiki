@@ -101,4 +101,3 @@ A virtual host and upstream traffic status module
 <https://github.com/kubernetes/ingress-nginx>
 
 <https://www.freecodecamp.org/news/the-nginx-handbook
-

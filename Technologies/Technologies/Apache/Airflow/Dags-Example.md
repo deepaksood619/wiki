@@ -524,5 +524,3 @@ op_kwargs={"url": url, "method": method, "body": body},
 dag=dag,
 
 )
-
-

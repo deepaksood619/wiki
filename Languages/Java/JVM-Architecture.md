@@ -106,4 +106,3 @@ At a glance, ZGC is:
 At its core, ZGC is aconcurrentgarbage collector, meaning all heavy lifting work is done whileJava threads continue to execute. This greatly limits the impact garbage collection will have on your application's response time.
 
 <https://wiki.openjdk.java.net/display/zgc/Main>
-

@@ -132,19 +132,3 @@ The maximum amount of flow that we can push through the network does go through 
 ## See Also
 
 Edmonds - Karp Algorithm (fully defined version of Ford-Fulkerson Algorithm)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

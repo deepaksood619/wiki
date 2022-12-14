@@ -181,5 +181,3 @@ Plus, you can make your interactive filter available inside your programmable te
 ## Others
 
 <https://github.com/google/zx>
-
-

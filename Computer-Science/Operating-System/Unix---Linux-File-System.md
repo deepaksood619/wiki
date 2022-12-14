@@ -303,4 +303,3 @@ sudo usermod -a -G root telegraf
 <https://www.guru99.com/file-permissions.html>
 
 <https://www.freecodecamp.org/news/file-systems-architecture-explained>
-

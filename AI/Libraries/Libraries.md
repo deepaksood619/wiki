@@ -245,4 +245,3 @@ Jinaallows you to build search-as-a-service powered by deep learning in just min
 <https://jina.ai
 
 <https://github.com/jina-ai/jina>
-

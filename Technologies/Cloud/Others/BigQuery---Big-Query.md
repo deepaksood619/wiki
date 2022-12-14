@@ -112,4 +112,3 @@ departure_delay ASC
 <https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive/02_generalization/repeatable_splitting.ipynb>
 
 <https://github.com/GoogleCloudPlatform/training-data-analyst>
-

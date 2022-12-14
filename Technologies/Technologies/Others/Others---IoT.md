@@ -143,4 +143,3 @@ Features at a glance
     -   and a user interface to operators to manage and run the roll outs.
 
 <https://github.com/eclipse/hawkbit>
-

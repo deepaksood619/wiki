@@ -11,4 +11,3 @@ Count-min sketch is a probabilitstic data strucure that is used to count the fre
 Count-Min sketch is a probabilistic sub-linear space streaming algorithm. It is somewhat similar to bloom filter. The main difference is that bloom filter represents a set as a bitmap, while Count-Min sketch represents a multi-set which keeps a frequency distribution summary.
 ![](media/Count-min-Sketch-image1.jpeg)
 <https://youtu.be/ibxXO-b14j4>
-

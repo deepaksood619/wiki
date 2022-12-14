@@ -202,7 +202,3 @@ An in-process scheduler for periodic jobs that uses the builder pattern for conf
 Jinja2 is a full-featured template engine for Python. It has full unicode support, an optional integrated sandboxed execution environment, widely used and BSD licensed.
 
 <https://palletsprojects.com/p/jinja
-
-
-
-

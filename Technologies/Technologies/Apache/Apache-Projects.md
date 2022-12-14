@@ -539,4 +539,3 @@ Coordination and state management
 A realtime, distributed, fault-tolerant stream processing engine from Twitter
 
 <https://apache.github.io/incubator-heron
-

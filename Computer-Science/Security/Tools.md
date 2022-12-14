@@ -115,4 +115,3 @@ cert-manager builds on top of Kubernetes, introducing certificate authorities an
 <https://www.crowdstrike.com>
 
 <https://snyk.io>
-

@@ -101,4 +101,3 @@ c.  **Top-Tier:**The top tier is a front-end client layer. Top tier is the tools
     -   Extract Transform Load (ETL)
     -   Extract Load Transform (ELT)
     -   Change Data Capture (CDC)
-

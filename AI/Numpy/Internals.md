@@ -22,5 +22,3 @@ Modified: 2020-03-22 21:27:06 +0500
 -   Benefits
     -   SIMD (Single Instruction Multiple Data) Vector Processing
     -   Effective Cache Utilization
-
-

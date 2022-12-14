@@ -170,4 +170,3 @@ carrying capacity; exponential versus logistic population growth
 In an ideal environment (one that has no limiting factors) populations grow at an exponential rate. The growth curve of these populations is smooth and becomes increasingly steep over time (left). However, for all populations, exponential growth is curtailed by factors such as limitations in food, competition for other resources, or disease. As competition increases and resources become increasingly scarce, populations reach the carrying capacity (K) of their environment, causing their growth rate to slow nearly to zero. This produces an S-shaped curve of population growth known as the logistic curve (right).-   Inflection Point
 
 A point on a curve at which the curve changes from being concave (concave downward) to convex (concave upward), or vice versa.
-

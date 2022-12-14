@@ -54,7 +54,3 @@ Basic Plan -
 ![image](media/Merge-Sort-image6.png)
 
 Also, We prove that any compare-based sorting algorithm must make at least∼nlgncompares in the worst case.
-
-
-
-

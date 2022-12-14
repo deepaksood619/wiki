@@ -47,4 +47,3 @@ Algorithm
 -   To compute total force acting on a particle, traverse tree, but stop as soon as distance from particle to subdivision is sufficiently large
 
 Running time per step is N log N
-

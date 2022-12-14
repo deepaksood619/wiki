@@ -71,4 +71,3 @@ Applications are instrumented to report timing data to Zipkin. The Zipkin UI als
 <https://github.com/openzipkin/zipkin>
 
 <https://zipkin.apache.org
-

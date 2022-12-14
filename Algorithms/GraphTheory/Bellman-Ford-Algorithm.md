@@ -27,8 +27,3 @@ Negative Cycles should not exists in the graph while calculating shortest paths,
 ![image](media/Bellman-Ford-Algorithm-image8.png)
 
 ![image](media/Bellman-Ford-Algorithm-image9.png)
-
-
-
-
-

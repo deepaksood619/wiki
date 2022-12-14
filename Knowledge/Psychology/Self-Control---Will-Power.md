@@ -93,7 +93,7 @@ Our actions don't match our intentions.
 
 <https://jamesclear.com/mental-toughness>
 
-# 
+#
 
 ## Will power
 
@@ -219,8 +219,3 @@ Eisenberg's theory was that when you get rewarded for effortful activity, the ex
 Learned industriousness claims that when you are rewarded for expending higher effort, the experience of effortful activity itself is reinforced. This leads to the experience of effort itself becoming less unpleasant, and thus changes your willingness to work harder for bigger payoffs.
 
 ![image](media/Self-Control---Will-Power-image7.jpg)
-
-
-
-
-

@@ -167,4 +167,3 @@ When a message contains more than the maximum number of characters, the message 
 <https://awsdue.tv
 
 <https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-limitations-characters.html#channels-sms-limitations-characters-gsm-alphabet>
-

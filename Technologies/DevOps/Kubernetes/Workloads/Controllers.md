@@ -140,4 +140,3 @@ One CronJob object is like one line of acrontab(cron table) file. It runs a job 
 A CronJob is basically a Kubernetes Job with time-based scheduling and some specific parameters to handle failure. Each Kubernetes Job creates 1 to n pod. Those pods run a program defined for the task and exit when the task is over.
 
 <https://kubernetes.io/docs/concepts/architecture/controller
-

@@ -21,5 +21,3 @@ Algorithms
         iv. Fibonacci coding
 
         v.  Golomb codes (unary coding or Rice coding)
-
-

@@ -132,5 +132,3 @@ Ex - (lambda x, y: x+y)(2,3) # 5
 ## self in python
 
 Self is a keyword in Python used to define an instance or an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables.
-
-

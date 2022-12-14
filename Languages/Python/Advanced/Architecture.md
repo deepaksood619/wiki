@@ -26,4 +26,3 @@ Modified: 2020-10-22 21:52:49 +0500
 <https://rushter.com/blog/python-memory-managment
 
 <https://github.com/python/cpython/blob/7d6ddb96b34b94c1cbdf95baa94492c48426404e/Objects/obmalloc.c>
-

@@ -87,5 +87,3 @@ Istio is platform-independent and designed to run in a variety of environments, 
 9.  And finally, theapplication Serviceroutes the request to anapplication Pod(managed by a deployment).
 
 ![](../../../media/DevOps-Monitoring-Architecture-image2.png)
-
-

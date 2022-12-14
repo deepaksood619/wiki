@@ -46,4 +46,3 @@ Metrictank is a multi-tenant timeseries platform for Graphite
 <https://graphiteapp.org
 
 <https://graphite.readthedocs.io/en/latest
-

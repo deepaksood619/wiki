@@ -58,5 +58,3 @@ When a partition key is provided, the events are grouped together by the key and
     -   **Stagger window**
 
 <https://dev.to/frosnerd/window-functions-in-stream-analytics-1m6c>
-
-

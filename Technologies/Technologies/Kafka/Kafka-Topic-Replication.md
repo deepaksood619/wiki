@@ -85,7 +85,3 @@ When the partition heals,b3continues reading from the leader and catching up. On
 We can generalize this to the crash-recovery model. For example, instead of a network partition, the follower could crash and be restarted later. When the failed replica is restarted, it recovers the HW from disk and truncates its log up to the HW. This preserves the invariant that messages after the HW are not guaranteed to be committed. At this point, it can begin catching up from the leader and will end up with a log consistent with the leader's once fully caught up.
 
 <https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-2-data-replication
-
-
-
-

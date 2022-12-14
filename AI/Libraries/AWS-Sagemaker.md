@@ -207,8 +207,3 @@ p - gpu
 ![media](media/AWS-Sagemaker-image7.jpg)
 
 <https://aws.amazon.com/blogs/machine-learning/understanding-amazon-sagemaker-notebook-instance-networking-configurations-and-advanced-routing-options
-
-
-
-
-

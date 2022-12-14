@@ -69,4 +69,3 @@ a.  Multiple requests from the same browser will always hit the samePod. This is
 b.  Load-balancing is not aware ofapplication layer(L7) concepts such as HTTP headers and cookie-based session affinity.
 
 <https://nigelpoulton.com/blog/f/demystifying-kubernetes-service-discovery>
-

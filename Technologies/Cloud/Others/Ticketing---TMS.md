@@ -23,7 +23,7 @@ Modified: 2022-10-27 12:18:20 +0500
 -   <https://github.com/polonel/trudesk>
 -   <https://github.com/osTicket/osTicket>
 
-docker run --name osticket_mysql -d -e MYSQL_ROOT_PASSWORD=secret 
+docker run --name osticket_mysql -d -e MYSQL_ROOT_PASSWORD=secret
 -e MYSQL_USER=osticket -e MYSQL_PASSWORD=secret -e MYSQL_DATABASE=osticket mariadb
 -   <https://docs.trudesk.io
 -   <https://github.com/django-helpdesk/django-helpdesk>
@@ -222,4 +222,3 @@ Additional services include:
 -   Performance tuning and capacity planning
 
 <https://www.infogain.com/blog/a-quick-guide-to-l1-l2-and-l3-technical-support
-

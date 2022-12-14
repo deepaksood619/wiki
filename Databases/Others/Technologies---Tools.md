@@ -107,4 +107,3 @@ DBAs aren't trying to get the database back to the old state. Instead, the focus
 Teams can become more agile with their development for database code, making it very popular with the DevOps, CI/CD, and Agile development communities.
 The fix forward method works best when changes are broken into small chunks that are deployed independently and automatically. If you're starting from a software development environment where you have one years' worth of work about to deploy, this may not be the approach you adopt right now. However, there are tools that can help you break up your database scripts and schema changes into small, trackable chunks that make this approach much more accessible to companies that are ready to try this out.
 <https://www.liquibase.com/blog/roll-back-database-fix-forward>
-

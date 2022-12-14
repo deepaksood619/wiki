@@ -52,4 +52,3 @@ Nobel lies (strategic lies can turn into nobel lies)
 Trust is most important
 
 [John J Mearsheimer: The Great Delusion](https://youtu.be/nZVIaXFN2lU)
-

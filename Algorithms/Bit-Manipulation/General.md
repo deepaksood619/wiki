@@ -86,4 +86,3 @@ Caching or Indexing is a technique used to store counts of values which lie in a
 [Binary: Plusses & Minuses (Why We Use Two's Complement) - Computerphile](https://www.youtube.com/watch?v=lKTsv6iVxV4)
 
 ![image](media/General-image1.jpg)
-

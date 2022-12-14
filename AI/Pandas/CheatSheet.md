@@ -217,5 +217,3 @@ A two-dimensional labeled data structure with columns of potentially different t
 ![image](media/CheatSheet-image1.png)
 
 ![image](media/CheatSheet-image2.png)
-
-

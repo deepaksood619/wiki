@@ -19,7 +19,3 @@ Modified: 2018-05-22 19:29:34 +0500
 We use priority Queue to have edges in order
 
 ![image](media/Kruskal's-Algorithm-for-MST-image6.png)
-
-
-
-

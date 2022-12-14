@@ -73,7 +73,3 @@ Properties -
 1.  BFS computes shortest paths (fewest number of edges) from s to all other vertices in a graph in time proportional to E + V.
 
 ![image](media/Breadth-First-Search-(BFS)-image6.png)
-
-
-
-

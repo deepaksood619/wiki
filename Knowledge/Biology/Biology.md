@@ -113,7 +113,3 @@ Thecarrying capacityof a biological[species](https://en.wikipedia.org/wiki/Speci
 <https://github.com/CompCogNeuro/ed4>
 
 <https://www.weizmann.ac.il/mcb/UriAlon/download/systems-biology-course-2018>
-
-
-
-

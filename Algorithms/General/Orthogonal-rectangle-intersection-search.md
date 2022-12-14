@@ -21,4 +21,3 @@ Goal: find all intersections among a set of N orthogonal rectangles
 -   Interval searches for y-intervals - N log N + R log N
 
 ## Bottom line: Sweep line reduces 2d orthogonal rectangle intersection search to 1 d interval search
-

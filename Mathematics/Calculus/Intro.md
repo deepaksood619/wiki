@@ -97,4 +97,3 @@ Precalculus - <https://www.youtube.com/watch?v=eI4an8aSsgw>
 -   Area under a Parametric Curve
 -   Arclength of Parametric Curves
 -   Polar Coordinates
-

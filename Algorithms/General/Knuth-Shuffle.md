@@ -13,4 +13,3 @@ Goal: Rearrange array so that the result is a uniformly random permutation in li
 -   Swap a[i] and a[r]
 
 ![image](media/Knuth-Shuffle-image1.png)
-

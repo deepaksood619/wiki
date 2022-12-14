@@ -171,8 +171,3 @@ Maze Graph
 ## Example
 
 1.  Flood fill (Photoshop magic wand)
-
-
-
-
-

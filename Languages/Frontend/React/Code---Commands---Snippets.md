@@ -358,7 +358,7 @@ return (
 
 <div>
 
-<Greeting isLoggedIn={isLoggedIn} 
+<Greeting isLoggedIn={isLoggedIn}
 
 {button}
 
@@ -418,7 +418,7 @@ return (
 
 {sidebar}
 
-<hr 
+<hr
 
 {content}
 
@@ -484,11 +484,11 @@ return (
 
 Name:
 
-<input type="text" value={this.state.value} onChange={this.handleChange} 
+<input type="text" value={this.state.value} onChange={this.handleChange}
 
 </label>
 
-<input type="submit" value="Submit" 
+<input type="submit" value="Submit"
 
 </form>
 
@@ -668,7 +668,7 @@ temperature={fahrenheit}
 
 onTemperatureChange={this.handleFahrenheitChange}
 
-<BoilingVerdict celsius={parseFloat(celsius)} 
+<BoilingVerdict celsius={parseFloat(celsius)}
 
 </div>
 
@@ -772,7 +772,7 @@ rows.push(
 
 category={product.category}
 
-key={product.category} 
+key={product.category}
 
 );
 

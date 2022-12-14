@@ -136,7 +136,3 @@ Long-term capital gains from the transfer of equity shares (listed and non-liste
 5.  Mukul Mahavir Prasad Agarwal
 
 <https://www.moneycontrol.com/india-investors-portfolio
-
-
-
-

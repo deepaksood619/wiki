@@ -95,6 +95,3 @@ Meals at restaurants and entertainment costs are examples of discretionary expen
 <https://mru.org/courses/principles-economics-microeconomics
 
 [Principles of Economics: Microeconomics](https://www.youtube.com/playlist?list=PL-uRhZ_p-BM4XnKSe3BJa23-XKJs_k4KY)
-
-
-

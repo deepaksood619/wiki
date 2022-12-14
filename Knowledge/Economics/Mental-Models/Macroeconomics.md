@@ -77,5 +77,3 @@ The[wage-price spiral](https://www.investopedia.com/terms/w/wage-price-spiral.as
 ![image](media/Mental-Models_Macroeconomics-image3.jpeg)
 
 ![image](media/Mental-Models_Macroeconomics-image4.jpeg)
-
-

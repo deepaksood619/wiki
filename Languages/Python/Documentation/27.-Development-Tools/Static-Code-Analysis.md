@@ -425,4 +425,3 @@ Linting & formatting - <https://realpython.com/python-pep8
 -   classes should use the CapWords convention.
 
 <https://www.youtube.com/watch?v=4klj8UYPZxY&ab_channel=freeCodeCampTalks>
-

@@ -368,8 +368,3 @@ In the multicap category, the allocation decision is left to the fund manager wh
 ## Funds
 
 SBI smallcap mutual fund - <https://twitter.com/etmoney/status/1590690695408676865>
-
-
-
-
-

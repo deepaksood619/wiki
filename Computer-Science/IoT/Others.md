@@ -38,4 +38,3 @@ Managing Energy Consumption as an Architectural Quality Attribute -- Computing E
 <https://www.home-assistant.io>
 
 <https://developers.home.google.com/matter>
-

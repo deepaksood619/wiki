@@ -163,4 +163,3 @@ Is a method of financing used by small businesses to fulfil their working capita
 <https://www.toptal.com/finance/financial-controllers/interview-questions>
 
 <https://www.toptal.com/finance/finance-directors/interview-questions>
-

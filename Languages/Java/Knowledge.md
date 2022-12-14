@@ -21,4 +21,4 @@ Person person = new Person("pooja", 2);
 Docter docter = (Docter) person;
 
 // java.lang.ClassCastException: Person cannot be cast to Docter
--   
+-

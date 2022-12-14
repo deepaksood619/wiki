@@ -52,5 +52,3 @@ Bone to bone connection - ligament
 Bone to muscle connection - tendon
 
 Both ligament and tendon are made up of collagen (specially type-1 collagen and type-3 collagen and elastin)
-
-

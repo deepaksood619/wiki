@@ -78,5 +78,3 @@ NoSQL systems often use column-oriented storage
 
 ## See Also
 -   Computer Science > Databases > Casandra > Design
-
-

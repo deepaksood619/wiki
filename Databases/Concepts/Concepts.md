@@ -114,4 +114,3 @@ LIMITandOFFSETallow you to retrieve just a portion of the rows that are generate
 <https://slack.engineering/evolving-api-pagination-at-slack>
 
 <https://betterprogramming.pub/building-apis-a-comparison-between-cursor-and-offset-pagination-88261e3885f8>
-

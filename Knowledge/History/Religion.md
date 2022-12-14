@@ -23,5 +23,3 @@ Modified: 2022-11-13 11:08:53 +0500
 ## New Religious Movement (NRM)
 
 <https://en.wikipedia.org/wiki/New_religious_movement>
-
-

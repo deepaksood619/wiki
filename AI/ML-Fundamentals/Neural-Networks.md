@@ -59,12 +59,3 @@ Neural networks combine layers of perceptrons, making them more powerful but als
 <https://www.youtube.com/watch?v=dPWYUELwIdM>
 
 [Neural Networks Demystified](https://www.youtube.com/playlist?list=PLiaHhY2iBX9hdHaRr6b7XevZtgZRa1PoU)
-
-
-
-
-
-
-
-
-

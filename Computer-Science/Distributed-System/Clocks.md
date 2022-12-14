@@ -51,4 +51,3 @@ By using basic counters instead of physical clocks, Lamport simplifies clocks in
 ## Leap Second**
 
 Before we dive into the details of our NTP service, we need to look at a phenomenon called a leap second. Because of the Earth's rotation irregularities, we occasionally need to add or remove a second from time, or a[leap second](https://caps.gsfc.nasa.gov/simpson/time/leapseconds.html). For humans, adding or removing a second creates an almost unnoticeable hiccup when watching a clock. Servers, however, can miss a ton of transactions or events or experience a serious software malfunction when they expect time to go forward continuously. One of the most popular approaches for addressing that is to "[smear" the leap second](https://docs.ntpsec.org/latest/leapsmear.html), which means to change the time in very small increments across multiple hours.
-

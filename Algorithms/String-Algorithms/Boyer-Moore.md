@@ -21,7 +21,3 @@ Modified: 2018-04-16 22:05:26 +0500
 ![image](media/Boyer-Moore-image7.png)
 
 ![image](media/Boyer-Moore-image8.png)
-
-
-
-

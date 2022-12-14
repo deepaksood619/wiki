@@ -79,4 +79,3 @@ return s[-1]
 ## Now pass key=MyFn to sorted() to sort by the last letter:
 
 print sorted(strs, key=MyFn) ## ['wa', 'zb', 'xc', 'yd']
-

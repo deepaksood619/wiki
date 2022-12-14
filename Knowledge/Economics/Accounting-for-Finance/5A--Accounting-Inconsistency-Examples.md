@@ -44,4 +44,3 @@ Modified: 2021-11-20 21:36:00 +0500
 ![image](media/Accounting-for-Finance_5A--Accounting-Inconsistency-Examples-image2.jpg)
 
 ![image](media/Accounting-for-Finance_5A--Accounting-Inconsistency-Examples-image3.jpg)
-

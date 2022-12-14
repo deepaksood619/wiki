@@ -726,11 +726,3 @@ According to Behavioral Economics, anything that has high frequency builds bette
 Clever marketers create this Top Of Mind Awareness (TOMA) by repeatedly using the brand or product name in the ad over a period of time
 
 Ex - Airtel produced a full song dedicated to friendship. This song had "Har ek friend zaroori hota hai" mentioned 7 times
-
-
-
-
-
-
-
-

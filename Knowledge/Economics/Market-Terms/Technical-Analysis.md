@@ -544,7 +544,3 @@ If you don't know already, then TradingView is now available on Kite. Here is th
 <https://www.investopedia.com/terms/e/elliottwavetheory.asp>
 
 <https://en.wikipedia.org/wiki/Elliott_wave_principle>
-
-
-
-

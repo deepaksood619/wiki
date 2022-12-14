@@ -125,5 +125,3 @@ picture element
 Data URI (Convert images in base64 encoding)
 
 image sprites (CSS spriting is a technique whereby a number of images are combined into a single "sprite sheet" image)
-
-

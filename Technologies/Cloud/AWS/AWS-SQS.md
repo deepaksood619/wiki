@@ -272,5 +272,3 @@ i += 1
 <https://blog.contactsunny.com/tech/emulating-apache-kafka-with-amazon-sns-and-sqs>
 
 ![Kafka_Emulation_With_SNS_SQS](../../media/Cloud-AWS-AWS-SQS-image2.png)
-
-

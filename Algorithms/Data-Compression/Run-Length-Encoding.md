@@ -25,6 +25,3 @@ Applications: JPEG, ITU-T T4 Group 3 Fax
 ## Application: compress a bitmap
 
 ![](media/Run-Length-Encoding-image3.jpeg)
-
-
-

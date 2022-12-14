@@ -462,4 +462,3 @@ select * from information_schema.TABLE_CONSTRAINTS;
 select * from information_schema.TRIGGERS;
 
 select * from information_schema.VIEWS;
-

@@ -139,4 +139,3 @@ Why I hate JS - <https://charlieharvey.org.uk/page/javascript_the_weird_parts>
 <https://www.freecodecamp.org/news/lexical-scope-in-javascript
 
 <https://www.freecodecamp.org/news/objects-in-javascript-for-beginners
-

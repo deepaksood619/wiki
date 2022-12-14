@@ -120,4 +120,3 @@ Performance-wise, a SHA-256 hash is about 20-30% slower to calculate than either
 <https://en.wikipedia.org/wiki/Cryptographic_hash_function>
 
 <https://medium.com/analytics-vidhya/password-hashing-pbkdf2-scrypt-bcrypt-and-argon2-e25aaf41598e>
-

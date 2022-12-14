@@ -252,5 +252,3 @@ When building a social+ product, the key thing to remember is that it's "social+
 Simply slapping a social gimmick onto your product as a marketing ploy won't do the trick. Social needs to be wired into its DNA. To achieve this, it's vital that your platform provides users with the tools for authentic peer-to-peer social engagement -- features like in-app publishing, following capabilities,[activity feeds](https://sendbird.com/stream-comparison), forums, 1-to-1 and group chat, voice calling, video calling, leaderboards, and network-driven rewardsalongsidetransactional functionality.
 
 <https://sendbird.com/blog/payments-fintechs-social-features>
-
-

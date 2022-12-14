@@ -68,14 +68,14 @@ When connecting to a broker, the listener that will be returned to the client wi
 kafkacat is a useful tool for exploring this. Using -L you can see the metadata for the listener to which you connected. Based on the same listener config as above (LISTENER_BOB / LISTENER_FRED), check out the respective entries for **broker 0 at**: -
 -   Connecting on port 9092 (which we map as LISTENER_FRED), the broker's address is given back as localhost
 
-$ kafkacat -b kafka0:9092 
+$ kafkacat -b kafka0:9092
 -L
 Metadata for all topics (from broker -1: kafka0:9092/bootstrap):
 1 brokers:
 broker 0 at localhost:9092
 -   Connecting on port 29092 (which we map as LISTENER_BOB), the broker's address is given back as kafka0:
 
-$ kafkacat -b kafka0:29092 
+$ kafkacat -b kafka0:29092
 -L
 Metadata for all topics (from broker 0: kafka0:29092/0):
 1 brokers:
@@ -226,27 +226,27 @@ inter.broker.listener.name=INTERNAL
 Take a look at <https://github.com/rmoff/kafka-listeners>. This includes a docker-compose to bring up a Zookeeper instance along with Kafka broker configured with several listeners.
 -   Listener BOB (port 29092) for internal traffic on the Docker network
 
-$ docker run -t --network kafka-listeners_default 
-confluentinc/cp-kafkacat 
-kafkacat -b kafka0:29092 
+$ docker run -t --network kafka-listeners_default
+confluentinc/cp-kafkacat
+kafkacat -b kafka0:29092
 -L
 Metadata for all topics (from broker 0: kafka0:29092/0):
 1 brokers:
 broker 0 at kafka0:29092
 -   Listener FRED (port 9092) for traffic from the Docker-host machine (localhost)
 
-$ docker run -t --network kafka-listeners_default 
-confluentinc/cp-kafkacat 
-kafkacat -b kafka0:9092 
+$ docker run -t --network kafka-listeners_default
+confluentinc/cp-kafkacat
+kafkacat -b kafka0:9092
 -L
 Metadata for all topics (from broker -1: kafka0:9092/bootstrap):
 1 brokers:
 broker 0 at localhost:9092
 -   Listener ALICE (port 29094) for traffic from outside, reaching the Docker host on the DNS name never-gonna-give-you-up
 
-$ docker run -t --network kafka-listeners_default 
-confluentinc/cp-kafkacat 
-kafkacat -b kafka0:29094 
+$ docker run -t --network kafka-listeners_default
+confluentinc/cp-kafkacat
+kafkacat -b kafka0:29094
 -L
 Metadata for all topics (from broker -1: kafka0:29094/bootstrap):
 1 brokers:
@@ -255,4 +255,3 @@ broker 0 at never-gonna-give-you-up:29094
 ## References
 
 <https://rmoff.net/2018/08/02/kafka-listeners-explained
-

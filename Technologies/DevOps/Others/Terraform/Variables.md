@@ -17,7 +17,7 @@ There are multiple ways to assign variables. Below is also the order in which va
 
 You can set variables directly on the command-line with the-varflag. Any command in Terraform that inspects the configuration accepts this flag, such asapply,plan, andrefresh:
 
-$ terraform apply 
+$ terraform apply
 -var 'region=us-east-2'
 # ...
 
@@ -35,8 +35,8 @@ We don't recommend saving usernames and password to version control, but you can
 
 You can use multiple-var-filearguments in a single command, with some checked in to version control and others not checked in. For example:
 
-$ terraform apply 
--var-file="secret.tfvars" 
+$ terraform apply
+-var-file="secret.tfvars"
 -var-file="production.tfvars"
 
 ## From environment variables

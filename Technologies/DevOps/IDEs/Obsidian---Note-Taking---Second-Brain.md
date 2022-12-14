@@ -290,4 +290,3 @@ Fast networked note-taking
 [The ULTIMATE Second Brain Setup in Notion](https://www.youtube.com/watch?v=vs8WQh2k-Ow)
 -   AppFlowy - Open-source alternative to Notion
 -   <https://anytype.io/en>
-

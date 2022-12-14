@@ -139,4 +139,3 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
 <https://codeengineered.com/blog/2018/kubernetes-helm-related-tools
 
 <https://medium.com/@cloudark/kubernetes-operators-and-helm-it-takes-two-to-tango-3ff6dcf65619>
-

@@ -39,5 +39,3 @@ In an annotated bibliography, the bibliographic information is followed by a bri
 ## Games
 
 <https://languageguesser.com>
-
-

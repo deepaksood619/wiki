@@ -314,5 +314,3 @@ Avoid using sentences that begin with "you" and followed by accusation or judgme
 <https://deepstash.com/article/2273/how-to-increase-your-emotional-intelligence--6-essentials>
 
 [Workshop on 'Emotional Intelligence' with Rajeshwar Upadhyaya](https://youtu.be/t7ncfBoifHs)
-
-

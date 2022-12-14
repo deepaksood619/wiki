@@ -421,8 +421,3 @@ Prosecutor's Fallacy
     -   **Convolutional neural network - Used for images, A pixel is affected by all pixels surrounding it. It's not simple sequential data. So, convolutional neural networks look at windows of pixels instead of one pixel at a time. Create features (called convolutions). ex- detect edges, detect eyes, faces, etc.**
     -   **Pooling - take a large number of pixels and create a small number of features**
     -   **Generative adversarial networks - Use sets of existing data to try to learn how to create new data. Like two neural network. First is generator, it will generate new data, and other is discriminator, it will check if the new data is valid. These two battle with each other and get good at both sides. Generator will become better in create fake inputs, and disciminator will become good in recognizing fake inputs.**
-
-
-
-
-

@@ -49,5 +49,3 @@ Modified: 2021-08-27 18:36:53 +0500
 [Code Smells](https://www.youtube.com/playlist?list=PLC0nd42SBTaNILCJRCd4DvzNueVN_Sr5R)
 
 [Software Design in Python](https://www.youtube.com/playlist?list=PLC0nd42SBTaNuP4iB4L6SJlMaHE71FG6N)
-
-

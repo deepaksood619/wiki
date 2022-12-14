@@ -17582,7 +17582,7 @@ function create_fragment$5(ctx) {
 
 function instance$5($$self, $$props, $$invalidate) {
 	let { $$slots: slots = {}, $$scope } = $$props;
-	
+
 	let { metadata } = $$props;
 
 	$$self.$$set = $$props => {
@@ -17903,8 +17903,8 @@ function create_fragment$4(ctx) {
 }
 
 function instance$4($$self, $$props, $$invalidate) {
-	
-	
+
+
 	let { date } = $$props;
 	let { metadata } = $$props;
 	let { onHover } = $$props;
@@ -18187,7 +18187,7 @@ function create_fragment$2(ctx) {
 }
 
 function instance$2($$self, $$props, $$invalidate) {
-	
+
 	let { displayedMonth } = $$props;
 	let { today } = $$props;
 	let { resetDisplayedMonth } = $$props;
@@ -18479,8 +18479,8 @@ function create_fragment$1(ctx) {
 }
 
 function instance$1($$self, $$props, $$invalidate) {
-	
-	
+
+
 	let { weekNum } = $$props;
 	let { days } = $$props;
 	let { metadata } = $$props;
@@ -19151,8 +19151,8 @@ function create_fragment(ctx) {
 }
 
 function instance($$self, $$props, $$invalidate) {
-	
-	
+
+
 	let { localeData } = $$props;
 	let { showWeekNums = false } = $$props;
 	let { onHoverDay } = $$props;

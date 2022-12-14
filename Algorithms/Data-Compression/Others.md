@@ -78,4 +78,3 @@ MessagePack is an efficient binary serialization format. It lets you exchange da
 ## Digital Video
 
 <https://github.com/leandromoreira/digital_video_introduction>
-

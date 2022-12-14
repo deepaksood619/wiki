@@ -33,5 +33,3 @@ As you gain more experience with classifiers you will develop a better sense for
 <https://www.freecodecamp.org/news/machine-learning-with-scikit-learn-full-course
 
 <https://www.freecodecamp.org/news/learn-scikit-learn
-
-

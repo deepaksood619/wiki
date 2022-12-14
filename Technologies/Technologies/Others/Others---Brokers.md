@@ -88,4 +88,3 @@ Liftbridge provides lightweight, fault-tolerant message streams by implementing 
 -   in general you don't need any specific library to send events (just write to plain files)
 
 <https://github.com/badoo/lsd>
-

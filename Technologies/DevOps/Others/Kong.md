@@ -47,11 +47,11 @@ If you are building for web, mobile or IoT (Internet of Things) you will likely 
 
 ## Kong Helm Charts
 
-helm install --name kg 
+helm install --name kg
 
---set=admin.type=ClusterIP,proxy.type=LoadBalancer,proxy.loadBalancerIP=104.211.225.153 
+--set=admin.type=ClusterIP,proxy.type=LoadBalancer,proxy.loadBalancerIP=104.211.225.153
 
---namespace kong 
+--namespace kong
 
 stable/kong
 
@@ -101,73 +101,73 @@ PORT=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.spec.ports[
 
 docker network create kong-net
 
-docker run --name kong-database 
+docker run --name kong-database
 
---network=kong-net 
+--network=kong-net
 
--p 5432:5432 
+-p 5432:5432
 
--e POSTGRES_USER=kong 
+-e POSTGRES_USER=kong
 
--e POSTGRES_DB=kong 
+-e POSTGRES_DB=kong
 
 postgres:11.2
 
-docker run --rm 
+docker run --rm
 
---network=kong-net 
+--network=kong-net
 
--e KONG_DATABASE=postgres 
+-e KONG_DATABASE=postgres
 
--e KONG_PG_HOST=kong-database 
+-e KONG_PG_HOST=kong-database
 
 kong:latest kong migrations bootstrap
 
-docker run --name kong 
+docker run --name kong
 
---network=kong-net 
+--network=kong-net
 
--e KONG_DATABASE=postgres 
+-e KONG_DATABASE=postgres
 
--e KONG_PG_HOST=kong-database 
+-e KONG_PG_HOST=kong-database
 
--e KONG_PROXY_ACCESS_LOG=/dev/stdout 
+-e KONG_PROXY_ACCESS_LOG=/dev/stdout
 
--e KONG_ADMIN_ACCESS_LOG=/dev/stdout 
+-e KONG_ADMIN_ACCESS_LOG=/dev/stdout
 
--e KONG_PROXY_ERROR_LOG=/dev/stderr 
+-e KONG_PROXY_ERROR_LOG=/dev/stderr
 
--e KONG_ADMIN_ERROR_LOG=/dev/stderr 
+-e KONG_ADMIN_ERROR_LOG=/dev/stderr
 
--e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl" 
+-e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl"
 
--p 8000:8000 
+-p 8000:8000
 
--p 8443:8443 
+-p 8443:8443
 
--p 8001:8001 
+-p 8001:8001
 
--p 8444:8444 
+-p 8444:8444
 
 kong:latest
 
-docker run -p 1337:1337 
+docker run -p 1337:1337
 
---network=kong-net 
+--network=kong-net
 
---name konga 
+--name konga
 
--v /Users/kongadata:/app/kongadata 
+-v /Users/kongadata:/app/kongadata
 
--e NODE_ENV=production 
+-e NODE_ENV=production
 
 pantsel/konga
 
-curl -X POST 
+curl -X POST
 
--H "Content-Type: application/json" 
+-H "Content-Type: application/json"
 
--d '{"name":"JohnDoe","username":"jdoe"}' 
+-d '{"name":"JohnDoe","username":"jdoe"}'
 
 <http://localhost:8000/fake-api/users>
 
@@ -182,4 +182,3 @@ More than just another GUI to Kong Admin API
 <https://github.com/Kong/kong>
 
 <https://medium.com/@tselentispanagis/managing-microservices-and-apis-with-kong-and-konga-7d14568bb59d>
-

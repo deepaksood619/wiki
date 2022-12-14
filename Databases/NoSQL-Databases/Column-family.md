@@ -19,4 +19,3 @@ However, column-family databases do not work well in all scenarios. If you have 
 Examples:
 -   [Cassandra](https://cassandra.apache.org/)
 -   [HBase](https://hbase.apache.org/)
-

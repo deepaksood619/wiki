@@ -89,18 +89,3 @@ W~i~ <- W~i~ + Δ
 ![image](media/Big-Data_Parameter-Servers-image29.png)
 
 <https://medium.com/coinmonks/parameter-server-for-distributed-machine-learning-fd79d99f84c3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

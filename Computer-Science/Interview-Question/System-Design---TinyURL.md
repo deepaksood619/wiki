@@ -157,4 +157,3 @@ DKGS - Distributed Key Generation Service
 -   = 64 bit random id for each key
 Async cleanup service
 -   Every hour run through whole database to get expired keys and delete the same from s3/blob storage
-

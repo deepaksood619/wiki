@@ -235,4 +235,3 @@ Automatically loads the new files detected in the specified Amazon S3 path
 6.  While using intermediate tables and transferring data between an intermediate table and master table, it is better to use 'ALTER table APPEND' command to insert data from the temporary table to the target table. This command is generally faster than using "CREATE TABLE AS" or "INSERT INTO" statements. It is to be noted that 'ALTER table APPEND' command empties the source table.
 
 7.  If there is a need to extract a large amount of data from Redshift and save to S3 or other storage, it is better to use 'UNLOAD' command rather than 'SELECT' command since the former command will be executed parallelly by all the nodes saving a lot of time.
-

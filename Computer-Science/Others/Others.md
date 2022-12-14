@@ -71,4 +71,3 @@ GIS can relate unrelated information by using location as the key index variable
 
 Approaches to**supercomputer architecture**have taken dramatic turns since the earliest systems were introduced in the 1960s. Early[supercomputer](https://en.wikipedia.org/wiki/Supercomputer)architectures pioneered by[Seymour Cray](https://en.wikipedia.org/wiki/Seymour_Cray)relied on compact innovative designs and local[parallelism](https://en.wikipedia.org/wiki/Parallel_computing)to achieve superior computational peak performance.[^[1]^](https://en.wikipedia.org/wiki/Supercomputer_architecture#cite_note-chen-1)However, in time the demand for increased computational power ushered in the age of[massively parallel](https://en.wikipedia.org/wiki/Massively_parallel)systems.
 <https://en.wikipedia.org/wiki/Supercomputer_architecture>
-

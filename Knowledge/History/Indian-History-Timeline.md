@@ -180,5 +180,3 @@ BC
 [Mughal Emperors Family Tree](https://youtu.be/thOM8jerjrs)
 
 [The major ancient Indian dynasties | Chronology](https://www.youtube.com/watch?v=GamVjCEO5hQ)
-
-

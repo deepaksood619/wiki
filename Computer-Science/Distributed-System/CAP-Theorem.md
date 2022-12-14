@@ -198,4 +198,3 @@ In[theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_compu
 
 [PACELC theorem - Wikipedia](https://en.wikipedia.org/wiki/PACELC_theorem)
 [CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed)
-

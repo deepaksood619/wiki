@@ -327,4 +327,3 @@ select count(*) from sys.schema_unused_indexes;
 
 Invisible indexes make it possible to test the effect of removing an index on query performance, without making a destructive change that must be undone should the index turn out to be required. Dropping and re-adding an index can be expensive for a large table, whereas making it invisible and visible are fast, in-place operations.
 <https://dev.mysql.com/doc/refman/8.0/en/invisible-indexes.html>
-

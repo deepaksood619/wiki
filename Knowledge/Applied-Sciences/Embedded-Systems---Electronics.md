@@ -124,5 +124,3 @@ The usual way to mitigate this is to have the interrupt controller set a special
 ## Others
 
 <https://en.wikipedia.org/wiki/MISRA_C>
-
-

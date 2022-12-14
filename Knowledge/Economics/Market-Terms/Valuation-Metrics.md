@@ -145,5 +145,3 @@ TheGraham numberorBenjamin Graham numberis a figure used in[securities](https://
 The final number is, theoretically, the maximum price that a defensive investor should pay for the given stock. Put another way, a stock priced below the Graham Number would be considered a good value, if it also meets a number of other criteria.
 
 <https://en.wikipedia.org/wiki/Graham_number>
-
-

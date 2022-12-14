@@ -106,4 +106,3 @@ The kubernetes executor is introduced in Apache Airflow 1.10.0. The Kubernetes e
 ## Debugging
 
 <https://www.astronomer.io/blog/7-common-errors-to-check-when-debugging-airflow-dag>
-

@@ -61,15 +61,3 @@ Modified: 2020-08-15 23:39:23 +0500
 ## Projection Pushdown
 
 Projection pushdown minimizes data transfer betweenMapR Databaseand the Apache Spark engine by omitting unnecessary fields from table scans. It is especially beneficial when a table contains many columns.
-
-
-
-
-
-
-
-
-
-
-
-

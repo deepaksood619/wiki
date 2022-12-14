@@ -17,4 +17,3 @@ However, the native functionality provided by a container engine or runtime is u
 <https://kubernetes.io/docs/concepts/cluster-administration/logging
 
 <https://github.com/moby/moby/issues/7440>
-

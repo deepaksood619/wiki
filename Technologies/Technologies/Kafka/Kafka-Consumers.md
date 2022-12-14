@@ -165,5 +165,3 @@ Takes all the partitions from all subscribed topics and assigns them to consumer
 ## Advanced
 
 <https://www.confluent.io/blog/kafka-python-asyncio-integration
-
-

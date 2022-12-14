@@ -97,4 +97,3 @@ iii. Derivative tuningattempts to minimize this overshoot by slowing the correct
 <https://www.tutorialspoint.com/control_systems/index.htm>
 
 [Control System](https://www.youtube.com/playlist?list=PLWPirh4EWFpGpH_Rb6Q4iQ6vGGRA6MORZ)
-

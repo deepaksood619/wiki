@@ -29,4 +29,3 @@ The chain-of-responsibility pattern is structurally nearly identical to the[deco
 <https://www.geeksforgeeks.org/chain-responsibility-design-pattern>
 
 <https://www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm>
-

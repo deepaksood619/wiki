@@ -79,4 +79,3 @@ In programming, it is also common to refer to the "NIH syndrome" as the tendency
 [Why You Shouldn't Nest Your Code](https://www.youtube.com/watch?v=CFRhGnuXG-4)
 -   Never Nester
 -   If you need more than 3 levels of indentation, you're screwed anyway, and should fix your program
-

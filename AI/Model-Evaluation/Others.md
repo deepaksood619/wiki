@@ -25,5 +25,3 @@ K-S or Kolmogorov-Smirnov chart measures performance of classification models. M
 ## K-fold Cross Validation
 
 ![image](media/Others-image2.jpg)
-
-

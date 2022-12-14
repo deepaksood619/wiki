@@ -161,4 +161,3 @@ VMWare player
 Vagrant Environment
 
 Paralles in mac
-

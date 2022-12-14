@@ -106,5 +106,3 @@ A framework for data management in Kubernetes. It allows domain experts to defin
 ## Others
 
 <https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf>
-
-

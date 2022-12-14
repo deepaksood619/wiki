@@ -10,7 +10,7 @@ Modified: 2022-12-07 08:48:20 +0500
 
 Regex - ^(s)*$n
 
-# 
+#
 
 # Debugging Python
 
@@ -18,7 +18,7 @@ Regex - ^(s)*$n
 
 <https://www.youtube.com/watch?v=b78Tg-YmJZI>
 
-# 
+#
 
 # CodeServer / Online Machine Environments
 
@@ -227,4 +227,3 @@ Command + Shit + p (directly run commands)
 "terminal.integrated.scrollback": 10000,
 
 }
-

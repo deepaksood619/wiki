@@ -117,4 +117,3 @@ returns the IP addresses of the node(s)which store the partitions withthe respec
 -   verify Verify (check data checksum for) one or more tables
 -   version Print cassandra version
 -   viewbuildstatus Show progress of a materialized view build
-

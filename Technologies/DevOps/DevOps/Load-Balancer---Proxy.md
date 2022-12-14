@@ -515,8 +515,3 @@ DSR is an optimization in which only**ingress/request**packets traverse the load
 ## See also
 
 Devops > Kubernetes > Ingress
-
-
-
-
-

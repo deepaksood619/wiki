@@ -130,4 +130,3 @@ You can enforce a high degree of consistency with the default[REPEATABLE READ](h
 <https://dbmsmusings.blogspot.com/2019/08/an-explanation-of-difference-between.html>
 
 <http://dbmsmusings.blogspot.com/2019/10/introducing-slog-cheating-low-latency.html>
-

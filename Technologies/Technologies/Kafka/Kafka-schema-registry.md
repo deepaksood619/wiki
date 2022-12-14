@@ -17,21 +17,21 @@ Schema Registry is a distributed storage layer for Avro Schemas which uses Kafka
 
 # to change the compatibility of schema-registry
 
-docker exec schema-registry curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"compatibility": "NONE"}' 
+docker exec schema-registry curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"compatibility": "NONE"}'
 <http://schema-registry:8081/config>
 
 ## Schema Registry Commands
 
 # Register a new version of a schema under the subject "Kafka-key"
-$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"schema": "{"type": "string"}"}' 
+$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"schema": "{"type": "string"}"}'
 <http://localhost:8081/subjects/Kafka-key/versions>
 {"id":1}
 
 # Register a new version of a schema under the subject "Kafka-value"
-$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"schema": "{"type": "string"}"}' 
+$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"schema": "{"type": "string"}"}'
 <http://localhost:8081/subjects/Kafka-value/versions>
 {"id":1}
 
@@ -64,14 +64,14 @@ $ curl -X DELETE <http://localhost:8081/subjects/Kafka-value>
 [1, 2, 3, 4, 5]
 
 # Check whether a schema has been registered under subject "Kafka-key"
-$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"schema": "{"type": "string"}"}' 
+$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"schema": "{"type": "string"}"}'
 <http://localhost:8081/subjects/Kafka-key>
 {"subject":"Kafka-key","version":1,"id":1,"schema":""string""}
 
 # Test compatibility of a schema with the latest schema under subject "Kafka-value"
-$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"schema": "{"type": "string"}"}' 
+$ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"schema": "{"type": "string"}"}'
 <http://localhost:8081/compatibility/subjects/Kafka-value/versions/latest>
 {"is_compatible":true}
 
@@ -80,14 +80,14 @@ $ curl -X GET <http://localhost:8081/config>
 {"compatibilityLevel":"BACKWARD"}
 
 # Update compatibility requirements globally
-$ curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"compatibility": "NONE"}' 
+$ curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"compatibility": "NONE"}'
 <http://localhost:8081/config>
 {"compatibility":"NONE"}
 
 # Update compatibility requirements under the subject "Kafka-value"
-$ curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" 
---data '{"compatibility": "BACKWARD"}' 
+$ curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json"
+--data '{"compatibility": "BACKWARD"}'
 <http://localhost:8081/config/Kafka-value>
 {"compatibility":"BACKWARD"}
 

@@ -65,8 +65,3 @@ Since,
 ![image](media/Rule-generation-&-Pattern-Evaluation-image10.png)
 
 ![image](media/Rule-generation-&-Pattern-Evaluation-image11.png)
-
-
-
-
-

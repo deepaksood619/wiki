@@ -53,4 +53,3 @@ df.groupby(['A','B']).c.unique().reset_index()
 <https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.crosstab.html>
 
 <https://pbpython.com/pandas-crosstab.html>
-

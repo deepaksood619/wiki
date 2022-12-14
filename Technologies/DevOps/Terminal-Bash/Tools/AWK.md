@@ -113,4 +113,3 @@ k delete pv $(k get pv | grep Released | awk '{print $1}')
 <http://www.grymoire.com/Unix/Awk.html>
 
 <https://www.tutorialspoint.com/awk
-

@@ -68,4 +68,3 @@ pH - power of Hydrogen, it is represented logarithmically. One number change rep
 [Freshman Organic Chemistry with J. Michael McBride](https://youtube.com/playlist?list=PL3F629F73640F831D)
 
 [Freshman Organic Chemistry II with Michael McBride](https://youtube.com/playlist?list=PLB572BA3ED0F700F1)
-

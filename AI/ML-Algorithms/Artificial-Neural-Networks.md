@@ -93,27 +93,3 @@ Modified: 2021-05-11 23:37:05 +0500
 ![image](media/Artificial-Neural-Networks-image43.png)
 
 ![image](media/Artificial-Neural-Networks-image44.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

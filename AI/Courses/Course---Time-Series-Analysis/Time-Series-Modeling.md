@@ -462,17 +462,3 @@ MAX models (ARMAX and SARIMAX)
 -   Vector SARIMAX
 
 Business case - A look into the Automobile Industry
-
-
-
-
-
-
-
-
-
-
-
-
-
-

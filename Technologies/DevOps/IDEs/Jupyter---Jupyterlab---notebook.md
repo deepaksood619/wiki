@@ -177,7 +177,7 @@ Operate on multiple lines of input
 <td>Source code</td>
 </tr>
 <tr class="odd">
-<td>import os<br 
+<td>import os<br
 os.*dir*?</td>
 <td>Use * to list all functions matching a string</td>
 </tr>
@@ -293,29 +293,29 @@ JupyterLab-Git
 ## RUN** jupyter nbextension enable toggle_all_line_numbers**/main
 
 ENV NODE_OPTIONS="--max-old-space-size=4096"
-RUN jupyter labextension install nbdime-jupyterlab --no-build && 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build && 
-jupyter labextension install jupyterlab_bokeh --no-build && 
-jupyter labextension install bqplot --no-build && 
-jupyter labextension install @jupyterlab/vega3-extension --no-build && 
-jupyter labextension install @jupyterlab/git --no-build && 
-jupyter labextension install @jupyterlab/hub-extension --no-build && 
-jupyter labextension install jupyterlab_tensorboard --no-build && 
-jupyter labextension install jupyterlab-kernelspy --no-build && 
-jupyter labextension install @jupyterlab/plotly-extension --no-build && 
-jupyter labextension install jupyterlab-chart-editor --no-build && 
-jupyter labextension install plotlywidget --no-build && 
-jupyter labextension install @jupyterlab/latex --no-build && 
-jupyter labextension install jupyter-matplotlib --no-build && 
-jupyter labextension install jupyterlab-drawio --no-build && 
-jupyter labextension install jupyter-leaflet --no-build && 
-jupyter labextension install qgrid --no-build && 
-jupyter lab build && 
-jupyter lab clean && 
-jlpm cache clean && 
-npm cache clean --force && 
-rm -rf $HOME/.node-gyp && 
-rm -rf $HOME/.local && 
+RUN jupyter labextension install nbdime-jupyterlab --no-build &&
+jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build &&
+jupyter labextension install jupyterlab_bokeh --no-build &&
+jupyter labextension install bqplot --no-build &&
+jupyter labextension install @jupyterlab/vega3-extension --no-build &&
+jupyter labextension install @jupyterlab/git --no-build &&
+jupyter labextension install @jupyterlab/hub-extension --no-build &&
+jupyter labextension install jupyterlab_tensorboard --no-build &&
+jupyter labextension install jupyterlab-kernelspy --no-build &&
+jupyter labextension install @jupyterlab/plotly-extension --no-build &&
+jupyter labextension install jupyterlab-chart-editor --no-build &&
+jupyter labextension install plotlywidget --no-build &&
+jupyter labextension install @jupyterlab/latex --no-build &&
+jupyter labextension install jupyter-matplotlib --no-build &&
+jupyter labextension install jupyterlab-drawio --no-build &&
+jupyter labextension install jupyter-leaflet --no-build &&
+jupyter labextension install qgrid --no-build &&
+jupyter lab build &&
+jupyter lab clean &&
+jlpm cache clean &&
+npm cache clean --force &&
+rm -rf $HOME/.node-gyp &&
+rm -rf $HOME/.local &&
 fix-permissions $CONDA_DIR $HOME
 
 <https://github.com/jupyterlab/jupyterlab/issues/4930>
@@ -424,4 +424,3 @@ Querybook is a Big Data Querying UI, combining collocated table metadata and a s
 ## SQL Notebooks
 
 <https://engineering.fb.com/2022/04/26/developer-tools/sql-notebooks
-

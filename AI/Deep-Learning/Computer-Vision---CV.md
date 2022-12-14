@@ -95,4 +95,3 @@ PSNR is commonly used to quantify reconstruction quality for images and video su
 <https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab>
 
 <https://www.freecodecamp.org/news/advanced-computer-vision-with-python
-

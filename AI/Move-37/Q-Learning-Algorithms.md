@@ -27,7 +27,3 @@ The policy for state s is to choose the actual bias Q value.
 ## Reward - the reward from our immediate action, plus all discounted future rewards from applying the current policy (Denoted by capital G)
 
 ![image](media/Q-Learning-Algorithms-image2.png)
-
-
-
-

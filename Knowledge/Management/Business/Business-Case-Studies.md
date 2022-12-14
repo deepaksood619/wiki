@@ -326,4 +326,3 @@ A Vickrey auction is a sealed-bid auction where bidders submit bids without know
 <https://drive.google.com/file/d/13jkSTqNUtDqF7QU1nlEQv4LSv2eZTx-9/view>
 
 Chapter 9: Auctions - From the book Networks, Crowds, and Markets: Reasoning about a Highly Connected World. By David Easley and Jon Kleinberg. Cambridge University Press, 2010.
-

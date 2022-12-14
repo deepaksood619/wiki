@@ -176,4 +176,3 @@ There was also an "OpenID" specification. That tried to solve the same thing asO
 So, it was a complete additional system.
 It is not very popular or used nowadays.
 <https://fastapi.tiangolo.com/tutorial/security>
-

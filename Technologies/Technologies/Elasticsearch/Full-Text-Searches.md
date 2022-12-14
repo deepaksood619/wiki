@@ -123,5 +123,3 @@ iii. all results --- all of the results of a specific entity
 ## Tools
 
 <https://www.algolia.com
-
-

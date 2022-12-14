@@ -59,4 +59,3 @@ Together, these three different open source products are most commonly used in l
 <https://www.elastic.co/elk-stack>
 
 <https://qbox.io/blog/elasticsearch-logstash-kibana-apache-logs>
-

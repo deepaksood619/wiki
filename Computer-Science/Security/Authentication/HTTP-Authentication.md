@@ -61,4 +61,3 @@ In a digest authentication flow, the client sends a request to a server, which s
 <https://nullsweep.com/http-security-headers-a-complete-guide>
 
 <https://stackoverflow.blog/2021/10/06/best-practices-for-authentication-and-authorization-for-rest-apis>
-

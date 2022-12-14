@@ -131,4 +131,3 @@ Index selectivity is the ratio of the number of distinct indexed values (the ​
 ## Why low cardinality indexes negatively impact performance
 
 <https://www.ibm.com/developerworks/data/library/techarticle/dm-1309cardinal>
-

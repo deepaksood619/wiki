@@ -1464,7 +1464,7 @@ $4`)})}get exampleBuilders(){return[new x({description:"",before:d`
           > List 3
           >
           > + item 1
-          > + 
+          > +
           > + item 2
         `,after:d`
           > Checklist in blockquote

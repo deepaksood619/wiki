@@ -170,4 +170,3 @@ Your "biological prime time" is the time of the day when you have the most energ
 -   **Peak:** This is when you have your greatest amount of mental and physical energy. Reserve this time for tasks that require analytical work. Avoid doing mindless tasks like checking email or social media since they will not take full advantage of your mental clarity.
 -   **Trough:** This is when you experience that familiar mid-day dip in energy. For most people, this occurs just after lunch. Pink recommends taking a nap or going for a walk instead of trying to push through this period.
 -   **Rebound:** During the rebound you will have less mental sharpness but your physical energy will have returned. This is a good time to do tasks that benefit from disinhibition such as creative brainstorming.
-

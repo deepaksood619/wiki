@@ -206,4 +206,3 @@ It all starts with a question:**In X years, will I regret not doing this?**
 The idea is to project yourself into the future and look back on your decision from that perspective. For Bezos, he thought of when he would be 80 and if he would regret not trying to start this company. Yes or no. His answer was quite clear.
 
 <https://alyjuma.medium.com/the-regret-minimization-framework-how-jeff-bezos-made-decisions-4d5a86deaf24>
-

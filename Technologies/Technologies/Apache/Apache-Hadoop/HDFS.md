@@ -211,7 +211,3 @@ Basically what we are doing is trying to have multiple data nodes, and multiple 
 -   One performance tradeoff is, actually when you go out to do some of the map reduce jobs, having replicas gives additional locality possibilities, but the big trade off is the robustness. In this case, we said no replicas. Might lose a node or a local disk: can't recover because there is no replication
 -   Similarly, with data corruption, if you get a checksum that's bad, now you can't recover because you don't have a replica
 -   Other parameters changes can have similar effects
-
-
-
-

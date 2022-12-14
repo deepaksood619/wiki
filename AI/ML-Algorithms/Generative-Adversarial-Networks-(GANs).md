@@ -15,4 +15,3 @@ We can feed it a little bit of random noise as input, and it can produce realist
 ![image](media/Generative-Adversarial-Networks-(GANs)-image1.png)
 
 GAN have two networks, one is actively trying to fool the other one, while this other one tries to distinguish these fake inputs (given by the first network) with other ones.
-

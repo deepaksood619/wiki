@@ -132,4 +132,3 @@ Stop wrestling with UI libraries, hacking together data sources, and figuring ou
 -   Danfo.js - pandas in js
 -   Mantin.js
 -   Amplication
-

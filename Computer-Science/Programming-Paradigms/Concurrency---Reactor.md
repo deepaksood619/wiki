@@ -13,4 +13,3 @@ The reactor[design pattern](https://en.wikipedia.org/wiki/Design_pattern_(comput
 ## References
 
 <https://en.wikipedia.org/wiki/Reactor_pattern>
-

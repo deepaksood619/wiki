@@ -339,4 +339,3 @@ If you're in a relationship with a Nine, remember that they need a peaceful envi
 <https://summation.net/2020/05/14/how-can-you-become-a-10xer
 
 <https://blog.codegiant.io/how-to-become-a-10x-engineer-492fa3f57101>
-

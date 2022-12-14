@@ -27,4 +27,3 @@ Non degeneracy Assumption - All x- and y- coordinates are distinct
 Proposition: The sweep-line algorithm takes time proportional to N log N + R to find all R intersections among N orthogonal line segments
 
 Bottom line: Sweep line reduces 2d orthogonal line segment intersection search to 1d range search
-

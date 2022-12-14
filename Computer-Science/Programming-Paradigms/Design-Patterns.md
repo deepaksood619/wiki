@@ -12,7 +12,7 @@ Two main principles are in the bases of the design patterns defined by the GOF:
 -   Program to an interface not an implementation.
 -   Favor object composition over inheritance.
 
-## 
+##
 
 ## Design Pattern Categorization
 
@@ -121,4 +121,3 @@ A common example would be the[electronic health record](https://en.wikipedia.org
 ![image](media/Design-Patterns-image1.jpg)
 
 <https://en.wikipedia.org/wiki/Software_design_pattern>
-

@@ -142,17 +142,3 @@ Modified: 2019-11-22 19:29:14 +0500
 ![image](media/List-of-Algorithms-image23.png)
 
 ![image](media/List-of-Algorithms-image24.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -150,4 +150,3 @@ Another caveat with Kafka is unclean leader elections. That is, if all replicas 
 <http://cloudurable.com/blog/what-is-kafka/index.html>
 
 <https://medium.com/swlh/why-kafka-is-so-fast-bde0d987cd03>
-

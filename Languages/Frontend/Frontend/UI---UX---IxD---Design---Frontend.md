@@ -287,7 +287,3 @@ ec2 machine
 <https://wittysparks.com/professional-design-process-explained
 
 <https://www.freecodecamp.org/news/ux-vs-ui-whats-the-difference-definition-and-meaning
-
-
-
-

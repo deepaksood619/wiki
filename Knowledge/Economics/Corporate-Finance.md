@@ -71,4 +71,3 @@ In the mergers and acquisitions (M&A) world, there is a delineation between "har
 Corporate Finance - <https://www.youtube.com/playlist?list=PLUkh9m2BorqnDenjSLZ2DHIXrdxoN4Bn_>
 
 Investment Philosophies - <https://www.youtube.com/playlist?list=PLUkh9m2BorqlDJlnBXUaJaMRNE7UDckn6>
-

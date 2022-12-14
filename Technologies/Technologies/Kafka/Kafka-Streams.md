@@ -74,5 +74,3 @@ Apache Kafka by DZone Refcardz
 ## Others
 
 <https://github.com/robinhood/faust>
-
-

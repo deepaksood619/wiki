@@ -53,4 +53,3 @@ Neutron - 1 up quark and 2 down quarks
 <https://www.youtube.com/watch?v=Unl1jXFnzgo>
 
 [The Fundamental Constituents of Matter and the Eightfold Way](https://www.youtube.com/watch?v=SSswwu8JEYQ)
-

@@ -33,7 +33,7 @@ d) The root has degree k and children of root are themselves Binomial Trees with
 ## Examples Binomial Heap:
 
 12------------10--------------------20
-/  / | 
+/  / |
 15 50 70 50 40
 | / | |
 30 80 85 65
@@ -43,7 +43,7 @@ A Binomial Heap with 13 nodes. It is a collection of 3
 Binomial Trees of orders 0, 2 and 3 from left to right.
 
 10--------------------20
-/  / | 
+/  / |
 15 50 70 50 40
 | / | |
 30 80 85 65

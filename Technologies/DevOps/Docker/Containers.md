@@ -140,6 +140,3 @@ Containers are implemented with Linux-specific system calls. So why can you run 
 <https://mobyproject.org
 
 <https://github.com/moby/moby>
-
-
-

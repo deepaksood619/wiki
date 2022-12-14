@@ -27,4 +27,3 @@ Figures (a)--(c) above shows three examples of dominating sets for a graph. In e
 Triadic closureis a concept in[social network](https://en.wikipedia.org/wiki/Social_network)theory, first suggested by [German](https://en.wikipedia.org/wiki/Germany) [sociologist](https://en.wikipedia.org/wiki/Sociology) [Georg Simmel](https://en.wikipedia.org/wiki/Georg_Simmel) in his 1908 bookSoziologie.Triadic closure is the property among three nodes A, B, and C (representing people, for instance), that if the connections A-B and B-C exist, there is a tendency for the new connection A-C to be formed.Triadic closure can be used to understand and predict the growth of networks, although it is only one of many mechanisms by which new connections are formed in complex networks.
 
 <https://en.wikipedia.org/wiki/Triadic_closure>
-

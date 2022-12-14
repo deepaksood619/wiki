@@ -55,4 +55,3 @@ Answering this question involves finding the **antecedent** of the pronoun they,
 *Simple Pipeline Architecture for a Spoken Dialogue System: Spoken input (top left) is analyzed, words are recognized, sentences are parsed and interpreted in context, application-specific actions take place (top right); a response is planned, realized as a syntactic structure, then to suitably inflected words, and finally to spoken output; different types of linguistic knowledge inform each stage of the process.*
 
 ## Recognizing Textual Entailment (RTE)
-

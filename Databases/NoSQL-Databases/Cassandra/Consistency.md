@@ -33,4 +33,3 @@ Modified: 2019-12-30 16:06:43 +0500
 ![image](media/Cassandra_Consistency-image4.png)
 
 ![image](media/Cassandra_Consistency-image5.png)
-

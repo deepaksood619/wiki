@@ -237,4 +237,3 @@ OSI model acts as a reference model and is not implemented in Internet because o
 <https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners>
 
 <https://www.freecodecamp.org/news/the-five-layers-model-explained>
-

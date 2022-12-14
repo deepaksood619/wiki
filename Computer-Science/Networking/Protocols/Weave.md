@@ -24,4 +24,3 @@ Weave was designed with the following goals in mind:
 <https://openweave.io/guides/weave-primer>
 
 <https://codelabs.developers.google.com/codelabs/happy-weave-getting-started/#0>
-

@@ -116,4 +116,3 @@ Rank order items are analyzed using[Spearman](http://changingminds.org/explanati
 ## Effect Size**
 
 <https://machinelearningmastery.com/effect-size-measures-in-python>
-

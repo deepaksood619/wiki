@@ -394,4 +394,3 @@ build.doKill()
 <https://www.youtube.com/watch?v=eqOCdNO2Nmk>
 
 <https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration
-

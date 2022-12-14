@@ -96,6 +96,3 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
 [Bilding an effective identity and access management architecture with Keycloak](https://www.youtube.com/watch?v=RupQWmYhrLA)
 
 ![VOAEDDAYS ID Token WNSK Access Token MAR MBHCK Token Refresh Token epam ](../../media/DevOps-Others-KeyCloak-image7.jpg)
-
-
-

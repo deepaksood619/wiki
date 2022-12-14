@@ -170,4 +170,3 @@ app.router.add_route('GET', '/get-user', get_user)
 ```
 
 <https://steelkiwi.com/blog/jwt-authorization-python-part-1-practise>
-

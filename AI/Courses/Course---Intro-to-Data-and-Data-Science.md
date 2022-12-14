@@ -47,5 +47,3 @@ Business Intelligence is the preliminary step of predictive analytics
 Factor analysis
 
 Dimensionality reduction
-
-

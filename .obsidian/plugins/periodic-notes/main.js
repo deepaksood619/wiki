@@ -243,7 +243,7 @@ function getDateFromFilename(filename, granularity) {
         if (granularity === "week") {
             const cleanFormat = removeEscapedCharacters(format);
             if (/w{1,2}/i.test(cleanFormat)) {
-                return window.moment(filename, 
+                return window.moment(filename,
                 // If format contains week, remove day & month formatting
                 format.replace(/M{1,4}/g, "").replace(/D{1,4}/g, ""), false);
             }
@@ -1899,7 +1899,7 @@ function create_if_block_1$2(ctx) {
 			div2 = element("div");
 			div0 = element("div");
 
-			div0.innerHTML = `<h4>Weekly Note settings migrated</h4> 
+			div0.innerHTML = `<h4>Weekly Note settings migrated</h4>
         <p class="setting-item-description">Your existing weekly-note settings from the Calendar plugin have been
           migrated over automatically. The functionality will be removed from
           the Calendar plugin in the future.</p>`;
@@ -2180,8 +2180,8 @@ function instance$4($$self, $$props, $$invalidate) {
 		$$subscribe_settings = () => ($$unsubscribe_settings(), $$unsubscribe_settings = subscribe(settings, $$value => $$invalidate(5, $settings = $$value)), settings);
 
 	$$self.$$.on_destroy.push(() => $$unsubscribe_settings());
-	
-	
+
+
 	let { settings } = $$props;
 	$$subscribe_settings();
 	let { handleTeardown } = $$props;
@@ -2486,8 +2486,8 @@ function instance$3($$self, $$props, $$invalidate) {
 		$$subscribe_settings = () => ($$unsubscribe_settings(), $$unsubscribe_settings = subscribe(settings, $$value => $$invalidate(3, $settings = $$value)), settings);
 
 	$$self.$$.on_destroy.push(() => $$unsubscribe_settings());
-	
-	
+
+
 	let { settings } = $$props;
 	$$subscribe_settings();
 	let { periodicity } = $$props;
@@ -4745,8 +4745,8 @@ function instance$2($$self, $$props, $$invalidate) {
 		$$subscribe_settings = () => ($$unsubscribe_settings(), $$unsubscribe_settings = subscribe(settings, $$value => $$invalidate(2, $settings = $$value)), settings);
 
 	$$self.$$.on_destroy.push(() => $$unsubscribe_settings());
-	
-	
+
+
 	let { settings } = $$props;
 	$$subscribe_settings();
 	let { periodicity } = $$props;
@@ -4947,8 +4947,8 @@ function instance$1($$self, $$props, $$invalidate) {
 		$$subscribe_settings = () => ($$unsubscribe_settings(), $$unsubscribe_settings = subscribe(settings, $$value => $$invalidate(2, $settings = $$value)), settings);
 
 	$$self.$$.on_destroy.push(() => $$unsubscribe_settings());
-	
-	
+
+
 	let { settings } = $$props;
 	$$subscribe_settings();
 	let { periodicity } = $$props;
@@ -5383,7 +5383,7 @@ function create_fragment(ctx) {
 
 function instance($$self, $$props, $$invalidate) {
 	let $settingsStore;
-	
+
 	let { settings } = $$props;
 	let { onUpdateSettings } = $$props;
 	let settingsStore = writable(settings);
@@ -5516,7 +5516,7 @@ class PeriodicNotesPlugin extends obsidian.Plugin {
         ["daily", "weekly", "monthly", "quarterly", "yearly"]
             .filter((periodicity) => !this.settings[periodicity].enabled)
             .forEach((periodicity) => {
-            getCommands(periodicity).forEach((command) => 
+            getCommands(periodicity).forEach((command) =>
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             this.app.commands.removeCommand(`periodic-notes:${command.id}`));
         });

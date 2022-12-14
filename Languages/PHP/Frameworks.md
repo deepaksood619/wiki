@@ -31,5 +31,3 @@ Eloquent ORM, fluent query builder, great documentation, and always up-to-date L
 <https://laravel.com/docs/7.x/artisan>
 
 <https://www.tutorialspoint.com/php/php_frame_works.htm>
-
-

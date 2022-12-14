@@ -433,5 +433,3 @@ A summary with a base metric name of<basename>exposes multiple time series durin
 ![2 3 Alert types SLA alerts Baseline breaching alerts Runtime property alerts Alert Examples Sentiment calculation latency must be < 500ms Amount of Tweets classified as positive dropped by 60% for a duration > 5 minutes Tweet returned sentiment score = 2 Metrics list sentiment_latency_duration_ms positive_tweets_count Sentiment score ](../../media/DevOps-Monitoring-Metrics-image4.png)
 
 <https://www.freecodecamp.org/news/metrics-driven-development
-
-

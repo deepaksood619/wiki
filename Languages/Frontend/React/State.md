@@ -85,5 +85,3 @@ However, recently, a new concept of Context API and hooks has been introduced an
 -   Vue - **Vuex**
 -   Angular - NGRX, **Services**
 -   Apollo Client
-
-

@@ -51,6 +51,3 @@ EMQ X3.0 supports node discovery and autocluster with various strategies:
 | dns      | Autocluster by DNS A Record     |
 | etcd     | Autocluster using etcd          |
 | k8s      | Autocluster on Kubernetes       |
-
-
-

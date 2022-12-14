@@ -57,4 +57,3 @@ Presto was designed to handle data warehousing and analytics: data analysis, agg
 <https://prestodb.io/docs/current/index.html>
 
 <https://aws.amazon.com/big-data/what-is-presto
-

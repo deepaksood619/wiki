@@ -68,6 +68,3 @@ Space Complexity - n*n
 [N Queen Problem Using Backtracking Algorithm](https://www.youtube.com/watch?v=xouin83ebxE)
 
 ![](media/N-Queens-Problem-image5.png)
-
-
-

@@ -27,4 +27,3 @@ This got him thinking about economic output on a larger scale. Sure enough, he b
 -   About a fifth of your time is likely to give you 4/5ths of your achievement or results and 4/5th of your happiness -- Richard Koch
 
 ![image](media/Mental-Models-image1.jpg)
-

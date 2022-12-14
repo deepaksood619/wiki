@@ -17,4 +17,3 @@ Modified: 2021-06-06 16:39:27 +0500
 <http://scikit-learn.org/stable/tutorial/machine_learning_map
 
 <http://scikit-learn.org/stable/modules/classes.html>
-

@@ -23,4 +23,3 @@ Worst case (assuming tree is balanced): R + sqrt(N)
 Typical case: log N
 
 Worst case (even if tree is balanced): N
-

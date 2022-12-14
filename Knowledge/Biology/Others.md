@@ -75,6 +75,3 @@ Hydra don't age
 ![image](media/Others-image2.jpeg)
 
 ![image](media/Others-image3.jpeg)
-
-
-

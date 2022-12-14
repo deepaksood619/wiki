@@ -11,4 +11,3 @@ Modified: 2018-08-17 20:22:02 +0500
 ![image](media/Intro---Syllabus_Additional-Theoretical-Material-1-image4.png)
 
 ![image](media/Intro---Syllabus_Additional-Theoretical-Material-1-image5.png)
-

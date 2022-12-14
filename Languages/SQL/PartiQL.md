@@ -27,5 +27,3 @@ The PartiQL open source will make it easy for developers to parse and embed Part
 <https://aws.amazon.com/blogs/opensource/announcing-partiql-one-query-language-for-all-your-data
 
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html>
-
-

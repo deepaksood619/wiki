@@ -75,4 +75,3 @@ Git is the single source of truth for the desired state of a system
 ## References
 
 <https://www.toptal.com/devops/bridging-gaps-devops-communication>
-

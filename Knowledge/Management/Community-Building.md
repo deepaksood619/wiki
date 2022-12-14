@@ -105,5 +105,3 @@ Each objective comes with a different set of metrics that you'll likely want to 
 -   Luma - <https://lu.ma
 
 Foster meaningful relationships with events, newsletters, and community analytics
-
-

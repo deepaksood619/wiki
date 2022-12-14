@@ -194,5 +194,3 @@ Vintage is a slang term used by[mortgage-backed security](https://www.investoped
 -   Two MBS with the same vintage may have different levels of assumed risk, however, and as a result, different perceived values.
 
 <https://www.investopedia.com/terms/v/vintage.asp>
-
-

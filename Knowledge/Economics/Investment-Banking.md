@@ -136,4 +136,3 @@ A venture capital firm, on the other hand, invests in a company during its earli
 For small businesses, or for up-and-coming businesses in emerging industries, venture capital is generally provided by[high net worth individuals](https://www.investopedia.com/terms/h/hnwi.asp)(HNWIs)---also often known as "[angel investors](https://www.investopedia.com/terms/a/angelinvestor.asp)"---and venture capital firms. The National Venture Capital Association (NVCA) is an organization composed of hundreds of venture capital firms that offer to fund innovative enterprises.
 
 Angel investors are typically a diverse group of individuals who have amassed their wealth through a variety of sources. However, they tend to be[entrepreneurs](https://www.investopedia.com/terms/e/entrepreneur.asp)themselves, or executives recently retired from the business empires they've built.
-

@@ -99,4 +99,3 @@ return adaptee.getFullName().split(" ")[0];
 
 }
 <https://talkoverflow.com/adapter>
-

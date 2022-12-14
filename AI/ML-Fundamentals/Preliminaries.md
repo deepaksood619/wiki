@@ -29,5 +29,3 @@ No matter which framework you use, itstensor class**(ndarrayin MXNet,Tensorin bo
 A tensor represents a (possibly multi-dimensional) array of numerical values. With one axis, a tensor corresponds (in math) to a**vector**. With two axes, a tensor corresponds to a**matrix**. Tensors with more than two axes do not have special mathematical names.
 
 It provides a variety of functionalities including basic mathematics operations, **broadcasting, indexing, slicing, memory saving, and conversion** to other Python objects
-
-

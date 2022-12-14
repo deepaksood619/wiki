@@ -58,8 +58,3 @@ kubectl describe cm istio -n istio-system
 -   Locking down ingress GW ports
 -   Auto sidecar injection
 -   Production grade Prometheus & Jaeger
-
-
-
-
-

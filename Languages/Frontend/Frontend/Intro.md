@@ -89,4 +89,3 @@ When cookies were first developed, they were used to better the developer's expe
 -   Session storage exists only within the current browser tab - even two tabs loaded with the same website will have different sessionStorage data
 -   sessionStorage data survives page refresh, but not closing/opening the tab. LocalStorage data, on the other hand, is shared between all tabs and windows from the same origin
 -   LocalStorage data does not expire; it remains after the browser is restarted and even after OS reboot
-

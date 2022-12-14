@@ -174,4 +174,3 @@ Modified: 2022-04-05 00:25:40 +0500
 <https://www.class-central.com/report/mooc-mba-top-b-schools
 
 Management development program (Executive programme in Business and Data Analysis)
-

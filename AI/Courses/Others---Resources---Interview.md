@@ -330,4 +330,3 @@ Convoluational neural network - <https://towardsdatascience.com/the-most-intuiti
 <https://www.conordewey.com/blog/the-big-list-of-data-science-interview-resources>
 
 <https://towardsdatascience.com/the-uber-data-scientist-interview-7ba9ca95f4e3>
-

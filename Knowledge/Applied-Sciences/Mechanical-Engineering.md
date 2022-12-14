@@ -190,6 +190,3 @@ The theorem describes the following effect: rotation of an object around its fir
 TheVenturi effectis the reduction in[fluid pressure](https://en.wikipedia.org/wiki/Fluid_pressure)that results when a fluid flows through a constricted section (or choke) of a pipe. The Venturi effect is named after its discoverer, the 18th century Italian[physicist](https://en.wikipedia.org/wiki/Physicist),[Giovanni Battista Venturi](https://en.wikipedia.org/wiki/Giovanni_Battista_Venturi).
 
 <https://en.wikipedia.org/wiki/Venturi_effect>
-
-
-

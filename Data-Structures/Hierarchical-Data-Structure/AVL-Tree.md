@@ -19,4 +19,3 @@ Most of the BST operations (e.g., search, max, min, insert, delete.. etc) take O
 <https://www.geeksforgeeks.org/avl-tree-set-1-insertion>
 
 <https://en.wikipedia.org/wiki/AVL_tree>
-

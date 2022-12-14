@@ -308,4 +308,3 @@ Another way to reduce latency associated with high command volume is to pipeline
 | **LSET**        | set value of an element in a list               | reducing the length of the list                                                              |
 | **LREM**        | remove elements from a list                     | reducing the length of the list                                                              |
 | **LRANGE**      | get range of elements from a list               | reduce the start offset and/or the number of elements in range                               |
-

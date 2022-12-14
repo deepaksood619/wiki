@@ -31,5 +31,3 @@ memo[row][col] = memo[row-1][col] + memo[row][col-1] - memo[row-1][col-1] + matr
 x1, y1, x2, y2 = 1, 2, 2, 2
 
 print(memo[x2][y2] - memo[x1-1][y2] - memo[x2][y1-1] + memo[x1-1][y1-1])
-
-

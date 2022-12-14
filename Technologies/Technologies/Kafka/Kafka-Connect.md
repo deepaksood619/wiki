@@ -248,5 +248,3 @@ Attempt to heartbeat failed since group is rebalancing
 This member will leave the group because consumer poll timeout has expired. This means the time between subsequent calls to poll() was longer than the configured max.poll.interval.ms, which typically implies that the poll loop is spending too much time processing messages. You can address this either by increasing max.poll.interval.ms or by reducing the maximum size of batches returned in poll() with max.poll.records. (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
 
 Member connect-1-38c5d959-4b87-42fd-a449-03bc7b109962 sending LeaveGroup request to coordinator ke-cp-kafka-0.ke-cp-kafka-headless.kafka:9092 (id: 2147483647 rack: null) (org.apache.kafka.clients.consumer.internals.AbstractCoordinator)
-
-

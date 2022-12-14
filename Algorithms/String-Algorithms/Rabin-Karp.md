@@ -21,7 +21,3 @@ Modified: 2018-12-23 22:45:07 +0500
 ![image](media/Rabin-Karp-image7.png)
 
 ![image](media/Rabin-Karp-image8.png)
-
-
-
-

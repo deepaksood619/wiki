@@ -75,17 +75,3 @@ Modified: 2020-12-27 22:23:44 +0500
 
 ## Conclusion
 -   Graph-structured data are increasingly common in data science contexts due to their ubiquity in modeling the communication between entities: people (social networks), computers (Internet communication), cities and countries (transportation networks), or corporations (financial transactions).
-
-
-
-
-
-
-
-
-
-
-
-
-
-

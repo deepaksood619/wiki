@@ -556,5 +556,3 @@ Polyphasic sleep is the practice of sleeping in numerous smaller blocks during t
 -   Help with insomnia.
 -   Help many workers cope with their demanding schedules.
 -   Improve overall sleep quality and quality of life.
-
-

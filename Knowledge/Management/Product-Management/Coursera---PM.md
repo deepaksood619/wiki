@@ -181,5 +181,3 @@ Associate product managers (APMs) / Rotational Product Managers (RPMs)
 <https://www.coursera.org/specializations/uva-darden-digital-product-management>
 
 <https://www.coursera.org/specializations/product-management>
-
-

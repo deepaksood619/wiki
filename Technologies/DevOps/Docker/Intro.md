@@ -78,5 +78,3 @@ Adocker-compose.ymlfile is a YAML file that defines how Docker containers should
 <https://codefresh.io/containers/docker-anti-patterns
 
 [Docker Image Pipelines and Patterns](https://www.youtube.com/watch?v=ODXSPVZA4c8)
-
-

@@ -143,5 +143,3 @@ Requirements specified to achieve the end result. The overall definition of what
 Together, these three constraints have given rise to the phrase "On Time, On Spec, On Budget." In this case, the term "scope" is substituted with "spec(ification)."
 
 <https://en.wikipedia.org/wiki/Project_management_triangle>
-
-

@@ -18,4 +18,3 @@ A*collections framework*is a unified architecture for representing and manipulat
 Apart from the Java Collections Framework, the best-known examples of collections frameworks are the C++ Standard Template Library (STL) and Smalltalk's collection hierarchy.
 
 ![image](media/Collections-image1.png)
-

@@ -45,4 +45,3 @@ Step 6 - The Job Tracker inform the completion to client
 Step 7 - Client contacts the Name Node and retrieve the results
 
 ![00 record of Project • We hav ustomers and we want to flQll customer from "Mumbai" Node Records Tash tractær Data Node Tash tracker Data Node 0b racke Name Node Tash tra er Node Find the customer staying in "Mumbai" 5 4001 001 12000 16 1 QOOOO Task tracker Data Node Task tr acher Task tracker 01.2 ](../../../media/Technologies-Apache-Hadoop-MapReduce-1.0-image3.jpg)
-

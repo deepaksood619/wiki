@@ -113,4 +113,3 @@ CodeIgniter is based on theModel-View-Controller (MVC) development pattern. MVC 
 -   TheControllerserves as an intermediary between the Model, the View, and any other resources needed to process the HTTP request and generate a web page.
 
 <https://www.tutorialspoint.com/codeigniter/codeigniter_mvc_framework.htm>
-

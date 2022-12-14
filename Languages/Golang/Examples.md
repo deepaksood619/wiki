@@ -127,5 +127,3 @@ log.Fatalf("%s: %s", "Failed to publish a message", err)
 fmt.Println("publish success!")
 
 }
-
-

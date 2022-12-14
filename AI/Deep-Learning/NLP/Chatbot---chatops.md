@@ -440,9 +440,3 @@ Business motivation for implementing virtual assistants in companies
 -   Employee productivity
 -   High or fluctuating contact center volume
 -   Brand loyalty
-
-
-
-
-
-

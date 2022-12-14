@@ -109,6 +109,3 @@ Map Reduce
 <https://techvidvan.com/tutorials/how-hadoop-works-internally
 
 <https://www.toptal.com/hadoop/interview-questions>
-
-
-

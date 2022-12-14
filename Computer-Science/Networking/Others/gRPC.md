@@ -196,4 +196,3 @@ Online book - Practical gRPC
 [**The complete gRPC course [Protobuf, Go, Java]**](https://www.youtube.com/playlist?list=PLy_6D98if3UJd5hxWNfAqKMr15HZqFnqf)
 
 [gRPC Crash Course - Modes, Examples, Pros & Cons and more](https://www.youtube.com/watch?v=Yw4rkaTc0f8)
-

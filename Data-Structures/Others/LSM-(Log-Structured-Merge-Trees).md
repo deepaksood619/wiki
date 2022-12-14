@@ -91,4 +91,3 @@ As you can see all write operations in LSM Trees are sequential: Write-Ahead Log
 ## LMS Trees (Copy on Write B-Trees)**
 -   Take B-Tree, let's make the pages immutable (every page is a new instance appended to old instance)
 <https://blog.acolyer.org/2014/11/26/the-log-structured-merge-tree-lsm-tree>
-

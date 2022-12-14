@@ -94,4 +94,3 @@ Modified: 2022-08-27 17:44:08 +0500
     -   The river is flowing through the states of MP, Maharastra and Gujarat
     -   Kakrapar Dam, Ukai Dam, Girna Dam are the major projects on this river
     -   The Suki, the Gomai, the Arunavati, the Vaghur, the Amravati, the Puma, the Mona, and the Sipna are the major tributaries of Tapti River
-

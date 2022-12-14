@@ -77,4 +77,3 @@ The best fit for your situation will depend heavily upon the state of the data t
 <https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared>
 
 ![](media/Big-Data_Processing-Engine-image1.png)
-

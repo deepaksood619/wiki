@@ -183,4 +183,3 @@ The rest of the tools belong in that group of sequential or parallel tasks:
 -   **Compilation -** specifically separate from transpiling ES6 and JSX to ES5, is the act of including assets, processing CSS files as JSON, or other mechanisms that can load and inject external assets and code into a file. In addition, there are all sorts of build steps that can analyze your code and even optimize it for you.
 -   **Minification and Compression -** typically part of -- but not exclusively controlled by -- compilation, is the act of minifying and compressing a JS file into fewer and/or smaller files
 -   **Source-Mapping -** another optional part of compilation is building source maps, which help identify the line in the original source code that corresponds with the line in the output code (i.e. where an error occurred)
-

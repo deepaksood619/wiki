@@ -170,7 +170,7 @@ Question
 
 ![image](media/Regularization-image44.png)
 
-#  
+#
 
 ![image](media/Regularization-image45.png)
 
@@ -206,7 +206,7 @@ What might having multiple output nodes do?Having multiple output nodes allows y
 
 ![image](media/Regularization-image55.png)
 
-# 
+#
 
 # Training Neural Networks
 
@@ -216,7 +216,7 @@ What might having multiple output nodes do?Having multiple output nodes allows y
 
 ![image](media/Regularization-image58.png)
 
-# 
+#
 
 ![image](media/Regularization-image59.png)
 
@@ -255,41 +255,3 @@ What might having multiple output nodes do?Having multiple output nodes allows y
 ![image](media/Regularization-image75.png)
 
 ![image](media/Regularization-image76.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

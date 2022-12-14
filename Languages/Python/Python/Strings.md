@@ -63,8 +63,8 @@ print(f'{now=:Y-%m-%d}')
 <td>2</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_center.htm"><strong>center(width, fillchar)</strong></a></p>
 <p>Returns a space-padded string with the original string centered to a total of width columns.</p>
-<p>&gt;&gt;&gt; width = 20<br 
-&gt;&gt;&gt; print 'HackerRank'.center(width,'-')<br 
+<p>&gt;&gt;&gt; width = 20<br
+&gt;&gt;&gt; print 'HackerRank'.center(width,'-')<br
 -----HackerRank-----</p></td>
 </tr>
 <tr class="even">
@@ -151,8 +151,8 @@ print(f'{now=:Y-%m-%d}')
 <td>18</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_join.htm"><strong>join(seq)</strong></a></p>
 <p>Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string.</p>
-<p>s = "-";<br 
-seq = ("a", "b", "c"); # This is sequence of strings.<br 
+<p>s = "-";<br
+seq = ("a", "b", "c"); # This is sequence of strings.<br
 print s.join( seq )</p>
 <p></p>
 <p>Also lists can also be joined</p>
@@ -168,8 +168,8 @@ print s.join( seq )</p>
 <td>20</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_ljust.htm"><strong>ljust(width[, fillchar])</strong></a></p>
 <p>Returns a space-padded string with the original string left-justified to a total of width columns.</p>
-<p>&gt;&gt;&gt; width = 20<br 
-&gt;&gt;&gt; print 'HackerRank'.ljust(width,'-')<br 
+<p>&gt;&gt;&gt; width = 20<br
+&gt;&gt;&gt; print 'HackerRank'.ljust(width,'-')<br
 HackerRank----------</p></td>
 </tr>
 <tr class="even">
@@ -218,8 +218,8 @@ HackerRank----------</p></td>
 <td>29</td>
 <td><p><a href="https://www.tutorialspoint.com/python/string_rjust.htm"><strong>rjust(width,[, fillchar])</strong></a></p>
 <p>Returns a space-padded string with the original string right-justified to a total of width columns.</p>
-<p>&gt;&gt;&gt; width = 20<br 
-&gt;&gt;&gt; print 'HackerRank'.rjust(width,'-')<br 
+<p>&gt;&gt;&gt; width = 20<br
+&gt;&gt;&gt; print 'HackerRank'.rjust(width,'-')<br
 ----------HackerRank</p></td>
 </tr>
 <tr class="odd">
@@ -671,4 +671,3 @@ Python string formatters
 <https://pyformat.info
 
 <https://realpython.com/python-encodings-guide
-

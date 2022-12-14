@@ -441,5 +441,3 @@ sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 <https://networking.grok.lsu.edu/article.aspx?articleid=17573>
 
 settings (google search - how to disable ipv6 in windows)
-
-

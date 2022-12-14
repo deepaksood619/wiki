@@ -27,4 +27,3 @@ A suspending function asynchronously returns a single value, but how can we retu
 <https://developer.android.com/kotlin/flow>
 
 <https://kotlinlang.org/docs/flow.html>
-

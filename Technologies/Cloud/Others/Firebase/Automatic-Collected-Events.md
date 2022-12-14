@@ -204,5 +204,3 @@ The following parameters are collected by default with every event, including[cu
 </tr>
 </tbody>
 </table>
-
-

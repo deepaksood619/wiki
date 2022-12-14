@@ -244,6 +244,3 @@ a political leader who seeks support by appealing to the desires and prejudices 
 ![image](media/Politics-image6.jpg)
 
 ![image](media/Politics-image7.jpg)
-
-
-

@@ -590,4 +590,3 @@ You understand an idea not when you've memorized it, but when you know why its s
 ## Others
 
 [Marty Lobdell - Study Less Study Smart](https://youtu.be/IlU-zDU6aQ0)
-

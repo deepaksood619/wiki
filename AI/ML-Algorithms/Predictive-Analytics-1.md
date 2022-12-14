@@ -105,8 +105,3 @@ Modified: 2021-10-10 19:16:26 +0500
 -   The Random Forest could be trained in the distributed environment with the high degree of parallelization
 -   **Predictive Power:** As far as predictive power of the Random Forest is, on the one hand better than a single decision tree, but it is slightly worse than gradient boosted decision trees
 -   **Interpretability:** Here you'll lose the interpretability because their composition of hundreds or thousands Random Forest decision trees cannot be analyzed by human expert
-
-
-
-
-

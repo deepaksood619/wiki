@@ -420,8 +420,8 @@ In above example space was directly used to match the pattern instead of lookaro
 
 <table>
 <colgroup>
-<col style="width: 20%" 
-<col style="width: 79%" 
+<col style="width: 20%"
+<col style="width: 79%"
 </colgroup>
 <thead>
 <tr class="header">

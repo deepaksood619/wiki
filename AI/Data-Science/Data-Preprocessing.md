@@ -128,9 +128,3 @@ p and q are the attribute values for two data objects
 <https://vita.had.co.nz/papers/tidy-data.pdf>
 
 <https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html>
-
-
-
-
-
-

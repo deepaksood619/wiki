@@ -39,7 +39,3 @@ Remarks - Keys may have associated data => can't just count up number of keys of
 ![image](media/Key-indexed-Counting-image7.png)
 
 ![image](media/Key-indexed-Counting-image8.png)
-
-
-
-

@@ -211,5 +211,3 @@ EC2 Image Builder
 ## GPU
 
 <https://aws.amazon.com/ec2/instance-types/g4
-
-

@@ -48,4 +48,3 @@ KubeEdge is composed of the following components:
 <https://kubeedge.io/en
 
 <https://github.com/kubeedge/kubeedge>
-

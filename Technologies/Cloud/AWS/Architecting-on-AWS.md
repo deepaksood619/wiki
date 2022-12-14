@@ -223,5 +223,3 @@ Gain operational insights and take action on AWS resources
 ![Large Scale Architectural Diagram Region ypc aws Amazon Amazon CloudFront A azon Ro te 53 Static assets Internet Gateway NAT Gateway Public Subnet Application Load Balancer Public Subnet NAT Gateway Amazon EC2 Instance App Subnet Auto Scaling App Subnet Amazon EC2 Instance Amazon RDS EFS Mount Memcached Data Subnet Data Subnet Memcached Standby ---l Amazon Target Amazon training and certification o Amazon EFS o EFS Mount RDS Master Target ](../../media/Cloud-AWS-Architecting-on-AWS-image1.png)
 
 ![Architecture](../../media/Cloud-AWS-Architecting-on-AWS-image2.png)
-
-

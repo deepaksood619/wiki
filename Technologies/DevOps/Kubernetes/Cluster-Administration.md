@@ -43,4 +43,3 @@ The federated clusters can achieve this by doing the following two things
 ![Federated Clusters - Kubernetes Interview Questions - Edureka](../../media/DevOps-Kubernetes-Cluster-Administration-image1.png)
 
 <https://github.com/kubernetes-sigs/kubefed>
-

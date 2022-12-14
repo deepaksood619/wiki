@@ -27,4 +27,3 @@ It's a fast model to learn and effective on binary classification problems.
 This kind of classi‑cation algorithm came into being where linear regressions failed. Unlike linear regression, where the prediction is made based on a continuous output, logistic regression gives us a binary output (like is this tumor malignant or not). It considers several parameters and initially achieves exponential growth then reaches its highest point at the carrying capacity creating an S-shaped curve instead of the default straight line used in linear regression. In this case, we can very eciently predict the binary result according to its weight. A higher weight indicates that the result should be true and a lower weight indicates a false output. This is a widely used technique in classifying inputs into true or false.
 
 ![image](media/Logistic-regression-image1.png)
-

@@ -36,6 +36,3 @@ Proposition. For partially-sorted arrays, insertion sort runs in linear time.
 Pf. Number of exchanges equals the number of inversions.
 
 ![image](media/Insertion-Sort-image3.png)
-
-
-

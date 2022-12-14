@@ -131,4 +131,3 @@ Networking - HTTP, WebSockets
 -   Search everytime someone searches
 -   Since, search is very expensive and done so rarely
 -   Group Table for group chat
-

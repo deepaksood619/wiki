@@ -100,4 +100,3 @@ SG - Security Groups
 -   Limited to five Elastic IP addresses per account
 
 <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-eips.html>
-

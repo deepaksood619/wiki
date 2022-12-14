@@ -143,4 +143,3 @@ To bait/expose customers to high cost - high margin products
 Geopolitical Series: <http://www.youtube.com/playlist?list=PLGwmAEmjn4fkd3IgCnFZSbocpTnka87Pn>
 
 <https://www.freecodecamp.org/news/important-lessons-they-dont-teach-you-in-business-school
-

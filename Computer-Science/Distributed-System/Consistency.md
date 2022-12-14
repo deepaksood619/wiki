@@ -96,4 +96,3 @@ Conclusion
 ## References
 
 <https://www.dotconferences.com/2015/06/dan-brown-convergent-replicated-data-types>
-

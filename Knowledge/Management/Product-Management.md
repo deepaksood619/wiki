@@ -591,6 +591,3 @@ Product sense relies on
 <https://www.lennysnewsletter.com
 
 <https://noidea.dog/glue>
-
-
-

@@ -31,5 +31,3 @@ In a typical deployment, there are a few parameter server nodes, a single chief 
 The following diagram describes the architecture for running a distributed training job on Cloud ML Engine and using Cloud Datalab to execute predictions with your trained model.
 
 ![image](media/ML-Model-Deployment_Distributed-Training-image2.png)
-
-

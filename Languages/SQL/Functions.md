@@ -427,4 +427,3 @@ Yes, you can access both previous and future rows, using the LAG and LEAD functi
 ## Can I generate running totals with window functions?
 
 Yes, you can add the ORDER BY clause to produce running totals on each row.
-

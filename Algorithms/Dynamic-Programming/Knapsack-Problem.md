@@ -21,4 +21,3 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 <https://en.wikipedia.org/wiki/Knapsack_problem>
 
 <https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10
-

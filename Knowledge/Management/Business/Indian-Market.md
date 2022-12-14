@@ -11,5 +11,3 @@ Modified: 2022-05-25 15:09:27 +0500
 ![image](media/Business_Indian-Market-image1.jpeg)
 
 ![image](media/Business_Indian-Market-image2.jpeg)
-
-

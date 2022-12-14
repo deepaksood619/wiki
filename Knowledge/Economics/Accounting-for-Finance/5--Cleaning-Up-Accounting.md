@@ -132,4 +132,3 @@ Starting in 2019, both GAAP and IFRS are requiring companies to treat all lease 
 ![image](media/Accounting-for-Finance_5--Cleaning-Up-Accounting-image2.jpg)
 
 ![image](media/Accounting-for-Finance_5--Cleaning-Up-Accounting-image3.jpg)
-

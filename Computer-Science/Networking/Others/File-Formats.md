@@ -256,4 +256,3 @@ HDF5®allows you to keep the metadata with the data, streamlining data lifecycle
 [**https://realpython.com/storing-images-in-python/**](https://realpython.com/storing-images-in-python/)
 
 [**https://github.com/realpython/materials/blob/storing-images/storing-images/storing_images.ipynb**](https://github.com/realpython/materials/blob/storing-images/storing-images/storing_images.ipynb)
-

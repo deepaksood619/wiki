@@ -249,15 +249,3 @@ Sets4Reps10Rest0secTempo2010
 ![](media/Exercise---Stretching_Home-+-Gym-image24.jpg)
 
 Sets4Reps10Rest60secTempo2010
-
-
-
-
-
-
-
-
-
-
-
-

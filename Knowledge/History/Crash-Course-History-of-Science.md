@@ -35,5 +35,3 @@ Socratic method- where you ask a lot of questions (negative hypothesis eliminati
 1.  Plato
 
 2.  Aristotle
-
-

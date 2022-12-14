@@ -402,6 +402,3 @@ While someone may be improving on an absolute basis, they are often getting wors
 -   Take Asymmetric Risks
 -   You will make mistakes. Learn from it.
 -   Use First Principles
-
-
-

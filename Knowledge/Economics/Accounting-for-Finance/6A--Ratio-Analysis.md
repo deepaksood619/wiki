@@ -74,7 +74,3 @@ Ratios, by themselves, are just numbers and mean nothing, unless you use them to
 -   Past versus future
 
 While your ratios are in the past, investing and corporate finance are about the future
-
-
-
-

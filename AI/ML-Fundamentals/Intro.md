@@ -169,4 +169,3 @@ Although MSE is commonly-used in machine learning, it is neither the only practi
 [Mathematics of Machine Learning](https://www.youtube.com/watch?v=8onB7rPG4Pk)
 
 <https://www.youtube.com/watch?v=LlKAna21fLE>
-

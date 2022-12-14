@@ -19,4 +19,3 @@ Modified: 2019-12-02 14:01:40 +0500
 ![image](media/Questions-image4.png)
 
 ![image](media/Questions-image5.png)
-

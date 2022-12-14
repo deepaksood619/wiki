@@ -22,4 +22,3 @@ Modified: 2021-12-22 21:26:10 +0500
 -   The end result is that balance sheets today are a mess, measuring neither invested capital nor fair value. The most useful items on a balance sheet now are
     -   Cash & marketable securities, since it is not subject to nuance
     -   Debt, since it measures closely what is owed (at least on interest bearing liabilities)
-

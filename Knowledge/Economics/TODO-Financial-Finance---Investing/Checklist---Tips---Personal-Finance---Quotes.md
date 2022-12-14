@@ -424,5 +424,3 @@ Example - is the stock good invert to why is this stock not good
 ## Others
 
 [Contrarian Investing | Is Contrarian Investing Profitable? | ET Money](https://youtu.be/vnQRuNuJckE)
-
-

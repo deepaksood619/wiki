@@ -260,4 +260,3 @@ This is the fund you rush to in cases of emergencies. Such a fund should offer l
 -   An extension is allowed only once. (total time period - 8 years)
 
 A 6% return from arbitrage fund is enough (5.37% post-tax) to beat the 7.75% bonds even without factoring in the one-lakh tax-free gains.
-

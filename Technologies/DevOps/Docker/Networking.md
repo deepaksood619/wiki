@@ -81,4 +81,3 @@ When you start Docker, a[default bridge network](https://docs.docker.com/network
 <https://docs.docker.com/network
 
 <https://docs.docker.com/network/network-tutorial-standalone
-

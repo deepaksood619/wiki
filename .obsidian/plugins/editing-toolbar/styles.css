@@ -260,7 +260,7 @@ cMenuToolbar STATUS BAR MENU
 .cMenuToolbar-statusbar-menu  > .menu-item:is([data-section="ButtonAdd"]) .menu-item-icon{
   text-align: center;
 }
- 
+
 
 /*----------------------------------------------------------------
 cMenuToolbar STATUS BAR BUTTONS
@@ -290,31 +290,31 @@ cMenuToolbar SUPPORT
   text-align: center;
   color: var(--text-normal);
 }
- 
+
 
 #cMenuToolbarModalBar{
   align-items: center;
-  justify-items: center;  
+  justify-items: center;
   border: none;
   backdrop-filter: none;
 }
 
 #cMenuToolbarModalBar.cMenuToolbarGlassAesthetic .cMenuToolbarCommandItem{
-	
+
 background-color:#ffffff00;
-}	
+}
 
 #cMenuToolbarModalBar.cMenuToolbarGlassAesthetic [class^=cMenuToolbarCommandsubItem]{
-	
+
   background-color:#ffffff00;
-  }	
+  }
 #cMenuToolbarModalBar .cMenuToolbarCommandItem{
   justify-content: center;
   align-content: center;
   place-items: center;
 
-  }	
-  
+  }
+
 
 /*  #cMenuToolbarModalBar.cMenuToolbarTinyAesthetic .cMenuToolbarCommandItem svg{
      width: 1em;
@@ -322,7 +322,7 @@ background-color:#ffffff00;
  } */
 
 
- 
+
 div.modal-container.cMenuToolbar-Modal:not(.changename)  .modal-bg
 {
   background-color:transparent!important;
@@ -345,7 +345,7 @@ position: relative;
 
 .modal-container.cMenuToolbar-Modal  .modal  input[type='range'] {
   width: 90%;
- 
+
 }
 body.theme-dark .modal-container.cMenuToolbar-Modal  .modal  input[type='range'] {
  background-color: var(--background-secondary);
@@ -353,7 +353,7 @@ body.theme-dark .modal-container.cMenuToolbar-Modal  .modal  input[type='range']
 /*tiny 样式*/
 #cMenuToolbarModalBar.cMenuToolbarTinyAesthetic {
   align-items: center;
-  justify-items: center;  
+  justify-items: center;
   border: none;
   backdrop-filter: none;
   background-color: var(--background-primary);
@@ -367,7 +367,7 @@ body.theme-dark .modal-container.cMenuToolbar-Modal  .modal  input[type='range']
   box-shadow: none;
   margin-left: 0px;
   margin-right: 0px;
-  position: relative; 
+  position: relative;
   background-color:transparent;
     backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -381,11 +381,11 @@ body.theme-dark .modal-container.cMenuToolbar-Modal  .modal  input[type='range']
 
    margin-left: 4px;
    margin-right: 0px;
-   position: relative; 
+   position: relative;
    background-color:transparent;
      backdrop-filter: blur(8px);
    -webkit-backdrop-filter: blur(8px);
- 
+
  }
 
 
@@ -400,17 +400,17 @@ font-size: 10px;
   margin-right: 0px;
   position: relative;
   background-color: transparent;
- 
+
   place-items: center;
   clear: both;
   max-width: 28px;
   max-height: 23px;
-   
+
 }
  button[class^=cMenuToolbarCommandsubItem]::after {
 
   content:  url("data:image/svg+xml,%3Csvg width='4' height='4' version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024' enable-background='new 0 0 1024 1024' xml:space='preserve'%3E%3Cpath fill='%23666' d='M13.24 80.11 l461.75 560.8 q14.56 16.02 36.41 16.02 q21.85 0 36.42 -16.02 l463.2 -560.8 q10.2 -10.19 12.38 -24.75 q2.18 -14.57 -3.64 -27.68 q-5.82 -13.11 -18.21 -20.39 q-12.39 -7.29 -26.95 -7.29 l-924.95 0 q-20.4 0 -34.23 13.11 q-13.84 13.11 -15.29 32.77 q-1.46 19.66 13.11 34.23 Z'/%3E%3C/svg%3E");
-  
+
  margin-left: 1px;
  margin-top:6px;
 
@@ -429,7 +429,7 @@ font-size: 10px;
     transform: translateY(90%) translateX(0%);
     -webkit-transform: translateY(90%) translateX(0%);
     display: flex;
-    
+
 }
 :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar) button[class^=cMenuToolbarCommandsubItem]  >.subitem svg
 {
@@ -459,7 +459,7 @@ font-size: 10px;
   padding: 0px 4px 0px 4px;
 }
 :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar) button[class^=cMenuToolbarCommandsubItem] >.subitem  {
- 
+
  visibility:hidden;
  transition: all 0.3s linear;
  -webkit-transition:  all 0.3s linear;
@@ -480,25 +480,25 @@ background-image: url("data:image/svg+xml,%3Csvg width='4' height='4' version='1
     width: 16px;
     height: 20px;
     background-position: center;
- 
+
     background-repeat: no-repeat;
     min-width: unset;
     border-left: 2px solid  transparent;
  }
 
- :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar):not(.top) button.cMenuToolbarCommandsubItem-font-color .triangle-icon 
+ :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar):not(.top) button.cMenuToolbarCommandsubItem-font-color .triangle-icon
  {
   margin-left: 16px;
-  
+
  }
- 
+
  :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar):not(.top) button.cMenuToolbarCommandsubItem-font-color .x-color-picker-wrapper
 {
   top:auto;
 bottom:calc(100% + 1.8em);
 }
 
- 
+
 :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar) button.cMenuToolbarCommandsubItem-font-color .subitem
 {
   visibility:hidden;
@@ -514,7 +514,7 @@ bottom:calc(100% + 1.8em);
 
 
 :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar) button[class^=cMenuToolbarCommandsubItem]:hover >.subitem  {
- 
+
   visibility:visible;
  transition: all 0.3s linear;
  -webkit-transition:  all 0.3s linear;
@@ -535,7 +535,7 @@ bottom:calc(100% + 1.8em);
 }
 
  .cMenuToolbarSettingsTabsContainer .cMenuToolbarCommandItem .setting-item-info {
-  
+
   flex:30%;
 margin: 0;
 }
@@ -584,8 +584,8 @@ flex: 0;
 
 .setting-item button.cMenuToolbarSettingsIcon{
   display: block;
-  transform: translateX(-30%); 
-  -webkit-transform: translateX(-30%); 
+  transform: translateX(-30%);
+  -webkit-transform: translateX(-30%);
 }
 .setting-item button.cMenuToolbarSettingsIcon:empty::before{
  content: "❗";
@@ -691,14 +691,14 @@ background-color:transparent !important;
     align-items: center;
     transition: all 0.2s linear;
     -webkit-transition:  all 0.2s linear;
-    
+
 }
 
 #cMenuToolbarModalBar.top :is(.cMenuToolbarCommandItem,button[class^=cMenuToolbarCommandsubItem]):not(.cMenuToolbar-Divider-Line)
 {
 font-size: 10px;
   margin-right: 0px;
-  clear: both;  
+  clear: both;
   opacity: 1;
   flex-shrink:0;
     height: 26px;
@@ -715,23 +715,23 @@ font-size: 10px;
     transition: all 0.2s linear;
     -webkit-transition:  all 0.2s linear;
 
- 
 
-    
+
+
 }
 #cMenuToolbarModalBar.top button.cMenuToolbarCommandItem:hover {
   background-color: var(--interactive-hover);
 }
 
- 
+
 
 #cMenuToolbarPopoverBar{
-  
+
     padding: 0 10px;
     display: inline-flex;
     align-items: center;
     width: fit-content;
-    z-index: var(--layer-status-bar); 
+    z-index: var(--layer-status-bar);
     background-color: var(--background-primary);
       background-clip: padding-box;
       border-radius: 6px;
@@ -752,7 +752,7 @@ font-size: 10px;
 margin-left: 4px;
     font-size: 10px;
   margin-right: 4px;
-  clear: both;  
+  clear: both;
   opacity: 1;
   flex-shrink:0;
     height: 26px;
@@ -768,7 +768,7 @@ margin-left: 4px;
     align-items: center;
     transition: all 0.2s linear;
     -webkit-transition:  all 0.2s linear;
-   
+
 }
 #cMenuToolbarPopoverBar :is(.cMenuToolbarCommandItem,button[class^=cMenuToolbarCommandsubItem]):hover{
   background-color: var(--interactive-hover);
@@ -788,7 +788,7 @@ margin-left: 4px;
  .cMenuToolbarSettingsTabsContainer .cMenuToolbar-Divider-Line
  {
   padding: 0;
-   
+
   line-height: 0px;
   border-left: 200px solid rgba(var(--interactive-accent-rgb),0.05);
   border-right: 200px solid rgba(var(--interactive-accent-rgb),0.05);
@@ -800,11 +800,11 @@ margin-left: 4px;
    display: none;
  }
 
- .cMenuToolbarSettingsTabsContainer .cMenuToolbar-Divider-Line .setting-item-info 
+ .cMenuToolbarSettingsTabsContainer .cMenuToolbar-Divider-Line .setting-item-info
  {
   flex: 1 1 auto;
  }
- .cMenuToolbarSettingsTabsContainer .cMenuToolbar-Divider-Line .setting-item-control 
+ .cMenuToolbarSettingsTabsContainer .cMenuToolbar-Divider-Line .setting-item-control
  {
   justify-content: flex-start;
  }
@@ -842,7 +842,7 @@ margin-left: 4px;
 {
 
     background-color: #4f4f5188;
- 
+
 }
 :is(#cMenuToolbarModalBar,#cMenuToolbarPopoverBar)  button.cMenuToolbarCommandItem.cMenuToolbar-Divider-Line svg
 {

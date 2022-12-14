@@ -41,5 +41,3 @@ mydb1.close()
 ## bamboolib
 
 <https://towardsdatascience.com/introducing-bamboolib-a-gui-for-pandas-4f6c091089e3>
-
-

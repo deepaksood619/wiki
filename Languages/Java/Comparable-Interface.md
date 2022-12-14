@@ -15,4 +15,3 @@ Que - How can sort() know how to compare data of type Double, String, and java.i
 Sol - **Callback = reference to executable code**
 -   Client passes array of objects to sort() function.
 -   The sort() function calls back object's compareTo() method as needed.
-

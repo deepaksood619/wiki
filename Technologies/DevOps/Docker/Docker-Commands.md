@@ -125,7 +125,7 @@ docker build -f docker/Dockerfile.dev -t partners-api:latest .
 
 docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
 
-## 
+##
 
 ## Info
 -   **[docker history](https://docs.docker.com/engine/reference/commandline/history)shows history of image.**

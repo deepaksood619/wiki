@@ -106,5 +106,3 @@ Penpot is the first Open Source design and prototyping platform meant for cross-
 <https://medium.com/@siw_grinaker/top-12-design-systems-b598368be5a6>
 
 <https://www.freecodecamp.org/news/how-to-create-and-implement-a-design-system-with-css
-
-

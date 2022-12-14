@@ -110,4 +110,3 @@ The experiments showed how normal, intelligent people were willing to give an ob
 ## Mindwandering
 
 ![image](media/Human-Psychology-&-Thinking-image1.jpeg)
-

@@ -485,4 +485,3 @@ There's many a slip 'twixt the cup and the lip
 Success breeds complacency, complacency breeds failure. Only the paranoid survive -- Intel's ex-CEO, Andrew Grove
 
 Wonderful businesses come with a curse of three. These are: surplus cash, surplus time, surplus confidence.
-

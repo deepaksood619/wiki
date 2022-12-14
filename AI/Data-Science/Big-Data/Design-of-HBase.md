@@ -98,5 +98,3 @@ Modified: 2022-04-05 21:18:03 +0500
 ![image](media/Big-Data_Design-of-HBase-image3.png)
 
 ![](media/Big-Data_Design-of-HBase-image4.png)
-
-

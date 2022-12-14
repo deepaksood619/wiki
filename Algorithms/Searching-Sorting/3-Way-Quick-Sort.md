@@ -1,4 +1,4 @@
-# 3-Way Quick Sort 
+# 3-Way Quick Sort
 
 Created: 2018-02-03 13:06:54 +0500
 
@@ -21,4 +21,3 @@ Randomized quicksort with 3-way partitioning reduces running time from linearith
 
 
 ![image](media/3-Way-Quick-Sort-image1.png)
-

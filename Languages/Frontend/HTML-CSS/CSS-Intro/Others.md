@@ -79,5 +79,3 @@ Web Content Accessibility Guidelines (WCAG) 2.0 covers a wide range of recommend
 ## Resources
 
 <https://www.freecodecamp.org/news/how-to-make-a-landing-page-using-html-scss-and-javascript
-
-

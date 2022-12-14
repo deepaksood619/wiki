@@ -71,5 +71,3 @@ Feature Toggles are also refered to as Feature Flags, Feature Bits, or Feature F
     a.  **Per-request overrides**
 
 <https://martinfowler.com/articles/feature-toggles.html>
-
-

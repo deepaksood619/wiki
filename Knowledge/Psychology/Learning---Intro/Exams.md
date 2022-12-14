@@ -43,6 +43,3 @@ Simulate your exam by doing mock exams (or if you lack those, with other problem
 ![image](media/Learning---Intro_Exams-image5.png)
 
 Testing (1 hour of testing is far productive than 1 hour of learning)
-
-
-

@@ -79,4 +79,3 @@ The tests we've implemented cover the following aspects:
 ## Specification
 
 protobuf.common.messageData
-

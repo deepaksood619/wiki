@@ -19,4 +19,3 @@ Proposition - Selection sort uses ~ N^2^ / 2 compares (Quadratic) and N exchange
 Running time - Quadratic time, even if input is sorted
 
 Number of exchanges - Linear, at max n exchanges
-

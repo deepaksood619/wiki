@@ -824,5 +824,3 @@ You believe environment controls you
 You believe you control environment and whatever you do matters for your results
 
 The true mark of a pro --- at anything --- is that he understands, loves, and is good at even the drudgery of his profession.
-
-

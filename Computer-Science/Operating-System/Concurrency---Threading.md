@@ -206,4 +206,3 @@ Dijkstra's Guarded Commands - <https://en.wikipedia.org/wiki/Guarded_Command_Lan
 Communicating sequential processes **- C.A.R. Hoare**
 [Rob Pike - 'Concurrency Is Not Parallelism'](https://vimeo.com/49718712)
 ![](media/Concurrency---Threading-image4.jpg)
-

@@ -312,7 +312,7 @@ A good example where I usually don't mock anything are file system interactions.
 Just like adding a time parameter for functions which use by default the current time might make your code way easier to test, adding arandom_stateparameter or aseedparameter to functions which use randomness helps.
 
 Here are some ways to seed random number generators:
-```
+```python
 >>> import random
 
 >>> random.seed(0)

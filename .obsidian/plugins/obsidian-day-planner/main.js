@@ -7044,7 +7044,7 @@ function pastClass(item) {
 }
 
 function instance($$self, $$props, $$invalidate) {
-	
+
 	const moment = window.moment;
 	let { summary } = $$props;
 	let { rootEl } = $$props;

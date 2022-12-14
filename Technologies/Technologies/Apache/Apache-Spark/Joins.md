@@ -35,5 +35,3 @@ In a Broadcast Join a copy of the small table is sent to all the Executors. Each
 -   We can create our own repartitioning key, e.g. using the key salting technique
 
 <https://towardsdatascience.com/the-art-of-joining-in-spark-dcbd33d693c>
-
-

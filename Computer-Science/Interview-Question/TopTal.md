@@ -14,4 +14,3 @@ Algorithm and Coding Round (Online - Codility)
 ![image](media/TopTal-image5.png)
 ![image](media/TopTal-image6.png)
 ![image](media/TopTal-image7.png)
-

@@ -333,7 +333,3 @@ How do I find Trades?
 -   At the money (ATM)
 
 [Power of SHORT STRADDLE in Volatile Markets!](https://www.youtube.com/watch?v=LR5d4HrNYwA)
-
-
-
-

@@ -129,4 +129,3 @@ The majority of modern applications need to be able to retrieve data in the shor
 -   Repeating a single detail with its master
 -   Adding short-circuit keys
 <https://rubygarage.org/blog/database-denormalization-with-examples>
-

@@ -195,5 +195,3 @@ Industries
 ## Others
 
 <https://finshots.in/archive/finshots-special-how-to-be-a-rational-investor
-
-

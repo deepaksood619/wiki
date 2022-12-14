@@ -132,4 +132,3 @@ Cmd + Ctrl + L - left
 Cmd + Ctrl + R - Right
 
 Cmd + enter - insert next row
-

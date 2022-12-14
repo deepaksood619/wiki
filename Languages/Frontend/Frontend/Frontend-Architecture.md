@@ -153,4 +153,3 @@ Electron allows us to cross-platform desktop applications with Javascript
 <https://dev.to/mmcshinsky/why-frontend-architecture-matters-1ldj>
 
 <https://github.com/h5bp/Front-end-Developer-Interview-Questions>
-

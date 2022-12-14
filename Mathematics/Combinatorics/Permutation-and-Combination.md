@@ -26,4 +26,3 @@ Combinations sound simpler than permutations, and they are. You have fewer combi
 [Easy Combinations and Permutations | BetterExplained](https://www.youtube.com/watch?v=bAk_7p5gAWc)
 
 ![image](media/Permutation-and-Combination-image1.jpg)
-

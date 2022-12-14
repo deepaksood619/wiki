@@ -59,5 +59,3 @@ We call the send() method with a callback function, which gets triggered when it
     -   Keys serve two goals: they are additional information that gets stored with the message, and they are also used to decide which one of the topic partitions the message will be written to. All messages with the same key will go to the same partition.
 
 <https://www.jesseyates.com/2020/01/01/high-performance-kafka-producers.html>
-
-

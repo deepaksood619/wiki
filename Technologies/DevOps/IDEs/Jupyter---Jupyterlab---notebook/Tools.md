@@ -37,4 +37,3 @@ Polynote is a different kind of notebook. It supports**mixing multiple languages
 <https://medium.com/netflix-techblog/notebook-innovation-591ee3221233>
 
 <https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29>
-

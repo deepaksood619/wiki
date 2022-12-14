@@ -144,5 +144,3 @@ vmq-admin trace client client-id=/Samhi-01
 vmq-admin trace client client-id=/Samhi-42 | grep Samhi-42
 
 vmq-admin trace client client-id=/Samhi-42 | grep Samhi-42 >> trace.log 2>&1 &
-
-

@@ -144,5 +144,3 @@ Kafka uses the Linux file system for persistence of messages
 -   Kafka architecture consists of brokers that take messages from the producers and add to a partition of a topics
 -   Kafka architecture supports two types of messaging system called publish-subscribe and queue system
 -   Brokers are the Kafka processes that process the messages in Kafka
-
-

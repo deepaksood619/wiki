@@ -114,4 +114,3 @@ $ django-admin.py startproject samplesite .
 -   Inline formsets
 
 <https://www.freecodecamp.org/news/create-a-social-media-app-with-django>
-

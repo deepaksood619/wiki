@@ -13,4 +13,3 @@ Modified: 2018-12-08 23:15:58 +0500
 ## References
 
 <https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture>
-

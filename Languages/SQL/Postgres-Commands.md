@@ -594,5 +594,3 @@ q
 Cannot use --keepdb after this, since new db is to be created
 
 <https://www.depesz.com/2019/12/10/how-to-effectively-dump-postgresql-databases
-
-

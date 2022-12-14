@@ -75,5 +75,3 @@ Complete M Laxmikanth Polity in 100 Parts by Dr Sidharth Arora Crack UPSC CSEIAS
 ![image](media/Intro-image1.jpeg)
 
 ![image](media/Intro-image2.jpeg)
-
-

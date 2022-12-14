@@ -22,4 +22,3 @@ Modified: 2022-04-07 21:19:04 +0500
 ![image](media/Intro---Syllabus_Unit-1---Solved-Problems-image6.png)
 Using union bound for P(A1^c^ U A2^c^) <= P(A1^c^) + P(A2^c^)
 ![image](media/Intro---Syllabus_Unit-1---Solved-Problems-image7.png)
-

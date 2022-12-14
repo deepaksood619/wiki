@@ -47,5 +47,3 @@ One of the largest drawbacks of Flink at the moment is that it is still a very y
 Summary
 
 Flink offers both low latency stream processing with support for traditional batch tasks. Flink is probably best suited for organizations that have heavy stream processing requirements and some batch-oriented tasks. Its compatibility with native Storm and Hadoop programs, and its ability to run on a YARN-managed cluster can make it easy to evaluate. Its rapid development makes it worth keeping an eye on.
-
-

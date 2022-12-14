@@ -77,7 +77,3 @@ Modified: 2021-12-22 21:21:15 +0500
 ![image](media/Accounting-for-Finance_2-Income-Statements-&-Profitability-Measures-image3.jpg)
 
 ![image](media/Accounting-for-Finance_2-Income-Statements-&-Profitability-Measures-image4.jpg)
-
-
-
-

@@ -246,4 +246,3 @@ HATEOAS (Hypermedia As The Engine Of Application State, is a constraint of the R
 -   **RESTful services:** A service layer that follows the REST architecture and HTTP protocol methods
 -   **Middleware:** Reusable functions that can control the flow of data and trigger additional functionality when interacting with REST services
 -   **Real-time:** A set of events that can be sent automatically when following the REST architecture
-

@@ -226,9 +226,3 @@ Project Calico, Canal, Kube Router, Romana Weave Net
 Project Calico, Kopeio, Weave Net
 
 <https://github.com/containernetworking/cni>
-
-
-
-
-
-

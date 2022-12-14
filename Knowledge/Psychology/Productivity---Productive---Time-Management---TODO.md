@@ -751,5 +751,3 @@ Organize Tomorrow Today by Jason Selk & Tom Bartow
 <https://www.productivitygame.com
 
 [Personal Productivity](https://www.youtube.com/watch?v=-f3dNkkFBvM)
-
-

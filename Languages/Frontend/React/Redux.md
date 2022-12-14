@@ -78,7 +78,7 @@ ReactDOM.render(
 
 <Provider store={store}>
 
-<App 
+<App
 
 </Provider>,
 
@@ -277,5 +277,3 @@ store.dispatch(decremented())
 [Akita](https://datorama.github.io/akita/)
 
 [Recoil](https://recoiljs.org/)
-
-

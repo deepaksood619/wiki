@@ -48,7 +48,3 @@ Meanwhile BFS basically just expands the search by one "step" (link, edge, whate
 <https://medium.com/cantors-paradise/dijkstras-shortest-path-algorithm-in-python-d955744c7064>
 
 <https://medium.com/basecs/finding-the-shortest-path-with-a-little-help-from-dijkstra-613149fbdc8e>
-
-
-
-

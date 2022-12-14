@@ -150,4 +150,3 @@ Axial skeleton = 80 Skull =22 Vertebral Coloumn = 26 Ribs = 12 Fore limb = 60 Hi
 <https://en.wikipedia.org/wiki/Human_skeleton>
 
 <https://en.wikipedia.org/wiki/List_of_bones_of_the_human_skeleton>
-

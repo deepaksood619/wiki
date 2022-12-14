@@ -104,4 +104,3 @@ volttron-ctl auth add --credentials "/.*/"
 -   If there are two historians (SQLite(platform) and Forward), if forward is turned off, then also data is lost.
 -   If server's platform historian is down then also data is lost
 -   client_volttron do not reconnect after the server starts again without restarting vcplatformagent-4.7 and data is lost
-

@@ -226,5 +226,3 @@ The binary repository can allow to host all of these under one roof, making thei
 ## Opendev
 
 <https://opendev.org
-
-

@@ -120,5 +120,3 @@ Data in Elasticsearch can be broadly divided into two types: exact values and fu
 *Exact values*are exactly what they sound like.Examples are a date or a user ID, but can also include exact strings such as a username or an email address. The exact valueFoois not the same as the exact valuefoo. The exact value2014is not the same as the exact value2014-09-15.
 
 *Full text*, on the other hand, refersto textual data---usually written in some human language --- like the text of a tweet or the body of an email.
-
-

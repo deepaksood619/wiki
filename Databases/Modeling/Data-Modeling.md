@@ -118,4 +118,3 @@ Store each attribute in a row instead of a column
     -   Ading an attribute to a populated subtype locks a smaller table-   Serialized LOB & Inverted Indexes
 -   Online Schema Changes
 -   Non-relational databases
-

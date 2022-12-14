@@ -40,4 +40,3 @@ A line that touches the curve at two points.
 
 [The Tangent Line and the Derivative (Calculus)](https://www.youtube.com/watch?v=O_cwTAfjgAQ)
 ![Tangent Lines ](media/Tangent-Line-and-the-Derivative-image13.jpg)
-

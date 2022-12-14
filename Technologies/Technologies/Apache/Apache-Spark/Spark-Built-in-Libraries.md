@@ -94,4 +94,3 @@ From JSON:
 c.jsonFile("tweets.json").registerAsTable("tweets")
 
 c.sql("select text, user.name from tweets")
-

@@ -131,4 +131,3 @@ HTTP2.0 Demo - <http://www.http2demo.io>
 <https://www.code-maze.com/http-series-part-1>
 
 [The Journey of an HTTP request to the Backend | Backend Engineering Show](https://youtu.be/K2qV6VpfR7I)
-

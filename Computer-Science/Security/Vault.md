@@ -91,16 +91,16 @@ vault secrets enable -path=aws aws
 ## # Gen
 ## # Dynamic Secrets
 
-vault write aws/config/root 
+vault write aws/config/root
 
 access_key=AKIAU2R6AAK3FIYUQBXY
 
-secret_key=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 
+secret_key=iedRCoJBtwJDBKSIMWKKT9NnrvuWdetAqZPQV3Eg
 
 region=ap-south-1
-vault write aws/roles/my-role 
+vault write aws/roles/my-role
 
-credential_type=iam_user 
+credential_type=iam_user
 
 policy_document=-<<EOF
 

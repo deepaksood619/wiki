@@ -166,4 +166,3 @@ Redis Enterprise 6.0
 <https://university.redislabs.com/courses/course-v1:redislabs+RU201+2020_03/about>
 
 <https://github.com/antirez/redis>
-

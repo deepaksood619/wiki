@@ -49,4 +49,3 @@ Dapr codifies thebest practicesfor building microservice applications into open,
 ![Dapr Conceptual Model](../../media/Technologies-Others-Others---Distributed-Systems-image1.jpg)
 
 <https://github.com/dapr/dapr>
-

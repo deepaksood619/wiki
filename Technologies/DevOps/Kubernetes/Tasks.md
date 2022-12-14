@@ -41,4 +41,3 @@ desiredReplicas = ceil[currentReplicas * ( currentMetricValue / desiredMetricVal
 ## PLEG - Pod Lifecycle Event Generator
 
 <https://developers.redhat.com/blog/2019/11/13/pod-lifecycle-event-generator-understanding-the-pleg-is-not-healthy-issue-in-kubernetes>
-

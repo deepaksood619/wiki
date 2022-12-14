@@ -275,5 +275,3 @@ A**diacritic**-- also**diacritical mark**,**diacritical point**,**diacritical si
 <https://en.wikipedia.org/wiki/Diacritic>
 
 <https://en.wikipedia.org/wiki/Circumflex>
-
-

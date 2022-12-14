@@ -25,4 +25,3 @@ Fields that have been deleted in the new schema will be deserialised as default 
 
 Backwards compatibility means that consumers using a newer version of the schema can read the data produced by a client with an earlier version of the schema. In a similar but reversed fashion as described above, fields that have been added in the newer version will be deserialised, but because the producer has no knowledge of the new fields, messages are transmitted with no data in those fields, and are subsequently deserialised with default values in the consumer.
 Fields that have been deleted in the new schema will naturally require that any subsequent code that was in place to handle that data be refactored to cope.
-

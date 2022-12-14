@@ -144,6 +144,3 @@ So, just what happens when you deliberately try to stretch a muscle? Sarcomeres 
 ## Others
 
 [Cold-Water Immersion and Cryotherapy: Neuroendocrine and Fat Browning Effects](https://www.youtube.com/watch?v=XaLd5w6zF7A)
-
-
-

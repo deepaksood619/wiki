@@ -43,4 +43,3 @@ The process to add an element into queue is called**Enqueue**and the process of 
 -   Implement stack using a queue
 -   Reverse first k elements of a queue
 -   Generate binary numbers from 1 to n using a queue
-

@@ -60,6 +60,3 @@ The sequence of stepsfollowed by thebulkAPI are as follows:
 
 See Also
 -   Data Structures > Others > Inverted Index
-
-
-

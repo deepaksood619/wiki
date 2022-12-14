@@ -48,4 +48,3 @@ Logistic regression, on the other hand, outputs a probability, which by definiti
 ![image](media/Regression-image1.jpeg)
 
 [Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
-

@@ -18,11 +18,11 @@ Nouns can be divided into two main categories: proper nouns and common nouns. Pr
 
 ## Verb
 
-A verb is a word that describes action or a state of being. The second part of this definition is important, as many believe that verbs are always action words that can be visualized. This is true of action verbs: run, walk, play, jump, sing, scream, etc. 
+A verb is a word that describes action or a state of being. The second part of this definition is important, as many believe that verbs are always action words that can be visualized. This is true of action verbs: run, walk, play, jump, sing, scream, etc.
 
 However, there are also linking verbs, and these types of verbs do not express action; instead, they express identity, classification, or existence. (The following are the most common linking verbs: is, am, was, were, are, and verb phrases ending in be, been, being.)
 
-Verbs often change their form as different endings are added to them. These endings are changed to show a verb's relationship to time. This is referred to as verb tense. 
+Verbs often change their form as different endings are added to them. These endings are changed to show a verb's relationship to time. This is referred to as verb tense.
 
 ## Infinitive
 
@@ -291,5 +291,3 @@ I fear no more."
     "Chester chooses chestnuts, cheddar cheese with chewy chives. He chews them and he chooses them. He chooses them and he chews them. . . . those chestnuts, cheddar cheese and chives in cheery, charming chunks."- repetition of the "ch" sound.
 
 <https://www.thoughtco.com/word-play-definition-1692504>
-
-

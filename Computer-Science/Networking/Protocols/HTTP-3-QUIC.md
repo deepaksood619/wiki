@@ -38,4 +38,3 @@ HTTP Version 2 - <https://httpwg.org/specs/rfc7540.html>
 
 HPACK: Header Compression for HTTP/2 - <https://httpwg.org/specs/rfc7541.html>
 <https://www.toptal.com/web/performance-working-with-http-3>
-

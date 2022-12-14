@@ -130,4 +130,3 @@ Larger code size can be traded for higher program speed when applying[loop unrol
 Atime/memory/data tradeoff attackis a type of[cryptographic attack](https://en.wikipedia.org/wiki/Cryptanalysis)where an attacker tries to achieve a situation similar to the[space--time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff)but with the additional parameter ofdata, representing the amount of data available to the attacker. An attacker balances or reduces one or two of those parameters in favor of the other one or two. This type of attack is very difficult, so most of the ciphers and encryption schemes in use were not designed to resist it.
 
 <https://en.wikipedia.org/wiki/Time/memory/data_tradeoff_attack>
-

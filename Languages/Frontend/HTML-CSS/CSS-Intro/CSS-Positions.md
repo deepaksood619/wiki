@@ -62,4 +62,3 @@ Once an element is set to position relative, absolute or fixed, some other posit
 -   z-index- Z-index controls the vertical stacking order of elements, and take only numbered integers. The higher the integer, the more forward this element is. (Somewhat like the "bring forward/backward" thing in powerpoint and photoshop).
 
 [Learn CSS Position In 9 Minutes](https://www.youtube.com/watch?v=jx5jmI0UlXU)
-

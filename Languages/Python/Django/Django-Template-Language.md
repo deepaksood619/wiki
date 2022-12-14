@@ -17,5 +17,3 @@ You can read more about tags and filters which are referred to as[template built
 This syntax is not unique to django - many other template languages in Python (and some outside of Python) have adopted a similar syntax.
 
 The Python language doesn't have the same syntax, but it does have the concept of[string templates](https://docs.python.org/2/library/string.html#template-strings)which is a very simplified version of a template engine.
-
-

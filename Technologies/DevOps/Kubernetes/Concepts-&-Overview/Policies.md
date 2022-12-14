@@ -100,7 +100,7 @@ For example, the policy file shown belowauthorizes user Bob to read pods in the 
 
     "resource": "pods",
 
-    "readonly": true  
+    "readonly": true
 
  }
 
@@ -351,4 +351,3 @@ policyTypes:
 - Ingress
 
 <https://kubernetes.io/docs/concepts/services-networking/network-policies
-

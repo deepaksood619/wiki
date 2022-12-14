@@ -170,4 +170,3 @@ Modifier filters remove tags and fields from a metric. If all fields are removed
 Metrics can be routed to different outputs using the metric name and tags
 
 <https://github.com/influxdata/telegraf/blob/master/docs/CONFIGURATION.md#metric-filtering>
-

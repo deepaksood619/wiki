@@ -64,5 +64,3 @@ Calculating the sum of the numbers from 1 to 100:
 
 >>> reduce(lambda x, y: x + y, range(1,101))
 5050
-
-

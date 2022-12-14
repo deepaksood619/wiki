@@ -116,6 +116,3 @@ Working memory is essentially your mental bandwidth.If you have a good working m
 <https://www.scotthyoung.com/blog/2019/04/24/working-memory
 
 <https://en.wikipedia.org/wiki/Mnemonic_major_system>
-
-
-

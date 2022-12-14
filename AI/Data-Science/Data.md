@@ -169,6 +169,3 @@ Data wrangling, sometimes referred to asdata munging, is the process of transfor
 This may include further[munging](https://en.wikipedia.org/wiki/Mung_(computer_term)),[data visualization](https://en.wikipedia.org/wiki/Data_visualization), data aggregation, training a[statistical model](https://en.wikipedia.org/wiki/Statistical_model), as well as many other potential uses. Data munging as a process typically follows a set of general steps which begin with extracting the data in a raw form from the data source, "munging" the raw data using algorithms (e.g. sorting) or parsing the data into predefined data structures, and finally depositing the resulting content into a data sink for storage and future use.
 
 <https://en.wikipedia.org/wiki/Data_wrangling>
-
-
-

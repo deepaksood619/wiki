@@ -191,5 +191,3 @@ testserver
 -   [makemigrations](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-makemigrations), which is responsible for creating new migrations based on the changes you have made to your models.
 -   [sqlmigrate](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-sqlmigrate), which displays the SQL statements for a migration.
 -   [showmigrations](https://docs.djangoproject.com/en/3.2/ref/django-admin/#django-admin-showmigrations), which lists a project's migrations and their status.
-
-

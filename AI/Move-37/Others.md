@@ -37,5 +37,3 @@ A Neural Network that takes a state and approximates Q-values for each action ba
 ## Asynchronous Actor-Critic Agent
 
 <https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-8-asynchronous-actor-critic-agents-a3c-c88f72a5e9f2>
-
-

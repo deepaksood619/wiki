@@ -86,7 +86,7 @@ Note- Don't move from monolith architecture to microservices in one step.
 -   First move to a service-oriented architecture without using some fancy bus for message passing, use some simple standard for messaging like HTTP.
 -   Then if you really need to, move to microservices
 
-# 
+#
 
 # Migrating to Microservice Databases
 

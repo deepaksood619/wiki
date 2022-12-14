@@ -95,4 +95,3 @@ _payment"
 <https://sqlmodel.tiangolo.com
 
 SQL databases in Python, designed for simplicity, compatibility, and robustness.
-

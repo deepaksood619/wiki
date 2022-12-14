@@ -84,7 +84,3 @@ The dividend discount model (DDM) is a quantitative method used for predicting t
 ![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image7.jpg)
 
 ![image](media/Accounting-for-Finance_4--Cash-Flow-Statements---Cash-In-and-Cash-Out-image8.jpg)
-
-
-
-

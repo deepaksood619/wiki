@@ -420,11 +420,11 @@ git push --force origin master
 
 ## # This shell script displays all blob objects in the repository, sorted from smallest to largest.
 
-git rev-list --objects --all 
-| git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' 
-| sed -n 's/^blob //p' 
-| sort --numeric-sort --key=2 
-| cut -c 1-12,41- 
+git rev-list --objects --all
+| git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)'
+| sed -n 's/^blob //p'
+| sort --numeric-sort --key=2
+| cut -c 1-12,41-
 | $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
 
 <https://passingcuriosity.com/2017/truncating-git-history
@@ -439,8 +439,8 @@ One common use case for this is removing sensitive data (e.g. login credentials 
 
 ## Manual - man git-filter-branch
 
-git filter-branch --force --index-filter 
-'git rm --cached --ignore-unmatch k8s/secrets.txt' 
+git filter-branch --force --index-filter
+'git rm --cached --ignore-unmatch k8s/secrets.txt'
 --prune-empty --tag-name-filter cat -- --all
 
 git push --force
@@ -480,5 +480,3 @@ cloc --vcs=git
 ## References
 
 <https://dev.to/neshaz/when-to-use-git-reset-git-revert--git-checkout-18je>
-
-

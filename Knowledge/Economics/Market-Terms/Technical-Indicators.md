@@ -144,4 +144,3 @@ Personally whenever, I use BB I expect the trade to start working in my favor al
 Along with the above points, if the stoploss also coincides with the Fibonacci level then I know the trade setup is well aligned to all the variables and hence I would go in for a strong buy. The usage of the word 'strong' just indicates the level of conviction in the trade set up. The more confirming factors we use to study the trend and reversal, more robust is the signal. The same logic can also be applied for the short trade.
 
 [10. Technical indicators](https://youtu.be/veWVgyucBqU)
-

@@ -39,12 +39,3 @@ Modified: 2018-04-16 22:03:17 +0500
 ![image](media/Knuth-Morris-Pratt-image16.png)
 
 ![image](media/Knuth-Morris-Pratt-image17.png)
-
-
-
-
-
-
-
-
-

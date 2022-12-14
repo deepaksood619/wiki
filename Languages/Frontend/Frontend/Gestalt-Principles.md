@@ -54,6 +54,3 @@ Modified: 2021-07-06 01:03:29 +0500
 -   The visual system assumes that things grouped together are related
 -   The initial grouping is automatic and unconscious
     -   Happens in less than 1/4 second
-
-
-

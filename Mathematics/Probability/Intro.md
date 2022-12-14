@@ -83,4 +83,3 @@ In the subjectivist view, probability is the value that a rational agent would a
 -   The **Complement Rule** states that P(not X) = 1 - P(X)
 -   The **General Addition Rule** states that for any two events, P(X or Y) = P(X) + P(Y) - P(X and Y) is the probability of both X and Y occuring at the same time. If they are mutually exclusive, the rule simplifies to P(X or Y) = P(X) + P(Y)
 -   The **Multiplication Rule** states that for two independent events to occur together, P(X and Y) = P(X)*P(Y). If they are not independent, P(X and Y) = P(X) * P(Y). If they are not independent, P(X and Y) = P(X) * P(Y/X), where P(Y/X) is the conditional probability of Y happening, given that X has happened
-

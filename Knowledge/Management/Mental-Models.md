@@ -60,5 +60,3 @@ Understanding opportunity cost means eliminating good uses of time. And that's w
 -   (1)[Local vs Global Optimum](https://en.wikipedia.org/wiki/Local_optimum)--- "A local optimum of an optimization problem is a solution that is optimal (either maximal or minimal) within a neighboring set of candidate solutions. This is in contrast to a global optimum, which is the optimal solution among all possible solutions, not just those in a particular neighborhood of values."
 -   (1)[Decision Trees](https://en.wikipedia.org/wiki/Decision_tree)--- "A decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility." (related:[expected value](https://en.wikipedia.org/wiki/Expected_value))
 -   (1)[Sunk Cost](https://en.wikipedia.org/wiki/Sunk_costs)--- "A cost that has already been incurred and cannot be recovered." (related: "throwing good money after bad", "in for a penny, in for a pound")
-
-

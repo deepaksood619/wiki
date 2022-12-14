@@ -299,9 +299,3 @@ We used the same criterion for model performance for the model from this lecture
 EL = PD * LGD * EAD
 
 Assuming all accounts are one portfolio, to calculate the total expected loss amount for this portfolio, we must: Apply the PD, EAD, and LGD models on each account, multiply the three outputs for each account, and sum across all accounts.
-
-
-
-
-
-

@@ -98,5 +98,3 @@ AWS ALB Ingress controller supports two traffic modes:instance modeandip mode. U
 <https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html>
 
 <https://kubernetes.io/docs/concepts/services-networking/ingress
-
-

@@ -21,4 +21,3 @@ Each frame has one of each type of stack associated with it.
 [Understanding Python Bytecode](https://www.youtube.com/watch?v=weBXlLF6an8)
 
 ![. pyc ](media/CPython-image1.jpg)
-

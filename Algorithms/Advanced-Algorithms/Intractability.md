@@ -100,7 +100,7 @@ NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of t
 
 <https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html>
 
-# 
+#
 
 # NP-completeness
 
@@ -141,27 +141,3 @@ An important consequence of this theorem is that if there exists a deterministic
 ![image](media/Intractability-image47.png)
 
 ![image](media/Intractability-image48.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

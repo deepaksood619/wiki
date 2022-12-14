@@ -35,7 +35,3 @@ The Random Forest algorithm uses multiple decision trees with varying subsets of
 ![image](media/Bagging-and-Random-Forest-image3.png)
 
 ![image](media/Bagging-and-Random-Forest-image4.png)
-
-
-
-

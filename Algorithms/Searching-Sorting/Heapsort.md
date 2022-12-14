@@ -26,4 +26,3 @@ Significance - In-place sorting algorithm with N log N wost-case
     -   Not stable
 
 ![image](media/Heapsort-image1.png)
-

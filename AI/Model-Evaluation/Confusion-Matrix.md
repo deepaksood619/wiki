@@ -87,5 +87,3 @@ Since precision-recall curves do not consider true negatives, they should only b
 <https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification
 
 <https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python
-
-

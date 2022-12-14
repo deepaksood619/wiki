@@ -89,4 +89,3 @@ Keeling's measurements showed the first significant evidence of rapidly increasi
 [2](https://en.wikipedia.org/wiki/Carbon_dioxide)in the atmosphere.
 
 ![image](media/Others-image1.png)
-

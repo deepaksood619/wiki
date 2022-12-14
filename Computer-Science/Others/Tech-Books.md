@@ -46,7 +46,7 @@ Networks, Crowds, and Markets: Reasoning about a Highly Connected World
 -   **Wireless Networking <http://wndw.net/book.html>**
 -   **Writing an Interpreter/Compiler in Go**
 -   **You don't know js <https://github.com/getify/You-Dont-Know-JS>**
--   
+-
 -   A book of Abstract Algebra
 -   Introduction to Statistical Learning With Application in R, by Gareth James
 -   Deep Learning with Python by Francois Chollet

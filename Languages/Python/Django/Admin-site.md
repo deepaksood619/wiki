@@ -177,4 +177,3 @@ A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personaliz
 ## Others
 
 <https://realpython.com/manage-users-in-django-admin
-

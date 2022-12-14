@@ -114,10 +114,3 @@ Pass 2: encode file by traversing frie or lookup table
 Running time: Using a binary heap => N+R log R
 
 ![image](media/Huffman-Compression-image11.png)
-
-
-
-
-
-
-

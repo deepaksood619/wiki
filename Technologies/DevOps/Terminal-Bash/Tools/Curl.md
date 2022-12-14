@@ -104,13 +104,13 @@ curl -i <https://httpbin.org/status/200>
 
 curl -i <https://httpbin.org/status/400>
 
-curl <https://httpbin.org/anything> 
+curl <https://httpbin.org/anything>
 
--u sk_test_4eC39HqLyjWDarjtT1zdp7dc: 
+-u sk_test_4eC39HqLyjWDarjtT1zdp7dc:
 
--d amount=999 
+-d amount=999
 
--d currency=usd 
+-d currency=usd
 
 -d receipt_email="jenny.rosen@example.com"
 
@@ -165,4 +165,3 @@ curl -f -s -m 2 -o /dev/null -I <http://localhost:8070
 HTTPie is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers. Thehttp&httpscommands allow for creating and sending arbitrary HTTP requests. They use simple and natural syntax and provide formatted and colorized output.
 
 <https://httpie.io
-

@@ -111,5 +111,3 @@ System.out.println(n + " " + one + " " + two + " " + doub);
 }
 
 }
-
-

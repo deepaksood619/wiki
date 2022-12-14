@@ -94,5 +94,3 @@ Modified: 2022-01-10 21:59:08 +0500
     -   **Liquidity Ratios: There ratios measure how much liquidity companies have, to cover near-term needs or expenses:**
         -   **Current ratio, measure current assets relative to current liabilities**
         -   **Quick ratio, looks at only liquid current assets relative to current liabilities.**
-
-

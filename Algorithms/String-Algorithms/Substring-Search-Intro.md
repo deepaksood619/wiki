@@ -23,5 +23,3 @@ Modified: 2018-12-23 22:45:49 +0500
 ![image](media/Substring-Search-Intro-image3.png)
 
 ![image](media/Substring-Search-Intro-image4.png)
-
-

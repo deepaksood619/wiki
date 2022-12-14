@@ -104,4 +104,3 @@ Modified: 2018-09-26 23:33:44 +0500
 45. Nuclear Physics
 
 46. Astrophysics and Cosmology
-

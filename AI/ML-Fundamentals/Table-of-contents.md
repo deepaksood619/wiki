@@ -223,4 +223,3 @@ Modified: 2021-11-19 18:01:52 +0500
 AI Conferences
 
 [Artificial Intelligence Search Methods For Problem Solving](https://www.youtube.com/playlist?list=PLyqSpQzTE6M8N9lDWllq6NqB5dmpy6gtc)
-

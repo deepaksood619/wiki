@@ -176,9 +176,3 @@ In a regression, you need to be able to observe the dependent variable (or varia
 -   **Actionability**
 
 If the predicted value for Y from a regression deviates from the actual value, being able to act on the divergence makes the reliable more useful (in many cases)
-
-
-
-
-
-

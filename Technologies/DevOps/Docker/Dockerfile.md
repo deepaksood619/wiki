@@ -105,4 +105,3 @@ ADD logger.py logger.py
 [Building Small Containers (Kubernetes Best Practices)](https://www.youtube.com/watch?v=wGz_cbtCiEA)
 
 ![Kubernetes Best Practices Building small containers ](../../media/DevOps-Docker-Dockerfile-image1.jpg)
-

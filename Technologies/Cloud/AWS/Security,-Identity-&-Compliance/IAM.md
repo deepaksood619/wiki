@@ -169,6 +169,3 @@ You must design your global applications to account for these potential delays. 
 -   Amazon s3 transfer acceleration
 
 <https://www.freecodecamp.org/news/aws-iam-explained
-
-
-

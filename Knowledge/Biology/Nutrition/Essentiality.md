@@ -75,5 +75,3 @@ By definition,[phytochemicals](https://en.wikipedia.org/wiki/Phytochemical)inclu
 -   **Egg protein:**Egg protein powders are made with pure egg white protein. They digest at a medium rate and are one of the most expensive protein supplements on the market.
 -   **Soy protein:**Soy protein is one of the few plant proteins that contains all of the essential amino acids, making it a complete protein source for vegetarians.
 -   **Rice and pea protein:**Rice and pea proteins do not contain all of the essential amino acids, but combining them makes them a complete protein. They are low-allergenic, making them appealing to those with egg, dairy or soy allergies.
-
-

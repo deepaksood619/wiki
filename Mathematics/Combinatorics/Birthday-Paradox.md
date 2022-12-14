@@ -16,4 +16,3 @@ Instead of just accepting the paradox as true ("fine, it works"), see it as a ch
 ![image](media/Birthday-Paradox-image1.png)1.  Exponents aren't Intuitive
 
 2.  Humans are a tad bit selfish - They only compare themselves to others, not everyone to everyother person.
-

@@ -298,6 +298,3 @@ There are two types of LogQL queries:
 rate({app="reminder-messages-sms-consumer"}[5m])
 
 <https://grafana.com/docs/loki/latest/logql
-
-
-

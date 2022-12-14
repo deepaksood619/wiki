@@ -377,5 +377,3 @@ Connection Regrets (letting key relationships drift):
 [Self Help Videos](https://www.youtube.com/playlist?list=PLGwmAEmjn4fnPC_VpwRiD60w6axy1Txbd) - Think School
 
 [Dr. Gabor Maté on The Connection Between Stress and Disease](https://youtu.be/ajo3xkhTbfo)
-
-

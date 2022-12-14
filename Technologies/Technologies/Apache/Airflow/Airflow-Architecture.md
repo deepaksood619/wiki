@@ -9,7 +9,7 @@ Modified: 2021-03-24 22:18:17 +0500
 At its core, Airflow is simply a queuing system built on top of a metadata database. The database stores the state of queued tasks and a scheduler uses these states to prioritize how other tasks are added to the queue. This functionality is orchestrated by four primary components
 
 1.  **Metadata Database:** this database stores information regarding the state of tasks. Database updates are performed using an abstraction layer implemented in SQLAlchemy. This abstraction layer cleanly separates the function of the remaining components of Airflow from the database.
-    
+
 
 2.  **Scheduler:** The Scheduler is a process that uses DAG definitions in conjunction with the state of tasks in the metadata database to decide which tasks need to be executed, as well as their execution priority. The Scheduler is generally run as a service.
 
@@ -88,5 +88,3 @@ In this mode, a Celery backend has to be set (Redis in our case). Celery is an a
 ## Clockwork: Distributed, Scalable Job Scheduler
 
 <https://cynic.dev/posts/clockwork-scalable-job-scheduler
-
-

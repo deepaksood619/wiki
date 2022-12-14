@@ -29,7 +29,7 @@ Maintain sketch on the fly, as the data is updated
 On the ith iteration of our loop to pick a random element, let's assume we already picked an element uniformly from[0, i - 1]. In order to maintain the loop invariant, we would need to pick the ith element as the new random element at1 / (i + 1)chance. For the base case wherei = 0, let's say the random element is the first one. Then we know it works because
 -   Fori = 0, we would've picked uniformly from [0, 0].
 -   Fori > 0, before the loop began, any elementKin[0, i - 1]had1 / ichance of being chosen as the random element. We wantKto have1 / (i + 1)chance of being chosen after the iteration. This is the case since the chance of having being chosen already but not getting swapped with theithelement is1 / i * (1 - (1 / (i + 1)))which is1 / i * i / (i + 1)or1 / (i + 1)
-
+```python
 import random
 
 def pick(big_stream):
@@ -41,7 +41,7 @@ random_element = e
 if random.randint(1, i + 1) == 1:
 random_element = e
 return random_element
-
+```
 <https://en.wikipedia.org/wiki/Reservoir_sampling>
 
 ## Evolutionary Algorithm

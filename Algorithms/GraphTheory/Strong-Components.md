@@ -17,7 +17,3 @@ Modified: 2018-05-22 19:04:01 +0500
 ![image](media/Strong-Components-image5.png)
 
 ![image](media/Strong-Components-image6.png)
-
-
-
-

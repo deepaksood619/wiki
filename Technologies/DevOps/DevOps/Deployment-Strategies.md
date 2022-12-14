@@ -35,4 +35,3 @@ Getting more technical, A/B testing is a form of statistical and two-sample hypo
 ## References
 
 Migrating to Microservices Databases, Chapter 2, Zero Downtime
-

@@ -39,4 +39,3 @@ Anscombe's quartetcomprises four[data sets](https://en.wikipedia.org/wiki/Data_s
 -   Testing of basic hypotheses
 
 <https://towardsdatascience.com/5-advanced-visualisation-for-exploratory-data-analysis-eda-c8eafeb0b8cb>
-

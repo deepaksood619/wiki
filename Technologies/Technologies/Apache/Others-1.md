@@ -98,5 +98,3 @@ The OpenWhisk platform supports a programming model in which developers write fu
 ![OpenWhisk Architecture](../../media/Technologies-Apache-Others-image2.png)
 
 <https://openwhisk.apache.org
-
-

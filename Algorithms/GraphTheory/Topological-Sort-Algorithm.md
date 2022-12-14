@@ -38,8 +38,3 @@ Using DFS we can solve topological sort easily
 ![image](media/Topological-Sort-Algorithm-image6.png)
 
 ![image](media/Topological-Sort-Algorithm-image7.png)
-
-
-
-
-

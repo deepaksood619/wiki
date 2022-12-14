@@ -270,6 +270,3 @@ The lean framework works on the concept of maximizing customer value with fewer 
 ## Twelve XP Practices
 
 ![image](media/Project-Management_Agile-image7.jpeg)
-
-
-

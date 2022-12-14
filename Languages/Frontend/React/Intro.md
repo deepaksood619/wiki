@@ -149,5 +149,3 @@ Building a static version requires a lot of typing and no thinking, and adding i
 <https://www.toptal.com/react/interview-questions>
 
 <https://www.toptal.com/react/react-memoization>
-
-

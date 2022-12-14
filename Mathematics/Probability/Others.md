@@ -54,4 +54,3 @@ In[mathematics](https://en.wikipedia.org/wiki/Mathematics), thesoftmax function,
 ![image](media/Others-image3.jpeg)
 ![image](media/Others-image4.jpeg)
 ![image](media/Others-image5.jpeg)
-

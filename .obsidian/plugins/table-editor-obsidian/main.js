@@ -18614,7 +18614,7 @@ exports.SingleParamFunctionCall = void 0;
 
 class SingleParamFunctionCall {
     constructor(ast, table) {
-        this.getValue = (table, cell) => this.param.getValue(table, cell).andThen((sourceData) => 
+        this.getValue = (table, cell) => this.param.getValue(table, cell).andThen((sourceData) =>
         // The operation functions do not throw errors because data arity has
         // already been validated.
         neverthrow.ok(this.op(sourceData)));
@@ -20199,7 +20199,7 @@ absolute_reference ::= absolute_row absolute_column | absolute_row | absolute_co
 absolute_row ::= "@" ( "I" | "<" | ">" | int )
 absolute_column ::= "$" ( "<" | ">" | int )
 
-single_param_function_call ::= single_param_function "(" source ")" 
+single_param_function_call ::= single_param_function "(" source ")"
 single_param_function      ::= "mean" | "sum"
 
 conditional_function_call ::= "if(" predicate "," " "? source "," " "? source ")"
@@ -20295,13 +20295,13 @@ const parseAndApply = (formulaLines, table) => {
         return neverthrow.ok(lodash.concat(newFormulas.value, currentFormulas));
     }), neverthrow.ok([]));
     // If there is no error,
-    return formulas.andThen((innerFormulas) => 
+    return formulas.andThen((innerFormulas) =>
     // for each formula
-    innerFormulas.reduceRight((prevValue, formula) => 
+    innerFormulas.reduceRight((prevValue, formula) =>
     // If the previous formula didn't give an error
-    prevValue.andThen((prevTable) => 
+    prevValue.andThen((prevTable) =>
     // attempt to apply this formula to the table and return the result
-    formula.merge(prevTable)), 
+    formula.merge(prevTable)),
     // Start with the current table state
     neverthrow.ok(table)));
 };
@@ -21629,7 +21629,7 @@ const _formatTable = (table$1, options) => {
     }
     // get column alignments
     const alignments = delimiterRow !== undefined
-        ? exports._extendArray(delimiterRow.getCells().map((cell) => cell.getAlignment()), tableWidth, 
+        ? exports._extendArray(delimiterRow.getCells().map((cell) => cell.getAlignment()), tableWidth,
         // Safe conversion because DefaultAlignment is a subset of Alignment
         () => options.defaultAlignment)
         : new Array(tableWidth).fill(options.defaultAlignment);

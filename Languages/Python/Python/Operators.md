@@ -21,7 +21,7 @@ Identity vs Equality Operators
 -   Identity- Identity comparision with "is" and "is not"
 -   Equality- Equality comparisons with "==" and "!="
 
-## 
+##
 
 1.  Arithmetic Operators (a = 10, b = 20)
 

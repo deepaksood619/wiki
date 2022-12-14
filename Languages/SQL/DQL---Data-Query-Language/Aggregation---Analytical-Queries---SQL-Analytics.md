@@ -182,4 +182,3 @@ WHERE cl.id BETWEEN 422020686 AND 435852382
 AND is_success = '1'
 GROUP BY cl.id
 ) a group by a.channel, a.department, a.name;
-

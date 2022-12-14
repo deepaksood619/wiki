@@ -31,6 +31,3 @@ The union-find algorithm is best suited for situations where the equivalence rel
 ## Static graph - DFS
 
 ## Dynamic graph - Union-find
-
-
-

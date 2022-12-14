@@ -159,6 +159,3 @@ Anything that other folks similar to you do or endorse is perceived as valuable
 When you get someone agree to do something, they will be likely to do it again
 -   Will you be willing to conserve environment? Chances are people will say yes and once they yes they will likely conform to it
 -   Do you agree to help in situations of emergency?
-
-
-

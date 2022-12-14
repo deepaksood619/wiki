@@ -26,5 +26,3 @@ The accounting standards that govern how companies measure revenues and earnings
 ![image](media/Accounting-for-Finance_2A-Income-Statement-Comparisions-image3.jpg)
 
 ![image](media/Accounting-for-Finance_2A-Income-Statement-Comparisions-image4.jpg)
-
-

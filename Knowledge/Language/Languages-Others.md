@@ -63,8 +63,3 @@ Salut (Hello/Goodbye)
 <https://www.youtube.com/watch?v=T5FNvW19GbA>
 
 [Learn to read Chinese ... with ease! | ShaoLan](https://www.youtube.com/watch?v=troxvPRmZm8&ab_channel=TED)
-
-
-
-
-

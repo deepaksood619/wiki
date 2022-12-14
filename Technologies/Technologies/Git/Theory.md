@@ -462,8 +462,3 @@ Git push origin <source>:<destination>
 <https://learngitbranching.js.org
 
 <https://www.freecodecamp.org/news/git-for-professionals
-
-
-
-
-

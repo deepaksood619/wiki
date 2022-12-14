@@ -129,4 +129,3 @@ TheMercator projection([/mərˈkeɪtər/](https://en.wikipedia.org/wiki/Help:IPA
 
 -   India is bigger than greenland
 -   Russia is not as big as it seems
-

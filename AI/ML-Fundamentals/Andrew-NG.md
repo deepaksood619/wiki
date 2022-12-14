@@ -140,16 +140,3 @@ Matrix Inverse:
 Matrix Transpose:
 
 ![image](media/Andrew-NG-image25.png)
-
-
-
-
-
-
-
-
-
-
-
-
-

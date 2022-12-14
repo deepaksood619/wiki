@@ -303,11 +303,3 @@ plt.show()
 ## What is the difference between the ACF and the PACF?
 
 The ACF measures the accumulated effects past lags have on the current value, while the PACFmeasures the direct effect.
-
-
-
-
-
-
-
-

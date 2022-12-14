@@ -51,4 +51,3 @@ Micro-frontends let you build a website or web app as a composition of features 
 <https://single-spa.js.org
 
 <https://bit.dev
-

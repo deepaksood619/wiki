@@ -82,7 +82,6 @@ Timeline world history documentaries
     -   Toastmasters
     -   Be Smart
     -   Minutefood
-
     -   Quanta magazine
     -   Perimiter institute for theoretical physics
     -   Healthcare triage

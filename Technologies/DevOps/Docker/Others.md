@@ -143,6 +143,3 @@ If you don't need these capabilities, you can ignore the warning. You can enable
 <https://docs.docker.com/engine/install/linux-postinstall/#your-kernel-does-not-support-cgroup-swap-limit-capabilities>
 
 <https://docs.docker.com/config/containers/resource_constraints
-
-
-

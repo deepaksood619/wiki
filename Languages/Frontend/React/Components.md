@@ -103,7 +103,7 @@ class SearchBar extends React.Component {
 
 render() {
 
-return <input 
+return <input
 
 }
 
@@ -117,7 +117,7 @@ Always start with functional component and then switch to class based component 
 
 render() {
 
-return <input onChange={this.onInputChange} 
+return <input onChange={this.onInputChange}
 
 }
 
@@ -183,7 +183,7 @@ Returningnullfrom a component'srendermethod does not affect the firing of the co
 
 value={this.state.term}
 
-onChange={event => this.setState({ term: event.target.value })} 
+onChange={event => this.setState({ term: event.target.value })}
 
 When we set the attribute value to {this.state.term}, this makes the component a controller form element. In this configuration, value is updated when state is updated and not the other way around. this.setState causes the element to re-render and when the component re-render its value is updated to this.state.term.
 
@@ -197,7 +197,7 @@ this.setState({ videos })
 
 Passing some data from parent compoent to children components
 
-<VideoList videos={this.state.videos} 
+<VideoList videos={this.state.videos}
 
 // passing data like this is refered to as passing props in React
 

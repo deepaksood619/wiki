@@ -24,5 +24,3 @@ The Bristol Stool Chart shows seven categories of stool. Every person will have 
 -   [Type 5--7 may indicate diarrhoea and urgency.](https://www.continence.org.au/pages/diarrhoea.html)
 
 <https://www.continence.org.au/pages/bristol-stool-chart.html>
-
-

@@ -15,6 +15,3 @@ Modified: 2018-04-22 19:53:46 +0500
 ![image](media/Complexity-Zoo-image4.png)
 
 ![image](media/Complexity-Zoo-image5.jpg)
-
-
-

@@ -101,4 +101,3 @@ The controller has some oversight in that it selects first the model and then th
 <https://www.wikiwand.com/en/Hierarchical_model%E2%80%93view%E2%80%93controller>
 
 <https://code.tutsplus.com/tutorials/hmvc-an-introduction-and-application--net-11850>
-

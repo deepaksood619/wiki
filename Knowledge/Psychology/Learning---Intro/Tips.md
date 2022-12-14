@@ -192,4 +192,3 @@ These two perspectives suggest two different approaches you should take:
 ## WFH (Work From Home)
 
 Learning being around smarter folks & absorption by osmosis and overhearing has reduced to zero.
-

@@ -320,4 +320,3 @@ fake.name()
 fake.past_datetime(start_date='-10y').strftime('%Y-%m-%d %H:%M:%S')
 
 <https://github.com/joke2k/faker>
-

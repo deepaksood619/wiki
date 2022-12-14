@@ -40,5 +40,3 @@ Features
 <https://en.wikipedia.org/wiki/Apache_HBase>
 
 <https://hbase.apache.org
-
-

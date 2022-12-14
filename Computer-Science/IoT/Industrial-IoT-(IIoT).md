@@ -103,4 +103,3 @@ Industrial Control Systems (ICSs) are used to monitor and control the processes 
 Industrial Internet - DZone Guide
 
 Industrial Internet Reference Architecture
-

@@ -59,5 +59,3 @@ Go has a set of naming rules that you'll have to follow:
 These are all enforced rules. Simple!
 
 One more additional rule set by the community is to usecamelCase. It is also popular to abbreviate obvious variables - using i instead of index etc. That's all you need to know about naming conventions.
-
-

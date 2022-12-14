@@ -89,6 +89,3 @@ Now we compare 101 directly with A[mid] = 50 thus save lot of comparisons.
 <https://svn.python.org/projects/python/trunk/Objects/listsort.txt>
 
 <https://skerritt.blog/timsort-the-fastest-sorting-algorithm-youve-never-heard-of
-
-
-

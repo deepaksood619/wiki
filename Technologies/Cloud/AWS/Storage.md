@@ -204,6 +204,3 @@ CloudFront is a highly secure CDN that provides both network and application lev
 ![amazon cl udfront ](../../media/Cloud-AWS-Storage-image5.jpg)
 
 <https://www.mitrai.com/tech-guide/eight-types-of-aws-storage-services-explained
-
-
-

@@ -18,4 +18,3 @@ Goal - Given an array of N items, find a kth smallest item.
 -   Takes linear time on average
 
 ![image](media/Quick-Select-image1.png)
-

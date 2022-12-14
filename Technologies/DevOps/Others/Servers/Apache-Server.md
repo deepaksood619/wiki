@@ -392,6 +392,3 @@ Varnish is used by websites including[Wikipedia](https://en.wikipedia.org/wiki/W
 -   HTTP Cache
 
 <https://en.wikipedia.org/wiki/Varnish_(software)>
-
-
-

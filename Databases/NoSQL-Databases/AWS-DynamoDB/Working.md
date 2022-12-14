@@ -120,4 +120,3 @@ Processing the entire table efficiently
     -   Breadth first search
     -   Node ranking
 [AWS re:Invent 2019: [REPEAT 1] Amazon DynamoDB deep dive: Advanced design patterns (DAT403-R1)](https://www.youtube.com/watch?v=6yqfmXiZTlM)
-

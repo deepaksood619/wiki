@@ -49,6 +49,3 @@ The node controller is a Kubernetes master component which manages various aspec
 ## Others
 
 <https://cloudyuga.guru/blog/cloud-controller-manager>
-
-
-

@@ -24,106 +24,106 @@ docker network create confluent
 
 ## Start Zookeeper
 
-docker run -d 
+docker run -d
 --net**=**zenatix-docker
---name**=**zookeeper 
--e ZOOKEEPER_CLIENT_PORT**=**2181 
+--name**=**zookeeper
+-e ZOOKEEPER_CLIENT_PORT**=**2181
 confluentinc/cp-zookeeper:5.1.0
 
 ## Start Confluent Kafka
 
-docker run -d 
+docker run -d
 --net**=**zenatix-docker
---name**=**kafka -p 9092:9092 
--e KAFKA_ZOOKEEPER_CONNECT**=**zookeeper:2181 
--e KAFKA_ADVERTISED_LISTENERS**=**PLAINTEXT://kafka:9092 
--e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR**=**1 
+--name**=**kafka -p 9092:9092
+-e KAFKA_ZOOKEEPER_CONNECT**=**zookeeper:2181
+-e KAFKA_ADVERTISED_LISTENERS**=**PLAINTEXT://kafka:9092
+-e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR**=**1
 confluentinc/cp-kafka:5.1.0
 
 ## Create topic
 
-**docker run 
+**docker run
 --net=**zenatix-docker**
---rm confluentinc/cp-kafka:5.1.0 
-kafka-topics --create --topic smap_telemetry_data --partitions 3 --replication-factor 1 --config retention.ms=-1 
+--rm confluentinc/cp-kafka:5.1.0
+kafka-topics --create --topic smap_telemetry_data --partitions 3 --replication-factor 1 --config retention.ms=-1
 --if-not-exists --zookeeper zookeeper1:2181,zookeeper2:2182,zookeeper3:2183**
 
 ## Alter topic
 
-docker run 
+docker run
 --net**=**zenatix-docker
---rm confluentinc/cp-kafka:5.1.0 
+--rm confluentinc/cp-kafka:5.1.0
 kafka-topics --alter --topic smap_telemetry_data --partitions 3 **-config retention.ms=-1** --zookeeper zookeeper1:2181,zookeeper2:2181,zookeeper3:2181
 
-docker run 
+docker run
 --net**=**zenatix-docker
---rm confluentinc/cp-kafka:5.1.0 
+--rm confluentinc/cp-kafka:5.1.0
 kafka-topics --alter --topic iot_data --config retention.ms=-1 --zookeeper zookeeper1:2181,zookeeper2:2181,zookeeper3:2181
 
 ## Delete topic
 
 Topic is marked for deletion and if kafka is configured with **KAFKA_DELETE_TOPIC_ENABLE**:**"true"** then it is deleted
 
-docker run 
+docker run
 
 --net=zenatix-docker
 
---rm 
+--rm
 
-confluentinc/cp-kafka:5.1.0 
+confluentinc/cp-kafka:5.1.0
 
 kafka-topics --delete --topic _schemas --zookeeper zookeeper1:2181,zookeeper2:2182,zookeeper3:2183
 
 ## Show all Topics
 
-docker run 
+docker run
 --net**=**zenatix-docker
---rm 
-confluentinc/cp-kafka:5.1.0 
+--rm
+confluentinc/cp-kafka:5.1.0
 kafka-topics --describe --zookeeper zookeeper1:2181,zookeeper2:2182,zookeeper3:2183
 
-docker run 
+docker run
 --net**=**zenatix-docker
---rm 
-confluentinc/cp-kafka:5.1.0 
+--rm
+confluentinc/cp-kafka:5.1.0
 kafka-topics --describe --topic smap_telemetry_data --zookeeper zookeeper1:2181,zookeeper2:2182,zookeeper3:2183
 
-docker run 
+docker run
 --net**=**zenatix-docker
---rm 
-confluentinc/cp-kafka:5.1.0 
+--rm
+confluentinc/cp-kafka:5.1.0
 kafka-topics --describe --topic smap_telemetry_data --zookeeper zookeeper1:2181,zookeeper2:2182,zookeeper3:2183
 
 
 
 ## Start confluent kafka control center
 
-docker run -d 
---name**=**control-center 
+docker run -d
+--name**=**control-center
 --net**=**zenatix-docker
---ulimit nofile**=**16384:16384 
--p 9021:9021 
--v /tmp/control-center/data:/var/lib/confluent-control-center 
--e CONTROL_CENTER_ZOOKEEPER_CONNECT**=**zookeeper:2181 
--e CONTROL_CENTER_BOOTSTRAP_SERVERS**=**kafka:9092 
--e CONTROL_CENTER_REPLICATION_FACTOR**=**1 
--e CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS**=**1 
--e CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS**=**1 
--e CONTROL_CENTER_STREAMS_NUM_STREAM_THREADS**=**2 
--e CONTROL_CENTER_CONNECT_CLUSTER**=**http://kafka-connect:8082 
+--ulimit nofile**=**16384:16384
+-p 9021:9021
+-v /tmp/control-center/data:/var/lib/confluent-control-center
+-e CONTROL_CENTER_ZOOKEEPER_CONNECT**=**zookeeper:2181
+-e CONTROL_CENTER_BOOTSTRAP_SERVERS**=**kafka:9092
+-e CONTROL_CENTER_REPLICATION_FACTOR**=**1
+-e CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS**=**1
+-e CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS**=**1
+-e CONTROL_CENTER_STREAMS_NUM_STREAM_THREADS**=**2
+-e CONTROL_CENTER_CONNECT_CLUSTER**=**http://kafka-connect:8082
 confluentinc/cp-enterprise-control-center:5.1.0
 
 ## Create data
 
 #19091,19092,19093
 
-docker run 
+docker run
 
---net=zenatix-docker 
+--net=zenatix-docker
 
---rm 
-confluentinc/cp-kafka:5.1.0 
-bash -c "seq 42 | kafka-console-producer --request-required-acks 1 
+--rm
+confluentinc/cp-kafka:5.1.0
+bash -c "seq 42 | kafka-console-producer --request-required-acks 1
 --broker-list kafka1:19091,kafka2:19092,kafka3:19093 --topic smap_telemetry_data && echo 'Produced 42 messages.'"
 
 
@@ -132,26 +132,26 @@ bash -c "seq 42 | kafka-console-producer --request-required-acks 1
 
 #19091,19092,19093
 
-**docker run 
+**docker run
 --net=**zenatix-docker **
---rm 
+--rm
 confluentinc/cp-kafka:**5.1.0 **
 kafka-console-consumer --bootstrap-server kafka1:19091,kafka2:19092,kafka3:19093 --topic smap_telemetry_data --from-beginning**
 
 #kafka.zenatix.com - 9091,9092,9093
 
-docker run 
---net=zenatix-docker 
---rm 
-confluentinc/cp-kafka:5.1.0 
+docker run
+--net=zenatix-docker
+--rm
+confluentinc/cp-kafka:5.1.0
 kafka-console-consumer --bootstrap-server kafka.zenatix.com:9091,kafka.zenatix.com:9092,kafka.zenatix.com:9093 --topic dev_smap_telemetry_data --from-beginning
 
 # consume druid_telemetry_data
 
-docker run 
---net=zenatix-docker 
---rm 
-confluentinc/cp-kafka:5.1.0 
+docker run
+--net=zenatix-docker
+--rm
+confluentinc/cp-kafka:5.1.0
 kafka-console-consumer --bootstrap-server kafka.zenatix.com:9091,kafka.zenatix.com:9092,kafka.zenatix.com:9093 --topic druid_telemetry_data --from-beginning
 
 ## Show consumer group offsets

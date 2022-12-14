@@ -61,5 +61,3 @@ const getAnimalsContent = animals => animals.map(item => (
 ));
 
 return <ul>{getAnimalsContent(animals)}</ul>;
-
-

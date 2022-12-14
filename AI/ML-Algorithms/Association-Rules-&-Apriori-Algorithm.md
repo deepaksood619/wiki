@@ -105,6 +105,3 @@ Other way around of Apriori principle - if an itemset is not frequent, then all 
     -   Apriori makes multiple passes, run time of algorithm increase with number of transactions
 -   Average transaction width
     -   This may increase max length of frequent itemsets and traverals of hash tree (number of subsets in a transaction increases with its width)
-
-
-

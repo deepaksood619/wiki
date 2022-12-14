@@ -245,17 +245,3 @@ The idea of distance or closeness can break down in very high dimensions (lots o
 ![image](media/K-Nearest-Neighbor-(KNN)-image25.png)
 
 ![image](media/K-Nearest-Neighbor-(KNN)-image26.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

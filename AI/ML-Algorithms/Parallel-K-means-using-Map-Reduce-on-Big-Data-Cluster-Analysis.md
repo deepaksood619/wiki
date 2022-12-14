@@ -29,6 +29,3 @@ Modified: 2021-06-30 11:28:00 +0500
     -   A lot of data
     -   Better implmentation
         -   mapper gets many data points
-
-
-

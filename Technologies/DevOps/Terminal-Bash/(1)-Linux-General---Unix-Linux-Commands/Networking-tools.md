@@ -145,4 +145,3 @@ wormhole send /path/to/file
 wormhole receive 4-yucatan-reform
 
 <https://github.com/magic-wormhole/magic-wormhole>
-

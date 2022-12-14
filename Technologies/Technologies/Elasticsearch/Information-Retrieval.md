@@ -107,8 +107,3 @@ Many neural search-powered applications do not have a search box:
 Neural search creates a new way to comprehend the world. It is creating new doors that lead to new businesses.
 
 <https://github.com/jina-ai/jina/blob/master/.github/2.0/neural-search.md>
-
-
-
-
-

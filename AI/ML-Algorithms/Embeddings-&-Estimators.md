@@ -55,7 +55,7 @@ Modified: 2021-07-05 09:43:41 +0500
 
 ![media](media/Embeddings-&-Estimators-image14.png)
 
-## 
+##
 
 # Sparse Tensors
 
@@ -131,24 +131,3 @@ Modified: 2021-07-05 09:43:41 +0500
 ![media](media/Embeddings-&-Estimators-image40.png)
 
 ![media](media/Embeddings-&-Estimators-image41.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

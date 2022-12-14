@@ -23,4 +23,3 @@ Three node HotStandby HA cluster
 <https://github.com/smbambling/pgsql_ha_cluster/wiki/Tutorial:-Building-A-Highly-Available-Multi-Node-PostgreSQL-Cluster>
 
 ## CIB - Cluster Information Base
-

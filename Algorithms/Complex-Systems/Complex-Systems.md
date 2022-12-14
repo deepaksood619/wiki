@@ -13,5 +13,3 @@ Modified: 2021-12-16 23:38:48 +0500
 
 
 <https://en.wikipedia.org/wiki/Complex_system>
-
-

@@ -22,4 +22,3 @@ Most enterprise MQTT brokers add additional security mechanisms, e.g. a plugin s
     and signed with a private key before distributing. The distributed messages can then be verified by the MQTT clients to make sure no one has modified the message.
 -   **Complex authentication protocols:** For many enterprise MQTT brokers, additional authentication methods can be implemented (e.g. OAuth 2, Kerberos, OpenID Connect, etc.).
 -   **Authorization / Topic Permissions:** Securing access to topics is often done with a permission concept. Some brokers offer restricting publish / subscribe permissions with a plugin system. This makes sure no one can subscribe to more information than needed, and that only specific clients can publish on specific topics.
-

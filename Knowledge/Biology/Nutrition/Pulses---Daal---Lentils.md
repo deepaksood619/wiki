@@ -335,15 +335,3 @@ Woven fabrics are created on weaving looms. These looms can be 54 inches wide an
 <https://www.dutchlabelshop.com/en_us/blog/difference-knit-woven-fabric
 
 [Knitted Vs. Woven Fabrics - What's The Difference???](https://www.youtube.com/watch?v=Zg2aJpd_KJg)
-
-
-
-
-
-
-
-
-
-
-
-

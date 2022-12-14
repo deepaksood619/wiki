@@ -79,4 +79,3 @@ Please note that errors and transactions will only be sent to the APM Server if 
 ## Opensearch
 
 <https://github.com/opensearch-project/OpenSearch>
-

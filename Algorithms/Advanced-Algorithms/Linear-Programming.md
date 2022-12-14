@@ -38,7 +38,7 @@ The quintessential problem-solving model is known as linear programming, and the
 
 ![image](media/Linear-Programming-image13.png)
 
-# 
+#
 
 # Simplex Algorithms
 
@@ -86,7 +86,7 @@ The quintessential problem-solving model is known as linear programming, and the
 
 ![image](media/Linear-Programming-image34.png)
 
-# 
+#
 
 # Reductions
 
@@ -111,24 +111,3 @@ The quintessential problem-solving model is known as linear programming, and the
 ## Others
 
 <https://opensourc.es/blog/simplex>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

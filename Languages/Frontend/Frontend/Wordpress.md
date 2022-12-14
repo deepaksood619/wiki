@@ -283,4 +283,3 @@ While there are different ways to add Google Analytics your WordPress site, here
 <https://www.freecodecamp.org/news/how-to-create-an-ecommere-website-using-woocomerce
 
 <https://www.freecodecamp.org/news/easily-create-a-website-using-elementor-and-wordpress
-

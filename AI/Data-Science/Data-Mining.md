@@ -126,6 +126,3 @@ Modified: 2021-06-19 15:21:37 +0500
 ## Steps of Data Mining Algorithm
 
 Task > Representation > Score Function > Search/Optimization > Data Management > Models, Parameters
-
-
-

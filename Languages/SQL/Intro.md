@@ -98,4 +98,3 @@ Use HAVING COUNT(*) > 5 instead
 <https://hakibenita.com/sql-dos-and-donts>
 
 <http://bytepawn.com/how-i-write-sql-code.html#how-i-write-sql-code>
-

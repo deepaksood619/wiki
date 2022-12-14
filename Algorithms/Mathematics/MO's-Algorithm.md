@@ -51,4 +51,3 @@ Processing all queries takes**O(n * √n)**+**O(m * √n)**=**O((m+n) * √n)**t
 <https://cp-algorithms.com/data_structures/sqrt_decomposition.html>
 
 <https://www.geeksforgeeks.org/sqrt-square-root-decomposition-technique-set-1-introduction
-

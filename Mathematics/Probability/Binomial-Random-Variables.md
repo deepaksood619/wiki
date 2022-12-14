@@ -55,4 +55,3 @@ These have same coefficients as 4th row of pascal's triangle
 ## References
 
 <https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/binomial-random-variables/v/binomial-variables>
-

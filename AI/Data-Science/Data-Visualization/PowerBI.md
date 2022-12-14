@@ -179,4 +179,3 @@ The **Vertipaq Engine** is the in-memory columnar database that stores and hosts
 ## Resources
 
 [Amazing Power BI Reports for Inspiration - April 2021 Contest Winners](https://www.youtube.com/watch?v=l6NspVReKz0&ab_channel=BIElite)
-

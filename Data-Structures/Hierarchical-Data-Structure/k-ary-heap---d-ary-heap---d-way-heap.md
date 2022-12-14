@@ -19,7 +19,7 @@ Properties:
 3-ary max heap - root node is maximum
 of all nodes
 10
-/ | 
+/ |
 7 9 8
 / |  /
 4 6 5 7
@@ -27,9 +27,9 @@ of all nodes
 3-ary min heap -root node is minimum
 of all nodes
 10
-/ | 
+/ |
 12 11 13
-/ | 
+/ |
 14 15 18
 
 The height of a complete k-ary tree with n-nodes is given by logkn.

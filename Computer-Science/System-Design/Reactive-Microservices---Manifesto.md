@@ -125,4 +125,3 @@ We use this term informally to refer to any consumer of a service, be that a hum
 <https://www.reactivemanifesto.org>
 
 <https://www.reactivemanifesto.org/glossary>
-

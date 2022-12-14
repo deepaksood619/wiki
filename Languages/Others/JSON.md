@@ -104,5 +104,3 @@ az network public-ip list --resource-group MC_Technology_dev-kubernetes-cluster_
 JSON Schema Definition - <http://json-schema.org/draft-04/json-schema-core.html>
 
 <https://www.jsonschema.net
-
-

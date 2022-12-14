@@ -246,4 +246,3 @@ Option 1: groupFiles
 Option 2: groupFiles while reading from S3
 
 Option 3: Repartition
-

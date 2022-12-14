@@ -10,19 +10,19 @@ Modified: 2020-09-01 16:50:45 +0500
 
 FROM ubuntu:18.04
 
-ENV DEBIAN_FRONTEND=noninteractive 
+ENV DEBIAN_FRONTEND=noninteractive
 
 TZ=Asia/Kolkata
 
-RUN apt-get update && 
+RUN apt-get update &&
 
-apt-get install -y software-properties-common && 
+apt-get install -y software-properties-common &&
 
-add-apt-repository --yes ppa:ondrej/php && 
+add-apt-repository --yes ppa:ondrej/php &&
 
-apt-get update && 
+apt-get update &&
 
-apt-get -y upgrade && 
+apt-get -y upgrade &&
 
 apt-get install -y php7.4-intl
 

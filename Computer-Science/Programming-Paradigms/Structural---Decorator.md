@@ -24,4 +24,3 @@ What we want:
 ![image](media/Structural---Decorator-image4.jpg)
 -   Composition solves the problem
 -   Note: Do not confuse this with Python function decorators
-

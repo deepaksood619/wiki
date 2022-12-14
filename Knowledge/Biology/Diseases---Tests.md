@@ -165,7 +165,7 @@ An eating disorder characterized by markedly reduced appetite or total aversion 
         -   Keeping wounds covered
         -   Not sharing towels, sheets, razors, etc.
     -   Wash towels, sheets, and anything else in contact with an infected area in very hot water. Throw away any wound dressings in a tightly sealed bag.
-    -   
+    -
 -   **Types of Boil**
     -   **Carbuncle**
 
@@ -212,6 +212,3 @@ If a boil doesn't heal after a week of home care, call your doctor. Other reason
 
 -   **Complications**
     -   Sometimes, carbuncles are caused by methicillin-resistantStaphylococcus aureus([MRSA](https://www.webmd.com/skin-problems-and-treatments/understanding-mrsa)) bacteria, and require treatment with potent prescription[antibiotics](https://www.webmd.com/cold-and-flu/rm-quiz-antibiotics-myths-facts)if the lesions are not drained properly.
-
-
-

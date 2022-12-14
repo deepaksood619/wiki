@@ -337,9 +337,3 @@ Composability is to software as compounding interest is to finance
 Computer Science is no more about computers than astronomy is about telescopes." --- Edsger Dijkstra, Mathematician, Computer Scientist, Turing Award Winner
 
 Games were not just a diversion, I realized. Games could make you feel. If great literature could wield its power through nothing but black squiggles on a page, how much more could be done with movement, sound, and color?" --- Sid Meier, Game Developer and creator of the Civilization strategy game series
-
-
-
-
-
-

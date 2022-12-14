@@ -50,4 +50,3 @@ Itis a fancy name for methods that aid in quantifying properties of the domain o
 ## Formulas for Confidence Intervals
 
 ![image](media/Inferential-Statistics-image10.jpg)
-

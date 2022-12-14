@@ -71,4 +71,3 @@ Red Hat®Ansible®Tower helps you scale IT automation, manage complex deployment
 ## References
 
 <https://www.priyanktrivedi.org/blog/ansible_automation
-

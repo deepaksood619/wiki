@@ -133,4 +133,3 @@ Secor is a service persisting[Kafka](http://kafka.apache.org/)logs to[Amazon S3]
 <https://kafka-tutorials.confluent.io
 
 <https://www.confluent.io/blog/kafka-streams-tables-part-4-elasticity-fault-tolerance-advanced-concepts>
-

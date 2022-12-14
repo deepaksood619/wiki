@@ -7,7 +7,7 @@ Modified: 2020-03-30 02:32:01 +0500
 ---
 
 ## # SQL table to parquet
-
+```python
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
 df = spark.read.jdbc("YOUR_MYSQL_JDBC_CONN_STRING", "YOUR_TABLE",properties={"user": "YOUR_USER", "password": "YOUR_PASSWORD"})
@@ -48,18 +48,19 @@ sqlContext = SQLContext(sc)
 readdf = sqlContext.read.parquet('/home/sarvesh/Desktop/submissions-parquet')
 readdf.rdd.map(tuple).map(**lambda** row: str(row[**0**]) + "," + str(row[**1**]) + ","+ str(row[**2**]) + ","+ str(row[**3**])+ ","+
 str(row[**4**])+","+ str(row[**5**])).saveAsTextFile("/home/sarvesh/Desktop/parquet-to-csv.csv")
+```
 
 <http://blogs.quovantis.com/how-to-convert-csv-to-parquet-files>
-
+```python
 from pyspark.sql import SparkSession
 
-spark = SparkSession 
+spark = SparkSession
 
-.builder 
+.builder
 
-.appName("Python Spark SQL basic example") 
+.appName("Python Spark SQL basic example")
 
-.config("spark.some.config.option", "some-value") 
+.config("spark.some.config.option", "some-value")
 
 .getOrCreate()
 
@@ -84,11 +85,11 @@ condition1 = (data.User_Score.isNotNull()) | (data.User_Count.isNotNull())
 condition2 = data.User_Score != "tbd"
 
 data = data.filter(condition1).filter(condition2)
-
+```
 <https://towardsdatascience.com/pyspark-import-any-data-f2856cda45fd>
 
 ## Glue Transformation from Aurora DB to Parquet in s3
-
+```python
 import sys
 
 from awsglue.transforms import *
@@ -147,13 +148,13 @@ delimiter = ","
 
 # The applied options are for CSV files. For other file types, these will be ignored.
 
-df = spark.read.format(file_type) 
+df = spark.read.format(file_type)
 
-.option("inferSchema", infer_schema) 
+.option("inferSchema", infer_schema)
 
-.option("header", first_row_is_header) 
+.option("header", first_row_is_header)
 
-.option("sep", delimiter) 
+.option("sep", delimiter)
 
 .load(file_location)
 
@@ -168,5 +169,6 @@ format='parquet')
 df = spark.read.load("/FileStore/parquet/game_skater_stats")
 
 display(df)
+```
 
 <https://towardsdatascience.com/a-brief-introduction-to-pyspark-ff4284701873>

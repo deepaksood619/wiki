@@ -71,6 +71,3 @@ Youtube - Athlean X
 [20 Minute Heart-Pumping Cardio Workout - No Equipment With Warm-Up & Cool-Down | SELF](http://youtube.com/watch?v=vncKnAPhgtg&ab_channel=SELF)
 
 ![COD ](media/Exercise---Stretching_Home-Exercise-Routine-image7.jpg)
-
-
-

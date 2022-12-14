@@ -166,6 +166,3 @@ A hashtable of the smaller data set is created, then SQL Server loops through th
 <http://www.sql-join.com/sql-join-types
 
 <https://www.freecodecamp.org/news/sql-joins-tutorial
-
-
-

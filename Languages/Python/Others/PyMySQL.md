@@ -284,5 +284,3 @@ Psycopg 2 is both Unicode and Python 3 friendly.
 <https://www.psycopg.org/docs/usage.html>
 
 <https://www.psycopg.org/docs/cursor.html>
-
-

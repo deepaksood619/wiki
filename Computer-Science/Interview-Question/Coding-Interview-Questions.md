@@ -328,4 +328,3 @@ assert best_profit_from_stock([-1]) == 0
 assert best_profit_from_stock([-1,-2]) == 0
 <https://www.interviewcake.com/question/java/stock-price>
 <https://www.freecodecamp.org/news/10-common-coding-interview-problems-solved>
-

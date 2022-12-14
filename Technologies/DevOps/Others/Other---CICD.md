@@ -283,4 +283,3 @@ script:
 - aws s3 sync build/ s3://$S3_BUCKET_NAME/metta-web/$S3_BUCKET_PATH/ --delete
 
 - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
-

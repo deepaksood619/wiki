@@ -28,6 +28,3 @@ Modified: 2022-01-23 19:59:57 +0500
 ![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image4.jpg)
 
 ![image](media/Accounting-for-Finance_4A--Cash-Flow-Statement-Comparisions-image5.jpg)
-
-
-

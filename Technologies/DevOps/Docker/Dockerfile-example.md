@@ -50,29 +50,29 @@ ARG GIT_USERNAME
 
 ARG GIT_PASSWORD
 
-ENV DEBIAN_FRONTEND=noninteractive 
+ENV DEBIAN_FRONTEND=noninteractive
 
 TZ=Asia/Kolkata
 
 ENV PYTHONUNBUFFERED 1
 
-RUN sed -i -e 's/http://archive/mirror://mirrors/' -e 's/http://security/mirror://mirrors/' -e 's//ubuntu///mirrors.txt/' /etc/apt/sources.list && 
+RUN sed -i -e 's/http://archive/mirror://mirrors/' -e 's/http://security/mirror://mirrors/' -e 's//ubuntu///mirrors.txt/' /etc/apt/sources.list &&
 
-echo "Acquire {http {Timeout "60";}; ftp {Timeout "60";};};" > /etc/apt/apt.conf.d/custom-apt.conf && 
+echo "Acquire {http {Timeout "60";}; ftp {Timeout "60";};};" > /etc/apt/apt.conf.d/custom-apt.conf &&
 
-apt-get update && apt-get dist-upgrade --yes && 
+apt-get update && apt-get dist-upgrade --yes &&
 
-apt-get install -y libpng-dev libjpeg8-dev libfreetype6-dev python-dev python-pip libfreetype6-dev && 
+apt-get install -y libpng-dev libjpeg8-dev libfreetype6-dev python-dev python-pip libfreetype6-dev &&
 
-apt-get install -y libpq-dev libssl-dev libcurl4-openssl-dev libxft-dev libev-dev git curl vim p7zip-full && 
+apt-get install -y libpq-dev libssl-dev libcurl4-openssl-dev libxft-dev libev-dev git curl vim p7zip-full &&
 
-apt-get install -y swig openssl libffi-dev libssl-dev check automake build-essential zlib1g zlib1g-dev autoconf libtool && 
+apt-get install -y swig openssl libffi-dev libssl-dev check automake build-essential zlib1g zlib1g-dev autoconf libtool &&
 
-apt-get install -y libdb4.8 libdb++-dev libprotobuf-c1 libprotobuf-c-dev protobuf-c-compiler openvpn iputils-ping && 
+apt-get install -y libdb4.8 libdb++-dev libprotobuf-c1 libprotobuf-c-dev protobuf-c-compiler openvpn iputils-ping &&
 
-pip install --no-cache-dir --upgrade 'pip==10' && 
+pip install --no-cache-dir --upgrade 'pip==10' &&
 
-apt-get autoremove -y && apt-get clean -y && 
+apt-get autoremove -y && apt-get clean -y &&
 
 rm -rf /var/lib/apt/lists/*
 
@@ -80,9 +80,9 @@ rm -rf /var/lib/apt/lists/*
 
 COPY ./smap/ /root/smap/
 
-RUN pip install --no-cache-dir requests[security] 'Twisted[tls]==16.0.0' pyopenssl && 
+RUN pip install --no-cache-dir requests[security] 'Twisted[tls]==16.0.0' pyopenssl &&
 
-pip install --no-cache-dir -r /root/smap/python/requirements.txt && 
+pip install --no-cache-dir -r /root/smap/python/requirements.txt &&
 
 cd /root/smap/python && python setup.py install
 
@@ -90,7 +90,7 @@ cd /root/smap/python && python setup.py install
 
 COPY requirements.txt /root/requirements.txt
 
-RUN pip install --no-cache-dir --trusted-host pypi.python.org -r /root/requirements.txt && 
+RUN pip install --no-cache-dir --trusted-host pypi.python.org -r /root/requirements.txt &&
 
 curl "<https://rclone.org/install.sh>" | bash
 

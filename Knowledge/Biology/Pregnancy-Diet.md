@@ -13,5 +13,3 @@ Modified: 2021-02-11 01:06:32 +0500
 ![](media/Pregnancy-Diet-image3.png)
 
 ![image](media/Pregnancy-Diet-image4.png)
-
-

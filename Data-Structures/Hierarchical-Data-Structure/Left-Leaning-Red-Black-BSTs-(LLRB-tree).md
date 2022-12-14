@@ -74,4 +74,3 @@ i.  Insert into a 3-node at the bottom
 -   C++ STL: map, multimap, multiset
 -   Linux kernel: completely fair scheduler, linux/rbtree.h
 -   Emacs: conservative stack scanning
-

@@ -183,4 +183,3 @@ We can change our coordinate system so that our eigenvectors are our basis vecto
 
 [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 ![Vectors vs. ](media/3Blue1Brown-image40.jpg)
-

@@ -1096,16 +1096,3 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -67,4 +67,3 @@ weather_data.append(row.split(','))
 ![image](media/File-IO-image2.png)
 
 ![](media/File-IO-image3.png)
-

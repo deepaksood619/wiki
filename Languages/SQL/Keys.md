@@ -175,4 +175,3 @@ Surrogate keys are allowed when
 <https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database
 
 Whenever you're choosing a Primary Key, think of an identity crisis.
-

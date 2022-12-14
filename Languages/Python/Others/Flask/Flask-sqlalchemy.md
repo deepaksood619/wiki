@@ -27,7 +27,7 @@ Modified: 2020-08-19 16:25:43 +0500
 -   Connection String
 
 ## Example
-
+```python
 from flask import Flask
 
 from flask_sqlalchemy import SQLAlchemy
@@ -305,5 +305,4 @@ customers = db.session.query(Customer).join(Order).join(order_product).join(Prod
 for customer in customers:
 
 print(customer.first_name)
-
-
+```
