@@ -6,13 +6,13 @@ Modified: 2021-11-07 20:59:16 +0500
 
 ---
 
-**Properties**
+## Properties
 -   In Binary tree, number of leaf nodes is always one more than nodes with two children.
 
 L = T + 1
 Where L = Number of leaf nodes
 T = Number of internal nodes with two children
-**Types of Binary Tree**
+## Types of Binary Tree
 -   A**rooted**binary[tree](https://en.wikipedia.org/wiki/Tree_data_structure)has a[root node](https://en.wikipedia.org/wiki/Root_node)and every node has at most two children.
 -   A**full**binary tree (sometimes referred to as a**proper**or**plane**binary tree)is a tree in which every node has either 0 or 2 children. Another way of defining a full binary tree is a[recursive definition](https://en.wikipedia.org/wiki/Recursive_definition). A full binary tree is either:
     -   A single vertex.
@@ -31,17 +31,17 @@ Empty or node with links to left and right binary trees.
 ![](media/Binary-Tree-image1.png)
 
 This is neither full nor complete
-![2 0 10 12 3 0 4 0 ](media/Binary-Tree-image2.png)
+![image](media/Binary-Tree-image2.png)
 
 This is both full and complete
-**Full Binary tree / proper binary tree / 2-tree / strictly binary tree**
+## Full Binary tree / proper binary tree / 2-tree / strictly binary tree
 
 Tree in which every node other than the leaves has two children.
 
-![20 12 20 30 40 ](media/Binary-Tree-image3.png)
+![image](media/Binary-Tree-image3.png)
 
 This is full but not complete
-**Complete tree**
+## Complete tree
 
 Perfectly balanced, except for bottom level, and all nodes are as far left as possible.
 -   Height of complete tree with N nodes is floor(lg N)
@@ -50,7 +50,7 @@ Perfectly balanced, except for bottom level, and all nodes are as far left as po
 ![12 20 30 30 ](media/Binary-Tree-image4.png)
 
 This is complete but not full
-**Binary trees**
+## Binary trees
 
 In computer science, a binary tree is a tree data structure in which each node has at the most two children, which are referred to as the left child and the right child." --- [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
 ![](media/Binary-Tree-image5.png)

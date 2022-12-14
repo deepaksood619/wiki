@@ -6,7 +6,7 @@ Modified: 2020-08-07 00:49:37 +0500
 
 ---
 
-**###### Example 1**
+## ###### Example 1
 
 # Use an official Python runtime as a parent image
 
@@ -16,15 +16,11 @@ FROM python:3.7.6-slim
 
 FROM python:3.8-slim-buster
 
-
-
 ENV DEBUG False
 
 ENV TZ=Asia/Kolkata
 
 ENV PYTHONUNBUFFERED 1
-
-
 
 # Only requirements.txt is copied so Docker build cache doesn't get invalidated
 
@@ -32,19 +28,13 @@ ENV PYTHONUNBUFFERED 1
 
 COPY requirements.txt /root/kafkaconsumer/requirements.txt
 
-
-
 # Set the working directory to /app
 
 WORKDIR /root/kafkaconsumer
 
-
-
 # Install any needed packages specified in requirements.txt
 
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
-
-
 
 # Copy the current directory contents into the container at /app
 
@@ -52,27 +42,19 @@ COPY scripts /root/kafkaconsumer
 
 
 
-
-
-**###### Example 2**
+## ###### Example 2
 
 FROM ubuntu:latest
-
-
 
 ARG GIT_USERNAME
 
 ARG GIT_PASSWORD
-
-
 
 ENV DEBIAN_FRONTEND=noninteractive 
 
 TZ=Asia/Kolkata
 
 ENV PYTHONUNBUFFERED 1
-
-
 
 RUN sed -i -e 's/http://archive/mirror://mirrors/' -e 's/http://security/mirror://mirrors/' -e 's//ubuntu///mirrors.txt/' /etc/apt/sources.list && 
 
@@ -94,8 +76,6 @@ apt-get autoremove -y && apt-get clean -y &&
 
 rm -rf /var/lib/apt/lists/*
 
-
-
 #SMAP Section begin
 
 COPY ./smap/ /root/smap/
@@ -108,49 +88,31 @@ cd /root/smap/python && python setup.py install
 
 #SMAP Section end
 
-
-
 COPY requirements.txt /root/requirements.txt
 
 RUN pip install --no-cache-dir --trusted-host pypi.python.org -r /root/requirements.txt && 
 
 curl "<https://rclone.org/install.sh>" | bash
 
-
-
 #For airflow
 
 RUN pip install --no-cache-dir Flask==1.1.1
 
-
-
 COPY ./Docker/analytics/jupyter_notebook_config.py /root/.jupyter/jupyter_notebook_config.py
-
-
 
 COPY id_rsa id_rsa.pub /root/.ssh/
 
 RUN chmod 600 ~/.ssh/id_rsa*
 
-
-
 ADD . /root/zenalytix/
-
-
 
 EXPOSE 5555 8070 8071 8080 8888 9104
 
-
-
 <https://docs.docker.com/develop/develop-images/dockerfile_best-practices
 
-
-
-**Python - Multistage builds**
+## Python - Multistage builds
 
 <https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3>
-
-
 
 
 
@@ -168,8 +130,6 @@ COPY . .
 
 RUN npm run build
 
-
-
 FROM nginx
 
 EXPOSE 80
@@ -178,31 +138,19 @@ COPY --from=builder /app/build /usr/share/nginx/html
 
 
 
-
-
-**ENV PYTHONUNBUFFERED 1**
+## ENV PYTHONUNBUFFERED 1
 
 SettingPYTHONUNBUFFERED=TRUEorPYTHONUNBUFFERED=1(they are equivalent) allows for log messages to be immediately dumped to the stream instead of being buffered. This is useful for receiving timely log messages and avoiding situations where the application crashes without emitting a relevant message due to the message being "stuck" in a buffer.
 
-
-
 As for performance, there can be some (minor) loss that comes with using unbuffered I/O. To mitigate this, I would recommend limiting the number of log messages. If it is a significant concern, one can always leave buffered I/O on and manually flush the buffer when necessary.
 
-
-
-**# Go Dockerfile**
+## # Go Dockerfile
 
 FROM golang:1.14-alpine as build
 
-
-
 RUN apk add --no-cache git
 
-
-
 WORKDIR /src
-
-
 
 RUN go get github.com/julienschmidt/httprouter
 
@@ -210,41 +158,25 @@ RUN go get github.com/sirupsen/logrus
 
 RUN go get github.com/streadway/amqp
 
-
-
 COPY publisher.go /src
-
-
 
 RUN go build publisher.go
 
-
-
 FROM alpine as runtime
-
-
 
 COPY --from=build /src/publisher /app/publisher
 
-
-
 CMD [ "/app/publisher" ]
 
-
-
-**# Flask Dockerfile**
+## # Flask Dockerfile
 
 FROM python:3.8-slim-buster
 
 ENV TZ=Asia/Kolkata
 
-
-
 # Set the working directory to /app
 
 WORKDIR /app
-
-
 
 # Only requirements.txt is copied so Docker build cache doesn't get invalidated
 
@@ -252,13 +184,9 @@ WORKDIR /app
 
 COPY requirements.txt /app/requirements.txt
 
-
-
 # Install any needed packages specified in requirements.txt
 
 RUN pip install --trusted-host pypi.python.org -r /app/requirements.txt
-
-
 
 # Copy the current directory contents into the container at /app
 

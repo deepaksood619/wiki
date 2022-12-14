@@ -6,20 +6,16 @@ Modified: 2022-04-19 22:19:27 +0500
 
 ---
 
-**Resources**
+## Resources
 
 <https://www.freecodecamp.org/news/free-textbooks-math-science-and-more-online-pdf-for-college-and-high-school
-
-
 
 Book Summaries
 -   Productivitygame.com
 -   <https://jamesclear.com/book-summaries>
 -   <https://medium.com/the-mission/131-actionable-ideas-from-ten-books-i-wish-i-had-read-ages-ago-d751c17402de>
 
-
-
-**Books Types**
+## Books Types
 
 Speculative Fiction (Possible Futures)
 
@@ -27,26 +23,18 @@ Utopian / Dystopian
 
 Ex - The Handmaid's Tale
 
-
-
 Magical Realism
 
 Ex - One Hundred Years of Solitude
 
-
-
-**Marketing**
+## Marketing
 -   Misbehaving
 -   Nudge
 
-
-
-**Financial**
+## Financial
 -   The Acquirer's Multiple
 
-
-
-**Book List**
+## Book List
 -   177 mental toughness secret of the world class
 -   A Random Walk Down Wallstreet by Burton Malkiel
 -   A mind for numbers
@@ -157,11 +145,7 @@ Ex - One Hundred Years of Solitude
 -   Why We Sleep - Matthew Walker
 -   Wired to Win: Rewire Your Brain to Achieve Enormous Success
 
-
-
 <https://www.irisreading.com/warren-buffetts-10-favorite-books>
-
-
 
 Book recommendation by Shashi Tharoor
 -   Plato's Dialogues
@@ -174,10 +158,6 @@ Book recommendation by Shashi Tharoor
 -   The legends of khasak
 -   Nehru: The Invention of India
 -   Heavy weather by PG WODEHOUSE
-
-
-
-
 
 
 
@@ -196,36 +176,20 @@ Book recommendation by Barack Obama
 -   "The Love Songs of W.E.B. Du Bois" by Honorée Fanonne Jeffers
 -   "Beautiful Country" by Qian Julie Wang
 
-
-
 [17 Books to Read in 2022 | My Top Reads of 2021 | Ankur Warikoo Hindi](https://youtu.be/pJYFetCibXI)
 
-
-
-**Bhagavad Gita**
+## Bhagavad Gita
 
 TheBhagavad Gita([/ˌbʌɡəvədˈɡiːtɑː,-tə/](https://en.wikipedia.org/wiki/Help:IPA/English);[Sanskrit](https://en.wikipedia.org/wiki/Sanskrit_language):भगवद्गीता,[IAST](https://en.wikipedia.org/wiki/IAST):bhagavad-gītā, lit. "The Song of[God](https://en.wikipedia.org/wiki/Bhagavan)"),often referred to asthe Gita, is a 700-[verse](https://en.wikipedia.org/wiki/Sanskrit_prosody)[Sanskrit](https://en.wikipedia.org/wiki/Sanskrit)scripture that is part of the[Hindu epic](https://en.wikipedia.org/wiki/Hindu_epic)[Mahabharata](https://en.wikipedia.org/wiki/Mahabharata)(chapters 23--40 of[Bhishma Parva](https://en.wikipedia.org/wiki/Bhishma_Parva)).
 
-
-
 TheGitais set in a narrative framework of a dialogue between[Pandava](https://en.wikipedia.org/wiki/Pandava)prince[Arjuna](https://en.wikipedia.org/wiki/Arjuna)and his guide and charioteer[Krishna](https://en.wikipedia.org/wiki/Krishna). At the start of the[Dharma](https://en.wikipedia.org/wiki/Dharma)[Yudhha](https://en.wikipedia.org/wiki/War)(righteous war) between[Pandavas](https://en.wikipedia.org/wiki/Pandava)and[Kauravas](https://en.wikipedia.org/wiki/Kaurava), Arjuna is filled with moral dilemma and despair about the violence and death the war will cause. He wonders if he should renounce and seeks Krishna's counsel, whose answers and discourse constitute theBhagadvad Gita. Krishna counsels Arjuna to "fulfill his[Kshatriya](https://en.wikipedia.org/wiki/Kshatriya)(warrior) duty to uphold the[Dharma](https://en.wikipedia.org/wiki/Dharma)" through "selfless action".The Krishna--Arjuna dialogue cover a broad range of spiritual topics, touching upon ethical dilemmas and philosophical issues that go far beyond the war Arjuna faces.
-
-
 
 TheBhagavad Gitapresents a synthesisof Hindu ideas about[dharma](https://en.wikipedia.org/wiki/Dharma),[theistic](https://en.wikipedia.org/wiki/Theism)[bhakti](https://en.wikipedia.org/wiki/Bhakti),and the [yogic](https://en.wikipedia.org/wiki/Yoga) ideals of [moksha](https://en.wikipedia.org/wiki/Moksha). The text covers[jnana](https://en.wikipedia.org/wiki/Jnana_yoga),[bhakti](https://en.wikipedia.org/wiki/Bhakti_yoga),[karma](https://en.wikipedia.org/wiki/Karma_yoga), and[Raja Yoga](https://en.wikipedia.org/wiki/Raja_Yoga)(spoken of in the 6th chapter)incorporating ideas from the[Samkhya](https://en.wikipedia.org/wiki/Samkhya)-[Yoga](https://en.wikipedia.org/wiki/Yoga)philosophy
 
-
-
 Numerous commentaries have been written on theBhagavad Gitawith widely differing views on the essentials.[Vedanta](https://en.wikipedia.org/wiki/Vedanta)commentators read varying relations between Self and[Brahman](https://en.wikipedia.org/wiki/Brahman)in the text:[Advaita Vedanta](https://en.wikipedia.org/wiki/Advaita_Vedanta)sees the non-dualism of[Atman](https://en.wikipedia.org/wiki/%C4%80tman_(Hinduism))(soul) and Brahman as its essence, whereas [Bhedabheda](https://en.wikipedia.org/wiki/Bhedabheda) and [Vishishtadvaita](https://en.wikipedia.org/wiki/Vishishtadvaita) see Atman and Brahman as both different and non-different, and[Dvaita](https://en.wikipedia.org/wiki/Dvaita)sees them as different. The setting of theGitain a battlefield has been interpreted as an allegory for the ethical and moral struggles of the human life.
-
-
 
 TheBhagavad Gitais the best known and most famous of Hindu texts,with a unique pan-Hindu influence. The Gita's call for selfless action inspired many leaders of the[Indian independence movement](https://en.wikipedia.org/wiki/Indian_independence_movement)including[Bal Gangadhar Tilak](https://en.wikipedia.org/wiki/Bal_Gangadhar_Tilak)and[Mahatma Gandhi](https://en.wikipedia.org/wiki/Mahatma_Gandhi); the latter referred to it as his "spiritual dictionary".
 
-
-
 <https://en.wikipedia.org/wiki/Bhagavad_Gita>
-
-
 
 I am become death, destroyer of worlds. -- Bhagavad Gita

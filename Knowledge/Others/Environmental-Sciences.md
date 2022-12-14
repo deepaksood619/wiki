@@ -8,9 +8,7 @@ Modified: 2021-08-08 13:43:28 +0500
 
 <https://www.pmfias.com/carbon-nitrogen-phosphorus-sulphur-cycle>
 
-
-
-**Blinkist - The Uninhabitable Earth by David Wallace-Wells, 18 Apr 2019 -** A Story of the Future
+## Blinkist - The Uninhabitable Earth by David Wallace-Wells, 18 Apr 2019 - A Story of the Future
 -   We are going to smash right through 2-degree celing (UN's IPCC 2018 report on Climate Change)
 -   Worst case scenario by 2100, UN predicts 8 degrees increase
     -   Equatorial regions become completely uninhabitable
@@ -73,8 +71,6 @@ Modified: 2021-08-08 13:43:28 +0500
 -   Actionable advice
     -   Put pressure on politicians to act
 
-
-
-**Climate Change**
+## Climate Change
 
 <https://www.youtube.com/watch?v=qEC4vfo9cn4>

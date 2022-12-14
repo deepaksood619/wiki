@@ -10,8 +10,6 @@ Use `az --version` to display the current version.
 
 Here are the base commands:
 
-
-
 account : Manage Azure subscription information.
 
 acr : Manage private registries with Azure Container Registries.

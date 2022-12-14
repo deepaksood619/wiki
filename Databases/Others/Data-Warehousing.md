@@ -6,7 +6,7 @@ Modified: 2021-12-08 23:23:20 +0500
 
 ---
 
-**Lifecycle Data**
+## Lifecycle Data
 In[computing](https://en.wikipedia.org/wiki/Computing), adata warehouse(DWorDWH), also known as anenterprise data warehouse(EDW), is a system used for[reporting](https://en.wikipedia.org/wiki/Business_reporting)and[data analysis](https://en.wikipedia.org/wiki/Data_analysis), and is considered a core component of[business intelligence](https://en.wikipedia.org/wiki/Business_intelligence).DWs are central repositories of integrated data from one or more disparate sources. They store current and historical data in one single placethat are used for creating analytical reports for workers throughout the enterprise.
 The data stored in the warehouse is[uploaded](https://en.wikipedia.org/wiki/Upload)from the[operational systems](https://en.wikipedia.org/wiki/Operational_system)(such as marketing or sales). The data may pass through an[operational data store](https://en.wikipedia.org/wiki/Operational_data_store)and may require[data cleansing](https://en.wikipedia.org/wiki/Data_cleansing)for additional operations to ensure[data quality](https://en.wikipedia.org/wiki/Data_quality)before it is used in the DW for reporting.
 [Extract, transform, load](https://en.wikipedia.org/wiki/Extract,_transform,_load)(ETL) and[Extract, load, transform](https://en.wikipedia.org/wiki/Extract,_load,_transform)(E-LT) are the two main approaches used to build a data warehouse system.
@@ -27,7 +27,7 @@ A data warehouse is specially designed for data analytics, which involves readin
 | Data normalization  | Denormalized schemas, such as the Star schema or Snowflake schema                          | Highly normalized, static schemas                                                                     |
 | Data storage        | Optimized for simplicity of access and high-speed query performance using columnar storage | Optimized for high throughout write operations to a single row-oriented physical block                |
 | Data access         | Optimized to minimize I/O and maximize data throughput                                     | High volumes of small read operations                                                                 |
-**Data Warehouse vs Data Lake**
+## Data Warehouse vs Data Lake
 
 Unlike a data warehouse, a data lake is a centralized repository foralldata, including structured and unstructured. A data warehouse utilizes a pre-defined schema optimized for analytics. In a data lake, the schema is not defined, enabling additional types of analytics like big data analytics, full text search, real-time analytics, and machine learning.
 | **Characteristics** | **Data Warehouse**                                                                                   | **Data Lake**                                                                                                         |
@@ -38,7 +38,7 @@ Unlike a data warehouse, a data lake is a centralized repository foralldata, inc
 | Data Quality        | Highly curated data that serves as the central version of the truth                                  | Any data that may or may not be curated (i.e. raw data)                                                               |
 | Users               | Business analysts, data scientists, and data developers                                              | Data scientists, data developers, and business analysts (using curated data)                                          |
 | Analytics           | Batch reporting, BI, and visualizations                                                              | Machine learning, predictive analytics, data discovery, and profiling                                                 |
-**Data Warehouse vs Data Mart**
+## Data Warehouse vs Data Mart
 
 A data mart is a data warehouse that serves the needs of a specific team or business unit, like finance, marketing, or sales. It is smaller, more focused, and may contain summaries of data that best serve its community of users.
 | **Characteristics** | **Data Warehouse**                                      | **Data Mart**                                                                         |
@@ -49,7 +49,7 @@ A data mart is a data warehouse that serves the needs of a specific team or busi
 | Size                | Large, can be 100's of gigabytes to petabytes          | Small, generally up to 10's of gigabytes                                             |
 | Design              | Top-down                                                | Bottom-up                                                                             |
 | Data detail         | Complete, detailed data                                 | May hold summarized data                                                              |
-**Reference**
+## Reference
 
 <https://dzone.com/refcardz/data-warehousing>
 

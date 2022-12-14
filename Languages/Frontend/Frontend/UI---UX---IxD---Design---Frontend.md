@@ -8,24 +8,16 @@ Modified: 2022-10-30 23:58:08 +0500
 
 "Design is not just what it looks like and feels like. Design is how it works."---[Steve Jobs, 2003](https://www.lukew.com/quotes/)
 
-
-
 <https://www.freecodecamp.org/news/ui-ux-design-guide
 
-
-
-**UX**
+## UX
 
 [UX Design Fundamentals: What do your users really see - Billy Hollis](https://www.youtube.com/watch?v=80H-9caP7UM)
 
-
-
-**Design System**
+## Design System
 -   Consistency
 
-
-
-**20 Usability Heuristics**
+## 20 Usability Heuristics
 -   User Control: The interface will allow the user to perceive that they are in control and will allow appropriate control
 -   Human Limitations: The interface will not overload the user's congnitive, visual, auditory, tactile, or motor limits
 -   Modal Integrity: The interface will fit individual tasks within whatever modality is being used: auditory, visual, or motor/kinesthetic
@@ -47,17 +39,13 @@ Modified: 2022-10-30 23:58:08 +0500
 -   Forgiveness: The interface will make actions recoverable
 -   Responsiveness: The interface will inform users about the results of their actions and the interface's status
 
-
-
 <https://www.toptal.com/designers/ui/design-for-developers>
 
 <https://uxplanet.org/9-ui-ux-must-tools-for-designers-df60745d990e>
 
 <https://www.toptal.com/designers/gui/portfolios>
 
-
-
-**Dark Pattern Design**
+## Dark Pattern Design
 
 Adark patternis "a[user interface](https://en.wikipedia.org/wiki/User_interface)that has been carefully crafted to trick users into doing things, such as buying overpriced insurance with their purchase or signing up for recurring bills". [User experience designer](https://en.wikipedia.org/wiki/User_experience_design)Harry Brignull coined the[neologism](https://en.wikipedia.org/wiki/Neologism)on 28 July 2010 with the registration of darkpatterns.org, a "pattern library with the specific goal of naming and shaming deceptive user interfaces".More broadly, dark patterns supplant "user value...in favor of shareholder value".
 
@@ -67,8 +55,6 @@ Adark patternis "a[user interface](https://en.wikipedia.org/wiki/User_interface)
 -   Forced Continuity --- A Silent Parasite
 -   Roach Model --- Want To Say Goodbye? Not So Easy!
 -   Tricky Questions --- Check or uncheck? That's the question.
-
-
 
 [**https://www.darkpatterns.org/types-of-dark-pattern**](https://www.darkpatterns.org/types-of-dark-pattern)
 
@@ -80,9 +66,7 @@ Adark patternis "a[user interface](https://en.wikipedia.org/wiki/User_interface)
 
 [How to Encourage Clicks Without the Shady Tricks | UX Consultant | Paul Boag](https://www.youtube.com/watch?v=6tvR1rz_Nb8)
 
-
-
-**The seven most important building blocks of all good user interfaces**
+## The seven most important building blocks of all good user interfaces
 -   White space
 -   Color
 -   Contrast
@@ -91,22 +75,14 @@ Adark patternis "a[user interface](https://en.wikipedia.org/wiki/User_interface)
 -   Typography
 -   Visual Hierarchy
 
-
-
 <https://www.freecodecamp.org/news/learn-ui-design-fundamentals-with-this-free-one-hour-course
 
-
-
-**UX**
+## UX
 -   Skeuomorphism
 
 Skeuomorphism is a term used to define an interface that mimics real-world items. The most common examples are the recycle bin icon on the desktop screen and the dial icon on mobile phones. They both represent a real-life object, dustbin, and a landline phone that the users are already familiar with.
 
-
-
 Skeuomorphism had a huge impact on the early days of computing. The use of Skeupmorphism made interfaces more familiar and intuitive to use.
-
-
 
 It served as a bridge between the physical and the digital world. The buttons were purposefully made to look glossy and raised to mimic a real-life button. However, with the popularity of smartphones, people became very accustomed to the graphical user interface. Skeuomorphism served a little role as time progressed. The 3-dimensions looking elements started looking unnecessary and made the UI look cluttered. This led to the rise in Flat Design.
 
@@ -115,11 +91,7 @@ It served as a bridge between the physical and the digital world. The buttons we
 
 Flat designs moved away from 3d elements of Skeuomorphism. The idea of Flat Design was inspired by Minimalism. The flat design avoids gradients, shadows, and textures and rather focuses on User Experience (UX) with the use of simple flat elements and flat solid colors.
 
-
-
 Apart from its aesthetics, the main benefit of Flat Design is in its implementation. It is far easier to scale flat design elements and make it responsive over different screen sizes.
-
-
 
 However, flat design is limiting at times and may make designs too minimal and less intuitive. Therefore, a new improved and evolved form of Flat Design, Material Design, was then introduced. It makes the use of animations, gravity, and has a sense of physics. The material design utilizes Skeuomorphism subtly. It utilizes shadows and z-index to give a sense of elements being on top of each other.
 
@@ -128,19 +100,13 @@ However, flat design is limiting at times and may make designs too minimal and l
 
 ![Image for post](media/UI---UX---IxD---Design---Frontend-image1.png)
 
-
-
 While neumorphic design looks aesthetically pleasing, it certainly has a lot of limitations. The subtle differences in the color value make it look minimal and aesthetically pleasing. However, having a low contrast ratio presents an accessibility issue. While it is possible to achieve different states of buttons such as active, pressed, and hovered with the use of different types of shadows, it might only be considering the users with clear eyesight. Moreover, it is complex to achieve a visual hierarchy by visually differentiating elements based on their levels of importance without compromising accessibility. Neumorphism might compromise UX for aesthetically pleasing UI if not done correctly.
-
-
 
 <https://www.justinmind.com/blog/neumorphism-ui
 
 <https://medium.com/@artofofiare/neumorphism-the-right-way-a-2020-design-trend-386e6a09040a>
 
 <https://css-tricks.com/neumorphism-and-css
-
-
 
 ![Image for post](media/UI---UX---IxD---Design---Frontend-image2.png)
 
@@ -149,19 +115,15 @@ While neumorphic design looks aesthetically pleasing, it certainly has a lot of 
 
 The main aspect of this trend is a semi-transparent background, with a sublime shadow and border.
 
-
-
 <https://ui.glass
 
 <https://www.freecodecamp.org/news/glassmorphism-design-effect-with-html-css
 
+## Figma
 
+## Icons - Free figma icons
 
-**Figma**
-
-**Icons - Free figma icons**
-
-**Templates -** <https://www.templatefreebies.com
+## Templates - <https://www.templatefreebies.com
 
 <https://www.youtube.com/watch?v=FTFaQWZBqQ8&ab_channel=AJ%26Smart>
 
@@ -177,25 +139,17 @@ The main aspect of this trend is a semi-transparent background, with a sublime s
 
 Figma Variants - <https://www.freecodecamp.org/news/design-a-scalable-mobile-app-with-figma-variants
 
-
-
-**Accessibility**
+## Accessibility
 
 <https://www.freecodecamp.org/news/designing-keyboard-accessibility-for-complex-react-experiences
 
-
-
-**IxD (Interaction Designers)**
+## IxD (Interaction Designers)
 
 Interaction design, often abbreviated asIxD, is "the practice of designing interactive digital products, environments, systems, and services."Beyond the digital aspect, interaction design is also useful when creating physical (non-digital) products, exploring how a user might interact with it. Common topics of interaction design include[design](https://en.wikipedia.org/wiki/Design),[human--computer interaction](https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction), and[software development](https://en.wikipedia.org/wiki/Programming_tool). While interaction design has an interest in form (similar to other design fields), its main area of focus rests on behavior.Rather than analyzing how things are, interaction design synthesizes and imagines things as they could be. This element of interaction design is what characterizes IxD as a design field as opposed to a science or engineering field.
 
-
-
 While disciplines such as software engineering have a heavy focus on designing for technical stakeholders, interaction design is geared toward satisfying the majority of users.
 
-
-
-**Five dimensions**
+## Five dimensions
 
 The concept of dimensions of interaction design were introduced in Moggridge's bookDesigning Interactions.Crampton Smith wrote that interaction design draws on four existing design languages, 1D, 2D, 3D, 4D.Silver later proposed a fifth dimension, behaviour.
 -   **Words**
@@ -216,33 +170,21 @@ Behavior defines how users respond to the interface. Users may have different re
 
 <https://xd.adobe.com/ideas/principles/human-computer-interaction/what-is-interaction-design
 
-
-
-**How do you utilize Hierarchy of Control in your design projects?**
+## How do you utilize Hierarchy of Control in your design projects?
 
 This technique is another way Interaction Designers IxD can make users feel comfortable using the platform, which in turn will make them more efficient.
 
-
-
 The way Hierarchy of Control can be made clearly apparent is generally by grouping controls which affect an object with the object itself, such as zoom controls on a map. A hierarchy is created by associating controls which influence a smaller group of objects with the entire group.
 
-
-
-**Information Architecture (IA)**
+## Information Architecture (IA)
 
 <https://www.toptal.com/designers/ia/guide-to-information-architecture>
 
-
-
 An information architecture is a document that provides an operational map to how a product acts and functions work for users. It's akin to a blueprint for digital products, and it displays pages, content, interactions, and behaviors for the entire product.
-
-
 
 Information architecture (IA) involves the way a website/app is structured and how the content is organized. The goal is to help users find information and complete tasks. "In other words, information architecture is the creation of a structure for a website, application, or another project, that allows us to understand where we are as users, and where the information we want is in relation to our position. Information architecture results in the creation of site maps, hierarchies, categorizations, navigation, and metadata. When a content strategist begins separating content and dividing it into categories, she is practicing information architecture. When a designer sketches a top level menu to help users understand where they are on a site, he is also practicing information architecture"- from[uxbooth.com](http://www.uxbooth.com/articles/complete-beginners-guide-to-information-architecture/)
 
-
-
-**Some qualifications for IA**
+## Some qualifications for IA
 -   Experience documenting complex digital properties (websites, mobile apps, products, and system services)
 -   Extremely detailed documentation, ability to find discrepancies, cracks, etc. amongst complex site documentation
 -   Proficient with Axure, OmniGraffle, Keynote, as well as Visio and any other programs directly related to IA
@@ -251,13 +193,9 @@ Information architecture (IA) involves the way a website/app is structured and h
 -   Needs to be analytical, hardworking, creative, curious and interested in people and ideas
 -   Must be a confident and motivated self-starter
 
+![image](media/UI---UX---IxD---Design---Frontend-image3.png)
 
-
-![interaction design model](media/UI---UX---IxD---Design---Frontend-image3.png)
-
-![umbrella model showing how UX solves problems](media/UI---UX---IxD---Design---Frontend-image4.png)
-
-
+![image](media/UI---UX---IxD---Design---Frontend-image4.png)
 
 [UX / UI Inspiration for 2019](https://www.youtube.com/watch?v=7wlM_uOhKH4)
 -   **producthunt -** <https://www.producthunt.com
@@ -268,41 +206,29 @@ Information architecture (IA) involves the way a website/app is structured and h
 -   informationisbeautiful.net
 -   figma
 
-
-
 [Designing for Speed | Google Senior UX Designer | Mustafa Kurtuldu](https://www.youtube.com/watch?v=Drf5ZKd4aVY)
 
 <https://bit.ly/speedebook>
 
-**Occupied vs Unoccupied time**
+## Occupied vs Unoccupied time
 
-![Walking Unoccupied Occupied LEAVE PLANE Waiting GET LUGGAGE 7 MINUTES ](media/UI---UX---IxD---Design---Frontend-image5.jpeg)
+![image](media/UI---UX---IxD---Design---Frontend-image5.jpeg)
 
-**Elevators**
+## Elevators
 -   Put up mirrors
 -   Install hand sanitizers
 
-
-
 Speed is broken up in two pieces, **real** and **perceived**
 
+![image](media/UI---UX---IxD---Design---Frontend-image6.jpeg)
 
+![image](media/UI---UX---IxD---Design---Frontend-image7.jpeg)
 
-![User behaviour is affected by; Intention Occupied time State of mind Importance State of body ](media/UI---UX---IxD---Design---Frontend-image6.jpeg)
+## UX important hierarchy
 
+![image](media/UI---UX---IxD---Design---Frontend-image8.jpeg)
 
-
-![I was just browsing without a particular purpose or need in mind (34% for Retail sites) I wanted to find out about something that I might do in the future (49% for Travel sites) I wanted to do something then and there (57% for Financial sites) ](media/UI---UX---IxD---Design---Frontend-image7.jpeg)
-
-
-
-**UX important hierarchy**
-
-![The speed it takes to load a page How easy it is to find what I'm looking for How well the site fits my screen How simple the site is to use How attractive the sites looks 75% 61% 58% ](media/UI---UX---IxD---Design---Frontend-image8.jpeg)
-
-
-
-**Design Thinking Process**
+## Design Thinking Process
 
 The five phases of the Design Thinking Process are:
 -   Empathize
@@ -313,9 +239,7 @@ The five phases of the Design Thinking Process are:
 
 <https://www.freecodecamp.org/news/the-design-thinking-process-explained
 
-
-
-**Tools**
+## Tools
 -   draw.io / drawio
 
 Availability zone
@@ -342,9 +266,7 @@ ec2 machine
 -   Adobe XD vs Sketch vs Figma vs InVision studio
 -   <http://illustrated.dev/resources>
 
-
-
-**Others**
+## Others
 
 <https://dev.to/fullstack_to/units-in-css-em-rem-pt-px-vw-vh-vmin-vmax-ex-ch-53l0>
 
@@ -360,15 +282,11 @@ ec2 machine
 
 <https://www.toptal.com/designers/interactive/interview-questions>
 
-**Courses - <https://www.interaction-design.org**
+## Courses - <https://www.interaction-design.org
 
 <https://wittysparks.com/professional-design-process-explained
 
 <https://www.freecodecamp.org/news/ux-vs-ui-whats-the-difference-definition-and-meaning
-
-
-
-
 
 
 

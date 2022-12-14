@@ -8,9 +8,7 @@ Modified: 2018-10-14 08:58:52 +0500
 
 SparseArray
 
-
-
-**HashSet**
+## HashSet
 
 1.  HashSet class implements the Set interface
 
@@ -26,9 +24,7 @@ SparseArray
 
 
 
-
-
-**HashMap**
+## HashMap
 
 1.  HashMap class implements the Map interface.
 

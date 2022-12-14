@@ -6,29 +6,21 @@ Modified: 2019-12-28 23:49:10 +0500
 
 ---
 
-**Telegraf**
+## Telegraf
 
 ddocker run --rm --net=influxdb --name telegraf telegraf #run default conf file
 
 docker run --rm telegraf telegraf config > telegraf.conf #get conf file for editing
 
-
-
 docker run --rm -d --net=influxdb -e "HOST_PROC=/rootfs/proc" -e "HOST_SYS=/rootfs/sys" -e "HOST_ETC=/rootfs/etc" -v $PWD/telegraf.conf:/etc/telegraf/telegraf.conf:ro -v /var/run/docker.sock:/var/run/docker.sock:ro -v /sys:/rootfs/sys:ro -v /proc:/rootfs/proc:ro -v /etc:/rootfs/etc:ro --name telegraf telegraf
-
-
 
 
 
 docker run --rm -d --net=influxdb -v $PWD/telegraf.conf:/etc/telegraf/telegraf.conf:ro -v /var/run/docker.sock:/var/run/docker.sock:ro -v /rootfs/sys:/sys:ro -v /rootfs/proc:/proc:ro -v /rootfs/etc:/etc:ro -v /var/run/utmp:/var/run/utmp -v --name telegraf telegraf
 
-
-
 --add-host="influxdb:192.168.0.73"
 
-
-
-**Commands**
+## Commands
 
 sudo nano /etc/telegraf/telegraf.conf #conf file
 
@@ -38,27 +30,19 @@ sudo service telegraf status
 
 tail -f /var/log/telegraf/telegraf.log #telegraf logs
 
-
-
-**Test Telegraf**
+## Test Telegraf
 
 telegraf -config telegraf.conf -test
 
-
-
 sudo sed -i 's+telegraf:.*+telegraf:x:0:0::/etc/telegraf:/bin/false+g' /etc/passwd
 
-
-
-**Config**
+## Config
 
 [global_tags]
 
 dc = "$CLUSTER"
 
 user = "$USER_SYSTEM"
-
-
 
 [agent]
 
@@ -88,8 +72,6 @@ hostname = "$HOSTNAME_SYSTEM"
 
 omit_hostname = false
 
-
-
 [[outputs.influxdb]]
 
 urls = ["<http://servermonitor.zenatix.com:8086>"]
@@ -101,8 +83,6 @@ username = ""
 password = ""
 
 namedrop = ["tail", "docker_log"]
-
-
 
 [[outputs.elasticsearch]]
 
@@ -124,8 +104,6 @@ overwrite_template = false
 
 namepass = ["tail", "docker_log"]
 
-
-
 [[inputs.cpu]]
 
 percpu = true
@@ -136,37 +114,21 @@ collect_cpu_time = false
 
 report_active = false
 
-
-
 [[inputs.disk]]
 
 ignore_fs = ["tmpfs", "devtmpfs", "devfs", "overlay", "aufs", "squashfs"]
 
-
-
 [[inputs.kernel]]
-
-
 
 [[inputs.mem]]
 
-
-
 [[inputs.processes]]
-
-
 
 [[inputs.swap]]
 
-
-
 [[inputs.system]]
 
-
-
 [[inputs.diskio]]
-
-
 
 [[inputs.docker]]
 
@@ -182,19 +144,11 @@ perdevice = true
 
 total = false
 
-
-
 [[inputs.internal]]
-
-
 
 [[inputs.interrupts]]
 
-
-
 [[inputs.net]]
-
-
 
 [[inputs.net_response]]
 
@@ -202,11 +156,7 @@ protocol = "tcp"
 
 address = "localhost:80"
 
-
-
 [[inputs.netstat]]
-
-
 
 [[inputs.tail]]
 
@@ -221,8 +171,6 @@ watch_method = "inotify"
 data_format = "value"
 
 data_type = "string"
-
-
 
 [[inputs.docker_log]]
 
@@ -244,8 +192,6 @@ docker_label_include = []
 
 docker_label_exclude = []
 
-
-
 [[inputs.logparser]]
 
 files = ["/rootfs/var/log/nginx/access.log"]
@@ -253,8 +199,6 @@ files = ["/rootfs/var/log/nginx/access.log"]
 from_beginning = false
 
 watch_method = "inotify"
-
-
 
 [inputs.logparser.grok]
 

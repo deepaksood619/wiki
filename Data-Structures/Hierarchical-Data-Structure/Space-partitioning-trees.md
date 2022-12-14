@@ -7,15 +7,15 @@ Modified: 2022-12-02 23:57:46 +0500
 ---
 
 Use a tree to represent a recursive subdivision of 2d space
-**Grid -** Divide space uniformly into squares
-**2d tree -** Recursively divide space into two halfplanes
-**Quadtree / Rtree -** Recursively divide space into four quadrants
+## Grid - Divide space uniformly into squares
+## 2d tree - Recursively divide space into two halfplanes
+## Quadtree / Rtree - Recursively divide space into four quadrants
 
 It is a two-dimensional analog of octrees and is most often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions.
 
 𝙐𝙨𝙚 𝙘𝙖𝙨𝙚: find nearby interest points
-**BSP tree -** Recursively divide space into two regions
-**Applications**
+## BSP tree - Recursively divide space into two regions
+## Applications
 -   Ray tracing
 -   2d range search
 -   Flight simulators

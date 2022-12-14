@@ -8,11 +8,7 @@ Modified: 2020-06-21 23:16:05 +0500
 
 Istio's security capabilities free developers to focus on security at the application level. Istio provides the underlying secure communication channel, and manages authentication, authorization, and encryption of service communication at scale. With Istio, service communications are secured by default, letting you enforce policies consistently across diverse protocols and runtimes -- all with little or no application changes.
 
-
-
 While Istio is platform independent, using it with Kubernetes (or infrastructure) network policies, the benefits are even greater, including the ability to securepod-to-pod or service-to-service communication at the network and application layers.
-
-
 
 The Istio security features provide strong identity, powerful policy, transparent TLS encryption, and authentication, authorization and audit (AAA) tools to protect your services and data. The goals of Istio security are:
 -   **Security by default:** no changes needed for application code and infrastructure
@@ -23,7 +19,7 @@ Why zero trust network because if there is a single compromised node in the VPC 
 
 ![CORP internet VPN Istio Ingress/Egress Perimeter Istio sidecar PROD Istio Security Overview Secure by default Defense in depth Zero-trust network Identity Policy Encryption Endpoints Communication Platform Data ](../../../media/DevOps-Monitoring-Security-image1.png)
 
-**High-level architecture**
+## High-level architecture
 
 Security in Istio involves multiple components:
 -   A Certificate Authority (CA) for key and certificate management
@@ -34,13 +30,9 @@ Security in Istio involves multiple components:
 -   Sidecar and perimeter proxies work as[Policy Enforcement Points](https://www.jerichosystems.com/technology/glossaryterms/policy_enforcement_point.html)(PEPs) to secure communication between clients and servers.
 -   A set of Envoy proxy extensions to manage telemetry and auditing
 
-
-
 ![](../../../media/DevOps-Monitoring-Security-image2.png)
 
-
-
-**Authentication**
+## Authentication
 
 Istio provides two types of authentication:
 -   **Transport authentication**, also known asservice-to-service authentication: verifies the direct client making the connection. Istio offers[mutual TLS](https://en.wikipedia.org/wiki/Mutual_authentication)as a full stack solution for transport authentication. You can easily turn on this feature without requiring service code changes. This solution:
@@ -48,8 +40,6 @@ Istio provides two types of authentication:
     -   Secures service-to-service communication and end-user-to-service communication.
     -   Provides a key management system to automate key and certificate generation, distribution, and rotation.
 -   **Origin authentication**, also known asend-user authentication: verifies the original client making the request as an end-user or device. Istio enables request-level authentication with JSON Web Token (JWT) validation and a streamlined developer experience for open source OpenID Connect provider[ORY Hydra](https://www.ory.sh/), [Keycloak](https://www.keycloak.org/), [Auth0](https://auth0.com/), [Firebase Auth](https://firebase.google.com/docs/auth/), [Google Auth](https://developers.google.com/identity/protocols/OpenIDConnect), and custom auth.
-
-
 
 In both cases, Istio stores the authentication policies in theIstio config storevia a custom Kubernetes API. Pilot keeps them up-to-date for each proxy, along with the keys where appropriate. Additionally, Istio supports authentication in permissive mode to help you understand how a policy change can affect your security posture before it becomes effective.
 
@@ -64,9 +54,7 @@ In both cases, Istio stores the authentication policies in theIstio config store
 -   Principal binding
 -   Updating authentication policies
 
-
-
-**Authorization**
+## Authorization
 
 Istio's authorization feature provides mesh-level, namespace-level, and workload-level access control on workloads in an Istio Mesh. It provides:
 -   Workload-to-workload and end-user-to-workload authorization.
@@ -75,9 +63,7 @@ Istio's authorization feature provides mesh-level, namespace-level, and workload
 -   High performance, as Istio authorization is enforced natively on Envoy.
 -   High compatibility, supports HTTP, HTTPS and HTTP2 natively, as well as any plain TCP protocols.
 
-
-
-**Authorization Architecture**
+## Authorization Architecture
 
 ![Pilot Policies for Workload A O Proxy Workload A Administrators Authz policies Istio Config (K8s API server) Policies for Workload B O Proxy Workload B Istio Authorization Architecture ](../../../media/DevOps-Monitoring-Security-image3.png)
 -   Implicit enablement
@@ -89,9 +75,5 @@ Istio's authorization feature provides mesh-level, namespace-level, and workload
 -   Authenticated and unauthenticated identity
 -   Using istio authorization on plain TCP protocols
 
-
-
 <https://istio.io/docs/concepts/security
-
-
 

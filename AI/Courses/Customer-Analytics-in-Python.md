@@ -8,9 +8,7 @@ Modified: 2022-04-13 22:13:14 +0500
 
 <https://365datascience.teachable.com/p/customer-analytics-in-python>
 
-
-
-**A Brief Marketing Introduction**
+## A Brief Marketing Introduction
 
 Start Segmentation, Targeting, Positioning
 
@@ -20,9 +18,7 @@ Start Physical and Online Retailers: Similarities and Differences.
 
 Start Price Elasticity
 
-
-
-**Segmentation Data**
+## Segmentation Data
 
 Start Getting to know the Segmentation Dataset
 
@@ -30,17 +26,13 @@ Start Importing and Exploring Segmentation Data
 
 Start Standardizing Segmentation Data
 
-
-
-**Hierarchical Clustering**
+## Hierarchical Clustering
 
 Start Hierarchical Clustering: Background
 
 Start Hierarchical Clustering: Implementation and Results
 
-
-
-**K-Means Clustering**
+## K-Means Clustering
 
 Start K-Means Clustering: Background
 
@@ -48,9 +40,7 @@ Start K-Means Clustering: Application
 
 Start K-Means Clustering: Results
 
-
-
-**K-Means Clustering based on Principal Component Analysis**
+## K-Means Clustering based on Principal Component Analysis
 
 Start Principal Component Analysis: Background
 
@@ -68,9 +58,7 @@ Start K-Means Clustering with Principal Components: Homework
 
 Start Saving the Models
 
-
-
-**Purchase Data**
+## Purchase Data
 
 Start Purchase Analytics - Introduction
 
@@ -80,9 +68,7 @@ Start Importing and Exploring Purchase Data
 
 Start Applying the Segmentation Model
 
-
-
-**Descriptive Analyses by Segments**
+## Descriptive Analyses by Segments
 
 Start Purchase Analytics Descriptive Statistics: Segment Proportions
 
@@ -94,9 +80,7 @@ Start Brand Choice
 
 Start Dissecting the revenue by segment
 
-
-
-**Modeling Purchase Incidence**
+## Modeling Purchase Incidence
 
 Start Purchase Incidence Models. The Model: Binomial Logistic Regression
 
@@ -120,9 +104,7 @@ Start Calculating Prcie Elasticities without Promotion: Homework
 
 Start Comparing Price Elasticities with and without Promotion
 
-
-
-**Modeling Brand Choice**
+## Modeling Brand Choice
 
 Start Brand Choice Models. The Model: Multinomial Logistic Regression
 
@@ -142,9 +124,7 @@ Start Own and Cross-Price Elasticity by Segment - Comparison
 
 Start Brand Choice Models: Homework
 
-
-
-**Modeling Purchase Quantity**
+## Modeling Purchase Quantity
 
 Start Purchase Quantity Models. The Model: Linear Regression
 
@@ -158,9 +138,7 @@ Start Price Elasticity of Purchase Quantity: Results
 
 Start Improving the Model: Homework
 
-
-
-**Deep Learning**
+## Deep Learning
 
 Start Introduction to Deep Learning for Customer Analytics
 
@@ -184,23 +162,17 @@ Start Saving the Model and Preparing for Deployment
 
 Start Predicting on New Data
 
-
-
 <https://www.toptal.com/r/social-network-analysis-in-r-gephi-tutorial>
 
-**What are sociograms?**
+## What are sociograms?
 
 Sociograms are graphs in which each node is a person and the edges represent interactions between them.
 
-
-
-**Why are sociograms important?**
+## Why are sociograms important?
 
 Sociograms are important because they give us an abstraction (and illustration) of how people interact in huge groups. They are simple but quite meaningful. They help us understand societies from many perspectives, such as user centrality, information spread, community identification, and more.
 
-
-
-**Segmentation**
+## Segmentation
 
 A useful segmentation should include these six characteristics:
 
@@ -227,8 +199,6 @@ The people (or organizations, in B2B marketing) in a segment should have similar
 6.  **Actionable**
 
 You have to be able to provide products or services to your segments. One U.S. insurance company, for example, spent a lot of time and money identifying a segment, only to discover that it couldn't find any customers for its insurance product in that segment, nor was the organization able to design any actions to target them.
-
-
 
 <https://towardsdatascience.com/market-mix-modeling-mmm-101-3d094df976f9>
 

@@ -16,8 +16,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Markov Decision Processes
 -   The Bellman Equations
 
-
-
 2.  Dynamic Programming
 -   Route Planning
 -   Options Pricing
@@ -26,8 +24,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Reading Assignment (History of DP)
 -   Homework Assignment (Value Iteration)
 -   Dynamic Programming
-
-
 
 3.  Monte Carlo Methods
 -   Interview #1
@@ -38,8 +34,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Homework Assignment (Greedy Policies)
 -   MC Prediction and MC Control
 
-
-
 4.  Model Free Learning
 -   Delivery Management
 -   Automated Trading
@@ -48,8 +42,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Reading Assignment (SARSA)
 -   Homework Assignment (Q Learning)
 -   Temporal Difference Learning
-
-
 
 5.  RL in Continuous Spaces
 -   Self Driving Cars
@@ -60,8 +52,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Midterm Assignment (Make a Bipedal Robot Walk )
 -   Continuous Space Techniques
 
-
-
 6.  Deep Reinforcement Learning
 -   Traffic Optimization
 -   Gaming
@@ -70,8 +60,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Homework Assignment (Deep Q Learning)
 -   Reading Assignment (DQN Improvements)
 -   The Evolution of Deep Q Learning
-
-
 
 7.  Policy Based Methods
 -   Web System Configuration
@@ -82,8 +70,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Homework Assignment (REINFORCE)
 -   Stochastic Policy Search
 
-
-
 8.  Policy Gradient Methods
 -   Dialogue Systems
 -   Photo Editing
@@ -93,8 +79,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Homework Assignment (TRPO)
 -   Generalized Advatange Estimation
 
-
-
 9.  Actor Critic Methods
 -   Advanced Trading Techniques
 -   Human-Machine Cooperation
@@ -103,8 +87,6 @@ Modified: 2018-09-04 12:11:40 +0500
 -   Reading Assignment (Actor Critic Algorithms)
 -   Homework Assignment (Bayesian Actor Critic)
 -   Asynchronous Advantage Actor Critic
-
-
 
 10. Multi Agent RL
 -   Move 37

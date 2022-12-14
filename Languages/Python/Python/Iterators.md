@@ -8,8 +8,6 @@ Modified: 2018-05-31 15:43:53 +0500
 
 An[iterator](https://en.wikipedia.org/wiki/Iterator)is an object that can be iterated (looped) upon. It is used to abstract a container of data to make it behave like an iterable object. You probably already use a few iterable objects every day: strings, lists, and dictionaries to name a few.
 
-
-
 An iterator is defined by a class that implements the[Iterator Protocol](https://docs.python.org/3/c-api/iter.html). This protocol looks for two methods within the class:__iter__and__next__.
 
 
@@ -40,13 +38,9 @@ self.max = max
 
 self.number = 1
 
-
-
 def __iter__(self):
 
 return self
-
-
 
 def __next__(self):
 
@@ -63,8 +57,6 @@ return self.number
 else:
 
 return self.__next__()
-
-
 
 Primesis instantiated with a maximum value. If the next prime is greater than themax, the iterator will raise aStopIterationexception, which ends the iterator.
 
@@ -98,16 +90,10 @@ print(x)
 
 ...
 
-
-
 Every iteration of thePrimesobject calls__next__to generate the next prime number.
-
-
 
 Iterators can only be iterated over once.If you try to iterate overprimes again, no value will be returned. It will behave like an empty list.
 
-
-
-**References**
+## References
 
 <https://medium.freecodecamp.org/how-and-why-you-should-use-python-generators-f6fb56650888>

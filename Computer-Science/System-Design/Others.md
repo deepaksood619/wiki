@@ -6,7 +6,7 @@ Modified: 2021-08-06 00:51:32 +0500
 
 ---
 
-**Grid FTP**
+## Grid FTP
 
 GridFTPis an extension of the[File Transfer Protocol (FTP)](https://en.wikipedia.org/wiki/File_Transfer_Protocol)for[grid computing](https://en.wikipedia.org/wiki/Grid_computing).The protocol was defined within the GridFTP working group of the[Open Grid Forum](https://en.wikipedia.org/wiki/Open_Grid_Forum). There are multiple implementations of the protocol; the most widely used is that provided by the[Globus Toolkit](https://en.wikipedia.org/wiki/Globus_Toolkit).
 The aim of GridFTP is to provide a more reliable and high performance file transfer, for example to enable the transmission of very large files. GridFTP is used extensively within large science projects such as the[Large Hadron Collider](https://en.wikipedia.org/wiki/LHC)and by many supercomputer centers and other scientific facilities.
@@ -26,21 +26,21 @@ Globus Toolkit - GSIFTP
 4.  Act
 
 5.  Predict
-**ALT (Aggregator Leaf Tailer) - Real-Time Analytics Without Pipelines**
+## ALT (Aggregator Leaf Tailer) - Real-Time Analytics Without Pipelines
 
 Aggregator Leaf Tailer (ALT)is the data architecture favored by web-scale companies, like Facebook, LinkedIn, and Google, for its efficiency and scalability.
 The ALT architecture addresses these shortcomings of Lambda architectures. The key component of ALT is a high-performance serving layer that serves complex queries, and not just key-value lookups. The existence of this serving layer obviates the need for complex data pipelines.
 
 ![ALT](media/Others-image1.png)
 
-**The ALT architecture described**
+## The ALT architecture described
 
 1.  TheTailerpulls new incoming data from a static or streaming source into an indexing engine. Its job is to fetch from all data sources, be it a data lake, like S3, or a dynamic source, like Kafka or Kinesis.
 
 2.  TheLeafis a powerful indexing engine. It indexes all data as and when it arrives via the Tailer. The indexing component builds multiple types of indexes---inverted, columnar, document, geo, and many others---on the fields of a data set. The goal of indexing is to make any query on any data field fast.
 
 3.  The scalableAggregatortier is designed to deliver low-latency aggregations, be it columnar aggregations, joins, relevance sorting, or grouping. The Aggregators leverage indexing so efficiently that complex logic typically executed by pipeline software in other architectures can be executed on the fly as part of the query.
-**Advantages of ALT**
+## Advantages of ALT
 
 The ALT architecture enables the app developer or data scientist to run low-latency queries on raw data sets without any prior transformation. A large portion of the data transformation process can occur as part of the query itself. How is this possible in the ALT architecture?
 
@@ -81,16 +81,16 @@ It is offered from the perspective of hownotto design systems, based on system e
 <https://en.wikipedia.org/wiki/Systemantics>
 <https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture>
 
-**Notification System**
+## Notification System
 -   APNS - Apple Push Notification System
 -   FCM - Firebase Cloud Messaging
-**Updates**
+## Updates
 
-**Hard updates**
+## Hard updates
 
 refer to when the user is forced to update the client version to a higher version number than what is installed on their mobile.
 
-**Soft updates**
+## Soft updates
 
 refer to when the user is shown a prompt that a new version is available and they can update their app to the new version if they want to.
 Hard updates are not encouraged, but there are times when you need to enforce them. Whatever the case you should definitely consider how you are going to implement this for your applications.

@@ -92,7 +92,7 @@ Fields are the columns on whichmathematical operations such as sum, mean, non-ne
 5.  Series
 
 A series is the most important concept of Influxdb.A series is a combination of tags, measurement, and retention policy (default of Influxdb).An Influxdb database performance is highly dependent on the number of unique series it contains,which in turn is the cardinality of tags x no. of measurement x retention policy
-**Glossary of Terms**
+## Glossary of Terms
 
 1.  Replication factor
 
@@ -113,7 +113,7 @@ A series is the most important concept of Influxdb.A series is a combination of 
 9.  tsm (Time Structured Merge tree)
 
 10. wal (Write Ahead Log)
-![Architecture Wrtt• WUS.cr Pod UI Slote Noes OȘCt ](media/InfluxDB-image1.png)[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
+![image](media/InfluxDB-image1.png)[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
 TICK Stack (<https://www.influxdata.com/time-series-platform>)
 
 a.  Telegraf
@@ -123,4 +123,4 @@ b.  InfluxDB
 c.  Choronograf
 
 d.  Kapacitor
-![Chronograf Complete Interface for the InfluxData Platform System Stats Databases Networking Message Queues Apps result InfluxDB da shbcards access control Telegraf Agent for Collecting and Reporting Metrics and Events loc, glu ins Service Discovery Purpose Built Time Series Database Kapacitor Real-time streaming data processing engine. a eit Alerting Frameworks based Anomaly Detection Machine Learning user Defined Functions ](media/InfluxDB-image2.png)
+![image](media/InfluxDB-image2.png)

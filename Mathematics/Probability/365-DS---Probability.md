@@ -6,7 +6,7 @@ Modified: 2021-10-24 18:09:32 +0500
 
 ---
 
-**The Basics of Probability**
+## The Basics of Probability
 
 What is the probability formula?
 
@@ -15,7 +15,7 @@ Computing Expected Values
 The Probability Frequency Distribution
 
 Complements
-**Combinatorics**
+## Combinatorics
 
 Fundamentals of Combinatorics
 
@@ -38,7 +38,7 @@ Winning the Lottery
 A Summary of Combinatorics
 
 Combinatorics: Practical Example
-**Bayesian Inference**
+## Bayesian Inference
 
 Sets and Events
 
@@ -63,7 +63,7 @@ Multiplication Rule
 Bayes Rule
 
 Bayesian: Practical Example
-**Probability Distributions**
+## Probability Distributions
 
 An overview of distributions
 

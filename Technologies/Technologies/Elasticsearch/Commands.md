@@ -10,8 +10,6 @@ List indices
 
 GET /_cat/indices?v
 
-
-
 PUT /megacorp/_doc/1
 {
 "first_name" : "John",
@@ -23,33 +21,19 @@ PUT /megacorp/_doc/1
 
 
 
-
-
 GET /megacorp/employee/1
-
-
 
 # Retrieving part of a document
 
 GET /website/blog/123?_source=title,text
 
-
-
 DELETE /index_name
-
-
 
 DELETE /megacorp/employee/1
 
-
-
 GET /megacorp/_search
 
-
-
 GET /megacorp/_search?q=last_name:Smith
-
-
 
 #QueryDSL
 
@@ -61,8 +45,6 @@ GET /megacorp/_search
 }
 }
 }
-
-
 
 GET /megacorp/_search
 {
@@ -84,8 +66,6 @@ GET /megacorp/_search
 }
 }
 
-
-
 # Highlights
 
 GET /megacorp/_search
@@ -102,8 +82,6 @@ GET /megacorp/_search
 }
 }
 
-
-
 # Analytics - most popular interests enjoyed by employees
 
 GET /megacorp/_search
@@ -114,8 +92,6 @@ GET /megacorp/_search
 }
 }
 }
-
-
 
 # Analytics - Popular interests of people called Smith
 
@@ -135,8 +111,6 @@ GET /megacorp/_search
 }
 }
 
-
-
 # Analytics - average age of employees who share a particular interest
 
 GET /megacorp/employee/_search
@@ -153,8 +127,6 @@ GET /megacorp/employee/_search
 }
 }
 
-
-
 # Creating an Index
 
 PUT /blogs
@@ -165,8 +137,6 @@ PUT /blogs
 }
 }
 
-
-
 # Testing Analyzers
 
 GET /_analyze
@@ -175,13 +145,9 @@ GET /_analyze
 "text": "Text to analyze"
 }
 
-
-
 # Viewing the Mapping
 
 GET /gb/_mapping/tweet
-
-
 
 # Aggregations
 
@@ -215,11 +181,9 @@ GET /server_log-2019.09.25/_search
 
 }
 
+## Monitoring
 
-
-**Monitoring**
-
-**GET /_cluster/health**
+## GET /_cluster/health
 
 Thestatusfield providesan overall indication of how the cluster is functioning. The meanings of the three colors are provided here for reference:
 

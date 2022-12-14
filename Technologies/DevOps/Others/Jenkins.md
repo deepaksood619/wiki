@@ -6,13 +6,11 @@ Modified: 2022-10-15 11:46:34 +0500
 
 ---
 
-**What can you do with Jenkins?**
+## What can you do with Jenkins?
 
 Jenkins is a continuous integration tool which enables software teams to build the integration pipelines for their projects. You can customize your Jenkins-powered pipelines to include different software development processes like building, testing, and staging as well as perform static analysis of your code.
 
-
-
-**Types of Jenkins Projects**
+## Types of Jenkins Projects
 -   Freestyle
     -   Simple, single tasks
     -   e.g. run tests
@@ -22,16 +20,12 @@ Jenkins is a continuous integration tool which enables software teams to build t
 -   Multibranch Pipeline
     -   like pipeline for multiple branches
 
-
-
-**Credential Scopes**
+## Credential Scopes
 -   System - Only available on Jenkins server NOT for Jenkins jobs
 -   Global - Everywhere accessible
 -   Project - Limited to project, ONLY with multibranch pipeline
 
-
-
-**Pipeline Syntax**
+## Pipeline Syntax
 -   **Scripted**
     -   First syntax
     -   Groovy engine
@@ -42,34 +36,22 @@ Jenkins is a continuous integration tool which enables software teams to build t
     -   Easier to get started but not that powerful
     -   pre-defined structure
 
-
-
-**Regex (Java Style)**
+## Regex (Java Style)
 
 ^dev|master|feature.*$
 
-
-
-**Trigger changes**
+## Trigger changes
 -   Poll scm - poll every few minutes to ask for changes from remote repository
 -   Git Hooks - Send jenkins a notification of change
 -   Best practise is to configure both
 
-
-
-**Pipelines**
+## Pipelines
 
 Jenkins Pipeline (or simply "Pipeline" with a capital "P") is a suite of plugins which supports implementing and integratingcontinuous delivery pipelinesinto Jenkins.
 
-
-
 Acontinuous delivery (CD) pipelineis an automated expression of your process for getting software from version control right through to your users and customers. Every change to your software (committed in source control) goes through a complex process on its way to being released. This process involves building the software in a reliable and repeatable manner, as well as progressing the built software (called a "build") through multiple stages of testing and deployment.
 
-
-
 Pipeline provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code" via the[Pipeline domain-specific language (DSL) syntax](https://jenkins.io/doc/book/pipeline/syntax).
-
-
 
 The definition of a Jenkins Pipeline is written into a text file (called a[Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile)) which in turn can be committed to a project's source control repository.This is the foundation of "Pipeline-as-code"; treating the CD pipeline a part of the application to be versioned and reviewed like any other code.
 
@@ -79,29 +61,19 @@ Creating aJenkinsfileand committing it to source control provides a number of im
 -   Audit trail for the Pipeline.
 -   Single source of truthfor the Pipeline, which can be viewed and edited by multiple members of the project.
 
-
-
 While the syntax for defining a Pipeline, either in the web UI or with aJenkinsfileis the same, it is generally considered best practice to define the Pipeline in aJenkinsfileand check that in to source control.
 
-
-
-**Declarative versus Scripted Pipeline syntax**
+## Declarative versus Scripted Pipeline syntax
 
 AJenkinsfilecan be written using two types of syntax - Declarative and Scripted.
-
-
 
 Declarative and Scripted Pipelines are constructed fundamentally differently. Declarative Pipeline is a more recent feature of Jenkins Pipeline which:
 -   provides richer syntactical features over Scripted Pipeline syntax, and
 -   is designed to make writing and reading Pipeline code easier.
 
-
-
 Many of the individual syntactical components (or "steps") written into aJenkinsfile, however, are common to both Declarative and Scripted Pipeline.
 
-
-
-**Why Pipeline?**
+## Why Pipeline?
 
 Jenkins is, fundamentally, an automation engine which supports a number of automation patterns. Pipeline adds a powerful set of automation tools onto Jenkins, supporting use cases that span from simple continuous integration to comprehensive CD pipelines. By modeling a series of related tasks, users can take advantage of the many features of Pipeline:
 -   **Code:** Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
@@ -110,37 +82,23 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 -   **Versatile:** Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
 -   **Extensible:** The Pipeline plugin supports custom extensions to its DSL[[1](https://jenkins.io/doc/book/pipeline/#_footnotedef_1)]and multiple options for integration with other plugins.
 
-
-
 ![Pipeline Flow](../../media/DevOps-Others-Jenkins-image1.png)
-
-
 
 <https://jenkins.io/doc/book/pipeline
 
-
-
-**Jenkinsfile**
+## Jenkinsfile
 
 // Plugins requrired - Credentials, Credentials Binding
-
-
 
 // getGitChanges() is a groovy script that will set the boolean variable
 
 CODE_CHANGES = getGitChanges()
 
-
-
 // global variable
 
 def gv
 
-
-
 // All environment variables in Jenkinsfile are available in the groovy script
-
-
 
 pipeline {
 
@@ -286,35 +244,23 @@ mail to: team@example.com, subject: "The Pipeline failed :("
 
 }
 
-
-
 <https://www.youtube.com/watch?v=7KCS70sCoK0&list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC&index=6&ab_channel=TechWorldwithNana>
 
 <https://www.jenkins.io/doc/book/pipeline/jenkinsfile
 
+## Jenkins
 
+## # show all env variables in Jenkins
 
-**Jenkins**
-
-**# show all env variables in Jenkins**
-
-
-
-**Multibranch Pipeline**
+## Multibranch Pipeline
 
 TheMultibranchPipelineallows you to automatically create a pipeline for each branch on your repository with the help ofJenkinsfile.
 
-
-
 Jenkinsfileis stored along with your source code inside a Source Code Management (SCM) eg. GitHub, BitBucket, etc.
-
-
 
 AJenkinsfileis nothing but a pipeline script that defines your CI/CD pipeline:
 
-
-
-**Plugins**
+## Plugins
 
 <https://jenkins.io/doc/pipeline/steps/slack
 
@@ -324,61 +270,41 @@ Credentials
 
 Credentials Binding
 
-
-
-**Commands**
+## Commands
 
 Clear build queue, Manage Jenkins > Script Console:
 
 Jenkins.instance.queue.clear()
 
-
-
-**Jenkins X**
+## Jenkins X
 
 Full CI/CD on kubernetes
 
-
-
 <https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes
 
-
-
-**Jenkins Operator**
+## Jenkins Operator
 
 The Jenkins Operator is a[Kubernetes Native Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)which manages operations for Jenkins on Kubernetes. It has been built with Immutability and declarative Configuration as Code in mind.
 
-
-
 <https://github.com/jenkinsci/kubernetes-operator>
 
-
-
-**338: Jenkins 2 Build Server - Robert Bluemen with Brent Laster**
+## 338: Jenkins 2 Build Server - Robert Bluemen with Brent Laster
 
 Continuous integration and continuous delivery (CI/CD), the role of the build server in CI/CD, build pipelines, DevOps and the "pipeline as code" model, differences between Jenkins and Jenkins 2, the Jenkinsfile, scripted pipelines in a groovy DSL versus a declarative model, shared libraries of code, Jenkins2 as a workflow management system, scaling out Jenkins with a pool of compute resources, management of on-demand resources, integration of pipelines with Docker, the Jenkins plugin model, how Jenkins jobs are initiated (scheduled, event-driven, or UI), failure modes for pipelines, alerting people or other systems from Jenkins, management of credentials, users, roles and role-based authorization, and key drivers for adoption of Jenkins within an organization.
 
-
-
-**Bind docker socket to container**
+## Bind docker socket to container
 
 docker run -v /var/run/docker.sock:/var/run/docker.sock ...
 
-
-
-**Azure CI/CD with Jenkins**
+## Azure CI/CD with Jenkins
 
 docker tag azure-vote-front gcr.io/zenatix-data-archiver/azure-vote-front:v1
 
 docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
 
-
-
 <https://docs.microsoft.com/en-us/azure/aks/jenkins-continuous-deployment>
 
-
-
-**Optimizations**
+## Optimizations
 
 <https://engineering.taboola.com/5-simple-tips-boosting-jenkins-performance
 
@@ -395,19 +321,15 @@ docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
     -   Enable GC logging -- this will help you monitor and tune later
     -   Monitor GC behavior -- I use <http://gceasy.io
 
+## Scripts
 
-
-**Scripts**
-
-**Kill all jobs**
+## Kill all jobs
 
 import java.util.ArrayList
 
 import hudson.model.*;
 
 import jenkins.model.Jenkins
-
-
 
 // Remove everything which is currently queued
 
@@ -419,8 +341,6 @@ q.cancel(queued.task)
 
 }
 
-
-
 // stop all the currently running jobs
 
 for (job in Jenkins.instance.items) {
@@ -428,8 +348,6 @@ for (job in Jenkins.instance.items) {
 stopJobs(job)
 
 }
-
-
 
 def stopJobs(job) {
 
@@ -451,8 +369,6 @@ stopJobs(child)
 
 } else if (job in org.jenkinsci.plugins.workflow.job.WorkflowJob) {
 
-
-
 if (job.isBuilding()) {
 
 for (build in job.builds) {
@@ -467,9 +383,7 @@ build.doKill()
 
 }
 
-
-
-**Resources**
+## Resources
 
 <https://koudingspawn.de/the-complete-ci-cd-part-1
 

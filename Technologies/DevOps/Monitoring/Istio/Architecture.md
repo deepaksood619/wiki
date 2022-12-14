@@ -8,31 +8,19 @@ Modified: 2020-06-05 20:38:56 +0500
 
 Istio works by having a small network proxy sit alongside each microservice. This so-called "sidecar" intercepts all of the service's traffic, and handles it more intelligently than a simple layer 3 network can. Istio uses the[Envoy](https://www.envoyproxy.io/)proxy as its sidecar. Envoy was originally written at Lyft and is now a[CNCF project](https://landscape.cncf.io/). The whole set of sidecars, one per microservice, is called the*data plane*. The work of the sidecars is coordinated by a small number of central components called the*control plane*. Control and data plane architectures are very common in distributed systems, from network switches to compute farms.
 
-
-
 After deploying Istio in a Kubernetes cluster, Istio takes over the communication between services with sidecar proxies. The communication between services is no longer through Kube-proxy but through Istio's sidecar proxies. The request process is like this: First, a client request is captured and redirected to the sidecar proxy by iptables. Then, the sidecar proxy chooses a backend pod according to the service discovery information and routing rules obtained from the control plane, and forwards the request to it.
-
-
 
 An Istio service mesh is logically split into adata planeand acontrol plane.
 -   Thedata planeis composed of a set of intelligent proxies ([Envoy](https://www.envoyproxy.io/)) deployed as sidecars. These proxies mediate and control all network communication between microservices along with[Mixer](https://istio.io/docs/reference/config/policy-and-telemetry/), a general-purpose policy and telemetry hub.
 -   Thecontrol planemanages and configures the proxies to route traffic. Additionally, the control plane configures Mixers to enforce policies and collect telemetry.
 
-
-
 The following diagram shows the different components that make up each plane:
 
 ![](../../../media/DevOps-Monitoring-Architecture-image1.png)
 
-
-
 Traffic in Istio is categorized as data plane traffic and control plane traffic. Data plane traffic refers to the messages that the business logic of the workloads send and receive. Control plane traffic refers to configuration and control messages sent between Istio components to program the behavior of the mesh. Traffic management in Istio refers exclusively to data plane traffic.
 
-
-
 <https://istio.io/docs/ops/deployment/architecture
-
-
 
 Istio is composed of these components:
 -   **Envoy**
@@ -56,39 +44,29 @@ A per-node component responsible for certificate issuance and rotation.
 
 Central component for validating, ingesting, aggregating, transforming and distributing config within Istio.
 
+## Concepts
 
-
-**Concepts**
-
-**Policies**
+## Policies
 
 Istio lets you configure custom policies for your application to enforce rules at runtime such as:
 -   Rate limiting to dynamically limit the traffic to a service
 -   Denials, whitelists, and blacklists, to restrict access to services
 -   Header rewrites and redirects
 
-
-
 Istio also lets you create your own[policy adapters](https://istio.io/docs/tasks/policy-enforcement/control-headers)to add, for example, your own custom authorization behavior.
 
-
-
-**Platform support**
+## Platform support
 
 Istio is platform-independent and designed to run in a variety of environments, including those spanning Cloud, on-premise, Kubernetes, Mesos, and more. You can deploy Istio on Kubernetes, or on Nomad with Consul. Istio currently supports:
 -   Service deployment on Kubernetes
 -   Services registered with Consul
 -   Services running on individual virtual machines
 
-
-
-**References**
+## References
 
 <https://istio.io/docs/concepts/what-is-istio
 
-
-
-**Ingress Routing**
+## Ingress Routing
 
 1.  A client makes a request on a specific port.
 

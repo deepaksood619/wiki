@@ -6,8 +6,8 @@ Modified: 2021-03-27 11:31:57 +0500
 
 ---
 
-![NUMBERS NATURAL INTEGERS COH?LEX SYMBOL EXAMPLES It... CLOSED UNDER NATURAL NUMBERS N INTEGERS RATIONAL NUMBERS -5/2 0.08... IRRATIONAL NUMBERS TRANSCENDENTAL NUMBERS, REAL NUMBERS COMPLEX NUMBERS ](media/Numbers-image1.png)
-**Types of numbers**
+![image](media/Numbers-image1.png)
+## Types of numbers
 
 1.  Natural numbers (N) - 1,2,3, ...
 
@@ -74,7 +74,7 @@ include various number-system extensions:[quaternions](https://en.wikipedia.org/
 10. p-adic numbers -
 
 Various number systems constructed using limits of rational numbers, according to notions of "limit" different from the one used to construct the real numbers.
-**Number Representations**
+## Number Representations
 
 1.  Decimal
 
@@ -87,7 +87,7 @@ Various number systems constructed using limits of rational numbers, according t
 5.  Scientific notation
 
 6.  Knuth's up-arrow notation and Conway chained arrow notation
-**Non Standard Numbers**
+## Non Standard Numbers
 
 1.  Transfinite numbers
 
@@ -112,7 +112,7 @@ The numbers used in[non-standard analysis](https://en.wikipedia.org/wiki/Non-sta
 6.  Surreal numbers
 
 A number system that includes the hyperreal numbers as well as the ordinals. The surreal numbers are the largest possible[ordered field](https://en.wikipedia.org/wiki/Ordered_field).
-**Important Constants / Numbers**
+## Important Constants / Numbers
 
 A**mathematical constant**is a key[number](https://en.wikipedia.org/wiki/Number)whose value is fixed by an unambiguous definition, often referred to by a symbol (e.g., an[alphabet letter](https://en.wikipedia.org/wiki/Letter_(alphabet))), or by mathematicians' names to facilitate using it across multiple[mathematical problems](https://en.wikipedia.org/wiki/Mathematical_problem).^[[1]](https://en.wikipedia.org/wiki/Mathematical_constant#cite_note-1)[[2]](https://en.wikipedia.org/wiki/Mathematical_constant#cite_note-2)^Constants arise in many areas of[mathematics](https://en.wikipedia.org/wiki/Mathematics), with constants such as[*e*](https://en.wikipedia.org/wiki/E_(mathematical_constant))and[*π*](https://en.wikipedia.org/wiki/Pi)occurring in such diverse contexts as[geometry](https://en.wikipedia.org/wiki/Geometry),[number theory](https://en.wikipedia.org/wiki/Number_theory), and[calculus](https://en.wikipedia.org/wiki/Calculus).
 Euler's Number - 2.71828182845

@@ -23,8 +23,6 @@ Modified: 2019-04-03 16:19:26 +0500
         -   log.segment.ms
         -   message.max.bytes
 
-
-
 # Cross-Cluster Data Mirroring
 -   Multicluster architecture
     -   Hub-and-Spokes architecture
@@ -35,8 +33,6 @@ Modified: 2019-04-03 16:19:26 +0500
 -   Other cross-cluster mirroring solutions
     -   Uber uReplicator
     -   Confluent's Replicator
-
-
 
 # Administering Kafka
 -   Topic operations

@@ -10,55 +10,39 @@ Modified: 2022-10-31 21:04:05 +0500
 
 <https://en.wikipedia.org/wiki/Behavioral_economics>
 
-
-
 1.  **Increase the immediate benefit to taking any action:forced choice and present bias**
 
-**Forced Choice**
+## Forced Choice
 
 Asked people to "accept" or "decline" the new feature. By asking people if they wanted to decline (which is definitive and final), there was now a cost to not accepting it---you might not get a second chance. Suddenly, "accept" looks much better in comparison. When we allow people to skip something or say "maybe later," there's very little cost to them.
 
-![Control x Access our FREE income tracker and get even more. @ See what jobs make you the most money @ Snapshot of your monthly incomo @ Easy to sot up @ Sato and socuro wo never soll your data to third parties. tot's do it! Maybo Lator Forced Choice x Please gcgeptgrßecline our free income tracker to continue @ See what jobs make you the most money @ Snapshot of your monthly incomo @ Easy to sot up @ Safo and socuro wo nover soll your data to third parties. Accept Doclino ](media/Product-Management_Behavioral-Design---Economics-image1.jpeg)
+![image](media/Product-Management_Behavioral-Design---Economics-image1.jpeg)
 
-
-
-**Present bias**
+## Present bias
 
 The immediate benefit to the user of taking the action should be higher than the cost of the action. This is because we tend toward["present bias](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3909663)." In the prior example, we increased the benefit of saying "yes," by making "no" relatively more costly (definitive and final). Now we increased the benefit of saying "yes" by focusing people on a short-term goal: completing setup. People (you, your users, your customers) all want to complete things. By making people feel closer to completing something, we delivered a bigger immediate benefit.
 
-![Coal Gradient x Notice: your setup is incomplete Complete your account setup to access our troo income tracker @ See what jobs make you the most money @ Snapshot ot your monthly income @ Easy to sot up @ safe and socuro We never sell your data to third parties. Comploto Sotup Mayb0 Later ](media/Product-Management_Behavioral-Design---Economics-image2.jpg)
-
-
+![image](media/Product-Management_Behavioral-Design---Economics-image2.jpg)
 
 
 
 <https://irrationallabs.com/blog/its-not-always-about-making-things-easier-when-to-make-your-sign-up-flow-harder
 
-
-
 2.  **Make people feel like they already own it:the endowment effect**
 
 Switching email phrasing from "Join the program" to "Claim your welcome kit." drove a 120% increase in registration
 
-
-
 Experiment with designing products that allow the user to more quickly feel psychological ownership (a form of endowment). Your product is already theirs, and by not taking action, they may lose the opportunity to benefit from it.
-
-
 
 3.  **Lean into existing behavior, and then make it easier:friction**
 
 Lean into what people are already doing, and then make it easier for them
 
-
-
 4.  **Get commitments on day one:mental models**
 
 Day 1 is the day your users have the most momentum they will ever have. Catching them at this moment with the right features and mental model will drive higher opt-in rates and engagement than at any other time in the user's lifecycle.
 
-
-
-**5 actionable behavioral design strategies**
+## 5 actionable behavioral design strategies
 
 1.  A literature review
 
@@ -72,17 +56,11 @@ Day 1 is the day your users have the most momentum they will ever have. Catching
 
 Humans tend to follow the path of least resistance and respond to immediate incentives
 
-![000 BEHAVIOR The first B stands for Behavior (duh!). We can't solve any problems without identifying the behavior that needs to be changed. BARRIERS The second B stands for Barriers. Barriers add or decrease friction to completing a behavior. TLDR: make it easy for me to do! BENEFITS The third B stands for Benefits. Benefits add or decrease motivation to completing the behavior. TLDR: make me want to do it! ](media/Product-Management_Behavioral-Design---Economics-image4.jpg)
-
-
+![image](media/Product-Management_Behavioral-Design---Economics-image4.jpg)
 
 5.  Conduct theory-based experiments
 
-
-
-![$25 + $5 shipping $30 + FREE shipping ](media/Product-Management_Behavioral-Design---Economics-image5.jpeg)
-
-
+![image](media/Product-Management_Behavioral-Design---Economics-image5.jpeg)
 
 <https://irrationallabs.com/learn
 
@@ -90,15 +68,11 @@ Humans tend to follow the path of least resistance and respond to immediate ince
 
 <https://en.wikipedia.org/wiki/Behavioural_design>
 
-
-
-**Amplying benefits**
-
-
+## Amplying benefits
 
 [Pubg's Genius Strategy: How to Design Addictive Products to make 2.8 Billion Dollars?](https://www.youtube.com/watch?v=_5cXtYpYmdQ)
 
-**Hooked Model**
+## Hooked Model
 -   Trigger
     -   Classical triggers
         -   Boredom - Instagram
@@ -126,29 +100,21 @@ Humans tend to follow the path of least resistance and respond to immediate ince
         -   Might contact your friends later, but never
         -   Perceived value of facebook has increased because of the connections
 
-
-
 Hooked Workbook - to understand customers
 
 <https://www.nirandfar.com/download/hooked-workbook.pdf>
-
-
 
 Hooked: How to Build Habit-Forming Productsby Nir Eyal
 
 
 
-
-
-**Habituation**
+## Habituation
 -   People don't like change, and don't want to switch because of smaller increments
 -   Habituation of interface of Android, so don't want to switch to iOS and vice versa
 -   Habituation of a tool/coding language, so don't want to switch to another tool/language
 -   Retainer - Product, that makes impossible to switch a product, ex - imessage in iOS, which you will not get in Android
 
-
-
-**Influence**
+## Influence
 
 1.  **Likeability**
 
@@ -193,8 +159,6 @@ Anything that other folks similar to you do or endorse is perceived as valuable
 When you get someone agree to do something, they will be likely to do it again
 -   Will you be willing to conserve environment? Chances are people will say yes and once they yes they will likely conform to it
 -   Do you agree to help in situations of emergency?
-
-
 
 
 

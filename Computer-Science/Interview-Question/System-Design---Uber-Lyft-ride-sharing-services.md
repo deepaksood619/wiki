@@ -7,13 +7,13 @@ Modified: 2021-08-27 20:00:12 +0500
 ---
 
 [System Design: Uber Lyft ride sharing services - Interview question](https://www.youtube.com/watch?v=J3DY3Te3A_A)
-**Core Features**
+## Core Features
 
 1.  Customer - Driver matching
 
 2.  Mapping
 Bottom up (What do we need to store?)
-**Storage**
+## Storage
 
 1.  Trip Storage (needed immediately)
 
@@ -34,7 +34,7 @@ Whenever we have a service that needs to be highly available and serves million 
 Can be closer to customers, We can prewarm them before the customer queries it.
 Position of driver, or live data is not feasible to store in cache, so it can be saved in an in-memory database like redis and then sent to customer.
 Cache - map data, event data
-**Logging (logging layer)**
+## Logging (logging layer)
 
 Legal perspective
 
@@ -45,22 +45,22 @@ Endpoints - driver app, customer app
 Kafka (ingest logging message), it is a service that can ingest a lot of messages in real time. (guarantee that it's not lost). Lot of servers in cluster and synchronize with each other.
 
 Periodically dumps data to Data Warehouse (Hadoop)
-**SOA (Service Oriented Architecture)**
+## SOA (Service Oriented Architecture)
 
 There are a lot of small machines distributed so one if goes down doesn't effect others. Service lives in many different machines and in many different regions
-**Provisioning (Getting apps into machines)**
+## Provisioning (Getting apps into machines)
 
 Getting all the software (libraries, code, applications) into a newly started machine or container.
 Repository of all applications and libraries is used to provision everything to individual systems
-**Teraform** is used to provision systems.
+## Teraform is used to provision systems.
 
-**Containers (Shielded runtime environments) - Docker**
+## Containers (Shielded runtime environments) - Docker
 
-**Apache Mesos (distributed systems kernel, manage distributed computer clusters) -** manages collaboration and interfaces between services in distributed systems.
-**Network Routing (Route requests to backend) -** needs to know state of each application.
+## Apache Mesos (distributed systems kernel, manage distributed computer clusters) - manages collaboration and interfaces between services in distributed systems.
+## Network Routing (Route requests to backend) - needs to know state of each application.
 
-**Stateless -** there is no state for each communication, therefore if one request is to one server, then another request can be routed to any other server.
-**Testing**
+## Stateless - there is no state for each communication, therefore if one request is to one server, then another request can be routed to any other server.
+## Testing
 
 Unit Tests
 
@@ -68,7 +68,7 @@ Suite of Integration tests
 
 Resiliency testing - Case of failure testing
 
-**Uber - Hailstorm** - goes to a random set of services or hosts and turns them down.
+## Uber - Hailstorm - goes to a random set of services or hosts and turns them down.
 
 Use Shadow fleets, group of hosts that have some applications and gets all the data but doen't serve any customer. Get request, calls all the same services as in production.**Mapping (Graph problem)**
 
@@ -81,7 +81,7 @@ Dijkstra's Algorithm
 A* Search Algorithm
 
 Directed Weighted Graph (Weights are speed limit/Traffic)
-**Uber**
+## Uber
 
 Getting very precise ETA (driver to customer)
 
@@ -94,7 +94,7 @@ Use **historical data** for ETA calculation (pretty accurate)
 Split the city into smaller blocks and then re-calculate the ETA's in real time. (Splitting the graph algorithm)
 
 ![2 6 ](media/System-Design---Uber-Lyft-ride-sharing-services-image1.png)
-![つ の 。 ) フ び つ や ](media/System-Design---Uber-Lyft-ride-sharing-services-image2.png)**Summary -**
+![image](media/System-Design---Uber-Lyft-ride-sharing-services-image2.png)**Summary -**
 
 1.  Core features
 

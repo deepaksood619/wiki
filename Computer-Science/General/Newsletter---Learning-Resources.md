@@ -12,7 +12,7 @@ Modified: 2022-05-30 23:23:24 +0500
 
 This is a weeklynewsletter for our tech team. This will contain links worth reading in and around tech.
 
-**So this week it's all about databases**
+## So this week it's all about databases
 
 1.<https://medium.com/analytics-vidhya/categories-of-databases-a-primer-9781a3b24285>
 
@@ -33,8 +33,8 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 3.<https://fauna.com/blog/introduction-to-transaction-isolation-levels>
 
 Some links are prettydeep and if you have any difficulty understanding any concept feelfree to reach out to me.
-**Quote of the Week:**"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
-**Websites worth checking out**
+## Quote of the Week:"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
+## Websites worth checking out
 
 1.<https://www.freecodecamp.org>
 
@@ -54,7 +54,7 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 
 ## #2**
 
-**This is all about Coding**
+## This is all about Coding
 -   **Codeigniter**
 
 * Hooks
@@ -73,7 +73,7 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 -   Data Structures
 -   Design Patterns
 -   Testable Code
-**Newsletter**
+## Newsletter
 
 Interview Cake Weekly Problem
 
@@ -86,7 +86,7 @@ Daily coding
 <https://programmingdigest.net>
 
 Medium Daily Digest
-**Learning Resources / Bootcamps**
+## Learning Resources / Bootcamps
 
 <https://github.com/jwasham/coding-interview-university>
 

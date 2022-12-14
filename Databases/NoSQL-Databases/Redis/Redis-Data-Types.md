@@ -15,7 +15,7 @@ Redis is not aplainkey-value store, it is actually adata structures server, supp
 -   **Bit arrays (or simply bitmaps):** it is possible, using special commands, to handle String values like an array of bits: you can set and clear individual bits, count all the bits set to 1, find the first set or unset bit, and so forth.
 -   **HyperLogLogs:** this is a probabilistic data structure which is used in order to estimate the cardinality of a set.
 -   **Streams:** append-only collections of map-like entries that provide an abstract log data type.
-**Redis Lists**
+## Redis Lists
 
 Redis lists are implemented via Linked Lists. This means that even if you have millions of elements inside a list, the operation of adding a new element in the head or in the tail of the list is performedin constant time. The speed of adding a new element with the[LPUSH](https://redis.io/commands/lpush)command to the head of a list with ten elements is the same as adding an element to the head of list with 10 million elements.
 Redis Lists are implemented with linked lists because for a database system it is crucial to be able to add elements to a very long list in a very fast way. Redis Lists can be taken at constant length in constant time.
@@ -32,15 +32,15 @@ An important operation defined on Redis lists is the ability topop elements. Pop
 > rpush mylist a b c
 > rpop mylist
 > lpop mylist
-**Common use cases for lists**
+## Common use cases for lists
 -   Remember the latest updates posted by users into a social network.
 -   Communication between processes, using a consumer-producer pattern where the producer pushes items into a list, and a consumer (usually aworker) consumes those items and executed actions. Redis has special list commands to make this use case both more reliable and efficient.
-**Capped Lists**
+## Capped Lists
 
 Redis allows us to use lists as a capped collection, only remembering the latest N items and discarding all the oldest items using the [LTRIM](https://redis.io/commands/ltrim) command.
 The[LTRIM](https://redis.io/commands/ltrim)command is similar to[LRANGE](https://redis.io/commands/lrange), butinstead of displaying the specified range of elementsit sets this range as the new list value. All the elements outside the given range are removed.
 Note: while[LRANGE](https://redis.io/commands/lrange)is technically anO(N)command, accessing small ranges towards the head or the tail of the list is a constant time operation.
-**Blocking operations on lists**
+## Blocking operations on lists
 
 Lists have a special feature that make them suitable to implement queues, and in general as a building block for inter process communication systems: blocking operations.
 Imagine you want to push items into a list with one process, and use a different process in order to actually do some kind of work with those items. This is the usual producer / consumer setup, and can be implemented in the following simple way:
@@ -70,7 +70,7 @@ A few things to note about[BRPOP](https://redis.io/commands/brpop):
 There are more things you should know about lists and blocking ops. We suggest that you read more on the following:
 -   It is possible to build safer queues or rotating queues using[RPOPLPUSH](https://redis.io/commands/rpoplpush).
 -   There is also a blocking variant of the command, called[BRPOPLPUSH](https://redis.io/commands/brpoplpush).
-**Automatic creation and removal of keys**
+## Automatic creation and removal of keys
 
 So far in our examples we never had to create empty lists before pushing elements, or removing empty lists when they no longer have elements inside. It is Redis' responsibility to delete keys when lists are left empty, or to create an empty list if the key does not exist and we are trying to add elements to it, for example, with[LPUSH](https://redis.io/commands/lpush).
 This is not specific to lists, it applies to all the Redis data types composed of multiple elements -- Streams, Sets, Sorted Sets and Hashes.
@@ -81,7 +81,7 @@ Basically we can summarize the behavior with three rules:
 2.  When we remove elements from an aggregate data type, if the value remains empty, the key is automatically destroyed. The Stream data type is the only exception to this rule.
 
 3.  Calling a read-only command such as[LLEN](https://redis.io/commands/llen)(which returns the length of the list), or a write command removing elements, with an empty key, always produces the same result as if the key is holding an empty aggregate type of the type the command expects to find.
-**Redis Hashes**
+## Redis Hashes
 
 Redis hashes look exactly how one might expect a "hash" to look, with field-value pairs:
 
@@ -112,7 +112,7 @@ There are commands that are able to perform operations on individual fields as w
 > hincrby user:1000 birthyear 10
 (integer) 1997
 It is worth noting that small hashes (i.e., a few elements with small values) are encoded in special way in memory that make them very memory efficient.
-**Redis Sets**
+## Redis Sets
 
 Redis Sets are unordered collections of strings. The[SADD](https://redis.io/commands/sadd)command adds new elements to a set. It's also possible to do a number of other operations against sets like testing if a given element already exists, performing the intersection, union or difference between multiple sets, and so forth.
 
@@ -160,7 +160,7 @@ Operations for combining and manipulatingSETs in Redis
 | SINTERSTORE | SINTERSTORE dest-key key-name [key-name ...]--- Stores at the dest-key the items that are in all of the SETs (mathematical set intersection operation)                         |
 | SUNION      | SUNION key-name [key-name ...]--- Returns the items that are in at least one of the SETs (mathematical set union operation)                                                    |
 | SUNIONSTORE | SUNIONSTORE dest-key key-name [key-name ...]--- Stores at the dest-key the items that are in at least one of the SETs (mathematical set union operation)                       |
-**Redis Sorted sets (ZSET)**
+## Redis Sorted sets (ZSET)
 
 Sorted sets are a data type which is similar to a mix between a Set and a Hash. Like sets, sorted sets are composed of unique, non-repeating string elements, so in some sense a sorted set is a set as well.
 However while elements inside sets are not ordered, every element in a sorted set is associated with a floating point value, calledthe score(this is why the type is also similar to a hash, since every element is mapped to a value).
@@ -201,15 +201,15 @@ zrangebyscore test_key 1588056957 1588057150 (to sortedset items)
 zrangebyscore test_key 1588056957 1588057150 withscores (to sortedset items with score)
 
 zremrangebyscore test_key 1588056950 1588056957 (to remove item)
-**Lexicographical scores**
+## Lexicographical scores
 
 With recent versions of Redis 2.8, a new feature was introduced that allows getting ranges lexicographically, assuming elements in a sorted set are all inserted with the same identical score (elements are compared with the Cmemcmpfunction, so it is guaranteed that there is no collation, and every Redis instance will reply with the same output).
 The main commands to operate with lexicographical ranges are [ZRANGEBYLEX](https://redis.io/commands/zrangebylex), [ZREVRANGEBYLEX](https://redis.io/commands/zrevrangebylex), [ZREMRANGEBYLEX](https://redis.io/commands/zremrangebylex) and [ZLEXCOUNT](https://redis.io/commands/zlexcount).
-**Updating the score: leader boards**
+## Updating the score: leader boards
 
 Just a final note about sorted sets before switching to the next topic. Sorted sets' scores can be updated at any time. Just calling[ZADD](https://redis.io/commands/zadd)against an element already included in the sorted set will update its score (and position) withO(log(N))time complexity. As such, sorted sets are suitable when there are tons of updates.
 Because of this characteristic a common use case is leader boards. The typical application is a Facebook game where you combine the ability to take users sorted by their high score, plus the get-rank operation, in order to show the top-N users, and the user rank in the leader board (e.g., "you are the #4932 best score here").
-**Bitmaps**
+## Bitmaps
 
 Bitmaps are not an actual data type, but a set of bit-oriented operations defined on the String type. Since strings are binary safe blobs and their maximum length is 512 MB, they are suitable to set up to 232different bits.
 
@@ -254,7 +254,7 @@ BITOP OR orbc b c
 
 BITOP XOR xorbc b c
 Bitmaps are trivial to split into multiple keys, for example for the sake of sharding the data set and because in general it is better to avoid working with huge keys. To split a bitmap across different keys instead of setting all the bits into a key, a trivial strategy is just to store M bits per key and obtain the key name withbit-number/M and the Nth bit to address inside the key withbit-number MOD M.
-**HyperLogLogs**
+## HyperLogLogs
 
 A HyperLogLog is a probabilistic data structure used in order to count unique things (technically this is referred to estimating the cardinality of a set). Usually counting unique items requires using an amount of memory proportional to the number of items you want to count, because you need to remember the elements you have already seen in the past in order to avoid counting them multiple times. However there is a set of algorithms that trade memory for precision: you end with an estimated measure with a standard error, which in the case of the Redis implementation is less than 1%. The magic of this algorithm is that you no longer need to use an amount of memory proportional to the number of items counted, and instead can use a constant amount of memory! 12k bytes in the worst case, or a lot less if your HyperLogLog (We'll just call them HLL from now) has seen very few elements.
 HLLs in Redis, while technically a different data structure, are encoded as a Redis string, so you can call[GET](https://redis.io/commands/get)to serialize a HLL, and[SET](https://redis.io/commands/set)to deserialize it back to the server.
@@ -268,7 +268,7 @@ While you don't reallyadd itemsinto an HLL, because the data structure only cont
     (integer) 4
 An example of use case for this data structure is counting unique queries performed by users in a search form every day.
 Redis is also able to perform the union of HLLs
-**Other Features**
+## Other Features
 -   It is possible to[iterate the key space of a large collection incrementally](https://redis.io/commands/scan).
 -   It is possible to run[Lua scripts server side](https://redis.io/commands/eval)to improve latency and bandwidth.
 -   Redis is also a[Pub-Sub server](https://redis.io/topics/pubsub).
@@ -284,10 +284,10 @@ Redis is also able to perform the union of HLLs
 | **LINDEX**                   | Get an element from a list        | LRANGE                          | Get a range of elements from a list         |
 | **HSET**                     | Set the string value of a hash    | HMSET                           | Set multiple hash fields to multiple values |
 | **HGET**                     | Get the value of a hash field     | HMGET                           | Get the values of all the given hash fields |
-**Pipeline commands**
+## Pipeline commands
 
 Another way to reduce latency associated with high command volume is to pipeline several commands together so that you reduce latency due to network usage. Rather than sending 10 client commands to the Redis server individually and taking the network latency hit 10 times, pipelining the commands will send them all at once and pay the network latency cost only once. Pipelining commands is supported by the Redis server and by most clients. This is only beneficial if network latency is significantly larger than your instance's
-![throughput vs command with or without redis pipeline](media/Redis_Redis-Data-Types-image1.png)
+![image](media/Redis_Redis-Data-Types-image1.png)
 <https://redis.io/topics/pipelining>
 
 ## Redis commands with high time complexity**

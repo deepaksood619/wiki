@@ -36,9 +36,7 @@ transition-timing-function refers to how to transition occurs. You'll learn more
 
 transition-delay refers to how long you want to wait before starting the duration. This value is written in seconds with the s suffix (like 3s). transition-delay is optional in the transition shorthand.
 
-
-
-**Triggering transitions**
+## Triggering transitions
 
 You can trigger CSS transitions directly with pseudo classes like :hover (activates when mouse goes over an element), :focus (activates when a user tabs onto an element, or when a user clicks into an input element), or :active (activates when user clicks on the element).
 
@@ -65,7 +63,7 @@ color: #1ce;
 const button = document.querySelector('.button')
 button.addEventListener('click', _ => button.classList.toggle('is-active'))
 
-**Understanding transition-timing-function**
+## Understanding transition-timing-function
 
 The transition-timing-function governs how a transition occurs. All transitions have a value of linear by default, which means the property changes evenly until the end of the transition.
 
@@ -104,9 +102,7 @@ Finally, if you don't like any of the above choices, you can create your own tim
 
 (Before we move on, here's a quick signup form if you'd like to read similar articles from me every Wednesday).
 
-
-
-**Creating your own timing function with cubic-bezier**
+## Creating your own timing function with cubic-bezier
 
 A Cubic-bezier is a set of four values that determine your transition-timing-function. It looks like this:
 
@@ -118,15 +114,13 @@ Don't worry about the x1, y1,, x2 and y2. You'll never create cubic-bezier curve
 
 You can rely on both Chrome and Firefox's trusty developer tools to help you create your curves. To use it, you add a transition-timing-function into an element, then open up devtools and click on the timing function.
 
-![Both Chrome and Firefox provides you with a cubic-bezier tool](media/CSS-Intro_CSS-Transitions-image1.png)
+![image](media/CSS-Intro_CSS-Transitions-image1.png)
 
 Both Chrome and Firefox provides you with a cubic-bezier tool
 
 Going in-depth about creating your own bezier curves for your animations is out of scope for today's article. If you're interested, you can find more information about cubic-bezier curves in "[Understanding CSS Timing Functions](https://www.smashingmagazine.com/2014/04/understanding-css-timing-functions/)" by [Stephen Greig](https://twitter.com/Stephen_Greig).
 
-
-
-**Transitioning two or more properties**
+## Transitioning two or more properties
 
 You can transition two (or more) CSS properties by separating them with a comma in your transition or transition-property property.
 
@@ -154,7 +148,7 @@ transition-property: all
 transition-property: background-color, color, transform;
 }
 
-**Transitioning in vs transitioning out**
+## Transitioning in vs transitioning out
 
 Sometimes, you want the properties to transition in and out at differently. You want the duration, timing-function or delay to be different.
 
@@ -176,17 +170,13 @@ So, in the example above, when you hover on the button, the background color tak
 
 When you hover out from the button, the background color only takes 0.5s to change back to #1ce because the transition-duration of 2s no longer exists.
 
-
-
-**Wrapping up**
+## Wrapping up
 
 CSS Transitions are the easiest way to perform animations. You can create transitions either with the transition shorthand or with transition- properties.
 
 To create a transition, you overwrite a property in a class (or psuedo class), and you specify the property to transit in transition or transition-property.
 
 Remember to change your transition-timing-function so your animation looks more real!
-
-
 
 <https://zellwk.com/blog/css-transitions
 

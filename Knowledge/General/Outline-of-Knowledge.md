@@ -10,11 +10,9 @@ Knowledge is making the right choice with all the information.
 
 Wisdom is making the right choice without all the information.
 
-
-
 # Types of knowledge
 
-**By form**
+## By form
 -   [A priori and a posteriori knowledge](https://en.wikipedia.org/wiki/A_priori_and_a_posteriori)-- these terms are used with respect to reasoning ([epistemology](https://en.wikipedia.org/wiki/Epistemology)) to distinguish necessary conclusions from first premises...
 -   A prioriknowledge or justification -- knowledge that is independent of[experience](https://en.wikipedia.org/wiki/Experience), as with[mathematics](https://en.wikipedia.org/wiki/Mathematics)(3+2=5),[tautologies](https://en.wikipedia.org/wiki/Tautology_(grammar))("All bachelors are unmarried"), and[deduction](https://en.wikipedia.org/wiki/Deductive_reasoning)from[pure reason](https://en.wikipedia.org/wiki/Pure_reason)(e.g.,[ontological proofs](https://en.wikipedia.org/wiki/Ontological_argument)).
 -   A posterioriknowledge or justification -- knowledge dependent on[experience](https://en.wikipedia.org/wiki/Experience)or[empirical evidence](https://en.wikipedia.org/wiki/Empirical_evidence), as with most aspects of[science](https://en.wikipedia.org/wiki/Science)and[personal knowledge](https://en.wikipedia.org/wiki/Anecdotal_evidence).
@@ -29,9 +27,7 @@ Wisdom is making the right choice without all the information.
 -   [Procedural knowledge](https://en.wikipedia.org/wiki/Procedural_knowledge)-- also known as imperative knowledge, it is the knowledge exercised in the performance of some task. Commonly referred to as "knowing-how" and opposed to "knowing-that" ([descriptive knowledge](https://en.wikipedia.org/wiki/Descriptive_knowledge)).
 -   [Tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge)-- kind of knowledge that is difficult to transfer to another person by means of writing it down or verbalizing it. For example, that London is in the United Kingdom is a piece of explicit knowledge that can be written down, transmitted, and understood by a recipient. However, the ability to speak a language, knead dough, play a musical instrument or design and use complex equipment requires all sorts of knowledge that is not always known explicitly, even by expert practitioners, and which is difficult or impossible to explicitly transfer to other users.
 
-
-
-**By scope**
+## By scope
 -   [Common knowledge](https://en.wikipedia.org/wiki/Common_knowledge)-- knowledge that is known by everyone or nearly everyone, usually with reference to the community in which the term is used.
 -   [Customer knowledge](https://en.wikipedia.org/wiki/Customer_knowledge)-- knowledge for, about, or from customers.
 -   [Domain knowledge](https://en.wikipedia.org/wiki/Domain_knowledge)-- valid knowledge used to refer to an area of human endeavour, an autonomous computer activity, or other specialized discipline.
@@ -42,8 +38,6 @@ Wisdom is making the right choice without all the information.
 -   [Traditional knowledge](https://en.wikipedia.org/wiki/Traditional_knowledge)-- knowledge systems embedded in the cultural traditions of regional, indigenous, or local communities. Traditional knowledge includes types of knowledge about traditional technologies of subsistence (e.g. tools and techniques for hunting or agriculture), midwifery, ethnobotany and ecological knowledge, traditional medicine, celestial navigation, ethnoastronomy, the climate, and others. These kinds of knowledge, crucial for subsistence and survival, are generally based on accumulations of empirical observation and on interaction with the environment.
 -   [Traditional ecological knowledge](https://en.wikipedia.org/wiki/Traditional_ecological_knowledge)
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Outline_of_knowledge>

@@ -6,21 +6,17 @@ Modified: 2022-04-05 00:25:40 +0500
 
 ---
 
-**Management Basics**
+## Management Basics
 -   [Management Basics](https://www.managementstudyguide.com/management-basics-articles.htm)
 
-
-
-**Management Functions**
+## Management Functions
 -   [Planning Function](https://www.managementstudyguide.com/planning-function-articles.htm)
 -   [Organizing Function](https://www.managementstudyguide.com/organizing-function-articles.htm)
 -   [Staffing Function](https://www.managementstudyguide.com/staffing-function-articles.htm)
 -   [Directing Function](https://www.managementstudyguide.com/directing-function-articles.htm)
 -   [Controlling Function](https://www.managementstudyguide.com/controlling-function-articles.htm)
 
-
-
-**Organizational Behaviour**
+## Organizational Behaviour
 -   [Motivation](https://www.managementstudyguide.com/motivation-articles.htm)
 -   [Leadership](https://www.managementstudyguide.com/leadership-articles.htm)
 -   [Communication - Basics & Strategies](https://www.managementstudyguide.com/communication-basics-articles.htm)
@@ -58,9 +54,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Group Behavior](https://www.managementstudyguide.com/group-behavior-articles.htm)
 -   [Business Agility](https://www.managementstudyguide.com/business-agility-articles.htm)
 
-
-
-**Marketing**
+## Marketing
 -   [Marketing Management](https://www.managementstudyguide.com/marketing-management-articles.htm)
 -   [Marketing Research](https://www.managementstudyguide.com/marketing-research-articles.htm)
 -   [Advertising Management](https://www.managementstudyguide.com/advertising-management-articles.htm)
@@ -89,9 +83,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Social Media Marketing](https://www.managementstudyguide.com/social-media-marketing-articles.htm)
 -   [Social Research Methods](https://www.managementstudyguide.com/social-research-methods-articles.htm)
 
-
-
-**People Management**
+## People Management
 -   [Personnel Management](https://www.managementstudyguide.com/personnel-management-articles.htm)
 -   [Human Resource Management](https://www.managementstudyguide.com/human-resource-management-articles.htm)
 -   [Human Resource Development](https://www.managementstudyguide.com/human-resource-development-articles.htm)
@@ -121,9 +113,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Management Consulting](https://www.managementstudyguide.com/management-consulting-articles.htm)
 -   [Employer Branding](https://www.managementstudyguide.com/employer-branding-articles.htm)
 
-
-
-**Operations**
+## Operations
 -   [Supply Chain Management](https://www.managementstudyguide.com/supply-chain-management-articles.htm)
 -   [Inventory Management](https://www.managementstudyguide.com/inventory-management-articles.htm)
 -   [Enterprise Resource Planning - I](https://www.managementstudyguide.com/enterprise-resource-planning-1-articles.htm)
@@ -142,7 +132,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Total Quality Management](https://www.managementstudyguide.com/total-quality-management-articles.htm)
 -   [Six Sigma - Introduction](https://www.managementstudyguide.com/six-sigma-articles.htm)
 
-![Two meanings of "Sigma" + The Term "Sigma" is used to designate the distribution or spread about the mean (average) of any process or procedure. + For a business, the sigma capability (z-value) is a metric that indicates how well that process is performing. The higher the sigma capability, the better. Sigma capability measures the capability of the process to perform defect-free work. A DEFECT is anything that results in customer dissatisfaction. As Defects Go Down.. .. the Sigma Capability Goes Up ](media/Outline-image1.jpeg)
+![image](media/Outline-image1.jpeg)
 -   [Six Sigma - Define Phase](https://www.managementstudyguide.com/six-sigma-define-phase-articles.htm)
 -   [Six Sigma - Measure Phase](https://www.managementstudyguide.com/six-sigma-measure-phase-articles.htm)
 -   [Six Sigma - Analyze Phase](https://www.managementstudyguide.com/six-sigma-analyze-phase-articles.htm)
@@ -154,9 +144,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Decision Support Systems](https://www.managementstudyguide.com/decision-support-systems-articles.htm)
 -   [Human Resource Information System](https://www.managementstudyguide.com/human-resource-information-system-articles.htm)
 
-
-
-**Finance**
+## Finance
 -   [Financial Management](https://www.managementstudyguide.com/financial-management-articles.htm)
 -   [Financial Accounting](https://www.managementstudyguide.com/financial-accounting-articles.htm)
 -   [Ratio Analysis](https://www.managementstudyguide.com/ratio-analysis-articles.htm)
@@ -169,9 +157,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Equity Valuation](https://www.managementstudyguide.com/equity-valuation-articles.htm)
 -   [Job Order Costing](https://www.managementstudyguide.com/job-order-costing-articles.htm)
 
-
-
-**Economics**
+## Economics
 -   [Managerial Economics](https://www.managementstudyguide.com/managerial-economics-articles.htm)
 -   [Gross Domestic Product](https://www.managementstudyguide.com/gross-domestic-product-articles.htm)
 -   [Economics of Human Resources](https://www.managementstudyguide.com/economics-of-human-resources-articles.htm)
@@ -181,9 +167,7 @@ Modified: 2022-04-05 00:25:40 +0500
 -   [Quantitative Easing](https://www.managementstudyguide.com/quantitative-easing-articles.htm)
 -   [Real Estate](https://www.managementstudyguide.com/real-estate-articles.htm)
 
-
-
-**Courses**
+## Courses
 
 <https://www.managementstudyguide.com/all-subjects.htm>
 

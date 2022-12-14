@@ -30,7 +30,7 @@ Modified: 2020-01-17 19:40:28 +0500
 4.  [Hardware sizing guidelines](https://docs.influxdata.com/influxdb/v1.7/guides/hardware_sizing/)
 
 5.  [Calculating percentages in a query](https://docs.influxdata.com/influxdb/v1.7/guides/calculating_percentages/)
-**Performance Tuning**
+## Performance Tuning
 
 1.  Change the shard duration
 

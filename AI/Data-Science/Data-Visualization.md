@@ -6,27 +6,17 @@ Modified: 2021-09-14 23:12:00 +0500
 
 ---
 
-**Exploratory and Explanatory visualization**
-
-
+## Exploratory and Explanatory visualization
 
 Data visualizationis viewed by many disciplines as a modern equivalent of[visual communication](https://en.wikipedia.org/wiki/Visual_communication). It involves the creation and study of the[visual](https://en.wikipedia.org/wiki/Visual_system) representation of[data](https://en.wikipedia.org/wiki/Data).
 
-
-
 To communicate information clearly and efficiently, data visualization uses[statistical graphics](https://en.wikipedia.org/wiki/Statistical_graphics), [plots](https://en.wikipedia.org/wiki/Plot_(graphics)), [information graphics](https://en.wikipedia.org/wiki/Infographic) and other tools. Numerical data may be encoded using dots, lines, or bars, to visually communicate a quantitative message.Effective visualization helps users analyze and reason about data and evidence. It makes complex data more accessible, understandable and usable. Users may have particular analytical tasks, such as making comparisons or understanding[causality](https://en.wikipedia.org/wiki/Causality), and the design principle of the graphic (i.e., showing comparisons or showing causality) follows the task. Tables are generally used where users will look up a specific measurement, while charts of various types are used to show patterns or relationships in the data for one or more variables.
-
-
 
 Data visualization is both an art and a science. It is viewed as a branch of[descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics)by some, but also as a[grounded theory](https://en.wikipedia.org/wiki/Grounded_theory)development tool by others. Increased amounts of data created by Internet activity and an expanding number of sensors in the environment are referred to as "[big data](https://en.wikipedia.org/wiki/Big_data)" or[Internet of things](https://en.wikipedia.org/wiki/Internet_of_things). Processing, analyzing and communicating this data present ethical and analytical challenges for data visualization.The field of[data science](https://en.wikipedia.org/wiki/Data_science)and practitioners called[data scientists](https://en.wikipedia.org/wiki/Data_scientists)help address this challenge.
 
-
-
-**Types of data**
+## Types of data
 -   Categorical: Text labels describing the nature of the data, such as "Name" or "Age". This term also covers qualitative (non-numerical) data.
 -   Quantitative: Numerical measures, such as "25" to represent the age in years.
-
-
 
 1.  Quantitative data
 
@@ -46,8 +36,6 @@ Data visualization is both an art and a science. It is viewed as a branch of[des
 
     e.  Pictograph
 
-
-
 3.  Dotplot
 
 4.  Stem and leaf plot
@@ -56,15 +44,11 @@ Data visualization is both an art and a science. It is viewed as a branch of[des
 
 6.  Cumulative frequency plots
 
-
-
-**Primary types of information displays**
+## Primary types of information displays
 -   A**table**contains quantitative data organized into rows and columns with categorical labels. It is primarily used to look up specific values. In the example above, the table might have categorical column labels representing the name (aqualitative variable) and age (aquantitative variable), with each row of data representing one person (the sampledexperimental unitorcategory subdivision).
 -   A**graph**is primarily used to show relationships among data and portrays values encoded asvisual objects(e.g., lines, bars, or points). Numerical values are displayed within an area delineated by one or moreaxes. These axes providescales(quantitative and categorical) used to label and assign values to the visual objects. Many graphs are also referred to ascharts.[[27]](https://en.wikipedia.org/wiki/Data_visualization#cite_note-27)
 
-
-
-**Types of Quantitative Messages**
+## Types of Quantitative Messages
 
 1.  **Time-series**
 
@@ -98,9 +82,7 @@ Comparing categorical subdivisions in no particular order, such as the sales vol
 
 Comparison of a variable across a map or layout, such as the unemployment rate by state or the number of persons on the various floors of a building. A[cartogram](https://en.wikipedia.org/wiki/Cartogram)is a typical graphic used.
 
-
-
-**Data Visualization Libraries**
+## Data Visualization Libraries
 -   Bokeh - <https://docs.bokeh.org/en/latest
 -   <http://kepler.gl/#
 -   <https://deck.gl/#
@@ -112,16 +94,12 @@ ggplot2 is a system for declaratively creating graphics, based on[The Grammar of
 
 <https://ggplot2.tidyverse.org
 
-
-
-**When you should request a dashboard**
+## When you should request a dashboard
 -   When you'll use it multiple times
 -   When you'll need the information updated regularly
 -   When the request will always be the same
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Data_visualization>
 

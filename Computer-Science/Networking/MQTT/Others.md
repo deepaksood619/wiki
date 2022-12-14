@@ -6,7 +6,7 @@ Modified: 2020-02-13 23:33:49 +0500
 
 ---
 
-**MQTT vs HTTP**
+## MQTT vs HTTP
 -   MQTT transfers data as a byte array and publish/subscribe model, which makes it perfect for resource-constrained devices and help to save battery.
 -   Besides, publish/subscribe model provides clients with independent existence from one another and enhance the reliability of the whole system. When one client is out of order the whole system can keep on working properly.
 -   throughput of MQTT is 93 times faster than HTTP's.

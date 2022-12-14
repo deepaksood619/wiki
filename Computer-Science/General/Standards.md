@@ -6,14 +6,14 @@ Modified: 2022-02-05 19:03:23 +0500
 
 ---
 
-**ASCII**
+## ASCII
 
 48-57 - 0-9
 
 65-90 - A-Z
 
 97-122 - a-z
-**base64**
+## base64
 
 In[computer science](https://en.wikipedia.org/wiki/Computer_science),Base64is a group of[binary-to-text encoding](https://en.wikipedia.org/wiki/Binary-to-text_encoding)schemes that represent[binary data](https://en.wikipedia.org/wiki/Binary_data)in an[ASCII](https://en.wikipedia.org/wiki/ASCII)string format by translating it into a[radix](https://en.wikipedia.org/wiki/Radix)-64 representation. The termBase64originates from a specific[MIME content transfer encoding](https://en.wikipedia.org/wiki/MIME#Content-Transfer-Encoding). Each Base64 digit represents exactly 6 bits of data. Three 8-bit bytes (i.e., a total of 24 bits) can therefore be represented by four 6-bit Base64 digits.
 Common to all binary-to-text encoding schemes, Base64 is designed to carry data stored in binary formats across channels that only reliably support text content. Base64 is particularly prevalent on the[World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web)[[1]](https://en.wikipedia.org/wiki/Base64#cite_note-1)where its uses include the ability to embed[image files](https://en.wikipedia.org/wiki/Image_files)or other binary assets inside textual assets such as[HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/CSS) files.
@@ -37,7 +37,7 @@ A **character** is a minimal unit of text that has semantic value.
 A **character set** is a collection of characters that might be used by multiple languages. For example, the Latin character set is used by English and most European languages, though the Greek character set is used only by the Greek language.
 A**coded character set**is a character set where each character is assigned a unique number.
 A**code point**is a value that can be used in a coded character set. A code point is a 32-bitintdata type, where the lower 21 bits represent a valid code point value and the upper 11 bits are 0. Code point is a character and this is represented by one or more code units depending on the encoding.
-**Unicode**
+## Unicode
 
 Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems.
 The latest version contains a repertoire of 136,755[characters](https://en.wikipedia.org/wiki/Character_(computing))covering 139 modern and historic[scripts](https://en.wikipedia.org/wiki/Script_(Unicode)), as well as multiple symbol sets.
@@ -48,10 +48,10 @@ The following table shows code point values for several characters:
 
 | Character       | Unicode Code Point | Glyph                                                                                                                                                                                                              |
 |--------------------------|----------------------------------|------------|
-| Latin A         | U+0041             | ![The Latin character A](media/Standards-image1.gif)                                                     |
-| Latin sharp S   | U+00DF             | ![The Latin small letter sharp S](media/Standards-image2.gif)                                            |
-| Han for East    | U+6771             | ![The Han character for east, eastern or eastward](media/Standards-image3.gif) |
-| Deseret, LONG I | U+10400            | ![The Deseret capital letter long I](media/Standards-image4.gif)               |
+| Latin A         | U+0041             | ![image](media/Standards-image1.gif)                                                     |
+| Latin sharp S   | U+00DF             | ![image](media/Standards-image2.gif)                                            |
+| Han for East    | U+6771             | ![image](media/Standards-image3.gif) |
+| Deseret, LONG I | U+10400            | ![image](media/Standards-image4.gif)               |
 
 As previously described, characters that are in the range U+10000 to U+10FFFF are called supplementary characters. The set of characters from U+0000 to U+FFFF are sometimes referred to as theBasic Multilingual Plane (BMP).
 <https://www.asciitohex.com>
@@ -73,7 +73,7 @@ The control characters in ASCII still in common use include:
 [**https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/**](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 It does not make sense to have a string without knowing what encoding it uses.
-**ISO/IEC 5218**
+## ISO/IEC 5218
 -   0 = Not known;
 -   1 = Male;
 -   2 = Female;

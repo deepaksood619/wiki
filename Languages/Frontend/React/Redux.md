@@ -8,35 +8,23 @@ Modified: 2022-07-31 12:18:12 +0500
 
 Redux is a library which controls the state of your JavaScript application. It provides a "unidirectional data flow" that helps to manage and organise data better and makes debugging a lot easier.
 
-
-
 Redux is a layer on top of React which helps in state management. Redux is mainly used in applications which rely on using class-based components. Redux has two tasks and they are
 -   creating a central data store for all the data in the application
 -   providing access to the data for all the components.
 
-
-
 Redux makes state management really easy.
 
-
-
-**Redux expects that all state updates are done immutably.**
-
-
+## Redux expects that all state updates are done immutably.
 
 <https://redux.js.org/tutorials/essentials/part-1-overview-concepts>
 
 Redux is a pattern and library for managing and updating application state, using events called "actions".It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.
-
-
 
 Redux is more useful when:
 -   You have large amounts of application state that are needed in many places in the app
 -   The app state is updated frequently over time
 -   The logic to update that state may be complex
 -   The app has a medium or large-sized codebase, and might be worked on by many people
-
-
 
 Redux works in 4 simple steps:
 
@@ -50,9 +38,7 @@ Redux works in 4 simple steps:
 
 5.  Now, once the action is carried out, the store is swiftly updated. And in turn, the components which subscribed to the data which also get updated.
 
-
-
-**Terminology**
+## Terminology
 -   **Actions**
 
 Anactionis a plain JavaScript object that has atypefield.You can think of an action as an event that describes something that happened in the application.
@@ -69,20 +55,14 @@ The current Redux application state lives in an object called thestore
 
 The Redux store has a method calleddispatch.The only way to update the state is to callstore.dispatch()and pass in an action object. The store will run its reducer function and save the new state value inside, and we can callgetState()to retrieve the updated value
 
-
-
-**How to Use Redux**
+## How to Use Redux
 
 Firstly, we will need to install 2 npm packages. And they are:
 -   redux (to create store)
 -   react-redux (to connect the store with the application)
 -   yarn add redux-toolkit
 
-
-
 Then, we will create the store in the index.js file. This is because index.js is the file that starts the application.
-
-
 
 // index.js
 
@@ -106,19 +86,11 @@ document.getElementById('root')
 
 );
 
-
-
 We pass the rootReducer (the main reducer) as an argument when we are creating the store. This is to specify that this reducer is the one that has access to the store.
-
-
 
 In a component, to connect to the store, we need to import a function called connect. Connect, on being invoked, returns a higher order component (HOC) which we wrap around the component. We pass a function, mapStateToProps, in which we specify the data from the store that we want to subscribe to.
 
-
-
 We can also pass a second function which we use to dispatch an action and is called mapDispatchToProps. A method is added to the props of the components and is called whenever a certain DOM event is triggered. Then, the action gets dispatched and passed into the reducer.
-
-
 
 // component
 
@@ -146,11 +118,7 @@ deletepost: (id) => dispatch({type: 'DELETE_POST', id})
 
 export default connect(mapStateToProps, mapDispatchToProps)(Post);
 
-
-
 Initially the state is empty. So, we must define an initial state in the reducer. In the reducer, we must write conditions for what must occur when an action of a specific type is dispatched.
-
-
 
 // rootReducer
 
@@ -194,23 +162,17 @@ return state;
 
 export default rootReducer;
 
-
-
 <https://dev.to/nrabhiram/react-redux-1622>
 
 <https://www.toptal.com/react/react-state-management-tools-enterprise>
 
-**Which state management is best in React?**
+## Which state management is best in React?
 
 React's useState is the best option for local state management. If you need a global state solution, the most popular ones are Redux, MobX, and built-in Context API. Your choice will depend on the size of your project, your needs, and your engineers' expertise.
 
-
-
-**Why not use React Context API?**
+## Why not use React Context API?
 
 Context API's functionality is tiny out of the box. It was not built and optimized for high-frequency updates but rather for low-frequency updates like theme updates and authentication management.
-
-
 
 [What is Redux?](https://www.youtube.com/watch?v=np8A_aW7Pew)
 
@@ -218,15 +180,11 @@ Context API's functionality is tiny out of the box. It was not built and optimiz
 
 <https://www.toptal.com/react-native/react-redux-rxjs-tutorial>
 
-
-
 Redux Thunk - [React Redux Tutorials - 29 - Redux Thunk Get Request](https://www.youtube.com/watch?v=tcCS4mGAq7Q)
 
 Redux Saga
 
-
-
-**Redux Toolkit**
+## Redux Toolkit
 
 The official, opinionated, batteries-included toolset for efficient Redux development
 
@@ -236,11 +194,7 @@ The official, opinionated, batteries-included toolset for efficient Redux develo
 
 <https://www.freecodecamp.org/news/learn-redux-toolkit-the-recommended-way-to-use-redux
 
-
-
 Redux Toolkit allows us to write shorter logic that's easier to read, while still following the same Redux behavior and data flow.
-
-
 
 import { createSlice, configureStore } from '@reduxjs/toolkit'
 
@@ -308,17 +262,13 @@ store.dispatch(decremented())
 
 
 
-
-
-**References**
+## References
 
 <https://daveceddia.com/react-redux-immutability-guide
 
 <https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained
 
-
-
-**Others**
+## Others
 
 <https://github.com/mobxjs/mobx>
 

@@ -6,7 +6,7 @@ Modified: 2021-10-24 18:17:43 +0500
 
 ---
 
-**Two types of probability**
+## Two types of probability
 
 1.  Empirical probability
 
@@ -16,16 +16,16 @@ Something we observer in actual data
 
 More of an ideal or truth out there that we can't directly see-   Binomial distributions
 
-![P ( 48 / , 2X 卜 = 0 、 95 ) = 50 ( 矿 8 ( 1 一 0 · 呞 2 48 P(data | success rate) 一 P (success rate | data) 30 % 20 % 10 % 0 Binomial Distribution 5 10 15 20 25 30 35 40 45 = 0 6110 50 ](media/Intro-image1.png)-   Bayesian updating
+![image](media/Intro-image1.png)-   Bayesian updating
 -   Probability density functions
 -   Beta distribution
-**Laplace's rule of succession**
+## Laplace's rule of succession
 
 To any count add 1 positive and 1 negative number and calculate the new probability.
 
 Ex - Amazon reviews
 
-![1 1 1 2 9L7 % 10 0 of 10 4 5 9 2 9 2 % 48 out of 50 187 92 , 6 % 186 out of 200 202 ](media/Intro-image2.png)
+![image](media/Intro-image2.png)
 Ex - 2 defects found in a test of 100 cars. What is the probability of getting a defect? (2% ?)
 In[probability theory](https://en.wikipedia.org/wiki/Probability_theory), therule of successionis a formula introduced in the 18th century by[Pierre-Simon Laplace](https://en.wikipedia.org/wiki/Pierre-Simon_Laplace)in the course of treating the[sunrise problem](https://en.wikipedia.org/wiki/Sunrise_problem).
 The formula is still used, particularly to estimate underlying probabilities when there are few observations, or for events that have not been observed to occur at all in (finite) sample data. Assigning events a[zero probability](https://en.wikipedia.org/wiki/Zero_probability)contravenes[Cromwell's rule](https://en.wikipedia.org/wiki/Cromwell%27s_rule); such contravention can never be strictly justified in physical situations, albeit sometimes must be assumed in practice.
@@ -40,14 +40,14 @@ b.  Empirical probability
 c.  Theoratical probability
 
 d.  Conditional probability
-**Probability part 2 - Updating your beliefs with Bayes**
+## Probability part 2 - Updating your beliefs with Bayes
 -   Naive bayes filters
 
 ![](media/Intro-image3.png)
 ![](media/Intro-image4.png)-   Bayesian Statistics
 -   Simulation
 -   Law of large numbers (applies to almost any distribution as long as the distribution doesn't have an infinite variance)
-**Geometric Distributions and The Birthday Paradox**
+## Geometric Distributions and The Birthday Paradox
 
 a.  Geometric probability formula
 
@@ -57,7 +57,7 @@ c.  Cumulative geometric distribution
 [Binomial distributions | Probabilities of probabilities, part 1](https://www.youtube.com/watch?v=8idr1WZ1A7Q)
 
 [Why "probability of 0" does not mean "impossible" | Probabilities of probabilities, part 2](https://www.youtube.com/watch?v=ZA4JkHKZM50)
-**Probability Density Function**
+## Probability Density Function
 
 In[probability theory](https://en.wikipedia.org/wiki/Probability_theory), aprobability density function(PDF), ordensityof a[continuous random variable](https://en.wikipedia.org/wiki/Continuous_random_variable), is a[function](https://en.wikipedia.org/wiki/Function_(mathematics)), whose value at any given sample (or point) in the[sample space](https://en.wikipedia.org/wiki/Sample_space)(the set of possible values taken by the random variable) can be interpreted as providing arelative likelihoodthat the value of the random variable would equal that sample.
 <https://en.wikipedia.org/wiki/Probability_density_function>
@@ -72,12 +72,12 @@ In the frequentist view, probability measures the frequency with which an event 
 In the subjectivist view, probability is the value that a rational agent would assign to the likelihood of an event happening
 -   You can assign probabilities to events, even if they are not repeatable
 -   Unlike the frequentist view, rational individuals can disagree on the probability of an event occuring
-**Cumulative and Conditional Probabilities**
+## Cumulative and Conditional Probabilities
 -   When you have sequential events, the cumulative probability measures the likelihood of a specific series of outcomes. To compute cumulative probabilities, each event in the sequence has to be independent of the others in that sequence
     -   Thus you can estimate the probability that an investor will beat the market ten years in a row, even if he or she is picking stocks randomly
 -   A conditional probability measures the likelihood of an event or outcome, based upon the occurrence of a prior event or outcome
     -   For instance, you can estimate the probability that the market will be up tomorrow, given that it was up today
-**Probability Rules**
+## Probability Rules
 -   It is **bounded**: For any event X, 0 <= P(X) <= 1
 -   It **covers the universe of outcomes**: The sum of the probabilities of all possible outcomes is one
 -   The **Complement Rule** states that P(not X) = 1 - P(X)

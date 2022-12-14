@@ -12,7 +12,7 @@ Modified: 2020-12-27 15:51:16 +0500
 
 Chainingis where each item in the hash table array is a list. When an item is added to the array at an index, it's added to corresponding list.
 ![](media/Hashing-Techniques-image1.png)
-**Variants**
+## Variants
 -   Two-probe hashing
     -   Hash to two positions, insert key in shorter of the two chains
     -   Reduces expected length of the longest chain to log log N
@@ -39,10 +39,10 @@ iii. **Quadratic probing -** Quadratic probing operates by taking the original h
      -   Effectively eliminates clustering
      -   Can allow table to become nearly full
      -   More difficult to implement delete
-![工 型 qnoa 61Jlqo 」 d 0 一 一 e 」 peno 6UlqOJd 」 2 ① u コ VVVVV ](media/Hashing-Techniques-image3.png)
-**Removal**
+![image](media/Hashing-Techniques-image3.png)
+## Removal
 -   Tombstones (Can create contamination)
-**Variants**
+## Variants
 -   Coalesced Hashing
 -   Cuckoo Hashing
 -   Robin Hood Hashing
@@ -51,48 +51,48 @@ iii. **Quadratic probing -** Quadratic probing operates by taking the original h
 3.  **Coalesced Hashing**
 
 Coalesced hashing is a technique for implementing a hash table. It's an[open addressing](https://programming.guide/hash-tables-open-addressing.html) technique which means that all keys are**stored in the array itself**(e.g. it doesn't use for example linked lists to handle collisions). As opposed to other open addressing techniques however, it also uses**nodes with next-poiners**to form collision chains.
-**Example:**Coalesced hash table holding five keys in two collision chains. (Keys of the same color hash to the same bucket.)
+## Example:Coalesced hash table holding five keys in two collision chains. (Keys of the same color hash to the same bucket.)
 
 ![](media/Hashing-Techniques-image4.png)
-**Removal**
+## Removal
 -   clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-   The approach commonly used in practice is to clear the slot holding the key, and then**reinsert**all following keys in the chain.
 -   This maintains the invariants, avoids contamination and potentially even breaks apart previously coalesced chains.
-**Cellar**
+## Cellar
 
 A common optimization (so common in fact, that it is almost to be considered a part of the standard implementation) is to reserve part of the hash table array to be used only for storing colliding keys. This part is called**the cellar**.
-**Example:**A coalescing hash table array with*M* = 10and*N* = 3.
+## Example:A coalescing hash table array with*M* = 10and*N* = 3.
 
-![The addressable part: The slots to which keys can hash to. The cellar: Slots used when dealing with collisions. ](media/Hashing-Techniques-image5.png)
+![image](media/Hashing-Techniques-image5.png)
 <https://programming.guide/coalesced-hashing.html>
 4.  **Robin hood hashing**
 5.  **Cuckoo Hashing**
 
 Cuckoo Hashing is a technique for implementing a hash table. As opposed to most other hash tables, it achieves**constant time worst-case complexity for lookups**.
 Collisions are handled by evicting existing keys and moving them from one array to the other. This resembles the way a cuckoo chick[pushes out an egg from the nest](https://www.youtube.com/watch?v=SO1WccH2_YM)to make room for itself, hence the name Cuckoo Hashing.
-**Representation**
+## Representation
 
 It is implemented using**two arrays of equal size**and**two hash functions**:
-**Insertion**
+## Insertion
 
 A new element is always inserted in the first hash table. Should a collision occur, the existing element is kicked out and inserted in the second hash table. Should that in turn cause a collision, the second existing element will be kicked out and inserted in the first hash table, and so on. This continues until an empty bucket is found.
 If the number of displacements reaches a certain threshold (for instance due to a cycle among the inserted keys) rehashing takes place.
 Rehashing is a linear operation, so**worst-case complexity is*O*(*n*)**. Just as with other hashing techniques however,**the ammortized run time can be shown to be*O*(1)**.
-**Stashing**
+## Stashing
 
 There's a small probability that a cycle is formed among the first few elements inserted. This may trigger a rehash even at a low load factor. To mitigate this, a constant-sized array called the**stash**can be used.
 When a key is to be inserted, and a free bucket can't be found, the key is stored in the stash instead. The lookup algorithm is modified to search in the stash in addition to the two arrays. Rehashing is performed when a key can't be inserted and the stash is full.
 Even with a stash of just three or four cells, rehashing can be postponed significantly and allow the hash table to function with higher load factors.
-**D-Cuckoo Hashing**
+## D-Cuckoo Hashing
 
 Cuckoo hashing can be generalized to use an arbitrary but fixed number of internal hash tables.
 <https://programming.guide/cuckoo-hashing.html>
 
 ## Separate chaining vs. linear probing**
 
-**Separate chaining**
+## Separate chaining
 -   Easier to implement delete.
 -   Performance degrades gracefully.
 -   Clustering less sensitive to poorly-designed hash function.
-**Linear probing**
+## Linear probing
 -   Less wasted space.
 -   Better cache performance.

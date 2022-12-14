@@ -16,7 +16,7 @@ $db['default'] = array(
 'database' => 'database_name',
 'dbdriver' => 'mysqli',
 'dbprefix' => '',
-**'pconnect' => TRUE,**
+## 'pconnect' => TRUE,
 'db_debug' => TRUE,
 'cache_on' => FALSE,
 'cachedir' => '',
@@ -38,15 +38,11 @@ You can leave few options to their default values except hostname, username, pas
 
 By changing the key of the array$db, you can set other configuration of database as shown below. Here, we have set the key to'test'to set the database for testing environment, by keeping the other database environment as it is.
 
-
-
 $active_group = 'default'; //This will set the default environment
 
 $active_group = 'test'; //This will set the test environment
 
-
-
-**Autoload Configuration**
+## Autoload Configuration
 
 This file specifies, by default, which systems should be loaded. In order to keep the framework as light-weight as possible, only the absolute minimal resources are loaded by default. One should autoload the frequently used system, rather than loading it at local level, repeatedly. Following are the things you can load automatically −
 -   Libraries− It is a list of libraries, which should be auto loaded. Provide a list of libraries in an array as shown below to be autoloaded by CodeIgniter. In this example, we are auto loading database, email and session libraries.
@@ -66,12 +62,8 @@ $autoload['config'] = array('config1', 'config2');
 
 $autoload['model'] = array('first_model', 'second_model');
 
-
-
 <https://www.tutorialspoint.com/codeigniter/codeigniter_configuration.htm>
 
-
-
-**Error Handlings**
+## Error Handlings
 
 <https://www.tutorialspoint.com/codeigniter/codeigniter_error_handling.htm>

@@ -8,9 +8,7 @@ Modified: 2020-10-17 10:44:39 +0500
 -   We will discuss the design and insight of key-value/NoSQL stores for today's cloud storage systems.
 -   We will also discuss Apache Cassandra and different consistency solutions
 
-
-
-**The Key-Value Abstration**
+## The Key-Value Abstration
 -   (Business) Key -> Value
 -   (flipkart.com) item number -> information about it
 -   (easemytrip.com) Flight number -> information about flight, e.g., availability
@@ -25,9 +23,7 @@ Modified: 2020-10-17 10:44:39 +0500
 -   Seems familiar? Remember **Distributed Hash Tables (DHT) in P2P systems**
 -   Key-value stores reuse many techniques from DHTs
 
-
-
-**Is it a kind of database?**
+## Is it a kind of database?
 -   RDMSs have been around for ages
 -   MySQL is the most popular among them
 -   Data stored in tables
@@ -36,22 +32,16 @@ Modified: 2020-10-17 10:44:39 +0500
 -   Queried using **SQL (Structured Query Language)**
 -   Supports joins
 
+![image](media/Big-Data_Design-of-Key-Value-Stores-image1.png)
 
-
-![Relational Database Example users table u r id name 110 331 767 Primary keys Smith Antony John zi ode 9876 5 1 5676 blog_url smith.com an ony.in J hn.n blog_id 11 12 13 Foreign keys blog table url st_updated Id Il 13 12 smith.com •ohn.ne antony.in 9/7/17 4/2/18 15/6/16 num osts 991 10 Big Data Computing Example SQL queries 1. SELECT zipcode FROM users WHERE name = "John" SELECT uri FROM blown WHERE id = 11 3. SELECT users.zipcode, blog.num_posts FROM users JOIN blog ON users.blog_url = blo Design of Key-Value Stores ](media/Big-Data_Design-of-Key-Value-Stores-image1.png)
-
-
-
-**Mismatch with today's workloads**
+## Mismatch with today's workloads
 -   **Data: Large and unstructured:** Difficult to come out with schemas where the data can fit
 -   **Lots of random reads and writes:** Coming from millions of clients
 -   **Sometimes write-heavy:** Lot more writes compare to read
 -   **Foreign keys rarely needed**
 -   **Joins infrequent**
 
-
-
-**Needs of Today's Workloads**
+## Needs of Today's Workloads
 -   Speed (Lightning fast writes)
 -   Avoid Single Point of Failuer (SPoF) (Fault tolerant)
 -   **Low TCO (Total cost of operation and Total cost of ownership)**
@@ -60,9 +50,7 @@ Modified: 2020-10-17 10:44:39 +0500
     -   Adding more nodes adds linear capabilities
 -   Scale out, not scale up
 
-
-
-**Key-value / NoSQL Data Model**
+## Key-value / NoSQL Data Model
 -   NoSQL = Not Only SQL
 -   Necessaary API operations: get(key) and put(key, value)
     -   And some extended operations, e.g., "CQL" in Cassandra key-value store
@@ -74,13 +62,9 @@ Modified: 2020-10-17 10:44:39 +0500
     -   Don't always support joins or have foreign keys
     -   Can have index tables, just like RDBMSs
 
+![image](media/Big-Data_Design-of-Key-Value-Stores-image2.png)
 
-
-![Key-value/NoSQL Data Model Va ue • Unstru tured No schema imposed • Columns missing from some Rows • No foreign eys, joins måy not be supported Big Data Computing users table user id name 110 331 767 Id Il 13 12 Smith Antony blog table rl smith. zipcode 98765 75676 blog_url smith.com antony.in Value last_updated 9/7/17 num_posts 991 57 john.net 15/6/16 antony.in Design of Key-Value Stores ](media/Big-Data_Design-of-Key-Value-Stores-image2.png)
-
-
-
-**Column-Oriented Storage**
+## Column-Oriented Storage
 
 NoSQL systems often use column-oriented storage
 -   RDMSs store an entire row together (on disk or at a server)
@@ -92,9 +76,7 @@ NoSQL systems often use column-oriented storage
         -   Search in the last_updated column, fetch corresponding blog_id column
         -   Don't need to fetch the other columns
 
-
-
-**See Also**
+## See Also
 -   Computer Science > Databases > Casandra > Design
 
 

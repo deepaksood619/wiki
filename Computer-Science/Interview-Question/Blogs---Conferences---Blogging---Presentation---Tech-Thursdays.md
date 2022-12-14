@@ -6,7 +6,7 @@ Modified: 2022-09-16 00:32:48 +0500
 
 ---
 
-**Startup onboarding series**
+## Startup onboarding series
 
 1.  Setting up laptop (mac)
 
@@ -41,7 +41,7 @@ Question-Based vs Statement-Based Headline
 Problem based vs Solution based Headline
 
 Curious vs Non-curious headlines
-**Series**
+## Series
 
 1.  Docker
 
@@ -72,7 +72,7 @@ Curious vs Non-curious headlines
 8.  API Gateway
 
     a.  Kong9.  **Deploy everything**
-**Brokers**
+## Brokers
 
 1.  EMQX
 
@@ -88,7 +88,7 @@ Curious vs Non-curious headlines
 GraphQL
 How I Learned Series
 Level up - As a Developer, series
-**Conferences**
+## Conferences
 
 1.  How to be a detective in Kubernetes (Debugging in kubernetes)
 
@@ -103,13 +103,13 @@ Level up - As a Developer, series
 
 ## Projects**
 -   Monte carlo simulation for dice roll with one dice and two dice
-**Presentations**
+## Presentations
 
 <https://www.slideshare.net/billkarwin/extensible-data-modeling>
 
 ## Tech Thursdays**
 
-**Icebreakers**
+## Icebreakers
 -   Typing Games (TypingCat, TypeRacer)
 -   GitGames
 -   **Hackathon / Coding**
@@ -149,7 +149,7 @@ Level up - As a Developer, series
 
 <https://use-the-index-luke.com/3-minute-test/mysql>
 Terraria
-**Assessments**
+## Assessments
 
 <https://www.bigshyft.com/assessments/rd9pl>
 

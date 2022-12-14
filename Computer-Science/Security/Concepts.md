@@ -6,7 +6,7 @@ Modified: 2022-04-03 19:33:20 +0500
 
 ---
 
-**Security Services**
+## Security Services
 
 1.  Data confidentiality
 
@@ -18,7 +18,7 @@ Modified: 2022-04-03 19:33:20 +0500
 
 5.  Access Control
 Alice, Bob and Trudy (Adversary)
-**Managing Passwords and Application Secrets: Common Anti-Patterns**
+## Managing Passwords and Application Secrets: Common Anti-Patterns
 
 1.  The Shared Password
 
@@ -85,22 +85,22 @@ RAC method is largely context based. Example of this would be only allowing stud
 
 Information is accessed based on the responsibilities assigned to an actor or a business role
 <https://en.wikipedia.org/wiki/Access_control>
-![A CRYPTO NERD'S HIS LAPTOPS ENCRYPTED. LETS NIL.D A MIUOJ-DOUAR CWSTER To CRACK IT. NO GOODI tT's -BIT RSA! OCR EVIL WHAT ACTVALLY HAPPEN: Hts LAPrOPS ENCRYPrzD. Hin AND HIT Hin WITH $5 WRENCH HE TELLS VS THZ PA$..ORD. ](media/Concepts-image1.png)
-**Entity vs Identity**
+![image](media/Concepts-image1.png)
+## Entity vs Identity
 
 Entity is a**thing**that exists as an**individual unit**while identity is a**set of attributes that can be used to distinguish the entity within a context**.
 Let's assume we know Mike. He is a young man who lives in Poland. He is working as a software engineer for one of the local IT startups.**Mike is the entity.He has many identities**i.e. he can be defined as a young polish man in one context and as a promising software engineer in another. Other people may perceive Mike (entity) using different subsets of his attributes (identities).
 In the software world, your backend could be described as an entity. It's thething. Your UI application perceives it as a URL and a certificate (one identity). Your database, on the other hand, sees it as a different identity -- a set of credentials that grants access to the database.
-**Authentication vs Authorization (AuthN vs AuthZ)**
+## Authentication vs Authorization (AuthN vs AuthZ)
 
-**Authentication**is the process of ascertaining that somebody really is who he claims to be.In practical terms, it's the process of verifying username and password (login).
+## Authenticationis the process of ascertaining that somebody really is who he claims to be.In practical terms, it's the process of verifying username and password (login).
 Authentication is a form of confirming the identity of the entity.
-**Authorization**refers to rules that determine who is allowed to do what. E.g. Adam may be authorized to create and delete databases, while Usama is only authorized to read.
+## Authorizationrefers to rules that determine who is allowed to do what. E.g. Adam may be authorized to create and delete databases, while Usama is only authorized to read.
 Authorization is a process of verifying if a given entity can access or perform actions on a given resource
-**AAA (Authentication, Authorization and Audit)**
+## AAA (Authentication, Authorization and Audit)
 
-**AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication),[Authorization](https://en.wikipedia.org/wiki/Authorization)and[Accounting](https://en.wikipedia.org/wiki/Accounting)**. It is used to refer to a family of protocols that mediate network access.
-**Auditing**
+## AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication),[Authorization](https://en.wikipedia.org/wiki/Authorization)and[Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access.
+## Auditing
 -   What happened?
 -   When it happened?
 -   Who initiated it?
@@ -110,7 +110,7 @@ Authorization is a process of verifying if a given entity can access or perform 
 -   To where was it going?
 <https://en.wikipedia.org/wiki/AAA_(computer_security)>
 y
-**Certificate Authority**
+## Certificate Authority
 
 CA - Trusted entity that if the public key is from the correct target.
 
@@ -158,7 +158,7 @@ Server Name Indication (SNI) is an extension to the TLS protocol by which a clie
 ## What is ESNI (Encrypted Server Name Indication)?**
 
 Encrypted Server Name Indication (ESNI) is an extension to TLS 1.3 which prevents eavesdroppers from knowing the domain name of the website network users are connecting to. When combined with encrypted DNS, it is not possible to know which websites a user is visiting.
-**Security Certificates**
+## Security Certificates
 
 1.  .csr (Certificate Signing Request)
 
@@ -192,16 +192,16 @@ Cloud IAM typically includes the following features:
 
 ## Privacy**
 
-**Privacy is not for the passive. -- Jeffrey Rosen**
+## Privacy is not for the passive. -- Jeffrey Rosen
 Privacy-enhancing technologies (PETs)
 The problem of matching records using an identifier while preserving privacy has been well studied as a class of algorithms called private set intersection.
 <https://engineering.fb.com/open-source/private-matching>
 Secret Introduction Problem
-**Differential Privacy**
+## Differential Privacy
 
 Differential privacy aims to maximize the accuracy of queries from statistical databases while minimizing the chances of identifying its records - it adds noise and provides guarantees against a "privacy budget"
-![OPINIONS ON INIERNET PRIVACY PHILOSOPHER: *RIVAC€• IYPRACTGL ABOUT IN IN UHCH WR SOCI- THE NIHILIST: sacs ON Ti-Ü1, GAT-ERING ALL IHS ON ME AS IF TAE CRYPTO NOT: MY IS BERND I-AYERS OFSfrt•ETRC R-ßuc-•ÆY PE?LE 0 D(HlßlTiONff•. 15.)æ POPE TAE NSA ME BITE INTO TEE STABERRJES!! r DRPPED sa-E SHRT! BETTER TAKE GOOGLE, T{IS IDIiON FEELS somo cu. 01SPR9CtST•. TEE LEAKS JUST IHETP OF ICECRG. TERES A WAREHWSE IN UTAH THE HE T-IE EM77RE ICEÆRG I mgr KNOW THERE. SPGE: 1 KNOU RCARE UI-BT DATA IS IS REAL. ](media/Concepts-image2.jpeg)
-**Clients**
+![image](media/Concepts-image2.jpeg)
+## Clients
 -   Confidential Client
     -   Applications running on the server
 -   Public Client

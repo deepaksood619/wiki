@@ -8,9 +8,7 @@ Modified: 2019-12-22 16:09:25 +0500
 
 Jshell for java REPL (Read-Eval-Print Loop, interactive toplevel or language shell)
 
-
-
-**Generics**
+## Generics
 
 1.  Avoid casting in client.
 
@@ -24,9 +22,7 @@ s.push(17) // s.push(new Integer(17));
 
 int a = s.pop() // int a = s.pop().intValue();
 
-
-
-**Iterators**
+## Iterators
 
 Iterable Interface
 
@@ -38,9 +34,7 @@ What is Iterator?
 
 Class that has methods hasNext() and next() (also remove(), but not used)
 
-
-
-**Comparator Interface -**
+## Comparator Interface -
 
 Supports multiple orderings of a given data type.
 
@@ -50,23 +44,19 @@ Decouples the definition of the data type from the definition of what it means t
     -   Pass as second argument to Arrays.sort()
     -   Bottom line - Decouples the definition of the data type from the definition of what it means to compare two objects of that type.
 
+## String vs StringBuilder
 
+![image](media/Others-image1.png)
 
-**String vs StringBuilder**
+![image](media/Others-image2.png)
 
-![The char data type C char data type. Typically an 8-bit integer. • Supports 7-bit ASCII. • Can represent only 256 characters. 0123456789 ABCDEF 0 NUL SOH srx EOT ENQ ACK BEL BS HT CR SO Sl VT FF 1 U+0041 6 Hexadecimal to ASCII conversion table U+OO Unil ](media/Others-image1.png)
+![image](media/Others-image3.png)
 
-![The String data type String data type in Java. Sequence of characters (immutable Length. Number of characters. Indexing. Get the ith character. Substring extraction. String concatenation. o Get a contiguous subsequence of chal Append one character to end of anotl 1 s. charAt(3) 5 K 6 7 T 8 D 9 A 10 w s. length 11 12 N ](media/Others-image2.png)
+![image](media/Others-image4.png)
 
-![The String data type: Java implementation public final class String impl ements Comparabl e<Stri private char C] value; private int offset; private int length; private int hash; public int length() { return length; } public char charAt(int i) characters index of fi rst char in array length of string cache of hashCode() length val ue [ ] x o x 1 2 offset 3 4 5 { return value[i + offset] ; String(int offset, int length, pri vate this. offset = offset; this. length = length; char C] val ue) ](media/Others-image3.png)
+![image](media/Others-image5.png)
 
-![The String data type: performance String data type (in Java). Sequence of characters (immutab Underlying implementation. Immutable char[] array, offset, Stri ng guarantee extra space operation 1 ength() charAt() substri ng C) concat() ](media/Others-image4.png)
-
-![The StringBuiIder data type StringBuiIder data type. Sequence of characters (mutable). Underlying implementation. Resizing char[] array and lengt Stri ng guarantee extra space Stri ngBui1der guarantee extra spa operation 1 ength() charAt() substri ng C) concat() ](media/Others-image5.png)
-
-![String vs. StringBuiIder Q. How to efficiently reverse a string? A. B. public static String reverse(String s) String rev = for (int i s. length C) rev += s. charAt(i); return rev; public static String reverse(String s) StringBui1der rev = new StringBui1der(); ](media/Others-image6.png)
-
-
+![image](media/Others-image6.png)
 
 Java
 
@@ -97,8 +87,6 @@ Indirect Dependencies
 Compile-Time Dependencies
 
 Run-Time Dependency
-
-
 
 
 

@@ -8,15 +8,9 @@ Modified: 2021-10-27 22:06:14 +0500
 
 Youtube - Athlean X
 
-
-
-![Thin belly Thin hips Exercise knee Thin waist Thin thigh root Hip lift Skinny legs Thin thighs Exercise knee ](media/Exercise---Stretching_Home-Exercise-Routine-image1.jpg)
-
-
+![image](media/Exercise---Stretching_Home-Exercise-Routine-image1.jpg)
 
 <https://in.pinterest.com/pin/thin-body-workout--801077852487590084
-
-
 
 1.  Shoulder rolls - from back, start small movements to large movements
 
@@ -37,8 +31,6 @@ Youtube - Athlean X
 5.  Knee lifts
 
 ![(`츻냐 ](media/Exercise---Stretching_Home-Exercise-Routine-image6.png)
-
-
 
 6.  Surya Namaskar - 3 rounds
 
@@ -72,21 +64,13 @@ Youtube - Athlean X
 
 21. Side plank leg pull right/left
 
-
-
-**Youtube**
+## Youtube
 
 <https://www.youtube.com/watch?v=UBMk30rjy0o&ab_channel=PamelaReif>
 
 [20 Minute Heart-Pumping Cardio Workout - No Equipment With Warm-Up & Cool-Down | SELF](http://youtube.com/watch?v=vncKnAPhgtg&ab_channel=SELF)
 
-
-
 ![COD ](media/Exercise---Stretching_Home-Exercise-Routine-image7.jpg)
-
-
-
-
 
 
 

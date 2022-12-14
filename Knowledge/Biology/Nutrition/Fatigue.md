@@ -28,8 +28,6 @@ Modified: 2021-09-01 21:44:41 +0500
 
 7.  Polymyositis
 
-
-
 Solution
 
 1.  Walk
@@ -44,9 +42,7 @@ Solution
 
 6.  Hot water shower
 
-
-
-**Boosting Your Energy - Harvard Health**
+## Boosting Your Energy - Harvard Health
 
 1.  Motivation can be a powerful force in overcoming fatigue
 
@@ -56,9 +52,7 @@ Solution
 
     b.  Central (or brain) fatigue
 
-
-
-**7 Steps to Improved Energy**
+## 7 Steps to Improved Energy
 
 1.  Set goals
 
@@ -74,10 +68,6 @@ Solution
 
 7.  Connect with nature
 
-
-
 <https://www.healthline.com/health/body-aches>
-
-
 
 It is not ageing that causes a decline in fitness; rather, that a decline in fitness causes ageing.

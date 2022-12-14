@@ -14,9 +14,7 @@ You will occasionally get burned and mistreated by always assuming the best in o
 
 Never tell people that they are moron
 
-
-
-**Ernest Hemingway**
+## Ernest Hemingway
 
 Before you talk, listen.
 
@@ -30,23 +28,15 @@ Before you pray, forgive.
 
 Before you quit, try.
 
-
-
 [Building a Life - Howard H. Stevenson](https://youtu.be/wLn28DrSF68)
 -   What makes you happy
 -   What you want to achieve
 
-
-
-**Relationship Quotes**
+## Relationship Quotes
 
 Marrying well makes everything easier.
 
-
-
 It's okay to dislike someone, or even dislike someone for no reason. But it's not okay to disrespect, degrade, and humiliate that person
-
-
 
 Find a partner who is ready to build with you.
 
@@ -54,23 +44,15 @@ It is not about finding perfection in another person, it is about realizing when
 
 When two people embrace their imperfections and commit to growing into better versions of themselves, it will naturally enhance the happiness they share in the relationship.
 
-
-
 Double down on your best relationship.
 
 It's the investment with the highest return.
 
-
-
 it's easier to destroy a relationship than build one.
-
-
 
 The secret to feeling great about yourself is not to be found in searching for people who are less than you and then show yourself superior to them, but in searching for people who are more than you and then show yourself worthy of their company.
 
-
-
-![Οοογ ΜΟΝΕΥ MlND Ι.-ονε ΡΙ ΑΥ ](media/Life---Relationship---People-image1.png)
+![image](media/Life---Relationship---People-image1.png)
 
 1.  **Body:**The condition of your body, including your diet, stamina, strength, and recovery.
 
@@ -84,13 +66,9 @@ The secret to feeling great about yourself is not to be found in searching for p
 
 6.  **Play:**How well you're able to entertain yourself.
 
-
-
 <https://dariusforoux.com/six-spokes-theory
 
-
-
-**Date nights (Questions to wife) - Blinkist - Eight Dates by John Gottman**
+## Date nights (Questions to wife) - Blinkist - Eight Dates by John Gottman
 
 1.  Trust and commitment
 
@@ -110,77 +88,43 @@ The secret to feeling great about yourself is not to be found in searching for p
 
 9.  Actionable Advice - Be present and attentive when talking to your partner
 
-
-
 Don't tell your whole life on the 1st date night
-
-
 
 "A good marriage is one in which each spouse secretly thinks he or she got the better deal, and this is true also of our friendships."
 
-
-
 What most people call love today is little more than a mutual benefit scheme. Love is an unconditional sweetness of emotion. -- Sadhguru
-
-
 
 What you need to make your marriage successful is not the perfect person. What you need is absolute integrity. -- Sadhguru
 
-
-
 The idea of marriage is to multiply the joy. Multiplying misery is a crime against Humanity. -- Sadhguru
-
-
 
 If one spouse commutes longer than 45 minutes, that couple is 40% more likely to get divorced
 
-
-
 There is really no such thing as conditional love and unconditional love -- there are conditions, and there is love. -- Sadhguru
-
-
 
 Love is not a noun, but a verb. It's a thing you do.
 
-
-
 Always give value before you ask for value.
 
-
-
 Not taking things personally is a superpower.
-
-
 
 EntrepreneurCindy Gallopon how to build a successful business:
 
 "There is a formula for success in business, and it goes like this: You set out to find the very best talent in the marketplace, and then give them a compelling and inspirational vision of what you want them to achieve for you and the company. Then you empower them to achieve those goals using their own skills and talents in any way they choose. If, at the same time, you demonstrate how enormously you value them, not just through compensation, but also verbally, every single day, and if you enable that talent to share in the profit that they help create for you, you'll be successful. It's so simple, and virtually nobody does it, because it requires a high-trust working environment, and most business environments are low-trust. In order to own the future of your business, you have to design it around trust."
 
-
-
 The less rigid your personality, the more powerful your presence. -- Sadhguru
-
-
 
 Having expectations of others means you are trying to fix their lives. Fix your own life -- that is freedom. -- Sadhguru
 
-
-
 Love is not about somebody. Love is not some kind of act. Love is the way you are.
-
-
 
 I want to live in a world where friends feel **ok** to drop by each other's home unannounced
 
-
-
-**Facts**
+## Facts
 
 15 percent of pregnancies end in miscarriage
 
-
-
-**7 secrets to a healthy relationship**
+## 7 secrets to a healthy relationship
 
 1.  Appreciate your partner's efforts
 
@@ -198,15 +142,11 @@ If you want your relationship to work, constantly remind yourself that the other
 
 7.  Avoid blame game
 
-
-
-**Gottman Ratio - 5 to 1 (can be used for habits also, for every one slip, do right 5/4 times)**
+## Gottman Ratio - 5 to 1 (can be used for habits also, for every one slip, do right 5/4 times)
 
 This means that for every one negative feeling or interaction between partners, there must be five positive feelings or interactions. Stable and happy couples share more positive feelings and actions than negative ones. Unhappy couples tend to have more negative feelings and actions than positive ones. Partners who criticize each other, provide constant negative feedback, aren't supportive of each other, don't demonstrate affection or appreciation, or behave uninterested in their partner are in relationships that are out of balance.
 
-
-
-**The 5 love languages**
+## The 5 love languages
 
 1.  Positive, uplifting words of affirmation
 
@@ -230,9 +170,7 @@ This means that for every one negative feeling or interaction between partners, 
 
 6.  Greatest gift - Helping your partner through hard times (simply standing by your partner during rough periods)
 
-
-
-**How to be an adult in relationships by David Richo**
+## How to be an adult in relationships by David Richo
 -   The emotional support we seek when we're young can be broken down into what the author callsthe five A's. They are attention, acceptance, appreciation, affection, and allowing others to be who they are.
     -   First up,attention. In relationships, being attentive to our partners means listening to their thoughts and emotions. Often, this involves being what the author calls a "mindful witness." Our loved ones may have suffered abuse, betrayals, or hurts in the past and, as their partners, it's our job to listen to their stories respectfully.
     -   Second, there isacceptance-- of ourselves and others. Mutual acceptance is the bedrock of a healthy relationship. When we find someone who loves us -- with all our feelings and emotional burdens -- we feel liberated. We don't have to hide behind a mask because our partner loves us for all that we are.
@@ -252,30 +190,22 @@ This means that for every one negative feeling or interaction between partners, 
     -   Next up, act as if you have no fear. For example, if you fear abandonment, try to get comfortable being away from your partner for one minute more each day. And, if you fear engulfment, try to stay away from your partner for one minute less.
 -   Loving one person teaches us how to love the rest of the world.
 
+## Friendship
 
+![image](media/Life---Relationship---People-image2.jpeg)
 
-**Friendship**
-
-![Does This Friendship Make Sense Graph The And a sample distribution of where a typical person's friends might fall HIGH FRIENDSHIP ENJOYABILITY - Comfortable and natural _ Fun - Stimulating - Laughy - Passes the 'Traffic Test' LOW FRIENDSHIP ENJOYABILITY - Awkward and forced - Fake - Boring - Feels like a chore - Sustaining force: inertia or obligation O o O Q3: Enjoyable but Not Healthy PROBLEMATIC Q4: Not Healthy, Not Enjoyable COME ON QI : Healthy and Enjoyable IDEAL Q2: Healthy but Not Enjoyable PROBLEMATIC How Healthy the Friendship is LOW FRIENDSHIP HEALTH - Negative vibe - Disdain - Envy - Lust is part of the equation - Unrequited love is involved - Lopsided power dynamic - Secretly rooting against each other - More enemy than friend - Generally toxic HIGH FRIENDSHIP HEALTH - Love is the core emotion - Positive vibe - Lots of trust - Equal power dynamic - Equal priority - Supportive - Genuinely rooting for each other ](media/Life---Relationship---People-image2.jpeg)
-
-
-
-**Tips**
+## Tips
 -   Always make the first move
 -   In marriages, there are divergent expectations. The woman expects the man to change. The man expects the woman to never change.
 -   Early concepts of intimacy: Young humans use saliva sharing to infer close relationships - <https://www.science.org/doi/10.1126/science.abh1054>
 
-
-
-**Party / Host / Hosting / Ceremony / Anchor / Commentator**
+## Party / Host / Hosting / Ceremony / Anchor / Commentator
 
 MC is short for **Master of Ceremonies** and may often be written as **emcee**. An MC can be an important part of a birthday party, acting as a host to allow the birthday boy or girl to enjoy the party along with guests. Although the party atmosphere will provide a good time, the MC ideally remains focused on the multifaceted responsibilities the job demands.
 -   Annoucements
 -   Music selection
 -   Setting the tone
 -   Setting the place
-
-
 
 <https://pdfslide.net/documents/emcee-academic-debate-script.html>
 
@@ -299,15 +229,11 @@ MC is short for **Master of Ceremonies** and may often be written as **emcee**. 
 
 
 
-
-
-**Techniques for preparing for stressed events beforehand**
+## Techniques for preparing for stressed events beforehand
 -   Prospective Hindsight
 -   Pre-mortem
 
-
-
-**Pregnancy / Birth Plan**
+## Pregnancy / Birth Plan
 
 <https://www.youtube.com/watch?v=F_ssj7-8rYg>
 
@@ -315,9 +241,7 @@ MC is short for **Master of Ceremonies** and may often be written as **emcee**. 
 
 Pregnency daily time lapseNeha pregnency daily time lapse
 
-
-
-**Parenting / children**
+## Parenting / children
 -   **Homeschooling / Home School / Homeschool**
     -   Khan academy
     -   <https://primer.com
@@ -343,8 +267,6 @@ Pregnency daily time lapseNeha pregnency daily time lapse
     -   [Lördagsgodis: Sweden's delicious Saturday tradition that prevents decay - BBC Reel](https://youtu.be/BQCbJOwA51k)
 -   [Japan's ancient secret to better cognitive memory - BBC REEL](https://youtu.be/s6OmqXCsYt8)
 
-
-
 [How touch can make or break your relationship - BBC REEL](https://youtu.be/FN7Buz0CMfI)
 
 Attachment theory
@@ -355,30 +277,22 @@ Attachment theory
 
 3.  Avoidant
 
-
-
-**Things that shouldn't be teached to children**
+## Things that shouldn't be teached to children
 -   Religion
 -   Astrology
 -   No superstiotious beliefs (like spirits and all)
 -   No god (only power)
 -   No racism
 
-
-
-**Books**
+## Books
 -   The Conscious Parent by Dr. Shefali Tsabary
 -   Youtube - Seeker baby
 
-
-
-**Schooling**
+## Schooling
 
 Schooling isn't just about education, it is also a form a childcare
 
-
-
-**13 Things Mentally Strong Parents Don't Do**
+## 13 Things Mentally Strong Parents Don't Do
 -   Promote responsibility and perseverance over a victim mentality
 -   Don't parent with a strategy of avoidance. Instead, teach you kids healthy ways to deal with guilt and fear
 -   Set strong boundaries so your child doesn't think the world revolves around her or that she holds power over you
@@ -397,8 +311,6 @@ Schooling isn't just about education, it is also a form a childcare
         -   He would not have thought of white bear
         -   Changing your behavior can change his thoughts
 
-
-
 [Molly Wright: How every child can thrive by five | TED](https://www.youtube.com/watch?v=aISXCw0Pi94&ab_channel=TED)
 
 [Why School Is Bad For You](https://www.youtube.com/watch?v=M4u6oOQ77mg)
@@ -408,9 +320,7 @@ Schooling isn't just about education, it is also a form a childcare
 [How to Raise Successful Kids -- Without Over-Parenting | Julie Lythcott-Haims | TED](https://www.youtube.com/watch?v=CyElHdaqkjo)
 -   Checklist
 
-
-
-**Boundaries**
+## Boundaries
 
 You have a boundary issue if...
 -   you feel like people take advantage of you or use your emotions for their own gain.
@@ -420,13 +330,9 @@ You have a boundary issue if...
 -   you tell people how much you hate drama but seem to always be stuck in the middle of it.
 -   you spend a lot of time defending yourself for things you believe aren't your fault
 
-
-
 <https://deepstash.com/article/3412/the-guide-to-strong-boundaries>
 
-
-
-**The Courage to be Happy by Ichiro Kishimi**
+## The Courage to be Happy by Ichiro Kishimi
 -   The purpose of education is to teach self-reliance
 -   Respect is seeing another person for who they are
     -   Give children respect, so they respect you
@@ -447,33 +353,19 @@ You have a boundary issue if...
     -   Don't say, "You are kind for sharing", instead say,
     -   When you shared your toy with Neha, you made her feel very happy
 
-
-
 Trust does not mean that others have to do things the way you expect them to. Trust means to become vulnerable.
-
-
 
 Trust involves vulnerability, which involves risk. So **Dispositional Trust,** is tied to an idea called **Risk Aversion**, or how much you avoid risks.
 
-
-
 "Friends are better than money. Almost anything money can do, friends can do better. In so many ways a friend with a boat is better than owning a boat."
 
-
-
-![pr04ec4 yoq from be-tn3 exploi4ed HIGH yow rela4•tonskips RISK AVERSION open qp more yoq can 04 LOW ](media/Life---Relationship---People-image3.png)
-
-
+![image](media/Life---Relationship---People-image3.png)
 
 Cognitive trust can be earned by Competence, Intent and Integrity.
 
-
-
 <https://ideas.ted.com/there-are-three-sides-to-every-argument
 
-
-
-**Types of people**
+## Types of people
 
 1.  Maker
 
@@ -495,9 +387,7 @@ Cognitive trust can be earned by Competence, Intent and Integrity.
 
 10. Nurturer
 
-
-
-**Talking**
+## Talking
 
 F - Family
 
@@ -507,69 +397,47 @@ R - Recreational
 
 D - Dreams
 
-
-
 First question must be directed towards the Heart.
 
 Ex - What's the best moment you remember with your father
 
 Start with I'm curious
 
-
-
 Daily talk about (rose, thorn, bud excercise)
 -   rose - best part of your day
 -   thorn - worst part of your day
 -   bud - something in your day that gave you hope
 
-
-
-**Meaning of life**
+## Meaning of life
 -   Belonging
 -   Purpose
 -   Transcendence
 -   Story Telling - How you tell story about yourself, Change your story to change your life
 
+## HEAR (Halt, Empathy, Anticipate, Review)
 
-
-**HEAR (Halt, Empathy, Anticipate, Review)**
-
-
-
-**Pleasure**
+## Pleasure
 
 Extrinsic Pleasure (do work that leads to pleasure)
 
 Intrinsic Pleasure (happiness while doing that work)
-
-
 
 Abstain from short term pleasure
 -   Meditation
 -   Deep Work
 -   Not To Do List
 
-
-
-**Transcendental Meditation**
+## Transcendental Meditation
 
 Transcendental Meditation(TM) refers to a specific form of silent,[mantra](https://en.wikipedia.org/wiki/Mantra)[meditation](https://en.wikipedia.org/wiki/Meditation)and to the organizations that constitute the[Transcendental Meditation movement](https://en.wikipedia.org/wiki/Transcendental_Meditation_movement).[Maharishi Mahesh Yogi](https://en.wikipedia.org/wiki/Maharishi_Mahesh_Yogi)created and introduced the TM technique and TM movement in[India](https://en.wikipedia.org/wiki/India)in the mid-1950s.
 
-
-
 The TM technique involves the use of a silently-used sound called a mantra, and is practiced for 15--20 minutes twice per day. It is taught by certified teachers through a standard course of instruction, which costs a fee that varies by country. According to the Transcendental Meditation movement, it is a non-religious method for relaxation,[stress](https://en.wikipedia.org/wiki/Stress_(biology))reduction, and self-development. The technique has been seen as both religiousand non-religious;[sociologists](https://en.wikipedia.org/wiki/Sociologist), scholars, and a[New Jersey](https://en.wikipedia.org/wiki/New_Jersey)judge and court are among those who have expressed views on it being religious or non-religious.The United States Court of Appeals upheld the federal ruling that TM was essentially "religious in nature" and therefore could not be taught in public schools.
-
-
 
 High-quality studies that demonstrate positive health outcomes that can be attributed to the specific practice of TM as compared to other forms of stress reduction do not exist.
 
-
-
 <https://en.wikipedia.org/wiki/Transcendental_Meditation>
 
-
-
-**Healthy social interactions**
+## Healthy social interactions
 
 1.  Tolerating frustration
 
@@ -581,37 +449,25 @@ High-quality studies that demonstrate positive health outcomes that can be attri
 
 5.  Engaged observation
 
-
-
-**Implicit Association Test (IAT)**
+## Implicit Association Test (IAT)
 
 The**implicit-association test(IAT)** is a[measure](https://en.wikipedia.org/wiki/Measurement)within[social psychology](https://en.wikipedia.org/wiki/Social_psychology)designed to detect the strength of a person's subconscious association between mental representations of objects ([concepts](https://en.wikipedia.org/wiki/Concept)) in [memory](https://en.wikipedia.org/wiki/Memory). It is commonly applied to assess[implicit stereotypes](https://en.wikipedia.org/wiki/Implicit_stereotype)held by test subjects, such as unconsciously associating stereotypically black names with words consistent with black stereotypes. The test's format is highly versatile, and has been used to investigate biases in racial groups, gender, sexuality, age, and religion, as well as assessing self-esteem.
 
-
-
 The IAT was introduced in the scientific literature in 1998 by[Anthony Greenwald](https://en.wikipedia.org/wiki/Anthony_Greenwald), Debbie McGhee, and Jordan Schwartz.The IAT is now widely used in social psychology research and, to some extent, in[clinical](https://en.wikipedia.org/wiki/Clinical_psychology),[cognitive](https://en.wikipedia.org/wiki/Cognitive_psychology), and[developmental psychology](https://en.wikipedia.org/wiki/Developmental_psychology)research. The IAT is the subject of much controversy regarding validity, reliability, and whether test results are an accurate representation of[implicit bias](https://en.wikipedia.org/wiki/Implicit_bias).
-
-
 
 <https://en.wikipedia.org/wiki/Implicit-association_test>
 
-
-
-**Ethnography - Study of people and culture**
+## Ethnography - Study of people and culture
 
 in-depth observation of how people behave and interact with their surroundings
 
-
-
-**Worst idea of psychology - Mind is a blank slated birth**
+## Worst idea of psychology - Mind is a blank slated birth
 
 Developmental psychology has shown that kids come into the world, already knowing so much about the physical and social world and programmed in such a way as to make it easy to learn certain things and hard to learn others
 
+## Inateness
 
-
-**Inateness**
-
-![Il) The "first draft" of the moral mind "The initial organization of the brain does not rely that much on experience... Nature provides a first draft, which experience then revises... 'Built-in ' does not mean unma//eab/e; it means orqanized in advance of experience." (Marcus, 2004) ](media/Life---Relationship---People-image4.png)
+![image](media/Life---Relationship---People-image4.png)
 
 1.  **Harm/care**
 
@@ -623,23 +479,17 @@ Developmental psychology has shown that kids come into the world, already knowin
 
 5.  **Purity/sanctity**
 
-6.  ![Cooperation decays without punishment without punishment with punishnent Fehr& Natut 8 9 10 11 12 ](media/Life---Relationship---People-image5.png)
-
-
+6.  ![image](media/Life---Relationship---People-image5.png)
 
 <https://www.youtube.com/watch?v=8SOQduoLgRw>
 
-
-
-**Blinkist - Didn't see it coming by Carey Nieuwhof**
+## Blinkist - Didn't see it coming by Carey Nieuwhof
 
 Overcoming the 7 greatest challenges that no one expects and everyone experiences
 
 1.  Cynicism
 
 [Jamil Zaki: How to escape the cynicism trap | TED](https://youtu.be/ABHdTi1If0c)
-
-
 
 2.  Compromise
 
@@ -655,13 +505,11 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
 
 <https://www.lennysnewsletter.com/p/how-to-know-when-to-stop>
 
-![Bills Managing People o Death of Parents Chores & Mundane Tasks Years Kids More Work Major Illness Relationships Mortgage Career Issues Loneliness / Loss of Social Life ](media/Life---Relationship---People-image6.jpeg)
+![image](media/Life---Relationship---People-image6.jpeg)
 
 7.  Emptiness
 
-
-
-**Blinkist - Life Is in the Transitions, Mastering Change at Any Age By Bruce Feiler**
+## Blinkist - Life Is in the Transitions, Mastering Change at Any Age By Bruce Feiler
 -   What shape has your life story taken?
 -   Lifequakes shake the foundations of our existence.
 -   Disruptorsaffect every area of our lives
@@ -680,9 +528,7 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
 -   We need to create new life stories that integrate our transitions.
 -   Actionable advice: Pay attention to small wins.
 
-
-
-**Blinkist - Power Relationships by Andrew Sobel and Jerold Panas (23 May 2019)**
+## Blinkist - Power Relationships by Andrew Sobel and Jerold Panas (23 May 2019)
 
 26 irrefutable laws for building extraordinary relationships
 -   Power relationships come from great conversations and being unafraid to ask
@@ -699,23 +545,17 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
     -   Every act of generosity creates a ripple
 -   **Actionable advice - Create a list of those you want in your network**
 
-
-
-**Ikigai**
+## Ikigai
 
 ![Image for post](media/Life---Relationship---People-image7.jpg)
 
-
-
-**ikigaiis seen as the convergence of four primary elements**
+## ikigaiis seen as the convergence of four primary elements
 -   What you love (your passion)
 -   What the world needs (your mission)
 -   What you are good at (your vocation)
 -   What you can get paid for (your profession)
 
-
-
-**10 Rules**
+## 10 Rules
 
 1.  Stay active and don't retire
 
@@ -737,15 +577,11 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
 
 10. Follow your ikigai
 
-
-
 <https://medium.com/thrive-global/ikigai-the-japanese-secret-to-a-long-and-happy-life-might-just-help-you-live-a-more-fulfilling-9871d01992b7>
 
 <https://www.sloww.co/ikigai-book
 
-
-
-**Find Your Element by Ken Robinson**
+## Find Your Element by Ken Robinson
 -   Expose yourself to as many new opportunities as possible to discover your unrealized aptitudes.
 -   Strive to have a growth mindset. It will allow you to develop and improve your abilities.
 -   Find your passions, things you do without noticing the passage of time.
@@ -757,36 +593,26 @@ Overcoming the 7 greatest challenges that no one expects and everyone experience
 -   Experiencing positive emotions from your passion reduces stress, chronic pain, and addictions. It also improves sleep and concentration.
 -   Finding a group of people who share your passion can be very beneficial, or even necessary, for both you and other members of the group to realize personal goals.
 
-
-
-**Old Age**
+## Old Age
 
 People have positive attitude towards ageing live 7.2 years longer than people who don't
 
 <https://www.youtube.com/watch?v=o7w5r5PfBKo>
 
-
-
-**Weak link vs Strong link**
+## Weak link vs Strong link
 -   Basketball - strong link
 -   Football - weak link
 -   Programming - strong link
 -   Investment group - strong link
 -   Donation to Schools should be weak lint
 
-
-
 <https://www.youtube.com/watch?v=UAqZMgBtECQ>
 
-
-
-**Programmers Burnout**
+## Programmers Burnout
 
 <https://medium.com/hackernoon/why-theres-so-much-burnout-in-software-and-what-to-do-about-it-4ef0297ca7cc>
 
-
-
-**Blinkist - The Burnout Fix**
+## Blinkist - The Burnout Fix
 
 1.  Working harder or smarter isn't enough to survive the pressures of the modern workplace.
 
@@ -810,9 +636,7 @@ People have positive attitude towards ageing live 7.2 years longer than people w
 
 9.  Actional advice: Make a "Not TODO" list
 
-
-
-**7 reasons smart, hardworking people don't become successful**
+## 7 reasons smart, hardworking people don't become successful
 
 1.  Meet same people, ideas are recycled. Solution is to meet new people
 
@@ -828,9 +652,7 @@ People have positive attitude towards ageing live 7.2 years longer than people w
 
 7.  You don't believe in yourself
 
-
-
-**Blinkist - How should we live? by Roman Krznaric**
+## Blinkist - How should we live? by Roman Krznaric
 -   Love
     -   **Eros**, the fiery, passionate yet dangerous love
     -   **Philia**, the platonic love between friends and comrades
@@ -849,9 +671,7 @@ Rather than relying on one partner to satisfy all these needs, the ancient Greek
 -   Travel is a great way to learn about yourself, and broaden our world view
 -   Can take a trip near and don't waste fuel going to carribean
 
-
-
-**Blinkist - Solve for Happy - Engineer your path to joy by Mo Gawdat (26 June 2018)**
+## Blinkist - Solve for Happy - Engineer your path to joy by Mo Gawdat (26 June 2018)
 -   Happiness is the absence of unhappiness, caused by the misrepresentation and misunderstanding of reality
     -   Your happiness is equal to or greater than your perception of events minus your expectations of life
 -   You are not the voice in your head, but the observer of your life
@@ -865,9 +685,7 @@ Rather than relying on one partner to satisfy all these needs, the ancient Greek
 -   Death is a fundamental part of existence. Acceptance rather than fear will allow you to properly embrace life
 -   In the absence of proof and the surprisingly overwhelming odds, perhaps there is a design to the Universe
 
-
-
-**Blinkist - Social Intelligence by Daniel Goleman (27 Nov 2018)**
+## Blinkist - Social Intelligence by Daniel Goleman (27 Nov 2018)
 
 The new science of human relationships
 -   empathic accuracy - the capacity to understand yourself and others in social contexts, It allows you to put yourself in someone else's shoes. It's not only about understanding what they're feeling but why they feel that way
@@ -880,9 +698,7 @@ The new science of human relationships
 -   Social intelligence can help children with learning difficulties thrive in school
 -   Don't be afraid to say or show you are sorry
 
-
-
-**Blinkist - The Book of Joy by Dalai Lama and Desmond Tutu (24 Dec 2018)**
+## Blinkist - The Book of Joy by Dalai Lama and Desmond Tutu (24 Dec 2018)
 
 Lasting Happiness in a changing world
 -   Wherever you have friends that's your country, and wherever you receive love, that's your home.
@@ -905,9 +721,7 @@ Lasting Happiness in a changing world
 
     8.  Spending time on other' happiness
 
-
-
-**Blinkist - Essentialism by Greg McKeown**
+## Blinkist - Essentialism by Greg McKeown
 -   How to do better by doing less
 -   We should be focusing on what we should do, thinking instead about what is essential to our happiness and well-being
 -   4 main points
@@ -927,9 +741,7 @@ Lasting Happiness in a changing world
 -   Building upon previous progress with small, incremental steps. Small wins create momentum, which gives you the confidence to further succeed.
 -   Routine is very important to achieve long term goals
 
-
-
-**Blinkist - An Autobiography by M.K. Gandhi (24 Apr 2019)**
+## Blinkist - An Autobiography by M.K. Gandhi (24 Apr 2019)
 
 The story of my experiments with truth
 -   Born into the merchant caste in Porbandar, India, Gandhi was wed in a child marriage at age 13
@@ -944,11 +756,9 @@ The story of my experiments with truth
 -   Upon the start of WWI, Gandhi returned to India, where he continued to fight injustice
 -   Gandhi suspended satyagraha when it triggered violence, but his noncooperation resolution was ultimately passed
 
+## Blinkist - How to live a good life by Massimo pigliucci
 
-
-**Blinkist - How to live a good life by Massimo pigliucci**
-
-**A guide to choosing your personal philosohy**
+## A guide to choosing your personal philosohy
 -   The ancient Eastern philosophy of Buddhism values ethics above all.
 -   Confucianism is about relationships, while Daoism teaches us to act in harmony with the world
     -   Fundamental toConfucianism, according to the scholar Bryan Van Norden, is the fact that we cannot exist independently of others. After all, our parents are the only reason we exist. So, in order to live well, we must maintain our relationships.
@@ -981,9 +791,7 @@ The story of my experiments with truth
 -   Effective altruism is just one way we're still exploring philosophical questions today.
     -   Effective altruismtakes a simple approach. It asks its followers to examine how they canmaximizetheir positive impact on the world. In many cases, this is through donating as much as possible to charity. Or it might be through taking on jobs that do exceptional amounts of good.
 
-
-
-**Blinkist - The Almanack of Naval Ravikant**
+## Blinkist - The Almanack of Naval Ravikant
 -   **A philosopher is someone who falls down a well while gazing up at the stars**
 -   If you're unsure about a decision, then the answer is no
 -   A good reputation is an invaluable asset
@@ -1012,61 +820,35 @@ The story of my experiments with truth
     -   Regular exercise is a good habit for both your body and your mind
 -   Actionable advice - Lean into short-term pain (ex - working out)
 
+![image](media/Life---Relationship---People-image8.jpg)
 
-
-![WORTH READING TWICE What Is Education? At the end of World War Il. this letter was found in a Nazi concentration camp. It is addressed to Teachers. DeM Teachers. j am a survrvor of a camp, My eyes saw what no man should mtness: Gas chunbers twitt by learned children potsored by educated physicians. tnfalts killed by trained mjrses. Women and babies shot and tÄJtnt by High School and College Gra"tes. So. I am susp•ctous of edtratm. My request ts, Help your students become hwnan. Yout efforts must never Pf0duce leuned monsters, skdled Psychopaths, edtrated dl'tetates Reading wrrtjng. anthrnettc Me important only 'f they serve towards making our children moce turnane. ](media/Life---Relationship---People-image8.jpg)
-
-
-
-**From Strength to Strength: Finding Success, Happiness and Deep Purpose in the Second Half of Life**
+## From Strength to Strength: Finding Success, Happiness and Deep Purpose in the Second Half of Life
 
 Of the 125 people in Marcellus, half a dozen or so people are over 40. After we read Arthur Brooks' book 'From Strength to Strength' (thanks to a gift from a client who has also become a friend), we understood why those of us over 40 contribute the majority of the pieces to Three Longs and Three Shorts. As Brooks explains in this tightly written book, for people like us in the Finance profession, the raw intellectual horsepower or our brain (which is called 'fluid intelligence') starts waning from the age of 40. Thankfully, however, a different type of intelligence starts improving from that age, namely, 'crystallised intelligence' i.e. the ability to absorb lots of different bits of information and influences and join the dots. Brooks uses this framework to give professionals in their 40s and 50s a framework for the second half of their careers.
 
-
-
 As Jonathan Knee says in his review of this book:"According to From Strength to Strength...the basic problem is the inevitable decline in our abilities. The decline in peak performance begins far earlier than we are likely to admit across professions, not just in athletes. According to Brooks, "on average, the peak of creative careers occurs at about 20 years after career inception," so that professional decay is likely to commence between ages 35 and 50. Financial professionals peak between 36 and 40.
-
-
 
 Like drug addiction, each subsequent hit of success yields a shorter period of satisfaction, necessitating greater feats of performance just as the capacity to produce them declines with age.
 
-
-
 Strength to Strength reads like a companion volume to the cult classic from 1979, The Drama of the Gifted Child by Swiss psychoanalyst Alice Miller. Miller pointed out that talented children can become addicted to the positive feedback that their talents inspire, and may never develop an identity independent of the expectations of others."
-
-
 
 So what is the solution to the mid-40s fade? How can those of us who are in the second half of our careers capitalise on our crystalised intelligence? Brooks' answer is that we should turn to teaching, writing and mentoring rather than trying to compete with younger people who are at their peak in terms of fluid intelligence.
 
-
-
 However, this is not as easy as it sounds. Whilst several of us 40 plusers in Marcellus are writing, teaching and mentoring, we will be the first to admit that old habits are hard to shake off. Says Jim Clemmer:"Arthur devotes a chapter to "Kick Your Success Addiction" with powerful examples, research, and advice on dealing with workaholism and getting off the hedonic treadmill. "The buzz from success is neutralized quickly, leaving a hangover feeling.... after a while, you need constant success hits just not to feel like a failure...the carrot is gradually getting further away, despite the fact that you are running faster than ever. Thus, the dissatisfaction problem compounds the decline problem."
-
-
 
 Arthur provides several steps to transitioning from fluid intelligence to the second curve of crystallized intelligence. This includes pondering our death --- what do we want our life to stand for, cultivating (real versus "deal") relationships, deepening our spirituality, making the weakness of our decline a strength to connecting with others, and filling the second half of our lives with opportunities rather than loss. He concludes with a chapter on Seven Words to Remember; "Use things. Love people. Worship the divine.""
 
-
-
 Interestingly, Buddhist and Hindu philosophy plays a key role in the prescriptions that Arthur Brooks dispenses in this timely book (timely for those of us who are battling with the decline of our fluid intelligence and the rise of our crystallised intelligence).
 
-
-
-**Thoughts about people**
+## Thoughts about people
 
 Almost everyone in this world is idiot and have nothing to contribute, but never say this to them... Always say them okay and ignore instead of demeaning him/her, because they cannot handle it
 
-
-
 Don't say bad to people whom you don't give money, only if they are dependent on you, and they are fearful you can say something
-
-
 
 Otherwise show disappointment
 
-
-
-**Financial Experts**
+## Financial Experts
 
 1.  Benjamin Graham
 
@@ -1088,9 +870,7 @@ American billionaire investor and hedge fund manager, who has served as co-chief
 
 8.  Kalpen Parekh
 
-
-
-**Role Model / Influential People / People to follow**
+## Role Model / Influential People / People to follow
 -   [Jamsetji TATA : STRATEGY of the GREATEST BUSINESS TYCOON of India](https://www.youtube.com/watch?v=OEB_UviHDq0)
 -   Elon Musk - Tesla / SpaceX
 -   Bill Gates - Microsoft
@@ -1104,15 +884,11 @@ Israeli public intellectual, historian and a professor in the Department of Hist
 
 -   [Netaji Subash Chandra Bose: What Schools don't teach you about India's Real Hero!](https://youtu.be/Wf6X-50OQdE)
 
-
-
-**Ubuntu -** I am because you are
+## Ubuntu - I am because you are
 
 Ubuntu is an ancient African word meaning '**humanity to others**'. It is often described as reminding us that 'I am what I am because of who we all are'.
 
 <https://en.wikipedia.org/wiki/Ubuntu_philosophy>
-
-
 
 [Michael Burry: 5 Life Lessons That Made Him Rich (UCLA Speech)](https://www.youtube.com/watch?v=b53QBOu_Tos)
 -   Be a hyper realist, don't try to assume the world as you want, but take it as it is
@@ -1123,19 +899,11 @@ Ubuntu is an ancient African word meaning '**humanity to others**'. It is often 
     -   We are privileged to have so much information at our finger tips
 -   Do no harm
 
-
-
-**Parasocial Relationship**
+## Parasocial Relationship
 
 Parasocial interaction(PSI) refers to a kind of[psychological relationship](https://en.wikipedia.org/wiki/Social_relation)experienced by an audience in their mediated encounters with performers in the[mass media](https://en.wikipedia.org/wiki/Mass_media), particularly on[television](https://en.wikipedia.org/wiki/Television)and on[online platforms](https://en.wikipedia.org/wiki/Internet#Social_impact).Viewers or listeners come to consider media personalities as friends, despite having no or limited interactions with them. PSI is described as an[illusionary](https://en.wikipedia.org/wiki/Illusion)[experience](https://en.wikipedia.org/wiki/Experience), such that media audiences interact with[personas](https://en.wikipedia.org/wiki/Persona)(e.g.,[talk show](https://en.wikipedia.org/wiki/Talk_show)hosts,[celebrities](https://en.wikipedia.org/wiki/Celebrities),[fictional characters](https://en.wikipedia.org/wiki/Fictional_character),[social media influencers](https://en.wikipedia.org/wiki/Influencer_marketing)) as if they are engaged in a[reciprocal relationship](https://en.wikipedia.org/wiki/Reciprocity_(social_psychology))with them. The term was coined by Donald Horton and[Richard Wohl](https://en.wikipedia.org/wiki/Richard_Wohl)in 1956.
 
-
-
 <https://en.wikipedia.org/wiki/Parasocial_interaction>
-
-
-
-
 
 
 

@@ -15,7 +15,7 @@ AJAX - Asynchronous JavaScript and XML
 Web applications can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page.
 Accessibility
 
-**ARIA - Accessible Rich Internet Applications**
+## ARIA - Accessible Rich Internet Applications
 
 Defines different front-end methodologies that make web content accessible for disabled people who access the web with Assistive Technologies (AT), such as screen readers.
 BOM - Browser Object Model
@@ -49,15 +49,15 @@ AMP - Accelerated Mobile Pages
 SHA - Secure Hash
 
 JSX - Javascript XML
-**mebiByte / kibibyte / gibibyte**
+## mebiByte / kibibyte / gibibyte
 
 A mebibyte is a unit of data storage that equals 2 to the 20th power, or 1,048,576 bytes.
 While a[megabyte](https://techterms.com/definition/megabyte)can be estimated as 10^6 or 1,000,000 bytes, a mebibyte is exactly 1,048,576 bytes. This is to avoid the ambiguity associated with the size of megabytes. A mebibyte is 1,024[kibibytes](https://techterms.com/definition/kibibyte)and precedes the[gibibyte](https://techterms.com/definition/gibibyte)unit of measurement.**YK38 Problem**
 
 TheYear 2038 problem(also called Y2038, Epochalypse,Y2k38, or Unix Y2K) relates to representing time in many digital systems as the number of seconds passed since 00:00:00[UTC](https://www.wikiwand.com/en/Coordinated_Universal_Time)on[1 January 1970](https://www.wikiwand.com/en/Unix_time)and storing it as a[signed 32-bit integer](https://www.wikiwand.com/en/Signed_number_representations). Such implementations cannot encode times after 03:14:07 UTC on 19 January 2038. Similar to the[Y2K problem](https://www.wikiwand.com/en/Year_2000_problem), the Year 2038 problem is caused by insufficient capacity used to represent time.
-**RFC**
+## RFC
 
-**4122** - UUID/GUID <https://tools.ietf.org/html/rfc4122.html>
+## 4122 - UUID/GUID <https://tools.ietf.org/html/rfc4122.html>
 
 ## Epoch Time / Unix Time**
 
@@ -72,7 +72,7 @@ It should also be pointed out that this point in time technically does not chang
 ## Time - ISO 8601**
 
 ISO 8601Data elements and interchange formats -- Information interchange -- Representation of dates and times is an[international standard](https://en.wikipedia.org/wiki/International_standard)covering the exchange of[date](https://en.wikipedia.org/wiki/Calendar_date)- and[time](https://en.wikipedia.org/wiki/Time)-related data. It was issued by the [International Organization for Standardization](https://en.wikipedia.org/wiki/International_Organization_for_Standardization) (ISO) and was first published in 1988. The purpose of this standard is to provide an unambiguous and well-defined method of representing dates and times, so as to avoid misinterpretation of numeric representations of dates and times, particularly when data is transferred between [countries with different conventions](https://en.wikipedia.org/wiki/Date_and_time_notation_by_country) for writing numeric dates and times.
-**General Principles**
+## General Principles
 -   Date and time values are ordered from the largest to smallest unit of time: year, month (or week), day, hour, minute, second, and fraction of second. The[lexicographical order](https://www.wikiwand.com/en/Lexicographical_order)of the representation thus corresponds to chronological order, except for date representations involving negative years or time offset. This allows dates to be naturally[sorted](https://www.wikiwand.com/en/Sorting)by, for example, file systems.
 -   Each date and time value has a fixed number of digits that must be padded with[leading zeros](https://www.wikiwand.com/en/Leading_zero).
 -   Representations can be done in one of two formats-- a basic format with a minimal number of separators or an extended format with separators added to enhance human readability.The standard notes that "The basic format should be avoided in[plain text](https://www.wikiwand.com/en/Plain_text)."The separator used between date values (year, month, week, and day) is the[hyphen](https://www.wikiwand.com/en/Hyphen), while the[colon](https://www.wikiwand.com/en/Colon_(punctuation))is used as the separator between time values (hours, minutes, and seconds). For example, the 6th day of the 1st month of the year 2009 may be written as"2009-01-06"in the extended format or simply as "20090106" in the basic format without ambiguity.
@@ -93,12 +93,12 @@ ISO 8601Data elements and interchange formats -- Information interchange -- Repr
 <https://physics.nist.gov/cuu/Units/binary.html>
 
 ## shim** in computing means application compatibility workaround.
-**IMP Coding Snippets**
+## IMP Coding Snippets
 
-**Sweep Line Algorithm (Find intersection of two lines)**
+## Sweep Line Algorithm (Find intersection of two lines)
 
 Using 1d range search
-**Parameterization**
+## Parameterization
 
 <https://www.toptal.com/python/python-parameterized-design-patterns>
 This is a solution to python challenge level 7.
@@ -134,12 +134,12 @@ In[computer science](https://www.wikiwand.com/en/Computer_science), athree-way c
 <https://www.youtube.com/watch?v=60BPETbra9U>
 
 ## [Zawinski's Law](https://en.wikipedia.org/wiki/Jamie_Zawinski#Principles)---** "Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can." (related:[Greenspun's tenth rule](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)--- "any sufficiently complicated C or Fortran program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.")
-**[Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)---** "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
+## [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)--- "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
 
-**Eroom's Law**
+## Eroom's Law
 
 Eroom's lawis the observation that drug discovery is becoming slower and more expensive over time, despite improvements in technology (such as[high-throughput screening](https://en.wikipedia.org/wiki/High-throughput_screening),[biotechnology](https://en.wikipedia.org/wiki/Biotechnology),[combinatorial chemistry](https://en.wikipedia.org/wiki/Combinatorial_chemistry), and computational[drug design](https://en.wikipedia.org/wiki/Drug_design)), a trend first observed in the 1980s. The cost of developing a new drug roughly doubles every nine years (inflation-adjusted).In order to highlight the contrast with the exponential advancements of other forms of technology (such as[transistors](https://en.wikipedia.org/wiki/Transistor)) over time, the law was deliberately spelled as[Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)spelled backwards.
 
 Software also getting slower with improved processors because developers are writing inefficient code.
-**[Metcalfe's Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law#Limitations)---** "The value of a telecommunications network is proportional to the square of the number of connected users of the system...Within the context of social networks, many, including Metcalfe himself, have proposed modified models using (n× logn) proportionality rather thann^2proportionality."
-**[Clarke's Third Law](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)---** "Any sufficiently advanced technology is indistinguishable from magic."
+## [Metcalfe's Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law#Limitations)--- "The value of a telecommunications network is proportional to the square of the number of connected users of the system...Within the context of social networks, many, including Metcalfe himself, have proposed modified models using (n× logn) proportionality rather thann^2proportionality."
+## [Clarke's Third Law](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)--- "Any sufficiently advanced technology is indistinguishable from magic."

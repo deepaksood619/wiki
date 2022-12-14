@@ -8,38 +8,26 @@ Modified: 2022-11-13 02:16:04 +0500
 
 Markets discount everything
 
-
-
 Best asset is a machine that creates more asset
-
-
 
 If money fails, asset is the king
 
 The things that people really want
 
-
-
 Return of capital is more important than return on capital
-
-
 
 It's far better to buy a wonderful company at a fair price, than a fair company at a wonderful price" - Warren Buffet
 
-
-
-**Choosing companies**
+## Choosing companies
 -   Legacy Planning
 
 we do not want a situation where a rich child living abroad has equal share in your house where a not-so-rich 2nd child lives. This can lead to hardship for the 2nd child. This is a complex subject and some vision on your part is necessary.
 -   Estate Planning
 -   Living Will
 
+## Choosing Stocks
 
-
-**Choosing Stocks**
-
-**PE less than 15**
+## PE less than 15
 -   Fundamental Analysis
     -   Annual report
     -   Management discussions
@@ -55,9 +43,7 @@ we do not want a situation where a rich child living abroad has equal share in y
     -   RSI
     -   Bollinger Bands
 
-
-
-**Benjamin Graham's Stock Screener**
+## Benjamin Graham's Stock Screener
 -   PE ratio < Inverse of yield on AAA corporate bonds
 -   PE ratio < 40% of average PE ratio over the last 5 years
 -   Divident yield > 2/3rd of AAA corporate bond yield
@@ -69,9 +55,7 @@ we do not want a situation where a rich child living abroad has equal share in y
 -   10Y historical EPS growth > 7%
 -   No more than 2 years of negative earnings in last 10 years
 
-
-
-**Warren Buffett's Principles**
+## Warren Buffett's Principles
 
 Business
 -   Simple and understandable
@@ -93,38 +77,28 @@ Market
 -   Use conservative estimates of earnings
 -   Greed and fear amongst investors
 
+## Keep in mind
 
-
-**Keep in mind**
-
-**Things to keep in mind**
+## Things to keep in mind
 -   Risk and Return go hand in hand. Higher the risk, higher the return. Lower the risk, lower is the return.
 -   Investment in fixed income is a good option if you want to protect your principal amount. It is relatively less risky. However, you have the risk of losing money when you adjust the return for inflation. Example -- A fixed deposit which gives you 9% when the inflation is 10% means you are losing a net 1% per annum. Fixed-income investment is best suited for ultra risk-averse investors
 -   Investment in Equities is a great option. It is known to beat inflation over a long period of time. Historically equity investment has generated returns close to 14-15%. However, equity investments can be risky
 -   Real Estate investment requires a large outlay of cash and cannot be done with smaller amounts. Liquidity is another issue with real estate investment -- you cannot buy or sell whenever you want. You always have to wait for the right time and the right buyer or seller to transact with you.
 -   Gold and silver are known to be a relatively safer but the historical return on such investment has not been very encouraging.
 
-
-
-**Buy strength and sell weakness**
+## Buy strength and sell weakness
 
 Strength is represented by a bullish (blue) candle and weakness by a bearish (red) candle. Hence whenever you are buying ensure it is a blue candle day and whenever you are selling, ensure it's a red candle day.
 
-
-
-**Be flexible with patterns (quantify and verify)**
+## Be flexible with patterns (quantify and verify)
 
 While the text book definition of a pattern could state a certain criteria, there could be minor variations to the pattern owing to market conditions. So one needs to be a bit flexible. However one needs to be flexible within limits, and hence it is required to always quantify the flexibility.
 
-
-
-**Look for a prior trend**
+## Look for a prior trend
 
 If you are looking at a bullish pattern, the prior trend should be bearish and likewise if you are looking for a bearish pattern, the prior trend should be bullish.
 
-
-
-**What youngsters are doing**
+## What youngsters are doing
 -   **Put money in experiences (strong)**
     -   Adventure activities / outdoor activities
     -   **Foreign trips (traveling)**
@@ -154,28 +128,18 @@ If you are looking at a bullish pattern, the prior trend should be bearish and l
     -   nursery
     -   coaching
 
-
-
 Markets can remain irrational longer than you can remain solvent -- John Maynard Keynes
-
-
 
 Two basic rules when trading: (1) if you don't bet, you can't win. (2) if you lose all your chips, you can't bet -- Larry Hite
 
-
-
 "When companies increase the number of job postings on their websites, we anticipate an increase in sales and earnings in the future," says Alex Nekrasov, an assistant professor of accounting at the University of Illinois at Chicago. "When they cut them, it means some not-so-good times are likely ahead, probably sales and earnings will decline."
 
-
-
-**There are three principles of intelligent investing:**
+## There are three principles of intelligent investing:
 -   An intelligent investor always analyzes the long-term evolution and management policies of a company before investing.
 -   An intelligent investor always protects themselves from losses by diversifying investments.
 -   An intelligent investor never looks for crazy returns but focuses on safe and steady profit.
 
-
-
-**Checklist**
+## Checklist
 -   The stock should form a recognizable candlestick pattern
 -   S&R should confirm the trade. The stoploss price should be around S&R
     -   For a long trade, the low of the pattern should be around the support
@@ -195,57 +159,35 @@ Two basic rules when trading: (1) if you don't bet, you can't win. (2) if you lo
     -   For a complete beginner, I would suggest the RRR to be as high as possible as this provides a margin of safety
     -   For an active trader, I would suggest a RRR of at least 1.5
 
-
-
 Now, hypothetically imagine a situation where you are looking at opportunity to buy shares of Karnataka Bank Limited. On a particular day, Karnataka Bank has formed a bullish hammer, assume everything ticks on the checklist:
 -   Bullish hammer is a recognizable candlestick pattern
 -   The low of the bullish hammer also coincides with the support
 -   The volumes are above average
 -   There is also an MACD crossover (signal line turns greater than the MACD line)
 
-
-
 With all four checklist points being ticked off I would be very glad to buy Karnataka Bank. Hence I place an order to buy, let us say for 500 shares.
-
-
 
 However, imagine a situation where the first 3 checklist conditions are met but the 4th condition (indicators should confirm) is not satisfied. What do you think I should do?
 
-
-
 I would still go ahead and buy, but instead of 500 shares, I'd probably buy 300 shares.
-
-
 
 This should hopefully convey to you how I tend to (and advocate) the use of indicators.
 
-
-
 When Indicators confirm, I increase my bet size, but when Indicators don't confirm I still go ahead with my decision to buy, but I scale down my bet size.
-
-
 
 However I would not do this with the first three checklist points. For example, if the low of the bullish hammer does not coincide in and around the support, then I'll really reconsider my plan to buy the stock; in fact I may skip the opportunity, and look for another opportunity.
 
-
-
 But I do not treat the indicators with the same conviction. It is always good to know what indicators convey, but I don't base my decisions on that. If the indicators confirm, I increase the bet size, if they don't, I still go ahead with my original game plan.
-
-
 
 When you identify a trading opportunity, always look how the trade is positioned from the Dow Theory perspective. For example if you are considering a long trade based on candlesticks, then look at what the primary and secondary trend is suggesting. If the primary trend is bullish, then it would be a good sign, however if we are in the secondary trend (which is counter to the primary) then you may want to think twice as the immediate trend is counter to the long trade.
 
-
-
-**Tools**
+## Tools
 -   Annual report of the company
 -   Industry related data
 -   Access to news
 -   MS Excel
 
-
-
-**Blinkist - How to Make Money in Stocks by William J. O'Neil**
+## Blinkist - How to Make Money in Stocks by William J. O'Neil
 -   You should learn stock chart patterns, and one pattern especially
     -   One of the most important to remember looks like a cup with a handle. In fact, that's its name:Cup with Handle. So, after rising for a period of time, a stock will often fall. As it falls, it sometimes makes a rounded, downward curve, which then becomes a steady, flat line. This is the base of the "cup."
     -   This base is very important. Because, without a strong base of investors who believe in the stock, it could just collapse. But with this solid foundation, the stock will rise properly when its fortunes change. As it climbs upward, it will form the other side of the cup. Just then, it dips back again, and it will form the "handle." It's precisely atthatpoint that you should buy in. More times than not, the stock will shoot upward.
@@ -256,8 +198,6 @@ When you identify a trading opportunity, always look how the trade is positioned
 -   You should buy industry leaders
 -   You should look for stocks with institutional sponsorship
 -   You should keep a close eye on the general market direction
-
-
 
 <https://www.youtube.com/watch?v=w3Y0-Keho9Y>
 -   RULE OF 72
@@ -272,9 +212,7 @@ When you identify a trading opportunity, always look how the trade is positioned
 -   40% EMI RULE
 -   20X LIFE COVER RULE
 
-
-
-**Personal Finance 4 pillars**
+## Personal Finance 4 pillars
 -   **Protection**
 
 Adequate life insurance (To ensure your dependants don't struggle in your absence), Health & accident insurance (To ensure the expenses don't cause a financial strain & portfolio drawdown). Emergency funds and possibly, a medical corpus.
@@ -288,16 +226,14 @@ Minimizing the amount you pay to the taxman and the corresponding impact it has 
 
 This is arguably the most important, and the most overlooked, pillar. It encapsulates a wide variety of actions ranging from financial tracking to the formation of a continuity plan (To ensure your dependants can continue in the case of your demise). Central to these is ensuring that wills are made, the right nominations have been selected/updated, and the sharing of important documents.
 
-
-
-**How to Get Rich (Without Getting Lucky) by Naval Ravikant**
+## How to Get Rich (Without Getting Lucky) by Naval Ravikant
 -   Seek wealth, not money or status
 
-**Wealth** is having assets that earn while you sleep
+## Wealth is having assets that earn while you sleep
 
-**Money** is how we transfer time and wealth
+## Money is how we transfer time and wealth
 
-**Status** is your place in the social hierarchy
+## Status is your place in the social hierarchy
 -   Undestand **ethical wealth creation** is possible
 
 If you secretly despise wealth, if will elude you
@@ -343,8 +279,6 @@ You must own **equity -** a piece of business - to gain your financial freedom
 -   Apply specific knowledge, with leverage, and eventually you will get what you deserve
 -   When you're finally wealthy, you'll realize that it **wasn't** what you were seeking in the first place. But that's for another day
 
-
-
 [Psychology of Money Book Review | Ankur Warikoo Hindi](https://youtu.be/DpyMvwF4OSE)
 -   Being rich is not equal to being wealthy
 -   Staying wealthy is very different from getting wealthy
@@ -355,8 +289,6 @@ You must own **equity -** a piece of business - to gain your financial freedom
 -   Live below your means
 -   Money is not important if you can't sleep at night
 -   Save as much as you can
-
-
 
 [10 Commandments of Wealth Building | ET Money](https://youtu.be/vBuzDz0l0No)
 -   THOU SHALL LIVE WITHIN ONE'S MEANS
@@ -370,32 +302,20 @@ You must own **equity -** a piece of business - to gain your financial freedom
 -   THOU SHALL ALWAYS BE LEARNING
 -   THOU SHALL GIVE MORE VALUE THAN ONE TAKES
 
-
-
 [Picking Stocks for Long term Investing in 2021 | Investment Strategy for Beginners | Ankur Warikoo](https://www.youtube.com/watch?v=krwSDbuHWd4)
 -   Max alpha (growth) with lowest beta (risk)
 
-![# Two imprtqn± metrjcg --- ALPHA BETA every gtock's performance is compara to the overq() perfor mance of all t-heSŕocks (called index) LOW r Îsk IOW retorns hioh risk yetvrns Alpha Beła help _in vnders±andin3 Whether bvg a słock foy -term or not. Index słock 2 (Yetorns) Dîfțeyence L/ W Sł0Ck retorn 2 index Stock beałs the by if --- ALPHA retorn no growth in the Sŕock Sł-ock beať the rnk& sŁock's retvrn jg legs than the index brllg focos on i•e. the peopłe Who bQ3in to jnvegŕ yewyn they'ye oeăľno consideting beta , p easvrement atilJQy ooîsî Andex grapbvWassvmed if Stock _more VDLaGle than theîndex i.e., ii- goes op wiłh the sqme speed as it comes dDR then yovr Stock - --- S•/• then Stock - ](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image1.jpeg)
+![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image1.jpeg)
 
+![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image2.jpg)
 
+![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image3.jpeg)
 
-![more or (less I more return) Yis k) (less reborn) Mick) it is imp. to consider boththe metrics . Matrix to vnderctand this conce t X Axis ALPHA lec.seY retvrnso {han stock market ET A more •re-evrn- Wan Gtotk market hi3her risk than tne mkt same risk ac Ene mke < risk -than Y Axis Minimvm Risk Maxi mum Return Lbng term stocks --- lowest beea k highest alpha Matrix (P.r.o.) ](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image2.jpg)
+![image](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image4.jpeg)
 
-
-
-![high BE-TA low - X 'ind«j high risk) Not recommended for bon bought by day -traders for Shore term gain; --- doesnk beaE the index) less risk Not recommended for long term ----4 vsuql)y bought-for- f dividend gield low Bioh returns) hiøh risk needs active -tradinø based on momentvm swat" y high return% low rise passive trading Recommended for long eerm check after every 3 months high passive trading --- ALPHA to maximize yeturng by minimum bvying selliny fr HOW to pick 'tock' Which genera{e hioh with low Tick? check video platform: tickereape screener +vc revenue growth ) alpha, be{-q check to be b/w O U_ for minimal risk sorF by markee cap --- large cap --- sore by max alphq lowest beta expory to excel ](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image3.jpeg)
-
-
-
-![Fi3urin3 out Which stocks t D buy plot a scatkr graph on excel , ----3 look for max alpha shovid be qtovn4 1 i.e. similar to the cyiteriq - check alpha beta on the qraph go back to fie screener to check the Stock performance (price chart) # slJMMARY {o stocks WitM Minimum "isk --- O the alpha shov)d 'be hi5h --- the the @ beta --- should be Atovnd 1 Alpha beta --- vseful in Inveseng, long term investing reevrnsaye hi3her than *Dtk malkeb Simi)ar to the marke& bvt can also be vced +0 mage important life decision' ask govrcelf---if I want to do is the growth (Qlpha) What is the risk ilm taking t ben) ](media/TODO-Financial-Finance---Investing_Checklist---Tips---Personal-Finance---Quotes-image4.jpeg)
-
-
-
-**Financial Independence, Retire Early (FIRE)**
+## Financial Independence, Retire Early (FIRE)
 
 FIRE means to save and invest aggressively in your 20s and 30s so that you can live the latter years of your life freely
-
-
 
 FIRE has more to do with your current lifestyle. To implement FIRE, you save and invest up to 50-70% of your income in assets that can generate high returns and passive income.
 
@@ -421,8 +341,6 @@ FIRE has more to do with your current lifestyle. To implement FIRE, you save and
     -   Choicest lifestyle, but with an eye on the future.
     -   Opportunity to go back to full-time employment in case you exhaust your F.I.R.E budget due to unforeseen circumstances
 
-
-
 [How To RETIRE EARLY In Your 40s Using The F.I.R.E. METHOD? | Financial Independence | ET Money](https://youtu.be/A_PVV23MxJc)
 
 Financial Independence (FI) ratio - passive income/expenses
@@ -432,8 +350,6 @@ FI ratio is simply**your current net worth divided by your target net worth**
 Anything above 100 is good
 
 <https://thepoorswiss.com/financial-independence-ratio-fi>
-
-
 
 [Charlie Munger: The 5 Investing Tricks That Made Him a Billionaire](https://youtu.be/w4d0e3Jpu9s)
 -   Invert!
@@ -452,8 +368,6 @@ Example - is the stock good invert to why is this stock not good
     -   Focus on the long term
 -   Know what are your limits
 
-
-
 [7 Hacks To Help You Make Better Financial Decisions | ET Money](https://www.youtube.com/watch?v=0g_vykxuuos)
 -   Chunking
 -   Reframing
@@ -462,8 +376,6 @@ Example - is the stock good invert to why is this stock not good
 -   Man Muss Immer Umkehren
 -   Think Like A Statistician
 -   This Happened Because
-
-
 
 [8 Most Important Principles when Investing in Equity | Stocks & Mutual Funds | ET Money](https://youtu.be/88lRk40wwN4)
 -   Know what kind of investor you are
@@ -474,8 +386,6 @@ Example - is the stock good invert to why is this stock not good
 -   Don't use leverage while investing in equities
 -   Mind your emotions
 -   Long term works best
-
-
 
 <https://freefincal.com/10-financial-lessons-from-10-years-of-blogging
 
@@ -492,16 +402,12 @@ Example - is the stock good invert to why is this stock not good
 -   There are multiple solutions to most problems in life.
 -   Salvation lies within
 
-
-
 [How To Make The Most Of Stock Market Corrections | ET Money](https://youtu.be/LNnand4V2h0)
 -   Don't Panic
 -   But Stocks Of Strong Businesses
 -   Unpunish Your Mistakes With Tax-Loss Harvesting
 -   Build A Portfolio That Fits Your Risk Tolerance
 -   Continue Your SIPs
-
-
 
 [The Peter Cundill Investing Approach | Value Investing | ET Money](https://www.youtube.com/watch?v=d5210kusW5U)
 -   Curiosity
@@ -515,12 +421,8 @@ Example - is the stock good invert to why is this stock not good
 -   Sound body along with a sound mind
 -   Personal responsibility
 
-
-
-**Others**
+## Others
 
 [Contrarian Investing | Is Contrarian Investing Profitable? | ET Money](https://youtu.be/vnQRuNuJckE)
-
-
 
 

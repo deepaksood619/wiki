@@ -6,19 +6,13 @@ Modified: 2022-01-07 21:21:29 +0500
 
 ---
 
-**Introduction**
+## Introduction
 
 jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
 
-
-
 $ is called dollar sign operator or bling
 
-
-
 $('#id') shorthand for jquery('#id')
-
-
 
 Don't find this javascript inside until the DOM is parsed by browser
 
@@ -28,11 +22,7 @@ $(document).ready(function() {
 
 });
 
-
-
 Or
-
-
 
 $(function() {
 
@@ -40,13 +30,9 @@ $(function() {
 
 });
 
-
-
 three ways of targeting elements: by type: $("button"), by class: $(".btn"), and by id $("#target1").
 
-
-
-**Dev Tips**
+## Dev Tips
 
 1.  Basic selectors
 
@@ -70,11 +56,7 @@ three ways of targeting elements: by type: $("button"), by class: $(".btn"), and
 
 11. Event Binding
 
-
-
 $(document).ready(function() {
-
-
 
 // BASIC SELECTORS
 
@@ -92,8 +74,6 @@ $(document).ready(function() {
 
 // $('*').css('border', '4px solid red');
 
-
-
 // BASIC ANIMATIONS
 
 // $('.box:first').hide(500).delay(300).show(800);
@@ -110,8 +90,6 @@ $(document).ready(function() {
 
 // $('.box:nth-child(4)').animate({bottom: '200px', left: '200px'}, 800);
 
-
-
 // INDEX FILTERS
 
 // $('p').css('border', '4px solid red');
@@ -126,8 +104,6 @@ $(document).ready(function() {
 
 // $('p:eq(2)').css('border', '4px solid red');
 
-
-
 // RELATIONSHIP FILTERS
 
 // $('h2:has(span)').css('border', '4px solid red');
@@ -135,8 +111,6 @@ $(document).ready(function() {
 // $('.box:parent').css('border', '4px solid red');
 
 // $('.box:empty').css('border', '4px solid red');
-
-
 
 // ATTRIBUTE FILTERS
 
@@ -148,8 +122,6 @@ $(document).ready(function() {
 
 // $('a[href$=".co.uk"]').css('border', '4px solid red');
 
-
-
 // ATTRIBUTE METHOD
 
 // can get class and set a different one
@@ -157,8 +129,6 @@ $(document).ready(function() {
 // alert($('p:first').attr('class')); // get the class
 
 // $('p:first').attr('class', 'not-lead'); // set the class
-
-
 
 // IMAGE SWAP
 
@@ -170,8 +140,6 @@ $(document).ready(function() {
 
 // });
 
-
-
 // CLASS METHODS
 
 // alert($('p:first').hasClass('lead'));
@@ -179,8 +147,6 @@ $(document).ready(function() {
 // $('p:first').addClass('blue').removeClass('lead');
 
 // $('p').toggleClass('blue').removeClass('lead');
-
-
 
 // CONTENT METHODS
 
@@ -197,8 +163,6 @@ $(document).ready(function() {
 // alert($('input').val());
 
 // $('input').val('yo dude!');
-
-
 
 // DOM TRAVERSALS
 
@@ -220,8 +184,6 @@ $(document).ready(function() {
 
 // $('h2:has(span)').parents('section').siblings().children().css('border', '4px solid red');
 
-
-
 // EVENT BINDING
 
 // $('h2').bind('click', function() {
@@ -229,8 +191,6 @@ $(document).ready(function() {
 // $(this).toggleClass('blue');
 
 // });
-
-
 
 // shortcut for the above click event binding
 
@@ -240,15 +200,11 @@ $(document).ready(function() {
 
 // })
 
-
-
 // $('h2').hover(function() {
 
 // $(this).toggleClass('blue');
 
 // })
-
-
 
 $('html').keypress(function() {
 
@@ -256,13 +212,9 @@ $(this).toggleClass('blue');
 
 })
 
-
-
 });
 
-
-
-**Freecodecamp**
+## Freecodecamp
 
 .addClass()
 
@@ -280,19 +232,13 @@ ex - $("#target-button").prop("disabled", "true");
 
 .appendTo("#left-well")
 
-
-
 In addition to moving elements, you can also copy them from one place to another.
 
 jQuery has a function called clone() that makes a copy of an element.
 
-
-
 For example, if we wanted to copy target2 from our left-well to our right-well, we would use:
 
 $("#target2").clone().appendTo("#right-well");
-
-
 
 Did you notice this involves sticking two jQuery functions together? This is called function chaining and it's a convenient way to get things done with jQuery.
 
@@ -310,29 +256,21 @@ Did you notice this involves sticking two jQuery functions together? This is cal
 
 Ex - $(".class").addClass("button");
 
-
-
-**JSON APIs and AJAX**
+## JSON APIs and AJAX
 
 APIs - Application Programming Interface are tools that computers use to communicate with one another.
 
 Most web APIs transfer data in a format called JSON. JSON stands for JavaScript Object Notation.
 
-
-
-**Convert JSON data to HTML**
+## Convert JSON data to HTML
 
 <script>
 
 $(document).ready(function() {
 
-
-
 $("#getMessage").on("click", function() {
 
    $.getJSON("/json/cats.json", function(json) {
-
-
 
 var html = "";
 
@@ -356,11 +294,7 @@ html += "</div><br>";
 
 // Only change code above this line.
 
-
-
      $(".message").html(html);
-
-
 
    });
 
@@ -370,15 +304,11 @@ html += "</div><br>";
 
 </script>
 
-
-
-**Render image from Data Sources**
+## Render image from Data Sources
 
 html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
 
-
-
-**Prefilter JSON**
+## Prefilter JSON
 
 json = json.filter(function(val) {
 
@@ -386,9 +316,7 @@ return (val.id !== 1);
 
 });
 
-
-
-**Get geolocation data**
+## Get geolocation data
 
 if (navigator.geolocation) {
 
@@ -400,9 +328,7 @@ $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + po
 
 }
 
-
-
-**Random Quote Machine**
+## Random Quote Machine
 
 1.  **Precache random quotes**
 
@@ -410,16 +336,12 @@ $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + po
 
 3.  **Particle effect**
 
+## Learned
 
-
-**Learned**
-
-**To disable a input field**
+## To disable a input field
 
 $('#item').prop('disabled', true);
 
 $('#item').prop('disabled', false);
-
-
 
 <https://www.toptal.com/jquery/interview-questions>

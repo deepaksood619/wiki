@@ -8,15 +8,9 @@ Modified: 2020-09-04 00:36:07 +0500
 
 As the name suggests, it will help you build your system. It is divided into small functions to serve different functionality. A number of helpers are available in CodeIgniter, which are listed in the table below. We can build our own helpers too.
 
-
-
 Helpers are typically stored in yoursystem/helpers, orapplication/helpers directory. Custom helpers are stored inapplication/helpersdirectory and systems' helpers are stored insystem/helpersdirectory. CodeIgniter will look first in yourapplication/helpers directory. If the directory does not exist or the specified helper is not located, CodeIgniter will instead, look in your globalsystem/helpers/ directory. Each helper, whether it is custom or system helper, must be loaded before using it.
 
-
-
 There are**URL Helpers**, that assist in creating links, there are**Form Helpers**that help you create form elements,**Text Helpers**perform various text formatting routines,**Cookie Helpers**set and read cookies,**File Helpers**help you deal with files, etc.
-
-
 
 <table>
 <colgroup>
@@ -138,25 +132,17 @@ There are**URL Helpers**, that assist in creating links, there are**Form Helpers
 </tbody>
 </table>
 
-
-
-**Loading a Helper**
+## Loading a Helper
 
 $this->load->helper('name');
-
-
 
 Where name is the name of the helper. For example, if you want to load the URL Helper, then it can be loaded as −
 
 $this->load->helper('url');
 
-
-
 <https://www.tutorialspoint.com/codeigniter/codeigniter_basic_concepts.htm>
 
-
-
-**Global Functions and Constants**
+## Global Functions and Constants
 -   [**Global Functions**](https://codeigniter.com/user_guide/general/common_functions.html#global-functions)
     -   [**Service Accessors**](https://codeigniter.com/user_guide/general/common_functions.html#service-accessors)
         -   cache([$key])
@@ -190,7 +176,7 @@ $this->load->helper('url');
 return redirect()->back();
 
 // Go to specific UI
-**return redirect()->to('/admin');**
+## return redirect()->to('/admin');
 
 // Go to a named/reverse-routed URI
 return redirect()->route('named_route');
@@ -234,7 +220,5 @@ return redirect()->back()->withHeaders();
     -   constant MONTH
     -   constant YEAR
     -   constant DECADE
-
-
 
 <https://codeigniter.com/user_guide/general/common_functions.html>

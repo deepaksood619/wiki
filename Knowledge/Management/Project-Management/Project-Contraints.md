@@ -6,12 +6,10 @@ Modified: 2021-09-21 09:28:15 +0500
 
 ---
 
-**Project Contraints**
+## Project Contraints
 -   **Triple Contraint Triangle (Iron Triangle of Project Management)**
 
-
-
-![scop QUALITY cos ](media/Project-Management_Project-Contraints-image1.png)
+![image](media/Project-Management_Project-Contraints-image1.png)
 
 
 -   Note that these contraints are interrelated, so a strain on one of the core contraints will affect one or more of the other constraints
@@ -29,40 +27,28 @@ Modified: 2021-09-21 09:28:15 +0500
 
 -   **The Project Management Star by PMBOK**
 
-!["Triple Constraint" in project Management ](media/Project-Management_Project-Contraints-image2.jpg)
+![image](media/Project-Management_Project-Contraints-image2.jpg)
 
-**TCS - Time / Scope / Cost, choose two**
+## TCS - Time / Scope / Cost, choose two
 -   **STR Model**
 
 TheSTR modelis a mathematical model which views the "triangle model" as a graphic abstraction of the relationship:
 
-**Scope = Time × Resources**
-
-
+## Scope = Time × Resources
 
 Scope refers to complexity (which can also mean quality). Resources includes humans (workers), financial, and physical. Note that these values are not considered unbounded. For instance, if one baker can make a loaf of bread in an hour in an oven, that doesn't mean ten bakers could make ten loaves in one hour in the same oven (Due to the oven capacity).
 
-
-
 <https://en.wikipedia.org/wiki/Project_management_triangle>
 
+## Project management triangle topic
 
-
-**Project management triangle topic**
-
-**Time**
+## Time
 
 For analytical purposes, the time required to produce a[deliverable](https://en.wikipedia.org/wiki/Deliverable)is[estimated](https://en.wikipedia.org/wiki/Estimation_(project_management))using several techniques. One method is to identify tasks needed to produce the deliverables documented in a[work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure)or WBS. The work effort for each task is estimated and those estimates are rolled up into the final deliverable estimate.
 
-
-
 The tasks are also prioritized,[dependencies](https://en.wikipedia.org/wiki/Dependency_(project_management))between tasks are identified, and this information is documented in a project schedule. The dependencies between the tasks can affect the length of the overall project (dependency constrained), as can the availability of resources (resource constrained). Time is different from all other resources and cost categories.
 
-
-
 Using actual cost of previous, similar projects as the basis for estimating the cost of current project.
-
-
 
 According to the[Project Management Body of Knowledge](https://en.wikipedia.org/wiki/Project_Management_Body_of_Knowledge)(PMBOK) the Project Time Management processes include:
 
@@ -80,9 +66,7 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 7.  Control Schedule
 
-
-
-**Define Activities**
+## Define Activities
 
 1.  Inputs: Management Plan, Scope Baseline, Enterprise environmental factors, Organizational process assets
 
@@ -90,9 +74,7 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 3.  Outputs: Activity list, Activity attributes,[Milestone](https://en.wikipedia.org/wiki/Milestone_(project_management))list
 
-
-
-**Activity sequencing**
+## Activity sequencing
 
 1.  Inputs: Project[Scope Statement](https://en.wikipedia.org/wiki/Scope_Statement), Activity List, Activity Attributes, Milestones List, Approved change requests
 
@@ -100,9 +82,7 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 3.  Outputs: Project Schedule Network diagrams, Activity List Updates, Activity Attributes updates, Request Changes
 
-
-
-**Activity resource estimating**
+## Activity resource estimating
 
 1.  Inputs: Enterprise Environmental factoring, Organizational process assets, Activity list, Activity attributes, Resources Availability, Project Management Plan
 
@@ -110,9 +90,7 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 3.  Outputs: Activity resource requirements, Activity attributes, Resource breakdown structure, resource calendars, request change updates.
 
-
-
-**Activity duration estimating**
+## Activity duration estimating
 
 1.  Inputs: Enterprise environmental factors, organization process assets, Project scope statement, activity list, activity attributes, activity resource requirements, resource calendars, project management plan, risk register, activity cost estimates
 
@@ -120,9 +98,7 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 3.  Outputs: Activity duration estimates, activity attribute updates and estimates
 
-
-
-**Schedule development**
+## Schedule development
 
 1.  Inputs: Organizational process assets, Project scope Statement, Activity list, Activity attributes, project Schedule Network diagrams, Activity resource requirements, Resource calendars, Activity duration estimates, project management plan, risk register
 
@@ -130,9 +106,7 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 3.  Outputs: Project schedule, Schedule model data, schedule baseline, resource requirements update, activity attributes, project calendar updates, request changes, project management plan updates, schedule management plan updates
 
-
-
-**Schedule control**
+## Schedule control
 
 1.  Inputs: Schedule management plan, schedule baseline, performance reports, approved change requests
 
@@ -140,26 +114,18 @@ According to the[Project Management Body of Knowledge](https://en.wikipedia.org/
 
 3.  Outputs: Schedule model data updates, schedule baseline. performance measurement, requested changes, recommended corrective actions, organizational process assets, activity list updates, activity attribute updates, project management plan updates
 
-
-
 Due to the complex nature of the 'Time' process group the project management credentialPMI Scheduling Professional(PMI-SP) was created.
 
-
-
-**Cost**
+## Cost
 
 To develop an approximation of a project cost depends on several variables including: resources, work packages such as labor rates and mitigating or controlling influencing factors that create cost variances. Tools used in cost are,[risk management](https://en.wikipedia.org/wiki/Risk_management),[cost contingency](https://en.wikipedia.org/wiki/Cost_contingency),[cost escalation](https://en.wikipedia.org/wiki/Cost_escalation), and indirect costs . But beyond this basic accounting approach to fixed and variable costs, the economic cost that must be considered includes worker skill and productivity which is calculated using various project cost estimate tools. This is important when companies hire temporary or contract employees or outsource work.
 
-
-
-**Cost Process Areas**
+## Cost Process Areas
 -   Cost Estimating is an approximation of the cost of all resources needed to complete activities.
 -   Cost budgeting aggregating the estimated costs of resources, work packages and activities to establish a cost baseline.
 -   Cost Control -- factors that create cost fluctuation and variance can be influenced and controlled using various cost management tools.
 
-
-
-**Project Management Cost Estimating Tools**
+## Project Management Cost Estimating Tools
 -   Analogous Estimating: Using the cost of similar project to determine the cost of the current project
 -   Determining Resource Cost rates: The cost of goods and labor by unit gathered through estimates or estimation.
 -   Bottom Up estimating: Using the lowest level of work package detail and summarizing the cost associated with it. Then rolling it up to a higher level aimed and calculating the entire cost of the project.
@@ -168,21 +134,13 @@ To develop an approximation of a project cost depends on several variables inclu
 -   Reserve Analysis: Aggregate the cost of each activity on the network path then add a contingency or reserve to the end result of the analysis by a factor determined by the project manager.
 -   Cost of Quality Analysis: Estimating the cost at the highest quality for each activity.
 
-
-
 [Project management software](https://en.wikipedia.org/wiki/Project_management_software)can be used to calculate the cost variances for a project.
 
-
-
-**Scope**
+## Scope
 
 Requirements specified to achieve the end result. The overall definition of what the project is supposed to accomplish, and a specific description of what the end result should be or accomplish. A major component of scope is the[quality](https://en.wikipedia.org/wiki/Quality_(business))of the final product. The amount of time put into individual tasks determines the overall quality of the project. Some tasks may require a given amount of time to complete adequately, but given more time could be completed exceptionally. Over the course of a large project, quality can have a significant impact on time and cost (or vice versa).
 
-
-
 Together, these three constraints have given rise to the phrase "On Time, On Spec, On Budget." In this case, the term "scope" is substituted with "spec(ification)."
-
-
 
 <https://en.wikipedia.org/wiki/Project_management_triangle>
 

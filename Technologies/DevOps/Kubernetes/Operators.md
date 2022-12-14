@@ -8,27 +8,19 @@ Modified: 2020-06-06 23:14:40 +0500
 
 <https://operatorhub.io
 
-
-
-**Operators**
+## Operators
 
 An Operator is a method of packaging, deploying and managing a Kubernetes application. A Kubernetes application is an application that is both deployed on Kubernetes and managed using the Kubernetes APIs and kubectl tooling.
 
-
-
 To be able to make the most of Kubernetes, you need a set of cohesive APIs to extend in order to service and manage your applications that run on Kubernetes. You can think of Operators as the runtime that manages this type of application on Kubernetes.
-
-
 
 It builds upon the basic Kubernetes **resource** and **controller** concepts but includes domain or application-specific **knowledge** to automate common tasks.
 
+## Resources - Pod, ConfigMap, Route
 
+## Controllers - ReplicaSet, DaemonSet, Deployment
 
-**Resources -** Pod, ConfigMap, Route
-
-**Controllers -** ReplicaSet, DaemonSet, Deployment
-
-**Domain or Application Specific Knowledge**
+## Domain or Application Specific Knowledge
 -   Installing
 -   Self-Heal
 -   Scale
@@ -37,9 +29,7 @@ It builds upon the basic Kubernetes **resource** and **controller** concepts but
 -   Backup
 -   Restore
 
-
-
-**Operator Framework**
+## Operator Framework
 
 1.  Operator SDK
 
@@ -47,13 +37,9 @@ It builds upon the basic Kubernetes **resource** and **controller** concepts but
 
 3.  Operator Metering
 
-
-
-**Game Changer**
+## Game Changer
 
 An Operator is nothing more than a set of application-specific custom controllers. So, why is it a game-changer? Well, controllers have direct access to Kubernetes API, which means that they can monitor the cluster, change pods/services, scale up/down, and call endpoints of the running applications, all according to custom rules written inside those controllers.
-
-
 
 ![Observe Analyze Act Couchbase Cluster is running 2 pods: CB-OOOI , version 5.0.1 CB-0002, version 5.0.1 Differences from desired config: 3 Pods should be running instead of just 2 How to get to desired config: Start new Pod Add new node to the cluster Trigger data rebalancing ](../../media/DevOps-Kubernetes-Operators-image1.png)
 
@@ -63,31 +49,19 @@ a.  Infrastructure: Add a new node. The Operator requests via the Kubernetes API
 
 b.  Domain-specific: Add node to the cluster/trigger data rebalancing.The Operator knows how Couchbase works and calls the correct REST endpoint to add the new node to the cluster and trigger data rebalancing.
 
-
-
 That is the real power of Operators:they allow you to write an application to fully manage another, and guess which kind stateful applications are the hardest to manage? You are right: databases.
-
-
 
 The Operator's ecosystem is growing quickly; for instance, it lets you deploy something very similar to AWS S3.
 
-
-
 Finally, Kubernetes provides a cloud-agnostic application deployment and management. It is so powerful that might lead us to treat cloud providers almost like a commodity, as you will be able to migrate freely between them.
-
-
 
 <https://dzone.com/articles/why-kubernetes-operators-are-a-game-changer>
 
-
-
-**Custom Resource Definition (CRDs)**
+## Custom Resource Definition (CRDs)
 
 Custom Resources/Controllers - <https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources
 
-
-
-**Capabilities**
+## Capabilities
 
 1.  Basic Install
 
@@ -109,27 +83,19 @@ Metrics, alerts, log processing and workload analysis
 
 Horizontal/vertical scaling, auto config tuning, abnormal detection, scheduling tuning
 
-
-
-**Creating**
+## Creating
 
 ![](../../media/DevOps-Kubernetes-Operators-image2.png)
 
-
-
-**Controllers**
+## Controllers
 
 ![](../../media/DevOps-Kubernetes-Operators-image3.png)
 
-
-
-**Operator Lifecycle Manager (OLM)**
+## Operator Lifecycle Manager (OLM)
 
 Enable cluster admins to manage Operators on any Kubernetes cluster (dependency management)
 
-
-
-**Kafka Operator**
+## Kafka Operator
 
 1.  Automated Provisioning
     -   Configuration for Confluent Platform clusters to achieve zero-touch provisioning.
@@ -148,21 +114,15 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
     -   End-to-end data completeness SLA monitoring with Control Center
     -   Exposes Prometheus metrics for additional alerting and monitoring
 
-
-
 <https://www.confluent.io/blog/introducing-the-confluent-operator-apache-kafka-on-kubernetes
 
 <https://github.com/krallistic/kafka-operator>
 
-
-
-**Prometheus Operator**
+## Prometheus Operator
 
 <https://github.com/coreos/prometheus-operator/tree/master/contrib/kube-prometheus>
 
-
-
-**References**
+## References
 
 <https://github.com/operator-framework>
 
@@ -179,6 +139,4 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
 <https://codeengineered.com/blog/2018/kubernetes-helm-related-tools
 
 <https://medium.com/@cloudark/kubernetes-operators-and-helm-it-takes-two-to-tango-3ff6dcf65619>
-
-
 

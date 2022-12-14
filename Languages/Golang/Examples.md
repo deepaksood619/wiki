@@ -8,11 +8,9 @@ Modified: 2020-08-07 00:53:13 +0500
 
 <https://github.com/marcel-dempers/docker-development-youtube-series/blob/master/messaging/rabbitmq/applications/publisher/publisher.go>
 
-**publisher.go**
+## publisher.go
 
 package main
-
-
 
 import (
 
@@ -30,8 +28,6 @@ log "github.com/sirupsen/logrus"
 
 )
 
-
-
 var rabbit_host = os.Getenv("RABBIT_HOST")
 
 var rabbit_port = os.Getenv("RABBIT_PORT")
@@ -40,15 +36,9 @@ var rabbit_user = os.Getenv("RABBIT_USERNAME")
 
 var rabbit_password = os.Getenv("RABBIT_PASSWORD")
 
-
-
 func main() {
 
-
-
 router := httprouter.New()
-
-
 
 router.POST("/publish/:message", func(w http.ResponseWriter, r *http.Request, p httprouter.Params){
 
@@ -56,29 +46,19 @@ submit(w,r,p)
 
 })
 
-
-
 fmt.Println("Running...")
 
 log.Fatal(http.ListenAndServe(":80", router))
 
 }
 
-
-
 func submit(writer http.ResponseWriter, request *http.Request, p httprouter.Params) {
 
 message := p.ByName("message")
 
-
-
 fmt.Println("Received message: " + message)
 
-
-
 conn, err := amqp.Dial("amqp://" + rabbit_user + ":" +rabbit_password + "@" + rabbit_host + ":" + rabbit_port +"/")
-
-
 
 if err != nil {
 
@@ -86,15 +66,9 @@ log.Fatalf("%s: %s", "Failed to connect to RabbitMQ", err)
 
 }
 
-
-
 defer conn.Close()
 
-
-
 ch, err := conn.Channel()
-
-
 
 if err != nil {
 
@@ -102,11 +76,7 @@ log.Fatalf("%s: %s", "Failed to open a channel", err)
 
 }
 
-
-
 defer ch.Close()
-
-
 
 q, err := ch.QueueDeclare(
 
@@ -124,15 +94,11 @@ nil, // arguments
 
 )
 
-
-
 if err != nil {
 
 log.Fatalf("%s: %s", "Failed to declare a queue", err)
 
 }
-
-
 
 err = ch.Publish(
 
@@ -152,15 +118,11 @@ Body: []byte(message),
 
 })
 
-
-
 if err != nil {
 
 log.Fatalf("%s: %s", "Failed to publish a message", err)
 
 }
-
-
 
 fmt.Println("publish success!")
 

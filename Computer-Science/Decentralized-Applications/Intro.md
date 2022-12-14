@@ -11,18 +11,18 @@ Modified: 2022-04-07 20:49:34 +0500
 2.  Decentralised
 
 3.  Distributed
-**2.0 stack**
+## 2.0 stack
 -   AWS S3 for storage
 -   Aws EC2 for compute
 -   Stripe for payments
 -   Third party services for other services
-**Web 3.0 stack (dApps)**
+## Web 3.0 stack (dApps)
 -   Etherium, truebit (scalable computation)
 -   IPFS (inter planetary file system) / FileCoin (storage)
 -   Oracles (External data)
 -   Token Model (Monetization)
 -   Bitcoin (payments)
-**Features of decentralised application**
+## Features of decentralised application
 -   Open source
 -   Use of cryptocurrency
     -   Allocate a scarce resource to monetize.
@@ -39,7 +39,7 @@ Modified: 2022-04-07 20:49:34 +0500
     -   Instead of IP addressing our content, we should content address it
     -   Merkel DAG
     -   Resiliency happening with bits and shards of data replicated across network (multiple nodes)
-**Decentralized Chat (Whisper)**
+## Decentralized Chat (Whisper)
 
 1.  Building first whisper chat app
 
@@ -52,7 +52,7 @@ Modified: 2022-04-07 20:49:34 +0500
 5.  Peer to peer chat
 ![alt text](media/Intro-image1.jpeg)
 
-**What is Whisper**
+## What is Whisper
 
 ![alt text](media/Intro-image2.png)
 -   Darkness as a feature
@@ -72,7 +72,7 @@ Decentralized Marketplace
 Decentralized Social Network
 
 Decentralized Artificial Intelligence
-**References**
+## References
 
 <https://www.toptal.com/blockchain/interview-questions>
 

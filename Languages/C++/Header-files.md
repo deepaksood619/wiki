@@ -8,8 +8,6 @@ Modified: 2019-08-05 18:38:42 +0500
 
 #include <iostream>
 
-
-
 STL
 
 #include <vector>

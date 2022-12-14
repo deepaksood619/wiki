@@ -28,7 +28,7 @@ Ethereum's mechanism to choose the most valid chain is called the "GHOST protoco
     -   Loss of data
     -   Confidentiality
 -   Ethereum is the blockchain of blockchains
-**Ethereum Push Notification Service (EPNS)**
+## Ethereum Push Notification Service (EPNS)
 
 Protocol forblockchainbasednotificationsthat arechain agnostic,platform independentandincentivized!
 <https://epns.io>

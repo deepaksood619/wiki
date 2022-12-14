@@ -8,9 +8,9 @@ Modified: 2022-12-11 19:27:35 +0500
 
 # Syllabus
 
-**Week - 1**
+## Week - 1
 
-**Union - Find**
+## Union - Find
 
 1.  Dynamic Connectivity
 
@@ -25,10 +25,10 @@ Weighted Quick Union
 Weighted Quick Union with Path Compression
 
 5.  Quick-Find Applications
-**Assignment**
+## Assignment
 
 Percolation
-**Analysis of Algorithms**
+## Analysis of Algorithms
 
 1.  Scientific Method of Analysis
 
@@ -60,7 +60,7 @@ Run the program for various input sizes and measure running time
 
 6.  Memory**Week - 2**
 
-**Stacks and Queues**
+## Stacks and Queues
 
 1.  Stacks
 
@@ -73,10 +73,10 @@ Run the program for various input sizes and measure running time
 5.  Iterators
 
 6.  Stack and Queue Applications
-**Assignment**
+## Assignment
 
 Dequeues and Randomized Queues
-**Elementary Sort**
+## Elementary Sort
 
 1.  Introduction
 
@@ -94,7 +94,7 @@ Dequeues and Randomized Queues
 
 6.  Convex Hull**Week - 3**
 
-**Mergesort**
+## Mergesort
 
 1.  Mergesort
 
@@ -105,10 +105,10 @@ Dequeues and Randomized Queues
 4.  Comparators
 
 5.  Stability
-**Assignment**
+## Assignment
 
 Collinear Points
-**Quicksort**
+## Quicksort
 
 1.  Quicksort
 
@@ -117,9 +117,9 @@ Collinear Points
 3.  Duplicate keys (3-way partition quick sort)
 
 4.  System sorts
-**Week - 4**
+## Week - 4
 
-**Priority Queues**
+## Priority Queues
 
 1.  APIs and Elementary Implementation
 
@@ -128,10 +128,10 @@ Collinear Points
 3.  Heapsort
 
 4.  Event-Driven Simulations
-**Assignment**
+## Assignment
 
 8-Puzzle
-**Elementary Symbol Tables**
+## Elementary Symbol Tables
 
 1.  Symbol Table API
 
@@ -148,16 +148,16 @@ Unordered List (Sequential Search)
 5.  Ordered Operations in BSTs
 
 6.  Deletion in BSTs
-**Week - 5**
+## Week - 5
 
-**Balanced Search Trees**
+## Balanced Search Trees
 
 1.  2-3 Search Trees
 
 2.  Red-Black BSTs
 
 3.  B-Trees
-**Geometric Application of BSTs**
+## Geometric Application of BSTs
 
 1.  1d Range Search
 
@@ -168,12 +168,12 @@ Unordered List (Sequential Search)
 4.  Interval Search Trees
 
 5.  Rectangle Intersection
-**Assignment**
+## Assignment
 
 Kd-Trees
-**Week - 6**
+## Week - 6
 
-**Hash Tables**
+## Hash Tables
 
 1.  Hash Tables
 
@@ -184,7 +184,7 @@ Uniform Hashing Assumption
 3.  Linear Probing
 
 4.  Hash Table Context
-**Symbol Table Applications**
+## Symbol Table Applications
 
 1.  Sets
 
@@ -298,13 +298,13 @@ What data structure or data structures would you use?
 ## 6.1. Hash Tables
 
 1.  **4-SUM.**Given an arraya[]ofintegers, the 4-SUM problem is to determine if there exist distinct indicesi, j, k, andlsuch that a[i] + a[j] = a[k] + a[l]. Design an algorithm for the 4-SUM problem that takes time proportional ton^2(under suitable technical assumptions).
-2.  ![Hashing with wrong hashCode() or equals(). Suppose that you implement a data type OlympicAth1ete for use in a java. util . HashMap. • Describe what happens if you override hashCode ( ) but not equals ( ). • Describe what happens if you override equals ( ) but not hashCode ( ). • Describe what happens if you override hashCode ( ) but implement public boolean equals (OlympicAth1ete that) instead of public boolean equals (Object that) . ](media/Coursera---Algorithms-Part---1-image1.png)
+2.  ![image](media/Coursera---Algorithms-Part---1-image1.png)
 
 # Assignments
 
-**1.1. Union Find**
+## 1.1. Union Find
 
-**Percolation**
+## Percolation
 -   N-by-N grid of sites
 -   Each site is open by probability p (or blocked with probability 1-p)
 -   System percolates iff top and bottom are connected by open sites
@@ -315,17 +315,17 @@ What data structure or data structures would you use?
     -   Sites are in same component if connected by open sites
     -   Trick - Introduce 2 virtual sites (and connections to top and bottom)
         -   Percolates iff virtual top site is connected to virtual bottom site
-**3.1 Merge Sort**
+## 3.1 Merge Sort
 
-**Collinear Points**
+## Collinear Points
 
 Given a set of points in the plane, design an algorithm to find all line segments that contain 4 or more points.
-**4.1 Priority Queues**
+## 4.1 Priority Queues
 
-**8-Puzzle.**Your programming assignment is to implement the famous A* search algorithm to solve a combinatorial problem, and to substantially speed it up with an efficient priority queue implementation.
-**5.2 Geometric Applications of BSTs**
+## 8-Puzzle.Your programming assignment is to implement the famous A* search algorithm to solve a combinatorial problem, and to substantially speed it up with an efficient priority queue implementation.
+## 5.2 Geometric Applications of BSTs
 
-**Kd-Trees.**Your programming assignment is to implement kd-trees, which can form the basis for fast search/insert in geometric applications and in multidimensional databases.
+## Kd-Trees.Your programming assignment is to implement kd-trees, which can form the basis for fast search/insert in geometric applications and in multidimensional databases.
 
 1.  Range Search in a query rectangle
 

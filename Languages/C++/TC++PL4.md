@@ -6,15 +6,13 @@ Modified: 2019-08-12 22:10:47 +0500
 
 ---
 
-**Part I: Introductory Material**
+## Part I: Introductory Material
 
 1.  Notes to the Reader
 
 2.  A Tour of C++: **The Basics**
 
 The Basics describes C++'s model of memory, computation, and error handling.
-
-
 
 1.  The Basics
 
@@ -28,13 +26,9 @@ Structures; Classes; Enumerations
 
 Separate Compilation; Namespaces; Error Handling
 
-
-
 3.  A Tour of C++: **Abstraction Mechanisms**
 
 Abstraction Mechanisms presents the language features supporting data abstraction, object-oriented programming, and generic programming.
-
-
 
 1.  Classes
 
@@ -48,13 +42,9 @@ Copying Containers; Moving Containers; Resource Management; Suppressing Operatio
 
 Parameterized Types; Function Templates; Function Objects; Variadic Templates; Aliases
 
-
-
 4.  A Tour of C++: **Containers and Algorithms**
 
 Containers and Algorithms introduces strings, simple I/O, containers, and algorithms as provided by the standard library.
-
-
 
 1.  Libraries
 
@@ -74,13 +64,9 @@ vector; list; map; unordered_map; Container Overview
 
 Use of Iterators; Iterator Types; Stream Iterators; Predicates; Algorithm Overview; Container Algorithms
 
-
-
 5.  A Tour of C++: **Concurrency and Utilities**
 
 Concurrency and Utilities outlines the standard-library utilities related to resource management, concurrency, mathematical computation, regular expressions, and more.
-
-
 
 1.  Introduction
 
@@ -102,9 +88,7 @@ Time; Type Functions; pair and tuple
 
 Mathematical Functions and Algorithms; Complex Numbers; Random Numbers; Vector Arithmetic; Numeric Limits
 
-
-
-**Part II: Basic Facilities**
+## Part II: Basic Facilities
 
 6.  Types and Declarations
 
@@ -128,9 +112,7 @@ Fundamental types, naming, scopes, initialization, simple type deduction, object
 
 15. Source Files and Programs
 
-
-
-**Part III: Abstraction Mechanisms**
+## Part III: Abstraction Mechanisms
 
 16. Classes
 
@@ -159,8 +141,6 @@ Fundamental types, naming, scopes, initialization, simple type deduction, object
 28. Metaprogramming
 
 29. A Matrix Design
-
-
 
 Part IV: The Standard Library
 

@@ -8,15 +8,9 @@ Modified: 2022-01-15 21:33:49 +0500
 
 A**stored procedure**(also termed**proc,storp,sproc,StoPro,StoredProc,StoreProc,sp, orSP**) is a[subroutine](https://en.wikipedia.org/wiki/Subroutine)available to applications that access a[relational database management system](https://en.wikipedia.org/wiki/Relational_database_management_system)(RDBMS). Such procedures are stored in the database[data dictionary](https://en.wikipedia.org/wiki/Data_dictionary).
 
-
-
 Uses for stored procedures include[data-validation](https://en.wikipedia.org/wiki/Data_validation)(integrated into the database) or[access-control](https://en.wikipedia.org/wiki/Access_control)mechanisms. Furthermore, stored procedures can consolidate and centralize logic that was originally implemented in applications. To save time and memory, extensive or complex processing that requires execution of several[SQL](https://en.wikipedia.org/wiki/SQL)statements can be saved into stored procedures, and all applications call the procedures. One can use nested stored procedures by executing one stored procedure from within another.
 
-
-
 Stored procedures may return[result sets](https://en.wikipedia.org/wiki/Result_set), i.e., the results of aSELECTstatement. Such result sets can be processed using[cursors](https://en.wikipedia.org/wiki/Cursor_(databases)), by other stored procedures, by associating a result-set locator, or by applications. Stored procedures may also contain declared variables for processing data and cursors that allow it to loop through multiple rows in a table. Stored-procedure flow-control statements typically includeIF,WHILE,LOOP,REPEAT, andCASEstatements, and more. Stored procedures can receive variables, return results or modify variables and return them, depending on how and where the variable is declared.
-
-
 
 CREATEPROCEDURE*procedure_name*
 
@@ -26,13 +20,9 @@ AS
 
 GO;
 
-
-
 EXEC*procedure_name*;
 
-
-
-**Advantages of using stored procedures**
+## Advantages of using stored procedures
 -   A stored procedure allows modular programming.
     You can create the procedure once, store it in the database, and call it any number of times in your program.
 -   A stored procedure allows faster execution.
@@ -46,21 +36,15 @@ EXEC*procedure_name*;
     -   User-defined stored procedures
     -   Extended stored Procedures
 
-
-
-**Types of stored procedures**
+## Types of stored procedures
 -   **System-stored procedures** are stored in the master database and these start with asp_prefix. These procedures can be used to perform a variety of tasks to support SQL Server functions for external application calls in the system tables
     Example: sp_helptext [StoredProcedure_Name]
 -   **User-definedstored procedures** are usually stored in a user database and are typically designed to complete the tasks in the user database. While coding these proceduresdon't usethesp_prefix because if we use thesp_prefix first, it will check the master database, and then it comes to user defined database.
 -   **Extendedstored procedures** are the procedures that call functions from DLL files. Nowadays, extended stored procedures are deprecated for the reason it would be better to avoid using extended stored procedures.
 
-
-
 <https://en.wikipedia.org/wiki/Stored_procedure>
 
-
-
-**Stored Procedures:**
+## Stored Procedures:
 -   Procedure can return zero or n values
 -   Procedures can have input/output parameters for it
 -   Procedure allows select as well as DML statement in it
@@ -77,9 +61,7 @@ EXEC*procedure_name*;
 -   Print command used.
 -   It execute Dynamic SQL.
 
-
-
-**Functions:**
+## Functions:
 -   function can return one value which is mandatory
 -   functions can have only input parameters
 -   function allows only select statement in it
@@ -93,12 +75,8 @@ EXEC*procedure_name*;
 -   Print command cant't use.
 -   It can't execute dynamic sql.
 
-
-
 <https://www.mysqltutorial.org/mysql-error-handling-in-stored-procedures
 
-
-
-**Access**
+## Access
 
 ForMySQL 8, connect your database viaWorkbench, go toAdministration -> User and Privileges, and select the user account you want to modify, then switch to "Administrative Roles", tick "SELECT" on right panel (Global Privileges), Click 'Apply' and done.

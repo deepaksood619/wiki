@@ -10,19 +10,13 @@ Modified: 2020-07-23 22:17:34 +0500
 
 They are boolean types and consists of the two predefined constants: (a) true (b) false
 
-
-
 2.  Numeric types
 
 They are again arithmetic types and they represents a) integer types or b) floating point values throughout the program.
 
-
-
 3.  String types
 
 A string type represents the set of string values. Its value is a sequence of bytes. Strings are immutable types that is once created, it is not possible to change the contents of a string. The predeclared string type is string.
-
-
 
 4.  Derived types
 
@@ -48,9 +42,7 @@ A string type represents the set of string values. Its value is a sequence of by
 
     i.  Enumeration
 
-
-
-**Integer Types**
+## Integer Types
 
 The predefined architecture-independent integer types are
 
@@ -70,13 +62,9 @@ The predefined architecture-independent integer types are
 
 8.  int64 - Signed 64-bit integers (-9223372036854775808 to 9223372036854775807)
 
-
-
 The value of an n-bit integer is n bits and is represented using two's complement arithmetic operations.
 
-
-
-**Floating Types**
+## Floating Types
 
 1.  float32 - IEEE-754 32-bit floating-point numbers (single-precision)
 
@@ -86,9 +74,7 @@ The value of an n-bit integer is n bits and is represented using two's complemen
 
 4.  complex128 - Complex numbers with float64 real and imaginary parts
 
-
-
-**Other Numeric Types**
+## Other Numeric Types
 
 1.  byte - same as uint8
 
@@ -96,11 +82,7 @@ The value of an n-bit integer is n bits and is represented using two's complemen
 
 Go introduces a concept ofRunes. While strings are used to represent a sequence of characters,runes are used to represent a single character.
 
-
-
 If you want to use a Rune, you have to surround a character with single quotation marks like 'A'. Go uses the Unicode standard for storing runes, so they can store any character on the earth.
-
-
 
 3.  uint - 32 or 64 bits
 
@@ -108,34 +90,24 @@ If you want to use a Rune, you have to surround a character with single quotatio
 
 5.  uintptr - an unsigned integer to store the uninterpreted bits of a pointer value
 
-
-
-**Variable definition**
+## Variable definition
 
 var i, j, k, int;
 
 d = 42;
 
-
-
-**Static Type Declaration in Go**
+## Static Type Declaration in Go
 
 A static type variable declaration provides assurance to the compiler that there is one variable available with the given type and name so that the compiler can proceed for further compilation without requiring the complete detail of the variable. A variable declaration has its meaning at the time of compilation only, the compiler needs the actual variable declaration at the time of linking of the program.
 
-
-
-**Dynamic Type Declaration / Type Inference in Go**
+## Dynamic Type Declaration / Type Inference in Go
 
 A dynamic type variable declaration requires the compiler to interpret the type of the variable based on the value passed to it. The compiler does not require a variable to have type statically as a necessary requirement.
-
-
 
 var x float64 = 20.0
 y := 42
 
-
-
-**The lvalues and the rvalues in Go**
+## The lvalues and the rvalues in Go
 
 There are two kinds of expressions in Go −
 -   lvalue− Expressions that refer to a memory location is called "lvalue" expression. An lvalue may appear as either the left-hand or right-hand side of an assignment.

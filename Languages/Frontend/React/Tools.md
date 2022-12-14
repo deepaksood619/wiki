@@ -10,17 +10,11 @@ Modified: 2022-04-19 22:44:41 +0500
 
 <https://prettier.io
 
-
-
 <https://github.com/jaredpalmer/tsdx>
 
 Despite all the recent hype, setting up a new TypeScript (x React) library can be tough. Between [Rollup](https://github.com/rollup/rollup), [Jest](https://github.com/facebook/jest), tsconfig, [Yarn resolutions](https://yarnpkg.com/en/docs/selective-version-resolutions), ESLint, and getting VSCode to play nicely....there is just a whole lot of stuff to do (and things to screw up). TSDX is a zero-config CLI that helps you develop, test, and publish modern TypeScript packages with ease--so you can focus on your awesome new library and not waste another afternoon on the configuration.
 
-
-
-**npx tsdx create mylib**
-
-
+## npx tsdx create mylib
 
 <https://github.com/rollup/rollup>
 
@@ -34,13 +28,9 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 
 <https://github.com/reactjs/react-codemod>
 
-
-
-**Build tools**
+## Build tools
 
 <https://github.com/facebook/create-react-app>
-
-
 
 [**https://github.com/vitejs/vite**](https://github.com/vitejs/vite)
 
@@ -60,27 +50,17 @@ Next Generation Frontend Tooling
 
 6.  Fully Typed APIs
 
-
-
-**Webpack**
+## Webpack
 
 A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.
 
-
-
 bundle assets, images, scripts, styles
-
-
 
 Install npm packages on the frontend
 
 ![](media/Tools-image1.png)
 
-
-
 Webpack also provides features like a local server with hot reload (they call it hot module replacement) to make your development experience better.
-
-
 
 <https://www.toptal.com/react/webpack-react-tutorial-pt-1>
 
@@ -88,103 +68,69 @@ Webpack also provides features like a local server with hot reload (they call it
 
 <https://github.com/webpack/webpack>
 
-
-
-**Other**
+## Other
 -   Parcel
 -   Rollup
 -   Browserify
 
-
-
-**Babel (Transpiler)**
+## Babel (Transpiler)
 
 Babel is how we take advantage of ECMA script beyond ES5 and deal with something called JSX (JavaScript as XML) that we will use in React.
 
-
-
 Babel is a JavaScript compiler or transpiler which translates the ECMAScript 2015+ code into code that can be understood by older JavaScript engines.
-
-
 
 Babel is the most popular Javascript compiler, and frameworks like Vue and React use it by default.
 
-
-
-**Do you need Babel for your React App?**
+## Do you need Babel for your React App?
 
 For React, you need a compiler because React code generally uses JSX and JSX needs to be compiled. Also the library is built on the concept of using ES6 syntax.
 
-
-
 Luckily, when you create a project withcreate-react-app, it comes with Babel already configured and you usually do not need to modify the config.
 
-
-
-**ESLint**
+## ESLint
 
 you can use a tool like ESLint to enforce rules in the code. For example, you can create a rule to enforce or disallow the usage of semicolons in your JavaScript code. If you break a rule, ESLint shows an error and the code does not even get compiled -- so it is not possible to ignore that unless you disable the rule.
 
-
-
 Linters can be used to enforce standards by writing custom rules. But you can also use the pre-made ESLint configs established by big tech companies to help devs get into the habit of writing clean code.
-
-
 
 You can take a look at Google's ESLint config[here](https://github.com/google/eslint-config-google)-- it is the one I prefer.
 
-
-
 ESLint helps you get used to best practices, but that's not its only benefit. ESLint also warns you about possible bugs/errors in your code so you can avoid common mistakes.
 
+## Decisions
 
-
-**Decisions**
-
-**Editor**
+## Editor
 -   Which one?
 -   Which plugins?
 -   Use built in terminal?
 -   Editor config
 
-
-
-**Module format**
+## Module format
 -   ES6 Modules, CommonJS
 
-
-
-**HTML generation**
+## HTML generation
 -   Minify?
 -   Use plugin?
 -   Inject prod only concerns?
 -   Templating language?
 
-
-
-**Transpiling**
+## Transpiling
 -   Native ES or diff language?
 -   Use experimental features?
 -   Which plugins?
 -   Production vs dev config
 
-
-
-**Bundler**
+## Bundler
 -   Webpack, Browserify, Rollup
 
-
-
-**Linting**
+## Linting
 -   Which linter?
 -   Enable which rules?
 -   Warning or error?
 -   Which plugins?
 -   Use a preset?
 
-
-
-**Testing**
+## Testing
 -   Framework?
 -   Assertion Library?
 -   Helpers?
@@ -195,60 +141,40 @@ ESLint helps you get used to best practices, but that's not its only benefit. ES
 -   Code Coverage
 -   Continuous Integration
 
-
-
-**Project structure**
+## Project structure
 -   By file type or feature?
 -   Centralize API?
 -   Allow Inline JS?
 -   Extract to POJOs?
 
-
-
-**HTTP**
+## HTTP
 -   Library
 -   Mock schema format
 -   Mock data generation
 -   Mock server
 
-
-
-**Production build**
+## Production build
 -   Minification
 -   Sourcemaps
 -   Bundle splitting
 -   Cache busting
 -   Error logging
 
-
-
-**Automated Deployment**
-
-
+## Automated Deployment
 
 <https://github.com/thedaviddias/Front-End-Checklist>
 
 <https://frontendchecklist.io
 
-
-
-**JavaScript ToolChain**
+## JavaScript ToolChain
 
 The bleeding edge JavaScript toolchain can seem quite complex, and it's very important to feel confident in the toolchain and to have a mental picture of how the pieces fit together.
 
-
-
 There are a couple primary pillars in the JavaScript toolchain: Dependency Management, Linting, Style-checking, Transpilation, and Compilation, Minification, Source-Mapping.
-
-
 
 Typically, we use build tools like Gulp, Watchify/Browserify, Broccoli, or Webpack towatch the filesystemfor file events (like when you add or edit a file). After this occurs, the build tool is configured to carry out a group ofsequential or parallel tasks.
 
-
-
 This part is the most complex piece, and is the center of the development process.
-
-
 
 The rest of the tools belong in that group of sequential or parallel tasks:
 -   **Style linting -** typically a linter like JSCS is used to ensure the source code is following a certain structure and style

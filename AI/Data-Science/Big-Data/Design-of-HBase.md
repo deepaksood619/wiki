@@ -22,9 +22,7 @@ Modified: 2022-04-05 21:18:03 +0500
 
 8.  Bloom Filter and Fold, Store, and Shift
 
-
-
-**HBase is**
+## HBase is
 -   An opensource NoSQL database
 -   A distributed column-oriented data store that can scale horizontally to 1000s of commodity servers and petabytes of indexed storage
 -   Designed to operate on top of the Hadoop distributed file system. (HDFS) for scalability, fault tolerance, and high availability
@@ -32,19 +30,15 @@ Modified: 2022-04-05 21:18:03 +0500
 -   Works with structured, unstructured and semi-structured data
 -   Unlike Cassandra, HBase prefers consistency (over availability)
 
-
-
-**HBase Architecture**
+## HBase Architecture
 -   Table split into regions and served by region servers
 -   Regions vertically divided by column families into "stores"
 -   Stores saved as files on HDFS
 -   Hbase utilizes zookeeper for distributed coordination
 
-![Client Region Server Data node Zookeeper Data Node Hbase Master Region Server Data Node ](media/Big-Data_Design-of-HBase-image1.jpg)
+![image](media/Big-Data_Design-of-HBase-image1.jpg)
 
-
-
-**HBase components**
+## HBase components
 -   Client: Finds RegionServers that are serving particular row range of interest
 -   HMaster: Monitoring all RegionServer instances in the cluster
 -   Regions: Basic element of availability and distribution for tables
@@ -54,18 +48,14 @@ Modified: 2022-04-05 21:18:03 +0500
 -   Tables are divided into sequences of rows, by key range, called regions
 -   These regions are then assigned to the data nodes in the cluster called "RegionServers"
 
-
-
-**Data Model**
+## Data Model
 -   Data stored in Hbase is located by its "rowkey"
 -   RowKey is like a primary key from a relational database
 -   Records in Hbase are stored in sorted order, according to rowkey
 -   Data in a row are grouped together as Column Families. Each Column Family has one or more Columns
 -   These Columns in a family are stored together in a low level storage file known as HFile
 
-
-
-**HBase Data Model**
+## HBase Data Model
 
 1.  Table
 
@@ -79,9 +69,7 @@ Modified: 2022-04-05 21:18:03 +0500
 
 6.  Timestamp
 
-
-
-**HBase Data Model**
+## HBase Data Model
 -   **Table:** HBase organizes data into tables. Table names are Strings and composed of characters that are safe for use in a file system path
 -   **Row:** Within a table, data is stored according to its row. Rows are identified uniquely by their row key. Row keys do not have a data type and are always treated as a byte[] (byte array)
 -   **Column Family:** Data within a row is grouped by column family. Every row in a table has the same column families, although a row need not store data in all its families. Column families are Strings and composed of characters that are safe for use in a file system path
@@ -90,19 +78,13 @@ Modified: 2022-04-05 21:18:03 +0500
 -   **Timestamp:** Values within a cell are versioned. Versions are idenfied by their version number, which by default is the timestamp is used.
 -   If the timestamp is not specified for a read, the latest one is returned. The number of cell value versions retained by Hbase is configured for each column family. The default number of cell versions is three.
 
+## Zab - Zookeeper Atomic Broadcast
 
+## HBase Architecture
 
-**Zab - Zookeeper Atomic Broadcast**
+![image](media/Big-Data_Design-of-HBase-image2.jpg)
 
-
-
-**HBase Architecture**
-
-![Small group of servers running Zab, a consensus protocol (Paxos-like) Client HRegionServer Hregion Store MemStore Zookeeper HLog HMaster MemStore StoreFiIe Wile HRegionServer StoreFile Hr-ile StoreFile Wile Store StoreFile Wile HDFS ](media/Big-Data_Design-of-HBase-image2.jpg)
-
-
-
-**Auto Sharding and Distribution**
+## Auto Sharding and Distribution
 -   Unit of scalability in HBase is the Region
 -   Sorted, contiguous range of rows
 -   Spread "randomly" across RegionServer
@@ -110,17 +92,11 @@ Modified: 2022-04-05 21:18:03 +0500
 -   Split automatically or manually to scale with growing data
 -   Capacity is solely a factor of cluster nodes vs Regions per node
 
-
-
-**Bloom Filter**
+## Bloom Filter
 -   Bloom filters are generated when HFile is pesisted
 
-![Bloom Filter • Bloom Filters are generated when HFile is persisted • Stored at the end of each HFile • Loaded into memory • Allows check on row + column level • Can filter entire store files from reads • Useful when data is grouped • Also useful when many misses are expected during reads (non existing keys) Big Data Computing Design of HBase ](media/Big-Data_Design-of-HBase-image3.png)
-
-
+![image](media/Big-Data_Design-of-HBase-image3.png)
 
 ![](media/Big-Data_Design-of-HBase-image4.png)
-
-
 
 

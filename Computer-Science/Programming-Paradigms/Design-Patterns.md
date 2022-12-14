@@ -88,13 +88,13 @@ In a parameterized function, one or more of the details of what the function doe
 
 ## The Scope**
 
-**Class-scope**
+## Class-scope
 
 when pattern is categorized as class-scope, it means that its goals are achieved at the compile time using inheritance
-**Object-scope**
+## Object-scope
 
 when pattern is categorized as object-scope its goals are achieved through composition during the runtime
-**Single Source of Truth (SSOT)**
+## Single Source of Truth (SSOT)
 
 In order to centralize the data access, we need something called Single Source of Truth (SSOT).
 In information systems design and theory, single source of truth (SSOT) is the practice of structuring information models and associated data schema such that every data element is mastered (or edited) in only one place.
@@ -103,7 +103,7 @@ And because all other locations of the data access just refer back to the primar
 Deployment of a SSOT is becoming increasingly important in enterprise settings where incorrectly linked duplicate or de-normalized data elements (a direct consequence of intentional or unintentional denormalization of any explicit data model) pose a risk for retrieval of outdated, and therefore incorrect, information.
 
 A common example would be the[electronic health record](https://en.wikipedia.org/wiki/Electronic_health_record), where it is imperative to accurately validate patient identity against a single referential repository, which serves as the SSOT.
-**Repository Pattern**
+## Repository Pattern
 
 <https://medium.com/swlh/repository-pattern-in-android-c31d0268118c>
 
@@ -118,7 +118,7 @@ A common example would be the[electronic health record](https://en.wikipedia.org
 <https://stackabuse.com/design-patterns-in-python>
 
 <https://www.freecodecamp.org/news/4-design-patterns-to-use-in-web-development>
-![[hide] Creational Structural Behavioral Functional Concurrency Architectural Cloud Distributed Other Books People Communities Software design patterns Abstract factory • Builder • Dependency injection • Factory method • Lazy initialization • Multiton • Object pool • Prototype • RAII • Singleton Adapter • Bridge • Composite • Decorator • Delegation • Facade • Flyweight • Front controller • Marker interface • Module • Proxy • Twin Blackboard • Chain of responsibility • Command • Interpreter • Iterator • Mediator • Memento • Null object • Observer • Servant • Specification • State • Strategy • Template method • Visitor Monoid • Functor • Applicative • Monad • Comonad • Free monad • HOF • Currying • Function composition • Closure • Generator Active object • Actor • Balking • Barrier • Binding properties • Coroutine • Compute kernel • Double-checked locking • Event-based asynchronous • Fiber • Futex • Futures and promises • Guarded suspension • Immutable object • Join • Lock • Messaging • Monitor • Proactor • Reactor • Read write lock • Scheduler • STM • Thread pool • Thread-local storage ADR • Active record • Broker • Client---server • CBD • DAO • DTO • DDD • ECB • ECS • EDA • Front controller • Identity map • Interceptor • Implicit invocation • Inversion of control • Model 2 • MOM • Microservices • MVA • MVC • MVP • MVVM • Monolithic • Multitier • Naked objects • ORB • P2P • Publish---subscribe • PAC • REST • SOA • Service locator • Specification Ambassador • Anti-Corruption Layer • Bulkhead • Cache-Aside • Circuit Breaker • CQRS • Compensating Transaction • Competing Consumers • Compute Resource Consolidation • Event Sourcing • External Configuration Store • Federated Identity • Gatekeeper • Index Table • Leader Election • MapReduce • Materialized View • Pipes • Filters • Priority Queue • Publisher-Subscriber • Queue-Based Load Leveling • Retry • Scheduler Agent Supervisor • Sharding • Sidecar • Strangler • Throttling • Valet Key Business delegate • Composite entity • Intercepting filter • Lazy loading • Mangler • Mock object • Type tunnel • Method chaining Design Patterns • Enterprise Integration Patterns • Code Complete • POSA Christopher Alexander • Erich Gamma • Ralph Johnson • John Vlissides • Grady Booch • Kent Beck • Ward Cunningham • Martin Fowler • Robert Martin • Jim Coplien • Douglas Schmidt • Linda Rising The Hillside Group • The Portland Pattern Repository ](media/Design-Patterns-image1.jpg)
+![image](media/Design-Patterns-image1.jpg)
 
 <https://en.wikipedia.org/wiki/Software_design_pattern>
 

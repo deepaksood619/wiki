@@ -6,19 +6,15 @@ Modified: 2019-06-09 17:44:33 +0500
 
 ---
 
-**Blinkist - The future is history**
+## Blinkist - The future is history
 
 Totalitarian rule in Russia
 
-
-
-**Blinkist - Move Fast and Break Things by Jonathan Taplin**
+## Blinkist - Move Fast and Break Things by Jonathan Taplin
 -   Libertarianism
 -   Monopoly can cause terrible damage as by East India Trading Company (Great Bengal Famine and wrote legislation that control nation's trade routes)
 
-
-
-**Blinkist - Who we are and How we got here by David Reich (30 Nov 2018)**
+## Blinkist - Who we are and How we got here by David Reich (30 Nov 2018)
 
 Ancient DNA and the new science of the human past
 -   Introduction
@@ -49,9 +45,7 @@ Ancient DNA and the new science of the human past
 -   Population mixing is sometimes driven by gender inequality among social groups
 -   DNA demonstrates that differences exist between populations, but they don't justify racist generalizations
 
-
-
-**Blinkist - The Tangled Tree by David Quammen**
+## Blinkist - The Tangled Tree by David Quammen
 -   On the Origin of Species -- Charles Darwin, 1859
     -   Natural selection (survival of the fittest)
 -   Symbiosis - that one cell could absorb something like a bacteria and begin to use it as its own organ (symbiogenesis -- merging of two separate organisms)
@@ -67,17 +61,13 @@ Ancient DNA and the new science of the human past
 -   A reticulated tree
 -   Transferable resitance factors (antibiotic resistence)
 
-
-
-**Blinkist - Other Minds**
+## Blinkist - Other Minds
 
 Evolution of octopus
 
 Life 3.2 billion years ago, but animals 1.1 billion years ago
 
-
-
-**Blinkist - Power, Sex, Suicide by Nick Lane (14 Aug 2018)**
+## Blinkist - Power, Sex, Suicide by Nick Lane (14 Aug 2018)
 -   Multicellular organisms are called eukaryotes, and each of their celss contains a nucleus. These are what humans and animals are made up of.
 -   More simple organisms, such as bacteria, are known as prokaryotes. They contain no nucleus.
 -   Cellular respiration - The act of breathing provides our cells with oxygen, which we use to burn glucose.
@@ -88,9 +78,7 @@ Life 3.2 billion years ago, but animals 1.1 billion years ago
 -   Mitochondrial Eve or African Eve, laid the foundation for the **Out of Africa** theory, which supposes that all mordern human beings originated in Africa.
 -   Free radicals are molecules or atoms that have one, unpaired electron and are thus unstable.
 
-
-
-**Keeling Curve**
+## Keeling Curve
 
 TheKeeling Curveis a graph of the accumulation of[carbon dioxide in the Earth's atmosphere](https://en.wikipedia.org/wiki/Carbon_dioxide_in_Earth%27s_atmosphere)based on continuous measurements taken at the[Mauna Loa Observatory](https://en.wikipedia.org/wiki/Mauna_Loa_Observatory)on the island of[Hawaii](https://en.wikipedia.org/wiki/Hawaii)from 1958 to the present day. The curve is named for the scientist[Charles David Keeling](https://en.wikipedia.org/wiki/Charles_David_Keeling), who started the monitoring program and supervised it until his death in 2005.
 
@@ -100,9 +88,5 @@ Keeling's measurements showed the first significant evidence of rapidly increasi
 
 [2](https://en.wikipedia.org/wiki/Carbon_dioxide)in the atmosphere.
 
-
-
-![Monthly mean C02 concentration Loa 1958 - 2018 Seasonal variation 30 ](media/Others-image1.png)
-
-
+![image](media/Others-image1.png)
 

@@ -6,10 +6,10 @@ Modified: 2022-01-10 16:33:38 +0500
 
 ---
 
-**Datastructures > Others > Database Index**
-**JDBC - Java Database Connectivity**
+## Datastructures > Others > Database Index
+## JDBC - Java Database Connectivity
 
-**Java Database Connectivity**(**JDBC**) is an[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API) for the programming language[Java](https://en.wikipedia.org/wiki/Java_(programming_language)), which defines how a client may access a[database](https://en.wikipedia.org/wiki/Database). It is a Java-based data access technology used for Java database connectivity. It is part of the[Java Standard Edition](https://en.wikipedia.org/wiki/Java_Standard_Edition)platform, from[Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Corporation). It provides methods to query and update data in a database, and is oriented towards[relational databases](https://en.wikipedia.org/wiki/Relational_database). A JDBC-to-[ODBC](https://en.wikipedia.org/wiki/ODBC)bridge enables connections to any ODBC-accessible data source in the[Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)(JVM) host environment.
+## Java Database Connectivity**(**JDBC) is an[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API) for the programming language[Java](https://en.wikipedia.org/wiki/Java_(programming_language)), which defines how a client may access a[database](https://en.wikipedia.org/wiki/Database). It is a Java-based data access technology used for Java database connectivity. It is part of the[Java Standard Edition](https://en.wikipedia.org/wiki/Java_Standard_Edition)platform, from[Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Corporation). It provides methods to query and update data in a database, and is oriented towards[relational databases](https://en.wikipedia.org/wiki/Relational_database). A JDBC-to-[ODBC](https://en.wikipedia.org/wiki/ODBC)bridge enables connections to any ODBC-accessible data source in the[Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)(JVM) host environment.
 <https://en.wikipedia.org/wiki/Java_Database_Connectivity>
 
 ## ODBC - Opensource Database Connectivity**
@@ -27,13 +27,13 @@ Data integrity takes several forms and can be divided into four categories:
 -   **Domain Integrity:** Restricting the type of values that one can insert in order to enforce correct values. For example, a House can only be Gryffindor, Ravenclaw, Slytherin, or Hufflepuff.
 -   **Referential Integrity:** Records that are used by other records cannot be deleted. A teacher cannot be deleted if they are currently teaching a course.
 -   **User-Defined Integrity:**An "other" category that consists of business-related logic and rules to the database.
-**Referential Integrity Constraints**
+## Referential Integrity Constraints
 
 Referential integrity constraints are one of the features of DBMSs we become acquainted with. We use them because they make us feel comfortable. These **constraints guarantee that you will never mistakenly insert a value that doesn't exist in the referenced column.** It also prevents you from deleting a row whose column is referenced on the other side of the constraint.
 If you have seconds thoughts about using referential integrity constraints, their use is not tied to business requirements for your running software. They act as safety nets, preventing your code from sustaining mistaken behavior and beginning to write uncorrelated data to your database. Because we are applying zero-downtime migrations to our schema and none of our migrations are destructive, you still have another safety net: you never lose any data, and you are always capable of deploying your previous version into production without the fear of losing or corrupting anything. In this sense, we believe that it is safe to simply drop your referential integrity constraints before applying your series of migrations. Later, when everything is deployed into production and you know that you are done with the refactorings, you will recreate the constraints using the new columns
-**Data Deduplication (Dedup)**
+## Data Deduplication (Dedup)
 
-**Data Deduplication**is a specialized[data compression](https://en.wikipedia.org/wiki/Data_compression)technique for eliminating duplicate copies of repeating data. Related and somewhat synonymous terms are**intelligent (data) compression**and[**single-instance (data) storage**](https://en.wikipedia.org/wiki/Single-instance_storage). This technique is used to improve storage utilization and can also be applied to network data transfers to reduce the number of bytes that must be sent. In the deduplication process, unique chunks of data, or byte patterns, are identified and stored during a process of analysis. As the analysis continues, other chunks are compared to the stored copy and whenever a match occurs, the redundant chunk is replaced with a small reference that points to the stored chunk. Given that the same byte pattern may occur dozens, hundreds, or even thousands of times (the match frequency is dependent on the chunk size), the amount of data that must be stored or transferred can be greatly reduced.
+## Data Deduplication**is a specialized[data compression](https://en.wikipedia.org/wiki/Data_compression)technique for eliminating duplicate copies of repeating data. Related and somewhat synonymous terms are**intelligent (data) compression**and[**single-instance (data) storage](https://en.wikipedia.org/wiki/Single-instance_storage). This technique is used to improve storage utilization and can also be applied to network data transfers to reduce the number of bytes that must be sent. In the deduplication process, unique chunks of data, or byte patterns, are identified and stored during a process of analysis. As the analysis continues, other chunks are compared to the stored copy and whenever a match occurs, the redundant chunk is replaced with a small reference that points to the stored chunk. Given that the same byte pattern may occur dozens, hundreds, or even thousands of times (the match frequency is dependent on the chunk size), the amount of data that must be stored or transferred can be greatly reduced.
 Today, you usually head aboutdeduplicationin the contest of storage devices or architectures. It is a way of, for example, saving disk space when large amounts of duplicate data is present (imagine, for example, having 100 VM images on a SAN - there is likely to be a lot of duplication among the operating system and other common files on each VM).
 Deduplication is a way of storing this redundant data only once.
 <https://en.wikipedia.org/wiki/Data_deduplication>
@@ -48,7 +48,7 @@ A scalar type can represent exactly one value. The scalar types are number, stri
 A document type can represent a complex structure with nested attributes, such as you would find in a JSON document. The document types are list and map.-   **Set Types**
 
 A set type can represent multiple scalar values. The set types are string set, number set, and binary set.
-**Autoincrement**
+## Autoincrement
 
 AUTOINCREMENT'ing is a common way of generating primary keys. It's not uncommon to see cases where databases are used as ID generators and there are ID-generation designated tables in a database.
 There are a few reasons why generating primary keys via auto-incrementing may not be not ideal:
@@ -62,14 +62,14 @@ Please consider the impacts of auto-incremented IDs vs UUIDs on indexing, partit
 
 <https://medium.com/yugabyte/a-busy-developers-guide-to-database-storage-engines-the-basics-6ce0a3841e59>
 
-![DATABASE STORAGE ENGINES B-TREE Server DB2 LSM TREE HBRSE cassandra O Google Cloud Bigtable O influxdb elasticsearch O LEVELDB DB mongo MySQL. Couchbase z RocksDB Byte DB ](media/Others-image1.png)
-**Performance Benchmarks**
+![image](media/Others-image1.png)
+## Performance Benchmarks
 
-**SQL Databases**
+## SQL Databases
 
 When you make a lot of inserts or updates do it one statement or disable autocommit and use explicit transactions.
 <https://docs.google.com/spreadsheets/d/1fbrqhC83l8GNb_WuNu_53_QgAXAi661wsv7bun-IMt0/edit?usp=sharing>
 
-![0.100 0075 0050 0025 Red,hift Databases insert comparision 10 100 ](media/Others-image2.png)
+![image](media/Others-image2.png)
 
 <https://github.com/harryho/db-samples>

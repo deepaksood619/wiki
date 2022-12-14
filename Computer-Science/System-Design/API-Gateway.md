@@ -6,10 +6,10 @@ Modified: 2022-02-05 01:13:53 +0500
 
 ---
 
-**API Design**
+## API Design
 
 [Designing APIs: Less Data is More || Damir Svrtan](https://www.youtube.com/watch?v=DC9032_nkyc)
-**Features**
+## Features
 
 1.  Authentication
 
@@ -42,17 +42,17 @@ Modified: 2022-02-05 01:13:53 +0500
 15. Rate Limiting
 
 16. Expose as API service
-**Using an API gateway has the following benefits:**
+## Using an API gateway has the following benefits:
 -   Insulates the clients from how the application is partitioned into microservices
 -   Insulates the clients from the problem of determining the locations of service instances
 -   Provides the optimal API for each client
 -   Reduces the number of requests/roundtrips. For example, the API gateway enables clients to retrieve data from multiple services with a single round-trip. Fewer requests also means less overhead and improves the user experience. An API gateway is essential for mobile applications.
 -   Simplifies the client by moving logic for calling multiple services from the client to API gateway
 -   Translates from a "standard" public web-friendly API protocol to whatever protocols are used internally
-**The API gateway pattern has some drawbacks:**
+## The API gateway pattern has some drawbacks:
 -   Increased complexity - the API gateway is yet another moving part that must be developed, deployed and managed
 -   Increased response time due to the additional network hop through the API gateway - however, for most applications the cost of an extra roundtrip is insignificant.
-**Tools**
+## Tools
 
 1.  **Cloud**
 
@@ -80,7 +80,7 @@ Modified: 2022-02-05 01:13:53 +0500
 
 ## API Gateways**
 
-**Gloo**
+## Gloo
 
 The Hybrid Application Gateway built on top of Envoy
 Gloo is a feature-rich, Kubernetes-native ingress controller, and next-generation API gateway. Gloo is exceptional in its function-level routing; its support for legacy apps, microservices and serverless; its discovery capabilities; its numerous features; and its tight integration with leading open-source projects. Gloo is uniquely designed to support hybrid applications, in which multiple technologies, architectures, protocols, and clouds can coexist
@@ -97,7 +97,7 @@ Key features include:
 -   [Authentication](https://www.getambassador.io/reference/services/auth-service)
 -   Robust TLS support, including TLS client-certificate authentication
 <https://github.com/datawire/ambassador>
-![Primary use case Learning curve Cost Configurability Config language Config style for endpoints GUI and Drag & Drop Config Authentication support Govemance model Installation and ops Kubernetes Cloud laaS Private Data Center Scalability Primary scaling approach Additional data store required for horizontal scaling Ambassador Microservices gateway Simple Open source YAML (Kubernetes annotations) Declarative No Yes Decentralised, self-service Easy (Official YAML bootstrap available) Horizontal No, state managed via Kubernetes Traefik Microservices gateway Simple Open source TOML Declarative No Only basic auth out-of-the-box Decentralised, self-service Easy (Official YAML bootstrap available) Easy Easy Horizontal Yes, KN store required e.g. Consul, etcd, ZK, boltdb OpenResty Monolith / microservices gateway Moderate Open source Text files (nginx.conf etc) Declarative No Yes Decentralised Moderate (Unofficial / unmaintained Yaml bootstrap available Moderate Moderate Horizontal Yes, KN store required e.g. redis Cloud Vendor Impl Expose backend services, including microservices and FaaS Moderate Typically YAML or JSON Declarative / imperative Not typically Yes (Although may offer limited customisation) Decentralised (typically) Easy-moderate Easy Horizontal Yes. Data management typically integrated into service CA API Gateway Enterprise API management High Text files Declarative / imperative Yes Yes Centralised High High Vertical (horizontal supported) Yes. MySQL cluster required Kong Enterprise Edition Enterprise API management Moderate Admin REST API, Text files (nginx.conf etc) Imperative Yes Yes Configurable Moderate (Official k8s Yaml and Helm chart available; external data store required) High High Horizontal Yes. PostgreSQL or Cassandra cluster required ](media/API-Gateway-image1.png)
+![image](media/API-Gateway-image1.png)
 <https://microservices.io/patterns/apigateway.html>
 
 Rate Limiting Service

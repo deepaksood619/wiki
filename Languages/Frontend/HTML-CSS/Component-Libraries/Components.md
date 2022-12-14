@@ -8,13 +8,9 @@ Modified: 2021-11-14 10:06:33 +0500
 
 <https://material.io/components>
 
-
-
 Badges, Buttons, Breadcrumbs, Cards, Chips, Collections, Footer, Forms, Icons, Navbar, Pagination, Preloader
 
-**JavaScript -** Carousel, Collapsible, Dialogs, Dropdown, FeatureDiscovery, Media, Modals, Parallax, Pushpin, ScrollFire, Scrollspy, SideNav, Tabs, Transitions, Waves
-
-
+## JavaScript - Carousel, Collapsible, Dialogs, Dropdown, FeatureDiscovery, Media, Modals, Parallax, Pushpin, ScrollFire, Scrollspy, SideNav, Tabs, Transitions, Waves
 
 <https://mui.com/getting-started/supported-components
 -   Accordion (Legacy Material v1)

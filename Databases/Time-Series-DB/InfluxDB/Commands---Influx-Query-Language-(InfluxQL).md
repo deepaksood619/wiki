@@ -26,13 +26,13 @@ Getting into database (login to influx cli)
 $ influx
 
 $ influx -precision rfc3339
-**INFLUXQL**
+## INFLUXQL
 
 InfluxQL is an SQL-like query language for interacting with data in InfluxDB.
-**SHOW Commands**
+## SHOW Commands
 
 SHOW [DATABASES, DIAGNOSTICS, MEASUREMENTS, QUERIES, SERIES, SHARDS, STATS, SUBSCRIPTIONS, TAG, USERS]
-**Schema Exploration**
+## Schema Exploration
 
 CREATE DATABASE parameter_series;
 
@@ -40,7 +40,7 @@ SHOW DATABASES;
 
 SHOW MEASUREMENTS;
 
-**SHOW FIELD KEYS**
+## SHOW FIELD KEYS
 
 SHOW FIELD KEYS ON "telegraf"
 
@@ -76,16 +76,16 @@ DROP RETENTION POLICY "autogen" ON "hawkbit"
 select id,max(writePointsOk) from "shard" where "database"='telegraf' group by id;
 
 select "database",diskBytes,fieldsCreate,id,writePointsOk from "shard" where "database"='telegraf' and time > now() -10s
-**InfluxDB**
+## InfluxDB
 
 docker run --rm -d --name influxdb --net=influxdb -p 8083:8083 -p 8086:8086 influxdb
-**Curl queries**
+## Curl queries
 
 curl -G <http://localhost:8086/query> -u todd:influxdb4ever --data-urlencode "q=SHOW DATABASES"
-**Chronograf**
+## Chronograf
 
 docker run --rm -d --name chronograf -p 8888:8888 --net=influxdb chronograf
-**Continuous Queries**
+## Continuous Queries
 
 Continuous Queries (CQ) are InfluxQL queries that run automatically and periodically on realtime data and store query results in a specified measurement.
 CQs were designed to aggregate the data you want to keep in a new measurement (referred to as downsampling). Your time series data comes in thousands or millions of points; you don't want to store them all forever unless absolutely necessary because the disk requirements quickly get out of hand. CQs offer a way for you to keep the summaries of your data without keeping all of the individual points.With CQs, you can have the full resolution data expire with a retention policy (or you can drop it manually) and you keep only what you need.

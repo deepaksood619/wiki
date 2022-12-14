@@ -8,11 +8,11 @@ Modified: 2021-12-31 13:16:53 +0500
 
 GraphQL will do to REST what JSON did to XML.
 
-**A Data Query Language**
+## A Data Query Language
 GraphQL is strongly typed, self-documenting, and embraces declarative data fetching, which allows clients to query for the exact data they need as well making it possible to build powerful and in-depth developer tools.
 GraphQL server - A server which implements the GraphQL Specifications and exposes an API endpoint for clients to query.
 GraphQL is typically used in scenarios where related data needs to be queried or in environments where multiple round trips to the server can negatively impact the customer experience.
-**Problems that GraphQL solves**
+## Problems that GraphQL solves
 
 1.  The need to do multiple round trips to fetch data required by a view
 
@@ -23,7 +23,7 @@ GraphQL is typically used in scenarios where related data needs to be queried or
 4.  No Versioning of APIs
 
 5.  Get only what you asked
-**Problems with GraphQL**
+## Problems with GraphQL
 
 1.  Resource Exhaustion Attacks (DOS) using overly complex queries
 
@@ -47,12 +47,12 @@ Solution - <https://github.com/facebook/dataloader>
 -   Variables
 -   Inspection
     -   This allows us to know the schema using introspection and see documentation of all the endpoints with autocomplete in clients like Graphiql
-**Security**
+## Security
 -   Timeout
 -   Maximum Query Depth
 -   Query Complexity
 -   Throttling
-**How to GraphQL**
+## How to GraphQL
 
 In GraphQL, aTypeis an object that may contain multiplefields. Each field is calculated throughresolvers, that returns a value. A collection of types is called aschema. Every schema has a special type calledqueryfor getting data from the server andmutationfor sending data to the server.
 -   Type
@@ -70,7 +70,7 @@ Tutorial
 
 <https://hasura.io/blog/cursor-offset-pagination-with-hasura-graphql>
 -   Relay
-**Queries**
+## Queries
 
 mutation {
 
@@ -116,7 +116,7 @@ token
 ! - bang at the end of a type represents required
 
 In graphene-python it is written as required=True
-**Client**
+## Client
 
 1.  Apollo
 
@@ -127,7 +127,7 @@ In graphene-python it is written as required=True
 4.  Insomnia
 
 5.  Postman
-**Schema stitching**
+## Schema stitching
 
 Schema stitching is the process of creating a single GraphQL schema from multiple underlying GraphQL APIs.
 One of the main benefits of GraphQL is that we can query all of our data as part of one schema, and get everything we need in one request. But as the schema grows, it might become cumbersome to manage it all as one codebase, and it starts to make sense to split it into different modules. We may also want to decompose your schema into separate microservices, which can be developed and deployed independently.
@@ -147,15 +147,15 @@ Apollo Federation is an architecture for composing multiple GraphQL services int
 
 ## Tools**
 
-**Hasura - <https://hasura.io>**
+## Hasura - <https://hasura.io>
 
 <https://github.com/hasura/graphql-engine>
 
 Quiver - <https://medium.com/@syrusakbary/quiver-graphql-on-steroids-13612ea1ea77>
 
-**GraphQL Voyager** - <https://github.com/APIs-guru/graphql-voyager>
+## GraphQL Voyager - <https://github.com/APIs-guru/graphql-voyager>
 
-**GraphQL Mesh**
+## GraphQL Mesh
 
 <https://the-guild.dev/blog/graphql-mesh>
 

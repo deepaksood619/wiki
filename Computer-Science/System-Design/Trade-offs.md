@@ -6,14 +6,14 @@ Modified: 2019-12-30 13:47:22 +0500
 
 ---
 
-**Tradeoffs**
+## Tradeoffs
 -   Speed vs. memory
 -   battery life vs. accuracy
 -   fairness vs. accuracy
 -   precision vs. recall
 -   ease of implementation vs. maintainability
 -   explore vs exploit
-**Questions**
+## Questions
 
 Cost
 -   Operational complexity

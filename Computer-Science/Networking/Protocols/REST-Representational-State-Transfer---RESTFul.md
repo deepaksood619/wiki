@@ -8,26 +8,26 @@ Modified: 2022-02-05 00:20:48 +0500
 
 REST + JSON over HTTP
 REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server.
-**SEPARATION OF CLIENT AND SERVER**
+## SEPARATION OF CLIENT AND SERVER
 
 In the REST architectural style, the implementation of the client and the implementation of the server can be done independently without each knowing about the other.
 By using a REST interface, different clients hit the same REST endpoints, perform the same actions, and receive the same responses.
-**STATELESSNESS**
+## STATELESSNESS
 
 Systems that follow the REST paradigm are stateless, meaning that the server does not need to know anything about what state the client is in and vice versa. In this way, both the server and the client can understand any message received, even without seeing previous messages.
-**MAKING REQUESTS**
+## MAKING REQUESTS
 
 REST requires that a client make a request to the server in order to retrieve or modify data on the server. A request generally consists of:
 -   an HTTP verb, which defines what kind of operation to perform
 -   aheader, which allows the client to pass along information about the request
 -   a path to a resource
 -   an optional message body containing data
-**Versioning**
+## Versioning
 
 /api/v1/article/1234
 
 /api/v2/article/1234
-**HTTP Request Methods / Verbs**
+## HTTP Request Methods / Verbs
 
 1.  [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
 
@@ -64,29 +64,29 @@ TheTRACEmethod performs a message loop-back test along the path to the target re
 9.  [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PATCH)
 
 ThePATCHmethod is used to apply partial modifications to a resource.
-**HEADERS AND ACCEPT PARAMETERS**
+## HEADERS AND ACCEPT PARAMETERS
 
 1.  Accept: type of content that client is able to receive, it ensures that the server does not send data that cannot be understood or processed by the client. Options are MIME Types
 
 2.  Paths
-**Request Headers**
+## Request Headers
 
-**Referer header -** tells the URL from where the request has originated.
+## Referer header - tells the URL from where the request has originated.
 
-**User-Agent header -** additional information about the browser being used to generate the request.
+## User-Agent header - additional information about the browser being used to generate the request.
 
-**Host header -** uniquely identifies a host name; it is necessary when multiple web pages are hosted on the same server.
+## Host header - uniquely identifies a host name; it is necessary when multiple web pages are hosted on the same server.
 
-**Cookie header -** submits additional parameters to the client.
-**Response Headers**
+## Cookie header - submits additional parameters to the client.
+## Response Headers
 
-**Server header -** information about which web server software is being used.
+## Server header - information about which web server software is being used.
 
-**Set-Cookie header -** issues the cookie to the browser.
+## Set-Cookie header - issues the cookie to the browser.
 
-**Message body -** it is common for an HTTP response to hold a message body.
+## Message body - it is common for an HTTP response to hold a message body.
 
-**Content-Length header -** tells the size of the message body in bytes.
+## Content-Length header - tells the size of the message body in bytes.
 EX - If we wanted to view all customers, the request would look like this:
 
 GET <http://fashionboutique.com/customers>
@@ -97,9 +97,9 @@ Status Code: 200 (OK)
 Content-type: application/json
 
 followed by thecustomersdata requested inapplication/json format.
-**Idempotent -** An idempotent HTTP method is a HTTP method that can be called many times without different outcomes.
+## Idempotent - An idempotent HTTP method is a HTTP method that can be called many times without different outcomes.
 
-**Safe -** Safe methods are HTTP methods that do not modify resources.
+## Safe - Safe methods are HTTP methods that do not modify resources.
 
 | **HTTP Method** | **Idempotent** | **Safe** |
 |-----------------|----------------|----------|
@@ -144,14 +144,14 @@ binary data allows you to send things which you can not enter in Postman. For ex
 -   Cacheable
 -   Layered system
 -   Code on demand
-**Resource Based**
+## Resource Based
 -   Things vs actions
 -   Nouns vs verbs
 -   Versus SOAP-RPC
 -   Identified by URIs
     -   Multiple URIs may refer to same resource
 -   Separate from their representation(s)
-**Representations**
+## Representations
 -   How resources get manipulated
 -   Part of the resource state
     -   Transferred between client and server
@@ -162,32 +162,32 @@ binary data allows you to send things which you can not enter in Postman. For ex
     -   Representation:
         -   name, address, phone number
         -   JSON or XML format
-**Uniform Interface Contraint**
+## Uniform Interface Contraint
 -   Defines the interface between client and server
 -   Simplifies and decouples the architecture
 -   Fundamental to RESTful design
     -   HTTP verbs (GET, PUT, POST, DELETE)
     -   URIs (resource name)
     -   HTTP response (status, body)
-**Stateless**
+## Stateless
 -   Server contains no client state
 -   Each request contains enough context to process the message
     -   Self-descriptive messages
 -   Any session state is held on the client
-**Client-Server**
+## Client-Server
 -   Assume a disconnected system
 -   Separation of concerns
 -   Uniform interface is the link between the two
-**Cacheable**
+## Cacheable
 -   Server responses (representations) are cacheable
     -   Implicitly
     -   Explicitly
     -   Negotiated
-**Layered System**
+## Layered System
 -   Client can't assume direct connection to server
 -   Software or hardware intermediaries between client and server
 -   Improves scalability
-**Code on Demand**
+## Code on Demand
 -   Server can temporily extend client
 -   Transfer logic to client
 -   Client executes logic
@@ -195,7 +195,7 @@ binary data allows you to send things which you can not enter in Postman. For ex
     -   Java applets
     -   JavaScript
 -   The only optional constraint
-**Summary**
+## Summary
 -   Violating any constraint other than Code on Demand means service is not strictly RESTful
     -   Example: Three-legged OAUTH2
 -   Compliance with REST constraints allow:

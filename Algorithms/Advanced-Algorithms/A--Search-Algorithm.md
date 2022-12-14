@@ -8,18 +8,12 @@ Modified: 2018-01-19 22:17:56 +0500
 
 The process of plotting an efficiently directed path between multiple points, called nodes.
 
-
-
-**Used in -**
+## Used in -
 -   **Path Finding**
 -   **Graph Traversals**
 
-
-
-**Application-**
+## Application-
 -   **8 puzzle problem**
-
-
 
 
 
@@ -30,14 +24,10 @@ There are lots of algorithms that run on graphs. (Path Finding Algorithms)
 | **Dijkstra's Algorithm**(also called Uniform Cost Search) lets us prioritize which paths to explore. Instead of exploring all possible paths equally, it favors lower cost paths. We can assign lower costs to encourage moving on roads, higher costs to avoid forests, higher costs to discourage going near enemies, and more. When movement costs vary, we use this instead of Breadth First Search. |
 | **A***is a modification of Dijkstra's Algorithm that is optimized for a single destination. Dijkstra's Algorithm can find paths to all locations; A* finds paths to one location. It prioritizes paths that seem to be leading closer to the goal.                                                                                                                                                     |
 
-
-
-**Optimizations -**
+## Optimizations -
 -   Early Exit
 
-
-
-**Heuristic Search -**
+## Heuristic Search -
 -   *Hamming priority function.*The number of blocks in the wrong position, plus the number of moves made so far to get to the search node. Intuitively, a search node with a small number of blocks in the wrong position is close to the goal, and we prefer a search node that have been reached using a small number of moves.
 -   *Manhattan priority function.*The sum of the Manhattan distances (sum of the vertical and horizontal distance) from the blocks to their goal positions, plus the number of moves made so far to get to the search node.
 
@@ -52,9 +42,7 @@ return D * (dx + dy)
 
 
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/A*_search_algorithm>
 

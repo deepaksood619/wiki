@@ -11,14 +11,14 @@ The EdgeX Foundry is a collection of open source microservices that span from th
 By bringing this much-needed interoperability, EdgeX makes it easier to monitor physical world items, send instructions to them, collect data from them, move the data across the fog up to the cloud where it may be stored, aggregated, analyzed, and turned into information, actuated, and acted upon. So EdgeX enables data to travel northwards towards the Cloud and also laterally to other gateways, or back to devices, sensors, and actuators.
 The initiative is aligned around a common goal: the simplification and standardization of the foundation for tiered edge computing architectures in the industrial IoT market while still enabling the ecosystem to provide significant value-added differentiation.
 
-![EDGE X FOUNDRY Platform Architecture "NORTHBOUND" INFRASTRUCTURE AND APPLICATIONS LOOSELY-COUPLED MICROSERVICES FRAMEWORK EXPORT SERVICES CLIENT REGISTRATION SUPPORTING SERVICES RULES ENGINE CORE SERVICES CORE DATA SCHEDULING CHOICE OF PROTOCOL DISTRIBUTION ALERTS & NOTIFICATIONS LOGGING REQUIRED INTEROPERABILITY FOUNDATION REPLACEABLE REFERENCE SERVICES ADDITIONAL SERVICES ADDITIONAL SERVICES 3 ALL MICROSERVICES INTERCOMMUNICATE VIA APIs - COMMAND -o -< Z O Z z O m z z DEVICE SERVICES (ANY COMBINATION OF STANDARD OR PROPRIETARY PROTOCOLS VIA SDK) REST OPC-UA MODBUS BACNET ULE BLE MQTT o ENOCEAN o "SOUTHBOUND" DEVICES, SENSORS AND ACTUATORS ADD'L VIRTUAL DEVICE SERVICES SDK ](media/EdgeXFoundary-image1.jpeg)
+![image](media/EdgeXFoundary-image1.jpeg)
 
-**South Side:**All IoT objects, withinthe physical realm, and the edge of the network that communicates directly with those devices, sensors, actuators, and other IoT objects, and collects the data from them, is known collectively as the "South Side."
+## South Side:All IoT objects, withinthe physical realm, and the edge of the network that communicates directly with those devices, sensors, actuators, and other IoT objects, and collects the data from them, is known collectively as the "South Side."
 
-**North Side:**The Cloud (or Enterprise system) where data iscollected, stored, aggregated, analyzed, and turned into information, and the part of the network that communicates with the Cloud, is referred to as the "north side" of the network.
+## North Side:The Cloud (or Enterprise system) where data iscollected, stored, aggregated, analyzed, and turned into information, and the part of the network that communicates with the Cloud, is referred to as the "north side" of the network.
 
 EdgeX enables data to be sent "north," "south," or laterally as needed and as directed.
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Linux_Foundation#EdgeX_Foundry>
 

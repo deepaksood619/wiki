@@ -12,8 +12,6 @@ Python3.5 - Randomized (Key sharing dictionaries, dict_size = 196)
 
 Python3.6 - Ordered (Compact dictionaries, dict_size = 112)
 
-
-
 1.  Databases
 
 2.  Association Lists
@@ -42,9 +40,7 @@ Can have catatrophic collision wherever every item hash to same value
 
     c.  Use a dirty bit for lookup in the dictionary
 
-
-
-**References**
+## References
 
 <https://www.youtube.com/watch?v=p33CVV29OG8>
 

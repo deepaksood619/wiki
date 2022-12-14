@@ -6,7 +6,7 @@ Modified: 2018-12-04 13:27:08 +0500
 
 ---
 
-**public class** Constants{
+## public class Constants{
 
 */***
 
@@ -16,13 +16,13 @@ Modified: 2018-12-04 13:27:08 +0500
 
 **/*
 
-**private** Constants(){
+## private Constants(){
 
 *// this prevents even the native class from*
 
 *// calling this constructor as well:*
 
-**throw new** AssertionError();
+## throw new AssertionError();
 
 }
 

@@ -9,7 +9,7 @@ Modified: 2021-08-27 19:59:58 +0500
 [System Design : Design messaging/chat service like Facebook Messenger or Whatsapp](https://www.youtube.com/watch?v=zKPNUMkwOJE)
 
 [System Design: Messenger service like Whatsapp or WeChat - Interview Question](https://www.youtube.com/watch?v=5m0L0k8ZtEs)
-**WhatsApp tech stack**
+## WhatsApp tech stack
 -   variant of XMPP for signaling.
 -   Opus voice codec, but in 16Khz
 -   **Opus/SILK audio codec**and**NAT (Network Address Translation)**techniques. The STUN server and Peer to Peer connection are the key elements included to boost and maintain authentication to the users.
@@ -87,7 +87,7 @@ Modified: 2021-08-27 19:59:58 +0500
     a.  sell stickers, emojis
 
     b.  permium services
-**Two Types of Chatting**
+## Two Types of Chatting
 
 Facebook -
 -   Keep all the messages
@@ -96,7 +96,7 @@ Facebook -
 WhatsApp / Signal -
 -   only keeps the messages till the receiver doesn't receive the message, then delete it
 -   End to end encryption enabled, cannot read messages
-**Facebook Messengers**
+## Facebook Messengers
 
 Features -
 -   One to one chatting
@@ -117,15 +117,15 @@ Networking - HTTP, WebSockets
 -   All the messages will be stored in Cassandra DB
 -   If user is not online then text message will be stored in unread table
 ![](media/System-Design---Messenger---WhatsApp-image2.png)
-**Sending messages when user is offline**
+## Sending messages when user is offline
 
 ![VS e I - CD ](media/System-Design---Messenger---WhatsApp-image3.png)
-**Sending Images**
+## Sending Images
 -   Use thumbnail to send image
 -   Save into blob storage and pass down url
 
 ![BE s l.)VWeed ](media/System-Design---Messenger---WhatsApp-image4.png)
-**Optimizations**
+## Optimizations
 -   Persisting messages
 -   Convert old data messages to blob structure and save it in blob storage
 -   Search everytime someone searches

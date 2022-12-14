@@ -6,15 +6,13 @@ Modified: 2021-11-17 22:37:01 +0500
 
 ---
 
-**Graphite does two things**
+## Graphite does two things
 
 1.  Store numeric time-series data
 
 2.  Render graphs of this data on demand
 
-
-
-**Architecture**
+## Architecture
 
 Graphite consists of three software components:
 
@@ -29,21 +27,13 @@ Graphite consists of three software components:
     -   **Graphite's user interface & API for rendering graphs and dashboards**
     -   **A[Django](http://www.djangoproject.com/)webapp that renders graphs on-demand using[Cairo](http://www.cairographics.org/)**
 
-
-
 Metrics get fed into the stack via theCarbonservice, which writes the data out toWhisperdatabases for long-term storage. Users interact with theGraphite webUI or API, which in turn queries Carbon and Whisper for the data needed to construct the requested graphs.
-
-
 
 Graphite's web platform offers a variety of output styles and formats, including raw images, CSV, XML, and JSON, allowing anyone to easily embed custom graphs in other web pages or dashboards.
 
-
-
 ![users Graphite-Web webam) memcached database load.lm.wsp Whisper load. 5m.wsp metrics Carbon carbon-relay carbon-aggregator load.15m.wsp Legend logical component optional required ](../../media/DevOps-Monitoring-Graphite-image1.png)
 
-
-
-**Points**
+## Points
 
 <https://graphite.readthedocs.io/en/latest/faq.html>
 
@@ -51,9 +41,7 @@ Graphite's web platform offers a variety of output styles and formats, including
 
 Metrictank is a multi-tenant timeseries platform for Graphite
 
-
-
-**References**
+## References
 
 <https://graphiteapp.org
 

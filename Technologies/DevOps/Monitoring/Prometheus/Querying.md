@@ -6,7 +6,7 @@ Modified: 2020-12-03 13:52:29 +0500
 
 ---
 
-**Functions**
+## Functions
 -   [abs()](https://prometheus.io/docs/prometheus/latest/querying/functions/#abs)
 -   [absent()](https://prometheus.io/docs/prometheus/latest/querying/functions/#absent)
 -   [ceil()](https://prometheus.io/docs/prometheus/latest/querying/functions/#ceil)
@@ -49,9 +49,7 @@ holt_winters(v range-vector, sf scalar, tf scalar)produces a smoothed value for 
 -   [year()](https://prometheus.io/docs/prometheus/latest/querying/functions/#year)
 -   [<aggregation>_over_time()](https://prometheus.io/docs/prometheus/latest/querying/functions/#aggregation_over_time)
 
-
-
-**PromQL**
+## PromQL
 
 sum by (instance) (
 
@@ -67,11 +65,7 @@ pod_name=~"worker.*"
 
 )
 
-
-
 To subtract two metrics use **`on ()`**
-
-
 
 celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888",job="celery-monitoring",name="airflow.executors.celery_executor.execute_command",namespace="airflow",queue="undefined",state="RECEIVED"} - on ()
 

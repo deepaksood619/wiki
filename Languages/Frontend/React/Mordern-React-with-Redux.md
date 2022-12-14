@@ -6,7 +6,7 @@ Modified: 2018-03-25 17:30:03 +0500
 
 ---
 
-**An Intro to React**
+## An Intro to React
 -   BoilerPlate Code
 -   JSX
 -   ES6 import statements
@@ -20,9 +20,7 @@ Modified: 2018-03-25 17:30:03 +0500
 -   Introduction to State
 -   Controller Components
 
-
-
-**Ajax Requests with React**
+## Ajax Requests with React
 -   Props
 -   Building Lists with Map
 -   List Item Keys
@@ -34,14 +32,10 @@ Modified: 2018-03-25 17:30:03 +0500
 -   Searching for Videos
 -   Throttling Search Term Input
 
-
-
-**Modeling Application State**
+## Modeling Application State
 -   What is Redux
 
-
-
-**Managing App State with Redux**
+## Managing App State with Redux
 -   Reducers
 -   Containers - Connection Redux to React
 -   Implementation of a Container Class
@@ -51,18 +45,10 @@ Modified: 2018-03-25 17:30:03 +0500
 -   Consuming Actions in Reducers
 -   Conditional Redering
 
+## Intermediate Redux: Middleware
 
+## React Router + Redux Form
 
-**Intermediate Redux: Middleware**
+## Bonus - RallyCoding
 
-
-
-**React Router + Redux Form**
-
-
-
-**Bonus - RallyCoding**
-
-
-
-**React Router + Redux Form**
+## React Router + Redux Form

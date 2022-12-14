@@ -6,20 +6,16 @@ Modified: 2022-10-27 12:18:20 +0500
 
 ---
 
-**Ticketing Management System (TMS)**
+## Ticketing Management System (TMS)
 
-
-
-**Features**
+## Features
 -   Triage
 -   Automate ticket lifecycle / Chat routing
 -   Omnichannel / multichannel
 -   FAQs
 -   Autoresolution
 
-
-
-**Products**
+## Products
 -   Opensource
     -   **<https://tiledesk.com - chatbot, helpdesk, everything, APIs**
 
@@ -59,8 +55,6 @@ integrated apps, kept simple, and loved by millions of happy users.
 -   netsuite
 -   hubspot
 
-
-
 <https://blog.hubspot.com/service/free-help-desk-software>
 
 <https://www.msp360.com/resources/blog/top-7-free-and-open-source-ticketing-systems-for-msps
@@ -71,41 +65,29 @@ integrated apps, kept simple, and loved by millions of happy users.
 -   Direct Assignment
 -   Round Robin Assignment
 
-
-
-**Customer Self Service Portal / Self Service Strategy / Knowledgebase / Knowledge base**
+## Customer Self Service Portal / Self Service Strategy / Knowledgebase / Knowledge base
 
 A self-service strategy is a multi-pronged approach to solving customer issues. Remember that not everyone learns the same way, so you need to set up several routes for customers to find their answers. That may involve having visuals and videos, AI chatbots, or CRM integration. Talk to your customer service reps about how to develop the[best content for your knowledge base](https://support.zendesk.com/hc/en-us/articles/203664076-Best-practices-Developing-content-for-your-knowledge-base)and FAQ sections, and build a strategy from there.
 
-
-
-**What can you do to make your self-service customers know you value them?**
+## What can you do to make your self-service customers know you value them?
 
 The best thing you can do is make the process of self service easy and fast. Making the entire process painless, from asking the question to getting an answer, proves that you value their time and sanity as much as your own.
 
-
-
-**What are some disadvantages of customer self service?**
+## What are some disadvantages of customer self service?
 
 The only disadvantages of customer self service software come from how you use it. If you lean too much on customer self service and pull back from person-to-person support, you risk frustrating those customers who appreciate a more personal touch.
-
-
 
 <https://www.zendesk.com/service/help-center/customer-self-service
 
 <https://www.hubspot.com/knowledge-base>
 
-
-
-**OpenSource - uvdesk**
+## OpenSource - uvdesk
 
 <https://www.uvdesk.com/en/blog/an-open-source-alternative-to-freshdesk
 
 <https://www.uvdesk.com/en/api-doc
 
 <https://github.com/uvdesk/community-skeleton>
-
-
 
 <https://ease.ghost.io
 
@@ -117,9 +99,7 @@ The only disadvantages of customer self service software come from how you use i
 
 <https://help.sliceit.com/support/home>
 
-
-
-**tawk.to**
+## tawk.to
 
 <https://tawk.to/deepaksood619>
 
@@ -129,11 +109,7 @@ deepaksood619@gmail.com
 
 10f818eb17b796493b49e999
 
-
-
 <https://goldenpi.com
-
-
 
 <https://developer.tawk.to/jsapi
 
@@ -141,31 +117,21 @@ deepaksood619@gmail.com
 
 [Tutorials / KB / ENG](https://www.youtube.com/playlist?list=PLTxV5K5lUotCZE_dt6Hc_Iw62GJYIy-AX)
 
-
-
-**bookstackapp - <https://www.bookstackapp.com**
+## bookstackapp - <https://www.bookstackapp.com
 
 BookStack is a simple, self-hosted, easy-to-use platform for organising and storing information.
 
-
-
 <https://rasa.com/docs/action-server/knowledge-bases
 
-
-
-**Paid**
+## Paid
 
 <https://www.helpdocs.io
-
-
 
 ACPT - Agent, Customer, Process, Technology
 
 QRC - Query / Request / Complaint
 
-
-
-**How to handle support tickets**
+## How to handle support tickets
 
 1.  Get details on the case
 
@@ -207,9 +173,7 @@ The "Spam" status is reserved for malicious or other unnecessary messages you do
 
 8.  Respond to the ticket
 
-
-
-**Strategies to assign tickets to agents**
+## Strategies to assign tickets to agents
 
 1.  Manual assignment
 
@@ -217,21 +181,15 @@ The "Spam" status is reserved for malicious or other unnecessary messages you do
 
 3.  Automated assignment
 
-
-
 <https://www.liveagent.com/academy/ticketing-system-best-practices
 
 <https://www.helpdesk.com/learn/customer-support-essentials/customer-ticket-assignment-strategies
 
+## L1, L2, & L3 Technical Support
 
-
-**L1, L2, & L3 Technical Support**
-
-**L1 or level 1 support**
+## L1 or level 1 support
 
 This is your first support line. The first line of support is usually provided via chat, phone, and email communications. Your pre-sale support emails and support chats will be addressed by a Level 1 software engineer. With Infogain's L1 Support/Help Desk, you get a single point of contact (Phone/email/Chat/Portal), basic troubleshooting and resolution, call routing and escalation.
-
-
 
 Additional services include:
 -   A dedicated toll-free number
@@ -241,13 +199,9 @@ Additional services include:
 -   Complete ticket management with escalation and service level reporting
 -   Store equipment and network troubleshooting
 
-
-
-**L2 or level 2 support**
+## L2 or level 2 support
 
 L2 support handles the tickets that L1 routes to them. This support team can also generate tickets for any problem they notice. L2 support specialists have more skills, more experience in solving complicated problems relevant to them and can help L1 support people troubleshoot problems. Infogain's L2 Support covers in-depth application and systems incident resolution featuring a knowledge base, detailed documentation, training and incident trending analysis.
-
-
 
 Additional services include:
 -   Advanced Troubleshooting/resolution
@@ -257,21 +211,15 @@ Additional services include:
 -   Root Cause Analysis
 -   Incident Analysis/Trending
 
-
-
-**L3 or level 3 support**
+## L3 or level 3 support
 
 L3 is the last line of support and typically consists of a development team that deals with technical problems. They are experts in their domain and handle the most difficult problems, mostly assisting both level 1 and level 2 specialists. They do also code changes, research and develop solutions for challenging new or unknown issues. Infogain's L3 Support covers base application, customizations, and integrations. In addition to taking advantage of our proven methodologies, source control and standards.
-
-
 
 Additional services include:
 -   Fixing defects
 -   Minor enhancements
 -   Root cause analysis
 -   Performance tuning and capacity planning
-
-
 
 <https://www.infogain.com/blog/a-quick-guide-to-l1-l2-and-l3-technical-support
 

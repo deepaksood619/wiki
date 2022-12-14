@@ -32,7 +32,7 @@ for x in primes:
 
 print(x)
 
-**Using Generator Expression (introduced with[PEP 289](https://www.python.org/dev/peps/pep-0289/))**
+## Using Generator Expression (introduced with[PEP 289](https://www.python.org/dev/peps/pep-0289/))
 
 primes = (i for i in range(2, 100000000000) if check_prime(i))
 
@@ -42,8 +42,6 @@ for x in primes:
 
 print(x)
 
-
-
-**References**
+## References
 
 <https://medium.freecodecamp.org/how-and-why-you-should-use-python-generators-f6fb56650888>

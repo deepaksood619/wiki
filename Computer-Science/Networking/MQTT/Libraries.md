@@ -6,7 +6,7 @@ Modified: 2019-03-12 23:42:03 +0500
 
 ---
 
-**MQTT BROKER IMPLEMENTATIONS**
+## MQTT BROKER IMPLEMENTATIONS
 
 <table>
 <colgroup>
@@ -76,7 +76,7 @@ Public mqtt brokers for testing - <https://github.com/mqtt/mqtt.github.io/wiki/p
 | Machine Head           | Clojure                                  | Machine Head is an MQTT client for Clojure. It implements the basic MQTT 3.1 features.                                     |
 | MQTT.js                | Javascript                               | MQTT.js is an MQTT client library for Node.js and web applications, available as a npm module.                             |
 | ruby-mqtt              | Ruby                                     | ruby-mqtt is an MQTT client available as a Ruby gem. It does not support QoS > 0.                                         |
-**MQTT Client Tools**
+## MQTT Client Tools
 
 <table>
 <colgroup>

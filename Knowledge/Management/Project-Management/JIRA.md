@@ -6,13 +6,11 @@ Modified: 2020-10-03 09:47:44 +0500
 
 ---
 
-**Atlassian - JIRA Confluence Trello Bitbucket**
+## Atlassian - JIRA Confluence Trello Bitbucket
 
-**JIRA Software**
+## JIRA Software
 
 Project and issue tracking
-
-
 
 JIRA is an open, fully customizable platform for organizing teams around tasks/projects/initiatives. Task dependencies, resource accesses, permissions, hierarchies, etc can all be set up. PMs and Agile leaders can then watch software backlog planning, release planning, and overall progress. The framework of JIRA can also be used for business teams, and isn't boxed into just software development.
 
@@ -22,38 +20,26 @@ JIRA is an open, fully customizable platform for organizing teams around tasks/p
 -   Sprints
 -   JQL - Jira Query Language
 
-
-
-**JIRA Align**
+## JIRA Align
 
 Enterprise Agile Planning
 
-
-
-**Confluence**
+## Confluence
 
 Document collaboration
 
-
-
 Confluence is a knowledge base, or wiki, that stores and organizes all of your information assets around the projects you're doing in JIRA (like, product requirements), or general things like meeting minutes, marketing assets, design documents, how-to's etc. Confluence integrates with JIRA easily, so these assets become an integrated piece so teams can create, collaborate and update on these assets seamlessly.
 
-
-
-**JIRA Dashboard Gadgets**
+## JIRA Dashboard Gadgets
 -   Filter Results (add this one twice)
 -   Created vs Resolved Chart
 -   Assigned to me
 -   Issue Statistics
 -   Issues Calendar
 
-
-
 <https://confluence.atlassian.com/jiracore/blog/2015/08/5-steps-to-a-killer-jira-dashboard>
 
-
-
-**JIRA Reports**
+## JIRA Reports
 
 <table>
 <colgroup>
@@ -120,18 +106,14 @@ Confluence is a knowledge base, or wiki, that stores and organizes all of your i
 </tbody>
 </table>
 
+## Jira classic vs next-gen
 
-
-**Jira classic vs next-gen**
-
-**Next-gen projects are**
+## Next-gen projects are
 -   Faster to set-up than classic projects.You can quickly toggle on features like sprints or reports, allowing you tomix and match the best features of Scrum and Kanban
 -   Easier and faster to configure than classic projects.You can easily configure settings like issue types and fields with drag-and-drop editing and reordering all in a single place.
 -   Configured by project team members. Any team member with the project's admin rolewill can modify the settings of their next-gen projects.
 -   Contained to themselves.There currently is no way to associate with other project settings, schemes, global configuration objects.
 -   Only available on the Cloudplatform.By default, any licensed user can create these projects. You can change that if you need (see below).
 -   Come with a new roadmap that improves your ability to plan long-term and share your plans with stakeholders
-
-
 
 <https://www.atlassian.com/software/jira/guides/getting-started/best-practices>

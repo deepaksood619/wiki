@@ -13,7 +13,7 @@ Redis streams are ideal for building history preserving message brokers, message
 ## Message queues**
 
 A message queue is conceptually a list. A producer pushes an element from one side, a consumer reads from the other. Multiple producers and consumers can interact with the same queue. In Redis, a rudimentary message queue can be easily implemented with the commands LPUSH (which means "push from the left") and RPOP (which means "pop from the right"). In the best-case scenario ---the happy path--- the consumer pops an item, works on it, and once it's done, the customer is ready to consume and process the next item. A slight improvement would be to use a blocking command for reading. So instead of RPOP you could use BRPOP. If the list is empty, the consumer blocks and waits for an element to arrive. If the timeout elapses, the consumer can retry. So far, so good for this simplistic implementation. The problem, though, doesn't lie in the happy path. The issue is what happens when a process crashes while processing an item.
-**Reliable queues**
+## Reliable queues
 
 A queue is reliable if it can recover from a failure scenario. If a consumer crashes and the item it was processing is lost, the system is unreliable. A command was added to a previous version of Redis that is tailor-made for this exact situation. The command is BRPOPLPUSH. It not only pops an item, as discussed in the previous implementation, but it also pushes the item to another list. With the commands LPUSH and BRPOPLPUSH, you can design a reliable message queue
 <https://aws.amazon.com/redis/Redis_Streams_MQ>
@@ -30,21 +30,21 @@ A queue is reliable if it can recover from a failure scenario. If a consumer cra
 
 RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers. It is backed by Redis and it is designed to have a low barrier to entry. It should be integrated in your web stack easily.
 pip install rq
-**# Application**
+## # Application
 ```
 from rq.job import Job
 job = redis_queue.enqueue(some_long_function, data)
 
 job = queue.enqueue(count_words_at_url, '<http://nvie.com>')
 ```
-**Scheduling jobs**
+## Scheduling jobs
 
 # Schedule job to run at 9:15, October 10th
 job = queue.**enqueue_at**(datetime(2019, 10, 8, 9, 15), say_hello)
 
 # Schedule job to run in 10 seconds
 job = queue.**enqueue_in**(timedelta(seconds=10), say_hello)
-**Retrying failed jobs**
+## Retrying failed jobs
 
 from rq import Retry
 
@@ -53,7 +53,7 @@ queue.enqueue(say_hello, retry=Retry(max=3))
 
 # Retry up to 3 times, with configurable intervals between retries
 queue.enqueue(say_hello, retry=Retry(max=3, interval=[10, 30, 60]))
-**Some interesting job attributes include**
+## Some interesting job attributes include
 -   job.get_status()Possible values arequeued,started,deferred,finished, andfailed
 -   job.func_name
 -   job.argsarguments passed to the underlying job function
@@ -64,10 +64,10 @@ queue.enqueue(say_hello, retry=Retry(max=3, interval=[10, 30, 60]))
 -   job.ended_at
 -   job.exc_infostores exception information if job doesn't finish successfully.
 -   job.id
-**# get job**
+## # get job
 
 job = Job.fetch(job_id, connection=redis_conn)
-**# Worker**
+## # Worker
 
 """Sets up the redis connection and the redis queue."""
 ```
@@ -130,8 +130,8 @@ smembers rq:queues
 <https://python-rq.org/patterns/sentry>
 ```
 
-**Test app - <https://github.com/edkrueger/rq-flask-template>**
-**Tools - RQ**
+## Test app - <https://github.com/edkrueger/rq-flask-template>
+## Tools - RQ
 
 1.  <https://github.com/rq/rq-scheduler>
 
@@ -144,17 +144,17 @@ rq-dashboardis a general purpose, lightweight,[Flask](https://flask.palletsproje
 3.  <https://github.com/pranavgupta1234/rqmonitor>
 
 RQ Monitor is Flask based more actionable and dynamic web frontend for monitoring your RQ.
-**Delayed Tasks**
+## Delayed Tasks
 
 There are a few different ways that we could potentially add delays to our queue items. Here are the three most straightforward ones:
 -   We could include an execution time as part of queue items, and if a worker process sees an item with an execution time later than now, it can wait for a brief period and then re-enqueue the item.
 -   The worker process could have a local waiting list for any items it has seen that need to be executed in the future, and every time it makes a pass through its while loop, it could check that list for any outstanding items that need to be executed.
 -   Normally when we talk about times, we usually start talking about*ZSETs*. What if, for any item we wanted to execute in the future, we added it to a*ZSET*instead of a*LIST*, with its score being the time when we want it to execute? We then have a process that checks for items that should be executed now, and if there are any, the process removes it from the*ZSET*, adding it to the proper*LIST*queue.
 We can't wait/re-enqueue items as described in the first, because that'll waste the worker process's time. We also can't create a local waiting list as described in the second option, because if the worker process crashes for an unrelated reason, we lose any pending work items it knew about. We'll instead use a secondaryZSETas described in the third option, because it's simple, straightforward, and we can use a lock to ensure that the move is safe.
-**# requiements.txt**
+## # requiements.txt
 
 rpqueue==0.33.2
-**# tasks.py**
+## # tasks.py
 ```
 import requests
 
@@ -171,7 +171,7 @@ payload = {'cust_id': cust_id}
 resp = requests.get('http://decision_engine:5000/score', params=payload)
 
 print(f'request: {cust_id}, resp status code: {resp.status_code}, text: {resp.text}')
-**# tasks_runner.py**
+## # tasks_runner.py
 
 import rpqueue
 

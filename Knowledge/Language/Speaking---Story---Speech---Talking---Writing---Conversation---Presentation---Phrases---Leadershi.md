@@ -8,7 +8,7 @@ Modified: 2022-12-05 22:51:06 +0500
 
 Use english - Indians have a bias towards English
 
-**Phrases**
+## Phrases
 -   **I am going to pause here for questions**
 -   Just dropped in to have a cup of coffee friend
 -   **You're probably right**
@@ -36,35 +36,23 @@ Pls table this or provide a slide in Tech updates for MMM and we can call out wh
     -   Which of these would you like me to de-prioritize to fit in the new task?
 -   Replace but with and - [Change ONE WORD to Transform your Communication | @shadezahrai #shorts](https://www.youtube.com/shorts/tomgKAxMsq8)
 
-
-
 Feel free to interrupt me in between to ask any questions and let me know if you want to dig deeper in any part.
 
-
-
 What if you stopped trying to think your way through it and started to act your way through it?
-
-
 
 Communication is the key
 
 Communication isn't the key, comprehension is. You can communicate all you want, but if they don't understand you, it won't reach them the way you need it to.
 
-
-
 You should know that when a message you convey to another person is not understood by him, at least one of the following things is true: what you have said is not true, or you have conveyed it without kindness.
 
-
-
-**Great speeches**
+## Great speeches
 
 [Infinite Vision: The Story of Aravind Eye Hospital](https://youtu.be/Jr70IrWM-n8)
 
 <https://www.youtube.com/channel/UCLyr-hfWVCKHcZjV5fg3jbw>
 
-
-
-**Body Languages**
+## Body Languages
 
 [Body Language Expert Explains How to Show Confidence | WIRED](https://youtu.be/VRJzvJ5XPQI)
 -   Don't point finger show with your whole hand
@@ -72,9 +60,7 @@ You should know that when a message you convey to another person is not understo
 -   Confidence
 -   Don't be in hurry, take your time, executive presence
 
-
-
-**How to speak**
+## How to speak
 -   Start with a Promise (At the end of this hour you will learn about x)
 -   Samples
     -   Cycle (Say important thing atleast thrice over the course)
@@ -95,9 +81,7 @@ You should know that when a message you convey to another person is not understo
 -   Engage your audience
 -   Preparation before presentation
 
-
-
-**Tools**
+## Tools
 -   Zoom it
 -   <https://www.mentimeter.com
 -   <https://github.com/hakimel/reveal.js>
@@ -111,44 +95,30 @@ The HTML Presentation Framework
 -   <https://www.canva.com
 -   <https://www.slido.com
 
-
-
-**Courses**
+## Courses
 
 <https://nebula.app/persuasive-communication> - Wendover production
 
 Shadé Zahrai (Linkedin) - <https://wikifamouspeople.com/shade-zahrai
 
-
-
-**Diplomatic interruption /** Diplomacy
+## Diplomatic interruption / Diplomacy
 -   I really like that idea, Drew. We could even extend it by...
 -   Excuse me, Rory. That was a great discussion but before we continue, I'd like to add...
 -   Cold war era manouvre - what is mine is mine, what is yours is negotiable
 
-
-
-**Icebreakers**
+## Icebreakers
 -   What was your first job?
 -   Who's someone you really admire?
 -   Anything you decided to binge watch recently?
 -   What's your earliest memory?
 
-
-
 <https://getpocket.com/explore/item/6-things-great-speakers-always-do-a-tedx-organizer-shares-the-secrets-of-becoming-a-tedx-speaker>
-
-
 
 <https://firstround.com/review/good-leaders-are-great-storytellers-our-6-tips-for-telling-stories-that-resonate
 
-
-
 [Master the art of public speaking with TED Masterclass](https://www.youtube.com/watch?v=b7id4rzgKIM)
 
-
-
-**Blinkist - Talking Across the Divide by Justin Lee**
+## Blinkist - Talking Across the Divide by Justin Lee
 
 How to communicate with people you disagree with and maybe even change the world
 
@@ -174,9 +144,7 @@ How to communicate with people you disagree with and maybe even change the world
         -   making the ask (suggesting first step in the right direction)
 -   Actionable advice - Take notes
 
-
-
-**Blinkist - How to have impossible conversations by Peter Boghossian and James A. Lindsay (2019) (13 Jun 2020)**
+## Blinkist - How to have impossible conversations by Peter Boghossian and James A. Lindsay (2019) (13 Jun 2020)
 -   Impossible conversations can be productive when they become collaborative
     -   Coercion is a bad way to change somebody's mind
     -   Conversation is inherently collaborative, and it creates an opportunity for people to reconsider what they believe and thus potentially change how they act
@@ -207,9 +175,7 @@ How to communicate with people you disagree with and maybe even change the world
 -   Actionable advice
     -   Identify the source of conflict by listening to your "moral dialect"
 
-
-
-**Blinkist - Get it by Amy K Hutchens**
+## Blinkist - Get it by Amy K Hutchens
 -   You will have more profitable conversations with others if you're honest with yourself
 -   In general, conversations are about either connection or power (assert)
 -   The best way to deal with power plays at work is to refust to engage with them
@@ -217,47 +183,33 @@ How to communicate with people you disagree with and maybe even change the world
 -   You can use the deflate technique to avoid explosive arguments
 -   Making requests and asking questions are great ways to motivate action
 
-
-
-**Speaking - Quotes**
+## Speaking - Quotes
 
 Whoever you meet, speak to them like it is the last time you may have that opportunity. It will transform your life -- Sadhguru
 
-
-
 <https://blog.trello.com/how-to-give-your-manager-feedback>
 
-**Constructive:**"I noticed that in our last meeting, Ellen seemed upset by how you reacted to her suggestions. I've found some effective ways to communicate with her if you'd like to hear them!"
+## Constructive:"I noticed that in our last meeting, Ellen seemed upset by how you reacted to her suggestions. I've found some effective ways to communicate with her if you'd like to hear them!"
 
-**Not Constructive:**"You acted like a bully to Ellen in our most recent meeting."
+## Not Constructive:"You acted like a bully to Ellen in our most recent meeting."
 
+## Constructive:"Lately, I have had trouble understanding exactly what you need from me. I know it's not your intention to confuse me, and I want to make sure I can deliver on your expectations. Could we talk about some ways you and I can communicate more effectively so I can understand what needs to get done?"
 
+## Not Constructive:"I'm upset because I'm lost on this project and no one is telling me what to do. I need you to be less vague and support me."
 
-**Constructive:**"Lately, I have had trouble understanding exactly what you need from me. I know it's not your intention to confuse me, and I want to make sure I can deliver on your expectations. Could we talk about some ways you and I can communicate more effectively so I can understand what needs to get done?"
+## Constructive:"With the current size of my workload, I am concerned about my ability to maintain the quality of my work. Could we check in about my capacity before I am assigned new tasks?"
 
-**Not Constructive:**"I'm upset because I'm lost on this project and no one is telling me what to do. I need you to be less vague and support me."
+## Not Constructive: "You're overloading me with work. I feel exploited and like no one cares about me."
 
+## Constructive:"Recently, I've been unsure about whether I have permission to talk to X stakeholders and make decisions about the project. Because you weren't present at our recent meeting with them like I expected, I wasn't sure how to act, or lead the meeting effectively without overstepping. It would be great if we could arrive at a clearer understanding of what my responsibilities and authority are."
 
+## Not Constructive:"You left me in the lurch and I had to lead that meeting by myself. You didn't bother to let me know how to deal with X stakeholders or what they needed from us. I feel like you're checked out and not leading our team."
 
-**Constructive:**"With the current size of my workload, I am concerned about my ability to maintain the quality of my work. Could we check in about my capacity before I am assigned new tasks?"
+## Constructive:"I want to check in with you on your satisfaction with my work. I got the impression that you were frustrated yesterday. Could we set a time to communicate more clearly about anything that needs to improve?"
 
-**Not Constructive:** "You're overloading me with work. I feel exploited and like no one cares about me."
+## Not Constructive:"You were mean to me yesterday. I feel like you don't respect me."
 
-
-
-**Constructive:**"Recently, I've been unsure about whether I have permission to talk to X stakeholders and make decisions about the project. Because you weren't present at our recent meeting with them like I expected, I wasn't sure how to act, or lead the meeting effectively without overstepping. It would be great if we could arrive at a clearer understanding of what my responsibilities and authority are."
-
-**Not Constructive:**"You left me in the lurch and I had to lead that meeting by myself. You didn't bother to let me know how to deal with X stakeholders or what they needed from us. I feel like you're checked out and not leading our team."
-
-
-
-**Constructive:**"I want to check in with you on your satisfaction with my work. I got the impression that you were frustrated yesterday. Could we set a time to communicate more clearly about anything that needs to improve?"
-
-**Not Constructive:**"You were mean to me yesterday. I feel like you don't respect me."
-
-
-
-**Blinkists - Secrets of Power Negotiating 1987 by Roger Dawson (18 Dec 2019)**
+## Blinkists - Secrets of Power Negotiating 1987 by Roger Dawson (18 Dec 2019)
 
 Inside secrets from a master negotiator
 -   Gambits can be divided into 3 categories
@@ -337,14 +289,10 @@ By employing a wide range of strategic moves known as gambits, you can greatly i
 
 When negotiating deals involving large sums of money, it's common for people to fall into the trap of thinking in terms of percentages rather than absolute numbers. For example, let's say you're about to buy a house for $200,000, and you could get the other side to come down to $199,000. The savings of $1,000 is just one half of one percent, so it doesn't seem like a big deal if you look at it that way, and it's easy to let go of. But what if you spent just a minute convincing the other side to come down by $1,000? In and of itself, that's a lot of money for a very small amount of time. Just imagine if you had a job that paid you $1,000 per minute!
 
-
-
 [The Interactional 'Nudge' - Talking About Talk](https://www.youtube.com/watch?v=e-QbxjXDwXU)
 -   Do you want some more cake, rather than any more cake
 -   Something vs anything
 -   Anything is mostly followed with No, something is followed by I can have some by other party
-
-
 
 Think Again by Adam Grant
 -   productive disagreement
@@ -352,8 +300,6 @@ Think Again by Adam Grant
 -   Friction isn't inherently bad; it can be productive. If two people always agree, at least one of them is failing to think critically or speak candidly.
 -   A difference of opinion doesn't have to threaten a relationship, it can be an opportunity to learn. The people who teach you the most are the ones who question your thought process, not the ones who validate your conclusions.
 -   The ultimate purpose of debate is not to produce consensus. It's to promote critical thinking.
-
-
 
 1.  we must learn to recognise our own lazy thinking
 
@@ -367,21 +313,15 @@ Think Again by Adam Grant
 
 6.  agree to disagree
 
-
-
 # Writing / Newsletter
 
 "Don't write to sound smart. Write to be useful.
 
 If you're useful over a long time period, you will end up looking smart anyway."
 
-
-
 <https://neilpatel.com/blog/the-step-by-step-guide-to-writing-powerful-headlines
 
-
-
-**Writing Tips**
+## Writing Tips
 
 1.  "Find a subject you care about and which you in your heart feel others should care about. It is this genuine caring, and not your games with language, which will be the most compelling and seductive element in your style."This explains why for many of us our first writing (outside of high school essays) tends to be about the first love in our adolescent life.
 
@@ -397,15 +337,11 @@ If you're useful over a long time period, you will end up looking smart anyway."
 
 7.  If you care about writing well then train yourself to write well. Vonnegut recommends reading "The Elements of Style"by William Strunk Jr and EB White.
 
-
-
 <https://substack.com
 
 Substackmakes it simple for a writer to start an email newsletter that makes money from subscriptions.
 
 <https://www.dotdash.com
-
-
 
 [ON WRITING WELL by William Zinsser | Core Message](https://www.youtube.com/watch?v=LgI_Nt-82Hk)
 -   Everybody writes, but few people care to write well
@@ -434,13 +370,9 @@ Substackmakes it simple for a writer to start an email newsletter that makes mon
     -   Story
     -   What opening is most likely to hook my reader?
 
-
-
 [How to Write Less but Say More | Jim VandeHei | TED](https://www.youtube.com/watch?v=v6BmurUpiN0)
 
-
-
-**Stories / Story / Storytelling**
+## Stories / Story / Storytelling
 
 The best arguments in the world won't change a single person's mind. The only thing that can do that is a good story.
 
@@ -448,9 +380,7 @@ It's hard to compute, but it's how the world works.
 
 [The Power Of Storytelling - Full Session](https://youtu.be/SOatuuCSHM8)
 
-
-
-**LinkedIn growth playbook**
+## LinkedIn growth playbook
 
 1.  How to pick a topic to write about
 

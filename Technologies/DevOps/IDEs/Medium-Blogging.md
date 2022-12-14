@@ -8,9 +8,7 @@ Modified: 2020-07-25 17:30:13 +0500
 
 You have reached the pay-walled version of this article. You can read it absolutely for free[on my blog](https://preslav.me/2018/12/02/designing-well-structured-rest-apis-with-flask-restplus-part-1/), however.
 
-
-
-**Shortcuts**
+## Shortcuts
 
 | ⌘+Alt+1 | Bigger header or title     |      |                                          |
 |-------------|----------------------|---------|------------------------------|
@@ -19,11 +17,7 @@ You have reached the pay-walled version of this article. You can read it absolut
 | *Space    | Bulleted list              | ⌘+K | Turn into a linkWorks for text and images |
 | 1.Space   | Ordered list               |      |                                          |
 
-
-
 ⌘ + Alt + 6 - Code Block
-
-
 
 | @name or username | Link to another person's profile                                            |
 |---------------------------|---------------------------------------------|
@@ -38,19 +32,13 @@ You have reached the pay-walled version of this article. You can read it absolut
 -   Include content from Medium or other sites by pasting a link and pressing Enter.
 -   You can mention anyone in your story by typing @ and then their name. They will get a notification after you publish.
 
-
-
 Embed Gist
 
 1.  Create public link of the gist
 
 2.  Use embed option in + menu in medium to embed the gist in the blog
 
-
-
 ✓ ★ ▹
-
-
 
 | **Feature**    | **macOS**             | **Windows**              |
 |----------------|-----------------------|--------------------------|

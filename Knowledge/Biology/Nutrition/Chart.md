@@ -40,8 +40,6 @@ Modified: 2021-08-14 10:17:18 +0500
 | [Sodium](https://en.wikipedia.org/wiki/Sodium)                            | NE      | 1500               | 2300                                                                                    | mg       | [table salt](https://en.wikipedia.org/wiki/Table_salt),[baking soda](https://en.wikipedia.org/wiki/Baking_soda), soup[bouillon cube](https://en.wikipedia.org/wiki/Bouillon_cube),[seasoning](https://en.wikipedia.org/wiki/Seasoning)mixes,[onion soup](https://en.wikipedia.org/wiki/Onion_soup)mix,[fish sauce](https://en.wikipedia.org/wiki/Fish_sauce)                                                                                                             |
 | [Zinc](https://en.wikipedia.org/wiki/Zinc)                                | 9.4     | 11                 | 40                                                                                      | mg       | oysters, fortified breakfast cereals, baby foods, beverages, peanut butter, and energy bars,[wheat germ](https://en.wikipedia.org/wiki/Wheat_germ), **beef, shrimp, spinach, flaxseeds, oysters and pumpkin seeds**                                                                                                                                                                                                                                                            |
 
-
-
 # Macronutrients
 
 | **Substance**                                                                                                                                                                                                           | **Amount (males)**                                                                                             | **Amount (females)** | **Top Sources in Common Measures**[^[8]^](https://en.wikipedia.org/wiki/Dietary_Reference_Intake#cite_note-USDA-8)                                                                                                                                                                                                                |
@@ -60,15 +58,11 @@ Modified: 2021-08-14 10:17:18 +0500
 | [Saturated fatty acids](https://en.wikipedia.org/wiki/Saturated_fatty_acids)                                                                                                                                            | As low as possible while consuming a nutritionally adequate diet                                               |                     | [coconut](https://en.wikipedia.org/wiki/Coconut)meat, coconut oil, lard, cheeses, butter, chocolate, egg yolk                                                                                                                                                                                                                      |
 | Added sugar                                                                                                                                                                                                             | No more than 25% of calories                                                                                   |                     | non-natural sweet foods: sweets, cookies, cakes, jams, energy and soda drinks, many processed foods                                                                                                                                                                                                                                 |
 
-
-
-**Legend**
+## Legend
 -   **Estimated Average Requirements**(EAR)
 -   **Recommended Dietary Allowances**(RDA)
 -   **Adequate Intake**(AI)
 -   **Tolerable upper intake levels**(UL)
-
-
 
 <table>
 <colgroup>
@@ -122,7 +116,5 @@ Modified: 2021-08-14 10:17:18 +0500
 </tr>
 </tbody>
 </table>
-
-
 
 <https://en.wikipedia.org/wiki/Dietary_Reference_Intake>

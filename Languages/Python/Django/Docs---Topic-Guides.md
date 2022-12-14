@@ -19,8 +19,8 @@ Modified: 2021-10-02 13:00:26 +0500
     -   [Managers](https://docs.djangoproject.com/en/2.0/topics/db/managers/)
     -   [**Performing raw SQL queries**](https://docs.djangoproject.com/en/2.0/topics/db/sql/)
 
-**>>> for** p **in** Person.objects.raw('SELECT * FROM myapp_person'):
-**...** print(p)
+## >>> for** p **in Person.objects.raw('SELECT * FROM myapp_person'):
+## ... print(p)
 -   [Database transactions](https://docs.djangoproject.com/en/2.0/topics/db/transactions/)
 -   [Multiple databases](https://docs.djangoproject.com/en/2.0/topics/db/multi-db/)
 -   [Tablespaces](https://docs.djangoproject.com/en/2.0/topics/db/tablespaces/)
@@ -170,13 +170,9 @@ Modified: 2021-10-02 13:00:26 +0500
     -   [Comments](https://docs.djangoproject.com/en/2.0/topics/external-packages/#comments)
     -   [Formtools](https://docs.djangoproject.com/en/2.0/topics/external-packages/#formtools)
 
-
-
 <https://docs.djangoproject.com/en/2.0/topics
 
-
-
-**How to Guides**
+## How to Guides
 -   [Authentication usingREMOTE_USER](https://docs.djangoproject.com/en/2.0/howto/auth-remote-user/)
 -   [Writing customdjango-admincommands](https://docs.djangoproject.com/en/2.0/howto/custom-management-commands/)
 -   [Writing custom model fields](https://docs.djangoproject.com/en/2.0/howto/custom-model-fields/)
@@ -197,13 +193,9 @@ Modified: 2021-10-02 13:00:26 +0500
 -   [How to install Django on Windows](https://docs.djangoproject.com/en/2.0/howto/windows/)
 -   [Writing database migrations](https://docs.djangoproject.com/en/2.0/howto/writing-migrations/)
 
-
-
 <https://docs.djangoproject.com/en/2.0/howto
 
-
-
-**API Reference**
+## API Reference
 -   [Applications](https://docs.djangoproject.com/en/2.0/ref/applications/)
 -   [System check framework](https://docs.djangoproject.com/en/2.0/ref/checks/)
 -   [Built-in class-based views API](https://docs.djangoproject.com/en/2.0/ref/class-based-views/)
@@ -233,13 +225,9 @@ Modified: 2021-10-02 13:00:26 +0500
 -   [Validators](https://docs.djangoproject.com/en/2.0/ref/validators/)
 -   [Built-in Views](https://docs.djangoproject.com/en/2.0/ref/views/)
 
-
-
 <https://docs.djangoproject.com/en/2.0/ref
 
-
-
-**Management Command**
+## Management Command
 
 class Command(BaseCommand):
 
@@ -272,8 +260,6 @@ default=None,
 help="Set to true if generated files for a customer only need to be uploaded to drive"
 
 )
-
-
 
 def handle(self, *args, **options):
 

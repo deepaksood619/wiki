@@ -6,13 +6,11 @@ Modified: 2021-11-09 19:29:59 +0500
 
 ---
 
-**Jan 8 2020 <https://medium.com/firebase-developers/google-analytics-vs-firebase-analytics-vs-google-analytics-97ca645a8aff>**
+## Jan 8 2020 <https://medium.com/firebase-developers/google-analytics-vs-firebase-analytics-vs-google-analytics-97ca645a8aff>
 
 tl;dr: Google Analytics for Firebase, formerly Firebase Analytics, is now known as Google Analytics. It works great for your mobile apps! Oh, but Google Analytics for Mobile has been deprecated; they recommend you use Firebase Analytics, which, as you'll recall, is now Google Analytics. In recent news, you'll be excited to hear that Google Analytics now supports web apps, but don't confuse that with Google Analytics for the web!
 
-
-
-**Google Analytics**
+## Google Analytics
 -   Unlimited Reporting
     -   Analytics provides unlimited reporting on up to 500 distinct events.
 -   Audience Segmentation
@@ -21,8 +19,6 @@ tl;dr: Google Analytics for Firebase, formerly Firebase Analytics, is now known 
     -   Comparision Analysis
     -   Segment Overlap Analysis
     -   Funnel Analysis Technique
-
-
 
 <https://firebase.google.com/docs/analytics>
 
@@ -34,75 +30,43 @@ tl;dr: Google Analytics for Firebase, formerly Firebase Analytics, is now known 
     -   effectiveness of advertising and other growth campaigns
 -   **Push notification analytics and crash reporting**
 
-
-
 YouTube - [The Firebase developer's guide to Google Analytics](https://www.youtube.com/watch?v=2F2XhgMt8Dg&ab_channel=Firebase)
 
+## Firebase Analytics
 
-
-**Firebase Analytics**
-
-**Events**
+## Events
 
 An Event is an important occurrence in your app that you want to measure. You can report up to 500 different types of Events per app and you can associate up to 25 unique parameters with each Event type. Some common events are suggested below, but you may also choose to specify custom Event types that are associated with your specific app. Each event type is identified by a unique name. Event names can be up to 40 characters long, may only contain alphanumeric characters and underscores ("_"), and must start with an alphabetic character. The "firebase_", "google_", and "ga_" prefixes are reserved and should not be used.
 
-
-
 <https://firebase.google.com/docs/reference/cpp/group/event-names>
-
-
 
 Events provide insight on what is happening in your app, such as user actions, system events, or errors.
 
-
-
 Analytics automatically logs some[events](https://support.google.com/firebase/answer/6317485)for you; you don't need to add any code to receive them. If your app needs to collect additional data, you can log up to 500 different Analytics Eventtypesin your app. There is no limit on the total volume of events your app logs.
-
-
 
 Extra events are dropped. A firebase_error event is logged with a firebase_error parameter which indicates the error code.
 
-
-
 For example, you have a login page (with authentication methods of using Facebook, Google or Username/Password) and you'd like to track what is the most commonly used by the users. With this, you could log a custom event with the name of "user_login" and a parameter or login_method. After this, add the parameter in the custom parameter reporting to see the counts.
 
-
-
-**Parameters**
+## Parameters
 
 Params supply information that contextualize Events. You can associate up to 25 unique Params with each Event type. Some Params are suggested below for certain common Events, but you are not limited to these. You may supply extra Params for suggested Events or custom Params for Custom events. Param names can be up to 40 characters long, may only contain alphanumeric characters and underscores ("_"), and must start with an alphabetic character. Param values can be up to 100 characters long. The "firebase_", "google_", and "ga_" prefixes are reserved and should not be used.
 
-
-
 <https://firebase.google.com/docs/reference/cpp/group/parameter-names>
-
-
 
 Custom-parameter reporting Define custom parameters for your events.
 
-
-
 Google Analytics for Firebase lets you specify up to 25 custom parameters per event (Android or iOS).
-
-
 
 You can also identify up to 50 custom event parameters per project (40 numeric and 10 textual) to include in reporting by registering those parameters with their corresponding events. Once you register your custom parameters, Google Analytics for Firebase displays a corresponding data card in each related event-detail report.
 
-
-
 Each parameter that you specify counts toward the project limit of 50. For example, if you specify the same parameter for 3 different events, then that counts as 3 of your 50.
 
-
-
-**User Property**
+## User Property
 
 A UserProperty is an attribute that describes the app-user. By supplying UserProperties, you can later analyze different behaviors of various segments of your userbase. You may supply up to 25 unique UserProperties per app, and you can use the name and value of your choosing for each one. UserProperty names can be up to 24 characters long, may only contain alphanumeric characters and underscores ("_"), and must start with an alphabetic character. UserProperty values can be up to 36 characters long. The "firebase_", "google_", and "ga_" prefixes are reserved and should not be used.
 
-
-
 Attributes you define to describe segments of your user base, such as **language preference or geographic location.**
-
-
 
 <https://firebase.google.com/docs/analytics/events?platform=android>
 
@@ -112,24 +76,16 @@ Attributes you define to describe segments of your user base, such as **language
 
 <https://stackoverflow.com/questions/37604275/how-to-view-event-parameters-from-firebase-console>
 
-
-
-**Terms**
+## Terms
 -   **Properties**
 
 In Google Analytics, a**property**is a website, mobile application, or blog, etc., that is associated with a unique tracking ID.
 
-
-
 While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property.
-
-
 
 For example, if you associate one property ID with two websites, data for both websites appears in the same property in your Analytics account. You can then use[views](https://support.google.com/analytics/answer/2649553)and[filters](https://support.google.com/analytics/answer/1033162)to organize the data. You can segregate the data even further at the report level with tools like[Segments](https://support.google.com/analytics/answer/1033017).
 
-
-
-**Getting started**
+## Getting started
 
 1.  Create an App + Web property
 
@@ -145,24 +101,16 @@ When you add a data stream for your website and/or app, some basic parameters (s
 
 The final step to get set up is enabling data collection, which allows your reports to populate relevant events from your website. This allows tagged data to flow to your new property (in addition to your existing ones), and is essential in order to get meaningful insights from your App + Web property.
 
-
-
-**Advanced Features**
+## Advanced Features
 -   Enchanced Ecommerce
 -   Track important success metrics with Goals
 -   Analytics Intelligence
 
-
-
-**Important Points**
+## Important Points
 
 There is currently no way to delete events once they are logged into Firebase Analytics that I am aware of. However, the events will drift out of the default view (which is set to "last 30 days") as time goes on, or you can switch the time period to a shorter time. As you mentioned, you can also click a column header to sort by some other value or "add filter" to filter by an audience or user property.
 
-
-
 You can create a new Firebase project if you want to start from scratch. It's also a fairly common practice to use one project for experimentation and validation of your analytics implementation and then to switch to your production Firebase project when everything looks good.
-
-
 
 <table style="width:100%;">
 <colgroup>
@@ -230,8 +178,6 @@ You can create a new Firebase project if you want to start from scratch. It's al
 
 Configuration limits
 
-
-
 | **Configured item**                | **Limit** | **Can I delete items if I'm close to the limit?** |
 |------------------------------|---------|---------------------------------|
 | Audiences                           | 100       | Yes                                                |
@@ -242,17 +188,11 @@ Configuration limits
 | Registered numeric parameters       | 50        | Yes                                                |
 | Registered custom conversion events | 30        | Yes                                                |
 
-
-
 You cannot increase these limits by upgrading to the[Flame or Blaze pricing plans](https://firebase.google.com/pricing/). The limits are the same for all Firebase projects.
-
-
 
 <https://support.google.com/firebase/answer/9237506?hl=en>
 
-
-
-**Attribution**
+## Attribution
 
 Let's say you've spent some money on two different ad campaigns to bring users into your app. After a few weeks, you discover:
 -   Ad campaign #1 resulted in 500 clicks.
@@ -267,13 +207,9 @@ So, which ad campaign performed better? Seems like a no-brainer, right? Should y
     -   ...and they spent an average of $6 each
     -   ...and over 100 of them signed up for your newsletter?
 
-
-
 Well, suddenly, that second ad campaign seems like a much better deal, doesn't it?That's the idea behindattribution. **It's a powerful form of app analytics that not only determines which campaigns are bringing you users, but also which campaigns are bringing you valuable users that you care most about.**
 
-
-
-**Others**
+## Others
 
 <https://github.com/PostHog/posthog>
 

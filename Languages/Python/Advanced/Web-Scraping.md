@@ -8,8 +8,6 @@ Modified: 2022-02-05 01:00:58 +0500
 
 Web Scraping is a technique in which a computer program extracts data from human-readable output coming from websites.
 
-
-
 1.  lxml.etree
 
     a.  theXPath - language for XML queries
@@ -24,16 +22,12 @@ Web Scraping is a technique in which a computer program extracts data from human
 
         ii. search (find_all)
 
-
-
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(response.text, 'html.parser')
 
 mydivs = soup.find_all("div", {"class": "stylelistrow"})
 print(i, soup.body.div.div)
-
-
 
 3.  Selenium (for javascript)
 
@@ -42,8 +36,6 @@ print(i, soup.body.div.div)
     -   [Zombie](https://github.com/assaf/zombie)
     -   [slimerjs](http://slimerjs.org/)
     -   [puppeteer](https://github.com/GoogleChrome/puppeteer)
-
-
 
 <https://www.toptal.com/python/web-scraping-with-python>
 

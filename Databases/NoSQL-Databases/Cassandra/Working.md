@@ -6,7 +6,7 @@ Modified: 2020-01-07 22:08:50 +0500
 
 ---
 
-**Writes**
+## Writes
 -   Need to be lock-free and fast (no reads or disk seeks)
 -   Client sends write to one coordinator node in Cassandra cluster
     -   Coordinator may be per-key, or per-client or per-query
@@ -30,15 +30,15 @@ Modified: 2020-01-07 22:08:50 +0500
         -   SSTables are immutable (once created, they don't change)
         -   Index file: An SSTable of (key, position in data sstable) pairs
         -   And a Bloom Filter (for efficient search)
-**The Write Path**
+## The Write Path
 -   Writes are written to any node in the cluster (coordinator)
 -   Writes are written to commit log, then to memtable
 -   Every write includes a timestamp
 -   Memtable flushed to disk periodically (sstable)
 -   New memtable is created in memory
 -   Deletes are a special write case, called a "tombstone"
-![client Write data Memory Disk 10 Cornnt log rrerntable INDEX Hush SSTable ](media/Cassandra_Working-image1.png)
-**What is an SSTable**
+![image](media/Cassandra_Working-image1.png)
+## What is an SSTable
 -   Immutable data file for row storage
 -   Every write includes a timestamp of when it was written
 -   Partition is spread across multiple SSTables
@@ -46,7 +46,7 @@ Modified: 2020-01-07 22:08:50 +0500
 -   Merged through compaction, only latest timestamp is kept
 -   Deletes are written as tombstones
 -   Easy backups
-**The Read Path**
+## The Read Path
 -   Any server may be queried, it acts as the coordinator
 -   Contacts nodes with the requested key
 -   On each node, data is pulled from SSTables and merged
@@ -61,7 +61,7 @@ Modified: 2020-01-07 22:08:50 +0500
 ## Deletes**: don't delete item right away
 -   Add a tombstone to the log
 -   Eventually, when compaction encounters tombstone it will delete item
-**Reads**: Similar to writes, expect
+## Reads: Similar to writes, expect
 -   Coordinator can contact X replicas (e.g., in same rack)
     -   Coordinator sends read to replicas that have responded quickest in past
     -   When X replicas respond, coordinator returns the latest timestamped value from among those X

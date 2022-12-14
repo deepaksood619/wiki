@@ -26,7 +26,7 @@ There are three types of sequence files:
 # ORCFile
 -   ORC stands for **Optimized Row Columnar** which means it can store data in an optimized way than the other file formats. ORC reduces the size of the original data up to 75%(eg: 100GB file will become 25GB). As a result the speed of data processing also increases. ORC shows better performance than Text, Sequence and RC file formats.
 -   An ORC file contains rows data in groups called as Stripes along with a file footer. ORC format improves the performance when Hive is processing the data.
-**Choosing File Formats**
+## Choosing File Formats
 -   If your data is delimited by some parameters then you can useTEXTFILEformat.
 -   If your data is in small files whose size is less than the block size then you can useSEQUENCEFILEformat.
 -   If you want to perform analytics on your data and you want to store your data efficiently for that then you can useRCFILEformat.
@@ -71,7 +71,7 @@ Parquet
 -   All data pushed to leaves of the tree
 -   Integrated compression and indexes
 ![Image for post](media/File-Formats-image1.png)
-**DataSets**
+## DataSets
 -   NYC Taxi Data
     -   18 columns with no null values
     -   Doubles, integers, decimal & strings
@@ -85,46 +85,46 @@ Parquet
     -   A little structure
     -   Timestamps, strings, longs, booleans, list & struct
     -   23 million rows
-**Compression**
+## Compression
 -   ORC and Parquet use RLE & Dictionaries
 -   All the formats have general compression
     -   ZLIB (GZip) - tight compression, slower
     -   Snappy - Some compression, faster
-![Оном мох вон мое - Aaaeus бо•п 0t.31 !хеш ](media/File-Formats-image2.png)
-**Taxi size analysis**
+![image](media/File-Formats-image2.png)
+## Taxi size analysis
 -   Don' use JSON
 -   Use either Snappy or Zlib compression
 -   Avor's small compression window hurts
 -   Parquet Zlib is smaller than ORC
     -   Group the column sizes by type
-![19 Parquet & ORC Taxi Column Sizes •parquet •orc Inc, Rights HORTONWORKS ](media/File-Formats-image3.png)
+![image](media/File-Formats-image3.png)
 
-![Sales Size 2.SE.10 1.5010 1 E.to parq tlib snap" none snap" avro snappy parquet none 20 Inc, Rights HORTONWORKS ](media/File-Formats-image4.png)
-**Taxi size analysis**
+![image](media/File-Formats-image4.png)
+## Taxi size analysis
 -   ORC did better than expected
     -   String columns have small cardinality
     -   Lots of timestamp columns
     -   No doubles
-![Github Size 3.5010 2010 1SE•10 1010 s E.09 22 Inc, Rights avro snapcr,' Ott avo snappy parq uet snappv HORTONWORKS ](media/File-Formats-image5.png)
-**Github Size Analysis**
+![image](media/File-Formats-image5.png)
+## Github Size Analysis
 -   Surprising win for JSON and Avro
     -   Worst when uncompressed
     -   Best with zlib
 -   Many partially shared strings
     -   ORC and Parquet don't compress across columns
-**Use Case - Full Table Scans**
+## Use Case - Full Table Scans
 -   Read all columns & rows
 -   All formats except JSON are splitable
     -   Different workers do different parts of file
-![Taxi gs/record none avro 26 none Inc, Rights snappy orc zlib orc snappy avro zlib avro snappy none zlib none parquetlparquet parquet json snappy json zlib HORTONWORKS ](media/File-Formats-image6.png)
-**Taxi read performance analysis**
+![image](media/File-Formats-image6.png)
+## Taxi read performance analysis
 -   JSON is very slow to read
     -   Large storage size for this data set
     -   Needs to do a lot of string parsing
 -   Tradeoff between space & time
     -   Less compression is sometimes faster
-![Sales gs/record none avro snappy avro awo none snappy parquet parquet parquet json snappy json t lib J son 28 Inc, Rights HORTONWORKS ](media/File-Formats-image7.png)
-**Sales read performance analysis**
+![image](media/File-Formats-image7.png)
+## Sales read performance analysis
 -   Read performance is dominated by format
     -   Compression matters less for this data set
     -   Straight ordering: ORC, Avro, Parquet & JSON
@@ -132,8 +132,8 @@ Parquet
     -   ORC 0.3 to 1.4% of time
     -   Avro < 0.1% of time
     -   Parquet 4 to 8% of time
-![Github gs/record 30 snappy Snappy Inc, Rights orc ppy j son j son snappy none ison parquet parquet parquet HORTONWORKS ](media/File-Formats-image8.png)
-**Github read performance analysis**
+![image](media/File-Formats-image8.png)
+## Github read performance analysis
 -   Garbage collection is critical
     -   ORC 2.1 to 3.4% of time
     -   Avro 0.1% of time
@@ -141,27 +141,27 @@ Parquet
 -   A lot of columns needs more space
     -   Suspect that we need bigger stripes
     -   Rows/stripe - ORC: 18.6k, Parquet: 88.1k
-![Column Projection Often just need a few columns ---Only ORC & Parquet are columnar ---Only read, decompress, & deserialize some columns 'thub hub ales ales 32 Inc, AA Rights ar ar uet uet uet zlib zlib 21.319 72.494 1.866 12.893 2.766 3.496 o. 185 0.585 0.05 0.329 0.063 0.718 0.87 0.81 3. 2.55 2. 20.54 HORTONWORKS ](media/File-Formats-image9.png)
-**Projection & Predicate Pushdown**
+![image](media/File-Formats-image9.png)
+## Projection & Predicate Pushdown
 -   Sometimes have a filter predicate on table
     -   Select a superset of rows that match
     -   Selective filters have a huge impact
 -   Improves data layout options
     -   Better than partition pruning with sorting
 -   ORC has added optional bloom filters
-**Metadata Access**
+## Metadata Access
 -   ORC & Parquet store metadata
     -   Stored in filt footer
     -   File schema
     -   Number of records
     -   Min, max, count of each column
 -   Provides O(1) access
-**Recommendations**
+## Recommendations
 -   Don't use JSON for processing
 -   If your use case needs column projection or predicate push down use ORC or Parquet
 -   For complex tables with common strings - Avro with Snappy is a good fit (w/o projection)
 -   For other tables - ORC with Zlib or Snappy is a good fit
-**Key conclusions -** <https://eng.uber.com/trip-data-squeeze-json-encoding-compression>
+## Key conclusions - <https://eng.uber.com/trip-data-squeeze-json-encoding-compression>
 
 1.  Simply compressing JSON with zlib would yield a reasonable tradeoff in size and speed. The result would be just a little bigger, but execution was much faster than using BZ2 on JSON.
 
@@ -172,7 +172,7 @@ Parquet
 
 ## Compression (zlib)**
 
-**In 1 mb of memory**
+## In 1 mb of memory
 
 raw 7304 (19 kv pair)
 
@@ -210,16 +210,16 @@ Daily hits: 50000*52 = 2600000 messages / day = 2.6 Million msgs/day
 2600000 * 3.8 = 9880000 KB = 9.9 GB / day
 
 9.9 * 30 = 297 GB / month
-**Things to consider**
+## Things to consider
 -   **The structure of your data:** Some formats accept nested data such as JSON, Avro or Parquet and others do not. Even, the ones that do, may not be highly optimized for it. Avro is the most efficient format for nested data, I recommend not to use Parquet nested types because they are very inefficient. Process nested JSON is also very CPU intensive. In general, it is recommended to flat the data when ingesting it.
 -   **Performance:** Some formats such as Avro and Parquet perform better than other such JSON. Even between Avro and Parquet for different use cases one will be better than others. For example, since Parquet is a column based format it is great to query your data lake using SQL whereas Avro is better for ETL row level transformation.
 -   **Easy to read:** Consider if you need people to read the data or not. JSON or CSV are text formats and are human readable whereas more performant formats such parquet or Avro are binary.
 -   **Compression:** Some formats offer higher compression rates than others.
 -   **Schema evolution:** Adding or removing fields is far more complicated in a data lake than in a database. Some formats like Avro or Parquet provide some degree of schema evolution which allows you to change the data schema and still query the data. Tools such[Delta Lake](https://delta.io/)format provide even better tools to deal with changes in Schemas.
 -   **Compatibility:** JSON or CSV are widely adopted and compatible with almost any tool while more performant options have less integration points.
-**h5 File / h5py**
+## h5 File / h5py
 
-**Hierarchical Data Format**(**HDF**) is a set of file formats (**HDF4**,**HDF5**) designed to store and organize large amounts of data. Originally developed at the[National Center for Supercomputing Applications](https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications), it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF.
+## Hierarchical Data Format**(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data. Originally developed at the[National Center for Supercomputing Applications](https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications), it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF.
 Filename extensions - .hdf,.h4,.hdf4,.he2,.h5,.hdf5,.he5
 HETEROGENEOUS DATA
 

@@ -8,25 +8,17 @@ Modified: 2021-03-24 22:18:17 +0500
 
 At its core, Airflow is simply a queuing system built on top of a metadata database. The database stores the state of queued tasks and a scheduler uses these states to prioritize how other tasks are added to the queue. This functionality is orchestrated by four primary components
 
-
-
 1.  **Metadata Database:** this database stores information regarding the state of tasks. Database updates are performed using an abstraction layer implemented in SQLAlchemy. This abstraction layer cleanly separates the function of the remaining components of Airflow from the database.
     
 
 2.  **Scheduler:** The Scheduler is a process that uses DAG definitions in conjunction with the state of tasks in the metadata database to decide which tasks need to be executed, as well as their execution priority. The Scheduler is generally run as a service.
 
-
-
 3.  **Executor:** The Executor is a message queuing process that is tightly bound to the Scheduler and determines the worker processes that actually execute each scheduled task. There are different types of Executors, each of which uses a specific class of worker processes to execute tasks. For example, theLocalExecutorexecutes tasks with parallel processes that run on the same machine as the Scheduler process. Other Executors, like the CeleryExecutor execute tasks using worker processes that exist on a separate cluster of worker machines.
-
-
 
 Inside[Apache Airflow](https://airflow.apache.org/), tasks are carried out by anexecutor. The main types of executors are:
 -   **Sequential Executor:** Each task is runlocally(on the same machine as the scheduler) in its own python subprocess. They are run sequentially which means that only one task can be executed at a time. It is the default executor.
 -   **Local Executor:** It is the same as the sequential executor except that multiple tasks canrun in parallel. It needs a metadata database (where DAGs and tasks status are stored) that supports parallelism like MySQL. Setting such a database requires some extra work since the default configuration uses SQLite.
 -   **Celery Executor:** The workload is distributed on multiple celery workers which can run on different machines.It is the executor you should use for availability and scalability.
-
-
 
 4.  **Workers:** These are the processes that actually execute the logic of tasks, and are determined by the Executor being used.
 
@@ -34,9 +26,7 @@ Inside[Apache Airflow](https://airflow.apache.org/), tasks are carried out by an
 
 Airflow's General Architecture.Airflow's operation is built atop a Metadata Database which stores the state of tasks and workflows (i.e. DAGs). The Scheduler and Executor send tasks to a queue for Worker processes to perform. The Webserver runs (often-times running on the same machine as the Scheduler) and communicates with the database to render task state and Task Execution Logs in the Web UI. Each colored box indicates that each component can exist in isolation from the other components, depending on the type of deployment configuration.
 
-
-
-**Basic Airflow Architecture**
+## Basic Airflow Architecture
 
 ![](../../../media/Technologies-Apache-Airflow-Architecture-image2.png)
 
@@ -48,23 +38,15 @@ There are a few components to note:
 -   airflow.cfgis the Airflow configuration file which is accessed by the Web Server, Scheduler, and Workers.
 -   DAGsrefers to the DAG files containing Python code, representing the data pipelines to be run by Airflow. The location of these files is specified in the Airflow configuration file, but they need to be accessible by the Web Server, Scheduler, and Workers.
 
-
-
 <https://airflow.apache.org/docs/apache-airflow/stable/concepts.html>
 
-
-
-**Schedular Operation**
+## Schedular Operation
 
 Step 0. Load available DAG definitions from disk (fill DagBag)
-
-
 
 While the scheduler is running:
 
 Step 1. The scheduler uses the DAG definitions to identify and/or initialize any DagRuns in the metadata db.
-
-
 
 Step 2. The scheduler checks the states of the TaskInstances associated with active DagRuns, resolves any dependencies amongst TaskInstances, identifies TaskInstances that need to be executed, and adds them to a worker queue, updating the status of newly-queued TaskInstances to "queued" in the database.
 
@@ -76,13 +58,9 @@ Step 5. The scheduler updates the states of all active DagRuns ("running", "fail
 
 Step 6. Repeat Steps 1-5
 
-
-
 <https://medium.com/@dustinstansbury/how-quizlet-uses-apache-airflow-in-practice-a903cbb5626d>
 
-
-
-**Single-node architecture**
+## Single-node architecture
 
 In a single-node architecture all components are on the same node. To use a single node architecture, Airflow has to be configured with the LocalExecutor mode.
 
@@ -90,9 +68,7 @@ In a single-node architecture all components are on the same node. To use a sing
 
 The single-node architecture is widely used by the users in case they have a moderate amount of DAGs. In this mode, the worker pulls tasks to run from an IPC (Inter Process Communication) queue. This mode doesn't any need external dependencies. It scales up well until all resources on the server are used. This solution works pretty well. However, to scale out to multiple servers, the Celery executor mode has to be used. Celery executor uses Celery (and a message-queuing server) to distribute the load on a pool of workers.
 
-
-
-**Multi-node architecture**
+## Multi-node architecture
 
 In a multi node architecture daemons are spread in different machines. We decided to colocate the webserver and the scheduler. To use this architecture, Airflow has to be configure with the Celery Executor mode.
 
@@ -100,25 +76,17 @@ In a multi node architecture daemons are spread in different machines. We decide
 
 In this mode, a Celery backend has to be set (Redis in our case). Celery is an asynchronous queue based on distributed message passing. Airflow uses it to execute several tasks concurrently on several workers server using multiprocessing. This mode allows to scale up the Airflow cluster really easily by adding new workers.
 
-
-
-**Multi-node architecture provides several benefits:**
+## Multi-node architecture provides several benefits:
 -   **Higher availability:** if one of the worker nodes goes down, the cluster will still be up and DAGs will still be running.
 -   **Dedicated workers for specific tasks :** we have a workflow where some of our DAGs are CPU intensive. As we have several workers we can dedicate some of them to these kinds of DAGs.
 -   **Scaling horizontally:** Indeed since workers don't need to register with any central authority to start processing tasks, we can scale our cluster by easily adding new workers. Nodes can be turned on and off without any downtime on the cluster.
 
-
-
 <https://drivy.engineering/airflow-architecture
 
+## Others
 
-
-**Others**
-
-**Clockwork: Distributed, Scalable Job Scheduler**
+## Clockwork: Distributed, Scalable Job Scheduler
 
 <https://cynic.dev/posts/clockwork-scalable-job-scheduler
-
-
 
 

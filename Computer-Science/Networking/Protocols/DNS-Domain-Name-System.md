@@ -9,7 +9,7 @@ Modified: 2022-03-08 21:55:31 +0500
 <https://dnschecker.org>
 DNS stands for domain name system. It is an application layer protocol used to provide a human-friendly naming mechanism for internet resources. It is what ties a domain name to an IP address and allows you to access sites by name in your browser.
 DNS is the directory of the Internet. Whenever you click on a link, send an email, open a mobile app, often one of the first things that has to happen is your device needs to look up the address of a domain.
-**There are two sides of the DNS network:**
+## There are two sides of the DNS network:
 
 1.  **Authoritative (the content side)**
 
@@ -23,7 +23,7 @@ Cloudfare DNS = 1.1.1.1
 <https://blog.cloudflare.com/announcing-1111>
 ![](media/DNS-Domain-Name-System-image1.png)
 Youtube - [What is DNS? - Introduction to Domain Name System](https://www.youtube.com/watch?v=e2xLV7pCOLI)
-**Recursive Nameserver**
+## Recursive Nameserver
 
 A recursive nameserver is different because if it does not know the ip address for the asked dns name. It will do the work of finding the answer, instead of merely re-directing the query.
 The recursive nameserver will check its cache first. If the IP address is not there, it will ask a root nameserver (root nameservers do not know IP addresses, but they can read requests and tell the recursive nameserver where to go next). All recursive nameservers come with 13 root nameservers' IP addresses pre-configured. The recursive nameserver picks one and asks it the same question ("what is the IP address for [www.google.com](http://www.google.com)?").
@@ -34,8 +34,8 @@ The GTLD nameserver will read the next part of your request, reading from right 
 ## Fully Qualified Domain Name**
 
 A**fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*,is a[domain name](https://en.wikipedia.org/wiki/Domain_name)that specifies its exact location in the tree hierarchy of the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a[second-level domain](https://en.wikipedia.org/wiki/Second-level_domain)and a[top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
-**DNS Lookup**
-**Defining DNS Records**
+## DNS Lookup
+## Defining DNS Records
 
 TYPE
 
@@ -52,30 +52,30 @@ Only for MX records you will be given what value and priority to use by your ema
 TTL (Time to Live)
 
 How long to let record values be cached Shorter = better for fast changing values Longer = faster resolution time and less traffic for your DNS server
-**Most Common Types**
+## Most Common Types
 
-**A**
+## A
 
 Map domain name to IPv4 address. Ex: example.com => 127.0.0.1
-**AAAA**
+## AAAA
 
 Map domain name to IPv6 address. Ex: example.com => ::1
-**CNAME**
+## CNAME
 
 Map domain name to another domain name. CAUTION! Don't do this on the root (@). Ex: [www.example.com](http://www.example.com) => example.com
-**ALIAS**
+## ALIAS
 
 Map domain name to another domain name CAN do this on the root. Ex: example.com => example.herokudns.com
-**ANAME**
+## ANAME
 
 Another name for ALIAS (different providers name it differently; also "virtual CNAME") Ex: example.com => example.netlify.com
-**TXT**
+## TXT
 
 Set arbitrary data on your domain record Ex: @ => my-domain-is-awesome-123
-**MX**
+## MX
 
 Setup custom email for your domain Ex: @ => ASPMX.L.GOOGLE.COM. 1
-**SOA**
+## SOA
 
 A**Start of Authority record**(abbreviated as**SOA record**) is a type of[resource record](https://en.wikipedia.org/wiki/Resource_record)in the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) containing administrative information about the zone, especially regarding[zone transfers](https://en.wikipedia.org/wiki/DNS_zone_transfer). The SOA record format is specified in[RFC 1035](https://tools.ietf.org/html/rfc1035)
 
@@ -102,7 +102,7 @@ A**Service record**(**SRV record**) is a specification of data in the[Domain Nam
 
 ![](media/DNS-Domain-Name-System-image2.png)
 ![](media/DNS-Domain-Name-System-image3.png)
-**Domain name hierarchy**
+## Domain name hierarchy
 
 Root Name Server (13)
 
@@ -114,12 +114,12 @@ DNS Zone Files (collection of related dns names)
 
 Resolver / Recursive DNS
 
-![Do the com. Resolvers Know? amazon.com. reinvent- 2017.com. "." (The Roots) org. wikipedia.org. kernel.org. ](media/DNS-Domain-Name-System-image4.png)
-![Internet Corporation for Assigned Names and Numbers Allocates IP addresses to Regional Internet Registries (RIRs) ICANN RIPS: Allocate IP addresses to Network Providers in their respective regions •ARIN (Canada, United States, some Caribbean nations) •RIPE NCC (Europe, Russia, Middle East, Central Asia) •APNIC (Asia-Pacific region) •LACNIC (Latin America, some Caribbean nations) .AFRINIC (Africa) Network Providers (Verizon, CenturyLink) hand out IP Addresses to their customers End Customer can provide IP address for their servers ](media/DNS-Domain-Name-System-image5.png)
-![Contracts with Domain Name Registries Domain Name Registries Maintain the database of Domain Names registered within their respective TLDs (e.g. The registry for .com is Verisign) Accredits Domain Name Registrars ICANN Domain Name Reqistrars Registers new domain names on behalf of applicants. Checks with Peqistrv that the name is available Domain Name Reqistrant Requests (Buys) a domain name from the Registrar Informs the Registrar the names and IP address of their Authoritative DNS Name Server ](media/DNS-Domain-Name-System-image6.png)[https://ns1.com/academy#](https://ns1.com/academy)
-**Punycode**
+![image](media/DNS-Domain-Name-System-image4.png)
+![image](media/DNS-Domain-Name-System-image5.png)
+![image](media/DNS-Domain-Name-System-image6.png)[https://ns1.com/academy#](https://ns1.com/academy)
+## Punycode
 
-**Punycode**is a representation of[Unicode](https://en.wikipedia.org/wiki/Unicode)with the limited[ASCII](https://en.wikipedia.org/wiki/ASCII)character subset used for Internet[host names](https://en.wikipedia.org/wiki/Host_(network)). Using Punycode, host names containing Unicode characters are transcoded to a subset of ASCII consisting of letters, digits, and hyphen, which is called the Letter-Digit-Hyphen (LDH) subset. For example,*München*([German](https://en.wikipedia.org/wiki/German_language)name for[Munich](https://en.wikipedia.org/wiki/Munich)) is encoded as*Mnchen-3ya*.
+## Punycodeis a representation of[Unicode](https://en.wikipedia.org/wiki/Unicode)with the limited[ASCII](https://en.wikipedia.org/wiki/ASCII)character subset used for Internet[host names](https://en.wikipedia.org/wiki/Host_(network)). Using Punycode, host names containing Unicode characters are transcoded to a subset of ASCII consisting of letters, digits, and hyphen, which is called the Letter-Digit-Hyphen (LDH) subset. For example,*München*([German](https://en.wikipedia.org/wiki/German_language)name for[Munich](https://en.wikipedia.org/wiki/Munich)) is encoded as*Mnchen-3ya*.
 While the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) technically supports arbitrary sequences of octets in domain name labels, the DNS standards recommend the use of the LDH subset of ASCII conventionally used for host names, and require that string comparisons between DNS domain names should be case-insensitive. The Punycode syntax is a method of encoding strings containing Unicode characters, such as[internationalized domain names](https://en.wikipedia.org/wiki/Internationalized_domain_name)(IDNA), into the LDH subset of ASCII favored by DNS. It is specified in[IETF](https://en.wikipedia.org/wiki/IETF)[Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)3492.
 <https://en.wikipedia.org/wiki/Punycode>
 
@@ -133,18 +133,18 @@ mDNS can work in conjunction with[DNS Service Discovery](https://en.wikipedia.or
 ## What is DNS encryption?**
 
 DNS encryption ensures that only you and your DNS provider know what DNS queries are being performed, and therefore which websites you are visiting. Also, it enforces your choice of DNS provider. So you can choose a provider that offers features and guarantees which differ from your ISP, such as speed and privacy.
-**Is Cloudflare DNS-encrypted?**
+## Is Cloudflare DNS-encrypted?
 
 Cloudflare DNS, available at 1.1.1.1, is a free public DNS service run by the CDN provider Cloudflare. It supports encryption using DNS over HTTPS (DoH) and DNS over TLS (DoT). As it uses the existing CDN, it can provide very fast response times.
 
-**DoT (DNS over TLS) and DoH (DNS over HTTPS)**
+## DoT (DNS over TLS) and DoH (DNS over HTTPS)
 
 <https://blog.cloudflare.com/dns-encryption-explained>
 
 ## Which services can use SNI?**
 
 SNI is an extension to TLS that provides support for multiple hostnames on a single IP address. The most common use of TLS is HTTPS for secure websites. However, it is present in all protocols that use TLS for security.
-**How does SNI work?**
+## How does SNI work?
 
 The TLS extension SNI works by requiring the client to transmit the hostname of the service it wishes to securely communicate with before the encryption is established. An updated version of SNI called ESNI allows this hostname to be encrypted, which protects privacy and helps to avoid censorship.
 <https://www.toptal.com/web/encrypted-safe-with-esni-doh-dot>
@@ -155,19 +155,19 @@ The TLS extension SNI works by requiring the client to transmit the hostname of 
 -   **POPs, Authoritative name servers, recursive name servers**
 -   **Sideways delegation**
 
-![Step reinvent-2017.com 600 IN NS ns-1084 awsdns-07 org. reinvent-2017.com 600 IN NS ms 1831 awsans-36 uk reinvent-2017.com 600 IN NS ns- 190 awsdns-23 com reinvent-2017.com 600 IN NS ns-634 awsdns- 15 NS com. reinvent-2017.com (DNS Provider) F:lnvent 0 2017. Amazon Web Services, Inc. or its Affiliates Alt rights reserved. In-Zone (t = 2 Days) reinvent-2017.com 172800 IN NS nsl.provider.com. reinvent-2017.com 172800 IN NS ns2.provider.com. reinvent-2017.com 172800 IN NS ns3.provider.com. reinvent-2017.com 172800 IN NS ns4.provider.com. reinvent-2017.com. (Route 53) reinvent-2017.com 600 IN NS ns-1084.awsdns-07.org. reinvent-2017.com 600 IN NS ns-1831.awsdns-36.co.uk. reinvent-2017.com 600 IN NS ns-190.awsdns-23.com. reinvent-2017.com 600 IN NS ns-634.awsdns-15.net. ](media/DNS-Domain-Name-System-image7.png)
+![image](media/DNS-Domain-Name-System-image7.png)
 <https://aws.amazon.com/blogs/aws/latency-based-multi-region-routing-now-available-for-aws>
 
 [AWS re:Invent 2017: DNS Demystified: Global Traffic Management with Amazon Route 53 (NET302)](https://www.youtube.com/watch?v=PVBC1gb78r8)
-![DÅX9{tified Global Tra fic Manageme t'Mith Amazon Route 53 Develop Xuan Shi, Software Developer, Ine. November 28, 2017 Flnvent ](media/DNS-Domain-Name-System-image8.jpg)
-**DNS Subdomain Names**
+![image](media/DNS-Domain-Name-System-image8.jpg)
+## DNS Subdomain Names
 
 Most resource types require a name that can be used as a DNS subdomain name as defined in[RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:
 -   contain no more than 253 characters
 -   contain only lowercase alphanumeric characters, '-' or '.'
 -   start with an alphanumeric character
 -   end with an alphanumeric character
-**DNS Label Names**
+## DNS Label Names
 
 Some resource types require their names to follow the DNS label standard as defined in[RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:
 -   contain at most 63 characters

@@ -44,7 +44,7 @@ The**sleeping barber problem**is a classic inter-process communication and [sync
 # Dining Philosophers Problem
 
 The**dining philosophers problem**is an example problem often used in[concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science))algorithm design to illustrate[synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science))issues and techniques for resolving them.
-**Problem Statement**
+## Problem Statement
 
 Five silent[philosophers](https://en.wikipedia.org/wiki/Philosopher)sit at a round table with bowls of[spaghetti](https://en.wikipedia.org/wiki/Spaghetti). Forks are placed between each pair of adjacent philosophers.
 
@@ -53,11 +53,11 @@ Each philosopher must alternately think and eat. However, a philosopher can only
 Eating is not limited by the remaining amounts of spaghetti or stomach space; an infinite supply and an infinite demand are assumed.
 
 The problem is how to design a discipline of behavior (a[concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science))[algorithm](https://en.wikipedia.org/wiki/Algorithm)) such that no philosopher will starve; i.e., each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.
-**Solutions**
+## Solutions
 -   Resource hierarchy solution
 -   Arbitrator solution (waiter / mutex)
 -   Chandy/Misra solution
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem>
 

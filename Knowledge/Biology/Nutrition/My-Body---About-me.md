@@ -6,53 +6,43 @@ Modified: 2022-06-05 20:19:30 +0500
 
 ---
 
-**Age -** 28
+## Age - 28
 
-**Weight -** 58 KG / 127 pounds
+## Weight - 58 KG / 127 pounds
 
-**Height -** 172 cm / 5 ft 7.7 inch
+## Height - 172 cm / 5 ft 7.7 inch
 
-**Neck -** 36 cm / 14 inch / 1.2 ft
+## Neck - 36 cm / 14 inch / 1.2 ft
 
-**Chest -** 101.6 cm / 40 inch
+## Chest - 101.6 cm / 40 inch
 
-**Front Length -** 68.6 cm / 27.0 inch
+## Front Length - 68.6 cm / 27.0 inch
 
-**Across Shoulder -** 43.2 cm / 17.0 inch
+## Across Shoulder - 43.2 cm / 17.0 inch
 
-**Waist -** 68 cm / 31 inch / 2.7 ft
+## Waist - 68 cm / 31 inch / 2.7 ft
 
-**Hip -** 84 cm / 33 inch / 2.9 ft
+## Hip - 84 cm / 33 inch / 2.9 ft
 
-**BMI -** 19.3
+## BMI - 19.3
 
-**BMR -** 2400-2700 cal/day (consume 2600 cal/day)
-
-
+## BMR - 2400-2700 cal/day (consume 2600 cal/day)
 
 Finger Ring - 15
 
-**Shoe / Shoes Size -** UK-8 or EU-42 (Decathlon too)
+## Shoe / Shoes Size - UK-8 or EU-42 (Decathlon too)
 
 Brief size / Capri - M (80-85 cm)
 
 Innerwear Vest - S (80-85 cm)
 
-
-
 ![1 ](media/Nutrition_My-Body---About-me-image1.png)
 
-
-
 Body Fat - 3.8%
-
-
 
 Fat Weight: 58 * 0.038 = 2.204 KG
 
 Lean Weight: 58 - 2.2 = 55.8 KG / 123 lbs
-
-
 
 <table>
 <colgroup>
@@ -94,19 +84,13 @@ Lean Weight: 58 - 2.2 = 55.8 KG / 123 lbs
 </tbody>
 </table>
 
-
-
 Maa bangles - 2/6
 
 Maa ring -
 
-
-
 Papa ring - 16-17 (preferrable - 17)
 
-
-
-**Nutrition**
+## Nutrition
 
 Protein: 1.5 * 123 = 184.5 grams
 
@@ -114,9 +98,7 @@ Fat: 0.5 * 123 = 61.5 grams
 
 Carbs: 1300/4 = 325 grams
 
-
-
-**Other**
+## Other
 
 Protein: 250g (1000 calorie)
 
@@ -124,9 +106,7 @@ Carbs: 150g (600 calorie)
 
 Fat: 100g (900 calorie)
 
-
-
-**Meal Plan**
+## Meal Plan
 
 Protein: 184.5 * 4 = 738 calorie
 
@@ -134,9 +114,7 @@ Fat: 61.5 * 9 = 553.5 calorie
 
 Carbs: 2600 - 738 - 553.5 = 1308.5 calorie
 
-
-
-**Macros Grams to Calories**
+## Macros Grams to Calories
 
 Protein: 1 gram = 4 calorie
 
@@ -144,9 +122,7 @@ Carbs: 1 gram = 4 calorie
 
 Fat: 1 gram = 9 calorie
 
-
-
-**Carb Intake Guidelines**
+## Carb Intake Guidelines
 
 Accelerated fat loss: 0g - 50g (take a carb intake refill day)
 
@@ -158,15 +134,11 @@ Weight gain: 150g - 300g
 
 Excessive weight gain: 300g+
 
-
-
-**Psychology**
+## Psychology
 -   10 - 02 AM most productive for studying
 -   Not very productive in morning
 
-
-
-**Allergies**
+## Allergies
 
 Boiled egg
 
@@ -176,13 +148,9 @@ Momos (maybe)
 
 Doritos (maybe)
 
-
-
-**Biological Prime Time (Chronotype)**
+## Biological Prime Time (Chronotype)
 
 Your "biological prime time" is the time of the day when you have the most energy, and therefore the greatest potential to be productive. To calculate yours, chart your energy levels for at least three weeks. Then schedule your most important, highest-leverage activities when you have the most energy.
-
-
 
 <https://alifeofproductivity.com/calculate-biological-prime-time
 
@@ -191,8 +159,6 @@ Your "biological prime time" is the time of the day when you have the most energ
 <https://drive.google.com/file/d/0B6X0IsWnb3Y3NVFJZHgtSV9rSG8/view>
 
 [**https://collegeinfogeek.com/track-body-energy-focus-levels/**](https://collegeinfogeek.com/track-body-energy-focus-levels/)
-
-
 
 1.  **Early birds / morning larks-** people who do their best work early in the morning
 

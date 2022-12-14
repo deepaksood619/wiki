@@ -8,11 +8,7 @@ Modified: 2022-10-31 20:47:20 +0500
 
 In[linguistics](https://en.wikipedia.org/wiki/Linguistics),grammar(from[Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek)γραμματική) is the set of[structural](https://en.wikipedia.org/wiki/Structural)rules governing the composition of[clauses](https://en.wikipedia.org/wiki/Clause_(linguistics)),[phrases](https://en.wikipedia.org/wiki/Phrase)and[words](https://en.wikipedia.org/wiki/Words)in a[natural language](https://en.wikipedia.org/wiki/Natural_language). The term refers also to the study of such rules and this field includes[phonology](https://en.wikipedia.org/wiki/Phonology),[morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics))and[syntax](https://en.wikipedia.org/wiki/Syntax), often complemented by[phonetics](https://en.wikipedia.org/wiki/Phonetics),[semantics](https://en.wikipedia.org/wiki/Semantics)and[pragmatics](https://en.wikipedia.org/wiki/Pragmatics).
 
-
-
 Fluent speakers of a[language variety](https://en.wikipedia.org/wiki/Variety_(linguistics))orlecthave a set of internalized rules for using that form of speech. This rule set constitutes the lect's grammar.[[1]](https://en.wikipedia.org/wiki/Grammar#cite_note-1)The vast majority of the information in the grammar is -- at least in the case of one's[native language](https://en.wikipedia.org/wiki/First_language)--[acquired](https://en.wikipedia.org/wiki/Language_acquisition)not by conscious study or[instruction](https://en.wikipedia.org/wiki/Language_teaching)but by hearing other speakers. Much of this work is done during early childhood; learning a language later in life usually involves a greater degree of explicit instruction.[[2]](https://en.wikipedia.org/wiki/Grammar#cite_note-2)Thus, grammar is the cognitive information underlying language use.
-
-
 
 The word[grammar](https://www.thoughtco.com/word-grammar-1692610)comes from Greek, meaning "**craft of letters**," which is an apt description. In any language, grammar is:
 
@@ -20,9 +16,7 @@ The word[grammar](https://www.thoughtco.com/word-grammar-1692610)comes from Gree
 
 2.  a set of[rules](https://www.thoughtco.com/rules-of-english-1691922)and examples dealing with the[syntax](https://www.thoughtco.com/syntax-grammar-1692182)and[word](https://www.thoughtco.com/word-english-language-1692612)structures ([morphology](https://www.thoughtco.com/morphology-words-term-1691407)) of a language.
 
-
-
-**Types of grammer**
+## Types of grammer
 
 Whereas students of English mainly have to deal with just the nuts-and-bolts [prescriptive](https://www.thoughtco.com/prescriptive-grammar-1691668), [traditional](https://www.thoughtco.com/traditional-grammar-1692556) type of grammar, such as making sure verbs and subjects agree and where to put commas, linguists have many more types to examine different aspects of the language, from how different languages compare to each other ([comparative grammar](https://www.thoughtco.com/what-is-comparative-grammar-1689884)) or use grammatical parts ([descriptive](https://www.thoughtco.com/what-is-descriptive-grammar-1690439)grammar) to how the words and their usage interact to create meaning ([lexicogrammar](https://www.thoughtco.com/what-is-a-lexicogrammar-1691120)). They study how people acquire language and debate whether every child is born with a concept of[universal grammar](https://www.thoughtco.com/universal-grammar-1692571). Teachers instructing English language learners follow a method of[pedagogical grammar](https://www.thoughtco.com/pedagogical-grammar-1691600)for their students.
 
@@ -36,11 +30,9 @@ Other areas of study for linguists include:
 -   [Theoretical grammar](https://www.thoughtco.com/theoretical-grammar-1692541)
 -   [Transformational grammar](https://www.thoughtco.com/transformational-grammar-1692557)
 
+## How are you
 
-
-**How are you**
-
-**Personal**
+## Personal
 
 How are you doing?
 
@@ -76,9 +68,7 @@ How's your day going?
 
 Are you alright?
 
-
-
-**Professional**
+## Professional
 
 How do you do?
 
@@ -96,9 +86,7 @@ Hello, I hope you are well?
 
 I trust you're well
 
-
-
-**Fun**
+## Fun
 
 Howdy
 
@@ -110,41 +98,29 @@ What's sizzling?
 
 What's kicking
 
-
-
-**One word that solves all problems**
+## One word that solves all problems
 
 Panacea. Skeleton key. Magic feather. Silver bullet. Duck tape. God. Magic. Strong AI, Spooky free will. Hopeful monster. Wonder tissue. Sky hook. Genie wish. Evolution by natural selection. Creativity. Time. Wonder drug. "Clutch". Cure all. Life-saver. Hank Williams. The Philosopher's Stone. Miracles.
 
-
-
-**Not Important**
+## Not Important
 -   irrelevant
 -   insignificant
 
-
-
-**Quotes**
+## Quotes
 
 Often it's not we who shape words, but the words we use shape us. -- Nina George
 
-
-
-**Don't apologize in emails a lot (Alternatives)**
+## Don't apologize in emails a lot (Alternatives)
 -   Thanks for flagging!
 -   Good catch - I will make the updates/changes.
 -   Many thanks for noticing the error, [name], we will [verb]
 -   Thank you for bringing this to our attention. We will [verb]
 
-
-
-**Whataboutism / whataboutery**
+## Whataboutism / whataboutery
 
 Whataboutism, also known aswhataboutery, is a variant of the[tu quoque](https://en.wikipedia.org/wiki/Tu_quoque)[logical fallacy](https://en.wikipedia.org/wiki/Logical_fallacy)that attempts to discredit an opponent's position by charging them with[hypocrisy](https://en.wikipedia.org/wiki/Hypocrisy)without directly refuting or disproving their argument.
 
-
-
-**Others**
+## Others
 -   Literature review / Research
     -   <https://www.youtube.com/watch?v=t7PwqiiQmVM>
 -   omnipotent and omnipresent
@@ -157,11 +133,7 @@ Whataboutism, also known aswhataboutery, is a variant of the[tu quoque](https://
     -   "Had been" is used to mean that something happened in the past and has already ended.
     -   "Have been" and "has been" are used to mean that something began in the past and has lasted into the present time.
 
-
-
 As a general rule, "has" is used in the third person singular ("he", "she", "it") and singular nouns.
-
-
 
 <https://myenglishmatters.com/2018/06/28/whats-the-difference-between-has-been-have-been-and-had-been>
 -   Languishing
@@ -193,17 +165,11 @@ BYOB - Bring Your Own Booze
 
 DYOR - Do Your Own Research
 
-
-
 An axe to grind
 
 It's an exception not a majority
 
-
-
 Consious mindful cognizant
-
-
 
 Narratives
 

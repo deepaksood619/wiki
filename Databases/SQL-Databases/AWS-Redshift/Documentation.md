@@ -6,7 +6,7 @@ Modified: 2021-12-08 21:55:36 +0500
 
 ---
 
-**Designing Tables > Choosing a column compression type > Compression Encoding**
+## Designing Tables > Choosing a column compression type > Compression Encoding
 -   [Raw Encoding](https://docs.aws.amazon.com/redshift/latest/dg/c_Raw_encoding.html)
 -   [AZ64 Encoding](https://docs.aws.amazon.com/redshift/latest/dg/az64-encoding.html)
 -   [Byte-Dictionary Encoding](https://docs.aws.amazon.com/redshift/latest/dg/c_Byte_dictionary_encoding.html)
@@ -40,7 +40,7 @@ If no compression is specified in a CREATE TABLE or ALTER TABLE statement, Amazo
 
 3.  **Materialize columns**
 
-**Goal:** Make queries run faster by leveraging zonemaps on the fact tables
+## Goal: Make queries run faster by leveraging zonemaps on the fact tables
 Frequently filtered and unchanging dimension values should be materialized within fact tables
 -   Time dimension tables do not allow for range restricted scans on fact tables
 -   Materializing temporal values in fact table can give significant performance gains
@@ -69,17 +69,17 @@ Frequently filtered and unchanging dimension values should be materialized withi
     g.  Keep data types as wide as necessay (but no longer than necessary)
 
         i.  VARCHAR, CHAR, and NUMERIC
-**Redshift Sort Key**
+## Redshift Sort Key
 
 Redshift Sort Key determines the order in which rows in a table are stored. Query performance is improved when Sort keys are properly used as it enables query optimizer to read fewer chunks of data filtering out the majority of it.
 Redshift Sort Keys allow skipping large chunks of data during query processing. Fewer data to scan means a shorter processing time, thereby improving the query's performance.
-**Types**
+## Types
 -   **Compound sort keys**
 
 These are made up of all the columns that are listed in the Redshift sort keys definition during the creation of the table, in the order that they are listed. Therefore, it is advisable to put the most frequently used column at the first in the list. COMPOUND is the default sort type. Compound sort keys might speed up joins, GROUP BY and ORDER BY operations, and window functions that use PARTITION BY.-   **Interleaved sort keys**
 
 Interleaved sort gives equal weight to each column in the Redshift sort keys. As a result, it can significantly improve query performance where the query uses restrictive predicates (equality operator in WHERE clause) on secondary sort columns.
-**Choosing Sorting Keys**
+## Choosing Sorting Keys
 -   UseInterleaved Sort Keywhen you plan to use one column as Sort Key or when WHERE clauses in your query have highly selective restrictive predicates. Or if the tables are huge. You may want to check table statistics by querying the STV_BLOCKLIST system table. Look for the tables with a high number of 1MB blocks per slice and distributed over all slices.
 -   UseCompound Sort Key,when you have more that one column as Sort Key, when your query includes JOINS, GROUP BY, ORDER BY and PARTITION BY when your table size is small.
 -   Don't use aninterleaved sort keyon columns with monotonically increasing attributes, like an identity column, dates or timestamps.
@@ -117,7 +117,7 @@ RedshiftDistributionKeys([DIST Keys](http://docs.aws.amazon.com/redshift/latest/
 The query optimizer distributes less number of rows to the compute nodes to perform joins and aggregation on query execution. This redistribution of data can include shuffling of the entire tables across all the nodes.
 
 Uneven distribution of data across computing nodes leads to the skewness of the work a node has to do and you don't want an under-utilised compute node. So the distribution of the data should be uniform. Distribution is per table. So you can select a different distribution style for each of the tables you are going to have in your database.
-**Types of Distribution Styles**
+## Types of Distribution Styles
 
 Amazon Redshift supports three kinds of table distribution styles.
 -   **Even distribution**
@@ -129,7 +129,7 @@ The data is distributed across slices by the leader node matching the values of 
 -   **All distribution**
 
 Leader node maintains a copy of the table on all the computing nodes resulting in more space utilisation. Since all the nodes have a local copy of the data, the query does not require copying data across the network. This results in faster query operations. The negative side of usingALLis that a copy of the table is on every node in the cluster. This takes up too much of space and increases the time taken byCopy commandto upload data into Redshift.
-**Choosing the right Distribution Styles**
+## Choosing the right Distribution Styles
 
 The motive in selecting a table distribution style is to minimize the impact of the redistribution by relocating the data where it was prior to the query execution. Choosing the right KEY is not as straightforward as it may seem. In fact, setting wrong DISTKEY can even worsen the query performance.
 Choose columns used in the query that leads to least skewness as the DISTKEY. The good choice is the column with maximum distinct values, such as the timestamp. Avoid columns with few distinct values, such as months of the year, payment card types.-   If the table(e.g. fact table) is highly de-normalised and no JOIN is required, choose theEVENstyle.

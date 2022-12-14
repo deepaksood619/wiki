@@ -13,11 +13,7 @@ Modified: 2018-09-26 23:33:44 +0500
     -   Acceleration is the change in velocity over time (m/s^2^)
     -   2nd Kinematic Equation - Displacement Curve
 
-
-
-![x- THE DEFINITION OF ACCELERATION 0 THE DISPLACEMENT CURVE xo = vo(t) + (---) a (t2) ](media/Crash-Course-Physics-image1.png)
-
-
+![image](media/Crash-Course-Physics-image1.png)
 
 2.  Derivatives
 

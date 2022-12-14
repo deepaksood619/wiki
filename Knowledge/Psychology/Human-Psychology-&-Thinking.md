@@ -10,11 +10,7 @@ We all crave attention - Therefore if you even know everything, still you ask qu
 
 War is a tricky game the only way to win it is to not play it at all
 
-
-
 True test of a man's character is what he does when no one is watching
-
-
 
 Mansons law of avoidance
 
@@ -22,29 +18,21 @@ It's very difficult to let your self image go
 
 Being self critical is a must
 
-
-
 Conform - (of a person) behave according to socially acceptable conventions or standards.
 
-**Group Behavior / Group Dynamism / Social conformity**
+## Group Behavior / Group Dynamism / Social conformity
 
 [The Asch Experiment](https://www.youtube.com/watch?v=iRh5qy09nNw)
 
 Another explanation is human beings' deep rooted desire to belong. We want to agree with the group so that we are accepted by the group -- being part of a group has proved beneficial, from an evolutionary standpoint, by offering better safety and security. The need to belong is still a strong motive for us to agree with the majority view point. This was established by Solomon Asch in the 1950s, through a set of famous experiments (called Asch's conformity experiments)
 
-
-
 The experiments showed how normal, intelligent people were willing to give an obviously wrong answer to conform with the rest of their group (of merely actors) who chose the wrong answer to be the right answer. Asch opined, "That intelligent, well-meaning, young people are willing to call white black is a matter of concern."
-
-
 
 [y2mate com prudential everybodys doing it BgRoiTWkBHU 1080p](https://www.youtube.com/watch?v=P00i7_C8tl8)
 
 [Social Conformity - Brain Games](https://www.youtube.com/watch?v=o8BkzvP19v4)
 
 [The Milgram Experiment | THE HEIST | Derren Brown](https://www.youtube.com/watch?v=Xxq4QtK3j0Y)
-
-
 
 <https://www.collaborativefund.com/blog/think
 
@@ -82,17 +70,11 @@ The experiments showed how normal, intelligent people were willing to give an ob
 
 17. The inability to accept hassle, nonsense, and inefficiency frustrates people who can't accept how the world works
 
-
-
 [How we make memories and how memories make us -- with Veronica O'Keane](https://www.youtube.com/watch?v=TZMYvnL8dfI)
 -   Collective consciousness
 -   Einstein, Sigmund Freud
 
-
-
 [Ethical dilemma: Would you lie? - Sarah Stroud](https://youtu.be/OI-G23HF6Sw)
-
-
 
 [The original ring of power - Alex Gendler](https://www.youtube.com/watch?v=TfVmW6sNux8)
 -   Why people act justly
@@ -112,8 +94,6 @@ The experiments showed how normal, intelligent people were willing to give an ob
 -   To Socrates, the philosopher is led by reason, and their spirit keeps their appetite in check, making them the most just and the happiest. Even without consequences for self-serving wrongdoings, they wouldn't commit them
 -   Meanwhile, the tyrant succumbs to appetite and acts unjustly
 
-
-
 [ATLAS OF THE HEART by Brené Brown | Core Message](https://www.youtube.com/watch?v=NNdN14bosbA)
 -   Envy
     -   If I can't have that, I don't want you to have that
@@ -127,11 +107,7 @@ The experiments showed how normal, intelligent people were willing to give an ob
         -   Clarify
 -   Disappointment
 
+## Mindwandering
 
-
-**Mindwandering**
-
-![Directed mindwandering and other 'tricks • Guilt-free mindwandering (recognize state, make time) • Learning from our imagination (wandering Al) • Semi-directed mindwandering (summoning) • The conditions that maximize the chances of constructive mindwandering • Inhibition (and censor, both internal and external) • Broad thinking • Mood • Reduced mental load (CPU) • SOM, Exploration vs Exploitation, diamond • Beginner's mind ](media/Human-Psychology-&-Thinking-image1.jpeg)
-
-
+![image](media/Human-Psychology-&-Thinking-image1.jpeg)
 

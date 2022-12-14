@@ -6,12 +6,12 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ---
 
-**CricInfo**
+## CricInfo
 
 [CRICINFO system design | CRICBUZZ System desi](http://youtube.com/watch?v=exSwQtMxGd4)gn
 ![](media/System-Design---Others-image1.jpg)
-![F AST CAST 2/3 ](media/System-Design---Others-image2.png)
-**Netflix**
+![image](media/System-Design---Others-image2.png)
+## Netflix
 
 1.  AWS
 
@@ -21,19 +21,19 @@ Modified: 2022-07-15 17:39:32 +0500
 2.  Backend
 
 3.  Client
-![NETFLIXS stem desi n software architecture for netflix NET FL IX / TochDummios Narondra L NAREN.LGOgmail.oorn OpenConnect 0 4:20/ 51:25 Mecno scnv•ces EVENT ](media/System-Design---Others-image3.png)
+![image](media/System-Design---Others-image3.png)
 <https://www.linkedin.com/pulse/system-design-netflix-narendra-l>
 
 <https://netflixtechblog.com/netflixs-viewing-data-how-we-know-where-you-are-in-house-of-cards-608dd61077da>
 
 [NETFLIX System design | software architecture for netflix](https://www.youtube.com/watch?v=psQzyFfsUGU)
-**Gitlab**
+## Gitlab
 
 ![](media/System-Design---Others-image4.png)
 
-**S3 system design (distributed cloud storage)**
+## S3 system design (distributed cloud storage)
 
-**Cluster Manager**
+## Cluster Manager
 
 1.  Allocates account
 
@@ -47,7 +47,7 @@ Modified: 2022-07-15 17:39:32 +0500
 -   **Consistent Hashing**
 -   **1 hit wonder (don't cache any request till a threshold)**
     -   Maybe the request is only once/twice for a day
-**Streaming layer (Stream Manager)**
+## Streaming layer (Stream Manager)
 
 1.  Append only
 
@@ -60,12 +60,12 @@ Modified: 2022-07-15 17:39:32 +0500
 5.  Health of FS
 
 6.  Store offsets
-![「 ・ な 0 ? 0 し ) 印 の イ 的 " り ぐ 、 州 (s メ ヂ ). た い の の ん 、 ル 川 い の 5 ん ノ レ u? レ 言 0 → ・ Ou 協 ド " ) ロ い ゴ イ 、 い ツ d ヨ ^ 815 ー ・ ・ ・ → 52 0 ](media/System-Design---Others-image5.png)
+![image](media/System-Design---Others-image5.png)
 <https://www.youtube.com/watch?v=UmWtcgC96X8>
 
 ## Web Crawlers**
 
-**Use Case**
+## Use Case
 -   Search engine
 -   Copywrite violation detection
 -   Keyword based finding
@@ -73,7 +73,7 @@ Modified: 2022-07-15 17:39:32 +0500
 -   Web malware detection
 -   Web analytics
 -   Data science data crawlers
-**Features**
+## Features
 -   Politeness / Crawl rate
 -   DNS query
 -   Distributed crawling
@@ -87,16 +87,16 @@ Modified: 2022-07-15 17:39:32 +0500
     -   Latent semantic indexing
     -   Standard boolean model
 [System Design distributed web crawler to crawl Billions of web pages | web crawler system design](https://www.youtube.com/watch?v=BKZxZwUgL3Y)
-**Financial System**
+## Financial System
 
 ![](media/System-Design---Others-image6.png)
 
-**TikTok**
+## TikTok
 
 [System Design Interview: TikTok architecture with @sudoCODE](https://www.youtube.com/watch?v=07BVxmVFDGY&ab_channel=GauravSen)
 -   Intagram Reels
 -   Short TikTok Videos
-**Challenges**
+## Challenges
 
 a.  Ingestion
 
@@ -113,6 +113,6 @@ Non-functional requirements
 -   Availability
 -   Fault tolerant
 -   Performance
-**Others**
+## Others
 
 HTTP + json is not good (because contract is not upheld from developers while sending apis)

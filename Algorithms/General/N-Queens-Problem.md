@@ -8,23 +8,15 @@ Modified: 2018-05-03 00:00:31 +0500
 
 The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.
 
-
-
 ![](media/N-Queens-Problem-image1.jpg)
 
-
-
-**Question Types -**
+## Question Types -
 -   Find any placement of queens that do not attack each other
 -   Find all placement of queens on the board
 
-
-
 ![冖 "02 -3 CO") ](media/N-Queens-Problem-image2.png)
 
-
-
-**Naive Algorithm**
+## Naive Algorithm
 
 Generate all possible configurations of queens on board and print a configuration that satisfies the given constraints.
 
@@ -37,9 +29,7 @@ print this configuration;
 }
 }
 
-
-
-**Backtracking Algorithm**
+## Backtracking Algorithm
 
 The idea is to place queens one by one in different columns, starting from the leftmost column. When we place a queen in a column, we check for clashes with already placed queens. In the current column, if we find a row for which there is no clash, we mark this row and column as part of the solution. If we do not find such a row due to clashes then we backtrack and return false.
 
@@ -63,33 +53,21 @@ backtracking.
 -   At 1st level of recursion, we will place 1st queen on 1st row such that she does not attack the 0th queen
 -   At 2nd level of recursion, we will place 2nd queen on 2nd row such that she does not attack the 0th queen and 1st queen.
 
-
-
 ![](media/N-Queens-Problem-image3.png)
-
-
 
 ![P-ocblem ](media/N-Queens-Problem-image4.png)
 
-
-
-**Time Complexity -** Exponential O(n^n / n!)
+## Time Complexity - Exponential O(n^n / n!)
 
 Space Complexity - n*n
 
-
-
-**References -**
+## References -
 
 <https://en.wikipedia.org/wiki/Eight_queens_puzzle>
 
 [N Queen Problem Using Backtracking Algorithm](https://www.youtube.com/watch?v=xouin83ebxE)
 
-
-
 ![](media/N-Queens-Problem-image5.png)
-
-
 
 
 

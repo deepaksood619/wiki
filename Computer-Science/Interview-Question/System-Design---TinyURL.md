@@ -7,38 +7,38 @@ Modified: 2021-10-01 22:15:00 +0500
 ---
 
 [System Design : Design a service like TinyUrl](https://www.youtube.com/watch?v=fMZMm_0ZhK4)
-**Problem Statement -** Given a long url return a short url, and given a short url return the corresponding long url.
+## Problem Statement - Given a long url return a short url, and given a short url return the corresponding long url.
 -   How to generate 7-8 Characters long and is unique
 -   How to design the persistance layer (where you would store the short url and long url)
-**API**
+## API
 
 createTiny(longUrl) -> tinyUrl
 
 getLong(tinyUrl) -> longUrl
 -   Add Expiration time
-**Application layer**
+## Application layer
 
 ![](media/System-Design---TinyURL-image1.png)
-**Load Balancer**
+## Load Balancer
 
 Delegate requests to one of the worker threads
 -   Software
 -   Software + Hardware
-**Worker URL**
+## Worker URL
 
 1.  Take longer url generate tiny url and store it in persistance layer and return tiny url
 
 2.  Take shorter url fetch it's corresponding long url and return back long url.
-**Cache**
+## Cache
 -   memcached
 -   redis
-**How to generate a tinyURL**
+## How to generate a tinyURL
 -   Characters - a-zA-Z0-9 (Use a BASE 62 encoding since A-Za-z0-9 total are 62 characters.)
 -   Length of generated tinyURL - 7 characters long
 -   Total combinations - 62^7 - 3.5 trillion (million requests/second - 40 days, 1000 requests/second - 110 years exhaust)
 -   Any number from 0 to 3.5 trillion can be represented by 43 bits
-![ア ヤ っ 一 ご 新 に Pick 「 一 こ 主 レ 習 一 ャ い - む 一 。 ま に ](media/System-Design---TinyURL-image2.png)
-**Database**
+![image](media/System-Design---TinyURL-image2.png)
+## Database
 -   Key as tiny url
 -   value as longer url
 1.  Generate random tiny url & check db
@@ -99,20 +99,20 @@ Convert 43 bits to 7 characters long url
          -   These all allotments of ranges is maintained by zookeeper
          -   It guarantees that there are no collisions.
          -   Also can add some random bits to increase security.
-![WA Coc 孓 3e3 冖 D,&ea ](media/System-Design---TinyURL-image3.png)
+![image](media/System-Design---TinyURL-image3.png)
 Get requests can be cached using CDN
 [Paste bin system design | Software architecture for paste bin](https://www.youtube.com/watch?v=josjRSBqEBI)
 
-**Non Functional**
+## Non Functional
 -   Durability
 -   HA
 -   Low latency
-**Functional**
+## Functional
 -   Paste + Size max 10 MB
 -   Custom URL Path
 -   Paste expiry
 -   User login / Anonymous
-**Capacity Estimation**
+## Capacity Estimation
 
 Assumptions
 -   Pastes: 100K / day
@@ -133,7 +133,7 @@ Data Storage
 100 KB * 100K = 10 GB / day (avg)
 
 365 * 1000GB = 365 TB / year
-**Cache**
+## Cache
 
 Save key, s3 location, along with some amount of data, that can quickly show some data to user while full data is fetched from s3
 Paste

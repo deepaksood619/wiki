@@ -44,7 +44,7 @@ Routing tables are also a key aspect of certain security operations, such as[uni
 Routing tables are generally not used directly for[packet forwarding](https://en.wikipedia.org/wiki/Packet_forwarding)in modern router architectures; instead, they are used to generate the information for a smaller[forwarding table](https://en.wikipedia.org/wiki/Forwarding_table). This forwarding table contains only the routes which are chosen by the[routing algorithm](https://en.wikipedia.org/wiki/Routing_algorithm)as preferred routes for packet forwarding. It is often in a compressed or pre-compiled format that is[optimized](https://en.wikipedia.org/wiki/Optimisation_(computer_science))for hardware storage and[lookup](https://en.wikipedia.org/wiki/Lookup).
 
 This router architecture separates the[Control Plane](https://en.wikipedia.org/wiki/Control_Plane)function of the routing table from the[Forwarding Plane](https://en.wikipedia.org/wiki/Forwarding_Plane)function of the forwarding table.[[3]](https://en.wikipedia.org/wiki/Routing_table#cite_note-3)This separation of control and forwarding provides uninterrupted performance.
-**Routing Protocols**
+## Routing Protocols
 
 OSPF - Open Shortest Path First
 
@@ -60,7 +60,7 @@ IS-IS - Intermediate System to Intermediate System
 Distance vector routing - thread (similar to RIP)
 
 Maintain and advertise best next hop towards each Thread Router
-**Tools**
+## Tools
 
 [Quagga](http://www.quagga.net/)is a routing software suite, providing implementations of OSPFv2, OSPFv3, RIP v1 and v2, RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD. Quagga is a fork of[GNU Zebra](http://www.zebra.org/)which was developed by Kunihiro Ishiguro.
 The Quagga architecture consists of a core daemon,zebra, which acts as an abstraction layer to the underlying Unix kernel and presents the Zserv API over a Unix or TCP stream to Quagga clients. It is these Zserv clients which typically implement a routing protocol and communicate routing updates to the zebra daemon. Existing Zserv implementations are:

@@ -6,7 +6,7 @@ Modified: 2022-08-10 10:47:14 +0500
 
 ---
 
-**Fake API REST Mocks Server Tests**
+## Fake API REST Mocks Server Tests
 
 <https://reqres.in>
 
@@ -24,7 +24,7 @@ Modified: 2022-08-10 10:47:14 +0500
 
 <https://anapioficeandfire.com>
 
-**Public APIs**
+## Public APIs
 
 <https://github.com/public-apis/public-apis>
 
@@ -59,7 +59,7 @@ Postman supports the following variable scopes:
 ## Environments**
 
 Environments allow you to run requests and collections against different data sets. For example, you could have an environment for development, one for testing, and another for production. You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
-**Dynamic Variables**
+## Dynamic Variables
 
 Postman provides dynamic variables that you can use in your requests.
 
@@ -77,7 +77,7 @@ You can run collections against specific environments, and can pass data files i
 <https://learning.postman.com/docs/running-collections/intro-to-collection-runs>
 
 ## Mock Server**
-**Monitoring**
+## Monitoring
 <https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d>
 
 <https://www.guru99.com/api-testing.html>
@@ -93,11 +93,11 @@ varkey**=**'6aeb53996e29f845ae6b52dbda150df5fb03b981da8eaac63e3faa327fdce343';
 
 varfinalstring**=**'';
 
-**for**(vari**=**0;i**<**pm.request.body.urlencoded.toJSON().length;i**++**){
+## for**(vari**=**0;i**<**pm.request.body.urlencoded.toJSON().length;i**++){
 
-**if**(pm.request.body.urlencoded.toJSON()[i].key**!=**'checksum'){
+## if**(pm.request.body.urlencoded.toJSON()[i].key**!='checksum'){
 
-**if**(i**!=**0){
+## if**(i**!=0){
 
 finalstring**+=**'&';
 
@@ -116,17 +116,17 @@ varsignature**=**CryptoJS.HmacSHA256(finalstring,key).**toString**();
 postman.setEnvironmentVariable("checksum",signature);
 
 pm.variables.**get**("variable_key");
-**Shortcuts**
+## Shortcuts
 
 CMD + / - show all shortcuts
 
 CMD + ? - show all shortcuts
 
 CMD +  - show/hide sidebar
-**OAuth 2.0 - Authentication and Authorization with Identity Server (KeyCloak)**
+## OAuth 2.0 - Authentication and Authorization with Identity Server (KeyCloak)
 
 ![](media/Postman-image1.png)
-**Alternatives**
+## Alternatives
 
 Hoppscotch - <https://github.com/hoppscotch/hoppscotch>
 

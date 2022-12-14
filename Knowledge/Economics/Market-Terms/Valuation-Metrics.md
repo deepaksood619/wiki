@@ -12,49 +12,31 @@ Modified: 2022-03-11 12:38:21 +0500
 -   **Price to Sales Ratio**
 -   **EV to EBITDA**
 
+![image](media/Market-Terms_Valuation-Metrics-image1.jpeg)
 
+## Multiple ratios can be combined to choose companies
 
-![PRICE-TO. BOOK VALUE PRICE-TO- EARNINGS PRICE.ro. SALES EV-TO- FORMULA PRICE PER SHARE BOOK VALUE PER SHARE PRICE PER SHARE NET PROFIT PER SHARE PRICE PER SHARE REVENUE PER SHARE MARKET CAP • CASH EARNINGS BEFORE INTEREST, TAXES. OCPRECIATION AMORTIZATbON LOCATE BALANCE SHEET PROFIT & toss STATEMENT PROFIT LOSS STATEMENT BALANCE SHEET. P L STATEMENT STRENGTH • MORE CONSISTENT METRIC • LOW TURNOVER PORTFOLIOS • USEFUL FOR CAPITAL INTENSIVE INDUSTRIES • EASY TO UNDERSTAND • GOOD RELATIVE MEASURE FOR SECTOR ANALYSIS • CLEANER NUMBER; LESS SUBJECT TO MANIPULATION • USEFUL FOR GROWTH COS. • INCORPORATES COMPANY'S CAPITAL STRUCTURE • UTILIZES OPERATING PROFITS • BEST LONG.TERM PERFORMING METRIC WEAKNESS DOESN'T MEASURE INTANGIBLES DOESNT use MARKET VALUE • FALLSON SHARE BUYBACK EARNINGS CAN BE MANIPULATED • NUMBERS CAN oeccprtve ESP. CYCLICAL. HDGH GROWTH • FAILS TO CAPTURE PROFITS & costs DOESN'T ACCOUNT FOR CAPITAL STRUCTURE (DEBT) IGNORES DEPRECIATION • NOT A PROXY CASHFLOWS ](media/Market-Terms_Valuation-Metrics-image1.jpeg)
-
-
-
-**Multiple ratios can be combined to choose companies**
-
-**Ex**
+## Ex
 -   PB Ratio < 2, and PE Ratio < 15
 -   EV-to-EBITDA Ratio < 10 and PS Ratio < 5
 
-
-
-**EBITDA**
+## EBITDA
 
 Earnings before interest, tax, depreciation and amortization (EBITDA) is a measure of a company's operating performance/profitability (i.e., how much profit it makes with its present assets and its operations on the products it produces and sells, as well as providing a proxy for cash flow). Essentially, it's a way to evaluate a company's performance without having to factor in financing decisions, accounting decisions or tax environments.
 
-
-
 <https://en.wikipedia.org/wiki/Earnings_before_interest,_taxes,_depreciation,_and_amortization>
 
-
-
-**Price to Book Ratio (P/B Ratio)**
+## Price to Book Ratio (P/B Ratio)
 
 Total amount of money a company can generate if it were to be liquidated
-
-
 
 Book Value = Total Assets - Intangible Assets - Liabilities
 
 Book Value = Shareholder's common equity - Preferred stock
 
-
-
 P/B Ratio = Current price per share / Book value per share
 
-
-
 Good for low turnover portfolio
-
-
 
 Cons
 -   Doesn't take intangible assets into account
@@ -62,21 +44,13 @@ Cons
 -   Doesn't factor in profits, sales & growth
 -   Penalizes good capital allocation decision at times
 
-
-
-**Price to Earnings Ratio (P/E Ratio)**
+## Price to Earnings Ratio (P/E Ratio)
 
 The price-to-earnings ratio (P/E ratio) is the ratio for valuing a company that measures its current share price relative to its per-share earnings ([EPS](https://www.investopedia.com/terms/e/eps.asp)).The price-to-earnings ratio is also sometimes known as theprice multipleor the earningsmultiple.
 
-
-
 P/E ratios are used by investors and analysts to determine the relative value of a company's shares in an apples-to-apples comparison. It can also be used to compare a company against its own historical record or to compare aggregate markets against one another or over time.
 
-
-
 PE Ratio = Current Price Per Share / Earnings Per Share = 200/8 = 25
-
-
 
 Earnings per share
 
@@ -88,8 +62,6 @@ Earnings per share
 
 4.  Averaging (last 5-6 years of earnings)
 
-
-
 Pros
 
 1.  Simple to understand
@@ -97,8 +69,6 @@ Pros
 2.  Factors in profitability
 
 3.  Excellent relative comparision measure
-
-
 
 Cons
 
@@ -108,21 +78,15 @@ Cons
 
 3.  Misleading impression regarding cyclical stocks
 
-
-
-**KEY TAKEAWAYS**
+## KEY TAKEAWAYS
 -   The price-earnings ratio (P/E ratio) relates a company's share price to its earnings per share.
 -   A high P/E ratio could mean that a company's stock is over-valued, or else that investors are expecting high growth rates in the future.
 -   Companies that have no earnings or that are losing money do not have a P/E ratio since there is nothing to put in the denominator.
 -   Two kinds of P/E ratios - forward and trailing P/E -are used in practice
 
-
-
 <https://www.investopedia.com/terms/p/price-earningsratio.asp>
 
-
-
-**PEG Ratio**
+## PEG Ratio
 
 The price/earnings to growth ratio (PEG ratio) isa stock's price-to-earnings (P/E) ratio divided by the growth rate of its earnings for a specified time period.
 
@@ -131,19 +95,13 @@ The price/earnings to growth ratio (PEG ratio) isa stock's price-to-earnings (P/
 -   The PEG ratio is considered to be an indicator of a stock's true value, and similar to the P/E ratio, a lower PEG may indicate that a stock is undervalued.
 -   The PEG for a given company may differ significantly from one reported source to another, depending on which growth estimate is used in the calculation, such as one-year or three-year projected growth.
 
-
-
 <https://www.investopedia.com/terms/p/pegratio.asp>
 
 <https://www.investopedia.com/investing/use-pe-ratio-and-peg-to-tell-stocks-future
 
-
-
-**Price to Sales Ratio (PS Ratio)**
+## Price to Sales Ratio (PS Ratio)
 
 PS Ratio = Current Market Capitalization / Total Revenue (Sales)
-
-
 
 Total Revenue (Sales)
 
@@ -159,48 +117,32 @@ Total Revenue (Sales)
 -   Comes in handy when examining companies in cyclical industries
 -   PS Ratio is not as subjective to manipulation as PE ratio
 
-
-
-**Cons**
+## Cons
 -   Does not consider debt
 
+## EV to EBITDA Ratio
 
+## EV - Enterprise Value
 
-**EV to EBITDA Ratio**
+## EV = Market Capitalization + Debt - Cash
 
-**EV - Enterprise Value**
-
-
-
-**EV = Market Capitalization + Debt - Cash**
-
-
-
-**Pros**
+## Pros
 -   Incorporates company's capital structure in its entirely
 -   Uses the operating profits
 -   Best long-term performing metric
 
-
-
-**Cons**
+## Cons
 -   Ignores depreciation
 
 ![](media/Market-Terms_Valuation-Metrics-image1.jpeg)
 
-
-
-**Graham Number**
+## Graham Number
 
 TheGraham numberorBenjamin Graham numberis a figure used in[securities](https://en.wikipedia.org/wiki/Securities)investing that measures a[stock](https://en.wikipedia.org/wiki/Stock)'s so-called fair value.Named after[Benjamin Graham](https://en.wikipedia.org/wiki/Benjamin_Graham), the founder of[value investing](https://en.wikipedia.org/wiki/Value_investing), the Graham number can be calculated as follows:
 
-![22.5 x (earnings per share) x (book value per share) ](media/Market-Terms_Valuation-Metrics-image2.jpg)
-
-
+![image](media/Market-Terms_Valuation-Metrics-image2.jpg)
 
 The final number is, theoretically, the maximum price that a defensive investor should pay for the given stock. Put another way, a stock priced below the Graham Number would be considered a good value, if it also meets a number of other criteria.
-
-
 
 <https://en.wikipedia.org/wiki/Graham_number>
 

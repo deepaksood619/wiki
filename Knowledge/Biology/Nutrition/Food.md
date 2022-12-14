@@ -8,15 +8,11 @@ Modified: 2022-09-16 12:47:58 +0500
 
 The way you eat not only decides your physical health, but the very way you think, feel, and experience life. -- Sadhguru
 
-
-
 Only eat till you are 80% full
 
-**Zero Oil Cooking**
+## Zero Oil Cooking
 
-
-
-**Tips**
+## Tips
 -   Front-loading your eating and eating only while the sun's up are great ways to be healthier
 -   Stack your meals so that three quarters (or more) of what you eat comes before 2 p.m., the rest between then and sundown
 -   Eating dinner for breakfast and keeping your eating consistent add up to a better diet
@@ -33,13 +29,9 @@ Only eat till you are 80% full
     -   Kidney - Drink a lot of water during the day; drink less water at night; empty your bladder before going to bed
     -   Pancreas - Avoid overfeeding
 
-
-
 Recommended Calorie intake - 2800
 
-
-
-**Good foods**
+## Good foods
 
 1.  Almonds (Brain)
 
@@ -113,15 +105,11 @@ Recommended Calorie intake - 2800
 
 30. Beer (xanthohumol, anti-cancer properties)
 
-
-
-**Normal foods**
+## Normal foods
 
 1.  Ghee in limited quantity
 
-
-
-**Bad foods**
+## Bad foods
 
 1.  Eggplant (inhibit absorption of calcium)
 
@@ -143,9 +131,7 @@ Recommended Calorie intake - 2800
 
 10. Palm oil
 
-
-
-**Supplements**
+## Supplements
 
 1.  creatine
 
@@ -161,26 +147,18 @@ Recommended Calorie intake - 2800
 
 6.  St John's Wort (flower)
 
-
-
-**Pregnant / Pregnancies food**
+## Pregnant / Pregnancies food
 
 Soya ataa + wheat ataa ( 1kg to 8 kg )
 
-
-
-**Facts**
+## Facts
 -   Stem cells regenerate lungs every eight days, skin once a fortnight, small intestine almost every other day
-
-
 
 Curd - lactobacillus - lactic acid bacteria
 
 Yogurt - lactobacillus bulgaris and streptococcus thermophilus.
 
-
-
-**Gain Weight Diet Plan**
+## Gain Weight Diet Plan
 
 Keep 10 almonds soaked in water over-night and eat them as soon as you wake up the next morning. You must have a glass of banana shake during breakfast clubbed with either 1 bowl vegetable daliya or vegetable oats. You can substitute these with 2 slices of multigrain bread or 30g paneer, tofu or chicken breast.
 -   During mid-morning, have 1 whole fruit of your choice and drink 1 glass of lassi, coconut water or butter milk
@@ -190,45 +168,33 @@ Keep 10 almonds soaked in water over-night and eat them as soon as you wake up t
 -   In dinner, have 2-3 chappatis along with 1 bowl vegetable, 1 bowl dal, 1 bowl curd or sweet dish
 -   Before going off to sleep, have 1 glass of milk with a pinch of turmeric and 1 tablespoon honey in it
 
-
-
 <https://www.onlymyhealth.com/how-gain-weight-in-days-1326451658>
 
+## Eating patterns
 
-
-**Eating patterns**
-
-**Meal-eaters vs grazers**
+## Meal-eaters vs grazers
 -   Eating 3 meals of 800 calories will cause the same thermic effect as eating 6 meals of 400 calories. There is literally no difference.
 -   Multiple studies have compared eating many smaller versus fewer larger meals and concluded that there is no significant effect on either metabolic rate or the total amount of fat lost
 -   Fewer and larger meals lower your average daily blood sugar levels. Getting most of your calories in the morning and eating fewer in the afternoon and evening also seems to reduce average blood sugar levels.
 -   Skipping meals every now and then helps you lose weight and may improve your blood sugar control over time.
 
+![image](media/Nutrition_Food-image1.png)
 
+## Food Pyramid
 
-![HEALTHY EATING PLATE Use healthy oils (like olive and canola oil) for cooking, on salad, and at the table. Limit butter. Avoid trans fat. The more veggies--- and the greater the variety---the better. HEALTHY OILS Potatoes and french fries don't count. Eat plenty of fruits of all colors. STAY ACTIVE! @ Harvard University VEGETABLES FRUITS WHOLE GRAINS HEALTHY PROTEIN WATER Drink water, tea, or coffee (with little or no sugar). Limit milk/dairy (I -2 servings/day) and juice (I small glass/day). Avoid sugary drinks. Eat whole grains (like brown rice, whole-wheat bread, and whole-grain pasta). Limit refined grains (like white rice and white bread). Choose fish, poultry, beans, and nuts; limit red meat; avoid bacon, cold cuts, and other processed meats. ](media/Nutrition_Food-image1.png)
+![image](media/Nutrition_Food-image2.png)
 
+## Grains: Make half your grain whole. Eat at least 3 oz. of whole grain cereals, breads, crackers, rice, or pasta every day.
 
+## Vegetables: Vary your vegetables. Eat more dark green veg- etables like broccoli and spinach. Eat more orange vegetables like carrots and sweet potatoes. Eat more dry beans and peas.
 
-**Food Pyramid**
+## Fruits: Eat a variety of fruits. Choose fresh, frozen, canned, or dried fruit. Go easy on fruit juices, which have high sugar content without much fiber.
 
-![Grains Vegetables quits ](media/Nutrition_Food-image2.png)
+## Milk: Eat calcium-rich foods. Choose low-fat or fat-free dairy products. If you don't drink milk or eat dairy products, choose lactose-free products or other calcium sources such as fortified foods and drinks.
 
-**Grains:** Make half your grain whole. Eat at least 3 oz. of whole grain cereals, breads, crackers, rice, or pasta every day.
+## Meat and beans: Eat lean proteins. Choose low-fat or lean cuts of meat and poultry. Bake, broil, or grill your meats. Eat more fish, beans, peas, nuts, and seeds.
 
-**Vegetables:** Vary your vegetables. Eat more dark green veg- etables like broccoli and spinach. Eat more orange vegetables like carrots and sweet potatoes. Eat more dry beans and peas.
-
-**Fruits:** Eat a variety of fruits. Choose fresh, frozen, canned, or dried fruit. Go easy on fruit juices, which have high sugar content without much fiber.
-
-**Milk:** Eat calcium-rich foods. Choose low-fat or fat-free dairy products. If you don't drink milk or eat dairy products, choose lactose-free products or other calcium sources such as fortified foods and drinks.
-
-**Meat and beans:** Eat lean proteins. Choose low-fat or lean cuts of meat and poultry. Bake, broil, or grill your meats. Eat more fish, beans, peas, nuts, and seeds.
-
-
-
-![Red meat, butter White rice, white bread, white pasta; potatoes. soda, and sweets use sparingly Dairy or calcium supplement. 1---2 time/day Multiple vitamins ' Fish, Itty. eggs. 0-2 timestday ' for most Nuts, legumes, 1---3 times/day Alcohol in moderation fif appropriate) Vegetables (tn abundance) Whole-grain foods (at most meals) • Fruits, 2---3 times/day Plant oils (olive, canola, soy, corn, sunflower, peanut. and other vegetable oils) Daily exercise and weight control ](media/Nutrition_Food-image3.png)
-
-
+![image](media/Nutrition_Food-image3.png)
 
 [How We Got the Science of Weight Loss Wrong - with Giles Yeo](https://www.youtube.com/watch?v=GQJ0Z0DRumg&ab_channel=TheRoyalInstitution)
 -   Protein - 16% of your daily energy intake
@@ -236,18 +202,12 @@ Keep 10 almonds soaked in water over-night and eat them as soon as you wake up t
 -   Free sugar < 5 per cent of your daily energy intake
 -   Meat - free days
 
-
-
-**Vegetables**
+## Vegetables
 -   Daikon, White Radish - Mooli
-
-
 
 <https://www.healthline.com/nutrition/list-of-vegetables>
 
-
-
-**Eight principles of low-glycemic eating**
+## Eight principles of low-glycemic eating
 
 1.  Eat a lot of non-starchy vegetables, beans, and fruits such as apples, pears, peaches, and berries. Even tropi- cal fruits like bananas, mangoes, and papayas tend to have a lower glycemic index than typical desserts
 
@@ -265,37 +225,25 @@ Keep 10 almonds soaked in water over-night and eat them as soon as you wake up t
 
 8.  Eat slowly and stop when full
 
-
-
 <http://hrccatalog.hrrh.on.ca/InmagicGenie/DocumentFolder/healthy%20eating.pdf>
 
 [Fed Up 2014](https://www.youtube.com/watch?v=Y647tNm8nTI)
 
-
-
 Smooth, bright, seedless, conveniently wrapped; the banana is the original fast food
 
-
-
-**Milk**
+## Milk
 -   Cow's Milk
 -   Almond Milk
 -   **Soy Milk (best for planet)**
 -   **Oat Milk (best for planet)**
 
-
-
 <https://www.youtube.com/watch?v=s6TXDFp1EcM>
 
+## Fruits
 
+![image](media/Nutrition_Food-image4.jpeg)
 
-**Fruits**
-
-![Bipe As rt 1+47/ C Ripen on your Counter Depends On Variety @ 000 00 eoo Avocado Plum Banana Tomato Cherries Pomegranate mee•pple Raspberry Strawberry ](media/Nutrition_Food-image4.jpeg)
-
-
-
-**Vitamins**
+## Vitamins
 
 <table>
 <colgroup>
@@ -1148,18 +1096,6 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

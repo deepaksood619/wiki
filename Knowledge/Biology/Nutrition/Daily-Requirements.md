@@ -6,7 +6,7 @@ Modified: 2021-09-11 13:35:20 +0500
 
 ---
 
-**Macronutrients**
+## Macronutrients
 -   **Providing energy (Carbs, Protein, Fats)**
     -   Carbohydrates (pasta, rice, cereals, breads, potatoes, milk, fruit, sugar)
         -   [Glucose](https://en.wikipedia.org/wiki/Glucose)
@@ -64,8 +64,6 @@ Modified: 2021-09-11 13:35:20 +0500
 -   [Lignoceric acid](https://en.wikipedia.org/wiki/Lignoceric_acid)(C24)
 -   [Cerotic acid](https://en.wikipedia.org/wiki/Cerotic_acid)(C26)
 
-
-
 [**Monounsaturated fats**](https://en.wikipedia.org/wiki/Monounsaturated_fats)
 -   [Myristol](https://en.wikipedia.org/wiki/Myristol)
 -   [Pentadecenoic](https://en.wikipedia.org/wiki/Pentadecenoic)
@@ -76,8 +74,6 @@ Modified: 2021-09-11 13:35:20 +0500
 -   [Erucic acid](https://en.wikipedia.org/wiki/Erucic_acid)
 -   [Nervonic acid](https://en.wikipedia.org/wiki/Nervonic_acid)
 
-
-
 [**Polyunsaturated fats**](https://en.wikipedia.org/wiki/Polyunsaturated_fats)
 -   [Linoleic acid](https://en.wikipedia.org/wiki/Linoleic_acid)(LA) - an[essential fatty acid](https://en.wikipedia.org/wiki/Essential_fatty_acid)
 -   [α-Linolenic acid](https://en.wikipedia.org/wiki/%CE%91-Linolenic_acid)(ALA) - an essential fatty acid
@@ -86,8 +82,6 @@ Modified: 2021-09-11 13:35:20 +0500
 -   [Timnodonic acid](https://en.wikipedia.org/wiki/Timnodonic_acid)(EPA)
 -   [Clupanodonic acid](https://en.wikipedia.org/wiki/Clupanodonic_acid)(DPA)
 -   [Cervonic acid](https://en.wikipedia.org/wiki/Cervonic_acid)(DHA)
-
-
 
 [**Essential fatty acids**](https://en.wikipedia.org/wiki/Essential_fatty_acids)
 
@@ -100,16 +94,14 @@ These 2 essential fatty acids are the starting point for other important omega-a
     -   Water
     -   Fiber
 
-**Dietary fiber**or**roughage**is the portion of plant-derived food that cannot be completely broken down by[digestive enzymes](https://en.wikipedia.org/wiki/Digestive_enzyme).It has two main components:
+## Dietary fiber**or**roughageis the portion of plant-derived food that cannot be completely broken down by[digestive enzymes](https://en.wikipedia.org/wiki/Digestive_enzyme).It has two main components:
 -   Soluble fiber -- which dissolves in water -- is readily fermented in the[colon](https://en.wikipedia.org/wiki/Colon_(anatomy))into gases and physiologically active[by-products](https://en.wikipedia.org/wiki/By-product), such as[short-chain fatty acids](https://en.wikipedia.org/wiki/Short-chain_fatty_acid)produced in the[colon](https://en.wikipedia.org/wiki/Colon_(anatomy))by[gut bacteria](https://en.wikipedia.org/wiki/Gut_flora);[^[1]^](https://en.wikipedia.org/wiki/Dietary_fiber#cite_note-bnf-1)it is[viscous](https://en.wikipedia.org/wiki/Viscous), may be called[prebiotic](https://en.wikipedia.org/wiki/Prebiotic_(nutrition))fiber, and delays[gastric emptying](https://en.wikipedia.org/wiki/Stomach#Function)which, in humans, can result in an extended feeling of fullness.
 -   Insoluble fiber -- which does not dissolve in water -- is inert to digestive enzymes in the upper[gastrointestinal tract](https://en.wikipedia.org/wiki/Gastrointestinal_tract)and provides bulking.Some forms of insoluble fiber, such as[resistant starches](https://en.wikipedia.org/wiki/Resistant_starch), can be fermented in the colon.Bulking fibers absorb water as they move through the[digestive system](https://en.wikipedia.org/wiki/Digestive_system), easing[defecation](https://en.wikipedia.org/wiki/Defecation).
 
 
 -   Antioxidants
 
-
-
-**Micronutrients**
+## Micronutrients
 -   **Minerals**
     -   Calcium
     -   Chlorine
@@ -175,13 +167,9 @@ These 2 essential fatty acids are the starting point for other important omega-a
 -   Full-fat dairy and egg yolks are generally sources of the fat soluble vitamins A, D and E
 -   Milk and vegetable or soya bean oil are generally good sources of vitamin K, which can also be synthesised by gut bacteria
 
+![image](media/Nutrition_Daily-Requirements-image1.jpeg)
 
-
-![• Keto 5% calories from C 35% calories from P 60% calories from F • Low Carb 25% calories from C 35% calories from P 40% calories from F Low Protein 35% calories from C 25% calories from P 40% calories from F Any plan is nothing but proportion of calories from C P F ie ](media/Nutrition_Daily-Requirements-image1.jpeg)
-
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/List_of_macronutrients>
 

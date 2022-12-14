@@ -90,11 +90,7 @@ Modified: 2019-06-15 22:14:10 +0500
 
 42. YouTube couldn't exist without communications and signal processing
 
-
-
 The word engineering itself comes from the latin *Ingenium*, meaning **cleverness** and *ingeniare,* meaning **to design or devise.**
-
-
 
 1.  Military Engineering
 

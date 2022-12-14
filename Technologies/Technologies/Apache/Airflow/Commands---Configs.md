@@ -14,9 +14,7 @@ Modified: 2020-09-26 15:24:39 +0500
 -   **airflow webserver**
 -   **airflow scheduler**
 
-
-
-**Configurations**
+## Configurations
 
 AIRFLOW_HOME: /root/zenalytix/Docker/airflow
 
@@ -30,8 +28,6 @@ AIRFLOW__CORE__EXECUTOR: CeleryExecutor
 
 AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:airflow@apg-postgresql-headless.airflow:5432/airflow
 
-
-
 AIRFLOW__CORE__FERNET_KEY: 3Hj3xtOHEkyFySDDJC1dMkHi5L3QyeJNBbLdgzbs4Dg=
 
 AIRFLOW__CORE__TASK_RUNNER: StandardTaskRunner
@@ -40,11 +36,9 @@ AIRFLOW__CORE__LOAD_EXAMPLES: "False"
 
 AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Kolkata
 
-
-
 AIRFLOW__WEBSERVER__BASE_URL: <http://airweb.zenatix.com>
 
-**AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"**
+## AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
 
 AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: "120"
 
@@ -59,8 +53,6 @@ AIRFLOW__WEBSERVER__WORKERS=2 # 2 * NUM_CPU_CORES + 1
 AIRFLOW__WEBSERVER__WORKER_REFRESH_INTERVAL=1800 # Restart workers every 30min instead of 30seconds
 AIRFLOW__WEBSERVER__WEB_SERVER_WORKER_TIMEOUT=300 #Kill workers if they don't start within 5min instead of 2min
 
-
-
 AIRFLOW__SMTP__SMTP_HOST: email-smtp.us-east-1.amazonaws.com
 
 AIRFLOW__SMTP__SMTP_PORT: "587"
@@ -71,12 +63,8 @@ AIRFLOW__SMTP__SMTP_PASSWORD: BEvBirvENUT/mDTWCmnZLuiuaFqMnqeDwutK9VPLpKcI
 
 AIRFLOW__SMTP__SMTP_MAIL_FROM: devops@wattman.io
 
-
-
 AIRFLOW__CELERY__BROKER_URL: redis://:airflow@ars-redis-headless.airflow:6379/0
 
 AIRFLOW__CELERY__CELERY_RESULT_BACKEND: db+postgresql://postgres:airflow@apg-postgresql-headless.airflow:5432/airflow
-
-
 
 AIRFLOW__SCHEDULER__CATCHUP_BY_DEFAULT: "False"

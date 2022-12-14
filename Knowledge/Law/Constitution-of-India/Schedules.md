@@ -20,13 +20,9 @@ R - Rajya Sabha
 
 S - Scheduled Areas
 
-
-
 O - Other Scheduled Areas
 
 F - Federal Structure
-
-
 
 O - Official Languages
 
@@ -34,15 +30,11 @@ L - Land Reforms
 
 D - Defection Laws
 
-
-
 P - Panchayat
 
 M - Muncipality
 
-
-
-**List of Schedules of Indian Constitution**
+## List of Schedules of Indian Constitution
 
 1.  First Schedule of Indian Constitution
 
@@ -90,7 +82,7 @@ It contains provisions in relation to the administration of tribal areas in the 
 
 7.  Seventh Schedule
 
-**Federal Structure -** This schedule deals with the three legislative lists:
+## Federal Structure - This schedule deals with the three legislative lists:
 -   Union
 -   State
 -   Concurrent
@@ -161,9 +153,7 @@ This schedule was added
 
 by the 74th Amendment Act of 1992
 
-
-
-**Schedules of Indian Constitution & Articles**
+## Schedules of Indian Constitution & Articles
 
 Aspirants should know about the Constitutional Articles related with the Schedules of Indian Constitution. It will give them clarity of concepts and help them understand the chronology of important articles.
 
@@ -287,8 +277,6 @@ Aspirants should know about the Constitutional Articles related with the Schedul
 </tr>
 </tbody>
 </table>
-
-
 
 <https://byjus.com/free-ias-prep/schedules-indian-constitution
 

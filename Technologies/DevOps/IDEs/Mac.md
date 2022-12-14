@@ -6,7 +6,7 @@ Modified: 2022-10-06 19:20:36 +0500
 
 ---
 
-**Screenshots**
+## Screenshots
 
 Shift + Ctrl + Cmd + 3 - Copy window -> cmd+v (paste)
 
@@ -14,57 +14,37 @@ Cmd + Shift + 3 - whole window
 
 Cmd + Shift + 4 - selection -> space (selection window)
 
-
-
 Force kill - cmd + opt + esc
-
-
 
 Exit Full Screen / Full screen - ^ + ⌘ + F (Ctrl + Cmd + F)
 
-
-
 ^ + ⌘ + q (Lock screen) (Ctrl + Cmd + Q)
 
-
-
-**Quicktime player Shortcuts**
+## Quicktime player Shortcuts
 
 Hold Option + fast forward button on quicktime player
 
-
-
-**Preview pdf shortcuts**
+## Preview pdf shortcuts
 
 Command + 1 - continuous scroll
 
-
-
-**Create a new text file**
+## Create a new text file
 
 If you have the Finder window open, use Spotlight to open TextEdit. When you're ready to save the file, option+drag the text file icon from the title bar of TextEdit into the Finder window where you want to save it.
-
-
 
 Show/hide hidden folders = Command + shift + .
 
 Ctrl + Cmd + space - Character Palette
 
-
-
 You can select the file and pressOption+Command+Cto copy the pathname to the clipboard.
 
 RightClick on folder > option (gives more options)
-
-
 
 # Terminal Commands
 
 Open two instance of same application - **open -n MQTT.fx.app**
 
-
-
-**Screenshots**
+## Screenshots
 
 ⌘ + Shift + 4, #selection
 
@@ -72,19 +52,13 @@ Open two instance of same application - **open -n MQTT.fx.app**
 
 ⌘ + Shift + 3, #whole screen
 
-
-
 ⌘ + Option + D - show/hide dock
 
 ⌘ + Option + ESC - Force Quit Application dialogue
 
-
-
 Option + Characters - Special Characters like (µåß∂√ƒç≈Ω)
 
-
-
-**Setting up MAC**
+## Setting up MAC
 
 1.  **Add iterm2**
 
@@ -170,9 +144,7 @@ Go to keep.google.com > go to chrome more tools > create shortcut > check open a
 
     h.  **Remote desktop**
 
-
-
-**brew**
+## brew
 
 The missing package manager for macOS
 
@@ -226,9 +198,7 @@ brew services cleanup
 
 Remove all unused services.
 
-
-
-**brew install**
+## brew install
 -   **tmux**
 -   tldr
 -   watch
@@ -252,15 +222,11 @@ Remove all unused services.
 
 hstr --show-configuration >> ~/.zshrc
 
-
-
 vim ~/.zshrc
 
 export HSTR_CONFIG=hicolor,raw-history-view
 
-
-
-**ctrl+r**
+## ctrl+r
 
 <https://github.com/dvorka/hstr>
 -   **awscli**
@@ -280,75 +246,53 @@ fig update check for updates
 
 fig --help a summary of Fig commands with examples
 
+## Settings in mac
 
-
-**Settings in mac**
-
-**# for stopping bell sound**
+## # for stopping bell sound
 
 Unchecking the "User interface sounds" doesn't disable all sound. But sliding the "Alert Volume" option all the way to the left (minimum), together with unchecking the other options does the trick.
 
 ![enter image description here](../../media/DevOps-IDEs-Mac-image1.png)
 
+## Setting up Shell
 
+## install iterm2
 
-**Setting up Shell**
-
-**install iterm2**
-
-**oh-my-zsh**
+## oh-my-zsh
 
 sh -c "$(curl -fsSL <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"
 
-
-
-**Theme powerlevel10k**
+## Theme powerlevel10k
 
 <https://gist.github.com/kevin-smets/8568070>
 
-
-
 Command - git clone <https://github.com/romkatv/powerlevel10k.git> $ZSH_CUSTOM/themes/powerlevel10k
 
-
-
-**Auto Suggestion**
+## Auto Suggestion
 
 git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-
-
 <https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md>
 
-
-
-**Settings**
+## Settings
 
 ![iTerm2 Preferences panel update to reuse previous session directory.](../../media/DevOps-IDEs-Mac-image2.png)
 
-
-
-**Scroll buffer**
+## Scroll buffer
 
 Preferences > Profiles > Terminal
 
-
-
-**Natural Text Editing**
+## Natural Text Editing
 -   Go to**Preferences...**>**Profiles**>**Keys**(not Preferences... > Keys)
 -   Press**Presets...**
 -   Select**Natural Text Editing**
 -   Then, you can move a word backwards usingOption ⌥+←and a word forwards usingOption ⌥+→, move to the start of the line usingfn+←and to the end of the line withfn+→. Also you can delete a word backwards usingOption ⌥+⌫, delete the whole line usingCommand ⌘+⌫.
 
-
-
-**~/.zshrc**
+## ~/.zshrc
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(git osx docker docker-compose common-aliases zsh-autosuggestions)
-
-
 
 # source profile and aliases
 
@@ -358,19 +302,13 @@ plugins=(git osx docker docker-compose common-aliases zsh-autosuggestions)
 
 . ~/.aliases
 
-
-
 # Autocompletion kubectl
 
 source <(kubectl completion zsh)
 
-
-
 # Autocompletion helm
 
 source <(helm completion zsh)
-
-
 
 # kubectl aliases
 
@@ -383,13 +321,9 @@ function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 
 Set autocd, which means that rather than typingcd <foldername>you just type<foldername>
 
-
-
-**~/.profile**
+## ~/.profile
 
 export SHELL=/usr/local/bin/zsh
-
-
 
 #Color Terminal
 export CLICOLOR=1
@@ -398,15 +332,11 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-
-
-**~/.kubectl_aliases**
+## ~/.kubectl_aliases
 
 <https://github.com/ahmetb/kubectl-aliases/blob/master/.kubectl_aliases>
 
-
-
-**~/.aliases**
+## ~/.aliases
 
 alias ll='ls -alhtF'
 
@@ -420,25 +350,19 @@ alias f='v `fzf -i`'
 
 alias f='fuck'
 
-
-
 alias d='docker'
 
 alias dc='docker-compose'
 
 alias w='watch ' #remember to add space so other alias can be used
 
-**alias gpom='git pull origin master'**
+## alias gpom='git pull origin master'
 
-
-
-**#Section Docker**
+## #Section Docker
 
 alias docker-clean='docker rm $(docker ps -a -f status=exited -q); docker volume rm $(docker volume ls -f dangling=true -q); docker images -qf dangling=true | xargs docker rmi'
 
 alias docker-remove-all-images='docker rmi $(docker images -a -q)'
-
-
 
 alias rb12='openssl rand -base64 12'
 
@@ -452,21 +376,13 @@ alias rb32='openssl rand -base64 32'
 
 alias r32='openssl rand -hex 32'
 
-
-
 alias sf='cd ~/Repositories/stashfin/'
-
-
 
 alias python=/usr/local/bin/python3.7
 
 alias pip=/usr/local/bin/pip3
 
-
-
 alias publicIp="curl wgetip.com"
-
-
 
 ~/.zshrc for ssh and badge
 
@@ -478,13 +394,9 @@ iterm2_set_user_var title_var ""
 
 }
 
-
-
 ssh-old() {
 /usr/bin/ssh $@
 }
-
-
 
 dockash() {
 iterm2_set_user_var title_var $1
@@ -492,25 +404,17 @@ docker exec -it $1 /bin/bash
 iterm2_set_user_var title_var ""
 }
 
-
-
 clear-badge() {
 iterm2_set_user_var title_var ""
 }
 
-
-
-**Alias**
+## Alias
 -   Suffix Alias (-s)
 -   Global Alias (-g)
 
-
-
 <https://thorsten-hans.com/5-types-of-zsh-aliases>
 
-
-
-**References**
+## References
 
 <https://medium.com/better-programming/6-must-have-tools-for-developers-430fd56933dd>
 
@@ -518,45 +422,33 @@ iterm2_set_user_var title_var ""
 
 <https://github.com/jaywcjlove/awesome-mac>
 
-
-
-**Cleanup**
+## Cleanup
 
 brew cleanup #Remove old versions
 
 brew services cleanup #Remove all unused services
 
-
-
-**Automator**
+## Automator
 
 defaults write com.apple.screencapture type JPG
 
 defaults write com.apple.screencapture location "$HOME/Screenshots"
 
-
-
 <https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots
 
+## ipv6 disable
 
-
-**ipv6 disable**
-
-**mac**
+## mac
 
 networksetup -setv6off Wi-Fi
 
-
-
-**ubuntu**
+## ubuntu
 
 sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
 
 sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1
 
-
-
-**windows**
+## windows
 
 <https://networking.grok.lsu.edu/article.aspx?articleid=17573>
 

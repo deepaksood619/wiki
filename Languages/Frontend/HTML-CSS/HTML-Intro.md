@@ -8,15 +8,11 @@ Modified: 2022-01-11 12:29:35 +0500
 
 DOM (Document Object Model) [parent, child, siblings] (description of the relationship that all of the HTML elements have with each other ) (It takes html tags as input and browser converts it to DOM that is rendered in the webpage)
 
-
-
-**DOM**
+## DOM
 
 Application programming interface for valid HTML and well-formed XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.
 
 In simple terms, the DOM is a representation of your HTML to the browser and allows you to manipulate the page.
-
-
 
 SGML (Standard Generalized Markup Language)
 
@@ -24,16 +20,14 @@ xhtml (w3c)
 
 Semantic markup (Device Agnostic)
 
-**Display Types**
+## Display Types
 -   Block level elements (ex - <p>)
 -   Inline level elements (ex - <a href="">) (cannot have width, height)
 -   Inline-Block (can have width, height but sits inline) (Images, buttons - default behaviour)
 -   Display Table
 -   Display None
 
-
-
-**Media Types - audio, video**
+## Media Types - audio, video
 -   HTML5 Graphics - Canvas and SVG
 -   Boxify (converting the whole image in sections of box)
 -   WebStorage api replace javascript cookies
@@ -42,17 +36,13 @@ Semantic markup (Device Agnostic)
 -   Geolocation api
 -   File api (interacts with local files on the user's device) - FileReader, FileWriter, FileSystem
 
-
-
-**SVG**
+## SVG
 
 <https://www.toptal.com/css/svg-animation-css-tutorial>
 
 <https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images
 
-
-
-**Add page break for print**
+## Add page break for print
 
 ----- 1st page -----
 
@@ -61,9 +51,7 @@ Semantic markup (Device Agnostic)
 
 ----- 2nd page -----
 
-
-
-**Fresco**
+## Fresco
 
 HTML5 Semantic Elements
 
@@ -76,9 +64,7 @@ HTML5 Semantic Elements
 
 Web Workers Api - Dedicated, shared
 
-
-
-**Tools**
+## Tools
 
 Emmet - Write html faster - <https://emmet.io (Avabilable in vs code as extension)
 

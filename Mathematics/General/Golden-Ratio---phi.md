@@ -11,8 +11,8 @@ Two quantities are in the**golden ratio**if their[ratio](https://en.wikipedia.or
 ![a def ](media/Golden-Ratio---phi-image1.png)
 
 where the Greek letter[phi](https://en.wikipedia.org/wiki/Phi_(letter))(ϕorφ) represents the golden ratio. It is an[irrational number](https://en.wikipedia.org/wiki/Irrational_number)with a value of:
-![1.6180339887. 2 ](media/Golden-Ratio---phi-image2.png)
+![image](media/Golden-Ratio---phi-image2.png)
 The Geometric Relationship -
 
-![a+b a+bis toaasa is tob ](media/Golden-Ratio---phi-image3.png)
+![image](media/Golden-Ratio---phi-image3.png)
 The golden ratio is also called the**golden mean**or**golden section**(Latin:*sectio aurea*).Other names include**extreme and mean ratio**,**medial section**,**divine proportion**,**divine section** (Latin:*sectio divina*),**golden proportion**,**golden cut**,and**golden number**.

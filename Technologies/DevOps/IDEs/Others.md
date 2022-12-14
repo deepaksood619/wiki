@@ -6,53 +6,41 @@ Modified: 2022-02-23 22:34:20 +0500
 
 ---
 
-**Teamviewer**
+## Teamviewer
 
 <https://www.teamviewer.com/en/download/mac-os
 
 Password - PHNlEudGPF6xX1jA
 
-
-
-**Google Meet**
+## Google Meet
 
 CMD + D - microphone mute/unmute (MAC)
 
 *6 - Phone Dial-in mute/unmute (Phone)
 
-
-
-**Google Sheets / Docs**
+## Google Sheets / Docs
 
 CMD + / - Shortcuts panel
 
 CMD +  - Clear formatting
 
-
-
 Codenvy - cloud workspaces for Dev teams
 
 Eclipse Che
 
-
-
-**Google Chrome**
+## Google Chrome
 -   Shift + / = show keyboard shortcuts on youtube
 -   Momentum (extension)
 -   CMD + Shift + F - Full Screen
 -   CMD + Shift + A - Search tabs
 
-
-
 doc.new
 
 sheet.new
 
+## Chrome Devtools
 
-
-**Chrome Devtools**
-
-**Speed up facebook videos**
+## Speed up facebook videos
 
 videos = document.getElementsByTagName("video");
 
@@ -62,15 +50,11 @@ videos[i].playbackRate = 2;
 
 }
 
-
-
-**Other browsers**
+## Other browsers
 
 <https://sigmaos.com
 
-
-
-**Google Search**
+## Google Search
 -   Use thesite:search operator, Google will only show you the results from a specific website
 -   a country-specific search using thesite:search operator plus the TLD for that country. For example, if you want to look for naan recipes and get the information only from sites in India, the search would benaan recipes site:.in
 -   Following a hyphen-directly with a word is another Google Search operator, and this one tells Google to **exclude** whatever follows that hyphen from the search results.
@@ -81,8 +65,6 @@ videos[i].playbackRate = 2;
 -   **search for anything (A|B)C**
 -   **related:url**
 -   **cache:url**
-
-
 
 | **Operator**         | **How to Use It**                                                                                                                                                                                                                                                      | **Examples**                                                                                                                                                                  |
 |-----------|------------------------------------|--------------------------|
@@ -102,21 +84,15 @@ videos[i].playbackRate = 2;
 | inurl:               | Use inurl:[search phrase] to search for pages that have at least one of your search words in the URL                                                                                                                                                                 | Show pages that mention Roth, IRA, and/or investments in the body:intext:Roth IRA investments                                                                                |
 | OR                   | Perform two search queries at the same time by separating your search terms with OR. This will find pages that have one of several words.                                                                                                                              | Search for pages that reference "Google Drive," "Dropbox," or "OneDrive":"Google Drive" OR Dropbox OR OneDrive                                                       |
 
+## github
 
-
-**github**
-
-**t - Fuzzy file finder**
+## t - Fuzzy file finder
 
 Presstin any repository to access it and start typing the name of the file you want to find.
 
-
-
 <https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly
 
-
-
-**Gmail**
+## Gmail
 
 <table>
 <colgroup>
@@ -317,30 +293,20 @@ Presstin any repository to access it and start typing the name of the file you w
 
 Note:When using numbers as part of your query, a space or a dash (-) will separate a number while a dot (.) will be a decimal. For example,01.2047-100is considered 2 numbers: 01.2047 and 100.
 
-
-
 <https://support.google.com/mail/answer/7190?hl=en>
 
-
-
-**GSuite**
+## GSuite
 -   **When user is deleted**
 
 If your school uses GSuite accounts, your IT Administrator will have the option to transfer ownership of ALL of your Google Drive files to somebody else when they delete your account.
 
-
-
 You can manually transfer ownership of individual files by using Share, and selecting the share access for the new ownerto be Owner (rather than Edit / View / Comment).
 
-
-
-**Windows**
+## Windows
 
 <https://www.freecodecamp.org/news/keyboard-shortcuts-improve-productivity
 
-
-
-**Discord**
+## Discord
 
 <https://www.notboring.co/p/discord-imagine-a-place>
 

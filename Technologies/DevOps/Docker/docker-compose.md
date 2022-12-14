@@ -6,19 +6,15 @@ Modified: 2022-12-11 20:01:39 +0500
 
 ---
 
-**Commands**
+## Commands
 
 Define and run multi-container applications with Docker.
 
-
-
-**Usage**
+## Usage
 docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
 docker-compose -h|--help
 
-
-
-**Options**
+## Options
 -f, --file FILE Specify an alternate compose file
 (default: docker-compose.yml)
 -p, --project-name NAME Specify an alternate project name
@@ -41,7 +37,7 @@ name specified in the client certificate
 --compatibility If set, Compose will attempt to convert deploy
 keys in v3 files to their non-Swarm equivalent
 
-**Commands**
+## Commands
 build Build or rebuild services
 
 docker-compose up --build kafka-consumer
@@ -92,9 +88,7 @@ unpause Unpause services
 up Create and start containers
 version Show the Docker-Compose version information
 
-
-
-**Environment file priority**
+## Environment file priority
 
 When you set the same environment variable in multiple files, here's the priority used by Compose to choose which value to use:
 
@@ -108,17 +102,11 @@ When you set the same environment variable in multiple files, here's the priorit
 
 5.  Variable is not defined
 
-
-
 When**.env**fileis present in the folder docker-compose command is executed, those environment variables are used as environment variables for **docker-compose execution and variable substitution.**
-
-
 
 However when you define**env_file**option to your service, the service will get those variables from the file as **environment variables** and those are not used for variable substitution.
 
-
-
-**Updates**
+## Updates
 -   **Version 3**
 
 Designed to be cross-compatible between Compose and the Docker Engine's[swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
@@ -160,9 +148,7 @@ Designed to be cross-compatible between Compose and the Docker Engine's[swarm mo
     -   [rollback_config](https://docs.docker.com/compose/compose-file/compose-versioning/#rollback_config)in deploy configurations
     -   Support for extension fields at the root of service, network, volume, secret and config definitions
 
-
-
-**Tips**
+## Tips
 -   No variable sustitution for keys in docker-compose
 -   both $VARIABLE and $VARIABLE syntax is supported
 -   Can use default and err with variables
@@ -173,9 +159,7 @@ Designed to be cross-compatible between Compose and the Docker Engine's[swarm mo
 -   You can use a$$(double-dollar sign) when your configuration needs a literal dollar sign. This also prevents Compose from interpolating a value, so a$$allows you to refer to environment variables that you don't want processed by Compose.
 -   Two different docker networks cannot access each other services
 
-
-
-**References**
+## References
 
 <https://docs.docker.com/compose/compose-file
 

@@ -118,7 +118,7 @@ To have a complete set of manual tests, all you need to do is make a list of all
 -   [Fuzz Testing](https://www.tutorialspoint.com/software_testing_dictionary/fuzz_testing.htm)
 
 Fuzz testing is a software testing technique using which a random data is given as the inputs to the system. If the application fails, then those issues/defects are to be addressed by the system. In short, unexpected or random inputs might lead to unexpected results
-**Attack Types**
+## Attack Types
 -   Number/Character Fuzzing
 -   Application Fuzzing
 -   Protocol Fuzzing

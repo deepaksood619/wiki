@@ -6,13 +6,11 @@ Modified: 2021-11-19 18:01:52 +0500
 
 ---
 
-**Preface -** <https://d2l.ai/chapter_preface/index.html>
+## Preface - <https://d2l.ai/chapter_preface/index.html>
 
-**Notation** - <https://d2l.ai/chapter_notation/index.html>
+## Notation - <https://d2l.ai/chapter_notation/index.html>
 
-
-
-![6. Convolutional Neural Networks 7. Modern Convolutional Neural Networks 13. Computer Vision 1. Introduction 2. Preliminaries 3. Linear Neural Networks 4. Multilayer Perceptrons 5. Deep Learning Computation 8. Recurrent Neural Networks 9. Modern Recurrent Neural Networks 14---15. Natural Language Processing 11. Optimization Algorithms 12. Computational Performance 10. Attention Mechanisms ](media/Table-of-contents-image1.jpeg)
+![image](media/Table-of-contents-image1.jpeg)
 
 [3. Linear Neural Networks](https://d2l.ai/chapter_linear-networks/index.html)
 
@@ -214,11 +212,7 @@ Modified: 2021-11-19 18:01:52 +0500
 
 [17.2. Deep Convolutional Generative Adversarial Networks](https://d2l.ai/chapter_generative-adversarial-networks/dcgan.html)
 
-
-
 [**https://d2l.ai/**](https://d2l.ai/)
-
-
 
 [Learning To See](https://www.youtube.com/playlist?list=PLiaHhY2iBX9ihLasvE8BKnS2Xg8AhY6iV)
 
@@ -229,6 +223,4 @@ Modified: 2021-11-19 18:01:52 +0500
 AI Conferences
 
 [Artificial Intelligence Search Methods For Problem Solving](https://www.youtube.com/playlist?list=PLyqSpQzTE6M8N9lDWllq6NqB5dmpy6gtc)
-
-
 

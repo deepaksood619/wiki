@@ -6,15 +6,13 @@ Modified: 2021-06-19 14:07:34 +0500
 
 ---
 
-**NPTEL - Big Data Computing**
+## NPTEL - Big Data Computing
 
-**Dr. Rajiv Mishra**
+## Dr. Rajiv Mishra
 
-**CSE - IIT, Patna**
+## CSE - IIT, Patna
 
-
-
-**Syllabus**
+## Syllabus
 -   Week 1
     -   Introduction to Big Data
     -   Big Data Enabling Technologies

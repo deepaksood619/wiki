@@ -6,7 +6,7 @@ Modified: 2019-12-22 16:48:01 +0500
 
 ---
 
-**Advanced Message Queuing Protocol (AMQP)**
+## Advanced Message Queuing Protocol (AMQP)
 -   open standard application layer protocol
 -   Features -
 
@@ -26,5 +26,5 @@ AMQP mandates the behavior of the messaging provider and client to the extent th
 Usage -
 -   Aadhaar Project - 1.2 billion identities
 -   Ocean Observatories Initiative - 8 terabytes of data per day
-**See also**
+## See also
 -   Message Oriented Architecture (MOM)

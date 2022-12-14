@@ -25,9 +25,7 @@ Apache Zookeeper is a distributed, open-source configuration, synchronization se
     -   Critical
 -   In very simple words, it is a central store of key-value using which distributed system can coordinate. Since it needs to be able to handle the load, Zookeeper itself runs on many machines.
 
-
-
-**Architecture**
+## Architecture
 
 The basic terminologies that you need to know before knowing the architecture are:
 -   Node: The systems installed on the cluster
@@ -35,20 +33,12 @@ The basic terminologies that you need to know before knowing the architecture ar
 -   Client Applications: The tools that interact with the distributed applications
 -   Server Applications: Allows the client applications to interact using a common interface
 
-
-
 The services in the cluster are replicated and stored on a set of servers (called an "ensemble"), each of which maintains an in-memory database containing the entire data tree of state as well as a transaction log and snapshots stored persistently. Multiple client applications can connect to a server, and each client maintains a TCP connection through which it sends requests and heartbeats and receives responses and watch events for monitoring.
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Apache_ZooKeeper>
 
-
-
 [https://www.quora.com/What-is-the-actual-role-of-Zookeeper-in-Kafka-What-benefits-will-I-miss-out-on-if-I-don%E2%80%99t-use-Zookeeper-and-Kafka-together#](https://www.quora.com/What-is-the-actual-role-of-Zookeeper-in-Kafka-What-benefits-will-I-miss-out-on-if-I-don%E2%80%99t-use-Zookeeper-and-Kafka-together)
-
-
 
 <https://zookeeper.apache.org/doc/r3.3.4/zookeeperInternals.html#ch_Introduction>

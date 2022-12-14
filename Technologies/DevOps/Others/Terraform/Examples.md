@@ -6,15 +6,13 @@ Modified: 2020-02-11 19:00:39 +0500
 
 ---
 
-**#Variables**
+## #Variables
 
 variable "region" {
 
 default = "us-east-1"
 
 }
-
-
 
 provider "aws" {
 
@@ -24,15 +22,11 @@ region = var.region
 
 }
 
-
-
 resource "aws_instance" "example" {
 
 ami = "ami-2757f631"
 
 instance_type = "t2.micro"
-
-
 
 provisioner "local-exec" {
 
@@ -42,8 +36,6 @@ command = "echo ${aws_instance.example.public_ip} > ip_address.txt"
 
 }
 
-
-
 resource "aws_eip" "ip" {
 
 vpc = true
@@ -51,8 +43,6 @@ vpc = true
 instance = aws_instance.example.id
 
 }
-
-
 
 
 
@@ -74,15 +64,11 @@ acl = "private"
 
 }
 
-
-
 # Change the aws_instance we declared earlier to now include "depends_on"
 
 resource "aws_instance" "example" {
 
 ami = "ami-2757f631" instance_type = "t2.micro"
-
-
 
 # Tells Terraform that this EC2 instance must be created only after the
 
@@ -92,9 +78,7 @@ depends_on = [aws_s3_bucket.example]
 
 }
 
-
-
-**# remote-exec provisioner example**
+## # remote-exec provisioner example
 
 resource "aws_key_pair" "example" {
 
@@ -104,15 +88,11 @@ public_key = file("~/.ssh/id_rsa.pub")
 
 }
 
-
-
 resource "aws_instance" "web" {
 
 key_name = aws_key_pair.example.key_name
 
 # ...
-
-
 
 connection {
 
@@ -125,8 +105,6 @@ private_key = file("~/.ssh/id_rsa")
 host = self.public_ip
 
 }
-
-
 
 provisioner "remote-exec" {
 
@@ -144,17 +122,13 @@ inline = [
 
 }
 
-
-
-**#Terraform consul module**
+## #Terraform consul module
 
 terraform {
 
 required_version = "0.11.11"
 
 }
-
-
 
 provider "aws" {
 
@@ -165,8 +139,6 @@ secret_key = "AWS SECRET KEY"
 region = "us-east-1"
 
 }
-
-
 
 module "consul" {
 

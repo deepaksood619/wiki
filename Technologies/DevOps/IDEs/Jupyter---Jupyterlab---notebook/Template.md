@@ -15,12 +15,8 @@ import sklearn
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
-
-
 %load_ext autoreload
 %autoreload 2
-
-
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -28,15 +24,11 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 %config InlineBackend.figure_format = 'retina'
 
-
-
 import seaborn as sns
 
 sns.set_context("poster")
 sns.set(rc={'figure.figsize': (16, 9.)})
 sns.set_style("whitegrid")
-
-
 
 import pandas as pd
 pd.set_option("display.max_rows", 120)
@@ -44,13 +36,9 @@ pd.set_option("display.max_columns", 120)
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
-
-
-**# file browse**
+## # file browse
 
 from ipywidgets import FileUpload
-
-
 
 def on_upload_change(change):
 
@@ -81,8 +69,6 @@ print('===========================================================')
 up.value.clear()
 
 up._counter = 0
-
-
 
 upload_btn = FileUpload()
 

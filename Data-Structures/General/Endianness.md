@@ -6,13 +6,13 @@ Modified: 2019-12-26 01:24:21 +0500
 
 ---
 
-**endian**
+## endian
 
 *adjective*
 
 denoting or relating to a system of ordering bytes in a word, or bits in a byte, in which the most significant (or least significant) item is put first.
 "big-endian vs. little-endian representation of data"
-**Endianness**
+## Endianness
 -   **Little Endian Format - LSB is stored first**
 
 In little endian machines, last byte of binary representation of the multibyte data-type is stored first.-   **Big Endian Format - MSB is stored first**
@@ -21,11 +21,11 @@ In big endian machines, first byte of binary representation of the multibyte dat
 -   **Bi-endianness**
 
 The word*bi-endian*, when said of hardware, denotes the capability of the machine to compute or pass data in either endian format.
-**Example**
+## Example
 
 Suppose integer is stored as 4 bytes (For those who are using DOS based compilers such as C++ 3.0 , integer is 2 bytes) then a variable x with value 0x01234567 will be stored as following.
 
-![EO | , 0 : 0 0 to 、 、 0 001 ' 0 €0t 丶 0 : 0 【 0 【 01 0 ](media/Endianness-image1.gif)
+![image](media/Endianness-image1.gif)
 
 <https://www.geeksforgeeks.org/little-and-big-endian-mystery>
 Historically, various methods of endianness have been used in computing, including exotic forms such as middle-endianness. Today, however, big-endianness is the dominant ordering in networking protocols ([IP](https://en.wikipedia.org/wiki/Internet_Protocol),[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol),[UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol)). Conversely, little-endianness is the dominant ordering for processor architectures ([x86](https://en.wikipedia.org/wiki/X86), most[ARM](https://en.wikipedia.org/wiki/ARM_architecture)implementations) and their associated[memory](https://en.wikipedia.org/wiki/Computer_memory).[File formats](https://en.wikipedia.org/wiki/File_format)can use either ordering; some formats use a mixture of both.

@@ -8,20 +8,20 @@ Modified: 2020-02-10 22:38:31 +0500
 
 If there are 3 languages that need to be typed and you know a 4th language than you will not write the same thing 3 times everytime you have to write something, what we do it to create an adapter for the three languages that sit infront of 3 classes that will translate from 4th language to their specific language. All the translations will be handled by the adapter.
 But in this design pattern also we have to make 3 calls to the 3 adapters everytime. So to solve this we use facade design pattern. When using interfaces we follow facade design pattern. We will make one call to function and this function will call all other functions in the adapter.
-![Adapter pattern example](media/Structural---Adapter-image1.jpg)
+![image](media/Structural---Adapter-image1.jpg)
 
 So, as you can see in the picture, the purpose of the adapter is totake one interface and make it compatible with another. In programming, its purpose is the same - you'll want to use this pattern when you have some type/class and you want to make it compatible with another.
-**How to do the trick?**
+## How to do the trick?
 
 In Java, this is done bycreating an Adapter class, whichextends the type we target (our desired interface)andstores a reference to Adaptee (object that needs to be adapted).
-**Elements of the pattern**
+## Elements of the pattern
 -   Target - our desired type
 -   Adaptee - type that needs to be adapted
 -   Adapter - class that makes Adaptee compatible with Target
-**Relations between components**
+## Relations between components
 
 The client of our code (i.e. any place where our classes are used) use Adapters methods, which are compatible with Targets interface, butthe work underneath is delegated to Adaptee object.
-**Code example**
+## Code example
 
 If you have any difficulties understanding the purpose of this pattern, looking at some code should definitely help.
 First, let's declare the interface that we target (the one we want to adapt to)

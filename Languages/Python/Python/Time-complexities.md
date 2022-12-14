@@ -6,11 +6,9 @@ Modified: 2020-01-01 22:52:01 +0500
 
 ---
 
-**list**
+## list
 
 The Average Case assumes parameters generated uniformly at random.
-
-
 
 Internally, a list is represented as an array; the largest costs come from growing beyond the current allocation size (because everything must move), or from inserting or deleting somewhere near the beginning (because everything after that must move). If you need to add/remove at both ends, consider using a collections.deque instead.
 
@@ -35,9 +33,7 @@ Internally, a list is represented as an array; the largest costs come from growi
 | min(s), max(s)                                                           | O(n)         |                                                                        |
 | Get Length                                                               | O(1)         | O(1)                                                                    |
 
-
-
-**collections.deque**
+## collections.deque
 
 A deque (double-ended queue) is represented internally as a doubly linked list. (Well, a list of arrays rather than objects, for greater efficiency.) Both ends are accessible, but even looking at the middle is slow, and adding to or removing from the middle is slower still.
 
@@ -53,9 +49,7 @@ A deque (double-ended queue) is represented internally as a doubly linked list. 
 | rotate     | O(k)         | O(k)                 |
 | remove     | O(n)         | O(n)                 |
 
-
-
-**set**
+## set
 
 | Operation                         | Average case                                                                  | Worst Case                                     | notes                                          |
 |-------------------------|-------------|--------------------|--------------|
@@ -70,13 +64,9 @@ A deque (double-ended queue) is represented internally as a doubly linked list. 
 -   As seen in the[source code](http://svn.python.org/projects/python/trunk/Objects/setobject.c)the complexities for set difference s-t or s.difference(t) (set_difference()) and in-place set difference s.difference_update(t) (set_difference_update_internal()) are different! The first one is O(len(s)) (for every element in s add it to the new set, if not in t). The second one is O(len(t)) (for every element in t remove it from s). So care must be taken as to which is preferred, depending on which one is the longest set and whether a new set is needed.
 -   To perform set operations like s-t, both s and t need to be sets. However you can do the method equivalents even if t is any iterable, for example s.difference(l), where l is a list.
 
-
-
-**dict**
+## dict
 
 The Average Case times listed for dict objects assume that the hash function for the objects is sufficiently robust to make collisions uncommon. The Average Case assumes the keys used in parameters are selected uniformly at random from the set of all keys.
-
-
 
 Note that there is a fast-path for dicts that (in practice) only deal with str keys; this doesn't affect the algorithmic complexity, but it can significantly affect the constant factors: how quickly a typical program finishes.
 
@@ -87,7 +77,5 @@ Note that there is a fast-path for dicts that (in practice) only deal with str k
 | Set Item[1]  | O(1)         | O(n)                 |
 | Delete Item    | O(1)         | O(n)                 |
 | Iteration[2] | O(n)         | O(n)                 |
-
-
 
 <https://wiki.python.org/moin/TimeComplexity>

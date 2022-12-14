@@ -6,7 +6,7 @@ Modified: 2021-11-29 12:12:09 +0500
 
 ---
 
-**Performance**
+## Performance
 -   **Steps to build a hyper-light website**
 
     1.  **Identify** the most active page on your website
@@ -36,15 +36,11 @@ Modified: 2021-11-29 12:12:09 +0500
     -   JS and CSS compilation
     -   Custom web fonts
 
-
-
 [Hyper Lightweight Websites](https://www.youtube.com/watch?v=VUwyYhNO63I)
 
+## Tools
 
-
-**Tools**
-
-**Image Compression**
+## Image Compression
 
 <https://imgix.com
 

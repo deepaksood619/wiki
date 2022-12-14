@@ -12,9 +12,7 @@ Push - command + shift + k
 
 Commit - command + k
 
-
-
-**Multicursor**
+## Multicursor
 
 alt twice and hold + Up/Down arrow
 

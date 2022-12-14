@@ -6,7 +6,7 @@ Modified: 2020-06-20 15:13:11 +0500
 
 ---
 
-**Pod Priority and Preemtion**
+## Pod Priority and Preemtion
 
 [Pods](https://kubernetes.io/docs/user-guide/pods)can havepriority. Priority indicates the importance of a Pod relative to other Pods. If a Pod cannot be scheduled, the scheduler tries to preempt (evict) lower priority Pods to make scheduling of the pending Pod possible.
 
@@ -15,28 +15,18 @@ Modified: 2020-06-20 15:13:11 +0500
 -   Priority Classes
 -   NonPreemptingPriority
 
-
-
 <https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption
 
-
-
-**Secrets**
+## Secrets
 -   **Sealed Secrets**
 
 A Kubernetes controller and tool for one-way encrypted Secrets
 
+## Problem:"I can manage all my K8s config in git, except Secrets."
 
-
-**Problem:**"I can manage all my K8s config in git, except Secrets."
-
-**Solution:**Encrypt your Secret into a SealedSecret, whichissafe to store - even to a public repository. The SealedSecret can be decrypted only by the controller running in the target cluster and nobody else (not even the original author) is able to obtain the original Secret from the SealedSecret.
-
-
+## Solution:Encrypt your Secret into a SealedSecret, whichissafe to store - even to a public repository. The SealedSecret can be decrypted only by the controller running in the target cluster and nobody else (not even the original author) is able to obtain the original Secret from the SealedSecret.
 
 $ kubectl get secret -n kube-system -l sealedsecrets.bitnami.com/sealed-secrets-key -o yaml > master.key
-
-
 
 <https://github.com/bitnami-labs/sealed-secrets>
 
@@ -45,7 +35,5 @@ $ kubectl get secret -n kube-system -l sealedsecrets.bitnami.com/sealed-secrets-
 
 -   Helm Secrets
 -   Kamus
-
-
 
 <https://learnk8s.io/kubernetes-secrets-in-git>

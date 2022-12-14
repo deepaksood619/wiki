@@ -16,7 +16,7 @@ The most common authentication scheme is the "Basic" authentication scheme which
 -   HOBA(see[RFC 7486](https://tools.ietf.org/html/rfc7486)(draft),HTTPOrigin-BoundAuthentication, digital-signature-based),
 -   Mutual(see[draft-ietf-httpauth-mutual](https://tools.ietf.org/html/draft-ietf-httpauth-mutual-11)),
 -   AWS4-HMAC-SHA256(see[AWS docs](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html)).
-**Phases**
+## Phases
 
 Basic and Digest authentication use a four step process to authenticate users.
 
@@ -27,7 +27,7 @@ First HTTP client makes a request to the web server. Request method doesn't has 
 If client sends wrong credentials in the Authorization request then server again responds with 401 status code. The client is allowed to try again and again.
 
 This is the basic process followed by Basic and Digest models. Values assigned to the authentication headers is different for both models, this is why they differ.
-**Basic Authentication**
+## Basic Authentication
 
 HTTP Basic authentication is a method for the client to provide a username and a password when making a request.
 
@@ -43,15 +43,15 @@ curl --header "Authorization: Basic am9objpzZWNyZXQ=" my-website.com
 >>> requests.get**(**'https://api.github.com/user'**,** auth=HTTPBasicAuth**(**'user'**,** 'pass'**))**
 Response[200]
 
-**Cons**
+## Cons
 -   the username and password are sent with every request, potentially exposing them - even if sent via a secure connection
 -   connected to SSL/TLS, if a website uses weak encryption, or an attacker can break it, the usernames and passwords will be exposed immediately
 -   there is no way to log out the user using Basic auth
 -   expiration of credentials is not trivial - you have to ask the user to change password to do so
-**Digest**
+## Digest
 
 In a digest authentication flow, the client sends a request to a server, which sends back nonce and realm values for the client to authenticate. The client sends back a hashed username and password with the nonce and realm. The server then sends back the requested data.
-**References**
+## References
 
 <https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication>
 

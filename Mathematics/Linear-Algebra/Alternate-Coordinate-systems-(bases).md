@@ -15,6 +15,6 @@ Modified: 2018-05-24 15:19:46 +0500
 4.  [Orthonormal bases and the Gram-Schmidt process](https://www.khanacademy.org/math/linear-algebra/alternate-bases#orthonormal-basis)
 
 5.  [Eigen-everything](https://www.khanacademy.org/math/linear-algebra/alternate-bases#eigen-everything)
-**References**
+## References
 
 <https://www.khanacademy.org/math/linear-algebra/alternate-bases>

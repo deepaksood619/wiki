@@ -6,7 +6,7 @@ Modified: 2022-03-12 12:05:00 +0500
 
 ---
 
-**Introduction**
+## Introduction
 
 Is a relational database management system with an object-oriented approach, meaning that information can be represented as objects or classes in PostgreSQL schemas.
 PostgreSQL is an open-source SQL database that is not controlled by any corporation. It is typically used for web application development.
@@ -32,7 +32,7 @@ PostgreSQL shares many of the same advantages of MySQL. It is easy to use, inexp
     -   Index scan
 -   Up to 12 tables, postgres tries all possible join operations and prunning for optimization query
 -   Generic query optimizer
-**Functions in Postgres**
+## Functions in Postgres
 
 Postgres provides a powerful server-side function environment in multiple programming languages.
 Try to pre-process as much data as you can on the Postgres server with server-side functions. That way, you can cut down on the latency that comes from passing too much data back and forth between your application servers and your database. This approach is particularly useful for large aggregations and joins.
@@ -48,7 +48,7 @@ if a > b:
 return a
 return b
 $$ LANGUAGE plpythonu;
-**Advanced Features**
+## Advanced Features
 -   in-memory caching
 -   full text search
 
@@ -78,7 +78,7 @@ Thejsonandjsonbdata types accept*almost*identical sets of values as input. The m
 ## Containment**
 
 Containment tests whether one document (a set or an array) is contained within another.
-**Postgres Extensions**
+## Postgres Extensions
 
 1.  **PostGIS**
 
@@ -138,7 +138,7 @@ SELECT * FROM pg_available_extensions;
 | bloom              | bloom access method - signature file based index                     |
 | ltree              | data type for hierarchical tree-like structures                      |
 | pg_visibility      | examine the visibility map (VM) and page-level visibility info       |
-**Indexes in Postgres**
+## Indexes in Postgres
 -   [B-tree indexes](https://www.postgresql.org/docs/current/btree-intro.html)
 
 B-tree indexes are binary trees that are used to sort data efficiently. They're the default if you use theINDEXcommand. Most of the time, a B-tree index suffices. As you scale, inconsistencies can be a larger problem, so use the[amcheck](https://www.postgresql.org/docs/11/amcheck.html)extension periodically.
@@ -156,7 +156,7 @@ Use a GIN or GiST index for efficient indexes based on composite values like tex
 ## pgagroal**
 
 pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](https://www.postgresql.org/).
-**Features**
+## Features
 -   High performance
 -   Connection pool
 -   Limit connections for users and databases
@@ -174,30 +174,30 @@ pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](ht
 
 ## DATABASES_HOST**:**"zpg-postgresql-headless.zenalytix"**
 
-**DATABASES_PORT**:**"5432"**
+## DATABASES_PORT**:**"5432"
 
-**DATABASES_USER**:**"postgres"**
+## DATABASES_USER**:**"postgres"
 
-**DATABASES_PASSWORD**:**"xitanez123"**
+## DATABASES_PASSWORD**:**"xitanez123"
 
-**DATABASES_DBNAME**:**"zenalytix_db_new"**
+## DATABASES_DBNAME**:**"zenalytix_db_new"
 
-**PGBOUNCER_LISTEN_PORT**:**"5432"**
+## PGBOUNCER_LISTEN_PORT**:**"5432"
 
-**PGBOUNCER_MAX_CLIENT_CONN**:**"10000"**
+## PGBOUNCER_MAX_CLIENT_CONN**:**"10000"
 
-**PGBOUNCER_DEFAULT_POOL_SIZE**:**"100"**
+## PGBOUNCER_DEFAULT_POOL_SIZE**:**"100"
 
-**PGBOUNCER_MAX_DB_CONNECTIONS**:**"100"**
+## PGBOUNCER_MAX_DB_CONNECTIONS**:**"100"
 
-**PGBOUNCER_MAX_USER_CONNECTIONS**:**"100"**
+## PGBOUNCER_MAX_USER_CONNECTIONS**:**"100"
 
-**PGBOUNCER_MIN_POOL_SIZE**:**"10"**
+## PGBOUNCER_MIN_POOL_SIZE**:**"10"
 
-**PGBOUNCER_SERVER_IDLE_TIMEOUT**:**"600"**
+## PGBOUNCER_SERVER_IDLE_TIMEOUT**:**"600"
 
-**PGBOUNCER_CLIENT_IDLE_TIMEOUT**:**"600"**
-**Odyssey**
+## PGBOUNCER_CLIENT_IDLE_TIMEOUT**:**"600"
+## Odyssey
 
 Advanced multi-threaded PostgreSQL connection pooler and request router.
 <https://github.com/yandex/odyssey>
@@ -215,7 +215,7 @@ Advanced multi-threaded PostgreSQL connection pooler and request router.
 Trigram (Trigraph) concepts
 
 A trigram is a group of three consecutive characters taken from a string. We can measure the similarity of two strings by counting the number of trigrams they share. This simple idea turns out to be very effective for measuring the similarity of words in many natural languages.
-**Note:**pg_trgmignores non-word characters (non-alphanumerics) when extracting trigrams from a string. Each word is considered to have two spaces prefixed and one space suffixed when determining the set of trigrams contained in the string. For example, the set of trigrams in the string"cat"is"c","ca","cat", and"at". The set of trigrams in the string"foo|bar"is"f","fo","foo","oo","b","ba","bar", and"ar".
+## Note:pg_trgmignores non-word characters (non-alphanumerics) when extracting trigrams from a string. Each word is considered to have two spaces prefixed and one space suffixed when determining the set of trigrams contained in the string. For example, the set of trigrams in the string"cat"is"c","ca","cat", and"at". The set of trigrams in the string"foo|bar"is"f","fo","foo","oo","b","ba","bar", and"ar".
 <https://www.postgresql.org/docs/9.6/pgtrgm.html>
 
 ## Postgres database tunable parameters to optimize performance (configurations)**
@@ -262,27 +262,27 @@ The checkpoint_timeout parameter is used to set time between WAL checkpoints. Se
 
 ## Others**
 
-**pgbackrest**
+## pgbackrest
 
 pgBackRest is a reliable and simple to configure backup and restore solution for PostgreSQL, which provides a powerful solution for any PostgreSQL database; be it a small project, or scaled up to enterprise-level use cases.
 Many powerful features are included in pgBackRest, including parallel backup and restore, local or remote operation, full, incremental, and differential backup types, backup rotation, archive expiration, backup integrity, page checksums, backup resume, streaming compression and checksums, delta restore, and much more.
 <https://info.crunchydata.com/blog/how-to-get-started-with-pgbackrest-and-postgresql-12>
 [**https://www.kubegres.io/**](https://www.kubegres.io/)
-**Advanced**
+## Advanced
 
 Low level working - <https://erthalion.info/2019/12/06/postgresql-stay-curious>
 
 Locking Tuples internals - <https://github.com/postgres/postgres/blob/master/src/backend/access/heap/README.tuplock>
 
 Youtube - [Breaking PostgreSQL at Scale --- Christophe Pettus](https://www.youtube.com/watch?v=XUkTUMZRBE8)
-**Configuration**
+## Configuration
 
 <https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services>
 
 ## Tools**
 
-**pgadmin**
-**References**
+## pgadmin
+## References
 
 <http://www.postgresqltutorial.com>
 

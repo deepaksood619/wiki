@@ -6,51 +6,35 @@ Modified: 2021-11-07 20:55:59 +0500
 
 ---
 
-**.gitkeep**
+## .gitkeep
 
 create a file .gitkeep to commit that folder structure to git
 
+## Git LFS
 
-
-**Git LFS**
-
-**Git Large File System** handles all the files that are greater than 100MB (current limit for a file in git)
-
-
+## Git Large File System handles all the files that are greater than 100MB (current limit for a file in git)
 
 git lfs track "*.psd"
-
-
 
 Add .gitattributes files
 
 git add .gitattributes
 
-
-
 git add file.psd
 git commit -m "Add design file"
 git push origin master
 
-
-
 <https://git-lfs.github.com
 
-
-
-**Git Hooks**
+## Git Hooks
 
 Git hooks are scripts that Git executes before or after events such as:commit,push, andreceive. Git hooks are a built-in feature - no need to download anything. Git hooks are run locally.
-
-
 
 These hook scripts are only limited by a developer's imagination. Some example hook scripts include:
 -   pre-commit: Check the commit message for spelling errors.
 -   pre-receive: Enforce project coding standards.
 -   post-commit: Email/SMS team members of a new commit.
 -   post-receive: Push the code to production.
-
-
 
 Every Git repository has a.git/hooksfolder with a script for each hook you can bind to. You're free to change or update these scripts as necessary, and Git will execute them when those events occur.
 
@@ -73,30 +57,20 @@ Here's a full list of hooks you can attach scripts to:
 -   [post-rewrite](https://github.com/git/git/blob/master/Documentation/githooks.txt#L394)
 -   [pre-push](https://github.com/git/git/blob/master/Documentation/githooks.txt#L192)
 
-
-
-**Projects**
+## Projects
 -   precommit
-
-
 
 [**https://githooks.com/**](https://githooks.com/)
 
-
-
-**OpenGrok**
+## OpenGrok
 
 OpenGrok is a fast and usable source code search and cross reference engine. It helps you search, cross-reference and navigate your source tree. It understands various program file formats and history from many Source Code Management systems. In other words it lets you*grok*(profoundly understand) source code and is developed in the open, hence the name OpenGrok. It is written in Java.
 
-
-
 <https://oracle.github.io/opengrok
 
+## Multi-Repo
 
-
-**Multi-Repo**
-
-**MonoRepo**
+## MonoRepo
 
 A monorepo is a unified codebase containing code for multiple projects that share underlying dependencies, data models, functionality, tooling and processes
 
@@ -104,9 +78,7 @@ A monorepo is a unified codebase containing code for multiple projects that shar
 
 [Python Monorepos: What, Why and How](https://www.youtube.com/watch?v=1qurVKSYVqY)
 
-
-
-**Games**
+## Games
 
 <https://github.com/git-game/git-game>
 
@@ -116,43 +88,29 @@ A monorepo is a unified codebase containing code for multiple projects that shar
 
 <https://github.com/deepaksood619/GitGames>
 
-
-
-**.gitignore**
+## .gitignore
 
 <https://github.com/github/gitignore>
 
-
-
-**Git Repo**
+## Git Repo
 
 <https://code.google.com/archive/p/git-repo
 
-
-
-**Gerrit**
+## Gerrit
 
 Gerrit provides web based code review and repository management for the[Git](http://git-scm.com/)version control system.
 
-
-
-**Hub**
+## Hub
 
 A command-line tool that makes git easier to use with GitHub.
 
-
-
 <https://hub.github.com
 
-
-
-**Perforce**
+## Perforce
 
 <https://www.perforce.com
 
-
-
-**GUI Clients**
+## GUI Clients
 
 gitup
 
@@ -162,13 +120,9 @@ gitkraken
 
 sourcetree
 
-
-
-**Language Clients**
+## Language Clients
 -   Python - <https://github.com/gitpython-developers/GitPython>
 
-
-
-**Gitlab**
+## Gitlab
 
 <https://docs.gitlab.com/ee/user/markdown.html#wiki-specific-markdown>

@@ -8,21 +8,15 @@ Modified: 2019-07-14 22:29:56 +0500
 
 Nullius in verba - in no one words
 
-
-
-**Natural philosophers**
+## Natural philosophers
 -   Schools of Thoughts
 -   Rational debate
-
-
 
 What is stuff
 
 Where are we
 
-
-
-**Presocrates**
+## Presocrates
 
 1.  Thales
 
@@ -34,9 +28,7 @@ Where are we
 
 5.  Democritus (Atomism)
 
-
-
-**Socrates (studied politics and morality)**
+## Socrates (studied politics and morality)
 
 Socratic method- where you ask a lot of questions (negative hypothesis elimination)
 

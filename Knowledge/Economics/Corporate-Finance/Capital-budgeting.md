@@ -6,7 +6,7 @@ Modified: 2022-02-10 22:37:18 +0500
 
 ---
 
-**Definition of Capital Budgeting**
+## Definition of Capital Budgeting
 
 Capital budgeting is a process used by companies for evaluating and ranking potential[capital expenditures](https://www.accountingcoach.com/blog/what-are-capital-expenditures)or investments that are significant in amount. A few examples of capital expenditures include:
 -   Purchase of new equipment
@@ -14,9 +14,7 @@ Capital budgeting is a process used by companies for evaluating and ranking pote
 -   Purchasing delivery vehicles
 -   Constructing additions to buildings
 
-
-
-**Examples of Capital Budgeting Calculations**
+## Examples of Capital Budgeting Calculations
 
 Capital budgeting usually involves the following calculations for each project:
 -   Future accounting profit by period
@@ -25,25 +23,17 @@ Capital budgeting usually involves the following calculations for each project:
 -   The number of years it takes for a project's cash flow to pay back the initial cash investment
 -   An assessment of risk along with the urgency of the project
 
-
-
 <https://www.accountingcoach.com/blog/what-is-capital-budgeting>
 
+## Hurdle Rate / Minimum Acceptable Rate of Return (MARR)
 
-
-**Hurdle Rate / Minimum Acceptable Rate of Return (MARR)**
-
-**Definition of Hurdle Rate**
+## Definition of Hurdle Rate
 
 In[capital budgeting](https://www.accountingcoach.com/blog/what-is-capital-budgeting), the termhurdle rateis the minimum rate that a company wants to earn when investing in a project. Therefore, the hurdle rate is also referred to as the company'srequired rate of returnortarget rate. For a company to further consider a project, its[internal rate of return](https://www.accountingcoach.com/blog/internal-rate-of-return)must equal or exceed the hurdle rate.
 
-
-
 The hurdle rate is also used to discount a project's future cash flows to its[net present value](https://www.accountingcoach.com/blog/npv-net-present-value).
 
-
-
-**Example of Hurdle Rate**
+## Example of Hurdle Rate
 
 The absolute minimum hurdle rate should be the company's[cost of capital](https://www.accountingcoach.com/blog/what-is-the-cost-of-capital)(a blend of the cost of debt and the cost of equity). However, the hurdle rate is usually larger than the cost of capital when the company has many investment opportunities and for projects that have a higher level of risk.
 
@@ -52,8 +42,6 @@ The absolute minimum hurdle rate should be the company's[cost of capital](https:
 -   Riskier projects generally have a higher hurdle rate, while those with lower rates come with lower risk.
 -   Investors use a hurdle rate in a discounted cash flow analysis to arrive at the net present value of an investment to deem its worth.
 -   Companies often use their weighted average cost of capital (WACC) as the hurdle rate.
-
-
 
 <https://www.accountingcoach.com/blog/what-is-hurdle-rate>
 

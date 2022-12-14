@@ -126,6 +126,4 @@ Modified: 2019-09-06 16:50:35 +0500
 </tbody>
 </table>
 
-
-
 <http://www.angelfire.com/mi/genastorhotz/reality/computers/linux/bashmetachars.html>

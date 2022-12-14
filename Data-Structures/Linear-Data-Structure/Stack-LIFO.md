@@ -6,18 +6,18 @@ Modified: 2018-08-04 12:23:07 +0500
 
 ---
 
-**Points to remember -**
+## Points to remember -
 
 1.  Linear Data Structure
 Stack is an abstract data type with a bounded(predefined) capacity. It is a simple data structure that allows adding and removing elements in a particular order. Every time an element is added, it goes on the top of the stack, the only element that can be removed is the element that was at the top of the stack, just like a pile of objects.
-**Basic features of Stack**
+## Basic features of Stack
 
 1.  Stack is an ordered list of similar data type.
 
 2.  Stack is a**LIFO**structure. (Last in First out).3.  **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called**Top**.4.  Stack is said to be in**Overflow**state when it is completely full and is said to be in**Underflow**state if it is completely empty.
 
 5.  Loitering (don't keep the reference of the object when an element is popped)
-**Applications -**
+## Applications -
 
 1.  Parsing
 
@@ -36,7 +36,7 @@ Stack is an abstract data type with a bounded(predefined) capacity. It is a simp
 8.  Arithmetic expression evaluation
 
 Dijkstra's Two-stack algorithm (Use - Interpreter)
-**Operations -**
+## Operations -
 
 1.  Push (O(1))
 
@@ -51,19 +51,19 @@ Dijkstra's Two-stack algorithm (Use - Interpreter)
 6.  Overflow
 
 7.  Underflow
-**Implementation -**
+## Implementation -
 
 1.  Using Linked List
 
 2.  Using Array (resizing array)
-**Code**
+## Code
 
 1.  **Linked List Implementation**
-![public class Li nkedStack0fStrings pri vate Node fi rst = null; pri vate class Node String item; Node next; public boolean isEmpty() { return fi rst null; public void push (String item) Node oldfi rst = fi rst; first = new Node() ; fi rst. item = item; fi rst.next = 01 dfi rst; public String pop() String item = first. item; fi rst = first. next; return item; private inner class (access modifiers don't matter) ](media/Stack-LIFO-image1.png)
-**Loitering -**
+![image](media/Stack-LIFO-image1.png)
+## Loitering -
 
 Holding the reference to an object, when it is no longer needed.
-**Resizing Arrays**
+## Resizing Arrays
 
 1.  Repeated Doubling
 
@@ -117,7 +117,7 @@ return item;
 1.  If we need perfect constant time operation for every operation, then we should use stack, ex in an airplane or time critical situation
 
 2.  But for ex in a packet router we want very fast operations, so dealing with references will be slow in linked list so we must use array
-**Interview Questions**
+## Interview Questions
 -   Evaluate postfix expression using a stack
 -   Sort values in a stack
 -   Check balanced parentheses in an expression

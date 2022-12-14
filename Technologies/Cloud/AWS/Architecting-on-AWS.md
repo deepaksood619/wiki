@@ -18,83 +18,63 @@ Modified: 2022-01-08 23:05:17 +0500
 
 <https://www.wellarchitectedlabs.com
 
-
-
 shpun@amazon.com
 
 <https://www.linkedin.com/in/puneet-sharma-6b202910
 
-
-
-**Course description**
+## Course description
 
 This course focuses on the fundamentals of building IT infrastructure on the AWS platform. You will learn how to optimize the AWS Cloud by understanding AWS services and how they fit into cloud-based solutions. Best practices and design patterns are covered to help you architect optimal IT solutions on the AWS Cloud. Build and explore a variety of infrastructures through guided discussions and hands-on activity.
-
-
 
 | Level        | Delivery method                                             | Duration |
 |--------------|-------------------------------------------------|----------|
 | Intermediate | Instructor-led training, hands-on labs, and group exercises | 3 days   |
 
+## Course objectives
 
-
-**Course objectives**
-
-**This course is designed to teach you how to**
+## This course is designed to teach you how to
 -   Make architectural decisions based on AWS architectural principles and best practices
 -   Leverage AWS services to make your infrastructure scalable, reliable, and highly available
 -   Leverage AWS Managed Services to enable greater flexibility and resiliency in an infrastructure
 -   Make an infrastructure based on AWS more efficient to increase performance and reduce costs
 -   Use the **Well-Architected Framework** to improve architectures with AWS solutions
 
-
-
-**Intended audience**
+## Intended audience
 
 This course is intended for:
 -   Solutions Architects
 -   Solution Design Engineers
 -   Anyone who needs to understand the scope of cloud architectures
 
-
-
-**Prerequisites**
+## Prerequisites
 
 We recommend that attendees of this course have:
 -   Taken theAWS Cloud Practitioner Essentialsclassroom or digital training
 -   Working knowledge of distributed systems and multi-tier architectures
 -   Familiarity with general networking and cloud computing concepts
 
+## Course outline
 
+## Day One
 
-**Course outline**
-
-**Day One**
-
-**Module 1: Introduction**
+## Module 1: Introduction
 -   The Well-Architected Framework
 -   AWS Global Infrastructure
 
-
-
-**Module 2: The simplest architectures**
+## Module 2: The simplest architectures
 -   Amazon Simple Storage Service (Amazon S3)
 -   Amazon S3 Glacier
 -   Choosing AWS Regions for your architectures
 -   Hands-on lab: Hosting a Static Website
 
-
-
-**Module 3: Adding a compute layer**
+## Module 3: Adding a compute layer
 -   Amazon Elastic Compute Cloud (Amazon EC2)
 -   Amazon Machine Images (AMIs)
 -   Amazon Elastic Block Storage (Amazon EBS)
 -   Amazon Elastic File System (Amazon EFS)
 -   Amazon FSx
 
-
-
-**Module 4: Adding a database layer**
+## Module 4: Adding a database layer
 -   Database layer considerations
 -   Amazon Relational Database Service (Amazon RDS)
 -   Amazon DynamoDB
@@ -103,18 +83,14 @@ We recommend that attendees of this course have:
 <https://aws.amazon.com/premiumsupport/knowledge-center/transformations-aws-dms
 -   Hands-on lab: Deploying a Web Application on AWS
 
-
-
-**Module 5: Networking in AWS -- Part 1**
+## Module 5: Networking in AWS -- Part 1
 -   Amazon Virtual Private Cloud (Amazon VPC)
 -   Network security in the cloud
 -   Hands-on lab: Creating a VPC
 
+## Day Two
 
-
-**Day Two**
-
-**Module 6: Networking in AWS -- Part 2**
+## Module 6: Networking in AWS -- Part 2
 -   AWS VPN connections
 -   AWS Direct Connect (DX)
 -   VPC peering
@@ -122,26 +98,20 @@ We recommend that attendees of this course have:
 -   Load balancing on AWS
 -   Amazon Route 53
 
-
-
-**Module 7: AWS Identity and Access Management (IAM)**
+## Module 7: AWS Identity and Access Management (IAM)
 -   Account users and AWS IAM
 -   Federating users
 -   Amazon Cognito
 -   AWS Organizations
 
-
-
-**Module 8: Elasticity, high availability, and monitoring**
+## Module 8: Elasticity, high availability, and monitoring
 -   Amazon CloudWatch
 -   AWS CloudTrail
 -   Amazon EC2 Auto Scaling
 -   Scaling your databases
 -   Hands-on lab: Creating a highly available environment
 
-
-
-**Module 9: Automation**
+## Module 9: Automation
 -   AWS CloudFormation
 -   **AWS Systems Manager**
 
@@ -152,25 +122,19 @@ Gain operational insights and take action on AWS resources
 -   AWS Elastic Beanstalk
 -   Hands-on lab: Automating infrastructure deployment with AWS CloudFormation
 
+## Day Three
 
-
-**Day Three**
-
-**Module 10: Caching**
+## Module 10: Caching
 -   Caching on AWS with Amazon CloudFront
 -   Session management
 -   Amazon DynamoDB Accelerator (DAX)
 -   Amazon ElastiCache
 
-
-
-**Module 11: Building decoupled architectures**
+## Module 11: Building decoupled architectures
 -   Amazon Simple Queue Service (Amazon SQS)
 -   Amazon Simple Notification Service (Amazon SNS)
 
-
-
-**Module 12: Microservices and serverless architectures**
+## Module 12: Microservices and serverless architectures
 -   Amazon Elastic Container Service (Amazon ECS)
 -   AWS Fargate
 -   AWS Lambda
@@ -178,23 +142,17 @@ Gain operational insights and take action on AWS resources
 -   AWS Step Functions
 -   Hands-on lab: Implementing a serverless architecture with AWS Managed Services
 
-
-
-**Module 13: RTO/RPO and backup recovery setup**
+## Module 13: RTO/RPO and backup recovery setup
 -   Disaster planning
 -   Data replication
 -   Recovery strategies
 -   AWS Storage Gateway
 
-
-
-**Module 14: Optimization and review**
+## Module 14: Optimization and review
 -   Best practices for optimization
 -   Review questions
 
-
-
-**Questions**
+## Questions
 -   How to encrypt and work with PII data - Athena and S3
 -   **Data Governance? Moving data from RDS to S3 to S3 Glacier**
 -   Aurora Parallel Queries
@@ -202,9 +160,7 @@ Gain operational insights and take action on AWS resources
     -   Performance
 -   Modeling in DynamoDB
 
-
-
-**Well-Architected Framework (Five Pillars)**
+## Well-Architected Framework (Five Pillars)
 
 1.  Security
 
@@ -250,9 +206,7 @@ Gain operational insights and take action on AWS resources
 
     b.  To continually impove supporting process and procedures
 
-
-
-**Edge Location - Point of Presence**
+## Edge Location - Point of Presence
 
 1.  Cloudfront - CDN (Content Delivery Network)
 
@@ -266,14 +220,8 @@ Gain operational insights and take action on AWS resources
 
 5.  Lambda@Edge
 
-
-
 ![Large Scale Architectural Diagram Region ypc aws Amazon Amazon CloudFront A azon Ro te 53 Static assets Internet Gateway NAT Gateway Public Subnet Application Load Balancer Public Subnet NAT Gateway Amazon EC2 Instance App Subnet Auto Scaling App Subnet Amazon EC2 Instance Amazon RDS EFS Mount Memcached Data Subnet Data Subnet Memcached Standby ---l Amazon Target Amazon training and certification o Amazon EFS o EFS Mount RDS Master Target ](../../media/Cloud-AWS-Architecting-on-AWS-image1.png)
 
-
-
 ![Architecture](../../media/Cloud-AWS-Architecting-on-AWS-image2.png)
-
-
 
 

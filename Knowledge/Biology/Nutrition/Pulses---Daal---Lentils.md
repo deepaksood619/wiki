@@ -14,8 +14,6 @@ Masoor is probably the most commonly used daal ([lentil](https://www.thespruceea
 
 It does not need soaking prior to cooking as it is a "soft" daal and cooks quickly.
 
-
-
 2.  Saabut masoor daal
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image2.png)
@@ -23,8 +21,6 @@ It does not need soaking prior to cooking as it is a "soft" daal and cooks quick
 Saabutmasoor, means whole and the brownish skin is left on in this type of masoor daal.
 
 It can be used in all the same dishes as masoor daal (split and skin removed). Saabut masoor takes slightly longer to cook than masoor daal.
-
-
 
 3.  Saabut moong daal
 
@@ -34,17 +30,13 @@ Saabut moong daal,is whole moong or moong with the green skin left on. It cooks 
 
 Mix a handful of sprouted Saabut moong daal in a bowl of yogurt, season with salt and somechaat masala(available at most Indian grocery stores) and you'll have a delicious and filling snack.
 
-
-
 4.  Moong daal
 
-![1누논E'1사寸들`,v,• 들 ](media/Nutrition_Pulses---Daal---Lentils-image4.png)
+![image](media/Nutrition_Pulses---Daal---Lentils-image4.png)
 
 Moongdaal, has had its olive green skin removed and is split. It is a golden yellow color and turns slightly lighter when cooked.
 
 Moong does not need soaking prior to being cooked as it is a "soft" daal.
-
-
 
 5.  Toor/Tuvar or Arhar daal
 
@@ -54,11 +46,9 @@ Toor/tuvarorarhardaal, is most commonly sold and cooked in its split, skinless f
 
 Toor daal looks a lot likechana daalbut has smaller, more yellow-colored grains. It is especially popular in thewest and south India. It cooks quickly and does not require soaking in advance.
 
-
-
 6.  Sabut urad
 
-![Image result for sabut urad dal](media/Nutrition_Pulses---Daal---Lentils-image6.jpg)
+![image](media/Nutrition_Pulses---Daal---Lentils-image6.jpg)
 
 7.  Split urad with skin
 
@@ -68,8 +58,6 @@ Urad daal, can be bought whole with its skin on, split with its skin on or split
 
 This[black lentil](https://www.thespruceeats.com/what-are-lentils-1328630)has a creamy white interior when split. Whole and with its skin on, it is known assaabuturadand has a stronger, more distinct flavor than the split, skinless variety. It is a "harder" lentil and takes longer to cook. A little soaking is best prior to ​cooking this daal.
 
-
-
 8.  Urad daal with skin removed
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image8.png)
@@ -77,8 +65,6 @@ This[black lentil](https://www.thespruceeats.com/what-are-lentils-1328630)has a 
 Urad daal, has had its black skin removed. It is creamy white in color and has a milder flavor than whole urad daal.
 
 Skinless Urad does not need soaking before it is cooked. It is often ground into flour or a paste and used as part of batters.
-
-
 
 9.  Kabuli chana
 
@@ -88,8 +74,6 @@ Also known aschole, garbanzo beans, Egyptian peas and white chickpeas, kabulicha
 
 Kabuli chana is especially popular in North India. It must be soaked for several hours before cooking as it is a "very hard" bean. You can also use canned kabuli chana which is easily available in supermarkets these days but nothing beats the taste of kabuli chana freshly soaked and boiled just before cooking.
 
-
-
 10. Lobia or chawli
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image10.png)
@@ -97,8 +81,6 @@ Kabuli chana is especially popular in North India. It must be soaked for several
 There is no need to soaklobiaorchawli, because it is a relatively "soft" bean that cooks easily. Watch carefully when cooking as it should not get mashed.
 
 Lobia can be used almost similarly to kabulichana (white chickpeas) even though it tastes different.
-
-
 
 11. Rajma
 
@@ -108,64 +90,50 @@ Slightly larger than the Mexican red bean,rajma or red kidney beans are very pop
 
 Rajma must be soaked for several hours before cooking to soften it. As with all beans (like kabuli chana, lobia, etc.) that are high in fiber and full of nutrition, rajma has gas-producing enzymes. The trick to beating this is to change the soaking water every few hours (before cooking) and cook them until soft.
 
-
-
 12. Chickpeas - Kala chana / Black chickpeas / / Bengal gram / Desi chana
 
-![Image result for chana](media/Nutrition_Pulses---Daal---Lentils-image12.jpg)
+![image](media/Nutrition_Pulses---Daal---Lentils-image12.jpg)
 
-**Types**
+## Types
 -   **Black chickpeas (Bengal gram) / garbanzo beans:**These chickpeas come from India where they are sun-dried until they turn a deep rust color. Like regular chickpeas, they have a deep, earthy aroma and a nutty flavor. Black chickpeas can be found in Indian markets and specialty food shops.
 
-![Image result for kala chana](media/Nutrition_Pulses---Daal---Lentils-image13.png)
+![image](media/Nutrition_Pulses---Daal---Lentils-image13.png)
 
 
 -   **Chana dal:**These small split desi chickpeas are sold in Indian stores and look very much like yellow split peas. Chana dal have a sweet, nutty taste. In India, chana dal are used to make chickpea flour, while in the United States, the larger kabuli chick-peas are used for flour. Chana dal can be found in Indian stores and some specialty food shops.
 
-
-
 Chana daal, looks like a larger version of toor/tuvar or arhar daal. It is made by splitting a smaller cousin of the chickpea.
 
 This[lentil](https://www.thespruceeats.com/history-of-lentils-1807624)has a nutty flavor and is used in dry curries or with vegetables or meats and also as a flour (Bengal gram flour). It cooks fairly quickly and does not need soaking prior to being cooked.
-
-
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image14.png)
 
 
 -   **Chickpea shoots:** These feathery shoots of the chickpea plant are excellent in salads. Like fresh green chickpeas, they can occasionally be found in local farmers' markets.
 
-![Image result for chickpea shoots](media/Nutrition_Pulses---Daal---Lentils-image15.png)
+![image](media/Nutrition_Pulses---Daal---Lentils-image15.png)
 
 
 -   **Chickpea flour:**Chickpea flour has a rich culinary tradition in Indian cuisine, where it is known as**besanorchana**and is used in pancakes, stews, and curries. It is popular as well in Italian cuisine where**farina di ceci(chickpea flour)** is used to make pasta and a polenta-like dish. Chickpeas are also used in some blended flours, such as**garfava flour**,a combination of chickpeas and fava beans, and**dhokra flour**,a combination of rice, lentils, and chickpeas.
 -   **Green chickpeas:**Fresh and sweet, like green peas, these are young, tender, fresh chickpeas. They are predominantly found in local farmers' markets.
 
-![Image result for green chickpeas](media/Nutrition_Pulses---Daal---Lentils-image16.jpg)
+![image](media/Nutrition_Pulses---Daal---Lentils-image16.jpg)
 
-![Image result for green chickpeas](media/Nutrition_Pulses---Daal---Lentils-image17.jpg)
+![image](media/Nutrition_Pulses---Daal---Lentils-image17.jpg)
 
-
-
-**Health Benefits**
+## Health Benefits
 
 Just 1 cup of cooked daal can give you as much as 62 percent of your daily dietary fiber requirement. Daalsalso have high levels of important minerals like manganese, phosphorous, potassium, iron and copper. They are high in folates and the B-vitamins like Thiamin.
 
-
-
 13. Peanuts / Moong falli / groundnuts / earth nuts / goobers / not nut, legume family
-
-
 
 <https://www.thespruceeats.com/a-photo-gallery-of-indian-daals-and-beans-4121903>
 
 <https://myheartbeets.com/different-types-of-indian-dals-legumes-lentils-beans-pulses
 
+## Sproutes / Seeds
 
-
-**Sproutes / Seeds**
-
-**Sprouted grains**
+## Sprouted grains
 
 1.  Radish
 
@@ -183,85 +151,51 @@ Just 1 cup of cooked daal can give you as much as 62 percent of your daily dieta
 
 8.  **mung / Green gram / Sabut moong**
 
-
-
-![Individual piles of sprouts labeled with the type of seed - radish, mustard, alfalfa, clover, lentil, pea, wheat, mung bean](media/Nutrition_Pulses---Daal---Lentils-image18.jpg)
-
+![image](media/Nutrition_Pulses---Daal---Lentils-image18.jpg)
 
 
 
-
-![Chart laying out how to sprout various types of seeds, including the amount of seed needed, and the yield, soak time, and when to harvest](media/Nutrition_Pulses---Daal---Lentils-image19.jpg)
-
-
+![image](media/Nutrition_Pulses---Daal---Lentils-image19.jpg)
 
 <https://wholefully.com/sprouting-101
 
-
-
-**Grains**
+## Grains
 
 1.  **Semolina / Sooji**
 
 Semolinais the coarse, purified[wheat middlings](https://en.wikipedia.org/wiki/Wheat_middlings)of[durum wheat](https://en.wikipedia.org/wiki/Durum)mainly used in making [upma](https://en.wikipedia.org/wiki/Upma), [pasta](https://en.wikipedia.org/wiki/Pasta), and [couscous](https://en.wikipedia.org/wiki/Couscous). The wordsemolinacan also refer to sweet dessert made from semolina and milk.The term semolina is also used to designate coarse middlings from other varieties of wheat, and from other grains, such as[rice](https://en.wikipedia.org/wiki/Rice)and[maize](https://en.wikipedia.org/wiki/Maize).
 
-
-
 ![](media/Nutrition_Pulses---Daal---Lentils-image20.jpg)
 
-
-
 <https://en.wikipedia.org/wiki/Semolina>
-
-
 
 2.  **Durum Wheat**
 
 Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), also calledpasta wheatormacaroni wheat(Triticum durum or Triticum turgidum subsp.duru),is a[tetraploid](https://en.wikipedia.org/wiki/Polyploid)species of[wheat](https://en.wikipedia.org/wiki/Wheat).It is the second most cultivated species of wheat after[common wheat](https://en.wikipedia.org/wiki/Common_wheat), although it represents only 5% to 8% of global wheat production.It was developed by[artificial selection](https://en.wikipedia.org/wiki/Artificial_selection)of the domesticated[emmer](https://en.wikipedia.org/wiki/Emmer)wheat strains formerly grown in Central Europe and the[Near East](https://en.wikipedia.org/wiki/Near_East)around 7000 BC, which developed a naked,[free-threshing](https://en.wikipedia.org/wiki/Wheat#Hulled_versus_free-threshing_wheat)form.Like emmer, durum wheat is[awned](https://en.wikipedia.org/wiki/Awn_(botany))(with bristles). It is the predominant wheat that grows in the Middle East.
 
-
-
 Durumin[Latin](https://en.wikipedia.org/wiki/Latin)means "hard", and the species is the hardest of all wheats. This refers to the resistance of the grain to milling, in particular of the[starchy](https://en.wikipedia.org/wiki/Starch)[endosperm](https://en.wikipedia.org/wiki/Endosperm), implying dough made from its flour is weak or "soft". This makes durum favorable for[semolina](https://en.wikipedia.org/wiki/Semolina)and[pasta](https://en.wikipedia.org/wiki/Pasta)and less practical for flour, which requires more work than with[hexaploid](https://en.wikipedia.org/wiki/Hexaploid)wheats like[common bread wheats](https://en.wikipedia.org/wiki/Common_wheat). Despite its high[protein](https://en.wikipedia.org/wiki/Protein)content, durum is not a strong wheat in the sense of giving strength to[dough](https://en.wikipedia.org/wiki/Dough)through the formation of a[gluten](https://en.wikipedia.org/wiki/Gluten)network. Durum contains 27% extractable wet gluten, about 3% higher than in common wheat (T. aestivumL.).
-
-
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image21.jpg)
 
-
-
 <https://en.wikipedia.org/wiki/Durum>
-
-
 
 3.  **Buckwheat / kuttu ka atta**
 
 Buckwheat(Fagopyrum esculentum), orcommon buckwheat,[[2]](https://en.wikipedia.org/wiki/Buckwheat#cite_note-GRIN-2)is a plant cultivated for its[grain-like](https://en.wikipedia.org/wiki/Pseudocereal)seeds and as a[cover crop](https://en.wikipedia.org/wiki/Cover_crop). A related species,[Fagopyrum tataricum](https://en.wikipedia.org/wiki/Fagopyrum_tataricum), is a domesticated food plant raised in Asia. Despite the name, buckwheat is not related to[wheat](https://en.wikipedia.org/wiki/Wheat), as it is not a[grass](https://en.wikipedia.org/wiki/Grasses). Instead, buckwheat is related to[sorrel](https://en.wikipedia.org/wiki/Sorrel),[knotweed](https://en.wikipedia.org/wiki/Polygonum), and[rhubarb](https://en.wikipedia.org/wiki/Rhubarb). Buckwheat is referred to as a[pseudocereal](https://en.wikipedia.org/wiki/Pseudocereal)because its seeds' culinary use is the same as cereals', owing to their composition of[complex carbohydrates](https://en.wikipedia.org/wiki/Complex_carbohydrates).
 
-
-
 ![](media/Nutrition_Pulses---Daal---Lentils-image22.jpg)
 
-
-
 <https://en.wikipedia.org/wiki/Buckwheat>
-
-
 
 4.  **Millet**
 
 Milletsare a group of highly variable small-seeded[grasses](https://en.wikipedia.org/wiki/Grasses), widely grown around the world as[cereal](https://en.wikipedia.org/wiki/Cereal)[crops](https://en.wikipedia.org/wiki/Crops)or grains for[fodder](https://en.wikipedia.org/wiki/Fodder)and human food.
 
-
-
 Millets are important crops in the[semiarid tropics](https://en.wikipedia.org/wiki/Semi-arid_climate)of Asia and Africa (especially in [India](https://en.wikipedia.org/wiki/India), [Mali](https://en.wikipedia.org/wiki/Mali), [Nigeria](https://en.wikipedia.org/wiki/Nigeria), and [Niger](https://en.wikipedia.org/wiki/Niger)), with 97% of millet production in[developing countries](https://en.wikipedia.org/wiki/Developing_country).The crop is favored due to its[productivity](https://en.wikipedia.org/wiki/Agricultural_productivity)and short growing season under dry, high-temperature conditions.
-
-
 
 Millets are[indigenous](https://en.wikipedia.org/wiki/Indigenous_(ecology))to many parts of the world.The most widely grown millet is[pearl millet](https://en.wikipedia.org/wiki/Pearl_millet), which is an important crop in India and parts of Africa.[[4]](https://en.wikipedia.org/wiki/Millet#cite_note-FAO-4)[Finger millet](https://en.wikipedia.org/wiki/Finger_millet),[proso millet](https://en.wikipedia.org/wiki/Proso_millet), and[foxtail millet](https://en.wikipedia.org/wiki/Foxtail_millet)are also important crop species.
 
 Millets may have been consumed by humans for about 7,000 years and potentially had "a pivotal role in the rise of multi-crop agriculture and settled farming societies".
-
-
 
 | Amaranth                        | Rajgira/ Ramdana             |
 |---------------------------------|------------------------------|
@@ -275,15 +209,9 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 | Proso millet (broomcorn millet) | Chena                        |
 | Sorghum                         | Jowar                        |
 
-
-
-![English Pearl Millet Foxtail Millet Rodo Millet Little Millet Barnyard Millet Sorghum Finger Millet Hindi Bajra Kakum, Rala Koden, Kodra Kutki, Shavan Jhangora, Sanwa Jowar Nachani, Mundua Mandika, Marwah Kannada Sajje Navane Harka Saame, Save 00 dalu Jola Ragi Tamil Kambu Thinai Varagu Kuthiravali Cholam Kelvaragu Telugu Sajalu Arikelu, Arika Sama, Samalu Oodalu Jota Malayalam Kambam Thina Koovaragu Chama Kavadapullu Cholam Panji Pullu Marathi Bajri Kang, Rala Kodra Sava, Halvi, vari Jowari, Jon dhala Nachni Punjabi Bajra Kangni Jowar Mandhuka, Mandhal Gujarati Gajro Kuri Jowari, Juar Nagli, Bavto Bengali Bajra Kaon Rodo Shyama Jowar Marwa Oriya Bajra Kanghu, Kangam, Kora Kodua Suan Mandia ](media/Nutrition_Pulses---Daal---Lentils-image23.jpg)
-
-
+![image](media/Nutrition_Pulses---Daal---Lentils-image23.jpg)
 
 ![P05 、 丶 ](media/Nutrition_Pulses---Daal---Lentils-image24.jpeg)
-
-
 
 <https://en.wikipedia.org/wiki/Millet>
 
@@ -291,9 +219,7 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 
 <https://pristineorganics.com/millet-ancient-grains-for-a-healthier-future
 
-
-
-**Other Grains (Gluten Free)**
+## Other Grains (Gluten Free)
 
 | Rice                 | Chawal                    |
 |----------------------|---------------------------|
@@ -308,27 +234,17 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 | Water chestnut four  | Singhare ka aata          |
 | Teff                 |                          |
 
-
-
 Corn is mainly used in North America, however in the UK and other parts of the world,maize is more commonlyused. ... For example, corn is most commonly used when referring to food items, such as popcorn, whereas maize is less commonly used to describe these foods, even though it comes from the same crop.
 
-
-
-**Cornflour and corn flour (two words) are different things.**
+## Cornflour and corn flour (two words) are different things.
 
 The later one you asked, is makai ka ata which we get from whole kernel. Often known as maize flour and can be used for making roti's and tortilla.
 
-
-
 Cornflour is starch which gets from endosperm portion of kernel and used as binding or thickening agent.
-
-
 
 <https://www.quora.com/Is-corn-flour-same-as-makke-maize-ka-ata>
 
-
-
-**Gluten Free Flours**
+## Gluten Free Flours
 
 1.  Almond flour
 
@@ -344,13 +260,9 @@ Cornflour is starch which gets from endosperm portion of kernel and used as bind
 
 7.  Tigernut flour
 
-
-
 [https://www.healthline.com/nutrition/gluten-free-flours](https://www.healthline.com/nutrition/gluten-free-flours#section15)
 
-
-
-**Gluten Containing Grains**
+## Gluten Containing Grains
 
 | All-purpose white flour | Maida                                                      |
 |-----------------------|-------------------------------------------------|
@@ -364,9 +276,7 @@ Cornflour is starch which gets from endosperm portion of kernel and used as bind
 | Wheat                   | Gehoon                                                     |
 | Whole Wheat Flour       | Gehoon aata                                                |
 
-
-
-**Cloth Fibers / Textiles**
+## Cloth Fibers / Textiles
 
 1.  Cotton
 
@@ -396,29 +306,19 @@ Microfiber - <https://en.wikipedia.org/wiki/Microfiber>
 
 12. Lyocell/Tencel
 
-
-
 [Pros & Cons of Common Fabrics | Fibres & Fabrics Part 1](https://www.youtube.com/watch?v=9QmTnHNb8ro)
 
 <https://www.youtube.com/watch?v=-B4tfduOQ7w>
 
-**Zoe Hong -** <https://www.youtube.com/channel/UCMQ_mPIBPi4IMpYEmuyOMqQ>
+## Zoe Hong - <https://www.youtube.com/channel/UCMQ_mPIBPi4IMpYEmuyOMqQ>
 
-
-
-**Pill**
+## Pill
 
 Apill, colloquially known as a b**obble, fuzzball, orlint ball**is a small ball of fibers that forms on a piece of[cloth](https://en.wikipedia.org/wiki/Cloth).Pillis also a verb for the formation of such balls.
 
-
-
 Pilling is a surface defect of textiles caused by wear, and is generally considered an undesirable trait.It happens when washing and wearing of fabrics causes loose fibers to begin to push out from the surface of the cloth, and, over time, abrasion causes the fibers to develop into small spherical bundles, anchored to the surface of the fabric by protruding fibers that haven't broken. The textile industry divides pilling into four stages: **fuzz formation, entanglement, growth, and wear-off.**
 
-
-
 Pilling normally happens on the parts of clothing that receive the most abrasion in day-to-day wear, such as the[collar](https://en.wikipedia.org/wiki/Collar_(clothing)),[cuffs](https://en.wikipedia.org/wiki/Cuff), and around the[thighs](https://en.wikipedia.org/wiki/Thighs)and[rear](https://en.wikipedia.org/wiki/Buttocks)on[trousers](https://en.wikipedia.org/wiki/Trousers).
-
-
 
 <https://en.wikipedia.org/wiki/Pill_(textile)>
 
@@ -426,29 +326,15 @@ Pilling normally happens on the parts of clothing that receive the most abrasion
 
 <https://en.wikipedia.org/wiki/Pile_(textile)>
 
+## Knit vs Woven Fabric
 
-
-**Knit vs Woven Fabric**
-
-**Construction**
+## Construction
 
 Woven fabrics are created on weaving looms. These looms can be 54 inches wide and above. The main difference betweenknit vs wovenfabrics is how they are constructed. Woven fabrics are created using several warps, or longitudinal yarns, and wefts, or latitudinal yarns. Knitting involves interloping or interlacing a single yarn or thread.
 
 <https://www.dutchlabelshop.com/en_us/blog/difference-knit-woven-fabric
 
 [Knitted Vs. Woven Fabrics - What's The Difference???](https://www.youtube.com/watch?v=Zg2aJpd_KJg)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

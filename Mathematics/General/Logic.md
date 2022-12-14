@@ -9,12 +9,12 @@ Modified: 2018-12-04 23:37:57 +0500
 # Conceptions of logic
 -   Logic as a way to evaluate reasoning
 -   Logic as a way of looking at language in general
-**Concpets of Logic**
+## Concpets of Logic
 -   Informal logic
 -   Formal logic
 -   Symbolic logic
 -   Mathematical logic
-**Types of Logic**
+## Types of Logic
 -   Syllogistic logic
 -   Propositional logic
 -   Predicate logic
@@ -44,12 +44,12 @@ A predicate is a term that says something about a subject.
 -   part of sentence frame
 -   comments on subject
 -   verb and all non-subject arguments
-![x sees y Jill sees the movie. Sjm ](media/Logic-image1.png)
+![image](media/Logic-image1.png)
 
 Predicate comes first
-![L L h English is a language. Jill saw the movie. The house is large. The house is red. predicate constants ](media/Logic-image2.png)
-![L •m L h English is a language. Jill saw the movie. The house is large. The house is red. individual constants ](media/Logic-image3.png)
-**Valency**
+![image](media/Logic-image2.png)
+![image](media/Logic-image3.png)
+## Valency
 
 This is the number of terms that predicate says something about.
 
@@ -58,8 +58,8 @@ Lx,Rx - 1 slots (x), Valency - 1
 Sxy - 2 slots (x, y), Valency - 2
 
 Gxyz - 3 slots (x, y, z), Valency - 3
-![1. Socrates is a gadfly. 2. George went on vacation. 3. The fuzzy dog took the bone from my hand. 4. Well, somebody said something to someone! 5. Those women are such good people. ](media/Logic-image4.png)
-![1. socrates isGadfly 2. george Vacationed -> 3. dog Took bone from-hand Vg Tdbh Sxyz 4. x said y to-z 5. women areGood -> ](media/Logic-image5.png)
+![image](media/Logic-image4.png)
+![image](media/Logic-image5.png)
 # Quantifiers & Bound Variables
 -   quantity: how many?
 -   examples from language include singular (1) & plural (1 or more)
@@ -67,61 +67,61 @@ Gxyz - 3 slots (x, y, z), Valency - 3
     -   all
     -   some (at least 1)
     -   none
-!["All" as quantifier - variable x x is a person - variable x with quantifier x (x)Px for any x, x is a person = for any x, x saw y for any x, for any y, x saw y (x)Sxy = (x)(y)Sxy ](media/Logic-image6.png)
-![Universal quantifier - the symbol V (all) for all x, x is a person = (Vx)Px Of thern are people." for all x, Jill saw x "Jill saw all of them." --- (Vx)Sjx ](media/Logic-image7.png)
-![Existential quantifier - the symbol 3 (at least one) for some x, x is a person = (ax)Px for some x, Jill saw x "Jill saw something" for all x, Jill saw x "Jill saw everything" (Vx)Sjx ](media/Logic-image8.png)
-![Negative - the symbol statements or (not) John saw the movie. My house is red. John didn't see the movie. My house isn't red. ](media/Logic-image9.png)
-![Negative - the symbol Sjm -Sjm predicates or -t (not) John saw the movie John didn't see the movie. My house isn't red -Sxy, -Sxy, etc ](media/Logic-image10.png)
-![At least one thing is a turtle. ( ax)Tx ax)Tx No one thing is a turtle. Everything is a turtle. (V x)Tx e V x)Tx Not every thing is a turtle. ](media/Logic-image11.png)
-!["some fish" "all fish" "no fish" "not all fish" Vx Fx 3x)Fx -Vx)Fx ](media/Logic-image12.png)
-![Scope of quantifiers - variables bound by a quantifier is free universal x is bound quantifier on x quantifiers scope of those quantifiers ](media/Logic-image13.png)
-![IJhy bind variables? - variable as blank space Sjx "John saw --- free variables may fail to represent ordinary language (ax)Sjx ' John saw something" - so use quantifiers on x, y, z in your sentences! Free variables belong in formulas. ](media/Logic-image14.png)
-![1 . All those things fell down. 2. Jim said nothing. 3. All of them are human. 4. Jim didn't watch TV. 5. Something moved something else. ](media/Logic-image15.png)
-![1. all x fell 2. Jim said no x 3. all x are human 4. Jim not watch TV 5. some x moved some y ( Vx)Fx ax)Sjx (Vx)Hx ---Wjt ( ay)Mxy ](media/Logic-image16.png)# Logical Operators/Connectives
+![image](media/Logic-image6.png)
+![image](media/Logic-image7.png)
+![image](media/Logic-image8.png)
+![image](media/Logic-image9.png)
+![image](media/Logic-image10.png)
+![image](media/Logic-image11.png)
+![image](media/Logic-image12.png)
+![image](media/Logic-image13.png)
+![image](media/Logic-image14.png)
+![image](media/Logic-image15.png)
+![image](media/Logic-image16.png)# Logical Operators/Connectives
 -   **Logical conjuction**
 -   join symbols with "and" (. & Λ)
 -   conjuction with statements p.q
 -   conjunction with variables x.y
-![Logical conjunction - conjunction with predicates Bob is a good person. Bob is human AND Bob is good some good person. for some x, x is human AND x is good (ax)Hx • Gx ](media/Logic-image17.png)-   **Logical disjunction**
-![Logical disjunction Everything is vanilla or chocolate. V Cx) - V is inclusive "or" vanilla OR chocolate = vanilla, choc, vanilla & choc o is exclusive "or" vanilla XOR chocolate = either vanilla or chocolate ](media/Logic-image18.png)
-![(Vx)(Hx • Sx) Everyone can swim. for all x, x is human and x swims V cx) Something is dirty or cluttered. for some x, x is dirty or x is cluttered Something is either not dirty or not cluttered. ](media/Logic-image19.png)
-![Negating junctions not chocolate or vanilla not (chocolate and vanilla) not chocolate and vanilla not (chocolate or vanilla) ](media/Logic-image20.png)
-![Translation 1. every good dog 2. Bill saw the movie or went running. 3. not friends and enemies 4. either something ugly or something beautiful ](media/Logic-image21.png)
-**Logical Equivalence ( = )**
-**Conditional**
+![image](media/Logic-image17.png)-   **Logical disjunction**
+![image](media/Logic-image18.png)
+![image](media/Logic-image19.png)
+![image](media/Logic-image20.png)
+![image](media/Logic-image21.png)
+## Logical Equivalence ( = )
+## Conditional
 
-![Conditional - il..then... symbol (---+ or D) --- used even in basic sentences "English is a language." for al/ x, if x is English then x is a language (vx)Ex Lx ](media/Logic-image22.png)
-![Everybody swims. for all x, if x is human then x swims (V x) D SX ](media/Logic-image23.png)
-**Biconditional**
+![image](media/Logic-image22.png)
+![image](media/Logic-image23.png)
+## Biconditional
 
-![Biconditional ...if and only if... symbol (H or E) It's water if and only if it's refreshing. If it's water, it's refreshing. If it's refreshing, it's water. (vx) VVX Rx ](media/Logic-image24.png)
-![It's edible if and only if it's good food. x is edible x is good & x is food (vx) Ex (Gx • Fx) ](media/Logic-image25.png)
-![Drawing a conclusion --- therefore symbol ( • • • ) Everybody knows something. (Vx)(3y) Hx D Kxy John is somebody. Therefore John knows something. ' Kjy ](media/Logic-image26.png)
-![Other logics - logics built for a variety of uses - for example, modal logic it is necessary that p it is possible that p must versus can it isn't necessary that p it isn't possible that p ](media/Logic-image27.png)
-![If this sign means (BX • Ty) oxy just be careful. (BX • Ty) D oxy serious y reconsider your outing. (BX • Ty) D oxy turn around NOW! TRAILS ](media/Logic-image28.png)
-![Translation 1. Everyone goes somewhere on vacation. 2. Nobody goes everywhere on vacation. 3. It's only exciting if it's dangerous! 4. Jill ate everything that's not chocolate and not vanilla. 5. Steve taught everyone, but not everyone listened to him. ](media/Logic-image29.png)
-![Hints 1. all x, some y, x Human & y Place then Vacations x at y 2. not some x, all y, x Human & y Place then Vacations x y 3. all x, x Exciting if-only-if x Dangerous 4. all x, ---(Choc x or Vanilla x) then jill Ate x 5. all x, x human then steve Taught x and x not Listened to steve ](media/Logic-image30.png)
-![Answers 1. (нх • Ру) э vxy 2. (нх • Ру) э vxy 4. (Ух) -(Сх V Vx) э Ајх 5. (Ух) нх D (Tsx • -Lxs) ](media/Logic-image31.png)
+![image](media/Logic-image24.png)
+![image](media/Logic-image25.png)
+![image](media/Logic-image26.png)
+![image](media/Logic-image27.png)
+![image](media/Logic-image28.png)
+![image](media/Logic-image29.png)
+![image](media/Logic-image30.png)
+![image](media/Logic-image31.png)
 # The language of sets & probability
 
-![Brief tips for logical translation 1. break the sentence into parts 2. break the translation into stages a. into logical language b. then into symbolic logic c. watch for chances to use variables, quantifiers & operators ](media/Logic-image32.png)
-![Logical set - group of x that belong together - those things that belong together are members of that set SET ice cream MEMBERS eggs cream sugar eggs e ice cream ingredients ](media/Logic-image33.png)-   Intersection
+![image](media/Logic-image32.png)
+![image](media/Logic-image33.png)-   Intersection
 -   Union
-![Logical set - group of x that belong together mutton e ice cream ingredients ice cream ingreds n dairy products ice cream ingreds U dairy products ](media/Logic-image34.png)
-![Subsets - sets within sets ice cream ingreds C foods - proper subset if elements in A differ from elements in B ice cream ingreds c foods ](media/Logic-image35.png)
+![image](media/Logic-image34.png)
+![image](media/Logic-image35.png)
 ![](media/Logic-image36.png)
-**Probability**
+## Probability
 -   probability of A or B, P(A U B)
 -   probability of A and B, P(A **∩** B)
 -   probability of A given B, P(A | B)
 -   probability of B given A, P(B | A)
-**Other Logics**
+## Other Logics
 -   Inverse
 -   Converse
 -   Contrapositive
 
-![inverse B converse contrapositive ](media/Logic-image37.png)
-**Fallacy**
+![image](media/Logic-image37.png)
+## Fallacy
 
 A logical fallacy allows an argument to persuade even though the conclusion does not follow the premises.
 -   Ad Baculum - *I'll hit you unless* you accept that A is C. Therefore A is C
@@ -136,7 +136,7 @@ This only supports the conclusion *Experts agree.* Not that A is C.
 -   Ad Misericordiam - *It will be so tragic* if A isn't C. Therefore A is C
 
 This only supports the conclusion *It's tragic.* Not that A is C.
-**Logic**
+## Logic
 -   Arguments (premises, conclusion)
 -   Validity
 -   Truth values
@@ -151,7 +151,7 @@ This only supports the conclusion *It's tragic.* Not that A is C.
 -   pragmatic
 -   consensus
 -   deflationary
-**References**
+## References
 
 [Logic & Language - a short introduction to logic](https://www.youtube.com/playlist?list=PL48654681292CF456)
-![11이 ,01100001이1이0]100이1이이011이10( 01이이]이弓『 이10이100이 ,2 11000101100110 001이 11 10이이1 1011101이010] 1 기魯01]11100기『 0이이0] |10이C; .,l이00"! |이0〕]0L10]이00,,- 이01 10이000이1 111010111이111^ INTRO rroLOGIC 100] 0이 0 기 00 It)lO이 ! 0이00 : l〕010010 subJects & predicates iC)이010기 0010010 0이 1이 1001 40이 1 0이000- : ](media/Logic-image38.jpg)
+![image](media/Logic-image38.jpg)

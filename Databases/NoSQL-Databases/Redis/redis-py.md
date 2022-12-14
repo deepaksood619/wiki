@@ -6,11 +6,11 @@ Modified: 2022-09-23 16:02:11 +0500
 
 ---
 
-**# check pending list in redis**
+## # check pending list in redis
 
-**pip install ipython**
+## pip install ipython
 
-**ipython**
+## ipython
 ```
 from config.redis_setup import redis_client
 
@@ -94,7 +94,7 @@ Returns the number of seconds until the keynamewill expire
 type(name)
 
 Returns the type of keyname
-**Sentinel**
+## Sentinel
 
 redis-py can be used together with[Redis Sentinel](https://redis.io/topics/sentinel)to discover Redis nodes. You need to have at least one Sentinel daemon running in order to use redis-py's Sentinel support.
 <https://redis-py.readthedocs.io/en/latest>
@@ -114,7 +114,7 @@ for i in z:
 redis_client.xack('send:offer_sms', 'offer_sms_consumer', i['message_id'])
 ```
 
-**Redis-OM**
+## Redis-OM
 
 <https://github.com/redis/redis-om-python>
 

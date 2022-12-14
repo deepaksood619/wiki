@@ -29,36 +29,26 @@ __repr__ can be invoked on an object by calling repr(obj) or by using backticks 
 
 While printing lists as well as other container classes, the contained elements will be printed using __repr__.
 
-
-
 Solution -
 
 1.  Unicode Sandwich -
 
 Always use unicode in whole project and convert at the ends
 
-
-
 2.  Django
 
 Define __str__() method returning text and apply python_2_unicode_compatible() decorator.
 
-
-
-**Final Code Snippet to follow -**
+## Final Code Snippet to follow -
 
 Class Test(models.Model):
 
 name = models.CharField(max_length=100)
 
-
-
 def __str__(self):
 
 return '{}'.format(self.name)
 
-
-
-**References -**
+## References -
 
 <https://nedbatchelder.com/text/unipain.html>

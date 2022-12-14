@@ -6,7 +6,7 @@ Modified: 2018-04-15 12:58:12 +0500
 
 ---
 
-**Synonyms**
+## Synonyms
 
 1.  Greatest Common Divisor (GCD)
 
@@ -17,10 +17,10 @@ Modified: 2018-04-15 12:58:12 +0500
 4.  Highest Common Divisor (HCD)
 
 5.  Greatest Common Measure (GCM)
-**GCD -**
+## GCD -
 
 Greatest Common Divisor (GCD) of two integers A and B is thel**argest integer that divides both A and B.**
-**Euclidean Algorithm**
+## Euclidean Algorithm
 
 the**Euclidean algorithm**, or**Euclid's algorithm**, is an efficient method for computing thegreatest common divisor of two numbers.
 def gcd(x, y):
@@ -30,7 +30,7 @@ while (y):
 x, y = y, x%y
 
 return x
-**Applications-**
+## Applications-
 
 1.  Reducing fractions to their simplest form
 

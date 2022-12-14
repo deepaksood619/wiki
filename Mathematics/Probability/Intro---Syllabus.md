@@ -9,7 +9,7 @@ Modified: 2021-10-24 18:08:12 +0500
 # Introduction to Probability - The Science of Uncertainty - MITx - 6.041x
 
 An introduction to probabilistic models, including random processes and the basic elements of statistical inference.
-**Topics**
+## Topics
 -   The basic structure and elements of probabilistic models
 -   Random variables, their distributions, means, and variances
 -   Probabilistic calculations
@@ -17,15 +17,15 @@ An introduction to probabilistic models, including random processes and the basi
 -   Laws of large numbers and their applications
 -   Random processes (Poisson processes and Markov chains)
 -   multiple discrete or continuous random variables, expectations, and conditional distributions
-**Course Objectives**
+## Course Objectives
 -   Probabilistic concepts, and language
 -   Common models
 -   Mathematical tools
 -   Intuition
 -   Acquire working knowledge of the subject
-**Syllabus**
+## Syllabus
 
-**Unit 1: Probability models and axioms**
+## Unit 1: Probability models and axioms
 
 L1: Probability models and axioms
 -   **Sample Space**
@@ -49,12 +49,12 @@ Mathematical Background: Set, Sequences, Limits and Series, (un)countable sets
 -   Order of summation of series with multiple indices
 -   Countable and uncountable sets
 -   Set of real numbers is uncountable - **Cantor's diagonalization argument**
-**Solved problems**
+## Solved problems
 -   The probability of difference of two sets
 -   Genuises and chocolates
 -   Uniform probabilities on a square
 -   Bonferroni's inequality
-**Unit 2: Conditioning and independence**
+## Unit 2: Conditioning and independence
 
 L2: Conditioning and Bayes' rule
 -   **Conditional Probability**
@@ -77,7 +77,7 @@ L3: Independence
 -   Independence vs pairwise independence
 -   Reliability
 -   The King's sibling
-**Solved problems**
+## Solved problems
 -   Conditional probability example
 -   A chess tournament puzzle
 -   A coin tossing puzzle
@@ -85,7 +85,7 @@ L3: Independence
 -   A random walker
 -   Communication over a noisy channel
 -   Network reliability
-**Unit 3: Counting**
+## Unit 3: Counting
 
 L4: Counting
 -   The counting principle
@@ -97,12 +97,12 @@ L4: Counting
     -   Multinomial Coefficient
     -   Binomial Coefficient
 -   Each person gets an ace
-**Solved Problems**
+## Solved Problems
 -   The birthday paradox
 -   Rooks on a chessboard
 -   Hypergeometric probabilities
 -   Multinomial probabilities
-**Unit 4: Discrete random variables**
+## Unit 4: Discrete random variables
 
 L5: Probability mass functions and expectations
 -   Definition of random variables
@@ -130,7 +130,7 @@ L7: Conditioning on a random variable; Independence of r.v.'s
 -   Independence and expectations
 -   Independence, variances, and the binomial variance
 -   The hat problem
-**Unit 5: Continuous random variables**
+## Unit 5: Continuous random variables
 
 L8: Probability density functions
 -   Probability Density Functions (PDFs)
@@ -162,7 +162,7 @@ L10: Conditioning on a random variable; Independence; Bayes' rule
 -   [Mixed Bayes rule](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L10_8)
 -   [Detection of a binary signal](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L10_9)
 -   [Inference of the bias of a coin](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L10_10)
-**Unit 6: Further topics on random variables**
+## Unit 6: Further topics on random variables
 
 L11: Derived distributions
 -   [The PMF of a function of a discrete r.v.](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L11_1)
@@ -195,7 +195,7 @@ L13: Conditional expectation and variance revisited; Sum of a random number of r
 -   [Section means and variances](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L13_8)
 -   [Mean of the sum of a random number of random variables](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L13_9)
 -   [Variance of the sum of a random number of random variables](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L13_10)
-**Unit 7: Bayesian inference**
+## Unit 7: Bayesian inference
 
 L14: Introduction to Bayesian inference
 -   [Overview of some application domains](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@L14-1)
@@ -231,17 +231,17 @@ L17: Linear least mean squares (LLMS) estimation
 -   [LLMS with multiple observations](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@17-6)
 -   [Example with multiple observations](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@17-7)
 -   [Choices in representing the observations](https://courses.edx.org/courses/course-v1:MITx+6.041x_4+1T2017/jump_to/block-v1:MITx+6.041x_4+1T2017+type@vertical+block@17-8)
-**Unit 8: Limit theorems and classical statistics**
+## Unit 8: Limit theorems and classical statistics
 
 L18: Inequalities, convergence, and the Weak Law of Large Numbers
 L19: The Central Limit Theorem (CLT)
 L20: An introduction to classical statistics
-**Unit 9: Bernoulli and Poisson processes**
+## Unit 9: Bernoulli and Poisson processes
 
 L21: The Bernoulli process
 L22: The Poisson process
 L23: More on the Poisson process
-**Unit 10: Markov chains**
+## Unit 10: Markov chains
 
 L24: Finite-state Markov chains
 L25: Steady-state behavior of Markov chains

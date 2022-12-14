@@ -60,7 +60,7 @@ Modified: 2021-06-04 10:28:47 +0500
 ## Networking Protocols**
 -   **http2 -** multiple requests in one connection-   **BOSH - Bidirectional stream Over Synchronous HTTP,** it works over HTTP (User will request a connection to the server and than server will hold onto that request until some time, and return to him if any data needs to be transfered, than user will again initiate the request)
 -   **Long Polling over HTTP -** Client will request information to the server, and then server will respond with that information or tell the client that there is no new information. After that client will wait some time before again sending request.
-**STOMP (Simple/Streaming Text Oriented Message Protocol)**
+## STOMP (Simple/Streaming Text Oriented Message Protocol)
 
 Is the only one to be text-based, making it more analogous to HTTP.
 
@@ -68,7 +68,7 @@ Like AMQP, STOMP provides a message (or frame) header with properties, and a fra
 
 Do not have queues and topics - it uses a SEND semantic with a "destination" string.
 It uses a set of commands like CONNECT, SEND, or SUBSCRIBE to manage the conversation. STOMP clients, written in any language, can talk with any message broker supporting the protocol.
-**TLS/SSL**
+## TLS/SSL
 
 Transport Layer Security(TLS), and its now-deprecated predecessor,Secure Sockets Layer(SSL),are[cryptographic protocols](https://en.wikipedia.org/wiki/Cryptographic_protocol)designed to provide[communications security](https://en.wikipedia.org/wiki/Communications_security)over a[computer network](https://en.wikipedia.org/wiki/Computer_network).Several versions of the protocols find widespread use in applications such as[web browsing](https://en.wikipedia.org/wiki/Web_navigation),[email](https://en.wikipedia.org/wiki/Email),[instant messaging](https://en.wikipedia.org/wiki/Instant_messaging), and[voice over IP](https://en.wikipedia.org/wiki/Voice_over_IP)(VoIP).[Websites](https://en.wikipedia.org/wiki/Website)can use TLS to secure all communications between their[servers](https://en.wikipedia.org/wiki/Server_(computing))and[web browsers](https://en.wikipedia.org/wiki/Web_browser).
 The TLS protocol aims primarily to provide[privacy](https://en.wikipedia.org/wiki/Privacy)and[data integrity](https://en.wikipedia.org/wiki/Data_integrity)between two or more communicating computer applications.When secured by TLS, connections between a client (e.g., a web browser) and a server (e.g., wikipedia.org) should have one or more of the following properties:
@@ -82,10 +82,10 @@ TLS can be used on top of a transport-layer security protocol like[TCP](https://
 -   **Integrity**:verifies that the data has not been forged or tampered with.
 [HTTPS](https://www.cloudflare.com/learning/ssl/what-is-https/)is an implementation of TLS encryption on top of the[HTTP](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)protocol, which is used by all websites as well as some other web services.
 TLS_ECDHE_RSA_with_AES_128_GCM_SHA256
-**TLSv1.3**
+## TLSv1.3
 
 The updated protocol added a function called "0-RTT resumption" that enables the client and server to remember if they have communicated before. If prior communications exist, the previous keys can be used, security checks skipped and the client and server can begin communicating immediately. It is believed that some of the bigger tech companies pushed for 0-RTT because they benefit from the faster connections, but there is some concern from security professionals.
-**TLS Handshake**
+## TLS Handshake
 -   The client computer sends aClientHellomessage to the server with its Transport Layer Security (TLS) version, list of cipher algorithms and compression methods available.
 -   The server replies with aServerHellomessage to the client with the TLS version, selected cipher, selected compression methods and the server's public certificate signed by a CA (Certificate Authority). The certificate contains a public key that will be used by the client to encrypt the rest of the handshake until a symmetric key can be agreed upon.
 -   The client verifies the server digital certificate against its list of trusted CAs. If trust can be established based on the CA, the client generates a string of pseudo-random bytes and encrypts this with the server's public key. These random bytes can be used to determine the symmetric key.
@@ -129,7 +129,7 @@ ii. User name-password based
         -   An expiration date
         -   Signature(s) for a CA
     -   The private key for the cert is Super Secret though
-**Two types of APIs**
+## Two types of APIs
 
 1.  Pull based API: HTTP, gRPC
 

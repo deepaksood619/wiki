@@ -6,7 +6,7 @@ Modified: 2021-04-11 18:37:52 +0500
 
 ---
 
-**Creating arrays**
+## Creating arrays
 
 np.array([1,2,3])
 
@@ -14,9 +14,7 @@ np.array([(1.5,2,3), (4,5,6)], dtype=float)
 
 np.array([[(1.5,2,3), (4,5,6), [(3,2,1), (4,5,6)]], dtype=float)
 
-
-
-**Initial placeholders**
+## Initial placeholders
 
 np.zeros((3,4)) #create an array of zeros
 
@@ -34,11 +32,9 @@ np.random.random((2,2)) #create an array with random values
 
 np.empty((3,2)) #create an empty array
 
+## I/O
 
-
-**I/O**
-
-**Saving & Loading on Disk**
+## Saving & Loading on Disk
 
 np.save('my_array', a)
 
@@ -46,9 +42,7 @@ np.savez('array.npz', a, b)
 
 np.load('my_array.npy')
 
-
-
-**Saving & Loading Text Files**
+## Saving & Loading Text Files
 
 np.loadtxt("myfile.txt")
 
@@ -56,9 +50,7 @@ np.genfromtxt("my_file.csv", delimiter=',')
 
 np.savetxt("myarray.txt", a, delimiter=" ")
 
-
-
-**Inspecting your array**
+## Inspecting your array
 
 a.shape #array dimensions
 
@@ -74,9 +66,7 @@ b.dtype.name #name of data type
 
 b.astype(int) #convert an array to a different type
 
-
-
-**Array Mathematics**
+## Array Mathematics
 -   **Arithmetic Operations**
 
 g = a-b
@@ -131,9 +121,7 @@ a.corrcoef() #correlation coefficient
 
 np.std(b) #standard deviation
 
-
-
-**Copying Arrays**
+## Copying Arrays
 
 h = a.view() #create a view of the array with the same data
 
@@ -141,25 +129,19 @@ np.copy(a) #create a copy of the array
 
 h = a.copy() #create a deep copy of the array
 
-
-
-**Sorting Arrays**
+## Sorting Arrays
 
 a.sort() #sort an array
 
 c.sort(axis=0) #sort the elements of an array's axis
 
-
-
-**Subsetting**
+## Subsetting
 
 a[2] #select the element at the 2nd index
 
 b[1,2] #select the element at row 1 column 2 (equivalent to b[1][2])
 
-
-
-**Slicing**
+## Slicing
 
 a[0:2] #select items at index 0 and 1
 
@@ -171,41 +153,33 @@ c[1,...] #same as [1, :, :]
 
 a[ : : -1] #reversed array a
 
+## Indexing
 
-
-**Indexing**
-
-**Boolean Indexing**
+## Boolean Indexing
 
 a[a<2] #select elements from a less than 2
 
-**Fancy Indexing**
+## Fancy Indexing
 
 b[[1,0,1,0], [0,1,2,0]] #select elements (1,0),(0,1),(1,2) and (0,0)
 
 b[[1,0,1,0]][:,[0,1,2,0]] #select a subset of the matrix's rows and columns
 
+## Array Manipulation
 
-
-**Array Manipulation**
-
-**Transposing Array**
+## Transposing Array
 
 i = np.transpose(b) #permute array dimensions
 
 i.T #permute array dimensions
 
-
-
-**Changing Array Shape**
+## Changing Array Shape
 
 b.ravel() #flatten the array
 
 g.reshape(3,-2) #reshape, but don't change data
 
-
-
-**adding/removing elements**
+## adding/removing elements
 
 h.resize((2,6)) #return a new array with shape (2,6)
 
@@ -215,9 +189,7 @@ np.insert(a,1,5) #insert items in an array
 
 np.delete(a,[1]) #delete items from an array
 
-
-
-**Combining arrays**
+## Combining arrays
 
 np.concatenate((a,d), axis=0) #concatenate arrays
 
@@ -231,25 +203,17 @@ np.column_stack((a,d)) #create stacked column-wise arrays
 
 np.c_[a,d] #create stacked column-wise arrays
 
-
-
-**Splitting arrays**
+## Splitting arrays
 
 np.hsplit(a,3) #split the array horizontally at the 3rd index
 
 np.vsplit(c,2) #split the array vertically at the 2nd index
 
-
-
-**Others**
+## Others
 
 np.info(np.ndarray.dtype) #Help
 
-
-
 infis infinity - a value that is greater than any other value.-infis therefore smaller than any other value.
-
-
 
 nanstands for Not A Number, and this is not equal to0.
 
@@ -265,8 +229,6 @@ np.isnan(a[0]) # True
 np.isinf(a[1]) # True
 np.isinf(a[2]) # True
 
-
-
-**References**
+## References
 
 <https://towardsdatascience.com/the-ultimate-beginners-guide-to-numpy-f5a2f99aef54>

@@ -26,7 +26,7 @@ Elements
 -   Facade- knows subsystem, orchestrates work, delegates requests to module components
 -   Submodule Class- elements of our module
 -   Client- uses facade to interact with the system
-**Example implementation**
+## Example implementation
 
 Let's pretend that we're working on an e-commerce application. We want to implement product ordering. We already got a few services in our app, but they are not integrated.
 

@@ -39,11 +39,7 @@ Modified: 2022-02-08 15:39:32 +0500
 </tbody>
 </table>
 
-
-
-**Command + Option + R - Move top panel up and down**
-
-
+## Command + Option + R - Move top panel up and down
 
 <table>
 <colgroup>
@@ -66,8 +62,6 @@ Modified: 2022-02-08 15:39:32 +0500
 </tr>
 </tbody>
 </table>
-
-
 
 <table>
 <colgroup>
@@ -101,8 +95,6 @@ Modified: 2022-02-08 15:39:32 +0500
 
 
 
-
-
 <table>
 <colgroup>
 <col style="width: 45%" />
@@ -127,17 +119,13 @@ Modified: 2022-02-08 15:39:32 +0500
 </tbody>
 </table>
 
-
-
-**Text Manipulations**
+## Text Manipulations
 
 | Indent left  | Command + option + Left  |
 |--------------|--------------------------|
 | Indent right | Command + option + Right |
 
-
-
-**Table**
+## Table
 
 Cmd + Ctrl + L - left
 

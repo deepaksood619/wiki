@@ -28,7 +28,7 @@ SRS - Simple Random Sample, is a sample taken so that each member in a set of n 
     d.  Binomial Distribution
 
 ![10 1--1 01 FI ](media/Binomial-Random-Variables-image1.png)
-![(d-D ま ( 乞 ・ 0 ど 0 一 7 ・ 0 ノ 。 。 し 0 豸 ・ 0 コ 。 0 と ー --- 丿 0 つ 5 CIO 」 ](media/Binomial-Random-Variables-image2.png)
+![image](media/Binomial-Random-Variables-image2.png)
 e.  Binompdf (Binomial Probability Distribution Function) and Binomcdf (Binomial Cumulative Distribution Function) functions
 
 f.  Bimodal distribution
@@ -36,23 +36,23 @@ f.  Bimodal distribution
 g.  Uniform distribution
 
 h.  Bernoulli distribution
-**Others**
+## Others
 -   **Galton Board** - Every time creates normal distribution, pegs are arranged in pattern of **Quincunx (pattern of 5 pegs, where 4 are on sides of square and 1 in middle, like dice - 5)**
 -   Follow Binomial Distribution (**Central limit theorem**, says that under large number of trials like 3000 balls a binomial distribution approximates a normal distribution)
 -   **Pascal's Triangle**
 
-![Image result for pascal's triangle](media/Binomial-Random-Variables-image3.png)
+![image](media/Binomial-Random-Variables-image3.png)
 -   **Creates Fibonacci Series**
 
-![Image result for pascal's triangle with diagonals](media/Binomial-Random-Variables-image4.gif)-   **Rows gives sequence of coefficients in binomial powers**
+![image](media/Binomial-Random-Variables-image4.gif)-   **Rows gives sequence of coefficients in binomial powers**
 
-**(a + b)^2^ = a^2^ + 2.a.b + b^2^ [FOIL - First, Outer, Inner, Last]**
+## (a + b)^2^ = a^2^ + 2.a.b + b^2^ [FOIL - First, Outer, Inner, Last]
 
 (a+b)^4^ = a^4^+ **4**a^3^b + **6**a^2^b^2^+ **4**ab^3^+ b^4^
 
 These have same coefficients as 4th row of pascal's triangle
 [The Galton Board](https://www.youtube.com/watch?v=UCmPmkHqHXk)
-**References**
+## References
 
 <https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/binomial-random-variables/v/binomial-variables>
 

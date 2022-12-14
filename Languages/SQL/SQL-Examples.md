@@ -10,11 +10,7 @@ Modified: 2021-08-13 01:15:43 +0500
 
 SELECT (SELECT COUNT(CITY) FROM STATION) - (SELECT COUNT(DISTINCT CITY) FROM STATION);
 
-
-
 Select ROUND(LONG_W,4) from STATION WHERE LAT_N = (SELECT MAX(LAT_N) FROM STATION WHERE LAT_N<137.2345);
-
-
 
 SELECT
 
@@ -35,8 +31,6 @@ END ELSE 'Not A Triangle'
 END
 
 FROM TRIANGLES;
-
-
 
 SELECT
 
@@ -64,9 +58,7 @@ GROUP BY Occupation
 
 ORDER BY COUNT(*);
 
-
-
-**MySQL**
+## MySQL
 
 set @r1=0, @r2=0, @r3=0, @r4=0;
 
@@ -98,8 +90,6 @@ order by Name
 
 group by RowNumber;
 
-
-
 SELECT N,
 
 IF (P IS NULL, 'Root',
@@ -116,8 +106,6 @@ FROM BST AS B
 
 ORDER BY N;
 
-
-
 SELECT N,
 
 CASE
@@ -133,8 +121,6 @@ END
 FROM BST
 
 ORDER BY N;
-
-
 
 SELECT c.company_code,
 
@@ -170,8 +156,6 @@ GROUP BY c.company_code, c.founder
 
 ORDER BY c.company_code;
 
-
-
 SELECT h.hacker_id, h.name, s.submission_id, s.challenge_id, s.score
 
 FROM Submissions s
@@ -186,8 +170,6 @@ GROUP BY h.hacker_id
 
 ORDER BY s.score DESC, h.hacker_id;
 
-
-
 SELECT h.hacker_id, h.name, SUM(max_score.score) as total_score
 
 FROM Hackers h JOIN
@@ -201,8 +183,6 @@ GROUP BY h.hacker_id, name
 HAVING total_score > 0
 
 ORDER BY total_score DESC, h.hacker_id;
-
-
 
 SELECT w.id, wp.age, w.coins_needed, w.power
 
@@ -232,8 +212,6 @@ AND p1.age = wp.age
 
 ORDER BY w.power DESC, wp.age DESC;
 
-
-
 SELECT MAX(max_window.max_salary), COUNT(*)
 
 FROM Employee, (
@@ -246,8 +224,6 @@ FROM Employee
 
 WHERE months*salary = max_window.max_salary;
 
-
-
 SELECT (salary*months) AS earnings, COUNT(*)
 
 FROM Employee
@@ -257,8 +233,6 @@ GROUP BY earnings
 ORDER BY earnings DESC
 
 LIMIT 1;
-
-
 
 SELECT s.hacker_id, h.name
 
@@ -283,8 +257,6 @@ GROUP BY s.hacker_id, h.name
 HAVING COUNT(s.hacker_id) > 1
 
 ORDER BY COUNT(s.hacker_id) DESC, s.hacker_id;
-
-
 
 SELECT c.hacker_id, h.name ,count(c.hacker_id) AS c_count
 
@@ -324,19 +296,13 @@ having count(t.cnt) = 1)
 
 ORDER BY c_count DESC, c.hacker_id;
 
-
-
 # oracle prime numbers 2&3&5&7... till 1000
 
 select listagg (num, '&') within group (order by num) from ( select n1.num num, sum(case when mod(n1.num,n2.num) = 0 then 1 else 0 end) as cnt from (select rownum num from dual connect by level <= 1000) n1, (select rownum num from dual connect by level <= 1000) n2 where n1.num<>1 and n2.num<>1 and n1.num>=n2.num group by n1.num) a where cnt = 1;
 
-
-
 # my sql ** sequence
 
 SELECT REPEAT('* ',[@NUMBER](https://www.hackerrank.com/NUMBER):=[@NUMBER](https://www.hackerrank.com/NUMBER)- 1) FROM information_schema.tables, (SELECT[@NUMBER](https://www.hackerrank.com/NUMBER):=21) t LIMIT 20
-
-
 
 # SQL Project Planning
 
@@ -349,16 +315,12 @@ WHERE Start_Date < End_Date
 GROUP BY Start_Date
 ORDER BY DATEDIFF(End_Date, Start_Date), Start_Date
 
-
-
 Select S.Name
 From ( Students S join Friends F Using(ID)
 join Packages P1 on S.ID=P1.ID
 join Packages P2 on F.Friend_ID=P2.ID)
 Where P2.Salary > P1.Salary
 Order By P2.Salary;
-
-
 
 SELECT ct.contest_id,
 
@@ -420,8 +382,6 @@ or tuv != 0
 
 ORDER BY ct.contest_id;
 
-
-
 select submission_date ,
 
 (SELECT COUNT(distinct hacker_id)
@@ -434,8 +394,6 @@ group by hacker_id order by count(submission_id) desc , hacker_id limit 1) as sh
 from
 (select distinct submission_date from submissions) s1
 group by submission_date;
-
-
 
 # MS SQL Server
 

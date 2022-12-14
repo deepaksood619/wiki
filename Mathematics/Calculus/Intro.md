@@ -10,44 +10,44 @@ The word Calculus comes from Latin meaning "small stone",Because it is like unde
 Differential Calculuscuts something into small pieces to find how it changes.
 
 Integral Calculusjoins (integrates) the small pieces together to find how much there is.
-**Limits**
+## Limits
 
 Limits are all about approaching. Sometimes you can't work something out directly, but you can see what it should be as you get closer and closer!
-**Derivatives (Differential Calculus)**
+## Derivatives (Differential Calculus)
 
 The Derivative is the "rate of change" or slope of a function at a point.
 
 Intuition - How steep is a function/graph at a point.
-**Integration (Integral Calculus)**
+## Integration (Integral Calculus)
 
 Integration can be used to find areas, volumes, central points and many useful things.
 
 Intuition - What is the area under the graph over a region
-**Differential Equations**
+## Differential Equations
 
 In our world things change, anddescribing how they changeoften ends up as a Differential Equation: an equation with afunctionand one or more of itsderivatives.
-**Derivative Rules**
+## Derivative Rules
 -   Product Rule
 -   Quotient Rule
 -   Chain Rule
-**Integral Rules**
+## Integral Rules
 -   U-substitution
 -   Integration by parts
 -   Partial fraction decomposition
-**Higher Dimensions**
+## Higher Dimensions
 -   Partial derivatives
 -   Double Integral
-**Scalar Field -** If a function has 3 inputs and 1 output
+## Scalar Field - If a function has 3 inputs and 1 output
 
-**Vector Field -** If a function has 3 inputs and 1 vector output
-**References**
+## Vector Field - If a function has 3 inputs and 1 vector output
+## References
 
 <https://www.khanacademy.org/math/calculus-1>
 
 Precalculus - <https://www.youtube.com/watch?v=eI4an8aSsgw>
 
 [What is Calculus? (Mathematics)](https://www.youtube.com/watch?v=w3GV9pumczQ)
-![What is Calculus? ](media/Intro-image1.jpg)
+![image](media/Intro-image1.jpg)
 <https://www.freecodecamp.org/news/learn-calculus-2-in-this-free-7-hour-course>
 -   Area Between Curves
 -   Volumes of Solids of Revolution

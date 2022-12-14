@@ -12,23 +12,17 @@ Modified: 2020-08-01 14:38:28 +0500
 Java based file system which is distributed and fault-tolerant and hadoop relies on HDFS for doing all its processing
 -   Enormous ecosystem
 
-
-
-**Key points**
+## Key points
 -   Open source framework
 -   Stores data in a distributed manner
 -   Process data in parallel
 
-
-
-**Layers**
+## Layers
 -   HDFS, reliable storage layer
 -   MapReduce, batch processing engine
 -   YARN, resouce management layer
 
-
-
-**Hadoop**
+## Hadoop
 -   It has two basic parts
     -   Hadoop Distributed File System (HDFS) is the storage system of Hadoop which splits big data and distribute across many nodes in a cluster
         -   Scaling out of H/W resources
@@ -38,8 +32,6 @@ Java based file system which is distributed and fault-tolerant and hadoop relies
         -   Reduce -> summarize()
 
 Google uses MapReduce for indexing websites
-
-
 
 Hadoop is an open-source framework to store and process Big Data in a distributed environment. It contains two modules, one is MapReduce and another is Hadoop Distributed File System (HDFS).
 -   MapReduce:It is a parallel programming model for processing large amounts of structured, semi-structured, and unstructured data on large clusters of commodity hardware.
@@ -54,8 +46,6 @@ Note:There are various ways to execute MapReduce operations:
 -   The traditional approach using Java MapReduce program for structured, semi-structured, and unstructured data.
 -   The scripting approach for MapReduce to process structured and semi structured data using Pig.
 -   The Hive Query Language (HiveQL or HQL) for MapReduce to process structured data using Hive.
-
-
 
 5 daemons run on Hadoop in these 3 layers. Daemons are the processes that run in the background. 5 daemons of Hadoop are as follows:
 -   **NameNode**
@@ -74,21 +64,15 @@ It is a cluster level component and runs on the Master machine. Hence it manages
 
 It is a node level component. NodeManager runs on each slave machine. It continuously communicate with Resource Manager to remain up-to-date
 
-
-
 # Working
 
 To process any data, the client first submits data and program. Hadoop store data usingHDFSand then process the data using MapReduce.
-
-
 
 1.  **Hadoop Data Storage**
 
 Hadoop Distributed File System-- HDFS is the primary storage system of Hadoop. It stores very large files running on a cluster of commodity hardware. HDFS stores data reliably even in the case of machine failure. It also provides high throughput access to the application by accessing in parallel.
 
 The data is broken into small chunks as blocks. Block is the smallest unit of data that the file system store. Hadoop application distributes data blocks across the multiple nodes. Then, each block is replicated as per the replication factor (by default 3). Once all the blocks of the data are stored on datanode, the user can process the data.
-
-
 
 2.  **Hadoop Data Processing**
 
@@ -98,19 +82,13 @@ Hadoop MapReduceis the data processing layer. It is the framework for writing ap
 
 
 
-
-
 ![HIVE PIG M a p Reduce YARN _ Higher Levels: Interactivity Lower Levels: Stor ge & Scheduling One Possible layer grarn for Hadoop Systern 50 l.Had op Distributed File System: HI)FS 3.MapReduce: ogramming model that simplifies parallel programming a.Scaling out of H/W resources b.fiIfTöFrant 2.YARN: Flexible scheduling & Resource management-Q.ye.LHDFS a.Yahoo uses YARN to schedule jobs over 40,000 servers Big Data Computing V Map-> apply() .Reduce-> summarize() / c.Google used MR for Indexing websites V4.P)g & Hive: Augment MapReduceV U a Pig: DataflQ.L based script programming SQL-like-gug:jes (Greated at Facebook) Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image1.png)
 
 ![HIVE M a p Reduce YARN HDFS Higher Levels: Interactivity Lower Levels: Storage & Scheduling One Possible layer diagrarn for Hadoop Systern 5.Giraph: Specialized models for graph 5.Cassandra/MongoDB/HBase: NO QL database processing a.HBase is used for Fa book's Messaging a. Used by Facebook to analyze social grgphs Platform 6.Storm/Spark/Flink: Real time, in- v' memory processing of data on top of YARN/HDFS, IOO times faster than regular processing Big Data Computing b.Sparse table 6.Zookeeper: reated by YAHOO to perform the duties of centralized management system for synchronization, configuration and to ensure high availability Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image2.png)
 
-
-
 Map Reduce
 -   MapReduce is a programming model and an associated implmentation for processing and generating large data sets
 -   Users specify a map function that processs a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate key
-
-
 
 ![Map Reduce HDFSSplit Input value) pairs Map (Keyl. valuel) (Keyk, valuek) (Keyl , internediate values) (Final Keyl. value) Big Data Computing HOES Split Input (key, value) pairs Map (Keyl, valuel) (Keyk, valuek) Shuffle & Sort: Aggregate values by key HDFSWit Input (key, value) pairs Map (Keyl. vallÆ1) (Keyk, valA) (Keyk, intermediate values) (Final final value) Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image3.png)
 
@@ -120,27 +98,17 @@ Map Reduce
 
 ![HDFS Architecture HDFS Architecture tvletadata ops Re d Datanodes Rack 1 N amenode Metadata (Name, replicas, [home/foo/data, 3, Bloc ops Datanodes Replication VYite ien Rack 2 Basic architecture of Hadoop distributed file system (HDFS) Big Data Computing Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-Hadoop-image6.png)
 
-
-
-**YARN - Yet Another Resource Manager**
+## YARN - Yet Another Resource Manager
 -   Apache Hadoop YARN is the resource management and job scheduling technology in the open source Hadoop distributed processing framework
 -   YARN is responsible for allocating system resources to the various applications running in a Hadoop cluster and scheduling tasks to be executed on different cluster nodes
 
-
-
 ![seßopuqoel 1qeu3!Su elea g!8 *f (a.u!eiuo Sunndwoo elea 8!8 .Vtjau'muo euإلادرأ lV.'"!3.1111031 ÅNUV ](../../media/Technologies-Apache-Apache-Hadoop-image7.png)
 
-
-
-**References**
+## References
 
 <https://techvidvan.com/tutorials/how-hadoop-works-internally
 
 <https://www.toptal.com/hadoop/interview-questions>
-
-
-
-
 
 
 

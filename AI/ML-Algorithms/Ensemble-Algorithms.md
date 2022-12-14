@@ -15,9 +15,7 @@ In statistics and machine learning, ensemble methods use multiple learning algor
 -   Boosting
 -   Cascading
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Ensemble_learning>
 

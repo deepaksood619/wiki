@@ -10,21 +10,15 @@ Modified: 2019-03-13 11:04:51 +0500
 
 *cd emqx-docker && docker build -t emqx:latest .*
 
-
-
-**Docker**
+## Docker
 
 docker run --rm -ti --name=emqx --net=confluent -p 18083:18083 -p 1883:1883 emqx:latest
 
-
-
-**Dashboard**
+## Dashboard
 
 <http://localhost:18083
 
-
-
-**HTTP API for eMQTT**
+## HTTP API for eMQTT
 -   Create an app in dashboard for creating appid and app password
 -   Use Basic authentication header for sending HTTP calls
 -   <http://emqtt.io/docs/v3/rest.html>
@@ -47,13 +41,9 @@ docker run --rm -ti --name=emqx --net=confluent -p 18083:18083 -p 1883:1883 emqx
 
 }
 
-
-
-**Commands**
+## Commands
 
 ./bin/emqx_ctl
-
-
 
 --------------------------------------------------------------------------------
 
@@ -197,7 +187,7 @@ trace stop topic <Topic> # Stop tracing for a topic
 
 --------------------------------------------------------------------------------
 
-**listeners # List listeners**
+## listeners # List listeners
 
 listeners stop <Proto> <Port> # Stop a listener
 
@@ -227,17 +217,13 @@ users add <Username> < Password> # Add User
 
 users del <Username> # Delete User
 
-
-
-**Add Plugin to emqx**
+## Add Plugin to emqx
 
 # load emqx_auth_username plugin
 
 ./bin/emqx_ctl plugins load emqx_auth_username
 
-
-
-**Plugins emqx.auth.username**
+## Plugins emqx.auth.username
 
 Add username/password by./bin/emqx_ctl usersCLI:
 
@@ -247,12 +233,8 @@ or by configuringetc/plugins/emqx_auth_username.conf:
 
 auth.username.test = public
 
-
-
 ./bin/emqx_ctl users add **zenatix_mqtt_client xitanez123**
 
-
-
-**Others**
+## Others
 
 docker run --net=zenatix-docker -e EMQTT_URL=http://emqx:8080 -e EMQTT_API_USER=admin -e EMQTT_API_PASS=public oxygen0211/emqtt-prometheus-exporter

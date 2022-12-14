@@ -28,17 +28,11 @@ Modified: 2019-11-20 13:49:53 +0500
 
 11. Installing Addons
 
-
-
-**Federation**
+## Federation
 
 Multiple Kubernetes clusters can be managed as a single cluster with the help of federated clusters. So, you can create multiple Kubernetes clusters within a data center/cloud and use federation to control/manage them all at one place.
 
-
-
 Kubernetes Cluster Federation (KubeFed for short) allows you to coordinate the configuration of multiple Kubernetes clusters from a single set of APIs in a hosting cluster. KubeFed aims to provide mechanisms for expressing which clusters should have their configuration managed and what that configuration should be. The mechanisms that KubeFed provides are intentionally low-level, and intended to be foundational for more complex multicluster use cases such as deploying multi-geo applications and disaster recovery.
-
-
 
 The federated clusters can achieve this by doing the following two things
 
@@ -47,8 +41,6 @@ The federated clusters can achieve this by doing the following two things
 2.  Sync resources across clusters
 
 ![Federated Clusters - Kubernetes Interview Questions - Edureka](../../media/DevOps-Kubernetes-Cluster-Administration-image1.png)
-
-
 
 <https://github.com/kubernetes-sigs/kubefed>
 

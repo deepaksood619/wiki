@@ -6,19 +6,19 @@ Modified: 2021-09-06 23:49:34 +0500
 
 ---
 
-**There are three key elements of an operating system**
+## There are three key elements of an operating system
 
 1.  Abstractions(process, thread, file, socket, memory)
 
 2.  Mechanisms(create, schedule, open, write, allocate)
 
 3.  Policies(LRU, EDF)
-**There are two operating system design principles**
+## There are two operating system design principles
 
 1.  Separation of mechanism and policyby implementing flexible mechanisms to support policies
 
 2.  Optimization for common case:Where will the OS be used? What will the user want to execute on that machine? What are the workload requirements?
-**There are three types of Operating Systems commonly used nowadays**
+## There are three types of Operating Systems commonly used nowadays
 
 1.  Monolithic OS, where the entire OS is working in kernel space and is alone in supervisor mode
 

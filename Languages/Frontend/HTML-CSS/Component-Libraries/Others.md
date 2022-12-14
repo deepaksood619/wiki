@@ -6,7 +6,7 @@ Modified: 2022-02-05 01:18:13 +0500
 
 ---
 
-**Bootstrap**
+## Bootstrap
 
 1.  Flatter Buttons
 
@@ -22,8 +22,6 @@ Bootstrap grids are created with Flexbox instead of Floats
 
 6.  New component: Cards
 
-
-
 [https://bootstrapstudio.io](https://bootstrapstudio.io/)
 
 <https://medium.freecodecamp.org/learn-bootstrap-4-in-5-minutes-da94728efe41>
@@ -32,11 +30,9 @@ Bootstrap grids are created with Flexbox instead of Floats
 
 <https://www.freecodecamp.org/news/full-bootstrap-5-tutorial-for-beginners
 
+## MaterialUI
 
-
-**MaterialUI**
-
-**MUI Templates**
+## MUI Templates
 
 <https://mui.com/getting-started/templates
 
@@ -44,9 +40,7 @@ Bootstrap grids are created with Flexbox instead of Floats
 
 <https://github.com/mui-org/material-ui/blob/master/docs/src/pages/getting-started/templates/sign-in/SignIn.js>
 
-
-
-**v5**
+## v5
 
 <https://mui.com/blog/mui-core-v5
 

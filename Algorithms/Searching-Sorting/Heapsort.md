@@ -14,8 +14,6 @@ Heapsortstarts by building a max heap. A binary max heap is a nearly complete bi
 -   Heap construction uses <= 2 N compares and exchanges
 -   Heapsort uses <= 2 N lg N compares and exchanges
 
-
-
 Significance - In-place sorting algorithm with N log N wost-case
 -   Mergesort: no, linear extra space
 -   Quicksort: no, quadratic time in worst case
@@ -27,7 +25,5 @@ Significance - In-place sorting algorithm with N log N wost-case
     -   Makes poor use of cache memory (since array item can be fetched far since parent's child can be far from parent)
     -   Not stable
 
-
-
-![Heapsort: Java implementation public class Heap public static void a) int N = a. length; for (int k sink(a, while (N > exch(a, sink(a, = N/2; k 1; 1) 1, private static void si a, / * as before * / private static bool ean / * as before * / private static voi a , / * as before * / int k, int N) a, int i, int j) int i, int j) but convert from I -based indexing to O-base indexing ](media/Heapsort-image1.png)
+![image](media/Heapsort-image1.png)
 

@@ -6,7 +6,7 @@ Modified: 2022-05-22 23:29:12 +0500
 
 ---
 
-**Key Chunks discussed in the course from which you can recall whole course**
+## Key Chunks discussed in the course from which you can recall whole course
 
 1.  What is Learning
 
@@ -112,9 +112,7 @@ Modified: 2022-05-22 23:29:12 +0500
 
         3.  Reconsolidation (from STM to LTM but changed from previous)
 
-
-
-**References**
+## References
 
 Learning How to Learn: Powerful mental tools to help you master tough subjects by University of California, San Diego on Coursera taught by Terrence Sejnowski and Barbara Oakley
 

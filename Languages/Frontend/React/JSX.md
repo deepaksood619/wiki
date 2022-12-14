@@ -14,15 +14,11 @@ JSX Rules
 -   close every element
 -   formatting
 
-
-
 dialect of javascript
 
 let us write html inside a javascript
 
 JSX is transpiled to js
-
-
 
 Ex - const App = function() {
 
@@ -30,19 +26,13 @@ return <div>Hi!</div>;
 
 }
 
-
-
 This function is transpiled into (using babel)
 
 "use strict"
 
-
-
 var _temporalUndefined = {}
 
 var App = _temporalUndefined;
-
-
 
 App = function App() {
 
@@ -58,13 +48,9 @@ null,
 
 };
 
-
-
 Whenever we call a javascript variable inside JSX we wrap the variable around braces;
 
-
-
-**Loops**
+## Loops
 
 <https://www.telerik.com/blogs/beginners-guide-loops-in-react-jsx>
 

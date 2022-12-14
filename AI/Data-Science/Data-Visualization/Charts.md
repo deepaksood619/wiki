@@ -6,7 +6,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 ---
 
-**Graphic Types**
+## Graphic Types
 
 1.  Pareto chart
 
@@ -38,9 +38,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 15. Cladogram
 
-![beetles wasps, bees, ants buttefilies, moths flies ](media/Data-Visualization_Charts-image1.png)
-
-
+![image](media/Data-Visualization_Charts-image1.png)
 
 <https://en.wikipedia.org/wiki/Cladogram>
 
@@ -56,9 +54,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 17. Sparklines
 
-
-
-**Basic Charts**
+## Basic Charts
 
 1.  Scatter Plots (2D / 3D)
 
@@ -86,13 +82,9 @@ Modified: 2021-10-04 19:36:03 +0500
 
 13. Linear-Gauge Chart
 
+![image](media/Data-Visualization_Charts-image2.jpeg)
 
-
-![100 80 60 40 20 Gaps 72 53 33 80 100 80 60 40 30 20 10 50 No Gaps 80 35 20 25 50 Chiro Usa France UK India Categories ............> Bar Chart 30 40 Number Ranges Histogram ](media/Data-Visualization_Charts-image2.jpeg)
-
-
-
-**Statistical and Seaborn-style Charts**
+## Statistical and Seaborn-style Charts
 
 1.  Error Bars
 
@@ -126,9 +118,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 15. 2D Histogram Contour
 
-
-
-**Scientific Charts**
+## Scientific Charts
 
 1.  Log Plots
 
@@ -176,9 +166,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 23. Radar Charts / Radar Graphs
 
-
-
-**Financial Charts**
+## Financial Charts
 
 1.  Time Series
 
@@ -188,9 +176,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 4.  Funnel Charts
 
-
-
-**Maps**
+## Maps
 
 1.  USA County Choropleth Maps
 
@@ -208,9 +194,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 8.  Tesla Supercharging Stations
 
-
-
-**3D Charts**
+## 3D Charts
 
 1.  3D Scatter Plots
 
@@ -242,9 +226,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 15. Projection of 3D Surface
 
-
-
-**Multiple Axes, Subplots, and Insets**
+## Multiple Axes, Subplots, and Insets
 
 1.  Multiple Axes
 
@@ -262,9 +244,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 8.  Table and Chart Subplots
 
-
-
-**Transforms**
+## Transforms
 
 1.  Filter
 
@@ -274,9 +254,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 4.  Multiple Transforms
 
-
-
-**Add Custom Controls**
+## Add Custom Controls
 
 1.  Dash - Controls with Python Callbacks
 
@@ -288,9 +266,7 @@ Modified: 2021-10-04 19:36:03 +0500
 
 5.  Range Slider and Selector
 
-
-
-**Animations**
+## Animations
 
 1.  Intro to Animations
 

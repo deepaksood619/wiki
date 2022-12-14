@@ -29,11 +29,11 @@ In other words, the total distance traveled is 402 meters, or a quarter mile. Mu
 # HOW TO CALCULATE ACCELERATION
 
 In physics terms, acceleration,a, is the amount by which your velocity changes in a given amount of time. Given the initial and final velocities,viandvf, and the initial and final times over which your speed changes,tiandtf, you can write the equation like this:
-![acceleration formula](media/Distance-Speed-and-Time-image4.png)
+![image](media/Distance-Speed-and-Time-image4.png)
 
 In terms of units, the equation looks like this:
 
-![acceleration formula by units](media/Distance-Speed-and-Time-image5.png)
+![image](media/Distance-Speed-and-Time-image5.png)
 
 Distance per time squared? Don't let that throw you. You end up with time squared in the denominator because you divide velocity by time. In other words,accelerationis the rate at which your velocity changes, because rates have time in the denominator. For acceleration, you see units of meters per second2, centimeters per second2, miles per second2, feet per second2, or even kilometers per hour2.
 

@@ -8,67 +8,47 @@ Modified: 2021-09-15 14:25:42 +0500
 
 python -m django --version
 
-
-
 gunicorn mysite.wsgi:application
 
 daphene mysite.asgi:application
 
-
-
-**Creating a project**
+## Creating a project
 
 django-admin startproject mysite . # for creating project in current directory
 
-
-
-**Start development server**
+## Start development server
 
 python manage.py runserver
 
-
-
-**Creating apps**
+## Creating apps
 
 python manage.py startapp polls
 
-
-
-**Creating sub applications**
+## Creating sub applications
 
 cd app
 
 python ../manage.py startapp sub_app
 
-
-
-**Playing with the API (Shell)**
+## Playing with the API (Shell)
 
 python manage.py shell
 
-
-
-**Shell Plus**
+## Shell Plus
 
 python manage.py shell_plus
 
-
-
-**Collect static files**
+## Collect static files
 
 python manage.py collectstatic -c
 
-
-
-**Creating admin**
+## Creating admin
 
 python manage.py createsuperuser
 
 <http://localhost:8000/admin>
 
-
-
-**Running tests**
+## Running tests
 
 python manage.py test <app_name>
 
@@ -76,15 +56,11 @@ python manage.py test polls
 
 python -Wd manage.py test (This will show all deprecation warnings)
 
-
-
-**Finding django source files**
+## Finding django source files
 
 python -c "import django; print(django.__path__)"
 
-
-
-**Shell commands**
+## Shell commands
 
 from polls.models import Question, Choice
 
@@ -110,8 +86,6 @@ Question.objects.filter(id=1)
 
 Question.objects.filter(question_text__startswith='What')
 
-
-
 Current_year = timezone.now().year
 
 Question.objects.get(pub_date__year=current_year)
@@ -126,17 +100,13 @@ Q.question
 
 Q.choice_set.count()
 
-
-
-**To override model's toString**
+## To override model's toString
 
 def __str__(self):
 
 return self.question_text
 
-
-
-**Forgot Password**
+## Forgot Password
 
 python manage.py shell
 
@@ -148,9 +118,7 @@ user.set_password('new_password')
 
 user.save()
 
-
-
-**django-admin commands**
+## django-admin commands
 
 [django]
 
@@ -158,7 +126,7 @@ check
 
 compilemessages
 
-**collectstatic**
+## collectstatic
 
 collectstatic --noinput -c (Generate static files to serve)
 
@@ -178,25 +146,21 @@ findstatic
 
 inspectdb
 
-**loaddata**
+## loaddata
 
 loaddata initial_data (Searches for and loads the contents of the named fixture into the database)
 
 makemessages
 
-**makemigrations** (creating new migrations)
+## makemigrations (creating new migrations)
 
-**migrate** (applying and unapplying migrations)
+## migrate (applying and unapplying migrations)
 
 migrate home_device zero (Uninstall migrations from an application)
-
-
 
 The[**migrate**](https://docs.djangoproject.com/en/1.11/ref/django-admin/#django-admin-migrate)command takes all the migrations that haven't been applied (Django tracks which ones are applied using a special table in your database called**django_migrations**) and runs them against your database - essentially, synchronizing the changes you made to your models with the schema in the database.
 
 Migrations are very powerful and let you change your models over time, as you develop your project, without the need to delete your database or tables and make new ones - it specializes in upgrading your database live, without losing data.
-
-
 
 runserver
 
@@ -204,11 +168,11 @@ sendtestemail
 
 shell
 
-**showmigrations** (lists a project's migrations and their status)
+## showmigrations (lists a project's migrations and their status)
 
 sqlflush
 
-**sqlmigrate (**displays the SQL statements for a migration)
+## sqlmigrate (displays the SQL statements for a migration)
 
 sqlsequencereset
 

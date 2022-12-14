@@ -10,23 +10,19 @@ The software utility**cron**is a time-based[job scheduler](https://en.wikipedia.
 
 *cron*is most suitable for scheduling repetitive tasks. Scheduling one-time tasks is often more easily accomplished using the associated[*at*](https://en.wikipedia.org/wiki/At_(Unix))utility.
 
-
-
-**crontab** [**-u *user***] [**-l** | **-r** | **-e**] [**-i**] [**-s**]
-
-
+## crontab** [**-u *user***] [**-l** | **-r** | **-e**] [**-i**] [**-s]
 
 export EDITOR=vi ;to specify a editor to open crontab file.
 
-**crontab -e**Edit crontab file, or create one if it doesn't already exist. (/Var/spool/cron)
+## crontab -eEdit crontab file, or create one if it doesn't already exist. (/Var/spool/cron)
 
-**sudo crontab -e** Edit system wide crontab file
+## sudo crontab -e Edit system wide crontab file
 
-**crontab -l**crontab list of cronjobs , display crontab file contents.
+## crontab -lcrontab list of cronjobs , display crontab file contents.
 
-**crontab -r**Remove your crontab file.
+## crontab -rRemove your crontab file.
 
-**crontab -v**Display the last time you edited your crontab file. (This option is only available on a few systems.)
+## crontab -vDisplay the last time you edited your crontab file. (This option is only available on a few systems.)
 
 * * * *  * command to be executed
 - - - - -
@@ -37,11 +33,7 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 | +----------- hour (0 - 23)
 +------------- min (0 - 59)
 
-
-
 * means every(min/hour/day of month/month/day of week) (means all possible units)
-
-
 
 | min    | hour | day/month | month  | day/week | Execution time                                           |
 |--------|--------|-----------|--------|----------|-----------------------------|
@@ -58,9 +50,7 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 
 
-
-
-**Crontab Keywords**
+## Crontab Keywords
 
 | **Keyword** | **Equivalent**  |
 |-------------|-----------------|
@@ -69,49 +59,33 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 | @hourly    | 0 * * * *   |
 | @reboot    | Run at startup. |
 
-
-
-**Examples -**
+## Examples -
 
 @daily sudo ntpdate ntp.ubuntu.com
-
-
 
 #cron for publishing schedules
 
 15 0 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py publish_yesterday_schedules
 
-
-
 #cron to create client list for controller updates
 
 0 1 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py create_client_list
-
-
 
 #cron for disabling alerts on public holidays
 
 15 1 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py disable_alerts
 
-
-
 #cron for checking if some of the schedules have expired and will notifiy account managers.
 
 15 1 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py check_schedule_expiry
-
-
 
 #cron for testing daily emails
 
 05 00 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com, sanch$
 
-
-
 #cron for daily emails
 
 15 09 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com,amarje$
-
-
 
 #cron for sending issues
 
@@ -119,41 +93,29 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 10 10 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py report_issues --create_logs=True --run_issues=True --run_spec
 
-
-
 #cron for refresh_tokens every hour
 
 0 * * * * /usr/bin/python /home/ubntu/sources/zenalytix/manage.py refresh_tokens
 
-
-
 # Never run a cron set date to 31'st Feb
 
-**00 00 31 2 ***
-
-
+## 00 00 31 2 *
 
 Atminute 15past every 2nd hour from 1 through 23
 
 15 1-23/2 * * *
 
-
-
-**Others**
+## Others
 
 */20 2-3/30 * * *
 
-
-
-**Setting editor for crontab**
+## Setting editor for crontab
 
 export EDITOR=vim
 
 crontab -e (edit mode)
 
-
-
-**How to Disable/Redirect the Crontab Mail Output using MAIL keyword?**
+## How to Disable/Redirect the Crontab Mail Output using MAIL keyword?
 
 By default crontab sends the job output to the user who scheduled the job. If you want to redirect the output to a specific user, add or update the MAIL variable in the crontab as shown below.
 
@@ -169,17 +131,13 @@ If you wanted the mail not to be sent to anywhere, i.e to stop the crontab outpu
 
 MAIL=""
 
-**Redirect crontab output to log file**
+## Redirect crontab output to log file
 
 * * * * * myjob.sh >> /var/log/myjob.log 2>&1
 
-
-
 */2 * * * * /bin/bash -c "source $HOME/.profile; docker exec zenalytix-analytics bash -c 'cd ../ && date'" >> /var/log/cron/test-`/bin/date +%d-%m-%y-%H-%M-%S`.log 2>&1
 
-
-
-**Installing Crontab From a Cron File**
+## Installing Crontab From a Cron File
 
 Instead of directly editing the crontab file, you can also add all the entries to a cron-file first. Once you have all thoese entries in the file, you can upload or install them to the cron as shown below.
 
@@ -196,14 +154,10 @@ ramesh@dev-db$ crontab -l
 @yearly /home/ramesh/annual-maintenance
 */10 * * * * /home/ramesh/check-disk-space
 
-**Cronv**
+## Cronv
 
 Visualize your cron schedules in crontab
 
-
-
 <https://github.com/takumakanari/cronv>
-
-
 
 <https://crontab.guru>

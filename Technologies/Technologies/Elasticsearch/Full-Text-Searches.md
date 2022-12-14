@@ -9,19 +9,13 @@ Modified: 2022-01-06 21:23:27 +0500
 -   Stemming words, so that 'pony' and 'ponies' are considered similar
 -   Weighting words absed on different criteria such as how frequently they appear in the text, or the importance of the fields, such as the title or keywords, that they appear in.
 
-
-
-**Entity vs. attribute**
+## Entity vs. attribute
 
 In search, an entity iswhat you search for, and an attribute iswhat you search it by. This can get confusing, as a search term can be both simultaneously. Sticking with the previous example, you can look for the Song entity by the attributes 'name' and 'artist'. But you can also look for the Artist entity by the attributes 'artist name' and 'songs'.
 
-
-
 Typically, an entity will correspond to a table in your database, and the attributes will correspond with the fields of that table.
 
-
-
-**Document-based search solutions**
+## Document-based search solutions
 
 1.  Elastic
 
@@ -29,19 +23,13 @@ Typically, an entity will correspond to a table in your database, and the attrib
 
 3.  vespa
 
-
-
-**Faceted Search**
+## Faceted Search
 
 Faceted searchis a technique that involves augmenting traditional search techniques with a faceted navigation system, allowing users to narrow down search results by applying multiple filters based on[faceted classification](https://en.wikipedia.org/wiki/Faceted_classification)of the items.A faceted classification system classifies each information element along multiple explicit dimensions, called facets, enabling the classifications to be accessed and ordered in multiple ways rather than in a single, pre-determined,[taxonomic](https://en.wikipedia.org/wiki/Taxonomy_(general))order.
-
-
 
 Facets correspond to properties of the information elements. They are often derived by analysis of the text of an item using[entity extraction](https://en.wikipedia.org/wiki/Entity_extraction)techniques or from pre-existing fields in a database such as author, descriptor, language, and format. Thus, existing web-pages, product descriptions or online collections of articles can be augmented with navigational facets.
 
 ![第 - を エ 言 篭 「 第 」 っ 3 エ ト 0 ト 製 3 》 山 0 A 《 0 ・ 1X3 要 0 山 ト - ′ っ " を 《 、 新 ・ ・ 0 編 う 誕 0 《 5 ・ 09 マ 岩 鵞 と ど を 騨 と 1 当 凸 UP(SIPUöd 1M 」 ー 0 メ 83 / ミ 3 0000 OR + 4 へ 」 工 0 ま 01 -5 ト ~ 30 っ ト S Nan 一 N ミ 0M 一 0 " 亠 」 コ ト 0 口 当 あ ロ ま k ロ を ロ メ 8 ロ & - 品 国 新 0 ロ 一 を 0 国 ) ロ - 第 20 ロ ロ 器 物 う ロ を 口 型 d 第 4 ロ 物 ト ロ - ~ 新 ロ ま A ト ト 0 っ 00 を 4 直 び 一 」 。 や ロ 都 5 」 0 = ど ど ロ 盟 、 び 」 ロ 、 ま de ま ロ ⅸ っ 0100 都 占 ロ ロ in ロ 91 ロ 一 サ コ ロ 9 ロ ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image1.jpg)
-
-
 
 <https://en.wikipedia.org/wiki/Faceted_search>
 
@@ -49,43 +37,29 @@ Facets correspond to properties of the information elements. They are often deri
 
 <https://django-haystack.readthedocs.io/en/v2.4.1/faceting.html>
 
+## Omni Search
 
-
-**Omni Search**
-
-**Searchable entities**
+## Searchable entities
 
 The first thing you need in order to build your omni-search, is to map the entities users might be searching for. Remember: it's not what they search it by --- just what they'd like to find.
 
-
-
 You might not be sure what's considered 'an entity'. For example, on Google Drive, you can search for PDFs, Sheets, or Docs. Are these different entities? While there's a technical discussion I won't get into, as a rule of thumb, if all candidates share the same attributes (e.g. doc name, creator, date...) --- then it can be considered the same entity with a 'type' attribute.
 
-
-
-**Searchable attributes**
+## Searchable attributes
 
 Once you've selected the entities to be searched, let's select the attributes that the users can search by. Don't be tempted to use all available attributes --- this will slow performance and produce bad results. Instead, only use the attributes your users are likely to use. If you're not sure, guess, and then go back after the release and see what your users have tried searching by.
 
-
-
 Example: on Spotify, each artist has an 'about' attribute, which you can see after you've clicked on the artist (all the way on the bottom). However, if you tried copy-pasting that 'about' text to the omni-search, you won't find the artist, because Spotify doesn't search artists by the 'about' attribute, which makes sense: it's unlikely anyone will try searching by it, in any reasonable use-case.
 
-
-
-**Search behavior**
+## Search behavior
 
 There are a few other parameters you need to define in your search:
 
-**Substring location:**
+## Substring location:
 
 Let's take The Chainsmokers. Which of these search terms do you think should find them: 'the chain', 'chain', or 'smokers'?
 
-
-
 If you guessed all three, then you're right. But that's not always the case. Let's try to look for the Medium publicationNoteworthy.You'll find it if you search for 'notew', but not if you look for 'worthy'.
-
-
 
 This has a lot to do with how the data is being indexed, and there are three main options to choose from:
 
@@ -95,37 +69,25 @@ This has a lot to do with how the data is being indexed, and there are three mai
 
 3.  all substrings (e.g. 'smokers', or 'ainsmoke')
 
-
-
 Again, more is not always better. Pick the one most suited to what your users are likely to search.
 
-
-
-**Strict vs. fuzzy search**
+## Strict vs. fuzzy search
 
 Users make mistakes. They might type in "the chansmokers", leaving out the 'i', either due to a typo or miss-spelling. A fuzzy search will catch that. Too fuzzy of a search will also catch a lot of garbage results.
 
-
-
-**Start of search**
+## Start of search
 
 Most searches don't show results until you type in at least 2--3 letters.
 
-
-
-**Debounce**
+## Debounce
 
 We type quickly. You don't want each keystroke to start a new search, because that would seem jumpy to the user. You commonly wait 0.1s or so after the keystroke (don't hold me to that number), to make sure the user stopped typing.
 
-
-
-**capitalization**
+## capitalization
 
 Not much to say about this. 99% of searches should be caseinsensitive.
 
-
-
-**Scores and weights**
+## Scores and weights
 
 This part is a bit complicated, and can fill an entire post on its own, but I'll try to explain the gist of it:
 
@@ -143,39 +105,23 @@ ii. result summary --- a full page showing the main results for each entity
 
 iii. all results --- all of the results of a specific entity
 
-
-
 <https://uxdesign.cc/designing-an-omni-search-29c6cb6ec3f7>
 
-
-
-**Zero Click Search**
+## Zero Click Search
 -   Direct answers in the search results, and users doesn't have to click further links
 
-
-
-**Transformers**
+## Transformers
 
 ![Document retrieval Autosuggest Re-Ranking Summarization Question Answering Translation ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image2.jpeg)
 
-
-
 ![Document Retrieval: Transformers are an alternative to keyword based methods qve.S+ion kfinA oe 409 breeds are *here? Ret-riever Relevant User makes a query System returns relevant documents Sparse: Keyword based approaches (TF-IDF, BM25) String similarity: Bag-of-words Fast, lightweight, efficient (Word embeddings) Dense: Transformer based approaches (DPR, Sentence Transformers) Semantic similarity: Synonyms, context aware ... Representing documents as vectors ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image3.jpeg)
-
-
 
 ![](../../media/Technologies-Elasticsearch-Full-Text-Searches-image4.jpeg)
 
-
-
 <https://github.com/deepset-ai/haystack>
 
-
-
-**Tools**
+## Tools
 
 <https://www.algolia.com
-
-
 
 

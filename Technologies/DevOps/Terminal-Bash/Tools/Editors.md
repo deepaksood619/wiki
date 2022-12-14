@@ -6,7 +6,7 @@ Modified: 2022-03-12 11:50:20 +0500
 
 ---
 
-**Commenting multiple using the terminal**
+## Commenting multiple using the terminal
 
 1.  First, pressESC
 
@@ -18,9 +18,7 @@ Modified: 2022-03-12 11:50:20 +0500
 
 5.  Press#and it will add a comment to the first line. Then pressECSand wait for a second,#will be added to all the lines.
 
-
-
-**Uncommenting Multiple Lines**
+## Uncommenting Multiple Lines
 
 1.  PressCTRL + Vto enable visual block mode.
 
@@ -28,19 +26,15 @@ Modified: 2022-03-12 11:50:20 +0500
 
 3.  pressxand it will uncomment all the selected lines at once.
 
-
-
 # VIM
 
-**Global**
+## Global
 -   :help keyword- open help for keyword
 -   :saveas file- save file as
 -   :close- close current pane
 -   K- open man page for word under the cursor
 
-
-
-**Cursor movement**
+## Cursor movement
 -   h- move cursor left
 -   j- move cursor down
 -   k- move cursor up
@@ -82,9 +76,7 @@ Modified: 2022-03-12 11:50:20 +0500
 
 TipPrefix a cursor movement command with a number to repeat it. For example,4jmoves down 4 lines.
 
-
-
-**Insert mode - inserting/appending text**
+## Insert mode - inserting/appending text
 -   i- insert before the cursor
 -   I- insert at the beginning of the line
 -   a- insert (append) after the cursor
@@ -94,9 +86,7 @@ TipPrefix a cursor movement command with a number to repeat it. For example,4jmo
 -   ea- insert (append) at the end of the word
 -   Esc- exit insert mode
 
-
-
-**Editing**
+## Editing
 -   r- replace a single character
 -   J- join line below to the current one with one space in between
 -   gJ- join line below to the current one without space in between
@@ -112,9 +102,7 @@ TipPrefix a cursor movement command with a number to repeat it. For example,4jmo
 -   Ctrl+r- redo
 -   .- repeat last command
 
-
-
-**Marking text (visual mode)**
+## Marking text (visual mode)
 -   v- start visual mode, mark lines, then do a command (like y-yank)
 -   V- start linewise visual mode
 -   o- move to other end of marked area
@@ -127,18 +115,14 @@ TipPrefix a cursor movement command with a number to repeat it. For example,4jmo
 -   iB- inner block with {}
 -   Esc- exit visual mode
 
-
-
-**Visual commands**
+## Visual commands
 -   >- shift text right
 -   <- shift text left
 -   y- yank (copy) marked text
 -   d- delete marked text
 -   ~- switch case
 
-
-
-**Registers**
+## Registers
 -   :reg- show registers content
 -   "xy- yank into register x
 -   "xp- paste contents of register x
@@ -148,25 +132,19 @@ TipRegisters are being stored in ~/.viminfo, and will be loaded again on next re
 
 TipRegister 0 contains always the value of the last yank command.
 
-
-
-**Marks**
+## Marks
 -   :marks- list of marks
 -   ma- set current position for mark A
 -   `a- jump to position of mark A
 -   y`a- yank text to position of mark A
 
-
-
-**Macros**
+## Macros
 -   qa- record macro a
 -   q- stop recording macro
 -   @a- run macro a
 -   @@- rerun last run macro
 
-
-
-**Cut and paste**
+## Cut and paste
 -   yy- yank (copy) a line
 -   2yy- yank (copy) 2 lines
 -   yw- yank (copy) the characters of the word from the cursor position to the start of the next word
@@ -180,9 +158,7 @@ TipRegister 0 contains always the value of the last yank command.
 -   d$- delete (cut) to the end of the line
 -   x- delete (cut) character
 
-
-
-**Exiting**
+## Exiting
 -   :w- write (save) the file, but don't exit
 -   :w !sudo tee %- write out the current file using sudo
 -   :wqor:xorZZ- write (save) and quit
@@ -190,9 +166,7 @@ TipRegister 0 contains always the value of the last yank command.
 -   :q!orZQ- quit and throw away unsaved changes
 -   :wqa- write (save) and quit on all tabs
 
-
-
-**Search and replace**
+## Search and replace
 -   /pattern- search for pattern
 -   ?pattern- search backward for pattern
 -   vpattern- 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
@@ -202,9 +176,7 @@ TipRegister 0 contains always the value of the last yank command.
 -   :%s/old/new/gc- replace all old with new throughout file with confirmations
 -   :noh- remove highlighting of search matches
 
-
-
-**Search in multiple files**
+## Search in multiple files
 -   :vimgrep /pattern/ {file}- search for pattern in multiple files
 
 e.g.:vimgrep /foo/ **/*
@@ -212,9 +184,7 @@ e.g.:vimgrep /foo/ **/*
 -   :cp- jump to the previous match
 -   :copen- open a window containing the list of matches
 
-
-
-**Working with multiple files**
+## Working with multiple files
 -   :e file- edit a file in a new buffer
 -   :bnextor:bn- go to the next buffer
 -   :bprevor:bp- go to the previous buffer
@@ -231,11 +201,7 @@ e.g.:vimgrep /foo/ **/*
 -   Ctrl+wj- move cursor to the window below (horizontal split)
 -   Ctrl+wk- move cursor to the window above (horizontal split)
 
-
-
 <https://www.freecodecamp.org/news/learn-vim-beginners-tutorial
-
-
 
 # Nano
 

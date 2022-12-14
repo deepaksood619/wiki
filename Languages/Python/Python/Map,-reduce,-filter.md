@@ -6,13 +6,9 @@ Modified: 2017-12-05 13:41:50 +0500
 
 ---
 
-**Map**
-
-
+## Map
 
 Fahrenheit = map(lambda x: (float(9)/5)*x + 32, Celsius)
-
-
 
 >>> a = [1,2,3,4]
 >>> b = [17,12,11,10]
@@ -26,9 +22,7 @@ Fahrenheit = map(lambda x: (float(9)/5)*x + 32, Celsius)
 
 
 
-
-
-**Filter**
+## Filter
 
 The function filter(function, list) offers an elegant way to filter out all the elements of a list, for which the function*function*returns True.
 
@@ -42,19 +36,13 @@ The function filter(f,l) needs a function f as its first argument. f returns a B
 >>> print result
 [0, 2, 8, 34]
 
+## Reduce
 
+## Import functools
 
-**Reduce**
-
-**Import functools**
-
-**functools.reduce**
-
-
+## functools.reduce
 
 The function reduce(func, seq) continually applies the function func() to the sequence seq. It returns a single value.
-
-
 
 If seq = [ s~1~, s~2~, s~3~, ... , s~n~], calling reduce(func, seq) works like this:
 -   At first the first two elements of seq will be applied to func, i.e. func(s~1~,s~2~) The list on which reduce() works looks now like this: [ func(s~1~, s~2~), s~3~, ... , s~n~]
@@ -64,8 +52,6 @@ If seq = [ s~1~, s~2~, s~3~, ... , s~n~], calling reduce(func, seq) works like t
 
 >>> reduce(lambda x,y: x+y, [47,11,42,13])
 113
-
-
 
 Determining the maximum of a list of numerical values by using reduce:
 

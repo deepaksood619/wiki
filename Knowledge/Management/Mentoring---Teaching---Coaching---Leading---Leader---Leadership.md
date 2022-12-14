@@ -8,15 +8,9 @@ Modified: 2022-11-13 01:55:31 +0500
 
 Leadership is the ability to guide, support, and nurture others. Leaders are adept at finding ways for others to be at their best.
 
-
-
 A leader doesn't have to be told to step up; they just do it when it's necessary. It's automatic.
 
-
-
 Bullying is not leadership.
-
-
 
 Leadership is not equal to management
 
@@ -31,15 +25,13 @@ Leadership is not equal to management
 -   change leadership
 -   market understanding
 
-
-
-**Radical Candor**
+## Radical Candor
 
 The best way to encourage radical candor is to be open to it youself - demonstrate the behavior you want to encourage in others
 
-![Care Personally Ignorance Mistrust RUINOUS EMPATHY MANIPULATIVE INSINCERITY Growth RADICAL CANDOR Challenge Directly OBNOXIOUS AGGRESSION Defensrveness ](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image1.jpeg)
+![image](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image1.jpeg)
 
-**Principles -** <https://www.amazon.jobs/en/principles>
+## Principles - <https://www.amazon.jobs/en/principles>
 
 
 -   [What is mentoring?](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#what-is-mentoring)
@@ -59,11 +51,7 @@ Mentorship is a learning relationship between an experienced person and someone 
 -   [The best engineers are great mentors](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#the-best-engineers-are-great-mentors)
 -   [Closing quotes from mentors who are engineers](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#closing-quotes-from-mentors-who-are-engineers)
 
-
-
 <https://blog.pragmaticengineer.com/developers-mentoring-other-developers
-
-
 
 To inspire better conversations with your manager, direct reports, and team next year, here are the most asked meeting questions from Soapbox communities in 2020:
 
@@ -97,15 +85,11 @@ To inspire better conversations with your manager, direct reports, and team next
 
 15. Is your job what you expected when you accepted it? If not, where has it differed?
 
-
-
-**Carrot vs Stick**
+## Carrot vs Stick
 
 CarrotandStickApproach of Motivation. ... Thecarrotis a reward for moving while thestickis the punishment for not moving and hence making him move forcefully. Thus, an individual is givencarroti.e. reward when he performs efficiently and is jabbed with astick oris given a punishment in case of non-performance.
 
-
-
-**Leaders**
+## Leaders
 
 Good business leaders create a vision, articulate the vision, passionately own the vision, and relentlessly drive it to completion. -- Jack Welch
 -   Vision
@@ -118,8 +102,6 @@ Good business leaders create a vision, articulate the vision, passionately own t
 -   Strong Communicators
 -   Lead by example
 
-
-
 <https://deepstash.com/article/3226/7-leadership-qualities-and-characteristics-of-good-leaders--brian-tracy>
 
 
@@ -128,9 +110,7 @@ Good business leaders create a vision, articulate the vision, passionately own t
 -   Everyone has a voice
 -   Software is a team sport
 
-
-
-**Types of Leadership**
+## Types of Leadership
 
 1.  Transformational leadership
 
@@ -182,41 +162,27 @@ In other words, you're the type of leader who is focused on elevating their team
 
 This ultra-hands-off style of leadership essentially transfers all authority to employees. You're always there to hook them up with whatever resources they need, but then you let them run with it while you attend to other matters. This means your team members can take more ownership of their roles in creative ways, which can be sooooooo empowering.
 
-
-
 <https://www.atlassian.com/blog/quiz/find-your-leadership-style-examples>
 
+![image](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image2.jpg)
 
-
-![9 Traits of Exceptional Leaders -Respect They always respect their people. -Authenticity They can't faked authenticity. -Communication They are great communicators -Humility Staying humble enables them to stay connected to their team. -Accountability They hold themselves accountable and expect the same of their people. -Lead by Example They model the behavior they expect. -Empathy Without empathy, they can't build a team or nurture a new generation of leaders. -Visionary They are driven and inspired by what the future can become. -Care They show genuine care for their team. ](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image2.jpg)
-
-
-
-**Executive Presence**
+## Executive Presence
 -   Appearance
 -   Communication skills
 -   Gravitas
 
-
-
-**Kaizen**
+## Kaizen
 -   Kaizen is a philosophy that productivity can be improved gradually and by involving all employees.
 -   The small changes can involve quality control, just-in-time delivery, standardized work, the use of efficient equipment, and the elimination of waste.
 -   Changes can come from any employee anytime and don't have to happen slowly, where kaizen merely recognizes that small changes now can have big future impacts.
 
-
-
 <https://www.investopedia.com/terms/k/kaizen.asp>
 
-
-
-**A brief guide to leadership**
+## A brief guide to leadership
 -   Always know the answer to, "What are we optimizing for?"
 -   Recruit. Recruit. Recruit.
 -   Never ask someone to do something you aren't willing to do yourself.
 -   Give away the credit. Take the blame.
-
-
 
 Things that keep talented people from fulfilling their potential
 
@@ -230,8 +196,6 @@ Things that keep talented people from fulfilling their potential
 
 - Dividing your attention between too many projects
 
-
-
 It's almost always better to learn from peers who are 2 years ahead of you than mentors who are 20 years ahead of you.
 
 Life evolves and most insights get outdated.
@@ -240,9 +204,7 @@ Life evolves and most insights get outdated.
 -   Process gap
 -   Training gap
 
-
-
-**Coaching**
+## Coaching
 
 Trillion dollar coach - Bill Campbell
 
@@ -256,33 +218,23 @@ Trillion dollar coach - Bill Campbell
 
 5.  Ruthless truth and trust among team players
 
-
-
-**Teaching**
+## Teaching
 
 [How Schools Can Nurture Every Student's Genius | Trish Millines Dziko | TED](https://www.youtube.com/watch?v=SUDMIA23_5s)
 
+## Interview Questions
 
-
-**Interview Questions**
-
-**Can you tell me about a time when you demonstrated leadership capabilities on the job?**
+## Can you tell me about a time when you demonstrated leadership capabilities on the job?
 
 While I was working for my last employer, I was given a special project to oversee. It was my responsibility to ensure it was a success, including coordinating the work of other team members. To keep things on target, I scheduled a strategy meeting to divvy up duties and create a timeline. While also working through my tasks, I reached out regularly to monitor the team's progress, offering guidance and support as necessary to ensure everyone stayed motivated and that deadlines would be met. Ultimately, the project was a success, finishing on time and with all deliverables meeting or exceeding expectations."
 
-
-
-**Which supporting skills do you think are most important when it comes to leadership?**
+## Which supporting skills do you think are most important when it comes to leadership?
 
 First, I think that communication skills are crucial. I regularly use active listening when communicating with others, ensuring I fully understand their perspective. Additionally, since I've regularly worked with stakeholders who don't have the same level of specialty expertise, I've found that the ability to take complex ideas and simplify them is paramount for success. However, communication alone isn't enough. **Accountability** is also vital, as it allows me to lead by example. Similarly, critical thinking is a core component for strategic planning, and served me well when I lead a project with my past employer, which was completed on time and ultimately exceeded expectations.
 
-
-
-**When there is a disagreement on your team, how do you handle it?**
+## When there is a disagreement on your team, how do you handle it?
 
 When there's a disagreement, my first step is to understand the perspective of each person involved. I use active listening skills, giving each party my full attention. I'll summarize my understanding of the situation, asking probing questions to gain additional clarity as required. At that point, my goal is to facilitate conversations that lead to resolutions. Using a calm and respectful approach, I'll work with the involved parties to find a reasonable compromise, brainstorming, and discussing ideas until a suitable option is found. The process ensures everyone can learn more about the other's perspective and that the resolution is a collaborative venture.
-
-
 
 1.  Tell me about the hardest decision you've ever made as a leader. How did you decide which course of action was best?
 
@@ -328,41 +280,29 @@ When there's a disagreement, my first step is to understand the perspective of e
 
 22. If your project became unexpectedly shorthanded, what would you do to ensure it stayed on target?
 
-
-
-**STAR Method**
+## STAR Method
 
 <https://theinterviewguys.com/star-method
 
-**Situation**
+## Situation
 
 Think of a situation similar to what the interviewer is asking you about that had a successful outcome. It doesn't necessarily have to be work related as long as it's relevant. Remember to include the**who,what,where,whenandhow.**
 
-
-
-**Task**
+## Task
 
 Describe the task you were responsible for in that situation.**Keep it specific but concise**. Make sure to highlight**any specific challenges you faced.**
 
-
-
-**Action**
+## Action
 
 This is the part where you**describe exactly what you did**. How did you complete the task you were assigned? Remember to focus on what you did and highlight traits (qualities) that a hiring manager will find desirable (initiative,[teamwork](https://theinterviewguys.com/teamwork-interview-questions/), leadership, dedication, etc.)
-
-
 
 Result:
 
 This is where you get to be introspective. Share what the**outcome of the situation was**and how you specifically**contributed to that outcome.** What did you accomplish? What did you learn? What were the results of your actions?
 
-
-
 <https://theinterviewguys.com/tailoring-method
 
-
-
-**Blinkist - Leaders Eat Last by Simon Sinek**
+## Blinkist - Leaders Eat Last by Simon Sinek
 -   Endorphin: The hormone that masks pain
 -   Dopamine: The hormone that helps us accomplish things
 -   Serotonin: The leadership hormone
@@ -375,31 +315,21 @@ This is where you get to be introspective. Share what the**outcome of the situat
     -   When you finish an exercise feeling good, and the next day the whole body hurts? It did not hurt right away because of the released endorphin, which increased its performance
 -   Serotonin and oxytocin - Altruistic hormones - Affect our social life, helping us relate to others
 
-
-
 Trust - [The advice that changed my life!](https://www.youtube.com/watch?v=ggVrFEzCfZI&ab_channel=warikoo)
-
-
 
 [Designing Leadership | Clearleft CEO | Andy Budd](https://www.youtube.com/watch?v=j6a9kMvN2Kk)
 -   Umbrella - to shield team against all the shit feature requests
 -   Speak the language of business
 
-
-
-**Tools**
+## Tools
 
 <https://seekwise.org
 
-
-
-**Others**
+## Others
 -   Give employees stretch goals (that are hard to accomplish but doable) that will give them boost for completing tasks, and then celebrate the achievement.
 -   Ask everyone after standup, one personal thing that everyone has to answer
     -   One embarassing thing about you
     -   What you will do if you have all the money
     -   Place to visit
-
-
 
 

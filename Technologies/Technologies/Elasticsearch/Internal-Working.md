@@ -14,13 +14,9 @@ Here is the sequenceof steps necessary to successfully create, index, or delete 
 
 3.  Node 3executes the request on the primary shard. If it is successful, it forwards the request in parallel to the replica shards onNode 1andNode 2. Once all of the replica shards report success,Node 3reports success to the coordinating node, which reports success to the client.
 
-
-
 By the time the client receives a successful response, the document change has been executed on the primary shard and on all replica shards. Your change is safe.
 
 ![Creating, indexing or deleting a single document](../../media/Technologies-Elasticsearch-Internal-Working-image1.png)
-
-
 
 Here is the sequence of steps to retrieve a document from either a primary or replica shard:
 
@@ -31,8 +27,6 @@ Here is the sequence of steps to retrieve a document from either a primary or re
 3.  Node 2returns the document toNode 1, which returns the document to the client.
 
 ![Retrieving a single document](../../media/Technologies-Elasticsearch-Internal-Working-image2.png)
-
-
 
 Here is the sequence of steps used to perform a partial update on a document:
 
@@ -64,12 +58,8 @@ The sequence of stepsfollowed by thebulkAPI are as follows:
 
 ![Multiple document changes with bulk](../../media/Technologies-Elasticsearch-Internal-Working-image5.png)
 
-
-
 See Also
 -   Data Structures > Others > Inverted Index
-
-
 
 
 

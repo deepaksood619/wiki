@@ -27,7 +27,7 @@ The 3 parts of a HTTP response
 -   Response Code (like 200)
 -   Headers
 -   Body
-**Versions**
+## Versions
 
 1.  HTTP/0.9 (1991)
 
@@ -42,7 +42,7 @@ Introduced the concept of "keep-alive" connections, that allow clients to reuse 
 
 Introduced the concept of HTTP "streams": an abstraction that allows HTTP implementations to concurrently multiplex different HTTP exchanges onto the same TCP connection, allowing browsers to more efficiently reuse TCP connections.
 5.  HTTP/3 and QUIC
-**HTTP/2 Characteristics -**
+## HTTP/2 Characteristics -
 -   **Multiplexing:** Can use a single connection for multiple requests, (pipelining of requests)
 -   **Bidirectional Streaming:** No more polling, sockets, or clunky SSE (Server Side Events)
 -   **Flow Control:** Control your congestion
@@ -51,10 +51,10 @@ Introduced the concept of HTTP "streams": an abstraction that allows HTTP implem
 -   HTTP/2 is multiplexed to tackle a known limitation in networking known as head-of-line blocking (HOL Blocking). This problem can occur with HTTP 1.1 when multiple requests are issued on a single TCP connection (aka HTTP pipelining). As the entire connection is ordered and blocking (FIFO), a slow request can hold up the connection, slowing down all subsequent requests. Multiplexing definitively solve this problem by allowing several request and response to fly on the wire at the same time.
 -   HTTP/2 uses header compression to reduce overhead. Typical header sizes of 1KB are common mainly because of the cookies that we all have to accept for a smooth user experience. Transferring 1KB can take several network round trips just to exchange headers, and those headers are being re-sent every time because of the stateless nature of HTTP 1.x. The TCP Slow-start makes the problem even worse by limiting the number of packets that can be sent during the first round trips until TCP effectively finishes to probe the network to figure out the available capacity and properly adapt its congestion window. In this context, compressing headers significantly limits the number of required round trips.
 -   HTTP/2 Server Push allows servers to proactively send responses into client caches. In a typical HTTP 1.x workflow, the browser requests a page, the server sends the HTML in the response, and then needs to wait for the browser to parse the response and issue additional requests to fetch the additional embedded assets (JavaScript, CSS, etc.). Server push allows the server to speculatively start sending resources to the client. Here, the browser does not have to parse the HTML page and find out which other resources to load; instead the server can start sending them immediately.
-**Ports**
+## Ports
 -   HTTP - 80
 -   HTTPS - 443
-**HTTP Polling**
+## HTTP Polling
 -   HTTP Short Polling
 -   HTTP Long Polling
 -   HTTP Periodic Polling
@@ -89,7 +89,7 @@ The TLS protocol aims primarily to provide[privacy](https://en.wikipedia.org/wik
 
 [Application-Layer](https://en.wikipedia.org/wiki/Application_layer)Protocol Negotiation(ALPN) is a[Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)(TLS) extension that allows the application layer to negotiate which[protocol](https://en.wikipedia.org/wiki/Communications_protocol)should be performed over a secure connection in a manner that avoids additional round trips and which is independent of the application-layer protocols. It is needed by secure[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)connections, which improves the compression of web pages and reduces their latency compared to HTTP/1.x. The ALPN and HTTP/2 standards emerged from development work done by Google on the now withdrawn[SPDY](https://en.wikipedia.org/wiki/SPDY)protocol.
 
-![Client Server ClientHello (ALPN Extension + List of Protocols) ServerHello (ALPN Extension + Selected Protocol) ChangeCipherSpec Finished ChangeCipherSpec Finished ](media/HTTP---HTTPS-image1.png)
+![image](media/HTTP---HTTPS-image1.png)
 
 <https://en.wikipedia.org/wiki/Application-Layer_Protocol_Negotiation>
 
@@ -98,23 +98,23 @@ The TLS protocol aims primarily to provide[privacy](https://en.wikipedia.org/wik
 Thesame-origin policyis a critical security mechanism that restricts how a document or script loaded from one[origin](https://developer.mozilla.org/en-US/docs/Glossary/origin)can interact with a resource from another origin.It helps isolate potentially malicious documents, reducing possible attack vectors.
 <https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy>
 
-**CORS - Cross-Origin Resource Sharing**
+## CORS - Cross-Origin Resource Sharing
 
 Cross-Origin Resource Sharing (CORS) is a mechanism that uses additional HTTP headers to tell a browser to let a web application running at one origin (domain) have permission to access selected resources from a server at a different origin. A web application makes a cross-origin HTTP request when it requests a resource that has a different origin (domain, protocol, and port) than its own origin.
 A mechanism that allows restricted resources (e.g. fonts) on a web page to be requested from another domain outside the domain from which the first resource was served.
 <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
 
 [Cross Origin Resource Sharing (Explained by Example)](https://www.youtube.com/watch?v=Ka8vG5miErk)
-**Cookies**
+## Cookies
 
 AnHTTP cookie(also calledweb cookie,Internet cookie,browser cookie, or simplycookie) is a small piece of data sent from a[website](https://en.wikipedia.org/wiki/Website)and stored on the user's computer by the user's[web browser](https://en.wikipedia.org/wiki/Web_browser)while the user is browsing. Cookies were designed to be a reliable mechanism for websites to remember [stateful](https://en.wikipedia.org/wiki/Program_state) information (such as items added in the shopping cart in an online store) or to record the user's browsing activity (including clicking particular buttons,[logging in](https://en.wikipedia.org/wiki/Access_control), or recording which pages were visited in the past). They can also be used to remember pieces of information that the user previously entered into form fields, such as names, addresses, passwords, and credit-card numbers.
 <https://en.wikipedia.org/wiki/HTTP_cookie>
 
 [HTTP Cookies Crash Course](https://www.youtube.com/watch?v=sovAIX4doOE)
-**Zombie Cookie**
+## Zombie Cookie
 
 [How Un-deletable Zombie Cookies work (with implementation example)](https://www.youtube.com/watch?v=lq6ZimHh-j4)
-**XHR** (XMLHttpRequest)
+## XHR (XMLHttpRequest)
 
 XMLHttpRequest(XHR) is an[API](https://en.wikipedia.org/wiki/Application_programming_interface)in the form of an[object](https://en.wikipedia.org/wiki/Object-oriented_programming)whose[methods](https://en.wikipedia.org/wiki/Method_(computer_programming))transfer data between a[web browser](https://en.wikipedia.org/wiki/Web_browser)and a[web server](https://en.wikipedia.org/wiki/Web_server). The object is provided by the browser's[JavaScript](https://en.wikipedia.org/wiki/JavaScript)environment. Particularly, retrieval of data from XHR for the purpose of continually modifying a loaded[web page](https://en.wikipedia.org/wiki/Web_page)is the underlying concept of[Ajax](https://en.wikipedia.org/wiki/Ajax_(programming))design. Despite the name, XHR can be used with protocols other than[HTTP](https://en.wikipedia.org/wiki/HTTP)and data can be in the form of not only[XML](https://en.wikipedia.org/wiki/XML),but also[JSON](https://en.wikipedia.org/wiki/JSON),[HTML](https://en.wikipedia.org/wiki/HTML)or[plain text](https://en.wikipedia.org/wiki/Plain_text).
 <https://en.wikipedia.org/wiki/XMLHttpRequest>

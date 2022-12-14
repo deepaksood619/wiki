@@ -6,7 +6,7 @@ Modified: 2021-11-28 18:42:19 +0500
 
 ---
 
-**MAIN CONCEPTS**
+## MAIN CONCEPTS
 -   [1. Hello World](https://reactjs.org/docs/hello-world.html)
 -   [2. Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 -   [3. Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
@@ -21,9 +21,7 @@ Modified: 2021-11-28 18:42:19 +0500
 -   [11. Composition vs Inheritance](https://reactjs.org/docs/composition-vs-inheritance.html)
 -   [12. Thinking In React](https://reactjs.org/docs/thinking-in-react.html)
 
-
-
-**ADVANCED GUIDES**
+## ADVANCED GUIDES
 -   [Accessibility](https://reactjs.org/docs/accessibility.html)
 -   [Code-Splitting](https://reactjs.org/docs/code-splitting.html)
     -   Bundling
@@ -40,16 +38,12 @@ Instead of downloading the entire app before users can use it, code splitting al
 
 Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
-
-
 Context is designed to share data that can be considered "global" for a tree of React components, such as the current authenticated user, theme, or preferred language. For example, we manually thread through a "theme" prop in order to style the Button component
 
 
 -   [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
 
 A JavaScript error in a part of the UI shouldn't break the whole app. To solve this problem for React users, React 16 introduces a new concept of an "error boundary".
-
-
 
 Error boundaries are React components thatcatch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UIinstead of the component tree that crashed. Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
 
@@ -79,13 +73,13 @@ render() {
 
 return (
 
-**<>**
+## <>
 
 <td>Hello</td>
 
 <td>World</td>
 
-**<**
+## <
 
 );
 
@@ -93,13 +87,9 @@ return (
 
 }
 
-
-
 use **<>** or **<React.Fragment>**
 
-
-
-**Keyed Fragments**
+## Keyed Fragments
 
 Fragments declared with the explicit<React.Fragment>syntax may have keys. A use case for this is mapping a collection to an array of fragments --- for example, to create a description list. keyis the only attribute that can be passed toFragment.
 
@@ -116,8 +106,6 @@ Higher-order component is a function that takes a component and returns a new co
 
 Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
 
-
-
 A typical use case for portals is when a parent component has anoverflow: hiddenorz-indexstyle, but you need the child to visually "break out" of its container. For example, dialogs, hovercards, and tooltips.
 -   [Profiler](https://reactjs.org/docs/profiler.html)
 
@@ -132,8 +120,6 @@ TheProfilermeasures how often a React application renders and what the "cost" of
 
 The term["render prop"](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce)refers to a technique for sharing code between React components using a prop whose value is a function.
 
-
-
 <https://medium.com/@mjackson/use-a-render-prop-50de598f11ce>
 
 -   [Static Type Checking](https://reactjs.org/docs/static-type-checking.html)
@@ -142,9 +128,7 @@ The term["render prop"](https://cdb.reacttraining.com/use-a-render-prop-50de598f
 -   [Uncontrolled Components](https://reactjs.org/docs/uncontrolled-components.html)
 -   [Web Components](https://reactjs.org/docs/web-components.html)
 
-
-
-**API REFERENCE**
+## API REFERENCE
 -   [React](https://reactjs.org/docs/react-api.html)
 -   [React.Component](https://reactjs.org/docs/react-component.html)
 -   [ReactDOM](https://reactjs.org/docs/react-dom.html)
@@ -156,14 +140,10 @@ The term["render prop"](https://cdb.reacttraining.com/use-a-render-prop-50de598f
 -   [JS Environment Requirements](https://reactjs.org/docs/javascript-environment-requirements.html)
 -   [Glossary](https://reactjs.org/docs/glossary.html)
 
-
-
-**TESTING**
+## TESTING
 -   [Testing Overview](https://reactjs.org/docs/testing.html)
 -   [Testing Recipes](https://reactjs.org/docs/testing-recipes.html)
 -   [Testing Environments](https://reactjs.org/docs/testing-environments.html)
-
-
 
 <https://reactjs.org/docs/concurrent-mode-suspense.html>
 
@@ -172,8 +152,6 @@ React 16.6 added a<Suspense>component that lets you "wait" for some code to load
 <https://reactjs.org/docs/concurrent-mode-patterns.html>
 
 <https://reactjs.org/docs/concurrent-mode-adoption.html>
-
-
 
 <https://reactjs.org/docs/getting-started.html>
 

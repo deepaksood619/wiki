@@ -9,17 +9,13 @@ Modified: 2021-11-16 00:31:15 +0500
 -   CamelCase with first letter capatilized
 -   One component in one file with same name (MyInfo.js)
 
-
-
-**// creating a component**
+## // creating a component
 
 const App = function() {
 
 return <div>Hi!</div>;
 
 }
-
-
 
 This function can also be written using **fat arrow** in ES6 (terse and compact representation of keyword function)
 
@@ -29,43 +25,29 @@ return <div>Hi!</div>;
 
 }
 
-
-
 App is a type of instances. This is a const class and can have many instances. This is like a factory method
-
-
 
 To create an instance <App  or <App></App> (wrap component name with JSX tags)
 
+## // put the generated html from the component on the page (in the DOM)
 
-
-**// put the generated html from the component on the page (in the DOM)**
-
-**// registering a component**
+## // registering a component
 
 React.render(App);
 
+## // Error: thrown (React is not defined)
 
-
-**// Error: thrown (React is not defined)**
-
-**// import react**
+## // import react
 
 import React from 'react';
-
-
 
 // Error: React.render is deprecated. Please use ReactDOM.render from require('react-dom') instead. Invariant Violation.
 
 import ReactDOM from 'react-dom'
 
-
-
 React is diverged into two libraries
 -   React (core - render, nest)
 -   React-DOM (insertion into DOM)
-
-
 
 // Error: Target container is not a DOM element
 
@@ -73,38 +55,26 @@ Where to put the rendered HTML must be specified
 
 ReactDOM.render(<App , document.queryselector('.container.'))
 
-
-
 => - fat arrow
 
-
-
-**Components Structure**
+## Components Structure
 
 A web page can be divided into different components each one with its own file. We can break up our app into smaller components with different functionalities. We use also next other components into each other. This increases reusability.
 
 One component per file.
 
-
-
-**Export a component (to be imported into other files)**
+## Export a component (to be imported into other files)
 
 export default SearchBar;
 
-
-
-**Import a component to a file (give the full relative path to the file)**
+## Import a component to a file (give the full relative path to the file)
 
 import SearchBar from './components/search_bar';
 
-
-
-**Components Type**
+## Components Type
 -   Functional component (it's a function)
 
 Some info goes in, some JSX comes out.
-
-
 
 function Welcome(props) {
 
@@ -117,8 +87,6 @@ return <h1>Hello, {props.name}</h1>;
 
 Component to have some time of internal record-keeping. Some ability to be aware of itself and know what has happenned since its been rendered.
 
-
-
 class Welcome extends React.Component {
 
 render() {
@@ -129,9 +97,7 @@ return <h1>Hello, {this.props.name}</h1>;
 
 }
 
-
-
-**Class based component (extends React.Component)**
+## Class based component (extends React.Component)
 
 class SearchBar extends React.Component {
 
@@ -143,23 +109,17 @@ return <input
 
 }
 
-
-
-**Choosing functional component or Class component**
+## Choosing functional component or Class component
 
 Always start with functional component and then switch to class based component if required.
 
-
-
-**Writing a handler for user_events**
+## Writing a handler for user_events
 
 render() {
 
 return <input onChange={this.onInputChange} 
 
 }
-
-
 
 onInputChange(event) {
 
@@ -169,19 +129,13 @@ console.log(event.target.value)
 
 }
 
-
-
 or
-
-
 
 render() {
 
 return <input onChange={event => console.log(event.target.value)}
 
-
-
-**Converting a Function to a Class**
+## Converting a Function to a Class
 
 1.  Create an[ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes), with the same name, that extendsReact.Component.
 
@@ -213,27 +167,17 @@ return (
 
 }
 
-
-
 Clockis now defined as a class rather than a function.
-
-
 
 Therendermethod will be called each time an update happens, but as long as we render<Clock into the same DOM node, only a single instance of theClockclass will be used. This lets us use additional features such as local state and lifecycle methods.
 
-
-
-**Preventing Component from Rendering**
+## Preventing Component from Rendering
 
 In rare cases you might want a component to hide itself even though it was rendered by another component. To do this returnnullinstead of its render output.
 
-
-
 Returningnullfrom a component'srendermethod does not affect the firing of the component's lifecycle methods. For instancecomponentDidUpdatewill still be called.
 
-
-
-**Controlled Components / Fields**
+## Controlled Components / Fields
 
 <input
 
@@ -241,11 +185,7 @@ value={this.state.term}
 
 onChange={event => this.setState({ term: event.target.value })} 
 
-
-
 When we set the attribute value to {this.state.term}, this makes the component a controller form element. In this configuration, value is updated when state is updated and not the other way around. this.setState causes the element to re-render and when the component re-render its value is updated to this.state.term.
-
-
 
 Whenever we have a key and value same for a json
 
@@ -254,8 +194,6 @@ this.setState({ videos })
 // this means this.setState({ videos : videos })
 
 // ES6 syntax
-
-
 
 Passing some data from parent compoent to children components
 
@@ -266,8 +204,6 @@ Passing some data from parent compoent to children components
 // here we are passing prop videos to VideoList
 
 // everytime the app renders it will get a list of videos
-
-
 
 Receiving arguments in functional component
 
@@ -281,18 +217,12 @@ return (
 
 };
 
-
-
 // here props object is an argument
 
 // in class based components we have to use this.props to access arguments
 
-
-
-**Controlled Input Null Value**
+## Controlled Input Null Value
 
 Specifying thevalueprop on a[controlled component](https://reactjs.org/docs/forms.html#controlled-components)prevents the user from changing the input unless you desire so. If you've specified avaluebut the input is still editable, you may have accidentally setvaluetoundefinedornull.
-
-
 
 <https://reactjs.org/docs/forms.html>

@@ -11,9 +11,7 @@ Modified: 2020-02-08 12:20:53 +0500
 -   Assignment Operators
 -   Conditional (or ternary) Operators
 
-
-
-**Arithmetic Operators**
+## Arithmetic Operators
 
 There are following arithmetic operators supported by PHP language −
 
@@ -29,9 +27,7 @@ Assume variable A holds 10 and variable B holds 20 then −
 | ++       | Increment operator, increases integer value by one          | A++ will give 11     |
 | --      | Decrement operator, decreases integer value by one          | A-- will give 9     |
 
-
-
-**Comparison Operators**
+## Comparison Operators
 
 There are following comparison operators supported by PHP language
 
@@ -46,9 +42,7 @@ Assume variable A holds 10 and variable B holds 20 then −
 | >=      | Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true. | (A >= B) is not true. |
 | <=      | Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.    | (A <= B) is true.     |
 
-
-
-**Logical Operators**
+## Logical Operators
 
 There are following logical operators supported by PHP language
 
@@ -62,9 +56,7 @@ Assume variable A holds 10 and variable B holds 20 then −
 | ||     | Called Logical OR Operator. If any of the two operands are non zero then condition becomes true.                                                 | (A || B) is true. |
 | !        | Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false. | !(A && B) is false. |
 
-
-
-**Assignment Operators**
+## Assignment Operators
 
 There are following assignment operators supported by PHP language −
 
@@ -77,9 +69,7 @@ There are following assignment operators supported by PHP language −
 | /=       | Divide AND assignment operator, It divides left operand with the right operand and assign the result to left operand      | C /= A is equivalent to C = C / A           |
 | %=       | Modulus AND assignment operator, It takes modulus using two operands and assign the result to left operand                | C %= A is equivalent to C = C % A           |
 
-
-
-**Conditional Operator**
+## Conditional Operator
 
 There is one more operator called conditional operator. This first evaluates an expression for a true or false value and then execute one of the two given statements depending upon the result of the evaluation. The conditional operator has this syntax −
 
@@ -87,9 +77,7 @@ There is one more operator called conditional operator. This first evaluates an 
 |-----------|--------------------|------------------------------------------|
 | ? :      | Conditional Expression | If Condition is true ? Then value X : Otherwise value Y |
 
-
-
-**Operators Categories**
+## Operators Categories
 
 All the operators we have discussed above can be categorised into following categories −
 -   Unary prefix operators, which precede a single operand.
@@ -97,17 +85,11 @@ All the operators we have discussed above can be categorised into following cate
 -   The conditional operator (a ternary operator), which takes three operands and evaluates either the second or third expression, depending on the evaluation of the first expression.
 -   Assignment operators, which assign a value to a variable.
 
-
-
-**Precedence of PHP Operators**
+## Precedence of PHP Operators
 
 Operator precedence determines the grouping of terms in an expression. This affects how an expression is evaluated. Certain operators have higher precedence than others; for example, the multiplication operator has higher precedence than the addition operator −
 
-
-
 For example x = 7 + 3 * 2; Here x is assigned 13, not 20 because operator * has higher precedence than + so it first get multiplied with 3*2 and then adds into 7.
-
-
 
 Here operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.
 
@@ -122,7 +104,5 @@ Here operators with the highest precedence appear at the top of the table, those
 | Logical OR     | ||              | Left to right |
 | Conditional    | ?:                | Right to left |
 | Assignment     | = += -= *= /= %= | Right to left |
-
-
 
 <https://www.tutorialspoint.com/php/php_operator_types.htm>

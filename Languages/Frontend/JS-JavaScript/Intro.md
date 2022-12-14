@@ -6,7 +6,7 @@ Modified: 2022-07-22 20:09:15 +0500
 
 ---
 
-**Javascript**
+## Javascript
 
 1.  Lightweight
 
@@ -30,9 +30,7 @@ Modified: 2022-07-22 20:09:15 +0500
 
 8.  Single Threaded
 
-
-
-**Advantages of JavaScript**
+## Advantages of JavaScript
 
 1.  Less server interaction
 
@@ -42,15 +40,11 @@ Modified: 2022-07-22 20:09:15 +0500
 
 4.  Richer interfaces
 
-
-
-**Syntax**
+## Syntax
 
 1.  Case sensitive
 
-
-
-**Features**
+## Features
 -   First Class Functions
 -   Prototype Based
 
@@ -61,25 +55,17 @@ Supports objects but not classes
 A function sent as a parameter to other function (Since javascript supports first class functions)
 -   Asynchronous
 
-
-
-**Console Logs**
+## Console Logs
 -   console.log()
 -   console.warn()
 -   console.error()
 -   console.table()
 
-
-
-**EventLoop**
+## EventLoop
 
 The event loop is the term given to the process of the waiting for the queue to receive a message synchronously.The increment that the event loop moves in is called a 'tick', and every time it 'ticks' it checks if the call stack is empty, if so , it adds the top function in the event queue to the call stack and executes it.Once it is finished processing this function it starts ticking again. This diagram is simple and great.
 
-
-
-![Call Stack link.addEventListener("click", changeColor) init() 2: its global eval: init "hey Runtime, call •changeColor• when someone clicks link when someone clicks the link.. enqueue a rnessage "click": changeColor Message Queue Event Loop ](media/Intro-image1.png)
-
-
+![image](media/Intro-image1.png)
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop>
 
@@ -89,9 +75,7 @@ V8 JS Engine - <https://www.youtube.com/watch?v=xckH5s3UuX4&ab_channel=freeCodeC
 
 <https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif>
 
-
-
-**Service Workers**
+## Service Workers
 
 1.  Runs in background
 
@@ -99,50 +83,34 @@ V8 JS Engine - <https://www.youtube.com/watch?v=xckH5s3UuX4&ab_channel=freeCodeC
 
 <https://developers.google.com/web/fundamentals/primers/service-workers
 
-
-
-**ModernJS**
+## ModernJS
 -   We define variables with[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)and[const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)statements. For the purposes of the React documentation, you can consider them equivalent to[var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var).
 -   We use theclasskeyword to define[JavaScript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes). There are two things worth remembering about them. Firstly, unlike with objects, youdon'tneed to put commas between class method definitions. Secondly, unlike many other languages with classes, in JavaScript the value ofthisin a method[depends on how it is called](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Boxing_with_prototype_and_static_methods).
 -   We sometimes use=>to define["arrow functions"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions). They're like regular functions, but shorter. For example,x => x * 2is roughly equivalent tofunction(x) { return x * 2; }. Importantly, arrow functions[don't have their ownthisvalue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions#No_separate_this)so they're handy when you want to preserve thethisvalue from an outer method definition.
 
-
-
 <https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c>
 
-
-
-**ECMAScript - European Computer Manufactures Association Script (ES)**
+## ECMAScript - European Computer Manufactures Association Script (ES)
 
 A scripting language specification on which the syntax of JavaScript - along with Jscript and ActionScript - is based
 
-
-
 <https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c>
-
-
 
 <https://www.taniarascia.com/es6-syntax-and-feature-overview
 
 ECMAScript 2015, also known as ES6, introduced many changes to JavaScript.
 
-
-
-**ES Modules**
+## ES Modules
 
 <https://www.freecodecamp.org/news/javascript-modules-beginners-guide
 
-
-
-**Learning**
+## Learning
 
 <https://www.30secondsofcode.org/js/p/1>
 
 <https://github.com/ryanmcdermott/clean-code-javascript>
 
-
-
-**References**
+## References
 
 Javascript: The Definitive Guide
 

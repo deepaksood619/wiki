@@ -6,7 +6,7 @@ Modified: 2022-05-18 21:00:42 +0500
 
 ---
 
-**AWS services to avoid**
+## AWS services to avoid
 
 1.  Cognito
 
@@ -18,41 +18,25 @@ Modified: 2022-05-18 21:00:42 +0500
 
 5.  Lambda
 
-
-
 <https://medium.com/teamzerolabs/5-aws-services-you-should-avoid-f45111cc10cd>
-
-
 
 <https://www.toptal.com/aws/interview-questions>
 
 <https://aws.amazon.com/solutions
 
-
-
-**Regions, Availability Zones, and Local Zones**
+## Regions, Availability Zones, and Local Zones
 
 Each**Region**is a separate geographic area. Each Region has multiple, isolated locations known as**Availability Zones**. Local Zones provide you the ability to place resources, such as compute and storage, in multiple locations closer to your end users. Resources aren't replicated across Regions unless you specifically choose to do so.
 
-
-
 Each Region is completely independent. Each Availability Zone is isolated, but the Availability Zones in a Region are connected through low-latency links. A Local Zone is an AWS infrastructure deployment that places select services closer to your end users. A Local Zone is an extension of a Region that is in a different location from your Region. It provides a high-bandwidth backbone to the AWS infrastructure and is ideal for latency-sensitive applications, for example machine learning.
-
-
 
 ![Regions, Availability Zones, and Local Zones](../../media/Cloud-AWS-Intro-image1.png)
 
-
-
 <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html>
-
-
 
 ![Large Scale Architectural Diagram Region ypc aws Amazon Amazon CloudFront A azon Ro te 53 Static assets Internet Gateway NAT Gateway Public Subnet Application Load Balancer Public Subnet NAT Gateway Amazon EC2 Instance App Subnet Auto Scaling App Subnet Amazon EC2 Instance Amazon RDS EFS Mount Memcached Data Subnet Data Subnet Memcached Standby ---l Amazon Target Amazon training and certification o Amazon EFS o EFS Mount RDS Master Target ](../../media/Cloud-AWS-Intro-image2.png)
 
-
-
-**Amazon Machine Images (AMI)**
+## Amazon Machine Images (AMI)
 
 It is used as a provisioning system, to provision a new instance with an image of the instance.
 
@@ -63,13 +47,9 @@ An AMI includes the following:
 -   Launch permissions that control which AWS accounts can use the AMI to launch instances
 -   A block device mapping that specifies the volumes to attach to the instance when it's launched
 
+## Structure101 - Architecure Development Environment
 
-
-**Structure101 - Architecure Development Environment**
-
-
-
-**Resources**
+## Resources
 
 <https://dev.to/helenanders26/aws-series-aws-from-a-to-z-45b1>
 
@@ -77,9 +57,7 @@ An AMI includes the following:
 
 <https://www.youtube.com/watch?v=3hLmDS179YE>
 
-
-
-**Whitepapers**
+## Whitepapers
 
 <https://d1.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf>
 

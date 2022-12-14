@@ -6,16 +6,16 @@ Modified: 2022-01-27 18:29:02 +0500
 
 ---
 
-**Interface Definition Languages**
+## Interface Definition Languages
 -   Apache Thrift (donated by Facebook)
 -   Google Protocol Buffer (ProtoBuf)
 -   AIDL (Android Interface Definition Language)
-**Spine Switches**
+## Spine Switches
 
 In recent years, an architecture known as leaf and spine, or distributed core, has emerged as a leading design for data centers. This design requires spine specially designed[spine switches](https://www.sdxcentral.com/data-center/what-is-networking-switch-fabric/)in order to work.
 All spine switches can handle Layer 3 (L3) with high port density, which allows for scalability. In a[software-defined network](https://www.sdxcentral.com/networking/sdn/)([SDN](https://www.sdxcentral.com/networking/sdn/definitions/what-the-definition-of-software-defined-networking-sdn/)), the spine switch is directly connected to a network control system with a virtual Layer 2 switch on top of the leaf-spine system. This controller is not a part of the data path but remains the central network engine, also known as an[SDN Controller](https://www.sdxcentral.com/networking/sdn/definitions/sdn-controllers/).
 
-![Spine Switches Diagram](media/Others-image1.jpg)
+![image](media/Others-image1.jpg)
 ![](media/Others-image2.jpg)
 <https://www.sdxcentral.com/data-center/definitions/what-are-spine-switches>
 
@@ -45,7 +45,7 @@ vnc://13.233.36.211:5901
 
 ## Windows remote desktop (RDP)**
 
-**Multi user access**
+## Multi user access
 
 This will launch theGroup Policy Editor(gpedit.msc), which is a management console through which you can configure many Windows system properties or run scripts.
 Once the Group Policy Editor is running, navigate to:
@@ -58,7 +58,7 @@ Next, double-click onLimit number of connectionsand then set theRD Maximum Conne
 ## Download - chrome using Powershell (not cmd)**
 
 $LocalTempDir = $env:TEMP; $ChromeInstaller = "ChromeInstaller.exe"; (new-object System.Net.WebClient).DownloadFile('http://dl.google.com/chrome/install/375.126/chrome_installer.exe', "$LocalTempDir$ChromeInstaller"); & "$LocalTempDir$ChromeInstaller" /silent /install; $Process2Monitor = "ChromeInstaller"; Do { $ProcessesFound = Get-Process | ?{$Process2Monitor -contains $_.Name} | Select-Object -ExpandProperty Name; If ($ProcessesFound) { "Still running: $($ProcessesFound -join ', ')" | Write-Host; Start-Sleep -Seconds 2 } else { rm "$LocalTempDir$ChromeInstaller" -ErrorAction SilentlyContinue -Verbose } } Until (!$ProcessesFound)
-**ONAP**
+## ONAP
 
 ONAP is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. Real-time, policy-driven orchestration and automation of physical and virtual network functions enables rapid automation of new services and complete lifecycle management critical for 5G and next-generation networks.
 <https://www.onap.org>

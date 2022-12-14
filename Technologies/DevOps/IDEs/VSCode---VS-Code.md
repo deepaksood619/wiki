@@ -36,8 +36,6 @@ Gitpod - <https://www.freecodecamp.org/news/exampro-cloud-developer-environment-
 
 codeanywhere
 
-
-
 # Extensions
 -   Docker
 -   Kubernetes
@@ -67,27 +65,19 @@ codeanywhere
 -   <https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode>
 -   <https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager>
 
-
-
-**Shortcuts**
+## Shortcuts
 
 Shift+Option+F - format document
 
 CMD + option + z - zen mode
 
-
-
 CMD + Shift + D - Duplicate line
 
 CMD + B = show hide project view
 
-
-
 Opt + Shift + O = remove unused migrations
 
 Opt + shift + down/up arrow = copy line down
-
-
 
 CMD + T = Show all Symbols
 
@@ -97,28 +87,20 @@ CTRL + R = open recent dialogue
 
 CTRL + G = Go to line
 
-
-
 CMD + SHIFT + F = search whole project
 
 CMD + SHIFT + H = Find and replace whole project
 
-
-
-**Navigation -**
+## Navigation -
 
 Forward / Back
 
 Ctrl + - / Ctrl + Shift + -
 
-
-
 Command Running
 
 Command + p ( + >)
 -   git log
-
-
 
 Command + Shit + p (directly run commands)
 -   Shell Command : Install code in PATH
@@ -144,21 +126,15 @@ Command + Shit + p (directly run commands)
 
 ![Visual Studio Code Keyboard shortcuE for macOS Bæic ed.tl 'ump Add Toggle Multi-cursor and selection at end replace Add to Rich languages editing Editor managenrnt File manage m Display Deb ug Integrated terminal Other and ](../../media/DevOps-IDEs-VSCode---VS-Code-image1.png)
 
-
-
 <https://dev.to/selrond/tips-to-use-vscode-more-efficiently-3h6p>
 
 <https://www.youtube.com/watch?v=WPqXP_kLzpo>
 
 <https://www.youtube.com/watch?v=ifTF3ags0XI>
 
-
-
-**Settings.json (command + <)**
+## Settings.json (command + <)
 -   User Settings- Settings that apply globally to any instance of VS Code you open.
 -   Workspace Settings- Settings stored inside your workspace and only apply when the workspace is opened.
-
-
 
 {
 

@@ -6,10 +6,10 @@ Modified: 2021-05-29 21:57:41 +0500
 
 ---
 
-**The Abstract Pattern of the Problem**
+## The Abstract Pattern of the Problem
 
 A dependency of the function we want to test can have an effect in three different ways: By side-effects, return values or exceptions.
-**Problem 1: A dependencies side-effect**
+## Problem 1: A dependencies side-effect
 
 def a_function():
 
@@ -18,7 +18,7 @@ def a_function():
 a_dependency()
 
 ... # Application code to be tested
-**Problem 2: A dependencies return value**
+## Problem 2: A dependencies return value
 
 def a_function():
 
@@ -27,7 +27,7 @@ def a_function():
 foo = a_dependency()
 
 ... # Application code to be tested; it might use foo
-**Problem 3: A dependency throws an Exception**
+## Problem 3: A dependency throws an Exception
 
 def a_function():
 
@@ -44,7 +44,7 @@ except:
 ... # this might depend on the type of Exception
 
 ... # Application code to be tested
-**The Problem --- Simple Examples**
+## The Problem --- Simple Examples
 
 Example 1: We want to add a user to a database. You can see thatdbdoes not return anything, but we change the state of our system. And we want to be sure that we don't actually change our production system when the unit tests are running!
 Example 2: Generate a file name based on the current date. You can see that the dependencydatetimereturns a value:
@@ -148,7 +148,7 @@ assert is_fraud == True
 When you now execute pytest, the test will succeed. You will always get 0.999 as a return value ofdark_magic🎉
 A part that might be surprising in this example is the first parameter of thepatchdecorator: It's"fraud_example.dark_magic"and NOT"external_dependency.dark_magic"! The target of your replacement is always what was loaded within the file you want to test, not where it was loaded from.
 
-**Direct replacement: Don't do this!**
+## Direct replacement: Don't do this!
 
 The following is an example which does not usepatchand seems to work, but it has a big flaw. If you directly replacedatetime.datetimeinstead of patching it, it will be overwritten in all other contexts after that as well! ⚠️
 
@@ -181,7 +181,7 @@ Everything you do with Mock will return a Mock. Call a function? Get a Mock as a
 Python has so called "magic" methods. I like the term "dunder" methods better --- it just means all methods which start and end with adoubleunderscore. Examples are__iter__or__contains__. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
 A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are[assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(),[assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(),[assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
 
-**spec, autospec & spec_set**
+## spec, autospec & spec_set
 
 A part that is really bad aboutMagicMockis that you can do anything with it --- including accessing non-existing attributes, calling non-existing methods or calling existing methods with the wrong count of parameters. The mock object is missing aspecification. If you don't like that, useautospec=Truewhen patching the object:
 
@@ -337,16 +337,16 @@ Setting a random state / seed is also very helpful for debugging. If you haven't
 -   **Monkey patching vs Mocking:** Within a development context, mocking is pretty clearly about unit testing ([example](https://stackoverflow.com/a/2666006/562769)). However, monkey patching has several applications besides unit testing. For example, you can patch third party code during runtime if there is a small functionality missing or a part of the code is broken. You just extend the code. Monkey patching is used in the PyCharm debugger
 -   **Monkey patching vs pytest.monkeypatch:** The first one is a general concept, the second one is a concrete function within pytest which applies monkey patching for unit tests.
 -   **unittest.mock.patch vs pytest.monkeypatch:** This is personal preference. I prefer to stick with built-ins whenever the third-party option does not have big advantages. In this case, I even think that the core Python unittest.mock.patch is cleaner. For this reason I didn't explain pytest.monkeypatch so far. If you like to see the differences, there is a nice[blog post](https://krzysztofzuraw.com/blog/2016/mocks-monkeypatching-in-python.html)about it.
-**A note about Architecture**
+## A note about Architecture
 
 To keep your code clean, it is often a good idea to wrap third party dependencies. For example, you could have one module with deals with I/O. Or a module which deals with API requests. Then you have a couple of modules which might require a lot of mocking or where unit tests are pointless because the interesting part is the integration with the third party. The rest of your code stays easy to test, keeps the language you defined and cares about the objects you know. This is called the[Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern).
-**What else is there?**
+## What else is there?
 -   Other types of Mocks, such as[PropertyMock](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.PropertyMock)or
 -   [pytest-mock](https://pypi.org/project/pytest-mock/)which provides the mocker fixture; I'm not really sure though if this is mainly a left-over from the time before Python 3.3 or if it actually makes things easier.
 -   The 3rd party package[mock](https://pypi.org/project/mock/), which should not be installed with Python 3.3+ as it was put in the standard library.
-**Tools**
+## Tools
 
-**Mock Server**
+## Mock Server
 
 For any system you integrate with via HTTP or HTTPS MockServer can be used as:
 -   a[mock](https://www.mock-server.com/mock_server/getting_started.html)configured to return specific responses for different requests

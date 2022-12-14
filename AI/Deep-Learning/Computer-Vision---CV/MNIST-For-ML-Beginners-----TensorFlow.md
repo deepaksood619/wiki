@@ -18,15 +18,11 @@ In this tutorial, we're going to train a model to look at images and predict wha
 
 The actual code for this tutorial is very short, and all the interesting stuff happens in just three lines. However, it is very important to understand the ideas behind it: both how TensorFlow works and the core machine learning concepts. Because of this, we are going to very carefully work through the code.
 
-
-
 What we will accomplish in this tutorial:
 -   Learn about the MNIST data and softmax regressions
 -   Create a function that is a model for recognizing digits, based on looking at every pixel in the image
 -   Use TensorFlow to train the model to recognize digits by having it "look" at thousands of examples (and run our first TensorFlow session to do so)
 -   Check the model's accuracy with our test data
-
-
 
 ### The MNIST Data
 
@@ -55,15 +51,13 @@ Flattening the data throws away information about the 2D structure of the image.
 
 The result is that mnist.train.images is a tensor (an n-dimensional array) with a shape of [55000, 784]. The first dimension is an index into the list of images and the second dimension is the index for each pixel in each image. Each entry in the tensor is a pixel intensity between 0 and 1, for a particular pixel in a particular image.
 
-![mnist.train.xs 784 55000 ](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image3.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image3.png)
 
 Each image in MNIST has a corresponding label, a number between 0 and 9 representing the digit drawn in the image.
 
-
-
 For the purposes of this tutorial, we're going to want our labels as "one-hot vectors". A one-hot vector is a vector which is 0 in most dimensions, and 1 in a single dimension. In this case, the nth digit will be represented as a vector which is 1 in the nth dimension. For example, 3 would be [0,0,0,1,0,0,0,0,0,0]. Consequently, mnist.train.labels is a [55000, 10] array of floats.
 
-![mnist.train.ys 10 55000 ](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image4.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image4.png)
 
 We're now ready to actually make our model!
 
@@ -101,15 +95,15 @@ But it's often more helpful to think of softmax the first way: exponentiating it
 
 You can picture our softmax regression as looking something like the following, although with a lot more xs. For each output, we compute a weighted sum of the xs, add a bias, and then apply softmax.
 
-![1,1 3,3 A-bl ---I---b3 ](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image6.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image6.png)
 
 If we write that out as equations, we get:
 
-![[y1, y2, y3] = softmax(W11*x1 + W12*x2 + W13*x3 + b1, W21*x1 + W22*x2 + W23*x3 + b2, W31*x1 + W32*x2 + W33*x3 + b3)](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image7.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image7.png)
 
 We can "vectorize" this procedure, turning it into a matrix multiplication and vector addition. This is helpful for computational efficiency. (It's also a useful way to think.)
 
-![[y1, y2, y3] = softmax([[W11, W12, W13], [W21, W22, W23], [W31, W32, W33]]*[x1, x2, x3] + [b1, b2, b3])](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image8.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image8.png)
 
 More compactly, we can just write:
 
@@ -220,19 +214,11 @@ print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}
 
 This should be about 92%.
 
-
-
 Is that good? Well, not really. In fact, it's pretty bad. This is because we're using a very simple model. With some small changes, we can get to 97%. The best models can get to over 99.7% accuracy! (For more information, have a look at this [list of results](https://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results).)
-
-
 
 What matters is that we learned from this model. Still, if you're feeling a bit down about these results, check out [the next tutorial](https://www.tensorflow.org/get_started/mnist/pros) where we do a lot better, and learn how to build more sophisticated models using TensorFlow!
 
 <https://www.tensorflow.org/get_started/mnist/beginners>
-
-
-
-
 
 
 

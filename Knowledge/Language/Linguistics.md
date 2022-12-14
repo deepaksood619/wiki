@@ -8,55 +8,33 @@ Modified: 2021-12-16 11:58:50 +0500
 
 [Writing Systems of the World | Abjads, Alphabets, Abugidas, Syllabaries & Logosyllabaries](https://youtu.be/Mmz42awTRsA)
 
-
-
-**Grapheme**
+## Grapheme
 
 the smallest meaningful contrastive unit in a writing system.
 
-
-
 In[linguistics](https://en.wikipedia.org/wiki/Linguistics), agraphemeis the smallest unit of a[writing system](https://en.wikipedia.org/wiki/Writing_system)of any given language.An individual grapheme may or may not carry meaning by itself, and may or may not correspond to a single[phoneme](https://en.wikipedia.org/wiki/Phoneme)of the spoken language. Graphemes include[alphabetic letters](https://en.wikipedia.org/wiki/Letter_(alphabet)),[typographic ligatures](https://en.wikipedia.org/wiki/Typographic_ligature),[Chinese characters](https://en.wikipedia.org/wiki/Chinese_characters),[numerical digits](https://en.wikipedia.org/wiki/Numerical_digit),[punctuation](https://en.wikipedia.org/wiki/Punctuation)marks, and other individual symbols. A grapheme can also be construed as a graphical sign that independently represents a portion of linguistic material.
-
-
 
 The wordgrapheme, coined in analogy withphoneme, is derived from[Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek_language)γράφω(gráphō), meaning 'write', and the suffix-eme, by analogy with[phoneme](https://en.wikipedia.org/wiki/Phoneme)and other names of[emic units](https://en.wikipedia.org/wiki/Emic_unit). The study of graphemes is called[graphemics](https://en.wikipedia.org/wiki/Graphemics).
 
-
-
 The concept of graphemes is an abstract one and similar to the notion in[computing](https://en.wikipedia.org/wiki/Computing)of a[character](https://en.wikipedia.org/wiki/Character_(computing)). By comparison, a specific shape that represents any particular grapheme in a specific[typeface](https://en.wikipedia.org/wiki/Typeface)is called a[glyph](https://en.wikipedia.org/wiki/Glyph). For example, the grapheme corresponding to the abstract concept of "the Arabic numeral one" has two distinct glyphs ([allographs](https://en.wikipedia.org/wiki/Allograph)) in the fonts[Times New Roman](https://en.wikipedia.org/wiki/Times_New_Roman)and[Helvetica](https://en.wikipedia.org/wiki/Helvetica).
-
-
 
 <https://en.wikipedia.org/wiki/Grapheme>
 
-
-
-**Phoneme**
+## Phoneme
 
 Any of the perceptually distinct units of sound in a specified language that distinguish one word from another, for example*p*,*b*,*d*, and*t*in the English words*pad*,*pat*,*bad*, and*bat*.
 
-
-
 Despite there being just 26 letters in the English language there are approximately 44 unique sounds, also known as[phonemes](https://www.dyslexia-reading-well.com/phonemes.html). The 44 sounds help distinguish one word or meaning from another. Various letters and letter combinations known as graphemes are used to represent the sounds.
-
-
 
 The 44 English sounds fall into two categories: consonants and vowels.
 
-
-
-**What is the International Phonetic Alphabet (IPA)?**
+## What is the International Phonetic Alphabet (IPA)?
 
 How can you pronounce a word you've never read? It can be a bit tricky. How about a word in a foreign language? Now that must be impossible! Or is it? Imagine a set of symbols that could tell you how to pronounce any word in any language on the planet? Well that is exactly what the International Phonetic Alphabet is. Currently, the IPA consists of 107 sound symbols, 52 diacritics (accents) and 4 prosodic marks (intonations) encompassing virtually every phoneme used in every language on the earth. So for any written word, you can identify the associated phoneme symbols, and with a bit of practice, pronounce the word! Congratulations, you can speak Greek now!
 
-
-
 The IPA was created by the[International Phonetic Association](https://www.internationalphoneticassociation.org/). Founded in 1886 in Paris, their original mission was to help school children pronounce words in foreign languages and to aid in the teaching of reading. Today their mission is to promote the scientific study of phonetics.
 
-
-
-**Consonants**
+## Consonants
 
 | Phoneme | IPA Symbol | Graphemes                         | Examples                                                          | Voiced? |
 |---------|----------|----------------|------------------------------|--------|
@@ -85,9 +63,7 @@ The IPA was created by the[International Phonetic Association](https://www.inter
 | 23      | ŋ          | ng, n, ngue                       | ring, pink, tongue                                                | Yes     |
 | 24      | j          | y, i, j                           | you, onion, hallelujah                                            | Yes     |
 
-
-
-**Vowels**
+## Vowels
 
 | Phoneme | IPA Symbol | Graphemes                                          | Examples                                                                       |
 |---------|----------|----------------------|-------------------------------|
@@ -112,17 +88,11 @@ The IPA was created by the[International Phonetic Association](https://www.inter
 | 43      | ɪəʳ        | ear, eer, ere, ier                                 | ear, steer, here, tier                                                         |
 | 44      | ʊəʳ        | ure, our                                           | cure, tourist                                                                  |
 
-
-
 <https://www.dyslexia-reading-well.com/44-phonemes-in-english.html>
 
-
-
-**Diacritic**
+## Diacritic
 
 A**diacritic**-- also**diacritical mark**,**diacritical point**,**diacritical sign**, or**accent**-- is a[glyph](https://en.wikipedia.org/wiki/Glyph)added to a[letter](https://en.wikipedia.org/wiki/Letter_(alphabet)), or basic glyph. The term derives from the[Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek)[διακριτικός](https://en.wiktionary.org/wiki/%CE%B4%CE%B9%CE%B1%CE%BA%CF%81%CE%B9%CF%84%CE%B9%CE%BA%CF%8C%CF%82#Ancient_Greek)(*diakritikós*, "distinguishing"), fromδιακρίνω(*diakrī́nō*, "to distinguish").*Diacritic*is primarily an[adjective](https://en.wikipedia.org/wiki/Adjective), though sometimes used as a[noun](https://en.wikipedia.org/wiki/Noun), whereas*diacritical*is only ever an adjective. Some diacritical marks, such as the[acute](https://en.wikipedia.org/wiki/Acute_accent)( ´ ) and[grave](https://en.wikipedia.org/wiki/Grave_accent)( ` ), are often called*accents*. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
-
-
 
 <table>
 <colgroup>
@@ -301,8 +271,6 @@ A**diacritic**-- also**diacritical mark**,**diacritical point**,**diacritical si
 </tr>
 </tbody>
 </table>
-
-
 
 <https://en.wikipedia.org/wiki/Diacritic>
 

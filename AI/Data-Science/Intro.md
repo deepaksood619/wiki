@@ -26,15 +26,11 @@ Modified: 2022-02-10 22:27:09 +0500
 
 10. Model Predictions
 
-
-
 <https://machinelearningmastery.com/statistical-methods-in-an-applied-machine-learning-project
 
+![image](media/Intro-image1.png)
 
-
-![THE DATA SCIENCE HIERARCHY OF NEEDS LEARN/OPTIMIZE AGGREGATE/LABEL EXPLORE/TRANSFORM MOVE/STORE COLLECT DEEP LEARNING A/B TESTING, EXPERIMENTATION, SIMPLE ML ALGORITHMS ANALYTICS, METRICS, SEGMENTS, AGGREGATES, FEATURES, TRAINING DATA CLEANING, ANOMALY DETECTION, PREP RELIABLE DATA FLOW, INFRASTRUCTURE, PIPELINES, ETL, STRUCTURED AND UNSTRUCTURED DATA STORAGE INSTRUMENTATION, LOGGING, SENSORS, EXTERNAL DATA, USER GENERATED CONTENT ](media/Intro-image1.png)
-
-**Types of Data Science**
+## Types of Data Science
 
 1.  Descriptive Analytics (Business Intelligence)
 
@@ -54,9 +50,7 @@ Use data to help a company make decisions
 -   What should we do about the particular types of customers that are prone to churn?
 -   How should we market a home to sell quickly, given its location and number of rooms?
 
-
-
-**Fields**
+## Fields
 
 1.  **Data Analysis**
 
@@ -68,8 +62,6 @@ Research - gather the data, design and conduct experiments
 
 Interpretation - Summarize and aggregate, visualize, apply statistical tools
 
-
-
 2.  **Data Modeling**
 
 Using the data that we have to estimate the data that we wish we had
@@ -79,8 +71,6 @@ Supervised learning - classification, regression, anomaly detection
 Unsupervised learning - clustering, dimensionality reduction, anomaly detection
 
 Custom algorithm development - feature engineering, numerical optimization
-
-
 
 3.  **Data Engineering**
 
@@ -92,8 +82,6 @@ Production - automation, system integration, robustification
 
 Software engineering - ensure maintainability, scaling, collaborative development
 
-
-
 4.  **Data Mechanics**
 
 Data formatting - type conversion, string manipulation, fixing errors
@@ -102,19 +90,13 @@ Value interpretation - dates and times, units of measurement, missing values
 
 Data handling - querying, slicing, joining
 
-
-
 <https://brohrer.github.io/data_science_archetypes.html>
 
-
-
-**Interview Questions**
+## Interview Questions
 
 <https://www.toptal.com/data-science#hiring-guide>
 
-
-
-**Questions for any new data science project:**
+## Questions for any new data science project:
 
 1.  What is the question you are trying to answer?
 
@@ -130,9 +112,7 @@ Data handling - querying, slicing, joining
 
 7.  Do you need to be able to interrogate your methods?
 
-
-
-**Talk: How did python become a data science powerhouse**
+## Talk: How did python become a data science powerhouse
 
 1.  Plotting libraries
 
@@ -156,13 +136,9 @@ Data handling - querying, slicing, joining
 
 9.  Cython (Code Optimization - compiles to C)
 
-
-
-**Data Governance**
+## Data Governance
 
 Data governance (DG) is the process of managing the availability, usability, integrity and security of the[data](https://searchdatamanagement.techtarget.com/definition/data)in enterprise systems, based on internal data standards and policies that also control data usage. Effective data governance ensures that data is consistent and trustworthy and doesn't get misused. It's increasingly critical as organizations face new data privacy regulations and rely more and more on data analytics to help optimize operations and drive business decision-making.
-
-
 
 Ethical Principles around Data
 
@@ -182,17 +158,11 @@ People using your data should do it for your benefit
 
 Do no harm
 
-
-
-**ODPi**
+## ODPi
 
 ODPi creates open source standards to help you use and understand data across all platforms.
 
-
-
 <https://www.odpi.org
-
-
 
 <https://searchdatamanagement.techtarget.com/definition/data-governance>
 
@@ -200,9 +170,7 @@ ODPi creates open source standards to help you use and understand data across al
 
 <https://www.oreilly.com/content/data-governance-and-the-death-of-schema-on-read
 
-
-
-**Topic Models**
+## Topic Models
 
 The grouping of relevant words is highly suggestive of an abstract theme which is called a topic. Based on the assumption that words that are in the same topic are more likely to occur together, it is possible to attribute phrases or keywords to a particular topic. This allows us to alias a particular topic with a number of phrases and words.
 -   A topic example - tobacco, farm, crops
@@ -221,9 +189,7 @@ The grouping of relevant words is highly suggestive of an abstract theme which i
 -   Gensim
 -   LDA
 
-
-
-**Building a Data Science Team**
+## Building a Data Science Team
 -   Data Engineer
     -   Store and maintain data
     -   SQL/Java/Scala/Python
@@ -251,27 +217,17 @@ Usually have a higher level of education. It is a slightly higher role than a re
 
 These are the folks who maintain the Hadoop cluster / big data infrastructure. Aka, "the plumbers".
 
+## Data Science Team Organizational Models
 
+![image](media/Intro-image2.png)
 
-**Data Science Team Organizational Models**
+## Hub and Spoke model
 
-![Centralized/isolated The data team is the owner of data and answers requests from other teams Data Engineering Design & Product Embedded Data experts are dispersed across an organization and report to functional leaders Squad 1 Squad 2 Squad 3 Hybrid Data experts sit with functional teams and also report to the Chief Data Scientist---so data is an organizational priority Squad 1 Squad 2 Squad 3 Data ](media/Intro-image2.png)
-
-
-
-**Hub and Spoke model**
-
-![SPOKE Product analyst HUB Centralized analytics team SPOKE Engineering analyst SPOKE Sales analyst SPOKE Marketing analyst SPOKE Operations analyst ](media/Intro-image3.jpeg)
-
-
+![image](media/Intro-image3.jpeg)
 
 [Machine Learning Engineer vs Data Scientist vs Data Engineer](https://youtu.be/1xKzPBwBdn8)
-
-
 
 <https://www.analyticsvidhya.com/blog/2021/04/top-30-mcqs-to-ace-your-data-science-questions-interviews
 
 [Learn Python for Data Science](https://www.youtube.com/playlist?list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
-
-
 

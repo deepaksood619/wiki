@@ -43,13 +43,9 @@ Modified: 2019-10-02 13:44:55 +0500
 11. [Skeletal system](https://en.wikipedia.org/wiki/Skeletal_system):
     -   [Bones](https://en.wikipedia.org/wiki/Bone)supporting the body and its[organs](https://en.wikipedia.org/wiki/Organ_(anatomy)).
 
-
-
-![要 u ・ 製 「 ! 。 ョ ・ ま を ョ 望 簿 を ](media/Organ-Systems-image1.jpg)
+![image](media/Organ-Systems-image1.jpg)
 
 ![](media/Organ-Systems-image2.jpg)
-
-
 
 Bone to bone connection - ligament
 

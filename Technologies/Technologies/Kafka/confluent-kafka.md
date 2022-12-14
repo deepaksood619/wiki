@@ -6,19 +6,15 @@ Modified: 2020-05-30 18:50:42 +0500
 
 ---
 
-**Confluent kafka-python**
+## Confluent kafka-python
 
 pip install confluent-kafka
 
 pip install "confluent-kafka[avro]"
 
-
-
-**Consumer**
+## Consumer
 
 from confluent_kafka import Consumer, KafkaError
-
-
 
 consumer_config = {
 
@@ -40,11 +36,7 @@ consumer_config = {
 
 }
 
-
-
 c = Consumer(consumer_config)
-
-
 
 # callbacks
 
@@ -52,21 +44,13 @@ def print_on_assign(consumer, partitions):
 
 logging.info(f'Assignment: {partitions}')
 
-
-
 for partition in partitions:
 
 logging.info(f'watermark: {c.get_watermark_offsets(partition=partition)}')
 
-
-
 logging.info(f'committed offsets for all partitions: {c.committed(partitions=partitions)}')
 
-
-
 logging.info(f'position: {c.position(partitions=partitions)}')
-
-
 
 
 
@@ -76,29 +60,19 @@ logging.info(f'Revoke Assignment: {partitions}')
 
 
 
-
-
 c.subscribe(['bank_data'], on_assign=print_on_assign, on_revoke=print_on_revoke)
 
-
-
 timeout_seconds = 1
-
-
 
 while True:
 
 msg = c.poll(1.0)
-
-
 
 # initial error handling
 
 if msg is None:
 
 continue
-
-
 
 if msg.error():
 
@@ -112,11 +86,7 @@ logging.error(f'druid consumer error: {msg.error()}')
 
 break
 
-
-
 logging.debug(f'{msg.topic()} [{msg.partition()}] at offset {msg.offset()}')
-
-
 
 try:
 
@@ -127,8 +97,6 @@ final_data = msg.value()
 final_data = json.loads(final_data.decode('utf-8'))
 
 c.commit()
-
-
 
 except Exception as e:
 
@@ -148,21 +116,15 @@ else:
 
 continue
 
-
-
 # exponential back-off if exception occurred
 
 time.sleep(timeout_seconds)
 
 timeout_seconds *= 2
 
-
-
-**Producer**
+## Producer
 
 from confluent_kafka import Producer
-
-
 
 p = Producer({
 
@@ -180,8 +142,6 @@ p = Producer({
 
 })
 
-
-
 def delivery_report(err, msg):
 
 """ Called once for each message produced to indicate delivery result.
@@ -198,22 +158,16 @@ else:
 
 logging.debug(f'Message delivered topic: {msg.topic()} partition: {msg.partition()} offset: {msg.offset()}')
 
-
-
 p.produce('bank_data', json.dumps(payload), callback=delivery_report)
 
 p.flush()
 
-
-
-**Resources**
+## Resources
 
 <https://github.com/confluentinc/confluent-kafka-python>
 
 <https://docs.confluent.io/current/clients/confluent-kafka-python
 
 <https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md>
-
-
 
 <https://towardsdatascience.com/3-libraries-you-should-know-to-master-apache-kafka-in-python-c95fdf8700f2>

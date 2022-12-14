@@ -8,9 +8,7 @@ Modified: 2019-09-06 22:22:53 +0500
 
 BFS "is an algorithm for traversing or searching tree data structure. It starts at the tree root and explores the neighbor nodes first, before moving to the next level neighbors." --- [Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
 
-
-
-**Breadth-First Search(BFS)**
+## Breadth-First Search(BFS)
 
 BFS algorithm traverses the tree level by level and depth by depth.
 
@@ -39,8 +37,6 @@ Now let's code it.
 |               | if current_node.right_child:        |
 |               | queue.put(current_node.right_child) |
 
-
-
 To implement a BFS algorithm, we use the queue data structure to help.
 
 ![](media/Breadth-First-Search-(BFS)-image3.png)
@@ -57,8 +53,6 @@ To implement a BFS algorithm, we use the queue data structure to help.
 
 
 
-
-
 Other Way -
 
 Can color the vertices of the graph using 3 color, white, gray and black
@@ -70,25 +64,15 @@ This means that once a vetex is colored black, it has no white vertices adjacent
 
 
 
+![image](media/Breadth-First-Search-(BFS)-image4.png)
 
-
-![Breadth-first search demo Repeat until queue is empty: • Remove vertex v from queue. • Add to queue all unmarked vertices adjacent to v and mark them. v edgeTo[] distTo[l ](media/Breadth-First-Search-(BFS)-image4.png)
-
-
-
-![Depth-first search. Put unvisited vertices on a stack. Breadth-first search. Put unvisited vertices on a queue. Shortest path. Find path from s to t that uses fewest number of edges. BFS (from source vertex s) Put s onto a FIFO queue, and mark s as visited. Repeat until the queue is empty: - remove the least recently added vertex v - add each of v's unvisited neighbors to the queue, and mark them as visited. Intuition. BFS examines vertices in increasing distance from s. ](media/Breadth-First-Search-(BFS)-image5.png)
-
-
+![image](media/Breadth-First-Search-(BFS)-image5.png)
 
 Properties -
 
 1.  BFS computes shortest paths (fewest number of edges) from s to all other vertices in a graph in time proportional to E + V.
 
-
-
-![public class BreadthFi rstPaths pri vate bool ean[] marked; private int[] edgeTo; private void bfs(Graph G, int s) = new Queue<lnteger>() ; Queue<lnteger> q q. enqueue(s) ; marked[s] = true; while (!q.isEmpty()) int v = q. dequeue(); for (int w : G.adj if (!marked[w]) q . enqueue(w) ; marked [w] = true; edgeTo[w] = v; ](media/Breadth-First-Search-(BFS)-image6.png)
-
-
+![image](media/Breadth-First-Search-(BFS)-image6.png)
 
 
 

@@ -6,14 +6,12 @@ Modified: 2022-11-30 13:28:49 +0500
 
 ---
 
-**Books**
+## Books
 -   From Plassey To Partition - Sekhar Bandyopadhyay
 -   History Of Modern India - Bipan Chandra
 -   World History: Patterns of Interaction - McDougal Littell
 
-
-
-**I. ANCIENT**
+## I. ANCIENT
 
 BC
 -   2300--1750:Indus Valley Civilization.
@@ -39,9 +37,7 @@ BC
 -   455:Accession of Skandagupta.
 -   606--647:Harshavardhan's reign.
 
-
-
-**II. MEDIEVAL**
+## II. MEDIEVAL
 -   712:First invasion in Sindh by Arabs (Mohd. Bin Qasim).
 -   836:Accession of King Bhoja of Kannauj.
 -   985:Accession of Rajaraja, the Chola ruler.
@@ -94,9 +90,7 @@ BC
 -   1757:Battle of Plassey, establishment of British political rule in India at the hands of Lord Clive.
 -   1761:Third battle of Panipat.
 
-
-
-**III. Modern**
+## III. Modern
 -   1764:Battle of Buxar.
 -   1765:Clive appointed Company's Governor in India.
 -   1767--69:First Angle-Mysore War.
@@ -150,17 +144,13 @@ BC
 -   1946:British Cabinet Mission visits India; Interim government formed at the Centre. The Muslim league decides on "Direct Action" for winning Pakistan.
 -   1947:Division of India; India and Pakistan form separate independent dominions.
 
-
-
 <https://iasexamportal.com/general-knowledge/indian-history-important-dates>
 
 [Crash Course Modern History | British East India Company from 1600 - 1857](https://youtu.be/kUWEYLVooxU)
 
 [Crash Course Modern history India 1857 - 1947 | Polity UPSC, IAS, CDS, NDA, SSC CGL](https://youtu.be/OBxvhyRAa-s)
 
-
-
-**Important Revolutions in India**
+## Important Revolutions in India
 
 | SL No | Name of the Revolution              | Field of the Revolution            | Father of the Revolution                     | Period of the Revolution |
 |-------|-----------------|-----------------|-------------------|-------------|
@@ -181,13 +171,9 @@ BC
 | 15    | Protein Revolution                  | Agriculture (Higher Production)    |                                             | 2014 -- 2020             |
 | 16    | Grey Revolution                     | Fertilizers                        |                                             | The 1960s-1970s          |
 
-
-
 <https://entri.app/blog/important-revolutions-and-fathers
 
-
-
-**Others**
+## Others
 
 [Crash Course NCERT- Hinduism, Jainism, Buddhism | Ancient History UPSC / IAS / SSC CGL](https://youtu.be/8oMLJnkR1qw)
 

@@ -6,7 +6,7 @@ Modified: 2020-01-03 17:00:20 +0500
 
 ---
 
-**CQL**
+## CQL
 -   CQL mapping to cassandra's internal data structure
 -   Use SQL like query language
 -   **CQL is a reintroduction of schema**
@@ -17,7 +17,7 @@ Modified: 2020-01-03 17:00:20 +0500
 -   CQL is asynchronous and fast (Thrift transport layer is synchronous)
 -   CQL allows the possibility for prepared statements
 
-**Commands**
+## Commands
 ```
 DESCRIBE KEYSPACES;
 
@@ -58,7 +58,7 @@ DROP TABLE videos_by_tag;
 COPY videos(video_id, added_date, title) FROM '/Users/deepaksood/Downloads/ds201-6.0-labwork/labwork/data-files/videos.csv' WITH HEADER=TRUE;
 COPY videos_by_tag (tag, video_id, added_date, title) FROM '/Users/deepaksood/Downloads/ds201-6.0-labwork/labwork/data-files/videos-by-tag.csv' WITH HEADER=TRUE;
 QUIT
-**DESCRIBE TABLE videos;**
+## DESCRIBE TABLE videos;
 
 SELECT token(video_id), video_id FROM videos;
 ```
@@ -68,11 +68,11 @@ SELECT token(video_id), video_id FROM videos;
 
 ![Remember this](media/Cassandra_CQL-(Cassandra-Query-Language)-image3.png)
 
-![The CQL/Cassandra Mapping](media/Cassandra_CQL-(Cassandra-Query-Language)-image4.png)
+![image](media/Cassandra_CQL-(Cassandra-Query-Language)-image4.png)
 
-![The CQL/Cassandra Mapping](media/Cassandra_CQL-(Cassandra-Query-Language)-image5.png)
+![image](media/Cassandra_CQL-(Cassandra-Query-Language)-image5.png)
 
-![The CQL/Cassandra Mapping](media/Cassandra_CQL-(Cassandra-Query-Language)-image6.png)
+![image](media/Cassandra_CQL-(Cassandra-Query-Language)-image6.png)
 
 ![CQL](media/Cassandra_CQL-(Cassandra-Query-Language)-image7.png)
 

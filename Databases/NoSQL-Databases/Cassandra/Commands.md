@@ -14,12 +14,12 @@ docker exec -it cas1 nodetool ring
 
 docker exec -it cas1 nodetool getendpoints killrvideo videos '1645ea59-14bd-11e5-a993-8138354b7e31'
 docker exec -it cas2 cqlsh
-**cqlsh - Cassandra cli tools**
+## cqlsh - Cassandra cli tools
 
 brew install cassandra
 
 ./bin/cqlsh
-**nodetool**
+## nodetool
 -   assassinate Forcefully remove a dead node without re-replicating any data. Use as a last resort if you cannot removenode
 -   bootstrap Monitor/manage node's bootstrap process
 -   cleanup Triggers the immediate cleanup of keys no longer belonging to a node. By default, clean all keyspaces

@@ -6,9 +6,7 @@ Modified: 2021-10-06 21:32:24 +0500
 
 ---
 
-**Linear regression**is a method for finding the straight line or hyperplane that best fits a set of points.
-
-
+## Linear regressionis a method for finding the straight line or hyperplane that best fits a set of points.
 
 The representation of linear regression is an equation that describes a line that best fits the relationship between the input variables (x) and the output variables (y), byfinding specific weightings for the input variables called coefficients (B).
 
@@ -16,37 +14,23 @@ For example:
 
 y = B0 + B1 * x
 
-
-
 We willpredict y given the input x and the goal of the linear regression learning algorithm is to find the values for the coefficients B0 and B1.
-
-
 
 Different techniques can be used to learn the linear regression model from data, such as a linear algebra solution for ordinary least squares and gradient descent optimization.
 
-
-
 Linear regression has been around for more than 200 years and has been extensively studied. Some good rules of thumb when using this technique are to remove variables that are very similar (correlated) and to remove noise from your data, if possible.
 
-
-
-**LOESS Curve Fitting (LOcally WEighted Scatter-plot Smoother)**
+## LOESS Curve Fitting (LOcally WEighted Scatter-plot Smoother)
 
 This is a method for fitting a smooth curve between two variables, or fitting a smooth surface between an outcome and up to four predictor variables.
 
-
-
 This is a nonparametric method because the linearity assumptions of conventional regression methods have been relaxed. Instead of estimating parameters like m and c in y = mx +c, a nonparametric regression focuses on the fitted curve. The fitted points and their standard errors represent are estimated with respect to the whole curve rather than a particular estimate. So, the overall uncertainty is measured as how well the estimated curve fits the population curve.
-
-
 
 <https://www.statsdirect.com/help/nonparametric_methods/loess.htm>
 
 <https://towardsdatascience.com/loess-373d43b03564?gi=dca24c6898e1>
 
-
-
-**Assumptions of Linear Regression**
+## Assumptions of Linear Regression
 -   Linear relationship
 
 There is a linear relationship between the dependent variables and the regressors, meaning the model you are creating actually fits the data
@@ -60,31 +44,23 @@ This means the variance around the regression line is the same for all values of
 
 <https://en.wikipedia.org/wiki/Homoscedasticity>
 
-
-
 <http://r-statistics.co/Assumptions-of-Linear-Regression.html>
-
-
 
 <https://towardsdatascience.com/an-introduction-to-linear-regression-for-data-science-9056bbcdf675>
 
 <https://blog.minitab.com/en/adventures-in-statistics-2/how-to-interpret-regression-analysis-results-p-values-and-coefficients>
 
+## Linear Regression
 
+![image](media/Linear-regression-image1.jpg)
 
-**Linear Regression**
+![image](media/Linear-regression-image2.jpg)
 
-![Task: predict real-valued Y, given real-valued vector X using a regression model f Error function, e.g., least squares is often used target value Model structure: e.g., linear f(X , Model parameters = Q = {Co, (11 predicted value a + Eax ](media/Linear-regression-image1.jpg)
+![image](media/Linear-regression-image3.jpg)
 
-![Estimating 0 (having least error): we can write- =y-XO where e Y = N x 1 vector of target values (P+l) x 1 vector of parameter values N x (P+l) vector of input values ](media/Linear-regression-image2.jpg)
+![image](media/Linear-regression-image4.jpg)
 
-![2 ---Ee=e = y' y - 0' X'y - y' XO +0'X'X0 = y' y - 20'X'y +0' X' XO Taking derivative of S(O) with respect to the components of 0 gives - dS/d 0 = -2 X' y + 2X'X0 Set this to O to find the minimum of S as a function of 0. ](media/Linear-regression-image3.jpg)
-
-![Set to O to find the minimum of S as a function of 0 ... X'XO=X'y (known in statistics as the Normal Equations) Letting X' X = C, and X' y = b, we have C 0 = b, i.e., a set of linear equations We could solve this directly, e.g., by matrix inversion 0=C1b = (X' X' y ](media/Linear-regression-image4.jpg)
-
-
-
-**Solving for the θ's**
+## Solving for the θ's
 -   Problem is equivalent to inverting X' X matrix
     -   Inverse does not exist if matrix is not of full rank
         -   E.g., if 1 column is a linear combination of another (collinearity)
@@ -98,9 +74,7 @@ This means the variance around the regression line is the same for all values of
 -   Alternative: gradient descent
     -   Compute gradient and move downhill
 
-
-
-**Multivariate Linear Regression**
+## Multivariate Linear Regression
 -   Prediction model is a inear function of the parameters
 -   Score function: quadratic in predictions and parameters
     -   Derivative of score is linear in the parameters
@@ -113,9 +87,7 @@ This means the variance around the regression line is the same for all values of
     -   e.g., to compare more complex models to
 -   Note: even if it's the wrong model for the data (e.g., a poor fit) it can still be useful for prediction
 
-
-
-**Limitations of Linear Regression**
+## Limitations of Linear Regression
 -   True relationship of X and Y might be non-linear
     -   Suggests generalizations to non-linear models
 -   Complexity
@@ -126,30 +98,18 @@ This means the variance around the regression line is the same for all values of
 -   Includes all variables in the model
     -   But what if p=1000 and only 3 variables are actually related to Y?
 
+![image](media/Linear-regression-image5.png)
 
+![image](media/Linear-regression-image6.png)
 
-![In linear regression, the prediction is a weighted sum of inputs WI Xl + W 2X2 + can cocdersed into a equation ](media/Linear-regression-image5.png)
+![image](media/Linear-regression-image7.png)
 
-
-
-![The typical loss for linear regression is mean squared error L = -xw112 is I-a rocm of residu& squared. ](media/Linear-regression-image6.png)
-
-
-
-![Linear regression does have a closed form solution, but it is not practical for large datasets webhf vector Gt-arn Hon-enf ](media/Linear-regression-image7.png)
-
-
-
-![Gradient Descent ](media/Linear-regression-image8.png)
-
-
+![image](media/Linear-regression-image8.png)
 
 What is a hyperparameter that helps determine gradient descent's step size along the hypersurface to hopefully speed up convergence?
 -   Learning rate
 
-
-
-**Regression Diagnostics**
+## Regression Diagnostics
 -   **Non-linearity**
 
 In a regression, we are assuming that the relationship between the dependent and independent variables is linear. If it is not:
@@ -166,18 +126,14 @@ The residuals (or prediction errors) should not reveal any patterns (get larger 
 
 The residuals should be normally distributed
 
-
-
-**Linear vs Non-Linear Regressions**
+## Linear vs Non-Linear Regressions
 -   The easiest way to detech multicollinearity is to run scatter plots of the dependent variable against each independent variables
 
-![Linear Linear No linear relationship ](media/Linear-regression-image9.jpeg)
+![image](media/Linear-regression-image9.jpeg)
 -   A non-linear regression tries to find a best fit line through the non-linear plot. The process of fitting a line, though, is more complicated, and often involves trial and error
 -   If you choose to transform a variable (dependent or independent), you may have to use trial and error (using the scatter plot) to find your best transformation
 
-
-
-**Collinearity Diagnostics**
+## Collinearity Diagnostics
 -   Multicollinearity can cause coefficient estimates on the independent variables to become unreliable and volatile
     -   It reduces the precision of these coefficients and the statistical power of the regression
     -   It generally does not influent the predictions or precision of the predictions
@@ -189,15 +145,11 @@ The residuals should be normally distributed
     -   Run individual simple regressions against the indepedent variables
     -   Do nothing, use the multiple regression for predictions, and don't over read the coefficients on variables
 
+## Prediction Errors from Regression: Homoskedasticity and Heteroskedasticity
 
+![image](media/Linear-regression-image10.jpeg)
 
-**Prediction Errors from Regression: Homoskedasticity and Heteroskedasticity**
-
-![Residual (Pegg Error) Predicted Value omosce asticlty Residual (Pegge Error) Predicted Value Heteroscedasticity ](media/Linear-regression-image10.jpeg)
-
-
-
-**Regression Variants**
+## Regression Variants
 -   Ordinary Least Squares (OLS)
 -   Generalized Least Squares (GLS)
 
@@ -211,9 +163,7 @@ In a weighted least squares regression, not all observations in a sample are wei
 -   In some cases, the weighting may reflect your belief that some of your observations convey more information about the population than others
 -   In others, it can be to counter the problem of standard errors of predictions varying across different values for the explanatory variable
 
-
-
-**Regression Predictions**
+## Regression Predictions
 -   **Precision**
 
 In almost every regression, your predictions from a regression will be imprecise, with a standard error and range around the prediction. If the R-squared is low, and the range is large, a regression is less actionable
@@ -226,10 +176,6 @@ In a regression, you need to be able to observe the dependent variable (or varia
 -   **Actionability**
 
 If the predicted value for Y from a regression deviates from the actual value, being able to act on the divergence makes the reliable more useful (in many cases)
-
-
-
-
 
 
 

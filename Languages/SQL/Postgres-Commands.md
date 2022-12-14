@@ -8,7 +8,7 @@ Modified: 2022-05-23 11:42:22 +0500
 
 brew install postgresql
 
-**psql - start postgres sql query engine**
+## psql - start postgres sql query engine
 
 psql -h devdb.chc4dttsp0r2.us-west-2.rds.amazonaws.com -p 5432 -U postgres
 
@@ -16,13 +16,9 @@ cX2BIBc2Qu2WK9cJZMcH
 
 psql -h 54.191.252.31 -p 5432 -U dev -d dev_metta_pg
 
-
-
-**psql -d postgres -U postgres**
+## psql -d postgres -U postgres
 
 1RtBZRNxG7
-
-
 
 d - show databases
 
@@ -32,7 +28,7 @@ select count(*) from rides;
 
 dx - List of installed extensions
 
-**l - list all databases with owner**
+## l - list all databases with owner
 
 dt
 
@@ -40,25 +36,19 @@ dt+ - you get a view of the tables in the database along with an (empty) descrip
 
 dn+ - publicschema indicates permissions for thepostgresrole
 
-**du - show all users**
+## du - show all users
 
-**dt *.* - show all tables**
-
-
+## dt *.* - show all tables
 
 select version();
 
 SELECT schema_name FROM information_schema.schemata;
-
-
 
 create user myuser with encrypted password 'mypass';
 
 grant all privileges on database postgres to myuser;
 
 psql -h prod-metta-db.chc4dttsp0r2.us-west-2.rds.amazonaws.com -p 5432 -U myuser -d postgres
-
-
 
 CREATE USER quicksight4 PASSWORD 'ac9c922490fad8cafa5d68a5';
 
@@ -68,8 +58,6 @@ grant all privileges on database prod_metta_pg2 to quicksight4;
 
 psql -h prod-metta-db.chc4dttsp0r2.us-west-2.rds.amazonaws.com -p 5432 -U quicksight4 -d postgres
 
-
-
 GRANT CONNECT ON DATABASE postgres TO quicksight;
 
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO quicksight;
@@ -78,41 +66,27 @@ GRANT USAGE ON SCHEMA public TO quicksight;
 
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO quicksight;
 
-
-
 REASSIGN OWNED BY quicksight TO postgres; -- or some other trusted role
 
 DROP OWNED BY ryan;
 
 DROPUSERryan;
 
-
-
 psqlhas aECHO_HIDDENvariable you can set to show (or 'echo') any SQL queries performed behind the scenes by backslash commands.
 
 set ECHO_HIDDEN on
-
-
 
 # select database
 
 c [databasename]: Connect to [databasename] on local database cluster
 
-
-
 CREATE DATABASE zenalytix_db_new;
 
-
-
 psql -U zenatix -d zenalytix_db_new -p 5432
-
-
 
 psql -h localhost -p 5432 -U postgres -d airflow
 
 psql -h localhost -p 5432 -U postgres (sentry)
-
-
 
 # get table sizes
 
@@ -148,8 +122,6 @@ WHERE relkind = 'r'
 
 ) a order by total_bytes desc;
 
-
-
 # get databases sizes
 
 SELECT d.datname AS Name, pg_catalog.pg_get_userbyid(d.datdba) AS Owner,
@@ -176,16 +148,12 @@ END DESC -- nulls first
 
 LIMIT 20;
 
-
-
-**# table sizes**
+## # table sizes
 
 **select table_name, pg_relation_size(quote_ident(table_name))
 from information_schema.tables
 where table_schema = 'public'
 order by 2;**
-
-
 
 REINDEX DATABASE zenalytx_db_new;
 
@@ -193,20 +161,14 @@ REINDEX INDEX index_name;
 
 REINDEX TABLE table_name;
 
-
-
 VACUUM numbers;
 
 VACUUM FULL; # to free up space in all the dbs
-
-
 
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'public'
 ORDER BY table_name;
-
-
 
 User Management
 
@@ -216,25 +178,19 @@ ALTER USER test WITH PASSWORD 'test1234';
 
 DROP USER test;
 
-
-
-**Configurations**
+## Configurations
 
 show statement_timeout;
 
 set statement_timeout to 60000; commit;
 
-
-
-**Tools**
+## Tools
 -   pg_buffercache
 
 see what's occupying the shared buffer cache of your instance
 -   pg_prewarm
 
 load table data into either the operating system cache or the Postgres buffer cache
-
-
 
 [ABORT](https://www.postgresql.org/docs/current/sql-abort.html)--- abort the current transaction
 
@@ -568,7 +524,7 @@ load table data into either the operating system cache or the Postgres buffer ca
 
 [ROLLBACK TO SAVEPOINT](https://www.postgresql.org/docs/current/sql-rollback-to.html)--- roll back to a savepoint
 
-**[SAVEPOINT](https://www.postgresql.org/docs/current/sql-savepoint.html)--- define a new savepoint within the current transaction**
+## [SAVEPOINT](https://www.postgresql.org/docs/current/sql-savepoint.html)--- define a new savepoint within the current transaction
 
 [SECURITY LABEL](https://www.postgresql.org/docs/current/sql-security-label.html)--- define or change a security label applied to an object
 
@@ -600,36 +556,24 @@ load table data into either the operating system cache or the Postgres buffer ca
 
 [VALUES](https://www.postgresql.org/docs/current/sql-values.html)--- compute a set of rows
 
-
-
 <https://www.postgresql.org/docs/current/sql-commands.html>
 
-
-
-**Queries**
+## Queries
 
 delete from task_instance where execution_date::date < '2021-01-13 21:00:00+0';
 
-
-
-**pg_dumpall**
+## pg_dumpall
 
 pg_dumpall dumps all databases in given PostgreSQL installation (cluster), and does it to plain text file. Everything goes there. Additionally, it dumpsglobalthings -- roles and tablespaces, which cannot be dumped by pg_dump.
 
-
-
 The major benefit of pg_dumpall is that it's single command, and you get results.
-
-
 
 There is huge number of drawbacks though:
 -   dump is large, because it's uncompressed
 -   dumping is slow, because it's done sequentially, with single worker
 -   it's hard to restore just parts of dump
 
-
-
-**pg_dump**
+## pg_dump
 
 pg_dump, on the other hand, can't dump globals, and can dump only one database at a time. But it can use four dump formats:
 -   plain
@@ -637,25 +581,17 @@ pg_dump, on the other hand, can't dump globals, and can dump only one database a
 -   directory
 -   tar
 
-
-
 Plain is just plain text format, just like pg_dumpall dumps. You can load it with psql, and extracting parts can be complicated if dump is large.
 
 All other formats (custom, directory, and tar) are restored using pg_restore program.
 
-
-
-**Adding hstore in database**
+## Adding hstore in database
 
 psql -U postgres template1
 create extension hstore;
 q
 
-
-
 Cannot use --keepdb after this, since new db is to be created
-
-
 
 <https://www.depesz.com/2019/12/10/how-to-effectively-dump-postgresql-databases
 

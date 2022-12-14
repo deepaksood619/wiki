@@ -14,21 +14,21 @@ The ideal cryptographic hash function has five main properties:
 -   a small change to a message should change the hash value so extensively that the new hash value appears uncorrelated with the old hash value
 -   it is[infeasible](https://en.wikipedia.org/wiki/Computational_complexity_theory#Intractability)to find two different messages with the same hash value
 Cryptographic hash functions have many[information-security](https://en.wikipedia.org/wiki/Information_security)applications, notably in[digital signatures](https://en.wikipedia.org/wiki/Digital_signature),[message authentication codes](https://en.wikipedia.org/wiki/Message_authentication_codes)(MACs), and other forms of[authentication](https://en.wikipedia.org/wiki/Authentication). They can also be used as ordinary[hash functions](https://en.wikipedia.org/wiki/Hash_function), to index data in[hash tables](https://en.wikipedia.org/wiki/Hash_table), for[fingerprinting](https://en.wikipedia.org/wiki/Fingerprint_(computing)), to detect duplicate data or uniquely identify files, and as[checksums](https://en.wikipedia.org/wiki/Checksum)to detect accidental data corruption. Indeed, in information-security contexts, cryptographic hash values are sometimes called (digital)fingerprints,checksums, or justhash values, even though all these terms stand for more general functions with rather different properties and purposes.
-**Hash Function Design**
+## Hash Function Design
 
-**Merkle--Damgård construction**
+## Merkle--Damgård construction
 ![](media/Cryptography-Intro_Cryptographic-Hash-Functions-image1.png)
 A hash function must be able to process an arbitrary-length message into a fixed-length output. This can be achieved by breaking the input up into a series of equal-sized blocks, and operating on them in sequence using a[one-way compression function](https://en.wikipedia.org/wiki/One-way_compression_function). The compression function can either be specially designed for hashing or be built from a block cipher. A hash function built with the Merkle--Damgård construction is as resistant to collisions as is its compression function; any collision for the full hash function can be traced back to a collision in the compression function.
 The last block processed should also be unambiguously[length padded](https://en.wikipedia.org/wiki/Padding_(cryptography)); this is crucial to the security of this construction. This construction is called the[Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction). Most common classical hash functions, including[SHA-1](https://en.wikipedia.org/wiki/SHA-1)and[MD5](https://en.wikipedia.org/wiki/MD5), take this form.
-**Wide pipe vs narrow pipe**
+## Wide pipe vs narrow pipe
 
 A straightforward application of the Merkle--Damgård construction, where the size of hash output is equal to the internal state size (between each compression step), results in anarrow-pipehash design. This design causes many inherent flaws, including[length-extension](https://en.wikipedia.org/wiki/Length_extension_attack), multicollisions,long message attacks,generate-and-paste attacks,[[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)]and also cannot be parallelized. As a result, modern hash functions are built onwide-pipeconstructions that have a larger internal state size --- which range from tweaks of the Merkle--Damgård constructionto new constructions such as the[sponge construction](https://en.wikipedia.org/wiki/Sponge_construction)and[HAIFA construction](https://en.wikipedia.org/wiki/HAIFA_construction).None of the entrants in the[NIST hash function competition](https://en.wikipedia.org/wiki/NIST_hash_function_competition)use a classical Merkle--Damgård construction.
 Meanwhile, truncating the output of a longer hash, such as used in SHA-512/256, also defeats many of these attacks.
-**Salt**
+## Salt
 
 A "salt" is a random piece of data that is often added to the data you want to hash before you actually hash it. Adding a salt to your data before hashing it will make the output of the hash function different than it would be if you had only hashed the data.
 When a user sets their password (often on signing up), a random salt should be generated and used to compute the password hash. The salt should then be stored with the password hash. When the user tries to log in, combine the salt with the supplied password, hash the combination of the two, and compare it to the hash in the database.
-**Why should you use a salt?**
+## Why should you use a salt?
 
 Without going into too much detail, hackers commonly use[rainbow table attacks](https://www.geeksforgeeks.org/understanding-rainbow-table-attack/),[dictionary attacks](https://en.wikipedia.org/wiki/Dictionary_attack), and[brute-force attacks](http://www.tenminutetutor.com/data-formats/cryptography/attacks-on-hash-algorithms/)to try and crack password hashes. While hackers can't compute the original password given only a hash, they can take a long list of possible passwords and compute hashes for them to try and match them with the passwords in the database. This is effectively how these types of attacks work, although each of the above works somewhat differently.
 A salt makes it much more difficult for hackers to perform these types of attacks. Depending on the hash function, salted hashes take nearly exponentially more time to crack than unsalted ones. They also make rainbow table attacks nearly impossible. It's therefore important to always use salts in your hashes.
@@ -45,7 +45,7 @@ Deriving a key suitable for use as input to an encryption algorithm. Typically t
 -   **Password storage**
 
 When storing passwords you want to use an algorithm that is computationally intensive. Legitimate users will only need to compute it once (for example, taking the user's password, running it through the KDF, then comparing it to the stored value), while attackers will need to do it billions of times. Ideal password storage KDFs will be demanding on both computational and memory resources.
-**Variable Cost Algorithm**
+## Variable Cost Algorithm
 -   **PBKDF2**
 
 [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2)(Password Based Key Derivation Function 2) is typically used for deriving a cryptographic key from a password. It may also be used for key storage, but an alternate key storage KDF such as[Scrypt](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#cryptography.hazmat.primitives.kdf.scrypt.Scrypt)is generally considered a better solution.
@@ -54,7 +54,7 @@ PBKDF2 applies a[pseudorandom function](https://en.wikipedia.org/wiki/Pseudorand
 <https://en.wikipedia.org/wiki/PBKDF2>-   Scrypt
 
 Scrypt is a KDF designed for password storage by Colin Percival to be resistant against hardware-assisted attackers by having a tunable memory cost. It is described in[RFC 7914](https://tools.ietf.org/html/rfc7914.html).
-**Fixed Cost Algorithm**
+## Fixed Cost Algorithm
 -   ConcatKDF
 
 ConcatKDFHash (Concatenation Key Derivation Function) is defined by the NIST Special Publication[NIST SP 800-56Ar2](https://csrc.nist.gov/publications/detail/sp/800-56a/rev-2/final)document, to be used to derive keys for use after a Key Exchange negotiation operation.
@@ -115,7 +115,7 @@ All three modes allow specification by three parameters that control:
 -   degree of parallelism
 <https://en.wikipedia.org/wiki/Argon2>
 Performance-wise, a SHA-256 hash is about 20-30% slower to calculate than either MD5 or SHA-1 hashes.
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Cryptographic_hash_function>
 

@@ -12,15 +12,11 @@ Modified: 2022-01-30 23:28:21 +0500
 
 <https://www.toptal.com/artificial-intelligence/retail-sales-forecasting-ai>
 
-
-
-**Introduction**
+## Introduction
 
 What does the course cover
 
-
-
-**Introduction to Time Series in Python**
+## Introduction to Time Series in Python
 
 Start Introduction to Time Series Data
 
@@ -36,9 +32,7 @@ Start Plotting the Data
 
 Start The QQ Plot
 
-
-
-**Creating a Time Series Object in Python**
+## Creating a Time Series Object in Python
 
 Start Transforming String inputs into DateTime Values
 
@@ -54,9 +48,7 @@ Start Splitting up the Data
 
 Start Appendix: Updating the Dataset
 
-
-
-**Working with Time Series in Python**
+## Working with Time Series in Python
 
 Start White Noise
 
@@ -74,15 +66,11 @@ Start The ACF
 
 Start The PACF
 
-
-
-**Picking the Correct Model**
+## Picking the Correct Model
 
 Start A Quick Guide to Picking the Correct Model
 
-
-
-**The Autoregressive Model**
+## The Autoregressive Model
 
 Start The AR Model
 
@@ -108,9 +96,7 @@ Start Examining the AR Model Residuals
 
 Start Unexpected Shocks from Past Periods
 
-
-
-**The Moving Average (MA) Model**
+## The Moving Average (MA) Model
 
 Start The MA Model
 
@@ -126,9 +112,7 @@ Start Fitting an MA(1) Model for Prices
 
 Start Past Values and Past Errors
 
-
-
-**The Autoregressive Moving Average (ARMA) Model**
+## The Autoregressive Moving Average (ARMA) Model
 
 Start The ARMA Model
 
@@ -146,9 +130,7 @@ Start ARMA for Prices
 
 Start ARMA Models and Non-stationary Data
 
-
-
-**The Autoregressive Integrated Moving Average (ARIMA) Model**
+## The Autoregressive Integrated Moving Average (ARIMA) Model
 
 Start The ARIMA Model
 
@@ -168,9 +150,7 @@ Start Seasonal Models - the SARIMAX Model
 
 Start Predicting Stability
 
-
-
-**The ARCH Model**
+## The ARCH Model
 
 Start The ARCH Model
 
@@ -186,9 +166,7 @@ Start Higher Lag ARCH Models
 
 Start An ARMA Equivalent of the ARCH Model
 
-
-
-**The GARCH Model**
+## The GARCH Model
 
 Start The GARCH Model
 
@@ -200,9 +178,7 @@ Start Higher-Lag GARCH Models
 
 Start An Alternative to the Model Selection Process
 
-
-
-**Auto ARIMA**
+## Auto ARIMA
 
 Start Auto ARIMA
 
@@ -216,9 +192,7 @@ Start Advanced Auto ARIMA Arguments
 
 Start The Goal Behind Modeling
 
-
-
-**Forecasting**
+## Forecasting
 
 Start Introduction to Forecasting
 
@@ -236,20 +210,14 @@ Start Forecasting Volatility
 
 Start Appendix: Multiple Regression Forecasting
 
-
-
-**Business Case**
+## Business Case
 
 Start Business Case - A Look Into the Automobile Industry
 
-
-
 [Time Series Forecasting on Stock Prices](https://youtu.be/j05UUs99eNQ)
-
-
 
 <https://github.com/unit8co/darts>
 
 <https://unit8co.github.io/darts
 
-**darts**is a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The models can all be used in the same way, usingfit()andpredict()functions, similar to scikit-learn. The library also makes it easy to backtest models, and combine the predictions of several models and external regressors. Darts supports both univariate and multivariate time series and models. The ML-based models can be trained on multiple time series, and some of the models offer probabilistic forecasts.
+## dartsis a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The models can all be used in the same way, usingfit()andpredict()functions, similar to scikit-learn. The library also makes it easy to backtest models, and combine the predictions of several models and external regressors. Darts supports both univariate and multivariate time series and models. The ML-based models can be trained on multiple time series, and some of the models offer probabilistic forecasts.

@@ -6,7 +6,7 @@ Modified: 2021-07-05 23:33:11 +0500
 
 ---
 
-**Architecture**
+## Architecture
 
 Dremel - The execution engine
 
@@ -18,15 +18,11 @@ Jupiter - The Network
 
 BigQuery - The Service
 
-
-
 ![](../../media/Cloud-Others-BigQuery---Big-Query-image1.png)
 
 
 
-
-
-**Separation of Compute and State**
+## Separation of Compute and State
 
 *Separation of compute and state*refers to the ability to maintain intermediate state between processing stages in a high-performance component separate from either the compute cluster or storage.
 -   Less state in compute means compute becomes more ephemeral and scalable. It's easier to re-parallelize processing intra-stage and interstage, and easier to recover from a lost node.
@@ -37,17 +33,11 @@ BigQuery - The Service
 -   Keeping less state in processing nodes makes workloads more resilient to individual node issues.
 -   The service can utilize available resources much more efficiently across compute as well as shuffle.
 
-
-
 <https://cloud.google.com/blog/products/gcp/separation-of-compute-and-state-in-google-bigquery-and-cloud-dataflow-and-why-it-matters>
-
-
 
 <https://cloud.google.com/blog/products/gcp/bigquery-under-the-hood>
 
-
-
-**Commands**
+## Commands
 
 from google.cloud import bigquery
 
@@ -58,8 +48,6 @@ dataset_ref = client.dataset("hacker_news", project="bigquery-public-data")
 dataset_ref = client.dataset("chicago_crime", project="bigquery-public-data")
 
 dataset = client.get_dataset(dataset_ref)
-
-
 
 #standardSQL
 
@@ -89,8 +77,6 @@ LIMIT
 
 10
 
-
-
 #standardSQL
 
 SELECT
@@ -117,15 +103,11 @@ ORDER BY
 
 departure_delay ASC
 
-
-
-**Google Cloud Dataflow**
+## Google Cloud Dataflow
 -   Dataflow is a unified programming model and a managed service for developing and executing a wide range of data processing patterns including ETL, batch computation, and continuous computation.
 -   The Dataflow model combines batch and stream processing so developers don't have to make tradeoffs between correctness, cost, and processing time.
 
-
-
-**References**
+## References
 
 <https://github.com/GoogleCloudPlatform/training-data-analyst/blob/master/courses/machine_learning/deepdive/02_generalization/repeatable_splitting.ipynb>
 

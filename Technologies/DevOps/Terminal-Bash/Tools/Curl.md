@@ -8,17 +8,11 @@ Modified: 2022-01-07 15:18:21 +0500
 
 curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
 
-
-
 curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP post, SSL connections, cookies, file transfer resume, Metalink, and more.
-
-
 
 curl is powered by libcurl for all transfer-related features.
 
-
-
-**Install**
+## Install
 
 brew uninstall curl
 
@@ -26,39 +20,35 @@ brew install curl-openssl
 
 echo 'export PATH="/usr/local/opt/curl-openssl/bin:$PATH"' >> ~/.zshrc
 
-
-
 curl --http2 <http://example.com
 
 <https://tools.keycdn.com/http2-test>
 
-
-
-**Options**
+## Options
 
 -o <file> # --output: write to file
 -u user:pass # --user: Authentication
 
-**-v # --verbose**
+## -v # --verbose
 -vv # Even more verbose
 -s # --silent
 
-**-I # --head: headers only**
+## -I # --head: headers only
 
-**-i # response headers**
+## -i # response headers
 
-**Request**
+## Request
 
 -X POST # --request
-**-L # follow link if page redirects**
+## -L # follow link if page redirects
 
-**Data**
+## Data
 
 -d 'data' # --data: HTTP post data, URL encoded (eg, status="Hello")
 -d @file # --data via file
 -G # --get: send -d data via get
 
-**Headers**
+## Headers
 
 -A <str> # --user-agent
 -b name=val # --cookie
@@ -66,7 +56,7 @@ curl --http2 <http://example.com
 -H "X-Foo: y" # --header
 --compressed # use deflate/gzip
 
-**SSL**
+## SSL
 
 --cacert <file>
 --capath <dir>
@@ -75,38 +65,28 @@ curl --http2 <http://example.com
 --cert-type # der/pem/eng
 -k, --insecure # for self-signed certs
 
-**Cookies**
+## Cookies
 
-**# save the cookie**
+## # save the cookie
 
 curl -c cookiejar.txt <https://www.facebook.com>
 
-
-
-**# send the cookie with the request**
+## # send the cookie with the request
 
 curl -b cookiejar.txt <https://www.facebook.com>
 
-
-
-**Examples**
+## Examples
 
 # Post data:
 curl -d password=x <http://x.com/y>
 
 curl -X GET <https://httpbin.org/anything> -d "{'value':'panda'}"
 
-
-
 # Auth/data:
 curl -u user:pass -d status="Hello" <http://twitter.com/statuses/update.xml>
 
-
-
 # multipart file upload
 curl -v -include --form key1=value1 --form upload=@localfilename URL
-
-
 
 # Setting headers
 -   curl -i -H "Accept-Encoding: gzip" <https://httpbin.org/anything>
@@ -114,21 +94,15 @@ curl -v -include --form key1=value1 --form upload=@localfilename URL
 -   curl -i -X DELETE <https://httpbin.org/anything>
 -   curl -H "Accept-Language: es-ES" <https://twitter.com> > test.html
 
-
-
 # curl an image file
 
 curl -X GET <https://httpbin.org/image/jpeg> > test.jpeg #don't use -i since it will corrupt the image
-
-
 
 # others
 
 curl -i <https://httpbin.org/status/200>
 
 curl -i <https://httpbin.org/status/400>
-
-
 
 curl <https://httpbin.org/anything> 
 
@@ -140,13 +114,9 @@ curl <https://httpbin.org/anything>
 
 -d receipt_email="jenny.rosen@example.com"
 
-
-
 # curl output only status code
 
 curl -s -o /dev/null -w "%{http_code}" <http://www.example.org
-
-
 
 # run in a loop
 
@@ -154,19 +124,13 @@ while true; do curl <http://google.com>; sleep 1; done
 
 while true; do curl -s -o /dev/null -w "%{http_code}" <http://www.google.com; done
 
-
-
-**URL Globbing**
+## URL Globbing
 
 ![](../../../media/DevOps-Terminal-Bash-Curl-image1.png)
 
-
-
-**Timeout parameters**
+## Timeout parameters
 
 curlhas two options:--connect-timeoutand--max-time
-
-
 
 --connect-timeout <seconds>
 Maximum time in seconds that you allow the connection to the
@@ -176,8 +140,6 @@ this option accepts decimal values, but the actual timeout will
 decrease in accuracy as the specified timeout increases in deci‐
 mal precision. See also the -m, --max-time option.
 
-
-
 -m, --max-time <seconds>
 Maximum time in seconds that you allow the whole operation to
 take. This is useful for preventing your batch jobs from hang‐
@@ -186,25 +148,17 @@ ing for hours due to slow networks or links going down. Since
 out will decrease in accuracy as the specified timeout increases
 in decimal precision. See also the --connect-timeout option.
 
-
-
-**HealthChecks**
+## HealthChecks
 
 curl -f -s -m 2 -o /dev/null -I <http://localhost:8070
-
-
 
 <https://jvns.ca/blog/2019/08/27/curl-exercises
 
 <https://curl.haxx.se/book.html>
 
-
-
 [**https://www.youtube.com/watch?v=I6id1Y0YuNk&ab_channel=freeCodeCampTalks**](https://www.youtube.com/watch?v=I6id1Y0YuNk&ab_channel=freeCodeCampTalks)
 
-
-
-**Alternative**
+## Alternative
 
 <https://github.com/httpie/httpie>
 

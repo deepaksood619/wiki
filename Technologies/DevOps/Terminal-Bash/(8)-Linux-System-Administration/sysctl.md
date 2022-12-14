@@ -10,13 +10,9 @@ sysctl -- get or set kernel state
 
 The sysctl utility retrieves kernel state and allows processes with appropriate privilege to set kernel state. The state to be retrieved or set is described using a ``Management Information Base'' (``MIB'') style name, described as a dotted set of components.
 
-
-
 sysctl is used to modify kernel parameters at runtime. The parameters available are those listed under /proc/sys/. Procfs is required for sysctl support in Linux. You can use sysctl to both read and write sysctl data.
 
-
-
-**Commands and Parameters**
+## Commands and Parameters
 
 sysctl net.ipv4.ip_local_port_range
 sysctl net.ipv4.tcp_fin_timeout
@@ -31,16 +27,12 @@ sysctl -w net.core.somaxconn=65536
 
 sysctl -w net.ipv4.ip_local_port_range="500 65535"
 
-
-
-**Enabling Unsafe Sysctls**
+## Enabling Unsafe Sysctls
 
 Sysctls are grouped intosafeandunsafesysctls. In addition to proper namespacing, asafesysctl must be properlyisolatedbetween pods on the same node. This means that setting asafesysctl for one pod
 -   must not have any influence on any other pod on the node
 -   must not allow to harm the node's health
 -   must not allow to gain CPU or memory resources outside of the resource limits of a pod.
-
-
 
 By far, most of thenamespacedsysctls are not necessarily consideredsafe. The following sysctls are supported in thesafeset:
 -   kernel.shm_rmid_forced,
@@ -50,21 +42,13 @@ By far, most of thenamespacedsysctls are not necessarily consideredsafe. The fol
 
 Note:The examplenet.ipv4.tcp_syncookiesis not namespaced on Linux kernel version 4.4 or lower.
 
-
-
 This list will be extended in future Kubernetes versions when the kubelet supports better isolation mechanisms.
-
-
 
 Allsafesysctls are enabled by default.
 
-
-
 Allunsafesysctls are disabled by default and must be allowed manually by the cluster admin on a per-node basis. Pods with disabled unsafe sysctls will be scheduled, but will fail to launch.
 
-
-
-**sysctl -a**
+## sysctl -a
 
 abi.vsyscall32 = 1
 

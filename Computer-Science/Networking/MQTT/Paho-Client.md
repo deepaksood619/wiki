@@ -39,5 +39,5 @@ import paho.mqtt.publish as publish
 publish.single("paho/test/single", "payload", hostname="localhost")
 ```
 
-**References**
+## References
 <https://github.com/eclipse/paho.mqtt.python>

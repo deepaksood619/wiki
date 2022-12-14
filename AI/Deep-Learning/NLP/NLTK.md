@@ -8,11 +8,7 @@ Modified: 2021-07-02 00:20:24 +0500
 
 NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules, data sets, and tutorials supporting research and development in Natural Language Processing.
 
-
-
 NLTK supports classification, tokenization, stemming **(lemmatization better than stemming)**, tagging, parsing, and semantic reasoning functionalities.
-
-
 
 Library highlights
 -   [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis): Word and text tokenizer
@@ -21,9 +17,7 @@ Library highlights
 -   Tree model and Text[chunker](https://en.wikipedia.org/wiki/Chunking_(computational_linguistics))for capturing
 -   [Named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
 
-
-
-**Commands**
+## Commands
 ```
 import nltk
 nltk.download()
@@ -36,15 +30,13 @@ sents()
 
 The sents() function divides the text up into its sentences, where each sentence is a list of words
 
+## text1.concordance("monstrous") #A concordance view shows us every occurrence of a given word, together with some context
 
+## text2.similar("monstrous")
 
-**text1.concordance("monstrous")** #A concordance view shows us every occurrence of a given word, together with some context
+## text2.common_contexts(["monstrous", "very"])
 
-**text2.similar("monstrous")**
-
-**text2.common_contexts(["monstrous", "very"])**
-
-**text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])**
+## text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
 
 text6.dispersion_plot(["Arthur", "Holy", "Grail"])
 
@@ -57,8 +49,6 @@ text6.count("grail")
 **fdist1 = FreqDist(text1)
 fdist1.most_common(50)
 **fdist1.plot(50, cumulative=True)
-
-
 
 **>>> cfd = nltk.ConditionalFreqDist(
 ... (genre, word)
@@ -88,63 +78,51 @@ fdist1.most_common(50)
 | fdist1 |= fdist2           | update fdist1 with counts from fdist2                          |
 | fdist1 < fdist2            | test if samples in fdist1 occur less frequently than in fdist2 |
 
-
-
 ### Corpus
 ```
 nltk.chat.chatbots()
 
-**nltk.corpus.gutenberg.fileids()**
+## nltk.corpus.gutenberg.fileids()
 
-**emma = nltk.Text(nltk.corpus.gutenberg.words('austen-emma.txt'))**
+## emma = nltk.Text(nltk.corpus.gutenberg.words('austen-emma.txt'))
 
 len(gutenberg.raw('austen-emma.txt'))
 
 The raw() function gives us the contents of the file without any linguistic processing.
 
+## from nltk.corpus import webtext
 
+## webtext.fileids()
 
-**from nltk.corpus import webtext**
+## from nltk.corpus import nps_chat
 
-**webtext.fileids()**
-
-
-
-**from nltk.corpus import nps_chat**
-
-**nps_chat.posts('10-19-20s_706posts.xml')**
-
-
+## nps_chat.posts('10-19-20s_706posts.xml')
 
 The **Brown Corpus** is a convenient resource for studying systematic differences between genres, a kind of linguistic inquiry known as **stylistics**.
 
 first million-word electronic corpus of English
 
-**from nltk.corpus import brown**
+## from nltk.corpus import brown
 
-**brown.categories()**
+## brown.categories()
 
-**brown.words(categories='news')**
+## brown.words(categories='news')
 
-**brown.words(fileids=['cg22'])**
+## brown.words(fileids=['cg22'])
 
-**brown.sents(categories=['news', 'editorial', 'reviews'])**
+## brown.sents(categories=['news', 'editorial', 'reviews'])
 
+## from nltk.corpus import reuters
 
+## reuters.fileids()
 
-**from nltk.corpus import reuters**
+## reuters.categories()
 
-**reuters.fileids()**
+## reuters.categories(['training/9865', 'training/9880'])
 
-**reuters.categories()**
+## from nltk.corpus import inaugural
 
-**reuters.categories(['training/9865', 'training/9880'])**
-
-
-
-**from nltk.corpus import inaugural**
-
-**inaugural.fileids()**
+## inaugural.fileids()
 
 **>>> cfd = nltk.ConditionalFreqDist(
 ... (target, fileid[:4])
@@ -155,16 +133,16 @@ first million-word electronic corpus of English
 **... if w.lower().startswith(target))
 >>> cfd.plot()**
 
-**nltk.corpus.indian.words('hindi.pos')**
+## nltk.corpus.indian.words('hindi.pos')
 
-**nltk.corpus.cess_esp.words()**
+## nltk.corpus.cess_esp.words()
 
-**nltk.corpus.floresta.words()**
+## nltk.corpus.floresta.words()
 
-**nltk.corpus.udhr.fileids() #univeral declaration of human rights in 300 languages**
+## nltk.corpus.udhr.fileids() #univeral declaration of human rights in 300 languages
 ```
 
-![isolated e.g. gutenberg. wobtoxt, udnr categorized e.g. brown overlapping e.g. reuters temporal e.g. inaugural ](media/NLP_NLTK-image1.jpeg)
+![image](media/NLP_NLTK-image1.jpeg)
 
 | **Example**                 | **Description**                                                                                   |
 |------------------------|------------------------------------------------|

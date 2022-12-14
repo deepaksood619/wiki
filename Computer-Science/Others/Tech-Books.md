@@ -9,7 +9,7 @@ Modified: 2022-03-06 18:41:25 +0500
 Networks, Crowds, and Markets: Reasoning about a Highly Connected World
 -   David Easley
 -   Jon Kleinberg
-**Tech Books**
+## Tech Books
 -   Algorithms
 -   Beej's Guide to Network Programming [https://beej.us/guide/bgnet/html//index.html](https://beej.us/guide/bgnet/html/index.html)
 -   Building secure and reliable systems
@@ -98,7 +98,7 @@ R For Beginners [**https://lnkd.in/gzz-niK**](https://lnkd.in/gzz-niK)
 Natural Language Processing with Python [**https://lnkd.in/gmuQcmt**](https://lnkd.in/gmuQcmt)
 
 The Data Science Handbook -- Advice & Insights from Data Scientists [**https://lnkd.in/g8t7hk9**](https://lnkd.in/g8t7hk9)
-**Mathematics**
+## Mathematics
 
 <https://medium.com/however-mathematics/13-classic-mathematics-books-for-lifelong-learners-7ec2759142da>
 <https://www.freecodecamp.org/news/learn-the-history-of-the-internet-in-dr-chucks>

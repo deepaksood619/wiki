@@ -8,8 +8,6 @@ Modified: 2018-12-09 22:29:17 +0500
 
 TheEMQ Xbroker could be extended by Plugins. A plugin is an Erlang application that adds extra feature to theEMQ Xbroker:
 
-
-
 | [emqx_retainer](https://github.com/emqx/emqx-retainer)               | Store Retained Messages                   |
 |--------------------------|----------------------------------------------|
 | [emqx_dashboard](https://github.com/emqx/emqx-dashboard)             | Web Dashboard                             |

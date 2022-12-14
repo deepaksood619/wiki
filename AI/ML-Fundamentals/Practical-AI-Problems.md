@@ -6,7 +6,7 @@ Modified: 2021-08-28 08:12:45 +0500
 
 ---
 
-**Netflix AI Problems**
+## Netflix AI Problems
 -   Content Valuation
 -   Optimal CDN Caching
 -   Incremental Impact of Marketing
@@ -21,9 +21,7 @@ Modified: 2021-08-28 08:12:45 +0500
 -   Face Recognition
 -   Classify Support Tickets
 
-
-
-**Others**
+## Others
 -   Fraud Detection
 -   Image Recognition
 -   Classification

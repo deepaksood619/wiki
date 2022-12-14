@@ -6,13 +6,11 @@ Modified: 2020-09-04 16:52:58 +0500
 
 ---
 
-**Working with Requests and Responses**
+## Working with Requests and Responses
 
 While PHP provides ways to interact with the request and response headers, CodeIgniter, like most frameworks, abstracts them so that you have a consistent, simple interface to them.
 
-
-
-**Request Class**
+## Request Class
 
 The[IncomingRequest class](https://codeigniter.com/user_guide/incoming/incomingrequest.html)is an object-oriented representation of the HTTP request. It provides everything you need:
 
@@ -43,13 +41,9 @@ $request->getHeader('Content-Type');
 
 $request->getMethod(); // GET, POST, PUT, etc
 
-
-
 The request class does a lot of work in the background for you, that you never need to worry about. TheisAJAX()andisSecure()methods check several different methods to determine the correct answer.
 
-
-
-**Response Class**
+## Response Class
 
 CodeIgniter also provides a[Response class](https://codeigniter.com/user_guide/outgoing/response.html)that is an object-oriented representation of the HTTP response. This gives you an easy and powerful way to construct your response to the client:
 
@@ -68,35 +62,23 @@ $response->send();
 
 In addition, the Response class allows you to work the HTTP cache layer for the best performance.
 
-
-
-**PSR**
+## PSR
 
 PSR-7 is a set of common interfaces defined by PHP Framework Interop Group. These interfaces are representing HTTP messages, and URIs for use when communicating trough HTTP.
 
-
-
 Any web application using this set of interfaces is a PSR-7 application.
-
-
 
 <https://github.com/guzzle/psr7>
 
-
-
-**Libraries**
+## Libraries
 
 <https://github.com/chriskacerguis/codeigniter-restserver>
 
 A fully RESTful server implementation for CodeIgniter using one library, one config file and one controller.
 
-
-
 [**https://github.com/guzzle/guzzle**](https://github.com/guzzle/guzzle)
 
 Guzzle, an extensible PHP HTTP client
-
-
 
 Guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
 -   Simple interface for building query strings, POST requests, streaming large uploads, streaming large downloads, using HTTP cookies, uploading JSON data, etc...

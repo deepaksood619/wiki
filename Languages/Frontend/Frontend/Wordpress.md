@@ -8,40 +8,28 @@ Modified: 2022-07-31 12:20:16 +0500
 
 <https://wordpress.com/home/deepaksood619.wordpress.com>
 
-
-
 WordPress is a content management system that powers 34% of all websites on the internet and 60% of websites that run on CMS. The power of WordPress is in the ecosystem---there are a lot of different plugins and themes. Anyone without any special programming knowledge can build a website, but a working knowledge of WordPress intricacies is a boon to any developer or designer resume.
-
-
 
 <https://www.advancedcustomfields.com
 
 [Overview of WordPress (Beginners Guide 2020)](https://www.youtube.com/watch?v=jmqu4HC3zmo)
 
-
-
-**wp-admin**
+## wp-admin
 
 [WordPress Admin Dashboard Tutorial 2020 --- Step By Step For Beginners In WP-ADMIN!](https://www.youtube.com/watch?v=Ov_zUmMyJnQ)
-
-
 
 Posts - That are part of blogs
 
 Pages - That are not part of blog, and are standalone pages like about us, contact us, etc
 
-
-
-**Themes**
+## Themes
 -   <https://generatepress.com
 -   Divi Theme - <https://www.elegantthemes.com <https://www.elegantthemesdemo.com
 -   Astra
 -   <https://www.isitwp.com/top-wordpress-themes
 -   <https://rishitheme.com
 
-
-
-**Plugins**
+## Plugins
 -   <https://wp-rocket.me
 
 -   W3 Total Cache
@@ -58,9 +46,7 @@ Pages - That are not part of blog, and are standalone pages like about us, conta
 -   Accordian plugin
 -   <https://wordpress.org/support/article/managing-plugins
 
-
-
-**Tools**
+## Tools
 -   WP-Cli
 
 [WP-Cli](https://wp-cli.org/)lets you work with WordPress using the command line. With this great tool you can upgrade and downgrade WordPress in seconds, as well as update plugins. Notably, when you find yourself migrating to a different server, the built in search-replace command will take care of all the url changes for you, and it's worth installing it simply because of that.
@@ -80,9 +66,7 @@ When things are running slowly and you're not sure what to blame,[Query Monitor]
     -   [Revisr](https://wordpress.org/plugins/revisr/)-- offers a much more comprehensive approach to using Git with WordPress. You can track your entire site, including your database, in a Git repository. You can also commit changes from inside your WordPress dashboard, revert files, and push/pull changes to a remote repository (like Bitbucket or GitHub).
     -   [VersionPress](https://versionpress.com/)is an open source project that aims to "bring the full power of Git to WordPress" by version-controlling both your site's files and database. Though it also relies on Git, VersionPress gets its own section because it does things a little differently than the methods above.
 
-
-
-**Commands**
+## Commands
 
 drop database wordpress;
 
@@ -91,8 +75,6 @@ create database wordpress;
 select * from wordpress.wp_options;
 
 update wp_options set option_value='http://localhost:8080' where option_name='siteurl';
-
-
 
 services:
 
@@ -120,8 +102,6 @@ volumes:
 
 - wordpress:/var/www/html
 
-
-
 db:
 
 image: mysql:5.7
@@ -142,23 +122,17 @@ volumes:
 
 - db:/var/lib/mysql
 
-
-
 volumes:
 
 wordpress:
 
 db:
 
-
-
-**Config**
+## Config
 
 <https://wordpress.org/support/article/editing-wp-config-php>
 
-
-
-**Questions**
+## Questions
 -   What is the latest version of wordpress?
 -   Why WordPress Is So Popular?
     -   Simplicity and Flexibility
@@ -185,14 +159,10 @@ There are two kinds of hooks:
 
 Actions Hook are triggered by particular events that take place in WordPress such as changing themes, publishing a post, or displaying an administration screen. It is a custom[PHP](https://www.bestinterviewquestion.com/core-php-interview-questions)function defined in your plugin and hooked, i.e., set to respond, to some of these events.
 
-
-
 Actions often do one or more of the following things
 -   Modify database data
 -   Send an email message
 -   Modify the generated administration screen or front end page sent to a user web browser
-
-
 
 Here are some Actions Functions listed
 -   has_action()
@@ -200,20 +170,14 @@ Here are some Actions Functions listed
 -   add_action()
 -   remove_action()
 
-
-
 2.  **Filters Hook**
 
 Filters Hook are functions that WordPress passes data through, at certain points in execution, just before taking some action with the data. It sits between the database and the browser and between the browser and the database; all most all input and output in WordPress pass through at least one filter hook.
-
-
 
 The necessary steps to add your filters to WordPress are listed:
 -   Create the PHP function that filters the data
 -   Hook to the screen in WordPress, by calling add_filter()
 -   Put your PHP function in a plugin file and activate it.
-
-
 
 Here are some Filters Functions listed
 -   has_filter()
@@ -253,15 +217,11 @@ We can make many types of user types of role.
 
 WordPress plugins are a type of apps that allows you to add more functionality and features to your WordPress website just like the same way as apps do for your smartphone. Plugins allow you to create any type of the site with WordPress, not just blogs. Nowadays plugins are very popular.
 
-
-
 There are lots of plugins are available that listed below:-
 -   Yoast SEO Plugin (This plugins are used for SEO purpose.)
 -   Contact Form 7 (This plugins is used to make web forms with any code)
 -   Sitemap & URLs Plugins
 -   All In One WP Security & Firewall etc
-
-
 
 Advantages of WordPress Plugins
 -   Helps in SEO
@@ -296,15 +256,11 @@ A tag is one of the pre-defined taxonomy in WordPress. You can add tags to posts
 
 -   What are the difference between Tag & Category in WordPress?
 
-![WordPress Interview Questions](media/Wordpress-image1.jpg)
-
-
+![image](media/Wordpress-image1.jpg)
 
 In WordPress categories are hierarchical which means terms can have a relationship with each other like child and parent.
 
 Example: You could have a Category called India, and under India, you could have categories called Delhi, Haryana, and U.P. Categories means for broad grouping of posts.
-
-
 
 But Tags are NOT hierarchical which means no relationship between them. Tags means to describe specific details posts.
 
@@ -316,9 +272,7 @@ While there are different ways to add Google Analytics your WordPress site, here
 -   By inserting plugins for Headers and Footers
 -   By installing Google Analytics in the WordPress Theme
 
-
-
-**Others**
+## Others
 
 <https://www.wpbeginner.com/wp-themes/how-to-use-multiple-themes-for-pages-in-wordpress
 

@@ -6,7 +6,7 @@ Modified: 2022-05-18 11:59:04 +0500
 
 ---
 
-**Civil Engineering**
+## Civil Engineering
 -   IMHOTEP - First engineering in Egypt
 -   Structural Engineering
 
@@ -29,19 +29,15 @@ His network helped relieve the city of its cholera epidemic by treating the wate
 -   Hydraulic engineering
 -   Geotechnical engineering
 
-
-
-**Sacrificial Concrete**
+## Sacrificial Concrete
 
 Sacrificial concrete is a cement-based material used for fire protection purposes. It is commonly used as a protective layer in nuclear reactor core containment structures in nuclear power plants. Its purpose is to act as a protection material only. Sacrificial concrete is particularly effective in protecting nuclear reactor core containment because it possesses high temperature stability and high melt capability that can reduce or help avoid the deterioration due to ultra-high temperature exposure from nuclear reactor core accidents or meltdowns.
 
-
-
-**Thermal Insulation**
+## Thermal Insulation
 
 Thermal insulation refers to the provisions or constructions employed to reduce the transfer of heat into or out of the building. It helps to keep the house warm in winters and cool in summers, exactly what is desirable. In short, thermal insulation techniques help in keeping the indoors of a house independent of the outdoors.
 
-![Protecting House in Summer and Winter Season](media/Civil-Engineering-image1.jpg)
+![image](media/Civil-Engineering-image1.jpg)
 
 <https://happho.com/insulate-house-thermally
 

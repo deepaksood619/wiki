@@ -6,7 +6,7 @@ Modified: 2020-04-14 03:32:34 +0500
 
 ---
 
-**Introduction to Linear Algebra**
+## Introduction to Linear Algebra
 
 What is a Matrix
 

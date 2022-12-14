@@ -56,7 +56,7 @@ If your p-value were 0.10 you could say that your sample is in the top 10% most 
     -   **Bayesian hypothesis testing provides a structured way to quantify a logical process that we do everyday day, incorporating new events into the way we see the world**
 7.  **Bayes in science and everyday life**
 
-![م لا) ١٧١ POSTERIOR لإN)0 ١ PRIOR LIKELIHOOD P X)H) (( م X) هم NORMALIZATION ](media/Crash-Course-Statistics-image1.png)
+![image](media/Crash-Course-Statistics-image1.png)
 -   We will take our prior belief and update it with the likelihood of our evidence
 8.  **Test Statistics**
     -   **Allow us to quantify how close things are to our expectations or theories**
@@ -70,11 +70,11 @@ If your p-value were 0.10 you could say that your sample is in the top 10% most 
 
 T-Statistics tells us how many standard errors away from the mean our observed difference is.
 
-![OBSERVED mm - WHAT WE EXPECT IF THE WU IS TEST STATISTIC: AVERAGE VARIATION ](media/Crash-Course-Statistics-image2.png)
+![image](media/Crash-Course-Statistics-image2.png)
 10. **Degrees of Freedom and Effect Sizes**
     -   **Degrees of freedom is the number of independent pieces of information we have.**
 
-![DISTRIBUTION COMPARISON Z-DISTRIBUTION (STANDARD NORMAL) T-DISTRIBUTION (N CLOSE TO 30) T-DISTRIBUTION (N SMALLER THAN 30) ](media/Crash-Course-Statistics-image3.png)-   Effect Size - Tells us how big the effect we observed was, compared to random variation.
+![image](media/Crash-Course-Statistics-image3.png)-   Effect Size - Tells us how big the effect we observed was, compared to random variation.
 27. **Chi-Squared Tests**
 
 A**chi-squared test**, also written as***χ*^2^test**, is any[statistical hypothesis test](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing)where the[sampling distribution](https://en.wikipedia.org/wiki/Sampling_distribution)of the test statistic is a[chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution)when the[null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis)is true. Without other qualification, 'chi-squared test' often is used as short for[*Pearson's*chi-squared test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test). The chi-squared test is used to determine whether there is a significant difference between the expected frequencies and the observed frequencies in one or more categories.
@@ -82,7 +82,7 @@ Tests of Independence - Look to see whether being a member of one category is in
 
 Test of Homogeneity - Looking at whether it's likely that different samples come from the same population
 
-![7VAdX3-Œ sgo sgo 7VAdX3- ](media/Crash-Course-Statistics-image4.png)
+![image](media/Crash-Course-Statistics-image4.png)
 28. **P-Hacking**
     -   **P-Hacking - Manipulating data or analyses to artificially get significant P-values**
     -   **P-Hacking - When analyses are being chosen based on what makes the P-value significant, not what's the best analysis plan**
@@ -107,44 +107,44 @@ Test of Homogeneity - Looking at whether it's likely that different samples come
 -   Sum of Squares for Regression (SSR)
 -   Sum of Squares for Error (SSE)
 
-![TOTAL SUMS SQUARES 0 000 o SUMS SQUARES REGRESSION o o O 0 0 80 8 ssr= SSR + SSE DATA = MODEL + ERROR SUMS SQUARES FOR ERROR OBO SSR F-STATISTIC•. SSE ](media/Crash-Course-Statistics-image6.png)
+![image](media/Crash-Course-Statistics-image6.png)
 -   Degrees of Freedom - represents the amount of independent information we have
 32. **ANOVA (Analysis of Variance)**
 
 Allows us to compare three or more groups for statistical significance
 Omnibus Test - A test that contains many items or groups (Ex - F-Test)
-![ANOVA TABLE MODEL RESIDUAL 3.0288 MS MODEL MS ERROR 0.000829 240 SUMS OF SQUARES 832.3 5995.8 (Xi-P)2 MEAN SQUARE 75.667 24.983 ](media/Crash-Course-Statistics-image7.png)
+![image](media/Crash-Course-Statistics-image7.png)
 33. **ANOVA Part 2: Dealing with Intersectional Groups**
     -   **Factorial ANOVA - A factorial ANOVA does almost exactly what a regular ANOVA does: it takes the overall variation - or sums of squares - and portions it out into different categories.**
     -   **Example - Does car color and manufacture effect the overall price.**
     -   **Sums of squares total**
 
-![SUMS OF SQUARES TOTAL MEAN OVERALL PRICE ](media/Crash-Course-Statistics-image8.png)
-![PRICE = BASELINE+ x MANUFACTURE + x COLOR + ERROR DATA = MODEL + ERROR ](media/Crash-Course-Statistics-image9.png)
-![F-STATISTIC VARIABLE VARIABLE ERROR ERROR VARIABLE l',ts ERROR ](media/Crash-Course-Statistics-image10.png)
+![image](media/Crash-Course-Statistics-image8.png)
+![image](media/Crash-Course-Statistics-image9.png)
+![image](media/Crash-Course-Statistics-image10.png)
 
 SS - Sum of Squares
 
 MS - Mean squares
 -   ANOVA Table
 
-![ANOVA TABLE VARIABLE COLOR MANUFACTURER ERROR 4 3 92 49396875 1330110663 MS 12349219 391952170 14457725 0.8542 27.1102 0.4947 1.186 x 10-12 ](media/Crash-Course-Statistics-image11.png)
+![image](media/Crash-Course-Statistics-image11.png)
 But just like with our T-Tests, we know that a significant F-Test only means that the result is statistically significant. It doesn't always mean it's practically significant to you.
-![CALCULATING ETA SQUARED 272 = EFFECT TOTAL ERROR 2555364047 ](media/Crash-Course-Statistics-image12.png)-   ETA squared tells you the proportion of total variation tha's accounted for by your specific variable
+![image](media/Crash-Course-Statistics-image12.png)-   ETA squared tells you the proportion of total variation tha's accounted for by your specific variable
 -   Interaction
 -   Two-way ANOVA
 
-![iou[ 311-108 NV) 183dX3 N33Md38 NOIDVH3lNl 311108 1i3dX3xX3d=S9Nl1Vi+d ) 311108 X3ه3ن! 31LL08+XlNId( « ](media/Crash-Course-Statistics-image13.png)
-![SUMS OF SQUARES BETWEEN GROUPS oo (DO O EXPERTISE --- o EXPERT - FANCY BOTTLE o EXPERT - PLAIN BOTTLE o NOVICE - FANCY BOTTLE o NOVICE - PLAIN BOTTLE BOTTLE:EXPERT = BETWEEN --- BOTTLE ](media/Crash-Course-Statistics-image14.png)
+![image](media/Crash-Course-Statistics-image13.png)
+![image](media/Crash-Course-Statistics-image14.png)
 SSG - Sum of Squares between Groups
 
 SSG tell us how much variation can be explained by coming from one of the four possible combination of olive oil expertise and bottle type
 
-![INTERACTION PLOT PLAIN FANCY ](media/Crash-Course-Statistics-image15.png)
-![INTERACTION PLOT PLAIN • EXPERT • NOVICE FANCY ](media/Crash-Course-Statistics-image16.png)
-![ANOVA ΤΑΒΙΕ VARlABlE EXPERTISE ΒΟΤΤΙΕ ΤΥΡΕ EXPERTISE : ΒΟΤΤΙΕ ΤΥΡΕ ERROR 1.338 2.1622 7.9999 0.251743 0.145567 0.005979 76 477.6 774.2 2864.3 27211.4 477.6 774.2 2864.3 358.04 ](media/Crash-Course-Statistics-image17.png)-   Main Effects
+![image](media/Crash-Course-Statistics-image15.png)
+![image](media/Crash-Course-Statistics-image16.png)
+![image](media/Crash-Course-Statistics-image17.png)-   Main Effects
 
-![INTERACTION PLOT • GENE Y • NO GENE Y MED NO MED ](media/Crash-Course-Statistics-image18.png)
+![image](media/Crash-Course-Statistics-image18.png)
 34. **Fitting models is like Tetris**
     -   **ANCOVA - Analysis of Covariance**
     -   **Repeated measures ANOVA**
@@ -164,7 +164,7 @@ SSG tell us how much variation can be explained by coming from one of the four p
 41. **When predictions fail**
 -   Logistic Curve
 
-![carrying capacity; exponential versus logistic population growth](media/Crash-Course-Statistics-image19.jpg)
+![image](media/Crash-Course-Statistics-image19.jpg)
 
 carrying capacity; exponential versus logistic population growth
 In an ideal environment (one that has no limiting factors) populations grow at an exponential rate. The growth curve of these populations is smooth and becomes increasingly steep over time (left). However, for all populations, exponential growth is curtailed by factors such as limitations in food, competition for other resources, or disease. As competition increases and resources become increasingly scarce, populations reach the carrying capacity (K) of their environment, causing their growth rate to slow nearly to zero. This produces an S-shaped curve of population growth known as the logistic curve (right).-   Inflection Point

@@ -37,7 +37,7 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
     c.  Randomized Queue
 
     d.  Priority Queue (Using array)
-**Hierarchical Data Structure**
+## Hierarchical Data Structure
 
 1.  Tree(Ex - Family tree, HTML DOM)
 

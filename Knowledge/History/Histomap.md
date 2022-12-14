@@ -12,7 +12,5 @@ Modified: 2022-05-24 00:08:59 +0500
 
 [Timeline of Asian History](https://youtu.be/vHvGc2RVGNg)
 
-
-
 ![](media/Histomap-image1.jpg)
 

@@ -20,11 +20,7 @@ celery -A proj worker --concurrency=1000 -P eventlet
 
 celery worker --autoscale=10,0
 
-
-
 celery -A tasks control rate_limit tasks.add 10/m
-
-
 
 celery --help
 
@@ -40,8 +36,6 @@ control Workers remote control.
 
 [revoke|terminate|rate_limit|time_limit|election|enable_events|disable_events|heartbeat|pool_grow|pool_shrink|pool_restart|autoscale|shutdown|add_consumer|cancel_consumer]
 
-
-
 events Event-stream utilities.
 
 graph The ``celery graph`` command.
@@ -50,13 +44,9 @@ inspect Inspect the worker at runtime.
 
 celery -A admin_panel inspect ping
 
-
-
 list Get info from broker
 
 celery list
-
-
 
 logtool The ``celery logtool`` command.
 
@@ -76,13 +66,9 @@ status Show list of workers that are online.
 
 celery --app admin_panel status
 
-
-
 upgrade Perform upgrade between versions.
 
 worker Start worker instance.
-
-
 
 
 
@@ -90,15 +76,11 @@ from celery import Celery
 
 app = Celery('tasks', backend='redis://default:password123@localhost', broker='redis://default:password123@localhost')
 
-
-
 @app.task
 
 def add(x, y):
 
 return x + y
-
-
 
 >>> from tasks import add
 
@@ -124,11 +106,9 @@ If the task raised an exception, you can also gain access to the original traceb
 
 >>> result.traceback
 
+## Tools
 
-
-**Tools**
-
-**Flower: Celery Monitoring Tool**
+## Flower: Celery Monitoring Tool
 
 Flower is a web based tool for monitoring and administrating[Celery](http://celeryproject.org/)clusters
 
@@ -168,16 +148,12 @@ Flower is a web based tool for monitoring and administrating[Celery](http://cele
     -   Revoke a task
 -   OpenID authentication
 
-
-
-**Load Average**
+## Load Average
 -   os.getloadavg()
 -   system run queue averaged over the last 1, 5, and 15 minutes
 -   This loadaverage is of the host not the container
 
-
-
-**Monitoring**
+## Monitoring
 
 Monitor Celery Tasks with Prometheus and celery-exporter
 
@@ -185,19 +161,13 @@ Monitor Celery Tasks with Prometheus and celery-exporter
 
 <https://grafana.com/grafana/dashboards/10026>
 
-
-
 <https://github.com/mher/flower>
 
 <https://flower.readthedocs.io/en/latest
 
-
-
-**Jobtastic**
+## Jobtastic
 
 Jobtastic is a python library that adds useful features to your Celery tasks. Specifically, these are features you probably want if the results of your jobs are expensive or if your users need to wait while they compute their results.
-
-
 
 <http://policystat.github.io/jobtastic
 

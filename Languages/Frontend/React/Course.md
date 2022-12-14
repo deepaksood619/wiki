@@ -12,9 +12,7 @@ Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>
 
 <https://github.com/adam-golab/react-developer-roadmap>
 
-
-
-**Coding Questions**
+## Coding Questions
 
 <https://www.testdome.com/d/react-js-interview-questions/304>
 
@@ -22,9 +20,7 @@ Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>
 
 <https://www.toptal.com/react/interview-questions>
 
-
-
-**Course**
+## Course
 
 <https://www.freecodecamp.org/news/getting-started-with-react-a-modern-project-based-guide-for-beginners-including-hooks-2
 
@@ -36,25 +32,19 @@ Roadmap - <https://www.youtube.com/watch?v=Ip_jOSpThSg>
 
 <https://www.freecodecamp.org/news/learn-all-about-micro-frontends
 
-
-
-**Completed**
+## Completed
 
 <https://www.youtube.com/watch?v=sfmL6bGbiN8&ab_channel=freeCodeCamp.org>
 
 <https://github.com/deepaksood619/react-shopping-cart>
 
+## Advanced - <https://www.youtube.com/watch?v=m_u6P5k0vP0>
 
-
-**Advanced -** <https://www.youtube.com/watch?v=m_u6P5k0vP0>
-
-**Other -** <https://www.youtube.com/watch?v=8GXXGJRDMdQ>
+## Other - <https://www.youtube.com/watch?v=8GXXGJRDMdQ>
 
 <https://www.youtube.com/playlist?list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK>
 
-
-
-**Project -** <https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript
+## Project - <https://www.freecodecamp.org/news/how-to-build-a-quiz-app-using-react-and-typescript
 
 <https://www.freecodecamp.org/news/solidify-your-react-skills-by-building-15-projects
 
@@ -80,17 +70,13 @@ TODO project - [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHS
 
 <https://www.freecodecamp.org/news/build-a-google-docs-clone-with-react-and-firebase
 
-
-
-**Reference Projects**
+## Reference Projects
 
 <https://github.com/taniarascia/takenote>
 
 <https://codewithnico.com/production-ready-react-apps
 
 <https://madewithreact.com
-
-
 
 <https://scrimba.com/g/glearnreact>
 
@@ -113,8 +99,6 @@ TODO project - [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHS
     -   Optimizations (PureComponents, Dynamic Imports, React.lazy, React.Suspense, React.memo)
     -   Hooks
     -   React Router
-
-
 
 [Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks](https://www.youtube.com/watch?v=4UZrsTqkcW4)
 -   JSX Rules

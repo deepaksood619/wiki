@@ -42,11 +42,7 @@ Modified: 2022-09-23 13:06:51 +0500
 -   [Procedural law](https://en.wikipedia.org/wiki/Procedural_law)
 -   [Substantive law](https://en.wikipedia.org/wiki/Substantive_law)
 
-
-
 [MUST Know Important Laws of India!](https://youtu.be/K65DEXrR9As)
-
-
 
 [Theories of Punishment | Criminal Law](https://www.youtube.com/watch?v=OxZPD2rY7KE)
 -   What is the objective of punishment

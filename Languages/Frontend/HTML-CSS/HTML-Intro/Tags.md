@@ -6,27 +6,19 @@ Modified: 2021-11-14 09:59:25 +0500
 
 ---
 
-**Semantic Elements in HTML5**
+## Semantic Elements in HTML5
 
 Semantic HTML elements clearly describe it's meaning in a human and machine readable way. Elements such as<header>,<footer>and<article>are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
 
-
-
 <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
-
-
-**HTML Tags Ordered by Category**
+## HTML Tags Ordered by Category
 
 # = New in HTML5.
 
+## no-user-select - no option to select text
 
-
-**no-user-select - no option to select text**
-
-
-
-**Basic HTML**
+## Basic HTML
 
 | Tag                                                               | Description                              |
 |---------------------|---------------------------------------------------|
@@ -41,9 +33,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [<hr>](https://www.w3schools.com/tags/tag_hr.asp)               | Defines a thematic change in the content |
 | [<!--...-->](https://www.w3schools.com/tags/tag_comment.asp) | Defines a comment                        |
 
-
-
-**Formatting**
+## Formatting
 
 <table>
 <colgroup>
@@ -222,9 +212,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </tbody>
 </table>
 
-
-
-**Forms and Input**
+## Forms and Input
 
 | Tag                                                                 | Description                                                |
 |----------------|--------------------------------------------------------|
@@ -241,9 +229,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [<datalist>](https://www.w3schools.com/tags/tag_datalist.asp) #  | Specifies a list of pre-defined options for input controls |
 | [<output>](https://www.w3schools.com/tags/tag_output.asp) #      | Defines the result of a calculation                        |
 
-
-
-**Frames**
+## Frames
 
 <table>
 <colgroup>
@@ -279,9 +265,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </tbody>
 </table>
 
-
-
-**Images**
+## Images
 
 <table>
 <colgroup>
@@ -337,9 +321,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </tbody>
 </table>
 
-
-
-**Audio / Video**
+## Audio / Video
 
 | Tag                                                            | Description                                                                                |
 |----------------|--------------------------------------------------------|
@@ -348,9 +330,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [<track>](https://www.w3schools.com/tags/tag_track.asp) #   | Defines text tracks for media elements (<video> and <audio>)                           |
 | [<video>](https://www.w3schools.com/tags/tag_video.asp) #   | Defines a video or movie                                                                   |
 
-
-
-**Links**
+## Links
 
 | Tag                                                      | Description                                                                                              |
 |-------------|-----------------------------------------------------------|
@@ -358,9 +338,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [<link>](https://www.w3schools.com/tags/tag_link.asp)  | Defines the relationship between a document and an external resource (most used to link to style sheets) |
 | [<nav>](https://www.w3schools.com/tags/tag_nav.asp) # | Defines navigation links                                                                                 |
 
-
-
-**Lists**
+## Lists
 
 <table>
 <colgroup>
@@ -414,9 +392,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </tbody>
 </table>
 
-
-
-**Tables**
+## Tables
 
 | Tag                                                             | Description                                                               |
 |-------------|-----------------------------------------------------------|
@@ -431,9 +407,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [<col>](https://www.w3schools.com/tags/tag_col.asp)           | Specifies column properties for each column within a <colgroup> element |
 | [<colgroup>](https://www.w3schools.com/tags/tag_colgroup.asp) | Specifies a group of one or more columns in a table for formatting        |
 
-
-
-**Styles and Semantics**
+## Styles and Semantics
 
 | Tag                                                              | Description                                                 |
 |----------------------|--------------------------------------------------|
@@ -451,9 +425,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [<summary>](https://www.w3schools.com/tags/tag_summary.asp) # | Defines a visible heading for a <details> element         |
 | [<data>](https://www.w3schools.com/tags/tag_data.asp) #       | Links the given content with a machine-readable translation |
 
-
-
-**Meta Info**
+## Meta Info
 
 <table>
 <colgroup>
@@ -487,9 +459,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </tbody>
 </table>
 
-
-
-**Programming**
+## Programming
 
 <table>
 <colgroup>

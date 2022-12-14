@@ -6,7 +6,7 @@ Modified: 2022-10-30 23:55:10 +0500
 
 ---
 
-**Origins of Graph Theory**
+## Origins of Graph Theory
 
 The seven bridge of Künigsberg.
 
@@ -20,9 +20,7 @@ Leonhard Euler solved the problem in 1735 by proving that it is not possible.
 
 ![](media/Intro-image1.png)
 
-
-
-**Introduction**
+## Introduction
 
 1.  Path
 
@@ -32,9 +30,7 @@ Leonhard Euler solved the problem in 1735 by proving that it is not possible.
 
 4.  Directed Acyclic Graph (DAG) - A directed graph with no cycles
 
-
-
-**Graph-Processing problems / Graph Challenges-**
+## Graph-Processing problems / Graph Challenges-
 
 1.  Path: Is there a path between s and t?
 
@@ -62,33 +58,23 @@ Answer: A connected graph is Eulerian iff all vertices have even edges
 
 12. Graph isomorphism: Do two adjacency lists represent the same graph? (No one knows, longstanding open problem)
 
+![image](media/Intro-image2.png)
 
-
-![compute the degree of v compute maximum degree compute average degree count self-loops public static int degree (Graph G, int v) int degree = 0; for (int w : G. adj (v)) degree++; return degree; public static int maxDegree(Graph G) int max = O; for (int v = O; v < G.V(); v++) if (degree(G, v) > max) max = degree(G, v) ; return max; public static double averageDegree(Graph G) { return 2.0 * G.E() / C.V(); public static int numberOfSeIfLoops(Graph G) int count = 0; for (int v = O; v for (int w : G. if (v return count/ 2; adj (v)) cou nt++ ; // each edge counted twi ce ](media/Intro-image2.png)
-
-
-
-**Planar Graph**
+## Planar Graph
 
 In[graph theory](https://en.wikipedia.org/wiki/Graph_theory), a**planar graph**is a[graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))that can be[embedded](https://en.wikipedia.org/wiki/Graph_embedding)in the[plane](https://en.wikipedia.org/wiki/Plane_(geometry)), i.e., it can be drawn on the plane in such a way that its edges intersect only at their endpoints. In other words, it can be drawn in such a way that no edges cross each other.Such a drawing is called a**plane graph**or**planar embedding of the graph**. A plane graph can be defined as a planar graph with a mapping from every node to a point on a plane, and from every edge to a[plane curve](https://en.wikipedia.org/wiki/Plane_curve)on that plane, such that the extreme points of each curve are the points mapped from its end nodes, and all curves are disjoint except on their extreme points.
 
+## Euler's Formula
 
+## Euler's formulastates that if a finite,[connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)), planar graph is drawn in the plane without any edge intersections, and*v*is the number of vertices,*e*is the number of edges and*f*is the number of faces (regions bounded by edges, including the outer, infinitely large region), then
 
-**Euler's Formula**
+## v - e + f = 2
 
-**Euler's formula**states that if a finite,[connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)), planar graph is drawn in the plane without any edge intersections, and*v*is the number of vertices,*e*is the number of edges and*f*is the number of faces (regions bounded by edges, including the outer, infinitely large region), then
-
-**v - e + f = 2**
-
-
-
-**Dual Graph**
+## Dual Graph
 
 In the[mathematical](https://en.wikipedia.org/wiki/Mathematics)discipline of[graph theory](https://en.wikipedia.org/wiki/Graph_theory), thedual graphof a[plane graph](https://en.wikipedia.org/wiki/Plane_graph)Gis a graph that has a[vertex](https://en.wikipedia.org/wiki/Vertex_(graph_theory))for each[face](https://en.wikipedia.org/wiki/Face_(graph_theory))ofG. The dual graph has an[edge](https://en.wikipedia.org/wiki/Edge_(graph_theory))whenever two faces ofGare separated from each other by an edge, and a[self-loop](https://en.wikipedia.org/wiki/Self-loop)when the same face appears on both sides of an edge. Thus, each edgeeofGhas a corresponding dual edge, whose endpoints are the dual vertices corresponding to the faces on either side ofe. The definition of the dual depends on the choice of embedding of the graphG, so it is a property of plane graphs (graphs that are already embedded in the plane) rather than[planar graphs](https://en.wikipedia.org/wiki/Planar_graph)(graphs that may be embedded but for which the embedding is not yet known). For planar graphs generally, there may be multiple dual graphs, depending on the choice of planar embedding of the graph.
 
 ![](media/Intro-image3.png)
-
-
 
 
 
@@ -97,6 +83,4 @@ In the[mathematical](https://en.wikipedia.org/wiki/Mathematics)discipline of[gra
 <https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews
 
 <https://www.freecodecamp.org/news/learn-how-graph-algorithms-work
-
-
 

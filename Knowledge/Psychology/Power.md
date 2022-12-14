@@ -8,13 +8,11 @@ Modified: 2022-04-09 13:06:12 +0500
 
 It is not power that corrupts but fear. Fear of losing power corrupts those who wield it and fear of the scourge of power corrupts those who are subject to it.
 
+## 48 Laws of Power by Robert Greene
 
+## Never appear power hungry
 
-**48 Laws of Power by Robert Greene**
-
-**Never appear power hungry**
-
-**Never make overt power moves**
+## Never make overt power moves
 
 1.  **Say as little as possible**
 
@@ -22,13 +20,9 @@ It is not power that corrupts but fear. Fear of losing power corrupts those who 
 
 3.  **Be formless**
 
-
-
 1.  **Never outshine the master**
 
 Always make those above you feel comfortably superior. In your desire to please and impress them, do not go too far in displaying your talents or you might accomplish the opposite---inspire fear and insecurity. Make your masters appear more brilliant than they are and you will attain the heights of power.
-
-
 
 2.  **Never put too much trust in friends, learn how to use enemies**
 
@@ -41,27 +35,19 @@ Be wary of friends---they will betray you more quickly, for they are easily arou
 -   Use enemies to define your cause more clearly to the public, even framing it as a struggle of good against evil.
 -   It is better off to know who and where your opponents are than to not know where your real enemies lie.
 
-
-
 3.  **Conceal your intentions**
 
 Keep people off-balance and in the dark by never revealing the purpose behind your actions. If they have no clue what you are up to, they cannot prepare a defense. Guide them far enough down the wrong path, envelop them in enough smoke, and by the time they realize your intentions, it will be too late.
 
-
-
 I: Use decoyed objects of desire and red herrings to throw people off the scent:
 -   If at any point in the deception you practice people have the slightest suspicions to your intentions, all is lost. Do not give them the chance to sense what you are up to: Throw them off the scent by dragging red herrings across the path. Use false sincerity, send ambiguous signals, set up misleading objects of desire. Unable to distinguish the genuine from the false, they cannot pick out your real goal.
 -   Hide your intentions not by closing up, but by talking endlessly about your desires and goals - just false ones.
-
-
 
 II: Use smoke screens to disguise your actions:
 -   Deception is always the best strategy, but the best deceptions require a screen of smoke to distract people attention from your real purpose. The bland exterior---like the unreadable poker face---is often the perfect smoke screen, hiding your intentions behind the comfortable and familiar. If you lead the sucker down a familiar path, he won't catch on when you lead him into a trap.
 -   A helpful or honest gesture can divert from a deception.
 -   Patterns will also help mask a deception.
 -   Often the key to deception is being bland and acting with humility.
-
-
 
 4.  **Always say less than necessary**
 
@@ -73,8 +59,6 @@ When you are trying to impress people with words, the more you say, the more com
 -   Be particularly careful with sarcasm - rarely is it valuable.
 -   Be careful with arousing suspicion or insecurity by being silent. At times it is easier to blend by playing the jester.
 
-
-
 5.  **So much depends on reputation - guard it with your life**
 
 Reputation is the cornerstone of power. Through reputation alone you can intimidate and win; once it slips, however, you are vulnerable, and will be attacked on all sides. Make your reputation unassailable. Always be alert to potential attacks and thwart them before they happen. Meanwhile, learn to destroy your enemies by opening holes in their own reputations. Then stand aside and let public opinion hang them.
@@ -84,13 +68,9 @@ Reputation is the cornerstone of power. Through reputation alone you can intimid
 -   A good reputation can save you much - a lot of work is done in advance by your reputation.
 -   Once established, always take the high road when attacked.
 
-
-
 6.  **Court attention at all cost**
 
 Everything is judged by its appearance; what is unseen counts for nothing. Never let yourself get lost in the crowd, then, or buried in oblivion. Stand out. Be conspicuous, at all cost. Make yourself a magnet of attention by appearing larger, more colorful, more mysterious than the bland and timid masses.
-
-
 
 I: Surround your name with the sensational and scandalous
 -   Draw attention to yourself by creating an unforgettable, even controversial image. Court scandal. Do anything to make yourself seem larger than life and shine more brightly than those around you. Make no distinction between kinds of attention---notoriety of any sort will bring you power. Better to be slandered and attacked than ignored.
@@ -100,8 +80,6 @@ II: Create an air of mystery
 -   In a world growing increasingly banal and familiar, what seems enigmatic instantly draws attention. Never make it too clear what you are doing or about to do. Do not show all your cards. An air of mystery heightens your presence; it also creates anticipation---everyone will be watching you to see what happens next. Use mystery to beguile, seduce, even frighten.
 -   Remember: Most people are upfront, can be read like an open book, take little care to control their words or image, and are hopelessly predictable. By simply holding back, keeping silent, occasionally uttering ambiguous phrases, deliberately appearing inconsistent, and acting odd in the subtlest of ways, you will emanate an aura of mystery.
 -   Do not let mystery turn to an air of deceit; it must always seem a game, playful, unthreatening.
-
-
 
 7.  **Get others to do the work for you, but always take the credit**
 
@@ -113,8 +91,6 @@ Use the wisdom, knowledge, and legwork of other people to further your own cause
 -   Use the past, a vast storehouse of knowledge and wisdom. Learn this and you will look like a genius.
 -   Note: be sure to know when letting other people share the credit furthers your cause.
 
-
-
 8.  **Make other people come to you - use bait if necessary.**
 
 When you force the other person to act, you are the one in control. It is always better to make your opponent come to you, abandoning his own plans in the process. Lure him with fabulous gains---then attack. You hold the cards.
@@ -123,15 +99,11 @@ When you force the other person to act, you are the one in control. It is always
 -   The essence of power is keeping the initiative and forcing others to react, keeping them on the defensive.
 -   Master your anger yet play on people's natural tendency to react angrily when pushed and baited.
 
-
-
 9.  **Win through your actions, never through argument**
 
 Any momentary triumph you think you have gained through argument is really a Pyrrhic victory: The resentment and ill will you stir up is stronger and lasts longer than any momentary change of opinion. It is much more powerful to get others to agree with you through your actions, without saying a word. Demonstrate, do not explicate.
 -   When aiming for power, always look for the indirect route.
 -   Verbal argument has one use: deception when covering tracks or caught in a lie.
-
-
 
 10. **Infection: avoid the unhappy and unlucky**
 
@@ -141,15 +113,11 @@ You can die from someone else's misery---emotional states are as infectious as d
 -   The other side of infection is equally valid: there are those who attract happiness by their good cheer, natural buoyancy, and intelligence.
 -   Use this rule to counteract your own undesirable or weak qualities.
 
-
-
 11. **Learn to keep people dependent on you**
 
 To maintain your independence you must always be needed and wanted. The more you are relied on, the more freedom you have. Make people depend on you for their happiness and prosperity and you have nothing to fear. Never teach them enough so that they can do without you.
 -   Do not mistake independence for power; power requires a relationship.
 -   To cultivate this: possess a talent and creative skill that simply cannot be replaced.
-
-
 
 12. **Use selective honesty and generosity to disarm your victim**
 
@@ -158,16 +126,12 @@ One sincere and honest move will cover over dozens of dishonest ones. Open-heart
 -   Selective honesty is best employed on your first encounter with someone.
 -   A history of deceit will cause any act of generosity to be viewed with suspicion. Counter by embracing your reputation for dishonesty openly.
 
-
-
 13. **When asking for help, appeal to people's self-interest, never to their mercy or gratitude**
 
 If you need to turn to an ally for help, do not bother to remind him of your past assistance and good deeds. He will find a way to ignore you. Instead, uncover something in your request, or in your alliance with him, that will benefit him, and emphasize it out of all proportion. He will respond enthusiastically when he sees something to be gained for himself.
 -   Do not be subtle: you have valuable knowledge to share, you can make him rich, you can make him live longer and happier.
 -   Train yourself to see inside other's needs and interests and desires.
 -   Distinguish differences among powerful people and figure out what makes them tick. When they ooze greed, do not appeal to charity; when they want to look charitable and noble, do not appeal to their greed.
-
-
 
 14. **Pose as a friend, work as a spy**
 
@@ -176,14 +140,10 @@ Knowing about your rival is critical. Use spies to gather valuable information t
 -   Give a false confession, and someone else will give you a real one.
 -   Contradict others to stir them to emotion and lose control of their words.
 
-
-
 15. **Crush your enemy totally**
 
 All great leaders since Moses have known that a feared enemy must be crushed completely. (Sometimes they have learned this the hard way.) If one ember is left alight, no matter how dimly it smolders, a fire will eventually break out. More is lost through stopping halfway than through total annihilation: The enemy will recover, and will seek revenge. Crush him, not only in body but in spirit.
 -   Recognize that you will accumulate enemies who you cannot bring over to your side, and that to leave them any escape will mean you are never secure. Crush them completely.
-
-
 
 16. **Use absence to increase respect and honour**
 
@@ -193,23 +153,17 @@ Too much circulation makes the price go down: The more you are seen and heard fr
 -   Note: this law only applies once a certain level of power has been attained. Leave too early and you do not increase respect, you are simply forgotten. Similarly, absence is only effective in love and seduction once you have surrounded the other with your image.
 -   **In the beginning, make yourself not scarce but omnipresent**
 
-
-
 17. **Keep others in suspended terror: cultivate an air of unpredictability**
 
 Humans are creatures of habit with an insatiable need to see familiarity in other people's actions. Your predictability gives them a sense of control. Turn the tables: Be deliberately unpredictable. Behavior that seems to have no consistency or purpose will keep them off-balance, and they will wear themselves out trying to explain your moves. Taken to an extreme, this strategy can intimidate and terrorize.
 -   Unsettle those around you and keep the initiative by being unpredictable.
 -   Predictability and patterns can be used as a tool when deceiving.
 
-
-
 18. **Do not build fortresses to protect yourself - isolation is dangerous**
 
 The world is dangerous and enemies are everywhere---everyone has to protect themselves. A fortress seems the safest. But isolation exposes you to more dangers than it Protects you from---it cuts you off from valuable information, it makes you conspicuous and an easy target. Better to circulate among people, find allies, mingle. You are shielded from your enemies by the crowd.
 -   Retreat to a fortress and you lose contact with your sources of power, and your knowledge of what is going on.
 -   If you need time to think, then choose isolation as a last resort, and only in small doses.
-
-
 
 19. **Know who you're dealing with - do not offend the wrong person**
 
@@ -224,8 +178,6 @@ Being able to recognize the type of person you're dealing with is critical. Here
 
 Never rely on instincts when judging someone; instead gather concrete knowledge. Also never trust appearances.
 
-
-
 20. **Do not commit to anyone**
 
 It is the fool who always rushes to take sides. Do not commit to any side or cause but yourself. By maintaining your independence, you become the master of others---playing people against one another, making them pursue you.
@@ -239,29 +191,21 @@ Part 2: Do not commit to anyone - stay above the fray.
 -   You only have so much time and energy - every moment wasted on affairs of others subtracts from your strength.
 -   Make sure to maintain emotional objectivity in the affairs of others.
 
-
-
 21. **Play a sucker to catch a sucker - seem dumber than your mark**
 
 No one likes feeling stupider than the next person. The trick, then, is to make your victims feel smart---and not just smart, but smarter than you are. Once convinced of this, they will never suspect that you may have ulterior motives.
 -   Intelligence, taste and sophistication are all things you should downplay, or reassure others that they are more advanced than you.
-
-
 
 22. **Use the surrender tactic: transform weakness into power**
 
 When you are weaker, never fight for honor's sake; choose surrender instead. Surrender gives you time to recover, time to torment and irritate your conqueror, time to wait for his power to wane. Do not give him the satisfaction of fighting and defeating you---surrender first. By turning the other cheek you infuriate and unsettle him. Make surrender a tool of power.
 -   The essence of the surrender tactic: inwardly you stay firm, but outwardly you bend. Your enemy will be bewildered when properly executed, as they will be expecting retaliation.
 
-
-
 23. **Concentrate your forces**
 
 Conserve your forces and energies by keeping them concentrated at their strongest point. You gain more by finding a rich mine and mining it deeper, than by flitting from one shallow mine to another---intensity defeats extensity every time. When looking for sources of power to elevate you, find the one key patron, the fat cow who will give you milk for a long time to come.
 -   Concentrate on a single goal, a single task, and beat it into submission.
 -   Note: when fighting a stronger enemy, you must be prepared to dissolve your forces and be elusive.
-
-
 
 24. **Play the perfect courtier**
 
@@ -284,8 +228,6 @@ The Laws of Court Politics
 -   Fit the Spirit of the Times:your spirit and way of thinking must keep up with the times, even if the times offend your sensibilities.
 -   Be a Source of Pleasure:if you cannot be the life of the party, at least obscure your less desirable qualities.‍
 
-
-
 25. **Re-create yourself**
 
 Do not accept the roles that society foists on you. Re-create yourself by forging a new identity, one that commands attention and never bores the audience. Be the master of your own image rather than letting others define it for you. Incorporate dramatic devices into your public gestures and actions---your power will be enhanced and your character will seem larger than life.
@@ -293,8 +235,6 @@ Do not accept the roles that society foists on you. Re-create yourself by forgin
 -   The second step is the creation of a memorable character that compels attention and stands above the others on the stage.
 -   Rhythm, timing and tempo over time also contribute greatly to the creation of a character.
 -   Appreciate the importance of stage entrances and exits.
-
-
 
 26. **Keep your hands clean**
 
@@ -311,8 +251,6 @@ Part 2: Make use of the cat's-paw.
 -   You may also offer yourself as the cat's-paw to gain power.
 -   Note: you must be very careful in using this tactic, as being revealed would be disastrous.
 
-
-
 27. **Play on people's need to believe to create a cult like following**
 
 People have an overwhelming desire to believe in something. Become the focal point of such desire by offering them a cause, a new faith to follow. Keep your words vague but full of promise ; emphasize enthusiasm over rationality and clear thinking. Give your new disciples rituals to perform, ask them to make sacrifices on your behalf. In the absence of organized religion and grand causes, your new belief system will bring you untold power.
@@ -325,8 +263,6 @@ How to create a cult in 5 easy steps:
 -   Set Up an Us-Versus-Them Dynamic:first make sure your followers believe they are part of an exclusive club, unified by common goals. Then, manufacture the notion of a devious enemy out to ruin you.
 -   People are not interested in the truth about change - that it requires hard work - but rather they are dying to believe something romantic, otherworldly.
 -   The most effective cults mix religion with science.
-
-
 
 28. **Enter action with boldness**
 
@@ -343,14 +279,10 @@ Some of the most pronounced psychological effects of boldness and timidity:
 -   You must practice and develop your boldness. The place to begin is in negotiations. How often we ask too little.
 -   Remember: the problems created by an audacious move can be disguised, even remedied, by more and greater audacity.
 
-
-
 29. **Plan all the way to the end**
 
 The ending is everything. Plan all the way to it, taking into account all the possible consequences, obstacles, and twists of fortune that might reverse your hard work and give the glory to others. By planning to the end you will not be overwhelmed by circumstances and you will know when to stop. Gently guide fortune and help determine the future by thinking far ahead.
 -   The ending is everything - it is the end of action that determines who gets the glory, the money, the prize. Your conclusion must be crystal clear, and you must keep it constantly in mind.
-
-
 
 30. **Make your accomplishments seem effortless**
     -   **Your actions must seem natural and executed with ease. All the toil and practice that go into them, and also all the clever tricks, must be concealed. When you act, act effortlessly, as if you could do much more. Avoid the temptation of revealing how hard you work---it only raises questions. Teach no one your tricks or they will be used against you.**
@@ -359,15 +291,11 @@ The ending is everything. Plan all the way to it, taking into account all the po
     -   **What is understandable is not awe-inspiring. The more mystery surrounds your actions, the more awesome your power seems. **
     -   **You appear to be the only one who can do what you do, and because you achieve accomplishments with grace and ease, people believe that you can always do more.**
 
-
-
 31. **Control the options: get others to play with the cards you deal**
 
 The best deceptions are the ones that seem to give the other person a choice: Your victims feel they are in control, but are actually your puppets. Give people options that come out in your favor whichever one they choose. Force them to make choices between the lesser of two evils, both of which serve your purpose. Put them on the horns of a dilemma: They are gored wherever they turn.
 -   Withdrawal and disappearance are classic ways of controlling the options. You give people a sense of how things will fall apart without you, and you offer them the choice: I stay away and you suffer, or I return under my conditions.
 -   We actually find choices between a small number of alternatives more desirable than complete freedom of options.
-
-
 
 The following are among the most common forms of controlling the options:
 -   Color the Choices:Propose multiple solutions, but present the preferred one in the best light compared to the others. Excellent device for the insecure master.
@@ -379,15 +307,11 @@ The following are among the most common forms of controlling the options:
 -   The Horns of a Dilemma:This is a classic trial lawyer's technique: The lawyer leads the witnesses to decide between two possible explanations of an event, both of which poke a hole in their story. They have to answer the lawyer's questions, but whatever they say they hurt themselves. The key to this move is to strike quickly: Deny the victim the time to think of an escape. As they wriggle between the horns of the dilemma, they dig their own grave.
 -   Controlling the options has one main purpose: to disguise yourself as the agent of power and punishment.
 
-
-
 32. **Play to people's fantasies**
 
 The truth is often avoided because it is ugly and unpleasant. Never appeal to truth and reality unless you are prepared for the anger that comes from disenchantment. Life is so harsh and distressing that people who can manufacture romance or conjure up fantasy are like oases in the desert: Everyone flocks to them. There is great power in tapping into the fantasies of the masses.
 -   Never promise a gradual improvement through hard work; rather, promise the moon, the great and sudden transformation, the pot of gold.
 -   The key to fantasy is distance - the distance has allure and promise, seems simple and problem free. What you are offering, then, should be ungraspable. Never let it become oppressively familiar.
-
-
 
 33. **Discover each man's thumbscrew**
 
@@ -404,8 +328,6 @@ How to find weaknesses:
 -   People's need for validation and recognition, their need to feel important, is the best kind of weakness to exploit. To do so, all you need to do is find ways to make people feel better about their taste, their social standing, their intelligence.
 -   Timidity can be exploited by pushing them into bold actions that serve your needs while also making them dependent on you.
 
-
-
 34. **Be royal in your own fashion: act like a king to be treated like one**
 
 The way you carry yourself will often determine how you are treated: In the long run, appearing vulgar or common will make people disrespect you. For a king respects himself and inspires the same sentiment in others. By acting regally and confident of your powers, you make yourself seem destined to wear a crown.
@@ -420,8 +342,6 @@ There are other strategies to help:
 -   The David and Goliath Strategy:go after the highest person in the building. This immediately puts you on the same plane as the chief executive you are attacking.
 -   The Patron Strategy:give a gift of some sort to those above you.
 
-
-
 35. **Master the art of timing**
 
 Never seem to be in a hurry-hurrying betrays a lack of control over yourself, and over time. Always seem patient, as if you know that everything will come to you eventually. Become a detective of the right moment; sniff out the spirit of the times, the trends that will carry you to power. Learn to stand back when the time is not yet ripe, and to strike fiercely when it has reached fruition.
@@ -430,8 +350,6 @@ Three types of time and how to deal with them:
 -   Long Time:be patient, control your emotions, and take advantage of opportunities when they arise. You will gain long-term perspective and see further in the future.
 -   Forced Time:the trick in forcing time is to upset the timing of others - to make them hurry, make them wait, make them abandon their own pace. Use the deadline, apply sudden pressure, change pace to use this.
 -   End Time:patience is useless unless combined with a willingness to act decisively at the right moment. Use speed to paralyze your opponents, cover any mistakes, and impress people with your aura of authority and finality.
-
-
 
 36. **Disdain things you cannot have: ignoring them is the best revenge**
 
@@ -443,8 +361,6 @@ By acknowledging a petty problem you give it existence and credibility. The more
 -   Treat it lightly if you have committed a blunder.
 -   Note: make sure to show the above publicly, but to monitor the problem privately, making sure it is remedied.
 
-
-
 37. **Create compelling spectacles**
 
 Striking imagery and grand symbolic gestures create the aura of power---everyone responds to them. Stage spectacles for those around you, then, full of arresting visuals and radiant symbols that heighten your presence. Dazzled by appearances, no one will notice what you are really doing.
@@ -452,15 +368,11 @@ Striking imagery and grand symbolic gestures create the aura of power---everyone
 -   Find an associate yourself with powerful images and symbols to gain power.
 -   Most effective of all is a new combination - a fusion of images and symbols that have not been seen together before, but that clearly demonstrate your new idea, message, religion.
 
-
-
 38. **Think as you like but behave like others**
     -   **If you make a show of going against the times, flaunting your unconventional ideas and unorthodox ways, people will think that you only want attention and that you look down upon them. They will find a way to punish you for making them feel inferior. It is far safer to blend in and nurture the common touch. Share your originality only with tolerant friends and those who are sure to appreciate your uniqueness.**
     -   **Flaunting your pleasure in alien ways of thinking and acting will reveal a different motive - to demonstrate your superiority over your fellows.**
     -   **Wise and clever people learn early on that they can display conventional behavior and mouth conventional ideas without having to believe in them. The power these people gain from blending in is that of being left alone to have the thoughts they want to have, and to express them to the people they want to express them to, without suffering isolation or ostracism.**
     -   **The only time it is worth standing out is when you already stand out---when you have achieved an unshakable position of power, and can display your difference from others as a sign of the distance between you.**
-
-
 
 39. **Stir up waters to catch fish**
 
@@ -472,8 +384,6 @@ Anger and emotion are strategically counterproductive. You must always stay calm
 -   In the face of someone angry, nothing is more infuriating than someone who keeps his cool while others are losing theirs.
 -   Note: do not provoke those who are too powerful.
 -   There are times when a burst of anger can do good, but it must be manufactured and under your control.
-
-
 
 40. **Despise the free lunch**
 
@@ -489,8 +399,6 @@ Avoid these people who fail to use money creatively and strategically, or turn t
 -   Never let lust for money lure you from true power. Make power your goal and money will find it's way to you.
 -   Note: bait your deceptions with the possibility of easy money, and many will fall for it.
 
-
-
 41. **Avoid stepping into a great man's shoes**
 
 What happens first always appears better and more original than what comes after. If you succeed a great man or have a famous parent, you will have to accomplish double their achievements to outshine them. Do not get lost in their shadow, or stuck in a past not of your own making: Establish your own name and identity by changing course. Slay the overbearing father, disparage his legacy, and gain power by shining in your own way.
@@ -499,15 +407,11 @@ What happens first always appears better and more original than what comes after
 -   Repeating actions will not re-create success, because circumstances never repeat themselves exactly.
 -   Success and power make us lazy - you must reset psychologically to counter this laziness.
 
-
-
 42. **Strike the shepherd and the sheep will scatter**
 
 Trouble can often be traced to a single strong individual ---the stirrer, the arrogant underling, the poisoner of goodwill. If you allow such people room to operate, others will succumb to their influence. Do not wait for the troubles they cause to multiply, do not try to negotiate with them---they are irredeemable. Neutralize their influence by isolating or banishing them. Strike at the source of the trouble and the sheep will scatter.
 -   In every group, power is concentrated in the hands of one or two people.
 -   When troubles arise, find the source, and isolate them - physically, politically or psychologically. Separate them from their power base.
-
-
 
 43. **Work on the hearts and minds of others**
 
@@ -516,8 +420,6 @@ Coercion creates a reaction that will eventually work against you. You must sedu
 -   Play on contrasts: push people to despair, then give them relief. If they expect pain and you give them pleasure, you win their hearts.
 -   Symbolic gestures of self-sacrifice can win sympathy and goodwill.
 -   The quickest way to secure people's minds is by demonstrating, as simply as possible, how an action will benefit them.
-
-
 
 44. **Disarm and infuriate with the mirror effect**
 
@@ -533,8 +435,6 @@ There are four main Mirror effects:
 -   One way to create a mirror for someone is to teach them a lesson through an analogy, avoiding the reactionary increase in resistance you'd encounter if brought up directly.
 -   Note: avoid mirrored situations you don't understand, as those involved will quickly see through it, and the mirrored situation will not live up to the original.
 
-
-
 45. **Preach the need for change, but never reform too much at once**
 
 Everyone understands the need for change in the abstract, but on the day-to-day level people are creatures of habit. Too much innovation is traumatic, and will lead to revolt. If you are new to a position of power, or an outsider trying to build a power base, make a show of respecting the old way of doing things. If change is necessary, make it feel like a gentle improvement on the past.
@@ -542,8 +442,6 @@ Everyone understands the need for change in the abstract, but on the day-to-day 
 -   Humans desire change in the abstract, or superficial change, but a change that upsets core habits and routines is deeply disturbing to them.
 -   Understand: The fact that the past is dead and buried gives you the freedom to reinterpret it. To support your cause, tinker with the facts. The past is a text in which you can safely insert your own lines.
 -   A simple gesture like using an old title, or keeping the same number for a group, will tie you to the past and support you with the authority of history.
-
-
 
 46. **Never appear too perfect**
 
@@ -559,8 +457,6 @@ Appearing better than others is always dangerous, but most dangerous of all is t
 -   Beware signs of envy: excessive praise, hypercritical people, public slandering.
 -   Note: once envy is present, it is sometimes best to display the utmost disdain for those who envy you.
 
-
-
 47. **Do not go past the mark you aimed for; in victory, learn when to stop**
 
 The moment of victory is often the moment of greatest peril. In the heat of victory, arrogance and overconfidence can push you past the goal you had aimed for, and by going too far, you make more enemies than you defeat. Do not allow success to go to your head. There is no substitute for strategy and careful planning. Set a goal, and when you reach it, stop.
@@ -568,8 +464,6 @@ The moment of victory is often the moment of greatest peril. In the heat of vict
 -   The powerful vary their rhythms and patterns, change course, adapt to circumstance, and learn to improvise. They control their emotions, and step back and come to a mental halt when they have attained success.
 -   Good luck is more dangerous than bad luck, because it deludes you into thinking your own brilliance is the reason for your success.
 -   Note: There are some who become more cautious than ever after a victory, which they see as just giving them more possessions to worry about and protect. Your caution after victory should never make you hesitate, or lose momentum, but rather act as a safeguard against rash action. On the other hand, momentum as a phenomenon is greatly overrated. You create your own successes, and if they follow one upon the other, it is your own doing. Belief in momentum will only make you emotional, less prone to act strategically, and more apt to repeat the same methods. Leave momentum for those who have nothing better to rely upon.
-
-
 
 48. **Assume formlessness**
 
@@ -582,94 +476,54 @@ By taking a shape, by having a visible plan, you open yourself to attack. Instea
 -   Finally, learning to adapt to each new circumstance means seeing events through your own eyes, and often ignoring the advice that people constantly peddle your way. It means that ultimately you must throw out the laws that others preach, and the books they write to tell you what to do, and the sage advice of the elder.
 -   Note: when you do finally engage an enemy, hit them with a powerful, concentrated blow.
 
-
-
 <https://www.grahammann.net/book-notes/48-laws-of-power-robert-greene>
 
 [THE 48 LAWS OF POWER by Robert Greene | Core Message](https://youtu.be/cTzU5Yhm-I0)
 
-
-
-**Persuasion and Authority**
+## Persuasion and Authority
 
 Be mindful of the principles of persuasion. No one trusts a doctor who shows up in a skater outfit. But if a skater puts on a white lab coat and carries a doctor bag, we instantly think it's a doctor.
 
-
-
 Since people are too busy to study everything in detail or weigh all the pros and cons before making a purchase, they rely on the simplified idea of authority. If someone is trusted by our peers, we also instantly trust them.
-
-
 
 <https://dariusforoux.com/authority
 
-
-
-**David and Goliath**
+## David and Goliath
 
 David, a shepherd boy carrying a wooden staff and sling, volunteers to fight a seven-foot giant named Goliath. Goliath is fully armored with a sword in one hand and a spear in the other. When he sees David approach him with a wooden staff, he laughs and says, "Am I a dog that you should come to me with sticks?"
 
-
-
 David quietly puts a stone in his sling and fires it at a tiny opening in Goliath's helmet. Goliath falls to the ground, stunned. David runs to Goliath, grabs his sword, and cuts his head off.
-
-
 
 David is victorious! It's a miracle! Or is it'
 
-
-
 David may have seemed like a lucky underdog, but nothing could be further from the truth. As you will discover in Gladwell's book and this summary, underdogs like David pull off surprising victories much more than you think. The key to pulling off surprising victories against powerful foes is neutralizing your opponent's advantage, just like David did.
 
-
-
-**Neutralize the giant's advantage**
+## Neutralize the giant's advantage
 
 Most ritualistic single combat battles were determined by sword-to-sword combat. But David did not care about convention. David was going to fight Goliath from a distance and turn the battle into a contest between Goliath's spear throwing ability and David's sling shooting skills. David happened to be a sling master who killed bears and lions that tried to run off with his sheep. David's sling may have looked harmless, but historians estimate it could hurl stones with stopping power equivalent to the modern handgun.
 
-
-
 By going against conventional wisdom and strategically altering the rules of engagement, David neutralized Goliath's size, strength, and power, and flipped the competition in his favor.
-
-
 
 The next time you face a powerful opponent, ask yourself, "How can I fight this battle on my terms and neutralize my opponent's advantage?"
 -   If you are facing a giant business competitor, center your marketing campaign around character and quality instead of efficiency and cost. For example, a small coffee shop could compete against large coffee shop chains like Starbucks by promoting the fact that they use coffee beans from a small family farm in Honduras and roast their beans on site for maximum freshness (something that just isn't feasible for a massive coffee shop chain like Starbucks).
 
-
-
 Fighting a battle on your terms may require a deep understanding of the rules and a willingness to bend the rules.
 -   Author and podcaster Tim Ferriss entered a Chinese National Kickboxing Tournament and won gold by studying the rules of competition and learning that if he pushed his opponent off the elevated platform three times in a single round, he would automatically win the match. Therefore, Ferriss leveraged his high school wrestling training and made every match a pushing contest instead of a kickboxing contest.
 
-
-
 When you compete unconventionally, you will get criticized and laughed at like David. But as the saying goes, "**First they ignore you. Then they laugh at you. Then they fight you. Then you win.**"
 
-
-
-**Defeat the giant by feeling like a giant**
+## Defeat the giant by feeling like a giant
 
 After you devise a plan to neutralize your opponent's advantage, you still need a tremendous amount of skill and confidence to pull off a victory. Paradoxically, many underdogs acquire the necessary skill and confidence to take down giants by spending most of their time feeling like a giant. If you were a promising young economic student, where would you go to graduate school: a great school like Harvard or a merely good school like the University of Toronto?
 
-
-
 If you're good enough to get into Harvard but choose to go to the University of Toronto and graduate in the top §% of your class, you are twice as likely to get a paper published in a prestigious economic journal than 8o% of Harvard graduates.
-
-
 
 University of Toronto economists who graduate in the top $% of their class publish 1.8 papers six years after graduation, whereas Harvard economists who fail to graduate in the top zo% of their class publish just 0.7papers six years after graduation.
 
-
-
 You must be exceptionally smart and hardworking to get into a PhD program at Harvard, but you risk feeling average once admitted. After a year or two at Harvard, you may realize your peers are better economists than you and your willingness to pursue an audacious goal, like getting your work published in a prestigious journal, wanes. In other words, the more time you feel like a small fish in a big pond, the less likely you are to step up when faced with an enormous obstacle or opportunity.
-
-
 
 Whatever you're doing, aim to be a big fish in a small pond. Compete in environments where you feel challenged but know you're one of the best. Recent research says the win rate for optimal learning is 85% !f you can find an environment where you feel like you're winning 85%of the time, you will steadily develop the skill and confidence to take on giants.
 
-
-
 "**The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man.**" - George Bernard Shaw
-
-
 
 [DAVID AND GOLIATH by Malcolm Gladwell | Core Message](https://www.youtube.com/watch?v=XPYe6qWdMLk)

@@ -8,13 +8,9 @@ Modified: 2021-11-12 21:41:16 +0500
 
 CHAID - Chi-Squared Automatic Interaction Detection
 
+## C4.5 and CHAID Algorithm
 
-
-**C4.5 and CHAID Algorithm**
-
-
-
-**Outline**
+## Outline
 -   Disadvantages of ID3 algorithm
 -   C4.5 algorithm
     -   Gain ratio
@@ -25,9 +21,7 @@ CHAID - Chi-Squared Automatic Interaction Detection
     -   Continuous data
 -   CHAID
 
-
-
-**ID3 Algorithm**
+## ID3 Algorithm
 -   Top down construction of decision tree by recursively selecting the "best attribute" to use at the current node, based on the training data
 -   It can only deal with nominal data
 -   It is not robust in dealing with noisy data sets
@@ -35,9 +29,7 @@ CHAID - Chi-Squared Automatic Interaction Detection
 -   It creates unnessarily complex trees without pruning
 -   It does not handle missing data values well
 
-
-
-**C4.5 Algorithm**
+## C4.5 Algorithm
 -   An Improvement over ID3 algorithm
 -   Designed to handle
     -   Noisy data better
@@ -46,30 +38,22 @@ CHAID - Chi-Squared Automatic Interaction Detection
     -   Attributes with continuous values
     -   Rule Derivation
 
-
-
-**Fix overfitting / overleaning problem**
+## Fix overfitting / overleaning problem
 
 1.  Pre-prune: Stop growing a branch when information becomes unrealiable
 
 2.  Post-prune: Take a fully-grown decision tree and discard unreliable parts
 
-
-
-**Chi-Squared Automatic Interation Detection (CHAID)**
+## Chi-Squared Automatic Interation Detection (CHAID)
 -   It is one of the oldest tree classification methods originally proposed by Kass in 1980
 -   The first step is to create categorical predictors out of any continuous predictors by dividing the respective continuous distributions into a number of categories with an approximately equal number of observations
 -   The next step is to cycle through the predictors to determine for each predictor the pair of (predictor) categories that is least significantly different with respect to the dependent variable
 -   The next step is to choose the split the predictor variable with the smallest adjusted p-value, i.e., the predictor variable that will yield the most significant split
 -   Continue this process until no further splits can be performed
 
-
-
-**Algorithm**
+## Algorithm
 
 Dividing the cases that reach a certain node in the tree
-
-
 
 1.  Cross tabulate the response variable (target) with each of the explanatory variables
 
@@ -106,8 +90,6 @@ Dividing the cases that reach a certain node in the tree
         i.  no variable is significant in step 4
 
         ii. the number of cases reaching a node is below a specified limit
-
-
 
 <http://www.statsoft.com/textbook/chaid-analysis>
 

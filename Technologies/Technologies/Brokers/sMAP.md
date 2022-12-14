@@ -8,8 +8,6 @@ Modified: 2018-10-05 17:51:28 +0500
 
 # sMAP: the Simple Measurement and Actuation Profile
 
-
-
 An enormous amount of physical information; that is, information from and about the world is available today as the cost of communication and instrumentation has fallen. However, making use of that information is still challenging. The information is frequently siloed into proprietary systems, available only in batch, fragmentary, and disorganized. The sMAP project aims to change this by making it available and usable:
 
 
@@ -19,36 +17,24 @@ An enormous amount of physical information; that is, information from and about 
 
 
 
-
-
-
-
 ![](../../media/Technologies-Brokers-sMAP-image1.png)
 
 The core object in sMAP is the timeseries, a single progression of(time,value)tuples. Each timeseries in sMAP is identified by aUUID, and can be tagged with metadata; all grouping of time series occurs using these tags. These objects are exchanged between all components in this ecosystem.
 
-
-
-**Key Elements:**
+## Key Elements:
 -   sMAP Sources
 -   Archiver
 -   Front-ends
 
-
-
-**Sources -**
+## Sources -
 -   Drivers
 -   Send data to the archiver
 
-
-
-**Patterns for driver writing**
+## Patterns for driver writing
 -   Periodic scraping
 -   Actuation
 
-
-
-**sMAP Archiver Interface**
+## sMAP Archiver Interface
 -   ArchiverAPI
 -   Query Language
 -   Real-time data access
@@ -56,16 +42,12 @@ The core object in sMAP is the timeseries, a single progression of(time,value)tu
     -   JSON Edition
     -   CSV Edition
 
-
-
-**sMAP Toolbox**
+## sMAP Toolbox
 -   smap-query
 -   smap-tool
 -   smap-monitize
 -   smap-load
 -   smap-load-csv
-
-
 
 # sMAP Architecture
 
@@ -85,19 +67,13 @@ The sMAP architecture consists of several components which may be used together 
 
 the**powerdb2**project provides plotting and organization of time-series data. Due to the decoupled nature of sMAP, this front-end can be run by anyone without installing the database. The application is designed to give users a large amount of flexibility to organize, display and plot streams using[***Query Language***](https://people.eecs.berkeley.edu/~stevedh/smap2/archiver.html#archiverquery)to generate tree views of their streams.
 
+## Sending data via API
 
-
-**Sending data via API**
-
-**Manual Data Publication**
+## Manual Data Publication
 
 curl -XPOST -d @data.json -H "Content-Type: application/json" [http://iiitd.zenatix.com:9101/add/**rOxFkkkoigEEKTei39Zi72zevAxsQbqqCY9c**](http://iiitd.zenatix.com:9101/add/rOxFkkkoigEEKTei39Zi72zevAxsQbqqCY9c)
 
-
-
-**References**
+## References
 
 [https://people.eecs.berkeley.edu/~stevedh/smap2/index.html#](https://people.eecs.berkeley.edu/~stevedh/smap2/index.html)
-
-
 

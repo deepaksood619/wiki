@@ -10,15 +10,11 @@ npx - npm package runner
 
 <https://www.freecodecamp.org/news/npm-vs-npx-whats-the-difference
 
-
-
-**To install all dependencies**
+## To install all dependencies
 
 npm install
 
 npm init # for creating package.json
-
-
 
 npm init -y
 
@@ -26,31 +22,21 @@ npm i express
 
 npm i --save-dev nodemon
 
-
-
 npm i jsonwebtoken dotenv
 
-
-
-**Run server**
+## Run server
 
 node .
 
-
-
-**Compile all ES6 and babel packages and run server**
+## Compile all ES6 and babel packages and run server
 
 npm start (from the project root directory)
 
-
-
-**To install and save to package json file from npm**
+## To install and save to package json file from npm
 
 npm install --save youtube-api-search
 
-
-
-**Others**
+## Others
 
 npm outdated
 
@@ -58,9 +44,7 @@ npm update
 
 npm update "react" "react-dom"
 
-
-
-**Packages**
+## Packages
 -   youtube-api-search
 
 It takes a youtube data api key and a search query and gets all the data from youtube.
@@ -75,9 +59,7 @@ Nodemon is a utility that will monitor for any changes in your source and automa
 -   <https://www.npmjs.com/package/redis>
 -   npm install gray-matter
 
-
-
-**Others**
+## Others
 -   Yarn package manager
 
 Fast, reliable, and secure dependency management
@@ -87,9 +69,7 @@ Fast, reliable, and secure dependency management
 -   Network Resilience.A single request that fails will not cause the entire installation to fail. Requests are automatically retried upon failure.
 -   Flat Mode.Yarn resolves mismatched versions of dependencies to a single version to avoid creating duplicates.
 
-
-
-**Commands**
+## Commands
 
 yarn #install all dependencies
 
@@ -111,13 +91,9 @@ Fast, disk space efficient package manager
 
 <https://pnpm.io/pnpx-cli>
 
+## index.js
 
-
-**index.js**
-
-**# npm install express**
-
-
+## # npm install express
 
 const express = require("express");
 
@@ -133,8 +109,6 @@ res.status(200).send(`The Time is ${time}`);
 
 });
 
-
-
 // catchall route
 
 app.get("*", (req, res) => {
@@ -143,22 +117,14 @@ res.sendStatus(404);
 
 });
 
-
-
 app.listen(PORT, () => {
 
 console.log(`Server is running on port ${PORT}.`);
 
 });
 
+## # node .
 
-
-**# node .**
-
-
-
-**# npm install body-parser**
-
-
+## # npm install body-parser
 
 <https://blog.bitsrc.io/understanding-json-web-token-authentication-a1febf0e15>

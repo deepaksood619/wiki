@@ -6,7 +6,7 @@ Modified: 2022-12-10 00:48:32 +0500
 
 ---
 
-**A UNIX OS is made up of three parts**
+## A UNIX OS is made up of three parts
 -   **Kernel:** The kernel of UNIX is the hub of the OS: it allocates time and memory to programs and handles the filestore and communications in response to system calls,
 -   **Shell:** The shell acts as an interface between the user and the kernel. The shell is a command line interpreter (CLI). It interprets the commands the user types in and arranges for them to be carried out,
 -   **Programs:** The commands are themselves also programs: when they terminate, the shell gives the user another prompt.-   Everything in UNIX is either a file or a process.
@@ -15,13 +15,13 @@ Under the hood, everything is actually a file. A text file is a file, a director
 -   A process is an executing program identified by a unique PID (process identifier).
 
 Process identifiers (PIDs) are unique identifiers that the Linux kernel gives to each process. PIDs are namespaced, meaning that a container has its own set of PIDs that are mapped to PIDs on the host system. The first process launched when starting a Linux kernel has the PID 1. For a normal operating system, this process is the init system, for example, systemd or SysV. Similarly, the first process launched in a container gets PID 1. Docker and Kubernetes use signals to communicate with the processes inside containers, most notably to terminate them. Both Docker and Kubernetes can only send signals to the process that has PID 1 inside a container.
-**Linux is an extensionless system**
+## Linux is an extensionless system
 
 Files can have any extension they like or none at all.
-**Directory Structure**
+## Directory Structure
 
-![usr its home scs pgl tmp staff var ee51vn ugl ma51ik docs pics report.doc ](media/Unix---Linux-image1.png)
-**Unix File Types**
+![image](media/Unix---Linux-image1.png)
+## Unix File Types
 
 There are 6 file types in Unix systems -
 
@@ -84,19 +84,19 @@ Linux capabilities provide a subset of the available root privileges to a proces
 
 ## Linux kernel**
 
-![Linux kemel SCI (System Call Interface) Erminals Character devi ce drivers 1/0 subsystem Linux kemel Virtual File System Sockets Netfilter / Nftables Network protocols Linux kemel Packet Scheduler Network devi ce drivers IRQs File systems block layer Linux kemel 1/0 Scheduler Block drivers Memory management subsystem Virtual memory Paging page Page cache Dispatcher Process management subsystem Signal handling process/thread creation & termination Linux kemel Process Scheduler ](media/Unix---Linux-image2.png)
+![image](media/Unix---Linux-image2.png)
 The kernel space is where we have system memory for low level applications on the kernel running. The user space is the environment where our user processes function and execute.
-![user Space process System Call Kernel Space RAM Disk ](media/Unix---Linux-image3.png)
-![user Programs Library/lnterpreter System Calls Kernel Space ](media/Unix---Linux-image4.png)
+![image](media/Unix---Linux-image3.png)
+![image](media/Unix---Linux-image4.png)
 
 Whenever an applications makes a request to a kernel level function, an interrupt is sent which tells the processor to stop whatever it is doing and attend to that particular request, you can think about it like context switching if it makes it easier to understand. Provided the user space application has relevant permission, there's a context switch to the kernel space, the user space application awaits a response back after the context switch has started and the required program/functionality in the kernel space is executed through the aid of the appropriate interrupt handler.
-**Syscalls**
+## Syscalls
 
 Systems Calls aka syscall is an API which allows a**small**part of kernel functionality to be exposed to user level applications. A small part is really stressed to inform whoever reading that syscalls are limited and are generic to serve a purpose. They are not the same across every operating system and do differ in both definition and mode of access.
-![System Call access() chdir() chmod() chown() kill() link() open() pause() stime() times() alarm() fork() chroot() exit() Description This checks if a calling process has access to the required file The chdir command changes the current directory of the system The mode of a file can be changed using this command This changes the ownership of a particular file This system call sends kill signal to one or more processes A new file name is linked to an existing file using link system call. This opens a file for the reading or writing process The pause call suspends a file until a particular signal occurs. This system call sets the correct time. Gets the parent and child process times The alarm system call sets the alarm clock of a process A new process is created using this command This changes the root directory of a file. The exit system call is used to exit a process. ](media/Unix---Linux-image5.png)
+![image](media/Unix---Linux-image5.png)
 Sometimes, we have a group of syscalls that we want to group together, we do this using a linux kernel feature called Capabilities. These are predefined sets of privileges which a running program can have access to or be limited by.
 Capabilities further enhance syscalls by grouping related ones into defined privileges that can be granted or denied at once. This prevents even root level applications from exploiting restricted kernel spaces with reserved permissions.
-**Linux Namespaces**
+## Linux Namespaces
 
 1.  CGroups
 
@@ -125,7 +125,7 @@ This namespace isolates security related identifier like group id and user id. I
 7.  UTS
 
 This namespace provides the isolation on hostname and domain name. It means processes has a separate copy of domain name or hostname so while changing hostname or domain name it will not affect the rest of the system.
-**Namespace Management**
+## Namespace Management
 
 This is the most advanced topic of Linux namespaces which should be done on kernel level. For the namespace management, you have to write aCprogram.
 For management of namespace, we have these functions available in Linux
@@ -151,7 +151,7 @@ Name two pieces of information you can get from proc/$PID directory
 -   Command line arguments
 When 2 programs use the same library (like openssl) are there 2 copies of that library in memory?
 -   No, if it's dynamically linked library (or shared library), then you can just have 1 copy in memory and hundreds of programs can share the same copy
-**CGroups**
+## CGroups
 
 Control groups, usually referred to as cgroups, are a Linux kernel feature which allow processes to be organized into hierarchical groups whose usage of various types of resources can then be limited and monitored. The kernel's cgroup interface is provided through a pseudo-filesystem called cgroupfs. Grouping is implemented in the core cgroup kernel code, while resource tracking and limits are implemented in a set of per-resource-type subsystems (memory, CPU, and so on).
 Functions
@@ -168,8 +168,8 @@ ThePortable Operating System Interface(POSIX)is a family of[standards](https://e
 
 ## Boot Process**
 
-![The Boot Process Boot BIOS Boot L Kerhel (from initramfs) grub2 POST initramfs boot dev Stagel + Stage2 /sys/* fi rmware /proc/sys/* /boot/grub2/grub.cfg grub2-insta11 sysctl dracut grub2-mkconfig 'etc/ sysctl . conf .71 /etc/dracut .conf /etc/grub . d /etc/default/grub Boot Parameters rd. break systemd.unit=rescue.target systemd. unit-emergency. target letc/fstab initrd.target Mounts actual rootfs to /sysroot RO rd. break Pivot kernel rootfs to /sysroot systemd (from f') default. target rescue. target emergency. target sulogin s sinit.target FS Checks Remounts / RW ](media/Unix---Linux-image6.jpg)
-**Distributions**
+![image](media/Unix---Linux-image6.jpg)
+## Distributions
 
 <https://dev.to/pluralsight/which-distribution-of-linux-should-i-use-51g7>
 Ubuntu
@@ -183,7 +183,7 @@ CentOS
 GlassFish server by sunmicrosystems
 
 Rasbian OS
-**Debian Family**
+## Debian Family
 
 The Debian distribution is the upstream for several other distributions, including Ubuntu, Linux Mint and others. Debian is a pure open source project, and focuses on a key aspect: stability. It also provides the largest and most complete software repository to its users.
 Ubuntu aims at providing a good compromise between long term stability and ease of use. Since Ubuntu gets most of its packages from Debian's unstable branch, we decided to use Ubuntu as the reference Debian-based distribution for our lab exercises:
@@ -192,7 +192,7 @@ Ubuntu aims at providing a good compromise between long term stability and ease 
 -   Upstream for Ubuntu, Linux Mint and others
 -   Current material based upon the latest release of Ubuntu and should work well with later versions
 -   x86 and x86-64 - Long Term Release (LTS)
-**Red Hat / Fedora Family**
+## Red Hat / Fedora Family
 
 Fedora is the community distribution that forms the basis of Red Hat Enterprise Linux, CentOS, Scientific Linux and Oracle Linux. Fedora contains significantly more software than Red Hat's enterprise version. One reason for this is that a diverse community is involved in building Fedora; it is not just one company
 The Fedora community produces new versions every six months or so. For this reason, we decided to standardize the Red Hat / Fedora part of the course material on the lastest version of CentOS 7, which provides much longer release cycles. Once installed, CentOS is also virtually identical to Red Hat Enterprise Linux (RHEL), which is the most popular Linux distribution in enterprise enviroments:
@@ -201,7 +201,7 @@ The Fedora community produces new versions every six months or so. For this reas
 -   RPM-based, uses yum (or dnf) to install and update
 -   Long release cycle; targets enterprise server environments
 -   Upstream for CentOS, Scientific Linux and Oracle Linux
-**OpenSUSE Family**
+## OpenSUSE Family
 
 The relationship between openSUSE and SUSE Linux Enterprise Server is similar to the one we just described between Fedora and Red Hat Enterprise Linux. In this case, however, we decided to use openSUSE as the reference distribution for the openSUSE family, due to the difficulty of obtaining a free version of SUSE Linux Enterprise Server. The two products are extremely similar and material that covers openSUSE can typically be applied to SUSE Linux Enterprise Server with no problem:
 -   Current material is based upon the latest release of openSUSE, and should work well with later versions
@@ -209,7 +209,7 @@ The relationship between openSUSE and SUSE Linux Enterprise Server is similar to
 -   YaST available for administration purposes
 -   x86 and x86-64
 -   Upstream for SUSE Linux Enterprise Server (SLES)
-**New Distribution Similarities**
+## New Distribution Similarities
 
 Current treds and changes to the distributions have reduced some of the differences between the distributions
 -   **systemd** (system startup and service management)

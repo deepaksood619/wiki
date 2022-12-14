@@ -6,23 +6,17 @@ Modified: 2021-10-23 12:25:28 +0500
 
 ---
 
-**Duolingo Spanish Podcast**
+## Duolingo Spanish Podcast
 
+![image](media/Spanish-image1.png)
 
-
-![Article la los las un una unos unas lo 4) 4) 4) 4) Definite or Indefinite Definite Definite Definite Definite Indefinite Indefinite Indefinite Indefinite Definite Masculine or Feminine Masculine Feminine Masculine Feminine Masculine Feminine Masculine Feminine Neuter Plural or Singular Singular Singular Plural Plural Singular Singular Plural Plural Singular ](media/Spanish-image1.png)
-
-
-
-**Intro**
+## Intro
 
 Una (feminine) / Un (masculine) - A / An
 
 Unas (feminine) / unos (masculine) - some / few
 
 la (feminine) / el (masculine) - the
-
-
 
 El - He
 
@@ -40,13 +34,9 @@ Yo - I
 
 estoy - I am
 
-
-
 es - is - (from the verb ser) when referring to something more permanent, like a physical or personality characteristic.
 
 esta - is / it is - (from the verb estar) when referring to something more temporary, like an emotion, location, or condition.
-
-
 
 eres - are / You are
 
@@ -62,8 +52,6 @@ o - or
 
 no - not
 
-
-
 Donde? - where
 
 cuando - when
@@ -71,8 +59,6 @@ cuando - when
 Qué - What
 
 Quién - Whom/Who
-
-
 
 para - for
 
@@ -89,8 +75,6 @@ con - with
 sin - without
 
 de - with/on/about/from
-
-
 
 Demasiado - too
 
@@ -172,8 +156,6 @@ baile - dance
 
 trabaja / trabajas- work / works
 
-
-
 Neha es interesante - Neha is interesting
 
 Yo comprendo - I understand
@@ -196,9 +178,7 @@ Tu no trabajas hoy - You don't work today
 
 No, Deepak no trabaja el sabado - No, Deepak won't work on Saturday
 
-
-
-**Schedule**
+## Schedule
 
 semana - week
 
@@ -222,8 +202,6 @@ sábado - Saturday
 
 domingo - Sunday
 
-
-
 Lo siento, es lunes - I am sorry it's monday
 
 El partido de futbol es manana - Is the soccer game tomorrow?
@@ -244,9 +222,7 @@ Un fin de semana - A weekend
 
 Disfruta el viernes - Enjoy your Friday
 
-
-
-**Numbers**
+## Numbers
 
 uno - 1 / one
 
@@ -254,9 +230,7 @@ dos - 2
 
 tres - 3
 
-
-
-**Colors**
+## Colors
 
 verde - green
 
@@ -268,9 +242,7 @@ marrón - brown
 
 rojo - red
 
-
-
-**Phrases**
+## Phrases
 
 Buenos dias - Good Morning
 
@@ -292,8 +264,6 @@ Adios - Bye
 
 Bien - Ok
 
-
-
 De nada - You're welcome
 
 Lo siento - I am sorry
@@ -311,8 +281,6 @@ esta bien - It's okay
 Estas feliz? - Are you happy?
 
 Lo siento, estoy mal - I am sorry, i am unwell
-
-
 
 Me llamo Deepak - My name is Deepak
 
@@ -333,8 +301,6 @@ Disculpe señor, está usted ocupado? - Excuse me sir, are you busy
 Deepak está muy ocupada - Deepak is too busy
 
 Si, estoy muy ocupado - Yes, I am very busy
-
-
 
 Bien y tú? - Fine and you?
 
@@ -360,13 +326,9 @@ Estoy bien, y tú? - I'm fine, and you?
 
 Él está cansado - He is tired.
 
-
-
 El señor Albert es de Estados Unidos - Mr. Albert is from the United States
 
-
-
-**Flirting**
+## Flirting
 
 Por qué no vamos a un sitio más tranquilo? - Why don't we go somewhere more quiet?
 
@@ -398,9 +360,7 @@ Quieres ser mi novio? - Do you want to be my boyfriend?
 
 Ya nos conocemos? - Have we already met?
 
-
-
-**Food**
+## Food
 
 La mujer bebe agua - the woman drinks water
 
@@ -456,9 +416,7 @@ Si, yo quiero mas leche - Yes I want more milk
 
 El nino necesitas mas leche - The boy needs more milk
 
-
-
-**Clothes**
+## Clothes
 
 Una tienda de ropa - A clothes store
 
@@ -480,9 +438,7 @@ Yo quiero este vestido - I want this dress
 
 Un vertido caro - An expensive dress
 
-
-
-**School**
+## School
 
 Me maestro de espanol - My spanish teacher
 
@@ -526,8 +482,6 @@ El senor Deepak estudia espanol - Mr. Perez studies Spanish
 
 Yo trabajo en una fabrica - I work in a factory
 
-
-
 El partido de béisbol no es el lunes - The game of baseball is not on Monday
 
 Que dia es el partido de futbol? - What day is the soccer game?
@@ -536,9 +490,7 @@ Cuando es tu partido de futbol? - When is your soccer game?
 
 El beisbol es muy divertido - Baseball is really fun
 
-
-
-**Traveling**
+## Traveling
 
 Tu hablas ingles - Do you speak english
 
@@ -588,8 +540,6 @@ Usas el carro, Juan - Do you use a car, Juan?
 
 Usted tiene una cartera? - Do you have a wallet
 
-
-
 Si, yo soy de Francia - Yes, I am from France
 
 John es americano - John is American
@@ -602,9 +552,7 @@ Soy de cuba - I am from cuba
 
 Ella es cubana? - Is she cuban
 
-
-
-**Family**
+## Family
 
 Yo soy un hombre - I am a man
 
@@ -648,8 +596,6 @@ Un hermano y una hermana - A brother and a sister
 
 Él y ella - He and she
 
-
-
-![Let's talk about Present Tense! Verbs change depending on who's doing the action! Here's the pattern for -ar verbs: '.gbiegt tü él / ella / usted nosotros / nosotras ellos / ellas / ustedes verb (hablar) hablo hablas habla hablamos hablan ](media/Spanish-image2.jpg)
+![image](media/Spanish-image2.jpg)
 
 

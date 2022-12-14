@@ -10,75 +10,47 @@ Modified: 2021-10-17 20:07:43 +0500
 
 The eight parts of speech are nouns, pronouns, verbs, adjectives, adverbs, conjunctions, prepositions, and interjections.
 
-
-
-**Noun**
+## Noun
 
 A noun is generally defined as a person, place, or thing; however, ideas are also nouns. For example, love is not a tangible thing that can be seen or held, but clearly it exists, so it is a also a noun.
 
-
-
 Nouns can be divided into two main categories: proper nouns and common nouns. Proper nouns are the names of people or places that are capitalized (Aims Community College, John Smith, etc.). Common nouns are names that do not require capitalization (book, chair, school, etc).
 
-
-
-**Verb**
+## Verb
 
 A verb is a word that describes action or a state of being. The second part of this definition is important, as many believe that verbs are always action words that can be visualized. This is true of action verbs: run, walk, play, jump, sing, scream, etc. 
 
-
-
 However, there are also linking verbs, and these types of verbs do not express action; instead, they express identity, classification, or existence. (The following are the most common linking verbs: is, am, was, were, are, and verb phrases ending in be, been, being.)
-
-
 
 Verbs often change their form as different endings are added to them. These endings are changed to show a verb's relationship to time. This is referred to as verb tense. 
 
-
-
-**Infinitive**
+## Infinitive
 
 An infinitive is the most basic form of a verb. In English, inifinitives are usually used with "to" (for example, "to shout", or "to whisper").
 
-
-
-**Pronoun**
+## Pronoun
 
 A pronoun is a word that is used to replace a noun For example, instead of saying "Sam likes pizza" we can use "He" as a substitute for Sam. Writers need to be careful with pronoun use, as pronouns should only be used after a noun has been used first, and it must be clear which noun the pronoun is replacing.
 
-
-
-**Adjective**
+## Adjective
 
 An adjective modifies (limits or describes) a noun or a pronoun. Essentially, it provides more information about a person, place, or thing. For instance, in the sentenceFrank is a tall, skinny man,bothtallandskinnyare adjectives as they are used to describe Frank.
 
-
-
-**Adverb**
+## Adverb
 
 Similar to adjectives, an adverb modifies a verb, an adjective, or another adverb. In the sentenceSusan walked slowly towards the door,the wordslowlyserves as an adverb since it describes how she walked.
 
-
-
 A word or phrase that modifies or qualifies an adjective, verb, or other adverb or a word group, expressing a relation of place, time, circumstance, manner, cause, degree, etc. (e.g.,*gently*,*quite*,*then*,*there*).
-
-
 
 An adverb is a word that is used to change, modify or qualify several types of words including an[adjective](http://www.gingersoftware.com/content/grammar-rules/adjectives/), a[verb](http://www.gingersoftware.com/content/grammar-rules/verbs/), a[clause](http://www.gingersoftware.com/content/grammar-rules/adverb/adverb-clauses/), another[adverb](http://www.gingersoftware.com/content/grammar-rules/adverb/), or any other type of word or phrase, with the exception of determiners and adjectives, that directly modify nouns. A good way to understand adverbs is to think about them as the words that provide context. Specifically, adverbs provide a description of how, where, when, in what manner and to what extent something is done or happens. Normally, we can spot an adverb by the fact that it often ends in --ly,but there are lots of adverbs that don't end in this way. Moreover, adverbs can be used in many combinations with each other.
 
-
-
 <https://www.gingersoftware.com/content/grammar-rules/adverb
 
-
-
-**Preposition**
+## Preposition
 
 A preposition shows the relationship between a noun or pronoun and some other word in the sentence. This relationship is spatial, temporal, or directional. For instance, in the sentenceMark walked towards the house,the wordtowardsis a preposition since it shows direction. When linked with nouns or pronouns, prepositions create word groups referred to as prepositional phrases. (In the previous example,towards the houseis a prepositional phrase.)
 
-
-
-**Conjunction**
+## Conjunction
 
 Conjunctions are used to link words or parts of sentences together. There are four different types of conjunctions: coordinating, subordinating, adverb, and correlative.
 -   Coordinating conjunctions(for, and, nor, but, or, yet, so) are used to connect similar words or independent clauses (sentences) together. Coordinating conjunctions are often referred to with the acronym FANBOYS.
@@ -86,19 +58,13 @@ Conjunctions are used to link words or parts of sentences together. There are fo
 -   Conjunctive adverbsare transitional words used to connect one sentence to another. Common conjunctive adverbs include additionally, in addition, moreover, also, consequently, furthermore, otherwise, instead, for instance, for example, however, on the other hand, conversely, nevertheless, accordingly, therefore, generally, in fact, in other words, in conclusion, finally.
 -   Correlative conjunctionsare a combination of a coordinating conjunction and another word (example: In the sentencebothJohnandI are having a hard time with the homework, both...andare the correlative conjunctions.)
 
-
-
-**Interjection**
+## Interjection
 
 An interjection is a word added to a sentence to convey emotion and is not grammatically related to any other part of the sentence. Interjections can also serve as a single word sentence (ex: Wow!). Interjections are rarely used in academic writing and their use should be avoided in most essays.
 
-
-
 <https://www.aims.edu/student/online-writing-lab/grammar/parts-of-speech.php>
 
-
-
-**Gerund**
+## Gerund
 
 a verb form which functions as a noun
 
@@ -106,23 +72,17 @@ in Latin ending in-ndum(declinable), in English ending in-ing
 
 e.g.**asking**indo you mind my asking you?
 
-
-
 # Figures of Speech
 
-**A word or phrase used in a non-literal sense for rhetorical or vivid effect.**
+## A word or phrase used in a non-literal sense for rhetorical or vivid effect.
 
-
-
-**Rhetoric**
+## Rhetoric
 
 Is the art of using speech to convince or persuade.
 
 The art of effective or persuasive speaking or writing, especially the exploitation of figures of speech and other compositional techniques.
 
-
-
-**Rhetorical question**
+## Rhetorical question
 
 With no expectation of having the audience answer his or her question audibly.
 
@@ -130,23 +90,17 @@ A rhetorical question is where the point of the question is to make a point rath
 
 Example - "How many times do I have to tell you to stop stealing my cookies?" (Rhetorical. The point of the question is to show I'm annoyed at you for stealing my cookie.)
 
-
-
-**Non-Rhetorical question**
+## Non-Rhetorical question
 
 Would be a question posed by a speaker which requires some sort of response from an audience.
 
 Example - "Where did you put my cookies?" (Non-rhetorical. I would like an answer as to where my cookie is.)
 
-
-
-**Common examples**
+## Common examples
 
 Common expressions such as "falling in love," "racking our brains," and "climbing the ladder of success" are all[metaphors](https://www.thoughtco.com/metaphor-figure-of-speech-and-thought-1691385)---the most pervasive figure of all. Likewise, we rely on[similes](https://www.thoughtco.com/simile-figure-of-speech-1692098)when making explicit comparisons ("light as a feather") and[hyperbole](https://www.thoughtco.com/hyperbole-figure-of-speech-1690941)to emphasize a point ("I'm starving!").
 
-
-
-**Figures of Speech**
+## Figures of Speech
 -   [Alliteration](https://www.thoughtco.com/alliteration-definition-1692387)
     -   The repetition of an initial consonant sound.
 
@@ -261,14 +215,10 @@ Ex: do not count your chickens before they hatch", "do not burn your bridges, "i
 
 Analogy(from[Greek](https://en.wikipedia.org/wiki/Greek_language)ἀναλογία,analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a[cognitive](https://en.wikipedia.org/wiki/Cognition)process of transferring[information](https://en.wikipedia.org/wiki/Information)or[meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics))from a particular subject (the analog, or source) to another (the target), or a[linguistic](https://en.wikipedia.org/wiki/Language)expression corresponding to such a process. In a narrower sense, analogy is an[inference](https://en.wikipedia.org/wiki/Inference)or an[argument](https://en.wikipedia.org/wiki/Logical_argument)from one particular to another particular, as opposed to[deduction](https://en.wikipedia.org/wiki/Deductive_reasoning),[induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and[abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the[premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a[similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the[biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
 
-
-
-**False Analogy**
+## False Analogy
 -   If two people have fever then both should have same disease
 
-
-
-**Blinkist - Language Intelligence by Joseph J Romm (14 July 2019)**
+## Blinkist - Language Intelligence by Joseph J Romm (14 July 2019)
 -   Short words are an effective rhetorical tool especially in politics
 -   Repetition is a good way of getting your point across - as the Bible illustrates
 -   Irony can be used to deflect the truth or to inconspicuously communicate a point
@@ -278,15 +228,11 @@ Analogy(from[Greek](https://en.wikipedia.org/wiki/Greek_language)ἀναλογί
 -   Rhetoric can be used for malicious purposes, to influence and manipulate
 -   Actionable advice: Analyse the information you receive
 
-
-
 <https://www.thoughtco.com/top-figures-of-speech-1691818>
 
 <https://www.quora.com/What-is-the-difference-between-a-rhetorical-and-non-rhetorical-question>
 
 <https://en.wikipedia.org/wiki/Rhetoric>
-
-
 
 # Word Play
 
@@ -318,16 +264,10 @@ Word playis verbal wit: the manipulation of[language](https://www.thoughtco.com/
 "Hanging is too good for a man who makespuns; he should be drawn and quoted."- riffing on the similarity of "quoted" to "quartered" as in "drawn and quartered."
 (Fred Allen)
 
-
-
 "Champagne for my real friends and real pain for my sham friends."(credited to Tom Waits)
-
-
 
 "Once you are dead you are dead. That last day idea. Knocking them all up out of their graves. Come forth, Lazarus! And he came fifth and lost the job."
 (James Joyce,Ulysses, 1922)
-
-
 
 "I have a sin of fear, that when I have spun
 My last thread, I shall perish on the shore;
@@ -349,8 +289,6 @@ I fear no more."
 
 -   [Tongue Twisters](https://www.thoughtco.com/tongue-twister-1692473)
     "Chester chooses chestnuts, cheddar cheese with chewy chives. He chews them and he chooses them. He chooses them and he chews them. . . . those chestnuts, cheddar cheese and chives in cheery, charming chunks."- repetition of the "ch" sound.
-
-
 
 <https://www.thoughtco.com/word-play-definition-1692504>
 

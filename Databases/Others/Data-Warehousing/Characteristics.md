@@ -6,36 +6,36 @@ Modified: 2020-02-22 23:57:55 +0500
 
 ---
 
-**Characteristics of Data warehouse**
+## Characteristics of Data warehouse
 
 A data warehouse has following characteristics:
 -   Subject-Oriented
 -   Integrated
 -   Time-variant
 -   Non-volatile
-**Subject-Oriented**
+## Subject-Oriented
 
 A data warehouse is subject oriented as it offers information regarding a theme instead of companies' ongoing operations. These subjects can be sales, marketing, distributions, etc.
 A data warehouse never focuses on the ongoing operations. Instead, it put emphasis on modeling and analysis of data fordecision making. It also provides a simple and concise view around the specific subject by excluding data which not helpful to support the decision process.
-**Integrated**
+## Integrated
 
 In Data Warehouse, integration means the establishment of a common unit of measure for all similar data from the dissimilar database. The data also needs to be stored in the Datawarehouse in common and universally acceptable manner.
 A data warehouse is developed by integrating data from varied sources like a mainframe, relational databases, flat files, etc. Moreover, it must keep consistent naming conventions, format, and coding.
 This integration helps in effective analysis of data. Consistency in naming conventions, attribute measures, encoding structure etc. have to be ensured. Consider the following example:
 
-![Application A Gender: m,f Balance: Bal on Hand Application B Gender: 0,1 Date (yymmdd) Balance: Current Bal Application C Gender: male, fem Date (mmddyyyy) Balance: CashOnhand Data Integration Issues Data Warehouse Gender: Transformation Date( Julian) and Cleansing Balance: Balance Dec. fixed (13,2) O Guru99.com ](media/Data-Warehousing_Characteristics-image1.png)
+![image](media/Data-Warehousing_Characteristics-image1.png)
 In the above example, there are three different application labeled A, B and C. Information stored in these applications are Gender, Date, and Balance. However, each application's data is stored different way.
 -   In Application A gender field store logical values like M or F
 -   In Application B gender field is a numerical value,
 -   In Application C application, gender field stored in the form of a character value.
 -   Same is the case with Date and balance
 However, after transformation and cleaning process all this data is stored in common format in the Data Warehouse.
-**Time-Variant**
+## Time-Variant
 
 The time horizon for data warehouse is quite extensive compared with operational systems. The data collected in a data warehouse is recognized with a particular period and offers information from the historical point of view. It contains an element of time, explicitly or implicitly.
 One such place where Datawarehouse data display time variance is in in the structure of the record key. Every primary key contained with the DW should have either implicitly or explicitly an element of time. Like the day, week month, etc.
 Another aspect of time variance is that once data is inserted in the warehouse, it can't be updated or changed.
-**Non-volatile**
+## Non-volatile
 
 Data warehouse is also non-volatile means the previous data is not erased when new data is entered in it.
 Data is read-only and periodically refreshed. This also helps to analyze historical data and understand what & when happened. It does not require transaction process, recovery and concurrency control mechanisms.

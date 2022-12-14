@@ -18,8 +18,6 @@ width: 100px;
 
 }
 
-
-
 2.  **Centering a div within a div, old-school**
 
 .outer-div
@@ -39,8 +37,6 @@ margin: 0 auto;
 width: 100px;
 
 }
-
-
 
 3.  **Centering a div within a div with inline-block**
 
@@ -64,8 +60,6 @@ padding: 50px;
 
 }
 
-
-
 4.  **Centering a div within a div, horizontally and vertically**
 
 .outer-div
@@ -87,8 +81,6 @@ width: 100px;
 height: 100px;
 
 }
-
-
 
 5.  **Centering a div at the bottom of a page**
 
@@ -118,8 +110,6 @@ background-color: #ccc;
 
 }
 
-
-
 6.  **Centering a div in a page, horizontally and vertically**
 
 .center-div
@@ -144,8 +134,6 @@ height: 100px;
 
 }
 
-
-
 7.  **Centering a div in a page, responsive**
 
 .center-div
@@ -157,8 +145,6 @@ margin: 0 auto;
 max-width: 700px;
 
 }
-
-
 
 8.  **Centering a div within a div, inner div responsive**
 
@@ -179,8 +165,6 @@ margin: 0 auto;
 max-width: 700px;
 
 }
-
-
 
 9.  **Centering two responsive divs, side by side**
 
@@ -228,8 +212,6 @@ max-width: 100%;
 
 }
 
-
-
 10. **Flexbox, div centered**
 
 .container
@@ -259,8 +241,6 @@ width: 200px;
 height: 100px;
 
 }
-
-
 
 <http://www.tipue.com/blog/center-a-div
 

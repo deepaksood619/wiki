@@ -6,12 +6,10 @@ Modified: 2021-10-02 22:35:16 +0500
 
 ---
 
-**Python2 vs Python3**
+## Python2 vs Python3
 -   Python 2 automatically performs integer arithmetic if both operands are integers
 
-
-
-**New in python3.7**
+## New in python3.7
 
 1.  contextvars
 
@@ -19,13 +17,9 @@ Modified: 2021-10-02 22:35:16 +0500
 
 3.  **ordered dictionaries by default** (OrderedDict**preserves the order**in which the keys are inserted. A regular dict doesn't track the insertion order, and iterating it gives the values in an arbitrary order. By contrast, the order the items are inserted is remembered by OrderedDict.)
 
-
-
 <https://docs.python.org/3/whatsnew/3.7.html>
 
-
-
-**Why to move to Python3.7**
+## Why to move to Python3.7
 -   Fast
 -   Data Classes
 -   f-strings
@@ -33,16 +27,12 @@ Modified: 2021-10-02 22:35:16 +0500
 -   django support dropping for advanced versions
 -   **type annotations**
 
-
-
-**Libraries for migrations**
+## Libraries for migrations
 -   **Six--** best for adding Python 3 compatibility to your existing Python 2 code.
 -   **2to3--** best for converting Python 2 code to Python 3 code.
 -   **Python-future--** best for those that want to focus on writing python 3 code going forward while ensuring backward compatibility with Python 2.
 
-
-
-**Must use Python 3 Features**
+## Must use Python 3 Features
 
 1.  f-strings (3.6+)
 
@@ -66,15 +56,11 @@ Using decorator @lru_cache(maxsize=512)
 
 8.  Implicit namespace packages (3.3+)
 
-
-
 <https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should
 
+## Python 3.8
 
-
-**Python 3.8**
-
-**Assignment Expression (Walrus operator)**
+## Assignment Expression (Walrus operator)
 
 val = func1()
 if not val:
@@ -88,8 +74,6 @@ raise ValueError('All went south')
 
 # Do something with val after
 
-
-
 After upgrading to 3.8, you could refactor it to:
 
 if not (val := func1()):
@@ -101,9 +85,7 @@ raise ValueError('All went south')
 
 # Do something with val after
 
-
-
-**Positional Only Arguments**
+## Positional Only Arguments
 
 def func(a, /):
 pass
@@ -111,17 +93,11 @@ pass
 func('foobar')
 func(a='foobar') # This raises
 
-
-
-**Runtime Audit Hooks**
-
-
+## Runtime Audit Hooks
 
 <https://docs.python.org/3/whatsnew/3.8.html>
 
-
-
-**Python 3.9**
+## Python 3.9
 -   Dictionary Union Operators
 
 a = {1: 'a', 2: 'b', 3: 'c'}
@@ -133,8 +109,6 @@ c = a | b
 print(c)
 
 [Out]:{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e'}
-
-
 
 a = {1: 'a', 2: 'b', 3: 'c', 6: 'in both'}
 

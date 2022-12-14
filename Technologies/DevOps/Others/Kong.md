@@ -8,15 +8,11 @@ Modified: 2019-09-23 15:44:46 +0500
 
 Kong is a cloud-native, fast, scalable, and distributed Microservice Abstraction Layer*(also known as an API Gateway, API Middleware or in some cases Service Mesh)*. Made available as an open-source project in 2015, its core values are high performance and extensibility.
 
-
-
 If you are building for web, mobile or IoT (Internet of Things) you will likely end up needing common functionality to run your actual software. Kong can help by acting as a gateway (or a sidecar) for microservices requests while providing load balancing, logging, authentication, rate-limiting, transformations, and more through plugins.
 
 ![The Redundant Old Way The Kong Way CLIENT/SERVICES API/RPC Authentication Rate-Limiting PRIVATE CLIENT/SERVICES API/RPC Authentication Rate-Limiting Logging Caching Serverless PUBLIC API/RPC Authentication Rate-Limiting Monitoring PARTNER Authentication Logging ACL Rate-Limiting API/RPC PUBLIC Monitoring Security Caching Serverless API/RPC PRIVATE API/RPC PARTNER X X X X Common functionality is duplicated across multiple services Systems tend to be monolithic and hard to maintain Difficult to expand without impacting other services Productivity is inefficient because of system constraints S/ S/ S/ S/ Kong orchestrates common functionality Build efficient distributed architectures ready to scale Expand functionality from one place with a simple command Focus on your product and let Kong do the REST ](../../media/DevOps-Others-Kong-image1.png)
 
-
-
-**Features**
+## Features
 -   **Cloud-Native:** Platform agnostic, Kong can run from bare metal to Kubernetes.
 -   **Dynamic Load Balancing:** Load balance traffic across multiple upstream services.
 -   **Hash-based Load Balancing:** Load balance with consistent hashing/sticky sessions.
@@ -45,15 +41,11 @@ If you are building for web, mobile or IoT (Internet of Things) you will likely 
 -   **Performance:** Kong handles load with ease by scaling and using NGINX at the core.
 -   **Plugins:** Extendable architecture for adding functionality to Kong and APIs.
 
-
-
-**Kong DB Less Declarative Config**
+## Kong DB Less Declarative Config
 
 <https://docs.konghq.com/1.3.x/db-less-and-declarative-config
 
-
-
-**Kong Helm Charts**
+## Kong Helm Charts
 
 helm install --name kg 
 
@@ -63,25 +55,15 @@ helm install --name kg
 
 stable/kong
 
-
-
 helm upgrade --set=admin.useTLS=true --namespace kong kg stable/kong
-
-
 
 helm delete --purge kg
 
-
-
 helm status kg
-
-
 
 export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
 
 kubectl port-forward --namespace kong $POD_NAME 8444:8444
-
-
 
 Notes
 
@@ -91,21 +73,15 @@ DNS=kg-kong-admin.kong.svc.cluster.local
 
 PORT=8444
 
-
-
 To connect from outside the K8s cluster:
 
 HOST=127.0.0.1
-
-
 
 # Execute the following commands to route the connection to Admin SSL port:
 
 export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
 
 kubectl port-forward --namespace kong $POD_NAME 8444:8444
-
-
 
 
 
@@ -119,17 +95,11 @@ PORT=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.spec.ports[
 
 
 
-
-
 <https://github.com/helm/charts/tree/master/stable/kong>
 
-
-
-**Commands**
+## Commands
 
 docker network create kong-net
-
-
 
 docker run --name kong-database 
 
@@ -143,8 +113,6 @@ docker run --name kong-database
 
 postgres:11.2
 
-
-
 docker run --rm 
 
 --network=kong-net 
@@ -154,8 +122,6 @@ docker run --rm
 -e KONG_PG_HOST=kong-database 
 
 kong:latest kong migrations bootstrap
-
-
 
 docker run --name kong 
 
@@ -185,8 +151,6 @@ docker run --name kong
 
 kong:latest
 
-
-
 docker run -p 1337:1337 
 
 --network=kong-net 
@@ -199,8 +163,6 @@ docker run -p 1337:1337
 
 pantsel/konga
 
-
-
 curl -X POST 
 
 -H "Content-Type: application/json" 
@@ -209,19 +171,13 @@ curl -X POST
 
 <http://localhost:8000/fake-api/users>
 
-
-
-**Konga**
+## Konga
 
 More than just another GUI to Kong Admin API
 
-
-
 <https://github.com/pantsel/konga>
 
-
-
-**References**
+## References
 
 <https://github.com/Kong/kong>
 

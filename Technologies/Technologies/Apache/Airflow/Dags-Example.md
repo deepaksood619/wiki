@@ -8,33 +8,21 @@ Modified: 2021-11-22 14:48:38 +0500
 
 <https://airflow.apache.org/docs/apache-airflow/1.10.12/_api/airflow/contrib/operators/kubernetes_pod_operator/index.html>
 
+## execution_timeout(datetime.timedelta) -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail.
 
+## dagrun_timeout(datetime.timedelta) -- specify how long a DagRun should be up before timing out / failing, so that new DagRuns can be created
 
-**execution_timeout(datetime.timedelta)** -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail.
-
-**dagrun_timeout(datetime.timedelta)** -- specify how long a DagRun should be up before timing out / failing, so that new DagRuns can be created
-
-
-
-**Weekly cron -** days_ago(1) start date can't keep in the memory the actual start date and we need to actually have more than one week difference from start date to trigger job.
-
-
+## Weekly cron - days_ago(1) start date can't keep in the memory the actual start date and we need to actually have more than one week difference from start date to trigger job.
 
 schedule_interval="@daily"
 
-
-
-**###### Example 1**
+## ###### Example 1
 
 from datetime import datetime, timedelta
-
-
 
 from airflow.models import DAG
 
 from airflow.operators.bash_operator import BashOperator
-
-
 
 args = {
 
@@ -58,8 +46,6 @@ args = {
 
 }
 
-
-
 dag = DAG(
 
 dag_id='cache_metrics_readings_dag',
@@ -72,8 +58,6 @@ max_active_runs=1,
 
 )
 
-
-
 cache_metrics_readings = BashOperator(
 
 task_id='cache_metrics_readings',
@@ -84,15 +68,11 @@ dag=dag,
 
 )
 
-
-
 if __name__ == '__main__':
 
 dag.cli()
 
-
-
-**###### Example 2 Kubernetes Pod Operator**
+## ###### Example 2 Kubernetes Pod Operator
 
 from airflow import DAG
 
@@ -101,8 +81,6 @@ from datetime import datetime, timedelta
 from airflow.contrib.operators.kubernetes_pod_operator import KubernetesPodOperator
 
 from airflow.operators.dummy_operator import DummyOperator
-
-
 
 default_args = {
 
@@ -124,8 +102,6 @@ default_args = {
 
 }
 
-
-
 dag = DAG(
 
 'kubernetes_sample',
@@ -136,11 +112,7 @@ schedule_interval="*/1 * * * *",
 
 max_active_runs=1,)
 
-
-
 start = DummyOperator(task_id='run_this_first', dag=dag)
-
-
 
 passing = KubernetesPodOperator(namespace='default',
 
@@ -162,8 +134,6 @@ dag=dag
 
 )
 
-
-
 failing = KubernetesPodOperator(namespace='default',
 
 image="ubuntu:1604",
@@ -184,15 +154,11 @@ dag=dag
 
 )
 
-
-
 passing.set_upstream(start)
 
 failing.set_upstream(start)
 
-
-
-**###### Maintainance Dags**
+## ###### Maintainance Dags
 -   clear-missing-dags
     -   A maintenance workflow that you can deploy into Airflow to periodically clean out entries in the DAG table of which there is no longer a corresponding Python File for it. This ensures that the DAG table doesn't have needless items in it and that the Airflow Web Server displays only those available DAGs.
 -   db-cleanup
@@ -205,17 +171,13 @@ failing.set_upstream(start)
 -   delete-broken-dags
     -   A maintenance workflow that you can deploy into Airflow to periodically delete DAG files and clean out entries in the ImportError table for DAGs which Airflow cannot parse or import properly. This ensures that the ImportError table is cleaned every day.
 
-
-
 [**https://github.com/teamclairvoyant/airflow-maintenance-dags**](https://github.com/teamclairvoyant/airflow-maintenance-dags)
 
 <https://github.com/teamclairvoyant/airflow-maintenance-dags/tree/master/log-cleanup>
 
 <https://github.com/teamclairvoyant/airflow-maintenance-dags/tree/master/db-cleanup>
 
-
-
-**DAG for stress testing**
+## DAG for stress testing
 
 import datetime
 import multiprocessing
@@ -260,17 +222,15 @@ if __name__ == '__main__':
 result = run_tests(threads=2)
 print(result)
 
+## # StashFin Standard DAG
 
-
-**# StashFin Standard DAG**
-
-**from airflow import** DAG
-**from airflow.contrib.kubernetes.volume import** Volume
-**from airflow.contrib.kubernetes.volume_mount import** VolumeMount
-**from airflow.contrib.operators.kubernetes_pod_operator import** KubernetesPodOperator
-**from airflow.contrib.operators.slack_webhook_operator import** SlackWebhookOperator
-**from airflow.hooks.base_hook import** BaseHook
-**from airflow.utils.dates import** days_ago
+## from airflow import DAG
+## from airflow.contrib.kubernetes.volume import Volume
+## from airflow.contrib.kubernetes.volume_mount import VolumeMount
+## from airflow.contrib.operators.kubernetes_pod_operator import KubernetesPodOperator
+## from airflow.contrib.operators.slack_webhook_operator import SlackWebhookOperator
+## from airflow.hooks.base_hook import BaseHook
+## from airflow.utils.dates import days_ago
 
 cron_path = "curl <https://lms.stasheasy.com/cronjobEasy/Elev8AutomateMessageScript?stage_code=ELVKYC>"
 cron_name = "lms_elev8_elvkyc"
@@ -336,8 +296,6 @@ annotations = {
 
 }
 
-
-
 env_vars = {
 "AWS_ACCESS_KEY_ID": "AKIAU2R6AAK3JYYQGE3L",
 "AWS_SECRET_ACCESS_KEY": "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",
@@ -345,7 +303,7 @@ env_vars = {
 "config": "{{ dag_run.conf }}",
 }
 
-**def** task_fail_slack_alert(context):
+## def task_fail_slack_alert(context):
 slack_hook = BaseHook.get_connection(SLACK_CONN_ID).password
 slack_msg = f"""
 :red_circle: Task Failed.
@@ -364,7 +322,7 @@ channel="#cron",
 username="airflow",
 )
 
-**return** failed_alert.execute(context=context)
+## return failed_alert.execute(context=context)
 
 default_args = {
 "owner": "airflow",
@@ -409,11 +367,9 @@ is_delete_operator_pod=True,
 )
 passing
 
+## Python Operator
 
-
-**Python Operator**
-
-**utils.py**
+## utils.py
 
 import requests
 
@@ -421,11 +377,7 @@ from airflow.contrib.operators.slack_webhook_operator import SlackWebhookOperato
 
 from airflow.hooks.base_hook import BaseHook
 
-
-
 SLACK_GROUP = "monitoring"
-
-
 
 
 
@@ -445,31 +397,21 @@ call an api
 
 """
 
-
-
 if method == "GET":
 
 response = requests.get(url, body)
-
-
 
 elif method == "POST":
 
 response = requests.post(url, body)
 
-
-
 else:
 
 raise NotImplementedError
 
-
-
 if response.status_code == 200:
 
 print(response.text)
-
-
 
 else:
 
@@ -478,8 +420,6 @@ raise Exception(
 f"API returned error :{response.status_code} ndetails: {response.text}"
 
 )
-
-
 
 
 
@@ -503,8 +443,6 @@ slack_msg = f"""
 
 """
 
-
-
 failed_alert = SlackWebhookOperator(
 
 task_id="alerting",
@@ -521,17 +459,11 @@ username="airflow",
 
 )
 
-
-
 return failed_alert.execute(context=context)
 
-
-
-**dag.py**
+## dag.py
 
 from functools import partial
-
-
 
 from airflow import DAG
 
@@ -539,17 +471,11 @@ from airflow.operators.python_operator import PythonOperator
 
 from airflow.utils.dates import days_ago
 
-
-
 import utils
-
-
 
 cron_name = "api-v1_softcell_pull_mode_0"
 
 schedule_interval = "0 * * * *"
-
-
 
 method = "GET"
 
@@ -557,11 +483,7 @@ url = "<http://api-v1.prod/softcellCron/softcellPull?limit=50&mode=10&mode_value
 
 body = {}
 
-
-
 owner = "<@U013CA4QJR3>"
-
-
 
 
 
@@ -577,8 +499,6 @@ default_args = {
 
 }
 
-
-
 dag = DAG(
 
 cron_name,
@@ -592,8 +512,6 @@ schedule_interval=schedule_interval,
 max_active_runs=1,
 
 )
-
-
 
 PythonOperator(
 

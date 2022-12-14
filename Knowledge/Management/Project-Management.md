@@ -8,7 +8,7 @@ Modified: 2022-05-05 23:51:21 +0500
 
 <https://blog.trello.com/project-management-methodologies>
 
-**Project Factors**
+## Project Factors
 -   Project budget:How much money is going to be spent on this project? How is it divided up?
 -   Timeline:When is your project due by?
 -   Goals:What are the project's end goals and deliverables? Start there and work backward.
@@ -18,9 +18,7 @@ Modified: 2022-05-05 23:51:21 +0500
 -   Project type and industry:Some methodologies work best for certain industries and project types, such as highly creative projects or product development sprints.
 -   Team:Consider the team size, diversity, flexibility, experience, and individual expertise or strengths and weaknesses, as well as their ability to collaborate and communicate when choosing a methodology.
 
-
-
-**Methodologies**
+## Methodologies
 -   Agile: Flexible, Fast, And Short Collaborative Sprint Projects
 -   Scrum: Quick And Continuous Development Projects
 -   Kanban: Visualize Task Progress For Agile Teams
@@ -37,9 +35,7 @@ Known as the three M's, Lean methodology defines three types of project waste: m
 -   Waterfall: Large-Scale, End-Goal Focused, And Fixed Projects
 -   Hybrid: Flexible And Fast-Paced Projects With Structured Plans
 
-
-
-**What we need**
+## What we need
 -   Advanced project & task management
 -   Dynamic sprint metrics & planning
 -   Deep linking between team members, projects, tasks, & sprints
@@ -54,25 +50,17 @@ Known as the three M's, Lean methodology defines three types of project waste: m
 -   Personal views for projects, tasks, and dashboards
 -   Designed to scale yearly with easy-to-follow instructions
 
-
-
-**Engineering principles**
+## Engineering principles
 -   **All-in--**This was a massive program and it needed the entire company, from exec to intern, behind it.
 -   **Attack the riskiest assumption--**Don't think "MVP." Think about what the riskiest part of the entire program is, and focus on that until it's no longer the top risk.
 -   **Incremental, even when it hurts--** Reduce risk by breaking the migration into as many small parts as possible, even when thatincreases dev time.
 -   **Sprint to 100%--** In this program, the payoff was when we could completely stop deploying to the old infrastructure. Don't slow down or lose focus until you are done, done, done, anddone.
 
-
-
 <https://www.atlassian.com/blog/technology/software-engineering-principles-massive-projects>
-
-
 
 <https://www.atlassian.com/blog/inside-atlassian/stopping-team-dysfunction-before-it-starts>
 
-
-
-**Daily Standup**
+## Daily Standup
 -   It is held at the same time and place every day
 -   It involves the same participants every day
 -   There is a fixed agenda that is usually to answer a fixed set of questions
@@ -85,17 +73,11 @@ Known as the three M's, Lean methodology defines three types of project waste: m
 
 -   **Automated, asynchronous meetings.**
 
-
-
 <https://docs.google.com/spreadsheets/d/1VEVFGPTAJO0hIR_dhXNVdoH9LKEyfC1TZDZHRMqbgGk/edit#gid=0>
 
-
-
-**Startup Engineering Team**
+## Startup Engineering Team
 
 <https://increment.com/teams/how-to-build-a-startup-engineering-team
-
-
 
 <https://codingsans.com/blog/engineering-productivity>
 -   [Defining engineering productivity](https://codingsans.com/blog/engineering-productivity#Definition)
@@ -139,50 +121,32 @@ USE 1-ON-1S
 
 MAKE SURE THE INFORMATION FLOWS
 
-
-
 OrgChart
 
-
-
-**The Chicken and the Pig**
+## The Chicken and the Pig
 
 The[business fable](https://en.wikipedia.org/wiki/Business_fable)ofThe Chicken and the Pigis about commitment to a project or cause. When producing a dish made of eggs with ham or bacon, the[pig](https://en.wikipedia.org/wiki/Pig)provides the ham or bacon which requires his or her sacrifice and the[chicken](https://en.wikipedia.org/wiki/Chicken)provides the eggs which are not difficult to produce. Thus the pig is really committed to that dish while the chicken is only involved, yet both are needed to produce the dish.
 
-
-
 The Chicken is involved, but the Pig commits!
-
-
 
 <https://en.wikipedia.org/wiki/The_Chicken_and_the_Pig>
 
-
-
-**Process groups**
+## Process groups
 -   Initiation
 -   Planning
 -   Production or execution
 -   Monitoring and controlling
 -   Closing
 
-
-
 <https://en.wikipedia.org/wiki/Project_management>
 
-
-
-**RACI Matrix**
+## RACI Matrix
 
 Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear responsibility chart(LRC), describes the participation by various[roles](https://en.wikipedia.org/wiki/Role)in completing[tasks](https://en.wikipedia.org/wiki/Task_(project_management))or[deliverables](https://en.wikipedia.org/wiki/Deliverable)for a[project](https://en.wikipedia.org/wiki/Project)or[business process](https://en.wikipedia.org/wiki/Business_process). RACI is an[acronym](https://en.wikipedia.org/wiki/Acronym)derived from the four key responsibilities most typically used: **responsible, accountable, consulted, andinformed**.It is used for clarifying and defining roles and responsibilities in cross-functional or departmental projects and processes
 
-
-
 <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
 
-
-
-**Projects**
+## Projects
 -   HLD
 -   LLD
 -   Product Review
@@ -200,9 +164,7 @@ Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear respon
 -   Monitoring
 -   Retro
 
-
-
-**Stages**
+## Stages
 -   **Scope**
 -   **Scope freeze**
 -   **Exploration**
@@ -222,9 +184,7 @@ Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear respon
 -   **Code Review**
 -   **Q/A - Integration Testing**
 
-
-
-**Process / Procedure**
+## Process / Procedure
 -   Add items to backlog (cold/hot)
 -   Start a weekly sprint from backlog
     -   Backlog grooming
@@ -236,9 +196,7 @@ Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear respon
 -   Close the sprint and start new sprint
     -   Move old not completed items to next sprint
 
-
-
-**Analytics**
+## Analytics
 -   Number of adhoc tasks each person is doing
 -   Number of tasks migrated from previous sprint to new sprint
 -   What each person is working on over all teams/projects
@@ -246,17 +204,13 @@ Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear respon
 -   Reviews
 -   Performance reports for each team member (for quaterly reviews)
 
-
-
-**Questions**
+## Questions
 
 <https://www.toptal.com/project-managers/program-manager/interview-questions>
 
 <https://www.toptal.com/project-managers/project-management-consultant/interview-questions>
 
 <https://www.toptal.com/project-managers/scrum-master/interview-questions>
-
-
 
 <https://blog.trello.com/50-project-management-terms-you-should-know>
 

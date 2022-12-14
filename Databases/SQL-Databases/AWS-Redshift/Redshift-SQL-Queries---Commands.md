@@ -22,29 +22,29 @@ DELIMITER ',' IGNOREHEADER 1 FILLRECORD IGNOREBLANKLINES NULL 'nan'
 
 ACCEPTINVCHARS EMPTYASNULL ESCAPE COMPUPDATE OFF
 select version();
-**# show sizes**
+## # show sizes
 
-**SELECT**tbl,**name**, size_mb**FROM**
+## SELECT**tbl,**name**, size_mb**FROM
 
 (
 
-**SELECT**tbl,**count**(*)**AS**size_mb
+## SELECT**tbl,**count**(*)**ASsize_mb
 
-**FROM**stv_blocklist
+## FROMstv_blocklist
 
-**GROUP****BY**tbl
+## GROUP****BYtbl
 
 )
 
-**LEFT****JOIN**
+## LEFT****JOIN
 
 (**select****distinct**id,**name****FROM**stv_tbl_perm)
 
-**ON**id = tbl
+## ONid = tbl
 
-**ORDER****BY**size_mb**DESC**
+## ORDER****BY**size_mb**DESC
 
-**LIMIT**10;
+## LIMIT10;
 SELECT TRIM(pgdb.datname) AS Database,
 TRIM(a.name) AS Table,
 ((b.mbytes/part.total::decimal)*100)::decimal(5,2) AS pct_of_total,
@@ -65,9 +65,9 @@ WHERE part_begin = 0 ) AS part
 ON 1 = 1
 WHERE a.slice = 0
 ORDER BY 4 desc, db_id, name;
-**# show all users and Grant**
+## # show all users and Grant
 
-**select** usesysid **as** user_id,
+## select** usesysid **as user_id,
 
 usename **as** username,
 
@@ -77,9 +77,9 @@ usesuper **as** is_superuser,
 
 valuntil **as** password_expiration
 
-**from** pg_user
+## from pg_user
 
-**order by** user_id;
+## order by user_id;
 CREATE USER intern2_datascience WITH password 's4XfxXE8D8FqXxNH';
 
 grant usage on schema data_analytics to developer; (important for 1st time)
@@ -89,7 +89,7 @@ GRANT SELECT on SCHEMA_NAME.TABLE_NAME TO USER_NAME;
 GRANT SELECT on public.sentinel_customers TO bhupesh_goyal;
 
 GRANT SELECT on public.dsa_customers TO bhupesh_goyal;
-**grant** **select**,**update**,**delete** **on** **all** tables **in** **schema** colender **to** developer;
+## grant** **select**,**update**,**delete** **on** **all** tables **in** **schema** colender **to developer;
 <https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_USER.html>
 
 ## select**
@@ -100,7 +100,7 @@ docs,
 
 is_valid_json_array(docs),
 
-**json_array_length**(docs),
+## json_array_length(docs),
 
 json_extract_array_element_text(docs, 1) **as** json_text,
 
@@ -110,15 +110,15 @@ json_extract_path_text(json_text, 'doc_status'),
 
 json_extract_path_text(json_text, 'id')
 
-**from**
+## from
 
 sttash_website_live.fos_scan_doc_comment
 
-**limit** 1;
+## limit 1;
 
 <https://docs.aws.amazon.com/redshift/latest/dg/json-functions.html>
 
-**# getting blocking queries**
+## # getting blocking queries
 ```
 SELECT waiting.relation::regclass AS waiting_table,
 
@@ -194,7 +194,7 @@ To analyze segment and slice-level execution steps for each query, run the follo
 
 select query, segment, step, label ,is_rrscan as rrS, is_diskbased as disk, is_delayed_scan as DelayS, min(start_time) as starttime, max(end_time) as endtime, datediff(ms, min(start_time), max(end_time)) as "elapsed_msecs", sum(rows) as row_s , sum(rows_pre_filter) as rows_pf, CASE WHEN sum(rows_pre_filter) = 0 THEN 100 ELSE sum(rows)::float/sum(rows_pre_filter)::float*100 END as pct_filter, SUM(workmem)/1024/1024 as "Memory(MB)", SUM(bytes)/1024/1024 as "MB_produced" from svl_query_report where query in (query_ids) group by query, segment, step, label , is_rrscan, is_diskbased , is_delayed_scan order by query, segment, step, label;-   Reduce query concurrency per queue to provide more memory to each query slot. This reduction helps queries that require more memory to run more efficiently.
 -   Enable[short query acceleration](https://docs.aws.amazon.com/redshift/latest/dg/wlm-short-query-acceleration.html)(SQA) to prioritize short-running queries over long-running queries.
-**UNLOAD**
+## UNLOAD
 
 <https://docs.aws.amazon.com/redshift/latest/dg/r_UNLOAD.html>
 

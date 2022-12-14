@@ -6,31 +6,25 @@ Modified: 2020-03-13 16:27:24 +0500
 
 ---
 
-**Loading a csv in pandas**
+## Loading a csv in pandas
 
-**import pandas as pd**
-**import numpy as np**
+## import pandas as pd
+## import numpy as np
 
 df = pd.read_csv('pandas_dataframe_importing_csv/example.csv')
 Print(df)
 
-
-
-**When file doesn't have any header**
+## When file doesn't have any header
 
 df = pd.read_csv('synsets15.txt', header=None)
 
 print(df)
 
-
-
-**Pass headers to the dataset**
+## Pass headers to the dataset
 
 df = pd.read_csv('synsets15.txt', names=['id', 'synset', 'gloss'])
 
 print(df)
-
-
 
 df = pd.read_csv('userDeviceSms_100000001_100500000.csv', header=None,
 

@@ -36,8 +36,6 @@ worker_connections 2048;
 
 }
 
-
-
 http {
 
 ##
@@ -45,8 +43,6 @@ http {
 # Basic Settings
 
 ##
-
-
 
 sendfile on;
 
@@ -60,19 +56,13 @@ types_hash_max_size 2048;
 
 # server_tokens off;
 
-
-
 # server_names_hash_bucket_size 64;
 
 # server_name_in_redirect off;
 
-
-
 include /etc/nginx/mime.types;
 
 default_type application/octet-stream;
-
-
 
 ##
 
@@ -86,13 +76,9 @@ log_format main '$remote_addr - $remote_user [$time_local] "$request" '
 
 '"$http_user_agent" "$http_x_forwarded_for"';
 
-
-
 access_log /var/log/nginx/access.log main;
 
 error_log /var/log/nginx/error.log;
-
-
 
 ##
 
@@ -100,13 +86,9 @@ error_log /var/log/nginx/error.log;
 
 ##
 
-
-
 gzip on;
 
 gzip_disable "msie6";
-
-
 
 gzip_vary on;
 
@@ -120,15 +102,11 @@ gzip_comp_level 6;
 
 gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 
-
-
 ##
 
 # Virtual Host Configs
 
 ##
-
-
 
 server {
 
@@ -144,8 +122,6 @@ client_max_body_size 25M;
 
 listen 80;
 
-
-
 location /static/ {
 
 autoindex on;
@@ -155,8 +131,6 @@ expires 7d;
 alias /root/zenalytix/static/;
 
 }
-
-
 
 location / {
 
@@ -182,8 +156,6 @@ proxy_buffering off;
 
 
 
-
-
 production.conf
 
 upstream api {
@@ -205,8 +177,6 @@ proxy_pass <http://api>;
 }
 
 }
-
-
 
 development.conf
 
@@ -230,9 +200,7 @@ proxy_pass <http://api>;
 
 }
 
-
-
-**Dockerfile**
+## Dockerfile
 
 FROM nginx
 

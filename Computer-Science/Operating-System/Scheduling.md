@@ -23,17 +23,17 @@ The OS can use different policies to manage each queue (FIFO, Round Robin, Prior
 Two-state process models refer to running and non-running states:
 -   Running:When a new process is created, it enters into the system in the running state.
 -   Not Running:Processes that are not running are kept in queue, waiting for their turn to execute. Each entry in the queue is a pointer to a particular process. Queue is implemented by using a linked list. The use of dispatcher is as follows: when a process is interrupted, that process is transferred in the waiting queue. If the process has completed or aborted, the process is discarded. In either case, the dispatcher then selects a process from the queue to execute.
-**Context Switch**
+## Context Switch
 
 A**context switch**is the mechanism that stores and restores the state or context of a CPU in the Process Control block. It allows a process execution to be resumed from the same point at a later time. Using this technique, a context switcher enables multiple processes to share a single CPU. Context switching is an essential feature of a multitasking operating system.
 When the scheduler switches the CPU from executing one process to another, the state from the current running process is stored into the process control block. After this, the state for the next process is loaded from its own PCB and used to set the PC, registers, etc. At that point, the second process can start executing.
 Context switches are computationally intensive, since register and memory state must be saved and restored. To avoid the amount of context switching time, some hardware systems employ two or more sets of processor registers.
 When the process is switched, the following information is stored for later use: Program Counter, Scheduling Information, Base and Limit Register Value, Currently Used Register, Changed State, I/O State Information, and Accounting Information.
-**Goals**
+## Goals
 
 A scheduler may aim at one or more of many goals, for example: maximizing [throughput](https://en.wikipedia.org/wiki/Throughput) (the total amount of work completed per time unit); minimizing[wait time](https://en.wikipedia.org/wiki/Computer_performance#Response_time)(time from work becoming ready until the first point it begins execution); minimizing[latency](https://en.wikipedia.org/wiki/Latency_(engineering))or[response time](https://en.wikipedia.org/wiki/Response_time_(technology))(time from work becoming ready until it is finished in case of batch activity,or until the system responds and hands the first output to the user in case of interactive activity); or maximizingfairness(equal CPU time to each process, or more generally appropriate times according to the priority and workload of each process). In practice, these goals often conflict (e.g. throughput versus latency), thus a scheduler will implement a suitable compromise. Preference is measured by any one of the concerns mentioned above, depending upon the user's needs and objectives.
 In[real-time](https://en.wikipedia.org/wiki/Real-time_computing)environments, such as[embedded systems](https://en.wikipedia.org/wiki/Embedded_system)for[automatic control](https://en.wikipedia.org/wiki/Automatic_control)in industry (for example[robotics](https://en.wikipedia.org/wiki/Robotics)), the scheduler also must ensure that processes can meet[deadlines](https://en.wikipedia.org/wiki/Time_limit); this is crucial for keeping the system stable. Scheduled tasks can also be distributed to remote devices across a network and[managed](https://en.wikipedia.org/wiki/Device_Management)through an administrative back end.
-**Types of schedulers**
+## Types of schedulers
 
 1.  **Process schedulers**
 
@@ -43,7 +43,7 @@ The process scheduler is a part of the operating system that decides which proce
 3.  **I/O schedulers**
 
 4.  **Job schedulers**
-**Scheduling**
+## Scheduling
 
 1.  Long term scheduling / Admission scheduler / High level scheduler
 
@@ -63,7 +63,7 @@ Another component that is involved in the CPU-scheduling function is the dispatc
 -   Switching to user mode.
 -   Jumping to the proper location in the user program to restart that program indicated by its new state.
 The dispatcher should be as fast as possible, since it is invoked during every process switch. During the context switches, the processor is virtually idle for a fraction of time, thus unnecessary context switches should be avoided. The time it takes for the dispatcher to stop one process and start another is known as thedispatch latency.
-**Scheduling Disciplines**
+## Scheduling Disciplines
 
 Scheduling disciplines are algorithms used for distributing resources among parties which simultaneously and asynchronously request them. Scheduling disciplines are used in[routers](https://en.wikipedia.org/wiki/Router_(computing))(to handle packet traffic) as well as in[operating systems](https://en.wikipedia.org/wiki/Operating_system)(to share[CPU time](https://en.wikipedia.org/wiki/CPU_time)among both[threads](https://en.wikipedia.org/wiki/Thread_(computer_science))and[processes](https://en.wikipedia.org/wiki/Process_(computing))), disk drives ([I/O scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)), printers ([print spooler](https://en.wikipedia.org/wiki/Print_spooler)), most embedded systems, etc.
 The main purposes of scheduling algorithms are to minimize[resource starvation](https://en.wikipedia.org/wiki/Resource_starvation)and to ensure fairness amongst the parties utilizing the resources. Scheduling deals with the problem of deciding which of the outstanding requests is to be allocated resources. There are many different scheduling algorithms. In this section, we introduce several of them.
@@ -96,15 +96,15 @@ A very common method in embedded systems is to schedule jobs manually. This can 
 -   Almost no overhead
 -   May not be optimal for all applications
 -   Effectiveness is completely dependent on the implementation
-**Scheduling Optimization Problems**
+## Scheduling Optimization Problems
 
 There are several scheduling problems in which the goal is to decide which job goes to which station at what time, such that the total[makespan](https://en.wikipedia.org/wiki/Makespan)is minimized:
 -   [Job shop scheduling](https://en.wikipedia.org/wiki/Job_shop_scheduling)-- there arenjobs andmidentical stations. Each job should be executed on a single machine. This is usually regarded as an online problem.
 -   [Open-shop scheduling](https://en.wikipedia.org/wiki/Open-shop_scheduling)-- there arenjobs andmdifferent stations. Each job should spend some time at each station, in a free order.
 -   [Flow shop scheduling](https://en.wikipedia.org/wiki/Flow_shop_scheduling)-- there arenjobs andmdifferent stations. Each job should spend some time at each station, in a pre-determined order.
-**Schedulers**
+## Schedulers
 
-**SCHED_DEADLINE**is a CPU[scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing))available in the[Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)since version 3.14,^[[1]](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-lwn01-1)[[2]](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-osnews01-2)^based on the[Earliest Deadline First (EDF)](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling)and Constant Bandwidth Server (CBS)[^[3]^](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-cbs-3)algorithms, supporting resource reservations: each task scheduled under such policy is associated with a*budget*Q (aka*runtime*), and a*period*P, corresponding to a declaration to the kernel that Q time units are required by that task every P time units, on any processor. This makesSCHED_DEADLINEparticularly suitable for[real-time](https://en.wikipedia.org/wiki/Real-time_computing)applications, like multimedia or industrial control, where P corresponds to the minimum time elapsing between subsequent activations of the task, and Q corresponds to the worst-case execution time needed by each activation of the task.
+## SCHED_DEADLINEis a CPU[scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing))available in the[Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)since version 3.14,^[[1]](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-lwn01-1)[[2]](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-osnews01-2)^based on the[Earliest Deadline First (EDF)](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling)and Constant Bandwidth Server (CBS)[^[3]^](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-cbs-3)algorithms, supporting resource reservations: each task scheduled under such policy is associated with a*budget*Q (aka*runtime*), and a*period*P, corresponding to a declaration to the kernel that Q time units are required by that task every P time units, on any processor. This makesSCHED_DEADLINEparticularly suitable for[real-time](https://en.wikipedia.org/wiki/Real-time_computing)applications, like multimedia or industrial control, where P corresponds to the minimum time elapsing between subsequent activations of the task, and Q corresponds to the worst-case execution time needed by each activation of the task.
 <https://en.wikipedia.org/wiki/SCHED_DEADLINE>
 <https://en.wikipedia.org/wiki/Scheduling_(computing)>
 

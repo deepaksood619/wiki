@@ -41,20 +41,14 @@ Modified: 2021-10-10 17:54:14 +0500
 </tbody>
 </table>
 
-
-
-**What do you want to do? Make body or stay fit? (will not be able to make body)**
+## What do you want to do? Make body or stay fit? (will not be able to make body)
 -   **Can do both too**
-
-
 
 1.  **Add all exercise photos to exercises**
 
 2.  **Create only weekly things here**
 
-
-
-**Sets4Reps10Rest60secTempo2010**
+## Sets4Reps10Rest60secTempo2010
 
 1.  Monday (Focus Chest + Triceps)
 
@@ -62,27 +56,19 @@ Modified: 2021-10-10 17:54:14 +0500
 
     b.  Dumbbell Bench Press
 
-![Dumbbell Bench Press](media/Exercise---Stretching_Home-+-Gym-image1.jpg)
-
-
+![image](media/Exercise---Stretching_Home-+-Gym-image1.jpg)
 
 c.  Dumbell pull overs
 
-![Dumbbell Pull Overs](media/Exercise---Stretching_Home-+-Gym-image2.jpg)
-
-
+![image](media/Exercise---Stretching_Home-+-Gym-image2.jpg)
 
 d.  Triceps Extension
 
 ![](media/Exercise---Stretching_Home-+-Gym-image3.jpg)
 
-
-
 e.  Standing Triceps over head dumbbell
 
 f.  Pushups
-
-
 
 2.  Tuesday (Focus Back + Biceps)
 
@@ -92,25 +78,17 @@ f.  Pushups
 
 ![](media/Exercise---Stretching_Home-+-Gym-image4.jpg)
 
-
-
 c.  Reverse Fly
 
 ![](media/Exercise---Stretching_Home-+-Gym-image5.jpg)
 
-
-
 d.  Dumbbell Row
 
-![Row I Form Check .lth US ](media/Exercise---Stretching_Home-+-Gym-image6.jpeg)
-
-
+![image](media/Exercise---Stretching_Home-+-Gym-image6.jpeg)
 
 e.  Bicep curl
 
 ![](media/Exercise---Stretching_Home-+-Gym-image7.jpg)
-
-
 
 3.  Wednesday (Focus Shoulders & Legs & Abs)
 
@@ -119,8 +97,6 @@ e.  Bicep curl
     b.  Overhead press
 
 ![](media/Exercise---Stretching_Home-+-Gym-image8.jpg)
-
-
 
 c.  Squat
 
@@ -174,8 +150,6 @@ c.  Plank
 
 
 
-
-
 <https://www.coachmag.co.uk/fitness/workouts/dumbbell-workouts>
 
 <https://www.myprotein.co.in/blog/training/chest-day-101-top-5-dumbbell-exercises
@@ -185,39 +159,29 @@ c.  Plank
 
 
 
+## Workout 2: Arms (Week 1)
 
-
-**Workout 2: Arms (Week 1)**
-
-**2B[Triceps kick-back](https://www.coachmag.co.uk/tricep-exercises/6913/how-to-do-the-triceps-kick-back)**
+## 2B[Triceps kick-back](https://www.coachmag.co.uk/tricep-exercises/6913/how-to-do-the-triceps-kick-back)
 
 ![](media/Exercise---Stretching_Home-+-Gym-image16.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
-
-
-**3A[Spider curl](https://www.coachmag.co.uk/biceps-exercises/8357/how-to-do-the-spider-curl)**
+## 3A[Spider curl](https://www.coachmag.co.uk/biceps-exercises/8357/how-to-do-the-spider-curl)
 
 ![](media/Exercise---Stretching_Home-+-Gym-image17.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
-
-
-**3B Narrow dumbbell press-up**
+## 3B Narrow dumbbell press-up
 
 ![](media/Exercise---Stretching_Home-+-Gym-image18.jpg)
 
 Sets4Reps10Rest60secTempo2010
 
-
-
 Renegade Row
 
 ![](media/Exercise---Stretching_Home-+-Gym-image19.jpg)
-
-
 
 Week 2
 
@@ -252,63 +216,39 @@ Week 4
 | 3A Spider curl              | 5    | 12           | 0sec  | 2011  |
 | 3B Narrow dumbbell press-up | 5    | 12           | 60sec | 2010  |
 
-**Workout 3: Legs And Abs (Week 1)**
+## Workout 3: Legs And Abs (Week 1)
 
-
-
-**1B[Woodchop](https://www.coachmag.co.uk/exercises/full-body-workouts/212/woodchop)**
+## 1B[Woodchop](https://www.coachmag.co.uk/exercises/full-body-workouts/212/woodchop)
 
 ![](media/Exercise---Stretching_Home-+-Gym-image20.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
-
-
-**2B Halo**
+## 2B Halo
 
 ![!화7曰 ](media/Exercise---Stretching_Home-+-Gym-image21.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
-
-
-**3A[Goblet squat](https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat)**
-
-
+## 3A[Goblet squat](https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat)
 
 ![](media/Exercise---Stretching_Home-+-Gym-image22.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
+## Workout 4: Shoulders (Week 1)
 
-
-**Workout 4: Shoulders (Week 1)**
-
-**2A[Arnold press](https://www.coachmag.co.uk/exercises/arm-exercises/2987/6-standing-dumb-bell-curl-arnold-press)**
+## 2A[Arnold press](https://www.coachmag.co.uk/exercises/arm-exercises/2987/6-standing-dumb-bell-curl-arnold-press)
 
 ![](media/Exercise---Stretching_Home-+-Gym-image23.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
-
-
-**2B[Upright row](https://www.coachmag.co.uk/back-exercises/6699/how-to-do-the-upright-row)**
+## 2B[Upright row](https://www.coachmag.co.uk/back-exercises/6699/how-to-do-the-upright-row)
 
 ![](media/Exercise---Stretching_Home-+-Gym-image24.jpg)
 
 Sets4Reps10Rest60secTempo2010
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

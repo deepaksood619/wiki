@@ -6,30 +6,30 @@ Modified: 2020-03-26 00:33:29 +0500
 
 ---
 
-**CRDTs (Conflict-free Replicated Data Types)**
+## CRDTs (Conflict-free Replicated Data Types)
 
-**A conflict-free replicated data type (CRDT)** is an abstract data type, with a well defined interface, designed to be replicated at multiple processes and exhibiting the following properties:
+## A conflict-free replicated data type (CRDT) is an abstract data type, with a well defined interface, designed to be replicated at multiple processes and exhibiting the following properties:
 
 1.  Any replica can be modified without coordinating with another replicas;
 
 2.  When any two replicas have received the same set of updates, they reach the same state, deterministically, by adopting mathematically sound rules to guarantee state convergence.
 Riak is the most popular open source library of CRDT's and is used by Bet365 and League of Legends.
-**Types of CRDTs**
+## Types of CRDTs
 
 There are two approaches to CRDTs, both of which can provide[strong](https://en.wikipedia.org/wiki/Strong_consistency)[eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency): **operation-based CRDTsand state-based CRDTs.**
 
 The two alternatives are equivalent, as one can emulate the other.Operation-based CRDTs require additional guarantees from the[communication middleware](https://en.wikipedia.org/wiki/Communications_protocol);namely that the operations not be dropped or duplicated when transmitted to the other replicas, though they can be delivered in any order. State-based CRDTs also have a disadvantage, which is that the entire state must be transmitted to the other replicas, which may be costly.
-**Operation-based CRDTs**
+## Operation-based CRDTs
 
 Operation-based CRDTs are referred to as**commutative replicated data types, orCmRDTs.** CmRDT replicas propagate state by transmitting only the update operation. For example, a CmRDT of a single integer might broadcast the operations (+10) or (−20). Replicas receive the updates and apply them locally. The operations are[commutative](https://en.wikipedia.org/wiki/Commutative). However, they are not[idempotent](https://en.wikipedia.org/wiki/Idempotent). The communications infrastructure must therefore ensure that all operations on a replica are delivered to the other replicas, without duplication, but in any order.
 
 Pureoperation-based CRDTsare a variant of operation-based CRDTs that reduces the metadata size.
-**State-based CRDTs**
+## State-based CRDTs
 
 State-based CRDTs are called**convergent replicated data types, orCvRDTs**. In contrast to CmRDTs, CvRDTs send their full local state to other replicas, where the states are merged by a function which must be[commutative](https://en.wikipedia.org/wiki/Commutative),[associative](https://en.wikipedia.org/wiki/Associative), and[idempotent](https://en.wikipedia.org/wiki/Idempotent). Themergefunction provides a[join](https://en.wikipedia.org/wiki/Join_(mathematics))for any pair of replica states, so the set of all states forms a[semilattice](https://en.wikipedia.org/wiki/Semilattice). Theupdatefunction must[monotonically increase](https://en.wikipedia.org/wiki/Monotonic_function)the internal state, according to the same[partial order](https://en.wikipedia.org/wiki/Partial_order)rules as the semilattice.
 
 Delta stateCRDTs(or simply Delta CRDTs) are optimized state-based CRDTs where only recently applied changes to a state are disseminated instead of the entire state.
-**Comparison**
+## Comparison
 
 While CmRDTs place more requirements on the protocol for transmitting operations between replicas, they use less bandwidth than CvRDTs when the number of transactions is small in comparison to the size of internal state. However, since the CvRDT merge function is associative, merging with the state of some replica yields all previous updates to that replica.[Gossip protocols](https://en.wikipedia.org/wiki/Gossip_protocol) work well for propagating CvRDT state to other replicas while reducing network use and handling topology changes.
 Some lower bounds on the storage complexity of state-based CRDTs are known.

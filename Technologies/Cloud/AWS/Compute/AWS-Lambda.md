@@ -12,9 +12,7 @@ Modified: 2022-03-02 20:22:16 +0500
 
 <https://www.toptal.com/aws/service-oriented-architecture-aws-lambda>
 
-
-
-**Slack notifications**
+## Slack notifications
 
 import logging
 
@@ -23,8 +21,6 @@ import json
 from urllib.parse import urlencode
 
 from urllib.request import Request, urlopen
-
-
 
 
 

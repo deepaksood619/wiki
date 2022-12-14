@@ -6,29 +6,23 @@ Modified: 2022-06-01 23:54:08 +0500
 
 ---
 
-**TODO**
+## TODO
 -   **React Query -** <https://react-query.tanstack.com
 -   **React Router -** <https://github.com/remix-run/react-router/blob/main/docs/getting-started/installation.md>
 
-
-
-**JS libraries**
+## JS libraries
 
 <https://underscorejs.org <https://github.com/jashkenas/underscore>
 
 Underscore.js is a utility-belt library for JavaScript that provides support for the usual functional suspects (each, map, reduce, filter...) without extending any core JavaScript objects.
 
-
-
-**Libraries**
+## Libraries
 
 <https://github.com/facebook/create-react-app>
 
 <https://www.npmjs.com/package/uuid>
 
-
-
-**Editors -** <https://www.sanity.io/guides/top-5-rich-text-react-components>
+## Editors - <https://www.sanity.io/guides/top-5-rich-text-react-components>
 
 <https://www.npmjs.com/package/easymde>
 
@@ -37,8 +31,6 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 <https://www.npmjs.com/package/react-quill>
 
 <https://www.npmjs.com/package/summernote>
-
-
 
 <https://www.npmjs.com/package/react-scripts>
 
@@ -68,8 +60,6 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 
 <https://www.npmjs.com/package/react-window>
 
-
-
 [**https://www.npmjs.com/package/dayjs**](https://www.npmjs.com/package/dayjs)
 
 <https://date-fns.org
@@ -78,43 +68,29 @@ date-fns provides the most comprehensive, yet simple and consistent toolset for 
 
 <https://github.com/date-fns/date-fns>
 
-
-
 <https://github.com/react-dnd/react-dnd> (Drag and Drop)
 
 <https://github.com/formatjs/formatjs>
 
 <https://github.com/davidhu2000/react-spinners>
 
-
-
 <https://www.npmjs.com/package/react-contentful>
 
 <https://www.npmjs.com/package/contentful>
 
-
-
-**Select2**
+## Select2
 
 <https://select2.org
 
-
-
-**Modernizr**
+## Modernizr
 
 [Modernizr](https://modernizr.com/)is a JavaScript library for conviently detecting HTML5 and CSS3 feature support in web browsers. In detecting feature support, it allows developers to test for some of the new technologies and then provide fallbacks for browsers that do not support them.
 
-
-
 WebP support - Look for the properties Modernizr.webp, Modernizr.webp.lossless, Modernizr.webp.alpha and Modernizr.webp.animation.
-
-
 
 Modernizr(js library for feature detection)
 
-
-
-**Forms**
+## Forms
 
 [**https://github.com/formium/formik**](https://github.com/formium/formik)
 
@@ -126,13 +102,9 @@ Modernizr(js library for feature detection)
 
 <https://engineering.udacity.com/mastering-the-art-of-forms-in-react-1bd65fb664d7>
 
-
-
-**react-query**
+## react-query
 
 Performant and powerful datasynchronization for React
-
-
 
 Fetch, cache and update data in your React and React Native applications all without touching any "global state".
 -   Backend agnostic
@@ -159,39 +131,25 @@ Fetch, cache and update data in your React and React Native applications all wit
 
 <https://react-query.tanstack.com
 
-
-
-**Flux**
+## Flux
 
 <https://facebook.github.io/flux
 
+## Testing
 
-
-**Testing**
-
-**Jest**
+## Jest
 
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
-
-
 [**Jest**](https://facebook.github.io/jest/)is a JavaScript test runner that lets you access the DOM via[jsdom](https://reactjs.org/docs/testing-environments.html#mocking-a-rendering-surface). While jsdom is only an approximation of how the browser works, it is often good enough for testing React components. Jest provides a great iteration speed combined with powerful features like mocking[modules](https://reactjs.org/docs/testing-environments.html#mocking-modules)and[timers](https://reactjs.org/docs/testing-environments.html#mocking-timers)so you can have more control over how the code executes.
-
-
 
 <https://www.freecodecamp.org/news/how-to-test-react-applications
 
-
-
 [**React Testing Library**](https://testing-library.com/react)is a set of helpers that let you test React components without relying on their implementation details. This approach makes refactoring a breeze and also nudges you towards best practices for accessibility. Although it doesn't provide a way to "shallowly" render a component without its children, a test runner like Jest lets you do this by[mocking](https://reactjs.org/docs/testing-recipes.html#mocking-modules).
-
-
 
 <https://reactjs.org/docs/testing.html>
 
-
-
-**Cypress**
+## Cypress
 
 End-to-end testing
 
@@ -199,27 +157,17 @@ End-to-end testing
 
 <https://www.cypress.io
 
-
-
 <https://github.com/enzymejs/enzyme>
 
-
-
-**classnames**
+## classnames
 
 Usingclassnameslibrary to toggle classes
 
-
-
 [classnames](https://github.com/JedWatson/classnames)is a simple library that lets you toggle class names easily. You can install it usingnpm install classnamesoryarn add classnames.
-
-
 
 Please take a look at its[documentation](https://github.com/JedWatson/classnames)for more details, but here's the basic usage:
 -   Suppose that you want to create anAlertcomponent which acceptstype, which can be'success'or'error'.
 -   If it's'success', you want the text color to be green. If it's'error', you want the text color to be red.
-
-
 
 You can first write a CSS module (e.g.alert.module.css) like this:
 
@@ -248,10 +196,6 @@ className={cn({
 )
 }
 
-
-
 <https://github.com/JedWatson/classnames>
-
-
 
 <https://www.freecodecamp.org/news/front-end-development-tools-you-should-know

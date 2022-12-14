@@ -43,12 +43,12 @@ Rules govern how historical segments are loaded and dropped from the cluster. Ru
 LoadBalancing
 
 These query patterns suggest replicating recent historical seg- ments at a higher rate, spreading out large segments that are close in time to different historical nodes, and co-locating segments from different data sources.
-**Storage Engine**
+## Storage Engine
 -   In-memory storage engine
 -   Memory mapped storage engine
-**Query API**
+## Query API
 
 Druid has its own query language and accepts queries as POST requests. Broker, historical, and real-time nodes all share the same query API.
-**References**
+## References
 
 <http://static.druid.io/docs/druid.pdf>

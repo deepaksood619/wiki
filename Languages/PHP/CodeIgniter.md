@@ -8,9 +8,7 @@ Modified: 2020-11-02 15:25:24 +0500
 
 CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications. CodeIgniter was created by EllisLab, and is now a project of the British Columbia Institute of Technology.
 
-
-
-**Features**
+## Features
 -   Model-View-Controller Based System
 -   Extremely Light Weight
 -   Full Featured database classes with support for several platforms.
@@ -41,21 +39,15 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
 -   Support for Hooks and Class Extensions
 -   Large library of "helper" functions
 
-
-
 <https://www.tutorialspoint.com/codeigniter/codeigniter_overview.htm>
 
-
-
-**Docker Environment**
+## Docker Environment
 
 <https://hub.docker.com/r/bitnami/codeigniter>
 
+## Docs
 
-
-**Docs**
-
-**Overview & General Topics**
+## Overview & General Topics
 -   [CodeIgniter4 Overview](https://codeigniter.com/user_guide/concepts/index.html)
     -   [Application Structure](https://codeigniter.com/user_guide/concepts/structure.html)
     -   [Models, Views, and Controllers](https://codeigniter.com/user_guide/concepts/mvc.html)
@@ -78,9 +70,7 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
     -   [Managing your Applications](https://codeigniter.com/user_guide/general/managing_apps.html)
     -   [Handling Multiple Environments](https://codeigniter.com/user_guide/general/environments.html)
 
-
-
-**Request Handling**
+## Request Handling
 -   [Controllers and Routing](https://codeigniter.com/user_guide/incoming/index.html)
     -   [Controllers](https://codeigniter.com/user_guide/incoming/controllers.html)
     -   [URI Routing](https://codeigniter.com/user_guide/incoming/routing.html)
@@ -103,9 +93,7 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
     -   [Localization](https://codeigniter.com/user_guide/outgoing/localization.html)
     -   [Alternate PHP Syntax for View Files](https://codeigniter.com/user_guide/outgoing/alternative_php.html)
 
-
-
-**Handling Databases**
+## Handling Databases
 -   [Working With Databases](https://codeigniter.com/user_guide/database/index.html)
 -   [Quick Start: Usage Examples](https://codeigniter.com/user_guide/database/examples.html)
 -   [Database Configuration](https://codeigniter.com/user_guide/database/configuration.html)
@@ -127,9 +115,7 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
 -   [Database Migrations](https://codeigniter.com/user_guide/dbmgmt/migration.html)
 -   [Database Seeding](https://codeigniter.com/user_guide/dbmgmt/seeds.html)
 
-
-
-**Libraries & Helpers**
+## Libraries & Helpers
 -   [Library Reference](https://codeigniter.com/user_guide/libraries/index.html)
 -   [Caching Driver](https://codeigniter.com/user_guide/libraries/caching.html)
 -   [CURLRequest Class](https://codeigniter.com/user_guide/libraries/curlrequest.html)
@@ -163,9 +149,7 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
 -   [URL Helper](https://codeigniter.com/user_guide/helpers/url_helper.html)
 -   [XML Helper](https://codeigniter.com/user_guide/helpers/xml_helper.html)
 
-
-
-**Advanced Topics**
+## Advanced Topics
 -   [Testing](https://codeigniter.com/user_guide/testing/index.html)
 -   [Getting Started](https://codeigniter.com/user_guide/testing/overview.html)
 -   [Database](https://codeigniter.com/user_guide/testing/database.html)
@@ -186,7 +170,5 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
 -   [Extending the Controller](https://codeigniter.com/user_guide/extending/basecontroller.html)
 -   [Authentication](https://codeigniter.com/user_guide/extending/authentication.html)
 -   [Contributing to CodeIgniter](https://codeigniter.com/user_guide/extending/contributing.html)
-
-
 
 <https://codeigniter.com/user_guide/index.html>

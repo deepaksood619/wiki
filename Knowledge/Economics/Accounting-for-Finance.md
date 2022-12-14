@@ -8,11 +8,7 @@ Modified: 2022-11-29 15:51:34 +0500
 
 [Accounting 101 (taught by a non-accountant)](https://www.youtube.com/playlist?list=PLUkh9m2BorqmKaLrNBjKtFDhpdFdi8f7C)
 
-
-
 This is a course of short webcasts (about 12-20 minutes apiece), designed to introduce you to the basics of accounting, but more from the perspective of a user of financial statements than from someone who cares about accounting rules and standards. So, be forewarned! I have no qualms about saying terrible things about accounting standards and rule writers, rewriting accounting rules to fit my perspectives on valuation and corporate finance, and ignoring vast segments of accounting statements as useless in financial analysis.
-
-
 
 <table>
 <colgroup>
@@ -138,15 +134,11 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 </tbody>
 </table>
 
-
-
-**Courses**
+## Courses
 -   Accounting - <https://www.accountingcoach.com/accounting-basics/outline>
 -   **Aswath Damodaran - Foundations of Finance**
 
-
-
-**References**
+## References
 
 [Data Update 1 for 2022: It's Moneyball Time!](https://youtu.be/QlQqJpxcHCM)
 
@@ -159,8 +151,6 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 -   When Loan Is Not A Liability, But A Sale
 -   Masquerading As A Large Company
 
-
-
 [How Companies Cook Their Books Part 2 | ET Money](https://youtu.be/ah4-G4CsGAE)
 -   Failure to Record an Expense
 -   Playing with Reserves
@@ -169,11 +159,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 -   Boosting Income through Misleading Classifications
 -   Shifting Losses to Discontinued Operations
 
-
-
-![REVENUE RECOGNITION SHENANIGANS ANY OBUOAYION:S UNO€@ CONTRACT "AR IN excess 0' WORK coenoco ON A qeCOGMt'ON ON LONG. CONt@ACtS use OF AGGRESS(VE ASSUMPOONS ON LEASES BEFORE THE BUYER'S RNAL ACCEPTANCE OF THE PROOIXT BUYERS PAYMENT REMAAS UNCERTAIN OR UVdECESSARY CHANGAO THE REVENUE use O' enc.NO-eoco ACCOUNTING CUSTOM(R cowecooea GtNtROUS O(tENO€O PAYMENT tiRMS BOGUS REVENUE SHENANIGANS TRANSACTION CCONOMIC SUOSTANCC t@ANSACttON LACKS REASONAO&E AQMS-ctNGtH PROCESS LACK OF RtSK TRANSFER FROM SEILER TO BUYER TRANSACTION INVOLVING SALES TO RELATED OR AFF'UATEO PARTY ØOOMEAANO C2.WAY) TRANSACT)ONS TO NONTRADITIONAL ØUYERS R€CORO CASH g€cer«o LENO€R og VENDOR AS use OF GROSS tHAN NET METHOO UNUSUAL INCREASE OR DECREASE 'N LIABILITY RESERVE ACCOUNT ](media/Accounting-for-Finance-image1.jpeg)
-
-
+![image](media/Accounting-for-Finance-image1.jpeg)
 
 All Accounts
 -   Application of Funds (Assets)
@@ -249,6 +235,4 @@ All Accounts
             -   Secured Loans
             -   Unsecured Loans
             -   Bank Overdraft Account
-
-
 

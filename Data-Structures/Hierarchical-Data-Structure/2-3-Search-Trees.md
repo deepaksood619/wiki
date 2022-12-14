@@ -6,7 +6,7 @@ Modified: 2018-05-21 23:01:07 +0500
 
 ---
 
-**Properties**
+## Properties
 -   Every non-leaf is a 2-node or a 3-node. A 2-node contains one data item and has two children. A 3-node contains two data items and has 3 children.
 -   All leaves are at the same level (the bottom level)
 -   All data is kept in sorted order
@@ -21,14 +21,14 @@ Symmetric order: Inorder traversal yields keys in ascending order
 Perfect balance: Every path from root to null links has same length
 
 Each transformation maintains symmetric order and perfect balance
-**Search.**
+## Search.
 
 ・Compare search key against keys in node.
 
 ・Find interval containing search key.
 
 ・Follow associated link (recursively).
-**Insertion into a 3-node at bottom.**
+## Insertion into a 3-node at bottom.
 
 ・Add new key to 3-node to create temporary 4-node.
 
@@ -38,8 +38,8 @@ Each transformation maintains symmetric order and perfect balance
 
 ・If you reach the root and it's a 4-node, split it into three 2-nodes.
 
-**Height of a 2-3 tree increases only when root node of the tree splits**
-**Tree height.**
+## Height of a 2-3 tree increases only when root node of the tree splits
+## Tree height.
 
 ・Worst case: lg *N*. [all 2-nodes]
 
@@ -50,7 +50,7 @@ Each transformation maintains symmetric order and perfect balance
 ・Between 18 and 30 for a billion nodes.
 
 Guaranteed logarithmic performance for search and insert
-**Direct implementation is complicated, because:**
+## Direct implementation is complicated, because:
 
 ・Maintaining multiple node types is cumbersome.
 
@@ -59,4 +59,4 @@ Guaranteed logarithmic performance for search and insert
 ・Need to move back up the tree to split 4-nodes.
 
 ・Large number of cases for splitting.
-![3-node smaller than E between E and J 2-node larger than J ](media/2-3-Search-Trees-image1.png)
+![image](media/2-3-Search-Trees-image1.png)

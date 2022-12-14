@@ -6,59 +6,43 @@ Modified: 2022-01-07 12:12:28 +0500
 
 ---
 
-**Tools**
+## Tools
 -   Torch
 -   Caffe
 -   Theano
 -   TensorFlow
 
-
-
-**TensorFlow**
+## TensorFlow
 
 High-level neural network library for deep learning
 
-
-
-**TensorBoard: Visualizing Learning**
+## TensorBoard: Visualizing Learning
 
 Can be used to visualize TensorFlow graph, plot quantitative metrics about the execution of the graph, and show additional data like images that pass through it.
-
-
 
 <http://projector.tensorflow.org
 
 <https://www.i-programmer.info/news/105/13559.html>
 
-
-
-**MNIST Architecture**
+## MNIST Architecture
 
 [Hands-on TensorBoard (TensorFlow Dev Summit 2017)](https://www.youtube.com/watch?v=eBbEDRsCmv4)
 
-
-
-**Installation**
+## Installation
 
 <https://www.tensorflow.org/install/install_mac>
 
-
-
-**Getting Started**
+## Getting Started
 
 <https://www.tensorflow.org/get_started/get_started>
 
-
-
-**API**
+## API
 
 1.  **TensorFlow Core (Lowest level API for complete programming control)**
 
 2.  **Higher level APIs (Ex - tf.estimator helps manage data sets, estimators, training and inference)**
 
-
-
-**TensorFlow Core**
+## TensorFlow Core
 
 1.  **Tensors**
 
@@ -72,15 +56,11 @@ The central unit of data in TensorFlow is the**tensor**. A tensor consists of a 
 
 [[[1., 2., 3.]], [[7., 8., 9.]]] # a rank 3 tensor with shape [2, 1, 3]
 
-
-
-**1.1. The Computational Graph**
+## 1.1. The Computational Graph
 
 A**computational graph**is a series of TensorFlow operations arranged into a graph of nodes.
 
-
-
-**TensorFlow Model Serving**
+## TensorFlow Model Serving
 -   Contains gRPC and HTTP endpoints
 -   Performs model versioning without changing any client code
 -   Schedules grouping individual inference requests into batches for joint execution
@@ -93,27 +73,19 @@ A**computational graph**is a series of TensorFlow operations arranged into a gra
     -   Non-TensorFlow-based models
 -   Is capable of canarying and A/B testing
 
-
-
 <https://dzone.com/articles/machine-learning-and-real-time-analytics-in-apache>
 
-
-
-**Tensorflow Extended**
+## Tensorflow Extended
 
 TensorFlow Extended (TFX) is an end-to-end platform for deploying production ML pipelines
 
 <https://www.tensorflow.org/tfx>
 
-
-
-**Commands**
+## Commands
 
 tensorboard --logdir=path/to/log-directory
 
-
-
-**Others**
+## Others
 
 <https://www.toptal.com/python/gradient-descent-in-tensorflow>
 

@@ -30,45 +30,31 @@ Anaesthesiology, Casualty and Dental Surgery, Paediatics,
 
 Obst. & Gynae and Community Mediine
 
-
-
-**Vivisection**
+## Vivisection
 
 dissection, surgery, or painful experiments performed on a living animal for the purpose of scientific research.
 
+## geriatrician - focuses on health care of elderly people
 
-
-**geriatrician** - focuses on health care of elderly people
-
-
-
-**Pulmonology**
+## Pulmonology
 
 Pulmonology or pneumology is a medical specialty that deals with diseases involving the respiratory tract. It is also known as respirology, respiratory medicine, or chest medicine in some countries and areas. Pulmonology is considered a branch of internal medicine, and is related to intensive care medicine. Pulmonology often involves managing patients who need life support and mechanical ventilation.
 
-
-
-**Internist**
+## Internist
 
 An Internist is a physician specialising in internal medicine, treating complex combinations of conditions
 
-
-
-**Surgery**
+## Surgery
 
 <https://www.youtube.com/playlist?list=PLM7R3YrvpbZxonFtQtRhAEP4hNcCGP7fD>
 
 <https://www.youtube.com/playlist?list=PLM7R3YrvpbZxURPwjgfi8C7PGi3FYWcI6>
 
-
-
-**Health**
+## Health
 
 [The Future of Health: What Does Good Health Mean?](https://youtu.be/GXeSoN_8zC4)
 
-
-
-**Alternative Medicine / PsuedoScience**
+## Alternative Medicine / PsuedoScience
 -   [Acupressure](https://en.wikipedia.org/wiki/Acupressure)
 -   [Acupuncture](https://en.wikipedia.org/wiki/Acupuncture)
 -   [Alkaline diet](https://en.wikipedia.org/wiki/Alkaline_diet)
@@ -163,8 +149,6 @@ An Internist is a physician specialising in internal medicine, treating complex 
 -   [Vitalism](https://en.wikipedia.org/wiki/Vitalism)
 -   [Young blood transfusion](https://en.wikipedia.org/wiki/Young_blood_transfusion)
 -   [Zero balancing](https://en.wikipedia.org/wiki/Zero_balancing)
-
-
 
 <https://en.wikipedia.org/wiki/Alternative_medicine>
 

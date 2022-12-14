@@ -6,9 +6,7 @@ Modified: 2020-12-16 00:47:29 +0500
 
 ---
 
-**Ultralight service mesh for Kubernetes**
-
-
+## Ultralight service mesh for Kubernetes
 
 For example, when a request is made to a service through Linkerd, a very simplified timeline of events is as follows:
 
@@ -28,9 +26,7 @@ For example, when a request is made to a service through Linkerd, a very simplif
 
 8.  Linkerd captures every aspect of the above behavior in the form of metrics and distributed tracing, which are emitted to a centralized metrics system.
 
-
-
-**References**
+## References
 
 <https://linkerd.io
 

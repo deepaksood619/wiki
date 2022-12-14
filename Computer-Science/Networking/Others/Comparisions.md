@@ -6,7 +6,7 @@ Modified: 2020-05-06 10:17:55 +0500
 
 ---
 
-**Avro vs Protobuf**
+## Avro vs Protobuf
 
 What should you choose then? Avro, especially at the beginning, seems much easier to use. The cost of this is that you will need to provide both reader and writer schema to deserialize anything.
 ![](media/Comparisions-image1.png)
@@ -65,7 +65,7 @@ Personally, I would use Avro for simple domains with mostly primitive types. For
 ![](media/Comparisions-image25.png)
 
 ![](media/Comparisions-image26.png)
-**Big Data and Fast Data**
+## Big Data and Fast Data
 
 ![](media/Comparisions-image27.png)
 
@@ -77,12 +77,12 @@ Personally, I would use Avro for simple domains with mostly primitive types. For
 
 ![](media/Comparisions-image31.png)
 ![](media/Comparisions-image32.png)
-**Summary**
+## Summary
 
 ![](media/Comparisions-image33.png)
 
 ![](media/Comparisions-image34.png)
-**Performance benchmarks**
+## Performance benchmarks
 
 <https://labs.criteo.com/2017/05/serialization>
 
@@ -94,7 +94,7 @@ Personally, I would use Avro for simple domains with mostly primitive types. For
 
 On their face, Avro and Parquet are similar they both write the schema of their enclosed data in a file header and deal well with schema drift (adding/removing columns). They're so similar in this respect that Parquet even natively supports[Avro schemas](https://github.com/apache/parquet-mr#avro), so you can migrate your Avro pipelines to Parquet storage in a pinch.
 The big difference in the two formats is that Avro stores data BY ROW, and parquet stores data BY COLUMN..
-**BENEFITS OF PARQUET OVER AVRO**
+## BENEFITS OF PARQUET OVER AVRO
 
 To recap on my columnar file format guide, the advantage to Parquet (and columnar file formats in general) are primarily two fold:
 
@@ -105,14 +105,14 @@ I cannot overstate the benefit of a 100x improvement in record throughput. It pr
 
 When simply counting rows, Parquet blows Avro away, thanks to the metadata parquet stores in the header of row groups.
 
-![Parquet Row count](media/Comparisions-image35.png)
+![image](media/Comparisions-image35.png)
 
 When running a group-by query, parquet is still almost 2x faster (although I'm unsure of the exact query used here).
 
-![Parquet Group by](media/Comparisions-image36.png)
+![image](media/Comparisions-image36.png)
 
 The same case study also finds improvements in storage space, and even in full-table scans, likely due to Spark having to scan a smaller datasize.
-**BENEFITS OF AVRO OVER PARQUET**
+## BENEFITS OF AVRO OVER PARQUET
 
 I have heard some folks argue in favor of Avro vs Parquet. Such arguments are typically based around two points:
 
@@ -120,6 +120,6 @@ i.  When you are reading entire records at once, Avro wins in performance.
 
 ii. Write-time is increased drastically for writing Parquet files vs Avro files
 So the wider your dataset, the worse Parquet becomes for scanning entire records (which makes sense). This is an extreme example, most datasets are not 700 columns wide, for anything reasonable (< 100) Parquet read performance is close enough to Avro to not matter.
-**Others**
+## Others
 
 <https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html>

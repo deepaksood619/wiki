@@ -6,7 +6,7 @@ Modified: 2020-08-15 23:39:23 +0500
 
 ---
 
-**Introduction**
+## Introduction
 -   **MapReduce** is a programming model and an associated implementation for processing and generating large data sets
 -   Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate
 
@@ -17,8 +17,6 @@ Modified: 2020-08-15 23:39:23 +0500
 ![Distributed File System Chunk Servers file is split into contiguous chunks .TypicaIly each chunk is 16-64M.B- Æach chunk replicated (usually 2x or 3x) .Try to keep replicas in different racks Master node Also known as Name Nodes in HDFS Stores metadata .Might be replicated ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image3.png)
 
 ![Motivation for Map Reduce Large-Scale Data Processing Want to use 1000s of CPUs • But don't want hassle of mana • g things MapReduce Architecture provides 'Automatic parallelization & distribyffon 'Fault tolerance ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image4.png)
-
-
 
 ![What is MapReduce? • Terms are borrowed from Functional Language (e.g., Li Sum of square • (map square '(13 3 4)) • Output: (119/1!) [prores e hr cord ntially and independer • (red%ce + '(1 49 16)) • (+ 16 (+ 9 (+ 4 1) ) ) • Output: 30 U [processes set of all records in batches] • Let's consider a sample application: Wordcount ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image5.png)
 
@@ -42,8 +40,6 @@ Modified: 2020-08-15 23:39:23 +0500
 
 ![Map-Reduce Functions Input: a set of key/value pairs User supplies two functions• reduce(kl, list(vl)) -5 v2 (kl,vl) is an intermediate key/value pair Output is the set of (kl,v2) pairs ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image15.png)
 
-
-
 ![Applications Here are a few simple applications of interesting can be easily expressed as MapReduce computati [Distributed Grep: The map function emits a line supplied pattern. The reduce function is an identi• just copies the supplied intermediate data to the c Count of URL Access Frequency: The a cunc logs of web page requests and outputs I URL; function adds together all values for the same U (URL; total cou t) pair. e ReverseWeb-Link Graph: The map function ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image16.png)
 
 ![Contd... Term-Vector per Host: A term vector surr most important words that occur in a docun of documents as a list of (word; frequency) pæ The map function emits a (hostname; term for each input document (where the extracted from the URL of the document). The reduce function is passed all per-doc ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image17.png)
@@ -62,23 +58,9 @@ Modified: 2020-08-15 23:39:23 +0500
 
 ![YARN. 1. Need container How a job gets a cont; Resource Manager Capacity Scheduler 3. Container on Node B Node Node Manager A 2. C ntai Node B ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image24.png)
 
-
-
-**Projection Pushdown**
+## Projection Pushdown
 
 Projection pushdown minimizes data transfer betweenMapR Databaseand the Apache Spark engine by omitting unnecessary fields from table scans. It is especially beneficial when a table contains many columns.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

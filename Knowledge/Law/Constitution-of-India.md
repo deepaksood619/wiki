@@ -6,29 +6,21 @@ Modified: 2022-02-13 22:40:15 +0500
 
 ---
 
-**Original**
+## Original
 -   Articles - 395
 -   Parts - 22
 -   Schedules - 8
 
-
-
-**Current**
+## Current
 -   Articles - 448
 -   Parts - 25
 -   Schedules - 12
-
-
 
 25 Parts
 
 U Can Fly Directly From US ~~to~~ UP ~~to~~ Meet Child ~~of~~ Shyam ~~and~~ Ram; Fruits Taste Sweet To Eat So Only Eat Maggie As Tasty Snack
 
-
-
 Constitution of India contains 395 articles in 22 parts. Additional[articles and parts](https://www.clearias.com/indian-constitution-parts-articles/)are inserted later through various amendments. There are also 12[schedules in the Indian Constitution](https://www.clearias.com/schedules-indian-constitution/).
-
-
 
 [**PREAMBLE**](https://www.clearias.com/preamble-of-indian-constitution/)
 
@@ -44,8 +36,6 @@ FRATERNITY assuring the dignity of the individual and the unity and integrity of
 
 IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.
 
-
-
 [**PART I:THE UNION AND ITS TERRITORY**](https://www.clearias.com/union-and-its-territory/)
 
 1 Name and territory of the Union.
@@ -57,8 +47,6 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 3 Formation of new States and alteration of areas, boundaries or names of existing States.
 
 4 Laws made under articles 2 and 3 to provide for the amendment of the First and the Fourth Schedules and supplemental, incidental and consequential matters.
-
-
 
 [**PART II:CITIZENSHIP**](https://www.clearias.com/citizenship/)
 
@@ -76,19 +64,15 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 11 Parliament to regulate the right of citizenship by law.
 
-
-
 [**PART III :FUNDAMENTAL RIGHTS**](https://www.clearias.com/fundamental-rights/)
 
-**General**
+## General
 
 12 Definition.
 
 13 Laws inconsistent with or in derogation of the fundamental rights.
 
-
-
-**Right to Equality**
+## Right to Equality
 
 14 Equality before law.
 
@@ -100,9 +84,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 18 Abolition of titles.
 
-
-
-**Right to Freedom**
+## Right to Freedom
 
 19 Protection of certain rights regarding freedom of speech, etc.
 
@@ -110,23 +92,19 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 21 Protection of life and personal liberty.
 
-![SC declared following rights as part of Article 21 Right to live with human dignity. Right to decent environment. Right to livelihood. Right to privacy Right to shelter. Right to health. Right to free education up to 14 years of age. Right to free legal aid. Right against solitary confinement. Right to speedy trial. Right against handcuffing. Right against inhuman treatment. Right against delayed execution. Rightto travel abroad. Right against bonded labour Right against custodial harassment Right to emergency medical aid. Rightto timely medical treatment in govt. hospital Right not to be driven out of a state. Rightto fair trial. Right of prisoner to have necessities of life. Right of women to be treated with decency and dignity. Right against public hanging. Rightto hearing. Rightto information. Right to reputation. ](media/Constitution-of-India-image1.jpeg)
+![image](media/Constitution-of-India-image1.jpeg)
 
 21A Right to education
 
 22 Protection against arrest and detention in certain cases.
 
-
-
-**Right against Exploitation**
+## Right against Exploitation
 
 23 Prohibition of traffic in human beings and forced labour.
 
 24 Prohibition of employment of children in factories, etc.
 
-
-
-**Right to Freedom of Religion**
+## Right to Freedom of Religion
 
 25 Freedom of conscience and free profession, practice and propagation of religion.
 
@@ -136,9 +114,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 28 Freedom as to attendance at religious instruction or religious worship in certain educational institutions.
 
-
-
-**Cultural and Educational Rights**
+## Cultural and Educational Rights
 
 29 Protection of interests of minorities.
 
@@ -146,9 +122,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 31 [Repealed.]
 
-
-
-**Saving of Certain Laws**
+## Saving of Certain Laws
 
 31A Saving of Laws providing for the acquisition of estates, etc.
 
@@ -158,9 +132,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 31D [Repealed.]
 
-
-
-**Right to Constitutional Remedies**
+## Right to Constitutional Remedies
 
 32 Remedies for enforcement of rights conferred by this Part.
 
@@ -172,11 +144,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 35 Legislation to give effect to the provisions of this Part.
 
-
-
 [Trick to Remember Full Fundamental Rights | Indian Constitution](https://youtu.be/7jG6G-kIzD4)
-
-
 
 [PART IV: DIRECTIVE PRINCIPLES OF STATE POLICY](https://www.clearias.com/directive-principles-of-our-state-policy/)
 
@@ -220,19 +188,15 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 51 Promotion of international peace and security.
 
-
-
 [PART IVA: FUNDAMENTAL DUTIES](https://www.clearias.com/fundamental-duties/)
 
 51A Fundamental duties.
 
+## PART V:THE UNION
 
+## CHAPTER I: THE EXECUTIVE
 
-**PART V:THE UNION**
-
-**CHAPTER I: THE EXECUTIVE**
-
-**The President and Vice-President**
+## The President and Vice-President
 
 52[The President of India](https://www.clearias.com/president-of-india/).
 
@@ -284,23 +248,17 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 75 Other provisions as to Ministers.
 
-
-
-**The Attorney-General for India**
+## The Attorney-General for India
 
 76 Attorney-General for India.
 
-
-
-**Conduct of Government Business**
+## Conduct of Government Business
 
 77 Conduct of business of the Government of India.
 
 78 Duties of Prime Minister as respects the furnishing of information to the President, etc.
 
-
-
-**CHAPTER II: PARLIAMENT**
+## CHAPTER II: PARLIAMENT
 
 [**General**](https://www.clearias.com/parliament/)
 
@@ -346,15 +304,13 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 98 Secretariat of Parliament.
 
-**Conduct of Business**
+## Conduct of Business
 
 99 Oath or affirmation by members.
 
 100 Voting in Houses, power of Houses to act notwithstanding vacancies and quorum.
 
-
-
-**Disqualifications of Members**
+## Disqualifications of Members
 
 101 Vacation of seats.
 
@@ -364,13 +320,11 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 104 Penalty for sitting and voting before making oath or affirmation under article99 or when not qualified or when disqualified.
 
-**Powers, Privileges and Immunities of Parliament and its Members**
+## Powers, Privileges and Immunities of Parliament and its Members
 
 105 Powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof.
 
 106 Salaries and allowances of members.
-
-
 
 [**Legislative Procedure**](https://www.clearias.com/bills-procedures-parliament/)
 
@@ -384,9 +338,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 111 Assent to Bills.
 
-
-
-**Procedure in Financial Matters**
+## Procedure in Financial Matters
 
 112 Annual financial statement.
 
@@ -412,13 +364,9 @@ Procedure Generally
 
 122 Courts not to inquire into proceedings of Parliament.
 
-
-
-**CHAPTER III: LEGISLATIVE POWERS OF THE PRESIDENT**
+## CHAPTER III: LEGISLATIVE POWERS OF THE PRESIDENT
 
 123[Power of President to promulgate Ordinances during recess of Parliament](https://www.clearias.com/ordinance-making-power-president/).
-
-
 
 [**CHAPTER IV: THE UNION JUDICIARY**](https://www.clearias.com/union-judiciary-supreme-court/)
 
@@ -484,8 +432,6 @@ Procedure Generally
 
 147 Interpretation.
 
-
-
 [**CHAPTER V: COMPTROLLER AND AUDITOR-GENERAL OF INDIA**](https://www.clearias.com/comptroller-and-auditor-general-of-india-cag/)
 
 148 Comptroller and Auditor-General of India.
@@ -496,17 +442,13 @@ Procedure Generally
 
 151 Audit reports.
 
+## PART VI:THE STATES
 
-
-**PART VI:THE STATES**
-
-**CHAPTER I: GENERAL**
+## CHAPTER I: GENERAL
 
 152 Definition.
 
-
-
-**CHAPTER II: THE EXECUTIVE**
+## CHAPTER II: THE EXECUTIVE
 
 [The Governor](https://www.clearias.com/governor-of-states/)
 
@@ -530,31 +472,23 @@ Procedure Generally
 
 162 Extent of executive power of State.
 
-
-
-**Council of Ministers**
+## Council of Ministers
 
 163 Council of Ministers to aid and advise Governor.
 
 164 Other provisions as to Ministers.
 
-
-
-**The Advocate-General for the State**
+## The Advocate-General for the State
 
 165 Advocate-General for the State.
 
-
-
-**Conduct of Government Business**
+## Conduct of Government Business
 
 166 Conduct of business of the Government of a State.
 
 167 Duties of Chief Minister as respects the furnishing of information to Governor, etc.
 
-
-
-**CHAPTER III: THE STATE LEGISLATURE**
+## CHAPTER III: THE STATE LEGISLATURE
 
 [General](https://www.clearias.com/state-legislature/)
 
@@ -578,8 +512,6 @@ Procedure Generally
 
 177 Rights of Ministers and Advocate-General as respects the Houses.
 
-
-
 [Officers of the State Legislature](https://www.clearias.com/officers-of-the-state-legislature/)
 
 178 The Speaker and Deputy Speaker of the Legislative Assembly.
@@ -602,9 +534,7 @@ Procedure Generally
 
 187 Secretariat of State Legislature.
 
-
-
-**Conduct of Business**
+## Conduct of Business
 
 188 Oath or affirmation by members.
 
@@ -626,9 +556,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 195 Salaries and allowances of members.
 
-
-
-**Legislative Procedure**
+## Legislative Procedure
 
 196 Provisions as to introduction and passing of Bills.
 
@@ -642,9 +570,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 201 Bills reserved for consideration.
 
-
-
-**Procedure in Financial Matters**
+## Procedure in Financial Matters
 
 202 Annual financial statement.
 
@@ -658,9 +584,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 207 Special provisions as to financial Bills.
 
-
-
-**Procedure Generally**
+## Procedure Generally
 
 208 Rules of procedure.
 
@@ -672,15 +596,11 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 212 Courts not to inquire into proceedings of the Legislature.
 
-
-
-**CHAPTER IV : LEGISLATIVE POWER OF THE GOVERNOR**
+## CHAPTER IV : LEGISLATIVE POWER OF THE GOVERNOR
 
 213 Power of Governor to promulgate Ordinances during recess of Legislature.
 
-
-
-**CHAPTER V: THE HIGH COURTS IN THE STATES**
+## CHAPTER V: THE HIGH COURTS IN THE STATES
 
 214 High Courts for States.
 
@@ -724,9 +644,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 231 Establishment of a common High Court for two or more States.
 
-
-
-**CHAPTER VI : SUBORDINATE COURTS**
+## CHAPTER VI : SUBORDINATE COURTS
 
 233 Appointment of district judges.
 
@@ -740,15 +658,11 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 237 Application of the provisions of this Chapter to certain class or classes of magistrates.
 
-
-
-**PART VII: THE STATES IN PART B OF THE FIRST SCHEDULE**
+## PART VII: THE STATES IN PART B OF THE FIRST SCHEDULE
 
 238 [Repealed.]
 
-
-
-**PART VIII: THE UNION TERRITORIES**
+## PART VIII: THE UNION TERRITORIES
 
 239 Administration of Union territories.
 
@@ -766,9 +680,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 242 [Repealed.]
 
-
-
-**PART IX: THE PANCHAYATS**
+## PART IX: THE PANCHAYATS
 
 243 Definitions.
 
@@ -802,9 +714,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 243-O Bar to interference by courts in electoral matters.
 
-
-
-**PART IXA: THE MUNICIPALITIES**
+## PART IXA: THE MUNICIPALITIES
 
 243P Definitions.
 
@@ -842,9 +752,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 243ZGBar to interference by Courts in electoral matters.
 
-
-
-**PART IXB: THE CO-OPERATIVE SOCIETIES**
+## PART IXB: THE CO-OPERATIVE SOCIETIES
 
 243ZH Definitions
 
@@ -872,21 +780,17 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 243ZT Continuance of existing laws.
 
-
-
-**PART X: THE SCHEDULED AND TRIBAL AREAS**
+## PART X: THE SCHEDULED AND TRIBAL AREAS
 
 244 Administration of Scheduled Areas and Tribal Areas.
 
 244A Formation of an autonomous State comprising certain tribal areas in Assam and creation of local Legislature or Council of Ministers or both therefor.
 
+## PART XI: RELATIONS BETWEEN THE UNION AND THE STATES
 
+## CHAPTER I: LEGISLATIVE RELATIONS
 
-**PART XI: RELATIONS BETWEEN THE UNION AND THE STATES**
-
-**CHAPTER I: LEGISLATIVE RELATIONS**
-
-**Distribution of Legislative Powers**
+## Distribution of Legislative Powers
 
 245 Extent of laws made by Parliament and by the Legislatures of States.
 
@@ -912,11 +816,9 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 255 Requirements as to recommendations and previous sanctions to be regarded as matters of procedure only.
 
+## CHAPTER II : ADMINISTRATIVE RELATIONS
 
-
-**CHAPTER II : ADMINISTRATIVE RELATIONS**
-
-**General**
+## General
 
 256 Obligation of States and the Union.
 
@@ -934,9 +836,7 @@ Powers, privileges and immunities of State Legislatures and their Members
 
 261 Public acts, records and judicial proceedings.
 
-
-
-**Disputes relating to Waters**
+## Disputes relating to Waters
 
 262 Adjudication of disputes relating to waters of inter-State rivers or river valleys.
 
@@ -944,13 +844,11 @@ Co-ordination between States
 
 263 Provisions with respect to an inter-State Council.
 
+## PART XII: FINANCE, PROPERTY, CONTRACTS AND SUITS
 
+## CHAPTER I: FINANCE
 
-**PART XII: FINANCE, PROPERTY, CONTRACTS AND SUITS**
-
-**CHAPTER I: FINANCE**
-
-**General**
+## General
 
 264 Interpretation.
 
@@ -996,9 +894,7 @@ Distribution of Revenues between the Union and the States
 
 281 Recommendations of the Finance Commission.
 
-
-
-**Miscellaneous financial provisions**
+## Miscellaneous financial provisions
 
 282 Expenditure defrayable by the Union or a State out of its revenues.
 
@@ -1022,17 +918,13 @@ Distribution of Revenues between the Union and the States
 
 291 [Repealed.]
 
-
-
-**CHAPTER II: BORROWING**
+## CHAPTER II: BORROWING
 
 292 Borrowing by the Government of India.
 
 293 Borrowing by States.
 
-
-
-**CHAPTER III: PROPERTY, CONTRACTS, RIGHTS, LIABILITIES, OBLIGATIONS AND SUITS**
+## CHAPTER III: PROPERTY, CONTRACTS, RIGHTS, LIABILITIES, OBLIGATIONS AND SUITS
 
 294 Succession to property, assets, rights, liabilities and obligations in certain cases.
 
@@ -1048,15 +940,11 @@ Distribution of Revenues between the Union and the States
 
 300 Suits and proceedings.
 
-
-
-**CHAPTER IV: RIGHT TO PROPERTY**
+## CHAPTER IV: RIGHT TO PROPERTY
 
 300A Persons not to be deprived of property save by authority of law.
 
-
-
-**PART XIII: TRADE, COMMERCE AND INTERCOURSE WITHIN THE TERRITORY OF INDIA**
+## PART XIII: TRADE, COMMERCE AND INTERCOURSE WITHIN THE TERRITORY OF INDIA
 
 301 Freedom of trade, commerce and intercourse.
 
@@ -1072,11 +960,9 @@ Distribution of Revenues between the Union and the States
 
 307 Appointment of authority for carrying out the purposes of articles 301 to 304.
 
+## PART XIV: SERVICES UNDER THE UNION AND THE STATES
 
-
-**PART XIV: SERVICES UNDER THE UNION AND THE STATES**
-
-**CHAPTER I: SERVICES**
+## CHAPTER I: SERVICES
 
 308 Interpretation.
 
@@ -1094,9 +980,7 @@ Distribution of Revenues between the Union and the States
 
 314 [Repeated.]
 
-
-
-**CHAPTER II: PUBLIC SERVICE COMMISSIONS**
+## CHAPTER II: PUBLIC SERVICE COMMISSIONS
 
 315 Public Service Commissions for the Union and for the States.
 
@@ -1116,17 +1000,13 @@ Distribution of Revenues between the Union and the States
 
 323 Reports of Public Service Commissions.
 
-
-
-**PART XIVA:TRIBUNALS**
+## PART XIVA:TRIBUNALS
 
 323A Administrative tribunals.
 
 323B Tribunals for other matters.
 
-
-
-**PART XV:ELECTIONS**
+## PART XV:ELECTIONS
 
 324 Superintendence, direction and control of elections to be vested in an Election Commission.
 
@@ -1142,9 +1022,7 @@ Distribution of Revenues between the Union and the States
 
 329A [Repealed.]
 
-
-
-**PART XVI:SPECIAL PROVISIONS RELATING TO CERTAIN CLASSES**
+## PART XVI:SPECIAL PROVISIONS RELATING TO CERTAIN CLASSES
 
 330 Reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People.
 
@@ -1178,19 +1056,15 @@ Distribution of Revenues between the Union and the States
 
 342A Socially and educationally backward classes.
 
+## PART XVII:OFFICIAL LANGUAGE
 
-
-**PART XVII:OFFICIAL LANGUAGE**
-
-**CHAPTER I: LANGUAGE OF THE UNION**
+## CHAPTER I: LANGUAGE OF THE UNION
 
 343 Official language of the Union.
 
 344 Commission and Committee of Parliament on official language.
 
-
-
-**CHAPTER II: REGIONAL LANGUAGES**
+## CHAPTER II: REGIONAL LANGUAGES
 
 345 Official language or languages of a State.
 
@@ -1198,17 +1072,13 @@ Distribution of Revenues between the Union and the States
 
 347 Special provision relating to language spoken by a section of the population of a State.
 
-
-
-**CHAPTER III: LANGUAGE OF THE SUPREME COURT,HIGH COURTS, ETC.**
+## CHAPTER III: LANGUAGE OF THE SUPREME COURT,HIGH COURTS, ETC.
 
 348 Language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc.
 
 349 Special procedure for enactment of certain laws relating to language.
 
-
-
-**CHAPTER IV: SPECIAL DIRECTIVES**
+## CHAPTER IV: SPECIAL DIRECTIVES
 
 350 Language to be used in representations for redress of grievances.
 
@@ -1218,9 +1088,7 @@ Distribution of Revenues between the Union and the States
 
 351 Directive for development of the Hindi language.
 
-
-
-**PART XVIII:EMERGENCY PROVISIONS**
+## PART XVIII:EMERGENCY PROVISIONS
 
 352 Proclamation of Emergency.
 
@@ -1242,9 +1110,7 @@ Distribution of Revenues between the Union and the States
 
 360 Provisions as to financial emergency.
 
-
-
-**PART XIX:MISCELLANEOUS**
+## PART XIX:MISCELLANEOUS
 
 361 Protection of President and Governors and Rajprakukhs.
 
@@ -1266,15 +1132,11 @@ Distribution of Revenues between the Union and the States
 
 367 Interpretation.
 
-
-
-**PART XX:AMENDMENT OF THE CONSTITUTION**
+## PART XX:AMENDMENT OF THE CONSTITUTION
 
 368 Power of Parliament to amend the Constitution and procedure therefor.
 
-
-
-**PART XXI:TEMPORARY, TRANSITIONAL ANDSPECIAL PROVISIONS**
+## PART XXI:TEMPORARY, TRANSITIONAL ANDSPECIAL PROVISIONS
 
 369 Temporary power to Parliament to make laws with respect to certain matters in the State List as if they were matters in the Concurrent List.
 
@@ -1324,9 +1186,7 @@ Distribution of Revenues between the Union and the States
 
 392 Power of the President to remove difficulties.
 
-
-
-**PART XXII:SHORT TITLE, COMMENCEMENT, AUTHORITATIVE TEXTIN HINDI AND REPEALS**
+## PART XXII:SHORT TITLE, COMMENCEMENT, AUTHORITATIVE TEXTIN HINDI AND REPEALS
 
 393 Short title.
 
@@ -1336,18 +1196,12 @@ Distribution of Revenues between the Union and the States
 
 395 Repeals.
 
-
-
 <https://www.clearias.com/constitution-of-india
 
 <https://en.wikipedia.org/wiki/Constitution_of_India>
 
+## Basic Structure of the Constitution
 
-
-**Basic Structure of the Constitution**
-
-![Supremacy of the Constitution Sovereign, democratic and republican nature Secular character of the Constitution Separation of powers between the LEJ Federal character of the Constitution Unity and integrity of the nation Parliamentary system Welfare state (socio-economic justice) Judicial review Freedom and dignity of the individual Rule of law Harmony and balance between FR and DPSP Free and fair elections Independent Judiciary Limited power of Parliament to amend the Constitution Effective access to justice Principle of reasonableness Powers of the Supreme Court under Articles 32, 136, 141 and 142 ](media/Constitution-of-India-image2.jpeg)
-
-
+![image](media/Constitution-of-India-image2.jpeg)
 
 

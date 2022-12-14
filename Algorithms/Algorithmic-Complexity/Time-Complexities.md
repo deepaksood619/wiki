@@ -8,13 +8,9 @@ Modified: 2021-08-07 10:51:41 +0500
 
 Big O notation (with a capital letter O, not a zero), also called**Landau's symbol,** is a symbolism used in complexity theory, computer science, and mathematics to describe the asymptotic behavior of functions. Basically, it tells you how fast a function grows or declines. It describes how the runtime or space requirement of a function grows as the input grows.
 
-
-
 Two functions with the same Big-O notation will tend to have the same growth rate and thus have the same relative performance with large inputs.
 
 For example, the bubble sort algorithm has an average time complexity of O(n^2) while merge sort and heap sort both have an average complexity of O(n log n). In average cases, merge sort and heap sort will demonstrate similar performance while they will both outperform bubble sort.
-
-
 
 In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 
@@ -189,25 +185,15 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 </tbody>
 </table>
 
-
-
-![log-log plot 512T 64T 4T 1K logarithmic constant 512K 2K 4K 8K swe Typical orders of growth ](media/Time-Complexities-image1.png)
-
-
+![image](media/Time-Complexities-image1.png)
 
 <https://en.wikipedia.org/wiki/Time_complexity>
 
-
-
-**Pseudo-polynomial time**
+## Pseudo-polynomial time
 
 In[computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), a numeric algorithm runs inpseudo-polynomial timeif its[running time](https://en.wikipedia.org/wiki/Computation_time)is a[polynomial](https://en.wikipedia.org/wiki/Polynomial)in thenumeric valueof the input (the largest integer present in the input) --- but not necessarily in thelengthof the input (the number of bits required to represent it), which is the case for[polynomial time](https://en.wikipedia.org/wiki/Polynomial_time)algorithms.
 
-
-
 In general, the numeric value of the input is exponential in the input length, which is why a pseudo-polynomial time algorithm does not necessarily run in polynomial time with respect to the input length.
-
-
 
 <https://en.wikipedia.org/wiki/Pseudo-polynomial_time>
 

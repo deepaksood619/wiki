@@ -17,26 +17,26 @@ Alternative Definition - The tangent line through a point A is the line that pas
 
 2.  Limit from left = Limit from right
 ![x ](media/Tangent-Line-and-the-Derivative-image1.png)
-![sin 0 o undefined o ](media/Tangent-Line-and-the-Derivative-image2.png)
+![image](media/Tangent-Line-and-the-Derivative-image2.png)
 Therefore this line doesn't have a tangent line at point (0,1), since tangent lines must touch the curve
 ![冖 0 'z-) ](media/Tangent-Line-and-the-Derivative-image3.png)
-![Left hand limit * Right hand limit (2 (1 0) ](media/Tangent-Line-and-the-Derivative-image4.png)
+![image](media/Tangent-Line-and-the-Derivative-image4.png)
 Since the left hand limit line not equal to right hand limit line, we say limit does not exists, therefore there is no tangent line for the curve at point (-2, 0)
-![Tangent Line = Best approximation by a line ](media/Tangent-Line-and-the-Derivative-image5.png)
+![image](media/Tangent-Line-and-the-Derivative-image5.png)
 2.  Secant Line
 
 A line that touches the curve at two points.
 
 ![](media/Tangent-Line-and-the-Derivative-image6.png)
-**Derivative**
+## Derivative
 
-![Derivative = Slope of Tangent Line ](media/Tangent-Line-and-the-Derivative-image7.png)
+![image](media/Tangent-Line-and-the-Derivative-image7.png)
 ![ل - ل ](media/Tangent-Line-and-the-Derivative-image8.png)
-![As P + A, secant + tangent, m --- -u derivative Ax ](media/Tangent-Line-and-the-Derivative-image9.png)
-![As P + A, secant + tangent, m = Ax dx ](media/Tangent-Line-and-the-Derivative-image10.png)
-![Secant Lines: Tangent Lines: m Ax dx Ax, dx, Ay are numbers dy are differentials ](media/Tangent-Line-and-the-Derivative-image11.png)
-![Finding equation of tangent line Point slope form: Y ¯ Yl = m(x --- Xl) Point: A = (Xl, Yl) Slope: m = dx ](media/Tangent-Line-and-the-Derivative-image12.png)
-**References**
+![image](media/Tangent-Line-and-the-Derivative-image9.png)
+![image](media/Tangent-Line-and-the-Derivative-image10.png)
+![image](media/Tangent-Line-and-the-Derivative-image11.png)
+![image](media/Tangent-Line-and-the-Derivative-image12.png)
+## References
 
 [The Tangent Line and the Derivative (Calculus)](https://www.youtube.com/watch?v=O_cwTAfjgAQ)
 ![Tangent Lines ](media/Tangent-Line-and-the-Derivative-image13.jpg)

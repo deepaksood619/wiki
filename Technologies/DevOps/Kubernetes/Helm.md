@@ -6,21 +6,13 @@ Modified: 2020-11-28 09:29:56 +0500
 
 ---
 
-**The package manager for Kubernetes**
-
-
+## The package manager for Kubernetes
 
 Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.
 
-
-
 Helm helps you manage Kubernetes applications --- Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application.
 
-
-
 Charts are easy to create, version, share, and publish --- so start using Helm and stop the copy-and-paste.
-
-
 
 Use Helm to:
 -   Find and use[popular software packaged as Kubernetes charts](https://github.com/kubernetes/charts)
@@ -28,8 +20,6 @@ Use Helm to:
 -   Create reproducible builds of your Kubernetes applications
 -   Intelligently manage your Kubernetes manifest files
 -   Manage releases of Helm packages
-
-
 
 Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes.
 -   Helm has two parts: a client (helm) and a server (tiller)
@@ -40,9 +30,7 @@ Helm is a tool that streamlines installing and managing Kubernetes applications.
     -   One or more templates, which contain Kubernetes manifest files
 -   Charts can be stored on disk, or fetched from remote chart repositories (like Debian or RedHat packages)
 
-
-
-**Charts**
+## Charts
 
 Helm uses a packaging format calledcharts. A chart is a collection of files that describe a related set of Kubernetes resources. A single chart might be used to deploy something simple, like a memcached pod, or something complex, like a full web app stack with HTTP servers, databases, caches, and so on.
 
@@ -51,11 +39,9 @@ Charts are created as files laid out in a particular directory tree, then they c
 
 -   Library Chart
 
+## Commands
 
-
-**Commands**
-
-**Common actions from this point include:**
+## Common actions from this point include:
 
 - helm search: search for charts
 
@@ -65,9 +51,7 @@ Charts are created as files laid out in a particular directory tree, then they c
 
 - helm list: list releases of charts
 
-
-
-**Environment:**
+## Environment:
 
 $HELM_HOME set an alternative location for Helm files. By default, these are stored in ~/.helm
 
@@ -93,49 +77,45 @@ $HELM_KEY_PASSPHRASE set HELM_KEY_PASSPHRASE to the passphrase of your PGP priva
 
 the passphrase while signing helm charts
 
-
-
-**Usage:**
+## Usage:
 
 helm [command]
 
-
-
-**Available Commands:**
+## Available Commands:
 
 completion Generate autocompletions script for the specified shell (bash or zsh)
 
 source <(helm completion zsh) # ~/.zshrc
 
-**create** create a new chart with the given name
+## create create a new chart with the given name
 
 helm create dockercoins
 
-**delete** given a release name, delete the release from Kubernetes
+## delete given a release name, delete the release from Kubernetes
 
 helm delete <name_from_helm_list>
 
-**dependency** manage a chart's dependencies
+## dependency manage a chart's dependencies
 
 helm dependency update
 
-**fetch** download a chart from a repository and (optionally) unpack it in local directory
+## fetch download a chart from a repository and (optionally) unpack it in local directory
 
 helm fetch stable/elastic-stack
 
-**get** download a named release
+## get download a named release
 
-**helm get <release_name>**
+## helm get <release_name>
 
 helm get values gitlab > gitlab.yaml
 
 pull download a chart from a repository and (optionally) unpack it in local directory
 
-**helm pull redash/redash**
+## helm pull redash/redash
 
 help Help about any command
 
-**history** fetch release history
+## history fetch release history
 
 helm history air
 
@@ -143,27 +123,27 @@ helm history <deployment_name>
 
 home displays the location of HELM_HOME
 
-**inspect** inspect a chart
+## inspect inspect a chart
 
 helm inspect stable/prometheus
 
-**install** install a chart archive
+## install install a chart archive
 
 helm install stable/elastic-stack
 
 helm install --name ke -f values.yaml --namespace kafka .
 
-**lint** examines a chart for possible issues
+## lint examines a chart for possible issues
 
 helm lint .
 
-**list** list releases
+## list list releases
 
 package package a chart directory into a chart archive
 
 plugin add, list, or remove Helm plugins
 
-**repo** add, list, remove, update, and index chart repositories
+## repo add, list, remove, update, and index chart repositories
 
 helm repo list
 
@@ -177,13 +157,13 @@ helm repo add bitnami <https://charts.bitnami.com/bitnami>
 
 reset uninstalls Tiller from a cluster
 
-**rollback** roll back a release to a previous revision
+## rollback roll back a release to a previous revision
 
 helm rollback dr 2
 
 helm rollback <release_name> <version_number_to_rollback_to>
 
-**search** search for a keyword in charts
+## search search for a keyword in charts
 
 helm search #show all helm charts available
 
@@ -191,7 +171,7 @@ helm search repo/hub elastic
 
 serve start a local http web server
 
-**status** displays the status of the named release
+## status displays the status of the named release
 
 helm status <release_name>
 
@@ -199,13 +179,13 @@ helm status kg
 
 helm status ke
 
-**template** locally render templates
+## template locally render templates
 
 helm template .
 
 test test a release
 
-**upgrade** upgrade a release
+## upgrade upgrade a release
 
 *helm upgrade -f values.yaml ke .*
 
@@ -213,9 +193,7 @@ verify verify that a chart at the given path has been signed and is valid
 
 version print the client/server version information
 
-
-
-**Flags:**
+## Flags:
 
 --debug enable verbose output
 
@@ -233,54 +211,38 @@ version print the client/server version information
 
 --tiller-namespace string namespace of Tiller (default "kube-system")
 
-
-
-**Completion Script**
+## Completion Script
 
 source <(helm completion bash)
 
-
-
-**Charts**
+## Charts
 
 <https://github.com/confluentinc/cp-helm-charts>
 
-
-
-**Commands**
+## Commands
 
 helm install --name=kafka --set cp-schema-registry.enabled=false,cp-kafka-rest.enabled=false,cp-kafka-connect.enabled=false,cp-zookeeper.servers=1,cp-kafka.brokers=1 confluent/cp-helm-charts
 
 helm inspect confluent/cp-helm-charts
 
-
-
-**helm list: cannot list configmaps in the namespace "kube-system"**
+## helm list: cannot list configmaps in the namespace "kube-system"
 
 kubectl create serviceaccount --namespace kube-system tiller
 kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
 kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
 helm init --service-account tiller --upgrade
 
-
-
-**# Helm dry run and debug**
+## # Helm dry run and debug
 
 helm install --set elasticsearch.spec.data-volume-size=500Gi --dry-run --debug akomljen-charts/efk
 
-
-
-**# Helm install and upgrade**
+## # Helm install and upgrade
 
 helm install --name efk -f efk/values.yaml --namespace logging akomljen-charts/efk
 
-
-
 helm upgrade efk -f efk/values.yaml --namespace logging akomljen-charts/efk
 
-
-
-**Helm3**
+## Helm3
 
 helm3 install stable/mysql --generate-name
 
@@ -294,13 +256,9 @@ helm3 install kg -f kong/values-prod.yaml stable/kong
 
 helm3 list --namespace kong
 
-
-
 helm upgrade --install redis --values k8s/redis-values-production.yaml --namespace apps bitnami/redis
 
-
-
-**Plugins**
+## Plugins
 
 helm plugin list
 
@@ -308,22 +266,14 @@ helm plugin update whatup
 
 helm plugin remove whatup
 
-
-
-**Helm Whatup**
+## Helm Whatup
 
 This is a Helm plugin to help users determine if there's an update available for their installed charts. It works by reading your locally cached index files from the chart repositories (viahelm repo update) and checking the version against the latest deployed version of your charts in the Kubernetes cluster.
 
-
-
 helm plugin install <https://github.com/bacongobbler/helm-whatup>
 
-
-
-**Command**
+## Command
 
 helm whatup
-
-
 
 DevOps Guy - <https://www.youtube.com/watch?v=5_J7RWLLVeQ>

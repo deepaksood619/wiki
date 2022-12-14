@@ -9,7 +9,7 @@ Modified: 2021-12-04 21:16:23 +0500
     -   Used to determine whether a data set is distributed a certain way (To see if the values of a data set follow a given distribution?)
     -   Usually showcases how the data fits a Normal Distribution
     -   Takes all the values a variable can take, and arranges them in accending order
-    -   ![Ordered Values 弓 8 8 1 0 8 8 8 0 ](media/Course---Time-Series-Analysis_Intro---Time-Series-image1.png)
+    -   ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image1.png)
     -   Y-axis expresses the price with highest one on top and lowest on bottom
     -   X-axis expresses theoretical quantiles of the dataset. How many standard deviations away from the mean these values are.
     -   Diagonal line shows what the data points should follow, if they are Normally Distributed
@@ -25,9 +25,7 @@ Modified: 2021-12-04 21:16:23 +0500
 -   Autocorrelation
 -   Volatility
 
-
-
-**Modeling**
+## Modeling
 -   Auto Regression (AR)
 
 Predict movements based on correlations
@@ -49,13 +47,9 @@ Account for unexpected shocks in our data
 -   **Neural Prophet**
 -   Vector Autoregression (VAR)
 
-![Series Models Traditional Time Series Machine Learning Models --- Neural Network - Catboost Regressor - Any regressor Univariate Models • ARIMA - Prophet - Neural Prophet Models Multivariate Models - Vector Autoregression ](media/Course---Time-Series-Analysis_Intro---Time-Series-image2.jpeg)
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image2.jpeg)
 
-
-
-![Traditional Models We can make predictions for tomorrow. the day after, the day after that successively and easily + Easy to Extend If we want predictions fot the next 10 days no•.v instead of Just 3 days. Just keep recursavety making predictions - Tough to get right - Can't add time varying features. Mosty true for the univariate models Machine Learning + Direct Make predictions directby depending on the horizon. + Tough to Extend Training data increases linearly as we have more horizons to predict + Easy to get right + Can add time varying variables as features ](media/Course---Time-Series-Analysis_Intro---Time-Series-image3.jpeg)
-
-
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image3.jpeg)
 
 <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python>
 
@@ -77,9 +71,7 @@ Attach larger weights to more recent observations than to observations from the 
     -   Finds linear interdependencies between multiple variables
     -   Examples - ARIMA, ARIMAX
 
-
-
-**Time-Series Data**
+## Time-Series Data
 
 A sequence of information which attaches a time period to each value
 -   Time period
@@ -93,9 +85,7 @@ A sequence of information which attaches a time period to each value
 
 There is no chronological order in cross-sectional data
 
-
-
-**Time-series variables**
+## Time-series variables
 
 X = $ S&P 500
 
@@ -103,9 +93,7 @@ T = entire period
 
 t = a single period
 
-
-
-**Pecurliarities**
+## Pecurliarities
 -   Intervals need to be identical
 -   Adjust frequency
 
@@ -117,13 +105,9 @@ Increase frequency - Approximate missing values
     -   Cannot shuffle data so cannot apply some ML models
 -   Never satisfies Gauss-Markov assumptions
 
-
-
 Why do we decide to use the dates the values were recorded as indices, as opposed to any of the other columns?
 
 Because all the other columns would automatically become time series, since there is a time period attached to each value.
-
-
 
 Setting the desired frequency
 
@@ -141,13 +125,9 @@ a - annual / yearly
 
 b - business days / weekdays
 
-
-
-**Filling the missing values**
+## Filling the missing values
 
 df_comp.spx=df_comp.spx.fillna(method='ffill')
-
-
 
 1.  Front filling: Assigns the value of the previous period.
 
@@ -161,9 +141,7 @@ fillna(method="bfill")
 
 df_comp.dax=df_comp.dax.fillna(value=df_comp.dax.mean())
 
-
-
-**White Noise**
+## White Noise
 -   A sequence of random data, where every value has a time-period associated with it.
 -   It behaves sporadically
 -   For a timeseries to satisfy as White Noise, it must satisfy 3 conditions
@@ -174,26 +152,18 @@ df_comp.dax=df_comp.dax.fillna(value=df_comp.dax.mean())
 
     3.  no aurocorrelation (no clear relationship between past and present values)
 
-
-
-**Random Walk**
+## Random Walk
 -   A special type of time-series, where values tend to persist over time and the differences between periods are simply white noise
 -   Characteristics
     -   The differences between periods are simply White Noise.
     -   The best estimator for today's values is yesterday's value
     -   The best estimator for tomorrow's value is today's value
 
-
-
 Market efficiency - Measures the level of difficulty in forecasting correct future values
-
-
 
 Arbitrage - Buy and sell commodities and make a safe profit, while the price adjusts
 
-
-
-**Stationarity**
+## Stationarity
 
 In the most intuitive sense, stationarity means that the statistical properties of a process generating a time series do not change over time. It does not mean that the series does not change over time, just that thewayit changes does not itself change over time. The algebraic equivalent is thus a linear function, perhaps, and not a constant one; the value of a linear function changes as 𝒙 grows, but thewayit changes remains constant --- it has a constant slope; one value that captures that rate of change.
 
@@ -201,49 +171,31 @@ In the most intuitive sense, stationarity means that the statistical properties 
 
 Figure 1: Time series generated by a stationary (top) and a non-stationary (bottom) processes.
 
-
-
 <https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322>
-
-
 
 1.  **Weak-form stationarity / covariance stationarity**
 
 Time-series stationarity implies taking consecutive samples of data with the same size should have identical covariances regardless of the starting point.
 
-
-
-![Covariance stationarity assumptions Constant 2 O Constant O Cov (xn, x n + k ) = Cov(x x Cov (x 1 , ](media/Course---Time-Series-Analysis_Intro---Time-Series-image5.png)
-
-
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image5.png)
 
 Covariance is correlation multiplied by standard deviations
 
-
-
 Example of covariance stationarity is White Noise:
 
-![1-1=0 2 Constant O Cov (x n, xn + k ) = Corr(xm, O O ](media/Course---Time-Series-Analysis_Intro---Time-Series-image6.png)
-
-
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image6.png)
 
 2.  **Strict Stationarity**
 
-![Strict Stationarity x S Identical distributions Dist 09 Dist 02) ](media/Course---Time-Series-Analysis_Intro---Time-Series-image7.png)
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image7.png)
 
 
 -   Rarely observed in nature, therefore stationarity = covariance stationarity
 
-
-
-**Determining Weak Form Stationarity**
+## Determining Weak Form Stationarity
 -   Dickey-Fuller test (D-F test)
 
-
-
-![Non-stationarity test statistic < critical value stationarity ](media/Course---Time-Series-Analysis_Intro---Time-Series-image8.png)
-
-
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image8.png)
 
 sts.adfuller(df.market_value)
 
@@ -256,21 +208,15 @@ sts.adfuller(df.market_value)
 '10%': -2.567077669247375},
 39904.880607487445) # estimates the maximized information criteria provided there is apparent autocorrelation
 
-
-
 # augmented df test
 
 sts.adfuller(df.rw)
-
-
 
 How do we interpret a p-value result of 0.04 as an outcome of the Augmented Dickey-Fuller test?
 
 The data in question is stationary, assuming 5% significance
 
-
-
-**Seasonality**
+## Seasonality
 
 Trends will appear on a cyclical basis
 
@@ -294,11 +240,7 @@ observed = trend + seasonal + residual
 
 observed = trend * seasonal * residual
 
-
-
 fromstatsmodels.tsa.seasonalimportseasonal_decompose
-
-
 
 s_dec_additive=seasonal_decompose(df.market_value,model="additive")
 
@@ -306,31 +248,21 @@ s_dec_additive.plot()
 
 plt.show()
 
-
-
 s_dec_multiplicative=seasonal_decompose(df.market_value,model="multiplicative")
 
 s_dec_multiplicative.plot()
 
 plt.show()
 
-
-
-**Correlation between past and present values (Autocorrelation)**
+## Correlation between past and present values (Autocorrelation)
 
 There is a correlation between the values of the time series and a lagged version of itself.
 
-
-
-**ACF - Autocorrelation Function**
+## ACF - Autocorrelation Function
 
 The relationship between past values and the current one
 
-
-
 importstatsmodels.graphics.tsaplotsassgt
-
-
 
 sgt.plot_acf(df.market_value,lags=40,zero=False)
 
@@ -338,33 +270,19 @@ plt.title("ACFS&P",size=24)
 
 plt.show()
 
-
-
 Correlation can take values between -1.0 to +1.0
-
-
 
 Blue line shows **Significance**
 
-
-
 ![Calling](media/Course---Time-Series-Analysis_Intro---Time-Series-image9.png)
 
+## PACF (Partial Autocorrelation Function)
 
-
-**PACF (Partial Autocorrelation Function)**
-
-![Direct and indirect ](media/Course---Time-Series-Analysis_Intro---Time-Series-image10.png)
-
-
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image10.png)
 
 ![Indirect ](media/Course---Time-Series-Analysis_Intro---Time-Series-image11.png)
 
-
-
-![Direct Partial Autocorrelation Function (PACF) ](media/Course---Time-Series-Analysis_Intro---Time-Series-image12.png)
-
-
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image12.png)
 
 sgt.plot_pacf(df.market_value,lags=40,zero=False,method=('ols'))
 
@@ -372,33 +290,19 @@ plt.title("PACFS&P",size=24)
 
 plt.show()
 
+## OLS - Order of Least Squares
 
+## It cancels out all additional channels a previous period value affects the present one
 
-**OLS - Order of Least Squares**
+![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image13.png)
 
-
-
-**It cancels out all additional channels a previous period value affects the present one**
-
-![PACF: X t-2 -> Xt Cancel out X t-2 -> X t-1 -> X t ACF: X t-2 -> X t-1 -> X t ](media/Course---Time-Series-Analysis_Intro---Time-Series-image13.png)
-
-
-
-**The PACF Method**
+## The PACF Method
 
 ![Calling ](media/Course---Time-Series-Analysis_Intro---Time-Series-image14.jpg)
 
-
-
-**What is the difference between the ACF and the PACF?**
+## What is the difference between the ACF and the PACF?
 
 The ACF measures the accumulated effects past lags have on the current value, while the PACFmeasures the direct effect.
-
-
-
-
-
-
 
 
 

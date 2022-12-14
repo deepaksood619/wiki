@@ -6,16 +6,16 @@ Modified: 2021-11-25 19:26:25 +0500
 
 ---
 
-**Monitoring**
+## Monitoring
 
 <https://www.percona.com/doc/percona-monitoring-and-management/index.html>
 
-**MySQL Diagnostic Manager (Monyog) - <https://www.webyog.com/product/monyog>**
+## MySQL Diagnostic Manager (Monyog) - <https://www.webyog.com/product/monyog>
 <https://www.eversql.com/top-5-mysql-monitoring-tools>
 
 ## Testing**
 
-**mysqlslap**
+## mysqlslap
 
 It's a benchmarking tool that can help DBAs and developers load test their database servers.
 mysqlslap can emulate a large number of client connections hitting the database server at the same time. The load testing parameters are fully configurable and the results from different test runs can be used to fine-tune database design or hardware resources.
@@ -23,7 +23,7 @@ mysqlslap can emulate a large number of client connections hitting the database 
 
 ## Optimizations**
 
-**MySQLTuner**
+## MySQLTuner
 
 <https://github.com/major/MySQLTuner-perl>
 
@@ -32,7 +32,7 @@ mysqlslap can emulate a large number of client connections hitting the database 
 ## Mysqlreport**
 
 Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report that provides an in-depth understanding of how well MySQL is running. mysqlreport is a better alternative (and practically the only alternative) to manually interpreting SHOW STATUS.
-**percona-toolkit**
+## percona-toolkit
 -   Verify MySQL replication integrity by checking source and replica data consistency
 -   Efficiently archive rows
 -   Find duplicate indexes
@@ -40,7 +40,7 @@ Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report t
 -   Analyze MySQL queries from logs and tcpdump
 -   Analyze MongoDB query profiler
 -   Collect vital system information when problems occur
-**brew install percona-toolkit**-   [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
+## brew install percona-toolkit-   [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
 -   [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
 -   [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
 -   [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
@@ -57,7 +57,7 @@ Read queries from a log and analyze how they use indexes.-   [pt-align](https://
 -   [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
 -   [**pt-deadlock-logger**](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html)
 
-**pt-deadlock-logger**prints information about MySQL deadlocks by polling and parsingSHOWENGINEINNODBSTATUS. When a new deadlock occurs, it's printed toSTDOUTand, if specified, saved to[--dest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html#cmdoption-pt-deadlock-logger-dest).
+## pt-deadlock-loggerprints information about MySQL deadlocks by polling and parsingSHOWENGINEINNODBSTATUS. When a new deadlock occurs, it's printed toSTDOUTand, if specified, saved to[--dest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html#cmdoption-pt-deadlock-logger-dest).
 pt-deadlock-logger -host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM-   [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
 -   [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/LATEST/pt-duplicate-key-checker.html)
 
@@ -139,15 +139,15 @@ Other popular online schema change tools, such as Percona's[pt-online-schema-cha
 Since Gh-ost operates using the binary log, it is not susceptible to the[trigger-based drawbacks](https://github.com/github/gh-ost/blob/master/doc/why-triggerless.md). Finally Gh-ost is able to effectively[throttle activity to zero events](https://github.com/github/gh-ost/blob/master/doc/interactive-commands.md#examples), allowing you to pause the schema migration for a while if your server begins to struggle, and resume when the activity bubble moves on.
 So how does Gh-ost work? By default, Gh-ost connects to a replica (slave), identifies the master, and applies the migration on the master. It receives changes on a replica to the source table in[binlog_format=ROW](https://dev.mysql.com/doc/en/binary-log-setting.html), parses the log, and converts these statements to be re-executed on the master's shadow table.It keeps track of the row counts on the replica and identifies when it is time to perform an atomic cutover (switch tables).
 
-![gh ost general flow](media/MySQL_SQL---MySQL-Tools-image1.jpg)
+![image](media/MySQL_SQL---MySQL-Tools-image1.jpg)
 
-**Gh-ost operation modes**
+## Gh-ost operation modes
 Gh-ost provides an alternative mode where you execute the migration directly on the master (whether it has slaves or not), read back the master'sbinlog_format=ROWevents, and then re-apply them to the shadow table.
 A final option is available to run the migration only on the replica without impacting the master, so you can test or otherwise validate the migration.
 
-![gh ost operation modes](media/MySQL_SQL---MySQL-Tools-image2.jpg)
+![image](media/MySQL_SQL---MySQL-Tools-image2.jpg)
 
-**Gh-ost general flow**
+## Gh-ost general flow
 Note that if your schema has foreign keys then Gh-ost may not operate cleanly, as this configuration is not supported.
 <https://github.com/github/gh-ost>
 <https://www.infoworld.com/article/3241730/top-5-open-source-tools-for-mysql-administrators.html>
@@ -162,7 +162,7 @@ InnoDB stores data using a page-allocation method and does not suffer from fragm
 -   Delete operations might leave gaps that leave pages less filled than desired, which could make it worthwhile to optimize the table.
 -   Updates to rows usually rewrite the data within the same page, depending on the data type and row format, when sufficient space is available. See Section 14.10.5, "How Compression Works for InnoDB Tables" and Section 14.12.1, "Overview of InnoDB Row Storage".
 -   High-concurrency workloads might leave gaps in indexes over time, as InnoDB retains multiple versions of the same data due through its MVCC mechanism. See Section 14.5.12, "InnoDB Multi-Versioning".
-**Orchestrator**
+## Orchestrator
 
 orchestratoris a MySQL high availability and replication management tool, runs as a service and provides command line access, HTTP API and Web interface.
 <https://github.com/openark/orchestrator>

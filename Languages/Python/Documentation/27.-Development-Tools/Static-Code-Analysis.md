@@ -24,8 +24,6 @@ Skipping
 
 # isort:skip_file
 
-
-
 # isort.cfg
 
 [settings]
@@ -38,27 +36,19 @@ include_trailing_comma = True
 
 known_third_party = celery,django,environ,pyquery,pytz,redis,requests,rest_framework
 
-
-
 3.  **pylint**
 
 Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
 
-
-
 [pylint](https://pypi.org/project/pylint/)is one of the most wide-spread linters in Python. The features of pylint for sure overlaps with Flake8, but there is one feature I love: Checking for code duplication
 
 $ pylint --disable=all --enable=duplicate-code .
-
-
 
 4.  pyflakes
 
 5.  **autoflake**
 
 autoflakeremoves unused imports and unused variables from Python code. It makes use of[pyflakes](http://pypi.python.org/pypi/pyflakes)to do this.
-
-
 
 pip install autoflake
 
@@ -70,11 +60,7 @@ autoflake -r --in-place --remove-unused-variables --remove-all-unused-imports **
 
 Mypy is an optional static type checker for Python. You can add type hints ([PEP 484](https://www.python.org/dev/peps/pep-0484/)) to your Python programs, and use mypy to type check them statically. Find bugs in your programs without even running them!
 
-
-
 You can mix dynamic and static typing in your programs. You can always fall back to dynamic typing when static typing is not convenient, such as for legacy code.
-
-
 
 <https://github.com/python/mypy>
 
@@ -82,25 +68,15 @@ You can mix dynamic and static typing in your programs. You can always fall back
 
 <https://medium.com/analytics-vidhya/type-annotations-in-python-3-8-3b401384403d>
 
-
-
 <https://sourcery.ai/blog/python-best-practices
 
-
-
-**Black**
+## Black
 
 Blackis the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return,Blackgives you speed, determinism, and freedom frompycodestylenagging about formatting. You will save time and mental energy for more important matters.
 
-
-
 Blackened code looks the same regardless of the project you're reading. Formatting becomes transparent after a while and you can focus on the content instead.
 
-
-
 Blackmakes code review faster by producing the smallest diffs possible.
-
-
 
 pip install black
 
@@ -108,53 +84,33 @@ black <file_path>
 
 black .
 
-
-
 <https://github.com/psf/black>
 
-
-
-**Pyre type-checker**
+## Pyre type-checker
 
 Pyre is a performant type checker for Python compliant with[PEP 484](https://www.python.org/dev/peps/pep-0484/). Pyre can analyze codebases with millions of lines of code incrementally -- providing instantaneous feedback to developers as they write code.
 
-
-
 Pyre ships withPysa, a security focused static analysis tool we've built on top of Pyre that reasons about data flows in Python applications.
-
-
 
 [https://pyre-check.org](https://pyre-check.org/)
 
 <https://github.com/facebook/pyre-check
 
-
-
-**pre-commit / precommit**
+## pre-commit / precommit
 
 Git hook scripts are useful for identifying simple issues before submission to code review. We run our hooks on every commit to automatically point out issues in code such as missing semicolons, trailing whitespace, and debug statements. By pointing these issues out before code review, this allows a code reviewer to focus on the architecture of a change while not wasting time with trivial style nitpicks.
 
-
-
 As we created more libraries and projects we recognized that sharing our pre-commit hooks across projects is painful. We copied and pasted unwieldy bash scripts from project to project and had to manually change the hooks to work for different project structures.
-
-
 
 We believe that you should always use the best industry standard linters. Some of the best linters are written in languages that you do not use in your project or have installed on your machine. For example scss-lint is a linter for SCSS written in Ruby. If you're writing a project in node you should be able to use scss-lint as a pre-commit hook without adding a Gemfile to your project or understanding how to get scss-lint installed.
 
-
-
 We built pre-commit to solve our hook issues. It is a multi-language package manager for pre-commit hooks. You specify a list of hooks you want and pre-commit manages the installation and execution of any hook written in any language before every commit. pre-commit is specifically designed to not require root access. If one of your developers doesn't have node installed but modifies a JavaScript file, pre-commit automatically handles downloading and building node to run eslint without root.
-
-
 
 pre-commit install
 
 pre-commit run --all-files
 
 git commit --no-verify
-
-
 
 exclude: '^$'
 
@@ -193,8 +149,6 @@ hooks:
 - id: debug-statements
 
 - id: mixed-line-ending
-
-
 
 - id: check-added-large-files
 
@@ -292,24 +246,20 @@ hooks:
 
 additional_dependencies: [black==20.8b1]
 
-
-
 <https://pre-commit.com/hooks.html>
 
 <https://pre-commit.com
 
 [**https://github.com/pre-commit/pre-commit-hooks**](https://github.com/pre-commit/pre-commit-hooks)
 
-
-
-**flake8**
+## flake8
 
 flake8 --max-line-length=88 src
 
 
 -   files that contain this line are skipped:
 
-**# flake8: noqa**
+## # flake8: noqa
 -   lines that contain a**# noqa**comment at the end will not issue warnings.
 -   you can ignore specific errors on a line with# noqa: <error>, e.g.,# noqa: E234. Multiple codes can be given, separated by comma. Thenoqatoken is case insensitive, the colon before the list of codes is required otherwise the part afternoqais ignored
 
@@ -319,8 +269,6 @@ flake8 --max-line-length=88 src
 -   C9**:McCabe complexity plugin mccabe
 -   N8**:Naming Conventions plugin pep8-naming
 
-
-
 additional_dependencies: [
 
 'flake8-isort==2.7.0',
@@ -329,9 +277,7 @@ additional_dependencies: [
 'flake8-string-format==0.2.3',
 ]
 
-
-
-**.flake8**
+## .flake8
 
 [flake8]
 
@@ -344,8 +290,6 @@ max-line-length = 119
 max-complexity = 18
 
 select = B,C,E,F,W,T4,B9,N8
-
-
 
 Here are some of the interesting flake8 plugins:
 -   [cohesion](https://github.com/mschwager/cohesion): Check if class cohesion is below a threshold. This indicates that functionality should be split out of a class.
@@ -367,17 +311,17 @@ Here are some of the interesting flake8 plugins:
 -   [pandas-vet](https://pypi.org/project/pandas-vet/): Opinionated linting for Pandas code
 -   [wemake-python-styleguide](https://pypi.org/project/wemake-python-styleguide/): An opinionated style guide/checker which seems to be pretty popular. I haven't seen that one before, though.
 
-**Security**
+## Security
 -   [flake8-bandit](https://pypi.org/project/flake8-bandit/): Security Testing
 -   [flake8-bugbear](https://pypi.org/project/flake8-bugbear/): finding likely bugs and design problems in your program --- usually it's silent, but when it's not you should have a look 🐻
 -   [flake8-requests](https://pypi.org/project/flake8-requests/): checks usage of the request framework
 
-**Flake8: Remove Debugging Artifacts**
+## Flake8: Remove Debugging Artifacts
 -   [flake8-breakpoint](https://pypi.org/project/flake8-breakpoint/)checks for forgotten breakpoints
 -   [flake8-print](https://pypi.org/project/flake8-print/)will complain about every print statement
 -   [flake8-debugger](https://pypi.org/project/flake8-debugger/),[flake8-fixme](https://pypi.org/project/flake8-fixme/),[flake8-todo](https://pypi.org/project/flake8-todo/)go in the same direction.
 
-**Let Dead Code Die**
+## Let Dead Code Die
 -   [flake8-eradicate](https://pypi.org/project/flake8-eradicate/): Find commented out (or so-called "dead") code.
 -   **[vulture](https://pypi.org/project/vulture/): Finds unused code in Python programs**
 
@@ -387,23 +331,19 @@ vulture myscript.py
 
 vulture . --exclude .history
 
-
-
 <https://github.com/jendrikseipp/vulture>
 
-
-
-**Flake8: Nudging Yourself to use Good Style**
+## Flake8: Nudging Yourself to use Good Style
 -   [flake8-comprehensions](https://pypi.org/project/flake8-comprehensions/): Helps you write better list/set/dict comprehensions --- I love this one 😍
 -   [flake8-executable](https://pypi.org/project/flake8-executable/): Check executable permissions and[shebangs](https://en.wikipedia.org/wiki/Shebang_(Unix)). Files should either executable and have a shebang, or not be executable and not have a shebang.
 -   [flake8-raise](https://pypi.org/project/flake8-raise/): Finds improvements for raise statements
 -   [flake8-pytest](https://pypi.org/project/flake8-pytest/): Use assert instead of assertEqual
 
-**Modern style Python**
+## Modern style Python
 -   [flake8-pathlib](https://pypi.org/project/flake8-pathlib/):[Pathlib](https://docs.python.org/3.4/library/pathlib.html)was added in Python 3.4 and I'm still not quite used to it. This plugin might nudge me to use it when it's appropriate.
 -   [flake8-string-format](https://pypi.org/project/flake8-string-format/),[flake8-printf-formatting](https://pypi.org/project/flake8-printf-formatting/),[flake8-sts](https://pypi.org/project/flake8-sfs/): String formatting.
 
-**Improve Flake8**
+## Improve Flake8
 -   [flake8--colors](https://pypi.org/project/flake8-colors/): ANSI colors highlight for Flake8
 -   [flake8-csv](https://pypi.org/project/flake8-csv/): Generate error reports in CSV format
 -   [flake8-json](https://pypi.org/project/flake8-json/): Generate error reports in JSON format
@@ -414,26 +354,18 @@ vulture . --exclude .history
 -   [flake8-tuple](https://pypi.org/project/flake8-tuple/): Checks for (probably) unintended one element tuples
 -   And some plugins people might need for legal reasons like flake8-author, flake8-copyright, and flake8-license.
 
-
-
-**Autoformatters**
+## Autoformatters
 -   [Prettier](https://prettier.io/docs/en/precommit.html#option-3-pre-commithttpsgithubcompre-commitpre-commit): HTML, CSS, JavaScript, GraphQL, and many more.
 -   [Clang-format](https://github.com/andrewseidl/githook-clang-format): C, C++, Java, JavaScript, Objective-C, Protobuf, C#
 -   [Rustfmt](https://github.com/doublify/pre-commit-rust): Rust
 
-
-
-**Bandit**
+## Bandit
 
 Bandit is a tool designed to find common security issues in Python code. To do this Bandit processes each file, builds an AST from it, and runs appropriate plugins against the AST nodes. Once Bandit has finished scanning all the files it generates a report.
 
-
-
 <https://pypi.org/project/bandit
 
-
-
-**Running**
+## Running
 
 isort **/*.py
 
@@ -441,25 +373,17 @@ autoflake -r --in-place --remove-unused-variables --remove-all-unused-imports **
 
 black .
 
-
-
 ![Image for post](media/27.-Development-Tools_Static-Code-Analysis-image1.png)
-
-
 
 <https://medium.com/staqu-dev-logs/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort-cac8b01e0ea1>
 
-
-
-**mypy**
+## mypy
 
 Mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.
 
 <http://mypy-lang.org>
 
-
-
-**Code Complexity**
+## Code Complexity
 -   **radon**
 
 $ pip install radon
@@ -480,11 +404,7 @@ F 141:0 s3_upload - A (1)
 
 C 77:0 ExistsStrategy - A (1)
 
-
-
 The first letter shows thetype of block(F for function, C for class). Then radon gives theline number, thenameof the class/function, agrade(A, B, C, D, E, or F), and the actualcomplexity as a number. Typically, a complexity below 10 is ok.[The most complex part of scipy](https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py#L127)has a complexity of 61.
-
-
 
 Besides radon, there are various other packages and Flake8 plugins:
 -   [flake8-annotations-complexity](https://pypi.org/project/flake8-annotations-complexity/): Nudge you to name complex types
@@ -495,20 +415,14 @@ Besides radon, there are various other packages and Flake8 plugins:
 -   [wily](https://pypi.org/project/wily/): A command-line application for tracking, reporting on the complexity of Python tests and applications.
 -   [xenon](https://pypi.org/project/xenon/): Relies on radon
 
-
-
 <https://towardsdatascience.com/static-code-analysis-for-python-bdce10b8d287>
-
-
 
 Linting & formatting - <https://realpython.com/python-pep8
 
-**Pep8 Naming Convention for files**
+## Pep8 Naming Convention for files
 -   modules (filenames) should have*short, all-lowercase names*, and they can contain underscores;
 -   packages (directories) should have*short, all-lowercase names*, preferably without underscores;
 -   classes should use the CapWords convention.
-
-
 
 <https://www.youtube.com/watch?v=4klj8UYPZxY&ab_channel=freeCodeCampTalks>
 

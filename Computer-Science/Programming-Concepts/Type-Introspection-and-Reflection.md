@@ -6,7 +6,7 @@ Modified: 2018-11-30 12:07:17 +0500
 
 ---
 
-**Type Introspection -**
+## Type Introspection -
 
 The ability of a program to examine the type or properties of an object at runtime.
 
@@ -21,7 +21,7 @@ Person p = (Person)obj;
 p.walk();
 
 }
-**Reflection -**
+## Reflection -
 
 The ability to modify object attributes at runtime.
 

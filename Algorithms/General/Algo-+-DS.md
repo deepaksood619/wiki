@@ -6,7 +6,7 @@ Modified: 2022-12-10 01:19:31 +0500
 
 ---
 
-**Algorithms**
+## Algorithms
 
 1.  Union-Find Algorithm
 
@@ -128,9 +128,7 @@ Unordered List (Sequential Search)
 
     d.  Sparse Vectors
 
-
-
-**Data Structures**
+## Data Structures
 
 1.  Undirected Graphs
 
@@ -230,29 +228,21 @@ Unordered List (Sequential Search)
 
     c.  NP-Complete
 
-
-
-**Strategies for algorithms**
+## Strategies for algorithms
 
 1.  B.U.D. (Bottleneck, Unnecessary work, Duplicated work)
 
 2.  Space / Time Tradeoffs
 
-
-
-**Resources**
+## Resources
 
 1.  Coursera - Algorithms Part 1
 
 2.  Coursera - Algorithms Part 2
 
-
-
 <https://www.toptal.com/algorithms/interview-questions>
 
-
-
-**Most Important Algos / DS / Programming Concepts**
+## Most Important Algos / DS / Programming Concepts
 
 1.  Depth first search
 
@@ -274,20 +264,14 @@ Unordered List (Sequential Search)
 
 10. **Binary search**
 
-
-
-**BUD Optimization Strategy**
+## BUD Optimization Strategy
 -   Bottlenecks
 -   Unnecessary work
 -   Duplicated work
 
-
-
 <https://4tee-learn.blogspot.com/2017/12/optimisation-technique-15-bud.html>
 
-
-
-**Questions to asking when solving a coding interview questions**
+## Questions to asking when solving a coding interview questions
 
 1.  What is the data types of the inputs?
 
@@ -300,8 +284,6 @@ Unordered List (Sequential Search)
 4.  Can we assume this fits in memory?
 
 5.  Can we use additional data structures?
-
-
 
 <https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python
 

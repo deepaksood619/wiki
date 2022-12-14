@@ -14,23 +14,17 @@ Discovery+
 
 <https://www.discoveryplus.in/show/history-of-the-world>
 
-
-
 Shift + / = shortcuts menu
 
 K = play
 
 F = full screen
 
-
-
 Constitution of India by heart
 
 Timeline world history documentaries
 
-
-
-**Channels**
+## Channels
 -   **Neha**
     -   Shark tank
     -   Think school
@@ -154,15 +148,11 @@ Timeline world history documentaries
     -   Stackoverflow developer survey
     -   ProductHunt yearly
 
-
-
-**Magazine**
+## Magazine
 -   Discover
 -   <https://time.com/collection/time100-companies-2022
 
-
-
-**Apps / Android / Play Store**
+## Apps / Android / Play Store
 -   Vocabulary Builder
 -   DeepStash
 -   Calculater the game
@@ -182,11 +172,9 @@ Timeline world history documentaries
 -   Playo
 -   Cult
 
+## Entertainment
 
-
-**Entertainment**
-
-**Family Serials / Series**
+## Family Serials / Series
 
 Satyamev Jayate
 
@@ -228,9 +216,7 @@ MegaKitchen - Hostar + Natgeo
 
 
 
-
-
-**Movie / Movies**
+## Movie / Movies
 
 A Star is born
 
@@ -273,8 +259,6 @@ Uncharted
 She hulk
 
 House of dragon
-
-
 
 Water gate bridge
 
@@ -340,9 +324,7 @@ Bewkoofiyaan
 
 Karwan
 
-
-
-**Series**
+## Series
 
 Pawan & Pooja MX series
 
@@ -405,9 +387,7 @@ Made in heaven
 
 Sherlock Holmes
 
-
-
-**Documentaries**
+## Documentaries
 
 The last dance
 
@@ -434,14 +414,10 @@ Drive to Survive
 
 Netflix - Pepsi where's my jet
 
-
-
-**Shopping sites**
+## Shopping sites
 -   Crazymonk
 
-
-
-**downloads**
+## downloads
 
 13.Hours.The.Secret.Soldiers.of.Benghazi.2016.720p.BluRay.x265.ShAaNiG
 
@@ -481,16 +457,12 @@ Badrinath Ki Dulhania (2017) Hindi 720p BluRay x264 AAC 5.1 ESubs - Downloadhub
 
 Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shadow (BonsaiHD)
 
-
-
-**Documentaries**
+## Documentaries
 -   Curiosity Stream
 -   Discovery+
 -   NatGeo
 
-
-
-**General Science**
+## General Science
 -   [Vsauce](https://www.youtube.com/user/Vsauce)(which has grown to include[Vsauce2](https://www.youtube.com/user/Vsauce2/videos)and[Vsauce3](https://www.youtube.com/user/Vsauce3))
 -   [Physics Girl](https://www.youtube.com/user/physicswoman)(fun to watch explorations of a wide range of real-world physics and science things)
 -   [**Thought Emporium**](https://www.youtube.com/user/TheChemlife)(gene editing through both chemical methods and DNA 3-d printers! And art too)
@@ -501,18 +473,14 @@ Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shad
 -   [Stratzenblitz75](https://www.youtube.com/c/Stratzenblitz75/videos)Kerbal Space program videos with nice lessons on the science behind them (like orbital mechanics)
 -   [Wendover Productions](https://www.youtube.com/user/Wendoverproductions)-- neat explanations of wide-ranging things, (including transportation logistics!)
 
-
-
-**Inventions and Building Stuff**
+## Inventions and Building Stuff
 -   [Colin Furze](https://www.youtube.com/user/colinfurze)-- crazy, energetic, brilliant videos about building things like a home-made hoverbike, two story bicycle, giant mech robot suit.
 -   [Simone Giertz](https://www.youtube.com/channel/UC3KEoMzNz8eYnwBC34RaKCQ)-- a super clever and witty engineer/builder, perhaps most famous for her DIY conversion of a Tesla model 3 into a badass mini pickup truck.
 -   [Wintergatan](https://www.youtube.com/user/wintergatan2000)-- a hauntingly genius, gentle dude in Sweden who works on a beautiful "marble machine" musical instrument and so many other things. Awesome musician too!
 -   [Mark Rober](https://www.youtube.com/user/onemeeeliondollars)(a former Nasa engineer who now makes really fun videos about his complicated and whimsical inventions -- best known for the "glitter bomb" anti-theft devices)
 -   [Styropyro](https://www.youtube.com/user/styropyro)(guy who makes crazy powerful lasers, etc.)
 
-
-
-**Video creation, 3D Animation and Youtubing Strategy**
+## Video creation, 3D Animation and Youtubing Strategy
 -   [Lazy Tutorials](https://www.youtube.com/user/mrdodobird)(Ian Huber teaches you 3-D animation with Blender at the speed of thought). He also maintains the[Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ)channel.
 -   [Blender Guru](https://www.youtube.com/user/AndrewPPrice)-- personable, easy to watch in-depth blender tutorials
 -   [CG Matter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg)-- fast, advanced Blender tutorials
@@ -521,18 +489,14 @@ Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shad
 -   [Daniel Krafft](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw)-- useful blender tips and tutorials
 -   [Iridesium](https://www.youtube.com/channel/UCsVG9hd6Dqdj7lP-YPIgCjg)-- tutorials on how to create[movie-quality](https://www.youtube.com/watch?v=mXnp_KIo8q8&ab_channel=Iridesium)special effects in Blender
 
-
-
-**Coding and Artificial Intelligence**
+## Coding and Artificial Intelligence
 -   [Two Minute Papers](https://www.youtube.com/user/keeroyz)(AI) -- super smart guy summarizes academic papers in the Artificial Intelligence field in a really interesting and easy to understand way, with visual examples.
 -   [Code Bullet (AI)](https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q)-- Software developer incorporates machine learning/AI into his own code and demonstrates the results in a wide variety of contexts.
 -   [Carykh](https://www.youtube.com/user/carykh)-- AI and building some interesting apps including the famous "size of the universe" interactive
 -   [Sebastian Lague](https://www.youtube.com/user/Cercopithecan)-- The Bob Ross of coding, this young gentleman walks us peacefully through a fun series of iterative improvements on a variety of advanced programming projects.
 -   [CodeParade](https://www.youtube.com/results?search_query=code+parade)-- great bits of coding, math, and graphics combined
 
-
-
-**Math**
+## Math
 -   [Vi Hart](https://www.youtube.com/user/Vihart)-- the original "Mathemusician", Vi's soulfully brilliant explanations of math concepts are great for small kids and adults alike.
 -   [Zach Star](https://www.youtube.com/channel/UCpCSAcbqs-sjEVfk_hMfY9w)-- math puzzles and other interesting stuff
 -   [Numberphile](https://www.youtube.com/results?search_query=numberphile)-- another fun math channel -- sometimes with fun visuals and special guest experts.
@@ -540,22 +504,16 @@ Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shad
 -   Standup math
 -   Looking glass universe
 
-
-
-**History, English, Etc.**
+## History, English, Etc.
 -   [Tom Scott](https://www.youtube.com/user/enyay)-- Linguistics and various travel and geography stories
 -   [History of the Earth](https://www.youtube.com/channel/UC_aOteuWIY8ITg7DQQspG1g)-- the History Brothers cover multimillion year periods of our planet's history
 -   [Half as Interesting](https://www.youtube.com/channel/UCuCkxoKLYO_EQ2GeFtbM_bw)-- light-hearted tidbids of English history and other things
 
-
-
-**Making Youtube content**
+## Making Youtube content
 -   On-Time content
 -   Timeless content
 
-
-
-**Podcast / Podcasts**
+## Podcast / Podcasts
 -   **Tech**
     -   **SE Daily**
     -   **Software Engineering Daily**
@@ -591,16 +549,12 @@ Tim Ferris show
 
 
 
-
-
 <https://www.freecodecamp.org/news/best-tech-podcasts-for-software-developers
 
 <https://blog.trello.com/podcasts-every-leader-should-listen-to>
 
 Indian History - <https://www.anirudhkanisetti.com/podcasts>
 
-
-
-**Newsletter**
+## Newsletter
 
 Not Boring by Packy McCormick - <https://www.notboring.co

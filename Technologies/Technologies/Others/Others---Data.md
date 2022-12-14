@@ -6,23 +6,17 @@ Modified: 2020-07-17 12:47:48 +0500
 
 ---
 
-**Data Hub**
+## Data Hub
 
 Data Discovery and Lineage for Big Data Ecosystem
-
-
 
 <https://github.com/linkedin/WhereHows/tree/datahub>
 
 <https://engineering.linkedin.com/blog/2019/data-hub>
 
-
-
-**Dagster**
+## Dagster
 
 Dagster is a system for building modern data applications. Combining an elegant programming model and beautiful tools, Dagster allows infrastructure engineers, data engineers, and data scientists to seamlessly collaborate to process and produce the trusted, reliable data needed in today's world.
-
-
 
 Data applications built with Dagster will have the following properties:
 -   Queryable, operable, and monitor-able by tools through an API.
@@ -37,8 +31,6 @@ Data applications built with Dagster will have the following properties:
 -   A typed configuration system, which enables high-quality error messages and tooling support, such as the config editor provided within Dagit.
 -   Targets existing computational infrastructure --- e.g. Kubernetes, Airflow, Dask, FaaS platforms, etc--- for scheduling and execution in a pluggable fashion. Airflow and Dask initially supported.
 
-
-
 <https://dagster.readthedocs.io/en/0.6.6
 
 <https://medium.com/dagster-io/introducing-dagster-dbd28442b2b7>
@@ -47,49 +39,31 @@ Data applications built with Dagster will have the following properties:
 
 [Dagster: A New Programming Model for Data Processing | Elementl](https://www.youtube.com/watch?v=D_1VJapCscc)
 
-
-
 ![WHAT νιουιο:Υ0ΙΙβΑΥ yovoo ](../../media/Technologies-Others-Others---Data-image1.jpg)
 
-
-
-**Dremel**
+## Dremel
 
 Dremel is a scalable, interactive ad-hoc query system for analysis of read-only nested data. By combining multi-level execution trees and columnar data layout, it is capable of running aggregation queries over trillion-row tables in seconds. The system scales to thousands of CPUs and petabytes of data, and has thousands of users at Google.
 
-
-
 <https://ai.google/research/pubs/pub36632>
 
+## Dremio - The missing link in data lakes
 
-
-**Dremio - The missing link in data lakes**
-
-
-
-**Talend**
+## Talend
 
 <https://www.talend.com
 
 <https://www.youtube.com/watch?v=bqa0kB59SUc>
 
-
-
-**DVC**
+## DVC
 
 [DVC](https://dvc.org/)stands for "data version control". This project invites data scientists and engineers to a Git-inspired world, where all workflow versions are tracked, along with all the data artifacts and models, as well as associated metrics.
 
-
-
 <https://dvc.org
 
-
-
-**DBT**
+## DBT
 
 Analytics engineering is the data transformation work that happens between loading data into your warehouse and analyzing it. dbt allows anyone comfortable with SQL to own that workflow.
-
-
 
 <https://www.getdbt.com
 

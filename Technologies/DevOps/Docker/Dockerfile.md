@@ -8,19 +8,13 @@ Modified: 2021-03-14 16:08:40 +0500
 
 Creating portable images
 
-
-
 Dockerfiledefines what goes on in the environment inside your container. Access to resources like networking interfaces and disk drives is virtualized inside this environment, which is isolated from the rest of your system, so you need to map ports to the outside world, and be specific about what files you want to "copy in" to that environment. However, after doing that, you can expect that the build of your app defined in thisDockerfilebehaves exactly the same wherever it runs.
 
-
-
-**Docker build command**
+## Docker build command
 
 docker build -t friendlyhello .
 
-
-
-**Best Practices for writing Dockerfiles**
+## Best Practices for writing Dockerfiles
 
 1.  Create ephemeral containers
 
@@ -42,9 +36,7 @@ docker build -t friendlyhello .
 
 10. Leverage build cache
 
-
-
-**Dockerfile instructions**
+## Dockerfile instructions
 
 1.  FROM
 
@@ -76,15 +68,9 @@ ARG ZENALYTIX_DEV prod
 
 ADD logger.py logger.py
 
+## COPYtakes in asrcanddestination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself.
 
-
-**COPY**takes in asrcanddestination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself.
-
-
-
-**ADD**lets you do that too, but it also supports 2 other sources. First, you can use a URL instead of a local file / directory. Secondly, you can extract a tar file from the source directly into the destination
-
-
+## ADDlets you do that too, but it also supports 2 other sources. First, you can use a URL instead of a local file / directory. Secondly, you can extract a tar file from the source directly into the destination
 
 9.  ENTRYPOINT
 
@@ -104,27 +90,19 @@ ADD logger.py logger.py
 
 -   Shell & Exec form
 
-
-
 <http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint
 
 <https://docs.docker.com/develop/develop-images/dockerfile_best-practices
 
 <https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices
 
-
-
-**Advanced**
+## Advanced
 
 <https://www.docker.com/blog/advanced-dockerfiles-faster-builds-and-smaller-images-using-buildkit-and-multistage-builds
 
 <https://sysdig.com/blog/dockerfile-best-practices
 
-
-
 [Building Small Containers (Kubernetes Best Practices)](https://www.youtube.com/watch?v=wGz_cbtCiEA)
-
-
 
 ![Kubernetes Best Practices Building small containers ](../../media/DevOps-Docker-Dockerfile-image1.jpg)
 

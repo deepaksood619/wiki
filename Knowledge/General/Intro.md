@@ -12,11 +12,7 @@ h
 
 Knowledge can refer to a[theoretical](https://en.wikipedia.org/wiki/Theoretical)or[practical](https://en.wikipedia.org/wiki/Practical)understanding of a subject. It can be implicit (as with practical skill or expertise) or explicit (as with the theoretical understanding of a subject); it can be more or less formal or systematic.
 
-
-
 In[philosophy](https://en.wikipedia.org/wiki/Philosophy), the study of knowledge is called**[epistemology](https://en.wikipedia.org/wiki/Epistemology)**; the philosopher [Plato](https://en.wikipedia.org/wiki/Plato)famously defined knowledge as "[justified true belief](https://en.wikipedia.org/wiki/Justified_true_belief)", though this definition is now thought by some analytic philosophersto be problematic because of the[Gettier problems](https://en.wikipedia.org/wiki/Gettier_problem), while others defend the platonic definition.However, several definitions of knowledge and theories to explain it exist.
-
-
 
 Knowledge acquisition involves complex[cognitive](https://en.wikipedia.org/wiki/Cognition)processes:[perception](https://en.wikipedia.org/wiki/Perception),[communication](https://en.wikipedia.org/wiki/Communication), and[reasoning](https://en.wikipedia.org/wiki/Reasoning); while knowledge is also said to be related to the capacity ofacknowledgementin human beings.
 
@@ -26,47 +22,31 @@ Knowledge acquisition involves complex[cognitive](https://en.wikipedia.org/wiki/
 -   Partial knowledge
 -   Scientific knowledge
 
-
-
-**STEM - Science, Technology, Engineering and Mathematics**
-
-
+## STEM - Science, Technology, Engineering and Mathematics
 
 References
 
 <https://en.wikipedia.org/wiki/Knowledge>
 
-
-
-**Magazines and Editorials**
+## Magazines and Editorials
 
 ACM Queue
 
+## Home Economics
 
+## Home economics,domestic scienceorhome scienceis a field of studythat deals with the relationship between individuals, families, communities, and the environment in which they live.
 
-**Home Economics**
-
-**Home economics,domestic scienceorhome science**is a field of studythat deals with the relationship between individuals, families, communities, and the environment in which they live.
-
-
-
-**Maid**
+## Maid
 
 1.  Clean home daily
 
-
-
 <https://en.wikipedia.org/wiki/Home_economics>
 
-
-
-**UPSC**
+## UPSC
 
 PUBAD - Public Administration
 
 PSIR - Political Science & International Relations
-
-
 
 [UPSC Prelims 2022 Hacks | Mnemonics & Mindmaps | International Organisations](https://youtu.be/t08_LW_Du_U)
 -   JUICE with GF
@@ -75,8 +55,6 @@ PSIR - Political Science & International Relations
 
 -   GURU JI SITA AB SSC FCI ME job karti hai
 -   SIR'S BEAUTIFU_ MAGICS Just C
-
-
 
 [UPSC Prelims 2022 Hacks | Mnemonics & Mindmaps | Important Water Bodies](https://youtu.be/xZAmmOQwSRc)
 
@@ -92,14 +70,10 @@ Episode 8 - [UPSC Prelims 2022 Hacks | Mnemonics & Mindmaps | Indian Polity](htt
 
 Complete M Laxmikanth Polity in 100 Parts by Dr Sidharth Arora Crack UPSC CSEIAS 20212223
 
+## Books
 
+![image](media/Intro-image1.jpeg)
 
-**Books**
-
-![-In T CIVICS Foreign Policy India Constitution Political Theory POLICY POLITICAL THEORY Ibeas Conce THEORY CENTRAL"? l', Budgets An ArWysis Intro±ction to the Constitution GRAMMAR OF POLITICS ](media/Intro-image1.jpeg)
-
-
-
-![دها :•in* ا؟ ؤ ](media/Intro-image2.jpeg)
+![image](media/Intro-image2.jpeg)
 
 

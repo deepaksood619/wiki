@@ -10,8 +10,6 @@ Sort items in a list in alphabetical order, or reverse alphabetical order.
 
 lowercase and uppercase letters may affect the sort order.
 
-
-
 1.  sort() method
 
 Changes the order of a list permanently
@@ -19,8 +17,6 @@ Changes the order of a list permanently
 lst.sort()
 
 lst.sort(reverse=True)
-
-
 
 2.  sorted() function
 
@@ -30,21 +26,15 @@ print(sorted(lst))
 
 print(sorted(lst, reverse=True))
 
-**Guarenteed to be stable**
-
-
+## Guarenteed to be stable
 
 3.  Reversing the order of a list
 
 lst.reverse()
 
-
-
 4.  2-D list sort with given column
 
 students.sort(key=lambda x:x[1])
-
-
 
 5.  Sorting a dictionary with value in descending order and if equal sort by key in ascending order
 
@@ -52,11 +42,7 @@ students.sort(key=lambda x:x[1])
 
 >>> {k:v for k, v in sorted(dic.items(), key=lambda item: (-item[1], item[0]))}
 
-
-
 {'z': 5, 'a': 2, 'b': 2}
-
-
 
 6.  Custom sorting with key=
 
@@ -68,9 +54,7 @@ strs = ['ccc', 'aaaa', 'd', 'bb']
 
 print sorted(strs, key=len) ## ['d', 'bb', 'ccc', 'aaaa']
 
-![calling sorted with key=len](media/Sorting-image1.png)
-
-
+![image](media/Sorting-image1.png)
 
 As another example, specifying "str.lower" as the key function is a way to force the sorting to treat uppercase and lowercase the same:
 
@@ -78,13 +62,11 @@ As another example, specifying "str.lower" as the key function is a way to force
 
 print sorted(strs, key=str.lower) ## ['aa', 'BB', 'CC', 'zz']
 
-**You can also pass in your own MyFn as the key function, like this:**
+## You can also pass in your own MyFn as the key function, like this:
 
 ## Say we have a list of strings we want to sort by the last letter of the string.
 
 strs = ['xc', 'zb', 'yd' ,'wa']
-
-
 
 ## Write a little function that takes a string, and returns its last letter.
 
@@ -94,11 +76,7 @@ def MyFn(s):
 
 return s[-1]
 
-
-
 ## Now pass key=MyFn to sorted() to sort by the last letter:
 
 print sorted(strs, key=MyFn) ## ['wa', 'zb', 'xc', 'yd']
-
-
 

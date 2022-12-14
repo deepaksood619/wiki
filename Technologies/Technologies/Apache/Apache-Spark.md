@@ -8,11 +8,7 @@ Modified: 2021-11-09 21:18:25 +0500
 
 Spark is a general purpose distributed data processing engine. Or in other words: load big data, do computations on it in a distributed way, and then store it.
 
-
-
 Spark supports both Scala & Python. Even though Spark itself is written in Scala, I recommend you to use Python for your Spark jobs, as it is vastly more popular among Spark users (many data scientists use Python). It will be far easier for you to find documentation and get your question answered online.
-
-
 
 The basic structure of a Spark-cluster:
 
@@ -24,28 +20,20 @@ The driver program is a Java, Scala, or Python application, which is executed on
 
 As part of the program, some Spark framework methods will be called, which themselves are executed on the worker nodes.
 
-
-
 Each worker node might run multiple executors (as configured: normally one per available CPU core). Each of the executors will receive a task from the scheduler to be executed.
-
-
 
 The modules of Apache Spark run directly on top of its core:
 
 ![Apache Spark with one layer above it consisting of modules Spark SQL, Spark Streaming, MLlib (machine learning), and GraphX (graph).](../../media/Technologies-Apache-Apache-Spark-image2.png)
 
-
-
-**Spark Abstractions & Concepts**
+## Spark Abstractions & Concepts
 -   RDD: Resilient Distributed Dataset (Immutable)
 -   DAG: Directed Acyclic Graph
 -   SparkContext
 -   Transformations
 -   Actions
 
-
-
-**Spark Memory Management**
+## Spark Memory Management
 
 Two types of memory
 -   Execution
@@ -55,28 +43,20 @@ Memory used for shuffles, joins, sorts and aggregations
 
 Memory used to cache data that will be reused later
 
-
-
 <https://www.youtube.com/watch?v=dPHrykZL8Cg>
 
-
-
-**Table of contents**
+## Table of contents
 -   Framework of spark
 -   Resilient Distributed Datasets (RDDs)
 -   Spark execution
 
-
-
-**Need of Spark**
+## Need of Spark
 -   Apache Spark is a big data analytics framework that was originally developed at the University of California, Berkely's AMPLab, in 2012.
 -   It is an another system for big data analytics
 -   Isn't MapReduce good enough?
     -   Simplifies batch processing on large commodity clusters
 
-
-
-**Spark Applications**
+## Spark Applications
 -   Twitter spam classification
 -   EM algorithm for traffic prediction
 -   K-means clustering
@@ -84,15 +64,11 @@ Memory used to cache data that will be reused later
 -   In-memory OLAP aggregation on Hive data
 -   SQL on Spark
 
-
-
-**Reading material**
+## Reading material
 -   Matei Zaharia, Mosharaf Chowdhury - Spark: Cluster Computing with Working Sets
 -   Matei Zaharia - Resilient Distributed Datasets: A fault-tolerant abstraction for in-memory cluster computing
 
-
-
-**DAG**
+## DAG
 -   Action
     -   Count
     -   Take
@@ -103,20 +79,16 @@ Memory used to cache data that will be reused later
     -   GroupByKey
     -   JoinByKey
 
-
-
 # Spark Implementation
 
-**Spark ideas**
+## Spark ideas
 -   Expressive computing system, not limited to map-reduce model
 -   Facilitate system memory
     -   avoid saving intermediate results to disk
     -   cache data for repetitive queries. (e.g. for machine learning)
 -   Compatible with Hadoop
 
-
-
-**RDD abstraction**
+## RDD abstraction
 -   Partitioned collection of records
 -   Spread across the cluster
 -   Read-only
@@ -124,9 +96,7 @@ Memory used to cache data that will be reused later
     -   different storage levels available
     -   fallback to disk possible
 
-
-
-**RDD operations**
+## RDD operations
 -   Transformations to build RDDs through deterministic operations on other RDDs
     -   transformations include map, filter, join
     -   lazy operation
@@ -134,17 +104,13 @@ Memory used to cache data that will be reused later
     -   actions include court, collect, save
     -   triggers execution
 
-
-
-**Available APIs**
+## Available APIs
 -   You can write in Java, Scala or Python
 -   Interactive interpreter: Scala & Python only
 -   Standalone applications: any
 -   Performance: Java & Scala are faster thanks to static typing
 
-
-
-**Commands**
+## Commands
 
 spark-shell # run scala spark interpreter
 
@@ -152,23 +118,17 @@ pyspark # python interpreter
 
 spark-submit --master local --class GvaWeather target/scala-2.10/gva-weather_2.10-1.0.jar #job submission
 
-
-
-**Summary**
+## Summary
 -   Concept not limited to single pass map-reduce
 -   Avoid sorting intermediate results on disk or HDFS
 -   Speedup computations when reusing datasets
 
-
-
-**Conclusion**
+## Conclusion
 -   RDDs provide a simple and efficient programming model
 -   Generalized to a broad set of applications
 -   Leverages coarse-grained nature of parallel algorithms for failure recovery
 
-
-
-**Apache Spark (Core)**
+## Apache Spark (Core)
 
 Spark consists of a core framework that manages the internal representation of data, including:
 -   serialization
@@ -178,23 +138,13 @@ Spark consists of a core framework that manages the internal representation of d
 -   automatic retries
 -   data exchange (shuffling) between worker nodes
 
-
-
 It also provides a bunch of methods to transform data (likemapandreduce). All of these methods work on **resilient distributed datasets (RDD).**
-
-
 
 Spark automatically recognizes dependencies between single steps and thereby knows which of them can be executed in parallel.
 
-
-
 This is accomplished by building a directed acyclic graph (DAG), which also implies that transformations are not executed right away, but when action functions are called.
 
-
-
 So basically, the methods can be divided into two types: RDD transformations and actions.
-
-
 
 These are RDD transformations:
 -   map(func)
@@ -211,8 +161,6 @@ These are RDD transformations:
 -   join()
 -   coalesce()
 
-
-
 And these are RDD actions:
 -   count()
 -   collect()
@@ -224,45 +172,29 @@ And these are RDD actions:
 -   aggregate()
 -   foreach()
 
-
-
 The DAG of a running job can be viewed in the Spark UI web interface. It also shows the pending jobs, the lists of tasks, and current resource usage and configuration.
-
-
 
 Most of the information can also be reviewed for finished (or failed) jobs if the history server is configured.
 
-
-
-**Spark SQL**
+## Spark SQL
 
 This is an abstraction of Spark's core API. Whereas the core API works with RDD, and all transformations are defined by the developer explicitly, Spark SQL represents the RDD as so-called DataFrames. The DataFrame API is more like a DSL that looks like SQL.
 
-
-
 The developer can even more abstract the RDD by registering a DataFrame as a named in-memory table. This table can then be queried as one would query a table in a relational database using SQL.
 
-
-
-**Spark Streaming**
+## Spark Streaming
 
 This can poll distributed logs like Apache Kafka or Amazon Kinesis (and some other messaging systems, like ActiveMQ) to process the messages in micro-batches. (Nearly) all functionality available for Spark batch jobs can also be applied on the RDD provided by Spark Streaming.
 
-
-
-**MLlib**
+## MLlib
 
 MLlib provides high-level algorithms that are commonly used in general data analysis (like clustering and regression) and in machine learning. It provides the functionality to define pipelines, train models and persist them, and read trained models to apply them to live data.
 
-
-
-**GraphX**
+## GraphX
 
 This lets you represent RDD as a graph (nodes are connected via edges) and perform some basic graph operations on it. Currently (only) three more advanced algorithms are provided: PageRank, ConnectedComponents, andTriangleCounting.
 
-
-
-**Compare Spark Streaming to Kafka Streams and Flink. Highlight the differences and advantages of each technology, and for which use cases each of the stream processing frameworks works best.**
+## Compare Spark Streaming to Kafka Streams and Flink. Highlight the differences and advantages of each technology, and for which use cases each of the stream processing frameworks works best.
 
 The following table gives an overview of some characteristics of each of the frameworks. There is not always a clear answer of when to use which framework. Especially since it's often in unimportant details where they differ.
 
@@ -287,64 +219,48 @@ But it's important to understand:
 | Low latency                                   | Yes                                                                                                                                                                       | Yes                                                                                                          | No                                                                                                        |
 | Example of when to choose as stream processor | Setup of a new event-driven architecture that needs advanced stream-processing features and has low-latency requirements                                                  | JVM application that should consume an existing Kafka event stream                                           | Add stream processing when Spark is already used for batch processing and low latency is not mandatory    |
 
-
-
-**Apache Spark**
+## Apache Spark
 -   Apache Spark is a lightning-fast cluster computing technology, designed for fast computation.
 
-
-
-**Spark Streaming**
+## Spark Streaming
 -   Spark Streaming is an extension of the core Spark API that enables scalable, high-throughput, fault-tolerant stream processing of live data streams.
 -   Streaming data inputs from HDFS, Kafka, Flume, TCP sockets, kinesis, etc
 -   Spark ML (Machine Learning) functions and GraphX graph processing algorithms are fully applicable to streaming data
 
 ![Kafka Flume HDFS/S3 Kinesis Twitter input data stream Spork Streaming Databases Dashboards batches of processed data Spark Streaming batches of input data Spark Engine ](../../media/Technologies-Apache-Apache-Spark-image3.jpg)
 
-**Spark MLlib**
+## Spark MLlib
 -   Spark MLlib is a distributed machine-learning framework on top of Spark. Core
 -   MLlib is Spark's scalable machine learning library consisting of common learning algorithms and utilities, including classfication, regression, clustering, collaborative filtering, dimensionality reduction
 
-
-
-**Spark MLlib Component**
+## Spark MLlib Component
 
 ![Algorithms Classification Regression • Clustering • Collaborative Filtering Featurization • Extraction • Transformation Pipeline Constructing • • Evaluating • Tuning Persistence • Utilities • Linear algebra Statistics • ](../../media/Technologies-Apache-Apache-Spark-image4.jpg)
 
-**Spark GraphX**
+## Spark GraphX
 -   GraphX is a new component in Spark for graphs and graph-parallel computation. At a high level, GraphX extends the Spark RDD by introducing a new graph abstraction
 -   GraphX reuses Spark RDD concept, simplifies graph analytics tasks, provides the ability to make operations on a directed multigraph with properties attached to each vertex and edge
 -   GraphX is a thin layer on top of the Spark general-purpose dataflow framework
 
 ![PageRank Connected K-core (20) Comp.(20) (60) Triangle Count GAS API (34) (50) Gra hX ,500 spark (30,000) IDA SVD++ (220) (110) ](../../media/Technologies-Apache-Apache-Spark-image5.jpg)
 
-
-
-**pyspark**
+## pyspark
 
 docker run -p 8888:8888 jupyter/pyspark-notebook
-
-
 
 <https://realpython.com/pyspark-intro
 
 <https://www.datacamp.com/community/blog/big-data-with-pyspark>
 
-
-
 <http://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html>
 
 <https://towardsdatascience.com/natural-language-processing-with-spark-9efef3564270>
 
-
-
-**Spark UI**
+## Spark UI
 
 <https://spark.apache.org/docs/3.0.0-preview/web-ui.html>
 
-
-
-**References**
+## References
 
 <https://www.toptal.com/spark/interview-questions>
 
@@ -359,8 +275,6 @@ docker run -p 8888:8888 jupyter/pyspark-notebook
 <https://towardsdatascience.com/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427>
 
 <https://www.freecodecamp.org/news/use-pyspark-for-data-processing-and-machine-learning
-
-
 
 
 

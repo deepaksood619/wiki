@@ -6,9 +6,7 @@ Modified: 2019-12-29 01:57:36 +0500
 
 ---
 
-![JVM Architecture Diagram](media/JVM-Architecture-image1.png)
-
-
+![image](media/JVM-Architecture-image1.png)
 
 JVM is divided into three main subsystems
 
@@ -17,8 +15,6 @@ JVM is divided into three main subsystems
 2.  Runtime Data Area
 
 3.  Execution Engine
-
-
 
 1.  Class Loader Subsystem
 
@@ -48,8 +44,6 @@ The aboveClass Loaderswill followDelegation Hierarchy Algorithmwhile loading the
 
 This is the final phase of Class Loading, here all[static variable](https://www.javainterviewpoint.com/use-of-static-keyword-in-java/)will be assigned with theoriginal values and[static block](https://www.javainterviewpoint.com/java-static-import/)will be executed.
 
-
-
 2.  Runtime Data Area
 
 Runtime Data Area is divided into 5 major components
@@ -70,8 +64,6 @@ Runtime Data Area is divided into 5 major components
 
 5.  Native Method stacks-- Native Method Stack holds native method information. For every thread, separate native method stack will be created.
 
-
-
 3.  Execution Engine
 
 The bytecode which is assigned to theRuntime Data Areawill be executed by the Execution Engine. The Execution Engine reads the byte code and executes one by one.
@@ -90,28 +82,18 @@ b.  JIT Compiler-- JIT Compiler neutralizes the disadvantage of the Interpreter 
 
 c.  Garbage Collector: Garbage Collector is a part of Execution Engine, it collects/removes the unreferenced objects. Garbage Collection can be triggered by calling"System.gc()", but the execution is not guaranteed.Garbage collector of JVM collects only those objects that are created bynewkeyword. So if you have created any object withoutnew, you can usefinalize methodto perform cleanup.
 
-
-
 <https://www.javainterviewpoint.com/java-virtual-machine-architecture-in-java
 
+## Java Native Interface (JNI): JNIwill be interacting with theNative Method Librariesand provides the Native Libraries required for the Execution Engine.
 
+## Native Method Libraries:It is aCollection of the Native Libraries which isrequired for the Execution Engine.
 
-**Java Native Interface (JNI):** JNIwill be interacting with theNative Method Librariesand provides the Native Libraries required for the Execution Engine.
-
-
-
-**Native Method Libraries:**It is aCollection of the Native Libraries which isrequired for the Execution Engine.
-
-
-
-**Z Garbage Collector (Introduced in Java 11)**
+## Z Garbage Collector (Introduced in Java 11)
 
 The Z Garbage Collector, also known asZGC, is ascalablelow latency garbage collector designed to meet the following goals:
 -   Pause timesdo notexceed10ms
 -   Pause timesdo notincrease with the heap or live-set size
 -   Handle heaps ranging from afew hundred megabytestomulti terabytesin size
-
-
 
 At a glance, ZGC is:
 -   Concurrent
@@ -121,11 +103,7 @@ At a glance, ZGC is:
 -   Using colored pointers
 -   Using load barriers
 
-
-
 At its core, ZGC is aconcurrentgarbage collector, meaning all heavy lifting work is done whileJava threads continue to execute. This greatly limits the impact garbage collection will have on your application's response time.
-
-
 
 <https://wiki.openjdk.java.net/display/zgc/Main>
 

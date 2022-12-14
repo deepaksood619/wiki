@@ -17,29 +17,19 @@ r.text
 
 r.json()
 
-
-
 payload = {'cust_id': cust_id}
 
 resp = requests.get('http://localhost/score', params=payload, timeout=1)
 
 
 
-
-
-**With Query String**
+## With Query String
 
 import requests
 
-
-
 url = "<https://desk.zoho.com/api/v1/tickets/search>"
 
-
-
 querystring = {"ticketNumber":"1532"}
-
-
 
 headers = {
 
@@ -49,34 +39,20 @@ headers = {
 
 }
 
-
-
 response = requests.request("GET", url, headers=headers, params=querystring)
-
-
 
 response = requests.post(url, headers=headers, data=dict_obj)
 
 response = requests.post(url, headers=headers, json=json_obj)
 
-
-
 print(response.text)
-
-
 
 <https://julien.danjou.info/python-and-fast-http-clients
 
-
-
-**httpx**
+## httpx
 
 HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
 
-
-
 <https://github.com/encode/httpx>
-
-
 
 <https://www.youtube.com/watch?v=m_a0fN48Alw>

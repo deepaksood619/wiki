@@ -6,15 +6,13 @@ Modified: 2021-06-27 20:38:26 +0500
 
 ---
 
-**Network Processors**
+## Network Processors
 
 A**network processor**is an[integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit)which has a feature set specifically targeted at the[networking](https://en.wikipedia.org/wiki/Computer_networking)application domain.
 
 Network processors are typically[software](https://en.wikipedia.org/wiki/Software)programmable devices and would have generic characteristics similar to general purpose[central processing units](https://en.wikipedia.org/wiki/Central_Processing_Unit)that are commonly used in many different types of equipment and products.
 
-
-
-**Functions**
+## Functions
 
 In the generic role as a packet processor, a number of optimised features or functions are typically present in a network processor, these include:
 -   Pattern matching - the ability to find specific patterns of bits or bytes within packets in a packet stream.
@@ -25,9 +23,7 @@ In the generic role as a packet processor, a number of optimised features or fun
 -   Control processing - the micro operations of processing a packet are controlled at a macro level which involves communication and orchestration with other nodes in a system.
 -   Quick allocation and re-circulation of packet buffers.
 
-
-
-**Architectural Paradigms**
+## Architectural Paradigms
 
 In order to deal with high data-rates, several architectural paradigms are commonly used:
 -   [Pipeline](https://en.wikipedia.org/wiki/CPU_pipeline)of processors - each stage of the pipeline consisting of a processor performing one of the functions listed above.
@@ -37,37 +33,25 @@ In order to deal with high data-rates, several architectural paradigms are commo
 
 Additionally, traffic management, which is a critical element in[L2](https://en.wikipedia.org/wiki/OSI_model#Layer_2:_data_link_layer)-[L3](https://en.wikipedia.org/wiki/OSI_model#Layer_3:_network_layer)network processing and used to be executed by a variety of co-processors, has become an integral part of the network processor architecture, and a substantial part of its silicon area ("real estate") is devoted to the integrated traffic manager.Modern network processors are also equipped with low-latency high-throughput on-chip interconnection networks optimized for the exchange of small messages among cores (few data words). Such networks can be used as an alternative facility for the efficient inter-core communication aside of the standard use of shared memory.
 
-
-
 <https://en.wikipedia.org/wiki/Network_processor>
 
-
-
-**Coprocessor**
+## Coprocessor
 
 Acoprocessoris a computer processor used to supplement the functions of the primary processor (the[CPU](https://en.wikipedia.org/wiki/Central_processing_unit)). Operations performed by the coprocessor may be[floating point](https://en.wikipedia.org/wiki/Floating_point)arithmetic,[graphics](https://en.wikipedia.org/wiki/Graphics),[signal processing](https://en.wikipedia.org/wiki/Signal_processing),[string processing](https://en.wikipedia.org/wiki/String_processing),[cryptography](https://en.wikipedia.org/wiki/Cryptographic_accelerator)or[I/O interfacing](https://en.wikipedia.org/wiki/Input/output#Interface)with peripheral devices. By offloading processor-intensive tasks from the[main processor](https://en.wikipedia.org/wiki/Central_processing_unit#main_processor), coprocessors can accelerate system performance. Coprocessors allow a line of computers to be customized, so that customers who do not need the extra performance do not need to pay for it.
 
-
-
 <https://en.wikipedia.org/wiki/Coprocessor>
 
+## Interview Questions
 
-
-**Interview Questions**
-
-**In platforms with significant constraints on memory size, is it more preferable to allocate memory statically or dynamically?**
+## In platforms with significant constraints on memory size, is it more preferable to allocate memory statically or dynamically?
 
 It's preferable to use static memory allocation on platforms with memory sizes in the low kilobytes and below. This is because data overhead, CPU overhead, and memory fragmentation can be significant issues when using dynamic memory allocation.
 
-
-
-**Describe the pros and cons of using a generic real-time operating system (RTOS) on a mid-range microcontroller.**
+## Describe the pros and cons of using a generic real-time operating system (RTOS) on a mid-range microcontroller.
 
 RTOSes can significantly ease the development of complex products, which can translate into faster development cycles. They often support compartmentalizing code into tasks, implement cross-task communication mechanisms, and commonly include abstractions ("drivers") for platform-specific hardware, which makes porting firmware to new hardware easier. Because of all that, they also introduce overhead in code size and CPU usage, which is not acceptable for all projects.
 
-
-
-**What are the most important characteristics of UART-based (also calledRS-232-likeandTTL-like) serial communication, I2C communication, and SPI communication?**
+## What are the most important characteristics of UART-based (also calledRS-232-likeandTTL-like) serial communication, I2C communication, and SPI communication?
 
 Simple UART-based serial communication---with or without UART hardware---is the least demanding communications protocol to implement, but comes with severe limitations:
 -   It's intended to connect only two devices.
@@ -78,21 +62,15 @@ I2C can connect up to 127 devices on the same electrical bus, and each device is
 
 The SPI bus is designed for fast, bidirectional communication with complex devices, which can involve cases such as transferring a large volume of data in bulk. With SPI, all devices share the data and clock wires, but there are also separate addressing wires which enable communication to and from specific devices.
 
-
-
-**Why are C and C++ still very popular and widely supported in embedded firmware development?**
+## Why are C and C++ still very popular and widely supported in embedded firmware development?
 
 Hardware constraints, both for memory sizes and CPU speed, limit what can be done on embedded devices. C and C++ usually have very minimal overhead and are very "close to the hardware" in terms of abstractions offered to developers. This makes them suitable for even the smallest devices.
 
-
-
-**How many wires are required to reliably implement TTL-like serial communication between two devices, and why?**
+## How many wires are required to reliably implement TTL-like serial communication between two devices, and why?
 
 TTL-like serial communication is often used to interface small microcontroller-based devices to larger computer systems, either for general communication or for uploading firmware. This type of communication uses two wires, one for each direction, called TX (transmit) and RX (receive.) But there also needs to be a common electrical ground level shared between the devices, so the minimum number of wires to reliably implement TTL serial communication is three. (The requirement for common electrical ground is also present in I2C and SPI.)
 
-
-
-**Since 32-bit and 64-bit microcontrollers exist, why are 8-bit ones still in use?**
+## Since 32-bit and 64-bit microcontrollers exist, why are 8-bit ones still in use?
 
 The general reason is picking the right tool for the job. The three most common reasons are backwards compatibility, price, and electrical power consumption. Backwards compatibility is important when interfacing with existing infrastructure, especially in industrial environments, where in many cases, the electrical and operational constraints impact the choice of microcontrollers.
 
@@ -100,15 +78,11 @@ Generally, smaller microcontrollers (with narrower primary registers) are also c
 
 Smaller microcontrollers also generally require less power to operate, which is especially important for IoT and battery-powered devices.
 
-
-
-**Is firmware and data embedded in microcontrollers generally safe from downloading, tampering, or hacking?**
+## Is firmware and data embedded in microcontrollers generally safe from downloading, tampering, or hacking?
 
 No. Unless the microcontroller is specially constructed to offer countermeasures against firmware downloading and/or modification, any code and data uploaded to a microcontroller should be considered relatively easy to download and modify. (Such hardened microcontrollers are usually expensive.)
 
-
-
-**Discuss a couple of options for wireless communication between embedded devices.**
+## Discuss a couple of options for wireless communication between embedded devices.
 
 On the high end of cost and complexity, wireless communication can be implemented using one of the wifi standards. These offer great bandwidth, are interoperable with many other devices, and can be long-range. But wifi standards are also fairly complex and require dedicated hardware.
 
@@ -120,9 +94,7 @@ There are also transceivers operating at low frequencies such as 433 MHz. While 
 
 Finally, infrared communication over very short distances (a couple of yards) can also be an efficient choice.
 
-
-
-**Describe the role of a watchdog timer.**
+## Describe the role of a watchdog timer.
 
 A watchdog timer is a feature of many microcontrollers---usually implemented with specific dedicated hardware---that can be used to check whether the software running on the microcontroller hung.
 
@@ -130,9 +102,7 @@ Microcontrollers are designed to be sturdy and resilient. But there's still any 
 
 A watchdog timer is a subsystem which needs to be explicitly notified by the software that everything is running as expected, within a specific amount of time. If the watchdog does not receive the notification it expects, it will perform some action, such as resetting the microcontroller, or even the whole device. This is usually done periodically, and the watchdog timer will perform its action if it doesn't receive a notification after a configurable amount of time has passed since the last notification.
 
-
-
-**What are some common issues when handling interrupts?**
+## What are some common issues when handling interrupts?
 
 Interrupt handlers almost always need to finish their execution quickly---the details depend on the device and application---and this limits the complexity of what can be done in their code. Also, the context in which the interrupt handler code is executed can, for either hardware or software reasons, prevent the usage from within the interrupt handler code of:
 -   Common library functions
@@ -143,21 +113,15 @@ The usual way to mitigate this is to have the interrupt controller set a special
 
 
 
-
-
 <https://www.toptal.com/embedded/interview-questions>
 
-
-
-**Courses**
+## Courses
 
 ![](media/Embedded-Systems---Electronics-image1.jpeg)
 
 ![](media/Embedded-Systems---Electronics-image2.jpeg)
 
-
-
-**Others**
+## Others
 
 <https://en.wikipedia.org/wiki/MISRA_C>
 

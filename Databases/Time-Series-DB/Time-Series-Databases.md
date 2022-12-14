@@ -15,9 +15,9 @@ Modified: 2020-04-04 01:20:20 +0500
 What Distinguishes the Time Series Workload?
 
 Time Series Databases have key architectural design properties that make them very different from other databases. These include: time-stamp data storage and compression, data lifecycle management, data summarization, ability to handle large time series dependent scans of many records, and time series aware queries.
-![Time Series Database Graph](media/Time-Series-Databases-image1.png)
+![image](media/Time-Series-Databases-image1.png)
 *For example:*With a Time Series Database, it is common to request a summary of data over a large time period. This requires going over a range of data points to perform some computation like a percentile increase this month of a metric over the same period in the last six months, summarized by month. This kind of workload is very difficult to optimize for with a distributed key value store. TSDB's are optimized for exactly this use case giving millisecond level query times over months of data.*Another example:*With Time Series Databases, it's common to keep high precision data around for a short period of time. This data is aggregated and downsampled into longer term trend data. This means that for every data point that goes into the database, it will have to be deleted after its period of time is up. This kind of data lifecycle management is difficult for application developers to implement on top of regular databases. They must devise schemes for cheaply evicting large sets of data and constantly summarizing that data at scale. With a Time Series Database, this functionality is provided out of the box.
-**Time Series Databases**
+## Time Series Databases
 -   [InfluxDB](https://www.influxdata.com/)
 -   [Kdb+](https://kx.com/discover/)
 -   [RRDTool](https://oss.oetiker.ch/rrdtool/)
@@ -40,7 +40,7 @@ GridDB is a distributed Key-Value Store (KVS) database built by Toshiba. It has 
 
 ## Managed TimeSeries Databases**
 -   Amazon Timestream Database
-**References**
+## References
 
 <https://www.influxdata.com/time-series-database>
 

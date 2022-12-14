@@ -22,7 +22,7 @@ Heartbleed allows hackers to steal private keys from what should be secure serve
 
 TheOpen Web Application Security Project(OWASP) is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of[web application security](https://en.wikipedia.org/wiki/Web_application_security).
 [The History and Future of OWASP](https://youtu.be/FrU2xaOVDgE)
-**OWASP Top Ten**
+## OWASP Top Ten
 
 1.  [Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection)
 
@@ -51,9 +51,9 @@ It depends on site immediately reflecting a user input (the search query) back o
 
 This happens when the malicious code (usually an injected script, like in our example) isstored on the target site's servers. A classic example is storing user-generated comments without sanitizing them. An attacker could leave a malicious comment that injects a script, andanyone who views that comment would be affected.
 Prevention - Sanitize user inputs
-**XSRF/CSRF - Cross Site Request Forgery**
+## XSRF/CSRF - Cross Site Request Forgery
 
-**Cross-site request forgery**, also known as**one-click attack**or**session riding**and abbreviated as**CSRF orXSRF**, is a type of malicious[exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security))of a[website](https://en.wikipedia.org/wiki/Website)where unauthorized commands are transmitted from a[user](https://en.wikipedia.org/wiki/User_(computing))that the web application trusts.[[2]](https://en.wikipedia.org/wiki/Cross-site_request_forgery#cite_note-Ristic-2)There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and[JavaScript](https://en.wikipedia.org/wiki/JavaScript)XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike[cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser.
+## Cross-site request forgery**, also known as**one-click attack**or**session riding**and abbreviated as**CSRF orXSRF, is a type of malicious[exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security))of a[website](https://en.wikipedia.org/wiki/Website)where unauthorized commands are transmitted from a[user](https://en.wikipedia.org/wiki/User_(computing))that the web application trusts.[[2]](https://en.wikipedia.org/wiki/Cross-site_request_forgery#cite_note-Ristic-2)There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and[JavaScript](https://en.wikipedia.org/wiki/JavaScript)XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike[cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser.
 <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
 
 <https://victorzhou.com/blog/csrf>
@@ -133,7 +133,7 @@ Insufficient logging and monitoring, coupled with missing or ineffective integra
 -   [Third Party Javascript Management](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html)-   [**Threat Modeling**](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
 Threat modelingis a process by which potential threats, such as[structural vulnerabilities](https://www.wikiwand.com/en/Structural_vulnerability_(computing))or the absence of appropriate safeguards, can be identified, enumerated, and mitigations can be prioritized. The purpose of threat modeling is to provide defenders with a systematic analysis of what controls or defenses need to be included, given the nature of the system, the probable attacker's profile, the most likely attack vectors, and the assets most desired by an attacker. Threat modeling answers questions like"Where am I most vulnerable to attack?","What are the most relevant threats?", and"What do I need to do to safeguard against these threats?".
-**Threat modeling methodologies**
+## Threat modeling methodologies
 
 1.  **STRIDE**
 
@@ -168,18 +168,18 @@ Process for Attack Simulation and Threat Analysis (PASTA) is a seven-step, risk-
 
 "Social engineering" refers to the use of humans as an attack vector to compromise a system. It involves fooling or otherwise manipulating human personnel into revealing information or performing actions on the attacker's behalf. Social engineering is known to be a very effective attack strategy, since even the strongest security system can be compromised by a single poor decision. In some cases, highly secure systems that cannot be penetrated by computer or cryptographic means, can be compromised by simply calling a member of the target organization on the phone and impersonating a colleague or IT professional.
 Common social engineering techniques include[phishing](https://en.wikipedia.org/wiki/Phishing),[clickjacking](https://en.wikipedia.org/wiki/Clickjacking), and[baiting](https://en.wikipedia.org/wiki/Social_engineering_%28security%29#Baiting), although several other tricks are at an attacker's disposal.
-**Phishing**
+## Phishing
 
-**Spear Phishing**
+## Spear Phishing
 
 Spear phishing involves selectively targetting employees,[and developers are especially vulnerable](https://www.teiss.co.uk/threats/developers-vulnerable-phishing-attacks/). Spear phishers will discover information about you, and then selectively use it against you.
-**Impersonating Services**
+## Impersonating Services
 
 This is the most well-known form of phishing. It involves posing as a business, often styling emails to look like what that business would typically send.
-**Smishing**
+## Smishing
 
 Smishing (SMS phishing) is similar to standard phishing emails, but over SMS instead. Smishing texts will usually impersonate companies and encourage you to click on a link or give away your personal info.
-**Vishing**
+## Vishing
 
 Vishing ("voice" and "phishing") involves phishing through phone calls. Of course, this isn't a big deal to us, because what kind of developer seriously answers the phone nowadays? Just send me a text, FFS.
 <https://dev.to/kathyra_/protect-yourself-from-social-engineering-3ihk>
@@ -192,7 +192,7 @@ The termkill chainwas originally used as a[military](https://www.wikiwand.com/en
 ## Tab Nabbing**
 
 Tabnabbing is a computer exploit which persuades users to submit their login details and passwords. The attack takes advantage of user trust and inattention to detail in regard totabs, and the ability of browsers to navigate across a page's origin in inactivetabsa long time after the page is loaded. This attack can be done even if JavaScript is disabled, using the "meta refresh" meta element, an HTML attribute used for page redirection that causes a reload of a specified new page after a given time interval. The attack takes advantage of the trust of the victim and the ability of modern web pages to rewritetabsand their contents for a long time after the page has been loaded.
-**Air Gap**
+## Air Gap
 
 An air gapped machine is simply one that cannot connect to any outside agents. From the highest level being the internet, to the lowest being an intranet or even bluetooth.
 Air gapped machines are isolated from other computers, and are important for storing sensitive data or carrying out critical tasks that should be immune from outside interference. For example, a nuclear power plant should be operated from computers that are behind a full air gap. For the most part, real world air gapped computers are usually connected to some form of intranet in order to make data transfer and process execution easier. However, every connection increases the risk that outside actors will be able to penetrate the system.

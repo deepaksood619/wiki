@@ -35,13 +35,13 @@ Write deterministic code - Given an input, code always produces the same output
 -   Good Code Doesn't Reinvent the Wheel, It Stands on the Shoulders of Giants
 -   Don't Cross the Streams
 -   When Possible, Let the Computer Do the Work
-**Error Handling**
+## Error Handling
 -   Bugs
 -   Error Handling
     -   Corner Cases
     -   Disk full, etc
 -   Input Validation both client side and server side
-**NIH Syndrome (Not Invented Here)**
+## NIH Syndrome (Not Invented Here)
 
 In programming, it is also common to refer to the "NIH syndrome" as the tendency towards[reinventing the wheel](https://en.wikipedia.org/wiki/Reinventing_the_wheel)(reimplementing something that is already available) based on the belief that in-house developments are inherently better suited, more secure, more controlled, quicker to develop, and incur lower overall cost (including maintenance cost) than using existing implementations.
 <https://en.wikipedia.org/wiki/Not_invented_here>
@@ -66,7 +66,7 @@ In programming, it is also common to refer to the "NIH syndrome" as the tendency
 -   Add units to variables unless the type tells you
 -   Don't put types in your types (e.g. AbstractX, BaseX)
 -   Refactor if you find yourself naming code "Utils"
-**Others**
+## Others
 
 <https://www.fluentcpp.com/2019/08/27/extract-function-should-i-extract-the-condition-too>
 

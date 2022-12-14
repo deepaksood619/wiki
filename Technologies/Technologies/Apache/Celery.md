@@ -8,33 +8,19 @@ Modified: 2022-02-02 17:58:29 +0500
 
 Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.
 
-
-
 The execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, [Eventlet](http://eventlet.net/), or [gevent](http://gevent.org/). Tasks can execute asynchronously (in the background) or synchronously (wait until ready).
 
-
-
-**Task Queue**
+## Task Queue
 
 Task queues are used as a mechanism to distribute work across threads or machines.
 
-
-
 A task queue's input is a unit of work, called a task, dedicated worker processes then constantly monitor the queue for new work to perform.
-
-
 
 Celery communicates via messages, usually using a broker to mediate between clients and workers. To initiate a task a client puts a message on the queue, the broker then delivers the message to a worker.
 
-
-
 A Celery system can consist of multiple workers and brokers, giving way to high availability and horizontal scaling.
 
-
-
 Celery is written in Python, but the protocol can be implemented in any language. In addition to Python there's[node-celery](https://github.com/mher/node-celery) for Node.js, and a[PHP client](https://github.com/gjedeer/celery-php).
-
-
 
 Language interoperability can also be achieved by using webhooks in such a way that the client enqueues an URL to be requested by a worker.
 
@@ -63,9 +49,7 @@ Language interoperability can also be achieved by using webhooks in such a way t
     -   zlib,bzip2compression.
     -   Cryptographic message signing.
 
-
-
-**Features**
+## Features
 -   **Monitoring**
 
 A stream of monitoring events is emitted by workers and is used by built-in and external tools to tell you what your cluster is doing -- in real-time.
@@ -85,39 +69,25 @@ The[--max-tasks-per-child](https://docs.celeryproject.org/en/stable/reference/ce
 
 Each worker component can be customized, and additional components can be defined by the user. The worker is built up using "bootsteps" --- a dependency graph enabling fine grained control of the worker's internals.
 
+## Celery beat
 
-
-**Celery beat**
-
-**Scenario -**You just launched your product and you need to send recommendations to your users about new products on your platform. You'll send these on the basis of their purchase history each weekend.
-
-
+## Scenario -You just launched your product and you need to send recommendations to your users about new products on your platform. You'll send these on the basis of their purchase history each weekend.
 
 The above task can be easily performed using a cron job. It is easily configurable in every framework. The important thing to bear in mind is that you should not put the cron jobs directly in the crontab file of your server. You should let the framework handle it.
 
-
-
 This is because the deployment engineer/Devops engineer should be the only person to have access to the system like this for security reasons. Although you don't have to implement it this way it's a good to have thing from the beginning.
 
-
-
 In the Django world, you can use celerybeat to configure your crons using celery workers.
-
-
 
 <https://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html>
 
 <https://django-celery-beat.readthedocs.io/en/latest
 
-
-
 <https://markgituma.medium.com/kubernetes-local-to-production-with-django-4-celery-with-redis-and-flower-df48ab9896b7>
 
 <https://testdriven.io/blog/django-celery-periodic-tasks
 
-
-
-**User Guide**
+## User Guide
 -   [Application](https://docs.celeryproject.org/en/stable/userguide/application.html)
 -   [Tasks](https://docs.celeryproject.org/en/stable/userguide/tasks.html)
 -   [Calling Tasks](https://docs.celeryproject.org/en/stable/userguide/calling.html)
@@ -137,9 +107,7 @@ In the Django world, you can use celerybeat to configure your crons using celery
 -   [Configuration and defaults](https://docs.celeryproject.org/en/stable/userguide/configuration.html)
 -   [Documenting Tasks with Sphinx](https://docs.celeryproject.org/en/stable/userguide/sphinx.html)
 
-
-
-**Example**
+## Example
 
 [**https://github.com/yolossn/flask-celery-microservice**](https://github.com/yolossn/flask-celery-microservice)
 
@@ -159,9 +127,7 @@ Full journey for a single request is:
 
 6.  The user retrieves the report. The report is ready
 
-
-
-**References**
+## References
 
 <http://www.celeryproject.org
 

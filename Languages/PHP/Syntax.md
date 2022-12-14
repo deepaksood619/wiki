@@ -6,7 +6,7 @@ Modified: 2020-12-23 12:16:34 +0500
 
 ---
 
-**Keywords**
+## Keywords
 
 | [__halt_compiler()](https://www.php.net/manual/en/function.halt-compiler.php)      | [abstract](https://www.php.net/manual/en/language.oop5.abstract.php)                  | [and](https://www.php.net/manual/en/language.operators.logical.php)                                                      | [array()](https://www.php.net/manual/en/function.array.php)                           | [as](https://www.php.net/manual/en/control-structures.foreach.php)                           |
 |---------------|-----------------|----------------|-----------|--------------|
@@ -24,9 +24,7 @@ Modified: 2020-12-23 12:16:34 +0500
 | [try](https://www.php.net/manual/en/language.exceptions.php)                         | [unset()](https://www.php.net/manual/en/function.unset.php)                           | [use](https://www.php.net/manual/en/language.namespaces.php)                                                             | [var](https://www.php.net/manual/en/language.oop5.properties.php)                     | [while](https://www.php.net/manual/en/control-structures.while.php)                          |
 | [xor](https://www.php.net/manual/en/language.operators.logical.php)                  | [yield](https://www.php.net/manual/en/language.generators.php)(as of PHP 5.5)        | [yield from](https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from)(as of PHP 7.0) |                                                                                      |                                                                                             |
 
-
-
-**Compile-time constants**
+## Compile-time constants
 
 | **Name**              | **Description**                                                                                                                                                                                                                                 |
 |----------------|--------------------------------------------------------|
@@ -41,8 +39,6 @@ Modified: 2020-12-23 12:16:34 +0500
 | **ClassName::class**  | The fully qualified class name. See also[::class](https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class).                                                                                                      |
 
 <https://www.php.net/manual/en/language.constants.predefined.php>
-
-
 
 All PHP code must be included inside one of the three special markup tags ATE are recognised by the PHP Parser.
 
@@ -60,9 +56,7 @@ All PHP code must be included inside one of the three special markup tags ATE ar
 -   Statements are expressions terminated by semicolons
 -   Braces make blocks
 
-
-
-**Variables**
+## Variables
 
 The main way to store information in the middle of a PHP program is by using a variable.
 -   All variables in PHP are denoted with a leading dollar sign ($).
@@ -74,21 +68,15 @@ The main way to store information in the middle of a PHP program is by using a v
 -   PHP does a good job of automatically converting types from one to another when necessary.
 -   PHP variables are Perl-like.
 
-
-
-**Predefined variables**
+## Predefined variables
 -   PHP Superglobals
 -   Server variables: $_SERVER
 
 $_SERVER is an array containing information such as headers, paths, and script locations. The entries in this array are created by the web server. There is no guarantee that every web server will provide any of these.
 
-
-
 <https://www.tutorialspoint.com/php/php_predefined_variables.htm>
 
-
-
-**Data Types**
+## Data Types
 
 PHP has a total of **eight data types** which we use to construct our variables
 -   **Integers**
@@ -100,8 +88,6 @@ are floating-point numbers, like 3.14159 or 49.1
 -   **Booleans**
 
 have only two possible values either true or false
-
-
 
 Here are the rules for determine the "truth" of any value not already of the Boolean type
 -   If the value is a number, it is false if exactly equal to zero and true otherwise.
@@ -116,8 +102,6 @@ Here are the rules for determine the "truth" of any value not already of the Boo
 
 is a special type that only has one value: NULL
 
-
-
 A variable that has been assigned NULL has the following properties −
 -   It evaluates to FALSE in a Boolean context.
 -   It returns FALSE when tested with IsSet() function.
@@ -127,23 +111,15 @@ A variable that has been assigned NULL has the following properties −
 
 are sequences of characters, like 'PHP supports string operations.'
 
-
-
 Singly quoted strings are treated almost literally, whereas doubly quoted strings replace variables with their values as well as specially interpreting certain character sequences.
 
-
-
-**Concatenation**
+## Concatenation
 
 To concatenate two string variables together, use the dot (.) operator −
 
 echo $string1 . " " . $string2;
 
-
-
 The strlen() function is used to find the length of a string.
-
-
 
 The strpos() function is used to search for a string or character within a string.
 
@@ -156,16 +132,12 @@ echo strpos("Hello world!","world");
 
 Are named and indexed collections of other values
 
-**An array in PHP is actually an ordered map**
-
-
+## An array in PHP is actually an ordered map
 
 There are three different kind of arrays and each array value is accessed using an ID c which is called array index.
 -   **Numeric array**
 
 An array with a numeric index. Values are stored and accessed in linear fashion.
-
-
 
 $numbers = array( 1, 2, 3, 4, 5);
 
@@ -174,14 +146,10 @@ $numbers = array( 1, 2, 3, 4, 5);
 
 An array with strings as index. This stores element values in association with key values rather than in a strict linear index order
 
-
-
 $salaries = array("mohammad" => 2000, "qadir" => 1000, "zara" => 500);
 
 
 -   **Multidimensional array−** An array containing one or more arrays and values are accessed using multiple indices
-
-
 
 <https://www.tutorialspoint.com/php/php_arrays.htm>
 
@@ -195,13 +163,9 @@ are instances of programmer-defined classes, which can package up both other kin
 
 are special variables that hold references to resources external to PHP (such as database connections).
 
-
-
 The first five aresimple types, and the next two (arrays and objects) are compound - the compound types can package up other arbitrary values of arbitrary type, whereas the simple types cannot.
 
-
-
-**Scope**
+## Scope
 
 Scope can be defined as the range of availability a variable has to the program in which it is declared. PHP variables can be one of four scope types
 -   [Local variables](https://www.tutorialspoint.com/php/php_local_variables.htm)
@@ -213,43 +177,27 @@ Use GLOBAL keyword
 
 In contrast to the variables declared as function parameters, which are destroyed on the function's exit, a static variable will not lose its value when the function exits and will still hold that value should the function be called again.
 
-
-
 Use STATIC keyword
 
-
-
-**Constant**
+## Constant
 
 A constant is a name or an identifier for a simple value. A constant value cannot change during the execution of the script. By default, a constant is case-sensitive. By convention, constant identifiers are always uppercase. A constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores. If you have defined a constant, it can never be changed or undefined.
 
-
-
 To define a constant you have to use define() function and to retrieve the value of a constant, you have to simply specifying its name. Unlike with variables, you do not need to have a constant with a $. You can also use the function constant() to read a constant's value if you wish to obtain the constant's name dynamically.
-
-
 
 Only scalar data (boolean, integer, float and string) can be contained in constants.
 
-
-
-**Differences between constants and variables are**
+## Differences between constants and variables are
 -   There is no need to write a dollar sign ($) before a constant, where as in Variable one has to write a dollar sign.
 -   Constants cannot be defined by simple assignment, they may only be defined using the define() function.
 -   Constants may be defined and accessed anywhere without regard to variable scoping rules.
 -   Once the Constants have been set, may not be redefined or undefined.
 
-
-
-**PHP Magic constants**
+## PHP Magic constants
 
 PHP provides a large number of predefined constants to any script which it runs.
 
-
-
 There are five magical constants that change depending on where they are used. For example, the value of __LINE__ depends on the line that it's used on in your script. These special constants are case-insensitive and are as follows −
-
-
 
 A few "magical" PHP constants are given below −
 
@@ -293,22 +241,16 @@ A few "magical" PHP constants are given below −
 </tbody>
 </table>
 
-
-
-**Decision Making**
+## Decision Making
 
 PHP supports following three decision making statements
 -   **if...else statement−** use this statement if you want to execute a set of code when a condition is true and another if the condition is not true
 -   **elseif statement−** is used with the if...else statement to execute a set of code ifoneof the several condition is true
 -   **switch statement−** is used if you want to select one of many blocks of code to be executed, use the Switch statement. The switch statement is used to avoid long blocks of if..elseif..else code.
 
-
-
 <https://www.tutorialspoint.com/php/php_decision_making.htm>
 
-
-
-**Loops**
+## Loops
 
 PHP supports following four loop types.
 -   **for−** loops through a block of code a specified number of times.
@@ -316,26 +258,20 @@ PHP supports following four loop types.
 -   **do...while−** loops through a block of code once, and then repeats the loop as long as a special condition is true.
 -   **foreach−** loops through a block of code for each element in an array.
 
-
-
-**break**
+## break
 
 The PHPbreakkeyword is used to terminate the execution of a loop prematurely.
 
-
-
-**continue**
+## continue
 
 The PHPcontinuekeyword is used to halt the current iteration of a loop but it does not terminate the loop.
 
+## Functions
 
-
-**Functions**
-
-**Pass by value**
+## Pass by value
 
 <?php
-**function** addFunction($num1, $num2) {
+## function addFunction($num1, $num2) {
 $sum = $num1 + $num2;
 echo "Sum of the two numbers is : $sum";
 }
@@ -343,24 +279,18 @@ echo "Sum of the two numbers is : $sum";
 addFunction(10, 20);
 ?>
 
-
-
-**Pass by Reference**
+## Pass by Reference
 
 It is possible to pass arguments to functions by reference. This means that a reference to the variable is manipulated by the function rather than a copy of the variable's value.
 
-
-
 Any changes made to an argument in these cases will change the value of the original variable. You can pass an argument by reference by adding an ampersand to the variable name in either the function call or the function definition.
 
-
-
 <?php
-**function** addFive($num) {
+## function addFive($num) {
 $num += 5;
 }
 
-**function** addSix(**&**$num) {
+## function** addSix(**&$num) {
 $num += 6;
 }
 
@@ -373,22 +303,16 @@ addSix( $orignum );
 echo "Original Value is $orignum<br ";
 ?>
 
-
-
-**Return value**
+## Return value
 
 A function can return a value using thereturnstatement in conjunction with a value or object. return stops the execution of the function and sends the value back to the calling code.
 
-
-
 You can return more than one value from a function usingreturn array(1,2,3,4).
 
-
-
-**Default values for function parameters**
+## Default values for function parameters
 
 <?php
-**function** printMe($param = NULL) {
+## function printMe($param = NULL) {
 print $param;
 }
 
@@ -396,12 +320,10 @@ printMe("This is test");
 printMe();
 ?>
 
-
-
-**Dynamic function calls**
+## Dynamic function calls
 
 <?php
-**function** sayHello() {
+## function sayHello() {
 echo "Hello<br ";
 }
 
@@ -409,43 +331,29 @@ $function_holder = "sayHello";
 $function_holder();
 ?>
 
-
-
 <https://www.tutorialspoint.com/php/php_functions.htm>
 
 <https://www.tutorialspoint.com/php/php_function_reference.htm>
 
-
-
-**PHP Regular Expressions**
+## PHP Regular Expressions
 
 PHP offers functions specific to two sets of regular expression functions, each corresponding to a certain type of regular expression
 -   POSIX Regular Expressions
 -   PERL Style Regular Expressions
 
-
-
 <https://www.tutorialspoint.com/php/php_regular_expression.htm>
 
+## Files IO
 
-
-**Files IO**
-
-**Opening a file**
+## Opening a file
 
 The PHPfopen()function is used to open a file. It requires two arguments stating first the file name and then mode in which to operate.
 
-
-
-**Reading a file**
+## Reading a file
 
 Once a file is opened usingfopen()function it can be read with a function calledfread(). This function requires two arguments. These must be the file pointer and the length of the file expressed in bytes.
 
-
-
 The files length can be found using thefilesize()function which takes the file name as its argument and returns the size of the file expressed in bytes.
-
-
 
 So here are the steps required to read a file with PHP.
 -   Open a file usingfopen()function.
@@ -453,13 +361,9 @@ So here are the steps required to read a file with PHP.
 -   Read the file's content usingfread()function.
 -   Close the file withfclose()function.
 
-
-
-**Writing a file**
+## Writing a file
 
 A new file can be written or text can be appended to an existing file using the PHPfwrite()function. This function requires two arguments specifying afile pointerand the string of data that is to be written. Optionally a third integer argument can be included to specify the length of the data to write. If the third argument is included, writing would will stop after the specified length has been reached.
-
-
 
 <https://www.tutorialspoint.com/php/php_files.htm>
 

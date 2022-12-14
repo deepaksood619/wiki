@@ -6,19 +6,13 @@ Modified: 2019-10-08 22:02:09 +0500
 
 ---
 
-**It is the ability to see ourselves clearly, to understand who we are, how other see us, and how we fit into the world.**
-
-
+## It is the ability to see ourselves clearly, to understand who we are, how other see us, and how we fit into the world.
 
 Knowing yourself is the beginning of all wisdom. -- Aristotle
 
-
-
 There are three things extremely hard: steel, a diamond, and to know one's self -- Benjamin Franklin
 
-
-
-**Blinkist - Insight by Tasha Eurich (21 Jan 2019)**
+## Blinkist - Insight by Tasha Eurich (21 Jan 2019)
 
 Why we're not as self-aware as we think, and how seeing ourselves clearly helps us succeed at work and in life
 -   Self-awareness is the ability to understand who we are and what others think of us, and it consists of seven insights
@@ -59,19 +53,13 @@ Fixation on our anxieties, weaknesses and insecurities
 
 Meformer - post information that isn't immediately related to themselves
 
-
-
-**Ontology**
+## Ontology
 
 Ontologyis the[philosophical](https://en.wikipedia.org/wiki/Philosophy)[study](https://en.wiktionary.org/wiki/study)of[being](https://en.wikipedia.org/wiki/Being). More broadly, it studies concepts that directly relate to being, in particular[becoming](https://en.wikipedia.org/wiki/Becoming_(philosophy)),[existence](https://en.wikipedia.org/wiki/Existence),[reality](https://en.wikipedia.org/wiki/Reality), as well as the basic[categories of being](https://en.wikipedia.org/wiki/Category_of_being)and their relations.Traditionally listed as a part of the major branch of philosophy known as[metaphysics](https://en.wikipedia.org/wiki/Metaphysics), ontology often deals with questions concerning what[entities](https://en.wiktionary.org/wiki/entity)exist or may be said to exist and how such entities may be grouped, related within a[hierarchy](https://en.wikipedia.org/wiki/Hierarchy), and subdivided according to similarities and differences.
 
-
-
 <https://en.wikipedia.org/wiki/Ontology>
 
-
-
-**References**
+## References
 
 <https://www.youtube.com/watch?v=tGdsOXZpyWE>
 

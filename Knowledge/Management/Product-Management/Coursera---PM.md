@@ -8,9 +8,7 @@ Modified: 2021-11-07 13:57:10 +0500
 
 <https://www.coursera.org/specializations/real-world-product-management>
 
-
-
-**Applied Learning Project**
+## Applied Learning Project
 
 Bring your own product or idea as we:
 
@@ -52,9 +50,7 @@ Bring your own product or idea as we:
 
 19. Realign your metrics with your product vision
 
-
-
-**Skills**
+## Skills
 
 Technology Leadership
 
@@ -72,17 +68,13 @@ A/B/n testing
 
 Customer Retention
 
-
-
 ![](media/Product-Management_Coursera---PM-image1.png)
-
-
 
 
 
 <http://growth.eladgil.com/book/introduction/welcome-to-the-high-growth-handbook
 
-**WHAT DO PRODUCT MANAGERS DO?**
+## WHAT DO PRODUCT MANAGERS DO?
 
 1.  Product strategy and vision
 
@@ -100,9 +92,7 @@ Customer Retention
 -   Leveraging user research, metrics, and stakeholders to prioritize
 -   Delivering better presentations
 
-
-
-**Characteristics of great product managers**
+## Characteristics of great product managers
 
 1.  Product taste
 
@@ -116,9 +106,7 @@ Customer Retention
 
 6.  Metrics and data-driven approach
 
-
-
-**The four type of product managers**
+## The four type of product managers
 
 1.  Business product manager
 
@@ -128,17 +116,11 @@ Customer Retention
 
 4.  Growth product manager
 
-
-
 Not a product manager: Project managers
-
-
 
 Associate product managers (APMs) / Rotational Product Managers (RPMs)
 
-
-
-**Interviewing PMs**
+## Interviewing PMs
 
 1.  Product insights
 
@@ -152,9 +134,7 @@ Associate product managers (APMs) / Rotational Product Managers (RPMs)
 
 6.  "For all hires reference-checking is incredible important" -- Elad Gil
 
-
-
-**VP Product**
+## VP Product
 
 1.  **Drive product strategy, road-mapping, and execution across the organization**
     -   **Set product vision and roadmap**
@@ -170,9 +150,7 @@ Associate product managers (APMs) / Rotational Product Managers (RPMs)
 3.  **Set cross-company product management processes**
     -   **Develop processes needed to run product development efficiently, prioritize product decisions, and launch products**
 
-
-
-**Product management processes**
+## Product management processes
 
 1.  PRD templates and product roadmaps
 
@@ -186,13 +164,9 @@ Associate product managers (APMs) / Rotational Product Managers (RPMs)
 -   1 PM per 7-8 engineers
 -   1 PM every 3 sales people
 
+![image](media/Product-Management_Coursera---PM-image2.png)
 
-
-![POS.ct Pam D' tectot a Prodct Vcc President CEO ot a BJsness Pr0dud Manaoer Product CEO a fe;nre ](media/Product-Management_Coursera---PM-image2.png)
-
-
-
-**Courses**
+## Courses
 
 [The Business of Product Management I](https://www.coursera.org/learn/the-business-of-product-management-one)
 

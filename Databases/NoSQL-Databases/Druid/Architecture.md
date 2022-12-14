@@ -45,4 +45,4 @@ In addition to these process types, Druid also has three external dependencies. 
 The idea behind this architecture is to make a Druid cluster simple to operate in production at scale. For example, the separation of deep storage and the metadata store from the rest of the cluster means that Druid processes are radically fault tolerant: even if every single Druid server fails, you can still relaunch your cluster from data stored in deep storage and the metadata store.
 The following diagram shows how queries and data flow through this architecture:
 
-![Coordinator Nodes Overlord Nodes Druid nodes External Dependencies Metadata Data/Segments Client Queries Streaming Data Nodes MiddleManager Nodes 1 1 1 Deep Storage Metadata Storage Zookeeper Historical Broker Nodes Batch ](media/Druid_Architecture-image2.png)
+![image](media/Druid_Architecture-image2.png)

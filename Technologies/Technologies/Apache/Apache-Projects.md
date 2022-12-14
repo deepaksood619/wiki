@@ -7,8 +7,6 @@ Modified: 2022-04-06 15:50:57 +0500
 ---
 -   [HTTP Server](http://httpd.apache.org/)
 
-
-
 # A
 -   [Accumulo](http://accumulo.apache.org/)
 -   [ActiveMQ](http://activemq.apache.org/)
@@ -37,11 +35,9 @@ Apache Arrow is a cross-language development platform for in-memory data. It spe
 -   No overhead for cross-system communication
 -   Projects can share functionality (eg, Parquet-to-Arrow reader)
 
-
-
 ![Arrow C++ development platform Allocators and Buffers Binary IPC Protocol CUDA Interop Columnar Data Structures and Builders Plasma: Shared Mem Object Store Gandiva: LLVM Ex r Com iler Compute Kernels Flight RPC Data Frame Interface Datasets Framework File Format Interfaces 10 1 Filesystem Platform Embeddable Query Engine Multithreading Runtime Compressor Interfaces ... and much more csv JSON ORC AWS S3 HDFS GCP Red means planned / under construction work ](../../media/Technologies-Apache-Apache-Projects-image3.png)
 
-**Apache Arrow Flight**
+## Apache Arrow Flight
 
 Arrow Flight provides a high-performance wire protocol for large-volume data transfer for analytics, designed for the needs of the modern data world including cross-platform language support, infinite parallelism, high efficiency, robust security, multi-region distribution, and efficient network utilization
 
@@ -50,8 +46,6 @@ Arrow Flight provides a high-performance wire protocol for large-volume data tra
 -   Uses Protocol Buffers v3 for client protocol
 -   Pluggable command execution layer, authentication
 -   Low-level gRPC optimizations to avoid unnecessay serialization
-
-
 
 <https://www.dremio.com/understanding-apache-arrow-flight
 
@@ -66,8 +60,6 @@ Arrow Flight provides a high-performance wire protocol for large-volume data tra
 Data serialization system (data structure, binary format, container, RPC)
 -   [Axis](http://axis.apache.org/)
 
-
-
 # B
 -   [Bahir](http://bahir.apache.org/)
 -   [Beam](http://beam.apache.org/)
@@ -79,14 +71,10 @@ Programming model for batch and streaming data processing
 
 A scalable, fault-tolerant, and low-latency storage service optimized for real-time workloads
 
-
-
 <https://streaml.io/blog/why-apache-bookkeeper>
 -   [Brooklyn](http://brooklyn.apache.org/)
 -   [Buildr](http://buildr.apache.org/)
 -   [BVal](http://bval.apache.org/)
-
-
 
 # C
 -   [Calcite](http://calcite.apache.org/)
@@ -100,8 +88,6 @@ A scalable, fault-tolerant, and low-latency storage service optimized for real-t
 
 Apache Chukwa is an open source data collection system for monitoring large distributed systems. Apache Chukwa is built on top of the Hadoop Distributed File System (HDFS) and Map/Reduce framework and inherits Hadoop's scalability and robustness. Apache Chukwa also includes a ﬂexible and powerful toolkit for displaying, monitoring and analyzing results to make the best use of the collected data.
 
-
-
 <https://chukwa.apache.org
 
 
@@ -113,19 +99,11 @@ Apache Chukwa is an open source data collection system for monitoring large dist
 -   [CouchDB](http://couchdb.apache.org/)
     -   Seamlessmulti-master sync, that scales fromBig DatatoMobile, with anIntuitiveHTTP/JSON API and designed forReliability.
 
-
-
 Apache CouchDB™ lets you access your data where you need it. The[Couch Replication Protocol](http://docs.couchdb.org/en/stable/replication/protocol.html)is implemented in a variety of projects and products that span every imaginable computing environment fromglobally distributed server-clusters, overmobile phonestoweb browsers.
-
-
 
 Store your datasafely, on your own servers, or with any leading cloud provider. Your web- and native applications love CouchDB, because it speaksJSON nativelyand supportsbinary datafor all your data storage needs.
 
-
-
 [The Couch Replication Protocol](http://docs.couchdb.org/en/stable/replication/protocol.html)lets your data flow seamlessly between server clusters to mobile phones and web browsers, enabling a compelling[offline-first](http://offlinefirst.org/)user-experience while maintaining high performance and strong reliability. CouchDB comes with adeveloper-friendlyquery language, and optionally MapReduce for simple, efficient, and comprehensive data retrieval.
-
-
 
 <https://docs.couchdb.org/en/stable/intro/index.html>
 
@@ -137,8 +115,6 @@ Java library for writing, testing, running MapReduce pipelines
 -   [cTAKES](http://ctakes.apache.org/)
 -   [Curator](http://curator.apache.org/)
 -   [CXF](http://cxf.apache.org/)
-
-
 
 # D
 -   [DataFu](http://datafu.apache.org/)
@@ -159,13 +135,9 @@ Schema-free SQL Query Enginefor Hadoop, NoSQL andCloud Storage
 
 -   Druid
 
-
-
 # E
 -   [Eagle](http://eagle.apache.org/)
 -   [Empire-db](http://empire-db.apache.org/)
-
-
 
 # F
 -   [Falcon](http://falcon.apache.org/)
@@ -188,9 +160,7 @@ Streaming data ingestion for Hadoop
 -   [Forrest](http://forrest.apache.org/)
 -   [FreeMarker](http://freemarker.apache.org/)
 
-**FreeMarker**is a[free](https://en.wikipedia.org/wiki/Free_software)[Java](https://en.wikipedia.org/wiki/Java_(programming_language))-based[template engine](https://en.wikipedia.org/wiki/Template_engine_(web)), originally focusing on dynamic web page generation with[MVC](https://en.wikipedia.org/wiki/Model-view-controller)[software architecture](https://en.wikipedia.org/wiki/Software_architecture). However, it is a general purpose template engine, with no dependency on[servlets](https://en.wikipedia.org/wiki/Servlet)or[HTTP](https://en.wikipedia.org/wiki/HTTP)or[HTML](https://en.wikipedia.org/wiki/HTML), and is thus often used for generating source code, configuration files or e-mails.
-
-
+## FreeMarkeris a[free](https://en.wikipedia.org/wiki/Free_software)[Java](https://en.wikipedia.org/wiki/Java_(programming_language))-based[template engine](https://en.wikipedia.org/wiki/Template_engine_(web)), originally focusing on dynamic web page generation with[MVC](https://en.wikipedia.org/wiki/Model-view-controller)[software architecture](https://en.wikipedia.org/wiki/Software_architecture). However, it is a general purpose template engine, with no dependency on[servlets](https://en.wikipedia.org/wiki/Servlet)or[HTTP](https://en.wikipedia.org/wiki/HTTP)or[HTML](https://en.wikipedia.org/wiki/HTML), and is thus often used for generating source code, configuration files or e-mails.
 
 # G
 -   [Geode](http://geode.apache.org/)
@@ -204,8 +174,6 @@ Open source framework provides an in-memory data model and persistence for big d
 -   [Groovy](http://groovy.apache.org/)
 -   [Guacamole](http://guacamole.apache.org/)
 -   [Gump](http://gump.apache.org/)
-
-
 
 # H
 -   [Hadoop](http://hadoop.apache.org/)
@@ -230,8 +198,6 @@ Apache Helix is a genericcluster managementframework used for the automatic mana
 -   Optional pluggable rebalancing for user-defined assignment of resources and partitions
 
 
-
-
 -   [Hive](http://hive.apache.org/)
 
 Data warehousing framework on YARN
@@ -241,8 +207,6 @@ Data warehousing framework on YARN
 Apache Hudi ingests & manages storage of large analytical datasets over DFS (hdfs or cloud stores).
 
 <https://hudi.apache.org
-
-
 
 # I
 -   [Isis](http://isis.apache.org/)
@@ -261,8 +225,6 @@ Iceberg is a high-performance format for huge analytic tables. Iceberg brings th
 -   Time Travel and Rollback
 -   Data Compaction
 
-
-
 <https://iceberg.apache.org
 
 # J
@@ -276,8 +238,6 @@ Iceberg is a high-performance format for huge analytic tables. Iceberg brings th
 -   [jUDDI](http://juddi.apache.org/)
 -   [Juneau](http://juneau.apache.org/)
 
-
-
 # K
 -   [Kafka](http://kafka.apache.org/)
 
@@ -289,18 +249,12 @@ Distributed pub-sub messaging
 
 [Apache Kudu](http://kudu.apache.org/overview.html)is a columnar data store that aims to replace HDFS + Parquet pair in many cases. It combines space-efficient columnar storage with ability to make fast single-row reads and writes.
 
-
-
 A Kudu cluster stores tables that look just like tables you're used to from relational (SQL) databases. A table can be as simple as a binarykey andvalue, or as complex as a few hundred different strongly-typed attributes.
-
-
 
 <https://kudu.apache.org
 
 
 -   [Kylin](http://kylin.apache.org/)
-
-
 
 # L
 -   [Lens](http://lens.apache.org/)
@@ -310,17 +264,13 @@ A Kudu cluster stores tables that look just like tables you're used to from rela
 
 Is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.
 
-
-
-**Scalable, High-Performance Indexing**
+## Scalable, High-Performance Indexing
 -   over[150GB/hour on modern hardware](http://home.apache.org/~mikemccand/lucenebench/indexing.html)
 -   small RAM requirements -- only 1MB heap
 -   incremental indexing as fast as batch indexing
 -   index size roughly 20-30% the size of text indexed
 
-
-
-**Powerful, Accurate and Efficient Search Algorithms**
+## Powerful, Accurate and Efficient Search Algorithms
 -   ranked searching -- best results returned first
 -   many powerful query types: phrase queries, wildcard queries, proximity queries, range queries and more
 -   fielded searching (e.g. title, author, contents)
@@ -335,8 +285,6 @@ Is a high-performance, full-featured text search engine library written entirely
 
 -   [Lucene.Net](http://lucenenet.apache.org/)
 
-
-
 # M
 -   [MADlib](http://madlib.apache.org/)
 
@@ -344,8 +292,6 @@ Big data machine learning in SQL
 -   [Mahout](http://mahout.apache.org/)
 
 Machine learning and data mining on Hadoop
-
-
 
 Apache Mahout is adistributed linear algebra frameworkandmathematically expressive Scala DSLdesigned to let mathematicians, statisticians, and data scientists quicklyimplement their own algorithms. Apache Spark is the recommended out-of-the-box distributed back-end,or can be extended to other distributed backends.
 -   Mathematically Expressive Scala DSL
@@ -366,8 +312,6 @@ Distributed systems kernel (all compute resources abstracted)
 -   [MyFaces](http://myfaces.apache.org/)
 -   [Mynewt](http://mynewt.apache.org/)
 
-
-
 # N
 -   [Nutch](http://nutch.apache.org/)
 -   [Nifi](http://nifi.apache.org/)
@@ -375,8 +319,6 @@ Distributed systems kernel (all compute resources abstracted)
 An easy to use, powerful, and reliable system to process and distribute data.
 
 Apache NiFi supports powerful and scalable directed graphs of data routing, transformation, and system mediation logic.
-
-
 
 # O
 -   [ODE](http://ode.apache.org/)
@@ -402,11 +344,7 @@ The smallest, fastest columnar storage for Hadoop workloads.
 -   Integrated compression, indexes, and stats
 -   Support for predicate pushdown
 
-
-
 <https://orc.apache.org
-
-
 
 # P
 -   [Parquet](http://parquet.apache.org/)
@@ -418,11 +356,7 @@ Columnar storage format
 
 OLTP and operational analytics for Apache Hadoop
 
-
-
 Apache Phoenixis an[open source](https://en.wikipedia.org/wiki/Open-source_software),[massively parallel](https://en.wikipedia.org/wiki/Massively_parallel_(computing)),[relational database](https://en.wikipedia.org/wiki/Relational_database)engine supporting[OLTP](https://en.wikipedia.org/wiki/OLTP)for Hadoop using[Apache HBase](https://en.wikipedia.org/wiki/Apache_HBase)as its backing store. Phoenix provides a[JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity)driver that hides the intricacies of the noSQL store enabling users to create, delete, and alter SQL tables, views, indexes, and sequences; insert and delete rows singly and in bulk; and query data through[SQL](https://en.wikipedia.org/wiki/SQL).Phoenix compiles queries and other statements into native noSQL store APIs rather than using[MapReduce](https://en.wikipedia.org/wiki/MapReduce)enabling the building of low latency applications on top of noSQL stores.
-
-
 
 <https://phoenix.apache.org
 
@@ -436,9 +370,7 @@ Turns high-level data analysis language into MapReduce programs
 
 Pinot is a realtime distributed OLAP datastore, which is used at LinkedIn to deliver scalable real time analytics with low latency. It can ingest data from offline data sources (such as Apache Hadoop and flat files) as well as online sources (such as Apache Kafka). Pinot is designed to scale horizontally.
 
-
-
-**Features**
+## Features
 -   A column-oriented database with various compression schemes such as Run Length, Fixed Bit Length
 -   Pluggable indexing technologies - Sorted Index, Bitmap Index, Inverted Index
 -   Ability to optimize query/execution plan based on query and segment metadata
@@ -447,13 +379,11 @@ Pinot is a realtime distributed OLAP datastore, which is used at LinkedIn to del
 -   Support for multivalued fields
 -   Horizontally scalable and fault tolerant
 
-
-
 <https://github.com/apache/incubator-pinot>
 
 <https://engineering.linkedin.com/blog/2019/03/pinot-joins-apache-incubator>
 
-**User Facing Analytics / Site Facing Analytics**
+## User Facing Analytics / Site Facing Analytics
 
 <https://www.youtube.com/watch?v=JV0WxBwJqKE>
 
@@ -465,12 +395,8 @@ Pinot is a realtime distributed OLAP datastore, which is used at LinkedIn to del
 -   [Predictionio](http://predictionio.apache.org/)
 -   [Pulsar](http://pulsar.apache.org/)
 
-
-
 # Q
 -   [Qpid](http://qpid.apache.org/)
-
-
 
 # R
 -   [Ranger](http://ranger.apache.org/)
@@ -485,8 +411,6 @@ Apache Ranger™ is a framework to enable, monitor and manage comprehensive data
 -   [RocketMQ](http://rocketmq.apache.org/)
 -   [Roller](http://roller.apache.org/)
 -   [Royale](http://royale.apache.org/)
-
-
 
 # S
 -   [Samza](http://samza.apache.org/)
@@ -514,11 +438,7 @@ General-purpose cluster computing framework
 
 Bulk data transfer between Hadoop and structured datastores such as relational databases.
 
-
-
 Sqoopis a[command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)application for transferring data between[relational databases](https://en.wikipedia.org/wiki/Relational_database) and [Hadoop](https://en.wikipedia.org/wiki/Hadoop)
-
-
 
 <https://sqoop.apache.org
 
@@ -535,14 +455,12 @@ Distributed realtime (streaming) computing framework
 -   [Syncope](http://syncope.apache.org/)
 -   [SystemML](http://systemml.apache.org/)
 
-
-
 # T
 -   [Tajo](http://tajo.apache.org/)
 -   [Tapestry](http://tapestry.apache.org/)
 -   [Tcl](http://tcl.apache.org/)
 
-**Tcl**([pronounced](https://en.wikipedia.org/wiki/English_alphabet#Letter_names)"tickle" or*tee cee ell*[/ˈtiːsiːɛl/](https://en.wikipedia.org/wiki/Help:IPA/English)) is a[high-level](https://en.wikipedia.org/wiki/High-level_programming_language),[general-purpose](https://en.wikipedia.org/wiki/General-purpose_programming_language),[interpreted](https://en.wikipedia.org/wiki/Interpreter_(computing)),[dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language). It was designed with the goal of being very simple but powerful.[^[6]^](https://en.wikipedia.org/wiki/Tcl#cite_note-6)Tcl casts everything into the mold of a[command](https://en.wikipedia.org/wiki/Command_(computing)), even programming constructs like variable assignment and procedure definition.[^[7]^](https://en.wikipedia.org/wiki/Tcl#cite_note-7)Tcl supports multiple[programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm), including[object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming),[imperative](https://en.wikipedia.org/wiki/Imperative_programming)and[functional programming](https://en.wikipedia.org/wiki/Functional_programming)or[procedural](https://en.wikipedia.org/wiki/Procedural_programming)styles.
+## Tcl([pronounced](https://en.wikipedia.org/wiki/English_alphabet#Letter_names)"tickle" or*tee cee ell*[/ˈtiːsiːɛl/](https://en.wikipedia.org/wiki/Help:IPA/English)) is a[high-level](https://en.wikipedia.org/wiki/High-level_programming_language),[general-purpose](https://en.wikipedia.org/wiki/General-purpose_programming_language),[interpreted](https://en.wikipedia.org/wiki/Interpreter_(computing)),[dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language). It was designed with the goal of being very simple but powerful.[^[6]^](https://en.wikipedia.org/wiki/Tcl#cite_note-6)Tcl casts everything into the mold of a[command](https://en.wikipedia.org/wiki/Command_(computing)), even programming constructs like variable assignment and procedure definition.[^[7]^](https://en.wikipedia.org/wiki/Tcl#cite_note-7)Tcl supports multiple[programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm), including[object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming),[imperative](https://en.wikipedia.org/wiki/Imperative_programming)and[functional programming](https://en.wikipedia.org/wiki/Functional_programming)or[procedural](https://en.wikipedia.org/wiki/Procedural_programming)styles.
 
 It is commonly used embedded into[C](https://en.wikipedia.org/wiki/C_(programming_language))applications,[^[8]^](https://en.wikipedia.org/wiki/Tcl#cite_note-inception-8)for[rapid prototyping](https://en.wikipedia.org/wiki/Rapid_application_development), scripted applications, GUIs, and testing.[^[9]^](https://en.wikipedia.org/wiki/Tcl#cite_note-9)Tcl interpreters are available for many[operating systems](https://en.wikipedia.org/wiki/Operating_system), allowing Tcl code to run on a wide variety of systems. Because Tcl is a very compact language, it is used on[embedded systems](https://en.wikipedia.org/wiki/Embedded_systems)platforms, both in its full form and in several other small-footprint versions.
 
@@ -559,11 +477,7 @@ Data serialization framework (full-stack)
 
 Apache TinkerPop™ is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).
 
-
-
 Apache TinkerPop™ is an open source, vendor-agnostic, graph computing framework distributed under the commercial friendly[Apache2 license](https://www.apache.org/licenses/LICENSE-2.0). When a data system is[TinkerPop-enabled](http://tinkerpop.apache.org/providers.html), its users are able to model their domain as a graph and analyze that graph using the[Gremlin graph traversal language](http://tinkerpop.apache.org/gremlin.html). Furthermore, all TinkerPop-enabled systems integrate with one another allowing them to easily expand their offerings as well as allowing users to choose the appropriate graph technology for their application. Sometimes an application is best served by an in-memory, transactional graph database. Sometimes a multi-machine distributed graph database will do the job. Or perhaps the application requires both a distributed graph database for real-time queries and, in parallel, a Big(Graph)Data processor for batch analytics. Whatever the application's requirements, there exists a TinkerPop-enabled graph system out there to meet its needs.
-
-
 
 <http://tinkerpop.apache.org
 
@@ -576,8 +490,6 @@ Apache TinkerPop™ is an open source, vendor-agnostic, graph computing framewor
 -   [Turbine](http://turbine.apache.org/)
 -   [Twill](http://twill.apache.org/)
 
-
-
 # U
 -   [UIMA](http://uima.apache.org/)
 -   [Usergrid](http://usergrid.apache.org/)
@@ -585,25 +497,17 @@ Apache TinkerPop™ is an open source, vendor-agnostic, graph computing framewor
 
 Apache Unomi is a Java Open Source **customer data platform**, a Java server designed to manage customers, leads and visitors data and help personalize customers experiences while also offering features to respect visitor privacy rules (such as GDPR)
 
-
-
 <https://unomi.apache.org
-
-
 
 # V
 -   [VCL](http://vcl.apache.org/)
 -   [Velocity](http://velocity.apache.org/)
 -   [VXQuery](http://vxquery.apache.org/)
 
-
-
 # W
 -   [Web Services](http://ws.apache.org/)
 -   [Whimsy](http://whimsical.apache.org/)
 -   [Wicket](http://wicket.apache.org/)
-
-
 
 # X
 -   [Xalan](http://xalan.apache.org/)
@@ -611,12 +515,8 @@ Apache Unomi is a Java Open Source **customer data platform**, a Java server des
 -   [XMLBeans](http://xmlbeans.apache.org/)
 -   [XML Graphics](http://xmlgraphics.apache.org/)
 
-
-
 # Y
 -   [Yetus](http://yetus.apache.org/)
-
-
 
 # Z
 -   [Zeppelin](http://zeppelin.apache.org/)
@@ -632,17 +532,11 @@ Web-based notebook that enables data-driven,interactive data analytics and colla
 
 Coordination and state management
 
+## Incubator
 
-
-**Incubator**
-
-**Heron**
+## Heron
 
 A realtime, distributed, fault-tolerant stream processing engine from Twitter
 
-
-
 <https://apache.github.io/incubator-heron
-
-
 

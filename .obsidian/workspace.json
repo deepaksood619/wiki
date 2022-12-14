@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " parser can be top-down or bottom-up ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,17 +168,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3a44f20d32c586d3",
+  "active": "ae67541099e1433c",
   "lastOpenFiles": [
+    "Languages/Python/Python/Regular-Expressions.md",
+    "Office/Credentials/External-Tech.md",
+    "Office/Credentials/Business.md",
+    "Languages/Others/Regular-Expressions---Regex.md",
     "Office/TODO/Tech-&-Courses-TODO.md",
     "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
     "AI/Deep-Learning/NLP/NLTK.md",
     "AI/Deep-Learning/NLP.md",
     "Office/Personality/Resumes---Jobs---Companies---Company.md",
-    "Office/TODO/Personal-TODO.md",
-    "Office/TODO/Goals.md",
-    "Office/TODO/Daily-Routine.md",
-    "14-12-2022.md",
-    "Office/Stashfin/Office---TODO.md"
+    "Office/TODO/Personal-TODO.md"
   ]
 }

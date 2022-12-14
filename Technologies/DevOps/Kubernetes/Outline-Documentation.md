@@ -192,9 +192,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
     e.  Poseidon-Firmament - An alternate scheduler
 
-
-
-**Concepts**
+## Concepts
 
 [Overview](https://kubernetes.io/docs/concepts/overview/)
 
@@ -244,13 +242,9 @@ Lower-level detail relevant to creating or administering a Kubernetes cluster.
 
 Different ways to change the behavior of your Kubernetes cluster.
 
-
-
 <https://kubernetes.io/docs/concepts
 
-
-
-**Tasks**
+## Tasks
 
 [Install Tools](https://kubernetes.io/docs/tasks/tools/)
 
@@ -320,10 +314,6 @@ Configure and manage huge pages as a schedulable resource in a cluster.
 
 Configure and schedule GPUs for use as a resource by nodes in a cluster.
 
-
-
 <https://kubernetes.io/docs/tasks
-
-
 
 <https://kubernetes.io/docs/home

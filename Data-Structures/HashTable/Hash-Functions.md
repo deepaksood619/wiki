@@ -6,10 +6,10 @@ Modified: 2020-01-20 18:16:29 +0500
 
 ---
 
-**Bad Hash Functions**
+## Bad Hash Functions
 -   First 3 digits of a phone number
 -   Memory address of an object (will only be power of 2's so odd locations will never get filled)
-**MurmurHash / MurmurHash3**
+## MurmurHash / MurmurHash3
 
 MurmurHashis a non-[cryptographic](https://en.wikipedia.org/wiki/Cryptographic_hash_function)[hash function](https://en.wikipedia.org/wiki/Hash_function)suitable for general hash-based lookup.It was created by Austin Appleby in 2008and is currently hosted on GitHub along with its test suite named 'SMHasher'. It also exists in a number of variants,all of which have been released into the public domain. The name comes from two basic operations, multiply (MU) and rotate (R), used in its inner loop.
 Unlike[cryptographic hash functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function), it is not specifically designed to be difficult to reverse by an adversary, making it unsuitable for cryptographic purposes.

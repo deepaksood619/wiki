@@ -22,17 +22,11 @@ Modified: 2021-06-15 19:51:54 +0500
 
 [2.7. Documentation](https://d2l.ai/chapter_preliminaries/lookup-api.html)
 
-
-
-**Tensor**
+## Tensor
 
 No matter which framework you use, itstensor class**(ndarrayin MXNet,Tensorin both PyTorch and TensorFlow)** is similar to NumPy'sndarraywith a few killer features. First, GPU is well-supported to accelerate the computation whereas NumPy only supports CPU computation. Second, the tensor class supports automatic differentiation. These properties make the tensor class suitable for deep learning.
 
-
-
 A tensor represents a (possibly multi-dimensional) array of numerical values. With one axis, a tensor corresponds (in math) to a**vector**. With two axes, a tensor corresponds to a**matrix**. Tensors with more than two axes do not have special mathematical names.
-
-
 
 It provides a variety of functionalities including basic mathematics operations, **broadcasting, indexing, slicing, memory saving, and conversion** to other Python objects
 

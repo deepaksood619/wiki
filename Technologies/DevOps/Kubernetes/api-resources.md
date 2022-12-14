@@ -6,105 +6,71 @@ Modified: 2020-12-25 17:09:01 +0500
 
 ---
 
-**Namespaces**
+## Namespaces
 
 Kubernetes includes a means to segment a single physical cluster into separate logical clusters using namespacing.
 
-
-
-**Pods**
+## Pods
 
 Whatever the runtime, Kubernetes fundamentally manages a logical grouping of one or more containers called a pod.
 
-
-
-**StatefulSets**
+## StatefulSets
 
 Kubernetes controllers for managing workloads that require proper management of state.
 
-
-
-**ReplicaSet**
+## ReplicaSet
 
 One of the control loops available in Kubernetes that ensures that the desired number of pods are running.
 
-
-
-**Roles**
+## Roles
 
 Kubernetes has several access control schemes, and users should always default to role-based access controls to maximize security.
 
-
-
-**Ingresses and Load Balancing**
+## Ingresses and Load Balancing
 
 In order to expose a service outside a cluster, a user should set up an ingress for layer 7 or define the configuration of a layer 4 load balancer using "type=loadbalancer" in the service definition.
 
-
-
-**Deployments**
+## Deployments
 
 The declarative controller in Kubernetes that manages replicasets of pods.
 
-
-
-**Services**
+## Services
 
 Defined by a label, a Kubernetes service is a logical layer that provides IP/DNS/etc. persistence to dynamic pods.
 
-
-
-**DaemonSet**
+## DaemonSet
 
 A Kubernetes construct that enables users to run a pod on every node in the cluster.
 
-
-
-**Jobs and Cronjobs**
+## Jobs and Cronjobs
 
 Kubernetes includes the logic to run jobs, processes that run to completion, and cronjobs --- processes that run at specific intervals and run to completion.
 
-
-
-**Extension Points**
+## Extension Points
 
 Kubernetes has a number of points to extend its core functionality.
 
-
-
-**Custom Resource Definition (CRD)**
+## Custom Resource Definition (CRD)
 
 CRD allows users to extend Kubernetes with custom APIs for different objects beyond the standard ones supported by Kubernetes.
 
-
-
-**Container Runtime Interface (CRI)**
+## Container Runtime Interface (CRI)
 
 CRI is a plugin API that enables Kubernetes to support other container runtimes beyond Docker and Containerd.
 
-
-
-**Container Network Interface (CNI)**
+## Container Network Interface (CNI)
 
 CNI gives users a choice of network overlay that can be used with Kubernetes to add SDN features.
 
-
-
-**Container Storage Interface (CSI)**
+## Container Storage Interface (CSI)
 
 CSI empowers users to support different storage systems through a driver model.
 
-
-
 [Container Storage Interface](https://github.com/container-storage-interface/spec/blob/master/spec.md)(CSI) defines a standard interface for container orchestration systems (like Kubernetes) to expose arbitrary storage systems to their container workloads.
-
-
 
 <https://github.com/container-storage-interface/spec/blob/master/spec.md>
 
-
-
-**Resource Types**
+## Resource Types
 
 | Resource type                  | Abbreviated alias | Commands                                                                    |
 |-----------------------------|------------|-------------------------------|
@@ -146,9 +112,7 @@ CSI empowers users to support different storage systems through a driver model.
 | **statefulsets**               |                  |                                                                            |
 | **storageclasses**             |                  |                                                                            |
 
-
-
-**Outline**
+## Outline
 -   API Version: most resource type covered in the exam belongs to thecoregroup and are currently in the versionv1. Several special cases are listed below.
     -   v1: Pod, Service, ConfigMap, Secret, PersistentVolumeClaim, Namespace, ServiceAccount, Node
     -   apps/v1: Deployment

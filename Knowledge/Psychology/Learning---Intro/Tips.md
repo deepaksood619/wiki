@@ -8,39 +8,27 @@ Modified: 2021-12-18 12:35:49 +0500
 
 <https://en.wikipedia.org/wiki/List_of_mnemonics>
 
-
-
 Immediately after every lecture, meeting, or any significant experience, take 30 seconds --- no more, no less --- to write down the most important points.
 
-
-
-**Mind Mapping -** Put main topic in center of the page and write connections form it.
-
-
+## Mind Mapping - Put main topic in center of the page and write connections form it.
 
 Pomodora Technique (25 + 5 mins and after 4 times 30 mins breaks)
 
-
-
-**Cognitive Fitness**
+## Cognitive Fitness
 -   Experiences makes the brain grow
 -   Work hard at play
 -   Search for patterns
 -   Seek novelty and innovation
 
-
-
-**How to Learn Something**
+## How to Learn Something
 
 1.  If something comes to you easy, you will forget it. Like in airport if you see gate number and then turnaround then you forget it. But if you see the gate number and then without looking ask yourself what's the gate number and recall the gate number then you are going to remember it.
 
 2.  Connect new things to old things, it's called elaboration
 
+## Quickly learn a new thing (FAST)
 
-
-**Quickly learn a new thing (FAST)**
-
-**F - Forget**
+## F - Forget
 
 Old things about the subject you are about to learn
 
@@ -48,55 +36,45 @@ About situational things
 
 About negative things like you cannot do it
 
-**A - Active**
+## A - Active
 
-**S - State**
+## S - State
 
 All learning is state dependent
 
-**T - Teach** (When you teach something you get to learn it twice)
+## T - Teach (When you teach something you get to learn it twice)
 
 
 
-
-
-**M - Motivation**
+## M - Motivation
 
 Reasons reap Results
 
-**O - Observation**
+## O - Observation
 
 Shake your hand, make a fist and put it to your chin (put it to your head)
 
 Listen to people by being Silent
 
-**M - Mechanics**
+## M - Mechanics
 
+## What words we tend to remember in a group of words
 
+## Primacy - You remember first words
 
-**What words we tend to remember in a group of words**
+## Unique
 
-**Primacy -** You remember first words
+## Organized
 
-**Unique**
-
-**Organized**
-
-**Recency**
-
-
+## Recency
 
 Story Method
 
 Practice makes Permanent
 
+## LOCI Method (Location)
 
-
-**LOCI Method (Location)**
-
-
-
-**ADEPT Method**
+## ADEPT Method
 
 a.  **Analogy**
 
@@ -108,15 +86,11 @@ d.  **Plain English**
 
 e.  **Definition**
 
-
-
 Teaching someone the concept is the best way to learn, since you will make mistakes.
 
 90% of our learning is wasted as we retain only 10% of what we learn.
 
-
-
-**Time Management**
+## Time Management
 
 1.  **Eliminate Half-Work at all costs**
 
@@ -124,16 +98,12 @@ Teaching someone the concept is the best way to learn, since you will make mista
 
 3.  **Reduce the scope, but stick to the schedule.**
 
-
-
 <https://jamesclear.com/time-management-tips>
 
-
-
-**Techniques that can help learning**
+## Techniques that can help learning
 -   Pomodoro Technique
 
-![o A DAY IN POMODOROS 25-minute focused work session + 5-minute break 3 | pomodoro 0000 20-minute coffee break 0000 30-minute lunch break 0000 20-minute walking break 00 ](media/Learning---Intro_Tips-image1.jpg)
+![image](media/Learning---Intro_Tips-image1.jpg)
 -   Chunking
 -   Space Repetition
     -   1-2-4-7 Technique
@@ -144,13 +114,9 @@ Teaching someone the concept is the best way to learn, since you will make mista
     -   Index cards
     -   Meaningful groups
 
-
-
 <https://kwiklearning.com/kwik-tips/5-leisure-activities-that-are-great-for-your-brain
 
-
-
-**Breathing Exercises**
+## Breathing Exercises
 
 1.  Water Breathing (for balance)
 
@@ -175,13 +141,9 @@ Exhale rapidly
 
 -   5.5 seconds in and 5.5 seconds out
 
-
-
 ![](media/Learning---Intro_Tips-image2.jpg)
 
-
-
-**Motivation**
+## Motivation
 
 Theories of motivation tend to come in two flavors:
 
@@ -191,17 +153,13 @@ Theories of motivation tend to come in two flavors:
 
 3.  ![0 | AT10B/ ](media/Learning---Intro_Tips-image3.png)
 
-
-
 These two perspectives suggest two different approaches you should take:
 
 1.  **If you believe motivation is mostly rational, the correct attitude is to listen.** Pay attention to what motivates you. If you feel uninspired, it might be that your current opportunities aren't particularly good. If you feel obsessed, that's a good sign you're on the right path.
 
 2.  **Believe motivation is biased and some nudging is necessary.** Even great opportunities require discipline to recognize. Rules, systems and habits can nudge you out of your lazier self.
 
-
-
-**Memory Palace**
+## Memory Palace
 
 1.  Front gate
 
@@ -229,15 +187,9 @@ These two perspectives suggest two different approaches you should take:
 
 13. parent's room
 
-
-
 <https://en.wikipedia.org/wiki/Mnemonic_major_system>
 
-
-
-**WFH (Work From Home)**
+## WFH (Work From Home)
 
 Learning being around smarter folks & absorption by osmosis and overhearing has reduced to zero.
-
-
 

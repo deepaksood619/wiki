@@ -6,7 +6,7 @@ Modified: 2022-02-14 17:53:09 +0500
 
 ---
 
-**Axios**
+## Axios
 
 Promise based HTTP client for the browser and node.js
 
@@ -16,9 +16,7 @@ Promise based HTTP client for the browser and node.js
 
 <https://axios-http.com/docs/intro>
 
-
-
-**SWR**
+## SWR
 
 React Hooks for Data Fetching
 -   Lightweight
@@ -30,22 +28,14 @@ React Hooks for Data Fetching
 -   TypeScript Ready
 -   Remote + Local
 
-
-
 The name "SWR" is derived from stale-while-revalidate, a HTTP cache invalidation strategy popularized by HTTP RFC 5861. SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.
-
-
 
 With SWR, components will get a stream of data updates constantly and automatically.
 
 And the UI will be always fast and reactive.
 
-
-
 <https://swr.vercel.app
 
-
-
-**JavaScript 3D library**
+## JavaScript 3D library
 
 <https://github.com/mrdoob/three.js>

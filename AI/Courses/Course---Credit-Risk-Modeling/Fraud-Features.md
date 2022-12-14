@@ -14,8 +14,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | status                          | Status of Featurization                |
 | data_available                  | Data Available for Featurization       |
 
-
-
 | **[SMS Features]{.underline}** |                                                                          |
 |-------------------------|-----------------------------------------------|
 | **Feature Name**               | **Description**                                                           |
@@ -73,8 +71,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | amt_debit_txn_m2               | Amount in INR of debit transactions in the second last month              |
 | amt_debit_txn_m3               | Amount in INR of debit transactions in the third last month               |
 
-
-
 | **[Fraud Features]{.underline}** |                                                                   |
 |--------------------------|----------------------------------------------|
 | **Feature Name**                 | **Description**                                                    |
@@ -94,8 +90,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | blacklisted_location             | Flag if user was in blacklisted area                               |
 | cnt_loan_approval_same_client    | Count of loan approval from the same client                        |
 
-
-
 | **[FinBox Features]{.underline}** |                                                         |
 |--------------------------|----------------------------------------------|
 | **Feature Name**                  | **Description**                                          |
@@ -105,8 +99,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | fis_affordability_v1              | Monthly EMI Affordability Calculated - Based on SMS      |
 | fis_recommended_due_date          | Recommended Due Date based on Balance Availability       |
 | digital_savviness                 | Score indicating digital savviness of the user           |
-
-
 
 | **[Device Features]{.underline}** |                                                           |
 |-------------------------|-----------------------------------------------|
@@ -122,15 +114,11 @@ Modified: 2022-07-27 11:45:26 +0500
 | phone_state_permission_flag       | Flag of whether users ever gave the Phone_state Permission |
 | unique_devices                    | Number of unique mobile phones where app was installed     |
 
-
-
 | **[Location Features]{.underline}** |                                               |
 |----------------------------|--------------------------------------------|
 | **Feature Name**                    | **Description**                                |
 | latest_location_latitude            | Latitude of the latest accurate location data  |
 | latest_location_longitude           | Longitude of the latest accurate location data |
-
-
 
 | **[Apps Features]{.underline}** |                                                                       |
 |--------------------------|----------------------------------------------|
@@ -144,8 +132,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | cnt_apps_genre_communication    | Total Number of Apps categorised as Communication on Google Play Store |
 | days_since_first_install        | Number of days since the first Play-store Apps was installed           |
 
-
-
 | **[Contact Features]{.underline}** |                                        |
 |------------------------------|------------------------------------------|
 | **Feature Name**                   | **Description**                         |
@@ -153,8 +139,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | cnt_contacts_with_email            | Count of Contacts having Email Address  |
 | cnt_contacts_c30                   | Count of Contacts added in last 30 days |
 | cnt_contacts_c60                   | Count of Contacts added in last 60 days |
-
-
 
 | **[Call Log Features]{.underline}** |                                      |
 |-------------------------------|-----------------------------------------|
@@ -169,8 +153,6 @@ Modified: 2022-07-27 11:45:26 +0500
 | cnt_incoming_calls_c60              | Total Incoming Calls Last 60 Days     |
 | cnt_outgoing_calls_c60              | Total Outgoing Calls Last 60 Days     |
 | cnt_unique_contacts_c30             | Unique Numbers Contacted Last 30 Days |
-
-
 
 | **Category**         | **Feature #** |
 |----------------------|----------------|
@@ -196,9 +178,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | Aggregate            | 2              |
 | Fraud                | 2              |
 
-
-
-**Apps , SMS and Device Calculated Features (Excluding Important)**
+## Apps , SMS and Device Calculated Features (Excluding Important)
 
 This sheet contains all features that we calculate from Raw unstructured Data present in Device
 

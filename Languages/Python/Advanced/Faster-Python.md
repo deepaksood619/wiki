@@ -46,25 +46,17 @@ for graph-like problems (e.g. finding shortest paths)
     -   Parallel Computation
     -   Task Graph
 
-
-
 <https://www.kdnuggets.com/2020/04/dask-big-data.html>
-
-
 
 7.  <https://rapids.ai <https://github.com/rapidsai>
 
-
-
-**Optimizing Python Memory Objects**
+## Optimizing Python Memory Objects
 
 <https://habr.com/en/post/458518
 
 <https://towardsdatascience.com/memory-management-in-python-6bea0c8aecc9>
 
-
-
-**Performant Python (reducing memory usage)**
+## Performant Python (reducing memory usage)
 -   Tuples save a bit of memory when replacing lists
 -   **Tuples save lots of memory when replacing dictionaries**
 -   Generators save memory only for large tuples, but are faster to iterate
@@ -72,10 +64,6 @@ for graph-like problems (e.g. finding shortest paths)
 -   Namedtuples are better than classes but worse than slotted classes
 -   Map and filter are sometimes faster than comprehensions
 
-
-
 <https://strangemachines.io/articles/performant-python>
-
-
 
 <https://blog.esciencecenter.nl/parallel-programming-in-python-7fd62c90217d>

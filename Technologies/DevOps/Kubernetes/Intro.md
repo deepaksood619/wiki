@@ -6,51 +6,33 @@ Modified: 2022-02-05 01:05:44 +0500
 
 ---
 
-**One liner -** Kubernetes/Mesos - software tools to manage and coordinate containers
+## One liner - Kubernetes/Mesos - software tools to manage and coordinate containers
 
+## Borg - Google's container system
 
-
-**Borg -** Google's container system
-
-
-
-**Orchestraction**
+## Orchestraction
 -   The method to automate the management and deployment of your applications and containers
 -   Centralized decision making
 
-
-
-**Choreography**
+## Choreography
 -   Distributed decision making
 
+## Containerization - Application containerization is an OS-level virtualization method used to deploy and run distributed applications without launching an entire virtual machine (VM) for each app.
 
-
-**Containerization -** Application containerization is an OS-level virtualization method used to deploy and run distributed applications without launching an entire virtual machine (VM) for each app.
-
-
-
-**Intro**
+## Intro
 
 Kubernetes is a container orchestration tool. It means we are able to tell kubernetes what the state of our cluster should be and it will continuosly run and ensure that the things are in correct state using reconciliation lips.
 
-
-
 State means which things should be running, like we want 3 instances of this application running in the cluster, and want 10 instance of other application. We scheule those in and kubernetes coordinates that and spread that across the server.
 
+## It is maintained by CNCF (Cloud Native Computing Foundation)
 
-
-**It is maintained by CNCF (Cloud Native Computing Foundation)**
-
-
-
-**Traits**
+## Traits
 -   **Abstraction**
 -   **Declarative**
 -   **Immutable**
 
-
-
-**Features -**
+## Features -
 -   Automatic Binpacking
 
 Automatically places containers based on their resource requirements and other constraints, while not sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.
@@ -86,55 +68,41 @@ In addition to services, Kubernetes can manage your batch and CI workloads, repl
 -   Automating complex tasks (operators)
 -   CronJobs
 
-
-
-**Private Kubernetes Cluster**
+## Private Kubernetes Cluster
 
 In Kubernetes Engine, a private cluster is a cluster that makes your master inaccessible from the public internet. In a private cluster, nodes do not have public IP addresses, only private addresses, so your workloads run in an isolated environment. Nodes and masters communicate with each other using VPC peering.
 
 In the Kubernetes Engine API, address ranges are expressed as Classless Inter-Domain Routing (CIDR) blocks.
 
-
-
-**How do Containers communicate in Kubernetes?**
+## How do Containers communicate in Kubernetes?
 
 A Pod is a mapping between containers in Kubernetes. A Pod may contain multiple containers. Pods have a flat network hierarchy inside an overlay network and communicate to each other in a flat fashion, meaning that in theory any pod inside that overlay network can speak to any other Pod.
 
-
-
-**How do Kubenetes orchestrate Containers?**
+## How do Kubenetes orchestrate Containers?
 
 Kubernetes Containers are scheduled to run based on their scheduling policy and the available resources.
 
 Every Pod that needs to run is added to a queue and the scheduler takes it off the queue and schedules it. If it fails, the error handler adds it back to the queue for later scheduling.
 
-
-
-**How do you restrict the communication between Kubernetes Pods?**
+## How do you restrict the communication between Kubernetes Pods?
 
 Depending on the CNI network plugin that you use, if it supports the Kubernetes network policy API, Kubernetes allows you to specify network policies that restrict network access.
 
 Policies can restrict based on IP addresses, ports, and/or selectors. (Selectors are a Kubernetes-specific feature that allow connecting and associating rules or components between each other. For example, you may connect specific volumes to specific Podsbased on labelsby leveraging selectors.)
 
-
-
-**Bind and Consume**
+## Bind and Consume
 
 In the API first approach, APIs are bind to K8s service, to get the important information on the service in real time.
 
 For consume, clients are generated either automatically using CI tools or manually.
 
-
-
-**spec**
+## spec
 
 Virtually everthing we create in Kubernetes is created from a spec
 
 How we want the things to be
 
-
-
-**Other Tools**
+## Other Tools
 
 Mesos
 
@@ -142,9 +110,7 @@ Docker Swarm
 
 Skaffold
 
-
-
-**Managed Service**
+## Managed Service
 
 EKS - Amazon Elastic Container Service
 
@@ -152,9 +118,7 @@ GKE - Google Kubernetes Engine
 
 PKS - <https://pivotal.io/platform/pivotal-container-service>
 
-
-
-**Advanced**
+## Advanced
 -   Hot standby containers for improving recovery-time of Stateful jobs
 
 <https://issues.apache.org/jira/browse/SAMZA-1992>
@@ -162,24 +126,18 @@ PKS - <https://pivotal.io/platform/pivotal-container-service>
 
 <https://www.objectif-libre.com/en/blog/2018/03/19/kubernetes-ipvs>
 
-
-
-**Important points**
+## Important points
 -   Since Kubernetes 1.8, swap is disabled
 -   Container image names cannot be longer than 63 characters
 -   One container can have two services
 
-
-
-**Kubernetes 1.19**
+## Kubernetes 1.19
 
 <https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints
 
 <https://kubernetes.io/docs/concepts/services-networking/ingress
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Kubernetes>
 
@@ -193,8 +151,6 @@ Youtube - Kubernets Webinar Series - Kubenetes Architecture 101 by Janakiram & A
 
 [Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 
-
-
 <https://www.toptal.com/kubernetes/what-is-kubernetes>
 
 <https://www.toptal.com/devops/interview-questions>
@@ -207,9 +163,7 @@ Book - Kubernetes: Up and Running, Kelsey Hightower Book
 
 <https://medium.com/containers-101/kubernetes-deployment-antipatterns-part-1-9e7b54a08b9>
 
-
-
-**Learning (Container.training)**
+## Learning (Container.training)
 
 <https://container.training/kube-selfpaced.yml.html>
 

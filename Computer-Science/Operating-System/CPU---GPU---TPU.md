@@ -11,7 +11,7 @@ MAC - Multiplier, Adder, Accumulator
 Tensor - n-dimensional array
 
 Specifically for matrix operations
-**CPU / GPU**
+## CPU / GPU
 -   A CPU is a scalar machine, which means it processes instructions one step at a time.
 -   A GPU is composed of hundreds of cores that can handle thousands of threads simultaneously.
     -   Thats because GPUs were designed for 3d game rendering, which often involves parallel operations -The ability of a GPU with 100+ cores to process thousands of threads can accelerate some software by 100x over a CPU alone.
@@ -22,7 +22,7 @@ Specifically for matrix operations
 -   This way, we can perform more computations per second, but we have to perform the same computation on a vector of data in parallel.
 -   GPUs are general purpose chips. They don't just perform matrix operations, they can really do any kind of computation.
 -   GPUs are optimized for taking huge batches of data and performing the same operation over and over very quickly
-**TPU**
+## TPU
 -   TPU hardware is comprised of four independent chips.
 -   Each chip consists of two compute cores called Tensor Cores.
 -   A Tensor Core consists of scalar, vector and matrix units (MXU).
@@ -33,14 +33,14 @@ Specifically for matrix operations
 -   Bfloat16 is a 16-bit floating point representation that provides better training and model accuracy than the IEEE half-precision representation. -From a software perspective, each of the 8 cores on a Cloud TPU can execute user computations (XLA ops) independently.
 -   High-bandwidth interconnects allow the chips to communicate directly with each other.-   ![alt text](media/CPU---GPU---TPU-image2.png)
 
-**The Systolic Array**
+## The Systolic Array
 -   The way to achieve that matrix performance is through a piece of architecture called a systolic array.
 -   This is the interesting bit, and it's why a TPU is performant.
 -   A systolic array is a kind of hardware algorithm, and it describes a pattern of cells on a chip that computes matrix multiplication.
 -   "Systolic" describes how data moves in waves across the chip, like the beating of a human heart.
 
 ![alt text](media/CPU---GPU---TPU-image3.png)
-**Use Cases**
+## Use Cases
 
 CPUs:
 -   Quick prototyping that requires maximum flexibility
@@ -61,6 +61,6 @@ TPUs:
 -   Models with no custom TensorFlow operations inside the main training loop
 -   Models that train for weeks or months
 -   Larger and very large models with very large effective batch sizes
-**CPU Time**
+## CPU Time
 
 <https://dzone.com/articles/nice-cpu-time-ni-time-in-top>

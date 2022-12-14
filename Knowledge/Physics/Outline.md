@@ -34,8 +34,6 @@ Modified: 2022-03-12 13:26:08 +0500
 -   [Thermodynamics](https://en.wikipedia.org/wiki/Thermodynamics)
 -   [Vehicle dynamics](https://en.wikipedia.org/wiki/Vehicle_dynamics)
 
-
-
-**Resources**
+## Resources
 
 <https://www.youtube.com/c/PhysicsWallah>

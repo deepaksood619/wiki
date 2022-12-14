@@ -12,20 +12,14 @@ Graph search algorithms like A* are often used to find the shortest path from on
 -   [Greedy Best First Search](http://en.wikipedia.org/wiki/Best_first_search)
 -   [A*](http://en.wikipedia.org/wiki/A*_search_algorithm) Use A* Search Algorithm (For Unweighted as well as Weighted Graphs) - commonly used in games
 
-
-
 2.  One source, all destinations, orall sources, one destination:
 -   [Breadth First Search](http://en.wikipedia.org/wiki/Breadth_first_search)- (For Unweighted Graphs)
 -   [Dijkstra's Algorithm](http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)- (For Weighted Graphs without negative weights)
 -   [Bellman-Ford](http://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)- (For Weighted Graphs with negative weights)
 
-
-
 3.  All sources, all destinations:
 -   [Floyd-Warshall](http://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm)
 -   [Johnson's Algorithm](http://en.wikipedia.org/wiki/Johnson%27s_algorithm)
-
-
 
 There are lots of algorithms that run on graphs. I'm going to cover these:
 

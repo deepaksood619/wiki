@@ -6,7 +6,7 @@ Modified: 2022-01-29 18:45:02 +0500
 
 ---
 
-**Part - 1**
+## Part - 1
 
 [Computer Vision, Deep Learning, and Sensor Fusion](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8)
 
@@ -18,7 +18,7 @@ Next, you'll learn Sensor Fusion, or how to use an array of sensor data to perce
 -   Project:[Traffic Sign Classifier](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8/modules/6b6c37bc-13a5-47c7-88ed-eb1fce9789a0/lessons/7ee8d0d4-561e-4101-8615-66e0ab8ea8c8/project)
 -   Project:[Behavioral Cloning](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8/modules/6b6c37bc-13a5-47c7-88ed-eb1fce9789a0/lessons/3fc8dd70-23b3-4f49-86eb-a8707f71f8dd/project)
 -   Project:[Extended Kalman Filters](https://classroom.udacity.com/nanodegrees/nd013/parts/edf28735-efc1-4b99-8fbb-ba9c432239c8/modules/49d8fda9-69c7-4f10-aa18-dc3a2d790cbe/lessons/3feb3671-6252-4c25-adf0-e963af4d9d4a/project)
-**Lectures**
+## Lectures
 -   **Computer Vision Fundamentals**
 -   **Camera Calibration**
 -   **Gradients and Color Spaces**
@@ -35,7 +35,7 @@ Next, you'll learn Sensor Fusion, or how to use an array of sensor data to perce
 -   **C++ Checkpoint**
 -   **Geometry and Trigonometry Refresher**
 -   **Extended Kalman Filters**
-**Part - 2**
+## Part - 2
 
 [Localization, Path Planning, Control, and System Integration](https://classroom.udacity.com/nanodegrees/nd013/parts/30260907-68c1-4f24-b793-89c0c2a0ad32)
 
@@ -48,7 +48,7 @@ After that, you'll learn how to plan where the vehicle should go, and how the ve
 -   Project:Improve Your LinkedIn Profile
 -   Project:Optimize Your GitHub Profile
 -   Project:Programming a Real Self-Driving Car
-**Computer Vision Fundamentals**
+## Computer Vision Fundamentals
 -   Color selection
 -   Region masking
 -   Gradient of an image
@@ -61,7 +61,7 @@ We will use equation of a line to model the line and then find lines using this 
 -   Hough Transform is just a conversion from Image Space to Hough Space
     -   Characterization of a line in image space will be a single point at the position (m, b) in Hough space.
     -   A point in an image space will be a line in Hough Space
-**For edge detection - HED - Holistically Nested Edge Detection**
+## For edge detection - HED - Holistically Nested Edge Detection
 
 <https://www.pyimagesearch.com/2019/03/04/holistically-nested-edge-detection-with-opencv-and-deep-learning>
 

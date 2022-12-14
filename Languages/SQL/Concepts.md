@@ -6,11 +6,9 @@ Modified: 2021-12-31 11:47:23 +0500
 
 ---
 
-**Predicate**
+## Predicate
 
-**A WHERE clause is a predicate.** Retrieving records from a database using a projection statement like SELECT and combining it with any other clause that limits or filters your result set is considered to be a predicate. A predicate is an assertion which returns true or false. Only the true path affects the result set.
-
-
+## A WHERE clause is a predicate. Retrieving records from a database using a projection statement like SELECT and combining it with any other clause that limits or filters your result set is considered to be a predicate. A predicate is an assertion which returns true or false. Only the true path affects the result set.
 
 A predicate defines a logical condition being applied to rows in a table. SQL Predicates are found on the tail end of clauses, functions, and SQL expressions in existing query statements. It is an expression that evaluates to**TRUE**,**FALSE**, or**UNKNOWN**. Predicates are used in the search condition of**WHERE**clauses and**HAVING**clauses, the join conditions of**FROM**clauses, and other constructs where a Boolean value is required.
 
@@ -28,9 +26,7 @@ All and any Operator.
 
 Like,
 
-
-
-**LIKE Operator**
+## LIKE Operator
 
 LIKE is an operator that compares column values with a specified pattern. During pattern matching, regular characters must exactly match the characters specified in the character string. The data type of the column can be any character or date data type. There are certain characters within the pattern, called wildcard characters.
 
@@ -44,39 +40,27 @@ c.  Bracket ([]): It is used to represent or search any single character within 
 
 d.  Caret (^): It is used to represent or search any single character not within the specified range.
 
-
-
-**Example**
+## Example
 
 -- Like Operator
 
 Select User_ID, FirstName, LastName, Salary from UserDetail where FirstName LIKE '%h%';
 
-
-
 <https://www.quora.com/What-is-a-predicate-in-SQL>
 
-
-
-**SQL Subqueries**
+## SQL Subqueries
 -   A subquery is a SQL query within a query.
 -   Subqueries are nested queries that provide data to the enclosing query.
 -   Subqueries can return individual values or a list of records
 -   Subqueries must be enclosed with parenthesis
 
-
-
 <https://www.dofactory.com/sql/subquery>
 
-
-
-**SQL Window Functions**
+## SQL Window Functions
 
 Window functions can be simply explained as calculation functions similar to aggregating, but where normal aggregating via theGROUP BYclause combines then hides the individual rows being aggregated, window functions have access to individual rows and can add some of the attributes from those rows into the result set.
 
-![Diagram comparing aggregate functions and window functions](media/Concepts-image1.png)
-
-
+![image](media/Concepts-image1.png)
 
 
 

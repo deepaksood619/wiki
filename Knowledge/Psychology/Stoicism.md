@@ -6,7 +6,7 @@ Modified: 2022-04-09 18:34:42 +0500
 
 ---
 
-**Blinkist - How to be a Stoic by Massimo Pigliucci (29 Aug 2018)**
+## Blinkist - How to be a Stoic by Massimo Pigliucci (29 Aug 2018)
 -   Stoicism offers a practical and sensible guide to tackling life's problems and challenges.
 -   It concerns itself with three disciplines.
     -   Desire - what we should and should not aim for;
@@ -54,25 +54,15 @@ Types of friendships
     -   The Stoics believed that by imagining the worst case scenario ahead of time, they could overcome their fears of negative experiences and make better plans to prevent them. While most people were focused on how they could achieve success, the Stoics also considered how they would manage failure. What would things look like if everything went wrong tomorrow? And what does this tell us about how we should prepare today?
     -   This way of thinking, in which you consider the opposite of what you want, is known as inversion.
 
-
-
 Avoiding stupidity is easier than trying to be brilliant. Instead of asking, "How can I help my company?" you should ask, "What's hurting my company the most and how can I avoid it?" Identify obvious failure points, and steer clear of them.
 
+## Reframing
 
-
-**Reframing**
-
-**To solve your toughest problems, Change the problems you solve**
-
-
+## To solve your toughest problems, Change the problems you solve
 
 Reframing is not about finding the real problem. Its about finding a better problem to solve.
 
-
-
 <https://feelinspired.medium.com/a-very-powerful-tool-for-problem-solving-reframing-9141863a40b1>
-
-
 
 <https://jamesclear.com/inversion>
 

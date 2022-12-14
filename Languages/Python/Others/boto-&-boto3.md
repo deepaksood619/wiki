@@ -8,12 +8,8 @@ Modified: 2022-08-12 12:39:56 +0500
 
 AWS SDK for python
 
-
-
-**Security**
+## Security
 -   There should never be a need to put access credentials in your code (it is bad for security). If the code is running on an Amazon EC2 instance, simply assign an IAM Role to the instance. If the code is running on your own computer, use the[AWS Command-Line Interface (CLI)](http://aws.amazon.com/cli/)aws configurecommand to store the credentials in a local configuration file.
-
-
 
 # Catching Exceptions
 
@@ -36,17 +32,11 @@ print("Unexpected error: %s" % e)
 -   ['Error']['Message']e.g. "An error occurred (EntityAlreadyExists) ..."
 -   ['Error']['Type']e.g. 'Sender'
 
-
-
 <https://stackoverflow.com/questions/33068055/how-to-handle-errors-with-boto3>
 
-
-
-**Client - RDS**
+## Client - RDS
 
 client = boto3.client('rds')
-
-
 
 response = client.delete_db_instance(
 
@@ -56,8 +46,6 @@ SkipFinalSnapshot=True,
 
 )
 
-
-
 response = client.delete_db_cluster(
 
 DBClusterIdentifier=db_cluster_identifier,
@@ -65,8 +53,6 @@ DBClusterIdentifier=db_cluster_identifier,
 SkipFinalSnapshot=True,
 
 )
-
-
 
 response = client.restore_db_cluster_to_point_in_time(
 
@@ -90,8 +76,6 @@ DBClusterParameterGroupName='aurora-analytics-cluster-group',
 
 )
 
-
-
 response = client.create_db_instance(
 
 DBInstanceIdentifier=db_cluster_identifier,
@@ -112,8 +96,6 @@ DBClusterIdentifier=db_cluster_identifier,
 
 )
 
-
-
 response = client.add_role_to_db_cluster(
 
 DBClusterIdentifier=db_cluster_identifier,
@@ -121,8 +103,6 @@ DBClusterIdentifier=db_cluster_identifier,
 RoleArn='arn:aws:iam::331916247734:role/rds_s3_migration_role',
 
 )
-
-
 
 response = client.modify_db_parameter_group(
 
@@ -164,31 +144,19 @@ Parameters=[
 
 )
 
-
-
-**Client S3**
+## Client S3
 
 import boto3
 
 s3_client = boto3.client('s3', aws_access_key_id = 'AKIAU2R6AAK3FIYUQBXY', aws_secret_access_key = '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')
 
-
-
 key = f"test/{datetime.now().strftime('%Y%m%d')}/{payload['cust_id']}-{datetime.now().strftime('%Y%m%d%H%M%S%f')}.json"
-
-
 
 s3_client.put_object(Body=json.dumps(payload), Bucket='stashfin-migration-data', Key=key)
 
-
-
 The**upload_file**method is handled by the S3 Transfer Manager, this means that it will automatically handle multipart uploads behind the scenes for you, if necessary.
 
-
-
 Theput_objectmethod maps directly to the low-level S3 API request. It does not handle multipart uploads for you. It will attempt to send the entire body in one request.
-
-
 
 def uploadFileTos3Bucket(self,fileName):
 
@@ -201,8 +169,6 @@ client = boto3.client('s3',aws_access_key_id=AWS_ACC_KEY,
 aws_secret_access_key=AWS_SEC_ACC_KEY,
 
 region_name="ap-south-1")
-
-
 
 date = datetime.now().strftime("%Y-%m-%d")
 
@@ -222,17 +188,13 @@ return response
 
 
 
-
-
-**# fetch json from s3 using boto3 client**
+## # fetch json from s3 using boto3 client
 
 result = client.get_object(Bucket=BUCKET, Key=FILE_TO_READ)
 text = result["Body"].read().decode()
 print(text['Details']) # Use your desired JSON Key for your value
 
-
-
-**# fetch json from s3 using boto3 resource**
+## # fetch json from s3 using boto3 resource
 
 s3 = boto3.resource('s3')
 
@@ -241,40 +203,28 @@ file_content = content_object.get()['Body'].read().decode('utf-8')
 json_content = json.loads(file_content)
 print(json_content['Details'])
 
-
-
-**# download file**
+## # download file
 
 import boto3
 
 s3 **=** boto3**.**client('s3')
 s3**.**download_file('BUCKET_NAME', 'OBJECT_NAME', 'FILE_NAME')
 
-
-
 download_file(Bucket, Key, Filename, ExtraArgs=None, Callback=None, Config=None)
-
-
 
 # Download an S3 object to a file.
 
 s3 **=** boto3**.**client('s3')
-**with** open('FILE_NAME', 'wb') **as** f:
+## with** open('FILE_NAME', 'wb') **as f:
 s3**.**download_fileobj('BUCKET_NAME', 'OBJECT_NAME', f)
-
-
 
 download_fileobj(Bucket, Key, Fileobj, ExtraArgs=None, Callback=None, Config=None)
 
 Download an object from S3 to a file-like object. The file-like object must be in binary mode. This is a managed transfer which will perform a multipart download in multiple threads if necessary.
 
-
-
 <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-example-download-file.html>
 
-
-
-**# create signed url**
+## # create signed url
 
 url = s3_client.generate_presigned_url(
 
@@ -286,29 +236,21 @@ ExpiresIn=settings.REPORT_TTL,
 
 )
 
-
-
-**Boto3 Error handling**
+## Boto3 Error handling
 
 <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/error-handling.html>
 
-
-
-**AWS**
+## AWS
 
 Here's some more detailed information on what[Client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html),[Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html), and[Session](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/session.html)are all about.
 
-
-
-**Client:**
+## Client:
 -   low-level AWS service access
 -   generated from AWSservicedescription
 -   exposes botocore client to the developer
 -   typically maps 1:1 with the AWS service API
 -   all AWS service operations are supported by clients
 -   snake-cased method names (e.g. ListBuckets API => list_buckets method)
-
-
 
 Here's an example of client-level access to an S3 bucket's objects (at most 1000**):
 
@@ -322,9 +264,7 @@ print(content['Key'], obj_dict['LastModified'])
 
 ** you would have to use a[paginator](http://boto3.readthedocs.io/en/latest/guide/paginators.html), or implement your own loop, calling list_objects() repeatedly with a continuation marker if there were more than 1000.
 
-
-
-**Resource:**
+## Resource:
 -   higher-level, object-oriented API
 -   generated fromresourcedescription
 -   uses identifiers and attributes
@@ -345,20 +285,14 @@ Note that in this case you do not have to make a second API call to get the obje
 
 You can see that theResourceversion of the code is much simpler, more compact, and has more capability (it does pagination for you). TheClientversion of the code would actually be more complicated than shown above if you wanted to include pagination.
 
-
-
-**Session:**
+## Session:
 -   stores configuration information (primarily credentials and selected region)
 -   allows you to create service clients and resources
 -   boto3 creates a default session for you when needed
 
-
-
 <https://stackoverflow.com/questions/42809096/difference-in-boto3-between-resource-client-and-session>
 
-
-
-**Retries**
+## Retries
 
 Your AWS client might see calls to AWS services fail due to unexpected issues on the client side. Or calls might fail due to rate limiting from the AWS service you're attempting to call. In either case, these kinds of failures often don't require special handling and the call should be made again, often after a brief waiting period. Boto3 provides many features to assist in retrying client calls to AWS services when these kinds of errors or exceptions are experienced.
 
@@ -366,9 +300,7 @@ Your AWS client might see calls to AWS services fail due to unexpected issues on
 
 <https://docs.aws.amazon.com/general/latest/gr/api-retries.html>
 
-
-
-**References**
+## References
 
 <https://github.com/boto/boto3>
 
@@ -378,14 +310,8 @@ Your AWS client might see calls to AWS services fail due to unexpected issues on
 
 Example for sending email - <https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-using-sdk-python.html>
 
-
-
 <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/rds.html>
 
-
-
 <https://www.youtube.com/watch?v=Cb2czfCV4Dg>
-
-
 
 <https://medium.com/tysonworks/concurrency-with-boto3-41cfa300aab4>

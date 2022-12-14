@@ -6,7 +6,7 @@ Modified: 2018-12-06 20:54:44 +0500
 
 ---
 
-**tl;dr** : You need to set advertised.listeners (or KAFKA_ADVERTISED_LISTENERS if you're using Docker images) to the external address (host/IP) so that clients can correctly connect to it. Otherwise they'll try to connect to the internal host address--and if that's not reachable then problems ensue.
+## tl;dr : You need to set advertised.listeners (or KAFKA_ADVERTISED_LISTENERS if you're using Docker images) to the external address (host/IP) so that clients can correctly connect to it. Otherwise they'll try to connect to the internal host address--and if that's not reachable then problems ensue.
 
 ![](../../media/Technologies-Kafka-Kafka-Listeners-image1.png)
 
@@ -252,11 +252,7 @@ Metadata for all topics (from broker -1: kafka0:29094/bootstrap):
 1 brokers:
 broker 0 at never-gonna-give-you-up:29094
 
-
-
-**References**
+## References
 
 <https://rmoff.net/2018/08/02/kafka-listeners-explained
-
-
 

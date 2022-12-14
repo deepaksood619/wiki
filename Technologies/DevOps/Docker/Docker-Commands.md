@@ -6,7 +6,7 @@ Modified: 2022-05-25 17:09:09 +0500
 
 ---
 
-**Installation**
+## Installation
 
 sudo apt-get update
 
@@ -14,19 +14,13 @@ sudo apt-get -y install docker.io
 
 ~~--add-host="" : Add a line to /etc/hosts (host:IP)~~
 
-
-
 <https://docs.docker.com/engine/install/ubuntu
 
 sudo service docker start
 
 sudo usermod -a -G docker ubuntu
 
-
-
 sudo apt install docker-compose
-
-
 
 # Containers
 
@@ -37,8 +31,6 @@ sudo apt install docker-compose
 
 docker info --format '{{.LoggingDriver}}'
 
-
-
 ## Lifecycle
 -   [docker create](https://docs.docker.com/engine/reference/commandline/create)creates a container but does not start it.
 -   [docker rename](https://docs.docker.com/engine/reference/commandline/rename/)allows the container to be renamed.
@@ -47,8 +39,6 @@ docker info --format '{{.LoggingDriver}}'
 --env, -e = Set environment variables
 
 docker run <image_name>
-
-
 
 # override entrypoint
 
@@ -60,8 +50,6 @@ docker run --rm -it -p=8080:8080 inventree/inventree
 -   [docker rm](https://docs.docker.com/engine/reference/commandline/rm)deletes a container.
 -   [docker update](https://docs.docker.com/engine/reference/commandline/update/)updates a container's resource limit
 
-
-
 ## Starting and Stopping
 -   [docker start](https://docs.docker.com/engine/reference/commandline/start)starts a container so it is running
 -   [docker stop](https://docs.docker.com/engine/reference/commandline/stop)stops a running container
@@ -71,8 +59,6 @@ docker run --rm -it -p=8080:8080 inventree/inventree
 -   [docker wait](https://docs.docker.com/engine/reference/commandline/wait)blocks until running container stops
 -   [docker kill](https://docs.docker.com/engine/reference/commandline/kill)sends a SIGKILL to a running container
 -   [docker attach](https://docs.docker.com/engine/reference/commandline/attach)will connect to a running container
-
-
 
 ## Info
 -   [docker ps](https://docs.docker.com/engine/reference/commandline/ps)shows running containers.
@@ -90,21 +76,17 @@ Options:
 
 --since string Show logs since timestamp (e.g. 2013-01-02T13:23:37) or relative (e.g. 42m for 42 minutes)
 
-**--tail string Number of lines to show from the end of the logs (default "all")**
+## --tail string Number of lines to show from the end of the logs (default "all")
 
 -t, --timestamps Show timestamps
 
 --until string Show logs before a timestamp (e.g. 2013-01-02T13:23:37) or relative (e.g. 42m for 42 minutes)
 
-**Example -**
+## Example -
 
 docker logs -t --since 2018-08-02T00:00:00 zenalytix-prod
 
-
-
 docker logs --timestamps --since='2019-04-22T14:40:36.750121287Z' --until='2019-04-22T15:30:36.750121287Z' kafkaconsumer_kafka-smap-consumer.1.7uq0n8eysgxf5wnx0pbu4lwcx
-
-
 
 docker logs smap-archiver > stdout.log 2>stderr.log
 
@@ -119,8 +101,6 @@ docker logs smap-archiver > stdout.log 2>stderr.log
 -   **docker secret** - Manage docker secrets
     -   create, inspect, ls, rm
 
-
-
 # Images
 
 Images are just[templates for docker containers](https://docs.docker.com/engine/understanding-docker/#how-does-a-docker-image-work).
@@ -128,8 +108,6 @@ Images are just[templates for docker containers](https://docs.docker.com/engine/
 <https://hub.docker.com/r/ealen/echo-server>
 
 <https://hub.docker.com/_/hello-world>
-
-
 
 ## Lifecycle
 -   [docker images](https://docs.docker.com/engine/reference/commandline/images)shows all images.
@@ -157,8 +135,6 @@ sudo docker tag monolith:1.0.0 deepaksood619/monolith:1.0.0
 
 docker tag azure-vote-front gcr.io/zenatix-data-archiver/azure-vote-front:v1
 
-
-
 # Network
 -   docker network connect - Connect a container to a network
 -   docker network create - Create a network
@@ -170,11 +146,9 @@ docker network create --subset=172.18.0.0/16 zenatix-docker
 -   docker network prune - Remove all unused networks
 -   docker network rm - Remove one or more networks
 
-
-
 # Volumes
 
-**cd /var/lib/docker/volumes/druid-volume/_data/segment-cache**
+## cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 
 | [docker volume create](https://docs.docker.com/engine/reference/commandline/volume_create/)   | Create a volume                                     |
 |------------------------|------------------------------------------------|
@@ -183,13 +157,9 @@ docker network create --subset=172.18.0.0/16 zenatix-docker
 | [docker volume prune](https://docs.docker.com/engine/reference/commandline/volume_prune/)     | Remove all unused local volumes                     |
 | [docker volume rm](https://docs.docker.com/engine/reference/commandline/volume_rm/)           | Remove one or more volumes                          |
 
-
-
 # Docker CLI
 
 docker cp <containerId>:/file/path/within/container /host/path/target
-
-
 
 # Cleanup Commands
 -   docker stop $(docker ps -aq) #stop all running containers
@@ -209,19 +179,13 @@ docker cp <containerId>:/file/path/within/container /host/path/target
 
 -   docker system prune -a #clean all, Can kill container in kubernetes cluster
 
-
-
-**Kubernetes Cleanup Commands**
+## Kubernetes Cleanup Commands
 -   **docker system df #check volume status (docker sizes)**
 
 -   docker container prune
 -   docker image prune -a
 
-
-
 <https://github.com/onfido/k8s-cleanup>
-
-
 
 # Base Commands
 -   docker run --rm -it -v $PWD:/build ubuntu:18.04 #create a docker image of ubuntu:18.04
@@ -233,16 +197,12 @@ docker cp <containerId>:/file/path/within/container /host/path/target
 -   Exit a container - CTRL + D
 -   docker run -it --network="host" --name mynodered nodered/node-red-docker #for binding docker to localhost, published ports doesn't work when --network="host" is used
 
-
-
-**Other Commands**
+## Other Commands
 -   docker exec -it --user root temp-emqx /bin/sh #get inside docker container as user root
 -   whoami #get logged in user inside docker container
 -   sudo systemctl restart docker (When docker gets hanged)
 
-
-
-**Scaling**
+## Scaling
 
 docker-compose up -d --scale tasks_runner=5
 

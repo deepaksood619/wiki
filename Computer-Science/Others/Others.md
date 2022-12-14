@@ -6,7 +6,7 @@ Modified: 2022-04-09 13:11:28 +0500
 
 ---
 
-**Gamification**
+## Gamification
 
 The use of game elements and game design techniques in non-game contexts
 
@@ -25,31 +25,31 @@ Two types of users -
 1.  **Achievers -** are eager to complete the many challenges with which they're confronted.
 
 2.  **Explorers -** trive to find hid- den items they can likely collect by exploring a software system's differ- ent areas
-**Performance Modelling**
+## Performance Modelling
 
-![performance modeling model as real-world system theoretical model analyze results translate back * makes assumptions about the system: request arrival rate, service order, times. cannot apply the results if your system does not satisfy them! ](media/Others-image1.png)
-![a single server open, closed queueing systems utilization law, the P-K formula, Little's law CoDeI, adaptive LIFO a cluster of many servers the USL scaling bottlenecks stepping back the role of performance modeling ](media/Others-image2.png)
-![model the web server as a queueing system. web server queueing delay + service time = response time assumptions 1. requests are independent and random, arrive at some "arrival rate". 2. requests are processed one at a time, in FIFO order; requests queue if server is busy ("queueing delay"). ](media/Others-image3.png)
-!["What's the maximum throughput of this server?" i.e. given a response time target arrival rate increases Utilization law server utilization increases linearly P-K formula P(request has to queue) increases, so mean queue length increases, so mean queueing delay increases. ](media/Others-image4.png)
-![Pollaczek-l<hinchine (P-K) formula U * (mean service time) * (service time variability)2 mean queueing delay = assuming constant service time and so, request sizes: mean queueing delay (queueing delay + service time) since response time queueing delay Q) utilization (U) Q) utilization (U) ](media/Others-image5.png)
-**Software defined radio**
+![image](media/Others-image1.png)
+![image](media/Others-image2.png)
+![image](media/Others-image3.png)
+![image](media/Others-image4.png)
+![image](media/Others-image5.png)
+## Software defined radio
 
-**WHAT IS SOFTWARE-DEFINED RADIO USED FOR?**
+## WHAT IS SOFTWARE-DEFINED RADIO USED FOR?
 
 Software-defined radio can be used for all traditional radio applications, but much more flexibly. This allows for the prototyping and development of next-generation radio applications. In this article, though, we use an RTL-SDR for simply receiving narrow-band FM signals.
-**HOW DOES SOFTWARE-DEFINED RADIO WORK?**
+## HOW DOES SOFTWARE-DEFINED RADIO WORK?
 
 A software-defined radio works by implementing traditionally hardware components in software on a personal computer or embedded system.
-**WHAT IS A WAVEFORM IN SOFTWARE-DEFINED RADIO?**
+## WHAT IS A WAVEFORM IN SOFTWARE-DEFINED RADIO?
 
 A waveform is a representation of a wave over a time period. In software-defined radio, it is the same as a waveform in regular radio. It can be used to represent the sound being modulated or demodulated, the signal being transmitted, radiated, or received, or any other waves in the process.
-**WHAT IS SDR IN HAM RADIO?**
+## WHAT IS SDR IN HAM RADIO?
 
 SDR can be used in ham radio like any other radio application. Amateur radio is a hobby about exploration, and so hams can use the SDR as a receiver, or as a transmitter. They can even use it to create completely new radio applications.
-**WHAT IS RTL IN RTL-SDR?**
+## WHAT IS RTL IN RTL-SDR?
 
 RTL is short for RTL2832U. The Realtek RTL2832U chipset was a popular choice for digital video broadcast (DVB-T) receivers, whose original purpose was to receive video. It was discovered that these could be hacked and turned into wideband SDR receivers. These devices have come to be known as the RTL-SDR.
-**CAN YOU TRANSMIT WITH SDR?**
+## CAN YOU TRANSMIT WITH SDR?
 
 It depends on the SDR. If you have the right hardware, yes you can, but not with the RTL-SDR. Some transmission capable SDRs include the HackRF, PlutoSDR, LimeSDR, LimeSDR Mini, and more.
 <https://www.toptal.com/software/software-defined-radio-tutorial-rtl-sdr>

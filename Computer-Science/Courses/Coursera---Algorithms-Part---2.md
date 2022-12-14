@@ -8,9 +8,9 @@ Modified: 2018-07-01 22:55:14 +0500
 
 # Syllabus
 
-**Week - 1**
+## Week - 1
 
-**Undirected Graph**
+## Undirected Graph
 
 1.  Introduction to graph
 
@@ -27,7 +27,7 @@ Modified: 2018-07-01 22:55:14 +0500
 5.  Connected Components
 
 6.  Graph Challenges
-**Directed Graph**
+## Directed Graph
 
 1.  Introduction to Digraphs
 
@@ -48,12 +48,12 @@ Modified: 2018-07-01 22:55:14 +0500
     a.  Garbage Collection
 
     b.  Web Crawling
-**Assignment**
+## Assignment
 
 WordNet
-**Week - 2**
+## Week - 2
 
-**Minimum Spanning Tree**
+## Minimum Spanning Tree
 
 1.  Introduction to MSTs
 
@@ -66,7 +66,7 @@ WordNet
 5.  Prim's Algorithm
 
 6.  MST Context
-**Shortest Path**
+## Shortest Path
 
 1.  Shortest Path APIs
 
@@ -77,12 +77,12 @@ WordNet
 4.  Edge-Weighted DAGs
 
 5.  Negative Weights (Bellman Ford Algorithm)
-**Assignment**
+## Assignment
 
 Seam Carving
-**Week - 3**
+## Week - 3
 
-**Maximum Flow and Minimum Cut**
+## Maximum Flow and Minimum Cut
 
 1.  Introduction to Maxflow
 
@@ -95,10 +95,10 @@ Seam Carving
 5.  Java Implementation
 
 6.  Maxflow Applications
-**Assignment**
+## Assignment
 
 Baseball Elimination
-**Radix Sorts**
+## Radix Sorts
 
 1.  Strings in Java
 
@@ -111,16 +111,16 @@ Baseball Elimination
 5.  3-way Radix Quicksort
 
 6.  Suffix Arrays
-**Week - 4**
+## Week - 4
 
-**Tries**
+## Tries
 
 1.  R-way Tries
 
 2.  Ternary Search Tries
 
 3.  Character-Based Operations
-**Substring Search**
+## Substring Search
 
 1.  Introduction to Substring Search
 
@@ -131,12 +131,12 @@ Baseball Elimination
 4.  Boyer-Moore
 
 5.  Rabin-Karp
-**Assignment**
+## Assignment
 
 Boggle
-**Week - 5**
+## Week - 5
 
-**Regular Expressions**
+## Regular Expressions
 
 1.  Regular Expressions
 
@@ -147,7 +147,7 @@ Boggle
 4.  NFA Construction
 
 5.  RE Applications
-**Data Compression**
+## Data Compression
 
 1.  Introduction
 
@@ -156,12 +156,12 @@ Boggle
 3.  Huffman Compression
 
 4.  LZW Compression
-**Assignment**
+## Assignment
 
 Burrows-Wheeler
-**Week - 6**
+## Week - 6
 
-**Reductions**
+## Reductions
 
 1.  Introduction
 
@@ -170,7 +170,7 @@ Burrows-Wheeler
 3.  Establishing Lower Bounds
 
 4.  Classifying Problems
-**Linear Programming**
+## Linear Programming
 
 1.  Brewer's Problem
 
@@ -179,7 +179,7 @@ Burrows-Wheeler
 3.  Simplex Implementations
 
 4.  Linear Programming Reductions
-**Intractability**
+## Intractability
 
 1.  Introduction
 
@@ -208,7 +208,7 @@ Burrows-Wheeler
 
 # Assignments
 
-**WordNet:** is a semantic lexicon for the English language that is used extensively by computational linguists and cognitive scientists.
+## WordNet: is a semantic lexicon for the English language that is used extensively by computational linguists and cognitive scientists.
 
 WordNet groups words into sets of synonyms called*synsets*and describes semantic relationships between them.
 

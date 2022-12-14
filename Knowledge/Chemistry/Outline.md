@@ -55,21 +55,13 @@ Modified: 2022-03-13 18:48:20 +0500
 -   [Theoretical chemistry](https://en.wikipedia.org/wiki/Theoretical_chemistry)
 -   [Thermochemistry](https://en.wikipedia.org/wiki/Thermochemistry)
 
-
-
 <https://www.youtube.com/watch?v=P3RXtoYCW4M&ab_channel=DoS-DomainofScience>
 
 [Hydrogen to Oganesson | Every Single Element! | SCIENCE](https://youtu.be/i6jc3f5tseI)
 
-
-
 pH - power of Hydrogen, it is represented logarithmically. One number change represents 10 fold change.
 
-
-
-![VISUALIZING THE ABUNDANCE OF ELEMENTS IN THE EARTH'S CRUST The Earth's crust is only 1% of the planet's volume but it contains the materials we use everyday. Here is the abundance of elements in the Earth's crust by percentage Mag 2.33% 2.09% 0.565% O Sodium O Calcium 4.15% O Iron 5.53% is m0St mined metal, essential for steel production. Aluminum 0 8.23% Aluminum is the most abundant found in the Earth's Crust silicon 282% While gold, silver, copper and other base and precious metals are amons the most sought after elements, together they make up less than 0.03% ofthe Earths crust. Copper: 0006% zinc: 0.007% Rest of elements 0.48% Nickel: 0.0084% Gold: Silver; 0.0000075% Platinum: 00000005% Palladium: 00000015% TOP 10 ELEMENTS A Ofthe oxygen in the Crust is in the form Of silicates, which are compounds Of Oxygen and silicon. %urce: The Most Abundant Elements in the The Earth's Crust. World Atlas ELEMENTS elements.visualcapitalist.com The Earth's natural resources power our everyday lives. VC Elements breaks down the building blocks of the universe. -Rank number Oxygen 6.1% Oxygen is highly reactive and can bond with minerals, is found in common compounds in the Earth's Crust. We live in a material world. ](media/Outline-image1.jpg)
-
-
+![image](media/Outline-image1.jpg)
 
 [CrashCourse - Chemistry](https://youtube.com/playlist?list=PLG61LF8I_OXoh2mhx2YNY9s4ekXiriMAf)
 

@@ -8,60 +8,36 @@ Modified: 2022-01-12 11:38:46 +0500
 
 <https://www.atlassian.com/agile>
 
-
-
 You cannot predict what happen in next 10 years, but if you are agile enough you can change accordingly
-
-
 
 Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.
 
-
-
-**Agile Development (Iterative)**
+## Agile Development (Iterative)
 -   One cannot anticipate every detail of a complex problem.
 -   Start simple (with something that works), then improve it.
 -   Identify emerging patterns and continuously adapt the structure of your code. (Refactoring, for which you want Unittests)
 
-
-
 Agility gives the enterprise the ability to out-innovate its competition. And, as technology both raises the bar for competition and lowers barriers to innovation, those enterprises that fail to out-innovate will themselves be out-innovated into oblivion.
 
-
-
-**Why choose agile?**
+## Why choose agile?
 
 Teams choose agile so they can respond to changes in the marketplace or feedback from customers quickly without derailing a year's worth of plans. "Just enough" planning and shipping in small, frequent increments lets your team gather feedback on each change and integrate it into future plans at minimal cost.
 
-
-
-**Agile yesterday, today, and tomorrow**
+## Agile yesterday, today, and tomorrow
 
 The publication of the Agile Manifesto in 2001 marks the birth of agile as a methodology. Since then, many agile frameworks have emerged such as **Scrum, Kanban, Lean, Crystal Clear, and Extreme Programming (XP).** Each embodies the core principles of frequent iteration, continuous learning, and high quality in its own way.**[Scrum](https://www.atlassian.com/agile/scrum)and XP are favored by software development teams, while[Kanban](https://www.atlassian.com/agile/kanban)is a darling among service-oriented teams like IT or human resources.**
 
-
-
 Today, many agile teams combine practices from a few different frameworks, spiced up with practices unique to the team. Some call this heresy. We call it practical. It's not about "Agile" -- it's about agility.
-
-
 
 The agile teams of tomorrow will value their own effectiveness over adherence to doctrine. Openness, trust, and autonomy are emerging as the cultural currency for companies who want to attract the best people and get the most out of them. Such companies are already proving that practices can vary across teams, as long as they're guided by the right principles.
 
-
-
 Although many of our teams organize their work in sprints, estimate in story points, and prioritize their backlogs, we're not die-hard practitioners of Scrum. Or Kanban. Or any other trademarked methodology. Instead, we give each team the autonomy to cherry-pick the practices that will make them most effective. And we encourage you to take a similar approach.
-
-
 
 For example, if you're on a queue-oriented team like IT, Kanban provides a solid foundation for your agile practice. But nothing should stop you from sprinkling in a few Scrum practices like demo sessions with stakeholders or regular retrospectives.
 
-
-
 The key to doing agile right is[embracing a mindset of continuous improvement](https://www.atlassian.com/blog/agile/how-to-stay-agile-and-keep-improving). Experiment with different practices and have open, honest discussions about them with your team. Keep the ones that work, and throw out the ones that don't.
 
-
-
-**Topics**
+## Topics
 -   **Agile manifesto**
 -   **Scrum**
 -   **Kanban**
@@ -195,21 +171,17 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 -   **DevOps**
 -   **Agile teams**
 
+## Agile Manifesto
 
+## Individuals and interactionsover processes and tools
 
-**Agile Manifesto**
+## Working softwareover comprehensive documentation
 
-**Individuals and interactions**over processes and tools
+## Customer collaborationover contract negotiation
 
-**Working software**over comprehensive documentation
+## Responding to changeover following a plan
 
-**Customer collaboration**over contract negotiation
-
-**Responding to change**over following a plan
-
-
-
-**12 Principles of the Agile Manifesto**
+## 12 Principles of the Agile Manifesto
 
 1.  Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
@@ -235,9 +207,7 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 
-
-
-**Steps in Agile Project Management**
+## Steps in Agile Project Management
 
 1.  Project planning
 
@@ -263,69 +233,43 @@ Daily meetings help the team in accomplishing their daily tasks in an efficient 
 
 Sprint review and retrospective helps the team to inspect itself and plan to make changes to improve the forth coming sprints. Sprint retrospective takes place after the sprint review, and before the next Sprint planning
 
-
-
-**Agile Project Management Frameworks**
+## Agile Project Management Frameworks
 
 1.  **Kanban**
 
 Kanban framework is used to implement agile software development and requires real-time communication. Work items are represented on a Kanban board, allowing team members to see the state of each work at any time
 
-
-
 2.  **Scrum Framework**
 
 Scrum framework helps in dealing with complex problems and making it possible to deliver high-quality products at the same time. It helps in managing complex, advanced work with a little emphasis on software development
-
-
 
 3.  **Hybrid framework**
 
 Hybrid framework is a combination of Agile methods with non-Agile methods. Hybrid can handle requirement changes, and it can deliver product in stages. In hybrid, planning is done using a waterfall approach, while the agile approach handles execution and delivery
 
-
-
 4.  **Lean framework**
 
 The lean framework works on the concept of maximizing customer value with fewer resources and zero waste. Hence, lean focuses on the flow of products and services instead of focusing on separate technologies. Companies can act upon with changing customer needs and requirements
 
+![image](media/Project-Management_Agile-image1.png)
 
-
-![Eliminate waste Amplify Learnings Lean Defer Decisions Build Quality Empower tho team Deliver Fast Optimize the whole process ](media/Project-Management_Agile-image1.png)
-
-
-
-**Extreme Programming**
+## Extreme Programming
 
 [Putting the XP in Scrum • Roy Osherove • GOTO 2021](https://www.youtube.com/watch?v=JtvSp3BPG8I&ab_channel=GOTOConferences)
 
 ![](media/Project-Management_Agile-image2.jpeg)
 
+![image](media/Project-Management_Agile-image3.jpeg)
 
+![image](media/Project-Management_Agile-image4.jpeg)
 
-![User Stories Extreme Programming Project test Sc en •nos New Veer Storr Requiterr.nt$ Pt t Vee•c'tf Releape Release Architectural Iteration Spike manning Bu s Acceptancc Small Tests Releases t-hcertan Egrnxes Spike Codeent E sbrrates Next netgcn ](media/Project-Management_Agile-image3.jpeg)
-
-
-
-![Iteration New User Story, Project Velocity out Release Plan user Stones t*ifintshed Tasks tteoOc.n P'#tt Next Velootf Iteration FuedAccegtance Bugs Iteration Planning Leam and Corrrrunic ate Functionalttf Lat e st Development Bug • Version ](media/Project-Management_Agile-image4.jpeg)
-
-
-
-![Iteration Plan TOS Unfinished Tasks TOO M uch To 00 Stand Up Development Learn and Communicate Pu Prearrrrr•ng Refactor M ercjlessty People Around Cates Collective Out New Functionality 100% Passed Meeting Code Ovmership f Acceptance Day by Day "led Acceptance Acceptance Teg Passed Bug Fixes ](media/Project-Management_Agile-image5.jpeg)
-
-
+![image](media/Project-Management_Agile-image5.jpeg)
 
 ![](media/Project-Management_Agile-image6.jpg)
 
+## Twelve XP Practices
 
-
-**Twelve XP Practices**
-
-![1. 3. 4. 5. 6. Planning Game Short Releases Simple Design Testing + TDD Refactoring Pair Programming 7. Collective Ownership Continuous Integration 9. On-site Customer to. Sustainable Pace 11. Metaphor 12. Coding Standards ](media/Project-Management_Agile-image7.jpeg)
-
-
-
-
+![image](media/Project-Management_Agile-image7.jpeg)
 
 
 

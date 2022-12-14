@@ -8,35 +8,29 @@ Modified: 2021-09-10 20:43:50 +0500
 
 The best exercise for gaining strength is not missing workouts
 
+## Ego-lifting
 
+## mind-muscle connection
 
-**Ego-lifting**
+## meal plan
 
-**mind-muscle connection**
+## 250-500 over tdee
 
-**meal plan**
+## compound lifts
 
-**250-500 over tdee**
+## group two mucle group per day, each muscle group twice-thrice in week
 
-**compound lifts**
+## 2-2-4: concentric-pause-eccentric (concentration curl)
 
-**group two mucle group per day, each muscle group twice-thrice in week**
+## After 6-8 weeks add a deload week
 
-**2-2-4: concentric-pause-eccentric (concentration curl)**
-
-**After 6-8 weeks add a deload week**
-
-
-
-**why biceps won't grow**
+## why biceps won't grow
 
 1.  **high weight**
 
 2.  **not full range of motions**
 
-
-
-**Most important exercises**
+## Most important exercises
 
 1.  Squat (Compound)
 
@@ -52,9 +46,7 @@ The best exercise for gaining strength is not missing workouts
 
 7.  Shoulder press
 
-
-
-**Triceps**
+## Triceps
 
 1.  **Over head exercises**
 
@@ -64,9 +56,7 @@ The best exercise for gaining strength is not missing workouts
 
     c.  **close grip bench press**
 
-
-
-**Pushups**
+## Pushups
 
 1.  Full range of motion
 
@@ -78,13 +68,9 @@ The best exercise for gaining strength is not missing workouts
 
 5.  Breathe in while going down through nose, breathe out while going up (pushing up) through mouth
 
-
-
 <https://www.youtube.com/watch?v=A_7foakUeHw>
 
-
-
-**Gym routine (60 mins)**
+## Gym routine (60 mins)
 
 1.  10 mins stretching
 
@@ -98,9 +84,7 @@ The best exercise for gaining strength is not missing workouts
 
 3.  30 mins weight training
 
-
-
-**5-Day Split Routine**
+## 5-Day Split Routine
 
 Monday -- Chest
 
@@ -140,8 +124,6 @@ Flat-bench lying leg raise
 
 Leg-8, leg+2.5-6, leg+5-4, leg+7.5-2
 
-
-
 Tuesday -- Back
 
 Barbell Deadlift
@@ -172,11 +154,7 @@ Lat pull down back
 
 4-10, 5-8, 6-4
 
-
-
 Wednesday -- arms
-
-
 
 Thursday -- Shoulders
 
@@ -208,8 +186,6 @@ Flat-bench lying leg raise
 
 Leg-7, leg+2.5-7, leg+4-4
 
-
-
 Friday -- Legs
 
 Barbell Squat
@@ -231,8 +207,6 @@ Leg extension back
 Seated leg extension
 
 6-10, 7-4, 8-6
-
-
 
 Saturday -- arms, biceps, triceps
 
@@ -288,15 +262,11 @@ Flat-bench lying leg raise
 
 Leg-10, leg+2.5-8, leg+5-6, leg+7.5-4
 
-
-
 Sunday -- OFF
 
 
 
-
-
-**New Routine**
+## New Routine
 
 Monday - chest
 
@@ -310,8 +280,6 @@ Monday - chest
 
 5. Dumbbell Pullover - 7.5-12, 10-10, 12.5-6
 
-
-
 Tuesday - triceps
 
 1. Dumbbell over head - 5-12, 7.5-8, 10-8
@@ -323,8 +291,6 @@ Tuesday - triceps
 4. Triceps over head pull down - 2-12, 3-10, 4-8
 
 5. Single hand - 2.5-12, 5-10, 5-5
-
-
 
 Wednesday - back
 
@@ -340,8 +306,6 @@ Wednesday - back
 
 6. Hyperextensions - back extension -12,12,12
 
-
-
 Thursday - biceps
 
 1. Barbell curl - barbell - 12, b+5-8, b+5-4
@@ -353,8 +317,6 @@ Thursday - biceps
 4. Dumbbell Hammer curl - 5-12, 7.5-8, 10-3
 
 5. Dumbbell concentration - 5-12, 7.5-6, 7.5-5
-
-
 
 Saturday - shoulders
 
@@ -368,8 +330,6 @@ Saturday - shoulders
 
 5. Front rope row - 2-12, 3-10, 4-8, 5-6
 
-
-
 Friday - Legs
 
 1. Leg press - 5-12, 10-10, 15-8
@@ -382,8 +342,6 @@ Friday - Legs
 
 5. Bodyweight standing calf raise - 12, 10, 8
 
-
-
 1. Deadlifts strength training - minimum 2 times of week
 
 Box jumps
@@ -392,21 +350,17 @@ Box jumps
 
 4. HIIT - BDNF (brain derived neurotrophic factor) - high intensity interval training
 
+![image](media/Exercise---Stretching_Gym-image1.jpg)
 
+![image](media/Exercise---Stretching_Gym-image2.jpg)
 
-![Bar sitting on shoulders (deltoids). Grip bar so elbows are slightly down and outside shoulders. Hands donât touch shoulders. Wrists in-line with forearms. Elbows in front of barball. Squeeze glutes to avoid arching your back. Weight heavy in heels. Feet should-width apart. Chest up and expanded. Bar gripped with all fingers, hands just over shoulder-width apart. Look forward; head neutral. Lift. 1 â dip smoothly at knees only, low enough to create a sufficient drive upward â too low and youâll lose power. Aim for quarter squat. 2. Explode up at bottom of dip, driving the bar upwards using the legs. 3. As the bar leaves shoulders, press your body aggressively under the bar until arms are fully extended. Land with knees bent as much as necessary to receive the bar with arms locked out. Finish. Return to full standing position with bar locked out overhead, while showing control. Lower or drop weight safely. Variation â split jerk. Dip and drive as you would in the power jerk. As bar leaves shoulders, bring one foot forward and one foot back into split position. Front thigh should be 20-40 degrees relative to floor. Front foot faces forward, front shin is vertical, and weight on front heel. Rear foot heal is elevated, weight on ball of foot. Weight should be balanced evenly between front and rear foot. As feet move into split position, push up and back aggressively with arms until arms are fully extended. After stabilizing, step back approx. a third of the way with the front foot, then step forward the rest of the way with rear foot until youâre in vertical standing position.](media/Exercise---Stretching_Gym-image1.jpg)
+![image](media/Exercise---Stretching_Gym-image3.jpg)
 
-![Start: Bar over balls of feet. Arms vertical. Back arched slightly. Head up, elbows facing out. Weight balanced over the foot. 1. Start by pushing feet against the floor, pulling knees back so bar can travel straight up or slightly back staying close to body. Lift starts off slowly and then culminates into an explosive, full-body extension. 2. As bar rises above knees, keep weight in the heels as long as possible and begin to extend hips forward. Keep arms straight and bar as close to body as possible. 3. When the bar reaches about mid-thigh, quickly and powerfully extend hips, knees, and ankles as if trying to jump straight off floor. As bar gains upward momentum, shrug shoulders as fully and quickly as possible. Bend and raise elbows outward, keeping bar close to body as it rises up. The bar should contact the body at the upper thigh or the hips as full hip extension is achieved. 4. As soon as hip extension is achieved, quickly pull body underneath bar, landing solidly in front squat position with gaze forward and torso upright. As you do so, rotate elbows forward and under bar, allowing grip on the bar to loosen as your wrists turn upward. Catch bar on fronts of shoulders â bar between peak of deltoids and throat. Variation: Power Clean. Catch the bar in a quarter-to-half-squat position. This variation requires bar to be pulled higher than full clean. Once the bar feels steady, slowly stand upright. For heavy loads it might be easier to âbounceâ out of squat position without pausing at the bottom.](media/Exercise---Stretching_Gym-image2.jpg)
+![image](media/Exercise---Stretching_Gym-image4.jpg)
 
-![Start. Look forward; head neutral. Grip the bar so that forearms are vertical. Bar about clavicle level. Hands donât touch shoulders. Wrists in line with forearms. Elbows in front of the barbell. Squeeze glutes to avoid arching your back. Weight heavy in heels. Feet hip-shoulder-width apart. Chest up and expanded. Bar gripped in the base of the palms, directly over the forearms. Life. Press bar straight up. Lock elbows out. Squeeze shoulder blades while extending arms overhead until full extension is reached. Keep upper back, glutes, and abs tight. Straight line going from the bar, down through your shoulder blades, and through middle of feet. Drive through heels while pressing. Tuck chin back and press bar straight up and overhead to full extension; return head to neutral and bring torso forward once bar clears the face.](media/Exercise---Stretching_Gym-image3.jpg)
+![image](media/Exercise---Stretching_Gym-image5.jpg)
 
-![Start Start with bar on ground. (maybe not necessary, as it is implied) Stand with bar above the center of your feet. Feet slightly more than shoulder-width apart, pointed straight ahead. Hands about shoulder-width apart with overhand grip. Arms vertical to floor outside of knees. Quads about vertical with floor. Bend knees until shins hit bar. Shoulder-blades directly over bar. Lift Drive feet into floor and push up with legs. Keep bar close to body -- roll it over your knees and thighs until hips and knees are locked. Back erect with slight arch. Do not round or flatten back. Lift your chest but don't squeeze your shoulder-blades. Head inline with spine, chin up, looking straight ahead. Do not lean backward or bend forward. Pull bar until arms hang straight, bar is at mid-thigh. Lower Push hips back first, and then bend your knees once bar reaches knee level.](media/Exercise---Stretching_Gym-image4.jpg)
-
-![Keep chest up. Look forward, head in line with torso. Bar positioned below the bone at the top of your shoulder blades and on your back muscles. Feet shoulder-width apart. Tighten the upper back and bring shoulder blades together. Narrow grip. Bend until tights are past parallel to floor. Knees track inline with toes. Keep shoulders over hips. Push butt back. Push knees out. Keep weight on heels. Drive up from hips. Squeeze glutes as you reach the top and lock out the weight. Toes should point straight ahead or slightly out.](media/Exercise---Stretching_Gym-image5.jpg)
-
-
-
-**Gym Fads**
+## Gym Fads
 
 1.  TRAINING TOO LONG IS OVERKILL
 
@@ -431,8 +385,6 @@ Box jumps
 10. BIGGER MUSCLES DON'T AUTOMATICALLY MEAN MORE STRENGTH
 
 11. TO BUILD MUSCLE & STRENGTH YOU NEED PROGRESSIVE OVERLOAD & TO SWITCH UP YOUR WORKOUTS
-
-
 
 
 

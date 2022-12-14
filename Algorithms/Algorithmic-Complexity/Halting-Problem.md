@@ -12,8 +12,6 @@ In[computability theory](https://en.wikipedia.org/wiki/Computability_theory_(com
 
 Informally, for any program*f*that might determine if programs halt, a "pathological" program*g*called with an input can pass its own source and its input to*f*and then specifically do the opposite of what*f*predicts*g*will do. No*f*can exist that handles this case.
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Halting_problem>

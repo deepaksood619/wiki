@@ -14,8 +14,6 @@ JavaFX Scene Graph
 
 3.  Service
 
-
-
-**References**
+## References
 
 <http://fxexperience.com/2011/07/worker-threading-in-javafx-2-0

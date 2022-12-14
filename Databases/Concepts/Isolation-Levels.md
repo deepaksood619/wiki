@@ -13,7 +13,7 @@ In[database](https://en.wikipedia.org/wiki/Database)systems,isolationdetermines 
 A lower isolation level increases the ability of many users to access the same data at the same time, but increases the number of concurrency effects (such as dirty reads or lost updates) users might encounter. Conversely, a higher isolation level reduces the types of concurrency effects that users may encounter, but requires more system resources and increases the chances that one transaction will block another.
 Isolation is typically defined at database level as a property that defines how/when the changes made by one operation become visible to other. On older systems, it may be implemented systemically, for example through the use of temporary tables. In two-tier systems, a Transaction Processing (TP) manager is required to maintain isolation. In n-tier systems (such as multiple websites attempting to book the last seat on a flight), a combination of stored procedures and transaction management is required to commit the booking and send confirmation to the customer.
 Isolation is one of the[ACID](https://en.wikipedia.org/wiki/ACID)([Atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)),[Consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), Isolation,[Durability](https://en.wikipedia.org/wiki/Durability_(database_systems))) properties.
-**Read Phenomenon (DLNP)**
+## Read Phenomenon (DLNP)
 
 The ANSI/ISO standard SQL 92 refers to three differentread phenomenawhen Transaction 1 reads data that Transaction 2 might have changed.
 -   **Dirty reads**
@@ -28,10 +28,10 @@ A*non-repeatable read*occurs, when during the course of a transaction, a row is 
 -   **Phantom reads**
 
 A*phantom read*occurs when, in the course of a transaction, new rows are added or removed by another transaction to the records being read.
-**The incorrect summary problem**
+## The incorrect summary problem
 
 While one transaction takes a summary over the values of all the instances of a repeated data-item, a second transaction updates some instances of that data-item. The resulting summary does not reflect a correct result for any (usually needed for correctness) precedence order between the two transactions (if one is executed before the other), but rather some random result, depending on the timing of the updates, and whether certain update results have been included in the summary or not.
-**Isolation Levels (SRRR)**
+## Isolation Levels (SRRR)
 
 Of the four[ACID](https://en.wikipedia.org/wiki/ACID)properties in a[DBMS](https://en.wikipedia.org/wiki/Database_management_system)(Database Management System), the isolation property is the one most often relaxed. When attempting to maintain the highest level of isolation, a DBMS usually acquires[locks](https://en.wikipedia.org/wiki/Lock_(database))on data which may result in a loss of[concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science))or implements [multiversion concurrency](https://en.wikipedia.org/wiki/Multiversion_concurrency_control) control. This requires adding logic for the[application](https://en.wikipedia.org/wiki/Software_application)to function correctly.
 Most DBMSs offer a number oftransaction isolation levels, which control the degree of locking that occurs when selecting data. For many database applications, the majority of database transactions can be constructed to avoid requiring high isolation levels (e.g. SERIALIZABLE level), thus reducing the locking overhead for the system. The programmer must carefully analyze database access code to ensure that any relaxation of isolation does not cause software bugs that are difficult to find. Conversely, if higher isolation levels are used, the possibility of[deadlock](https://en.wikipedia.org/wiki/Deadlock)is increased, which also requires careful analysis and programming techniques to avoid.
@@ -71,7 +71,7 @@ There are two additional isolation levels:
     -   Guarantees that all reads made in a transaction see a consistent snapshot of the database that existed at the time the transaction started.
     -   A transaction will commit only if its writes do not conflict with any concurrent updates made since that snapshot.
     -   Susceptible to write skew anomaly.
-![Linearizable Sequential Repeatable Read Cursor Stability Read Committed Read U ncommitted Strict Serializable Serializable Snapshot Isolation Monotonic Atomic View Writes Follow Reads Monotonic Reads Causal Monotonic Writes Read Your Writes ](media/Isolation-Levels-image1.png)
+![image](media/Isolation-Levels-image1.png)
 <https://en.wikipedia.org/wiki/Isolation_(database_systems)>
 
 <http://highscalability.com/blog/2011/2/10/database-isolation-levels-and-their-effects-on-performance-a.html>
@@ -80,12 +80,12 @@ There are two additional isolation levels:
 
 ## Demystifying Database Systems: Correctness Anomalies Under SerializableIsolation**
 
-**What Does "Serializable" Mean in a Distributed/ReplicatedSystem?**
+## What Does "Serializable" Mean in a Distributed/ReplicatedSystem?
 
 We defined "serializable isolation" above as a guarantee that even though a database system is allowed to run transactions in parallel, the final result is equivalent to as if they were running one after the other. In a replicated system, this guarantee must be strengthened in order to avoid the anomalies that would only occur at lower levels of isolation in non-replicated systems.-   The Immortal Write
 -   The Stale Read
 -   The Casual Reverse
-**Classification of SerializableSystems**
+## Classification of SerializableSystems
 
 | **System Guarantee**        | **Immortal write**                     | **Stale read**                         | **Causal reverse**                     |
 |-----------------|-------------------|-------------------|------------------|
@@ -108,16 +108,16 @@ We defined "serializable isolation" above as a guarantee that even though a data
 | ASYNCHRONOUS SERIALIZABLE                                          | Not Possible   | Not Possible            | Not Possible     | Not Possible   | Not Possible       | Possible       | Not Possible       |
 | PARTITIONED SERIALIZABLE                                           | Not Possible   | Not Possible            | Not Possible     | Not Possible   | Not Possible       | Not Possible   | Possible           |
 | STRICT SERIALIZABLE                                                | Not Possible   | Not Possible            | Not Possible     | Not Possible   | Not Possible       | Not Possible   | Not Possible       |
-**Distributed Locking**
+## Distributed Locking
 -   **Efficiency:**Taking a lock saves you from unnecessarily doing the same work twice (e.g. some expensive computation). If the lock fails and two nodes end up doing the same piece of work, the result is a minor increase in cost (you end up paying 5 cents more to AWS than you otherwise would have) or a minor inconvenience (e.g. a user ends up getting the same email notification twice)
 -   **Correctness:**Taking a lock prevents concurrent processes from stepping on each others' toes and messing up the state of your system. If the lock fails and two nodes concurrently work on the same piece of data, the result is a corrupted file, data loss, permanent inconsistency, the wrong dose of a drug administered to a patient, or some other serious problem
 <https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html>
 
 ## SLOG - Serializable, Low-Latency, Geo-Replicated transactions**
-**MySQL**
+## MySQL
 
 You can enforce a high degree of consistency with the default[REPEATABLE READ](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_repeatable-read)level, for operations on crucial data where[ACID](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_acid)compliance is important. Or you can relax the consistency rules with[READ COMMITTED](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_read-committed)or even[READ UNCOMMITTED](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_read-uncommitted), in situations such as bulk reporting where precise consistency and repeatable results are less important than minimizing the amount of overhead for locking. [SERIALIZABLE](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_serializable)enforces even stricter rules than[REPEATABLE READ](https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html#isolevel_repeatable-read), and is used mainly in specialized situations, such as with[XA](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_xa)transactions and for troubleshooting issues with concurrency and[deadlocks](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_deadlock).
-**MySQL Lost Update problem**
+## MySQL Lost Update problem
 
 <https://stackoverflow.com/questions/53562850/mysql-repeatable-read-isolation-level-and-lost-update-phenomena>
 

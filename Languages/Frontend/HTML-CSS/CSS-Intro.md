@@ -8,17 +8,11 @@ Modified: 2022-01-02 22:41:07 +0500
 
 CascadingStyleSheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.
 
-
-
 CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs, variations in display for different devices and screen sizes as well as a variety of other effects.
-
-
 
 CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML.
 
-
-
-**Advantages of CSS**
+## Advantages of CSS
 -   CSS saves time− You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
 -   Pages load faster− If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.
 -   Easy maintenance− To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
@@ -28,9 +22,7 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 -   Offline Browsing− CSS can store web applications locally with the help of an offline catche.Using of this, we can view offline websites.The cache also ensures faster loading and better overall performance of the website.
 -   Platform Independence− The Script offer consistent platform independence and can support latest browsers as well.
 
-
-
-**Others**
+## Others
 -   CSS Floats
 -   CSS Clear
 -   Psuedo element
@@ -58,21 +50,15 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 -   Negative Space (padding or margin)
 -   **Overflow:** auto (for scroll bar)
 
-
-
-**Selectors**
+## Selectors
 -   id - #button
 -   class - .button
 -   tag - a - find all element tag
 
-
-
-**CSS Style Selectors (property : value;)**
+## CSS Style Selectors (property : value;)
 -   369 css properties
 
-
-
-**Advanced Selectors**
+## Advanced Selectors
 -   tag selector <tag>
 -   class selector .container
 -   id selector - #container
@@ -85,9 +71,7 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 -   Pseudo Selectors (a:hover { color: red; })
 -   Nth selector (p:first-child { color: red; }) (first-child, last-of-type, nth-child(3), nth-child(odd), nth-child(even), nth-child(3n))
 
-
-
-**CSS Units**
+## CSS Units
 
 | em   | Relative to the font-size of the element (2em means 2 times the size of the current font) |
 |---------|---------------------------------------------------------------|
@@ -100,17 +84,13 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 | vmax | Relative to 1% of viewport's* larger dimension                                          |
 | %   | Relative to the parent element                                                            |
 
-**Tip:**The em and rem units are practical in creating perfectly scalable layout!
+## Tip:The em and rem units are practical in creating perfectly scalable layout!
 
 * Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm.
 
-
-
 <https://www.w3schools.com/cssref/css_units.asp>
 
-
-
-**CSS3 Modules**
+## CSS3 Modules
 -   Selectors
 -   Box Model
 -   Backgrounds and Borders

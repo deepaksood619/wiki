@@ -73,7 +73,7 @@ Assumption
 1.  Can put small car to bigger spot
 Class Hierarchy -
 
-**Abstract Vehicle**
+## Abstract Vehicle
 -   String licensePlate
 -   enum color
 Implementation of vehicle (Create 4 classes that inherit from the vehicle)

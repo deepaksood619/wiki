@@ -32,7 +32,7 @@ The recurrence of order two satisfied by the[Fibonacci numbers](https://en.wikip
 
 Fn = Fn-1 + Fn-2
 [https://en.wikipedia.org/wiki/Recurrence_relation](https://en.wikipedia.org/wiki/Recurrence_relation#Binomial_coefficients)
-**Common Recurrence Relations**
+## Common Recurrence Relations
 
 | **Recurrence**         | **Algorithm**                      | **Big-Oh Solution** |
 |----------------------|----------------------------------|-----------------|

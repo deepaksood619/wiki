@@ -20,7 +20,7 @@ A BST is a reference to a root Node.
 A Node is comprised of four fields:
 -   A Key and a Value
 -   A reference to the left and right subtree
-![pri vate class Node private Key key; private Value val; private Node left, ri ght; Node public Node (Key key, Value val) ke left this. key = this.val key; val; BST with smaller keys BST val right BST with larger keys Binary search tree Key and Value are generic types; Key is Comparable ](media/Binary-Search-Tree-image1.png)
+![image](media/Binary-Search-Tree-image1.png)
 Search: If less, go left; if greater, go right; if equal, search hit.
 
 Insert: If less, go left; if greater, go right; if null, insert.
@@ -29,21 +29,21 @@ Get: Return value corresponding to given key, or null if no such key
 
 Cost: Number of compares is equal to 1 + depth of node
 
-![public Value get(Key key) Node x = root; while (x null) int cmp = key. compareTo(x. key) ; if (cmp else if (cmp else if (cmp = return null ; < 0) x = x. left; > 0) x = x. right; return x. val ; ](media/Binary-Search-Tree-image2.png)
+![image](media/Binary-Search-Tree-image2.png)
 Put: Associate value with key
 
 Search for key, then two cases:
 -   Key in tree -> reset value
 -   Key not in tree -> add new node
 
-![public void put(Key key, { root = put(root, key, private Node put(Node x, Value val) val); concise, but tricky, recursive code; read carefully! Key key, Value val) if (x null) return new Node(key, val); int cmp = key. compareTo(x. key if (cmp < 0) x. left = put (x. left, else if (cmp > 0) x. right = put (x. right, if (cmp 0) x. val = val return x; key, key, val); val); ](media/Binary-Search-Tree-image3.png)
+![image](media/Binary-Search-Tree-image3.png)
 Cost: Number of compares is equal to 1 + depth of node
 A BST is a binary tree in symmetric order
 
 Each node has a key, and every node's key is:
 -   Larger than all keys in its left subtree
 -   Smaller than all keys in its right subtree
-**Operations in BST -**
+## Operations in BST -
 
 a.  Get
 
@@ -92,7 +92,7 @@ Find successor x of t
 Delete the minimum in t's right subtree
 
 Put x in t's spot
-![node to delete search for key E successor mi n(t. ri ght) go right, then go left until reaching null left link t. left eleteMin(t. ri ght) update links and node counts after recursive calls ](media/Binary-Search-Tree-image4.png)
+![image](media/Binary-Search-Tree-image4.png)
 Unsatisfactory solution - Not symmetric
 
 After a long random sequence of insert and delete operation, the height of tree becomes sqrt(N)
@@ -396,14 +396,14 @@ Finally, we will remove a node with two children. This is the root of our tree.
 |                                         | # |10| |20|          |
 |                                         | #                    |
 |                                         | # |12| |25|          |
-**Geometric applications of BSTs**
+## Geometric applications of BSTs
 
-**Problem -** Intersections among geometric objects (find among a group of rectangles, how many rectangles intersect) - Binary search trees
+## Problem - Intersections among geometric objects (find among a group of rectangles, how many rectangles intersect) - Binary search trees
 
-**Applications -** CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
+## Applications - CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
 
-![problem Id range search 2d orthogonal line segment intersection kd range search Id interval search 2d orthogonal rectangle intersection example solution BST sweep line reduces to Id range search kd tree interval search tree sweep line reduces to Id interval search ](media/Binary-Search-Tree-image9.png)
-**Further Reading**
+![image](media/Binary-Search-Tree-image9.png)
+## Further Reading
 -   2-3 Trees
 -   Red-Black binary search trees
 -   B-trees

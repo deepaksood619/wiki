@@ -8,14 +8,10 @@ Modified: 2021-12-11 22:38:11 +0500
 
 Technical Analysis helps identify trading opportunities using actions of Market Participants through charts, patterns, and indicators.
 
-
-
-**The Chart Types**
+## The Chart Types
 
 We explore the different chart types used in technical analysis along with its merits and de merits. Specifically we discuss the candlestick chart and why traders prefer **candlesticks** over bar charts.
 -   **Japanese Candlesticks**
-
-
 
 <table>
 <colgroup>
@@ -93,37 +89,27 @@ We explore the different chart types used in technical analysis along with its m
 -   There are two types of candlesticks -- Bullish candle and Bearish candle. The structure of the candlestick however remains the same
 -   When close > open = It is a Bullish candle. When close < open = It is a Bearish candle
 
-
-
-**Getting Started with Candlesticks**
+## Getting Started with Candlesticks
 
 Basic concepts on various candlestick patterns used by traders to make decisions on the market. We also discuss the basic classification of candlestick patterns
 
-
-
 The candlesticks are used to identify trading patterns. Patterns in turn help the technical analyst to set up a trade. The patterns are formed by grouping two or more candles in a certain sequence. However, sometimes powerful trading signals can be identified by just single candlestick pattern.
-
-
 
 Hence, candlesticks can be broken down into single candlestick pattern and multiple candlestick patterns.
 
+## Under the single candlestick pattern we will be learning the following
 
+## Doji - Indecisive
 
-**Under the single candlestick pattern we will be learning the following**
+## Hammer candle - Bullish
 
-**Doji - Indecisive**
-
-**Hammer candle - Bullish**
-
-**Shooting star - Bearish**
+## Shooting star - Bearish
 
 1.  Marubozu (bald)
 
     i.  Bullish Marubozu
 
     ii. Bearish Marubozu
-
-
 
 1.  Remember the rules based on which candlesticks work
 
@@ -151,19 +137,13 @@ Hence, candlesticks can be broken down into single candlestick pattern and multi
 
     2.  Long candle indicates extreme activity, however placing stoploss becomes an issue.
 
-
-
 2.  Doji
 
 In Japanese, Doji means blunder or mistake
 
-![4 types of basic doji candles 1. Neutral Doji 3. Long legged Doji 2. Dragonfly Doji 4. Gravestone Doji ](media/Market-Terms_Technical-Analysis-image1.png)
-
-
+![image](media/Market-Terms_Technical-Analysis-image1.png)
 
 3.  Spinning Tops
-
-
 
 1.  A spinning top has a small real body. The upper and lower shadows are almost equal in length
 
@@ -179,15 +159,11 @@ In Japanese, Doji means blunder or mistake
 
 7.  A trader's stance based on dojis is similar to stance taken when a spinning top occurs.
 
-
-
 4.  Paper umbrella
 
     i.  Hammer
 
     ii. Hanging man
-
-
 
 5.  Shooting star
 
@@ -211,17 +187,13 @@ In Japanese, Doji means blunder or mistake
 
     10. The high of the shooting star will be the stop loss price for the trade.
 
-
-
 Multiple candlestick patterns are a combination of multiple candles.
 
-**Under the multiple candlestick patterns we will learn the following**
+## Under the multiple candlestick patterns we will learn the following
 
-![WHY CANDLESTICK PATTERN IS IMPORTANT IN THE STOCK MARKET? | Finwaze](media/Market-Terms_Technical-Analysis-image2.png)
+![image](media/Market-Terms_Technical-Analysis-image2.png)
 
-![Candlestick patterns, anatomy and their significance](media/Market-Terms_Technical-Analysis-image3.jpg)
-
-
+![image](media/Market-Terms_Technical-Analysis-image3.jpg)
 
 1.  Engulfing pattern
 
@@ -245,8 +217,6 @@ Multiple candlestick patterns are a combination of multiple candles.
 
 It is a bearish candlestick pattern and is formed at the end of an uptrend
 
-
-
 1.  Multiple candlestick patterns evolve over two or more trading days
 
 2.  The bullish engulfing pattern evolves over two trading days. It appears at the bottom end of downtrend. Day one is called P1 and day 2 is called P2
@@ -269,8 +239,6 @@ It is a bearish candlestick pattern and is formed at the end of an uptrend
 
 11. The dark cloud cover works similar to the bearish engulfing pattern, except that P2's red candle engulfs at least 50% and below 100% of P1's blue candle.
 
-
-
 1.  The harami pattern evolves over 2 trading sessions -- P1 and P2.
 
 2.  Day 1 (P1) of the pattern forms a long candle and day 2(P2) of the pattern forms a small candle which appears as if it has been tucked inside the P1's long candle
@@ -282,8 +250,6 @@ It is a bearish candlestick pattern and is formed at the end of an uptrend
 5.  The bearish harami pattern is formed at the top end of an uptrend. P1 is a long blue candle, and P2 is a small red candle. The idea is to initiate a short trade near the close of P2 (risk taker). The risk averse will initiate the short near the close of the day only after ensuring it is a red candle day
 
 6.  The stop loss on a bearish harami pattern is the highest high price between P1 and P2.
-
-
 
 1.  Price Gaps - **Gap up opening, Gap down opening**
 
@@ -299,23 +265,17 @@ It is a bearish candlestick pattern and is formed at the end of an uptrend
 
 7.  Candlesticks portray the traders thought process. One should nurture this thought process as he dwells deeper into the candlestick study
 
+## The Support and Resistance (S&R) - setting price targets
 
-
-**The Support and Resistance (S&R) -** setting price targets
-
-**The Resistance**
+## The Resistance
 
 Resistance is something which stops the price from rising further. The resistance level is a price point on the chart where traders expect maximum supply (in terms of selling) for the stock/index. The resistance level is always above the current market price. The likely hood of the price rising up to the resistance level, consolidating, absorbing all the supply, and then declining is high.
-
-
 
 1.  The resistance level, indicated by a horizontal line, is higher than the current market price.
 
 2.  While the resistance level is at 215, the current candle is at 206.75. The current candle and its corresponding price level are encircled for your reference
 
 For a moment let us imagine Ambuja cements at Rs.206 forming a bullish marubuzo with a low of 202. We know this is a signal to initiate a long trade, and we also know that the stoploss for this trade is at 202. With the new found knowledge on resistance, we now know that we can set 215 as a possible target for this trade!
-
-
 
 Why 215 you may wonder? The reasons are simple:-
 
@@ -331,17 +291,11 @@ Also, with the identification of the resistance the long trade can now be comple
 
 Entry -- 206, Stoploss -- 202, and Target -- 215
 
-
-
 The identification process is the same for both support and resistance. If the current market price is below the identified point, it is called a resistance point; else it is called a support point.
 
-
-
-**The Support**
+## The Support
 
 As the name suggests, the support is something that prevents the price from falling further. The support level is a price point on the chart where the trader expects maximum demand (in terms of buying) coming into the stock/index. Whenever the price falls to the support line, it is likely to bounce back. The support level is **always below** the current market price. There is a maximum likely hood that the price could fall till the support, consolidate, absorb all the demand, and then start to move upwards. The support often acts as a trigger to buy.
-
-
 
 1.  The support level, indicated by the horizontal line is below the current market price
 
@@ -349,7 +303,7 @@ As the name suggests, the support is something that prevents the price from fall
 
 Like we did while understanding resistance, let us imagine a bearish pattern formation -- perhaps a shooting star at 442 with a high of 446. Clearly with a shooting star, the call is to short Cipla at 442, with 446 as the stoploss. Since we know 435 the immediate support, we can set the target at 435.
 
-**So what makes Rs.435 target worthy? The following reasons back the decision:**
+## So what makes Rs.435 target worthy? The following reasons back the decision:
 
 i.  Support at 435 implies there is a maximum likely hood of excess demand to emerge
 
@@ -362,21 +316,15 @@ Hence for the reasons stated above, when a trader is short, he can look at suppo
 Also, with the identification of the support, the short trade is now completely designed.
 Entry -- 442, stoploss -- 446, and target -- 435.
 
-
-
 1.  To identify S&R, place a horizontal line in such a way that it connects at least 3 price action zones, well spaced in time. The more number of price action zones (well spaced in time) the horizontal line connects, the stronger is S&R
 
 2.  S&R can be used to identify targets for the trade. For a long trade, look for the immediate resistance level as target. For a short trade, look for the immediate support level as target.
 
 3.  Lastly, comply with the checklist for optimal trading results
 
-
-
-**Volumes**
+## Volumes
 
 Volumes indicate how many shares are bought and sold over a given period of time.
-
-
 
 | **Price** | **Volume** | **What is the expectation?** |
 |-----------|------------|------------------------------|
@@ -385,19 +333,13 @@ Volumes indicate how many shares are bought and sold over a given period of time
 | Decreases | Increases  | Bullish                      |
 | Decreases | Decreases  | Caution - weak hands selling |
 
-
-
 High Volume = Today's volume > last 10 days average volume
 
 Low Volume = Today's volume < last 10 days average volume
 
 Average Volume = Today's volume = last 10 days average volume
 
-
-
 Usually institutional money is referred to as the "smart money". It is perceived that 'smart money' always makes wiser moves in the market compared to retail traders. Hence following the smart money seems like a wise idea.
-
-
 
 1.  Volumes are used to confirm a trend
 
@@ -413,9 +355,7 @@ Usually institutional money is referred to as the "smart money". It is perceived
 
 7.  Avoid trading on low volume days
 
-
-
-**Moving Averages**
+## Moving Averages
 
 Moving average is a simple technical analysis indicator used to detect the price trend. Learn about the moving average and a how to set up a simple moving average trading system.
 -   Zerodha Moving Average Type
@@ -431,27 +371,17 @@ Moving average is a simple technical analysis indicator used to detect the price
     -   Double Exponential
     -   Triple Exponential
 
-
-
-**A simple application of moving average (trading system based on a 50 day exponential moving average)**
+## A simple application of moving average (trading system based on a 50 day exponential moving average)
 
 Remember a good trading system gives you a signal to enter a trade and a signal to close out the trade.
-
-
 
 i.  Buy (go long) when the current market price turns greater than the 50 day EMA. Once you go long, you should stay invested till the necessary sell condition is satisfied
 
 ii. Exit the long position (square off) when the current market price turns lesser than the 50 day EMA
 
-
-
-![page101image56730976](media/Market-Terms_Technical-Analysis-image4.png)
-
-
+![image](media/Market-Terms_Technical-Analysis-image4.png)
 
 Moving averages works brilliantly when there is a trend and fails to perform when the stock moves sideways. This basically means the 'Moving average' in its simplest form is a trend following system.
-
-
 
 a.  Moving averages gives you many trading signals (buy and sell) during a sideways market. Most of these signals result in marginal profits, if not for losses
 
@@ -467,27 +397,17 @@ f.  The profit making trade ensures you are in the trend as long as the trend la
 
 g.  The key to MA trading system is to take all the trades and not be judgmental about the signals being generated by the system.
 
-
-
-**Moving Average Crossover system**
+## Moving Average Crossover system
 
 In a MA crossover system, instead of the usual single moving average, the trader combines two moving averages. This is usually referred to as 'smoothing'.
 
-
-
 A typical example of this would be to combine a 50 day EMA, with a 100 day EMA. The shorter moving average (50 days in this case) is also referred to as the faster moving average. The longer moving average (100 days moving average) is referred to as the slower moving average.
 
-
-
 The shorter moving average takes lesser number of data points to calculate the average and hence it tends to stick closer to the current market price, and therefore reacts more quickly. A longer moving average takes more number of data points to calculate the average and hence it tends to stay away from the current market price. Hence the reactions are slower.
-
-
 
 i.  Buy (fresh long) when the short term moving averages turns greater than the long term moving average. Stay in the trade as long as this condition is satisfied
 
 ii. Exit the long position (square off) when the short term moving average turns lesser than the longer term moving average
-
-
 
 A trader can use any combination to create a MA cross over system. Some of the popular combinations for a swing trader would be:
 
@@ -501,9 +421,7 @@ A trader can use any combination to create a MA cross over system. Some of the p
 
 Remember, longer the time frame the lesser the number of trading signals.
 
-
-
-**Key takeaways from this chapter**
+## Key takeaways from this chapter
 
 a.  A standard average calculation is a quick approximation of a series of numbers
 
@@ -525,29 +443,19 @@ i.  The outlook turns bullish when the faster EMA crosses and is above the slowe
 
 j.  The longer the time frame one chooses for a crossover system, the lesser the trading signals.
 
-
-
-**The Fibonacci Retracements**
+## The Fibonacci Retracements
 
 Starting with the basics of the construction of the Fibonacci sequence, we also learn about the derivation of the Golden Ratio.
 
 It is believed that the Fibonacci ratios i.e 61.8%, 38.2%, and 23.6% finds its application in stock charts. Fibonacci analysis can be applied when there is a noticeable up-move or down-move in prices. Whenever the stock moves either upwards or downwards sharply, it usually tends to retrace back before its next move. For example if the stock has run up from Rs.50 to Rs.100, then it is likely to retrace back to probably Rs.70, before it can move Rs.120.
 
+## 'The retracement level forecast' is a technique using which one can identify upto which level retracement can happen. These retracement levels provide a good opportunity for the traders to enter new positions in the direction of the trend. The Fibonacci ratios i.e 61.8%, 38.2%, and 23.6% helps the trader to identify the possible extent of the retracement. The trader can use these levels to position himself for trade.
 
-
-**'The retracement level forecast'** is a technique using which one can identify upto which level retracement can happen. These retracement levels provide a good opportunity for the traders to enter new positions in the direction of the trend. The Fibonacci ratios i.e 61.8%, 38.2%, and 23.6% helps the trader to identify the possible extent of the retracement. The trader can use these levels to position himself for trade.
-
-
-
-**The Dow Theory (Part 1)**
+## The Dow Theory (Part 1)
 
 A brief on the history of the Dow theory, its principles and the types of trends in Dow theory -- Primary, Secondary and Minor and the inference of each trend type in relation to the markets.
 
-
-
 We also learn how to interpret the risk to reward ratio to make market entry and exit decisions.
-
-
 
 The Dow Theory is built on a few beliefs. These are called the Dow Theory tenets. These tenets were developed by Charles H Dow over the years of his observation on the markets. There are 9 tenets that are considered as the guiding force behind the Dow Theory.
 
@@ -563,25 +471,15 @@ The Dow Theory is built on a few beliefs. These are called the Dow Theory tenets
 | Sideway markets can substitute secondary markets | Markets may remain sideways (trading between a range) for an extended period. Example:- Reliance Industries between 2010 and 2013 was trading between 860 and 990. The sideways markets can be a substitute for a secondary trend                                                                                              |
 | The closing price is the most sacred             | Between the open, high, low and close prices, the close is the most important price level as it represents the final evaluation of the stock during the day                                                                                                                                                                    |
 
+## Different phases of the market
 
-
-**Different phases of the market**
-
-![page139image50507968](media/Market-Terms_Technical-Analysis-image5.jpg)
-
-
+![image](media/Market-Terms_Technical-Analysis-image5.jpg)
 
 Dow Theory suggests the markets are made up of three distinct phases, which are self repeating. These are called the Accumulation phase, the Mark up phase, and the Distribution phase.
 
-
-
 The Accumulation phase usually occurs right after a steep sell off in the market. The steep sell off in the markets would have frustrated many market participants, losing hope of any sort of uptrend in prices. The stock prices would have plummeted to rock bottom valuations, but the buyers would still be hesitant of buying fearing there could be another sell off. Hence the stock price languishes at low levels. This is when the 'Smart Money' enters the market.
 
-
-
 Smart money is usually the institutional investors who invest from a long term perspective. They invariably seek value investments which is available after a steep sell off. Institutional investors start to acquire shares regularly, in large quantities over an extended period of time. This is what makes up an accumulation phase. This also means that the sellers who are trying to sell during the accumulation phase will easily find buyers, and therefore the prices do not decline further. Hence invariably the accumulation phase marks the bottom of the markets. More often
-
-
 
 than not, this is how the support levels are created. Accumulation phase can last up to several months.
 
@@ -589,33 +487,21 @@ Once the institutional investors (smart money) absorb all the available stocks, 
 
 quickly and sharply. The most important feature of the mark up phase is the speed. Because the rally is quick, the public at large is left out of the rally. New investors are mesmerized by the return and everyone from the analysts to the public see higher levels ahead.
 
-
-
 Finally when the stock price reaches new highs (52 week high, all time high) everyone around would be talking about the stock market. The news reports turn optimistic, business environment suddenly appears vibrant, and everyone one (public) wants to invest in the markets. The public by and large, wants to get involved in the markets as there is a positive sentiment. This is when the distribution phase occurs.
 
-
-
 The judicious investors (smart investors) who got in early (during the accumulation phase) will start offloading their shares slowly. The public will absorb all the volumes off loaded by the institutional investors (smart money) there by giving them the well needed price support. The distribution phase has similar price properties as that of the accumulation phase. In the distribution phase, whenever the prices attempt to go higher, the smart money off loads their holdings. Over a period of time this action repeats several times and thus the resistance level is created.
-
-
 
 Finally when the institutional investors (smart money) completely sell off their holdings, there would no further support for prices, and hence what follows after the distribution phase is a complete sell off in the markets, also known as the mark down of prices. The selloff in the market leaves the public in an utter state of frustration.
 
 Completing the circle, what follows the selloff phase is a fresh round of accumulation phase, and the whole cycle repeats again. It is believed that that entire cycle from accumulation phase to the selloff spans over a few years.
 
-
-
-**Dow Patterns**
+## Dow Patterns
 
 1.  The Double bottom & Double top formation
 
 A double top & double bottom is considered a reversal pattern.
 
-
-
 Imagine a situation where in the double top formation, the 2nd top forms a bearish pattern such as shooting star. This means, both from the Dow Theory and candlestick perspective there is consensus to sell; hence the conviction to take the trade is higher.
-
-
 
 2.  The Triple Bottom & Triple Top
 
@@ -623,9 +509,7 @@ Imagine a situation where in the double top formation, the 2nd top forms a beari
 
 4.  Flag formation
 
-
-
-**Summary**
+## Summary
 
 a.  A range is formed when the stock oscillates between the two price points
 
@@ -641,37 +525,25 @@ f.  RRR is a critical parameter for trade evaluation. Develop a minimum RRR thre
 
 g.  Before initiating a trade the trader should look at the opportunity from the Dow Theory perspective
 
-
-
-**The Finale -- Helping you get started**
+## The Finale -- Helping you get started
 
 This chapter helps you get started on the things that you need to do on a daily basis to identify trading opportunities employing "Technical Analysis" methodologies.
 
-
-
-**Supplementary Notes 1**
+## Supplementary Notes 1
 
 Average Directional Index (ADX) About: The Average Directional Index (ADX), Minus Directional Indicator (-DI) and Plus Directional Indicator (+DI) represent a group of directional movement indicators
 
-
-
-**Interesting features on TradingView**
+## Interesting features on TradingView
 
 If you don't know already, then TradingView is now available on Kite. Here is the TradingQ&A post announcing the beta launch. Given this, I thought I could share a few of my favourite
 
+![image](media/Market-Terms_Technical-Analysis-image6.png)
 
-
-![CONFIDENTIAL Trend Confirmation using Volume Volume is used to confirm if a trend is weak or strong. A trend that is accompanied by high volumes is considered as a strong trend as it indicates that smart money is participating in either buying heavily or selling heavily. The rules for trend confirmation using volumes is shown in the table below : Price Trend O Streak Al Technologies Pvt Ltd, 2020 Volume Trend Inference Strong Uptrend Weak Uptrend Strong Downtrend Weak Downtrend .11 @ Streak Al Technologies Pvt Ltd, 2020 ](media/Market-Terms_Technical-Analysis-image6.png)
-
-
-
-**Others**
+## Others
 
 <https://www.investopedia.com/terms/e/elliottwavetheory.asp>
 
 <https://en.wikipedia.org/wiki/Elliott_wave_principle>
-
-
 
 
 

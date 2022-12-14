@@ -7,9 +7,9 @@ Modified: 2021-12-04 17:52:01 +0500
 ---
 
 [System design: Design Multiplayer game](https://www.youtube.com/playlist?list=PLkQkbY7JNJuCoOw3epgKcNIU6rFri4iQk)
-**Game Loop**
+## Game Loop
 
-![31 Events Input Display physiCS Game Loop Draw ](media/System-Design---MMOG---Game-image1.png)
+![image](media/System-Design---MMOG---Game-image1.png)
 
 while (true) {
 
@@ -20,20 +20,20 @@ update_game_state()
 render_screen()
 
 }
-**Physics Engines**
+## Physics Engines
 -   Unity
 -   Unreal Engine
-![Audio Graphics n p u t user Input Game Logc Andoid Framework Phone o p u t ](media/System-Design---MMOG---Game-image2.png)
+![image](media/System-Design---MMOG---Game-image2.png)
 1.  Strategic games
 
 2.  Slow turn games
 
 3.  First person games
-**Authoritative Server**
+## Authoritative Server
 -   Holds all the state information and validates each state information with it's own state
 -   No one can hack the client and run mod commands
 -   Therefore can't have peer to peer connection between players
-**Networking**
+## Networking
 -   **Deterministic Lock Step**
 -   Sends only input only and not the new state of game character
 -   Encode each bit for each input thereby saving more bandwidth
@@ -61,24 +61,24 @@ render_screen()
         -   Linear Interpolation
         -   Polar Interpolation
         -   Hermite Interpolation
-**Handling states, corner cases, rules for objects**
+## Handling states, corner cases, rules for objects
 -   Via if-else statement
     -   Not maintainable
     -   Not scalable
     -   No design pattern
 
 ![R AS ?ReSS 十 ](media/System-Design---MMOG---Game-image4.png)
-![// Interface class PlayerState { handlelnput ( player , update (player) { input ) ](media/System-Design---MMOG---Game-image5.png)
-![class StandingState implements PlayerState { handlelnput (player, input) { // Code update (player) { // Code ](media/System-Design---MMOG---Game-image6.png)
-![Online ames S stem desi n backend Tube TechDummies CDN LOAD B LANCERS LOGIN SERVER PATCH SERVER PROXY / CONNECTION SERVER WORLD GAME CLIENT Hadoop ELK DB SERVER CACHE AREA/GAME SERVER 0 0:23/ 33:22 ](media/System-Design---MMOG---Game-image7.png)
+![image](media/System-Design---MMOG---Game-image5.png)
+![image](media/System-Design---MMOG---Game-image6.png)
+![image](media/System-Design---MMOG---Game-image7.png)
 -   World Server
 -   Game /Area Server
 -   Data Structure - Map Template
-![Player crossing Area/Area server Inter server data transfe Area server 1 Area server Serialize deserialize criti al save data Worid server DataBase oad ](media/System-Design---MMOG---Game-image8.png)
-**Patch Servers**
+![image](media/System-Design---MMOG---Game-image8.png)
+## Patch Servers
 -   Everyone should be in same version in MMOG
 -   Real time updates
-**Game State Backup**
+## Game State Backup
 
 1.  Important bits
 
@@ -87,10 +87,10 @@ render_screen()
 3.  Individual
 
 4.  Async
-**CDN**
+## CDN
 
 Game Sprites
-**Database**
+## Database
 -   SQL
 -   Sharded SQL
 -   NoSQL

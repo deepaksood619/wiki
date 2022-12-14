@@ -6,7 +6,7 @@ Modified: 2021-12-28 21:45:09 +0500
 
 ---
 
-**Design Patterns of Microservices**
+## Design Patterns of Microservices
 
 1.  [Aggregator](https://www.edureka.co/blog/microservices-design-patterns#Aggregator)2.  [**API Gateway**](https://www.edureka.co/blog/microservices-design-patterns#APIGateway)
 
@@ -24,11 +24,11 @@ Modified: 2021-12-28 21:45:09 +0500
 
 10. [Decomposition](https://www.edureka.co/blog/microservices-design-patterns#Decomposition)
 <https://www.edureka.co/blog/microservices-design-patterns>
-![Motivating Pattern Solution A * - Solution Pattern - + Solution B Database per Service Core Single Service per Host Deployment Multiple Services per host Microservice architecture Server-side discovery Client-side discovery Discovery Cross-cutting concerns Microservice Chassis Extemalized configuration Access Token Security Circuit Breaker Testing Service Integration Contract Test Service Component Test Audit logging Application logging Health check Distributed tracing Application metrics Exception tracking Monolithic architecture API gateway Communication Messaging Remote Procedure Invocation Observability Decomposition Decompose by business capability Decompose by subdomain Server-side page fragment composition Client-side UI composition ](media/Microservice-Architecture_Design-Patterns-image1.jpg)
+![image](media/Microservice-Architecture_Design-Patterns-image1.jpg)
 -   Decomposition patterns
     -   [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
     -   [Decompose by subdomain](https://microservices.io/patterns/decomposition/decompose-by-subdomain.html)
-**Functional Decomposition**
+## Functional Decomposition
 
 Functional decomposition is a term that engineers use to describea set of steps in which they break down the overall function of a device, system, or process into its smaller parts. A function is simply a task that is performed by a device, system, or process. Decomposition is a process of breaking down.
 

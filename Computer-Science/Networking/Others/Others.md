@@ -6,14 +6,14 @@ Modified: 2021-04-26 10:26:33 +0500
 
 ---
 
-**OpenConnect**
+## OpenConnect
 
-**OpenConnect**is an[open-source software](https://en.wikipedia.org/wiki/Open-source_software)application for connecting to[virtual private networks](https://en.wikipedia.org/wiki/Virtual_private_network)(VPN), which implement secure[point-to-point](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications))connections.
+## OpenConnectis an[open-source software](https://en.wikipedia.org/wiki/Open-source_software)application for connecting to[virtual private networks](https://en.wikipedia.org/wiki/Virtual_private_network)(VPN), which implement secure[point-to-point](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications))connections.
 <https://en.wikipedia.org/wiki/OpenConnect>
 
 ## OpenSSH**
 
-**OpenSSH**(also known as**OpenBSD Secure Shell**) is a suite of[secure](https://en.wikipedia.org/wiki/Computer_security)[networking](https://en.wikipedia.org/wiki/Computer_network)utilities based on the[Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)(SSH) protocol, which provides a[secure channel](https://en.wikipedia.org/wiki/Secure_channel)over an unsecured network in a[client--server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)architecture.
+## OpenSSH**(also known as**OpenBSD Secure Shell) is a suite of[secure](https://en.wikipedia.org/wiki/Computer_security)[networking](https://en.wikipedia.org/wiki/Computer_network)utilities based on the[Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)(SSH) protocol, which provides a[secure channel](https://en.wikipedia.org/wiki/Secure_channel)over an unsecured network in a[client--server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)architecture.
 
 OpenSSH started as a[fork](https://en.wikipedia.org/wiki/Fork_(software_development))of the[free](https://en.wikipedia.org/wiki/Free_software)SSH program developed by[Tatu Ylönen](https://en.wikipedia.org/wiki/Tatu_Yl%C3%B6nen); later versions of Ylönen's SSH were[proprietary software](https://en.wikipedia.org/wiki/Proprietary_software)offered by[SSH Communications Security](https://en.wikipedia.org/wiki/SSH_Communications_Security).OpenSSH was first released in 1999, and is currently developed as part of the[OpenBSD](https://en.wikipedia.org/wiki/OpenBSD)[operating system](https://en.wikipedia.org/wiki/Operating_system).
 
@@ -22,7 +22,7 @@ OpenSSH is not a single computer program, but rather a suite of programs that se
 
 ## GStreamer**
 
-**GStreamer**is a[pipeline](https://en.wikipedia.org/wiki/Pipeline_(computing))-based[multimedia framework](https://en.wikipedia.org/wiki/Multimedia_framework)that links together a wide variety of media processing systems to complete complex workflows. For instance, GStreamer can be used to build a system that reads files in one format, processes them, and exports them in another. The formats and processes can be changed in a plug and play fashion.
+## GStreameris a[pipeline](https://en.wikipedia.org/wiki/Pipeline_(computing))-based[multimedia framework](https://en.wikipedia.org/wiki/Multimedia_framework)that links together a wide variety of media processing systems to complete complex workflows. For instance, GStreamer can be used to build a system that reads files in one format, processes them, and exports them in another. The formats and processes can be changed in a plug and play fashion.
 GStreamer supports a wide variety of media-handling components, including simple[audio](https://en.wikipedia.org/wiki/Audio_frequency)playback, audio and video playback,[recording](https://en.wikipedia.org/wiki/Sound_recording_and_reproduction),[streaming](https://en.wikipedia.org/wiki/Streaming_media)and editing. The pipeline design serves as a base to create many types of[multimedia](https://en.wikipedia.org/wiki/Multimedia)applications such as[video editors](https://en.wikipedia.org/wiki/Video_editing),[transcoders](https://en.wikipedia.org/wiki/Transcoding), streaming media broadcasters and[media players](https://en.wikipedia.org/wiki/Media_player_(application_software)).
 <https://en.wikipedia.org/wiki/GStreamer>
 
@@ -35,7 +35,7 @@ NNStreamer - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural
 
 ## Zeroconf**
 
-**Zero-configuration networking**(**zeroconf**) is a set of technologies that automatically creates a usable[computer network](https://en.wikipedia.org/wiki/Computer_network)based on the[Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_Protocol_Suite)(TCP/IP) when computers or network peripherals are interconnected. It does not require manual operator intervention or special configuration servers. Without zeroconf, a network administrator must set up[network services](https://en.wikipedia.org/wiki/Network_service), such as[Dynamic Host Configuration Protocol](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)(DHCP) and[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS), or configure each computer's network settings manually.
+## Zero-configuration networking**(**zeroconf) is a set of technologies that automatically creates a usable[computer network](https://en.wikipedia.org/wiki/Computer_network)based on the[Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_Protocol_Suite)(TCP/IP) when computers or network peripherals are interconnected. It does not require manual operator intervention or special configuration servers. Without zeroconf, a network administrator must set up[network services](https://en.wikipedia.org/wiki/Network_service), such as[Dynamic Host Configuration Protocol](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)(DHCP) and[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS), or configure each computer's network settings manually.
 Zeroconf is built on three core technologies: automatic assignment of numeric[network addresses](https://en.wikipedia.org/wiki/Network_address)for networked devices, automatic distribution and resolution of computer[hostnames](https://en.wikipedia.org/wiki/Hostname), and automatic[location of network services](https://en.wikipedia.org/wiki/Service_discovery), such as printing devices.
 <https://en.wikipedia.org/wiki/Zero-configuration_networking>
 

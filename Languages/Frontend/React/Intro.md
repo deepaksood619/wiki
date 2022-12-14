@@ -6,40 +6,26 @@ Modified: 2022-11-28 16:07:03 +0500
 
 ---
 
-![Modern Javascript Tooling Our project files component_l.js component_2js component_3js React,js Redux.js A Web Page Hello World! Tooling (Transpile JSX + ES6 to ES5) webpack + babel index.html application.js style.css ](media/Intro-image1.png)
+![image](media/Intro-image1.png)
 
-
-
-**A Javascript library for building user interfaces**
+## A Javascript library for building user interfaces
 
 <https://www.youtube.com/watch?v=N3AkSS5hXMA>
 
-
-
-**Features**
+## Features
 -   Code Reusability
 -   JSX
 -   Virtual DOM
 
 React's magic comes from its interpretation of the DOM and its strategy for creating UIs.
 
-
-
 React uses the Virtual DOM to render an HTML tree virtually first. Then, every time a state changes and we get a new HTML tree that needs to be taken to the browser's DOM, instead of writing the whole new tree React will only write the difference between the new tree and the previous tree (since React has both trees in memory). This process is known as Tree Reconciliation.
-
-
 
 The VDOM is a programming concept, providing a critical part of the React architecture. Rather than interacting directly with the DOM, changes are instead first rendered to the VDOM---a lightweight representation of the target state of the DOM.
 
-
-
 Changes made to the VDOM are batched together to avoid unnecessary frequent changes to the DOM. Each time these batched changes are persisted to the DOM, React creates a diff between the current representation and the previous representation persisted to the DOM, then applies the diff to the DOM.
 
-
-
 This abstraction layer for the DOM provides a simple interface for developers while allowing React to update the DOM in an efficient and performant manner.
-
-
 
 <https://www.freecodecamp.org/news/how-to-manipulate-the-dom-beginners-guide
 
@@ -56,29 +42,19 @@ Build encapsulated components that manage their own state, then compose them to 
 
 -   React also has an unidirectional dataflow. UI in React is actually the function of the state. This means that as the state updates it updates the UI as well. So our UI progresses as the state changes.
 
-
-
-**Functionalities**
+## Functionalities
 -   Render HTML Content with the data provided
 -   Have multiple UI States depending on the data
 -   Dispatch actions on user interaction or life cycle events
 -   Animation using ReactCSSTransitionGroup
 
-
-
 Takes all the js files from components, actions, reducers and bundles them all together into one js file.
-
-
 
 React is a javascript library that is used to produce html that is shown to the user.
 
 Components/views are snippets of code that produce html.
 
-
-
 package.json file is a list of the the dependencies that our application use.
-
-
 
 1.  Exporting modules
 
@@ -86,9 +62,7 @@ package.json file is a list of the the dependencies that our application use.
 
 3.  State
 
-
-
-**Advantages of React**
+## Advantages of React
 
 1.  **Fast** - Apps made in React can handle complex updates and still feel quick and responsive.
 
@@ -98,35 +72,23 @@ package.json file is a list of the the dependencies that our application use.
 
 4.  **Flexible -** You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential.[There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
 
-
-
-**Reconciliation**
+## Reconciliation
 
 React has a smart diffing algorithm that it uses to only regenerate in its DOM node what actually needs to be regenerated while it keeps everything else as is. This diffing process is possible because of React's virtual DOM.
 
-
-
 Using the virtual DOM, React keeps the last DOM version in memory. When it has a new DOM version to take to the browser, that new DOM version will also be in memory, so React can compute the difference between the new and the old versions.
-
-
 
 React will then instruct the browser to update only the computed diff and not the whole DOM node. No matter how many times we regenerate our interface, React will take to the browser only the new "partial" updates.
 
-
-
-**React and React DOM**
+## React and React DOM
 
 We have React and ReactDOM as two different libraries because there are use cases such as React Native where rendering to the DOM isn't needed for mobile development so the library was split so people could decide what they needed depending on the project they were working on.
 
+## React Router
 
+## React Functional Components
 
-**React Router**
-
-**React Functional Components**
-
-
-
-**New Features**
+## New Features
 
 1.  **Suspense**
 
@@ -136,21 +98,15 @@ We have React and ReactDOM as two different libraries because there are use case
 
 3.  Profiler
 
-
-
-**ES16**
+## ES16
 
 const - variable in js.
 
 Its a constant, and this value will never change throughout the application.
 
-
-
 Javascript Modules
 
 Encapsulates the idea that all the code that we write in separate files is siloed or seperated from other code that we write and other libraries that we install in our project. (we can not make reference to other variables from different files)
-
-
 
 <https://reactjs.org/docs/thinking-in-react.html>
 
@@ -158,7 +114,7 @@ Encapsulates the idea that all the code that we write in separate files is siloe
 
 Draw boxes around every component (and subcomponent) in the mock and give them all names.
 
-![Search... Only show products in stock Name Price Sporting Goods Football $49.99 Baseball $9.99 4 Basketball $29.99 Electronics iPod Touch $99.99 iPhone5 $399.99 Nexus 7 $199.99 2 3 5 ](media/Intro-image2.jpeg)
+![image](media/Intro-image2.jpeg)
 
 1.  FilterableProductTable(orange):contains the entirety of the example
 
@@ -170,13 +126,9 @@ Draw boxes around every component (and subcomponent) in the mock and give them a
 
 5.  ProductRow(red):displays a row for eachproduct
 
-
-
 2.  Build A Static Version in React
 
 Building a static version requires a lot of typing and no thinking, and adding interactivity requires a lot of thinking and not a lot of typing.
-
-
 
 3.  Identify The Minimal (but complete) Representation Of UI State
 
@@ -184,9 +136,7 @@ Building a static version requires a lot of typing and no thinking, and adding i
 
 5.  Add Inverse Data Flow
 
-
-
-**Advanced**
+## Advanced
 
 [Advanced React Patterns, Performance, Environment and Testing | New Course Launch 🎉](https://www.youtube.com/watch?v=MfIoAG3e7p4&ab_channel=codedamn)
 -   Compound components

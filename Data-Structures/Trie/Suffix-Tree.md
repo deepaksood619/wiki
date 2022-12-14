@@ -17,10 +17,10 @@ The suffix tree for the string S of length n is defined as a tree such that:
 
 Since such a tree does not exist for all strings, S is padded with a terminal symbol not seen in the string (usually denoted $). This ensures that no suffix is a prefix of another, and that there will be n leaf nodes, one for each of the n suffixes of S. Since all internal non-root nodes are branching, there can be at most *n*− 1 such nodes, and *n*+(*n*−1)+1=2*n* nodes in total (*n* leaves, *n*−1 internal non-root nodes, 1 root).
 
-**Generalized Suffix Tree -**
+## Generalized Suffix Tree -
 
 A [generalized suffix tree](https://en.wikipedia.org/wiki/Generalized_suffix_tree) is a suffix tree made for a set of words instead of a single word. It represents all suffixes from this set of words. Each word must be terminated by a different termination symbol or word.
-**How to build a Suffix Tree for a given text?**
+## How to build a Suffix Tree for a given text?
 
 As discussed above, **Suffix Tree is compressed trie of all suffixes**, so following are very abstract steps to build a suffix tree from given text.
 
@@ -42,8 +42,8 @@ If we consider all of the above suffixes as individual words and build a trie, w
 ![](media/Suffix-Tree-image1.png)
 If we join chains of single nodes, we get the following compressed trie, which is the Suffix Tree for given text "banana0"
 
-![Oeu Oeu eu eu e Oeueueq ](media/Suffix-Tree-image2.png)
-![Suffix tree Suffix tree. • Patricia trie of suffixes of a string. • Linear-time construction: beyond this course. suffix tree for BANANAS BANANAS s b s s s NAS ](media/Suffix-Tree-image3.png)
+![image](media/Suffix-Tree-image2.png)
+![image](media/Suffix-Tree-image3.png)
 # Suffix Tree and Its Construction
 
 Suffix Tree were first introduced to solve SubString Problem -

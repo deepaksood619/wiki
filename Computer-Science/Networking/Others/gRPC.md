@@ -7,15 +7,15 @@ Modified: 2022-04-18 18:28:52 +0500
 ---
 -   RPC - Remote Procedure Call framework that uses HTTP 2.0 and Protocol Buffers
 -   A high performance, open-source universal RPC framework
-**gRPC**(**gRPC****Remote Procedure Calls**) is an[open source](https://en.wikipedia.org/wiki/Open-source_software)[remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)(RPC) system initially developed at[Google](https://en.wikipedia.org/wiki/Google). It uses[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)for transport,[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers)as the[interface description language](https://en.wikipedia.org/wiki/Interface_description_language), and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts. It generates cross-platform client and server bindings for many languages.
-**Overview**
+## gRPC**(**gRPC****Remote Procedure Calls) is an[open source](https://en.wikipedia.org/wiki/Open-source_software)[remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)(RPC) system initially developed at[Google](https://en.wikipedia.org/wiki/Google). It uses[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)for transport,[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers)as the[interface description language](https://en.wikipedia.org/wiki/Interface_description_language), and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts. It generates cross-platform client and server bindings for many languages.
+## Overview
 
 In gRPC a client application can directly call methods on a server application on a different machine as if it was a local object, making it easier for you to create distributed applications and services. As in many RPC systems, gRPC is based around the idea of defining a service, specifying the methods that can be called remotely with their parameters and return types. On the server side, the server implements this interface and runs a gRPC server to handle client calls. On the client side, the client has a stub (referred to as just a client in some languages) that provides the same methods as the server.
 
-![gRPC Server C++ Service Bequest proto Bespo Proto Request roto Response(s) I gRPC Stub Ruby Client gRPC stub Android-Java Client ](media/gRPC-image1.png)
+![image](media/gRPC-image1.png)
 
 gRPC clients and servers can run and talk to each other in a variety of environments - from servers inside Google to your own desktop - and can be written in any of gRPC's supported languages. So, for example, you can easily create a gRPC server in Java with clients in Go, Python, or Ruby. In addition, the latest Google APIs will have gRPC versions of their interfaces, letting you easily build Google functionality into your applications.
-**Types of gRPC service**
+## Types of gRPC service
 
 gRPC lets you define four kinds of service method:-   **Unary RPCs** where the client sends a single request to the server and gets a single response back, just like a normal function call.
 rpc SayHello(HelloRequest) returns (HelloResponse){
@@ -26,7 +26,7 @@ rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse) {
 }-   **Bidirectional streaming RPCs** where both sides send a sequence of messages using a read-write stream. The two streams operate independently, so clients and servers can read and write in whatever order they like: for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message then write a message, or some other combination of reads and writes. The order of messages in each stream is preserved.
 rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
 }
-**Specifications for RPCs**
+## Specifications for RPCs
 -   Language-agnostic Semantics
     -   Unary RPCs vs Streaming RPCs
     -   Metadata
@@ -34,14 +34,14 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
     -   Response messages and errors
 -   Spec for wire protocol
     -   Maps RPC semantics to HTTP/2 protocol
-**Runtime Libraries**
+## Runtime Libraries
 -   Implements Wire Protocol
 -   Server support
     -   Expose service implementations via gRPC
 -   Client support
     -   Machinery for connecting to servers, sending RPCs
     -   Service discovery, load balancing, connection management
-**Benefits & Tradeoffs of gRPC**
+## Benefits & Tradeoffs of gRPC
 
 1.  Developer productivity
     -   Abstracts away networking details
@@ -71,7 +71,7 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
     -   **Service discovery**
     -   **load balancing (Client-side / Look-aside load balancing)**
 
-![Lookaside Load Balancing Server List LB Load Reports server _vt•.zabcn ](media/gRPC-image2.png)-   Proxyless RPC Mesh
+![image](media/gRPC-image2.png)-   Proxyless RPC Mesh
 <https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears>
 
 ## Client side load balancing**
@@ -83,7 +83,7 @@ Two main components needed for the gRPC client-side load balancing to work
 ![](media/gRPC-image3.png)
 <https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples>-   **Automatic retries, hedging* (Retry hedging)**
 
-![Ваос Hedgi09 Pathway ](media/gRPC-image4.png)
+![image](media/gRPC-image4.png)
 -   Hit all backend
 -   If you get response from one client, cancel all requests
 -   Problem - Cascading Failures
@@ -107,7 +107,7 @@ Two main components needed for the gRPC client-side load balancing to work
         -   Exposes gRPC services as REST APIs
     -   grpc-web
         -   Adapts gRPC to work with browser clients
-**Limitations**
+## Limitations
 
 1.  grpc server not available in php
     -   Spiral framework
@@ -125,32 +125,32 @@ Two main components needed for the gRPC client-side load balancing to work
 6.  Poor documentation for some languages
 
 7.  No standardization across languages
-**Development Flow**
+## Development Flow
 
 1.  Define the API in "language agnostic" proto sources
 
 2.  Implement server
 
 3.  Implement clients
-**Architecture**
+## Architecture
 
 The first thing to note is that the architecture of gRPC is layered:
 -   **The lowest layer is the transport:**gRPC uses HTTP/2 as its transport protocol. HTTP/2 provides the same basic semantics as HTTP 1.1 (the version with which nearly all developers are familiar), but aims to be more efficient and more secure. The new features in HTTP/2 that are most obvious at first glance are (1) that it can multiplex many parallel requests over the same network connection and (2) that it allows full-duplex bidirectional communication. We'll learn more about
 -   **The next layer is the channel:**This is a thin abstraction over the transport. The channel defines calling conventions and implements the mapping of an RPC onto the underlying transport. At this layer, a gRPC call consists of a client-provided service name and method name, optional request metadata (key-value pairs), and zero or more request messages. A call is completed when the server provides optional response header metadata, zero or more response messages, and response trailer metadata. The trailer metadata indicates the final disposition of the call: whether it was a success or a failure. At this layer, there is no knowledge of interface constraints, data types, or message encoding. A message is just a sequence of zero or more bytes. A call may have any number of request and response messages.
 -   **The last layer is the stub:**The stub layer is where interface constraints and data types are defined. Does a method accept exactly one request message or a stream of request messages? What kind of data is in each response message and how is it encoded? The answers to these questions are provided by the stub. The stub marries the IDL-defined interfaces to a channel. The stub code is generated from the IDL. The channel layer provides the ABI that these generated stubs use.
-**grpc-web**
+## grpc-web
 
 gRPC-Web provides a Javascript library that lets browser clients access a gRPC service.
 <https://www.npmjs.com/package/grpc-web>
 
 [**https://blog.envoyproxy.io/envoy-and-grpc-web-a-fresh-new-alternative-to-rest-6504ce7eb880**](https://blog.envoyproxy.io/envoy-and-grpc-web-a-fresh-new-alternative-to-rest-6504ce7eb880)
-**Alternatives for protocol buffer for grpc**
+## Alternatives for protocol buffer for grpc
 -   Google flatbuffers
 -   Microsoft bond
-**Alternatives**
+## Alternatives
 
 1.  Rsocket
-**Getting Started**
+## Getting Started
 
 <https://www.semantics3.com/blog/a-simplified-guide-to-grpc-in-python-6c4e25f0c506>
 
@@ -169,7 +169,7 @@ gRPC-Web provides a Javascript library that lets browser clients access a gRPC s
 -   Load Testing server (number of rps)
 -   onboarding for other devs
 -   Sharing of proto files
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/GRPC>
 

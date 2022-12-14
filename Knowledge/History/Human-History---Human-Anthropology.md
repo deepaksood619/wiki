@@ -25,13 +25,11 @@ Modified: 2022-09-21 00:06:59 +0500
 -   12,000 years ago agriculture started in multiple locations; because of this specialization started
 -   500 years ago scientific revolution happened; industrial revolution
 
+![image](media/Human-History---Human-Anthropology-image1.jpg)
 
+![image](media/Human-History---Human-Anthropology-image2.png)
 
-![Image result for human anthropology chart](media/Human-History---Human-Anthropology-image1.jpg)
-
-![Image result for human anthropology chart](media/Human-History---Human-Anthropology-image2.png)
-
-**Earth History**
+## Earth History
 
 <http://timelineofearth.com
 

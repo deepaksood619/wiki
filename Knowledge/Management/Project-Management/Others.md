@@ -6,15 +6,13 @@ Modified: 2022-07-08 10:56:29 +0500
 
 ---
 
-**Slack**
+## Slack
 
 Command + k - Search
 
 Command + / - Show shortcuts
 
-
-
-**Bots**
+## Bots
 -   **Standup**
     -   Dixiapp - <https://dixiapp.com
     -   Geekbot
@@ -42,7 +40,7 @@ Command + / - Show shortcuts
 
 <https://www.polly.ai/template/remote-pulse-check-in>
 
-**Company Pulse**
+## Company Pulse
 
 1.  I am happy at work.
 
@@ -88,17 +86,13 @@ The workflows you create in Zapier are called Zaps, and they can automate many c
 
 -   [**https://workstreams.ai/**](https://workstreams.ai/)
 
-
-
 <https://snacknation.com/blog/best-slack-apps
 
 <https://github.com/maxchehab/phelia>
 
 <https://www.paymoapp.com/blog/best-slack-apps
 
-
-
-**5 Most Common Questions for Project Managers (Interview Questions)**
+## 5 Most Common Questions for Project Managers (Interview Questions)
 
 1.  What are the key challenges in the project management industry today and how do you tackle them?
     -   Communication
@@ -116,76 +110,46 @@ The workflows you create in Zapier are called Zaps, and they can automate many c
 
 5.  Decision Making / Change Management (CR - Change Request) / Risk Management
 
-
-
 <https://blog.capterra.com/how-to-answer-project-management-interview-questions
 
+## Certification
 
+## Project ManagementProfessional (PMP) is acertificationadministered byProject ManagementInstitute, U.S.A. It is aproject managementcourse recognized all over the world. PMBOK-fifth edition is the latest version for thisexam. Thecertificationis valid for 3 years.
 
-**Certification**
-
-**Project ManagementProfessional (PMP)** is acertificationadministered byProject ManagementInstitute, U.S.A. It is aproject managementcourse recognized all over the world. PMBOK-fifth edition is the latest version for thisexam. Thecertificationis valid for 3 years.
-
-
-
-**Planning Poker**
+## Planning Poker
 
 Planning Poker® is a consensus-based estimating technique. Agile teams around the world use Planning Poker to estimate their product backlogs. Planning Poker can be used with story points, ideal days, or any other estimating unit.
 
-
-
 Planning Poker is an agile estimating and planning technique that is consensus based. To start a poker planning session, the product owner or customer reads anagile user story or describes a feature to the estimators.
-
-
 
 Each estimator is holding a deck of Planning Poker cards with values like 0, 1, 2, 3, 5, 8, 13, 20, 40 and 100, which is the sequence we recommend. The values represent the number of story points, ideal days, or other units in which the team estimates.
 
-
-
 The estimators discuss the feature, asking questions of the product owner as needed. When the feature has been fully discussed, each estimator privately selects one card to represent his or her estimate. All cards are then revealed at the same time.
-
-
 
 If all estimators selected the same value, that becomes the estimate. If not, the estimators discuss their estimates. The high and low estimators should especially share their reasons. After further discussion, each estimator reselects an estimate card, and all cards are again revealed at the same time.
 
-
-
 The poker planning process is repeated until consensus is achieved or until the estimators decide that agile estimating and planning of a particular item needs to be deferred until additional information can be acquired.
-
-
 
 <https://www.mountaingoatsoftware.com/agile/planning-poker>
 
 <https://en.wikipedia.org/wiki/Planning_poker>
 
-
-
-**Story Points**
+## Story Points
 
 Story points are a unit of measure for expressing an estimate of the overall effort that will be required to fully implement a product backlog item or any other piece of work.
 
-
-
 When we estimate with story points, we assign a point value to each item. The raw values we assign are unimportant. What matters are therelative values. A story that is assigned a 2 should be twice as much as a story that is assigned a 1. It should also be two-thirds of a story that is estimated as 3 story points.
-
-
 
 Because story points represent the effort to develop a story, a team's estimate must include everything that can affect the effort. That could include:
 -   The amount of work to do
 -   The complexity of the work
 -   Any risk or uncertainty in doing the work
 
-
-
 A story point estimate must include everything involved in getting a product backlog item all the way to done. If a team's definition of done includes creating automated tests to validate the story (and that would be a good idea), the effort to create those tests should be included in the story point estimate.
-
-
 
 <https://www.mountaingoatsoftware.com/blog/what-are-story-points>
 
-
-
-**Story points vs. hours**
+## Story points vs. hours
 
 Traditional software teams give estimates in a time format: days, weeks, months. Many agile teams, however, have transitioned to story points. Story points rate the relative effort of work in a Fibonacci-like format: 0, 0.5, 1, 2, 3, 5, 8, 13, 20, 40, 100. It may sound counter-intuitive, but that abstraction is actually helpful because it pushes the team to make tougher decisions around the difficulty of work. Here are few reasons to use story points:
 -   Dates don't account for the non-project related work that inevitably creeps into our days: emails, meetings, and interviews that a team member may be involved in.

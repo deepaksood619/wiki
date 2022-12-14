@@ -10,13 +10,9 @@ Dynamic Programming is an algorithmic paradigm that solves a given complex probl
 
 The idea is very simple, If you have solved a problem with the given input, then save the result for future reference, so as to avoid solving the same problem again.. shortly*'Remember your Past'*
 
-
-
 1.  **Overlapping Subproblem Property**
 
 In dynamic programming, computed solutions to subproblems are stored in a table so that these don't have to recomputed.
-
-
 
 There are following two different ways to store the values so that these values can be reused:
 
@@ -26,33 +22,25 @@ The memoized program for a problem is similar to the recursive version with a sm
 
 Start solving the given problem by breaking it down. If you see that the problem has been solved already, then just return the saved answer. If it has not been solved, solve it and save the answer. This is usually easy to think of and very intuitive. This is referred to as***Memoization***.
 
-
-
 b.  **Tabulation (Bottom up approach)**
 
 The tabulated program for a given problem builds a table in bottom up fashion and returns the last entry from table.
 
 Analyze the problem and see the order in which the sub-problems are solved and start solving from the trivial subproblem, up towards the given problem. In this process, it is guaranteed that the subproblems are solved before solving the problem. This is referred to as***Dynamic Programming***.
 
-
-
 2.  **Optimal Substructure Property**
 
 A given problems has Optimal Substructure Property if optimal solution of the given problem can be obtained by using optimal solutions of its subproblems.
 
-
-
 Both Tabulated and Memoized store the solutions of subproblems. In Memoized version, table is filled on demand while in Tabulated version, starting from the first entry, all entries are filled one by one. Unlike the Tabulated version, all entries of the lookup table are not necessarily filled in Memoized version.
 
-![tabulation-vs-memoization](media/Intro-image1.png)
+![image](media/Intro-image1.png)
 
 Majority of the Dynamic Programming problems can be categorized into two types:
 
 1.  Optimization problems
 
 2.  Combinatorial problems
-
-
 
 Algorithms
 
@@ -69,8 +57,6 @@ Algorithms
 6.  Coin change
 
 7.  Seam Carving
-
-
 
 <https://www.geeksforgeeks.org/dynamic-programming
 

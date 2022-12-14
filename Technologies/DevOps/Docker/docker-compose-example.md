@@ -26,8 +26,6 @@ GIT_PASSWORD: ${GIT_PASSWORD}
 
 image: gcr.io/zenatix-data-archiver/zenalytix:fc3c0ae06074
 
-
-
 zenalytix-dev:
 
 stdin_open: true
@@ -134,8 +132,6 @@ timeout: 10s
 
 retries: 5
 
-
-
 logging:
 
 driver: awslogs
@@ -146,15 +142,11 @@ awslogs-group: devec2
 
 awslogs-region: us-west-2
 
-
-
 depends_on:
 
 - "postgres-zenalytix"
 
 - "redis-zenalytix"
-
-
 
 redis:
 
@@ -194,8 +186,6 @@ networks:
 
 - localhost_net
 
-
-
 redisinsight:
 
 stdin_open: true
@@ -222,8 +212,6 @@ networks:
 
 - localhost_net
 
-
-
 networks:
 
 zenatix-docker:
@@ -232,19 +220,13 @@ external:
 
 name: zenatix-docker
 
-
-
 airflow-docker:
-
-
 
 volumes:
 
 postgres-zenalytix-volume:
 
 external: true
-
-
 
 mysql:
 
@@ -283,8 +265,6 @@ ports:
 volumes:
 
 - ./data:/var/lib/mysql
-
-
 
 mysql:
 

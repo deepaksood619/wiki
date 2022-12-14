@@ -7,7 +7,7 @@ Modified: 2019-12-31 21:33:04 +0500
 ---
 
 When we're talking about *consistency* in distributed systems, we are referring to the concept that you will have some data distributed in different nodes of your system, and each one of those might have a copy of your data. If it's a read-only dataset, any client connecting to any of the nodes will always receive the same data, so there is no consistency problem. When it comes to read-write datasets, some conflicts can arise. Each one of the nodes can update its own copy of the data, so if a client connects to different nodes in your system, it might receive different values for the same data.
-**Consistency levels**
+## Consistency levels
 
 Consistency levels from Werner Vogel's[Eventually Consistent](http://delivery.acm.org/10.1145/1440000/1435432/p40-vogels.pdf?ip=67.170.235.99&id=1435432&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1565542564_c4a7ccbc0971346102d83294a77ed4a2):
 -   **Strong consistency-** after an update completes, all further operations correctly use the new value
@@ -33,15 +33,15 @@ Consistency levels from Werner Vogel's[Eventually Consistent](http://delivery.ac
 4.  **Bounded staleness** ensures that read results are not too out-of-date. Typically, staleness is defined by a time period T, say 5 minutes. The storage system guarantees that a read operation will return any values written more than T minutes ago or more recently written values. Alternative, some systems have defined staleness in terms of the number of missing writes or even the amount of inaccuracy in a data value. I find that time-bounded staleness is the most natural concept for application developers.
 5.  **Monotonic Reads** is a property that applies to a sequence of read operations that are performed by a given storage system client. As such, it is often called a "session guarantee." With monotonic reads, a client can read arbitrarily stale data, as with eventual consistency, but is guaranteed to observe a data store that is increasingly up-to-date over time. In particular, if the client issues a read operation and then later issues another read to the same object(s), the second read will return the same value(s) or the results of later writes.
 6.  **Read My Writes** is a property that also applies to a sequence of operations performed by a single client. It guarantees that the effects of all writes that were performed by the client are visible to the client's subsequent reads. If a client writes a new value for a data object and then reads this object, the read will return the value that was last written by the client (or some other value that was later written by a different client). (Note: In other papers, this has been called "Read Your Writes," but I have chosen to rename it to more accurately describe the guarantee from the client's viewpoint.)
-**Convergence**
+## Convergence
 
 Convergence is the state in which all the nodes of the system have eventually achieved consistency.-   **Eventual Consistency (NoSQL, Higher Availability)**
 
-**Read will see some write and eventually it will see the latest write**
+## Read will see some write and eventually it will see the latest write
 
 Eventual consistency is a model in distributed computing that guarantees that given an update to a data item in your dataset, *eventually*, at a point in the future, all access to this data item in any node will return the same value. Because each one of the nodes can update its own copy of the data item, if two or more nodes modify the same data item, you will have a conflict. ***Conflict resolution algorithms*** are then required to achieve convergence.
 One special case for eventual consistency is when you have your data distributed in multiple nodes, but only one of them is allowed to make updates to the data. If one node is the canonical source of information for the updates, you won't have conflicts in the other nodes as long as they are able to apply the updates in the exact same order as the canonical information source. You add the possibility of write unavailability, but that's a bearable trade-off for some business use cases.
-**Eventually Consistent Resolution Strategies (conflict resolution algorithms)**
+## Eventually Consistent Resolution Strategies (conflict resolution algorithms)
 
 1.  **LWW (last write wins)**
 
@@ -57,25 +57,25 @@ What if someone built a series of reusable data types for you? Convergent Replic
 
 CRDTs can be considered one of the key building blocks of a distributed system, enabling strong eventual consistency and a highly available, low latency application.-   **Strong Consistency (SQL)**
 
-**Our reads will read the latest writes**
+## Our reads will read the latest writes
 
 Strong consistency is a model that is most familiar to database developers, given that it resembles the traditional transaction model with its Atomicity, Consistency, Isolation, and Durability (ACID) properties. In this model, any update in any node requires that all nodes agree on the new value before making it visible for client reads. It sounds naively simple, but it also introduces the require‐ ment of blocking all the nodes until they converge. It might be espe‐ cially problematic depending on network latency and throughput.-   **External Consistency**
 
 Under external consistency, the system behaves as if all transactions were executed sequentially, even though Cloud Spanner actually runs them across multiple servers (and possibly in multiple datacenters) for higher performance and availability.
 <https://cloud.google.com/spanner/docs/true-time-external-consistency>
-![Consistency Solutions Faster reads and writes More consistency Eventua Big Data Computing Strong e.g., Sequential Design of Key-Value Stores ](media/Consistency-image1.png)
+![image](media/Consistency-image1.png)
 
-![Eventual Consistency • Cassandra offers Eventual Consistency • If writes to a key stop, all replicas of key will converge Originally from Amazon's Dynamo and Linkedln's Voldemort systems Faster reads and writes More consistency Ev tual Big Data Computing Strong (e.g., Sequential) Design of Key-Value Stores ](media/Consistency-image2.png)
+![image](media/Consistency-image2.png)
 
-![Newer Consistency Models • Striving towards strong consistency • While still trying to maintain high availability and partition-tolerance Red-Blue Causal Probabilistic er-key sequentia Eventua CRDTs Big Data Computing trong (e.g., equenti I) Design of Key-Value Stores ](media/Consistency-image3.png)
+![image](media/Consistency-image3.png)
 
-![Newer Consistency Models (Contd.) • Per-key sequential: Per key, all operations have a global order • CRDTs (Commutative Replicated Data Types): Data structures for which commutated writes give same result [INRIA, France] E.g., value == int, and only op allowed is +1 Effectively, servers don't need to worry about consistency Red-Blue Causal Probabilistic Per-key sequential Eventual Big Data Computing CRDTs Strong (e.g., Sequential) Design of Key-Value Stores ](media/Consistency-image4.png)
+![image](media/Consistency-image4.png)
 
-![Newer Consistency Models (Contd.) • Red-blue Consistency: Rewrite client transactions to separate operations into red operations vs. blue operations [MPI-SWS Germany] Blue operations can be executed (commutated) in any order across DCs Red operations need to be executed in the same order at each DC Red-Blue Causal robabilistic Per-key sequential Eventual Big Data Computing CRDTs Strong (e.g., Sequential) Design of Key-Value Stores ](media/Consistency-image5.png)
+![image](media/Consistency-image5.png)
 
-![Newer Consistency Models (Contd.) Causal Consistency: Reads must respect partial order based on informat• w [Princeton, CMU W(KI, ) Client W(K2, 55) Client (Klhr turns Client Time W(KI, 2b 361) may return •s must return 33 22 or 33 R(K2) returns 55 Causality, not messages Red-Blue Causal Probabilistic Per-key sequential Eventual CRDTs Big Data Computing Strong (e.g., Sequential) Design of Key-Value Stores ](media/Consistency-image6.png)
+![image](media/Consistency-image6.png)
 
-![Which Consistency Model should you use? • Use the lowest consistency (to the left) consistency model that is "correct" for your application • Gets you fastest availability Red-Blue Causal Probabilistic Per-key sequential Eventual Big Data Computing CRDTs Strong (e.g., Sequential) Design of Key-Value Stores ](media/Consistency-image7.png)
+![image](media/Consistency-image7.png)
 
 Strong Consistency Models
 -   Linearizability: Each operation by a client is visible (or available) instantaneously to all other clients
@@ -93,7 +93,7 @@ Conclusion
 -   Key-value ? NoSQL systems offer BASE
     -   Basically Available Soft-state Eventual Consistency
     -   Eventual consistency, and a variety of other consistency models striving towards strong consistency
-**References**
+## References
 
 <https://www.dotconferences.com/2015/06/dan-brown-convergent-replicated-data-types>
 

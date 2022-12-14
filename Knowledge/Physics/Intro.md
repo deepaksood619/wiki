@@ -8,77 +8,49 @@ Modified: 2021-12-31 14:19:38 +0500
 
 1.  Retrocausality - That future can effect the past. Ex - if i spill the coffee tomorrow then i can see the stain today.
 
-
-
 # Momentum
 
 In[Newtonian mechanics](https://en.wikipedia.org/wiki/Newtonian_mechanics),linear momentum,translational momentum, or simplymomentum([pl.](https://en.wikipedia.org/wiki/Plural)momenta) is the product of the[mass](https://en.wikipedia.org/wiki/Mass)and[velocity](https://en.wikipedia.org/wiki/Velocity)of an object. It is a[vector](https://en.wikipedia.org/wiki/Euclidean_vector)quantity, possessing a magnitude and a direction in three-dimensional space. Ifmis an object's mass andvis the velocity (also a vector), then the momentum is
 
 p = mv
 
-
-
 In[SI units](https://en.wikipedia.org/wiki/International_System_of_Units), it is measured in[kilogram meters per second](https://en.wikipedia.org/wiki/Kilogram_metre_per_second)([kg](https://en.wikipedia.org/wiki/Kilogram)⋅[m/s](https://en.wikipedia.org/wiki/Meters_per_second)).[Newton's second law](https://en.wikipedia.org/wiki/Newton%27s_second_law)of motion states that a body's rate of change in momentum is equal to the net force acting on it.
-
-
 
 Momentum depends on the[frame of reference](https://en.wikipedia.org/wiki/Frame_of_reference), but in any inertial frame it is aconservedquantity, meaning that if a[closed system](https://en.wikipedia.org/wiki/Closed_system)is not affected by external forces, its total linear momentum does not change. Momentum is also conserved in[special relativity](https://en.wikipedia.org/wiki/Special_relativity), (with a modified formula) and, in a modified form, in[electrodynamics](https://en.wikipedia.org/wiki/Electrodynamics),[quantum mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics),[quantum field theory](https://en.wikipedia.org/wiki/Quantum_field_theory), and[general relativity](https://en.wikipedia.org/wiki/General_relativity). It is an expression of one of the fundamental symmetries of space and time:[translational symmetry](https://en.wikipedia.org/wiki/Translational_symmetry).
 
-
-
 Advanced formulations of classical mechanics,[Lagrangian](https://en.wikipedia.org/wiki/Lagrangian_mechanics)and[Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics), allow one to choose coordinate systems that incorporate symmetries and constraints. In these systems the conserved quantity isgeneralized momentum, and in general this is different from thekineticmomentum defined above. The concept of generalized momentum is carried over into quantum mechanics, where it becomes an operator on a[wave function](https://en.wikipedia.org/wiki/Wave_function). The momentum and position operators are related by the[Heisenberg uncertainty principle](https://en.wikipedia.org/wiki/Heisenberg_uncertainty_principle).
-
-
 
 In continuous systems such as electromagnetic fields, fluids and deformable bodies, a momentum density can be defined, and a continuum version of the conservation of momentum leads to equations such as the[Navier--Stokes equations](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations)for fluids or the[Cauchy momentum equation](https://en.wikipedia.org/wiki/Cauchy_momentum_equation)for deformable solids or fluids.
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Momentum>
 
-
-
-**Types of Collision**
+## Types of Collision
 -   **Elastic -** two objects collide and bounce of each other
 -   **Perfectly inelastic**
 -   **Partially inelastic**
 
-
-
-**4 Fundamental forces**
+## 4 Fundamental forces
 -   Strong and weak force
 -   Electromagnetism
 -   Gravity
-
-
 
 # Standard model of particle physics
 
 ![](media/Intro-image1.png)
 
-
-
 Proton - 2 up quarks and 1 down quark
 
 Neutron - 1 up quark and 2 down quarks
 
+![image](media/Intro-image2.png)
 
-
-![Elementary particles Elementary fermions Half-integer spin Obey the Fermi---Dirac statistics Elementary bosons Integer spin Obey the Bose---Einstein statistics Quarks and antiquarks spin = 1/2 Have color charge Participate in strong interactions Generations 1. Up (u), Down (d) 2. Charm (c), Strange (s) 3. Top (t), Bottom (b) Notes: 1. The antielectron (e+) is traditionally called positron. Leptons and antileptons spin = 1/2 No color charge Electroweak interactions Generations Electron (e-)l, Electron neutrino (v 1. . Muon (g - Muon neutrino (vw) 2 3. Tau (f), Tau neutrino (VT) Gauge bosons Spin O Force carriers Four kinds (four fundamental interactions) 1. Photon (y, electromagnetic interaction) 2. W and Z bosons (W+, W-, Z, weak interaction) 3. Eight types of gluons (g, strong interaction) 4. Graviton (G, gravity, hypothetical)2 Scalar bosons spin = O Higgs boson (HO) 2. The known force carrier bosons all have spin = 1 and are therefore vector bosons. The hypothetical graviton has spin = 2 and is a tensor boson; whether it is a gauge boson as well, is unknown. ](media/Intro-image2.png)
-
-
-
-![FermiOns ...-3/2, -1/2, 1/2, 3/2... Examples: Electrons Quarks Protons Neutrons Bosons 012 Examples: Photon Higgs Gluon ](media/Intro-image3.jpeg)
-
-
+![image](media/Intro-image3.jpeg)
 
 <https://en.wikipedia.org/wiki/Standard_Model>
 
 <https://www.youtube.com/watch?v=Unl1jXFnzgo>
 
 [The Fundamental Constituents of Matter and the Eightfold Way](https://www.youtube.com/watch?v=SSswwu8JEYQ)
-
-
 

@@ -8,13 +8,13 @@ Modified: 2022-09-23 12:54:52 +0500
 
 Statistics is a subfield of mathematics. It refers to a collection of methods for working with data and using data to answer questions.
 Eyeball statistics
-**Statistics drives practice, policy and laws**
+## Statistics drives practice, policy and laws
 -   In almost every aspect of our lives, practice and policy is determined by statistics
     -   In fiscal policy, governments decide taxation and spending, based upon statistical assessments of their effects on the economy
     -   In health care, questions of what drugs should be approved and what treatment patients should get is based upon statistics (often in medical research)
     -   In our personal lives, our choices of where to work, live and how to save/invest are at least loosely driven by statistics
 -   Making good policy and personal decisions requires an understanding of statistics and data. If we misread the statistics or the statistics are unreliable, policy will as well
-**Lying with Statistics**
+## Lying with Statistics
 -   **Agendra-driven data:** As access to data has increased, the misuse of that data has also gone up, especially when people have agendas and want to further them. These people mislead, without technically lying, as the selectively pick and choose which data they use, and how they present that data
 -   **Social media as magnifier:** Bad data can take on a life of its won, especially with social media operating as a weapon to widen its reach
     -   Gresham's Law
@@ -23,23 +23,23 @@ Eyeball statistics
     -   Understanding statistics allows us to
         -   Look for red flags that can be used to detect data manipulation
         -   Asking the right questions to separate fact from fiction
-**Mathematical Thinking**
+## Mathematical Thinking
 
 Mathematical thinking is about seeing the world in a different way. Which means sometimes seeing beyond our intuition or gut feeling
-**Population**
+## Population
 -   Collection of all items of interest of our study
 -   Denoted by **N**
 -   Numbers obtained are called parameters
-**Sample**
+## Sample
 -   A subset of the population
 -   Denoted by **n**
 -   Numbers obtained are called statistics
-**Time Series vs Cross Section**
+## Time Series vs Cross Section
 
 The data that you are trying to study can be a phenomenon that you observe over time (time series data) or across different subjects at a point in time (cross sectional data)
 -   Time series example: If stock returns over time is your population, stock returns from 1960-2021 is a sample
 -   Cross sectional example: If all publicly traded companies is your population, looking at only US companies or companies with market caps that exceed $10 million is a sample
-**Regression toward the mean**
+## Regression toward the mean
 
 In[statistics](https://en.wikipedia.org/wiki/Statistics),regression toward the mean(also calledregression to the mean,reversion to the mean, andreversion to mediocrity) is the phenomenon that arises if a[sample point](https://en.wikipedia.org/wiki/Sample_point)of a[random variable](https://en.wikipedia.org/wiki/Random_variable) is [extreme](https://en.wikipedia.org/wiki/Extreme_value_theory) (nearly an[outlier](https://en.wikipedia.org/wiki/Outlier)), a future point is likely to be closer to the[mean](https://en.wikipedia.org/wiki/Mean)or[average](https://en.wikipedia.org/wiki/Average).To avoid making incorrect[inferences](https://en.wikipedia.org/wiki/Statistical_inference), regression toward the mean must be considered when designing scientific experiments and interpreting data.
 <https://en.wikipedia.org/wiki/Regression_toward_the_mean>
@@ -63,14 +63,14 @@ g.  Double blind study
 h.  Matched-pair experiments
 
 i.  Repeated measures design
-**Henrietta Lacks, the Tuskegee Experiment, & Ethical Data Collection**
+## Henrietta Lacks, the Tuskegee Experiment, & Ethical Data Collection
 
 a.  Informed Consent
 
 b.  Nuremberg code
 
 c.  Beneficence
-**Outliers**
+## Outliers
 
 <https://www.freecodecamp.org/news/what-is-an-outlier-definition-and-how-to-find-outliers-in-statistics>
 
@@ -93,7 +93,7 @@ c.  Beneficence
 ## Outline**
 -   [Astrostatistics](https://en.wikipedia.org/wiki/Astrostatistics)
 -   [Biostatistics](https://en.wikipedia.org/wiki/Biostatistics)
-**References**
+## References
 
 Abraham Wald and the Missing Bullet Holes
 

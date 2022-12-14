@@ -8,9 +8,7 @@ Modified: 2022-04-19 23:22:28 +0500
 
 <https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e>
 
-
-
-**Datatypes**
+## Datatypes
 
 1.  Numbers (primitive)
 
@@ -30,28 +28,20 @@ Undefined is the absence of a definition. It is used as the default value for un
 
 7.  Symbol (ES6)
 
+## Falsy values:"",0,null,undefined,NaN,false.
 
+## Truthy values : 'hello', '0', ' ', ([]), (function() {})
 
-**Falsy values:**"",0,null,undefined,NaN,false.
-
-**Truthy values :** 'hello', '0', ' ', ([]), (function() {})
-
-
-
-**Comments**
+## Comments
 
 // and /* */
 
-
-
-**Variables**
+## Variables
 -   Not starting with number
 -   Can start with underscore and characters
 -   Declared using var keyword
 -   Untyped language ( var foo ) can hold value of any data type
 -   Scope - Global and Local
-
-
 
 1.  **var**
 
@@ -61,31 +51,19 @@ Thevariablestatementdeclares a variable, optionally initializing it to a value.
 
 Theletstatement declares a block scope local variable, optionally initializing it to a value.
 
-
-
 letallows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the[var](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/var)keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
 
 3.  **const**
 
 Constants are block-scoped, much like variables defined using the[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
 
-
-
 This declaration creates a constant whose scopecan be either global or local to the blockin which it is declared. Global constants do not become properties of the window object, unlike[var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)variables. An initializer for a constant is required; that is, you must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).
-
-
 
 Theconstdeclarationcreates a read-only reference to a value. It doesnotmean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered.
 
-
-
 All the considerations about the "[temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let)" apply to both[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)andconst.
 
-
-
 A constant cannot share its name with a function or a variable in the same scope.
-
-
 
 | Keyword | Scope          | Hoisting | Can Be Reassigned | Can Be Redeclared |
 |---------|----------------|----------|-------------------|-------------------|
@@ -93,9 +71,7 @@ A constant cannot share its name with a function or a variable in the same scope
 | let     | Block scope    | No       | Yes               | No                |
 | const   | Block scope    | No       | No                | No                |
 
-
-
-**Keywords**
+## Keywords
 
 | abstract | else       | instanceof | switch       |
 |----------|------------|------------|--------------|
@@ -114,9 +90,7 @@ A constant cannot share its name with a function or a variable in the same scope
 | do       | import     | static     | with         |
 | double   | in         | super      |             |
 
-
-
-**Operators**
+## Operators
 
 1.  Arithmetic Operators
 
@@ -243,9 +217,7 @@ var mycar = {make: 'Honda', model: 'Accord', year: 1998};
 'make' in mycar // returns true
 'model' in mycar // returns true
 
-
-
-**Control Statements**
+## Control Statements
 
 1.  If statement
 
@@ -257,79 +229,49 @@ var mycar = {make: 'Honda', model: 'Accord', year: 1998};
 
 Theswitchstatementevaluates an[expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators), matching the expression's value to acaseclause, and executes[statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)associated with that case, as well as statements incases that follow the matching case.
 
-
-
-**Hoisting**
+## Hoisting
 
 The behavior of "moving"varandfunctiondeclarations to the top of their respective scopes during the compilation phase is calledhoisting.
 
-
-
 Function declarations are completely hoisted. This means that a declared function can be called before it is defined.
-
-
 
 Variables are partially hoisted.vardeclarations are hoisted but not its assignments.
 
-
-
 letandconstare not hoisted.
-
-
 
 all variables (var) are declared at top of any function scope (includes function declaration)
 
-
-
-**var hoisting**
+## var hoisting
 
 Because variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared. This behavior is called "hoisting", as it appears that the variable declaration is moved to the top of the function or global code.
 
-
-
-**Closure**
+## Closure
 
 Aclosureis the combination of a function and the lexical environment from which it was declared. Closure allows a function to access variables from an enclosing scope ---environment--- even after it leaves the scope in which it was declared.
 
-
-
-**Immediate Invoked Function Expression (IIFE)**
+## Immediate Invoked Function Expression (IIFE)
 
 A JS programming language idiom which produces a lexical scope using JS's function scoping. It can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.
 
-
-
 An IIFE is a function expression that is called immediately after you define it. It is usually used when you want to create a new variable scope.
-
-
 
 Contextis most often determined by how a function is invoked. It always refers to the value ofthisin a particular part of your code.
 
-
-
 Scoperefers to the visibility of variables.
-
-
 
 ( function foo() { } )();
 
-
-
-**When would you use an IIFE**
+## When would you use an IIFE
 
 When we want to control the scope of variables of a function. This function will not be available globally to be called from.
 
-
-
-**Naming Conventions**
+## Naming Conventions
 
 JSON Key must be used as camelCase or snake_case.
 
 Google follows camelCase
 
-
-
-**Boolean**
+## Boolean
 
 Any object of which the value is not[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)or[null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), including aBooleanobject whose value isfalse, evaluates totruewhen passed to a conditional statement. For example, the condition in the following[if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)statement evaluates totrue:
 
@@ -338,15 +280,11 @@ if (x) {
 // this code is executed
 }
 
-
-
 if (false) {
 
 // this code is not executed
 
 }
-
-
 
 if (1) {
 
@@ -354,17 +292,13 @@ if (1) {
 
 }
 
-
-
 if (0) {
 
 // this code is not executed
 
 }
 
-
-
-**String functions**
+## String functions
 
 1.  String.length
 
@@ -374,7 +308,7 @@ if (0) {
 
 Ex - **str = str.replace(/[^a-z]*/g, "");**
 
-**Ex - str = str.replace(/[^a-z0-9]*/g, "");**
+## Ex - str = str.replace(/[^a-z0-9]*/g, "");
 
 4.  String.prototype.toLowerCase()
 
@@ -410,11 +344,7 @@ The static**String.fromCharCode()**method returns a string created from the spec
 
 The**match()**method retrieves the matches when matching a*string*against a*regular expression*.
 
-
-
-**Bracket notation for getting string characters**
-
-
+## Bracket notation for getting string characters
 
 Strings are immutable
 
@@ -422,9 +352,7 @@ Var myStr = "Bob";
 
 myStr[0] = "J"; // error
 
-
-
-**Arrays**
+## Arrays
 
 1.  Array.prototype.push()
 
@@ -483,15 +411,11 @@ things.sort(); // ['1 Word', '2 Words', 'Word', 'word']
 // In Unicode, numbers come before upper case letters,
 // which come before lower case letters.
 
-
-
 var numbers = [4, 2, 5, 1, 3];
 numbers.sort(function(a, b) {
 return a - b;
 });
 console.log(numbers);
-
-
 
 13. Array isArray()
 
@@ -500,9 +424,7 @@ Array.isArray({foo: 123}); // false
 Array.isArray('foobar'); // false
 Array.isArray(undefined); // false
 
-
-
-**Loops**
+## Loops
 
 1.  **For**
 
@@ -520,17 +442,13 @@ The**for...ofstatement**creates a loop iterating over[iterable objects](https://
 
 2.  **While**
 
+## Objects (JSON - JavaScript Object Notation)
 
-
-**Objects (JSON - JavaScript Object Notation)**
-
-**Accessing Objects Properties with the**
+## Accessing Objects Properties with the
 
 1.  **Dot Operator**
 
 2.  **Bracket Notation**
-
-
 
 1.  **Arguments Object**
 
@@ -541,8 +459,6 @@ var args = [].slice.call(arguments);
 
 // ES2015, does not work sometimes
 const args = Array.from(arguments);
-
-
 
 2.  Object.prototype.hasOwnProperty() // true or false
 
@@ -558,31 +474,23 @@ For getting the value from an object
 
 foo[Object.keys(foo)[0]); // bar
 
-
-
 4.  Delete object key-value
 
 delete collection[key];
 
-
-
-**Adding properties to objects**
+## Adding properties to objects
 
 obj.bark = "bow-wow" // dot notation
 
 obj["bark"] = "bow-wow" // bracket notation
 
-
-
-**Deleting properties from objects**
+## Deleting properties from objects
 
 delete obj.bark; // dot notation
 
 delete obj["bark"] // bracked notation
 
-
-
-**Random function**
+## Random function
 
 Math.random(); // from 0(inclusive) to 1(exclusive)
 
@@ -592,9 +500,7 @@ Range - Math.floor(Math.random() * (max - min + 1)) + min
 
 // from range min to max
 
-
-
-**Regular Expressions**
+## Regular Expressions
 
 Used to find certain words or patterns inside of strings.
 
@@ -610,7 +516,7 @@ Ex - /the/gi
 
 "i" means that we want to ignore the case when searching for the pattern
 
-**Special selectors**
+## Special selectors
 
 d - retreive digits
 
@@ -618,21 +524,17 @@ s - white spaces (" "(space), r(carriage return), n(newline), t(tab), f(form fee
 
 S - non-whitespace characters
 
-
-
 Ex-
 
 var re = /^(1s?)?((d{3})|d{3})[s-]?d{3}[s-]?d{4}$/;
 
 return re.test(str);
 
-**String.prototype.match()**
+## String.prototype.match()
 
 str.match(re)
 
-
-
-**Object Oriented and Functional Programming**
+## Object Oriented and Functional Programming
 
 1.  **Constructor**
 
@@ -646,7 +548,7 @@ this.seats = 5;
 
 };
 
-**this** variable refers to the new object being created by the constructor.
+## this variable refers to the new object being created by the constructor.
 
 So when we write,
 
@@ -656,11 +558,11 @@ inside of the constructor we are giving the new object it creates a property cal
 
 2.  **Instances of objects**
 
-**var myCar = new Car();**
+## var myCar = new Car();
 
 3.  **Parametrized Constructor**
 
-**var myCar = new Car(6, 3, 1);**
+## var myCar = new Car(6, 3, 1);
 
 var Car = function(wheels, seats, engines) {
 
@@ -794,23 +696,17 @@ console.log(salad); // "Celery and Radish and Carrot and Potato"
 
 
 
+## Built-in functions
 
-
-**Built-in functions**
-
-**Conversion**
+## Conversion
 
 parseFloat('43.1')
 
 parseInt('45') // always use the floor value if float is passed
 
-
-
-**Destructuring assignment / Spread operator**
+## Destructuring assignment / Spread operator
 
 Thedestructuring assignmentsyntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
-
-
 
 [a, b, ...rest] = [10, 20, 30, 40, 50];
 
@@ -818,23 +714,15 @@ console.log(rest);
 
 // expected output: Array [30,40,50]
 
-
-
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>
 
 <https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript
 
-
-
-**Spread Syntax**
+## Spread Syntax
 
 Spread syntax(...) allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
 
-
-
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax>
-
-
 
 <https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter
 -   Object destructuring is new syntax introduced in ES6. It helps create variables by extracting the object's properties in a much simpler way.
@@ -843,8 +731,6 @@ Spread syntax(...) allows an iterable such as an array expression or string to b
 -   Spreadsyntax (also known as the Spread Operator) is used to copy the enumerable properties of an object to create a clone of it. We can also update an object or merge with another object using the spread syntax.
 -   TheRestparameter is kind of the opposite of theSpreadsyntax. It helps to consolidate (or collect) the remaining object properties into a new object while destructuring is done.
 
-
-
-**Others**
+## Others
 
 <https://stackoverflow.com/questions/500504/why-is-using-for-in-with-array-iteration-a-bad-idea>

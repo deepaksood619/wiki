@@ -8,11 +8,7 @@ Modified: 2019-09-17 00:03:42 +0500
 
 Finding the index of first element in*A*which is not less than*x*is called lower_bound query in C++ STL. The answer of our first query isn-lower_bound(x)
 
-
-
 Similarly, finding the index of first element in*A*which is greater than*x*is called upper_bound query in C++ STL. The answer of our second query isn-upper_bound(x).
-
-
 
 int lower_bound(int start,int end,int item)
 {
@@ -37,13 +33,9 @@ else end=mid;
 return start;
 }
 
-
-
 <https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/monk-and-search-2/editorial
 
-
-
-**# get count of all elements that are smaller or equal to given key**
+## # get count of all elements that are smaller or equal to given key
 
 def binarySearchCount(arr, left, n, key):
 
@@ -88,7 +80,5 @@ mid-= 1
 # Return mid + 1 because of 0-based indexing of array
 
 return mid + 1
-
-
 
 <https://www.geeksforgeeks.org/count-smaller-equal-elements-sorted-array

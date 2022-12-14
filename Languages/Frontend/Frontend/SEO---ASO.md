@@ -6,23 +6,21 @@ Modified: 2022-12-05 12:20:24 +0500
 
 ---
 
-**SEO - Search Engine Optimization**
+## SEO - Search Engine Optimization
 
-**SMO - Social Media Optimization**
+## SMO - Social Media Optimization
 
-**SEM - Search Engine Marketing**
+## SEM - Search Engine Marketing
 
-**ASO - App Store Optimization**
+## ASO - App Store Optimization
 
-**SEM - Search Engine Marketing**
+## SEM - Search Engine Marketing
 
 Search engine marketing is the practice of marketing a business using paid advertisements that appear on search engine results pages (or[SERPs](https://www.wordstream.com/serp)). Advertisers bid on keywords that users of services such as Google and Bing might enter when looking for certain products or services, which gives the advertiser the opportunity for their ads to appear alongside results for those search queries.
 
 <https://blog.hubspot.com/marketing/search-engine-marketing>
 
-
-
-**Tools**
+## Tools
 
 <https://developers.google.com/speed/pagespeed/insights
 
@@ -42,13 +40,9 @@ Search engine marketing is the practice of marketing a business using paid adver
 
 <https://moz.com
 
-
-
-**Black Hat SEO**
+## Black Hat SEO
 
 Black hat SEO refers to a set of practices that are used to increases a site or page's rank in search engines through means that violate the search engines' terms of service.
-
-
 
 It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan get your site banned from search engines, excluding you from the number one traffic referral source on the Internet.
 
@@ -70,8 +64,6 @@ It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan
 -   Creating pages, subdomains, or domains with[duplicate content](https://www.wordstream.com/duplicate-content)
 -   Pages with malicious behavior, such as phishing, viruses, trojans, and other malware
 
-
-
 <https://www.wordstream.com/black-hat-seo>
 
 <https://unamo.com/blog/seo/8-risky-black-hat-seo-techniques-used-today>
@@ -80,37 +72,25 @@ It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan
 
 <https://www.searchenginejournal.com/11-black-hat-techniques-can-kill-seo-campaign/180601/#close>
 
-
-
-**White Hat SEO**
+## White Hat SEO
 
 Generally, white hat SEO refers to any practice that improves your search rankings on a search engine results page ([SERP](https://www.wordstream.com/serp)) while maintaining the integrity of your website and staying within the search engines' terms of service. These tactics stay within the bounds as[defined](http://googlewebmastercentral.blogspot.com/2008/11/googles-seo-starter-guide.html)by Google.
-
-
 
 <https://www.wordstream.com/white-hat-seo>
 
 <https://www.searchenginejournal.com/7-white-hat-seo-techniques-to-double-traffic/182243
 
-
-
 cloudinary.com for fast image CDN
 
+## Teminologies
 
-
-**Teminologies**
-
-**Search Engine Results Page (SERP)**
+## Search Engine Results Page (SERP)
 
 <https://www.wordstream.com/serp>
 
-
-
-**Siphoning**
+## Siphoning
 
 In the context of SEO (Search Engine Optimization), Siphoning refers to the act of stealing another website's traffic. Methods for stealing that traffic can include wholesale copying of webpages (that have been slightly altered to redirect visitors elsewhere), using keywords and keyword phrases that "belong" to the targetted website, cybersquatting, etc.
-
-
 
 In order to build a **site optimized for organic search engine rankings,** it is important to implement certain standards throughout the code. These include:
 -   Specifying analttag on images
@@ -133,9 +113,7 @@ In order to build a **site optimized for organic search engine rankings,** it is
 -   Avoid W3C markup validation errors
 -   Specify relevant meta tags
 
-
-
-**Optimize a website**
+## Optimize a website
 
 Optimizing websites is an art that few are familiar with. The more the engineer is able to list off the top of their head, the more likely they are to do all of the following naturally as they code instead of having to return later.
 
@@ -166,21 +144,15 @@ Optimizing websites is an art that few are familiar with. The more the engineer 
 -   Avoid unnecessary images; where possible, use CSS
 -   Ensure no validation errors with W3C
 
-
-
-**Google Tag Manager**
+## Google Tag Manager
 
 <https://www.freecodecamp.org/news/how-to-use-google-tag-manager-to-maintain-google-analytics-and-other-marketing-tags
 
-
-
-**Urchin Tracking Module(UTM)**
+## Urchin Tracking Module(UTM)
 
 Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https://en.wikipedia.org/wiki/Query_string)used by marketers to track the effectiveness of online[marketing campaigns](https://en.wikipedia.org/wiki/Marketing_campaign)across traffic sources and publishing media. They were introduced by[Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics)' predecessor[Urchin](https://en.wikipedia.org/wiki/Urchin_(software))and, consequently, are supported[out-of-the-box](https://en.wikipedia.org/wiki/Out_of_the_box_(feature))by Google Analytics. The UTM parameters in a URL identify the campaign that refers traffic to a specific website,and attributes the browser's[website session](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session)and the sessions after that until the campaign attribution window expires to it. The parameters can be parsed by analytics tools and used to populate reports.Example URL, UTM parameters highlighted, after the question mark (?):
 
 <https://www.example.com/page?utm_content=buffercf3b2&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer>
-
-
 
 <table>
 <colgroup>
@@ -229,35 +201,25 @@ Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https:
 </tbody>
 </table>
 
-
-
 <https://en.wikipedia.org/wiki/UTM_parameters>
 
 <https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters
 
+## PDP SEO - <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages
 
-
-**PDP SEO -** <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages
-
-
-
-**Subdomain vs subdirectory**
+## Subdomain vs subdirectory
 
 Use subdirectory wherever possible
 
 <https://www.semrush.com/blog/subdomain-vs-subdirectory
 
-
-
-**References**
+## References
 
 <https://www.toptal.com/full-stack/interview-questions>
 
 <https://neilpatel.com/blog/10-advanced-seo-techniques-thatll-double-your-search-traffic
 
 <https://neilpatel.com/blog/google-ranking
-
-
 
 <https://neilpatel.com/blog/get-your-mba-in-seo-with-these-10-guides-and-5-courses
 

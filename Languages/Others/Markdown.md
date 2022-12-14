@@ -8,7 +8,7 @@ Modified: 2022-12-11 12:34:24 +0500
 
 Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
-**Editor**
+## Editor
 	[Online Markdown Editor - Dillinger, the Last Markdown Editor ever.](https://dillinger.io/)
 
 1.  **Strikethrough**
@@ -17,7 +17,7 @@ Markdown is a way to style text on the web. You control the display of the docum
 
 2.  **Bold**
 
-**bold**
+## bold
 
 3.  **Italics**
 
@@ -37,13 +37,9 @@ Markdown is a way to style text on the web. You control the display of the docum
 
 _This will also be italic_
 
-
-
-**This text will be bold**
+## This text will be bold
 
 __This will also be bold__
-
-
 
 *You **can** combine them*
 
@@ -55,11 +51,7 @@ As Grace Hopper said:
 
 > in the future than in the past.
 
-
-
-![As Grace Hopper said: I've always been more interested in the future than in the past. ](media/Markdown-image1.png)
-
-
+![image](media/Markdown-image1.png)
 
 7.  **Lists**
 
@@ -89,27 +81,19 @@ As Grace Hopper said:
 
 ![Github Logo](/images/logo.png)
 
-
-
 Format: ![Alt Text](url)
 
 9.  **Links**
 
 <http://github.com> - automatically created
 
-
-
 [Github](http://github.com) - Using default text
-
-
 
 10. **Backslash Escapes**
 
 Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown's formatting syntax.
 
 *Literal asterisks*
-
-
 
 <table>
 <colgroup>
@@ -174,8 +158,6 @@ Markdown allows you to use backslash escapes to generate literal characters whic
 </tbody>
 </table>
 
-
-
 11. **Code: Block**
 
 To specify an entire block of pre-formatted code, indent every line of the block by 1 tab or 4 spaces. Ampersands and angle brackets will automatically be translated into HTML entities.
@@ -184,23 +166,17 @@ Markdown:
 
 If you want to mark something **as** code, indent it by 4 spaces**.**
 
-**<**p**>**This has been indented 4 spaces**.</**p**>**
-
-
+## <**p**>**This has been indented 4 spaces**.</**p**>
 
 # 
 
 # Github Flavored Markdown (GFM)
 
-
-
-**Username@Mentions**
+## Username@Mentions
 
 Typing an '@' symbol, followed by a username, will notify that person to come and view the comment. This is called an "@mention". You can also @mention teams within an organization.
 
-
-
-**Issue References**
+## Issue References
 
 Any number that refers to an issues or PR will be automatically converted into a link.
 
@@ -210,9 +186,7 @@ github-flavored-markdown#1
 
 defunkt/github-flavored-markdown#1
 
-
-
-**Emoji**
+## Emoji
 
 [www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 
@@ -225,17 +199,13 @@ Examples
 -   :metal:
 -   :octocat:
 
-
-
-**Fenced Code Blocks**
+## Fenced Code Blocks
 
 Markdown uses 4 leading spaces or 1 tab to represent a code block.
 
 With GFM we can use ``` to create a code block withouth the leading spaces.
 
 Optional language identifier can be added to give code syntax highlighting.
-
-
 
 Ex:
 
@@ -249,27 +219,21 @@ console.log("look ma', no spaces");
 
 ```
 
-
-
-**Task Lists**
+## Task Lists
 -   [x] this is a complete item
 -   [ ] this is an incomplete item
 -   [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 -   [x] list syntax required (any unordered or ordered list supported)
 
-![O this is a complete item this is an incomplete item @mentions, #refs, links, formatting, and togs supported list syntax required (any unordered or ordered list supported) ](media/Markdown-image2.png)
+![image](media/Markdown-image2.png)
 
-
-
-**Tables**
+## Tables
 
 Tables aren't part of the core Markdown spec, but they are part of GFM and*Markdown Here* supports them.
 
 We can create tables by assembling a list of words and dividing them with hyphens '-' (for the first row), and then separating each column with a pipe |:
 
-![First Header I Second Header Content cell 1 | Content cell 2 Content column I I Content column 2 First Header Content cell 1 Content column 1 Second Header Content cell 2 Content column 2 ](media/Markdown-image3.png)
-
-
+![image](media/Markdown-image3.png)
 
 Colons can be used to align columns.
 
@@ -288,15 +252,11 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-**Badges**
+## Badges
 
 ![Rank](https://img.shields.io/badge/Rank-87%20out%20of%2039586-brightgreen.svg "And Working")
 
-
-
 ![Number of puzzles solved](https://img.shields.io/badge/Puzzles%20Solved-234-orange.svg "And Working")
-
-
 
 Level | Name | Solution
 
@@ -320,9 +280,7 @@ Level | Name | Solution
 
 9 | Space | ' '
 
-
-
-**MDX**
+## MDX
 
 You write markdown with embedded components through JSX
 
@@ -330,9 +288,7 @@ It gets compiled to JavaScript that you can use in any framework that supports J
 
 <https://mdxjs.com
 
-
-
-**Others**
+## Others
 
 <https://github.com/adam-p/markdown-here>
 

@@ -15,13 +15,9 @@ Strong norms lesser rules
 -   Culture is shaped by the best behaviour a leader is willing to promote
 -   The lowest common denominator of the behavior you accept -- Johanna Rothman
 
-
-
 Learn it, Love it, Live it
 -   Clean
 -   Organised
-
-
 
 1.  We encourage independent decision-making by employees
 
@@ -33,17 +29,13 @@ Learn it, Love it, Live it
 
 5.  We avoid rules
 
-
-
-**Blinkist - No Rules Rules by Reed Hastings and Erin Meyer**
+## Blinkist - No Rules Rules by Reed Hastings and Erin Meyer
 -   High talent density encourages employees to perform at their very best
 -   **Radical candor** helps Netflix employees improve, even if it can be difficult to hear
 -   Getting rid of useless policies made Netflix employess more accountable
 -   At talent-dense organizations, dispersed decision-making is most efficient
 
-
-
-**Accountability**
+## Accountability
 
 <https://jobs.netflix.com/culture>
 
@@ -113,12 +105,8 @@ Impact
 -   You make your colleagues better
 -   You focus on results over process
 
-
-
 [THE CULTURE CODE by Daniel Coyle | Core Message](https://youtu.be/XHMGd6VR2cQ)
 -   You belong. It's safe to speak up here. We have a purpose.
 -   Culture is not something you are, it's something you do
-
-
 
 [The Secrets of Highly Successful Groups | Daniel Coyle | RSA Replay](https://www.youtube.com/watch?v=5T9tRvkXtns)

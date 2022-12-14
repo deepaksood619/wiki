@@ -6,19 +6,13 @@ Modified: 2019-01-22 10:19:28 +0500
 
 ---
 
-**Power Set**Power set P(S) of a set S is the set of all subsets of S. For example S = {a, b, c} then P(s) = {{}, {a}, {b}, {c}, {a,b}, {a, c}, {b, c}, {a, b, c}}.
-
-
+## Power SetPower set P(S) of a set S is the set of all subsets of S. For example S = {a, b, c} then P(s) = {{}, {a}, {b}, {c}, {a,b}, {a, c}, {b, c}, {a, b, c}}.
 
 Powerset also includes empty set and S itself
 
-
-
 If S has n elements in it then P(s) will have 2^n elements
 
-
-
-**Algorithm:**
+## Algorithm:
 
 Input: Set[], set_size
 1. Get the size of power set
@@ -29,15 +23,11 @@ powet_set_size = pow(2, set_size)
 Print ith element from set for this subset
 (b) Print seperator for subsets i.e., newline
 
-
-
 Running time - O(2^n^)
 
 Running time with decoding from integer to binary - O(2^n * log n)
 
-
-
-**Using Bit Manipulation**
+## Using Bit Manipulation
 
 possibleSubsets(A, N):
 for i = 0 to 2^N:
@@ -45,8 +35,6 @@ for j = 0 to N:
 if jth bit is set in i:
 print A[j]
 print 'n'
-
-
 
 void possibleSubsets(char A[], int N)
 {
@@ -59,9 +47,7 @@ cout << endl;
 }
 }
 
-
-
-**Python (Using chain and combinations)**
+## Python (Using chain and combinations)
 
 # get all subsets of a list
 
@@ -71,8 +57,6 @@ def all_subsets(s):
 
 return chain(*map(lambda x: combinations(s, x), range(0, len(s)+1)))
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Power_set>

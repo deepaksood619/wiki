@@ -6,7 +6,7 @@ Modified: 2019-03-16 15:41:00 +0500
 
 ---
 
-**Thread**
+## Thread
 
 Thread is designed to address the unique interoperability, security, power, and architecture challenges of the IoT.
 -   Thread is a low-power wireless mesh networking protocol,based on the universally-supported Internet Protocol (IP), and built using open and proven standards.
@@ -21,7 +21,7 @@ Thread's primary features include:
 -   Reliability --- Self-healing mesh networking, with no single point of failure, and spread-spectrum techniques to provide immunity to interference
 -   Efficiency --- Low-power Thread devices can sleep and operate on battery power for years
 -   Scalability --- Thread networks can scale up to hundreds of devices
-**Features**
+## Features
 
 OpenThread implements all Thread networking layers (IPv6, 6LoWPAN, IEEE 802.15.4 with MAC security, Mesh Link Establishment, Mesh Routing) and device roles, as well as Border Router support.
 [APPLICATION SERVICES](https://openthread.io/reference/)
@@ -47,27 +47,27 @@ OpenThread implements all Thread networking layers (IPv6, 6LoWPAN, IEEE 802.15.4
 -   Thread Border Agent to support an External Commissioner
 -   NAT64 for connecting to IPv4 networks
 -   Thread interface driver using wpantund
-**Node Roles and Types**
+## Node Roles and Types
 
 In a Thread network, nodes are split into two forwarding roles:
 
-**Router**
+## Router
 
 A Router is a node that:
 -   forwards packets for network devices
 -   provides secure commissioning services for devices trying to join the network
 -   keeps its transceiver enabled at all times
 
-**End Device**
+## End Device
 
 An End Device (ED) is a node that:
 -   communicates primarily with a single Router
 -   does not forward packets for other network devices
 -   can disable its transceiver to reduce power
 ![OT Node Roles](media/OpenThread-image1.png)
-**Device Types**
+## Device Types
 
-**Full Thread Device**
+## Full Thread Device
 
 A Full Thread Device (FTD) always has its radio on, subscribes to the all-routers multicast address, and maintains IPv6 address mappings. There are three types of FTDs:
 -   Router
@@ -76,14 +76,14 @@ A Full Thread Device (FTD) always has its radio on, subscribes to the all-router
 
 An FTD can operate as a Router (Parent) or an End Device (Child).
 
-**Minimal Thread Device**
+## Minimal Thread Device
 
 A Minimal Thread Device does not subscribe to multicast traffic and forwards all messages to its Parent. There are two types of MTDs:
 -   Minimal End Device (MED) --- transceiver always on, does not need to poll for messages from its parent
 -   Sleepy End Device (SED) --- normally disabled, wakes on occasion to poll for messages from its parent
 
 An MTD can only operate as an End Device (Child).
-![OT Device Taxonomy](media/OpenThread-image2.png)**References**
+![image](media/OpenThread-image2.png)**References**
 
 <https://openthread.io>
 

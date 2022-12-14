@@ -20,11 +20,11 @@ ii. Low coupling
 DDD is an approach to software development that tackles complex systems by mapping activities, tasks, events, and data from a business domain to software artifacts. One of the most important concepts of DDD is the *bounded context*, which is a cohesive and well-defined unit within the business model in which you define the boundaries of your software artifacts
 <https://www.wikiwand.com/en/Domain-driven_design>
 
-**Financial System**
+## Financial System
 
 ![](media/Microservice-Architecture_Domain-Driven-Design-image1.png)
 
-**Design Pattern: Bounded Context -> Domain-Driven Design**
+## Design Pattern: Bounded Context -> Domain-Driven Design
 
 Our first challenge is to logically segment the business into micro-subdomains, so that each can be supported by a smallempowered autonomous team. Each subdomain's scope should be bound by its team's capacity to manage the lifecycle of its supporting microservice(s) --- from inception to post-production. This shift from working on transient-projects to autonomous domain-ownership incentivizes accountability for all aspects of microservice design and empowers agile decision-making --- which results inimproved time-to-market.
 Think of the prefix "micro" alluding to the size of the team needed to support the entire lifecycle of the microservice(s) within its bounded business subdomain.

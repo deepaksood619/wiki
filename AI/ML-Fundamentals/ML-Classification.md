@@ -6,7 +6,7 @@ Modified: 2021-09-14 23:13:58 +0500
 
 ---
 
-**Types of ML Algorithms**
+## Types of ML Algorithms
 
 1.  Parametric Machine Learning Algorithms
     -   Algorithms that simplify the function to a known form
@@ -19,8 +19,6 @@ Modified: 2021-09-14 23:13:58 +0500
         -   Linear Regression
         -   Logistic Regression
 
-
-
 2.  Non-Parametric Machine Learning Algorithms
 
 Algorithms that do not make strong assumptions about the form of the mapping function. By not making assumptions, they are free to learn any functional form from the training data. Non-parametric methods are often more flexible, achieve better accuracy but require a lot more data and training time.
@@ -30,14 +28,10 @@ Examples
 -   Neural Networks
 -   Decision Trees
 
-
-
 3.  Linear Algorithms
     -   Linear Regression
     -   Logistic Regression
     -   Linear Discriminant Analysis (LDA)
-
-
 
 4.  Non-Linear Algorithms
     -   Classification and Regression Trees
@@ -46,21 +40,15 @@ Examples
     -   Learning Vector Quantization (LVQ)
     -   Support Vector Machines
 
-
-
 5.  Ensemble Algorithms
     -   Bagging with Decision Tree
     -   Boosting with AdaBoost
 
-
-
-**Kinds of ML problems**
+## Kinds of ML problems
 
 Machine learning tasks are typically classified into two broad categories, depending on whether there is a learning "signal" or "feedback" available to a learning system
 
-
-
-**Supervised Learning**
+## Supervised Learning
 
 The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that[maps](https://en.wikipedia.org/wiki/Map_(mathematics))inputs to outputs. As special cases, the input signal can be only partially available, or restricted to special feedback: (Discrete number of values / classes)
 
@@ -81,13 +69,13 @@ The problem of learning to predict classes that are not mutually exclusive is ca
 -   **Recommender Systems**
 -   **Sequence Learning**
 
-**sequence learning** require a model to either ingest sequences of inputs or to emit sequences of outputs (or both). Specifically,**sequence to sequence learning**considers problems where input and output are both variable-length sequences, such as machine translation and transcribing text from the spoken speech.
+## sequence learning** require a model to either ingest sequences of inputs or to emit sequences of outputs (or both). Specifically,**sequence to sequence learningconsiders problems where input and output are both variable-length sequences, such as machine translation and transcribing text from the spoken speech.
 -   Tagging and Parsing
 -   Automatic Speech Recognition
 -   Text to Speech
 -   Machine Translation
 
-**Unsupervised Learning**
+## Unsupervised Learning
 
 No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end ([feature learning](https://en.wikipedia.org/wiki/Feature_learning)).
 
@@ -117,82 +105,62 @@ No labels are given to the learning algorithm, leaving it on its own to find str
 
 -   Predictive Modelling or predictive analytics: learn the mapping Y = f(X) to make predictions of Y for new X.
 
-![Supervised (target is available) Classification Regression Unsupervised (target is not available) Cluster Analysis Association Analysis ](media/ML-Classification-image1.jpg)
+![image](media/ML-Classification-image1.jpg)
 
-![Predictive methods • Classification Learns a method for predicting the instance class from pre-labeled (classified) instances Regression An attempt to predict a continuous attri bute Descriptive methods Clustering Finds "natural" grouping of instances given un-labeled data Association Rules Method for discovering interesting relations between variables in large DBS ](media/ML-Classification-image2.jpg)
+![image](media/ML-Classification-image2.jpg)
 
-
-
-**Categories of ML Techniques**
+## Categories of ML Techniques
 -   Classification
 -   Regression
 -   Cluster Analysis
 -   Association Analysis
 
-
-
-**Classification**
+## Classification
 
 Goal: predict category
 -   In classification, the goal is to predict the category of the input data. An example of this is predicting the weather as being sunny, rainy, windy, or cloudy
 
-
-
-**Regression**
+## Regression
 -   When your model has to predict a numeric value instead of a category, then the task becomes a regression problem
 -   Ex: predict the price of a stock
 -   The main diff between classification and regression is in classification you're predicting a category and in regression, you're predicting a numeric value
 
-
-
-**Regression Examples**
+## Regression Examples
 -   Estimating the demand of a product based on time or season of the year
 -   Predicting a score on a test
 -   Determining the likelihood of how effective a drug will be for a particular patient
 -   Predicting the amount of rain for a region
 
-
-
-**Cluster Analysis**
+## Cluster Analysis
 -   In cluster analysis, the goal is to organize similar items in your data set into groups. A very. common application of cluster analysis is referred to as customer segmentation. This means that you're separating your customer base into different groups or segments based on customer types
 -   For example it would be very beneficial to segment your customers into seniors, adults and teenagers. These groups have different likes and dislikes and have different purchasing behaviors. By segmenting your customers to different groups you can more effectively provide marketing adds targeted for each groups particular interests. Note that cluster analysis is also referred to as clustering
 
-
-
-**Cluster Analysis Examples**
+## Cluster Analysis Examples
 -   Identifying areas of similar topography, such as desert region, grassy areas, mountains
 -   Categorizing different types of tissues from medical images. Determining different groups of weather patterns, such as snowy, dry, monsoon
 -   Discovering hot spots for different types of crime from police reports
 
-
-
-**Association Analysis**
+## Association Analysis
 -   The goal in association analysis is to come up with a set of rules to capture associations between items or events. The rules are used to determine when items or events occur together
 -   A common application of association analysis is known as market basket analysis. Which is used to understand customer purchasing behavior
 -   For example, association analysis can reveal that banking customers who have CDs, or Cetificates of Deposits, also tend to be interested in other investment vehicles such as money market accounts
 -   This information can be used for cross selling. If you advertise money market accounts to your customers with CDs they are likely to open such an account
 
-
-
-**Association Analysis Examples**
+## Association Analysis Examples
 -   Some other applications of association analysis are recommending similar items based on the purchasing behavior or browsing histories of customers
 -   Finding items that are often purchased together, such as garden hose and potting soil, and offer sales on these related items at the same time to drive sales of both items
 -   Identifying web pages that are often accessed together so that you can more efficiently offer up these related web pages at the same time
 
-
-
-**Supervised vs Unsupervised**
+## Supervised vs Unsupervised
 -   **In supervised approaches** the target, which is what the model is predicting, is provided. This is referred to as having labeled data because the target is labeled for every sample that you have in your data set.
 -   Referring back to our example of predicting a weather category of sunny, windy, rainy or cloudy, every sample in the data set is labeled as being one of these four categories. So the data is labeled and predicting the weather categories is a supervised task. In general, classification and regression are supervised approaches.
 -   **In unsupervised approaches** on the other hand, the target that the model is predicting is unknown or unavailable. This means that you have unlabeled data
 -   Remember the cluster analysis example of segmenting customers into idfferent groups. The samples in your data are not labeled with the correct group. Instead, the segmentation is performed using a clustering technique to group items based on characteristics that they have in common
 -   Thus, the data is unlabeled and the task of grouping customers into different segments is an unsupervised one. In general, cluster analysis and association analysis are unsupervised approaches
 
+## Applications
 
-
-**Applications**
-
-**Classification (Supervised)**
+## Classification (Supervised)
 
 Indentifying to which category an object belongs to
 
@@ -213,9 +181,7 @@ Divides its input space into two regions, separated by a[linear boundary](https:
 -   Nearest neighbors
 -   Random forest
 
-
-
-**Regression (Supervised)**
+## Regression (Supervised)
 
 Predicting a continuous-valued attribute associated with an object
 
@@ -228,9 +194,7 @@ Algorithms
 -   Ridge regression
 -   Lasso
 
-
-
-**Clustering (Unsupervised)**
+## Clustering (Unsupervised)
 
 Automatic grouping of similar objects into sets
 
@@ -243,9 +207,7 @@ Algorithms
 -   Spectral clustering
 -   Mean-shift
 
-
-
-**Dimensionality reduction**
+## Dimensionality reduction
 
 Reducing the number of random variables to consider
 
@@ -265,9 +227,7 @@ Algorithms
 -   Feature selection
 -   Non-negative matrix factorization
 
-
-
-**Model selection**
+## Model selection
 
 Comparing, validating and choosing parameters and models
 
@@ -278,9 +238,7 @@ Modules
 -   Cross validation
 -   Metrics
 
-
-
-**Preprocessing**
+## Preprocessing
 
 Feature extraction and normalization
 
@@ -290,13 +248,9 @@ Modules
 -   Preprocessing
 -   Feature extraction
 
-
-
-**Density Estimation**
+## Density Estimation
 
 [Density estimation](https://en.wikipedia.org/wiki/Density_estimation)finds the[distribution](https://en.wikipedia.org/wiki/Probability_distribution)of inputs in some space
-
-
 
 Among other categories of machine learning problems,[learning to learn](https://en.wikipedia.org/wiki/Meta_learning_(computer_science))learns its own[inductive bias](https://en.wikipedia.org/wiki/Inductive_bias)based on previous experience.[Developmental learning](https://en.wikipedia.org/wiki/Developmental_robotics), elaborated for[robot learning](https://en.wikipedia.org/wiki/Robot_learning), generates its own sequences (also called curriculum) of learning situations to cumulatively acquire repertoires of novel skills through autonomous self-exploration and social interaction with human teachers and using guidance mechanisms such as active learning, maturation, motor synergies, and imitation.
 
@@ -307,63 +261,43 @@ Among other categories of machine learning problems,[learning to learn](https://
 -   Crime pattern detection
 -   Drug effectiveness analysis
 
-
-
-**Approaches**
+## Approaches
 
 1.  **Decision tree learning**
 
 Decision tree learning uses a[decision tree](https://en.wikipedia.org/wiki/Decision_tree)as a[predictive model](https://en.wikipedia.org/wiki/Predictive_modelling), which maps observations about an item to conclusions about the item's target value.
 
-
-
 2.  **Association rule learning**
 
 Association rule learning is a method for discovering interesting relations between variables in large databases.
-
-
 
 3.  **Artificial neural networks**
 
 An[artificial neural network](https://en.wikipedia.org/wiki/Artificial_neural_network)(ANN) learning algorithm, usually called "neural network" (NN), is a learning algorithm that is vaguely inspired by[biological neural networks](https://en.wikipedia.org/wiki/Biological_neural_networks). Computations are structured in terms of an interconnected group of[artificial neurons](https://en.wikipedia.org/wiki/Artificial_neuron), processing information using a[connectionist](https://en.wikipedia.org/wiki/Connectionism)approach to[computation](https://en.wikipedia.org/wiki/Computation). Modern neural networks are[non-linear](https://en.wikipedia.org/wiki/Non-linear)[statistical](https://en.wikipedia.org/wiki/Statistical)[data modeling](https://en.wikipedia.org/wiki/Data_modeling)tools. They are usually used to model complex relationships between inputs and outputs, to[find patterns](https://en.wikipedia.org/wiki/Pattern_recognition)in data, or to capture the statistical structure in an unknown[joint probability distribution](https://en.wikipedia.org/wiki/Joint_probability_distribution)between observed variables.
 
-
-
 4.  **Deep learning**
 
 Falling hardware prices and the development of[GPUs](https://en.wikipedia.org/wiki/GPU)for personal use in the last few years have contributed to the development of the concept of[deep learning](https://en.wikipedia.org/wiki/Deep_learning)which consists of multiple hidden layers in an artificial neural network. This approach tries to model the way the human brain processes light and sound into vision and hearing. Some successful applications of deep learning are[computer vision](https://en.wikipedia.org/wiki/Computer_vision)and[speech recognition](https://en.wikipedia.org/wiki/Speech_recognition).
-
-
 
 5.  **Inductive logic programming**
 
 Inductive logic programming (ILP) is an approach to rule learning using[logic programming](https://en.wikipedia.org/wiki/Logic_programming)as a uniform representation for input examples, background knowledge, and hypotheses. Given an encoding of the known background knowledge and a set of examples represented as a logical database of facts, an ILP system will derive a hypothesized logic program that[entails](https://en.wikipedia.org/wiki/Entailment)all positive and no negative examples.[Inductive programming](https://en.wikipedia.org/wiki/Inductive_programming)is a related field that considers any kind of programming languages for representing hypotheses (and not only logic programming), such as[functional programs](https://en.wikipedia.org/wiki/Functional_programming).
 
-
-
 6.  **Support vector machines**
 
 Support vector machines (SVMs) are a set of related[supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)methods used for[classification](https://en.wikipedia.org/wiki/Statistical_classification)and[regression](https://en.wikipedia.org/wiki/Regression_analysis). Given a set of training examples, each marked as belonging to one of two categories, a SVM training algorithm builds a model that predicts whether a new example falls into one category or the other.
-
-
 
 7.  **Clustering**
 
 Cluster analysis is the assignment of a set of observations into subsets (called*clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some*similarity metric*and evaluated for example by*internal compactness*(similarity between members of the same cluster) and*separation*between different clusters. Other methods are based on*estimated density*and*graph connectivity*. Clustering is a method of[unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for[statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
 
-
-
 8.  **Bayesian networks**
 
 A Bayesian network, belief network or directed acyclic graphical model is a[probabilistic graphical model](https://en.wikipedia.org/wiki/Graphical_model)that represents a set of[random variables](https://en.wikipedia.org/wiki/Random_variables)and their[conditional independencies](https://en.wikipedia.org/wiki/Conditional_independence)via a[directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)(DAG). For example, a Bayesian network could represent the probabilistic relationships between diseases and symptoms. Given symptoms, the network can be used to compute the probabilities of the presence of various diseases. Efficient algorithms exist that perform[inference](https://en.wikipedia.org/wiki/Inference)and learning.
 
-
-
 9.  **Reinforcement learning**
 
 Reinforcement learning is concerned with how an*agent*ought to take*actions*in an*environment*so as to maximize some notion of long-term*reward*. Reinforcement learning algorithms attempt to find a*policy*that maps*states*of the world to the actions the agent ought to take in those states. Reinforcement learning differs from the[supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)problem in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected.
-
-
 
 10. **Representation learning**
 
@@ -377,9 +311,7 @@ Reinforcement learning is concerned with how an*agent*ought to take*actions*in a
 
 15. **Learning classifier systems**
 
-
-
-**Techniques**
+## Techniques
 
 1.  **Statistics and Data Analysis**
 
@@ -415,11 +347,7 @@ Reinforcement learning is concerned with how an*agent*ought to take*actions*in a
 
     d.  Sigmoid Function
 
-
-
-![Deep Boltzmann Machine (08M) Deep Belief Networks (DBN) Deep Learning Convolutional Neural Network (CNN) Stacked Auto-Encoders Random Forest Gradient Boosting Machines (G3M) Boosting Bootstrapped Aggregation (Bagging) Ada Boost Stacked Generalization (Blending) Gradient Boosted Regression Trees (G8RT) Radial Basis Function Network (RBFN) Perceptron Ensemble Naive Bayes Averaged One-Dependence Estimators (AODE) Bayesian Belief Network (BSN) Bayesian Gaussian Naive Bayes Multinomial Naive Bayes Bayesian Network (8N) Classification and Regression Tree (CART) Iterative Dichotomiser 3 (103) C4.5 C5.0 Decision Tree Chi-squared Automatic Interaction Detection (CHAID) Decision Stump Conditional Decision Trees Principal Component Analysis (PCA) Partial Least Squares Regression (PLSR Sammon Mapping Machine Learning Algorithms Multidimensional Scaling (MDS) Projection Pursuit Principal Component Regression (PCR) Dimensionality Reduction Neural Networks Back-propagation Hopfield Network Ridge Regression Least Absolute Shrinkage and Selection Operator (LASSO) Regularization Elastic Net Least Angle Regression (LARS) Cubist one Rule (OneR) Rule System zero Rule (ZeroR) Repeated Incremental Pruning to Produce Error Reduction (RIPPER) Linear Regression Ordinary Least Squares Regression (OLSR) Stepwise Regression Regression Multivariate Adaptive Regression Splines (MARS) Locally Estimated Scatterplot Smoothing (LOESS) Logistic Regression Instance Partial Least Squares Discriminant Analysis Mixture Discriminant Analysis (MOA) Quadratic Discriminant Analysis (QDA) Regularized Discriminant Analysis (RDA) Flexible Discriminant Analysis (FDA) Linear Discriminant Analysis (LOA) k-Nearest Neighbour (kNN) Learning Vector Quantization (LVQ) Based Self-organizing Map (50M) Locally Weighted Learning (LWL) k-Means k-Medians Clustering Expectation Maximization Hierarchical Clustering ](media/ML-Classification-image3.png)
-
-
+![image](media/ML-Classification-image3.png)
 
 1.  **Supervised Machine Learning**
     -   **Logistic Regression**
@@ -427,31 +355,27 @@ Reinforcement learning is concerned with how an*agent*ought to take*actions*in a
         -   **Divide data in Training data and Test data**
         -   **Calculate the accuracy for every iteration**
 
-![CORRECT CLASSIFICATIONS = ACCURACY TOTAL NUMBER TRUE POSITIVES + TRUE NEGATIVES = ACCURACY TOTAL NUMBER CASES ](media/ML-Classification-image4.png)
+![image](media/ML-Classification-image4.png)
 
 
 -   **Linear Discrimant Analysis (LDA)**
     -   Uses Bayes' theorem to predict the results
     -   Bayes' rule
 
-
-
 ![](media/ML-Classification-image5.png)
 
 
 -   If there are two variables (like GPA and SAT and we have to predict whether a student got admission or not) then LDA is very helpful. It creates a unified value (only one variable) which maximizes the difference between the two groups (got admission or not)
 
-![• НОТ АССЕРТО о ACCEPTED о оо ооотооо---о о SCORE Х ](media/ML-Classification-image6.png)
+![image](media/ML-Classification-image6.png)
 -   Reducing the number of variables we have to deal with is called **Dimensionality Reduction**, and it's really important in the world of **Big Data**.
 
 
 -   **K Nearest Neighbors (KNN)**
     -   Relies on the idea that **data points will be similar to other data points** that are near it.
 
-![K-NEAREST NEIGHBORS PLOT CHASE 48 50 58 o HUSKIES 0 GOLDEN RETRIEVERS 60 52 54 56 DOGS HEIGHT ](media/ML-Classification-image7.png)
+![image](media/ML-Classification-image7.png)
 -   KNN Classifier - Predicts which group something will be in; It classifies it
-
-
 
 2.  **Unsupervised Machine Learning**
     -   **Clustering**
@@ -462,19 +386,15 @@ Reinforcement learning is concerned with how an*agent*ought to take*actions*in a
             -   Calculate the new centroid for the set of points of each group
             -   Repeat the process of assigning points to group and choosing new centroid
 
-**Silhouette score**
+## Silhouette score
 
 Helps determine how well fit our clusters are, even without existing labels.
 
 ii. Hierarchical clustering
 
-![RETRIEVERS L TERRIERS DOGS ](media/ML-Classification-image8.png)
+![image](media/ML-Classification-image8.png)
 
-
-
-![DOG BREED DENDROGRAM DOGS RETRIEVERS CURLY-COATED CAIRN TERRIERS YORKSHIRE ](media/ML-Classification-image9.png)
-
-
+![image](media/ML-Classification-image9.png)
 
 Example of hierarchical clustering -
 
@@ -483,15 +403,11 @@ In the latest version of the diagnostic and statistical manual of mental disorde
 
 -   Agglomerative Clustering
 
-
-
 3.  **Statistics in the Courts**
 
 Prosecutor's Fallacy
 -   Incorrectly claims that since the evidence found is so unusual or unlikely, that the jury could assume that the accused defendent isn't innocent
 -   Secondly, the fact that one hypothesis is unlikely does not mean that another must be more likely
-
-
 
 4.  **Neural Networks**
     -   **Looks at data and tries to figure out the function - or set of calculations - that turns the input (variables) into the output**
@@ -505,12 +421,6 @@ Prosecutor's Fallacy
     -   **Convolutional neural network - Used for images, A pixel is affected by all pixels surrounding it. It's not simple sequential data. So, convolutional neural networks look at windows of pixels instead of one pixel at a time. Create features (called convolutions). ex- detect edges, detect eyes, faces, etc.**
     -   **Pooling - take a large number of pixels and create a small number of features**
     -   **Generative adversarial networks - Use sets of existing data to try to learn how to create new data. Like two neural network. First is generator, it will generate new data, and other is discriminator, it will check if the new data is valid. These two battle with each other and get good at both sides. Generator will become better in create fake inputs, and disciminator will become good in recognizing fake inputs.**
-
-
-
-
-
-
 
 
 

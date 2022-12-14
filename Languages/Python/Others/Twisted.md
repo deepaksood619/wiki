@@ -10,15 +10,11 @@ Twisted is an event-driven networking engine written in Python
 
 Twisted is a robust, cross-platform implementation of the Reactor Pattern with lots of extras.
 
-
-
-![Figure 6: the reactor making a callback](media/Twisted-image1.png)
+![image](media/Twisted-image1.png)
 
 *fig - what happens during a callback*
 
-
-
-**Modules**
+## Modules
 -   Transport
 -   Protocol
 -   ProtocolFactories
@@ -27,23 +23,15 @@ Twisted is a robust, cross-platform implementation of the Reactor Pattern with l
 
 To update the running code functions on fly
 
-
-
-**Twisted Web**
+## Twisted Web
 
 <https://jcalderone.livejournal.com/tag/sixty%20seconds>
 
-
-
-**Plugins**
+## Plugins
 
 Adding subcommands to thetwistdcommand, as a way to facilitate the deployment of your applications.
 
-
-
 Thetapnameattribute of your IServiceMaker provider will be used as the subcommand name in a command liketwistd[subcommand][args...], and theoptionsattribute (which should be a[usage.Options](https://twistedmatrix.com/documents/19.7.0/api/twisted.python.usage.Options.html)subclass) will be used to parse the given args.
-
-
 
 Taking advantage of[twisted.plugin](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.html)is a two step process:
 
@@ -52,23 +40,17 @@ Taking advantage of[twisted.plugin](https://twistedmatrix.com/documents/19.7.0/a
 
 2.  At one or more places in your program, invoke[twisted.plugin.getPlugins](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.getPlugins.html)and iterate over its result.
 
-
-
 <https://twistedmatrix.com/documents/current/core/howto/plugin.html>
 
 <https://twistedmatrix.com/documents/current/core/howto/tap.html>
 
-
-
-**References**
+## References
 
 <https://twistedmatrix.com/documents/current/core/howto/index.html>
 
 <https://twistedmatrix.com/documents/current/core/howto/pb-intro.html>
 
 Twisted Network Programming Essentials by Abe Fettig
-
-
 
 <https://twistedmatrix.com/trac
 

@@ -6,25 +6,17 @@ Modified: 2020-08-18 02:27:19 +0500
 
 ---
 
-**Resource Estimation/Capacity Planning**
+## Resource Estimation/Capacity Planning
 
-
-
-**Federated Identity**
+## Federated Identity
 
 Afederated identityin[information technology](https://en.wikipedia.org/wiki/Information_technology)is the means of linking a person's[electronic identity](https://en.wikipedia.org/wiki/Digital_identity)and attributes, stored across multiple distinct[identity management](https://en.wikipedia.org/wiki/Identity_management)systems.
 
-
-
 Federated identity is related to[single sign-on](https://en.wikipedia.org/wiki/Single_sign-on)(SSO), in which a user's single[authentication](https://en.wikipedia.org/wiki/Authentication)ticket, or[token](https://en.wikipedia.org/wiki/Security_token), is trusted across multiple IT systems or even organizations.[[2]](https://en.wikipedia.org/wiki/Federated_identity#cite_note-2)[[3]](https://en.wikipedia.org/wiki/Federated_identity#cite_note-3)[[4]](https://en.wikipedia.org/wiki/Federated_identity#cite_note-4)SSO is a subset of[federated identity management](https://en.wikipedia.org/wiki/Federated_identity_management), as it relates only to[authentication](https://en.wikipedia.org/wiki/Authentication)and is understood on the level of technical interoperability and it would not be possible without some sort of federation.
-
-
 
 <https://en.wikipedia.org/wiki/Federated_identity>
 
-
-
-**Workflow Management System (WMS)**
+## Workflow Management System (WMS)
 
 1.  Smart scheduling
 
@@ -42,9 +34,7 @@ Federated identity is related to[single sign-on](https://en.wikipedia.org/wiki/S
 
 8.  Organization and documentation
 
-
-
-**Documentation Tools**
+## Documentation Tools
 
 DocUtils
 
@@ -54,9 +44,7 @@ Sphinx
 
 doxygen
 
-
-
-**Software documentation**
+## Software documentation
 
 1.  Product documentation
 
@@ -68,17 +56,13 @@ doxygen
 
 <https://www.altexsoft.com/blog/business/technical-documentation-in-software-development-types-best-practices-and-tools
 
-
-
-**AWS Cost Optimisation**
+## AWS Cost Optimisation
 
 1.  [Spot.io](http://spot.io/)- Save up to 80% cost on EC2 using Spot instances.
 
 2.  [Granulate.io](http://granulate.io/)- Optimise Kernel at OS level of a VM. Increase performance,
 
-
-
-**Monitoring**
+## Monitoring
 
 1.  [Instana](https://www.instana.com/)- APM on Prem. Alternative to old App Dynamics.
 
@@ -86,9 +70,7 @@ doxygen
 
 3.  [Anodot](http://anodot.com/)- Business and Tech Anomaly Detection.
 
-
-
-**Cyber Security**
+## Cyber Security
 
 1.  [Appdome](http://appdome.com/)- Application Security
 

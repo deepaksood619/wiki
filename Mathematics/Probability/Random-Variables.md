@@ -9,7 +9,7 @@ Modified: 2021-10-03 19:53:34 +0500
 In[probability and statistics](https://en.wikipedia.org/wiki/Probability_and_statistics), a**random variable**,**random quantity**,**aleatory variable**, or**stochastic variable**is a variable whose possible values are [outcomes](https://en.wikipedia.org/wiki/Outcome_(probability))of a[random](https://en.wikipedia.org/wiki/Randomness)phenomenon.As a function, a random variable is required to be[measurable](https://en.wikipedia.org/wiki/Measurable_function), which rules out certain[pathological](https://en.wikipedia.org/wiki/Pathological_(mathematics))cases where the quantity which the random variable returns is infinitely sensitive to small changes in the outcome.
 A random variable is defined as a[function](https://en.wikipedia.org/wiki/Function_(mathematics))that maps the outcomes of unpredictable processes to numerical quantities (labels), typically[real numbers](https://en.wikipedia.org/wiki/Real_numbers). In this sense, it is a procedure for assigning a numerical quantity to each physical outcome. Contrary to its name, this procedure itself is neither random nor variable. Rather, the underlying process providing the input to this procedure yields random (possibly non-numerical) output that the procedure maps to a real-numbered value.
 A random variable has a[probability distribution](https://en.wikipedia.org/wiki/Probability_distribution), which specifies the probability that its value falls in any given interval.
-**Random variables**
+## Random variables
 
 1.  Discrete random variables
 
@@ -22,7 +22,7 @@ A random variable has a[probability distribution](https://en.wikipedia.org/wiki/
 Binomial mean and standard deviation formulas
 
 6.  Geometric random variables
-**Types of random variables**
+## Types of random variables
 
 1.  **Discrete random variable**
     -   Taking any of a specified finite or countable list of values, endowed with a[probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function)characteristic of the random variable's probability distribution.

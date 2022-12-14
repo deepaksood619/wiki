@@ -16,8 +16,8 @@ Weave was designed with the following goals in mind:
 -   Secure --- Interactions are secure, even when the network is not
 -   Easy to use --- Flexible setup and configuration
 -   Versatile --- Strongly-typed data for powerful interaction
-![Weave Components](media/Weave-image1.png)
-**References**
+![image](media/Weave-image1.png)
+## References
 
 <https://openweave.io>
 

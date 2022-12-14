@@ -81,7 +81,7 @@ OpenAPI has a way to define multiple security "schemes"
         -   password: some next chapters will cover examples of this
 -   **openIdConnect:** has a way to define how to discover OAuth2 authentication data automatically
     -   This automatic discovery is what is defined in the OpenID Connect specification
-**Other Tools**
+## Other Tools
 -   Apiary
 -   OpenAPI
 -   API Blueprint

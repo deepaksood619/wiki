@@ -6,38 +6,28 @@ Modified: 2021-06-06 16:39:53 +0500
 
 ---
 
-**Web Framework**
+## Web Framework
 
 Web Application Framework or simply Web Framework represents a collection of libraries and modules that enables a web application developer to write applications without having to bother about low-level details such as protocols, thread management etc.
 
-
-
-**Server side web development languages**
+## Server side web development languages
 -   PHP
 -   Python with Django/Flask
 
-
-
-**Frontend js frameworks**
+## Frontend js frameworks
 -   React
 -   Angular
 -   Vue
 
-
-
-**MVC Frameworks (Model View Controller)**
+## MVC Frameworks (Model View Controller)
 -   Rails
 -   Phoenix
 -   Laravel
 
-
-
-**MVT Framework (Model View Template)**
+## MVT Framework (Model View Template)
 -   Django
 
-
-
-**Frameworks Patterns**
+## Frameworks Patterns
 -   Callback function
 -   Subclassing
 -   Interfaces
@@ -48,7 +38,5 @@ Web Application Framework or simply Web Framework represents a collection of lib
 -   DSL-based declaration
 -   Imperative declaration
 -   Language integrated declaration
-
-
 
 <https://blog.startifact.com/posts/framework-patterns.html>

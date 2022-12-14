@@ -6,7 +6,7 @@ Modified: 2021-05-16 16:59:12 +0500
 
 ---
 
-**Keywords**
+## Keywords
 
 | and      | exec    | not    |
 |----------|---------|--------|
@@ -22,8 +22,6 @@ Modified: 2021-05-16 16:59:12 +0500
 
 range
 
-
-
 >>> import keyword
 >>> print(keyword.kwlist)
 ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
@@ -32,21 +30,15 @@ range
 
 33
 
-
-
-**global**
+## global
 
 Global keyword is used with variables, that we want to used inside functions and declared globally.
 
 We only need to use global keyword in a function if we want to do assignments / change them. global is not needed for printing and accessing.
 
-
-
-**Lambda**
+## Lambda
 
 Python's lambda tool is used for building function objects in situations where a simple one-off function is required. It is also used to create anonymous functions
-
-
 
 Ex -
 
@@ -54,11 +46,9 @@ Square = lambda x: x * x
 
 filter (lambda x : x % 3 == 0, foo)
 
+## Yield
 
-
-**Yield**
-
-**Iterables -**
+## Iterables -
 
 When you create a list, you can read its items one by one. Reading its items one by one is called iteration:
 
@@ -80,13 +70,9 @@ mylistis an*iterable*. When you use a list comprehension, you create a list, and
 
 Everything you can use "for... in..." on is an iterable;lists,strings, files...
 
-
-
 These iterables are handy because you can read them as much as you wish, but you store all the values in memory and this is not always what you want when you have a lot of values.
 
-
-
-**Generators -**
+## Generators -
 
 Generators are iterators, a kind of iterable**you can only iterate over once**. Generators do not store all the values in memory,**they generate the values on the fly**:
 
@@ -98,8 +84,6 @@ Generators are iterators, a kind of iterable**you can only iterate over once**. 
 4
 
 It is just the same except you used()instead of[]. BUT, you**cannot**performfor i in mygeneratora second time since generators can only be used once: they calculate 0, then forget about it and calculate 1, and end calculating 4, one by one.
-
-
 
 Yield
 
@@ -133,15 +117,11 @@ The generator is considered empty once the function runs but does not hityieldan
 
 
 
-
-
-**Lambda (***single expression functions*)**-**
+## Lambda (***single expression functions*)**-
 
 <https://dbader.org/blog/python-lambda-functions>
 
 Thelambdakeyword in Python provides a shortcut for declaring small anonymous functions. Lambda functions behave just like regular functions declared with thedefkeyword. They can be used whenever function objects are required.
-
-
 
 Ex - add = lambda x, y: x+y
 
@@ -149,9 +129,7 @@ add(2, 3) # 5
 
 Ex - (lambda x, y: x+y)(2,3) # 5
 
-
-
-**self in python**
+## self in python
 
 Self is a keyword in Python used to define an instance or an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables.
 

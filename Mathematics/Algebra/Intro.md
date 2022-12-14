@@ -6,7 +6,7 @@ Modified: 2022-12-11 19:29:37 +0500
 
 ---
 
-**Algebra - 1**
+## Algebra - 1
 
 1.  Solving equations
 
@@ -33,7 +33,7 @@ Modified: 2022-12-11 19:29:37 +0500
 12. Quadratics
 
 13. Irrational numbers
-**Algebra - 2**
+## Algebra - 2
 
 1.  Functions
 

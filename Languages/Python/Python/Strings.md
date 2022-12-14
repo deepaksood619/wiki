@@ -6,9 +6,9 @@ Modified: 2021-06-30 00:10:10 +0500
 
 ---
 
-**fstrings**
+## fstrings
 
-**# equal operator inside fstrings, from python3.8**
+## # equal operator inside fstrings, from python3.8
 
 num_value = 2
 
@@ -20,15 +20,11 @@ print(f"{num_value % 2 = }")
 
 >>> num_value = 0
 
-
-
 now = datetime.datetime.utcnow()
 
 print(f'{now=:Y-%m-%d}')
 
-
-
-**String Constants**
+## String Constants
 
 1.  string.ascii_letters
 
@@ -48,11 +44,7 @@ print(f'{now=:Y-%m-%d}')
 
 9.  string.whitespace
 
-
-
-**Built-in String Methods**
-
-
+## Built-in String Methods
 
 <table>
 <colgroup>
@@ -290,8 +282,6 @@ HackerRank----------</p></td>
 </tbody>
 </table>
 
-
-
 1.  **String Formating**
 
 '{} {}'.format('one', 'two')
@@ -314,11 +304,7 @@ Also optional positional indexing (positional arguments) can be passed to string
 
 print("Sammy the {0} {1} a {pr}.".format("shark", "made", pr = "pull request"))
 
-
-
 here pr is a named keyword argument
-
-
 
 1.  Padding and aligning strings (default is left alignment)
 
@@ -342,23 +328,17 @@ test
 
 zip
 
-
-
 2.  Truncating long strings
 
 '{:.5}'.format('xylophone')
 
 xylop
 
-
-
 3.  Combining truncating and padding
 
 '{:10.5}'.format('xylophone')
 
 xylop
-
-
 
 4.  Numbers
 
@@ -370,8 +350,6 @@ xylop
 
 3.141593
 
-
-
 5.  Padding numbers
 
 '{:4d}'.format(42)
@@ -382,11 +360,7 @@ xylop
 
 003.14
 
-
-
 print('{:.0f}'.format(x))
-
-
 
 For integer values providing a precision doesn't make much sense and is actually forbidden in the new style (it will result in a ValueError)
 
@@ -394,15 +368,11 @@ For integer values providing a precision doesn't make much sense and is actually
 
 0042
 
-
-
 6.  Signed numbers
 
 '{:+d}'.format(42)
 
 +42
-
-
 
 Use a space character to indicate that negative numbers should be prefixed with a minus symbol and a leading space should be used for positive ones.
 
@@ -422,8 +392,6 @@ Use a space character to indicate that negative numbers should be prefixed with 
 
 + 23
 
-
-
 7.  Named placeholders
 
 data = {'first': 'Hodor', 'last': 'Hodor!'}
@@ -436,8 +404,6 @@ Hodor Hodor!
 
 Hodor Hodor!
 
-
-
 8.  Getitem & getattr
 
 person = {'first': 'Jean-Luc', 'last': 'Picard'}
@@ -446,25 +412,19 @@ person = {'first': 'Jean-Luc', 'last': 'Picard'}
 
 Jean-Luc Picard
 
-
-
 data = [4, 8, 15, 16, 23, 42]
 
 '{d[4]} {d[5]}'.format(d=data)
 
 23 42
 
-
-
 9.  Datetime
 
-**from datetime import** datetime
+## from datetime import datetime
 
 '{:%Y-%m-**%d** %H:%M}'.format(datetime(2001, 2, 3, 4, 5))
 
 2001-02-03 04:05
-
-
 
 10. Parametrized formats
 
@@ -492,7 +452,7 @@ Gib = 2.72
 
 datetime
 
-**from datetime import** datetime
+## from datetime import datetime
 dt = datetime(2001, 2, 3, 4, 5)
 
 '{:{dfmt} {tfmt}}'.format(dt, dfmt='%Y-%m-**%d**', tfmt='%H:%M')
@@ -511,8 +471,6 @@ Positional + keyword arguments
 
 +2.72
 
-
-
 11. Print formats for other numbers
 
 print('{0:d}'.format(5)) #decimal
@@ -523,21 +481,15 @@ print('{0:b}'.format(5)) #binary
 
 print('{0:x}'.format(15)) #hexadecimal
 
-
-
 2.  Passing parameters
 
-**A = deepak**
+## A = deepak
 
-**B = sood**
+## B = sood
 
-**"Hello %s %s!" %(A, B)** [Should be passed as tuple for more than one arguments)
-
-
+## "Hello %s %s!" %(A, B) [Should be passed as tuple for more than one arguments)
 
 3.  Strings are immutable, but can be altered using following approaches
-
-
 
 a.  One solution is to convert the string to a list and then change the value.
 
@@ -548,23 +500,17 @@ a.  One solution is to convert the string to a list and then change the value.
 >>> print string
 Abrackdabra
 
-
-
 b.  Another approach is to slice the string and join it back.
 
 >>> string = string[:5] + "k" + string[6:]
 >>> print string
 Abrackdabra
 
-
-
 4.  Regex for finding sub_string inside string with overlapping
 
 Matches = re.findall('(?='+sub_string+')', string)
 
 len(Matches)
-
-
 
 5.  TextWrap
 
@@ -595,19 +541,13 @@ very
 long
 string.
 
-
-
 6.  dec=int(input("Enteradecimalnumber:"))
 
+## print(bin(dec),"inbinary.")
 
+## print(oct(dec),"inoctal.")
 
-**print**(bin(dec),"inbinary.")
-
-**print**(oct(dec),"inoctal.")
-
-**print**(hex(dec),"inhexadecimal."
-
-
+## print(hex(dec),"inhexadecimal."
 
 7.  Ascii to number and vice versa
 
@@ -618,39 +558,27 @@ string.
 >>> chr(ord('a') + 3)
 'd'
 
-
-
 8.  Formatting string
 
 def __repr__(self):
 
 return f'Pizza({self.ingredients!r})'
 
-
-
 >>> Pizza(['cheese', 'tomatoes'])
 
 Pizza(['cheese', 'tomatoes'])
 
-
-
 This is used to override __repr__ that prints the object instance when printed
-
-
 
 9.  **String slicing**
 
 Python also allows a form of indexing syntax that extracts substrings from a string, known as string slicing. Ifsis a string, an expression of the forms[m:n]returns the portion ofsstarting with positionm, and up to but not including positionn
 
-
-
-**Omitting both indices returns the original string, in its entirety. Literally. It's not a copy, it's a reference to the original string**
+## Omitting both indices returns the original string, in its entirety. Literally. It's not a copy, it's a reference to the original string
 
 >>> s[:] is s
 
-**True**
-
-
+## True
 
 Negative indices can be used with slicing as well.-1refers to the last character -2 the second-to-last, and so on, just as with simple indexing. The diagram below shows how to slice the substring'oob'from the string'foobar'using both positive and negative indices:
 
@@ -665,27 +593,19 @@ Negative indices can be used with slicing as well.-1refers to the last character
 >>> s[-5:-2] == s[1:4]
 True
 
-
-
 string = string[:-3] (removes last 3 digits from string)
 
-
-
-**Stride**
+## Stride
 
 Adding an additional:and a third index designates a stride (also called a step), which indicates how many characters to jump after retrieving each character in the slice.
 
-
-
 For example, for the string'foobar', the slice0:6:2starts with the first character and ends with the last character (the whole string), and every second character is skipped. This is shown in the following diagram:
 
-![String stride 1](media/Strings-image2.png)
-
-
+![image](media/Strings-image2.png)
 
 Similarly,1:6:2specifies a slice starting with the second character (index1) and ending with the last character, and again the stride value2causes every other character to be skipped:
 
-![String stride 2](media/Strings-image3.png)
+![image](media/Strings-image3.png)
 
 You can specify a negative stride value as well, in which case Python steps backward through the string. In that case, the starting/first index should be greater than the ending/second index:
 
@@ -695,8 +615,6 @@ You can specify a negative stride value as well, in which case Python steps back
 
 In the above example,5:0:-2means "start at the last character and step backward by2, up to but not including the first character."
 
-
-
 When you are stepping backward, if the first and second indices are omitted, the defaults are reversed in an intuitive way: the first index defaults to the end of the string, and the second index defaults to the beginning. Here is an example:
 
 >>> s = '12345' * 5
@@ -705,15 +623,11 @@ When you are stepping backward, if the first and second indices are omitted, the
 >>> s[::-5]
 '55555'
 
-
-
 This is a common paradigm for reversing a string:
 
 >>> s = 'If Comrade Napoleon says it, it must be right.'
 >>> s[::-1]
 '.thgir eb tsum ti ,ti syas noelopaN edarmoC fI'
-
-
 
 Example
 
@@ -721,48 +635,34 @@ What is the slice expression that gives every third character of strings, starti
 
 s[::-3]
 
-
-
 10. DocString
 
 r""" """
 
 r is used to create a raw string if there are special characters inside the docstring
 
-
-
 11. Remove all punctuations from a given string
 
 Ex - document = document.translate(str.maketrans('','',string.punctuation))
 
-
-
-**Sluggify a string**
+## Sluggify a string
 
 translate_table = {ord(char): u'' **for** char **in** non_url_safe}
 non_url_safe_regex = re.compile(
 r'[{}]'.format(''.join(re.escape(x) **for** x **in** non_url_safe)))
 
-
-
-**def** _slugify2(self, text):
+## def _slugify2(self, text):
 text = text.translate(self.translate_table)
 text = u'_'.join(text.split())
-**return** text
-
-
+## return text
 
 <https://www.peterbe.com/plog/fastest-python-function-to-slugify-a-string>
 
-
-
-**References**
+## References
 
 Python format specification mini language are used to format strings
 
 <https://docs.python.org/3.6/library/string.html#format-specification-mini-language>
-
-
 
 Python string formatters
 
@@ -771,6 +671,4 @@ Python string formatters
 <https://pyformat.info
 
 <https://realpython.com/python-encodings-guide
-
-
 

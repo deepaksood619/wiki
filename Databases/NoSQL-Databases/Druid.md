@@ -9,7 +9,7 @@ Modified: 2021-01-29 02:06:32 +0500
 Apache Druid (incubating) is a real-time analytics database designed for fast slice-and-dice analytics ("[OLAP](http://en.wikipedia.org/wiki/Online_analytical_processing)" queries) on large data sets. Druid is most often used as a database for powering use cases where real-time ingest, fast query performance, and high uptime are important. As such, Druid is commonly used for powering GUIs of analytical applications, or as a backend for highly-concurrent APIs that need fast aggregations. Druid works best with event-oriented data.-   **High performance, column oriented, distributed data store**
 -   Druid is primarily used to store, query, and analyze large event streams
 -   Druid is optimized for sub-second queries to slice-and-dice, drill down, search, filter, and aggregate this data. Druid is commonly used to power interactive applications where performance, concurrency, and uptime are important.
-**Features**
+## Features
 -   Column-oriented storage
 -   Native search indexes
 
@@ -29,7 +29,7 @@ Once Druid has ingested your data, a copy is stored safely in[deep storage](http
 -   Time-optimized partitioning
 -   SQL support
 -   Horizontally scalable
-**Applications**
+## Applications
 -   Clickstream analytics
 -   Network telemetry analytics (network performance monitoring)
 -   Server metrics storage
@@ -37,7 +37,7 @@ Once Druid has ingested your data, a copy is stored safely in[deep storage](http
 -   Application performance metrics
 -   Digital marketing/advertising analytics
 -   Business intelligence / OLAP
-**Druid Important Points**
+## Druid Important Points
 
 Druid does not natively support nested data, so, we need to flatten arrays in our JSON events by providing a[flattenspec](https://druid.apache.org/docs/latest/ingestion/index.html#flattenspec), or by doing some preprocessing before the event lands in it.
 Druid assigns types to columns --- string, long, float, complex, etc. The type enforcement at the column level can be restrictive if the incoming data presents with mixed types for a particular field/fields. Each column except the timestamp can be of type dimension or metric.
@@ -45,9 +45,9 @@ One can filter and group by on dimension columns, but not on metric columns. Thi
 Partition keys must be picked carefully for load-balancing and scaling up. Streaming new updates to the table after creation requires using one of the[supported ways of ingesting](https://druid.apache.org/docs/latest/ingestion/index.html#streaming)--- Kafka, Kinesis, or Tranquility.
 Druid works well for event analytics in environments where data is somewhat predictable and rollups and pre-aggregations can be defined a priori. It involves some maintenance and tuning overhead in terms of engineering, but for event analytics that doesn't involve complex joins, it can serve queries with low latency and scale up as required.
 Druid is fundamentally a column store, and is designed for analytical queries (GROUPBYs with complex WHERE clauses) that need to scan across multiple partitions. Druid stores its index in[segment files](http://druid.io/docs/latest/design/segments.html), which are partitioned by time. Segment files are columnar, with the data for each column laid out in **separate data structures**. By storing each column separately, Druid can decrease query latency by scanning only those columns that are required for a query. There are different column types for different data types (string, numbers, etc.). Different columns can have different encoding and compression algorithms applied. For example, string columns will be dictionary encoded, LZF compressed, and have search indexes created for faster filtering. Numeric columns will have completely different compression and encoding algorithms applied. Druid segments are immutable once finalized, so updates in Druid have limitations. Although more recent versions of Druid have added "lookups", or the ability to join a mutable table external to Druid with an immutable one in Druid, I would not recommend Druid for any workflows where the same underlying data is frequently updated and those updates need to complete in less than a second (say, powering a social media profile page). Druid supports bulk updates, which are more commonly seen with analytic workloads.
-**Druid File Format**
+## Druid File Format
 
-**Segments**
+## Segments
 -   Datasources are broken into files called segments
 -   Segments are grouped into time chunks and potentially, further partitioned at creation time
     -   This allows Druid to parallelize ingestion and querying of data
@@ -64,13 +64,13 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Columns are further compressed with general-purpose algorithms like LZ4 (Lossless compression)
 -   Example
 
-![Take this table's data as an exam le Timestamp 2019-01-@ITOI : 00: ooz 2019-01 -OITOI : 00:01Z 2019-01-OITOI : 00: loz Druid would save this out on disk as: Domain example.com example.com druid . io Amount 10 20 10 Field Timestamp [2019-01-OITOI Values Array Domain Amount example. com, example.com, druid. iol [10, 20, 10] ](media/Druid-image1.png)
+![image](media/Druid-image1.png)
 -   This on-disk format has several benefits:
     -   Filtering if a domain exists require reading less data
     -   Compression of like data performs better than a row-oriented format
     -   Druid only needs to read the columns involved in a query, eliminating extraneous fetches from disk and memory
--   ![Query Broker Deep Storage Masters Coordinator Overlord If deep storage is not available, the files are already copied to Drud, but new files won't be. Data Historical Only the Historical and MiddleManager nodes interact with deep storage. MiddeManager Segments deleted On Druid servers wont be lost, but data deleted in deep storage wil be lost. Deep Storage (S3, HDFS) ](media/Druid-image2.png)
-**Druid Data Modelling**
+-   ![image](media/Druid-image2.png)
+## Druid Data Modelling
 -   Designing a data model for Druid is different than a RDBMS
 -   Most RDBMS design focuses on normalization
     -   Each piece of data should only appear once in the database
@@ -92,10 +92,10 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
     -   Metrics (partially aggregated)
 -   **Supported Types**
 
-![Type tong float double string complex Description 64 bit signed int 32-bit float 64-bit double UT F-8 string Represents column types provided by sketches and Druid extensions, including hyperUnique, approxHistogram, DataSketches types. Timestamps use the long type and are milliseconds since epoch • Each row has a primary timestamp that is stored as a long complex types are often used to power approximate computations, such as approximate count distinct, histograms, and quantiles. ](media/Druid-image3.png)
+![image](media/Druid-image3.png)
 -   **Multi-value and Nested Dimensions**
 
-![Druid supports multi-value arrays A Druid column can have a value that is an array, like: "mykey": ["valueone", "valuetwo"] Druid does not support nested dimensions Nested data beyond simple lists should be flattened out, either before ingestion, or during ingestion using Druid flattenspecs. ](media/Druid-image4.png)
+![image](media/Druid-image4.png)
 -   **Druid Native Batch**
     -   Native batch is a built-in way to index data in Druid
     -   Native batch ingestion is useful when you have a file that you want to load into Druid
@@ -103,7 +103,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
     -   Druid also supports batching ingestion with Hadoop
     -   **Native Batch Architecture**
 
-![Query Broker Masters Overlord 2. The Overlord will instruct MiddleManagers to run the submitted task. 4. MiddleManagers push the segments to deep storage, where they can be loaded by Historicals. 3. MiddleManagers load the data file and create Druid segments. ay happen on MiddleManagers 1. An ingestion spec that uses Native Batch is submitted to the Overlord process. 5. Once Historicals load the segments, they are available for querying. D ta Historical Middle Manager MiddleManager ](media/Druid-image5.png)
+![image](media/Druid-image5.png)
 -   **Druid SQL Query API**
     -   Data stored in Druid can be queried with a SQL API
     -   These calls go over a HTTP REST API
@@ -116,14 +116,14 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
         -   The SQL API is virtually at parity with the JSON and is easier to use
     -   Where clauses
 
-![SELECT FROM datasourcename WHERE mydimension = SELECT FROM datasourcename WHERE mydimension = " somet hing" " somet hing" AND myotherdimension = The timestamp column in Druid is named _ _ time Timestamps can be written out in SQL with TIMESTAMP YYYY-m-DD SELECT * FROM datasourcename WHERE __time = TIMESTAMP '2019-01-01 ](media/Druid-image6.png)
+![image](media/Druid-image6.png)
 -   Limiting
 
-![Druid can further optimize queries when a LIMIT is applied • This makes Druid use less resources while querying data This is a general best practice SELECT * FROM datasourcename LIMIT 10 SELECT * FROM datasourcename WHERE mydimension = " something" LIMIT 10 ](media/Druid-image7.png)
+![image](media/Druid-image7.png)
 -   Group By Query
 
-![SELECT mydimension, as itemcount FROM datasourcename GROUP BY mydimension SELECT mydimension, anotherdimension, as itemcount FROM datasourcename GROUP BY mydimension, anotherdimension SELECT mydtmenston, SIN( mydimension) as mysum, AVG( mydtmension) as myaverage, COUNT( * ) as itemcount FROM datasourcename GROUP BY mydimens ion ](media/Druid-image8.png)
-**Druid kafka ingestion**
+![image](media/Druid-image8.png)
+## Druid kafka ingestion
 
 <http://druid.io/docs/latest/development/extensions-core/kafka-ingestion.html>
 
@@ -133,12 +133,12 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 
 <https://imply.io/post/exactly-once-streaming-ingestion>
 
-![An indexing task reads a subset of the Kafka topic partitions](media/Druid-image9.png)
+![image](media/Druid-image9.png)
 
-![Supervisors live on the Overlord and manage indexing tasks which run on Middle Managers](media/Druid-image10.png)
-![1. All real-time data is initially ingested into Kafka from a producer or Kafka Connect. Kafka Query Broker Masters Coordinator Overlord 2. Data may optionally be enriched or joined by stream processors. 3. Data is then consumed by MiddleManager processes, which will create Druid segments. Data Historical MiddleManager ](media/Druid-image11.png)
+![image](media/Druid-image10.png)
+![image](media/Druid-image11.png)
 
-**References**
+## References
 
 <http://druid.io/docs/latest/design/index.html>
 <https://medium.com/@leventov/the-problems-with-druid-at-large-scale-and-high-load-part-1-714d475e84c9>
@@ -158,7 +158,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Virtual columns (middle manager)
 -   Clarity
 -   Imply Manager
-**Others**
+## Others
 -   Ingestion Spec can handle flattening of schema
 -   Primary partition keys
 -   Secondary partition keys
@@ -175,7 +175,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 -   Middle manager will skip the data if it's not in the right format. There's no way
 
 to know which data was skipped.
-**Ingestion spec tuning**
+## Ingestion spec tuning
 
 1.  Task duration - 60 minutes (PT60M) (current - 5 minutes)
 

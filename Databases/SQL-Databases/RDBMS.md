@@ -18,7 +18,7 @@ All data stored in a relational database is of a certain data type. Some of the 
 -   TEXT, a text string
 -   DATE, the date formatted as YYYY-MM-DD
 -   REAL, a decimal value
-**SQL Databases**
+## SQL Databases
 
 1.  Oracle Database
 
@@ -50,7 +50,7 @@ All data stored in a relational database is of a certain data type. Some of the 
     b.  Large enterprise applications mostly use SQL Server. The key difference between Oracle and SQL Server is that SQL Server only supports the Windows Operating System.
 
     c.  Microsoft offers a free entry-level version calledExpressbut can become very expensive as you scale your application.
-**SQL Server Integration Service (SSIS)**
+## SQL Server Integration Service (SSIS)
 
 SQL Server Integration Services(SSIS) is a component of the[Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)database software that can be used to perform a broad range of[data migration](https://en.wikipedia.org/wiki/Data_migration)tasks.
 SSIS is a platform for[data integration](https://en.wikipedia.org/wiki/Data_integration)and[workflow applications](https://en.wikipedia.org/wiki/Workflow_application). It features a[data warehousing](https://en.wikipedia.org/wiki/Data_warehouse)tool used for data[extraction, transformation, and loading (ETL)](https://en.wikipedia.org/wiki/Extract,_transform,_load). The tool may also be used to automate maintenance of SQL Server databases and updates to multidimensional[cube data](https://en.wikipedia.org/wiki/OLAP_cube).

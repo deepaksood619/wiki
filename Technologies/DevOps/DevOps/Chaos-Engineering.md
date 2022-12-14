@@ -8,9 +8,7 @@ Modified: 2021-03-20 11:51:26 +0500
 
 Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system's capability to withstand turbulent conditions in production.
 
-
-
-**Chaos in practice**
+## Chaos in practice
 
 1.  Start by defining 'steady state' as some measurable output of a system that indicates normal behavior.
 
@@ -20,9 +18,7 @@ Chaos Engineering is the discipline of experimenting on a system in order to bui
 
 4.  Try to disprove the hypothesis by looking for a difference in steady state between the control group and the experimental group.
 
-
-
-**Chaos Experiments**
+## Chaos Experiments
 
 1.  Resource Exhaustion
 
@@ -34,9 +30,7 @@ CPU, Memory, I/O
 
 4.  DNS Unavailability
 
-
-
-**Fault Injection/Resiliency Tools**
+## Fault Injection/Resiliency Tools
 -   Chaos Monkey
 -   Istio
 -   gremlin
@@ -45,9 +39,7 @@ CPU, Memory, I/O
 
 <https://litmuschaos.io
 
-
-
-**References**
+## References
 
 <http://principlesofchaos.org
 

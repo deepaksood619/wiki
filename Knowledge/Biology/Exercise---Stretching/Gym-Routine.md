@@ -6,7 +6,7 @@ Modified: 2021-04-12 20:07:53 +0500
 
 ---
 
-**Tips**
+## Tips
 
 1.  Leg Press
 
@@ -14,9 +14,7 @@ Modified: 2021-04-12 20:07:53 +0500
 
     b.  Press through heels
 
-
-
-**The Split:**
+## The Split:
 -   Monday- Chest, Arms
 -   Tuesday- Back, Shoulders, Abs
 -   Wednesday- Legs, Neck
@@ -25,9 +23,7 @@ Modified: 2021-04-12 20:07:53 +0500
 -   Saturday- Legs, Neck
 -   Sunday- Rest Day
 
-
-
-**Monday - Chest, Arms (Biceps + Triceps):**
+## Monday - Chest, Arms (Biceps + Triceps):
 -   Incline Barbell Bench Press 4 x15, 12, 8, 6
 -   Decline Barbell Bench Press 4 x15, 12, 8, 6
 -   Standing EZ-bar Curls 4 x 15, 12, 8, 6
@@ -35,9 +31,7 @@ Modified: 2021-04-12 20:07:53 +0500
 -   Barbell Wrist Curls3 x12, 8, 6
 -   Barbell Reverse Wrist Curls3 x12, 8, 6
 
-
-
-**Tuesday- Back, Shoulders, Abs:**
+## Tuesday- Back, Shoulders, Abs:
 -   Wide-grip Lat Pulldowns 4 x15, 12, 8, 6
 -   Hyperextensions3 x15
 -   Seated DB Shoulder Presses 4 x15, 12, 8, 6
@@ -45,9 +39,7 @@ Modified: 2021-04-12 20:07:53 +0500
 -   Dumbbell Shrugs 4 x15, 12, 8, 6
 -   Abs Crunches* 3 x25
 
-
-
-**Wednesday- Legs, Neck:**
+## Wednesday- Legs, Neck:
 -   Squats 4 x20, 15, 12, 8
 -   Standing Leg Curls 4 x20, 15, 12, 8
 -   Standing Calf Raises 4 x20, 15, 12, 8
@@ -55,18 +47,14 @@ Modified: 2021-04-12 20:07:53 +0500
 -   Seated Neck Resistance 3 x15
 -   Neck Standing Neck Resistance3 x15
 
-
-
-**Thursday- Chest, Arms (Biceps + Triceps):**
+## Thursday- Chest, Arms (Biceps + Triceps):
 -   Incline Heavy Barbell Bench Press4 x15, 8, 6, 4
 -   Flat Heavy Dumbbell Bench Press 4 x15, 8, 6, 4
 -   Standing Heavy EZ-bar Curls 4 x15, 8, 6, 4
 -   Lying Heavy Triceps Extensions 4 x15, 8, 6, 4
 -   Standing Heavy Reverse Curls 4 x15, 8, 6, 4
 
-
-
-**Friday- Back, Shoulders, Abs:**
+## Friday- Back, Shoulders, Abs:
 -   Heavy Barbell Rows 4 x15, 8, 6, 4
 -   Heavy Deadlifts 4 x15, 8, 6, 4
 -   Heavy Clean and Press 4 x15, 8, 6, 4
@@ -74,9 +62,7 @@ Modified: 2021-04-12 20:07:53 +0500
 -   Heavy Barbell Shrugs 4 x15, 8, 6, 4
 -   Crunches 3 x25
 
-
-
-**Saturday- Legs, Neck:**
+## Saturday- Legs, Neck:
 -   Heavy Squats 4 x20, 12, 8, 6
 -   Stiff-legged Deadlifts 4 x20, 12, 8, 6
 -   Heavy Standing Calf Raises 4 x20, 12, 8, 6
@@ -86,11 +72,9 @@ Modified: 2021-04-12 20:07:53 +0500
 
 
 
+## Home exercises
 
-
-**Home exercises**
-
-**Monday - Chest, Shoulder, Triceps**
+## Monday - Chest, Shoulder, Triceps
 
 1.  Chest - Pushups
 

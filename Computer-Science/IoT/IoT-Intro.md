@@ -6,20 +6,20 @@ Modified: 2021-07-04 22:16:04 +0500
 
 ---
 
-**Internet of Things (IoT)**
+## Internet of Things (IoT)
 
 IoT world is all about communication between devices, gateways and the cloud; messages are exchanged between all these parties in order to provide a comprehensive end-to-end solution.
-**Shadow (Device Shadow) -**
+## Shadow (Device Shadow) -
 
 A json file maintained on the cloud where all the updates are performed. These is synced with the devices on fields.
-**Digital Twin**
+## Digital Twin
 
 <https://dzone.com/articles/apache-kafka-as-digital-twin-in-industrial-iot-iio>
 
 ## TPM - Trusted Platform Module**
 
 Is an[international standard](https://en.wikipedia.org/wiki/International_standard)for a[secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor), a dedicated[microcontroller](https://en.wikipedia.org/wiki/Microcontroller)designed to secure hardware through integrated[cryptographic keys](https://en.wikipedia.org/wiki/Cryptographic_keys).
-**Four basic architectural components**
+## Four basic architectural components
 -   **Devices**
 
 Devices are the physical hardware elements that collect sensor data and might perform actuation.
@@ -53,14 +53,14 @@ On a high level, the software architecture choices for IoT client devices fall i
 | Dynamic software updates        | Firmware updates only                                           | Yes                                            | Yes                                                      | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
 | Third-party apps supported      | No                                                              | Yes                                            | Yes                                                      | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
 | Isomorphic apps possible        | No                                                              | Yes                                            | Only if the hardware architectures are binary compatible | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
-**Key points -**
+## Key points -
 -   Windowing for streaming data
-**Messaging mechanisms**
+## Messaging mechanisms
 
 1.  Store and forward mechanism (using queues, topic/subscriptions in a broker)
 
 2.  Direct messaging (receiver needs to be online in order to allow the devices to send data)
-**Messaging Patterns**
+## Messaging Patterns
 
 1.  competing consumers
 
@@ -69,7 +69,7 @@ A messaging pattern in which more consumers get messages from a common source (i
 2.  request/reply
 
 3.  pub/sub
-**Communication patterns**
+## Communication patterns
 
 1.  **Telemetry**
     -   **Data flows in one direction from the device to other systems for conveying status changes in the device itself (i.e. sensors reading, ...)**
@@ -87,8 +87,8 @@ Requests from the device looking to gather required information or asking to ini
 4.  **Notifications**
 
 Information flows in one direction from other systems to a device (or a group of devices) for conveying status changes
-![IOT Communication Patterns Telemetry Inquiries a Cloud Commands a Notifications ](media/IoT-Intro-image1.png)
-**Classifying Device States**
+![image](media/IoT-Intro-image1.png)
+## Classifying Device States
 
 <table>
 <colgroup>
@@ -134,7 +134,7 @@ Information flows in one direction from other systems to a device (or a group of
     -   **Flow-based programming for the Internet of Things**
     -   **Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.**
     -   **It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.**
-**IoT Protocols**
+## IoT Protocols
 
 1.  Infrastructure(ex: 6LowPAN, IPv4/IPv6, RPL)
 

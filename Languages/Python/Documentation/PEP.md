@@ -8,21 +8,13 @@ Modified: 2018-12-20 21:23:27 +0500
 
 PEP-0 - Python Enhancement Proposals
 
-
-
 PEP-20 - Zen of Python (import this)
-
-
 
 <https://www.python.org/dev/peps/pep-0001/#what-is-a-pep>
 
-
-
 <https://www.python.org/dev/peps/pep-0020 (The Zen of Python)
 
-
-
-**PEP-8 - Python Style Guide**
+## PEP-8 - Python Style Guide
 
 For Python,[PEP 8](https://www.python.org/dev/peps/pep-0008)has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style. Every Python developer should read it at some point; here are the most important points extracted for you:
 -   Use 4-space indentation, and no tabs.

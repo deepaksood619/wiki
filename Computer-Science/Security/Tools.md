@@ -6,7 +6,7 @@ Modified: 2022-08-11 15:37:07 +0500
 
 ---
 
-**dex**
+## dex
 
 Dex is an identity service that uses[OpenID Connect](https://openid.net/connect/)to drive authentication for other apps.
 Dex acts as a portal to other identity providers through["connectors."](https://github.com/dexidp/dex#connectors)This lets dex defer authentication to LDAP servers, SAML providers, or established identity providers like GitHub, Google, and Active Directory. Clients write their authentication logic once to talk to dex, then dex handles the protocols for a given backend.
@@ -22,32 +22,32 @@ Implementations
 -   The SPIRE project
 -   Istio Citadel
 -   HashiCorp Consul
-**SPIRE**
+## SPIRE
 
 SPIRE (the[SPIFFE](https://github.com/spiffe/spiffe)Runtime Environment) is a tool-chain for establishing trust between software systems across a wide variety of hosting platforms. Concretely, SPIRE exposes the[SPIFFE Workload API](https://github.com/spiffe/go-spiffe/blob/master/proto/spiffe/workload/workload.proto), which can attest running software systems and issue[SPIFFE IDs](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md)and[SVID](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md)s to them. This in turn allows two workloads to establish trust between each other, for example by establishing an mTLS connection or by signing and verifying a JWT token. Or for a workload to securely authenticate to a secret store, a database, or a cloud provider service.
 spire-server
 -   Identity Mapping
 -   Node Attestation
 
-![Node Attestation spire-agent Node Attestor @evan2645 AWS spire-server Node Attestor S SCYTALE ](media/Tools-image1.png)
+![image](media/Tools-image1.png)
 -   SVID Issuance
 spire-agent
 -   Workload Attestation
 
-![kubelet API Socket spire-agent Linux Kernel Server Workload ](media/Tools-image2.png)
+![image](media/Tools-image2.png)
 -   Workload API
-**SPIRE Overview**
+## SPIRE Overview
 
-![spire-agent WL WL spire-server spire-agent WL WL spire-agent WL WL ](media/Tools-image3.png)
-**Workload Identity**
+![image](media/Tools-image3.png)
+## Workload Identity
 
-![Parent ID: Selector: Selector: Selector: SPIFFE ID: spiffe://exampLe.org/k8s/cluster/foo k8s:ns:operations k8s:sa:mediawiki docker:image-id:746b819f315e spiffe://example.org/ops/wiki ](media/Tools-image4.png)
+![image](media/Tools-image4.png)
 <https://spiffe.io/spiffe>
 
 [Zero Trust Service Mesh with Calico, SPIRE, and Envoy - Shaun Crampton & Evan Gilman](https://www.youtube.com/watch?v=rKOEYoINdOE)
 
 [Securing Multi-Cloud Cross-Cluster Communication with SPIFFE and SPIRE - Evan Gilman, Scytale, Inc.](https://www.youtube.com/watch?v=sLN11qAFAC4)
-**Casbin**
+## Casbin
 
 An authorization library that supports access control models like ACL, RBAC, ABAC in Golang
 <https://casbin.org>
@@ -80,13 +80,13 @@ Sodium is a new, easy-to-use software library for encryption, decryption, signat
 ## cert-manager**
 
 cert-manager builds on top of Kubernetes, introducing certificate authorities and certificates as first-class resource types in the Kubernetes API. This makes it possible to provide 'certificates as a service' to developers working within your Kubernetes cluster.
-**Highlights**
+## Highlights
 -   Provide easy to use tools to manage certificates.
 -   A standardised API for interacting with multiple certificate authorities (CAs).
 -   Gives security teams the confidence to allow developers to self-server certificates.
 -   Support for ACME (LetsEncrypt), HashiCorp Vault, Venafi, self signed and internal certificate authorities.
 -   Extensible to support custom, internal or otherwise unsupported CAs.
-**Concepts**
+## Concepts
 -   Issuer
 -   Certificate
 -   CertificateRequest
@@ -102,7 +102,7 @@ cert-manager builds on top of Kubernetes, introducing certificate authorities an
 <https://www.youtube.com/watch?v=JJTJfl-V_UM>
 
 [Use cert-manager with Let's Encrypt® Certificates Tutorial: Automatic Browser-Trusted HTTPS](https://www.youtube.com/watch?v=etC5d0vpLZE)
-**Letsencrypt**
+## Letsencrypt
 
 <https://letsencrypt.org/getting-started>
 

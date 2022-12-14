@@ -6,7 +6,7 @@ Modified: 2019-04-17 14:52:21 +0500
 
 ---
 
-**MQTT 5.0**
+## MQTT 5.0
 -   Enhancements for scalability and large scale systems in respect to setups with 1000s and millions of devices.
 -   Improved error reporting (Reason Code & Reason String)
 -   Formalize common patterns including capability discovery and request response
@@ -31,7 +31,7 @@ Modified: 2019-04-17 14:52:21 +0500
 -   Server Keep Alive: Allow the Server to specify the value it wishes the Client to use as a keep alive. This allows the Server to set a maximum allowed keepalive and still have the Client honor it.
 -   Assigned ClientID: In cases where the ClientID is assigned by the Server, return the assigned ClientID. This also lifts the restriction that Server assigned ClientIDs can only be used with Clean Session=1 connections.
 -   Server reference: Allow the Server to specify an alternate Server to use on CONNACK or DISCONNECT. This can be used as a redirect or to do provisioning.
-**References**
+## References
 
 <https://github.com/mqtt/mqtt.github.io/wiki/Differences-between-3.1.1-and-5.0>
 

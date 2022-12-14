@@ -8,11 +8,7 @@ Modified: 2018-07-16 02:13:49 +0500
 
 CPython is a stack-oriented virtual machine
 
-
-
 Each function called pushes a new entry - a frame - onto the call stack. When a function returns, its frame is popped off the stack.
-
-
 
 CPython uses two stacks during function execution
 -   evaluation stack or data stack
@@ -20,13 +16,9 @@ CPython uses two stacks during function execution
 
 Each frame has one of each type of stack associated with it.
 
-
-
-**References**
+## References
 
 [Understanding Python Bytecode](https://www.youtube.com/watch?v=weBXlLF6an8)
-
-
 
 ![. pyc ](media/CPython-image1.jpg)
 

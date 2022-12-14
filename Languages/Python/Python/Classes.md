@@ -6,13 +6,11 @@ Modified: 2018-06-30 18:14:53 +0500
 
 ---
 
-**Creating a class**
+## Creating a class
 
 class Dog():
 
 """Represent a dog."""
-
-
 
 def __init__(self, name):
 
@@ -20,15 +18,11 @@ def __init__(self, name):
 
 self.name = name
 
-
-
 def sit(self):
 
 """Simulate sitting."""
 
 print(self.name + ' is sitting.")
-
-
 
 my_dog = Dog('Tommy')
 
@@ -36,15 +30,11 @@ print(my_dog.name + ' is a great dog!')
 
 my_dog.sit()
 
-
-
-**Inheritance**
+## Inheritance
 
 class SDog(Dog):
 
 """Represent a search dog."""
-
-
 
 def __init__(self, name):
 
@@ -52,19 +42,13 @@ def __init__(self, name):
 
 super().__init__(name)
 
-
-
 def search(self):
 
 """Simulate searching."""
 
 print(self.name + ' is searching.')
 
-
-
 my_dog = SDog('Lucy')
-
-
 
 print(my_dog.name + ' is a search dog.')
 
@@ -72,9 +56,7 @@ my_dog.sit()
 
 my_dog.search()
 
-
-
-**Namespacing**
+## Namespacing
 
 A namespace is a mapping from names to objects. Most namespaces are currently implemented as Python dictionaries.
 
@@ -83,13 +65,9 @@ Example of namespaces:
 -   The global name in a module
 -   Local names in a function invocation
 
-
-
-**Modules and attributes**
+## Modules and attributes
 
 Ex - modname.funcname, modname is a module object and funcname is an attribute of it.
-
-
 
 Objectsare Python's abstraction for data. All data in a Python program is represented by objects or by relations between objects.
 
@@ -99,14 +77,10 @@ The '[is](https://docs.python.org/3.2/reference/expressions.html#is)' operator c
 
 the[id()](https://docs.python.org/3.2/library/functions.html#id)function returns an integer representing its identity (currently implemented as its address). An object'stypeis also unchangeable.
 
-
-
 An object's mutability is determined by its type; for instance, numbers, strings and tuples are immutable, while dictionaries and lists are mutable.
 
 Objects are never explicitly destroyed; however, when they become unreachable they may be garbage-collected. An implementation is allowed to postpone garbage collection or omit it altogether --- it is a matter of implementation quality how garbage collection is implemented, as long as no objects are collected that are still reachable.
 
-
-
-**Advanced**
+## Advanced
 
 One can use Collections.namedtuple instead of classes

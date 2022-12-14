@@ -6,7 +6,7 @@ Modified: 2021-09-30 22:36:53 +0500
 
 ---
 
-**Proteins**
+## Proteins
 
 Eggs - 3 (breakfast) / 3 (evening snacks)
 
@@ -21,8 +21,6 @@ Paneer - twice a week (tuesday + thursday)
 Fish - Sunday
 
 Sprouts - Evening snack
-
-
 
 Protein supplement daily - after gym
 
@@ -50,32 +48,24 @@ MB Whey performance
 
 Whey premium
 
-
-
 3.  Muscle Blaze Raw Whey Protein - 2.2 lb/ 1 kg, 33 Servings (Unflavoured)
 
 1220
 
 24g protein and 5. 2G bcaa per serving (30g)
 
-
-
 4.  **MuscleBlaze 100% Whey Energy Protein Supplement Powder with Vitamins & Minerals, 1 kg 31 Servings (Chocolate)**
 
-**1299**
+## 1299
 -   20g fast-absorbing whey proteins and vitamin and minerals per serving stimulate quick muscle recovery
 -   4.56g bcaas in each serving improves fatigue threshold and enhances recovery
 -   Fortified with 13 vitamins and 5 minerals which boost recovery and optimize energy levels
-
-
 
 5.  AS-IT-IS Nutrition Whey Protein Concentrate 80% Unflavoured - 1Kg
 
 1216
 
-
-
-**Diet Plan**
+## Diet Plan
 
 6:30am: 2 bananas + 10 almonds
 
@@ -93,17 +83,13 @@ Whey premium
 
 9:00pm: Green Tea
 
-
-
 Drink 8 bottles of water everyday
 
 No sugar at all
 
 Don't eat anything that is packed, processed, canned or on someone else's plate!
 
-
-
-**Others**
+## Others
 
 1.  Roti
 

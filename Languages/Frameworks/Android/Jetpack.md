@@ -8,8 +8,6 @@ Modified: 2021-06-23 00:01:27 +0500
 
 Jetpack is a set of libraries, tools and architectural guidance to help make it quick and easy to build great Android apps. It provides common infrastructure code so you can focus on what makes your app unique.
 
-
-
 1.  **Foundation**
 
     1.  AppCompat - Degrade gracefully on older versions of Android
@@ -19,8 +17,6 @@ Jetpack is a set of libraries, tools and architectural guidance to help make it 
     3.  Multidex - Provide support for apps with multiple DEX files
 
     4.  Test - An Android testing framework for unit and runtime UI tests
-
-
 
 2.  **Architecture**
 
@@ -40,8 +36,6 @@ Jetpack is a set of libraries, tools and architectural guidance to help make it 
 
     8.  **WorkManager -** Manage your Android background jobs
 
-
-
 3.  **Behavior**
 
     1.  Download Manager - Schedule and manage large downloads
@@ -55,8 +49,6 @@ Jetpack is a set of libraries, tools and architectural guidance to help make it 
     5.  Sharing - Provides a share action suitable for app's action bar
 
     6.  Slices - Create flexible UI elements that can display app data outside the app
-
-
 
 4.  **UI**
 
@@ -76,17 +68,11 @@ Jetpack is a set of libraries, tools and architectural guidance to help make it 
 
     8.  Wear OS by Google - Components to help develop apps for Wear
 
-
-
 <https://developer.android.com/jetpack
 
-
-
-**Navigation Components (NavGraph)**
+## Navigation Components (NavGraph)
 
 The Navigation component is a suite of libraries, tooling and guidance for in-app navigation. The component centralizes all of the navigation information of your app in a navigation graph, providing a robust framework for implementing everything from simple button clicks to complex navigation UI patterns.
-
-
 
 Android Studio 3.3 includes the Navigation Editor, which visuals your navigation graph. Other features and benefits include
 -   Automatic handling of fragment transactions
@@ -99,32 +85,22 @@ Android Studio 3.3 includes the Navigation Editor, which visuals your navigation
 
 Generates classes based off of your navigation graph to ensure type-safe access to arguments for destinations and actions
 
-
-
-**Built in support for**
+## Built in support for
 -   Fragment
 -   Activities
 -   Can also be extended to work with custom destinations
 
-
-
-**3 major parts**
+## 3 major parts
 -   Navigation graph
 -   NavHostFragment
 -   NavController
-
-
 
 Youtube - [Android Jetpack: Introducing Navigation Component](https://www.youtube.com/watch?v=Y0Cs2MQxyIs)
 
 <https://developer.android.com/guide/navigation>
 
-
-
-**Compose**
+## Compose
 
 Jetpack Compose is Android's modern toolkit for building native UI. It simplifies and accelerates UI development on Android. Quickly bring your app to life with less code, powerful tools, and intuitive Kotlin APIs.
-
-
 
 <https://developer.android.com/jetpack/compose>

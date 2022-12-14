@@ -16,13 +16,9 @@ The complete set of design standards, documentation, UI patterns, and components
 -   Documentation
 -   Reusable components
 
+![image](media/Design-System-image1.png)
 
-
-![Design System Spacing ios Icons Colors React Components Consumer Web Fonts Android ](media/Design-System-image1.png)
-
-
-
-**Atomic Design System**
+## Atomic Design System
 
 Atomic design is methodology for creating design systems. There are five distinct levels in atomic design:
 
@@ -36,19 +32,13 @@ Atomic design is methodology for creating design systems. There are five distinc
 
 5.  [Pages](https://bradfrost.com/blog/post/atomic-web-design/#pages)
 
-
-
-![ATOMS MOLECULES 0000 0+0+0+0 0+0+0+0 ORGANISMS TEMPLATES PAGES ](media/Design-System-image2.jpeg)
-
-
+![image](media/Design-System-image2.jpeg)
 
 <https://bradfrost.com/blog/post/atomic-web-design
 
 <https://atomicdesign.bradfrost.com/table-of-contents
 
-
-
-**Tools**
+## Tools
 -   Frontify
 -   Zeplin
 -   Lona
@@ -62,11 +52,7 @@ A tool for defining design systems and using them to generate cross-platform UI 
 
 Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.
 
-
-
 [Storybook](https://storybook.js.org/)is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
-
-
 
 <https://www.freecodecamp.org/news/what-is-storybook-and-how-can-i-use-it-to-create-a-component-libary-in-react
 
@@ -87,9 +73,7 @@ Penpot is the first Open Source design and prototyping platform meant for cross-
 
 -   <https://www.invisionapp.com
 
-
-
-**Color Palette picker**
+## Color Palette picker
 
 <http://colormind.io
 
@@ -97,9 +81,7 @@ Penpot is the first Open Source design and prototyping platform meant for cross-
 
 <https://coolors.co
 
-
-
-**Typography tools**
+## Typography tools
 
 <https://type-scale.com
 
@@ -111,21 +93,13 @@ Penpot is the first Open Source design and prototyping platform meant for cross-
 
 <https://jhildenbiddle.github.io/vertical-rhythm-reset
 
-
-
 "Helvetica is the sweatpants of typefaces." -- John Boardley, Graphic Designer
 
+## Course - <https://www.freecodecamp.org/news/how-to-design-good-typography
 
-
-**Course - <https://www.freecodecamp.org/news/how-to-design-good-typography**
-
-
-
-**Creating own design system**
+## Creating own design system
 
 <https://www.youtube.com/watch?v=LwYZTKxj-do&ab_channel=freeCodeCampTalks>
-
-
 
 <https://www.invisionapp.com/inside-design/guide-to-design-systems
 

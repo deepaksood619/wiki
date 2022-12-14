@@ -8,15 +8,9 @@ Modified: 2022-07-18 09:28:34 +0500
 
 Read to Lead
 
-
-
 There is only one way to read, which is to browse in libraries and bookshops, picking up books that attract you, reading only those, dropping them when they bore you, skipping the parts that drag -- and never, never reading anything because you feel you ought, or because it is part of a trend or a movement. Remember that the book which bores you when you are twenty or thirty will open doors for you when you are forty or fifty-and vise versa. Don't read a book out of its right time for you.
 
-
-
 Current reading speed (Blinkist) - 219 WPM
-
-
 
 1.  Saccades - Movement of the eye from one word to another (takes about 30 ms)
 
@@ -32,23 +26,15 @@ Eyes region -
 
 3.  Congnitive Processing
 
-
-
 Remove subvocalization (auditory reassurance)
-
-
 
 1.  Rapid Visual Serial Presentation (RSVP) (Does not work, doesn't look regression)
 
 2.  Stroop's test - where color and written name of color doesn't match
 
-
-
 1.  Use a pacer (pen, or finger)
 
-
-
-**Tips**
+## Tips
 
 1.  Humming
 
@@ -58,9 +44,7 @@ Remove subvocalization (auditory reassurance)
 
 4.  Pressing tip of the tongue on top of your mouth
 
-
-
-**5 obstacles to reading**
+## 5 obstacles to reading
 
 1.  Lack of Education
 
@@ -72,9 +56,7 @@ Remove subvocalization (auditory reassurance)
 
 5.  **Fixations**
 
-
-
-**Book - Breakthrough Rapid Reading**
+## Book - Breakthrough Rapid Reading
 
 1.  Use a visual pacer - finger
     -   Eliminate **regressions**
@@ -84,24 +66,16 @@ Remove subvocalization (auditory reassurance)
 
 3.  Better comprehension
 
-
-
 "You could try to pound your head against the wall and think of original ideas or you can cheat by reading them in books."
 
+## Bionic Reading
 
-
-**Bionic Reading**
-
-![Reading As before Bionic Reading is a new method facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word. In a digital world dominated by shallow forms of reading, Bionic Reading aims to encourage a more in-depth reading and understanding of written content. Reading mode Bionic Reading (variation) Bionic Reading is a new method facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word. In a digital world dominated by shallow forms of reading, Bionic Reading aims to encourage a more in-depth reading and understanding of written content. ](media/Learning---Intro_Speed-Reading-image1.jpg)
-
-
+![image](media/Learning---Intro_Speed-Reading-image1.jpg)
 
 [Read To Become A Better Investor | ET Money](https://youtu.be/_Y1Bn_OWCOA)
 
 Post it notes - visual cue and target
 
-
-
-**Apps**
+## Apps
 -   Reader pro
 

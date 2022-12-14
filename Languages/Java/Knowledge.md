@@ -9,8 +9,6 @@ Modified: 2018-07-18 19:45:25 +0500
 
 Person person = new Docter("deepak", 1, "medicine");
 
-
-
 // Docter docter = new Person("deepak", 1);
 
 This cannot be done

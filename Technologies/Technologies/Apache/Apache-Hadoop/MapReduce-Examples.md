@@ -54,23 +54,9 @@ Modified: 2020-04-11 15:21:28 +0500
 
 ![Example 6: Finding Friends The result after reduction is: Now when D visits B we can quickly look up see that they have thn in common, (A C E). ](../../../media/Technologies-Apache-MapReduce-Examples-image24.png)
 
-
-
-**MapReduce: Simplified Data Processing on Large Clusters**
+## MapReduce: Simplified Data Processing on Large Clusters
 
 <https://ai.google/research/pubs/pub62>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

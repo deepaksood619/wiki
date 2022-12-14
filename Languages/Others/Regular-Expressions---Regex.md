@@ -47,15 +47,9 @@ Inside our delimiters, we have the pattern that we want our regular expression t
 
 Metacharacters have a special meaning when used in regular expressions and are by far the most important part of a regular expression. A regular expression without metacharacters is just a string literal.
 
-
-
 Most regular expression processors support at least fourteen metacharacters. These are {}[]()^$.|*+?
 
-
-
 Meaning of metacharacters fall under four broad groups - **escaping, grouping, matching literal characters and quantifiers.**
-
-
 
 1.  **Escaping (  )**
 
@@ -67,23 +61,17 @@ a.  To escape a character if it is a delimiter.
 
 b.  To convert literal characters into character classes. Ex- w is a character literal, but when we escape it using  it becomes ( w ). w is a shortcut character class which represents all the alphanumeric characters as well as _ (underscore)
 
-
-
 2.  **Matching character literals**
 
 w for example that match character literals.
 
-
-
-**Character Classes or character sets**
+## Character Classes or character sets
 
 A character class matches only one out of several characters. They are a way to represent multiple character literals. We use square brackets ( [] ) to contain these character literals. This tells the regular expression to look for one of these character literals when searching a string.
 
 Ex - [0-9], [a-z], [A-Z], [A-Za-z]
 
-
-
-**Shortcut character classes**
+## Shortcut character classes
 
 w = [A-Za-z0-9_]
 
@@ -95,15 +83,11 @@ b = word boundary
 
 (r"bapeb"), will only match ape and not apex since it's defined by word boundary
 
-
-
-**Metacharacters inside character classes**
+## Metacharacters inside character classes
 
 Most metacharacters won't work inside a character class. The only one that works are backslash (  ), the closing square bracket ( ] ) and the caret ( ^ ).
 
-
-
-**Negated character classes ( [^ )**
+## Negated character classes ( [^ )
 
 Define character classes that match anything but what's in them. Reverse.
 
@@ -111,7 +95,7 @@ Ex - [0-9] matches any number, [^0-9] matches anything but a number.
 
 ( [^ ) is how we define the negated character class.
 
-**Negated shortcut character classes**
+## Negated shortcut character classes
 
 1.  W = matches anything but an alphanumeric character literal
 
@@ -119,9 +103,7 @@ Ex - [0-9] matches any number, [^0-9] matches anything but a number.
 
 3.  S = matches anything but a whitespace character
 
-
-
-**Matching (almost) any character literal ( . )**
+## Matching (almost) any character literal ( . )
 
 We use the dot when we want to match a character literal without caring what that character literal is.
 
@@ -129,13 +111,9 @@ The only character literal that a dot won't match by default are line break char
 
 Dot metacharacter is powerful but we should use it with caution as it can create unforeseen bugs. So we should use negated character class instead of dot metacharacter.
 
-
-
 3.  **Quantifiers**
 
 They are a way to tell the regular expression processor how many times we want to match an atom.
-
-
 
 Three main quantifier metacharacters -
 
@@ -167,19 +145,13 @@ i.  **{min, max} -** The preceding item is matched at least*min*times, but not m
 
 j.  **{min, max}? -** Lazy quantifier
 
-
-
-**Greediness**
+## Greediness
 
 A regular expression processor is always greedy. It'll always try to match a repeating atom as long as it can. It will only stop matching a repeating atom when continuing to do so would prevent the regular expression processor from finding a match.
 
 Ex - /<.*>/ because of greediness, this will match every character instead of html tag in an html document.
 
-
-
 There are two ways to solve the greediness problem -
-
-
 
 1.  **Making quantifiers lazy**
 
@@ -189,15 +161,11 @@ Ex - ?? Is the lazy version of the ? quantifier metacharacter. It'll try to matc
 
 Ex - /<.*?>/ this will solve the html tag problem
 
-
-
 2.  **Use negated character classes**
 
 Ex - /<[^>]*>/ this will match all the HTML tags in our HTML block without the need for lazy quantifier.
 
-
-
-**Custom quantifiers**
+## Custom quantifiers
 
 We use { } to define how many times we want to match an atom.
 
@@ -211,17 +179,13 @@ Kleene star * = {0,}
 
 Kleene plus + = {1,}
 
-
-
 4.  **Grouping**
 
 We need to put them in parentheses ( ) . This tells the regex processor that we want to use these atoms as a single unit.
 
 Ex - /dish(es)?/. This regular expression would match either the word "dish" or its plural form "dishes". That's because(es)?tells the regular expression processor to match the "es" character literals 0 or 1 times.
 
-
-
-**Alternation - ( | ) (logical disjunction)**
+## Alternation - ( | ) (logical disjunction)
 
 The[vertical bar](https://en.wikipedia.org/wiki/Vertical_bar)(|) metacharacter is the "or" operator for regular expressions. It's how we represent this choice between multiple patterns.
 
@@ -231,31 +195,21 @@ It will always stop when it reaches the first match.
 
 Ex - let's say that we're looking for a[URL](https://en.wikipedia.org/wiki/URL)path like/pathand/path/value. If you write it as/(/path|/path/value)/(/is an escaped slash), the regular expression processor will never match/path/value. Instead, we want to write it as/(/path/value|/path)/.
 
-
-
-**Capturing**
+## Capturing
 
 Capturing lets us store part of a matched string for reuse.
 
-
-
-**Numbered capture group**
+## Numbered capture group
 
 (A|B)1(abc)2
 
-
-
-**Named capture group**
+## Named capture group
 
 /(?<full_path>/path(?<subdir>/[^/]+))/is our updated regular expression with named capture groups. You'll notice that the way to define a named capture group is by using(?<name>at the beginning. You just need to replacename with whatever name you want to use for your capture group.
 
-
-
 Python's re module was the first to offer the solution to numbered capture group: named capturing groups and named backreferences.(?P<name>group)captures the match ofgroupinto the backreference "name".namemust be an alphanumeric sequence starting with a letter.groupcan be any regular expression. You can reference the contents of the group with the named backreference(?P=name). The question mark, P, angle brackets, and equals signs are all part of the syntax. Though the syntax for the named backreference uses parentheses, it's just a backreference that doesn't do any capturing or grouping. The[HTML tags example](https://www.regular-expressions.info/backref.html)can be written as<(?P<tag>**[**A-Z**][**A-Z0-9**]***)b**[**^>**]***>.*?</(?P=tag)>.
 
-
-
-**Anchors**
+## Anchors
 
 Used to match specific position inside a string
 
@@ -265,8 +219,6 @@ Types -
 
 2.  Dollar sign ( $ ) - represents the ending position of a string
 
-
-
 Ex -
 
 We have this regular expression:/^/path$/. This regular expression would only match the/pathstring. That's because we used both the starting and ending position anchors.
@@ -275,9 +227,7 @@ if we want to just match a string that starts with/path, we would just use the/^
 
 
 
-
-
-**Modifiers**
+## Modifiers
 
 There are a lot of different modifiers -
 
@@ -289,9 +239,7 @@ Ex - we have/this/ias a regular expression. It would match any variation of "thi
 
 3.  ( m ) - This modifier makes the caret and dollar sign match the starting and ending position of a line instead of a string.
 
-
-
-**Backreferences**
+## Backreferences
 
 Within the regular expression, you can use the backreference1to match the same text that was matched by the capturing group.(**[**abc**]**)=1matchesa=a,b=b, andc=c. It does not match anything else. If your regex has multiple capturing groups, they are numbered counting their opening parentheses from left to right.
 
@@ -299,17 +247,13 @@ Ex - (a)(b)/1/2
 
 Here /1 will have a as the value and /2 will have b as the value. The number corresponds to that number of the character class.
 
-
-
 0 - full matched text
 
 1 - group 1
 
 2 - group 2, and so on.
 
-
-
-**Advanced Topics**
+## Advanced Topics
 -   Conditionals
 -   Atomic Groups
 -   Named Capture
@@ -319,8 +263,6 @@ Here /1 will have a as the value and /2 will have b as the value. The number cor
 -   Predefined subroutines
 -   Branch reset
 -   Inline comments
-
-
 
 # Lookarounds
 
@@ -350,23 +292,17 @@ b.  Negative lookbehind **(?<! ... )**
 
 (?<!a)bfails to matchabc.
 
-
-
 Ex - This is justna simple sentence
 
-**Positive lookbehind**
+## Positive lookbehind
 
-**(?<=This is)**(.*)(?=sentence)
+## (?<=This is)(.*)(?=sentence)
 
-**Positive lookahead**
+## Positive lookahead
 
 (?<=This is)(.*)**(?=sentence)**
 
-
-
 Output - justna simple
-
-
 
 | **Lookaround** | **Name**            | **What it Does**                                                                       |
 |---------------|----------------|------------------------------------------|
@@ -375,67 +311,45 @@ Output - justna simple
 | (?!foo)        | Negative Lookahead  | Asserts that what immediately follows the current position in the string is not*foo*  |
 | (?<!foo)      | Negative Lookbehind | Asserts that what immediately precedes the current position in the string is not*foo* |
 
-
-
 A(?=w{6,10}z)
-
-
 
 [lazy quantifier requires backtracking at each step](http://www.rexegg.com/regex-quantifiers.html#lazy_expensive). (therefore lazy quantifier is not too efficient)
 
-
-
-**Non-Capturing group (?:regex)** - Non-capturing parentheses group the regex so you can apply regex operators, but do not capture anything.
+## Non-Capturing group (?:regex) - Non-capturing parentheses group the regex so you can apply regex operators, but do not capture anything.
 
 (?:abc){3}matchesabcabcabc. No groups.
 
-
-
-**Regex for Not Repeating Characters**
+## Regex for Not Repeating Characters
 
 (?!.*(.).*1)[ABCD]* - Gives Unique Characters
 
 (?!.*([^s]).*1)[ABCD]+ - Gives Unique Characters
 
-
-
 # Confusing Couples
 
-**Confusing Couple #1:(?: ... )and(?= ... )**
+## Confusing Couple #1:(?: ... )and(?= ... )
 
 These false twins have very different jobs. (?: ... ) contains a non-capturing group, while(?= ... )is a lookahead.
 
-
-
-**Confusing Couple #2:(?<= ... )and(?> ... )**
+## Confusing Couple #2:(?<= ... )and(?> ... )
 
 (?<= ... )is a lookbehind, so(?> ... )must be a lookahead, right? Not so.(?> ... )contains an atomic group. The actual lookahead marker is(?= ... ).
 
-
-
-**Confusing Couple #3:(?(1) ... )and(?1)**
+## Confusing Couple #3:(?(1) ... )and(?1)
 
 This pair is delightfully confusing. The first is a[conditional expression](http://www.rexegg.com/regex-disambiguation.html#conditionals)that tests whether Group 1 has been captured. The second is a[subroutine call](http://www.rexegg.com/regex-disambiguation.html#recursive)that matches the sub-pattern contained within the capturing parentheses of Group 1.
 
-
-
-**Non-Capturing Groups -**
+## Non-Capturing Groups -
 
 For instance(?:Bob|Chloe)matches*Bob*or*Chloe*---but the name is not captured.
 
-
-
 <http://www.rexegg.com/regex-disambiguation.html#lookarounds>
 
-
-
-**Points to remember**
+## Points to remember
 
 1.  Regex - (.){2}(.)12
 
 Solution - 11212 ( 1 only see the first capturing group once )
-
-
 
 2.  Use Lookarounds instead of direct matches and replacing with same letters, so that two consecutive matches can be found, i.e. overlapping patterns
 
@@ -451,15 +365,11 @@ s = re.sub(r' && ', ' and ', s)
 
 s = re.sub(r' || ', ' or ', s)
 
-
-
 In above example space was directly used to match the pattern instead of lookarounds, by which two consecutive matches are skipped.
 
+## Cheetsheet
 
-
-**Cheetsheet**
-
-**Quantifiers**
+## Quantifiers
 
 | n*    | 0 or moren |
 |--------|-------------|
@@ -469,15 +379,11 @@ In above example space was directly used to match the pattern instead of lookaro
 | n{2,}  | 2 or moren |
 | n{2,4} | 2, 3 or 4n |
 
-
-
 .* means "match whatever"
 
 .*? means "match the least of whatever"
 
-
-
-**Ranges**
+## Ranges
 
 | .          | Any character except new line (n)                     |
 |------------|---------------------------------------------------------|
@@ -490,17 +396,13 @@ In above example space was directly used to match the pattern instead of lookaro
 | [A-Z0-9] | Characters between A and Z, and numbers between 0 and 9 |
 | n        | nth group/sub pattern                                   |
 
-
-
-**Anchors**
+## Anchors
 
 | ^  | Start of line |
 |-----|---------------|
 | $  | End of line   |
 
-
-
-**Character Classes**
+## Character Classes
 
 | w | Word (a-z, A-Z, 0-9, including _ (underscore)) |
 |-----|-------------------------------------------------|
@@ -514,9 +416,7 @@ In above example space was directly used to match the pattern instead of lookaro
 | 0 | NUL character                                   |
 | n | New line                                        |
 
-
-
-**Assertions**
+## Assertions
 
 <table>
 <colgroup>
@@ -539,9 +439,7 @@ In above example space was directly used to match the pattern instead of lookaro
 </tbody>
 </table>
 
-
-
-**Others**
+## Others
 
 A - Anchor asserts that the current position is the beginning of the string
 
@@ -553,41 +451,29 @@ z - Anchor asserts that the current position is the end of the string
 
 <http://www.rexegg.com/regex-quickstart.html>
 
-
-
-**Glob patterns**
+## Glob patterns
 
 In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**glob**patterns specify sets of filenames with[wildcard characters](https://en.wikipedia.org/wiki/Wildcard_characters). For example, the Unix[Bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))commandmv*.txt textfiles/moves (mv) all files with names ending in.txtfrom the current directory to the directorytextfiles. Here,*is a wildcard standing for "any[string](https://en.wikipedia.org/wiki/String_(computer_science))of characters" and*.txtis a glob pattern. The other common wildcard is the question mark (?), which stands for one character.
 
-
-
 <https://en.wikipedia.org/wiki/Glob_(programming)>
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Regular_expression>
 
-
-
-**Learn**
+## Learn
 
 <https://carlalexander.ca/beginners-guide-regular-expressions
 
 <http://www.regular-expressions.info/tutorial.html>
 
-
-
-**Tools**
+## Tools
 
 <https://regex101.com
 
 <https://regexr.com>
 
-
-
-**Challenges**
+## Challenges
 
 <https://www.hackerrank.com/domains/regex/re-introduction>
 
@@ -599,15 +485,11 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 <http://play.inginf.units.it/#
 
-
-
-**Others**
+## Others
 
 <https://github.com/google/re2/wiki/Syntax>
 
-
-
-**View non-printable unicode characters**
+## View non-printable unicode characters
 
 <https://www.soscisurvey.de/tools/view-chars.php>
 

@@ -6,11 +6,9 @@ Modified: 2018-05-24 11:56:35 +0500
 
 ---
 
-**Finding nCr for given numbers**
+## Finding nCr for given numbers
 
 import math
-
-
 
 def nCr(n,r):
 
@@ -18,39 +16,27 @@ f = math.factorial
 
 return f(n) // f(r) // f(n-r)
 
-
-
 Use memoization if large number of calls is to be made
 
-
-
-**Permutation**
+## Permutation
 
 First import itertools package to implement permutations method in python. This method takes a list as an input and return an object list of tuples that contain all permutation in a list form.
-
-
 
 # A Python program to print all
 
 # permutations using library function
 
-**from** itertools **import** permutations
-
-
+## from** itertools **import permutations
 
 # Get all permutations of [1, 2, 3]
 
 perm **=** permutations([1, 2, 3])
 
-
-
 # Print the obtained permutations
 
-**for** i **in** list(perm):
+## for** i **in list(perm):
 
 print i
-
-
 
 Output
 
@@ -61,8 +47,6 @@ Output
 (3, 1, 2)
 (3, 2, 1)
 
-
-
 It generates n! permutations if length of input sequence is n.
 
 If want want to get permutations of length L then implement it in this way.
@@ -71,9 +55,7 @@ If want want to get permutations of length L then implement it in this way.
 
 # permutations of given length
 
-**from** itertools **import** permutations
-
-
+## from** itertools **import permutations
 
 # Get all permutations of length 2
 
@@ -81,15 +63,11 @@ If want want to get permutations of length L then implement it in this way.
 
 perm **=** permutations([1, 2, 3], 2)
 
-
-
 # Print the obtained permutations
 
-**for** i **in** list(perm):
+## for** i **in list(perm):
 
 print i
-
-
 
 Output
 
@@ -102,21 +80,15 @@ Output
 
 It generate nCr * r! permutations if length of input sequence is n and input parameter is r.
 
-
-
-**Combination**
+## Combination
 
 This method takes a list and r (length) as an input and return an object list of tuples which contain all possible combination of length r in a list form.
-
-
 
 # A Python program to print all
 
 # combinations of given length
 
-**from** itertools **import** combinations
-
-
+## from** itertools **import combinations
 
 # Get all combinations of [1, 2, 3]
 
@@ -124,15 +96,11 @@ This method takes a list and r (length) as an input and return an object list of
 
 comb **=** combinations([1, 2, 3], 2)
 
-
-
 # Print the obtained combinations
 
-**for** i **in** list(comb):
+## for** i **in list(comb):
 
 print i
-
-
 
 Output
 
@@ -146,9 +114,7 @@ Output
 
 # of given length with unsorted input.
 
-**from** itertools **import** combinations
-
-
+## from** itertools **import combinations
 
 # Get all combinations of [2, 1, 3]
 
@@ -156,15 +122,11 @@ Output
 
 comb **=** combinations([2, 1, 3], 2)
 
-
-
 # Print the obtained combinations
 
-**for** i **in** list(comb):
+## for** i **in list(comb):
 
 print i
-
-
 
 Output
 
@@ -178,9 +140,7 @@ Output
 
 # of given length with duplicates in input
 
-**from** itertools **import** combinations
-
-
+## from** itertools **import combinations
 
 # Get all combinations of [1, 1, 3]
 
@@ -188,15 +148,11 @@ Output
 
 comb **=** combinations([1, 1, 3], 2)
 
-
-
 # Print the obtained combinations
 
-**for** i **in** list(comb):
+## for** i **in list(comb):
 
 print i
-
-
 
 Output
 
@@ -212,23 +168,17 @@ Output
 
 # also included
 
-**from** itertools **import** combinations_with_replacement
-
-
+## from** itertools **import combinations_with_replacement
 
 # Get all combinations of [1, 2, 3] and length 2
 
 comb **=** combinations_with_replacement([1, 2, 3], 2)
 
-
-
 # Print the obtained combinations
 
-**for** i **in** list(comb):
+## for** i **in list(comb):
 
 print i
-
-
 
 Output
 

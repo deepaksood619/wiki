@@ -6,10 +6,10 @@ Modified: 2021-10-15 11:52:59 +0500
 
 ---
 
-**Gaussian Noise**
+## Gaussian Noise
 
-**Gaussian noise**is[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1)[[2]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In other words, the values that the noise can take on are Gaussian-distributed.
-![The probability density function p of a Gaussian random variable z is given by: 1 PG (z) --- a 27T where z represents the grey level, the mean value and the standard deviation. ](media/Other-Statistics-image1.png)
+## Gaussian noiseis[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1)[[2]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In other words, the values that the noise can take on are Gaussian-distributed.
+![image](media/Other-Statistics-image1.png)
 A special case is*white Gaussian noise*, in which the values at any pair of times are[identically distributed](https://en.wikipedia.org/wiki/Iid)and[statistically independent](https://en.wikipedia.org/wiki/Statistically_independent)(and hence[uncorrelated](https://en.wikipedia.org/wiki/Uncorrelated)). In[communication channel](https://en.wikipedia.org/wiki/Channel_(communications))testing and modelling, Gaussian noise is used as additive[white noise](https://en.wikipedia.org/wiki/White_noise)to generate[additive white Gaussian noise](https://en.wikipedia.org/wiki/Additive_white_Gaussian_noise).
 <https://en.wikipedia.org/wiki/Gaussian_noise>
 
@@ -34,18 +34,18 @@ In[mathematics](https://en.wikipedia.org/wiki/Mathematics), a**monotonic functio
 ## Null Hypothesis**
 -   (in a statistical test) the hypothesis that there is no significant difference between specified populations, any observed difference being due to sampling or experimental error.
 -   The idea that there's no effect
-**Alternative hypothesis**
+## Alternative hypothesis
 -   is one that states that sample observations are influenced by some non-random cause. From an A/B test perspective, the alternative hypothesis states that thereisa difference between the control and variant group.
-**F-distribution**
+## F-distribution
 
 In[probability theory](https://en.wikipedia.org/wiki/Probability_theory)and[statistics](https://en.wikipedia.org/wiki/Statistics), the***F*-distribution**, also known as**Snedecor's*F*distribution**or the**Fisher--Snedecor distribution**(after[Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher)and[George W. Snedecor](https://en.wikipedia.org/wiki/George_W._Snedecor)) is a[continuous probability distribution](https://en.wikipedia.org/wiki/Continuous_probability_distribution)that arises frequently as the[null distribution](https://en.wikipedia.org/wiki/Null_distribution)of a[test statistic](https://en.wikipedia.org/wiki/Test_statistic), most notably in the[analysis of variance](https://en.wikipedia.org/wiki/Analysis_of_variance)(ANOVA), e.g.,[*F*-test](https://en.wikipedia.org/wiki/F-test).
-**F-test**
+## F-test
 
 An***F*-test**is any[statistical test](https://en.wikipedia.org/wiki/Statistical_test)in which the[test statistic](https://en.wikipedia.org/wiki/Test_statistic)has an[*F*-distribution](https://en.wikipedia.org/wiki/F-distribution)under the[null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis). It is most often used when[comparing statistical models](https://en.wikipedia.org/wiki/Model_selection)that have been fitted to a[data](https://en.wikipedia.org/wiki/Data)set, in order to identify the model that best fits the[population](https://en.wikipedia.org/wiki/Population_(statistics))from which the data were sampled. Exact "*F*-tests" mainly arise when the models have been fitted to the data using[least squares](https://en.wikipedia.org/wiki/Least_squares).
-**F1-score**
+## F1-score
 
 In[statistical](https://en.wikipedia.org/wiki/Statistics)analysis of[binary classification](https://en.wikipedia.org/wiki/Binary_classification), the**F~1~score**(also**F-score**or**F-measure**) is a measure of a test's accuracy. It considers both the[precision](https://en.wikipedia.org/wiki/Precision_(information_retrieval))*p*and the[recall](https://en.wikipedia.org/wiki/Recall_(information_retrieval))*r*of the test to compute the score:*p*is the number of correct positive results divided by the number of all positive results returned by the classifier, and*r*is the number of correct positive results divided by the number of all relevant samples (all samples that should have been identified as positive). The F~1~score is the[harmonic average](https://en.wikipedia.org/wiki/Harmonic_mean)of the[precision and recall](https://en.wikipedia.org/wiki/Precision_and_recall), where an F~1~score reaches its best value at 1 (perfect precision and recall) and worst at 0.
-**Moving Average (MA)**
+## Moving Average (MA)
 
 In[statistics](https://en.wikipedia.org/wiki/Statistics), a**moving average**(**rolling average**or**running average**) is a calculation to analyze data points by creating series of[averages](https://en.wikipedia.org/wiki/Average)of different subsets of the full data set. It is also called a**moving mean**(**MM**)or**rolling mean**and is a type of[finite impulse response](https://en.wikipedia.org/wiki/Finite_impulse_response) filter.
 Given a series of numbers and a fixed subset size, the first element of the moving average is obtained by taking the average of the initial fixed subset of the number series. Then the subset is modified by "shifting forward"; that is, excluding the first number of the series and including the next value in the subset.
@@ -87,9 +87,9 @@ Pivot tables are a technique in[data processing](https://en.wikipedia.org/wiki/D
 This plot draws a line showing us what percent of our data falls below a certain value on the x-axis. Here the x-axis displays the value of the data and the y-axis the percent of our data that falls below a specific value on the x-axis.
 On the chart below, take the point 6 on the x-axis and use your finger to trace a straight path up until you hit the line---the value on the y-axis at the point you hit the line is about 75%. So 75% of the data in the example below are lower than 6.
 
-![pasted image 0 (8)](media/Other-Statistics-image6.png)
+![image](media/Other-Statistics-image6.png)
 
-**Gini Coefficient**
+## Gini Coefficient
 
 In[economics](https://en.wikipedia.org/wiki/Economics), theGini coefficient, sometimes called theGini indexorGini ratio, is a[measure of statistical dispersion](https://en.wikipedia.org/wiki/Statistical_dispersion#Measures_of_statistical_dispersion)intended to represent the[income](https://en.wikipedia.org/wiki/Income_distribution)or[wealth distribution](https://en.wikipedia.org/wiki/Wealth_distribution)of a nation's residents, and is the most commonly used measurement of[inequality](https://en.wikipedia.org/wiki/Economic_inequality). It was developed by the Italian [statistician](https://en.wikipedia.org/wiki/Statistics) and [sociologist](https://en.wikipedia.org/wiki/Sociology) [Corrado Gini](https://en.wikipedia.org/wiki/Corrado_Gini) and published in his 1912 paperVariability and Mutability.
 The Gini coefficient measures the inequality among values of a[frequency distribution](https://en.wikipedia.org/wiki/Frequency_distribution)(for example, levels of[income](https://en.wikipedia.org/wiki/Income)). A Gini coefficient of zero expresses perfect equality, where all values are the same (for example, where everyone has the same income). A Gini coefficient of one (or 100%) expresses maximal inequality among values (e.g., for a large number of people, where only one person has all the income or consumption, and all others have none, the Gini coefficient will be very nearly one).For larger groups, values close to one are very unlikely in practice. Given the normalization of both the cumulative population and the cumulative share of income used to calculate the Gini coefficient, the measure is not overly sensitive to the specifics of the income distribution, but rather only on how incomes vary relative to the other members of a population. The exception to this is in the[redistribution of income](https://en.wikipedia.org/wiki/Redistribution_of_income)resulting in a minimum income for all people. When the population is sorted, if their income distribution were to approximate a well-known function, then some representative values could be calculated.
@@ -103,13 +103,13 @@ There are some issues in interpreting a Gini coefficient. The same value may res
 
 The Lorenz curve is a graphical representation of[income inequality](https://www.investopedia.com/terms/i/income-inequality.asp)or wealth inequality developed by American economistMax Lorenz in 1905. The graph plotspercentiles of the population on the horizontal axis according to income or wealth. It plots cumulativeincome or wealth on the vertical axis, so that an x-value of 45 and a y-value of 14.2 would mean that the bottom 45% of the population controls 14.2% of the total income or wealth.
 
-![00 ロ ロ ロ 000000 ロ 00 ロ 000000 ロ ロ 0 00 ロ ロ 00 ロ 000 ロ ロ 00 ロ ロ 00 ロ ロ 00 ろ 0 ー 0 回 ロ ロ ロ 回 ロ ロ 00 ロ ロ 00 ロ 000 ロ ロ 0 0 ロ ー 0 ロ ロ ロ ロ 00000 ロ 000 ロ ロ 00 ロ ロ ろ 0 ロ ロ ! 3WO)Nl ち V ま 岩 ミ そ ) 缶 d 00 ロ ロ 00 ロ ロ 00 ロ ロ 00 ロ ロ 00 ろ 000 ロ 000 ロ ロ 0 ロ ロ 00 ロ 000 ロ ロ 0 ろ 0000 ロ リ 00 ロ ロ ロ 00 ロ 00 ロ ロ 0 口 ろ 0 ロ ロ ロ 0 ー 劇 00 ロ ロ 0 ロ ロ ロ 0 ロ ロ ′ 、 0 0 回 ロ ロ ロ 00 ロ 0 回 00 回 ロ ロ 0 0 ロ 00 ロ ロ 00 ロ 0 ロ 、 0 ロ 0 0 ロ ロ 0 ロ ロ 0 ロ ロ ロ 00 ロ 0 ロ 澄 ろ 000 ロ 直 期 0 ロ ′ ロ ロ ロ ロ 0 ロ ロ ロ 0 ロ ロ 0 0000 ロ 可 延 00 00 ロ ロ 00 ロ ロ 0000 00 ロ ロ 0 ロ 0 0 0 宿 0 ロ ロ ロ ロ ロ ロ ロ ロ ロ ろ 0 ロ ロ ロ ロ ロ ロ 0 ・ ク ■ 0 ロ ロ ロ 0 ロ ロ ロ 0 ろ 0 ロ ロ ロ ロ 00 ロ 0 ク ■ ゝ ■ 0 ロ ロ 00 ロ ロ ロ 0 ロ 000 ロ 00 ′ 2 、 - ■ ■ 回 ロ ロ ロ 0 000 ロ ロ 0 ′ ロ 0 ロ レ 0 ロ ロ 0 ロ ロ ロ 0 0 ロ ロ 回 固 ロ ロ 00 ロ ロ 000 ロ 000 ロ PERCENTAGE OF HOUSEHOLDS 100 ](media/Other-Statistics-image7.jpeg)
+![image](media/Other-Statistics-image7.jpeg)
 <https://www.investopedia.com/terms/l/lorenz-curve.asp>
 
 ## Rank Order Scale / Rank Ordering / Ranking scale**
 
 Rank order items are analyzed using[Spearman](http://changingminds.org/explanations/research/analysis/spearman.htm)or[Kendall](http://changingminds.org/explanations/research/analysis/kendall.htm)correlation.
-**Statistical Power**
+## Statistical Power
 
 <https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python>
 

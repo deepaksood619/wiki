@@ -8,13 +8,9 @@ Modified: 2020-04-01 21:51:47 +0500
 
 AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. With CodeBuild, you don't need to provision, manage, and scale your own build servers. CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left waiting in a queue.
 
-
-
-**Build Config**
+## Build Config
 
 version: 0.2
-
-
 
 phases:
 
@@ -58,9 +54,7 @@ commands:
 
 - docker push $REPOSITORY_URI:$IMAGE_TAG
 
-
-
-**IAM auth**
+## IAM auth
 
 {
 "Version": "2012-10-17",
@@ -80,17 +74,13 @@ commands:
 ]
 }
 
-
-
 <https://dev.to/raphael_jambalos/automate-docker-build-with-aws-codebuild-9om>
 
 <https://docs.aws.amazon.com/codebuild/latest/userguide/sample-docker.html>
 
 <https://dev.to/kylegalbraith/how-to-build-your-docker-images-in-aws-with-ease-3174>
 
-
-
-**Caching docker builds**
+## Caching docker builds
 
 <https://aws.amazon.com/blogs/devops/improve-build-performance-and-save-time-using-local-caching-in-aws-codebuild
 

@@ -16,7 +16,7 @@ I = Number of internal nodes
 4.  If tree is a complete binary tree, then total number of nodes at last level is (N+1)/2, where N is the total number of nodes.
 
     a.  If tree is a complete binary tree, then total number of nodes at last level is 2 ^ (N-1), where N is the depth of the tree starting from 1
-**Complete tree -** Perfectly balanced, except for bottom level
+## Complete tree - Perfectly balanced, except for bottom level
 
 Property
 -   Height of complete tree with N nodes is floor(lg N)
@@ -51,12 +51,12 @@ Terminology summary
 -   Leaf is a node that does not have a child node in the tree
 -   Height is the length of the longest path to a leaf
 -   Depth is the length of the path to its root
-**Interview Question**
+## Interview Question
 -   Find the height of a binary tree
 -   Find kth maximum value in a binary search tree
 -   Find nodes at "k" distance from the root
 -   Find ancestors of a given node in a binary tree
-**Fenwick Tree (Binary Indexed Trees)**
+## Fenwick Tree (Binary Indexed Trees)
 
 A**Fenwick tree**or**binary indexed tree**is a data structure that can efficiently update elements and calculate[prefix sums](https://en.wikipedia.org/wiki/Prefix_sum)in a table of numbers.
 When compared with a flat array of numbers, the Fenwick tree achieves a much better balance between two operations: element update and prefix sum calculation. In a flat array ofnnumbers, you can either store the elements, or the prefix sums. In the first case, computing prefix sums requires linear time; in the second case, updating the array elements requires linear time (in both cases, the other operation can be performed in constant time). Fenwick trees allow both operations to be performed inO(log n)time. This is achieved by representing the numbers as a[tree](https://en.wikipedia.org/wiki/Tree_(data_structure)), where the value of each node is the sum of the numbers in that subtree. The tree structure allows operations to be performed using onlyO(log n)node accesses.

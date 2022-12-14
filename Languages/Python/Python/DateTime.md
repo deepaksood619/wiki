@@ -6,15 +6,13 @@ Modified: 2021-05-07 11:23:41 +0500
 
 ---
 
-**Concepts**
+## Concepts
 
 1.  **Tick**
 
 2.  **TimeTuple**
 
-
-
-**Modules -**
+## Modules -
 
 1.  **Time**
 
@@ -26,19 +24,13 @@ Modified: 2021-05-07 11:23:41 +0500
 
 5.  **Calendar**
 
-
-
 1.  **Time -**
-
-
 
 Import time
 
 Time.time() - Gives current time (in number of ticks since 12:00am, January 1, 1970)
 
-
-
-**Time a running process**
+## Time a running process
 
 import time
 
@@ -48,28 +40,20 @@ end_time = time.time()
 
 print("time taken = %4.4f seconds" % (end_time-start_time))
 
+## start = time.perf_counter()
 
+## elapsed = time.perf_counter()- start
 
-**start = time.perf_counter()**
+## print(f"finished in {elapsed:.02f}s")
 
-**elapsed = time.perf_counter()- start**
-
-**print(f"finished in {elapsed:.02f}s")**
-
-
-
-**Python Timers (To monitor performance)**
+## Python Timers (To monitor performance)
 -   [monotonic()](https://docs.python.org/3/library/time.html#time.monotonic)
 -   [perf_counter()](https://docs.python.org/3/library/time.html#time.perf_counter)
 -   [process_time()](https://docs.python.org/3/library/time.html#time.process_time)
 -   [time()](https://docs.python.org/3/library/time.html#time.time)
 -   thread_time()
 
-
-
 <https://realpython.com/python-timer
-
-
 
 2.  **DateTime**
 
@@ -78,8 +62,6 @@ There are two kinds of date and time objects: "naive" and "aware".
 a.  An aware object has sufficient knowledge of applicable algorithmic and political time adjustments, such as time zone and daylight saving time information, to locate itself relative to other aware objects. An aware object is used to represent a specific moment in time that is not open to interpretation
 
 b.  A naive object does not contain enough information to unambiguously locate itself relative to other date/time objects. Whether a naive object represents Coordinated Universal Time (UTC), local time, or time in some other timezone is purely up to the program, just like it is up to the program whether a particular number represents metres, miles, or mass. Naive objects are easy to understand and to work with, at the cost of ignoring some aspects of reality.
-
-
 
 i.  Class datetime.date
 
@@ -93,31 +75,21 @@ v.  Class datetime.tzinfo
 
 vi. Class datetime.timezone
 
-
-
 Objects of these types are immutable.
 
 Objects of the date type are always naïve
 
+## 2.1. Date Objects
 
-
-**2.1. Date Objects**
-
-
-
-**Ex -**
+## Ex -
 
 From datetime import date
 
 From datetime import timedelta
 
-
-
 Today = date.today()
 
 Yesterday = date.today() - timedelta(-1)
-
-
 
 Object calling - datetime.datetime.now().date() [Gives today's date]
 
@@ -125,22 +97,16 @@ datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
 
 datetime.strptime('2020-02-01', '%Y-%m-%d')
 
+## cur_date = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
 
-
-**cur_date = datetime.today().strftime("%Y-%m-%d %H:%M:%S")**
-
-
-
-**2.2. Date in ISOFormat**
+## 2.2. Date in ISOFormat
 
 >>>from datetime import datetime
 
-**>>>print(datetime.now().isoformat())**
+## >>>print(datetime.now().isoformat())
 '2018-03-07T10:09:40.227229'
 
-
-
-**strftime format codes**
+## strftime format codes
 
 <table>
 <colgroup>
@@ -288,8 +254,6 @@ datetime.strptime('2020-02-01', '%Y-%m-%d')
 </tbody>
 </table>
 
-
-
 Several additional directives not required by the C89 standard are included for convenience. These parameters all correspond to ISO 8601 date values.
 
 | **Directive** | **Meaning**                                                                                                       | **Example**                                  |
@@ -297,7 +261,5 @@ Several additional directives not required by the C89 standard are included for 
 | %G            | ISO 8601 year with century representing the year that contains the greater part of the ISO week (%V).             | 0001, 0002, ..., 2013, 2014, ..., 9998, 9999 |
 | %u            | ISO 8601 weekday as a decimal number where 1 is Monday.                                                           | 1, 2, ..., 7                                 |
 | %V            | ISO 8601 week as a decimal number with Monday as the first day of the week. Week 01 is the week containing Jan 4. | 01, 02, ..., 53                              |
-
-
 
 <https://docs.python.org/3/library/datetime.html>

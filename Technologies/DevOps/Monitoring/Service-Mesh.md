@@ -8,17 +8,11 @@ Modified: 2021-03-14 13:54:51 +0500
 
 A service mesh is a dedicated infrastructure layer for handling service-to-service communication. It's responsible for the reliable delivery of requests through the complex topology of services that comprise a modern, cloud native application. In practice, the service mesh is typically implemented as an array of lightweight network proxies that are deployed alongside application code, without the application needing to be aware.
 
-
-
 A service mesh allows applications to offload these capabilities from application-level libraries and allow developers to focus on differentiating business logic.
-
-
 
 The concept of the service mesh as a separate layer is tied to the rise of the cloud native application. In the cloud native model, a single application might consist of hundreds of services; each service might have thousands of instances; and each of those instances might be in a constantly-changing state as they are dynamically scheduled an orchestrator like Kubernetes. Not only is service communication in this world incredibly complex, it's a pervasive and fundamental part of runtime behavior. Managing it is vital to ensuring end-to-end performance and reliability.
 
-
-
-**Features**
+## Features
 -   Traffic monitoring
 -   Access control
 -   Service discovery
@@ -33,9 +27,7 @@ The concept of the service mesh as a separate layer is tied to the rise of the c
 -   Dynamically shift traffic
 -   Fail over between datacenters
 
-
-
-**Is the Service Mesh a Networking Model?**
+## Is the Service Mesh a Networking Model?
 
 The service mesh is a networking model that sits at a layer of abstraction above TCP/IP. It assumes that the underlying L3/L4 network is present and capable of delivering bytes from point to point. (It also assumes that this network, as with every other aspect of the environment, is unreliable; the service mesh must therefore also be capable of handling network failures.)
 
@@ -43,22 +35,16 @@ In some ways, the service mesh is analogous to TCP/IP. Just as the TCP stack abs
 
 Unlike TCP, the service mesh has a significant goal beyond "just make it work": it provides a uniform, application-wide point for introducing visibility and control into the application runtime. The explicit goal of the service mesh is to move service communication out of the realm of the invisible, implied infrastructure, and into the role of afirst-class member of the ecosystem---where it can be monitored, managed and controlled.
 
-
-
-**Tools**
+## Tools
 -   Istio
 -   Linkerd
 -   Kuma
 
-
-
-**Kuma**
+## Kuma
 
 <https://kuma.io/docs/0.1.2/#why-kuma>
 
-
-
-**References**
+## References
 
 <https://dzone.com/articles/whats-a-service-mesh-and-why-do-i-need-one>
 

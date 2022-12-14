@@ -8,8 +8,6 @@ Modified: 2020-02-11 18:41:03 +0500
 
 Usage: terraform [-version] [-help] <command> [args]
 
-
-
 The available commands for execution are listed below.
 
 The most common, useful commands are shown first, followed by
@@ -20,23 +18,19 @@ started with Terraform, stick with the common commands. For the
 
 other commands, please read the help and docs before usage.
 
-
-
 Common commands:
 
-**apply Builds or changes infrastructure**
+## apply Builds or changes infrastructure
 
 The prefix-/+means that Terraform will destroy and recreate the resource, rather than updating it in-place.
 
-
-
 console Interactive console for Terraform interpolations
 
-**destroy Destroy Terraform-managed infrastructure**
+## destroy Destroy Terraform-managed infrastructure
 
 env Workspace management
 
-**fmt Rewrites config files to canonical format**
+## fmt Rewrites config files to canonical format
 
 get Download and install modules for the configuration
 
@@ -44,11 +38,9 @@ graph Create a visual graph of Terraform resources
 
 import Import existing infrastructure into Terraform
 
-**init Initialize a Terraform working directory**
+## init Initialize a Terraform working directory
 
 terraform initto download the latest version of the provider and build the.terraformdirectory.
-
-
 
 output Read an output from a state file
 
@@ -60,11 +52,11 @@ push Upload this Terraform module to Atlas to run
 
 refresh Update local state file against real resources
 
-**show Inspect Terraform state or plan**
+## show Inspect Terraform state or plan
 
-**state This command has subcommands for advanced state management.**
+## state This command has subcommands for advanced state management.
 
-**list List resources in the state**
+## list List resources in the state
 
 mv Move an item in the state
 
@@ -76,23 +68,19 @@ rm Remove instances from the state
 
 show Show a resource in the state
 
-
-
-**taint Manually mark a resource for recreation**
+## taint Manually mark a resource for recreation
 
 terraform taint aws_instance.example
 
-**untaint Manually unmark a resource as tainted**
+## untaint Manually unmark a resource as tainted
 
 terraform untaint aws_instance.example
 
-**validate Validates the Terraform files**
+## validate Validates the Terraform files
 
 version Prints the Terraform version
 
 workspace Workspace management
-
-
 
 All other commands:
 

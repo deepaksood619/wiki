@@ -6,7 +6,7 @@ Modified: 2020-10-02 20:17:17 +0500
 
 ---
 
-**brew install protobuf**
+## brew install protobuf
 
 >>> protoc
 

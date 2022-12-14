@@ -6,29 +6,23 @@ Modified: 2020-05-05 21:28:03 +0500
 
 ---
 
-**Kafka: a streaming data platform, Unix Pipelines Analogy**
+## Kafka: a streaming data platform, Unix Pipelines Analogy
 -   Kafka Core is the distributed, durable equivalent of Unix pipes. Use it to connect and compose your large-scale data applications
 -   Kafka Streams are the commands of your Unix pipelines. Use it to transform data stored in Kafka
 -   Kafka Connect is the I/O redirection in your Unix pipelines. Use it to get your data into an out of Kafka.
 
-
-
-**Characteristics**
+## Characteristics
 -   It is a distributed and partitioned messaging system
 -   It is highly fault-tolerant
 -   It is highly scalable
 -   It can process and send millions of messages per second to several receivers
 
-
-
-**History**
+## History
 -   Originally developed by LinkedIn and later, handed over to the open source community in early 2011
 -   It became a main Apache project in October, 2012
 -   A stable Apache Kafka version 0.8.2.0 was release in Feb, 2015.
 
-
-
-**Kafka Data Model**
+## Kafka Data Model
 
 The Kafka data model consists of messages and topics
 -   Messages represent information such as, lines in a log file, a row of stock market data, or an error message from a system
@@ -38,9 +32,7 @@ The Kafka data model consists of messages and topics
 -   The processes or servers within Kafka that process the messages are known as brokers.
 -   A Kafka cluster consists of a set of brokers that process the messages
 
-
-
-**Topics**
+## Topics
 -   A topic is a category of messages in Kafka
 -   The producers publish the messages into topics
 -   The consumers read the messages from topics
@@ -50,18 +42,14 @@ The Kafka data model consists of messages and topics
 -   Each message is identified by its offset in the partition
 -   Messages are added at one end of the partition and consumed at the other
 
-
-
-**Partitions**
+## Partitions
 -   Topics are divided into partitions, which are the unit of parallelism in Kafka
     -   Partitions allow messages in a topic to be distributed to multiple servers
     -   A topic can have any number of partitions
     -   Each partition should fit in a single Kafka server
     -   The number of partitions decide the parallelism of the topic
 
-
-
-**Partiton distribution**
+## Partiton distribution
 -   Partitions can be distributed across the Kafka cluster
 -   Each Kafka server may handle one or more partitions
 -   A partition can be replicated across serveral servers for fault-tolerance
@@ -70,9 +58,7 @@ The Kafka data model consists of messages and topics
 -   If a leader fails, one of the followers automatically become the leader.
 -   Zookeeper is used for the leader selection
 
-
-
-**Producers**
+## Producers
 
 The producer is the creator of the message in Kafka
 -   The producers place the message to a particular topic
@@ -80,9 +66,7 @@ The producer is the creator of the message in Kafka
 -   Topics should already exist before a message is placed by the producer
 -   Messages are added at one end of the partition
 
-
-
-**Consumers**
+## Consumers
 
 The consumer is the receiver of the message in Kafka
 -   Each consumer belongs to a consumer group
@@ -91,9 +75,7 @@ The consumer is the receiver of the message in Kafka
 -   A message is sent to all the consumers in a consumer group
 -   The consumer groups are used to control the messaging system
 
-
-
-**Kafka Architecture**
+## Kafka Architecture
 
 Kafka consists of brokers that take messages from the producers and add to a partition of a topic. Brokers provide the messages to the consumers from the partitions.
 -   A topic is divided into multiple partitions
@@ -101,9 +83,7 @@ Kafka consists of brokers that take messages from the producers and add to a par
 -   Each partition acts as a message queue
 -   Consumers are divided into consumer groups
 
-
-
-**Types of messaging systems**
+## Types of messaging systems
 -   Kafka architecture supports the publish-subscribe and queue system
 -   Publish-subscribe system
     -   Each message is received by all the subscribers
@@ -114,31 +94,23 @@ Kafka consists of brokers that take messages from the producers and add to a par
     -   Each message is consumed by any one of the available consumers
     -   Messages are consumed in the same order that they are received
 
-
-
 ![Example: Queue System Broker Producer Big Data Computing Broker Topic: simple Partition 0 Consumer Group Consumer I Consumer 2 Consumer 3 Introduction to Kafka ](../../media/Technologies-Kafka-Intro-to-Kafka-image1.png)
 
 ![Example: Publish-Subscribe System Producer Broker Topic: simple Partition 0 Big Data Computing Broker Consumer Group 1 Consumer I Cmsumer Group 2 Consumer 2 Consumer Group 3 Consumer 3 Introduction to Kafka ](../../media/Technologies-Kafka-Intro-to-Kafka-image2.png)
 
-
-
-**Brokers**
+## Brokers
 
 Brokers are the Kafka processes that process the messages in Kafka
 -   Each machine in the cluster can run one broker
 -   They coordinate among each other using Zookeeper
 -   One broker acts as a leader for a partition and handles the delivery and persistence, where as, the others act as followers
 
-
-
-**Kafka Guarantees**
+## Kafka Guarantees
 -   Messages sent by a producer to a topic and a partition are appended in the same order
 -   A consumer instance gets the messages in the same order as they are produced
 -   A topic with replication factor N, tolerates upto N-1 server failures
 
-
-
-**Replication in Kafka**
+## Replication in Kafka
 
 Kafka uses the primary-backup method of replication
 -   One machine (one replica) is called a leader and is chosen as the primary; the remaining machines (replicas) are chosen as the followers and act as backups
@@ -147,9 +119,7 @@ Kafka uses the primary-backup method of replication
 -   If a replica is down, it is skipped for the write until it comes back
 -   If the leader fails, one of the followers will be chosen as the new leader; this mechanism can tolerate n-1 failures if the replication factor is n
 
-
-
-**Persistence in Kafka**
+## Persistence in Kafka
 
 Kafka uses the Linux file system for persistence of messages
 -   Persistence ensures no messages are lost
@@ -159,9 +129,7 @@ Kafka uses the Linux file system for persistence of messages
 -   Message sets can be compressed to reduce network bandwidth
 -   A standarized binary message format is used among producers, brokers, and consumers to minimize data modification
 
-
-
-**3 major components:**
+## 3 major components:
 
 1.  **Kafka Core:** A central hub to transport and store event streams in real-time
 
@@ -169,9 +137,7 @@ Kafka uses the Linux file system for persistence of messages
 
 3.  **Kafka Streams:** A Java library to process event streams live as they occur
 
-
-
-**Conclusion**
+## Conclusion
 -   Kafka is a high-performance, real-time messaging system
 -   Kafka can be used as an external commit log for distributed systems
 -   Kafka data model consists of messages and topics

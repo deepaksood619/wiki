@@ -12,11 +12,9 @@ Modified: 2021-03-20 13:31:05 +0500
 
 3.  Compare the output with an expected result
 
+## Testing a function
 
-
-**Testing a function**
-
-**full_names.py**
+## full_names.py
 
 def get_full_name(first, last):
 
@@ -24,21 +22,15 @@ full_name = f'{first} {last}'
 
 return full_name.title()
 
-
-
 class Accountant:
 
 def __init__(self, balance=0):
 
 self.balance = balance
 
-
-
 def deposit(self, amount):
 
 self.balance += amount
-
-
 
 def withdraw(self, amount):
 
@@ -46,9 +38,7 @@ self.balance -= amount
 
 
 
-
-
-**tests.py**
+## tests.py
 
 # To build a test case, make a class that inherits from unittest.TestCase and write methods that **begin with test_**
 
@@ -58,8 +48,6 @@ from full_names import get_full_name
 
 from full_names import Accountant
 
-
-
 class NamesTestCase(unittest.TestCase):
 
 def test_first_last(self):
@@ -67,8 +55,6 @@ def test_first_last(self):
 full_name = get_full_name('deepak', 'sood')
 
 self.assertEqual(full_name, 'Deepak Sood')
-
-
 
 # Testing a class is similar to testing a function, since we mostly test our methods
 
@@ -80,19 +66,13 @@ acc = Accountant()
 
 self.assertEqual(acc.balance, 0)
 
-
-
 acc = Accountant(100)
 
 self.assertEqual(acc.balance, 100)
 
-
-
 # The setUp() method
 
 # When testing a class, we usually have to make an instance of the class. The setUp() method is run before every test. Any instances we make in setUp() are available in every test you write.
-
-
 
 class AccountantTest(unittest.TestCase):
 
@@ -100,31 +80,21 @@ def setUp(self):
 
 self.acc = Accountant()
 
-
-
 def test_initial_balance(self):
 
 self.assertEqual(self.acc.balance, 0)
-
-
 
 acc = Accountant(100)
 
 self.assertEqual(acc.balance, 100)
 
-
-
 unittest.main()
 
+## # run - python tests.py
 
+## # python -m unittest test_circles
 
-**# run - python tests.py**
-
-**# python -m unittest test_circles**
-
-
-
-**Test Runners**
+## Test Runners
 
 There are many test runners available for Python.The one built into the Python standard library is calledunittest
 
@@ -135,13 +105,9 @@ unittestrequires that:
 -   You put your tests into classes as methods
 -   You use a series of special assertion methods in theunittest.TestCaseclass instead of the built-inassertstatement
 
-
-
 [unittest.mock](https://docs.python.org/3/library/unittest.mock.html#module-unittest.mock)is a library for testing in Python. As of Python 3.3, it is available in the[standard library](https://docs.python.org/dev/library/unittest.mock).
 
-
-
-**Disadvantages**
+## Disadvantages
 
 unittest feels pretty similar to[JUnit](https://en.wikipedia.org/wiki/JUnit)which I would say is a disadvantage. Python is a different language with different patterns and expectations. One weirdness is that you have to put your tests in a class, even if you don't need to[setUp()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp)or[tearDown()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown)anything. It uses camelCase for the method names which is against the Python conventions. You cannot simplyassert Expression, but instead, have to useself.assertEqual,self.assertTrue, ... (see the[complete list of assert methods](https://docs.python.org/3/library/unittest.html#assert-methods)). And the error messages are not as expressive as the ones you get from Pytest.
 
@@ -155,11 +121,7 @@ PyUnit supports fixtures, test cases, test suites and a test runner for the auto
 
 Nose's built in plugins helps you with output capture, code coverage, doctests, etc. Nose syntax is pretty simpler and reduces the barriers to writing tests. It extends Python unittest to make testing easier.
 
-
-
 noseis compatible with any tests written using theunittestframework and can be used as a drop-in replacement for theunittesttest runner.
-
-
 
 The development ofnoseas an open-source application fell behind, and a fork callednose2was created. If you're starting from scratch, it is recommended that you usenose2instead ofnose.
 
@@ -167,8 +129,6 @@ The development ofnoseas an open-source application fell behind, and a fork call
 -   **Doctest**
 
 Doctest testing script goes in docstring with small function at the bottom of file. Doctest allows you to test your code by running examples included in the documentation and verifying that they returned the expected results. The use-case of doctest is less detailed and don't catch special cases. They are useful as an expressive documentation of the main use case of a module and its components.
-
-
 
 The doctest looks for>>>within the docstrings and executes whatever follows as if it was entered in the interactive console. The next line is then the output which is compared to the output of the program.
 
@@ -183,17 +143,15 @@ pytesthas some other great features:
 -   Ability to rerun from the last failing test
 -   An ecosystem of hundreds of plugins to extend the functionality
 
-
-
 pip install pytest
 
 pytest
 
-**python -m pytest tests**
+## python -m pytest tests
 
-**python -m pytest . #directory**
+## python -m pytest . #directory
 
-**pytest src/tests/test_sms.py -k 'test_sms_score'** #run specific test in specific file
+## pytest src/tests/test_sms.py -k 'test_sms_score' #run specific test in specific file
 
 pytest --doctest-modules
 
@@ -203,27 +161,19 @@ It's important to keep the execution time of the tests low so that it doesn't fe
 
 pytest --junitxml=test-reports/junit.xml --html=test-reports/pytest_report.html --self-contained-html
 
-
-
 def func(x):
 
 return x + 1
 
-
-
 def test_answer():
 
 assert func(3) == 4
-
-
 
 assert response.status_code == 200
 
 assert response.text == "OK"
 
 assert response.elapsed.total_seconds() < 0.03
-
-
 
 
 -   **pytest-black**
@@ -243,35 +193,21 @@ automatically run mypy over your code by adding--mypyto your pytest command
 
 For getting the code coverage in python
 
-
-
 Coverage.py is a tool for measuring code coverage of Python programs. It monitors your program, noting which parts of the code have been executed, then analyzes the source to identify code that could have been executed but was not.
-
-
 
 Coverage measurement is typically used to gauge the effectiveness of tests. It can show which parts of your code are being exercised by tests, and which are not.
 
-
-
 pip install coverage
 
-
-
-**coverage run -m pytest**
+## coverage run -m pytest
 
 coverage report
 
 coverage html # open htmlcov/index.html in a browser
 
-
-
 Many people choose to use the[pytest-cov](https://pytest-cov.readthedocs.io/)plugin, but for most purposes, it is unnecessary.
 
-
-
 Some test runners provide coverage integration to make it easy to use coverage.py while running tests. For example,[pytest](http://doc.pytest.org/)has the[pytest-cov](https://pytest-cov.readthedocs.io/)plugin.
-
-
 
 <https://coverage.readthedocs.io/en/latest
 
@@ -286,14 +222,10 @@ pytest plugin to measure branch coverage.
 -   Get output to terminal by adding to pytest--cov-report term
 -   Get HTML output by adding--cov-report html:tests/reports/coverage
 
-
-
 This plugin produces coverage reports. Compared to just usingcoveragerunthis plugin does some extras:
 -   Subprocess support: you can fork or run stuff in a subprocess and will get covered without any fuss.
 -   Xdist support: you can use all of pytest-xdist's features and still get coverage.
 -   Consistent pytest behavior. If you runcoveragerun-mpytestyou will have slightly differentsys.path(CWD will be in it, unlike when runningpytest).
-
-
 
 <https://pytest-cov.readthedocs.io/en/latest/readme.html>
 
@@ -312,21 +244,15 @@ tox is a tool for automating test environment management and testing against mul
 
 [Robot Framework](http://robotframework.org/)is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
 
-
-
 <https://github.com/robotframework/robotframework>
 
 <https://robotframework.org
-
-
 
 <https://realpython.com/python-testing
 
 <https://medium.com/swlh/unit-testing-in-python-basics-21a9a57418a0>
 
-
-
-**Assert can be used to test the code**
+## Assert can be used to test the code
 
 Verify operator statements
 
@@ -336,11 +262,7 @@ assert(n>=k)
 
 assert(n%k==0)
 
-
-
 assert sum([1, 2, 3]) == 6, "Should be 6"
-
-
 
 | [assertEqual(a,b)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)                 | a==b                     |    |
 |---------------------------------|-------------------------------|---------|
@@ -358,36 +280,24 @@ assert sum([1, 2, 3]) == 6, "Should be 6"
 | assertRaises(ValueError, args)                                                                                     |                           |    |
 | assertAlmostEqual(1.0, 1.0)                                                                                        | Checks to 7 decimal places |    |
 
+![image](media/27.-Development-Tools_Testing-image1.png)
 
-
-![from math import pi def circle_area(r): if type(r) not in [int, float]: raise TypeError("The radius must be a non-negative real number. ") if r < 0: raise ValueError("The radius cannot be negative. ") return pi* (r* *2) ](media/27.-Development-Tools_Testing-image1.png)
-
-
-
-**Faker**
+## Faker
 
 conda install faker
 
-
-
-**# basic**
+## # basic
 
 from faker import Faker
 fake = Faker()
 
 fake.name()
 
-
-
 fake.address()
-
-
 
 fake.text()
 
-
-
-**# providers**
+## # providers
 
 from faker import Faker
 from faker.providers import internet
@@ -397,27 +307,17 @@ fake.add_provider(internet)
 
 print(fake.ipv4_private())
 
-
-
-**# localization**
+## # localization
 
 from faker import Faker
 
 fake = Faker('hi_IN')
 
-
-
 fake.name()
 
-
-
-**# fake past datetime**
+## # fake past datetime
 
 fake.past_datetime(start_date='-10y').strftime('%Y-%m-%d %H:%M:%S')
 
-
-
 <https://github.com/joke2k/faker>
-
-
 

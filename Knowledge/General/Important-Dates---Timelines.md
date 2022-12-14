@@ -30,8 +30,6 @@ Modified: 2022-10-16 19:00:20 +0500
 </tbody>
 </table>
 
-
-
 January
 -   January 1:Global Family Day
 -   January 4:World Braille Day
@@ -50,8 +48,6 @@ January
 -   January 30:Martyrs' Day
 -   January (last Sunday):World Leprosy Eradication Day
 
-
-
 February
 -   February 2:World Wetlands Day
 -   February 4:World Cancer Day
@@ -68,8 +64,6 @@ February
 -   February 27:World NGO Day
 -   February 28:National Science Day
 -   February 28/29:Rare Disease Day
-
-
 
 March
 -   March 1:Zero Discrimination Day;World Civil Defence Day
@@ -88,8 +82,6 @@ March
 -   March 27:World Theatre Day
 -   Second Wednesday of March:No Smoking Day
 -   Second Thursday of March:World Kidney Day
-
-
 
 April
 -   April 1:Utkal Diwas
@@ -114,8 +106,6 @@ April
 -   April 29:International Dance Day
 -   April 30:Ayushman Bharat Diwas
 
-
-
 May
 -   May 1:Workers' Day (International Labour Day),Maharashtra Day
 -   May 3:Press Freedom Day
@@ -135,8 +125,6 @@ May
 -   May 24:Commonwealth Day
 -   May 31:Anti-tobacco Day
 
-
-
 June
 -   June 1:World Milk Day
 -   June 3:World Bicycle Day
@@ -154,8 +142,6 @@ June
 -   June 23:United Nations Public Service Day,International Olympic Day
 -   June 26:International Day against Drug Abuse and Illicit Trafficking
 
-
-
 July
 -   July 1:Doctor's Day
 -   July 6:World Zoonoses Day
@@ -163,8 +149,6 @@ July
 -   July 17:World Day for International Justice
 -   July 18:International Nelson Mandela Day
 -   July 28:World Hepatitis Day
-
-
 
 August
 -   August (1st Sunday):International Friendship Day
@@ -176,8 +160,6 @@ August
 -   August 15:Sanskrit Day (Date may vary every year as it is celebrated on the Shrawan Poornima on Full Moon day according to the Hindu Calendar)
 -   August 19:Photography Day;World Humanitarian Day
 -   August 29:National Sports Day
-
-
 
 September
 -   September 2:Coconut Day
@@ -194,8 +176,6 @@ September
 -   September 29:World Heart Day
 -   September 30:International Translation Day
 -   September:world rivers day (fourth Sunday of September)
-
-
 
 October
 -   October 1:International Day for the Elderly
@@ -215,8 +195,6 @@ October
 -   October 30:World Thrift Day
 -   October 31:National Unity Day
 
-
-
 November
 -   November 5:World tsunami day
 -   November 7:National Cancer Awareness Day
@@ -226,8 +204,6 @@ November
 -   November 20:Africa Industrialization Day
 -   November 21:World Television Day
 -   November 29:International Day of Solidarity with Palestinian People
-
-
 
 December
 -   December 1:World AIDS Day
@@ -244,7 +220,5 @@ December
 -   December 23:Kisan Divas (Farmer's Day) (India)
 -   December 24:National Consumers Day
 -   December 25: Christmas Day
-
-
 
 <https://byjus.com/free-ias-prep/important-national-international-days-dates-for-upsc-prelims

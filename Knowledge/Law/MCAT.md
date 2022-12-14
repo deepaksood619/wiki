@@ -6,9 +6,7 @@ Modified: 2019-07-15 19:32:47 +0500
 
 ---
 
-**CARS - Critical Analysis and Reasoning Skills**
-
-
+## CARS - Critical Analysis and Reasoning Skills
 
 Questions
 

@@ -8,19 +8,11 @@ Modified: 2022-08-29 17:12:22 +0500
 
 Modern Web-development architecture based on Client-side JavaScript, resuable APIs and prebuild Markup
 
-
-
 When we talk about "The Stack," we no longer talk about operating systems, specific web servers, backend programming languages, or databases.
-
-
 
 The JAMstack is not about specific technologies. It's a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.
 
-
-
 The JAMstack allows people to create websites that are simpler, faster, and more secure than other web development methods. Sites created with the JAMstack are delivered by pre-rendering files that are served directly from a CDN, removing the requirement to manage or run web servers.
-
-
 
 J - client-side JavaScript
 
@@ -35,35 +27,25 @@ M - prebuild Markup
 -   Cheaper and easy to scale
 -   Easy to deploy (Netlify)
 
-
-
 <https://www.freecodecamp.org/news/jamstack-full-course
 
-
-
-**Digital Experience Platform (DXP)**
+## Digital Experience Platform (DXP)
 
 A digital experience platform (DXP) is an integrated set of core technologies that support the composition, management, delivery and optimization of contextualized digital experiences.
 
 [https://www.bloomreach.com/en/blog/2018/01/what-is-digital-experience-platform-dxp.html#](https://www.bloomreach.com/en/blog/2018/01/what-is-digital-experience-platform-dxp.html)
 
+## Web Content Mangement (WCM)
 
-
-**Web Content Mangement (WCM)**
-
-**Content Management System (CMS)**
+## Content Management System (CMS)
 
 A CMS is used to add content to your website/application. It is great for clients to be able to update their own content
 -   Tradional CMS - Wordpress, Drupal, Keystone, Enduro
 -   Headless CMS - Contentful, Prismic.io, Sanity, Strapi
 
-
-
 <https://www.wpbeginner.com/showcase/best-cms-platforms-compared
 
-
-
-**Headless CMS**
+## Headless CMS
 
 <https://strapi.io
 
@@ -71,17 +53,13 @@ DesignAPIs fast, manage content easily
 
 Strapi is the leading open-source headless CMS. It's 100% JS, fully customizable and developer-first
 
-
-
 Strapi is a free and open-source headless CMS delivering your content anywhere you need.
 -   **Keep control over your data.** With Strapi, you know where your data is stored, and you keep full control at all times.
 -   **Self-hosted.** You can host and scale Strapi projects the way you want. You can choose any hosting platform you want: AWS, Render, Netlify, Heroku, a VPS, or a dedicated server. You can scale as you grow, 100% independent.
 -   **Database agnostic.** Strapi works with SQL databases. You can choose the database you prefer: PostgreSQL, MySQL, MariaDB, and SQLite.
 -   **Customizable.** You can quickly build your logic by fully customizing APIs, routes, or plugins to fit your needs perfectly.
 
-
-
-**Features**
+## Features
 -   Modern Admin Panel:Elegant, entirely customizable and a fully extensible admin panel.
 -   Secure by default:Reusable policies, CORS, CSP, P3P, Xframe, XSS, and more.
 -   Plugins Oriented:Install the auth system, content management, custom plugins, and more, in seconds.
@@ -90,15 +68,11 @@ Strapi is a free and open-source headless CMS delivering your content anywhere y
 -   Powerful CLI:Scaffold projects and APIs on the fly.
 -   SQL databases:Works with PostgreSQL, MySQL, MariaDB, and SQLite.
 
-
-
-**Strapi v4 -** [Announcing Strapi v4](https://www.youtube.com/watch?v=qWKdF8N8LQU&list=PL7Q0DQYATmvjJyxrLw0xCOKwjv8Bh7yLx)
+## Strapi v4 - [Announcing Strapi v4](https://www.youtube.com/watch?v=qWKdF8N8LQU&list=PL7Q0DQYATmvjJyxrLw0xCOKwjv8Bh7yLx)
 
 <https://design-system.strapi.io
 
 <https://design-system-alpha.vercel.app
-
-
 
 <https://github.com/strapi/strapi>
 
@@ -120,15 +94,11 @@ Strapi is a free and open-source headless CMS delivering your content anywhere y
 
 <https://strapi.io/blog/virtual-event-starter-template-vercel-strapiconf>
 
-
-
 <https://strapi.io/blog/how-to-build-a-crud-app-with-react-and-a-headless-cms>
 
 <https://marmelab.com/blog/2020/06/18/build-an-application-in-fiften-minutes-using-strapijs.html>
 
 react-admin strapi - <https://github.com/nazirov91/ra-strapi-rest>
-
-
 
 <https://github.com/strapi/foodadvisor>
 
@@ -136,8 +106,6 @@ react-admin strapi - <https://github.com/nazirov91/ra-strapi-rest>
 -   strapi admin panel
 -   strapi automatic frontend
 -   <https://strapi.io/demo>
-
-
 
 <https://jamstack.org/headless-cms
 
@@ -147,7 +115,7 @@ react-admin strapi - <https://github.com/nazirov91/ra-strapi-rest>
 
 [**https://www.gatsbyjs.com/docs/how-to/sourcing-data/headless-cms/**](https://www.gatsbyjs.com/docs/how-to/sourcing-data/headless-cms/)
 
-**Popular CMSs**
+## Popular CMSs
 
 The following CMSs have high popularity among Gatsby users and support key functionality like content previews and incremental builds. If you're choosing between CMSs, we recommend reading the[Choosing Your CMS(s)](https://www.gatsbyjs.com/docs/conceptual/choosing-a-cms/)documentation.
 
@@ -166,9 +134,7 @@ The following CMSs have high popularity among Gatsby users and support key funct
 | Plone (Open Source Enterprise CMS)                         |                                                                                       |                                                                    |                                                                                           |
 | **Wagtail (Open Source Django CMS) <https://wagtail.io** |                                                                                       |                                                                    |                                                                                           |
 
-
-
-**Other CMSs**
+## Other CMSs
 
 <table>
 <colgroup>
@@ -289,33 +255,21 @@ The following CMSs have high popularity among Gatsby users and support key funct
 </tbody>
 </table>
 
-
-
 <https://github.com/outline/outline>
 
-
-
-**sites.google.com - Great UI and functionalities**
+## sites.google.com - Great UI and functionalities
 
 <https://sites.google.com/view/deepak-sood>
 
-
-
-**Frontmatter**
+## Frontmatter
 
 Front Matter is an essential Visual Studio Code extension that simplifies working and managing your markdown articles. We created the extension to support many static-site generators like Hugo, Jekyll, Hexo, NextJs, Gatsby, and more.
 
-
-
 The extension brings Content Management System (CMS) capabilities straight within Visual Studio Code. For example, you can keep a list of the used tags, categories, create content, and so much more.
-
-
 
 <https://frontmatter.codes
 
 <https://github.com/estruyf/vscode-front-matter>
-
-
 
 <https://pages.cloudflare.com
 

@@ -8,15 +8,11 @@ Modified: 2022-05-31 12:52:34 +0500
 
 <https://365datascience.teachable.com/p/credit-risk-modeling-in-python>
 
-
-
 <https://365datascience.teachable.com/courses/629877
 
 <https://www.dropbox.com/sh/7oslws1xhsm1zbf/AABkdWDKqpdcGmY1NbXAnkrBa?dl=0&lst=>
 
-
-
-**Introduction**
+## Introduction
 
 What is credit risk and why is it important?
 
@@ -28,17 +24,13 @@ Basel II approaches: SA, F-IRB, and A-IRB
 
 Different facility types (asset classes) and credit risk modeling approaches
 
-
-
-**Dataset description**
+## Dataset description
 
 Our example: consumer loans. A first look at the dataset
 
 Dependent variables and independent variables
 
-
-
-**General preprocessing**
+## General preprocessing
 
 Importing the data into Python
 
@@ -52,9 +44,7 @@ Check for missing values and clean
 
 Check for missing values and clean: Homework.
 
-
-
-**PD model: data preparation**
+## PD model: data preparation
 
 How is the PD model going to look like?
 
@@ -92,9 +82,7 @@ Data preparation. Preprocessing continuous variables: creating dummies. Homework
 
 Data preparation. Preprocessing the test dataset
 
-
-
-**PD model estimation**
+## PD model estimation
 
 The PD model. Logistic regression with dummy variables
 
@@ -106,9 +94,7 @@ Build a logistic regression model with p-values.
 
 Interpreting the coefficients in the PD model
 
-
-
-**PD model validation**
+## PD model validation
 
 Out-of-sample validation (test).
 
@@ -116,9 +102,7 @@ Evaluation of model performance: accuracy and area under the curve (AUC)
 
 Evaluation of model performance: Gini and Kolmogorov-Smirnov.
 
-
-
-**Applying the PD model for decision making**
+## Applying the PD model for decision making
 
 Calculating probability of default for a single customer
 
@@ -132,9 +116,7 @@ Setting cut-offs
 
 Setting cut-offs. Homework
 
-
-
-**PD model monitoring**
+## PD model monitoring
 
 PD model monitoring via assessing population stability
 
@@ -144,9 +126,7 @@ Population stability index: calculation and interpretation
 
 Homework: building an updated PD model
 
-
-
-**LGD and EAD models**
+## LGD and EAD models
 
 LGD and EAD models: independent variables
 
@@ -154,9 +134,7 @@ LGD and EAD models: dependent variables
 
 LGD and EAD models: distribution of recovery rates and credit conversion factors
 
-
-
-**LGD model**
+## LGD model
 
 LGD model: preparing the inputs
 
@@ -174,9 +152,7 @@ LGD model: combining stage 1 and stage 2
 
 Homework: building an updated LGD model
 
-
-
-**EAD model**
+## EAD model
 
 EAD model estimation and interpretation
 
@@ -184,23 +160,17 @@ EAD model validation
 
 Homework: building an updated EAD model
 
-
-
-**Calculating expected loss**
+## Calculating expected loss
 
 Calculating expected loss
 
 Homework: calculate expected loss on more recent data
 
-
-
 <https://www.openriskmanual.org/wiki/Main_Page>
 
 <https://www.openriskmanual.org/wiki/Category:Credit_Portfolio_Management>
 
-
-
-**Analytics**
+## Analytics
 
 Monitoring or KPIs & flag anything > 5% deviation
 

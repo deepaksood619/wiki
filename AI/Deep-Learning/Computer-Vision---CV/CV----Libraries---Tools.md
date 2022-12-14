@@ -6,16 +6,14 @@ Modified: 2021-07-05 23:45:04 +0500
 
 ---
 
-**YOLO - You Only Look Once**
+## YOLO - You Only Look Once
 
-**SSD - Single Shot MultiBox Detector**
+## SSD - Single Shot MultiBox Detector
 -   **Single Shot:**this means that the tasks of object localization and classificationare done in asingleforward passof the network
 -   **MultiBox:**this is the name of a technique for bounding box regression developed by Szegedy et al.
 -   **Detector:**The network is an object detector that also classifies those detected objects
 
-
-
-**OpenCV (CV2)**
+## OpenCV (CV2)
 -   Most used computer vision library. Highly efficient. Facilitates real-time image processing.
 
 <https://www.youtube.com/watch?v=P4Z8_qe2Cu0>
@@ -28,13 +26,9 @@ Modified: 2021-07-05 23:45:04 +0500
 
 <https://opencv.org
 
-
-
 pip install opencv-python
 
-
-
-**Functions**
+## Functions
 ```python
 import cv2
 

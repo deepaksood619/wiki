@@ -6,7 +6,7 @@ Modified: 2022-07-18 09:27:25 +0500
 
 ---
 
-**My Portfolio - Yearly (10,00,000)**
+## My Portfolio - Yearly (10,00,000)
 -   **Stocks**
     -   **Equity**
         -   **Shares**
@@ -35,50 +35,34 @@ Modified: 2022-07-18 09:27:25 +0500
     -   **ESG (**To borrow Winston Churchill's words, ESG is "a riddle, wrapped in a mystery, inside an enigma.")
     -   **Day trader**
 
+![image](media/TODO-Financial-Finance---Investing_Portfolios-image1.jpeg)
 
-
-![20-30 31-40 CRYPTO US STOCKS DIRECT INDIAN STOCKS INDEX MUTUAL FUND GOLD CORPORATE BONDS FIXED DEPOSIT EpF/ppF REAL ESTATE 100% 100% 100% 100% 20% 20% 0% 0% 0% 0% 0% 10% 20% 30% 30% 10% 0% 0% 0% 0% 5% 20% 30% 5% 0% 0% 40+ 0% 0% 0% 40% 10% 0% 10% 10% ](media/TODO-Financial-Finance---Investing_Portfolios-image1.jpeg)
-
-
-
-**Modern Portfolio Theory**
+## Modern Portfolio Theory
 
 <https://www.investopedia.com/terms/m/modernportfoliotheory.asp>
 
 <https://en.wikipedia.org/wiki/Modern_portfolio_theory>
 
-
-
-**Permanent Portfolio**
+## Permanent Portfolio
 -   **Stocks**(25%) When the markets do well. Direct equity or mutual funds. Even an index fund should do.
 -   **Cash**(25%) during a recession. For example a liquid fund
 -   **Gold**(25%) during inflation
 -   **Long Term Bonds**(25%) during deflation and prosperity
 
-
-
-**Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds.**
-
-
+## Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds.
 
 Young professional investors should allocate around 70% of their investable amount in Equity, 20% in Precious metals, and the rest in Fixed income investments. A retired person could invest 80 percent of his saving in fixed income, 10 percent in equity markets and 10 percent in precious metals.
 
-
-
-**Goal based portfolio investment**
+## Goal based portfolio investment
 
 How to get started?
 -   If you can invest Rs. 3000 a month
 -   Invest 1500 a month in equity and 1500 in fixed income
 
-
-
 What are the next steps?
 -   Track your portfolio once a month
 -   Learn to study portfolio volatility, impact of asset allocation, rebalancing and diversification
 -   Redo financial planning calculation with de-risking strategy
-
-
 
 How to choose a financial product?
 -   It should be liquid
@@ -87,11 +71,7 @@ How to choose a financial product?
 -   Invisible risk must be appreciated
 -   Risk: reward; taxation; liquidity
 
-
-
 ![ΑΙιαιηΌη »ςιΗ ](media/TODO-Financial-Finance---Investing_Portfolios-image2.png)
-
-
 
 <table>
 <colgroup>
@@ -149,13 +129,11 @@ How to choose a financial product?
 </tbody>
 </table>
 
+![image](media/TODO-Financial-Finance---Investing_Portfolios-image3.png)
 
+![image](media/TODO-Financial-Finance---Investing_Portfolios-image4.png)
 
-![Equity Total Target O Target X 1483647 1483647 XIRR Expected Espected Expected Tot E corpus OCorpus Corpus 14918.53 14241.51 15511.83 15723.92 16399.48 15(M27 15454. 17056.76 17362.48 15631.19 7636.62 7431.1% 7206.03 7512.98 8204.56 8089.61 8201.82 7816.09 8105.73 8761.86 8727.93 9610.85 15432.17 nsss.15 21262.04 20641.43 21760.49 23716.39 23813.53 24601.3 22822.36 23559.78 25818.62 26090.41 29672.93 31063.36 ](media/TODO-Financial-Finance---Investing_Portfolios-image3.png)
-
-![w 2013 w 2013 0&2013 Portfolio Value 102013 11-20B 01-2014 ---.---Debt 04-2014 w 2014 07-2014 ](media/TODO-Financial-Finance---Investing_Portfolios-image4.png)
-
-![Asset Allocation 0S2013 0&2013 11.Ä'13 01-2014 on:n4 042014 07-2014 ](media/TODO-Financial-Finance---Investing_Portfolios-image5.png)
+![image](media/TODO-Financial-Finance---Investing_Portfolios-image5.png)
 
 
 -   Freefincal Basics of Porfolio management
@@ -165,9 +143,7 @@ How to choose a financial product?
     -   Nifty 100 equal weight (better returns, low risk)
     -   Nifty 100 Low Vol 30
 
-
-
-**Good Portfolios**
+## Good Portfolios
 
 1.  5000 per month SIPs
 
@@ -189,16 +165,12 @@ How to choose a financial product?
     -   Mirae asset emerging bluechip fund (10.56%)
     -   Canara robeco bluechip equity fund (10.42%)
 
-
-
-**3-bucket portfolio**
+## 3-bucket portfolio
 -   Bucket A: 3-years expenses and emergency funds: 10% savings bank account, 90% Short Term Debt mutual fund. Bucket total = 100%.
 -   Bucket B: long term equity: 30% Nifty-50, 20% Nasdaq-100, 5% Commodities, 15% hybrid equity fund, 30% stocks. Bucket total = 100%.
 -   Bucket C: long term, Govt backed debt: 100% PPF (my EPF and VPF were withdrawn due to retirement).
 
-
-
-**Savings**
+## Savings
 
 1.  Equity-oriented Mutual funds (50%)
 
@@ -211,8 +183,6 @@ Sovereign gold bond scheme
 Do not buy Sovereign Gold Bond for returns! What you "get" will depend on luck!
 
 4.  Exchange-traded fund (Index ETF) (10%)
-
-
 
 Always have 60-70% large cap regardless of age
 -   If you are going to invest less than Rs. 10,000 a month in equity funds, just one fund will do
@@ -227,21 +197,15 @@ Always have 60-70% large cap regardless of age
     -   Combo 2 - Large-cap, Mid-cap, Small-cap
     -   Combo 3 - Aggressive hybrid, balanced advantage, mid-cap
 
+## The Core Satellite Strategy
 
-
-**The Core Satellite Strategy**
-
-![page6image50665984](media/TODO-Financial-Finance---Investing_Portfolios-image6.jpg)
+![image](media/TODO-Financial-Finance---Investing_Portfolios-image6.jpg)
 
 Let us say, a market participant has a corpus of Rs.500,000/-. This corpus can be split into two unequal portions, for example the split can be 60 -- 40. The 60% of capital which is Rs.300,000/- can be invested for a long term period in fundamentally strong companies. This 60% of the investment makes up the core of the portfolio. One can expect the core portfolio to grow at a rate of at least 12% to 15% CAGR year on year basis.
 
-
-
 The balance 40% of the amount, which is Rs.200,000/- can be utilized for active short term trading using Technical Analysis technique on equity, futures, and options. The Satellite portfolio can be expected to yield at least 10% to 12% absolute return on a yearly basis.
 
-
-
-**Term life insurance (after new job)**
+## Term life insurance (after new job)
 -   Only one exclusion
     -   Suicide in 1 year or 2 years
     -   honour death by accident
@@ -274,11 +238,7 @@ The balance 40% of the amount, which is Rs.200,000/- can be utilized for active 
 
 2.  Health Insurance - ICICI Lombard Family Floater: Rs 3 lakh
 
-
-
 <https://joinditto.in
-
-
 
 
 

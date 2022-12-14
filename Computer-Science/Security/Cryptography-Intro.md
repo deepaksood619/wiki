@@ -8,12 +8,12 @@ Modified: 2022-04-16 22:40:36 +0500
 
 Dance like no one is watching; encrypt like everyone is. Encrypt everything."
 If you have a secret and wish to keep it a secret until your death, how do you guarantee its cryptographic integrity until that time, especially with computing advances that could make today's state-of-the-art encryption crackable? And how do you enable the secret to be released, but only after death?
-**Cryptography**
+## Cryptography
 
 Is the art or science of Secret writing. It is concerned with the development of algorithms
 -   To conceal the content of messages from all except sender and recipient
 -   To verify the correctness of message or its sender and recipient
-**Terminologies**
+## Terminologies
 -   Encryption / Enciphering, E - Process of encoding the message so that meaning is not obvious or not in understandable form
 -   Decryption / Deciphering, D - Reverse process of encryption
 -   Plain text, P - The original form of the message
@@ -28,23 +28,23 @@ P = D (E (P))-   Key - Critical (secret) information used in cipher and known on
 -   Cryptanalysis (Code Breaking) - Study of method for transforming cipher text to plaintext without having knowledge of any key
 -   Cryptology - Area of cryptography and cryptanalysis together is called as crytology
 -   Protected health information (PHI) and Personally identifiable information (PII)-   **Responsible disclosure**
-**What Principles are Important When You're Developing a Cipher?**
+## What Principles are Important When You're Developing a Cipher?
 
-**Kerckhoff's principle** states that a cryptographic system should be secure, even if all the details (other than the key) are known publicly. Claude Shannon later rewrote this message as '**The enemy knows the system.**'
+## Kerckhoff's principle** states that a cryptographic system should be secure, even if all the details (other than the key) are known publicly. Claude Shannon later rewrote this message as '**The enemy knows the system.'
 Essentially, a very well designed system should be able to send secret messages even if an attacker can encrypt and decrypt their own messages using the same algorithm (with a different key). The security of the encrypted message should depend entirely on the key.
 Additionally, in order to hinder statistical analysis (attempts to break an encryption algorithm), a good cryptographic system should employ the principles of **confusion and diffusion.**
-**Confusion** requires that the key does not relate to the ciphertext in a simple manner. Each character of the ciphertext should depend on multiple parts of the key. The goal is to make it very difficult for an attacker to determine the key from the ciphertext.
-**Diffusion** means that if a single character of the plaintext is changed, then several characters of the ciphertext should change. And if a single character of the ciphertext is changed, then several characters of the plaintext should change.
+## Confusion requires that the key does not relate to the ciphertext in a simple manner. Each character of the ciphertext should depend on multiple parts of the key. The goal is to make it very difficult for an attacker to determine the key from the ciphertext.
+## Diffusion means that if a single character of the plaintext is changed, then several characters of the ciphertext should change. And if a single character of the ciphertext is changed, then several characters of the plaintext should change.
 Ideally, the relationship between the ciphertext and the plaintext is hidden. No diffusion is perfect (all will have some patterns), but the best diffusion scatters patterns widely, even scrambling several patterns together.
 Diffusion makes patterns hard for an attacker to spot, and requires the attacker to have more data in order to mount a successful attack.
-**Types of Ciphers**
+## Types of Ciphers
 
 Both block and stream ciphers are symmetric key ciphers (like DES, RCx, Blowfish, and Rijndael AES).
 Most modern symmetric algorithms are block ciphers, though the block sizes vary (such as DES (64 bits), AES (128, 192, and 256 bits), and so on).
 1.  Stream Cipher - Converts plaintext to ciphertext one bit at a time.
 
 2.  Block Cipher - It takes a given length of data as input and produces different length of encrypted data. Block ciphers convert plaintext to ciphertext block by block
-**What are the common modes of Block Ciphers?**
+## What are the common modes of Block Ciphers?
 
 In order to encrypt data which is longer than a single block, there are several 'modes' which have been developed. These describe how to apply the single block principles to longer messages.
 There are 5 confidentiality modes for block ciphers. Some of these modes require an initialization vector (IV) in order to function.
@@ -63,20 +63,20 @@ OFB is similar to CFB, but instead of processing s < b bits into a b-bits to b-b
 5.  **Counter (CTR)**
 
 CTR applies the encryption algorithm to a set of unique input blocks (counters) in order to produce outputs which are XORed with the plaintext to produce ciphertext.
-**How do Attackers Attempt to Break Ciphers?**
+## How do Attackers Attempt to Break Ciphers?
 
 There are a number of techniques attackers use, but they broadly fall into the following categories of attack, based on information required to carry it out.
 This isn't an exhaustive list (there are other attacks such side channel attacks), but many of the most common fall into one of these categories.
-**Known Ciphertext Attack**
+## Known Ciphertext Attack
 
 An attacker has some ciphertext, but does not know what plaintext was used to generate this ciphertext. The attacker does not get to choose which ciphertext they have and they cannot obtain/produce more.
-**Known Plaintext Attack**
+## Known Plaintext Attack
 
 An attacker has some plaintext and ciphertext pairs which they didn't choose (so the attacker didn't choose the message that was encrypted, but was able to successfully steal a plaintext message and its associated ciphertext). The attacker cannot obtain/produce more pairs.
-**Chosen Plaintext Attack**
+## Chosen Plaintext Attack
 
 An attacker can choose any plaintext and obtain the ciphertext in return (but they can't see the key itself).
-**Chosen Ciphertext Attack**
+## Chosen Ciphertext Attack
 
 This is the opposite of the last attack, where the attacker can choose any ciphertext and obtain the plaintext in return (but they can't see the key itself).
 <https://www.freecodecamp.org/news/what-is-a-block-cipher>

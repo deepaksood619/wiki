@@ -6,7 +6,7 @@ Modified: 2022-07-13 14:51:02 +0500
 
 ---
 
-**What exactly needs to Scale?**
+## What exactly needs to Scale?
 
 1.  Tables (Data)
     -   Partitioning, Co-location, Reference Tables
@@ -17,7 +17,7 @@ Modified: 2022-07-13 14:51:02 +0500
 3.  Transactions (Writes)
     -   Cross Shared updates/deletes, Global Atomic Transactions
 Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
-**Data Partitioning**
+## Data Partitioning
 -   **Horizontal Partitioning**
 -   **Vertical Partitioning**-   Pick a column
     -   Date
@@ -25,7 +25,7 @@ Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
 -   Pick a method
     -   Hash
     -   Range
-**Limitations**
+## Limitations
 -   ALTER TABLE ... ORDER BY.AnALTER TABLE ... ORDER BYcolumnstatement run against a partitioned table causes ordering of rows only within each partition.
 -   Prohibited constructs.The following constructs are not permitted in partitioning expressions:
     -   Stored procedures, stored functions, UDFs, or plugins.

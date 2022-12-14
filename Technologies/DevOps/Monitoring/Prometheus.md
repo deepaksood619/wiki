@@ -8,9 +8,7 @@ Modified: 2022-02-04 23:47:13 +0500
 
 A CNCF (Cloud Native Computing Foundation) project, is a systems and service monitoring system. It collects metrics from configured targets at given intervals, evaluates rule expressions, displays the results, and can trigger alerts if some condition is observed to be true.
 
-
-
-**Features**
+## Features
 -   amulti-dimensionaldata model (timeseries defined by metric name and set of key/value dimensions)
 -   **PromQL**, aflexible query languageto leverage this dimensionality
 -   no dependency on distributed storage;single server nodes are autonomous
@@ -20,9 +18,7 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
 -   multiple modes ofgraphing and dashboarding support
 -   support for hierarchical and horizontalfederation
 
-
-
-**Components**
+## Components
 -   the main[Prometheus server](https://github.com/prometheus/prometheus)which scrapes and stores time series data
 -   [client libraries](https://prometheus.io/docs/instrumenting/clientlibs/)for instrumenting application code
 -   a[push gateway](https://github.com/prometheus/pushgateway)for supporting short-lived jobs
@@ -30,23 +26,15 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
 -   an[alertmanager](https://github.com/prometheus/alertmanager)to handle alerts
 -   various support tools
 
-
-
-**Architecture Overview**
-
-
+## Architecture Overview
 
 ![Short-lived jobs Pushgateway pull metrics Jobs / Exporters Prometheus Server Service Discovery • DNS Kubernetes • Consul • Custom integration find targets Prometheus Server PagerDuty Email notify Alertmanager push alerts PromQL Retrieval Node Storage Web UI Grafana API clients HDD / SSD ](../../media/DevOps-Monitoring-Prometheus-image1.png)
-
-
 
 ![Prometheus architecture (pull) Storage PG Elastic Prometheus Exporters Prometheus DB &Server Prom Alert Kubernetes Kubernetes Master Machine Kubernetes API Server Node machines Node Exporter CloudWatch External Machine Ext. Service + Prom SDK Node Exporter (Daemon-Set) ](../../media/DevOps-Monitoring-Prometheus-image2.png)
 
 
 
-
-
-**Concepts**
+## Concepts
 
 1.  Data model
 
@@ -54,15 +42,11 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
 
 3.  Jobs and instances
 
-
-
-**Dashboards**
+## Dashboards
 -   <http://localhost:9090/metrics> # for seeing all metrics that are currently scraped
 -   <http://localhost:9090/graph> # for visualizing graphs for the metrics
 
-
-
-**Metrics**
+## Metrics
 -   Node metrics (related to physical or virtual machines)
     -   CPU, RAM, disk usage on the whole node
     -   Total number of processes running, and their states
@@ -80,8 +64,6 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
         -   async writes can cause deferred "charges"
         -   some page-ins are also shared between containers
 
-
-
 <http://jpetazzo.github.io/2013/10/08/docker-containers-metrics
 
 
@@ -96,9 +78,7 @@ A CNCF (Cloud Native Computing Foundation) project, is a systems and service mon
 -   Instrumentation (=deluxeprintffor our code)
 -   Business metrics (customers served, revenue, ...)
 
-
-
-**Scraping config**
+## Scraping config
 
 additionalScrapeConfigs:
 - job_name: 'kubernetes-pods'
@@ -126,14 +106,12 @@ target_label: kubernetes_namespace
 action: replace
 target_label: kubernetes_pod_name
 
-**Tools**
+## Tools
 -   M3DB
 
 Distributed TSDB, Aggregator and Query Engine, Prometheus Sidecar, Metrics Platform
 
 The fully open source metrics platform built on M3DB, a distributed timeseries database
-
-
 
 <https://github.com/m3db/m3>
 
@@ -144,13 +122,9 @@ The fully open source metrics platform built on M3DB, a distributed timeseries d
 
 The Prometheus Pushgateway exists to allow ephemeral and batch jobs to expose their metrics to Prometheus. Since these kinds of jobs may not exist long enough to be scraped, they can instead push their metrics to a Pushgateway. The Pushgateway then exposes these metrics to Prometheus.
 
-
-
 <https://github.com/prometheus/pushgateway>
 
-
-
-**References**
+## References
 
 <https://github.com/prometheus/prometheus>
 
@@ -161,8 +135,6 @@ The Prometheus Pushgateway exists to allow ephemeral and batch jobs to expose th
 TSDB - <https://fabxc.org/tsdb
 
 On Kubernetes - <https://github.com/coreos/prometheus-operator/tree/master/contrib/kube-prometheus>
-
-
 
 <https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack>
 

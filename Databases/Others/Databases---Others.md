@@ -19,7 +19,7 @@ A**flat file database**is a[database](https://en.wikipedia.org/wiki/Database)sto
 <https://www.scylladb.com>
 3.  **RocksDB: A Persistent Key-Value Store for Flash and RAM Storage** by Facebook Database Engineering Team
 This code is a library that forms the core building block for a fast key value server, especially suited for storing data on flash drives. It has a Log-Structured-Merge-Database (LSM) design with flexible tradeoffs between Write-Amplification-Factor (WAF), Read-Amplification-Factor (RAF) and Space-Amplification-Factor (SAF). It has multi-threaded compactions, making it specially suitable for storing multiple terabytes of data in a single database.
-**Features**
+## Features
 
 1.  **High Performance**
 
@@ -46,7 +46,7 @@ IndexedDB is a large-scale, NoSQL storage system. It lets you store just about a
 Each IndexedDB database is unique to an origin (typically, this is the site domain or subdomain), meaning it cannot access or be accessed by any other origin.[Data storage limits](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria)are usually quite large, if they exist at all, but different browsers handle limits and data eviction differently.
 4.  **Mnesia**
 
-**Mnesia**is a[distributed](https://en.wikipedia.org/wiki/Distributed_computing),[soft real-time](https://en.wikipedia.org/wiki/Real-time_computing)[database management system](https://en.wikipedia.org/wiki/Database_management_system)written in the[Erlang programming language](https://en.wikipedia.org/wiki/Erlang_(programming_language)). It is distributed as part of the[Open Telecom Platform](https://en.wikipedia.org/wiki/Open_Telecom_Platform).
+## Mnesiais a[distributed](https://en.wikipedia.org/wiki/Distributed_computing),[soft real-time](https://en.wikipedia.org/wiki/Real-time_computing)[database management system](https://en.wikipedia.org/wiki/Database_management_system)written in the[Erlang programming language](https://en.wikipedia.org/wiki/Erlang_(programming_language)). It is distributed as part of the[Open Telecom Platform](https://en.wikipedia.org/wiki/Open_Telecom_Platform).
 Emqtt and RabbitMQ uses Mnesia database
 A distributed telecommunications DBMS.
 
@@ -59,7 +59,7 @@ The following are some of the most important and attractive capabilities provide
 -   Location transparency. Programs can be written without knowledge of the actual data location.
 -   Extremely fast real-time data searches.
 -   Schema manipulation routines. The DBMS can be reconfigured at runtime without stopping the system.
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Mnesia>
 
@@ -69,7 +69,7 @@ The following are some of the most important and attractive capabilities provide
 5.  **LevelDB**
 
 LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
-**Features**
+## Features
 -   Keys and values are arbitrary byte arrays.
 -   Data is stored sorted by key.
 -   Callers can provide a custom comparison function to override the sort order.
@@ -79,7 +79,7 @@ LevelDB is a fast key-value storage library written at Google that provides an o
 -   Forward and backward iteration is supported over the data.
 -   Data is automatically compressed using the[Snappy compression library](http://google.github.io/snappy/).
 -   External activity (file system operations etc.) is relayed through a virtual interface so users can customize the operating system interactions.
-**References**
+## References
 
 <https://github.com/google/leveldb>
 6.  **Gorilla TSDB (Used by Prometheus for storing metrics)**
@@ -100,7 +100,7 @@ A GPU-powered real-time analytics storage and query engine. It features low quer
 <https://github.com/uber/aresdb>
 9.  **Riak**
 
-**Riak**(pronounced "ree-ack"[^[2]^](https://en.wikipedia.org/wiki/Riak#cite_note-Riak_1.0_Release_Party-2)) is a distributed[NoSQL](https://en.wikipedia.org/wiki/NoSQL)key-value[data store](https://en.wikipedia.org/wiki/Data_store)that offers high availability, fault tolerance, operational simplicity, and scalability.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)In addition to the[open-source](https://en.wikipedia.org/wiki/Open-source_software)version, it comes in a supported enterprise version and a[cloud storage](https://en.wikipedia.org/wiki/Cloud_storage)version.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)Riak implements the principles from Amazon's[Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system))paper[^[4]^](https://en.wikipedia.org/wiki/Riak#cite_note-4)with heavy influence from the[CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in[Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience.
+## Riak(pronounced "ree-ack"[^[2]^](https://en.wikipedia.org/wiki/Riak#cite_note-Riak_1.0_Release_Party-2)) is a distributed[NoSQL](https://en.wikipedia.org/wiki/NoSQL)key-value[data store](https://en.wikipedia.org/wiki/Data_store)that offers high availability, fault tolerance, operational simplicity, and scalability.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)In addition to the[open-source](https://en.wikipedia.org/wiki/Open-source_software)version, it comes in a supported enterprise version and a[cloud storage](https://en.wikipedia.org/wiki/Cloud_storage)version.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)Riak implements the principles from Amazon's[Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system))paper[^[4]^](https://en.wikipedia.org/wiki/Riak#cite_note-4)with heavy influence from the[CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in[Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience.
 The Riak product line of distributed databases is built on a set of core services providing a highly reliable, scalable distributed systems framework.[RiakKV](https://riak.com/products/riak-kv/index.html)is a distributed NoSQL database.[RiakTS](https://riak.com/products/riak-ts/index.html)is builton the same core foundation as RiakKV and is highly optimized for IoT and time series data.Riak also integrates with[RiakS2](https://riak.com/products/riak-s2/index.html?p=6196.html)to optimize large object storage, and integrates with other data services including[Apache Spark](https://riak.com/products/apache-spark/index.html),[Redis Caching](https://riak.com/products/redis/index.html?p=6927.html),[Apache Solr](https://riak.com/products/solr/index.html), and[Apache Mesos](https://riak.com/products/apache-mesos/index.html?p=11511.html).
 <https://riak.com/products>
 
@@ -142,7 +142,7 @@ Used by - Zerodha
 12. **tidb**
 
 TiDB ("Ti" stands for Titanium) is an open-source NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is MySQL compatible and features horizontal scalability, strong consistency, and high availability.
-![TiDB platform architecture](media/Databases---Others-image1.png)
+![image](media/Databases---Others-image1.png)
 Inside the TiDB platform, the main components are as follows:
 -   [TiDB server](https://github.com/pingcap/tidb)is a stateless SQL layer that processes users' SQL queries, accesses data in the storage layer, and returns the corresponding results to the application. It is MySQL-compatible and sits on top of TiKV.
 -   [TiKV server](https://github.com/pingcap/tikv)is the distributed transactional key-value storage layer where the data persists. It uses the[Raft](https://raft.github.io/) consensus protocol for replication to ensure strong data consistency and high availability.
@@ -188,10 +188,10 @@ sqlite3 db.sqlite3
 >>> .exit
 
 >>> PRAGMA table_info(table_name); # show all columns of a table
-**# Run this query to find the names of the tables in this database**
+## # Run this query to find the names of the tables in this database
 
 SELECT name FROM sqlite_master where type = 'table';
-**# Run this query to find the structure of the `crime_scene_report` table**
+## # Run this query to find the structure of the `crime_scene_report` table
 
 SELECT sql FROM sqlite_master where name = 'crons_cron';
 
@@ -205,7 +205,7 @@ SELECT cron_name, sql_query FROM crons_cron where sql_query like '%"goo.gl%' and
 UPDATE `crons_cron` SET `sql_query` =replace(sql_query, '"goo.gl', '""credit_bldr_elig_not_assign_1";
 
 UPDATE `crons_cron` SET `sql_query` =replace(sql_query, '"goo.gl', '"<https://goo.gl>');
-**SQLite database**
+## SQLite database
 
 db = sqlite3.connect(':memory:') # Using an in-memory database
 

@@ -21,13 +21,11 @@ Modified: 2022-05-13 15:32:06 +0500
 -   (3)[Loyalists vs Mercenaries](http://avc.com/2015/06/loyalists-vs-mercenaries/)--- "There are highly loyal teams that can withstand almost anything and remain steadfastly behind their leader. And there are teams that are entirely mercenary and will walk out without thinking twice about it."
 -   (3)[Dunbar's Number](https://en.wikipedia.org/wiki/Dunbar%27s_number)--- "A suggested cognitive limit to the number of people with whom one can maintain stable social relationships..with a commonly used value of 150."
 
-![5 15 50 150 500 ](media/Mental-Models-image1.jpeg)
+![image](media/Mental-Models-image1.jpeg)
 -   (3)[Zero Tolerance](https://en.wikipedia.org/wiki/Zero_tolerance)--- "Strict punishment for infractions of a stated rule, with the intention of eliminating undesirable conduct."
 -   (3)[Commandos vs Infantry vs Police](https://blog.codinghorror.com/commandos-infantry-and-police/)--- "Three distinct groups of people that define the lifetime of a company: Commandos, Infantry, and Police: Whether invading countries or markets, the first wave of troops to see battle are the commandos...Grouping offshore as the commandos do their work is the second wave of soldiers, the infantry...But there is still a need for a military presence in the territory they leave behind, which they have liberated. These third-wave troops hate change. They aren't troops at all but police."
 
-
-
-**WHY, WHAT and HOW Framework**
+## WHY, WHAT and HOW Framework
 -   WHY something is needed --- typically a user problem or a business / strategic need (this is the problem and not the solution)
 -   WHAT to do about that problem --- this is the solution. For example, "more people driving hybrid cars is the solution to reduce carbon emissions"
 -   HOW to implement it --- the tactics for putting the solution in place. For example, the specifics of a design, a heuristic / algorithm in coding, an execution plan of policy in government, etc
@@ -37,29 +35,19 @@ Modified: 2022-05-13 15:32:06 +0500
 -   For mid career /experience individuals, provide a clear explanation WHAT needs to be built / implemented
 -   For the most skilled / experienced, you need only explain WHY a solution is important
 
-
-
-**Avoiding Pitfalls**
+## Avoiding Pitfalls
 
 So what happens when we don't get this right? This can occur when you start telling your highest skilled / most experienced HOW to implement something, leaving them feeling micromanaged and overly constrained. Similarly, if you provide an early-stage career team member with WHY something is needed, but not enough information on HOW to implement it, they may be left feeling unsupported with an ambiguous problem.
 
+![image](media/Mental-Models-image2.png)
 
-
-![Employee Experience / Skill Highest Mid Lower Dictating "How" to do something to these team members would leave them feeling micromanaged Just Right Just Right HOW to implement Just Right Providing only the "Why" would leave the team member with a lack of direction and clarity WHY it's needed WHAT is needed Level of Context / Instruction Required ](media/Mental-Models-image2.png)
-
-
-
-**A final thought --- always explain the WHY**
+## A final thought --- always explain the WHY
 
 One footnote worth calling out is that while less experienced team members need more guidance on the solution required, there isalwaysvalue in describing the WHY toeveryone(regardless of tenure or experience). By doing this, you're providing the support that will help that person develop autonomy in the future, as well as generate longer-term buy-in.
 
-
-
 <https://medium.com/@ripsher/managing-through-the-why-what-and-how-a5dd657a49b0>
 
-
-
-**Deciding**
+## Deciding
 -   (1)[Business Case](https://en.wikipedia.org/wiki/Business_case)--- "Captures the reasoning for initiating a project or task. It is often presented in a well-structured written document, but may also sometimes come in the form of a short verbal argument or presentation." (related: why this now?)
 -   (1)[Opportunity Cost](https://en.wikipedia.org/wiki/Opportunity_cost)--- "The value of the best alternative forgone where, given limited resources, a choice needs to be made between several mutually exclusive alternatives. Assuming the best choice is made, it is the 'cost' incurred by not enjoying the benefit that would have been had by taking the second best available choice." (related:[cost of capital](https://en.wikipedia.org/wiki/Cost_of_capital))
 

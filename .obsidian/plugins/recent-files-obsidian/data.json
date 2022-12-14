@@ -5,6 +5,18 @@
       "path": "Languages/Others/Regular-Expressions---Regex.md"
     },
     {
+      "basename": "Regular-Expressions",
+      "path": "Languages/Python/Python/Regular-Expressions.md"
+    },
+    {
+      "basename": "External-Tech",
+      "path": "Office/Credentials/External-Tech.md"
+    },
+    {
+      "basename": "Business",
+      "path": "Office/Credentials/Business.md"
+    },
+    {
       "basename": "Tech-&-Courses-TODO",
       "path": "Office/TODO/Tech-&-Courses-TODO.md"
     },

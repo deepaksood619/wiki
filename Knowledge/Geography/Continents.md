@@ -97,19 +97,13 @@ Modified: 2022-01-28 23:23:41 +0500
 </tbody>
 </table>
 
-
-
 The term[Oceania](https://en.wikipedia.org/wiki/Oceania)refers to a group of[island countries](https://en.wikipedia.org/wiki/Island_country)and territories in the[Pacific Ocean](https://en.wikipedia.org/wiki/Pacific_Ocean), together with the[continent of Australia](https://en.wikipedia.org/wiki/Australia_(continent)).[Pacific islands](https://en.wikipedia.org/wiki/Pacific_islands)with ties to other continents (such as[Japan](https://en.wikipedia.org/wiki/Japan),[Hawaii](https://en.wikipedia.org/wiki/Hawaii)or[Easter Island](https://en.wikipedia.org/wiki/Easter_Island)) are usually grouped with those continents rather than Oceania. This term is used in several different continental models instead of[Australia](https://en.wikipedia.org/wiki/Australia_(continent)).
 
-
-
-![regons by United Nations Statistics Division](media/Continents-image1.png)
-
+![image](media/Continents-image1.png)
 
 
 
-
-**Highest and Lowest Point**
+## Highest and Lowest Point
 
 | **Continent** | **Highest point**                                                    | **Elevation (m)** | **Elevation (ft)** | **Country or territory containing highest point**                                                              | **Lowest point**                                                            | **Elevation (m)** | **Elevation (ft)** | **Country or territory containing lowest point**                                                                                                                 |
 |-------|--------|-------|-------|-----------|---------|-------|-------|---------------|
@@ -120,8 +114,6 @@ The term[Oceania](https://en.wikipedia.org/wiki/Oceania)refers to a group of[isl
 | Europe        | [Mount Elbrus](https://en.wikipedia.org/wiki/Mount_Elbrus)           | 5,642             | 18,510             | Russia                                                                                                         | [Caspian Sea](https://en.wikipedia.org/wiki/Caspian_Sea)                    | −28               | −92                | Russia                                                                                                                                                           |
 | Antarctica    | [Vinson Massif](https://en.wikipedia.org/wiki/Vinson_Massif)         | 4,892             | 16,050             | (none)                                                                                                         | Deep Lake,[Vestfold Hills](https://en.wikipedia.org/wiki/Vestfold_Hills)† | −50               | −160               | (none)                                                                                                                                                           |
 | Australia     | [Puncak Jaya](https://en.wikipedia.org/wiki/Puncak_Jaya)             | 4,884             | 16,024             | [Indonesia](https://en.wikipedia.org/wiki/Indonesia)([Papua](https://en.wikipedia.org/wiki/Papua_(province))) | [Lake Eyre](https://en.wikipedia.org/wiki/Lake_Eyre)                        | −15               | −49                | Australia                                                                                                                                                        |
-
-
 
 [How the World Map Looks Wildly Different Than You Think](https://youtu.be/lPNrtjboISg)
 -   Mercator Projection

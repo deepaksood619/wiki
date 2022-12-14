@@ -34,6 +34,6 @@ of all nodes
 
 The height of a complete k-ary tree with n-nodes is given by logkn.
 
-**Applications of K-ary Heap**:
+## Applications of K-ary Heap:
 -   K-ary heap when used in the implementation of[priority queue](http://geeksquiz.com/priority-queue-set-1-introduction/)allows faster decrease key operation as compared to binary heap ( O(log2n)) for binary heap vs O(logkn) for K-ary heap). Nevertheless, it causes the complexity of extractMin() operation to increase to O(k logkn) as compared to the complexity of O(log2n) when using binary heaps for priority queue. This allows K-ary heap to be more efficient in algorithms where decrease priority operations are more common than extractMin() operation.Example:[Dijkstra's](https://www.geeksforgeeks.org/greedy-algorithms-set-6-dijkstras-shortest-path-algorithm/)algorithm for single source shortest path and[Prim's](https://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)algorithm for minimum spanning tree
 -   K-ary heap has better memory cache behaviour than a binary heap which allows them to run more quickly in practice, although it has a larger worst case running time of both extractMin() and delete() operation (both being O(k logkn) ).

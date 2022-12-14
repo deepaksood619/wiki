@@ -21,9 +21,7 @@ b = 0000 1101
 | << Binary Left Shift    | The left operands value is moved left by the number of bits specified by the right operand.  | a << 2 = 240 (means 1111 0000)                                                     |
 | >> Binary Right Shift   | The left operands value is moved right by the number of bits specified by the right operand. | a >> 2 = 15 (means 0000 1111)                                                      |
 
-
-
-**Tricks**
+## Tricks
 -   x & (x-1)will clear the lowest set bit of x
 -   (x & (1 << i)) != 0, Get the i^th^ bit
 -   x & ~(x-1)extracts the lowest set bit of x (all others are clear). Pretty patterns when applied to a linear sequence.
@@ -36,9 +34,7 @@ b = 0000 1101
 -   x | (x - (1 << n))= x, with the run of cleared bits (possibly length 0) starting at bit n set.
 -   x | ~(x - (1 << n))= the lowest run of cleared bits (possibly length 0) in x, starting at bit n are the only clear bits.
 
-
-
-**Bit Shift**
+## Bit Shift
 
 1.  Arithmetic Shift
 
@@ -50,9 +46,7 @@ In a*logical shift*, zeros are shifted in to replace the discarded bits. Therefo
 
 However, as the logical right-shift inserts value 0 bits into the most significant bit, instead of copying the sign bit, it is ideal for unsigned binary numbers, while the arithmetic right-shift is ideal for signed[two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)binary numbers.
 
-
-
-**XOR**
+## XOR
 
 XOR by 1 can work like a toggle switch that turns1to0or0to1.
 
@@ -65,13 +59,9 @@ Another interesting thing to note is
 x^0 = x
 x^x = 0
 
+## XOR - Bitwise XOR of N numbers can be calculated as follows : For each bit position (lets say p), if the number of 1's in the binary representation of the involved numbers at position p is odd then the result is 1 else 0. For example, bitwise XOR of three numbers (3, 4, 5) is (011, 100, 101) => (010) = 2. The LSB and MSB has two 1's so result is 0 for those bits. In most languages, [^] operator can be used to find Xor.
 
-
-**XOR -** Bitwise XOR of N numbers can be calculated as follows : For each bit position (lets say p), if the number of 1's in the binary representation of the involved numbers at position p is odd then the result is 1 else 0. For example, bitwise XOR of three numbers (3, 4, 5) is (011, 100, 101) => (010) = 2. The LSB and MSB has two 1's so result is 0 for those bits. In most languages, [^] operator can be used to find Xor.
-
-
-
-**Method 2 (Efficient method)**
+## Method 2 (Efficient method)
 
 1.  Find the remainder of n by moduling it with 4.
 
@@ -85,23 +75,15 @@ x^x = 0
 
 <https://www.geeksforgeeks.org/calculate-xor-1-n
 
+## OR - Bitwise OR of N numbers can be calculated as follows : Unlike Xor, if any of the N Number has a 1 in that position (lets say p), then the result at p is 1 else 0. Bitwise OR of (3, 4, 5) is (011, 100, 101) => (111) = 7. All bit positions have atleast 1 number with a 1. In most programming languages [|] operator can be used to find Or.
 
-
-**OR -** Bitwise OR of N numbers can be calculated as follows : Unlike Xor, if any of the N Number has a 1 in that position (lets say p), then the result at p is 1 else 0. Bitwise OR of (3, 4, 5) is (011, 100, 101) => (111) = 7. All bit positions have atleast 1 number with a 1. In most programming languages [|] operator can be used to find Or.
-
-
-
-**Caching or Indexing**
+## Caching or Indexing
 
 Caching or Indexing is a technique used to store counts of values which lie in a small range.
 
-
-
-**1s 2s Complement**
+## 1s 2s Complement
 
 [Binary: Plusses & Minuses (Why We Use Two's Complement) - Computerphile](https://www.youtube.com/watch?v=lKTsv6iVxV4)
 
-
-
-![<signed binary> ](media/General-image1.jpg)
+![image](media/General-image1.jpg)
 

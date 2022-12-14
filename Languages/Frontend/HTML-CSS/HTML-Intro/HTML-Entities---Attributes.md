@@ -10,17 +10,13 @@ Reserved characters in HTML must be replaced with character entities.
 
 Characters that are not present on your keyboard can also be replaced by entities.
 
-
-
-**HTML Entities**
+## HTML Entities
 
 Some characters are reserved in HTML.
 
 If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
 
 Character entities are used to display reserved characters in HTML.
-
-
 
 A character entity looks like this:
 
@@ -36,9 +32,7 @@ Advantage of using an entity name:An entity name is easy to remember.
 
 Disadvantage of using an entity name:Browsers may not support all entity names, but the support for numbers is good.
 
-
-
-**Non-breaking Space**
+## Non-breaking Space
 
 A common character entity used in HTML is the non-breaking space:&nbsp;
 
@@ -57,8 +51,6 @@ If you write 10 spaces in your text, the browser will remove 9 of them. To add r
 
 The non-breaking hyphen ([&#8209;](https://www.w3schools.com/charsets/ref_utf_punctuation.asp)) lets you use a hyphen character (‑) that won't break.
 
-
-
 | **Result** | **Description**                    | **Entity Name** | **Entity Number** |
 |----------|---------------------------------|--------------|---------------|
 |           | non-breaking space                 | &nbsp;          | &#160;            |
@@ -73,8 +65,6 @@ The non-breaking hyphen ([&#8209;](https://www.w3schools.com/charsets/ref_utf_pu
 | €          | euro                               | &euro;          | &#8364;           |
 | ©          | copyright                          | &copy;          | &#169;            |
 | ®          | registered trademark               | &reg;           | &#174;            |
-
-
 
 A diacritical mark is a "glyph" added to a letter.
 
@@ -97,15 +87,11 @@ Here are some examples:
 | ̂         | O             | O&#770;       | Ô          |
 | ̃        | O             | O&#771;       | Õ          |
 
+## HTML Attributes
 
-
-**HTML Attributes**
-
-**onchange**
+## onchange
 
 onchange="js_function(this)"
-
-
 
 <script>
 
@@ -114,8 +100,6 @@ function js_function(obj) {
 console.log(obj.id)
 
 console.log(obj.value)
-
-
 
 obj.classList.add('custom-danger')
 

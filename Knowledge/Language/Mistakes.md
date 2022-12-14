@@ -6,7 +6,7 @@ Modified: 2019-09-30 10:34:30 +0500
 
 ---
 
-**Usage Mistakes**
+## Usage Mistakes
 
 1. Affect vs. Effect
 
@@ -14,13 +14,9 @@ Incorrect: The game will effect our standings in the league.
 
 Correct: The game will affect our standings in the league.
 
-
-
 Although both words can be used as nouns and verbs, "effect" is usually used as a
 
 noun and "affect" is usually used as a verb.
-
-
 
 2. Apart vs. A part
 
@@ -32,8 +28,6 @@ Apart is an adverb meaning, "separated by some distance." These two rocks are th
 
 Apart is usually paired with "from" and a part is usually paired with "of."
 
-
-
 3. Assure vs. Ensure
 
 Incorrect: You must take the proper precautions to assure your privacy.
@@ -44,8 +38,6 @@ To ensure something happens is to guarantee it. Assure is to tell someone someth
 
 Greg assured me nothing was wrong. In order to ensure that nothing was wrong, Greg locked the door.
 
-
-
 4. Who vs. Whom
 
 Incorrect: Who did you give that to?
@@ -55,8 +47,6 @@ Correct: To whom did you give that?
 Who functions as a subject while whom functions as an object. An easy way to remember the difference is to substitute he/him into your sentences. If he works, it should be who. If him works, it should be whom.
 
 Who (he) told me to make dinner. You delivered a pizza to whom (him)?
-
-
 
 5. Attain vs. Obtain
 
@@ -92,8 +82,6 @@ Attain
 
 implies effort put forth to produce the outcome.
 
-
-
 6. Break vs. Brake
 
 Incorrect:
@@ -128,8 +116,6 @@ brake
 
 is to stop your car.
 
-
-
 7. Capital vs. Capitol
 
 Incorrect:
@@ -153,8 +139,6 @@ is a building where a legis
 -
 
 lature meets.
-
-
 
 8. Compliment vs. Complement
 
@@ -183,8 +167,6 @@ Those shoes are the perfect comple
 -
 
 ment for that dress.
-
-
 
 9. Comprise vs. Compose
 
@@ -216,8 +198,6 @@ compose
 
 subject.
 
-
-
 10. Emigrate vs. Immigrate
 
 Incorrect:
@@ -239,8 +219,6 @@ emigrate
 is to leave a place. You immigrate
 
 into places and emigrate from places.
-
-
 
 11. Everyday vs. Every day
 
@@ -265,8 +243,6 @@ Every day
 -
 
 tuting "each day" for "every day" will help you keep them separated.
-
-
 
 12. Explicit vs. Implicit
 
@@ -324,8 +300,6 @@ or to recall something to the conscious mind. Invoke is a more direct action tha
 
 evoke.
 
-
-
 14. Who vs. That
 
 Incorrect:
@@ -349,8 +323,6 @@ ferring to human beings and animals with a name, use
 who
 
 .
-
-
 
 15. Onto vs. On to
 
@@ -404,8 +376,6 @@ is a period of time before the present.
 
 Bill Clinton is a past president.
 
-
-
 17. To vs. Too vs. Two
 
 Incorrect:
@@ -433,8 +403,6 @@ is
 just about everything else.
 
 Can you drive me to the mall?
-
-
 
 18. There vs. Their vs. They're
 
@@ -482,8 +450,6 @@ towards
 
 .
 
-
-
 20. Principal vs. Principle
 
 Incorrect:
@@ -512,9 +478,7 @@ The principle of free speech
 
 is essential in any democracy.
 
-**GRAMMAR MISTAKES**
-
-
+## GRAMMAR MISTAKES
 
 21. This is Him / This is Her
 
@@ -540,8 +504,6 @@ she
 
 because these words are nominative, not objective.
 
-
-
 22. If I Was vs. If I Were
 
 Incorrect:
@@ -563,8 +525,6 @@ tor for a subjunctive verb is when you see an "if."
 If I were a wealthy man...I wouldn't
 
 have to work hard.
-
-
 
 23. Misplaced Modifier
 
@@ -588,8 +548,6 @@ me
 
 whatever the beginning phrase refers to should immediately follow the comma.
 
-
-
 24. Using Me Instead of I
 
 Incorrect:
@@ -610,8 +568,6 @@ Steve and I
 
 are getting lunch.
 
-
-
 25. Which vs. That
 
 Incorrect:
@@ -629,8 +585,6 @@ of a sentence. For nonrestrictive or nonessential clauses, use "which."
 My bedroom,
 
 which is on the second floor, has a window.
-
-
 
 26. Referring to a Business as "They"
 
@@ -670,9 +624,7 @@ see any verbs following it.
 
 I play the guitar just like you
 
-
-
-**Punctuation mistake**
+## Punctuation mistake
 
 28. Semicolons Connect Equal Units
 
@@ -692,8 +644,6 @@ but they can do more. They connect equal grammatical units, whether they are ind
 
 pendent or dependent, so make sure both sides of a semicolon are equal.
 
-
-
 29. Comma Splice
 
 Incorrect:
@@ -711,8 +661,6 @@ between them. These conjunctions are remembered by the acronym FANBOYS, for,
 and, nor, but, or, yet, and so.
 
 John hit the ball, and he ran to first base.
-
-
 
 30. Missing Comma After Intro Phrase
 
@@ -742,8 +690,6 @@ John ran to first base after hitting the ball.
 
 A comma is not necessary when a clause or phrase appears after the main clause.
 
-
-
 32. Quotation Marks to Add Emphasis
 
 Incorrect:
@@ -765,8 +711,6 @@ to set off exact words that were used by another person or appeared elsewhere.
 The
 
 president was quoted as saying, "The economy is doing just fine."
-
-
 
 33. Punctuation Outside of Quotes
 
@@ -802,8 +746,6 @@ Increasingly, in informal contexts, they are used to create a type of suspense i
 
 reader. These types of uses are not appropriate for formal writing.
 
-
-
 35. Incorrectly Labeling Times
 
 Incorrect:
@@ -826,13 +768,11 @@ not use "between" or "from" and a hyphen.
 
 
 
+## Others
 
+## Where vs Were
 
-**Others**
-
-**Where vs Were**
-
-**Where**
+## Where
 
 The wordwhere(rhymes with hair) talks about a place, location, stage, or situation. It is:
 -   **An interrogative adverb -** It is used to ask a question about a place; for example: Where is the library?
@@ -840,7 +780,7 @@ The wordwhere(rhymes with hair) talks about a place, location, stage, or situati
 -   **A conjunction -** "Where" means "in the place that" or "in situations that"; for example: Where you find the flowers, you also find the bees.
 -   **A relative pronoun -** It introduces a relative clause; for example: The house where Marsha grew up was recently sold for $500,000.
 
-**Were**
+## Were
 
 On the other hand,were(rhymes with stir) is the past tense of the verb "be." It is used together with a plural subject. Let us take a look at a few examples below:
 -   Five students were sent to Japan for the robotics competition last month.

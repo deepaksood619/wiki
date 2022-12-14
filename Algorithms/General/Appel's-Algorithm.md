@@ -6,7 +6,7 @@ Modified: 2018-02-06 19:45:10 +0500
 
 ---
 
-**Appel's algorithm for N-body simulation**
+## Appel's algorithm for N-body simulation
 
 Key idea: suppose particle is far, far away from cluster of particles:
 -   Treat cluster of particles as a single aggregate particle

@@ -6,11 +6,9 @@ Modified: 2021-06-12 10:06:20 +0500
 
 ---
 
-**Introduction**
+## Introduction
 
 in R, you can store data in a variable by using either "=" or "<-".
-
-
 
 var <- 'Hello'
 
@@ -24,13 +22,9 @@ print(var)
 
 >>> c(var, somevar) # concatenate two variables
 
-
-
 >>> str(var) # stands for structure, tells the type of variable
 
 >>> class(hourPerDay) # 'numeric', check type of variable
-
-
 
 >>> a <- 5
 
@@ -38,11 +32,7 @@ print(var)
 
 >>> a * as.numeric(b) # as.numeric is used to convert string to integer
 
-
-
 >>> library(tidyverse) # importing an R package
-
-
 
 >>> chocolateData <- read_csv("../input/chocolate-bar-ratings/flavors_of_cacao.csv")
 
@@ -50,13 +40,9 @@ print(var)
 *# versions without spaces, which let's us talk about the columns by their names.*
 >>> names(chocolateData) <- make.names(names(chocolateData), unique=TRUE)
 
-
-
 >>> head(chocolateData) # the head() function reads just the first few lines of a file.
 
 >>> tail(chocolateData, 3) # the tail() function reads in the last 3 lines of a file.
-
-
 
 Getting data from two dimensional data structure
 
@@ -68,19 +54,13 @@ Getting data from two dimensional data structure
 
 >>> chocolateData <- chocolateData[-1,] # we can remove data by putting a minus sign (-) in front of the index we don't want
 
-
-
 >>> chocolateData <- type_convert(chocolateData) # automatically convert the data types of our data_frame
-
-
 
 >>> chocolateData$Cocoa_Percent <- sapply(chocolateData$Cocoa_Percent, function(x) gsub("%", "", x)) # remove all the percent signs in the fifth column
 
 >>> names(chocolateData) <- gsub("[[:space:]+]", "_", names(chocolateData)) *# remove the white spaces in the column names*
 
-
-
-**Variables**
+## Variables
 
 1.  Character (Surrounded by double quotes)
 
@@ -95,8 +75,6 @@ Getting data from two dimensional data structure
 >>> 5 * listOfNumbers
 
 >>> listOfNumbers[3] # get the 3rd item from the vector, uses 1st indexing
-
-
 
 5.  Data Structures
 
@@ -113,31 +91,19 @@ tibble()is a nice way to create data frames.
 -   Subsetting
 -   Recycling
 
-
-
 <https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html>
 
-
-
-**Summarizing**
+## Summarizing
 
 >>> ?summary # help for summary() function
 
-
-
 >>> summary(chocolateData) # summary function from base R (base R means no packages)
-
-
 
 >>> summarise_all(chocolateData, funs(mean)) # summary function from the Tidyverse (specifically dplyr), get mean of the data set
 
 >>> summarise_all(chocolateData, funs(sd)) # get standard deviation
 
-
-
 A pipe, which looks like this: %>% is a special operator. It takes all the output from the right side and passes it to whatever is on the left side.
-
-
 
 Let's take our chocolate dataset and then pipe it to the summarise() function. The summarise() function will return a data_frame, where each column contains a specific type of information we've asked for and has a name we've given in. In this example, we're going to get back two columns. One, called "averageRating" will have the average of the Rating column in it, while the second, called "sdRating" will have the standard deviation of the Rating column in it.
 
@@ -153,8 +119,6 @@ sdRating = sd(Rating))
 
 
 
-
-
 # Return the average and sd of ratings by the year a rating was given
 
 chocolateData %>%
@@ -165,24 +129,16 @@ summarise(averageRating = mean(Rating),
 
 sdRating = sd(Rating))
 
-
-
 <https://www.youtube.com/watch?v=_V8eKsto3Ug>
 
+## Others
 
-
-**Others**
-
-**Tidyverse**
+## Tidyverse
 
 The tidyverse is an opinionated[collection of R packages](https://www.tidyverse.org/packages)designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
-
-
 <https://www.tidyverse.org
 
-
-
-**Others**
+## Others
 
 hadleyverse

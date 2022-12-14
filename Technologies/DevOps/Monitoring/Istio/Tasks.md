@@ -6,11 +6,9 @@ Modified: 2020-06-09 16:40:53 +0500
 
 ---
 
-**Traffic Management**
+## Traffic Management
 
 Istio's traffic management model relies on theEnvoyproxies that are deployed along with your services. All traffic that your mesh services send and receive (data planetraffic) is proxied through Envoy, making it easy to direct and control traffic around your mesh without making any changes to your services.
-
-
 
 <https://istio.io/docs/concepts/traffic-management
 
@@ -38,9 +36,7 @@ Istio's traffic management model relies on theEnvoyproxies that are deployed alo
     -   [Kubernetes Services for Egress Traffic](https://istio.io/docs/tasks/traffic-management/egress/egress-kubernetes-services/)
     -   [Using an External HTTPS Proxy](https://istio.io/docs/tasks/traffic-management/egress/http-proxy/)
 
-
-
-**Security**
+## Security
 -   [Authentication](https://istio.io/docs/tasks/security/authentication/)
     -   [Automatic mutual TLS](https://istio.io/docs/tasks/security/authentication/auto-mtls/)
     -   [Authentication Policy](https://istio.io/docs/tasks/security/authentication/authn-policy/)
@@ -60,17 +56,13 @@ Istio's traffic management model relies on theEnvoyproxies that are deployed alo
 -   [Istio DNS Certificate Management](https://istio.io/docs/tasks/security/dns-cert/)
 -   [Istio Webhook Management [Experimental]](https://istio.io/docs/tasks/security/webhook/)
 
-
-
-**Policies**
+## Policies
 -   [Enabling Policy Enforcement](https://istio.io/docs/tasks/policy-enforcement/enabling-policy/)
 -   [Enabling Rate Limits](https://istio.io/docs/tasks/policy-enforcement/rate-limiting/)
 -   [Control Headers and Routing](https://istio.io/docs/tasks/policy-enforcement/control-headers/)
 -   [Denials and White/Black Listing](https://istio.io/docs/tasks/policy-enforcement/denial-and-list/)
 
-
-
-**Observability**
+## Observability
 -   [Metrics](https://istio.io/docs/tasks/observability/metrics/)
     -   [Collecting Metrics](https://istio.io/docs/tasks/observability/metrics/collecting-metrics/)
     -   [Collecting Metrics for TCP services](https://istio.io/docs/tasks/observability/metrics/tcp-metrics/)

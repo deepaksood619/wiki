@@ -9,8 +9,8 @@ Modified: 2022-03-01 17:10:45 +0500
 [System Design: How to design Twitter? Interview question at Facebook, Google, Microsoft](https://www.youtube.com/watch?v=KmAyPUv9gOY)
 
 [Twitter system design | twitter Software architecture | twitter interview questions](https://www.youtube.com/watch?v=wYk0xPP_P_8)
-![DB SYSTEM DESIGN YOIC 'TECH DUMMIES NAREN.LG@GMALCOM Balancer CLIENTS DB Writer Trends data Apache storm} update cache Entries for followers FANOUT (Async) zookeeper for maintaining redis cluster REDIS cluster Home and User Timeline Timeline Search service PUSH WEBSOCK persistant connection Earlybird (Based on Lucene) ](media/System-Design---Twitter-image1.jpg)
-**Core Features -**
+![image](media/System-Design---Twitter-image1.jpg)
+## Core Features -
 
 1.  Tweeting
 
@@ -29,7 +29,7 @@ Modified: 2022-03-01 17:10:45 +0500
 7.  Text Notifications
 
 8.  How to incorporate Advertisments
-**Database -**
+## Database -
 
 1.  Tweets database
 
@@ -37,10 +37,10 @@ Modified: 2022-03-01 17:10:45 +0500
 
 Problem with this structure is that to get a tweet corresponding to user, if would take a lot of time because there would be a big select query. (Every time we open twitter home statement)
 -   This is not feasible
-**Characteristics**
+## Characteristics
 -   Twitter is ready heavy (showing home profile for a user should be super fast)
 -   Prefer availability over consitency. (Eventual Consistency - Consistency over a time frame)
-**Optimized Solution**
+## Optimized Solution
 -   When we tweet we do a Put / Post request
 -   Request goes to a Load Balancer
     -   Does Fan Out - put tweet on every follower home timeline (in-memory DB / Redis)
@@ -64,7 +64,7 @@ Problem with this structure is that to get a tweet corresponding to user, if wou
     -   Load Balancer
         -   Very fast hash lookup for getting redis databases
     -   One of the three redis databases reponds with bob's timeline
-**TwitterBot / Twitter Bot**
+## TwitterBot / Twitter Bot
 
 <https://www.labnol.org/twitter-bots-tutorial-4796>
 

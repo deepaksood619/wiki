@@ -8,11 +8,7 @@ Modified: 2020-01-29 20:19:40 +0500
 
 <https://www.tutorialspoint.com/cplusplus/cpp_storage_classes.htm>
 
-
-
 Storage classes defines the scope(visibility) and life-time of the variables and/or functions within a c++ program. These specifiers precede the type that they modify.
-
-
 
 1.  Auto
 
@@ -25,8 +21,6 @@ Storage classes defines the scope(visibility) and life-time of the variables and
 5.  Mutable
 
 6.  Typedef (considered as storage class)
-
-
 
 1.  Auto
 
@@ -56,8 +50,6 @@ Storage classes defines the scope(visibility) and life-time of the variables and
 
     d.  In C++ and java, when static is used on a class data member, it causes only one copy of that member to be shared between objects of its class.
 
-
-
 Static is a keyword in C++ used to give special characteristics to an element. Static elements are allocated storage only once in a program lifetime in static storage area. And they have a scope till the program lifetime. Static Keyword can be used with following,
 
 a.  Static variable in functions
@@ -68,11 +60,7 @@ c.  Static member Variable in class
 
 d.  Static Methods in class
 
-
-
 <https://www.studytonight.com/cpp/static-keyword.php>
-
-
 
 4.  Extern
 
@@ -96,8 +84,6 @@ d.  Static Methods in class
 
 Assign alternative names to existing types
 
-
-
 #include <stdio.h>
 
 int main()
@@ -113,7 +99,5 @@ printf("%d ", x);
 return 0;
 
 }
-
-
 
 

@@ -6,11 +6,11 @@ Modified: 2019-07-02 14:53:17 +0500
 
 ---
 
-**In-memory indexing and the Time-Structured Merge Tree (TSM)**
+## In-memory indexing and the Time-Structured Merge Tree (TSM)
 
 The InfluxDB storage engine looks very similar to a LSM Tree. It has a write ahead log and a collection of read-only data files which are similar in concept to SSTables in an LSM Tree. TSM files contain sorted, compressed series data.
 InfluxDB will create a[shard](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#shard)for each block of time. For example, if you have a[retention policy](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#retention-policy-rp)with an unlimited duration, shards will be created for each 7 day block of time. Each of these shards maps to an underlying storage engine database. Each of these databases has its own[WAL](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#wal-write-ahead-log)and TSM files.
-**Storage Engine**
+## Storage Engine
 
 The storage engine ties a number of components together and provides the external interface for storing and querying series data. It is composed of a number of components that each serve a particular role:
 -   **In-Memory Index -** The in-memory index is a shared index across shards that provides the quick access to[measurements](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#measurement),[tags](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag), and[series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series). The index is used by the engine, but is not specific to the storage engine itself.
@@ -27,21 +27,21 @@ The storage engine ties a number of components together and provides the externa
 The WAL is organized as a bunch of files that look like_000001.wal. The file numbers are monotonically increasing and referred to as WAL segments. When a segment reaches 10MB in size, it is closed and a new one is opened. Each WAL segment stores multiple compressed blocks of writes and deletes.
 When a write comes in the new points are serialized, compressed using Snappy, and written to a WAL file. The file isfsync'd and the data is added to an in-memory index before a success is returned. This means that batching points together is required to achieve high throughput performance. (Optimal batch size seems to be 5,000-10,000 points per batch for many use cases.)
 Each entry in the WAL follows a[TLV standard](https://en.wikipedia.org/wiki/Type-length-value)with a single byte representing the type of entry (write or delete), a 4 byteuint32for the length of the compressed block, and then the compressed block.
-**TLV Standard**
+## TLV Standard
 
 Within[data communication protocols](https://en.wikipedia.org/wiki/Data_communication_protocol),TLV(type-length-valueortag-length-value) is an encoding scheme used for optional information element in a certain protocol.
 
 The type and length are fixed in size (typically 1-4 bytes), and the value field is of variable size. These fields are used as follows:
 
-**Type**
+## Type
 
 A binary code, often simply alphanumeric, which indicates the kind of field that this part of the message represents;
 
-**Length**
+## Length
 
 The size of the value field (typically in bytes);
 
-**Value**
+## Value
 
 Variable-sized series of bytes which contains data for this part of the message.
 

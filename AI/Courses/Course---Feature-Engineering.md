@@ -16,8 +16,6 @@ Want to know how you can improve the accuracy of your ML models? What about how 
 
 
 
-
-
 Raw Data to Features
 
 Feature engineering is often the longest and most difficult phase of building your ML project. In the feature engineering process, you start with your raw data and use your own domain knowledge to create features that will make your machine learning algorithms work. In this module we explore what makes a good feature and how to represent them in your ML model.
@@ -52,13 +50,11 @@ Feature engineering is often the longest and most difficult phase of building yo
 
 15. **Video:**Lab Solution: Improve model accuracy with new features
 
-**Graded:**Raw Data to Features
+## Graded:Raw Data to Features
 
-**Graded:**Qwiklabs -- Improve model accuracy with new features
+## Graded:Qwiklabs -- Improve model accuracy with new features
 
-**Graded:**Representing Features
-
-
+## Graded:Representing Features
 
 Preprocessing and Feature Creation
 
@@ -86,19 +82,17 @@ This section of the module covers pre-processing and feature creation which are 
 
 11. **Discussion Prompt:**Performing Exploratory Analysis
 
-**Graded:**Preprocessing and Feature Creation
+## Graded:Preprocessing and Feature Creation
 
-**Graded:**Simple Dataflow Pipeline
+## Graded:Simple Dataflow Pipeline
 
-**Graded:**MapReduce in Dataflow
+## Graded:MapReduce in Dataflow
 
-**Graded:**Apache Beam and Cloud Dataflow
+## Graded:Apache Beam and Cloud Dataflow
 
-**Graded:**Computing Time-Windowed Features in Cloud Dataprep
+## Graded:Computing Time-Windowed Features in Cloud Dataprep
 
-**Graded:**Preprocessing with Cloud Dataprep
-
-
+## Graded:Preprocessing with Cloud Dataprep
 
 Feature Crosses
 
@@ -140,11 +134,9 @@ In traditional machine learning, feature crosses don't play much of a role, but 
 
 18. **Video:**Lab Solution (p2): Improve ML Model with Feature Engineering
 
-**Graded:**Feature crosses
+## Graded:Feature crosses
 
-**Graded:**Improve ML Model with Feature Engineering
-
-
+## Graded:Improve ML Model with Feature Engineering
 
 TF Transform
 
@@ -164,10 +156,8 @@ TensorFlow Transform (tf.Transform) is a library for preprocessing data with Ten
 
 7.  **Video:**Lab Solution: Exploring tf.transform
 
-**Graded:**Exploring tf.transform
+## Graded:Exploring tf.transform
 
-**Graded:**tf.transform
-
-
+## Graded:tf.transform
 
 <https://heartbeat.fritz.ai/a-practical-guide-to-feature-engineering-in-python-8326e40747c8>

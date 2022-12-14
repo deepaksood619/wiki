@@ -8,9 +8,7 @@ Modified: 2022-12-10 00:49:02 +0500
 
 <https://lwc.dev
 
-
-
-**CSS in JS**
+## CSS in JS
 
 1.  <https://github.com/vercel/styled-jsx>
 
@@ -46,15 +44,11 @@ Emotion is a performant and flexible CSS-in-JS library. Building on many other C
 
 15. Glamor
 
-
-
 <https://css-tricks.com/a-thorough-analysis-of-css-in-js
 
 <https://blog.bitsrc.io/9-css-in-js-libraries-you-should-know-in-2018-25afb4025b9b>
 
-
-
-**Component Libraries**
+## Component Libraries
 
 1.  Material UI / MaterialUI
 
@@ -65,8 +59,6 @@ Emotion is a performant and flexible CSS-in-JS library. Building on many other C
 4.  React bootstrap - <https://react-bootstrap.github.io
 
 <https://www.toptal.com/bootstrap/react-bootstrap-components>
-
-
 
 5.  ReactStrap - <https://reactstrap.github.io <https://github.com/reactstrap/reactstrap>
 
@@ -88,39 +80,29 @@ Emotion is a performant and flexible CSS-in-JS library. Building on many other C
 
 14. <https://chakra-ui.com
 
-
-
 <https://technostacks.com/blog/react-component-libraries>
 
 <https://www.onestopdevshop.io/best-react-component-library-in-2021
 
 <https://github.com/brillout/awesome-react-components>
 
-
-
-**VueJS**
+## VueJS
 
 <https://element.eleme.io/#/en-US>
 
 <https://madewithvuejs.com/element-ui>
 
-
-
-**Icons -** <https://iconscout.com/blog/best-react-icons-library>
+## Icons - <https://iconscout.com/blog/best-react-icons-library>
 
 <https://www.npmjs.com/package/react-feather>
 
 [google.com/fonts](http://google.com/fonts)
-
-
 
 [**https://mui.com/components/icons/**](https://mui.com/components/icons/)
 
 <https://www.npmjs.com/package/@material-ui/icons>
 
 yarn add @mui/icons-material
-
-
 
 MUI provides icons support in three ways
 
@@ -130,11 +112,7 @@ MUI provides icons support in three ways
 
 3.  With the[Icon](https://mui.com/components/icons/#icon-font-icons)component, a React wrapper for custom font icons
 
-
-
 Whenever possible SVG is preferred as it allows code splitting, supports more icons, and renders faster and better
-
-
 
 react-icons
 
@@ -142,15 +120,11 @@ unicorns
 
 Styled icons
 
-
-
-**Placeholders**
+## Placeholders
 
 placehold.it / placekitten.com / placepuppy.it
 
-
-
-**CSS Frameworks**
+## CSS Frameworks
 -   Bulma (<https://bulma.io) - CSS Framework
 -   **Twitter bootstrap**
 -   **tailwindcss**
@@ -158,17 +132,11 @@ placehold.it / placekitten.com / placepuppy.it
     -   **Tree shaking**
     -   **Autocompletion**
 
-
-
-**Customizing PostCSS Config**
+## Customizing PostCSS Config
 
 Out of the box, with no configuration, Next.js compiles CSS using[PostCSS](https://postcss.org/).
 
-
-
 To customize PostCSS config, you can create a top-level file called[postcss.config.js](https://nextjs.org/docs/advanced-features/customizing-postcss-config#customizing-plugins). This is useful if you're using libraries like[Tailwind CSS](https://tailwindcss.com/).
-
-
 
 Here are the steps to add[Tailwind CSS](https://tailwindcss.com/). We recommend usingpostcss-preset-envandpostcss-flexbugs-fixesto match[Next.js's default behavior](https://nextjs.org/docs/advanced-features/customizing-postcss-config#default-behavior). First, install the packages:
 
@@ -207,8 +175,6 @@ purge: [
 // ...
 }
 
-
-
 <https://tailwindcss.com
 
 
@@ -221,8 +187,6 @@ purge: [
 -   Prime NG
 -   Foundation4 by Zurb
 
-
-
 <https://www.tutorialspoint.com/css/what_is_css.htm>
 
 <https://css-tricks.com
@@ -231,13 +195,9 @@ purge: [
 
 [Learn CSS in 20 Minutes](https://www.youtube.com/watch?v=1PnVor36_40)
 
-
-
 Grunt & Gulp - To combine modules of CSS (Command Line Tools)
 
-
-
-**What are the advantages and caveats of using a CSS framework such as Bootstrap or Foundation? What's the proper way to include frameworks in your workflow?**
+## What are the advantages and caveats of using a CSS framework such as Bootstrap or Foundation? What's the proper way to include frameworks in your workflow?
 -   **Advantages:**Frameworks allow for fast prototyping of layouts, elements and pages, and promote reusability of consistent elements across the whole project. This often eliminates the need of dead end deliverables such as Photoshop mockups or other high-fidelity static sketches. In contrast, the HTML prototypes powered by a framework later evolve into the actual production templates code used by the new site. Another advantage is the myriad of development tools that come with the better frameworks: LESS/SASS preprocessors, variables for key values in the design, builder tools like Grunt/Gulp, ready to use JS scripts for commonly used interactions (modals, carousels and collapsing boxes, among others). Finally, frameworks come with good practices and commonly used pieces of standardized, well documented code built-in, and a large community to turn to when issues arise.
 
 

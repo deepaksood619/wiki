@@ -6,7 +6,7 @@ Modified: 2021-01-30 01:13:06 +0500
 
 ---
 
-**MySQL String Functions**
+## MySQL String Functions
 
 | **Function**                                                                             | **Description**                                                                                     |
 |------------------|------------------------------------------------------|
@@ -44,9 +44,7 @@ Modified: 2021-01-30 01:13:06 +0500
 | [UCASE](https://www.w3schools.com/sql/func_mysql_ucase.asp)                              | Converts a string to upper-case                                                                     |
 | [UPPER](https://www.w3schools.com/sql/func_mysql_upper.asp)                              | Converts a string to upper-case                                                                     |
 
-
-
-**MySQL Numeric Functions**
+## MySQL Numeric Functions
 
 <table>
 <colgroup>
@@ -217,15 +215,11 @@ Modified: 2021-01-30 01:13:06 +0500
 </tbody>
 </table>
 
-
-
-**Median**
+## Median
 
 select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from station) = (select count(s1.id) from station s1 where s1.lat_n > s.lat_n);
 
-
-
-**MySQL Date Functions**
+## MySQL Date Functions
 
 | **Function**                                                                        | **Description**                                                              |
 |--------------------|----------------------------------------------------|
@@ -280,9 +274,7 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 | [YEAR](https://www.w3schools.com/sql/func_mysql_year.asp)                           | Returns the year part for a given date                                       |
 | [YEARWEEK](https://www.w3schools.com/sql/func_mysql_yearweek.asp)                   | Returns the year and week number for a given date                            |
 
-
-
-**MySQL Advanced Functions**
+## MySQL Advanced Functions
 
 <table>
 <colgroup>
@@ -378,17 +370,13 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 </tbody>
 </table>
 
-
-
 <https://database.guide/4-ways-to-replace-null-with-a-different-value-in-mysql
 -   TheIFNULL()function
 -   TheCOALESCE()function
 -   TheIF()function combined with theIS NULL(orIS NOT NULL) operator
 -   TheCASEexpression combined with theIS NULL(orIS NOT NULL) operator
 
-
-
-**Aggregate Functions**
+## Aggregate Functions
 
 | **Name**                                                                                                     | **Description**                                  |
 |--------------------------|----------------------------------------------|
@@ -412,41 +400,31 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 | [VAR_SAMP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-samp)             | Return the sample variance                       |
 | [VARIANCE()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_variance)             | Return the population standard variance          |
 
-
-
-**Window Functions**
+## Window Functions
 
 Window functions can be simply explained as calculation functions similar to aggregating, but where normal aggregating via the GROUP BY clause combines then hides the individual rows being aggregated, window functions have access to individual rows and can add some of the attributes from those rows into the result set.
 
-![Diagram comparing aggregate functions and window functions](media/Functions-image1.png)
+![image](media/Functions-image1.png)
 
 <https://www.toptal.com/sql/intro-to-sql-windows-functions>
 
-**What does a window function in SQL do?**
+## What does a window function in SQL do?
 
 A window function performs calculations over a set of rows, and uses information within the individual rows when required.
 
-
-
-**How is a window aggregate function different from a "group by" aggregate function?**
+## How is a window aggregate function different from a "group by" aggregate function?
 
 With "group by," you can only aggregate columns not in the "group by" clause. Window functions allow you to gather both aggregate and non-aggregate values at once.
 
-
-
-**Can you use more than one window function in a single SELECT statement?**
+## Can you use more than one window function in a single SELECT statement?
 
 Yes, and this is a great advantage, since the window "frames" in each can be based on different filters.
 
-
-
-**Can I access previous data with window functions?**
+## Can I access previous data with window functions?
 
 Yes, you can access both previous and future rows, using the LAG and LEAD functions.
 
-
-
-**Can I generate running totals with window functions?**
+## Can I generate running totals with window functions?
 
 Yes, you can add the ORDER BY clause to produce running totals on each row.
 

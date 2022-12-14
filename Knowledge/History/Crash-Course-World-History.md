@@ -6,7 +6,7 @@ Modified: 2021-11-28 00:06:34 +0500
 
 ---
 
-**Crash Course World History 1**
+## Crash Course World History 1
 
 1.  **The Agriculture Revolution**
     -   **15000 years ago**
@@ -39,8 +39,6 @@ Indus valley civilization
     -   Environmental disaster
     -   Earthquake
 
-
-
 3.  **Mesopotamia**
     -   **writing**
     -   **taxes**
@@ -49,8 +47,6 @@ Indus valley civilization
     -   **Writing giving by mesopotamia - Quinea form**
     -   **Hameorabi - Kingdom of babylon**
     -   **Neo-Assyrian empire (911 BCE - 612 BCE)**
-
-
 
 4.  **Ancient Egypt (3400 BCE - 525 BCE)**
     -   **Nile river shaped the egypt**
@@ -65,39 +61,31 @@ Indus valley civilization
     -   **Heiroglyphics (sacred writing) and demotic script (recording contracts and agreements)**
     -   **King Tut**
 
-
-
 5.  **The Persians & Greeks**
 
 Greeks gave music, democracy, idealization
 
-**Realism -** The view that the subject matter of politics is political power, not matter of principle.
+## Realism - The view that the subject matter of politics is political power, not matter of principle.
 
 Non-rhetorical question - Did the right side win the persian wars?
 
 Persians - Monarchy (one-man rule)
 -   life under persians pretty good (lot more stable and successful empires than democracies in history)
 
-
-
 Greeks / Athenians - Democracy
 -   Government corrupt
 -   Life of women and slaves were very bad
-
-
 
 Real questions of history -
 -   What's the point of being alive
 -   How should we organize ourselves
 -   What should we seek from this life
 
-
-
 6.  **Buddha and Ashoka**
     -   The Vedas (Indus valley civilization)
     -   The caste system
 
-![#1.BRAHMlNS l. #2. KSHATRIYAS VAISYAS L, SUDUS CASTE SYSTEM ](media/Crash-Course-World-History-image1.png)
+![image](media/Crash-Course-World-History-image1.png)
 
 3.  Dharma - One's role in life and society primarily by birth and by caste
 
@@ -138,8 +126,6 @@ Four noble truths
 
 8.  Hinduism is highly flexible because God can take many forms
 
-
-
 7.  **2000 years of Chinese history! The Mandate of Heaven and Confucius**
     -   **Central government and core of bureaucrats that execute the wishes of that government (150 BCE to 1911 CE)**
     -   **Shang dynasty (1600 - 1029 BCE)**
@@ -156,19 +142,13 @@ Four noble truths
     -   **Ming dynasty (1368 - 1644 CE) (built the great wall)**
     -   **Qing dynasty (1644 - 1911 CE)**
 
-
-
 8.  **Alexander the Great and the Situation .. the Great?**
     -   **Alexander of Macedon (356 BCE - 323 BCE)**
     -   **Destroyed the Persian empire**
     -   **After his death the empire broke down into 3 empires called the Hallenistic kingdoms - Antigonids, Seleucids and Ptolemies**
 
-
-
 9.  **The silk road and ancient trade**
     -   **Network of roads**
-
-
 
 10. **The Roman Empire. Or Republic. Or... Which was it?**
 
@@ -236,9 +216,7 @@ Four noble truths
 
 42. Globalization II - Good or Bad?
 
-
-
-**Crash Course World History 2**
+## Crash Course World History 2
 
 1.  Rethinking Civilization
 
@@ -300,8 +278,6 @@ Four noble truths
 29. Capitalism and the Dutch East India Company
 
 30. Democracy, Authoritarian Capitalism, and China
-
-
 
 [Crash Course World History #1](https://www.youtube.com/playlist?list=PLu1rATTEb5flTauK4qgdZ64mTGFBJiJqf)
 

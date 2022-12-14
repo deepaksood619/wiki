@@ -10,9 +10,7 @@ Elasticsearch is a distributed, scalable, real-time search and analytics engine.
 
 A distributed real-time document store whereevery fieldis indexed and searchable
 
-
-
-**Features**
+## Features
 -   Full Text Search
 -   real-time analytics of structured data
 -   Scalable search index
@@ -52,17 +50,13 @@ A distributed real-time document store whereevery fieldis indexed and searchable
 -   Per operation consistency
     -   Single document level operations are atomic, consistent, isolated and durable.
 
-
-
-**Real world use cases**
+## Real world use cases
 -   **Wikipedia** uses Elasticsearch to provide full-text search with highlighted search snippets, andsearch-as-you-typeanddid-you-meansuggestions.
 -   **The Guardian**uses Elasticsearch to combine visitor logs with social -network data to provide real-time feedback to its editors about the public's response to new articles.
 -   **Stack Overflow** combines full-text search with geolocation queries and usesmore-like-thisto find related questions and answers.
 -   **GitHub** uses Elasticsearch to query 130 billion lines of code.
 
-
-
-**Navigating this book**
+## Navigating this book
 -   Chapters[You Know, for Search...](https://www.elastic.co/guide/en/elasticsearch/guide/current/intro.html)through[Inside a Shard](https://www.elastic.co/guide/en/elasticsearch/guide/current/inside-a-shard.html)provide an introduction to Elasticsearch. They explain how to get your data in and out of Elasticsearch, how Elasticsearch interprets the data in your documents, how basic search works, and how to manage indices. Chapters[Life Inside a Cluster](https://www.elastic.co/guide/en/elasticsearch/guide/current/distributed-cluster.html),[Distributed Document Store](https://www.elastic.co/guide/en/elasticsearch/guide/current/distributed-docs.html),[Distributed Search Execution](https://www.elastic.co/guide/en/elasticsearch/guide/current/distributed-search.html), and[Inside a Shard](https://www.elastic.co/guide/en/elasticsearch/guide/current/inside-a-shard.html)are supplemental chapters that provide more insight into the distributed processes at work, but are not required reading.
 -   Chapters[Structured Search](https://www.elastic.co/guide/en/elasticsearch/guide/current/structured-search.html)through[Controlling Relevance](https://www.elastic.co/guide/en/elasticsearch/guide/current/controlling-relevance.html)offer a deep dive into search---how to index and query your data to allow you to take advantage of more-advanced concepts such as word proximity, and partial matching. You will understand how relevance works and how to control it to ensure that the best results are on the first page.
 -   Chapters[Getting Started with Languages](https://www.elastic.co/guide/en/elasticsearch/guide/current/language-intro.html)through[Typoes and Mispelings](https://www.elastic.co/guide/en/elasticsearch/guide/current/fuzzy-matching.html)tackle the thorny subject of dealing with human language through effective use of analyzers and queries. We start with an easy approach to language analysis before diving into the complexities of language, alphabets, and sorting. We cover stemming, stopwords, synonyms, and fuzzy matching.
@@ -71,9 +65,7 @@ A distributed real-time document store whereevery fieldis indexed and searchable
 -   Chapters[Handling Relationships](https://www.elastic.co/guide/en/elasticsearch/guide/current/relations.html)through[Designing for Scale](https://www.elastic.co/guide/en/elasticsearch/guide/current/scale.html)talk about how to model your data to work most efficiently with Elasticsearch. Representing relationships between entities is not as easy in a search engine as it is in a relational database, which has been designed for that purpose. These chapters also explain how to suit your index design to match the flow of data through your system.
 -   Finally, Chapters[Monitoring](https://www.elastic.co/guide/en/elasticsearch/guide/current/cluster-admin.html)through[Post-Deployment](https://www.elastic.co/guide/en/elasticsearch/guide/current/post_deploy.html)discuss moving to production: the important configurations, what to monitor, and how to diagnose and prevent problems.
 
-
-
-**Contents**
+## Contents
 
 1.  **Getting Started**
 
@@ -181,9 +173,7 @@ A distributed real-time document store whereevery fieldis indexed and searchable
 
     c.  Post-Deployment
 
-
-
-**References**
+## References
 
 <https://www.elastic.co/guide/en/elasticsearch/guide/current/index.html>
 

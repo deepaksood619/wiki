@@ -18,7 +18,7 @@ A JavaScript-like path syntax makes it easy to access as much or as little data 
 3.  Bind to the Cloud
 
 Falcor automatically traverses references in your graph and makes requests as needed. Falcor transparently handles all network communications, opportunistically batching and de-duping requests.
-**References**
+## References
 
 <https://netflix.github.io/falcor>
 

@@ -6,15 +6,13 @@ Modified: 2021-11-17 22:39:59 +0500
 
 ---
 
-**Resource Schema Components (Manifests)**
+## Resource Schema Components (Manifests)
 -   GVK (Group Version Kind) aka TypeMeta - apiVersion & Kind
 -   Metadata aka ObjectMeta
 -   Spec
 -   Status (only controllers fills it out)
 
 ![GVK aka T peMeta Metadata aka Ob•ectMeta Spec Status apiVersion : extens /vlbetal kind: ReplicaSet name: namespace : myproject spec : selector : ma tchLabeIs : app : nginx replicas : 5 tetQ1ate : metadata : labels : app : nginx spec : containers : --- name: nginx image : nginx status : availableRep1icas : 1 fullyLabeIedRepIicas : 1 observedGeneration: 1 readyRepIicas : 1 replicas: 1 ](../../media/DevOps-Kubernetes-Kubernetes-Manifests-Examples-image1.png)
-
-
 
 apiVersion: v1
 
@@ -46,8 +44,6 @@ worker_connections 2048;
 
 }
 
-
-
 apiVersion: v1
 
 kind: ConfigMap
@@ -62,13 +58,9 @@ data:
 
 DEBUG: "False"
 
-
-
 AWS_ACCESS_KEY_ID: "AKIAU2R6AAK3P4L7TV7P"
 
 AWS_SECRET_ACCESS_KEY: "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"
-
-
 
 # aws redshift credentials"
 
@@ -82,8 +74,6 @@ REDSHIFT_DB_USER: "sttashuser"
 
 REDSHIFT_DB_PASSWORD: "]8C!uL~]u3~e;K<}"
 
-
-
 # aws mysql credentials"
 
 AURORA_DB_HOST: "dailydb.snapshot.stashfin.com"
@@ -95,8 +85,6 @@ AURORA_DB_DBNAME: "sttash_website_LIVE"
 AURORA_DB_USER: "jawahar.s"
 
 AURORA_DB_PASSWORD: "zvSnjTBKa7GLQxtyE2zf7nTHb3HEv"
-
-
 
 
 
@@ -131,8 +119,6 @@ selector:
 
 name: nginx
 
-
-
 apiVersion: apps/v1
 
 kind: Deployment
@@ -157,17 +143,17 @@ matchLabels:
 
 name: flask-republisher
 
-**minReadySeconds: 10**
+## minReadySeconds: 10
 
-**strategy:**
+## strategy:
 
-**type: RollingUpdate**
+## type: RollingUpdate
 
-**rollingUpdate:**
+## rollingUpdate:
 
-**maxSurge: 1**
+## maxSurge: 1
 
-**maxUnavailable: 0**
+## maxUnavailable: 0
 
 template:
 
@@ -291,11 +277,7 @@ configMap:
 
 name: nginx-configmap
 
-
-
 restartPolicy: Always
-
-
 
 
 
@@ -387,8 +369,6 @@ initialDelaySeconds: 10
 
 periodSeconds: 10
 
-
-
 - name: telegraf
 
 image: telegraf:1.12.3-alpine
@@ -406,8 +386,6 @@ mountPath: /var/log/
 name: kafka-flask-telegraf-config
 
 subPath: telegraf.conf
-
-
 
 - name: logrotate
 
@@ -479,42 +457,36 @@ emptyDir: {}
 
 restartPolicy: Always
 
-
-
 <https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume
 
 
 
+## kind:PersistentVolumeClaim
 
+## apiVersion:v1
 
-**kind**:PersistentVolumeClaim
+## metadata:
 
-**apiVersion**:v1
+## name:alertdriver-pvc
 
-**metadata**:
+## namespace:monitoring
 
-**name**:alertdriver-pvc
+## spec:
 
-**namespace**:monitoring
+## #for attaching again to same pv
 
-**spec**:
+## volumeName:pvc-0ad81c1b-fef6-11e9-9e23-3e36fc17cb95
 
-**#for attaching again to same pv**
+## storageClassName:managed-premium-retain
 
-**volumeName:pvc-0ad81c1b-fef6-11e9-9e23-3e36fc17cb95**
-
-**storageClassName**:managed-premium-retain
-
-**accessModes**:
+## accessModes:
 -   ReadWriteOnce
 
-**resources**:
+## resources:
 
-**requests**:
+## requests:
 
-**storage**:1Gi
-
-
+## storage:1Gi
 
 apiVersion: batch/v1beta1
 kind: CronJob
@@ -549,9 +521,7 @@ volumes:
 persistentVolumeClaim:
 claimName: zenalytix-pvc
 
-
-
-**StatefulSet**
+## StatefulSet
 
 apiVersion: apps/v1
 
@@ -571,9 +541,7 @@ spec:
 
 serviceName: jupyterlab
 
-
-
-**HPA**
+## HPA
 
 apiVersion: autoscaling/v2beta2
 

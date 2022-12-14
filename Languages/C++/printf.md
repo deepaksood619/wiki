@@ -10,11 +10,7 @@ A*format specifier*follows this prototype:
 
 %[flags][width][.precision][length]specifier
 
-
-
 Where the*specifier character*at the end is the most significant component, since it defines the type and the interpretation of its corresponding argument:
-
-
 
 <table>
 <colgroup>
@@ -125,11 +121,7 @@ Where the*specifier character*at the end is the most significant component, sinc
 </tbody>
 </table>
 
-
-
 The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision*and*modifiers*(in that order), which are optional and follow these specifications:
-
-
 
 <table>
 <colgroup>
@@ -167,14 +159,10 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 </tbody>
 </table>
 
-
-
 | ***width*** | **description**                                                                                                                                                                                      |
 |----------|--------------------------------------------------------------|
 | *(number)*  | Minimum number of characters to be printed. If the value to be printed is shorter than this number, the result is padded with blank spaces. The value is not truncated even if the result is larger. |
 | *          | The*width*is not specified in the*format*string, but as an additional integer value argument preceding the argument that has to be formatted.                                                    |
-
-
 
 <table>
 <colgroup>
@@ -205,8 +193,6 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 
 The*length*sub-specifier modifies the length of the data type. This is a chart showing the types used to interpret the corresponding arguments with and without*length*specifier (if a different type is used, the proper type promotion or conversion is performed, if allowed):
 
-
-
 |             | **specifiers**                                  |                                                |                    |                                          |          |       |                                                  |
 |--------|----------|-------------|----------|--------|---------|--------|---------|
 | ***length*** | **d i**                                         | **u o x X**                                     | **f F e E g G a A** | **c**                                     | **s**     | **p**  | **n**                                             |
@@ -222,22 +208,14 @@ The*length*sub-specifier modifies the length of the data type. This is a chart s
 
 Note regarding thecspecifier: it takes anint(or[wint_t](http://www.cplusplus.com/wint_t)) as argument, but performs the proper conversion to acharvalue (or awchar_t) before formatting it for output.
 
-
-
-**Return Value**
+## Return Value
 
 On success, the total number of characters written is returned.
 
-
-
 If a writing error occurs, the*error indicator*([ferror](http://www.cplusplus.com/ferror)) is set and a negative number is returned.
-
-
 
 If a multibyte character encoding error occurs while writing wide characters,[errno](http://www.cplusplus.com/errno)is set toEILSEQand a negative number is returned.
 
-
-
-**Reference**
+## Reference
 
 <http://www.cplusplus.com/reference/cstdio/printf

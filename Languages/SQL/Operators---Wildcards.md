@@ -6,7 +6,7 @@ Modified: 2021-12-01 16:15:07 +0500
 
 ---
 
-**SQL Arithmetic Operators**
+## SQL Arithmetic Operators
 
 | **Operator** | **Description** |
 |--------------|-----------------|
@@ -16,9 +16,7 @@ Modified: 2021-12-01 16:15:07 +0500
 | /            | Divide          |
 | %           | Modulo          |
 
-
-
-**SQL Bitwise Operators**
+## SQL Bitwise Operators
 
 | **Operator** | **Description**      |
 |--------------|----------------------|
@@ -26,9 +24,7 @@ Modified: 2021-12-01 16:15:07 +0500
 | |           | Bitwise OR           |
 | ^           | Bitwise exclusive OR |
 
-
-
-**SQL Comparison Operators**
+## SQL Comparison Operators
 
 <table>
 <colgroup>
@@ -74,9 +70,7 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 </tbody>
 </table>
 
-
-
-**SQL Compound Operators**
+## SQL Compound Operators
 
 | **Operator** | **Description**          |
 |--------------|--------------------------|
@@ -89,9 +83,7 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | ^-=         | Bitwise exclusive equals |
 | |*=        | Bitwise OR equals        |
 
-
-
-**SQL Logical Operators**
+## SQL Logical Operators
 
 | **Operator** | **Description**                                              |
 |--------------|----------------------------------------------------------|
@@ -106,13 +98,9 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | OR           | TRUE if any of the conditions separated by OR is TRUE        |
 | SOME         | TRUE if any of the subquery values meet the condition        |
 
-
-
 <https://www.w3schools.com/sql/sql_operators.asp>
 
-
-
-**Wildcard Characters in MS Access**
+## Wildcard Characters in MS Access
 
 | **Symbol** | **Description**                                     | **Example**                                                    |
 |---------|------------------------------|---------------------------------|
@@ -123,9 +111,7 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | -         | Represents a range of characters                    | c[a-b]t finds cat and cbt                                    |
 | #         | Represents any single numeric character             | 2#5 finds 205, 215, 225, 235, 245, 255, 265, 275, 285, and 295 |
 
-
-
-**Wildcard Characters in SQL Server**
+## Wildcard Characters in SQL Server
 
 | **Symbol** | **Description**                                     | **Example**                               |
 |---------|-------------------------------------|--------------------------|
@@ -134,7 +120,5 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | []       | Represents any single character within the brackets | h[oa]t finds hot and hat, but not hit   |
 | ^         | Represents any character not in the brackets        | h[^oa]t finds hit, but not hot and hat |
 | -         | Represents a range of characters                    | c[a-b]t finds cat and cbt               |
-
-
 
 <https://www.w3schools.com/sql/sql_wildcards.asp>

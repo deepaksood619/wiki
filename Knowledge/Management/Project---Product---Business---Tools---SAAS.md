@@ -14,11 +14,7 @@ AppFlowy is an open-source alternative to Notion. You are in charge of your data
 
 <https://github.com/AppFlowy-IO/appflowy>
 
-
-
 <https://www.focalboard.com - Alternative to Asana / Trello / Notion
-
-
 
 2.  Free Open Source / Self hosted - <https://www.taiga.io
 
@@ -53,8 +49,6 @@ The conceptual data model breaks down like this:
 <https://rows.com
 
 <https://www.notboring.co/p/idea-legos>
-
-
 
 <https://www.nocodb.com (Airtable Alternative)
 
@@ -126,11 +120,7 @@ Mailman (batches incoming email and keeps brain from getting distracted by the e
 
 26. <https://attentioninsight.com
 
-
-
 <https://github.com/ripienaar/free-for-dev> <https://free-for.dev/#
-
-
 
 The tools of a successful product manager
 -   Confluence - The information library (Alternative - <https://www.bookstackapp.com)
@@ -140,18 +130,12 @@ The tools of a successful product manager
 -   Evernote / Onenote - The note taker (Meetings)
 -   <https://trends.google.com/trends
 
-
-
 <https://gitlabcalendar.kontrollfeld.com
 
-
-
-**Team Building**
+## Team Building
 
 <https://www.funretrospectives.com
 
-
-
-**Good Products**
+## Good Products
 
 <https://www.credly.com

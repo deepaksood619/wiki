@@ -6,10 +6,10 @@ Modified: 2019-10-14 11:32:39 +0500
 
 ---
 
-**Logs -**
+## Logs -
 
 A log is perhaps the simplest possible storage abstraction. It is an append-only, totally-ordered sequence of records ordered by time. It looks like this:
-![1st Record Next Record Written ](media/Distributed-Logging-image1.png)
+![image](media/Distributed-Logging-image1.png)
 Database people generally differentiate between*physical*and*logical*logging. **Physical logging** means logging the contents of each row that is changed. **Logical logging** means logging not the changed rows but the SQL commands that lead to the row changes (the insert, update, and delete statements).
 Every programmer is familiar with another definition of logging---the unstructured error messages or trace info an application might write out to a local file using syslog or log4j. For clarity I will call this **"application logging".**
 Logging can be used for -
@@ -19,12 +19,12 @@ Logging can be used for -
 2.  **Real-time data processing---**Computing derived data streams.
 
 3.  **Distributed system design---**How practical systems can by simplified with a log-centric design.
-**Logs Type**
+## Logs Type
 
 1.  Common log format
 
 2.  Combined log format - (Common log format + referrer + user-agent)
-**Basics of logging**
+## Basics of logging
 
 1.  Aggregate your logs
 
@@ -35,16 +35,16 @@ Logging can be used for -
 4.  Log metrics
 
 5.  Structured log format
-**Logging Best Practices**
+## Logging Best Practices
 -   Who was using the system when it failed?
 -   Where in the code did the application fail?
 -   What was the system doing when it failed?
 -   When did the failure occur?
 -   Why did the application fail?
-**Common Log Format**
+## Common Log Format
 
 The format is extended by the[Combined Log Format](https://en.wikipedia.org/w/index.php?title=Combined_Log_Format&action=edit&redlink=1)with[referrer](https://en.wikipedia.org/wiki/Referrer)and[user-agent](https://en.wikipedia.org/wiki/User-agent)fields.
-**Example**
+## Example
 
 127.0.0.1 user-identifier frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
 A "-" in a field indicates missing data.-   127.0.0.1is the IP address of the client (remote host) which made the request to the server.
@@ -58,7 +58,7 @@ A "-" in a field indicates missing data.-   127.0.0.1is the IP address of the cl
 ## Tools**
 
 1.  ELK
-**References**
+## References
 
 <https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying>
 

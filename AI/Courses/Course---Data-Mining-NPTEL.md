@@ -8,13 +8,9 @@ Modified: 2021-06-19 14:06:55 +0500
 
 Data mining is study of algorithms for finding patterns in large data sets. It is an integral part of modern industry, where data from its operations and customers are mined for gaining business insight. It is also important in modern scientific endeavors. Data mining is an interdisciplinary topic involving, databases, machine learning and algorithms.
 
-
-
 Data Mining by Pabitra Mitra, CSE, IIT Kharagpur
 
-
-
-**Syllabus**
+## Syllabus
 
 1.  Introduction, Data Preprocessing
 
@@ -39,7 +35,5 @@ Data Mining by Pabitra Mitra, CSE, IIT Kharagpur
 7.  Evaluation, Visualization.
 
 8.  Regression Case studies
-
-
 
 <https://onlinecourses.nptel.ac.in/noc19_cs15/course>

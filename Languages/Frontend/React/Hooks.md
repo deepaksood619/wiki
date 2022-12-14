@@ -14,31 +14,21 @@ Modified: 2022-04-24 16:29:10 +0500
 -   [7. Hooks API Reference](https://reactjs.org/docs/hooks-reference.html)
 -   [8. Hooks FAQ](https://reactjs.org/docs/hooks-faq.html)
 
-
-
-**What is a Hook?**
+## What is a Hook?
 
 Hooks are functions that let you "hook into" React state and lifecycle features from function components. Hooks don't work inside classes --- they let you use React without classes.
 
-
-
 React provides a few built-in Hooks likeuseState. You can also create your own Hooks to reuse stateful behavior between different components.
 
-
-
-**When would I use a Hook?**
+## When would I use a Hook?
 
 If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component. We're going to do that right now!
 
-
-
-**Rules**
+## Rules
 -   Only call Hooks**at the top level**. Don't call Hooks inside loops, conditions, or nested functions.
 -   Only call Hooks**from React function components**. Don't call Hooks from regular JavaScript functions.
 
-
-
-**Hooks**
+## Hooks
 -   [**Basic Hooks**](https://reactjs.org/docs/hooks-reference.html#basic-hooks)
     -   [useState](https://reactjs.org/docs/hooks-reference.html#usestate)
     -   [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)
@@ -52,17 +42,11 @@ If you write a function component and realize you need to add some state to it, 
     -   [useLayoutEffect](https://reactjs.org/docs/hooks-reference.html#uselayouteffect)
     -   [useDebugValue](https://reactjs.org/docs/hooks-reference.html#usedebugvalue)
 
-
-
 1.  **useEffect / Effect Hook**
 
 You've likely performed data fetching, subscriptions, or manually changing the DOM from React components before. We call these operations "side effects" (or "effects" for short) because they can affect other components and can't be done during rendering
 
-
-
 The Effect Hook,useEffect, adds the ability to perform side effects from a function component. It serves the same purpose as componentDidMount, componentDidUpdate, andcomponentWillUnmount in React classes, but unified into a single API
-
-
 
 There are two common kinds of side effects in React components: those that don't require cleanup, and those that do.
 -   Effects without cleanup
@@ -71,8 +55,6 @@ Network requests, manual DOM mutations, and logging are common examples of effec
 -   Effects with cleanup
 
 If your effect returns a function, React will run it when it is time to clean up
-
-
 
 useEffect(() => {
 
@@ -94,17 +76,13 @@ ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
 
 });
 
-
-
 2.  **useMemo**
 
 The useMemo is a hook used in the functional component of react that returns a memoized value.
 
 <https://www.geeksforgeeks.org/react-js-usememo-hook
 
-
-
-**Lifecycle components and Hooks Equivalent**
+## Lifecycle components and Hooks Equivalent
 -   constructor: Function components don't need a constructor. You can initialize the state in the[useState](https://reactjs.org/docs/hooks-reference.html#usestate)call. If computing the initial state is expensive, you can pass a function touseState.
 -   getDerivedStateFromProps: Schedule an update[while rendering](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-getderivedstatefromprops)instead.
 -   shouldComponentUpdate: SeeReact.memo[below](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate).
@@ -112,15 +90,11 @@ The useMemo is a hook used in the functional component of react that returns a m
 -   componentDidMount,componentDidUpdate,componentWillUnmount: The[useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect)can express all combinations of these (including[less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates)cases).
 -   getSnapshotBeforeUpdate,componentDidCatchandgetDerivedStateFromError: There are no Hook equivalents for these methods yet, but they will be added soon.
 
+## Examples
 
-
-**Examples**
-
-**# Hooks**
+## # Hooks
 
 import React, { useState, useEffect } from 'react';
-
-
 
 function Example() {
 
@@ -154,9 +128,7 @@ Click me
 
 }
 
-
-
-**# Search using axios async await api**
+## # Search using axios async await api
 
 import React, { useState, useEffect } from "react";
 
@@ -218,23 +190,15 @@ const rootElement = document.getElementById("root");
 
 ReactDOM.render(<SearchResults , rootElement);
 
-
-
 <https://medium.com/programming-essentials/how-to-create-a-digital-clock-with-react-hooks-aa30f76cfe3f>
 
 useState()
 
 We need to create the timer only once when the component is first rendered.
 
-
-
 When we pass an empty array as the second argument touseEffectit runs the callback function only once.
 
-
-
 Some effects require clean-ups, like our timer. When the component unmounts we need to stop the timer.
-
-
 
 import { useEffect, useState } from "react";
 
@@ -299,8 +263,6 @@ textAlign: "center",
 }
 
 export default DigitalClock;
-
-
 
 <https://www.toptal.com/react-hooks/stale-while-revalidate>
 

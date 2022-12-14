@@ -8,8 +8,6 @@ Modified: 2022-01-30 11:58:21 +0500
 
 [India](https://en.wikipedia.org/wiki/India)is a[federal](https://en.wikipedia.org/wiki/Federalism)union comprising 28[states](https://en.wikipedia.org/wiki/Federated_state)and 9[union territories](https://en.wikipedia.org/wiki/Union_territory), for a total of 37 entities. The states and union territories are further subdivided into[districts](https://en.wikipedia.org/wiki/List_of_districts_in_India)and smaller[administrative divisions](https://en.wikipedia.org/wiki/Administrative_divisions_of_India).
 
-
-
 <table>
 <colgroup>
 <col style="width: 7%" />
@@ -418,8 +416,6 @@ Modified: 2022-01-30 11:58:21 +0500
 -   [**^Note 1**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_1)Andhra Pradesh was divided into two states,[Telangana](https://en.wikipedia.org/wiki/Telangana)and a residual[Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh)on 2 June 2014.^[[46]](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-The_Times_Of_India-48)[[47]](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-APGazetteMar1-49)[[48]](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-APGazetteMar4-50)^[Hyderabad](https://en.wikipedia.org/wiki/Hyderabad,_India), located entirely within the borders of Telangana, is to serve as the capital for both states for a period of time not exceeding ten years.[^[49]^](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-51)The Government of Andhra Pradesh and the Andhra Pradesh Legislature completed the process of relocating to temporary facilities in the envisaged new capital city[Amaravati](https://en.wikipedia.org/wiki/Amaravati)in early 2017.[^[37]^](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-gulte.com-37)
 -   [**^Note 2**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_2)Dehradun is the interim capital of Uttarakhand. The town of[Gairsain](https://en.wikipedia.org/wiki/Gairsain)is envisaged as the state's new capital.
 
-
-
 <table>
 <colgroup>
 <col style="width: 10%" />
@@ -554,25 +550,17 @@ Modified: 2022-01-30 11:58:21 +0500
 -   [**^Note 3**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_3)Jammu and Kashmir has 42,241 km^2^of area administered by India and 13,297 km^2^of area controlled by[Pakistan](https://en.wikipedia.org/wiki/Pakistan)under[Azad Kashmir](https://en.wikipedia.org/wiki/Azad_Kashmir)which is claimed by India as part of Jammu and Kashmir.
 -   [**^Note 4**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_4)Ladakh has 59,146 km^2^of area administered by India and 72,971 km^2^of area controlled by[Pakistan](https://en.wikipedia.org/wiki/Pakistan)under[Gilgit-Baltistan](https://en.wikipedia.org/wiki/Gilgit-Baltistan), which is claimed by India as part of Ladakh. Additionally, it has 5,180 km^2^of area controlled by the[People's Republic of China](https://en.wikipedia.org/wiki/People%27s_Republic_of_China)under[Trans-Karakoram Tract](https://en.wikipedia.org/wiki/Trans-Karakoram_Tract)and 37,555 km^2^of area controlled by the[People's Republic of China](https://en.wikipedia.org/wiki/People%27s_Republic_of_China)under[Aksai Chin](https://en.wikipedia.org/wiki/Aksai_Chin), which is claimed by India as part of Ladakh.
 
-
-
-**Adminstrative Divisions of India**
+## Adminstrative Divisions of India
 
 Indian states and territories frequently use different local titles for the same level of subdivision (e.g., the[*mandals*](https://en.wikipedia.org/wiki/Mandal_(country_subdivision))of[Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh)and[Telangana](https://en.wikipedia.org/wiki/Telangana)correspond to[*tehsils*](https://en.wikipedia.org/wiki/Tehsil)of[Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh)and other[Hindi-speaking states](https://en.wikipedia.org/wiki/Hindi_Belt)but to[*talukas*](https://en.wikipedia.org/wiki/Taluka)of[Gujarat](https://en.wikipedia.org/wiki/Gujarat),[Goa](https://en.wikipedia.org/wiki/Goa),[Karnataka](https://en.wikipedia.org/wiki/Karnataka),[Kerala](https://en.wikipedia.org/wiki/Kerala),[Maharashtra](https://en.wikipedia.org/wiki/Maharashtra), and[Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu)).[^[1]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-1)
 
+## Tiers of India
 
+![image](media/Indian-States-and-UTs-image1.png)
 
-**Tiers of India**
-
-![Country (i.e. INDIA) State (e.g. West Bengal State) Division (e.g. Presidency Division) District (e.g. Nadia District) Subdivision (e.g. Katwa subdivision) Block (e.g. Jhargram Block) ](media/Indian-States-and-UTs-image1.png)
-
-
-
-**Zones**
+## Zones
 
 ![](media/Indian-States-and-UTs-image2.png)
-
-
 
 The States have been grouped into six zones having an Advisory Council "to develop the habit of cooperative working" among these States.[Zonal Councils](https://en.wikipedia.org/wiki/Zonal_Council)were set up vide Part-III of the[States Reorganisation Act](https://en.wikipedia.org/wiki/States_Reorganisation_Act), 1956. The North Eastern States' special problems are addressed by another statutory body - The North Eastern Council, created by the North Eastern Council Act, 1971.[^[2]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-2)The present composition of each of these Zonal Councils is as under:[^[3]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-3)
 -   [Northern Zonal Council](https://en.wikipedia.org/wiki/Northern_Zonal_Council), comprising[Chandigarh](https://en.wikipedia.org/wiki/Chandigarh),[Delhi](https://en.wikipedia.org/wiki/Delhi),[Haryana](https://en.wikipedia.org/wiki/Haryana),[Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh),[Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)),[Ladakh](https://en.wikipedia.org/wiki/Ladakh),[Punjab](https://en.wikipedia.org/wiki/Punjab,_India), and[Rajasthan](https://en.wikipedia.org/wiki/Rajasthan);

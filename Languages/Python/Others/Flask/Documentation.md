@@ -10,9 +10,7 @@ Flask depends on the[Jinja](https://www.palletsprojects.com/p/jinja/)template en
 -   [Jinja documentation](http://jinja.pocoo.org/docs)
 -   [Werkzeug documentation](https://werkzeug.palletsprojects.com/)
 
-
-
-**Documentation**
+## Documentation
 -   [Foreword](https://flask.palletsprojects.com/en/1.1.x/foreword/)
     -   [What does "micro" mean?](https://flask.palletsprojects.com/en/1.1.x/foreword/#what-does-micro-mean)
     -   [Configuration and Conventions](https://flask.palletsprojects.com/en/1.1.x/foreword/#configuration-and-conventions)
@@ -198,9 +196,7 @@ Flask uses a concept of*blueprints*for making application components and support
     -   [Scale like a pro.](https://flask.palletsprojects.com/en/1.1.x/becomingbig/#scale-like-a-pro)
     -   [Discuss with the community.](https://flask.palletsprojects.com/en/1.1.x/becomingbig/#discuss-with-the-community)
 
-
-
-**Additional Notes**
+## Additional Notes
 -   [Design Decisions in Flask](https://flask.palletsprojects.com/en/1.1.x/design/)
     -   [The Explicit Application Object](https://flask.palletsprojects.com/en/1.1.x/design/#the-explicit-application-object)
     -   [The Routing System](https://flask.palletsprojects.com/en/1.1.x/design/#the-routing-system)
@@ -239,7 +235,5 @@ Flask uses a concept of*blueprints*for making application components and support
     -   [Naming Conventions](https://flask.palletsprojects.com/en/1.1.x/styleguide/#naming-conventions)
     -   [Docstrings](https://flask.palletsprojects.com/en/1.1.x/styleguide/#docstrings)
     -   [Comments](https://flask.palletsprojects.com/en/1.1.x/styleguide/#comments)
-
-
 
 <https://flask.palletsprojects.com/en/1.1.x

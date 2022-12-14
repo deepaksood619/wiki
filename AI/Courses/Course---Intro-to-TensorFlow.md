@@ -8,7 +8,7 @@ Modified: 2021-06-19 14:14:03 +0500
 
 <https://www.youtube.com/watch?v=tPYj3fFJGjk>
 
-**Core TensorFlow**
+## Core TensorFlow
 
 We will introduce you to the core components of TensorFlow and you will get hands-on practice building machine learning programs. You will compare and write lazy evaluation and imperative programs, work with graphs, sessions, variables, as finally debug TensorFlow programs.
 
@@ -62,9 +62,7 @@ Graded:Qwiklabs -- Writing low-level TensorFlow programs
 
 Graded:Core TensorFlow
 
-
-
-**Estimator API**
+## Estimator API
 
 1.  [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-ghJIP)
 
@@ -110,9 +108,7 @@ Graded:Qwiklabs -- Creating a distributed training TensorFlow model with Estimat
 
 Graded:Estimator API
 
-
-
-**Scaling TensorFlow models with CMLE (Cloud Machine Learning Engine)**
+## Scaling TensorFlow models with CMLE (Cloud Machine Learning Engine)
 
 1.  [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-oygc7)
 

@@ -8,8 +8,6 @@ Modified: 2022-01-07 15:29:44 +0500
 
 ![No alternative text description for this image](../../../media/DevOps-Terminal-Bash-Networking-tools-image1.jpg)
 
-
-
 <https://haydenjames.io/linux-networking-commands-scripts
 
 1.  [aria2](https://aria2.github.io/)--downloading just about everything. Torrents included.
@@ -136,23 +134,15 @@ Modified: 2022-01-07 15:29:44 +0500
 
 <https://github.com/fatedier/frp>
 
-
-
-**magic-wormhole**
+## magic-wormhole
 
 get things from one computer to another, safely
 
-
-
 brew install magic-wormhole
-
-
 
 wormhole send /path/to/file
 
 wormhole receive 4-yucatan-reform
-
-
 
 <https://github.com/magic-wormhole/magic-wormhole>
 

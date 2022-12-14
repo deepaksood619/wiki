@@ -40,15 +40,15 @@ Modified: 2018-12-30 18:49:26 +0500
     b.  Scalar multiplication (increasing the length of a vector by a given number)
 
 2.  **Linear combinations, span and basis vectors**
-![and J are t e "basis vectors" of the xy coordinate system ](media/3Blue1Brown-image1.png)
+![image](media/3Blue1Brown-image1.png)
 
 called as i hat and j hat
-![of v and is the The span" set of all their linear combinations. Let a and b vary ver„all„real„numbers ](media/3Blue1Brown-image2.png)
-**Linearly dependent vectors -** If one vector can be removed without changing the span of the vectors. i.e. one of the vectors can be expressed as a linear combination of the other vector.
+![image](media/3Blue1Brown-image2.png)
+## Linearly dependent vectors - If one vector can be removed without changing the span of the vectors. i.e. one of the vectors can be expressed as a linear combination of the other vector.
 
-!["Linearly dependent" u For some values of a and b ](media/3Blue1Brown-image3.png)
-!["Linearly independent" u all values of a and b For ](media/3Blue1Brown-image4.png)
-**Basis -** The **basis** of a vector space is a set of linearly independent vectors that span the full space.
+![image](media/3Blue1Brown-image3.png)
+![image](media/3Blue1Brown-image4.png)
+## Basis -** The **basis of a vector space is a set of linearly independent vectors that span the full space.
 3.  **Linear Transformations and Matrices**
 
 For transformations to be linear, there are two property
@@ -60,7 +60,7 @@ Grid lines remain parallel and evenly spaced
 
 If you apply a rotation transformation followed by a shear transformation, the combined effect is a composition of both rotation and shear transformation
 
-![Shear Rotation Composition ](media/3Blue1Brown-image5.png)
+![image](media/3Blue1Brown-image5.png)
 In matrix multiplication, order matters
 
 ![ITV 「 ](media/3Blue1Brown-image6.png)
@@ -80,13 +80,13 @@ Volume of the parallelepiped
 
 ![det l) ad bc ](media/3Blue1Brown-image8.png)
 ![det a det det ](media/3Blue1Brown-image9.png)
-![det(M M ) det (Ml) det ( ](media/3Blue1Brown-image10.png)
+![image](media/3Blue1Brown-image10.png)
 7.  **Inverse matrices, column space, rank and null space**
     -   **Gaussian Elimination**
     -   **Row echelon form**
     -   **Linear system of equations**
 
-![2x+5y+3z 4x+0y+8z 1x+3y+0z ](media/3Blue1Brown-image11.png)-   Inverse Transformation
+![image](media/3Blue1Brown-image11.png)-   Inverse Transformation
 
 A^-1^ A = [[1 0] [0 1]] Identity Transformation (changes nothing)
 
@@ -102,43 +102,43 @@ In Ax = v, when v happens to be the zero vector, null space gives all of the pos
 8.  **Non Square Matrices as transformations between dimensions**
     -   **A 2x3 matrix i.e. there are 2 rows and 3 columns represent that the transformation starts in 3 dimension and the landing space is represented in 2 dimension**
 
-![3 basis vectors 3 1 1 5 4 9 2 coordinates for each landing spots ](media/3Blue1Brown-image12.png)
+![image](media/3Blue1Brown-image12.png)
 9.  **Dot products and duality**
 
 Matching coordinates, multiplying pair and adding them together.
 
 ![Dot product ](media/3Blue1Brown-image13.png)
 If we projected vector w onto the line that passes through the origin and the tip of vector v, multiplying the length of this projection, by the length of v, we have the dot product.
-![Length of projected of ](media/3Blue1Brown-image14.png)
-![Length of rojected w) Length of v) Should be negative ](media/3Blue1Brown-image15.png)-   If vectors are pointing in the same direction, then the dot product is positive
+![image](media/3Blue1Brown-image14.png)
+![image](media/3Blue1Brown-image15.png)-   If vectors are pointing in the same direction, then the dot product is positive
 -   If vectors are perpendicular to each other, there dot product is 0
 -   If vectors are pointing in the opposing direction, then there dot product is negative
 -   Order doesn't matter, V.W = W.V
 -   Dot product is a very useful geometric tool for understanding projections, and for testing whether or not vectors tend to point in the same direction
 10. **Cross Products**
 
-![Area of parallelogram ](media/3Blue1Brown-image16.png)
+![image](media/3Blue1Brown-image16.png)
 If v is to the right of w, than cross product is positive
 
-![Area of parallelogram ositive ](media/3Blue1Brown-image17.png)
+![image](media/3Blue1Brown-image17.png)
 If v is to the left of w, than cross product is negative
 
-![Area of parallelogra egative ](media/3Blue1Brown-image18.png)
+![image](media/3Blue1Brown-image18.png)
 ![](media/3Blue1Brown-image19.png)
 ![V det ](media/3Blue1Brown-image20.png)-   Cross product of two perpendicular vectors are greater than the vectors that are pointing in very similar direction
 -   If we scale a vector by a factor of a, than area of parallelogram also scales up by a factor of a
 
 ![](media/3Blue1Brown-image21.png)
 Cross product of two vectors is a vector that is the area of the parallelogram and is perpendicular to the parallelogram and in the direction of the thumb of the right hand rule.
-![vector With length 2.5 Perpendicular to the parallelogram ](media/3Blue1Brown-image22.png)
+![image](media/3Blue1Brown-image22.png)
 ![マ マ ](media/3Blue1Brown-image23.png)
-![x 102 ΙΙ)3 101 • 122 ](media/3Blue1Brown-image24.png)
-![02 x 03 --- det 03 V3W1---VIW3 + ](media/3Blue1Brown-image25.png)
+![image](media/3Blue1Brown-image24.png)
+![image](media/3Blue1Brown-image25.png)
 11. **Cross Product in the light of linear transformations**
-![Dual vector Transform t.....-l,.,., Some linear transformation to the number line 2 1 2 1 ](media/3Blue1Brown-image26.png)
-![Pl P2 Y = det Y 02 rujl 02 03 03 • 02 Pl ](media/3Blue1Brown-image27.png)
+![image](media/3Blue1Brown-image26.png)
+![image](media/3Blue1Brown-image27.png)
 ![](media/3Blue1Brown-image28.png)
-![What vector p has the property that PI Y = det ](media/3Blue1Brown-image29.png)
+![image](media/3Blue1Brown-image29.png)
 12. **Change of basis**
     -   **Coordinate system**
     -   **Alternate coordinate system**
@@ -149,15 +149,15 @@ Cross product of two vectors is a vector that is the area of the parallelogram a
         -   **Translate it to our language using change of basis matrix**
         -   **Apply transformation matrix in our language, this tells us where that vector lands but still in our language**
         -   **Apply the inverse change of basis matrix to get the transformed vector but in Jennifer's language**
-![Same vector language in our Transformation matrix language m our ](media/3Blue1Brown-image30.png)
-![How to translate a matrix Transformed vector her language in 2 1 1 1 1 O 1 1 O 2 1 1 1 1 2 I livers e change of basis matrix ](media/3Blue1Brown-image31.png)
-![An expression like suggests a mathematical sort of empathy ](media/3Blue1Brown-image32.png)
+![image](media/3Blue1Brown-image30.png)
+![image](media/3Blue1Brown-image31.png)
+![image](media/3Blue1Brown-image32.png)
 13. **Eigenvectors and eigenvalues**
 
 Eigenvectors - the vectors that doesn't change its span after a transformation. The factor by which they are changed (either stretched or squished) during the transformation is eigenvalue.
-![4 igenvectors with ei envalue 3 ](media/3Blue1Brown-image33.png)
-![Transformation Eigenvalue matrix Eigenvector ](media/3Blue1Brown-image34.png)
-![Matrix-vector multiplication Scalar multiplication ](media/3Blue1Brown-image35.png)-   Negative eigenvalue corresponds to flipping during transformation
+![image](media/3Blue1Brown-image33.png)
+![image](media/3Blue1Brown-image34.png)
+![image](media/3Blue1Brown-image35.png)-   Negative eigenvalue corresponds to flipping during transformation
 -   There could be no eigenvectors in a transformation
 
 Ex - Rotation by 90 degrees
@@ -174,12 +174,12 @@ We can change our coordinate system so that our eigenvectors are our basis vecto
 ![Eigen QSis ](media/3Blue1Brown-image37.png)
 14. **Abstract Vector Spaces**
 
-![Formal definition of linearity dditivity:L(V + L V) + Scaling:L( L(V) ](media/3Blue1Brown-image38.png)-   Additivity - If you add two vectors and then perform a transformation, the result is same vector for the transformed addition of vectors and the previous addition vector.
+![image](media/3Blue1Brown-image38.png)-   Additivity - If you add two vectors and then perform a transformation, the result is same vector for the transformed addition of vectors and the previous addition vector.
 -   Scaling - Is if you scale a vector v by some number, then apply the transformation, you get the same ultimate vector as if you scale the transformed version of v by that same amount.
 -   Linear transformations preserve addition and scalar multiplication
-![Rules for vectors addition and scaling 3. There is a vector O such that O + v 4. For every vector v there is a vector (bv) 5. v for all v v so that V + ( ---V) Axioms ](media/3Blue1Brown-image39.png)
+![image](media/3Blue1Brown-image39.png)
 
-**References**
+## References
 
 [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 ![Vectors vs. ](media/3Blue1Brown-image40.jpg)

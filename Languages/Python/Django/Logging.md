@@ -8,8 +8,6 @@ Modified: 2020-07-21 21:10:28 +0500
 
 Django uses Python's builtin logging module to perform system logging.
 
-
-
 A Python logging configuration consists of four parts:
 -   Loggers
 
@@ -20,15 +18,9 @@ A logger is the entry point into the logging system. Each logger is a named buck
 -   ERROR: Information describing a major problem that has occurred.
 -   CRITICAL: Information describing a critical problem that has occurred.
 
-
-
 Each message that is written to the logger is aLog Record. Each log record also has alog levelindicating the severity of that specific message. A log record can also contain useful metadata that describes the event that is being logged. This can include details such as a stack trace or an error code.
 
-
-
 When a message is given to the logger, the log level of the message is compared to the log level of the logger. If the log level of the message meets or exceeds the log level of the logger itself, the message will undergo further processing. If it doesn't, the message will be ignored.
-
-
 
 Once a logger has determined that a message needs to be processed, it is passed to aHandler.
 
@@ -43,13 +35,9 @@ A filter is used to provide additional control over which log records are passed
 
 Ultimately, a log record needs to be rendered as text. Formatters describe the exact format of that text.
 
-
-
 "format": "[%(asctime)s] [%(levelname)s in %(module)s - %(funcName)s():%(lineno)s]: %(message)s",
 
-
-
-**Logging database queries in django**
+## Logging database queries in django
 
 import logging
 
@@ -59,13 +47,9 @@ l.setLevel(logging.DEBUG)
 
 l.addHandler(logging.StreamHandler())
 
-
-
-**Setting Logging the right way in Python**
+## Setting Logging the right way in Python
 
 import logging
-
-
 
 handler = logging.StreamHandler()
 
@@ -79,9 +63,7 @@ log.addHandler(handler)
 
 log.setLevel(logging.DEBUG)
 
-
-
-**Logging in settings.py**
+## Logging in settings.py
 
 LOGGING = {
 
@@ -145,9 +127,7 @@ LOGGING = {
 
 }
 
-
-
-**Turning on db hits logging for django queries**
+## Turning on db hits logging for django queries
 
 import logging
 
@@ -157,13 +137,9 @@ l.setLevel(logging.DEBUG)
 
 l.addHandler(logging.StreamHandler())
 
+## See Also > Python > Documentation > 16. Generic Operating System Services / Logging
 
-
-**See Also > Python > Documentation > 16. Generic Operating System Services / Logging**
-
-
-
-**References**
+## References
 
 <https://docs.djangoproject.com/en/2.0/topics/logging
 

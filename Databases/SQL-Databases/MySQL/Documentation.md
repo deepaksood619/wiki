@@ -496,7 +496,7 @@ MySQL supports these password-management capabilities:
 
 6.2.15 Account Locking
 
-**6.2.16 Setting Account Resource Limits**
+## 6.2.16 Setting Account Resource Limits
 
 One means of restricting client use of MySQL server resources is to set the global [max_user_connections](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_user_connections) system variable to a nonzero value. This limits the number of simultaneous connections that can be made by any given account, but places no limits on what a client can do once connected. In addition, setting[max_user_connections](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_user_connections)does not enable management of individual accounts. Both types of control are of interest to MySQL administrators.
 To address such concerns, MySQL permits limits for individual accounts on use of these server resources:
@@ -712,7 +712,7 @@ To generate execution plans, the optimizer uses a cost model that is based on es
 
 8.10.4 Caching of Prepared Statements and Stored Programs
 
-**8.11 Optimizing Locking Operations**
+## 8.11 Optimizing Locking Operations
 -   Internal locking is performed within the MySQL server itself to manage contention for table contents by multiple threads. This type of locking is internal because it is performed entirely by the server and involves no other programs.
 -   External locking occurs when the server and other programs lock[MyISAM](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)table files to coordinate among themselves which program can access the tables at which time.
 8.11.1 Internal Locking Methods
@@ -1340,7 +1340,7 @@ Statements
 
 14.9 InnoDB Table and Page Compression
 
-**14.9.1 InnoDB Table Compression**
+## 14.9.1 InnoDB Table Compression
 
 <https://dev.mysql.com/doc/refman/8.0/en/innodb-compression-usage.html>
 
@@ -1996,7 +1996,7 @@ mysql> CREATE TRIGGER upd_check BEFORE UPDATE ON account
 
 mysql> delimiter ;
 A trigger is a named database object that is associated with a table, and that activates when a particular event occurs for the table. Some uses for triggers are to perform checks of values to be inserted into a table or to perform calculations on values involved in an update.
-**Does MySQL 5.6 have statement-level or row-level triggers?**
+## Does MySQL 5.6 have statement-level or row-level triggers?
 
 In MySQL 5.6 and MySQL 8.0, all triggers areFOR EACH ROW; that is, the trigger is activated for each row that is inserted, updated, or deleted. MySQL 5.6 does not support triggers usingFOR EACH STATEMENT.
 The SQL standard defines two types of triggers: row-level triggers and statement-level triggers.
@@ -2013,7 +2013,7 @@ Triggers can cause performance issues if not written carefully and not enough de
 Triggers are often slower than other means of maintaining data integrity, so if you can use a check constraint, use that instead of a trigger.
 It is easy to write bad triggers that do stupid things like try to send emails. Do you really want to be unable to change records in the db if the email server goes down?
 In SQL server, triggers operate on a batch of records. All too often developers think they only need to handle one record inserts, updates or deletes. That is not the only kind of data changes that happen to a database and all triggers should be tested under the conditions of 1 record change and many record changes. Forgetting to do the second test can lead to extremely poorly performing triggers or a loss of data integrity.
-**Use of database triggers**
+## Use of database triggers
 
 1.  To drive column values automatically.
 
@@ -2026,7 +2026,7 @@ In SQL server, triggers operate on a batch of records. All too often developers 
 5.  To maintain replicate tables.
 
 6.  To audit data modification.
-**Different Types of Triggers**
+## Different Types of Triggers
 
 A MySQLtriggeris a stored program (with queries) which is executed automatically to respond to a specific event such as insertion, updation or deletion occurring in a table.
 There are 6 different types of triggers in MySQL:

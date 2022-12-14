@@ -6,21 +6,17 @@ Modified: 2021-11-09 21:31:41 +0500
 
 ---
 
-**Non-linear Regression**
+## Non-linear Regression
 -   We can generalize further to models that are nonlinear:
 
 ![](media/Non-linear-regression-image1.jpg)
-
-
 
 where the g's are non-linear functions
 -   In statistics this is referred to as a generalized linear regression
 -   Closed form (analytical) solutions are rare
 -   We have a multivariate non-linear optimization problem
 
-
-
-**Optimization in the Non-Linear Case**
+## Optimization in the Non-Linear Case
 -   We seek the minimum of a function in d dimensions, where d is the number of parameters (d could be large)
 -   There are a multitude of heuristic search techniques
     -   Steepest descent (follow the gradient)
@@ -33,34 +29,26 @@ where the g's are non-linear functions
     -   Convex (nice -> means a single global optimum)
     -   Non-convex (multiple local optima -> need multiple starts)
 
-
-
-**Other non-linear models**
+## Other non-linear models
 -   Splines
     -   Patch together different low-order polynomials over different parts of the x-space
     -   Works well in 1 dimension, less well in higher dimensions
 -   Memory-based models
 
-![w = function o where y's are from the training data distance of x from x' ](media/Non-linear-regression-image2.jpg)
+![image](media/Non-linear-regression-image2.jpg)
 -   Local linear regression
 
-![= + U. X. where the alpha's are fit at prediction time just to the (y,x) pairs that are close to x' O ](media/Non-linear-regression-image3.jpeg)
+![image](media/Non-linear-regression-image3.jpeg)
 
+## Complexity vs Goodness of Fit
 
+![image](media/Non-linear-regression-image4.jpg)
 
-**Complexity vs Goodness of Fit**
+## Generalized Linear Models (GLMs)
 
-![Training data Too complex ? Too simple? About right ? ](media/Non-linear-regression-image4.jpg)
+![image](media/Non-linear-regression-image5.jpg)
 
-
-
-**Generalized Linear Models (GLMs)**
-
-![Where g [ ] is 9 "link" funltioll u(x) is a linear function of the vector x Examples: g = identity function -> linear regression --- Logistic regression: g(y) = log(y / I-y) = Ot + E U. X. --- Logarithmic link: g(y) = + U. X. GLMs are widely used in statistics Details of learning/fitting algorithm depend on the specifics of the link function ](media/Non-linear-regression-image5.jpg)
-
-
-
-**Tree-Structured Regression**
+## Tree-Structured Regression
 -   Functional form of model is a "regression tree"
     -   Univariate thresholds at internal nodes
     -   Constant or linear surfaces at the leaf nodes
@@ -74,17 +62,13 @@ where the g's are non-linear functions
     -   Finding the optimal tree is intractable
     -   Practice: greedy algorithms
 
-
-
-**Model Averaging / Ensembles**
+## Model Averaging / Ensembles
 -   Can average over parameters and models
     -   E.g., weighted linear combination of predictions from multiple models
 
 y = Σ w~k~ y~y~
 -   Why? Any predictions from a point estimate of parameters or a single model has only a small chance of the being the best
 -   Averaging makes our predictions more stable and less sensitive to random variations data set (good for less stable models like trees)
-
-
 
 
 

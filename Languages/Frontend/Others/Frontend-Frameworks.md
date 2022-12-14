@@ -6,7 +6,7 @@ Modified: 2022-12-11 12:42:40 +0500
 
 ---
 
-**Frontend Frameworks**
+## Frontend Frameworks
 
 1.  jQuery
 
@@ -34,23 +34,15 @@ Modified: 2022-12-11 12:42:40 +0500
 
 12. Solidjs
 
-
-
 <https://dev.to/santypk4/top-10-front-end-frameworks-by-downloads-2015-2019-2427>
 
-
-
-**Angular vs React**
+## Angular vs React
 
 <https://dev.to/imm9o/what-you-gona-lose-if-you-chose-react-over-angular-25ln>
 
-
-
-**Svelte**
+## Svelte
 
 Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in thebrowser, Svelte shifts that work into acompile stepthat happens when you build your app.
-
-
 
 Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.
 
@@ -68,8 +60,6 @@ Svelte provides an enhanced version of HTML inside the template block with extra
 
 You can share data using Svelte's Context API - a mechanism for components to connect without passing data as props, or dispatching lots of events.
 
-
-
 <https://svelte.dev
 
 <https://github.com/sveltejs/svelte>
@@ -78,17 +68,11 @@ You can share data using Svelte's Context API - a mechanism for components to co
 
 <https://dev.to/hexrcs/svelte-crash-course-with-pics-27cc>
 
-
-
-**Vue.js**
+## Vue.js
 
 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
-
-
 It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It consists of an approachable core library that focuses on the view layer only, and an ecosystem of supporting libraries that helps you tackle complexity in large Single-Page Applications.
-
-
 
 <https://github.com/vuejs/vue>
 
@@ -100,13 +84,9 @@ It is designed from the ground up to be incrementally adoptable, and can easily 
 
 <https://www.freecodecamp.org/news/how-to-code-a-framework-vuejs-example
 
-
-
-**Polymer**
+## Polymer
 
 Polymer lets you build encapsulated, reusable[Web Components](https://www.webcomponents.org/introduction)that work just like standard HTML elements, to use in building web applications.
-
-
 
 carousel (Image slider that auto plays)
 
@@ -120,65 +100,41 @@ HTML Imports
 
 Polyfill (Tell the browser how to render elements in browser)
 
-
-
 <https://github.com/Polymer/polymer>
 
 [https://www.polymer-project.org](https://www.polymer-project.org/)
 
-
-
-**Frontity**
+## Frontity
 
 Frontity is a free and open source framework to build super fast WordPress themes using React.
 
-
-
 <https://frontity.org
 
-
-
-**Phase.JS**
+## Phase.JS
 
 Phaser is the biggest HTML5 game development framework on the market. It has been used for browser games, mobile games, and desktop games. Learn how to use this library to make games for yourself
 
-
-
 <https://www.codecademy.com/learn/learn-phaser>
 
-
-
-**JSII**
+## JSII
 
 jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!
 
-
-
 <https://github.com/aws/jsii>
 
+## Static Site Generators
 
-
-**Static Site Generators**
-
-**HUGO**
+## HUGO
 
 The world's fastest framework for building websites.
 
-
-
 Hugo is a static HTML and CSS website generator written in[Go](https://golang.org/). It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
-
-
 
 <https://github.com/gohugoio/hugo>
 
-
-
-**Gatsby**
+## Gatsby
 
 Gatsby is a free and open source framework based on React that helps developers build blazing fastwebsitesandapps
-
-
 
 Gatsby is a modern web framework for blazing fast websites.
 -   Go Beyond Static Websites.Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to e-commerce sites to user dashboards.
@@ -187,21 +143,15 @@ Gatsby is a modern web framework for blazing fast websites.
 -   Load Data From Anywhere.Gatsby pulls in data from any data source, whether it's Markdown files, a headless CMS like Contentful or WordPress, or a REST or GraphQL API. Use source plugins to load your data, then develop using Gatsby's uniform GraphQL interface.
 -   Performance Is Baked In.Ace your performance audits by default. Gatsby automates code splitting, image optimization, inlining critical styles, lazy-loading, prefetching resources, and more to ensure your site is fast --- no manual tuning required.
 
-
-
 npm init gatsby
 
 npm run develop
-
-
 
 <https://www.gatsbyjs.org
 
 <https://github.com/gatsbyjs/gatsby>
 
-
-
-**jekyll**
+## jekyll
 
 Transform your plain text into staticwebsites andblogs
 
@@ -213,6 +163,4 @@ Transform your plain text into staticwebsites andblogs
 
 <https://github.com/topics/jekyll-theme>
 
-
-
-**nextjs**
+## nextjs

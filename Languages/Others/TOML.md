@@ -8,13 +8,9 @@ Modified: 2019-06-07 14:59:10 +0500
 
 Tom's Obvious, Minimal Language
 
-
-
 TOML aims to be a minimal configuration file format that's easy to read due to obvious semantics. TOML is designed to map unambiguously to a hash table. TOML should be easy to parse into data structures in a wide variety of languages.
 
-
-
-**Example**
+## Example
 
 # This is a TOML document.
 
@@ -50,23 +46,17 @@ hosts = [
 "omega"
 ]
 
-
-
-**Spec**
+## Spec
 -   TOML is case sensitive.
 -   A TOML file must be a valid UTF-8 encoded Unicode document.
 -   Whitespace means tab (0x09) or space (0x20).
 -   Newline means LF (0x0A) or CRLF (0x0D0A).
 
-
-
-**Uses**
+## Uses
 
 1.  Telegraf Configuration
 
-
-
-**References**
+## References
 
 <https://github.com/toml-lang/toml>
 

@@ -6,31 +6,21 @@ Modified: 2021-09-03 21:16:15 +0500
 
 ---
 
-**The confusion matrix shows** - The observations broken down by actual classes and predicted classes.
+## The confusion matrix shows - The observations broken down by actual classes and predicted classes.
 
-
-
-**Accuracy -** The sum of true positives and true negatives, divided by the total number of observations.
-
-
+## Accuracy - The sum of true positives and true negatives, divided by the total number of observations.
 
 What is the relationship between the confusion matrix and the area under the receiver operating characteristic curve? - Each point from the curve represents a confusion matrix.
 
+## Choose your evaluation metrics in light of acceptable tradeoffs between False Positives and False Negatives
 
+## Evaluating Models
 
-**Choose your evaluation metrics in light of acceptable tradeoffs between False Positives and False Negatives**
+![image](media/Confusion-Matrix-image1.png)
 
+![image](media/Confusion-Matrix-image2.jpg)
 
-
-**Evaluating Models**
-
-![Total Condition positive population • Predicted condition positive Predicted condition negative True condition probability of detection, probability of false alarm Condition negative False positive, Type I error True negative False positive rate (FPR), Fall-out, E False positive E Condition negative Specificity (SPC), Selectivity, True negative rate (TNR) E True negative E Condition negative Prevalence --- E Condition positive E Total population Positive predictive value (PPV), Precision = E True positive Accuracy (ACC) = E True positive + E True negative E Total population False discovery rate (FDR) = E False positive True positive False negative, Type Il error True positive rate (TPR), Recall, Sensitivity, Power E True positive E Condition positive False negative rate (FNR), Miss rate E False negative E Condition positive E Predicted condition positive E Predicted condition positive False omission rate (FOR) = Negative predictive value (NPV) = E False negative E True negative E Predicted condition negative E Predicted condition negative Positive likelihood ratio (LR+) - TPR FPR Negative likelihood ratio (LR - FNR TNR Diagnostic odds ratio (DOR) Fl score = Precision • Recall Precision + Recall ](media/Confusion-Matrix-image1.png)
-
-![Predicted Class Positive Actual Class Negative True Positive (TP) False Positive (FP) Type I Error Negative Type Il Error True Negative (TN) Negative Predictive Value TP TN (TN+FN) (TP+FN) TN Accuracy + TN (TP + TN + FP + FM) ](media/Confusion-Matrix-image2.jpg)
-
-
-
-**Basic measures derived from the confusion matrix**
+## Basic measures derived from the confusion matrix
 
 1.  Error Rate = (FP+FN)/(P+N)
 
@@ -58,29 +48,21 @@ False positive rate is the fraction of the faces that the ML model detects that 
 
 Sometimes false positives are better than false negatives or vice versa
 
-
-
-**Receiver Operating Characteristic (ROC) Curve**
+## Receiver Operating Characteristic (ROC) Curve
 
 The ROC curve plots - the true positives as a function of false positives.
-
-
 
 AnROC curve is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters:
 -   True Positive Rate
 -   False Positive Rate
 
-
-
 <https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc>
 
 <https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5>
 
-![Use the ROC curve to choose the decision threshold based on decision criteria TP vs. FP rate at one decision threshold vs. FP rate at another decision threshold FP Rate + TN ](media/Confusion-Matrix-image3.png)
+![image](media/Confusion-Matrix-image3.png)
 
-
-
-**Area Under Curve (AUC)**
+## Area Under Curve (AUC)
 
 The AUC provides an aggregate measure of performance across all possible classification thresholds
 -   AUC helps us to choose between models when we don't know what decision threshold is going to be ultimately used
@@ -88,9 +70,7 @@ The AUC provides an aggregate measure of performance across all possible classif
 
 ![](media/Confusion-Matrix-image4.jpeg)
 
-
-
-**Precision-Recall Curve (PR Curve)**
+## Precision-Recall Curve (PR Curve)
 
 Precision-recall curves plot the positive predictive value (PPV, y-axis) against the true positive rate (TPR, x-axis). These quantities are defined as follows:
 
@@ -98,11 +78,7 @@ precision = 𝑃𝑃𝑉 = 𝑇𝑃 / (𝑇𝑃+𝐹𝑃)
 
 recall = TPR = TP / (TP+FN)
 
-
-
 Since precision-recall curves do not consider true negatives, they should only be used[when specificity is of no concern for the classifier](https://www.datascienceblog.net/post/machine-learning/specificity-vs-precision/).
-
-
 
 <https://www.datascienceblog.net/post/machine-learning/interpreting-roc-curves-auc
 
@@ -111,7 +87,5 @@ Since precision-recall curves do not consider true negatives, they should only b
 <https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification
 
 <https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python
-
-
 
 

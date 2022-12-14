@@ -7,7 +7,7 @@ Modified: 2022-03-09 22:19:23 +0500
 ---
 
 There are a number of ways we can go about replicating the log data. Broadly speaking, we can group the techniques into two different categories:
-**Gossip/Multicast Protocols**
+## Gossip/Multicast Protocols
 
 These tend to be eventually consistent and/or stochastic.
 -   Epidemic broadcast trees
@@ -15,7 +15,7 @@ These tend to be eventually consistent and/or stochastic.
 -   SWIM
 -   HyParView
 -   NeEM
-**Consensus Protocols**
+## Consensus Protocols
 
 These tend to favor strong consistency over availability.
 -   2PC/3PC
@@ -23,7 +23,7 @@ These tend to favor strong consistency over availability.
 -   Raft
 -   Zab (Zookeeper atomic broadcast)
 -   Chain replication
-**Paxos - Consensus over distributed hosts**
+## Paxos - Consensus over distributed hosts
 
 Ex - doing a leader election among a distributed host.
 
@@ -48,7 +48,7 @@ Used by -
 ## SWIM**
 
 [SWIM](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf)is a distributed gossip protocol for group membership (e.g. for determining members of a caching ring, etc)
-**Two-Phase Commit Protocol**
+## Two-Phase Commit Protocol
 
 In[transaction processing](https://en.wikipedia.org/wiki/Transaction_processing),[databases](https://en.wikipedia.org/wiki/Database), and[computer networking](https://en.wikipedia.org/wiki/Computer_networking), thetwo-phase commit protocol(2PC) is a type of[atomic commitment protocol](https://en.wikipedia.org/wiki/Atomic_commit)(ACP). It is a[distributed algorithm](https://en.wikipedia.org/wiki/Distributed_algorithm)that coordinates all the processes that participate in a[distributed atomic transaction](https://en.wikipedia.org/wiki/Distributed_transaction)on whether to[commit](https://en.wikipedia.org/wiki/Commit_(data_management))orabort(roll back) the transaction (it is a specialized type of[consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))protocol). The protocol achieves its goal even in many cases of temporary system failure (involving either process, network node, communication, etc. failures), and is thus widely used.However, it is not resilient to all possible failure configurations, and in rare cases, manual intervention is needed to remedy an outcome. To accommodate recovery from failure (automatic in most cases) the protocol's participants use[logging](https://en.wikipedia.org/wiki/Server_log)of the protocol's states. Log records, which are typically slow to generate but survive failures, are used by the protocol's[recovery procedures](https://en.wikipedia.org/wiki/Recovery_procedure). Many protocol variants exist that primarily differ in logging strategies and recovery mechanisms. Though usually intended to be used infrequently, recovery procedures compose a substantial portion of the protocol, due to many possible failure scenarios to be considered and supported by the protocol.
 In a "normal execution" of any single[distributed transaction](https://en.wikipedia.org/wiki/Distributed_transaction)(i.e., when no failure occurs, which is typically the most frequent situation), the protocol consists of two phases:
@@ -56,16 +56,16 @@ In a "normal execution" of any single[distributed transaction](https://en.wikipe
 a.  **Thecommit-request phase(orvoting phase / prepare phase)**, in which acoordinatorprocess attempts to prepare all the transaction's participating processes (namedparticipants,cohorts, orworkers) to take the necessary steps for either committing or aborting the transaction and tovote, either "Yes": commit (if the transaction participant's local portion execution has ended properly), or "No": abort (if a problem has been detected with the local portion), and
 
 b.  **Thecommit phase**, in which, based onvotingof the participants, the coordinator decides whether to commit (only ifallhave voted "Yes") or abort the transaction (otherwise), and notifies the result to all the participants. The participants then follow with the needed actions (commit or abort) with their local transactional resources (also calledrecoverable resources; e.g., database data) and their respective portions in the transaction's other output (if applicable).
-![9 を の 月 0 ′ ス 0 ′ V 0 フ ノ み ノ く ー ス 加 5 の ? ア ア 川 ィ ー 0 フ 知 >IO d 月 0 フ 人 叱 ー い い VS レ 。 甲 人 。 - の } , 川 Ⅲ の フ 物 % 言 ](media/Consensus-Protocols-image1.png)
+![image](media/Consensus-Protocols-image1.png)
 ![](media/Consensus-Protocols-image2.png)
 
 Two-phase commit is a blocking protocol. The coordinator blocks waiting for votes from its cohorts, and cohorts block waiting for a commit/rollback message from the coordinator. Unfortunately, this means 2PC can, in some circumstances, result in a deadlock, e.g. the coordinator dies while cohorts wait or a cohort dies while the coordinator waits. Another problematic scenario is when a coordinator and cohort simultaneously fail. Even if another coordinatortakes its place, it won't be able to determine whether to commit or rollback.
 <https://en.wikipedia.org/wiki/Two-phase_commit_protocol>
 
 [**https://bravenewgeek.com/understanding-consensus/**](https://bravenewgeek.com/understanding-consensus/)
-**3 Phase Commit**
+## 3 Phase Commit
 
-![g Compu/ f (O - oydu Can VoHcĂ (OrMWf,• DO (O 1 2 ](media/Consensus-Protocols-image3.png)
+![image](media/Consensus-Protocols-image3.png)
 ![](media/Consensus-Protocols-image4.png)
 
 Three-phase commit (3PC) is designed to solve the problems identified in two-phase by implementing a non-blocking protocol with an added "prepare" phase. Like 2PC, it relies on a coordinator which relays messages to its cohorts.
@@ -76,7 +76,7 @@ Unlike 2PC, cohorts do not executea transaction during the voting phase. Rather,
 
 Protocols like[Raft](https://ramcloud.stanford.edu/raft.pdf),[Paxos](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf), and[Zab](http://web.stanford.edu/class/cs347/reading/zab.pdf)are popular and widely used solutions to the problem of distributed consensus. These implement state replication or primary-backup using leaders, quorums, and replicas of operation logs or incremental delta states.
 
-![c set x Client Quorum c set x = 5 Client ](media/Consensus-Protocols-image5.png)
+![image](media/Consensus-Protocols-image5.png)
 
 These protocols workby electing a leader (coordinator). Like multi-phase commit, all changes must go through thatleader, who then broadcasts the changes to the group. Changes occur by appending a log entry, and each node has its own log replica. Where multi-phase commit falls down in the face of network partitions, these protocols are able to continue working by relying on a quorum (majority). The leader commits the change once the quorum has acknowledged it.
 The use of quorums provide partition tolerance by fencing minority partitions while the majority continues to operate.This is the pessimistic approach to solving split-brain, so it comes with an inherent availability trade-off. This problem is mitigated by the fact that each node hosts a replicated state machine which can be rebuilt or reconciled once the partition is healed.
@@ -85,22 +85,22 @@ Google relies on Paxos for its high-replication datastore in App Engine as well 
 
 ## SAGA (Asynchronous Distributed Transactions)**
 
-**Context**
+## Context
 
 You have applied the[Database per Service](https://microservices.io/patterns/data/database-per-service.html)pattern. Each service has its own database. Some business transactions, however, span multiple service so you need a mechanism to implement transactions that span services. For example, let's imagine that you are building an e-commerce store where customers have a credit limit. The application must ensure that a new order will not exceed the customer's credit limit. Since Orders and Customers are in different databases owned by different services the application cannot simply use a local ACID transaction.
-**Solution**
+## Solution
 
 Implement each business transaction that spans multiple services is a saga. A saga is a sequence of local transactions. Each local transaction updates the database and publishes a message or event to trigger the next local transaction in the saga. If a local transaction fails because it violates a business rule then the saga executes a series of compensating transactions that undo the changes that were made by the preceding local transactions.
-**Types of SAGA Implementation**
+## Types of SAGA Implementation
 
 1.  Choreography - Event based
 
 Each local transaction publishes domain events that trigger local transactions in other services
-![Choreography ORDER_CREATE O ORDER_CREATED ORDER_PAID ORDER_PREPARED O Order service Payment service Restaurant service ORDER_DELIVERED Delivery service ](media/Consensus-Protocols-image6.png)
+![image](media/Consensus-Protocols-image6.png)
 2.  Orchestration - Command based
 
 An orchestrator (object) tells the participants what local transactions to execute
-![ORDER_CREATE Order service ORDER_CREATED Orchestration Restaurant Payment service Delivery service OR ER_PAID Orchestrator service service ORPZR_PREPARED ORDER_DELIVERED ](media/Consensus-Protocols-image7.png)
+![image](media/Consensus-Protocols-image7.png)
 Youtube - [SAGA | Microservices Architecture Patterns | Tech Primers](https://www.youtube.com/watch?v=WnZ7IcaN_JA)
 
 Youtube - [Do you know Distributed transactions?](https://www.youtube.com/watch?v=S4FnmSeRpAY)

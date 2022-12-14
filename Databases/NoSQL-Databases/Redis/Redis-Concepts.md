@@ -6,7 +6,7 @@ Modified: 2021-04-07 21:05:55 +0500
 
 ---
 
-**Redis keys**
+## Redis keys
 
 Redis keys are binary safe, this means that you can use any binary sequence as a key, from a string like "foo" to the content of a JPEG file. The empty string is also a valid key.
 A few other rules about keys:
@@ -14,7 +14,7 @@ A few other rules about keys:
 -   Very short keys are often not a good idea. There is little point in writing "u1000flw" as a key if you can instead write "user:1000:followers". The latter is more readable and the added space is minor compared to the space used by the key object itself and the value object. While short keys will obviously consume a bit less memory, your job is to find the right balance.
 -   Try to stick with a schema. For instance "object-type:id" is a good idea, as in "user:1000". Dots or dashes are often used for multi-word fields, as in "comment:1234:reply.to" or "comment:1234:reply-to".
 -   The maximum allowed key size is 512 MB.
-**Redis Strings**
+## Redis Strings
 
 Values can be strings (including binary data) of every kind, for instance you can store a jpeg image inside a value. A value can't be bigger than 512 MB.
 Note that[SET](https://redis.io/commands/set)will replace any existing value already stored into the key, in the case that the key already exists, even if the key is associated with a non-string value. So[SET](https://redis.io/commands/set)performs an assignment.
@@ -48,11 +48,11 @@ OK
 3) "30"
 
 When[MGET](https://redis.io/commands/mget)is used, Redis returns an array of values.
-**Redis Expires**
+## Redis Expires
 -   They can be set both using seconds or milliseconds precision.
 -   However the expire time resolution is always 1 millisecond.
 -   Information about expires are replicated and persisted on disk, the time virtually passes when your Redis server remains stopped (this means that Redis saves the date at which a key will expire).
-**How Redis expires keys**
+## How Redis expires keys
 
 Redis keys are expired in two ways: a passive way, and an active way.
 A key is passively expired simply when some client tries to access it, and the key is found to be timed out.
@@ -71,7 +71,7 @@ This means that at any given moment the maximum amount of keys already expired t
 
 ## Scan**
 
-**Time complexity:**O(1) for every call. O(N) for a complete iteration, including enough command calls for the cursor to return back to 0. N is the number of elements inside the collection.
+## Time complexity:O(1) for every call. O(N) for a complete iteration, including enough command calls for the cursor to return back to 0. N is the number of elements inside the collection.
 The[SCAN](https://redis.io/commands/scan)command and the closely related commands[SSCAN](https://redis.io/commands/sscan),[HSCAN](https://redis.io/commands/hscan)and[ZSCAN](https://redis.io/commands/zscan)are used in order to incrementally iterate over a collection of elements.
 -   [SCAN](https://redis.io/commands/scan)iterates the set of keys in the currently selected Redis database.
 -   [SSCAN](https://redis.io/commands/sscan)iterates elements of Sets types.
@@ -91,17 +91,17 @@ Starting an iteration with a cursor value of 0, and calling[SCAN](https://redis.
 -   The AOF persistence logs every write operation received by the server, that will be played again at server startup, reconstructing the original dataset. Commands are logged using the same format as the Redis protocol itself, in an append-only fashion. Redis is able to rewrite the log in the background when it gets too big.
 -   If you wish, you can disable persistence completely, if you want your data to just exist as long as the server is running.
 -   It is possible to combine both AOF and RDB in the same instance. Notice that, in this case, when Redis restarts the AOF file will be used to reconstruct the original dataset since it is guaranteed to be the most complete.
-**AOF - Append Only File**
+## AOF - Append Only File
 
 It's the change-log style persistent format.
 
 AOF is actually a persistence technique in which an RDB file is generated once and all the data is appended to it as it comes
-**RDB - Redis Database Backup**
+## RDB - Redis Database Backup
 
 It's the snapshot style persistence format.
 
 RDB file is a dump of all user data stored in an internal, compressed serialization format at a particular timestamp which is used for point-in-time recovery (recovery from a timestamp).
-**Compress AOF**
+## Compress AOF
 
 BGREWRITEAOF
 <https://redis.io/commands/bgrewriteaof>

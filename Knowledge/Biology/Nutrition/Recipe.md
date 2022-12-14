@@ -6,7 +6,7 @@ Modified: 2021-11-13 18:43:49 +0500
 
 ---
 
-**Grilled Chicken + Paneer**
+## Grilled Chicken + Paneer
 -   Chicken - 250 grm
 -   Curd - 15rs wala
 -   Haldi - 1/4
@@ -30,8 +30,6 @@ Modified: 2021-11-13 18:43:49 +0500
     -   Dhaniya
     -   Green Chilli (Mirch)
 
-
-
 # Arhar Dal / Pigeon pea
 -   1/2 cup daal (washed 3 times)
 -   Water - 1 1/2 cup
@@ -41,8 +39,6 @@ Modified: 2021-11-13 18:43:49 +0500
 -   Zeera - 1/2 tea spoon
 -   Dhaniya powder - 1/4 tea spoon
 -   Cooker - 6 whistles
-
-
 
 # White Chicken without marination
 -   Small cutted Boiler Chicken - 1/2 kg
@@ -57,9 +53,7 @@ Modified: 2021-11-13 18:43:49 +0500
 -   Refined oil - 3 tbsp
 -   water - 1 cup
 
-
-
-**Steps**
+## Steps
 -   Put oil on pressure cooker
 -   fry Jeera and lasun
 -   fry sliced long onion until golden
@@ -71,8 +65,6 @@ Modified: 2021-11-13 18:43:49 +0500
 -   Add chicken and let it boil until dry on open cooker - 15 mins until oil is separated
 -   Add curd and mix and boil - 10-15 min
 -   Serve and eat
-
-
 
 
 
@@ -92,9 +84,7 @@ Modified: 2021-11-13 18:43:49 +0500
 -   Refined oil - 3 tbsp
 -   water - 1 cup
 
-
-
-**Steps**
+## Steps
 -   Put oil on pressure cooker
 -   fry Jeera and lasun
 -   fry sliced long onion until golden
@@ -108,25 +98,15 @@ Modified: 2021-11-13 18:43:49 +0500
 -   Add water for gravy and bring to boil
 -   Serve and eat
 
-
-
-**Other Recipes**
+## Other Recipes
 
 [Easy Lemon Chicken Recipe-Oil Free Lemon Chicken-Diet Lemon Chicken-How to cook oil free Chicken(SUB](https://www.youtube.com/watch?v=MXhYPZ9KQT4)
 
-
-
-![Oil Free Lemon Chicken ](media/Nutrition_Recipe-image1.jpg)
-
-
+![image](media/Nutrition_Recipe-image1.jpg)
 
 [Egg Maggi Masala Recipe in Hindi | Street Style Egg Maggi Masala | Bachelors Recipe | KabitasKitchen](https://www.youtube.com/watch?v=6xqsC9pOa3M)
 
-
-
-![Oatpł!łseuqqo DIDSDW !66DW 663 ](media/Nutrition_Recipe-image2.jpg)
-
-
+![image](media/Nutrition_Recipe-image2.jpg)
 
 Veg Pulao in cooker
 
@@ -138,18 +118,10 @@ Gas off - don't open till cool
 
 [Veg Pulao Recipe | कुकर में झटपट बनाये बेहतरीन पुलाव | Pressure Cooker Pulao | KabitasKitchen](https://www.youtube.com/watch?v=qFE9madv0RY)
 
-
-
-![Veg Pulao in Pressure Cooker $1cue geT1< ](media/Nutrition_Recipe-image3.jpg)
-
-
+![image](media/Nutrition_Recipe-image3.jpg)
 
 [Jab Koi Sabji Na Ho Toh Sirf 5 Minute May Banaiye Ye Zabardast Recipe - Pet Bharega Dil Nahi - CWF](https://www.youtube.com/watch?v=2Ln3b37gJlE)
 
-
-
 ![I E PE ](media/Nutrition_Recipe-image4.jpg)
-
-
 
 

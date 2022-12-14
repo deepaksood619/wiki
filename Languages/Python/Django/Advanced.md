@@ -12,49 +12,35 @@ Modified: 2021-12-09 21:04:45 +0500
 
 3.  Using decorators
 
-
-
 1.  No matter what strategy you pick, or what is your business model, always use one, and only one Django model to handle the authentication.
 
 2.  Never user the built-in Django User model directly, even if the built-in Django User implementation fulfill all the requirements of your application.
 
-![User Types Flowchart](media/Advanced-image1.png)
+![image](media/Advanced-image1.png)
 
-
-
-**Signals -** <https://anonbadger.wordpress.com/2018/12/15/python-signal-handlers-and-exceptions
+## Signals - <https://anonbadger.wordpress.com/2018/12/15/python-signal-handlers-and-exceptions
 
 [Introduction to Django Signals | Django (3.0) Crash Course Tutorials (pt 18)](https://www.youtube.com/watch?v=Kc1Q_ayAeQk&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO&index=18)
 
-
-
-**Context Processors**
+## Context Processors
 
 A context processor has a very simple interface: It's just a Python function that takes one argument, anHttpRequestobject, and returns a dictionary that gets added to the template context.
-
-
 
 <https://djangobook.com/writing-context-processors
 
 <https://docs.djangoproject.com/en/2.2/ref/templates/api/#using-requestcontext>
 
-
-
-**Middlewares**
+## Middlewares
 
 <http://www.gustavwengel.dk/django-middleware-walkthrough
 
+## Problems
 
-
-**Problems**
-
-**N+1 Select Query Issue**
+## N+1 Select Query Issue
 
 This problem occurs when the code needs to load the children of a parent-child relationship (the "many" in the "one-to-many"). Most ORMs have lazy-loading enabled by default, so queries are issued for the parent record, and then one query for EACH child record. As you can expect, doing N+1 queries instead of a single query will flood your database with queries, which is something we can and should avoid.
 
-
-
-**Example**
+## Example
 
 Let's say you have a collection ofCarobjects (database rows), and eachCarhas a collection ofWheelobjects (also rows). In other words,Car->Wheelis a 1-to-many relationship.
 
@@ -74,17 +60,11 @@ SELECT * FROM Wheel
 
 This reduces the number of round-trips to the database from N+1 to 2. Most ORM tools give you several ways to prevent N+1 selects.
 
-
-
 <https://theorangeone.net/posts/django-orm-performance
 
-
-
-**Django 3.0**
+## Django 3.0
 
 ASGI Support
-
-
 
 <https://docs.djangoproject.com/en/3.0/releases/3.0
 

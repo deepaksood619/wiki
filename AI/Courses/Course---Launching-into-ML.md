@@ -6,7 +6,7 @@ Modified: 2021-06-19 14:16:53 +0500
 
 ---
 
-**Objectives**
+## Objectives
 
 1.  Identify why deep learning is currently popular
 
@@ -28,9 +28,7 @@ Modified: 2021-06-19 14:16:53 +0500
 
 9.  Generalization and sampling
 
-
-
-**Prediction Problem**
+## Prediction Problem
 -   **Supervised Learning**
     -   Classification problem
 
@@ -39,18 +37,12 @@ Classification models usually use cross entropy as their loss function (the pena
 
 Regression models usually use mean squared error as their loss function (Quadratic penalty for mean squared error, so it is essentially trying to minimize the euclidean distance between the actual label and the predicted label)
 
-
-
 Description Problem
 -   Unsupervised learning
 
-
-
 <https://www.coursera.org/learn/launching-machine-learning
 
-
-
-**Practical ML**
+## Practical ML
 
 In this module, we will introduce some of the main types of machine learning and review the history of ML leading up to the state of the art so that you can accelerate your growth as an ML practitioner.
 
@@ -76,9 +68,7 @@ In this module, we will introduce some of the main types of machine learning and
 
 11. Discussion Prompt:Modern Neural Networks
 
-
-
-**Optimization**
+## Optimization
 
 In this module we will walk you through how to optimize your ML models.
 
@@ -106,12 +96,8 @@ In this module we will walk you through how to optimize your ML models.
 
 12. Video:Performance Metrics
 
-
-
-**Generalization and Sampling**
+## Generalization and Sampling
 
 Now it's time to answer a rather weird question: when is the most accurate ML model not the right one to pick? As we hinted at in the last module on Optimization -- simply because a model has a loss metric of 0 for your training dataset does not mean it will perform well on new data in the real world.
-
-
 
 <https://github.com/GoogleCloudPlatform/training-data-analyst>

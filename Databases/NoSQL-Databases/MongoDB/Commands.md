@@ -50,12 +50,12 @@ brew install mongodb
 # start mongodb server
 
 brew services start mongo
-**# start mongo client**
+## # start mongo client
 
 mongo
 
 mongo -u root -p example
-**Mongo DB Queries**
+## Mongo DB Queries
 
 db.stats()
 
@@ -110,7 +110,7 @@ db.collection.createIndex( { name: -1 } )
 
 db.sms_collection.getIndexes()
 db.COLLECTION_NAME.aggregate(AGGREGATE_OPERATION)
-**RDBMS Where Clause Equivalents in MongoDB**
+## RDBMS Where Clause Equivalents in MongoDB
 
 To query the document on the basis of some condition, you can use following operations.
 
@@ -122,5 +122,5 @@ To query the document on the basis of some condition, you can use following oper
 | Greater Than        | {key:{$gt:value}}  | db.mycol.find({"likes":{$gt:50}}).pretty()        | where likes > 50              |
 | Greater Than Equals | {key:{$gte:value}} | db.mycol.find({"likes":{$gte:50}}).pretty()       | where likes >= 50             |
 | Not Equals          | {key:{$ne:value}}  | db.mycol.find({"likes":{$ne:50}}).pretty()        | where likes != 50              |
-**Others**
+## Others
 -   VS Code extension for mongodb

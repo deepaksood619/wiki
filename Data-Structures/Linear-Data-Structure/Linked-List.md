@@ -6,12 +6,12 @@ Modified: 2020-01-07 22:36:30 +0500
 
 ---
 
-**Points to remember -**
+## Points to remember -
 
 1.  Explicit Data Structure
 
 2.  Linear Data Structure
-**Operations**
+## Operations
 
 1.  AddFirst
 
@@ -22,7 +22,7 @@ Modified: 2020-01-07 22:36:30 +0500
 4.  Iterator
 
 5.  Clonning
-**Variants**
+## Variants
 
 1.  Singly Linked List
 
@@ -36,17 +36,17 @@ Modified: 2020-01-07 22:36:30 +0500
 
 The idea is simple, we create multiple layers so that we can skip some nodes.
 
-![10 20 Express Lane 22 23 27 30 30 Lane 43 45 50 57 58 59 62 65 67 ](media/Linked-List-image1.png)
+![image](media/Linked-List-image1.png)
 
 6.  Intrusive Linked List
 
 Intrusive linked lists are a variation of[linked lists](https://www.data-structures-in-practice.com/linked-lists/)where the links are embedded in the structure that's being linked.
 In a typical linked list implementation, a list node contains adatapointer to the linked data and anextpointer to the next node in the list.
 
-![data next data next NULL ](media/Linked-List-image2.png)
+![image](media/Linked-List-image2.png)
 In an intrusive linked list implementation, the list node containsnextpointer to the next list node, but nodatapointer because the list is embedded in the linked object itself.
 
-![next next NULL ](media/Linked-List-image3.png)
+![image](media/Linked-List-image3.png)
 
 There are two main reasons to use intrusive lists over non-intrusive linked lists:
 -   Fewer memory allocations
@@ -67,7 +67,7 @@ In a Linked List the first node is called the**head**and the last node is called
 
 ## Cons
 -   To access an element in a linked list, you need to take O(k) time to go from the head of the list to the kth element. In contrast, arrays have constant time operations to access elements in an array.
-**Interview Questions**
+## Interview Questions
 -   Reverse a linked list
 -   Detect loop in a linked list
 -   Return Nth node from the end in a linked list

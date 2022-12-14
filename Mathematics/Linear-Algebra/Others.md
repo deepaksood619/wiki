@@ -6,7 +6,7 @@ Modified: 2021-06-13 19:58:53 +0500
 
 ---
 
-**Concepts**
+## Concepts
 -   Matrix factorization
 -   Singular value decomposition
 -   Moore-Penrose Pseudoinverse

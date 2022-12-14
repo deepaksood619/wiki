@@ -12,17 +12,11 @@ A mixin is a special kind of multiple inheritance. There are two main situations
 
 2.  You want to use one particular feature in a lot of different classes.
 
-
-
 Example -
-
-
 
 In this example the function clean_name will be added to the AggregatedWidgetCreationForm automatically and parent will be overridden if any
 
-
-
-**class** CleanNameMixin:
+## class CleanNameMixin:
 
 *"""*
 
@@ -30,7 +24,7 @@ In this example the function clean_name will be added to the AggregatedWidgetCre
 
 *"""*
 
-**def** clean_name(self):
+## def clean_name(self):
 
 *"""*
 
@@ -40,25 +34,17 @@ In this example the function clean_name will be added to the AggregatedWidgetCre
 
 name=self.cleaned_data[**'name'**]
 
-
-
 allowed_chars=frozenset(string.lowercase+**'_'**)
 
+## if not** all(c **in** allowed_chars **for** c **in name):
 
+## raise** forms.ValidationError(**'Only lowercase and underscore allowed')
 
-**if not** all(c **in** allowed_chars **for** c **in** name):
+## return name
 
-**raise** forms.ValidationError(**'Only lowercase and underscore allowed'**)
+## class AggregatedWidgetCreationForm(forms.ModelForm, CleanNameMixin):
 
-
-
-**return** name
-
-
-
-**class** AggregatedWidgetCreationForm(forms.ModelForm, CleanNameMixin):
-
-**class** Meta:
+## class Meta:
 
 model=AggregatedWidget
 

@@ -8,25 +8,15 @@ Modified: 2019-01-10 15:25:34 +0500
 
 *EMQ X*broker is a fully open source, distributed, highly scalable, highly extensible, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.
 
-
-
 Written in Erlang/OTP.
-
-
 
 Starting from 3.0 release,*EMQ X*broker fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the*EMQ X*broker can scale to 10+ million concurrent MQTT connections on one cluster.
 
-
-
 The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT connections on a 12 Core, 32G CentOS server.
-
-
 
 ![](../../media/Technologies-Brokers-EMQTT-image1.png)
 
-
-
-**Highlights of theEMQ Xbroker:**
+## Highlights of theEMQ Xbroker:
 -   Full MQTT V3.1/3.1.1 & V5.0 Protocol Specifications Support
 -   Easy to Install - Quick Install on Linux, Mac and Windows
 -   Massively scalable - Scaling to 1 million connections on a single server
@@ -34,9 +24,7 @@ The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT co
 -   Easy to extend - Hooks and plugins to customize or extend the broker
 -   Pluggable Authentication - LDAP, MySQL, PostgreSQL, Redis Authentication Plugins
 
-
-
-**Features**
+## Features
 -   Full MQTT V3.1/V3.1.1 & V5.0 protocol specifications support
 -   QoS0, QoS1, QoS2 Publish and Subscribe
 -   Session Management and Offline Messages
@@ -63,9 +51,7 @@ The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT co
 -   Local subscription
 -   Shared subscription
 
-
-
-**Table of Content**
+## Table of Content
 
 1.  Deployment
 
@@ -102,15 +88,11 @@ The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT co
 
 16. LWM2M Protocol
 
-
-
-**Mqtt Messages Persistence**
+## Mqtt Messages Persistence
 
 <https://developer.emqx.io/docs/tutorial/en/backend/whats_backend.html>
 
-
-
-**References**
+## References
 
 <https://github.com/emqx/emqx>
 

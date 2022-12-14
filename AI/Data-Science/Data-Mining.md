@@ -6,7 +6,7 @@ Modified: 2021-06-19 15:21:37 +0500
 
 ---
 
-**Why data Mining**
+## Why data Mining
 -   The explosive growth of data: from terabytes to petabytes
     -   Data collection and data availability
         -   Automated data collection tools, database systems, Web, computerized society
@@ -17,25 +17,19 @@ Modified: 2021-06-19 15:21:37 +0500
 -   We are drowning in data, but starving for knowledge
 -   "Necessity is the mother of investion" -- Data mining -- Automated analysis of massive data
 
-
-
-**What is Data Mining**
+## What is Data Mining
 -   Data mining (knowledge discovery from data)
     -   Extraction of interesting (non-trivial, implicit, previously unknown and potentially useful) patterns of knowledge from huge amount of data
 -   Alternative nams
     -   Knowledge discovery (mining) in databases (KDD), knowledge extraction, data/pattern analysis, data archeology, data dredging, information harvesting, business intelligence
 
-![Data Mining: A KDD Process Data mining: the core of knowledge discovery process. Pattern Evaluation Data Mining Task-relevant Dat• Data Warehouse Data Cleaning Dai? Integration I)atabases •Selection ](media/Data-Mining-image1.jpg)
+![image](media/Data-Mining-image1.jpg)
 
+## Data Mining: Confluence of Multiple Disciplines
 
+![image](media/Data-Mining-image2.jpg)
 
-**Data Mining: Confluence of Multiple Disciplines**
-
-![a a as Data Mining Algorithm Statistics Visualizatio ](media/Data-Mining-image2.jpg)
-
-
-
-**Why not traditional data analysis?**
+## Why not traditional data analysis?
 -   Tremendous amount of data
     -   Algorithms must be highly scalable to handle such terabytes of data
 -   High-dimensionality of data
@@ -47,9 +41,7 @@ Modified: 2021-06-19 15:21:37 +0500
     -   Heterogeneous dtabases and legacy databases
     -   Spatial, spatiotemporal, multimedia, text and web data
 
-
-
-**Data Mining: On what kinds of data?**
+## Data Mining: On what kinds of data?
 -   Database-oriented data sets and applications
     -   Relational database, data warehouse, transactional database
 -   Advanced data sets and advanced applications
@@ -63,9 +55,7 @@ Modified: 2021-06-19 15:21:37 +0500
     -   Text databases
     -   The world-wide web
 
-
-
-**Data Mining Functionalities**
+## Data Mining Functionalities
 -   Multidimensional concept description: Characterization and discrimination
     -   Generalize, summarize, and contrast data characteristics e.g. dry vs wet regions
 -   Frequent patterns, association, correlation vs causality
@@ -87,9 +77,7 @@ Modified: 2021-06-19 15:21:37 +0500
     -   Similarity-based analysis
 -   Other pattern-directed or statistical analysis
 
-
-
-**Major Issues in Data Mining**
+## Major Issues in Data Mining
 -   **Mining methodology**
     -   Mining different kinds of knowledge from diverse data types, e.g., bio, stream, web
     -   Performance: efficiency, effectiveness, and scalability
@@ -106,15 +94,11 @@ Modified: 2021-06-19 15:21:37 +0500
     -   Domain-specific data mining & invisible data mining
     -   Protection of data security, integrity and privacy
 
+## Architecture: Typical Data Mining System
 
+![image](media/Data-Mining-image3.jpg)
 
-**Architecture: Typical Data Mining System**
-
-![ra ac Pattern Evaluation Data Mining Engine atabase or ata arehouse e ge datac ning, tegr tion, Data s rehou rld-Wi e e selectiom ther In o OSI ](media/Data-Mining-image3.jpg)
-
-
-
-**KDD Process: Summary**
+## KDD Process: Summary
 -   Learning the application domain
     -   Relevant prior knowledge and goals of application
 -   Creating a target data set: data selection
@@ -129,9 +113,7 @@ Modified: 2021-06-19 15:21:37 +0500
     -   Visualization, transformation, removing redundant patterns
 -   Use of discovered knowledge
 
-
-
-**Components of Data Mining Algorithms**
+## Components of Data Mining Algorithms
 -   Model Representation
     -   Determining the nature and structure of the representation to be used
 -   Score function
@@ -141,13 +123,9 @@ Modified: 2021-06-19 15:21:37 +0500
 -   Data management
     -   Deciding what principles of data management are required to implement the algorithms efficiently
 
-
-
-**Steps of Data Mining Algorithm**
+## Steps of Data Mining Algorithm
 
 Task > Representation > Score Function > Search/Optimization > Data Management > Models, Parameters
-
-
 
 
 

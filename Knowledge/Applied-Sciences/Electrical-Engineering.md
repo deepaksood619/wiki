@@ -6,7 +6,7 @@ Modified: 2019-10-13 22:57:12 +0500
 
 ---
 
-**Electrical Engineering**
+## Electrical Engineering
 -   William Gilbert: De Magnete (On a Magnet)
 
 He was the first to describe the phenomena we now associate with electrical attraction and magnetic poles, which is why many view him as the father of electrical studies
@@ -32,7 +32,5 @@ He was the first to describe the phenomena we now associate with electrical attr
     -   Radar
     -   Radio
     -   Early Television
-
-
 
 <https://www.khanacademy.org/science/electrical-engineering>

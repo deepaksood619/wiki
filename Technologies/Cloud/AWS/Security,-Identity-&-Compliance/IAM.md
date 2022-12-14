@@ -16,18 +16,12 @@ Non people identities
 
 <https://pages.awscloud.com/awsmp-h2-sec-digital-workspace-iam-ty.html>
 
-
-
-**Gotchas**
+## Gotchas
 -   Make sure to give access like /* for any object that needs access for inside too
-
-
 
 AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources.
 
-
-
-**Best practices**
+## Best practices
 -   [Users](https://aws.amazon.com/iam/features/manage-users/)-- Create individual users
 -   [Groups](https://aws.amazon.com/iam/features/manage-users/)-- Manage permissions with groups
 -   [Permissions](https://aws.amazon.com/iam/features/manage-permissions/)-- Grant least privilege
@@ -40,13 +34,9 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
 -   [Conditions](http://docs.aws.amazon.com/IAM/latest/UserGuide/PermissionsAndPolicies.html)-- Restrict privileged access further with conditions
 -   [Root](https://aws.amazon.com/iam/features/manage-users/)-- Reduce or remove use of root
 
-
-
 [AWS re:Invent 2018: [REPEAT 1] Become an IAM Policy Master in 60 Minutes or Less (SEC316-R1)](https://www.youtube.com/watch?v=YQsK4MtsELU)
 
-
-
-**IAM policy language**
+## IAM policy language
 -   IAM policies
     -   Two parts:
         -   Specification: Defining access policies
@@ -73,9 +63,7 @@ AWS Identity and Access Management (IAM) enables you to manage access to AWS ser
 
 -   ![Context and policies --- a new way to think about evaluation Context of Your Request The unique components of each AWS request. anvent Allowed Denied e 201 R. Your Defined Policies The policies you define on identities, resources, and organizations. aws ](../../../media/Cloud-AWS-IAM-image2.png)
 
-
-
-**Policy types and how they work together**
+## Policy types and how they work together
 -   Policy types
     -   AWS Organizations
 
@@ -108,13 +96,9 @@ Controls access to the service with a VPC endpoint
 
 -   ![How policies work together within an account Service control policies AND If you are using Permission Boundary Permission Policy Scope-down Policy IAM OR Policies Resource- based Policies AND Managed OR Inline AND ](../../../media/Cloud-AWS-IAM-image4.png)
 
-
-
 ![Become an IAM Policy Master in 60 Minutes or Less Brigid Johnson Senior Mana#r Of Product Management AWS Identity aws ](../../../media/Cloud-AWS-IAM-image5.jpg)
 
-
-
-**Policies**
+## Policies
 -   [AWS Managed Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html#aws-managed-policies)
     -   FullAccess
     -   PowerUser
@@ -127,8 +111,6 @@ Controls access to the service with a VPC endpoint
 
 You can create standalone policies that you administer in your own AWS account, which we refer to as*customer managed policies*. You can then attach the policies to multiple principal entities in your AWS account. When you attach a policy to a principal entity, you give the entity the permissions that are defined in the policy.
 
-
-
 A great way to create a customer managed policy is to start by copying an existing AWS managed policy. That way you know that the policy is correct at the beginning and all you need to do is customize it to your environment.
 
 
@@ -136,27 +118,17 @@ A great way to create a customer managed policy is to start by copying an existi
 
 An inline policy is a policy that's embedded in an IAM identity (a user, group, or role). That is, the policy is an inherent part of the identity. You can create a policy and embed it in a identity, either when you create the identity or later.
 
-
-
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_managed-vs-inline.html>
 
-
-
-**IAM Roles**
+## IAM Roles
 
 An IAMroleis an IAM identity that you can create in your account that has specific permissions. An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS. However, instead of being uniquely associated with one person, a role is intended to be assumable by anyone who needs it. Also, a role does not have standard long-term credentials such as a password or access keys associated with it. Instead, when you assume a role, it provides you with temporary security credentials for your role session.
 
-
-
 You can use roles to delegate access to users, applications, or services that don't normally have access to your AWS resources. For example, you might want to grant users in your AWS account access to resources they don't usually have, or grant users in one AWS account access to resources in another account. Or you might want to allow a mobile app to use AWS resources, but not want to embed AWS keys within the app (where they can be difficult to rotate and where users can potentially extract them). Sometimes you want to give AWS access to users who already have identities defined outside of AWS, such as in your corporate directory. Or, you might want to grant access to your account to third parties so that they can perform an audit on your resources.
-
-
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html>
 
-
-
-**Job functions**
+## Job functions
 -   [Administrator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_administrator)
 -   [Billing](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_accounts-payable)
 -   [Database Administrator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_database-administrator)
@@ -168,39 +140,25 @@ You can use roles to delegate access to users, applications, or services that do
 -   [System Administrator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_system-administrator)
 -   [View-Only User](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_view-only-user)
 
-
-
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html>
 
-
-
-**ManagedPolicies**
+## ManagedPolicies
 
 EC2InstanceConnect
 
-
-
-**Changes That I Make Are Not Always Immediately Visible**
+## Changes That I Make Are Not Always Immediately Visible
 
 As a service that is accessed through computers in data centers around the world, IAM uses a distributed computing model called[eventual consistency](https://wikipedia.org/wiki/Eventual_consistency). Any change that you make in IAM (or other AWS services) takes time to become visible from all possible endpoints. Some of the delay results from the time it takes to send the data from server to server, from replication zone to replication zone, and from Region to Region around the world. IAM also uses caching to improve performance, but in some cases this can add time: The change might not be visible until the previously cached data times out.
 
-
-
 You must design your global applications to account for these potential delays. Ensure that they work as expected, even when a change made in one location is not instantly visible at another. Such changes include creating or updating users, groups, roles, or policies. We recommend that you do not include such IAM changes in the critical, high-availability code paths of your application. Instead, make IAM changes in a separate initialization or setup routine that you run less frequently. Also, be sure to verify that the changes have been propagated before production workflows depend on them.
-
-
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/troubleshoot_general.html>
 
-
-
-**Web Identity Federation**
+## Web Identity Federation
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc.html>
 
-
-
-**Notes**
+## Notes
 -   Principle keyword means it's a resource based policy, otherwise identity based policy
 -   **Amazon s3 access point for dns names (instead of s3 file path)**
 -   No recylebin
@@ -210,11 +168,7 @@ You must design your global applications to account for these potential delays. 
 -   Resiliency built in for multi part upload
 -   Amazon s3 transfer acceleration
 
-
-
 <https://www.freecodecamp.org/news/aws-iam-explained
-
-
 
 
 

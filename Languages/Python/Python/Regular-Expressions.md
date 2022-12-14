@@ -6,19 +6,15 @@ Modified: 2018-03-30 16:54:31 +0500
 
 ---
 
-**Pythons Metacharacters**
+## Pythons Metacharacters
 
 . ^ $ * + ? { } [ ]  | ( )
 
-
-
-**Introduction**
+## Introduction
 
 The[re](https://docs.python.org/3/library/re.html#module-re)module provides an interface to the regular expression engine, allowing us to compile REs into objects and then perform matches with them. (Perl like regular expression)
 
-
-
-**Compiling**
+## Compiling
 
 Regular expressions are compiled into pattern objects, which have methods for various operations such as searching for pattern matches or performing string substitutions.
 
@@ -32,11 +28,7 @@ re.compile() also accepts an optional*flags*argument, used to enable various spe
 
 re.compile(r'ab*', re.IGNORECASE|re.UNICODE)
 
-
-
 r'' represents that regular expression is in raw format
-
-
 
 ## Performing Matches
 
@@ -47,19 +39,13 @@ r'' represents that regular expression is in raw format
 | findall()            | Find all substrings where the RE matches, and returns them as a list.                                                               |
 | finditer()           | Find all substrings where the RE matches, and returns them as an[iterator](https://docs.python.org/3/glossary.html#term-iterator). |
 
-
-
 match()andsearch()returnNoneif no match can be found. If they're successful, a[match object](https://docs.python.org/3/library/re.html#match-objects)instance is returned, containing information about the match: where it starts and ends, the substring it matched, and more.
 
-
-
-**re.match()**
+## re.match()
 
 The[**re.match()**](https://docs.python.org/2/library/re.html#re.match)expression only matches at the*beginning*of the string.
 
 It either returns a ***MatchObject*** instance or returns ***None*** if the string does not match the pattern.
-
-
 
 import re
 
@@ -67,13 +53,9 @@ bool(re.match(r'ly', 'similarly'))
 
 >> False
 
-
-
 bool(re.match(r'ly', 'ly how'))
 
 >> True
-
-
 
 We can query the[match object](https://docs.python.org/3/library/re.html#match-objects)for information about the matching string.
 
@@ -84,13 +66,9 @@ We can query the[match object](https://docs.python.org/3/library/re.html#match-o
 | end()                | Return the ending position of the match                           |
 | span()               | Return a tuple containing the (start, end) positions of the match |
 
-
-
 Since thematch()method only checks if the RE matches at the start of a string,start()will always be zero.
 
-
-
-**group()**
+## group()
 
 A group expression returns one or more subgroups of the match
 
@@ -107,9 +85,7 @@ A group expression returns one or more subgroups of the match
 >>> m.group(1,2,3) # Multiple arguments give us a tuple.
 ('username', 'hackerrank', 'com')
 
-
-
-**groups()**
+## groups()
 
 A*groups()*expression returns a tuple containing all the subgroups of the match.
 
@@ -118,9 +94,7 @@ A*groups()*expression returns a tuple containing all the subgroups of the match.
 >>> m.groups()
 ('username', 'hackerrank', 'com')
 
-
-
-**groupdict()**
+## groupdict()
 
 A*groupdict()*expression returns a dictionary containing all the named subgroups of the match, keyed by the subgroup name. (Used by named capture group)
 
@@ -128,9 +102,7 @@ A*groupdict()*expression returns a dictionary containing all the named subgroups
 >>> m.groupdict()
 {'website': 'hackerrank', 'user': 'myname', 'extension': 'com'}
 
-
-
-**re.search()**
+## re.search()
 
 This function searches for first occurrence of RE*pattern*within*string*with optional*flags*.
 
@@ -138,21 +110,15 @@ Here is the syntax for this function −
 
 re.search(pattern, string, flags = 0)
 
-
-
 The[**re.search()**](https://docs.python.org/2/library/re.html#re.search)expression scans through a string looking for the*first*location where the regex pattern produces a match.
 
 It either returns aMatchObjectinstance or returnsNoneif no position in the string matches the pattern.
-
-
 
 import re
 
 bool(re.search(r'ly', 'similarly'))
 
 >> True
-
-
 
 
 
@@ -186,13 +152,9 @@ bool(re.search(r'ly', 'similarly'))
 </tbody>
 </table>
 
-
-
 The*re.search*function returns amatchobject on success,noneon failure. We use*group(num)*or*groups()*function ofmatchobject to get the matched expression.
 
-
-
-**Named Capturing Groups**
+## Named Capturing Groups
 
 (?P<name>group) captures the match of group into the backreference "name"
 
@@ -202,17 +164,11 @@ group can be any regular expression
 
 We can reference the contents of the group with the named backreference (?P=name)
 
-
-
-**re.findall()**
+## re.findall()
 
 The expression*re.findall()*returns all the non-overlapping matches of patterns in a string as a list of strings.
 
-
-
 re.findall(r'w+', '12 drummers drumming, 11 pipers piping, 10 lords a-leaping')
-
-
 
 We can use capture group to only capture the groups that we want to capture
 Ex -
@@ -233,13 +189,9 @@ Ex -
 
 555
 
-
-
-**re.finditer()**
+## re.finditer()
 
 The expression*re.finditer()*returns an iterator yielding MatchObject instances over all non-overlapping matches for the*re*pattern in the string.
-
-
 
 iterator = re.finditer(r'w+', '12 drummers drumming, 11 pipers piping, 10 lords a-leaping')
 
@@ -247,9 +199,7 @@ for match in iterator:
 
 print(match.group())
 
-
-
-**re.start() & re.end()**
+## re.start() & re.end()
 
 These expressions return the indices of the start and end of the substring matched by the group.
 
@@ -264,9 +214,7 @@ re.start(1) # returns value for 1st capturing group
 
 
 
-
-
-**re.sub() (Search and Replace)**
+## re.sub() (Search and Replace)
 
 The*re.sub()*tool (*sub*stands for*substitution*) evaluates a pattern and, for each valid match, it calls a*method*(or*lambda*).
 
@@ -278,19 +226,13 @@ Syntax
 
 re.sub(pattern, replacement, string, max=0)
 
-
-
 s = re.sub(r'(?<= )&&(?= )', 'and', s)
 
 s = re.sub(r'(?<= )||(?= )', 'or', s)
 
-
-
 This method replaces all occurrences of the RE*pattern*in*string*with*replacement*, substituting all occurrences unless*max*is provided. This method returns modified string.
 
-
-
-**Backreference Substitution**
+## Backreference Substitution
 
 Also we can use capturing group as a replacement
 
@@ -318,28 +260,22 @@ Ex2 -
 
 (412)555-1212
 
-
-
 re.**split**(*pattern*,*string*,*maxsplit=0*,*flags=0*)
 
 Split*string*by the occurrences of*pattern*. If capturing parentheses are used in*pattern*, then the text of all groups in the pattern are also returned as part of the resulting list. If*maxsplit*is nonzero, at most*maxsplit*splits occur, and the remainder of the string is returned as the final element of the list.
 
-**>>>** re.split(r'W+', 'Words, words, words.')
+## >>> re.split(r'W+', 'Words, words, words.')
 ['Words', 'words', 'words', '']
-**>>>** re.split(r'(W+)', 'Words, words, words.')
+## >>> re.split(r'(W+)', 'Words, words, words.')
 ['Words', ', ', 'words', ', ', 'words', '.', '']
-**>>>** re.split(r'W+', 'Words, words, words.', 1)
+## >>> re.split(r'W+', 'Words, words, words.', 1)
 ['Words', 'words, words.']
-**>>>** re.split('[a-f]+', '0a3B9', flags=re.IGNORECASE)
+## >>> re.split('[a-f]+', '0a3B9', flags=re.IGNORECASE)
 ['0', '3', '9']
 
-
-
-**Compilation Flag**
+## Compilation Flag
 
 Compilation flags let you modify some aspects of how regular expressions work. Flags are available in the[re](https://docs.python.org/3/library/re.html#module-re)module under two names, a long name such asIGNORECASEand a short, one-letter form such asI.Multiple flags can be specified by bitwise OR-ing them;re.I|re.Msets both theI andMflags,
-
-
 
 | **Flag**                    | **Meaning**                                                                                                   |
 |-------------------|-----------------------------------------------------|
@@ -350,8 +286,6 @@ Compilation flags let you modify some aspects of how regular expressions work. F
 | MULTILINE,M                | Multi-line matching, affecting^and$.                                                                     |
 | VERBOSE,X(for 'extended') | Enable verbose REs, which can be organized more cleanly and understandably.                                   |
 
-
-
 Also flags can be used in re.compile
 
 Ex - re.compile(r"(?m)^.?s")
@@ -360,17 +294,13 @@ Here ?m represents multiline flag
 
 
 
-
-
-**Performance**
+## Performance
 
 When using a regular expression inside a loop, always use compile and then check for regular expression match inside a loop. CPU takes a lot of time to process the regular expression and using it inside a loop should not be done.
 
 
 
-
-
-**References**
+## References
 
 <https://docs.python.org/3/howto/regex.html>
 

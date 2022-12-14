@@ -6,7 +6,7 @@ Modified: 2022-12-02 09:41:04 +0500
 
 ---
 
-**Insert performance**
+## Insert performance
 
 <https://stackoverflow.com/questions/16485425/aws-redshift-jdbc-insert-performance>
 
@@ -92,9 +92,9 @@ Designed for large writes
 UPDATE and DELETE
 -   Immutable blocks means that we only logically delete rows on UPDATE or DELETE
 -   Must VACUUM or DEEP COPY to remove ghost rows from table
-![Data ingestion: Deduplication/UPSERT 2016-09-01 2017-10-20 2016-09-14 2017-10-20 2017-04-01 2017-10-10 2017-05-14 2017-11-29 Table: deep_dive s3://bucket/dd.csv aid 2 3 4 loc SFO JFK SFO JFK dt aid 2 5 6 loc SFO JFK SJC SEA dt ](media/AWS-Redshift_Deep-dive---Best-practices-image1.png)
+![image](media/AWS-Redshift_Deep-dive---Best-practices-image1.png)
 
-![aid 2 3 4 5 6 Table: deep_dive 2017-10-20 2017-10-20 2017-04-01 2017-05-14 2017-10-10 2017-11-29 s3://bucket/dd.csv loc SFO JFK SFO JFK SJC SEA dt aid 2 5 6 loc SFO JFK SJC SEA dt 2017-10-20 2017-10-20 2017-10-10 2017-11-29 ](media/AWS-Redshift_Deep-dive---Best-practices-image2.png)
+![image](media/AWS-Redshift_Deep-dive---Best-practices-image2.png)
 Steps
 
 1.  Load CSV data into a staging table
@@ -104,8 +104,8 @@ Steps
 3.  Insert (or append) data from the staging into the production table
 Create a Transaction
 
-![BEGIN ; CREATE TEMP TABLE staging (LIKE deep _ dive) ; COPY staging FROM s 3: / / bucket/ dd. creds COMPUPDATE OFF; DELETE FROM deep_dive d USING staging s WHERE d. aid = s. aid; INSERT INTO deep dive SELECT * FROM staging; DROP TABLE staging; COMMIT ; ](media/AWS-Redshift_Deep-dive---Best-practices-image3.png)
-**Best practices: ELT**
+![image](media/AWS-Redshift_Deep-dive---Best-practices-image3.png)
+## Best practices: ELT
 
 Wrap workflow/statements in an explicit transaction
 
@@ -129,7 +129,7 @@ Best Practices:
     -   Consider Deep Copy (recreating and copying data) for larger or wide tables
 -   ANALYZE can be run periodically after ingestion on just the columns taht WHERE predicates are filtered on
 -   Utility to VACUUM and ANALYZE all the tables in the cluster
-**Workload management (WLM) and query monitoring rules**
+## Workload management (WLM) and query monitoring rules
 
 Allows for the separation of different query workloads
 Goals
@@ -140,9 +140,9 @@ Control concurrent number of executing of queries
 Divide cluster memory
 
 Set query timeouts to abort long running queries
-**Terminology and Concepts**
+## Terminology and Concepts
 
-**WLM attributes**
+## WLM attributes
 
 Queues:
 -   Assigned a percentage of cluster memory
@@ -151,32 +151,32 @@ Queues:
     -   Query group session level variable
 Short query acceleration (SQA):
 -   Automatically detech short running queries and run them within the short query queue if queuing occurs
-**Queue attributes**
+## Queue attributes
 -   Query slots (or Concurrency)
     -   Devision of memory within a WLM queue, correlated with the number of simultaneous running queries
     -   WLM_QUERY_SLOT_COUNT is a session level variable
         -   Useful to increase for memory intensive operations (example: large COPY, VACUUM, larege INSERT INTO SELECT)
 -   Concurrency Scaling
     -   When queues are full, queries are routed to transient Amazon Redshift clusters
-**Workload management: Example**
+## Workload management: Example
 
-**Use Case:**
+## Use Case:
 -   Light ingestion/ELT on a continuous cadence of 10 minutes
 -   Peak reporting workload during business hours (7 a.m. - 7 p.m.)
 -   Heavy ingestion / ELT nightly (11 p.m. - 2 a.m.)
-**User types**
+## User types
 -   Business reporting and dashboards
 -   Analysts and data science teams
 -   Database administrators
-**Create a queue for each workload type**
+## Create a queue for each workload type
 
-![Queue name Ingestion Dashboard Default (Analysts) Memory Concurrency Timeout (seconds) 20% 50% 25% 2 10 3 None 120 None Concurrency Scaling Never Automatic Never or Automatic ](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg)-   Unallocated memory goes into a general pool that can be used by any queue
+![image](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg)-   Unallocated memory goes into a general pool that can be used by any queue
 -   Enable: Short Query Acceleration
 -   Hidden superuser queue can be used by admins manually switched into:
 
 SET query_group TO 'superuser'
 -   The superuser queue has a single slot, the equivalent of 5-7% memory allocation, and no timeout
-**Query monitoring rules (QMR)**
+## Query monitoring rules (QMR)
 -   Extension of workload management (WLM)
 -   Allow the automatic handling of runaway (poorly written) queries
 -   Rules applied to a WLM queue allow queries to be
@@ -186,7 +186,7 @@ SET query_group TO 'superuser'
 -   Goals
     -   Protect against wasteful use of the cluster
     -   Log resource-intensive queries
-**WLM and QMR**
+## WLM and QMR
 -   Keep the number of WLM queues to a minimum, typically just three queues to avoid having unused queues
 -   Use WLM to limit ingestion/ELT concurrency to two to three
 -   To maximize query throughput, use WLM to throttle the number of concurrent queries to 15 or less
@@ -196,15 +196,15 @@ SET query_group TO 'superuser'
 <https://github.com/awslabs/amazon-redshift-utils>
 
 [AWS re:Invent 2018: [REPEAT 1] Deep Dive and Best Practices for Amazon Redshift (ANT401-R1)](https://www.youtube.com/watch?v=TJDtQom7SAA)
-**ETL in Redshift**
+## ETL in Redshift
 
-**AWS Data pipeline**
+## AWS Data pipeline
 
 AWS data pipeline can integrate with all the available AWS services and provides templates with Redshift or S3 as a target. If you are imagining an ELT system, it would be worthwhile to use the Redshift target template directly so that the data is loaded directly to Redshift. That said, internally even this will use S3 as intermediate storage, but the end-user does not have to worry about that. One issue with AWS data pipeline is that it normally works in the batch mode as periodically scheduled jobs and this does not do a good job in case the data extraction needs to be in real-time or near-real-time.
-**AWS RDS Sync with Redshift**
+## AWS RDS Sync with Redshift
 
 If your source data is in RDS and wants to sync the RDS directly to Redshift in real-time, AWS offers partner solutions like Attunity and Flydata which works based on bin log streaming.
-**COPY Command**
+## COPY Command
 
 The COPY command loads data into Amazon Redshift tables from either data files or Amazon DynamoDB tables.The copied files may reside in an S3 bucket, an EMR cluster or on a remote host accessed via SSH.Data is loadable from fixed-width, character-delimited text files, including CSV, AVRO and JSON format. Default format is character-delimited UTF-8 text files, delimited by the pipe (|) char.Rows to be copied may not be larger than 4 MB from any single source.Root users and IAM users must have INSERT privileges to modify Redshift (RS) tables.-   Use a single COPY command to load from multiple files
 -   Split your load data
@@ -220,7 +220,7 @@ Automatically loads the new files detected in the specified Amazon S3 path
 <https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-supports-auto-copy-amazon-s3>
 
 ## AWS Glue**
-**Redshift ETL Best Practices**
+## Redshift ETL Best Practices
 
 1.  While using the COPY command of Redshift, it is always better to use it on multiple source files rather than one big file. This helps in parallelly loading them and can save a lot of time. Using a manifest file is recommended in case of loading from multiple files.
 

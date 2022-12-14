@@ -39,10 +39,10 @@ Redis is a good option locking since has a simple key-based data model, each sha
 
 ## Best practices and performance tuning**
 
-**TCP-KeepAlive**
+## TCP-KeepAlive
 
 Keepalive is a method to allow the same TCP connection for HTTP conversation instead of opening a new one with each new request.
-**Pipelining**
+## Pipelining
 
 Pipelining facilitates a client to send multiple requests to the server without waiting for the replies at all and finally reads the reply in a single step.
 Pipelines are a subclass of the base Redis class that provide support for buffering multiple commands to the server in a single request. They can be used to dramatically increase the performance of groups of commands by reducing the number of back-and-forth TCP packets between the client and server.
@@ -57,7 +57,7 @@ Pipelining isn't a silver bullet - you need to understand what it does before yo
 ## Max-Connection**
 
 define the maximum connection limit to the Redis Server.
-**Overcommit memory**
+## Overcommit memory
 
 Overcommit memory is a kernel parameter which checks if the memory is available or not. If the overcommit memory value is 0 then there is a chance that your Redis will get OOM (Out of Memory) error.
 echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
@@ -67,7 +67,7 @@ echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
 | maxmemory-policy  | volatile-lru      | It adds a random key with an expiry time                                                                                                                                                                            |
 | loglevel          | notice            | Loglevel should be "notice", so that log will not take too much resource                                                                                                                                            |
 | timeout           | 300               | There should be a timeout value as well in redis configuration which prevents redis from spending too much time on the connection. It closes the connection of the client if it is ideal for more than 300 seconds. |
-**Memory Optimizations**
+## Memory Optimizations
 
 [Compress Values](https://docs.redislabs.com/latest/ri/memory-optimizations/compress-values/)
 
@@ -134,7 +134,7 @@ When you set an expiry on a key, redis does not expire it at that instant. Inste
 4.  Fragmentation Ratio
 
 5.  Evictions
-**Parsers**
+## Parsers
 
 Parser classes provide a way to control how responses from the Redis server are parsed. redis-py ships with two parser classes, the PythonParser and the HiredisParser. By default, redis-py will attempt to use the HiredisParser if you have the hiredis module installed and will fallback to the PythonParser otherwise.
 Hiredis is a C library maintained by the core Redis team. Pieter Noordhuis was kind enough to create Python bindings. Using Hiredis can provide up to a 10x speed improvement in parsing responses from the Redis server. The performance increase is most noticeable when retrieving many pieces of data, such as from LRANGE or SMEMBERS operations.

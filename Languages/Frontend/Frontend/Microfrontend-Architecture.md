@@ -8,8 +8,6 @@ Modified: 2021-11-26 23:17:27 +0500
 
 Micro-frontend architecture is a design approach in which a[front-end](https://www.toptal.com/front-end)app is decomposed into individual, semi-independent "microapps" working loosely together.
 
-
-
 The benefits of the micro-frontend pattern include
 
 1.  Micro-frontend architectures may be simpler, and thus easier to reason about and manage.
@@ -18,16 +16,12 @@ The benefits of the micro-frontend pattern include
 
 3.  They can provide a means for migrating from an "old" app by having a "new" app running side by side with it.
 
-
-
 <https://www.toptal.com/front-end/micro-frontends-strengths-benefits>
-
-
 
 Micro-frontends let you build a website or web app as a composition of features that you can create and work on separately.
 -   asynchronous loading, error handling, shared state, cross platform micro-frontends, how to route multiple applications together, and even how to test micro-frontend code.
 
-![End-to-End Teams with Micro Frontends o o Team Inspire Mission: helps the customer to discover products Team Search Mission: quickly find the right product Team Product Mission: present the product (specs, images, ...) Team Checkout Mission: provide a good checkout experience ](media/Microfrontend-Architecture-image1.jpeg)
+![image](media/Microfrontend-Architecture-image1.jpeg)
 -   Why Micro-Frontends?
 -   Why Module Federation?
 -   Asynchronous Loading
@@ -45,8 +39,6 @@ Micro-frontends let you build a website or web app as a composition of features 
 -   Micro-Frontend Routing
 -   Unit Testing
 -   End-To-End Testing
-
-
 
 <https://www.freecodecamp.org/news/learn-all-about-micro-frontends
 

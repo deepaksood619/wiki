@@ -14,9 +14,7 @@ Modified: 2022-10-01 10:19:14 +0500
 
 <https://www.freecodecamp.org/news/best-machine-learning-courses>
 
-
-
-**Courses ML & AI**
+## Courses ML & AI
 -   <https://www.freecodecamp.org/news/machine-learning-for-everybody>
 -   <https://github.com/GoogleCloudPlatform/training-data-analyst>
 -   <https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python>
@@ -50,9 +48,7 @@ Modified: 2022-10-01 10:19:14 +0500
 -   <https://www.edx.org/course/fundamentals-of-tinyml>
 -   <https://www.univ.ai>
 
-
-
-**Courses - Data**
+## Courses - Data
 -   <https://stories.thedataproject.net>
 -   <https://www.alphaa.ai/saurabh-moody> (Certification Free)
 -   Python for data science
@@ -111,8 +107,6 @@ HDFS Architecture
 -   <https://www.freecodecamp.org/news/algorithmic-trading-using-python-course>
 -   <https://www.freecodecamp.org/news/hands-on-data-science-course>
 
-
-
 Statistics and EDA
 
 Data Visualization
@@ -131,9 +125,7 @@ Hypothesis Testing
 
 Case Study - Uber supply demand gap
 
-
-
-**Introduction to ML 1**
+## Introduction to ML 1
 
 Linear Regression
 
@@ -149,9 +141,7 @@ K-Means and Hierarchical Clustering
 
 Case Study - Telecom Churn
 
-
-
-**Introduction to ML 2**
+## Introduction to ML 2
 
 Time Series
 
@@ -165,33 +155,23 @@ Master Feed-forward, Recurrent and Gaussian Neural Networks.
 
 Association Rule Mining
 
-
-
 BIG DATA ANALYTICS
 
 INTRODUCTION TO BIG DATA AND HADOOP
 
 Understand the basic concepts of Big Data and Hadoop as processing platforms for Big Data
 
-
-
 MANAGING BIG DATA
 
 Learn and use Hadoop ecosystem tools like Sqoop & Hive for data ingestion, extraction and management.
-
-
 
 INTRODUCTION TO SPARK
 
 Understand and use Spark, a fast Big Data processing platform
 
-
-
 BIG DATA ANALYSIS
 
 Learn how to analyze Big Data using SparkR, SparkSQL
-
-
 
 Domain Electives
 
@@ -205,9 +185,7 @@ Customer marketing analytics and recommendation engines
 
 Health care
 
-
-
-**Model resources**
+## Model resources
 
 [**https://paperswithcode.com/**](https://paperswithcode.com/)
 
@@ -215,11 +193,7 @@ Health care
 
 [**https://github.com/tensorflow/models**](https://github.com/tensorflow/models)
 
-
-
 <https://github.com/academic/awesome-datascience>
-
-
 
 <https://mlcourse.ai/roadmap>
 
@@ -229,15 +203,13 @@ Health care
 
 <https://github.com/MrMimic/data-scientist-roadmap>
 
-![roadmap-picture](media/Others---Resources---Interview-image1.png)
+![image](media/Others---Resources---Interview-image1.png)
 
 <https://github.com/tirthajyoti/Data-science-best-resources/blob/master/README.md>
 
 <https://github.com/FavioVazquez/ds-cheatsheets>
 
 <https://github.com/jonathan-bower/DataScienceResources>
-
-
 
 <https://towardsdatascience.com/5-professional-projects-every-data-scientist-should-know-e89bf4e7e8e1>
 
@@ -251,9 +223,7 @@ Health care
 
 5.  Recommendation Systems
 
-
-
-**Courses**
+## Courses
 
 <https://www.freecodecamp.org/news/statistics-for-data-science>
 
@@ -263,23 +233,17 @@ Health care
 
 Paid - <https://www.coursera.org/specializations/deep-learning>
 
-
-
 Free - (7 Weeks each)
 
 <http://course.fast.ai>
 
 <http://course.fast.ai/part2.html>
 
-
-
 <https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md>
 
 <https://towardsdatascience.com/top-3-free-deep-learning-courses-in-2020-f2cd1c1b0f48>
 
-
-
-**Machine Learning**
+## Machine Learning
 
 <https://www.toptal.com/machine-learning/machine-learning-theory-an-introductory-primer>
 
@@ -297,11 +261,7 @@ How to approach ml problems - <https://www.toptal.com/machine-learning/machine-l
 
 Convoluational neural network - <https://towardsdatascience.com/the-most-intuitive-and-easiest-guide-for-convolutional-neural-network-3607be47480>
 
-
-
 <https://ahmedbesbes.com/end-to-end-ml.html>
-
-
 
 [**https://developers.google.com/machine-learning/crash-course/**](https://developers.google.com/machine-learning/crash-course/)
 
@@ -315,9 +275,7 @@ Convoluational neural network - <https://towardsdatascience.com/the-most-intuiti
 
 <https://www.freecodecamp.org/news/free-machine-learning-course-10-hourse>
 
-
-
-**Cheatsheet**
+## Cheatsheet
 
 <https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-machine-learning-tips-and-tricks>
 
@@ -327,9 +285,7 @@ Convoluational neural network - <https://towardsdatascience.com/the-most-intuiti
 
 <https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-deep-learning>
 
-
-
-**NewsLetter & Blogs**
+## NewsLetter & Blogs
 
 <https://blog.udacity.com/2018/03/5-must-read-ai-newsletters.html>
 
@@ -339,15 +295,11 @@ Convoluational neural network - <https://towardsdatascience.com/the-most-intuiti
 
 <https://i.am.ai>
 
-
-
-**Examples**
+## Examples
 
 <https://towardsdatascience.com/how-to-build-a-real-time-fraud-detection-pipeline-using-faust-and-mlflow-24e787dd51fa>
 
-
-
-**Resources**
+## Resources
 
 <https://towardsdatascience.com/a-weird-introduction-to-deep-learning-7828803693b0>
 
@@ -367,9 +319,7 @@ Convoluational neural network - <https://towardsdatascience.com/the-most-intuiti
 
 <https://deepai.org>
 
-
-
-**Questions**
+## Questions
 
 <http://onlinetutorials.today/data-science/data-science-interview-questions-and-answers>
 
@@ -380,6 +330,4 @@ Convoluational neural network - <https://towardsdatascience.com/the-most-intuiti
 <https://www.conordewey.com/blog/the-big-list-of-data-science-interview-resources>
 
 <https://towardsdatascience.com/the-uber-data-scientist-interview-7ba9ca95f4e3>
-
-
 

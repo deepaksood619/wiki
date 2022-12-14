@@ -6,14 +6,14 @@ Modified: 2021-02-21 21:38:45 +0500
 
 ---
 
-**Points to remember -**
+## Points to remember -
 
 1.  Common way of implementing priority queues.
 
 2.  Implicit Data Structure (storing keys in an array and using their relative positions within that array to represent child-parent relationships.)
 
 3.  Commonly applied in heapsort sorting algorithms
-**Binary Heap**
+## Binary Heap
 
 A binary heap is defined as a binary tree with two additional constraints:
 -   Shape property: a binary heap is a[*complete binary tree*](https://en.wikipedia.org/wiki/Complete_Binary_Tree); that is, all levels of the tree, except possibly the last one (deepest) are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
@@ -24,14 +24,14 @@ A binary heap is a complete binary tree which satisfies the heap ordering proper
 
 Throughout this chapter the word "heap" will always refer to a min-heap.
 
-![12 15 10 15 17 10 10 ](media/Binary-Heap-image1.png)
+![image](media/Binary-Heap-image1.png)
 
 In a heap the highest (or lowest) priority element is always stored at the root, hence the name "heap". A heap is not a sorted structure and can be regarded as partially ordered. As you see from the picture, there is no particular relationship among nodes on any given level, even among the siblings.
 
 Since a heap is a complete binary tree, it has a smallest possible height - a heap with N nodes always has O(log N) height.
 
 A heap is useful data structure when you need to remove the object with the highest (or lowest) priority. A common use of a heap is to implement a priority queue.
-**Array Implementation**
+## Array Implementation
 
 A complete binary tree can be uniquely represented by storing its level order traversal in an array.
 
@@ -53,16 +53,16 @@ left_child = (2*k) + 1
 right_child = (2*k) + 2
 Array representation of a heap-ordered complete binary tree
 
-**Heap ordered binary tree -**
+## Heap ordered binary tree -
 -   Keys in nodes
 -   Parent's key no smaller than children's keys
 
-**Properties -**
+## Properties -
 -   Largest key is a[1], which is root of binary tree
 -   Parent of node at k is at k/2
 -   Children of node at k are at 2k and 2k+1
 
-**Promotion in a heap (swim operation / shift-up / unheap / percolate up / bubble-up)**
+## Promotion in a heap (swim operation / shift-up / unheap / percolate up / bubble-up)
 
 Child's key becomes larger key than its parent's key
 
@@ -70,8 +70,8 @@ Eliminate the violation -
 -   Exchange key in child with key in parent
 -   Repeat until heap order restored
 
-![Promotion in a heap Scenario. Child's key becomes larger key than its parent's key. To eliminate the violation: • Exchange key in child with key in parent. • Repeat until heap order restored. s private void swim(int k) while (k > 1&& less(k/2, exch(k, k/ 2) ; k- parent of node at k is at k/2 E 1 2 s E 1 violates heap order (larger key than parent) 1 ](media/Binary-Heap-image3.png)
-**For 0th index array**
+![image](media/Binary-Heap-image3.png)
+## For 0th index array
 
 def perc_up(self, k):
 
@@ -80,12 +80,12 @@ while(k > 0 and self.arr[k] < self.arr[(k-1)//2]):
 self.arr[k], self.arr[(k-1)//2] = self.arr[(k-1)//2], self.arr[k]
 
 k = (k-1)//2
-**Insertion in a heap**
+## Insertion in a heap
 -   Add node at end, then swim it up
 -   At most 1 + lg N compares
 
-![Insertion in a heap Insert. Add node at end, then swim it up. Cost. At most I +1gN compares. public void insert(Key x) swi m(N) ; insert key to insert add key to heap violates heap order ;wim up ](media/Binary-Heap-image4.png)
-**Demotion in a heap (sink / shift-down / downheap / percolate down / bubble-down)**
+![image](media/Binary-Heap-image4.png)
+## Demotion in a heap (sink / shift-down / downheap / percolate down / bubble-down)
 
 Parent's key becomes smaller than one (or both) of its children's.
 
@@ -93,16 +93,16 @@ Eliminate the violation -
 -   Exchange key in parent with key in larger child
 -   Repeat until heap order restored
 
-![Demotion in a heap Scenario. Parent's key becomes smaller than one (or both) of its children's. To eliminate the violation: why not smaller child? • Exchange key in parent with key in larger child. • Repeat until heap order restored. private void sink(int k) children of node at k while (2*k N) violates henp order (smaller than a chilcl) E 1 s 10 E 1 s int j = if (j < if (!less(k, exch(k, j); are 2k and 2k+l less(j, j+l)) j + ; j)) break; Top-down reheapify (sink) Power struggle. Better subordinate promoted. ](media/Binary-Heap-image5.png)
-**Delete the maximum in a heap**
+![image](media/Binary-Heap-image5.png)
+## Delete the maximum in a heap
 -   Exchange root with node at end, then sink it down
 -   At most 2 lg N compares
 
-![Delete the maximum in a heap Delete max. Exchange root with node at end, then sink it down. Cost. At most 2 lgN compares. remove the maximum s public Key delMax() Key max = exch(l, N--); si nk (1) ; pq [N+I] = null; return max; key to remove exchange key with root violates heap order E 1 s prevent loitering E 1 sink down E 1 remove node from heap s ](media/Binary-Heap-image6.png)
-**Bottom-up heap construction -**
+![image](media/Binary-Heap-image6.png)
+## Bottom-up heap construction -
 
 Goal: Build max heap using bottom-up method
-**Binary Heap considerations**
+## Binary Heap considerations
 -   Immutability of keys (can't change the data type value once created, final keyword is used to make a datatype immutable)
 -   Underflow and overflow
 | **Operation** | [**Binary**](https://en.wikipedia.org/wiki/Binary_heap)[^[6]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-CLRS-6) | [**Leftist**](https://en.wikipedia.org/wiki/Leftist_tree) | [**Binomial**](https://en.wikipedia.org/wiki/Binomial_heap)[^[6]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-CLRS-6) | **Fibonacci**^[[6]](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-CLRS-6)[[2]](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-Fredman_And_Tarjan-2)^ | [**Pairing**](https://en.wikipedia.org/wiki/Pairing_heap)[^[7]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-Iacono-7)                                             | [**Brodal**](https://en.wikipedia.org/wiki/Brodal_queue)^[[8]](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-8)[[a]](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-brodal-10)^ | [**Rank-pairing**](https://en.wikipedia.org/w/index.php?title=Rank-pairing_heap&action=edit&redlink=1)[^[10]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-11) | **Strict Fibonacci**[^[11]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-12) |
@@ -112,8 +112,8 @@ Goal: Build max heap using bottom-up method
 | insert        | *O*(log*n*)                                                                                                                    | *Θ*(log*n*)                                              | *Θ*(1)[^[b]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-amortized-13)                                                | *Θ*(1)                                                                                                                                                                    | *Θ*(1)                                                                                                                                                                          | *Θ*(1)                                                                                                                                                                                               | *Θ*(1)                                                                                                                                                                      | *Θ*(1)                                                                                    |
 | decrease-key  | *Θ*(log*n*)                                                                                                                    | *Θ*(*n*)                                                  | *Θ*(log*n*)                                                                                                                        | *Θ*(1)[^[b]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-amortized-13)                                                                                      | *o*(log*n*)^[[b]](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-amortized-13)[[c]](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-pairingdecreasekey-16)^ | *Θ*(1)                                                                                                                                                                                               | *Θ*(1)[^[b]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-amortized-13)                                                                                        | *Θ*(1)                                                                                    |
 | merge         | *Θ*(*n*)                                                                                                                        | *Θ*(log*n*)                                              | *O*(log*n*)[^[d]^](https://en.wikipedia.org/wiki/Fibonacci_heap#cite_note-merge-17)                                              | *Θ*(1)                                                                                                                                                                    | *Θ*(1)                                                                                                                                                                          | *Θ*(1)                                                                                                                                                                                               | *Θ*(1)                                                                                                                                                                      | *Θ*(1)                                                                                    |
-**Python 3**
+## Python 3
 
-**Python > Documentation > Concurrent Execution**
+## Python > Documentation > Concurrent Execution
 
-**Python > Documentation > Data Types**
+## Python > Documentation > Data Types

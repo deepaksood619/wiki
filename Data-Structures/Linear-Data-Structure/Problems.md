@@ -13,22 +13,22 @@ Modified: 2019-06-24 05:58:16 +0500
     b.  Can count all characters of string1 and decrement count by second string2. Check if all values are 0. Use dictionary, defaultdict.
 2.  **Array Pair Sum**
 
-**Problem -** Given an integer array, output all the***unique***pairs that sum up to a specific value**k**.
-**Solution -** The O(N) algorithm uses the set data structure. We perform a linear pass from the beginning and for each element we check whether k-element is in the set of seen numbers. If it is, then we found a pair of sum k and add it to the output. If not, this element doesn't belong to a pair yet, and we add it to the set of seen elements.
+## Problem -** Given an integer array, output all the***unique***pairs that sum up to a specific value**k.
+## Solution - The O(N) algorithm uses the set data structure. We perform a linear pass from the beginning and for each element we check whether k-element is in the set of seen numbers. If it is, then we found a pair of sum k and add it to the output. If not, this element doesn't belong to a pair yet, and we add it to the set of seen elements.
 3.  **Find the Missing Element**
 
-**Problem -** Consider an array of non-negative integers. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays, find which element is missing in the second array.
-**Solution - O(N) -** We can use a hashtable and store the number of times each element appears in the second array. Then for each element in the first array we decrement its counter. Once hit an element with zero count that's the missing element.
+## Problem - Consider an array of non-negative integers. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays, find which element is missing in the second array.
+## Solution - O(N) - We can use a hashtable and store the number of times each element appears in the second array. Then for each element in the first array we decrement its counter. Once hit an element with zero count that's the missing element.
 
 we can achieve linear time and constant space complexity without any problems. Here it is: initialize a variable to 0, thenXOR every element in the first and second arrays with that variable. In the end, the value of the variable is the result, missing element in array2.
 4.  **Largest Continuous Sum**
 
-**Problem -** Given an array of integers (positive and negative) find the largest continuous sum.
-**Solution -** O(N) - Use current_sum and max_sum to track the values and update the values using current_sum = max(current_sum + num, num) and max_sum(current_sum, max_sum)
+## Problem - Given an array of integers (positive and negative) find the largest continuous sum.
+## Solution - O(N) - Use current_sum and max_sum to track the values and update the values using current_sum = max(current_sum + num, num) and max_sum(current_sum, max_sum)
 5.  **Sentence Reversal**
 
-**Problem -** Given a string of words, reverse all the words.
-**Solution -** Use stack to push the words and then print the stack
+## Problem - Given a string of words, reverse all the words.
+## Solution - Use stack to push the words and then print the stack
 6.  **String Compression**
 
 Problem - Implement Run Length Encoding
@@ -38,12 +38,12 @@ Solution - Use while loop to check if current value is equal to previous value
 Solution - Use dictionary to store seen values
 
 Can also use set
-**Interview Problems (Array)**
+## Interview Problems (Array)
 -   Find the second minimum element of an array
 -   First non-repeating integers in an array
 -   Merge two sorted arrays
 -   Rearrange positive and negative values in an array
-**Interview Problems (Linked List)**
+## Interview Problems (Linked List)
 
 1.  Single Linked List Cycle Check
 
@@ -62,7 +62,7 @@ return nth_last
 -   Put the other pointer at the head, this will be the left_point
 -   Walk/traverse the block (both pointers) towards the tail, one node at a time, keeping a distance**n**between them.
 -   Once the right_point has hit the tail, we know that the left point is at the target.
-**Interview Problems (Stacks and Queues)**
+## Interview Problems (Stacks and Queues)
 
 1.  Implement a stack
 

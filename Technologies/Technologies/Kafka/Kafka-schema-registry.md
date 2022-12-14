@@ -8,18 +8,12 @@ Modified: 2020-03-15 23:35:22 +0500
 
 <https://www.confluent.io/blog/schemas-contracts-compatibility
 
-
-
 Schema Registry provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving Avro schemas. It stores a **versioned history** of all schemas, provides multiple compatibility settings and allows evolution of schemas according to the configured compatibility settings and expanded Avro support. It provides serializers that plug into Kafka clients that handle schema storage and retrieval for Kafka messages that are sent in the Avro format.
-
-
 
 Schema Registry is a distributed storage layer for Avro Schemas which uses Kafka as its underlying storage mechanism. Some key design decisions:
 -   Assigns globally unique ID to each registered schema. Allocated IDs are guaranteed to be monotonically increasing but not necessarily consecutive.
 -   Kafka provides the durable backend, and functions as a write-ahead changelog for the state of Schema Registry and the schemas it contains.
 -   Schema Registry is designed to be distributed, with single-master architecture, and ZooKeeper/Kafka coordinates master election (based on the configuration).
-
-
 
 # to change the compatibility of schema-registry
 
@@ -27,9 +21,7 @@ docker exec schema-registry curl -X PUT -H "Content-Type: application/vnd.schema
 --data '{"compatibility": "NONE"}' 
 <http://schema-registry:8081/config>
 
-
-
-**Schema Registry Commands**
+## Schema Registry Commands
 
 # Register a new version of a schema under the subject "Kafka-key"
 $ curl -X POST -H "Content-Type: application/vnd.schemaregistry.v1+json" 
@@ -99,9 +91,7 @@ $ curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json"
 <http://localhost:8081/config/Kafka-value>
 {"compatibility":"BACKWARD"}
 
-
-
-**References**
+## References
 
 <https://docs.confluent.io/current/schema-registry/docs/index.html>
 

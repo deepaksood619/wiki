@@ -6,15 +6,11 @@ Modified: 2022-08-16 15:42:02 +0500
 
 ---
 
-**Aggregate functions** perform calculations based on sets of rows
+## Aggregate functions perform calculations based on sets of rows
 
 Unlike aggregate functions, **analytic functions** return a (potentially different) value for each row in the original table.
 
-
-
 All analytic functions have an**OVER**clause, which defines the sets of rows used in each calculation.
-
-
 
 TheOVERclause has three (optional) parts:
 -   The**PARTITION BY**clause divides the rows of the table into different groups
@@ -23,16 +19,12 @@ TheOVERclause has three (optional) parts:
 
 ![first_query](media/DQL---Data-Query-Language_Aggregation---Analytical-Queries---SQL-Analytics-image1.png)
 
-
-
 There are many ways to write window frame clauses:
 -   ROWS BETWEEN 1 PRECEDING AND CURRENT ROW- the previous row and the current row.
 -   ROWS BETWEEN 3 PRECEDING AND 1 FOLLOWING- the 3 previous rows, the current row, and the following row.
 -   ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING- all rows in the partition.
 
-
-
-**Functions**
+## Functions
 
 AVG
 
@@ -40,8 +32,6 @@ SELECT AVG(column_name)
 FROM table_name;
 
 AVG()is an aggregate function that returns the average value for a numeric column.
-
-
 
 COUNT
 
@@ -52,15 +42,11 @@ COUNT()is a function that takes the name of a column as an argument and counts t
 
 To count all rows - SELCT COUNT(*) FROM table_name;
 
-
-
 DIFFERENCE
 
 SELECT MAX(POPULATION) - MIN(POPULATION)
 
 FROM CITY;
-
-
 
 MAX
 
@@ -69,16 +55,12 @@ FROM table_name;
 
 MAX()is a function that takes the name of a column as an argument and returns the largest value in that column.
 
-
-
 MIN
 
 SELECT MIN(column_name)
 FROM table_name;
 
 MIN()is a function that takes the name of a column as an argument and returns the smallest value in that column.
-
-
 
 ROUND
 
@@ -87,8 +69,6 @@ FROM table_name;
 
 ROUND()is a function that takes a column name and an integer as an argument. It rounds the values in the column to the number of decimal places specified by the integer.
 
-
-
 SUM
 
 SELECT SUM(column_name)
@@ -96,31 +76,21 @@ FROM table_name;
 
 SUM()is a function that takes the name of a column as an argument and returns the sum of all the values in that column.
 
-
-
 GROUP BY
 
 SELECT COUNT(*)
 FROM table_name
 GROUP BY column_name;
 
-
-
 SELECT ROUND(imdb_rating), COUNT(name) FROM movies GROUP BY 1 ORDER BY 1;
 
 Here, the1refers to the first column in our SELECT statement, ROUND(imdb_rating)
 
-
-
 GROUP BYis a clause in SQL that is only used with aggregate functions. It is used in collaboration with theSELECTstatement to arrange identical data into groups.
-
-
 
 TheGROUP BYstatement comes after anyWHEREstatements, but beforeORDER BYorLIMIT
 
-
-
-**Examples**
+## Examples
 
 SELECT
 
@@ -146,8 +116,6 @@ AND create_date BETWEEN '2021-08-25 00:00:00' AND NOW()
 
 GROUP BY HOUR(create_date);
 
-
-
 SELECT create_date, count(*)
 
 FROM communication_log
@@ -159,8 +127,6 @@ channel = 'sms'
 AND create_date BETWEEN '2021-08-25 00:00:00' AND NOW()
 
 GROUP BY hour( create_date ) , day( create_date );
-
-
 
 SELECT YEAR(create_date),
 
@@ -175,8 +141,6 @@ GROUP BY YEAR(create_date),
 MONTH(create_date)
 
 ORDER BY YEAR(create_date) DESC, MONTH(create_date) DESC;
-
-
 
 SELECT
 
@@ -208,9 +172,7 @@ GROUP BY template_id
 
 ORDER BY template_count DESC;
 
-
-
-**# Department wise bifurcation**
+## # Department wise bifurcation
 
 select a.channel, a.department, a.name, count(*) from (
 SELECT ct.department, ct.channel, ct.name

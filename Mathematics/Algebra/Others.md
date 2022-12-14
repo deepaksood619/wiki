@@ -6,9 +6,9 @@ Modified: 2018-07-02 00:40:09 +0500
 
 ---
 
-**Slope**
+## Slope
 
-**Intercept**
+## Intercept
 
 Thex-intercept is the point where a line crosses thex-axis, and they-intercept is the point where a line crosses they-axis.
 

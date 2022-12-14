@@ -7,47 +7,33 @@ Modified: 2021-07-06 01:03:29 +0500
 ---
 -   Human visual system is optimized to see structure and relationships
 
-
-
 1.  Common fate
 
 2.  Figure / Ground
 
 3.  Similarity
 
-![ロ ロ ロ ロ 0 0 0 0 0 0 0 0 ロ ロ ロ ロ 0 0 0 0 ロ ロ ロ ロ 0 0 0 0 ロ ロ ロ ロ ](media/Gestalt-Principles-image1.png)
-
-
+![image](media/Gestalt-Principles-image1.png)
 
 4.  Pragnanz
 
 ![](media/Gestalt-Principles-image2.png)
 
-
-
 5.  Proximity
 
 ![](media/Gestalt-Principles-image3.png)
-
-
 
 6.  Continuity
 
 ![οο οο ](media/Gestalt-Principles-image4.png)
 
-
-
 7.  Closure
 
 ![](media/Gestalt-Principles-image5.png)
 
-
-
 <https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor/sensory-perception-topic/v/gestalt-principles>
 
-
-
-**Stages of human visual processing**
+## Stages of human visual processing
 -   Stage one: processing inside the retina
     -   High resolution and intense color in the fovea
     -   Lower resolution and less intense color elsewhere
@@ -59,21 +45,15 @@ Modified: 2021-07-06 01:03:29 +0500
 -   Stage three: "Attentive" processing
     -   Stores of experience used to interpret the output of state two
 
-
-
-**Gestalt principles come from stage two**
+## Gestalt principles come from stage two
 -   The visual system is predisposed to interpret edges, shapes, and groups in certain ways
 -   Again, this is unconscious, and takes place before conscious interpretation
     -   Conscious interpretation can override the perceptions from stage two, but it takes cognitive work
 
-
-
-**Design principle: Gestalt proximity**
+## Design principle: Gestalt proximity
 -   The visual system assumes that things grouped together are related
 -   The initial grouping is automatic and unconscious
     -   Happens in less than 1/4 second
-
-
 
 
 

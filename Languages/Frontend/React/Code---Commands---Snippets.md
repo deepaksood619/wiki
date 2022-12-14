@@ -6,27 +6,21 @@ Modified: 2021-12-19 15:06:33 +0500
 
 ---
 
-**dependencies**are the packages your project depends on.
+## dependenciesare the packages your project depends on.
 
-**devDependencies**are the packages that are needed during the development phase. Say a testing framework like[Jest](https://flaviocopes.com/jest/)or other utilities like[Babel](https://flaviocopes.com/babel/)or[ESLint](https://flaviocopes.com/eslint/).
+## devDependenciesare the packages that are needed during the development phase. Say a testing framework like[Jest](https://flaviocopes.com/jest/)or other utilities like[Babel](https://flaviocopes.com/babel/)or[ESLint](https://flaviocopes.com/eslint/).
 
 In both cases, when you install a package, its dependencies and devDependencies are automatically installed by[npm](https://flaviocopes.com/npm/).
 
-
-
-**peerDependencies**are different. They are not automatically installed.
+## peerDependenciesare different. They are not automatically installed.
 
 When a dependency is listed in a package as a peerDependency,it is not automatically installed. Instead, the code that includes the package must include it as its dependency.
 
-
-
-**Commands**
+## Commands
 
 npx create-react-app my-app
 
 npx create-react-app react-shopping-cart **--template typescript**
-
-
 
 npm i @material-ui/core @material-ui/icons
 
@@ -34,17 +28,11 @@ npm i react-query
 
 npm i styled-components @types/styled-components
 
-
-
 yarn add react-admin ra-data-json-server prop-types
-
-
 
 npm start- <http://localhost:3000>
 
 Starts the development server.
-
-
 
 npm run build
 
@@ -54,23 +42,15 @@ npm install -g serve
 
 serve -s build
 
-
-
 <https://reactjs.org/docs/optimizing-performance.html>
-
-
 
 npm test
 
 Starts the test runner.
 
-
-
 npm run eject
 
 Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can't go back!
-
-
 
 yarn install
 
@@ -80,25 +60,17 @@ yarn install --production --frozen-lockfile
 
 yarn cache clean
 
-
-
 yarn start
 
 Starts the development server.
-
-
 
 yarn build
 
 Bundles the app into static files for production.
 
-
-
 yarn test
 
 Starts the test runner.
-
-
 
 yarn eject
 
@@ -106,39 +78,25 @@ Removes this tool and copies build dependencies, configuration files
 
 and scripts into the app directory. If you do this, you can't go back!
 
-
-
 yarn add -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-react eslint-plugin-import prettier pretty-quick
 
+## npm install --global prettier
 
-
-**npm install --global prettier**
-
-**prettier --write .**
-
-
+## prettier --write .
 
 npm install -g depcheck
 
 depcheck
 
-
-
 yarn upgrade-interactive --latest
-
-
 
 npx unimported
 
 npx eslint . --fix
 
-
-
 <https://create-react-app.dev/docs/analyzing-the-bundle-size
 
 [Source map explorer](https://www.npmjs.com/package/source-map-explorer)analyzes JavaScript bundles using the source maps. This helps you understand where code bloat is coming from.
-
-
 
 yarn add source-map-explorer
 
@@ -146,9 +104,7 @@ yarn build
 
 yarn analyze
 
-
-
-**Code Snippets**
+## Code Snippets
 
 const Example = (props) => {
 
@@ -158,8 +114,6 @@ return <div ;
 
 }
 
-
-
 function Example(props) {
 
 // You can use Hooks here!
@@ -168,9 +122,7 @@ return <div ;
 
 }
 
-
-
-**# Toggle**
+## # Toggle
 
 class Toggle extends React.Component {
 
@@ -220,9 +172,7 @@ document.getElementById('root')
 
 );
 
-
-
-**# Digital Clock**
+## # Digital Clock
 
 class Clock extends React.Component {
 
@@ -306,9 +256,7 @@ document.getElementById('root')
 
 );
 
-
-
-**# Login / Logout**
+## # Login / Logout
 
 function UserGreeting(props) {
 
@@ -321,8 +269,6 @@ function GuestGreeting(props) {
 return <h1>Please sign up!</h1>
 
 }
-
-
 
 function Greeting(props) {
 
@@ -432,9 +378,7 @@ document.getElementById('root')
 
 );
 
-
-
-**# blog**
+## # blog
 
 function Blog(props) {
 
@@ -500,9 +444,7 @@ document.getElementById('root')
 
 );
 
-
-
-**# name form**
+## # name form
 
 class NameForm extends React.Component {
 
@@ -564,9 +506,7 @@ document.getElementById('root')
 
 );
 
-
-
-**# temperature change fahrenheit to celsius**
+## # temperature change fahrenheit to celsius
 
 const scaleNames = {
 
@@ -660,8 +600,6 @@ value={temperature}
 
 onChange={this.handleChange}
 
-
-
 </fieldset>
 
 );
@@ -722,8 +660,6 @@ temperature={celsius}
 
 onTemperatureChange={this.handleCelsiusChange}
 
-
-
 <TemperatureInput
 
 scale="f"
@@ -731,8 +667,6 @@ scale="f"
 temperature={fahrenheit}
 
 onTemperatureChange={this.handleFahrenheitChange}
-
-
 
 <BoilingVerdict celsius={parseFloat(celsius)} 
 
@@ -746,9 +680,7 @@ onTemperatureChange={this.handleFahrenheitChange}
 
 ReactDOM.render(<Calculator , document.getElementById("root"));
 
-
-
-**# Filterable list**
+## # Filterable list
 
 class ProductCategoryRow extends React.Component {
 
@@ -854,8 +786,6 @@ product={product}
 
 key={product.name}
 
-
-
 );
 
 lastCategory = product.category;
@@ -928,8 +858,6 @@ value={this.props.filterText}
 
 onChange={this.handleFilterTextChange}
 
-
-
 <p>
 
 <input
@@ -939,8 +867,6 @@ type="checkbox"
 checked={this.props.inStockOnly}
 
 onChange={this.handleInStockChange}
-
-
 
 {' '}
 
@@ -1012,8 +938,6 @@ onFilterTextChange={this.handleFilterTextChange}
 
 onInStockChange={this.handleInStockChange}
 
-
-
 <ProductTable
 
 products={this.props.products}
@@ -1022,8 +946,6 @@ filterText={this.state.filterText}
 
 inStockOnly={this.state.inStockOnly}
 
-
-
 </div>
 
 );
@@ -1031,8 +953,6 @@ inStockOnly={this.state.inStockOnly}
 }
 
 }
-
-
 
 const PRODUCTS = [
 
@@ -1058,8 +978,6 @@ document.getElementById('root')
 
 );
 
-
-
-**# todo app**
+## # todo app
 
 [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)

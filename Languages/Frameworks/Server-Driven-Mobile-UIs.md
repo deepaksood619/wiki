@@ -6,15 +6,13 @@ Modified: 2022-10-30 23:34:15 +0500
 
 ---
 
-**Apps**
+## Apps
 -   Personlized
 -   Smart
 -   Dynamic
 -   Complex
 
-
-
-**Challenges**
+## Challenges
 -   **Context Driven**
     -   Apps behave differently depending on its current context
     -   ML enables hyper-personalization of content and experiences depending on the customer
@@ -22,18 +20,14 @@ Modified: 2022-10-30 23:34:15 +0500
     -   Apps have to support more features, screen real estate is the same
     -   Apps need to actually be useful
 
+## Sideways building
 
-
-**Sideways building**
-
-![Not this if (product == Products. CreditCard) { if (customer Type Customer. Primary) { if (customerStatus Status. Active) { if (customerAccounts.1ength > 2) { if (featureTogg1e0n) { displaylcon() ](media/Server-Driven-Mobile-UIs-image1.png)
+![image](media/Server-Driven-Mobile-UIs-image1.png)
 
 
 -   **Frontend should be dumb**
 
-
-
-![What does a server driven UI look like? Frontend templateld. Backend ](media/Server-Driven-Mobile-UIs-image2.png)
+![image](media/Server-Driven-Mobile-UIs-image2.png)
 -   **Frontend Templates**
     -   Templates are predefined UI layouts
     -   Templates have static layout, but dynamic content
@@ -55,13 +49,9 @@ Modified: 2022-10-30 23:34:15 +0500
         -   Conditional logic
     -   A single data source means that any update to context and page flow only needs to happen once
 
+## Data Flow
 
-
-**Data Flow**
-
-![Mobile UI Template Engine(s) Static Resources Backend APIs ](media/Server-Driven-Mobile-UIs-image3.png)
-
-
+![image](media/Server-Driven-Mobile-UIs-image3.png)
 
 Example
 -   Mobile UI initiates call to Template Engine
@@ -70,8 +60,6 @@ Example
 -   Mobile UI calls Template Engine
 -   Template Engine returns next set of JSON
 -   Repeat until finished
-
-
 
 Use Case
 -   A/B Testing
@@ -86,14 +74,14 @@ Use Case
     -   User setup can be customized based on product type
     -   You can easily create non-linear flows
 
-![Sign Up Page Product Type A Product Type B Product Type C Update Email Success Screen ](media/Server-Driven-Mobile-UIs-image4.png)
+![image](media/Server-Driven-Mobile-UIs-image4.png)
 -   You can easily add new screen without UI updates
 -   Isolation of view & business logic enables better testing
     -   Testing of flows can be done on backend!
 
-![Sign Up Page Product Type A Product Type B Product Type C Update Email Success Screen Update Notifications ](media/Server-Driven-Mobile-UIs-image5.png)
+![image](media/Server-Driven-Mobile-UIs-image5.png)
 
-**Tips & Tricks**
+## Tips & Tricks
 -   Define a good use case first
     -   Dynamic and simple content is the best way to start
     -   Find duplicate views and features that are consistent across platforms
@@ -104,41 +92,25 @@ Use Case
     -   Host it on the app to start
 -   Incrementally build out backend as needed
 
-
-
-**Other Considerations**
+## Other Considerations
 -   Is this worth the extra work?
 -   How can I test my UI?
 -   How does this scale?
 -   Are front-end developers deprecated?
 
-
-
 [GOTO 2020 • Server Driven UI on Mobile • JJ Qi](https://www.youtube.com/watch?v=CtSfG8tYRdg&ab_channel=GOTOConferences)
-
-
 
 ![goto; ](media/Server-Driven-Mobile-UIs-image6.jpg)
 
 ![1}Il묺 나주」 ](media/Server-Driven-Mobile-UIs-image7.png)
 
-
-
 <https://tech.affirm.com/solving-spaghetti-code-with-a-state-machine-aaec159f6659>
-
-
 
 <https://medium.com/rocket-fuel/server-driven-ui-for-android-with-jetpack-compose-6763ec60f33e>
 
 <https://medium.com/android-dev-hacks/jetpack-compose-with-server-driven-ui-396a19f0a661>
 
-
-
 <https://medium.com/okcredit/oklayoutinflater-3c5cd93c6ebc>
-
-
-
-
 
 
 

@@ -6,40 +6,40 @@ Modified: 2021-07-11 02:05:58 +0500
 
 ---
 
-**Apache Parquet**is a[free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source)[column-oriented](https://en.wikipedia.org/wiki/Column-oriented_DBMS)data store of the[Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)ecosystem. It is similar to the other columnar-storage file formats available in[Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)namely[RCFile](https://en.wikipedia.org/wiki/RCFile)and Optimized RCFile (ORC). It is compatible with most of the data processing frameworks in the[Hadoop](https://en.wikipedia.org/wiki/Hadoop)environment. It provides efficient[data compression](https://en.wikipedia.org/wiki/Data_compression)and[encoding](https://en.wikipedia.org/wiki/Encoding)schemes with enhanced performance to handle complex data in bulk.
+## Apache Parquetis a[free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source)[column-oriented](https://en.wikipedia.org/wiki/Column-oriented_DBMS)data store of the[Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)ecosystem. It is similar to the other columnar-storage file formats available in[Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)namely[RCFile](https://en.wikipedia.org/wiki/RCFile)and Optimized RCFile (ORC). It is compatible with most of the data processing frameworks in the[Hadoop](https://en.wikipedia.org/wiki/Hadoop)environment. It provides efficient[data compression](https://en.wikipedia.org/wiki/Data_compression)and[encoding](https://en.wikipedia.org/wiki/Encoding)schemes with enhanced performance to handle complex data in bulk.
 Apache Parquet is a self-describing data format which embeds the schema, or structure, within the data itself.-   Columnar format
 -   Schema segregated into footer
 -   Column major format
 -   All data is pushed to the leaf
 -   Integrated compression and indexes
 -   Support for **predicate pushdown**
-**Design Goals**
+## Design Goals
 -   Interoperability
 -   Space efficiency
 -   Query efficiency
-**Features**
+## Features
 -   Improved read performance at the cost of slower writes.
 -   Apache Parquet is implemented using the **record-shredding and assembly algorithm**,which accommodates the complex[data structures](https://en.wikipedia.org/wiki/Data_structures)that can be used to store the data.The values in each column are physically stored in contiguous memory locations and this columnar storage provides the following benefits:
     -   Column-wise compression is efficient and saves storage space
     -   Compression techniques specific to a type can be applied as the column values tend to be of the same type
     -   Queries that fetch specific column values need not read the entire raw data thus improving performance
     -   Different encoding techniques can be applied to different columns
-![Dataset Data stored as CSV files Data stored in Apache Parquet format* Savings / Speedup Size on Amazon S3 130 GB 87% less with Parquet Query Run time 236 seconds 6.78 seconds 34x faster Data Scanned 1.15 TB 2.51 GB 99% less data scanned Cost $5.75 $0.01 99.7% savings ](media/Apache-Parquet-image1.png)
-![Dataset Data stored as CSV file Data stored as GZIP CSV file Data stored as Parquet file Columns 4 4 4 Size on Amazon S3 4 TB ITB ITB Data Scanned 4 TB ITB .25TB Cost $20 (4TB x $5/TB) $5 (ITB x $5/TB) $1.25 (.25TB x $5/TB) ](media/Apache-Parquet-image2.png)
-**Compression and encoding**
+![image](media/Apache-Parquet-image1.png)
+![image](media/Apache-Parquet-image2.png)
+## Compression and encoding
 
 In Parquet, compression is performed column by column, which enables different encoding schemes to be used for text and integer data. This strategy also keeps the door open for newer and better encoding schemes to be implemented as they are invented.
-**Dictionary encoding**
+## Dictionary encoding
 
 Parquet has an automatic dictionary encoding enabled dynamically for data with asmallnumber of unique values (i.e. below 105) that enables significant compression and boosts processing speed.
-**Bit packing**
+## Bit packing
 
 Storage of integers is usually done with dedicated 32 or 64 bits per integer. For small integers, packing multiple integers into the same space makes storage more efficient.
-**Run-length encoding (RLE)**
+## Run-length encoding (RLE)
 
 To optimize storage of multiple occurrences of the same value, a single value is stored once along with the number of occurrences.
 Parquet implements a hybrid of bit packing and RLE, in which the encoding switches based on which produces the best compression results. This strategy works well for certain types of integer data and combines well with dictionary encoding.
-**Parquet Cares About Your Schema**
+## Parquet Cares About Your Schema
 
 One limitation of CSV/TSV data is that you don't know what the exact schema is supposed to be, or the desired type of each field.
 Using our example above, without the schema, should the 'True' values be cast to boolean? How can we be sure without knowing the schema beforehand?
@@ -56,19 +56,19 @@ Even ignoring the runtime of your production jobs, let me outline some of my fav
 4.  Less redundancy- Need a similar dataset for two different pipelines? Instead of building a distinct dataset for each, Parquet lets you just dynamically query a larger, comprehensive dataset without the penalties of scanning a whole file.
 
 5.  Analytics- Ok, I cheated and put it in anyway. Yes, Parquet is AMAZING for analytics, anyone running SQL queries will thank you for saving them hours a day in front of a SQL prompt when their queries run up to 1000x faster.
-**Working**
+## Working
 
-![Parquet File Layout Diagram](media/Apache-Parquet-image3.gif)
-**Comparison**
+![image](media/Apache-Parquet-image3.gif)
+## Comparison
 
 Apache Parquet is comparable to[RCFile](https://en.wikipedia.org/wiki/RCFile)and[Optimized Row Columnar (ORC)](https://en.wikipedia.org/wiki/Apache_ORC)file formats---all three fall under the category of columnar data storage within the Hadoop ecosystem. They all have better compression and encoding with improved read performance at the cost of slower writes. In addition to these features, Apache Parquet supports limited[schema evolution](https://en.wikipedia.org/wiki/Schema_evolution), i.e., the schema can be modified according to the changes in the data. It also provides the ability to add new columns and merge schemas that don't conflict.
-**Negatives of Columnar Formats**
+## Negatives of Columnar Formats
 
 The biggest negative of columnar formats is that re-constructing a complete record is slower and requires reading segments from each row, one-by-one. It is for this reason that columnar-file-formats initially hit their groove for analytics-style workflows, rather than Map/Reduce style workflows --- which by default operate on whole rows of data at a time.
 For real columnar file formats (like[Parquet](http://parquet.apache.org/)), this downside is minimized by some clever tricks like breaking the file up into 'row groups' and building extensive metadata, although for particularly wide datasets (like 200+ columns), the speed impact can be fairly significant.
 The other downside, is that they are more CPU and ram intensive to write, as the file writer needs to collect a whole bunch of metadata, and reorganize the rows before it can write the file.
 As an aside - I still almost always recommend still using a columnar file format, it's just so useful to be able to quickly peek into a file and gather some simple metrics.
-**Tools**
+## Tools
 
 <https://github.com/apache/parquet-mr/tree/master/parquet-tools>
 

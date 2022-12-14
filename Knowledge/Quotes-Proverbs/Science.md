@@ -8,8 +8,6 @@ Modified: 2022-11-13 02:17:22 +0500
 
 Science is a 6 decimal approximation to real knowledge
 
-
-
 Equations that govern the world
 
 1.  The betting equation
@@ -30,12 +28,8 @@ Equations that govern the world
 
 9.  The reward equation
 
-
-
-**Why Trust Science**
+## Why Trust Science
 
 The world's scientific communities cannot claim absolute truth, but they can fairly claim that they are closer than anyone else to genuine knowledge concerning their particular fields of study -- David Joravsky
-
-
 
 We didn't stop burning witches because we invented science; we invented science because we stopped burning witches." --- René Girard

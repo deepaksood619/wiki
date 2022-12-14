@@ -6,11 +6,9 @@ Modified: 2019-12-29 01:38:52 +0500
 
 ---
 
-**AI + Machine Learning**
+## AI + Machine Learning
 
 Create the next generation of applications using artificial intelligence capabilities for any developer and any scenario
-
-
 
 [Azure Bot Service](https://azure.microsoft.com/en-in/services/bot-service/)
 
@@ -164,13 +162,9 @@ Cloud platform to host and share curated open datasets to accelerate development
 
 Empower users of all ages and abilities to read and comprehend text
 
-
-
-**Analytics**
+## Analytics
 
 Gather, store, process, analyse and visualise data of any variety, volume or velocity
-
-
 
 [Azure Databricks](https://azure.microsoft.com/en-in/services/databricks/)
 
@@ -228,13 +222,9 @@ Fast and highly scalable data exploration service
 
 A simple and safe service for sharing big data with external organizations
 
-
-
-**Blockchain**
+## Blockchain
 
 Build and manage blockchain based applications with a suite of integrated tools
-
-
 
 [Azure Blockchain ServicePREVIEW](https://azure.microsoft.com/en-in/services/blockchain-service/)
 
@@ -342,9 +332,7 @@ A dedicated physical server to host your Azure VMs for Windows and Linux
 
 A fully managed Spring Cloud service, built and operated with Pivotal
 
-
-
-**Containers**
+## Containers
 
 Develop and manage your containerised applications faster with integrated tools
 
@@ -390,13 +378,9 @@ Easily deploy and run containerised web apps that scale with your business
 
 Fully managed OpenShift service, jointly operated with Red Hat
 
-
-
-**Databases**
+## Databases
 
 Support rapid growth and innovate faster with secure, enterprise-grade and fully managed database services
-
-
 
 [Azure API for FHIR](https://azure.microsoft.com/en-in/services/azure-api-for-fhir/)
 
@@ -446,13 +430,9 @@ Simplify on-premises database migration to the cloud
 
 Small-footprint, edge-optimised data engine with built-in AI
 
-
-
-**Developer Tools**
+## Developer Tools
 
 Build, manage and continuously deliver cloud applications---using any platform or language
-
-
 
 [Visual Studio](https://azure.microsoft.com/en-in/products/visual-studio/)
 
@@ -494,13 +474,9 @@ Fast, scalable parameter storage for app configuration
 
 Cloud-powered development environments accessible from anywhere
 
-
-
-**DevOps**
+## DevOps
 
 Deliver innovation faster with simple, reliable tools for continuous delivery
-
-
 
 [Azure DevOps](https://azure.microsoft.com/en-in/services/devops/)
 
@@ -538,13 +514,9 @@ Use your favourite DevOps tools with Azure
 
 Full observability into your applications, infrastructure and network
 
-
-
-**Hybrid**
+## Hybrid
 
 Get Azure innovation everywhere---bring the agility and innovation of cloud computing to your on-premises workloads.
-
-
 
 [Azure SQL Database](https://azure.microsoft.com/en-in/services/sql-database/)
 
@@ -586,13 +558,9 @@ Bring Azure services and management to any infrastructure
 
 Extend cloud intelligence and analytics to edge devices
 
-
-
-**Identity**
+## Identity
 
 Manage user identities and access to protect against advanced threats across devices, data, apps, and infrastructure
-
-
 
 [Azure Active Directory](https://azure.microsoft.com/en-in/services/active-directory/)
 
@@ -610,13 +578,9 @@ Join Azure virtual machines to a domain without domain controllers
 
 Consumer identity and access management in the cloud
 
-
-
-**Integration**
+## Integration
 
 Seamlessly integrate on-premises and cloud-based applications, data and processes across your enterprise
-
-
 
 [Azure API for FHIR](https://azure.microsoft.com/en-in/services/azure-api-for-fhir/)
 
@@ -638,13 +602,9 @@ Publish APIs to developers, partners, and employees securely and at scale
 
 Connect across private and public cloud environments
 
-
-
-**Internet of Things**
+## Internet of Things
 
 Bring IoT to any device and any platform, without changing your infrastructure
-
-
 
 [Azure IoT Hub](https://azure.microsoft.com/en-in/services/iot-hub/)
 
@@ -726,13 +686,9 @@ Small-footprint, edge-optimised data engine with built-in AI
 
 Extend cloud intelligence and analytics to edge devices
 
-
-
-**Management and Governance**
+## Management and Governance
 
 Simplify, automate and optimise the management and compliance of your cloud resources
-
-
 
 [Azure Backup](https://azure.microsoft.com/en-in/services/backup/)
 
@@ -810,13 +766,9 @@ Enabling quick, repeatable creation of governed environments
 
 Empowering service providers to manage customers at scale and with precision
 
-
-
-**Media**
+## Media
 
 Deliver high-quality video content anywhere, any time and on any device
-
-
 
 [Content Delivery Network](https://azure.microsoft.com/en-in/services/cdn/)
 
@@ -846,13 +798,9 @@ Securely deliver content using AES, PlayReady, Widevine and Fairplay
 
 Unlock video insights
 
-
-
-**Migration**
+## Migration
 
 Simplify and accelerate your migration to the cloud with guidance, tools and resources
-
-
 
 [Azure Site Recovery](https://azure.microsoft.com/en-in/services/site-recovery/)
 
@@ -874,13 +822,9 @@ Easily discover, assess, right-size and migrate your on-premises VMs to Azure
 
 Appliances and solutions for data transfer to Azure and edge compute
 
-
-
-**Mixed Reality**
+## Mixed Reality
 
 Blend your physical and digital worlds to create immersive, collaborative experiences
-
-
 
 [Azure Digital TwinsPREVIEW](https://azure.microsoft.com/en-in/services/digital-twins/)
 
@@ -898,13 +842,9 @@ Build computer vision and speech models using a developer kit with advanced AI s
 
 Render high-quality, interactive 3D content and stream it to your devices in real time
 
-
-
-**Mobile**
+## Mobile
 
 Build and deploy cross-platform and native apps for any mobile device
-
-
 
 [App Service](https://azure.microsoft.com/en-in/services/app-service/)
 
@@ -950,13 +890,9 @@ Create cloud-powered mobile apps faster
 
 Easily deploy and run containerised web apps that scale with your business
 
-
-
-**Networking**
+## Networking
 
 Connect cloud and on-premises infrastructure and services to provide your customers and users the best possible experience
-
-
 
 [Content Delivery Network](https://azure.microsoft.com/en-in/services/cdn/)
 
@@ -1030,13 +966,9 @@ Central network security policy and route management for globally distributed, s
 
 A cloud-native web application firewall (WAF) service that provides powerful protection for web apps
 
-
-
-**Security**
+## Security
 
 Protect your enterprise from advanced threats across hybrid cloud workloads
-
-
 
 [Azure Active Directory](https://azure.microsoft.com/en-in/services/active-directory/)
 
@@ -1078,13 +1010,9 @@ Protect your applications from Distributed Denial of Service (DDoS) attacks
 
 Put cloud-native SIEM and intelligent security analytics to work to help protect your enterprise
 
-
-
-**Storage**
+## Storage
 
 Get secure, massively scalable cloud storage for your data, apps and workloads
-
-
 
 [Storage Accounts](https://azure.microsoft.com/en-in/services/storage/)
 
@@ -1154,13 +1082,9 @@ Enterprise-grade Azure file shares, powered by NetApp
 
 A simple and safe service for sharing big data with external organizations
 
-
-
-**Web**
+## Web
 
 Build, deploy, and scale powerful web applications quickly and efficiently
-
-
 
 [App Service](https://azure.microsoft.com/en-in/services/app-service/)
 
@@ -1209,7 +1133,5 @@ Add real-time web functionalities easily
 [Azure Spring Cloud](https://azure.microsoft.com/en-in/services/spring-cloud/)
 
 A fully managed Spring Cloud service, built and operated with Pivotal
-
-
 
 <https://azure.microsoft.com/en-in/services

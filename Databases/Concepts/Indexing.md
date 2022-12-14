@@ -8,23 +8,23 @@ Modified: 2021-01-04 23:48:37 +0500
 
 Indexing is a data structure technique to efficiently retrieve records from the database files based on some attributes on which the indexing has been done. Indexing in database systems is similar to what we see in books - Table of contents.
 Indexing is a way to optimize the performance of a database by minimizing the number of disk accesses required when a query is processed. It is a data structure technique which is used to quickly locate and access the data in a database.
-**Benefits**
+## Benefits
 -   Prevent queries from doing full scans of an entire dataset
 -   Access less and therefore lock less rows during queries
 -   Speed up queries drastically
 -   Prevent sorting records post fetching
 -   Impose constraints e.g. data uniqueness
 -   Join datasets efficiently
-**Common problems that surface when applying indexes are**
+## Common problems that surface when applying indexes are
 -   Having an index for every column in the table
 -   Not utilizing composite (multicolumn) indexes
 -   Using composite indexes but with ineffective column orderings that prevent the index being fully utilized
 -   Creating indexes based on rules of thumb or heuristics, such as indexing all columns that appear in the WHERE clause
-**Indexes are created using a few database columns**
+## Indexes are created using a few database columns
 -   The first column is the**Search key**that contains a copy of the primary key or candidate key of the table. These values are stored in sorted order so that the corresponding data can be accessed quickly.
     Note: The data may or may not be stored in sorted order.-   The second column is the**Data ReferenceorPointer**which contains a set of pointers holding the address of the disk block where that particular key value can be found.
 
-![Structure of an Index in Database Search Key Key Data Reference Value A single index ](media/Indexing-image1.jpeg)
+![image](media/Indexing-image1.jpeg)
 
 The indexing has various attributes:
 -   **Access Types:** This refers to the type of access such as value based search, range access, etc.
@@ -48,14 +48,14 @@ In general, there are two types of file organization mechanism which are followe
         -   For every search key value in the data file, there is an index record.
         -   This record contains the search key and also a reference to the first data record with that search key value.
 
-![Dense Index c D c D Data File For every search value in a Data File, There is an Index Record. Hence the name Dense Index. Index Record ](media/Indexing-image2.jpeg)
+![image](media/Indexing-image2.jpeg)
 -   **Sparse Index:**
     -   In sparse index, index records are not created for every search key. An index record here contains a search key and an actual pointer to the data on the disk. To search a record, we first proceed by index record and reach at the actual location of the data. If the data we are looking for is not where we directly reach by following the index, then the system starts sequential search until the desired data is found.
     -   The index record appears only for a few items in the data file. Each item points to a block as shown.
     -   To locate a record, we find the index record with the largest search key value less than or equal to the search key value we are looking for.
     -   We start at that record pointed to by the index record, and proceed along with the pointers in the file (that is, sequentially) until we find the desired record.
 
-![ه يو ـب ك ح د ي ي ق ع ل ى E ، ه ن ة 00 00 00 00 00000000 ](media/Indexing-image3.jpeg)
+![image](media/Indexing-image3.jpeg)
 
 2.  **Hash File organization:**Indices are based on the values being distributed uniformly across a range of buckets. The buckets to which a value is assigned is determined by a function called a hash function.
 There are primarily three methods of indexing:
@@ -75,7 +75,7 @@ For example, students studying in each semester are grouped together. i.e. 1stSe
 
 Clustered index sorted according to first name (Search key)
 
-**Primary Indexing**
+## Primary Indexing
 
 This is a type of Clustered Indexing wherein the data is sorted according to the search key and the primary key of the database table is used to create the index. It is a default format of indexing where it induces sequential file organization. As primary keys are unique and are stored in a sorted manner, the performance of the searching operation is quite efficient.
 2.  **Non-clustered or Secondary Indexing**
@@ -91,7 +91,7 @@ This is a type of Clustered Indexing wherein the data is sorted according to the
 
 Index records comprise search-key values and data pointers. Multilevel index is stored on the disk along with the actual database files. As the size of the database grows, so does the size of the indices. There is an immense need to keep the index records in the main memory so as to speed up the search operations. If single-level index is used, then a large size index cannot be kept in memory which leads to multiple disk accesses.
 
-![Multi-level Index](media/Indexing-image7.png)
+![image](media/Indexing-image7.png)
 
 Multi-level Index helps in breaking down the index into several smaller indices in order to make the outermost level so small that it can be saved in a single disk block, which can easily be accommodated anywhere in the main memory.
 <https://www.geeksforgeeks.org/indexing-in-databases-set-1>
@@ -128,7 +128,7 @@ ALTER TABLE tbl ADD INDEX state_source_index (state,source);
 Index selectivity is the ratio of the number of distinct indexed values (the ​cardinality) to the total number of rows in the table (#T).
 -   It ranges from 1/#T to 1. A unique index has a selectivity of 1, which is as good as it gets.
 -   Using the phonebook example: an index of(first_name, last_name)might be less effective than(last_name, first_name)because first names are much less distinct when compared to last_names, meaning it narrow down less results.
-**Why low cardinality indexes negatively impact performance**
+## Why low cardinality indexes negatively impact performance
 
 <https://www.ibm.com/developerworks/data/library/techarticle/dm-1309cardinal>
 

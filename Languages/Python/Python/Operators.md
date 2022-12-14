@@ -17,8 +17,6 @@ Python language supports the following types of operators.
 -   Membership Operators (2)
 -   Identity Operators (2)
 
-
-
 Identity vs Equality Operators
 -   Identity- Identity comparision with "is" and "is not"
 -   Equality- Equality comparisons with "==" and "!="
@@ -37,8 +35,6 @@ Identity vs Equality Operators
 | ** Exponent      | Performs exponential (power) calculation on operators                                                                                                                                                                                                         | a**b =10 to the power 20                                |
 | //                 | Floor Division - The division of operands where the result is the quotient in which the digits after the decimal point are removed. But if one of the operands is negative, the result is floored, i.e., rounded away from zero (towards negative infinity) − | 9//2 = 4 and 9.0//2.0 = 4.0, -11//3 = -4, -11.0//3 = -4.0 |
 
-
-
 2.  Comparison (Relational) Operators (a = 10, b = 20)
 
 | **Operator** | **Description**                                                                                                   | **Example**                                         |
@@ -50,8 +46,6 @@ Identity vs Equality Operators
 | <           | If the value of left operand is less than the value of right operand, then condition becomes true.                | (a < b) is true.                                   |
 | >=          | If the value of left operand is greater than or equal to the value of right operand, then condition becomes true. | (a >= b) is not true.                              |
 | <=          | If the value of left operand is less than or equal to the value of right operand, then condition becomes true.    | (a <= b) is true.                                  |
-
-
 
 3.  Assignment Operators (a=10, b = 20)
 
@@ -70,8 +64,6 @@ Like, sum = sum + value, This type of statements is called as accumulator patter
 | **= Exponent AND | Performs exponential (power) calculation on operators and assign value to the left operand | c **= a is equivalent to c = c ** a                            |
 | //= Floor Division | It performs floor division on operators and assign value to the left operand               | c //= a is equivalent to c = c // a                                |
 
-
-
 4.  Logical Operators (a = 10 and b = 20)
 
 | **Operator**    | **Description**                                                      | **Example**            |
@@ -79,8 +71,6 @@ Like, sum = sum + value, This type of statements is called as accumulator patter
 | and Logical AND | If both the operands are true then condition becomes true.           | (a and b) is true.     |
 | or Logical OR   | If any of the two operands are non-zero then condition becomes true. | (a or b) is true.      |
 | not Logical NOT | Used to reverse the logical state of its operand.                    | Not(a and b) is false. |
-
-
 
 5.  Bitwise Operators ( a = 60, b = 13)
 
@@ -97,8 +87,6 @@ b = 0000 1101
 | << Binary Left Shift    | The left operands value is moved left by the number of bits specified by the right operand.  | a << 2 = 240 (means 1111 0000)                                                     |
 | >> Binary Right Shift   | The left operands value is moved right by the number of bits specified by the right operand. | a >> 2 = 15 (means 0000 1111)                                                      |
 
-
-
 6.  Membership Operators
 
 | **Operator** | **Description**                                                                                  | **Example**                                                                |
@@ -106,16 +94,12 @@ b = 0000 1101
 | in           | Evaluates to true if it finds a variable in the specified sequence and false otherwise.          | x in y, here in results in a 1 if x is a member of sequence y.             |
 | not in       | Evaluates to true if it does not finds a variable in the specified sequence and false otherwise. | x not in y, here not in results in a 1 if x is not a member of sequence y. |
 
-
-
 7.  Identity Operators
 
 | **Operator** | **Description**                                                                                                 | **Example**                                                              |
 |-----------|--------------------------------------|------------------------|
 | is           | Evaluates to true if the variables on either side of the operator point to the same object and false otherwise. | x is y, here**is**results in 1 if id(x) equals id(y).                  |
 | is not       | Evaluates to false if the variables on either side of the operator point to the same object and true otherwise. | x is not y, here**is not**results in 1 if id(x) is not equal to id(y). |
-
-
 
 # Python Operators Precedence
 
@@ -201,44 +185,36 @@ b = 0000 1101
 
 
 
-
-
 # Different ways to test multiple
 # flags at once in Python
 x, y, z = **0**, **1**, **0**
 
-**if** x == **1 or** y == **1 or** z == **1**:
+## if** x == **1 or** y == **1 or** z == **1:
 print('passed')
 
-**if 1 in** (x, y, z):
+## if 1 in (x, y, z):
 print('passed')
 
 # These only test for truthiness:
-**if** x **or** y **or** z:
+## if** x **or** y **or z:
 print('passed')
 
-**if** any((x, y, z)):
+## if any((x, y, z)):
 print('passed')
 
-
-
-**Difference between is and ==**
+## Difference between is and ==
 
 1.  An**is**expression evaluates toTrueif two variables point to the same (identical) object.
 
 2.  An**==**expression evaluates toTrueif the objects referred to by the variables are equal (have the same contents).
 
-
-
-**Character Conversion**
+## Character Conversion
 
 1.  **ord() -** convert character to ascii
 
 2.  **chr() -** convert ascii to character
 
-
-
-**Swap Values -**
+## Swap Values -
 
 A = 23
 
@@ -246,17 +222,13 @@ B = 42
 
 A, B = B, A
 
-
-
-**Conditional test with lists**
+## Conditional test with lists
 
 in
 
 not in
 
-
-
-**If statements**
+## If statements
 
 if age < 4:
 

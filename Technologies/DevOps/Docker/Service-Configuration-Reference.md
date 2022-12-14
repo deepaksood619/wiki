@@ -38,8 +38,6 @@ Set the size of the/dev/shmpartition for this build's containers. Specify as an 
 
 Build the specified stage as defined inside theDockerfile
 
-
-
 2.  cap_add, cap_drop
 
 Add or drop container capabilities
@@ -189,8 +187,6 @@ net.ipv4.tcp_syncookies: 0
 
 40. domainname, hostname, ipc, mac_address, privileged, read_only, shm_size, stdin_open, tty, user, working_dir
 
-
-
 Not supported for docker stack deploy
 -   [build](https://docs.docker.com/compose/compose-file/#build)
 -   [cgroup_parent](https://docs.docker.com/compose/compose-file/#cgroup_parent)
@@ -206,8 +202,6 @@ Not supported for docker stack deploy
 -   [sysctls](https://docs.docker.com/compose/compose-file/#sysctls)
 -   [userns_mode](https://docs.docker.com/compose/compose-file/#userns_mode)
 
-
-
-**References**
+## References
 
 <https://docs.docker.com/compose/compose-file>

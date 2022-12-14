@@ -6,7 +6,7 @@ Modified: 2021-08-08 09:17:03 +0500
 
 ---
 
-**Aerospike**
+## Aerospike
 
 Aerospike is a distributed key-value DBMS. It is mainly targeted at OLTP workloads with large number of transactions.
 Drop-in replacement for redis

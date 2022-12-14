@@ -10,28 +10,20 @@ Modified: 2020-03-09 17:53:55 +0500
 -   It can be primarily used for Data mining purpose
 -   It runs on top of Hadoop
 
-
-
-**Hive is not**
+## Hive is not
 -   A relational database
 -   A design for OnLine Transaction Processing (OLTP)
 -   A language for real-time queries and row-level updates
 
-
-
-**Features of Hive**
+## Features of Hive
 -   It stores schema in a database and processed data into HDFS.
 -   It is designed for OLAP.
 -   It provides SQL type language for querying called HiveQL or HQL.
 -   It is familiar, fast, scalable, and extensible.
 
+## Apache Hiveis a[data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)software project built on top of[Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)for providing data query and analysis.Hive gives an[SQL](https://en.wikipedia.org/wiki/SQL)-like interface to query data stored in various databases and file systems that integrate with Hadoop. Traditional SQL queries must be implemented in the[MapReduce](https://en.wikipedia.org/wiki/MapReduce)Java API to execute SQL applications and queries over distributed data. Hive provides the necessary SQL abstraction to integrate SQL-like queries ([HiveQL](https://en.wikipedia.org/wiki/Apache_Hive#HiveQL)) into the underlying Java without the need to implement queries in the low-level Java API. Since most data warehousing applications work with SQL-based querying languages, Hive aids portability of SQL-based applications to Hadoop.
 
-
-**Apache Hive**is a[data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)software project built on top of[Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)for providing data query and analysis.Hive gives an[SQL](https://en.wikipedia.org/wiki/SQL)-like interface to query data stored in various databases and file systems that integrate with Hadoop. Traditional SQL queries must be implemented in the[MapReduce](https://en.wikipedia.org/wiki/MapReduce)Java API to execute SQL applications and queries over distributed data. Hive provides the necessary SQL abstraction to integrate SQL-like queries ([HiveQL](https://en.wikipedia.org/wiki/Apache_Hive#HiveQL)) into the underlying Java without the need to implement queries in the low-level Java API. Since most data warehousing applications work with SQL-based querying languages, Hive aids portability of SQL-based applications to Hadoop.
-
-
-
-**Partitioning of table**
+## Partitioning of table
 
 Hive stores tables in partitions. Partitions are used to divide the table into related parts. Partitions make data querying more efficient. For example in the above weather table the data can be partitioned on the basis of year and month and when query is fired on weather table this partition can be used as one of the column.
 
@@ -41,68 +33,40 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 LOCATION ' /hive/data/weatherext';
 
-
-
 Loading data in partitioned tables is different than non-partitioned one. There is little manual work of mentioning the partition data. Data can be loaded in partition, year 2012 and month 01 and 02 as follows:
-
-
 
 LOAD DATA INPATH 'hdfs:/data/2012.txt' INTO TABLE weatherext PARTITION (year=2012, month='01');
 LOAD DATA INPATH 'hdfs:/data/2012.txt' INTO TABLE weatherext PARTITION (year=2012, month='02');
 
-
-
 This creates the partitioned table and makes different folder for each partition which helps in querying data.
-
-
 
 <https://www.dezyre.com/hadoop-tutorial/apache-hive-tutorial-tables>
 
-
-
 Hive organizes tables into partitions. It is a way of dividing a table into related parts based on the values of partitioned columns such as date, city, and department. Using partition, it is easy to query a portion of the data.
-
-
 
 Tables or partitions are sub-divided intobuckets,to provide extra structure to the data that may be used for more efficient querying. Bucketing works based on the value of hash function of some column of a table.
 
-
-
 <https://www.tutorialspoint.com/hive/hive_partitioning.htm>
 
-
-
-**Built-in Operators**
+## Built-in Operators
 
 <https://www.tutorialspoint.com/hive/hive_built_in_operators.htm>
 
-
-
-**Built-in Functions**
+## Built-in Functions
 
 <https://www.tutorialspoint.com/hive/hive_built_in_functions.htm>
 
-
-
-**Hive LLAP**
+## Hive LLAP
 
 Hive LLAP stands for Long Live and Process that is part of HortonWorks distribution. It is being said that it was launched to compete with impala of cloudera.
 
-
-
 It consists of daemons that runs hive queries so worker tasks are being run inside daemons only.
-
-
 
 And all small queries run by these daemons rather than YARN container. It helps in pre fetching and caching of columns before query runs.
 
-
-
 <https://cwiki.apache.org/confluence/display/Hive/LLAP>
 
-
-
-**Architecture**
+## Architecture
 
 ![Hive Architecture](../../media/Technologies-Apache-Apache-Hive-image1.jpg)
 
@@ -114,15 +78,11 @@ And all small queries run by these daemons rather than YARN container. It helps 
 | Execution Engine      | The conjunction part of HiveQL process Engine and MapReduce is Hive Execution Engine. Execution engine processes the query and generates results as same as MapReduce results. It uses the flavor of MapReduce.                                          |
 | HDFS or HBASE         | Hadoop distributed file system or HBASE are the data storage techniques to store data into file system.                                                                                                                                                  |
 
-
-
-**Working of Hive**
+## Working of Hive
 
 The following diagram depicts the workflow between Hive and Hadoop.
 
 ![How Hive Works](../../media/Technologies-Apache-Apache-Hive-image2.jpg)
-
-
 
 The following table defines how Hive interacts with Hadoop framework:
 
@@ -196,21 +156,15 @@ The following table defines how Hive interacts with Hadoop framework:
 </tbody>
 </table>
 
-
-
-**Others - Presto**
+## Others - Presto
 
 <https://blog.treasuredata.com/blog/2015/03/20/presto-versus-hive
 
-
-
-**References**
+## References
 
 <https://en.wikipedia.org/wiki/Apache_Hive>
 
 <https://www.tutorialspoint.com/hive/hive_introduction.htm>
-
-
 
 
 

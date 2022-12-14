@@ -59,7 +59,7 @@ There are several different ways to create a GPG key. The easiest is with the "g
     -   Various Encryption / Decryption algorithms
     -   Various message digest (hash) algorithms
     -   HMAC - Signing
-**PGP**
+## PGP
 
 Pretty Good Privacy(PGP) is an[encryption program](https://en.wikipedia.org/wiki/Encryption_software)that provides [cryptographic](https://en.wikipedia.org/wiki/Cryptographic) [privacy](https://en.wikipedia.org/wiki/Privacy) and [authentication](https://en.wikipedia.org/wiki/Authentication) for [data communication](https://en.wikipedia.org/wiki/Data_communication). PGP is used for[signing](https://en.wikipedia.org/wiki/Digital_signature), encrypting, and decrypting texts,[e-mails](https://en.wikipedia.org/wiki/Email), files, directories, and whole disk partitions and to increase the security of e-mail communications.[Phil Zimmermann](https://en.wikipedia.org/wiki/Phil_Zimmermann)developed PGP in 1991.
 PGP and similar software follow the[OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP), an open standard of PGP encryption software, standard ([RFC 4880](https://en.wikipedia.org/wiki/Request_for_Comments)) for encrypting and decrypting data.

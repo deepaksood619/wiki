@@ -11,22 +11,16 @@ LZF belongs to a family of compression codecs called "simple Lempel-Ziv" codecs.
 
 -   Used in Druid
 
-
-
 <https://github.com/ning/compress/wiki/LZFFormat>
 
-
-
-**Properties**
+## Properties
 -   Lossless data compression algorithms
 -   Dictionary coders
 -   LZ77 maintains a sliding window during compression
 
+## LZW (Abraham Lampel, Jacob Ziv, Terry Welch)
 
-
-**LZW (Abraham Lampel, Jacob Ziv, Terry Welch)**
-
-**Statistical Methods**
+## Statistical Methods
 
 1.  **Static model:** Same model for all texts
     -   **Fast**
@@ -43,75 +37,51 @@ LZF belongs to a family of compression codecs called "simple Lempel-Ziv" codecs.
     -   **Decoding must start from beginning**
     -   **Ex: LZW**
 
+## LZW compression example
 
+![image](media/LZW-Compression-image1.jpg)
 
-**LZW compression example**
+![image](media/LZW-Compression-image2.jpg)
 
-![input matches value A 41 B 42 R 52 A 41 43 A 41 D 44 81 83 B R 82 A 88 B R 41 80 LZW compression for A B RAC A D A B B RA B RA ](media/LZW-Compression-image1.jpg)
-
-
-
-![key value 42 43 44 key AB AC AD value 81 82 83 84 85 86 key DA ABR RAB BRA ABRA value 87 88 89 8B codeword table ](media/LZW-Compression-image2.jpg)
-
-
-
-**Lempel-Ziv-Welch compression**
+## Lempel-Ziv-Welch compression
 -   Create ST associating W-bit codewords with string keys
 -   Initialize ST with codewords for single-char keys
 -   Find longest string s in ST that is a prefix of unscanned part of input
 -   Write the W-bit codeword associated with s
 -   Ass s+c to ST, where c is next char in the input
 
-
-
 Que: How to represent LZW compression code table?
 
 Ans: A trie to support longest prefix match
 
+## LZW compression: Java Implementation
 
+![image](media/LZW-Compression-image3.jpeg)
 
-**LZW compression: Java Implementation**
+## LZW expansion example
 
-![public static void compress() String input = BinaryStdIn. readString() ; TST<Integer> st = new TST<Integer>() ; for (int --- st. put("" + (char) i, int code = R+I; while (input. length() > 0) String s = st. longestPrefixOf(input); BinaryStdOut.wri W) ; int t = s. length(); if (t < input. length() && code < L) st. put(input.substri ng(0, t+l), code++) ; i nput = input. substring(t); BinaryStdOut.write(R, W) ; Bi naryStdOut. close() ; read in input as a string codewords for single- char, radix R keys find longest prefix match s write W-bit codeword for s add new codeword scan past s in input write "stop" codeword and close input stream ](media/LZW-Compression-image3.jpeg)
+![image](media/LZW-Compression-image4.jpg)
 
+![image](media/LZW-Compression-image5.jpg)
 
-
-**LZW expansion example**
-
-![value output 41 A 42 B 52 R 41 A 43 41 A 44 81 83 82 88 ABR 41 80 LZW expansion for 41 42 52 41 43 41 44 81 83 82 88 41 80 ](media/LZW-Compression-image4.jpg)
-
-
-
-![key 41 42 43 44 value key 81 82 83 84 85 86 value AB AC CA AD key 88 89 8B value DA ABR RAB BRA ABRA codeword table ](media/LZW-Compression-image5.jpg)
-
-
-
-**LZW expansion**
+## LZW expansion
 -   Create ST associating string values with W-bit keys
 -   Initialize ST to contain single-char values
 -   Read a W-bit key
 -   Find associated string value in ST and write it out
 -   Update ST
 
-
-
 Que: How to represent LZW expansion code table?
 
 Ans: An array of size 2^w^.
 
+## LZW example: tricky case
 
+![image](media/LZW-Compression-image6.jpg)
 
-**LZW example: tricky case**
+![image](media/LZW-Compression-image7.jpg)
 
-![input matches value A 41 key B 42 81 83 80 LZW compression for ABABABA value 41 42 43 44 key AB ABA value 81 82 83 codeword table ](media/LZW-Compression-image6.jpg)
-
-
-
-![value output 41 A 42 B 81 83 80 need to know which key has value 83 before it is in ST! LZW expansion for 41 42 81 83 80 key 41 42 43 44 value c D key 81 82 83 value AB ABA ](media/LZW-Compression-image7.jpg)
-
-
-
-**LZW implementation details**
+## LZW implementation details
 -   **How big to make ST?**
     -   How long is message?
     -   Whole message similar model?
@@ -127,9 +97,7 @@ Ans: An array of size 2^w^.
 -   **Why not put longer substrings in ST?**
     -   [many variations have been developed]
 
-
-
-**LZW in the real world**
+## LZW in the real world
 -   **LZ77**
 -   **LZ78**
 -   **LZW**
@@ -143,13 +111,7 @@ Ans: An array of size 2^w^.
 -   LZMA
 -   LZSS
 
-
-
 <https://en.wikipedia.org/wiki/LZ77_and_LZ78>
-
-
-
-
 
 
 

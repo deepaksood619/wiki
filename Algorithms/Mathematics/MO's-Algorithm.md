@@ -6,7 +6,7 @@ Modified: 2020-09-18 09:55:57 +0500
 
 ---
 
-**Query Square Root Decomposition**
+## Query Square Root Decomposition
 -   **Range Query**
 -   **Point Update**
 
@@ -15,19 +15,13 @@ Modified: 2020-09-18 09:55:57 +0500
     -   Any range query can be efficiently calculated by summing all sqrt(n) blocks or part of some blocks
     -   Any point update can be done by altering only the sum of that block only
 
+![image](media/MO's-Algorithm-image1.png)
 
-
-![Block - 0 8 Block - 1 0 1 2 3 4 5 Block - 2 15 6 7 8 ](media/MO's-Algorithm-image1.png)
-
-**Problem -** We are given an array and a set of query ranges, we are required to find sum of every query range.
-
-
+## Problem - We are given an array and a set of query ranges, we are required to find sum of every query range.
 
 Naive - A**Naive Solution**is to run a loop from L to R and calculate sum of elements in given range for every query [L, R]
 
 Time Complexity - O(m*n)
-
-
 
 The idea of**MO's algorithm**is to pre-process all queries so that result of one query can be used in next query. Below are steps.
 
@@ -40,21 +34,13 @@ Let**a[0...n-1]**be input array and**q[0..m-1]**be array of queries.
     -   Remove extra elements of previous query. For example if previous query is [0, 8] and current query is [3, 9], then we subtract a[0] and a[1] from sum
     -   Add new elements of current query. In the same example as above, we add a[9] to sum.
 
-
-
 The great thing about this algorithm is, in step 2, index variable for R change at most**O(n * √n)**times throughout the run and same for L changes its value at most**O(m * √n)**times (See below, after the code, for details). All these bounds are possible only because sorted queries first in blocks of**√n**size.
-
-
 
 The preprocessing part takes O(m Log m) time.
 
-
-
 Processing all queries takes**O(n * √n)**+**O(m * √n)**=**O((m+n) * √n)**time.
 
-
-
-**More -**
+## More -
 
 <https://www.geeksforgeeks.org/range-minimum-query-for-static-array
 

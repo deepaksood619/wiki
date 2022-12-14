@@ -8,32 +8,20 @@ Modified: 2022-12-09 23:56:28 +0500
 
 At the end of the day, everything is a **toaster,** i.e. no matter how wonderful your product, if it is successful then others will copy it and sooner rather than later your product will be as easy to make as a toaster. -- Prof Bruce Greenwald
 
-
-
 Asking (or forcing?) your team to stay late to hit those deadlines only accomplishes two things: it burns them out quicker, and it fosters resentment towards you. You can maybe do this once or twice each year, but neither of these are feasible if you're looking to cultivate a healthy and lasting relationship with your engineering teams.
 
-
-
 So, the question becomes what do you do? Well as a product manager it's your job to figure these problems out, and sometimes you'll unfortunately need to have difficult conversations with certain stakeholders.
-
-
 
 Regardless, there'sonly 3 ways to sustainably hit seemingly impossible deadlines:
 -   Reduce Scope
 -   Get More Resources
 -   Get More Time
 
-
-
-**Reduce Scope**
+## Reduce Scope
 
 One of the three ways to hit impossible deadlines is to reduce scope. This means to remove features or functionality from your product to hit the deadline. This is usually the most demoralizing option, yet also the most realistic option.
 
-
-
 The stakeholders this solution impacts the most are sales, account managers, direct product reports, and your customers.
-
-
 
 To effectively reduce scope you need to do the following things in this order:
 -   List out all features and label them either: Must Haves, Should Haves, or Nice To Haves.
@@ -46,19 +34,13 @@ To effectively reduce scope you need to do the following things in this order:
 -   Communicate to your team the revised scope.
 -   Execute to hit your revised scope.
 
-
-
-**Get More Resources**
+## Get More Resources
 
 The next strategy is to get more engineering resources. Unless your deadline is months away, hiring new engineers is usually not realistic. So where do you get the additional resource(s)? You'll need to pull from a different team by negotiating with their product manager and your direct reports. Here, you risk hurting your relationship with other product teams, and should only be used if you can create a reasonable strategy and if the features you're building are objectively more valuable to the company.
 
 Here you'll want to focus on aligning each stakeholder on the organizaton's core goal. Other teams will feel slighted, but reminding them you're all working together towards this common goal can help.
 
-
-
 The stakeholders it affects most are other product teams, your engineering team, and your direct reports.
-
-
 
 To effectively negotiate for more resources, you should do the following in order:
 -   List out all features and label them either: Must Haves, Should Haves, or Nice To Haves.
@@ -72,17 +54,11 @@ To effectively negotiate for more resources, you should do the following in orde
 -   Execute to hit your revised scope.
 -   Show appreciation to the other team that you've borrowed resources from. They did you a huge favor and they deserve to be acknowledged. You can do this by expressing a heartfelt thank you, publically acknowleding them to other teams, or repay them in the future by lending resources when they need it more than you.
 
-
-
-**Get More Time**
+## Get More Time
 
 This is the most obvious strategy, yet oftentimes the least realistic. We've promised certain features by a certain date and now you can't meet the specified date, so you ask for an extension. This is another undesirable scenario. It's important for this to consider code freezes, company-wide release policies, and potential affected customers.
 
-
-
 The stakeholders this solution affects the most are sales, account managers, QA, marketing, and your customers.
-
-
 
 To effectively push deadlines, you should do the following:
 -   List out all features and label them either: Must Haves, Should Haves, or Nice To Haves.
@@ -92,13 +68,9 @@ To effectively push deadlines, you should do the following:
 -   Communicate your new scope based on your revised deadline to your team immediately. Explain how you're unlikely to hit the deadline and so you've negotiated for more time.
 -   Execute to hit your revised scope.
 
-
-
-**What does it all mean?**
+## What does it all mean?
 
 If you're running into this issue often, it likely means you're not effectively tracking how much work your team can accomplish, you're not accounting for enough edge cases in your product spec, or you're unable to effectively manage your stakeholders' expectations. The best strategy is always to be preventative rather than reactionary.
-
-
 
 Regardless, by following these strategies, you accomplish four critical goals in a bad situation:
 
@@ -110,15 +82,9 @@ c.  You create a collaborative situation with all stakeholders, limiting blame a
 
 d.  You build trust and respect with your engineering team, limiting resentment and burnout
 
-
-
 This is the best-case scenario out of a worst-case scenario.
 
-
-
 Your job as a PM is to deliver business impact by marshaling the resources of your team to identify and solve the most impactful customer problems.
-
-
 
 There are three parts to this, each essential:
 
@@ -134,13 +100,9 @@ Your job isn't to do the building yourself but instead to increase the leverage 
 
 Business impact comes from solving customer problems. Thus, it's your job to lead your team to correctly identify, prioritize, and solve the mostimpactfulcustomer problems.
 
-
-
 PMs are the ultimate business lever.
 
-![Shape the product Impact Sync the people Ship the product ](media/Product-Management-image1.jpg)
-
-
+![image](media/Product-Management-image1.jpg)
 
 1.  **Shape the product:**Harness insights from customers, stakeholders, and data to prioritize and build a product that will have the most impact on the business.
 
@@ -148,17 +110,11 @@ PMs are the ultimate business lever.
 
 3.  **Synchronize the people:**Align all stakeholders around one vision, strategy, goal, roadmap, and timeline to avoid wasted time and effort.
 
-
-
 The most important PM attributes
 
-![*OOHoo d Leadership Vision O Customer Impact Insights Execution Communication Strategy Planning Collaboration Ownership ](media/Product-Management-image2.jpg)
+![image](media/Product-Management-image2.jpg)
 
-
-
-![44 Signs You Are Becoming a "Real" Product Manager 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. You'll feel like you are annoying the crap out of your team You'll find yourself sheepishly asking for an estimate You'll realize that estimates are worthless, but still be pressured for a "rough sense of timeframe" You'll struggle to explain why your intuition is valid (and be right) You'll struggle to explain why your intuition is valid (and be wrong) You'll be pressured to ship something before it's ready You'll try to make something perfect when you should have shipped it months ago You'll face the harsh reality of a usability test You'll put together the best roadmap in the world, and get everyone to buy-in, and then everything will change in an instant You'll forget a seemingly trivial detail that will cause a massive delay You'll rabbit hole on a seemingly important detail that will cause a massive delay for no apparent customer value You'll be blamed for being too solution focused You'll be blamed for being too high level You'll find out that a new competitor is killing it You'll have to break crappy news to your team (often admitting that you're to blame) 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30. 31. You'll fancy yourself as UX-savvy but be humbled daily You'll fancy yourself as business-savvy but be humbled daily You'll say "my team", but feel oddly distant from your team You'll be worried about "distracting" your team, and find yourself not being transparent. And this will come back to haunt you You'll find yourself parroting something engineers told you, and realize just how little you understand You'll be asked to make your backlog / roadmap more visible, but then be derided when you shift things around You'll have a day filled with meetings, and realize you added absolutely no value You'll run a great meeting, and no one will notice You'll work up a full-fledged wireframe, and then try to tell your UX team member that you don't have a design in mind You'll ship a dud feature that no one uses You'll ship an awesome feature that no one even notices You'll have to implement an exec's idea, and know it sucks. And then have to live through the success theater that accompanies the release of said idea You'll try to follow up on the impact of shipped features, but get overwhelmed by the next batch You'll want to pull your hair out listening to your team debate the technical merits of two, almost identical approaches 32. 33. 34. 35. 36. 37. 38. 39. 40. 41. 42. 43. 44. You'll be jealous about and how You'll advocate for your pet solution against an almost identical team proposed approach You'll tell a customer "it's on the roadmap" and hear them laugh out loud You'll say "No" to something just to prove to yourself that you have some influence and a point of view, and then realize that doing that is stupid You'll say "Yes" to a customer in a moment of pure delusion, and then find yourself stubbornly trying to defend a feature that only they will use You'll hear that you are not technical enough for the role You'll hear that you are too technical for the role, and lack the soft skills You'll go to a conference and learn about Lean Startup, and then come back to work and realize that the word hypothesis scares the shit out of people You'll be the single wringable neck You'll find yourself running cover for your team You'll find yourself cursing your team under your breath You'll be "empowered" on paper, but find yourself taking orders You'll catch yourself giving orders, and learn to empower your team instead You'll think you've learned from your mistakes, and you'll magically make them again (just to make sure the learning is ingrained) they do product (and be reminded of that fact because they incessantly blog about it) You'll fancy yourself as technical but be humbled daily ](media/Product-Management-image3.jpeg)
-
-
+![image](media/Product-Management-image3.jpeg)
 
 [**https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761**](https://medium.com/productmanagement101/spotify-squad-framework-part-i-8f74bcfcd761)
 -   High alignment, High Autonomy
@@ -167,39 +123,29 @@ The most important PM attributes
 -   If you need to know exactly who is making decisions, you are in the wrong place
 -   If everything is under control you are going too slow
 
-
-
 [Spotify Engineering Culture (by Henrik Kniberg)](https://www.youtube.com/watch?v=4GK1NDTWbkY)
 
 Playlist - [Spotify Squads/Tribes/Guilds](https://www.youtube.com/playlist?list=PLcb4e6GmmJKTxdVwg44TLPx7WkE2UQ6XB)
 
 <https://www.jeremiahlee.com/posts/failed-squad-goals>
 
-
-
 There is no one size fits all
 
 There is no perfect PEPSI there are only perfect PEPSIs
 
-
-
-**Frameworks**
+## Frameworks
 
 <https://www.scaledagileframework.com
 
 <https://basecamp.com/shapeup>
 
+## What is Product Management
 
+![image](media/Product-Management-image4.png)
 
-**What is Product Management**
+![image](media/Product-Management-image5.png)
 
-![Voice of the user within buginegg Uger experienc and tech Technology Kna.U how it be built Product Management Buginegg Maximize buginegg value from a product ](media/Product-Management-image4.png)
-
-
-
-![THE PRODUCT ITERATE LIFECYCLE EVALUATE OPPORTUNITY DESIGN SOLUTION BUILD SHIP MEASURE ](media/Product-Management-image5.png)
-
-**The Product Lifecycle**
+## The Product Lifecycle
 -   Concept, Introduction, Growth, Maturity, Decline, Withdrawal
 
 
@@ -208,9 +154,7 @@ There is no perfect PEPSI there are only perfect PEPSIs
 -   Story-tell like a CMO
 -   Deliver like a CFO
 
-
-
-**Characteristics / Req of PMs**
+## Characteristics / Req of PMs
 -   Communication ninja (Internal / External)
 -   Execution Expert (Ship it)
 -   Stakeholder Management (Ducks in a row)
@@ -221,9 +165,7 @@ There is no perfect PEPSI there are only perfect PEPSIs
 -   Team Champion (Face of the team)
 -   Vision / Passion / Own (mini-CEO?)
 
-
-
-**PM Types**
+## PM Types
 -   Project Managers
 -   Program Managers
 -   Product Managers
@@ -237,82 +179,58 @@ There is no perfect PEPSI there are only perfect PEPSIs
     -   Data Platforms
     -   B2B vs B2C vs B2B2C
 
+## COCA - Cost of customer acquisation
 
-
-**COCA - Cost of customer acquisation**
-
-**CAC - Customer Acquisition Cost**
+## CAC - Customer Acquisition Cost
 
 <https://neilpatel.com/blog/customer-acquisition-cost
 
-
-
-**Helpful things**
+## Helpful things
 -   Have an eye to detail
 -   Blog
 -   Network with PMs - understand real life PM stuff
 -   Read / Consume a lot
 -   See if you genuinely might fit
 
-
-
-**Product Manager**
+## Product Manager
 
 <https://hackernoon.com/how-to-plan-your-career-change-and-become-a-product-manager-my-tips-and-tricks-for-success-fnv231pc>
 
+## Career Ladder - <https://docs.google.com/spreadsheets/d/1F1Y3YtjsvAJUZMqS-rK0LGQGg7eHYubq9KqedPwLCDE/edit#gid=1755575210>
 
-
-**Career Ladder** - <https://docs.google.com/spreadsheets/d/1F1Y3YtjsvAJUZMqS-rK0LGQGg7eHYubq9KqedPwLCDE/edit#gid=1755575210>
-
-
-
-**1% Problem**
+## 1% Problem
 -   Is the problem something that less than 1% of your users face?
 -   Is your solution going to inconvenience the remaining 99%?
 
-
-
 The tricky part is to figure outwhich1% problems to solve and which ones to ignore. You might decide that the wrong cab problem, even though it's a 1% problem, is worth solving. And so every rider must announce a four-digit pin to the driver to start a trip. To solve a 1% problem, you decide to inconvenience the 99%.
-
-
 
 <https://blackboxofpm.com/product-management-mental-models-for-everyone-31e7828cb50b>
 
+## TAM - Total Addressable or Accessible Market
 
-
-**TAM - Total Addressable or Accessible Market**
-
-**TSM - Total Servicable Market**
+## TSM - Total Servicable Market
 
 Remonetisation plan - hook and bait the customers
 
-**BRD - Business Requirement Document**
+## BRD - Business Requirement Document
 
-**PRD - Product Requirement Document**
+## PRD - Product Requirement Document
 
-**FRD - Functional Requirement Document**
+## FRD - Functional Requirement Document
 
-**User Stories / User Story**
+## User Stories / User Story
 
 In[software development](https://en.wikipedia.org/wiki/Software_development)and[product management](https://en.wikipedia.org/wiki/Product_management), auser storyis an informal, natural language description of features of a software system. They are written from the perspective of an[end user](https://en.wikipedia.org/wiki/User_(computing)#End-user)or[user of a system](https://en.wikipedia.org/wiki/User_(system)), and may be recorded on index cards,[Post-it notes](https://en.wikipedia.org/wiki/Post-it_note), or digitally in project management software.Depending on the project, user stories may be written by different stakeholders like client, user, manager, or development team.
 
-
-
 User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Boundary_object). They facilitate[sensemaking](https://en.wikipedia.org/wiki/Sensemaking)and communication; and may help software teams document their understanding of the system and its context.
-
-
 
 <https://en.wikipedia.org/wiki/User_story>
 
-
-
-**Checklist**
+## Checklist
 
 <https://getting-started-in-product.mailerpage.com/posts/s7e5o0-product-management-checklists-how>
 
-
-
-**Purple Cow by Seth Godin**
+## Purple Cow by Seth Godin
 -   Take risks at being remarkable, and don't worry about criticism.
 -   Target the people who are both willing to try new things and very vocal at spreading the word to others.
 -   Invent the product with marketing.
@@ -322,9 +240,7 @@ User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Bounda
 -   In today's crowded marketplace, there is no room for "ordinary."
 -   Being ridiculed can be a good thing, as it spreads word about you and your product.
 
-
-
-**Tipping Point by Malcolm Gladwell**
+## Tipping Point by Malcolm Gladwell
 -   To spread an idea, you must make sure it sticks first. It has to be something special, catchy, unique, and remarkable to cut through the market noise.
 -   Keep the group smaller than 150 if the goal is to effectively spread a message.
 -   The spread of ideas is similar in behavior to the spread of epidemics.
@@ -333,9 +249,7 @@ User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Bounda
 -   External elements influence our behavior. Such influence is generally greater than what we perceive it to be.
 -   Small changes in context caused by external elements can have a big ripple effect.
 
-
-
-**The Innovator's Dilemma by Clayton Christensen**
+## The Innovator's Dilemma by Clayton Christensen
 -   Have two innovation incubation models for an established firm.
 -   Observe how customers are actually using the product.
 -   Have discovery-driven planning that is adaptable to various factors of change.
@@ -353,9 +267,7 @@ User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Bounda
 -   Disruptive innovations are usually variations on existing technologies that open up a new customer base.
 -   The best way for an established company to take advantage of a disruptive technology is to create or acquire an organization that is small but utilizes flexible processes.
 
-
-
-**The Lean Startup by Eric Ries**
+## The Lean Startup by Eric Ries
 -   Focus the whole team on finding a sustainable business model. The faster the model is found, the likelier the start-up is to succeed.
 -   Learn through a scientific approach, constantly validating your findings.
 -   Validate your hypotheses by speaking with real customers.
@@ -371,9 +283,7 @@ User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Bounda
 -   Value hypothesis assumes early adopters will accept a product.
 -   Growth hypothesis assumes a product will appeal to a larger group of people later.
 
-
-
-**Zero to One by Peter Thiel**
+## Zero to One by Peter Thiel
 -   Think about the future as a definitive vision. This is a vision you want to focus on and attain.
 -   When thinking about the future, think about the progress which stands between now and the future.
 -   Finding ideas most people don't know about, or agree with, is key to being successful.
@@ -388,9 +298,7 @@ User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Bounda
 -   Sales and distribution is vital because your products will never sell themselves. Optimize your sales effort per distribution point to include various sales strategies.
 -   Founders tend to be strange people. However, the vision they have is indispensable because the decisions are made to realize that original vision.
 
-
-
-**Start With Why by Simon Sinek**
+## Start With Why by Simon Sinek
 -   Think inside out (starting with why), not outside in (starting with what). Communicatethe whyas it fosters a sense of belonging.
 -   The goal is to do business with people who believe what you believe.
 -   People don't buywhatyou do, they buywhyyou do it. What you do simply proves what you believe.
@@ -402,73 +310,47 @@ User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Bounda
 -   The Law of Diffusion on innovation breaks down to 2.5% innovators, 13.5% early adapters, 34% early majority, 34% late majority and 16% laggards. If you want mass-market success, you have to achieve a 15--18% tipping point.
 -   The early majority won't accept something until early adapters have tried it and accepted it, and you won't get early adapters until they believe in what you have.
 
+## Kano Model
 
+![image](media/Product-Management-image6.jpeg)
 
-**Kano Model**
-
-![The Kano Model Attractive Features ("delighters") Performance Features ("known improvements") Basic Features ("tablestakes") user satisfaction feature implementation ](media/Product-Management-image6.jpeg)
-
-**Categories**
+## Categories
 
 1.  **Must-be Quality**
 
 Simply stated, these are the requirements that the customers expect and are taken for granted. When done well, customers are just neutral, but when done poorly, customers are very dissatisfied. Kano originally called these "Must-be's" because they are the requirements that must be included and are the price of entry into a market.
 
-
-
 Examples: In a hotel, providing a clean room is a basic necessity. In a call center, greeting customers is a basic necessity.
-
-
 
 2.  **One-dimensional Quality**
 
 These attributes result in satisfaction when fulfilled and dissatisfaction when not fulfilled. These are attributes that are spoken and the ones in which companies compete. An example of this would be a milk package that is said to have ten percent more milk for the same price will result in customer satisfaction, but if it only contains six percent then the customer will feel misled and it will lead to dissatisfaction.
 
-
-
 Examples: Time taken to resolve a customer's issue in a call center. Waiting service at a hotel.
-
-
 
 3.  **Attractive Quality (User Delights)**
 
 These attributes provide satisfaction when achieved fully, but do not cause dissatisfaction when not fulfilled. These are attributes that are not normally expected, for example, a thermometer on a package of milk showing the temperature of the milk. Since these types of attributes of quality unexpectedly delight customers, they are often unspoken.
 
-
-
 Examples: In a callcenter, providing special offers and compensations to customers or the proactive escalation and instant resolution of their issue is an attractive feature. In a hotel, providing free food is an attractive feature.
 
-
-
 Examples: if you ask Google assistant for a reminder for tomorrow morning at 1 am, it sets it at same day morning 8:00 am and not tomorrow i.e. the next day morning
-
-
 
 4.  **Indifferent Quality**
 
 These attributes refer to aspects that are neither good nor bad, and they do not result in either customer satisfaction or customer dissatisfaction. For example, thickness of the wax coating on a milk carton. This might be key to the design and manufacturing of the carton, but consumers are not even aware of the distinction. It is interesting to identify these attributes in the product in order to suppress them and therefore diminish production costs.
 
-
-
 Examples: In a callcenter, highly polite speaking and very prompt responses might not be necessary to satisfy customers and might not be appreciated by them. The same applies to hotels.
-
-
 
 5.  **Reverse Quality**
 
 These attributes refer to a high degree of achievement resulting in dissatisfaction and to the fact that not all customers are alike. For example, some customers prefer high-tech products, while others prefer the basic model of a product and will be dissatisfied if a product has too many extra features.
 
-
-
 Examples: In a callcenter, using a lot of jargon, using excessive pleasantries, or using excessive scripts while talking to customers might be off-putting for them. In a hotel, producing elaborate photographs of the facilities that set high expectations which are then not satisfied upon visiting can dissatisfy the customers.
-
-
 
 <https://en.wikipedia.org/wiki/Kano_model>
 
-
-
-**Design X for Y (X = Product, Y = Customer)**
+## Design X for Y (X = Product, Y = Customer)
 
 What do these questions test
 
@@ -480,13 +362,9 @@ What do these questions test
 
 4.  Creative thinking
 
-
-
-**CIRCLES Method**
+## CIRCLES Method
 
 Is a framework to help solve design questions in PM interviews
-
-
 
 1.  **C - Comprehend Situation -** What? Who? Why? How?
 
@@ -506,13 +384,9 @@ understand the situation
 
 7.  **S - Summarize recommendation -** What, recap, why others
 
-
-
 After getting the answer to RCA, keep on going to all other points, just to confirm for multiple factors in play
 
-
-
-**Become a product manager if you are fulfilled by**
+## Become a product manager if you are fulfilled by
 -   Solving people's problems (both your users' and your team's)
 -   Driving business growth
 -   Working closely with a variety of people
@@ -524,9 +398,7 @@ After getting the answer to RCA, keep on going to all other points, just to conf
 -   Creating amazing experiences for people
 -   Being organized, detail oriented, and prepared
 
-
-
-**Do not become a product manager if you are primarily fulfilled by**
+## Do not become a product manager if you are primarily fulfilled by
 -   Appreciation
 -   Having your way
 -   Being left alone
@@ -537,8 +409,6 @@ After getting the answer to RCA, keep on going to all other points, just to conf
 -   Avoiding meetings
 -   Avoiding email
 -   Avoiding people
-
-
 
 <https://www.lennysnewsletter.com/p/how-to-get-into-product-management>
 
@@ -554,15 +424,13 @@ Articulate your objectives using absolutely no jargon
 -   How long will it take?
 -   What are the mid-term and final exams to check for success?
 
-
-
-**Product Market Fit**
+## Product Market Fit
 
 <https://www.lennysnewsletter.com/p/how-to-know-if-youve-got-productmarket>
 
 <https://www.lennysnewsletter.com/p/how-to-kickstart-and-scale-a-marketplace>
 
-**GTM - Go To Market**
+## GTM - Go To Market
 
 A go-to-market (GTM) strategy is a step-by-step plan for launching a new product or expanding an existing product into a new market. It sets your initiative up for success by answering the following questions:
 -   Whatproduct are you selling, and what unique problem does it solve?
@@ -574,9 +442,7 @@ A go-to-market (GTM) strategy is a step-by-step plan for launching a new product
 
 <https://asana.com/resources/go-to-market-gtm-strategy>
 
-
-
-**7 common ways to differentiate a product**
+## 7 common ways to differentiate a product
 
 1.  Be the cheapest
 
@@ -592,13 +458,9 @@ A go-to-market (GTM) strategy is a step-by-step plan for launching a new product
 
 7.  Focus on a niche underserved market
 
-
-
 <https://www.lennysnewsletter.com/p/how-to-differentiate>
 
-
-
-**Organizational skills**
+## Organizational skills
 -   Time management
 -   Communication
 -   Setting goals
@@ -610,9 +472,7 @@ A go-to-market (GTM) strategy is a step-by-step plan for launching a new product
 -   Decision-making
 -   Strategic planning
 
-
-
-**Success Metrics**
+## Success Metrics
 
 [PM School - Defining Success Metrics for a product | Solving Metrics Questions in PM interviews](https://www.youtube.com/watch?v=WBG0Ggmhu2M)
 -   Clarify - Goals vs Metrics, Functionality, Mission/Vision
@@ -632,17 +492,13 @@ A go-to-market (GTM) strategy is a step-by-step plan for launching a new product
     -   4-5 L1 supporting metrics
 -   Critique your metrics
 
-
-
-**Product Strategy + GTM (Go To Market)**
+## Product Strategy + GTM (Go To Market)
 
 [PM School - Should Google enter the OTT market? | Strategy and GTM questions in PM Interviews](https://www.youtube.com/watch?v=TG657u78MOQ)
 -   CXO Thinking Skills
 -   How well you breakdown an ambiguous & vague problem
 -   Should X enter Y market
 -   Do not jump to conclusions, don't say yes or no without an approach/framework
-
-
 
 5C Framework
 -   Competition
@@ -661,15 +517,11 @@ A go-to-market (GTM) strategy is a step-by-step plan for launching a new product
 -   Climate
     -   Political / Economic / Regulatory
 
-
-
 Where & How to enter?
 -   Where - Look at customer journey / value chain
 -   How - Think about business model
 
-
-
-**Pricing Strategy**
+## Pricing Strategy
 
 [PM School - How do you price Spotify Premium? | Pricing Questions in PM Interviews](https://www.youtube.com/watch?v=lDwqjTQs6Qk)
 -   Pricing is not just a number (it can make or break your product)
@@ -700,13 +552,9 @@ Where & How to enter?
         -   Offer a basic version for free, and a paid upgraded version (ex - SAAS products)
 -   Frequency of payment (Annual / Monthly)
 
-
-
-**Product Sense**
+## Product Sense
 
 Product sense is the skill of consistently being able to craft products (or make changes to existing products) that have the intended impact on their users.
-
-
 
 Product sense relies on
 
@@ -714,29 +562,21 @@ Product sense relies on
 
 2.  Creativityto come up with solutions that effectively address those needs
 
-
-
-**Building empathy**
+## Building empathy
 
 1.  Observe people interacting with products
 
 2.  Deconstruct everyday products
 
-
-
-**Improving creativity**
+## Improving creativity
 
 1.  Learn from great product thinkers
 
 2.  Be curious about changes in technology and your domain
 
-
-
 <https://www.lennysnewsletter.com/p/product-sense>
 
-
-
-**Others**
+## Others
 
 <https://www.freecodecamp.org/news/why-understanding-software-requirements-matter-to-you-as-a-software-engineer
 
@@ -746,17 +586,11 @@ Product sense relies on
 
 <https://www.lennysnewsletter.com/p/a-product-managers-guide-to-web3>
 
-
-
-**Resources**
+## Resources
 
 <https://www.lennysnewsletter.com
 
 <https://noidea.dog/glue>
-
-
-
-
 
 
 

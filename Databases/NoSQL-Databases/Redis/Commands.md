@@ -6,7 +6,7 @@ Modified: 2022-11-21 15:35:38 +0500
 
 ---
 
-**Installation**
+## Installation
 
 brew install redis
 
@@ -48,10 +48,10 @@ retries: 5
 volumes:
 
 - ./data/redis:/bitnami/redis/data
-**Redis Insight**
+## Redis Insight
 
 docker run -rm -it -v redisinsight:/db -p 8001:8001 redislabs/redisinsight
-**Kubernetes**
+## Kubernetes
 
 <https://github.com/bitnami/charts/tree/master/bitnami/redis>
 
@@ -72,15 +72,15 @@ redis-cli -h redis -p 6379 -a a6ad92769ef04b711eea18dccfff85ea ping
 
 redis-cli -h redis-dashboard -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
 
-**#decision engine** redis-cli -h localhost -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
+## #decision engine redis-cli -h localhost -p 6379 -a a6ad92769ef04b711eea18dccfff85ea
 
-**#streams** redis-cli -h localhost -p 6379 -a y2Tb8FaxGyk6qm1s
-**# find out all keys with no ttl set**
+## #streams redis-cli -h localhost -p 6379 -a y2Tb8FaxGyk6qm1s
+## # find out all keys with no ttl set
 
 redis-cli -a a6ad92769ef04b711eea18dccfff85ea --no-auth-warning --scan | while read LINE ; do TTL=`redis-cli --no-auth-warning -a a6ad92769ef04b711eea18dccfff85ea ttl "$LINE"`; if [ $TTL -eq -1 ]; then echo "$LINE"; fi; done;
-**DML**
+## DML
 
-**CONFIG GET ***
+## CONFIG GET *
 ```
 info # <https://redis.io/commands/info>
 
@@ -95,10 +95,10 @@ maxmemory-policy
 
 ### Cleanups
 
-**BGREWRITEAOF #Compress AOF**
-**auto-aof-rewrite-percentage**
+## BGREWRITEAOF #Compress AOF
+## auto-aof-rewrite-percentage
 
-**CONFIG SET auto-aof-rewrite-percentage 50**
+## CONFIG SET auto-aof-rewrite-percentage 50
 
 <https://www.oreilly.com/library/view/redis-4x-cookbook/9781783988167/64284aa9-a324-4383-b9f4-9db3ae95ffb4.xhtml>
 
@@ -117,7 +117,7 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 >>> flushdb
 >>> keys *
 
-**>>> keys sms:key:***
+## >>> keys sms:key:*
 > set mykey somevalue
 
 > set mykey 100 ex 10 # mykey will expire after 10 seconds
@@ -169,13 +169,13 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 > hgetall user:1000
 
 > DEBUG OBJECT key #show size of key
-**>** scan 0 MATCH sms:score:*
+## > scan 0 MATCH sms:score:*
 
-**>** sscan myset 0 match f*
+## > sscan myset 0 match f*
 
-**> hscan seen: 0**
+## > hscan seen: 0
 
-**>** zscan queue:default 0
+## > zscan queue:default 0
 <https://redis.io/commands/scan>ACL GENPASS
 
 ACL GETUSER default

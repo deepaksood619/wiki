@@ -16,7 +16,7 @@ The WebSocket protocol is a rather low-level protocol. It defines how a stream o
 [WebSockets Crash Course](https://www.youtube.com/watch?v=2Nt-ZrNP22A)
 
 [WebSockets in 100 Seconds & Beyond with Socket.io](https://www.youtube.com/watch?v=1BfCnjr_Vjg&ab_channel=Fireship)
-**Will WebSocket survive HTTP/2?**
+## Will WebSocket survive HTTP/2?
 
 |               | HTTP/2                      | WebSocket         |
 |----------------|-----------------------------|-------------------|
@@ -37,7 +37,7 @@ It certainly will, mainly because it is already well adopted and, in very specif
 If you consider a use case like displaying real-time market news, market data, chat application, etc, relying on HTTP/2 + SSE will provide you an efficient bidirectional communication channel and keep the huge advantage of staying in the HTTP world:
 -   WebSocket can often be a source of pain when considering compatibility with existing web infrastructure as it upgrades an HTTP connection to a completely different protocol that has nothing to do with HTTP.
 -   Scale and security: Web components (Firewalls, Intrusion Detection, Load Balancers) are built, maintained and configured with HTTP in mind, an environment that large/critical applications will prefer in terms of resiliency, security and scalability.
-**Takeaways**
+## Takeaways
 -   HTTP/2 is not a full replacement of HTTP.
 -   Hacks such as Domain sharding, resource inlining and image spriting will be counter-productive in an HTTP/2 world.
 -   HTTP/2 is not a replacement for push technologies such as WebSocket or SSE.

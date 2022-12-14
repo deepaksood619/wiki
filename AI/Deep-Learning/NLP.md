@@ -44,9 +44,7 @@ Modified: 2022-02-10 22:28:24 +0500
 
 [15.7. Natural Language Inference: Fine-Tuning BERT](https://d2l.ai/chapter_natural-language-processing-applications/natural-language-inference-bert.html)
 
-
-
-**NLP (Natural Language Processing)**
+## NLP (Natural Language Processing)
 -   Lexical Processing
 -   Semantic Analysis
 -   Syntactic Analysis
@@ -54,15 +52,11 @@ Modified: 2022-02-10 22:28:24 +0500
 -   Recurring NN
 -   Chatbot Project
 
-
-
-**Why Natural Language is hard for computer to parse**
+## Why Natural Language is hard for computer to parse
 
 May is fun but June bores me.
 
 Does it refer to months or to people?
-
-
 
 <https://www.toptal.com/machine-learning/google-nlp-tutorial>
 
@@ -70,19 +64,13 @@ Does it refer to months or to people?
 
 <https://www.freecodecamp.org/news/google-bert-nlp-machine-learning-tutorial
 
-
-
-**Spacy**
+## Spacy
 
 Industrial-Strength Natural Language Processing
 
-
-
 <https://spacy.io/usage/models>
 
-
-
-**Gensim (Topic Modeling for Humans)**
+## Gensim (Topic Modeling for Humans)
 
 Gensim is a Python library fortopic modeling,document indexingandsimilarity retrievalwith large corpora. Target audience is thenatural language processing(NLP) andinformation retrieval(IR) community.
 
@@ -90,13 +78,9 @@ Gensim is a Python library fortopic modeling,document indexingandsimilarity retr
 
 <https://radimrehurek.com/gensim
 
-
-
 <https://www.toptal.com/python/topic-modeling-python>
 
-
-
-**Text Similarity Methods**
+## Text Similarity Methods
 -   Normalized, metric, similarity and distance
 -   (Normalized) similarity and distance
 -   Metric distances
@@ -117,37 +101,25 @@ Gensim is a Python library fortopic modeling,document indexingandsimilarity retr
 -   Sorensen-Dice coefficient
 -   Overlap coefficient (i.e.,Szymkiewicz-Simpson)
 
-
-
 <https://github.com/luozhouyang/python-string-similarity#python-string-similarity>
 
-
-
-**FlashText**
+## FlashText
 
 Replace keywords in sentences or extract keywords from sentences
 
 <https://pypi.org/project/flashtext
 
-
-
-**ML Kit Natural Language APIs**
+## ML Kit Natural Language APIs
 -   Language ID
 -   On-device translation
 -   Smart reply
 -   Entity extraction
 
-
-
 <https://developers.google.com/ml-kit>
 
-
-
-**References**
+## References
 
 The Association for Computational Linguistics is the international organization that represents the field of NLP. The ACL website (<http://www.aclweb.org) hosts many useful resources, including: information about international and regional conferences and workshops; the *ACL Wiki* with links to hundreds of useful resources; and the *ACL Anthology*, which contains most of the NLP research literature from the past 50+ years, fully indexed and freely downloadable.
-
-
 
 <https://www.freecodecamp.org/news/natural-language-processing-with-spacy-python-full-course
 

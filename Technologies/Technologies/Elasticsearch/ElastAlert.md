@@ -8,11 +8,7 @@ Modified: 2021-08-29 16:14:32 +0500
 
 ElastAlert is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch.
 
-
-
 It works by combining Elasticsearch with two types of components, rule types and alerts. Elasticsearch is periodically queried and the data is passed to the rule type, which determines when a match is found. When a match occurs, it is given to one or more alerts, which take action based on the match.
-
-
 
 This is configured by a set of rules, each of which defines a query, a rule type, and a set of alerts.
 
@@ -24,8 +20,6 @@ Several rule types with common monitoring paradigms are included with ElastAlert
 -   "Match on any event matching a given filter" (anytype)
 -   "Match when a field has two different values within some time" (changetype)
 
-
-
 In addition to this basic usage, there are many other features that make alerts more useful:
 -   Alerts link to Kibana dashboards
 -   Aggregate counts for arbitrary fields
@@ -33,17 +27,13 @@ In addition to this basic usage, there are many other features that make alerts 
 -   Separate alerts by using a unique key field
 -   Intercept and enhance match data
 
-
-
-**Rule Types**
+## Rule Types
 -   'flatline' -- when there are less than X events in Y time
 -   'blacklist/whitelist' -- when a certain field matches 'blacklist' or 'whitelist'
 -   'any' -- when an event that matches a given filter happens
 -   'change' -- when a field has two different values within a specified period of time
 
-
-
-**Types**
+## Types
 
 1.  spike
 
@@ -55,9 +45,7 @@ In addition to this basic usage, there are many other features that make alerts 
 
 5.  change
 
-
-
-**Common Configuration Example**
+## Common Configuration Example
 
 1.  Required settings
 
@@ -174,11 +162,7 @@ hours: 2
 
 45. scan_entire_timeframe
 
-
-
 <https://elastalert.readthedocs.io/en/latest/ruletypes.html#common-configuration-options>
-
-
 
 <table>
 <colgroup>
@@ -515,17 +499,11 @@ hours: 2
 </tbody>
 </table>
 
-
-
 <https://elastalert.readthedocs.io/en/latest/ruletypes.html>
-
-
 
 <https://elastalert.readthedocs.io/en/latest/ruletypes.html#rule-types>
 
-
-
-**Example**
+## Example
 
 # deadman_slack: |-
 
@@ -556,8 +534,6 @@ hours: 2
 # slack:
 
 # slack_webhook_url: dummy
-
-
 
 # deadman_pagerduty: |-
 
@@ -591,9 +567,7 @@ hours: 2
 
 # pagerduty_client_name: Elastalert Deadman Switch
 
-
-
-**References**
+## References
 
 <https://elastalert.readthedocs.io/en/latest/index.html>
 
@@ -601,8 +575,6 @@ hours: 2
 
 <https://github.com/bitsensor/elastalert>
 
-
-
-**Other Plugins**
+## Other Plugins
 
 <https://github.com/sivasamyk/logtrail>

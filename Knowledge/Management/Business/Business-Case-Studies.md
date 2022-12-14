@@ -10,8 +10,6 @@ Modified: 2022-05-25 15:09:27 +0500
 
 <https://google.com/search?q=business+case+studies>
 
-
-
 [Business Case Studies](https://www.youtube.com/playlist?list=PLGwmAEmjn4fmL_kCTOR-N4fXOlXvLa8dG)
 
 [The Great Monopolies of India and the World](https://www.youtube.com/playlist?list=PLGwmAEmjn4fn0gqEfKYVVtdd_rsV_QKSJ)
@@ -86,17 +84,11 @@ The "IKEA Effect": When Labor Leads to Love
 
 It is due to the IKEA effect that an individual perceives the value of self-made products (even though they might be amateurs) equivalent to that of products made by experts. When someone does labor to complete a task, they tend to love and value it more.
 
-
-
 This can be understood by an example:
 
 When instant cake mixes were introduced in the 1950's as part of a broader trend to simplify the life of the American housewife by minimizing manual labor, housewives were initially resistant. These mixes made cooking too easy, making their labor and skill seem undervalued. They completed the task simply but did not value it because it involved almost zero labor.
 
-
-
 To counter this, manufacturers changed the recipe and instead added one more step, now to complete the cake adding an egg in the mix was a mandatory step. This small change of introducing labor appeared to be a crucial move that lead to the sales of the cake mixes.
-
-
 
 So if you want the magic of the IKEA effect to work you need 3 things
 
@@ -191,7 +183,7 @@ Buyer market - Supply > Demand
 
 10. Slotting fee / listing fee / advertisement fee
 
-![Business Model Design Lean Canvas Traction Model VIABLE Jobs-to-be-done Customer Development Design Thinking DESIRABLE FEASIBLE The Continuous Innovation Framework Lean Startup Scientific Method AARRR Metrics ](media/Business_Business-Case-Studies-image1.jpeg)
+![image](media/Business_Business-Case-Studies-image1.jpeg)
 
 
 -   Zara - [Decoding ZARA's Billion Dollar Business STRATEGY : Fashion Business Case Study](https://youtu.be/ON-vFJbq1Vc)
@@ -250,8 +242,6 @@ Tangible vs perceived value
 
 Jidoka direct translation in English is automation. Today, Jidoka is referred to as autonomation, which is automation with human intelligence.Jidoka also refers to stopping a manual line or process when something goes wrong. Ohno viewed the production process used by mass producers in the West to be rampant with muda -- a Japanese term for waste that encompasses all elements of production that only increase cost without adding value. For instance, excess people, inventory, and equipment are all types of muda that may exist in a factory. In order to prevent mistakes from multiplying,
 
-
-
 Ohno placed a cord above every work station in the production facility and encouraged workers to stop the entire assembly line immediately if they discovered a problem. Once the assembly line was stopped the problem would be addressed. Ohno implemented this method with the intention of making workers more conscious of quality through Jidoka.
 
 Jidoka places responsibility down to the assembly workers to ensure that they are mindful of the quality of each part produced.
@@ -264,26 +254,22 @@ Jidoka places responsibility down to the assembly workers to ensure that they ar
     -   Authoritative marketing
     -   Stories sell
 
-
-
 [How Airtel is Beating Jio? : Business Strategy case study](https://www.youtube.com/watch?v=yhpVAki47RI)
 -   Retainer
 -   Ecosystem products
 -   Loss leader pricing strategy
 
 
-
-
 -   Food
 
-![Sub-premium Economy Super 150Rs - 450Rs KFC 50Rs -150Rs I ORS-50rs Unorganised players ](media/Business_Business-Case-Studies-image2.jpeg)
+![image](media/Business_Business-Case-Studies-image2.jpeg)
 
 [How Starbucks' Legendary Leader brought the company out of a Crisis?: STARBUCKS Casestudy (Howard S)](https://youtu.be/vvzpciKoU5g)
 -   Not in coffee business serving people but People businesses serving coffee
 -   Purpose of the brand
 -   Extraordinary company exhibit true values
 
-![wow! Affordable Health ödeshwa upsouth Expensive Unhealthy ](media/Business_Business-Case-Studies-image3.jpeg)
+![image](media/Business_Business-Case-Studies-image3.jpeg)
 -   Insurance
     -   Shared value model
 -   Retail (real state) - location location location
@@ -295,8 +281,6 @@ Jidoka places responsibility down to the assembly workers to ensure that they ar
 -   **Shared value /Collective impact**
 
 Collective impact is based on the idea that social problems arise from and persist because of a complex combination of actions and omissions by players in all sectors---and therefore can be solved only by the coordinated efforts of those players, from businesses to government agencies, charitable organizations, and members of affected populations. What's needed is nothing less than changing how the system functions. Collective-impact efforts have made significant progress on issues as diverse as education, homelessness, juvenile justice, substance abuse, childhood obesity, job creation, and[pollution.](http://www.collectiveimpactforum.org/featured-case-studies)
-
-
 
 1.  a common agenda, which helps align the players' efforts and defines their commitment
 
@@ -317,9 +301,7 @@ Collective impact is based on the idea that social problems arise from and persi
         -   The design of everyday things
     -   Minding the gap (Customer perspective)
 
-
-
-**Auction Theory**
+## Auction Theory
 
 1.  The Independent Private Value (IPV) Model
 
@@ -339,13 +321,9 @@ A Vickrey auction is a sealed-bid auction where bidders submit bids without know
 
 4.  Revenue Equivalence
 
-
-
 <https://web.stanford.edu/~jdlevin/Econ%20286/Auctions.pdf>
 
 <https://drive.google.com/file/d/13jkSTqNUtDqF7QU1nlEQv4LSv2eZTx-9/view>
 
 Chapter 9: Auctions - From the book Networks, Crowds, and Markets: Reasoning about a Highly Connected World. By David Easley and Jon Kleinberg. Cambridge University Press, 2010.
-
-
 

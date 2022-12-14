@@ -6,13 +6,11 @@ Modified: 2021-07-05 09:38:48 +0500
 
 ---
 
-**Introduction**
+## Introduction
 
 Course overview highlighting the key objectives and modules. First, you will learn about aspects of Machine Learning that require some intuition, good judgment and experimentation. We call it the Art of ML. You will learn the many knobs and levers involved in training a model. You will manually adjust them to see their effects on model performance.
 
-
-
-**The Art of ML**
+## The Art of ML
 
 In this course you will learn about The Art of Machine Learning. We will review aspects of machine learning that require intuition, judgment and experimentation to find the right balance and what's good enough (spoiler alert: it's never perfect!).
 
@@ -44,9 +42,7 @@ Graded:Hand-Tuning ML Models
 
 Graded:Learning Rate and Batch Size
 
-
-
-**Hyperparameter Tuning**
+## Hyperparameter Tuning
 
 In this module you will learn how to differentiate between parameters and hyperparameters. Then we'll discuss traditional grid search approach and learn how to think beyond it with smarter algorithms. Finally you'll learn how Cloud ML engine makes it so convenient to automate hyperparameter tuning.
 
@@ -64,9 +60,7 @@ Graded:Improve model accuracy by Hyperparameter Tuning with Cloud MLE
 
 Graded:Hyperparameter Tuning
 
-
-
-**A pinch of science**
+## A pinch of science
 
 In this module, we will start to introduce the science along with the art of machine learning. We're first going to talk about how to perform regularization for sparsity so that we can have simpler, more concise models. Then we're going to talk about logistic regression and learning how to determine performance.
 
@@ -84,9 +78,7 @@ Graded:L1 Regularization
 
 Graded:Logistic Regression
 
-
-
-**The science of neural networks**
+## The science of neural networks
 
 In this module we will now be diving deep into the science, specifically with neural networks.
 
@@ -108,9 +100,7 @@ Graded:Training Neural Networks
 
 Graded:Multi-class Neural Networks
 
-
-
-**Custom Estimator**
+## Custom Estimator
 
 In this module we will go beyond using canned estimators by writing a custom estimator. By writing a custom estimator, you will be able to gain greater control over the model function itself.
 

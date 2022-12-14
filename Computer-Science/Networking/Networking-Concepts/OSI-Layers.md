@@ -11,7 +11,7 @@ OSI Model (Open Systems Interconnection)
 
 It was designed to be a reference model for describing the functions of a communication system. It has been developed by ISO -- '**International Organization of Standardization**', in the year 1974.
 
-![Application Layer Sender Presentation Layer Session Layer Receiver Transport Layer Network Layer Data Link Layer Physical Layer Software Layers Heart of OSI Hardware Layers ](media/OSI-Layers-image1.png)
+![image](media/OSI-Layers-image1.png)
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ It was designed to be a reference model for describing the functions of a commun
 
 The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form ofbits. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.
 
-![1100 0111 0011 ](media/OSI-Layers-image2.png)
+![image](media/OSI-Layers-image2.png)
 
 The functions of the physical layer are :
 
@@ -196,7 +196,7 @@ SCENARIO:
 
 Let's consider a scenario where a user wants to send a message through some Messenger application running in his browser. The "Messenger" here acts as the application layer which provides the user with an interface to create the data. This message or so called Data is compressed, encrypted (if any secure data) and converted into bits (0's and 1's) so that it can be transmitted.
 
-![Sender Message Receiver ](media/OSI-Layers-image3.png)
+![image](media/OSI-Layers-image3.png)
 6.  **Presentation Layer (Layer 6)**
 
 Presentation layer is also called theTranslation layer.The data from the application layer is extracted here and manipulated as per the required format to transmit over the network.
@@ -228,7 +228,7 @@ iii. Mail Services
 
 iv. Directory Services
 OSI model acts as a reference model and is not implemented in Internet because of its late invention. Current model being used is the TCP/IP model.
-**References**
+## References
 
 <https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols>
 

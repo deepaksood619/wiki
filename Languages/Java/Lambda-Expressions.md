@@ -31,8 +31,6 @@ int max = x > y ? x : y;
 return max;
 }
 
-
-
-**References**
+## References
 
 <http://www.java2s.com/Tutorials/Java/Java_Lambda/index.htm>

@@ -10,7 +10,7 @@ Modified: 2021-12-31 21:25:18 +0500
 
 ## Arts
 
-**Performing arts**
+## Performing arts
 -   [Music](https://en.wikipedia.org/wiki/Music)([outline](https://en.wikipedia.org/wiki/Outline_of_music))
     -   [Accompanying](https://en.wikipedia.org/wiki/Accompaniment)
     -   [Chamber music](https://en.wikipedia.org/wiki/Chamber_music)
@@ -61,9 +61,7 @@ Modified: 2021-12-31 21:25:18 +0500
     -   [Film theory](https://en.wikipedia.org/wiki/Film_theory)
     -   [Live action](https://en.wikipedia.org/wiki/Live_action)
 
-
-
-**Visual arts**
+## Visual arts
 -   [Fine arts](https://en.wikipedia.org/wiki/Fine_arts)
     -   [Graphic arts](https://en.wikipedia.org/wiki/Graphic_arts)
         -   [Drawing](https://en.wikipedia.org/wiki/Drawing)([outline](https://en.wikipedia.org/wiki/Outline_of_drawing_and_drawings))
@@ -104,8 +102,6 @@ Modified: 2021-12-31 21:25:18 +0500
             -   [Game design](https://en.wikipedia.org/wiki/Game_design)
             -   [Toy and amusement design](https://en.wikipedia.org/wiki/Toy)
 
-
-
 ## History
 -   [African history](https://en.wikipedia.org/wiki/African_history)
 -   [American history](https://en.wikipedia.org/wiki/American_history)
@@ -140,8 +136,6 @@ Modified: 2021-12-31 21:25:18 +0500
 -   [Scientific history](https://en.wikipedia.org/wiki/History_of_Science)
 -   [Technological history](https://en.wikipedia.org/wiki/History_of_Technology)
 -   [World history](https://en.wikipedia.org/wiki/World_history)
-
-
 
 ## Languages and literature
 -   [Linguistics](https://en.wikipedia.org/wiki/Linguistics)([Outline of linguistics](https://en.wikipedia.org/wiki/Outline_of_linguistics))
@@ -190,8 +184,6 @@ Modified: 2021-12-31 21:25:18 +0500
     -   [African-American literature](https://en.wikipedia.org/wiki/African-American_literature)
     -   [American literature](https://en.wikipedia.org/wiki/American_literature)
     -   [British literature](https://en.wikipedia.org/wiki/British_literature)
-
-
 
 ## Philosophy
 -   [Aesthetics](https://en.wikipedia.org/wiki/Aesthetics)([outline](https://en.wikipedia.org/wiki/Outline_of_aesthetics)) /[Philosophy of Art](https://en.wikipedia.org/wiki/Philosophy_of_Art)
@@ -261,8 +253,6 @@ Modified: 2021-12-31 21:25:18 +0500
     -   [Libertarianism](https://en.wikipedia.org/wiki/Libertarianism)([outline](https://en.wikipedia.org/wiki/Outline_of_libertarianism))
     -   [Marxism](https://en.wikipedia.org/wiki/Marxism)
 
-
-
 ## Theology
 -   [Biblical studies](https://en.wikipedia.org/wiki/Biblical_studies)
 -   [Religious studies](https://en.wikipedia.org/wiki/Religious_studies)
@@ -278,16 +268,12 @@ Modified: 2021-12-31 21:25:18 +0500
 -   [Jewish theology](https://en.wikipedia.org/wiki/Jewish_theology)
 -   [Muslim theology](https://en.wikipedia.org/wiki/Muslim_theology)
 
-
-
 Monotheism (Sikh Creed)
 -   One eternal God = Waheguru (Wonderful Lord)
 -   God has no form or gender
 -   Center / creator of the universe and sovereign ruler
 -   God's name should be remembered, repeated and meditated upon continually
 -   God is present everywhere, therefore prayers can be said anywhere, at any time (everyone has direct access)
-
-
 
 There is but One God, His name is Truth,
 
@@ -307,28 +293,20 @@ He was True when the ages commenced and has ever been True,
 
 He is alo True now
 
-
-
-![Kaam (Lust) Ahankar (Arrogance) Moh (Attachment) Krodh (Anger) Lobh (Greed) ](media/Knowledge-of-Humanity-image1.jpeg)
-
-
+![image](media/Knowledge-of-Humanity-image1.jpeg)
 
 # Social Sciences
 
-**Anthropology**
+## Anthropology
 -   [Biological anthropology](https://en.wikipedia.org/wiki/Biological_anthropology)
 -   [Linguistic anthropology](https://en.wikipedia.org/wiki/Linguistic_anthropology)
 -   [Cultural anthropology](https://en.wikipedia.org/wiki/Cultural_anthropology)
 -   [Social anthropology](https://en.wikipedia.org/wiki/Social_anthropology)
 
-
-
-**Archaeology**
+## Archaeology
 -   [Archaeology](https://en.wikipedia.org/wiki/Archaeology)
 
-
-
-**Human geography**
+## Human geography
 -   [Human geography](https://en.wikipedia.org/wiki/Human_geography)
     -   [Behavioral geography](https://en.wikipedia.org/wiki/Behavioral_geography)
     -   [Cognitive geography](https://en.wikipedia.org/wiki/Cognitive_geography)
@@ -350,9 +328,7 @@ He is alo True now
     -   [Transport geography](https://en.wikipedia.org/wiki/Transport_geography)
     -   [Urban geography](https://en.wikipedia.org/wiki/Urban_geography)
 
-
-
-**Law**
+## Law
 -   [Administrative law](https://en.wikipedia.org/wiki/Administrative_law)
 -   [Canon law](https://en.wikipedia.org/wiki/Canon_law)
 -   [Civil law](https://en.wikipedia.org/wiki/Civil_law_(common_law))
@@ -390,9 +366,7 @@ He is alo True now
 -   [Procedural law](https://en.wikipedia.org/wiki/Procedural_law)
 -   [Substantive law](https://en.wikipedia.org/wiki/Substantive_law)
 
-
-
-**Political science**
+## Political science
 -   [American politics](https://en.wikipedia.org/wiki/Politics_of_the_United_States)
 -   [Canadian politics](https://en.wikipedia.org/wiki/Politics_of_Canada)
 -   [Civics](https://en.wikipedia.org/wiki/Civics)
@@ -412,9 +386,7 @@ He is alo True now
 -   [Psephology](https://en.wikipedia.org/wiki/Psephology)
 -   [Social choice theory](https://en.wikipedia.org/wiki/Social_choice_theory)
 
-
-
-**Psychology**
+## Psychology
 -   [Abnormal psychology](https://en.wikipedia.org/wiki/Abnormal_psychology)
 -   [Applied psychology](https://en.wikipedia.org/wiki/Applied_psychology)
 -   [Asian psychology](https://en.wikipedia.org/wiki/Asian_psychology)
@@ -479,9 +451,7 @@ He is alo True now
 -   [Traffic psychology](https://en.wikipedia.org/wiki/Traffic_psychology)
 -   [Transpersonal psychology](https://en.wikipedia.org/wiki/Transpersonal_psychology)
 
-
-
-**Sociology**
+## Sociology
 -   [Analytical sociology](https://en.wikipedia.org/wiki/Analytical_sociology)
 -   [Applied sociology](https://en.wikipedia.org/wiki/Applied_sociology)
     -   [Leisure studies](https://en.wikipedia.org/wiki/Leisure_studies)
@@ -657,11 +627,9 @@ He is alo True now
 -   [Victimology](https://en.wikipedia.org/wiki/Victimology)
 -   [Visual sociology](https://en.wikipedia.org/wiki/Visual_sociology)
 
-
-
 # Natural Sciences
 
-**Biology**
+## Biology
 -   [Aerobiology](https://en.wikipedia.org/wiki/Aerobiology)
 -   [Anatomy](https://en.wikipedia.org/wiki/Anatomy)
     -   [Comparative anatomy](https://en.wikipedia.org/wiki/Comparative_anatomy)
@@ -751,9 +719,7 @@ He is alo True now
     -   [Zootomy](https://en.wikipedia.org/wiki/Zootomy)
     -   [Zoosemiotics](https://en.wikipedia.org/wiki/Zoosemiotics)
 
-
-
-**Chemistry**
+## Chemistry
 -   [Agrochemistry](https://en.wikipedia.org/wiki/Agrochemistry)
 -   [Analytical chemistry](https://en.wikipedia.org/wiki/Analytical_chemistry)
 -   [Astrochemistry](https://en.wikipedia.org/wiki/Astrochemistry)
@@ -804,9 +770,7 @@ He is alo True now
 -   [Theoretical chemistry](https://en.wikipedia.org/wiki/Theoretical_chemistry)
 -   [Thermochemistry](https://en.wikipedia.org/wiki/Thermochemistry)
 
-
-
-**Earth sciences**
+## Earth sciences
 -   [Edaphology](https://en.wikipedia.org/wiki/Edaphology)
 -   [Environmental chemistry](https://en.wikipedia.org/wiki/Environmental_chemistry)
 -   [Environmental science](https://en.wikipedia.org/wiki/Environmental_science)
@@ -831,9 +795,7 @@ He is alo True now
     -   [Paleobiology](https://en.wikipedia.org/wiki/Paleobiology)
     -   [Paleoecology](https://en.wikipedia.org/wiki/Paleoecology)
 
-
-
-**Space sciences**
+## Space sciences
 -   [Astrobiology](https://en.wikipedia.org/wiki/Astrobiology)
 -   [Astronomy](https://en.wikipedia.org/wiki/Astronomy)([outline](https://en.wikipedia.org/wiki/Outline_of_astronomy))
     -   [Observational astronomy](https://en.wikipedia.org/wiki/Observational_astronomy)
@@ -862,9 +824,7 @@ He is alo True now
     -   [Stellar nucleosynthesis](https://en.wikipedia.org/wiki/Stellar_nucleosynthesis)
 -   [Planetary science](https://en.wikipedia.org/wiki/Planetary_science)
 
-
-
-**Physics**
+## Physics
 -   [Acoustics](https://en.wikipedia.org/wiki/Acoustics)
 -   [Applied physics](https://en.wikipedia.org/wiki/Applied_physics)
 -   [Astrophysics](https://en.wikipedia.org/wiki/Astrophysics)
@@ -894,11 +854,9 @@ He is alo True now
 -   [Thermodynamics](https://en.wikipedia.org/wiki/Thermodynamics)
 -   [Vehicle dynamics](https://en.wikipedia.org/wiki/Vehicle_dynamics)
 
-
-
 # Formal Sciences
 
-**Computer Science**
+## Computer Science
 -   [Logic in computer science](https://en.wikipedia.org/wiki/Logic_in_computer_science)
     -   [Formal methods](https://en.wikipedia.org/wiki/Formal_methods)([Formal verification](https://en.wikipedia.org/wiki/Formal_verification))
     -   [Logic programming](https://en.wikipedia.org/wiki/Logic_programming)
@@ -994,9 +952,7 @@ He is alo True now
     -   [Concurrency theory](https://en.wikipedia.org/wiki/Concurrency_(computer_science)#Theory)
 -   [VLSI design](https://en.wikipedia.org/wiki/Very-large-scale_integration)
 
-
-
-**Mathematics**
+## Mathematics
 
 [**Pure mathematics**](https://en.wikipedia.org/wiki/Pure_mathematics)
 -   [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic)and[Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
@@ -1064,8 +1020,6 @@ He is alo True now
     -   [Arithmetic combinatorics](https://en.wikipedia.org/wiki/Arithmetic_combinatorics)
     -   [Geometric number theory](https://en.wikipedia.org/wiki/Geometric_number_theory)
 
-
-
 [**Applied mathematics**](https://en.wikipedia.org/wiki/Applied_mathematics)
 -   [Approximation theory](https://en.wikipedia.org/wiki/Approximation_theory)
 -   [Combinatorics](https://en.wikipedia.org/wiki/Combinatorics)([outline](https://en.wikipedia.org/wiki/Outline_of_combinatorics))
@@ -1105,17 +1059,13 @@ He is alo True now
 -   [Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)
     -   [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)
 
-
-
-**Statistics**
+## Statistics
 -   [Astrostatistics](https://en.wikipedia.org/wiki/Astrostatistics)
 -   [Biostatistics](https://en.wikipedia.org/wiki/Biostatistics)
 
-
-
 # Applied Sciences
 
-**Engineering and technology (Applied Engineering)**
+## Engineering and technology (Applied Engineering)
 
 [**Chemical Engineering**](https://en.wikipedia.org/wiki/Chemical_engineering)
 -   [Bioengineering](https://en.wikipedia.org/wiki/Bioengineering)
@@ -1135,8 +1085,6 @@ He is alo True now
 -   [Thermodynamics](https://en.wikipedia.org/wiki/Thermodynamics)
 -   [Transport phenomena](https://en.wikipedia.org/wiki/Transport_phenomena)
 
-
-
 [**Civil Engineering**](https://en.wikipedia.org/wiki/Civil_engineering)
 -   [Coastal engineering](https://en.wikipedia.org/wiki/Coastal_engineering)
 -   [Earthquake engineering](https://en.wikipedia.org/wiki/Earthquake_engineering)
@@ -1153,16 +1101,12 @@ He is alo True now
 -   [Structural mechanics](https://en.wikipedia.org/wiki/Structural_mechanics)
 -   [Surveying](https://en.wikipedia.org/wiki/Surveying)
 
-
-
 [**Educational Technology**](https://en.wikipedia.org/wiki/Educational_technology)
 -   [Instructional design](https://en.wikipedia.org/wiki/Instructional_design)
     -   [Distance education](https://en.wikipedia.org/wiki/Distance_education)
     -   [Instructional simulation](https://en.wikipedia.org/wiki/Instructional_simulation)
 -   [Human performance technology](https://en.wikipedia.org/wiki/Human_performance_technology)
 -   [Knowledge management](https://en.wikipedia.org/wiki/Knowledge_management)
-
-
 
 [**Electrical Engineering**](https://en.wikipedia.org/wiki/Electrical_engineering)
 -   [Applied physics](https://en.wikipedia.org/wiki/Applied_physics)
@@ -1182,8 +1126,6 @@ He is alo True now
 -   [Semiconductors](https://en.wikipedia.org/wiki/Semiconductors)
 -   [Telecommunications engineering](https://en.wikipedia.org/wiki/Telecommunications_engineering)
 
-
-
 [**Materials Science and Engineering**](https://en.wikipedia.org/wiki/Materials_science)
 -   [Biomaterials](https://en.wikipedia.org/wiki/Biomaterials)
 -   [Ceramic engineering](https://en.wikipedia.org/wiki/Ceramic_engineering)
@@ -1194,8 +1136,6 @@ He is alo True now
 -   [Polymer engineering](https://en.wikipedia.org/wiki/Polymer_engineering)
 -   [Polymer science](https://en.wikipedia.org/wiki/Polymer_science)
 -   [Semiconductors](https://en.wikipedia.org/wiki/Semiconductors)
-
-
 
 [**Mechanical Engineering**](https://en.wikipedia.org/wiki/Mechanical_engineering)
 -   [Aerospace engineering](https://en.wikipedia.org/wiki/Aerospace_engineering)
@@ -1220,8 +1160,6 @@ He is alo True now
 -   [Robotics](https://en.wikipedia.org/wiki/Robotics)
 -   [Thermodynamics](https://en.wikipedia.org/wiki/Thermodynamics)
 -   [Vehicle engineering](https://en.wikipedia.org/wiki/Vehicle_engineering)
-
-
 
 [**Systems science**](https://en.wikipedia.org/wiki/Systems_science)
 -   [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
@@ -1274,9 +1212,7 @@ He is alo True now
     -   [World-systems theory](https://en.wikipedia.org/wiki/World-systems_theory)
 -   [Systems theory in anthropology](https://en.wikipedia.org/wiki/Systems_theory_in_anthropology)
 
-
-
-**Medicine and health (Applied Healthcare)**
+## Medicine and health (Applied Healthcare)
 -   [Alternative medicine](https://en.wikipedia.org/wiki/Alternative_medicine)
 -   [Clinical laboratory sciences](https://en.wikipedia.org/wiki/Clinical_laboratory_sciences)/[Clinical pathology](https://en.wikipedia.org/wiki/Clinical_pathology)/[Laboratory medicine](https://en.wikipedia.org/wiki/Laboratory_medicine)
     -   [Clinical biochemistry](https://en.wikipedia.org/wiki/Clinical_biochemistry)
@@ -1370,9 +1306,7 @@ He is alo True now
     -   [Andrology](https://en.wikipedia.org/wiki/Andrology)
 -   [Veterinary medicine](https://en.wikipedia.org/wiki/Veterinary_medicine)
 
-
-
-**References**
+## References
 
 [**https://en.wikipedia.org/wiki/Outline_of_academic_disciplines**](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines)
 

@@ -6,41 +6,31 @@ Modified: 2022-11-19 18:47:56 +0500
 
 ---
 
-**SELECT count(*) AS TOTALNUMBEROFTABLES FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'sttash_website_LIVE';**
+## SELECT count(*) AS TOTALNUMBEROFTABLES FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'sttash_website_LIVE';
 
-**# 20 Apr 2021 - 955**
+## # 20 Apr 2021 - 955
 
-**# 01/06/22 - 926**
+## # 01/06/22 - 926
 
-**# 20/07/22 - 927**
+## # 20/07/22 - 927
 
-
-
-**# Show all unused indexes**
+## # Show all unused indexes
 
 select count(*) from sys.schema_unused_indexes;
 
+## # show all unused tables
 
+## SHOW TABLE STATUS where `Rows` = 0;
 
-**# show all unused tables**
+## SHOW TABLE STATUS where `Rows` = 0;
 
-**SHOW TABLE STATUS where `Rows` = 0;**
+## # 37
 
+## SHOW TABLE STATUS where `Rows` < 5;
 
-
-**SHOW TABLE STATUS where `Rows` = 0;**
-
-**# 37**
-
-**SHOW TABLE STATUS where `Rows` < 5;**
-
-**# 101**
-
-
+## # 101
 
 show master status; #check binlog position
-
-
 
 SELECT @@TX_ISOLATION;
 
@@ -50,13 +40,9 @@ SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
 
 select event_name,current_alloc from sys.memory_global_by_current_bytes;
 
-
-
 show variables like '%binlog%';
 
 show variables like '%log_bin%';
-
-
 
 SELECT ( @@key_buffer_size
 
@@ -84,8 +70,6 @@ SELECT ( @@key_buffer_size
 
 ) / (1024 * 1024 * 1024) AS MAX_MEMORY_GB;
 
-
-
 SELECT
 
 r.trx_id waiting_trx_id,
@@ -110,26 +94,20 @@ INNER JOIN information_schema.innodb_trx r
 
 ON r.trx_id = w.requesting_trx_id;
 
-
-
-**Delete performance schema tables**
+## Delete performance schema tables
 
 call sys.ps_truncate_all_tables(true);
 
-
-
-**To get all tables with columnscolumnAorColumnBin the databaseYourDatabase:**
+## To get all tables with columnscolumnAorColumnBin the databaseYourDatabase:
 
 SELECT DISTINCT TABLE_NAME
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE COLUMN_NAME IN ('columnA','ColumnB')
 AND TABLE_SCHEMA='YourDatabase';
 
+## Sizing
 
-
-**Sizing**
-
-**# Table combined with index**
+## # Table combined with index
 
 SELECT
 
@@ -151,15 +129,11 @@ ORDER BY
 
 DESC;
 
-
-
 show indexes from <table_name>;
 
 SHOW EXTENDED INDEX FROM <table_name>;
 
-
-
-**# Different index sizes per table**
+## # Different index sizes per table
 
 SELECT database_name, table_name, index_name,
 
@@ -171,9 +145,7 @@ WHERE stat_name = 'size'
 
 ORDER BY size_in_gb DESC;
 
-
-
-**# Only index sizes**
+## # Only index sizes
 
 select table_schema as database_name,
 
@@ -191,9 +163,7 @@ and table_schema not in ('information_schema', 'sys',
 
 order by index_size desc;
 
-
-
-**# Get all FullText indexes**
+## # Get all FullText indexes
 
 SELECT TABLE_SCHEMA, TABLE_NAME
 
@@ -201,9 +171,7 @@ FROM information_schema.statistics
 
 WHERE index_type LIKE 'FULLTEXT%';
 
-
-
-**# defragmentation**
+## # defragmentation
 
 select table_name,
 
@@ -217,21 +185,15 @@ where round(data_free/1024/1024) > 500
 
 order by data_free_mb;
 
-
-
 OPTIMIZE TABLE sttash_website_LIVE.email_instance_moratorium;
 
-
-
-**Others**
+## Others
 
 SELECT date(create_date), COUNT(*) FROM userDeviceSms WHERE date(create_date) BETWEEN NOW() - INTERVAL 6 HOUR AND NOW()
 
 group by date(create_date)
 
 order by date(create_date);
-
-
 
 SELECT CONCAT(YEAR(create_date), " ",
 
@@ -246,8 +208,6 @@ GROUP BY YEAR(create_date),
 MONTH(create_date)
 
 ORDER BY YEAR(create_date) DESC, MONTH(create_date) DESC;
-
-
 
 SELECT
 
@@ -266,8 +226,6 @@ AND create_date BETWEEN NOW() - INTERVAL 6 HOUR AND NOW()
 group by customer_id, json_extract(template_data,'$.agent')
 
 ORDER BY count DESC;
-
-
 
 SELECT
 

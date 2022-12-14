@@ -8,17 +8,11 @@ Modified: 2022-01-05 23:50:55 +0500
 
 <https://dev.to/sm0ke/django-framework-popular-extensions-a-short-list-130>
 
-
-
-**Django Channels**
+## Django Channels
 
 Channels is a project that takes Django and extends its abilities beyond HTTP - to handle WebSockets, chat protocols, IoT protocols, and more. It's built on a Python specification called[ASGI](http://asgi.readthedocs.io/).
 
-
-
 It does this by taking the core of Django and layering a fully asynchronous layer underneath, running Django itself in a synchronous mode but handling connections and sockets asynchronously, and giving you the choice to write in either style.
-
-
 
 <https://realpython.com/getting-started-with-django-channels
 
@@ -28,17 +22,11 @@ It does this by taking the core of Django and layering a fully asynchronous laye
 
 <https://medium.com/@ksarthak4ever/django-websockets-and-channels-85b7d5e59dda>
 
-
-
-**Pinax**
+## Pinax
 
 Pinax is an open source ecosystem of reusable Django apps, themes, and starter project templates.
 
-
-
 It takes care of the things that many sites have in common so you can focus on what makes your site different.
-
-
 
 Pinax provides:
 -   Standard project layoutfor consistency and easy deployment
@@ -46,57 +34,35 @@ Pinax provides:
 -   Reusable appsproviding both back-end functionality and user-facing components
 -   Default templatesto enable quick prototyping
 
-
-
 <https://pinaxproject.com/pinax/what_is_pinax
 
-
-
-**Daphne**
+## Daphne
 
 Daphne is a HTTP, HTTP2 and WebSocket protocol server for[ASGI](https://github.com/django/asgiref/blob/master/specs/asgi.rst)and[ASGI-HTTP](https://github.com/django/asgiref/blob/master/specs/www.rst), developed to power Django Channels.
 
-
-
 It supports automatic negotiation of protocols; there's no need for URL prefixing to determine WebSocket endpoints versus HTTP endpoints.
-
-
 
 <https://github.com/django/daphne>
 
-
-
-**Django Keycloak**
+## Django Keycloak
 
 <https://django-keycloak.readthedocs.io/en/latest/index.html>
 
-
-
-**Django Cookiecutter**
+## Django Cookiecutter
 
 Cookiecutter Django is a framework for jumpstarting production-ready Django projects quickly.
 
-
-
 <https://github.com/pydanny/cookiecutter-django>
-
-
 
 [**https://github.com/jazzband/django-taggit**](https://github.com/jazzband/django-taggit)
 
 django-taggita simpler approach to tagging with Django. Add"taggit"to your INSTALLED_APPS then just add a TaggableManager to your model
 
-
-
 Comma seperate values
 
-
-
-**Cons**
+## Cons
 -   Can't control the quality of entries
 -   Can't select using view
-
-
 
 [**https://github.com/javrasya/django-river**](https://github.com/javrasya/django-river)
 
@@ -104,33 +70,23 @@ Django workflow library that supports on the fly changes
 
 <https://djangopackages.org/grids/g/workflow
 
-
-
 [**https://github.com/viewflow/viewflow**](https://github.com/viewflow/viewflow)
 
 Reusable workflow library for Django
-
-
 
 [**https://github.com/etianen/django-reversion**](https://github.com/etianen/django-reversion)
 
 django-reversion is an extension to the Django web framework that provides version control for model instances.
 
-
-
 <https://django-crispy-forms.readthedocs.io/en/latest
 
 django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will let you control the rendering behavior of your[Django](https://djangoproject.com/)forms in a very elegant and DRY way. Have full control without writing custom form templates. All this without breaking the standard way of doing things in[Django](https://djangoproject.com/), so it plays nice with any other form application.
-
-
 
 <https://django-haystack.readthedocs.io/en/v2.4.1/index.html>
 
 Haystack provides modular search for Django. It features a unified, familiar API that allows you to plug in different search backends (such as[Solr](http://lucene.apache.org/solr/),[Elasticsearch](http://elasticsearch.org/),[Whoosh](https://bitbucket.org/mchaput/whoosh/),[Xapian](http://xapian.org/), etc.) without having to modify your code.
 
-
-
-**Others**
+## Others
 
 django-admin-rangefilter==0.3.8 #for selecting date range in django admin site
 django-cors-headers==2.4.0
@@ -153,9 +109,7 @@ pyinotify==0.9.6
 
 <http://whitenoise.evans.io/en/stable
 
-
-
-**Tools**
+## Tools
 -   Django-debug-toolbar
 -   django-extensions
 -   django-import-export
@@ -180,7 +134,5 @@ Django model mixins and utilities
 -   drf-api-logger
 
 <https://pypi.org/project/drf-api-logger
-
-
 
 <https://viewflow.medium.com/top-102-most-downloaded-django-packages-in-2020-108f0cd372e7>

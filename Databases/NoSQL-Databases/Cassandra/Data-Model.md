@@ -7,22 +7,22 @@ Modified: 2020-01-07 22:00:50 +0500
 ---
 -   **Partition Key**
 -   **Clustering Key**
-**Querying Clustering Columns**
+## Querying Clustering Columns
 -   You must first provide a partition key
 -   Clustering columns can follow thereafter
 -   You can perform either equality (=) or range queries (<, >) on clustering columns
 -   All equality comparisions must come before inequality comparisions
 -   Since data is sorted on disk, range searches are a binary search followed by a linear read
-![C* Data Model Keyspace C lu n Famil Big Data Computing Column Famil ](media/Cassandra_Data-Model-image1.png)
+![image](media/Cassandra_Data-Model-image1.png)
 
-![C* Data Model (Contd.) Row K olumn Column Name Column Value (or Tombstone) Timestamp Time-to-live Big Data Computing Row Key, Column Name, Column Value types Column Name has comparator RowKey has partitioner Rows can have any number of columns - even in same column family Rows can have many columns Column Values can be omitted Time-to-live is useful! Tombstones ](media/Cassandra_Data-Model-image2.png)
+![image](media/Cassandra_Data-Model-image2.png)
 
-![C* Data Model: Writes- Mem CommitLog Row Bloom Filter Big Data Computing Insert into MemTable Dump to CommitLog o rea Very Fast! Blocks on CPU before 0/1! SSTable SSTable SSTable CQL ](media/Cassandra_Data-Model-image3.png)
+![image](media/Cassandra_Data-Model-image3.png)
 
-![C* Data Model: Reaßs Mem CommitLog Row Bloom Filter Big Data Computing Get values from Memtable Get values from row cache if present Otherwise check bloom filtKr to find appropriate SSTables Check Key Caché for fast SSTable Search Get values from SSTabIes Repopulate Row Cache Super Fast Col. retri al Fast row slicing SSIable STable STable ](media/Cassandra_Data-Model-image4.png)
+![image](media/Cassandra_Data-Model-image4.png)
 
-![C* Data Model: Reads (Contd.) Get values from Memtable Get values from row cache if present Otherwise check bloom filter to Mem find appropriate SSTables Table Check Key Cache for fast SSTable Search Get values from SSTabIes CommitLog Repopulate Row Cache Super Fast Col. retrieval Row Fast row slicing SSTable ey Bloom SSTable Filter SSTable Big Data Computing ](media/Cassandra_Data-Model-image5.png)
-**Bucketing**
+![image](media/Cassandra_Data-Model-image5.png)
+## Bucketing
 
 Bucketing is a strategy that lets us control how much data is stored in each partition as well as spread writes out to the entire cluster.
 To break up this big partition, we'll leverage our first form of bucketing. We'll break our partitions into smaller ones based on time window. The ideal size is going to keep partitions under 100MB. For example, one partition per sensor per day would be a good choice if we're storing 50-75MB of data per day. We could just as easily use week (starting from some epoch), or month and year as long as the partitions stay under 100MB. Whatever the choice, leaving a little headroom for growth is a good idea.

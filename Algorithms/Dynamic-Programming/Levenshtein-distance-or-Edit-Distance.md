@@ -8,8 +8,6 @@ Modified: 2019-01-21 22:58:11 +0500
 
 The Levenshtein Distance, or Edit Distance, is the amount by which two strings differ.
 
-
-
 There are 3 possible actions that can be applied on a character:
 
 1.  Addition (Insert)
@@ -18,8 +16,6 @@ There are 3 possible actions that can be applied on a character:
 
 3.  Modification (Replace)
 
-
-
-**References**
+## References
 
 <http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance

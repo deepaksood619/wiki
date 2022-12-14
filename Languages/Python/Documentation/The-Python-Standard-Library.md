@@ -6,7 +6,7 @@ Modified: 2021-07-07 23:15:04 +0500
 
 ---
 
-**Documentation**
+## Documentation
 -   The Python Standard Library - standard objects and modules
 -   The Python Language Reference - Formal definition of the language (syntax and semantics of the language)
 -   Python HowTos

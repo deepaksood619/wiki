@@ -7,13 +7,13 @@ Modified: 2020-02-23 00:03:31 +0500
 ---
 
 There are mainly three types of Datawarehouse Architectures: -
-**Single-tier architecture**
+## Single-tier architecture
 
 The objective of a single layer is to minimize the amount of data stored. This goal is to remove data redundancy. This architecture is not frequently used in practice.
-**Two-tier architecture**
+## Two-tier architecture
 
 Two-layer architecture separates physically available sources and data warehouse. This architecture is not expandable and also not supporting a large number of end-users. It also has connectivity problems because of network limitations.
-**Three-tier architecture**
+## Three-tier architecture
 
 This is the most widely used architecture.
 It consists of the Top, Middle and Bottom Tier.
@@ -23,10 +23,10 @@ a.  **Bottom Tier:**The database of the Datawarehouse servers as the bottom tier
 b.  **Middle Tier:**The middle tier in Data warehouse is an OLAP server which is implemented using either ROLAP or MOLAP model. For a user, this application tier presents an abstracted view of the database. This layer also acts as a mediator between the end-user and the database.
 
 c.  **Top-Tier:**The top tier is a front-end client layer. Top tier is the tools and API that you connect and get data out from the data warehouse. It could be Query tools, reporting tools, managed query tools, Analysis tools and Data mining tools.
-**Architecture Components**
+## Architecture Components
 
-![Data Warehouse Architecture Components](media/Data-Warehousing_Architecture-image1.png)
-**Data Warehouse Tech Stack**
+![image](media/Data-Warehousing_Architecture-image1.png)
+## Data Warehouse Tech Stack
 
 <table>
 <colgroup>

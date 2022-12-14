@@ -14,25 +14,17 @@ Modified: 2021-03-20 13:29:38 +0500
 
 pip install PyMySQL==0.9.3
 
-
-
-**Connections Object**
+## Connections Object
 
 <https://pymysql.readthedocs.io/en/latest/modules/connections.html>
 
-
-
-**Cursors Object**
+## Cursors Object
 
 <https://pymysql.readthedocs.io/en/latest/modules/cursors.html>
 
-
-
-**Getting Started**
+## Getting Started
 
 import pymysql.cursors
-
-
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
@@ -41,8 +33,6 @@ password='passwd',
 db='db',
 charset='utf8mb4',
 cursorclass=pymysql.cursors.DictCursor)
-
-
 
 try:
 with connection.cursor() as cursor:
@@ -53,13 +43,9 @@ sql = "INSERT INTO `users` (`email`, `password`) VALUES (%s, %s)"
 
 cursor.execute(sql, ('webmaster@python.org', 'very-secret'))
 
-
-
 # connection is not autocommit by default. So you must commit to save your changes.
 
 connection.commit()
-
-
 
 with connection.cursor() as cursor:
 # Read a single record
@@ -71,99 +57,81 @@ print(result)
 finally:
 connection.close()
 
-
-
-**Filter warnings**
+## Filter warnings
 
 import warnings
 
 warnings.filterwarnings("ignore")
 
-
-
-**Connection Pooling**
+## Connection Pooling
 
 <https://pythontic.com/database/mysql/connection%20pooling>
 
+## # Singleton Class
 
+## import pymysql.cursors
 
-**# Singleton Class**
+## import logging
 
-**import pymysql.cursors**
+## from constants import (
 
-**import logging**
+## AURORA_DB_DBNAME,
 
+## AURORA_DB_HOST,
 
+## AURORA_DB_PASSWORD,
 
-**from constants import (**
+## AURORA_DB_USER,
 
-**AURORA_DB_DBNAME,**
+## AWS_ACCESS_KEY_ID,
 
-**AURORA_DB_HOST,**
+## AWS_SECRET_ACCESS_KEY,
 
-**AURORA_DB_PASSWORD,**
+## DEBUG,
 
-**AURORA_DB_USER,**
+## )
 
-**AWS_ACCESS_KEY_ID,**
+## mysql_conn = None
 
-**AWS_SECRET_ACCESS_KEY,**
+## def getdb():
 
-**DEBUG,**
+## global mysql_conn
 
-**)**
+## if not mysql_conn:
 
+## try:
 
+## mysql_conn = pymysql.connect(
 
-**mysql_conn = None**
+## host=AURORA_DB_HOST,
 
+## user=AURORA_DB_USER,
 
+## password=AURORA_DB_PASSWORD,
 
-**def getdb():**
+## db=AURORA_DB_DBNAME,
 
-**global mysql_conn**
+## charset="utf8mb4",
 
-**if not mysql_conn:**
+## cursorclass=pymysql.cursors.DictCursor,
 
-**try:**
+## )
 
-**mysql_conn = pymysql.connect(**
+## except Exception as e:
 
-**host=AURORA_DB_HOST,**
+## logging.exception(f"Some error in establishing mysql connection.")
 
-**user=AURORA_DB_USER,**
+## raise e
 
-**password=AURORA_DB_PASSWORD,**
+## return mysql_conn
 
-**db=AURORA_DB_DBNAME,**
-
-**charset="utf8mb4",**
-
-**cursorclass=pymysql.cursors.DictCursor,**
-
-**)**
-
-**except Exception as e:**
-
-**logging.exception(f"Some error in establishing mysql connection.")**
-
-**raise e**
-
-**return mysql_conn**
-
-
-
-**DBClass**
+## DBClass
 
 import sys
 import pymysql
 import logging
 
-
-
 class Database:
-
-
 
 def __init__(self, config):
 self.host = config.db_host
@@ -172,8 +140,6 @@ self.password = config.db_password
 self.port = config.db_port
 self.dbname = config.db_name
 self.conn = None
-
-
 
 def open_connection(self):
 """Connect to MySQL Database."""
@@ -189,8 +155,6 @@ logging.error(e)
 sys.exit()
 finally:
 logging.info('Connection opened successfully.')
-
-
 
 def run_query(self, query):
 """Execute SQL query."""
@@ -219,8 +183,6 @@ self.conn.close()
 self.conn = None
 logging.info('Database connection closed.')
 
-
-
 class PostgresClient:
 
 host: str
@@ -237,8 +199,6 @@ password: str
 
 conn = None
 
-
-
 def __init__(self, host, database_name, port, username,
 
 password):
@@ -252,8 +212,6 @@ self.port = port
 self.username = username
 
 self.password = password
-
-
 
 def connect(self):
 
@@ -275,11 +233,7 @@ except Exception as e:
 
 logger.error(f"Couldn't connect to the db {self.host}- {e}")
 
-
-
 return False
-
-
 
 def insert(self, insert_strings: list, record_to_insert: tuple):
 
@@ -299,8 +253,6 @@ self.conn.commit()
 
 cur.close()
 
-
-
 def close(self):
 
 if self.conn:
@@ -309,33 +261,21 @@ self.conn.close()
 
 self.conn = None
 
-
-
 <https://hackersandslackers.com/python-mysql-pymysql
 
 <https://medium.com/@vipinc.007/python-a-database-interaction-class-using-pymysql-3338fb90f38c>
 
-
-
-**Others**
+## Others
 
 <https://pypi.org/project/mysql-connector-python
 
-
-
-**psycopg2**
+## psycopg2
 
 Psycopg is the most popular PostgreSQL database adapter for the Python programming language. Its main features are the complete implementation of the Python DB API 2.0 specification and the thread safety (several threads can share the same connection). It was designed for heavily multi-threaded applications that create and destroy lots of cursors and make a large number of concurrent "INSERT"s or "UPDATE"s.
 
-
-
 Psycopg 2 is mostly implemented in C as a libpq wrapper, resulting in being both efficient and secure. It features client-side and server-side cursors, asynchronous communication and notifications, "COPY TO/COPY FROM" support. Many Python types are supported out-of-the-box and adapted to matching PostgreSQL data types; adaptation can be extended and customized thanks to a flexible objects adaptation system.
 
-
-
 Psycopg 2 is both Unicode and Python 3 friendly.
-
-
 
 <https://pypi.org/project/psycopg2-binary
 

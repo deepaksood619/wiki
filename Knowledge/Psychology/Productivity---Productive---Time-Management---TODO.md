@@ -28,69 +28,37 @@ Modified: 2022-09-10 11:49:44 +0500
 
 10. One New Experience Each Week
 
-
-
 <https://www.scotthyoung.com/blog/2020/09/07/beyond-self-improvement
-
-
 
 Focus on being productive instead of being busy. -- Tim Ferriss
 
-
-
 Motion does not equal action. Busyness does not equal effectiveness.
-
-
 
 Bekaar aadmi kuch kiya kar... Kapde udherkar siya kar...
 
+## Process based vs outcome based
 
-
-**Process based vs outcome based**
-
-
-
-**OHIO principle**, also known as "Only Handle it Once."
-
-
+## OHIO principle, also known as "Only Handle it Once."
 
 The secret to being productive is to work on the right thing---even if it's at a slow pace.
 
-
-
 Fight procrastination with mini-deadlines that hold you accountable.
-
-
 
 Quickly handle low-priority tasks by keeping your perfectionism at bay.
 
-
-
 Time famine - People not having enough time for Doctor, Health, etc
-
-
 
 The biggest risk to productivity is always the same: working on the wrong thing.
 
-
-
 Bekaar Aadmi Kuch Kiya Kar ... Kapde Udherkar Siya Kar
 
-
-
 One thing that you cannot recycle is wasted time
-
-
 
 Think about what you want today and you'll spend your time.
 
 Think about what you want in 5 years and you'll invest your time.
 
-
-
 Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort.
-
-
 
 Two truths that can be at odds:
 
@@ -99,8 +67,6 @@ Two truths that can be at odds:
 2) There is a lot to be gained in life by acting fast and giving your best effort.
 
 Don't let the excuse of searching for a better way prevent you from taking action.
-
-
 
 "Sometimes the most productive thing you can do is eliminate the task.
 
@@ -112,42 +78,30 @@ Delete. The projects you don't take on, don't need to be finished.
 
 Is this a problem that needs to be solved? Or is it a problem that can be eliminated all together?"
 
-
-
 "It is wonderful how much work can be got through in a day, if we go by the rule---map out our time, divide it off, and take up one thing regularly after another. To drift through our work, or to rush through it in a helter-skelter fashion, ends in comparatively little being done. "One thing at a time" will always perform a better day's work than doing two or three things at a time. By following this rule, one person will do more in a day than another does in a week."
 
-![--- Ηοω ΜΕ ε•τιΝς 17 ΑατυΑΙΙΥ ΟΝ το K DE5k 70 MESSASE ς ](media/Productivity---Productive---Time-Management---TODO-image1.jpg)
+![image](media/Productivity---Productive---Time-Management---TODO-image1.jpg)
 
-
-
-**MIT Technique**
+## MIT Technique
 
 A Most Important Task (MIT) is a critical task that will create the most significant results. Every day, create a list of two or three M.I.T.s, and focus on getting them done as soon as possible. Keep this list separate from your general to-do list. -[The PersonalMBA](https://personalmba.com/most-important-tasks/)
 
-
-
-**Mental Models**
+## Mental Models
 -   (1)[Makers vs Manager's Schedule](http://www.paulgraham.com/makersschedule.html)--- "When you're operating on the maker's schedule, meetings are a disaster." (related:[Deep Work](http://knowledge.wharton.upenn.edu/article/deep-work-the-secret-to-achieving-peak-productivity/))
 -   (2)[Murphy's Law](https://en.wikipedia.org/wiki/Murphy%27s_law)--- "Anything that can go wrong, will." (related:[Hofstadter's Law](https://en.wikipedia.org/wiki/Hofstadter%27s_law), "It always takes longer than you expect, even when you take into account Hofstadter's Law.")
 -   (3)[Parkinson's Law](https://en.wikipedia.org/wiki/Parkinson%27s_law)--- "Work expands so as to fill the time available for its completion."
 -   (3) Gate's Law --- "Most people overestimate what they can do in one year and underestimate what they can do in ten years."
 
-
-
-**Books**
+## Books
 -   **The Productivity Project -- Chris Bailey**
 
-
-
-**Blinkist - The 12 Week Year by Brian P. Moran**
+## Blinkist - The 12 Week Year by Brian P. Moran
 
 Get more done in 12 weeks than others do in 12 months
 
 Plan around a 12-week period, execute tasks and radically improve results
 
-
-
-**Choosing a productivity system**
+## Choosing a productivity system
 
 1.  Your system needs to fit your work (not the other way around)
 
@@ -163,13 +117,9 @@ Plan around a 12-week period, execute tasks and radically improve results
 
 7.  A system cannot give your work meaning or motivation.
 
-
-
 <https://www.scotthyoung.com/blog/2020/04/27/productivity-rules
 
-
-
-**Productivity**
+## Productivity
 
 1.  Do the #1 Most Important Task At The Start of the Day
 
@@ -193,31 +143,19 @@ Plan around a 12-week period, execute tasks and radically improve results
 
 11. Realize You Control Your Time and Simplify Your Calendar
 
-
-
-**Planning**
+## Planning
 
 The 10% Rule: Taking Planning Seriously
 
-
-
 The first step to becoming a better planner is simply to set aside more time for it. Since we're evolved to be seat-of-our-pants doers, not patient planners, we need to counteract that urge by forcing ourselves to map out the path ahead.
-
-
 
 Informally, I like to follow the 10% Rule, which says that you should spend, roughly 10% of the total time you anticipate for a project on planning the project. So if you were going to spend 100 hours on a project, you should spend about 10 hours planning it.
 
-
-
 At first this seems crazy large. And, admittedly, this rule can be reduced for longer projects (especially those that might need intermediate planning as you learn more). Yet, for new project types where you lack experience, the time spent planning is often the most valuable.
-
-
 
 <https://www.scotthyoung.com/blog/2020/12/07/planning
 
-
-
-**Blinkist - Off the Clock by Laura Vanderkam - Feel less busy while getting more done (23 June 2018)**
+## Blinkist - Off the Clock by Laura Vanderkam - Feel less busy while getting more done (23 June 2018)
 -   Learn exactly what you're doing with your time, even if it scares you, by keeping a log
 -   Make your hours memorable by filling them with exciting moments
 -   Our own insecurities keep us constantly busy, so learn to free up your calendar
@@ -231,15 +169,11 @@ At first this seems crazy large. And, admittedly, this rule can be reduced for l
     -   Slow down
     -   Put friends on your calendar
 
+## Blinkist - Get your shit together by Sarah Knight (2 Jan 2019)
 
+![image](media/Productivity---Productive---Time-Management---TODO-image2.png)
 
-**Blinkist - Get your shit together by Sarah Knight (2 Jan 2019)**
-
-![Get Your Sh*t Together: How to Stop Worrying About What You Should Do So You Can Finish What You Need to Do and S... | Sarah knight, How are you feeling, You](media/Productivity---Productive---Time-Management---TODO-image2.png)
-
-
-
-**Blinkist - The Organized Mind by Daniel Levitin (3 Jan 2019)**
+## Blinkist - The Organized Mind by Daniel Levitin (3 Jan 2019)
 
 Thinking straight in the age of information overload
 -   The brain can only focus on a limited number of stimuli at a time
@@ -261,9 +195,7 @@ Thinking straight in the age of information overload
 -   Eat a diet that's got enough protein to help neurons function properly --cellular housekeeping
 -   Try to avoid complacency, seek out the novel, seek out the new, that's the way to stay young.
 
-
-
-**Blinkist - 5 Gears: How to Be Present and Productive When There is Never Enough Time by Jeremie Kubicek, Steve Cockram (7 Jan 2019)**
+## Blinkist - 5 Gears: How to Be Present and Productive When There is Never Enough Time by Jeremie Kubicek, Steve Cockram (7 Jan 2019)
 -   **First gear -** when you fully rest and recharge (Learning to recharge)
 -   **Second gear -** when you connect with family or friends without the involvement of work (Connecting deeply)
 -   **Third gear -** when you are socializing (Why being social matters)
@@ -271,25 +203,17 @@ Thinking straight in the age of information overload
 -   **Fifth gear -** when you are fully focused and 'in the zone,' working without interruption (In the Zone)
 -   **Reverse -** Being responsive in a resistant world
 
-
-
-**Blinkist - First Things First by [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey), A. Roger Merrill, and Rebecca R. Merrill (9 Jan 2019)**
+## Blinkist - First Things First by [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey), A. Roger Merrill, and Rebecca R. Merrill (9 Jan 2019)
 
 The book asserts that there are three generations of[time management](https://en.wikipedia.org/wiki/Time_management): first-generation[task lists](https://en.wikipedia.org/wiki/Time_management#Task_list), second-generation[personal organizers](https://en.wikipedia.org/wiki/Personal_organizer)with deadlines and third-generation[values clarification](https://en.wikipedia.org/wiki/Value_(personal_and_cultural))as incorporated in the[Franklin Planner](https://en.wikipedia.org/wiki/Franklin_Planner). Using the analogy of "the[clock](https://en.wikipedia.org/wiki/Clock)and the[compass](https://en.wikipedia.org/wiki/Compass)," the authors assert that identifying primary[roles](https://en.wikipedia.org/wiki/Role)and principles provides a "true north" and reference when deciding what activities are most important, so that decisions are guided not merely by the "clock" of scheduling but by the "compass" of purpose and values. Asserting that people have a need "to live, to love, to learn, and to leave a legacy" they propose moving beyond "urgency" (not the same as the[quadrant II](https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Cartesian_coordinates_in_two_dimensions)in a Cartesian coordinate system).
-
-
 
 Important items are identified by focusing on a few key priorities and roles which will vary from person to person, then identifying small goals for each role each week, in order to maintain a[holistic life balance](https://en.wikipedia.org/wiki/Holistic_health). One tool for this is a worksheet that lists up to seven key roles, with three weekly goals per role, to be evaluated and scheduled into each week before other appointments occupy all available time with things that seem urgent but are not important. This concept is illustrated with a story that encourages people to "place the big rocks first."
 
 [Delegation](https://en.wikipedia.org/wiki/Delegation)is presented as an important part of time management. Successful delegation, according to Covey, focuses on results and benchmarks that are to be agreed in advance, rather than on prescribing detailed work plans.
 
-
-
 <https://en.wikipedia.org/wiki/First_Things_First_(book)>
 
-
-
-**Blinkist - 5 AM Club by Robin Sharma (15 Feb 2019)**
+## Blinkist - 5 AM Club by Robin Sharma (15 Feb 2019)
 
 Own your Morning. Elevate your Life
 -   The solitude and enhanced brain state that you'll experience at 5 a.m. will help you peform like the elite
@@ -319,9 +243,7 @@ Own your Morning. Elevate your Life
 -   Embracing sleep and the "twin-cycle of elite performance" is essential to maximizing the potential of the 5am club
 -   When you wake up, jump out of bed immediately, before the weaker part of our character can come up with reasons to stay under the duvet
 
-
-
-**Blinkist - Great at Work by Morten T. Hansen**
+## Blinkist - Great at Work by Morten T. Hansen
 
 How top performers do less, work better, and achieve more
 -   Mastering your own work
@@ -341,9 +263,7 @@ How top performers do less, work better, and achieve more
     -   The two sins of collaboration
 -   Master your work-life
 
-
-
-**Blinkist - Game Changers by Dave Asprey (6 May 2019)**
+## Blinkist - Game Changers by Dave Asprey (6 May 2019)
 
 What Leaders, Innovators, and Mavericks do to win at life
 -   **Biohacking -** Intentionally manipulating your biology to bring body and mind into better harmony with each other and our goals
@@ -397,9 +317,7 @@ What Leaders, Innovators, and Mavericks do to win at life
 -   Stop using the word **can't**
     -   If you say you can't do something, your subconscious will interpret this quite literally and it will give up, since there's no point trying to do something that you can't do.
 
-
-
-**168 Hours By Laura Vanderkam**
+## 168 Hours By Laura Vanderkam
 
 You Have More Time Than You Think
 -   You're not too busy -- you're just not in control of your time.
@@ -418,9 +336,7 @@ You Have More Time Than You Think
 -   Actionable advice: Win family time by creating a mini night shift.
     -   Working parents often find it difficult to spend time with their children during the week. Overcome this by blocking out 5:00 p.m. to 8:00 p.m. in your calendar every weeknight -- and view this as sacred family time. Counter your shorter day at the office by working from 8:00 p.m. to 10:00 p.m. a few nights a week. By doing this, you'll maximize your time together while the kids are still awake. Otherwise, you're more likely to waste your evening leisure time in front of the TV.
 
-
-
-**Getting Things Done (CPR - Capture Process Review)**
+## Getting Things Done (CPR - Capture Process Review)
 
 [GETTING THINGS DONE by David Allen | Core Message (Remastered)](https://youtu.be/4aD8WG49PY4)
 
@@ -483,9 +399,7 @@ You Have More Time Than You Think
     -   People also tend to underestimate how long a task takes.
 -   **create a fresh list for each day**
 
-
-
-**Primed to Perform by Neel Doshi & Lindsay McGregor (29 Sep 2018)**
+## Primed to Perform by Neel Doshi & Lindsay McGregor (29 Sep 2018)
 
 Direct Motives
 
@@ -495,8 +409,6 @@ Direct Motives
 
 3.  Potential
 
-
-
 Indirect Motives
 
 1.  Emotional Pressure
@@ -504,8 +416,6 @@ Indirect Motives
 2.  Economic Pressure
 
 3.  Inertia
-
-
 
 Performance measurement
 
@@ -517,9 +427,7 @@ How good you are to execute plans
 
 Create new plans
 
-
-
-**Performance motivation effects**
+## Performance motivation effects
 
 1.  Distraction effect
 
@@ -535,17 +443,11 @@ Bonuses are outdated in the age of knowledge work
 
 Indian cobra farms released when wrong attribute was incentivised
 
-
-
-**Emergence**
+## Emergence
 
 Emergence occurs when the individual components of a collective are able to organise themselves into a system that is far more complicated than the sum of its parts. (Termites)
 
-
-
 Philosophy is the root of knowledge
-
-
 
 Blame bias - REAP model of feedback
 
@@ -557,36 +459,26 @@ Blame bias - REAP model of feedback
 
 4.  Plan (together)
 
-
-
 The most powerful personal antidote is to come up with five alternative explanations for the behaviour that do not assume a problem with the person.
 
-
-
-**Building high ToMo cultures**
+## Building high ToMo cultures
 
 In God we trust; all others must bring data.
 
-
-
-**Managers must be Fire starters**
+## Managers must be Fire starters
 
 Example - Starbucks where everyone is allowed to make decisions.
 -   Great leaders inspire curiousity and encourage experimentation
 -   Helps you to see your work is important and meaningful
 -   Actively links the work to your personal goals
 
-
-
-**Behavioural Code**
+## Behavioural Code
 -   Uphold the obligation to dissent
 -   Do what you don't like for 5 minutes before rejecting it. You will surely like it after doing for 5 minutes.
 -   Follow the process
 -   You cannot tell the people that your identity is genuine, they have to feel it.
 
-
-
-**Job roles that increase ToMo must have -**
+## Job roles that increase ToMo must have -
 
 1.  Theory of impact (end-to-end experience and see the impact that your work make)
 
@@ -598,48 +490,28 @@ Example - Starbucks where everyone is allowed to make decisions.
 
 5.  Reflection
 
-
-
 1.  **The Hunting Party**
     -   **Free riders (who don't work if the team size is large and try to hide in the crowd)**
 
-
-
-**Principles by Ray Dalio (Amarjeet)**
+## Principles by Ray Dalio (Amarjeet)
 
 [Principles For Success by Ray Dalio (In 30 Minutes)](https://youtu.be/B9XGUpQZY38)
 
-
-
 Since the same kinds of things happen over and over again, in your life, a relatively few well-thought-out principles will allow you to deal with just about anything that reality throws at you. Where you get these principles from doesn't matter as much as having them and using them consistently---and that you never stop refining and improving them.
-
-
 
 To acquire principles that work, it's essential that you embrace reality and deal with it well. Don't fall into the common trap of wishing that reality worked differently than it does or that your own realities were different. Instead, embrace your realities and deal with them effectively. After all, making the most of your circumstances is what life is all about. This includes being transparent with your thoughts and open-mindedly accepting the feedback of others. Doing so will dramatically increase your learning.
 
-
-
 Along your journey you will inevitably experience painful failures. It is important to realize that they can either be the impetus that fuels your personal evolution or they can ruin you, depending on how you react to them. I believe that evolution is the greatest force in the universe and that we all evolve in basically the same way. Conceptually, it looks like a series of loops that either lead upward toward constant improvement or remain flat or even trend downward toward ruin. You will determine what your own loops look like.
-
-
 
 Your evolutionary process can be described as a 5-Step Process for getting what you want. It consists of setting goals, identifying and not tolerating problems, diagnosing problems, coming up with designs to get around them, and then doing the tasks required. The important thing to remember is that no one can do all the steps well, but that it's possible to rely on others to help. Different people with different abilities working well together create the most powerful machines to produce achievements.
 
-
-
 If you're willing to confront reality, accept the pain that comes with doing so, and follow the 5-Step Process to drive yourself toward your goals, you're on the path to success. Yet most people fail to do this because they hold on to bad opinions that could easily be rectified by going above themselves to objectively look down at their situation and weigh what they and others think about it. It's for that reason I believe you must be radically open-minded.
 
-
-
 Our biggest barriers for doing this well are our ego barrier and our blind spot barrier. The ego barrier is our innate desire to be capable and have others recognize us as such. The blind spot barrier is the result of our seeing things through our own subjective lenses; both barriers can prevent us from seeing how things really are. The most important antidote for them is radical open-mindedness, which is motivated by the genuine worry that one might not be seeing one's choices optimally. It is the ability to effectively explore different points of view and different possibilities without letting your ego or your blind spots get in your way. Doing this well requires practicing thoughtful disagreement, which is the process of seeking out brilliant people who disagree with you in order to see things through their eyes and gain a deeper understanding. Doing this will raise your probability of making good decisions and will also give you a fabulous education.
-
-
 
 If you can learn radical open-mindedness and practice thoughtful disagreement, you'll radically increase your learning. Finally, being radically open-minded requires you to have an accurate self-assessment of your own and others' strengths and weaknesses. This is where understanding something about how the brain works and the different psychometric assessments that can help you discover what your own brain is like comes in. To get the best results out of yourself and others, you must understand that people are wired very differently.
 
 In a nutshell, learning how to make decisions in the best possible way and learning to have the courage to make them comes from a) going after what you want, b) failing and reflecting well through radical open-mindedness, and c) changing/evolving to become ever more capable and less fearful.
-
-
 
 Some more granular principles for how to do all of the above and weigh your options in specific situations to determine the right path to follow are listed below.
 
@@ -703,13 +575,9 @@ Never seize on the first available option, no matter how good it seems, before y
 
 10. Convert your principles into algorithms and have the computer make decisions alongside you. The process of man's mind working with technology is what elevates us - its what has taken us from an economy where most people dig in the dirt to today's information age. Its for that reason that people who have common sense, imagination and determination, who knows what they value and what they want, and who also use computers, math, and game theory are the best decision makers there are.
 
-
-
 You can of course do all of these things alone, but if you've understood anything about the concept of radical open-mindedness, it should be obvious that going it alone will only take you so far. We all need others to help us triangulate and get to the best possible decisions---and to help us see our weaknesses objectively and compensate for them. More than anything else, your life is affected by the people around you and how you interact with each other. Your ability to get what you want when working with others who want the same things is much greater than your ability to get these things by yourself.
 
-
-
-**The 4-Hour Workweek by Tim Ferriss**
+## The 4-Hour Workweek by Tim Ferriss
 -   Aim high so you can create your own reality and write your own rules.
 -   Step outside of your comfort zone and take action now.
 -   Try to gain the freedom of remote working within your current job.
@@ -735,11 +603,9 @@ You can of course do all of these things alone, but if you've understood anythin
 -   The worst-case scenario from making a decision is usually not as bad as you think.
 -   Five steps to independence: 1) start with a full time 9--5 job; 2) move to a full time remote 9--5 job; 3) gain efficiency to reduce 9--5 tasks to 9--1; 4) use other time to automate alternative income; 5) quit old job and live on alternative income.
 
+## The Lazy Genius Way by Kendra Adachi
 
-
-**The Lazy Genius Way by Kendra Adachi**
-
-**Embrace what matters, ditch what doesn't, and get stuff done**
+## Embrace what matters, ditch what doesn't, and get stuff done
 -   What's in it for me? Learn how to focus on the things that actually matter
 -   Being a perfectionist is exhausting and lonely -- but there is another way
 -   Real transformation happens in small steps
@@ -750,9 +616,7 @@ You can of course do all of these things alone, but if you've understood anythin
 -   We can't escape difficult situations, but we can change how we respond to them
 -   We need to become our own best friends -- and then allow other people in
 
-
-
-**Negotiation Tips / Leverage**
+## Negotiation Tips / Leverage
 
 You want leverage.
 -   The person who creates more value has leverage.
@@ -763,29 +627,17 @@ You want leverage.
 -   The person who everyone likes and wants to work with has leverage.
 -   The person who asks for more, gets more.
 
-
-
 And finally, most negotiations are not one-time affairs. The person people continue to like at the end of this negotiation is in a better position for the next one.
-
-
 
 Many people work hard, but few people work on the highest and best thing.
 
-
-
 Usually, it takes no more effort to work on high leverage tasks than it does to work on low leverage ones.
 
-
-
 It's just a matter of directing your energy.
-
-
 
 Investor and entrepreneurNaval Ravikanton the importance of leverage:
 
 "Humans evolved in societies where there was no leverage. If I was chopping wood or carrying water for you, you knew eight hours put in would be equal to about eight hours of output. Now we've invented leverage... As a worker, you want to be as leveraged as possible so you have a huge impact without as much time or physical effort.
-
-
 
 A leveraged worker can out-produce a non-leveraged worker by a factor of one thousand or ten thousand. With a leveraged worker, judgment is far more important than how much time they put in or how hard they work.
 
@@ -796,7 +648,7 @@ What you want in life is to be in control of your time. You want to get into a l
 
 -   (1)[Focus on High-leverage Activities](https://www.quora.com/Whats-the-single-most-valuable-lesson-youve-learned-in-your-professional-life)--- "Leverage should be the central, guiding metric that helps you determine where to focus your time." (related:[Eisenhower decision matrix](http://www.artofmanliness.com/2013/10/23/eisenhower-decision-matrix/)--- "**what is important is seldom urgent, and what is urgent is seldom important**.", "The best time to plant a tree was 20 years ago. The second best time is now.",[law of triviality](https://en.wikipedia.org/wiki/Law_of_triviality)--- "members of an organisation give disproportionate weight to trivial issues.")
 
-**Eisenhower Matrix**
+## Eisenhower Matrix
 
 ![](media/Productivity---Productive---Time-Management---TODO-image3.png)
 
@@ -808,17 +660,11 @@ What you want in life is to be in control of your time. You want to get into a l
 
 4.  Not Urgent & Not Important
 
-
-
 ![jp-kantor](media/Productivity---Productive---Time-Management---TODO-image4.png)
 
-
-
-**Blinkist - The Slight Edge**
+## Blinkist - The Slight Edge
 
 Turning Simple Disciplines into Massive Success and Happiness
-
-
 
 The Slight Edge(2005) explores the power of all the small choices we make every day. Far from being insignificant, they are a step in our journey toward success or failure.
 
@@ -848,8 +694,6 @@ The Slight Edge(2005) explores the power of all the small choices we make every 
 -   **Actionable advice: Surround yourself with successful people**
     -   You may have heard the saying, "Birds of a feather flock together." They do that because they're all heading in the same direction. Similarly, if you want to achieve success, look at the people around you and ask where they're heading. Those around us rub off on us. So if your closest connections are heading for failure, you'll end up there, too. But if they're on the path to success, that will also be your destination.
 
-
-
 Organize Tomorrow Today by Jason Selk & Tom Bartow
 -   Highly successful people rarely complete everything they want to do in a given day, but they always get the most important things done each day.
 
@@ -878,13 +722,9 @@ Organize Tomorrow Today by Jason Selk & Tom Bartow
 
 -   Make each day your masterpiece
 
-
-
 [ORGANIZE TOMORROW TODAY by Jason Selk & Tom Bartow | Core Message](https://youtu.be/yRLEr69qPd4)
 
-
-
-**Chunking**
+## Chunking
 
 1.  Start by capturing
 
@@ -894,21 +734,15 @@ Organize Tomorrow Today by Jason Selk & Tom Bartow
 
 4.  Take action
 
-
-
 <https://www.tonyrobbins.com/productivity-performance/power-of-chunking
 
-
-
-**Resources**
+## Resources
 
 <https://www.freecodecamp.org/news/how-to-get-things-done-lessons-in-productivity
 
 <https://deepstash.com/article/1700/23-time-management-techniques-of-insanely-busy-people>
 
 <https://www.youtube.com/watch?v=fBr8BKPW5tc>
-
-
 
 <https://medium.com/swlh/the-5-most-productive-things-to-do-when-youre-too-tired-to-work-4157efe9091b>
 
@@ -917,7 +751,5 @@ Organize Tomorrow Today by Jason Selk & Tom Bartow
 <https://www.productivitygame.com
 
 [Personal Productivity](https://www.youtube.com/watch?v=-f3dNkkFBvM)
-
-
 
 

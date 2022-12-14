@@ -6,17 +6,13 @@ Modified: 2020-09-24 00:18:15 +0500
 
 ---
 
-**Logging**
+## Logging
 
 <https://codeigniter.com/user_guide/general/logging.html>
 
 <https://www.loggly.com/ultimate-guide/php-logging-basics
 
-
-
 log_message('error', 'Some variable did not contain a value.');
-
-
 
 | **Level**     | **Description**                                                                                                                                               |
 |------------|------------------------------------------------------------|
@@ -29,9 +25,7 @@ log_message('error', 'Some variable did not contain a value.');
 | **alert**     | Action must be taken immediately, like when an entire website is down, the database unavailable, etc.                                                         |
 | **emergency** | The system is unusable.                                                                                                                                       |
 
-
-
-**Swagger**
+## Swagger
 
 [Swagger Update In Codeigniter With Rest API || By Unknown Tech](https://www.youtube.com/watch?v=xta65r12mg8&ab_channel=UnknownTech)
 
