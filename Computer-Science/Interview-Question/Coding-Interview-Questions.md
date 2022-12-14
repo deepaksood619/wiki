@@ -58,7 +58,8 @@ n = len(string)
 a = list(string)
 
 permute(a, 0, n-1)
-**# 2 Java**
+
+## 2 Java
 
 void func(String str) {
 
@@ -84,12 +85,15 @@ func(rem, prefix + str.charAt( i ));
 }
 
 }
-**# 3 Python library functions**
+
+## 3 Python library functions
+```
     from itertools import permutations
 
     len(list(permutations('abcde', 5)))
+```
 
-**Others**
+## Others
 -   <https://www.geeksforgeeks.org/split-the-given-array-into-k-sub-arrays-such-that-maximum-sum-of-all-sub-arrays-is-minimum>
 -   <https://practice.geeksforgeeks.org/problems/lru-cache/1>-   **Interview (medium difficulty) - <https://practice.geeksforgeeks.org/problems/largest-even-number3821/1#_=_>**
 -   **Easy (5-10 mins max) - [https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1#](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)**

@@ -19,7 +19,7 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 protoc --proto_path=proto proto/*.proto --go_out=plugins=grpc:pb
 <https://grpc.io/docs/quickstart/go>
 # for python
-
+```
 import memory_message_pb2
 
 m = memory_message_pb2.Memory()
@@ -34,11 +34,14 @@ pip install google
 from google.protobuf.json_format import MessageToJson
 
 MessageToJson(m)
-**Tools**
+```
+
+## Tools
 
 <https://github.com/fullstorydev/grpcurl>
-**# python2to3.py**
 
+## python2to3.py
+```
 import logging
 
 import os
@@ -54,3 +57,4 @@ file_path = f"{path}/*_pb2*.py"
 logging.info(file_path)
 
 os.system(f"2to3 -wn -f import {file_path}")
+```

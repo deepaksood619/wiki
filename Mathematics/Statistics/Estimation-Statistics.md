@@ -21,9 +21,12 @@ Of the three, perhaps the most useful methods in applied machine learning are in
 
 3.  Prediction Interval: The bounds on a single observation.
 A simple way to calculate a confidence interval for a classification algorithm is to calculate the binomial proportion confidence interval, which can provide an interval around a model's estimated accuracy or error. This can be implemented in Python using the confint() Statsmodels function. The function takes the count of successes (or failures), the total number of trials, and the significance level as arguments and returns the lower and upper bound of the confidence interval. The example below demonstrates this function in a hypothetical case where a model made 88 correct predictions out of a dataset with 100 instances and we are interested in the 95% confidence interval (provided to the function as a significance of 0.05).
-# calculate the confidence interval
-
+## calculate the confidence interval
+```
 from statsmodels.stats.proportion import proportion_confint
-# calculate the interval
+```
 
+## calculate the interval
+```
 lower, upper = proportion_confint(88, 100, 0.05) print('lower=%.3f, upper=%.3f' % (lower, upper))
+```

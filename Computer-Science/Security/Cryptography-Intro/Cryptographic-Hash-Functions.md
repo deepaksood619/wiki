@@ -76,6 +76,7 @@ Originally designed by the NSA for various purposes, now considered deprecated a
 -   bcrypt
 
 A slow hash function that is resistant to brute-force cracks. Commonly used in some Linux distributions. Considered very secure.
+```
 import bcrypt
 
 from models import db, User
@@ -88,6 +89,7 @@ user = User(password=password_hash, username=username)
 db.session.add(user)
 
 db.session.commit()
+```
 <https://auth0.com/blog/hashing-in-action-understanding-bcrypt>
 -   Whirlpool
 -   SHA-2

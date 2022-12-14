@@ -10,6 +10,8 @@ In[software engineering](https://en.m.wikipedia.org/wiki/Software_engineering),d
 **Python Dependency Injection**
 
 An immediate issue with the code above is thatdraw_squaredepends on a global variable. This has[lots of bad consequences](http://wiki.c2.com/?GlobalVariablesAreBad), and there are two easy ways to fix it. The first would be fordraw_squareto create theTurtleinstance itself (which I'll discuss later). This might not be desirable if we want to use a singleTurtle for all our drawing. So for now, we'll simply use parameterization again to maketurtlea parameter todraw_square:
+
+```
 from turtle import Turtle
 
 def draw_square(turtle, size):
@@ -19,9 +21,11 @@ turtle.left(90)
 
 turtle = Turtle()
 draw_square(turtle, 100)
+```
 
 This has a fancy name---dependency injection. It just means that if a function needs some kind of object to do its work, likedraw_squareneeds aTurtle, the caller is responsible for passing that object in as a parameter. No, really, if you were ever curious about Python dependency injection, this is it.
 <https://www.toptal.com/python/python-parameterized-design-patterns>
+
 **Like I'm Five**
 
 **Traditional**: going to a party, bring your own drinks.
@@ -29,6 +33,7 @@ This has a fancy name---dependency injection. It just means that if a function n
 **Dependency injection:** going to a party, and there's an open bar, the bartender makes your drinks, and servers brings you your drinks. You don't know what you're drinking, but it tastes good.
 
 Dependency injectionisa fancy kind of Inversion of Control, but also has a bartender & servers.
+
 **Others**
 
 <https://github.com/google/guice>
