@@ -26,7 +26,7 @@ This project is currently in incubation as part of Kubernetes. It uses the Kuber
 
 While newer than Docker or rkt, this project has gained major vendor support due to its flexibility and compatibility.
 
-<https://cri-o.io
+<https://cri-o.io>
 
 ## Containerd
 
@@ -35,9 +35,10 @@ containerd is an industry-standard container runtime with an emphasis on simplic
 containerd is designed to be embedded into a larger system, rather than being used directly by developers or end-users.
 
 The intent of the containerd project is not to build a user-facing tool;instead, it is focused on exposing highly-decoupled low-level primitives:
--   Defaults to runC to run containers according to the OCI Specifications
--   Intended to be embedded into larger systems
--   Minimal CLI, focused on debugging and development.
+
+- Defaults to runC to run containers according to the OCI Specifications
+- Intended to be embedded into larger systems
+- Minimal CLI, focused on debugging and development.
 
 With a focus on supporting the low-level, or backend plumbing of containers, this project is better suited to integration and operation teams building specialized products, instead of typical build, ship, and run application.
 
@@ -56,41 +57,36 @@ runcis a CLI tool for spawning and running containers according to the OCI speci
 <https://github.com/opencontainers/runc>
 
 ## RED HAT APPROACH TO CLOUD-NATIVE CONTAINERS
--   Single concern principle (SCP)
+
+- Single concern principle (SCP)
 
 SCP principle dictates that every container should address a single concern and do it well.
 
 If your containerized microservice needs to address multiple concerns, it can use patterns such as sidecar and init-containers to combine multiple containers into a single deployment unit (pod), where each container still handles a single concern. Similarly, you can swap containers that address the same concern. For example, replace the web server container, or a queue implementation con- tainer, with a newer and more scalable one.
 
-
--   High observability principle (HOP)
+- High observability principle (HOP)
 
 ![process health readiness liveness CONTAINER metrics tracing logs Figure 2. A container with multiple observability APIs (containers have multiple APIs to enable observability) ](../../media/DevOps-Docker-Containers-image1.png)
 
-
--   Life-cycle conformance principle (LCP)
+- Life-cycle conformance principle (LCP)
 
 ![CONTAINER SIGTERM SIGKILL Figure 3. A container providing APIs and conforming to platform events PreStop PostStart ](../../media/DevOps-Docker-Containers-image2.png)
 
-
--   Image immutability principle (IIP)
+- Image immutability principle (IIP)
 
 ![Dev CONTAINER app.jar JavaTM Test prod Figure 4. Immutable container images are used across all environments ](../../media/DevOps-Docker-Containers-image3.png)
 
-
--   Process disposability principle (PDP)
+- Process disposability principle (PDP)
 
 One of the primary motivations for moving to containerized applications is that containers need to be as ephemeral as possible and ready to be replaced by another container instance at any point in time. There are many reasons to replace a container, such as failing a health check, scaling down the application, migrating the containers to a different host, platform resource starvation, or another issue.
 
 This means that containerized applications must keep their state externalized or distributed and redundant. It also means the application should be quick in starting up and shutting down, and even be ready for a sudden, complete hardware failure.
 
-
--   Self-containment principle (S-CP)
+- Self-containment principle (S-CP)
 
 ![Configs CONTAINER app.jar Java Storage Figure 6. Containers should have baked in all dependencies at build time except environment-specific ones. ](../../media/DevOps-Docker-Containers-image4.png)
 
-
--   Runtime confinement principle (RCP)
+- Runtime confinement principle (RCP)
 
 ![CPU (R) CONTAINER Python glibc Memory (R) Figure 7. A container that declares its runtime resource requirements and respects them at runtime ](../../media/DevOps-Docker-Containers-image5.png)
 
@@ -99,37 +95,44 @@ RCP principle suggests that every container declare its resource requirements an
 In addition to passing the resource requirements of the container, it is also important that the appli- cation stay confined to the indicated resource requirements. If the application stays confined, the platform is less likely to consider it for termination and migration when resource starvation occurs.
 
 ## COMMON CONTAINER- RELATED BEST PRACTICES
--   Aim for small images.
--   Support arbitrary user IDs.
+
+- Aim for small images.
+- Support arbitrary user IDs.
 
 Avoid using the sudo command or requiring a specific userid to run your container.
--   Mark important ports.
--   Use volumes for persistent data.
+
+- Mark important ports.
+- Use volumes for persistent data.
 
 The data that needs to be preserved after a container is destroyed must be written to a volume.
--   Set image metadata.
--   Synchronize host and image.
+
+- Set image metadata.
+- Synchronize host and image.
 
 Some containerized applications require the container to be synchronized with the host on certain attributes such as time and machine ID.
 
 ## Docker Container Registry
--   Mirroring and Caching to optmize container registry
+
+- Mirroring and Caching to optmize container registry
 
 <https://www.youtube.com/watch?v=Bm7g0saAC9k>
 
 Is a container a type of virtual machine?
--   no, VMs each have a completely seperate OS. Containers share a kernel so they're using the same OS underneath
+
+- no, VMs each have a completely seperate OS. Containers share a kernel so they're using the same OS underneath
 
 Can you run a Red Hat container on a Ubuntu system?
--   Yes, On linux, your OS has 2 parts
 
-    1.  The kernel (like Linux 4.15)
+- Yes, On linux, your OS has 2 parts
 
-    2.  The distribution (like a Red Hat / Ubuntu)
--   You can run a different distribution in a container, but not a different kernel
+    1. The kernel (like Linux 4.15)
+
+    2. The distribution (like a Red Hat / Ubuntu)
+- You can run a different distribution in a container, but not a different kernel
 
 Containers are implemented with Linux-specific system calls. So why can you run Docker on a Mac?
--   Because Docker uses a virtual machine. So Docker containers on Mac are actually secretly all running Linux under the hood
+
+- Because Docker uses a virtual machine. So Docker containers on Mac are actually secretly all running Linux under the hood
 
 ## RHEL base image
 
@@ -137,6 +140,6 @@ Containers are implemented with Linux-specific system calls. So why can you run 
 
 ## Moby
 
-<https://mobyproject.org
+<https://mobyproject.org>
 
 <https://github.com/moby/moby>

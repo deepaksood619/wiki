@@ -9,13 +9,14 @@ Modified: 2021-10-16 00:46:32 +0500
 DML (Data Manipulation Language) commands[need to be](http://www.dba-oracle.com/t_dml_statements.htm)**commited/rolled back**
 
 ## DML
--   Insert
--   Update
--   Delete
--   Merge
--   Call
--   Explain Plain
--   Lock Table
+
+- Insert
+- Update
+- Delete
+- Merge
+- Call
+- Explain Plain
+- Lock Table
 
 DELETE
 
@@ -85,15 +86,13 @@ VALUES ('2322675', 'test', 'test', '0.0.0', '0',
 
 '0000-00-00 00:00:00', '0000-00-00 00:00:00', '2021-01-06 18:13:15', 'xxx', '2322675,test');
 
+- Insert ingore consumes autoincrement id and can put holes in between rows
+  - <https://stackoverflow.com/questions/5655396/why-insert-ignore-increments-the-auto-increment-primary-key>
+  - [**https://www.percona.com/blog/2011/11/29/avoiding-auto-increment-holes-on-innodb-with-insert-ignore/**](https://www.percona.com/blog/2011/11/29/avoiding-auto-increment-holes-on-innodb-with-insert-ignore/)
+  - innodb_autoinc_lock_mode = 0
+  - <https://dev.mysql.com/doc/refman/8.0/en/innodb-auto-increment-handling.html>
 
--   Insert ingore consumes autoincrement id and can put holes in between rows
-    -   <https://stackoverflow.com/questions/5655396/why-insert-ignore-increments-the-auto-increment-primary-key>
-    -   [**https://www.percona.com/blog/2011/11/29/avoiding-auto-increment-holes-on-innodb-with-insert-ignore/**](https://www.percona.com/blog/2011/11/29/avoiding-auto-increment-holes-on-innodb-with-insert-ignore/)
-    -   innodb_autoinc_lock_mode = 0
-    -   <https://dev.mysql.com/doc/refman/8.0/en/innodb-auto-increment-handling.html>
-
-
--   Alternatives
+- Alternatives
 
 INSERT INTO userDeviceApps (`customer_id`, `app_name`, `package_name`, `version_name`, `version_code`,
 
@@ -117,7 +116,7 @@ WHERE hash_key = '2322675,test3'
 
 LIMIT 1;
 
-<https://ypereirareis.github.io/blog/2016/03/22/mysql-insert-ignore-alternatives
+<https://ypereirareis.github.io/blog/2016/03/22/mysql-insert-ignore-alternatives>
 
 Load
 
@@ -165,14 +164,15 @@ b.  [UPSERT using REPLACE](https://www.techbeamers.com/mysql-upsert/#upsert-usin
 There come situations when we have to replace some rows even if INSERT could fail due to duplicate values of the primary key field. Hence, we should use the REPLACE statement for such cases.
 
 However, if we opt to use REPLACE, then it could result in one of the following outcomes:
--   If we don't face any error, then REPLACE would behave as regular INSERT command.
--   If a duplicate record exists, then REPLACE would first delete it and perform the INSERT subsequently.
+
+- If we don't face any error, then REPLACE would behave as regular INSERT command.
+- If a duplicate record exists, then REPLACE would first delete it and perform the INSERT subsequently.
 
 c.  **[UPSERT using INSERT with ON DUPLICATE KEY UPDATE](https://www.techbeamers.com/mysql-upsert/#upsert-using-update) (UPSERT)**
 
 It is non-destructive, means it doesn't have to drop the duplicate row. Instead, it issues an UPDATE whenever it finds a matching record having the same UNIQUE or PRIMARY KEY value.
 
-<https://www.techbeamers.com/mysql-upsert
+<https://www.techbeamers.com/mysql-upsert>
 
 <https://www.javatpoint.com/mysql-upsert>
 
@@ -182,32 +182,33 @@ It is non-destructive, means it doesn't have to drop the duplicate row. Instead,
 
 EXPLAIN EXTENDED
 
-
--   The indexes it's considering using.
--   The order in which it plans to join tables.
--   The indexes it actually used.
--   How many rows will be accessed.
--   Whether it used a filesort.
+- The indexes it's considering using.
+- The order in which it plans to join tables.
+- The indexes it actually used.
+- How many rows will be accessed.
+- Whether it used a filesort.
 
 ## Output
--   **Possible keys:**shows the keys that can be used by MySQL to find rows from the table, if this is NULL it indicates no useful indexes could be applied.
--   **Key:**indicates the actual index that MySQL used.
--   **Rows:**shows the number of records that were examined to produce the output. This is especially relevant during joins.
--   **Key_len:**longest length of the key that was used (aka which parts of the composite index are being used) use this to tell how many columns were used from it.
--   **Ref:**which columns, or constants are compared to the index in order to select rows.
 
+- **Possible keys:**shows the keys that can be used by MySQL to find rows from the table, if this is NULL it indicates no useful indexes could be applied.
+- **Key:**indicates the actual index that MySQL used.
+- **Rows:**shows the number of records that were examined to produce the output. This is especially relevant during joins.
+- **Key_len:**longest length of the key that was used (aka which parts of the composite index are being used) use this to tell how many columns were used from it.
+- **Ref:**which columns, or constants are compared to the index in order to select rows.
 
--   **Extra**
+- **Extra**
 
 What you would like to see in Extra:
--   Using index --- MySQL was able to use a covering index
--   Distinct --- MySQL stops searching after it found the first matching row
--   Using index condition
+
+- Using index --- MySQL was able to use a covering index
+- Distinct --- MySQL stops searching after it found the first matching row
+- Using index condition
 
 What you don't want to see in Extra:
--   Using file sort --- as said extra sorting was required
--   Using temporary --- a temp table was needed
--   Using join buffer --- tables processed in large batches of rows, instead of index lookups
--   Using where --- after fetching rows from storage engine, extra filtering needs to happen for each row. However it's OK if a very small number of rows were returned.
 
-<https://www.sitepoint.com/using-explain-to-write-better-mysql-queries
+- Using file sort --- as said extra sorting was required
+- Using temporary --- a temp table was needed
+- Using join buffer --- tables processed in large batches of rows, instead of index lookups
+- Using where --- after fetching rows from storage engine, extra filtering needs to happen for each row. However it's OK if a very small number of rows were returned.
+
+<https://www.sitepoint.com/using-explain-to-write-better-mysql-queries>

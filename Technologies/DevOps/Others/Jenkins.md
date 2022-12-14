@@ -11,39 +11,43 @@ Modified: 2022-10-15 11:46:34 +0500
 Jenkins is a continuous integration tool which enables software teams to build the integration pipelines for their projects. You can customize your Jenkins-powered pipelines to include different software development processes like building, testing, and staging as well as perform static analysis of your code.
 
 ## Types of Jenkins Projects
--   Freestyle
-    -   Simple, single tasks
-    -   e.g. run tests
--   Pipeline
-    -   Whole delivery cycle
-    -   e.g. test | build | ... for a single branch
--   Multibranch Pipeline
-    -   like pipeline for multiple branches
+
+- Freestyle
+  - Simple, single tasks
+  - e.g. run tests
+- Pipeline
+  - Whole delivery cycle
+  - e.g. test | build | ... for a single branch
+- Multibranch Pipeline
+  - like pipeline for multiple branches
 
 ## Credential Scopes
--   System - Only available on Jenkins server NOT for Jenkins jobs
--   Global - Everywhere accessible
--   Project - Limited to project, ONLY with multibranch pipeline
+
+- System - Only available on Jenkins server NOT for Jenkins jobs
+- Global - Everywhere accessible
+- Project - Limited to project, ONLY with multibranch pipeline
 
 ## Pipeline Syntax
--   **Scripted**
-    -   First syntax
-    -   Groovy engine
-    -   Advanced scripting capabilities, high flexibility
-    -   Difficult to start
--   **Declarative**
-    -   Recent addition
-    -   Easier to get started but not that powerful
-    -   pre-defined structure
+
+- **Scripted**
+  - First syntax
+  - Groovy engine
+  - Advanced scripting capabilities, high flexibility
+  - Difficult to start
+- **Declarative**
+  - Recent addition
+  - Easier to get started but not that powerful
+  - pre-defined structure
 
 ## Regex (Java Style)
 
 ^dev|master|feature.*$
 
 ## Trigger changes
--   Poll scm - poll every few minutes to ask for changes from remote repository
--   Git Hooks - Send jenkins a notification of change
--   Best practise is to configure both
+
+- Poll scm - poll every few minutes to ask for changes from remote repository
+- Git Hooks - Send jenkins a notification of change
+- Best practise is to configure both
 
 ## Pipelines
 
@@ -56,10 +60,11 @@ Pipeline provides an extensible set of tools for modeling simple-to-complex deli
 The definition of a Jenkins Pipeline is written into a text file (called a[Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile)) which in turn can be committed to a project's source control repository.This is the foundation of "Pipeline-as-code"; treating the CD pipeline a part of the application to be versioned and reviewed like any other code.
 
 Creating aJenkinsfileand committing it to source control provides a number of immediate benefits:
--   Automatically creates a Pipeline build process for all branches and pull requests.
--   Code review/iteration on the Pipeline (along with the remaining source code).
--   Audit trail for the Pipeline.
--   Single source of truthfor the Pipeline, which can be viewed and edited by multiple members of the project.
+
+- Automatically creates a Pipeline build process for all branches and pull requests.
+- Code review/iteration on the Pipeline (along with the remaining source code).
+- Audit trail for the Pipeline.
+- Single source of truthfor the Pipeline, which can be viewed and edited by multiple members of the project.
 
 While the syntax for defining a Pipeline, either in the web UI or with aJenkinsfileis the same, it is generally considered best practice to define the Pipeline in aJenkinsfileand check that in to source control.
 
@@ -68,23 +73,25 @@ While the syntax for defining a Pipeline, either in the web UI or with aJenkinsf
 AJenkinsfilecan be written using two types of syntax - Declarative and Scripted.
 
 Declarative and Scripted Pipelines are constructed fundamentally differently. Declarative Pipeline is a more recent feature of Jenkins Pipeline which:
--   provides richer syntactical features over Scripted Pipeline syntax, and
--   is designed to make writing and reading Pipeline code easier.
+
+- provides richer syntactical features over Scripted Pipeline syntax, and
+- is designed to make writing and reading Pipeline code easier.
 
 Many of the individual syntactical components (or "steps") written into aJenkinsfile, however, are common to both Declarative and Scripted Pipeline.
 
 ## Why Pipeline?
 
 Jenkins is, fundamentally, an automation engine which supports a number of automation patterns. Pipeline adds a powerful set of automation tools onto Jenkins, supporting use cases that span from simple continuous integration to comprehensive CD pipelines. By modeling a series of related tasks, users can take advantage of the many features of Pipeline:
--   **Code:** Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
--   **Durable:** Pipelines can survive both planned and unplanned restarts of the Jenkins master.
--   **Pausable:** Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
--   **Versatile:** Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
--   **Extensible:** The Pipeline plugin supports custom extensions to its DSL[[1](https://jenkins.io/doc/book/pipeline/#_footnotedef_1)]and multiple options for integration with other plugins.
+
+- **Code:** Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
+- **Durable:** Pipelines can survive both planned and unplanned restarts of the Jenkins master.
+- **Pausable:** Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
+- **Versatile:** Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
+- **Extensible:** The Pipeline plugin supports custom extensions to its DSL[[1](https://jenkins.io/doc/book/pipeline/#_footnotedef_1)]and multiple options for integration with other plugins.
 
 ![Pipeline Flow](../../media/DevOps-Others-Jenkins-image1.png)
 
-<https://jenkins.io/doc/book/pipeline
+<https://jenkins.io/doc/book/pipeline>
 
 ## Jenkinsfile
 
@@ -246,7 +253,7 @@ mail to: team@example.com, subject: "The Pipeline failed :("
 
 <https://www.youtube.com/watch?v=7KCS70sCoK0&list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC&index=6&ab_channel=TechWorldwithNana>
 
-<https://www.jenkins.io/doc/book/pipeline/jenkinsfile
+<https://www.jenkins.io/doc/book/pipeline/jenkinsfile>
 
 ## Jenkins
 
@@ -262,7 +269,7 @@ AJenkinsfileis nothing but a pipeline script that defines your CI/CD pipeline:
 
 ## Plugins
 
-<https://jenkins.io/doc/pipeline/steps/slack
+<https://jenkins.io/doc/pipeline/steps/slack>
 
 folder plugin
 
@@ -280,7 +287,7 @@ Jenkins.instance.queue.clear()
 
 Full CI/CD on kubernetes
 
-<https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes
+<https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes>
 
 ## Jenkins Operator
 
@@ -306,20 +313,20 @@ docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
 
 ## Optimizations
 
-<https://engineering.taboola.com/5-simple-tips-boosting-jenkins-performance
+<https://engineering.taboola.com/5-simple-tips-boosting-jenkins-performance>
 
-1.  Minimize the amount of builds on the master node
+1. Minimize the amount of builds on the master node
 
-2.  Do not keep too much build history - Discard old builds
+2. Do not keep too much build history - Discard old builds
 
-3.  Clear old Jenkins data
+3. Clear old Jenkins data
 
-4.  Define the right heap size
+4. Define the right heap size
 
-5.  Tune the garbage collector
-    -   Enable G1GC -- this is the most modern GC implementation (default on JDK9)
-    -   Enable GC logging -- this will help you monitor and tune later
-    -   Monitor GC behavior -- I use <http://gceasy.io
+5. Tune the garbage collector
+    - Enable G1GC -- this is the most modern GC implementation (default on JDK9)
+    - Enable GC logging -- this will help you monitor and tune later
+    - Monitor GC behavior -- I use <http://gceasy.io>
 
 ## Scripts
 
@@ -385,7 +392,7 @@ build.doKill()
 
 ## Resources
 
-<https://koudingspawn.de/the-complete-ci-cd-part-1
+<https://koudingspawn.de/the-complete-ci-cd-part-1>
 
 [**https://www.jenkins.io/projects/blueocean/**](https://www.jenkins.io/projects/blueocean/)
 
@@ -393,4 +400,4 @@ build.doKill()
 
 <https://www.youtube.com/watch?v=eqOCdNO2Nmk>
 
-<https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration
+<https://www.infracloud.io/blogs/jenkins-freestyle-pipeline-migration>

@@ -16,11 +16,11 @@ When we go deep to the leaf and backtrack, this is called DFS algorithm.
 
 ## DFS Traversal Types
 
-1.  **Pre-order [Root, Left, Right]**
+1. **Pre-order [Root, Left, Right]**
 
-2.  **In-order [Left, Root, Right]**
+2. **In-order [Left, Root, Right]**
 
-3.  **Post-order [Left, Right, Root]**
+3. **Post-order [Left, Right, Root]**
 
 ## Pre-order
 
@@ -28,11 +28,11 @@ When we go deep to the leaf and backtrack, this is called DFS algorithm.
 
 The result for this algorithm will be 1--2--3--4--5--6--7.
 
-1.  Print the value of the node.
+1. Print the value of the node.
 
-2.  Go to the left child and print it. This is if, and only if, it has a left child.
+2. Go to the left child and print it. This is if, and only if, it has a left child.
 
-3.  Go to the right child and print it. This is if, and only if, it has a right child.
+3. Go to the right child and print it. This is if, and only if, it has a right child.
 
 def pre_order(self):
 
@@ -66,11 +66,11 @@ if self.right_child:
 
 self.right_child.in_order()
 
-1.  Go to the left child and print it. This is if, and only if, it has a left child.
+1. Go to the left child and print it. This is if, and only if, it has a left child.
 
-2.  Print the node's value
+2. Print the node's value
 
-3.  Go to the right child and print it. This is if, and only if, it has a right child.
+3. Go to the right child and print it. This is if, and only if, it has a right child.
 
 ## Post-order
 
@@ -92,17 +92,18 @@ self.right_child.post_order()
 
 print(self.value)
 
-1.  Go to the left child and print it. This is if, and only if, it has a left child.
+1. Go to the left child and print it. This is if, and only if, it has a left child.
 
-2.  Go to the right child and print it. This is if, and only if, it has a right child.
+2. Go to the right child and print it. This is if, and only if, it has a right child.
 
-3.  Print the node's value
+3. Print the node's value
 
 ## Algorithm
 
 DFS(to visit a vertex v)
--   Mark v as visited
--   Recursively visit all unmarked vertices w adjacent to v
+
+- Mark v as visited
+- Recursively visit all unmarked vertices w adjacent to v
 
 ![image](media/Depth-First-Search-(DFS)-image4.png)
 
@@ -134,9 +135,9 @@ stack.push(w);
 
 ## Properties
 
-1.  DFS marks all vertices connected to s in time proportional to the sum of their degrees.
+1. DFS marks all vertices connected to s in time proportional to the sum of their degrees.
 
-2.  After DFS, we can find vertices connected to s in constant time and can find a path to s (if one exists) in time proportional to its length.
+2. After DFS, we can find vertices connected to s in constant time and can find a path to s (if one exists) in time proportional to its length.
 
 ## Union-Find vs DFS
 
@@ -164,10 +165,10 @@ Maze Graph
 
 ## Properties
 
-1.  DFS marks all vertices connected to s in time proportional to the sum of their degrees.
+1. DFS marks all vertices connected to s in time proportional to the sum of their degrees.
 
-2.  After DFS, we can find vertices connected to s in constant time and can find a path to s (if one exists) in time proportional to its length.
+2. After DFS, we can find vertices connected to s in constant time and can find a path to s (if one exists) in time proportional to its length.
 
 ## Example
 
-1.  Flood fill (Photoshop magic wand)
+1. Flood fill (Photoshop magic wand)

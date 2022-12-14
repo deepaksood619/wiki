@@ -6,9 +6,9 @@ Modified: 2019-11-22 19:29:14 +0500
 
 ---
 
-1.  **Automated Planning**
+1. **Automated Planning**
 
-2.  **Combinatorial Algorithms**
+2. **Combinatorial Algorithms**
 
     a.  **General Combinatorial Algorithms**
 
@@ -75,25 +75,23 @@ Modified: 2019-11-22 19:29:14 +0500
 
         ix. **Substrings**
 
-3.  **Computational Mathematics**
+3. **Computational Mathematics**
 
-4.  **Computational Science**
+4. **Computational Science**
 
-5.  **Computer Science**
+5. **Computer Science**
 
-6.  **Information Theory & Signal Processing**
+6. **Information Theory & Signal Processing**
 
-7.  **Software Engineering**
+7. **Software Engineering**
 
-8.  **Database Algorithms**
+8. **Database Algorithms**
 
-9.  **Distributed Systems Algorithm**
+9. **Distributed Systems Algorithm**
 
 10. **Networking**
 
 11. **Operating System Algorithms**
-
-
 
 ![image](media/List-of-Algorithms-image1.png)
 

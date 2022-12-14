@@ -17,17 +17,19 @@ But why not just use HTTP/2 on top of QUIC, instead of creating a whole new HTTP
 While it's true that some of the HTTP/2 features can be mapped on top of QUIC very easily, that's not true for all of them. One in particular,[HTTP/2's header compression scheme called HPACK](https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/), heavily depends on the order in which different HTTP requests and responses are delivered to the endpoints. QUIC enforces delivery order of bytes within single streams, but does not guarantee ordering among different streams.
 This behavior required the creation of a new HTTP header compression scheme, called QPACK, which fixes the problem but requires changes to the HTTP mapping. In addition, some of the features offered by HTTP/2 (like per-stream flow control) are already offered by QUIC itself, so they were dropped from HTTP/3 in order to remove unnecessary complexity from the protocol.
 QUIC Features
--   All QUIC connections are fully encrypted. (End to end encryption)
--   forward-error correction (FEC)
+
+- All QUIC connections are fully encrypted. (End to end encryption)
+- forward-error correction (FEC)
 
 When NASA's Deep Space Network talks to the Voyager 2 spacecraft (which recently left our solar system) it transmits messages that become garbled crossing 17.6 billion km of space (that's about 11 billion miles). Voyager 2 can't send back the equivalent of "Say again?" when it receives a garbled message so the messages sent to Voyager 2 contain error-correcting codes that allow it to reconstruct the message from the mess.
--   QUIC also solves the HTTP/2 HoL (Head of Line Blocking) problem
--   Finally, one of the slower parts of a standard HTTP/2 over TCP connection is the very beginning. When the app or browser makes a connection there's an initial handshake at the TCP level followed by a handshake to establish encryption. Over a high latency connection (say on a mobile phone on 3G) that creates a noticeable delay. Since QUIC controls all aspects of the connect it merges together connection and encryption into a single handshake.
+
+- QUIC also solves the HTTP/2 HoL (Head of Line Blocking) problem
+- Finally, one of the slower parts of a standard HTTP/2 over TCP connection is the very beginning. When the app or browser makes a connection there's an initial handshake at the TCP level followed by a handshake to establish encryption. Over a high latency connection (say on a mobile phone on 3G) that creates a noticeable delay. Since QUIC controls all aspects of the connect it merges together connection and encryption into a single handshake.
 Other features -
 
-1.  connection migration
+1. connection migration
 
-2.  zero round trip time resumption
+2. zero round trip time resumption
 <https://blog.cloudflare.com/http3-the-past-present-and-future>
 
 <https://blog.cloudflare.com/the-road-to-quic>

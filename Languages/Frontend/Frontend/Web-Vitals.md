@@ -6,7 +6,7 @@ Modified: 2021-05-08 16:13:07 +0500
 
 ---
 
-<https://web.dev/vitals
+<https://web.dev/vitals>
 
 Web Vitals is an initiative by Google to provide unified guidance for quality signals that are essential to delivering a great user experience on the web.
 
@@ -24,7 +24,7 @@ Measures**visual stability**. To provide a good user experience, pages should ma
 
 Cumulative Layout Shift (CLS) is an important, user-centric metric for measuring[visual stability](https://web.dev/user-centric-performance-metrics/#types-of-metrics)because it helps quantify how often users experience unexpected layout shifts---a low CLS helps ensure that the page is[delightful](https://web.dev/user-centric-performance-metrics/#questions).
 
-<https://web.dev/cls
+<https://web.dev/cls>
 
 ## Paints
 
@@ -47,20 +47,21 @@ TTFB measures the duration from the user or client making an HTTP request to the
 <https://en.wikipedia.org/wiki/Time_to_first_byte>
 
 ## Timing breakdown phases explained (Timing Tab Chrome Dev Tools)
--   **Queueing:** The browser queues requests when:
-    -   There are higher priority requests.
-    -   There are already six TCP connections open for this origin, which is the limit. Applies to HTTP/1.0 and HTTP/1.1 only.
-    -   The browser is briefly allocating space in the disk cache
--   **Stalled:** The request could be stalled for any of the reasons described inQueueing.
--   **DNS Lookup:** The browser is resolving the request's IP address.
--   **Proxy negotiation:** The browser is negotiating the request with a[proxy server](https://en.wikipedia.org/wiki/Proxy_server).
--   **Request sent:** The request is being sent.
--   **ServiceWorker Preparation:** The browser is starting up the service worker.
--   **Request to ServiceWorker:** The request is being sent to the service worker.
--   **Waiting (TTFB):** The browser is waiting for the first byte of a response. TTFB stands for Time To First Byte. This timing includes 1 round trip of latency and the time the server took to prepare the response.
--   **Content Download:** The browser is receiving the response.
--   **Receiving Push:** The browser is receiving data for this response via HTTP/2 Server Push.
--   **Reading Push:** The browser is reading the local data previously received.
+
+- **Queueing:** The browser queues requests when:
+  - There are higher priority requests.
+  - There are already six TCP connections open for this origin, which is the limit. Applies to HTTP/1.0 and HTTP/1.1 only.
+  - The browser is briefly allocating space in the disk cache
+- **Stalled:** The request could be stalled for any of the reasons described inQueueing.
+- **DNS Lookup:** The browser is resolving the request's IP address.
+- **Proxy negotiation:** The browser is negotiating the request with a[proxy server](https://en.wikipedia.org/wiki/Proxy_server).
+- **Request sent:** The request is being sent.
+- **ServiceWorker Preparation:** The browser is starting up the service worker.
+- **Request to ServiceWorker:** The request is being sent to the service worker.
+- **Waiting (TTFB):** The browser is waiting for the first byte of a response. TTFB stands for Time To First Byte. This timing includes 1 round trip of latency and the time the server took to prepare the response.
+- **Content Download:** The browser is receiving the response.
+- **Receiving Push:** The browser is receiving data for this response via HTTP/2 Server Push.
+- **Reading Push:** The browser is reading the local data previously received.
 
 <https://developers.google.com/web/tools/chrome-devtools/network/reference#timing-explanation>
 
@@ -76,8 +77,8 @@ screenshot - For capture of screen
 
 >: Disable Javascript
 
-<https://developer.chrome.com/docs/devtools/javascript/disable
+<https://developer.chrome.com/docs/devtools/javascript/disable>
 
 <https://dev.to/yashints/chrome-devtools-can-do-that-4a8l>
 
-<https://www.freecodecamp.org/news/learn-how-to-use-the-chrome-devtools-to-troubleshoot-websites
+<https://www.freecodecamp.org/news/learn-how-to-use-the-chrome-devtools-to-troubleshoot-websites>

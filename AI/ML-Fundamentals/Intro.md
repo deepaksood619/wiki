@@ -33,17 +33,18 @@ Evolved from the study of[pattern recognition](https://en.wikipedia.org/wiki/Pat
 You can think of the parameters as knobs that we can turn, manipulating the behavior of the program. Fixing the parameters, we call the program a**model**. The set of all distinct programs (input-output mappings) that we can produce just by manipulating the parameters is called a**familyof models**. And the meta-program that uses our dataset to choose the parameters is called a**learning algorithm**.
 
 ## What is Machine Learning?
--   Learning from data:
+
+- Learning from data:
 
 Machine learning is the field of study that focuses on computer systems that can learn from data. That is the system's often called models can learn to perform a specific task by analyzing lots of examples for a particular problem. For example, a machine learning model can learn to recognize an image of a cat by being shown lots and lots of images of cats.
 
-
--   No explicit programming
+- No explicit programming
 
 This notion. of learning from data means that a machine learning model can learn a specific task without being explicitly programmed. In other words, the machine learning model is not given the step by step instructions on how to recognize the image of a cat
--   Instead, the model learns what features are important in determining whether it picture contains a cat from the data that has analyzed. Because the model learns to perform this task from data it's good to know that the amount and quality of data available for building the model are important factors in how well the model learns the task
--   Discovering hidden patterns: Because machine learning models can learn from data that can be used to discover hidden patterns and treds in the data
--   Data-driven decisions: These patterns and trends lead to valuable insights into the data. Thus the use of machine learning allows for data driven decisions to be made for a particular problem
+
+- Instead, the model learns what features are important in determining whether it picture contains a cat from the data that has analyzed. Because the model learns to perform this task from data it's good to know that the amount and quality of data available for building the model are important factors in how well the model learns the task
+- Discovering hidden patterns: Because machine learning models can learn from data that can be used to discover hidden patterns and treds in the data
+- Data-driven decisions: These patterns and trends lead to valuable insights into the data. Thus the use of machine learning allows for data driven decisions to be made for a particular problem
 
 ![image](media/Intro-image1.jpeg)
 
@@ -51,13 +52,13 @@ This notion. of learning from data means that a machine learning model can learn
 
 Core components that will follow us around, no matter what kind of machine learning problem we take on:
 
-1.  The**data**that we can learn from.
+1. The**data**that we can learn from.
 
-2.  A**model**of how to transform the data.
+2. A**model**of how to transform the data.
 
-3.  An**objective function**that quantifies how well (or badly) the model is doing.
+3. An**objective function**that quantifies how well (or badly) the model is doing.
 
-4.  An**algorithm**to adjust the model's parameters to optimize the objective function.
+4. An**algorithm**to adjust the model's parameters to optimize the objective function.
 
 ## Model
 
@@ -80,20 +81,21 @@ Once we have got some data source and representation, a model, and a well-define
 <https://developers.google.com/machine-learning/guides/rules-of-ml>
 
 ## Terminology
--   Instance: The thing about which you want to make a prediction. For example, the instance might be a web page that you want to classify as either "about cats" or "not about cats".
--   Label: An answer for a prediction task ­­ either the answer produced by a machine learning system, or the right answer supplied in training data. For example, the label for a web page might be "about cats".
--   Feature: A property of an instance used in a prediction task. For example, a web page might have a feature "contains the word 'cat'".
--   Feature Column: A set of related features, such as the set of all possible countries in which users might live. An example may have one or more features present in a feature column. "Feature column" is Google-specific terminology. A feature column is referred to as a "namespace" in the VW system (at Yahoo/Microsoft), or a[field](https://www.csie.ntu.edu.tw/~cjlin/libffm/).
--   Example: An instance (with its features) and a label.
--   Model: A statistical representation of a prediction task. You train a model on examples then use the model to make predictions.
--   Metric: A number that you care about. May or may not be directly optimized.
--   Objective: A metric that your algorithm is trying to optimize.
--   Pipeline: The infrastructure surrounding a machine learning algorithm. Includes gathering the data from the front end, putting it into training data files, training one or more models, and exporting the models to production.
--   Click-through RateThe percentage of visitors to a web page who click a link in an ad.
 
-## Training**a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called**empirical risk minimization.
+- Instance: The thing about which you want to make a prediction. For example, the instance might be a web page that you want to classify as either "about cats" or "not about cats".
+- Label: An answer for a prediction task ­­ either the answer produced by a machine learning system, or the right answer supplied in training data. For example, the label for a web page might be "about cats".
+- Feature: A property of an instance used in a prediction task. For example, a web page might have a feature "contains the word 'cat'".
+- Feature Column: A set of related features, such as the set of all possible countries in which users might live. An example may have one or more features present in a feature column. "Feature column" is Google-specific terminology. A feature column is referred to as a "namespace" in the VW system (at Yahoo/Microsoft), or a[field](https://www.csie.ntu.edu.tw/~cjlin/libffm/).
+- Example: An instance (with its features) and a label.
+- Model: A statistical representation of a prediction task. You train a model on examples then use the model to make predictions.
+- Metric: A number that you care about. May or may not be directly optimized.
+- Objective: A metric that your algorithm is trying to optimize.
+- Pipeline: The infrastructure surrounding a machine learning algorithm. Includes gathering the data from the front end, putting it into training data files, training one or more models, and exporting the models to production.
+- Click-through RateThe percentage of visitors to a web page who click a link in an ad.
 
-## Loss is the penalty for a bad prediction. That is,lossis a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that havelowloss, on average, across all examples.
+## Training**a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called**empirical risk minimization
+
+## Loss is the penalty for a bad prediction. That is,lossis a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that havelowloss, on average, across all examples
 
 ## Squared loss: a popular loss function
 
@@ -103,56 +105,60 @@ The linear regression models we'll examine here use a loss function called**squa
 = (observation - prediction(x))2
 = (y - y')2
 
-## Mean square error(MSE) is the average squared loss per example over the whole dataset. To calculate MSE, sum up all the squared losses for individual examples and then divide by the number of examples:
+## Mean square error(MSE) is the average squared loss per example over the whole dataset. To calculate MSE, sum up all the squared losses for individual examples and then divide by the number of examples
 
 MSE=1N∑(x,y)∈D(y−prediction(x))2
 
 where:
--   (x,y)is an example in which
--   xis the set of features (for example, chirps/minute, age, gender) that the model uses to make predictions.
--   yis the example's label (for example, temperature).
--   prediction(x)is a function of the weights and bias in combination with the set of featuresx.
--   Dis a data set containing many labeled examples, which are(x,y)pairs.
--   Nis the number of examples inD.
+
+- (x,y)is an example in which
+- xis the set of features (for example, chirps/minute, age, gender) that the model uses to make predictions.
+- yis the example's label (for example, temperature).
+- prediction(x)is a function of the weights and bias in combination with the set of featuresx.
+- Dis a data set containing many labeled examples, which are(x,y)pairs.
+- Nis the number of examples inD.
 
 Although MSE is commonly-used in machine learning, it is neither the only practical loss function nor the best loss function for all circumstances.
 
 ## Real World Applications
 
-1.  Detection of network intruders or malicious insiders working towards a data breach
+1. Detection of network intruders or malicious insiders working towards a data breach
 
-2.  Learning to rank
+2. Learning to rank
 
 ## Branches
 
-1.  Statistics - Tells us what our goal is
+1. Statistics - Tells us what our goal is
 
-2.  Calculus - How to learn and optimize your model
+2. Calculus - How to learn and optimize your model
 
-3.  Linear Algebra - Makes executing algorithms feasible on massive datasets
+3. Linear Algebra - Makes executing algorithms feasible on massive datasets
 
-4.  Probability Theory - likelihood of a prediction
+4. Probability Theory - likelihood of a prediction
 
 ## Intuition
--   We cannot write algorithms for computer to do some stuff like tagging photos (recognizing faces), web search, email anti span.
--   We do not know how to write programs for this kind of things.
--   So the only way was that machine learn to do it by itself.
+
+- We cannot write algorithms for computer to do some stuff like tagging photos (recognizing faces), web search, email anti span.
+- We do not know how to write programs for this kind of things.
+- So the only way was that machine learn to do it by itself.
 
 ## Advanced
--   Explainable Artificial Intelligence
--   Humane Smart Cities
+
+- Explainable Artificial Intelligence
+- Humane Smart Cities
 
 ## Keys to Building ML Systems (Production)
--   Unify data science and software engineering teams
--   Apply software engineering methods to data science
--   Identify and measure success metrics up front
--   Solve a simple data science problem first
--   Automate end-to-end build-and-test pipeline on day 1
--   Ongoing refactoring supported by automated tests
+
+- Unify data science and software engineering teams
+- Apply software engineering methods to data science
+- Identify and measure success metrics up front
+- Solve a simple data science problem first
+- Automate end-to-end build-and-test pipeline on day 1
+- Ongoing refactoring supported by automated tests
 
 ## Convolution
 
-<https://betterexplained.com/articles/intuitive-convolution
+<https://betterexplained.com/articles/intuitive-convolution>
 
 ## References
 

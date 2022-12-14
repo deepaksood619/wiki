@@ -21,6 +21,7 @@ Points in the WAL can be queried, and they persist through a system reboot. On p
 Some data structures are inherently sequential. For example, a Write Ahead Log used by the databases and filesystems. It is used in order to facilitate durability: changes to the data files are first appended to the log sequentially.
 When main storage catches up and records are committed to the data files, commit log segment holding recovery data for it is discarded. If the process dies before the main storage has a chance to catch up, Write Ahead Log is replayed to restore the state database had before restart. If we follow this procedure, data files don't have to be flushed on disk on every operation: operations can be batched together, while still guaranteeing durability. Using Write-Ahead Log significantly reduces amount of writes for both mutable and immutable storage types.
 It's often advised to use a separate physical device for Write Ahead Log to make sure both memory table flushes and WAL writes are sequential. There are many other reasons to do so, too: to avoid IO saturation, for better failover, more predictable latencies.
+
 ## Batching Writes
 
 LSM-Trees are using Memory tables, where data is stored before it gets to the main storage, for serving reads and batching writes together. After reaching a size threshold, memory table is written on disk.

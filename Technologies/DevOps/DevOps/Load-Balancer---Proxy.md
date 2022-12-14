@@ -10,7 +10,7 @@ In computing, load balancing improves the distribution of workloads across multi
 
 The above definition applies to all aspects of computing, not just networks. Operating systems use load balancing to schedule tasks across physical processors, container orchestrators such as Kubernetes use load balancing to schedule tasks across a compute cluster, and network load balancers use load balancing to schedule network tasks across available backends.
 
-<https://www.loggly.com/blog/benchmarking-5-popular-load-balancers-nginx-haproxy-envoy-traefik-and-alb
+<https://www.loggly.com/blog/benchmarking-5-popular-load-balancers-nginx-haproxy-envoy-traefik-and-alb>
 
 Load balancing is a way of distributing traffic between multiple hosts within a single upstream cluster in order to effectively make use of available resources. There are many different ways of accomplishing this, so Envoy provides several different load balancing strategies. At a high level, we can break these strategies into two categories: global load balancing and distributed load balancing.
 
@@ -19,9 +19,10 @@ Load balancing is a way of distributing traffic between multiple hosts within a 
 Distributed load balancing refers to having Envoy itself determine how load should be distributed to the endpoints based on knowing the location of the upstream hosts.
 
 ## Examples
--   [Active health checking](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/health_checking#arch-overview-health-checking): by health checking upstream hosts, Envoy can adjust the weights of priorities and localities to account for unavailable hosts.
--   [Zone aware routing](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/zone_aware#arch-overview-load-balancing-zone-aware-routing): this can be used to make Envoy prefer closer endpoints without having to explicitly configure priorities in the control plane.
--   [Load balancing algorithms](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/load_balancers#arch-overview-load-balancing-types): Envoy can use several different algorithms to use the provided weights to determine which host to select.
+
+- [Active health checking](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/health_checking#arch-overview-health-checking): by health checking upstream hosts, Envoy can adjust the weights of priorities and localities to account for unavailable hosts.
+- [Zone aware routing](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/zone_aware#arch-overview-load-balancing-zone-aware-routing): this can be used to make Envoy prefer closer endpoints without having to explicitly configure priorities in the control plane.
+- [Load balancing algorithms](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/load_balancers#arch-overview-load-balancing-types): Envoy can use several different algorithms to use the provided weights to determine which host to select.
 
 ## Global Load Balancing
 
@@ -38,23 +39,27 @@ Most sophisticated deployments will make use of features from both categories. F
 <https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/overview>
 
 Sit infront of a service and delegate the client request to one of the nodes behind the service. This delegation can be based on
--   **Round Robin**
+
+- **Round Robin**
 
 Requests are distributed across all the instances sequentially
--   **Least Connections**
+
+- **Least Connections**
 
 A request goes to the instance that is processing the least number of connections at the current time
--   **Weighted Round Robin**
+
+- **Weighted Round Robin**
 
 This algorithm assigns a weight to each instance in the pool, and new connections are forwarded in proportion to the assigned weight
--   **Weighted Least Request**
+
+- **Weighted Least Request**
 
 The least request load balancer uses different algorithms depending on whether hosts have the same or different weights.
--   **all weights equal:** An O(1) algorithm which selects N random available hosts as specified in the[configuration](https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto#envoy-v3-api-msg-config-cluster-v3-cluster-leastrequestlbconfig)(2 by default) and picks the host which has the fewest active requests ([Mitzenmacher et al.](https://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf)has shown that this approach is nearly as good as an O(N) full scan). This is also known as **P2C (power of two choices)**. The P2C load balancer has the property that a host with the highest number of active requests in the cluster will never receive new requests. It will be allowed to drain until it is less than or equal to all of the other hosts.
--   **all weights not equal:** If two or more hosts in the cluster have different load balancing weights, the load balancer shifts into a mode where it uses a weighted round robin schedule in which weights are dynamically adjusted based on the host's request load at the time of selection (weight is divided by the current active request count. For example, a host with weight 2 and an active request count of 4 will have a synthetic weight of 2 / 4 = 0.5). This algorithm provides good balance at steady state but may not adapt to load imbalance as quickly. Additionally, unlike P2C, a host will never truly drain, though it will receive fewer requests over time.
 
+- **all weights equal:** An O(1) algorithm which selects N random available hosts as specified in the[configuration](https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto#envoy-v3-api-msg-config-cluster-v3-cluster-leastrequestlbconfig)(2 by default) and picks the host which has the fewest active requests ([Mitzenmacher et al.](https://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf)has shown that this approach is nearly as good as an O(N) full scan). This is also known as **P2C (power of two choices)**. The P2C load balancer has the property that a host with the highest number of active requests in the cluster will never receive new requests. It will be allowed to drain until it is less than or equal to all of the other hosts.
+- **all weights not equal:** If two or more hosts in the cluster have different load balancing weights, the load balancer shifts into a mode where it uses a weighted round robin schedule in which weights are dynamically adjusted based on the host's request load at the time of selection (weight is divided by the current active request count. For example, a host with weight 2 and an active request count of 4 will have a synthetic weight of 2 / 4 = 0.5). This algorithm provides good balance at steady state but may not adapt to load imbalance as quickly. Additionally, unlike P2C, a host will never truly drain, though it will receive fewer requests over time.
 
--   **IP Hash**
+- **IP Hash**
 
 This method generates a unique hash key from the source IP address and determines which instance receives the request (good for session management, where each client must be routed to same server)
 
@@ -66,31 +71,29 @@ This is called Source Algorithm - Memorize IP address of the user.
 
 But what if the server goes down, then all the hashes must be mapped to a new server. Here consistent hashing is used (for stable remapping)
 
-
--   **Least Response Time**
+- **Least Response Time**
 
 The least response time method directs traffic to the server with the least amount of active connectionsandlowest average response time.
--   **Least Bandwidth**
+
+- **Least Bandwidth**
 
 This application load balancer method measures traffic in megabits (Mbps) per second, sending client requests to the server with the least Mbps of traffic
 
-
--   Grpc > Client-side > **Pick-First**
--   **Ring Hash**
--   **Maglev**
--   **Random**
--   **Original destination**
+- Grpc > Client-side > **Pick-First**
+- **Ring Hash**
+- **Maglev**
+- **Random**
+- **Original destination**
 
 <https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/load_balancers>
 
 ## Points
--   Can operate at L4 or L7 layers of the OSI model. At L4 load balancer considers both client and destination ip addresses and port numbers to do the routing. While at L7 which is an HTTP level it uses HTTP URI to do the routing. Most of the load balancers operate at level 7.
 
+- Can operate at L4 or L7 layers of the OSI model. At L4 load balancer considers both client and destination ip addresses and port numbers to do the routing. While at L7 which is an HTTP level it uses HTTP URI to do the routing. Most of the load balancers operate at level 7.
 
--   In transport level load balancing, the server terminates the TCP connection and opens another connection to the backend of choice. The application data (HTTP/2 and gRPC frames) are simply copied between the client connection to the backend connection. L3/L4 LB by design does very little processing, adds less latency compared with L7 LB, and is cheaper because it consumes fewer resources.
+- In transport level load balancing, the server terminates the TCP connection and opens another connection to the backend of choice. The application data (HTTP/2 and gRPC frames) are simply copied between the client connection to the backend connection. L3/L4 LB by design does very little processing, adds less latency compared with L7 LB, and is cheaper because it consumes fewer resources.
 
-
--   In L7 (application level) load balancing, the LB terminates and parses the HTTP/2 protocol. The LB can inspect each request and assign a backend based on the request contents. For example, a session cookie sent as part of HTTP header can be used to associate with a specific backend, so all requests for that session are served by the same backend. Once the LB has chosen an appropriate backend, it creates a new HTTP/2 connection to that backend. It then forwards the HTTP/2 streams received from the client to the backend(s) of choice. With HTTP/2, LB can distribute the streams from one client among multiple backends.
+- In L7 (application level) load balancing, the LB terminates and parses the HTTP/2 protocol. The LB can inspect each request and assign a backend based on the request contents. For example, a session cookie sent as part of HTTP header can be used to associate with a specific backend, so all requests for that session are served by the same backend. Once the LB has chosen an appropriate backend, it creates a new HTTP/2 connection to that backend. It then forwards the HTTP/2 streams received from the client to the backend(s) of choice. With HTTP/2, LB can distribute the streams from one client among multiple backends.
 
 ## L3/L4 (Transport) vs L7 (Application)
 
@@ -101,7 +104,7 @@ This application load balancer method measures traffic in megabits (Mbps) per se
 | Minimizing resource utilization in proxy is more important than features | Use L3/L4 LB                                                                                |
 | Latency is paramount                                                     | Use L3/L4 LB                                                                                |
 
-## GSLB --- Global Server Load Balancing extends L4 and L7 capabilities to servers in different geographic locations.
+## GSLB --- Global Server Load Balancing extends L4 and L7 capabilities to servers in different geographic locations
 
 Global server load balancing(GSLB) refers to the intelligent distribution of traffic across server resources located in multiple geographies. The servers can be on premises in a company's own data centers, or hosted in a private cloud or the public cloud.
 
@@ -109,7 +112,7 @@ Disaster recovery is the primary reason that many companies deploy server resour
 
 A major reason to choose an active‑passive scheme is that there is no need to synchronize data across sites in real time; changes at the active site can be distributed to the passive sites using a simpler batch method and cheaper out‑of‑band connections. If you maintain multiple active sites serving the same content--and some of the benefits of GSLB in the following list emerge only if you do--then synchronizing the sites in real time becomes important.
 
-<https://www.nginx.com/resources/glossary/global-server-load-balancing
+<https://www.nginx.com/resources/glossary/global-server-load-balancing>
 
 DNS load balancing - route data to closest data center possible
 
@@ -124,38 +127,42 @@ As described thus far, the proxy operates at Layer 4 (L4), working at the level 
 The proxy is also a great point for telemetry: it can measure service-level indicators (SLIs) for the service, such as request latency and throughput, without needing to know anything about the service (a hallmark of decoupling). It can also health check pods and remove them from duty, and its telemetry provides one basis for auto-scaling the service.
 
 We discuss two different uses of proxies in the next two sections.
--   The first kind manages the traffic among services within an application, which is sometimes called "East-West" traffic based on the typical architecture diagram with users on top (North) and services spread left to right (West to East).
 
+- The first kind manages the traffic among services within an application, which is sometimes called "East-West" traffic based on the typical architecture diagram with users on top (North) and services spread left to right (West to East).
 
--   The second kind is a more traditional user-facing proxy, which manages traffic into the application (North-South) and provides user authentication, access control, various kinds of API management and mediation.
+- The second kind is a more traditional user-facing proxy, which manages traffic into the application (North-South) and provides user authentication, access control, various kinds of API management and mediation.
 
 ## Transparent Proxy (gateway)
--   Doesn't change the content
--   Only looks at Layer3/4 (IP and Port only)
--   One TCP Connection with packet switching
+
+- Doesn't change the content
+- Only looks at Layer3/4 (IP and Port only)
+- One TCP Connection with packet switching
 
 ## HTTP Proxy
--   Two TCP connections
--   Looks through the content
--   Changes the content
--   Provides anonymity (optionally)
--   Used in service mesh (Linkerd - upgrades protocol)
+
+- Two TCP connections
+- Looks through the content
+- Changes the content
+- Provides anonymity (optionally)
+- Used in service mesh (Linkerd - upgrades protocol)
 
 ## Socks Proxy (Socks5 proxy server)
 
 And one of the most different between the **socks proxy** and **HTTP proxy** is,socks proxy can use on lots of different application,HTTP proxy can ONLY be used to handle HTTP request, the socks proxies can be used to FTP, ICQ MSN, Outlook, TheBat, Skype..and so on, And the commonly used ports of the proxy server are，
--   Ports of HTTP Proxy: 80/8080
--   Ports ofSOCKS proxy: 1080
+
+- Ports of HTTP Proxy: 80/8080
+- Ports ofSOCKS proxy: 1080
 
 ## DNS Proxy
--   The DNS proxy relays DNS requests to the current public network DNS server,then DNS proxy server transfer the replies to the client device.
--   Though the DNS proxy use Cache, The DNS proxy is tracking the public DNS requests to monitor the configiration if previous resolution fails.
+
+- The DNS proxy relays DNS requests to the current public network DNS server,then DNS proxy server transfer the replies to the client device.
+- Though the DNS proxy use Cache, The DNS proxy is tracking the public DNS requests to monitor the configiration if previous resolution fails.
 
 ## Forward Proxy
 
 Forward proxy can be used by the client to[bypass firewall restrictions](https://www.linuxbabe.com/ubuntu/shadowsocks-libev-proxy-server-ubuntu-16-04-17-10)in order to visit websites that are blocked by school, government, company etc. If a website blocked an IP range from visiting the website, then a person in that IP range can use forward proxy to hide the real IP of the client so that person can visit the website and maybe leave some spam comments. However forward proxy might be detected by the website administrator. There are some paid proxy service that has numerous proxy systems around the world so that they can change your IP address every time your visit a new web page and this makes it harder for website administrators to detect.
 
-## The object of the forwarding proxy is the Client,and the object of the reverse proxy server is the server.
+## The object of the forwarding proxy is the Client,and the object of the reverse proxy server is the server
 
 ## Reverse Proxy
 
@@ -164,16 +171,17 @@ In[computer networks](https://en.wikipedia.org/wiki/Computer_network), areverse 
 Quite often, popular web servers use reverse-proxying functionality, shielding application frameworks of weaker HTTP capabilities. In this context, "weaker" means limitations in ability to handle excessive load, and limitation in handling the entire variety of request formats that can adhere to HTTP(S) 1.x, HTTP(S) 2.x, or requests which may be hard to detect. A reverse proxy in such cases could transform HTTPS requests into HTTP requests, buffer incoming requests based on the load of the "shielded" server(s), handle cookies/session data, or transform one request into multiple requests and then synthesize the responses, among other possibilities.
 
 ## Uses of reverse proxies
--   Reverse proxies can hide the existence and characteristics of an[origin server](https://en.wikipedia.org/wiki/Origin_server)or servers.
--   [Application firewall](https://en.wikipedia.org/wiki/Application_firewall)features can protect against common web-based attacks, like a[denial-of-service attack (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack)or distributed denial-of-service attacks (DDoS). Without a reverse proxy, removing malware or initiating[takedowns](https://en.wikipedia.org/wiki/Notice_and_take_down), for example, can become difficult.
--   In the case of[secure websites](https://en.wikipedia.org/wiki/Secure_website), a web server may not perform[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)[encryption](https://en.wikipedia.org/wiki/Encryption)itself, but instead offloads the task to a reverse proxy that may be equipped with[TLS acceleration](https://en.wikipedia.org/wiki/TLS_acceleration)hardware. (See[TLS termination proxy](https://en.wikipedia.org/wiki/TLS_termination_proxy).)
--   A reverse proxy can[distribute the load](https://en.wikipedia.org/wiki/Load_balancing_(computing))from incoming requests to several servers, with each server serving its own application area. In the case of reverse proxying in the neighbourhood of[web servers](https://en.wikipedia.org/wiki/Web_server), the reverse proxy may have to rewrite the[URL](https://en.wikipedia.org/wiki/URL)in each incoming request in order to match the relevant internal location of the requested resource.
--   A reverse proxy can reduce load on its origin servers by[caching](https://en.wikipedia.org/wiki/Web_cache)[static content](https://en.wikipedia.org/wiki/Static_web_page), as well as[dynamic content](https://en.wikipedia.org/wiki/Dynamic_web_page)- synonym:[web acceleration](https://en.wikipedia.org/wiki/Web_accelerator). Proxy caches of this sort can often satisfy a considerable number of website requests, greatly reducing the load on the origin server(s).
--   A reverse proxy can optimize content by[compressing](https://en.wikipedia.org/wiki/HTTP_compression)it in order to speed up loading times.
--   In a technique named "spoon-feed"a dynamically generated page can be produced all at once and served to the reverse proxy, which can then return it to the client a little bit at a time. The program that generates the page need not remain open, thus releasing server resources during the possibly extended time the client requires to complete the transfer.
--   Reverse proxies can operate wherever multiple web-servers must be accessible via a single public IP address. The web servers listen on different ports in the same machine, with the same local IP address or, possibly, on different machines and different local IP addresses altogether. The reverse proxy analyzes each incoming request and delivers it to the right server within the[local area network](https://en.wikipedia.org/wiki/Local_area_network).
--   Reverse proxies can perform[A/B testing](https://en.wikipedia.org/wiki/A/B_testing)and[multivariate testing](https://en.wikipedia.org/wiki/Multivariate_testing_in_marketing)without placing JavaScript tags or code into pages.
--   A reverse proxy can add basic HTTP access authentication to a web server that does not have any authentication.
+
+- Reverse proxies can hide the existence and characteristics of an[origin server](https://en.wikipedia.org/wiki/Origin_server)or servers.
+- [Application firewall](https://en.wikipedia.org/wiki/Application_firewall)features can protect against common web-based attacks, like a[denial-of-service attack (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack)or distributed denial-of-service attacks (DDoS). Without a reverse proxy, removing malware or initiating[takedowns](https://en.wikipedia.org/wiki/Notice_and_take_down), for example, can become difficult.
+- In the case of[secure websites](https://en.wikipedia.org/wiki/Secure_website), a web server may not perform[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)[encryption](https://en.wikipedia.org/wiki/Encryption)itself, but instead offloads the task to a reverse proxy that may be equipped with[TLS acceleration](https://en.wikipedia.org/wiki/TLS_acceleration)hardware. (See[TLS termination proxy](https://en.wikipedia.org/wiki/TLS_termination_proxy).)
+- A reverse proxy can[distribute the load](https://en.wikipedia.org/wiki/Load_balancing_(computing))from incoming requests to several servers, with each server serving its own application area. In the case of reverse proxying in the neighbourhood of[web servers](https://en.wikipedia.org/wiki/Web_server), the reverse proxy may have to rewrite the[URL](https://en.wikipedia.org/wiki/URL)in each incoming request in order to match the relevant internal location of the requested resource.
+- A reverse proxy can reduce load on its origin servers by[caching](https://en.wikipedia.org/wiki/Web_cache)[static content](https://en.wikipedia.org/wiki/Static_web_page), as well as[dynamic content](https://en.wikipedia.org/wiki/Dynamic_web_page)- synonym:[web acceleration](https://en.wikipedia.org/wiki/Web_accelerator). Proxy caches of this sort can often satisfy a considerable number of website requests, greatly reducing the load on the origin server(s).
+- A reverse proxy can optimize content by[compressing](https://en.wikipedia.org/wiki/HTTP_compression)it in order to speed up loading times.
+- In a technique named "spoon-feed"a dynamically generated page can be produced all at once and served to the reverse proxy, which can then return it to the client a little bit at a time. The program that generates the page need not remain open, thus releasing server resources during the possibly extended time the client requires to complete the transfer.
+- Reverse proxies can operate wherever multiple web-servers must be accessible via a single public IP address. The web servers listen on different ports in the same machine, with the same local IP address or, possibly, on different machines and different local IP addresses altogether. The reverse proxy analyzes each incoming request and delivers it to the right server within the[local area network](https://en.wikipedia.org/wiki/Local_area_network).
+- Reverse proxies can perform[A/B testing](https://en.wikipedia.org/wiki/A/B_testing)and[multivariate testing](https://en.wikipedia.org/wiki/Multivariate_testing_in_marketing)without placing JavaScript tags or code into pages.
+- A reverse proxy can add basic HTTP access authentication to a web server that does not have any authentication.
 
 <https://en.wikipedia.org/wiki/Reverse_proxy>
 
@@ -243,43 +251,45 @@ These proxies follow the same protocol as HTTPS requests. The 'S' in HTTPS means
 
 That means you get even more security because all of your requests through the proxy are encrypted. Most proxies should be using this by default, but there is still a chance you'll run into some that use HTTP.
 
-<https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please
+<https://www.freecodecamp.org/news/what-is-a-proxy-server-in-english-please>
 
 ## Reverse Proxy vs Load Balancers
--   A[reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server)accepts a request from a client, forwards it to a server that can fulfill it, and returns the server's response to the client.
--   A[load balancer](https://www.nginx.com/resources/glossary/load-balancing)distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
+
+- A[reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server)accepts a request from a client, forwards it to a server that can fulfill it, and returns the server's response to the client.
+- A[load balancer](https://www.nginx.com/resources/glossary/load-balancing)distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
 
 ## Features
 
 ## Service discovery
 
 Service discovery is the process by which a load balancer determines the set of available backends. The methods are quite varied and some examples include:
--   Static configuration file.
--   DNS.
--   [Zookeeper](https://zookeeper.apache.org/),[Etcd](https://coreos.com/etcd/),[Consul](https://www.consul.io/), etc.
--   Envoy's[universal data plane API](https://medium.com/@mattklein123/the-universal-data-plane-api-d15cec7a).
 
+- Static configuration file.
+- DNS.
+- [Zookeeper](https://zookeeper.apache.org/),[Etcd](https://coreos.com/etcd/),[Consul](https://www.consul.io/), etc.
+- Envoy's[universal data plane API](https://medium.com/@mattklein123/the-universal-data-plane-api-d15cec7a).
 
--   Client-side discovery pattern
--   Server-side discovery pattern
--   Service Registry
-    -   etcd
-    -   zookeeper
-    -   consul
--   Service registry pattern
-    -   self-registration pattern
-    -   third-party registration pattern
--   DNS based Service Discovery (DNS-SD)
+- Client-side discovery pattern
+- Server-side discovery pattern
+- Service Registry
+  - etcd
+  - zookeeper
+  - consul
+- Service registry pattern
+  - self-registration pattern
+  - third-party registration pattern
+- DNS based Service Discovery (DNS-SD)
 
-<https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture
+<https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture>
 
-<https://iximiuz.com/en/posts/service-discovery-in-kubernetes
+<https://iximiuz.com/en/posts/service-discovery-in-kubernetes>
 
 ## Health checking
 
 Health checking is the process by which the load balancer determines if the backend is available to serve traffic. Health checking generally falls into two categories:
--   **Active:** The load balancer sends a ping on a regular interval (e.g., an HTTP request to a/healthcheckendpoint) to the backend and uses this to gauge health.
--   **Passive:** The load balancer detects health status from the primary data flow. e.g., an L4 load balancer might decide a backend is unhealthy if there have been three connection errors in a row. An L7 load balancer might decide a backend is unhealthy if there have been three HTTP 503 response codes in a row.
+
+- **Active:** The load balancer sends a ping on a regular interval (e.g., an HTTP request to a/healthcheckendpoint) to the backend and uses this to gauge health.
+- **Passive:** The load balancer detects health status from the primary data flow. e.g., an L4 load balancer might decide a backend is unhealthy if there have been three connection errors in a row. An L7 load balancer might decide a backend is unhealthy if there have been three HTTP 503 response codes in a row.
 
 ## Load balancing
 
@@ -334,19 +344,18 @@ Especially in the edge deployment topology (see below), load balancers often imp
 Load balancers need to be configured. In large deployments, this can become a substantial undertaking. In general, the system that configures the load balancers is known as the "control plane" and varies widely in its implementation.
 
 ## Types of LoadBalancer topologies
--   Middle proxy
+
+- Middle proxy
 
 ![Client Load balancer Backend ](../../media/DevOps-DevOps-Load-Balancer---Proxy-image1.png)
 
 In Proxy load balancing, the client issues RPCs to the a Load Balancer (LB) proxy. The LB distributes the RPC call to one of the available backend servers that implement the actual logic for serving the call. The LB keeps track of load on each backend and implements algorithms for distributing load fairly. The clients themselves do not know about the backend servers. Clients can be untrusted. This architecture is typically used for user facing services where clients from open internet can connect to servers in a data cente
 
-
--   Edge proxy
+- Edge proxy
 
 ![Load balancer Client Internet Backend ](../../media/DevOps-DevOps-Load-Balancer---Proxy-image2.png)
 
-
--   Embedded client library / Client-side load balancing
+- Embedded client library / Client-side load balancing
 
 ![Service Client library Backend ](../../media/DevOps-DevOps-Load-Balancer---Proxy-image3.png)
 
@@ -359,7 +368,8 @@ In Client side load balancing, the client is aware of multiple backend servers a
 A thick client approach means the load balancing smarts are implemented in the client. The client is responsible for keeping track of available servers, their workload, and the algorithms used for choosing servers. The client typically integrates libraries that communicate with other infrastructures such as service discovery, name resolution, quota management, etc.
 
 ## Tools
--   **Netflix Ribbon**
+
+- **Netflix Ribbon**
 
 [Client Side Load Balancing | Microservices Architecture Pattern | Tech Primers](https://www.youtube.com/watch?v=-PbnWGddmcM)
 
@@ -473,14 +483,11 @@ The picture below illustrates this approach. The client gets at least one addres
 </tbody>
 </table>
 
-<https://grpc.io/blog/loadbalancing
+<https://grpc.io/blog/loadbalancing>
 
-
--   Sidecar proxy
+- Sidecar proxy
 
 ![Service Backend Sidecar proxy ](../../media/DevOps-DevOps-Load-Balancer---Proxy-image6.png)
-
-
 
 ## Direct Server Return (DSR)
 
@@ -506,7 +513,7 @@ DSR is an optimization in which only**ingress/request**packets traverse the load
 
 <https://medium.com/future-vision/what-is-a-load-balancer-fc786f4b04e6>
 
-<https://www.loggly.com/blog/benchmarking-5-popular-load-balancers-nginx-haproxy-envoy-traefik-and-alb
+<https://www.loggly.com/blog/benchmarking-5-popular-load-balancers-nginx-haproxy-envoy-traefik-and-alb>
 
 ## High Availability Clusters / HA Clusters / Fail-over clusters
 

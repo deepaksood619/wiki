@@ -11,10 +11,12 @@ Modified: 2022-12-11 20:01:39 +0500
 Define and run multi-container applications with Docker.
 
 ## Usage
+
 docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
 docker-compose -h|--help
 
 ## Options
+
 -f, --file FILE Specify an alternate compose file
 (default: docker-compose.yml)
 -p, --project-name NAME Specify an alternate project name
@@ -38,6 +40,7 @@ name specified in the client certificate
 keys in v3 files to their non-Swarm equivalent
 
 ## Commands
+
 build Build or rebuild services
 
 docker-compose up --build kafka-consumer
@@ -92,77 +95,75 @@ version Show the Docker-Compose version information
 
 When you set the same environment variable in multiple files, here's the priority used by Compose to choose which value to use:
 
-1.  Compose file
+1. Compose file
 
-2.  Shell environment variables
+2. Shell environment variables
 
-3.  Environment file
+3. Environment file
 
-4.  Dockerfile
+4. Dockerfile
 
-5.  Variable is not defined
+5. Variable is not defined
 
 When**.env**fileis present in the folder docker-compose command is executed, those environment variables are used as environment variables for **docker-compose execution and variable substitution.**
 
 However when you define**env_file**option to your service, the service will get those variables from the file as **environment variables** and those are not used for variable substitution.
 
 ## Updates
--   **Version 3**
+
+- **Version 3**
 
 Designed to be cross-compatible between Compose and the Docker Engine's[swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
--   Removed:volume_driver,volumes_from,cpu_shares,cpu_quota,cpuset,mem_limit,memswap_limit,extends,group_add. See the[upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading)guide for how to migrate away from these. (For more information onextends, see[Extending services](https://docs.docker.com/compose/extends/#extending-services).)
--   Added:[deploy](https://docs.docker.com/compose/compose-file/#deploy)
 
+- Removed:volume_driver,volumes_from,cpu_shares,cpu_quota,cpuset,mem_limit,memswap_limit,extends,group_add. See the[upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading)guide for how to migrate away from these. (For more information onextends, see[Extending services](https://docs.docker.com/compose/extends/#extending-services).)
+- Added:[deploy](https://docs.docker.com/compose/compose-file/#deploy)
 
--   **Version 3.3**
-    -   Docker Engine version17.06.0+, and higher.
-    -   [buildlabels](https://docs.docker.com/compose/compose-file/#build)
-    -   [credential_spec](https://docs.docker.com/compose/compose-file/#credentialspec)
-    -   [configs](https://docs.docker.com/compose/compose-file/#configs)
-    -   [deployendpoint_mode](https://docs.docker.com/compose/compose-file/#endpointmode)
+- **Version 3.3**
+  - Docker Engine version17.06.0+, and higher.
+  - [buildlabels](https://docs.docker.com/compose/compose-file/#build)
+  - [credential_spec](https://docs.docker.com/compose/compose-file/#credentialspec)
+  - [configs](https://docs.docker.com/compose/compose-file/#configs)
+  - [deployendpoint_mode](https://docs.docker.com/compose/compose-file/#endpointmode)
 
+- **Version 3.4**
+  - Docker Engine version17.09.0and higher.
+  - targetandnetworkin[build configurations](https://docs.docker.com/compose/compose-file/#build)
+  - start_periodfor[healthchecks](https://docs.docker.com/compose/compose-file/#healthcheck)
+  - orderfor[update configurations](https://docs.docker.com/compose/compose-file/#update_config)
+  - namefor[volumes](https://docs.docker.com/compose/compose-file/#volume-configuration-reference)
 
--   **Version 3.4**
-    -   Docker Engine version17.09.0and higher.
-    -   targetandnetworkin[build configurations](https://docs.docker.com/compose/compose-file/#build)
-    -   start_periodfor[healthchecks](https://docs.docker.com/compose/compose-file/#healthcheck)
-    -   orderfor[update configurations](https://docs.docker.com/compose/compose-file/#update_config)
-    -   namefor[volumes](https://docs.docker.com/compose/compose-file/#volume-configuration-reference)
+- **Version 3.5**
+  - Docker Engine version17.12.0and higher.
+  - [isolation](https://docs.docker.com/compose/compose-file/compose-versioning/#isolation)in service definitions
+  - namefor networks, secrets and configs
+  - shm_sizein[build configurations](https://docs.docker.com/compose/compose-file/compose-versioning/#build)
 
+- **Version 3.6**
+  - Docker Engine version18.02.0and higher.
+  - [tmpfssize](https://docs.docker.com/compose/compose-file/compose-versioning/#long-syntax-3)fortmpfs-type mounts
 
--   **Version 3.5**
-    -   Docker Engine version17.12.0and higher.
-    -   [isolation](https://docs.docker.com/compose/compose-file/compose-versioning/#isolation)in service definitions
-    -   namefor networks, secrets and configs
-    -   shm_sizein[build configurations](https://docs.docker.com/compose/compose-file/compose-versioning/#build)
-
-
--   **Version 3.6**
-    -   Docker Engine version18.02.0and higher.
-    -   [tmpfssize](https://docs.docker.com/compose/compose-file/compose-versioning/#long-syntax-3)fortmpfs-type mounts
-
-
--   **Version 3.7**
-    -   Docker Engine version18.06.0and higher.
-    -   [init](https://docs.docker.com/compose/compose-file/compose-versioning/#init)in service definitions
-    -   [rollback_config](https://docs.docker.com/compose/compose-file/compose-versioning/#rollback_config)in deploy configurations
-    -   Support for extension fields at the root of service, network, volume, secret and config definitions
+- **Version 3.7**
+  - Docker Engine version18.06.0and higher.
+  - [init](https://docs.docker.com/compose/compose-file/compose-versioning/#init)in service definitions
+  - [rollback_config](https://docs.docker.com/compose/compose-file/compose-versioning/#rollback_config)in deploy configurations
+  - Support for extension fields at the root of service, network, volume, secret and config definitions
 
 ## Tips
--   No variable sustitution for keys in docker-compose
--   both $VARIABLE and $VARIABLE syntax is supported
--   Can use default and err with variables
-    -   $VARIABLE:-defaultevaluates todefaultifVARIABLEis unset or empty in the environment.
-    -   $VARIABLE-defaultevaluates todefaultonly ifVARIABLEis unset in the environment.
-    -   $VARIABLE:?errexits with an error message containingerrifVARIABLEis unset or empty in the environment.
-    -   $VARIABLE?errexits with an error message containingerrifVARIABLEis unset in the environment.
--   You can use a$$(double-dollar sign) when your configuration needs a literal dollar sign. This also prevents Compose from interpolating a value, so a$$allows you to refer to environment variables that you don't want processed by Compose.
--   Two different docker networks cannot access each other services
+
+- No variable sustitution for keys in docker-compose
+- both $VARIABLE and $VARIABLE syntax is supported
+- Can use default and err with variables
+  - $VARIABLE:-defaultevaluates todefaultifVARIABLEis unset or empty in the environment.
+  - $VARIABLE-defaultevaluates todefaultonly ifVARIABLEis unset in the environment.
+  - $VARIABLE:?errexits with an error message containingerrifVARIABLEis unset or empty in the environment.
+  - $VARIABLE?errexits with an error message containingerrifVARIABLEis unset in the environment.
+- You can use a$$(double-dollar sign) when your configuration needs a literal dollar sign. This also prevents Compose from interpolating a value, so a$$allows you to refer to environment variables that you don't want processed by Compose.
+- Two different docker networks cannot access each other services
 
 ## References
 
-<https://docs.docker.com/compose/compose-file
+<https://docs.docker.com/compose/compose-file>
 
-<https://docs.docker.com/compose/reference/up
+<https://docs.docker.com/compose/reference/up>
 
-<https://docs.docker.com/compose/compose-file/compose-versioning
+<https://docs.docker.com/compose/compose-file/compose-versioning>

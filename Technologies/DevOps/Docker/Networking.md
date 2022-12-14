@@ -24,29 +24,29 @@ The Docker networking architecture is built on a set of interfaces called theCon
 
 # Network Scope
 
-1.  Local scope
+1. Local scope
 
 Local scope drivers provide connectivity and network services (such as DNS or IPAM) within the scope of the host. Local scope networks have a unique network ID on each host.
 
-2.  Swarm scope
+2. Swarm scope
 
 Swarm scope drivers provide connectivity and network services across a swarm cluster. Swarm scope networks have the same network ID across the entire cluster.
 
 # 341: Container Networking
 
 #### *Kim Carter with Michael Hausenblas*
--   single vs. multi-host container networking, orchestration, Kubernetes, service discovery
--   roles that IPTables plays, how the allocation of IP addresses is handled, along with the assignment of ports.
--   Overlay networks, open Container Network Interface (CNI).
 
-
+- single vs. multi-host container networking, orchestration, Kubernetes, service discovery
+- roles that IPTables plays, how the allocation of IP addresses is handled, along with the assignment of ports.
+- Overlay networks, open Container Network Interface (CNI).
 
 ## Docker Networking
--   **User-defined bridge networks**are best when you need multiple containers to communicate on the same Docker host.
--   **Host networks**are best when the network stack should not be isolated from the Docker host, but you want other aspects of the container to be isolated.
--   **Overlay networks**are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services.
--   **Macvlan networks**are best when you are migrating from a VM setup or need your containers to look like physical hosts on your network, each with a unique MAC address.
--   **Third-party network** pluginsallow you to integrate Docker with specialized network stacks.
+
+- **User-defined bridge networks**are best when you need multiple containers to communicate on the same Docker host.
+- **Host networks**are best when the network stack should not be isolated from the Docker host, but you want other aspects of the container to be isolated.
+- **Overlay networks**are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services.
+- **Macvlan networks**are best when you are migrating from a VM setup or need your containers to look like physical hosts on your network, each with a unique MAC address.
+- **Third-party network** pluginsallow you to integrate Docker with specialized network stacks.
 
 ## Host Networking
 
@@ -54,11 +54,11 @@ If you use thehostnetwork mode for a container, that container's network stack i
 
 Host mode networking can be useful to optimize performance, and in situations where a container needs to handle a large range of ports, as it does not require network address translation (NAT), and no "userland-proxy" is created for each port.
 
-<https://docs.docker.com/network/host
+<https://docs.docker.com/network/host>
 
 The goal of this tutorial is to start anginxcontainer which binds directly to port 80 on the Docker host. From a networking point of view, this is the same level of isolation as if thenginxprocess were running directly on the Docker host and not in a container. However, in all other ways, such as storage, process namespace, and user namespace, thenginxprocess is isolated from the host.
 
-<https://docs.docker.com/network/network-tutorial-host
+<https://docs.docker.com/network/network-tutorial-host>
 
 ## Bridge Networks
 
@@ -70,7 +70,7 @@ Bridge networks apply to containers running on thesameDocker daemon host. For co
 
 When you start Docker, a[default bridge network](https://docs.docker.com/network/bridge/#use-the-default-bridge-network)(also calledbridge) is created automatically, and newly-started containers connect to it unless otherwise specified. You can also create user-defined custom bridge networks.**User-defined bridge networks are superior to the defaultbridgenetwork.**
 
-<https://docs.docker.com/network/bridge
+<https://docs.docker.com/network/bridge>
 
 ## References
 
@@ -78,6 +78,6 @@ When you start Docker, a[default bridge network](https://docs.docker.com/network
 
 <https://success.docker.com/article/ucp-service-discovery>
 
-<https://docs.docker.com/network
+<https://docs.docker.com/network>
 
-<https://docs.docker.com/network/network-tutorial-standalone
+<https://docs.docker.com/network/network-tutorial-standalone>

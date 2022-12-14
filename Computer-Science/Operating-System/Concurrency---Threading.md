@@ -7,15 +7,18 @@ Modified: 2020-07-01 13:41:18 +0500
 ---
 
 ## Concurrency
--   Composition of independently executing functions/processes
--   Parallelism is the simultaneous execution of multiple things, possible related and possibly not.
--   Concurrency is about dealing with a lot of things at once while parallelism is about doing a lot of things at once
--   Concurrent - Mouse, keyboard, display and disk drivers
--   Parallel - Vector dot product
--   Adding some design can increase the speed of program execution (Analogy is of grofers working together to load books into the incinerator)
+
+- Composition of independently executing functions/processes
+- Parallelism is the simultaneous execution of multiple things, possible related and possibly not.
+- Concurrency is about dealing with a lot of things at once while parallelism is about doing a lot of things at once
+- Concurrent - Mouse, keyboard, display and disk drivers
+- Parallel - Vector dot product
+- Adding some design can increase the speed of program execution (Analogy is of grofers working together to load books into the incinerator)
+
 ## Process
 
 In general, most processes can be described as either**[I/O-bound](https://en.wikipedia.org/wiki/I/O-bound)or[CPU-bound](https://en.wikipedia.org/wiki/CPU-bound)**. An I/O-bound process is one that spends more of its time doing I/O than it spends doing computations. A CPU-bound process, in contrast, generates I/O requests infrequently, using more of its time doing computations. It is important that a long-term scheduler selects a good process mix of I/O-bound and CPU-bound processes. If all processes are I/O-bound, the ready queue will almost always be empty, and the short-term scheduler will have little to do. On the other hand, if all processes are CPU-bound, the I/O waiting queue will almost always be empty, devices will go unused, and again the system will be unbalanced. The system with the best performance will thus have a combination of CPU-bound and I/O-bound processes. In modern operating systems, this is used to make sure that real-time processes get enough CPU time to finish their tasks.
+
 ## Threads
 
 A thread is just a sequence of instructions that can be executed independently by a processor. Threads are lighter than the process and so you can spawn a lot of them.
@@ -27,44 +30,60 @@ A thread shares with its peer threads various information like code segment, dat
 A thread is also called a**lightweight process**. Threads provide a way to improve application performance through parallelism. Threads represent a software approach to improving the performance of operating systems by reducing the overhead. A thread is equivalent to a classical process.
 Each thread belongs to exactly one process, and no thread can exist outside a process. Each thread represents a separate flow of control. Threads have been successfully used in implementing network servers and web servers. They also provide a suitable foundation for parallel execution of applications on shared memory multiprocessors.
 ![](media/Concurrency---Threading-image1.jpg)
-## Advantages of threads:
--   They minimize the context switching time.
--   Using them provides concurrency within a process.
--   They provide efficient communication.
--   It is more economical to create and context switch threads.
--   Threads allow utilization of multiprocessor architectures to a greater scale and efficiency.
-## Threads are implemented in the following two ways:
--   User Level Threads:User-managed threads.
--   Kernel Level Threads:Operating System-managed threads acting on a kernel, an operating system core.
+
+## Advantages of threads
+
+- They minimize the context switching time.
+- Using them provides concurrency within a process.
+- They provide efficient communication.
+- It is more economical to create and context switch threads.
+- Threads allow utilization of multiprocessor architectures to a greater scale and efficiency.
+
+## Threads are implemented in the following two ways
+
+- User Level Threads:User-managed threads.
+- Kernel Level Threads:Operating System-managed threads acting on a kernel, an operating system core.
+
 ## User Level Threads
 
 In this case, the thread management kernel is not aware of the existence of threads. The thread library contains code for creating and destroying threads, for passing messages and data between threads, for scheduling thread execution, and for saving and restoring thread contexts. The application starts with a single thread.
 
 ![](media/Concurrency---Threading-image2.png)
-## Advantages:
--   Thread switching does not require Kernel mode privileges.
--   User level thread can run on any operating system.
--   Scheduling can be application-specific in the user level thread.
--   User level threads are fast to create and manage.
-## Disadvantages:
--   In a typical operating system, most system calls are blocking.
--   Multithreaded application cannot take advantage of multiprocessing.
+
+## Advantages
+
+- Thread switching does not require Kernel mode privileges.
+- User level thread can run on any operating system.
+- Scheduling can be application-specific in the user level thread.
+- User level threads are fast to create and manage.
+
+## Disadvantages
+
+- In a typical operating system, most system calls are blocking.
+- Multithreaded application cannot take advantage of multiprocessing.
+
 ## Kernel Level Threads
 
 In this case, thread management is done by the Kernel. There is no thread management code in the application area. Kernel threads are supported directly by the operating system. Any application can be programmed to be multithreaded. All of the threads within an application are supported within a single process.
 The Kernel maintains context information for the process as a whole and for individuals threads within the process. Scheduling by the Kernel is done on a thread basis. The Kernel performs thread creation, scheduling, and management in Kernel space. Kernel threads are generally slower to create and manage than the user threads.
 
 ![](media/Concurrency---Threading-image3.png)
+
 ## Advantages
--   The Kernel can simultaneously schedule multiple threads from the same process on multiple processes.
--   If one thread in a process is blocked, the Kernel can schedule another thread of the same process.
--   Kernel routines themselves can be multithreaded.
+
+- The Kernel can simultaneously schedule multiple threads from the same process on multiple processes.
+- If one thread in a process is blocked, the Kernel can schedule another thread of the same process.
+- Kernel routines themselves can be multithreaded.
+
 ## Disadvantages
--   Kernel threads are generally slower to create and manage than the user threads.
--   Transfer of control from one thread to another within the same process requires a mode switch to the Kernel.
+
+- Kernel threads are generally slower to create and manage than the user threads.
+- Transfer of control from one thread to another within the same process requires a mode switch to the Kernel.
+
 ## Threads vs Processes
--   Threads **uses shared state**, so there is an ease of communication between multiple threads, but the disadvantage of shared state is that there can be race condition, multiple threads can race with each other to get access to resources.
--   Processes **doesn't have shared state**, they are fully independent from each other. The weakness of processes is lack of communication (hence the need for IPC and object pickling and other overhead)-   Threads are more lightweight and have lower overhead compared to processes. Spawning processes is a bit slower than spawning threads.
+
+- Threads **uses shared state**, so there is an ease of communication between multiple threads, but the disadvantage of shared state is that there can be race condition, multiple threads can race with each other to get access to resources.
+- Processes **doesn't have shared state**, they are fully independent from each other. The weakness of processes is lack of communication (hence the need for IPC and object pickling and other overhead)-   Threads are more lightweight and have lower overhead compared to processes. Spawning processes is a bit slower than spawning threads.
 | **Bottleneck** | **Example**                        | **Optimize with** |
 |----------------|------------------------------------|-------------------|
 | IO             | Network connection, file operation | Multithreading    |
@@ -76,23 +95,25 @@ The Kernel maintains context information for the process as a whole and for indi
 Yes and No.
 In concept,
 
-1.  Threads share memory and don't need to create a new virtual memory space when they are created and thus don't require a MMU (memory management unit) context switch
+1. Threads share memory and don't need to create a new virtual memory space when they are created and thus don't require a MMU (memory management unit) context switch
 
-2.  Communication between threads is simpler as they have a shared memory while processes requires various modes of IPC (Inter-Process Communications) like semaphores, message queues, pipes etc.
+2. Communication between threads is simpler as they have a shared memory while processes requires various modes of IPC (Inter-Process Communications) like semaphores, message queues, pipes etc.
 That being said, this doesn't always guarantee a better performance than processes in this multi-core processor world.
 e.g. Linux doesn't distinguish between threads and processes and both are called tasks. Each task can have a minimum to maximum level of sharing when cloned.
 When you callfork(), a new task is created with no shared file descriptors, PIDs and memory space. When you callpthread_create(), a new task is created with all of the above shared.
 Also, synchronising data in[shared memory](https://users.cs.cf.ac.uk/Dave.Marshall/C/node27.html)as well as in[L1 cache](https://www.quora.com/What-is-the-L1-L2-and-L3-cache-of-a-microprocessor-and-how-does-it-affect-the-performance-of-it-For-example-I-have-a-laptop-with-an-Intel-4700MQ-microprocessor-with-a-6MB-L3-cache-What-does-this-value-indicate)of tasks running on multiple cores takes a bigger toll than running different processes on isolated memory.
 Linux developers have tried to minimise the cost between task switch and have succeeded at it. Creating a new task is still a bigger overhead than a new thread but switching is not.
+
 ## What can be improved in Threads?
 
 There are three things which make threads slow:
 
-1.  Threads consume a lot of memory due to their large stack size (≥ 1MB). So creating 1000s of thread means you already need 1GB of memory.
+1. Threads consume a lot of memory due to their large stack size (≥ 1MB). So creating 1000s of thread means you already need 1GB of memory.
 
-2.  Threads need to restore a lot of registers some of which include AVX( Advanced vector extension), SSE (Streaming SIMD Ext.), Floating Point registers, Program Counter (PC), Stack Pointer (SP) which hurts the application performance.
+2. Threads need to restore a lot of registers some of which include AVX( Advanced vector extension), SSE (Streaming SIMD Ext.), Floating Point registers, Program Counter (PC), Stack Pointer (SP) which hurts the application performance.
 
-3.  Threads setup and teardown requires call to OS for resources (such as memory) which is slow.
+3. Threads setup and teardown requires call to OS for resources (such as memory) which is slow.
+
 ## Threads vs Async
 
 ## Threads
@@ -102,6 +123,7 @@ Threads switch preemptively. This is convenient because you don't need to add ex
 The cost of this convenience is that you have to assume a switch can happen at any time. Accordingly, critical sections have to be guarded with locks. Dinning Philosophers Problem.
 
 The limit on threads is total CPU power minus the cost of task switches and synchronization overhead.
+
 ## Async
 
 Async switches cooperatively, so you do need to add explicit code "yield" or "await" to cause a task switch.
@@ -113,57 +135,68 @@ Also, the cost task switches is very low. Calling a pure Python function has mor
 This means that async is very cheap.
 
 In return, you'll need a non-blocking version of just about everything you do. Accordingly, the async world has a huge ecosystem of support tools. This increases the learning curve.
+
 ## Comparison
--   Async maximizes CPU utilization because it has less overhead than threads.
--   Threading typically works with existing code and tools as long as locks are added around critical sections.
--   For complex systems, async ismucheasier to get right than threads with locks.
--   Threads require very little tooling (locks and queues).
--   Async needs a great deal of tooling (futures, event loops, and non-blocking versions of just about everything).
--   In a threaded system the decision to suspend one thread and execute another is largely outside of the programmer's control. Rather, it is under the control of the operating system, and the programmer must assume that a thread may be suspended and replaced with another at almost any time. In contrast, under the asynchronous model a task will continue to run until it explicitly relinquishes control to other tasks.-   The problem with locks is that it just a flag, and it should be checked to access the resources. If you don't check then there would be problems.
+
+- Async maximizes CPU utilization because it has less overhead than threads.
+- Threading typically works with existing code and tools as long as locks are added around critical sections.
+- For complex systems, async ismucheasier to get right than threads with locks.
+- Threads require very little tooling (locks and queues).
+- Async needs a great deal of tooling (futures, event loops, and non-blocking versions of just about everything).
+- In a threaded system the decision to suspend one thread and execute another is largely outside of the programmer's control. Rather, it is under the control of the operating system, and the programmer must assume that a thread may be suspended and replaced with another at almost any time. In contrast, under the asynchronous model a task will continue to run until it explicitly relinquishes control to other tasks.-   The problem with locks is that it just a flag, and it should be checked to access the resources. If you don't check then there would be problems.
+
 ## Considerations
--   Threading
--   Multiprocessing
--   Async
+
+- Threading
+- Multiprocessing
+- Async
+
 ## Amdahl's Law
 
-## Amdahl's law is often used in parallel computing to predict the theoretical speedup when using multiple processors. For example, if a program needs 20 hours using a single processor core, and a particular part of the program which takes one hour to execute cannot be parallelized, while the remaining 19 hours (p = 0.95) of execution time can be parallelized, then regardless of how many processors are devoted to a parallelized execution of this program, the minimum execution time cannot be less than that critical one hour. Hence, the theoretical speedup is limited to at most 20 times(1/(1−p)=20). For this reason parallel computing is relevant only for a low number of processors and very parallelizable programs.
+## Amdahl's law is often used in parallel computing to predict the theoretical speedup when using multiple processors. For example, if a program needs 20 hours using a single processor core, and a particular part of the program which takes one hour to execute cannot be parallelized, while the remaining 19 hours (p = 0.95) of execution time can be parallelized, then regardless of how many processors are devoted to a parallelized execution of this program, the minimum execution time cannot be less than that critical one hour. Hence, the theoretical speedup is limited to at most 20 times(1/(1−p)=20). For this reason parallel computing is relevant only for a low number of processors and very parallelizable programs
+
 ## Process Control Block
 
-1.  Process State
+1. Process State
 
-2.  Process Number
+2. Process Number
 
-3.  Program Counter
+3. Program Counter
 
-4.  Registers
+4. Registers
 
-5.  Memory Limits
+5. Memory Limits
 
-6.  List of open Files
+6. List of open Files
 
-7.  Signal Mask
+7. Signal Mask
 
-8.  CPU Scheduling info
+8. CPU Scheduling info
+
 ## Synchronization
 
 Synchronizationrefers to one of two distinct but related concepts
 
-1.  **Process Synchronization**
+1. **Process Synchronization**
 
 Process synchronizationrefers to the idea that multiple processes are to join up or[handshake](https://en.wikipedia.org/wiki/Handshaking)at a certain point, in order to reach an agreement or commit to a certain sequence of action.
 
-2.  **Data Synchronization**
+2. **Data Synchronization**
 
 [Data synchronization](https://en.wikipedia.org/wiki/Data_synchronization)refers to the idea of keeping multiple copies of a dataset in coherence with one another, or to maintain[data integrity](https://en.wikipedia.org/wiki/Data_integrity)
 Process synchronization primitives are commonly used to implement data synchronization.
+
 ## Need for synchronization
 
 The need for synchronization does not arise merely in multi-processor systems but for any kind of concurrent processes; even in single processor systems. Mentioned below are some of the main needs for synchronization:
--   [Forks and Joins](https://en.wikipedia.org/wiki/Fork-join_model):When a job arrives at a fork point, it is split into N sub-jobs which are then serviced by n tasks. After being serviced, each sub-job waits until all other sub-jobs are done processing. Then, they are joined again and leave the system. Thus, in parallel programming, we require synchronization as all the parallel processes wait for several other processes to occur.
--   [Producer-Consumer:](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)In a producer-consumer relationship, the consumer process is dependent on the producer process till the necessary data has been produced.
--   Exclusive use resources:When multiple processes are dependent on a resource and they need to access it at the same time the operating system needs to ensure that only one processor accesses it at a given point in time.This reduces concurrency.
+
+- [Forks and Joins](https://en.wikipedia.org/wiki/Fork-join_model):When a job arrives at a fork point, it is split into N sub-jobs which are then serviced by n tasks. After being serviced, each sub-job waits until all other sub-jobs are done processing. Then, they are joined again and leave the system. Thus, in parallel programming, we require synchronization as all the parallel processes wait for several other processes to occur.
+- [Producer-Consumer:](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)In a producer-consumer relationship, the consumer process is dependent on the producer process till the necessary data has been produced.
+- Exclusive use resources:When multiple processes are dependent on a resource and they need to access it at the same time the operating system needs to ensure that only one processor accesses it at a given point in time.This reduces concurrency.
+
 ## Implementation of Synchronization
--   **Spinlock**
+
+- **Spinlock**
 
 Another effective way of implementing synchronization is by using spinlocks. Before accessing any shared resource or piece of code, every processor checks a flag. If the flag is reset, then the processor sets the flag and continues executing the thread. But, if the flag is set (locked), the threads would keep spinning in a loop and keep checking if the flag is set or not. But, spinlocks are effective only if the flag is reset for lower cycles otherwise it can lead to performance issues as it wastes many processor cycles waiting.-   **Barriers**
 
@@ -185,12 +218,14 @@ For each[processor core](https://en.wikipedia.org/wiki/Processor_core)that is ph
 In addition to requiring simultaneous multithreading (SMT) support in the operating system, hyper-threading can be properly utilized only with an operating system specifically optimized for it.Furthermore, Intel recommends HTT to be disabled when using operating systems unaware of this hardware feature.
 <https://en.wikipedia.org/wiki/Hyper-threading>
 Multithreading, concurrency, locks, synchronization
+
 ## Compare and Swap (CAS)
 
 Compare and Swap is an atomic structure used in multithreading to achieve synchronization. It compares the contents of a memory location with a given value and, only if they are the same, modifies the contents of that memory location to a new given value. This is done as a single atomic operation. The atomicity guarantees that the new value is calculated based on up-to-date information; if the value had been updated by another thread in the meantime, the write would fail. The result of the operation must indicate whether it performed the substitution; this can be done either with a simple[boolean](https://en.wikipedia.org/wiki/Boolean_logic)response (this variant is often called**compare-and-set**), or by returning the value read from the memory location (*not*the value written to it).
 Atomic instruction that compares contents of a memory location M to a given value V
--   If values are equal, installs new given value V' in M
--   Otherwise operation fails
+
+- If values are equal, installs new given value V' in M
+- Otherwise operation fails
 __sync_bool_compare_and_swap(&M, 20, 30)
 
 __sync_bool_compare_and_swap(Address, Compare Value, New Value)
@@ -199,6 +234,7 @@ __sync_bool_compare_and_swap(Address, Compare Value, New Value)
 ## See also -**
 
 Python > Advanced > Concurrency
+
 ## References
 
 [https://schneems.com/2017/10/23/wtf-is-a-thread/#](https://schneems.com/2017/10/23/wtf-is-a-thread/)

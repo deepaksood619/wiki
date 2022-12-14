@@ -99,8 +99,8 @@ iv. Transmission mode:Physical layer also defines the way in which the data flow
 
 * Hub, Repeater, Modem, Cables are Physical Layer devices.
 
-** Network Layer, Data Link Layer and Physical Layer are also known asLower LayersorHardware Layers.
-2.  **Data Link Layer (DLL) (Layer 2)**
+**Network Layer, Data Link Layer and Physical Layer are also known asLower LayersorHardware Layers.
+2.**Data Link Layer (DLL) (Layer 2)**
 
 The data link layer is responsible for the node to node delivery of the message. The main function of this layer is to make sure data transfer is error free from one node to another, over the physical layer. When a packet arrives in a network, it is the responsibility of DLL to transmit it to the Host using its MAC address.
 Data Link Layer is divided into two sub layers :
@@ -122,6 +122,7 @@ iii. Error control:Data link layer provides the mechanism of error control in wh
 iv. Flow Control:The data rate must be constant on both sides else the data may get corrupted thus , flow control coordinates that amount of data that can be sent before receiving acknowledgement.
 
 v.  Access control:When a single communication channel is shared by multiple devices, MAC sub-layer of data link layer helps to determine which device has control over the channel at a given time.
+
 * Packet in Data Link layer is referred asFrame.
 
 ** Data Link layer is handled by the NIC (Network Interface Card) and device drivers of host machines.
@@ -137,10 +138,11 @@ i.  Routing:The network layer protocols determine which route is suitable from s
 
 ii. Logical Addressing:In order to identify each device on internetwork uniquely, network layer defines an addressing scheme. The sender & receiver's IP address are placed in the header by network layer. Such an address distinguishes each device uniquely and universally.
 If a packet is too large to be transmitted, it can be split into several fragments which are shipped out and then reassembled on the receiving end. Layer 3 also contains network firewalls and 3-layer switches.
+
 * Segmentin Network layer is referred asPacket.
 
-** Network layer is implemented by networking devices such as routers.
-4.  **Transport Layer (Layer 4)**
+**Network layer is implemented by networking devices such as routers.
+4.**Transport Layer (Layer 4)**
 
 Transport layer provides services to application layer and takes services from network layer. The data in the transport layer is referred to asSegments. It is responsible for the End to End delivery of the complete message. Transport layer also provides the acknowledgement of the successful data transmission and re-transmits the data if error is found.
 
@@ -228,6 +230,7 @@ iii. Mail Services
 
 iv. Directory Services
 OSI model acts as a reference model and is not implemented in Internet because of its late invention. Current model being used is the TCP/IP model.
+
 ## References
 
 <https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols>

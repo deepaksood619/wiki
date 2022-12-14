@@ -8,15 +8,15 @@ Modified: 2020-02-04 22:57:11 +0500
 
 # Final Commands
 
-1.  Change value of reporting location
+1. Change value of reporting location
 
-2.  Create inventory file
+2. Create inventory file
 
-3.  ansible-playbook pull_add_restart.yml -i inventory/iiitd -e "host=IIITD" --check
+3. ansible-playbook pull_add_restart.yml -i inventory/iiitd -e "host=IIITD" --check
 
-4.  ansible-playbook pull_add_restart.yml -i inventory/iiitd -e "host=IIITD" --limit @pull_add_restart.retry
+4. ansible-playbook pull_add_restart.yml -i inventory/iiitd -e "host=IIITD" --limit @pull_add_restart.retry
 
-1.  **Add hosts to files**
+1. **Add hosts to files**
 
     a.  sudo cat /etc/openvpn/openvpn-status.log| grep IIITD
 
@@ -26,7 +26,7 @@ Modified: 2020-02-04 22:57:11 +0500
 
     d.  '{0} controller={0} ansible_host={1} ansible_port=1234 ansible_ssh_pass='xitanez123!@#' ansible_ssh_user=pi'.format(client.name, client.address)
 
-2.  Create a playbook (yml file)
+2. Create a playbook (yml file)
 
 ## Create Inventory File
 
@@ -35,7 +35,8 @@ Modified: 2020-02-04 22:57:11 +0500
 Command - python find_vpn_static_ip.py -c IIITD
 
 ## Commands
--   **run commands directly**
+
+- **run commands directly**
 
 ansible iiitd -m shell -a "pip freeze | grep kafka" #run any command and get results to multiple controllers, deploy to all controllers inside the IIITD group
 
@@ -45,7 +46,7 @@ ansible iiitd -m shell -a "uname -a"
 
 ## ansible kafka -m shell -a "uname -a"
 
-#exclude a host from ansible play
+# exclude a host from ansible play
 
 ansible kafka --limit 'all:!IIITD-01' -m shell -a "uname -a"
 
@@ -55,8 +56,7 @@ ansible Dominos-11,Dominos-12,Dominos-13,Dominos-14,Dominos-15,Dominos-16,Domino
 
 ansible Dominos-11,Dominos-12,Dominos-13,Dominos-14,Dominos-15,Dominos-16,Dominos-17,Dominos-18,Dominos-19,Dominos-20 -m shell -a "sudo cat /home/pi/conf/electric_meter.conf | grep ReportDeliveryLocation"
 
-
--   **run ansible playbooks**
+- **run ansible playbooks**
 
 ansible-playbook add_ini.yml
 
@@ -72,13 +72,11 @@ ansible-playbook add_and_restart.yml --check -e "host=dominos" --limit "Dominos-
 
 ansible-playbook pull.yml --check -e "host=iiitd"
 
-
--   retry offline devices
+- retry offline devices
 
 ansible-playbook <ansible_playbook>.yml --limit @<ansible_playbook>.retry
 
-
--   Major Commands
+- Major Commands
 
 ansible-playbook timesync_dns.yml -i inventory/motherdairy --extra-vars "variable_host=MotherDairy_2" >> logs/motherdairy_timesync_dns.log &
 

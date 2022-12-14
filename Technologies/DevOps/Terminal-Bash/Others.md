@@ -16,7 +16,7 @@ The init system thenmuststart all the necessary daemons, background processes an
 
 Often these processes continue to run in the background after they start, and are calleddaemons.These daemonsmanage many parts of your system, such as logging information, watching for devices you insert or remove, and managing user login.
 
-<https://fedoramagazine.org/what-is-an-init-system
+<https://fedoramagazine.org/what-is-an-init-system>
 
 <https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units>
 
@@ -49,20 +49,22 @@ sudo systemctl enable ssh.service
 ## Journald
 
 Journald replaces the plain text files of syslog with a binary format that:
--   Allows for log messages with multiple fields and multi-line text
--   Stores these messages in a space-efficient way that does not require renaming files for maintenance
--   Gives fast access to messages given specific criteria, much like a database would
+
+- Allows for log messages with multiple fields and multi-line text
+- Stores these messages in a space-efficient way that does not require renaming files for maintenance
+- Gives fast access to messages given specific criteria, much like a database would
 
 ## Commands
--   journalctl #view blob messages
--   journalctl -a #view decoded messages
--   journalctl -k #view kernel messages
--   journalctl -f #follow messages
--   journalctl -b #messages from this boot
--   journalctl --since "2015-06-26 23:15:00" --until "2015-06-26 23:20:00"
--   journalctl --since "2 days ago"
--   journalctl --since "1 hour ago"
--   journalctl -u nginx.service #only show nginx.service unit logs
+
+- journalctl #view blob messages
+- journalctl -a #view decoded messages
+- journalctl -k #view kernel messages
+- journalctl -f #follow messages
+- journalctl -b #messages from this boot
+- journalctl --since "2015-06-26 23:15:00" --until "2015-06-26 23:20:00"
+- journalctl --since "2 days ago"
+- journalctl --since "1 hour ago"
+- journalctl -u nginx.service #only show nginx.service unit logs
 
 ## bashplotlib
 
@@ -74,11 +76,11 @@ jq is likesedfor JSON data - you can use it to slice and filter and map and tran
 
 brew install jq
 
-<https://stedolan.github.io/jq
+<https://stedolan.github.io/jq>
 
 ## Networking - socat
 
-## Socatis a command line based utility that establishes two bidirectional byte streams and transfers data between them. Because the streams can be constructed from a large set of different types of data sinks and sources (see[address types](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_TYPES)), and because lots of[address options](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_OPTIONS)may be applied to the streams, socat can be used for many different purposes.
+## Socatis a command line based utility that establishes two bidirectional byte streams and transfers data between them. Because the streams can be constructed from a large set of different types of data sinks and sources (see[address types](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_TYPES)), and because lots of[address options](http://www.dest-unreach.org/socat/doc/socat.html#ADDRESS_OPTIONS)may be applied to the streams, socat can be used for many different purposes
 
 <http://www.dest-unreach.org/socat/doc/socat.html>
 
@@ -124,17 +126,15 @@ missingok
 rotate 14
 }
 
-
-
 ## Manually trigger logrotate
 
 sudo logrotate -f /etc/logrotate.conf
 
 ## File watchers (uses this to know how to see changes to a file)
 
-1.  inotify
+1. inotify
 
-2.  poll
+2. poll
 
 The biggest difference is that epoll can be used for ANY fd. This means it's good for watching all types of ways to communicate data. Sockets, IPC, files, printers.. anything. inotify is for filesystems only.
 
@@ -154,7 +154,7 @@ It shows a frequently updated list of the processes running on a computer, norma
 
 ![Process owner. PID 17391 8081 8052 6157 8065 Process Ids. 8073 8074 8075 8077 8076 8082 Niceness or the user-space priority of processes. Ranges from -20 (highest) to 19 (lowest.) MEM 3.8 55: 25. 2.6 3.8 1.9 1.3 13:31. 1.1 4.3 1.3 4.3 3.8 0.3 3.8 0.3 3.8 4.9 3.8 8.8 3.8 3.8 Total amount of virtual memory requested by processes. Not all may be in use. Resident memory usage or what currently being used by process( I PRI 20 20 20 20 20 30 30 30 20 20 20 SHR 55844 584 504 572 584 584 584 584 584 584 TIME+ oe joe -oot joe joe joe joe 1 o VIRT 1435M 435M 719M 310M 719M 435M 435M 435M 435M 435M 435M 285M 285M 100M 32448 100M 285M 285M 285M 285M 285M 285M 142 . s s R R s R s s s s 5. 7 4 1:09. 0:52. 0:30. 0:31. 0:31. o. 0:25. •14. 0:09. 38 10 05 52 85 82 62 44 62 99 63 Command simplescr simplescr gea ry /us r/bin/ gea ry simplescr simplescr simplescr simplescr simplescr simplescr ](../../media/DevOps-Terminal-Bash-Others-image2.png)
 
-<https://peteris.rocks/blog/htop
+<https://peteris.rocks/blog/htop>
 
 ## glances
 

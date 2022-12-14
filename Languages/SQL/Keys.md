@@ -11,19 +11,21 @@ Modified: 2020-06-20 01:45:51 +0500
 A DBMS key is an attribute or set of an attribute which helps you to identify a row(tuple) in a relation (table). They allow you to find the relation between two tables. Keys help you uniquely identify a row in a table by a combination of one or more columns in that table.
 
 ## Why we need a key
--   Keys help you to identify any row of data in a table. In a real-world application, a table could contain thousands of records. Moreover, the records could be duplicated. Keys ensure that you can uniquely identify a table record despite these challenges.
--   Allows you to establish a relationship between and identify the relation between tables
--   Help you to enforce identity and integrity in the relationship.
+
+- Keys help you to identify any row of data in a table. In a real-world application, a table could contain thousands of records. Moreover, the records could be duplicated. Keys ensure that you can uniquely identify a table record despite these challenges.
+- Allows you to establish a relationship between and identify the relation between tables
+- Help you to enforce identity and integrity in the relationship.
 
 ## 7 types of Keys
--   Super Key
--   Primary Key
--   Candidate Key
--   Alternate Key
--   Foreign Key
--   Compound Key
--   Composite Key
--   Surrogate Key
+
+- Super Key
+- Primary Key
+- Candidate Key
+- Alternate Key
+- Foreign Key
+- Compound Key
+- Composite Key
+- Surrogate Key
 
 ## What is the Super key?
 
@@ -44,10 +46,11 @@ In the above-given example, EmpSSN and EmpNum name are superkeys.
 A column or group of columns in a table which helps us to uniquely identifies every row in that table is called a primary key. The same value can't appear more than once in the table.
 
 Rules for defining Primary key:
--   Two rows can't have the same primary key value
--   It must for every row to have a primary key value.
--   The primary key field cannot be null.
--   The value in a primary key column can never be modified or updated if any foreign key refers to that primary key.
+
+- Two rows can't have the same primary key value
+- It must for every row to have a primary key value.
+- The primary key field cannot be null.
+- The value in a primary key column can never be modified or updated if any foreign key refers to that primary key.
 
 Example:
 
@@ -80,11 +83,12 @@ A super key with no repeated attribute is called candidate key.
 The Primary key should be selected from the candidate keys. Every table must have at least a single candidate key.
 
 Properties of Candidate key:
--   It must contain unique values
--   Candidate key may have multiple attributes
--   Must not contain null values
--   It should contain minimum fields to ensure uniqueness
--   Uniquely identify each record in a table
+
+- It must contain unique values
+- Candidate key may have multiple attributes
+- Must not contain null values
+- It should contain minimum fields to ensure uniqueness
+- Uniquely identify each record in a table
 
 Example: In the given table Stud ID, Roll No, and email are candidate keys which help us to uniquely identify the student record in the table.
 
@@ -160,8 +164,9 @@ An artificial key which aims to uniquely identify each record is called a surrog
 Above, given example, shown shift timings of the different employee. In this example, a surrogate key is needed to uniquely identify each employee.
 
 Surrogate keys are allowed when
--   No property has the parameter of the primary key.
--   In the table when the primary key is too big or complicated.
+
+- No property has the parameter of the primary key.
+- In the table when the primary key is too big or complicated.
 
 ## Difference Between Primary key & Foreign key
 
@@ -172,6 +177,6 @@ Surrogate keys are allowed when
 | Primary key is a clustered index and data in the DBMS table are physically organized in the sequence of the clustered index. | A foreign key cannot automatically create an index, clustered or non-clustered. However, you can manually create an index on the foreign key. |
 | You can have the single Primary key in a table.                                                                              | You can have multiple foreign keys in a table.                                                                                                |
 
-<https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database
+<https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database>
 
 Whenever you're choosing a Primary Key, think of an identity crisis.

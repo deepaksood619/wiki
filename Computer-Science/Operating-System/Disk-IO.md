@@ -7,19 +7,24 @@ Modified: 2020-02-25 17:07:49 +0500
 ---
 
 ## IO
--   Syscalls:[open](http://man7.org/linux/man-pages/man2/open.2.html),[write](http://man7.org/linux/man-pages/man2/write.2.html),[read](http://man7.org/linux/man-pages/man2/read.2.html),[fsync](http://man7.org/linux/man-pages/man2/fsync.2.html),[sync](http://man7.org/linux/man-pages/man2/sync.2.html),[close](http://man7.org/linux/man-pages/man2/close.2.html)
--   Standard IO:[fopen](https://linux.die.net/man/3/fopen),[fwrite](https://linux.die.net/man/3/fwrite),[fread](https://linux.die.net/man/3/fread),[fflush](https://linux.die.net/man/3/fflush),[fclose](https://linux.die.net/man/3/fclose)
--   Vectored IO:[writev](https://linux.die.net/man/2/writev),[readv](https://linux.die.net/man/2/readv)
--   Memory mapped IO:[open](http://man7.org/linux/man-pages/man2/open.2.html),[mmap](http://man7.org/linux/man-pages/man2/mmap.2.html),[msync](http://man7.org/linux/man-pages/man2/msync.2.html),[munmap](http://man7.org/linux/man-pages/man2/munmap.2.html)
+
+- Syscalls:[open](http://man7.org/linux/man-pages/man2/open.2.html),[write](http://man7.org/linux/man-pages/man2/write.2.html),[read](http://man7.org/linux/man-pages/man2/read.2.html),[fsync](http://man7.org/linux/man-pages/man2/fsync.2.html),[sync](http://man7.org/linux/man-pages/man2/sync.2.html),[close](http://man7.org/linux/man-pages/man2/close.2.html)
+- Standard IO:[fopen](https://linux.die.net/man/3/fopen),[fwrite](https://linux.die.net/man/3/fwrite),[fread](https://linux.die.net/man/3/fread),[fflush](https://linux.die.net/man/3/fflush),[fclose](https://linux.die.net/man/3/fclose)
+- Vectored IO:[writev](https://linux.die.net/man/2/writev),[readv](https://linux.die.net/man/2/readv)
+- Memory mapped IO:[open](http://man7.org/linux/man-pages/man2/open.2.html),[mmap](http://man7.org/linux/man-pages/man2/mmap.2.html),[msync](http://man7.org/linux/man-pages/man2/msync.2.html),[munmap](http://man7.org/linux/man-pages/man2/munmap.2.html)
+
 ## Buffered IO
 
 setvbuf
 
 The three types of buffering available are unbuffered, block buffered, and line buffered. When an output stream is unbuffered, information appears on the destination file or terminal as soon as written; when it is block buffered many characters are saved up and written as a block; when it is line buffered characters are saved up until a newline is output or input is read from any stream attached to a terminal device (typicallystdin)
+
 ## Sector/Block/Page
 
 *Block Device*is a special file type providing buffered access to hardware devices such as HDDs or SSDs. Block Devices work act upon*sectors*,group of adjacent bytes. Most disk devices have a sector size of 512 bytes. Sector is the smallest unit of data transfer for block device, it is not possible to transfer less than one sector worth of data. However, often it is possible to fetch multiple adjacent segments at a time. The smallest addressable unit ofFile Systemis*block*.Block is a group of multiple adjacent sectors requested by a device driver. Typical block sizes are 512, 1024, 2048 and 4096 bytes. Usually IO is done through the *Virtual Memory*, which caches requested filesystem blocks in memory and serves as a buffer for intermediate operations. Virtual Memory works with pages, which map to filesystem blocks. Typical page size is 4096 bytes.
-## In summary, Virtual Memory*pages*map to Filesystem*blocks*, which map to Block Device*sectors*.
+
+## In summary, Virtual Memory*pages*map to Filesystem*blocks*, which map to Block Device*sectors*
+
 ## Standard IO
 
 Standard IO usesread()andwrite()syscalls for performing IO operations. When reading the data, Page Cache is addressed first. If the data is absent, thePage Faultis triggered and contents are paged in. This means that reads, performed against the currently unmapped area will take longer, as caching layer is transparent to user.
@@ -28,6 +33,7 @@ During writes, buffer contents are first written to Page Cache. This means that 
 ![image](media/Disk-IO-image1.png)
 
 Standard IO takes a user space buffer and then copies it's content to the page cache. When the O_DIRECT flag is used, the buffer is written directly to the blockdevice.
+
 ## Page Cache
 
 [Page Cache](https://github.com/torvalds/linux/blob/master/include/linux/buffer_head.h)stores the recently accessed fragments of files that are more likely to be accessed in the nearest time. When working with disk files,read()andwrite()calls do not initiate disk accesses directly and go through Page Cache instead.
@@ -42,9 +48,11 @@ Another principle,**Spatial Locality**, implies that the elements physically loc
 Page Cache also improves IO performance by delaying writes and coalescing adjacent reads.
 Disambiguation: Buffer Cache and Page Cache: previously entirely separate concepts,[got unified in 2.4 Linux kernel](https://lwn.net/Articles/712467/). Right now it's mostly referred to as Page Cache, but some people people still use term Buffer Cache, which became synonymous.
 Page Cache, depending on the access pattern, holds file chunks that were recently accessed or may be accessed soon (prefetched or marked with[fadvise](https://medium.com/@ifesdjeen/on-disk-io-part-2-more-flavours-of-io-c945db3edb13)). Since all IO operations are happening through Page Cache, operations sequences such asread-write-readcan be served from memory, without subsequent disk accesses.
+
 ## Delaying Errors
 
 When performing a write that's backed by the kernel and/or a library buffer, it is important to make sure that the data actually reaches the disk, since it might be buffered or cached somewhere. The errors will appear when the data is flushed to disk, which can be whilefsyncing or closing the file.
+
 ## Direct IO
 
 There are situations when it's undesirable to use the Kernel Page Cache to perform IO. In such cases, one can use[O_DIRECT](https://ext4.wiki.kernel.org/index.php/Clarifying_Direct_IO%27s_Semantics)flag when opening a file. It instructs the Operating Systems to bypass thePage Cache, avoid storing extra copy of data and perform IO operations directly against the block device. This means that buffers are flushed directly on disk, without copying their contents to the corresponding cached page first and waiting for the Kernel to trigger a writeback.
@@ -56,6 +64,7 @@ Using Direct IO is often frowned upon by the Kernel developers. It goes so far, 
 However, databases such as[PostgreSQL](https://www.postgresql.org/message-id/529F7D58.1060301%40agliodbs.com)and[MySQL](https://dev.mysql.com/doc/refman/5.5/en/optimizing-innodb-diskio.html)use Direct IO for a reason. Developers can ensure fine-grained control over the data access, possibly using a custom IO Scheduler and an application-specific Buffer Cache. For example, PostgreSQL uses Direct IO for[WAL](https://www.postgresql.org/docs/9.5/static/runtime-config-wal.html)(write-ahead-log), since they have to perform writes as fast as possible while ensuring its durability and can use this optimization since they know for sure that the data won't be immediately reused, so writing it bypassing Page Cache won't cause performance degradation.
 
 It is discouraged to open the same file with Direct IO and Page Cache simultaneously, since direct operations will be performed against disk device even if the data is in Page Cache, which may lead to undesired results.
+
 ## Block Alignment
 
 Because Direct IO involves direct access to backing store, bypassing intermediate buffers in Page Cache, it is required that all operations are aligned to sector boundary.
@@ -69,11 +78,13 @@ In other words, every operation has to have a starting offset of a multiple of 5
 Examples of aligned writes (highlighted). Left to right: the write starts and ends on the block boundary and is exactly the size of the block; the write starts and ends on the block boundary and has a size that is a multiple of the blocksize.
 For example, RocksDB is making sure that the operations are block-aligned[by checking it upfront](https://github.com/facebook/rocksdb/blob/master/env/io_posix.cc#L312-L316)(older versions were allowing unaligned access by aligning in the background).
 Whether or not O_DIRECT flag is used, it is always a good idea to make sure your reads and writes are block aligned. Crossing segment boundary will cause multiple sectors to be loaded from (or written back on) disk as shown on images above. Using the block size or a value that fits neatly inside of a block guarantees block-aligned I/O requests, and prevents extraneous work inside the kernel.
+
 ## Nonblocking Filesystem IO
 
 I'm adding this part here since I very often hear "nonblocking" in the context of Filesystem IO. It's quite normal, since most of the programming interface for Network and Filesystem IO is the same. But it's worth mentioning that there's[no true "nonblocking" Filesystem IO](https://www.remlab.net/op/nonblock.shtml), which can be understood in the same sense.
 O_NONBLOCK is generally ignored for regular files, because block device operations are considered non-blocking (unlike socket operations, for example). Filesystem IO delays are not taken into account by the system. Possibly this decision was made because there's a more or less hard time bound on operation completion.
 For same reason, something you would usually use in Network context, likeselectandepoll, does not allow monitoring and/or checking status of regular files.
+
 ## I/O buffering
 
 In order to program for data integrity, it is crucial to have an understanding of the overall system architecture. Data can travel through several layers before it finally reaches stable storage, as seen below:
@@ -90,6 +101,7 @@ Bysequentialaccess we usually mean reads monotonically going from lower offsets 
 Randomaccess is reading non-contiguous chunks of data. It usually involves disk seeks, skipping portions of the file in order to locate the data. Hop size is often hard to predict and spans many pages (for example, when traversing a B-Tree on disk, we have to skip entire levels in order to continue the search). In summary, sequential access implies reading contiguous blocks monotonically and random access is pretty much anything else.
 Sequentialaccess is often preferred because of it's predictability. In[one of previous posts](https://medium.com/@ifesdjeen/on-disk-io-part-2-more-flavours-of-io-c945db3edb13)we've discussed the fact that avoiding Page Faults allows for a better performance, since reads are served from RAM rather than disk. When reading data sequentially, Kernel may load the pages ahead of time in the process calledprefetching: speculative reading from disk based on some prediction of future requests. In addition, sequential reads avoid additional seeks.
 Optimising for sequential reads and for sequential writes are orthogonal problems. Records written sequentially are not always read together (for example, point queries in sequentially written LSM Tree are still random). Similarly, data read together wasn't necessarily put on disk in a sequential manner (for example, a sequential read of the level in a B-Tree, which might have been updated randomly).
+
 ## Random Reads onSSDs
 
 OnHDDs, sequential access is preferred to random because of their physical organisation and the way they work. Read/write head is attached to the mechanical arm that has to travel across the disk in order to read the blocks of data; disk has to rotate in to position the track sector under read/write head. This all involves a non-trivial amount of movement. Operating System tries to amortise the costs by caching, buffering and scheduling operations optimally.
@@ -115,12 +127,15 @@ Input/output operations per second(IOPS, pronouncedeye-ops) is an [input/output]
 
 ## Wear Leveling**
 
-## Wear leveling**(also written as**wear levelling) is a technique[^[1]^](https://en.wikipedia.org/wiki/Wear_leveling#cite_note-Fundamental_Patent-1)for prolonging the[service life](https://en.wikipedia.org/wiki/Service_life)of some kinds of erasable[computer storage](https://en.wikipedia.org/wiki/Computer_storage)media, such as[flash memory](https://en.wikipedia.org/wiki/Flash_memory), which is used in[solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive)(SSDs) and[USB flash drives](https://en.wikipedia.org/wiki/USB_flash_drive), and[phase-change memory](https://en.wikipedia.org/wiki/Phase-change_memory). There are several wear leveling mechanisms that provide varying levels of longevity enhancement in such memory systems.
+## Wear leveling**(also written as**wear levelling) is a technique[^[1]^](https://en.wikipedia.org/wiki/Wear_leveling#cite_note-Fundamental_Patent-1)for prolonging the[service life](https://en.wikipedia.org/wiki/Service_life)of some kinds of erasable[computer storage](https://en.wikipedia.org/wiki/Computer_storage)media, such as[flash memory](https://en.wikipedia.org/wiki/Flash_memory), which is used in[solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive)(SSDs) and[USB flash drives](https://en.wikipedia.org/wiki/USB_flash_drive), and[phase-change memory](https://en.wikipedia.org/wiki/Phase-change_memory). There are several wear leveling mechanisms that provide varying levels of longevity enhancement in such memory systems
+
 ## Monitoring
--   Writes/sec-- write operations rate.
--   Reads/sec-- read operations rate.
--   Busy time-- the % of the elapsed time when your particular disk drive was busy in servicing write or read requests.
--   Queue length-- the number of requests on the disk that are in the queue.
+
+- Writes/sec-- write operations rate.
+- Reads/sec-- read operations rate.
+- Busy time-- the % of the elapsed time when your particular disk drive was busy in servicing write or read requests.
+- Queue length-- the number of requests on the disk that are in the queue.
+
 ## P/E Cycles
 
 A solid-state-storage program-erase cycle is a sequence of events in which data is written to[solid-state](https://searchstorage.techtarget.com/definition/solid-state-storage)[NAND flash memory](https://searchstorage.techtarget.com/definition/NAND-flash-memory)cell (such as the type found in a so-called flash or thumb drive), then erased, and then rewritten. Program-erase (PE) cycles can serve as a criterion for quantifying the endurance of a[flash storage](https://searchstorage.techtarget.com/definition/flash-storage)device.

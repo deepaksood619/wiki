@@ -6,11 +6,11 @@ Modified: 2018-09-30 15:16:24 +0500
 
 ---
 
-1.  Brute force algorithm
+1. Brute force algorithm
 
-2.  Value Iteration Algorithm
+2. Value Iteration Algorithm
 
-3.  Policy Iteration Algorithm
+3. Policy Iteration Algorithm
 
 ![media](media/Algorithms-image1.png)
 

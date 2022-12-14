@@ -13,8 +13,9 @@ The[Apache HTTP Server](https://httpd.apache.org/), also known as Apache HTTPd, 
 The Apache HTTP Server, colloquially called Apache, is a Web server application notable for playing a key role in the initial growth of the World Wide Web. Originally based on the NCSA HTTPd server, development of Apache began in early 1995 after work on the NCSA code stalled. Apache quickly overtook NCSA HTTPd as the dominant HTTP server, and has remained the most popular HTTP server in use since April 1996.
 
 Also known as HTTPd -- open source web server and extremely customizable
--   Dynamic PHP content
--   Acting as forward or reverse proxy
+
+- Dynamic PHP content
+- Acting as forward or reverse proxy
 
 ## Commands
 
@@ -65,16 +66,17 @@ sudo apachectl stop
 | `-- ports.conf
 |-- mods-enabled
 | |-- *.load
-| `-- *.conf
+|`-- *.conf
 |-- conf-enabled
 | `-- *.conf
 |-- sites-enabled
-| `-- *.conf
--   **apache2.conf**is the main configuration file. It puts the pieces together by including all remaining configuration files when starting up the web server.
--   **ports.conf**is always included from the main configuration file. It is used to determine the listening ports for incoming connections, and this file can be customized anytime.
--   Configuration files in the**mods-enabled/,conf-enabled/andsites-enabled/**directories contain particular configuration snippets which manage modules, global configuration fragments, or virtual host configurations, respectively.
--   They are activated by symlinking available configuration files from their respective *-available/ counterparts. These should be managed by using our helpersa2enmod, a2dismod,a2ensite, a2dissite,anda2enconf, a2disconf. See their respective man pages for detailed information.
--   The binary is called apache2. Due to the use of environment variables, in the default configuration, apache2 needs to be started/stopped with/etc/init.d/apache2orapache2ctl.Calling/usr/bin/apache2directly will not workwith the default configuration.
+| `--*.conf
+
+- **apache2.conf**is the main configuration file. It puts the pieces together by including all remaining configuration files when starting up the web server.
+- **ports.conf**is always included from the main configuration file. It is used to determine the listening ports for incoming connections, and this file can be customized anytime.
+- Configuration files in the**mods-enabled/,conf-enabled/andsites-enabled/**directories contain particular configuration snippets which manage modules, global configuration fragments, or virtual host configurations, respectively.
+- They are activated by symlinking available configuration files from their respective *-available/ counterparts. These should be managed by using our helpersa2enmod, a2dismod,a2ensite, a2dissite,anda2enconf, a2disconf. See their respective man pages for detailed information.
+- The binary is called apache2. Due to the use of environment variables, in the default configuration, apache2 needs to be started/stopped with/etc/init.d/apache2orapache2ctl.Calling/usr/bin/apache2directly will not workwith the default configuration.
 
 ## Document Roots
 
@@ -83,11 +85,12 @@ By default, Ubuntu does not allow access through the web browser toanyfile apart
 The default Ubuntu document root is/var/www/html. You can make your own virtual hosts under /var/www. This is different to previous releases which provides better security out of the box.
 
 ## modules
--   mod_status
+
+- mod_status
 
 <https://httpd.apache.org/docs/2.4/mod/mod_status.html>
 
-<https://www.datadoghq.com/blog/collect-apache-performance-metrics
+<https://www.datadoghq.com/blog/collect-apache-performance-metrics>
 
 ## Apache MPM (Multi Processing Module)
 
@@ -95,7 +98,7 @@ Apache's Multi-Processing Modules (MPMs) are responsible for binding to network 
 
 By default mpm is prefork which is thread safe.
 
-1.  **Prefork MPM**
+1. **Prefork MPM**
 
 Implements a non-threaded, pre-forking web server that handles requests in a manner similar to Apache 1.3. It is appropriate for sites that need to avoid threading for compatibility with non-thread-safe libraries. It is also the best MPM for isolating each request, so that a problem with a single request will not affect any other.
 
@@ -115,7 +118,7 @@ Because this MPM needs a higher number of processes to handle any given number o
 
 Avoid using MPM Prefork whenever possible. It's inability to scale well with increased traffic will quickly outpace the available hardware on most system configurations.
 
-2.  **Worker MPM**
+2. **Worker MPM**
 
 The[workerMPM](http://httpd.apache.org/docs/2.2/mod/worker.html)implements a hybrid multi-process multi-threaded server and gives better performance, hence it should be preferred unless one is using other modules that contain non-thread-safe libraries
 
@@ -135,7 +138,7 @@ Unlike the prefork MPM, the worker MPM enables each child process to serve more 
 
 The KeepAliveTimeOut directive currently defines the amount of time Apache will wait for requests. When utilizing KeepAlive with MPM Worker use the smallest KeepAliveTimeout as possible (1 second preferably).
 
-3.  **Event MPM**
+3. **Event MPM**
 
 MPM tries to fix the 'keep alive problem' in HTTP.
 
@@ -157,32 +160,32 @@ If theKeepAliveTimeoutis reached before any activity occurs on the socket, the l
 
 ![(KEEP-ALIVE CONNECTION) SOCKET A Client A Client B Parent Process Worker Thread Apache ](../../../media/DevOps-Others-Apache-Server-image3.png)
 
-4.  There are a number of other experimental MPMs such as Threadpool, Perchild, and Leader.
+4. There are a number of other experimental MPMs such as Threadpool, Perchild, and Leader.
 
-<https://www.liquidweb.com/kb/apache-performance-tuning-apache-mpm-modules
+<https://www.liquidweb.com/kb/apache-performance-tuning-apache-mpm-modules>
 
 ## Optimizations
--   **Remove the Burden of Processing Code From Apache**
+
+- **Remove the Burden of Processing Code From Apache**
 
 Apache modules provide a quick and easy solution to process the code needed to operate your website. Some of the most popular modules aremod_phpfor PHP,mod_railsfor Ruby on Rails, andmod_pythonfor Python.
 
 However, these modules come with a price: they put the burden of code processing on Apache, which can slow down website response times across the board.
 
 To improve Apache's performance, consider migrating to these alternative solutions instead:
--   PHP:[php-fpm](https://php-fpm.org/)
--   Ruby:[Unicorn](https://bogomips.org/unicorn/)
--   Python:[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/)or[gnunicorn](http://gunicorn.org/)
 
+- PHP:[php-fpm](https://php-fpm.org/)
+- Ruby:[Unicorn](https://bogomips.org/unicorn/)
+- Python:[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/)or[gnunicorn](http://gunicorn.org/)
 
--   **Change Apache's MaxKeepAliveRequests, KeepAlive, and KeepAliveTimeout Settings**
-    -   MaxKeepAliveRequestssets the maximum number of requests to accept per connection. The higher this number, the better the performance of the server, up to a point. The recommended value is 500.
-    -   KeepAliveTimeoutsets the number of seconds Apache will wait for a new request from a connection before it closes the connection. This number should be kept low. The recommended value is between 1 and 5.
-    -   MaxKeepAliveRequests 500
+- **Change Apache's MaxKeepAliveRequests, KeepAlive, and KeepAliveTimeout Settings**
+  - MaxKeepAliveRequestssets the maximum number of requests to accept per connection. The higher this number, the better the performance of the server, up to a point. The recommended value is 500.
+  - KeepAliveTimeoutsets the number of seconds Apache will wait for a new request from a connection before it closes the connection. This number should be kept low. The recommended value is between 1 and 5.
+  - MaxKeepAliveRequests 500
         KeepAlive On
         KeepAliveTimeout 3
 
-
--   **Workers**
+- **Workers**
 
 sudo ps -y l C apache2 | awk '{x += $8;y += 1} END {print "Apache Memory Usage (MB): "x/1024; print "Average Process Size (MB): "x/((y-1)*1024)}'
 
@@ -204,45 +207,42 @@ MaxConnectionsPerChild 10000
 
 </IfModule>
 
+- **StartServers**is the number of child processes created upon starting Apache.
+- [**MaxRequestWorkers**](https://httpd.apache.org/docs/2.4/mod/mpm_common.html#maxrequestworkers)(orMaxClientsin versions prior to 2.4) is the maximum number of connections that can be open at one time. Once this limit has been reached, any additional incoming connections are queued. The maximum size of the queue is determined by theListenBacklogsetting (by default 511, though it can be smaller depending on your OS; on Linux, the queue length is limited bynet.core.somaxconn).
+- **MinSpareServers**/MinSpareThreadsandMaxSpareServers/MaxSpareThreadsrefer to the minimum and maximum number of child processes (in the prefork MPM) or worker threads (in the worker and event MPMs) that should be idle at any one time. If the number of idle processes/threads does not fall within these bounds, the parent process will kill or spawn new processes/threads accordingly.
+- **MaxConnectionsPerChild**(known asMaxRequestsPerChildprior to version 2.4) determines the total number of connections each child process can serve before it is restarted, which can be important for guarding against[memory leaks](https://www.datadoghq.com/blog/monitoring-apache-web-server-performance/#toc-host-level-resource-metrics)when using certain modules like mod_php.
 
--   **StartServers**is the number of child processes created upon starting Apache.
--   [**MaxRequestWorkers**](https://httpd.apache.org/docs/2.4/mod/mpm_common.html#maxrequestworkers)(orMaxClientsin versions prior to 2.4) is the maximum number of connections that can be open at one time. Once this limit has been reached, any additional incoming connections are queued. The maximum size of the queue is determined by theListenBacklogsetting (by default 511, though it can be smaller depending on your OS; on Linux, the queue length is limited bynet.core.somaxconn).
--   **MinSpareServers**/MinSpareThreadsandMaxSpareServers/MaxSpareThreadsrefer to the minimum and maximum number of child processes (in the prefork MPM) or worker threads (in the worker and event MPMs) that should be idle at any one time. If the number of idle processes/threads does not fall within these bounds, the parent process will kill or spawn new processes/threads accordingly.
--   **MaxConnectionsPerChild**(known asMaxRequestsPerChildprior to version 2.4) determines the total number of connections each child process can serve before it is restarted, which can be important for guarding against[memory leaks](https://www.datadoghq.com/blog/monitoring-apache-web-server-performance/#toc-host-level-resource-metrics)when using certain modules like mod_php.
+- **Backlog Queue**
+  - Backlog Queue settingnet.core.somaxconnfrom128to32768
+  - Ephemeral Ports settingnet.ipv4.ip_local_port_rangefrom32768 60999to1024 65000
 
-
--   **Backlog Queue**
-    -   Backlog Queue settingnet.core.somaxconnfrom128to32768
-    -   Ephemeral Ports settingnet.ipv4.ip_local_port_rangefrom32768 60999to1024 65000
-
-
--   **Optimizations**
-    -   Remove Unused Modules
-        -   Save memory by not loading modules that you do not need, including but not limited to mod_php, mod_ruby, mod_perl, etc.
-    -   Use this command to list out modulesapache2 -Mit will list all the modules and then we have to stop loading unwanted modules. Please follow this article<https://haydenjames.io/strip-apache-improve-performance-memory-efficiency
-    -   Please check and comparempm_prefork_moduleandmpm_event_module(better than prefork).
-    -   Turn HostnameLookups Off
-        -   Stop doing expensive DNS lookups. You will rarely ever need them and when you do, you can look them up after the fact.
-    -   Do Not set KeepAliveTimeout too high
-        -   If you have more requests than apache children, this setting can starve your pool of available clients.
-    -   Check for SYMLINKS
-    -   Avoid Wildcards in DirectoryIndex
-        -   Use a specific DirectoryIndex, i.e. index.html or index.php, not index.
-    -   Avoid using hostname in configs
-        -   If you have HostnameLookups off, this will prevent you from having to wait for the DNS resolve of the hostnames in your configs, use IP addresses instead.
-    -   Use Persistent Connections
-        -   Set KeepAlive on and then set KeepAliveTimeout and KeepAliveRequests. KeepAliveTimeout is how long apache will wait for the next request, and KeepAliveRequests is the max number of requests for a client prior to resetting the connection. This will prevent the client from having to reconnect between each request.
-    -   Turn off safe_mode for php
-        -   It will utilize about 50-70% of your script time checking against these safe directives. Instead configure open_base_dir properly and utilize plugins such as mod_itk.
-    -   Don't use threaded mpm with mod_php
-        -   Look at using mod_itk, mod_php tends to segfault with threaded mpm.
-    -   Flush buffers early for pre render
-        -   It takes a relatively long time to create a web page on the backend, flush your buffer prior to page completion to send a partial page to the client, so it can start rendering. A good place to do this is right after the HEAD section -- so that the browser can start fetching other objects.
-    -   Use mod_disk_cache NOT mod_mem_cache
-        -   mod_mem_cache will not share its cache among different apache processes, which results in high memory usage with little performance gain since on an active server, mod_mem_cache will rarely serve the same page twice in the same apache process.
-    -   Configure mod_disk_cache with a flat hierarchy
-        -   Ensure that you are using CacheDirLength=2 and CacheDirLevels=1 to ensure htcacheclean will not take forever when cleaning up your cache directory.
-    -   Disabling .htaccess
+- **Optimizations**
+  - Remove Unused Modules
+    - Save memory by not loading modules that you do not need, including but not limited to mod_php, mod_ruby, mod_perl, etc.
+  - Use this command to list out modulesapache2 -Mit will list all the modules and then we have to stop loading unwanted modules. Please follow this article<https://haydenjames.io/strip-apache-improve-performance-memory-efficiency>
+  - Please check and comparempm_prefork_moduleandmpm_event_module(better than prefork).
+  - Turn HostnameLookups Off
+    - Stop doing expensive DNS lookups. You will rarely ever need them and when you do, you can look them up after the fact.
+  - Do Not set KeepAliveTimeout too high
+    - If you have more requests than apache children, this setting can starve your pool of available clients.
+  - Check for SYMLINKS
+  - Avoid Wildcards in DirectoryIndex
+    - Use a specific DirectoryIndex, i.e. index.html or index.php, not index.
+  - Avoid using hostname in configs
+    - If you have HostnameLookups off, this will prevent you from having to wait for the DNS resolve of the hostnames in your configs, use IP addresses instead.
+  - Use Persistent Connections
+    - Set KeepAlive on and then set KeepAliveTimeout and KeepAliveRequests. KeepAliveTimeout is how long apache will wait for the next request, and KeepAliveRequests is the max number of requests for a client prior to resetting the connection. This will prevent the client from having to reconnect between each request.
+  - Turn off safe_mode for php
+    - It will utilize about 50-70% of your script time checking against these safe directives. Instead configure open_base_dir properly and utilize plugins such as mod_itk.
+  - Don't use threaded mpm with mod_php
+    - Look at using mod_itk, mod_php tends to segfault with threaded mpm.
+  - Flush buffers early for pre render
+    - It takes a relatively long time to create a web page on the backend, flush your buffer prior to page completion to send a partial page to the client, so it can start rendering. A good place to do this is right after the HEAD section -- so that the browser can start fetching other objects.
+  - Use mod_disk_cache NOT mod_mem_cache
+    - mod_mem_cache will not share its cache among different apache processes, which results in high memory usage with little performance gain since on an active server, mod_mem_cache will rarely serve the same page twice in the same apache process.
+  - Configure mod_disk_cache with a flat hierarchy
+    - Ensure that you are using CacheDirLength=2 and CacheDirLevels=1 to ensure htcacheclean will not take forever when cleaning up your cache directory.
+  - Disabling .htaccess
 
 htaccess allows setting specific configuration for every single directory in our server root, without restarting. So, traversing all the directories, looking for the .htaccess files, on every request, incurs a performance penalty.
 
@@ -259,32 +259,34 @@ If we need it for the specific directories, we can then enable it withinsections
 AllowOverride All
 
 ## OS Specifics
--   Increase Swappiness
-    -   Particularly on single site hosts this will increase performance. On linux systems increase /proc/sys/vm/swappiness to at least 60 if not greater. This will try to load as many files as possible into the memory cache for faster access.
--   Increase Write Buffer Size
-    -   Increase your write buffer size for tcp/ip buffers. On linux systems increase /proc/sys/net/core/wmem_max and /proc/sys/net/core/wmem_default. If your pages fit within this buffer, apache will complete a process in one call to the tcp/ip buffer.
--   Increase Max Open Files
-    -   If you are handling high loads increase the number of allowed open files. On linux, increase /proc/sys/fs/file-max and run ulimit -H -n 4096.
 
+- Increase Swappiness
+  - Particularly on single site hosts this will increase performance. On linux systems increase /proc/sys/vm/swappiness to at least 60 if not greater. This will try to load as many files as possible into the memory cache for faster access.
+- Increase Write Buffer Size
+  - Increase your write buffer size for tcp/ip buffers. On linux systems increase /proc/sys/net/core/wmem_max and /proc/sys/net/core/wmem_default. If your pages fit within this buffer, apache will complete a process in one call to the tcp/ip buffer.
+- Increase Max Open Files
+  - If you are handling high loads increase the number of allowed open files. On linux, increase /proc/sys/fs/file-max and run ulimit -H -n 4096.
 
--   If you need to get more speed from dynamic pages, you have a few options: add a **Varnish** or **Memcached** caching layer, switch to a faster PHP runtime (e.g., **HHVM**), do load balancing, or invest in extra hardware.
+- If you need to get more speed from dynamic pages, you have a few options: add a **Varnish** or **Memcached** caching layer, switch to a faster PHP runtime (e.g., **HHVM**), do load balancing, or invest in extra hardware.
 
 ## Configurations
 
 ## Log Management
--   Mod_log_config, which lets you define the settings and storage location for your logs.
--   Mod_log_forensicrecords system state immediately before and after each request, so narrowing down suspicious activity becomes much easier.
--   Mod_logiocharts all in and out traffic in bytes.
+
+- Mod_log_config, which lets you define the settings and storage location for your logs.
+- Mod_log_forensicrecords system state immediately before and after each request, so narrowing down suspicious activity becomes much easier.
+- Mod_logiocharts all in and out traffic in bytes.
 
 Apache gathers only two distinct types of logs: Access Log and Error Logs.
 
 ## Metrics to monitor
--   Throughput and latency metrics
-    -   Request Processing Time
-    -   Rate of Requests
--   Resource Utilization and activity metrics
--   Host-level resource metrics
--   Errors
+
+- Throughput and latency metrics
+  - Request Processing Time
+  - Rate of Requests
+- Resource Utilization and activity metrics
+- Host-level resource metrics
+- Errors
 
 | **Name**                             | **Description**                                                                |
 |--------------------------|----------------------------------------------|
@@ -343,13 +345,12 @@ Apache opens a file descriptor for each connection, as well as every log file. I
 
 Apache will typically generate a 503 Service Unavailable status code when it is overloaded.
 
-
--   **Apache 2.2**can generate one processes per second.
--   **Apache 2.4**can generate up to 32 processes in on second. When minimum idle spare processes are less than MinSpareServers value, Apache start 1 process and wait for one second, If it's still less, Apache start 2 processes and wait a second, If it's still less Apache starts 4 processes and wait for a second, similarly Apache can start-up to 32 spare child processes per second and it repeated until minimum spare process exceeded MinSpareServers value.
+- **Apache 2.2**can generate one processes per second.
+- **Apache 2.4**can generate up to 32 processes in on second. When minimum idle spare processes are less than MinSpareServers value, Apache start 1 process and wait for one second, If it's still less, Apache start 2 processes and wait a second, If it's still less Apache starts 4 processes and wait for a second, similarly Apache can start-up to 32 spare child processes per second and it repeated until minimum spare process exceeded MinSpareServers value.
 
 [**https://www.datadoghq.com/blog/monitoring-apache-web-server-performance/**](https://www.datadoghq.com/blog/monitoring-apache-web-server-performance/)
 
-<https://www.datadoghq.com/blog/collect-apache-performance-metrics
+<https://www.datadoghq.com/blog/collect-apache-performance-metrics>
 
 <https://cwiki.apache.org/confluence/display/httpd/PerformanceScalingUp>
 
@@ -383,12 +384,11 @@ Programs process the request and provide a response and request back to Tomcat, 
 
 ## Varnish
 
-## Varnishis an[HTTP accelerator](https://en.wikipedia.org/wiki/HTTP_accelerator)designed for content-heavy[dynamic web sites](https://en.wikipedia.org/wiki/Dynamic_web_site)as well as APIs. In contrast to other[web accelerators](https://en.wikipedia.org/wiki/Web_accelerator), such as[Squid](https://en.wikipedia.org/wiki/Squid_(software)), which began life as a client-side cache, or[Apache](https://en.wikipedia.org/wiki/Apache_HTTP_server)and[nginx](https://en.wikipedia.org/wiki/Nginx), which are primarily origin servers, Varnish was designed as an HTTP accelerator. Varnish is focused exclusively on[HTTP](https://en.wikipedia.org/wiki/HTTP), unlike other[proxy servers](https://en.wikipedia.org/wiki/Proxy_server)that often support[FTP](https://en.wikipedia.org/wiki/FTP),[SMTP](https://en.wikipedia.org/wiki/SMTP)and other[network protocols](https://en.wikipedia.org/wiki/Network_protocol).
+## Varnishis an[HTTP accelerator](https://en.wikipedia.org/wiki/HTTP_accelerator)designed for content-heavy[dynamic web sites](https://en.wikipedia.org/wiki/Dynamic_web_site)as well as APIs. In contrast to other[web accelerators](https://en.wikipedia.org/wiki/Web_accelerator), such as[Squid](https://en.wikipedia.org/wiki/Squid_(software)), which began life as a client-side cache, or[Apache](https://en.wikipedia.org/wiki/Apache_HTTP_server)and[nginx](https://en.wikipedia.org/wiki/Nginx), which are primarily origin servers, Varnish was designed as an HTTP accelerator. Varnish is focused exclusively on[HTTP](https://en.wikipedia.org/wiki/HTTP), unlike other[proxy servers](https://en.wikipedia.org/wiki/Proxy_server)that often support[FTP](https://en.wikipedia.org/wiki/FTP),[SMTP](https://en.wikipedia.org/wiki/SMTP)and other[network protocols](https://en.wikipedia.org/wiki/Network_protocol)
 
 Varnish is used by websites including[Wikipedia](https://en.wikipedia.org/wiki/Wikipedia), online newspaper sites such as[The New York Times](https://en.wikipedia.org/wiki/The_New_York_Times),[The Guardian](https://en.wikipedia.org/wiki/The_Guardian),[Gulf News](https://en.wikipedia.org/wiki/Gulf_News),[The Hindu](https://en.wikipedia.org/wiki/The_Hindu),[Corriere della Sera](https://en.wikipedia.org/wiki/Corriere_della_Sera), social media and content sites such as[Facebook](https://en.wikipedia.org/wiki/Facebook),[Twitter](https://en.wikipedia.org/wiki/Twitter),[Reddit](https://en.wikipedia.org/wiki/Reddit), Spotify,[Vimeo](https://en.wikipedia.org/wiki/Vimeo), and[Tumblr](https://en.wikipedia.org/wiki/Tumblr). In 2012, 5% of the top 10,000 sites in the web used the software.
 
-
--   Layer 7 reverse proxy
--   HTTP Cache
+- Layer 7 reverse proxy
+- HTTP Cache
 
 <https://en.wikipedia.org/wiki/Varnish_(software)>

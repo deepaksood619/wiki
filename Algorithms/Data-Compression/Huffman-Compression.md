@@ -29,19 +29,22 @@ Ex 3: General prefix-free code
 Que: How to represent the prefix-free code?
 
 Ans: A binary trie
--   Chars in leaves
--   Codeword is path from root to leaf
+
+- Chars in leaves
+- Codeword is path from root to leaf
 
 ![image](media/Huffman-Compression-image3.jpg)
 
 ## Compression
--   Method 1: start at leaf; follow path up to the root; print bits in reverse
--   Method 2: create ST of key-value pairs
+
+- Method 1: start at leaf; follow path up to the root; print bits in reverse
+- Method 2: create ST of key-value pairs
 
 ## Expansion
--   Start at root
--   Go left if bit is 0; go right if 1
--   If leaf node, print char and return to root
+
+- Start at root
+- Go left if bit is 0; go right if 1
+- If leaf node, print char and return to root
 
 ## Huffman trie node data type
 
@@ -74,9 +77,10 @@ Ans: Reconstruct from preorder traversal of trie
 Que: How to find best prefix-free code?
 
 Shannon-Fano algorithm:
--   Partition symbols S into two subsets S~0~ and S~1~ of (roughly) equal freq
--   Codewords for symbols in S~0~ start with 0; for symbols in S~1~ start with 1
--   Recur in S~0~ and S~1~.
+
+- Partition symbols S into two subsets S~0~ and S~1~ of (roughly) equal freq
+- Codewords for symbols in S~0~ start with 0; for symbols in S~1~ start with 1
+- Recur in S~0~ and S~1~.
 
 ![image](media/Huffman-Compression-image8.jpg)
 
@@ -91,11 +95,12 @@ Problem 2: Not optimal
 Que: How to find best prefix-free code?
 
 Huffman algorithm:
--   Count frequency freq[i] for each char i in input
--   Start with one node corresponding to each char i (with weight freq[i])
--   Repeat until single trie formed:
-    -   Select two tries with min weight freq[i] and freq[j]
-    -   merge into single trie with weight freq[i] + freq[j]
+
+- Count frequency freq[i] for each char i in input
+- Start with one node corresponding to each char i (with weight freq[i])
+- Repeat until single trie formed:
+  - Select two tries with min weight freq[i] and freq[j]
+  - merge into single trie with weight freq[i] + freq[j]
 
 ## Constructing a Huffman encoding trie: Java implementation
 

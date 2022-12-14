@@ -24,9 +24,9 @@ Vitamins are organic molecules essential for an organism that are not classified
 
 ## Vitamins (Total - 13)
 
-1.  Water Soluble - B's and C
+1. Water Soluble - B's and C
 
-2.  Fat Soluble - A, D, E, K (ADEK)
+2. Fat Soluble - A, D, E, K (ADEK)
 
 Vitamin A
 
@@ -35,15 +35,14 @@ Vitamin B (total - 8) - B1 (thiamine), B2 (riboflavin), B3 (niacin), B5 (pantoth
 Vitamin C
 
 Vitamin D
--   Keeps bones healthy by increasing the absorption of calcium in the intestines. Without vitamin D, your body would only be able to absorb about 10% to 15% of the calcium from your diet.
 
--   The requirement for vitamin D is conditional, as people who get sufficient exposure to ultraviolet light, either from the sun or an artificial source, synthesize vitamin D in the skin.
+- Keeps bones healthy by increasing the absorption of calcium in the intestines. Without vitamin D, your body would only be able to absorb about 10% to 15% of the calcium from your diet.
+
+- The requirement for vitamin D is conditional, as people who get sufficient exposure to ultraviolet light, either from the sun or an artificial source, synthesize vitamin D in the skin.
 
 Vitamin E (includes[tocopherols](https://en.wikipedia.org/wiki/Tocopherol)and[tocotrienols](https://en.wikipedia.org/wiki/Tocotrienol))
 
 Vitamin K
-
-
 
 ## Minerals
 
@@ -67,11 +66,12 @@ Non-essential nutrients are substances within foods that can have a significant 
 
 ## Phytochemicals
 
-By definition,[phytochemicals](https://en.wikipedia.org/wiki/Phytochemical)include all nutritional and non-nutritional components of edible plants.Included as nutritional constituents are [provitamin](https://en.wikipedia.org/wiki/Provitamin) A [carotenoids](https://en.wikipedia.org/wiki/Carotenoid),whereas those without nutrient status are diverse[polyphenols](https://en.wikipedia.org/wiki/Polyphenol),[flavonoids](https://en.wikipedia.org/wiki/Flavonoid),[resveratrol](https://en.wikipedia.org/wiki/Resveratrol), and[lignans](https://en.wikipedia.org/wiki/Lignan)-- often claimed to have[antioxidant](https://en.wikipedia.org/wiki/Antioxidant)effects -- that are present in numerous plant foods.[^[25]^](https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi3-25)A number of phytochemical compounds are under preliminary research for their potential effects on human diseases and health.^[[23]](https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi1-23)[[24]](https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi2-24)[[25]](https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi3-25)^However, the qualification for nutrient status of compounds with poorly defined properties[*in vivo*](https://en.wikipedia.org/wiki/In_vivo)is that they must first be defined with a[Dietary Reference Intake](https://en.wikipedia.org/wiki/Dietary_Reference_Intake)level to enable accurate food labeling,a condition not established for most phytochemicals that are claimed to be antioxidant nutrients.
+By definition,[phytochemicals](https://en.wikipedia.org/wiki/Phytochemical)include all nutritional and non-nutritional components of edible plants.Included as nutritional constituents are [provitamin](https://en.wikipedia.org/wiki/Provitamin) A [carotenoids](https://en.wikipedia.org/wiki/Carotenoid),whereas those without nutrient status are diverse[polyphenols](https://en.wikipedia.org/wiki/Polyphenol),[flavonoids](https://en.wikipedia.org/wiki/Flavonoid),[resveratrol](https://en.wikipedia.org/wiki/Resveratrol), and[lignans](https://en.wikipedia.org/wiki/Lignan)-- often claimed to have[antioxidant](https://en.wikipedia.org/wiki/Antioxidant)effects -- that are present in numerous plant foods.[^[25]^](https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi3-25)A number of phytochemical compounds are under preliminary research for their potential effects on human diseases and health.^[[23]][https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi1-23]([24)][https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi2-24]([25)](https://en.wikipedia.org/wiki/Nutrient#cite_note-lpi3-25)^However, the qualification for nutrient status of compounds with poorly defined properties[*in vivo*](https://en.wikipedia.org/wiki/In_vivo)is that they must first be defined with a[Dietary Reference Intake](https://en.wikipedia.org/wiki/Dietary_Reference_Intake)level to enable accurate food labeling,a condition not established for most phytochemicals that are claimed to be antioxidant nutrients.
 
 ## Proteins
--   **Whey protein:**Whey protein is a milk protein that is quickly absorbed by the body, making it useful before or after your workout. It also contains bioactive proteins that may offer other[health benefits](https://www.healthline.com/nutrition/10-health-benefits-of-whey-protein).
--   **Casein protein:**Casein is the other milk protein that digests much slower than whey, making it ideal during periods of fasting like sleep. What's more, some brands of casein protein offer up to 60% of your RDA for calcium per scoop.
--   **Egg protein:**Egg protein powders are made with pure egg white protein. They digest at a medium rate and are one of the most expensive protein supplements on the market.
--   **Soy protein:**Soy protein is one of the few plant proteins that contains all of the essential amino acids, making it a complete protein source for vegetarians.
--   **Rice and pea protein:**Rice and pea proteins do not contain all of the essential amino acids, but combining them makes them a complete protein. They are low-allergenic, making them appealing to those with egg, dairy or soy allergies.
+
+- **Whey protein:**Whey protein is a milk protein that is quickly absorbed by the body, making it useful before or after your workout. It also contains bioactive proteins that may offer other[health benefits](https://www.healthline.com/nutrition/10-health-benefits-of-whey-protein).
+- **Casein protein:**Casein is the other milk protein that digests much slower than whey, making it ideal during periods of fasting like sleep. What's more, some brands of casein protein offer up to 60% of your RDA for calcium per scoop.
+- **Egg protein:**Egg protein powders are made with pure egg white protein. They digest at a medium rate and are one of the most expensive protein supplements on the market.
+- **Soy protein:**Soy protein is one of the few plant proteins that contains all of the essential amino acids, making it a complete protein source for vegetarians.
+- **Rice and pea protein:**Rice and pea proteins do not contain all of the essential amino acids, but combining them makes them a complete protein. They are low-allergenic, making them appealing to those with egg, dairy or soy allergies.

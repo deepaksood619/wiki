@@ -36,7 +36,7 @@ Hystrix is a latency and fault tolerance library designed to isolate points of a
 
 A framework for elegantly configuring complex applications.
 
-<https://github.com/facebookresearch/hydra
+<https://github.com/facebookresearch/hydra>
 
 [https://cli.dev](https://cli.dev/)
 

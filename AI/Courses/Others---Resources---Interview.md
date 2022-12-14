@@ -15,97 +15,98 @@ Modified: 2022-10-01 10:19:14 +0500
 <https://www.freecodecamp.org/news/best-machine-learning-courses>
 
 ## Courses ML & AI
--   <https://www.freecodecamp.org/news/machine-learning-for-everybody>
--   <https://github.com/GoogleCloudPlatform/training-data-analyst>
--   <https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python>
--   CS 498 Applied Machine Learning
--   STAT 420 Methods of Applied Statistics
--   STAT 571 Multivariate Analysis
--   CS 410 Text Information Systems
--   <https://github.com/GokuMohandas/practicalAI>
--   STAT 542 Practical Statistical Learning Causal Inference / Econometrics
--   JASON@MLMastery 14 day course email
--   Adrian@pysearchimage 17 day ml course email
--   <https://www.kaggle.com/c/titanic>
--   <https://github.com/Avik-Jain/100-Days-Of-ML-Code>
--   <https://www.elementsofai.com>
--   <https://in.udacity.com/course/deep-learning--ud730-india>
--   Learning from Data Course by Prof Yaser Abu-Mostafa
--   FREE - Google's ML Crash Course
--   FREE - course.fast.ai
--   Free Computation Linear Algebra - <https://www.fast.ai/2017/07/17/num-lin-alg>
--   PAID - Coursera - <https://www.deeplearning.ai>
--   Neural Networks and Deep Learning by Andrew Ng
--   Stanford's ML Course by Andrew Ng
--   <http://neuralnetworksanddeeplearning.com>
--   <http://www.deeplearningbook.org>
--   The school of AI - Move37
--   The school of AI - Decentralized Applications
--   <https://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=99107737>
--   <https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010>
--   <https://madewithml.com>
--   <https://www.coursera.org/specializations/practical-data-science>
--   <https://www.edx.org/course/fundamentals-of-tinyml>
--   <https://www.univ.ai>
+
+- <https://www.freecodecamp.org/news/machine-learning-for-everybody>
+- <https://github.com/GoogleCloudPlatform/training-data-analyst>
+- <https://www.datacamp.com/courses/machine-learning-with-tree-based-models-in-python>
+- CS 498 Applied Machine Learning
+- STAT 420 Methods of Applied Statistics
+- STAT 571 Multivariate Analysis
+- CS 410 Text Information Systems
+- <https://github.com/GokuMohandas/practicalAI>
+- STAT 542 Practical Statistical Learning Causal Inference / Econometrics
+- JASON@MLMastery 14 day course email
+- Adrian@pysearchimage 17 day ml course email
+- <https://www.kaggle.com/c/titanic>
+- <https://github.com/Avik-Jain/100-Days-Of-ML-Code>
+- <https://www.elementsofai.com>
+- <https://in.udacity.com/course/deep-learning--ud730-india>
+- Learning from Data Course by Prof Yaser Abu-Mostafa
+- FREE - Google's ML Crash Course
+- FREE - course.fast.ai
+- Free Computation Linear Algebra - <https://www.fast.ai/2017/07/17/num-lin-alg>
+- PAID - Coursera - <https://www.deeplearning.ai>
+- Neural Networks and Deep Learning by Andrew Ng
+- Stanford's ML Course by Andrew Ng
+- <http://neuralnetworksanddeeplearning.com>
+- <http://www.deeplearningbook.org>
+- The school of AI - Move37
+- The school of AI - Decentralized Applications
+- <https://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=99107737>
+- <https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010>
+- <https://madewithml.com>
+- <https://www.coursera.org/specializations/practical-data-science>
+- <https://www.edx.org/course/fundamentals-of-tinyml>
+- <https://www.univ.ai>
 
 ## Courses - Data
--   <https://stories.thedataproject.net>
--   <https://www.alphaa.ai/saurabh-moody> (Certification Free)
--   Python for data science
--   Data Warehousing & Business Intelligence
--   Bipedal robot walker openai gym move37 course
--   <https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder>
--   WorldQuant University Scientific Computing and Python for Data Science
--   <https://www.coursera.org/specializations/data-mining>
--   <https://www.edx.org/course/data-science-wrangling-2>
--   <https://lagunita.stanford.edu/courses/course-v1:ComputerScience+MMDS+SelfPaced/about>
--   <https://www.coursera.org/specializations/big-data>
--   <https://onlinecourses.nptel.ac.in/noc19_cs33/course>
--   <https://in.udacity.com/course/data-science-interview-prep--ud944>
--   PGDAST - Post Graduate Diploma in Applied Statistics - IGNOU
--   Applied Data Science in Python
--   <https://in.udacity.com/course/data-wrangling-with-mongodb--ud032>
--   <https://www.coursera.org/specializations/data-science>
--   scikit-learn
--   freecodecamp.org data visualization certification
--   Training data analyst google github <https://github.com/GoogleCloudPlatform/training-data-analyst>
--   Data science for startup - <https://bgweber.github.io>
--   Readings in applied data science - <https://github.com/hadley/stats337>
--   Fundamentals of data vizualization - <https://serialmentor.com/dataviz>
--   Spark - <https://cognitiveclass.ai/learn/spark>
-    -   Spark, storm, flink
-    -   Athena / Presto / Hive
+
+- <https://stories.thedataproject.net>
+- <https://www.alphaa.ai/saurabh-moody> (Certification Free)
+- Python for data science
+- Data Warehousing & Business Intelligence
+- Bipedal robot walker openai gym move37 course
+- <https://www.kaggle.com/learn/data-visualization-from-non-coder-to-coder>
+- WorldQuant University Scientific Computing and Python for Data Science
+- <https://www.coursera.org/specializations/data-mining>
+- <https://www.edx.org/course/data-science-wrangling-2>
+- <https://lagunita.stanford.edu/courses/course-v1:ComputerScience+MMDS+SelfPaced/about>
+- <https://www.coursera.org/specializations/big-data>
+- <https://onlinecourses.nptel.ac.in/noc19_cs33/course>
+- <https://in.udacity.com/course/data-science-interview-prep--ud944>
+- PGDAST - Post Graduate Diploma in Applied Statistics - IGNOU
+- Applied Data Science in Python
+- <https://in.udacity.com/course/data-wrangling-with-mongodb--ud032>
+- <https://www.coursera.org/specializations/data-science>
+- scikit-learn
+- freecodecamp.org data visualization certification
+- Training data analyst google github <https://github.com/GoogleCloudPlatform/training-data-analyst>
+- Data science for startup - <https://bgweber.github.io>
+- Readings in applied data science - <https://github.com/hadley/stats337>
+- Fundamentals of data vizualization - <https://serialmentor.com/dataviz>
+- Spark - <https://cognitiveclass.ai/learn/spark>
+  - Spark, storm, flink
+  - Athena / Presto / Hive
 
 HDFS Architecture
 
 <https://hadoop.apache.org/docs/r3.0.0/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html>
 
-
--   Computer Vision - <https://in.udacity.com/course/introduction-to-computer-vision--ud810>
--   NPTEL - Data Mining - <https://onlinecourses.nptel.ac.in/noc19_cs15>
--   NPTEL - Big Data Computing - <https://onlinecourses.nptel.ac.in/noc19_cs33/course>
--   <https://www.analyticsvidhya.com/blog/2019/12/30-challenging-open-source-data-science-projects-2020>
--   Dagster POC
--   <https://realpython.com/pandas-groupby>
--   <https://realpython.com/build-recommendation-engine-collaborative-filtering>
--   <https://realpython.com/python-statistics>
--   <https://www.sketchingbigdata.org>
--   <https://realpython.com/numpy-array-programming>
--   <https://github.com/guipsamora/pandas_exercises>
--   <https://www.kaggle.com/learn/overview>
--   [GOOD] <https://www.coursera.org/specializations/big-data-engineering>
--   <https://github.com/adilkhash/Data-Engineering-HowTo>
--   <https://in.udacity.com/course/intro-to-data-science--ud359>
--   <https://in.udacity.com/course/intro-to-data-analysis--ud170-india>
--   Google Cloud Coursera free specialization
--   <https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course>
--   [Python for Data Science](https://www.classcentral.com/course/swayam-python-for-data-science-14266) by Indian Institute of Technology Madras via Swayam
--   [Python and Statistics for Financial Analysis](https://www.classcentral.com/course/python-statistics-financial-analysis-12648) by The Hong Kong University of Science and Technology via Coursera
--   <https://www.youtube.com/365datascience>
--   <https://www.coursera.org/professional-certificates/gcp-data-engineering>
--   [**https://www.coursera.org/specializations/data-science-python**](https://www.coursera.org/specializations/data-science-python)
--   <https://www.freecodecamp.org/news/algorithmic-trading-using-python-course>
--   <https://www.freecodecamp.org/news/hands-on-data-science-course>
+- Computer Vision - <https://in.udacity.com/course/introduction-to-computer-vision--ud810>
+- NPTEL - Data Mining - <https://onlinecourses.nptel.ac.in/noc19_cs15>
+- NPTEL - Big Data Computing - <https://onlinecourses.nptel.ac.in/noc19_cs33/course>
+- <https://www.analyticsvidhya.com/blog/2019/12/30-challenging-open-source-data-science-projects-2020>
+- Dagster POC
+- <https://realpython.com/pandas-groupby>
+- <https://realpython.com/build-recommendation-engine-collaborative-filtering>
+- <https://realpython.com/python-statistics>
+- <https://www.sketchingbigdata.org>
+- <https://realpython.com/numpy-array-programming>
+- <https://github.com/guipsamora/pandas_exercises>
+- <https://www.kaggle.com/learn/overview>
+- [GOOD] <https://www.coursera.org/specializations/big-data-engineering>
+- <https://github.com/adilkhash/Data-Engineering-HowTo>
+- <https://in.udacity.com/course/intro-to-data-science--ud359>
+- <https://in.udacity.com/course/intro-to-data-analysis--ud170-india>
+- Google Cloud Coursera free specialization
+- <https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course>
+- [Python for Data Science](https://www.classcentral.com/course/swayam-python-for-data-science-14266) by Indian Institute of Technology Madras via Swayam
+- [Python and Statistics for Financial Analysis](https://www.classcentral.com/course/python-statistics-financial-analysis-12648) by The Hong Kong University of Science and Technology via Coursera
+- <https://www.youtube.com/365datascience>
+- <https://www.coursera.org/professional-certificates/gcp-data-engineering>
+- [**https://www.coursera.org/specializations/data-science-python**](https://www.coursera.org/specializations/data-science-python)
+- <https://www.freecodecamp.org/news/algorithmic-trading-using-python-course>
+- <https://www.freecodecamp.org/news/hands-on-data-science-course>
 
 Statistics and EDA
 
@@ -213,15 +214,15 @@ Health care
 
 <https://towardsdatascience.com/5-professional-projects-every-data-scientist-should-know-e89bf4e7e8e1>
 
-1.  Customer Segmentation
+1. Customer Segmentation
 
-2.  Text Classification
+2. Text Classification
 
-3.  Sentiment Analysis
+3. Sentiment Analysis
 
-4.  Time Series Forecasting
+4. Time Series Forecasting
 
-5.  Recommendation Systems
+5. Recommendation Systems
 
 ## Courses
 

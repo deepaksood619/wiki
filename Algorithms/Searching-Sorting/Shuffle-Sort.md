@@ -7,8 +7,9 @@ Modified: 2018-02-02 17:53:32 +0500
 ---
 
 Goal: Rearrange array so that result is a uniformly random permutation
--   Generate a random real number for each array entry
--   Sort the array
+
+- Generate a random real number for each array entry
+- Sort the array
 
 Proposition: Shuffle sort produces a uniformly random permutation of the input array, provided no duplicate values
 

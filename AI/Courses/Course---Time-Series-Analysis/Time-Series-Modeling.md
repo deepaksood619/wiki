@@ -12,31 +12,32 @@ Patterns in the past persist in the future
 
 ## Modeling
 
-1.  Significant coefficients
+1. Significant coefficients
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image1.png)
 
-2.  Parsimonious (as simple as possible)
+2. Parsimonious (as simple as possible)
 
-    1.  Generally: Simpler model > Complex model
+    1. Generally: Simpler model > Complex model
 
-    2.  Significantly better predictions: Simpler model < Complex model
+    2. Significantly better predictions: Simpler model < Complex model
 
-    3.  Log-Likelihood Ratio test (LLR)
+    3. Log-Likelihood Ratio test (LLR)
 
 Can be used for Different degrees of freedom
 
 Same total number of lags -> No LLR
 
 Information criteria
--   AIC
--   BIC
--   HQIC
+
+- AIC
+- BIC
+- HQIC
 
 If we're comparing two model and we want to choose the better fit, then we choose the one with **Higher Log-Likelihood and lower Information Criteria**
 
-3.  Residuals
-    -   Overtraining
+3. Residuals
+    - Overtraining
 
 ## AutoRegressive (AR) Model
 
@@ -48,9 +49,8 @@ Since time series assumes that patterns found in the past translate to the futur
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image2.jpg)
 
-
--   A linear model, where current period values are a sum of past outcomes multiplied by a numeric factor
--   phi is between -1 and +1
+- A linear model, where current period values are a sum of past outcomes multiplied by a numeric factor
+- phi is between -1 and +1
 
 ## Implementation of simple mode in Python
 
@@ -87,13 +87,15 @@ p=chi2.sf(LR,DF).round(3)
 returnp
 
 Why do we choose the AR(7)over the AR(8)?
--   The AR(8) fails the LLR test
--   The AR(8) does not provide significantly higher Log-likelihood
--   The AR(8) has higher information criteria
+
+- The AR(8) fails the LLR test
+- The AR(8) does not provide significantly higher Log-likelihood
+- The AR(8) has higher information criteria
 
 AR models:
--   Stationary (works)
--   Non-stationary (not works)
+
+- Stationary (works)
+- Non-stationary (not works)
 
 ## Returns
 
@@ -104,7 +106,8 @@ df['returns']=df.market_value.pct_change(1).mul(100)
 df=df.iloc[1:]
 
 Why did we conduct the Augmented Dickey-Fuller test on returns?
--   To make sure the newly generated data set is stationary
+
+- To make sure the newly generated data set is stationary
 
 The more easily yesterday's price is affected by higher lags, the more inaccurate its coefficient becomes.
 
@@ -156,11 +159,10 @@ What did we learn about normalized and non-normalized returns in this lecture?
 
 They have the same optimal model
 
-
--   MA models do not perform well for non-stationary data
--   MA models are great in modeling Random Walks because they take into account our mistakes
--   MA aspect does that, Also use the previous period's values
--   Some combination of AR and MA models would be best
+- MA models do not perform well for non-stationary data
+- MA models are great in modeling Random Walks because they take into account our mistakes
+- MA aspect does that, Also use the previous period's values
+- Some combination of AR and MA models would be best
 
 When the ACFcoefficients don't seem to die off, we should use what kind of model?
 
@@ -181,39 +183,42 @@ Picking the correct order for such a model could be tricky, since including or r
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image9.png)
 
 Positive 0.7649 ar.L1.returns means that
--   A coefficient above 75% suggest that there is a positive tendency between past and present values
--   Returns move in trends of consecutive positive or negative values
--   Periods of persistent increase or decreases when translated to prices
+
+- A coefficient above 75% suggest that there is a positive tendency between past and present values
+- Returns move in trends of consecutive positive or negative values
+- Periods of persistent increase or decreases when translated to prices
 
 Negative -08141 ma.L1.returns
--   Slightly harder to interpret
--   We should be moving away from the past period (t-1) values
--   These past error terms ensure we don't get a "Fool in the shower" type of error
--   We want to prevent our targets from moving, before we've accounted for them
+
+- Slightly harder to interpret
+- We should be moving away from the past period (t-1) values
+- These past error terms ensure we don't get a "Fool in the shower" type of error
+- We want to prevent our targets from moving, before we've accounted for them
 
 Why do we compare the ARMA(1,1)with the AR(1) and MA(1) models using the LLR test?
 
 Because they are nested in the ARMA(1,1)
 
 Why do we choose the ARMA(3,2) to be the best fit?
--   All coefficients are significant
--   Highest log-likelihood among the models with all coefficients significant.
--   Lowest information criteria out of the models with all coefficients significant.
+
+- All coefficients are significant
+- Highest log-likelihood among the models with all coefficients significant.
+- Lowest information criteria out of the models with all coefficients significant.
 
 Why do we change our preferred model upon seeing the ACF/PACF of the model residuals?
 
 We saw a pattern in the residuals time series, which meant there is a factor we hadn't accounted for in our regression.
 
-
--   Even though we can model prices using ARMA models, they perform much worse compared to their ability to estimate stationary data
+- Even though we can model prices using ARMA models, they perform much worse compared to their ability to estimate stationary data
 
 What did we learn when we compared the log-likelihoods of the preferred ARMA model for prices and the preferred ARMA model for returns?
 
 The ARMAmodel yields a much higher log-likelihood for returns compared to prices.
 
 ## ARIMA (AutoRegressive Integrated Moving Average)
--   Integrated - Accounts for the number of non-seasonal differences we need to examine to establish stationarity
--   A single factor of integration is enough to reach stationarity
+
+- Integrated - Accounts for the number of non-seasonal differences we need to examine to establish stationarity
+- A single factor of integration is enough to reach stationarity
 
 The ARIMA is just an integrated version of the ARMA model. What that means is, we simply integrate the data (however many times is needed) to get a stationary set
 
@@ -245,8 +250,7 @@ ARIMA (p, 0, 0) = AR(p)
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image12.png)
 
-
--   For any integration we lose a single observation
+- For any integration we lose a single observation
 
 What are an ARIMA (1,0,2) and an ARIMA (0,0,1) equivalent to?
 
@@ -269,9 +273,10 @@ Why do we NOT need higher levels of integration in this case?
 The purpose of integration is to reach stationarity and we reach it after 1 integration.
 
 Why don't we use integrated models on stationary data?
--   The purpose of integration is to ensure stationarity.
--   This will only needlessly complicate the model.
--   The more we integrate without having to, the more difficult it is to comprehend the values and extract an insight.
+
+- The purpose of integration is to ensure stationarity.
+- This will only needlessly complicate the model.
+- The more we integrate without having to, the more difficult it is to comprehend the values and extract an insight.
 
 ## The ARMAX Model (Autogressive Integrated Moving Average eXogenous Model)
 
@@ -294,12 +299,13 @@ An ARIMA model with 0 degrees of integration is simply an ARMA model, and so any
 The order of integration (d) tells us exactly how many times we need to compute the non-seasonal differences between the values to reach stationarity and including more is discouraged (due to data attrition and interpretability of the results)
 
 X can be any variable we're interested in
--   A time-varying measurement
--   A categorical variable
--   A boolean value (for some festive period)
--   A combinations of several different external factors
--   Any other variable(s) that can affect prices as long as we have the data available for every period
--   X is called "eXogeneous" variables
+
+- A time-varying measurement
+- A categorical variable
+- A boolean value (for some festive period)
+- A combinations of several different external factors
+- Any other variable(s) that can affect prices as long as we have the data available for every period
+- X is called "eXogeneous" variables
 
 Why are MAXmodels useful?
 
@@ -332,8 +338,9 @@ Capital letters - Seasonal components
 Lower letters - Non seasonal components
 
 ## s = Length of cycle
--   The number of periods needed to pass before the tendency reappears
--   s = 1 -> No seasonality
+
+- The number of periods needed to pass before the tendency reappears
+- s = 1 -> No seasonality
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image18.jpg)
 
@@ -344,15 +351,16 @@ Lower letters - Non seasonal components
 ![Implementation](media/Course---Time-Series-Analysis_Time-Series-Modeling-image21.jpg)
 
 ## Volatility
--   The magnitude of residuals
--   Low variance -> Stability -> Low risk -> Safety
--   Squaring values
-    -   Solves the positive-negative conundrum
-    -   Penalizes high differences between true values and predictions more
-    -   Increases the importance of big unpredicted shocks
--   Numeric measurements of uncertainity
--   For Volatility of returns we have models like **EGARCH**
--   What does volatility clustering mean?
+
+- The magnitude of residuals
+- Low variance -> Stability -> Low risk -> Safety
+- Squaring values
+  - Solves the positive-negative conundrum
+  - Penalizes high differences between true values and predictions more
+  - Increases the importance of big unpredicted shocks
+- Numeric measurements of uncertainity
+- For Volatility of returns we have models like **EGARCH**
+- What does volatility clustering mean?
 
 It means that low volatility is followed by low volatility and high is followed by high.
 
@@ -410,17 +418,17 @@ How does the GARCH (1,1) compare to complex ARCH counterparts?
 
 It outperforms even the ARCH(12) model we examined earlier.
 
-
--   No higher order GARCH models outperform the GARCH(1,1) when it comes to variance of market returns
--   All the effects of the conditional variacne 2 days ago will be contained in the conditional variance of yesterday
--   No need to include more than 1 GARCH component
+- No higher order GARCH models outperform the GARCH(1,1) when it comes to variance of market returns
+- All the effects of the conditional variacne 2 days ago will be contained in the conditional variance of yesterday
+- No need to include more than 1 GARCH component
 
 How do GARCH(p,q) models for the volatility of returns perform compared to the GARHC(1,1)?
 
 Yield non-significant coefficients
 
 ## Auto ARIMA
--   auto_arima by default only compares the model based on their AIC
+
+- auto_arima by default only compares the model based on their AIC
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image28.png)
 
@@ -429,36 +437,42 @@ Yield non-significant coefficients
 ## Forecasting
 
 ## Pitfalls/Peculiarities
--   Picking an incorrect type of model (integrated vs non-integrated) depending on the data
--   We can always forecast stationary returns and then create the prices based on these returns
+
+- Picking an incorrect type of model (integrated vs non-integrated) depending on the data
+- We can always forecast stationary returns and then create the prices based on these returns
 
 AR
--   It only depends on the past values and the constant coefficient
--   The more past lags we include, wthe more time it takes to flatten out
--   The monotonous nature of the predictions makes it unreasonable
+
+- It only depends on the past values and the constant coefficient
+- The more past lags we include, wthe more time it takes to flatten out
+- The monotonous nature of the predictions makes it unreasonable
 
 MA
--   We can't make long run predictions if we're relying on error terms
--   We can't autogenerate future residuals since we don't have actual values anymore
--   true value - estimate = residual
--   Manually create white noise residual values for the entire time period we're forecasting
--   We can recursively create a time series of predictions
+
+- We can't make long run predictions if we're relying on error terms
+- We can't autogenerate future residuals since we don't have actual values anymore
+- true value - estimate = residual
+- Manually create white noise residual values for the entire time period we're forecasting
+- We can recursively create a time series of predictions
 
 ARMA
--   Just a combination of the AR and MA models
--   Prone to experiening both types of errors (for the AR and MA)
--   By creating the artificial residuals, we get rid of both issues
+
+- Just a combination of the AR and MA models
+- Prone to experiening both types of errors (for the AR and MA)
+- By creating the artificial residuals, we get rid of both issues
 
 MAX models (ARMAX and SARIMAX)
--   If the exogenous variables are other time series as well, we'll run into some trouble
+
+- If the exogenous variables are other time series as well, we'll run into some trouble
 
 ## Forecasting Volatility
 
 ## Multivariate Regression
--   Regressions stacked on top of one another
--   These are called vector model -> Every component contains a value for each of the time series
--   VAR - Vector Autoregressive Model
--   VARMA
--   Vector SARIMAX
+
+- Regressions stacked on top of one another
+- These are called vector model -> Every component contains a value for each of the time series
+- VAR - Vector Autoregressive Model
+- VARMA
+- Vector SARIMAX
 
 Business case - A look into the Automobile Industry

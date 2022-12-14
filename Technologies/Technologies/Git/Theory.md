@@ -19,11 +19,12 @@ git-bisect - Use binary search to find the commit that introduced a bug
 ## git pull origin master from a different branch
 
 This command directly fetch and merge the changes from origin to ECBC-master and than merges to the current branch. So we don't have to perform following steps-
--   git pull
--   git checkout master
--   git pull (For fast forwarding the branch)
--   git checkout form-validations
--   git merge master
+
+- git pull
+- git checkout master
+- git pull (For fast forwarding the branch)
+- git checkout form-validations
+- git merge master
 
 ## Rebase
 
@@ -74,7 +75,7 @@ Just remember to alwaysgit branch backupbefore you rebase. Then, after the rebas
 | `-- update
 |-- index
 |-- info
-| `-- exclude
+|`-- exclude
 |-- logs
 | |-- HEAD
 | `-- refs
@@ -104,9 +105,10 @@ Event sourcing system have two components - current state of the systems and log
 Other example of event sourcing system is accounting systems.
 
 ## Git ignore already tracked files
--   **git update-index --skip-worktree**
 
-## --skip-worktreeis the flag which means the files should change locally.
+- **git update-index --skip-worktree**
+
+## --skip-worktreeis the flag which means the files should change locally
 
 That is,Use the command when you want to modify files managed by Git locally (or updated automatically) but you do not want Git to manage that change.
 
@@ -124,10 +126,9 @@ git ls-files shows all files managed by git.
 
 $ git update-index --no-skip-worktree path/to/file #Restore to the management of Git
 
+- **git update-index --assume-unchanged**
 
--   **git update-index --assume-unchanged**
-
-## --assume-unchangedis the flag which means the files should not change locally.
+## --assume-unchangedis the flag which means the files should not change locally
 
 In other words, it is used whenignore files that you do not need to change locally (or should not change).
 
@@ -153,19 +154,19 @@ One of these attributes is theeol(end of line) and is used to configure the line
 
 ## 7 Rules of great Git commit message
 
-1.  [Separate subject from body with a blank line](https://chris.beams.io/posts/git-commit/#separate)
+1. [Separate subject from body with a blank line](https://chris.beams.io/posts/git-commit/#separate)
 
-2.  [Limit the subject line to 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
+2. [Limit the subject line to 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
 
-3.  [Capitalize the subject line](https://chris.beams.io/posts/git-commit/#capitalize)
+3. [Capitalize the subject line](https://chris.beams.io/posts/git-commit/#capitalize)
 
-4.  [Do not end the subject line with a period](https://chris.beams.io/posts/git-commit/#end)
+4. [Do not end the subject line with a period](https://chris.beams.io/posts/git-commit/#end)
 
-5.  [Use the imperative mood in the subject line](https://chris.beams.io/posts/git-commit/#imperative)
+5. [Use the imperative mood in the subject line](https://chris.beams.io/posts/git-commit/#imperative)
 
-6.  [Wrap the body at 72 characters](https://chris.beams.io/posts/git-commit/#wrap-72)
+6. [Wrap the body at 72 characters](https://chris.beams.io/posts/git-commit/#wrap-72)
 
-7.  [Use the body to explainwhatandwhyvs.how](https://chris.beams.io/posts/git-commit/#why-not-how)
+7. [Use the body to explainwhatandwhyvs.how](https://chris.beams.io/posts/git-commit/#why-not-how)
 
 ## References
 
@@ -195,9 +196,9 @@ Git branch -f <branch_name> <where_to_move>
 
 The first method to combine work that we will examine isgit merge. Merging in Git creates a special commit that has two unique parents. A commit with two parents essentially means "I want to include all the work from this parent over here and this one over here,andthe set of all their parents."
 
-1.  **Checkout the branch where you want the commits to merge.**
+1. **Checkout the branch where you want the commits to merge.**
 
-2.  **Use command git merge <branch_name> from where you want commits to merge to the branch**
+2. **Use command git merge <branch_name> from where you want commits to merge to the branch**
 
 Git checkout -b bugFix
 
@@ -251,7 +252,7 @@ Git rebase <branch-name> -i
 
 ## Moving around in Git
 
-1.  **HEAD**
+1. **HEAD**
 
 HEAD is the symbolic name for the currently checked out commit -- it's essentially what commit you're working on top of.
 
@@ -261,9 +262,9 @@ HEAD always points to the most recent commit which is reflected in the working t
 
 Detaching HEAD just means attaching it to a commit instead of a branch.
 
-2.  **Relative Refs**
-    -   Moving upwards one commit at a time with^ (Caret Operator)
-    -   Moving upwards a number of times with~<num>
+2. **Relative Refs**
+    - Moving upwards one commit at a time with^ (Caret Operator)
+    - Moving upwards a number of times with~<num>
 
 Git checkout bugFix^ (parent of bugFix)
 
@@ -307,8 +308,6 @@ git cherry-pick <Commit1> <Commit2> <...>
 
 It's a very straightforward way of saying that you would like to copy a series of commits below your current location (HEAD).
 
-
-
 ## Locally stacked commits
 
 ## Problem -
@@ -336,10 +335,11 @@ Here's another situation that happens quite commonly. You have some changes (new
 The tricky thing is that sometimes you need to make a small modification to an earlier commit. In this case, design wants us to change the dimensions ofnewImageslightly, even though that commit is way back in our history!!
 
 We will overcome this difficulty by doing the following:
--   We will re-order the commits so the one we want to change is on top withgit rebase -i
--   We willcommit --amendto make the slight modification
--   Then we will re-order the commits back to how they were previously withgit rebase -i
--   Finally, we will move master to this updated part of the tree to finish the level (via the method of your choosing)
+
+- We will re-order the commits so the one we want to change is on top withgit rebase -i
+- We willcommit --amendto make the slight modification
+- Then we will re-order the commits back to how they were previously withgit rebase -i
+- Finally, we will move master to this updated part of the tree to finish the level (via the method of your choosing)
 
 Git rebase -i master
 
@@ -387,8 +387,6 @@ The output of the command looks like:
 
 Wheretagis the closest ancestor tag in history,numCommitsis how many commits away that tag is, and<hash>is the hash of the commit being described.
 
-
-
 ## Specifying Parents in merge commit (Using Modifiers)
 
 Like the~modifier, the^modifier also accepts an optional number after it.
@@ -415,27 +413,26 @@ Git branch bugWork HEAD~^2~
 
 ## Remote Commands
 
-1.  **Git clone**
+1. **Git clone**
 
-2.  **Git fetch**
+2. **Git fetch**
 
 git fetchperforms two main steps, and two main steps only. It:
--   downloads the commits that the remote has but are missing from our local repository, and...
--   updates where our remote branches point (for instance,o/master)
+
+- downloads the commits that the remote has but are missing from our local repository, and...
+- updates where our remote branches point (for instance,o/master)
 
 git fetchessentially brings ourlocalrepresentation of the remote repository into synchronization with what theactualremote repository looks like (right now).
 
-3.  **Git pull**
+3. **Git pull**
 
-4.  **Git push**
+4. **Git push**
 
 ## Diverged history
 
 ![Now if we rebase before pushing instead... co C? master* o/master co git fetch; git rebase o/master; git push Boom! We updated our local representation of the remote with git fetc , rebased our work to reflect the new changes in the remote, and then pushed them with git push master ](../../media/Technologies-Git-Theory-image7.png)
 
 ## Git pull --rebase; git push
-
-
 
 ## Feature Branches Push and Pull
 
@@ -459,6 +456,6 @@ Git checkout -b side o/master
 
 Git push origin <source>:<destination>
 
-<https://learngitbranching.js.org
+<https://learngitbranching.js.org>
 
-<https://www.freecodecamp.org/news/git-for-professionals
+<https://www.freecodecamp.org/news/git-for-professionals>

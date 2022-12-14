@@ -26,7 +26,7 @@ First import itertools package to implement permutations method in python. This 
 
 # permutations using library function
 
-## from** itertools **import permutations
+## from**itertools**import permutations
 
 # Get all permutations of [1, 2, 3]
 
@@ -34,7 +34,7 @@ perm **=** permutations([1, 2, 3])
 
 # Print the obtained permutations
 
-## for** i **in list(perm):
+## for**i**in list(perm)
 
 print i
 
@@ -55,7 +55,7 @@ If want want to get permutations of length L then implement it in this way.
 
 # permutations of given length
 
-## from** itertools **import permutations
+## from**itertools**import permutations
 
 # Get all permutations of length 2
 
@@ -65,7 +65,7 @@ perm **=** permutations([1, 2, 3], 2)
 
 # Print the obtained permutations
 
-## for** i **in list(perm):
+## for**i**in list(perm)
 
 print i
 
@@ -88,7 +88,7 @@ This method takes a list and r (length) as an input and return an object list of
 
 # combinations of given length
 
-## from** itertools **import combinations
+## from**itertools**import combinations
 
 # Get all combinations of [1, 2, 3]
 
@@ -98,7 +98,7 @@ comb **=** combinations([1, 2, 3], 2)
 
 # Print the obtained combinations
 
-## for** i **in list(comb):
+## for**i**in list(comb)
 
 print i
 
@@ -108,13 +108,13 @@ Output
 (1, 3)
 (2, 3)
 
-1.  Combinations are emitted in lexicographic sort order of input. So, if the input list is sorted, the combination tuples will be produced in sorted order.
+1. Combinations are emitted in lexicographic sort order of input. So, if the input list is sorted, the combination tuples will be produced in sorted order.
 
 # A Python program to print all combinations
 
-# of given length with unsorted input.
+# of given length with unsorted input
 
-## from** itertools **import combinations
+## from**itertools**import combinations
 
 # Get all combinations of [2, 1, 3]
 
@@ -124,7 +124,7 @@ comb **=** combinations([2, 1, 3], 2)
 
 # Print the obtained combinations
 
-## for** i **in list(comb):
+## for**i**in list(comb)
 
 print i
 
@@ -134,13 +134,13 @@ Output
 (2, 3)
 (1, 3)
 
-2.  Elements are treated as unique based on their position, not on their value. So if the input elements are unique, there will be no repeat values in each combination.
+2. Elements are treated as unique based on their position, not on their value. So if the input elements are unique, there will be no repeat values in each combination.
 
 # A Python program to print all combinations
 
 # of given length with duplicates in input
 
-## from** itertools **import combinations
+## from**itertools**import combinations
 
 # Get all combinations of [1, 1, 3]
 
@@ -150,7 +150,7 @@ comb **=** combinations([1, 1, 3], 2)
 
 # Print the obtained combinations
 
-## for** i **in list(comb):
+## for**i**in list(comb)
 
 print i
 
@@ -160,7 +160,7 @@ Output
 (1, 3)
 (1, 3)
 
-3.  If we want to make combination of same element to same element then we use combinations_with_replacement.
+3. If we want to make combination of same element to same element then we use combinations_with_replacement.
 
 # A Python program to print all combinations
 
@@ -168,7 +168,7 @@ Output
 
 # also included
 
-## from** itertools **import combinations_with_replacement
+## from**itertools**import combinations_with_replacement
 
 # Get all combinations of [1, 2, 3] and length 2
 
@@ -176,7 +176,7 @@ comb **=** combinations_with_replacement([1, 2, 3], 2)
 
 # Print the obtained combinations
 
-## for** i **in list(comb):
+## for**i**in list(comb)
 
 print i
 

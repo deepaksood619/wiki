@@ -6,17 +6,17 @@ Modified: 2020-08-26 11:59:46 +0500
 
 ---
 
-1.  Services
+1. Services
 
-2.  DNS for Services and Pods
+2. DNS for Services and Pods
 
-3.  Connecting Applications with Services
+3. Connecting Applications with Services
 
-4.  Ingress
+4. Ingress
 
-5.  Network Policies
+5. Network Policies
 
-6.  Adding entries to Pod /etc/hosts with HostAliases
+6. Adding entries to Pod /etc/hosts with HostAliases
 
 ## Kubernetes Networking
 
@@ -111,18 +111,20 @@ Last but not least... all Pods are on the same flat overlay network and routes e
 <https://nigelpoulton.com/blog/f/demystifying-kubernetes-service-discovery>
 
 ## Others
--   Kubernetes performsIP address management(**IPAM**) to keep track of used and free IP addresses on the Pod network.
+
+- Kubernetes performsIP address management(**IPAM**) to keep track of used and free IP addresses on the Pod network.
 
 ## Source ip preservation in loadbalancer
 
 kubectl patch svc flask-republisher -n testing -p '{"spec":{"externalTrafficPolicy":"Local"}}'
 
-<https://kubernetes.io/docs/tutorials/services/source-ip
+<https://kubernetes.io/docs/tutorials/services/source-ip>
 
 ## Kube-proxy
 
 Kube-proxy is a go application which can work in three modes:
--   **userspace**
+
+- **userspace**
 
 In this mode, Kube-proxy installs iptables rules which capture traffic to a Service's ClusterIP and redirects that traffic to Kube-proxy's listening port. Kube-proxy then chooses a backend Pod and forwards the request to it.
 
@@ -130,15 +132,13 @@ kube-proxy serves as an OSI layer 4 load balancer in this model. Since Kube-prox
 
 ![Node Client clusterIP (iptables) Backend Pod I labels: app=MyApp port: 9376 kube-proxy Backend Pod 2 labels: app=MyApp port: 9376 apiserver Backend Pod 3 labels: app=MyApp port: 9376 ](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image10.png)
 
-
--   **iptables**
+- **iptables**
 
 To avoid the additional copies between kernelspace and userspace, Kube-proxy can work on iptables mode. Kube-proxy creates an iptables rule for each of the backend Pods in the Service. After catching the traffic sent to the ClusterIP, iptables forwards that traffic directly to one of the backend Pod using DNAT. In this mode, Kube-proxy no longer serves as the OSI layer 4 proxy. It only creates corresponding iptables rules. Without switching between kernelspace and userspace, the proxy process is more efficient.
 
 ![Backend Pod 1 labels: app=MyApp port: 9376 Client clusterIP (iptables) Backend Pod 2 labels: app=MyApp port: 9376 apiserver kube-proxy Node Backend Pod 3 labels: app=MyApp polt: 9376 ](../../media/DevOps-Kubernetes-Services,-LoadBalancing-and-Networking-image11.png)
 
-
--   **ipvs**
+- **ipvs**
 
 This model is similar to iptables because both ipvs and iptables are base on netfilter hook in kernelspace. Ipvs uses hash tables to store rules, meaning it's faster than iptables, especially in a large cluster where there're thousands of services. In addition, ipvs supports more load balancing algorithms.
 
@@ -156,7 +156,7 @@ This model is similar to iptables because both ipvs and iptables are base on net
 
 <https://medium.com/google-cloud/understanding-kubernetes-networking-ingress-1bc341c84078>
 
-<https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model
+<https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model>
 
 <https://www.youtube.com/watch?v=0Omvgd7Hg1I>
 
@@ -176,13 +176,13 @@ Calico is an open source networking and network security solution for containers
 
 Calico combines flexible networking capabilities with run-anywhere security enforcement to provide a solution with native Linux kernel performance and true cloud-native scalability. Calico provides developers and cluster operators with a consistent experience and set of capabilities whether running in public cloud or on-prem, on a single node or across a multi-thousand node cluster.
 
-<https://docs.projectcalico.org/v3.11/introduction
+<https://docs.projectcalico.org/v3.11/introduction>
 
 <https://github.com/projectcalico/calico>
 
-<https://www.projectcalico.org
+<https://www.projectcalico.org>
 
-<https://eksworkshop.com/beginner/120_network-policies/calico
+<https://eksworkshop.com/beginner/120_network-policies/calico>
 
 Calico with Canal
 
@@ -198,7 +198,7 @@ Flannel
 
 Romana
 
-<http://romana.io/how/romana_basics
+<http://romana.io/how/romana_basics>
 
 Kube Router
 
@@ -208,20 +208,23 @@ Kopeio
 
 <https://github.com/kopeio/networking>
 
-
--   Which of the plugins allow vxlans?
+- Which of the plugins allow vxlans?
 
 Canal, Project Calico, Flannel, Kopeio-networking, Weave Net
--   Which are layer 2 plugins?
+
+- Which are layer 2 plugins?
 
 Canal, Flannel, Kopeio-networking, Weave Net
--   Which are layer 3?
+
+- Which are layer 3?
 
 Project Calico, Romana, Kube Router
--   Which allow network policies?
+
+- Which allow network policies?
 
 Project Calico, Canal, Kube Router, Romana Weave Net
--   Which can encrypt all TCP and UDP traffic?
+
+- Which can encrypt all TCP and UDP traffic?
 
 Project Calico, Kopeio, Weave Net
 

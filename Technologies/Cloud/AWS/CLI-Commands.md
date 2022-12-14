@@ -25,15 +25,18 @@ sudo ./aws/install
 aws configure
 region - ap-south-1
 output - json
+
 ```
 
 ## # adding new profile
 ```
+
 aws configure --profile zen
 
 aws ec2 describe-instances --profile {{profile_name}}
 
 aws s3 ls --profile zen
+
 ```
 
 
@@ -54,8 +57,8 @@ aws s3 presign s3://bigbet90/index.html --expires-in 90 # in seconds max 36 hour
 aws s3 cp aws.png s3://bigbet90 --region us-west-2 --endpoint-url <https://bigbet90.s3-accelerate.amazonaws.com>
 ```
 
-
 ## Download folder / bucket from s3
+
 ```
 aws s3 sync
 
@@ -85,15 +88,14 @@ aws rds modify-db-parameter-group --db-parameter-group-name [aurora-data-analyti
 aws rds modify-db-parameter-group --db-parameter-group-name aurora-prod-db-write-group --parameters "ParameterName='max_execution_time',ParameterValue=1500000,ApplyMethod=immediate"
 ```
 
-
 ## Tools
 
 ### awslog
 
 awslogsis a simple command line tool for querying groups, streams and events from[Amazon CloudWatch](http://aws.amazon.com/cloudwatch/) logs.
 
-
 <https://github.com/jorgebastida/awslogs>
--   Set credentials at your env vars;
--   Logs in production: `awslogs get production-zf-backend ALL --aws-region sa-east-1`;
--   Logs in staging: `awslogs get staging-zf-backend ALL --aws-region us-east-1`.
+
+- Set credentials at your env vars;
+- Logs in production: `awslogs get production-zf-backend ALL --aws-region sa-east-1`;
+- Logs in staging: `awslogs get staging-zf-backend ALL --aws-region us-east-1`.

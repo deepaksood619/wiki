@@ -11,19 +11,23 @@ Modified: 2018-06-09 14:38:22 +0500
 Considernpeople who are attending a party. We assume that every person has an equal probability of being born on any day during the year, independently of everyone else, and ignore the additional complication presented by leap years (i.e., nobody is born on February 29). What is the probability that each person has a distinct birthday?
 ![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image1.png)
 ![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image2.png)
+
 # Rooks on a chessboard
 
 Eight rooks are placed in distinct squares of an8×8chessboard, with all possible placements being equally likely. Find the probability that all the rooks are safe from one another, i.e., that there is no row or column with more than one rook.
 ![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image3.png)
 ![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image4.png)
-1.  Counting Principle
 
-2.  Discrete Uniform Law
+1. Counting Principle
+
+2. Discrete Uniform Law
+
 # Hypergeometric probabilities
 
 An urn containsnballs, out of which exactlymare red. We selectkof the balls at random, without replacement (i.e., selected balls are not put back into the urn before the next selection). What is the probability thatiof the selected balls are red?
 ![image](media/Intro---Syllabus_Unit-3---Solved-Problems-image5.png)
 ![と ) ](media/Intro---Syllabus_Unit-3---Solved-Problems-image6.png)
+
 # Multinomial probabilities
 
 An urn contains balls ofrdifferent colors. We drawnballs, with different draws being independent. For any given draw, there is a probabilitypi,i=1,...,r, of getting a ball of colori. Here, thepi's are nonnegative numbers that sum to 1.

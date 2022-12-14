@@ -6,23 +6,23 @@ Modified: 2018-12-30 18:49:26 +0500
 
 ---
 
-1.  Vectors
+1. Vectors
 
-2.  Linear combinations, span and basis vectors
+2. Linear combinations, span and basis vectors
 
-3.  Linear transformations and matrices
+3. Linear transformations and matrices
 
-4.  Matrix multiplication as composition
+4. Matrix multiplication as composition
 
-5.  Three dimensional linear transformation
+5. Three dimensional linear transformation
 
-6.  The determinant
+6. The determinant
 
-7.  Inverse matrices, column space, rank and null space
+7. Inverse matrices, column space, rank and null space
 
-8.  Non square matrices
+8. Non square matrices
 
-9.  Dot product and duality
+9. Dot product and duality
 
 10. Cross product
 
@@ -33,27 +33,31 @@ Modified: 2018-12-30 18:49:26 +0500
 13. Eigenvectors and eigenvalues
 
 14. Abstract vector spaces
-1.  **Vectors**
+1. **Vectors**
 
     a.  Vector addition (adding two vectors)
 
     b.  Scalar multiplication (increasing the length of a vector by a given number)
 
-2.  **Linear combinations, span and basis vectors**
+2. **Linear combinations, span and basis vectors**
 ![image](media/3Blue1Brown-image1.png)
 
 called as i hat and j hat
 ![image](media/3Blue1Brown-image2.png)
-## Linearly dependent vectors - If one vector can be removed without changing the span of the vectors. i.e. one of the vectors can be expressed as a linear combination of the other vector.
+
+## Linearly dependent vectors - If one vector can be removed without changing the span of the vectors. i.e. one of the vectors can be expressed as a linear combination of the other vector
 
 ![image](media/3Blue1Brown-image3.png)
 ![image](media/3Blue1Brown-image4.png)
-## Basis -** The **basis of a vector space is a set of linearly independent vectors that span the full space.
-3.  **Linear Transformations and Matrices**
+
+## Basis -**The**basis of a vector space is a set of linearly independent vectors that span the full space
+
+3. **Linear Transformations and Matrices**
 
 For transformations to be linear, there are two property
--   All lines must remain line and not get curved
--   Origin must remain fixed in place
+
+- All lines must remain line and not get curved
+- Origin must remain fixed in place
 
 Grid lines remain parallel and evenly spaced
 4.  **Matrix Multiplication as composition**
@@ -67,14 +71,15 @@ In matrix multiplication, order matters
 But Matrix multiplication is associative i.e. (AB)C = A(BC)
 5.  **Three dimensional linear transformations**
 
-6.  **The determinant**
+6. **The determinant**
 
 ![](media/3Blue1Brown-image7.png)
--   If one area changes by some factor than every area changes by that factor.
--   The determinant of a transformation is the change in area of a grid after applying linear transformation
--   The factor by which a linear transformation changes any area is called the determinant of that transformation.
--   Negative determinant tells that orientation of space is inverted.
--   In 3 dimensions, determinant tells us how much volume gets scaled.
+
+- If one area changes by some factor than every area changes by that factor.
+- The determinant of a transformation is the change in area of a grid after applying linear transformation
+- The factor by which a linear transformation changes any area is called the determinant of that transformation.
+- Negative determinant tells that orientation of space is inverted.
+- In 3 dimensions, determinant tells us how much volume gets scaled.
 
 Volume of the parallelepiped
 
@@ -94,9 +99,10 @@ Until det(A) not equal to 0, A^-1^ exists-   Rank - Number of dimensions in the 
     -   Rank 1 - One dimensional line
     -   Rank 2 - Two dimensional plane
     -   Rank 3 - Three dimensional 3d space
--   Set of all possible outputs of the matrix is called the "column space" of the matrix A
--   Full rank - When this rank is as high as it can be meaning it equals the number of column, we call the matrix full rank
--   Null Space Kernel - All the vectors that squishes into origin when transformation takes place
+
+- Set of all possible outputs of the matrix is called the "column space" of the matrix A
+- Full rank - When this rank is as high as it can be meaning it equals the number of column, we call the matrix full rank
+- Null Space Kernel - All the vectors that squishes into origin when transformation takes place
 
 In Ax = v, when v happens to be the zero vector, null space gives all of the possible solution to the linear equation
 8.  **Non Square Matrices as transformations between dimensions**
@@ -111,10 +117,12 @@ Matching coordinates, multiplying pair and adding them together.
 If we projected vector w onto the line that passes through the origin and the tip of vector v, multiplying the length of this projection, by the length of v, we have the dot product.
 ![image](media/3Blue1Brown-image14.png)
 ![image](media/3Blue1Brown-image15.png)-   If vectors are pointing in the same direction, then the dot product is positive
--   If vectors are perpendicular to each other, there dot product is 0
--   If vectors are pointing in the opposing direction, then there dot product is negative
--   Order doesn't matter, V.W = W.V
--   Dot product is a very useful geometric tool for understanding projections, and for testing whether or not vectors tend to point in the same direction
+
+- If vectors are perpendicular to each other, there dot product is 0
+- If vectors are pointing in the opposing direction, then there dot product is negative
+- Order doesn't matter, V.W = W.V
+- Dot product is a very useful geometric tool for understanding projections, and for testing whether or not vectors tend to point in the same direction
+
 10. **Cross Products**
 
 ![image](media/3Blue1Brown-image16.png)
@@ -126,7 +134,8 @@ If v is to the left of w, than cross product is negative
 ![image](media/3Blue1Brown-image18.png)
 ![](media/3Blue1Brown-image19.png)
 ![V det ](media/3Blue1Brown-image20.png)-   Cross product of two perpendicular vectors are greater than the vectors that are pointing in very similar direction
--   If we scale a vector by a factor of a, than area of parallelogram also scales up by a factor of a
+
+- If we scale a vector by a factor of a, than area of parallelogram also scales up by a factor of a
 
 ![](media/3Blue1Brown-image21.png)
 Cross product of two vectors is a vector that is the area of the parallelogram and is perpendicular to the parallelogram and in the direction of the thumb of the right hand rule.
@@ -158,7 +167,8 @@ Eigenvectors - the vectors that doesn't change its span after a transformation. 
 ![image](media/3Blue1Brown-image33.png)
 ![image](media/3Blue1Brown-image34.png)
 ![image](media/3Blue1Brown-image35.png)-   Negative eigenvalue corresponds to flipping during transformation
--   There could be no eigenvectors in a transformation
+
+- There could be no eigenvectors in a transformation
 
 Ex - Rotation by 90 degrees
 
@@ -175,8 +185,9 @@ We can change our coordinate system so that our eigenvectors are our basis vecto
 14. **Abstract Vector Spaces**
 
 ![image](media/3Blue1Brown-image38.png)-   Additivity - If you add two vectors and then perform a transformation, the result is same vector for the transformed addition of vectors and the previous addition vector.
--   Scaling - Is if you scale a vector v by some number, then apply the transformation, you get the same ultimate vector as if you scale the transformed version of v by that same amount.
--   Linear transformations preserve addition and scalar multiplication
+
+- Scaling - Is if you scale a vector v by some number, then apply the transformation, you get the same ultimate vector as if you scale the transformed version of v by that same amount.
+- Linear transformations preserve addition and scalar multiplication
 ![image](media/3Blue1Brown-image39.png)
 
 ## References

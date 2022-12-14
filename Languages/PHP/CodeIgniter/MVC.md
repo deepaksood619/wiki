@@ -70,10 +70,9 @@ The other responsibility of the controller is to handle everything that pertains
 
 Controllers are typically stored in/app/Controllers, though they can use a namespace to be grouped however you need.
 
-
--   The name of the controller class must start with an uppercase letter.
--   The controller must be called with lowercase letter.
--   Do not use the same name of the method as your parent class, as it will override parent class's functionality.
+- The name of the controller class must start with an uppercase letter.
+- The controller must be called with lowercase letter.
+- Do not use the same name of the method as your parent class, as it will override parent class's functionality.
 
 <?php
 class Test extends CI_Controller {

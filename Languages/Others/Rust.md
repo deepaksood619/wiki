@@ -15,22 +15,21 @@ Rust has been the "most loved programming language" in the[Stack Overflow](https
 ## Cargo: the Rust build tool and package manager
 
 When you install Rustup you'll also get the latest stable version of the Rust build tool and package manager, also known as Cargo. Cargo does lots of things:
--   build your project withcargo build
--   run your project withcargo run
--   test your project withcargo test
--   build documentation for your project withcargo doc
--   publish a library to[crates.io](https://crates.io/)withcargo publish
 
-
+- build your project withcargo build
+- run your project withcargo run
+- test your project withcargo test
+- build documentation for your project withcargo doc
+- publish a library to[crates.io](https://crates.io/)withcargo publish
 
 <https://en.wikipedia.org/wiki/Rust_(programming_language)>
 
-<https://www.rust-lang.org
+<https://www.rust-lang.org>
 
 <https://www.youtube.com/watch?v=s19G6n0UjsM>
 
 <https://www.rust-lang.org/learn>
 
-<https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular
+<https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular>
 
-<https://www.freecodecamp.org/news/rust-in-replit
+<https://www.freecodecamp.org/news/rust-in-replit>

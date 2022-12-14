@@ -6,39 +6,41 @@ Modified: 2021-03-27 01:05:55 +0500
 
 ---
 
-1.  Introduction
+1. Introduction
 
-2.  The paradox of the derivative
+2. The paradox of the derivative
 
-3.  Derivative formulas through geometry
+3. Derivative formulas through geometry
 
-4.  Visualizing the chain rule and product rule
+4. Visualizing the chain rule and product rule
 
-5.  Derivatives of exponentials (What's so special about Euler's number e)
+5. Derivatives of exponentials (What's so special about Euler's number e)
 
-6.  Implicit differentiation, what going on here?
+6. Implicit differentiation, what going on here?
 
-7.  Limits, L'Hopital's rule, and epsilon delta definitions
+7. Limits, L'Hopital's rule, and epsilon delta definitions
 
-8.  Integration and the fundamental theorem of calculus
+8. Integration and the fundamental theorem of calculus
 
-9.  What does area have to do with slope?
+9. What does area have to do with slope?
 
 10. Higher order derivatives
 
 11. Taylor series
 
 12. The other way to visualize derivatives (What they won't teach you in calculus)
-1.  **Introduction**
--   Derivative formulas
--   Product rule, chain rule
--   Implicit differentiation
--   Integral and derivatives are opposite
--   Taylor series
+1. **Introduction**
+
+- Derivative formulas
+- Product rule, chain rule
+- Implicit differentiation
+- Integral and derivatives are opposite
+- Taylor series
 ![2 丌 r ](media/Essence-of-Calculus---3Blue1Brown-image1.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image2.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image3.png)
-2.  **The paradox of the derivative**
+
+2. **The paradox of the derivative**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image4.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image5.png)
@@ -101,7 +103,8 @@ We write some contant times t, as e to some constants time t, because rate of ch
     -   **Formal definition of a derivative**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image43.png)
-## h = dx**-   **(ε, 𝛿) definition of a limit (epsilon - delta)
+
+## h = dx**-**(ε, 𝛿) definition of a limit (epsilon - delta)
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image44.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image45.png)
@@ -159,17 +162,20 @@ Finding the average of a continuous thing.
 ![image](media/Essence-of-Calculus---3Blue1Brown-image85.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image86.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image87.png)-   Lagrange error bounds
--   Convergence tests
+
+- Convergence tests
+
 12. **What they won't teach you in calculus**
-    -   **Derivative is the slope of a graph**
-    -   **Integral is a certain area under that graph**
-    -   **Multivariable calculus**
-    -   **Complex analysis**
-    -   **Differential geometry**
-    -   **Polymorphic Function**
-    -   **Jacobian Determinant**
+    - **Derivative is the slope of a graph**
+    - **Integral is a certain area under that graph**
+    - **Multivariable calculus**
+    - **Complex analysis**
+    - **Differential geometry**
+    - **Polymorphic Function**
+    - **Jacobian Determinant**
 
 ![](media/Essence-of-Calculus---3Blue1Brown-image88.png)
+
 ## References
 
 [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)

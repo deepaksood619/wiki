@@ -8,7 +8,8 @@ Modified: 2021-10-15 11:52:59 +0500
 
 ## Gaussian Noise
 
-## Gaussian noiseis[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1)[[2]](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In other words, the values that the noise can take on are Gaussian-distributed.
+## Gaussian noiseis[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]][https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1]([2)](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In other words, the values that the noise can take on are Gaussian-distributed
+
 ![image](media/Other-Statistics-image1.png)
 A special case is*white Gaussian noise*, in which the values at any pair of times are[identically distributed](https://en.wikipedia.org/wiki/Iid)and[statistically independent](https://en.wikipedia.org/wiki/Statistically_independent)(and hence[uncorrelated](https://en.wikipedia.org/wiki/Uncorrelated)). In[communication channel](https://en.wikipedia.org/wiki/Channel_(communications))testing and modelling, Gaussian noise is used as additive[white noise](https://en.wikipedia.org/wiki/White_noise)to generate[additive white Gaussian noise](https://en.wikipedia.org/wiki/Additive_white_Gaussian_noise).
 <https://en.wikipedia.org/wiki/Gaussian_noise>
@@ -32,28 +33,36 @@ In[mathematics](https://en.wikipedia.org/wiki/Mathematics), a**monotonic functio
 <https://en.wikipedia.org/wiki/Monotonic_function>
 
 ## Null Hypothesis**
--   (in a statistical test) the hypothesis that there is no significant difference between specified populations, any observed difference being due to sampling or experimental error.
--   The idea that there's no effect
+
+- (in a statistical test) the hypothesis that there is no significant difference between specified populations, any observed difference being due to sampling or experimental error.
+- The idea that there's no effect
+
 ## Alternative hypothesis
--   is one that states that sample observations are influenced by some non-random cause. From an A/B test perspective, the alternative hypothesis states that thereisa difference between the control and variant group.
+
+- is one that states that sample observations are influenced by some non-random cause. From an A/B test perspective, the alternative hypothesis states that thereisa difference between the control and variant group.
+
 ## F-distribution
 
 In[probability theory](https://en.wikipedia.org/wiki/Probability_theory)and[statistics](https://en.wikipedia.org/wiki/Statistics), the***F*-distribution**, also known as**Snedecor's*F*distribution**or the**Fisher--Snedecor distribution**(after[Ronald Fisher](https://en.wikipedia.org/wiki/Ronald_Fisher)and[George W. Snedecor](https://en.wikipedia.org/wiki/George_W._Snedecor)) is a[continuous probability distribution](https://en.wikipedia.org/wiki/Continuous_probability_distribution)that arises frequently as the[null distribution](https://en.wikipedia.org/wiki/Null_distribution)of a[test statistic](https://en.wikipedia.org/wiki/Test_statistic), most notably in the[analysis of variance](https://en.wikipedia.org/wiki/Analysis_of_variance)(ANOVA), e.g.,[*F*-test](https://en.wikipedia.org/wiki/F-test).
+
 ## F-test
 
 An***F*-test**is any[statistical test](https://en.wikipedia.org/wiki/Statistical_test)in which the[test statistic](https://en.wikipedia.org/wiki/Test_statistic)has an[*F*-distribution](https://en.wikipedia.org/wiki/F-distribution)under the[null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis). It is most often used when[comparing statistical models](https://en.wikipedia.org/wiki/Model_selection)that have been fitted to a[data](https://en.wikipedia.org/wiki/Data)set, in order to identify the model that best fits the[population](https://en.wikipedia.org/wiki/Population_(statistics))from which the data were sampled. Exact "*F*-tests" mainly arise when the models have been fitted to the data using[least squares](https://en.wikipedia.org/wiki/Least_squares).
+
 ## F1-score
 
 In[statistical](https://en.wikipedia.org/wiki/Statistics)analysis of[binary classification](https://en.wikipedia.org/wiki/Binary_classification), the**F~1~score**(also**F-score**or**F-measure**) is a measure of a test's accuracy. It considers both the[precision](https://en.wikipedia.org/wiki/Precision_(information_retrieval))*p*and the[recall](https://en.wikipedia.org/wiki/Recall_(information_retrieval))*r*of the test to compute the score:*p*is the number of correct positive results divided by the number of all positive results returned by the classifier, and*r*is the number of correct positive results divided by the number of all relevant samples (all samples that should have been identified as positive). The F~1~score is the[harmonic average](https://en.wikipedia.org/wiki/Harmonic_mean)of the[precision and recall](https://en.wikipedia.org/wiki/Precision_and_recall), where an F~1~score reaches its best value at 1 (perfect precision and recall) and worst at 0.
+
 ## Moving Average (MA)
 
 In[statistics](https://en.wikipedia.org/wiki/Statistics), a**moving average**(**rolling average**or**running average**) is a calculation to analyze data points by creating series of[averages](https://en.wikipedia.org/wiki/Average)of different subsets of the full data set. It is also called a**moving mean**(**MM**)or**rolling mean**and is a type of[finite impulse response](https://en.wikipedia.org/wiki/Finite_impulse_response) filter.
 Given a series of numbers and a fixed subset size, the first element of the moving average is obtained by taking the average of the initial fixed subset of the number series. Then the subset is modified by "shifting forward"; that is, excluding the first number of the series and including the next value in the subset.
 A moving average is commonly used with[time series](https://en.wikipedia.org/wiki/Time_series)data to smooth out short-term fluctuations and highlight longer-term trends or cycles. The threshold between short-term and long-term depends on the application, and the parameters of the moving average will be set accordingly. For example, it is often used in[technical analysis](https://en.wikipedia.org/wiki/Technical_analysis)of financial data, like stock[prices](https://en.wikipedia.org/wiki/Price),[returns](https://en.wikipedia.org/wiki/Return_(finance))or trading volumes. It is also used in[economics](https://en.wikipedia.org/wiki/Economics)to examine gross domestic product, employment or other macroeconomic time series. Mathematically, a moving average is a type of[convolution](https://en.wikipedia.org/wiki/Convolution)and so it can be viewed as an example of a[low-pass filter](https://en.wikipedia.org/wiki/Low-pass_filter)used in[signal processing](https://en.wikipedia.org/wiki/Signal_processing). When used with non-time series data, a moving average filters higher frequency components without any specific connection to time, although typically some kind of ordering is implied. Viewed simplistically it can be regarded as smoothing the data.-   Simple Moving Average
--   Cumulative Moving Average
--   Weighted Moving Average
--   Exponential Moving Average
--   Centered Moving Average
+
+- Cumulative Moving Average
+- Weighted Moving Average
+- Exponential Moving Average
+- Centered Moving Average
 <https://en.wikipedia.org/wiki/Moving_average>
 
 ## Parameter Space**
@@ -109,6 +118,7 @@ The Lorenz curve is a graphical representation of[income inequality](https://www
 ## Rank Order Scale / Rank Ordering / Ranking scale**
 
 Rank order items are analyzed using[Spearman](http://changingminds.org/explanations/research/analysis/spearman.htm)or[Kendall](http://changingminds.org/explanations/research/analysis/kendall.htm)correlation.
+
 ## Statistical Power
 
 <https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python>

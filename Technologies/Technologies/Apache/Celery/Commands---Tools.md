@@ -70,8 +70,6 @@ upgrade Perform upgrade between versions.
 
 worker Start worker instance.
 
-
-
 from celery import Celery
 
 app = Celery('tasks', backend='redis://default:password123@localhost', broker='redis://default:password123@localhost')
@@ -112,46 +110,46 @@ If the task raised an exception, you can also gain access to the original traceb
 
 Flower is a web based tool for monitoring and administrating[Celery](http://celeryproject.org/)clusters
 
-
--   Real-time monitoring using Celery Events
-    -   Task progress and history
-    -   Ability to show task details (arguments, start time, run-time, and more)
-    -   Graphs and statistics
--   Remote Control
-    -   View worker status and statistics
-    -   Shutdown and restart worker instances
-    -   Control worker pool size and autoscale settings
-    -   View and modify the queues a worker instance consumes from
-    -   View currently running tasks
-    -   View scheduled tasks (ETA/countdown)
-    -   View reserved and revoked tasks
-    -   Apply time and rate limits
-    -   Configuration viewer
-    -   Revoke or terminate tasks
--   HTTP API
-    -   List workers
-    -   Shut down a worker
-    -   Restart worker's pool
-    -   Grow worker's pool
-    -   Shrink worker's pool
-    -   Autoscale worker pool
-    -   Start consuming from a queue
-    -   Stop consuming from a queue
-    -   List tasks
-    -   List (seen) task types
-    -   Get a task info
-    -   Execute a task
-    -   Execute a task by name
-    -   Get a task result
-    -   Change soft and hard time limits for a task
-    -   Change rate limit for a task
-    -   Revoke a task
--   OpenID authentication
+- Real-time monitoring using Celery Events
+  - Task progress and history
+  - Ability to show task details (arguments, start time, run-time, and more)
+  - Graphs and statistics
+- Remote Control
+  - View worker status and statistics
+  - Shutdown and restart worker instances
+  - Control worker pool size and autoscale settings
+  - View and modify the queues a worker instance consumes from
+  - View currently running tasks
+  - View scheduled tasks (ETA/countdown)
+  - View reserved and revoked tasks
+  - Apply time and rate limits
+  - Configuration viewer
+  - Revoke or terminate tasks
+- HTTP API
+  - List workers
+  - Shut down a worker
+  - Restart worker's pool
+  - Grow worker's pool
+  - Shrink worker's pool
+  - Autoscale worker pool
+  - Start consuming from a queue
+  - Stop consuming from a queue
+  - List tasks
+  - List (seen) task types
+  - Get a task info
+  - Execute a task
+  - Execute a task by name
+  - Get a task result
+  - Change soft and hard time limits for a task
+  - Change rate limit for a task
+  - Revoke a task
+- OpenID authentication
 
 ## Load Average
--   os.getloadavg()
--   system run queue averaged over the last 1, 5, and 15 minutes
--   This loadaverage is of the host not the container
+
+- os.getloadavg()
+- system run queue averaged over the last 1, 5, and 15 minutes
+- This loadaverage is of the host not the container
 
 ## Monitoring
 
@@ -163,10 +161,10 @@ Monitor Celery Tasks with Prometheus and celery-exporter
 
 <https://github.com/mher/flower>
 
-<https://flower.readthedocs.io/en/latest
+<https://flower.readthedocs.io/en/latest>
 
 ## Jobtastic
 
 Jobtastic is a python library that adds useful features to your Celery tasks. Specifically, these are features you probably want if the results of your jobs are expensive or if your users need to wait while they compute their results.
 
-<http://policystat.github.io/jobtastic
+<http://policystat.github.io/jobtastic>

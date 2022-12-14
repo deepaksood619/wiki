@@ -42,7 +42,7 @@ Modified: 2020-04-11 15:21:28 +0500
 
 ![](../../../media/Technologies-Apache-MapReduce-Examples-image18.png)
 
-![Example 6: Finding Friends Assume the friends are stored as Person->[List of friends list is then: BCD B->ACDE C->ABDE D->ABCE BCD ](../../../media/Technologies-Apache-MapReduce-Examples-image19.png)
+![List of friends list is then: BCD B->ACDE C->ABDE D->ABCE BCD](../../../media/Technologies-Apache-MapReduce-Examples-image19.png)
 
 ![Example 6: Finding Friends For тар(А -> В С о) : (А В) ВС D (А С) ВС D For map(V 9 5) : (В D) ->ACDE С.- е...Э (Note that А comes before В ](../../../media/Technologies-Apache-MapReduce-Examples-image20.png)
 

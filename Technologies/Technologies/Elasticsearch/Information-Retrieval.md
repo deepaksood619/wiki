@@ -21,14 +21,16 @@ One of the simplest[ranking functions](https://en.wikipedia.org/wiki/Ranking_fun
 ## Term frequency
 
 Suppose we have a set of English text documents and wish to rank which document is most relevant to the query, "the brown cow". A simple way to start out is by eliminating documents that do not contain all three words "the", "brown", and "cow", but this still leaves many documents. To further distinguish them, we might count the number of times each term occurs in each document; the number of times a term occurs in a document is called itsterm frequency. However, in the case where the length of documents varies greatly, adjustments are often made (see definition below). The first form of term weighting is due to[Hans Peter Luhn](https://en.wikipedia.org/wiki/Hans_Peter_Luhn)(1957) which may be summarized as:
--   The weight of a term that occurs in a document is simply proportional to the term frequency.
+
+- The weight of a term that occurs in a document is simply proportional to the term frequency.
 
 ## Inverse document frequency
 
 Because the term "the" is so common, term frequency will tend to incorrectly emphasize documents which happen to use the word "the" more frequently, without giving enough weight to the more meaningful terms "brown" and "cow". The term "the" is not a good keyword to distinguish relevant and non-relevant documents and terms, unlike the less-common words "brown" and "cow". Hence aninverse document frequencyfactor is incorporated which diminishes the weight of terms that occur very frequently in the document set and increases the weight of terms that occur rarely.
 
 [Karen Spärck Jones](https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones)(1972) conceived a statistical interpretation of term specificity called Inverse Document Frequency (idf), which became a cornerstone of term weighting:
--   The specificity of a term can be quantified as an inverse function of the number of documents in which it occurs.
+
+- The specificity of a term can be quantified as an inverse function of the number of documents in which it occurs.
 
 Just the idea that you can enter in a query and then you could turn that query into a vector and then you have all of your documents also modeled as vectors and then you have a mathematical relationship that you can define between your search query and each of those documents. You can model them in space and then find how the query differs from all of those documents in space and then you have a ranking.
 
@@ -47,31 +49,32 @@ BM25 and its newer variants, e.g. BM25F (a version of BM25 that can take documen
 ![Score( idf(t) • ( tf(t in •l l/ avgdl ) t in Where: term; tf(t in idf(t) = t in avgdl document; query; i = index numTermOccurrenceslnDocument % 1 + log (numDocs / (docFreq + 1 ini in k = Free parameter. Usually ---1.2 to 2.0. Increases term frequency saturation point b Free parameter. Usually -0.75. Increases impact of document normalization. ](../../media/Technologies-Elasticsearch-Information-Retrieval-image1.jpeg)
 
 ## Knowledge graph, Keyword Search
--   Inverted Index -> Term / Document
--   Embeddings
-    -   Word / Phrase embeddings
-    -   Sentence embeddings
-    -   Paragraph embeddings
-    -   Document embeddings
+
+- Inverted Index -> Term / Document
+- Embeddings
+  - Word / Phrase embeddings
+  - Sentence embeddings
+  - Paragraph embeddings
+  - Document embeddings
 
 ![Thought Vectors VI'ord/Phrase Embeddings: Sentence Embeddings: Paragraph Embeddings: Document Embedding: ](../../media/Technologies-Elasticsearch-Information-Retrieval-image2.jpeg)
 
 ![Single Term Searches (as a Vector) query apple caffeine cappuccino apple juice cheese pizza donut green tea bread sticks exact term lookup in inverted index cheese coffee drink donut food juice pizza tea water ... term ](../../media/Technologies-Elasticsearch-Information-Retrieval-image3.jpeg)
--   One hot encoding
+
+- One hot encoding
 
 ![Multi-term Searches query apple latte cappuccino apple juice cheese pizza donut soda green tea water cheese bread sticks cinnamon sticks caffeine exact term lookup in inverted index cheese coffee drink donut food Juice pizza tea water ... term N ](../../media/Technologies-Elasticsearch-Information-Retrieval-image4.jpeg)
 
 ![So far, these look almost identical... Keyword Search Tam &c3. Ooc4. Ooc2. Oocl. Øc3. doc? , apple doct doc3 doc4 doc? docs Thought Vectors vs •teas O ](../../media/Technologies-Elasticsearch-Information-Retrieval-image5.jpeg)
 
-
--   Dimensionality reduction
--   Vector similarity scoring
+- Dimensionality reduction
+- Vector similarity scoring
 
 Solr
 
-1.  Streaming expressions
+1. Streaming expressions
 
-2.  Vectors fields/functions in solr
+2. Vectors fields/functions in solr
 
 ![Vector Encoders Word2Vec 2013-01 Glove 2014-01 •o k Lng queen FastText 2016-07 ULMfiT 2018-05 ELMo 2018-02 Transformer-XL 2019-01 ERNIE 2019-04 RoBERTa 2019-07 Transformer BERT 2017-06 2018-10 Universal CTRL 2019-09 AIBERT 201909 GPT-3 2020-06 Big Bird 2019-10 XLNet Sentence Encoder 2019-06 20180 GPT-2 2019Q ](../../media/Technologies-Elasticsearch-Information-Retrieval-image6.jpeg)
 
@@ -100,9 +103,10 @@ For example, retrieving animation according to some beats; finding the best-fit 
 ## Think outside the (search)box
 
 Many neural search-powered applications do not have a search box:
--   A question-answering chatbot can be powered by neural search: by first indexing all hard-coded QA pairs and then semantically mapping user dialog to those pairs.
--   A smart speaker can be powered by neural search: by applying STT (speech-to-text) and semantically mapping text to internal commands.
--   A recommendation system can be powered by neural search: by embedding user-item information into vectors and finding top-K nearest neighbours of a user/item.
+
+- A question-answering chatbot can be powered by neural search: by first indexing all hard-coded QA pairs and then semantically mapping user dialog to those pairs.
+- A smart speaker can be powered by neural search: by applying STT (speech-to-text) and semantically mapping text to internal commands.
+- A recommendation system can be powered by neural search: by embedding user-item information into vectors and finding top-K nearest neighbours of a user/item.
 
 Neural search creates a new way to comprehend the world. It is creating new doors that lead to new businesses.
 

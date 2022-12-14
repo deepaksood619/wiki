@@ -16,43 +16,47 @@ Modified: 2021-07-12 00:45:28 +0500
 
 The constitution has many borrowed features. The country's founding fathers were wise enough to borrow good features from different nations and mould a constitution that best suits India. The influences from other constitutions are listed below.
 
-1.  Irish (Ireland)
+1. Irish (Ireland)
 
 ## Ele`s DP is No. 1
--   Election of the president
--   Directive Principles of State Policy
--   Method of nomination of members to the Rajya Sabha
 
-2.  British / UK
+- Election of the president
+- Directive Principles of State Policy
+- Method of nomination of members to the Rajya Sabha
+
+2. British / UK
 
 ## PaRLe Bi-SCuit / Sin Bi is a Complex Law
--   Pa - Parliamentary system
--   R - Prevalence of the rule of law
--   Le - Legislative procedure
--   Bi - Bicameralism
--   Si - Single Citizenship
--   Comp - Comptroller and Auditor General (CAG)
--   Writs
 
-3.  US
+- Pa - Parliamentary system
+- R - Prevalence of the rule of law
+- Le - Legislative procedure
+- Bi - Bicameralism
+- Si - Single Citizenship
+- Comp - Comptroller and Auditor General (CAG)
+- Writs
+
+3. US
 
 President Needs Fund for Removal of Present Vice-President & Judges in USA
--   President
--   Fund - Fundamental Rights
--   Removal - Impeachment of the president, removal of supreme court and high court judges
--   PREsent - PREamble
--   Vice-president
--   Judges - Independence of the judiciary, Judicial review
--   Amendment of constitution
 
-4.  Canada
+- President
+- Fund - Fundamental Rights
+- Removal - Impeachment of the president, removal of supreme court and high court judges
+- PREsent - PREamble
+- Vice-president
+- Judges - Independence of the judiciary, Judicial review
+- Amendment of constitution
+
+4. Canada
 
 Can I Know Feds Address
--   CAN - Canada
--   Feds - Federation with a strong centre
--   Add - Advisory jurisdiction of the Supreme Court
--   Ress - Residuary powers to the centre
--   Name of the Union of India
+
+- CAN - Canada
+- Feds - Federation with a strong centre
+- Add - Advisory jurisdiction of the Supreme Court
+- Ress - Residuary powers to the centre
+- Name of the Union of India
 
 <table>
 <colgroup>
@@ -133,4 +137,4 @@ vii. At the start of the first session after each general election to the Lok Sa
 
 viii. Article 123 also gives the president the power to promulgate ordinances. (Read about[President](https://byjus.com/free-ias-prep/president/)in the linked article.)
 
-<https://byjus.com/free-ias-prep/constitution-of-india-an-overview
+<https://byjus.com/free-ias-prep/constitution-of-india-an-overview>

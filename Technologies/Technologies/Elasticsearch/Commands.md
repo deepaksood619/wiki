@@ -19,8 +19,6 @@ PUT /megacorp/_doc/1
 "interests": [ "sports", "music" ]
 }
 
-
-
 GET /megacorp/employee/1
 
 # Retrieving part of a document
@@ -35,7 +33,7 @@ GET /megacorp/_search
 
 GET /megacorp/_search?q=last_name:Smith
 
-#QueryDSL
+# QueryDSL
 
 GET /megacorp/_search
 {

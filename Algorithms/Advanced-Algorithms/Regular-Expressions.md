@@ -10,29 +10,30 @@ A regular expression is a method for specifying a set of strings. Our topic for 
 
 Applications
 
-1.  Pattern matching in Genomic data
+1. Pattern matching in Genomic data
 
-2.  Syntax highlighting
+2. Syntax highlighting
 
-3.  Scan for virus signatures
+3. Scan for virus signatures
 
-4.  Process natural language
+4. Process natural language
 
-5.  Specify a programming language
+5. Specify a programming language
 
-6.  Access information in digital libraries
+6. Access information in digital libraries
 
-7.  Search genome using PROSITE patterns
+7. Search genome using PROSITE patterns
 
-8.  Filter text (spam, NetNanny, Carnivore, malware)
+8. Filter text (spam, NetNanny, Carnivore, malware)
 
-9.  Validate data-entry fields (dates, email, URL, credit card)
+9. Validate data-entry fields (dates, email, URL, credit card)
 
 Parse text files
--   Compile a java program
--   Crawl and index the Web
--   Read in data stored in ad hoc input file format
--   Create Java documentation from Javadoc comments
+
+- Compile a java program
+- Crawl and index the Web
+- Read in data stored in ad hoc input file format
+- Create Java documentation from Javadoc comments
 
 ![image](media/Regular-Expressions-image1.png)
 

@@ -7,9 +7,10 @@ Modified: 2021-11-17 23:27:04 +0500
 ---
 
 ## The Anatomy of a Rule Set and three types of Style Sheets
--   Selector
--   Property
--   Value
+
+- Selector
+- Property
+- Value
 
 // Inside the selector is called declaration
 
@@ -23,13 +24,14 @@ Property: value;
 
 }
 
-<https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage
+<https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage>
 
-## Three types of style sheets:
--   Inline - written directly within of the html elements
-    -   Ex- <h2 style="font-size: 20px; color: deeppink;">
--   Embedded - written directly inside head block using <style> tags.
--   External - written inside head with a <link rel="stylesheet" href="css/style.css">
+## Three types of style sheets
+
+- Inline - written directly within of the html elements
+  - Ex- <h2 style="font-size: 20px; color: deeppink;">
+- Embedded - written directly inside head block using <style> tags.
+- External - written inside head with a <link rel="stylesheet" href="css/style.css">
 
 ## The Box Model and Display Properties
 
@@ -55,7 +57,7 @@ Inline Elements sit next to each other, they only take up size only as much as t
 
 Used to eliminate browser inconsistencies with default browser styling and really eliminate all browser defaults in general.
 
-Load css reset - eric meyer's reset <http://meyerweb.com/eric/tools/css/reset
+Load css reset - eric meyer's reset <http://meyerweb.com/eric/tools/css/reset>
 
 ## CSS Grids
 
@@ -66,7 +68,8 @@ But using fraction unit doesn't make our layout responsive as if there are 3 col
 We want our grid to vary the amount of columns with the width of the container.
 
 3 main advanced css concepts
--   repeat()
+
+- repeat()
 
 This is a more powerful way of specifying your columns and rows. Let's take our original grid and change it to using repeat():
 

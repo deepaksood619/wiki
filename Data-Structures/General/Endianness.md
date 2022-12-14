@@ -12,15 +12,19 @@ Modified: 2019-12-26 01:24:21 +0500
 
 denoting or relating to a system of ordering bytes in a word, or bits in a byte, in which the most significant (or least significant) item is put first.
 "big-endian vs. little-endian representation of data"
+
 ## Endianness
--   **Little Endian Format - LSB is stored first**
+
+- **Little Endian Format - LSB is stored first**
 
 In little endian machines, last byte of binary representation of the multibyte data-type is stored first.-   **Big Endian Format - MSB is stored first**
 
 In big endian machines, first byte of binary representation of the multibyte data-type is stored first.-   **Middle Endian Format**
--   **Bi-endianness**
+
+- **Bi-endianness**
 
 The word*bi-endian*, when said of hardware, denotes the capability of the machine to compute or pass data in either endian format.
+
 ## Example
 
 Suppose integer is stored as 4 bytes (For those who are using DOS based compilers such as C++ 3.0 , integer is 2 bytes) then a variable x with value 0x01234567 will be stored as following.

@@ -13,19 +13,20 @@ A service mesh allows applications to offload these capabilities from applicatio
 The concept of the service mesh as a separate layer is tied to the rise of the cloud native application. In the cloud native model, a single application might consist of hundreds of services; each service might have thousands of instances; and each of those instances might be in a constantly-changing state as they are dynamically scheduled an orchestrator like Kubernetes. Not only is service communication in this world incredibly complex, it's a pervasive and fundamental part of runtime behavior. Managing it is vital to ensuring end-to-end performance and reliability.
 
 ## Features
--   Traffic monitoring
--   Access control
--   Service discovery
--   Security
--   Resiliency
--   Latency aware Load balancing
--   Observability
--   Circuit-breaking
--   Eventual consistent service discovery, retries and deadlines
--   TLS termination
--   Protocol updation
--   Dynamically shift traffic
--   Fail over between datacenters
+
+- Traffic monitoring
+- Access control
+- Service discovery
+- Security
+- Resiliency
+- Latency aware Load balancing
+- Observability
+- Circuit-breaking
+- Eventual consistent service discovery, retries and deadlines
+- TLS termination
+- Protocol updation
+- Dynamically shift traffic
+- Fail over between datacenters
 
 ## Is the Service Mesh a Networking Model?
 
@@ -36,9 +37,10 @@ In some ways, the service mesh is analogous to TCP/IP. Just as the TCP stack abs
 Unlike TCP, the service mesh has a significant goal beyond "just make it work": it provides a uniform, application-wide point for introducing visibility and control into the application runtime. The explicit goal of the service mesh is to move service communication out of the realm of the invisible, implied infrastructure, and into the role of afirst-class member of the ecosystem---where it can be monitored, managed and controlled.
 
 ## Tools
--   Istio
--   Linkerd
--   Kuma
+
+- Istio
+- Linkerd
+- Kuma
 
 ## Kuma
 

@@ -7,6 +7,7 @@ Modified: 2020-03-30 02:32:01 +0500
 ---
 
 ## # SQL table to parquet
+
 ```python
 from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
@@ -51,6 +52,7 @@ str(row[**4**])+","+ str(row[**5**])).saveAsTextFile("/home/sarvesh/Desktop/parq
 ```
 
 <http://blogs.quovantis.com/how-to-convert-csv-to-parquet-files>
+
 ```python
 from pyspark.sql import SparkSession
 
@@ -86,9 +88,11 @@ condition2 = data.User_Score != "tbd"
 
 data = data.filter(condition1).filter(condition2)
 ```
+
 <https://towardsdatascience.com/pyspark-import-any-data-f2856cda45fd>
 
 ## Glue Transformation from Aurora DB to Parquet in s3
+
 ```python
 import sys
 

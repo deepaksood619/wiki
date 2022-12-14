@@ -14,8 +14,6 @@ docker run --rm telegraf telegraf config > telegraf.conf #get conf file for edit
 
 docker run --rm -d --net=influxdb -e "HOST_PROC=/rootfs/proc" -e "HOST_SYS=/rootfs/sys" -e "HOST_ETC=/rootfs/etc" -v $PWD/telegraf.conf:/etc/telegraf/telegraf.conf:ro -v /var/run/docker.sock:/var/run/docker.sock:ro -v /sys:/rootfs/sys:ro -v /proc:/rootfs/proc:ro -v /etc:/rootfs/etc:ro --name telegraf telegraf
 
-
-
 docker run --rm -d --net=influxdb -v $PWD/telegraf.conf:/etc/telegraf/telegraf.conf:ro -v /var/run/docker.sock:/var/run/docker.sock:ro -v /rootfs/sys:/sys:ro -v /rootfs/proc:/proc:ro -v /rootfs/etc:/etc:ro -v /var/run/utmp:/var/run/utmp -v --name telegraf telegraf
 
 --add-host="influxdb:192.168.0.73"

@@ -13,87 +13,99 @@ Only the dead can be forgiven
 Free speech is a privilege that must only be given to only set of filtered people.
 
 ## Types of Governments (Political Ideology)
--   Monarchy
--   Democracy
--   Oligarchy
+
+- Monarchy
+- Democracy
+- Oligarchy
 
 a small group of people having control of a country or organization.
--   Authoritarianism
+
+- Authoritarianism
 
 the enforcement or advocacy of strict obedience to authority at the expense of personal freedom.
--   Totalitarianism
+
+- Totalitarianism
 
 a system of government that is centralized and dictatorial and requires complete subservience to the state.
--   Meritocracy
--   Populism
+
+- Meritocracy
+- Populism
 
 a political approach that strives to appeal to ordinary people who feel that their concerns are disregarded by established elite groups.
--   Federalism
+
+- Federalism
 
 Federalismis the mixed or compound mode of[government](https://en.wikipedia.org/wiki/Government), combining a general government (the central or "federal" government) with regional governments (provincial, state, cantonal, territorial or other sub-unit governments) in a single political system.
 
 Federalism can thus be defined as a form of government in which there is a division of powers between two levels of government of equal status.
 
 <https://en.wikipedia.org/wiki/Federalism>
--   Egalitarian
+
+- Egalitarian
 
 believing in or based on the principle that all people are equal and deserve equal rights and opportunities.
--   Socialism
+
+- Socialism
 
 a political and economic theory of social organization which advocates that the means of production, distribution, and exchange should be owned or regulated by the community as a whole.
--   Capitalism
+
+- Capitalism
 
 an economic and political system in which a country's trade and industry are controlled by private owners for profit, rather than by the state.
--   Feudalism
+
+- Feudalism
 
 the dominant social system in medieval Europe, in which the nobility held lands from the Crown in exchange for military service, and vassals were in turn tenants of the nobles, while the peasants (villeins or serfs) were obliged to live on their lord's land and give him homage, labour, and a share of the produce, notionally in exchange for military protection.
--   Imperialism
+
+- Imperialism
 
 a policy of extending a country's power and influence through colonization, use of military force, or other means.
--   Sectarianism
+
+- Sectarianism
 
 Excessive attachment to a particular sect or party, especially in religion.
--   Secularism
+
+- Secularism
 
 The principle of separation of the state from religious institutions.
--   Communism
+
+- Communism
 
 Communism(from[Latin](https://en.wikipedia.org/wiki/Latin)communis, 'common, universal')is a [philosophical](https://en.wikipedia.org/wiki/Political_philosophy), [social](https://en.wikipedia.org/wiki/Social_philosophy), [political](https://en.wikipedia.org/wiki/Political_movement), [economic](https://en.wikipedia.org/wiki/Economic_ideology) ideology and [movement](https://en.wikipedia.org/wiki/Political_movement) whose ultimate goal is the establishment of a[communist society](https://en.wikipedia.org/wiki/Communist_society), namely a [socioeconomic](https://en.wikipedia.org/wiki/Socioeconomics) order structured upon the ideas of[common ownership](https://en.wikipedia.org/wiki/Common_ownership)of the[means of production](https://en.wikipedia.org/wiki/Means_of_production)and the absence of[social classes](https://en.wikipedia.org/wiki/Social_class),[money](https://en.wikipedia.org/wiki/Money)and the[state](https://en.wikipedia.org/wiki/State_(polity)).
 
 <https://en.wikipedia.org/wiki/Communism>
 
+- Orwellian
 
--   Orwellian
-
-"Orwellian" is an[adjective](https://en.wikipedia.org/wiki/Adjective)describing a situation, idea, or societal condition that[George Orwell](https://en.wikipedia.org/wiki/George_Orwell)identified as being destructive to the welfare of a free and[open society](https://en.wikipedia.org/wiki/Open_society). It denotes an attitude and a brutal policy of draconian control by [propaganda](https://en.wikipedia.org/wiki/Propaganda), [surveillance](https://en.wikipedia.org/wiki/Surveillance), [disinformation](https://en.wikipedia.org/wiki/Disinformation), [denial of truth](https://en.wikipedia.org/wiki/Denialism) ([doublethink](https://en.wikipedia.org/wiki/Doublethink)), and manipulation of the past, including the "[unperson](https://en.wikipedia.org/wiki/Unperson)"---a person whose past existence is expunged from the public record and memory, practiced by modern repressive governments. Often, this includes the circumstances depicted in his novels, particularly[Nineteen Eighty-Four](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four)[[2]](https://en.wikipedia.org/wiki/Orwellian#cite_note-2)but political[doublespeak](https://en.wikipedia.org/wiki/Doublespeak)is criticized throughout his work, such as in[Politics and the English Language](https://en.wikipedia.org/wiki/Politics_and_the_English_Language).
+"Orwellian" is an[adjective](https://en.wikipedia.org/wiki/Adjective)describing a situation, idea, or societal condition that[George Orwell](https://en.wikipedia.org/wiki/George_Orwell)identified as being destructive to the welfare of a free and[open society](https://en.wikipedia.org/wiki/Open_society). It denotes an attitude and a brutal policy of draconian control by [propaganda](https://en.wikipedia.org/wiki/Propaganda), [surveillance](https://en.wikipedia.org/wiki/Surveillance), [disinformation](https://en.wikipedia.org/wiki/Disinformation), [denial of truth](https://en.wikipedia.org/wiki/Denialism) ([doublethink](https://en.wikipedia.org/wiki/Doublethink)), and manipulation of the past, including the "[unperson](https://en.wikipedia.org/wiki/Unperson)"---a person whose past existence is expunged from the public record and memory, practiced by modern repressive governments. Often, this includes the circumstances depicted in his novels, particularly[Nineteen Eighty-Four][https://en.wikipedia.org/wiki/Nineteen_Eighty-Four]([2)](https://en.wikipedia.org/wiki/Orwellian#cite_note-2)but political[doublespeak](https://en.wikipedia.org/wiki/Doublespeak)is criticized throughout his work, such as in[Politics and the English Language](https://en.wikipedia.org/wiki/Politics_and_the_English_Language).
 
 <https://en.wikipedia.org/wiki/Orwellian>
 
 <https://en.wikipedia.org/wiki/Nineteen_Eighty-Four>
 
-
--   gerontocracy - a state, society, or group governed by old people
--   paedocracy - Rule by children
+- gerontocracy - a state, society, or group governed by old people
+- paedocracy - Rule by children
 
 ![image](media/Politics-image1.png)
 
 <https://en.wikipedia.org/wiki/Government>
--   Full presidential republics
--   Semi-presidential republics
--   Republics with an executive president elected by or nominated by the legislature that may or may not be subject to parliamentary confidence
--   Parliamentary republics
--   Parliamentary constitutional monarchies
--   Parliamentary semi-constitutional monarchies which have a separate head of government but where royalty holds significant executive and/or legislative power
--   Absolute monarchies
--   One-party states
--   Countries where constitutional provisions for government have been suspended (e.g. military dictatorships)
--   Countries which do not fit any of the above systems (e.g. provisional governments/unclear political situations)
+
+- Full presidential republics
+- Semi-presidential republics
+- Republics with an executive president elected by or nominated by the legislature that may or may not be subject to parliamentary confidence
+- Parliamentary republics
+- Parliamentary constitutional monarchies
+- Parliamentary semi-constitutional monarchies which have a separate head of government but where royalty holds significant executive and/or legislative power
+- Absolute monarchies
+- One-party states
+- Countries where constitutional provisions for government have been suspended (e.g. military dictatorships)
+- Countries which do not fit any of the above systems (e.g. provisional governments/unclear political situations)
 
 <https://en.wikipedia.org/wiki/Parliamentary_system>
 
 ## Blinkist - Edge of Chaos (Why democracy is failing to deliver economic growth - and how to fix it) by Dambisa Moyo
 
-1.  Economic growth improves living standards, while political instability and short-term policies harm the economy.
+1. Economic growth improves living standards, while political instability and short-term policies harm the economy.
 
     i.  China
         -   Raising low wages
@@ -107,43 +119,46 @@ Communism(from[Latin](https://en.wikipedia.org/wiki/Latin)communis, 'common, uni
         -   Failed to invest in education
         -   Unemployment
 
-2.  Some types of government debt, limited resources and population growth threaten economic growth.
-    -   going into debt can be beneficial for national economies
+2. Some types of government debt, limited resources and population growth threaten economic growth.
+    - going into debt can be beneficial for national economies
 
-3.  Automation and the decline of the global workforce threaten nations' economies
-    -   Aging population
-    -   Automation - driverless vehicles
+3. Automation and the decline of the global workforce threaten nations' economies
+    - Aging population
+    - Automation - driverless vehicles
 
-4.  Trends towards protectionism negatively affect the global economy
-    -   UK voted to leave the EU in the Brexit referendum
-    -   Smoot-Hawley Tariff Act, which enforced an effective tax rate of 60 percent on over 3,200 products imported into the US, other countries retaliated by imposing tariffs on American products, due to which America's GDP plummeted from $104.6 billion in 1929 to only $57.2 billion in 1933.
-    -   Enforce effective immigration policies to deal with labor shortages like in Canada, Japan and Australia. Established a points-based system (judge on their academic achievements and work experience)
+4. Trends towards protectionism negatively affect the global economy
+    - UK voted to leave the EU in the Brexit referendum
+    - Smoot-Hawley Tariff Act, which enforced an effective tax rate of 60 percent on over 3,200 products imported into the US, other countries retaliated by imposing tariffs on American products, due to which America's GDP plummeted from $104.6 billion in 1929 to only $57.2 billion in 1933.
+    - Enforce effective immigration policies to deal with labor shortages like in Canada, Japan and Australia. Established a points-based system (judge on their academic achievements and work experience)
 
-5.  China's state-regulated economy has become a model for growth, but state intervention poses long-term economic risks
-    -   Authoritarian state capitalism - prioritizing collectivism over individual rights and freedoms
+5. China's state-regulated economy has become a model for growth, but state intervention poses long-term economic risks
+    - Authoritarian state capitalism - prioritizing collectivism over individual rights and freedoms
 
-6.  Economic stability in this climate requires long-term policy decisions, a limit on campaign donations and higher public-sector wages
+6. Economic stability in this climate requires long-term policy decisions, a limit on campaign donations and higher public-sector wages
 
-7.  Longer terms of office and real-world experience lead to better politicians, while compulsory voting breeds better policies
-    -   Australia, singapore and belgium fines people if they do not show up for voting.
+7. Longer terms of office and real-world experience lead to better politicians, while compulsory voting breeds better policies
+    - Australia, singapore and belgium fines people if they do not show up for voting.
 
 ## The Political Spectrums - Left wing vs right wing, centrism (Crap)
 
 ## Left (Liberal)
--   Liberty
--   Equality (egalitarianism)
+
+- Liberty
+- Equality (egalitarianism)
 
 The idea of fairness for all humans
--   Progress
--   Internationalism
--   **Reform**
+
+- Progress
+- Internationalism
+- **Reform**
 
 ## Right (Conservative)
--   Authority
--   Hierarchy
--   Tradition
--   Nationalism
--   **Reaction**
+
+- Authority
+- Hierarchy
+- Tradition
+- Nationalism
+- **Reaction**
 
 ![image](media/Politics-image2.png)
 
@@ -162,8 +177,9 @@ The problem with election is one of them is going to win.
 The best argument against democracy is a five-minute conversation with the average voter. -- Winston Churchill
 
 ## Reforms India
--   Anti-defection law
--   Electoral Bonds should be banned
+
+- Anti-defection law
+- Electoral Bonds should be banned
 
 ## Terms
 
@@ -188,10 +204,11 @@ Lastly, we come to**tyrannical leadership**.When a leadership is untrustworthyan
 Out of these four leadership styles, humane authority is best placed to create a stable international order. By embracing moral values, a humane authority will gain international credibility and be able to muster support for its ideas and reforms.
 
 ## Schools of Thoughts
--   Idealism
--   Realism (Neorealism)
--   Just war theory
--   Dharma in foreign policy
+
+- Idealism
+- Realism (Neorealism)
+- Just war theory
+- Dharma in foreign policy
 
 ## Marxism
 
@@ -201,7 +218,7 @@ Some[Marxist schools of thought](https://en.wikipedia.org/wiki/Marxist_schools_o
 
 <https://en.wikipedia.org/wiki/Marxism>
 
-<https://www.e-ir.info/2018/02/25/introducing-marxism-in-international-relations-theory
+<https://www.e-ir.info/2018/02/25/introducing-marxism-in-international-relations-theory>
 
 ## ASEAN (Association of Southeast Asian Nations)
 
@@ -209,13 +226,13 @@ Some[Marxist schools of thought](https://en.wikipedia.org/wiki/Marxist_schools_o
 
 ## Deterrence & Coersion
 
-1.  Turning of the screw
+1. Turning of the screw
 
-2.  Try and see
+2. Try and see
 
-3.  Tacit ultimatum
+3. Tacit ultimatum
 
-4.  Full-fledged ultimatum
+4. Full-fledged ultimatum
 
 ## India Polity
 

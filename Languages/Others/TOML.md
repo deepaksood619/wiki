@@ -12,7 +12,7 @@ TOML aims to be a minimal configuration file format that's easy to read due to o
 
 ## Example
 
-# This is a TOML document.
+# This is a TOML document
 
 title = "TOML Example"
 
@@ -29,6 +29,7 @@ enabled = true
 [servers]
 
 # Indentation (tabs and/or spaces) is allowed but not required
+
 [servers.alpha]
 ip = "10.0.0.1"
 dc = "eqdc10"
@@ -41,23 +42,25 @@ dc = "eqdc10"
 data = [ ["gamma", "delta"], [1, 2] ]
 
 # Line breaks are OK when inside arrays
+
 hosts = [
 "alpha",
 "omega"
 ]
 
 ## Spec
--   TOML is case sensitive.
--   A TOML file must be a valid UTF-8 encoded Unicode document.
--   Whitespace means tab (0x09) or space (0x20).
--   Newline means LF (0x0A) or CRLF (0x0D0A).
+
+- TOML is case sensitive.
+- A TOML file must be a valid UTF-8 encoded Unicode document.
+- Whitespace means tab (0x09) or space (0x20).
+- Newline means LF (0x0A) or CRLF (0x0D0A).
 
 ## Uses
 
-1.  Telegraf Configuration
+1. Telegraf Configuration
 
 ## References
 
 <https://github.com/toml-lang/toml>
 
-<https://learnxinyminutes.com/docs/toml
+<https://learnxinyminutes.com/docs/toml>

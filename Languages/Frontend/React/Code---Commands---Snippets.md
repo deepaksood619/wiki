@@ -6,13 +6,13 @@ Modified: 2021-12-19 15:06:33 +0500
 
 ---
 
-## dependenciesare the packages your project depends on.
+## dependenciesare the packages your project depends on
 
-## devDependenciesare the packages that are needed during the development phase. Say a testing framework like[Jest](https://flaviocopes.com/jest/)or other utilities like[Babel](https://flaviocopes.com/babel/)or[ESLint](https://flaviocopes.com/eslint/).
+## devDependenciesare the packages that are needed during the development phase. Say a testing framework like[Jest](https://flaviocopes.com/jest/)or other utilities like[Babel](https://flaviocopes.com/babel/)or[ESLint](https://flaviocopes.com/eslint/)
 
 In both cases, when you install a package, its dependencies and devDependencies are automatically installed by[npm](https://flaviocopes.com/npm/).
 
-## peerDependenciesare different. They are not automatically installed.
+## peerDependenciesare different. They are not automatically installed
 
 When a dependency is listed in a package as a peerDependency,it is not automatically installed. Instead, the code that includes the package must include it as its dependency.
 
@@ -82,7 +82,7 @@ yarn add -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier esli
 
 ## npm install --global prettier
 
-## prettier --write .
+## prettier --write
 
 npm install -g depcheck
 
@@ -94,7 +94,7 @@ npx unimported
 
 npx eslint . --fix
 
-<https://create-react-app.dev/docs/analyzing-the-bundle-size
+<https://create-react-app.dev/docs/analyzing-the-bundle-size>
 
 [Source map explorer](https://www.npmjs.com/package/source-map-explorer)analyzes JavaScript bundles using the source maps. This helps you understand where code bloat is coming from.
 

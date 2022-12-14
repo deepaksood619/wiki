@@ -101,8 +101,6 @@ The term[Oceania](https://en.wikipedia.org/wiki/Oceania)refers to a group of[isl
 
 ![image](media/Continents-image1.png)
 
-
-
 ## Highest and Lowest Point
 
 | **Continent** | **Highest point**                                                    | **Elevation (m)** | **Elevation (ft)** | **Country or territory containing highest point**                                                              | **Lowest point**                                                            | **Elevation (m)** | **Elevation (ft)** | **Country or territory containing lowest point**                                                                                                                 |
@@ -116,7 +114,8 @@ The term[Oceania](https://en.wikipedia.org/wiki/Oceania)refers to a group of[isl
 | Australia     | [Puncak Jaya](https://en.wikipedia.org/wiki/Puncak_Jaya)             | 4,884             | 16,024             | [Indonesia](https://en.wikipedia.org/wiki/Indonesia)([Papua](https://en.wikipedia.org/wiki/Papua_(province))) | [Lake Eyre](https://en.wikipedia.org/wiki/Lake_Eyre)                        | −15               | −49                | Australia                                                                                                                                                        |
 
 [How the World Map Looks Wildly Different Than You Think](https://youtu.be/lPNrtjboISg)
--   Mercator Projection
+
+- Mercator Projection
 
 TheMercator projection([/mərˈkeɪtər/](https://en.wikipedia.org/wiki/Help:IPA/English)) is a[cylindrical map projection](https://en.wikipedia.org/wiki/Cylindrical_map_projection)presented by[Flemish](https://en.wikipedia.org/wiki/Flemish_people)geographer and cartographer[Gerardus Mercator](https://en.wikipedia.org/wiki/Gerardus_Mercator)in 1569. It became the standard map projection for[navigation](https://en.wikipedia.org/wiki/Navigation)because it is unique in representing north as up and south as down everywhere while preserving local directions and shapes. The map is thereby[conformal](https://en.wikipedia.org/wiki/Conformal_map_projection). As a side effect, the Mercator projection inflates the size of objects away from the equator. This inflation is very small near the equator but accelerates with increasing[latitude](https://en.wikipedia.org/wiki/Latitude)to become infinite at the poles. As a result, landmasses such as[Greenland](https://en.wikipedia.org/wiki/Greenland)and[Antarctica](https://en.wikipedia.org/wiki/Antarctica)appear far larger than they actually are relative to landmasses near the equator, such as Central Africa.
 
@@ -124,8 +123,7 @@ TheMercator projection([/mərˈkeɪtər/](https://en.wikipedia.org/wiki/Help:IPA
 
 <https://en.wikipedia.org/wiki/Equal-area_map>
 
-<https://thetruesize.com
+<https://thetruesize.com>
 
-
--   India is bigger than greenland
--   Russia is not as big as it seems
+- India is bigger than greenland
+- Russia is not as big as it seems

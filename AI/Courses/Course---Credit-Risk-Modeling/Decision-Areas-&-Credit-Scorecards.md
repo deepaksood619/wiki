@@ -7,27 +7,28 @@ Modified: 2021-11-01 20:29:07 +0500
 ---
 
 ## Decision Areas
--   Underwriting
--   Claims Processing
--   Credit Risk scoring
--   Regulatory Compliance
--   Product Configuration
--   Product Recommendation
--   Business Process Automation
--   Benefits Analysis
--   Fraud Alerts
--   Marketing Cross-sell / Upsell
--   Group Enrollment
--   Commission Calculations
--   Phone Usage Analysis
--   Pricing
--   Intelligent Call Routing (CRM)
--   Warranty Claims Management
--   Fault Diagnosis
--   Fee Calculations
--   Eligibility
--   Equipment Failure Detection
--   Spend Management
+
+- Underwriting
+- Claims Processing
+- Credit Risk scoring
+- Regulatory Compliance
+- Product Configuration
+- Product Recommendation
+- Business Process Automation
+- Benefits Analysis
+- Fraud Alerts
+- Marketing Cross-sell / Upsell
+- Group Enrollment
+- Commission Calculations
+- Phone Usage Analysis
+- Pricing
+- Intelligent Call Routing (CRM)
+- Warranty Claims Management
+- Fault Diagnosis
+- Fee Calculations
+- Eligibility
+- Equipment Failure Detection
+- Spend Management
 
 ## Credit Scorecards
 
@@ -41,11 +42,12 @@ A typical mistaken belief about[credit scoring](https://en.wikipedia.org/wiki/Cr
 
 <https://en.wikipedia.org/wiki/Credit_scorecards>
 
-## [Credit bureaus](https://en.wikipedia.org/wiki/Credit_bureau):
--   Major US Bureaus:[Dun & Bradstreet](https://en.wikipedia.org/wiki/Dun_%26_Bradstreet)•[Equifax](https://en.wikipedia.org/wiki/Equifax)•[Experian](https://en.wikipedia.org/wiki/Experian)•[TransUnion](https://en.wikipedia.org/wiki/TransUnion)
--   Major Canadian Bureaus:[Equifax](https://en.wikipedia.org/wiki/Equifax)•[TransUnion](https://en.wikipedia.org/wiki/TransUnion)
--   Major UK Bureaus:[Equifax](https://en.wikipedia.org/wiki/Equifax)•[Experian](https://en.wikipedia.org/wiki/Experian)•[Callcredit](https://en.wikipedia.org/w/index.php?title=Callcredit&action=edit&redlink=1)
--   Major Indian Bureaus:[CIBIL](https://en.wikipedia.org/wiki/CIBIL)•[Equifax](https://en.wikipedia.org/wiki/Equifax)•[Experian](https://en.wikipedia.org/wiki/Experian)•[Highmark](https://en.wikipedia.org/wiki/Highmark)
+## [Credit bureaus](https://en.wikipedia.org/wiki/Credit_bureau)
+
+- Major US Bureaus:[Dun & Bradstreet](https://en.wikipedia.org/wiki/Dun_%26_Bradstreet)•[Equifax](https://en.wikipedia.org/wiki/Equifax)•[Experian](https://en.wikipedia.org/wiki/Experian)•[TransUnion](https://en.wikipedia.org/wiki/TransUnion)
+- Major Canadian Bureaus:[Equifax](https://en.wikipedia.org/wiki/Equifax)•[TransUnion](https://en.wikipedia.org/wiki/TransUnion)
+- Major UK Bureaus:[Equifax](https://en.wikipedia.org/wiki/Equifax)•[Experian](https://en.wikipedia.org/wiki/Experian)•[Callcredit](https://en.wikipedia.org/w/index.php?title=Callcredit&action=edit&redlink=1)
+- Major Indian Bureaus:[CIBIL](https://en.wikipedia.org/wiki/CIBIL)•[Equifax](https://en.wikipedia.org/wiki/Equifax)•[Experian](https://en.wikipedia.org/wiki/Experian)•[Highmark](https://en.wikipedia.org/wiki/Highmark)
 
 ## Credit Scorecards
 
@@ -67,13 +69,13 @@ Technically, to determine the credit scorecard points, start out by selecting a 
 
 ## Credit Scorecard Development Process
 
-1.  Data gathering and preparation phase
+1. Data gathering and preparation phase
     This includes data gathering and integration, such as querying, merging, aligning. It also includes treatment of missing information and outliers. There is a prescreening step based on reports of association measures between the predictors and the response variable. Finally, there is a sampling step, to produce a training set, sometimes called the modeling view, and usually a validation set, too. The training set, in the form of a table, is the required data input to thecreditscorecardobject, and this training set table must be prepared before creating acreditscorecardobject in the Modeling phase.
 
-2.  Modeling phase
+2. Modeling phase
     Use thecreditscorecardobject and associated object functions to develop a credit scorecard model. You can bin the data, apply the Weight of Evidence (WOE) transformation, and compute other statistics, such as the Information Value. You can fit a logistic regression model and also review the resulting scorecard points and format their scaling and rounding. For details on using thecreditscorecardobject, see[creditscorecard](https://www.mathworks.com/help/finance/creditscorecard.html).
 
-3.  Deployment phase
+3. Deployment phase
     Deployment entails integrating a credit scorecard model into an IT production environment and keeping tracking logs, performance reports, and so on.
 
 <https://www.mathworks.com/help/finance/about-credit-scorecards.html>
@@ -81,6 +83,7 @@ Technically, to determine the credit scorecard points, start out by selecting a 
 ## Gains Chart
 
 ![image](media/Course---Credit-Risk-Modeling_Decision-Areas-&-Credit-Scorecards-image4.png)
--   For the score range 245--250, the expected **marginal bad rate** is 1.2%. That is, 1.2% of applicants with a score between 245 and 250 will likely be "bad."
--   The **cumulative bad rate**---that is, the bad rate of all applicants above 245---is 0.84%
--   The **acceptance rate** at 245 is 17.44%, that is, 17.44% of all applicants score above 245
+
+- For the score range 245--250, the expected **marginal bad rate** is 1.2%. That is, 1.2% of applicants with a score between 245 and 250 will likely be "bad."
+- The **cumulative bad rate**---that is, the bad rate of all applicants above 245---is 0.84%
+- The **acceptance rate** at 245 is 17.44%, that is, 17.44% of all applicants score above 245

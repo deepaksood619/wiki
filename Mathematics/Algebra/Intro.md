@@ -8,23 +8,23 @@ Modified: 2022-12-11 19:29:37 +0500
 
 ## Algebra - 1
 
-1.  Solving equations
+1. Solving equations
 
-2.  Solving inequalities
+2. Solving inequalities
 
-3.  Linear equations and graphs
+3. Linear equations and graphs
 
-4.  Functions
+4. Functions
 
-5.  Sequences
+5. Sequences
 
-6.  System of equations
+6. System of equations
 
-7.  Inequalities
+7. Inequalities
 
-8.  Rational Exponents and radicals
+8. Rational Exponents and radicals
 
-9.  Exponential growth and decay
+9. Exponential growth and decay
 
 10. Polynomials
 
@@ -33,25 +33,26 @@ Modified: 2022-12-11 19:29:37 +0500
 12. Quadratics
 
 13. Irrational numbers
+
 ## Algebra - 2
 
-1.  Functions
+1. Functions
 
-2.  Complex numbers
+2. Complex numbers
 
-3.  Polynomials
+3. Polynomials
 
-4.  Radical relationships
+4. Radical relationships
 
-5.  Rational relationships
+5. Rational relationships
 
-6.  Exponential growth and decay
+6. Exponential growth and decay
 
-7.  Exponential and logarithms
+7. Exponential and logarithms
 
-8.  Trigonometry
+8. Trigonometry
 
-9.  Series
+9. Series
 
 10. Modeling
 

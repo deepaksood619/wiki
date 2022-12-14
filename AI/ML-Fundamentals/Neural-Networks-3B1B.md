@@ -9,9 +9,10 @@ Modified: 2021-04-03 20:47:25 +0500
 Mnemonic - Input, times Weight, add a Bias, Activate
 
 # What is neural network
--   Convolutional neural network - Good for image recognition
--   Long short term memory network - Good for speech recognition
--   Multilayer perceptron (Plain vanila neural network)
+
+- Convolutional neural network - Good for image recognition
+- Long short term memory network - Good for speech recognition
+- Multilayer perceptron (Plain vanila neural network)
 
 Sigmoid squisification function
 
@@ -27,9 +28,8 @@ And others steadily increase around input 0
 
 ![image](media/Neural-Networks-3B1B-image2.png)
 
-
--   Weights
--   Bias
+- Weights
+- Bias
 
 ![image](media/Neural-Networks-3B1B-image3.png)
 
@@ -41,14 +41,15 @@ Sigmoid is a slow learner
 
 ReLU (a) = max(0,a)
 
-<https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks
+<https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks>
 
 ![image](media/Neural-Networks-3B1B-image5.png)
 
 # Gradient Descent
--   Cost of a training example (Add all the squares of the differences between output - correct output)
--   Cost is large when the output is far from the correct values and vice-versa
--   For finding the local minima we can find slope of the function
+
+- Cost of a training example (Add all the squares of the differences between output - correct output)
+- Cost is large when the output is far from the correct values and vice-versa
+- For finding the local minima we can find slope of the function
 
 ![image](media/Neural-Networks-3B1B-image6.png)
 
@@ -60,8 +61,7 @@ ReLU (a) = max(0,a)
 
 ![image](media/Neural-Networks-3B1B-image10.png)
 
-
--   Multivariable Calculus - The Gradient of a function gives you the direction of steepest ascent. Basically, which direction should you step to increase the function most quickly
+- Multivariable Calculus - The Gradient of a function gives you the direction of steepest ascent. Basically, which direction should you step to increase the function most quickly
 
 ![image](media/Neural-Networks-3B1B-image11.png)
 

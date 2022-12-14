@@ -23,59 +23,63 @@ GO;
 EXEC*procedure_name*;
 
 ## Advantages of using stored procedures
--   A stored procedure allows modular programming.
+
+- A stored procedure allows modular programming.
     You can create the procedure once, store it in the database, and call it any number of times in your program.
--   A stored procedure allows faster execution.
+- A stored procedure allows faster execution.
     If the operation requires a large amount of SQL code that is performed repetitively, stored procedures can be faster. They are parsed and optimized when they are first executed, and a compiled version of the stored procedure remains in a memory cache for later use. This means the stored procedure does not need to be reparsed and reoptimized with each use, resulting in much faster execution times.
--   A stored procedure can reduce network traffic.
+- A stored procedure can reduce network traffic.
     An operation requiring hundreds of lines of Transact-SQL code can be performed through a single statement that executes the code in a procedure, rather than by sending hundreds of lines of code over the network.
--   Stored procedures provide better security to your data
+- Stored procedures provide better security to your data
     Users can be granted permission to execute a stored procedure even if they do not have permission to execute the procedure's statements directly.
     In SQL Server we have different types of stored procedures:
-    -   System stored procedures
-    -   User-defined stored procedures
-    -   Extended stored Procedures
+  - System stored procedures
+  - User-defined stored procedures
+  - Extended stored Procedures
 
 ## Types of stored procedures
--   **System-stored procedures** are stored in the master database and these start with asp_prefix. These procedures can be used to perform a variety of tasks to support SQL Server functions for external application calls in the system tables
+
+- **System-stored procedures** are stored in the master database and these start with asp_prefix. These procedures can be used to perform a variety of tasks to support SQL Server functions for external application calls in the system tables
     Example: sp_helptext [StoredProcedure_Name]
--   **User-definedstored procedures** are usually stored in a user database and are typically designed to complete the tasks in the user database. While coding these proceduresdon't usethesp_prefix because if we use thesp_prefix first, it will check the master database, and then it comes to user defined database.
--   **Extendedstored procedures** are the procedures that call functions from DLL files. Nowadays, extended stored procedures are deprecated for the reason it would be better to avoid using extended stored procedures.
+- **User-definedstored procedures** are usually stored in a user database and are typically designed to complete the tasks in the user database. While coding these proceduresdon't usethesp_prefix because if we use thesp_prefix first, it will check the master database, and then it comes to user defined database.
+- **Extendedstored procedures** are the procedures that call functions from DLL files. Nowadays, extended stored procedures are deprecated for the reason it would be better to avoid using extended stored procedures.
 
 <https://en.wikipedia.org/wiki/Stored_procedure>
 
-## Stored Procedures:
--   Procedure can return zero or n values
--   Procedures can have input/output parameters for it
--   Procedure allows select as well as DML statement in it
--   A stored procedure may have arguments that areIN,OUT, orINOUT.
--   A procedure can't be called from DML statements.
--   Procedures are parsed and compiled.
--   Procedures are mainly used to process the tasks.
--   Procedure doesn't return value.procedure can return more than one values using OUT parameter
--   They are stored in compiled format in the database where as Functions are compiled and executed run time.
--   A procedure is used to execute business logic.
--   Stored procedure returns always integer value by default zero.
--   Stored procedure has the security and reduces the network traffic.
--   It create variable table and but can't return variable table.
--   Print command used.
--   It execute Dynamic SQL.
+## Stored Procedures
 
-## Functions:
--   function can return one value which is mandatory
--   functions can have only input parameters
--   function allows only select statement in it
--   Functions may only haveINarguments.
--   DML operations performs in functions.
--   functions always return a single value to the caller.
--   Functions are mainly used to compute values.
--   A function is used to compute a value.
--   It returns type could be scalar or table or table values.
--   It create variable table and can return variable table.
--   Print command cant't use.
--   It can't execute dynamic sql.
+- Procedure can return zero or n values
+- Procedures can have input/output parameters for it
+- Procedure allows select as well as DML statement in it
+- A stored procedure may have arguments that areIN,OUT, orINOUT.
+- A procedure can't be called from DML statements.
+- Procedures are parsed and compiled.
+- Procedures are mainly used to process the tasks.
+- Procedure doesn't return value.procedure can return more than one values using OUT parameter
+- They are stored in compiled format in the database where as Functions are compiled and executed run time.
+- A procedure is used to execute business logic.
+- Stored procedure returns always integer value by default zero.
+- Stored procedure has the security and reduces the network traffic.
+- It create variable table and but can't return variable table.
+- Print command used.
+- It execute Dynamic SQL.
 
-<https://www.mysqltutorial.org/mysql-error-handling-in-stored-procedures
+## Functions
+
+- function can return one value which is mandatory
+- functions can have only input parameters
+- function allows only select statement in it
+- Functions may only haveINarguments.
+- DML operations performs in functions.
+- functions always return a single value to the caller.
+- Functions are mainly used to compute values.
+- A function is used to compute a value.
+- It returns type could be scalar or table or table values.
+- It create variable table and can return variable table.
+- Print command cant't use.
+- It can't execute dynamic sql.
+
+<https://www.mysqltutorial.org/mysql-error-handling-in-stored-procedures>
 
 ## Access
 

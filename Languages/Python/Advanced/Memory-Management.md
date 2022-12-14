@@ -35,9 +35,10 @@ Pools of the same sized blocks are linked together using[doubly linked list](htt
 Therefore, If a block is empty instead of an object, it stores an address of the next empty block. This trick saves a lot of memory and computation.
 
 Each pool has three states:
--   used --- partially used, neither empty nor full
--   full --- all the pool's blocks are currently allocated
--   empty --- all the pool's blocks are currently available for allocation
+
+- used --- partially used, neither empty nor full
+- full --- all the pool's blocks are currently allocated
+- empty --- all the pool's blocks are currently available for allocation
 
 In order to efficiently manage pools Python uses an additional array calledusedpools. It stores pointers to the pools grouped by class. As we already know, all pools of the same block size are linked together. To iterate over them, we just need to know the start of the list. If there are no pools of such size, then a new pool will be created on the first memory request.
 
@@ -65,8 +66,8 @@ import sys
 
 sys._debugmallocstats()
 
-<https://rushter.com/blog/python-memory-managment
+<https://rushter.com/blog/python-memory-managment>
 
 ## Others
 
-<https://adamj.eu/tech/2019/09/19/working-around-memory-leaks-in-your-django-app
+<https://adamj.eu/tech/2019/09/19/working-around-memory-leaks-in-your-django-app>

@@ -27,6 +27,7 @@ Tranquility helps you send real-time event streams to Druid and handles partitio
 <https://github.com/druid-io/tranquility>
 
 ## Imply Pivot**
--   Imply Pivot is a web-based analytics application on Druid
--   It provides interactive, point-and-click visualizations as well as a SQL query UI
--   It is only available with the Imply distribution of Druid
+
+- Imply Pivot is a web-based analytics application on Druid
+- It provides interactive, point-and-click visualizations as well as a SQL query UI
+- It is only available with the Imply distribution of Druid

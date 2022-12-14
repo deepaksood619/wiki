@@ -12,11 +12,11 @@ Prime factorization or integer factorization of a number is breaking a number do
 
 Following are the steps to find all prime factors.
 
-## 1)While n is divisible by 2, print 2 and divide n by 2.
+## 1)While n is divisible by 2, print 2 and divide n by 2
 
-## 2)After step 1, n must be odd. Now start a loop from i = 3 to square root of n. While i divides n, print i and divide n by i, increment i by 2 and continue.
+## 2)After step 1, n must be odd. Now start a loop from i = 3 to square root of n. While i divides n, print i and divide n by i, increment i by 2 and continue
 
-## 3)If n is a prime number and is greater than 2, then n will not become 1 by above two steps. So print n if it is greater than 2.
+## 3)If n is a prime number and is greater than 2, then n will not become 1 by above two steps. So print n if it is greater than 2
 
 ## Prime Factors Tree
 
@@ -30,17 +30,17 @@ Now the main part is, the loop runs till square root of n not till. To prove tha
 
 *Every composite number has at least one prime factor less than or equal to square root of itself.*
 
-This property can be proved using counter statement. Let a and b be two factors of n such that a*b = n. If both are greater than √n, then a.b > √n, * √n, which contradicts the expression "a * b = n".
+This property can be proved using counter statement. Let a and b be two factors of n such that a*b = n. If both are greater than √n, then a.b > √n,* √n, which contradicts the expression "a * b = n".
 
 ## Running Time : sqrt(n)
 
 ## Code
 
-## def primeFactors(n):
+## def primeFactors(n)
 
 # Print the number of two's that divide n
 
-## while** n **%** 2 **== 0:
+## while**n**%**2**== 0
 
 print 2,
 
@@ -50,11 +50,11 @@ n **=** n **/** 2
 
 # so a skip of 2 ( i = i + 2) can be used
 
-## for** i **in** range(3,int(math.sqrt(n))**+1,2):
+## for**i**in**range(3,int(math.sqrt(n))**+1,2)
 
 # while i divides n , print i ad divide n
 
-## while** n **%** i**== 0:
+## while**n**%**i**== 0
 
 print i,
 
@@ -64,7 +64,7 @@ n **=** n **/** i
 
 # number greater than 2
 
-## if n > 2:
+## if n > 2
 
 print n
 
@@ -148,7 +148,7 @@ Time Complexity : O(sqrt(n))
 
 Auxiliary Space : O(1)
 
-<https://www.geeksforgeeks.org/find-divisors-natural-number-set-1
+<https://www.geeksforgeeks.org/find-divisors-natural-number-set-1>
 
 ## Others
 

@@ -6,17 +6,17 @@ Modified: 2021-06-16 19:48:11 +0500
 
 ---
 
-1.  Introduction to Maxflow
+1. Introduction to Maxflow
 
-2.  Ford-Fulkerson Algorithm using the shortest augmenting path rule
+2. Ford-Fulkerson Algorithm using the shortest augmenting path rule
 
-3.  Maxflow-Mincut Theorem (bipartite matching & baseball elimination)
+3. Maxflow-Mincut Theorem (bipartite matching & baseball elimination)
 
-4.  Running Time Analysis
+4. Running Time Analysis
 
-5.  Java Implementation
+5. Java Implementation
 
-6.  Maxflow Applications
+6. Maxflow Applications
 
 ## Mincut problem
 
@@ -41,8 +41,9 @@ Input: An edge-weighted digraph, source vertex s, and target vertext t
 ![capacity 15 ](media/Maximum-Flow-and-Minimum-Cut-image5.jpg)
 
 Def. An st-flow (flow) is an assignment of values to the edges such that:
--   Capacity constraint: 0 <= edge's flow <= edge's capacity
--   Local equilibrium: inflow = outflow at every vertex (except s and t)
+
+- Capacity constraint: 0 <= edge's flow <= edge's capacity
+- Local equilibrium: inflow = outflow at every vertex (except s and t)
 
 ![image](media/Maximum-Flow-and-Minimum-Cut-image6.jpg)
 
@@ -187,9 +188,11 @@ Maxflow problem: Find an st-flow of maximum value
 Duality: Value of the maxflow = capacity of mincut
 
 Proven successful approaches
--   Ford-Fulkerson (various augmenting-path strategies)
--   Preflow-push (various versions)
+
+- Ford-Fulkerson (various augmenting-path strategies)
+- Preflow-push (various versions)
 
 Open research challenges
--   Practice: solve real-world maxflow/mincut problems in linear time
--   Theory: prove it for worst-case inputs
+
+- Practice: solve real-world maxflow/mincut problems in linear time
+- Theory: prove it for worst-case inputs

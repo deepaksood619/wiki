@@ -10,9 +10,11 @@ Modified: 2020-11-02 23:16:07 +0500
 
 <https://medium.com/red-crane/grpc-and-why-it-can-save-you-development-time-436168fd0cbc>
 JSON is not useful where:
--   Readability doesn't makes any sense and performance matters
--   A standard API contract between machines
--   No type safety
+
+- Readability doesn't makes any sense and performance matters
+- A standard API contract between machines
+- No type safety
+
 ## Python
 
 <https://grpc.github.io/grpc/python>

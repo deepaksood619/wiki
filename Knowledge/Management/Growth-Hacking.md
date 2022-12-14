@@ -21,16 +21,18 @@ A.A.R.R.R. which stood for Acquisition, Activation, Retention, Referral, and Rev
 ## Key Performance Indicator (KPI)
 
 A KPI is a number that helps you get a quick grasp of how things are going within your company. If you are selling software subscriptions then a KPI would be how many new subscriptions you have sold today. Another KPI would be how many people canceled their subscription today.
--   Have an automated email send out KPI data every day, week, and month.
--   Have a dashboard that has KPI data displayed in such a way that you can see trends based on past performance. It's helpful to see if a KPI is going up or down in general.
--   Allow everyone in your company to access KPI data. This will inform people about which metrics matter to the company, thereby influencing their decisions.
+
+- Have an automated email send out KPI data every day, week, and month.
+- Have a dashboard that has KPI data displayed in such a way that you can see trends based on past performance. It's helpful to see if a KPI is going up or down in general.
+- Allow everyone in your company to access KPI data. This will inform people about which metrics matter to the company, thereby influencing their decisions.
 
 ## Viral Coefficient (K)
 
 The viral coefficient is a number that tells you how many new people are brought into your product because of your existing users. If every 50 visitors to your product bring in 100 new visitors to your product then your viral coefficient would be 2. Anything above 1 means that you are growing virally. Here some things to know about virallity:
--   Going viral is based on an equation. It's not just a phrase thrown around to describe something that is seemingly everywhere online.
--   A viral coefficient over 1 is a great thing, but even if you are below 1 it's still a benefit to the company. Virallity isn't always the goal(or even possible). Anything above 0 means that you are amplifying your product distribution to some degree.
--   Virality is probably focused on too much. Growth hacking is a large set of skills, and it's possible to grow a product substantially, and profitably, without worrying about virality.
+
+- Going viral is based on an equation. It's not just a phrase thrown around to describe something that is seemingly everywhere online.
+- A viral coefficient over 1 is a great thing, but even if you are below 1 it's still a benefit to the company. Virallity isn't always the goal(or even possible). Anything above 0 means that you are amplifying your product distribution to some degree.
+- Virality is probably focused on too much. Growth hacking is a large set of skills, and it's possible to grow a product substantially, and profitably, without worrying about virality.
 
 ## Cohorts
 
@@ -56,21 +58,22 @@ If you don't have a strong grasp of your CAC and LTV then it is very difficult t
 
 <https://www.simplilearn.com/master-growth-hacking-in-30-days-article>
 
-<https://neilpatel.com/blog/the-6-best-growth-hacks
+<https://neilpatel.com/blog/the-6-best-growth-hacks>
 
-<https://neilpatel.com/blog/growth-hacking-framework
+<https://neilpatel.com/blog/growth-hacking-framework>
 
-<https://neilpatel.com/training/growth-hacking-unlocked/untold-laws-of-growth
+<https://neilpatel.com/training/growth-hacking-unlocked/untold-laws-of-growth>
 
-<https://www.quicksprout.com/viral-hacking
+<https://www.quicksprout.com/viral-hacking>
 
-<https://www.quicksprout.com/user-activation
+<https://www.quicksprout.com/user-activation>
 
 <https://www.youtube.com/watch?v=raIUQP71SBU&ab_channel=GaganBiyani>
--   Emotionally detached
--   No ego
--   No gut feeling
--   Core product value
+
+- Emotionally detached
+- No ego
+- No gut feeling
+- Core product value
 
 ![image](media/Growth-Hacking-image1.png)
 
@@ -82,138 +85,145 @@ You aren't the tweet they want to read, but instead, you're the tweet ad that th
 
 Pull is analogous to Hansel and Gretel. The sweets lure the children into the house on their own accord. Push is analogous to the Three Little Pigs. The wolf just huffs and puffs and breaks into their homes. You can pull them into your world, or you can push yourself into their world. That's the main difference between pull and push tactics for getting visitors.
 
+- A push tactic usually involves interrupting the content that is being consumed.
+- Push tactics usually cost money.
+- Since money is involved with push tactics you must understand the lifetime value of your customers (LTV), so that you don't spend more money on a customer then you'll make from them.
+- We covered 4 push tactics: purchase ads, promo swap, affiliates, and direct sales.
 
--   A push tactic usually involves interrupting the content that is being consumed.
--   Push tactics usually cost money.
--   Since money is involved with push tactics you must understand the lifetime value of your customers (LTV), so that you don't spend more money on a customer then you'll make from them.
--   We covered 4 push tactics: purchase ads, promo swap, affiliates, and direct sales.
+<https://www.quicksprout.com/push-strategy>
 
-<https://www.quicksprout.com/push-strategy
-
-<https://www.quicksprout.com/pull-strategy
+<https://www.quicksprout.com/pull-strategy>
 
 ## Conversion Rate Optimization (CRO)
 
-<https://neilpatel.com/training/cro-unlocked
--   CRO Best Practices
--   Crazy Egg
--   Conversion Hacks
--   Ecommerce Sales
+<https://neilpatel.com/training/cro-unlocked>
+
+- CRO Best Practices
+- Crazy Egg
+- Conversion Hacks
+- Ecommerce Sales
 
 ## The Racecar Growth Framework
 
-1.  **The (Growth) Engine:**Self-sustaining growth loops that drive most of your growth (e.g. virality, performance marketing, content, sales)
+1. **The (Growth) Engine:**Self-sustaining growth loops that drive most of your growth (e.g. virality, performance marketing, content, sales)
 
-2.  **Turbo Boosts:**One-off events that accelerate growth temporarily but don't last (e.g. PR, events, Super Bowl ads)
+2. **Turbo Boosts:**One-off events that accelerate growth temporarily but don't last (e.g. PR, events, Super Bowl ads)
 
-3.  **Lubricants:**Optimizations that make the growth engine run more efficiently (e.g. improved customer conversion, a stronger brand, higher customer retention)
+3. **Lubricants:**Optimizations that make the growth engine run more efficiently (e.g. improved customer conversion, a stronger brand, higher customer retention)
 
-4.  **Fuel:**The input that your engine requires to run (e.g. capital, content, users)
+4. **Fuel:**The input that your engine requires to run (e.g. capital, content, users)
 
 ## Growth Hiring
 
 ## Mistakes
 
-1.  Hiring a growth generalist without understanding what growth means for your company
+1. Hiring a growth generalist without understanding what growth means for your company
 
-2.  Building a growth team before a data team
+2. Building a growth team before a data team
 
-3.  Prioritizing Head of Growth as your first growth hire
+3. Prioritizing Head of Growth as your first growth hire
 
-4.  Hiring the wrong type of growth profile
+4. Hiring the wrong type of growth profile
 
-5.  Chasing after external talent
+5. Chasing after external talent
 
-6.  Putting growth in the wrong department
+6. Putting growth in the wrong department
 
 ![image](media/Growth-Hacking-image2.jpeg)
 
 A growth model is made up of two parts:
 
-1.  **Growth levers**
+1. **Growth levers**
 
-2.  **Growth motions**
+2. **Growth motions**
 
-## Growth leversdescribe ways to impact your business's revenue growth by making changes to your customers' journey. Growth levers answer the following questions:
+## Growth leversdescribe ways to impact your business's revenue growth by making changes to your customers' journey. Growth levers answer the following questions
 
-1.  Acquisition:How do you acquire customers?
+1. Acquisition:How do you acquire customers?
 
-2.  Retention:How do you activate and engage your customers?
+2. Retention:How do you activate and engage your customers?
 
-3.  Monetization:How do you monetize your customers?
+3. Monetization:How do you monetize your customers?
 
 Every growth lever is leveraged through agrowth motion. A growth motion describes which team or tactic is accountable for a successful outcome in the growth lever. There are many fantastic, established growth motions to apply to each growth lever, such as product-led, sales/success-led, marketing-led, support-led, community-led, etc.
 
-1.  **Product-led**
+1. **Product-led**
 
 Product is accountable for the output of the growth lever by engaging customers in product actions.
--   Acquisition example:Miro (collaborative whiteboard platform) customers need to collaborate in the product to receive value, which results in customers acquiring more new customers via invites to colleagues.
--   Retention example:SurveyMonkey (online surveys platform) customers receive notifications that new responses have been collected on an open survey, triggering them to re-engage with the product to analyze results.
--   Monetization example:Netlify (web workflow platform) customers discover a product feature wall for site password protection and convert via self-serve monetization flow to the paid plan to unlock functionality.
 
-2.  **Sales- and success-led**
+- Acquisition example:Miro (collaborative whiteboard platform) customers need to collaborate in the product to receive value, which results in customers acquiring more new customers via invites to colleagues.
+- Retention example:SurveyMonkey (online surveys platform) customers receive notifications that new responses have been collected on an open survey, triggering them to re-engage with the product to analyze results.
+- Monetization example:Netlify (web workflow platform) customers discover a product feature wall for site password protection and convert via self-serve monetization flow to the paid plan to unlock functionality.
+
+2. **Sales- and success-led**
 
 The sales team engages customers in the actions that will result in the growth lever output.
--   Acquisition example:Sales team discovers potential decision makers through outbound efforts, convincing them to see a demo or start a trial.
--   Retention example:Success team holds quarterly business reviews with the customer to communicate value delivered, to ensure that the customer continues to engage.
--   Monetization example:Sales team nurtures the customer, resulting in contract signing.
 
-3.  **Marketing-led**
+- Acquisition example:Sales team discovers potential decision makers through outbound efforts, convincing them to see a demo or start a trial.
+- Retention example:Success team holds quarterly business reviews with the customer to communicate value delivered, to ensure that the customer continues to engage.
+- Monetization example:Sales team nurtures the customer, resulting in contract signing.
+
+3. **Marketing-led**
 
 Marketing engages customers in the actions that will result in the growth lever output.
--   Acquisition example:Marketing team utilizes organic or paid methods across third-party platforms such as Google, Facebook, and Twitter to grab customer attention and convince them to give the product a try.
--   Retention example:Marketing uses an email lifecycle to communicate the value of the product to the customer.
--   Monetization example:Marketing team deploys messaging nurture, retargeting tactics to generate monetization interest from the customer.
+
+- Acquisition example:Marketing team utilizes organic or paid methods across third-party platforms such as Google, Facebook, and Twitter to grab customer attention and convince them to give the product a try.
+- Retention example:Marketing uses an email lifecycle to communicate the value of the product to the customer.
+- Monetization example:Marketing team deploys messaging nurture, retargeting tactics to generate monetization interest from the customer.
 
 ![image](media/Growth-Hacking-image3.jpeg)
 
 ## Growth leaders natural powers
 
-1.  Connect actions to outcomes
+1. Connect actions to outcomes
 
-2.  Be data-driven
+2. Be data-driven
 
-3.  Have a growth mindset
+3. Have a growth mindset
 
-4.  Respect for scientific method
+4. Respect for scientific method
 
-5.  Hunger for learning
+5. Hunger for learning
 
 <https://www.lennysnewsletter.com/p/hiring-growth>
 
-<https://andrewchen.com/how-to-build-a-growth-team
+<https://andrewchen.com/how-to-build-a-growth-team>
 
 ## The Cold Start Problem: How to Start and Scale Network Effects by Andrew Chen
--   "atomic network" is the smallest network needed that can stand on its own
--   Starting with a Niche Works
--   Christensen's Disruption Theory. These small networks often grow in niches, slowly growing to take over the entire market.
--   Disruptive technologies are dismissed as toys because when they are first launched they "undershoot" user needs. The first telephone could only carry voices a mile or two. The leading telco of the time, Western Union, passed on acquiring the phone because they didn't see how it could possibly be useful to businesses and railroads---their primary customers. What they failed to anticipate was how rapidly telephone technology and infrastructure would improve (technology adoption is usually non-linear due to so-called complementary network effects). The same was true of how mainframe companies viewed the PC (microcomputer), and how modern telecom companies viewed Skype.
+
+- "atomic network" is the smallest network needed that can stand on its own
+- Starting with a Niche Works
+- Christensen's Disruption Theory. These small networks often grow in niches, slowly growing to take over the entire market.
+- Disruptive technologies are dismissed as toys because when they are first launched they "undershoot" user needs. The first telephone could only carry voices a mile or two. The leading telco of the time, Western Union, passed on acquiring the phone because they didn't see how it could possibly be useful to businesses and railroads---their primary customers. What they failed to anticipate was how rapidly telephone technology and infrastructure would improve (technology adoption is usually non-linear due to so-called complementary network effects). The same was true of how mainframe companies viewed the PC (microcomputer), and how modern telecom companies viewed Skype.
 
 ## Churn
 
 ## What is GOOD and GREAT monthly churn
--   **For B2C SaaS:**Between 3% and 5% monthly churn is GOOD, and less than 2% is GREAT
--   **For B2B SMS + Mid-Market:**Between 2.5% and 5% is GOOD, and less than 1.5% is GREAT
--   **For B2B Enterprise:**Between 1% and 2% is GOOD, and less than 0.5% is GREAT
+
+- **For B2C SaaS:**Between 3% and 5% monthly churn is GOOD, and less than 2% is GREAT
+- **For B2B SMS + Mid-Market:**Between 2.5% and 5% is GOOD, and less than 1.5% is GREAT
+- **For B2B Enterprise:**Between 1% and 2% is GOOD, and less than 0.5% is GREAT
 
 ## Definitions
--   **B2C SaaS:**Subscription products sold to consumers; e.g. Duolingo, Spotify, Grammarly
--   **B2B SMB + Mid-Market:**Subscription products sold primarily to companies with fewer than 1,000 employees, generally charging less than $1K per month for the average customer; e.g. Gusto, Intercom, Airtable, Asana
--   **B2B Enterprise:**Roughly defined as subscription products sold primarily to companies with more than 1,000 employees, generally charging more than $5K per month for the average customer; e.g. Salesforce, Snowflake, Workday, ADP
+
+- **B2C SaaS:**Subscription products sold to consumers; e.g. Duolingo, Spotify, Grammarly
+- **B2B SMB + Mid-Market:**Subscription products sold primarily to companies with fewer than 1,000 employees, generally charging less than $1K per month for the average customer; e.g. Gusto, Intercom, Airtable, Asana
+- **B2B Enterprise:**Roughly defined as subscription products sold primarily to companies with more than 1,000 employees, generally charging more than $5K per month for the average customer; e.g. Salesforce, Snowflake, Workday, ADP
 
 ## What is GOOD and GREAT monthly churn, by price point
 
 Why would churn be highly correlated with price? Two reasons:
 
-1.  **Customer type:**The cheaper your product, the smaller the businesses you're likely selling to---and the smaller the businesses, the more likely they are to go out of business, change their minds, or switch to a competitor.
+1. **Customer type:**The cheaper your product, the smaller the businesses you're likely selling to---and the smaller the businesses, the more likely they are to go out of business, change their minds, or switch to a competitor.
 
-2.  **Unit economics:**If it's costing you thousands of dollars to close a deal, you won't survive if too many of those customers churn. And so companies with a high price point don't last long if churn is too high.
+2. **Unit economics:**If it's costing you thousands of dollars to close a deal, you won't survive if too many of those customers churn. And so companies with a high price point don't last long if churn is too high.
 
 <https://www.lennysnewsletter.com/p/monthly-churn-benchmarks>
 
 ## Marketing models
--   Direct model - Directly sell products
--   Indirect model - Involve customers by creating trends
+
+- Direct model - Directly sell products
+- Indirect model - Involve customers by creating trends
 
 ## HELS model
 
@@ -225,25 +235,26 @@ products that serve a purpose but also meet our need for belonging to a communit
 
 But what exactlyisa social+ company? To put it simply, it's a company for which social engagement is aninextricablecomponent of the product. That is to say that if you removed the social element, the product would cease to make sense.
 
-## Social+Gaming --Social+ games like[Fortnite](https://www.fastcompany.com/90315238/the-best-new-social-network-may-surprise-you)have all but replaced social networks for many players. While the game is certainly fun to play, it's the social aspect -- including in-game events like concerts -- that entices more than[31.3 million](https://www.rockpapershotgun.com/the-epic-games-store-is-still-mostly-about-fortnite)people to play the game each day. If the gaming industry seems like an obvious example, it's only because it nailed social+ first.
+## Social+Gaming --Social+ games like[Fortnite](https://www.fastcompany.com/90315238/the-best-new-social-network-may-surprise-you)have all but replaced social networks for many players. While the game is certainly fun to play, it's the social aspect -- including in-game events like concerts -- that entices more than[31.3 million](https://www.rockpapershotgun.com/the-epic-games-store-is-still-mostly-about-fortnite)people to play the game each day. If the gaming industry seems like an obvious example, it's only because it nailed social+ first
 
 ## Social+Fitness --Fitness app[Strava](https://www.strava.com/)is more than an app to track your runs. As Strava CEO James Quarles told[Outside](https://www.outsideonline.com/2395489/strava-james-quarles), "Strava wants to be the dashboard for tracking your fitness, a calendar for inviting friends to work out, a feed for you to follow others' activities, a blog for your race reports and photos, and a message board to ask for recommendations on a new pair of trail-running shoes."
 
 [Peloton](https://www.google.com/search?q=peloton&oq=peloton&aqs=chrome.0.69i59l3j0i271l3j69i60l2.1871j0j9&sourceid=chrome&ie=UTF-8#:~:text=Peloton%C2%AE%20%7C%20Workouts,onepeloton.com)'s stationary bikes and treadmills and digital subscription let users combine group fitness classes with home workouts. The motivation, friendly competition, and supportive relationships arising from the Peloton community are an integral part of its product.
 
-## Social+Commerce --Chinese marketplace[Pinduoduo](https://en.pinduoduo.com/)allows buyers to purchase heavily discounted goods when they rope in their friends.
+## Social+Commerce --Chinese marketplace[Pinduoduo](https://en.pinduoduo.com/)allows buyers to purchase heavily discounted goods when they rope in their friends
 
 Social+Audio --[Clubhouse](https://www.joinclubhouse.com/)is the social answer to podcasts and audiobooks, allowing users to not only listen in on conversations but chime in or host their own. Its invite-only beta launch, coupled with appearances by some big names, has drummed up massive curiosity and hype.
 
-## Social+ is a rising wave that will eventually sweep through every industry, turning solitary activities into social experiences.What's really interesting is that finance, which we tend to think of as kind of boring -- and more importantly, deeply personal and private -- is no exception. Social finance is on the rise, and early evidence suggests that this vertical has tremendous growth potential (more on this below).
+## Social+ is a rising wave that will eventually sweep through every industry, turning solitary activities into social experiences.What's really interesting is that finance, which we tend to think of as kind of boring -- and more importantly, deeply personal and private -- is no exception. Social finance is on the rise, and early evidence suggests that this vertical has tremendous growth potential (more on this below)
 
 ## The benefits of a social+ company
--   Growth
--   Retention
--   Harness the creativity of your users
-    -   User-generated content (UGC)
--   Insights-driven personalization
--   Barriers to entry
+
+- Growth
+- Retention
+- Harness the creativity of your users
+  - User-generated content (UGC)
+- Insights-driven personalization
+- Barriers to entry
 
 ## Creating a truly social+ finance product
 

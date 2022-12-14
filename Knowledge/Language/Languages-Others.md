@@ -37,8 +37,9 @@ Bonjour (Hello)
 Salut (Hello/Goodbye)
 
 ## Chinese
--   **Mandarin**
--   Cantonese
+
+- **Mandarin**
+- Cantonese
 
 ![image](media/Languages-Others-image2.png)
 

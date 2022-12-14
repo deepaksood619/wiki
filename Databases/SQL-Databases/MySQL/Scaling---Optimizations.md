@@ -8,46 +8,52 @@ Modified: 2022-07-13 14:51:02 +0500
 
 ## What exactly needs to Scale?
 
-1.  Tables (Data)
-    -   Partitioning, Co-location, Reference Tables
+1. Tables (Data)
+    - Partitioning, Co-location, Reference Tables
 
-2.  SQL (Reads)
-    -   How do we express and optimze distributed SQL
+2. SQL (Reads)
+    - How do we express and optimze distributed SQL
 
-3.  Transactions (Writes)
-    -   Cross Shared updates/deletes, Global Atomic Transactions
+3. Transactions (Writes)
+    - Cross Shared updates/deletes, Global Atomic Transactions
 Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
+
 ## Data Partitioning
--   **Horizontal Partitioning**
--   **Vertical Partitioning**-   Pick a column
-    -   Date
-    -   Id (customer_id, card_id)
--   Pick a method
-    -   Hash
-    -   Range
+
+- **Horizontal Partitioning**
+- **Vertical Partitioning**-   Pick a column
+  - Date
+  - Id (customer_id, card_id)
+- Pick a method
+  - Hash
+  - Range
+
 ## Limitations
--   ALTER TABLE ... ORDER BY.AnALTER TABLE ... ORDER BYcolumnstatement run against a partitioned table causes ordering of rows only within each partition.
--   Prohibited constructs.The following constructs are not permitted in partitioning expressions:
-    -   Stored procedures, stored functions, UDFs, or plugins.
-    -   Declared variables or user variables.
--   The query cache is not supported for partitioned tables, and is automatically disabled for queries involving partitioned tables. The query cache cannot be enabled for such queries.
--   Partitioned tables using the[InnoDB](https://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html)storage engine do not support foreign keys. More specifically, this means that the following two statements are true:
-    -   No definition of anInnoDBtable employing user-defined partitioning may contain foreign key references; noInnoDBtable whose definition contains foreign key references may be partitioned.
-    -   NoInnoDBtable definition may contain a foreign key reference to a user-partitioned table; noInnoDBtable with user-defined partitioning may contain columns referenced by foreign keys.
+
+- ALTER TABLE ... ORDER BY.AnALTER TABLE ... ORDER BYcolumnstatement run against a partitioned table causes ordering of rows only within each partition.
+- Prohibited constructs.The following constructs are not permitted in partitioning expressions:
+  - Stored procedures, stored functions, UDFs, or plugins.
+  - Declared variables or user variables.
+- The query cache is not supported for partitioned tables, and is automatically disabled for queries involving partitioned tables. The query cache cannot be enabled for such queries.
+- Partitioned tables using the[InnoDB](https://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html)storage engine do not support foreign keys. More specifically, this means that the following two statements are true:
+  - No definition of anInnoDBtable employing user-defined partitioning may contain foreign key references; noInnoDBtable whose definition contains foreign key references may be partitioned.
+  - NoInnoDBtable definition may contain a foreign key reference to a user-partitioned table; noInnoDBtable with user-defined partitioning may contain columns referenced by foreign keys.
 <https://dev.mysql.com/doc/mysql-partitioning-excerpt/5.7/en/partitioning-limitations.html>
 
 ## Performance Tuning**
--   Often the default value is the best value
--   Ensure all tables have a PRIMARY KEY
--   InnoDB organizes the data according to the PRIMARY KEY:
-    -   The PRIMARY KEY is included in all secondary indexes in order to be able to locate the actual row
-    -   Smaller PRIMARY KEY gives smaller secondary indexes
-    -   A mostly sequential PRIMARY KEY is generally recommended to avoid inserting rows between existing rows
--   max_execution_time limit for long running SQL Queries
+
+- Often the default value is the best value
+- Ensure all tables have a PRIMARY KEY
+- InnoDB organizes the data according to the PRIMARY KEY:
+  - The PRIMARY KEY is included in all secondary indexes in order to be able to locate the actual row
+  - Smaller PRIMARY KEY gives smaller secondary indexes
+  - A mostly sequential PRIMARY KEY is generally recommended to avoid inserting rows between existing rows
+- max_execution_time limit for long running SQL Queries
 <https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html>
 
 ## Optimizations**
--   **Always do bulk inserts/updates wherever possible**
+
+- **Always do bulk inserts/updates wherever possible**
 
 <https://blog.jooq.org/2018/04/19/the-performance-difference-between-sql-row-by-row-updating-batch-updating-and-bulk-updating>
 if autoincrement is used, then for every query there is roundtrip to database to check the autoincrement value, so use bulk insert if possible-   **Explicitly ORDER BY After GROUP BY**

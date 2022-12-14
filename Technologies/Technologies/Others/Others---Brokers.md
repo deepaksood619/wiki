@@ -14,13 +14,13 @@ NSQ is a realtime distributed messaging platform designed to operate at scale, h
 
 <https://nsq.io/overview/performance.html>
 
-<https://pynsq.readthedocs.io/en/latest
+<https://pynsq.readthedocs.io/en/latest>
 
 ## Scribe
 
 Scribe processes logs with an input rate that can exceed 2.5 terabytes per second and an output rate that can exceed 7 terabytes per second.
 
-<https://engineering.fb.com/data-infrastructure/scribe
+<https://engineering.fb.com/data-infrastructure/scribe>
 
 ## Brooklin
 
@@ -28,7 +28,7 @@ Brooklin is a distributed system intended for streaming data between various het
 
 <https://engineering.linkedin.com/blog/2019/brooklin-open-source>
 
-<https://github.com/linkedin/Brooklin
+<https://github.com/linkedin/Brooklin>
 
 ## NATS
 
@@ -43,14 +43,15 @@ The project consists of a family of open source components that are tightly inte
 NATS Streaming subscribers can retrieve messages published when they were offline, or replay a series of messages. Streaming inherently provides a buffer in the distributed application ecosystem, increasing stability. This allows applications to offload local message caching and buffering logic into NATS and ensures a message is never lost.
 
 ## Main features
--   Pure pub-sub
--   Clustered mode server
--   Auto-pruning of subscribers
--   Text-based protocol
--   Multiple qualities of service (QoS)
--   Durable subscriptions
--   Event streaming service
--   Last/Initial value caching
+
+- Pure pub-sub
+- Clustered mode server
+- Auto-pruning of subscribers
+- Text-based protocol
+- Multiple qualities of service (QoS)
+- Durable subscriptions
+- Event streaming service
+- Last/Initial value caching
 
 ## NATS and NATS Streaming
 
@@ -60,15 +61,15 @@ The key point here is that NATS and NATS Streaming are distinct systems with dis
 
 ![Application Code NATS Streaming Client API NATS Client NATS Streaming Server NATS Streaming NATS Server ](../../media/Technologies-Others-Others---Brokers-image1.png)
 
-<https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-5-sketching-a-new-system
+<https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-5-sketching-a-new-system>
 
 <https://en.wikipedia.org/wiki/NATS_Messaging>
 
 <https://github.com/nats-io>
 
-<https://www.cncf.io/blog/2018/03/15/cncf-to-host-nats
+<https://www.cncf.io/blog/2018/03/15/cncf-to-host-nats>
 
-<https://nats.io/documentation
+<https://nats.io/documentation>
 
 Used by - Zerodha
 
@@ -81,10 +82,11 @@ Liftbridge provides lightweight, fault-tolerant message streams by implementing 
 <https://github.com/liftbridge-io/liftbridge>
 
 ## LSD Live Streaming Daemon
--   extremely high availability, reliability and local buffering capabilities, limited only by producer's disk storage capacity
--   lightweight text-based data format
--   simple configuration, deployment and support
--   ability to create complex routing schemes for different data streams
--   in general you don't need any specific library to send events (just write to plain files)
+
+- extremely high availability, reliability and local buffering capabilities, limited only by producer's disk storage capacity
+- lightweight text-based data format
+- simple configuration, deployment and support
+- ability to create complex routing schemes for different data streams
+- in general you don't need any specific library to send events (just write to plain files)
 
 <https://github.com/badoo/lsd>

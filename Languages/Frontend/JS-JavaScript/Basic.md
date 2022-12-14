@@ -10,50 +10,51 @@ Modified: 2022-04-19 23:22:28 +0500
 
 ## Datatypes
 
-1.  Numbers (primitive)
+1. Numbers (primitive)
 
-2.  Strings (primitive)
+2. Strings (primitive)
 
-3.  Boolean (primitive)
+3. Boolean (primitive)
 
-4.  Null (trivial)
+4. Null (trivial)
 
 null is the absence of a value. It is an assignment value that can be assigned to a variable as a representation of 'no-value'.
 
-5.  Undefined (trivial)
+5. Undefined (trivial)
 
 Undefined is the absence of a definition. It is used as the default value for uninitialized variables, function arguments that were not provided and missing properties of objects. Functions returnundefined when nothing has been explicitly returned.
 
-6.  Object (composite) (Non-primitive)
+6. Object (composite) (Non-primitive)
 
-7.  Symbol (ES6)
+7. Symbol (ES6)
 
-## Falsy values:"",0,null,undefined,NaN,false.
+## Falsy values:"",0,null,undefined,NaN,false
 
 ## Truthy values : 'hello', '0', ' ', ([]), (function() {})
 
 ## Comments
 
-// and /* */
+// and /**/
 
 ## Variables
--   Not starting with number
--   Can start with underscore and characters
--   Declared using var keyword
--   Untyped language ( var foo ) can hold value of any data type
--   Scope - Global and Local
 
-1.  **var**
+- Not starting with number
+- Can start with underscore and characters
+- Declared using var keyword
+- Untyped language ( var foo ) can hold value of any data type
+- Scope - Global and Local
+
+1. **var**
 
 Thevariablestatementdeclares a variable, optionally initializing it to a value.
 
-2.  **let**
+2. **let**
 
 Theletstatement declares a block scope local variable, optionally initializing it to a value.
 
 letallows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the[var](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/var)keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
 
-3.  **const**
+3. **const**
 
 Constants are block-scoped, much like variables defined using the[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
 
@@ -92,7 +93,7 @@ A constant cannot share its name with a function or a variable in the same scope
 
 ## Operators
 
-1.  Arithmetic Operators
+1. Arithmetic Operators
 
     a.  Addition (+)
 
@@ -114,7 +115,7 @@ A constant cannot share its name with a function or a variable in the same scope
 
     j.  Unary Plus (+)
 
-2.  Comparison Operators
+2. Comparison Operators
 
     a.  Equal ( == )
 
@@ -122,33 +123,33 @@ A constant cannot share its name with a function or a variable in the same scope
 
 Inequality operator will convert data types of values while comparing
 
-1.  3 != '3' // true
+1. 3 != '3' // true
 
-2.  3 != 3 // false
+2. 3 != 3 // false
 
-3.  3 != "3" // true
+3. 3 != "3" // true
 
-3.  Greater than ( > )
+3. Greater than ( > )
 
-4.  Less than ( < )
+4. Less than ( < )
 
-5.  Greater than or Equal to ( >= )
+5. Greater than or Equal to ( >= )
 
-6.  Less than or Equal to ( <= )
+6. Less than or Equal to ( <= )
 
-7.  ===
+7. ===
 
-8.  !== (Strict inequality operator)
+8. !== (Strict inequality operator)
 
 It means "Strictly Not Equal". Strict inequality will not convert data types.
 
-1.  3 !== 3 // false
+1. 3 !== 3 // false
 
-2.  3 !== '3' // true
+2. 3 !== '3' // true
 
-3.  4 !== 3 // true
+3. 4 !== 3 // true
 
-3.  Logical or Relational Operators
+3. Logical or Relational Operators
 
     a.  Logical AND (&&)
 
@@ -156,7 +157,7 @@ It means "Strictly Not Equal". Strict inequality will not convert data types.
 
     c.  Logical NOT ( ! )
 
-4.  Bitwise Operators
+4. Bitwise Operators
 
     a.  Bitwise AND ( & )
 
@@ -172,7 +173,7 @@ It means "Strictly Not Equal". Strict inequality will not convert data types.
 
     g.  Right Shift with Zero ( >>> )
 
-5.  Assignment Operators
+5. Assignment Operators
 
     a.  Simple assignment ( = )
 
@@ -186,13 +187,13 @@ It means "Strictly Not Equal". Strict inequality will not convert data types.
 
     f.  Modulus and assignment ( %= )
 
-6.  Conditional (or ternary) Operator ( (condition ) ? True : False )
+6. Conditional (or ternary) Operator ( (condition ) ? True : False )
 
-7.  Typeof Operator
+7. Typeof Operator
 
 Unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.
 
-8.  in
+8. in
 
 Theinoperatorreturnstrueif the specified property is in the specified object or its prototype chain.
 
@@ -216,13 +217,13 @@ var mycar = {make: 'Honda', model: 'Accord', year: 1998};
 
 ## Control Statements
 
-1.  If statement
+1. If statement
 
-2.  If-else statement
+2. If-else statement
 
-3.  If - else - if statement
+3. If - else - if statement
 
-4.  switch
+4. switch
 
 Theswitchstatementevaluates an[expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators), matching the expression's value to acaseclause, and executes[statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)associated with that case, as well as statements incases that follow the matching case.
 
@@ -297,35 +298,35 @@ if (0) {
 
 ## String functions
 
-1.  String.length
+1. String.length
 
-2.  String.prototype.split()
+2. String.prototype.split()
 
-3.  String.prototype.replace()
+3. String.prototype.replace()
 
 Ex - **str = str.replace(/[^a-z]*/g, "");**
 
-## Ex - str = str.replace(/[^a-z0-9]*/g, "");
+## Ex - str = str.replace(/[^a-z0-9]*/g, "")
 
-4.  String.prototype.toLowerCase()
+4. String.prototype.toLowerCase()
 
-5.  String.prototype.toUpperCase()
+5. String.prototype.toUpperCase()
 
-6.  String.prototype.slice()
+6. String.prototype.slice()
 
 varstr ="Hello world!";
 
 varres = str.slice(1,5); // ello
 
-7.  String.prototype.substr()
+7. String.prototype.substr()
 
 The**substr()**method returns the characters in a string beginning at the specified location through the specified number of characters.
 
-8.  String.prototype.substring()
+8. String.prototype.substring()
 
 The**substring()**method returns a subset of astringbetween one index and another, or through the end of the string.
 
-9.  String.prototype.indexOf()
+9. String.prototype.indexOf()
 
 The**indexOf()**method returns the index within the calling[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)object of the first occurrence of the specified value, starting the search atfromIndex. Returns -1 if the value is not found.
 
@@ -351,29 +352,29 @@ myStr[0] = "J"; // error
 
 ## Arrays
 
-1.  Array.prototype.push()
+1. Array.prototype.push()
 
-2.  Array.prototype.pop()
+2. Array.prototype.pop()
 
-3.  Array.prototype.shift()
+3. Array.prototype.shift()
 
 The**shift()**method removes the**first**element from an array and returns that removed element. This method changes the length of the array.
 
-4.  Array.prototype.unshift()
+4. Array.prototype.unshift()
 
-5.  Array.prototype.slice()
+5. Array.prototype.slice()
 
-6.  Array.prototype.splice()
+6. Array.prototype.splice()
 
 The**splice()**method changes the contents of an array by removing existing elements and/or adding new elements.
 
 *Syntax - array*.splice(*start[*, *deleteCount[*, *item1[*, *item2[*, *...]]]]*)
 
-7.  Array.prototype.reverse()
+7. Array.prototype.reverse()
 
-8.  Array.prototype.join()
+8. Array.prototype.join()
 
-9.  Array.prototype.find()
+9. Array.prototype.find()
 
 The**find()**method returns the**value**of the first element in the array that satisfies the provided testing function. Otherwise[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)is returned.
 
@@ -423,31 +424,31 @@ Array.isArray(undefined); // false
 
 ## Loops
 
-1.  **For**
+1. **For**
 
     a.  **foreach**
 
 foreachis an method that is available only in Array objects. It allows you to iterate through elements of an array. When invoked it takes a callback function and invokes the callback once for every array element. The callback can access both index and value of the array elements.foreachis available only for looping arrays.
 
-2.  **for in**
+2. **for in**
 
 for inis used to loop through properties of an object. It can be any object.for inallows you to access the keys of the object but doesn't provide reference to the values. In JavaScript object properties themselves have internal properties. One of the internal properties is[[Enumerable]].for inwill only walkthrough a property if it has[[Enumerbale]]set totrue. It not used to iterate elements of an collection rather used to iterate properties of objects.
 
-3.  **for....of**
+3. **for....of**
 
 The**for...ofstatement**creates a loop iterating over[iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String),[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like[arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments)or[NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)objects,[TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray),[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)and[Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
 
-2.  **While**
+2. **While**
 
 ## Objects (JSON - JavaScript Object Notation)
 
 ## Accessing Objects Properties with the
 
-1.  **Dot Operator**
+1. **Dot Operator**
 
-2.  **Bracket Notation**
+2. **Bracket Notation**
 
-1.  **Arguments Object**
+1. **Arguments Object**
 
 It can be converted to a realArray:
 
@@ -457,21 +458,21 @@ var args = [].slice.call(arguments);
 // ES2015, does not work sometimes
 const args = Array.from(arguments);
 
-2.  Object.prototype.hasOwnProperty() // true or false
+2. Object.prototype.hasOwnProperty() // true or false
 
-3.  Object.keys()
+3. Object.keys()
 
 Ex - {'foo':'bar'}
 
 For getting the key from an object's 1st value
 
-Object.keys(foo)[0]; // foo
+Object.keys[foo](0); // foo
 
 For getting the value from an object
 
-foo[Object.keys(foo)[0]); // bar
+foo[Object.keys[foo](0)); // bar
 
-4.  Delete object key-value
+4. Delete object key-value
 
 delete collection[key];
 
@@ -533,7 +534,7 @@ str.match(re)
 
 ## Object Oriented and Functional Programming
 
-1.  **Constructor**
+1. **Constructor**
 
 var Car = function() {
 
@@ -545,7 +546,7 @@ this.seats = 5;
 
 };
 
-## this variable refers to the new object being created by the constructor.
+## this variable refers to the new object being created by the constructor
 
 So when we write,
 
@@ -553,13 +554,13 @@ this.wheels = 4;
 
 inside of the constructor we are giving the new object it creates a property called wheels with a value of 4.
 
-2.  **Instances of objects**
+2. **Instances of objects**
 
-## var myCar = new Car();
+## var myCar = new Car()
 
-3.  **Parametrized Constructor**
+3. **Parametrized Constructor**
 
-## var myCar = new Car(6, 3, 1);
+## var myCar = new Car(6, 3, 1)
 
 var Car = function(wheels, seats, engines) {
 
@@ -571,7 +572,7 @@ this.engines = engines;
 
 };
 
-4.  **Map**
+4. **Map**
 
 The map method is a convenient way to iterate through arrays. Here's an example usage:
 
@@ -589,7 +590,7 @@ console.log(oldArray); // returns [1, 2, 3]
 
 The map method will iterate through every element of the array, creating a new array with values that have been modified by the callback function, and return it. Note that it does not modify the original array.
 
-5.  **Reduce**
+5. **Reduce**
 
 The array method reduce is used to iterate through an array and condense it into one value.
 
@@ -607,7 +608,7 @@ return previousVal - currentVal;
 
 }, 0);
 
-6.  **Filter**
+6. **Filter**
 
 The filter method is used to iterate through an array and filter out elements where a given condition is not true.
 
@@ -625,7 +626,7 @@ return val !== 5;
 
 });
 
-7.  **Sort**
+7. **Sort**
 
 You can use the method sort to easily sort the values in an array alphabetically or numerically.
 
@@ -647,7 +648,7 @@ return a - b;
 
 Use sort to sort array from largest to smallest.
 
-8.  **Reverse**
+8. **Reverse**
 
 You can use the reverse method to reverse the elements of an array.
 
@@ -659,7 +660,7 @@ myArray.reverse();
 
 *returns [3, 2, 1]*
 
-9.  **Concat**
+9. **Concat**
 
 concat can be used to merge the contents of two arrays into one.
 
@@ -691,8 +692,6 @@ var salad = veggies.join(" and ");
 
 console.log(salad); // "Celery and Radish and Carrot and Potato"
 
-
-
 ## Built-in functions
 
 ## Conversion
@@ -713,7 +712,7 @@ console.log(rest);
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>
 
-<https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript
+<https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript>
 
 ## Spread Syntax
 
@@ -721,12 +720,13 @@ Spread syntax(...) allows an iterable such as an array expression or string to b
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax>
 
-<https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter
--   Object destructuring is new syntax introduced in ES6. It helps create variables by extracting the object's properties in a much simpler way.
--   If you are working with (or planning to use) a framework/library likeangular,react, orvue, you will be using a lot of object destructuring syntax.
--   Object destructuring and Spread syntax are not the same thing.
--   Spreadsyntax (also known as the Spread Operator) is used to copy the enumerable properties of an object to create a clone of it. We can also update an object or merge with another object using the spread syntax.
--   TheRestparameter is kind of the opposite of theSpreadsyntax. It helps to consolidate (or collect) the remaining object properties into a new object while destructuring is done.
+<https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter>
+
+- Object destructuring is new syntax introduced in ES6. It helps create variables by extracting the object's properties in a much simpler way.
+- If you are working with (or planning to use) a framework/library likeangular,react, orvue, you will be using a lot of object destructuring syntax.
+- Object destructuring and Spread syntax are not the same thing.
+- Spreadsyntax (also known as the Spread Operator) is used to copy the enumerable properties of an object to create a clone of it. We can also update an object or merge with another object using the spread syntax.
+- TheRestparameter is kind of the opposite of theSpreadsyntax. It helps to consolidate (or collect) the remaining object properties into a new object while destructuring is done.
 
 ## Others
 

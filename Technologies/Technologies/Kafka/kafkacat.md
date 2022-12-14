@@ -129,7 +129,7 @@ kafkacat -b **kafka0.zenatix.com:31090,kafka1.zenatix.com:31091,kafka2.zenatix.c
 
 # Redirect logs to different topic
 
-## kafkacat -b kafka0.zenatix.com:31090,kafka1.zenatix.com:31091,kafka2.zenatix.com:31092 -C -t** smap_samhi **-o s@**1568989590000 **-o e@**1568989620000 | kafkacat -b **kafka0.zenatix.com:31090,kafka1.zenatix.com:31091,kafka2.zenatix.com:31092 -P -t samhi_logs
+## kafkacat -b kafka0.zenatix.com:31090,kafka1.zenatix.com:31091,kafka2.zenatix.com:31092 -C -t**smap_samhi**-o s@**1568989590000**-o e@**1568989620000 | kafkacat -b**kafka0.zenatix.com:31090,kafka1.zenatix.com:31091,kafka2.zenatix.com:31092 -P -t samhi_logs
 
 ## Producers
 
@@ -160,8 +160,6 @@ kafkacat - Apache Kafka producer and consumer tool
 Copyright (c) 2014-2019, Magnus Edenhill
 
 Version 1.5.0 (JSON, librdkafka 1.2.0 builtin.features=gzip,snappy,ssl,sasl,regex,lz4,sasl_gssapi,sasl_plain,sasl_scram,plugins,zstd,sasl_oauthbearer)
-
-
 
 General options:
 

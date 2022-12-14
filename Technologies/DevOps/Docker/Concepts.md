@@ -13,11 +13,12 @@ Docker uses a technology called*namespaces*to provide the isolated workspace cal
 These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 
 Docker Engine uses namespaces such as the following on Linux:
--   **Thepidnamespace:**Process isolation (PID: Process ID).
--   **Thenetnamespace:**Managing network interfaces (NET: Networking).
--   **Theipcnamespace:**Managing access to IPC resources (IPC: InterProcess Communication).
--   **Themntnamespace:**Managing filesystem mount points (MNT: Mount).
--   **Theutsnamespace:**Isolating kernel and version identifiers. (UTS: Unix Timesharing System).
+
+- **Thepidnamespace:**Process isolation (PID: Process ID).
+- **Thenetnamespace:**Managing network interfaces (NET: Networking).
+- **Theipcnamespace:**Managing access to IPC resources (IPC: InterProcess Communication).
+- **Themntnamespace:**Managing filesystem mount points (MNT: Mount).
+- **Theutsnamespace:**Isolating kernel and version identifiers. (UTS: Unix Timesharing System).
 
 Much of the macOS file system that is accessible to the user is also available to containers using the-vbind mount syntax. The following command runs a container from an image calledr-baseand shares the macOS user's~/Desktop/directory as/Desktopin the container.
 
@@ -51,7 +52,7 @@ Ubuntu/Alpine
 
 Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
-<https://hub.docker.com/_/alpine
+<https://hub.docker.com/_/alpine>
 
 ## References
 

@@ -22,35 +22,35 @@ Leonhard Euler solved the problem in 1735 by proving that it is not possible.
 
 ## Introduction
 
-1.  Path
+1. Path
 
-2.  Cycle - Is a path that starts and ends at the same vertex
+2. Cycle - Is a path that starts and ends at the same vertex
 
-3.  Acyclic graph - A graph with no cycles
+3. Acyclic graph - A graph with no cycles
 
-4.  Directed Acyclic Graph (DAG) - A directed graph with no cycles
+4. Directed Acyclic Graph (DAG) - A directed graph with no cycles
 
 ## Graph-Processing problems / Graph Challenges-
 
-1.  Path: Is there a path between s and t?
+1. Path: Is there a path between s and t?
 
-2.  Shortest-Path: What is the shortest path between s and t?
+2. Shortest-Path: What is the shortest path between s and t?
 
-3.  Cycle: Is there a cycle in the graph? (Use DFS)
+3. Cycle: Is there a cycle in the graph? (Use DFS)
 
-4.  **Euler tour / Eulerian Path**: Is there a cycle that uses each edge exactly once? (Bridges of Konigsberg)
+4. **Euler tour / Eulerian Path**: Is there a cycle that uses each edge exactly once? (Bridges of Konigsberg)
 
 Answer: A connected graph is Eulerian iff all vertices have even edges
 
-5.  **Hamiltonian Path -** is a path in an undirected or directed path that visits each vertex exactly once.
+5. **Hamiltonian Path -** is a path in an undirected or directed path that visits each vertex exactly once.
 
-6.  **Hamilton tour / Hamiltonian Cycle / TSP:** Is there a cycle that uses each vertex exactly once? (Intractable - NP-complete problem) - Is a hamiltonian path that is a cycle
+6. **Hamilton tour / Hamiltonian Cycle / TSP:** Is there a cycle that uses each vertex exactly once? (Intractable - NP-complete problem) - Is a hamiltonian path that is a cycle
 
-7.  Connectivity: Is there a way to connect all of the vertices?
+7. Connectivity: Is there a way to connect all of the vertices?
 
-8.  MST: What is the best way to connect all of the vertices?
+8. MST: What is the best way to connect all of the vertices?
 
-9.  Biconnectivity: Is there a vertex whose removal disconnects the graph?
+9. Biconnectivity: Is there a vertex whose removal disconnects the graph?
 
 10. Bipartite - Is a graph bipartite (Use DFS)
 
@@ -76,10 +76,8 @@ In the[mathematical](https://en.wikipedia.org/wiki/Mathematics)discipline of[gra
 
 ![](media/Intro-image3.png)
 
-
-
 <https://www.youtube.com/watch?v=09_LlHjoEiY>
 
-<https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews
+<https://www.freecodecamp.org/news/graph-algorithms-for-technical-interviews>
 
-<https://www.freecodecamp.org/news/learn-how-graph-algorithms-work
+<https://www.freecodecamp.org/news/learn-how-graph-algorithms-work>

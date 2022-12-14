@@ -5,22 +5,22 @@ Created: 2020-07-08 20:19:19 +0500
 Modified: 2020-07-08 20:26:01 +0500
 
 ---
--   **Reserving Resources For The System and Kubelet**
 
-# Capture resource reservation for kubernetes system daemons like thekubelet,container runtime,node problem detector, etc.
+- **Reserving Resources For The System and Kubelet**
+
+# Capture resource reservation for kubernetes system daemons like thekubelet,container runtime,node problem detector, etc
 
 --kube-reserved cpu=250m,memory=1Gi,ephemeral-storage=1Gi
 
-# Capture resources for vital system functions, such assshd, udev.
+# Capture resources for vital system functions, such assshd, udev
 
 --system-reserved cpu=250m,memory=0.2Gi,ephemeral-storage=1Gi
 
-# Start evicting pods from this node once these thresholds are crossed.
+# Start evicting pods from this node once these thresholds are crossed
 
 --eviction-hard memory.available<0.2Gi,nodefs.available<10%
 
-
--   **Network Stack Optimisation**
+- **Network Stack Optimisation**
 
 cat <<EOF > /etc/sysctl.d/99-kubelet-network.conf
 
@@ -34,15 +34,15 @@ net.ipv4.tcp_tw_reuse=1
 
 net.ipv4.tcp_fin_timeout=15
 
-# The maximum number of "backlogged sockets".Default is 128.
+# The maximum number of "backlogged sockets".Default is 128
 
 net.core.somaxconn=4096
 
 net.core.netdev_max_backlog=4096
 
-# 16MB per socket - which sounds like a lot,
+# 16MB per socket - which sounds like a lot
 
-# but will virtually never consume that much.
+# but will virtually never consume that much
 
 net.core.rmem_max=16777216
 
@@ -64,7 +64,7 @@ net.ipv4.tcp_synack_retries=2
 
 net.ipv4.tcp_wmem=4096 65536 16777216
 
-#vm.min_free_kbytes=65536
+# vm.min_free_kbytes=65536
 
 # Connection tracking to prevent dropped connections (usually issue on LBs)
 
@@ -84,13 +84,12 @@ net.ipv4.neigh.default.gc_thresh3=16384
 
 EOF
 
-# Don't forget to...
+# Don't forget to
 
 systemctl restart systemd-sysctl.service
 
-
--   **DNS lookup scaling**
+- **DNS lookup scaling**
 
 kubectl -n kube-system scale --replicas=5 deployment/kube-dns
 
-<https://kubedex.com/90-days-of-aws-eks-in-production
+<https://kubedex.com/90-days-of-aws-eks-in-production>

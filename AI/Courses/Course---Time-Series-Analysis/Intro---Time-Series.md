@@ -5,47 +5,51 @@ Created: 2020-04-05 01:42:01 +0500
 Modified: 2021-12-04 21:16:23 +0500
 
 ---
--   QQ-Plot (Quantile-Quantile Plot)
-    -   Used to determine whether a data set is distributed a certain way (To see if the values of a data set follow a given distribution?)
-    -   Usually showcases how the data fits a Normal Distribution
-    -   Takes all the values a variable can take, and arranges them in accending order
-    -   ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image1.png)
-    -   Y-axis expresses the price with highest one on top and lowest on bottom
-    -   X-axis expresses theoretical quantiles of the dataset. How many standard deviations away from the mean these values are.
-    -   Diagonal line shows what the data points should follow, if they are Normally Distributed
--   ACF
--   PACF
--   Seasonal Decomposition Graph
--   Dickey-Fuller Test
--   Time-series data processing
--   Time stamps and missing values
--   White noise
--   Random walk
--   Stationarity
--   Autocorrelation
--   Volatility
+
+- QQ-Plot (Quantile-Quantile Plot)
+  - Used to determine whether a data set is distributed a certain way (To see if the values of a data set follow a given distribution?)
+  - Usually showcases how the data fits a Normal Distribution
+  - Takes all the values a variable can take, and arranges them in accending order
+  - ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image1.png)
+  - Y-axis expresses the price with highest one on top and lowest on bottom
+  - X-axis expresses theoretical quantiles of the dataset. How many standard deviations away from the mean these values are.
+  - Diagonal line shows what the data points should follow, if they are Normally Distributed
+- ACF
+- PACF
+- Seasonal Decomposition Graph
+- Dickey-Fuller Test
+- Time-series data processing
+- Time stamps and missing values
+- White noise
+- Random walk
+- Stationarity
+- Autocorrelation
+- Volatility
 
 ## Modeling
--   Auto Regression (AR)
+
+- Auto Regression (AR)
 
 Predict movements based on correlations
--   Moving Averages (MA)
+
+- Moving Averages (MA)
 
 Account for unexpected shocks in our data
--   ARMA
--   ARIMA (Auto Regressive Integrated Moving Average)
--   ARMAX
--   ARIMAX
--   ARCH
--   GARCH
--   Auto ARIMA
--   Forecasting
 
--   SARIMA (seasonally integrated autoregressive-moving average)
--   FARIMA (fractionally integrated autoregressive-moving average)
--   Prophet
--   **Neural Prophet**
--   Vector Autoregression (VAR)
+- ARMA
+- ARIMA (Auto Regressive Integrated Moving Average)
+- ARMAX
+- ARIMAX
+- ARCH
+- GARCH
+- Auto ARIMA
+- Forecasting
+
+- SARIMA (seasonally integrated autoregressive-moving average)
+- FARIMA (fractionally integrated autoregressive-moving average)
+- Prophet
+- **Neural Prophet**
+- Vector Autoregression (VAR)
 
 ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image2.jpeg)
 
@@ -53,35 +57,38 @@ Account for unexpected shocks in our data
 
 <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python>
 
-
--   **Univariate Time Series**
-    -   Simple Average
+- **Univariate Time Series**
+  - Simple Average
 
 Sum all points divided by total number of points
--   Moving Average
+
+- Moving Average
 
 Take average of the last few data points only
--   Single Exponential Smoothing
+
+- Single Exponential Smoothing
 
 Attach larger weights to more recent observations than to observations from the distant past
--   Holt's linear trend method
--   Holt's winter seasonal method
 
--   **Multivariate Time Series**
-    -   Finds linear interdependencies between multiple variables
-    -   Examples - ARIMA, ARIMAX
+- Holt's linear trend method
+- Holt's winter seasonal method
+
+- **Multivariate Time Series**
+  - Finds linear interdependencies between multiple variables
+  - Examples - ARIMA, ARIMAX
 
 ## Time-Series Data
 
 A sequence of information which attaches a time period to each value
--   Time period
--   Frequency - How often values of the data set are recorded
--   Analysing time-periods: All time-periods must be **equal and clearly defined** which would result in a **constant frequency**
--   Patterns persist in future
--   Finance - Determining the stability of financial markets and the efficiency of portfolios
--   Time-dependency - The values for every period are affected by outside factors and by the values of past periods
--   Time-Series data suffers from seasonality (is not often observed in regular data)
--   Why isn't seasonality a trait of normal (cross-sectional) data?
+
+- Time period
+- Frequency - How often values of the data set are recorded
+- Analysing time-periods: All time-periods must be **equal and clearly defined** which would result in a **constant frequency**
+- Patterns persist in future
+- Finance - Determining the stability of financial markets and the efficiency of portfolios
+- Time-dependency - The values for every period are affected by outside factors and by the values of past periods
+- Time-Series data suffers from seasonality (is not often observed in regular data)
+- Why isn't seasonality a trait of normal (cross-sectional) data?
 
 There is no chronological order in cross-sectional data
 
@@ -94,16 +101,18 @@ T = entire period
 t = a single period
 
 ## Pecurliarities
--   Intervals need to be identical
--   Adjust frequency
+
+- Intervals need to be identical
+- Adjust frequency
 
 roll up - Aggregating the data
 
 Increase frequency - Approximate missing values
--   Requires chronological order
-    -   Choose a cut off time for train test data
-    -   Cannot shuffle data so cannot apply some ML models
--   Never satisfies Gauss-Markov assumptions
+
+- Requires chronological order
+  - Choose a cut off time for train test data
+  - Cannot shuffle data so cannot apply some ML models
+- Never satisfies Gauss-Markov assumptions
 
 Why do we decide to use the dates the values were recorded as indices, as opposed to any of the other columns?
 
@@ -129,35 +138,37 @@ b - business days / weekdays
 
 df_comp.spx=df_comp.spx.fillna(method='ffill')
 
-1.  Front filling: Assigns the value of the previous period.
+1. Front filling: Assigns the value of the previous period.
 
 fillna(method="ffill")
 
-2.  Back filling: Assigns the value for the next period
+2. Back filling: Assigns the value for the next period
 
 fillna(method="bfill")
 
-3.  Assigning the same value: Assign the average to all the missing values within the time-series
+3. Assigning the same value: Assign the average to all the missing values within the time-series
 
 df_comp.dax=df_comp.dax.fillna(value=df_comp.dax.mean())
 
 ## White Noise
--   A sequence of random data, where every value has a time-period associated with it.
--   It behaves sporadically
--   For a timeseries to satisfy as White Noise, it must satisfy 3 conditions
 
-    1.  constant mean
+- A sequence of random data, where every value has a time-period associated with it.
+- It behaves sporadically
+- For a timeseries to satisfy as White Noise, it must satisfy 3 conditions
 
-    2.  constant variance
+    1. constant mean
 
-    3.  no aurocorrelation (no clear relationship between past and present values)
+    2. constant variance
+
+    3. no aurocorrelation (no clear relationship between past and present values)
 
 ## Random Walk
--   A special type of time-series, where values tend to persist over time and the differences between periods are simply white noise
--   Characteristics
-    -   The differences between periods are simply White Noise.
-    -   The best estimator for today's values is yesterday's value
-    -   The best estimator for tomorrow's value is today's value
+
+- A special type of time-series, where values tend to persist over time and the differences between periods are simply white noise
+- Characteristics
+  - The differences between periods are simply White Noise.
+  - The best estimator for today's values is yesterday's value
+  - The best estimator for tomorrow's value is today's value
 
 Market efficiency - Measures the level of difficulty in forecasting correct future values
 
@@ -173,7 +184,7 @@ Figure 1: Time series generated by a stationary (top) and a non-stationary (bott
 
 <https://towardsdatascience.com/stationarity-in-time-series-analysis-90c94f27322>
 
-1.  **Weak-form stationarity / covariance stationarity**
+1. **Weak-form stationarity / covariance stationarity**
 
 Time-series stationarity implies taking consecutive samples of data with the same size should have identical covariances regardless of the starting point.
 
@@ -185,15 +196,15 @@ Example of covariance stationarity is White Noise:
 
 ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image6.png)
 
-2.  **Strict Stationarity**
+2. **Strict Stationarity**
 
 ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image7.png)
 
-
--   Rarely observed in nature, therefore stationarity = covariance stationarity
+- Rarely observed in nature, therefore stationarity = covariance stationarity
 
 ## Determining Weak Form Stationarity
--   Dickey-Fuller test (D-F test)
+
+- Dickey-Fuller test (D-F test)
 
 ![image](media/Course---Time-Series-Analysis_Intro---Time-Series-image8.png)
 
@@ -220,25 +231,25 @@ The data in question is stationary, assuming 5% significance
 
 Trends will appear on a cyclical basis
 
-
--   Decomposition
+- Decomposition
 
 Split into 3 effects:
--   Trend -> Pattern
--   Seasonal -> Cyclical effects
--   Residual -> Error of prediction
+
+- Trend -> Pattern
+- Seasonal -> Cyclical effects
+- Residual -> Error of prediction
 
 The difference between true values and predictions for any period
 
-
--   Types of Decomposition
-    -   Naive Decomposition
-        -   Additive
+- Types of Decomposition
+  - Naive Decomposition
+    - Additive
 
 observed = trend + seasonal + residual
--   Multiplicative
 
-observed = trend * seasonal * residual
+- Multiplicative
+
+observed = trend *seasonal* residual
 
 fromstatsmodels.tsa.seasonalimportseasonal_decompose
 

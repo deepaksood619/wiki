@@ -9,22 +9,26 @@ Modified: 2022-03-03 23:58:02 +0500
 ## Market timings
 
 ## Equity
--   9 am to 9.15 am -- Pre market
--   9.15 am to 3.30 pm -- Normal trading
--   3.40 pm to 4.00 pm -- Post market
+
+- 9 am to 9.15 am -- Pre market
+- 9.15 am to 3.30 pm -- Normal trading
+- 3.40 pm to 4.00 pm -- Post market
 
 ## Currency
--   9 am to 5 pm -- Normal trading
+
+- 9 am to 5 pm -- Normal trading
 
 ## Commodity
--   9 am to 11.30 pm -- during day light savings time - March to November
--   9 am to 11.55 pm -- November to March
+
+- 9 am to 11.30 pm -- during day light savings time - March to November
+- 9 am to 11.55 pm -- November to March
 
 Bulls make money, bears make money, but pigs get slaughtered.
 
 ## Apps / Tools
--   Screener.in
--   Zerodha
+
+- Screener.in
+- Zerodha
 
 ## kite.zerodha.com
 
@@ -34,15 +38,14 @@ Bulls make money, bears make money, but pigs get slaughtered.
 
 ## streak.zerodha.com
 
-
--   MoneyControl
--   iqoption
--   smallcase
--   indmoney (US stocks) / Vested / Winvesta
--   **Frontpage**
--   **Tickertape**
--   <https://in.tradingview.com
--   <https://learnapp.com/home>
+- MoneyControl
+- iqoption
+- smallcase
+- indmoney (US stocks) / Vested / Winvesta
+- **Frontpage**
+- **Tickertape**
+- <https://in.tradingview.com>
+- <https://learnapp.com/home>
 
 ## Stock Market
 
@@ -50,31 +53,31 @@ Investing ensures financial security, and the Stock market plays a pivotal role 
 
 ## Stock Market Participants
 
-1.  Domestic Retail Participants-- These are people like you and me transacting in markets
+1. Domestic Retail Participants-- These are people like you and me transacting in markets
 
-2.  NRI's and OCI-- These are people of Indian origin but based outside India
+2. NRI's and OCI-- These are people of Indian origin but based outside India
 
-3.  Domestic Institutions-- These are large corporate entities based in India. A classic example would be the LIC of India.
+3. Domestic Institutions-- These are large corporate entities based in India. A classic example would be the LIC of India.
 
-4.  Domestic Asset Management Companies (AMC)-- Typical participants in this category would be the mutual fund companies such as SBI Mutual Fund, DSP Black Rock, Fidelity Investments, HDFC AMC, etc.
+4. Domestic Asset Management Companies (AMC)-- Typical participants in this category would be the mutual fund companies such as SBI Mutual Fund, DSP Black Rock, Fidelity Investments, HDFC AMC, etc.
 
-5.  Foreign Institutional Investors-- Non-Indian corporate entities. These could be foreign asset management companies, hedge funds, and other investors
+5. Foreign Institutional Investors-- Non-Indian corporate entities. These could be foreign asset management companies, hedge funds, and other investors
 
 ## SEBI (The Securities and Exchange Board of India)
 
-1.  The stock exchanges (BSE and NSE) conducts its business fairly
+1. The stock exchanges (BSE and NSE) conducts its business fairly
 
-2.  Stockbrokers and sub-brokers conduct their business fairly
+2. Stockbrokers and sub-brokers conduct their business fairly
 
-3.  Participants don't get involved in unfair practices
+3. Participants don't get involved in unfair practices
 
-4.  Corporate's don't use the markets to unduly benefit themselves (Example -- Satyam Computers)
+4. Corporate's don't use the markets to unduly benefit themselves (Example -- Satyam Computers)
 
-5.  Small retail investors interests are protected
+5. Small retail investors interests are protected
 
-6.  Large investors with huge cash pile should not manipulate the markets
+6. Large investors with huge cash pile should not manipulate the markets
 
-7.  An overall development of markets
+7. An overall development of markets
 
 <table>
 <colgroup>
@@ -172,23 +175,23 @@ b) Ensure no defaults -- The clearing corporation also ensures there are no defa
 
 [**https://zerodha.com/varsity/chapter/the-ipo-markets-part-1/**](https://zerodha.com/varsity/chapter/the-ipo-markets-part-1/)
 
-1.  Before understanding why companies go public, it is important to understand the origin of business
+1. Before understanding why companies go public, it is important to understand the origin of business
 
-2.  The people who invest in your business in the pre-revenue stage are called Angel Investors
+2. The people who invest in your business in the pre-revenue stage are called Angel Investors
 
-3.  Angel investors take the maximum risk. They take in as much risk as the promoter
+3. Angel investors take the maximum risk. They take in as much risk as the promoter
 
-4.  The money that angels give to start the business is called the seed fund
+4. The money that angels give to start the business is called the seed fund
 
-5.  Angel's invest relatively a small amount of capital
+5. Angel's invest relatively a small amount of capital
 
-6.  Valuation of a company simply signifies how much the company is valued at. When one values the company they consider the company's assets and liabilities
+6. Valuation of a company simply signifies how much the company is valued at. When one values the company they consider the company's assets and liabilities
 
-7.  Face value is simply a denominator to indicate how much one share is originally worth
+7. Face value is simply a denominator to indicate how much one share is originally worth
 
-8.  Authorized shares of the company are the total number of shares that are available with the company
+8. Authorized shares of the company are the total number of shares that are available with the company
 
-9.  The shares distributed from the authorized shares are called the issued shares. Issued shares are always a subset of authorized shares.
+9. The shares distributed from the authorized shares are called the issued shares. Issued shares are always a subset of authorized shares.
 
 10. The shareholding pattern of a company tells us who owns how much stake in the company
 
@@ -210,13 +213,14 @@ b) Ensure no defaults -- The clearing corporation also ensures there are no defa
 
 19. An IPO is a process by means of which a company can raise fund. The funds raised can be for any valid reason -- for CAPEX, restructuring debt, rewarding shareholders, etc
 
-<https://zerodha.com/varsity/chapter/the-ipo-markets-part-2
+<https://zerodha.com/varsity/chapter/the-ipo-markets-part-2>
 
 ## IPO sequence of events
--   **Appoint a merchant banker -** In case of a large public issue, the company can appoint more than 1 merchant banker
--   **Apply to SEBI with a registration statement--** The registration statement contains details on what the company does, why the company plans to go public and the financial health of the company
--   **Getting a nod from SEBI**-- Once SEBI receives the registration statement, SEBI takes a call on whether to issue a go-ahead or a 'no go' to the IPO
--   **DRHP**-- If the company gets the initial SEBI nod, then the company needs to prepare the DRHP. A DRHP is a document that gets circulated to the public. Along with a lot of information, DRHP should contain the following details:
+
+- **Appoint a merchant banker -** In case of a large public issue, the company can appoint more than 1 merchant banker
+- **Apply to SEBI with a registration statement--** The registration statement contains details on what the company does, why the company plans to go public and the financial health of the company
+- **Getting a nod from SEBI**-- Once SEBI receives the registration statement, SEBI takes a call on whether to issue a go-ahead or a 'no go' to the IPO
+- **DRHP**-- If the company gets the initial SEBI nod, then the company needs to prepare the DRHP. A DRHP is a document that gets circulated to the public. Along with a lot of information, DRHP should contain the following details:
 
     a.  The estimated size of the IPO
 
@@ -233,11 +237,11 @@ b) Ensure no defaults -- The clearing corporation also ensures there are no defa
     g.  Risks involved in the business
 
     h.  Management details and their background
--   **Market the IPO**-- This would involve TV and print advertisements in order to build awareness about the company and its IPO offering. This process is also called the IPO roadshow
--   **Fix the price band**-- Decide the price band between which the company would like to go public. Of course, this can't be way off the general perception. If it is, then the public will not subscribe for the IPO
--   **Book Building**-- Once the roadshow is done and the price band fixed the company now has to officially open the window during which the public can subscribe for shares. For example, if the price band is between Rs.100 and Rs.120, then the public can actually choose a price they think is fair enough for the IPO issue. The process of collecting all these price points along with the respective quantities is called Book Building. Book building is perceived as an effective price discovery method
--   **Closure**-- After the book building window is closed (generally open for few days) then the price point at which the issue gets listed is decided. This price point is usually the price at which maximum bids have been received.
--   **Listing Day--** This is the day when the company actually gets listed on the stock exchange. The listing price is the price decided based on market demand and supply on that day and the stock is listed at a premium, par or discount of the cut-off price
+- **Market the IPO**-- This would involve TV and print advertisements in order to build awareness about the company and its IPO offering. This process is also called the IPO roadshow
+- **Fix the price band**-- Decide the price band between which the company would like to go public. Of course, this can't be way off the general perception. If it is, then the public will not subscribe for the IPO
+- **Book Building**-- Once the roadshow is done and the price band fixed the company now has to officially open the window during which the public can subscribe for shares. For example, if the price band is between Rs.100 and Rs.120, then the public can actually choose a price they think is fair enough for the IPO issue. The process of collecting all these price points along with the respective quantities is called Book Building. Book building is perceived as an effective price discovery method
+- **Closure**-- After the book building window is closed (generally open for few days) then the price point at which the issue gets listed is decided. This price point is usually the price at which maximum bids have been received.
+- **Listing Day--** This is the day when the company actually gets listed on the stock exchange. The listing price is the price decided based on market demand and supply on that day and the stock is listed at a premium, par or discount of the cut-off price
 
 ## What happens after the IPO?
 
@@ -255,13 +259,13 @@ Once the stock transitions from primary markets to secondary markets, the stock 
 
 ## Fixed Price IPO-- Sometimes the companies fix the price of the IPO and do not opt for a price band. Such issues are called fixed price IPO
 
-## Price Band and Cut off price-- Price band is a price range between which the stock gets listed. For example, if the price band is between Rs.100 and Rs.130, then the issue can list within the range. Let's says it gets listed at 125, then 125 is called the cut off price.
+## Price Band and Cut off price-- Price band is a price range between which the stock gets listed. For example, if the price band is between Rs.100 and Rs.130, then the issue can list within the range. Let's says it gets listed at 125, then 125 is called the cut off price
 
 OFS - Offer For Sale
 
 FPO - Follow-on Public Offer (Further Public Offer)
 
-<https://zerodha.com/varsity/chapter/supplementary-note-ipo-ofs-fpo
+<https://zerodha.com/varsity/chapter/supplementary-note-ipo-ofs-fpo>
 
 ## Party Fund Stocks
 
@@ -275,7 +279,7 @@ The National Association of Software & Services company (NASSCOM)
 
 A trader is a person who spots an opportunity and initiates the trade with an expectation of profitably exiting the trade at the earliest given opportunity. A trader usually has a short term view on markets. A trader is alert and on his toes during market hours constantly evaluating opportunities based on risk and reward. He is unbiased toward going long or going short. We will discuss what going long or short means at a later stage.
 
-## There are different types of traders :
+## There are different types of traders
 
 a.  Day Trader-- A day trader initiates and closes the position during the day. He does not carry forward his positions. He is risk averse and does not like taking overnight risk. For example -- He would buy 100 shares of TCS at 2212 at 9:15AM and sell it at 2220 at 3:20 PM making a profit of Rs.800/- in this trade. A day trader usually trades 5 to 6 stocks per day.
 
@@ -288,8 +292,9 @@ Some of the really successful traders the world has seen are -- George Soros, Ed
 ## Scalper
 
 [Scalpers](https://www.investopedia.com/terms/s/scalpers.asp)are a specific type of short-term trader that may dart in and out of a stock or other[asset class](https://www.investopedia.com/terms/a/assetclasses.asp)dozens, or in some cases even hundreds, of times a day.
--   Scalpers are often high-energy individuals who thrive during times of stress and have the means and temperament to handle the high trading volume.
--   Most often, because scalping requires considerable time, money, and skill, scalpers are professional traders.
+
+- Scalpers are often high-energy individuals who thrive during times of stress and have the means and temperament to handle the high trading volume.
+- Most often, because scalping requires considerable time, money, and skill, scalpers are professional traders.
 
 <https://www.investopedia.com/articles/trading/02/081902.asp>
 
@@ -305,25 +310,25 @@ b.  Value Investors-- The objective here is to identify good companies irrespect
 
 <https://zerodha.com/z-connect/featured/introducing-20-depth-or-level-3-data-beta-on-kite>
 
-<https://zerodha.com/varsity/chapter/supplementary-note-the-20-market-depth
+<https://zerodha.com/varsity/chapter/supplementary-note-the-20-market-depth>
 
-## Bull Market (Bullish) -- If you believe that the stock prices are likely to go up then you are said to be bullish on the stock price. From a broader perspective, if the stock market index is going up during a particular time period, then it is referred to as the bull market.
+## Bull Market (Bullish) -- If you believe that the stock prices are likely to go up then you are said to be bullish on the stock price. From a broader perspective, if the stock market index is going up during a particular time period, then it is referred to as the bull market
 
-## Bear Market (Bearish) -- If you believe that the stock prices are likely to go down then you are said to be bearish on the stock price. From a broader perspective, if the stock market index is going down during a particular time period, then it is referred to as the bear market.
+## Bear Market (Bearish) -- If you believe that the stock prices are likely to go down then you are said to be bearish on the stock price. From a broader perspective, if the stock market index is going down during a particular time period, then it is referred to as the bear market
 
-## Trend -- The term 'trend' usually refers to the general market direction, and its associated strength. For example, if the market is declining fast, the trend is said to be bearish. If the market is trading flat with no movement then the trend is said to be sideways.
+## Trend -- The term 'trend' usually refers to the general market direction, and its associated strength. For example, if the market is declining fast, the trend is said to be bearish. If the market is trading flat with no movement then the trend is said to be sideways
 
-## Face value of a stock -- Face value (FV) or par value of a stock indicates the fixed denomination of a share. The face value is important with regard to a corporate action. Usually, when dividends and stock split are announced they are issued keeping the face value in perspective. For example, the FV of Infosys is 5, and if they announce an annual dividend of Rs.63/- then it means the dividend paid is 1260%s (63 divided by 5).
+## Face value of a stock -- Face value (FV) or par value of a stock indicates the fixed denomination of a share. The face value is important with regard to a corporate action. Usually, when dividends and stock split are announced they are issued keeping the face value in perspective. For example, the FV of Infosys is 5, and if they announce an annual dividend of Rs.63/- then it means the dividend paid is 1260%s (63 divided by 5)
 
-## 52 week high/low -- 52 week high is the highest point at which a stock has traded during the last 52 weeks (which also marks a year) and likewise 52 week low marks the lowest point at which the stock has traded during the last 52 weeks. The 52 week high and low gives a sense of the range within which the stock has traded during the year. Many people believe that if a stock reaches 52 week high, then it indicates a bullish trend for the foreseeable future. Similarly, if a stock hits 52 week low, some traders believe that it indicates a bearish trend for a foreseeable future.
+## 52 week high/low -- 52 week high is the highest point at which a stock has traded during the last 52 weeks (which also marks a year) and likewise 52 week low marks the lowest point at which the stock has traded during the last 52 weeks. The 52 week high and low gives a sense of the range within which the stock has traded during the year. Many people believe that if a stock reaches 52 week high, then it indicates a bullish trend for the foreseeable future. Similarly, if a stock hits 52 week low, some traders believe that it indicates a bearish trend for a foreseeable future
 
-## All-time high/low -- This is similar to the 52 week high and low, with the only difference being the all-time high price is the highest price the stock has ever traded from the time it has been listed. Similarly, the all-time low price is the lowest price at which the stock has ever traded from the time it has been listed.
+## All-time high/low -- This is similar to the 52 week high and low, with the only difference being the all-time high price is the highest price the stock has ever traded from the time it has been listed. Similarly, the all-time low price is the lowest price at which the stock has ever traded from the time it has been listed
 
-## Upper Circuit/Lower Circuit -- The exchange sets up a price band at which the stock can be traded in the market on a given trading day. The highest price the stock can reach on the day is the upper circuit limit and the lowest price is the lower circuit limit. The limit for a stock is set to 2%, 5%, 10% or 20% based on the exchange's selection criteria. The exchange places these restrictions to control excessive volatility when a stock reacts to certain news related to the company.
+## Upper Circuit/Lower Circuit -- The exchange sets up a price band at which the stock can be traded in the market on a given trading day. The highest price the stock can reach on the day is the upper circuit limit and the lowest price is the lower circuit limit. The limit for a stock is set to 2%, 5%, 10% or 20% based on the exchange's selection criteria. The exchange places these restrictions to control excessive volatility when a stock reacts to certain news related to the company
 
-## Long Position -- Long position or going long is simply a reference to the direction of your trade. For example, if you have bought or intend to buy Biocon shares then you are said to be long on Biocon or planning to go long on Biocon respectively. If you have bought the Nifty Index with an expectation that the index will trade higher then essentially you have a long position on Nifty. If you are long on a stock or an index, you are said to be bullish.
+## Long Position -- Long position or going long is simply a reference to the direction of your trade. For example, if you have bought or intend to buy Biocon shares then you are said to be long on Biocon or planning to go long on Biocon respectively. If you have bought the Nifty Index with an expectation that the index will trade higher then essentially you have a long position on Nifty. If you are long on a stock or an index, you are said to be bullish
 
-## Short Position -- Going short or simply 'shorting' is a term used to describe a transaction carried out in a particular order. This is a slightly tricky concept.
+## Short Position -- Going short or simply 'shorting' is a term used to describe a transaction carried out in a particular order. This is a slightly tricky concept
 
 The concept of shorting is very counter-intuitive simply because we are not used to 'shorting' in our day to day activity unless you have a trader mentality 🙂
 
@@ -363,7 +368,7 @@ LongBuySellBullishStock goes upStock price drops
 
 ShortSellBuyBearishStock goes downStock price goes up
 
-## Square off ­-- Square off is a term used to indicate that you intend to close an existing position. If you are long on a stock squaring off the position means to sell the stock. Please remember, when you are selling the stock to close an existing long position you are not shorting the stock!
+## Square off ­-- Square off is a term used to indicate that you intend to close an existing position. If you are long on a stock squaring off the position means to sell the stock. Please remember, when you are selling the stock to close an existing long position you are not shorting the stock
 
 When you are short on the stock, squaring off a position means to buy the stock back. Remember when you buy it back, you are just closing an existing position and you are not going long!
 
@@ -378,17 +383,19 @@ Intraday position -- This is a trading position you initiate with an expectation
 ## Short Covering
 
 Short covering refers to buying back borrowed securities in order to close out an open short position at a profit or loss. It requires purchasing the same security that was initially[sold short](https://www.investopedia.com/terms/s/shortselling.asp), and handing back the shares initially borrowed for the short sale. This type of transaction is referred to as[buy to cover](https://www.investopedia.com/terms/b/buytocover.asp).
--   Short covering can result in either a profit (if the asset is repurchased lower than where it was sold) or for a loss (if it is higher).
--   Short covering may be forced if there is a short squeeze and sellers become subject to margin calls. Measures of short interest can help predict the chances of a squeeze.
+
+- Short covering can result in either a profit (if the asset is repurchased lower than where it was sold) or for a loss (if it is higher).
+- Short covering may be forced if there is a short squeeze and sellers become subject to margin calls. Measures of short interest can help predict the chances of a squeeze.
 
 <https://www.investopedia.com/terms/s/shortcovering.asp>
 
 ## Short Squeeze
 
 A short squeeze is an unusual condition that triggers rapidly rising prices in a stock or other tradable security. For a short squeeze to occur, the[security](https://www.investopedia.com/terms/s/security.asp)must have an unusual degree of short sellers holding positions in it. The short squeeze begins when the price jumps higher unexpectedly. The condition plays out as a significant measure of the short sellers coincidentally decide to cut losses and exit their positions.
--   A short squeeze accelerates a stock's price rise as short sellers bail out to cut their losses.
--   Contrarian investors try to anticipate a short squeeze and buy stocks that demonstrate a strong short interest.
--   Both short sellers and contrarians make risky moves. A wise investor has additional reasons for shorting or buying that stock.
+
+- A short squeeze accelerates a stock's price rise as short sellers bail out to cut their losses.
+- Contrarian investors try to anticipate a short squeeze and buy stocks that demonstrate a strong short interest.
+- Both short sellers and contrarians make risky moves. A wise investor has additional reasons for shorting or buying that stock.
 
 <https://www.investopedia.com/terms/s/shortsqueeze.asp>
 
@@ -396,21 +403,20 @@ A short squeeze is an unusual condition that triggers rapidly rising prices in a
 
 "Short covering" and "short squeeze" are different terms to describe a situation involving short positions. A short squeeze is a situation in which a security's price increases significantly, causing short sellers to close their short positions. Conversely, short covering involves buying back a security to close out an open short position.
 
-## Volume -- Volumes and its impact on the stock prices is an important concept that we will explore in greater detail in the technical analysis module. Volumes represent the total transactions (both buy and sell put together) for a particular stock on a particular day. For example, on 17th June 2014, the volume on ACC was 5, 33,819 shares.
+## Volume -- Volumes and its impact on the stock prices is an important concept that we will explore in greater detail in the technical analysis module. Volumes represent the total transactions (both buy and sell put together) for a particular stock on a particular day. For example, on 17th June 2014, the volume on ACC was 5, 33,819 shares
 
-## Market Segment -- A market segment is a division within which a certain type of financial instrument is traded. Each financial instrument is characterized by its risk and reward parameters. The exchange operates in three main segments.
+## Market Segment -- A market segment is a division within which a certain type of financial instrument is traded. Each financial instrument is characterized by its risk and reward parameters. The exchange operates in three main segments
 
-1.  **Capital Market --** Capital market segments offer a wide range of tradable securities such as equity, preference shares, warrants, and exchange-traded funds. Capital Market segment has sub-segments under which instruments are further classified. For example, common shares of companies are traded under the equity segment abbreviated as EQ. So if you were to buy or sell shares of a company you are essentially operating in the capital market segment
+1. **Capital Market --** Capital market segments offer a wide range of tradable securities such as equity, preference shares, warrants, and exchange-traded funds. Capital Market segment has sub-segments under which instruments are further classified. For example, common shares of companies are traded under the equity segment abbreviated as EQ. So if you were to buy or sell shares of a company you are essentially operating in the capital market segment
 
-2.  **Futures and Options (F&O) --** Futures and Option, generally referred to as the equity derivative segment is where one would trade leveraged products. We will explore the derivative markets in greater depth in the derivatives module
+2. **Futures and Options (F&O) --** Futures and Option, generally referred to as the equity derivative segment is where one would trade leveraged products. We will explore the derivative markets in greater depth in the derivatives module
 
-3.  **Wholesale Debt Market --** The wholesale debt market deals with fixed income securities. Debt instruments include government securities, treasury bills, bonds issued by a public sector undertaking, corporate bonds, corporate debentures, etc.
+3. **Wholesale Debt Market --** The wholesale debt market deals with fixed income securities. Debt instruments include government securities, treasury bills, bonds issued by a public sector undertaking, corporate bonds, corporate debentures, etc.
 
-<https://zerodha.com/varsity/chapter/commonly-used-jargons
+<https://zerodha.com/varsity/chapter/commonly-used-jargons>
 
-
--   MIS - Margin Intraday Settlement
--   CNC - Cash and Carry
+- MIS - Margin Intraday Settlement
+- CNC - Cash and Carry
 
 Select CNC for delivery trades. Meaning if your intention is to buy and hold the shares for multiple days/months/years then you need to ensure the shares reside in your Demat account. Selecting CNC is your way of communicating this to your broker.
 
@@ -474,7 +480,7 @@ The **Last tradedprice(LTP)** usually differs from the**closing price**of the da
 
 Trailing 12 months (TTM) is a term used to describe the past 12 consecutive months of a company's performance data, that's used for reporting financial figures.
 
-## Book value reflects the total value of a company's assets that shareholders of that company would receive if the company were to be liquidated.
+## Book value reflects the total value of a company's assets that shareholders of that company would receive if the company were to be liquidated
 
 The[book value](https://www.investopedia.com/terms/b/bookvalue.asp)literally means the value of a business according to its books (accounts) that is reflected through its[financial statements](https://www.investopedia.com/terms/f/financial-statements.asp). Theoretically, book value represents the total amount a company is worth if all its assets are sold and all the liabilities are paid back. This is the amount that the company's creditors and investors can expect to receive if the company is liquidated.
 
@@ -489,25 +495,26 @@ Several international banks issue GDRs, such as[JPMorgan Chase](https://en.wikip
 <https://en.wikipedia.org/wiki/Global_depository_receipt>
 
 ## Orders
--   **Product types**
-    -   CNC (Cash n Carry)
-    -   MIS (Margin Intraday Squareoff)
-    -   NRML (Normal F&O trades)
--   **Order types**
-    -   Limit (LMT) order
-    -   Market (MKT) order
-    -   Stoploss or trigger orders (SL and SL-M)
-    -   Good till triggered (GTT)
-        -   Single trigger
-        -   OCO (One Cancels the Other) trigger
-    -   Basket orders
--   **Advanced order types**
-    -   Regular orders with time validity
-    -   Cover orders
-    -   Cover order with limit entry
-    -   AMO (After market orders)
 
-<https://kite.trade/docs/kite/orders
+- **Product types**
+  - CNC (Cash n Carry)
+  - MIS (Margin Intraday Squareoff)
+  - NRML (Normal F&O trades)
+- **Order types**
+  - Limit (LMT) order
+  - Market (MKT) order
+  - Stoploss or trigger orders (SL and SL-M)
+  - Good till triggered (GTT)
+    - Single trigger
+    - OCO (One Cancels the Other) trigger
+  - Basket orders
+- **Advanced order types**
+  - Regular orders with time validity
+  - Cover orders
+  - Cover order with limit entry
+  - AMO (After market orders)
+
+<https://kite.trade/docs/kite/orders>
 
 ## LTCG
 
@@ -518,8 +525,6 @@ Harvest losses too when you still can
 This exercise can be replicated even when you are investing via SIPs in mutual funds. If you started the SIP about a year ago, start redeeming units after they complete a year and reinvest the proceeds in the same or different fund. This will reset the buying price and ensure your capital gains do not overshoot the Rs 1 lakh tax free threshold.
 
 if you are not able to set off your entire capital loss in the same year, you can carry forward these losses for up to 8 assessment years.
-
-
 
 <https://economictimes.indiatimes.com/wealth/tax/heres-a-trick-to-lower-your-tax-on-capital-gains-from-equity/articleshow/73095582.cms>
 
@@ -621,71 +626,77 @@ A binary option is a financial product where the buyer receives a payout or lose
 </table>
 
 <https://www.fidelity.com/glossary/stock-plan-services-glossary>
--   Last traded price (LTP)
--   Pre opening market session: 9 to 9:15
--   9 to 9:07am placing orders
--   9:07am to 9:11am matching
--   9:11am to 9:15am stabilization
--   4:00pm to 9:15am After market order (AMO approved next 9:15am)
 
+- Last traded price (LTP)
+- Pre opening market session: 9 to 9:15
+- 9 to 9:07am placing orders
+- 9:07am to 9:11am matching
+- 9:11am to 9:15am stabilization
+- 4:00pm to 9:15am After market order (AMO approved next 9:15am)
 
--   Green up triangle is Gap up Opening I.e opening higher than previous price. Red down triangle is Gap down opening. Opening lower than previous price.
--   Unch= unchanged I.e. Opening same as previous price.
--   Bid price= buy price eg. Number of people wanting to buy the share at this price.
--   Offer price= sell price. Numerous of people wanting to sell the share at this price.
--   Bonus: eg 1:2 I.e one share bonus for each 2 share held.
--   We must buy 1 day before the ex bonus date to be entitled of bonus.
--   Announcement date; bonus declared date.
--   Record date: date on which shared should be on your demat account.
--   Ex bonus date: date on which share start trading on the revised price.
+- Green up triangle is Gap up Opening I.e opening higher than previous price. Red down triangle is Gap down opening. Opening lower than previous price.
+- Unch= unchanged I.e. Opening same as previous price.
+- Bid price= buy price eg. Number of people wanting to buy the share at this price.
+- Offer price= sell price. Numerous of people wanting to sell the share at this price.
+- Bonus: eg 1:2 I.e one share bonus for each 2 share held.
+- We must buy 1 day before the ex bonus date to be entitled of bonus.
+- Announcement date; bonus declared date.
+- Record date: date on which shared should be on your demat account.
+- Ex bonus date: date on which share start trading on the revised price.
 
 ## Types of investor
--   RII: Retail individuals investor. Eg who invest in IPO for below Rs 2 lacs
--   HNI: high net worth individuals. Eg. Above 2 lacs
+
+- RII: Retail individuals investor. Eg who invest in IPO for below Rs 2 lacs
+- HNI: high net worth individuals. Eg. Above 2 lacs
 
 [HNI CATEGORY IN IPO | HOW IS GREY MARKET PREMIUM CALCULATED IN IPO? | LIVE EXAMPLE |](https://www.youtube.com/watch?v=WJc9Jujzmj0)
--   DII: domestic institutional investor. Eg. Bank, lic. Mutual funds etc
--   FII/FPI: Foreign institutional investors/ foreign portfolio investors. Eg. Foreign investment
--   T+2 day: trade date + two days. After to says money in account or share in account
+
+- DII: domestic institutional investor. Eg. Bank, lic. Mutual funds etc
+- FII/FPI: Foreign institutional investors/ foreign portfolio investors. Eg. Foreign investment
+- T+2 day: trade date + two days. After to says money in account or share in account
 
 ## Clearing house
--   NSCCL : National Security clearing corporation ltd. For NSE
--   ICCL: Indian clearing corporation limited. For BSE
--   XMSEI: Metropolitan Clear.
+
+- NSCCL : National Security clearing corporation ltd. For NSE
+- ICCL: Indian clearing corporation limited. For BSE
+- XMSEI: Metropolitan Clear.
 
 ## Depositories and DPs
--   Depositories: they convert the physical share to dematerialize share. Eg NSDL and CDSL
--   DP: depository participants: they are the broker.
--   Flow: my account link to broker account link to depository.
+
+- Depositories: they convert the physical share to dematerialize share. Eg NSDL and CDSL
+- DP: depository participants: they are the broker.
+- Flow: my account link to broker account link to depository.
 
 ## Stock Market Crash
 
 How should an investor deal with the possibility of a stock market crash?" - Three available options for a portfolio of high-quality companies
 
-1.  **Preemptive timing:** Sit on cash in anticipation of a stock market crash, and deploy the cash at the bottom of the stock market crash.
+1. **Preemptive timing:** Sit on cash in anticipation of a stock market crash, and deploy the cash at the bottom of the stock market crash.
 
-2.  **Ride the tide:** Stay fully invested at all times since we can't time the markets, and do nothing during the stock market crash.
+2. **Ride the tide:** Stay fully invested at all times since we can't time the markets, and do nothing during the stock market crash.
 
-3.  **Post-facto rebalancing:** Stay fully invested at all times, and rebalance the portfolio for position sizing dislocations caused by the differential in drawdowns across our portfolio constituents during the stock market crash.
+3. **Post-facto rebalancing:** Stay fully invested at all times, and rebalance the portfolio for position sizing dislocations caused by the differential in drawdowns across our portfolio constituents during the stock market crash.
 
 ## Stocks
--   **EQ:** It stands for Equity. In this series[intraday trading](https://tradesmartonline.in/blog/what-is-intraday-trading-basics-for-beginners-in-stock-market/)is possible in addition to delivery.
--   **BE:** It stands for Book Entry. Shares falling in the Trade-to-Trade or T-segment are traded in this series and no intraday is allowed. This means trades can only be settled by accepting or giving the delivery of shares.
--   **BL:**This series is for facilitating block deals.Block deal is a trade, with a minimum quantity of 5 lakh shares or minimum value of Rs. 5 crore, executed through a single transaction, on the special "Block Deal window". The window is opened for only 35 minutes in the morning from 9:15 to 9:50AM.
--   **BT:**This series provides an exit route to small investors having shares in the physical form with a cap of maximum 500 shares.
--   **BZ:** Stocks that are blacklisted for violation of exchange rules. This series stocks falls under Trade-to-Trade category and hence BTST (Buy Today Sell Tomorrow) and intraday is not allowed in such stocks.
--   **GC:** This series allows Government Securities and Treasury Bills to be traded under this category.
--   **IL:** This series allows only FIIs to trade among themselves. Permissible only in those securities where maximum permissible limit for FIIs is not breached.
+
+- **EQ:** It stands for Equity. In this series[intraday trading](https://tradesmartonline.in/blog/what-is-intraday-trading-basics-for-beginners-in-stock-market/)is possible in addition to delivery.
+- **BE:** It stands for Book Entry. Shares falling in the Trade-to-Trade or T-segment are traded in this series and no intraday is allowed. This means trades can only be settled by accepting or giving the delivery of shares.
+- **BL:**This series is for facilitating block deals.Block deal is a trade, with a minimum quantity of 5 lakh shares or minimum value of Rs. 5 crore, executed through a single transaction, on the special "Block Deal window". The window is opened for only 35 minutes in the morning from 9:15 to 9:50AM.
+- **BT:**This series provides an exit route to small investors having shares in the physical form with a cap of maximum 500 shares.
+- **BZ:** Stocks that are blacklisted for violation of exchange rules. This series stocks falls under Trade-to-Trade category and hence BTST (Buy Today Sell Tomorrow) and intraday is not allowed in such stocks.
+- **GC:** This series allows Government Securities and Treasury Bills to be traded under this category.
+- **IL:** This series allows only FIIs to trade among themselves. Permissible only in those securities where maximum permissible limit for FIIs is not breached.
 
 ## New Fund Offer (NFO)
 
 A New Fund Offer (NFO) refers to the introductory offer of a scheme by an[asset management company](https://www.paisabazaar.com/mutual-funds/asset-management-company/). A New fund offer is raised when a fund is launched, which helps the firm raise capital for purchasing securities. An investor can subscribe to an NFO only within a limited time period; hence, NFOs are functional on first-come-first serve basis.
 
 ## Types of NFO
--   [Open-ended funds](https://www.paisabazaar.com/mutual-funds/open-ended-funds/): This fund is officially launched after the NFO ends. Investors can enter and exit the fund at any time after the launch.
--   Close-ended funds: A[close-ended fund](https://www.paisabazaar.com/mutual-funds/closed-end-funds/)does not allow the entry and/or exit of investors after the NFO period, until its maturity. This time period is typically 3-4 years from the launch date. However, the investors may buy and sell the units of such a fund on the stock market in theory, but the liquidity of such funds on the market tends to be low.
 
-<https://www.paisabazaar.com/mutual-funds/all-about-nfo
+- [Open-ended funds](https://www.paisabazaar.com/mutual-funds/open-ended-funds/): This fund is officially launched after the NFO ends. Investors can enter and exit the fund at any time after the launch.
+- Close-ended funds: A[close-ended fund](https://www.paisabazaar.com/mutual-funds/closed-end-funds/)does not allow the entry and/or exit of investors after the NFO period, until its maturity. This time period is typically 3-4 years from the launch date. However, the investors may buy and sell the units of such a fund on the stock market in theory, but the liquidity of such funds on the market tends to be low.
+
+<https://www.paisabazaar.com/mutual-funds/all-about-nfo>
 
 ## SAFE Note - Simple Aggrement for Future Equity
 
@@ -696,8 +707,9 @@ A SAFE note is a convertible security that, like an option or warrant, allows th
 <https://www.upcounsel.com/safe-notes>
 
 ## Term sheet
--   A term sheet is a nonbinding agreement outlining the basic terms and conditions under which an investment will be made.
--   Term sheets are most often associated with startups. Entrepreneurs find that this document is crucial to attracting investors, such as venture capitalists (VC) with capital to fund enterprises.
--   The company valuation, investment amount, percentage stake, voting rights, liquidation preference, anti-dilutive provisions, and investor commitment are some items that should be spelled out in the term sheet.
+
+- A term sheet is a nonbinding agreement outlining the basic terms and conditions under which an investment will be made.
+- Term sheets are most often associated with startups. Entrepreneurs find that this document is crucial to attracting investors, such as venture capitalists (VC) with capital to fund enterprises.
+- The company valuation, investment amount, percentage stake, voting rights, liquidation preference, anti-dilutive provisions, and investor commitment are some items that should be spelled out in the term sheet.
 
 <https://www.investopedia.com/terms/t/termsheet.asp>

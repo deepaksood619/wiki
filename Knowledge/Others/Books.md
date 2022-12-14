@@ -8,12 +8,13 @@ Modified: 2022-04-19 22:19:27 +0500
 
 ## Resources
 
-<https://www.freecodecamp.org/news/free-textbooks-math-science-and-more-online-pdf-for-college-and-high-school
+<https://www.freecodecamp.org/news/free-textbooks-math-science-and-more-online-pdf-for-college-and-high-school>
 
 Book Summaries
--   Productivitygame.com
--   <https://jamesclear.com/book-summaries>
--   <https://medium.com/the-mission/131-actionable-ideas-from-ten-books-i-wish-i-had-read-ages-ago-d751c17402de>
+
+- Productivitygame.com
+- <https://jamesclear.com/book-summaries>
+- <https://medium.com/the-mission/131-actionable-ideas-from-ten-books-i-wish-i-had-read-ages-ago-d751c17402de>
 
 ## Books Types
 
@@ -28,153 +29,156 @@ Magical Realism
 Ex - One Hundred Years of Solitude
 
 ## Marketing
--   Misbehaving
--   Nudge
+
+- Misbehaving
+- Nudge
 
 ## Financial
--   The Acquirer's Multiple
+
+- The Acquirer's Multiple
 
 ## Book List
--   177 mental toughness secret of the world class
--   A Random Walk Down Wallstreet by Burton Malkiel
--   A mind for numbers
--   Algorithms to live by by Brian Cristian
--   Alice and Bob Meet the Wall of Fire - The Biggest Ideas in Science from Quanta
--   An American Marriage by Tayari Jones
--   Atomic habits by James Clear
--   Am I Overthinking This? and Maybe This Will Help by Michelle Rial
--   A Short History of Nearly Everything by Bill Bryson
--   Barbarians At The Gate Paperback by Bryan Burrough
--   The War of Art by Steven Pressfield
--   Tiny Beautiful Things: Advice on Love and Life from Dear Sugar by Cheryl Strayed
--   Ready Player One by Ernest Cline
--   Finite and Infinite Games by James Carse
--   Sum: Forty Tales from the Afterlives by David Eagleman
--   Bad Blood: Secrets and Lies in a Silicon Valley Startup by John Carreyrou
--   Better Angels of Our Nature
--   Capitalism and Freedom by Milton Friedman
--   Catcher in the rye
--   Daily rituals by Mason Currey
--   Dotcom secrets by Russel Brunson
--   Economix
--   Edward de bano (Lateral Thinking/The mechanism of mind)
--   Elastic: Flexible Thinking in a Time of Change
--   Emily dickinson poetry
--   Essentialism---The Disciplined Pursuit of Lessby Greg McKeown
--   Flow - The Psychology of Optimal Experience
--   Fluent in 3 months by Benny Lewis
--   **Godel Escher Bach - An eternal golden braid by douglas hofstadter (AI - Intelligence)**
--   Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising by Ryan Holiday
--   Growth by Vaclav Smil
--   Guide to investing - rich dad poor dad
--   Hacking the Human - Ian Mann
--   Head Strong
--   High Performance Habits
--   Homo Deus: A Brief History of Tomorrow by Yuval Noah Harari
--   How to be an Adult by david Richo
--   Ikigai: The Japanese secret to a long and happy life
--   Indistractable by nir eyal
--   Introduction to Systems Thinking by Draper Kauffman
--   Mahabharat
--   Mental Model - Seeking Wisdom by Peter Bevelin
--   Mental Model - The Fifth Discipline by Peter Senge
--   Mental Model - The Personal MBA by Josh Kaufman
--   Mere Christianity by C.S. Lewis
--   Milk and Honey by Rupi Kaur
--   Mindset, by Dr. Carol Dweck
--   My Experiments with Truth
--   New thinking by coldfusion
--   Numbers Don't Lie: 71 Things You Need to Know
--   One Hundred Years of Solitude - Magical Realism
--   One minute manager by Kenneth H. Blanchard and Spencer Johnson
--   One page financial planner
--   Originals: How Non-Conformists Move the World by Adam Grant
--   Own the day, own your life by Aubrey marcus
--   Peaceful warrior
--   Poor Charlie's Almanack - Charles Munger (Mental Model)
--   Prepared - Diane Tavenner
--   Primed to Perform - Neel Doshi & Lindsay McGregor
--   Purpose driven life
--   Revolutionary Wealth Book - Alvin Toffler
--   Romeo and juliet
--   Salt: A World History - Mark Kurlansky
--   Sapiens a brief history of humankind - Yuval Noah Harari
--   So good they can't ignore you - cal newport
--   Super intelligence - Nick bostrum
--   The Art of Problem Solving
--   **The Checklist manifesto - Atul Gawande**
--   The Effective Executive by Peter Drucker
--   [The Enigma of Reason](https://www.scotthyoung.com/blog/2018/04/26/book-club-the-enigma-of-reason-april-2018/) - Dan Sperber and Hugo Mercier's
--   The Fountainhead - Ayn Rand
--   The Future of the Professions: How Technology Will Transform the Work of Human Experts - Richard Susskind, Daniel Susskind
--   The Hard Thing About Hard Things
--   The Hitchhiker's Guide to the Galaxy
--   The Hungry Brain - Stephan J Guyenet
--   The Intelligent Investor
--   The Laws of Human Nature - Robert Greene
--   The Lessons of History by Ariel Durant and Will Durant
--   The Mediocrity Trap: Why Most People Get Stuck in Mediocrity (And How You Can Break Free)
--   The Millionaire Fastlane - MJ Demarco
--   The Millionaire next door - Thomas Stanley
--   The Phoenix Project
--   The Power of Habit: Why We Do What We Do in Life and Business - Charles Duhigg
--   The Richest Man in Babylon - George Clason
--   The art of thinking clearly
--   The art of war
--   The book thief
--   The future of capitalism - paul collier
--   The Great Convergence: Asia, the West, and the Logic of One World by Kishore Mahbubani
--   The great gatsby
--   The milionaire next door: the surprising secrets of America's Wealthy - Thomas Stanley
--   The Millionaire Real Estate Agent: It's Not About the Money It's About Being the Best You Can Be
--   The obstacle in the way by Ryan Holiday
--   The prison letters of Nelson Mendella
--   The science of Getting Rich by Wallace Wattles
--   The subtle art of not giving a fuck
--   The total money makeover: a proven plan for financial fitness by Dave Ramsey
--   The undoing project - Michael Lewis
--   These Truths - Jill Lepore
--   Think and Grow Rich - Napoleon Hill
--   **Thinking fast and slow - Daniel Kahneman**
--   Thinking in Systems - Donella H. Meadows
--   Upheaval: Turning Points for Nations in Crisis - Jared Diamond
--   Wait but why?
--   Way of the Peaceful Warrior: A Book That Changes Lives - Dan Millman
--   What Extraordinary People Think: How to Cut The Busy B.S. and Life Your Kickass Life
--   When Genius Failed: The Rise and Fall of Long-Term Capital Management Paperback by Roger Lowenstein
--   Why We Sleep - Matthew Walker
--   Wired to Win: Rewire Your Brain to Achieve Enormous Success
+
+- 177 mental toughness secret of the world class
+- A Random Walk Down Wallstreet by Burton Malkiel
+- A mind for numbers
+- Algorithms to live by by Brian Cristian
+- Alice and Bob Meet the Wall of Fire - The Biggest Ideas in Science from Quanta
+- An American Marriage by Tayari Jones
+- Atomic habits by James Clear
+- Am I Overthinking This? and Maybe This Will Help by Michelle Rial
+- A Short History of Nearly Everything by Bill Bryson
+- Barbarians At The Gate Paperback by Bryan Burrough
+- The War of Art by Steven Pressfield
+- Tiny Beautiful Things: Advice on Love and Life from Dear Sugar by Cheryl Strayed
+- Ready Player One by Ernest Cline
+- Finite and Infinite Games by James Carse
+- Sum: Forty Tales from the Afterlives by David Eagleman
+- Bad Blood: Secrets and Lies in a Silicon Valley Startup by John Carreyrou
+- Better Angels of Our Nature
+- Capitalism and Freedom by Milton Friedman
+- Catcher in the rye
+- Daily rituals by Mason Currey
+- Dotcom secrets by Russel Brunson
+- Economix
+- Edward de bano (Lateral Thinking/The mechanism of mind)
+- Elastic: Flexible Thinking in a Time of Change
+- Emily dickinson poetry
+- Essentialism---The Disciplined Pursuit of Lessby Greg McKeown
+- Flow - The Psychology of Optimal Experience
+- Fluent in 3 months by Benny Lewis
+- **Godel Escher Bach - An eternal golden braid by douglas hofstadter (AI - Intelligence)**
+- Growth Hacker Marketing: A Primer on the Future of PR, Marketing, and Advertising by Ryan Holiday
+- Growth by Vaclav Smil
+- Guide to investing - rich dad poor dad
+- Hacking the Human - Ian Mann
+- Head Strong
+- High Performance Habits
+- Homo Deus: A Brief History of Tomorrow by Yuval Noah Harari
+- How to be an Adult by david Richo
+- Ikigai: The Japanese secret to a long and happy life
+- Indistractable by nir eyal
+- Introduction to Systems Thinking by Draper Kauffman
+- Mahabharat
+- Mental Model - Seeking Wisdom by Peter Bevelin
+- Mental Model - The Fifth Discipline by Peter Senge
+- Mental Model - The Personal MBA by Josh Kaufman
+- Mere Christianity by C.S. Lewis
+- Milk and Honey by Rupi Kaur
+- Mindset, by Dr. Carol Dweck
+- My Experiments with Truth
+- New thinking by coldfusion
+- Numbers Don't Lie: 71 Things You Need to Know
+- One Hundred Years of Solitude - Magical Realism
+- One minute manager by Kenneth H. Blanchard and Spencer Johnson
+- One page financial planner
+- Originals: How Non-Conformists Move the World by Adam Grant
+- Own the day, own your life by Aubrey marcus
+- Peaceful warrior
+- Poor Charlie's Almanack - Charles Munger (Mental Model)
+- Prepared - Diane Tavenner
+- Primed to Perform - Neel Doshi & Lindsay McGregor
+- Purpose driven life
+- Revolutionary Wealth Book - Alvin Toffler
+- Romeo and juliet
+- Salt: A World History - Mark Kurlansky
+- Sapiens a brief history of humankind - Yuval Noah Harari
+- So good they can't ignore you - cal newport
+- Super intelligence - Nick bostrum
+- The Art of Problem Solving
+- **The Checklist manifesto - Atul Gawande**
+- The Effective Executive by Peter Drucker
+- [The Enigma of Reason](https://www.scotthyoung.com/blog/2018/04/26/book-club-the-enigma-of-reason-april-2018/) - Dan Sperber and Hugo Mercier's
+- The Fountainhead - Ayn Rand
+- The Future of the Professions: How Technology Will Transform the Work of Human Experts - Richard Susskind, Daniel Susskind
+- The Hard Thing About Hard Things
+- The Hitchhiker's Guide to the Galaxy
+- The Hungry Brain - Stephan J Guyenet
+- The Intelligent Investor
+- The Laws of Human Nature - Robert Greene
+- The Lessons of History by Ariel Durant and Will Durant
+- The Mediocrity Trap: Why Most People Get Stuck in Mediocrity (And How You Can Break Free)
+- The Millionaire Fastlane - MJ Demarco
+- The Millionaire next door - Thomas Stanley
+- The Phoenix Project
+- The Power of Habit: Why We Do What We Do in Life and Business - Charles Duhigg
+- The Richest Man in Babylon - George Clason
+- The art of thinking clearly
+- The art of war
+- The book thief
+- The future of capitalism - paul collier
+- The Great Convergence: Asia, the West, and the Logic of One World by Kishore Mahbubani
+- The great gatsby
+- The milionaire next door: the surprising secrets of America's Wealthy - Thomas Stanley
+- The Millionaire Real Estate Agent: It's Not About the Money It's About Being the Best You Can Be
+- The obstacle in the way by Ryan Holiday
+- The prison letters of Nelson Mendella
+- The science of Getting Rich by Wallace Wattles
+- The subtle art of not giving a fuck
+- The total money makeover: a proven plan for financial fitness by Dave Ramsey
+- The undoing project - Michael Lewis
+- These Truths - Jill Lepore
+- Think and Grow Rich - Napoleon Hill
+- **Thinking fast and slow - Daniel Kahneman**
+- Thinking in Systems - Donella H. Meadows
+- Upheaval: Turning Points for Nations in Crisis - Jared Diamond
+- Wait but why?
+- Way of the Peaceful Warrior: A Book That Changes Lives - Dan Millman
+- What Extraordinary People Think: How to Cut The Busy B.S. and Life Your Kickass Life
+- When Genius Failed: The Rise and Fall of Long-Term Capital Management Paperback by Roger Lowenstein
+- Why We Sleep - Matthew Walker
+- Wired to Win: Rewire Your Brain to Achieve Enormous Success
 
 <https://www.irisreading.com/warren-buffetts-10-favorite-books>
 
 Book recommendation by Shashi Tharoor
--   Plato's Dialogues
--   Mahābhārata
--   Arthashastra
--   One hundred years of solitude
--   Discovery of India
--   The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared
--   The book of laughter and forgetting
--   The legends of khasak
--   Nehru: The Invention of India
--   Heavy weather by PG WODEHOUSE
 
-
+- Plato's Dialogues
+- Mahābhārata
+- Arthashastra
+- One hundred years of solitude
+- Discovery of India
+- The Hundred-Year-Old Man Who Climbed Out the Window and Disappeared
+- The book of laughter and forgetting
+- The legends of khasak
+- Nehru: The Invention of India
+- Heavy weather by PG WODEHOUSE
 
 Book recommendation by Barack Obama
--   "Matrix" by Lauren Groff
--   "How the Word Is Passed: A Reckoning with the History of Slavery Across America" by Clint Smith
--   "The Final Revival of Opal & Nev" by Dawnie Walton
--   "The Lincoln Highway" by Amor Towles
--   "Invisible Child: Poverty, Survival & Hope in an American City" by Andrea Elliott
--   "Harlem Shuffle" by Colson Whitehead
--   "Cloud Cuckoo Land" by Anthony Doerr
--   "These Precious Days" by Ann Patchett
--   "Crying in H Mart" by Michelle Zauner
--   "Aftershocks" by Nadia Owusu
--   "Crossroads" by Jonathan Franzen
--   "The Love Songs of W.E.B. Du Bois" by Honorée Fanonne Jeffers
--   "Beautiful Country" by Qian Julie Wang
+
+- "Matrix" by Lauren Groff
+- "How the Word Is Passed: A Reckoning with the History of Slavery Across America" by Clint Smith
+- "The Final Revival of Opal & Nev" by Dawnie Walton
+- "The Lincoln Highway" by Amor Towles
+- "Invisible Child: Poverty, Survival & Hope in an American City" by Andrea Elliott
+- "Harlem Shuffle" by Colson Whitehead
+- "Cloud Cuckoo Land" by Anthony Doerr
+- "These Precious Days" by Ann Patchett
+- "Crying in H Mart" by Michelle Zauner
+- "Aftershocks" by Nadia Owusu
+- "Crossroads" by Jonathan Franzen
+- "The Love Songs of W.E.B. Du Bois" by Honorée Fanonne Jeffers
+- "Beautiful Country" by Qian Julie Wang
 
 [17 Books to Read in 2022 | My Top Reads of 2021 | Ankur Warikoo Hindi](https://youtu.be/pJYFetCibXI)
 

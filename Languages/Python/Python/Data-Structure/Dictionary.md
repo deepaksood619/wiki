@@ -18,7 +18,7 @@ Dictionary - {'Name': 'Deepak', 'Age':25}
 
 ## Accessing Values in Dictionary
 
-1.  **Using square bracket notation to fetch data**
+1. **Using square bracket notation to fetch data**
 
 If we attempt to access a data item with a key, which is not part of the dictionary, we get KeyError
 
@@ -30,7 +30,7 @@ Zara
 
 7
 
-2.  **Using built-in function dict.get() to fetch data from dictionary**
+2. **Using built-in function dict.get() to fetch data from dictionary**
 
 dict.get(key, default=None)
 
@@ -49,7 +49,7 @@ Value : None
 
 Value : Never
 
-3.  **For multi level dict hierarchies**
+3. **For multi level dict hierarchies**
 
 Returning a default empty dictionary will not raise AttributeError for second get()
 
@@ -81,42 +81,48 @@ If we attempt to delete a data item with a key, which is not part of the diction
 num_responses = len(fav_languages)
 
 ## Properties of Dictionary Keys
--   Dictionary values can be any arbitrary Python object, either standard objects or user-defined objects.
--   Duplicate key not allowed. When duplicate keys encountered during assignment, the last assignment wins.
+
+- Dictionary values can be any arbitrary Python object, either standard objects or user-defined objects.
+- Duplicate key not allowed. When duplicate keys encountered during assignment, the last assignment wins.
 
 >>>dict = {'Name': 'Zara', 'Age': 7, 'Name': 'Manni'}
 >>>print "dict['Name']: ", dict['Name']
 
 dict['Name']: Manni
--   Keys must be immutable. Otherwise "Type Error: objects are unhashable" error thrown. Strings, numbers, tuples can be used as dictionary keys
+
+- Keys must be immutable. Otherwise "Type Error: objects are unhashable" error thrown. Strings, numbers, tuples can be used as dictionary keys
 
 ## Built-in Dictionary functions & Methods
--   **Functions**
-    -   cmp(dict1, dict2)
+
+- **Functions**
+  - cmp(dict1, dict2)
 
 Compares elements of both dict
 
 Not supported in python3, use dict1==dict2 instead
 
 Library deepdiff can be used for advanced comparisions
--   len(dict)
+
+- len(dict)
 
 Gives the total number of items in the dictionary
--   str(dict)
+
+- str(dict)
 
 Produces a printable string representation of a dictionary
--   type(variable)
 
--   **Methods**
-    -   dict.clear()
+- type(variable)
+
+- **Methods**
+  - dict.clear()
 
 Removes all elements of dictionary dict
--   dict.copy()
+
+- dict.copy()
 
 Returns a shallow copy of dictionary dict
 
-
--   **dict.fromkeys(seq[, value])**
+- **dict.fromkeys(seq[, value])**
 
 Create a new dictionary with keys from seq and values set to value
 
@@ -134,11 +140,9 @@ New Dictionary : {'age': None, 'name': None, 'sex': None}
 
 New Dictionary : {'age': 10, 'name': 10, 'sex': 10}
 
+- dict.get(key, default=None)
 
--   dict.get(key, default=None)
-
-
--   dict.has_key(key) (removed in python 3, use in operator instead)
+- dict.has_key(key) (removed in python 3, use in operator instead)
 
 >>>dict = {'Name': 'Zabra', 'Age': 7}
 >>>'Name' in dict
@@ -149,8 +153,7 @@ True
 
 False
 
-
--   **dict.items()**
+- **dict.items()**
 
 The methoditems()returns a list of dict's (key, value) tuple pairs
 
@@ -164,15 +167,13 @@ Name Zara
 
 Age 7
 
-
--   dict.keys()
+- dict.keys()
 
 `ing through all keys
 
-
--   dict.setdefault(key, default=None)
--   dict.update(dict2)
--   dict.values()
+- dict.setdefault(key, default=None)
+- dict.update(dict2)
+- dict.values()
 
 Looping through all the values
 
@@ -196,7 +197,7 @@ print(name)
 
 # Python code to merge dict using update() method
 
-## def Merge(dict1, dict2):
+## def Merge(dict1, dict2)
 
 ## return(dict2.update(dict1))
 
@@ -215,22 +216,24 @@ print(Merge(dict1, dict2))
 print(dict2)
 
 ## Architecture
--   Python dictionaries are implemented ashash tables.
--   Hash tables must allow forhash collisionsi.e. even if two distinct keys have the same hash value, the table's implementation must have a strategy to insert and retrieve the key and value pairs unambiguously.
--   Pythondictusesopen addressingto resolve hash collisions
--   Python hash table is just a contiguous block of memory (sort of like an array, so you can do anO(1)lookup by index).
--   Each slot in the table can store one and only one entry.
--   Eachentryin the table actually a combination of the three values:< hash, key, value >. This is implemented as a C struct
--   The figure below is a logical representation of a Python hash table. In the figure below,0, 1, ..., i, ...on the left are indices of theslotsin the hash table (they are just for illustrative purposes and are not stored along with the table obviously!).
+
+- Python dictionaries are implemented ashash tables.
+- Hash tables must allow forhash collisionsi.e. even if two distinct keys have the same hash value, the table's implementation must have a strategy to insert and retrieve the key and value pairs unambiguously.
+- Pythondictusesopen addressingto resolve hash collisions
+- Python hash table is just a contiguous block of memory (sort of like an array, so you can do anO(1)lookup by index).
+- Each slot in the table can store one and only one entry.
+- Eachentryin the table actually a combination of the three values:< hash, key, value >. This is implemented as a C struct
+- The figure below is a logical representation of a Python hash table. In the figure below,0, 1, ..., i, ...on the left are indices of theslotsin the hash table (they are just for illustrative purposes and are not stored along with the table obviously!).
 
 ![image](media/Data-Structure_Dictionary-image1.png)
--   When a new dict is initialized it starts with 8slots.
--   When adding entries to the table, we start with some slot,i, that is based on the hash of the key. CPython initially usesi = hash(key) & mask(wheremask = PyDictMINSIZE - 1, but that's not really important). Just note that the initial slot,i, that is checked depends on thehashof the key.
--   If that slot is empty, the entry is added to the slot (by entry, I mean,<hash|key|value>). But what if that slot is occupied!? Most likely because another entry has the same hash (hash collision!)
--   If the slot is occupied, CPython (and even PyPy) comparesthe hash AND the key(by compare I mean==comparison not theiscomparison) of the entry in the slot against the hash and key of the current entry to be inserted respectively. Ifbothmatch, then it thinks the entry already exists, gives up and moves on to the next entry to be inserted. If either hash or the key don't match, it startsprobing.
--   Probing just means it searches the slots by slot to find an empty slot. Technically we could just go one by one,i+1, i+2, ...and use the first available one (that's linear probing). But for reasons explained beautifully in the comments, CPython usesrandom probing. In random probing, the next slot is picked in a pseudo random order. The entry is added to the first empty slot. For this discussion, the actual algorithm used to pick the next slot is not really important. What is important is that the slots are probed until first empty slot is found.
--   The same thing happens for lookups, just starts with the initial slot i (where i depends on the hash of the key). If the hash and the key both don't match the entry in the slot, it starts probing, until it finds a slot with a match. If all slots are exhausted, it reports a fail.
--   BTW, thedictwill be resized if it is two-thirds full. This avoids slowing down lookups.
+
+- When a new dict is initialized it starts with 8slots.
+- When adding entries to the table, we start with some slot,i, that is based on the hash of the key. CPython initially usesi = hash(key) & mask(wheremask = PyDictMINSIZE - 1, but that's not really important). Just note that the initial slot,i, that is checked depends on thehashof the key.
+- If that slot is empty, the entry is added to the slot (by entry, I mean,<hash|key|value>). But what if that slot is occupied!? Most likely because another entry has the same hash (hash collision!)
+- If the slot is occupied, CPython (and even PyPy) comparesthe hash AND the key(by compare I mean==comparison not theiscomparison) of the entry in the slot against the hash and key of the current entry to be inserted respectively. Ifbothmatch, then it thinks the entry already exists, gives up and moves on to the next entry to be inserted. If either hash or the key don't match, it startsprobing.
+- Probing just means it searches the slots by slot to find an empty slot. Technically we could just go one by one,i+1, i+2, ...and use the first available one (that's linear probing). But for reasons explained beautifully in the comments, CPython usesrandom probing. In random probing, the next slot is picked in a pseudo random order. The entry is added to the first empty slot. For this discussion, the actual algorithm used to pick the next slot is not really important. What is important is that the slots are probed until first empty slot is found.
+- The same thing happens for lookups, just starts with the initial slot i (where i depends on the hash of the key). If the hash and the key both don't match the entry in the slot, it starts probing, until it finds a slot with a match. If all slots are exhausted, it reports a fail.
+- BTW, thedictwill be resized if it is two-thirds full. This avoids slowing down lookups.
 
 <https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented>
 
@@ -277,9 +280,10 @@ CPython uses a few different structs to represent a dictionary and these arrays.
 ## Representing dictionaries
 
 There are three important structures used to represent dictionaries:
--   The dictionary struct (PyDictObject), representing the entire dictionary object.
--   A keys object (PyDictKeysObject), which contains the hash table indices array (dk_indices).
--   An entries array, which appears directly after the correspondingPyDictKeysObjectin memory and holds the entries referenced bydk_indices.
+
+- The dictionary struct (PyDictObject), representing the entire dictionary object.
+- A keys object (PyDictKeysObject), which contains the hash table indices array (dk_indices).
+- An entries array, which appears directly after the correspondingPyDictKeysObjectin memory and holds the entries referenced bydk_indices.
 
 ## Generating an index
 
@@ -355,6 +359,6 @@ i = mask & (i*5 + perturb + 1);
 
 After a few shifts,perturbbecomes 0, meaning justi*5 + 1is used. This is fine becausemask & (i*5 + 1)produces every integer in range 0-maskexactly once.
 
-<https://www.data-structures-in-practice.com/hash-tables
+<https://www.data-structures-in-practice.com/hash-tables>
 
 <https://www.youtube.com/watch?v=npw4s1QTmPg>

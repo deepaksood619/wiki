@@ -24,8 +24,6 @@ from sqlalchemy.orm import relationship
 
 Base = declarative_base()
 
-
-
 class User(Base):
 
 __tablename__ = "user_account"
@@ -45,8 +43,6 @@ addresses = relationship(
 def __repr__(self):
 
 return f"User(id={self.id!r}, name={self.name!r}, fullname={self.fullname!r})"
-
-
 
 class Address(Base):
 

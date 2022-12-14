@@ -8,7 +8,7 @@ Modified: 2020-05-06 23:56:29 +0500
 
 A**shell script**is a[computer program](https://en.wikipedia.org/wiki/Computer_program)designed to be run by the[Unix shell](https://en.wikipedia.org/wiki/Unix_shell), a[command-line interpreter](https://en.wikipedia.org/wiki/Command-line_interpreter).[^[1]^](https://en.wikipedia.org/wiki/Shell_script#cite_note-1)The various dialects of shell scripts are considered to be[scripting languages](https://en.wikipedia.org/wiki/Scripting_language). Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a**wrapper**.
 
-#!/bin/sh
+# !/bin/sh
 
 echo "What is your name?"
 
@@ -22,7 +22,7 @@ touch $USER_NAME_file
 
 ## Passing Variables
 
-#!/bin/bash
+# !/bin/bash
 
 var_name=$1
 
@@ -48,7 +48,7 @@ $@ and $* - All the args
 
 ## Loops
 
-#!/bin/sh
+# !/bin/sh
 for i in 1 2 3 4 5
 do
 echo "Looping ... number $i"
@@ -62,13 +62,13 @@ echo "$i"
 
 done
 
-#!/bin/sh
+# !/bin/sh
 for i in hello 1 * 2 goodbye
 do
 echo "Looping ... i is set to $i"
 done
 
-#!/bin/sh
+# !/bin/sh
 INPUT_STRING=hello
 while [ "$INPUT_STRING" != "bye" ]
 do
@@ -77,7 +77,7 @@ read INPUT_STRING
 echo "You typed: $INPUT_STRING"
 done
 
-#!/bin/zsh
+# !/bin/zsh
 
 # check if server name is passed
 
@@ -103,7 +103,7 @@ fi
 
 ## # Write date to a file every second
 
-#!/bin/bash
+# !/bin/bash
 
 mkdir -p /var/log/apache
 
@@ -121,7 +121,7 @@ done
 
 ## # Loop through and run all commands
 
-#!/bin/bash
+# !/bin/bash
 
 VAL="$(kubectl get pods -n zenalytix | awk '{if (NR!=1) { print $1 }}')"
 

@@ -10,15 +10,15 @@ A Recommender System (a.k.a. Collaborative Filtering, Social Filtering, and Soci
 
 Examples of web services that make use of Recommender Systems are: online auction/ecommerce websites, music services, movie and television show streaming services, etc.
 
-
--   **Frequently bought together** for Retail
--   **Top picks for you** for Media and Entertainment
+- **Frequently bought together** for Retail
+- **Top picks for you** for Media and Entertainment
 
 <https://www.quora.com/LinkedIn-Recommendations/How-does-LinkedIns-recommendation-system-work>
 
 <https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html>
 
 ## Social Media Recommendation Engine
--   Doom scrolling
--   Endless bottom / endless scrolling
--   Reel life vs real life
+
+- Doom scrolling
+- Endless bottom / endless scrolling
+- Reel life vs real life

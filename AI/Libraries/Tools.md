@@ -11,9 +11,10 @@ Modified: 2022-04-27 16:01:58 +0500
 [AutoML](https://www.smarten.com/autoInsights.html)is, quite simply, the automated process of features and algorithm selection that supports planning, and allows users to fine tune, perform iterative modeling, and allows for the application and evolution of machine learning models.
 
 ## MLflow (An open source platform for the machine learning lifecycle)
--   MLflow Tracking - Record and query experiments: code, data, config, and results.
--   MLflow Projects - Packaging format for reproducible runs on any platform.
--   MLflow Models - General format for sending models to diverse deployment tools.
+
+- MLflow Tracking - Record and query experiments: code, data, config, and results.
+- MLflow Projects - Packaging format for reproducible runs on any platform.
+- MLflow Models - General format for sending models to diverse deployment tools.
 
 ## LIME
 
@@ -25,7 +26,7 @@ LIME is model-agnostic, meaning that it can be applied to any machine learning m
 
 ## LSTM (Long Short Term Memory)
 
-<https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch
+<https://blog.floydhub.com/long-short-term-memory-from-zero-to-hero-with-pytorch>
 
 ## Facets
 
@@ -41,7 +42,7 @@ Facets Dive provides an easy-to-customize, intuitive interface for exploring the
 
 <https://ai.googleblog.com/2017/07/facets-open-source-visualization-tool.html>
 
-<https://pair-code.github.io/facets
+<https://pair-code.github.io/facets>
 
 ## HOPS
 
@@ -53,7 +54,7 @@ Hops(HadoopOpenPlatform-as-a-Service) is a next generation distribution of[Apach
 
 Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet. The goal of Horovod is to make distributed Deep Learning fast and easy to use.
 
-<https://eng.uber.com/horovod
+<https://eng.uber.com/horovod>
 
 <https://github.com/horovod/horovod>
 
@@ -63,9 +64,9 @@ The fastest way to build custom ML tools
 
 <https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace>
 
-<https://github.com/streamlit/streamlit
+<https://github.com/streamlit/streamlit>
 
-<https://www.freecodecamp.org/news/build-12-data-science-apps-with-python-and-streamlit
+<https://www.freecodecamp.org/news/build-12-data-science-apps-with-python-and-streamlit>
 
 ## Metaflow
 
@@ -86,10 +87,11 @@ Auto-Magical Experiment Manager & Version Control for AI
 TVM is a compiler stack for deep learning systems. It is designed to close the gap between the productivity-focused deep learning frameworks, and the performance- and efficiency-focused hardware backends. TVM works with deep learning frameworks to provide end to end compilation to different backends.
 
 TVM provides the following main features:
--   Compilation of deep learning models in Keras, MXNet, PyTorch, Tensorflow, CoreML, DarkNet into minimum deployable modules on diverse hardware backends.
--   Infrastructure to automatic generate and optimize tensor operators on more backend with better performance.
 
-<https://tvm.ai
+- Compilation of deep learning models in Keras, MXNet, PyTorch, Tensorflow, CoreML, DarkNet into minimum deployable modules on diverse hardware backends.
+- Infrastructure to automatic generate and optimize tensor operators on more backend with better performance.
+
+<https://tvm.ai>
 
 <https://github.com/dmlc/tvm>
 
@@ -101,7 +103,7 @@ Polyaxon deploys into any data center, cloud provider, or can be hosted and mana
 
 Polyaxon makes it faster, easier, and more efficient to develop deep learning applications by managing workloads with smart container and node management. And it turns GPU servers into shared, self-service resources for your team or organization.
 
-<https://polyaxon.com
+<https://polyaxon.com>
 
 ## Cortex
 
@@ -109,7 +111,7 @@ Cortex is an open source platform for deploying machine learning models as produ
 
 <https://github.com/cortexlabs/cortex>
 
-<https://www.cortex.dev
+<https://www.cortex.dev>
 
 ## Others
 
@@ -123,7 +125,7 @@ Magenta
 
 <https://explosion.ai/software>
 
-<https://web.superquery.io
+<https://web.superquery.io>
 
 ## Tools
 
@@ -141,22 +143,22 @@ Build real-time predictive intelligence in to your business
 
 <https://cloud.google.com/notebooks>
 
-<https://mybinder.org
+<https://mybinder.org>
 
-<https://aws.amazon.com/sagemaker
+<https://aws.amazon.com/sagemaker>
 
-<https://deepbluegpu.com
+<https://deepbluegpu.com>
 
 ## Free notebooks
 
-<https://freenotebooks.io
+<https://freenotebooks.io>
 
-Google Colab - <https://colab.research.google.com
+Google Colab - <https://colab.research.google.com>
 
 Kaggle
 
-<https://notebooks.ai
+<https://notebooks.ai>
 
 [**https://teachablemachine.withgoogle.com/**](https://teachablemachine.withgoogle.com/)
 
-<https://www.mage.ai
+<https://www.mage.ai>

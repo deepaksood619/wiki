@@ -12,7 +12,7 @@ Tornado is a Python web framework and asynchronous networking library. By using 
 
 <https://github.com/tornadoweb/tornado>
 
-<https://www.tornadoweb.org/en/stable
+<https://www.tornadoweb.org/en/stable>
 
 ## Pyramid
 
@@ -20,7 +20,7 @@ The StartSmall, FinishBigStayFinishedFramework
 
 Pyramid makes it easy to write web applications. You can**start small**with this "hello world" minimal request/response web app. This may take you far, especially while learning. As your application grows, Pyramid offers many features that make writing complex software take less effort.
 
-<https://trypyramid.com
+<https://trypyramid.com>
 
 <https://github.com/Pylons/pyramid>
 
@@ -36,7 +36,7 @@ When it comes to building HTTP APIs, other frameworks weigh you down with tons o
 | Flask (1.0.2)           | 3x          | 5,404       | 185.06     |
 | Django (2.2.1)          | 1x          | 1,790       | 558.60     |
 
-<https://falcon.readthedocs.io/en/stable
+<https://falcon.readthedocs.io/en/stable>
 
 <https://github.com/falconry/falcon>
 
@@ -47,11 +47,12 @@ Typeris FastAPI's little sibling. And it's intended to be theFastAPI of CLIs
 Typer is a library for buildingCLIapplications that users willlove usingand developers willlove creating. Based on Python 3.6+ type hints.
 
 The key features are:
--   Intuitive to write: Great editor support.Completioneverywhere. Less time debugging. Designed to be easy to use and learn. Less time reading docs.
--   Easy to use: It's easy to use for the final users. Automatic help, and automatic completion for all shells.
--   Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
--   Start simple: The simplest example adds only 2 lines of code to your app:1 import, 1 function call.
--   Grow large: Grow in complexity as much as you want, create arbitrarily complex trees of commands and groups of subcommands, with options and arguments.
+
+- Intuitive to write: Great editor support.Completioneverywhere. Less time debugging. Designed to be easy to use and learn. Less time reading docs.
+- Easy to use: It's easy to use for the final users. Automatic help, and automatic completion for all shells.
+- Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
+- Start simple: The simplest example adds only 2 lines of code to your app:1 import, 1 function call.
+- Grow large: Grow in complexity as much as you want, create arbitrarily complex trees of commands and groups of subcommands, with options and arguments.
 
 test.py
 
@@ -77,7 +78,7 @@ else:
 
 typer.echo(f"Bye {name}!")
 
-if __name__ == "__main__":
+if **name** == "**main**":
 
 app()
 
@@ -89,7 +90,7 @@ python test.py goodbye Deepak
 
 python test.py goodbye --formal Deepak
 
-<https://typer.tiangolo.com
+<https://typer.tiangolo.com>
 
 ## Sanic
 
@@ -106,14 +107,14 @@ app = Sanic()
 async def test(request):
 return json({"hello": "world"})
 
-if __name__ == "__main__":
+if **name** == "**main**":
 app.run(host="0.0.0.0", port=8000)
 
 Sanic is arguably the most popular and most loved async framework in the Python world. It has almost all features that you'd want for your projects --- routing, middleware, cookies, versioning, blueprints, class-based views, static files, streaming, sockets, etc. --- and what it doesn't offer out of the box --- templating, database support, file I/O, queues --- can be added as there are just enough async libraries for these as of today.
 
 <https://github.com/huge-success/sanic>
 
-<https://sanic.readthedocs.io/en/latest
+<https://sanic.readthedocs.io/en/latest>
 
 ## Vibora
 
@@ -133,7 +134,7 @@ app = Vibora()
 async def home():
 return JsonResponse({'hello': 'world'})
 
-if __name__ == '__main__':
+if **name** == '**main**':
 app.run(host="0.0.0.0", port=8000)
 
 If you're a performance junkie, though, Vibora might float your boat.

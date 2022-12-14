@@ -766,8 +766,6 @@ If you start by saying "between" or "from," then you need to also use "to." You 
 
 not use "between" or "from" and a hyphen.
 
-
-
 ## Others
 
 ## Where vs Were
@@ -775,17 +773,20 @@ not use "between" or "from" and a hyphen.
 ## Where
 
 The wordwhere(rhymes with hair) talks about a place, location, stage, or situation. It is:
--   **An interrogative adverb -** It is used to ask a question about a place; for example: Where is the library?
--   **A relative adverb -** It is used as a point of reference; for example: I saw him at Macy's, where I work as a manager.
--   **A conjunction -** "Where" means "in the place that" or "in situations that"; for example: Where you find the flowers, you also find the bees.
--   **A relative pronoun -** It introduces a relative clause; for example: The house where Marsha grew up was recently sold for $500,000.
+
+- **An interrogative adverb -** It is used to ask a question about a place; for example: Where is the library?
+- **A relative adverb -** It is used as a point of reference; for example: I saw him at Macy's, where I work as a manager.
+- **A conjunction -** "Where" means "in the place that" or "in situations that"; for example: Where you find the flowers, you also find the bees.
+- **A relative pronoun -** It introduces a relative clause; for example: The house where Marsha grew up was recently sold for $500,000.
 
 ## Were
 
 On the other hand,were(rhymes with stir) is the past tense of the verb "be." It is used together with a plural subject. Let us take a look at a few examples below:
--   Five students were sent to Japan for the robotics competition last month.
--   What were you reading last night?
+
+- Five students were sent to Japan for the robotics competition last month.
+- What were you reading last night?
 
 "Were" is also used when talking about an imaginary or unrealistic situation in conditional statements even with a singular subject. For example:
--   If I were Beyonce, I would hide my child from the public until she turns 18 years old.
--   Jenny would give free meals to all homeless people if she were the president. She mentioned that in her speech yesterday.
+
+- If I were Beyonce, I would hide my child from the public until she turns 18 years old.
+- Jenny would give free meals to all homeless people if she were the president. She mentioned that in her speech yesterday.

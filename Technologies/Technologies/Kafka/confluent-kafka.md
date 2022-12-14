@@ -52,13 +52,9 @@ logging.info(f'committed offsets for all partitions: {c.committed(partitions=par
 
 logging.info(f'position: {c.position(partitions=partitions)}')
 
-
-
 def print_on_revoke(consumer, partitions):
 
 logging.info(f'Revoke Assignment: {partitions}')
-
-
 
 c.subscribe(['bank_data'], on_assign=print_on_assign, on_revoke=print_on_revoke)
 
@@ -166,7 +162,7 @@ p.flush()
 
 <https://github.com/confluentinc/confluent-kafka-python>
 
-<https://docs.confluent.io/current/clients/confluent-kafka-python
+<https://docs.confluent.io/current/clients/confluent-kafka-python>
 
 <https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md>
 

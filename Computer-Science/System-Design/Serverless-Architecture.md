@@ -7,28 +7,32 @@ Modified: 2022-03-02 20:11:52 +0500
 ---
 
 Serverless computing simply means using existing, auto-scaling cloud services to achieve system behaviours. In other words, I don't manage any servers or docker containers. I don't set up networks or manage operation (ops). I merely provide the serverless solution my recipe and it handles creation of any needed assets and performs the required computational process.
-1.  Containerisation - Gives a uniform development environment that is independent of the systems the code is running on.
 
-2.  Microservices architecture - Developers are able to quickly understand a certain module without going through the whole code base.
-    -   Also changing something on one part of the code doesn't effect the other parts of the product.
-    -   Apis are used to communicate between different modules
-    -   Messaging Queue is used for inter-modules communication (AMQP, MQTT, etc.)
+1. Containerisation - Gives a uniform development environment that is independent of the systems the code is running on.
 
-3.  Event Based Architecture
-    -   Events are triggered when some event happens
-    -   Example - When a photo is uploaded automatically trigger the thumbnail creation function.
-    -   Functions subscribe to events, and based on that event react accordingly.
+2. Microservices architecture - Developers are able to quickly understand a certain module without going through the whole code base.
+    - Also changing something on one part of the code doesn't effect the other parts of the product.
+    - Apis are used to communicate between different modules
+    - Messaging Queue is used for inter-modules communication (AMQP, MQTT, etc.)
 
-4.  AWS Lambda
+3. Event Based Architecture
+    - Events are triggered when some event happens
+    - Example - When a photo is uploaded automatically trigger the thumbnail creation function.
+    - Functions subscribe to events, and based on that event react accordingly.
 
-5.  AWS CloudFunctions
+4. AWS Lambda
 
-6.  AWS CloudFormation (for provisioning)
+5. AWS CloudFunctions
+
+6. AWS CloudFormation (for provisioning)
+
 ## Stateless Services
--   Not a cache or a database
--   Frequently accessed metadata
--   No instance affinity
--   Loss of a node is a non-event
+
+- Not a cache or a database
+- Frequently accessed metadata
+- No instance affinity
+- Loss of a node is a non-event
+
 ## Durable Functions
 
 Durable Functionsis an extension of[Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)that lets you write stateful functions in a serverless compute environment. The extension lets you define stateful workflows by writing[orchestrator functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-orchestrations)and stateful entities by writing[entity functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-entities)using the Azure Functions programming model. Behind the scenes, the extension manages state, checkpoints, and restarts for you, allowing you to focus on your business logic.

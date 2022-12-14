@@ -17,47 +17,49 @@ VerneMQ uses Google's LevelDB as a fast storage backend for messages and subscri
 ## Features
 
 VerneMQ implements the MQTT 3.1, 3.1.1 and 5.0 specifications. Currently the following features are implemented and delivered as part of VerneMQ:
--   QoS 0, QoS 1, QoS 2
--   Basic Authentication and Authorization
--   Bridge Support
--   $SYS Tree for monitoring and reporting
--   TLS (SSL) Encryption
--   Websockets Support
--   Cluster Support
--   Logging (Console, Files, Syslog)
--   Reporting to Graphite
--   Extensible Plugin architecture
--   Multiple Sessions per ClientId
--   Session Balancing
--   Shared subscriptions
--   Message load regulation
--   Message load shedding (for system protection)
--   Offline Message Storage (based on LevelDB)
--   Queue can handle messages FIFO or LIFO style.
--   MongoDB auth & integration
--   Redis auth & integration
--   MySQL auth & integration
--   PostgreSQL auth & integration
--   Memcached integration
--   HTTP integration
--   HTTP Webhooks
--   PROXY Protocol v2
--   Administration HTTP API (BETA)
--   Real-time MQTT session tracing
--   Full multitenancy
--   Cluster status web page
+
+- QoS 0, QoS 1, QoS 2
+- Basic Authentication and Authorization
+- Bridge Support
+- $SYS Tree for monitoring and reporting
+- TLS (SSL) Encryption
+- Websockets Support
+- Cluster Support
+- Logging (Console, Files, Syslog)
+- Reporting to Graphite
+- Extensible Plugin architecture
+- Multiple Sessions per ClientId
+- Session Balancing
+- Shared subscriptions
+- Message load regulation
+- Message load shedding (for system protection)
+- Offline Message Storage (based on LevelDB)
+- Queue can handle messages FIFO or LIFO style.
+- MongoDB auth & integration
+- Redis auth & integration
+- MySQL auth & integration
+- PostgreSQL auth & integration
+- Memcached integration
+- HTTP integration
+- HTTP Webhooks
+- PROXY Protocol v2
+- Administration HTTP API (BETA)
+- Real-time MQTT session tracing
+- Full multitenancy
+- Cluster status web page
 
 The following features are also applies to MQTT 5.0 clients:
--   Enhanced authentication schemes (AUTH)
--   Message expiration
--   Last Will and Testament delay
--   Shared subscriptions
--   Request/response flow
--   Topic aliases
--   Flow control
--   Subscription flags (Retain as Published, No Local, Retain Handling)
--   Subscriber identifiers
--   All property types are supported: user properties, reason strings, content types etc.
+
+- Enhanced authentication schemes (AUTH)
+- Message expiration
+- Last Will and Testament delay
+- Shared subscriptions
+- Request/response flow
+- Topic aliases
+- Flow control
+- Subscription flags (Retain as Published, No Local, Retain Handling)
+- Subscriber identifiers
+- All property types are supported: user properties, reason strings, content types etc.
 
 ## Internals
 
@@ -77,7 +79,7 @@ The routing score consists of two percentages similar to 75 / 25 indicating that
 
 ## References
 
-<https://vernemq.com/intro
+<https://vernemq.com/intro>
 
 <https://docs.vernemq.com/configuring-vernemq/storage>
 

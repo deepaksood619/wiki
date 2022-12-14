@@ -32,7 +32,7 @@ events {
 
 worker_connections 2048;
 
-# multi_accept on;
+# multi_accept on
 
 }
 
@@ -54,11 +54,11 @@ keepalive_timeout 65;
 
 types_hash_max_size 2048;
 
-# server_tokens off;
+# server_tokens off
 
-# server_names_hash_bucket_size 64;
+# server_names_hash_bucket_size 64
 
-# server_name_in_redirect off;
+# server_name_in_redirect off
 
 include /etc/nginx/mime.types;
 
@@ -96,9 +96,9 @@ gzip_proxied any;
 
 gzip_comp_level 6;
 
-# gzip_buffers 16 8k;
+# gzip_buffers 16 8k
 
-# gzip_http_version 1.1;
+# gzip_http_version 1.1
 
 gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 
@@ -134,7 +134,7 @@ alias /root/zenalytix/static/;
 
 location / {
 
-proxy_pass <http://zenalytix.zenalytix:9104;
+proxy_pass <http://zenalytix.zenalytix:9104>;
 
 proxy_redirect off;
 
@@ -153,8 +153,6 @@ proxy_buffering off;
 }
 
 }
-
-
 
 production.conf
 

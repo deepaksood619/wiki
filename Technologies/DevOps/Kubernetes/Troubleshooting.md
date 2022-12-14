@@ -18,8 +18,6 @@ Modified: 2020-06-29 03:23:46 +0500
 
 ![](../../media/DevOps-Kubernetes-Troubleshooting-image1.jpg)
 
-
-
 ![](../../media/DevOps-Kubernetes-Troubleshooting-image2.png)
 
 <https://learnk8s.io/troubleshooting-deployments>

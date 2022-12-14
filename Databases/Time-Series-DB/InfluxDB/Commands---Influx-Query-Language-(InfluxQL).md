@@ -6,32 +6,35 @@ Modified: 2019-12-28 23:48:57 +0500
 
 ---
 
-1.  [Sample data](https://docs.influxdata.com/influxdb/v1.7/query_language/data_download/)
+1. [Sample data](https://docs.influxdata.com/influxdb/v1.7/query_language/data_download/)
 
-2.  [Data exploration](https://docs.influxdata.com/influxdb/v1.7/query_language/data_exploration/)
+2. [Data exploration](https://docs.influxdata.com/influxdb/v1.7/query_language/data_exploration/)
 
-3.  [Schema exploration](https://docs.influxdata.com/influxdb/v1.7/query_language/schema_exploration/)
+3. [Schema exploration](https://docs.influxdata.com/influxdb/v1.7/query_language/schema_exploration/)
 
-4.  [Data management](https://docs.influxdata.com/influxdb/v1.7/query_language/database_management/)
+4. [Data management](https://docs.influxdata.com/influxdb/v1.7/query_language/database_management/)
 
-5.  [Continuous Queries](https://docs.influxdata.com/influxdb/v1.7/query_language/continuous_queries/)
+5. [Continuous Queries](https://docs.influxdata.com/influxdb/v1.7/query_language/continuous_queries/)
 
-6.  [Functions](https://docs.influxdata.com/influxdb/v1.7/query_language/functions/)
+6. [Functions](https://docs.influxdata.com/influxdb/v1.7/query_language/functions/)
 
-7.  [Mathematical operators](https://docs.influxdata.com/influxdb/v1.7/query_language/math_operators/)
+7. [Mathematical operators](https://docs.influxdata.com/influxdb/v1.7/query_language/math_operators/)
 
-8.  [InfluxQL reference](https://docs.influxdata.com/influxdb/v1.7/query_language/spec/)
+8. [InfluxQL reference](https://docs.influxdata.com/influxdb/v1.7/query_language/spec/)
 Getting into database (login to influx cli)
 
 $ influx
 
 $ influx -precision rfc3339
+
 ## INFLUXQL
 
 InfluxQL is an SQL-like query language for interacting with data in InfluxDB.
+
 ## SHOW Commands
 
 SHOW [DATABASES, DIAGNOSTICS, MEASUREMENTS, QUERIES, SERIES, SHARDS, STATS, SUBSCRIPTIONS, TAG, USERS]
+
 ## Schema Exploration
 
 CREATE DATABASE parameter_series;
@@ -76,15 +79,19 @@ DROP RETENTION POLICY "autogen" ON "hawkbit"
 select id,max(writePointsOk) from "shard" where "database"='telegraf' group by id;
 
 select "database",diskBytes,fieldsCreate,id,writePointsOk from "shard" where "database"='telegraf' and time > now() -10s
+
 ## InfluxDB
 
 docker run --rm -d --name influxdb --net=influxdb -p 8083:8083 -p 8086:8086 influxdb
+
 ## Curl queries
 
 curl -G <http://localhost:8086/query> -u todd:influxdb4ever --data-urlencode "q=SHOW DATABASES"
+
 ## Chronograf
 
 docker run --rm -d --name chronograf -p 8888:8888 --net=influxdb chronograf
+
 ## Continuous Queries
 
 Continuous Queries (CQ) are InfluxQL queries that run automatically and periodically on realtime data and store query results in a specified measurement.

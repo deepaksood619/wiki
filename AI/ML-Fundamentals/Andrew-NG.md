@@ -6,9 +6,9 @@ Modified: 2021-07-05 09:50:57 +0500
 
 ---
 
-## Model and cost function:
+## Model and cost function
 
-1.  Model representation - Linear regression using Training set
+1. Model representation - Linear regression using Training set
 
 m - number of training examples
 
@@ -35,19 +35,21 @@ Cost function intuition -
 ![image](media/Andrew-NG-image6.png)
 
 Octave
--   **Singular Value Decomposition (SVD)**
+
+- **Singular Value Decomposition (SVD)**
 
 Every nxm matrix can be written as a product of three smaller matrices.
 
 ![image](media/Andrew-NG-image7.jpeg)
--   SVD appreas in lots of places
-    -   Statistics (PCA)
-    -   Chemical physics
-    -   Image processing
-    -   Genomics
-    -   Robotics
-    -   Quantum physics (entanglement)
-    -   Data embeddings / vector embeddings
+
+- SVD appreas in lots of places
+  - Statistics (PCA)
+  - Chemical physics
+  - Image processing
+  - Genomics
+  - Robotics
+  - Quantum physics (entanglement)
+  - Data embeddings / vector embeddings
 
 ## Gradient Descent for Linear regression with one variable
 
@@ -103,7 +105,7 @@ Lower case for others variables, vectors, etc.
 
 Addition and Scalar Multiplication
 
-Scalar multiplication is 3* matrix (n*matrix).
+Scalar multiplication is 3*matrix (n*matrix).
 
 Scalar division is ⅓ * matrix
 
@@ -124,18 +126,20 @@ If we have 3 hypothesis with 4 houses then,
 ![image](media/Andrew-NG-image24.png)
 
 Multiplication Properties
--   Multiplication is not commutative ( A*B not equal to B*A)
--   Multiplication is Associative ( a*(b*c) = (a*b)*c)
--   Identity matrix (A.I = I.A = A)
+
+- Multiplication is not commutative ( A*B not equal to B*A)
+- Multiplication is Associative ( a*(b*c) = (a*b)*c)
+- Identity matrix (A.I = I.A = A)
 
 Matrix Inverse and Transpose
 
 Matrix Inverse:
--   0 does not have an inverse.
--   3 inverse is 3-1
--   Matrix inverse ( A * A-1 = Identity)
--   Matrix that don't have an inverse are singular or degenerate matrix
--   Ex- 0 matrix doesn't have inverse.
+
+- 0 does not have an inverse.
+- 3 inverse is 3-1
+- Matrix inverse ( A * A-1 = Identity)
+- Matrix that don't have an inverse are singular or degenerate matrix
+- Ex- 0 matrix doesn't have inverse.
 
 Matrix Transpose:
 

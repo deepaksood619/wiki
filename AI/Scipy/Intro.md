@@ -6,9 +6,9 @@ Modified: 2021-06-14 17:59:59 +0500
 
 ---
 
-## SciPy provides a large menu of libraries for scientific computation, such as integration, interpolation, signal processing, linear algebra, statistics, etc. It is built upon the infrastructure of Numpy.
+## SciPy provides a large menu of libraries for scientific computation, such as integration, interpolation, signal processing, linear algebra, statistics, etc. It is built upon the infrastructure of Numpy
 
-## Scikit-learn is a collection of advanced machine-learning algorithms for Python. It also is built upon Numpy and SciPy.
+## Scikit-learn is a collection of advanced machine-learning algorithms for Python. It also is built upon Numpy and SciPy
 
 ## Core numeric libraries
 
@@ -19,8 +19,9 @@ Modified: 2021-06-14 17:59:59 +0500
 ## Matplotlib : 2-D visualization, "publication-ready" plots
 
 ## Domain-specific packages
--   **Mayavi** for 3-D visualization
--   **pandas, statsmodels, seaborn** for statistics
--   **sumpy** for symbolic computing
--   **scikit-image** for image processing
--   **scikit-learn** for machine learning
+
+- **Mayavi** for 3-D visualization
+- **pandas, statsmodels, seaborn** for statistics
+- **sumpy** for symbolic computing
+- **scikit-image** for image processing
+- **scikit-learn** for machine learning

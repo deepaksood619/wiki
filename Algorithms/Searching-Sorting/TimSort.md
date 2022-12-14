@@ -5,8 +5,9 @@ Created: 2018-08-21 09:44:35 +0500
 Modified: 2020-02-10 11:26:29 +0500
 
 ---
--   Hybrid algorithm which uses binary insertion sort and improved merge sort by using galloping in a combination.
--   Stable Algorithm
+
+- Hybrid algorithm which uses binary insertion sort and improved merge sort by using galloping in a combination.
+- Stable Algorithm
 
 Timsort was implemented by Tim Peters in 2002, it has been a standard sorting algorithm for Python since Python 2.3. Python's sorted and list.sort function uses Tim sort. Java uses Timsort in JDK for sorting non primitive types. Android platform and GNU Octave also uses it as a default sorting algorithm.
 
@@ -26,7 +27,7 @@ In above example, Binary insertion sort requires 2 iteration to find location to
 
 N : Number of elements inside input array.
 
-## If N <= 64 then Tim sort uses binary insertion sort to sort the elements.
+## If N <= 64 then Tim sort uses binary insertion sort to sort the elements
 
 # What if N is large
 
@@ -48,7 +49,7 @@ Let's understand it with an example below-:
 
 In left diagram above, we have 4 sub-arrays of size 2 which perform perfectly balanced merge at each step. In right diagram, we have 5 sub-arrays of size 2 which doesn't allow perfect balanced merge to happen.
 
-## Perfectly balanced merge allows one on one comparisons between items. An unbalanced merge can cause extra comparisons and impacts performance.
+## Perfectly balanced merge allows one on one comparisons between items. An unbalanced merge can cause extra comparisons and impacts performance
 
 Ideally, Timsort wants value of min run to be such that N / MIN_RUN equals to power of 2 or close to it so that when merge happens it gets a perfectly balanced merge for example When an input array has 256 elements Tim Sort would like to divide array into equal sized sub-arrays. 256 / 32 will give us 8 equal sized sub-arrays that perform perfectly balanced merge.
 
@@ -60,9 +61,9 @@ Timsort tries to delay merging as long as possible in order to exploit patterns 
 
 If we consider three sub-arrays A, B and C from left to right then Tim sort complies with below 2 variants to call merge_collapse() function to decide whether current run should be merged with preceding runs or not.
 
-1.  A > B + C
+1. A > B + C
 
-2.  B > C
+2. B > C
 
 ![stack](media/TimSort-image4.png)
 
@@ -70,7 +71,7 @@ Merging two sub-arrays in place efficiently is very difficult and slow but if we
 
 # Galloping
 
-## Galloping: (of a process or time) progress rapidly in a seemingly uncontrollable manner.
+## Galloping: (of a process or time) progress rapidly in a seemingly uncontrollable manner
 
 Galloping is another technique used by Tim sort to further reduce comparisons while merging in order to increase efficiency of algorithm.
 
@@ -88,4 +89,4 @@ Now we compare 101 directly with A[mid] = 50 thus save lot of comparisons.
 
 <https://svn.python.org/projects/python/trunk/Objects/listsort.txt>
 
-<https://skerritt.blog/timsort-the-fastest-sorting-algorithm-youve-never-heard-of
+<https://skerritt.blog/timsort-the-fastest-sorting-algorithm-youve-never-heard-of>

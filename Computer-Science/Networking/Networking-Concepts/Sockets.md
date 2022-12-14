@@ -14,6 +14,7 @@ nc -l 8000 # for tcp listen
 nc -l 8000 -u
 
 This just tells nc to create a UDP receiver (the argument -u) that is expecting data on port 8000. Now, let's use sock object to send data to nc.
+
 ## UDP socket server in python
 
 ```
@@ -27,6 +28,7 @@ sock_receiver.recv(4096)
 ```
 
 ## UDP socket client in python
+
 ```
 from socket import *
 

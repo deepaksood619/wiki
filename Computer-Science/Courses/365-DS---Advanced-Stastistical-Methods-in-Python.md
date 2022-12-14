@@ -35,6 +35,7 @@ Decomposition of Variability (3:37)
 What is the OLS? (3:13)
 
 R-Squared (5:30)
+
 ## Multiple Linear Regression
 
 Multiple Linear Regression (2:55)
@@ -62,6 +63,7 @@ Dealing with Categorical Data - Dummy Variables (6:43)
 Dealing with Categorical Data - Dummy Variables Exercise
 
 Making Predictions with the Linear Regression (3:29)
+
 ## Linear Regression with sklearn
 
 What is sklearn? (2:14)
@@ -99,6 +101,7 @@ Feature Scaling - Exercise
 Underfitting and Overfitting (2:42)
 
 Training and Testing (6:54)
+
 ## Linear Regression - Practical Example
 
 Practical Example (Part 1) (11:59)
@@ -118,6 +121,7 @@ Dummy Variables Interpretation - Exercise
 Practical Example (Part 5) (7:34)
 
 Linear Regression - Exercise
+
 ## Logistic Regression
 
 Introduction to Logistic Regression (1:19)
@@ -151,6 +155,7 @@ Underfitting and Overfitting (3:43)
 Testing the Model (5:05)
 
 Testing the Model - Exercise
+
 ## Cluster Analysis (Basics and Prerequisites)
 
 Introduction to Cluster Analysis (3:41)
@@ -160,6 +165,7 @@ Some Examples of Clusters (4:31)
 Difference between Classification and Clustering (2:32)
 
 Math Prerequisites (3:19)
+
 ## K-Means Clustering
 
 K-Means Clustering (4:41)
@@ -191,6 +197,7 @@ How is Clustering Useful? (4:47)
 Exercise - Species Segmentation with Cluster Analysis (Part 1)
 
 Exercise - Species Segmentation with Cluster Analysis (Part 2)
+
 ## Other Types of Clustering
 
 Types of Clustering (3:39)

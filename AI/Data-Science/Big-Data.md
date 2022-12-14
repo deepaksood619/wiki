@@ -6,23 +6,24 @@ Modified: 2021-09-28 22:26:36 +0500
 
 ---
 
-## Big data**is a term used to refer to[data sets](https://en.wikipedia.org/wiki/Data_set)that are too large or complex for traditional[data-processing](https://en.wikipedia.org/wiki/Data_processing)[application software](https://en.wikipedia.org/wiki/Application_software) to adequately deal with. Data with many cases (rows) offer greater[statistical power](https://en.wikipedia.org/wiki/Statistical_power), while data with higher complexity (more attributes or columns) may lead to a higher[false discovery rate](https://en.wikipedia.org/wiki/False_discovery_rate).Big data challenges include[capturing data](https://en.wikipedia.org/wiki/Automatic_identification_and_data_capture),[data storage](https://en.wikipedia.org/wiki/Computer_data_storage),[data analysis](https://en.wikipedia.org/wiki/Data_analysis), search,[sharing](https://en.wikipedia.org/wiki/Data_sharing),[transfer](https://en.wikipedia.org/wiki/Data_transmission),[visualization](https://en.wikipedia.org/wiki/Data_visualization),[querying,](https://en.wikipedia.org/wiki/Query_language)updating,[information privacy](https://en.wikipedia.org/wiki/Information_privacy)and data source. Big data was originally associated with three key concepts:**volume,variety, andvelocity.Other concepts later attributed with big data areveracity (i.e., how much noise is in the data)andvalue.
+## Big data**is a term used to refer to[data sets](https://en.wikipedia.org/wiki/Data_set)that are too large or complex for traditional[data-processing](https://en.wikipedia.org/wiki/Data_processing)[application software](https://en.wikipedia.org/wiki/Application_software) to adequately deal with. Data with many cases (rows) offer greater[statistical power](https://en.wikipedia.org/wiki/Statistical_power), while data with higher complexity (more attributes or columns) may lead to a higher[false discovery rate](https://en.wikipedia.org/wiki/False_discovery_rate).Big data challenges include[capturing data](https://en.wikipedia.org/wiki/Automatic_identification_and_data_capture),[data storage](https://en.wikipedia.org/wiki/Computer_data_storage),[data analysis](https://en.wikipedia.org/wiki/Data_analysis), search,[sharing](https://en.wikipedia.org/wiki/Data_sharing),[transfer](https://en.wikipedia.org/wiki/Data_transmission),[visualization](https://en.wikipedia.org/wiki/Data_visualization),[querying,](https://en.wikipedia.org/wiki/Query_language)updating,[information privacy](https://en.wikipedia.org/wiki/Information_privacy)and data source. Big data was originally associated with three key concepts:**volume,variety, andvelocity.Other concepts later attributed with big data areveracity (i.e., how much noise is in the data)andvalue
 
-
--   The challenges include capture, curation, storage, search, sharing, transfer, analysis and visualization.
+- The challenges include capture, curation, storage, search, sharing, transfer, analysis and visualization.
 
 ## Why Big Data?
--   Traditional RDBMS queries isn't sufficient to get useful information out of the huge volume of data
--   To search it with traditional tools to find out if a particular topic was trending would take so long that the result would be meaningless by the time it was computed
--   Big data come up with a solution to store this data in novel ways in order to make it more accessible, and also to come up with methods of performing analysis on it
+
+- Traditional RDBMS queries isn't sufficient to get useful information out of the huge volume of data
+- To search it with traditional tools to find out if a particular topic was trending would take so long that the result would be meaningless by the time it was computed
+- Big data come up with a solution to store this data in novel ways in order to make it more accessible, and also to come up with methods of performing analysis on it
 
 ## Challenges
--   Capturing
--   Storing
--   Searching
--   Sharing
--   Analysing
--   Visualization
+
+- Capturing
+- Storing
+- Searching
+- Sharing
+- Analysing
+- Visualization
 
 ## Characteristics
 
@@ -37,9 +38,10 @@ The quantity of generated and stored data. The size of the data determines the v
 ## How heterogeneous your data is
 
 The type and nature of the data. This helps people who analyze it to effectively use the resulting insight. Big data draws from text, images, audio, video; plus it completes missing pieces through data fusion.
--   Structured data (ex - tabular data)
--   Unstructured data - text, sensor data, audio, video
--   Semi structured - web data, log files
+
+- Structured data (ex - tabular data)
+- Unstructured data - text, sensor data, audio, video
+- Semi structured - web data, log files
 
 ## Velocity
 
@@ -48,20 +50,23 @@ The type and nature of the data. This helps people who analyze it to effectively
 In this context, the speed at which the data is generated and processed to meet the demands and challenges that lie in the path of growth and development. Big data is often available in real-time.
 
 ## Veracity
--   The[data quality](https://en.wikipedia.org/wiki/Data_quality)of captured data can vary greatly, affecting the accurate analysis.
--   Veracity refers to the biases, noise and abnormality in data, trustworthiness of data
+
+- The[data quality](https://en.wikipedia.org/wiki/Data_quality)of captured data can vary greatly, affecting the accurate analysis.
+- Veracity refers to the biases, noise and abnormality in data, trustworthiness of data
 
 ![image](media/Big-Data-image1.png)
 
 ## Value
 
 ## Validity
--   accuracy and correctness of the data relative to a particular use
--   Example - Gauging storm intensity (Satellite imaginery vs social media posts, prediction quality vs human impact)
+
+- accuracy and correctness of the data relative to a particular use
+- Example - Gauging storm intensity (Satellite imaginery vs social media posts, prediction quality vs human impact)
 
 ## Variability
--   How the meaning of data changes over time
--   Language Evolution, Data availability, Sampling process, Changes in characteristics of the data source
+
+- How the meaning of data changes over time
+- Language Evolution, Data availability, Sampling process, Changes in characteristics of the data source
 
 ## Viscosity & Volatility (related to velocity)
 
@@ -74,8 +79,9 @@ In this context, the speed at which the data is generated and processed to meet 
 ## Venue - Where does the data live and how do you get it?
 
 ## Vocabulary
--   Metadata describing structure, content, & provenance
--   Schemas, semantics, ontologies, taxonomies, vocabularies
+
+- Metadata describing structure, content, & provenance
+- Schemas, semantics, ontologies, taxonomies, vocabularies
 
 ## Vagueness
 
@@ -94,41 +100,42 @@ The**Yahoo! Cloud Serving Benchmark**(YCSB) is an open-source specification and 
 <https://github.com/brianfrankcooper/YCSB/wiki/Core-Workloads>
 
 ## Big data enabling technologies
--   Apache Hadoop
--   Hadoop Ecosystem
--   HDFS Architecture
--   YARN
--   NoSQL
--   Hive
--   Map Reduce
--   Apache Spark
--   Zookeeper
--   Cassandra
--   Hbase
--   Spark Streaming
--   Kafka
--   Spark MLib
--   GraphX
+
+- Apache Hadoop
+- Hadoop Ecosystem
+- HDFS Architecture
+- YARN
+- NoSQL
+- Hive
+- Map Reduce
+- Apache Spark
+- Zookeeper
+- Cassandra
+- Hbase
+- Spark Streaming
+- Kafka
+- Spark MLib
+- GraphX
 
 ## Steps for Data Platform
 
-1.  Data
+1. Data
 
-2.  Query
+2. Query
 
-3.  Merge
+3. Merge
 
-4.  Wrangle
+4. Wrangle
 
-5.  Visualize
+5. Visualize
 
-<http://xyz.insightdataengineering.com/blog/pipeline_map
+<http://xyz.insightdataengineering.com/blog/pipeline_map>
 
 <https://en.wikipedia.org/wiki/Big_data>
 
-<https://www.semantikoz.com/blog/getting-started-with-hadoop-and-big-data-with-text-and-hive
+<https://www.semantikoz.com/blog/getting-started-with-hadoop-and-big-data-with-text-and-hive>
 
-<https://zerowithdot.com/splitting-to-batches
+<https://zerowithdot.com/splitting-to-batches>
 
 <https://www.fast.ai/2020/01/07/data-questionnaire>
 

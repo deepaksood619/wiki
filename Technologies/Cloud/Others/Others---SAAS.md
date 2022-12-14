@@ -8,17 +8,18 @@ Modified: 2022-12-03 11:53:42 +0500
 
 blogtrottr - RSS Online Feed
 
-Videos - <https://animoto.com
+Videos - <https://animoto.com>
 
-Stock Photos - <https://unsplash.com
+Stock Photos - <https://unsplash.com>
 
 <https://nimbletext.com/Live>
 
 ## CDN
--   Cloudflare
--   fastly
--   Cloudfront
--   Akamai
+
+- Cloudflare
+- fastly
+- Cloudfront
+- Akamai
 
 ## Cloudflare
 
@@ -28,21 +29,21 @@ A "Cloudflare Worker" is JavaScript you write that runs on Cloudflare's edge. A 
 
 Anything and everything. You're writing code, so the possibilities are infinite. Your Service Worker will intercept all HTTP requests destined for your domain, and can return any valid HTTP response. Your worker can make outgoing HTTP requests to any server on the public internet.
 
-<https://blog.cloudflare.com/introducing-cloudflare-workers
+<https://blog.cloudflare.com/introducing-cloudflare-workers>
 
 A flow diagram of how Cloudflare worker responds to an**HTTP request.**
 
 ![](../../media/Cloud-Others-Others---SAAS-image1.jpg)
 
-<https://blog.opstree.com/2020/06/30/cache-using-cloudflare-workers-cache-api
+<https://blog.opstree.com/2020/06/30/cache-using-cloudflare-workers-cache-api>
 
 [**https://developers.cloudflare.com/firewall/cf-firewall-rules/actions**](https://developers.cloudflare.com/firewall/cf-firewall-rules/actions)
 
 ## Alexa
 
-1.  Skill interface
+1. Skill interface
 
-2.  Skill service
+2. Skill service
 
 Components
 
@@ -55,33 +56,38 @@ c.  Intents
 d.  Slots
 
 ## Test Taking / Online assessment
--   ThinkExam
--   **Coding**
-    -   Codility (good but high price)
-    -   Evalground (150 per test, 100 min no of tests, 15000)
-    -   Coderbyte (35 dollars per month)
-    -   CoderPad
-    -   Hackerrank
-    -   Codefights
-    -   CodeAssess
-    -   test4geeks
--   Concerto - <https://github.com/campsych/concerto-platform>
--   Savsoft - <https://github.com/savsofts/savsoftquiz_v5>
--   TCExam - <https://tcexam.org/docs/installation
+
+- ThinkExam
+- **Coding**
+  - Codility (good but high price)
+  - Evalground (150 per test, 100 min no of tests, 15000)
+  - Coderbyte (35 dollars per month)
+  - CoderPad
+  - Hackerrank
+  - Codefights
+  - CodeAssess
+  - test4geeks
+- Concerto - <https://github.com/campsych/concerto-platform>
+- Savsoft - <https://github.com/savsofts/savsoftquiz_v5>
+- TCExam - <https://tcexam.org/docs/installation>
 
 <https://github.com/tecnickcom/tcexam>
--   Papershala
 
-<https://papershala.com
--   Edbase
+- Papershala
 
-<http://www.edbase.net
--   **Speedexam**
+<https://papershala.com>
 
-<https://www.speedexam.net
+- Edbase
+
+<http://www.edbase.net>
+
+- **Speedexam**
+
+<https://www.speedexam.net>
 
 50 exams per month free
--   <https://belong.co
+
+- <https://belong.co>
 
 ## Business Rules Engine (BRE) / Decision Rule Engine
 
@@ -98,24 +104,25 @@ Rule engine software is commonly provided as a component of a[business rule mana
 ## Design Strategies
 
 Many organizations' rules efforts combine aspects of what is generally considered[workflow](https://en.wikipedia.org/wiki/Workflow)design with traditional rule design. This failure to separate the two approaches can lead to problems with the ability to re-use and control both business rules and workflows. Design approaches that avoid this quandary separate the role of business rules and workflows as follows:
--   **Business rules produce knowledge;**
--   **Workflows perform business work.**
+
+- **Business rules produce knowledge;**
+- **Workflows perform business work.**
 
 Concretely, that means that a business rule may do things like detect that a business situation has occurred and raise a business event (typically carried via a messaging infrastructure) or create higher level business knowledge (e.g., evaluating the series of organizational, product, and regulatory-based rules concerning whether or not a loan meets underwriting criteria). On the other hand, a workflow would respond to an event that indicated something such as the overloading of a routing point by initiating a series of activities.
 
 ## Types of Rule Engines
 
-1.  Most rules engines used by businesses are[forward chaining](https://en.wikipedia.org/wiki/Forward_chaining), which can be further divided into two classes:
-    -   The first class processes so-called **production/[inference](https://en.wikipedia.org/wiki/Inference)rules**. These types of rules are used to represent behaviors of the type IF condition THEN action. For example, such a rule could answer the question: "Should this customer be allowed a mortgage?" by executing rules of the form "IF some-condition THEN allow-customer-a-mortgage".
-    -   The other type of rule engine processes so-called **reaction/[Event condition action](https://en.wikipedia.org/wiki/Event_condition_action)rules**. The reactive rule engines detect and react to incoming events and process event patterns. For example, a reactive rule engine could be used to alert a manager when certain items are out of stock.
+1. Most rules engines used by businesses are[forward chaining](https://en.wikipedia.org/wiki/Forward_chaining), which can be further divided into two classes:
+    - The first class processes so-called **production/[inference](https://en.wikipedia.org/wiki/Inference)rules**. These types of rules are used to represent behaviors of the type IF condition THEN action. For example, such a rule could answer the question: "Should this customer be allowed a mortgage?" by executing rules of the form "IF some-condition THEN allow-customer-a-mortgage".
+    - The other type of rule engine processes so-called **reaction/[Event condition action](https://en.wikipedia.org/wiki/Event_condition_action)rules**. The reactive rule engines detect and react to incoming events and process event patterns. For example, a reactive rule engine could be used to alert a manager when certain items are out of stock.
 
 The biggest difference between these types is that production rule engines execute when a user or application invokes them, usually in a stateless manner. A reactive rule engine reacts automatically when events occur, usually in a stateful manner. Many (and indeed most) popular commercial rule engines have both production and reaction rule capabilities, although they might emphasize one class over another. For example, most business rules engines are primarily production rules engines, whereas[complex event processing](https://en.wikipedia.org/wiki/Complex_event_processing)rules engines emphasize reaction rules.
 
-2.  In addition, some rules engines support[backward chaining](https://en.wikipedia.org/wiki/Backward_chaining). In this case a rules engine seeks to resolve the facts to fit a particular goal. It is often referred to as beinggoal drivenbecause it tries to determine if something exists based on existing information.
+2. In addition, some rules engines support[backward chaining](https://en.wikipedia.org/wiki/Backward_chaining). In this case a rules engine seeks to resolve the facts to fit a particular goal. It is often referred to as beinggoal drivenbecause it tries to determine if something exists based on existing information.
 
-3.  Another kind of rule engine automatically switches between back- and forward-chaining several times during a reasoning run, e.g. the Internet Business Logic system, which can be found by searching the web.
+3. Another kind of rule engine automatically switches between back- and forward-chaining several times during a reasoning run, e.g. the Internet Business Logic system, which can be found by searching the web.
 
-4.  A fourth class of rules engine might be called a deterministic engine. These rules engines may forgo both forward chaining and backward chaining, and instead utilize[domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)approaches to better describe policy. This approach is often easier to implement and maintain, and provides performance advantages over forward or backward chaining systems.
+4. A fourth class of rules engine might be called a deterministic engine. These rules engines may forgo both forward chaining and backward chaining, and instead utilize[domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)approaches to better describe policy. This approach is often easier to implement and maintain, and provides performance advantages over forward or backward chaining systems.
 
 There are some circumstance where[Fuzzy Logic](https://en.wikipedia.org/wiki/Fuzzy_Logic)based inference may be more appropriate, where heuristics are used in rule processing, rather than Boolean rules. Examples might include customer classification, missing data inference, customer value calculations, etc. The DARL languageand the associated inference engine and editors is an example of this approach.
 
@@ -124,11 +131,12 @@ There are some circumstance where[Fuzzy Logic](https://en.wikipedia.org/wiki/Fuz
 <https://www.youtube.com/watch?v=V4nl_v85sNA>
 
 ## Tools
--   Blaze
--   Pega
--   Kissflow
 
-<https://exceptionnotfound.net/designing-a-workflow-engine-database-part-1-introduction-and-purpose
+- Blaze
+- Pega
+- Kissflow
+
+<https://exceptionnotfound.net/designing-a-workflow-engine-database-part-1-introduction-and-purpose>
 
 BRM - Business Rules Management
 
@@ -149,8 +157,9 @@ Drools is a**Business Logic integration Platform (BLiP)**. It is written in Java
 In layman's terms, Drools is a collection of tools that allow us to separate and reason over logic and data found within business processes. The two important keywords we need to notice areLogicandData.
 
 Drools is split into two main parts:AuthoringandRuntime.
--   Authoring− Authoring process involves the creation of Rules files (.DRL files).
--   Runtime− It involves the creation of working memory and handling the activation.
+
+- Authoring− Authoring process involves the creation of Rules files (.DRL files).
+- Runtime− It involves the creation of working memory and handling the activation.
 
 DMN - Decision Model and Notation
 
@@ -158,9 +167,9 @@ The Decision Model and Notation (DMN™) is a Standard by OMG® providing a comm
 
 <https://www.drools.org/learn/dmn.html>
 
-<https://learn-dmn-in-15-minutes.com
+<https://learn-dmn-in-15-minutes.com>
 
-<https://www.drools.org
+<https://www.drools.org>
 
 <https://en.wikipedia.org/wiki/Drools>
 
@@ -240,7 +249,7 @@ Finally, you have the engine itself. This is the thing that will actually perfor
 
 ## Supply Chain Management
 
-<https://blueyonder.com
+<https://blueyonder.com>
 
 ## Inventory Management Systems (IMS)
 
@@ -252,19 +261,19 @@ Finally, you have the engine itself. This is the thing that will actually perfor
 
 ## Human Resource Management System (HRMS) / HRIS / Hiring Tools
 
-OrangeHRM - <https://sourceforge.net/projects/orangehrm
+OrangeHRM - <https://sourceforge.net/projects/orangehrm>
 
 <https://github.com/orangehrm/orangehrm>
 
 <https://opensource-demo.orangehrmlive.com/index.php/auth/login>
 
-<https://hub.docker.com/r/bitnami/orangehrm
+<https://hub.docker.com/r/bitnami/orangehrm>
 
-<https://hrone.cloud
+<https://hrone.cloud>
 
-<https://www.keka.com
+<https://www.keka.com>
 
-<https://www.openhrms.com
+<https://www.openhrms.com>
 
 <http://demo.openhrms.com/web/login>
 
@@ -274,11 +283,11 @@ OrangeHRM - <https://sourceforge.net/projects/orangehrm
 
 [**https://github.com/frappe/frappe_docker**](https://github.com/frappe/frappe_docker)
 
-<https://frappe.school
+<https://frappe.school>
 
-<https://wperp.com/81080/7-most-popular-open-source-hris-software-to-look-for-now-an-easy-comparison
+<https://wperp.com/81080/7-most-popular-open-source-hris-software-to-look-for-now-an-easy-comparison>
 
-<https://www.lever.co
+<https://www.lever.co>
 
 ## Telegram
 
@@ -292,30 +301,30 @@ OrangeHRM - <https://sourceforge.net/projects/orangehrm
 
 <https://github.com/kairichard/awesome-nocode-lowcode>
 
-<https://budibase.com/blog/open-source-low-code-platforms
+<https://budibase.com/blog/open-source-low-code-platforms>
 
 [**https://flutterflow.io/**](https://flutterflow.io/)
 
 [**https://www.judo.app/**](https://www.judo.app/)
 
-<https://tooljet.com
+<https://tooljet.com>
 
 Open-source low-code framework for building React-based web applications and internal tools
 
-<https://bubble.io
+<https://bubble.io>
 
-<https://carrd.co
+<https://carrd.co>
 
-<https://www.freecodecamp.org/news/low-code-for-freelance-developers-startups
+<https://www.freecodecamp.org/news/low-code-for-freelance-developers-startups>
 
 ## Products
 
-<https://hate2wait.io
+<https://hate2wait.io>
 
 ## Others
 
-<https://www.nylas.com
+<https://www.nylas.com>
 
-<https://temp-mail.org/en
+<https://temp-mail.org/en>
 
-<https://trends.google.com/trends
+<https://trends.google.com/trends>

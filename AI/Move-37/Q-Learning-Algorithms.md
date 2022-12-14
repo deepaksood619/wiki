@@ -10,9 +10,9 @@ Q-Learning algorithms are a family of Reinforcement Learning algorithms.
 
 Unlike policy gradient methods, which attempt to learn functions which directly map an observation to an action, Q-Learning attempts to learn the value of being in a given state, and taking a specific action there.
 
-## Policy Gradient Method - Attempts to learn functions which directly map an observation to an action.
+## Policy Gradient Method - Attempts to learn functions which directly map an observation to an action
 
-## Q-Learning - Attempts to learn the value of being in a given state, and taking a specific action there.
+## Q-Learning - Attempts to learn the value of being in a given state, and taking a specific action there
 
 Q - Quality
 

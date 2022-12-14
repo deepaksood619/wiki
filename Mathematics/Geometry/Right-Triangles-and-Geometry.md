@@ -6,12 +6,12 @@ Modified: 2018-05-26 00:40:01 +0500
 
 ---
 
-1.  [Pythagorean theorem](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pyth-theorem)
+1. [Pythagorean theorem](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pyth-theorem)
 
-2.  [Pythagorean theorem proofs](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pythagorean-proofs)
+2. [Pythagorean theorem proofs](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-pythagorean-proofs)
 
-3.  [Special right triangles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-special-right-triangles)
-    -   30-60-90 triangle rule
+3. [Special right triangles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-special-right-triangles)
+    - 30-60-90 triangle rule
 
 ![image](media/Right-Triangles-and-Geometry-image1.jpg)
 4.  [Introduction to the trigonometric ratios](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-trig-ratios-intro)
@@ -27,13 +27,13 @@ Tangent - Opposite / Adjacent
 ![image](media/Right-Triangles-and-Geometry-image3.png)
 5.  [Solving for a side in a right triangle using the trigonometric ratios:](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-solve-for-a-side)
 
-6.  [Solving for an angle in a right triangle using the trigonometric ratios](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-solve-for-an-angle)
+6. [Solving for an angle in a right triangle using the trigonometric ratios](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-solve-for-an-angle)
 
-7.  [Modeling with right triangles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-modeling-with-right-triangles)
+7. [Modeling with right triangles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-modeling-with-right-triangles)
 
-8.  [Trigonometric ratios & similarity](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-trig-ratios-similarity)
+8. [Trigonometric ratios & similarity](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-trig-ratios-similarity)
 
-9.  [Sine & cosine of complementary angles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-complementary-angles)
+9. [Sine & cosine of complementary angles](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-complementary-angles)
 
 10. [Law of sines](https://www.khanacademy.org/math/geometry/hs-geo-trig#hs-geo-law-of-sines)
 

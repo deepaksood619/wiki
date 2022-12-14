@@ -11,13 +11,15 @@ Python is an experiment in how much freedom programmers need. Too much freedom a
 ## Identifier
 
 A python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9)
--   Case sensitive
+
+- Case sensitive
 
 Naming Conventions for identifiers
--   Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
--   Starting an identifier with a single leading underscore indicates that the identifier is private
--   Starting an identifier with two leading underscores indicates a strongly private identifier
--   If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+
+- Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
+- Starting an identifier with a single leading underscore indicates that the identifier is private
+- Starting an identifier with two leading underscores indicates a strongly private identifier
+- If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
 
 ## Multi-Line Statements ()
 

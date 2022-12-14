@@ -60,35 +60,35 @@ Option + Characters - Special Characters like (µåß∂√ƒç≈Ω)
 
 ## Setting up MAC
 
-1.  **Add iterm2**
+1. **Add iterm2**
 
-2.  Add zsh
+2. Add zsh
 
-3.  **Add docker**
+3. **Add docker**
 
-4.  ~~Add Anaconda~~
+4. ~~Add Anaconda~~
 
-5.  ~~Irvue~~
+5. ~~Irvue~~
 
-6.  **Onenote**
+6. **Onenote**
 
-7.  **VSCode**
+7. **VSCode**
 
 Open theCommand Palette(⇧⌘P) and type 'shell command' to find theShell Command: Install 'code' command in PATHcommand.
 
-8.  **Google chrome**
+8. **Google chrome**
 
 Cmd + Shift + A + Enter (to cycle between tabs)
 
-<https://www.google.com/inputtools
+<https://www.google.com/inputtools>
 
-9.  **Google Chrome apps**
+9. **Google Chrome apps**
 
     a.  Keep Desktop app
 
 Go to keep.google.com > go to chrome more tools > create shortcut > check open as new window
 
-2.  Youtube music
+2. Youtube music
 
 10. **Google Drive for mac**
 
@@ -187,26 +187,30 @@ brew services cleanup
 Remove all unused services.
 
 ## brew install
--   **tmux**
--   tldr
--   watch
--   **kubectl**
--   **helm**
--   **kubectx**
--   **k9s (brew install derailed/k9s/k9s)**
--   tree (directory tree structure)
--   mysql-client / mysql@5.7
--   bat
--   **neovim**
+
+- **tmux**
+- tldr
+- watch
+- **kubectl**
+- **helm**
+- **kubectx**
+- **k9s (brew install derailed/k9s/k9s)**
+- tree (directory tree structure)
+- mysql-client / mysql@5.7
+- bat
+- **neovim**
 
 <https://github.com/neovim/neovim>
--   ~~fzf (A command-line fuzzy finder)~~
+
+- ~~fzf (A command-line fuzzy finder)~~
 
 <https://github.com/junegunn/fzf>
--   ~~the_silver_searcher (command ag "services")~~
+
+- ~~the_silver_searcher (command ag "services")~~
 
 <https://github.com/ggreer/the_silver_searcher>
--   **hstr**
+
+- **hstr**
 
 hstr --show-configuration >> ~/.zshrc
 
@@ -217,12 +221,13 @@ export HSTR_CONFIG=hicolor,raw-history-view
 ## ctrl+r
 
 <https://github.com/dvorka/hstr>
--   **awscli**
--   **python3**
--   moreutils
--   thefuck - <https://github.com/nvbn/thefuck>
--   **tldr -** <https://tldr.sh <https://github.com/tldr-pages/tldr>
--   <https://fig.io - brew install --cask fig - <https://github.com/withfig/autocomplete>
+
+- **awscli**
+- **python3**
+- moreutils
+- thefuck - <https://github.com/nvbn/thefuck>
+- **tldr -** <https://tldr.sh> <https://github.com/tldr-pages/tldr>
+- <https://fig.io> - brew install --cask fig - <https://github.com/withfig/autocomplete>
 
 fig doctor check if Fig is properly configured
 
@@ -271,10 +276,11 @@ git clone <https://github.com/zsh-users/zsh-autosuggestions> ${ZSH_CUSTOM:-~/.oh
 Preferences > Profiles > Terminal
 
 ## Natural Text Editing
--   Go to**Preferences...**>**Profiles**>**Keys**(not Preferences... > Keys)
--   Press**Presets...**
--   Select**Natural Text Editing**
--   Then, you can move a word backwards usingOption ⌥+←and a word forwards usingOption ⌥+→, move to the start of the line usingfn+←and to the end of the line withfn+→. Also you can delete a word backwards usingOption ⌥+⌫, delete the whole line usingCommand ⌘+⌫.
+
+- Go to**Preferences...**>**Profiles**>**Keys**(not Preferences... > Keys)
+- Press**Presets...**
+- Select**Natural Text Editing**
+- Then, you can move a word backwards usingOption ⌥+←and a word forwards usingOption ⌥+→, move to the start of the line usingfn+←and to the end of the line withfn+→. Also you can delete a word backwards usingOption ⌥+⌫, delete the whole line usingCommand ⌘+⌫.
 
 ## ~/.zshrc
 
@@ -304,8 +310,7 @@ source <(helm completion zsh)
 
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 
-
--   **run command - setopt auto_cd**
+- **run command - setopt auto_cd**
 
 Set autocd, which means that rather than typingcd <foldername>you just type<foldername>
 
@@ -313,7 +318,7 @@ Set autocd, which means that rather than typingcd <foldername>you just type<fold
 
 export SHELL=/usr/local/bin/zsh
 
-#Color Terminal
+# Color Terminal
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
@@ -377,7 +382,7 @@ alias publicIp="curl wgetip.com"
 ssh() {
 iterm2_set_user_var title_var $@
 /usr/bin/ssh -t $@ tmux new-session -A -s <username>
-#creates a named tmux session for the user in the server, which will be created or attached to on request.
+# creates a named tmux session for the user in the server, which will be created or attached to on request.
 iterm2_set_user_var title_var ""
 
 }
@@ -397,8 +402,9 @@ iterm2_set_user_var title_var ""
 }
 
 ## Alias
--   Suffix Alias (-s)
--   Global Alias (-g)
+
+- Suffix Alias (-s)
+- Global Alias (-g)
 
 <https://thorsten-hans.com/5-types-of-zsh-aliases>
 
@@ -422,7 +428,7 @@ defaults write com.apple.screencapture type JPG
 
 defaults write com.apple.screencapture location "$HOME/Screenshots"
 
-<https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots
+<https://about.gitlab.com/blog/2020/01/30/simple-trick-for-smaller-screenshots>
 
 ## ipv6 disable
 

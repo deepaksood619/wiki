@@ -9,21 +9,21 @@ Modified: 2022-12-11 12:34:24 +0500
 Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
 ## Editor
-	[Online Markdown Editor - Dillinger, the Last Markdown Editor ever.](https://dillinger.io/)
+ [Online Markdown Editor - Dillinger, the Last Markdown Editor ever.](https://dillinger.io/)
 
-1.  **Strikethrough**
+1. **Strikethrough**
 
 ~~Strikethrough~~
 
-2.  **Bold**
+2. **Bold**
 
 ## bold
 
-3.  **Italics**
+3. **Italics**
 
 *Italics*
 
-4.  **Headers**
+4. **Headers**
 
 # This is an <h1> tag
 
@@ -31,19 +31,19 @@ Markdown is a way to style text on the web. You control the display of the docum
 
 ###### This is an <h6> tag
 
-5.  **Emphasis**
+5. **Emphasis**
 
 *This text will be italic*
 
-_This will also be italic_
+*This will also be italic*
 
 ## This text will be bold
 
-__This will also be bold__
+**This will also be bold**
 
 *You **can** combine them*
 
-6.  **BlockQuotes**
+6. **BlockQuotes**
 
 As Grace Hopper said:
 
@@ -53,7 +53,7 @@ As Grace Hopper said:
 
 ![image](media/Markdown-image1.png)
 
-7.  **Lists**
+7. **Lists**
 
     a.  **Unordered**
 
@@ -65,7 +65,7 @@ As Grace Hopper said:
 
 * Item 2b
 
-2.  **Ordered**
+2. **Ordered**
 
     a.  Item 1
 
@@ -77,13 +77,13 @@ As Grace Hopper said:
 
 * Item 3b
 
-8.  **Images**
+8. **Images**
 
 ![Github Logo](/images/logo.png)
 
 Format: ![Alt Text](url)
 
-9.  **Links**
+9. **Links**
 
 <http://github.com> - automatically created
 
@@ -180,7 +180,7 @@ Typing an '@' symbol, followed by a username, will notify that person to come an
 
 Any number that refers to an issues or PR will be automatically converted into a link.
 
-#1
+# 1
 
 github-flavored-markdown#1
 
@@ -191,13 +191,13 @@ defunkt/github-flavored-markdown#1
 [www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 
 Examples
--   :+1:
--   :sparkles:
--   :camel:
--   :tada:
--   :rocket:
--   :metal:
--   :octocat:
+* :+1:
+* :sparkles:
+* :camel:
+* :tada:
+* :rocket:
+* :metal:
+* :octocat:
 
 ## Fenced Code Blocks
 
@@ -220,10 +220,10 @@ console.log("look ma', no spaces");
 ```
 
 ## Task Lists
--   [x] this is a complete item
--   [ ] this is an incomplete item
--   [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
--   [x] list syntax required (any unordered or ordered list supported)
+* [x] this is a complete item
+* [ ] this is an incomplete item
+* [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+* [x] list syntax required (any unordered or ordered list supported)
 
 ![image](media/Markdown-image2.png)
 
@@ -286,7 +286,7 @@ You write markdown with embedded components through JSX
 
 It gets compiled to JavaScript that you can use in any framework that supports JSX
 
-<https://mdxjs.com
+<https://mdxjs.com>
 
 ## Others
 
@@ -294,6 +294,6 @@ It gets compiled to JavaScript that you can use in any framework that supports J
 
 Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.
 
-<https://markdown-here.com
+<https://markdown-here.com>
 
 [Markdown vs. HTML – What Makes the Most Powerful Notes Editor?](https://www.thebrain.com/blog/markdown-vs-html)

@@ -11,9 +11,10 @@ Modified: 2020-09-03 13:09:59 +0500
 CodeIgniter has user-friendly URI routing system, so that you can easily re-route URL. Typically, there is a one-to-one relationship between a URL string and its corresponding controller class/method. The segments in a URI normally follow this pattern −
 
 your-domain.com/class/method/id/
--   Thefirst segmentrepresents the controller class that should be invoked.
--   Thesecond segmentrepresents the class function, or method, that should be called.
--   Thethird, and any additional segments, represent the ID and any variables that will be passed to the controller.
+
+- Thefirst segmentrepresents the controller class that should be invoked.
+- Thesecond segmentrepresents the class function, or method, that should be called.
+- Thethird, and any additional segments, represent the ID and any variables that will be passed to the controller.
 
 In some situations, you may want to change this default routing mechanism. CodeIgniter provides facility through which you can set your own routing rules.
 
@@ -56,8 +57,9 @@ Routes can be customized bywildcardsor by usingregular expressionsbut keep in mi
 ## Wildcards
 
 We can use two wildcard characters as explained below −
--   (:num)− It will match a segment containing only numbers.
--   (:any)− It will match a segment containing any character.
+
+- (:num)− It will match a segment containing only numbers.
+- (:any)− It will match a segment containing any character.
 
 Example
 

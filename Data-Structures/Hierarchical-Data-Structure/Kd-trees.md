@@ -14,36 +14,45 @@ Extension of BSTs that allow us to do efficient processing of sets of points in 
 ![image](media/Kd-trees-image1.png)
 
 Problem with Grid implementation - **Clustering**
--   Lists are too long, even though average length is short.
+
+- Lists are too long, even though average length is short.
 ![image](media/Kd-trees-image2.png)
 ![image](media/Kd-trees-image3.png)
+
 ## Operations -
 
 a.  Range search in a 2d tree
 
 b.  Nearest neighbor search in a 2d tree
 ![image](media/Kd-trees-image4.png)
+
 ## Applications of 2d trees -
--   Classifying astronomical objects
--   Computer animation
--   Speeding up neural networks
--   Mining data
--   Image retrieval
+
+- Classifying astronomical objects
+- Computer animation
+- Speeding up neural networks
+- Mining data
+- Image retrieval
+
 ## Flocking Boids Algorithm
 
 Boids: Three simple rules lead to complex emergent flocking behavior in birds:
--   Collision avoidance: point away from k nearest boids
--   Flock centering: point towards the center of mass of k nearest boids
--   Velocity matching: update velocity to the average of k nearest boids
+
+- Collision avoidance: point away from k nearest boids
+- Flock centering: point towards the center of mass of k nearest boids
+- Velocity matching: update velocity to the average of k nearest boids
+
 ## Appel's algorithm for N-body simulation
 
 Key idea: suppose particle is far, far away from cluster of particles:
--   Treat cluster of particles as a single aggregate particle
--   Compute force between particle and center of mass of aggregate
+
+- Treat cluster of particles as a single aggregate particle
+- Compute force between particle and center of mass of aggregate
 
 Algorithm
--   Build 3-d tree with N particles as nodes
--   Store center-of-mass of subtree in each node
--   To compute total force acting on a particle, traverse tree, but stop as soon as distance from particle to subdivision is sufficiently large
+
+- Build 3-d tree with N particles as nodes
+- Store center-of-mass of subtree in each node
+- To compute total force acting on a particle, traverse tree, but stop as soon as distance from particle to subdivision is sufficiently large
 
 Running time per step is N log N

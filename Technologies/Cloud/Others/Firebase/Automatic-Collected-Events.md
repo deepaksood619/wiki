@@ -11,11 +11,12 @@ Automatically collected events are triggered by basic interactions with your app
 Analytics collects these events for Android and iOS apps unless otherwise stated.
 
 The following parameters are collected by default with every event, including[custom events you implement yourself](https://developers.google.com/analytics/devguides/collection/app-web/tag-guide):
--   language
--   page_location
--   page_referrer
--   page_title
--   screen_resolution
+
+- language
+- page_location
+- page_referrer
+- page_title
+- screen_resolution
 
 <table>
 <colgroup>

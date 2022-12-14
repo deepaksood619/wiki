@@ -7,42 +7,47 @@ Modified: 2021-12-30 17:22:46 +0500
 ---
 
 The open platform for beautiful analytics and monitoring (open source software for time series analytics) (Expression browser)
--   40 data sources
-    -   Graphite
-    -   Cloud watch
-    -   Prometheus
-    -   Elastic search
-    -   InfluxDB (TICK Stack)
-    -   Hosted Metrics
--   28 panels
--   17 apps
--   776 dashboards
+
+- 40 data sources
+  - Graphite
+  - Cloud watch
+  - Prometheus
+  - Elastic search
+  - InfluxDB (TICK Stack)
+  - Hosted Metrics
+- 28 panels
+- 17 apps
+- 776 dashboards
 
 docker run --rm --name=grafana --net=influxdb -p 3000:3000 grafana/grafana
 
 docker run --rm --name=grafana -p 3000:3000 grafana/grafana
 
 ## Dashboards
--   Telegraf System dashboard - <https://grafana.com/dashboards/928>
--   Docker Overview - 5763
--   Telegraf sysstats - 4823
--   Kafka Overview - 721 prometheus
--   Kafka Overview - 5484 kafka-exporter
--   Prometheus 2.0 Overview - 3662
--   Grafana Dashboard Exporter/Importer - 5837
+
+- Telegraf System dashboard - <https://grafana.com/dashboards/928>
+- Docker Overview - 5763
+- Telegraf sysstats - 4823
+- Kafka Overview - 721 prometheus
+- Kafka Overview - 5484 kafka-exporter
+- Prometheus 2.0 Overview - 3662
+- Grafana Dashboard Exporter/Importer - 5837
 
 <https://grafana.com/grafana/dashboards/5837>
--   Blackbox Exporter status page dashboard - 5345
--   HTTP - <https://grafana.com/grafana/dashboards/10138>
-    -   HTTP Metrics - <https://grafana.com/grafana/dashboards/73>
--   Redis - <https://grafana.com/grafana/dashboards/763>
 
--   **AWS Dashboards - <https://github.com/monitoringartist/grafana-aws-cloudwatch-dashboards>**
+- Blackbox Exporter status page dashboard - 5345
+- HTTP - <https://grafana.com/grafana/dashboards/10138>
+  - HTTP Metrics - <https://grafana.com/grafana/dashboards/73>
+- Redis - <https://grafana.com/grafana/dashboards/763>
 
-<https://grafana.com/docs/grafana/latest/datasources/cloudwatch
--   <https://grafana.com/blog/2021/11/09/announcing-grafana-oncall
+- **AWS Dashboards - <https://github.com/monitoringartist/grafana-aws-cloudwatch-dashboards>**
+
+<https://grafana.com/docs/grafana/latest/datasources/cloudwatch>
+
+- <https://grafana.com/blog/2021/11/09/announcing-grafana-oncall>
 
 ## Env
+
 GF_AUTH_ANONYMOUS_ENABLED: true
 GF_AUTH_ANONYMOUS_ORG_ROLE: Editor
 GF_AUTH_BASIC_ENABLED: false
@@ -56,7 +61,8 @@ GF_EXTERNAL_IMAGE_STORAGE_S3_SECRET_KEY: "dw1TjY4BBnG9RtQQFOFo79McuA/PcERY0ZjXsn
 GF_PANELS_DISABLE_SANITIZE_HTML: true
 
 ## Concepts
--   **Data Source**
+
+- **Data Source**
 
 Grafana supports many different storage backends for your time series data (Data Source). Each Data Source has a specific Query Editor that is customized for the features and capabilities that the particular Data Source exposes.
 
@@ -64,33 +70,33 @@ The following datasources are officially supported: [Graphite](http://docs.grafa
 
 The query language and capabilities of each Data Source are obviously very different. You can combine data from multiple Data Sources onto a single Dashboard, but each Panel is tied to a specific Data Source that belongs to a particular Organization.
 
-
--   **Organization**
--   **User**
--   **Row**
+- **Organization**
+- **User**
+- **Row**
 
 A Row is a logical divider within a Dashboard, and is used to group Panels together.
 
 Utilize the[Repeating Rows functionality](http://docs.grafana.org/reference/templating/#repeating-rows)to dynamically create or remove entire Rows (that can be filled with Panels), based on the Template variables selected.
 
 Rows can be collapsed by clicking on the Row Title. If you save a Dashboard with a Row collapsed, it will save in that state and will not preload those graphs until the row is expanded.
--   **Panel**
+
+- **Panel**
 
 The Panel is the basic visualization building block in Grafana. Each Panel provides a Query Editor (dependent on the Data Source selected in the panel) that allows you to extract the perfect visualization to display on the Panel by utilizing the Query Editor
 
 Types of Panel -
--   Graph
--   Singlestat
--   Table
--   Heatmap
--   Alert list
--   Dashboard list
--   Text
+
+- Graph
+- Singlestat
+- Table
+- Heatmap
+- Alert list
+- Dashboard list
+- Text
 
 Utilize the[Repeating Panel](http://docs.grafana.org/reference/templating/#repeating-panels)functionality to dynamically create or remove Panels based on the[Templating Variables](http://docs.grafana.org/reference/templating/#repeating-panels)selected.
 
-
--   **Query Editor**
+- **Query Editor**
 
 The Query Editor exposes capabilities of your Data Source and allows you to query the metrics that it contains.
 
@@ -100,8 +106,7 @@ You can utilize[Template variables](http://docs.grafana.org/reference/templating
 
 Grafana allows you to reference queries in the Query Editor by the row that they're on. If you add a second query to graph, you can reference the first query simply by typing in #A. This provides an easy and convenient way to build compounded queries.
 
-
--   **Dashboard**
+- **Dashboard**
 
 The Dashboard is where it all comes together. Dashboards can be thought of as of a set of one or more Panels organized and arranged into one or more Rows.
 
@@ -116,9 +121,10 @@ Dashboards (or a specific Panel) can be[Shared](http://docs.grafana.org/referenc
 Dashboards can be tagged, and the Dashboard picker provides quick, searchable access to all Dashboards in a particular Organization.
 
 ## Advanced
--   Variables
--   Repeating Rows
--   Repeating Panels
+
+- Variables
+- Repeating Rows
+- Repeating Panels
 
 ## Shortcuts
 
@@ -168,7 +174,7 @@ grafana-cli plugins install <plugin-id> <version>
 
 grafana-cli plugins ls
 
-<http://docs.grafana.org/guides/basic_concepts
+<http://docs.grafana.org/guides/basic_concepts>
 
 <https://play.grafana.org/d/ZvPm55mWk/new-features-in-v6-2?orgId=1>
 
@@ -179,15 +185,17 @@ grafana-cli plugins ls
 Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by[Prometheus](https://prometheus.io/). It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
 
 Compared to other log aggregation systems, Loki:
--   does not do full text indexing on logs. By storing compressed, unstructured logs and only indexing metadata, Loki is simpler to operate and cheaper to run.
--   indexes and groups log streams using the same labels you're already using with Prometheus, enabling you to seamlessly switch between metrics and logs using the same labels that you're already using with Prometheus.
--   is an especially good fit for storing[Kubernetes](https://kubernetes.io/)Pod logs. Metadata such as Pod labels is automatically scraped and indexed.
--   has native support in Grafana (needs Grafana v6.0).
+
+- does not do full text indexing on logs. By storing compressed, unstructured logs and only indexing metadata, Loki is simpler to operate and cheaper to run.
+- indexes and groups log streams using the same labels you're already using with Prometheus, enabling you to seamlessly switch between metrics and logs using the same labels that you're already using with Prometheus.
+- is an especially good fit for storing[Kubernetes](https://kubernetes.io/)Pod logs. Metadata such as Pod labels is automatically scraped and indexed.
+- has native support in Grafana (needs Grafana v6.0).
 
 A Loki-based logging stack consists of 3 components:
--   promtailis the agent, responsible for gathering logs and sending them to Loki.
--   lokiis the main server, responsible for storing logs and processing queries.
--   [Grafana](https://github.com/grafana/grafana)for querying and displaying the logs.
+
+- promtailis the agent, responsible for gathering logs and sending them to Loki.
+- lokiis the main server, responsible for storing logs and processing queries.
+- [Grafana](https://github.com/grafana/grafana)for querying and displaying the logs.
 
 Loki is like Prometheus, but for logs: we prefer a multidimensional label-based approach to indexing, and want a single-binary, easy to operate system with no dependencies. Loki differs from Prometheus by focusing on logs instead of metrics, and delivering logs via push, instead of pull.
 
@@ -195,11 +203,11 @@ Loki is like Prometheus, but for logs: we prefer a multidimensional label-based 
 
 Don't be surprised if you don't find this acronym, it is mostly known as Grafana Loki. Anyway, this stack is getting good popularity due to its opinionated design decisions. You might know about Grafana which is a popular visualization tool. Grafana labs designed**Loki**which is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. It indexes only metadata and doesn't index the content of the log. This design decision makes it very cost-effective and easy to operate.
 
-## Promtailis an agent that ships the logs from the local system to the Loki cluster.Grafanais the visualization tool which consumes data from Loki data sources.
+## Promtailis an agent that ships the logs from the local system to the Loki cluster.Grafanais the visualization tool which consumes data from Loki data sources
 
 ![OGrafana Grafana Loki Prom tail Logs ](../../media/DevOps-Monitoring-Grafana-image1.png)
 
-<https://grafana.com/docs/loki/latest/clients/promtail
+<https://grafana.com/docs/loki/latest/clients/promtail>
 
 The Loki is built on the same design principles of Prometheus, therefore it is a good fit for storing and analyzing the logs of Kubernetes.
 
@@ -253,21 +261,21 @@ Unlike other logging systems, Loki is built around the idea of only indexing met
 
 Loki 2.0 brings an index mechanism named 'boltdb-shipper' and is what we now call **Single Store Loki**. This index type only requires one store, the object store, for both the index and chunks.
 
-<https://grafana.com/docs/loki/latest/storage
+<https://grafana.com/docs/loki/latest/storage>
 
-<https://grafana.com/docs/loki/latest/operations/storage/boltdb-shipper
+<https://grafana.com/docs/loki/latest/operations/storage/boltdb-shipper>
 
-<https://www.infracloud.io/logging-in-kubernetes-efk-vs-plg-stack
+<https://www.infracloud.io/logging-in-kubernetes-efk-vs-plg-stack>
 
-<https://grafana.com/oss/loki
+<https://grafana.com/oss/loki>
 
 <https://github.com/grafana/loki>
 
-<https://grafana.com/go/webinar/observability-with-loki-2.0
+<https://grafana.com/go/webinar/observability-with-loki-2.0>
 
-<https://grafana.com/go/webinar/intro-to-loki-like-prometheus-but-for-logs
+<https://grafana.com/go/webinar/intro-to-loki-like-prometheus-but-for-logs>
 
-<https://grafana.com/docs/loki/latest/architecture
+<https://grafana.com/docs/loki/latest/architecture>
 
 <https://grafana.com/grafana/dashboards/13407>
 
@@ -275,19 +283,20 @@ Loki 2.0 brings an index mechanism named 'boltdb-shipper' and is what we now cal
 
 <https://grafana.com/grafana/dashboards/10004>
 
-<https://grafana.com/docs/loki/latest/operations/observability
+<https://grafana.com/docs/loki/latest/operations/observability>
 
-<https://grafana.com/blog/2020/10/28/loki-2.0-released-transform-logs-as-youre-querying-them-and-set-up-alerts-within-loki
+<https://grafana.com/blog/2020/10/28/loki-2.0-released-transform-logs-as-youre-querying-them-and-set-up-alerts-within-loki>
 
 ## LogQL
 
 Loki comes with its own PromQL-inspired language for queries called**LogQL**. LogQL can be considered a distributed**grep**that aggregates log sources. LogQL uses labels and operators for filtering.
 
 There are two types of LogQL queries:
--   **Log queries**return the contents of log lines.
--   **Metric queries**extend log queries and calculate sample values based on the content of logs from a log query.
 
-<https://grafana.com/docs/loki/latest/logql/metric_queries
+- **Log queries**return the contents of log lines.
+- **Metric queries**extend log queries and calculate sample values based on the content of logs from a log query.
+
+<https://grafana.com/docs/loki/latest/logql/metric_queries>
 
 ## Examples
 
@@ -297,4 +306,4 @@ There are two types of LogQL queries:
 
 rate({app="reminder-messages-sms-consumer"}[5m])
 
-<https://grafana.com/docs/loki/latest/logql
+<https://grafana.com/docs/loki/latest/logql>

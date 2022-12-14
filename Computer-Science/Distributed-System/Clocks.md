@@ -9,6 +9,7 @@ Modified: 2020-03-18 18:49:53 +0500
 ## Atomic Broadcast
 
 In[fault-tolerant](https://en.m.wikipedia.org/wiki/Fault-tolerant)[distributed computing](https://en.m.wikipedia.org/wiki/Distributed_systems), anatomic broadcastortotal order broadcastis a[broadcast](https://en.m.wikipedia.org/wiki/Broadcasting_(networking))where all correct processes in a system of multiple processes receive the same set of messages in the same order; that is, the same sequence of messages.The broadcast is termed "[atomic](https://en.m.wikipedia.org/wiki/Atomic_(computer_science))" because it either eventually completes correctly at all participants, or all participants abort without side effects. Atomic broadcasts are an important distributed computing primitive.
+
 ## Total Order and Partial Order, Causal ordering
 
 When events in a system follow a total order, then every event in that system has a specific order in which it occurred. In other words, when we know exactly wheneachof the events occurred, we know the total order of all the events in a system.

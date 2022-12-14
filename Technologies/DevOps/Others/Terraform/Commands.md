@@ -54,7 +54,7 @@ refresh Update local state file against real resources
 
 ## show Inspect Terraform state or plan
 
-## state This command has subcommands for advanced state management.
+## state This command has subcommands for advanced state management
 
 ## list List resources in the state
 

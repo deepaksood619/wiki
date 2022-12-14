@@ -8,23 +8,23 @@ Modified: 2021-05-07 11:23:41 +0500
 
 ## Concepts
 
-1.  **Tick**
+1. **Tick**
 
-2.  **TimeTuple**
+2. **TimeTuple**
 
 ## Modules -
 
-1.  **Time**
+1. **Time**
 
-2.  **Datetime**
+2. **Datetime**
 
-3.  **Pytz**
+3. **Pytz**
 
-4.  **Dateutil**
+4. **Dateutil**
 
-5.  **Calendar**
+5. **Calendar**
 
-1.  **Time -**
+1. **Time -**
 
 Import time
 
@@ -47,15 +47,16 @@ print("time taken = %4.4f seconds" % (end_time-start_time))
 ## print(f"finished in {elapsed:.02f}s")
 
 ## Python Timers (To monitor performance)
--   [monotonic()](https://docs.python.org/3/library/time.html#time.monotonic)
--   [perf_counter()](https://docs.python.org/3/library/time.html#time.perf_counter)
--   [process_time()](https://docs.python.org/3/library/time.html#time.process_time)
--   [time()](https://docs.python.org/3/library/time.html#time.time)
--   thread_time()
 
-<https://realpython.com/python-timer
+- [monotonic()](https://docs.python.org/3/library/time.html#time.monotonic)
+- [perf_counter()](https://docs.python.org/3/library/time.html#time.perf_counter)
+- [process_time()](https://docs.python.org/3/library/time.html#time.process_time)
+- [time()](https://docs.python.org/3/library/time.html#time.time)
+- thread_time()
 
-2.  **DateTime**
+<https://realpython.com/python-timer>
+
+2. **DateTime**
 
 There are two kinds of date and time objects: "naive" and "aware".
 
@@ -104,6 +105,7 @@ datetime.strptime('2020-02-01', '%Y-%m-%d')
 >>>from datetime import datetime
 
 ## >>>print(datetime.now().isoformat())
+
 '2018-03-07T10:09:40.227229'
 
 ## strftime format codes

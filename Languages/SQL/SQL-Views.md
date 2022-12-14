@@ -11,16 +11,19 @@ Database Administrator and Database Users will face two challenges: writing comp
 The view is a query stored in the data dictionary, on which the user can query just like they do on tables. It does not use the physical memory, only the query is stored in the data dictionary. It is computed dynamically, whenever the user performs any query on it. Changes made at any point in view are reflected in the actual base table.
 
 The view has primarily two purposes:
--   Simplify the complex SQL queries.
--   Provide restriction to users from accessing sensitive data.
+
+- Simplify the complex SQL queries.
+- Provide restriction to users from accessing sensitive data.
 
 ## Types of Views
--   **Simple View:**A view based on only a single table, which doesn't contain GROUP BY clause and any functions.
+
+- **Simple View:**A view based on only a single table, which doesn't contain GROUP BY clause and any functions.
 
 The view is not physically materialized. Instead, the query is run every time the view is referenced in a query.
--   **Complex View:**A view based on multiple tables, which contain GROUP BY clause and functions.
--   **Inline View:**A view based on a subquery in FROM Clause, that subquery creates a temporary table and simplifies the complex query.
--   **Materialized View:**A view that stores the definition as well as data. It creates replicas of data by storing it physically.
+
+- **Complex View:**A view based on multiple tables, which contain GROUP BY clause and functions.
+- **Inline View:**A view based on a subquery in FROM Clause, that subquery creates a temporary table and simplifies the complex query.
+- **Materialized View:**A view that stores the definition as well as data. It creates replicas of data by storing it physically.
 
 MySQL does not provide Materialized Views by itself
 

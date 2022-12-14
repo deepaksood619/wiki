@@ -7,14 +7,16 @@ Modified: 2021-02-14 00:34:18 +0500
 ---
 
 To improve, compare little things.
--   marketing strategies
--   exercise technique
--   writing tactics
+
+- marketing strategies
+- exercise technique
+- writing tactics
 
 To be miserable, compare big things.
--   career path
--   marriage
--   net worth
+
+- career path
+- marriage
+- net worth
 
 Comparison is the thief of joy when applied broadly, but the teacher of skills when applied narrowly.
 
@@ -78,7 +80,7 @@ Then, looking after your soul. No one can possibly treat your soul but you yours
 
 <https://getpocket.com/explore/item/how-we-judge-others-is-how-we-judge-ourselves>
 
-## Sisyphus: a legendary king of Corinth condemned eternally to repeatedly roll a heavy rock up a hill in Hades only to have it roll down again as it nears the top.
+## Sisyphus: a legendary king of Corinth condemned eternally to repeatedly roll a heavy rock up a hill in Hades only to have it roll down again as it nears the top
 
 The idea that "change is hard" is one of the biggest myths about human behavior.
 
@@ -116,11 +118,11 @@ Progress does not require self-loathing. You can feel successful along the way.
 
 There are 3 primary drivers of results in life:
 
-1.  Your luck (randomness)
+1. Your luck (randomness)
 
-2.  Your strategy (choices)
+2. Your strategy (choices)
 
-3.  Your actions (habits)
+3. Your actions (habits)
 
 Only 2 of the 3 are under your control. But if you master those 2, you can improve the odds that luck will work for you rather than against you.
 
@@ -136,11 +138,11 @@ The real goal is not to read more books. The goal is to understand what you read
 
 Don't let a proxy become the target. Don't optimize for the wrong outcome."
 
-1.  Everything that's already in the world when you're born is just normal;
+1. Everything that's already in the world when you're born is just normal;
 
-2.  Anything that gets invented between then and before you turn thirty is incredibly exciting and creative and with any luck you can make a career out of it;
+2. Anything that gets invented between then and before you turn thirty is incredibly exciting and creative and with any luck you can make a career out of it;
 
-3.  Anything that gets invented after you're thirty is against the natural order of things and the beginning of the end of civilization as we know it until it's been around for about ten years when it gradually turns out to be alright really.
+3. Anything that gets invented after you're thirty is against the natural order of things and the beginning of the end of civilization as we know it until it's been around for about ten years when it gradually turns out to be alright really.
 
 A brief guide to improvement:
 

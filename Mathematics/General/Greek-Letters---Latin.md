@@ -14,6 +14,7 @@ Modified: 2021-10-03 20:19:20 +0500
 | [Delta](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%94%CE%B4_(delta))     | Δ δ        | [Theta](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%98%CE%B8_(theta))     | Θ θ ϑ      | [Nu](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%9D%CE%BD_(nu))         | Ν ν        | [Sigma](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%A3%CF%83_(sigma))     | Σ σ ς      | [Psi](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%A8%CF%88_(psi))         | Ψ ψ        |
 | [Epsilon](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%95%CE%B5_(epsilon)) | Ε ϵ ε      | [Iota](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%99%CE%B9_(iota))       | Ι ι        | [Xi](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%9E%CE%BE_(xi)) / Ksi   | Ξ ξ        | [Tau](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%A4%CF%84_(tau))         | Τ τ        | [Omega](https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering#%CE%A9%CF%89_(omega))     | Ω ω        |
 ![image](media/Greek-Letters---Latin-image1.png)
+
 ## Others
 
 Union - ∪
@@ -41,9 +42,11 @@ Not element of - ∉
 Universal quantifier - ∀
 
 Plus-minus sigh - ±
+
 ## Hebrew Letter
 
 aleph - א
+
 ## References
 
 <https://en.wikipedia.org/wiki/Greek_letters_used_in_mathematics,_science,_and_engineering>

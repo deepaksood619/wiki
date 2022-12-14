@@ -22,9 +22,10 @@ Common game elements
 | User levels      | Indication of the user's proficiency in the overall gaming experience over time           |
 Two types of users -
 
-1.  **Achievers -** are eager to complete the many challenges with which they're confronted.
+1. **Achievers -** are eager to complete the many challenges with which they're confronted.
 
-2.  **Explorers -** trive to find hid- den items they can likely collect by exploring a software system's differ- ent areas
+2. **Explorers -** trive to find hid- den items they can likely collect by exploring a software system's differ- ent areas
+
 ## Performance Modelling
 
 ![image](media/Others-image1.png)
@@ -32,23 +33,29 @@ Two types of users -
 ![image](media/Others-image3.png)
 ![image](media/Others-image4.png)
 ![image](media/Others-image5.png)
+
 ## Software defined radio
 
 ## WHAT IS SOFTWARE-DEFINED RADIO USED FOR?
 
 Software-defined radio can be used for all traditional radio applications, but much more flexibly. This allows for the prototyping and development of next-generation radio applications. In this article, though, we use an RTL-SDR for simply receiving narrow-band FM signals.
+
 ## HOW DOES SOFTWARE-DEFINED RADIO WORK?
 
 A software-defined radio works by implementing traditionally hardware components in software on a personal computer or embedded system.
+
 ## WHAT IS A WAVEFORM IN SOFTWARE-DEFINED RADIO?
 
 A waveform is a representation of a wave over a time period. In software-defined radio, it is the same as a waveform in regular radio. It can be used to represent the sound being modulated or demodulated, the signal being transmitted, radiated, or received, or any other waves in the process.
+
 ## WHAT IS SDR IN HAM RADIO?
 
 SDR can be used in ham radio like any other radio application. Amateur radio is a hobby about exploration, and so hams can use the SDR as a receiver, or as a transmitter. They can even use it to create completely new radio applications.
+
 ## WHAT IS RTL IN RTL-SDR?
 
 RTL is short for RTL2832U. The Realtek RTL2832U chipset was a popular choice for digital video broadcast (DVB-T) receivers, whose original purpose was to receive video. It was discovered that these could be hacked and turned into wideband SDR receivers. These devices have come to be known as the RTL-SDR.
+
 ## CAN YOU TRANSMIT WITH SDR?
 
 It depends on the SDR. If you have the right hardware, yes you can, but not with the RTL-SDR. Some transmission capable SDRs include the HackRF, PlutoSDR, LimeSDR, LimeSDR Mini, and more.

@@ -7,9 +7,11 @@ Modified: 2022-01-27 18:29:02 +0500
 ---
 
 ## Interface Definition Languages
--   Apache Thrift (donated by Facebook)
--   Google Protocol Buffer (ProtoBuf)
--   AIDL (Android Interface Definition Language)
+
+- Apache Thrift (donated by Facebook)
+- Google Protocol Buffer (ProtoBuf)
+- AIDL (Android Interface Definition Language)
+
 ## Spine Switches
 
 In recent years, an architecture known as leaf and spine, or distributed core, has emerged as a leading design for data centers. This design requires spine specially designed[spine switches](https://www.sdxcentral.com/data-center/what-is-networking-switch-fabric/)in order to work.
@@ -58,6 +60,7 @@ Next, double-click onLimit number of connectionsand then set theRD Maximum Conne
 ## Download - chrome using Powershell (not cmd)**
 
 $LocalTempDir = $env:TEMP; $ChromeInstaller = "ChromeInstaller.exe"; (new-object System.Net.WebClient).DownloadFile('http://dl.google.com/chrome/install/375.126/chrome_installer.exe', "$LocalTempDir$ChromeInstaller"); & "$LocalTempDir$ChromeInstaller" /silent /install; $Process2Monitor = "ChromeInstaller"; Do { $ProcessesFound = Get-Process | ?{$Process2Monitor -contains $_.Name} | Select-Object -ExpandProperty Name; If ($ProcessesFound) { "Still running: $($ProcessesFound -join ', ')" | Write-Host; Start-Sleep -Seconds 2 } else { rm "$LocalTempDir$ChromeInstaller" -ErrorAction SilentlyContinue -Verbose } } Until (!$ProcessesFound)
+
 ## ONAP
 
 ONAP is a comprehensive platform for orchestration, management, and automation of network and edge computing services for network operators, cloud providers, and enterprises. Real-time, policy-driven orchestration and automation of physical and virtual network functions enables rapid automation of new services and complete lifecycle management critical for 5G and next-generation networks.
@@ -79,7 +82,8 @@ In a nutshell, IPVS is used to expose an entrypoint service with a unique virtua
 
 RFID is the process by which items are uniquely identified using radio waves, and NFC is a specialized subset within the family of RFID technology. Specifically, NFC is a branch of High-Frequency (HF) RFID, and both operate at the 13.56 MHz frequency. NFC is designed to be a secure form of data exchange, and an NFC device is capable of being both an NFC reader and an[NFC tag](https://www.atlasrfidstore.com/near-field-communication/). This unique feature allows NFC devices to communicate peer-to-peer.
 RFID tags are either[Active or Passive](https://blog.atlasrfidstore.com/active-rfid-vs-passive-rfid).
--   **Active RFID tags** contain their own power source giving them the ability to broadcast with a read range of up to 100 meters. Their long read range makes active RFID tags ideal for many industries where asset location and other improvements in logistics are important.-   [**Passive RFID tags**](https://www.atlasrfidstore.com/rfid-tags/)do not have their own power source. Instead, they are powered by the electromagnetic energy transmitted from the RFID reader. Because the radio waves must be strong enough to power the tags, passive RFID tags have a read range from near contact and up to 25 meters.
+
+- **Active RFID tags** contain their own power source giving them the ability to broadcast with a read range of up to 100 meters. Their long read range makes active RFID tags ideal for many industries where asset location and other improvements in logistics are important.-   [**Passive RFID tags**](https://www.atlasrfidstore.com/rfid-tags/)do not have their own power source. Instead, they are powered by the electromagnetic energy transmitted from the RFID reader. Because the radio waves must be strong enough to power the tags, passive RFID tags have a read range from near contact and up to 25 meters.
 <https://www.atlasrfidstore.com/rfid-insider/rfid-vs-nfc>
 
 ## Mobile Cell Service**

@@ -16,11 +16,10 @@ Nest CLI can be used to generate nest.js applications with a lot of features out
 
 Nest is inspired by Angular
 
-
--   Controllers
--   Providers
--   Imports
--   Exports
+- Controllers
+- Providers
+- Imports
+- Exports
 
 ## src
 
@@ -31,9 +30,9 @@ Nest is inspired by Angular
 
 <https://docs.nestjs.com/first-steps>
 
-<https://www.merixstudio.com/blog/nestjs-how-and-why-use-it
+<https://www.merixstudio.com/blog/nestjs-how-and-why-use-it>
 
-<https://www.freecodecamp.org/news/learn-nestjs-by-building-a-crud-api
+<https://www.freecodecamp.org/news/learn-nestjs-by-building-a-crud-api>
 
 ## Commands
 

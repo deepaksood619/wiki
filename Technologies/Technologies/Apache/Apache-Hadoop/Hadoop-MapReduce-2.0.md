@@ -7,8 +7,9 @@ Modified: 2020-08-15 23:39:23 +0500
 ---
 
 ## Introduction
--   **MapReduce** is a programming model and an associated implementation for processing and generating large data sets
--   Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate
+
+- **MapReduce** is a programming model and an associated implementation for processing and generating large data sets
+- Users specify a map function that processes a key/value pair to generate a set of intermediate key/value pairs, and a reduce function that merges all intermediate values associated with the same intermediate
 
 ![Introduction MapReduce is a programming model and implementation for pr s ing and generati sets. Users specify a map function that processe pair to generate a set of intermediate key/va a reduce function that merges all interm associated with the same intermediate key. ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image1.png)
 
@@ -40,7 +41,7 @@ Modified: 2020-08-15 23:39:23 +0500
 
 ![Map-Reduce Functions Input: a set of key/value pairs User supplies two functions• reduce(kl, list(vl)) -5 v2 (kl,vl) is an intermediate key/value pair Output is the set of (kl,v2) pairs ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image15.png)
 
-![Applications Here are a few simple applications of interesting can be easily expressed as MapReduce computati [Distributed Grep: The map function emits a line supplied pattern. The reduce function is an identi• just copies the supplied intermediate data to the c Count of URL Access Frequency: The a cunc logs of web page requests and outputs I URL; function adds together all values for the same U (URL; total cou t) pair. e ReverseWeb-Link Graph: The map function ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image16.png)
+![Distributed Grep: The map function emits a line supplied pattern. The reduce function is an identi• just copies the supplied intermediate data to the c Count of URL Access Frequency: The a cunc logs of web page requests and outputs I URL; function adds together all values for the same U (URL; total cou t) pair. e ReverseWeb-Link Graph: The map function](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image16.png)
 
 ![Contd... Term-Vector per Host: A term vector surr most important words that occur in a docun of documents as a list of (word; frequency) pæ The map function emits a (hostname; term for each input document (where the extracted from the URL of the document). The reduce function is passed all per-doc ](../../../media/Technologies-Apache-Hadoop-MapReduce-2.0-image17.png)
 

@@ -15,19 +15,21 @@ Before React, Developers directly manipulated the DOM elements which resulted in
 ## What is ReactDOM?
 
 ReactDOM is a package that provides DOM specific methods that can be used at the top level of a web app to enable an efficient way of managing DOM elements of the web page. ReactDOM provides the developers with an API containing the following methods and a few more.
--   render()
--   findDOMNode()
--   unmountComponentAtNode()
--   hydrate()
--   createPortal()
+
+- render()
+- findDOMNode()
+- unmountComponentAtNode()
+- hydrate()
+- createPortal()
 
 ## Important Points to Note
--   ReactDOM.render() replaces the child of the given container if any. It uses a highly efficient diff algorithm and can modify any subtree of the DOM.
--   findDOMNode() function can only be implemented upon mounted components thus Functional components can not be used in findDOMNode() method.
--   ReactDOM uses observables thus provides an efficient way of DOM handling.
--   ReactDOM can be used on both the client-side and server-side.
 
-<https://www.geeksforgeeks.org/reactjs-reactdom
+- ReactDOM.render() replaces the child of the given container if any. It uses a highly efficient diff algorithm and can modify any subtree of the DOM.
+- findDOMNode() function can only be implemented upon mounted components thus Functional components can not be used in findDOMNode() method.
+- ReactDOM uses observables thus provides an efficient way of DOM handling.
+- ReactDOM can be used on both the client-side and server-side.
+
+<https://www.geeksforgeeks.org/reactjs-reactdom>
 
 <https://reactjs.org/docs/react-dom.html>
 

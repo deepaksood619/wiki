@@ -6,7 +6,7 @@ Modified: 2022-11-29 16:22:31 +0500
 
 ---
 
-## 97.42% is a fictional number that figuratively conveys the idea of a significant percentage.
+## 97.42% is a fictional number that figuratively conveys the idea of a significant percentage
 
 ## Vision + Values = Mission
 
@@ -42,23 +42,23 @@ All rumors are false until officially denied.
 
 ## 22 sentences that will further your career more than a Harvard MBA
 
-1.  Done is always better than perfect
+1. Done is always better than perfect
 
-2.  Network is your ONLY shortcut
+2. Network is your ONLY shortcut
 
-3.  Sell before you fulfill
+3. Sell before you fulfill
 
-4.  Knowledge compounds faster than money
+4. Knowledge compounds faster than money
 
-5.  The best time to build a personal brand was 10 years ago, the next best time is now
+5. The best time to build a personal brand was 10 years ago, the next best time is now
 
-6.  What you work on is more important than how hard you work
+6. What you work on is more important than how hard you work
 
-7.  The internet is the only school you need, and it's free
+7. The internet is the only school you need, and it's free
 
-8.  Don't fight uphill battles, start your business in a high demand market
+8. Don't fight uphill battles, start your business in a high demand market
 
-9.  Practice > theory (get your hands dirty)
+9. Practice > theory (get your hands dirty)
 
 10. People aren't computers, manage them by understanding their feelings
 
@@ -136,15 +136,15 @@ Power is not Corruption, Power is a Possibility -- Sadhguru
 
 The 5R's of Curbing Corruption
 
-1.  Reduce - Corruption
+1. Reduce - Corruption
 
-2.  Refuse - Bribe
+2. Refuse - Bribe
 
-3.  Reuse - Honesty
+3. Reuse - Honesty
 
-4.  Reframe - Laws
+4. Reframe - Laws
 
-5.  Remember - Corruption is a curse. Let's fight against it.
+5. Remember - Corruption is a curse. Let's fight against it.
 
 One man's ceiling is another man's floor
 
@@ -274,13 +274,13 @@ Better be without sense than misapply it as you do.
 
 How to 80/20 your work:
 
-1.  Make a list of the 10 things you spend the most time on.
+1. Make a list of the 10 things you spend the most time on.
 
-2.  Circle the two that truly drive your results. Do more of those.
+2. Circle the two that truly drive your results. Do more of those.
 
-3.  Look at the others. Eliminate ruthlessly. Automate or outsource what you can. Press pause on the rest.
+3. Look at the others. Eliminate ruthlessly. Automate or outsource what you can. Press pause on the rest.
 
-4.  Repeat.
+4. Repeat.
 
 Productivity isn't everything, but, in the long run, it is almost everything -- Economist Paul Krugman, in The Age of Diminished Expectations
 
@@ -305,14 +305,15 @@ Sorry, the shit has hit the fan, we will clean up as best as we can.
 It does not make sense to hire smart people and then tell them what to do : we hire smart people so they can tell us what to do.
 
 Start every big problem by starting off with two questions
--   Who has dealt with this problem well
--   What can we learn from them
+
+- Who has dealt with this problem well
+- What can we learn from them
 
 Rowing harder doesn't help if the boat is headed in the wrong direction. -- AntiPatterns in Project Management
 
 Coming together is a beginning. Keeping together is progress. Working together is success -- Henry Ford
 
-## There is big, bigger, biggest. And then there is LIC.
+## There is big, bigger, biggest. And then there is LIC
 
 A list of 10 principles from an early internal memo at Nike, long before the company grew into a global brand. This list is rumored to have been written in 1977 by the first head of marketing, Rob Strasser, and was shared decades later by lead designerMarkus Kittner.
 

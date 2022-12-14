@@ -19,10 +19,11 @@ In this tutorial, we're going to train a model to look at images and predict wha
 The actual code for this tutorial is very short, and all the interesting stuff happens in just three lines. However, it is very important to understand the ideas behind it: both how TensorFlow works and the core machine learning concepts. Because of this, we are going to very carefully work through the code.
 
 What we will accomplish in this tutorial:
--   Learn about the MNIST data and softmax regressions
--   Create a function that is a model for recognizing digits, based on looking at every pixel in the image
--   Use TensorFlow to train the model to recognize digits by having it "look" at thousands of examples (and run our first TensorFlow session to do so)
--   Check the model's accuracy with our test data
+
+- Learn about the MNIST data and softmax regressions
+- Create a function that is a model for recognizing digits, based on looking at every pixel in the image
+- Use TensorFlow to train the model to recognize digits by having it "look" at thousands of examples (and run our first TensorFlow session to do so)
+- Check the model's accuracy with our test data
 
 ### The MNIST Data
 
@@ -35,9 +36,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
 The MNIST data is split into three parts: 55,000 data points of training data (mnist.train), 10,000 points of test data (mnist.test), and 5,000 points of validation data (mnist.validation). This split is very important: it's essential in machine learning that we have separate data which we don't learn from so that we can make sure that what we've learned actually generalizes!
 
-
 As mentioned earlier, every MNIST data point has two parts: an image of a handwritten digit and a corresponding label. We'll call the images "x" and the labels "y". Both the training set and test set contain images and their corresponding labels; for example the training images are mnist.train.images and the training labels are mnist.train.labels.
-
 
 Each image is 28 pixels by 28 pixels. We can interpret this as a big array of numbers:
 
@@ -45,9 +44,7 @@ Each image is 28 pixels by 28 pixels. We can interpret this as a big array of nu
 
 We can flatten this array into a vector of 28x28 = 784 numbers. It doesn't matter how we flatten the array, as long as we're consistent between images. From this perspective, the MNIST images are just a bunch of points in a 784-dimensional vector space, with a [very rich structure](https://colah.github.io/posts/2014-10-Visualizing-MNIST/) (warning: computationally intensive visualizations).
 
-
 Flattening the data throws away information about the 2D structure of the image. Isn't that bad? Well, the best computer vision methods do exploit this structure, and we will in later tutorials. But the simple method we will be using here, a softmax regression (defined below), won't.
-
 
 The result is that mnist.train.images is a tensor (an n-dimensional array) with a shape of [55000, 784]. The first dimension is an index into the list of images and the second dimension is the index for each pixel in each image. Each entry in the tensor is a pixel intensity between 0 and 1, for a particular pixel in a particular image.
 
@@ -76,21 +73,29 @@ The following diagram shows the weights one model learned for each of these clas
 ![](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image5.png)
 
 We also add some extra evidence called a bias. Basically, we want to be able to say that some things are more likely independent of the input. The result is that the evidence for a class i given an input x is:
+
 ```
 evidencei=∑jWi,jxj+bi
 ```
+
 where Wi is the weights and bi is the bias for class i, and j is an index for summing over the pixels in our input image x. We then convert the evidence tallies into our predicted probabilities y using the "softmax" function:
+
 ```
 y=softmax(evidence)
 ```
+
 Here softmax is serving as an "activation" or "link" function, shaping the output of our linear function into the form we want -- in this case, a probability distribution over 10 cases. You can think of it as converting tallies of evidence into probabilities of our input being in each class. It's defined as:
+
 ```
 softmax(evidence)=normalize(exp⁡(evidence))
 ```
+
 If you expand that equation out, you get:
+
 ```
 softmax(evidence)i=exp⁡(evidencei)∑jexp⁡(evidencej)
 ```
+
 But it's often more helpful to think of softmax the first way: exponentiating its inputs and then normalizing them. The exponentiation means that one more unit of evidence increases the weight given to any hypothesis multiplicatively. And conversely, having one less unit of evidence means that a hypothesis gets a fraction of its earlier weight. No hypothesis ever has zero or negative weight. Softmax then normalizes these weights, so that they add up to one, forming a valid probability distribution. (To get more intuition about the softmax function, check out the [section](http://neuralnetworksanddeeplearning.com/chap3.html#softmax) on it in Michael Nielsen's book, complete with an interactive visualization.)
 
 You can picture our softmax regression as looking something like the following, although with a lot more xs. For each output, we compute a weighted sum of the xs, add a bias, and then apply softmax.
@@ -126,21 +131,26 @@ We describe these interacting operations by manipulating symbolic variables. Let
 
 x = tf.placeholder(tf.float32, [None, 784])
 ```
+
 x isn't a specific value. It's a placeholder, a value that we'll input when we ask TensorFlow to run a computation. We want to be able to input any number of MNIST images, each flattened into a 784-dimensional vector. We represent this as a 2-D tensor of floating-point numbers, with a shape [None, 784]. (Here None means that a dimension can be of any length.)
 
 We also need the weights and biases for our model. We could imagine treating these like additional inputs, but TensorFlow has an even better way to handle it: Variable. A Variable is a modifiable tensor that lives in TensorFlow's graph of interacting operations. It can be used and even modified by the computation. For machine learning applications, one generally has the model parameters be Variables.
+
 ```
 W = tf.Variable(tf.zeros([784, 10]))
 b = tf.Variable(tf.zeros([10]))
 ```
+
 We create these Variables by giving tf.Variable the initial value of the Variable: in this case, we initialize both W and b as tensors full of zeros. Since we are going to learn W and b, it doesn't matter very much what they initially are.
 
 Notice that W has a shape of [784, 10] because we want to multiply the 784-dimensional image vectors by it to produce 10-dimensional vectors of evidence for the difference classes. b has a shape of [10] so we can add it to the output.
 
 We can now implement our model. It only takes one line to define it!
+
 ```
 y = tf.nn.softmax(tf.matmul(x, W) + b)
 ```
+
 First, we multiply x by W with the expression tf.matmul(x, W). This is flipped from when we multiplied them in our equation, where we had Wx, as a small trick to deal with x being a 2D tensor with multiple inputs. We then add b, and finally apply tf.nn.softmax.
 
 That's it. It only took us one line to define our model, after a couple short lines of setup. That isn't because TensorFlow is designed to make a softmax regression particularly easy: it's just a very flexible way to describe many kinds of numerical computations, from machine learning models to physics simulations. And once defined, our model can be run on different devices: your computer's CPU, GPUs, and even phones!
@@ -158,6 +168,7 @@ Hy′(y)=−∑iyi′log⁡(yi)
 Where y is our predicted probability distribution, and y′ is the true distribution (the one-hot vector with the digit labels). In some rough sense, the cross-entropy is measuring how inefficient our predictions are for describing the truth. Going into more detail about cross-entropy is beyond the scope of this tutorial, but it's well worth [understanding](https://colah.github.io/posts/2015-09-Visual-Information).
 
 To implement cross-entropy we need to first add a new placeholder to input the correct answers:
+
 ```
 y_ = tf.placeholder(tf.float32, [None, 10])
 
@@ -187,11 +198,13 @@ We first have to create an operation to initialize the variables we created:
 tf.global_variables_initializer().run()
 
 Let's train -- we'll run the training step 1000 times!
+
 ```
 for _ in range(1000):
  batch_xs, batch_ys = mnist.train.next_batch(100)
  sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
 ```
+
 Each step of the loop, we get a "batch" of one hundred random data points from our training set. We run train_step feeding in the batches data to replace the placeholders.
 
 Using small batches of random data is called stochastic training -- in this case, stochastic gradient descent. Ideally, we'd like to use all our data for every step of training because that would give us a better sense of what we should be doing, but that's expensive. So, instead, we use a different subset every time. Doing this is cheap and has much of the same benefit.

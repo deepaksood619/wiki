@@ -15,13 +15,14 @@ Modified: 2022-01-07 21:10:20 +0500
 A modern JavaScript utility library delivering modularity, performance & extras.
 
 Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.Lodash's modular methods are great for:
--   Iterating arrays, objects, & strings
--   Manipulating & testing values
--   Creating composite functions
+
+- Iterating arrays, objects, & strings
+- Manipulating & testing values
+- Creating composite functions
 
 <https://github.com/lodash/lodash>
 
-<https://lodash.com
+<https://lodash.com>
 
 ## PassportJS
 
@@ -29,33 +30,36 @@ Passport is authentication middleware for[Node.js](https://nodejs.org/). Extreme
 
 <https://github.com/jaredhanson/passport>
 
-<http://www.passportjs.org
+<http://www.passportjs.org>
 
-<https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js
+<https://www.freecodecamp.org/news/learn-to-implement-user-authentication-in-node-apps-using-passport-js>
 
 Nodejs passport login system - <https://www.youtube.com/watch?v=-RCnNyD0L-s>
 
 Node + Passport User Authentication
--   passport-local strategy (Session)
--   passport-jwt strategy
+
+- passport-local strategy (Session)
+- passport-jwt strategy
 
 User Authentication Choices
 
 ![image](media/Nodejs_Libraries-image1.png)
 
 What is Passport JS
--   Welcome to Express middlewares!
-    -   On each HTTP request, Passport will use a "Strategy" to determine whether the requestor has permission to view that resource
-    -   If the user does not have permission, a 401 *Unauthorized* Error is thrown
--   Passport Strategies??
-    -   Each strategy uses the Passport JS framework as a template
-    -   The Passport Local Strategy utilizes, Cookies, Express Sessions and some authentication logic
+
+- Welcome to Express middlewares!
+  - On each HTTP request, Passport will use a "Strategy" to determine whether the requestor has permission to view that resource
+  - If the user does not have permission, a 401 *Unauthorized* Error is thrown
+- Passport Strategies??
+  - Each strategy uses the Passport JS framework as a template
+  - The Passport Local Strategy utilizes, Cookies, Express Sessions and some authentication logic
 
 Intro to HTTP Headers and Cookies
--   3 types of headers
-    -   General headers
-    -   Request headers
-    -   Response headers
+
+- 3 types of headers
+  - General headers
+  - Request headers
+  - Response headers
 
 Setting header with expiry
 

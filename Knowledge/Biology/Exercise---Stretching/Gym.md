@@ -26,29 +26,29 @@ The best exercise for gaining strength is not missing workouts
 
 ## why biceps won't grow
 
-1.  **high weight**
+1. **high weight**
 
-2.  **not full range of motions**
+2. **not full range of motions**
 
 ## Most important exercises
 
-1.  Squat (Compound)
+1. Squat (Compound)
 
-2.  Deadlift (Compound)
+2. Deadlift (Compound)
 
-3.  Bench Press (Compound)
+3. Bench Press (Compound)
 
-4.  Close-grip bench press (triceps)
+4. Close-grip bench press (triceps)
 
-5.  Pull ups
+5. Pull ups
 
-6.  Abs pulldown
+6. Abs pulldown
 
-7.  Shoulder press
+7. Shoulder press
 
 ## Triceps
 
-1.  **Over head exercises**
+1. **Over head exercises**
 
     a.  **dumbbell pullup over the head**
 
@@ -58,23 +58,23 @@ The best exercise for gaining strength is not missing workouts
 
 ## Pushups
 
-1.  Full range of motion
+1. Full range of motion
 
-2.  Don't flare your elbows out while going down
+2. Don't flare your elbows out while going down
 
-3.  Keep your spine straight
+3. Keep your spine straight
 
-4.  Don't go too fast
+4. Don't go too fast
 
-5.  Breathe in while going down through nose, breathe out while going up (pushing up) through mouth
+5. Breathe in while going down through nose, breathe out while going up (pushing up) through mouth
 
 <https://www.youtube.com/watch?v=A_7foakUeHw>
 
 ## Gym routine (60 mins)
 
-1.  10 mins stretching
+1. 10 mins stretching
 
-2.  20 mins cardio
+2. 20 mins cardio
 
     a.  10 mins treadmill + 10 mins cross trainer
 
@@ -82,7 +82,7 @@ The best exercise for gaining strength is not missing workouts
 
     c.  20 mins cross trainer
 
-3.  30 mins weight training
+3. 30 mins weight training
 
 ## 5-Day Split Routine
 
@@ -264,8 +264,6 @@ Leg-10, leg+2.5-8, leg+5-6, leg+7.5-4
 
 Sunday -- OFF
 
-
-
 ## New Routine
 
 Monday - chest
@@ -362,25 +360,25 @@ Box jumps
 
 ## Gym Fads
 
-1.  TRAINING TOO LONG IS OVERKILL
+1. TRAINING TOO LONG IS OVERKILL
 
-2.  RESULTS TAKE TIME
+2. RESULTS TAKE TIME
 
-3.  HARDCORE TRAINING WITH NO MEAL PLAN = NO RESULTS
+3. HARDCORE TRAINING WITH NO MEAL PLAN = NO RESULTS
 
-4.  EATING SMALL MEALS EVERY 3 HOURS IS NOT REQUIRED TO GET LEAN
+4. EATING SMALL MEALS EVERY 3 HOURS IS NOT REQUIRED TO GET LEAN
 
-5.  BRO-SPLITS ARE NOT THE BEST OR ONLY WAY TO BUILD MUSCLE
+5. BRO-SPLITS ARE NOT THE BEST OR ONLY WAY TO BUILD MUSCLE
 
     a.  But the reality is that your muscles are ready to go again after just 36 - 48 hours and if you want to maximize your muscle growth you can absolutely hit every bodypart twice a week.
 
-6.  You Don't Need Hours Of Cardio To Get Abs Or Stay Lean
+6. You Don't Need Hours Of Cardio To Get Abs Or Stay Lean
 
-7.  I WISH I UNDERSTOOD THE IMPORTANCE OF COMPOUND MOVEMENTS
+7. I WISH I UNDERSTOOD THE IMPORTANCE OF COMPOUND MOVEMENTS
 
-8.  NOT TRAINING WITH FULL RANGE OF MOTION IS A WASTE OF TIME
+8. NOT TRAINING WITH FULL RANGE OF MOTION IS A WASTE OF TIME
 
-9.  DELOAD WEEKS ARE VERY IMPORTANT. - cut the load in half
+9. DELOAD WEEKS ARE VERY IMPORTANT. - cut the load in half
 
 10. BIGGER MUSCLES DON'T AUTOMATICALLY MEAN MORE STRENGTH
 

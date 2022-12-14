@@ -6,21 +6,21 @@ Modified: 2022-10-26 21:30:50 +0500
 
 ---
 
-<https://taxbuddy.com
+<https://taxbuddy.com>
 
 ## Tax evasion (punishable) vs tax avoidance (your legitimate right) of saving tax
 
-## Tax Consulation - <https://www.charteredclub.com/tax-consultation-with-ca-karan-batra
+## Tax Consulation - <https://www.charteredclub.com/tax-consultation-with-ca-karan-batra>
 
 ## CA
 
-1.  Insurance receipt
+1. Insurance receipt
 
-2.  NGO receipt
+2. NGO receipt
 
-3.  Add your name while filling, and not from my portal
+3. Add your name while filling, and not from my portal
 
-4.  HUF / consultant (for better tax savings)
+4. HUF / consultant (for better tax savings)
 
 F&O - 2.5 lakh profit exemption per financial year
 
@@ -30,7 +30,7 @@ Driver allowance
 
 Vehicle registration no - CG18N0950
 
-<https://billgenerator.in
+<https://billgenerator.in>
 
 Share driver receipt 10K
 
@@ -44,9 +44,8 @@ Periodicals 2K
 
 Consultant - 194J instead 192
 
-
--   Donation to NGO for tax savings
--   Donation to political party for tax savings
+- Donation to NGO for tax savings
+- Donation to political party for tax savings
 
 [Tax on Stocks, Mutual Funds, Gold and Real Estate | STCG and LTCG | ETMONEY](https://www.youtube.com/watch?v=sYtnOVgdH_I)
 
@@ -72,7 +71,7 @@ Indexationis a technique to adjust income payments by means of a price index, in
 
 <https://cleartax.in/s/indexation-helps-reduce-tax-debt-fund-gains>
 
-<https://groww.in/blog/indexation-in-mutual-funds-meaningbenefits-and-more
+<https://groww.in/blog/indexation-in-mutual-funds-meaningbenefits-and-more>
 
 <https://www.youtube.com/watch?v=KKlsYoSaKAs>
 
@@ -81,9 +80,10 @@ Indexationis a technique to adjust income payments by means of a price index, in
 An unrealized gain is a potential profit that exists on paper, resulting from an investment. It is an increase in the value of an[asset](https://www.investopedia.com/terms/a/asset.asp)that has yet to be sold for cash, such as a stock position that has increased in value but still remains open. A gain becomes[realized](https://www.investopedia.com/terms/r/realizedprofit.asp)once the position is sold for a profit.
 
 ## Key Takeaways
--   An unrealized gain is a theoretical profit that exists on paper, resulting from an investment that has not yet been sold for cash.
--   Unrealized gains are recorded on the financial statements differently depending on the type of security.
--   Gains do not affect taxes until the investment is sold and a realized gain is recognized.
+
+- An unrealized gain is a theoretical profit that exists on paper, resulting from an investment that has not yet been sold for cash.
+- Unrealized gains are recorded on the financial statements differently depending on the type of security.
+- Gains do not affect taxes until the investment is sold and a realized gain is recognized.
 
 <https://www.investopedia.com/terms/u/unrealizedgain.asp>
 
@@ -123,9 +123,10 @@ Sec 80D - Medical Insurance Premium (If the policy covers a senior citizen then 
 Medical Insurance 80D for Parents (Here you can claim the amount upto maximum of Rs 25,000 per annum for the premiums paid for your parents. If your parents are senior citizens, the amount is increased to Rs 30,000 per annum. You can also claim preventive health check-up amount of Rs 5,000 for your parents too.)
 
 Sec 80DD - Handicapped Dependent (Medical Treatment on handicapped dependent, Copies of medical bills and duly completed Form 10-IA have to be submitted.)
--   Rs 75,000 (Starting from the financial year 2015-16) where disability is more than 40% and less than 80%.
--   Rs 1,25,000 (Starting fromthe financialyear 2015-16) where disability is more than 80%.
--   These deductions are allowed irrespective of your actual expenditure.
+
+- Rs 75,000 (Starting from the financial year 2015-16) where disability is more than 40% and less than 80%.
+- Rs 1,25,000 (Starting fromthe financialyear 2015-16) where disability is more than 80%.
+- These deductions are allowed irrespective of your actual expenditure.
 
 Sec 80E - Repayment of Loan for higher education (only Interest)
 
@@ -139,7 +140,7 @@ Sec 80U - Handicapped
 
 ## 80DDB - Dependent Critical Illness (upto 1,00,000)
 
-HRA - <https://freefincal.com/tax-benefits-hra-home-loans
+HRA - <https://freefincal.com/tax-benefits-hra-home-loans>
 
 ## DEDUCTION U/S 80C (Max 150000)
 
@@ -182,7 +183,8 @@ Interest on Housing Loan on fully constructed accomodation only (Limit - 200,000
 Interest if the loan is taken before 01/04/99 on fully constructed accomodation only (Limit - 30,000)
 
 ## 10(5) LTA
--   13739
+
+- 13739
 
 <https://economictimes.indiatimes.com/wealth/tax/how-to-claim-lta-from-your-employer/articleshow/66246473.cms?from=mdr>
 
@@ -190,21 +192,21 @@ Loss from business and profession cannot be set off against income chargeable to
 
 ## Tax
 
-1.  Max - 1.5 lakh
+1. Max - 1.5 lakh
 
 ![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image1.png)
 
 ![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image2.png)
--   PF - tax free upto 1 lakh
+
+- PF - tax free upto 1 lakh
 
 ![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image3.png)
 
-
--   Rent
+- Rent
 
 ![image](media/TODO-Financial-Finance---Investing_Returns---Tax---Taxes---ITR-image4.jpg)
 
-<https://www.etmoney.com/blog/beyond-section-80c-10-ways-to-save-taxes
+<https://www.etmoney.com/blog/beyond-section-80c-10-ways-to-save-taxes>
 
 ## Stocks Tax
 

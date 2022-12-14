@@ -44,11 +44,9 @@ instance = aws_instance.example.id
 
 }
 
-
-
 ## Explicit Dependency Example
 
-# New resource for the S3 bucket our application will use.
+# New resource for the S3 bucket our application will use
 
 resource "aws_s3_bucket" "example" {
 
@@ -56,7 +54,7 @@ resource "aws_s3_bucket" "example" {
 
 # this name must be changed before applying this example to avoid naming
 
-# conflicts.
+# conflicts
 
 bucket = "terraform-getting-started-guide"
 
@@ -72,7 +70,7 @@ ami = "ami-2757f631" instance_type = "t2.micro"
 
 # Tells Terraform that this EC2 instance must be created only after the
 
-# S3 bucket has been created.
+# S3 bucket has been created
 
 depends_on = [aws_s3_bucket.example]
 
@@ -92,7 +90,7 @@ resource "aws_instance" "web" {
 
 key_name = aws_key_pair.example.key_name
 
-# ...
+#
 
 connection {
 

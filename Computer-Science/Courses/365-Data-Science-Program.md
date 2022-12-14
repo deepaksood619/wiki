@@ -6,25 +6,25 @@ Modified: 2022-12-11 19:24:37 +0500
 
 ---
 
-1.  Intro to Data and Data Science
+1. Intro to Data and Data Science
 
-2.  Introduction to Microsoft Excel
+2. Introduction to Microsoft Excel
 
-3.  Advanced Microsoft Excel
+3. Advanced Microsoft Excel
 
-4.  Probability
+4. Probability
 
-5.  Statistics
+5. Statistics
 
-6.  Mathematics
+6. Mathematics
 
-7.  PowerBI
+7. PowerBI
 
 <https://365datascience.teachable.com/courses/enrolled/716963>
 
-8.  SQL
+8. SQL
 
-9.  SQL + Tableau
+9. SQL + Tableau
 
 <https://365datascience.teachable.com/courses/enrolled/361448>
 

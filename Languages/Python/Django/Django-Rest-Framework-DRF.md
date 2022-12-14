@@ -10,24 +10,25 @@ Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
 ## Features
 
-1.  Web browsable API
+1. Web browsable API
 
-2.  Authentication policies
+2. Authentication policies
 
-3.  Serialization
+3. Serialization
 
 ## Commands
 
 pip install pygments # for code highlighting
 
 # Set up a new project with a single application
+
 django-admin.py startproject tutorial . # Note the trailing '.' character
 
 cd tutorial
 
 django-admin.py startapp quickstart
 
-1.  **Serialization**
+1. **Serialization**
 
 ## Model Serializers
 
@@ -42,22 +43,20 @@ from snippets.serializers import SnippetSerializer
 serializer = SnippetSerializer()
 print(repr(serializer))
 
-
-
 ## HyperlinkedModelSerializer
 
-2.  **Requests &Responses**
+2. **Requests &Responses**
 
-3.  **Class-based views**
+3. **Class-based views**
 
-4.  **Authentication & Permissions**
+4. **Authentication & Permissions**
 
-<https://nezhar.com/blog/django-rest-framework-permissions-in-depth
+<https://nezhar.com/blog/django-rest-framework-permissions-in-depth>
 
-5.  **Relationships & hyperlinked APIs**
+5. **Relationships & hyperlinked APIs**
 
-6.  **Viewsets & routers**
+6. **Viewsets & routers**
 
-7.  **Schemas & client libraries**
+7. **Schemas & client libraries**
 
 <https://www.youtube.com/playlist?list=PLLxk3TkuAYnrO32ABtQyw2hLRWt1BUrhj>

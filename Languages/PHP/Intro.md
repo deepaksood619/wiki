@@ -20,28 +20,28 @@ The**PHP Hypertext Preprocessor (PHP)**is a programming language that allows web
 
 All of the PHP present in the Web page is processed and stripped from the page; the only thing returned to the client from the Web server is pure HTML output.
 
+- PHP is a **server side scripting language** that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.
 
--   PHP is a **server side scripting language** that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.
-
-
--   It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.
--   PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time.
--   PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for the first time.
--   PHP is forgiving: PHP language tries to be as forgiving as possible.
--   PHP Syntax is C-Like.
+- It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.
+- PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time.
+- PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for the first time.
+- PHP is forgiving: PHP language tries to be as forgiving as possible.
+- PHP Syntax is C-Like.
 
 ## Applications of PHP
--   PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.
--   PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.
--   You add, delete, modify elements within your database through PHP.
--   Access cookies variables and set cookies.
--   Using PHP, you can restrict users to access some pages of your website.
--   It can encrypt data.
+
+- PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.
+- PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.
+- You add, delete, modify elements within your database through PHP.
+- Access cookies variables and set cookies.
+- Using PHP, you can restrict users to access some pages of your website.
+- It can encrypt data.
 
 There are three main areas where PHP scripts are used.
--   **Server-side scripting.** This is the most traditional and main target field for PHP. You need three things to make this work: the PHP parser (CGI or server module), a web server and a web browser. You need to run the web server, with a connected PHP installation. You can access the PHP program output with a web browser, viewing the PHP page through the server.
--   **Command line scripting.** You can make a PHP script to run it without any server or browser. You only need the PHP parser to use it this way. This type of usage is ideal for scripts regularly executed using cron (on *nix or Linux) or Task Scheduler (on Windows). These scripts can also be used for simple text processing tasks
--   **Writing desktop applications.** PHP is probably not the very best language to create a desktop application with a graphical user interface, but if you know PHP very well, and would like to use some advanced PHP features in your client-side applications you can also use PHP-GTK to write such programs. You also have the ability to write cross-platform applications this way. PHP-GTK is an extension to PHP, not available in the main distribution.
+
+- **Server-side scripting.** This is the most traditional and main target field for PHP. You need three things to make this work: the PHP parser (CGI or server module), a web server and a web browser. You need to run the web server, with a connected PHP installation. You can access the PHP program output with a web browser, viewing the PHP page through the server.
+- **Command line scripting.** You can make a PHP script to run it without any server or browser. You only need the PHP parser to use it this way. This type of usage is ideal for scripts regularly executed using cron (on *nix or Linux) or Task Scheduler (on Windows). These scripts can also be used for simple text processing tasks
+- **Writing desktop applications.** PHP is probably not the very best language to create a desktop application with a graphical user interface, but if you know PHP very well, and would like to use some advanced PHP features in your client-side applications you can also use PHP-GTK to write such programs. You also have the ability to write cross-platform applications this way. PHP-GTK is an extension to PHP, not available in the main distribution.
 
 With PHP you are not limited to output HTML. PHP's abilities includes outputting images, PDF files and even Flash movies (using libswf and Ming) generated on the fly. You can also output easily any text, such as XHTML and any other XML file. PHP can autogenerate these files, and save them in the file system, instead of printing it out, forming a server-side cache for your dynamic content.
 

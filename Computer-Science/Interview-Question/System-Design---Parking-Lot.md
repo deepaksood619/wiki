@@ -8,21 +8,21 @@ Modified: 2021-08-27 19:59:20 +0500
 
 [System Design Interview Question: DESIGN A PARKING LOT - asked at Google, Facebook](https://www.youtube.com/watch?v=DSGsa0pu8-k)
 
-1.  System Design
+1. System Design
 
-2.  Algorithmic Problem Solution
+2. Algorithmic Problem Solution
 
-3.  Object Oriented Design Question
+3. Object Oriented Design Question
 Problem Statement - Design a parking lot, Wants a system to manage thousands of cars.
-1.  Handling Ambiguity - recognize the breadth of the question
+1. Handling Ambiguity - recognize the breadth of the question
 
-2.  Clarify question like
+2. Clarify question like
 
     a.  do you want a system design
 
     b.  do you want class hierarchy
 
-3.  Systematic Approach (take a step back and don't rush)
+3. Systematic Approach (take a step back and don't rush)
 
     a.  How is the parking lot designed?
 
@@ -59,23 +59,25 @@ Problem Statement - Design a parking lot, Wants a system to manage thousands of 
         iv. Economical parking spot
 
         v.  Dynamic pricing (Higher pricing at high rush hour)
+
 Design a system for 4 sizes -
 
-1.  Small (motorcycle)
+1. Small (motorcycle)
 
-2.  Medium (car)
+2. Medium (car)
 
-3.  Large (Bus)
+3. Large (Bus)
 
-4.  Extra Large (Truck)
+4. Extra Large (Truck)
 Assumption
 
-1.  Can put small car to bigger spot
+1. Can put small car to bigger spot
 Class Hierarchy -
 
 ## Abstract Vehicle
--   String licensePlate
--   enum color
+
+- String licensePlate
+- enum color
 Implementation of vehicle (Create 4 classes that inherit from the vehicle)
 
 a.  MotorCycle (S)

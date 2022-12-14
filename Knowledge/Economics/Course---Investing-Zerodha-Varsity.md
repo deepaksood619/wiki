@@ -35,27 +35,28 @@ Personal finance is an essential aspect of your life because it can help you mee
 A series of articles on the psychology of trading, that will guide you mend your thought and prepare you psychologically to become a novice trader.
 
 ## Derivative
--   Forward
--   Futures
--   Options
--   Swaps
 
+- Forward
+- Futures
+- Options
+- Swaps
 
--   Forwards and Swaps doesn't trade
--   Only Futures and Options are traded on stock market
--   Derivaties are primarily used for Hedging and Speculation
--   Speculation - Earn profit
--   Hedging - Reduce losses
--   Future and options have expiry period
--   Near, Next and Far month expiry periods
--   Last thursday of every month that month future will expire (if thursday is holiday, then it will be wednesday and so on)
+- Forwards and Swaps doesn't trade
+- Only Futures and Options are traded on stock market
+- Derivaties are primarily used for Hedging and Speculation
+- Speculation - Earn profit
+- Hedging - Reduce losses
+- Future and options have expiry period
+- Near, Next and Far month expiry periods
+- Last thursday of every month that month future will expire (if thursday is holiday, then it will be wednesday and so on)
 
 Futures are derivative financial contracts
 
 Obligate the parties to transact an asset at a predetermined future date and price
--   Cash based settlement
--   Delivery based settlement
 
-<https://zerodha.com/varsity
+- Cash based settlement
+- Delivery based settlement
+
+<https://zerodha.com/varsity>
 
 <https://risk.learnapp.co/quiz>

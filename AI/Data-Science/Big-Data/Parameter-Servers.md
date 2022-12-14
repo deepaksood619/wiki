@@ -17,17 +17,19 @@ Modified: 2021-09-28 22:28:30 +0500
 ![image](media/Big-Data_Parameter-Servers-image3.png)
 
 ## Parameter Server
--   A machine learning framework
--   Distributes a model over multiple machines
--   Offers two operations:
-    -   Pull: query parts of the model
-    -   Push: update parts of the model
--   Machine learning update equation
+
+- A machine learning framework
+- Distributes a model over multiple machines
+- Offers two operations:
+  - Pull: query parts of the model
+  - Push: update parts of the model
+- Machine learning update equation
 
 W~i~ <- W~i~ + Δ
--   (Stochastic) gradient descent
--   Collapsed Gibbs sampling for topic modeling
--   Aggregate push updates via addition (+)
+
+- (Stochastic) gradient descent
+- Collapsed Gibbs sampling for topic modeling
+- Aggregate push updates via addition (+)
 
 ![image](media/Big-Data_Parameter-Servers-image4.png)
 
@@ -74,7 +76,8 @@ W~i~ <- W~i~ + Δ
 ![image](media/Big-Data_Parameter-Servers-image23.png)
 
 ## Asynchronous Execution
--   Async lacks theoretical guarantee as distributed environment can have arbitrary delays from networks & stragglers
+
+- Async lacks theoretical guarantee as distributed environment can have arbitrary delays from networks & stragglers
 
 ![image](media/Big-Data_Parameter-Servers-image24.png)
 

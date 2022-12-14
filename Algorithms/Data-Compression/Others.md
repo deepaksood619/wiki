@@ -14,7 +14,7 @@ Zstandard, orzstdas short version, is a fast lossless compression algorithm, tar
 
 <https://github.com/facebook/zstd>
 
-<https://facebook.github.io/zstd
+<https://facebook.github.io/zstd>
 
 ## WebP (for images)
 
@@ -35,10 +35,11 @@ Brotli is a generic-purpose lossless compression algorithm that compresses data 
 Snappy is a compression/decompression library. It does not aim for maximum compression, or compatibility with any other compression library; instead, it aims for very high speeds and reasonable compression. For instance, compared to the fastest mode of zlib, Snappy is an order of magnitude faster for most inputs, but the resulting compressed files are anywhere from 20% to 100% bigger.k
 
 Snappy has the following properties:
--   Fast: Compression speeds at 250 MB/sec and beyond, with no assembler code. See "Performance" below.
--   Stable: Over the last few years, Snappy has compressed and decompressed petabytes of data in Google's production environment. The Snappy bitstream format is stable and will not change between versions.
--   Robust: The Snappy decompressor is designed not to crash in the face of corrupted or malicious input.
--   Free and open source software: Snappy is licensed under a BSD-type license. For more information, see the included COPYING file.
+
+- Fast: Compression speeds at 250 MB/sec and beyond, with no assembler code. See "Performance" below.
+- Stable: Over the last few years, Snappy has compressed and decompressed petabytes of data in Google's production environment. The Snappy bitstream format is stable and will not change between versions.
+- Robust: The Snappy decompressor is designed not to crash in the face of corrupted or malicious input.
+- Free and open source software: Snappy is licensed under a BSD-type license. For more information, see the included COPYING file.
 
 ## Performance
 
@@ -47,9 +48,10 @@ Snappy is intended to be fast. On a single core of a Core i7 processor in 64-bit
 Typical compression ratios (based on the benchmark suite) are about 1.5-1.7x for plain text, about 2-4x for HTML, and of course 1.0x for JPEGs, PNGs and other already-compressed data. Similar numbers for zlib in its fastest mode are 2.6-2.8x, 3-7x and 1.0x, respectively. More sophisticated algorithms are capable of achieving yet higher compression rates, although usually at the expense of speed. Of course, compression ratio will vary significantly with the input.
 
 Although Snappy should be fairly portable, it is primarily optimized for 64-bit x86-compatible processors, and may run slower in other environments. In particular:
--   Snappy uses 64-bit operations in several places to process more data at once than would otherwise be possible.
--   Snappy assumes unaligned 32 and 64-bit loads and stores are cheap. On some platforms, these must be emulated with single-byte loads and stores, which is much slower.
--   Snappy assumes little-endian throughout, and needs to byte-swap data in several places if running on a big-endian platform.
+
+- Snappy uses 64-bit operations in several places to process more data at once than would otherwise be possible.
+- Snappy assumes unaligned 32 and 64-bit loads and stores are cheap. On some platforms, these must be emulated with single-byte loads and stores, which is much slower.
+- Snappy assumes little-endian throughout, and needs to byte-swap data in several places if running on a big-endian platform.
 
 <https://github.com/andrix/python-snappy>
 
@@ -67,7 +69,7 @@ Bitsets, also called bitmaps, are commonly used as fast data structures. Unfortu
 
 Roaring bitmaps are compressed bitmaps which tend to outperform conventional compressed bitmaps such as WAH, EWAH or Concise. In some instances, roaring bitmaps can be hundreds of times faster and they often offer significantly better compression. They can even be faster than uncompressed bitmaps.
 
-<https://roaringbitmap.org
+<https://roaringbitmap.org>
 
 ## Message Pack
 

@@ -7,7 +7,9 @@ Modified: 2020-12-22 15:19:44 +0500
 ---
 
 ## PartiQL
--   You now can use[PartiQL](https://aws.amazon.com/blogs/opensource/announcing-partiql-one-query-language-for-all-your-data/)with[NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)to run SQL-compatible queries on your DynamoDB data. PartiQL makes it easier to interact with DynamoDB, and now you can use PartiQL to query, insert, update, and delete table data by using NoSQL Workbench.
+
+- You now can use[PartiQL](https://aws.amazon.com/blogs/opensource/announcing-partiql-one-query-language-for-all-your-data/)with[NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)to run SQL-compatible queries on your DynamoDB data. PartiQL makes it easier to interact with DynamoDB, and now you can use PartiQL to query, insert, update, and delete table data by using NoSQL Workbench.
+
 ## Amazon DynamoDB Accelerator (DAX)
 
 ## Fully managed in-memory cache for DynamoDB

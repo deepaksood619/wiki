@@ -44,16 +44,17 @@ Dynein service then picks up the job from the inbound queue with a consistent in
 
 Quartz is a[richly featured](http://www.quartz-scheduler.org/documentation/2.4.0-SNAPSHOT/introduction.html#features), open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
 
-<http://www.quartz-scheduler.org
+<http://www.quartz-scheduler.org>
 
 <https://github.com/quartz-scheduler/quartz>
 
 ## Dkron
 
 Dkron is a distributed cron service, easy to setup and fault tolerant with focus in:
--   Easy: Easy to use with a great UI
--   Reliable: Completely fault tolerant
--   High scalable: Able to handle high volumes of scheduled jobs and thousands of nodes
+
+- Easy: Easy to use with a great UI
+- Reliable: Completely fault tolerant
+- High scalable: Able to handle high volumes of scheduled jobs and thousands of nodes
 
 Dkron is written in Go and leverage the power of distributed key-value stores and serf for providing fault tolerance, reliability and scalability while keeping simple and easily installable.
 
@@ -61,13 +62,13 @@ Dkron is inspired by the google whitepaper[Reliable Cron across the Planet](http
 
 <https://github.com/victorcoder/dkron>
 
-<https://dkron.io
+<https://dkron.io>
 
 ## Airflow + Genie on AWS Platform
 
 ![mnamic cluster abstraction. central Con fi 8 tion management Regis ter big dota (Apache Vlorkflow authcging. and to Genie others) Airflow Platfvym admin scheduling Airtlo Data sto rage S3 among Others) then in A Data engineers Jobs Big data pæing platform Aæn EMR ClÆteß ](../../../media/Technologies-Apache-Others-image1.png)
 
-<https://aws.amazon.com/blogs/big-data/orchestrate-big-data-workflows-with-apache-airflow-genie-and-amazon-emr-part-1
+<https://aws.amazon.com/blogs/big-data/orchestrate-big-data-workflows-with-apache-airflow-genie-and-amazon-emr-part-1>
 
 ## Prefect
 
@@ -75,31 +76,32 @@ Prefect is a new workflow management system, designed for modern infrastructure 
 
 <https://github.com/prefecthq/prefect>
 
-<https://www.prefect.io
+<https://www.prefect.io>
 
 ## Netflix Conductor
 
 Conductor is a microservices orchestration engine
 
 We built Conductor to help us orchestrate microservices based process flows at Netflix with the following features:
--   A distributed server ecosystem, which stores workflow state information efficiently.
--   Allow creation of process / business flows in which each individual task can be implemented by the same / different microservices.
--   A JSON DSL based blueprint defines the execution flow.
--   Provide visibility and traceability into these process flows.
--   Simple interface to connect workers, which execute the tasks in workflows.
--   Full operational control over workflows with the ability to pause, resume, restart, retry and terminate.
--   Allow greater reuse of existing microservices providing an easier path for onboarding.
--   User interface to visualize, replay and search the process flows.
--   Ability to scale to millions of concurrently running process flows.
--   Backed by a queuing service abstracted from the clients.
--   Be able to operate on HTTP or other transports e.g. gRPC.
--   Event handlers to control workflows via external actions.
--   Client implementations in Java, Python and other languages.
--   Various configurable properties with sensible defaults to fine tune workflow and task executions like rate limiting, concurrent execution limits etc.
+
+- A distributed server ecosystem, which stores workflow state information efficiently.
+- Allow creation of process / business flows in which each individual task can be implemented by the same / different microservices.
+- A JSON DSL based blueprint defines the execution flow.
+- Provide visibility and traceability into these process flows.
+- Simple interface to connect workers, which execute the tasks in workflows.
+- Full operational control over workflows with the ability to pause, resume, restart, retry and terminate.
+- Allow greater reuse of existing microservices providing an easier path for onboarding.
+- User interface to visualize, replay and search the process flows.
+- Ability to scale to millions of concurrently running process flows.
+- Backed by a queuing service abstracted from the clients.
+- Be able to operate on HTTP or other transports e.g. gRPC.
+- Event handlers to control workflows via external actions.
+- Client implementations in Java, Python and other languages.
+- Various configurable properties with sensible defaults to fine tune workflow and task executions like rate limiting, concurrent execution limits etc.
 
 <https://github.com/Netflix/conductor>
 
-<https://netflix.github.io/conductor
+<https://netflix.github.io/conductor>
 
 ## CronTab-UI
 

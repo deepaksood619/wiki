@@ -8,23 +8,23 @@ Modified: 2020-12-07 23:44:44 +0500
 
 ## Built-in data structures
 
-1.  List
+1. List
 
-2.  Tuples
+2. Tuples
 
     a.  namedtuples
 
-3.  Dictionaries
+3. Dictionaries
 
     a.  defaultdict
 
-4.  Sets
+4. Sets
 
-5.  Queue
+5. Queue
 
     a.  PriorityQueue
 
-6.  Array
+6. Array
 
 An array is a vector containing homogeneous elements i.e. belonging to the same data type. Elements are allocated with contiguous memory locations allowing easy modification, that is, addition, deletion, accessing of elements. In Python, we have to use thearraymodule to declare arrays. If the elements of an array belong to different data types, an exception "Incompatible data types" is thrown.
 
@@ -38,7 +38,7 @@ sample_array **=** array.array('i', [1, 2, 3])
 
 # accessing elements of array
 
-## for** i **in sample_array:
+## for**i**in sample_array
 
 print(i)
 

@@ -7,18 +7,20 @@ Modified: 2022-03-11 12:38:21 +0500
 ---
 
 [4 Most Popular Valuation Metrics That Every Investor Must Know | ET Money](https://www.youtube.com/watch?v=kqNaY3woTeE)
--   **Price to Book Ratio**
--   **Price to Earnings Ratio**
--   **Price to Sales Ratio**
--   **EV to EBITDA**
+
+- **Price to Book Ratio**
+- **Price to Earnings Ratio**
+- **Price to Sales Ratio**
+- **EV to EBITDA**
 
 ![image](media/Market-Terms_Valuation-Metrics-image1.jpeg)
 
 ## Multiple ratios can be combined to choose companies
 
 ## Ex
--   PB Ratio < 2, and PE Ratio < 15
--   EV-to-EBITDA Ratio < 10 and PS Ratio < 5
+
+- PB Ratio < 2, and PE Ratio < 15
+- EV-to-EBITDA Ratio < 10 and PS Ratio < 5
 
 ## EBITDA
 
@@ -39,10 +41,11 @@ P/B Ratio = Current price per share / Book value per share
 Good for low turnover portfolio
 
 Cons
--   Doesn't take intangible assets into account
--   Keeps assets at acquisition value & not at market value
--   Doesn't factor in profits, sales & growth
--   Penalizes good capital allocation decision at times
+
+- Doesn't take intangible assets into account
+- Keeps assets at acquisition value & not at market value
+- Doesn't factor in profits, sales & growth
+- Penalizes good capital allocation decision at times
 
 ## Price to Earnings Ratio (P/E Ratio)
 
@@ -54,35 +57,36 @@ PE Ratio = Current Price Per Share / Earnings Per Share = 200/8 = 25
 
 Earnings per share
 
-1.  Last completed FY earnings (annual report)
+1. Last completed FY earnings (annual report)
 
-2.  12 months training basis (net profit earned last 4 quarters)
+2. 12 months training basis (net profit earned last 4 quarters)
 
-3.  Equity analysts (forward pe ratio)
+3. Equity analysts (forward pe ratio)
 
-4.  Averaging (last 5-6 years of earnings)
+4. Averaging (last 5-6 years of earnings)
 
 Pros
 
-1.  Simple to understand
+1. Simple to understand
 
-2.  Factors in profitability
+2. Factors in profitability
 
-3.  Excellent relative comparision measure
+3. Excellent relative comparision measure
 
 Cons
 
-1.  Potential manipulation of earnings
+1. Potential manipulation of earnings
 
-2.  Can hide company's true worth
+2. Can hide company's true worth
 
-3.  Misleading impression regarding cyclical stocks
+3. Misleading impression regarding cyclical stocks
 
 ## KEY TAKEAWAYS
--   The price-earnings ratio (P/E ratio) relates a company's share price to its earnings per share.
--   A high P/E ratio could mean that a company's stock is over-valued, or else that investors are expecting high growth rates in the future.
--   Companies that have no earnings or that are losing money do not have a P/E ratio since there is nothing to put in the denominator.
--   Two kinds of P/E ratios - forward and trailing P/E -are used in practice
+
+- The price-earnings ratio (P/E ratio) relates a company's share price to its earnings per share.
+- A high P/E ratio could mean that a company's stock is over-valued, or else that investors are expecting high growth rates in the future.
+- Companies that have no earnings or that are losing money do not have a P/E ratio since there is nothing to put in the denominator.
+- Two kinds of P/E ratios - forward and trailing P/E -are used in practice
 
 <https://www.investopedia.com/terms/p/price-earningsratio.asp>
 
@@ -90,14 +94,13 @@ Cons
 
 The price/earnings to growth ratio (PEG ratio) isa stock's price-to-earnings (P/E) ratio divided by the growth rate of its earnings for a specified time period.
 
-
--   The PEG ratio enhances the P/E ratio by adding in expected earnings growth into the calculation.
--   The PEG ratio is considered to be an indicator of a stock's true value, and similar to the P/E ratio, a lower PEG may indicate that a stock is undervalued.
--   The PEG for a given company may differ significantly from one reported source to another, depending on which growth estimate is used in the calculation, such as one-year or three-year projected growth.
+- The PEG ratio enhances the P/E ratio by adding in expected earnings growth into the calculation.
+- The PEG ratio is considered to be an indicator of a stock's true value, and similar to the P/E ratio, a lower PEG may indicate that a stock is undervalued.
+- The PEG for a given company may differ significantly from one reported source to another, depending on which growth estimate is used in the calculation, such as one-year or three-year projected growth.
 
 <https://www.investopedia.com/terms/p/pegratio.asp>
 
-<https://www.investopedia.com/investing/use-pe-ratio-and-peg-to-tell-stocks-future
+<https://www.investopedia.com/investing/use-pe-ratio-and-peg-to-tell-stocks-future>
 
 ## Price to Sales Ratio (PS Ratio)
 
@@ -105,20 +108,20 @@ PS Ratio = Current Market Capitalization / Total Revenue (Sales)
 
 Total Revenue (Sales)
 
-1.  Last financial year sales
+1. Last financial year sales
 
-2.  Trailing 12 months sales
+2. Trailing 12 months sales
 
-3.  Forward 12 months (projected sales)
+3. Forward 12 months (projected sales)
 
-4.  Average sales (last 5 years)
+4. Average sales (last 5 years)
 
-
--   Comes in handy when examining companies in cyclical industries
--   PS Ratio is not as subjective to manipulation as PE ratio
+- Comes in handy when examining companies in cyclical industries
+- PS Ratio is not as subjective to manipulation as PE ratio
 
 ## Cons
--   Does not consider debt
+
+- Does not consider debt
 
 ## EV to EBITDA Ratio
 
@@ -127,12 +130,14 @@ Total Revenue (Sales)
 ## EV = Market Capitalization + Debt - Cash
 
 ## Pros
--   Incorporates company's capital structure in its entirely
--   Uses the operating profits
--   Best long-term performing metric
+
+- Incorporates company's capital structure in its entirely
+- Uses the operating profits
+- Best long-term performing metric
 
 ## Cons
--   Ignores depreciation
+
+- Ignores depreciation
 
 ![](media/Market-Terms_Valuation-Metrics-image1.jpeg)
 

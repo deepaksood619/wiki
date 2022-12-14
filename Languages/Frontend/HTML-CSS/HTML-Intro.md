@@ -21,26 +21,28 @@ xhtml (w3c)
 Semantic markup (Device Agnostic)
 
 ## Display Types
--   Block level elements (ex - <p>)
--   Inline level elements (ex - <a href="">) (cannot have width, height)
--   Inline-Block (can have width, height but sits inline) (Images, buttons - default behaviour)
--   Display Table
--   Display None
+
+- Block level elements (ex - <p>)
+- Inline level elements (ex - <a href="">) (cannot have width, height)
+- Inline-Block (can have width, height but sits inline) (Images, buttons - default behaviour)
+- Display Table
+- Display None
 
 ## Media Types - audio, video
--   HTML5 Graphics - Canvas and SVG
--   Boxify (converting the whole image in sections of box)
--   WebStorage api replace javascript cookies
--   AppCache (Application Cache) Cache api (Cache Manifest file)
--   WebWorker api
--   Geolocation api
--   File api (interacts with local files on the user's device) - FileReader, FileWriter, FileSystem
+
+- HTML5 Graphics - Canvas and SVG
+- Boxify (converting the whole image in sections of box)
+- WebStorage api replace javascript cookies
+- AppCache (Application Cache) Cache api (Cache Manifest file)
+- WebWorker api
+- Geolocation api
+- File api (interacts with local files on the user's device) - FileReader, FileWriter, FileSystem
 
 ## SVG
 
 <https://www.toptal.com/css/svg-animation-css-tutorial>
 
-<https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images
+<https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images>
 
 ## Add page break for print
 
@@ -66,7 +68,7 @@ Web Workers Api - Dedicated, shared
 
 ## Tools
 
-Emmet - Write html faster - <https://emmet.io (Avabilable in vs code as extension)
+Emmet - Write html faster - <https://emmet.io> (Avabilable in vs code as extension)
 
 <https://github.com/h5bp/html5-boilerplate>
 

@@ -68,15 +68,15 @@ Jetpack
 
 ## Features -
 
-1.  Object Oriented Programming
+1. Object Oriented Programming
 
-2.  Platform Independent
+2. Platform Independent
 
-3.  Robust
+3. Robust
 
-4.  Interpreted
+4. Interpreted
 
-5.  Multi-threaded
+5. Multi-threaded
 
 ## Why is Java Architectural Neutral?
 
@@ -225,9 +225,10 @@ The finally keyword is used to create a block of code that follows a try block. 
 ## What things should be kept in mind while creating your own exceptions in Java?
 
 While creating your own exception −
--   All exceptions must be a child of Throwable.
--   If you want to write a checked exception that is automatically enforced by the Handle or Declare Rule, you need to extend the Exception class.
--   You want to write a runtime exception, you need to extend the RuntimeException class.
+
+- All exceptions must be a child of Throwable.
+- If you want to write a checked exception that is automatically enforced by the Handle or Declare Rule, you need to extend the Exception class.
+- You want to write a runtime exception, you need to extend the RuntimeException class.
 
 ## Define Inheritance?
 
@@ -269,11 +270,11 @@ An interface is a collection of abstract methods. A class implements an interfac
 
 It includes −
 
-1.  Interface cannot be instantiated
+1. Interface cannot be instantiated
 
-2.  An interface does not contain any constructors.
+2. An interface does not contain any constructors.
 
-3.  All of the methods in an interface are abstract.
+3. All of the methods in an interface are abstract.
 
 ## Define Packages in Java?
 
@@ -326,8 +327,9 @@ It is used to sort collections and arrays of objects using the collections.sort(
 ## Difference between throw and throws?
 
 It includes:
--   Throw is used to trigger an exception where as throws is used in declaration of exception.
--   Without throws, Checked exception cannot be handled where as checked exception can be propagated with throws.
+
+- Throw is used to trigger an exception where as throws is used in declaration of exception.
+- Without throws, Checked exception cannot be handled where as checked exception can be propagated with throws.
 
 ## Explain the following line used under Java Program −
 
@@ -335,15 +337,15 @@ public static void main (String args[ ])
 
 The following shows the explanation individually −
 
-1.  public − it is the access specifier.
+1. public − it is the access specifier.
 
-2.  static − it allows main() to be called without instantiating a particular instance of a class.
+2. static − it allows main() to be called without instantiating a particular instance of a class.
 
-3.  void − it affirns the compiler that no value is returned by main().
+3. void − it affirns the compiler that no value is returned by main().
 
-4.  main() − this method is called at the beginning of a Java program.
+4. main() − this method is called at the beginning of a Java program.
 
-5.  String args[ ] − args parameter is an instance array of class String
+5. String args[ ] − args parameter is an instance array of class String
 
 ## Define JRE i.e. Java Runtime Environment?
 
@@ -665,15 +667,15 @@ Type casting means treating a variable of one type as though it is another type.
 
 A thread is a execution in a program. The life cycle of a thread include −
 
-1.  Newborn state
+1. Newborn state
 
-2.  Runnable state
+2. Runnable state
 
-3.  Running state
+3. Running state
 
-4.  Blocked state
+4. Blocked state
 
-5.  Dead state
+5. Dead state
 
 ## What is the difference between the >> and >>> operators?
 
@@ -731,15 +733,15 @@ The main thread is created automatically and it begins to execute immediately wh
 
 Life cycle involves the following steps −
 
-1.  Initialization
+1. Initialization
 
-2.  Starting
+2. Starting
 
-3.  Stopping
+3. Stopping
 
-4.  Destroying
+4. Destroying
 
-5.  Painting
+5. Painting
 
 ## Why is the role of init() method under applets?
 
@@ -896,7 +898,5 @@ When an exception is thrown within the body of a try statement, the catch clause
 ## What will be the default values of all the elements of an array defined as an instance variable?
 
 If the array is an array of primitive types, then all the elements of the array will be initialized to the default value corresponding to that primitive type.
-
-
 
 <https://www.toptal.com/core-java/interview-questions>

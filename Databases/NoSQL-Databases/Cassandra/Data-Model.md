@@ -5,14 +5,17 @@ Created: 2019-12-27 19:18:38 +0500
 Modified: 2020-01-07 22:00:50 +0500
 
 ---
--   **Partition Key**
--   **Clustering Key**
+
+- **Partition Key**
+- **Clustering Key**
+
 ## Querying Clustering Columns
--   You must first provide a partition key
--   Clustering columns can follow thereafter
--   You can perform either equality (=) or range queries (<, >) on clustering columns
--   All equality comparisions must come before inequality comparisions
--   Since data is sorted on disk, range searches are a binary search followed by a linear read
+
+- You must first provide a partition key
+- Clustering columns can follow thereafter
+- You can perform either equality (=) or range queries (<, >) on clustering columns
+- All equality comparisions must come before inequality comparisions
+- Since data is sorted on disk, range searches are a binary search followed by a linear read
 ![image](media/Cassandra_Data-Model-image1.png)
 
 ![image](media/Cassandra_Data-Model-image2.png)
@@ -22,6 +25,7 @@ Modified: 2020-01-07 22:00:50 +0500
 ![image](media/Cassandra_Data-Model-image4.png)
 
 ![image](media/Cassandra_Data-Model-image5.png)
+
 ## Bucketing
 
 Bucketing is a strategy that lets us control how much data is stored in each partition as well as spread writes out to the entire cluster.

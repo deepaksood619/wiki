@@ -11,31 +11,33 @@ Modified: 2021-03-12 23:29:17 +0500
 The Apache TEZ® project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data. It is currently built atop[Apache Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
 
 The 2 main design themes for Tez are:
--   **Empowering end users by:**
-    -   Expressive dataflow definition APIs
-    -   Flexible Input-Processor-Output runtime model
-    -   Data type agnostic
-    -   Simplifying deployment
--   **Execution Performance**
-    -   Performance gains over Map Reduce
-    -   Optimal resource management
-    -   Plan reconfiguration at runtime
-    -   Dynamic physical data flow decisions
+
+- **Empowering end users by:**
+  - Expressive dataflow definition APIs
+  - Flexible Input-Processor-Output runtime model
+  - Data type agnostic
+  - Simplifying deployment
+- **Execution Performance**
+  - Performance gains over Map Reduce
+  - Optimal resource management
+  - Plan reconfiguration at runtime
+  - Dynamic physical data flow decisions
 
 ## References
 
-<http://tez.apache.org
+<http://tez.apache.org>
 
 # Apache Spark
 
-## Apache Sparkis an[open-source](https://en.wikipedia.org/wiki/Open-source_software)distributed general-purpose[cluster-computing](https://en.wikipedia.org/wiki/Cluster_computing)[framework](https://en.wikipedia.org/wiki/Software_framework). Spark provides an[interface](https://en.wikipedia.org/wiki/Application_programming_interface)for programming entire clusters with implicit[data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)and[fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance).
+## Apache Sparkis an[open-source](https://en.wikipedia.org/wiki/Open-source_software)distributed general-purpose[cluster-computing](https://en.wikipedia.org/wiki/Cluster_computing)[framework](https://en.wikipedia.org/wiki/Software_framework). Spark provides an[interface](https://en.wikipedia.org/wiki/Application_programming_interface)for programming entire clusters with implicit[data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)and[fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance)
 
 ## Features
--   Scatter/gather paradigm (similar to MapReduce)
--   More general data model (RDDs, DataSets)
--   More general programming model (transform/action)
--   Storage agnostic
--   Faster version of MapReduce(does all the mapreduce in-memory)
+
+- Scatter/gather paradigm (similar to MapReduce)
+- More general data model (RDDs, DataSets)
+- More general programming model (transform/action)
+- Storage agnostic
+- Faster version of MapReduce(does all the mapreduce in-memory)
 
 ## References
 
@@ -46,14 +48,15 @@ The 2 main design themes for Tez are:
 Modern, enterprise-ready business intelligence web application
 
 ## Features
--   A rich set of data visualizations
--   An easy-to-use interface for exploring and visualizing data
--   Create and share dashboards
--   Enterprise-ready authentication with integration with major authentication providers (database, OpenID, LDAP, OAuth & REMOTE_USER through Flask AppBuilder)
--   An extensible, high-granularity security/permission model allowing intricate rules on who can access individual features and the dataset
--   A simple semantic layer, allowing users to control how data sources are displayed in the UI by defining which fields should show up in which drop-down and which aggregation and function metrics are made available to the user
--   Integration with most SQL-speaking RDBMS through SQLAlchemy
--   Deep integration with Druid.io
+
+- A rich set of data visualizations
+- An easy-to-use interface for exploring and visualizing data
+- Create and share dashboards
+- Enterprise-ready authentication with integration with major authentication providers (database, OpenID, LDAP, OAuth & REMOTE_USER through Flask AppBuilder)
+- An extensible, high-granularity security/permission model allowing intricate rules on who can access individual features and the dataset
+- A simple semantic layer, allowing users to control how data sources are displayed in the UI by defining which fields should show up in which drop-down and which aggregation and function metrics are made available to the user
+- Integration with most SQL-speaking RDBMS through SQLAlchemy
+- Deep integration with Druid.io
 
 ## References
 
@@ -75,7 +78,7 @@ Storm integrates with the queueing and database technologies you already use. A 
 
 ## References
 
-<http://storm.apache.org
+<http://storm.apache.org>
 
 # Apache Flink- Stateful Computations over Data Streams
 
@@ -97,4 +100,4 @@ The OpenWhisk platform supports a programming model in which developers write fu
 
 ![OpenWhisk Architecture](../../media/Technologies-Apache-Others-image2.png)
 
-<https://openwhisk.apache.org
+<https://openwhisk.apache.org>

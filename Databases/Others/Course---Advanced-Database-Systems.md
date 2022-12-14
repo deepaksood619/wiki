@@ -6,23 +6,23 @@ Modified: 2020-04-26 00:23:08 +0500
 
 ---
 
-1.  Course Introduction and History of Databases
+1. Course Introduction and History of Databases
 
-2.  In-Memory Databases
+2. In-Memory Databases
 
-3.  Multi-Version Concurrency Control (Design Decisions)
+3. Multi-Version Concurrency Control (Design Decisions)
 
-4.  Multi-Version Concurrency Control (Protocols)
+4. Multi-Version Concurrency Control (Protocols)
 
-5.  Multi-Version Concurrency Control (Garbage Collection)
+5. Multi-Version Concurrency Control (Garbage Collection)
 
-6.  OLTP Indexes (B+Tree Data Structures)
+6. OLTP Indexes (B+Tree Data Structures)
 
-7.  OLTP Indexes (Trie Data Structures)
+7. OLTP Indexes (Trie Data Structures)
 
-8.  Storage Models, Data Layout, & System Catalogs
+8. Storage Models, Data Layout, & System Catalogs
 
-9.  Database Compression
+9. Database Compression
 
 10. Recovery Protocols
 
@@ -55,6 +55,7 @@ Modified: 2020-04-26 00:23:08 +0500
 24. Server-side Logic Execution
 
 25. Databases on New Hardware
+
 ## Query Optimizer
 
 Building a really good query optimizer and query execution system in a distributed database system is hard. It requires a number of sophisticated components including statistics, cardinality estimation, plan space search, the right storage structures, fast query execution operators, intelligent shuffle, both broadcast and point-to-point data transmission, and more.

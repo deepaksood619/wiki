@@ -60,7 +60,7 @@ kubectl create sa myuser
 
 kubectl create job pi --image=perl -- perl -Mbignum=bpi -wle 'print bpi(2000)'
 
-kubectl create cronjob busybox --image=busybox --schedule="*/1 * * * *" -- /bin/sh -c 'date; echo Hello from the Kubernetes cluster'
+kubectl create cronjob busybox --image=busybox --schedule="*/1* ** *" -- /bin/sh -c 'date; echo Hello from the Kubernetes cluster'
 
 kubectl expose deploy foo --port=6262 --target-port=8080
 
@@ -140,21 +140,22 @@ wget -O- <http://10.1.0.89:8080>
 
 ## Debugging
 
-## exit code=137means that either (1) something killed the container that hosted the TE or (2) something killed the process with SIGKILL (kill -9) (We can figure that out by taking theexit codeand deduct 128 from it to get the actual signal number, i.e.137-128=9).
+## exit code=137means that either (1) something killed the container that hosted the TE or (2) something killed the process with SIGKILL (kill -9) (We can figure that out by taking theexit codeand deduct 128 from it to get the actual signal number, i.e.137-128=9)
 
 ## Commands
 
 ## kubectl [command] [TYPE] [NAME] [flags]
--   **command**: Specifies the operation that you want to perform on one or more resources, for example**create**,**get**,**describe**,**delete**.
--   **TYPE**: Specifies the[resource type](https://kubernetes.io/docs/reference/kubectl/overview/#resource-types). Resource types are case-insensitive and you can specify the singular, plural, or abbreviated forms.
 
--   **NAME**: Specifies the name of the resource. Names are case-sensitive. If the name is omitted, details for all resources are displayed, for example**$ kubectl get pods**.
+- **command**: Specifies the operation that you want to perform on one or more resources, for example**create**,**get**,**describe**,**delete**.
+- **TYPE**: Specifies the[resource type](https://kubernetes.io/docs/reference/kubectl/overview/#resource-types). Resource types are case-insensitive and you can specify the singular, plural, or abbreviated forms.
 
--   **flags**: Specifies optional flags. For example, you can use the**-s**or**--server**flags to specify the address and port of the Kubernetes API server.
+- **NAME**: Specifies the name of the resource. Names are case-sensitive. If the name is omitted, details for all resources are displayed, for example**$ kubectl get pods**.
 
-## Basic Commands (Beginner):
+- **flags**: Specifies optional flags. For example, you can use the**-s**or**--server**flags to specify the address and port of the Kubernetes API server.
 
-## create Create a resource from a file or from stdin.
+## Basic Commands (Beginner)
+
+## create Create a resource from a file or from stdin
 
 Imperative management of kubernetes objects using configuration files
 
@@ -170,11 +171,11 @@ kubectl create secret tls example-com-tls --cert=tls.crt --key=tls.key
 
 kubectl create secret tls ca-key-pair --key=ca.key --cert=ca.crt
 
-# Create a pod based on the JSON passed into stdin.
+# Create a pod based on the JSON passed into stdin
 
 cat pod.json | kubectl create -f -
 
-# Edit the data in docker-registry.yaml in JSON then create the resource using the edited data.
+# Edit the data in docker-registry.yaml in JSON then create the resource using the edited data
 
 kubectl create -f docker-registry.yaml --edit -o json
 
@@ -224,7 +225,7 @@ set Set specific features on objects
 
 run-container Run a particular image on the cluster. This command is deprecated, use "run" instead
 
-## Basic Commands (Intermediate):
+## Basic Commands (Intermediate)
 
 ## get Display one or many resources
 
@@ -276,7 +277,7 @@ kubectl delete deployment hello-python
 
 kubectl delete daemonsets,replicasets,services,deployments,pods,rc,pvc,cm --all
 
-## Deploy Commands:
+## Deploy Commands
 
 ## rollout Manage the rollout of a resource
 
@@ -296,29 +297,29 @@ kubectl scale --replicas=10 deployment/kub-log
 
 kubectl autoscale deployment foo --min=2 --max=10 --cpu-percent=70
 
-#Autoscale pod foo with a minimum of 2 and maximum of 10 replicas when CPU utilization is equal to or greater than 70%
+# Autoscale pod foo with a minimum of 2 and maximum of 10 replicas when CPU utilization is equal to or greater than 70%
 
-## Cluster Management Commands:
+## Cluster Management Commands
 
 certificate Modify certificate resources.
 
 ## *cluster-info* Display cluster info
 
-## top Display Resource (CPU/Memory/Storage) usage.
+## top Display Resource (CPU/Memory/Storage) usage
 
 kubectl top node
 
 kubectl top pod
 
-## cordon Mark node as unschedulable. Used for maintenance of cluster.
+## cordon Mark node as unschedulable. Used for maintenance of cluster
 
-## uncordon Mark node as schedulable. Used after maintenance.
+## uncordon Mark node as schedulable. Used after maintenance
 
-## drain Drain node. Removes pods from node via graceful termination for maintenance.
+## drain Drain node. Removes pods from node via graceful termination for maintenance
 
 kubectl drain aks-agentpool-10140213-9 --ignore-daemonsets
 
-## taint Update the taints on one or more nodes. Taint a node so they can only run dedicated workloads or certain pods that need specialized hardware.
+## taint Update the taints on one or more nodes. Taint a node so they can only run dedicated workloads or certain pods that need specialized hardware
 
 kubectl taint nodes aks-agentpool-10140213-9 node=historical:NoSchedule
 
@@ -331,12 +332,13 @@ kubectl taint nodes --overwrite aks-agentpool-10140213-0 node=zenalytix-0:NoSche
 kubectl taint nodes aks-agentpool-10140213-9 node=NoSchedule-
 
 **tolerations:
+
 - key: "key"
 operator: "Equal"
 value: "value"
 effect: "NoSchedule"**
 
-## Troubleshooting and Debugging Commands:
+## Troubleshooting and Debugging Commands
 
 ## *describe* Show details of a specific resource or group of resources
 
@@ -378,7 +380,7 @@ kubectl exec -it druid-republisher-fd8bb77bd-zgjf7 -- /bin/bash
 
 kubectl exec -n kafka -it my-kafka-connect-cp-kafka-connect-5ff6d9758d-gjk22 -c cp-kafka-connect-server -- /bin/bash
 
-kubectl exec zenalytix-0 cfurl <http://10.8.0.1:9101
+kubectl exec zenalytix-0 cfurl <http://10.8.0.1:9101>
 
 ## port-forward Forward one or more local ports to a pod
 
@@ -416,7 +418,7 @@ kubectl cp <some-namespace>/<some-pod>:/tmp/foo/tmp/bar
 
 auth Inspect authorization
 
-## Advanced Commands:
+## Advanced Commands
 
 ## apply Apply a configuration to a resource by filename or stdin
 
@@ -436,7 +438,7 @@ replace Replace a resource by filename or stdin
 
 convert Convert config files between different API versions
 
-## Settings Commands:
+## Settings Commands
 
 ## *label* Update the labels on a resource
 
@@ -452,7 +454,7 @@ annotate Update the annotations on a resource
 
 completion Output shell completion code for the specified shell (bash or zsh)
 
-## Other Commands:
+## Other Commands
 
 ## api-resources Print all api-resources available in the cluster
 
@@ -484,7 +486,7 @@ authorization.k8s.io/v1beta1
 
 autoscaling/v1
 
-## autoscaling/v1 allows pods to be autoscaled based on different resource usage metrics.
+## autoscaling/v1 allows pods to be autoscaled based on different resource usage metrics
 
 autoscaling/v2beta1
 
@@ -595,14 +597,13 @@ plugin Runs a command-line plugin
 
 ## options
 
-## Usage:
+## Usage
 
 kubectl [flags] [options]
 
-
--   kubectl apply -f service.yaml
--   kubectl edit deployment <container_name>
--   kubectl history deployment <container_name>
+- kubectl apply -f service.yaml
+- kubectl edit deployment <container_name>
+- kubectl history deployment <container_name>
 
 ## Commands
 
@@ -612,7 +613,7 @@ kubectl get secret --namespace default eager-otter-grafana -o jsonpath="{.data.a
 
 Adding Secrets for pulling images from private registry
 
-<https://container-solutions.com/using-google-container-registry-with-kubernetes
+<https://container-solutions.com/using-google-container-registry-with-kubernetes>
 
 kubectl create secret docker-registry gcr-json-key --docker-server=gcr.io --docker-username=_json_key --docker-password="$(cat ~/json-key-file.json)" --docker-email=deepak.sood@zenatix.com
 
@@ -648,7 +649,7 @@ kubectl apply -f <https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1
 
 kubectl proxy
 
-<https://github.com/kubernetes/dashboard
+<https://github.com/kubernetes/dashboard>
 
 Get bearer token
 
@@ -658,7 +659,7 @@ eyJhbGciOiJSUzI1NiIsImtpZCI6IiJ9.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiw
 
 ## Kubernetes dashboard
 
-<http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy
+<http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy>
 
 ## Decoding a Secret
 
@@ -830,8 +831,8 @@ print(f'requested_cpu: {total_cpu} nrequested_ram: {total_ram}')
 
 <https://rominirani.com/tutorial-getting-started-with-kubernetes-with-docker-on-mac-7f58467203fd>
 
-<https://kubernetes.io/docs/reference/kubectl/cheatsheet
+<https://kubernetes.io/docs/reference/kubectl/cheatsheet>
 
-<https://kubernetes.io/docs/reference/kubectl/overview
+<https://kubernetes.io/docs/reference/kubectl/overview>
 
 <https://github.com/dgkanatsios/CKAD-exercises>

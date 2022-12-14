@@ -32,6 +32,6 @@ A trait definition looks just like a class definition except that it uses the ke
 
 <https://www.tutorialspoint.com/scala/scala_overview.htm>
 
-<https://www.scala-lang.org
+<https://www.scala-lang.org>
 
 <https://www.toptal.com/scala/macros-quasiquotes-reduce-boilerplate>

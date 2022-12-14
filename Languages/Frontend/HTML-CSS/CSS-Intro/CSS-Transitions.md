@@ -24,7 +24,7 @@ transition-duration: duration;
 transition-timing-function: timing-function;
 transition-delay: delay
 
-/* The transition property is the shorthand for the above four properties */
+/*The transition property is the shorthand for the above four properties*/
 transition: property duration timing-function delay;
 }
 
@@ -40,7 +40,7 @@ transition-delay refers to how long you want to wait before starting the duratio
 
 You can trigger CSS transitions directly with pseudo classes like :hover (activates when mouse goes over an element), :focus (activates when a user tabs onto an element, or when a user clicks into an input element), or :active (activates when user clicks on the element).
 
-/* creating transitions directly in CSS */
+/*creating transitions directly in CSS*/
 .button {
 background-color: #33ae74;
 transition: background-color 0.5s ease-out;
@@ -70,7 +70,7 @@ The transition-timing-function governs how a transition occurs. All transitions 
 .selector {
 transition: transform 1s linear;
 
-/* OR */
+/*OR*/
 transition-property: transform;
 transition-duration: 1s;
 transition-timing-function: linear;
@@ -130,7 +130,7 @@ You can do the same with duration, timing-functions and delays as well. If the v
 transition: background-color 1s ease-out,
 color 1s ease-out;
 
-/* OR */
+/*OR*/
 transition-property: background, color;
 transition-duration: 1s;
 transition-timing-function: ease-out;
@@ -138,12 +138,12 @@ transition-timing-function: ease-out;
 
 You may be tempted to transition every CSS property with all. Don't ever do this. This is bad for performance. Always specify the property you're trying to transition.
 
-/* DON'T EVER DO THIS */
+/*DON'T EVER DO THIS*/
 .selector {
 transition-property: all
 }
 
-/* ALWAYS DO THIS */
+/*ALWAYS DO THIS*/
 .selector {
 transition-property: background-color, color, transform;
 }
@@ -178,4 +178,4 @@ To create a transition, you overwrite a property in a class (or psuedo class), a
 
 Remember to change your transition-timing-function so your animation looks more real!
 
-<https://zellwk.com/blog/css-transitions
+<https://zellwk.com/blog/css-transitions>

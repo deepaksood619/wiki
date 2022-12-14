@@ -26,11 +26,11 @@ $ pip install gunicorn[gevent] # Or, using extra
 
 in order of least to most authoritative:
 
-1.  Framework Settings
+1. Framework Settings
 
-2.  Configuration File
+2. Configuration File
 
-3.  Command Line
+3. Command Line
 
 ## Commands
 
@@ -47,11 +47,12 @@ gunicorn app:app -b 0.0.0.0:5000 --workers 16 -k gevent --timeout 300 --worker-c
 <https://github.com/benoitc/gunicorn/blob/master/examples/example_config.py>
 
 ## Enhancements
--   use/dev/shminstead of/tmp
--   start at least two workers, and probably also start a number of threads using
--   thegthreadworker backend when running in a container
--   gunicorn --log-file=- ...
--   you don't always need nginx or another proxy in front Gunicorn
+
+- use/dev/shminstead of/tmp
+- start at least two workers, and probably also start a number of threads using
+- thegthreadworker backend when running in a container
+- gunicorn --log-file=- ...
+- you don't always need nginx or another proxy in front Gunicorn
 
 Gunicorn should only need 4-12 worker processes to handle hundreds or thousands of requests per second.
 
@@ -67,23 +68,22 @@ By silent, we mean silent from the perspective of the arbiter process, which com
 
 Gunicorn's main process starts one or more worker processes, and restarts them if they die. To ensure the workers are still alive, Gunicorn has a heartbeat system---which works by using a file on the filesystem. Gunicorn therefore recommends that this file be stored in a memory-only part of the filesystem.
 
+- Gunicorn starts a single master process that gets forked, and the resulting child processes are the workers.
+- The role of the master process is to make sure that the number of workers is the same as the ones defined in the settings. So if any of the workers die, the master process starts another one, by forking itself again.
+- The role of the workers is to handle HTTP requests.
+- Thepreinpre-forkedmeans that the master process creates the workers before handling any HTTP request.
+- The OS kernel handles load balancing between worker processes.
 
--   Gunicorn starts a single master process that gets forked, and the resulting child processes are the workers.
--   The role of the master process is to make sure that the number of workers is the same as the ones defined in the settings. So if any of the workers die, the master process starts another one, by forking itself again.
--   The role of the workers is to handle HTTP requests.
--   Thepreinpre-forkedmeans that the master process creates the workers before handling any HTTP request.
--   The OS kernel handles load balancing between worker processes.
-
-<https://pythonspeed.com/articles/gunicorn-in-docker
+<https://pythonspeed.com/articles/gunicorn-in-docker>
 
 ## Setting up workers
 
-1.  If the application is[I/O bounded](https://en.wikipedia.org/wiki/I/O_bound), the best performance usually comes from using "pseudo-threads" (gevent or asyncio). As we have seen, Gunicorn supports this programming paradigm by setting the appropriateworker classand adjusting the value ofworkersto(2*CPU)+1.
+1. If the application is[I/O bounded](https://en.wikipedia.org/wiki/I/O_bound), the best performance usually comes from using "pseudo-threads" (gevent or asyncio). As we have seen, Gunicorn supports this programming paradigm by setting the appropriateworker classand adjusting the value ofworkersto(2*CPU)+1.
 
-2.  If the application is[CPU bounded](https://en.wikipedia.org/wiki/CPU-bound), it doesn't matter how many concurrent requests are handled by the application. The only thing that matters is the number of parallel requests. Due to[Python's GIL](https://wiki.python.org/moin/GlobalInterpreterLock), threads and "pseudo-threads" cannot run in parallel. The only way to achieve parallelism is to increaseworkersto the suggested(2*CPU)+1, understanding that the maximum number of parallel requests is the number of cores.
+2. If the application is[CPU bounded](https://en.wikipedia.org/wiki/CPU-bound), it doesn't matter how many concurrent requests are handled by the application. The only thing that matters is the number of parallel requests. Due to[Python's GIL](https://wiki.python.org/moin/GlobalInterpreterLock), threads and "pseudo-threads" cannot run in parallel. The only way to achieve parallelism is to increaseworkersto the suggested(2*CPU)+1, understanding that the maximum number of parallel requests is the number of cores.
 
-3.  If there is a concern about the application[memory footprint](https://en.wikipedia.org/wiki/Memory_footprint), usingthreadsand its correspondinggthread worker classin favor ofworkersyields better performance because the application is loaded once per worker and every thread running on the worker shares some memory, this comes to the expense of some additional CPU consumption.
+3. If there is a concern about the application[memory footprint](https://en.wikipedia.org/wiki/Memory_footprint), usingthreadsand its correspondinggthread worker classin favor ofworkersyields better performance because the application is loaded once per worker and every thread running on the worker shares some memory, this comes to the expense of some additional CPU consumption.
 
-4.  If you don't know you are doing, start with the simplest configuration, which is only settingworkersto(2*CPU)+1and don't worry aboutthreads. From that point, it's all trial and error with benchmarking. If the bottleneck is memory, start introducing threads. If the bottleneck is I/O, consider a different python programming paradigm. If the bottleneck is CPU, consider using more cores and adjusting theworkersvalue.
+4. If you don't know you are doing, start with the simplest configuration, which is only settingworkersto(2*CPU)+1and don't worry aboutthreads. From that point, it's all trial and error with benchmarking. If the bottleneck is memory, start introducing threads. If the bottleneck is I/O, consider a different python programming paradigm. If the bottleneck is CPU, consider using more cores and adjusting theworkersvalue.
 
 <https://medium.com/building-the-system/gunicorn-3-means-of-concurrency-efbb547674b7>

@@ -7,8 +7,9 @@ Modified: 2018-06-02 14:30:11 +0500
 ---
 
 ## Proporties
--   Linear time algorithm for sorting
--   Stable
+
+- Linear time algorithm for sorting
+- Stable
 
 ## Key-Indexed Counting
 
@@ -17,10 +18,11 @@ Assumption - Keys are integers between 0 and R-1
 Implication - Can use key as an array index
 
 Applications
--   Sort string by first letter.
--   Sort class roster by section.
--   Sort phone numbers by area code.
--   Subroutine in a sorting algorithm.
+
+- Sort string by first letter.
+- Sort class roster by section.
+- Sort phone numbers by area code.
+- Subroutine in a sorting algorithm.
 
 Remarks - Keys may have associated data => can't just count up number of keys of each value (because we have to transfer the data as well)
 

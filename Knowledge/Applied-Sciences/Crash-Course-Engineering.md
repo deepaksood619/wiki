@@ -6,23 +6,23 @@ Modified: 2019-06-15 22:14:10 +0500
 
 ---
 
-1.  What is engineering
+1. What is engineering
 
-2.  Civil engineering
+2. Civil engineering
 
-3.  Mechanical engineering
+3. Mechanical engineering
 
-4.  The history of electrical engineering
+4. The history of electrical engineering
 
-5.  The history of chemical engineering
+5. The history of chemical engineering
 
-6.  Biomedical engineering
+6. Biomedical engineering
 
-7.  The law of conservation
+7. The law of conservation
 
-8.  Reversibility & Irreversibility
+8. Reversibility & Irreversibility
 
-9.  The first & zeroth laws of thermodynamics
+9. The first & zeroth laws of thermodynamics
 
 10. Why we can't invent a perfect engine
 
@@ -92,18 +92,18 @@ Modified: 2019-06-15 22:14:10 +0500
 
 The word engineering itself comes from the latin *Ingenium*, meaning **cleverness** and *ingeniare,* meaning **to design or devise.**
 
-1.  Military Engineering
+1. Military Engineering
 
 For war machines
 
-2.  **Civil Engineering**
+2. **Civil Engineering**
 
 Solve civilian problems
 
-3.  **Mechanical Engineering**
+3. **Mechanical Engineering**
 
-4.  **Electrical Engineering**
+4. **Electrical Engineering**
 
-5.  **Chemical Engineering**
+5. **Chemical Engineering**
 
-6.  Industrial Engineering
+6. Industrial Engineering

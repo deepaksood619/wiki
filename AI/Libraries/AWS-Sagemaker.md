@@ -15,11 +15,12 @@ Amazon SageMaker is a fully managed service that provides every developer and da
 Traditional ML development is a complex, expensive, iterative process made even harder because there are no integrated tools for the entire machine learning workflow. You need to stitch together tools and workflows, which is time-consuming and error-prone. SageMaker solves this challenge by providing all of the components used for machine learning in a single toolset so models get to production faster with much less effort and at lower cost.
 
 Many ways to train models on Sagemaker
--   Built-in Algorithms
--   Script Mode
--   Docker container
--   AWS ML Marketplace
--   Notebook instance
+
+- Built-in Algorithms
+- Script Mode
+- Docker container
+- AWS ML Marketplace
+- Notebook instance
 
 ![media](media/AWS-Sagemaker-image2.jpeg)
 
@@ -72,17 +73,19 @@ Optimize custom models for edge devices, create and manage fleets and run models
 High-quality training datasets by using workers along with machine learning to create labeled datasets. Can reduce labeling cost by 70%
 
 ## Workers
--   Mechanical turk workers
--   Private labeling workforce
--   Third-party vendors
+
+- Mechanical turk workers
+- Private labeling workforce
+- Third-party vendors
 
 ![media](media/AWS-Sagemaker-image4.jpeg)
 
 ![media](media/AWS-Sagemaker-image5.jpeg)
 
 Label Consolidation
--   Majority Voting
--   Probabilities
+
+- Majority Voting
+- Probabilities
 
 [**https://www.labellerr.com/**](https://www.labellerr.com/)
 
@@ -105,14 +108,15 @@ Inspect training parameters and data throughout the training process. Automatica
 [**SageMaker Autopilot**](https://docs.aws.amazon.com/sagemaker/latest/dg/autopilot-automate-model-development.html)
 
 Users without machine learning knowledge can quickly build classification and regression models.
--   Good for - classification, regression, some missing values, PCA is ok
--   Not good for - vision, text, sequence-based, data mostly missing
-    -   You need feature interpretation upfront
-    -   You need pretrained models
--   Remember
-    -   Try to include as much domain knowledge as you can in the features
-    -   You might have to wait upfront, but it's saving you time in the end
-    -   You will get all the code generated for you
+
+- Good for - classification, regression, some missing values, PCA is ok
+- Not good for - vision, text, sequence-based, data mostly missing
+  - You need feature interpretation upfront
+  - You need pretrained models
+- Remember
+  - Try to include as much domain knowledge as you can in the features
+  - You might have to wait upfront, but it's saving you time in the end
+  - You will get all the code generated for you
 
 [**SageMaker Model Monitor**](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html)
 
@@ -154,29 +158,29 @@ p - gpu
 
 ## Best practices
 
-1.  Pick the right size - 5GB default
+1. Pick the right size - 5GB default
 
-2.  Think: store on EBS /home/ec2-user/SageMaker
+2. Think: store on EBS /home/ec2-user/SageMaker
 
-3.  Add or create git repository
+3. Add or create git repository
 
-4.  Configure security settings
-    -   Encryption
-    -   Root volume access
-    -   Internet access
-    -   VPC Connection
+4. Configure security settings
+    - Encryption
+    - Root volume access
+    - Internet access
+    - VPC Connection
 
-5.  Use a lifecycle config
-    -   Create, start notebook
-    -   Install packages, copy data
-    -   Run in background with '&'
+5. Use a lifecycle config
+    - Create, start notebook
+    - Install packages, copy data
+    - Run in background with '&'
 
-6.  Attach a portion of a GPU for local inference
-    -   Size, version, bandwidth
+6. Attach a portion of a GPU for local inference
+    - Size, version, bandwidth
 
 ## Sagemaker SDK and examples
 
-<https://pypi.org/project/sagemaker
+<https://pypi.org/project/sagemaker>
 
 [**https://sagemaker.readthedocs.io/en/stable/**](https://sagemaker.readthedocs.io/en/stable/)
 
@@ -188,7 +192,7 @@ p - gpu
 
 ## Sagemaker Lifecycle configurations (Auto shutdown)
 
-<https://aws.amazon.com/blogs/machine-learning/save-costs-by-automatically-shutting-down-idle-resources-within-amazon-sagemaker-studio
+<https://aws.amazon.com/blogs/machine-learning/save-costs-by-automatically-shutting-down-idle-resources-within-amazon-sagemaker-studio>
 
 [**https://github.com/aws-samples/sagemaker-studio-auto-shutdown-extension**](https://github.com/aws-samples/sagemaker-studio-auto-shutdown-extension)
 
@@ -200,10 +204,10 @@ p - gpu
 
 <https://towardsdatascience.com/a-quick-guide-to-using-spot-instances-with-amazon-sagemaker-b9cfb3a44a68>
 
-<https://aws.amazon.com/blogs/aws/managed-spot-training-save-up-to-90-on-your-amazon-sagemaker-training-jobs
+<https://aws.amazon.com/blogs/aws/managed-spot-training-save-up-to-90-on-your-amazon-sagemaker-training-jobs>
 
 ## Others
 
 ![media](media/AWS-Sagemaker-image7.jpg)
 
-<https://aws.amazon.com/blogs/machine-learning/understanding-amazon-sagemaker-notebook-instance-networking-configurations-and-advanced-routing-options
+<https://aws.amazon.com/blogs/machine-learning/understanding-amazon-sagemaker-notebook-instance-networking-configurations-and-advanced-routing-options>

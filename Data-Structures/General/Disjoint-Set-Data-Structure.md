@@ -7,14 +7,16 @@ Modified: 2018-02-08 21:39:47 +0500
 ---
 
 Also called as union-find data structure or merge-find set, is a DS that keeps track of set of elements partitioned into a number of disjoint (non-overlapping) subset. It provides near constant time operation (bounded by inverse- Ackermann function) to add new sets, to merge existing sets and to determine whether elements are in the same set.
+
 ## Representation
 
 A disjoint set forest consists of a number of elements each of which contains an id, a parent pointer and in efficient algorithms, a value called the rank.
 The parent pointers of elements are arranged to form one or more[trees](https://en.wikipedia.org/wiki/Tree_data_structure), each representing a set. If an element's parent pointer points to no other element, then the element is the root of a tree and is the representative member of its set. A set may consist of only a single element. However, if the element has a parent, the element is part of whatever set is identified by following the chain of parents upwards until a representative element (one without a parent) is reached at the root of the tree.
 Forests can be represented compactly in memory as arrays in which parents are indicated by their array index.
+
 ## Operations
 
-1.  MakeSet
+1. MakeSet
 
 The*MakeSet*operation makes a new set by creating a new element with a unique id, a rank of 0, and a parent pointer to itself. The parent pointer to itself indicates that the element is the representative member of its own set.
 
@@ -23,6 +25,7 @@ The*MakeSet*operation hasO(1)time complexity.
 Pseudocode:
 
 ## function *MakeSet*(*x*)
+
 if *x* is not already present:
 add *x* to the disjoint-set tree
 x.parent := x
@@ -36,6 +39,7 @@ x.rank := 0
 Pseudocode:
 
 ## function *Find*(x)
+
 if x.parent != x
 x.parent := *Find*(x.parent)
 return x.parent
@@ -52,6 +56,7 @@ To implement*union by rank*, each element is associated with a rank. Initially a
 Pseudocode:
 
 ## function *Union*(x, y)
+
 xRoot := *Find*(x)
 yRoot := *Find*(y)
 
@@ -69,19 +74,22 @@ else
 yRoot.parent := xRoot
 xRoot.rank := xRoot.rank + 1**Optimizations**
 
-1.  Weighted Union (Union by rank)
+1. Weighted Union (Union by rank)
 
-2.  Path Compression during Find
+2. Path Compression during Find
+
 ## Time Complexity
 
 Without any optimizations, Union and Find will take O(n)
 
 With both optimizations i.e. Union by Rank and Path Compression, the time complexity is O(x(n)) where x is inverse Ackermann function. This value is < 5 for any value of n that can be written in this physical universe, so disjoint set operations take place in essentially constant time
+
 ## Applications
 
-1.  Crucial role in finding Minimum Spanning Tree of a graph in Kruskal's algorithm.
+1. Crucial role in finding Minimum Spanning Tree of a graph in Kruskal's algorithm.
 
-2.  Keep track of connected components in an undirected graph
+2. Keep track of connected components in an undirected graph
+
 ## References
 
 <https://en.wikipedia.org/wiki/Disjoint-set_data_structure>

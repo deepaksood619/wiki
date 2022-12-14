@@ -120,8 +120,6 @@ bool(re.search(r'ly', 'similarly'))
 
 >> True
 
-
-
 <table>
 <colgroup>
 <col style="width: 11%" />
@@ -212,8 +210,6 @@ These expressions return the indices of the start and end of the substring match
 
 re.start(1) # returns value for 1st capturing group
 
-
-
 ## re.sub() (Search and Replace)
 
 The*re.sub()*tool (*sub*stands for*substitution*) evaluates a pattern and, for each valid match, it calls a*method*(or*lambda*).
@@ -265,12 +261,19 @@ re.**split**(*pattern*,*string*,*maxsplit=0*,*flags=0*)
 Split*string*by the occurrences of*pattern*. If capturing parentheses are used in*pattern*, then the text of all groups in the pattern are also returned as part of the resulting list. If*maxsplit*is nonzero, at most*maxsplit*splits occur, and the remainder of the string is returned as the final element of the list.
 
 ## >>> re.split(r'W+', 'Words, words, words.')
+
 ['Words', 'words', 'words', '']
+
 ## >>> re.split(r'(W+)', 'Words, words, words.')
+
 ['Words', ', ', 'words', ', ', 'words', '.', '']
+
 ## >>> re.split(r'W+', 'Words, words, words.', 1)
+
 ['Words', 'words, words.']
+
 ## >>> re.split('[a-f]+', '0a3B9', flags=re.IGNORECASE)
+
 ['0', '3', '9']
 
 ## Compilation Flag
@@ -292,13 +295,9 @@ Ex - re.compile(r"(?m)^.?s")
 
 Here ?m represents multiline flag
 
-
-
 ## Performance
 
 When using a regular expression inside a loop, always use compile and then check for regular expression match inside a loop. CPU takes a lot of time to process the regular expression and using it inside a loop should not be done.
-
-
 
 ## References
 

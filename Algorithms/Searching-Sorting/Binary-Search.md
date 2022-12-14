@@ -33,7 +33,7 @@ else end=mid;
 return start;
 }
 
-<https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/monk-and-search-2/editorial
+<https://www.hackerearth.com/practice/algorithms/searching/binary-search/practice-problems/algorithm/monk-and-search-2/editorial>
 
 ## # get count of all elements that are smaller or equal to given key
 
@@ -81,4 +81,4 @@ mid-= 1
 
 return mid + 1
 
-<https://www.geeksforgeeks.org/count-smaller-equal-elements-sorted-array
+<https://www.geeksforgeeks.org/count-smaller-equal-elements-sorted-array>

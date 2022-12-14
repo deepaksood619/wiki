@@ -8,11 +8,11 @@ Modified: 2020-03-16 22:46:23 +0500
 
 ## Parallel Processing, MPP (Massive Parallel Processing)
 
-## Symmetric Multi-Processing (SMP) is a tightly coupled multiprocessor system where processors share resources -- single instances of the Operating System (OS), memory, I/O devices and connected using a common bus. SMP is the primary parallel architecture employed in servers and is depicted in the following image.
+## Symmetric Multi-Processing (SMP) is a tightly coupled multiprocessor system where processors share resources -- single instances of the Operating System (OS), memory, I/O devices and connected using a common bus. SMP is the primary parallel architecture employed in servers and is depicted in the following image
 
 ![image](media/Parallel-Processing-image1.jpg)
 
-## Massively Parallel Processing (MPP) is the coordinated processing of a single task by multiple processors, each processor using its own OS and memory and communicating with each other using some form of messaging interface. MPP can be setup with a shared nothing or shared disk architecture.
+## Massively Parallel Processing (MPP) is the coordinated processing of a single task by multiple processors, each processor using its own OS and memory and communicating with each other using some form of messaging interface. MPP can be setup with a shared nothing or shared disk architecture
 
 In a shared nothing architecture, there is no single point of contention across the system and nodes do not share memory or disk storage. Data is horizontally partitioned across nodes, such that each node has a subset of rows from each table in the database. Each node then processes only the rows on its own disks. Systems based on this architecture can achieve massive scale as there is no single bottleneck to slow down the system. This is what Emma is looking for.
 

@@ -8,13 +8,13 @@ Modified: 2021-12-01 16:17:51 +0500
 
 ## Types
 
-1.  DDL -- Data Definition Language
+1. DDL -- Data Definition Language
 
-2.  DQl -- Data Query Language
+2. DQl -- Data Query Language
 
-3.  DML -- Data Manipulation Language
+3. DML -- Data Manipulation Language
 
-4.  DCL -- Data Control Language
+4. DCL -- Data Control Language
 
 ![image](media/SQL-Commands-image1.jpg)
 
@@ -336,8 +336,9 @@ The SQL UNION ALL operator is used to combine the result sets of 2 or more SELEC
 Each SELECT statement within the UNION ALL must have the same number of fields in the result sets with similar data types.
 
 ## What is the difference between UNION and UNION ALL?
--   [UNION](https://www.techonthenet.com/sql/union.php)removes duplicate rows.
--   UNION ALL doesnotremove duplicate rows.
+
+- [UNION](https://www.techonthenet.com/sql/union.php)removes duplicate rows.
+- UNION ALL doesnotremove duplicate rows.
 
 SELECT column_name(s) FROM table_name1
 

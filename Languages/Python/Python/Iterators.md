@@ -10,9 +10,8 @@ An[iterator](https://en.wikipedia.org/wiki/Iterator)is an object that can be ite
 
 An iterator is defined by a class that implements the[Iterator Protocol](https://docs.python.org/3/c-api/iter.html). This protocol looks for two methods within the class:__iter__and__next__.
 
-
--   Iterator save memory space
--   Iterators don't compute the value of each item when instantiated. They only compute it when you ask for it. This is known as[lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation). Lazy evaluation is useful when you have a very large data set to compute. It allows you to start using the data immediately, while the whole data set is being computed.
+- Iterator save memory space
+- Iterators don't compute the value of each item when instantiated. They only compute it when you ask for it. This is known as[lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation). Lazy evaluation is useful when you have a very large data set to compute. It allows you to start using the data immediately, while the whole data set is being computed.
 
 Ex - Let's say we want to get all the prime numbers that are smaller than a maximum number.
 

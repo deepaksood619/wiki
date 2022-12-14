@@ -6,7 +6,7 @@ Modified: 2022-05-25 15:09:27 +0500
 
 ---
 
-<https://hbr.org
+<https://hbr.org>
 
 Financial times
 
@@ -41,10 +41,11 @@ and grew by 25% in India in the past year alone, increasing to 350--400 million 
 Hundreds of thousands of creators will help propel livestreaming and video-enabled commerce significantly in the coming years. Multiple livestreaming commerce start-ups have already emerged in India and are growing rapidly. In China, livestreaming commerce accounts for 9%--10% of overall GMV
 
 ## Product
--   Candy - Games
--   Vitamin - Alexa
--   Pain Killer - Gmail
--   Addictive pain killer - Onenote / maps
+
+- Candy - Games
+- Vitamin - Alexa
+- Pain Killer - Gmail
+- Addictive pain killer - Onenote / maps
 
 What if your competitor drops their price (great question to learn whole business)
 
@@ -63,7 +64,8 @@ Second order and Third order effects
 Unknown unknown and known unknown
 
 ## Business models
--   Freemium to Premium model
+
+- Freemium to Premium model
 
 ## 5 Whys
 
@@ -76,41 +78,43 @@ Conceptualized and named by[Warren Buffett](https://www.investopedia.com/article
 <https://www.investopedia.com/terms/e/economicmoat.aspc>
 
 [Economic Moats | Which companies have competitive advantages? | ETMONEY](https://youtu.be/dDnKxU_irq4)
--   INTANGIBLE ASSETS MOAT
--   SWITCHING MOAT
-    -   Moving from service A to service B
-    -   Ex - Changing your bank account
--   LOW COST PROVIDER MOAT
--   TOLL MOAT
--   NETWORK EFFECTS MOAT
--   CULTURAL MOAT
--   DIGITAL & DATA MOAT
 
-<https://acquirersmultiple.com/2022/01/bruce-greenwald-moats-are-not-that-hard-to-calculate
--   So the first element in this is what's the minimum viable share somebody has to get to. For very big markets that's going to be low. For small niche markets in geography or in product space that's going to be large, and secondly what does customer captivity look like? And because the current technologies tend to be user oriented you have to learn how to use it so you have a lot of customer captivity.
--   And in services it's face to face with high purchase frequency so again you've got a lot of customer connectivity but really what you're looking for is minimum viable scale divided by annual market share change in a contested environment."
+- INTANGIBLE ASSETS MOAT
+- SWITCHING MOAT
+  - Moving from service A to service B
+  - Ex - Changing your bank account
+- LOW COST PROVIDER MOAT
+- TOLL MOAT
+- NETWORK EFFECTS MOAT
+- CULTURAL MOAT
+- DIGITAL & DATA MOAT
+
+<https://acquirersmultiple.com/2022/01/bruce-greenwald-moats-are-not-that-hard-to-calculate>
+
+- So the first element in this is what's the minimum viable share somebody has to get to. For very big markets that's going to be low. For small niche markets in geography or in product space that's going to be large, and secondly what does customer captivity look like? And because the current technologies tend to be user oriented you have to learn how to use it so you have a lot of customer captivity.
+- And in services it's face to face with high purchase frequency so again you've got a lot of customer connectivity but really what you're looking for is minimum viable scale divided by annual market share change in a contested environment."
 
 ## Ansoff Matrix
 
 ![image](media/Business-image1.jpeg)
 
-<https://marcellus.in/blogs/a-sixty-year-old-tool-to-assess-capital-allocation-decisions
+<https://marcellus.in/blogs/a-sixty-year-old-tool-to-assess-capital-allocation-decisions>
 
 ## Why Competitive Advantages Die
 
-1.  Being right is the enemy of staying right because it leads you to forget the way the world works
+1. Being right is the enemy of staying right because it leads you to forget the way the world works
 
-2.  Maintaining financial success takes precedence over traits that were vital to building the initial idea
+2. Maintaining financial success takes precedence over traits that were vital to building the initial idea
 
-3.  Mistaking a temporary trend for a competitive advantage
+3. Mistaking a temporary trend for a competitive advantage
 
-4.  Scaling a product requires scaling HR, which is monstrously complex and usually unrelated to your original skill
+4. Scaling a product requires scaling HR, which is monstrously complex and usually unrelated to your original skill
 
-5.  The decline of paranoia that made you successful to begin with
+5. The decline of paranoia that made you successful to begin with
 
-6.  Reputational momentum is vicious and unforgiving on the way down
+6. Reputational momentum is vicious and unforgiving on the way down
 
-7.  Brands are hard to build and even harder to span across generations
+7. Brands are hard to build and even harder to span across generations
 
 Firstly, once a company becomes successful, its management has a tendency to put blinkers on and shut themselves off from new ideas:""Being right is the enemy of staying right because it leads you to forget the way the world works." -- Jason Zweig. Buddhism has a concept called beginner's mind, which is an active openness to trying new things and studying new ideas, unburdened by past preconceptions, like a beginner would. Knowing you have a competitive advantage is often the enemy of beginner's mind, because doing well reduces the incentive to explore other ideas, especially when those ideas conflict with your proven strategy. Which is dangerous. Being locked into a single view is fatal in an economy where reversion to the mean and competition constantly dismantles old strategies."
 
@@ -118,7 +122,7 @@ Secondly, as a company gets bigger, the HR challenges of managing and motivating
 
 And thirdly, as a company makes money, as its executives enjoy the good life, naturally they become complacent and tend to lose their edge:"The decline of paranoia that made you successful to begin with. I like the idea that systems are better than goals, because once you reach a goal you tend to stop doing the thing that made achieving the goal possible. "I'm going to work out every day" is better than "I'm going to lose 10 pounds" because once you lose 10 pounds you'll probably stop working out. Same thing happens when a successful business or career hits a big goal. Paranoia is a trait newcomers use to combat how deeply the odds are stacked against them. But it tends to die once a goal is hit. Few things sap the paranoiac drive to do better than stable cash flow and high profit margins. Michael Moritz of Sequoia was once asked why his firm had thrived for 40 years. "We've always been afraid of going out of business," was his answer."
 
-<https://www.collaborativefund.com/blog/why-competitive-advantages-die
+<https://www.collaborativefund.com/blog/why-competitive-advantages-die>
 
 ## Loss Leader Pricing Model
 
@@ -128,18 +132,18 @@ To bait/expose customers to high cost - high margin products
 
 ## SOP (Standard Operating Procedures)
 
-1.  Repeatability
+1. Repeatability
 
-2.  Consistency
+2. Consistency
 
-3.  Not people dependent
+3. Not people dependent
 
 ## Others
 
-<https://marcellus.in/blogs/staying-on-the-top-of-everest-is-harder-than-getting-there
+<https://marcellus.in/blogs/staying-on-the-top-of-everest-is-harder-than-getting-there>
 
-<https://marcellus.in/blogs/why-india-beats-china-hollow-on-consistent-compounding
+<https://marcellus.in/blogs/why-india-beats-china-hollow-on-consistent-compounding>
 
 Geopolitical Series: <http://www.youtube.com/playlist?list=PLGwmAEmjn4fkd3IgCnFZSbocpTnka87Pn>
 
-<https://www.freecodecamp.org/news/important-lessons-they-dont-teach-you-in-business-school
+<https://www.freecodecamp.org/news/important-lessons-they-dont-teach-you-in-business-school>

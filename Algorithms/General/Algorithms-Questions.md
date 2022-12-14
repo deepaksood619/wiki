@@ -8,11 +8,11 @@ Modified: 2022-12-03 00:02:07 +0500
 
 ## Homework Problems
 
-1.  sum from 0 to given number using recursion
+1. sum from 0 to given number using recursion
 
-2.  sum all digits of a given number
+2. sum all digits of a given number
 
-3.  get all words available from a set of given words and a given phrase
+3. get all words available from a set of given words and a given phrase
 
 for all words in set, check if the phrase startswith that word.
 
@@ -104,15 +104,15 @@ print(f'start {start}, end {end}')
 
 return max_so_far
 
-<https://www.geeksforgeeks.org/largest-sum-contiguous-subarray
+<https://www.geeksforgeeks.org/largest-sum-contiguous-subarray>
 
 ## Maximum Product Subarray
 
-<https://www.geeksforgeeks.org/maximum-product-subarray
+<https://www.geeksforgeeks.org/maximum-product-subarray>
 
 ## Interview Problems
 
-1.  Reverse a String:
+1. Reverse a String:
 
 if len(s) <= 1:
 
@@ -120,7 +120,7 @@ return s
 
 return reverse(s[1:]) + s[0]
 
-2.  String Permutation
+2. String Permutation
 
 def permute(s):
 
@@ -148,7 +148,7 @@ output.append(value + each_perm)
 
 return output
 
-3.  Fibonacci Sequence
+3. Fibonacci Sequence
 
 if n == 0:
 
@@ -160,7 +160,7 @@ return 1
 
 return fib_rec(n-1) + fib_rec(n-2)
 
-4.  Coin Change (using dp)
+4. Coin Change (using dp)
 
 def rec_coin_dyn(target, coins, known_results):
 
@@ -204,32 +204,36 @@ known_results[target] = min_coins
 
 return min_coins
 
-5.  Design a data structure that supports insert, delete, search and getRandom in constant time
+5. Design a data structure that supports insert, delete, search and getRandom in constant time
 
 We can use[hashing](https://www.geeksforgeeks.org/tag/hashing/)to support first 3 operations in Θ(1) time. How to do the 4th operation? The idea is to use a resizable array (ArrayList in Java, vector in C) together with hashing.[Resizable arrays support insert in Θ(1) amortized time complexity](https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/). To implement getRandom(), we can simply pick a random number from 0 to size-1 (size is the number of current elements) and return the element at that index. The hash map stores array values as keys and array indexes as values.
 
 Following are detailed operations.
 
 insert(x)
--   Check if x is already present by doing a hash map lookup.
--   If not present, then insert it at the end of the array.
--   Add in the hash table also, x is added as key and last array index as the index.
+
+- Check if x is already present by doing a hash map lookup.
+- If not present, then insert it at the end of the array.
+- Add in the hash table also, x is added as key and last array index as the index.
 
 remove(x)
--   Check if x is present by doing a hash map lookup.
--   If present, then find its index and remove it from a hash map.
--   Swap the last element with this element in an array and remove the last element.
--   Swapping is done because the last element can be removed in O(1) time.
--   Update index of the last element in a hash map.
+
+- Check if x is present by doing a hash map lookup.
+- If present, then find its index and remove it from a hash map.
+- Swap the last element with this element in an array and remove the last element.
+- Swapping is done because the last element can be removed in O(1) time.
+- Update index of the last element in a hash map.
 
 getRandom()
--   Generate a random number from 0 to last index.
--   Return the array element at the randomly generated index.
+
+- Generate a random number from 0 to last index.
+- Return the array element at the randomly generated index.
 
 search(x)
--   Do a lookup for x in hash map.
 
-<https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time
+- Do a lookup for x in hash map.
+
+<https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time>
 
 <https://www.toptal.com/algorithms/mixed-integer-programming>
 
@@ -239,23 +243,23 @@ search(x)
 
 ## Two Pointers
 
-1.  #75 Sort Colors
+1. #75 Sort Colors
 
-2.  #80 Remove Duplicates from Sorted Array II
+2. #80 Remove Duplicates from Sorted Array II
 
-3.  #88 Merge Sorted Array
+3. #88 Merge Sorted Array
 
-4.  #457 Circular Array Loop
+4. #457 Circular Array Loop
 
-5.  #713 Subarray Product Less Than K
+5. #713 Subarray Product Less Than K
 
-6.  #845 Longest Mountain in Array
+6. #845 Longest Mountain in Array
 
-7.  #904 Fruit into baskets
+7. #904 Fruit into baskets
 
-8.  #925 Long Pressed name
+8. #925 Long Pressed name
 
-9.  #986 Interval list intersections
+9. #986 Interval list intersections
 
 ## Binary Search
 

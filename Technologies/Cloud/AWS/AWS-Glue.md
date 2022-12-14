@@ -16,7 +16,7 @@ You can use the AWS Glue console to discover data, transform it, and make it ava
 
 ![](../../media/Cloud-AWS-AWS-Glue-image1.png)
 
-<https://aws.amazon.com/glue
+<https://aws.amazon.com/glue>
 
 <https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html>
 
@@ -32,17 +32,16 @@ Second option: we chose to use an AWS Glue feature called bookmarks. Once a job 
 
 Note: you may only add new files, or append to existing files. Overwriting data in existing files is not supported (nor should you want to do it. In fact, in the new world of event sourcing, overwriting means hiding a crime)
 
-
-
 ## AWS Glue Concepts
 
 ![The basic concepts populating your Data Catalog and processing ETL dataflow in AWS Glue.](../../media/Cloud-AWS-AWS-Glue-image2.png)
 
 You definejobsin AWS Glue to accomplish the work that's required to extract, transform, and load (ETL) data from a data source to a data target. You typically perform the following actions:
--   You define acrawlerto populate your AWS Glue Data Catalog with metadata table definitions. You point your crawler at a data store, and the crawler creates table definitions in the Data Catalog.
+
+- You define acrawlerto populate your AWS Glue Data Catalog with metadata table definitions. You point your crawler at a data store, and the crawler creates table definitions in the Data Catalog.
     In addition to table definitions, the AWS Glue Data Catalog contains other metadata that is required to define ETL jobs. You use this metadata when you define a job to transform your data.
--   AWS Glue can generate a script to transform your data. Or, you can provide the script in the AWS Glue console or API.
--   You can run your job on demand, or you can set it up to start when a specifiedtriggeroccurs. The trigger can be a time-based schedule or an event.
+- AWS Glue can generate a script to transform your data. Or, you can provide the script in the AWS Glue console or API.
+- You can run your job on demand, or you can set it up to start when a specifiedtriggeroccurs. The trigger can be a time-based schedule or an event.
     When your job runs, a script extracts data from your data source, transforms the data, and loads it to your data target. The script runs in an Apache Spark environment in AWS Glue.
 
 Tables and databases in AWS Glue are objects in the AWS Glue Data Catalog. They contain metadata; they don't contain data from a data store.
@@ -139,9 +138,10 @@ You can use a crawler to populate the AWS Glue Data Catalog with tables. This is
 ## What Happens When a Crawler Runs?
 
 When a crawler runs, it takes the following actions to interrogate a data store:
--   Classifies data to determine the format, schema, and associated properties of the raw data-- You can configure the results of classification by creating a custom classifier.
--   Groups data into tables or partitions-- Data is grouped based on crawler heuristics.
--   Writes metadata to the Data Catalog-- You can configure how the crawler adds, updates, and deletes tables and partitions.
+
+- Classifies data to determine the format, schema, and associated properties of the raw data-- You can configure the results of classification by creating a custom classifier.
+- Groups data into tables or partitions-- Data is grouped based on crawler heuristics.
+- Writes metadata to the Data Catalog-- You can configure how the crawler adds, updates, and deletes tables and partitions.
 
 The metadata tables that a crawler creates are contained in a database when you define a crawler. If your crawler does not define a database, your tables are placed in the default database. In addition, each table has a classification column that is filled in by the classifier that first successfully recognized the data store.
 
@@ -166,9 +166,10 @@ The AWS Glue Jobs system provides managed infrastructure to orchestrate your ETL
 <https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api-jobs-job.html>
 
 ## Worker type
--   **Standard--** When you choose this type, you also provide a value forMaximum capacity. Maximum capacity is the number of AWS Glue data processing units (DPUs) that can be allocated when this job runs. A DPU is a relative measure of processing power that consists of 4 vCPUs of compute capacity and 16 GB of memory. TheStandardworker type has a 50 GB disk and 2 executors.
--   **G.1X--** When you choose this type, you also provide a value forNumber of workers. Each worker maps to 1 DPU (4 vCPU, 16 GB of memory, 64 GB disk), and provides 1 executor per worker. We recommend this worker type for memory-intensive jobs.
--   **G.2X--** When you choose this type, you also provide a value forNumber of workers. Each worker maps to 2 DPU (8 vCPU, 32 GB of memory, 128 GB disk), and provides 1 executor per worker. We recommend this worker type for memory-intensive jobs and jobs that run ML transforms.
+
+- **Standard--** When you choose this type, you also provide a value forMaximum capacity. Maximum capacity is the number of AWS Glue data processing units (DPUs) that can be allocated when this job runs. A DPU is a relative measure of processing power that consists of 4 vCPUs of compute capacity and 16 GB of memory. TheStandardworker type has a 50 GB disk and 2 executors.
+- **G.1X--** When you choose this type, you also provide a value forNumber of workers. Each worker maps to 1 DPU (4 vCPU, 16 GB of memory, 64 GB disk), and provides 1 executor per worker. We recommend this worker type for memory-intensive jobs.
+- **G.2X--** When you choose this type, you also provide a value forNumber of workers. Each worker maps to 2 DPU (8 vCPU, 32 GB of memory, 128 GB disk), and provides 1 executor per worker. We recommend this worker type for memory-intensive jobs and jobs that run ML transforms.
 
 ## ETL Jobs Pricing
 
@@ -187,9 +188,10 @@ Development endpoints are optional, and billing applies only if you choose to in
 AWS Glue tracks data that has already been processed during a previous run of an ETL job by persisting state information from the job run. This persisted state information is called ajob bookmark. Job bookmarks help AWS Glue maintain state information and prevent the reprocessing of old data. With job bookmarks, you can process new data when rerunning on a scheduled interval. A job bookmark is composed of the states for various elements of jobs, such as sources, transformations, and targets. For example, your ETL job might read new partitions in an Amazon S3 file. AWS Glue tracks which partitions the job has processed successfully to prevent duplicate processing and duplicate data in the job's target data store.
 
 For JDBC sources, the following rules apply:
--   For each table, AWS Glue uses one or more columns as bookmark keys to determine new and processed data. The bookmark keys combine to form a single compound key.
--   You can specify the columns to use as bookmark keys. If you don't specify bookmark keys, AWS Glue by default uses the primary key as the bookmark key, provided that it is sequentially increasing or decreasing (with no gaps).
--   If user-defined bookmarks keys are used, they must be strictly monotonically increasing or decreasing. Gaps are permitted.
+
+- For each table, AWS Glue uses one or more columns as bookmark keys to determine new and processed data. The bookmark keys combine to form a single compound key.
+- You can specify the columns to use as bookmark keys. If you don't specify bookmark keys, AWS Glue by default uses the primary key as the bookmark key, provided that it is sequentially increasing or decreasing (with no gaps).
+- If user-defined bookmarks keys are used, they must be strictly monotonically increasing or decreasing. Gaps are permitted.
 
 <https://docs.aws.amazon.com/glue/latest/dg/monitor-continuations.html>
 
@@ -199,19 +201,19 @@ For JDBC sources, the following rules apply:
 
 <https://docs.aws.amazon.com/glue/latest/dg/run-jdbc-parallel-read-job.html>
 
-<https://aws.amazon.com/premiumsupport/knowledge-center/glue-lost-nodes-rds-s3-migration
+<https://aws.amazon.com/premiumsupport/knowledge-center/glue-lost-nodes-rds-s3-migration>
 
 ## Tutorial
 
 <https://medium.com/p/7ad88053fd0e/edit>
 
-<https://github.com/aws-samples/aws-glue-samples/tree/master/utilities/Spark_UI
+<https://github.com/aws-samples/aws-glue-samples/tree/master/utilities/Spark_UI>
 
 ## Examples
 
-<https://aws.amazon.com/blogs/database/how-to-extract-transform-and-load-data-for-analytic-processing-using-aws-glue-part-2
+<https://aws.amazon.com/blogs/database/how-to-extract-transform-and-load-data-for-analytic-processing-using-aws-glue-part-2>
 
-<https://aws.amazon.com/blogs/big-data/load-data-incrementally-and-optimized-parquet-writer-with-aws-glue
+<https://aws.amazon.com/blogs/big-data/load-data-incrementally-and-optimized-parquet-writer-with-aws-glue>
 
 ## SparkUI using docker
 
@@ -221,15 +223,15 @@ docker run -it -e SPARK_HISTORY_OPTS="$SPARK_HISTORY_OPTS -Dspark.history.fs.log
 
 ## Timeline
 
-1.  **Tried adding hashexpression, hashpartitions with G2, G1 and standard but didn't worked**
+1. **Tried adding hashexpression, hashpartitions with G2, G1 and standard but didn't worked**
 
 additional_options={"hashexpression":"customer_id","hashpartitions":"10"}
 
-2.  **Tried raw script with G2 but didn't worked (failed after 4 hours 30 mins)**
+2. **Tried raw script with G2 but didn't worked (failed after 4 hours 30 mins)**
 
 datasource0 = glueContext.create_dynamic_frame.from_catalog(database = "aurora-etl", table_name = "etl_sttash_website_live_userdevicesms", transformation_ctx = "datasource0")
 
-3.  **Added hashexpression limiting number of rows (failed in 6 minutes)**
+3. **Added hashexpression limiting number of rows (failed in 6 minutes)**
 
 additional_options={"hashexpression":"id > 0 AND column_name < 1000000","hashpartitions":"10"}
 
@@ -239,7 +241,7 @@ additional_options={"hashexpression":"id > 0 AND column_name < 1000000","hashpar
 
 <https://github.com/aws-samples/aws-glue-samples/blob/master/examples/join_and_relationalize.md>
 
-<https://thedataguy.in/aws-glue-custom-output-file-size-and-fixed-number-of-files
+<https://thedataguy.in/aws-glue-custom-output-file-size-and-fixed-number-of-files>
 
 Option 1: groupFiles
 

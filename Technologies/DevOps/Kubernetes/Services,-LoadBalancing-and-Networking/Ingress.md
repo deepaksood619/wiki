@@ -23,10 +23,9 @@ An ingress can be configured to give services externally-reachable URLs, load ba
 An ingress does not expose arbitrary ports or protocols. Exposing services other than HTTP and HTTPS to the internet typically uses a service of type[Service.Type=NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)or[Service.Type=LoadBalancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer).
 
 Ingress allows external users and client applications access to HTTP services. Ingress consists of two components: Ingress Resource and Ingress Controller.
--   **Ingress Resource**is a collection of rules for the inbound traffic to reach Services. These are Layer 7 (L7) rules that allow hostnames (and optionally paths) to be directed to specific Services in Kubernetes.
--   **Ingress Controller**acts upon the rules set by the Ingress Resource, typically via an HTTP or L7 load balancer. It is vital that both pieces are properly configured to route traffic from an outside client to a Kubernetes Service.
 
-
+- **Ingress Resource**is a collection of rules for the inbound traffic to reach Services. These are Layer 7 (L7) rules that allow hostnames (and optionally paths) to be directed to specific Services in Kubernetes.
+- **Ingress Controller**acts upon the rules set by the Ingress Resource, typically via an HTTP or L7 load balancer. It is vital that both pieces are properly configured to route traffic from an outside client to a Kubernetes Service.
 
 An API object that manages external access to the services in a cluster, typically HTTP.
 
@@ -34,15 +33,15 @@ Ingress can provide load balancing, SSL termination and name-based virtual hosti
 
 Types of ingress:
 
-1.  Single service ingress
+1. Single service ingress
 
-2.  Simple fanout
+2. Simple fanout
 
-3.  Name based virtual hosting
+3. Name based virtual hosting
 
-4.  TLS
+4. TLS
 
-5.  Loadbalancing
+5. Loadbalancing
 
 In Kubernetes, an Ingress is an object that allows access to your Kubernetes services from outside the Kubernetes cluster. You configure access by creating a collection of rules that define which inbound connections reach which services.
 
@@ -50,24 +49,26 @@ This lets you consolidate your routing rules into a single resource. For example
 
 ![ingress in kubernetes](../../../media/DevOps-Kubernetes-Ingress-image1.png)
 
-## NodePort**and**LoadBalancerlet you expose a service by specifying that value in the service'stype. Ingress, on the other hand, is a completely independent resource to your service. You declare, create and destroy it separately to your services.
+## NodePort**and**LoadBalancerlet you expose a service by specifying that value in the service'stype. Ingress, on the other hand, is a completely independent resource to your service. You declare, create and destroy it separately to your services
 
 This makes it decoupled and isolated from the services you want to expose. It also helps you to consolidate routing rules into one place.
 
 ## Ingress Controllers
--   AWS ALB Ingress Controller
--   Kong
--   Traefik
--   HAProxy
--   Istio Ingress Gateway
--   Nginx Ingress Controller
--   Ambassador
 
-<https://www.nginx.com/blog/testing-performance-nginx-ingress-controller-kubernetes
--   Voyager
--   Contour
--   Gloo
--   Skipper
+- AWS ALB Ingress Controller
+- Kong
+- Traefik
+- HAProxy
+- Istio Ingress Gateway
+- Nginx Ingress Controller
+- Ambassador
+
+<https://www.nginx.com/blog/testing-performance-nginx-ingress-controller-kubernetes>
+
+- Voyager
+- Contour
+- Gloo
+- Skipper
 
 ![](../../../media/DevOps-Kubernetes-Ingress-image2.png)
 
@@ -80,14 +81,15 @@ This makes it decoupled and isolated from the services you want to expose. It al
 ## AWS ALB
 
 AWS ALB Ingress controller supports two traffic modes:instance modeandip mode. Users can explicitly specify these traffic modes by declaring the**alb.ingress.kubernetes.io/target-type**annotation on the Ingress and the service definitions.
--   **instance mode:**Ingress traffic starts from the ALB and reaches the[NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)opened for your service. Traffic is then routed to the pods within the cluster. The number of hops for the packet to reach its destination in this mode is always two.
--   **ip mode:**Ingress traffic starts from the ALB and reaches the pods within the cluster directly. To use this mode, the networking plugin for the Kubernetes cluster must use a secondary IP address on ENI as pod IP, also known as the[AWS CNI plugin for Kubernetes](https://github.com/aws/amazon-vpc-cni-k8s). The number of hops for the packet to reach its destination in this mode is always one.
+
+- **instance mode:**Ingress traffic starts from the ALB and reaches the[NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)opened for your service. Traffic is then routed to the pods within the cluster. The number of hops for the packet to reach its destination in this mode is always two.
+- **ip mode:**Ingress traffic starts from the ALB and reaches the pods within the cluster directly. To use this mode, the networking plugin for the Kubernetes cluster must use a secondary IP address on ENI as pod IP, also known as the[AWS CNI plugin for Kubernetes](https://github.com/aws/amazon-vpc-cni-k8s). The number of hops for the packet to reach its destination in this mode is always one.
 
 <https://github.com/kubernetes-sigs/aws-alb-ingress-controller>
 
 <https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html>
 
-<https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller
+<https://aws.amazon.com/blogs/opensource/kubernetes-ingress-aws-alb-ingress-controller>
 
 ## Ingress tls with self-signed cert
 
@@ -97,4 +99,4 @@ AWS ALB Ingress controller supports two traffic modes:instance modeandip mode. U
 
 <https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html>
 
-<https://kubernetes.io/docs/concepts/services-networking/ingress
+<https://kubernetes.io/docs/concepts/services-networking/ingress>

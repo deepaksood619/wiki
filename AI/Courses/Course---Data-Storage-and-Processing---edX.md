@@ -9,14 +9,15 @@ Modified: 2020-04-19 12:31:05 +0500
 Master the culture of data representation, interpretation and outcomes evaluation. Learn the fundamentals of relational and NoSQL database management systems.
 
 ## Objectives
--   Initial data processing (data cleaning and filling in the missing values)
--   Data smoothing and normalization
-    -   Normalization of unipolar and bipolar indicators. Normalization features for ball scales.
--   Data visualization
--   Time series analysis
--   Descriptive statistics
--   Data storage and access by means of relational DBMS
--   NoSQL databases and Big data
+
+- Initial data processing (data cleaning and filling in the missing values)
+- Data smoothing and normalization
+  - Normalization of unipolar and bipolar indicators. Normalization features for ball scales.
+- Data visualization
+- Time series analysis
+- Descriptive statistics
+- Data storage and access by means of relational DBMS
+- NoSQL databases and Big data
 
 ## Syllabus
 
@@ -42,18 +43,18 @@ Main characteristics of not only SQL databases. Non-structured and semi-structur
 
 ## Data Analysis Steps
 
-1.  Describing the objects under the study
+1. Describing the objects under the study
 
-2.  Variables Identification and a hypothesis generation
+2. Variables Identification and a hypothesis generation
 
-3.  Data Collection for the creation of a Population or a Sample
+3. Data Collection for the creation of a Population or a Sample
 
-4.  Data Sorting
+4. Data Sorting
 
-5.  Data Transformation
+5. Data Transformation
 
-6.  Building Models
+6. Building Models
 
-7.  Interpretation
+7. Interpretation
 
 <https://www.edx.org/course/data-storage-and-processing>

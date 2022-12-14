@@ -7,8 +7,9 @@ Modified: 2020-12-07 23:43:36 +0500
 ---
 
 ## Properties
--   A list stores a series of items in a particular order.
--   Compound data type (group different values like boolean, String, integer, etc)
+
+- A list stores a series of items in a particular order.
+- Compound data type (group different values like boolean, String, integer, etc)
 
 ## List Creation
 
@@ -77,18 +78,22 @@ print (x)
 gives you:[1, 2, 3, 4, 5]
 
 ## Removing items from list
--   Deleting an element by its position
+
+- Deleting an element by its position
 
 del users[-1]
--   Removing an item by its value
+
+- Removing an item by its value
 
 users.remove('mia')
 
 ## Popping elements (get + delete)
--   Pop the last item from a list
+
+- Pop the last item from a list
 
 most_recent_user = users.pop()
--   Pop the first item in a list
+
+- Pop the first item in a list
 
 first_user = users.pop(0)
 
@@ -154,7 +159,9 @@ dup_lst = [item for item, count in collections.Counter(lst).items() if count > 1
 >>> l2 = set([2,3,5,8])
 
 # v `filter` returns the a iterator object. Here I'm type-casting
+
 # v it to `list` in order to display the resultant value
+
 >>> list(filter(lambda x: x not in l2, l1))
 [1, 6]
 
@@ -173,26 +180,29 @@ total_ages = sum(ages)
 ## Lists Versus Tuples
 
 Tuples are used to collect an immutable ordered list of elements. This means that:
--   You can't add elements to a tuple. There's noappend()orextend()method for tuples,
--   You can't remove elements from a tuple. Tuples have noremove()orpop()method,
--   You can find elements in a tuple since this doesn't change the tuple.
--   You can also use theinoperator to check if an element exists in the tuple.
+
+- You can't add elements to a tuple. There's noappend()orextend()method for tuples,
+- You can't remove elements from a tuple. Tuples have noremove()orpop()method,
+- You can find elements in a tuple since this doesn't change the tuple.
+- You can also use theinoperator to check if an element exists in the tuple.
 
 So, if you're defining a constant set of values and all you're going to do with it is iterate through it, use a tuple instead of a list. It will be faster than working with lists and also safer, as the tuples contain "write-protect" data.
 
 ## Lists Versus Dictionaries
--   A list stores an ordered collection of items, so it keeps some order. Dictionaries don't have any order.
--   Dictionaries are known to associate each key with a value, while lists just contain values.
+
+- A list stores an ordered collection of items, so it keeps some order. Dictionaries don't have any order.
+- Dictionaries are known to associate each key with a value, while lists just contain values.
 
 Use a dictionary when you have an unordered set of unique keys that map to values.
 
 Notethat, because you have keys and values that link to each other, the performance will be better than lists in cases where you're checking membership of an element.
 
 ## Lists Versus Sets
--   Just like dictionaries, sets have no order in their collection of items. Not like lists.
--   Set requires the items contained in it to be hashable, lists store non-hashable items.
--   Sets require your items to be unique and immutable. Duplicates are not allowed in sets, while lists allow for duplicates and are mutable.
--   You should make use of sets when you have an unordered set of unique, immutable values that are hashable.
+
+- Just like dictionaries, sets have no order in their collection of items. Not like lists.
+- Set requires the items contained in it to be hashable, lists store non-hashable items.
+- Sets require your items to be unique and immutable. Duplicates are not allowed in sets, while lists allow for duplicates and are mutable.
+- You should make use of sets when you have an unordered set of unique, immutable values that are hashable.
 
 | **Hashable** | **Non-Hashable** |
 |--------------|------------------|
@@ -216,11 +226,12 @@ Notethat, because you have keys and values that link to each other, the performa
 | Consume larger memory for easy addition of elements                       | Comparatively more compact in memory size                             |
 
 So, when should you use a list and when should you use an array?
--   If you need to store a relatively short sequence of items and you don't plan to do any mathematical operations with it, alistis the preferred choice. This data structure will allow you to store an ordered, mutable, and indexed sequence of items without importing any additional modules or packages.
--   If you have a very long sequence of items, consider using anarray. This structure offers more efficient data storage.
--   If you plan to do any numerical operations with your combination of items, use anarray.
 
-<https://www.geeksforgeeks.org/difference-between-list-and-array-in-python
+- If you need to store a relatively short sequence of items and you don't plan to do any mathematical operations with it, alistis the preferred choice. This data structure will allow you to store an ordered, mutable, and indexed sequence of items without importing any additional modules or packages.
+- If you have a very long sequence of items, consider using anarray. This structure offers more efficient data storage.
+- If you plan to do any numerical operations with your combination of items, use anarray.
+
+<https://www.geeksforgeeks.org/difference-between-list-and-array-in-python>
 
 ## Slice Notation in Lists
 
@@ -255,7 +266,7 @@ while 'cat in pets:
 
 perts.remove('cat')
 
-## Rotate a list clockwise:
+## Rotate a list clockwise
 
 lst = [1,2,3]
 
@@ -274,4 +285,5 @@ tup.sort(key **= lambda** x: x[1])#sort a list of tuples by second key
 tup.sort() # sort a list of tuples by 1st key, if 1st keys are same then 2nd key will be used to sort
 
 ## References
--   <https://www.datacamp.com/community/tutorials/18-most-common-python-list-questions-learn-python>
+
+- <https://www.datacamp.com/community/tutorials/18-most-common-python-list-questions-learn-python>

@@ -62,13 +62,13 @@ Getting data from two dimensional data structure
 
 ## Variables
 
-1.  Character (Surrounded by double quotes)
+1. Character (Surrounded by double quotes)
 
-2.  Numeric
+2. Numeric
 
-3.  Logical (Boolean) (TRUE/FALSE)
+3. Logical (Boolean) (TRUE/FALSE)
 
-4.  vector - a vector is list of data that is all of the same data type.
+4. vector - a vector is list of data that is all of the same data type.
 
 >>> listOfNumbers <- c(1,5,91,42.8,100008.41)
 
@@ -76,7 +76,7 @@ Getting data from two dimensional data structure
 
 >>> listOfNumbers[3] # get the 3rd item from the vector, uses 1st indexing
 
-5.  Data Structures
+5. Data Structures
 
     a.  lists
 
@@ -87,9 +87,10 @@ Getting data from two dimensional data structure
     d.  tibble (data_frame data structure <- tidyverse package
 
 tibble()is a nice way to create data frames.
--   Printing
--   Subsetting
--   Recycling
+
+- Printing
+- Subsetting
+- Recycling
 
 <https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html>
 
@@ -117,8 +118,6 @@ summarise(averageRating = mean(Rating),
 
 sdRating = sd(Rating))
 
-
-
 # Return the average and sd of ratings by the year a rating was given
 
 chocolateData %>%
@@ -137,7 +136,7 @@ sdRating = sd(Rating))
 
 The tidyverse is an opinionated[collection of R packages](https://www.tidyverse.org/packages)designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
-<https://www.tidyverse.org
+<https://www.tidyverse.org>
 
 ## Others
 

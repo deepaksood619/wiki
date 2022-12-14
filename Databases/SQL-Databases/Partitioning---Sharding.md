@@ -9,9 +9,11 @@ Modified: 2020-10-25 22:31:09 +0500
 ## Partitioning/Sharding Data
 
 We cannot store 1 Trillion entries in a database, so we can shard / split / divide databases into parts where one part is responsible for that amount of data.
+
 ## Partitioning vs Sharding
 
-## Shard is also commonly used to mean "shared nothing" partitioning. But it's also possible to have a "shared nothing" architecture without partitioning.
+## Shard is also commonly used to mean "shared nothing" partitioning. But it's also possible to have a "shared nothing" architecture without partitioning
+
 A partition is a physically separate file that comprises a subset of rows of a logical file, which occupies the same CPU+memory+storage node as its peer partitions.
 A shard is a physical compute node comprised of CPU+memory+storage. A shard's schema (and integrity constraints) may be replicated across as many shards as needed. Shards may contain unpartioned and partitioned tables.
 When using shards and partitions together we effectively have two keys which we can use to chunk out the data. How we decide to choose those keys depends on the query biases of the main applications reading and writing data.
@@ -29,15 +31,19 @@ It can be helpful to think of horizontal partitioning in terms of how it relates
 ## Logical vs Physical Shard
 
 Sharding involves breaking up one's data into two or more smaller chunks, calledlogical shards. The logical shards are then distributed across separate database nodes, referred to asphysical shards, which can hold multiple logical shards. Despite this, the data held within all the shards collectively represent an entire logical dataset.
-## ShardorPartition Key**is a portion of primary key which determines how data should be distributed. A partition key allows you to retrieve and modify data efficiently by routing operations to the correct database. Entries with the same partition key are stored in the same node. A**logical shard**is a collection of data sharing the same partition key. A database node, sometimes referred as a**physical shard, contains multiple logical shards.
+
+## ShardorPartition Key**is a portion of primary key which determines how data should be distributed. A partition key allows you to retrieve and modify data efficiently by routing operations to the correct database. Entries with the same partition key are stored in the same node. A**logical shard**is a collection of data sharing the same partition key. A database node, sometimes referred as a**physical shard, contains multiple logical shards
+
 Database shards exemplify a[shared-nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture). This means that the shards are autonomous; they don't share any of the same data or computing resources. In some cases, though, it may make sense to replicate certain tables into each shard to serve as reference tables. For example, let's say there's a database for an application that depends on fixed conversion rates for weight measurements. By replicating a table containing the necessary conversion rate data into each shard, it would help to ensure that all of the data required for queries is held in every shard.
 Oftentimes, sharding is implemented at the application level, meaning that the application includes code that defines which shard to transmit reads and writes to. However, some database management systems have sharding capabilities built in, allowing you to implement sharding directly at the database level.
+
 ## Benefits of Sharding
 
 The main appeal of sharding a database is that it can help to facilitatehorizontal scaling, also known asscaling out. Horizontal scaling is the practice of adding more machines to an existing stack in order to spread out the load and allow for more traffic and faster processing. This is often contrasted withvertical scaling, otherwise known asscaling up, which involves upgrading the hardware of an existing server, usually by adding more RAM or CPU.
 It's relatively simple to have a relational database running on a single machine and scale it up as necessary by upgrading its computing resources. Ultimately, though, any non-distributed database will be limited in terms of storage and compute power, so having the freedom to scale horizontally makes your setup far more flexible.
 Another reason why some might choose a sharded database architecture is to speed up query response times. When you submit a query on a database that hasn't been sharded, it may have to search every row in the table you're querying before it can find the result set you're looking for. For an application with a large, monolithic database, queries can become prohibitively slow. By sharding one table into multiple, though, queries have to go over fewer rows and their result sets are returned much more quickly.
 Sharding can also help to make an application more reliable by mitigating the impact of outages. If your application or website relies on an unsharded database, an outage has the potential to make the entire application unavailable. With a sharded database, though, an outage is likely to affect only a single shard. Even though this might make some parts of the application or website unavailable to some users, the overall impact would still be less than if the entire database crashed.
+
 ## Drawbacks of Sharding
 
 While sharding a database can make scaling easier and improve performance, it can also impose certain limitations. Here, we'll discuss some of these and why they might be reasons to avoid sharding altogether.
@@ -45,6 +51,7 @@ The first difficulty that people encounter with sharding is the sheer complexity
 One problem that users sometimes encounter after having sharded a database is that the shards eventually become unbalanced. By way of example, let's say you have a database with two separate shards, one for customers whose last names begin with letters A through M and another for those whose names begin with the letters N through Z. However, your application serves an inordinate amount of people whose last names start with the letter G. Accordingly, the A-M shard gradually accrues more data than the N-Z one, causing the application to slow down and stall out for a significant portion of your users. The A-M shard has become what is known as adatabase hotspot. In this case, any benefits of sharding the database are canceled out by the slowdowns and crashes. The database would likely need to be repaired and resharded to allow for a more even data distribution.
 Another major drawback is that once a database has been sharded, it can be very difficult to return it to its unsharded architecture. Any backups of the database made before it was sharded won't include data written since the partitioning. Consequently, rebuilding the original unsharded architecture would require merging the new partitioned data with the old backups or, alternatively, transforming the partitioned DB back into a single DB, both of which would be costly and time consuming endeavors.
 A final disadvantage to consider is that sharding isn't natively supported by every database engine. For instance, PostgreSQL does not include automatic sharding as a feature, although it is possible to manually shard a PostgreSQL database. There are a number of Postgres forks that do include automatic sharding, but these often trail behind the latest PostgreSQL release and lack certain other features. Some specialized database technologies --- like MySQL Cluster or certain database-as-a-service products like MongoDB Atlas --- do include auto-sharding as a feature, but vanilla versions of these database management systems do not. Because of this, sharding often requires a "roll your own" approach. This means that documentation for sharding or tips for troubleshooting problems are often difficult to find.
+
 ## Sharding Architectures
 
 ## Algorithmic vs Dynamic Sharding
@@ -56,6 +63,7 @@ An algorithmically sharded database, with a simple sharding function
 ![image](media/Partitioning---Sharding-image3.png)
 
 A dynamic sharding scheme using range based partitioning.
+
 ## Entity Groups
 
 ![Cluster ](media/Partitioning---Sharding-image4.png)
@@ -63,11 +71,11 @@ A dynamic sharding scheme using range based partitioning.
 Entity Groups partitions all related tables together
 The concept of entity groups is very simple. Store related entities in the same partition to provide additional capabilities within a single partition. Specifically:
 
-1.  Queries within a single physical shard are efficient.
+1. Queries within a single physical shard are efficient.
 
-2.  Stronger consistency semantics can be achieved within a shard.
+2. Stronger consistency semantics can be achieved within a shard.
 <https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6>
-1.  **Key/Hash based sharding**
+1. **Key/Hash based sharding**
 
 Key based sharding, also known ashash based sharding, involves using a value taken from newly written data --- such as a customer's ID number, a client application's IP address, a ZIP code, etc. --- and plugging it into ahash functionto determine which shard the data should go to. A hash function is a function that takes as input a piece of data (for example, a customer email) and outputs a discrete value, known as ahash value. In the case of sharding, the hash value is a shard ID used to determine which shard the incoming data will be stored on. Altogether, the process looks like this:
 
@@ -121,14 +129,15 @@ While directory based sharding is the most flexible of the sharding methods disc
 
 Whether or not one should implement a sharded database architecture is almost always a matter of debate. Some see sharding as an inevitable outcome for databases that reach a certain size, while others see it as a headache that should be avoided unless it's absolutely necessary, due to the operational complexity that sharding adds.
 Because of this added complexity, sharding is usually only performed when dealing with very large amounts of data. Here are some common scenarios where it may be beneficial to shard a database:
--   The amount of application data grows to exceed the storage capacity of a single database node.
--   The volume of writes or reads to the database surpasses what a single node or its read replicas can handle, resulting in slowed response times or timeouts.
--   The network bandwidth required by the application outpaces the bandwidth available to a single database node and any read replicas, resulting in slowed response times or timeouts.
+
+- The amount of application data grows to exceed the storage capacity of a single database node.
+- The volume of writes or reads to the database surpasses what a single node or its read replicas can handle, resulting in slowed response times or timeouts.
+- The network bandwidth required by the application outpaces the bandwidth available to a single database node and any read replicas, resulting in slowed response times or timeouts.
 Before sharding, you should exhaust all other options for optimizing your database. Some optimizations you might want to consider include:
--   Setting up a remote database. If you're working with a monolithic application in which all of its components reside on the same server, you can improve your database's performance by moving it over to its own machine. This doesn't add as much complexity as sharding since the database's tables remain intact. However, it still allows you to vertically scale your database apart from the rest of your infrastructure.
--   Implementing[caching](https://en.wikipedia.org/wiki/Database_caching). If your application's read performance is what's causing you trouble, caching is one strategy that can help to improve it. Caching involves temporarily storing data that has already been requested in memory, allowing you to access it much more quickly later on.
--   Creating one or more read replicas. Another strategy that can help to improve read performance, this involves copying the data from one database server (theprimary server) over to one or moresecondary servers. Following this, every new write goes to the primary before being copied over to the secondaries, while reads are made exclusively to the secondary servers. Distributing reads and writes like this keeps any one machine from taking on too much of the load, helping to prevent slowdowns and crashes. Note that creating read replicas involves more computing resources and thus costs more money, which could be a significant constraint for some.
--   Upgrading to a larger server. In most cases, scaling up one's database server to a machine with more resources requires less effort than sharding. As with creating read replicas, an upgraded server with more resources will likely cost more money. Accordingly, you should only go through with resizing if it truly ends up being your best option.
+- Setting up a remote database. If you're working with a monolithic application in which all of its components reside on the same server, you can improve your database's performance by moving it over to its own machine. This doesn't add as much complexity as sharding since the database's tables remain intact. However, it still allows you to vertically scale your database apart from the rest of your infrastructure.
+- Implementing[caching](https://en.wikipedia.org/wiki/Database_caching). If your application's read performance is what's causing you trouble, caching is one strategy that can help to improve it. Caching involves temporarily storing data that has already been requested in memory, allowing you to access it much more quickly later on.
+- Creating one or more read replicas. Another strategy that can help to improve read performance, this involves copying the data from one database server (theprimary server) over to one or moresecondary servers. Following this, every new write goes to the primary before being copied over to the secondaries, while reads are made exclusively to the secondary servers. Distributing reads and writes like this keeps any one machine from taking on too much of the load, helping to prevent slowdowns and crashes. Note that creating read replicas involves more computing resources and thus costs more money, which could be a significant constraint for some.
+- Upgrading to a larger server. In most cases, scaling up one's database server to a machine with more resources requires less effort than sharding. As with creating read replicas, an upgraded server with more resources will likely cost more money. Accordingly, you should only go through with resizing if it truly ends up being your best option.
 <https://www.digitalocean.com/community/tutorials/understanding-database-sharding>
 
 High Scalability - <http://highscalability.com/unorthodox-approach-database-design-coming-shard>
@@ -139,10 +148,13 @@ High Scalability - <http://highscalability.com/unorthodox-approach-database-desi
 
 MySQL partitioning is about altering -- ideally, optimizing -- the way the database engine physically stores data. It allows you to distribute portions of table data (a.k.a. partitions) across the file system based on a set of user-defined rules (a.k.a. the "partitioning function"). In this way, if the queries you perform access only a fraction of table data and the partitioning function is properly set, there will be less to scan and queries will be faster.
 It is important to note that partitioning makes the most sense when dealing with large data sets. If you have fewer than a million rows or only thousands of records, partitioning will not make a difference.
+
 ## Advantages
--   **Storage:**It is possible to store more data in one table than can be held on a single disk or file system partition.
--   **Deletion:**Dropping a useless partition is almost instantaneous, but a classicalDELETEquery run in a very large table could take minutes.
--   **Partition Pruning:**This is the ability to exclude non-matching partitions and their data from a search; it makes querying faster. Also, MySQL 5.7 supports explicit partition selection in queries, which greatly increases the search speed. (Obviously, this only works if you know in advance which partitions you want to use.) This also applies forDELETE,INSERT,REPLACE, andUPDATEstatements as well asLOAD DATAandLOAD XML.
+
+- **Storage:**It is possible to store more data in one table than can be held on a single disk or file system partition.
+- **Deletion:**Dropping a useless partition is almost instantaneous, but a classicalDELETEquery run in a very large table could take minutes.
+- **Partition Pruning:**This is the ability to exclude non-matching partitions and their data from a search; it makes querying faster. Also, MySQL 5.7 supports explicit partition selection in queries, which greatly increases the search speed. (Obviously, this only works if you know in advance which partitions you want to use.) This also applies forDELETE,INSERT,REPLACE, andUPDATEstatements as well asLOAD DATAandLOAD XML.
+
 ## Partition Types
 
 Four partition types available:RANGE,LIST,HASHandKEY

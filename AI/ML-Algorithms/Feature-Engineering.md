@@ -5,32 +5,34 @@ Created: 2018-07-06 02:56:35 +0500
 Modified: 2021-06-19 14:21:55 +0500
 
 ---
--   Scale to large datasets
--   Find good features
-    -   Synthetic features
--   Preprocess with Cloud MLE
--   Hyperparameter tuning
+
+- Scale to large datasets
+- Find good features
+  - Synthetic features
+- Preprocess with Cloud MLE
+- Hyperparameter tuning
 
 ## Good vs Bad features
--   **Good Feature**
-    -   Be related to objective
-    -   Be known at prediction-time
-    -   Be numeric with meaningful magnitude
-        -   Numeric features
-        -   Able to do mathematical operations
-    -   Have enough examples
-    -   Bring human insight to problem
+
+- **Good Feature**
+  - Be related to objective
+  - Be known at prediction-time
+  - Be numeric with meaningful magnitude
+    - Numeric features
+    - Able to do mathematical operations
+  - Have enough examples
+  - Bring human insight to problem
 
 ![media](media/Feature-Engineering-image1.png)
 
 ![media](media/Feature-Engineering-image2.png)
 
-
--   Sparse Columns
--   If don't know the list of keys, Create a Vocabulary (This is what preprocessing is)
+- Sparse Columns
+- If don't know the list of keys, Create a Vocabulary (This is what preprocessing is)
 
 ![media](media/Feature-Engineering-image3.png)
--   The vocabulary and the mapping of the vocabulary needs to be identical at prediction time.
+
+- The vocabulary and the mapping of the vocabulary needs to be identical at prediction time.
 
 ![media](media/Feature-Engineering-image4.png)
 
@@ -55,9 +57,10 @@ Statistics - I've got all the data I'll ever get, throw away outliers
 ![media](media/Feature-Engineering-image10.png)
 
 #
--   Apache Beam
--   BigQuery
--   TensorFlow
+
+- Apache Beam
+- BigQuery
+- TensorFlow
 
 ![media](media/Feature-Engineering-image11.png)
 
@@ -112,7 +115,8 @@ Statistics - I've got all the data I'll ever get, throw away outliers
 ![media](media/Feature-Engineering-image34.png)
 
 #
--   Ingesting, Transforming and Analyzing Taxi Data
+
+- Ingesting, Transforming and Analyzing Taxi Data
 
 # Feature Crosses
 
@@ -193,9 +197,10 @@ Ex - Distance between house and metro station (public transport) is a key for ho
 ![media](media/Feature-Engineering-image63.png)
 
 Feature engineering can be done in 3 places
--   Training
--   Evaluation
--   Serving
+
+- Training
+- Evaluation
+- Serving
 
 ![media](media/Feature-Engineering-image64.png)
 
@@ -209,8 +214,7 @@ tf.transform allows users to define preprocessing pipelines and run these using 
 
 ![media](media/Feature-Engineering-image67.png)
 
-
--   Feature cross is only useful when we have a large dataset since it's memorization so for each bucket there must be enough samples.
+- Feature cross is only useful when we have a large dataset since it's memorization so for each bucket there must be enough samples.
 
 # TensorFlow Transform
 
@@ -230,7 +234,6 @@ tf.transform allows users to define preprocessing pipelines and run these using 
 
 ![media](media/Feature-Engineering-image73.png)
 
-
 ![media](media/Feature-Engineering-image74.png)
 
 # Transform Phase
@@ -246,8 +249,9 @@ tf.transform allows users to define preprocessing pipelines and run these using 
 ![media](media/Feature-Engineering-image79.png)
 
 ### Summary
--   Convert raw data into features
--   Preprocess data in such a way that the preprocessing is also done during serving
--   Choose among the various feature columns in TensorFlow
--   Memorize large datasets using feature crosses and simple models
--   Simplify preprocessing pipelines using TensorFlow Transform
+
+- Convert raw data into features
+- Preprocess data in such a way that the preprocessing is also done during serving
+- Choose among the various feature columns in TensorFlow
+- Memorize large datasets using feature crosses and simple models
+- Simplify preprocessing pipelines using TensorFlow Transform

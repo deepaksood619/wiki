@@ -10,46 +10,49 @@ Arelational databaseis a database that organizes information into one or more ta
 Atableis a collection of data organized into rows and columns. Tables are sometimes referred to asrelations. Here the table iscelebs.
 Acolumnis a set of data values of a particular type. Here,id,name, andageare the columns.
 Arowis a single record in a table. The first row in thecelebstable has:
--   Anidof1
--   AnameofJustin Bieber
--   Anageof22
+
+- Anidof1
+- AnameofJustin Bieber
+- Anageof22
 All data stored in a relational database is of a certain data type. Some of the most common data types are:
--   INTEGER, a positive or negative whole number
--   TEXT, a text string
--   DATE, the date formatted as YYYY-MM-DD
--   REAL, a decimal value
+- INTEGER, a positive or negative whole number
+- TEXT, a text string
+- DATE, the date formatted as YYYY-MM-DD
+- REAL, a decimal value
+
 ## SQL Databases
 
-1.  Oracle Database
+1. Oracle Database
 
-2.  MySQL
+2. MySQL
 
-3.  Microsoft SQL Server
+3. Microsoft SQL Server
 
-4.  IBM DB2
+4. IBM DB2
 
-5.  Postgres
-1.  MySQL
+5. Postgres
+1. MySQL
 
     a.  MySQL is the most popular open source SQL database. It is typically used for web application development, and often accessed using PHP.
 
     b.  The main advantages of MySQL are that it is easy to use, inexpensive, reliable (has been around since 1995) and has a large community of developers who can help answer questions.
 
     c.  Some of the disadvantages are that it has been known to suffer from poor performance when scaling, open source development has lagged since Oracle has taken control of MySQL, and it does not include some advanced features that developers may be used to.
-2.  Oracle DB
+2. Oracle DB
 
     a.  Oracle corporation owns Oracle DB, and the code is not open source.
 
     b.  Oracle DB is for large applications, particularly in the banking industry. Most of the world's top banks run Oracle applications because Oracle offers a powerful combination of technology and comprehensive, pre-integrated business applications, including essential functionality built specifically for banks.
 
     c.  The main disadvantage of using Oracle is that it is not free to use like its open source competitors and can be quite expensive.
-3.  SQL Server
+3. SQL Server
 
     a.  Microsoft owns SQL Server. Like Oracle DB, the code is also close sourced.
 
     b.  Large enterprise applications mostly use SQL Server. The key difference between Oracle and SQL Server is that SQL Server only supports the Windows Operating System.
 
     c.  Microsoft offers a free entry-level version calledExpressbut can become very expensive as you scale your application.
+
 ## SQL Server Integration Service (SSIS)
 
 SQL Server Integration Services(SSIS) is a component of the[Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)database software that can be used to perform a broad range of[data migration](https://en.wikipedia.org/wiki/Data_migration)tasks.

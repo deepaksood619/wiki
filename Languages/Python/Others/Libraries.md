@@ -11,35 +11,38 @@ nose packages
 ## Pypy
 
 PyPy is a[fast](http://speed.pypy.org/),[compliant](https://pypy.org/compat.html)alternative implementation of the[Python](http://python.org/)language (2.7.13 and 3.5.3). It has several advantages and distinct features:
--   **Speed:**thanks to its Just-in-Time compiler, Python programs often run[faster](http://speed.pypy.org/)on PyPy.[(What is a JIT compiler?)](http://en.wikipedia.org/wiki/Just-in-time_compilation)
+
+- **Speed:**thanks to its Just-in-Time compiler, Python programs often run[faster](http://speed.pypy.org/)on PyPy.[(What is a JIT compiler?)](http://en.wikipedia.org/wiki/Just-in-time_compilation)
     "If you want your code to run faster, you should probably just use PyPy." --- Guido van Rossum (creator of Python)
--   **Memory usage:**memory-hungry Python programs (several hundreds of MBs or more) might end up taking[less space](http://morepypy.blogspot.com/2009/10/gc-improvements.html)than they do in CPython.
--   **Compatibility:**PyPy is[highly compatible](https://pypy.org/compat.html)with existing python code. It supports[cffi](https://cffi.readthedocs.org/)and can run popular python libraries like[twisted](https://twistedmatrix.com/)and[django](https://www.djangoproject.com/).
--   **Stackless:**PyPy comes by default with support for[stackless mode](https://pypy.org/features.html#stackless), providing micro-threads for massive concurrency.
+- **Memory usage:**memory-hungry Python programs (several hundreds of MBs or more) might end up taking[less space](http://morepypy.blogspot.com/2009/10/gc-improvements.html)than they do in CPython.
+- **Compatibility:**PyPy is[highly compatible](https://pypy.org/compat.html)with existing python code. It supports[cffi](https://cffi.readthedocs.org/)and can run popular python libraries like[twisted](https://twistedmatrix.com/)and[django](https://www.djangoproject.com/).
+- **Stackless:**PyPy comes by default with support for[stackless mode](https://pypy.org/features.html#stackless), providing micro-threads for massive concurrency.
 
 ## Django-model-utils
--   Django model mixins and utilities.
--   Fields
-    -   StatusField
-    -   MonitorField
-    -   SplitField
--   Models
-    -   TimeFramedModel
-    -   TimeStampedModel
-    -   StatusModel
-    -   SoftDeletableModel
--   Model Managers
-    -   InheritanceManager
+
+- Django model mixins and utilities.
+- Fields
+  - StatusField
+  - MonitorField
+  - SplitField
+- Models
+  - TimeFramedModel
+  - TimeStampedModel
+  - StatusModel
+  - SoftDeletableModel
+- Model Managers
+  - InheritanceManager
 
 This manager should be attached to a base model class in a model-inheritance tree. It allows queries on that base model to return heterogenous results of the actual proper subtypes, without any additional queries.
--   QueryManager
--   SoftDeletableManager
--   Mixins
 
--   Miscellaneous Utilities
-    -   Choices
-    -   Field Tracker
--   <https://django-model-utils.readthedocs.io/en/latest/managers.html>
+- QueryManager
+- SoftDeletableManager
+- Mixins
+
+- Miscellaneous Utilities
+  - Choices
+  - Field Tracker
+- <https://django-model-utils.readthedocs.io/en/latest/managers.html>
 
 ## PyFlame
 
@@ -59,7 +62,7 @@ py-spy is a sampling profiler for Python programs. It lets you visualize what yo
 
 <https://gitlab.com/pythonspeed/filprofiler>
 
-<https://pythonspeed.com/articles/memory-profiler-data-scientists
+<https://pythonspeed.com/articles/memory-profiler-data-scientists>
 
 ## HorusLP
 
@@ -81,7 +84,7 @@ Nativedatetimeinstances are enough for basic cases but when you face more comple
 
 <https://github.com/sdispater/pendulum>
 
-<https://pendulum.eustace.io
+<https://pendulum.eustace.io>
 
 ## pyqt
 
@@ -109,7 +112,7 @@ A command-line utility that creates projects fromcookiecutters(project templates
 
 python-magic is a Python interface to the libmagic file type identification library. libmagic identifies file types by checking their headers according to a predefined list of file types. This functionality is exposed to the command line by the Unix commandfile.
 
-<https://pypi.org/project/python-magic
+<https://pypi.org/project/python-magic>
 
 ## GUI
 
@@ -119,11 +122,11 @@ Tkinter ► GUI
 
 wxPython ► GUI toolkit
 
-<https://wxpython.org
+<https://wxpython.org>
 
 PyQt ► GUI toolkit
 
-<https://pypi.org/project/PyQt5
+<https://pypi.org/project/PyQt5>
 
 ## Web
 
@@ -133,7 +136,7 @@ Requests ► HTTP library/Web
 
 Scrapy ► webscraping
 
-<https://scrapy.org
+<https://scrapy.org>
 
 BeautifulSoup ► parsing/webscraping <https://www.crummy.com/software/Beaut>...
 
@@ -145,7 +148,7 @@ Zappa ► server-less application on API Gateway and Amazon Web Services Lambda
 
 Poetry ► manage python packaging and dependencies
 
-<https://python-poetry.org
+<https://python-poetry.org>
 
 Pywin32 ► Interact with Windows
 
@@ -161,7 +164,7 @@ Loguru ► python logging
 
 Babel - the Python Internationalization Library - <https://github.com/python-babel/babel>
 
-<https://tryolabs.com/blog/2019/12/10/top-10-python-libraries-of-2019
+<https://tryolabs.com/blog/2019/12/10/top-10-python-libraries-of-2019>
 
 <https://dev.to/squash/16-amazing-python-libraries-you-should-be-using-now-2020-updated-2aja>
 
@@ -173,23 +176,23 @@ An in-process scheduler for periodic jobs that uses the builder pattern for conf
 
 <https://github.com/dbader/schedule>
 
-<https://schedule.readthedocs.io/en/stable
+<https://schedule.readthedocs.io/en/stable>
 
 ## pyglet
 
 3d animation and game creation engine
 
-<http://pyglet.org
+<http://pyglet.org>
 
 ## pygame
 
-<https://www.pygame.org
+<https://www.pygame.org>
 
 ![image](media/Libraries-image1.png)
 
 ![image](media/Libraries-image2.png)
 
-<https://humberto.io/blog/exploring-pygame-5-movement-and-collision
+<https://humberto.io/blog/exploring-pygame-5-movement-and-collision>
 
 ## pygal
 
@@ -201,4 +204,4 @@ An in-process scheduler for periodic jobs that uses the builder pattern for conf
 
 Jinja2 is a full-featured template engine for Python. It has full unicode support, an optional integrated sandboxed execution environment, widely used and BSD licensed.
 
-<https://palletsprojects.com/p/jinja
+<https://palletsprojects.com/p/jinja>

@@ -12,9 +12,9 @@ TheCommon Table Expressions (CTE)were introduced into standard SQL in order to s
 
 <https://dev.to/helenanders26/why-you-should-use-sql-ctes-25lk>
 
-<https://www.geeksforgeeks.org/cte-in-sql
+<https://www.geeksforgeeks.org/cte-in-sql>
 
-<https://www.essentialsql.com/introduction-common-table-expressions-ctes
+<https://www.essentialsql.com/introduction-common-table-expressions-ctes>
 
 ## When should I use a unique contraint instead of a unique index
 
@@ -49,12 +49,13 @@ Note that if you use both a unique constraint and a unique index on the same fie
 1000 rows at a time: 1.17 - 1.17 seconds
 
 The time required for inserting a row is determined by the following factors, where the numbers indicate approximate proportions:
--   Connecting: (3)
--   Sending query to server: (2)
--   Parsing query: (2)
--   Inserting row: (1 × size of row)
--   Inserting indexes: (1 × number of indexes)
--   Closing: (1)
+
+- Connecting: (3)
+- Sending query to server: (2)
+- Parsing query: (2)
+- Inserting row: (1 × size of row)
+- Inserting indexes: (1 × number of indexes)
+- Closing: (1)
 
 From this it should be obvious, that sending one large statement will save you an overhead of 7 per insert statement, which in further reading the text also says:
 

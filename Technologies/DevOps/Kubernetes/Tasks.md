@@ -10,17 +10,17 @@ Modified: 2022-01-19 13:35:32 +0500
 
 ## Auditing
 
-<https://kubernetes.io/docs/tasks/debug-application-cluster/audit
+<https://kubernetes.io/docs/tasks/debug-application-cluster/audit>
 
-<https://www.cncf.io/blog/2019/12/03/kubernetes-audit-making-log-auditing-a-viable-practice-again
+<https://www.cncf.io/blog/2019/12/03/kubernetes-audit-making-log-auditing-a-viable-practice-again>
 
-<https://www.cncf.io/webinars/k8s-audit-logging-deep-dive
+<https://www.cncf.io/webinars/k8s-audit-logging-deep-dive>
 
 ## Administer a Cluster
 
-<https://kubernetes.io/docs/tasks/administer-cluster/kms-provider
+<https://kubernetes.io/docs/tasks/administer-cluster/kms-provider>
 
-<https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data
+<https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data>
 
 ## Horizontal Pod Autoscaler (HPA)
 
@@ -36,7 +36,7 @@ When managing the scale of a group of replicas using the Horizontal Pod Autoscal
 
 desiredReplicas = ceil[currentReplicas * ( currentMetricValue / desiredMetricValue )]
 
-<https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale
+<https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale>
 
 ## PLEG - Pod Lifecycle Event Generator
 

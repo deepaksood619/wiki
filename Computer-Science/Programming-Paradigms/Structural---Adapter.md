@@ -11,16 +11,21 @@ But in this design pattern also we have to make 3 calls to the 3 adapters everyt
 ![image](media/Structural---Adapter-image1.jpg)
 
 So, as you can see in the picture, the purpose of the adapter is totake one interface and make it compatible with another. In programming, its purpose is the same - you'll want to use this pattern when you have some type/class and you want to make it compatible with another.
+
 ## How to do the trick?
 
 In Java, this is done bycreating an Adapter class, whichextends the type we target (our desired interface)andstores a reference to Adaptee (object that needs to be adapted).
+
 ## Elements of the pattern
--   Target - our desired type
--   Adaptee - type that needs to be adapted
--   Adapter - class that makes Adaptee compatible with Target
+
+- Target - our desired type
+- Adaptee - type that needs to be adapted
+- Adapter - class that makes Adaptee compatible with Target
+
 ## Relations between components
 
 The client of our code (i.e. any place where our classes are used) use Adapters methods, which are compatible with Targets interface, butthe work underneath is delegated to Adaptee object.
+
 ## Code example
 
 If you have any difficulties understanding the purpose of this pattern, looking at some code should definitely help.
@@ -53,14 +58,14 @@ private final Adaptee adaptee = new Adaptee();
 
 public String getFirstName() {
 
-return adaptee.getFullName().split(" ")[0]; // just a dumb example impl
+return adaptee.getFullName().split[" "](0); // just a dumb example impl
 
 }
 @Override
 
 public String getLastName() {
 
-return adaptee.getFullName().split(" ")[1]; // just a dumb example impl
+return adaptee.getFullName().split[" "](1); // just a dumb example impl
 
 }
 }
@@ -95,7 +100,7 @@ public String getFirstName() {
 
 // use adaptee
 
-return adaptee.getFullName().split(" ")[0];
+return adaptee.getFullName().split[" "](0);
 
 }
 <https://talkoverflow.com/adapter>

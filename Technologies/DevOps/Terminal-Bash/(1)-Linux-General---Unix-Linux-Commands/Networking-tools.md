@@ -8,25 +8,25 @@ Modified: 2022-01-07 15:29:44 +0500
 
 ![No alternative text description for this image](../../../media/DevOps-Terminal-Bash-Networking-tools-image1.jpg)
 
-<https://haydenjames.io/linux-networking-commands-scripts
+<https://haydenjames.io/linux-networking-commands-scripts>
 
-1.  [aria2](https://aria2.github.io/)--downloading just about everything. Torrents included.
+1. [aria2](https://aria2.github.io/)--downloading just about everything. Torrents included.
 
-2.  [arpwatch](https://linux.die.net/man/8/arpwatch)--Ethernet Activity Monitor.
+2. [arpwatch](https://linux.die.net/man/8/arpwatch)--Ethernet Activity Monitor.
 
-3.  [bmon](https://github.com/tgraf/bmon)--bandwidth monitor and rate estimator.
+3. [bmon](https://github.com/tgraf/bmon)--bandwidth monitor and rate estimator.
 
-4.  [bwm-ng](https://www.gropp.org/?id=projects&sub=bwm-ng)--live network bandwidth monitor.
+4. [bwm-ng](https://www.gropp.org/?id=projects&sub=bwm-ng)--live network bandwidth monitor.
 
-5.  [curl](https://curl.haxx.se/)--transferring data with URLs. (or try[httpie](https://httpie.org/))
+5. [curl](https://curl.haxx.se/)--transferring data with URLs. (or try[httpie](https://httpie.org/))
 
-6.  [darkstat](https://unix4lyfe.org/darkstat/)-- captures network traffic, usage statistics.
+6. [darkstat](https://unix4lyfe.org/darkstat/)-- captures network traffic, usage statistics.
 
-7.  [dhclient](https://linux.die.net/man/8/dhclient)-- Dynamic Host Configuration Protocol Client
+7. [dhclient](https://linux.die.net/man/8/dhclient)-- Dynamic Host Configuration Protocol Client
 
-8.  [dig](https://linux.die.net/man/1/dig)--query DNS servers for information.
+8. [dig](https://linux.die.net/man/1/dig)--query DNS servers for information.
 
-9.  [dstat](https://github.com/dagwieers/dstat)--replacement for vmstat, iostat, mpstat, netstat and ifstat.
+9. [dstat](https://github.com/dagwieers/dstat)--replacement for vmstat, iostat, mpstat, netstat and ifstat.
 
 10. [ethtool](https://mirrors.edge.kernel.org/pub/software/network/ethtool/)--utility for controlling network drivers and hardware.
 

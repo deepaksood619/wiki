@@ -26,44 +26,45 @@ VS Code in the browser
 
 <https://github.com/cdr/code-server>
 
-<https://coder.com
+<https://coder.com>
 
-<https://vscode.dev
+<https://vscode.dev>
 
 <https://github.com/conwnet/github1s>
 
-Gitpod - <https://www.freecodecamp.org/news/exampro-cloud-developer-environment-certification-gitpod-course
+Gitpod - <https://www.freecodecamp.org/news/exampro-cloud-developer-environment-certification-gitpod-course>
 
 codeanywhere
 
 # Extensions
--   Docker
--   Kubernetes
--   **[Git graph]{.underline}**
--   Python
--   Terraform
--   Local History
--   Clipboard History
--   Remote - Containers
--   **[SonarLint]{.underline}**
--   Data Preview (>Data: Preview Data)
--   **[Git Lens]{.underline}**
--   Version Lens
--   Prettier
--   Format Toggle
--   Settings Sync
--   Cobalt2
--   Multiple clipboards for VSCode
--   **Live Share**
--   **Settingssync**
--   **[CSV]{.underline}**
-    -   **[Excel Viewer]{.underline}**
-    -   **[RainbowCSV]{.underline}**
--   **[Reverse Search]{.underline}**
--   **[Thunder client - postman for vscode]{.underline}**
--   draw.io extension (test.dio file)
--   <https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode>
--   <https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager>
+
+- Docker
+- Kubernetes
+- **[Git graph]{.underline}**
+- Python
+- Terraform
+- Local History
+- Clipboard History
+- Remote - Containers
+- **[SonarLint]{.underline}**
+- Data Preview (>Data: Preview Data)
+- **[Git Lens]{.underline}**
+- Version Lens
+- Prettier
+- Format Toggle
+- Settings Sync
+- Cobalt2
+- Multiple clipboards for VSCode
+- **Live Share**
+- **Settingssync**
+- **[CSV]{.underline}**
+  - **[Excel Viewer]{.underline}**
+  - **[RainbowCSV]{.underline}**
+- **[Reverse Search]{.underline}**
+- **[Thunder client - postman for vscode]{.underline}**
+- draw.io extension (test.dio file)
+- <https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode>
+- <https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager>
 
 ## Shortcuts
 
@@ -100,29 +101,29 @@ Ctrl + - / Ctrl + Shift + -
 Command Running
 
 Command + p ( + >)
--   git log
+
+- git log
 
 Command + Shit + p (directly run commands)
--   Shell Command : Install code in PATH
--   $ code .
 
+- Shell Command : Install code in PATH
+- $ code .
 
--   **Fold**folds the innermost uncollapsed region at the cursor:
-    -   ⌥+⌘+[on macOS
--   **Unfold**unfolds the collapsed region at the cursor:
-    -   ⌥+⌘+]on macOS
--   **Fold All**folds all regions in the editor:
-    -   ⌘+ (K=>0) (zero) on macOS
--   **Unfold All**unfolds all regions in the editor:
-    -   ⌘+ (K=>J) on macOS
+- **Fold**folds the innermost uncollapsed region at the cursor:
+  - ⌥+⌘+[on macOS
+- **Unfold**unfolds the collapsed region at the cursor:
+  - ⌥+⌘+]on macOS
+- **Fold All**folds all regions in the editor:
+  - ⌘+ (K=>0) (zero) on macOS
+- **Unfold All**unfolds all regions in the editor:
+  - ⌘+ (K=>J) on macOS
 
-
--   Ctrl - (go back)
--   Ctrl Shift - (go forward)
--   Shift Option F (Format document)
--   Option + Command + Up/Down - Multiline cursor
--   **Select All > Option + shift + i - Every line multiline cursor**
--   **Search > Command + Shift + L - Cursor in every searched line**
+- Ctrl - (go back)
+- Ctrl Shift - (go forward)
+- Shift Option F (Format document)
+- Option + Command + Up/Down - Multiline cursor
+- **Select All > Option + shift + i - Every line multiline cursor**
+- **Search > Command + Shift + L - Cursor in every searched line**
 
 ![Visual Studio Code Keyboard shortcuE for macOS Bæic ed.tl 'ump Add Toggle Multi-cursor and selection at end replace Add to Rich languages editing Editor managenrnt File manage m Display Deb ug Integrated terminal Other and ](../../media/DevOps-IDEs-VSCode---VS-Code-image1.png)
 
@@ -133,8 +134,9 @@ Command + Shit + p (directly run commands)
 <https://www.youtube.com/watch?v=ifTF3ags0XI>
 
 ## Settings.json (command + <)
--   User Settings- Settings that apply globally to any instance of VS Code you open.
--   Workspace Settings- Settings stored inside your workspace and only apply when the workspace is opened.
+
+- User Settings- Settings that apply globally to any instance of VS Code you open.
+- Workspace Settings- Settings stored inside your workspace and only apply when the workspace is opened.
 
 {
 
@@ -220,7 +222,7 @@ Command + Shit + p (directly run commands)
 
 "files.exclude": {
 
-"**/__pycache__": true
+"**/**pycache**": true
 
 }
 

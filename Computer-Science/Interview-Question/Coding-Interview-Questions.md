@@ -21,10 +21,12 @@ Platforms
 7 6 5-   Divide a number into perfect grid with minimum waste where number of column is fixed.
 
 Ex - 19 should return 4/5 instead of 3/7
+
 ## Shortest range in k-sorted lists
 
 [SHORTEST RANGE IN K SORTED LISTS - CODING INTERVIEW QUESTION AT GOOGLE, APPLE OR FACEBOOK](https://www.youtube.com/watch?v=zplklOy7ENo)
 ![image](media/Coding-Interview-Questions-image1.jpg)
+
 ## Permutations of a given string
 
 ## # 1 Python
@@ -87,6 +89,7 @@ func(rem, prefix + str.charAt( i ));
 }
 
 ## 3 Python library functions
+
 ```
     from itertools import permutations
 
@@ -94,43 +97,47 @@ func(rem, prefix + str.charAt( i ));
 ```
 
 ## Others
--   <https://www.geeksforgeeks.org/split-the-given-array-into-k-sub-arrays-such-that-maximum-sum-of-all-sub-arrays-is-minimum>
--   <https://practice.geeksforgeeks.org/problems/lru-cache/1>-   **Interview (medium difficulty) - <https://practice.geeksforgeeks.org/problems/largest-even-number3821/1#_=_>**
--   **Easy (5-10 mins max) - [https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1#](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)**
--   **Easy (5-10 mins max) - <https://practice.geeksforgeeks.org/problems/non-repeating-element3958/1>**
--   [**https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1**](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)
--   [**https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1**](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)-   <https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations>
--   <https://www.geeksforgeeks.org/find-local-minima-array>
--   <https://www.geeksforgeeks.org/equilibrium-index-of-an-array>
--   Given k sorted arrays of size n each, merge them and print the sorted output.
--   <https://www.hackerrank.com/challenges/qheap1/problem>
--   [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)
--   <https://practice.geeksforgeeks.org/problems/sort-in-specific-order2422/1>
--   <https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root>
--   <https://www.geeksforgeeks.org/tree-isomorphism-problem>
--   <https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1>
--   <https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1>-   **Medium (O(n)/O(nlogn) - 10 mins, corner cases) - <https://www.hackerrank.com/challenges/flatland-space-stations/problem>**
--   **Medium - <https://www.hackerrank.com/challenges/bigger-is-greater/problem>**
--   **Medium - <https://www.hackerrank.com/challenges/beautiful-triplets/problem>**
--   **Medium - <https://www.hackerrank.com/challenges/kaprekar-numbers/problem>**-   <https://practice.geeksforgeeks.org/problems/coin-change2448/1>
+
+- <https://www.geeksforgeeks.org/split-the-given-array-into-k-sub-arrays-such-that-maximum-sum-of-all-sub-arrays-is-minimum>
+- <https://practice.geeksforgeeks.org/problems/lru-cache/1>-   **Interview (medium difficulty) - <https://practice.geeksforgeeks.org/problems/largest-even-number3821/1#_=_>**
+- **Easy (5-10 mins max) - [https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1#](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)**
+- **Easy (5-10 mins max) - <https://practice.geeksforgeeks.org/problems/non-repeating-element3958/1>**
+- [**https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1**](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)
+- [**https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1**](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)-   <https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations>
+- <https://www.geeksforgeeks.org/find-local-minima-array>
+- <https://www.geeksforgeeks.org/equilibrium-index-of-an-array>
+- Given k sorted arrays of size n each, merge them and print the sorted output.
+- <https://www.hackerrank.com/challenges/qheap1/problem>
+- [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)
+- <https://practice.geeksforgeeks.org/problems/sort-in-specific-order2422/1>
+- <https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root>
+- <https://www.geeksforgeeks.org/tree-isomorphism-problem>
+- <https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1>
+- <https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1>-   **Medium (O(n)/O(nlogn) - 10 mins, corner cases) - <https://www.hackerrank.com/challenges/flatland-space-stations/problem>**
+- **Medium - <https://www.hackerrank.com/challenges/bigger-is-greater/problem>**
+- **Medium - <https://www.hackerrank.com/challenges/beautiful-triplets/problem>**
+- **Medium - <https://www.hackerrank.com/challenges/kaprekar-numbers/problem>**-   <https://practice.geeksforgeeks.org/problems/coin-change2448/1>
 <https://www.geeksforgeeks.org/must-coding-questions-company-wise>
 
 <https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview>
 
 ## Interview**
--   How do you find the missing number in a given integer array of 1 to 100?
--   How do you find the third node from the end in a singly linked list?
--   How do you find all pairs of an integer array whose sum is equal to a given number?
--   How do you find the middle element of a singly linked list ?
--   How do you reverse a singly linked list without recursion?
--   How do you print the first non-repeated character from a string?
--   How is a radix sort algorithm implemented?
--   Write Algorithms to Check if Two String are Anagram
+
+- How do you find the missing number in a given integer array of 1 to 100?
+- How do you find the third node from the end in a singly linked list?
+- How do you find all pairs of an integer array whose sum is equal to a given number?
+- How do you find the middle element of a singly linked list ?
+- How do you reverse a singly linked list without recursion?
+- How do you print the first non-repeated character from a string?
+- How is a radix sort algorithm implemented?
+- Write Algorithms to Check if Two String are Anagram
+
 ## Interview Questions
 
 ## Question - Write a function to return first n number of elements of Fibonacci series (code must be clean and all corners cases handled)
 
 ## Example - For n = 6 return [0,1,1,2,3,5]
+
 ## Question - Write a function to find factorial of a number (code must be clean and all corners cases handled)
 
 ## Example - For n = 5 return 120
@@ -142,17 +149,20 @@ n = 10000000
 for i in range(0, n):
 
 print ( fact (random(0, n) )-   Write a recursive based solution
--   Can you convert this recursion into non-recursive code (using for/while)
--   How can you improve on the current solution (Hint: DP)
+
+- Can you convert this recursion into non-recursive code (using for/while)
+- How can you improve on the current solution (Hint: DP)
+
 ## Question - Design a data structure that supports insert, delete, search and getRandom in constant time
 
-## insert(x): Inserts an item x to the data structure if not already present.
+## insert(x): Inserts an item x to the data structure if not already present
 
-## delete(x): Removes an item x from the data structure if present.
+## delete(x): Removes an item x from the data structure if present
 
-## search(x): Searches an item x in the data structure.
+## search(x): Searches an item x in the data structure
 
 ## getRandom(): Returns a random element from current set of elements
+
 ## Question
 
 Given an array of integers where every integer occurs three times except for one integer,
@@ -162,6 +172,7 @@ which only occurs once, find and return the non-duplicated integer.
 For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
 
 Do this in O(N) time and O(1) space.
+
 ## Question
 
 Given an array of strictly the characters 'R', 'G', and 'B',
@@ -173,32 +184,36 @@ Do this in linear time and in-place.
 For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'],
 
 it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
 ## Question
 
 Given a sorted list of integers, square the elements and give the output in sorted order.
 
 For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
 ## Question
 
 Write a function that prints the least integer that is not present in a given list and cannot be represented by the summation of the sub-elements of the list.
 E.g. Fora = [1,2,5,7]the least integer not represented by the list or a slice of the list is 4, and ifa = [1,2,2,5,7]then the least non-representable integer is 18.
+
 ## Question
 
 How would you optimally calculate p^k, where k is a non-negative integer? What is the complexity of the solution?
 First, let's mention that the trivial solution has the complexity of O(k). The problem can be solved by squaring and multiplying.
-We know that p^k = p^x * p^y if x+y=k. We also know that p^k = (p^a)^b if a*b=k.
+We know that p^k = p^x *p^y if x+y=k. We also know that p^k = (p^a)^b if a*b=k.
 For an even value of k, choosing a = 2 and b = k/2, thus having p^k = (p^2)^(k/2), will reduce the number of required multiplications almost in half. For an odd value of k, choosing x = 1 and y=k-1 will result in y being even, and we can then simply repeat the same process as for the even case. This allows us to define a recursive function:
 
 FUNCTION pow(base, exponent)
 IF exponent == 0
 RETURN 1
 ELSE IF exponent is even
-RETURN pow(base * base, exponent / 2)
+RETURN pow(base *base, exponent / 2)
 ELSE
-RETURN base * pow(base * base, (exponent - 1) / 2)
+RETURN base* pow(base * base, (exponent - 1) / 2)
 END IF
 
 This solution results in a complexity of O(log k).
+
 ## Others
 
 Topological sort
@@ -214,9 +229,10 @@ DAG
 LP Solver
 
 Subset sum
--   N-Queen Problem
--   Word Ladder Problem
--   Knight's Tour Problem
+
+- N-Queen Problem
+- Word Ladder Problem
+- Knight's Tour Problem
 Find all subsets of a given set (recursion + dp)
 
 Find a sum in a subset
@@ -258,12 +274,14 @@ Find the subsequence with largest sum of elements in an array
 Maximum product subarray
 
 Balanced parenthesis problem
-## Writing programming interview questions hasn't made me rich yet ... so I might give up and start trading Apple stocks all day instead.
+
+## Writing programming interview questions hasn't made me rich yet ... so I might give up and start trading Apple stocks all day instead
 
 First, I wanna know how much money Icould havemade yesterday if I'd been trading Apple stocks all day.
 So I grabbed Apple's stock prices from yesterday and put them ina listcalledstock_prices, where:
--   Theindicesare the time (in minutes) past trade opening time, which was 9:30am local time.
--   Thevaluesare the price (in US dollars) of one share of Apple stock at that time.
+
+- Theindicesare the time (in minutes) past trade opening time, which was 9:30am local time.
+- Thevaluesare the price (in US dollars) of one share of Apple stock at that time.
 So if the stock cost $500 at 10:30am, that meansstock_prices[60] = 500.
 Write an efficientfunctionthat takesstock_pricesand returnsthe best profit I could have made from one purchase and one sale of one share of Apple stock yesterday.
 
@@ -272,13 +290,17 @@ For example:
 stock_prices = [10, 7, 5, 8, 11, 9]
 
 get_max_profit(stock_prices)
+
 # Returns 6 (buying for $5 and selling for $11)
 
 No "shorting"---you need to buy before you can sell. Also, you can't buyandsell in the same time step---at least 1 minute has to pass.
+
 ## Gotchas
--   You can't just take the difference between the highest price and the lowest price, because the highest price might comebeforethe lowest price. And you have to buy before you can sell.
--   What if the pricegoes down all day? In that case, the best profit will benegative.
--   You can do this inO(n)O(n)time andO(1)O(1)space!
+
+- You can't just take the difference between the highest price and the lowest price, because the highest price might comebeforethe lowest price. And you have to buy before you can sell.
+- What if the pricegoes down all day? In that case, the best profit will benegative.
+- You can do this inO(n)O(n)time andO(1)O(1)space!
+
 ## Solution -
 
 def best_profit_from_stock(stock_prices):

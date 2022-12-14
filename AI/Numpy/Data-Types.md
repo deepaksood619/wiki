@@ -119,7 +119,7 @@ Modified: 2021-04-09 23:36:05 +0500
 </tr>
 <tr class="odd">
 <td>21</td>
-<td>np.string_ # fixed-length string type</td>
+<td>np.string_# fixed-length string type</td>
 </tr>
 <tr class="even">
 <td>22</td>
@@ -128,32 +128,32 @@ Modified: 2021-04-09 23:36:05 +0500
 </tbody>
 </table>
 
-
 NumPy numerical types are instances of dtype (data-type) objects
 
 ## Data Type Objects (dtype)
 
 A data type object describes interpretation of fixed block of memory corresponding to an array, depending on the following aspects −
--   Type of data (integer, float or Python object)
--   Size of data
--   Byte order (little-endian or big-endian)
--   In case of structured type, the names of fields, data type of each field and part of the memory block taken by each field.
--   If data type is a subarray, its shape and data type
 
+- Type of data (integer, float or Python object)
+- Size of data
+- Byte order (little-endian or big-endian)
+- In case of structured type, the names of fields, data type of each field and part of the memory block taken by each field.
+- If data type is a subarray, its shape and data type
 
 The byte order is decided by prefixing '<' or '>' to data type. '<' means that encoding is little-endian (least significant is stored in smallest address). '>' means that encoding is big-endian (most significant byte is stored in smallest address).
-
 
 A dtype object is constructed using the following syntax
 
 numpy.dtype(object, align, copy)
 
 The parameters are
--   Object− To be converted to data type object
--   Align− If true, adds padding to the field to make it similar to C-struct
--   Copy− Makes a new copy of dtype object. If false, the result is reference to builtin data type object
+
+- Object− To be converted to data type object
+- Align− If true, adds padding to the field to make it similar to C-struct
+- Copy− Makes a new copy of dtype object. If false, the result is reference to builtin data type object
 
 ### Example
+
 ```
 >>> import numpy as np
 
@@ -166,14 +166,15 @@ The parameters are
 ```
 
 Each built-in data type has a character code that uniquely identifies it.
--   'b'− boolean
--   'i'− (signed) integer
--   'u'− unsigned integer
--   'f'− floating-point
--   'c'− complex-floating point
--   'm'− timedelta
--   'M'− datetime
--   'O'− (Python) objects
--   'S', 'a'− (byte-)string
--   'U'− Unicode
--   'V'− raw data (void)
+
+- 'b'− boolean
+- 'i'− (signed) integer
+- 'u'− unsigned integer
+- 'f'− floating-point
+- 'c'− complex-floating point
+- 'm'− timedelta
+- 'M'− datetime
+- 'O'− (Python) objects
+- 'S', 'a'− (byte-)string
+- 'U'− Unicode
+- 'V'− raw data (void)

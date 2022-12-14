@@ -6,23 +6,23 @@ Modified: 2018-09-27 00:04:52 +0500
 
 ---
 
-1.  One-dimensional motion
+1. One-dimensional motion
 
-2.  Two-dimensional motion
+2. Two-dimensional motion
 
-3.  Forces and Newton's laws of motion
+3. Forces and Newton's laws of motion
 
-4.  Centripetal force and gravitation
+4. Centripetal force and gravitation
 
-5.  Work and energy
+5. Work and energy
 
-6.  Impacts and linear momentum
+6. Impacts and linear momentum
 
-7.  Torque and angular momentum
+7. Torque and angular momentum
 
-8.  Osciallations and mechanical waves
+8. Osciallations and mechanical waves
 
-9.  Fluids
+9. Fluids
 
 10. Thermodynamics
 

@@ -14,9 +14,8 @@ Modified: 2021-06-06 16:39:41 +0500
 
 Java Memory Model is a set of rules all JVMs have to follow to ensure correct working of our concurrent programs.
 
-
--   Out of order execution
--   Field Visibility
+- Out of order execution
+- Field Visibility
 
 <https://www.youtube.com/watch?v=Z4hMFBvCDV4>
 
@@ -30,4 +29,4 @@ Examples of contexts in which Jakarta EE referencing runtimes are used are:[e-co
 
 <https://en.wikipedia.org/wiki/Jakarta_EE>
 
-<https://jakarta.ee
+<https://jakarta.ee>

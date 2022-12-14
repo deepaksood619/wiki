@@ -94,8 +94,6 @@ docker run
 confluentinc/cp-kafka:5.1.0
 kafka-topics --describe --topic smap_telemetry_data --zookeeper zookeeper1:2181,zookeeper2:2182,zookeeper3:2183
 
-
-
 ## Start confluent kafka control center
 
 docker run -d
@@ -110,12 +108,12 @@ docker run -d
 -e CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS**=**1
 -e CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS**=**1
 -e CONTROL_CENTER_STREAMS_NUM_STREAM_THREADS**=**2
--e CONTROL_CENTER_CONNECT_CLUSTER**=**http://kafka-connect:8082
+-e CONTROL_CENTER_CONNECT_CLUSTER**=**<http://kafka-connect:8082>
 confluentinc/cp-enterprise-control-center:5.1.0
 
 ## Create data
 
-#19091,19092,19093
+# 19091,19092,19093
 
 docker run
 
@@ -126,11 +124,9 @@ confluentinc/cp-kafka:5.1.0
 bash -c "seq 42 | kafka-console-producer --request-required-acks 1
 --broker-list kafka1:19091,kafka2:19092,kafka3:19093 --topic smap_telemetry_data && echo 'Produced 42 messages.'"
 
-
-
 ## Receive data
 
-#19091,19092,19093
+# 19091,19092,19093
 
 **docker run
 --net=**zenatix-docker **
@@ -138,7 +134,7 @@ bash -c "seq 42 | kafka-console-producer --request-required-acks 1
 confluentinc/cp-kafka:**5.1.0 **
 kafka-console-consumer --bootstrap-server kafka1:19091,kafka2:19092,kafka3:19093 --topic smap_telemetry_data --from-beginning**
 
-#kafka.zenatix.com - 9091,9092,9093
+# kafka.zenatix.com - 9091,9092,9093
 
 docker run
 --net=zenatix-docker
@@ -245,10 +241,11 @@ sudo apt-get install -f
 sudo apt-get install libstdc++6
 
 ## Other commands
--   **./kafka-topics.sh --create --bootstrap-server** my-cluster-kafka-brokers.kafka:9092 **--replication-factor 2 --partitions 3 --topic test_bank_data --config compression.type="snappy"**
--   ./kafka-topics --describe --topic _schemas4 --zookeeper localhost:2181
--   ./kafka-console-producer --broker-list localhost:9092 --topic test
--   ./kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning
+
+- **./kafka-topics.sh --create --bootstrap-server** my-cluster-kafka-brokers.kafka:9092 **--replication-factor 2 --partitions 3 --topic test_bank_data --config compression.type="snappy"**
+- ./kafka-topics --describe --topic _schemas4 --zookeeper localhost:2181
+- ./kafka-console-producer --broker-list localhost:9092 --topic test
+- ./kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning
 
 ## Kafka Commands (inside docker container)
 
@@ -340,7 +337,7 @@ kafka-topics --zookeeper ke-cp-zookeeper-headless:2181 --alter --topic smap_samh
 
 ## sh add_partitions.sh
 
-#!/bin/bash
+# !/bin/bash
 
 VAL="$(kafka-topics --zookeeper ke-cp-zookeeper-headless:2181 --list | grep druid)"
 
@@ -351,8 +348,6 @@ do
 kafka-topics --zookeeper ke-cp-zookeeper-headless:2181 --alter --topic $i --partitions 3
 
 done
-
-
 
 # Create a message
 
@@ -387,11 +382,12 @@ kafka-console-consumer --bootstrap-server ke-cp-kafka-headless:9092 --topic drui
 ## Kafka Consumer Group
 
 ## cd /usr/bin
--   kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --list
--   ./kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --describe --group kafka_prod_to_staging --members --verbose
--   **kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --describe --group** kafka_prod_to_staging **--offsets**
--   **kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --describe --group** kafka_prod_to_staging **--offsets --verbose**
--   kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --delete --group kafka_archiver_consumer_group
+
+- kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --list
+- ./kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --describe --group kafka_prod_to_staging --members --verbose
+- **kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --describe --group** kafka_prod_to_staging **--offsets**
+- **kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --describe --group** kafka_prod_to_staging **--offsets --verbose**
+- kafka-consumer-groups --bootstrap-server ke-cp-kafka-headless:9092 --delete --group kafka_archiver_consumer_group
 
 <https://kafka.apache.org/quickstart>
 

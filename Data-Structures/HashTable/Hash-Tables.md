@@ -14,73 +14,84 @@ Hash tables are extremely fast, having a time complexity that is in the order of
 A function that takes a key and reduces it to an integer (array index) to be mapped to an array.
 
 ## Issues -
--   Computing the hash function
--   Equality test
--   Collision resolution: Algorithm and data structure to handle two keys that hash to the same array index
+
+- Computing the hash function
+- Equality test
+- Collision resolution: Algorithm and data structure to handle two keys that hash to the same array index
 
 ## Classic space-time tradeoff -
--   No space limitation: trivial has function with key as index
--   No time limitation: trivial collision resolution with sequential search
+
+- No space limitation: trivial has function with key as index
+- No time limitation: trivial collision resolution with sequential search
+
 ## Computing the hash function -
 
 Scramble the keys uniformly to produce a table index
--   Efficiently computable
--   Each table index equally likely for each key
+
+- Efficiently computable
+- Each table index equally likely for each key
+
 ## NOTE: Always try to use all the data for calculating hash (try to involve all the bits for computing the hash function)
+
 ## Modular Hashing
 
 Hash code - An int between -2^31 and 2^31 - 1
 
 Hash function - An int between 0 to M-1 (for use as array index)
--   First convert from negative to positive and then use modulus to get it to the size.
+
+- First convert from negative to positive and then use modulus to get it to the size.
 
 ![image](media/Hash-Tables-image1.png)
+
 ## Uniform hashing assumption -
 
 Each key is equally likely to hash to an integer between 0 to M - 1.
 
-1.  Bins and balls Model: Throw balls uniformly at random into M bins
+1. Bins and balls Model: Throw balls uniformly at random into M bins
 
-2.  Birthday problem: Expect two balls in the same bin after ~ sqrt(pie M / 2) tosses.
+2. Birthday problem: Expect two balls in the same bin after ~ sqrt(pie M / 2) tosses.
 
-3.  Coupon collector problem: Expect every bin has >= 1 ball after ~ M ln M tosses.
+3. Coupon collector problem: Expect every bin has >= 1 ball after ~ M ln M tosses.
 
-4.  Load balancing: After M tosses, expect most loaded bin has theta(log M / log log M) balls.
+4. Load balancing: After M tosses, expect most loaded bin has theta(log M / log log M) balls.
 
 ## Collisions - Two distinct keys hashing to same index
--   Birthday problem: can't avoid collisions unless you have a ridiculous (quadratic) amount of memory.
--   Coupon collector + load balancing: collisions are evenly distributed
+
+- Birthday problem: can't avoid collisions unless you have a ridiculous (quadratic) amount of memory.
+- Coupon collector + load balancing: collisions are evenly distributed
 
 ## Collision Resolution methods
 
-1.  **Separate Chaining symbol table**
+1. **Separate Chaining symbol table**
 
 Use linked list for storing the values that hash to the same value.
 ![image](media/Hash-Tables-image2.png)
 
--   Easier to implement delete
--   Performance degrades gracefully
--   Clustering less sensitive to poorly-designed hash function
-2.  **Linear Probing (Open addressing)**
+- Easier to implement delete
+- Performance degrades gracefully
+- Clustering less sensitive to poorly-designed hash function
+
+2. **Linear Probing (Open addressing)**
 
 When a new key collides, find next empty slot, and put it there
 ![Linear probing](media/Hash-Tables-image3.png)
 
--   Less wasted space
--   Better cache performance
+- Less wasted space
+- Better cache performance
 
 ![Linear probing](media/Hash-Tables-image4.png)
 ![Linear probing](media/Hash-Tables-image5.png)
 
 ## Problems
--   Clustering
--   Hash functions are often publically available (like java) so if some client has implemented back-end in java, then an adversary can send some data that can make the Hashing perform poorly and can make the system crash
+
+- Clustering
+- Hash functions are often publically available (like java) so if some client has implemented back-end in java, then an adversary can send some data that can make the Hashing perform poorly and can make the system crash
 
 ## Optimization
 
-1.  Create a bigger hash table when older hash table gets full and rehash all old values to new hash table
+1. Create a bigger hash table when older hash table gets full and rehash all old values to new hash table
 
-2.  Can use Consistent Hashing Functions -
+2. Can use Consistent Hashing Functions -
 
 Consistent Hashing is a special kind of hashing such that when a hash table is resized, only K/n keys need to be remapped on average, where K is the number of the keys, and n is the number of slots. In contrast, in most traditional hash tables, a change in the number of array slots causes nearly all keys to be remapped because the mapping between the keys and slots are defined by a modular operation.
 
@@ -114,6 +125,7 @@ Java system includes both.
 ・Red-black BSTs: java.util.TreeMap, java.util.TreeSet.
 
 ・Hash tables: java.util.HashMap, java.util.IdentityHashMap.
+
 ## Implementation -
 
 All java classes inherit a method hashCode(), which returns a 32 bit int
@@ -124,7 +136,7 @@ All java classes inherit a method hashCode(), which returns a 32 bit int
 
 ## Boolean - return fixed numbers
 
-## Strings - Use Horner's method to hash string and cache the hash value in an instance variable for better performance, since strings are immutable.
+## Strings - Use Horner's method to hash string and cache the hash value in an instance variable for better performance, since strings are immutable
 
 ## User-defined types - Include all method variables in the hash code evaluation. Use hashCode implementation for each data type with some small prime number and multiply by 31
 

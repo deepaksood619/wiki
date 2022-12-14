@@ -7,17 +7,20 @@ Modified: 2021-06-13 20:20:17 +0500
 ---
 
 ## Preface
--   In this lecture, we will discuss machine learning classification algorithm k-means using mapreduce for big data analytics
+
+- In this lecture, we will discuss machine learning classification algorithm k-means using mapreduce for big data analytics
 
 ## Cluster Analysis (Clustering) Overview
--   Goal: Organize similar items into groups
--   In cluster analysis, the goal is to organize similar items in given dataset into groups or clusters. By segmenting given data into clusters, we can analyze each cluster more carefully
+
+- Goal: Organize similar items into groups
+- In cluster analysis, the goal is to organize similar items in given dataset into groups or clusters. By segmenting given data into clusters, we can analyze each cluster more carefully
 
 ## Applications
--   Segment customer base into groups
--   Characterize different weather patterns for a region
--   Group news articles into topics
--   Discover crime hot spots
+
+- Segment customer base into groups
+- Characterize different weather patterns for a region
+- Group news articles into topics
+- Discover crime hot spots
 
 ![image](media/Machine-Learning-Algorithm-K-means-using-Map-Reduce-for-Big-Data-Analytics-image1.png)
 
@@ -46,19 +49,22 @@ Modified: 2021-06-13 20:20:17 +0500
 ![image](media/Machine-Learning-Algorithm-K-means-using-Map-Reduce-for-Big-Data-Analytics-image13.png)
 
 ## Cluster Analysis Summary
--   Organize similar items into groups
--   Analyzing clusters often leads to useful insights about data
--   Clusters require analysis and interpretation
+
+- Organize similar items into groups
+- Analyzing clusters often leads to useful insights about data
+- Clusters require analysis and interpretation
 
 ![image](media/Machine-Learning-Algorithm-K-means-using-Map-Reduce-for-Big-Data-Analytics-image14.png)
 
 ![image](media/Machine-Learning-Algorithm-K-means-using-Map-Reduce-for-Big-Data-Analytics-image15.png)
 
 ## Chossing Initial Centroids
--   Issue:
+
+- Issue:
 
 Final clusters are sensitive to initial centroids
--   Solution:
+
+- Solution:
 
 Run k-means multiple times with different random intitial centroids, and choose best results
 
@@ -75,7 +81,8 @@ Run k-means multiple times with different random intitial centroids, and choose 
 ![image](media/Machine-Learning-Algorithm-K-means-using-Map-Reduce-for-Big-Data-Analytics-image21.png)
 
 ## K-Means summary
--   Classic algorithm for cluster analysis
--   Simple to understand and implement and is efficient
--   Value of k must be specified
--   Final clusters are sensitive to initial centroids
+
+- Classic algorithm for cluster analysis
+- Simple to understand and implement and is efficient
+- Value of k must be specified
+- Final clusters are sensitive to initial centroids

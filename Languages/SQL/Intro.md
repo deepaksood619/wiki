@@ -10,19 +10,19 @@ SQL, 'Structured Query Language', is a programming language designed to manage d
 
 The SQL language is widely used today across web frameworks and database applications. Knowing SQL gives you the freedom to explore your data, and the power to make better decisions. By learning SQL, you will also learn concepts that apply to nearly every data storage system.
 
-## SQL is a declarative language, you tell the system what do you want, and system figures it out how to give it to you.
+## SQL is a declarative language, you tell the system what do you want, and system figures it out how to give it to you
 
 SQL is a special-purpose programming language designed for managing information in a relational database management system (RDBMS). The word relational here is key; it specifies that the database management system is organized in such a way that there are clear relations defined between different sets of data.
 
 Typically, you need to extract, transform, and load data into your RDBMS before you're able to manage it using SQL,
 
-<http://www.helenanderson.co.nz/sql-concepts-from-a-to-z
+<http://www.helenanderson.co.nz/sql-concepts-from-a-to-z>
 
 SQL Queries Order - **FWGHSOL**
 
 ![image](media/Intro-image1.jpg)
 
-<https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select
+<https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select>
 
 ## How to describe tables
 
@@ -37,19 +37,21 @@ SQL Queries Order - **FWGHSOL**
 | POPULATION  | NUMBER       |
 
 ## Insights
--   **ORDER BY can be done on only those columns that are in SELECT**
+
+- **ORDER BY can be done on only those columns that are in SELECT**
 
 ## Critique of SQL
 
 SQL's shortcomings can be grouped into these categories:
--   lack of proper orthogonality --- SQL is hard to compose;
--   lack of compactness --- SQL is a large language;
--   lack of consistency --- SQL is inconsistent in syntax and semantics;
--   poor system cohesion --- SQL does not integrate well enough with application languages and protocols.
+
+- lack of proper orthogonality --- SQL is hard to compose;
+- lack of compactness --- SQL is a large language;
+- lack of consistency --- SQL is inconsistent in syntax and semantics;
+- poor system cohesion --- SQL does not integrate well enough with application languages and protocols.
 
 ## SQL Naming Conventions
 
-<https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions
+<https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions>
 
 ## Order
 
@@ -81,11 +83,11 @@ Use HAVING COUNT(*) > 5 instead
 
 ## Games
 
-<https://mystery.knightlab.com
+<https://mystery.knightlab.com>
 
-<https://selectstarsql.com
+<https://selectstarsql.com>
 
-<https://littlekendra.com/course-category/sqlchallenges
+<https://littlekendra.com/course-category/sqlchallenges>
 
 <https://github.com/WebDevSimplified/Learn-SQL>
 
@@ -93,7 +95,7 @@ Use HAVING COUNT(*) > 5 instead
 
 <https://dev.to/helenanders26/sql-201-10-ways-to-tweak-slow-running-queries-3pkb>
 
-<https://sql-steps.wizardzines.com
+<https://sql-steps.wizardzines.com>
 
 <https://hakibenita.com/sql-dos-and-donts>
 

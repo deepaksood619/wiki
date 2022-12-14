@@ -6,23 +6,23 @@ Modified: 2021-06-07 20:21:06 +0500
 
 ---
 
-<http://www.geeksforgeeks.org/any-all-in-python
+<http://www.geeksforgeeks.org/any-all-in-python>
 
-<http://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python
+<http://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python>
 
 <https://www.youtube.com/watch?v=Qgevy75co8c>
 
 The fastest way to loop in python is don't loop
 
-1.  While loop
+1. While loop
 
-2.  For loop
+2. For loop
 
-3.  in-built functions like sum(range(100))
+3. in-built functions like sum(range(100))
 
-4.  numpy functions
+4. numpy functions
 
-5.  Mathematics with single operation i.e. no loop
+5. Mathematics with single operation i.e. no loop
 
 Any and All are two built ins provided in python used for successive And/Or.
 
@@ -40,13 +40,13 @@ print (any([False, False, False, False]))
 
 # Here the method will short-circuit at the
 
-# second item (True) and will return True.
+# second item (True) and will return True
 
 print (any([False, True, False, False]))
 
 # Here the method will short-circuit at the
 
-# first (True) and will return True.
+# first (True) and will return True
 
 print (any([True, False, False, False]))
 
@@ -57,8 +57,6 @@ False
 True
 
 True
-
-
 
 ## ALL
 
@@ -74,7 +72,7 @@ print (all([True, True, True, True]))
 
 # Here the method will short-circuit at the
 
-# first item (False) and will return False.
+# first item (False) and will return False
 
 print (all([False, True, True, False]))
 
@@ -93,8 +91,6 @@ False
 False
 
 ![image](media/Loops-image1.png)
-
-
 
 ## Range
 
@@ -115,8 +111,6 @@ print str('WELCOME').center(M, '-')
 for i in xrange(N-2, -1, -2):
 print ( str('.|.')*i ).center(M, '-')
 
-
-
 ## Enumerate
 
 <http://book.pythontips.com/en/latest/enumerate.html>
@@ -134,7 +128,9 @@ enumeratealso accepts an optional argument which makes it even more useful.
 The optional argument allows us to tellenumeratefrom where to start the index.
 
 my_list **=** ['apple', 'banana', 'grapes', 'pear']
-## for** c, value **in enumerate(my_list, 1):
+
+## for**c, value**in enumerate(my_list, 1)
+
 print(c, value)
 
 You can also create tuples containing the index and list item using a list.
@@ -142,8 +138,6 @@ You can also create tuples containing the index and list item using a list.
 my_list **=** ['apple', 'banana', 'grapes', 'pear']
 counter_list **=** list(enumerate(my_list, 1))
 print(counter_list)
-
-
 
 ## Basic for in loop
 
@@ -155,53 +149,77 @@ print(color)
 
 Unlike traditional C-styleforloops, Python'sforloops don't have index variables. There's no index initializing, bounds checking, or index incrementing. Python'sforloops do*all the work*of looping over ournumberslist for us.
 
-<https://treyhunner.com/2019/06/loop-better-a-deeper-look-at-iteration-in-python
+<https://treyhunner.com/2019/06/loop-better-a-deeper-look-at-iteration-in-python>
 
 ## for and while loop can have else branch
 
 # Python's `for` and `while` loops
-# support an `else` clause that executes
-# only if the loops terminates without
-# hitting a `break` statement.
 
-## def contains(haystack, needle):
+# support an `else` clause that executes
+
+# only if the loops terminates without
+
+# hitting a `break` statement
+
+## def contains(haystack, needle)
+
 """
 Throw a ValueError if `needle` not
 in `haystack`.
 """
-## for** item **in haystack:
-## if item == needle:
+
+## for**item**in haystack
+
+## if item == needle
+
 ## break
-## else:
+
+## else
+
 # The `else` here is a
+
 # "completion clause" that runs
+
 # only if the loop ran to completion
-# without hitting a `break` statement.
+
+# without hitting a `break` statement
+
 ## raise ValueError('Needle not found')
 
 >>> contains([**23**, 'needle', **0xbadc0ffee**], 'needle')
 None
 
 >>> contains([**23**, **42**, **0xbadc0ffee**], 'needle')
+
 ## ValueError: "Needle not found"
 
 # Personally, I'm not a fan of the `else`
+
 # "completion clause" in loops because
+
 # I find it confusing. I'd rather do
-# something like this:
-## def better_contains(haystack, needle):
-## for** item **in haystack:
-## if item == needle:
+
+# something like this
+
+## def better_contains(haystack, needle)
+
+## for**item**in haystack
+
+## if item == needle
+
 ## return
+
 ## raise ValueError('Needle not found')
 
 # Note: Typically you'd write something
-# like this to do a membership test,
-# which is much more Pythonic:
-## if** needle **not in haystack:
+
+# like this to do a membership test
+
+# which is much more Pythonic
+
+## if**needle**not in haystack
+
 ## raise ValueError('Needle not found')
-
-
 
 ## While loops
 

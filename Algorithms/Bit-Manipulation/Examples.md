@@ -6,11 +6,11 @@ Modified: 2019-01-01 23:32:49 +0500
 
 ---
 
-1.  Check if a number is power of two
+1. Check if a number is power of two
 
-## bool isPowerOfTwo = x && !(x & (x - 1));
+## bool isPowerOfTwo = x && !(x & (x - 1))
 
-2.  Count number of one in a number
+2. Count number of one in a number
 
 int count = 0;
 
@@ -24,7 +24,7 @@ Count++;
 
 Return count;
 
-3.  Check if ith bit is set
+3. Check if ith bit is set
 
 void isSet(int n) {
 
@@ -32,7 +32,7 @@ Return (n & (1 << i))
 
 }
 
-4.  Generate all possible subsets of a set
+4. Generate all possible subsets of a set
 
 There are 2^N subsets of a set with n elements
 
@@ -54,7 +54,7 @@ cout << endl;
 }
 }
 
-5.  Find the largest power of 2 which is less than or equal to the given number N
+5. Find the largest power of 2 which is less than or equal to the given number N
 
 Set all the bits in the number to 1. then the number will be (P + 1)/2.
 
@@ -78,13 +78,13 @@ N = N | (N >> 8)
 
 Return (N+1) >> 1;
 
-6.  Given a numberN. Flip all bits in its binary representation.
+6. Given a numberN. Flip all bits in its binary representation.
 
 Solution 1:N^((1<<32)-1), considering N is a 32 bit integer
 
 Explanation - Since XORing with 1 works as a toggle switch.
 
-7.  Given two numbersAandB. Swapandwithout using arithmetic operator and without using third variable.
+7. Given two numbersAandB. Swapandwithout using arithmetic operator and without using third variable.
 
 A= A^B
 
@@ -92,7 +92,7 @@ B=A^B
 
 A=A^B
 
-8.  Problem - The problem asks to find the logical XOR of all the sub-sequences of an array and then print the logical OR of these XOR's.
+8. Problem - The problem asks to find the logical XOR of all the sub-sequences of an array and then print the logical OR of these XOR's.
 
 Ok, so lets try to do as the problem says. We find all subsequences (using maybe a recursive method) and find the xor of all the numbers. There are 2Nof those.
 

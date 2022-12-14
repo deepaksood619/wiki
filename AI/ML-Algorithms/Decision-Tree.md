@@ -27,7 +27,8 @@ Machine learning makes use of decision trees to predict the direction of the inp
 ![image](media/Decision-Tree-image1.png)
 
 ## Preface
--   In this lecture, we will discuss Decision Trees for Big Data Analytics and also discuss a case study of medical application using a Decision Tree in Spark ML
+
+- In this lecture, we will discuss Decision Trees for Big Data Analytics and also discuss a case study of medical application using a Decision Tree in Spark ML
 
 ![image](media/Decision-Tree-image2.jpg)
 
@@ -52,24 +53,25 @@ Machine learning makes use of decision trees to predict the direction of the inp
 ![image](media/Decision-Tree-image11.png)
 
 ## ID3 Algorithm
--   In decision tree learning, ID3 (Iterative Dichotomiser 3) is an algorithm invented by Ross Quinlan used to generate a decision tree from a dataset. ID3 is the precursor to the C4.5 algorithm, and is typically used in the machine learning and natural language processing domains
--   Split (node, {examples}):
 
-    1.  A <- the best attribute for splitting the {examples}
+- In decision tree learning, ID3 (Iterative Dichotomiser 3) is an algorithm invented by Ross Quinlan used to generate a decision tree from a dataset. ID3 is the precursor to the C4.5 algorithm, and is typically used in the machine learning and natural language processing domains
+- Split (node, {examples}):
 
-    2.  Decision attribute for this node <- A
+    1. A <- the best attribute for splitting the {examples}
 
-    3.  For each value of A, create new child node
+    2. Decision attribute for this node <- A
 
-    4.  Split training {examples} to child nodes
+    3. For each value of A, create new child node
 
-    5.  For each child node/subset:
+    4. Split training {examples} to child nodes
+
+    5. For each child node/subset:
 
         i.  if subset is pure: STOP
 
         ii. else: Split (child_node, {subset})
--   Ross Quinlan (ID3: 1986), (C4.5: 1993)
--   Breimanetal (CaRT: 1984) from statistics
+- Ross Quinlan (ID3: 1986), (C4.5: 1993)
+- Breimanetal (CaRT: 1984) from statistics
 
 ![image](media/Decision-Tree-image12.png)
 
@@ -82,19 +84,21 @@ Machine learning makes use of decision trees to predict the direction of the inp
 ## Decision Trees for Regression
 
 ## How to grow a decision tree
--   The tree is built greedily from top to bottom
--   Each split is selected to maximize information gain (IG)
+
+- The tree is built greedily from top to bottom
+- Each split is selected to maximize information gain (IG)
 
 ![image](media/Decision-Tree-image15.jpg)
 
-
--   Given a training set: Z= {(X1, Y1),...., (Xn, Yn)}
+- Given a training set: Z= {(X1, Y1),...., (Xn, Yn)}
 
 yi-real values
--   Goal is to find f(x) (a tree) such that
+
+- Goal is to find f(x) (a tree) such that
 
 ![image](media/Decision-Tree-image16.jpg)
--   How to grow a decision tree for regression?
+
+- How to grow a decision tree for regression?
 
 ![image](media/Decision-Tree-image17.png)
 
@@ -105,39 +109,43 @@ yi-real values
 ![image](media/Decision-Tree-image20.png)
 
 ## Stopping rule
--   The node depth is equal to the maxDepth training parameter
--   No split candidate leads to an information gain greater than mininfoGain
--   No split candidate produces child nodes which have at least minInstancesPerNode training instances (|ZL|, |ZR| < minInstancesPerNode) each
+
+- The node depth is equal to the maxDepth training parameter
+- No split candidate leads to an information gain greater than mininfoGain
+- No split candidate produces child nodes which have at least minInstancesPerNode training instances (|ZL|, |ZR| < minInstancesPerNode) each
 
 ## Summary: Decision Trees
--   **Automatically handling interactions of features**
+
+- **Automatically handling interactions of features**
 
 The benefits of decision tree is that this algorithm can automatically handle interactions or features because it can combine several different features in a single decision tree. It can build complex functions involving multiple splitting criteria
--   **Computational scalability**
+
+- **Computational scalability**
 
 The second property is a computational scalability. There exists effect of algorithms for building decision trees for the verfy large data sets with many features
--   **Predictive power**
+
+- **Predictive power**
 
 Single decision tree actually is not a very good predictor. The prediction power of a single tree is typically not so good
--   **Interpretability**
+
+- **Interpretability**
 
 You can visualize the decision tree and analyze this splitting criteria in nodes, the values in leaves, and so one. Sometimes it might be helpful
 
 ## Building a tree using MapReduce
 
 ## PLANET (Parallel Learner for Assembling Numerous Ensemble Trees)
--   A sequence of MapReduce jobs that build a decision tree
+
+- A sequence of MapReduce jobs that build a decision tree
 
 ## Attribute Instance Matrix
 
 ![image](media/Decision-Tree-image21.png)
 
+- Binary Classification Problem
+- K-class problem
 
--   Binary Classification Problem
--   K-class problem
-
-
--   Classification problem is a part of Supervised learning algorithm
+- Classification problem is a part of Supervised learning algorithm
 
 ![image](media/Decision-Tree-image22.png)
 
@@ -216,27 +224,30 @@ CHAID Algorithm - Chi-Squared Automatic Interaction Detection
 CART Algorithm - Classification and Regression Tree
 
 ## When are Decision Trees useful?
--   Advantages
-    -   Very fast: can handle very large datasets with many attributes
-    -   Flexible: serveral attribute types, classification and regression problems, missing values
-    -   Interpretability: provide rules and attribute importance
--   Disadvantages
-    -   Instability of the trees (high variance)
-    -   Not always competitive with other algorithms in terms of accuracy
+
+- Advantages
+  - Very fast: can handle very large datasets with many attributes
+  - Flexible: serveral attribute types, classification and regression problems, missing values
+  - Interpretability: provide rules and attribute importance
+- Disadvantages
+  - Instability of the trees (high variance)
+  - Not always competitive with other algorithms in terms of accuracy
 
 ## Summary
--   Decision trees are practical for concept learning
--   Basic information measure and gain function for best first search of space of DTs
--   ID3 procedure
-    -   Search space is complete
-    -   Preference for shorter trees
--   Overfitting is an important issue with various solutions
--   Many variations and extensions possible
+
+- Decision trees are practical for concept learning
+- Basic information measure and gain function for best first search of space of DTs
+- ID3 procedure
+  - Search space is complete
+  - Preference for shorter trees
+- Overfitting is an important issue with various solutions
+- Many variations and extensions possible
 
 ## Software
--   In R: packages tree and rpart
--   C4.5
--   Weka
+
+- In R: packages tree and rpart
+- C4.5
+- Weka
 
 <https://medium.com/@rishabhjain_22692/decision-trees-it-begins-here-93ff54ef134>
 
@@ -255,13 +266,14 @@ Decision tree for titanic dataset for who lived and who died
 [**Intro to XGBoost Models (decision-tree-based ensemble ML algorithms)**](https://www.youtube.com/watch?v=0ikyjpaUDFQ&ab_channel=CodingTech)
 
 ## XGBoost (eXtreme Gradient Boosted trees)
--   Boosting is an ensemble method
-    -   Each tree boosts attributes that led to misclassifications of previous tree
--   It is amazing
-    -   Routinely wins Kaggle competitions
-    -   Easy to use
-    -   Fast
-    -   A good choice for an algorithm to start with
+
+- Boosting is an ensemble method
+  - Each tree boosts attributes that led to misclassifications of previous tree
+- It is amazing
+  - Routinely wins Kaggle competitions
+  - Easy to use
+  - Fast
+  - A good choice for an algorithm to start with
 
 ## Decision Trees
 

@@ -5,10 +5,11 @@ Created: 2017-12-09 11:42:36 +0500
 Modified: 2018-06-06 01:36:18 +0500
 
 ---
--   Generator functions allow you to declare a function that behaves like an iterator.
--   They allow programmers to make an iterator in a fast, easy, and clean way.
--   Generators introduce theyieldstatement to Python. It works a bit likereturnbecause it returns a value.
--   The difference is thatit saves the stateof the function. The next time the function is called, execution continues fromwhere it left off, with thesame variable valuesit had before yielding.
+
+- Generator functions allow you to declare a function that behaves like an iterator.
+- They allow programmers to make an iterator in a fast, easy, and clean way.
+- Generators introduce theyieldstatement to Python. It works a bit likereturnbecause it returns a value.
+- The difference is thatit saves the stateof the function. The next time the function is called, execution continues fromwhere it left off, with thesame variable valuesit had before yielding.
 
 If we transform ourPrimesiterator into a generator, it'll look like this:
 

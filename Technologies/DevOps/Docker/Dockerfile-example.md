@@ -10,7 +10,7 @@ Modified: 2020-08-07 00:49:37 +0500
 
 # Use an official Python runtime as a parent image
 
-# <https://pythonspeed.com/articles/base-image-python-docker-images
+# <https://pythonspeed.com/articles/base-image-python-docker-images>
 
 FROM python:3.7.6-slim
 
@@ -40,8 +40,6 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 COPY scripts /root/kafkaconsumer
 
-
-
 ## ###### Example 2
 
 FROM ubuntu:latest
@@ -56,7 +54,7 @@ TZ=Asia/Kolkata
 
 ENV PYTHONUNBUFFERED 1
 
-RUN sed -i -e 's/http://archive/mirror://mirrors/' -e 's/http://security/mirror://mirrors/' -e 's//ubuntu///mirrors.txt/' /etc/apt/sources.list &&
+RUN sed -i -e 's/<http://archive/mirror://mirrors/>' -e 's/<http://security/mirror://mirrors/>' -e 's//ubuntu///mirrors.txt/' /etc/apt/sources.list &&
 
 echo "Acquire {http {Timeout "60";}; ftp {Timeout "60";};};" > /etc/apt/apt.conf.d/custom-apt.conf &&
 
@@ -76,7 +74,7 @@ apt-get autoremove -y && apt-get clean -y &&
 
 rm -rf /var/lib/apt/lists/*
 
-#SMAP Section begin
+# SMAP Section begin
 
 COPY ./smap/ /root/smap/
 
@@ -86,7 +84,7 @@ pip install --no-cache-dir -r /root/smap/python/requirements.txt &&
 
 cd /root/smap/python && python setup.py install
 
-#SMAP Section end
+# SMAP Section end
 
 COPY requirements.txt /root/requirements.txt
 
@@ -94,7 +92,7 @@ RUN pip install --no-cache-dir --trusted-host pypi.python.org -r /root/requireme
 
 curl "<https://rclone.org/install.sh>" | bash
 
-#For airflow
+# For airflow
 
 RUN pip install --no-cache-dir Flask==1.1.1
 
@@ -108,15 +106,13 @@ ADD . /root/zenalytix/
 
 EXPOSE 5555 8070 8071 8080 8888 9104
 
-<https://docs.docker.com/develop/develop-images/dockerfile_best-practices
+<https://docs.docker.com/develop/develop-images/dockerfile_best-practices>
 
 ## Python - Multistage builds
 
 <https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3>
 
-
-
-#NODE JS Dockerfile
+# NODE JS Dockerfile
 
 FROM node:14-alpine AS builder
 
@@ -135,8 +131,6 @@ FROM nginx
 EXPOSE 80
 
 COPY --from=builder /app/build /usr/share/nginx/html
-
-
 
 ## ENV PYTHONUNBUFFERED 1
 

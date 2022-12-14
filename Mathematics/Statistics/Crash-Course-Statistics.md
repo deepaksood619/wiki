@@ -7,21 +7,22 @@ Modified: 2022-05-03 19:42:27 +0500
 ---
 
 [Statistics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
-1.  **Z-scores and percentiles**
+
+1. **Z-scores and percentiles**
 
     a.  Z-scores - Amount of standard deviation above or below the mean
 
     b.  Z-scores in general allow us to compare things that are not on the same scale, as long as they're normally distributed.
 
     c.  Percentiles - Tell you what percentage of the population has a score or value that's lower than yours.
-2.  **Confidence intervals**
+2. **Confidence intervals**
 
     a.  Confidence intervals - An estimated range of values that seem reasonable based on what we've observed. It's center is still the sample mean, but we've got some room on either side for our uncertainity.
 
     b.  T-distribution - A continuous probability distribution that's unimodal; it's useful to represent sampling distributions
 
     c.  Margin of Error - Just like a confidence interval, reflects the uncertainity that surrounds sample estimates of parameters like the mean or a proportion
-3.  **How p-value help us test hypothesis**
+3. **How p-value help us test hypothesis**
 
     a.  Statistical inference
 
@@ -31,7 +32,7 @@ A form of the Reduction Ad Absurdum argument which tries to discredit an idea by
 
 Ex- we use this to prove that there is no largest positive integer
 
-3.  **p-values (how rare your data is)**
+3. **p-values (how rare your data is)**
 
 If your p-value were 0.10 you could say that your sample is in the top 10% most extreme samples we'd expect to see based on the distribution of sample means.
 <https://www.freecodecamp.org/news/what-is-statistical-significance-p-value-defined-and-how-to-calculate-it>
@@ -42,7 +43,8 @@ If your p-value were 0.10 you could say that your sample is in the top 10% most 
     b.  Alternative Hypothesis
 
     c.  Failing to reject the null hypothesis doen't mean that there isn't an effect or relationship, it just means we didn't get enought evidence to say there definitely is one.
-5.  **Playing with power - p-value part 3**
+
+5. **Playing with power - p-value part 3**
 
     a.  Type 1 Error -
         -   rejecting the null, even if it's true. It can therefore only happen if the null is true
@@ -50,23 +52,25 @@ If your p-value were 0.10 you could say that your sample is in the top 10% most 
 
     b.  Type 2 Error -
         -   False negatives: There was an effect, but we didn't see it.
-6.  **You know i am all about that Bayes**
-    -   **Bayesian statistics is about updating beliefs and can be used to test hypotheses.**
-    -   **Bayes' Factor - Represents the amount of information that we've learned about our hypotheses from the data**
-    -   **Bayesian hypothesis testing provides a structured way to quantify a logical process that we do everyday day, incorporating new events into the way we see the world**
-7.  **Bayes in science and everyday life**
+6. **You know i am all about that Bayes**
+    - **Bayesian statistics is about updating beliefs and can be used to test hypotheses.**
+    - **Bayes' Factor - Represents the amount of information that we've learned about our hypotheses from the data**
+    - **Bayesian hypothesis testing provides a structured way to quantify a logical process that we do everyday day, incorporating new events into the way we see the world**
+7. **Bayes in science and everyday life**
 
 ![image](media/Crash-Course-Statistics-image1.png)
--   We will take our prior belief and update it with the likelihood of our evidence
-8.  **Test Statistics**
-    -   **Allow us to quantify how close things are to our expectations or theories**
-    -   **Sampling Distribution - The distribution of all possible group means for a certain sample size**
-    -   **Z-statistics around 1 or -1 tell us that the sample mean is the typical distance we'd expect a typical sample mean to be from the mean of the null hypothesis**
-    -   **We can use Z-tests to do hypothesis tests about means, differences between means, proportions, or even differences between proportions**
-    -   **Critical value - A value of our test statistic that marks the limits of our extreme values.**
-    -   **But sometimes, a Z-Test won't apply. And when that happens, we can use the T-Distribution and corresponding T-statistic to conduct a hypothesis test**
-    -   **Reject H~0~ if the p is too low**
-9.  **T-Tests: A matched pair made in heaven**
+
+- We will take our prior belief and update it with the likelihood of our evidence
+
+8. **Test Statistics**
+    - **Allow us to quantify how close things are to our expectations or theories**
+    - **Sampling Distribution - The distribution of all possible group means for a certain sample size**
+    - **Z-statistics around 1 or -1 tell us that the sample mean is the typical distance we'd expect a typical sample mean to be from the mean of the null hypothesis**
+    - **We can use Z-tests to do hypothesis tests about means, differences between means, proportions, or even differences between proportions**
+    - **Critical value - A value of our test statistic that marks the limits of our extreme values.**
+    - **But sometimes, a Z-Test won't apply. And when that happens, we can use the T-Distribution and corresponding T-statistic to conduct a hypothesis test**
+    - **Reject H~0~ if the p is too low**
+9. **T-Tests: A matched pair made in heaven**
 
 T-Statistics tells us how many standard errors away from the mean our observed difference is.
 
@@ -104,11 +108,14 @@ Test of Homogeneity - Looking at whether it's likely that different samples come
                 -   **F-Test - Helps us quantify how well we think our data fit a distribution, like the null distribution**
 
 ![DIISWIS-Y ](media/Crash-Course-Statistics-image5.png)
--   Sum of Squares for Regression (SSR)
--   Sum of Squares for Error (SSE)
+
+- Sum of Squares for Regression (SSR)
+- Sum of Squares for Error (SSE)
 
 ![image](media/Crash-Course-Statistics-image6.png)
--   Degrees of Freedom - represents the amount of independent information we have
+
+- Degrees of Freedom - represents the amount of independent information we have
+
 32. **ANOVA (Analysis of Variance)**
 
 Allows us to compare three or more groups for statistical significance
@@ -126,13 +133,15 @@ Omnibus Test - A test that contains many items or groups (Ex - F-Test)
 SS - Sum of Squares
 
 MS - Mean squares
--   ANOVA Table
+
+- ANOVA Table
 
 ![image](media/Crash-Course-Statistics-image11.png)
 But just like with our T-Tests, we know that a significant F-Test only means that the result is statistically significant. It doesn't always mean it's practically significant to you.
 ![image](media/Crash-Course-Statistics-image12.png)-   ETA squared tells you the proportion of total variation tha's accounted for by your specific variable
--   Interaction
--   Two-way ANOVA
+
+- Interaction
+- Two-way ANOVA
 
 ![image](media/Crash-Course-Statistics-image13.png)
 ![image](media/Crash-Course-Statistics-image14.png)
@@ -162,7 +171,8 @@ SSG tell us how much variation can be explained by coming from one of the four p
         -   **M is max serial number observed**
         -   **N is number of observations**
 41. **When predictions fail**
--   Logistic Curve
+
+- Logistic Curve
 
 ![image](media/Crash-Course-Statistics-image19.jpg)
 

@@ -15,9 +15,10 @@ The initiative is aligned around a common goal: the simplification and standardi
 
 ## South Side:All IoT objects, withinthe physical realm, and the edge of the network that communicates directly with those devices, sensors, actuators, and other IoT objects, and collects the data from them, is known collectively as the "South Side."
 
-## North Side:The Cloud (or Enterprise system) where data iscollected, stored, aggregated, analyzed, and turned into information, and the part of the network that communicates with the Cloud, is referred to as the "north side" of the network.
+## North Side:The Cloud (or Enterprise system) where data iscollected, stored, aggregated, analyzed, and turned into information, and the part of the network that communicates with the Cloud, is referred to as the "north side" of the network
 
 EdgeX enables data to be sent "north," "south," or laterally as needed and as directed.
+
 ## References
 
 <https://en.wikipedia.org/wiki/Linux_Foundation#EdgeX_Foundry>

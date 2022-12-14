@@ -11,7 +11,8 @@ Technical Analysis helps identify trading opportunities using actions of Market 
 ## The Chart Types
 
 We explore the different chart types used in technical analysis along with its merits and de merits. Specifically we discuss the candlestick chart and why traders prefer **candlesticks** over bar charts.
--   **Japanese Candlesticks**
+
+- **Japanese Candlesticks**
 
 <table>
 <colgroup>
@@ -85,9 +86,8 @@ We explore the different chart types used in technical analysis along with its m
 </tbody>
 </table>
 
-
--   There are two types of candlesticks -- Bullish candle and Bearish candle. The structure of the candlestick however remains the same
--   When close > open = It is a Bullish candle. When close < open = It is a Bearish candle
+- There are two types of candlesticks -- Bullish candle and Bearish candle. The structure of the candlestick however remains the same
+- When close > open = It is a Bullish candle. When close < open = It is a Bearish candle
 
 ## Getting Started with Candlesticks
 
@@ -105,85 +105,85 @@ Hence, candlesticks can be broken down into single candlestick pattern and multi
 
 ## Shooting star - Bearish
 
-1.  Marubozu (bald)
+1. Marubozu (bald)
 
     i.  Bullish Marubozu
 
     ii. Bearish Marubozu
 
-1.  Remember the rules based on which candlesticks work
+1. Remember the rules based on which candlesticks work
 
-2.  Marubuzo is the only pattern which violates rule number 3 i.e Look for prior trend
+2. Marubuzo is the only pattern which violates rule number 3 i.e Look for prior trend
 
-3.  A bullish marubuzo indicates bullishness
+3. A bullish marubuzo indicates bullishness
 
-    1.  Buy around the closing price of a bullish marubozu
+    1. Buy around the closing price of a bullish marubozu
 
-    2.  Keep the low of the marubuzo as the stoploss
+    2. Keep the low of the marubuzo as the stoploss
 
-4.  A bearish marubuzo indicates bearishness
+4. A bearish marubuzo indicates bearishness
 
-    1.  Sell around the closing price of a bearish marubozu
+    1. Sell around the closing price of a bearish marubozu
 
-    2.  Keep the high of the marubuzo as the stoploss
+    2. Keep the high of the marubuzo as the stoploss
 
-5.  An aggressive trader can place the trade on the same day as the pattern forms
+5. An aggressive trader can place the trade on the same day as the pattern forms
 
-6.  Risk averse traders can place the trade on the next day after ensuring that it obeys rule number 1 i.e Buy strength, and Sell weakness
+6. Risk averse traders can place the trade on the next day after ensuring that it obeys rule number 1 i.e Buy strength, and Sell weakness
 
-7.  An abnormal candle lengths should not be traded
+7. An abnormal candle lengths should not be traded
 
-    1.  Short candle indicates subdued activity
+    1. Short candle indicates subdued activity
 
-    2.  Long candle indicates extreme activity, however placing stoploss becomes an issue.
+    2. Long candle indicates extreme activity, however placing stoploss becomes an issue.
 
-2.  Doji
+2. Doji
 
 In Japanese, Doji means blunder or mistake
 
 ![image](media/Market-Terms_Technical-Analysis-image1.png)
 
-3.  Spinning Tops
+3. Spinning Tops
 
-1.  A spinning top has a small real body. The upper and lower shadows are almost equal in length
+1. A spinning top has a small real body. The upper and lower shadows are almost equal in length
 
-2.  The colour of the spinning top does not matter. What matters is the fact that the open and close prices are very close to each other
+2. The colour of the spinning top does not matter. What matters is the fact that the open and close prices are very close to each other
 
-3.  Spinning tops conveys indecision in the market with both bulls and bears being in equal control
+3. Spinning tops conveys indecision in the market with both bulls and bears being in equal control
 
-4.  Spinning top at the top end of the rally indicates that either the bulls are taking a pause before they can resume the uptrend further or the bears are preparing to break the trend. In either case, the trader's stance has to be cautious. If the trader's intent is to buy, he is better off buying only half the quantity and he should wait for the markets to move in his direction
+4. Spinning top at the top end of the rally indicates that either the bulls are taking a pause before they can resume the uptrend further or the bears are preparing to break the trend. In either case, the trader's stance has to be cautious. If the trader's intent is to buy, he is better off buying only half the quantity and he should wait for the markets to move in his direction
 
-5.  Spinning top at the bottom end of the rally indicates that either the bears are taking a pause before they can resume the down trend further or the bulls are preparing to break the trend and take the markets higher. Either case, the trader's stance has to be cautious. If the traders intent is to buy, he is better off buying only half the quantity and he should wait for the markets to make the move
+5. Spinning top at the bottom end of the rally indicates that either the bears are taking a pause before they can resume the down trend further or the bulls are preparing to break the trend and take the markets higher. Either case, the trader's stance has to be cautious. If the traders intent is to buy, he is better off buying only half the quantity and he should wait for the markets to make the move
 
-6.  Doji's are very similar to spinning tops. Doji also convey indecision in the market. By definition dojis do not have a real body. However in reality, even if a wafer thin body appears it is acceptable
+6. Doji's are very similar to spinning tops. Doji also convey indecision in the market. By definition dojis do not have a real body. However in reality, even if a wafer thin body appears it is acceptable
 
-7.  A trader's stance based on dojis is similar to stance taken when a spinning top occurs.
+7. A trader's stance based on dojis is similar to stance taken when a spinning top occurs.
 
-4.  Paper umbrella
+4. Paper umbrella
 
     i.  Hammer
 
     ii. Hanging man
 
-5.  Shooting star
+5. Shooting star
 
-    1.  A paper umbrella has a long lower shadow and a small real body. The lower shadow and the real body should maintain the 'shadow to real body' ratio. In case of the paper umbrella the lower shadow should be at least twice the length of the real body
+    1. A paper umbrella has a long lower shadow and a small real body. The lower shadow and the real body should maintain the 'shadow to real body' ratio. In case of the paper umbrella the lower shadow should be at least twice the length of the real body
 
-    2.  Since the open and close prices are close to each other, the color of the paper umbrella should not matter
+    2. Since the open and close prices are close to each other, the color of the paper umbrella should not matter
 
-    3.  If a paper umbrella appears at the bottom of a down trend, it is called the 'hammer'
+    3. If a paper umbrella appears at the bottom of a down trend, it is called the 'hammer'
 
-    4.  If the paper umbrella appears at the top end of an uptrend, it is called the hanging man
+    4. If the paper umbrella appears at the top end of an uptrend, it is called the hanging man
 
-    5.  The hammer is a bullish pattern and one should look at buying opportunities when it appears
+    5. The hammer is a bullish pattern and one should look at buying opportunities when it appears
 
-    6.  The low of the hammer acts as the stop loss price trade
+    6. The low of the hammer acts as the stop loss price trade
 
-    7.  The hanging man is a bearish pattern which appears at the top end of the trend, one should look at selling opportunities when it appears
+    7. The hanging man is a bearish pattern which appears at the top end of the trend, one should look at selling opportunities when it appears
 
-    8.  The high of the hanging man acts as the stop loss price for the trade
+    8. The high of the hanging man acts as the stop loss price for the trade
 
-    9.  The shooting star is a bearish pattern which appears at the top end of the trend. One should look at shorting opportunities when a shooting star appears
+    9. The shooting star is a bearish pattern which appears at the top end of the trend. One should look at shorting opportunities when a shooting star appears
 
     10. The high of the shooting star will be the stop loss price for the trade.
 
@@ -195,75 +195,75 @@ Multiple candlestick patterns are a combination of multiple candles.
 
 ![image](media/Market-Terms_Technical-Analysis-image3.jpg)
 
-1.  Engulfing pattern
+1. Engulfing pattern
 
     i.  Bullish Engulfing
 
     ii. Bearish Engulfing
 
-2.  Harami
+2. Harami
 
     i.  Bullish Harami
 
     ii. Bearish Harami
 
-3.  Piercing Pattern
+3. Piercing Pattern
 
-4.  Dark cloud cover
+4. Dark cloud cover
 
-5.  Morning Star
+5. Morning Star
 
-6.  Evening Star
+6. Evening Star
 
 It is a bearish candlestick pattern and is formed at the end of an uptrend
 
-1.  Multiple candlestick patterns evolve over two or more trading days
+1. Multiple candlestick patterns evolve over two or more trading days
 
-2.  The bullish engulfing pattern evolves over two trading days. It appears at the bottom end of downtrend. Day one is called P1 and day 2 is called P2
+2. The bullish engulfing pattern evolves over two trading days. It appears at the bottom end of downtrend. Day one is called P1 and day 2 is called P2
 
-3.  In a bullish engulfing pattern, P1 is a red candle, and P2 is a blue candle. P2's blue candle completely engulfs P1;s red candle
+3. In a bullish engulfing pattern, P1 is a red candle, and P2 is a blue candle. P2's blue candle completely engulfs P1;s red candle
 
-4.  A risk taker initiates a long trade at the close of P2 after ensuring P1 and P2 together form a bullish engulfing pattern. A risk averse trader will initiate the trade the day after P2, near the close of the day
+4. A risk taker initiates a long trade at the close of P2 after ensuring P1 and P2 together form a bullish engulfing pattern. A risk averse trader will initiate the trade the day after P2, near the close of the day
 
-5.  The stoploss for the bullish engulfing pattern is the lowest low between P1 and P2
+5. The stoploss for the bullish engulfing pattern is the lowest low between P1 and P2
 
-6.  The bearish engulfing pattern appears at the top end of an uptrend. P1's blue candle is completely engulfed by P2's red candle
+6. The bearish engulfing pattern appears at the top end of an uptrend. P1's blue candle is completely engulfed by P2's red candle
 
-7.  A risk taker initiates a short trade at the close of P2 after ensuring P1 and P2 together form a bearish engulfing pattern. The risk averse trader will initiate the trade the day after P2, after confirming the day forms a red candle
+7. A risk taker initiates a short trade at the close of P2 after ensuring P1 and P2 together form a bearish engulfing pattern. The risk averse trader will initiate the trade the day after P2, after confirming the day forms a red candle
 
-8.  The highest high of P1 and P2 forms the stoploss for a bearish engulfing pattern
+8. The highest high of P1 and P2 forms the stoploss for a bearish engulfing pattern
 
-9.  The presence of a doji after an engulfing pattern tends to catalyze the pattern's evolution.
+9. The presence of a doji after an engulfing pattern tends to catalyze the pattern's evolution.
 
 10. The piercing pattern works very similar to bullish engulfing pattern, except that P2's blue candle engulfs at least 50% and below 100% of P1's red candle
 
 11. The dark cloud cover works similar to the bearish engulfing pattern, except that P2's red candle engulfs at least 50% and below 100% of P1's blue candle.
 
-1.  The harami pattern evolves over 2 trading sessions -- P1 and P2.
+1. The harami pattern evolves over 2 trading sessions -- P1 and P2.
 
-2.  Day 1 (P1) of the pattern forms a long candle and day 2(P2) of the pattern forms a small candle which appears as if it has been tucked inside the P1's long candle
+2. Day 1 (P1) of the pattern forms a long candle and day 2(P2) of the pattern forms a small candle which appears as if it has been tucked inside the P1's long candle
 
-3.  A bullish harami candle pattern is formed at the lower end of a down trend. P1 is a long red candle, and P2 is a small blue candle. The idea is to initiate a long trade near the close of P2 (risk taker). A risk averse trader will initiate the long trade near the close of the day after P2 only after ensuring it forms a blue candle day
+3. A bullish harami candle pattern is formed at the lower end of a down trend. P1 is a long red candle, and P2 is a small blue candle. The idea is to initiate a long trade near the close of P2 (risk taker). A risk averse trader will initiate the long trade near the close of the day after P2 only after ensuring it forms a blue candle day
 
-4.  The stop loss on a bullish harami pattern is the lowest low price between P1 and P2
+4. The stop loss on a bullish harami pattern is the lowest low price between P1 and P2
 
-5.  The bearish harami pattern is formed at the top end of an uptrend. P1 is a long blue candle, and P2 is a small red candle. The idea is to initiate a short trade near the close of P2 (risk taker). The risk averse will initiate the short near the close of the day only after ensuring it is a red candle day
+5. The bearish harami pattern is formed at the top end of an uptrend. P1 is a long blue candle, and P2 is a small red candle. The idea is to initiate a short trade near the close of P2 (risk taker). The risk averse will initiate the short near the close of the day only after ensuring it is a red candle day
 
-6.  The stop loss on a bearish harami pattern is the highest high price between P1 and P2.
+6. The stop loss on a bearish harami pattern is the highest high price between P1 and P2.
 
-1.  Price Gaps - **Gap up opening, Gap down opening**
+1. Price Gaps - **Gap up opening, Gap down opening**
 
-2.  Star formation occurs over three trading sessions. The candle of P2 is usually a doji or a spinning top
+2. Star formation occurs over three trading sessions. The candle of P2 is usually a doji or a spinning top
 
-3.  If there is a doji on P2 in a star pattern, it is called a doji star (morning doji star, evening doji star) else it is just called the star pattern (morning star, evening star)
+3. If there is a doji on P2 in a star pattern, it is called a doji star (morning doji star, evening doji star) else it is just called the star pattern (morning star, evening star)
 
-4.  Morning star is a bullish pattern which occurs at the bottom end of the trend. The idea is to go long on P3 with the lowest low of the pattern being the stop loss for the trade
+4. Morning star is a bullish pattern which occurs at the bottom end of the trend. The idea is to go long on P3 with the lowest low of the pattern being the stop loss for the trade
 
-5.  Evening star is a bearish pattern, which occurs at the top end of an up trend. The idea is to go short on P3, with the highest high of the pattern acting as a stop loss
+5. Evening star is a bearish pattern, which occurs at the top end of an up trend. The idea is to go short on P3, with the highest high of the pattern acting as a stop loss
 
-6.  The star formation evolves over a 3 days period, hence both the risk averse and risk taker are advised to initiate the trade on P3
+6. The star formation evolves over a 3 days period, hence both the risk averse and risk taker are advised to initiate the trade on P3
 
-7.  Candlesticks portray the traders thought process. One should nurture this thought process as he dwells deeper into the candlestick study
+7. Candlesticks portray the traders thought process. One should nurture this thought process as he dwells deeper into the candlestick study
 
 ## The Support and Resistance (S&R) - setting price targets
 
@@ -271,19 +271,19 @@ It is a bearish candlestick pattern and is formed at the end of an uptrend
 
 Resistance is something which stops the price from rising further. The resistance level is a price point on the chart where traders expect maximum supply (in terms of selling) for the stock/index. The resistance level is always above the current market price. The likely hood of the price rising up to the resistance level, consolidating, absorbing all the supply, and then declining is high.
 
-1.  The resistance level, indicated by a horizontal line, is higher than the current market price.
+1. The resistance level, indicated by a horizontal line, is higher than the current market price.
 
-2.  While the resistance level is at 215, the current candle is at 206.75. The current candle and its corresponding price level are encircled for your reference
+2. While the resistance level is at 215, the current candle is at 206.75. The current candle and its corresponding price level are encircled for your reference
 
 For a moment let us imagine Ambuja cements at Rs.206 forming a bullish marubuzo with a low of 202. We know this is a signal to initiate a long trade, and we also know that the stoploss for this trade is at 202. With the new found knowledge on resistance, we now know that we can set 215 as a possible target for this trade!
 
 Why 215 you may wonder? The reasons are simple:-
 
-1.  Resistance of 215 implies there is a likelihood of excess supply
+1. Resistance of 215 implies there is a likelihood of excess supply
 
-2.  Excess supply builds selling pressure
+2. Excess supply builds selling pressure
 
-3.  Selling pressure tends to drag the prices lower
+3. Selling pressure tends to drag the prices lower
 
 Hence for reasons stated above, when a trader is long he can look at resistance points to set targets and to set exit points for the trade.
 
@@ -297,13 +297,13 @@ The identification process is the same for both support and resistance. If the c
 
 As the name suggests, the support is something that prevents the price from falling further. The support level is a price point on the chart where the trader expects maximum demand (in terms of buying) coming into the stock/index. Whenever the price falls to the support line, it is likely to bounce back. The support level is **always below** the current market price. There is a maximum likely hood that the price could fall till the support, consolidate, absorb all the demand, and then start to move upwards. The support often acts as a trigger to buy.
 
-1.  The support level, indicated by the horizontal line is below the current market price
+1. The support level, indicated by the horizontal line is below the current market price
 
-2.  While the support level is at 435, the current candle is at 442.5. The current candle and its corresponding price level are encircled for your reference
+2. While the support level is at 435, the current candle is at 442.5. The current candle and its corresponding price level are encircled for your reference
 
 Like we did while understanding resistance, let us imagine a bearish pattern formation -- perhaps a shooting star at 442 with a high of 446. Clearly with a shooting star, the call is to short Cipla at 442, with 446 as the stoploss. Since we know 435 the immediate support, we can set the target at 435.
 
-## So what makes Rs.435 target worthy? The following reasons back the decision:
+## So what makes Rs.435 target worthy? The following reasons back the decision
 
 i.  Support at 435 implies there is a maximum likely hood of excess demand to emerge
 
@@ -316,11 +316,11 @@ Hence for the reasons stated above, when a trader is short, he can look at suppo
 Also, with the identification of the support, the short trade is now completely designed.
 Entry -- 442, stoploss -- 446, and target -- 435.
 
-1.  To identify S&R, place a horizontal line in such a way that it connects at least 3 price action zones, well spaced in time. The more number of price action zones (well spaced in time) the horizontal line connects, the stronger is S&R
+1. To identify S&R, place a horizontal line in such a way that it connects at least 3 price action zones, well spaced in time. The more number of price action zones (well spaced in time) the horizontal line connects, the stronger is S&R
 
-2.  S&R can be used to identify targets for the trade. For a long trade, look for the immediate resistance level as target. For a short trade, look for the immediate support level as target.
+2. S&R can be used to identify targets for the trade. For a long trade, look for the immediate resistance level as target. For a short trade, look for the immediate support level as target.
 
-3.  Lastly, comply with the checklist for optimal trading results
+3. Lastly, comply with the checklist for optimal trading results
 
 ## Volumes
 
@@ -341,35 +341,36 @@ Average Volume = Today's volume = last 10 days average volume
 
 Usually institutional money is referred to as the "smart money". It is perceived that 'smart money' always makes wiser moves in the market compared to retail traders. Hence following the smart money seems like a wise idea.
 
-1.  Volumes are used to confirm a trend
+1. Volumes are used to confirm a trend
 
-2.  100 share buy and 100 shares sell makes the total volume 100, not 200
+2. 100 share buy and 100 shares sell makes the total volume 100, not 200
 
-3.  The end of day volumes indicates the cumulative volume across trades executed throughout the day
+3. The end of day volumes indicates the cumulative volume across trades executed throughout the day
 
-4.  High volumes indicates the presence of smart money
+4. High volumes indicates the presence of smart money
 
-5.  Low volumes indicate retail participation
+5. Low volumes indicate retail participation
 
-6.  When you initiate a trade to either go long or short always make sure if volumes confirm
+6. When you initiate a trade to either go long or short always make sure if volumes confirm
 
-7.  Avoid trading on low volume days
+7. Avoid trading on low volume days
 
 ## Moving Averages
 
 Moving average is a simple technical analysis indicator used to detect the price trend. Learn about the moving average and a how to set up a simple moving average trading system.
--   Zerodha Moving Average Type
-    -   Simple
-    -   Exponential
-    -   Time Series
-    -   Triangular
-    -   Variable
-    -   VIDYA
-    -   Weighted
-    -   Welles Wilder
-    -   Hull
-    -   Double Exponential
-    -   Triple Exponential
+
+- Zerodha Moving Average Type
+  - Simple
+  - Exponential
+  - Time Series
+  - Triangular
+  - Variable
+  - VIDYA
+  - Weighted
+  - Welles Wilder
+  - Hull
+  - Double Exponential
+  - Triple Exponential
 
 ## A simple application of moving average (trading system based on a 50 day exponential moving average)
 
@@ -411,13 +412,13 @@ ii. Exit the long position (square off) when the short term moving average turns
 
 A trader can use any combination to create a MA cross over system. Some of the popular combinations for a swing trader would be:
 
-1.  9 day EMA with 21 day EMA -- use this for short term trades ( upto few trading session)
+1. 9 day EMA with 21 day EMA -- use this for short term trades ( upto few trading session)
 
-2.  25 day EMA with 50 day EMA -- use this to identify medium term trade (upto few weeks)
+2. 25 day EMA with 50 day EMA -- use this to identify medium term trade (upto few weeks)
 
-3.  50 day EMA with 100 Day EMA -- use this to identify trades that lasts upto few months
+3. 50 day EMA with 100 Day EMA -- use this to identify trades that lasts upto few months
 
-4.  100 day EMA with 200 day EMA -- use this to identify long term trades (investment opportunities), some of them can even last for over a year or more.
+4. 100 day EMA with 200 day EMA -- use this to identify long term trades (investment opportunities), some of them can even last for over a year or more.
 
 Remember, longer the time frame the lesser the number of trading signals.
 
@@ -449,7 +450,7 @@ Starting with the basics of the construction of the Fibonacci sequence, we also 
 
 It is believed that the Fibonacci ratios i.e 61.8%, 38.2%, and 23.6% finds its application in stock charts. Fibonacci analysis can be applied when there is a noticeable up-move or down-move in prices. Whenever the stock moves either upwards or downwards sharply, it usually tends to retrace back before its next move. For example if the stock has run up from Rs.50 to Rs.100, then it is likely to retrace back to probably Rs.70, before it can move Rs.120.
 
-## 'The retracement level forecast' is a technique using which one can identify upto which level retracement can happen. These retracement levels provide a good opportunity for the traders to enter new positions in the direction of the trend. The Fibonacci ratios i.e 61.8%, 38.2%, and 23.6% helps the trader to identify the possible extent of the retracement. The trader can use these levels to position himself for trade.
+## 'The retracement level forecast' is a technique using which one can identify upto which level retracement can happen. These retracement levels provide a good opportunity for the traders to enter new positions in the direction of the trend. The Fibonacci ratios i.e 61.8%, 38.2%, and 23.6% helps the trader to identify the possible extent of the retracement. The trader can use these levels to position himself for trade
 
 ## The Dow Theory (Part 1)
 
@@ -497,17 +498,17 @@ Completing the circle, what follows the selloff phase is a fresh round of accumu
 
 ## Dow Patterns
 
-1.  The Double bottom & Double top formation
+1. The Double bottom & Double top formation
 
 A double top & double bottom is considered a reversal pattern.
 
 Imagine a situation where in the double top formation, the 2nd top forms a bearish pattern such as shooting star. This means, both from the Dow Theory and candlestick perspective there is consensus to sell; hence the conviction to take the trade is higher.
 
-2.  The Triple Bottom & Triple Top
+2. The Triple Bottom & Triple Top
 
-3.  Range formation
+3. Range formation
 
-4.  Flag formation
+4. Flag formation
 
 ## Summary
 

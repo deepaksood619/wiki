@@ -19,17 +19,18 @@ In the parlance of Eric Brewer's[CAP Theorem](https://en.wikipedia.org/wiki/CAP_
 Use Apache HBase™ when you need random, realtime read/write access to your Big Data. This project's goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware. Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's[Bigtable: A Distributed Storage System for Structured Data](http://research.google.com/archive/bigtable.html)by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google File System, Apache HBase provides Bigtable-like capabilities on top of Hadoop and HDFS.
 
 Features
--   Linear and modular scalability.
--   Strictly consistent reads and writes.
--   Automatic and configurable sharding of tables
--   Automatic failover support between RegionServers.
--   Convenient base classes for backing Hadoop MapReduce jobs with Apache HBase tables.
--   Easy to use Java API for client access.
--   Block cache and Bloom Filters for real-time queries.
--   Query predicate push down via server side Filters
--   Thrift gateway and a REST-ful Web service that supports XML, Protobuf, and binary data encoding options
--   Extensible jruby-based (JIRB) shell
--   Support for exporting metrics via the Hadoop metrics subsystem to files or Ganglia; or via JMX
+
+- Linear and modular scalability.
+- Strictly consistent reads and writes.
+- Automatic and configurable sharding of tables
+- Automatic failover support between RegionServers.
+- Convenient base classes for backing Hadoop MapReduce jobs with Apache HBase tables.
+- Easy to use Java API for client access.
+- Block cache and Bloom Filters for real-time queries.
+- Query predicate push down via server side Filters
+- Thrift gateway and a REST-ful Web service that supports XML, Protobuf, and binary data encoding options
+- Extensible jruby-based (JIRB) shell
+- Support for exporting metrics via the Hadoop metrics subsystem to files or Ganglia; or via JMX
 
 ![HBase • HBase is an open source, distributed database, developed by Apache Software foundation. • Initially, it was Google Big Table, afterwards it was re- named as HBase and is primarily written in Java. • HBase can store massive amounts of data from terabytes to petabytes. Big Data Computing R PRC HE HBRSE Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-HBase-image1.png)
 
@@ -39,4 +40,4 @@ Features
 
 <https://en.wikipedia.org/wiki/Apache_HBase>
 
-<https://hbase.apache.org
+<https://hbase.apache.org>

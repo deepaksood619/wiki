@@ -16,11 +16,10 @@ In[philosophy](https://en.wikipedia.org/wiki/Philosophy), the study of knowledge
 
 Knowledge acquisition involves complex[cognitive](https://en.wikipedia.org/wiki/Cognition)processes:[perception](https://en.wikipedia.org/wiki/Perception),[communication](https://en.wikipedia.org/wiki/Communication), and[reasoning](https://en.wikipedia.org/wiki/Reasoning); while knowledge is also said to be related to the capacity ofacknowledgementin human beings.
 
-
--   Communicating knowledge
--   Situated knowledge
--   Partial knowledge
--   Scientific knowledge
+- Communicating knowledge
+- Situated knowledge
+- Partial knowledge
+- Scientific knowledge
 
 ## STEM - Science, Technology, Engineering and Mathematics
 
@@ -34,11 +33,11 @@ ACM Queue
 
 ## Home Economics
 
-## Home economics,domestic scienceorhome scienceis a field of studythat deals with the relationship between individuals, families, communities, and the environment in which they live.
+## Home economics,domestic scienceorhome scienceis a field of studythat deals with the relationship between individuals, families, communities, and the environment in which they live
 
 ## Maid
 
-1.  Clean home daily
+1. Clean home daily
 
 <https://en.wikipedia.org/wiki/Home_economics>
 
@@ -49,12 +48,12 @@ PUBAD - Public Administration
 PSIR - Political Science & International Relations
 
 [UPSC Prelims 2022 Hacks | Mnemonics & Mindmaps | International Organisations](https://youtu.be/t08_LW_Du_U)
--   JUICE with GF
--   JUICE with Russian GF
 
+- JUICE with GF
+- JUICE with Russian GF
 
--   GURU JI SITA AB SSC FCI ME job karti hai
--   SIR'S BEAUTIFU_ MAGICS Just C
+- GURU JI SITA AB SSC FCI ME job karti hai
+- SIR'S BEAUTIFU_ MAGICS Just C
 
 [UPSC Prelims 2022 Hacks | Mnemonics & Mindmaps | Important Water Bodies](https://youtu.be/xZAmmOQwSRc)
 

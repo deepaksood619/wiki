@@ -20,8 +20,6 @@ Fahrenheit = map(lambda x: (float(9)/5)*x + 32, Celsius)
 >>> map(lambda x,y,z:x+y-z, a,b,c)
 [19, 18, 9, 5]
 
-
-
 ## Filter
 
 The function filter(function, list) offers an elegant way to filter out all the elements of a list, for which the function*function*returns True.
@@ -45,10 +43,11 @@ The function filter(f,l) needs a function f as its first argument. f returns a B
 The function reduce(func, seq) continually applies the function func() to the sequence seq. It returns a single value.
 
 If seq = [ s~1~, s~2~, s~3~, ... , s~n~], calling reduce(func, seq) works like this:
--   At first the first two elements of seq will be applied to func, i.e. func(s~1~,s~2~) The list on which reduce() works looks now like this: [ func(s~1~, s~2~), s~3~, ... , s~n~]
--   In the next step func will be applied on the previous result and the third element of the list, i.e. func(func(s~1~, s~2~),s~3~)
+
+- At first the first two elements of seq will be applied to func, i.e. func(s~1~,s~2~) The list on which reduce() works looks now like this: [ func(s~1~, s~2~), s~3~, ... , s~n~]
+- In the next step func will be applied on the previous result and the third element of the list, i.e. func(func(s~1~, s~2~),s~3~)
     The list looks like this now: [ func(func(s~1~, s~2~),s~3~), ... , s~n~]
--   Continue like this until just one element is left and return this element as the result of reduce()
+- Continue like this until just one element is left and return this element as the result of reduce()
 
 >>> reduce(lambda x,y: x+y, [47,11,42,13])
 113

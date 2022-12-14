@@ -8,7 +8,7 @@ Modified: 2022-02-23 22:34:20 +0500
 
 ## Teamviewer
 
-<https://www.teamviewer.com/en/download/mac-os
+<https://www.teamviewer.com/en/download/mac-os>
 
 Password - PHNlEudGPF6xX1jA
 
@@ -29,10 +29,11 @@ Codenvy - cloud workspaces for Dev teams
 Eclipse Che
 
 ## Google Chrome
--   Shift + / = show keyboard shortcuts on youtube
--   Momentum (extension)
--   CMD + Shift + F - Full Screen
--   CMD + Shift + A - Search tabs
+
+- Shift + / = show keyboard shortcuts on youtube
+- Momentum (extension)
+- CMD + Shift + F - Full Screen
+- CMD + Shift + A - Search tabs
 
 doc.new
 
@@ -52,19 +53,20 @@ videos[i].playbackRate = 2;
 
 ## Other browsers
 
-<https://sigmaos.com
+<https://sigmaos.com>
 
 ## Google Search
--   Use thesite:search operator, Google will only show you the results from a specific website
--   a country-specific search using thesite:search operator plus the TLD for that country. For example, if you want to look for naan recipes and get the information only from sites in India, the search would benaan recipes site:.in
--   Following a hyphen-directly with a word is another Google Search operator, and this one tells Google to **exclude** whatever follows that hyphen from the search results.
--   If you want to find results that use a very specific phrase, surround your search term in quotation marks to tell Google you only want to see results that use that exact phrase.
--   **search for anything after:2020**
--   **search for anything before:2020**
--   **search for anything 2018..2020**
--   **search for anything (A|B)C**
--   **related:url**
--   **cache:url**
+
+- Use thesite:search operator, Google will only show you the results from a specific website
+- a country-specific search using thesite:search operator plus the TLD for that country. For example, if you want to look for naan recipes and get the information only from sites in India, the search would benaan recipes site:.in
+- Following a hyphen-directly with a word is another Google Search operator, and this one tells Google to **exclude** whatever follows that hyphen from the search results.
+- If you want to find results that use a very specific phrase, surround your search term in quotation marks to tell Google you only want to see results that use that exact phrase.
+- **search for anything after:2020**
+- **search for anything before:2020**
+- **search for anything 2018..2020**
+- **search for anything (A|B)C**
+- **related:url**
+- **cache:url**
 
 | **Operator**         | **How to Use It**                                                                                                                                                                                                                                                      | **Examples**                                                                                                                                                                  |
 |-----------|------------------------------------|--------------------------|
@@ -90,7 +92,7 @@ videos[i].playbackRate = 2;
 
 Presstin any repository to access it and start typing the name of the file you want to find.
 
-<https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly
+<https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly>
 
 ## Gmail
 
@@ -296,7 +298,8 @@ Note:When using numbers as part of your query, a space or a dash (-) will separa
 <https://support.google.com/mail/answer/7190?hl=en>
 
 ## GSuite
--   **When user is deleted**
+
+- **When user is deleted**
 
 If your school uses GSuite accounts, your IT Administrator will have the option to transfer ownership of ALL of your Google Drive files to somebody else when they delete your account.
 
@@ -304,12 +307,12 @@ You can manually transfer ownership of individual files by using Share, and sele
 
 ## Windows
 
-<https://www.freecodecamp.org/news/keyboard-shortcuts-improve-productivity
+<https://www.freecodecamp.org/news/keyboard-shortcuts-improve-productivity>
 
 ## Discord
 
 <https://www.notboring.co/p/discord-imagine-a-place>
 
-<https://mee6.xyz
+<https://mee6.xyz>
 
-<https://idlerpg.xyz
+<https://idlerpg.xyz>

@@ -7,12 +7,14 @@ Modified: 2021-04-03 23:36:31 +0500
 ---
 
 ## Libraries
--   [numpy](https://idrgfain.labs.coursera.org/notebooks/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/www.numpy.org)is the fundamental package for scientific computing with Python.
--   [h5py](http://www.h5py.org/)is a common package to interact with a dataset that is stored on an H5 file.
--   [matplotlib](http://matplotlib.org/)is a famous library to plot graphs in Python.
--   [PIL](http://www.pythonware.com/products/pil/)and[scipy](https://www.scipy.org/)are used here to test your model with your own picture at the end.
+
+- [numpy](https://idrgfain.labs.coursera.org/notebooks/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/www.numpy.org)is the fundamental package for scientific computing with Python.
+- [h5py](http://www.h5py.org/)is a common package to interact with a dataset that is stored on an H5 file.
+- [matplotlib](http://matplotlib.org/)is a famous library to plot graphs in Python.
+- [PIL](http://www.pythonware.com/products/pil/)and[scipy](https://www.scipy.org/)are used here to test your model with your own picture at the end.
 
 ## Python- Numpy Vectors
+
 ```
 import numpy as np
 

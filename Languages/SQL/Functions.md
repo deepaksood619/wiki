@@ -370,11 +370,12 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 </tbody>
 </table>
 
-<https://database.guide/4-ways-to-replace-null-with-a-different-value-in-mysql
--   TheIFNULL()function
--   TheCOALESCE()function
--   TheIF()function combined with theIS NULL(orIS NOT NULL) operator
--   TheCASEexpression combined with theIS NULL(orIS NOT NULL) operator
+<https://database.guide/4-ways-to-replace-null-with-a-different-value-in-mysql>
+
+- TheIFNULL()function
+- TheCOALESCE()function
+- TheIF()function combined with theIS NULL(orIS NOT NULL) operator
+- TheCASEexpression combined with theIS NULL(orIS NOT NULL) operator
 
 ## Aggregate Functions
 

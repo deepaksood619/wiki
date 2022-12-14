@@ -16,20 +16,24 @@ Modified: 2022-01-07 22:23:17 +0500
 
 <https://github.com/Hack-with-Github/Awesome-Hacking>
 
-## CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more.
+## CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more
 
 <https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam>
 
 ## Use Cases and Abuse Cases**
+
 ## White Hat hackers
 
 A white hat hacker is an individual who uses hacking skills to identify security vulnerabilities in hardware, software or networks. However, unlike black hat hackers, white hat hackers respect the rule of law as it applies to hacking.
+
 ## Gray Hat Hackers
 
 Gray hat hackers fall between white and black hats on the moral spectrum. Gray hats generally consider themselves good guys who are more flexible about the rules under which they operate. For example, a gray hat hacker may be more likely than a white hat hacker to access systems without getting permission or authorization from the owners, but would be less likely than a black hat hacker to cause damage to those systems. While not typically motivated by financial gain, gray hat hackers may try to get the owners of a system they've hacked to pay them to patch or fix those systems.
+
 ## Black Hat Hackers
 
 A black hat hacker has no qualms about selling vulnerabilities and exploits to the highest bidder, such as a criminal organization, usually for the purpose of exploiting them. Black hat hackers are willing to break the law to discover, create and use security flaws maliciously for personal gain or to make a political statement.
+
 ## Websites
 
 <https://www.quora.com/Are-there-any-website-that-I-can-hack-legally-for-practice>

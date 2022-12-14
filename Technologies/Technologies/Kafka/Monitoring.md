@@ -28,38 +28,40 @@ You can also use Control Center to manage and monitor Kafka Connect: the open so
 
 # Tips
 
-1.  Monitor both space and time retention
+1. Monitor both space and time retention
 
-2.  Keep as little transient data around
+2. Keep as little transient data around
 
-3.  Have a quick way to increase retention
+3. Have a quick way to increase retention
 
-4.  Use multi-tiered replication alerts
+4. Use multi-tiered replication alerts
 
-5.  Balance your cluster by IO and leadership
+5. Balance your cluster by IO and leadership
 
-6.  Make sure lag monitoring works when consumers stop committing
+6. Make sure lag monitoring works when consumers stop committing
 
 ## Monitoring (Definitive Guide)
--   Metrics Basics
--   Kafka Broker Metrics
-    -   Under-replicated partitions
-    -   Broker metrics
-    -   Topic and partition metrics
-    -   JVM monitoring
-    -   OS monitoring
-    -   Logging
--   Client Monitoring
-    -   Producer metrics
-    -   Consumer metrics
-    -   Quotas
--   Lag Monitoring
--   End-to-End Monitoring
-    -   Kakfa-monitor <https://github.com/linkedin/kafka-monitor>
+
+- Metrics Basics
+- Kafka Broker Metrics
+  - Under-replicated partitions
+  - Broker metrics
+  - Topic and partition metrics
+  - JVM monitoring
+  - OS monitoring
+  - Logging
+- Client Monitoring
+  - Producer metrics
+  - Consumer metrics
+  - Quotas
+- Lag Monitoring
+- End-to-End Monitoring
+  - Kakfa-monitor <https://github.com/linkedin/kafka-monitor>
 
 ## Tools
--   kafka manager
--   kafka-lag-exporter
+
+- kafka manager
+- kafka-lag-exporter
 
 ## Metrics
 

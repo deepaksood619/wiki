@@ -8,7 +8,7 @@ Modified: 2021-07-29 23:35:03 +0500
 
 | **Photoshop**                                                                                                  |
 |------------------------------------------------------------------------|
-| <https://www.sitepoint.com/getting-started-photoshop-5                                                       |
+| <https://www.sitepoint.com/getting-started-photoshop-5>                                                       |
 | Toolbox                                                                                                        |
 | Panels                                                                                                         |
 | Document Window                                                                                                |

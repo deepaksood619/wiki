@@ -36,4 +36,4 @@ BARC PhD Admission Test (February)
 
 ## CMU (Carnegie Mellon University)
 
-<http://www.cs.cmu.edu/~pavlo
+<http://www.cs.cmu.edu/~pavlo>

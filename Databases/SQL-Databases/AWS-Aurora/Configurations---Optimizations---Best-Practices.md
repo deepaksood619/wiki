@@ -11,26 +11,28 @@ Modified: 2022-12-11 19:59:49 +0500
 There are two types of Aurora MySQL parameter groups: DB parameter groups and DB cluster parameter groups. Some parameters affect the configuration for an entire DB cluster, like binary log format, time zone, and character set defaults. Others limit their scope to a single DB instance.
 
 ### Key Performance Indicators
--   CPU utilization
--   Number of database connections
--   Memory utilization
--   Cache hit rates
--   Query throughput
--   Latency
+
+- CPU utilization
+- Number of database connections
+- Memory utilization
+- Cache hit rates
+- Query throughput
+- Latency
 
 ### Classifying Parameters
 
-1.  Parameters that control the database's behavior and functionality but have no impact on resource utilization and instance stability
+1. Parameters that control the database's behavior and functionality but have no impact on resource utilization and instance stability
 
-2.  Parameters that might affect performance by managing how resources, such as caching and internal memory-based buffers, are allocated in the instance
+2. Parameters that might affect performance by managing how resources, such as caching and internal memory-based buffers, are allocated in the instance
 
 ## Others
--   innodb_additional_mem_pool_size
--   innodb_log_buffer_size
--   long_query_time
--   server_audit_events
--   server_audit_excl_users
--   server_audit_incl_users
+
+- innodb_additional_mem_pool_size
+- innodb_log_buffer_size
+- long_query_time
+- server_audit_events
+- server_audit_excl_users
+- server_audit_incl_users
 
 ## Recommendations and impact
 
@@ -122,23 +124,26 @@ Impact:No impact on Aurora's performance.
 ### Query Cache
 
 Aurora has two query-cache related metrics
--   Buffer cache hit ratio : The percentage of requests that are served by the Buffer cache.
--   Resultset cache hit ratio : The percentage of requests that are served by the Resultset cache.
+
+- Buffer cache hit ratio : The percentage of requests that are served by the Buffer cache.
+- Resultset cache hit ratio : The percentage of requests that are served by the Resultset cache.
 
 "Resultset Cache Hit Ratio" is related to the query cache, which is a feature that enables caching the read queries' results (that's why called result set cache hit). So,if the engine started to execute a new read query, it will check the cached results before executing the query itself and if it found that this same query has been executed before and that its result wasn't invalidated yet, then it will serve the result of the new query from the cache. This is generally useful & shows up high in number when the workload contains a lot of similar select queries that has the similar values and conditions.
 
 On the other hand, "Buffer Cache Hit Ratio" is more related to the innodb page caching hit ratio (& not the query result cache), and this should increase with increasing all types of read queries, as this process is called by bufferpool warm up which will cause the engine to load all the needed pages from the storage to the memory for faster access to the data. However, with increased amount of writes to the writer, this will make the readers to invalidate there in memory pages then load these pages again from the storage when needed. The "ratio" here depends on the percentage of hitting the in memory pages which should be very high ex: more than 99%.
 Query cache is generally considered with low connections, similar type of queries over & over again (based on few observations on mysql/aurora, query cache might be actually bad for performance if you have high no. of connections & lots of adhoc style, changing queries).-   It is rarely good to enable the Query Cache
     -   Guarded by a single mutext
--   Most workloads is best left with the Query Cache disabled:
-    -   query_cache_type = 0
--   If you think your workload benefits from the Query Cache, test it
-    -   The more writes, the less benefit
-    -   The more data fitting into the buffer pool, the less benefit
-    -   The more complex queries and the larger scans, the more benefit
--   Often other caching solutions are a better option
+
+- Most workloads is best left with the Query Cache disabled:
+  - query_cache_type = 0
+- If you think your workload benefits from the Query Cache, test it
+  - The more writes, the less benefit
+  - The more data fitting into the buffer pool, the less benefit
+  - The more complex queries and the larger scans, the more benefit
+- Often other caching solutions are a better option
 
 ### Removed in MySQL 8.0
+
 <http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Monitoring.html>
 
 ### query_cache_size
@@ -182,8 +187,9 @@ Impact:Very large values (hundreds of megabytes or more) are notorious for causi
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Reference.html>
 
 ### Instance Types
--   **db.r6g instances**
--   **db.r5 instances**
+
+- **db.r6g instances**
+- **db.r5 instances**
 
 ## Amazon Aurora Serverless
 
@@ -197,7 +203,8 @@ Aurora Serverless v2 (Preview) supports all manner of database workloads, from d
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.html>
 
 ## Important points
--   You can't give an Aurora Serverless DB cluster a public IP address. You can access an Aurora Serverless DB cluster only from within a virtual private cloud (VPC) based on the Amazon VPC service.
+
+- You can't give an Aurora Serverless DB cluster a public IP address. You can access an Aurora Serverless DB cluster only from within a virtual private cloud (VPC) based on the Amazon VPC service.
 <https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless.how-it-works.html>
 
 ## Optimizations
@@ -221,6 +228,7 @@ To tell if your working set is almost all in memory, check the ReadIOPS metric (
 ## Aurora IO Costs/Optimization
 
 [Amazon Aurora I/O Cost Optimization Methodology | Amazon Web Services](https://www.youtube.com/watch?v=dpLRAlEX7Lo)
+
 ```
 select * from sys.user_summary_by_file_io;
 
@@ -230,4 +238,5 @@ innodb_flush_log_at_timeout
 ```
 
 ### RDS Proxy
+
 <https://aws.amazon.com/rds/proxy>

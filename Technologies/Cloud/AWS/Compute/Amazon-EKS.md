@@ -11,10 +11,11 @@ Amazon Elastic Kubernetes Service (Amazon EKS) is a managed service that makes i
 Amazon EKS runs Kubernetes control plane instances across multiple Availability Zones to ensure high availability. Amazon EKS automatically detects and replaces unhealthy control plane instances, and it provides automated version upgrades and patching for them.
 
 Amazon EKS is also integrated with many AWS services to provide scalability and security for your applications, including the following:
--   Amazon ECR for container images
--   Elastic Load Balancing for load distribution
--   IAM for authentication
--   Amazon VPC for isolation
+
+- Amazon ECR for container images
+- Elastic Load Balancing for load distribution
+- IAM for authentication
+- Amazon VPC for isolation
 
 ## Amazon EKS Control Plane Architecture
 
@@ -148,11 +149,11 @@ eksctl help Help about any command
 
 eksctl utils write-kubeconfig --cluster=stashfin [--kubeconfig=<path>][--set-kubeconfig-context=<bool>]
 
-<https://eksctl.io
+<https://eksctl.io>
 
 ## Using Fargate with EKS
 
-<https://eksctl.io/usage/fargate
+<https://eksctl.io/usage/fargate>
 
 ## Reserve some memory for the kubelet and the system namespaces (for Kubelet OOM)
 
@@ -170,7 +171,7 @@ Can be modified once in 6 hours
 
 ## Optimizations
 
-<https://kubedex.com/90-days-of-aws-eks-in-production
+<https://kubedex.com/90-days-of-aws-eks-in-production>
 
 ## Tools
 
@@ -200,7 +201,7 @@ What's new in k8s v1.17:<https://lnkd.in/gSXZatU>
 
 ## IAM Roles for Service Accounts (IRSA)
 
-<https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts
+<https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts>
 
 ## Max number of pods
 

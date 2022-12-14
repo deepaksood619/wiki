@@ -61,9 +61,10 @@ my_dog.search()
 A namespace is a mapping from names to objects. Most namespaces are currently implemented as Python dictionaries.
 
 Example of namespaces:
--   The set of built-in names (such as abs(), and built-in exception names)
--   The global name in a module
--   Local names in a function invocation
+
+- The set of built-in names (such as abs(), and built-in exception names)
+- The global name in a module
+- Local names in a function invocation
 
 ## Modules and attributes
 

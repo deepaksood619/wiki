@@ -18,7 +18,7 @@ Switch away from the approach of code-by-default and instead **code-when-necessa
 
 ## See one, do one, teach one
 
-## Everything fails, all the time.
+## Everything fails, all the time
 
 ## garbage in, garbage out (GIGO)
 
@@ -29,7 +29,8 @@ If you're the smartest person in the room, you're in the wrong room.
 In God we trust. All others must bring data.
 
 Once you really understand programming, than these languages are mainly syntax, and you can pick-up syntax a lot faster than you can underlying concepts. Now knowing how to solve the problems takes years to learn.
--   [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) YouTuber
+
+- [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) YouTuber
 
 Correct by Construction
 
@@ -263,7 +264,7 @@ A user interface is like a joke. If you have to explain it, it's not that good. 
 
 ![image](media/Coding-image8.jpeg)
 
-## We don't have time to do it right!
+## We don't have time to do it right
 
 ## Do you have time to do it twice?
 
@@ -272,9 +273,10 @@ A user interface is like a joke. If you have to explain it, it's not that good. 
 There are only two kinds of programming languages: the ones people complain about and the ones nobody uses." ― Bjarne Stroustrup, creator of the C++ programming language
 
 ## Rule of Three
--   1st time? Just do it.
--   2nd time? Wince and duplicate.
--   3rd time? Refactor!
+
+- 1st time? Just do it.
+- 2nd time? Wince and duplicate.
+- 3rd time? Refactor!
 
 First do it, then do it right, then do it better.
 
@@ -328,7 +330,7 @@ A complex system that works is invariably found to have evolved from a simple sy
 
 A very simple but particularly useful technique for finding the cause of a problem is simply to explain it to someone else. The other person should look over your shoulder at the screen, and nod his or her head constantly (like a rubber duck bobbing up and down in a bathtub)." --- Andrew Hunt and David Thomas, authors of the 1999 book The Pragmatic Programmer
 
-<https://www.freecodecamp.org/news/rubber-duck-debugging
+<https://www.freecodecamp.org/news/rubber-duck-debugging>
 
 Composability is to software as compounding interest is to finance
 

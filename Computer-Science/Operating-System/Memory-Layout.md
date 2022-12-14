@@ -8,19 +8,19 @@ Modified: 2019-12-02 13:29:28 +0500
 
 A typical memory representation of C program consists of following sections.
 
-1.  Text segment
+1. Text segment
 
-2.  Initialized data segment
+2. Initialized data segment
 
-3.  Uninitialized data segment
+3. Uninitialized data segment
 
-4.  Stack
+4. Stack
 
-5.  Heap
+5. Heap
 ![image](media/Memory-Layout-image1.jpg)
 A typical memory layout of a running process
 
-1.  **Text Segment:**
+1. **Text Segment:**
 
 A text segment , also known as a code segment or simply as text, is one of the sections of a program in an object file or in memory, which contains executable instructions.
 As a memory region, a text segment may be placed below the heap or stack in order to prevent heaps and stack overflows from overwriting it.

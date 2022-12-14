@@ -185,10 +185,12 @@ show statement_timeout;
 set statement_timeout to 60000; commit;
 
 ## Tools
--   pg_buffercache
+
+- pg_buffercache
 
 see what's occupying the shared buffer cache of your instance
--   pg_prewarm
+
+- pg_prewarm
 
 load table data into either the operating system cache or the Postgres buffer cache
 
@@ -569,17 +571,19 @@ pg_dumpall dumps all databases in given PostgreSQL installation (cluster), and d
 The major benefit of pg_dumpall is that it's single command, and you get results.
 
 There is huge number of drawbacks though:
--   dump is large, because it's uncompressed
--   dumping is slow, because it's done sequentially, with single worker
--   it's hard to restore just parts of dump
+
+- dump is large, because it's uncompressed
+- dumping is slow, because it's done sequentially, with single worker
+- it's hard to restore just parts of dump
 
 ## pg_dump
 
 pg_dump, on the other hand, can't dump globals, and can dump only one database at a time. But it can use four dump formats:
--   plain
--   custom
--   directory
--   tar
+
+- plain
+- custom
+- directory
+- tar
 
 Plain is just plain text format, just like pg_dumpall dumps. You can load it with psql, and extracting parts can be complicated if dump is large.
 
@@ -593,4 +597,4 @@ q
 
 Cannot use --keepdb after this, since new db is to be created
 
-<https://www.depesz.com/2019/12/10/how-to-effectively-dump-postgresql-databases
+<https://www.depesz.com/2019/12/10/how-to-effectively-dump-postgresql-databases>

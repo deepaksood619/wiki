@@ -8,7 +8,9 @@ Modified: 2022-03-14 20:43:39 +0500
 
 Flow Control basically means thatTCPwill ensure that a sender is not overwhelming a receiver by sending packets faster than it can consume. It's pretty similar to what's normally called*Back pressure*in the Distributed Systems literature. The idea is that a node receiving data will send some kind of feedback to the node sending the data to let it know about its current condition.
 It's important to understand that this isnotthe same as*Congestion Control*. Although there's some overlap between the mechanismsTCPuses to provide both services, they are distinct features. Congestion control is about preventing a node from overwhelming the network (i.e. the links between two nodes), while Flow Control is about the end-node.
+
 ## Additive increase, Multiplicative decrease
+
 ## rwnd - Receiver Window and cwnd - Congestion Window
 
 Congestion Window (cwnd) is a TCP state variable that limits the amount of data the[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)can send into the network before receiving an[ACK](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)). The Receiver Window (rwnd) is a variable that advertises the amount of data that the destination side can receive. Together, the two variables are used to regulate data flow in TCP connections, minimize congestion, and improve network performance.
@@ -33,6 +35,7 @@ To control the amount of data thatTCPcan send, the receiver will advertise its**
 ![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image3.png)
 
 Every timeTCPreceives a packet, it needs to send anackmessage to the sender, acknowledging it received that packet correctly, and with thisackmessage it sends the value of the current receive window, so the sender knows if it can keep sending data.
+
 ## The sliding window
 
 TCPuses a sliding window protocol to control the number of bytes in flight it can have. In other words, the number of bytes that were sent but not yetacked.
@@ -46,6 +49,7 @@ Now, if for some reason the application reading these packets in node B slows do
 The sender will always keep this invariant:
 
 LastByteSent - LastByteAcked <= ReceiveWindowAdvertised
+
 ## Visualizing the Receive Window
 
 Just to see this behavior in action, let's write a very simple application that reads data from a socket and watch how the receive window behaves when we make this application slower. We will use Wireshark to see these packets,netcat to send data to this application, and ago program to read data from the socket.
@@ -123,15 +127,15 @@ To solve this problem, whenTCPreceives a zero-window message it starts the *pers
 When there's some spare space in the receiver's buffer again it can advertise a non-zero window size and the transmission can continue.
 
 ## Recap
--   TCP's flow control is a mechanism to ensure the sender is not overwhelming the receiver with more data than it can handle;
--   With everyackmessage the receiver advertises its current receive window;
--   The receive window is the spare space in the receive buffer, that is,rwnd = ReceiveBuffer - (LastByteReceived -- LastByteReadByApplication);
--   TCPwill use a sliding window protocol to make sure it never has more bytes in flight than the window advertised by the receiver;
--   When the window size is 0,TCPwill stop transmitting data and will start the persist timer;
--   It will then periodically send a smallWindowProbemessage to the receiver to check if it can start receiving data again;
--   When it receives a non-zero window size, it resumes the transmission.
-<https://www.brianstorti.com/tcp-flow-control>
 
+- TCP's flow control is a mechanism to ensure the sender is not overwhelming the receiver with more data than it can handle;
+- With everyackmessage the receiver advertises its current receive window;
+- The receive window is the spare space in the receive buffer, that is,rwnd = ReceiveBuffer - (LastByteReceived -- LastByteReadByApplication);
+- TCPwill use a sliding window protocol to make sure it never has more bytes in flight than the window advertised by the receiver;
+- When the window size is 0,TCPwill stop transmitting data and will start the persist timer;
+- It will then periodically send a smallWindowProbemessage to the receiver to check if it can start receiving data again;
+- When it receives a non-zero window size, it resumes the transmission.
+<https://www.brianstorti.com/tcp-flow-control>
 
 ## TCP Slow Start
 
@@ -162,7 +166,8 @@ When an application puts a socket into LISTEN state using the[listen](http://lin
 
 Because of the 3-way handshake used by TCP, an incoming connection goes through an intermediate state SYN RECEIVED before it reaches the ESTABLISHED state and can be returned by the[accept](http://linux.die.net/man/2/accept)syscall to the application (see the part of the[TCP state diagram](http://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed.svg)reproduced above). This means that a TCP/IP stack has two options to implement the backlog queue for a socket in LISTEN state:
 
-1.  The implementation uses a single queue, the size of which is determined by thebacklogargument of thelistensyscall. When a SYN packet is received, it sends back a SYN/ACK packet and adds the connection to the queue. When the corresponding ACK is received, the connection changes its state to ESTABLISHED and becomes eligible for handover to the application. This means that the queue can contain connections in two different state: SYN RECEIVED and ESTABLISHED. Only connections in the latter state can be returned to the application by theacceptsyscall.
+1. The implementation uses a single queue, the size of which is determined by thebacklogargument of thelistensyscall. When a SYN packet is received, it sends back a SYN/ACK packet and adds the connection to the queue. When the corresponding ACK is received, the connection changes its state to ESTABLISHED and becomes eligible for handover to the application. This means that the queue can contain connections in two different state: SYN RECEIVED and ESTABLISHED. Only connections in the latter state can be returned to the application by theacceptsyscall.
 
-2.  The implementation uses two queues, a SYN queue (or incomplete connection queue) and an accept queue (or complete connection queue). Connections in state SYN RECEIVED are added to the SYN queue and later moved to the accept queue when their state changes to ESTABLISHED, i.e. when the ACK packet in the 3-way handshake is received. As the name implies, theacceptcall is then implemented simply to consume connections from the accept queue. In this case, thebacklogargument of thelistensyscall determines the size of the accept queue.
-## Note that a "listen backlog" of 100 connections doesn't mean that your server can only handle 100 simultaneous (or total) connections - this is instead dependent on the number of configured processes or threads. The listen backlog is a socket setting telling the kernel how to limit the number of outstanding (as yet unaccapted) connections in the listen queue of a listening socket. If the number of pending connections exceeds the specified size, new ones are automatically rejected. A functioning server regularly servicing its connections should not require a large backlog size.
+2. The implementation uses two queues, a SYN queue (or incomplete connection queue) and an accept queue (or complete connection queue). Connections in state SYN RECEIVED are added to the SYN queue and later moved to the accept queue when their state changes to ESTABLISHED, i.e. when the ACK packet in the 3-way handshake is received. As the name implies, theacceptcall is then implemented simply to consume connections from the accept queue. In this case, thebacklogargument of thelistensyscall determines the size of the accept queue.
+
+## Note that a "listen backlog" of 100 connections doesn't mean that your server can only handle 100 simultaneous (or total) connections - this is instead dependent on the number of configured processes or threads. The listen backlog is a socket setting telling the kernel how to limit the number of outstanding (as yet unaccapted) connections in the listen queue of a listening socket. If the number of pending connections exceeds the specified size, new ones are automatically rejected. A functioning server regularly servicing its connections should not require a large backlog size

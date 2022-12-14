@@ -6,7 +6,7 @@ Modified: 2020-06-06 23:14:40 +0500
 
 ---
 
-<https://operatorhub.io
+<https://operatorhub.io>
 
 ## Operators
 
@@ -21,21 +21,22 @@ It builds upon the basic Kubernetes **resource** and **controller** concepts but
 ## Controllers - ReplicaSet, DaemonSet, Deployment
 
 ## Domain or Application Specific Knowledge
--   Installing
--   Self-Heal
--   Scale
--   Clean up
--   Update
--   Backup
--   Restore
+
+- Installing
+- Self-Heal
+- Scale
+- Clean up
+- Update
+- Backup
+- Restore
 
 ## Operator Framework
 
-1.  Operator SDK
+1. Operator SDK
 
-2.  Operator LifeCycle Manager
+2. Operator LifeCycle Manager
 
-3.  Operator Metering
+3. Operator Metering
 
 ## Game Changer
 
@@ -59,27 +60,27 @@ Finally, Kubernetes provides a cloud-agnostic application deployment and managem
 
 ## Custom Resource Definition (CRDs)
 
-Custom Resources/Controllers - <https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources
+Custom Resources/Controllers - <https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources>
 
 ## Capabilities
 
-1.  Basic Install
+1. Basic Install
 
 Automated application provisioning and configuration management
 
-2.  Seamless Upgrades
+2. Seamless Upgrades
 
 Patch and minor version upgrades supported
 
-3.  Full Lifecycle
+3. Full Lifecycle
 
 App lifecycle, storage lifecycle (backup, failure recovery)
 
-4.  Deep Insights
+4. Deep Insights
 
 Metrics, alerts, log processing and workload analysis
 
-5.  Auto Pilot
+5. Auto Pilot
 
 Horizontal/vertical scaling, auto config tuning, abnormal detection, scheduling tuning
 
@@ -97,24 +98,24 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
 
 ## Kafka Operator
 
-1.  Automated Provisioning
-    -   Configuration for Confluent Platform clusters to achieve zero-touch provisioning.
-    -   Deployment of clusters across multiple racks or availability zones.
-    -   Integration with[Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)to store data either on local disk or network attached storage.
+1. Automated Provisioning
+    - Configuration for Confluent Platform clusters to achieve zero-touch provisioning.
+    - Deployment of clusters across multiple racks or availability zones.
+    - Integration with[Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)to store data either on local disk or network attached storage.
 
-2.  Cluster Management and Operations
-    -   Automated rolling update of the Confluent Platform clusters after either a Confluent Platform version, configuration, or resource update
-    -   Elastic scaling of Kafka clusters up or down by updating cluster configuration.
-    -   Automated data balancing to distribute replicas evenly across all brokers in a Kafka cluster, after new brokers are added to the cluster during a scale up operation, as well as, before existing brokers are deleted from the cluster during a scale down operation.
+2. Cluster Management and Operations
+    - Automated rolling update of the Confluent Platform clusters after either a Confluent Platform version, configuration, or resource update
+    - Elastic scaling of Kafka clusters up or down by updating cluster configuration.
+    - Automated data balancing to distribute replicas evenly across all brokers in a Kafka cluster, after new brokers are added to the cluster during a scale up operation, as well as, before existing brokers are deleted from the cluster during a scale down operation.
 
-3.  Resiliency
-    -   Restoration of a Kafka node to a pod with the same broker id, configuration, and Persistent volumes when a Kafka pod dies
+3. Resiliency
+    - Restoration of a Kafka node to a pod with the same broker id, configuration, and Persistent volumes when a Kafka pod dies
 
-4.  Monitoring
-    -   End-to-end data completeness SLA monitoring with Control Center
-    -   Exposes Prometheus metrics for additional alerting and monitoring
+4. Monitoring
+    - End-to-end data completeness SLA monitoring with Control Center
+    - Exposes Prometheus metrics for additional alerting and monitoring
 
-<https://www.confluent.io/blog/introducing-the-confluent-operator-apache-kafka-on-kubernetes
+<https://www.confluent.io/blog/introducing-the-confluent-operator-apache-kafka-on-kubernetes>
 
 <https://github.com/krallistic/kafka-operator>
 
@@ -126,7 +127,7 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
 
 <https://github.com/operator-framework>
 
-<https://coreos.com/operators
+<https://coreos.com/operators>
 
 <https://github.com/operator-framework/awesome-operators>
 
@@ -134,8 +135,8 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
 
 <https://github.com/kubernetes-sigs/kubebuilder>
 
-<https://book.kubebuilder.io
+<https://book.kubebuilder.io>
 
-<https://codeengineered.com/blog/2018/kubernetes-helm-related-tools
+<https://codeengineered.com/blog/2018/kubernetes-helm-related-tools>
 
 <https://medium.com/@cloudark/kubernetes-operators-and-helm-it-takes-two-to-tango-3ff6dcf65619>

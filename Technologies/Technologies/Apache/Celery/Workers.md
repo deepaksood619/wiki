@@ -21,10 +21,11 @@ You can choose between processes or threads, using the--poolcommand line argumen
 celery worker --app=worker.app --pool=gevent --concurrency=100
 
 Celery supports four execution pool implementations
--   prefork
--   solo
--   eventlet
--   gevent
+
+- prefork
+- solo
+- eventlet
+- gevent
 
 The--poolcommand line argument is optional. If not specified, Celery defaults to the prefork execution pool.
 
@@ -58,7 +59,7 @@ If you run a single process execution pool, you can only handle one request at a
 
 In this scenario, spawning hundreds (or even thousands) of threads is a much more efficient way to increase capacity for I/O-bound tasks. Celery supports two thread-based execution pools: eventlet and gevent. Here, the execution pool runs in the same process as the Celery worker itself. To be precise, both eventlet and gevent use greenlets and not threads.
 
-## Greenlets - also known as green threads, cooperative threads or coroutines - give you threads, but without using threads. Threads are managed by the operating system kernel. The operating system uses a general-purpose scheduler to switch between threads. This general-purpose scheduler is not always very efficient.
+## Greenlets - also known as green threads, cooperative threads or coroutines - give you threads, but without using threads. Threads are managed by the operating system kernel. The operating system uses a general-purpose scheduler to switch between threads. This general-purpose scheduler is not always very efficient
 
 Greenlets emulate multi-threaded environments without relying on any native operating system capabilities. Greenlets are managed in application space and not in kernel space. There is no scheduler pre-emptively switching between your threads at any given moment. Instead your greenlets voluntarily or explicitly give up control to one another at specified points in your code.
 
@@ -110,14 +111,15 @@ Tasks that perform Input/Output operations should run in a greenlet-based execut
 
 What can you do if you have a mix of CPU and I/O bound tasks? Set up two queues with one worker processing each queue. One queue/worker with a prefork execution pool for CPU heavy tasks. And another queue/worker with a gevent or eventlet execution pool for I/O tasks. And don't forget to route your tasks to the correct queue.
 
-<https://www.distributedpython.com/2018/10/26/celery-execution-pool
+<https://www.distributedpython.com/2018/10/26/celery-execution-pool>
 
 ## Eventlet
 
 Eventlet is a concurrent networking library for Python that allows you to change how you run your code, not how you write it.
--   It uses epoll or kqueue or libevent for[highly scalable non-blocking I/O](http://en.wikipedia.org/wiki/Asynchronous_I/O#Select.28.2Fpoll.29_loops).
--   [Coroutines](http://en.wikipedia.org/wiki/Coroutine)ensure that the developer uses a blocking style of programming that is similar to threading, but provide the benefits of non-blocking I/O.
--   The event dispatch is implicit, which means you can easily use Eventlet from the Python interpreter, or as a small part of a larger application.
+
+- It uses epoll or kqueue or libevent for[highly scalable non-blocking I/O](http://en.wikipedia.org/wiki/Asynchronous_I/O#Select.28.2Fpoll.29_loops).
+- [Coroutines](http://en.wikipedia.org/wiki/Coroutine)ensure that the developer uses a blocking style of programming that is similar to threading, but provide the benefits of non-blocking I/O.
+- The event dispatch is implicit, which means you can easily use Eventlet from the Python interpreter, or as a small part of a larger application.
 
 It's easy to get started using Eventlet, and easy to convert existing applications to use it. Start off by looking at[examples](http://eventlet.net/doc/examples.html),[common design patterns](http://eventlet.net/doc/design_patterns.html), and the list of the[basic API primitives](http://eventlet.net/doc/basic_usage.html).
 
@@ -125,15 +127,16 @@ It's easy to get started using Eventlet, and easy to convert existing applicatio
 
 gevent is a[coroutine](https://en.wikipedia.org/wiki/Coroutine)based[Python](http://python.org/)networking library that uses[greenlet](https://greenlet.readthedocs.io/)to provide a high-level synchronous API on top of the[libev](http://software.schmorp.de/pkg/libev.html)or[libuv](http://libuv.org/)event loop.
 
-## Features include:
--   Fast event loop based on[libev](http://software.schmorp.de/pkg/libev.html)or[libuv](http://libuv.org/).
--   Lightweight execution units based on greenlets.
--   API that re-uses concepts from the Python standard library (for examples there are[events](http://www.gevent.org/api/gevent.event.html#gevent.event.Event)and [queues](http://www.gevent.org/api/gevent.queue.html#gevent.queue.Queue)).
--   [Cooperative sockets with SSL support](http://www.gevent.org/api/index.html#networking)
--   [Cooperative DNS queries](http://www.gevent.org/dns.html)performed through a threadpool, dnspython, or c-ares.
--   [Monkey patching utility](http://www.gevent.org/intro.html#monkey-patching)to get 3rd party modules to become cooperative
--   TCP/UDP/HTTP servers
--   Subprocess support (through[gevent.subprocess](http://www.gevent.org/api/gevent.subprocess.html#module-gevent.subprocess))
--   Thread pools
+## Features include
+
+- Fast event loop based on[libev](http://software.schmorp.de/pkg/libev.html)or[libuv](http://libuv.org/).
+- Lightweight execution units based on greenlets.
+- API that re-uses concepts from the Python standard library (for examples there are[events](http://www.gevent.org/api/gevent.event.html#gevent.event.Event)and [queues](http://www.gevent.org/api/gevent.queue.html#gevent.queue.Queue)).
+- [Cooperative sockets with SSL support](http://www.gevent.org/api/index.html#networking)
+- [Cooperative DNS queries](http://www.gevent.org/dns.html)performed through a threadpool, dnspython, or c-ares.
+- [Monkey patching utility](http://www.gevent.org/intro.html#monkey-patching)to get 3rd party modules to become cooperative
+- TCP/UDP/HTTP servers
+- Subprocess support (through[gevent.subprocess](http://www.gevent.org/api/gevent.subprocess.html#module-gevent.subprocess))
+- Thread pools
 
 gevent is[inspired by eventlet](http://blog.gevent.org/2010/02/27/why-gevent/)but features a more consistent API, simpler implementation and better performance.

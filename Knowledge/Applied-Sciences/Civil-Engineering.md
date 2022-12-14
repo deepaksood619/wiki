@@ -7,27 +7,32 @@ Modified: 2022-05-18 11:59:04 +0500
 ---
 
 ## Civil Engineering
--   IMHOTEP - First engineering in Egypt
--   Structural Engineering
+
+- IMHOTEP - First engineering in Egypt
+- Structural Engineering
 
 Focus more on the design and framework of structures
--   Construction Engineering
+
+- Construction Engineering
 
 Involved with actually building the structure
--   Hippodamian plan (Hippodamus of Miletus, Greece, 460 BCE, Father of city planning)
+
+- Hippodamian plan (Hippodamus of Miletus, Greece, 460 BCE, Father of city planning)
 
 Rectangle city blocks with roads
 
 Dividing up city into different parts for different purposes
--   Transportation
--   Joseph Aspdin (patented portland cement)
--   Sanitation
+
+- Transportation
+- Joseph Aspdin (patented portland cement)
+- Sanitation
 
 Sir Joseph William Bazalgette (created london sewers)
 
 His network helped relieve the city of its cholera epidemic by treating the water and cleansing the polluted river thames, which took nearly 20 years to complete, and he was eventually knighted for this work
--   Hydraulic engineering
--   Geotechnical engineering
+
+- Hydraulic engineering
+- Geotechnical engineering
 
 ## Sacrificial Concrete
 
@@ -39,4 +44,4 @@ Thermal insulation refers to the provisions or constructions employed to reduce 
 
 ![image](media/Civil-Engineering-image1.jpg)
 
-<https://happho.com/insulate-house-thermally
+<https://happho.com/insulate-house-thermally>

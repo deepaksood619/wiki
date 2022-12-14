@@ -8,17 +8,17 @@ Modified: 2022-11-29 15:55:50 +0500
 
 ## Asset Classes
 
-1.  Fixed income instruments
-    -   Fixed deposits offered by banks
-    -   Bonds issued by the Government of India
-    -   Bonds issued by Government related agencies such as HUDCO, NHAI, etc
-    -   Bonds issued by corporate's
+1. Fixed income instruments
+    - Fixed deposits offered by banks
+    - Bonds issued by the Government of India
+    - Bonds issued by Government related agencies such as HUDCO, NHAI, etc
+    - Bonds issued by corporate's
 
-2.  Equity
+2. Equity
 
-3.  Real estate
+3. Real estate
 
-4.  Commodities (precious metals)
+4. Commodities (precious metals)
 
 ## Chartered Financial Analyst(CFA)
 
@@ -32,29 +32,34 @@ The program teaches a wide range of subjects relating to[advanced investment ana
 
 ## Accrual
 
-## Accrual(accumulation) of something is, in[finance](https://en.wikipedia.org/wiki/Finance), the adding together of[interest](https://en.wikipedia.org/wiki/Interest)or different[investments](https://en.wikipedia.org/wiki/Investments)over a period of time. It holds specific meanings in[accounting](https://en.wikipedia.org/wiki/Accounting), where it can refer to accounts on a[balance sheet](https://en.wikipedia.org/wiki/Balance_sheet)that represent liabilities and non-cash-based assets used in[accrual-based accounting](https://en.wikipedia.org/wiki/Basis_of_accounting#Accrual_basis). These types of accounts include, among others,[accounts payable](https://en.wikipedia.org/wiki/Accounts_payable),[accounts receivable](https://en.wikipedia.org/wiki/Accounts_receivable),[goodwill](https://en.wikipedia.org/wiki/Goodwill_(accounting)),[deferred tax](https://en.wikipedia.org/wiki/Deferred_tax)[liability](https://en.wikipedia.org/wiki/Liability_(accounting))and future interest expense.
--   **Accrued revenue:** revenue is recognized before cash is received.
--   **Accrued expense:** expense is recognized before cash is paid out.
+## Accrual(accumulation) of something is, in[finance](https://en.wikipedia.org/wiki/Finance), the adding together of[interest](https://en.wikipedia.org/wiki/Interest)or different[investments](https://en.wikipedia.org/wiki/Investments)over a period of time. It holds specific meanings in[accounting](https://en.wikipedia.org/wiki/Accounting), where it can refer to accounts on a[balance sheet](https://en.wikipedia.org/wiki/Balance_sheet)that represent liabilities and non-cash-based assets used in[accrual-based accounting](https://en.wikipedia.org/wiki/Basis_of_accounting#Accrual_basis). These types of accounts include, among others,[accounts payable](https://en.wikipedia.org/wiki/Accounts_payable),[accounts receivable](https://en.wikipedia.org/wiki/Accounts_receivable),[goodwill](https://en.wikipedia.org/wiki/Goodwill_(accounting)),[deferred tax](https://en.wikipedia.org/wiki/Deferred_tax)[liability](https://en.wikipedia.org/wiki/Liability_(accounting))and future interest expense
+
+- **Accrued revenue:** revenue is recognized before cash is received.
+- **Accrued expense:** expense is recognized before cash is paid out.
 
 ## TAM (Total Addressable or Accessible Market)
 
 ## Amortization
--   the action or process of gradually writing off the initial cost of an asset.
+
+- the action or process of gradually writing off the initial cost of an asset.
 
 Ex - due to the amortization of initial costs, the risks of negative working capital are mitigated
--   the action or process of reducing or paying off a debt with regular payments
+
+- the action or process of reducing or paying off a debt with regular payments
 
 Ex - because of amortization, you'll own your home by the end of the loan term
--   a period in which a debt is reduced or paid off by regular payments
+
+- a period in which a debt is reduced or paid off by regular payments
 
 75% of the mortgages have an amortization of 25 years or less
 
 ## Debt Burden Ratio (DBR) / Debt to Income Ratio (DTI)
 
 The debt-to-income (DTI) ratio is a personal finance measure that compares an individual's monthly debt payment to his or her monthly[gross income](https://www.investopedia.com/terms/g/grossincome.asp). Your gross income is your pay before taxes and other deductions are taken out. The debt-to-income ratio is the percentage of your gross monthly income that goes to paying your monthly debt payments.
--   The debt-to-income (DTI) ratio measures the amount of income a person or organization generates in order to service a debt.
--   A DTI of 43% is typically the highest ratio a borrower can have and still get qualified for a mortgage, but lenders generally seek ratios of no more than 36%.
--   A low DTI ratio indicates sufficient income relative to debt servicing, and makes a borrower more attractive.
+
+- The debt-to-income (DTI) ratio measures the amount of income a person or organization generates in order to service a debt.
+- A DTI of 43% is typically the highest ratio a borrower can have and still get qualified for a mortgage, but lenders generally seek ratios of no more than 36%.
+- A low DTI ratio indicates sufficient income relative to debt servicing, and makes a borrower more attractive.
 
 ![image](media/Finance-Terms-image1.png)
 
@@ -65,10 +70,11 @@ The debt-to-income (DTI) ratio is a personal finance measure that compares an in
 Rolling returns, also known as "rollingperiodreturns" or "rollingtime periods," are annualized averagereturnsfor a period, ending with the listed year.Rolling returnsare useful for examining the behavior ofreturnsfor holding periods, similar to those actually experienced by investors.
 
 Looking at a portfolio or fund's rolling returns will give performance results that are smoothed over several periods throughout its history. Such information often paints a more accurate picture for an investor than a single snapshot of one period.
--   Rolling returns are annualized average returns for a period, ending with the listed year.
--   Rolling returns are useful for examining the behavior of returns for holding periods, similar to those actually experienced by investors.
--   These can also be used to smooth past performance to account for several periods instead of a single instance.
--   Trailing twelve months is one commonly used rolling return measure.
+
+- Rolling returns are annualized average returns for a period, ending with the listed year.
+- Rolling returns are useful for examining the behavior of returns for holding periods, similar to those actually experienced by investors.
+- These can also be used to smooth past performance to account for several periods instead of a single instance.
+- Trailing twelve months is one commonly used rolling return measure.
 
 <https://www.investopedia.com/terms/r/rollingreturns.asp>
 
@@ -99,9 +105,10 @@ Net interest margin = (Investment returns -- interest expenses) / average earnin
 <https://www.investopedia.com/terms/n/netinterestmargin.asp>
 
 ## ROCE (Return on Capital Employed)
--   Return on capital employed (ROCE) is a financial ratio that measures a company's profitability in terms of all of its capital.
--   Return on capital employed is similar to return on invested capital (ROIC).
--   Many companies may calculate the following key return ratios in their performance analysis: return on equity (ROE), return on assets (ROA), return on invested capital (ROIC), and return on capital employed.
+
+- Return on capital employed (ROCE) is a financial ratio that measures a company's profitability in terms of all of its capital.
+- Return on capital employed is similar to return on invested capital (ROIC).
+- Many companies may calculate the following key return ratios in their performance analysis: return on equity (ROE), return on assets (ROA), return on invested capital (ROIC), and return on capital employed.
 
 <https://www.investopedia.com/terms/r/roce.asp>
 
@@ -142,19 +149,21 @@ In[finance](https://en.wikipedia.org/wiki/Finance),assets under management(AUM),
 ## Dollar Cost Averaging (DCA) / Rupee Cost Averaging / SIP
 
 Dollar-cost averaging (DCA) is an investment strategy in which an investor divides up the total amount to be invested across periodic purchases of a target asset in an effort to reduce the impact of volatility on the overall purchase. The purchases occur regardless of the asset's price and at regular intervals.
--   Dollar-cost averaging refers to the practice of systematically investing equal amounts, spaced out over regular intervals, regardless of price.
--   The goal of dollar-cost averaging is to reduce the overall impact of volatility on the price of the target asset; as the price will likely vary each time one of the periodic investments is made, the investment is not as highly subject to volatility.
--   Dollar-cost averaging aims to avoid making the mistake of making one lump-sum investment that is poorly timed with regard to asset pricing.
+
+- Dollar-cost averaging refers to the practice of systematically investing equal amounts, spaced out over regular intervals, regardless of price.
+- The goal of dollar-cost averaging is to reduce the overall impact of volatility on the price of the target asset; as the price will likely vary each time one of the periodic investments is made, the investment is not as highly subject to volatility.
+- Dollar-cost averaging aims to avoid making the mistake of making one lump-sum investment that is poorly timed with regard to asset pricing.
 
 ## Invoice Discounting
 
 Is a method of financing used by small businesses to fulfil their working capital requirements
 
 ## Others
--   Non-Intitutional Buyers (NII)
--   Qualified Institutional Buyers (QIB)
--   Foreign Institutional Buyers (FII)
--   Grey Market Premium (GMP)
+
+- Non-Intitutional Buyers (NII)
+- Qualified Institutional Buyers (QIB)
+- Foreign Institutional Buyers (FII)
+- Grey Market Premium (GMP)
 
 ## Questions
 

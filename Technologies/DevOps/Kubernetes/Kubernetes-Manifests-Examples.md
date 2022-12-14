@@ -7,10 +7,11 @@ Modified: 2021-11-17 22:39:59 +0500
 ---
 
 ## Resource Schema Components (Manifests)
--   GVK (Group Version Kind) aka TypeMeta - apiVersion & Kind
--   Metadata aka ObjectMeta
--   Spec
--   Status (only controllers fills it out)
+
+- GVK (Group Version Kind) aka TypeMeta - apiVersion & Kind
+- Metadata aka ObjectMeta
+- Spec
+- Status (only controllers fills it out)
 
 ![GVK aka T peMeta Metadata aka Ob•ectMeta Spec Status apiVersion : extens /vlbetal kind: ReplicaSet name: namespace : myproject spec : selector : ma tchLabeIs : app : nginx replicas : 5 tetQ1ate : metadata : labels : app : nginx spec : containers : --- name: nginx image : nginx status : availableRep1icas : 1 fullyLabeIedRepIicas : 1 observedGeneration: 1 readyRepIicas : 1 replicas: 1 ](../../media/DevOps-Kubernetes-Kubernetes-Manifests-Examples-image1.png)
 
@@ -40,7 +41,7 @@ events {
 
 worker_connections 2048;
 
-# multi_accept on;
+# multi_accept on
 
 }
 
@@ -86,8 +87,6 @@ AURORA_DB_USER: "jawahar.s"
 
 AURORA_DB_PASSWORD: "zvSnjTBKa7GLQxtyE2zf7nTHb3HEv"
 
-
-
 apiVersion: v1
 
 kind: Service
@@ -107,7 +106,8 @@ spec:
 type: LoadBalancer / ClusterIP
 
 ports:
--   port: 80
+
+- port: 80
 
 targetPort: 80
 
@@ -145,11 +145,11 @@ name: flask-republisher
 
 ## minReadySeconds: 10
 
-## strategy:
+## strategy
 
 ## type: RollingUpdate
 
-## rollingUpdate:
+## rollingUpdate
 
 ## maxSurge: 1
 
@@ -278,8 +278,6 @@ configMap:
 name: nginx-configmap
 
 restartPolicy: Always
-
-
 
 Shared Volume Data between two containers
 
@@ -457,21 +455,19 @@ emptyDir: {}
 
 restartPolicy: Always
 
-<https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume
-
-
+<https://kubernetes.io/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume>
 
 ## kind:PersistentVolumeClaim
 
 ## apiVersion:v1
 
-## metadata:
+## metadata
 
 ## name:alertdriver-pvc
 
 ## namespace:monitoring
 
-## spec:
+## spec
 
 ## #for attaching again to same pv
 
@@ -479,12 +475,13 @@ restartPolicy: Always
 
 ## storageClassName:managed-premium-retain
 
-## accessModes:
--   ReadWriteOnce
+## accessModes
 
-## resources:
+- ReadWriteOnce
 
-## requests:
+## resources
+
+## requests
 
 ## storage:1Gi
 
@@ -494,8 +491,10 @@ metadata:
 name: livenotebook-commit
 namespace: zenalytix
 spec:
+
 # 12:15 AM
-schedule: "15 20 * * *"
+
+schedule: "15 20 ** *"
 
 suspend: true #false
 
@@ -504,6 +503,7 @@ spec:
 template:
 spec:
 containers:
+
 - name: livenotebook-commit
 image: gcr.io/zenatix-data-archiver/zenalytix:a7f14578479e
 workingDir: /root/zenalytix/notebooks

@@ -8,13 +8,12 @@ Modified: 2021-06-19 14:14:15 +0500
 
 tf_estimator to create, train and evaluate an ML model
 
-
--   Lazy Evaluation
--   Imperative programs
--   Work with graphs, sessions, and variables
--   Scalar numbers
--   Embeddings / Projectors
--   Visualize and debug tensorflow programs
+- Lazy Evaluation
+- Imperative programs
+- Work with graphs, sessions, and variables
+- Scalar numbers
+- Embeddings / Projectors
+- Visualize and debug tensorflow programs
 
 TensorFlow is an open-source high-performance library for numerical computation that uses directed graphs
 
@@ -23,8 +22,6 @@ TensorFlow is an open-source high-performance library for numerical computation 
 ![media](media/TensorFlow_Core-Tensorflow-image2.png)
 
 ![media](media/TensorFlow_Core-Tensorflow-image3.png)
-
-
 
 # TensorFlow API Hierarchy
 

@@ -17,11 +17,12 @@ A fixture is a collection of data that Django knows how to import into a databas
 ## Postgres
 
 ## PostgreSQL-specific ModelFields
--   Introduced in Django 1.8
--   ArrayField
--   HStoreField
--   Range Fields
--   JSONField
+
+- Introduced in Django 1.8
+- ArrayField
+- HStoreField
+- Range Fields
+- JSONField
 
 A field for storing JSON encoded data. In Python the data is represented in its Python native format: dictionaries, lists, strings, numbers, booleans and**None**.
 
@@ -37,18 +38,20 @@ RawSQL("metadata->>%s", ("TPA_License"),")
 
 ## Optimizations
 
-1.  Never use len on queryset, use exists or count instead
+1. Never use len on queryset, use exists or count instead
 
-2.  Auto-generate models
+2. Auto-generate models
 
 Utility - inspectdb can create models by introspecting an existing database.
 
 python manage.py inspectdb > models.py
 
-3.  Use values() or values_list() and only() query expressions for getting specific values
+3. Use values() or values_list() and only() query expressions for getting specific values
 
 names = []
-## for** name **in Song.objects.filter(artist=a).values_list("name", flat=True):
+
+## for**name**in Song.objects.filter(artist=a).values_list("name", flat=True)
+
 names.append(name)
 
 <https://www.peterbe.com/plog/django-orm-optimization-story-on-selecting-the-least-possible>
@@ -66,6 +69,7 @@ Concepts
 mysite/urls.py
 
 ## from django.conf.urls import include, url
+
 ## from django.contrib import admin
 
 urlpatterns = [
@@ -83,7 +87,7 @@ Generic views abstract common patterns to the point where you don't even need to
 
 ## Custom Authentication Backend / Authorization
 
-<https://docs.djangoproject.com/en/1.11/topics/auth/customizing
+<https://docs.djangoproject.com/en/1.11/topics/auth/customizing>
 
 [Authentication backends](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#authentication-backends)provide an extensible system for when a username and password stored with the user model need to be authenticated against a different service than Django's default.
 
@@ -112,11 +116,12 @@ Django-allauth
 django-rest-framework-jwt
 
 ## Deleting an app in Django
--   Remove models from the apps
--   Run migrations and migrate
--   Delete all files
--   Remove from installed apps
--   Delete Content Type
+
+- Remove models from the apps
+- Run migrations and migrate
+- Delete all files
+- Remove from installed apps
+- Delete Content Type
 
 python manamge.py shell
 
@@ -136,13 +141,14 @@ By default, Django adds aManagerwith the nameobjectsto every Django model class.
 
 ## from django.db import models
 
-## class** **Person(models.Model):
+## class****Person(models.Model)
+
 *#...*
 people = models.Manager()
 
 Using this example model,Person.objectswill generate anAttributeErrorexception, butPerson.people.all()will provide a list of allPersonobjects.
 
-<https://docs.djangoproject.com/en/2.2/topics/db/managers
+<https://docs.djangoproject.com/en/2.2/topics/db/managers>
 
 ## reStructured Text (reST)
 
@@ -156,7 +162,7 @@ Bold and italics are done like this:
 
 ## Django Resources
 
-<https://www.reddit.com/r/django/comments/rrcj0m/any_enterprise_level_open_source_django_project
+<https://www.reddit.com/r/django/comments/rrcj0m/any_enterprise_level_open_source_django_project>
 
 <https://github.com/getsentry/sentry>
 
@@ -170,7 +176,7 @@ Bold and italics are done like this:
 
 <https://medium.com/@hakibenita/things-you-must-know-about-django-admin-as-your-app-gets-bigger-6be0b0ee9614>
 
-<https://data-flair.training/blogs/django-file-upload
+<https://data-flair.training/blogs/django-file-upload>
 
 <https://docs.djangoproject.com/en/2.0/topics/class-based-views/intro/#decorating-the-class>
 
@@ -178,8 +184,8 @@ Bold and italics are done like this:
 
 [Python Django and Google APIs - Project Tutorial](https://www.youtube.com/watch?v=_vCT42vDfgw&ab_channel=freeCodeCamp.org)
 
-<https://www.freecodecamp.org/news/django-project-create-a-digital-resume-using-django-and-python
+<https://www.freecodecamp.org/news/django-project-create-a-digital-resume-using-django-and-python>
 
-<https://www.freecodecamp.org/news/create-a-netflix-clone-with-django-and-tailwind-css
+<https://www.freecodecamp.org/news/create-a-netflix-clone-with-django-and-tailwind-css>
 
 <https://www.toptal.com/django/django-top-10-mistakes>

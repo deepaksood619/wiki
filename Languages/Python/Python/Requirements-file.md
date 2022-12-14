@@ -33,11 +33,12 @@ poetryis a tool to handle dependency installation as well as building and packag
 In other words, poetry usespyproject.tomlto replacesetup.py,requirements.txt,setup.cfg,MANIFEST.inand the newly addedPipfile
 
 ## Features
--   It will try to enforce[semantic versioning](http://semver.org/)as the best practice in version naming.
--   You can specify the readme, included and excluded files: no moreMANIFEST.in.poetrywill also use VCS ignore files (like.gitignore) to populate theexcludesection.
--   Keywords (up to 5) can be specified and will act as tags on the packaging site.
--   The dependencies sections support caret, tilde, wildcard, inequality and multiple requirements.
--   You must specify the python versions for which your package is compatible.
+
+- It will try to enforce[semantic versioning](http://semver.org/)as the best practice in version naming.
+- You can specify the readme, included and excluded files: no moreMANIFEST.in.poetrywill also use VCS ignore files (like.gitignore) to populate theexcludesection.
+- Keywords (up to 5) can be specified and will act as tags on the packaging site.
+- The dependencies sections support caret, tilde, wildcard, inequality and multiple requirements.
+- You must specify the python versions for which your package is compatible.
 
 poetrywill also detect if you are inside a virtualenv and install the packages accordingly. So,poetrycan be installed globally and used everywhere.
 
@@ -45,7 +46,7 @@ poetryalso comes with a full fledged dependency resolution library.
 
 <https://github.com/python-poetry/poetry>
 
-<https://python-poetry.org/docs
+<https://python-poetry.org/docs>
 
 ## setup.py and mainfest.ini
 

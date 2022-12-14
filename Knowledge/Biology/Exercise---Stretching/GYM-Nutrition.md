@@ -24,9 +24,9 @@ Sprouts - Evening snack
 
 Protein supplement daily - after gym
 
-1.  Whey Protein
+1. Whey Protein
 
-2.  Plant based protein - soy protein / **plant protein blend (better) - olena**
+2. Plant based protein - soy protein / **plant protein blend (better) - olena**
 
     a.  5500 avg
 
@@ -48,20 +48,21 @@ MB Whey performance
 
 Whey premium
 
-3.  Muscle Blaze Raw Whey Protein - 2.2 lb/ 1 kg, 33 Servings (Unflavoured)
+3. Muscle Blaze Raw Whey Protein - 2.2 lb/ 1 kg, 33 Servings (Unflavoured)
 
 1220
 
 24g protein and 5. 2G bcaa per serving (30g)
 
-4.  **MuscleBlaze 100% Whey Energy Protein Supplement Powder with Vitamins & Minerals, 1 kg 31 Servings (Chocolate)**
+4. **MuscleBlaze 100% Whey Energy Protein Supplement Powder with Vitamins & Minerals, 1 kg 31 Servings (Chocolate)**
 
 ## 1299
--   20g fast-absorbing whey proteins and vitamin and minerals per serving stimulate quick muscle recovery
--   4.56g bcaas in each serving improves fatigue threshold and enhances recovery
--   Fortified with 13 vitamins and 5 minerals which boost recovery and optimize energy levels
 
-5.  AS-IT-IS Nutrition Whey Protein Concentrate 80% Unflavoured - 1Kg
+- 20g fast-absorbing whey proteins and vitamin and minerals per serving stimulate quick muscle recovery
+- 4.56g bcaas in each serving improves fatigue threshold and enhances recovery
+- Fortified with 13 vitamins and 5 minerals which boost recovery and optimize energy levels
+
+5. AS-IT-IS Nutrition Whey Protein Concentrate 80% Unflavoured - 1Kg
 
 1216
 
@@ -91,10 +92,10 @@ Don't eat anything that is packed, processed, canned or on someone else's plate!
 
 ## Others
 
-1.  Roti
+1. Roti
 
-2.  Upma (Rava
+2. Upma (Rava
 
-3.  Sweet potato
+3. Sweet potato
 
-4.  Soyabean
+4. Soyabean

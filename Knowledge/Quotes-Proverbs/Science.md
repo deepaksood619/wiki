@@ -10,23 +10,23 @@ Science is a 6 decimal approximation to real knowledge
 
 Equations that govern the world
 
-1.  The betting equation
+1. The betting equation
 
-2.  The advertising equation
+2. The advertising equation
 
-3.  The judgement equation
+3. The judgement equation
 
-4.  The learning equation
+4. The learning equation
 
-5.  The skill equation
+5. The skill equation
 
-6.  The condidence equation
+6. The condidence equation
 
-7.  The influencer equation
+7. The influencer equation
 
-8.  The market equation
+8. The market equation
 
-9.  The reward equation
+9. The reward equation
 
 ## Why Trust Science
 

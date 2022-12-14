@@ -6,7 +6,7 @@ Modified: 2021-06-06 16:40:07 +0500
 
 ---
 
-1.  **Implicit Data Structure -**
+1. **Implicit Data Structure -**
 
 In[computer science](https://en.wikipedia.org/wiki/Computer_science), an**implicit[data structure](https://en.wikipedia.org/wiki/Data_structure)**or**space-efficient data structure**is a data structure that stores very little information other than the main or required data: a data structure that requires low[overhead](https://en.wikipedia.org/wiki/Overhead_(computing)). They are called "implicit" because the position of the elements carries meaning and relationship between elements.
 Formally, an implicit data structure is one with constant*O*(1)space overhead
@@ -18,17 +18,17 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
 
 ## Linear Data Structure (they all have a logical start and a logical end)**
 
-1.  Array
+1. Array
 
-2.  Linked List
+2. Linked List
 
     a.  Doubly Linked List
 
     b.  Circular Linked List
 
-3.  Stack
+3. Stack
 
-4.  Queue
+4. Queue
 
     a.  Queue FIFO
 
@@ -37,9 +37,10 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
     c.  Randomized Queue
 
     d.  Priority Queue (Using array)
+
 ## Hierarchical Data Structure
 
-1.  Tree(Ex - Family tree, HTML DOM)
+1. Tree(Ex - Family tree, HTML DOM)
 
     a.  Binary Tree
 
@@ -51,23 +52,23 @@ A**succinct data structure**is a[data structure](https://en.wikipedia.org/wiki/D
 
     e.  Red Black Tree
 
-2.  Trie
+2. Trie
 
-3.  Heap
+3. Heap
 
     a.  Binary Heap
 
     b.  Fibonacci Heap
 
-4.  Hash Map
+4. Hash Map
 
-5.  Graph
+5. Graph
 
     a.  Undirected graph
 
     b.  Directed graph
 
-6.  Rope (Efficient for String concatenation)
+6. Rope (Efficient for String concatenation)
 <https://www.wisdomjobs.com/e-university/data-structures-tutorial-290.html>
 
 <https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c>

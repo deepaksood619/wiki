@@ -8,15 +8,16 @@ Modified: 2022-09-07 23:25:06 +0500
 
 ## Nocode
 
-<https://flutterflow.io
+<https://flutterflow.io>
 
-<https://www.judo.app
+<https://www.judo.app>
 
 Judo brings server-driven UI to your iOS and Android apps. Build user interfaces visually in a fraction of time and publish them instantly without submitting to the app store.
 
 ## Databases
--   ObjectBox
--   Firebase real time DB
+
+- ObjectBox
+- Firebase real time DB
 
 ## Contexts (Application Context)
 
@@ -24,7 +25,7 @@ Judo brings server-driven UI to your iOS and Android apps. Build user interfaces
 
 [Memory Leak - Part 1, Curious Case of Memory Leak](https://www.youtube.com/watch?v=OqalhCheKXQ)
 
-#Contexts = #Activities + #Services + #1 Application Context
+# Contexts = #Activities + #Services + #1 Application Context
 
 ![image](media/Android-image1.png)
 
@@ -32,17 +33,17 @@ Judo brings server-driven UI to your iOS and Android apps. Build user interfaces
 
 Layouts
 
-1.  Drawer layout
+1. Drawer layout
 
-2.  Linear layout
+2. Linear layout
 
-3.  Relative layout
+3. Relative layout
 
-4.  Constraint layout
+4. Constraint layout
 
-5.  Coordinator layout
+5. Coordinator layout
 
-6.  Tabbed layout
+6. Tabbed layout
 
 Eventbus greenbot
 
@@ -60,26 +61,25 @@ Mosquitto MQTT Broker
 
 ## Serializable vs Parcelable
 
-<http://www.developerphil.com/parcelable-vs-serializable
+<http://www.developerphil.com/parcelable-vs-serializable>
 
 ## Service
 
 A[Service](https://developer.android.com/reference/android/app/Service)is an[application component](https://developer.android.com/guide/components/fundamentals#Components)that can perform long-running operations in the background. It does not provide a user interface. Once started, a service might continue running for some time, even after the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service can handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.
 
 ## Types of services
--   **Foreground**
+
+- **Foreground**
 
 A foreground service performs some operation that is noticeable to the user. For example, an audio app would use a foreground service to play an audio track. Foreground services must display a[Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications). Foreground services continue running even when the user isn't interacting with the app.
 
 When you use a foreground service, you must display a notification so that users are actively aware that the service is running. This notification cannot be dismissed unless the service is either stopped or removed from the foreground.
 
-
--   **Background**
+- **Background**
 
 A background service performs an operation that isn't directly noticed by the user. For example, if an app used a service to compact its storage, that would usually be a background service.
 
-
--   **Bound**
+- **Bound**
 
 A service is*bound*when an application component binds to it by calling[bindService()](https://developer.android.com/reference/android/content/Context#bindService(android.content.Intent,%20android.content.ServiceConnection,%20int)). A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results, and even do so across processes with interprocess communication (IPC). A bound service runs only as long as another application component is bound to it. Multiple components can bind to the service at once, but when all of them unbind, the service is destroyed.
 
@@ -91,13 +91,13 @@ AIDL (Android Interface Definition Language) allows you to define the programmin
 
 ## Project
 
-1.  UserStudyFramework - An application to collect data from three applications
+1. UserStudyFramework - An application to collect data from three applications
 
-2.  Dynamic Password Image
+2. Dynamic Password Image
 
-3.  Dynamic Password Text
+3. Dynamic Password Text
 
-4.  Dynamic Password Numerical
+4. Dynamic Password Numerical
 
 ## Architectural Styles
 
@@ -114,12 +114,13 @@ AIDL (Android Interface Definition Language) allows you to define the programmin
 <https://medium.com/corebuild-software/android-repository-pattern-using-rx-room-bac6c65d7385>
 
 ## Why the Repository Pattern ?
--   decouples the application from the data sources
--   provides data from multiple sources (DB, API) without clients being concerned about this
--   isolates the data layer
--   single place, centralized, consistent access to data
--   testable business logic via Unit Tests
--   easily add new sources
+
+- decouples the application from the data sources
+- provides data from multiple sources (DB, API) without clients being concerned about this
+- isolates the data layer
+- single place, centralized, consistent access to data
+- testable business logic via Unit Tests
+- easily add new sources
 
 ## MVI Pattern in Android without RxJava
 
@@ -127,77 +128,78 @@ AIDL (Android Interface Definition Language) allows you to define the programmin
 
 ## HAL (Hardware Abstraction Layer)
 
-<https://source.android.com/devices/architecture/hal-types
+<https://source.android.com/devices/architecture/hal-types>
 
 ## HILT
 
 Hilt provides a standard way to incorporate Dagger dependency injection into an Android application.
 
 The goals of Hilt are:
--   To simplify Dagger-related infrastructure for Android apps.
--   To create a standard set of components and scopes to ease setup, readability/understanding, and code sharing between apps.
--   To provide an easy way to provision different bindings to various build types (e.g. testing, debug, or release).
 
-<https://dagger.dev/hilt
+- To simplify Dagger-related infrastructure for Android apps.
+- To create a standard set of components and scopes to ease setup, readability/understanding, and code sharing between apps.
+- To provide an easy way to provision different bindings to various build types (e.g. testing, debug, or release).
+
+<https://dagger.dev/hilt>
 
 <https://developer.android.com/codelabs/android-hilt>
 
 ## Tools
--   Hierarchy Viewer
--   APK Analyzer
--   Espresso Test Generator
--   Cloud test lab support
--   Jack compiler for java 8 support
--   Enhanced lint
--   Leak canary (for tracking memory leaks)
--   Monkey profile viewer
--   Logcat monitor
--   CPU monitor
--   Allocation tracker
--   Memory information
--   Dalvik debug monitor server
--   Pixel perfect
--   Systrace
--   Battery profiling
--   Dumping the Java Heap Memory (Monitor / Heap Memory Dump)
--   HPROF (Heap/CPU profiling tool)
--   Travis CI (Continous Integration Tool)
--   Circle CI (Continous Integration Tool)
--   Jenkins (Continous Integration Tool)
--   BuddyBuild (Continous Integration Tool & Crash Reporting)
--   Crashlytics (Crash Reporting)
+
+- Hierarchy Viewer
+- APK Analyzer
+- Espresso Test Generator
+- Cloud test lab support
+- Jack compiler for java 8 support
+- Enhanced lint
+- Leak canary (for tracking memory leaks)
+- Monkey profile viewer
+- Logcat monitor
+- CPU monitor
+- Allocation tracker
+- Memory information
+- Dalvik debug monitor server
+- Pixel perfect
+- Systrace
+- Battery profiling
+- Dumping the Java Heap Memory (Monitor / Heap Memory Dump)
+- HPROF (Heap/CPU profiling tool)
+- Travis CI (Continous Integration Tool)
+- Circle CI (Continous Integration Tool)
+- Jenkins (Continous Integration Tool)
+- BuddyBuild (Continous Integration Tool & Crash Reporting)
+- Crashlytics (Crash Reporting)
 
 Crashlytics.log(int priority, String tag, String msg);
 
 <https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=android>
 
-
--   InstaBug (Crash Reporting)
--   Hudson (Continuous Integration Tool)
--   TestNG/JMock (Automated Testing)
--   Maven (Deployment Tool)
--   [Storage Access Framework](https://developer.android.com/guide/topics/providers/document-provider.html)
--   [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
--   [ExoPlayer](https://developer.android.com/guide/topics/media/exoplayer.html)
--   NDK (Native Development Kit)
-    -   <http://www.packtpub.com/sites/default/files/downloads/Developing_Multimedia_Applications_with_NDK.pdf>
--   CMake
--   Toolchain (Cross compilers)
--   Gradle (Build System)
--   Instrumented tests
--   **Testing Frameworks**
-    -   Local Unit Tests (Mockito)
-    -   Robotium
-    -   Calabash
-    -   Appium
-    -   Android JUnit Runner
-    -   Functional UI Testing (Espresso)
-    -   Functional UI Testing (UIAutomator)
-    -   Hamcrest is a framework for writing matcher objects allowing 'match' rules to be defined declaratively.
-    -   Monkey / Monkey Runner
-    -   Android Testing Support Library
-    -   **Test Lab runs[Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)and[UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator)tests on Android apps, and[XCTest](https://developer.apple.com/documentation/xctest)tests on iOS apps.**
-    -   **RoboTest (easiest)**
+- InstaBug (Crash Reporting)
+- Hudson (Continuous Integration Tool)
+- TestNG/JMock (Automated Testing)
+- Maven (Deployment Tool)
+- [Storage Access Framework](https://developer.android.com/guide/topics/providers/document-provider.html)
+- [MediaPlayer](https://developer.android.com/guide/topics/media/mediaplayer.html)
+- [ExoPlayer](https://developer.android.com/guide/topics/media/exoplayer.html)
+- NDK (Native Development Kit)
+  - <http://www.packtpub.com/sites/default/files/downloads/Developing_Multimedia_Applications_with_NDK.pdf>
+- CMake
+- Toolchain (Cross compilers)
+- Gradle (Build System)
+- Instrumented tests
+- **Testing Frameworks**
+  - Local Unit Tests (Mockito)
+  - Robotium
+  - Calabash
+  - Appium
+  - Android JUnit Runner
+  - Functional UI Testing (Espresso)
+  - Functional UI Testing (UIAutomator)
+  - Hamcrest is a framework for writing matcher objects allowing 'match' rules to be defined declaratively.
+  - Monkey / Monkey Runner
+  - Android Testing Support Library
+  - **Test Lab runs[Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)and[UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator)tests on Android apps, and[XCTest](https://developer.apple.com/documentation/xctest)tests on iOS apps.**
+  - **RoboTest (easiest)**
 
 <https://firebase.google.com/docs/test-lab/android/robo-ux-test>
 
@@ -205,50 +207,50 @@ Crashlytics.log(int priority, String tag, String msg);
 
 <https://developer.android.com/training/testing/fundamentals>
 
-
--   Parceler (<http://parceler.org)
+- Parceler (<http://parceler.org>)
 
 ## Features
--   Locale (Android Localization)
--   Runtime permissions
--   Spinners
--   Radio buttons and groups
--   MultiChoiceModeListener for gridView
--   Chronometer
--   SeekBar
--   RangeBar
--   AlertDialogBox
--   Floating action button (FAB)
--   AsyncTask
--   Volley
--   Retrofit
--   OkHTTP
--   Dagger
--   ButterKnife
--   Universal Image Loader
--   Picasso
--   Glide
--   AlarmManager
--   AppIntro (paolo rotolo)
--   ZeroMQ
--   RabbitMQ
--   Gson
--   JsonObjectParser
--   RecyclerView
--   CardView
--   MPAndroidChart
--   AChartEngine
--   HSSFWorkbook
--   Vuforia for image processing in backend
--   Pagination
--   Infinite scroll
--   ParallaxEffect on Toolbar
--   Collapsible Toolbar
--   ContentResolver
--   ADL (Android Definition Language)
--   Annotation based development
--   GreenRobot EventBus
--   GreenRobot greenDAO
+
+- Locale (Android Localization)
+- Runtime permissions
+- Spinners
+- Radio buttons and groups
+- MultiChoiceModeListener for gridView
+- Chronometer
+- SeekBar
+- RangeBar
+- AlertDialogBox
+- Floating action button (FAB)
+- AsyncTask
+- Volley
+- Retrofit
+- OkHTTP
+- Dagger
+- ButterKnife
+- Universal Image Loader
+- Picasso
+- Glide
+- AlarmManager
+- AppIntro (paolo rotolo)
+- ZeroMQ
+- RabbitMQ
+- Gson
+- JsonObjectParser
+- RecyclerView
+- CardView
+- MPAndroidChart
+- AChartEngine
+- HSSFWorkbook
+- Vuforia for image processing in backend
+- Pagination
+- Infinite scroll
+- ParallaxEffect on Toolbar
+- Collapsible Toolbar
+- ContentResolver
+- ADL (Android Definition Language)
+- Annotation based development
+- GreenRobot EventBus
+- GreenRobot greenDAO
 
 ## Questions
 
@@ -262,23 +264,25 @@ Crashlytics.log(int priority, String tag, String msg);
 
 AContentProvidermanages access to a structured set of data. It encapsulates the data and provide mechanisms for defining data security.ContentProvideris the standard interface that connects data in one process with code running in another process.
 
-## Describe three common use cases for using anIntent.
+## Describe three common use cases for using anIntent
 
 Common use cases for using anIntentinclude:
--   To start an activity: You can start a new instance of an Activity by passing an Intent tostartActivity()method.
--   To start a service: You can start a service to perform a one-time operation (such as download a file) by passing an Intent tostartService().
--   To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent tosendBroadcast(),sendOrderedBroadcast(), orsendStickyBroadcast().
 
-## What is DDMS? Describe some of its capabilities.
+- To start an activity: You can start a new instance of an Activity by passing an Intent tostartActivity()method.
+- To start a service: You can start a service to perform a one-time operation (such as download a file) by passing an Intent tostartService().
+- To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent tosendBroadcast(),sendOrderedBroadcast(), orsendStickyBroadcast().
+
+## What is DDMS? Describe some of its capabilities
 
 DDMS is theDalvik Debug Monitor Serverthat ships with Android. It provides a wide array of debugging features including:
--   port-forwarding services
--   screen capture
--   thread and heap information
--   network traffic tracking
--   incoming call and SMS spoofing
--   simulating network state, speed, and latency
--   location data spoofing
+
+- port-forwarding services
+- screen capture
+- thread and heap information
+- network traffic tracking
+- incoming call and SMS spoofing
+- simulating network state, speed, and latency
+- location data spoofing
 
 ## What is the relationship between the life cycle of anAsyncTaskand anActivity? What problems can this result in? How can these problems be avoided?
 
@@ -296,7 +300,7 @@ TheIntentobject is a common mechanism for starting new activity and transferring
 
 When you want to access data in aContentProvider, you must instead use theContentResolverobject in your application'sContextto communicate with the provider as a client. TheContentResolverobject communicates with the provider object, an instance of a class that implementsContentProvider. The provider object receives data requests from clients, performs the requested action, and returns the results.
 
-## What is the difference between a fragment and an activity? Explain the relationship between the two.
+## What is the difference between a fragment and an activity? Explain the relationship between the two
 
 Anactivityis typically a single, focused operation that a user can perform (such as dial a number, take a picture, send an email, view a map, etc.). Yet at the same time, there is nothing that precludes a developer from creating an activity that is arbitrarily complex.
 
@@ -337,27 +341,27 @@ The broadcast receiver communicates with the operation system messages such as "
 <https://www.toptal.com/app/interview-questions>
 
 ## AndroidCode analysis tools
--   **Android Lint**
 
-    1.  This one comes with Android Studio by default
+- **Android Lint**
 
-    2.  It checks your Android project source files for potential bugs and optimizations for correctness, security, performance, usability, accessibility, and internationalization
+    1. This one comes with Android Studio by default
 
-    3.  Analyze > Inspect Code
--   **Checkstyle**
+    2. It checks your Android project source files for potential bugs and optimizations for correctness, security, performance, usability, accessibility, and internationalization
 
-    1.  It basically analyses source code and looks to improve the coding standard by traversing over simple AST generated by Checkstyle.
+    3. Analyze > Inspect Code
+- **Checkstyle**
 
-    2.  It verifies the source code for coding conventions like headers, imports, whitespaces, formatting etc.
+    1. It basically analyses source code and looks to improve the coding standard by traversing over simple AST generated by Checkstyle.
 
+    2. It verifies the source code for coding conventions like headers, imports, whitespaces, formatting etc.
 
--   **Findbugs**
+- **Findbugs**
 
-    1.  It analyses Java byte code mainly .classes to find any design flaw and potential bugs.
+    1. It analyses Java byte code mainly .classes to find any design flaw and potential bugs.
 
-    2.  It needs compiled code to work around and will eventually be fast since it works on byte code level.
+    2. It needs compiled code to work around and will eventually be fast since it works on byte code level.
 
-    3.  The major categories in this tool are: Correctness, Bad practice, Dodgy code, Multithreaded Correctness, Performance Malicious, Code Vulnerability, Security Experimental and Internationalization
+    3. The major categories in this tool are: Correctness, Bad practice, Dodgy code, Multithreaded Correctness, Performance Malicious, Code Vulnerability, Security Experimental and Internationalization
 
 <https://medium.com/achieve-high-quality-android-code-with-static-code/static-code-analysis-tools-80558d9cb6cb>
 
@@ -405,19 +409,19 @@ verify(mockedList).clear();
 <https://www.toptal.com/android/testing-like-a-true-green-droid>
 
 ## Other Tools
--   **SmartLook**
+
+- **SmartLook**
 
 Smartlookrecords users on websites and in mobile apps.With features that allow you to find useful information even in thousands of recordings in no time.
 
-<https://www.smartlook.com
+<https://www.smartlook.com>
 
 <https://smartlook.github.io/docs/sdk/android>
 
-
--   <https://github.com/CameraKit/camerakit-android>
--   <https://ui.perfetto.dev
--   Bluestacks
--   <https://github.com/Genymobile/scrcpy>
+- <https://github.com/CameraKit/camerakit-android>
+- <https://ui.perfetto.dev>
+- Bluestacks
+- <https://github.com/Genymobile/scrcpy>
 
 ## Others
 

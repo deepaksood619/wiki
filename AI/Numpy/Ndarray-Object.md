@@ -24,21 +24,22 @@ numpy.array(object, dtype = None, copy = True, order = None, subok = False, ndmi
 
 ## Parameter & Description
 
-1.  object - Any object exposing the array interface method returns an array, or any (nested) sequence.
+1. object - Any object exposing the array interface method returns an array, or any (nested) sequence.
 
-2.  dtype - Desired data type of array, optional
+2. dtype - Desired data type of array, optional
 
-3.  copy - Optional. By default (true), the object is copied
+3. copy - Optional. By default (true), the object is copied
 
-4.  order - C (row major) or F (column major) or A (any) (default)
+4. order - C (row major) or F (column major) or A (any) (default)
 
-5.  subok - By default, returned array forced to be a base class array. If true, sub-classes passed through
+5. subok - By default, returned array forced to be a base class array. If true, sub-classes passed through
 
-6.  ndmin - Specifies minimum dimensions of resultant array
+6. ndmin - Specifies minimum dimensions of resultant array
 
 Thendarrayobject consists of contiguous one-dimensional segment of computer memory, combined with an indexing scheme that maps each item to a location in the memory block. The memory block holds the elements in a row-major order (C style) or a column-major order (FORTRAN or MatLab style).
 
 ## Examples
+
 ```
 >>> import numpy as np
 >>> a = np.array([1,2,3])

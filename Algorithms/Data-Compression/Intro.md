@@ -6,7 +6,7 @@ Modified: 2022-01-16 15:12:55 +0500
 
 ---
 
-<https://quixdb.github.io/squash-benchmark
+<https://quixdb.github.io/squash-benchmark>
 
 ## Entropy Encoding
 
@@ -14,44 +14,45 @@ An**entropy encoding**is a[lossless data compression](https://en.wikipedia.org/w
 
 Types -
 
-1.  Huffman Coding
+1. Huffman Coding
 
-2.  Arithmetic Coding
+2. Arithmetic Coding
 
 ## Lossless Compression
 
-1.  Run Length Encoding (Fixed length codes)
+1. Run Length Encoding (Fixed length codes)
 
-2.  Huffman Compression (Variable length codes)
+2. Huffman Compression (Variable length codes)
 
-3.  LZW Compression (Variable length codes)
+3. LZW Compression (Variable length codes)
 
-4.  UTF-8 (Variable width character encoding)
-    -   Backward compatible with ASCII
-    -   Can encode all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
-    -   Derived from Unicode (Universal Coded Character Set) Transformation - 8-bit.
+4. UTF-8 (Variable width character encoding)
+    - Backward compatible with ASCII
+    - Can encode all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
+    - Derived from Unicode (Universal Coded Character Set) Transformation - 8-bit.
 
 ## Advantages
--   To save space when storing data
--   To save time when transmitting data
--   Most files have lots of redundancy
+
+- To save space when storing data
+- To save time when transmitting data
+- Most files have lots of redundancy
 
 ## Applications
 
-1.  Generic file compression
-    -   Files: Gzip, Bzip, 7z
-    -   Archivers: PKZIP
-    -   File systems: NTFS, HFS+, ZFS
+1. Generic file compression
+    - Files: Gzip, Bzip, 7z
+    - Archivers: PKZIP
+    - File systems: NTFS, HFS+, ZFS
 
-2.  Multimedia
-    -   Images: GIF, JPEG
-    -   Sound: MP3
-    -   Video: MPEG, DivX, HDTV
+2. Multimedia
+    - Images: GIF, JPEG
+    - Sound: MP3
+    - Video: MPEG, DivX, HDTV
 
-3.  Communication
-    -   ITU-T T4 Group 43 Fax
-    -   V.42bis modem
-    -   Skype
+3. Communication
+    - ITU-T T4 Group 43 Fax
+    - V.42bis modem
+    - Skype
 
 ## Lossless compression and expansion
 
@@ -102,29 +103,31 @@ How to examine the contents of a bitstream?
 Proposition: No algorithm can compress every bitstring
 
 Proof 1 - by contradiction
--   Suppose you have a universal data compression algorithm U that can compress every bitstream
--   Given bitstring B~0~, compress it to get smaller bistring B1.
--   Compress B~1~ to get a smaller bistring B~2~.
--   Continue until reaching bitstring of size 0
--   Implication: all bitstrings can be compressed to 0 bits
+
+- Suppose you have a universal data compression algorithm U that can compress every bitstream
+- Given bitstring B~0~, compress it to get smaller bistring B1.
+- Compress B~1~ to get a smaller bistring B~2~.
+- Continue until reaching bitstring of size 0
+- Implication: all bitstrings can be compressed to 0 bits
 
 Proof 2 - by counting
--   Suppose your algorithm that can compress all 1000-bit strings
--   2^1000^ possible bitstrings with 1000 bits
--   Only 1+2+4+ ... + 2^998^ + 2^999^ can be encoded with <= 999 bits
--   Similarly, only 1 in 2^499^ bitstrings can be encoded with <= 500 bits
+
+- Suppose your algorithm that can compress all 1000-bit strings
+- 2^1000^ possible bitstrings with 1000 bits
+- Only 1+2+4+ ... + 2^998^ + 2^999^ can be encoded with <= 999 bits
+- Similarly, only 1 in 2^499^ bitstrings can be encoded with <= 500 bits
 
 ## Lossless data compression benchmarks (using Calgary corpus)
 
 ![image](media/Intro-image6.jpg)
 
-1.  **Lossless compression**
-    -   **Represent fixed-length symbols with variable-length codes [Huffman]**
-    -   **Represent variable-length symbols with fixed-length codes [LZW]**
+1. **Lossless compression**
+    - **Represent fixed-length symbols with variable-length codes [Huffman]**
+    - **Represent variable-length symbols with fixed-length codes [LZW]**
 
-2.  **Lossy compression**
-    -   **JPEG, MPEG, MP3**
-    -   **FFT, wavelets, fractals**
+2. **Lossy compression**
+    - **JPEG, MPEG, MP3**
+    - **FFT, wavelets, fractals**
 
 ## Theoretical limits on compression - Shannon entropy
 
@@ -133,8 +136,9 @@ Proof 2 - by counting
 ## Predicate Pushdown
 
 Predicate pushdown is actually a simple concept:
--   If you issue a query in one place to run against a lot of data that's in another place, you could spawn a lot of network traffic, which could be slow and costly. However ...
--   ... if you can "push down" parts of the query to where the data is stored, and thus filter out most of the data, then you can greatly reduce network traffic.
+
+- If you issue a query in one place to run against a lot of data that's in another place, you could spawn a lot of network traffic, which could be slow and costly. However ...
+- ... if you can "push down" parts of the query to where the data is stored, and thus filter out most of the data, then you can greatly reduce network traffic.
 
 "Predicate pushdown" gets its name from the fact that portions of SQL statements, specifically ones that filter data, are properly referred to as predicates. They earn that name because predicates in mathematical logic and clauses in SQL are the same kind of thing --- statements that, upon evaluation, can be TRUE or FALSE for different values of variables or data.
 

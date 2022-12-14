@@ -7,63 +7,66 @@ Modified: 2022-03-06 18:41:25 +0500
 ---
 
 Networks, Crowds, and Markets: Reasoning about a Highly Connected World
--   David Easley
--   Jon Kleinberg
+
+- David Easley
+- Jon Kleinberg
+
 ## Tech Books
--   Algorithms
--   Beej's Guide to Network Programming [https://beej.us/guide/bgnet/html//index.html](https://beej.us/guide/bgnet/html/index.html)
--   Building secure and reliable systems
--   Clean Code
--   **Database Internals - <https://www.databass.dev>**
--   Design and Build Great Web APIs - Mike Amundsen
--   **Designing Data-Intensive Applications by Martin Kleppmann**
--   **Designing Distributed systems - Brendan Burns**
--   **Distributed Programming - <http://www.distributedprogramming.net/index.shtml>**
--   **Distributed systems for fun and profit**
--   **Code Complete by Steve McConnell**
--   **Coders at work**
--   **Communicating Sequential Processes - C.A.R. Hoare**
--   **Cracking the coding interview**
--   **Closure -** <https://www.braveclojure.com>
--   **Elasticsearch the definitive guide**
--   **Google SRE - <https://landing.google.com/sre/sre-book/toc/index.html>**
--   **Grokking Algorithms - <https://www.manning.com/books/grokking-algorithms>**
--   **Hacker's Delight by Henry S. Waren**
--   **High performance mysql -** <https://www.highperfmysql.com>
--   <https://www.immutablearchitecture.com>
--   **Inside the machines by Jon Stokes**
--   **Introduction to Reliable and Secure Distributed Programming by Christian Cachin**
--   **Kubernetes in action**
--   **Kubernetes up and running**
--   **Practical Grpc**
--   **Pragmatic Programmer**
--   **SciPy Lectures**
--   **Site Reliability Engineering**
--   **Site Reliability Workbook**
--   **The Clean Coder**
--   **The mythical man-month**
--   **The self taught programmer**
--   **Wireless Networking <http://wndw.net/book.html>**
--   **Writing an Interpreter/Compiler in Go**
--   **You don't know js <https://github.com/getify/You-Dont-Know-JS>**
+
+- Algorithms
+- Beej's Guide to Network Programming [https://beej.us/guide/bgnet/html//index.html](https://beej.us/guide/bgnet/html/index.html)
+- Building secure and reliable systems
+- Clean Code
+- **Database Internals - <https://www.databass.dev>**
+- Design and Build Great Web APIs - Mike Amundsen
+- **Designing Data-Intensive Applications by Martin Kleppmann**
+- **Designing Distributed systems - Brendan Burns**
+- **Distributed Programming - <http://www.distributedprogramming.net/index.shtml>**
+- **Distributed systems for fun and profit**
+- **Code Complete by Steve McConnell**
+- **Coders at work**
+- **Communicating Sequential Processes - C.A.R. Hoare**
+- **Cracking the coding interview**
+- **Closure -** <https://www.braveclojure.com>
+- **Elasticsearch the definitive guide**
+- **Google SRE - <https://landing.google.com/sre/sre-book/toc/index.html>**
+- **Grokking Algorithms - <https://www.manning.com/books/grokking-algorithms>**
+- **Hacker's Delight by Henry S. Waren**
+- **High performance mysql -** <https://www.highperfmysql.com>
+- <https://www.immutablearchitecture.com>
+- **Inside the machines by Jon Stokes**
+- **Introduction to Reliable and Secure Distributed Programming by Christian Cachin**
+- **Kubernetes in action**
+- **Kubernetes up and running**
+- **Practical Grpc**
+- **Pragmatic Programmer**
+- **SciPy Lectures**
+- **Site Reliability Engineering**
+- **Site Reliability Workbook**
+- **The Clean Coder**
+- **The mythical man-month**
+- **The self taught programmer**
+- **Wireless Networking <http://wndw.net/book.html>**
+- **Writing an Interpreter/Compiler in Go**
+- **You don't know js <https://github.com/getify/You-Dont-Know-JS>**
 -
--   A book of Abstract Algebra
--   Introduction to Statistical Learning With Application in R, by Gareth James
--   Deep Learning with Python by Francois Chollet
--   SciPy Lectures
--   Master Machine Learning Algorithms
--   Statistics in Plain English
--   <https://leanpub.com/insidethepythonvirtualmachine/read>
--   <https://leanpub.com/clean-architectures-in-python>
--   Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (Voices That Matter)
--   Lean UX: Applying Lean Principles to Improve User Experience by Jeff Gothelf & Josh Seiden
--   Building Microservices: Defining Fine-Grained Systems
--   Head first Design pattern
--   The C++ Programming Language 4th edition
--   Accelerated C++
--   Scaling-python <https://scaling-python.com>
--   The Programmer's Guide To Theory: Great ideas explained by Dr. Mike James
--   Zookeeper - Distributed Process Coordination by Benjamin Reed
+- A book of Abstract Algebra
+- Introduction to Statistical Learning With Application in R, by Gareth James
+- Deep Learning with Python by Francois Chollet
+- SciPy Lectures
+- Master Machine Learning Algorithms
+- Statistics in Plain English
+- <https://leanpub.com/insidethepythonvirtualmachine/read>
+- <https://leanpub.com/clean-architectures-in-python>
+- Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (Voices That Matter)
+- Lean UX: Applying Lean Principles to Improve User Experience by Jeff Gothelf & Josh Seiden
+- Building Microservices: Defining Fine-Grained Systems
+- Head first Design pattern
+- The C++ Programming Language 4th edition
+- Accelerated C++
+- Scaling-python <https://scaling-python.com>
+- The Programmer's Guide To Theory: Great ideas explained by Dr. Mike James
+- Zookeeper - Distributed Process Coordination by Benjamin Reed
 [32 Book Recommendations for the Holidays • Various Speakers • GOTO 2021](https://youtu.be/Pg698WXPtYw)
 📕 Statistics Think Stats --
 
@@ -98,6 +101,7 @@ R For Beginners [**https://lnkd.in/gzz-niK**](https://lnkd.in/gzz-niK)
 Natural Language Processing with Python [**https://lnkd.in/gmuQcmt**](https://lnkd.in/gmuQcmt)
 
 The Data Science Handbook -- Advice & Insights from Data Scientists [**https://lnkd.in/g8t7hk9**](https://lnkd.in/g8t7hk9)
+
 ## Mathematics
 
 <https://medium.com/however-mathematics/13-classic-mathematics-books-for-lifelong-learners-7ec2759142da>

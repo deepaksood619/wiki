@@ -5,13 +5,14 @@ Created: 2017-11-14 16:52:37 +0500
 Modified: 2020-01-20 20:36:23 +0500
 
 ---
--   Set doesn't support indexing/slicing
--   Set doesn't support random.choices(a), since it doesn't support indexing
--   Implementation is mostly similar to dictionary
+
+- Set doesn't support indexing/slicing
+- Set doesn't support random.choices(a), since it doesn't support indexing
+- Implementation is mostly similar to dictionary
 
 A Set is an unordered collection data type that is iterable, mutable, and has no duplicate elements. Python's set class represents the mathematical notion of a set. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set. This is based on a data structure known as a hash table.
 
-## Frozen SetsFrozen sets are immutable objects that only support methods and operators that produce a result without affecting the frozen set or sets to which they are applied.
+## Frozen SetsFrozen sets are immutable objects that only support methods and operators that produce a result without affecting the frozen set or sets to which they are applied
 
 ## Creating a set
 

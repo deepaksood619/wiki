@@ -13,41 +13,44 @@ It works by combining Elasticsearch with two types of components, rule types and
 This is configured by a set of rules, each of which defines a query, a rule type, and a set of alerts.
 
 Several rule types with common monitoring paradigms are included with ElastAlert:
--   "Match where there are X events in Y time" (frequencytype)
--   "Match when the rate of events increases or decreases" (spiketype)
--   "Match when there are less than X events in Y time" (flatlinetype)
--   "Match when a certain field matches a blacklist/whitelist" (blacklistandwhitelisttype)
--   "Match on any event matching a given filter" (anytype)
--   "Match when a field has two different values within some time" (changetype)
+
+- "Match where there are X events in Y time" (frequencytype)
+- "Match when the rate of events increases or decreases" (spiketype)
+- "Match when there are less than X events in Y time" (flatlinetype)
+- "Match when a certain field matches a blacklist/whitelist" (blacklistandwhitelisttype)
+- "Match on any event matching a given filter" (anytype)
+- "Match when a field has two different values within some time" (changetype)
 
 In addition to this basic usage, there are many other features that make alerts more useful:
--   Alerts link to Kibana dashboards
--   Aggregate counts for arbitrary fields
--   Combine alerts into periodic reports
--   Separate alerts by using a unique key field
--   Intercept and enhance match data
+
+- Alerts link to Kibana dashboards
+- Aggregate counts for arbitrary fields
+- Combine alerts into periodic reports
+- Separate alerts by using a unique key field
+- Intercept and enhance match data
 
 ## Rule Types
--   'flatline' -- when there are less than X events in Y time
--   'blacklist/whitelist' -- when a certain field matches 'blacklist' or 'whitelist'
--   'any' -- when an event that matches a given filter happens
--   'change' -- when a field has two different values within a specified period of time
+
+- 'flatline' -- when there are less than X events in Y time
+- 'blacklist/whitelist' -- when a certain field matches 'blacklist' or 'whitelist'
+- 'any' -- when an event that matches a given filter happens
+- 'change' -- when a field has two different values within a specified period of time
 
 ## Types
 
-1.  spike
+1. spike
 
-2.  frequency
+2. frequency
 
-3.  flatline
+3. flatline
 
-4.  new_term
+4. new_term
 
-5.  change
+5. change
 
 ## Common Configuration Example
 
-1.  Required settings
+1. Required settings
 
     a.  es_host
 
@@ -61,7 +64,7 @@ In addition to this basic usage, there are many other features that make alerts 
 
     f.  alert
 
-2.  Optional settings
+2. Optional settings
 
     a.  import
 
@@ -90,7 +93,7 @@ In addition to this basic usage, there are many other features that make alerts 
     m.  **aggregation**
 
 aggregation:
-schedule: '2 4 * * mon,fri'
+schedule: '2 4 ** mon,fri'
 
 aggregation:
 hours: 2
@@ -514,21 +517,21 @@ hours: 2
 
 # num_events: 3
 
-# timeframe:
+# timeframe
 
 # minutes: 3
 
-# filter:
+# filter
 
-# - term:
+# - term
 
 # message: "deadmanslack"
 
-# alert:
+# alert
 
 # - "slack"
 
-# slack:
+# slack
 
 # slack_webhook_url: dummy
 
@@ -544,21 +547,21 @@ hours: 2
 
 # num_events: 3
 
-# timeframe:
+# timeframe
 
 # minutes: 3
 
-# filter:
+# filter
 
-# - term:
+# - term
 
 # message: "deadmanpd"
 
-# alert:
+# alert
 
 # - "pagerduty"
 
-# pagerduty:
+# pagerduty
 
 # pagerduty_service_key: dummy
 

@@ -6,7 +6,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
 ---
 
-1.  Overview
+1. Overview
 
     a.  What is kubernetes
 
@@ -40,7 +40,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
         iv. Declarative Management of Kubernetes Objects Using Configuration Files
 
-2.  Kubernetes Architecture
+2. Kubernetes Architecture
 
     a.  Nodes
 
@@ -48,7 +48,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
     c.  Concepts Underlying the Cloud Controller Manager
 
-3.  Containers
+3. Containers
 
     a.  Images
 
@@ -58,7 +58,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
     d.  Container Lifecycle Hooks
 
-4.  Workloads
+4. Workloads
 
     a.  Pods
 
@@ -94,7 +94,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
         ix. CronJob
 
-5.  Services, Load Balancing, and Networking
+5. Services, Load Balancing, and Networking
 
     a.  Services
 
@@ -108,7 +108,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
     f.  Adding entries to Pod /etc/hosts with HostAliases
 
-6.  Storage
+6. Storage
 
     a.  Volumes
 
@@ -124,7 +124,7 @@ Modified: 2020-09-01 23:41:05 +0500
 
     g.  Node-specific Volume Limits
 
-7.  Configuration
+7. Configuration
 
     a.  Configuration Best Practices
 
@@ -142,13 +142,13 @@ Modified: 2020-09-01 23:41:05 +0500
 
     h.  Scheduler Performance Tuning
 
-8.  Policies
+8. Policies
 
     a.  Resource Quotas
 
     b.  Pod Security Policies
 
-9.  Cluster Administration
+9. Cluster Administration
 
     a.  Cluster Administration Overview
 
@@ -242,7 +242,7 @@ Lower-level detail relevant to creating or administering a Kubernetes cluster.
 
 Different ways to change the behavior of your Kubernetes cluster.
 
-<https://kubernetes.io/docs/concepts
+<https://kubernetes.io/docs/concepts>
 
 ## Tasks
 
@@ -314,6 +314,6 @@ Configure and manage huge pages as a schedulable resource in a cluster.
 
 Configure and schedule GPUs for use as a resource by nodes in a cluster.
 
-<https://kubernetes.io/docs/tasks
+<https://kubernetes.io/docs/tasks>
 
-<https://kubernetes.io/docs/home
+<https://kubernetes.io/docs/home>

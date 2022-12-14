@@ -6,12 +6,13 @@ Modified: 2021-09-01 00:23:12 +0500
 
 ---
 
-## Differentiate between univariate, bivariate, and multivariate analysis.
+## Differentiate between univariate, bivariate, and multivariate analysis
 
 Often, we have a model that uses multiple parameters to make a decision. The different types of analysis, according to the number of parameters, are as follows:-
--   Univariate: Where only one parameter is important and considered.
--   Bivariate: Where 2 parameters are used in the model.
--   Multivariate: Where more than 2 parameters are used in creating a model.
+
+- Univariate: Where only one parameter is important and considered.
+- Bivariate: Where 2 parameters are used in the model.
+- Multivariate: Where more than 2 parameters are used in creating a model.
 
 ## How would you deal with a dataset containing variables with 30% missing values?
 
@@ -57,7 +58,7 @@ In a system as relevant as a cancer detection model, accuracy can not de‑ne pe
 
 A vector is**a tuple of one or more values called scalars.** Vectors are built from components, which are ordinary numbers. You can think of a vector as a list of numbers, and vector algebra as operations performed on the numbers in the list.
 
-<https://machinelearningmastery.com/gentle-introduction-vectors-machine-learning
+<https://machinelearningmastery.com/gentle-introduction-vectors-machine-learning>
 
 ## What are the feature vectors?
 
@@ -67,7 +68,7 @@ Our data can come in various forms. Each object may contain a multitude of diffe
 
 Root cause analysis is a problem-solving technique used to find the main problem with a certain process. It was initially used to find causes of accidents in the workplace, but since evolved into a mechanism for identifying and eliminating inaccuracies in machine learning algorithms. It uses various tools and methods to find the major fault and remove it to develop the algorithm further.
 
-## Explain cross-validation.
+## Explain cross-validation
 
 During the training phase of a machine learning model, we will often have to keep evaluating the accuracy of the algorithm. These are used to test the model on how it will react with real-time problems. The training data itself is broken down into 2 sets, i.e. the training data source and the evaluation data source. The sets are repeatedly resampled. This is cross-validation. It is used to observe issues like overfitting and remove them before deployment.
 

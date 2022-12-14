@@ -7,10 +7,11 @@ Modified: 2022-12-07 08:04:34 +0500
 ---
 
 ## Trading
--   Start with paper trading account
--   264 trading days
--   Nifty lot size - 75
--   Bank Nifty lot size - 25
+
+- Start with paper trading account
+- 264 trading days
+- Nifty lot size - 75
+- Bank Nifty lot size - 25
 
 ## Futures Trading
 
@@ -23,9 +24,10 @@ An option is a contract where the price of the options is based on an underlying
 ## Option Strategies
 
 The module covers various options strategies that can be built with a multi-dimensional approach based on Market trend involving Option Greeks, Risk-Return, etc.
--   Stradles
--   Strangles
--   Ratio spread
+
+- Stradles
+- Strangles
+- Ratio spread
 
 ## Stock Option
 
@@ -59,13 +61,13 @@ An option is a derivative, a contract that gives the buyer the right, but not th
 
 To enter into an option contract, the buyer must pay an option[premium](https://corporatefinanceinstitute.com/resources/knowledge/finance/market-risk-premium/). The two most common types of options are calls and puts:
 
-1.  **Call options (right to buy)**
+1. **Call options (right to buy)**
 
 Calls give the buyer the right, but not the obligation, to buy the underlying[asset](https://corporatefinanceinstitute.com/resources/knowledge/finance/marketable-securities/)at the strike price specified in the option contract. Investors buy calls when they believe the price of the underlying asset will increase and sell calls if they believe it will decrease.
 
 ![image](media/Market-Terms_Futures---Options---Trading-image1.jpeg)
 
-2.  **Put options (right to sell)**
+2. **Put options (right to sell)**
 
 Puts give the buyer the right, but not the obligation, to sell the underlying asset at the strike price specified in the contract. The writer (seller) of the put option is obligated to buy the asset if the put buyer exercises their option. Investors buy puts when they believe the price of the underlying asset will decrease and sell puts if they believe it will increase.
 
@@ -123,57 +125,59 @@ Investors can benefit from downward price movements by either selling calls or b
 
 ![image](media/Market-Terms_Futures---Options---Trading-image5.jpeg)
 
-<https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/options-calls-and-puts
+<https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/options-calls-and-puts>
 
 ## Summary
--   Buy a call option or sell a put option only when you expect the market to go up
--   Buy a put option or sell a call option only when you expect the market to go down
--   The buyer of an option has unlimited profit potential and limited risk (to the extent of the premium paid)
--   The seller of an option has an unlimited risk potential and limited reward (to the extent of the premium received)
--   Majority of options traders prefer to trade options only to capture the variation in premiums
--   Option premiums tend to gyrate drastically - as an options trader, and you can expect this to happen quite frequently
--   Premiums vary as a function of 4 forces called the Option Greeks
--   Black & Sholes option pricing formula employs a four forces as inputs to give out a price for the premium
--   Markets control the Option Greeks and the Greek's variation itself
+
+- Buy a call option or sell a put option only when you expect the market to go up
+- Buy a put option or sell a call option only when you expect the market to go down
+- The buyer of an option has unlimited profit potential and limited risk (to the extent of the premium paid)
+- The seller of an option has an unlimited risk potential and limited reward (to the extent of the premium received)
+- Majority of options traders prefer to trade options only to capture the variation in premiums
+- Option premiums tend to gyrate drastically - as an options trader, and you can expect this to happen quite frequently
+- Premiums vary as a function of 4 forces called the Option Greeks
+- Black & Sholes option pricing formula employs a four forces as inputs to give out a price for the premium
+- Markets control the Option Greeks and the Greek's variation itself
 
 ## Options Greeks
 
 Option Greeks are foces that influence the premium of an option
 
-1.  Delta
-    -   Delta is an option greek that captures the effect of the direction of the market
+1. Delta
+    - Delta is an option greek that captures the effect of the direction of the market
 
 Option Delta = Rate of change in premium wrt Underlying
--   Call option delta varies between 0 to 1, some trader prefer to use 0 to 100
--   Put option delta varies between -1 to 0 (-100 to 0)
--   The negative delta value for a put option indicates that the option premium and underlying value moves in the opposite direction
--   ATM have a delta of 0.5
--   ITM option have a delta of close to 1
--   OTM options have a delta of close to 0
+
+- Call option delta varies between 0 to 1, some trader prefer to use 0 to 100
+- Put option delta varies between -1 to 0 (-100 to 0)
+- The negative delta value for a put option indicates that the option premium and underlying value moves in the opposite direction
+- ATM have a delta of 0.5
+- ITM option have a delta of close to 1
+- OTM options have a delta of close to 0
 
 ![image](media/Market-Terms_Futures---Options---Trading-image6.jpeg)
 
 [7. The Option Greeks - Delta](https://www.youtube.com/watch?v=I7YWC_j1ocI)
 
-2.  Gamma
+2. Gamma
 
 [8. Gamma](https://www.youtube.com/watch?v=koJQc3fqxjk)
 
-3.  Theta
+3. Theta
 
 [9. Theta](https://www.youtube.com/watch?v=fDLJlU8OdP8)
 
-4.  Vega
+4. Vega
 
 [10. Vega](https://youtu.be/2hmF5gqKEUg)
 
 ## Margins
 
-## SPAN (Standard Portfolio Analysis of risk)is a popular system developed by CME (Chicago Mercantile Exchange) used to calculate risk and margins for F&O portfolios adopted by many exchanges worldwide. When launched in 2000, the SPAN margin was collected to cover for the worst possible movement in the contract for a single day (called MPOR or minimum Margin Period of Risk). This worst possible scenario is calculated using the Price Scan Range (PSR) of the underlying index or stock. PSR is calculated using the daily volatility of the underlying. Back in 2000, it was set at 3[standard deviations](https://en.wikipedia.org/wiki/Standard_deviation)of the daily volatility for index contracts and 3.5 standard deviations for stocks.
+## SPAN (Standard Portfolio Analysis of risk)is a popular system developed by CME (Chicago Mercantile Exchange) used to calculate risk and margins for F&O portfolios adopted by many exchanges worldwide. When launched in 2000, the SPAN margin was collected to cover for the worst possible movement in the contract for a single day (called MPOR or minimum Margin Period of Risk). This worst possible scenario is calculated using the Price Scan Range (PSR) of the underlying index or stock. PSR is calculated using the daily volatility of the underlying. Back in 2000, it was set at 3[standard deviations](https://en.wikipedia.org/wiki/Standard_deviation)of the daily volatility for index contracts and 3.5 standard deviations for stocks
 
-## Exposuremarginsare charged over and above SPAN margins to cover for risks that the SPAN margin may not cover. When F&O was introduced in India, this was set to 3% of the contract value for index and 5% (or 1.5 standard deviation, whichever is higher) for stock F&O.
+## Exposuremarginsare charged over and above SPAN margins to cover for risks that the SPAN margin may not cover. When F&O was introduced in India, this was set to 3% of the contract value for index and 5% (or 1.5 standard deviation, whichever is higher) for stock F&O
 
-## Short Option Minimum (SOM)is a minimum margin for all strikes of short option contracts that fall beyond the PSR. For instance, if the Nifty spot is at 16000, and if Nifty has a PSR of ~1000 points (covering a 7% movement), all contracts beyond 17000 CE or 15000 PE would be considered risk free under SPAN and no SPAN margin was required. While exposure margin was still charged, that wasn't considered enough. So, to cover this, an additional minimum short option margin (SOM) of 3% was collected.
+## Short Option Minimum (SOM)is a minimum margin for all strikes of short option contracts that fall beyond the PSR. For instance, if the Nifty spot is at 16000, and if Nifty has a PSR of ~1000 points (covering a 7% movement), all contracts beyond 17000 CE or 15000 PE would be considered risk free under SPAN and no SPAN margin was required. While exposure margin was still charged, that wasn't considered enough. So, to cover this, an additional minimum short option margin (SOM) of 3% was collected
 
 <https://zerodha.com/z-connect/queries/stock-and-fo-queries/history-of-fo-margin-requirements-in-india>
 
@@ -183,17 +187,17 @@ One way to gauge short-term investor sentiment in the stock market is the put/ca
 
 A "put" or put option is a right to sell an asset at a predetermined price. A "call" or call option is a right to buy an asset at a predetermined price.
 
-
--   A put option gets the trader the right to sell an asset at a preset price.
--   A call option is a right to buy an asset at a preset price.
--   If traders are buying more puts than calls, it signals a rise in bearish sentiment.
--   If they are buying more calls than puts, watch outfor a bull market ahead
+- A put option gets the trader the right to sell an asset at a preset price.
+- A call option is a right to buy an asset at a preset price.
+- If traders are buying more puts than calls, it signals a rise in bearish sentiment.
+- If they are buying more calls than puts, watch outfor a bull market ahead
 
 ## Exercising Put and Call Options
 
 An options holder may exercise his or her right to buy or sell the contract's underlying shares at a specified price---also called the[strike price](https://www.investopedia.com/video/play/strike-price/).
--   Exercising a[put option](https://www.investopedia.com/terms/p/putoption.asp)allows you tosellthe underlying security at a stated price within a specific timeframe.
--   Exercising a[call option](https://www.investopedia.com/terms/c/calloption.asp)allows you tobuythe underlying security at a stated price within a specific timeframe.
+
+- Exercising a[put option](https://www.investopedia.com/terms/p/putoption.asp)allows you tosellthe underlying security at a stated price within a specific timeframe.
+- Exercising a[call option](https://www.investopedia.com/terms/c/calloption.asp)allows you tobuythe underlying security at a stated price within a specific timeframe.
 
 <https://www.upcounsel.com/exercise-stock-options>
 
@@ -203,10 +207,9 @@ An options chain, also known as an option matrix, is a listing of all available[
 
 An options chain provides detailed quote and price information and should not be confused with an[options series](https://www.investopedia.com/terms/o/optionseries.asp)or cycle, which instead simply denotes the available[strike prices](https://www.investopedia.com/terms/s/strikeprice.asp)or expiration dates.
 
-
--   An options chain is a table displaying options quotes for a particular underlying security.
--   The options chain matrix is updated in real-time showing the last price, trading volume, and best bid and offer for the calls and puts of an options series, typically segmented by expiration date.
--   An option's strike price is also listed, which is the stock price at which the investor buys the stock if the option is exercised.
+- An options chain is a table displaying options quotes for a particular underlying security.
+- The options chain matrix is updated in real-time showing the last price, trading volume, and best bid and offer for the calls and puts of an options series, typically segmented by expiration date.
+- An option's strike price is also listed, which is the stock price at which the investor buys the stock if the option is exercised.
 
 <https://www.investopedia.com/terms/o/optionchain.asp>
 
@@ -220,35 +223,37 @@ An options chain provides detailed quote and price information and should not be
 
 [Open interest](https://www.investopedia.com/articles/technical/02/112002.asp)is the number of active contracts. It's one of the data fields on most option quote displays, along with[bid price](https://www.investopedia.com/terms/b/bidprice.asp),[ask price](https://www.investopedia.com/terms/a/ask.asp), volume, and[implied volatility](https://www.investopedia.com/terms/i/iv.asp). Yet, many options traders ignore active contracts, which can lead to unforeseen consequences.
 
-<https://www.investopedia.com/trading/options-trading-volume-and-open-interest
+<https://www.investopedia.com/trading/options-trading-volume-and-open-interest>
 
-<https://www.exegy.com/2019/08/what-can-high-open-interest-indicate-about-options
+<https://www.exegy.com/2019/08/what-can-high-open-interest-indicate-about-options>
 
 ## Drawdown
--   A drawdown refers to how much an investment or trading account is down from the peak before it recovers back to the peak
--   Drawdowns are typically quoted as a percentage, but dollar terms may also be used if applicable for a specific trader
--   Drawdowns are a measure of downside volatility
--   The time it takes to recover a drawdown should also be considered when assessing drawdowns
--   A drawdown and loss aren't necessarily the same thing. Most traders view a drawdown as a peak-to-trough metric, while losses typically refer to the purchase price relative to the current or exit price
+
+- A drawdown refers to how much an investment or trading account is down from the peak before it recovers back to the peak
+- Drawdowns are typically quoted as a percentage, but dollar terms may also be used if applicable for a specific trader
+- Drawdowns are a measure of downside volatility
+- The time it takes to recover a drawdown should also be considered when assessing drawdowns
+- A drawdown and loss aren't necessarily the same thing. Most traders view a drawdown as a peak-to-trough metric, while losses typically refer to the purchase price relative to the current or exit price
 
 <https://www.investopedia.com/terms/d/drawdown.asp>
 
 ## Quantatitive Trading / Quant Trader
 
 [Everything you need to know to become a quant trader (top 5 books)](https://www.youtube.com/watch?v=FuNTNDEUwkw)
--   Option Volatility and Pricing by Sheldon Natenberg
--   Dynamic Hedging
--   Frequently Asked Questions in Quantitative Finance (Second Edition) by Paul Wilmott
--   Python for Data Analysis
--   Introduction to Linear Algebra
--   Advances in Active Portfolio Management
--   Technical Analysis is Mostly Bullshit
+
+- Option Volatility and Pricing by Sheldon Natenberg
+- Dynamic Hedging
+- Frequently Asked Questions in Quantitative Finance (Second Edition) by Paul Wilmott
+- Python for Data Analysis
+- Introduction to Linear Algebra
+- Advances in Active Portfolio Management
+- Technical Analysis is Mostly Bullshit
 
 ## Algorithmic trading / Trading bot
 
 <https://www.indiratrade.com/algo-trading>
 
-<https://www.trality.com
+<https://www.trality.com>
 
 ## Price action strategy
 
@@ -282,23 +287,22 @@ You can configure a combination strategy according to the market, the time frame
 
 <https://www.ig.com/en/trading-platforms/algorithmic-trading>
 
-
--   [Strategies](https://en.wikipedia.org/wiki/Algorithmic_trading#Strategies)
-    -   [3.1Trading ahead of index fund rebalancing](https://en.wikipedia.org/wiki/Algorithmic_trading#Trading_ahead_of_index_fund_rebalancing)
-    -   [3.2Pairs trading](https://en.wikipedia.org/wiki/Algorithmic_trading#Pairs_trading)
-    -   [3.3Delta-neutral strategies](https://en.wikipedia.org/wiki/Algorithmic_trading#Delta-neutral_strategies)
-    -   [3.4Arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Arbitrage)
-        -   [3.4.1Conditions for arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Conditions_for_arbitrage)
-    -   [3.5Mean reversion](https://en.wikipedia.org/wiki/Algorithmic_trading#Mean_reversion)
-    -   [3.6Scalping](https://en.wikipedia.org/wiki/Algorithmic_trading#Scalping)
-    -   [3.7Transaction cost reduction](https://en.wikipedia.org/wiki/Algorithmic_trading#Transaction_cost_reduction)
-    -   [3.8Strategies that only pertain to dark pools](https://en.wikipedia.org/wiki/Algorithmic_trading#Strategies_that_only_pertain_to_dark_pools)
-    -   [3.9Market timing](https://en.wikipedia.org/wiki/Algorithmic_trading#Market_timing)
--   [4High-frequency trading](https://en.wikipedia.org/wiki/Algorithmic_trading#High-frequency_trading)
-    -   [4.1Market making](https://en.wikipedia.org/wiki/Algorithmic_trading#Market_making)
-    -   [4.2Statistical arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Statistical_arbitrage)
-    -   [4.3Event arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Event_arbitrage)
-    -   [4.4Spoofing](https://en.wikipedia.org/wiki/Algorithmic_trading#Spoofing)
+- [Strategies](https://en.wikipedia.org/wiki/Algorithmic_trading#Strategies)
+  - [3.1Trading ahead of index fund rebalancing](https://en.wikipedia.org/wiki/Algorithmic_trading#Trading_ahead_of_index_fund_rebalancing)
+  - [3.2Pairs trading](https://en.wikipedia.org/wiki/Algorithmic_trading#Pairs_trading)
+  - [3.3Delta-neutral strategies](https://en.wikipedia.org/wiki/Algorithmic_trading#Delta-neutral_strategies)
+  - [3.4Arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Arbitrage)
+    - [3.4.1Conditions for arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Conditions_for_arbitrage)
+  - [3.5Mean reversion](https://en.wikipedia.org/wiki/Algorithmic_trading#Mean_reversion)
+  - [3.6Scalping](https://en.wikipedia.org/wiki/Algorithmic_trading#Scalping)
+  - [3.7Transaction cost reduction](https://en.wikipedia.org/wiki/Algorithmic_trading#Transaction_cost_reduction)
+  - [3.8Strategies that only pertain to dark pools](https://en.wikipedia.org/wiki/Algorithmic_trading#Strategies_that_only_pertain_to_dark_pools)
+  - [3.9Market timing](https://en.wikipedia.org/wiki/Algorithmic_trading#Market_timing)
+- [4High-frequency trading](https://en.wikipedia.org/wiki/Algorithmic_trading#High-frequency_trading)
+  - [4.1Market making](https://en.wikipedia.org/wiki/Algorithmic_trading#Market_making)
+  - [4.2Statistical arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Statistical_arbitrage)
+  - [4.3Event arbitrage](https://en.wikipedia.org/wiki/Algorithmic_trading#Event_arbitrage)
+  - [4.4Spoofing](https://en.wikipedia.org/wiki/Algorithmic_trading#Spoofing)
 
 <https://en.wikipedia.org/wiki/Algorithmic_trading>
 
@@ -309,27 +313,31 @@ You can configure a combination strategy according to the market, the time frame
 [Day Trading Strategies for Beginners: Class 1 of 12 by Ross Cameron](https://youtu.be/txWaMpSzHhM)
 
 How does day trading work?
--   The simple concept is that we want to buy stocks that are going to move up
--   Day traders profit from volatility. Markets that aren't moving won't give us profits
--   When stocks are moving, we can find opportunities to trade and profit
--   It's our job to find volatility in the market by hunting for catalysts such as quarterly earnings, press releases, and other types of news
+
+- The simple concept is that we want to buy stocks that are going to move up
+- Day traders profit from volatility. Markets that aren't moving won't give us profits
+- When stocks are moving, we can find opportunities to trade and profit
+- It's our job to find volatility in the market by hunting for catalysts such as quarterly earnings, press releases, and other types of news
 
 Why do most traders fail?
--   Day trading requires quick decisions and a lot of discipline. Many new traders intially lack the ability to make good decisions and maintain composure while under the stress of a losing position
--   Skill and discipline are like muscles that require exercise to grow. Your ability to make quick decisions and follow your trading rules will improve with experience
+
+- Day trading requires quick decisions and a lot of discipline. Many new traders intially lack the ability to make good decisions and maintain composure while under the stress of a losing position
+- Skill and discipline are like muscles that require exercise to grow. Your ability to make quick decisions and follow your trading rules will improve with experience
 
 How do I find Trades?
--   Once I have found stocks that will have the volatility to give us profit potential, I have to find exact entry and exit levels
--   I rely on a handful of simple patterns and strategies
--   Take the best setups and wait on the sidelines until you see something worth trading
+
+- Once I have found stocks that will have the volatility to give us profit potential, I have to find exact entry and exit levels
+- I rely on a handful of simple patterns and strategies
+- Take the best setups and wait on the sidelines until you see something worth trading
 
 ## Resources
 
 [Option Buying & Selling - Advantages & Disadvantaged Explained!](https://youtu.be/wwZ157RxD4E)
 
 [6. Moneyness of option](https://www.youtube.com/watch?v=3J9I0U9w4Ww)
--   In the money (ITM)
--   Out of the money (OTM)
--   At the money (ATM)
+
+- In the money (ITM)
+- Out of the money (OTM)
+- At the money (ATM)
 
 [Power of SHORT STRADDLE in Volatile Markets!](https://www.youtube.com/watch?v=LR5d4HrNYwA)

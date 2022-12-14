@@ -13,9 +13,10 @@ You cannot predict what happen in next 10 years, but if you are agile enough you
 Agile is an iterative approach to project management and software development that helps teams deliver value to their customers faster and with fewer headaches. Instead of betting everything on a "big bang" launch, an agile team delivers work in small, but consumable, increments. Requirements, plans, and results are evaluated continuously so teams have a natural mechanism for responding to change quickly.
 
 ## Agile Development (Iterative)
--   One cannot anticipate every detail of a complex problem.
--   Start simple (with something that works), then improve it.
--   Identify emerging patterns and continuously adapt the structure of your code. (Refactoring, for which you want Unittests)
+
+- One cannot anticipate every detail of a complex problem.
+- Start simple (with something that works), then improve it.
+- Identify emerging patterns and continuously adapt the structure of your code. (Refactoring, for which you want Unittests)
 
 Agility gives the enterprise the ability to out-innovate its competition. And, as technology both raises the bar for competition and lowers barriers to innovation, those enterprises that fail to out-innovate will themselves be out-innovated into oblivion.
 
@@ -38,9 +39,10 @@ For example, if you're on a queue-oriented team like IT, Kanban provides a solid
 The key to doing agile right is[embracing a mindset of continuous improvement](https://www.atlassian.com/blog/agile/how-to-stay-agile-and-keep-improving). Experiment with different practices and have open, honest discussions about them with your team. Keep the ones that work, and throw out the ones that don't.
 
 ## Topics
--   **Agile manifesto**
--   **Scrum**
--   **Kanban**
+
+- **Agile manifesto**
+- **Scrum**
+- **Kanban**
 
 [Overview](https://www.atlassian.com/agile/kanban)
 
@@ -54,8 +56,7 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 [Kanplan](https://www.atlassian.com/agile/kanban/kanplan)
 
-
--   **Agile project management**
+- **Agile project management**
 
 [Overview](https://www.atlassian.com/agile/project-management)
 
@@ -75,8 +76,7 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 [Gantt Chart](https://www.atlassian.com/agile/project-management/gantt-chart)
 
-
--   **Product management**
+- **Product management**
 
 [Overview](https://www.atlassian.com/agile/product-management)
 
@@ -96,8 +96,7 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 [Product analytics](https://www.atlassian.com/agile/product-management/product-analytics)
 
-
--   **Agile at scale**
+- **Agile at scale**
 
 [Overview](https://www.atlassian.com/agile/agile-at-scale)
 
@@ -123,8 +122,7 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 [The Large-Scale Scrum (LeSS) framework](https://www.atlassian.com/agile/agile-at-scale/less)
 
-
--   **Software development**
+- **Software development**
 
 [Overview](https://www.atlassian.com/agile/software-development)
 
@@ -154,22 +152,19 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 [Continuous integration](https://www.atlassian.com/agile/software-development/continuous-integration)
 
+- **Design**
+  - Overview
+  - Product design process customer interview
+  - Collaborative design in agile teams video
 
--   **Design**
-    -   Overview
-    -   Product design process customer interview
-    -   Collaborative design in agile teams video
+- **The agile advantage**
+  - Overview
+  - Connecting business strategy to development reality
+  - Agile is a competitive advantage
+  - Going agile
 
-
--   **The agile advantage**
-    -   Overview
-    -   Connecting business strategy to development reality
-    -   Agile is a competitive advantage
-    -   Going agile
-
-
--   **DevOps**
--   **Agile teams**
+- **DevOps**
+- **Agile teams**
 
 ## Agile Manifesto
 
@@ -183,23 +178,23 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 ## 12 Principles of the Agile Manifesto
 
-1.  Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
-2.  Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
 
-3.  Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
 
-4.  Business people and developers must work together daily throughout the project.
+4. Business people and developers must work together daily throughout the project.
 
-5.  Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
 
-6.  The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+6. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
 
-7.  Working software is the primary measure of progress.
+7. Working software is the primary measure of progress.
 
-8.  Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
 
-9.  Continuous attention to technical excellence and good design enhances agility.
+9. Continuous attention to technical excellence and good design enhances agility.
 
 10. Simplicity--the art of maximizing the amount of work not done--is essential.
 
@@ -209,45 +204,45 @@ The key to doing agile right is[embracing a mindset of continuous improvement](h
 
 ## Steps in Agile Project Management
 
-1.  Project planning
+1. Project planning
 
 Project planning is a step that ensures everyone understands the end goal and value of that project. Here, the scope is developed, and the work is estimated by breaking it into sprints or iterations
 
-2.  Roadmap creation
+2. Roadmap creation
 
 A roadmap is a list of all the features that the final product shoudl have. It acts as a plan of action on how a project will evolve. Hence, the roadmap is an integral part of the plan as these features are built during each sprint
 
-3.  Release planning
+3. Release planning
 
 A plan is made for all feature releases and this plan is revisited at the beginning of each sprint. Agile project methodology uses shorter development cycles or sprints, with features released at the end of each cycle
 
-4.  Sprint planning
+4. Sprint planning
 
 Sprint planning ensures that each team member has an assigned task before the sprint begins. The stakeholders, need to plan what is to accomplished in that sprint and that the workload is evenly shared amongst the team
 
-5.  Daily meetings
+5. Daily meetings
 
 Daily meetings help the team in accomplishing their daily tasks in an efficient manner. During these meetings, each team member tells what they have accomplished the previous day and what is their task for today
 
-6.  Sprint review and retrospective
+6. Sprint review and retrospective
 
 Sprint review and retrospective helps the team to inspect itself and plan to make changes to improve the forth coming sprints. Sprint retrospective takes place after the sprint review, and before the next Sprint planning
 
 ## Agile Project Management Frameworks
 
-1.  **Kanban**
+1. **Kanban**
 
 Kanban framework is used to implement agile software development and requires real-time communication. Work items are represented on a Kanban board, allowing team members to see the state of each work at any time
 
-2.  **Scrum Framework**
+2. **Scrum Framework**
 
 Scrum framework helps in dealing with complex problems and making it possible to deliver high-quality products at the same time. It helps in managing complex, advanced work with a little emphasis on software development
 
-3.  **Hybrid framework**
+3. **Hybrid framework**
 
 Hybrid framework is a combination of Agile methods with non-Agile methods. Hybrid can handle requirement changes, and it can deliver product in stages. In hybrid, planning is done using a waterfall approach, while the agile approach handles execution and delivery
 
-4.  **Lean framework**
+4. **Lean framework**
 
 The lean framework works on the concept of maximizing customer value with fewer resources and zero waste. Hence, lean focuses on the flow of products and services instead of focusing on separate technologies. Companies can act upon with changing customer needs and requirements
 

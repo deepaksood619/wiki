@@ -10,8 +10,7 @@ Insertion sorttakes elements of the array sequentially, and maintains a sorted s
 
 Stability - Yes
 
-
--   In iteration i, swap a[i] with each element to its left
+- In iteration i, swap a[i] with each element to its left
 
 ![image](media/Insertion-Sort-image1.png)
 
@@ -21,15 +20,14 @@ Best Case - if the array is in ascending order, insertion sort makes N-1 compare
 
 Worst case - If the array is in descending order (and no duplicates), insertion sort makes ~ 1/2 N^2^ compares and ~1/2 N^2^ exchanges
 
-
-
 ## Inversion - An inversion is a pair of keys that are out of order
 
 ![image](media/Insertion-Sort-image2.png)
 
 Def. An array is partially sorted if the number of inversions is <= c N.
--   Ex 1. A subarray of size 10 appended to a sorted subarray of size N
--   Ex 2. An array of size N with only 10 entries out of place
+
+- Ex 1. A subarray of size 10 appended to a sorted subarray of size N
+- Ex 2. An array of size N with only 10 entries out of place
 
 Proposition. For partially-sorted arrays, insertion sort runs in linear time.
 

@@ -5,36 +5,39 @@ Created: 2020-03-24 12:09:39 +0500
 Modified: 2021-10-14 20:59:54 +0500
 
 ---
--   [Introduction](https://redislabs.com/redis-best-practices/introduction/)
--   [Indexing Patterns](https://redislabs.com/redis-best-practices/indexing-patterns/)
+
+- [Introduction](https://redislabs.com/redis-best-practices/introduction/)
+- [Indexing Patterns](https://redislabs.com/redis-best-practices/indexing-patterns/)
 
 <https://redis.io/topics/indexes>-   [Sorted Sets as Indexes](https://redislabs.com/redis-best-practices/indexing-patterns/sorted-sets-indexes/)
--   [Lexicographical Encoding](https://redislabs.com/redis-best-practices/indexing-patterns/lexicographical-encoding/)
--   [Geospatial](https://redislabs.com/redis-best-practices/indexing-patterns/geospatial/)
--   [IP Range Indexing](https://redislabs.com/redis-best-practices/indexing-patterns/ip-range-indexing/)
--   [Full Text Search](https://redislabs.com/redis-best-practices/indexing-patterns/full-text-search/)
--   [Partitioned Index](https://redislabs.com/redis-best-practices/indexing-patterns/partitioned-index/)-   [Communication Patterns](https://redislabs.com/redis-best-practices/communication-patterns/)
-    -   [Event Queue](https://redislabs.com/redis-best-practices/communication-patterns/event-queue/)
-    -   [Redlock](https://redislabs.com/redis-best-practices/communication-patterns/redlock/)
+
+- [Lexicographical Encoding](https://redislabs.com/redis-best-practices/indexing-patterns/lexicographical-encoding/)
+- [Geospatial](https://redislabs.com/redis-best-practices/indexing-patterns/geospatial/)
+- [IP Range Indexing](https://redislabs.com/redis-best-practices/indexing-patterns/ip-range-indexing/)
+- [Full Text Search](https://redislabs.com/redis-best-practices/indexing-patterns/full-text-search/)
+- [Partitioned Index](https://redislabs.com/redis-best-practices/indexing-patterns/partitioned-index/)-   [Communication Patterns](https://redislabs.com/redis-best-practices/communication-patterns/)
+  - [Event Queue](https://redislabs.com/redis-best-practices/communication-patterns/event-queue/)
+  - [Redlock](https://redislabs.com/redis-best-practices/communication-patterns/redlock/)
 
 In a system, sometimes you must lock a resource. This might be to make critical modifications that cannot be resolved in any concurrent way. The goals for locks are:
--   One worker (and only one) worked to be able to acquire rights to a resource
--   Be able to release this lock reliably
--   Not deadlock any resource meaning that a resource should be unlocked after a given time period.
+
+- One worker (and only one) worked to be able to acquire rights to a resource
+- Be able to release this lock reliably
+- Not deadlock any resource meaning that a resource should be unlocked after a given time period.
 Redis is a good option locking since has a simple key-based data model, each shard is single-threaded, and is quite quick. There is a well-established, canonical implementations of locking using Redis called Redlock.-   [Pub/Sub](https://redislabs.com/redis-best-practices/communication-patterns/pub-sub/)
--   [Distributed Events](https://redislabs.com/redis-best-practices/communication-patterns/distributed-events/)-   [Data Storage Patterns](https://redislabs.com/redis-best-practices/data-storage-patterns/)
-    -   [JSON Storage](https://redislabs.com/redis-best-practices/data-storage-patterns/json-storage/)
-    -   [Object->Hash Storage](https://redislabs.com/redis-best-practices/data-storage-patterns/object-hash-storage/)
--   [Time Series Patterns](https://redislabs.com/redis-best-practices/time-series/)
-    -   [Sorted Set Time Series](https://redislabs.com/redis-best-practices/time-series/sorted-set-time-series/)
-    -   [Lexicographic Sorted Set Time Series](https://redislabs.com/redis-best-practices/time-series/lexicographic-sorted-set-time-series/)
-    -   [Time Series with Bitfields](https://redislabs.com/redis-best-practices/time-series/time-series-bitfields/)
--   [Basic Rate Limiting Pattern](https://redislabs.com/redis-best-practices/basic-rate-limiting/)
--   [Bloom Filter Pattern](https://redislabs.com/redis-best-practices/bloom-filter-pattern/)
--   [Counting](https://redislabs.com/redis-best-practices/counting/)
-    -   [Bit Counting Pattern](https://redislabs.com/redis-best-practices/counting/bit-counting-pattern/)
-    -   [HyperLogLog](https://redislabs.com/redis-best-practices/counting/hyperloglog/)
--   [Lua Helpers](https://redislabs.com/redis-best-practices/lua-helpers/)
+- [Distributed Events](https://redislabs.com/redis-best-practices/communication-patterns/distributed-events/)-   [Data Storage Patterns](https://redislabs.com/redis-best-practices/data-storage-patterns/)
+  - [JSON Storage](https://redislabs.com/redis-best-practices/data-storage-patterns/json-storage/)
+  - [Object->Hash Storage](https://redislabs.com/redis-best-practices/data-storage-patterns/object-hash-storage/)
+- [Time Series Patterns](https://redislabs.com/redis-best-practices/time-series/)
+  - [Sorted Set Time Series](https://redislabs.com/redis-best-practices/time-series/sorted-set-time-series/)
+  - [Lexicographic Sorted Set Time Series](https://redislabs.com/redis-best-practices/time-series/lexicographic-sorted-set-time-series/)
+  - [Time Series with Bitfields](https://redislabs.com/redis-best-practices/time-series/time-series-bitfields/)
+- [Basic Rate Limiting Pattern](https://redislabs.com/redis-best-practices/basic-rate-limiting/)
+- [Bloom Filter Pattern](https://redislabs.com/redis-best-practices/bloom-filter-pattern/)
+- [Counting](https://redislabs.com/redis-best-practices/counting/)
+  - [Bit Counting Pattern](https://redislabs.com/redis-best-practices/counting/bit-counting-pattern/)
+  - [HyperLogLog](https://redislabs.com/redis-best-practices/counting/hyperloglog/)
+- [Lua Helpers](https://redislabs.com/redis-best-practices/lua-helpers/)
 <https://redislabs.com/redis-best-practices>
 
 ## Best practices and performance tuning**
@@ -42,6 +45,7 @@ Redis is a good option locking since has a simple key-based data model, each sha
 ## TCP-KeepAlive
 
 Keepalive is a method to allow the same TCP connection for HTTP conversation instead of opening a new one with each new request.
+
 ## Pipelining
 
 Pipelining facilitates a client to send multiple requests to the server without waiting for the replies at all and finally reads the reply in a single step.
@@ -57,6 +61,7 @@ Pipelining isn't a silver bullet - you need to understand what it does before yo
 ## Max-Connection**
 
 define the maximum connection limit to the Redis Server.
+
 ## Overcommit memory
 
 Overcommit memory is a kernel parameter which checks if the memory is available or not. If the overcommit memory value is 0 then there is a chance that your Redis will get OOM (Out of Memory) error.
@@ -67,6 +72,7 @@ echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
 | maxmemory-policy  | volatile-lru      | It adds a random key with an expiry time                                                                                                                                                                            |
 | loglevel          | notice            | Loglevel should be "notice", so that log will not take too much resource                                                                                                                                            |
 | timeout           | 300               | There should be a timeout value as well in redis configuration which prevents redis from spending too much time on the connection. It closes the connection of the client if it is ideal for more than 300 seconds. |
+
 ## Memory Optimizations
 
 [Compress Values](https://docs.redislabs.com/latest/ri/memory-optimizations/compress-values/)
@@ -125,15 +131,16 @@ When you set an expiry on a key, redis does not expire it at that instant. Inste
 
 ## Performance Metrics**
 
-1.  Memory Usage: used_memory
+1. Memory Usage: used_memory
 
-2.  Number of commands processed: total_commands_processed
+2. Number of commands processed: total_commands_processed
 
-3.  Latency
+3. Latency
 
-4.  Fragmentation Ratio
+4. Fragmentation Ratio
 
-5.  Evictions
+5. Evictions
+
 ## Parsers
 
 Parser classes provide a way to control how responses from the Redis server are parsed. redis-py ships with two parser classes, the PythonParser and the HiredisParser. By default, redis-py will attempt to use the HiredisParser if you have the hiredis module installed and will fallback to the PythonParser otherwise.

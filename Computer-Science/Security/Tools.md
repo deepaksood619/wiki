@@ -19,26 +19,33 @@ SPIFFE is a set of open-source specifications for a framework capable of bootstr
 SPIFFE - set of specifications
 
 Implementations
--   The SPIRE project
--   Istio Citadel
--   HashiCorp Consul
+
+- The SPIRE project
+- Istio Citadel
+- HashiCorp Consul
+
 ## SPIRE
 
 SPIRE (the[SPIFFE](https://github.com/spiffe/spiffe)Runtime Environment) is a tool-chain for establishing trust between software systems across a wide variety of hosting platforms. Concretely, SPIRE exposes the[SPIFFE Workload API](https://github.com/spiffe/go-spiffe/blob/master/proto/spiffe/workload/workload.proto), which can attest running software systems and issue[SPIFFE IDs](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md)and[SVID](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md)s to them. This in turn allows two workloads to establish trust between each other, for example by establishing an mTLS connection or by signing and verifying a JWT token. Or for a workload to securely authenticate to a secret store, a database, or a cloud provider service.
 spire-server
--   Identity Mapping
--   Node Attestation
+
+- Identity Mapping
+- Node Attestation
 
 ![image](media/Tools-image1.png)
--   SVID Issuance
+
+- SVID Issuance
 spire-agent
--   Workload Attestation
+- Workload Attestation
 
 ![image](media/Tools-image2.png)
--   Workload API
+
+- Workload API
+
 ## SPIRE Overview
 
 ![image](media/Tools-image3.png)
+
 ## Workload Identity
 
 ![image](media/Tools-image4.png)
@@ -47,6 +54,7 @@ spire-agent
 [Zero Trust Service Mesh with Calico, SPIRE, and Envoy - Shaun Crampton & Evan Gilman](https://www.youtube.com/watch?v=rKOEYoINdOE)
 
 [Securing Multi-Cloud Cross-Cluster Communication with SPIFFE and SPIRE - Evan Gilman, Scytale, Inc.](https://www.youtube.com/watch?v=sLN11qAFAC4)
+
 ## Casbin
 
 An authorization library that supports access control models like ACL, RBAC, ABAC in Golang
@@ -80,19 +88,23 @@ Sodium is a new, easy-to-use software library for encryption, decryption, signat
 ## cert-manager**
 
 cert-manager builds on top of Kubernetes, introducing certificate authorities and certificates as first-class resource types in the Kubernetes API. This makes it possible to provide 'certificates as a service' to developers working within your Kubernetes cluster.
+
 ## Highlights
--   Provide easy to use tools to manage certificates.
--   A standardised API for interacting with multiple certificate authorities (CAs).
--   Gives security teams the confidence to allow developers to self-server certificates.
--   Support for ACME (LetsEncrypt), HashiCorp Vault, Venafi, self signed and internal certificate authorities.
--   Extensible to support custom, internal or otherwise unsupported CAs.
+
+- Provide easy to use tools to manage certificates.
+- A standardised API for interacting with multiple certificate authorities (CAs).
+- Gives security teams the confidence to allow developers to self-server certificates.
+- Support for ACME (LetsEncrypt), HashiCorp Vault, Venafi, self signed and internal certificate authorities.
+- Extensible to support custom, internal or otherwise unsupported CAs.
+
 ## Concepts
--   Issuer
--   Certificate
--   CertificateRequest
--   ACME Orders and Challenges
--   Webhook
--   CA Injector
+
+- Issuer
+- Certificate
+- CertificateRequest
+- ACME Orders and Challenges
+- Webhook
+- CA Injector
 
 <https://cert-manager.io>
 
@@ -102,6 +114,7 @@ cert-manager builds on top of Kubernetes, introducing certificate authorities an
 <https://www.youtube.com/watch?v=JJTJfl-V_UM>
 
 [Use cert-manager with Let's Encrypt® Certificates Tutorial: Automatic Browser-Trusted HTTPS](https://www.youtube.com/watch?v=etC5d0vpLZE)
+
 ## Letsencrypt
 
 <https://letsencrypt.org/getting-started>

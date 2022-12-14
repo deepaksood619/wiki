@@ -6,30 +6,30 @@ Modified: 2018-09-26 23:33:44 +0500
 
 ---
 
-1.  Motion in a Straight Line
-    -   Kinematic Equations
-    -   Dimensions - (Time, Position, Velocity, Acceleration)
-    -   Velocity is the way our position changes over time. (m/s)
-    -   Acceleration is the change in velocity over time (m/s^2^)
-    -   2nd Kinematic Equation - Displacement Curve
+1. Motion in a Straight Line
+    - Kinematic Equations
+    - Dimensions - (Time, Position, Velocity, Acceleration)
+    - Velocity is the way our position changes over time. (m/s)
+    - Acceleration is the change in velocity over time (m/s^2^)
+    - 2nd Kinematic Equation - Displacement Curve
 
 ![image](media/Crash-Course-Physics-image1.png)
 
-2.  Derivatives
+2. Derivatives
 
-3.  Integrals
+3. Integrals
 
-4.  Vectors and 2D Motion
+4. Vectors and 2D Motion
 
-5.  Newton's Laws
+5. Newton's Laws
 
-6.  Friction
+6. Friction
 
-7.  Uniform Circular Motion
+7. Uniform Circular Motion
 
-8.  Newtonian Gravity
+8. Newtonian Gravity
 
-9.  Work, Energy and Power
+9. Work, Energy and Power
 
 10. Collisions
 

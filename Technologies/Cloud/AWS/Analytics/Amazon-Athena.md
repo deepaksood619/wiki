@@ -14,7 +14,7 @@ Athena is easy to use. Simply point to your data in Amazon S3, define the schema
 
 Athena is out-of-the-box integrated with[AWS Glue](https://aws.amazon.com/glue/)Data Catalog, allowing you to create a unified metadata repository across various services, crawl data sources to discover schemas and populate your Catalog with new and modified table and partition definitions, and maintain schema versioning.
 
-<https://aws.amazon.com/athena
+<https://aws.amazon.com/athena>
 
 ## When should I use Athena
 
@@ -38,21 +38,23 @@ If you query a partitioned table and specify the partition in theWHEREclause, At
 
 To create a table with partitions, you must define it during theCREATE TABLEstatement. UsePARTITIONED BYto define the keys by which to partition data. There are two scenarios discussed in the following sections:
 
-1.  Data is already partitioned, stored on Amazon S3, and you need to access the data on Athena.
+1. Data is already partitioned, stored on Amazon S3, and you need to access the data on Athena.
 
-2.  Data is not partitioned.
+2. Data is not partitioned.
 
 <https://docs.aws.amazon.com/athena/latest/ug/partitions.html>
 
 When you create a table from CSV data in Athena, determine what types of values it contains:
--   If data contains values enclosed in double quotes ("), you can use the[OpenCSV SerDe](https://cwiki.apache.org/confluence/display/Hive/CSV+Serde)to deserialize the values in Athena. In the following sections, note the behavior of this SerDe withSTRINGdata types.
--   If data does not contain values enclosed in double quotes ("), you can omit specifying any SerDe. In this case, Athena uses the defaultLazySimpleSerDe. For information, see[LazySimpleSerDe for CSV, TSV, and Custom-Delimited Files](https://docs.aws.amazon.com/athena/latest/ug/lazy-simple-serde.html).
+
+- If data contains values enclosed in double quotes ("), you can use the[OpenCSV SerDe](https://cwiki.apache.org/confluence/display/Hive/CSV+Serde)to deserialize the values in Athena. In the following sections, note the behavior of this SerDe withSTRINGdata types.
+- If data does not contain values enclosed in double quotes ("), you can omit specifying any SerDe. In this case, Athena uses the defaultLazySimpleSerDe. For information, see[LazySimpleSerDe for CSV, TSV, and Custom-Delimited Files](https://docs.aws.amazon.com/athena/latest/ug/lazy-simple-serde.html).
 
 ## Key Points
--   Does not support embedded line breaks in CSV files.
--   Does not support empty fields in columns defined as a numeric data type.
 
-ACID - <https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-athena-acid-transactions-powered-apache-iceberg
+- Does not support embedded line breaks in CSV files.
+- Does not support empty fields in columns defined as a numeric data type.
+
+ACID - <https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-athena-acid-transactions-powered-apache-iceberg>
 
 ## Athena iceberg
 
@@ -737,7 +739,7 @@ LOCATION
 
 '[s3://stashfin-migration-data/userdevicesms_request/response/](s3://stashfin-migration-data/userdevicesms_request/response/)'
 
-<https://aws.amazon.com/blogs/big-data/analyzing-data-in-s3-using-amazon-athena
+<https://aws.amazon.com/blogs/big-data/analyzing-data-in-s3-using-amazon-athena>
 
 CREATE EXTERNAL TABLE IF NOT EXISTS http_requests (
 
@@ -769,7 +771,7 @@ STORED AS PARQUET
 
 LOCATION 's3://httprequests/'
 
-## tblproperties ("parquet.compress"="GZIP");
+## tblproperties ("parquet.compress"="GZIP")
 
 <https://medium.com/@costimuraru/querying-terabytes-of-proto-parquet-data-with-amazon-athena-or-apache-hive-fb51addce5ac>
 
@@ -780,43 +782,43 @@ SELECT create_date,customer_id,loan_id,credit_amt_2m,credit_cnt_2m,debit_amt_2m,
 FROM bank_data.meta_data where cast(substring(create_date,1,19) as timestamp) between date_add('month',-3,now()) and now();
 
 ## Things to remember
--   MSCK repair statement loads the partition data for Hive-compatible data/partitions like year=2020/month=04/day=20. In this case, you would have to use ALTER TABLE ADD PARTITION to add each partition manually.
--   Hive Schema mismatch
+
+- MSCK repair statement loads the partition data for Hive-compatible data/partitions like year=2020/month=04/day=20. In this case, you would have to use ALTER TABLE ADD PARTITION to add each partition manually.
+- Hive Schema mismatch
 
 It can happen that partition schema is different from table's schema leading to 'HIVE_PARTITION_SCHEMA_MISMATCH' error. At the beginning of query execution, Athena verifies the table's schema by checking that each column data type is compatible between the table and the partition. If you create a table in CSV, JSON, and AVRO in Athena with AWS Glue Crawler, after the Crawler finishes processing, the schemas for the table and its partitions may be different. If there is a mismatch between the table's schema and the partition schemas, your queries fail in Athena due to the schema verification error.
 
 A typical workaround for such errors is to drop the partition that is causing the error and recreate it. Suggest to use ALTER TABLE DROP PARTITION and ALTER TABLE ADD PARTITION to drop and add partition manually. It is recommended to go thru documentation link provided below for more information on updates in tables with partitions. <https://docs.aws.amazon.com/athena/latest/ug/updates-and-partitions.html>
 
-
-
 ## Performance tuning guides
 
-1.  Partition your data (year=2019/month=12/day=21)
+1. Partition your data (year=2019/month=12/day=21)
 
-2.  Bucket your data
+2. Bucket your data
 
-3.  Compress and split files (snappy)
+3. Compress and split files (snappy)
 
-4.  Optimize file sizes (Athena (Presto) likes big files. Recommended minimum is 128MB per file.)
+4. Optimize file sizes (Athena (Presto) likes big files. Recommended minimum is 128MB per file.)
 
-5.  Optimizecolumnar data store generation (parquet/orc)
+5. Optimizecolumnar data store generation (parquet/orc)
 
-6.  Optimize ORDER BY
+6. Optimize ORDER BY
 
-7.  Optimize joins
+7. Optimize joins
 
-8.  Optimize GROUP BY
+8. Optimize GROUP BY
 
-9.  Optimize the LIKE operator
+9. Optimize the LIKE operator
 
 10. Use approximate functions
 
 11. Only include the columns that you need
 
-<https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena
+<https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena>
 
 ## Connectors
--   DynamoDB Connector
+
+- DynamoDB Connector
 
 The Amazon Athena DynamoDB connector enables Amazon Athena to communicate with DynamoDB so that you can query your tables with SQL.
 
@@ -824,11 +826,11 @@ The Amazon Athena DynamoDB connector enables Amazon Athena to communicate with D
 
 ## Others
 
-<https://aws.amazon.com/athena/faqs
+<https://aws.amazon.com/athena/faqs>
 
-<https://www.linkedin.com/pulse/my-top-5-gotchas-working-aws-glue-tanveer-uddin
+<https://www.linkedin.com/pulse/my-top-5-gotchas-working-aws-glue-tanveer-uddin>
 
-<https://aws.amazon.com/blogs/big-data/create-tables-in-amazon-athena-from-nested-json-and-mappings-using-jsonserde
+<https://aws.amazon.com/blogs/big-data/create-tables-in-amazon-athena-from-nested-json-and-mappings-using-jsonserde>
 
 <https://github.com/quux00/hive-json-schema>
 
@@ -847,8 +849,8 @@ ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe';
 
 ## CSV to bulk import
 
-<https://mbejda.github.io/CSV-to-Athena-Bulk-Import
+<https://mbejda.github.io/CSV-to-Athena-Bulk-Import>
 
 ## Debugging
 
-<https://aws.amazon.com/premiumsupport/knowledge-center/error-json-athena
+<https://aws.amazon.com/premiumsupport/knowledge-center/error-json-athena>

@@ -42,15 +42,16 @@ Modified: 2021-10-10 17:54:14 +0500
 </table>
 
 ## What do you want to do? Make body or stay fit? (will not be able to make body)
--   **Can do both too**
 
-1.  **Add all exercise photos to exercises**
+- **Can do both too**
 
-2.  **Create only weekly things here**
+1. **Add all exercise photos to exercises**
+
+2. **Create only weekly things here**
 
 ## Sets4Reps10Rest60secTempo2010
 
-1.  Monday (Focus Chest + Triceps)
+1. Monday (Focus Chest + Triceps)
 
     a.  Treadmill - 15 mins
 
@@ -70,7 +71,7 @@ e.  Standing Triceps over head dumbbell
 
 f.  Pushups
 
-2.  Tuesday (Focus Back + Biceps)
+2. Tuesday (Focus Back + Biceps)
 
     a.  Treadmill - 15 mins
 
@@ -90,7 +91,7 @@ e.  Bicep curl
 
 ![](media/Exercise---Stretching_Home-+-Gym-image7.jpg)
 
-3.  Wednesday (Focus Shoulders & Legs & Abs)
+3. Wednesday (Focus Shoulders & Legs & Abs)
 
     a.  Treadmill - 15 mins
 
@@ -124,19 +125,19 @@ h.  Abs
 
     ii. situps
 
-4.  Thursday (Focus Triceps + Chest)
+4. Thursday (Focus Triceps + Chest)
 
     a.  Treadmill - 15 mins
 
-5.  Friday (Focus Biceps + Back)
+5. Friday (Focus Biceps + Back)
 
     a.  Treadmill - 15 mins
 
-6.  Saturday (Focus Legs + Shoulders)
+6. Saturday (Focus Legs + Shoulders)
 
     a.  Treadmill - 15 mins
 
-7.  Sunday (Cardio + Abs)
+7. Sunday (Cardio + Abs)
 
     a.  Treadmill - 30-45 mins (Endurance)
 
@@ -148,16 +149,13 @@ c.  Plank
 
 <https://www.coachmag.co.uk/workouts/abs-workouts>
 
-
-
 <https://www.coachmag.co.uk/fitness/workouts/dumbbell-workouts>
 
-<https://www.myprotein.co.in/blog/training/chest-day-101-top-5-dumbbell-exercises
--   Dumbbell Flyes
+<https://www.myprotein.co.in/blog/training/chest-day-101-top-5-dumbbell-exercises>
+
+- Dumbbell Flyes
 
 ![Dumbbell Flyes](media/Exercise---Stretching_Home-+-Gym-image15.jpg)
-
-
 
 ## Workout 2: Arms (Week 1)
 

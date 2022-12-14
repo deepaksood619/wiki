@@ -7,13 +7,14 @@ Modified: 2021-06-13 19:58:53 +0500
 ---
 
 ## Concepts
--   Matrix factorization
--   Singular value decomposition
--   Moore-Penrose Pseudoinverse
--   Hadamard product
--   Entropy
--   Kullback-Leibler Divergence
--   Gradient Descent
+
+- Matrix factorization
+- Singular value decomposition
+- Moore-Penrose Pseudoinverse
+- Hadamard product
+- Entropy
+- Kullback-Leibler Divergence
+- Gradient Descent
 <https://www.datacamp.com/community/tutorials/demystifying-mathematics-concepts-deep-learning>
 
 ## Norm**
@@ -27,6 +28,7 @@ Apseudonormorseminormsatisfies the first two properties of a norm, but may be ze
 Calculating the size or length of a vector is often required either directly or as part of a broader vector or vector-matrix operation.
 The length of the vector is referred to as the vector norm or the vector's magnitude.
 The length of a vector is a nonnegative number that describes the extent of the vector in space, and is sometimes referred to as the vector's magnitude or the norm.-   The L1 norm that is calculated as the sum of the absolute values of the vector.
--   The L2 norm that is calculated as the square root of the sum of the squared vector values.
--   The max norm that is calculated as the maximum vector values.
+
+- The L2 norm that is calculated as the square root of the sum of the squared vector values.
+- The max norm that is calculated as the maximum vector values.
 <https://machinelearningmastery.com/vector-norms-machine-learning>

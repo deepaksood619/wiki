@@ -9,11 +9,15 @@ Modified: 2022-12-11 18:38:46 +0500
 ## Data Control Language (DCL) / Data Management Language (DML)
 
 show grants for 'raghwendra_sarkar';
--   Grant
 
-## GRANT SELECT**, **SHOW VIEW
+- Grant
+
+## GRANT SELECT**,**SHOW VIEW
+
 ## ON** mydatabase.***
-## TO** myreaduser**@**myhost IDENTIFIED **BY 'somepassword';
+
+## TO** myreaduser**@**myhost IDENTIFIED **BY 'somepassword'
+
 FLUSH **PRIVILEGES**;
 
 CREATE USER 'app_kollectai'@'%' IDENTIFIED BY '7dd69a6ca8854def9bf99b71';
@@ -28,7 +32,7 @@ Note that theFLUSH PRIVILEGEScommand resets MySQLs privileges and you won't be a
 
 Now we can log in as the new user and run show tables to see that it only has access to thetripstable and not the other two. This new user simply doesn't know the other tables even exist.
 
-<https://chartio.com/resources/tutorials/mysql-table-level-permissions
+<https://chartio.com/resources/tutorials/mysql-table-level-permissions>
 
 GRANT LOAD FROM S3 ON *.* TO 'deepak_sood'@'%'
 
@@ -38,8 +42,7 @@ GRANT SELECT,UPDATE,INSERT,SHOW VIEW ON sttash_website_LIVE.st_collection_lead_a
 
 GRANT SELECT ON sttash_website_LIVE.elev8_offer_tmp_clicked TO 'test'@'%';
 
-
--   Revoke
+- Revoke
 
 ## Postgres Grant Command
 
@@ -111,16 +114,17 @@ where ***role_specification*** can be:
 GRANT ***role_name*** [, ...] TO ***role_name*** [, ...] [ WITH ADMIN OPTION ]
 
 TheGRANTcommand has two basic variants: one that grants privileges on a database object (table, column, view, foreign table, sequence, database, foreign-data wrapper, foreign server, function, procedure, procedural language, schema, or tablespace), and one that grants membership in a role. These variants are similar in many ways, but they are different enough to be described separately.
--   GRANT on Database Objects
--   GRANT on Roles
+
+- GRANT on Database Objects
+- GRANT on Roles
 
 <https://www.postgresql.org/docs/current/sql-grant.html>
 
 ## Processes
 
-## show full processlist;
+## show full processlist
 
-## SELECT * FROM INFORMATION_SCHEMA.PROCESSLIST;
+## SELECT * FROM INFORMATION_SCHEMA.PROCESSLIST
 
 Mysql show processlist lists many processes sleep and info = null?
 

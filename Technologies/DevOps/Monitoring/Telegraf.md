@@ -12,13 +12,13 @@ Design goals are to have a minimal memory footprint with a plugin system so that
 
 Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 
-1.  [Input Plugins](https://github.com/influxdata/telegraf#input-plugins)collect metrics from the system, services, or 3rd party APIs
+1. [Input Plugins](https://github.com/influxdata/telegraf#input-plugins)collect metrics from the system, services, or 3rd party APIs
 
-2.  [Processor Plugins](https://github.com/influxdata/telegraf#processor-plugins)transform, decorate, and/or filter metrics
+2. [Processor Plugins](https://github.com/influxdata/telegraf#processor-plugins)transform, decorate, and/or filter metrics
 
-3.  [Aggregator Plugins](https://github.com/influxdata/telegraf#aggregator-plugins)create aggregate metrics (e.g. mean, min, max, quantiles, etc.)
+3. [Aggregator Plugins](https://github.com/influxdata/telegraf#aggregator-plugins)create aggregate metrics (e.g. mean, min, max, quantiles, etc.)
 
-4.  [Output Plugins](https://github.com/influxdata/telegraf#output-plugins)write metrics to various destinations
+4. [Output Plugins](https://github.com/influxdata/telegraf#output-plugins)write metrics to various destinations
 
 ## Architecture
 
@@ -27,21 +27,20 @@ Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 ## Input Data Formats
 
 Telegraf contains many general purpose plugins that support parsing input data using a configurable parser into[metrics](https://github.com/influxdata/telegraf/blob/master/docs/METRICS.md). This allows, for example, thekafka_consumerinput plugin to process messages in either InfluxDB Line Protocol or in JSON format.
--   [InfluxDB Line Protocol](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/influx)
--   [Collectd](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/collectd)
--   [CSV](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/csv)
--   [Dropwizard](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/dropwizard)
--   [Graphite](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/graphite)
--   [Grok](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/grok)
--   [JSON](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/json)
--   [Logfmt](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/logfmt)
--   [Nagios](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/nagios)
--   [Value](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/value), ie: 45 or "booyah"
--   [Wavefront](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/wavefront)
+
+- [InfluxDB Line Protocol](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/influx)
+- [Collectd](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/collectd)
+- [CSV](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/csv)
+- [Dropwizard](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/dropwizard)
+- [Graphite](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/graphite)
+- [Grok](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/grok)
+- [JSON](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/json)
+- [Logfmt](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/logfmt)
+- [Nagios](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/nagios)
+- [Value](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/value), ie: 45 or "booyah"
+- [Wavefront](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/wavefront)
 
 <https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md>
-
-
 
 # Plugins
 
@@ -53,15 +52,15 @@ Plugins that are used to access data and populate the data
 
 Input plugins are used to get data from various sources to telegraf database
 
-1.  inputs.tail
+1. inputs.tail
 
-2.  inputs.file
+2. inputs.file
 
-3.  inputs.filecount
+3. inputs.filecount
 
-4.  inputs.filestat
+4. inputs.filestat
 
-5.  inputs.logparser
+5. inputs.logparser
 
 ## Grok Parser
 
@@ -147,25 +146,27 @@ Processor plugins transform, decorate, and/or filter metrics collected by input 
 
 Service input plugins are input plugins that run in a passive collection mode while the Telegraf agent is running. They listen on a socket for known protocol inputs, or apply their own logic to ingested metrics before delivering them to the Telegraf agent.
 
-<https://docs.influxdata.com/telegraf/v1.10/concepts/glossary
+<https://docs.influxdata.com/telegraf/v1.10/concepts/glossary>
 
 ## Metric Filtering
 
 ## Selectors
 
 Selector filters include or exclude entire metrics. When a metric is excluded from a Input or an Output plugin, the metric is dropped. If a metric is excluded from a Processor or Aggregator plugin, it is skips the plugin and is sent onwards to the next stage of processing.
--   namepass: An array of glob pattern strings. Only metrics whose measurement name matches a pattern in this list are emitted.
--   namedrop: The inverse ofnamepass. If a match is found the metric is discarded. This is tested on metrics after they have passed thenamepasstest.
--   tagpass: A table mapping tag keys to arrays of glob pattern strings. Only metrics that contain a tag key in the table and a tag value matching one of its patterns is emitted.
--   tagdrop: The inverse oftagpass. If a match is found the metric is discarded. This is tested on metrics after they have passed thetagpasstest.
+
+- namepass: An array of glob pattern strings. Only metrics whose measurement name matches a pattern in this list are emitted.
+- namedrop: The inverse ofnamepass. If a match is found the metric is discarded. This is tested on metrics after they have passed thenamepasstest.
+- tagpass: A table mapping tag keys to arrays of glob pattern strings. Only metrics that contain a tag key in the table and a tag value matching one of its patterns is emitted.
+- tagdrop: The inverse oftagpass. If a match is found the metric is discarded. This is tested on metrics after they have passed thetagpasstest.
 
 ## Modifiers
 
 Modifier filters remove tags and fields from a metric. If all fields are removed the metric is removed.
--   fieldpass: An array of glob pattern strings. Only fields whose field key matches a pattern in this list are emitted.
--   fielddrop: The inverse offieldpass. Fields with a field key matching one of the patterns will be discarded from the metric. This is tested on metrics after they have passed thefieldpasstest.
--   taginclude: An array of glob pattern strings. Only tags with a tag key matching one of the patterns are emitted. In contrast totagpass, which will pass an entire metric based on its tag,tagincluderemoves all non matching tags from the metric. Any tag can be filtered including global tags and the agenthosttag.
--   tagexclude: The inverse oftaginclude. Tags with a tag key matching one of the patterns will be discarded from the metric. Any tag can be filtered including global tags and the agenthosttag.
+
+- fieldpass: An array of glob pattern strings. Only fields whose field key matches a pattern in this list are emitted.
+- fielddrop: The inverse offieldpass. Fields with a field key matching one of the patterns will be discarded from the metric. This is tested on metrics after they have passed thefieldpasstest.
+- taginclude: An array of glob pattern strings. Only tags with a tag key matching one of the patterns are emitted. In contrast totagpass, which will pass an entire metric based on its tag,tagincluderemoves all non matching tags from the metric. Any tag can be filtered including global tags and the agenthosttag.
+- tagexclude: The inverse oftaginclude. Tags with a tag key matching one of the patterns will be discarded from the metric. Any tag can be filtered including global tags and the agenthosttag.
 
 Metrics can be routed to different outputs using the metric name and tags
 

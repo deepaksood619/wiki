@@ -9,16 +9,18 @@ Modified: 2021-06-19 15:09:35 +0500
 # Architecture of Distributed Training
 
 There are three basic strategies to train a model with multiple nodes:
--   Data-parallel training with synchronous updates.
--   Data-parallel training with asynchronous updates.
--   Model-parallel training.
+
+- Data-parallel training with synchronous updates.
+- Data-parallel training with asynchronous updates.
+- Model-parallel training.
 
 # Data-parallel training with asynchronous updates (Using Google Cloud ML)
 
 A training job is executed using the following types of nodes:
--   Parameter server node. Update parameters with gradient vectors from worker and chief work nodes.
--   Worker node. Calculate a gradient vector from the training dataset.
--   Chief worker node. Coordinate the operations of multiple workers, in addition to working as one of the worker nodes.
+
+- Parameter server node. Update parameters with gradient vectors from worker and chief work nodes.
+- Worker node. Calculate a gradient vector from the training dataset.
+- Chief worker node. Coordinate the operations of multiple workers, in addition to working as one of the worker nodes.
 
 Because you can use the data-parallel strategy regardless of the model structure, it is a good starting point for applying the distributed training method to your custom model. In data-parallel training, the whole model is shared with all worker nodes. Each node calculates gradient vectors independently from some part of the training dataset in the same manner as the mini-batch processing. The calculated gradient vectors are collected into the parameter server node, and model parameters are updated with the total summation of the gradient vectors. If you distribute 10,000 batches among 10 worker nodes, each node works on roughly 1,000 batches.
 

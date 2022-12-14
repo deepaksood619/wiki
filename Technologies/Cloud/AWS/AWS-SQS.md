@@ -12,17 +12,17 @@ Amazon Simple Queue Service (SQS) is a fully managed message queuing service tha
 
 SQS offers two types of message queues. **Standard queues** offer maximum throughput, best-effort ordering, and at-least-once delivery. **SQS FIFO queues** are designed to guarantee that messages are processed exactly once, in the exact order that they are seen
 
-
--   Dead letter queue support
--   Visibility timeout
--   Long pooling
+- Dead letter queue support
+- Visibility timeout
+- Long pooling
 
 ## Advantages
--   **Durability--** To ensure the safety of your messages, Amazon SQS stores them on multiple servers. Standard queues support[at-least-once message delivery](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html#standard-queues-at-least-once-delivery), and FIFO queues support[exactly-once message processing](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html#FIFO-queues-exactly-once-processing).
--   **Availability--** Amazon SQS uses[redundant infrastructure](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)to provide highly-concurrent access to messages and high availability for producing and consuming messages.
--   **Scalability--** Amazon SQS can process each[buffered request](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-client-side-buffering-request-batching.html)independently, scaling transparently to handle any load increases or spikes without any provisioning instructions.
--   **Reliability--** Amazon SQS locks your messages during processing, so that multiple producers can send and multiple consumers can receive messages at the same time.
--   **Customization--** Your queues don't have to be exactly alike---for example, you can[set a default delay on a queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-delay-queues.html). You can store the contents of messages larger than 256 KB[using Amazon Simple Storage Service (Amazon S3)](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-s3-messages.html)or Amazon DynamoDB, with Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message into smaller messages.
+
+- **Durability--** To ensure the safety of your messages, Amazon SQS stores them on multiple servers. Standard queues support[at-least-once message delivery](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html#standard-queues-at-least-once-delivery), and FIFO queues support[exactly-once message processing](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html#FIFO-queues-exactly-once-processing).
+- **Availability--** Amazon SQS uses[redundant infrastructure](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)to provide highly-concurrent access to messages and high availability for producing and consuming messages.
+- **Scalability--** Amazon SQS can process each[buffered request](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-client-side-buffering-request-batching.html)independently, scaling transparently to handle any load increases or spikes without any provisioning instructions.
+- **Reliability--** Amazon SQS locks your messages during processing, so that multiple producers can send and multiple consumers can receive messages at the same time.
+- **Customization--** Your queues don't have to be exactly alike---for example, you can[set a default delay on a queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-delay-queues.html). You can store the contents of messages larger than 256 KB[using Amazon Simple Storage Service (Amazon S3)](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-s3-messages.html)or Amazon DynamoDB, with Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message into smaller messages.
 
 Max Payload Size - 256 KB
 
@@ -48,7 +48,7 @@ All customers can make 1 million Amazon SQS requests for free each month.
 | Size of Payloads           | Each 64 KB chunk of a payload is billed as 1 request (for example, an API action with a 256 KB payload is billed as 4 requests).                                                                                                                                                    |
 | Interaction with Amazon S3 | When using the[Amazon SQS Extended Client Library](https://github.com/awslabs/amazon-sqs-java-extended-client-lib)to send payloads using Amazon S3, you incur[Amazon S3 charges](https://aws.amazon.com/s3/pricing/)for any Amazon S3 storage you use to send message payloads. |
 
-<https://aws.amazon.com/sqs
+<https://aws.amazon.com/sqs>
 
 ## FAQs
 
@@ -117,9 +117,10 @@ To delete only specific messages, use the DeleteMessage or DeleteMessageBatch ac
 ## Which AWS CloudWatch metrics do Amazon SQS FIFO queues support?
 
 FIFO queues support all metrics that standard queues support. For FIFO queues, all approximate metrics return accurate counts. For example, the following AWS CloudWatch metrics are supported:
--   ApproximateNumberOfMessagesDelayed - The number of messages in the queue that are delayed and not available for reading immediately.
--   ApproximateNumberOfMessagesVisible - The number of messages available for retrieval from the queue.
--   ApproximateNumberOfMessagesNotVisible - The number of messages that are in flight (sent to a client but have not yet been deleted or have not yet reached the end of their visibility window).
+
+- ApproximateNumberOfMessagesDelayed - The number of messages in the queue that are delayed and not available for reading immediately.
+- ApproximateNumberOfMessagesVisible - The number of messages available for retrieval from the queue.
+- ApproximateNumberOfMessagesNotVisible - The number of messages that are in flight (sent to a client but have not yet been deleted or have not yet reached the end of their visibility window).
 
 ## What are message groups?
 
@@ -163,7 +164,7 @@ Longer message retention provides greater flexibility to allow for longer interv
 
 You can configure the Amazon SQS message retention period to a value from 1 minute to 14 days. The default is 4 days. Once the message retention quota is reached, your messages are automatically deleted.
 
-<https://aws.amazon.com/sqs/faqs
+<https://aws.amazon.com/sqs/faqs>
 
 ## Boto3
 
@@ -171,31 +172,30 @@ You can configure the Amazon SQS message retention period to a value from 1 minu
 
 client **=** boto3**.**client('sqs')
 
-
--   [**add_permission()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.add_permission)
--   [**can_paginate()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.can_paginate)
--   [**change_message_visibility()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.change_message_visibility)
--   [**change_message_visibility_batch()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.change_message_visibility_batch)
--   [**create_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.create_queue)
--   [**delete_message()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.delete_message)
--   [**delete_message_batch()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.delete_message_batch)
--   [**delete_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.delete_queue)
--   [**generate_presigned_url()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.generate_presigned_url)
--   [**get_paginator()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_paginator)
--   [**get_queue_attributes()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_queue_attributes)
--   [**get_queue_url()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_queue_url)
--   [**get_waiter()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_waiter)
--   [**list_dead_letter_source_queues()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_dead_letter_source_queues)
--   [**list_queue_tags()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_queue_tags)
--   [**list_queues()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_queues)
--   [**purge_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.purge_queue)
--   [**receive_message()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.receive_message)
--   [**remove_permission()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.remove_permission)
--   [**send_message()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.send_message)
--   [**send_message_batch()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.send_message_batch)
--   [**set_queue_attributes()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.set_queue_attributes)
--   [**tag_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.tag_queue)
--   [**untag_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.untag_queue)
+- [**add_permission()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.add_permission)
+- [**can_paginate()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.can_paginate)
+- [**change_message_visibility()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.change_message_visibility)
+- [**change_message_visibility_batch()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.change_message_visibility_batch)
+- [**create_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.create_queue)
+- [**delete_message()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.delete_message)
+- [**delete_message_batch()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.delete_message_batch)
+- [**delete_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.delete_queue)
+- [**generate_presigned_url()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.generate_presigned_url)
+- [**get_paginator()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_paginator)
+- [**get_queue_attributes()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_queue_attributes)
+- [**get_queue_url()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_queue_url)
+- [**get_waiter()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.get_waiter)
+- [**list_dead_letter_source_queues()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_dead_letter_source_queues)
+- [**list_queue_tags()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_queue_tags)
+- [**list_queues()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_queues)
+- [**purge_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.purge_queue)
+- [**receive_message()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.receive_message)
+- [**remove_permission()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.remove_permission)
+- [**send_message()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.send_message)
+- [**send_message_batch()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.send_message_batch)
+- [**set_queue_attributes()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.set_queue_attributes)
+- [**tag_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.tag_queue)
+- [**untag_queue()**](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.untag_queue)
 
 ## sqs_consumer.py
 

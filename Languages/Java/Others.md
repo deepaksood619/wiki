@@ -10,11 +10,11 @@ Jshell for java REPL (Read-Eval-Print Loop, interactive toplevel or language she
 
 ## Generics
 
-1.  Avoid casting in client.
+1. Avoid casting in client.
 
-2.  Discover type mismatch errors at compile-time instead of run-time.
+2. Discover type mismatch errors at compile-time instead of run-time.
 
-3.  AutoBoxing
+3. AutoBoxing
 
 Stack<Integer> stack = new Stack<Integer>();
 
@@ -39,10 +39,11 @@ Class that has methods hasNext() and next() (also remove(), but not used)
 Supports multiple orderings of a given data type.
 
 Decouples the definition of the data type from the definition of what it means to compare two objects of that type.
--   To Use Java system sort:
-    -   Create Comparator object
-    -   Pass as second argument to Arrays.sort()
-    -   Bottom line - Decouples the definition of the data type from the definition of what it means to compare two objects of that type.
+
+- To Use Java system sort:
+  - Create Comparator object
+  - Pass as second argument to Arrays.sort()
+  - Bottom line - Decouples the definition of the data type from the definition of what it means to compare two objects of that type.
 
 ## String vs StringBuilder
 

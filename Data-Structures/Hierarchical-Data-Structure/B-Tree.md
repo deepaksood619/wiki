@@ -7,8 +7,9 @@ Modified: 2020-10-13 23:49:41 +0500
 ---
 
 ## Points
--   A generalization of 2-3 tees
--   n-generalization of a binary search tree
+
+- A generalization of 2-3 tees
+- n-generalization of a binary search tree
 In computer science, aB-treeis a tree data structure that keeps data sorted and allows searches, sequential access, insertions, and deletions in logarithmic amortized time. The B-tree is a n-generalization of a binary search tree in that more than two paths diverge from a single node. Unlike self-balancing binary search trees, the B-tree is optimized for systems that read and write large blocks of data. It is commonly used in databases and filesystems.
 B-Trees are a popular index data structure, coming in many variations and used in many databases, including[MySQL InnoDB](https://dev.mysql.com/doc/refman/5.7/en/innodb-physical-structure.html)and[PostgreSQL](https://www.postgresql.org/docs/9.2/static/indexes-types.html). B-Trees areself-balancing, so there's no rotation step required during insertion and deletion, only merges and splits. The reason to use them for indexes, where lookup time is important, is their logarithmic lookup time guarantee.
 B-Tree is a self-balancing search tree. In most of the other self-balancing search trees (like[AVL](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)and Red Black Trees), it is assumed that everything is in main memory. To understand use of B-Trees, we must think of huge amount of data that cannot fit in main memory.When the number of keys is high, the data is read from disk in the form of blocks. Disk access time is very high compared to main memory access time. The main idea of using B-Trees is to reduce the number of disk accesses. Most of the tree operations (search, insert, delete, max, min, ..etc ) require O(h) disk accesses where h is height of the tree. B-tree is a fat tree. Height of B-Trees is kept low by putting maximum possible keys in a B-Tree node. Generally, a B-Tree node size is kept equal to the disk block size. Since h is low for B-Tree, total disk accesses for most of the operations are reduced significantly compared to balanced Binary Search Trees like AVL Tree, Red Black Tree, ..etc.
@@ -17,23 +18,29 @@ Page - Contiguous block of data
 Probe - First access to a page
 
 B-tree - Generalize 2-3 trees by allowing up to M - 1 key-link pairs per node
--   At least 2 key-link pairs at root
--   At least M/2 key-link pairs in other nodes
--   External nodes contain client keys
--   Internal nodes contain copies of keys to guide search
+
+- At least 2 key-link pairs at root
+- At least M/2 key-link pairs in other nodes
+- External nodes contain client keys
+- Internal nodes contain copies of keys to guide search
 ![image](media/B-Tree-image1.png)
 ![Image for post](media/B-Tree-image2.png)
 Complexity - A search or an insertion in a B-tree of order M with N keys requires between log ~M-1~ N and log ~M/2~ N probes.
 Optimization -
 
-1.  Always keep root page in memory.
+1. Always keep root page in memory.
+
 ## B-trees (and variants) are widely used for file systems and databases
--   Windows: NTFS
--   Mac: HFS, HFS+
--   Linux: ReiserFS, XFS, Ext3FS, JFS
--   Databases: ORACLE, DB2, INGRES, SQL, PostgreSQL
+
+- Windows: NTFS
+- Mac: HFS, HFS+
+- Linux: ReiserFS, XFS, Ext3FS, JFS
+- Databases: ORACLE, DB2, INGRES, SQL, PostgreSQL
+
 ## Applications
--   Implement File Systems
+
+- Implement File Systems
+
 ## Anatomy
 
 B-Tree have several node types:Root,InternalandLeafnodes.Rootis the node that has no "parents" (e.g. is not a child for any other node).Leafnodes are the ones that have no child nodes and carry the data.Internalnodes are ones that have both a parent and children, they're connecting a root node with leaf nodes. Some B-Tree variants allow storing data on internal nodes. B-Trees are characterised by theirbranching factor: the amount (N) of pointers to the child nodes. Root and Internal nodes hold up to N-1 keys.
@@ -43,6 +50,7 @@ B-Tree have several node types:Root,InternalandLeafnodes.Rootis the node that ha
 B-Tree consists of Root Node (top), Internal Nodes (middle) and Leaf Nodes (bottom). Leaf nodes usually hold the values and internal nodes are connecting Root to Leaves. This depicts a B-Tree with a branching factor of 4 (4 pointers, 3 keys in Internal nodes and 4 key/value pairs stores onleaves).
 Every non-leaf node in the tree holdsNkeys (index entries), separating the tree into the subtrees andN+1pointers to the children. Pointerifrom an entryKipoints to a subtree in which all the index entries are such thatKi <= K < K+1(whereKis a set of keys). First and the last pointers are the special cases, pointing to subtrees in which all the entries are less than (or equal), and greater thanK, correspondingly. Logically, internal nodes hold keys, representing aminimumkey of the child node they point to. Both Internal and leaf nodes also hold a pointer to the next and previous nodes on the same level, forming a doubly-linked list of sibling nodes.
 It's usually good to keep the size of B-Tree node to one or two page sizes (4--8K). Considering this and knowing your key size, you can approximate the branching factor and tree height (number of levels). Height should not be too large, as skipping an entire level requires a random seek and performing too many seeks might cause performance degradation. Branching factor is typically in hundreds; it can, however, be lower when keys are large. Setting branching factor too high might also cause performance problems. A good rule of thumb for B-Tree tuning and picking the branching factor is that the the leaf nodes should occupy the vast majority of tree space.
+
 ## Lookups
 
 Root and Internal nodes of the B-Trees can often be cached in RAM to facilitate faster lookups. Since on every level, the amount of child nodes grows by branching factor, the amount of space taken by the leaf nodes will be much larger. Searching the leaf node will be done in memory and search and retrieval of the final value from the leaf node will be served from the disk.
@@ -63,6 +71,7 @@ With a variable-lengths data, an indirection vector can be prepended to data, ho
 
 In order to allow binary searches and logarithmic time accesses on variable-size data, an indirection vector is used: an indirection vector holds offsets to the actual data. Binary search starts in the middle of the indirection vector, the key at the offset in the middle is compared to the searched term, binary search continues in the direction shown by comparison.
 In case with point queries, the search is complete after locating a node. When the range scan is performed, keys and values in the current node and then sibling leaf nodes' keys and values are traversed, until the end of the range is reached.
+
 ## Modifications
 
 When performing insertions, first the target leaf has to be located. For that, the aforementioned search algorithm is used. After the target leaf is located, a key and value are appended to it. If the leaf does not have enough free space, the situation is calledoverflow, and the leaf has to be split in two leaves. This is done by allocating a new leaf, moving half the elements to it and appending a pointer to the newly allocated leaf to the parent. If parent doesn't have enough space either, another split is performed. The operation continues until the root is reached. Usually, when the root is split, it's contents are split between the newly allocated nodes and the root node itself is overwritten in order to avoid relocation. This also implies that the tree height is always growing "from" the root, by splitting it.
@@ -75,15 +84,19 @@ We won't go into deep semantics of B-Tree splits and merges (at what thresholds 
 While splits and merges are done, a portion of the tree has to be locked: updating all the nodes which will be split during a single operation should look atomic for the readers and writers. There was some research in the field of concurrency control in B-Trees, one of such endeavors is Blink-Trees, promising less locking, an algorithm better suited for high concurrency.
 Fanout of tree has direct influence on how much IO operations will be done: smaller nodes may not only cause the tree to have higher depth, but also trigger splits more often.
 Heap files are lists of unordered records of variable size. Since they're often used for mutable storage, file is split into page-sized blocks (4KB or it's multiple). Blocks are numbered sequentially and are referenced from index files.
+
 ## B-Tree variants
 
 One of the ways people use B-Trees is ISAM (Indexed Sequential Access Method), a method for creating, maintaining and manipulating trees that allows amortising some of the costs of B-Trees. The ISAM structure is completely static and pre-allocated. Just like with the B+Trees, the data resides only on the leaf pages, which helps to keep the non-leaf nodes static. One of the features of ISAM is the presence overflow pages: the writes will first go into the leaf nodes. When there's not enough space in the leaf nodes, the data will go into the overflow areas, so during search leaf pages are traversed first and overflow pages afterwards. The idea behind it is that there will be be just a few overflow pages and it won't impact the performance.
 Another example is B+Trees. There are many ways to implement them, but many modern implementations feature a mutable dynamic B+Tree. They're special in the way that the data is stored only on leaves. This may simplify the updates to the tree structure, since the keys are smaller in size and can fit into internal node pages nicely. The leaf pages can grow and even get relocated when necessarily, which will only require an update of a single pointer on an internal node.
 There many other examples, each one covering a special special case: Cache-Oblivious B-Trees optimizing the memory management, already mentioned Blink-Trees improving the concurrency, Partitioned B-Trees that improve the write performance and many more.
+
 ## B-tree variants - B+ tree, B* tree, B# tree
+
 ## B+ Tree
 
 B+Trees are different from the original B-Tree paper in that have an additional level of linked Leaf nodes, which are storing the values.
+
 ## B-Tree Maintenance
 
 Many modern databases are using B-Tree indexes: they're fast, efficient and there are many optimizations for them that are widely known and used. Most of the implementations are mutable. This means that the data structure is dynamic and is changing on disk: when new nodes are allocated, internal structure is changing. In order to facilitate this, there has to be a certain amount of overhead maintained for the table, so called occupancy factor, that allows some wiggle room for the new writes.

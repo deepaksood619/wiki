@@ -12,23 +12,23 @@ Modified: 2021-06-19 14:14:03 +0500
 
 We will introduce you to the core components of TensorFlow and you will get hands-on practice building machine learning programs. You will compare and write lazy evaluation and imperative programs, work with graphs, sessions, variables, as finally debug TensorFlow programs.
 
-1.  [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-xFttW)
+1. [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-xFttW)
 
-2.  Video:What is TensorFlow
+2. Video:What is TensorFlow
 
-3.  Video:Benefits of a Directed Graph
+3. Video:Benefits of a Directed Graph
 
-4.  Video:TensorFlow API Hierarchy
+4. Video:TensorFlow API Hierarchy
 
-5.  Video:Lazy Evaluation
+5. Video:Lazy Evaluation
 
-6.  Discussion Prompt:Importance of an API hierarchy
+6. Discussion Prompt:Importance of an API hierarchy
 
-7.  Video:Graph and Session
+7. Video:Graph and Session
 
-8.  Video:Evaluating a Tensor
+8. Video:Evaluating a Tensor
 
-9.  Video:Visualizing a graph
+9. Video:Visualizing a graph
 
 10. Video:Tensors
 
@@ -64,23 +64,23 @@ Graded:Core TensorFlow
 
 ## Estimator API
 
-1.  [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-ghJIP)
+1. [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-ghJIP)
 
-2.  Video:Estimator API
+2. Video:Estimator API
 
-3.  Video:Pre-made Estimators
+3. Video:Pre-made Estimators
 
-4.  Video:Demo: Housing Price Model
+4. Video:Demo: Housing Price Model
 
-5.  Video:Checkpointing
+5. Video:Checkpointing
 
-6.  Video:Training on in-memory datasets
+6. Video:Training on in-memory datasets
 
-7.  Video:Lab Intro: Estimator API
+7. Video:Lab Intro: Estimator API
 
-8.  Video:Lab Solution: Estimator API
+8. Video:Lab Solution: Estimator API
 
-9.  Video:Train on large datasets with Dataset API
+9. Video:Train on large datasets with Dataset API
 
 10. Video:Lab Intro: Scaling up TensorFlow ingest using batching
 
@@ -110,17 +110,17 @@ Graded:Estimator API
 
 ## Scaling TensorFlow models with CMLE (Cloud Machine Learning Engine)
 
-1.  [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-oygc7)
+1. [Video:Introduction](https://www.coursera.org/lecture/intro-tensorflow/introduction-oygc7)
 
-2.  Video:Why Cloud Machine Learning Engine?
+2. Video:Why Cloud Machine Learning Engine?
 
-3.  Video:Train a Model
+3. Video:Train a Model
 
-4.  Video:Monitoring and Deploying Training Jobs
+4. Video:Monitoring and Deploying Training Jobs
 
-5.  Video:Lab Intro: Scaling TensorFlow with Cloud Machine Learning Engine
+5. Video:Lab Intro: Scaling TensorFlow with Cloud Machine Learning Engine
 
-6.  Video:Lab Solution: Scaling TensorFlow with Cloud Machine Learning Engine
+6. Video:Lab Solution: Scaling TensorFlow with Cloud Machine Learning Engine
 
 Graded:Qwiklabs -- Scaling TensorFlow with Cloud Machine Learning Engine
 

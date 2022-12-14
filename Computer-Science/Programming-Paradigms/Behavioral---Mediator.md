@@ -22,20 +22,22 @@ To make code even more flexible, you can select a common interface for all of th
 Let's look at another example:
 
 The pilots of landing aircrafts or the ones that are taking off don't communicate directly with other pilots. Instead, they contact the dispatcher, who coordinates the actions of several aircrafts at the same time. Without a dispatcher, pilots would have to be on a high alert all the time and monitor all the surrounding aircraft on their own, which would lead to frequent disasters in the sky. It's important to understand that the dispatcher is not needed during the entire flight. He's involved only in the area of the airport, when it's necessary to coordinate the interactions of a lot of aircrafts.
-## Situations in which the pattern is worth using:
 
-## 1.When it's difficult for you to change some classes because they have many chaotic connections to other classes.
+## Situations in which the pattern is worth using
+
+## 1.When it's difficult for you to change some classes because they have many chaotic connections to other classes
 
 The mediator allows you to put all these connections in one class, after which it'll be easier for you to correct them (if necessary), make them more understandable and flexible.
 
-## 2.When you can't reuse a class, because it depends on a lot of other classes.
+## 2.When you can't reuse a class, because it depends on a lot of other classes
 
 After applying the pattern, the components lose their previous connections to other components, and all their interactions occur strictly through the mediator object.
 
-## 3.When you have to create multiple subclasses of components to use the same components in different contexts.
+## 3.When you have to create multiple subclasses of components to use the same components in different contexts
 
 If earlier the connection changes in one component could lead to a huge avalanche of changes in all other components, now it's enough for you to create a mediator subclass and change the connections between its components.
-## Pros:
+
+## Pros
 
 - it eliminates the dependencies between the components allowing them to be reused;
 
@@ -43,9 +45,10 @@ If earlier the connection changes in one component could lead to a huge avalanch
 
 - centralizes management in one place.
 
-## Cons:
+## Cons
 
 - the mediator class can "blow itself up" quite a bit, which can complicate the work with it.
+
 ## References
 
 <https://py.checkio.org/blog/design-patterns-part-2>

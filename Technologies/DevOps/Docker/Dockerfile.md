@@ -16,63 +16,63 @@ docker build -t friendlyhello .
 
 ## Best Practices for writing Dockerfiles
 
-1.  Create ephemeral containers
+1. Create ephemeral containers
 
-2.  Understand build context
+2. Understand build context
 
-3.  Pipe Dockerfile through stdin
+3. Pipe Dockerfile through stdin
 
-4.  Exclude with .dockerignore
+4. Exclude with .dockerignore
 
-5.  Use multi-stage builds
+5. Use multi-stage builds
 
-6.  Don't install unnecessary packages
+6. Don't install unnecessary packages
 
-7.  Decouple applications
+7. Decouple applications
 
-8.  Minimize the number of layers
+8. Minimize the number of layers
 
-9.  Sort multi-line arguments
+9. Sort multi-line arguments
 
 10. Leverage build cache
 
 ## Dockerfile instructions
 
-1.  FROM
+1. FROM
 
 FROM python:3.7.2-slim
 
-2.  LABEL
+2. LABEL
 
-3.  RUN
+3. RUN
 
     a.  APT-GET
 
     b.  USING PIPES
 
-4.  CMD
+4. CMD
 
 CMD [ "python", "logger.py" ]
 
-5.  EXPOSE
+5. EXPOSE
 
-6.  ARG
+6. ARG
 
 TheARGinstruction defines a variable that users can pass at build-time to the builder with thedocker buildcommand using the--build-arg <varname>=<value>flag.
 
 ARG ZENALYTIX_DEV prod
 
-7.  ENV
+7. ENV
 
-8.  ADD or COPY
+8. ADD or COPY
 
 ADD logger.py logger.py
 
-## COPYtakes in asrcanddestination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself.
+## COPYtakes in asrcanddestination. It only lets you copy in a local file or directory from your host (the machine building the Docker image) into the Docker image itself
 
 ## ADDlets you do that too, but it also supports 2 other sources. First, you can use a URL instead of a local file / directory. Secondly, you can extract a tar file from the source directly into the destination
 
-9.  ENTRYPOINT
+9. ENTRYPOINT
 
 10. VOLUME
 
@@ -82,25 +82,23 @@ ADD logger.py logger.py
 
 13. ONBUILD
 
+- RUN executes command(s) in a new layer and creates a new image. E.g., it is often used for installing software packages.
+- CMD sets default command and/or parameters, which can be overwritten from command line when docker container runs.
+- ENTRYPOINT configures a container that will run as an executable.
 
--   RUN executes command(s) in a new layer and creates a new image. E.g., it is often used for installing software packages.
--   CMD sets default command and/or parameters, which can be overwritten from command line when docker container runs.
--   ENTRYPOINT configures a container that will run as an executable.
+- Shell & Exec form
 
+<http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint>
 
--   Shell & Exec form
+<https://docs.docker.com/develop/develop-images/dockerfile_best-practices>
 
-<http://goinbigdata.com/docker-run-vs-cmd-vs-entrypoint
-
-<https://docs.docker.com/develop/develop-images/dockerfile_best-practices
-
-<https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices
+<https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices>
 
 ## Advanced
 
-<https://www.docker.com/blog/advanced-dockerfiles-faster-builds-and-smaller-images-using-buildkit-and-multistage-builds
+<https://www.docker.com/blog/advanced-dockerfiles-faster-builds-and-smaller-images-using-buildkit-and-multistage-builds>
 
-<https://sysdig.com/blog/dockerfile-best-practices
+<https://sysdig.com/blog/dockerfile-best-practices>
 
 [Building Small Containers (Kubernetes Best Practices)](https://www.youtube.com/watch?v=wGz_cbtCiEA)
 

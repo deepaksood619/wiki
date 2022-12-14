@@ -9,14 +9,16 @@ Modified: 2020-07-21 21:10:28 +0500
 Django uses Python's builtin logging module to perform system logging.
 
 A Python logging configuration consists of four parts:
--   Loggers
+
+- Loggers
 
 A logger is the entry point into the logging system. Each logger is a named bucket to which messages can be written for processing.
--   DEBUG: Low level system information for debugging purposes
--   INFO: General system information
--   WARNING: Information describing a minor problem that has occurred.
--   ERROR: Information describing a major problem that has occurred.
--   CRITICAL: Information describing a critical problem that has occurred.
+
+- DEBUG: Low level system information for debugging purposes
+- INFO: General system information
+- WARNING: Information describing a minor problem that has occurred.
+- ERROR: Information describing a major problem that has occurred.
+- CRITICAL: Information describing a critical problem that has occurred.
 
 Each message that is written to the logger is aLog Record. Each log record also has alog levelindicating the severity of that specific message. A log record can also contain useful metadata that describes the event that is being logged. This can include details such as a stack trace or an error code.
 
@@ -24,14 +26,15 @@ When a message is given to the logger, the log level of the message is compared 
 
 Once a logger has determined that a message needs to be processed, it is passed to aHandler.
 
-
--   Handlers
+- Handlers
 
 The handler is the engine that determines what happens to each message in a logger. It describes a particular logging behavior, such as writing a message to the screen, to a file, or to a network socket.
--   Filters
+
+- Filters
 
 A filter is used to provide additional control over which log records are passed from logger to handler.
--   Formatters
+
+- Formatters
 
 Ultimately, a log record needs to be rendered as text. Formatters describe the exact format of that text.
 
@@ -141,6 +144,6 @@ l.addHandler(logging.StreamHandler())
 
 ## References
 
-<https://docs.djangoproject.com/en/2.0/topics/logging
+<https://docs.djangoproject.com/en/2.0/topics/logging>
 
-<https://djangodeconstructed.com/2018/12/18/django-and-python-logging-in-plain-english
+<https://djangodeconstructed.com/2018/12/18/django-and-python-logging-in-plain-english>

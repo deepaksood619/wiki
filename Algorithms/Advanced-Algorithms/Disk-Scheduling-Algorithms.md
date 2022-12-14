@@ -5,7 +5,8 @@ Created: 2019-12-05 17:19:46 +0500
 Modified: 2019-12-05 17:29:54 +0500
 
 ---
--   **Elevator algorithm / SCAN**
+
+- **Elevator algorithm / SCAN**
 
 The**elevator algorithm**(also**SCAN**) is a[disk](https://en.wikipedia.org/wiki/Hard_disk)-[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm to determine the motion of the disk's arm and head in servicing read and write requests.
 
@@ -20,16 +21,16 @@ When a new request arrives while the drive is idle, the initial arm/head movemen
 One variation of this method ensures all requests are serviced in only one direction, that is, once the head has arrived at the outer edge of the disk, it returns to the beginning and services the new requests in this one direction only (or vice versa). This is known as the "Circular Elevator Algorithm" or C-SCAN. Although the time of the return seek is wasted, this results in more equal performance for all head positions, as the expected distance from the head is always half the maximum distance, unlike in the standard elevator algorithm where cylinders in the middle will be serviced as much as twice as often as the innermost or outermost cylinders.
 
 Other variations include:
--   [FSCAN](https://en.wikipedia.org/wiki/FSCAN)
--   [LOOK](https://en.wikipedia.org/wiki/LOOK_algorithm)(andC-LOOK)
--   [N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN)
+
+- [FSCAN](https://en.wikipedia.org/wiki/FSCAN)
+- [LOOK](https://en.wikipedia.org/wiki/LOOK_algorithm)(andC-LOOK)
+- [N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN)
 
 <https://en.wikipedia.org/wiki/Elevator_algorithm>
 
+- **FSCAN**
 
--   **FSCAN**
-
-## FScanis a disk[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm to determine the motion of the disk's arm and head in servicing read and write requests. It uses two sub-queues. During the scan, all of the requests are in the first queue and all new requests are put into the second[queue](https://en.wikipedia.org/wiki/Queue_(data_structure)). Thus, service of new requests is deferred until all of the old requests have been processed. When the scan ends, the arm is taken to the first queue entries and is started all over again.
+## FScanis a disk[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm to determine the motion of the disk's arm and head in servicing read and write requests. It uses two sub-queues. During the scan, all of the requests are in the first queue and all new requests are put into the second[queue](https://en.wikipedia.org/wiki/Queue_(data_structure)). Thus, service of new requests is deferred until all of the old requests have been processed. When the scan ends, the arm is taken to the first queue entries and is started all over again
 
 ## Analysis
 
@@ -37,8 +38,7 @@ FSCAN along with[N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN)prevents
 
 <https://en.wikipedia.org/wiki/FSCAN>
 
-
--   **LOOK**
+- **LOOK**
 
 LOOKis a disk[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm used to determine the order in which new disk read and write requests are processed.
 
@@ -47,15 +47,18 @@ TheLOOKalgorithm is the same as theSCANalgorithm in that it also honors requests
 LOOK behaves almost identically to[Shortest seek time first](https://en.wikipedia.org/wiki/Shortest_seek_time_first)(SSTF), but avoids the starvation problem of SSTF. This is because LOOK is biased against the area recently traversed, and heavily favors tracks clustered at the outermost and innermost edges of the platter. LOOK is also biased towards more recently arriving jobs (on average).
 
 ## Variants
--   **C-LOOK(Circular LOOK)**
+
+- **C-LOOK(Circular LOOK)**
 
 One variant of LOOK is C-LOOK. It is an effort to remove the bias in LOOK for track clusters at the edges of the platter. C-LOOK basically only scans in one direction. Either you sweep from the inside out, or the outside in. When you reach the end, you just swing the head all the way back to the beginning. This actually takes advantage of the fact that many drives can move the read/write head at high speeds if it's moving across a large number of tracks (e.g. the seek time from the last track to track 0 is smaller than one would expect and usually considerably less than the time it would take to seek there one track at a time).The huge jump from one end request to the other is not considered as a head movement as the cylinders are treated as a circular list.
--   **N-LOOKandF-LOOK**
+
+- **N-LOOKandF-LOOK**
 
 N and F LOOK were designed to offset LOOK's bias towards recent jobs. Both algorithms partition the request queue into smaller sub queues and process the sub queues in order (oldest first). N-LOOK is so-called because the request queue is divided intoNsub queues. F-LOOK is a simplification where there are only 2 queues, but they are used in a double-buffered fashion. While F-LOOK is processing one queue, all new requests go into the other one. To explain these algorithms we're going to use the example of a disk with 200 tracks, and the read/write head starts at track 100. The request queue, in order, contains requests for tracks: 55, 58, 18, 90, 160, 38, we assume that the request queue is split into two, with the oldest one containing the requests for tracks: 55, 58, 18, 90. In this instance, N-LOOK and F-LOOK behave the same. Also notice, that in this configuration, it doesn't matter which direction the head was moving in, all requested tracks are less than 100 so it will only move in the direction of decreasing tracks.
 
 Even through the average number of tracks traversed is the same as LOOK in the worst case, N and F LOOK are in some sense, more fair than plain old LOOK. The sub queue system caps the maximum latency a process can expect between a request and it being serviced (unlike SSTF that can starve processes for arbitrary lengths of time).
--   **S-LOOK**
+
+- **S-LOOK**
 
 The Shortest LOOK (S-LOOK) algorithm is an extension of the LOOK algorithm to handle the cases where the disk head is located between the far-end requests. The algorithm is designed to make a decision of which direction should be served first instead of only continuing to seek in the same direction before the new requests have arrived. Since the seek time is directly proportional to the seek distance, our goal is to minimize the seek distance, and hence, reduce the seek time.
 
@@ -65,7 +68,6 @@ LOOK has slightly better average seek times than SCAN. C-LOOK has a slightly low
 
 <https://en.wikipedia.org/wiki/LOOK_algorithm>
 
-
--   **Shortest seek first**
+- **Shortest seek first**
 
 Disk scheduling algorithm to reduce seek time

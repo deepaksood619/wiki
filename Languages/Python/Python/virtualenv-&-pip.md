@@ -8,7 +8,7 @@ Modified: 2022-09-10 11:53:17 +0500
 
 ## VirtualEnv
 
-## virtualenv is a tool to create isolated Python environments. We can create a new Python environment to run a Python/Django/whatever app and install all package dependencies into the virtualenv without affecting your system's site-packages.
+## virtualenv is a tool to create isolated Python environments. We can create a new Python environment to run a Python/Django/whatever app and install all package dependencies into the virtualenv without affecting your system's site-packages
 
 ## Pip install
 
@@ -48,15 +48,15 @@ deactivate
 
 ## Managing packages with pip
 
-We can install, upgrade, and remove packages using a program calledpip. By defaultpipwill install packages from the Python Package Index, <<https://pypi.python.org/pypi>>
+We can install, upgrade, and remove packages using a program calledpip. By defaultpipwill install packages from the Python Package Index, <https://pypi.python.org/pypi>>
 
 [**https://prepml.com/blog/making-python-package-scratch/**](https://prepml.com/blog/making-python-package-scratch/)
 
 ## pip subcommands
 
-1.  **search**
+1. **search**
 
-2.  **install**
+2. **install**
 
 (tutorial-env) $ pip install novas
 
@@ -64,11 +64,11 @@ We can install, upgrade, and remove packages using a program calledpip. By defau
 
 (tutorial-env) $ pip install --upgrade requests
 
-3.  **uninstall**
+3. **uninstall**
 
 (tutorial-env) $ pip uninstall requests
 
-4.  **freeze**
+4. **freeze**
 
 pipfreezewill produce a similar list of the installed packages, but the output uses the format thatpipinstallexpects. A common convention is to put this list in arequirements.txtfile:
 
@@ -78,13 +78,13 @@ novas==3.1.1.3
 numpy==1.9.2
 requests==2.7.0
 
-5.  **show**
+5. **show**
 
 pipshowwill display information about a particular package
 
 (tutorial-env) $ pip show requests
 
-6.  **list**
+6. **list**
 
 piplistwill display all of the packages installed in the virtual environment
 
@@ -96,21 +96,19 @@ pip list --outdated #show all outdated pip packages in requirements.txt
 
 ## pur -r requirements.txt
 
-<https://pypi.org/project/pipreqs
+<https://pypi.org/project/pipreqs>
 
 Generate pip requirements.txt file based on imports of any project
 
 <https://caniusepython3.com>
 
-7.  **updating**
+7. **updating**
 
 pip3.6 install -U jupyter
 
 ## Install all dependencies using requirements.txt file
 
 (tutorial-env) $ pip install -r requirements.txt
-
-
 
 ## Python Virtual Environments
 
@@ -144,7 +142,7 @@ It works by installing a bunch of files in a directory (eg:env/), and then modif
 
 ## pyenv
 
-## pyvenvis a script shipped with Python 3 but[deprecated in Python 3.6](https://docs.python.org/dev/whatsnew/3.6.html#id8)as it had problems (not to mention the confusing name). In Python 3.6+, the exact equivalent ispython3 -m venv.
+## pyvenvis a script shipped with Python 3 but[deprecated in Python 3.6](https://docs.python.org/dev/whatsnew/3.6.html#id8)as it had problems (not to mention the confusing name). In Python 3.6+, the exact equivalent ispython3 -m venv
 
 ## venv
 

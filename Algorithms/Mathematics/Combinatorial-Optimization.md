@@ -25,20 +25,21 @@ While the earliest optimization problems were solved by teams of mathematicians 
 Asolveris a piece of[mathematical software](https://en.wikipedia.org/wiki/Mathematical_software), possibly in the form of a stand-alone[computer program](https://en.wikipedia.org/wiki/Computer_program)or as a[software library](https://en.wikipedia.org/wiki/Library_(computing)), that 'solves' a mathematical problem. A solver takes problem descriptions in some sort of generic form and calculates their solution. In a solver, the emphasis is on creating a program or library that can easily be applied to other problems of similar type.
 
 Types of problems with existing dedicated solvers include:
--   [Linear](https://en.wikipedia.org/wiki/Linear_equation)and[non-linear equations](https://en.wikipedia.org/wiki/Non-linear_equation). In the case of a single equation, the "solver" is more appropriately called a[root-finding algorithm](https://en.wikipedia.org/wiki/Root-finding_algorithm).
--   [Systems of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations).
--   [Nonlinear systems](https://en.wikipedia.org/wiki/Nonlinear_system).
--   [Systems of polynomial equations](https://en.wikipedia.org/wiki/Systems_of_polynomial_equations), which are a special case of non linear systems, better solved by specific solvers.
--   Linear and non-linear[optimisation](https://en.wikipedia.org/wiki/Optimization_(mathematics))problems
--   Systems of[ordinary differential equations](https://en.wikipedia.org/wiki/Ordinary_differential_equation)
--   Systems of[differential algebraic equations](https://en.wikipedia.org/wiki/Differential_algebraic_equation)
--   [Boolean satisfiability problems](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem), including[SAT solvers](https://en.wikipedia.org/wiki/SAT_solver)
--   [Quantified boolean formula](https://en.wikipedia.org/wiki/Quantified_boolean_formula)solvers
--   [Constraint satisfaction problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
--   [Shortest path problems](https://en.wikipedia.org/wiki/Shortest_path_problem)
--   [Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)problems
--   [Search algorithms](https://en.wikipedia.org/wiki/Search_algorithm)
--   Game solversfor problems in[game theory](https://en.wikipedia.org/wiki/Game_theory)
+
+- [Linear](https://en.wikipedia.org/wiki/Linear_equation)and[non-linear equations](https://en.wikipedia.org/wiki/Non-linear_equation). In the case of a single equation, the "solver" is more appropriately called a[root-finding algorithm](https://en.wikipedia.org/wiki/Root-finding_algorithm).
+- [Systems of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations).
+- [Nonlinear systems](https://en.wikipedia.org/wiki/Nonlinear_system).
+- [Systems of polynomial equations](https://en.wikipedia.org/wiki/Systems_of_polynomial_equations), which are a special case of non linear systems, better solved by specific solvers.
+- Linear and non-linear[optimisation](https://en.wikipedia.org/wiki/Optimization_(mathematics))problems
+- Systems of[ordinary differential equations](https://en.wikipedia.org/wiki/Ordinary_differential_equation)
+- Systems of[differential algebraic equations](https://en.wikipedia.org/wiki/Differential_algebraic_equation)
+- [Boolean satisfiability problems](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem), including[SAT solvers](https://en.wikipedia.org/wiki/SAT_solver)
+- [Quantified boolean formula](https://en.wikipedia.org/wiki/Quantified_boolean_formula)solvers
+- [Constraint satisfaction problems](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)
+- [Shortest path problems](https://en.wikipedia.org/wiki/Shortest_path_problem)
+- [Minimum spanning tree](https://en.wikipedia.org/wiki/Minimum_spanning_tree)problems
+- [Search algorithms](https://en.wikipedia.org/wiki/Search_algorithm)
+- Game solversfor problems in[game theory](https://en.wikipedia.org/wiki/Game_theory)
 
 The[General Problem Solver](https://en.wikipedia.org/wiki/General_Problem_Solver)(GPS) is a particular computer program created in 1957 by[Herbert Simon](https://en.wikipedia.org/wiki/Herbert_A._Simon),[J. C. Shaw](https://en.wikipedia.org/wiki/Cliff_Shaw), and[Allen Newell](https://en.wikipedia.org/wiki/Allen_Newell)intended to work as a universal problem solver, that theoretically can be used to solve every possible problem that can be formalized in a symbolic system, given the right input configuration. It was the first computer program which separated its knowledge of problems (in the form of[domain](https://en.wikipedia.org/wiki/Problem_domain)rules) from its strategy of how to solve problems (as a general search[engine](https://en.wikipedia.org/wiki/Software_engine)).
 

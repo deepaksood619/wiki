@@ -8,68 +8,75 @@ Modified: 2018-08-04 12:23:07 +0500
 
 ## Points to remember -
 
-1.  Linear Data Structure
+1. Linear Data Structure
 Stack is an abstract data type with a bounded(predefined) capacity. It is a simple data structure that allows adding and removing elements in a particular order. Every time an element is added, it goes on the top of the stack, the only element that can be removed is the element that was at the top of the stack, just like a pile of objects.
+
 ## Basic features of Stack
 
-1.  Stack is an ordered list of similar data type.
+1. Stack is an ordered list of similar data type.
 
-2.  Stack is a**LIFO**structure. (Last in First out).3.  **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called**Top**.4.  Stack is said to be in**Overflow**state when it is completely full and is said to be in**Underflow**state if it is completely empty.
+2. Stack is a**LIFO**structure. (Last in First out).3.  **push()**function is used to insert new elements into the Stack and**pop()**function is used to delete an element from the stack. Both insertion and deletion are allowed at only one end of Stack called**Top**.4.  Stack is said to be in**Overflow**state when it is completely full and is said to be in**Underflow**state if it is completely empty.
 
-5.  Loitering (don't keep the reference of the object when an element is popped)
+5. Loitering (don't keep the reference of the object when an element is popped)
+
 ## Applications -
 
-1.  Parsing
+1. Parsing
 
-2.  Expression Conversion (Infix to Postfix, Postfix to Prefix)
+2. Expression Conversion (Infix to Postfix, Postfix to Prefix)
 
-3.  JVM
+3. JVM
 
-4.  Back button in a browser
+4. Back button in a browser
 
-5.  Undo
+5. Undo
 
-6.  Implementing function calls in a compiler (ex - gcd of two numbers)
+6. Implementing function calls in a compiler (ex - gcd of two numbers)
 
-7.  PostScript languages for printer
+7. PostScript languages for printer
 
-8.  Arithmetic expression evaluation
+8. Arithmetic expression evaluation
 
 Dijkstra's Two-stack algorithm (Use - Interpreter)
+
 ## Operations -
 
-1.  Push (O(1))
+1. Push (O(1))
 
-2.  Pop (O(1))
+2. Pop (O(1))
 
-3.  Top (O(1))
+3. Top (O(1))
 
-4.  Search (O(1))
+4. Search (O(1))
 
-5.  Iterate
+5. Iterate
 
-6.  Overflow
+6. Overflow
 
-7.  Underflow
+7. Underflow
+
 ## Implementation -
 
-1.  Using Linked List
+1. Using Linked List
 
-2.  Using Array (resizing array)
+2. Using Array (resizing array)
+
 ## Code
 
-1.  **Linked List Implementation**
+1. **Linked List Implementation**
 ![image](media/Stack-LIFO-image1.png)
+
 ## Loitering -
 
 Holding the reference to an object, when it is no longer needed.
+
 ## Resizing Arrays
 
-1.  Repeated Doubling
+1. Repeated Doubling
 
 When an array fills up, create a new array twice the size of the previous array and copy of the elements in the new array.
 
-2.  Thrashing
+2. Thrashing
 
 If the client happens to do push-pop-push-pop alternating when the array is full, then it's going to be doubling, halving, doubling, halving, doubling, halving. Creating new arrays on every operation. Take time proportional to N for every operation, and therefore quadratic time for everything.
 2.  **Array Implementation (With resizing array)**
@@ -114,10 +121,12 @@ return item;
 
 }Linked List vs Array - Stack Implementation -
 
-1.  If we need perfect constant time operation for every operation, then we should use stack, ex in an airplane or time critical situation
+1. If we need perfect constant time operation for every operation, then we should use stack, ex in an airplane or time critical situation
 
-2.  But for ex in a packet router we want very fast operations, so dealing with references will be slow in linked list so we must use array
+2. But for ex in a packet router we want very fast operations, so dealing with references will be slow in linked list so we must use array
+
 ## Interview Questions
--   Evaluate postfix expression using a stack
--   Sort values in a stack
--   Check balanced parentheses in an expression
+
+- Evaluate postfix expression using a stack
+- Sort values in a stack
+- Check balanced parentheses in an expression

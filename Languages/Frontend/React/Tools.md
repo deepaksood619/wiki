@@ -8,7 +8,7 @@ Modified: 2022-04-19 22:44:41 +0500
 
 [**https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062**](https://medium.com/dubizzletechblog/setting-up-prettier-and-eslint-for-js-and-react-apps-bbc779d29062)
 
-<https://prettier.io
+<https://prettier.io>
 
 <https://github.com/jaredpalmer/tsdx>
 
@@ -20,11 +20,11 @@ Despite all the recent hype, setting up a new TypeScript (x React) library can b
 
 Rollup is a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application. It uses the standardized ES module format for code, instead of previous idiosyncratic solutions such as CommonJS and AMD. ES modules let you freely and seamlessly combine the most useful individual functions from your favorite libraries. Rollup can optimize ES modules for faster native loading in modern browsers, or output a legacy module format allowing ES module workflows today.
 
-<https://stackblitz.com
+<https://stackblitz.com>
 
 <https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en>
 
-<https://lisperator.net/uglifyjs
+<https://lisperator.net/uglifyjs>
 
 <https://github.com/reactjs/react-codemod>
 
@@ -34,21 +34,21 @@ Rollup is a module bundler for JavaScript which compiles small pieces of code in
 
 [**https://github.com/vitejs/vite**](https://github.com/vitejs/vite)
 
-<https://vitejs.dev
+<https://vitejs.dev>
 
 Next Generation Frontend Tooling
 
-1.  Instant Server Start
+1. Instant Server Start
 
-2.  Lightning Fast HMR
+2. Lightning Fast HMR
 
-3.  Rich Features
+3. Rich Features
 
-4.  Optimized Build
+4. Optimized Build
 
-5.  Universal Plugin Interface
+5. Universal Plugin Interface
 
-6.  Fully Typed APIs
+6. Fully Typed APIs
 
 ## Webpack
 
@@ -64,14 +64,15 @@ Webpack also provides features like a local server with hot reload (they call it
 
 <https://www.toptal.com/react/webpack-react-tutorial-pt-1>
 
-<https://webpack.js.org
+<https://webpack.js.org>
 
 <https://github.com/webpack/webpack>
 
 ## Other
--   Parcel
--   Rollup
--   Browserify
+
+- Parcel
+- Rollup
+- Browserify
 
 ## Babel (Transpiler)
 
@@ -100,71 +101,81 @@ ESLint helps you get used to best practices, but that's not its only benefit. ES
 ## Decisions
 
 ## Editor
--   Which one?
--   Which plugins?
--   Use built in terminal?
--   Editor config
+
+- Which one?
+- Which plugins?
+- Use built in terminal?
+- Editor config
 
 ## Module format
--   ES6 Modules, CommonJS
+
+- ES6 Modules, CommonJS
 
 ## HTML generation
--   Minify?
--   Use plugin?
--   Inject prod only concerns?
--   Templating language?
+
+- Minify?
+- Use plugin?
+- Inject prod only concerns?
+- Templating language?
 
 ## Transpiling
--   Native ES or diff language?
--   Use experimental features?
--   Which plugins?
--   Production vs dev config
+
+- Native ES or diff language?
+- Use experimental features?
+- Which plugins?
+- Production vs dev config
 
 ## Bundler
--   Webpack, Browserify, Rollup
+
+- Webpack, Browserify, Rollup
 
 ## Linting
--   Which linter?
--   Enable which rules?
--   Warning or error?
--   Which plugins?
--   Use a preset?
+
+- Which linter?
+- Enable which rules?
+- Warning or error?
+- Which plugins?
+- Use a preset?
 
 ## Testing
--   Framework?
--   Assertion Library?
--   Helpers?
--   Test file location?
--   File naming?
--   What environment?
--   Mocking?
--   Code Coverage
--   Continuous Integration
+
+- Framework?
+- Assertion Library?
+- Helpers?
+- Test file location?
+- File naming?
+- What environment?
+- Mocking?
+- Code Coverage
+- Continuous Integration
 
 ## Project structure
--   By file type or feature?
--   Centralize API?
--   Allow Inline JS?
--   Extract to POJOs?
+
+- By file type or feature?
+- Centralize API?
+- Allow Inline JS?
+- Extract to POJOs?
 
 ## HTTP
--   Library
--   Mock schema format
--   Mock data generation
--   Mock server
+
+- Library
+- Mock schema format
+- Mock data generation
+- Mock server
 
 ## Production build
--   Minification
--   Sourcemaps
--   Bundle splitting
--   Cache busting
--   Error logging
+
+- Minification
+- Sourcemaps
+- Bundle splitting
+- Cache busting
+- Error logging
 
 ## Automated Deployment
 
 <https://github.com/thedaviddias/Front-End-Checklist>
 
-<https://frontendchecklist.io
+<https://frontendchecklist.io>
 
 ## JavaScript ToolChain
 
@@ -177,9 +188,10 @@ Typically, we use build tools like Gulp, Watchify/Browserify, Broccoli, or Webpa
 This part is the most complex piece, and is the center of the development process.
 
 The rest of the tools belong in that group of sequential or parallel tasks:
--   **Style linting -** typically a linter like JSCS is used to ensure the source code is following a certain structure and style
--   **Dependency Management -** for JavaScript projects, most people use other packages from npm; some plugins exist for build systems (e.g. Webpack) and compilers (e.g. Babel) that allow automatic installation of packages beingimported orrequire()'d
--   **Transpilation -** a specific sub-genre of compilation, transpilation involves compiling code from one source version to another, only to a similar runtime level (e.g. ES6 to ES5)
--   **Compilation -** specifically separate from transpiling ES6 and JSX to ES5, is the act of including assets, processing CSS files as JSON, or other mechanisms that can load and inject external assets and code into a file. In addition, there are all sorts of build steps that can analyze your code and even optimize it for you.
--   **Minification and Compression -** typically part of -- but not exclusively controlled by -- compilation, is the act of minifying and compressing a JS file into fewer and/or smaller files
--   **Source-Mapping -** another optional part of compilation is building source maps, which help identify the line in the original source code that corresponds with the line in the output code (i.e. where an error occurred)
+
+- **Style linting -** typically a linter like JSCS is used to ensure the source code is following a certain structure and style
+- **Dependency Management -** for JavaScript projects, most people use other packages from npm; some plugins exist for build systems (e.g. Webpack) and compilers (e.g. Babel) that allow automatic installation of packages beingimported orrequire()'d
+- **Transpilation -** a specific sub-genre of compilation, transpilation involves compiling code from one source version to another, only to a similar runtime level (e.g. ES6 to ES5)
+- **Compilation -** specifically separate from transpiling ES6 and JSX to ES5, is the act of including assets, processing CSS files as JSON, or other mechanisms that can load and inject external assets and code into a file. In addition, there are all sorts of build steps that can analyze your code and even optimize it for you.
+- **Minification and Compression -** typically part of -- but not exclusively controlled by -- compilation, is the act of minifying and compressing a JS file into fewer and/or smaller files
+- **Source-Mapping -** another optional part of compilation is building source maps, which help identify the line in the original source code that corresponds with the line in the output code (i.e. where an error occurred)

@@ -11,14 +11,15 @@ Modified: 2021-07-05 09:41:19 +0500
 ![image](media/Regularization-image1.png)
 
 ## Methods
--   Early Stopping
--   Parameter Norm Penalties
-    -   L1 regularization
-    -   L2 regularization
-    -   Max-norm regularization
--   Dataset Augmentation
--   Noise Robustness
--   Sparse Representations
+
+- Early Stopping
+- Parameter Norm Penalties
+  - L1 regularization
+  - L2 regularization
+  - Max-norm regularization
+- Dataset Augmentation
+- Noise Robustness
+- Sparse Representations
 
 We use regularization method that penalize model complexity
 
@@ -55,26 +56,29 @@ By properly shuffling the dataset, you'll ensure each batch is representative of
 ![image](media/Regularization-image12.png)
 
 # Hyperparameter Tuning
--   Differentiate between parameters and hyperparameters
--   Think beyond simple grid search algorithms
+
+- Differentiate between parameters and hyperparameters
+- Think beyond simple grid search algorithms
 
 Parameter - real valued variable that changes during model training like all weights and biases
 
 Hyperparameter - is a setting that we set before training and it doesn't change afterwards
--   learning rate
--   regularization rate
--   batch size
--   number of hidden layers in neural net
--   number of neurons in each layer
+
+- learning rate
+- regularization rate
+- batch size
+- number of hidden layers in neural net
+- number of neurons in each layer
 
 ![image](media/Regularization-image13.png)
 
 ![](media/Regularization-image14.png)
 
 There are a variety of model parameters too
--   Size of model
--   Number of hash buckets
--   Embedding size
+
+- Size of model
+- Number of hash buckets
+- Embedding size
 
 Wouldn't it be nice to have the NN training loop do meta-training across all these parameters
 
@@ -82,11 +86,11 @@ Wouldn't it be nice to have the NN training loop do meta-training across all the
 
 How to use Cloud ML Engine for hyperparameter tuning
 
-1.  Make the parameter a command-line argument
+1. Make the parameter a command-line argument
 
-2.  Make sure outputs don't clobber each other
+2. Make sure outputs don't clobber each other
 
-3.  Supply hyperparameters to training job
+3. Supply hyperparameters to training job
 
 ![image](media/Regularization-image16.jpg)
 
@@ -98,11 +102,10 @@ How to use Cloud ML Engine for hyperparameter tuning
 
 ![image](media/Regularization-image20.png)
 
-
--   Regularization for sparsity
--   Logistic regression
--   Introduction to Neural Networks
--   Training Neural Networks
+- Regularization for sparsity
+- Logistic regression
+- Introduction to Neural Networks
+- Training Neural Networks
 
 # Regularization for Sparsity
 
@@ -130,9 +133,9 @@ Some other norms or the L0 norm that we already covered which is the count of th
 
 Question
 
-1.  Which type of regularization is more likely to lead to zero weights? **- L1**
+1. Which type of regularization is more likely to lead to zero weights? **- L1**
 
-2.  Which type of regularization penalizes large weight values more? **- L2**
+2. Which type of regularization penalizes large weight values more? **- L2**
 
 # Logistic Regression
 

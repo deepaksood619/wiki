@@ -6,7 +6,7 @@ Modified: 2022-01-03 13:59:29 +0500
 
 ---
 
-<https://sqlnotebook.com
+<https://sqlnotebook.com>
 
 [**nteract**](https://github.com/nteract)is a next-gen React-based UI for Jupyter notebooks. It provides a simple, intuitive interface and offers several improvements over the classic Jupyter UI, such as inline cell toolbars, drag and droppable cells, and a built-in data explorer.
 
@@ -20,15 +20,15 @@ Modified: 2022-01-03 13:59:29 +0500
 
 ## Rshiny
 
-## Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in[R Markdown](http://rmarkdown.rstudio.com/)documents or build[dashboards](http://rstudio.github.io/shinydashboard/). You can also extend your Shiny apps with[CSS themes](http://rstudio.github.io/shinythemes/),[htmlwidgets](http://www.htmlwidgets.org/), and JavaScript[actions](https://github.com/daattali/shinyjs/blob/master/README.md).
+## Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in[R Markdown](http://rmarkdown.rstudio.com/)documents or build[dashboards](http://rstudio.github.io/shinydashboard/). You can also extend your Shiny apps with[CSS themes](http://rstudio.github.io/shinythemes/),[htmlwidgets](http://www.htmlwidgets.org/), and JavaScript[actions](https://github.com/daattali/shinyjs/blob/master/README.md)
 
-<https://shiny.rstudio.com
+<https://shiny.rstudio.com>
 
 ## Polynote
 
 Polynote is a different kind of notebook. It supports**mixing multiple languages**in one notebook, and sharing data between them seamlessly. It encourages**reproducible notebooks**with its immutable data model.
 
-<https://polynote.org
+<https://polynote.org>
 
 <https://towardsdatascience.com/polynote-the-new-jupyter-c7696a321b09>
 

@@ -15,11 +15,12 @@ Twisted is a robust, cross-platform implementation of the Reactor Pattern with l
 *fig - what happens during a callback*
 
 ## Modules
--   Transport
--   Protocol
--   ProtocolFactories
--   Deferred
--   Actuators
+
+- Transport
+- Protocol
+- ProtocolFactories
+- Deferred
+- Actuators
 
 To update the running code functions on fly
 
@@ -35,10 +36,10 @@ Thetapnameattribute of your IServiceMaker provider will be used as the subcomman
 
 Taking advantage of[twisted.plugin](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.html)is a two step process:
 
-1.  Define an interface which plugins will be required to implement. This is done using the zope.interface package in the same way one would define an interface for any other purpose.
+1. Define an interface which plugins will be required to implement. This is done using the zope.interface package in the same way one would define an interface for any other purpose.
     A convention for defining interfaces is do so in a file named like*ProjectName/projectname/iprojectname.py*. The rest of this document will follow that convention: consider the following interface definition be inMatsim/matsim/imatsim.py, an interface definition module for a hypothetical material simulation package.
 
-2.  At one or more places in your program, invoke[twisted.plugin.getPlugins](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.getPlugins.html)and iterate over its result.
+2. At one or more places in your program, invoke[twisted.plugin.getPlugins](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.getPlugins.html)and iterate over its result.
 
 <https://twistedmatrix.com/documents/current/core/howto/plugin.html>
 
@@ -52,7 +53,7 @@ Taking advantage of[twisted.plugin](https://twistedmatrix.com/documents/19.7.0/a
 
 Twisted Network Programming Essentials by Abe Fettig
 
-<https://twistedmatrix.com/trac
+<https://twistedmatrix.com/trac>
 
 [**http://krondo.com/an-introduction-to-asynchronous-programming-and-twisted/**](http://krondo.com/an-introduction-to-asynchronous-programming-and-twisted/)
 

@@ -25,8 +25,9 @@ Rene Descartes was a[French](https://en.wikipedia.org/wiki/French_people)[philos
 Nullius in verba - In no one words
 
 Quis custodiet ipsos custodes?
--   Who Watches the Watchman?
--   Who guards the guards?
+
+- Who Watches the Watchman?
+- Who guards the guards?
 
 Docendo discimus - by teaching, we learn
 

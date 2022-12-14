@@ -7,10 +7,11 @@ Modified: 2022-01-07 12:12:28 +0500
 ---
 
 ## Tools
--   Torch
--   Caffe
--   Theano
--   TensorFlow
+
+- Torch
+- Caffe
+- Theano
+- TensorFlow
 
 ## TensorFlow
 
@@ -20,7 +21,7 @@ High-level neural network library for deep learning
 
 Can be used to visualize TensorFlow graph, plot quantitative metrics about the execution of the graph, and show additional data like images that pass through it.
 
-<http://projector.tensorflow.org
+<http://projector.tensorflow.org>
 
 <https://www.i-programmer.info/news/105/13559.html>
 
@@ -38,13 +39,13 @@ Can be used to visualize TensorFlow graph, plot quantitative metrics about the e
 
 ## API
 
-1.  **TensorFlow Core (Lowest level API for complete programming control)**
+1. **TensorFlow Core (Lowest level API for complete programming control)**
 
-2.  **Higher level APIs (Ex - tf.estimator helps manage data sets, estimators, training and inference)**
+2. **Higher level APIs (Ex - tf.estimator helps manage data sets, estimators, training and inference)**
 
 ## TensorFlow Core
 
-1.  **Tensors**
+1. **Tensors**
 
 The central unit of data in TensorFlow is the**tensor**. A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's**rank**is its number of dimensions. Here are some examples of tensors:
 
@@ -61,17 +62,18 @@ The central unit of data in TensorFlow is the**tensor**. A tensor consists of a 
 A**computational graph**is a series of TensorFlow operations arranged into a graph of nodes.
 
 ## TensorFlow Model Serving
--   Contains gRPC and HTTP endpoints
--   Performs model versioning without changing any client code
--   Schedules grouping individual inference requests into batches for joint execution
--   Optimizes inference time for minimal latency
--   Supports many servables (a servable is either a model or a task for serving the data that goes along with your model):
-    -   TensorFlow models
-    -   Embeddings
-    -   Vocabulary lookup tables
-    -   Feature transformations
-    -   Non-TensorFlow-based models
--   Is capable of canarying and A/B testing
+
+- Contains gRPC and HTTP endpoints
+- Performs model versioning without changing any client code
+- Schedules grouping individual inference requests into batches for joint execution
+- Optimizes inference time for minimal latency
+- Supports many servables (a servable is either a model or a task for serving the data that goes along with your model):
+  - TensorFlow models
+  - Embeddings
+  - Vocabulary lookup tables
+  - Feature transformations
+  - Non-TensorFlow-based models
+- Is capable of canarying and A/B testing
 
 <https://dzone.com/articles/machine-learning-and-real-time-analytics-in-apache>
 
@@ -91,7 +93,7 @@ tensorboard --logdir=path/to/log-directory
 
 <https://www.youtube.com/watch?v=6g4O5UOH304>
 
-<https://www.freecodecamp.org/news/how-to-use-tensorflow-for-computer-vision
+<https://www.freecodecamp.org/news/how-to-use-tensorflow-for-computer-vision>
 
 [Intro to Tensorflow](https://www.youtube.com/playlist?list=PL2-dafEMk2A7EEME489DsI468AB0wQsMV)
 

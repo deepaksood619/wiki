@@ -14,7 +14,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 
 ## HTML Tags Ordered by Category
 
-# = New in HTML5.
+# = New in HTML5
 
 ## no-user-select - no option to select text
 

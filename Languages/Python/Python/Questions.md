@@ -6,7 +6,7 @@ Modified: 2021-07-28 14:58:22 +0500
 
 ---
 
-## What is the difference between the__str__and__repr__methods of a Python object.
+## What is the difference between the__str__and__repr__methods of a Python object
 
 In short__repr__goal is to be unambigous and__str__is to be readable.
 
@@ -44,7 +44,7 @@ print "I am a Dog"
 dog = Dog()
 dog.my_method() # Prints "I am a Dog"
 
-<https://realpython.com/python-coding-interview-tips
+<https://realpython.com/python-coding-interview-tips>
 
 a = 1, b = 2, c = 1, Will the id of object a and c be same?
 

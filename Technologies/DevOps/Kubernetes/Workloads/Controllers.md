@@ -22,7 +22,7 @@ ReplicaSet is the next-generation Replication Controller. The only difference be
 
 A ReplicaSet ensures that a specified number of Pod replicas are running at any given time. A ReplicaSet is a management wrapper around a Pod. If a Pod, that is managed by a ReplicaSet, dies, the ReplicaSet brings up a new Pod instance.
 
-## Note:**A[**Deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)that configures a[**ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)is now the recommended way to set up replication.
+## Note:**A[**Deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)that configures a[**ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)is now the recommended way to set up replication
 
 ## Deployment
 
@@ -36,32 +36,34 @@ Once the application instances are created, a Kubernetes Deployment Controller c
 
 ![Node containerized app Deployment Master node processes Kubernetes Cluster ](../../../media/DevOps-Kubernetes-Controllers-image1.png)
 
-<https://learnk8s.io/kubernetes-rollbacks
+<https://learnk8s.io/kubernetes-rollbacks>
 
 ## StatefulSet
 
 StatefulSet is the workload API object used to manage stateful applications.
 
 StatefulSets are valuable for applications that require one or more of the following.
--   Stable, unique network identifiers.
--   Stable, persistent storage.
--   Ordered, graceful deployment and scaling.
--   Ordered, automated rolling updates.
+
+- Stable, unique network identifiers.
+- Stable, persistent storage.
+- Ordered, graceful deployment and scaling.
+- Ordered, automated rolling updates.
 
 ## Components
--   A Headless Service, named nginx, is used to control the network domain.
--   The StatefulSet, named web, has a Spec that indicates that 3 replicas of the nginx container will be launched in unique Pods.
--   The volumeClaimTemplates will provide stable storage using[PersistentVolumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)provisioned by a PersistentVolume Provisioner.
 
-<https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set
+- A Headless Service, named nginx, is used to control the network domain.
+- The StatefulSet, named web, has a Spec that indicates that 3 replicas of the nginx container will be launched in unique Pods.
+- The volumeClaimTemplates will provide stable storage using[PersistentVolumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)provisioned by a PersistentVolume Provisioner.
 
-<https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application
+<https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set>
+
+<https://kubernetes.io/docs/tasks/run-application/run-single-instance-stateful-application>
 
 Kubernetes StatefulSets gives you a set of resources to deal with stateful containers, such as volumes, stable network IDs, ordinal indexes from 0 to N, etc. Volumes are one of the key features that allow us to run stateful applications on top of Kubernetes.
 
-1.  Ephermeral Storage Volumes
+1. Ephermeral Storage Volumes
 
-2.  Persistant Storage Volumes
+2. Persistant Storage Volumes
 
 The data lifetime is independent of the Pod's lifetime. So, even when the Pod dies or is moved to another node, that data will still persist until it is explicitly deleted by the user.
 
@@ -72,15 +74,16 @@ The data lifetime is independent of the Pod's lifetime. So, even when the Pod di
 ADaemonSetensures that all (or some) Nodes run a copy of a Pod. As nodes are added to the cluster, Pods are added to them. As nodes are removed from the cluster, those Pods are garbage collected. Deleting a DaemonSet will clean up the Pods it created.
 
 Some typical uses of a DaemonSet are:
--   running a cluster storage daemon, such asglusterd,ceph, on each node.
--   running a logs collection daemon on every node, such asfluentdorlogstash.
--   running a node monitoring daemon on every node, such as[Prometheus Node Exporter](https://github.com/prometheus/node_exporter),collectd,[Dynatrace OneAgent](https://www.dynatrace.com/technologies/kubernetes-monitoring/),[AppDynamics Agent](https://docs.appdynamics.com/display/CLOUD/Container+Visibility+with+Kubernetes), Datadog agent, NewRelic agent, Gangliagmondor Instana agent.
+
+- running a cluster storage daemon, such asglusterd,ceph, on each node.
+- running a logs collection daemon on every node, such asfluentdorlogstash.
+- running a node monitoring daemon on every node, such as[Prometheus Node Exporter](https://github.com/prometheus/node_exporter),collectd,[Dynatrace OneAgent](https://www.dynatrace.com/technologies/kubernetes-monitoring/),[AppDynamics Agent](https://docs.appdynamics.com/display/CLOUD/Container+Visibility+with+Kubernetes), Datadog agent, NewRelic agent, Gangliagmondor Instana agent.
 
 ## Garbage Collection
 
 The role of the Kubernetes garbage collector is to delete certain objects that once had an owner, but no longer have an owner.
 
-<https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection
+<https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection>
 
 ## TTL Controller
 
@@ -96,22 +99,22 @@ A Job can also be used to run multiple pods in parallel.
 
 There are three main types of jobs:
 
-1.  Non-parallel Jobs
-    -   normally only one pod is started, unless the pod fails.
-    -   job is complete as soon as Pod terminates successfully.
+1. Non-parallel Jobs
+    - normally only one pod is started, unless the pod fails.
+    - job is complete as soon as Pod terminates successfully.
 
-2.  Parallel Jobs with afixed completion count:
-    -   specify a non-zero positive value for.spec.completions.
-    -   the job is complete when there is one successful pod for each value in the range 1 to.spec.completions.
-    -   not implemented yet:Each pod passed a different index in the range 1 to.spec.completions.
+2. Parallel Jobs with afixed completion count:
+    - specify a non-zero positive value for.spec.completions.
+    - the job is complete when there is one successful pod for each value in the range 1 to.spec.completions.
+    - not implemented yet:Each pod passed a different index in the range 1 to.spec.completions.
 
-3.  Parallel Jobs with awork queue:
-    -   do not specify.spec.completions, default to.spec.parallelism.
-    -   the pods must coordinate with themselves or an external service to determine what each should work on.
-    -   each pod is independently capable of determining whether or not all its peers are done, thus the entire Job is done.
-    -   whenanypod terminates with success, no new pods are created.
-    -   once at least one pod has terminated with success and all pods are terminated, then the job is completed with success.
-    -   once any pod has exited with success, no other pod should still be doing any work or writing any output. They should all be in the process of exiting.
+3. Parallel Jobs with awork queue:
+    - do not specify.spec.completions, default to.spec.parallelism.
+    - the pods must coordinate with themselves or an external service to determine what each should work on.
+    - each pod is independently capable of determining whether or not all its peers are done, thus the entire Job is done.
+    - whenanypod terminates with success, no new pods are created.
+    - once at least one pod has terminated with success and all pods are terminated, then the job is completed with success.
+    - once any pod has exited with success, no other pod should still be doing any work or writing any output. They should all be in the process of exiting.
 
 Jobs are part of thebatchAPI group. They are used to run a set number of pods to completion. If a pod fails, it will be restarted until the number of completion is reached.
 
@@ -139,4 +142,4 @@ One CronJob object is like one line of acrontab(cron table) file. It runs a job 
 
 A CronJob is basically a Kubernetes Job with time-based scheduling and some specific parameters to handle failure. Each Kubernetes Job creates 1 to n pod. Those pods run a program defined for the task and exit when the task is over.
 
-<https://kubernetes.io/docs/concepts/architecture/controller
+<https://kubernetes.io/docs/concepts/architecture/controller>

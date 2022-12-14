@@ -7,15 +7,18 @@ Modified: 2018-02-07 08:20:57 +0500
 ---
 
 Operations
--   Insert an interval
--   Search for an interval
--   Delete an interval
--   Interval intersection query: Given an interval (lo, hi), find all intervals (or one interval) in data structure that intersects (lo, hi)
+
+- Insert an interval
+- Search for an interval
+- Delete an interval
+- Interval intersection query: Given an interval (lo, hi), find all intervals (or one interval) in data structure that intersects (lo, hi)
 ![image](media/Interval-Search-Tree-image1.png)
 ![image](media/Interval-Search-Tree-image2.png)
 ![image](media/Interval-Search-Tree-image3.png)
 ![image](media/Interval-Search-Tree-image4.png)
+
 ## Implementation - Use a red-black BST to guarantee performance
+
 | operation                                          | brute | interval search tree | best in theory |
 |---------------------------------|----------|------------------|-------------|
 | insert interval                                    | 1     | log N                | log N          |

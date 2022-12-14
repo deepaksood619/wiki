@@ -7,7 +7,8 @@ Modified: 2022-01-30 23:29:24 +0500
 ---
 
 IP addresses are classified into several classes of operational characteristics: unicast, multicast, anycast and broadcast addressing.
--   **Unicast addressing**
+
+- **Unicast addressing**
 
 The most common concept of an IP address is in[unicast](https://en.wikipedia.org/wiki/Unicast)addressing, available in both IPv4 and IPv6. It normally refers to a single sender or a single receiver, and can be used for both sending and receiving. Usually, a unicast address is associated with a single device or host, but a device or host may have more than one unicast address. Sending the same data to multiple unicast addresses requires the sender to send all the data many times over, once for each recipient.-   **Broadcast addressing**
 
@@ -24,18 +25,18 @@ Like broadcast and multicast,[anycast](https://en.wikipedia.org/wiki/Anycast)is 
 In[computer networking](https://en.wikipedia.org/wiki/Computer_networking)a**routing table, orrouting information base (RIB)**, is a[data table](https://en.wikipedia.org/wiki/Data_table)stored in a[router](https://en.wikipedia.org/wiki/Router_(computing))or a networked[computer](https://en.wikipedia.org/wiki/Computer)that lists the routes to particular network destinations, and in some cases,[metrics](https://en.wikipedia.org/wiki/Metrics_(networking))(distances) associated with those routes. The routing table contains information about the[topology of the network](https://en.wikipedia.org/wiki/Network_topology)immediately around it. The construction of routing tables is the primary goal of[routing protocols](https://en.wikipedia.org/wiki/Routing_protocol).[Static routes](https://en.wikipedia.org/wiki/Static_route)are entries made in a routing table by non-automatic means and which are fixed rather than being the result of some network topology "discovery" procedure.
 The routing table consists of at least three information fields:
 
-1.  network ID: The destination subnet
+1. network ID: The destination subnet
 
-2.  metric: The[routing metric](https://en.wikipedia.org/wiki/Routing_metric)of the path through which the packet is to be sent. The route will go in the direction of the gateway with the lowest metric.
+2. metric: The[routing metric](https://en.wikipedia.org/wiki/Routing_metric)of the path through which the packet is to be sent. The route will go in the direction of the gateway with the lowest metric.
 
-3.  next hop: The next hop, or gateway, is the address of the next station to which the packet is to be sent on the way to its final destination
+3. next hop: The next hop, or gateway, is the address of the next station to which the packet is to be sent on the way to its final destination
 Depending on the application and implementation, it can also contain additional values that refine path selection:
 
-1.  quality of serviceassociated with the route. For example, the U flag indicates that an IP route is up.
+1. quality of serviceassociated with the route. For example, the U flag indicates that an IP route is up.
 
-2.  links to filtering criteria/access lists associated with the route
+2. links to filtering criteria/access lists associated with the route
 
-3.  interface: such as eth0 for the first Ethernet card, eth1 for the second Ethernet card, etc.
+3. interface: such as eth0 for the first Ethernet card, eth1 for the second Ethernet card, etc.
 Routing tables are also a key aspect of certain security operations, such as[unicast reverse path forwarding](https://en.wikipedia.org/wiki/Unicast_reverse_path_forwarding) (uRPF). In this technique, which has several variants, the router also looks up, in the routing table, thesource addressof the packet. If there exists no route back to the source address, the packet is assumed to be malformed or involved in a network attack, and is dropped.
 <https://en.wikipedia.org/wiki/Routing_table>
 
@@ -44,6 +45,7 @@ Routing tables are also a key aspect of certain security operations, such as[uni
 Routing tables are generally not used directly for[packet forwarding](https://en.wikipedia.org/wiki/Packet_forwarding)in modern router architectures; instead, they are used to generate the information for a smaller[forwarding table](https://en.wikipedia.org/wiki/Forwarding_table). This forwarding table contains only the routes which are chosen by the[routing algorithm](https://en.wikipedia.org/wiki/Routing_algorithm)as preferred routes for packet forwarding. It is often in a compressed or pre-compiled format that is[optimized](https://en.wikipedia.org/wiki/Optimisation_(computer_science))for hardware storage and[lookup](https://en.wikipedia.org/wiki/Lookup).
 
 This router architecture separates the[Control Plane](https://en.wikipedia.org/wiki/Control_Plane)function of the routing table from the[Forwarding Plane](https://en.wikipedia.org/wiki/Forwarding_Plane)function of the forwarding table.[[3]](https://en.wikipedia.org/wiki/Routing_table#cite_note-3)This separation of control and forwarding provides uninterrupted performance.
+
 ## Routing Protocols
 
 OSPF - Open Shortest Path First
@@ -60,6 +62,7 @@ IS-IS - Intermediate System to Intermediate System
 Distance vector routing - thread (similar to RIP)
 
 Maintain and advertise best next hop towards each Thread Router
+
 ## Tools
 
 [Quagga](http://www.quagga.net/)is a routing software suite, providing implementations of OSPFv2, OSPFv3, RIP v1 and v2, RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD. Quagga is a fork of[GNU Zebra](http://www.zebra.org/)which was developed by Kunihiro Ishiguro.

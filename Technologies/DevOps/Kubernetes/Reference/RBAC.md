@@ -22,15 +22,13 @@ Modified: 2020-09-14 10:29:16 +0500
 
 ![Complete structure visual IDP User CluserRole Group ClusterRole IDP Group Cluster Rule Verb(s) Rule Resource(s) Verb(s) Role Binding Role Resource(s) Rule Rule ](../../../media/DevOps-Kubernetes-RBAC-image8.png)
 
-
-
 ## Authorization
 
-<https://kubernetes.io/docs/reference/access-authn-authz/authorization
+<https://kubernetes.io/docs/reference/access-authn-authz/authorization>
 
-<https://kubernetes.io/docs/reference/access-authn-authz/rbac
+<https://kubernetes.io/docs/reference/access-authn-authz/rbac>
 
-<https://www.cncf.io/blog/2018/08/01/demystifying-rbac-in-kubernetes
+<https://www.cncf.io/blog/2018/08/01/demystifying-rbac-in-kubernetes>
 
 ## Commands
 

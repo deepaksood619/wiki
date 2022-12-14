@@ -14,19 +14,19 @@ A shell is an environment in which we can run our commands, programs, and shell 
 
 In UNIX there are two major types of shells:
 
-1.  The Bourne shell. If you are using a Bourne-type shell, the default prompt is the $ character.
-    -   Bourne shell (sh)
-    -   Korn shell (ksh)
-    -   Bourne Again shell (bash)
-    -   POSIX shell (sh)
-    -   Z shell (zsh)
+1. The Bourne shell. If you are using a Bourne-type shell, the default prompt is the $ character.
+    - Bourne shell (sh)
+    - Korn shell (ksh)
+    - Bourne Again shell (bash)
+    - POSIX shell (sh)
+    - Z shell (zsh)
 
-2.  The C shell. If you are using a C-type shell, the default prompt is the % character.
-    -   C shell (csh)
-    -   TENEX/TOPS C shell (tcsh)
+2. The C shell. If you are using a C-type shell, the default prompt is the % character.
+    - C shell (csh)
+    - TENEX/TOPS C shell (tcsh)
 
-3.  Other shell
-    -   Friendly interactive shell (fish)
+3. Other shell
+    - Friendly interactive shell (fish)
 
 The original UNIX shell was written in the mid-1970s by Stephen R. Bourne while he was at AT&T Bell Labs in New Jersey.
 

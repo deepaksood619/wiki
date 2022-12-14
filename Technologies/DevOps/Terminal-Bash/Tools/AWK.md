@@ -8,7 +8,7 @@ Modified: 2020-05-11 17:55:32 +0500
 
 ## man awk - pattern-directed scanning and processing language
 
-## AWKis a[programming language](https://en.wikipedia.org/wiki/Programming_language)designed for text processing and typically used as a[data extraction](https://en.wikipedia.org/wiki/Data_extraction)and reporting tool. It is a standard feature of most[Unix-like](https://en.wikipedia.org/wiki/Unix-like)[operating systems](https://en.wikipedia.org/wiki/Operating_system).
+## AWKis a[programming language](https://en.wikipedia.org/wiki/Programming_language)designed for text processing and typically used as a[data extraction](https://en.wikipedia.org/wiki/Data_extraction)and reporting tool. It is a standard feature of most[Unix-like](https://en.wikipedia.org/wiki/Unix-like)[operating systems](https://en.wikipedia.org/wiki/Operating_system)
 
 The AWK language is a[data-driven](https://en.wikipedia.org/wiki/Data-driven_programming)[scripting language](https://en.wikipedia.org/wiki/Scripting_language)consisting of a set of actions to be taken against[streams](https://en.wikipedia.org/wiki/Stream_(computing))of textual data -- either run directly on files or used as part of a[pipeline](https://en.wikipedia.org/wiki/Pipeline_(Unix))-- for purposes of extracting or transforming text, such as producing formatted reports. The language extensively uses the[string](https://en.wikipedia.org/wiki/String_(computer_science))[datatype](https://en.wikipedia.org/wiki/Datatype),[associative arrays](https://en.wikipedia.org/wiki/Associative_array)(that is, arrays indexed by key strings), and[regular expressions](https://en.wikipedia.org/wiki/Regular_expression). While AWK has a limited intended[application domain](https://en.wikipedia.org/wiki/Application_domain)and was especially designed to support[one-liner programs](https://en.wikipedia.org/wiki/One-liner_program), the language is[Turing-complete](https://en.wikipedia.org/wiki/Turing-complete), and even the early Bell Labs users of AWK often wrote well-structured large AWK programs.
 
@@ -45,8 +45,6 @@ The first part of this program ---/oatmeal/ ---is theeventthat you're looking fo
 The action is the second part of this program, the part between the braces. This part is a procedural set of instructions to perform when your event occurs. Here, you have a small C-like programming language at your disposal, with for/while loops, if statements, and global variables at your disposal.
 
 When AWK runs your program, it will read each line of input in, one after the other. Each time it reads in a line, it will see if your event occurred. If it has, then it performs your event's action. You can define as many events as you like. If more than one event occurs, each event's action is performed in the order they appear in your program.
-
-
 
 ## AWK Workflow
 
@@ -108,8 +106,8 @@ k delete pv $(k get pv | grep Released | awk '{print $1}')
 
 <https://en.wikipedia.org/wiki/AWK>
 
-<https://www.bignerdranch.com/blog/a-crash-course-in-awk
+<https://www.bignerdranch.com/blog/a-crash-course-in-awk>
 
 <http://www.grymoire.com/Unix/Awk.html>
 
-<https://www.tutorialspoint.com/awk
+<https://www.tutorialspoint.com/awk>

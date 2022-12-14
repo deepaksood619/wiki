@@ -6,7 +6,7 @@ Modified: 2021-11-19 18:11:11 +0500
 
 ---
 
-## Control engineeringorcontrol systems engineeringis an[engineering](https://en.wikipedia.org/wiki/Engineering)discipline that applies[automatic control](https://en.wikipedia.org/wiki/Automatic_control)theory to design systems with desired behaviors in[control](https://en.wikipedia.org/wiki/Control_theory)environments.The discipline of controls overlaps and is usually taught along with[electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering)at many institutions around the world.
+## Control engineeringorcontrol systems engineeringis an[engineering](https://en.wikipedia.org/wiki/Engineering)discipline that applies[automatic control](https://en.wikipedia.org/wiki/Automatic_control)theory to design systems with desired behaviors in[control](https://en.wikipedia.org/wiki/Control_theory)environments.The discipline of controls overlaps and is usually taught along with[electrical engineering](https://en.wikipedia.org/wiki/Electrical_engineering)at many institutions around the world
 
 The practice uses[sensors](https://en.wikipedia.org/wiki/Sensors)and detectors to measure the output performance of the process being controlled; these measurements are used to provide corrective[feedback](https://en.wikipedia.org/wiki/Feedback)helping to achieve the desired performance. Systems designed to perform without requiring human input are called[automatic control](https://en.wikipedia.org/wiki/Automatic_control)systems (such as[cruise control](https://en.wikipedia.org/wiki/Cruise_control)for regulating the speed of a car).[Multi-disciplinary](https://en.wikipedia.org/wiki/Multi-disciplinary)in nature, control systems engineering activities focus on implementation of control systems mainly derived by[mathematical modeling](https://en.wikipedia.org/wiki/Mathematical_model)of a diverse range of[systems](https://en.wikipedia.org/wiki/System).
 
@@ -30,11 +30,11 @@ Fundamentally, there are two types of control loops: open loop control and close
 
 ## Open-Loop Control
 
-## In open loop control, the control action from the controller is independent of the "process output" (or "controlled process variable" - PV). A good example of this is a central heating boiler controlled only by a timer, so that heat is applied for a constant time, regardless of the temperature of the building. The control action is the timed switching on/off of the boiler, the process variable is the building temperature, but neither is linked.
+## In open loop control, the control action from the controller is independent of the "process output" (or "controlled process variable" - PV). A good example of this is a central heating boiler controlled only by a timer, so that heat is applied for a constant time, regardless of the temperature of the building. The control action is the timed switching on/off of the boiler, the process variable is the building temperature, but neither is linked
 
 ## Closed-Loop Control
 
-## In closed loop control, the control action from the controller is dependent on feedback from the process in the form of the value of the process variable (PV). In the case of the boiler analogy, a closed loop would include a thermostat to compare the building temperature (PV) with the temperature set on the thermostat (the set point - SP). This generates a controller output to maintain the building at the desired temperature by switching the boiler on and off. A closed loop controller, therefore, has a feedback loop which ensures the controller exerts a control action to manipulate the process variable to be the same as the "Reference input" or "set point". For this reason, closed loop controllers are also called feedback controllers.
+## In closed loop control, the control action from the controller is dependent on feedback from the process in the form of the value of the process variable (PV). In the case of the boiler analogy, a closed loop would include a thermostat to compare the building temperature (PV) with the temperature set on the thermostat (the set point - SP). This generates a controller output to maintain the building at the desired temperature by switching the boiler on and off. A closed loop controller, therefore, has a feedback loop which ensures the controller exerts a control action to manipulate the process variable to be the same as the "Reference input" or "set point". For this reason, closed loop controllers are also called feedback controllers
 
 The definition of a closed loop control system according to the British Standard Institution is "a control system possessing monitoring feedback, the deviation signal formed as a result of this feedback being used to control the action of a final control element in such a way as to tend to reduce the deviation to zero."
 
@@ -87,12 +87,13 @@ iii. Derivative tuningattempts to minimize this overshoot by slowing the correct
 <https://www.omega.co.uk/prodinfo/how-does-a-pid-controller-work.html>
 
 ## Controllers
--   Proportional Controller
--   Derivative Controller
--   Integral Controller
--   Proportional Derivative (PD) Controller
--   Proportional Integral (PI) Controller
--   Proportional Integral Derivative (PID) Controller
+
+- Proportional Controller
+- Derivative Controller
+- Integral Controller
+- Proportional Derivative (PD) Controller
+- Proportional Integral (PI) Controller
+- Proportional Integral Derivative (PID) Controller
 
 <https://www.tutorialspoint.com/control_systems/index.htm>
 

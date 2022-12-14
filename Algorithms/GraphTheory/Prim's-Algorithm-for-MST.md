@@ -7,17 +7,18 @@ Modified: 2018-05-21 22:51:16 +0500
 ---
 
 ## Properties
--   For Undirected graph
+
+- For Undirected graph
 
 ![image](media/Prim's-Algorithm-for-MST-image1.png)
 
 ## Implementation -
 
-1.  Lazy Implementation -
+1. Lazy Implementation -
 
 An edge that is absolute (i.e. cannot be added because it will create a cycle in the MST) is left in the priority queue.
 
-2.  Eager Implementation -
+2. Eager Implementation -
 
 Only min weight edge with exactly one endpoint is added
 
@@ -45,8 +46,8 @@ Data Structure Used - Indexed Priority Queue, with decreaseKey API to decrease p
 
 ## Applications -
 
-1.  Euclidean MST
+1. Euclidean MST
 
-2.  Clustering (single-link clustering algorithm)
+2. Clustering (single-link clustering algorithm)
 
-3.  Dendograms of cancers in humans
+3. Dendograms of cancers in humans

@@ -10,7 +10,7 @@ Sort items in a list in alphabetical order, or reverse alphabetical order.
 
 lowercase and uppercase letters may affect the sort order.
 
-1.  sort() method
+1. sort() method
 
 Changes the order of a list permanently
 
@@ -18,7 +18,7 @@ lst.sort()
 
 lst.sort(reverse=True)
 
-2.  sorted() function
+2. sorted() function
 
 Returns a copy of the list, leaving the original list unchanged.
 
@@ -28,15 +28,15 @@ print(sorted(lst, reverse=True))
 
 ## Guarenteed to be stable
 
-3.  Reversing the order of a list
+3. Reversing the order of a list
 
 lst.reverse()
 
-4.  2-D list sort with given column
+4. 2-D list sort with given column
 
 students.sort(key=lambda x:x[1])
 
-5.  Sorting a dictionary with value in descending order and if equal sort by key in ascending order
+5. Sorting a dictionary with value in descending order and if equal sort by key in ascending order
 
 >>> dic = {'z': 5, 'b': 2, 'a': 2}
 
@@ -44,7 +44,7 @@ students.sort(key=lambda x:x[1])
 
 {'z': 5, 'a': 2, 'b': 2}
 
-6.  Custom sorting with key=
+6. Custom sorting with key=
 
 For more complex custom sorting, sorted() takes an optional "key=" specifying a "key" function that transforms each element before comparison. The key function takes in 1 value and returns 1 value, and the returned "proxy" value is used for the comparisons within the sort.
 
@@ -62,20 +62,20 @@ As another example, specifying "str.lower" as the key function is a way to force
 
 print sorted(strs, key=str.lower) ## ['aa', 'BB', 'CC', 'zz']
 
-## You can also pass in your own MyFn as the key function, like this:
+## You can also pass in your own MyFn as the key function, like this
 
-## Say we have a list of strings we want to sort by the last letter of the string.
+## Say we have a list of strings we want to sort by the last letter of the string
 
 strs = ['xc', 'zb', 'yd' ,'wa']
 
-## Write a little function that takes a string, and returns its last letter.
+## Write a little function that takes a string, and returns its last letter
 
-## This will be the key function (takes in 1 value, returns 1 value).
+## This will be the key function (takes in 1 value, returns 1 value)
 
 def MyFn(s):
 
 return s[-1]
 
-## Now pass key=MyFn to sorted() to sort by the last letter:
+## Now pass key=MyFn to sorted() to sort by the last letter
 
 print sorted(strs, key=MyFn) ## ['wa', 'zb', 'xc', 'yd']

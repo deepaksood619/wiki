@@ -16,11 +16,11 @@ Fail fast iterator while iterating through the collection , instantly throws Con
 
 Fail-fast iterator can throw ConcurrentModificationException in two scenarios :
 
-1.  **Single Threaded Environment -** After the creation of the iterator , structure is modified at any time by any method other than iterator's own remove method.
+1. **Single Threaded Environment -** After the creation of the iterator , structure is modified at any time by any method other than iterator's own remove method.
 
-2.  **Multiple Threaded Environment -** If one thread is modifying the structure of the collection while other thread is iterating over it .
+2. **Multiple Threaded Environment -** If one thread is modifying the structure of the collection while other thread is iterating over it .
 
-## Fail Safe Iterator :
+## Fail Safe Iterator
 
 Fail Safe Iterator makes copy of the internal data structure (object array) and iterates over the copied data structure.Any structural modification done to the iterator affects the copied data structure. So , original data structure remains structurally unchanged .Hence , no ConcurrentModificationException throws by the fail safe iterator.
 

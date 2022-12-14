@@ -14,7 +14,7 @@ Modified: 2021-07-22 10:02:34 +0500
 
 ![1 query for Ingress resources (e.g. nginx) 2 compare current state of Irvess resources to the current state configuration Ingress 3 Proxy Configuratio write new configuratim on current state of Ingress resources .query fcy ingress related resources Istb Ingress Gateway (Envoy) 2 compare current state of I rwess resources to the current state configuration 3 write new configuratbn based on current state Proxy Configuratio related resources Gateway VirtualService DestinationRule ](../../../media/DevOps-Monitoring-Others-image2.png)
 
-<https://software.danielwatrous.com/istio-ingress-vs-kubernetes-ingress
+<https://software.danielwatrous.com/istio-ingress-vs-kubernetes-ingress>
 
 [**https://medium.com/@zhaohuabing/which-one-is-the-right-choice-for-the-ingress-gateway-of-your-service-mesh-21a280d4a29c**](https://medium.com/@zhaohuabing/which-one-is-the-right-choice-for-the-ingress-gateway-of-your-service-mesh-21a280d4a29c)
 
@@ -22,12 +22,13 @@ Modified: 2021-07-22 10:02:34 +0500
 
 ## Shared Control Plane
 
-<https://istio.io/docs/setup/install/multicluster/shared
+<https://istio.io/docs/setup/install/multicluster/shared>
 
 ## Access Log
 
 Default turn off, only on in demo profile
--   Can be enabled globally or per namespace too
+
+- Can be enabled globally or per namespace too
 
 kubectl describe cm istio -n istio-system
 
@@ -46,15 +47,16 @@ kubectl describe cm istio -n istio-system
 ![Troubleshooting Guide Step 1 Oistioctl analyze' step 2 *istioctl proxy-status* step 3 "istiod• logs Access logs Resp flags Step 5 Envoy config dump Step 6 "istiod" metrics Step 7 Odebug• logging step 8 Profiling ](../../../media/DevOps-Monitoring-Others-image9.png)
 
 ## Production Istio Installation
--   Metrics & logs from control & data plane
-    -   Setup alerts
--   Enable access logs
--   Outbound traffic control
--   Strint mTLS instead of "auto"
--   Scale out control plane
-    -   Configure HPA
-    -   Configure pod anti-affinity
--   Non self signed CA certificates
--   Locking down ingress GW ports
--   Auto sidecar injection
--   Production grade Prometheus & Jaeger
+
+- Metrics & logs from control & data plane
+  - Setup alerts
+- Enable access logs
+- Outbound traffic control
+- Strint mTLS instead of "auto"
+- Scale out control plane
+  - Configure HPA
+  - Configure pod anti-affinity
+- Non self signed CA certificates
+- Locking down ingress GW ports
+- Auto sidecar injection
+- Production grade Prometheus & Jaeger

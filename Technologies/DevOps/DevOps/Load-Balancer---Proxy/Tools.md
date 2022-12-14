@@ -5,22 +5,23 @@ Created: 2020-01-20 16:52:46 +0500
 Modified: 2020-08-24 23:45:00 +0500
 
 ---
--   Nginx
--   HAProxy
--   Envoy (winner in benchmark)
--   Traefic
--   ALB (AWS elastic Load Balancer)
--   Kong
+
+- Nginx
+- HAProxy
+- Envoy (winner in benchmark)
+- Traefic
+- ALB (AWS elastic Load Balancer)
+- Kong
 
 ## HAProxy
 
 HAProxy is a free,veryfast and reliable solution offering[high availability](http://en.wikipedia.org/wiki/High_availability),[load balancing](http://en.wikipedia.org/wiki/Load_balancer), and proxying for TCP and HTTP-based applications. It is particularly suited for very high traffic web sites and powers quite a number of the world's most visited ones.
 
-<https://www.haproxy.com/solutions/load-balancing
+<https://www.haproxy.com/solutions/load-balancing>
 
-<https://www.haproxy.com/blog/the-history-of-haproxy
+<https://www.haproxy.com/blog/the-history-of-haproxy>
 
-<https://blog.opstree.com/2020/08/18/haproxy-hurdles-walkthrough
+<https://blog.opstree.com/2020/08/18/haproxy-hurdles-walkthrough>
 
 ## Keepalived
 

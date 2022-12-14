@@ -28,14 +28,14 @@ Modified: 2020-12-23 12:16:34 +0500
 
 | **Name**              | **Description**                                                                                                                                                                                                                                 |
 |----------------|--------------------------------------------------------|
-| **__LINE__**      | The current line number of the file.                                                                                                                                                                                                            |
-| **__FILE__**      | The full path and filename of the file with symlinks resolved. If used inside an include, the name of the included file is returned.                                                                                                            |
-| **__DIR__**       | The directory of the file. If used inside an include, the directory of the included file is returned. This is equivalent todirname(__FILE__). This directory name does not have a trailing slash unless it is the root directory.          |
-| **__FUNCTION__**  | The function name, or{closure}for anonymous functions.                                                                                                                                                                                        |
-| **__CLASS__**     | The class name. The class name includes the namespace it was declared in (e.g.FooBar). Note that as of PHP 5.4 __CLASS__ works also in traits. When used in a trait method, __CLASS__ is the name of the class the trait is used in. |
-| **__TRAIT__**     | The trait name. The trait name includes the namespace it was declared in (e.g.FooBar).                                                                                                                                                       |
-| **__METHOD__**    | The class method name.                                                                                                                                                                                                                          |
-| **__NAMESPACE__** | The name of the current namespace.                                                                                                                                                                                                              |
+| ****LINE****      | The current line number of the file.                                                                                                                                                                                                            |
+| ****FILE****      | The full path and filename of the file with symlinks resolved. If used inside an include, the name of the included file is returned.                                                                                                            |
+| ****DIR****       | The directory of the file. If used inside an include, the directory of the included file is returned. This is equivalent todirname(**FILE**). This directory name does not have a trailing slash unless it is the root directory.          |
+| ****FUNCTION****  | The function name, or{closure}for anonymous functions.                                                                                                                                                                                        |
+| ****CLASS****     | The class name. The class name includes the namespace it was declared in (e.g.FooBar). Note that as of PHP 5.4 **CLASS** works also in traits. When used in a trait method, **CLASS** is the name of the class the trait is used in. |
+| ****TRAIT****     | The trait name. The trait name includes the namespace it was declared in (e.g.FooBar).                                                                                                                                                       |
+| ****METHOD****    | The class method name.                                                                                                                                                                                                                          |
+| ****NAMESPACE**** | The name of the current namespace.                                                                                                                                                                                                              |
 | **ClassName::class**  | The fully qualified class name. See also[::class](https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class).                                                                                                      |
 
 <https://www.php.net/manual/en/language.constants.predefined.php>
@@ -50,27 +50,28 @@ All PHP code must be included inside one of the three special markup tags ATE ar
 
 <%...%> #ASP-style tags
 
-
--   PHP is whitespace insensitive
--   PHP is case sensitive
--   Statements are expressions terminated by semicolons
--   Braces make blocks
+- PHP is whitespace insensitive
+- PHP is case sensitive
+- Statements are expressions terminated by semicolons
+- Braces make blocks
 
 ## Variables
 
 The main way to store information in the middle of a PHP program is by using a variable.
--   All variables in PHP are denoted with a leading dollar sign ($).
--   The value of a variable is the value of its most recent assignment.
--   Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.
--   Variables can, but do not need, to be declared before assignment.
--   Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.
--   Variables used before they are assigned have default values.
--   PHP does a good job of automatically converting types from one to another when necessary.
--   PHP variables are Perl-like.
+
+- All variables in PHP are denoted with a leading dollar sign ($).
+- The value of a variable is the value of its most recent assignment.
+- Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right.
+- Variables can, but do not need, to be declared before assignment.
+- Variables in PHP do not have intrinsic types - a variable does not know in advance whether it will be used to store a number or a string of characters.
+- Variables used before they are assigned have default values.
+- PHP does a good job of automatically converting types from one to another when necessary.
+- PHP variables are Perl-like.
 
 ## Predefined variables
--   PHP Superglobals
--   Server variables: $_SERVER
+
+- PHP Superglobals
+- Server variables: $_SERVER
 
 $_SERVER is an array containing information such as headers, paths, and script locations. The entries in this array are created by the web server. There is no guarantee that every web server will provide any of these.
 
@@ -79,35 +80,38 @@ $_SERVER is an array containing information such as headers, paths, and script l
 ## Data Types
 
 PHP has a total of **eight data types** which we use to construct our variables
--   **Integers**
+
+- **Integers**
 
 are whole numbers, without a decimal point, like 4195
--   **Doubles**
+
+- **Doubles**
 
 are floating-point numbers, like 3.14159 or 49.1
--   **Booleans**
+
+- **Booleans**
 
 have only two possible values either true or false
 
 Here are the rules for determine the "truth" of any value not already of the Boolean type
--   If the value is a number, it is false if exactly equal to zero and true otherwise.
--   If the value is a string, it is false if the string is empty (has zero characters) or is the string "0", and is true otherwise.
--   Values of type NULL are always false.
--   If the value is an array, it is false if it contains no other values, and it is true otherwise. For an object, containing a value means having a member variable that has been assigned a value.
--   Valid resources are true (although some functions that return resources when they are successful will return FALSE when unsuccessful).
--   Don't use double as Booleans.
 
+- If the value is a number, it is false if exactly equal to zero and true otherwise.
+- If the value is a string, it is false if the string is empty (has zero characters) or is the string "0", and is true otherwise.
+- Values of type NULL are always false.
+- If the value is an array, it is false if it contains no other values, and it is true otherwise. For an object, containing a value means having a member variable that has been assigned a value.
+- Valid resources are true (although some functions that return resources when they are successful will return FALSE when unsuccessful).
+- Don't use double as Booleans.
 
--   **NULL**
+- **NULL**
 
 is a special type that only has one value: NULL
 
 A variable that has been assigned NULL has the following properties −
--   It evaluates to FALSE in a Boolean context.
--   It returns FALSE when tested with IsSet() function.
 
+- It evaluates to FALSE in a Boolean context.
+- It returns FALSE when tested with IsSet() function.
 
--   **Strings**
+- **Strings**
 
 are sequences of characters, like 'PHP supports string operations.'
 
@@ -127,39 +131,35 @@ echo strpos("Hello world!","world");
 
 >>> 6
 
-
--   **Arrays**
+- **Arrays**
 
 Are named and indexed collections of other values
 
 ## An array in PHP is actually an ordered map
 
 There are three different kind of arrays and each array value is accessed using an ID c which is called array index.
--   **Numeric array**
+
+- **Numeric array**
 
 An array with a numeric index. Values are stored and accessed in linear fashion.
 
 $numbers = array( 1, 2, 3, 4, 5);
 
-
--   **Associative array**
+- **Associative array**
 
 An array with strings as index. This stores element values in association with key values rather than in a strict linear index order
 
 $salaries = array("mohammad" => 2000, "qadir" => 1000, "zara" => 500);
 
-
--   **Multidimensional array−** An array containing one or more arrays and values are accessed using multiple indices
+- **Multidimensional array−** An array containing one or more arrays and values are accessed using multiple indices
 
 <https://www.tutorialspoint.com/php/php_arrays.htm>
 
-
--   **Objects**
+- **Objects**
 
 are instances of programmer-defined classes, which can package up both other kinds of values and functions that are specific to the class.
 
-
--   **Resources**
+- **Resources**
 
 are special variables that hold references to resources external to PHP (such as database connections).
 
@@ -168,12 +168,14 @@ The first five aresimple types, and the next two (arrays and objects) are compou
 ## Scope
 
 Scope can be defined as the range of availability a variable has to the program in which it is declared. PHP variables can be one of four scope types
--   [Local variables](https://www.tutorialspoint.com/php/php_local_variables.htm)
--   [Function parameters](https://www.tutorialspoint.com/php/php_function_parameters.htm)
--   [Global variables](https://www.tutorialspoint.com/php/php_global_variables.htm)
+
+- [Local variables](https://www.tutorialspoint.com/php/php_local_variables.htm)
+- [Function parameters](https://www.tutorialspoint.com/php/php_function_parameters.htm)
+- [Global variables](https://www.tutorialspoint.com/php/php_global_variables.htm)
 
 Use GLOBAL keyword
--   [Static variables](https://www.tutorialspoint.com/php/php_static_variables.htm)
+
+- [Static variables](https://www.tutorialspoint.com/php/php_static_variables.htm)
 
 In contrast to the variables declared as function parameters, which are destroyed on the function's exit, a static variable will not lose its value when the function exits and will still hold that value should the function be called again.
 
@@ -188,16 +190,17 @@ To define a constant you have to use define() function and to retrieve the value
 Only scalar data (boolean, integer, float and string) can be contained in constants.
 
 ## Differences between constants and variables are
--   There is no need to write a dollar sign ($) before a constant, where as in Variable one has to write a dollar sign.
--   Constants cannot be defined by simple assignment, they may only be defined using the define() function.
--   Constants may be defined and accessed anywhere without regard to variable scoping rules.
--   Once the Constants have been set, may not be redefined or undefined.
+
+- There is no need to write a dollar sign ($) before a constant, where as in Variable one has to write a dollar sign.
+- Constants cannot be defined by simple assignment, they may only be defined using the define() function.
+- Constants may be defined and accessed anywhere without regard to variable scoping rules.
+- Once the Constants have been set, may not be redefined or undefined.
 
 ## PHP Magic constants
 
 PHP provides a large number of predefined constants to any script which it runs.
 
-There are five magical constants that change depending on where they are used. For example, the value of __LINE__ depends on the line that it's used on in your script. These special constants are case-insensitive and are as follows −
+There are five magical constants that change depending on where they are used. For example, the value of **LINE** depends on the line that it's used on in your script. These special constants are case-insensitive and are as follows −
 
 A few "magical" PHP constants are given below −
 
@@ -244,19 +247,21 @@ A few "magical" PHP constants are given below −
 ## Decision Making
 
 PHP supports following three decision making statements
--   **if...else statement−** use this statement if you want to execute a set of code when a condition is true and another if the condition is not true
--   **elseif statement−** is used with the if...else statement to execute a set of code ifoneof the several condition is true
--   **switch statement−** is used if you want to select one of many blocks of code to be executed, use the Switch statement. The switch statement is used to avoid long blocks of if..elseif..else code.
+
+- **if...else statement−** use this statement if you want to execute a set of code when a condition is true and another if the condition is not true
+- **elseif statement−** is used with the if...else statement to execute a set of code ifoneof the several condition is true
+- **switch statement−** is used if you want to select one of many blocks of code to be executed, use the Switch statement. The switch statement is used to avoid long blocks of if..elseif..else code.
 
 <https://www.tutorialspoint.com/php/php_decision_making.htm>
 
 ## Loops
 
 PHP supports following four loop types.
--   **for−** loops through a block of code a specified number of times.
--   **while−** loops through a block of code if and as long as a specified condition is true.
--   **do...while−** loops through a block of code once, and then repeats the loop as long as a special condition is true.
--   **foreach−** loops through a block of code for each element in an array.
+
+- **for−** loops through a block of code a specified number of times.
+- **while−** loops through a block of code if and as long as a specified condition is true.
+- **do...while−** loops through a block of code once, and then repeats the loop as long as a special condition is true.
+- **foreach−** loops through a block of code for each element in an array.
 
 ## break
 
@@ -290,7 +295,7 @@ Any changes made to an argument in these cases will change the value of the orig
 $num += 5;
 }
 
-## function** addSix(**&$num) {
+## function**addSix(**&$num) {
 $num += 6;
 }
 
@@ -338,8 +343,9 @@ $function_holder();
 ## PHP Regular Expressions
 
 PHP offers functions specific to two sets of regular expression functions, each corresponding to a certain type of regular expression
--   POSIX Regular Expressions
--   PERL Style Regular Expressions
+
+- POSIX Regular Expressions
+- PERL Style Regular Expressions
 
 <https://www.tutorialspoint.com/php/php_regular_expression.htm>
 
@@ -356,10 +362,11 @@ Once a file is opened usingfopen()function it can be read with a function called
 The files length can be found using thefilesize()function which takes the file name as its argument and returns the size of the file expressed in bytes.
 
 So here are the steps required to read a file with PHP.
--   Open a file usingfopen()function.
--   Get the file's length usingfilesize()function.
--   Read the file's content usingfread()function.
--   Close the file withfclose()function.
+
+- Open a file usingfopen()function.
+- Get the file's length usingfilesize()function.
+- Read the file's content usingfread()function.
+- Close the file withfclose()function.
 
 ## Writing a file
 

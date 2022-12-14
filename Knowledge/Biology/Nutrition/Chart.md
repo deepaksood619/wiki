@@ -59,10 +59,11 @@ Modified: 2021-08-14 10:17:18 +0500
 | Added sugar                                                                                                                                                                                                             | No more than 25% of calories                                                                                   |                     | non-natural sweet foods: sweets, cookies, cakes, jams, energy and soda drinks, many processed foods                                                                                                                                                                                                                                 |
 
 ## Legend
--   **Estimated Average Requirements**(EAR)
--   **Recommended Dietary Allowances**(RDA)
--   **Adequate Intake**(AI)
--   **Tolerable upper intake levels**(UL)
+
+- **Estimated Average Requirements**(EAR)
+- **Recommended Dietary Allowances**(RDA)
+- **Adequate Intake**(AI)
+- **Tolerable upper intake levels**(UL)
 
 <table>
 <colgroup>

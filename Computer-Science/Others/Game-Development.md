@@ -13,7 +13,8 @@ Modified: 2022-11-23 22:57:58 +0500
 <https://www.freecodecamp.org/news/create-a-arcade-style-shooting>
 
 ## Tools**
--   Blender
+
+- Blender
 
 <https://www.blender.org>-   Agones
 

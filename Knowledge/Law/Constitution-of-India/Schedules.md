@@ -36,84 +36,88 @@ M - Muncipality
 
 ## List of Schedules of Indian Constitution
 
-1.  First Schedule of Indian Constitution
+1. First Schedule of Indian Constitution
 
 It contains the name of States and Union **Territories**
 
 Territorial Jurisdiction of states is also included
 
-2.  Second Schedule of Indian Constitution
+2. Second Schedule of Indian Constitution
 
 The provisions in relation to allowances, privileges, **emoluments** of:
--   [President of India](https://byjus.com/free-ias-prep/president/)
--   [Governors](https://byjus.com/free-ias-prep/governor/)of Indian States
--   [Speaker of Lok Sabha](https://byjus.com/free-ias-prep/speaker-roles-responsibility-rstv-in-depth/)& Deputy Speaker of Lok Sabha
--   Chairman of Rajya Sabha & Deputy Chairman of Rajya Sabha
--   Speaker and Deputy Speaker of Legislative Assemblies of Indian States
--   Chairman and Deputy Chairman of Legislative Councils of the Indian States
--   Supreme Court Judges
--   High Court Judges
--   [Comptroller & Auditor General of India (CAG)](https://byjus.com/free-ias-prep/the-comptroller-and-auditor-general-of-india/)
 
-3.  Third Schedule
+- [President of India](https://byjus.com/free-ias-prep/president/)
+- [Governors](https://byjus.com/free-ias-prep/governor/)of Indian States
+- [Speaker of Lok Sabha](https://byjus.com/free-ias-prep/speaker-roles-responsibility-rstv-in-depth/)& Deputy Speaker of Lok Sabha
+- Chairman of Rajya Sabha & Deputy Chairman of Rajya Sabha
+- Speaker and Deputy Speaker of Legislative Assemblies of Indian States
+- Chairman and Deputy Chairman of Legislative Councils of the Indian States
+- Supreme Court Judges
+- High Court Judges
+- [Comptroller & Auditor General of India (CAG)](https://byjus.com/free-ias-prep/the-comptroller-and-auditor-general-of-india/)
+
+3. Third Schedule
 
 It contains the forms of oath and **affirmations** for:
--   Union Ministers of India
--   Parliament Election Candidates
--   Members of Parliament (MPs)
--   [Supreme Court](https://byjus.com/free-ias-prep/supreme-court-of-india/)Judges
--   Comptroller and Auditor General
--   State Ministers
--   State Legislature Elections' Candidates
--   State Legislature Members
--   [High Court](https://byjus.com/free-ias-prep/high-court/)Judges
 
-4.  Fourth Schedule
+- Union Ministers of India
+- Parliament Election Candidates
+- Members of Parliament (MPs)
+- [Supreme Court](https://byjus.com/free-ias-prep/supreme-court-of-india/)Judges
+- Comptroller and Auditor General
+- State Ministers
+- State Legislature Elections' Candidates
+- State Legislature Members
+- [High Court](https://byjus.com/free-ias-prep/high-court/)Judges
+
+4. Fourth Schedule
 
 It contains the provisions in relation to the allocation of seats for States and Union Territories in the[**Rajya Sabha**](https://byjus.com/free-ias-prep/the-rajya-sabha/)
 
-5.  Fifth Schedule
+5. Fifth Schedule
 
 It contains provisions in relation to the administration and control of **scheduled areas and scheduled tribes**
 
-6.  Sixth Schedule
+6. Sixth Schedule
 
 It contains provisions in relation to the administration of tribal areas in the states of Assam, Meghalaya, Tripura and Mizoram
 
-7.  Seventh Schedule
+7. Seventh Schedule
 
-## Federal Structure - This schedule deals with the three legislative lists:
--   Union
--   State
--   Concurrent
+## Federal Structure - This schedule deals with the three legislative lists
 
-8.  [Eighth Schedule](https://byjus.com/free-ias-prep/list-of-languages-in-the-8th-schedule/)
+- Union
+- State
+- Concurrent
+
+8. [Eighth Schedule](https://byjus.com/free-ias-prep/list-of-languages-in-the-8th-schedule/)
 
 It deals with the 22 **official languages** recognized by the Indian Constitution:
--   Assamese
--   Bengali
--   Bodo
--   Dogri (Dongri)
--   Gujarati
--   Hindi
--   Kannada
--   Kashmiri
--   Konkani
--   Mathili (Maithili)
--   Malayalam
--   Manipuri
--   Marathi
--   Nepali
--   Oriya
--   Punjabi
--   Sanskrit
--   Santhali
--   Sindhi
--   Tamil
--   Telugu
--   Urdu
 
-9.  Ninth Schedule
+- Assamese
+- Bengali
+- Bodo
+- Dogri (Dongri)
+- Gujarati
+- Hindi
+- Kannada
+- Kashmiri
+- Konkani
+- Mathili (Maithili)
+- Malayalam
+- Manipuri
+- Marathi
+- Nepali
+- Oriya
+- Punjabi
+- Sanskrit
+- Santhali
+- Sindhi
+- Tamil
+- Telugu
+- Urdu
+
+9. Ninth Schedule
 
 It deals with the state acts and regulations of that deal with **land reforms** and abolition of the[zamindari system](https://byjus.com/free-ias-prep/post-independent-india-zamindari-system-and-kisan-sabha/). It also deals with the acts and regulations of the Parliament dealing with other matters.
 
@@ -278,6 +282,6 @@ Aspirants should know about the Constitutional Articles related with the Schedul
 </tbody>
 </table>
 
-<https://byjus.com/free-ias-prep/schedules-indian-constitution
+<https://byjus.com/free-ias-prep/schedules-indian-constitution>
 
-<https://www.clearias.com/schedules-indian-constitution
+<https://www.clearias.com/schedules-indian-constitution>

@@ -21,8 +21,6 @@ payload = {'cust_id': cust_id}
 
 resp = requests.get('http://localhost/score', params=payload, timeout=1)
 
-
-
 ## With Query String
 
 import requests
@@ -47,7 +45,7 @@ response = requests.post(url, headers=headers, json=json_obj)
 
 print(response.text)
 
-<https://julien.danjou.info/python-and-fast-http-clients
+<https://julien.danjou.info/python-and-fast-http-clients>
 
 ## httpx
 

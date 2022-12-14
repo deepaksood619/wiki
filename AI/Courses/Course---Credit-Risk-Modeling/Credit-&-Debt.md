@@ -7,10 +7,11 @@ Modified: 2021-11-01 23:44:31 +0500
 ---
 
 ## Credit Risk
--   Credit risk is the possibility of losing a lender takes on due to the possibility of a borrower not paying back a loan.
--   Consumer credit risk can be measured by the five Cs: credit history, capacity to repay, capital, the loan's conditions, and associated collateral.
--   Consumers posing higher credit risks usually end up paying higher interest rates on loans.
--   If it has a low rating (B or C), the issuer has a high risk of default. Conversely, if it has a high rating (AAA, AA, or A), it's considered to be a safe investment.
+
+- Credit risk is the possibility of losing a lender takes on due to the possibility of a borrower not paying back a loan.
+- Consumer credit risk can be measured by the five Cs: credit history, capacity to repay, capital, the loan's conditions, and associated collateral.
+- Consumers posing higher credit risks usually end up paying higher interest rates on loans.
+- If it has a low rating (B or C), the issuer has a high risk of default. Conversely, if it has a high rating (AAA, AA, or A), it's considered to be a safe investment.
 
 <https://www.investopedia.com/terms/c/creditrisk.asp>
 
@@ -18,25 +19,25 @@ Modified: 2021-11-01 23:44:31 +0500
 
 Default risk is the chance that a company or individual will be unable to make the required payments on their debt[obligation](https://www.investopedia.com/terms/o/obligation.asp). Lenders and investors are exposed to default risk in virtually all forms of credit extensions. A higher level of risk leads to a higher required return, and in turn, a higher interest rate.
 
-
--   A free cash flow figure that is near zero or negative indicates that the company may be having trouble generating the cash necessary to deliver on promised payments, and this could indicate higher default risk.
--   Default risk can be gauged using standard measurement tools, including FICO scores for consumer credit, and credit ratings by the likes of S&P and Moody's for corporate and government debt issues
+- A free cash flow figure that is near zero or negative indicates that the company may be having trouble generating the cash necessary to deliver on promised payments, and this could indicate higher default risk.
+- Default risk can be gauged using standard measurement tools, including FICO scores for consumer credit, and credit ratings by the likes of S&P and Moody's for corporate and government debt issues
 
 <https://www.investopedia.com/terms/d/defaultrisk.asp>
 
 ## Default Rate
--   The default rate is the percentage of all outstanding loans that a lender has written off after a prolonged period of missed payments.
--   A loan is typically declared in default if payment is 270 days late.
--   [Defaulted loans](https://www.investopedia.com/ask/answers/062315/what-are-differences-between-delinquency-and-default.asp)are typically written off from an issuer's financial statements and transferred to a collection agency.
--   Default rates are an important statistical measure used by economists to assess the overall health of the economy.﻿
--   A default record stays on the consumer's credit report for six years, even if the amount is eventually paid.
--   [Indexes from S&P/Experian](https://us.spindices.com/index-family/specialty/consumer-credit-default)include the following:
-    -   The S&P/Experian Consumer Credit Default Composite Index
-    -   The S&P/Experian First Mortgage Default Index
-    -   The S&P/Experian Second Mortgage Default Index
-    -   The S&P/Experian Auto Default Index
-    -   The S&P/Experian Bankcard Default Index
--   Bank credit cards tend to have the highest default rate
+
+- The default rate is the percentage of all outstanding loans that a lender has written off after a prolonged period of missed payments.
+- A loan is typically declared in default if payment is 270 days late.
+- [Defaulted loans](https://www.investopedia.com/ask/answers/062315/what-are-differences-between-delinquency-and-default.asp)are typically written off from an issuer's financial statements and transferred to a collection agency.
+- Default rates are an important statistical measure used by economists to assess the overall health of the economy.
+- A default record stays on the consumer's credit report for six years, even if the amount is eventually paid.
+- [Indexes from S&P/Experian](https://us.spindices.com/index-family/specialty/consumer-credit-default)include the following:
+  - The S&P/Experian Consumer Credit Default Composite Index
+  - The S&P/Experian First Mortgage Default Index
+  - The S&P/Experian Second Mortgage Default Index
+  - The S&P/Experian Auto Default Index
+  - The S&P/Experian Bankcard Default Index
+- Bank credit cards tend to have the highest default rate
 
 ## Delinquency Rate
 
@@ -75,9 +76,10 @@ Notching is the practice by rating agencies to give different[credit ratings](ht
 ## Credit Rating Agencies
 
 Both Experian and Equifax rely on a FICO score, which provides a score from 300 to 850 based on an algorithm.
--   Experian
--   Equifax
--   CIBIL
+
+- Experian
+- Equifax
+- CIBIL
 
 ## Closed-End Credit
 
@@ -94,11 +96,12 @@ Common types of closed-end credit instruments include[mortgages](https://www.inv
 A[line of credit](https://www.investopedia.com/terms/l/lineofcredit.asp)is a type of open-end credit. Under a line of credit agreement, the consumer takes out a loan that allows payment for expenses using special[checks](https://www.investopedia.com/terms/c/check.asp)or, increasingly, a plastic card. The issuing bank agrees to pay on any checks written on or charges against the account, up to a certain sum.
 
 ## Revolving credit and Line of credit
--   A revolving line of credit is a dynamic financial product, as you pay the credit down, you may be offered more credit to spend, especially if you make regular, consistent payments on a revolving credit account.
--   A line of credit is a one-time financial arrangement or a static product. When you have spent the set amount of credit, the account is closed.
--   Personal loans or loans tailored to a home or automobile may offer better rates, and more security for the borrower, than a line of credit.
--   Both revolving credit and credit lines come in unsecured and secured versions.
--   Revolving credit or a line of credit both have many of the same risks as credit cards.
+
+- A revolving line of credit is a dynamic financial product, as you pay the credit down, you may be offered more credit to spend, especially if you make regular, consistent payments on a revolving credit account.
+- A line of credit is a one-time financial arrangement or a static product. When you have spent the set amount of credit, the account is closed.
+- Personal loans or loans tailored to a home or automobile may offer better rates, and more security for the borrower, than a line of credit.
+- Both revolving credit and credit lines come in unsecured and secured versions.
+- Revolving credit or a line of credit both have many of the same risks as credit cards.
 
 <https://www.investopedia.com/ask/answers/110614/what-are-differences-between-revolving-credit-and-line-credit.asp>
 
@@ -107,9 +110,10 @@ A[line of credit](https://www.investopedia.com/terms/l/lineofcredit.asp)is a typ
 A charge-off is a debt, for example on a credit card, that is deemed unlikely to be collected by the creditor because the borrower has become substantially delinquent after a period of time. However, a charge-off does not mean a write-off of the debt entirely.What does having a charge-off mean? For starters, it can mean serious repercussions on your credit and future borrowing ability.
 
 A charge-off usually occurs when the creditor has deemed anoutstanding debt isuncollectible; this typically follows 180 days or six months of non-payment. In addition, debt payments that fall below the required minimum payment for the period will also be charged off if the debtor does not make up for the shortfall. The creditor crosses off the consumer's debt as uncollectible and marks it on the consumer's[credit report](https://www.investopedia.com/terms/c/creditreport.asp)as a charge-off.
--   Charged-off debt does not mean that the consumer does not have to repay the debt anymore.
--   After a lender has charged off a debt, it could sell the debt to a third-party collections agency that would attempt to collect on the delinquent account.
--   Basically, a consumer owes the debt until it is paid off, settled, discharged in a bankruptcy proceeding, or in case of legal proceedings, becomes too old due to the statute of limitations.
+
+- Charged-off debt does not mean that the consumer does not have to repay the debt anymore.
+- After a lender has charged off a debt, it could sell the debt to a third-party collections agency that would attempt to collect on the delinquent account.
+- Basically, a consumer owes the debt until it is paid off, settled, discharged in a bankruptcy proceeding, or in case of legal proceedings, becomes too old due to the statute of limitations.
 
 <https://www.investopedia.com/terms/c/chargeoff.asp>
 
@@ -132,8 +136,9 @@ Cure Rateis a metric used in the context of[Non-Performing Loan](https://www.ope
 Given the possibility that acuredcredit asset can relapse into delinquency, (Re-Default Rate) the time horizon over which the cure rate is defined must be explicit. Borrowers that go directly into default without any cure period are said be in[Direct Default](https://www.openriskmanual.org/wiki/Direct_Default)
 
 Cure of arrears on facilities presenting arrears could take place either
--   through forbearance measures of the credit facility (forborne cure) or
--   naturally without modification of the original terms of the credit facility (natural cure).
+
+- through forbearance measures of the credit facility (forborne cure) or
+- naturally without modification of the original terms of the credit facility (natural cure).
 
 <https://www.openriskmanual.org/wiki/Cure_Rate>
 
@@ -187,10 +192,9 @@ Comprehensively, trade lines are used by credit reporting agencies to calculate 
 
 Vintage is a slang term used by[mortgage-backed security](https://www.investopedia.com/terms/m/mbs.asp)(MBS) traders and investors to refer to an MBS that is seasoned over some time period. An MBS typically has a[maturity](https://www.investopedia.com/terms/m/maturity.asp)of around 30 years, and a particular issue's "vintage" exposes the holder to less prepayment and default risk, although this decreased risk also limits price appreciation.
 
-
--   Vintage is a colloquial term used to describe mortgage-backed securities (MBS) that have been "seasoned."
--   That is, they've been issued long enough, and enough on-time payments have been made, that the risk of default is lower.
--   Vintage is the age of an item as it relates to the year it was created. It's a way to assess the inherent risk of an MBS.
--   Two MBS with the same vintage may have different levels of assumed risk, however, and as a result, different perceived values.
+- Vintage is a colloquial term used to describe mortgage-backed securities (MBS) that have been "seasoned."
+- That is, they've been issued long enough, and enough on-time payments have been made, that the risk of default is lower.
+- Vintage is the age of an item as it relates to the year it was created. It's a way to assess the inherent risk of an MBS.
+- Two MBS with the same vintage may have different levels of assumed risk, however, and as a result, different perceived values.
 
 <https://www.investopedia.com/terms/v/vintage.asp>

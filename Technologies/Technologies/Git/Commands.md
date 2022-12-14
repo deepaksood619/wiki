@@ -177,27 +177,29 @@ git update-index --no-assume-unchanged path/to/file
 
 ## Gitlab revert/reset
 
-1.  unprotect the branch
+1. unprotect the branch
 
-2.  git reset cba55c24dfe8fe96ae3abe6b38888bd12bb97980 (the commit you want to go to)
+2. git reset cba55c24dfe8fe96ae3abe6b38888bd12bb97980 (the commit you want to go to)
 
-3.  git reset --hard
+3. git reset --hard
 
-4.  git push -f origin master
+4. git push -f origin master
 
 ## Revert
--   Rollback changesyou have committed.
--   Creates anew commitfrom a specified commit by inverting it. Hence, adds a new commit history to the project, but it does not modify the existing one.
--   Has the potential to overwrite files in the working directory.
+
+- Rollback changesyou have committed.
+- Creates anew commitfrom a specified commit by inverting it. Hence, adds a new commit history to the project, but it does not modify the existing one.
+- Has the potential to overwrite files in the working directory.
 
 git revert HEAD~1
 
 <https://git-scm.com/docs/git-revert>
 
 ## Reset
--   Use this toreturntheentireworking tree to the last committed state.This will discard commits in a private branch or throw away uncommitted changes!
--   Changes which commit a branch HEAD is currently pointing at. It alters the existing commit history.
--   Can be used tounstagea file.
+
+- Use this toreturntheentireworking tree to the last committed state.This will discard commits in a private branch or throw away uncommitted changes!
+- Changes which commit a branch HEAD is currently pointing at. It alters the existing commit history.
+- Can be used tounstagea file.
 
 ## Reset head
 
@@ -212,12 +214,14 @@ git reset HEAD~ (revert a last commit with changes shown)
 git reset HEAD~ --hard (Revert a last commit with all changes removed)
 
 Tilde vs Caret
--   Use~most of the time --- to go back a number of generations, usually what you want
--   Use^on merge commits --- because they have two or more (immediate) parents
+
+- Use~most of the time --- to go back a number of generations, usually what you want
+- Use^on merge commits --- because they have two or more (immediate) parents
 
 Mnemonics:
--   Tilde~is almost linear in appearance and wants to go backward in a straight line
--   Caret^suggests an interesting segment of a tree or a fork in the road
+
+- Tilde~is almost linear in appearance and wants to go backward in a straight line
+- Caret^suggests an interesting segment of a tree or a fork in the road
 
 ![Referencing commits from HEAD using and A HEAD HEAD-I or HEADAI HEAD-IA2 HEAD-2 or HEAD-IA 1 HEAD-3 or HEAD-YI etc... Fifth commit on master Merge branch 'my _ branch' First commit on branch Fourth commit on master Third commit on master Second commit on master First commit on master ...etc ](../../media/Technologies-Git-Commands-image1.png)
 
@@ -275,8 +279,6 @@ git log --oneline --graph
 
 ![enter image description here](../../media/Technologies-Git-Commands-image2.jpg)
 
-
-
 ## Move the last commit to a new branch
 
 If you commit to the current branch when instead you wanted to commit to a new branch, you can easily correct your mistake.
@@ -284,9 +286,11 @@ If you commit to the current branch when instead you wanted to commit to a new b
 For example if you made your commit to masterinstead oftest:
 
 # create new branch from current HEAD but stays on master
+
 $ git branch test
 
 # reset master to before last commit
+
 $ git reset --hard HEAD~
 
 # continue on new branch
@@ -322,14 +326,17 @@ The--forceoption is needed if the commits have already been pushed, in order for
 ## Reverting The Working Copy to an Older Commit
 
 # Resets index to former commit; replace '56e05fced' with your commit code
+
 git reset 56e05fced
 
 # Moves pointer back to previous HEAD
+
 git reset --soft HEAD@{1}
 
 git commit -m "Revert to 56e05fced"
 
 # Updates working copy to reflect the new commit
+
 git reset --hard
 
 ## Git stashing
@@ -385,10 +392,11 @@ git submodule add <http://github.com/submodule>
 git grep "the magic string" `git show-ref --heads'
 
 ## Checkout
--   Use this to move the[HEAD pointer](https://kolosek.com/git-branches/)to a specific commit orswitchbetween branches.
--   Itrollbacksany content changes to those of the specific commit.
--   This willnotmake changes to the commit history.
--   Has potential tooverwritefiles in the working directory.
+
+- Use this to move the[HEAD pointer](https://kolosek.com/git-branches/)to a specific commit orswitchbetween branches.
+- Itrollbacksany content changes to those of the specific commit.
+- This willnotmake changes to the commit history.
+- Has potential tooverwritefiles in the working directory.
 
 ## Cleanup branches
 
@@ -418,7 +426,7 @@ git push --force origin master
 
 # brew install coreutils
 
-## # This shell script displays all blob objects in the repository, sorted from smallest to largest.
+## # This shell script displays all blob objects in the repository, sorted from smallest to largest
 
 git rev-list --objects --all
 | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)'
@@ -427,7 +435,7 @@ git rev-list --objects --all
 | cut -c 1-12,41-
 | $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
 
-<https://passingcuriosity.com/2017/truncating-git-history
+<https://passingcuriosity.com/2017/truncating-git-history>
 
 [**https://github.com/newren/git-filter-repo**](https://github.com/newren/git-filter-repo)
 

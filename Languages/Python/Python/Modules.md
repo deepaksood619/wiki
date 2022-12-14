@@ -38,7 +38,7 @@ return pizza
 
 ## file - making_pizzas.py
 
-## Every function in the module is available in the program file.
+## Every function in the module is available in the program file
 
 import pizza
 
@@ -46,7 +46,7 @@ pizza.make_pizza(1, 'onion', 'tomato')
 
 ## Importing a specific function
 
-## Only the imported functions are available in the program file.
+## Only the imported functions are available in the program file
 
 from pizza import make_pizza
 

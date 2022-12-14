@@ -10,35 +10,35 @@ Youtube - Athlean X
 
 ![image](media/Exercise---Stretching_Home-Exercise-Routine-image1.jpg)
 
-<https://in.pinterest.com/pin/thin-body-workout--801077852487590084
+<https://in.pinterest.com/pin/thin-body-workout--801077852487590084>
 
-1.  Shoulder rolls - from back, start small movements to large movements
+1. Shoulder rolls - from back, start small movements to large movements
 
 ![](media/Exercise---Stretching_Home-Exercise-Routine-image2.png)
 
-2.  Overhead reach - Reaching side to side
+2. Overhead reach - Reaching side to side
 
 ![](media/Exercise---Stretching_Home-Exercise-Routine-image3.png)
 
-3.  Torso rotation with a reach - lift your toes so you don't twist your back
+3. Torso rotation with a reach - lift your toes so you don't twist your back
 
 ![](media/Exercise---Stretching_Home-Exercise-Routine-image4.png)
 
-4.  Hamstring curls with arms
+4. Hamstring curls with arms
 
 ![](media/Exercise---Stretching_Home-Exercise-Routine-image5.png)
 
-5.  Knee lifts
+5. Knee lifts
 
 ![(`츻냐 ](media/Exercise---Stretching_Home-Exercise-Routine-image6.png)
 
-6.  Surya Namaskar - 3 rounds
+6. Surya Namaskar - 3 rounds
 
-7.  Hand rolls
+7. Hand rolls
 
-8.  Neck rolls
+8. Neck rolls
 
-9.  Folded hand rolls
+9. Folded hand rolls
 
 10. Ankle rolls
 

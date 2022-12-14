@@ -9,7 +9,8 @@ Modified: 2022-08-12 12:39:56 +0500
 AWS SDK for python
 
 ## Security
--   There should never be a need to put access credentials in your code (it is bad for security). If the code is running on an Amazon EC2 instance, simply assign an IAM Role to the instance. If the code is running on your own computer, use the[AWS Command-Line Interface (CLI)](http://aws.amazon.com/cli/)aws configurecommand to store the credentials in a local configuration file.
+
+- There should never be a need to put access credentials in your code (it is bad for security). If the code is running on an Amazon EC2 instance, simply assign an IAM Role to the instance. If the code is running on your own computer, use the[AWS Command-Line Interface (CLI)](http://aws.amazon.com/cli/)aws configurecommand to store the credentials in a local configuration file.
 
 # Catching Exceptions
 
@@ -25,12 +26,11 @@ print("User already exists")
 else:
 print("Unexpected error: %s" % e)
 
-
--   ['Error']['Code']e.g. 'EntityAlreadyExists' or 'ValidationError'
--   ['ResponseMetadata']['HTTPStatusCode']e.g. 400
--   ['ResponseMetadata']['RequestId']e.g. 'd2b06652-88d7-11e5-99d0-812348583a35'
--   ['Error']['Message']e.g. "An error occurred (EntityAlreadyExists) ..."
--   ['Error']['Type']e.g. 'Sender'
+- ['Error']['Code']e.g. 'EntityAlreadyExists' or 'ValidationError'
+- ['ResponseMetadata']['HTTPStatusCode']e.g. 400
+- ['ResponseMetadata']['RequestId']e.g. 'd2b06652-88d7-11e5-99d0-812348583a35'
+- ['Error']['Message']e.g. "An error occurred (EntityAlreadyExists) ..."
+- ['Error']['Type']e.g. 'Sender'
 
 <https://stackoverflow.com/questions/33068055/how-to-handle-errors-with-boto3>
 
@@ -186,8 +186,6 @@ logging.info(f'response {response}')
 
 return response
 
-
-
 ## # fetch json from s3 using boto3 client
 
 result = client.get_object(Bucket=BUCKET, Key=FILE_TO_READ)
@@ -212,10 +210,12 @@ s3**.**download_file('BUCKET_NAME', 'OBJECT_NAME', 'FILE_NAME')
 
 download_file(Bucket, Key, Filename, ExtraArgs=None, Callback=None, Config=None)
 
-# Download an S3 object to a file.
+# Download an S3 object to a file
 
 s3 **=** boto3**.**client('s3')
-## with** open('FILE_NAME', 'wb') **as f:
+
+## with**open('FILE_NAME', 'wb')**as f
+
 s3**.**download_fileobj('BUCKET_NAME', 'OBJECT_NAME', f)
 
 download_fileobj(Bucket, Key, Fileobj, ExtraArgs=None, Callback=None, Config=None)
@@ -244,13 +244,14 @@ ExpiresIn=settings.REPORT_TTL,
 
 Here's some more detailed information on what[Client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html),[Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html), and[Session](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/session.html)are all about.
 
-## Client:
--   low-level AWS service access
--   generated from AWSservicedescription
--   exposes botocore client to the developer
--   typically maps 1:1 with the AWS service API
--   all AWS service operations are supported by clients
--   snake-cased method names (e.g. ListBuckets API => list_buckets method)
+## Client
+
+- low-level AWS service access
+- generated from AWSservicedescription
+- exposes botocore client to the developer
+- typically maps 1:1 with the AWS service API
+- all AWS service operations are supported by clients
+- snake-cased method names (e.g. ListBuckets API => list_buckets method)
 
 Here's an example of client-level access to an S3 bucket's objects (at most 1000**):
 
@@ -264,13 +265,14 @@ print(content['Key'], obj_dict['LastModified'])
 
 ** you would have to use a[paginator](http://boto3.readthedocs.io/en/latest/guide/paginators.html), or implement your own loop, calling list_objects() repeatedly with a continuation marker if there were more than 1000.
 
-## Resource:
--   higher-level, object-oriented API
--   generated fromresourcedescription
--   uses identifiers and attributes
--   has actions (operations on resources)
--   exposes subresources and collections of AWS resources
--   does not provide 100% API coverage of AWS services
+## Resource
+
+- higher-level, object-oriented API
+- generated fromresourcedescription
+- uses identifiers and attributes
+- has actions (operations on resources)
+- exposes subresources and collections of AWS resources
+- does not provide 100% API coverage of AWS services
 
 Here's the equivalent example using resource-level access to an S3 bucket's objects (all):
 
@@ -285,10 +287,11 @@ Note that in this case you do not have to make a second API call to get the obje
 
 You can see that theResourceversion of the code is much simpler, more compact, and has more capability (it does pagination for you). TheClientversion of the code would actually be more complicated than shown above if you wanted to include pagination.
 
-## Session:
--   stores configuration information (primarily credentials and selected region)
--   allows you to create service clients and resources
--   boto3 creates a default session for you when needed
+## Session
+
+- stores configuration information (primarily credentials and selected region)
+- allows you to create service clients and resources
+- boto3 creates a default session for you when needed
 
 <https://stackoverflow.com/questions/42809096/difference-in-boto3-between-resource-client-and-session>
 

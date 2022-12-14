@@ -6,18 +6,20 @@ Modified: 2022-04-19 22:18:31 +0500
 
 ---
 
-<https://zerodha.com/varsity/chapter/the-debt-funds-part-1
+<https://zerodha.com/varsity/chapter/the-debt-funds-part-1>
 
-<https://zerodha.com/varsity/chapter/government-securities
+<https://zerodha.com/varsity/chapter/government-securities>
 
-<https://www.thefixedincome.com
+<https://www.thefixedincome.com>
 
 ## Debt Funds / Income Funds / Bond Funds
--   <https://www.thefixedincome.com
--   <https://www.bharatbond.in
+
+- <https://www.thefixedincome.com>
+- <https://www.bharatbond.in>
 
 ## MFs
--   Quantum Liquid Fund + ICICI Arbitrage Fund
+
+- Quantum Liquid Fund + ICICI Arbitrage Fund
 
 They are a type of mutual funds that invest primarily in fixed income instruments (such as bonds) issued by government, public and private companies. These funds get interest from these borrowers, which is then reflected in the returns of debt investments.
 
@@ -26,8 +28,9 @@ Debt funds, alternatively known as fixed-income funds or credit funds, come unde
 There are several avenues through which you can invest in thebest performing debt fundsfor higher returns. It can be long-term or short-term bonds, monthly income plans (MIPs), floating-rate debt, money market instruments, fixed maturity plans (FMPs) or security products.
 
 [Debt Mutual Funds](http://email.info.paytmmoney.com/wf/click?upn=CK3nLlrM7MlJV3MxyjGbYKT3UouLeg7phHd0GSqL4H8ouhNw2turuxUsaXwS1t74_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTyj6WVVrVBnrVnuW9pa-2BEh6x-2FNHbvxQqSjSHVYhUG2bZ-2B3KuAKYX3-2F4hmczOfEay4XCb7PY1l4RRJWp9RqAe36l9GQzNVsDPcqaQ5xTNaD0xTPkU-2FwuA-2FnubMndVJM9LgKvlloauVm7uiVu9f19Yk5-2BSGYN7cDAqJgzN5rhnDMHEN-2FLBl-2BRDgf6m4sakFZkcIa7f6W9b9TnpVGHh1NkGHKmKtyMWCB5Vyy6ErkvQhoLttvMX19gv7tssYtIbdTniE-3D)can be broadly classified into:
--   **Theme based:**SEBI has defined some categories based on the kind of instruments the mutual fund invests in, for example, corporate bonds, Government bonds, etc.
--   **Duration based:**These funds are based on maturity or Macaulay duration of the fund. The Macaulay Duration is the time taken for a bond to repay its own purchase price in present value terms.
+
+- **Theme based:**SEBI has defined some categories based on the kind of instruments the mutual fund invests in, for example, corporate bonds, Government bonds, etc.
+- **Duration based:**These funds are based on maturity or Macaulay duration of the fund. The Macaulay Duration is the time taken for a bond to repay its own purchase price in present value terms.
 
 Below are ten such duration based categories of debt funds as defined by SEBI:
 
@@ -56,22 +59,22 @@ Below are ten such duration based categories of debt funds as defined by SEBI:
 [How to select a debt mutual fund?](https://www.youtube.com/watch?v=8R4yoe2dRIQ)
 
 [Debt Mutual Funds for Beginners Part 2 | Use YTM & Modified Duration to Improve Returns & Lower Risk](https://www.youtube.com/watch?v=1BTke9iLuYg&ab_channel=ETMONEY)
--   Coupon rate / Interest rate on bonds
--   Debt fund factsheet
--   Yield to maturity (YTM) / book yield / redemption yield
-    -   Face value
-    -   Market price / Par value / At par
-    -   At discount (better yields)
-    -   At premium (lower yields)
-    -   Time value of money (Since the interest will get reinvested, interest at 1st year will be invested for 9 years, whereas interest received at 9th year, will be invested only for 1 year)
+
+- Coupon rate / Interest rate on bonds
+- Debt fund factsheet
+- Yield to maturity (YTM) / book yield / redemption yield
+  - Face value
+  - Market price / Par value / At par
+  - At discount (better yields)
+  - At premium (lower yields)
+  - Time value of money (Since the interest will get reinvested, interest at 1st year will be invested for 9 years, whereas interest received at 9th year, will be invested only for 1 year)
 
 Yield to maturity (YTM) is the total return anticipated on a bond if the bond is held until it matures. Yield to maturity is considered a long-term[bond yield](https://www.investopedia.com/terms/b/bond-yield.asp)but is expressed as an annual rate. In other words, it is the[internal rate of return](https://www.investopedia.com/terms/i/irr.asp)(IRR) of an investment in a bond if the investor holds the bond until maturity, with all payments made as scheduled and reinvested at the same rate.
 
-
--   Yield to maturity (YTM) is the total rate of return that will have been earned by a bond when it makes all interest payments and repays the original principal.
--   YTM is essentially a bond's internal rate of return (IRR) if held to maturity.
--   Calculating the yield to maturity can be a complicated process, and it assumes all coupon or interest, payments can be reinvested at the same rate of return as the bond.
--   If the YTM is higher than the coupon rate, this suggests that the bond is being sold at a discount to its par value. If, on the other hand, the YTM is lower than the coupon rate, then the bond is being sold at a premium.
+- Yield to maturity (YTM) is the total rate of return that will have been earned by a bond when it makes all interest payments and repays the original principal.
+- YTM is essentially a bond's internal rate of return (IRR) if held to maturity.
+- Calculating the yield to maturity can be a complicated process, and it assumes all coupon or interest, payments can be reinvested at the same rate of return as the bond.
+- If the YTM is higher than the coupon rate, this suggests that the bond is being sold at a discount to its par value. If, on the other hand, the YTM is lower than the coupon rate, then the bond is being sold at a premium.
 
 <https://www.investopedia.com/terms/y/yieldtomaturity.asp>
 
@@ -83,16 +86,17 @@ Yield to maturity (YTM) is the total return anticipated on a bond if the bond is
 
 Inverse relationship between price of bond and yield, if price of bond goes up yield comes down and vice versa
 
-
--   Average maturity
--   Macaulay duration
+- Average maturity
+- Macaulay duration
 
 The Macaulay duration is the[weighted average](https://www.investopedia.com/terms/w/weightedaverage.asp)[term to maturity](https://www.investopedia.com/terms/t/termtomaturity.asp)of the cash flows from a[bond](https://atlas.dotdash.com/terms/b/bond.asp). The weight of each cash flow is determined by dividing the present value of the cash flow by the price. Macaulay duration is frequently used by[portfolio managers](https://atlas.dotdash.com/terms/p/portfoliomanager.asp)who use an immunization strategy.
--   Modified duration
+
+- Modified duration
 
 The modified duration (measured in years) of a bond is essentially the sensitivity of the bond's price to the change in interest rate. So if a bond has a modified duration of 3.2 years, then
--   A 1% increase in interest rate decreases the bond's price by 3.2%. A 1.5% increase in the interest rate, lower the bond's price by 4.8%
--   A 1% decrease in interest rate increases the bond's price by 3.2%. A 1.5% decrease in bond price, increases the bond's price by 4.8%
+
+- A 1% increase in interest rate decreases the bond's price by 3.2%. A 1.5% increase in the interest rate, lower the bond's price by 4.8%
+- A 1% decrease in interest rate increases the bond's price by 3.2%. A 1.5% decrease in bond price, increases the bond's price by 4.8%
 
 ## Debentures / Bonds
 
@@ -103,8 +107,9 @@ In[corporate finance](https://en.wikipedia.org/wiki/Corporate_finance), adebentu
 Debentures are freely[transferable](https://en.wikipedia.org/wiki/Assignment_(law))by the debenture holder. Debenture holders have no rights to vote in the company's general meetings of[shareholders](https://en.wikipedia.org/wiki/Shareholder), but they may have separate meetings or votes e.g. on changes to the rights attached to the debentures. The interest paid to them is a charge against profit in the company's[financial statements](https://en.wikipedia.org/wiki/Financial_statements).
 
 ## Notes
--   Provides a slightly higher rates than bank FDs
--   Don't go from a 10 year term since equity will give you a higher return than debentures
+
+- Provides a slightly higher rates than bank FDs
+- Don't go from a 10 year term since equity will give you a higher return than debentures
 
 ## What is Put Option in a NCD?
 
@@ -116,25 +121,24 @@ A call option in NCD means that the company has an option to ask the investor to
 
 ## Types
 
-1.  **Convertible debentures,** which are[convertible bonds](https://en.wikipedia.org/wiki/Convertible_bond)or bonds that can be converted into equity shares of the issuing company after a predetermined period of time. "Convertibility" is a feature that corporations may add to the bonds they issue to make them more attractive to buyers. In other words, it is a special feature that a corporate bond may carry. As a result of the advantage a buyer gets from the ability to convert, convertible bonds typically have lower[interest rates](https://en.wikipedia.org/wiki/Interest_rate)than non-convertible corporate bonds.
+1. **Convertible debentures,** which are[convertible bonds](https://en.wikipedia.org/wiki/Convertible_bond)or bonds that can be converted into equity shares of the issuing company after a predetermined period of time. "Convertibility" is a feature that corporations may add to the bonds they issue to make them more attractive to buyers. In other words, it is a special feature that a corporate bond may carry. As a result of the advantage a buyer gets from the ability to convert, convertible bonds typically have lower[interest rates](https://en.wikipedia.org/wiki/Interest_rate)than non-convertible corporate bonds.
 
-2.  **Non-convertible debentures (NCD),**which are simply regular debentures, cannot be converted into equity shares of the liable company. They are debentures without the convertibility feature attached to them. As a result, they usually carry higher interest rates than their convertible counterparts.
+2. **Non-convertible debentures (NCD),**which are simply regular debentures, cannot be converted into equity shares of the liable company. They are debentures without the convertibility feature attached to them. As a result, they usually carry higher interest rates than their convertible counterparts.
 
-1.  **Secured debentures**
+1. **Secured debentures**
 
 Backed by collateral, in time of backruptcy, assets are sold to pay debenture holders
 
-2.  **Unsecured debentures**
+2. **Unsecured debentures**
 
 No backed by any collateral
 
-
--   **Fixed Rate Bonds:**Has a coupon or interest rate fixed till the maturity of a bond.
--   **Floating Rate Bonds:**Also, known as floaters where the interest rate is linked to reference rate such as MIBOR (Mumbai Interbank Offered Rate).
--   **Zero-Coupon Bonds:**It does not pay periodic interest or coupon rate but is effectively rolled up to maturity and the bondholder receives the full principal amount at the redemption date.
--   **Convertible Bonds:**This bond lets a bondholder exchange a bond to a number of shares of the issuer's common stock.
--   **Inflation-indexed Bonds:**Inflation-indexed bonds are bonds in which the principal amount and the interest payments are indexed to inflation
--   **Perpetual Bonds:**These bonds are also often called perpetuities or 'Perps'. They have no maturity.
+- **Fixed Rate Bonds:**Has a coupon or interest rate fixed till the maturity of a bond.
+- **Floating Rate Bonds:**Also, known as floaters where the interest rate is linked to reference rate such as MIBOR (Mumbai Interbank Offered Rate).
+- **Zero-Coupon Bonds:**It does not pay periodic interest or coupon rate but is effectively rolled up to maturity and the bondholder receives the full principal amount at the redemption date.
+- **Convertible Bonds:**This bond lets a bondholder exchange a bond to a number of shares of the issuer's common stock.
+- **Inflation-indexed Bonds:**Inflation-indexed bonds are bonds in which the principal amount and the interest payments are indexed to inflation
+- **Perpetual Bonds:**These bonds are also often called perpetuities or 'Perps'. They have no maturity.
 
 <https://www.youtube.com/watch?v=vL2_fjgtP3A>
 
@@ -152,21 +156,21 @@ c.  Take on a mix of credit and interest rate risk. The management effort is les
 
 It is important for investors to understand that there is no escape from risk whatever choice they make. It is only a question of **familiar risk vs unfamiliar risk**. **Comfortable risk vs uncomfortable risk**. Sadly, when it comes to returns, we study the past and take it seriously. When it comes to risk, we ignore the past and assume what did not cause a loss is not risky.
 
-<https://freefincal.com/fixed-income-investment-retirement
+<https://freefincal.com/fixed-income-investment-retirement>
 
-1.  Do not use debt funds if you do not have an idea of how volatile they can be.
-    -   Youcan use the[Multi-index Mutual Fund Rolling Returns Calculator](https://freefincal.com/multi-index-mutual-fund-rolling-returns-calculator/)to get the above graphs for the fund that hold or aim to invest in.
+1. Do not use debt funds if you do not have an idea of how volatile they can be.
+    - Youcan use the[Multi-index Mutual Fund Rolling Returns Calculator](https://freefincal.com/multi-index-mutual-fund-rolling-returns-calculator/)to get the above graphs for the fund that hold or aim to invest in.
 
-2.  The average maturity of the portfolio should be much lower than the investment duration of the fund.
-    -   If your investment duration is 3 years, then an average maturity of a few months is good (liquid funds)
-    -   If your investment duration is 10 years, then an average maturity of 1-2 years is good.
-        -   Ultra-short-termfunds ~ 1Y.
-        -   Short-term gilts ~1-3Y if you want to avoid credit risk.
-        -   Income funds from solid bonds from banks and PSUs or a bit of corporate debt ~ 1-3Y is also okay.
+2. The average maturity of the portfolio should be much lower than the investment duration of the fund.
+    - If your investment duration is 3 years, then an average maturity of a few months is good (liquid funds)
+    - If your investment duration is 10 years, then an average maturity of 1-2 years is good.
+        - Ultra-short-termfunds ~ 1Y.
+        - Short-term gilts ~1-3Y if you want to avoid credit risk.
+        - Income funds from solid bonds from banks and PSUs or a bit of corporate debt ~ 1-3Y is also okay.
 
-3.  A fixed deposit is a wonderful product for investment durations less than 3 years. After all,[there is more to investing than obtaining real returns](https://freefincal.com/there-is-more-to-investing-than-obtaining-real-returns/)
+3. A fixed deposit is a wonderful product for investment durations less than 3 years. After all,[there is more to investing than obtaining real returns](https://freefincal.com/there-is-more-to-investing-than-obtaining-real-returns/)
 
-<https://freefincal.com/are-debt-mutual-funds-an-alternative-to-fixed-deposits
+<https://freefincal.com/are-debt-mutual-funds-an-alternative-to-fixed-deposits>
 
 ## Gilt funds
 
@@ -174,9 +178,9 @@ Gilt funds are debt funds that invest in government securities. The government b
 
 There are two kinds of gilt funds
 
-1.  gilt funds that invest mostly in government securities across maturities.
+1. gilt funds that invest mostly in government securities across maturities.
 
-2.  gilt funds with constant maturity of 10 years -- these funds must invest at least 80% of their assets in government securities with a maturity of 10 years.
+2. gilt funds with constant maturity of 10 years -- these funds must invest at least 80% of their assets in government securities with a maturity of 10 years.
 
 Investors should keep in mind that since these schemes invest in government securities, they have zero default risk. However, they have very high interest rate risk. In fact, government securities set the tone for interest rates in the money market and economy. The mostly traded 10-year government security is considered the benchmark. Its yield movement sets the tone for trading in the bond market. For example, traders look for trading opportunities based on the spread or interest rate difference between government bonds and corporate bonds or between the 10-year bond and other government bonds.
 
@@ -188,7 +192,7 @@ An arbitrage fund held for several years might be an underutilization of funds. 
 
 There two categories here: the 10-year gilts and the normal gilts. The 10-year gilt is the closest we have to a debt index fund but is the most volatile among the lot.
 
-<https://freefincal.com/why-i-partially-switched-from-icici-multi-asset-fund-to-icici-gilt-fund
+<https://freefincal.com/why-i-partially-switched-from-icici-multi-asset-fund-to-icici-gilt-fund>
 
 [What are Gilt Funds, when to use them, how to select them](https://www.youtube.com/watch?v=rzVPsRGZeBY)
 
@@ -224,14 +228,15 @@ h.  short to medium-term bond funds
 
 i.  Bonds
 
-<https://www.thefixedincome.com
+<https://www.thefixedincome.com>
 
 j.  Debentures (good option)
 
 ## Emergency Fund / War Chest / Contingency Kitty
--   30% should be parked in a savings bank account (other than primary account) for easy liquidity **(50K)**
--   40-50% should be parked in two or three good liquid funds with insta-redemption facility **(100K)**
--   20-30% should be parked in high credit quality money market, corporate bond or banking and PSU debt funds **(50K)**
+
+- 30% should be parked in a savings bank account (other than primary account) for easy liquidity **(50K)**
+- 40-50% should be parked in two or three good liquid funds with insta-redemption facility **(100K)**
+- 20-30% should be parked in high credit quality money market, corporate bond or banking and PSU debt funds **(50K)**
 
 For your ease of selection, Paytm Money has created filtered lists comprising of the above mentioned debt fund categories. These are under "Better than Savings Account", "Better than Fixed Deposit" and "High Quality Debt Funds" investment ideas
 
@@ -248,15 +253,17 @@ This is the fund you rush to in cases of emergencies. Such a fund should offer l
 ## Retirement
 
 ## LIC PMVVY - Papa - 15 lakh (10 years)
--   Last date - March 31, 2023
--   10K per month
--   <https://groww.in/p/savings-schemes/pradhan-mantri-vaya-vandana-yojana
+
+- Last date - March 31, 2023
+- 10K per month
+- <https://groww.in/p/savings-schemes/pradhan-mantri-vaya-vandana-yojana>
 
 ## SCSS - Papa - 15 lakh (8 years)
--   **only one time deposit**
--   **no partial withdrawal**
--   This is allowed only after 1 complete year. After 1 year and before 2 years, 1.5% interest is deducted and the rest is paid out. After 2 years and before Maturity, 1% interest is deducted. After 3 years, premature closure is allowed without any deduction of interest. Use Form E as application for premature account closure.
--   After5 years. You can extend it further by 3 years but submitting Form B.
--   An extension is allowed only once. (total time period - 8 years)
+
+- **only one time deposit**
+- **no partial withdrawal**
+- This is allowed only after 1 complete year. After 1 year and before 2 years, 1.5% interest is deducted and the rest is paid out. After 2 years and before Maturity, 1% interest is deducted. After 3 years, premature closure is allowed without any deduction of interest. Use Form E as application for premature account closure.
+- After5 years. You can extend it further by 3 years but submitting Form B.
+- An extension is allowed only once. (total time period - 8 years)
 
 A 6% return from arbitrage fund is enough (5.37% post-tax) to beat the 7.75% bonds even without factoring in the one-lakh tax-free gains.

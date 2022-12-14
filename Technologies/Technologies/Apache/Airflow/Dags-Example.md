@@ -8,11 +8,11 @@ Modified: 2021-11-22 14:48:38 +0500
 
 <https://airflow.apache.org/docs/apache-airflow/1.10.12/_api/airflow/contrib/operators/kubernetes_pod_operator/index.html>
 
-## execution_timeout(datetime.timedelta) -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail.
+## execution_timeout(datetime.timedelta) -- max time allowed for the execution of this task instance, if it goes beyond it will raise and fail
 
 ## dagrun_timeout(datetime.timedelta) -- specify how long a DagRun should be up before timing out / failing, so that new DagRuns can be created
 
-## Weekly cron - days_ago(1) start date can't keep in the memory the actual start date and we need to actually have more than one week difference from start date to trigger job.
+## Weekly cron - days_ago(1) start date can't keep in the memory the actual start date and we need to actually have more than one week difference from start date to trigger job
 
 schedule_interval="@daily"
 
@@ -52,7 +52,7 @@ dag_id='cache_metrics_readings_dag',
 
 default_args=args,
 
-schedule_interval='0 */3 * * *',
+schedule_interval='0 */3* **',
 
 max_active_runs=1,
 
@@ -108,7 +108,7 @@ dag = DAG(
 
 default_args=default_args,
 
-schedule_interval="*/1 * * * *",
+schedule_interval="*/1* ** *",
 
 max_active_runs=1,)
 
@@ -159,19 +159,20 @@ passing.set_upstream(start)
 failing.set_upstream(start)
 
 ## ###### Maintainance Dags
--   clear-missing-dags
-    -   A maintenance workflow that you can deploy into Airflow to periodically clean out entries in the DAG table of which there is no longer a corresponding Python File for it. This ensures that the DAG table doesn't have needless items in it and that the Airflow Web Server displays only those available DAGs.
--   db-cleanup
-    -   A maintenance workflow that you can deploy into Airflow to periodically clean out the DagRun, TaskInstance, Log, XCom, Job DB and SlaMiss entries to avoid having too much data in your Airflow MetaStore.
--   kill-halted-tasks
-    -   A maintenance workflow that you can deploy into Airflow to periodically kill off tasks that are running in the background that don't correspond to a running task in the DB.
-    -   This is useful because when you kill off a DAG Run or Task through the Airflow Web Server, the task still runs in the background on one of the executors until the task is complete.
--   log-cleanup
-    -   A maintenance workflow that you can deploy into Airflow to periodically clean out the task logs to avoid those getting too big.
--   delete-broken-dags
-    -   A maintenance workflow that you can deploy into Airflow to periodically delete DAG files and clean out entries in the ImportError table for DAGs which Airflow cannot parse or import properly. This ensures that the ImportError table is cleaned every day.
 
-[**https://github.com/teamclairvoyant/airflow-maintenance-dags**](https://github.com/teamclairvoyant/airflow-maintenance-dags)
+- clear-missing-dags
+  - A maintenance workflow that you can deploy into Airflow to periodically clean out entries in the DAG table of which there is no longer a corresponding Python File for it. This ensures that the DAG table doesn't have needless items in it and that the Airflow Web Server displays only those available DAGs.
+- db-cleanup
+  - A maintenance workflow that you can deploy into Airflow to periodically clean out the DagRun, TaskInstance, Log, XCom, Job DB and SlaMiss entries to avoid having too much data in your Airflow MetaStore.
+- kill-halted-tasks
+  - A maintenance workflow that you can deploy into Airflow to periodically kill off tasks that are running in the background that don't correspond to a running task in the DB.
+  - This is useful because when you kill off a DAG Run or Task through the Airflow Web Server, the task still runs in the background on one of the executors until the task is complete.
+- log-cleanup
+  - A maintenance workflow that you can deploy into Airflow to periodically clean out the task logs to avoid those getting too big.
+- delete-broken-dags
+  - A maintenance workflow that you can deploy into Airflow to periodically delete DAG files and clean out entries in the ImportError table for DAGs which Airflow cannot parse or import properly. This ensures that the ImportError table is cleaned every day.
+
+[__https://github.com/teamclairvoyant/airflow-maintenance-dags__](https://github.com/teamclairvoyant/airflow-maintenance-dags)
 
 <https://github.com/teamclairvoyant/airflow-maintenance-dags/tree/master/log-cleanup>
 
@@ -225,17 +226,23 @@ print(result)
 ## # StashFin Standard DAG
 
 ## from airflow import DAG
+
 ## from airflow.contrib.kubernetes.volume import Volume
+
 ## from airflow.contrib.kubernetes.volume_mount import VolumeMount
+
 ## from airflow.contrib.operators.kubernetes_pod_operator import KubernetesPodOperator
+
 ## from airflow.contrib.operators.slack_webhook_operator import SlackWebhookOperator
+
 ## from airflow.hooks.base_hook import BaseHook
+
 ## from airflow.utils.dates import days_ago
 
 cron_path = "curl <https://lms.stasheasy.com/cronjobEasy/Elev8AutomateMessageScript?stage_code=ELVKYC>"
 cron_name = "lms_elev8_elvkyc"
 image_name = "331916247734.dkr.ecr.ap-south-1.amazonaws.com/lms/prod:latest"
-schedule_interval = "0 4 * * *" / "@once" / "0 * * * Tue"
+schedule_interval = "0 4 ***" / "@once" / "0*** Tue"
 labels = {"project": "lms"}
 
 SLACK_CONN_ID = "monitoring"
@@ -244,25 +251,25 @@ volume_mount1 = VolumeMount(
 "system",
 mount_path="/var/www/html/application/config/system.php",
 sub_path="system.php",
-read_only=**True**,
+read_only=__True__,
 )
 volume_mount2 = VolumeMount(
 "database",
 mount_path="/var/www/html/application/config/database.php",
 sub_path="database.php",
-read_only=**True**,
+read_only=__True__,
 )
 volume_mount3 = VolumeMount(
 "config",
 mount_path="/var/www/html/application/config/config.php",
 sub_path="config.php",
-read_only=**True**,
+read_only=__True__,
 )
 volume_mount4 = VolumeMount(
 "index",
 mount_path="/var/www/html/index.php",
 sub_path="index.php",
-read_only=**True**,
+read_only=__True__,
 )
 
 volume1 = Volume(name="system", configs={"configMap": {"name": "lms-system-configmap"}})
@@ -303,7 +310,8 @@ env_vars = {
 "config": "{{ dag_run.conf }}",
 }
 
-## def task_fail_slack_alert(context):
+## def task_fail_slack_alert(context)
+
 slack_hook = BaseHook.get_connection(SLACK_CONN_ID).password
 slack_msg = f"""
 :red_circle: Task Failed.
@@ -326,7 +334,7 @@ username="airflow",
 
 default_args = {
 "owner": "airflow",
-"depends_on_past": **False**,
+"depends_on_past": __False__,
 "start_date": days_ago(1),/"start_date": datetime(2021, 1, 19),(for weekly/monthly)
 "on_failure_callback": task_fail_slack_alert,
 }
@@ -334,7 +342,7 @@ default_args = {
 dag = DAG(
 cron_name,
 default_args=default_args,
-catchup=**False**,
+catchup=__False__,
 schedule_interval=schedule_interval,
 
 max_active_runs=1,
@@ -357,7 +365,7 @@ annotations=annotations,
 
 env_vars=env_vars,
 
-get_logs=**True**,
+get_logs=__True__,
 dag=dag,
 volumes=[volume1, volume2, volume3, volume4],
 volume_mounts=[volume_mount1, volume_mount2, volume_mount3, volume_mount4],
@@ -378,8 +386,6 @@ from airflow.contrib.operators.slack_webhook_operator import SlackWebhookOperato
 from airflow.hooks.base_hook import BaseHook
 
 SLACK_GROUP = "monitoring"
-
-
 
 def call_api(url, method, body):
 
@@ -420,8 +426,6 @@ raise Exception(
 f"API returned error :{response.status_code} ndetails: {response.text}"
 
 )
-
-
 
 def task_fail_slack_alert(owner, context):
 
@@ -475,7 +479,7 @@ import utils
 
 cron_name = "api-v1_softcell_pull_mode_0"
 
-schedule_interval = "0 * * * *"
+schedule_interval = "0 ****"
 
 method = "GET"
 
@@ -484,8 +488,6 @@ url = "<http://api-v1.prod/softcellCron/softcellPull?limit=50&mode=10&mode_value
 body = {}
 
 owner = "<@U013CA4QJR3>"
-
-
 
 default_args = {
 

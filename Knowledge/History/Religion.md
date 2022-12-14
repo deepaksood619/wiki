@@ -7,8 +7,9 @@ Modified: 2022-11-13 11:08:53 +0500
 ---
 
 [Branches of Islam & Family Tree of Shia Imams](https://www.youtube.com/watch?v=e5YynfMfJXA)
--   85% sunni
--   15% shias (majority - Iran / Iraq)
+
+- 85% sunni
+- 15% shias (majority - Iran / Iraq)
 
 ## Theological Differences
 

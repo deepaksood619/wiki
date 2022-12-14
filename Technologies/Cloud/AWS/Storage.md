@@ -6,23 +6,23 @@ Modified: 2022-01-08 23:04:57 +0500
 
 ---
 
-1.  Amazon S3 (Blob storage)
+1. Amazon S3 (Blob storage)
 
-2.  Amazon EBS
+2. Amazon EBS
 
-3.  Amazon Elastic File System
+3. Amazon Elastic File System
 
-4.  Amazon EC2 Instance Storage
+4. Amazon EC2 Instance Storage
 
-5.  Amazon Glacier
+5. Amazon Glacier
 
-6.  AWS Storage Gateway
+6. AWS Storage Gateway
 
-7.  AWS Snowball
+7. AWS Snowball
 
-8.  AWS Snowball Edge
+8. AWS Snowball Edge
 
-9.  AWS Snowmobile
+9. AWS Snowmobile
 
 10. AWS ECR
 
@@ -32,20 +32,19 @@ Modified: 2022-01-08 23:04:57 +0500
 
 ![Amazon S3 AWS EBS AWS EFS Performance Supports 100 PUT/LIST/DELETE requests per second Scalable to 300 requests per second Provisioned 'OPS delivers 4000 input/output operations per second up to 7000 file system operations per second Cost First 50 TB/month $00245 per GB Next 450 TB/month: $00235 per GB Over 500 TB/month: $00225 per GB Use-based cost structure that varies between regions $030, $0.33, or $0.36 per GB-month depending on region Availability and Accessibility 9989 percent available Accessible via internet using APIs 99.99 percent available Accessible via single EC2 instance No publicly available SLA Accessible from multiple Availability Zones in the same region Access Control Access is based on IAM Uses bucket policies and user policies Security groups Use-based authentication (IAM) IAM user-based authentication Security groups Storage and File Size Limits No limit on quantity of objects Individual objects up to 5TB Max storage size of 16 TB No file size limit on disk No limits on size of the system 52 TB maximum for individual files ](../../media/Cloud-AWS-Storage-image2.png)
 
+- [Amazon S3](https://dzone.com/articles/five-things-you-probably-didnt-know-about-amazon-s)is cheapest for data storage alone. However, there are various other pricing parameters in S3, including cost per number of requests made, S3 Analytics, and data transfer out of S3 per gigabyte. EFS has the simplest cost structure.
+- Amazon S3 can be accessed from anywhere. AWS EBS is only available in a particular region, while you can share files between regions on multiple EFS instances.
+- [EBS](https://dzone.com/articles/using-ebs-and-efs-as-persistent-volume-in-kubernet)and EFS are both faster than Amazon S3, with high IOPS and lower latency.
+- EBS is scalable up or down with a single API call. Since EBS is cheaper than EFS, you can use it for database backups and other low-latency interactive applications that require consistent, predictable performance.
+- [EFS](https://dzone.com/articles/using-amazon-efs-for-container-workloads)is best used for large quantities of data, such as largeanalytic workloads. Data at this scale cannot be stored on a single EC2 instance allowed in EBS---requiring users to break up data and distribute it between EBS instances. The EFS service allows concurrent access to thousands of EC2 instances, making it possible to process and analyze large amounts of data seamlessly.
 
--   [Amazon S3](https://dzone.com/articles/five-things-you-probably-didnt-know-about-amazon-s)is cheapest for data storage alone. However, there are various other pricing parameters in S3, including cost per number of requests made, S3 Analytics, and data transfer out of S3 per gigabyte. EFS has the simplest cost structure.
--   Amazon S3 can be accessed from anywhere. AWS EBS is only available in a particular region, while you can share files between regions on multiple EFS instances.
--   [EBS](https://dzone.com/articles/using-ebs-and-efs-as-persistent-volume-in-kubernet)and EFS are both faster than Amazon S3, with high IOPS and lower latency.
--   EBS is scalable up or down with a single API call. Since EBS is cheaper than EFS, you can use it for database backups and other low-latency interactive applications that require consistent, predictable performance.
--   [EFS](https://dzone.com/articles/using-amazon-efs-for-container-workloads)is best used for large quantities of data, such as largeanalytic workloads. Data at this scale cannot be stored on a single EC2 instance allowed in EBS---requiring users to break up data and distribute it between EBS instances. The EFS service allows concurrent access to thousands of EC2 instances, making it possible to process and analyze large amounts of data seamlessly.
+1. **Amazon S3 (Blob storage)**
 
-1.  **Amazon S3 (Blob storage)**
-
-2.  **Amazon EBS**
+2. **Amazon EBS**
 
 ## Block Storage for EC2
 
-3.  **Amazon Elastic File System**
+3. **Amazon Elastic File System**
 
 ## Managed File Storage for EC2
 
@@ -65,18 +64,17 @@ Each Amazon EFS file system object (such as a directory, file or link) is redund
 
 There are three main levels of access controls to consider when it comes to EFS file system.
 
-1.  IAM permissions for API calls
+1. IAM permissions for API calls
 
-2.  Security groups for EC2 instances and mount targets
+2. Security groups for EC2 instances and mount targets
 
-3.  Network File System-level users, groups, and permissions.
+3. Network File System-level users, groups, and permissions.
 
 Amazon groups play a critical role in establishing network connectivity between EC2 instances and EFS file systems. You can associate one security group with an EC2 instance and another security group with an EFS mount target associated with the file system. These security groups act as firewalls and enforce rules that define the traffic flow between EC2 instances and EFS file systems.
 
+- Create mount path
 
--   Create mount path
-
-4.  **Amazon EC2 Instance Storage**
+4. **Amazon EC2 Instance Storage**
 
 EC2 Instance store provides temporary block-level storage for EC2 instances. This storage is located on disks that arephysically attachedto the host computer. Instance store is ideal for temporary storage of information that changes frequently such as buffers, caches and scratch data.
 
@@ -92,7 +90,7 @@ EC2 instance store volumes are not intended to be used as durable disk storage. 
 
 IAM service helps to gain secure control over which users can perform operations such aslaunch and terminationof EC2 instances in your account. When you stop or terminate an instance, the applications and data in its instance store are erased, and thus no other instance can have access to the instance store in the future.
 
-5.  **Amazon Glacier**
+5. **Amazon Glacier**
 
 ## Low-cost Archive Storage in the Cloud
 
@@ -111,11 +109,12 @@ Since AWS Glacier is an archiving service, durability must be of utmost priority
 By default, only the account owner can access Amazon Glacier data. If other people or services need to access the data, you can set up data access controls in AWS Glacier by using theAWS Identity and Access Management (IAM)service. Similarly, Glacier uses server-side encryption to encrypt all data at rest. Amazon Glacier allows you to lock vaults where long-term records retention is mandated, along with the use of lockable policies.
 
 ## Retrieval
--   **Expedited ---**Expedited retrievals allow you to quickly access your data when occasional urgent requests for a subset of archives are required. For all but the largest archives (250 MB+), data accessed using Expedited retrievals are typically made available within 1--5 minutes. Provisioned Capacity ensures that retrieval capacity for Expedited retrievals is available when you need it.
--   **Standard ---**Standard retrievals allow you to access any of your archives within several hours. Standard retrievals typically complete within 3--5 hours. This is the default option for retrieval requests that do not specify the retrieval option.
--   **Bulk ---**Bulk retrievals are S3 Glacier's lowest-cost retrieval option, which you can use to retrieve large amounts, even petabytes, of data inexpensively in a day. Bulk retrievals typically complete within 5--12 hours.
 
-6.  **AWS Storage Gateway**
+- **Expedited ---**Expedited retrievals allow you to quickly access your data when occasional urgent requests for a subset of archives are required. For all but the largest archives (250 MB+), data accessed using Expedited retrievals are typically made available within 1--5 minutes. Provisioned Capacity ensures that retrieval capacity for Expedited retrievals is available when you need it.
+- **Standard ---**Standard retrievals allow you to access any of your archives within several hours. Standard retrievals typically complete within 3--5 hours. This is the default option for retrieval requests that do not specify the retrieval option.
+- **Bulk ---**Bulk retrievals are S3 Glacier's lowest-cost retrieval option, which you can use to retrieve large amounts, even petabytes, of data inexpensively in a day. Bulk retrievals typically complete within 5--12 hours.
+
+6. **AWS Storage Gateway**
 
 ## Hybrid Storage Integration
 
@@ -137,7 +136,7 @@ Similar to most AWS storage services all data transferred through AWS Storage Ga
 
 ![Files Volumes Tapes so AWS Storage Gateway Amazon S3 Amazon Glacier Amazon EBS u snapshots ](../../media/Cloud-AWS-Storage-image3.png)
 
-7.  **AWS Snowball**
+7. **AWS Snowball**
 
 ## Petabyte-scale Data Transport
 
@@ -163,11 +162,11 @@ All data loaded onto a Snowball appliance is encrypted using 256-bit encryption.
 
 ![AWS Snowball ](../../media/Cloud-AWS-Storage-image4.png)
 
-8.  **AWS Snowball Edge**
+8. **AWS Snowball Edge**
 
 ## Petabyte-scale Data Transport with On-board Compute
 
-9.  **AWS Snowmobile**
+9. **AWS Snowmobile**
 
 ## Exabyte-scale Data Transport
 
@@ -203,4 +202,4 @@ CloudFront is a highly secure CDN that provides both network and application lev
 
 ![amazon cl udfront ](../../media/Cloud-AWS-Storage-image5.jpg)
 
-<https://www.mitrai.com/tech-guide/eight-types-of-aws-storage-services-explained
+<https://www.mitrai.com/tech-guide/eight-types-of-aws-storage-services-explained>

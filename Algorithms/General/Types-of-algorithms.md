@@ -6,21 +6,21 @@ Modified: 2021-09-14 22:52:18 +0500
 
 ---
 
-1.  Simple recursive algorithms
+1. Simple recursive algorithms
 
     a.  solves the base care directly
 
     b.  recurs with a simpler subproblem
 
-2.  Backtracking algorithms
+2. Backtracking algorithms
 
     a.  Based on a depth-first recursive search
 
     b.  ex- graph colouring (To color a map with no more than four colors)
 
-<https://www.freecodecamp.org/news/solve-coding-interview-backtracking-problem
+<https://www.freecodecamp.org/news/solve-coding-interview-backtracking-problem>
 
-3.  Divide and conquer algorithms
+3. Divide and conquer algorithms
 
     a.  divide the problems into smaller subproblems of the same type, and solve these subproblems recursively
 
@@ -28,7 +28,7 @@ Modified: 2021-09-14 22:52:18 +0500
 
     c.  ex- quicksort, mergesort
 
-4.  Dynamic programming algorithms
+4. Dynamic programming algorithms
 
     a.  remembers past results and use it to find new results
 
@@ -36,13 +36,13 @@ Modified: 2021-09-14 22:52:18 +0500
 
     c.  Overlapping subproblems
 
-5.  Greedy algorithms
+5. Greedy algorithms
 
     a.  optimization problem is one in which you want to find, not just a solution, but the best solution. (take the best you can get right now, without regard for future consequences)
 
     b.  ex- counting money
 
-6.  Branch and bound algorithms
+6. Branch and bound algorithms
 
     a.  generally used for optimization problems
 
@@ -62,7 +62,7 @@ Modified: 2021-09-14 22:52:18 +0500
 
     g.  ex - Travelling salesman problem
 
-7.  Brute force algorithms
+7. Brute force algorithms
 
     a.  simply tries all possibilities until a satisfactory solution is found
 
@@ -72,11 +72,9 @@ Modified: 2021-09-14 22:52:18 +0500
 
         ii. Optimization - A way to eliminate certain possibilities without fully exploring them
 
-8.  Randomized algorithms
+8. Randomized algorithms
 
     a.  ex - Quicksort, uses a random number to choose a pivot
-
-
 
 |     | ![image](media/Types-of-algorithms-image1.png) |
 |--|----------------------------------------------------------------------|

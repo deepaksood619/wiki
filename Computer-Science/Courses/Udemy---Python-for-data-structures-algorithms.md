@@ -6,21 +6,22 @@ Modified: 2019-06-23 20:19:26 +0500
 
 ---
 
-1.  Array Sequences
+1. Array Sequences
 
-2.  Stacks, Queues, and Deques
+2. Stacks, Queues, and Deques
 
-3.  Linked Lists
+3. Linked Lists
 
-4.  Recursion
+4. Recursion
 
-5.  Trees
+5. Trees
 
-6.  Searching and Sorting
+6. Searching and Sorting
 
-7.  Graph
+7. Graph
 
-8.  Riddles
+8. Riddles
+
 ## References
 
 <https://www.udemy.com/python-for-data-structures-algorithms-and-interviews>

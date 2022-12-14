@@ -14,13 +14,11 @@ Exponential smoothing refers to the use of an **exponentially weighted moving av
 
 s~t~=αx~t~+(1−α)s~t-1~
 
+1. Basic exponential smoothing
 
+2. Double exponential smoothing
 
-1.  Basic exponential smoothing
-
-2.  Double exponential smoothing
-
-3.  Triple exponential smoothing
+3. Triple exponential smoothing
 
 <https://en.wikipedia.org/wiki/Exponential_smoothing>
 
@@ -34,4 +32,4 @@ Holt-Winters is a model of time series behavior. Forecasting always requires a m
 
 <https://www.vividcortex.com/blog/holt-winters-forecasting-simplified>
 
-<https://grisha.org/blog/2016/01/29/triple-exponential-smoothing-forecasting
+<https://grisha.org/blog/2016/01/29/triple-exponential-smoothing-forecasting>

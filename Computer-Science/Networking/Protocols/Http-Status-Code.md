@@ -55,21 +55,22 @@ Modified: 2020-11-20 21:12:35 +0500
 Can happen when GET requests length is long
 
 Can be solved by increasing the size of URI that server can accept
--   [415Unsupported Media Type](https://httpstatuses.com/415)
--   [416Requested Range Not Satisfiable](https://httpstatuses.com/416)
--   [417Expectation Failed](https://httpstatuses.com/417)
--   [418I'm a teapot](https://httpstatuses.com/418)
--   [421Misdirected Request](https://httpstatuses.com/421)
--   [422Unprocessable Entity](https://httpstatuses.com/422)
--   [423Locked](https://httpstatuses.com/423)
--   [424Failed Dependency](https://httpstatuses.com/424)
--   [426Upgrade Required](https://httpstatuses.com/426)
--   [428Precondition Required](https://httpstatuses.com/428)
--   [429Too Many Requests](https://httpstatuses.com/429)
--   [431Request Header Fields Too Large](https://httpstatuses.com/431)
--   [444Connection Closed Without Response](https://httpstatuses.com/444)
--   [451Unavailable For Legal Reasons](https://httpstatuses.com/451)
--   [499Client Closed Request](https://httpstatuses.com/499)
+
+- [415Unsupported Media Type](https://httpstatuses.com/415)
+- [416Requested Range Not Satisfiable](https://httpstatuses.com/416)
+- [417Expectation Failed](https://httpstatuses.com/417)
+- [418I'm a teapot](https://httpstatuses.com/418)
+- [421Misdirected Request](https://httpstatuses.com/421)
+- [422Unprocessable Entity](https://httpstatuses.com/422)
+- [423Locked](https://httpstatuses.com/423)
+- [424Failed Dependency](https://httpstatuses.com/424)
+- [426Upgrade Required](https://httpstatuses.com/426)
+- [428Precondition Required](https://httpstatuses.com/428)
+- [429Too Many Requests](https://httpstatuses.com/429)
+- [431Request Header Fields Too Large](https://httpstatuses.com/431)
+- [444Connection Closed Without Response](https://httpstatuses.com/444)
+- [451Unavailable For Legal Reasons](https://httpstatuses.com/451)
+- [499Client Closed Request](https://httpstatuses.com/499)
 
 HTTP 499 in Nginx means that the**client closed the connection**before the server answered the request.-   **5×× Server Error**
     -   [500Internal Server Error](https://httpstatuses.com/500)

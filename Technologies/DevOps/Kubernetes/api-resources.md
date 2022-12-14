@@ -113,134 +113,135 @@ CSI empowers users to support different storage systems through a driver model.
 | **storageclasses**             |                  |                                                                            |
 
 ## Outline
--   API Version: most resource type covered in the exam belongs to thecoregroup and are currently in the versionv1. Several special cases are listed below.
-    -   v1: Pod, Service, ConfigMap, Secret, PersistentVolumeClaim, Namespace, ServiceAccount, Node
-    -   apps/v1: Deployment
-    -   batch/v1: Job
-    -   batch/v1beta1: CronJob
-    -   networking.k8s.io/v1: NetworkPolicy
--   Object Metadata
-    -   name:namefield is required and must be unique within a namespace.
-    -   labels
-    -   annotations: not queryable
-    -   namespace
--   Resource Type
-    -   Pod
-        -   affinity: nodeAffinity, podAffinity
-            -   preferredDuringSchedulingIgnoredDuringExecution
-            -   requiredDuringSchedulingIgnoredDuringExecution
-        -   containers
-            -   args: override Docker images'sCMD
-            -   command: override Docker images'sEntrypoint
-            -   **env**
-                -   **name/value**
-                -   **name/valueFrom**
-                    -   **configMapKeyRef: pull env from ConfigMap**
-                        -   **name/key**
-                    -   **secretKeyRef: pull env from Secret**
-            -   **envFrom**
-                -   **configMapRef: convert all items from the specified ConfigMap to environment variables**
-                    -   **name**
-                -   **secretRef: convert all items from the specified Secret to environment variables**
-            -   image
-            -   imagePullPolicy
-                -   Always (default)
-                -   Never
-                -   ifNotPresent
-            -   probe: livenessProbe, readinessProbe
-                -   initialDelaySeconds
-                -   periodSeconds
-                -   timeoutSeconds
-                -   type:
-                    -   exec: run a command
-                    -   httpGet: check a http endpoint
-                    -   tcpSocket: check a tcp socket
-            -   ports
-                -   containerPort
-                -   hostPort
-                -   protocol
-            -   resources: limits, requests
-                -   cpu: e.g. 0.1, 1, 100m, etc.
-                -   memory: e.g. 128974848, 129e6, 129M, 123Mi, etc.
-            -   securityContext
-                -   capabilities: add or drop capabilities. e.g. SYS_ADMIN, AUDIT_CONTROL, etc.
-                -   runAsGroup
-                -   runAsUser
-            -   volumeMounts
-        -   restartPolicy
-            -   Always
-            -   OnFailure
-            -   Never
-        -   securityContext
-            -   runAsGroup: a valid GID
-            -   runAsUser: a valid UID
-        -   ServiceAccountName
-        -   tolerations
-            -   key
-            -   operator
-                -   Exists
-                -   Equal
-            -   value
-        -   volumes
-            -   configMap
-                -   name
-                -   items
-                    -   key/path
-            -   emptyDir
-            -   hostPath
-            -   persistentVolumeClaim
-            -   secret
-    -   Deployment
-        -   replicas
-        -   selector
-            -   matchExpressions
-            -   matchLabels
-        -   strategy: Recreate or RollingUpdate
-        -   Pod Template
-    -   Job
-        -   activeDeadlineSeconds: job timeout seconds
-        -   backoffLimit: number of retries
-        -   completions: the desired number of successfully finished pods the job should be run with
-        -   parallelism: the maximum desired number of pods the job should run at any given time
-        -   selector: matchExpressions or matchLabels
-        -   Job Pod Template: restartPolicy in the pod spec should beNever.
-    -   CronJob
-        -   Job Template
-        -   schedule
-    -   Service
-        -   Types
-            -   ClusterIP
-            -   NodePort
-        -   Service Port
-            -   nodePort: set only when type=NodePort
-            -   protocol: TCP or UDP
-            -   port
-            -   targetPort
-    -   ConfigMap
-    -   Secret: values in the Secret must be base64 encoded:echo -n "<value>" | base64
-    -   Node
-        -   taints
-            -   key
-            -   value
-            -   effect
-                -   NoSchedule
-                -   PreferNoSchedule
-                -   NoExecute
-    -   PersistentVolumeClaim
-        -   accessModes
-            -   ReadWriteOnce
-            -   ReadOnlyMany
-            -   ReadWriteMany
-        -   resources: limits, requests
-            -   storage: e.g. 8Gi, 128M, etc.
-        -   selector: matchExpressions or matchLabels
-        -   storageClassName
-    -   Namespace
-    -   ServiceAccount
-    -   NetworkPolicy
-        -   policyTypes:
-            -   Ingress
-            -   Egress
-        -   podSelector: matchExpressions or matchLabels
-        -   ingress
-        -   egress
+
+- API Version: most resource type covered in the exam belongs to thecoregroup and are currently in the versionv1. Several special cases are listed below.
+  - v1: Pod, Service, ConfigMap, Secret, PersistentVolumeClaim, Namespace, ServiceAccount, Node
+  - apps/v1: Deployment
+  - batch/v1: Job
+  - batch/v1beta1: CronJob
+  - networking.k8s.io/v1: NetworkPolicy
+- Object Metadata
+  - name:namefield is required and must be unique within a namespace.
+  - labels
+  - annotations: not queryable
+  - namespace
+- Resource Type
+  - Pod
+    - affinity: nodeAffinity, podAffinity
+      - preferredDuringSchedulingIgnoredDuringExecution
+      - requiredDuringSchedulingIgnoredDuringExecution
+    - containers
+      - args: override Docker images'sCMD
+      - command: override Docker images'sEntrypoint
+      - **env**
+        - **name/value**
+        - **name/valueFrom**
+          - **configMapKeyRef: pull env from ConfigMap**
+            - **name/key**
+          - **secretKeyRef: pull env from Secret**
+      - **envFrom**
+        - **configMapRef: convert all items from the specified ConfigMap to environment variables**
+          - **name**
+        - **secretRef: convert all items from the specified Secret to environment variables**
+      - image
+      - imagePullPolicy
+        - Always (default)
+        - Never
+        - ifNotPresent
+      - probe: livenessProbe, readinessProbe
+        - initialDelaySeconds
+        - periodSeconds
+        - timeoutSeconds
+        - type:
+          - exec: run a command
+          - httpGet: check a http endpoint
+          - tcpSocket: check a tcp socket
+      - ports
+        - containerPort
+        - hostPort
+        - protocol
+      - resources: limits, requests
+        - cpu: e.g. 0.1, 1, 100m, etc.
+        - memory: e.g. 128974848, 129e6, 129M, 123Mi, etc.
+      - securityContext
+        - capabilities: add or drop capabilities. e.g. SYS_ADMIN, AUDIT_CONTROL, etc.
+        - runAsGroup
+        - runAsUser
+      - volumeMounts
+    - restartPolicy
+      - Always
+      - OnFailure
+      - Never
+    - securityContext
+      - runAsGroup: a valid GID
+      - runAsUser: a valid UID
+    - ServiceAccountName
+    - tolerations
+      - key
+      - operator
+        - Exists
+        - Equal
+      - value
+    - volumes
+      - configMap
+        - name
+        - items
+          - key/path
+      - emptyDir
+      - hostPath
+      - persistentVolumeClaim
+      - secret
+  - Deployment
+    - replicas
+    - selector
+      - matchExpressions
+      - matchLabels
+    - strategy: Recreate or RollingUpdate
+    - Pod Template
+  - Job
+    - activeDeadlineSeconds: job timeout seconds
+    - backoffLimit: number of retries
+    - completions: the desired number of successfully finished pods the job should be run with
+    - parallelism: the maximum desired number of pods the job should run at any given time
+    - selector: matchExpressions or matchLabels
+    - Job Pod Template: restartPolicy in the pod spec should beNever.
+  - CronJob
+    - Job Template
+    - schedule
+  - Service
+    - Types
+      - ClusterIP
+      - NodePort
+    - Service Port
+      - nodePort: set only when type=NodePort
+      - protocol: TCP or UDP
+      - port
+      - targetPort
+  - ConfigMap
+  - Secret: values in the Secret must be base64 encoded:echo -n "<value>" | base64
+  - Node
+    - taints
+      - key
+      - value
+      - effect
+        - NoSchedule
+        - PreferNoSchedule
+        - NoExecute
+  - PersistentVolumeClaim
+    - accessModes
+      - ReadWriteOnce
+      - ReadOnlyMany
+      - ReadWriteMany
+    - resources: limits, requests
+      - storage: e.g. 8Gi, 128M, etc.
+    - selector: matchExpressions or matchLabels
+    - storageClassName
+  - Namespace
+  - ServiceAccount
+  - NetworkPolicy
+    - policyTypes:
+      - Ingress
+      - Egress
+    - podSelector: matchExpressions or matchLabels
+    - ingress
+    - egress

@@ -7,12 +7,13 @@ Modified: 2022-06-01 23:54:08 +0500
 ---
 
 ## TODO
--   **React Query -** <https://react-query.tanstack.com
--   **React Router -** <https://github.com/remix-run/react-router/blob/main/docs/getting-started/installation.md>
+
+- **React Query -** <https://react-query.tanstack.com>
+- **React Router -** <https://github.com/remix-run/react-router/blob/main/docs/getting-started/installation.md>
 
 ## JS libraries
 
-<https://underscorejs.org <https://github.com/jashkenas/underscore>
+<https://underscorejs.org> <https://github.com/jashkenas/underscore>
 
 Underscore.js is a utility-belt library for JavaScript that provides support for the usual functional suspects (each, map, reduce, filter...) without extending any core JavaScript objects.
 
@@ -54,7 +55,7 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 
 <https://www.npmjs.com/package/react-responsive>
 
-<https://introjs.com
+<https://introjs.com>
 
 <https://www.npmjs.com/package/react-virtualized> (instead use react-window)
 
@@ -62,7 +63,7 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 
 [**https://www.npmjs.com/package/dayjs**](https://www.npmjs.com/package/dayjs)
 
-<https://date-fns.org
+<https://date-fns.org>
 
 date-fns provides the most comprehensive, yet simple and consistent toolset for manipulatingJavaScript datesinabrowser&Node.js.
 
@@ -80,7 +81,7 @@ date-fns provides the most comprehensive, yet simple and consistent toolset for 
 
 ## Select2
 
-<https://select2.org
+<https://select2.org>
 
 ## Modernizr
 
@@ -107,33 +108,34 @@ Modernizr(js library for feature detection)
 Performant and powerful datasynchronization for React
 
 Fetch, cache and update data in your React and React Native applications all without touching any "global state".
--   Backend agnostic
--   Dedicated Devtools
--   Auto Caching
--   Auto Refetching
--   Window Focus Refetching
--   Polling/Realtime Queries
--   Parallel Queries
--   Dependent Queries
--   Mutations API
--   Automatic Garbage Collection
--   Paginated/Cursor Queries
--   Load-More/Infinite Scroll Queries
--   Scroll Recovery
--   Request Cancellation
--   Suspense Ready!
--   Render-as-you-fetch
--   Prefetching
--   Variable-length Parallel Queries
--   Offline Support
--   SSR Support
--   Data Selectors
 
-<https://react-query.tanstack.com
+- Backend agnostic
+- Dedicated Devtools
+- Auto Caching
+- Auto Refetching
+- Window Focus Refetching
+- Polling/Realtime Queries
+- Parallel Queries
+- Dependent Queries
+- Mutations API
+- Automatic Garbage Collection
+- Paginated/Cursor Queries
+- Load-More/Infinite Scroll Queries
+- Scroll Recovery
+- Request Cancellation
+- Suspense Ready!
+- Render-as-you-fetch
+- Prefetching
+- Variable-length Parallel Queries
+- Offline Support
+- SSR Support
+- Data Selectors
+
+<https://react-query.tanstack.com>
 
 ## Flux
 
-<https://facebook.github.io/flux
+<https://facebook.github.io/flux>
 
 ## Testing
 
@@ -143,7 +145,7 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 [**Jest**](https://facebook.github.io/jest/)is a JavaScript test runner that lets you access the DOM via[jsdom](https://reactjs.org/docs/testing-environments.html#mocking-a-rendering-surface). While jsdom is only an approximation of how the browser works, it is often good enough for testing React components. Jest provides a great iteration speed combined with powerful features like mocking[modules](https://reactjs.org/docs/testing-environments.html#mocking-modules)and[timers](https://reactjs.org/docs/testing-environments.html#mocking-timers)so you can have more control over how the code executes.
 
-<https://www.freecodecamp.org/news/how-to-test-react-applications
+<https://www.freecodecamp.org/news/how-to-test-react-applications>
 
 [**React Testing Library**](https://testing-library.com/react)is a set of helpers that let you test React components without relying on their implementation details. This approach makes refactoring a breeze and also nudges you towards best practices for accessibility. Although it doesn't provide a way to "shallowly" render a component without its children, a test runner like Jest lets you do this by[mocking](https://reactjs.org/docs/testing-recipes.html#mocking-modules).
 
@@ -153,9 +155,9 @@ Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 End-to-end testing
 
-<https://www.cypress.io/how-it-works
+<https://www.cypress.io/how-it-works>
 
-<https://www.cypress.io
+<https://www.cypress.io>
 
 <https://github.com/enzymejs/enzyme>
 
@@ -166,8 +168,9 @@ Usingclassnameslibrary to toggle classes
 [classnames](https://github.com/JedWatson/classnames)is a simple library that lets you toggle class names easily. You can install it usingnpm install classnamesoryarn add classnames.
 
 Please take a look at its[documentation](https://github.com/JedWatson/classnames)for more details, but here's the basic usage:
--   Suppose that you want to create anAlertcomponent which acceptstype, which can be'success'or'error'.
--   If it's'success', you want the text color to be green. If it's'error', you want the text color to be red.
+
+- Suppose that you want to create anAlertcomponent which acceptstype, which can be'success'or'error'.
+- If it's'success', you want the text color to be green. If it's'error', you want the text color to be red.
 
 You can first write a CSS module (e.g.alert.module.css) like this:
 
@@ -187,8 +190,6 @@ export default function Alert({ children, type }) {
 return (
 <div
 className={cn({
-[styles.success]: type === 'success',
-[styles.error]: type === 'error'
 })}
 >
 {children}
@@ -198,4 +199,4 @@ className={cn({
 
 <https://github.com/JedWatson/classnames>
 
-<https://www.freecodecamp.org/news/front-end-development-tools-you-should-know
+<https://www.freecodecamp.org/news/front-end-development-tools-you-should-know>

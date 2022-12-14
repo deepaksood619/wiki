@@ -8,7 +8,7 @@ Modified: 2017-11-07 10:31:52 +0500
 
 Algorithms
 
-1.  Huffman Coding (a type of entropy coding)
+1. Huffman Coding (a type of entropy coding)
 
     a.  Entropy Encoding - is a lossless data compression scheme that is independent of specific characteristics of the medium. One of the main types of entropy coding creates and assigns a unique prefix-free code to each unique symbol that occurs in the input. These entropy encoders then compress data by replacing each fixed-length prefix-free output codeword. ( Most common symbols use the shortest codes).
 

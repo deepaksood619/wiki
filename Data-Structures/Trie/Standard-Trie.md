@@ -7,13 +7,18 @@ Modified: 2021-09-05 16:20:45 +0500
 ---
 
 Radix Tree / Prefix Tree (Because pre-order traversal would give the nodes in lexicographical order)
--   Autocomplete function
--   Ordered tree structure having one or more relations between the elements
+
+- Autocomplete function
+- Ordered tree structure having one or more relations between the elements
+
 ## Pros
--   M - length of the string
--   No worry about collision
+
+- M - length of the string
+- No worry about collision
+
 ## Cons
--   Lots of space
+
+- Lots of space
 A trie also known as radix tree or prefix tree, is an ordered tree structure that stores sets or arrays having one or more relations between the elements.
 Unlike a binary search tree, an element of a trie isn't an independent entity, but more of a sequence of states following one another.
 The best example that uses the trie data structure is the autocomplete function of smartphones: the entry node represents the empty character as you press space, then it gives suggestions of words (represented as leaves) that can be obtained extending the current character sequence (path between the current node and a leaf).

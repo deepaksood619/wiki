@@ -15,9 +15,10 @@ Stream Processing Model
 Storm stream processing works by orchestrating DAGs (Directed Acyclic Graphs) in a framework it calls**topologies**. These topologies describe the various transformations or steps that will be taken on each incoming piece of data as it enters the system.
 
 The topologies are composed of:
--   **Streams**: Conventional data streams. This is unbounded data that is continuously arriving at the system.
--   **Spouts**: Sources of data streams at the edge of the topology. These can be APIs, queues, etc. that produce data to be operated on.
--   **Bolts**: Bolts represent a processing step that consumes streams, applies an operation to them, and outputs the result as a stream. Bolts are connected to each of the spouts, and then connect to each other to arrange all of the necessary processing. At the end of the topology, final bolt output may be used as an input for a connected system.
+
+- **Streams**: Conventional data streams. This is unbounded data that is continuously arriving at the system.
+- **Spouts**: Sources of data streams at the edge of the topology. These can be APIs, queues, etc. that produce data to be operated on.
+- **Bolts**: Bolts represent a processing step that consumes streams, applies an operation to them, and outputs the result as a stream. Bolts are connected to each of the spouts, and then connect to each other to arrange all of the necessary processing. At the end of the topology, final bolt output may be used as an input for a connected system.
 
 The idea behind Storm is to define small, discrete operations using the above components and then compose them into a topology. By default, Storm offers at-least-once processing guarantees, meaning that it can guarantee that each message is processed at least once, but there may be duplicates in some failure scenarios. Storm does not guarantee that messages will be processed in order.
 
@@ -26,8 +27,9 @@ In order to achieve exactly-once, stateful processing, an abstraction called**Tr
 Storm users typically recommend using Core Storm whenever possible to avoid those penalties. With that in mind, Trident's guarantee to processes items exactly once is useful in cases where the system cannot intelligently handle duplicate messages. Trident is also the only choice within Storm when you need to maintain state between items, like when counting how many users click a link within an hour. Trident gives Storm flexibility, even though it does not play to the framework's natural strengths.
 
 Trident topologies are composed of:
--   **Stream batches**: These are micro-batches of stream data that are chunked in order to provide batch processing semantics.
--   **Operations**: These are batch procedures that can be performed on the data.
+
+- **Stream batches**: These are micro-batches of stream data that are chunked in order to provide batch processing semantics.
+- **Operations**: These are batch procedures that can be performed on the data.
 
 Advantages and Limitations
 

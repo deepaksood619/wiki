@@ -7,12 +7,13 @@ Modified: 2021-12-27 20:08:20 +0500
 ---
 
 ## Overview
--   Enabled by default
--   Requirements
-    -   django.contrib.auth
-    -   django.contrib.contenttypes
-    -   django.contrib.messages
-    -   django.contrib.sessions
+
+- Enabled by default
+- Requirements
+  - django.contrib.auth
+  - django.contrib.contenttypes
+  - django.contrib.messages
+  - django.contrib.sessions
 
 ## ModelAdmin objects
 
@@ -30,9 +31,7 @@ fieldsets is used to show the fields that must be shown in detail page
 
 fieldsets = {}
 
-
-
-## classTicketAdmin(admin.ModelAdmin):
+## classTicketAdmin(admin.ModelAdmin)
 
 list_display=(**'ticket_number'**,**'issue'**,**'device'**,**'status'**)
 
@@ -42,11 +41,11 @@ list_filter=(**'status'**,)
 
 readonly_fields=(**'ticket_number'**,**'ticket_id'**,**'issue'**,**'device'**,**'status'**)
 
-## def has_add_permission(self,request):
+## def has_add_permission(self,request)
 
 ## returnFalse
 
-## def has_delete_permission(self,request,obj=None):
+## def has_delete_permission(self,request,obj=None)
 
 ## returnFalse
 
@@ -60,15 +59,15 @@ fieldsets=(
 
 (None,{**'fields'**:(
 
-## 'client_name'**,**'display_name'**,**'unique_id'**,**'customer'**,**'campus_name'**,**'source_name'**,**'metadata',
+## 'client_name'**,**'display_name'**,**'unique_id'**,**'customer'**,**'campus_name'**,**'source_name'**,**'metadata'
 
-## 'is_public',
+## 'is_public'
 
-## 'subscription_key'**,**'archiver_address'**,**'archiver_port'**,**'database_address'**,**'database_port',
+## 'subscription_key'**,**'archiver_address'**,**'archiver_port'**,**'database_address'**,**'database_port'
 
-## 'url_conf'**,**'mail_signature'**,**'latitude'**,**'longitude'**,**'order'**,**'excluded_issues',
+## 'url_conf'**,**'mail_signature'**,**'latitude'**,**'longitude'**,**'order'**,**'excluded_issues'
 
-## 'site_disabled'**,**'working_days'**,**'street_address'**,**'city'**,**'state'**,**'country'**,**'zipcode')},),
+## 'site_disabled'**,**'working_days'**,**'street_address'**,**'city'**,**'state'**,**'country'**,**'zipcode')},)
 
 (**'OtherDetails'**,
 
@@ -88,23 +87,23 @@ Now we can also override the admin fields to show according to the user who is l
 
 Ex -
 
-## def get_fieldsets(self,request,obj=None):
+## def get_fieldsets(self,request,obj=None)
 
 client_id=request.session.get(**'client_id'**,None)
 
 *#if request is from frontend, dont show some of the fields*
 
-## if** client_id **is not None:
+## if**client_id**is not None
 
 ## return self.fieldsets
 
-## else:
+## else
 
-## if request.user.is_superuser:
+## if request.user.is_superuser
 
 ## return self.fieldsets
 
-## else:
+## else
 
 ## return self.tester_fieldsets
 
@@ -120,11 +119,16 @@ tester_fieldsets=(
 
 The**get_queryset**method on a**ModelAdmin**returns a[**QuerySet**](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet)of all model instances that can be edited by the admin site. One use case for overriding this method is to show objects owned by the logged-in user:
 
-## class MyModelAdmin(admin.ModelAdmin):
-## def get_queryset(self, request):
+## class MyModelAdmin(admin.ModelAdmin)
+
+## def get_queryset(self, request)
+
 qs = super().get_queryset(request)
-## if request.user.is_superuser:
+
+## if request.user.is_superuser
+
 ## return qs
+
 ## return qs.filter(author=request.user)
 
 ## Admin Actions
@@ -161,19 +165,20 @@ A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personaliz
 
 ## Django Open Source projects
 
-<https://www.upgrad.com/blog/django-open-source-projects
--   Wagtail (Open Source CMS)
--   Ownphotos (Open Source Google Photos)
--   PostHog - <https://github.com/PostHog/posthog> (Open Source Event Tracking)
--   Cabot (Open Source Nagios)
--   Saleor Commerce (Open Source E-Commerce)
+<https://www.upgrad.com/blog/django-open-source-projects>
+
+- Wagtail (Open Source CMS)
+- Ownphotos (Open Source Google Photos)
+- PostHog - <https://github.com/PostHog/posthog> (Open Source Event Tracking)
+- Cabot (Open Source Nagios)
+- Saleor Commerce (Open Source E-Commerce)
 
 ## Others
 
-<https://awesomeopensource.com
+<https://awesomeopensource.com>
 
 <https://github.com/sindresorhus/awesome>
 
 ## Others
 
-<https://realpython.com/manage-users-in-django-admin
+<https://realpython.com/manage-users-in-django-admin>

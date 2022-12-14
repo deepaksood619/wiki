@@ -6,11 +6,11 @@ Modified: 2020-06-11 22:43:54 +0500
 
 ---
 
-## Container Orchestration Systems - to provide a higher level of deployment infrastructure abstraction, and evolution of continuous delivery systems such as[GoCD](https://www.gocd.org/kubernetes/?gclid=EAIaIQobChMIwu-o1_3E2gIVjcVkCh3XUAkoEAAYASAAEgJPQ_D_BwE)to build, test and deploy microservices as containers.
+## Container Orchestration Systems - to provide a higher level of deployment infrastructure abstraction, and evolution of continuous delivery systems such as[GoCD](https://www.gocd.org/kubernetes/?gclid=EAIaIQobChMIwu-o1_3E2gIVjcVkCh3XUAkoEAAYASAAEgJPQ_D_BwE)to build, test and deploy microservices as containers
 
 ## Multitenancy
 
-## Multitenancyis a reference to the mode of operation of software where multiple independent instances of one or multiple applications operate in a shared environment. The instances (tenants) are logically isolated, but physically integrated. The degree of logical isolation must be complete, but the degree of physical integration will vary. The more physical integration, the harder it is to preserve the logical isolation. The tenants (application instances) can be representations of organizations that obtained access to the multitenant application (this is the scenario of an ISV offering services of an application to multiple customer organizations). The tenants may also be multiple applications competing for shared underlying resources (this is the scenario of a private or public cloud where multiple applications are offered in a common cloud environment).
+## Multitenancyis a reference to the mode of operation of software where multiple independent instances of one or multiple applications operate in a shared environment. The instances (tenants) are logically isolated, but physically integrated. The degree of logical isolation must be complete, but the degree of physical integration will vary. The more physical integration, the harder it is to preserve the logical isolation. The tenants (application instances) can be representations of organizations that obtained access to the multitenant application (this is the scenario of an ISV offering services of an application to multiple customer organizations). The tenants may also be multiple applications competing for shared underlying resources (this is the scenario of a private or public cloud where multiple applications are offered in a common cloud environment)
 
 <https://www.gartner.com/it-glossary/multitenancy>
 
@@ -29,8 +29,9 @@ LXD is the new LXC experience. It offers a completely fresh and intuitive user e
 ## LXCFS
 
 Userspace (FUSE) filesystem offering two main things:
--   Overlay files for cpuinfo, meminfo, stat and uptime.
--   A cgroupfs compatible tree allowing unprivileged writes.
+
+- Overlay files for cpuinfo, meminfo, stat and uptime.
+- A cgroupfs compatible tree allowing unprivileged writes.
 
 It's designed to workaround the shortcomings of procfs, sysfs and cgroupfs by exporting files which match what a system container user would expect.
 

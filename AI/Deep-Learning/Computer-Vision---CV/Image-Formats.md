@@ -12,26 +12,27 @@ Exchangeable image file format(officiallyExif, according to JEIDA/JEITA/CIPA spe
 
 <https://en.wikipedia.org/wiki/Exif>
 
-<https://www.exifdata.com
+<https://www.exifdata.com>
 
 ## JPG
--   Progressive rendering
+
+- Progressive rendering
 
 ## JPEG-XL
--   Progressive rendering
+
+- Progressive rendering
 
 ## PNG
--   Progressive rendering
 
+- Progressive rendering
 
--   **JPEGcompression** reduces the image size by finding areas of a similar color; the higher the compression level, the more aggressively it looks for such areas leading to a loss of visual information and the generation of artefacts at the edges of the compressed areas. This compression is effective for photos, drawings, gradients, most illustrations and other colorful, rich images. JPEG doesn't work as well for screenshots, simple UI elements, flat icons, schematics, and it is especially bad for text.
--   **PNGcompression** works by reducing the number of used colors. Depending on the level of compression this could lead to slight loss of color shades. PNG is great for logos, icons, signs, images containing text, for simple illustrations, UI elements and screenshots. Unlike JPEG, it also allows images to have transparent areas. PNG files are usually larger than JPEGs and don't provide good compression for photos and complex, colorful images and gradients.
-
-
+- **JPEGcompression** reduces the image size by finding areas of a similar color; the higher the compression level, the more aggressively it looks for such areas leading to a loss of visual information and the generation of artefacts at the edges of the compressed areas. This compression is effective for photos, drawings, gradients, most illustrations and other colorful, rich images. JPEG doesn't work as well for screenshots, simple UI elements, flat icons, schematics, and it is especially bad for text.
+- **PNGcompression** works by reducing the number of used colors. Depending on the level of compression this could lead to slight loss of color shades. PNG is great for logos, icons, signs, images containing text, for simple illustrations, UI elements and screenshots. Unlike JPEG, it also allows images to have transparent areas. PNG files are usually larger than JPEGs and don't provide good compression for photos and complex, colorful images and gradients.
 
 ## AVIF
--   No progressive rendering
--   AVIF + Blur is good
+
+- No progressive rendering
+- AVIF + Blur is good
 
 ## WebP-v2
 
@@ -54,14 +55,15 @@ brew install webp
 <https://developers.google.com/speed/webp>
 
 ## Image Recognition
--   Categorization
--   Segmentation Problems
+
+- Categorization
+- Segmentation Problems
 
 ## Tools
 
 <http://www.libpng.org/pub/png/apps/pngcheck.html>
 
-## pngcheckverifies the integrity of PNG, JNG and MNG files (by checking the internal 32-bit CRCs, a.k.a. checksums, and decompressing the image data); it can optionally dump almost all of the chunk-level information in the image in human-readable form. For example, it can be used to print the basic statistics about an image (dimensions, bit depth, etc.); to list the color and transparency info in its palette (assuming it has one); or to extract the embedded text annotations. This is a command-line program with batch capabilities.
+## pngcheckverifies the integrity of PNG, JNG and MNG files (by checking the internal 32-bit CRCs, a.k.a. checksums, and decompressing the image data); it can optionally dump almost all of the chunk-level information in the image in human-readable form. For example, it can be used to print the basic statistics about an image (dimensions, bit depth, etc.); to list the color and transparency info in its palette (assuming it has one); or to extract the embedded text annotations. This is a command-line program with batch capabilities
 
 ## References
 

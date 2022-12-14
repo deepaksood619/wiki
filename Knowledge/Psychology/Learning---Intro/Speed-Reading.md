@@ -12,59 +12,59 @@ There is only one way to read, which is to browse in libraries and bookshops, pi
 
 Current reading speed (Blinkist) - 219 WPM
 
-1.  Saccades - Movement of the eye from one word to another (takes about 30 ms)
+1. Saccades - Movement of the eye from one word to another (takes about 30 ms)
 
-2.  Fixation -
+2. Fixation -
 
 Eyes region -
 
-1.  Foveal (spans around 2 visual degrees right in the center of retina)
+1. Foveal (spans around 2 visual degrees right in the center of retina)
 
-2.  Parafoveal (5 degree at either side of fixation)
+2. Parafoveal (5 degree at either side of fixation)
 
-3.  Peripheral
+3. Peripheral
 
-3.  Congnitive Processing
+3. Congnitive Processing
 
 Remove subvocalization (auditory reassurance)
 
-1.  Rapid Visual Serial Presentation (RSVP) (Does not work, doesn't look regression)
+1. Rapid Visual Serial Presentation (RSVP) (Does not work, doesn't look regression)
 
-2.  Stroop's test - where color and written name of color doesn't match
+2. Stroop's test - where color and written name of color doesn't match
 
-1.  Use a pacer (pen, or finger)
+1. Use a pacer (pen, or finger)
 
 ## Tips
 
-1.  Humming
+1. Humming
 
-2.  Chewing gum
+2. Chewing gum
 
-3.  Counting silently from 1 to 10 repeatedly
+3. Counting silently from 1 to 10 repeatedly
 
-4.  Pressing tip of the tongue on top of your mouth
+4. Pressing tip of the tongue on top of your mouth
 
 ## 5 obstacles to reading
 
-1.  Lack of Education
+1. Lack of Education
 
-2.  Lack of Focus
+2. Lack of Focus
 
-3.  **Subvocalization**
+3. **Subvocalization**
 
-4.  **Regression**
+4. **Regression**
 
-5.  **Fixations**
+5. **Fixations**
 
 ## Book - Breakthrough Rapid Reading
 
-1.  Use a visual pacer - finger
-    -   Eliminate **regressions**
+1. Use a visual pacer - finger
+    - Eliminate **regressions**
 
-2.  Drilling
-    -   Reading same paragraph again and again with less and less time reducing the time it needs to read the same passage.
+2. Drilling
+    - Reading same paragraph again and again with less and less time reducing the time it needs to read the same passage.
 
-3.  Better comprehension
+3. Better comprehension
 
 "You could try to pound your head against the wall and think of original ideas or you can cheat by reading them in books."
 
@@ -77,4 +77,5 @@ Remove subvocalization (auditory reassurance)
 Post it notes - visual cue and target
 
 ## Apps
--   Reader pro
+
+- Reader pro

@@ -6,23 +6,23 @@ Modified: 2020-02-10 11:07:10 +0500
 
 ---
 
-1.  Randomization
+1. Randomization
 
-2.  Amortized Analysis
+2. Amortized Analysis
 
-3.  Disjoint Set
+3. Disjoint Set
 
-4.  Suffix Tree and Suffix Array
+4. Suffix Tree and Suffix Array
 
-5.  Linear Programming
+5. Linear Programming
 
-6.  Maximum Flow Algorithms
+6. Maximum Flow Algorithms
 
-7.  Bipartite Matching and Stable Matching
+7. Bipartite Matching and Stable Matching
 
-8.  Approximation Algorithms
+8. Approximation Algorithms
 
-9.  Streaming Algorithms
+9. Streaming Algorithms
 
     a.  sliding window sampling algorithms
 
@@ -33,10 +33,13 @@ Modified: 2020-02-10 11:07:10 +0500
 12. Web Search Algorithms
 
 13. Data Compression Algorithms
+
 ## Optimal Stopping Problem
 
 In[mathematics](https://en.wikipedia.org/wiki/Mathematics), the theory ofoptimal stoppingorearly stoppingis concerned with the problem of choosing a time to take a particular action, in order to[maximise](https://en.wikipedia.org/wiki/Optimization_(mathematics))an expected reward or minimise an expected cost. Optimal stopping problems can be found in areas of[statistics](https://en.wikipedia.org/wiki/Statistics),[economics](https://en.wikipedia.org/wiki/Economics), and[mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance)(related to the pricing of[American options](https://en.wikipedia.org/wiki/American_options)). A key example of an optimal stopping problem is the[secretary problem](https://en.wikipedia.org/wiki/Secretary_problem). Optimal stopping problems can often be written in the form of a[Bellman equation](https://en.wikipedia.org/wiki/Bellman_equation), and are therefore often solved using[dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming).
+
 ## Apartment hunting - 37%
+
 <https://en.wikipedia.org/wiki/Optimal_stopping>
 
 ## Secretary Problem**

@@ -7,14 +7,16 @@ Modified: 2022-02-13 22:40:15 +0500
 ---
 
 ## Original
--   Articles - 395
--   Parts - 22
--   Schedules - 8
+
+- Articles - 395
+- Parts - 22
+- Schedules - 8
 
 ## Current
--   Articles - 448
--   Parts - 25
--   Schedules - 12
+
+- Articles - 448
+- Parts - 25
+- Schedules - 12
 
 25 Parts
 
@@ -1072,7 +1074,7 @@ Distribution of Revenues between the Union and the States
 
 347 Special provision relating to language spoken by a section of the population of a State.
 
-## CHAPTER III: LANGUAGE OF THE SUPREME COURT,HIGH COURTS, ETC.
+## CHAPTER III: LANGUAGE OF THE SUPREME COURT,HIGH COURTS, ETC
 
 348 Language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc.
 
@@ -1196,7 +1198,7 @@ Distribution of Revenues between the Union and the States
 
 395 Repeals.
 
-<https://www.clearias.com/constitution-of-india
+<https://www.clearias.com/constitution-of-india>
 
 <https://en.wikipedia.org/wiki/Constitution_of_India>
 

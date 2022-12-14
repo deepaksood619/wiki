@@ -16,9 +16,9 @@ In case of a string (character array), the variable itself points to the first e
 
 ## Template Fast IO
 
-#include <iostream>
+# include <iostream>
 
-#include <cstring>
+# include <cstring>
 
 // #include <bits/stdc++.h>
 

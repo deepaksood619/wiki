@@ -14,7 +14,8 @@ The set of objects studied in discrete mathematics can be finite or infinite. Th
 
 A recurrence relation is an equation that recursively defines a sequence where the next term is a function of the previous terms (ExpressingFnas some combination ofFiwithi<n).
 Example− Fibonacci series −Fn=Fn−1+Fn−2Fn=Fn−1+Fn−2, Tower of Hanoi −Fn=2Fn−1+1
-1.  **Linear Recurrence Relations**
+
+1. **Linear Recurrence Relations**
 
 A linear recurrence equation of degree k or order k is a recurrence equation which is in the formatxn=A1xn−1+A2xn−1+A3xn−1+...Akxn−k (Anis a constant andAk≠0) on a sequence of numbers as a first-degree polynomial.
 2.  **Non-Homogeneous Recurrence Relation**
@@ -32,6 +33,7 @@ The recurrence of order two satisfied by the[Fibonacci numbers](https://en.wikip
 
 Fn = Fn-1 + Fn-2
 [https://en.wikipedia.org/wiki/Recurrence_relation](https://en.wikipedia.org/wiki/Recurrence_relation#Binomial_coefficients)
+
 ## Common Recurrence Relations
 
 | **Recurrence**         | **Algorithm**                      | **Big-Oh Solution** |

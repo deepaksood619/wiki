@@ -6,11 +6,11 @@ Modified: 2021-03-20 13:29:38 +0500
 
 ---
 
-<https://github.com/PyMySQL/PyMySQL
+<https://github.com/PyMySQL/PyMySQL>
 
-<https://pymysql.readthedocs.io/en/latest
+<https://pymysql.readthedocs.io/en/latest>
 
-<https://pypi.org/project/PyMySQL
+<https://pypi.org/project/PyMySQL>
 
 pip install PyMySQL==0.9.3
 
@@ -27,6 +27,7 @@ pip install PyMySQL==0.9.3
 import pymysql.cursors
 
 # Connect to the database
+
 connection = pymysql.connect(host='localhost',
 user='user',
 password='passwd',
@@ -43,12 +44,14 @@ sql = "INSERT INTO `users` (`email`, `password`) VALUES (%s, %s)"
 
 cursor.execute(sql, ('webmaster@python.org', 'very-secret'))
 
-# connection is not autocommit by default. So you must commit to save your changes.
+# connection is not autocommit by default. So you must commit to save your changes
 
 connection.commit()
 
 with connection.cursor() as cursor:
+
 # Read a single record
+
 sql = "SELECT `id`, `password` FROM `users` WHERE `email`=%s"
 cursor.execute(sql, ('webmaster@python.org',))
 result = cursor.fetchone()
@@ -75,49 +78,49 @@ warnings.filterwarnings("ignore")
 
 ## from constants import (
 
-## AURORA_DB_DBNAME,
+## AURORA_DB_DBNAME
 
-## AURORA_DB_HOST,
+## AURORA_DB_HOST
 
-## AURORA_DB_PASSWORD,
+## AURORA_DB_PASSWORD
 
-## AURORA_DB_USER,
+## AURORA_DB_USER
 
-## AWS_ACCESS_KEY_ID,
+## AWS_ACCESS_KEY_ID
 
-## AWS_SECRET_ACCESS_KEY,
+## AWS_SECRET_ACCESS_KEY
 
-## DEBUG,
+## DEBUG
 
 ## )
 
 ## mysql_conn = None
 
-## def getdb():
+## def getdb()
 
 ## global mysql_conn
 
-## if not mysql_conn:
+## if not mysql_conn
 
-## try:
+## try
 
 ## mysql_conn = pymysql.connect(
 
-## host=AURORA_DB_HOST,
+## host=AURORA_DB_HOST
 
-## user=AURORA_DB_USER,
+## user=AURORA_DB_USER
 
-## password=AURORA_DB_PASSWORD,
+## password=AURORA_DB_PASSWORD
 
-## db=AURORA_DB_DBNAME,
+## db=AURORA_DB_DBNAME
 
-## charset="utf8mb4",
+## charset="utf8mb4"
 
-## cursorclass=pymysql.cursors.DictCursor,
+## cursorclass=pymysql.cursors.DictCursor
 
 ## )
 
-## except Exception as e:
+## except Exception as e
 
 ## logging.exception(f"Some error in establishing mysql connection.")
 
@@ -261,13 +264,13 @@ self.conn.close()
 
 self.conn = None
 
-<https://hackersandslackers.com/python-mysql-pymysql
+<https://hackersandslackers.com/python-mysql-pymysql>
 
 <https://medium.com/@vipinc.007/python-a-database-interaction-class-using-pymysql-3338fb90f38c>
 
 ## Others
 
-<https://pypi.org/project/mysql-connector-python
+<https://pypi.org/project/mysql-connector-python>
 
 ## psycopg2
 
@@ -277,9 +280,9 @@ Psycopg 2 is mostly implemented in C as a libpq wrapper, resulting in being both
 
 Psycopg 2 is both Unicode and Python 3 friendly.
 
-<https://pypi.org/project/psycopg2-binary
+<https://pypi.org/project/psycopg2-binary>
 
-<https://www.psycopg.org/docs
+<https://www.psycopg.org/docs>
 
 <https://www.psycopg.org/docs/usage.html>
 

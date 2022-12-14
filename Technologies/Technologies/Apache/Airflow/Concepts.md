@@ -31,12 +31,13 @@ While DAGs describehowto run a workflow,Operatorsdetermine what actually gets do
 An operator describes a single task in a workflow. Operators are usually (but not always) atomic, meaning they can stand on their own and don't need to share resources with any other operators. The DAG will make sure that operators run in the correct certain order; other than those dependencies, operators generally run independently. In fact, they may run on two completely different machines.
 
 Airflow provides operators for many common tasks, including:
--   [BashOperator](https://airflow.apache.org/_api/airflow/operators/bash_operator/index.html#airflow.operators.bash_operator.BashOperator)- executes a bash command
--   [PythonOperator](https://airflow.apache.org/_api/airflow/operators/python_operator/index.html#airflow.operators.python_operator.PythonOperator)- calls an arbitrary Python function
--   [EmailOperator](https://airflow.apache.org/_api/airflow/operators/email_operator/index.html#airflow.operators.email_operator.EmailOperator)- sends an email
--   [SimpleHttpOperator](https://airflow.apache.org/_api/airflow/operators/http_operator/index.html#airflow.operators.http_operator.SimpleHttpOperator)- sends an HTTP request
--   [MySqlOperator](https://airflow.apache.org/_api/airflow/operators/mysql_operator/index.html#airflow.operators.mysql_operator.MySqlOperator),[SqliteOperator](https://airflow.apache.org/_api/airflow/operators/sqlite_operator/index.html#airflow.operators.sqlite_operator.SqliteOperator),[PostgresOperator](https://airflow.apache.org/_api/airflow/operators/postgres_operator/index.html#airflow.operators.postgres_operator.PostgresOperator),[MsSqlOperator](https://airflow.apache.org/_api/airflow/operators/mssql_operator/index.html#airflow.operators.mssql_operator.MsSqlOperator),[OracleOperator](https://airflow.apache.org/_api/airflow/operators/oracle_operator/index.html#airflow.operators.oracle_operator.OracleOperator),[JdbcOperator](https://airflow.apache.org/_api/airflow/operators/jdbc_operator/index.html#airflow.operators.jdbc_operator.JdbcOperator), etc. - executes a SQL command
--   Sensor- waits for a certain time, file, database row, S3 key, etc...
+
+- [BashOperator](https://airflow.apache.org/_api/airflow/operators/bash_operator/index.html#airflow.operators.bash_operator.BashOperator)- executes a bash command
+- [PythonOperator](https://airflow.apache.org/_api/airflow/operators/python_operator/index.html#airflow.operators.python_operator.PythonOperator)- calls an arbitrary Python function
+- [EmailOperator](https://airflow.apache.org/_api/airflow/operators/email_operator/index.html#airflow.operators.email_operator.EmailOperator)- sends an email
+- [SimpleHttpOperator](https://airflow.apache.org/_api/airflow/operators/http_operator/index.html#airflow.operators.http_operator.SimpleHttpOperator)- sends an HTTP request
+- [MySqlOperator](https://airflow.apache.org/_api/airflow/operators/mysql_operator/index.html#airflow.operators.mysql_operator.MySqlOperator),[SqliteOperator](https://airflow.apache.org/_api/airflow/operators/sqlite_operator/index.html#airflow.operators.sqlite_operator.SqliteOperator),[PostgresOperator](https://airflow.apache.org/_api/airflow/operators/postgres_operator/index.html#airflow.operators.postgres_operator.PostgresOperator),[MsSqlOperator](https://airflow.apache.org/_api/airflow/operators/mssql_operator/index.html#airflow.operators.mssql_operator.MsSqlOperator),[OracleOperator](https://airflow.apache.org/_api/airflow/operators/oracle_operator/index.html#airflow.operators.oracle_operator.OracleOperator),[JdbcOperator](https://airflow.apache.org/_api/airflow/operators/jdbc_operator/index.html#airflow.operators.jdbc_operator.JdbcOperator), etc. - executes a SQL command
+- Sensor- waits for a certain time, file, database row, S3 key, etc...
 
 ## DAG Assignment
 
@@ -61,26 +62,28 @@ Once an operator is instantiated, it is referred to as a "task". The instantiati
 A task instance represents a specific run of a task and is characterized as the combination of a dag, a task, and a point in time. Task instances also have an indicative state, which could be "running", "success", "failed", "skipped", "up for retry", etc.
 
 ## Workflows
--   **DAG:** a description of the order in which work should take place
--   **Operator:** a class that acts as a template for carrying out some work
--   **Task:** a parameterized instance of an operator
--   **Task Instance:** a task that 1) has been assigned to a DAG and 2) has a state associated with a specific run of the DAG
+
+- **DAG:** a description of the order in which work should take place
+- **Operator:** a class that acts as a template for carrying out some work
+- **Task:** a parameterized instance of an operator
+- **Task Instance:** a task that 1) has been assigned to a DAG and 2) has a state associated with a specific run of the DAG
 
 By combiningDAGsandOperatorsto createTaskInstances, you can build complex workflows.
 
 ## Additional Functionality
--   Hooks
--   Pools
--   Connections
--   Queues
--   XComs
--   Variables
--   Branching
--   SubDAGs
--   SLAs
--   Trigger Rules
--   Latest Run Only
--   Zombies and Undeads
--   Cluster Policy
--   Documentation and Notes
--   Jinja Templating
+
+- Hooks
+- Pools
+- Connections
+- Queues
+- XComs
+- Variables
+- Branching
+- SubDAGs
+- SLAs
+- Trigger Rules
+- Latest Run Only
+- Zombies and Undeads
+- Cluster Policy
+- Documentation and Notes
+- Jinja Templating

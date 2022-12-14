@@ -12,8 +12,6 @@ Modified: 2018-05-22 20:14:26 +0500
 
 Negative Cycles should not exists in the graph while calculating shortest paths, because if negative cycle exists between the source and destination, than path can be reduced to as low as possible just by cycling through the negative cycle.
 
-
-
 ![image](media/Bellman-Ford-Algorithm-image3.png)
 
 ![image](media/Bellman-Ford-Algorithm-image4.png)

@@ -13,9 +13,10 @@ Modified: 2022-11-28 16:07:03 +0500
 <https://www.youtube.com/watch?v=N3AkSS5hXMA>
 
 ## Features
--   Code Reusability
--   JSX
--   Virtual DOM
+
+- Code Reusability
+- JSX
+- Virtual DOM
 
 React's magic comes from its interpretation of the DOM and its strategy for creating UIs.
 
@@ -27,26 +28,26 @@ Changes made to the VDOM are batched together to avoid unnecessary frequent chan
 
 This abstraction layer for the DOM provides a simple interface for developers while allowing React to update the DOM in an efficient and performant manner.
 
-<https://www.freecodecamp.org/news/how-to-manipulate-the-dom-beginners-guide
+<https://www.freecodecamp.org/news/how-to-manipulate-the-dom-beginners-guide>
 
-
--   **Declarative**
+- **Declarative**
 
 Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes
 
-
--   **Component-Based**
+- **Component-Based**
 
 Build encapsulated components that manage their own state, then compose them to make complex UIs
--   Class based components
 
--   React also has an unidirectional dataflow. UI in React is actually the function of the state. This means that as the state updates it updates the UI as well. So our UI progresses as the state changes.
+- Class based components
+
+- React also has an unidirectional dataflow. UI in React is actually the function of the state. This means that as the state updates it updates the UI as well. So our UI progresses as the state changes.
 
 ## Functionalities
--   Render HTML Content with the data provided
--   Have multiple UI States depending on the data
--   Dispatch actions on user interaction or life cycle events
--   Animation using ReactCSSTransitionGroup
+
+- Render HTML Content with the data provided
+- Have multiple UI States depending on the data
+- Dispatch actions on user interaction or life cycle events
+- Animation using ReactCSSTransitionGroup
 
 Takes all the js files from components, actions, reducers and bundles them all together into one js file.
 
@@ -56,21 +57,21 @@ Components/views are snippets of code that produce html.
 
 package.json file is a list of the the dependencies that our application use.
 
-1.  Exporting modules
+1. Exporting modules
 
-2.  Classes
+2. Classes
 
-3.  State
+3. State
 
 ## Advantages of React
 
-1.  **Fast** - Apps made in React can handle complex updates and still feel quick and responsive.
+1. **Fast** - Apps made in React can handle complex updates and still feel quick and responsive.
 
-2.  **Modular -** Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's[maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
+2. **Modular -** Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's[maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
 
-3.  **Scalable -** Large programs that display a lot of changing data are where React performs best.
+3. **Scalable -** Large programs that display a lot of changing data are where React performs best.
 
-4.  **Flexible -** You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential.[There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
+4. **Flexible -** You can use React for interesting projects that have nothing to do with making a web app. People are still figuring out React's potential.[There's room to explore](https://medium.mybridge.co/22-amazing-open-source-react-projects-cb8230ec719f).
 
 ## Reconciliation
 
@@ -90,13 +91,13 @@ We have React and ReactDOM as two different libraries because there are use case
 
 ## New Features
 
-1.  **Suspense**
+1. **Suspense**
 
 <https://reactjs.org/docs/concurrent-mode-suspense.html>
 
-2.  Time Slicing
+2. Time Slicing
 
-3.  Profiler
+3. Profiler
 
 ## ES16
 
@@ -110,41 +111,43 @@ Encapsulates the idea that all the code that we write in separate files is siloe
 
 <https://reactjs.org/docs/thinking-in-react.html>
 
-1.  Break The UI Into A Component Hierarchy
+1. Break The UI Into A Component Hierarchy
 
 Draw boxes around every component (and subcomponent) in the mock and give them all names.
 
 ![image](media/Intro-image2.jpeg)
 
-1.  FilterableProductTable(orange):contains the entirety of the example
+1. FilterableProductTable(orange):contains the entirety of the example
 
-2.  SearchBar(blue):receives alluser input
+2. SearchBar(blue):receives alluser input
 
-3.  ProductTable(green):displays and filters thedata collectionbased onuser input
+3. ProductTable(green):displays and filters thedata collectionbased onuser input
 
-4.  ProductCategoryRow(turquoise):displays a heading for eachcategory
+4. ProductCategoryRow(turquoise):displays a heading for eachcategory
 
-5.  ProductRow(red):displays a row for eachproduct
+5. ProductRow(red):displays a row for eachproduct
 
-2.  Build A Static Version in React
+2. Build A Static Version in React
 
 Building a static version requires a lot of typing and no thinking, and adding interactivity requires a lot of thinking and not a lot of typing.
 
-3.  Identify The Minimal (but complete) Representation Of UI State
+3. Identify The Minimal (but complete) Representation Of UI State
 
-4.  Identify Where Your State Should Live
+4. Identify Where Your State Should Live
 
-5.  Add Inverse Data Flow
+5. Add Inverse Data Flow
 
 ## Advanced
 
 [Advanced React Patterns, Performance, Environment and Testing | New Course Launch 🎉](https://www.youtube.com/watch?v=MfIoAG3e7p4&ab_channel=codedamn)
--   Compound components
+
+- Compound components
 
 [The React Cookbook: Advanced Recipes to Level Up Your Next App](https://www.youtube.com/watch?v=lG6Z0FQj_SI)
--   Context API - a mechanism for components to connect without passing data as props, or dispatching lots of events.
--   Presentation / Container Components (Seperation of concerns)
--   Render Props
+
+- Context API - a mechanism for components to connect without passing data as props, or dispatching lots of events.
+- Presentation / Container Components (Seperation of concerns)
+- Render Props
 
 <https://www.toptal.com/react/interview-questions>
 

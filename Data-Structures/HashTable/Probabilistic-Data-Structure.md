@@ -7,16 +7,18 @@ Modified: 2022-04-24 11:40:18 +0500
 ---
 
 Probabilistic data structures are a group of data structures that are extremely useful for big data and streaming applications. Generally speaking, these data structures use hash functions to randomize and compactly represent a set of items. Collisions are ignored but errors can be well-controlled under certain threshold. Comparing with error-free approaches, these algorithms use much less memory and have constant query time. They usually support union and intersection operations and therefore can be easily parallelized.
-1.  **Membership Query - Bloom filter**
 
-2.  **Cardinality - HyperLogLog**
+1. **Membership Query - Bloom filter**
 
-3.  **Frequency - Count-Min Sketch**
+2. **Cardinality - HyperLogLog**
 
-4.  **Frequency Estimation: Count-Mean-Min Sketch**
+3. **Frequency - Count-Min Sketch**
 
-5.  **Locality-sensitive hashing**(**LSH**)
+4. **Frequency Estimation: Count-Mean-Min Sketch**
+
+5. **Locality-sensitive hashing**(**LSH**)
 ![image](media/Probabilistic-Data-Structure-image1.png)
+
 ## Ribbon Filter (practically smaller than Bloom and Xor)
 
 <https://engineering.fb.com/2021/07/09/data-infrastructure/ribbon-filter>
@@ -29,7 +31,8 @@ Probabilistic data structures are a group of data structures that are extremely 
 
 It uses only one unit of memory per group to compute a quantile for each group.
 
-## Use case: Find the nth percentile of the data stream.
+## Use case: Find the nth percentile of the data stream
+
 <https://link.springer.com/chapter/10.1007/978-3-642-40273-9_7>
 
 <https://agkn.wordpress.com/2013/09/16/sketch-of-the-day-frugal-streaming>

@@ -9,8 +9,9 @@ Modified: 2018-05-11 23:55:30 +0500
 Not stable
 
 For all elements -
--   In iteration i, find index min of smallest remaining element
--   Swap a[i] and a[min]
+
+- In iteration i, find index min of smallest remaining element
+- Swap a[i] and a[min]
 
 ![image](media/Selection-Sort-image1.png)
 

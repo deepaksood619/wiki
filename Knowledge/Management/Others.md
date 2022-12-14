@@ -8,13 +8,14 @@ Modified: 2021-05-31 01:20:17 +0500
 
 # SWOT Analysis -
 
-## SWOT analysis**(or**SWOT matrix) is a strategic planning technique used to help a person or organization identify the*Strengths*,*Weaknesses*,*Opportunities*, and*Threats*related to[business](https://en.wikipedia.org/wiki/Business)competition or project planning.[^[1]^](https://en.wikipedia.org/wiki/SWOT_analysis#cite_note-1)It is intended to specify the objectives of the business venture or project and identify the internal and external factors that are favorable and unfavorable to achieving those objectives. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage.
+## SWOT analysis**(or**SWOT matrix) is a strategic planning technique used to help a person or organization identify the*Strengths*,*Weaknesses*,*Opportunities*, and*Threats*related to[business](https://en.wikipedia.org/wiki/Business)competition or project planning.[^[1]^](https://en.wikipedia.org/wiki/SWOT_analysis#cite_note-1)It is intended to specify the objectives of the business venture or project and identify the internal and external factors that are favorable and unfavorable to achieving those objectives. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage
 
 Strengths and Weakness are frequently internally-related, while Opportunities and Threats commonly focus on environmental placement.
--   ***S**trengths*: characteristics of the business or project that give it an advantage over others.
--   ***W**eaknesses*: characteristics of the business that place the business or project at a disadvantage relative to others.
--   ***O**pportunities*: elements in the environment that the business or project could exploit to its advantage.
--   ***T**hreats*: elements in the environment that could cause trouble for the business or project.
+
+- ***S**trengths*: characteristics of the business or project that give it an advantage over others.
+- ***W**eaknesses*: characteristics of the business that place the business or project at a disadvantage relative to others.
+- ***O**pportunities*: elements in the environment that the business or project could exploit to its advantage.
+- ***T**hreats*: elements in the environment that could cause trouble for the business or project.
 
 The degree to which the internal environment of the firm matches with the external environment is expressed by the concept of[strategic fit](https://en.wikipedia.org/wiki/Strategic_fit). Identification of SWOTs is important because they can inform later steps in planning to achieve the objective. First, decision-makers should consider whether the objective is attainable, given the SWOTs. If the objective is*not*attainable, they must select a different objective and repeat the process.
 
@@ -28,10 +29,11 @@ PEST Analysis is a management method whereby an organization can assess major ex
 
 Kanban is a method for managing the creation of products with an emphasis on continual delivery while not overburdening the development team.
 
-## Kanban is based on 3 basic principles:
--   **Visualize what you do today (workflow):**seeing all the items in context of each other can be very informative
--   **Limit the amount of work in progress (WIP):**this helps balance the flow-based approach so teams don't start and commit to too much work at once
--   **Enhance flow:**when something is finished, the next highest thing from the backlog is pulled into play
+## Kanban is based on 3 basic principles
+
+- **Visualize what you do today (workflow):**seeing all the items in context of each other can be very informative
+- **Limit the amount of work in progress (WIP):**this helps balance the flow-based approach so teams don't start and commit to too much work at once
+- **Enhance flow:**when something is finished, the next highest thing from the backlog is pulled into play
 
 <https://resources.collab.net/agile-101/what-is-kanban>
 
@@ -45,7 +47,7 @@ is the percentage of subscribers to a service who discontinue their subscription
 
 ## SE Radio Episode 352 - Johanathan Nightingale on Scaling Engineering Management
 
-## Law of Diminishing Returns - used to refer to a point at which the level of profits or benefits gained is less than the amount of money or energy invested.
+## Law of Diminishing Returns - used to refer to a point at which the level of profits or benefits gained is less than the amount of money or energy invested
 
 ## Failure Premortem
 
@@ -79,4 +81,4 @@ Force Majeure is a common clause in contract law. It allows a party to limit the
 
 ## Human Resource Management
 
-<https://www.keka.com
+<https://www.keka.com>

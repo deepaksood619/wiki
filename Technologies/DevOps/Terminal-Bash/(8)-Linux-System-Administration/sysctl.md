@@ -30,15 +30,17 @@ sysctl -w net.ipv4.ip_local_port_range="500 65535"
 ## Enabling Unsafe Sysctls
 
 Sysctls are grouped intosafeandunsafesysctls. In addition to proper namespacing, asafesysctl must be properlyisolatedbetween pods on the same node. This means that setting asafesysctl for one pod
--   must not have any influence on any other pod on the node
--   must not allow to harm the node's health
--   must not allow to gain CPU or memory resources outside of the resource limits of a pod.
+
+- must not have any influence on any other pod on the node
+- must not allow to harm the node's health
+- must not allow to gain CPU or memory resources outside of the resource limits of a pod.
 
 By far, most of thenamespacedsysctls are not necessarily consideredsafe. The following sysctls are supported in thesafeset:
--   kernel.shm_rmid_forced,
--   net.ipv4.ip_local_port_range,
--   net.ipv4.tcp_syncookies,
--   net.ipv4.ping_group_range(since Kubernetes 1.18).
+
+- kernel.shm_rmid_forced,
+- net.ipv4.ip_local_port_range,
+- net.ipv4.tcp_syncookies,
+- net.ipv4.ping_group_range(since Kubernetes 1.18).
 
 Note:The examplenet.ipv4.tcp_syncookiesis not namespaced on Linux kernel version 4.4 or lower.
 

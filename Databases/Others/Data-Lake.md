@@ -25,6 +25,7 @@ The data lake is schemaless
 |                 | Designed prior to the data warehouse implementation **(Schema on read**)        | Written at the time of analysis **(Schema on write**)                             |
 |                 | Great for storing granular data; raw as well as processed data                  | Great for storing frequently accessed data as well as data aggregates and summary |
 | **Data Quality** | Any data that may or may not be curated (i.e., raw data)                        | Highly curated data that serves as the central version of the truth               |
+
 ## References
 
 <https://martinfowler.com/bliki/DataLake.html>

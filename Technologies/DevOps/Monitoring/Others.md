@@ -20,7 +20,7 @@ Netdata is designed by system administrators, DevOps engineers, and developers t
 
 <https://github.com/netdata/netdata>
 
-<https://www.netdata.cloud
+<https://www.netdata.cloud>
 
 <https://my-netdata.io/infographic.html>
 
@@ -47,38 +47,40 @@ cAdvisor has native support for[Docker](https://github.com/docker/docker)contain
 ## Zabbix
 
 Zabbix is an open source monitoring software tool for diverse IT components, including networks, servers, virtual machines (VMs) and cloud services. Zabbix provides monitoring metrics, among others network utilization, CPU load and disk space consumption. Zabbix monitoring configuration can be done using XML based templates which contains elements to monitor. The software monitors operations on Linux, Hewlett Packard Unix (HP-UX), Mac OS X, Solaris and other operating systems (OSes); however, Windows monitoring is only possible through agents. Zabbix can use[MySQL](https://en.wikipedia.org/wiki/MySQL),[MariaDB](https://en.wikipedia.org/wiki/MariaDB),[PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL),[SQLite](https://en.wikipedia.org/wiki/SQLite),[Oracle](https://en.wikipedia.org/wiki/Oracle_database)or[IBM DB2](https://en.wikipedia.org/wiki/IBM_DB2)to store data. Its backend is written in[C](https://en.wikipedia.org/wiki/C_(programming_language))and the web frontend is written in[PHP](https://en.wikipedia.org/wiki/PHP). Zabbix offers several monitoring options:
--   Simple checks can verify the availability and responsiveness of standard services such as SMTP or HTTP without installing any software on the monitored host.
--   A Zabbix[agent](https://en.wikipedia.org/wiki/Software_agent)can also be installed on UNIX and Windows hosts to monitor statistics such as CPU load, network utilization, disk space, etc.
--   As an alternative to installing an agent on hosts, Zabbix includes support for monitoring via[SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol),[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)and[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)checks, as well as over[IPMI](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface),[JMX](https://en.wikipedia.org/wiki/Java_Management_Extensions),[SSH](https://en.wikipedia.org/wiki/Secure_Shell),[Telnet](https://en.wikipedia.org/wiki/Telnet)and using custom parameters. Zabbix supports a variety of near-real-time notification mechanisms, including[XMPP](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol).
+
+- Simple checks can verify the availability and responsiveness of standard services such as SMTP or HTTP without installing any software on the monitored host.
+- A Zabbix[agent](https://en.wikipedia.org/wiki/Software_agent)can also be installed on UNIX and Windows hosts to monitor statistics such as CPU load, network utilization, disk space, etc.
+- As an alternative to installing an agent on hosts, Zabbix includes support for monitoring via[SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol),[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)and[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)checks, as well as over[IPMI](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface),[JMX](https://en.wikipedia.org/wiki/Java_Management_Extensions),[SSH](https://en.wikipedia.org/wiki/Secure_Shell),[Telnet](https://en.wikipedia.org/wiki/Telnet)and using custom parameters. Zabbix supports a variety of near-real-time notification mechanisms, including[XMPP](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol).
 
 ## References
 
 <https://en.wikipedia.org/wiki/Zabbix>
 
-<https://www.zabbix.com
+<https://www.zabbix.com>
 
 ## Nagios
 
-## Nagios**[/ˈnɑːɡiːoʊs/](https://en.wikipedia.org/wiki/Help:IPA/English), now known as**Nagios Core, is a[free](https://en.wikipedia.org/wiki/Free_software)and[open source](https://en.wikipedia.org/wiki/Open-source_software)[computer](https://en.wikipedia.org/wiki/Computer)-[software application](https://en.wikipedia.org/wiki/Software_application) that [monitors](https://en.wikipedia.org/wiki/Event_monitoring) [systems](https://en.wikipedia.org/wiki/System_monitor), [networks](https://en.wikipedia.org/wiki/Network_monitoring)and infrastructure. Nagios offers monitoring and alerting services for servers, switches, applications and services. It alerts users when things go wrong and alerts them a second time when the problem has been resolved.
+## Nagios**[/ˈnɑːɡiːoʊs/](https://en.wikipedia.org/wiki/Help:IPA/English), now known as**Nagios Core, is a[free](https://en.wikipedia.org/wiki/Free_software)and[open source](https://en.wikipedia.org/wiki/Open-source_software)[computer](https://en.wikipedia.org/wiki/Computer)-[software application](https://en.wikipedia.org/wiki/Software_application) that [monitors](https://en.wikipedia.org/wiki/Event_monitoring) [systems](https://en.wikipedia.org/wiki/System_monitor), [networks](https://en.wikipedia.org/wiki/Network_monitoring)and infrastructure. Nagios offers monitoring and alerting services for servers, switches, applications and services. It alerts users when things go wrong and alerts them a second time when the problem has been resolved
 
 ## Features
--   Monitoring of network services ([SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol),[POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol),[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol),[NNTP](https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol),[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol),[SNMP](https://en.wikipedia.org/wiki/Simple_network_management_protocol),[FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol),[SSH](https://en.wikipedia.org/wiki/Secure_Shell))
--   Monitoring of host resources ([processor](https://en.wikipedia.org/wiki/Central_processing_unit)load,[disk](https://en.wikipedia.org/wiki/Hard_disk)usage, system logs) on a majority of[network operating systems](https://en.wikipedia.org/wiki/Network_operating_system), including[Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), using[monitoring agents](https://en.wikipedia.org/wiki/Nagios#Nagios_agents).
--   Monitoring of any hardware (like probes for temperature, alarms, etc.) which have the ability to send collected data via a network to specifically written plugins
--   Monitoring via remotely run scripts via[Nagios Remote Plugin Executor](https://en.wikipedia.org/wiki/NRPE)
--   Remote monitoring supported through[SSH](https://en.wikipedia.org/wiki/Secure_shell)or[SSL](https://en.wikipedia.org/wiki/Secure_Sockets_Layer)[encrypted](https://en.wikipedia.org/wiki/Encryption)tunnels.
--   A simple plugin design that allows users to easily develop their own service checks depending on needs, by using their tools of choice ([shell scripts](https://en.wikipedia.org/wiki/Shell_scripts),[C++](https://en.wikipedia.org/wiki/C%2B%2B),[Perl](https://en.wikipedia.org/wiki/Perl),[Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)),[Python](https://en.wikipedia.org/wiki/Python_(programming_language)),[PHP](https://en.wikipedia.org/wiki/PHP),[C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), etc.)
--   Available data graphing plugins
--   Parallelized service checks
--   Flat-text formatted configuration files (integrates with many config editors)
--   The ability to define network host using 'parent' hosts, allowing the detection of and distinction between hosts that are down or unreachable
--   Contact notifications when service or host problems occur and get resolved (via[e-mail](https://en.wikipedia.org/wiki/E-mail),[pager](https://en.wikipedia.org/wiki/Pager),[SMS](https://en.wikipedia.org/wiki/Short_message_service), or any user-defined method through plugin system)
--   The ability to define event handlers to be run during service or host events for proactive problem resolution
--   Automatic[log file](https://en.wikipedia.org/wiki/Computer_data_logging)rotation
--   Support for implementing[redundant](https://en.wikipedia.org/wiki/Redundancy_(engineering))monitoring hosts
--   Support for implementing performance data graphing
--   Support for database backend (such as[NDOUtils](https://exchange.nagios.org/directory/Addons/Database-Backends/NDOUtils/details))
--   A web-interface for viewing current network status, notifications, problem history, log files, etc.
+
+- Monitoring of network services ([SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol),[POP3](https://en.wikipedia.org/wiki/Post_Office_Protocol),[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol),[NNTP](https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol),[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol),[SNMP](https://en.wikipedia.org/wiki/Simple_network_management_protocol),[FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol),[SSH](https://en.wikipedia.org/wiki/Secure_Shell))
+- Monitoring of host resources ([processor](https://en.wikipedia.org/wiki/Central_processing_unit)load,[disk](https://en.wikipedia.org/wiki/Hard_disk)usage, system logs) on a majority of[network operating systems](https://en.wikipedia.org/wiki/Network_operating_system), including[Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), using[monitoring agents](https://en.wikipedia.org/wiki/Nagios#Nagios_agents).
+- Monitoring of any hardware (like probes for temperature, alarms, etc.) which have the ability to send collected data via a network to specifically written plugins
+- Monitoring via remotely run scripts via[Nagios Remote Plugin Executor](https://en.wikipedia.org/wiki/NRPE)
+- Remote monitoring supported through[SSH](https://en.wikipedia.org/wiki/Secure_shell)or[SSL](https://en.wikipedia.org/wiki/Secure_Sockets_Layer)[encrypted](https://en.wikipedia.org/wiki/Encryption)tunnels.
+- A simple plugin design that allows users to easily develop their own service checks depending on needs, by using their tools of choice ([shell scripts](https://en.wikipedia.org/wiki/Shell_scripts),[C++](https://en.wikipedia.org/wiki/C%2B%2B),[Perl](https://en.wikipedia.org/wiki/Perl),[Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)),[Python](https://en.wikipedia.org/wiki/Python_(programming_language)),[PHP](https://en.wikipedia.org/wiki/PHP),[C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), etc.)
+- Available data graphing plugins
+- Parallelized service checks
+- Flat-text formatted configuration files (integrates with many config editors)
+- The ability to define network host using 'parent' hosts, allowing the detection of and distinction between hosts that are down or unreachable
+- Contact notifications when service or host problems occur and get resolved (via[e-mail](https://en.wikipedia.org/wiki/E-mail),[pager](https://en.wikipedia.org/wiki/Pager),[SMS](https://en.wikipedia.org/wiki/Short_message_service), or any user-defined method through plugin system)
+- The ability to define event handlers to be run during service or host events for proactive problem resolution
+- Automatic[log file](https://en.wikipedia.org/wiki/Computer_data_logging)rotation
+- Support for implementing[redundant](https://en.wikipedia.org/wiki/Redundancy_(engineering))monitoring hosts
+- Support for implementing performance data graphing
+- Support for database backend (such as[NDOUtils](https://exchange.nagios.org/directory/Addons/Database-Backends/NDOUtils/details))
+- A web-interface for viewing current network status, notifications, problem history, log files, etc.
 
 <https://en.wikipedia.org/wiki/Nagios>
 
@@ -90,7 +92,7 @@ Monit is a small Open Source utility for managing and monitoring Unix systems. M
 
 M/Monit can monitor and manage distributed computer systems, conduct automatic maintenance and repair and execute meaningful causal actions in error situations.
 
-<https://mmonit.com/monit
+<https://mmonit.com/monit>
 
 ## Sentry
 
@@ -134,23 +136,23 @@ sentry run cron
 
 <https://github.com/getsentry/sentry>
 
-<https://sentry.io/welcome
+<https://sentry.io/welcome>
 
-<https://blog.hlab.tech/a-step-by-step-tutorial-on-how-to-monitor-software-errors-in-real-time-using-sentry-in-django-web-applications
+<https://blog.hlab.tech/a-step-by-step-tutorial-on-how-to-monitor-software-errors-in-real-time-using-sentry-in-django-web-applications>
 
 [**https://getsentry.github.io/sentry-python/api.html**](https://getsentry.github.io/sentry-python/api.html)
 
-<https://docs.sentry.io/platforms/python
+<https://docs.sentry.io/platforms/python>
 
-Android - <https://sentry.io/for/android
+Android - <https://sentry.io/for/android>
 
-<https://docs.sentry.io/platforms/javascript/guides/react
+<https://docs.sentry.io/platforms/javascript/guides/react>
 
-<https://docs.sentry.io/platforms/android
+<https://docs.sentry.io/platforms/android>
 
 ## Others
 
-<https://airbrake.io
+<https://airbrake.io>
 
 ## NewRelic
 
@@ -158,7 +160,6 @@ import newrelic.agent
 newrelic.agent.initialize('/path/to/newrelic.ini')
 
 newrelic-admin generate-config $YOUR_LICENSE_KEY newrelic.ini
-
 
 NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program gunicorn app:app -b 0.0.0.0:5000 --workers 2 -k gevent --timeout 300 --worker-connections 1000 --max-requests 1000000 --limit-request-line 8190 --access-logfile '-'
 
@@ -184,7 +185,7 @@ SELECT count(*) FROM Transaction WHERE httpResponseCode LIKE '5%' SINCE 1 week a
 
 SELECT count(*) FROM Transaction FACET appName, httpResponseCode, request.uri WHERE httpResponseCode LIKE '5%' SINCE 30 MINUTES AGO LIMIT MAX
 
-<https://pypi.org/project/newrelic
+<https://pypi.org/project/newrelic>
 
 Send error logs (record exception) - <https://docs.newrelic.com/docs/agents/python-agent/python-agent-api/record_exception>
 
@@ -194,24 +195,22 @@ Send error logs (record exception) - <https://docs.newrelic.com/docs/agents/pyth
 
 ## Data Tables
 
-1.  A screenshot of a table in New Relic where you were particularly frustrated by how it displays your data.
+1. A screenshot of a table in New Relic where you were particularly frustrated by how it displays your data.
 
-2.  A screenshot of a table in New Relic where you felt it was missing information that would make it easier for you to complete a task that you're trying to do.
+2. A screenshot of a table in New Relic where you felt it was missing information that would make it easier for you to complete a task that you're trying to do.
 
-3.  A screenshot of a table in New Relic where you felt that this table is really is really well set up for your needs.
+3. A screenshot of a table in New Relic where you felt that this table is really is really well set up for your needs.
 
-4.  A screenshot of a data table from somewhere else, that you think New Relic could learn from something that they are doing differently
+4. A screenshot of a data table from somewhere else, that you think New Relic could learn from something that they are doing differently
 
 ## Sensu
 
 ![Sensu architecture (push via queue) PG Sensu Machin Sensu plugins Sensu Server ES / Influx (Alerts) Elastic Kubernetes Kubernetes Master Machine Kubernetes API Server Node machines CloudWatch Storage External Machine Ext. Service Sensu plugin ](../../media/DevOps-Monitoring-Others-image1.png)
 
-
-
 ## syslog
 
-<https://docs.docker.com/config/containers/logging/syslog
+<https://docs.docker.com/config/containers/logging/syslog>
 
 ## Others
 
-<https://victoriametrics.com/products/open-source
+<https://victoriametrics.com/products/open-source>

@@ -18,27 +18,28 @@ Don't sit for long stretches of hour in each position
 
 ## Types of Exercise
 
-1.  Aerobic
+1. Aerobic
 
 Aerobic and cardio are synonymous. This type of exercise involves moving major muscle groups continuously to elevate your heart rate and induce a sweat. Aerobic activity can be low-intensity, like a brisk walk, or swimming; or it can be high intensity like running, rowing, playing a sport such as tennis, etc.
 
-2.  Anaerobic
+2. Anaerobic
 
 Strength training using resistance or weights is the primary anaerobic activity as it doesn't require the same oxygen inputs; hence the word "anaerobic," which means without oxygen. This type of exercise strengthens and tones muscles while also improving coordination and balance. Examples of anaerobic activities include weight lifting, push-ups, pull-ups, plyometric training and HIIT (high-intensity interval training).
 
-3.  Flexibility
+3. Flexibility
 
 Stretching is a type of flexibility exercise that keeps your muscles relaxed and able to move freely. Without stretching either before or after a workout, you're more prone to injuries like tears and pulls.[Yoga](https://www.sleepadvisor.org/yoga-for-sleep/)is also a fantastic activity for flexibility.
 
-<https://www.sleepadvisor.org/sleep-after-workout
+<https://www.sleepadvisor.org/sleep-after-workout>
 
 ## Dynamic stretches - ones that incorporate movement and take joints through their full range of motion
 
 ## Static stretches - Stretches that you hold for extended periods of time
--   Active static stretch - the muscle being stretched does the work of holding the position.
--   Passive static stretch - depends on gravity or a prop---like a partner, barre, strap, or elastic band--- to hold the muscle that is being stretched in place.
 
-## Ballistic stretches - Many people try to go deeper into a stretch by adopt- ing a stretch position, then bouncing to quickly extend muscle length and range of motion. Stretches like these are called ballistic stretches. Ballistic stretches trigger the stretch reflex---resistance prompted by specialized nerves, forcing a lengthening muscle to contract.
+- Active static stretch - the muscle being stretched does the work of holding the position.
+- Passive static stretch - depends on gravity or a prop---like a partner, barre, strap, or elastic band--- to hold the muscle that is being stretched in place.
+
+## Ballistic stretches - Many people try to go deeper into a stretch by adopt- ing a stretch position, then bouncing to quickly extend muscle length and range of motion. Stretches like these are called ballistic stretches. Ballistic stretches trigger the stretch reflex---resistance prompted by specialized nerves, forcing a lengthening muscle to contract
 
 ## Proprioceptive neuromuscular facilitation - PNF takes a two-step approach. It starts with iso- metric contraction of the opposing muscle, followed by a passive static stretch of the target muscle applied by a partner who focuses on moving a joint through its range of motion. (To do an isometric contraction, you press against an immovable object, like a partner, so that the muscle activates without lengthening or shortening.)
 
@@ -54,92 +55,91 @@ Every move you make begins when lightning-quick electrical signals skip down ner
 
 So, just what happens when you deliberately try to stretch a muscle? Sarcomeres lengthen, creating less overlap in those sliding myofilaments. This allows some muscle fibers to lengthen, too. When sarcomeres reach their limits, the tension on the muscle is trans- mitted to the tendon, which elongates, also.
 
-
--   **delayed onset muscle soreness - 24 to 48 hours after a workout**
+- **delayed onset muscle soreness - 24 to 48 hours after a workout**
 
 ## Pre-workout stretching
 
-1.  5 round surya namaskar
+1. 5 round surya namaskar
 
-2.  Tad asana
+2. Tad asana
 
-3.  Arm and neck rotation
+3. Arm and neck rotation
 
-4.  Lunges
+4. Lunges
 
-5.  Pushups
+5. Pushups
 
 ## Harvard Stretching
 
-1.  Shoulder rolls - from back, start small movements to large movements
+1. Shoulder rolls - from back, start small movements to large movements
 
 ![](media/Exercise---Stretching-image1.png)
 
-2.  Overhead reach - Reaching side to side
+2. Overhead reach - Reaching side to side
 
 ![](media/Exercise---Stretching-image2.png)
 
-3.  Torso rotation with a reach - lift your toes so you don't twist your back
+3. Torso rotation with a reach - lift your toes so you don't twist your back
 
 ![](media/Exercise---Stretching-image3.png)
 
-4.  Hamstring curls - No arm movement
+4. Hamstring curls - No arm movement
 
 ![](media/Exercise---Stretching-image4.png)
 
-5.  Add arms to hamstring curl
+5. Add arms to hamstring curl
 
-6.  Shallow side lunges
+6. Shallow side lunges
 
 ![](media/Exercise---Stretching-image5.png)
 
-7.  Knee lifts
+7. Knee lifts
 
 ![(`츻냐 ](media/Exercise---Stretching-image6.png)
 
-8.  Arm sweeps - Cool down with four arm sweeps
+8. Arm sweeps - Cool down with four arm sweeps
 
 ![](media/Exercise---Stretching-image7.png)
 
 ## Pre-running streching
 
-1.  Walking lunge
+1. Walking lunge
 
-2.  Side to side lunges
+2. Side to side lunges
 
-3.  Knee pull
+3. Knee pull
 
-4.  Hip bridge
+4. Hip bridge
 
-5.  Trunk rotation
+5. Trunk rotation
 
-6.  Calf raise
+6. Calf raise
 
-7.  Ankling rotation
+7. Ankling rotation
 
-8.  Standing quad stretch
+8. Standing quad stretch
 
-9.  Light jog / Hip flexor warm up / Bike kick
+9. Light jog / Hip flexor warm up / Bike kick
 
 <https://www.healthline.com/health/fitness-exercise/essential-runner-stretches>
 
-<https://www.runnersworld.com/health-injuries/a20809473/five-exercises-to-do-before-every-run
+<https://www.runnersworld.com/health-injuries/a20809473/five-exercises-to-do-before-every-run>
 
 ## Post workout cooldown
 
-1.  Child's pose (balasana)
+1. Child's pose (balasana)
 
 ## Morning exercise
 
-1.  Daily walking
+1. Daily walking
 
-2.  Deadlifts strength training - minimum 2 times of week
+2. Deadlifts strength training - minimum 2 times of week
 
-3.  Box jumps
+3. Box jumps
 
-4.  Proprioception - single leg standing, slack line walking
+4. Proprioception - single leg standing, slack line walking
 
-5.  HIIT - BDNF (brain derived neurotrophic factor) - high intensity interval training
+5. HIIT - BDNF (brain derived neurotrophic factor) - high intensity interval training
 
 ## Others
 

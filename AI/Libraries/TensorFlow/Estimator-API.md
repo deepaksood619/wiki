@@ -5,10 +5,11 @@ Created: 2018-07-05 01:27:04 +0500
 Modified: 2021-06-19 14:15:13 +0500
 
 ---
--   Estimator API - Wrapping a model in a common set of APIs
--   Create production ready machine learning models
--   Train on large datasets that doesn't fit in memory
--   Monitor your training metrics in tensorboard
+
+- Estimator API - Wrapping a model in a common set of APIs
+- Create production ready machine learning models
+- Train on large datasets that doesn't fit in memory
+- Monitor your training metrics in tensorboard
 
 ![media](media/TensorFlow_Estimator-API-image1.png)
 
@@ -62,12 +63,10 @@ Modified: 2021-06-19 14:15:13 +0500
 
 ![media](media/TensorFlow_Estimator-API-image24.png)
 
-
 - map is used for one to one transformation (parsing a single line into features and label)
 - flat_map is used for one to many transformation (to flatten all the resulting text lines into one dataset
 
 ![media](media/TensorFlow_Estimator-API-image25.png)
-
 
 ## Data Parallelism = replicate your models on multiple workers
 
@@ -143,4 +142,4 @@ Modified: 2021-06-19 14:15:13 +0500
 
 ![media](media/TensorFlow_Estimator-API-image57.png)
 
-<http://onlinetutorials.today/tensorflow/tensorflow-interview-questions-and-answers
+<http://onlinetutorials.today/tensorflow/tensorflow-interview-questions-and-answers>

@@ -6,7 +6,7 @@ Modified: 2019-07-19 20:04:10 +0500
 
 ---
 
-1.  Realtime Node
+1. Realtime Node
 
 Real-time nodes encapsulate the functionality to ingest and query event streams. Events indexed via these nodes are immediately available for querying. The nodes are only concerned with events for some small time range and periodically hand off immutable batches of events they have collected over this small time range to other nodes in the Druid cluster that are specialized in dealing with batches of immutable events. Real-time nodes leverage Zookeeper [19] for coordination with the rest of the Druid cluster. The nodes announce their online state and the data they serve in Zookeeper.
 
@@ -43,12 +43,16 @@ Rules govern how historical segments are loaded and dropped from the cluster. Ru
 LoadBalancing
 
 These query patterns suggest replicating recent historical seg- ments at a higher rate, spreading out large segments that are close in time to different historical nodes, and co-locating segments from different data sources.
+
 ## Storage Engine
--   In-memory storage engine
--   Memory mapped storage engine
+
+- In-memory storage engine
+- Memory mapped storage engine
+
 ## Query API
 
 Druid has its own query language and accepts queries as POST requests. Broker, historical, and real-time nodes all share the same query API.
+
 ## References
 
 <http://static.druid.io/docs/druid.pdf>

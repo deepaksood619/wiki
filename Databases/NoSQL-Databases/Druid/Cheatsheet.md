@@ -270,6 +270,7 @@ SQL Cheat Sheet
 | BLOOM_­FIL­TER­_TE­ST(­< ­ex­pr >, <­ se­ria­liz­ed-­fil­ter ­>) |
 
 ### Comparison Operators
+
 ```
 x = y
 x <> y
@@ -297,6 +298,7 @@ NOT x
 ```
 
 ### Other Functions
+
 ```
 CAST(value AS TYPE)
 CASE expr WHEN value1 THEN result1 [ WHEN value2 THEN result2 ... ] [ ELSE resultN ] END

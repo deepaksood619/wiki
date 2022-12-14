@@ -18,7 +18,7 @@ ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:4243
 
 sudo systemctl restart docker.service
 
-<https://portainer.io
+<https://portainer.io>
 
 ## Openshift
 
@@ -26,10 +26,11 @@ Is a comprehensive enterprise-grade application platform, built for containers w
 
 ![OpenShift Marketecture](../../media/DevOps-Others-Others-image1.png)
 
-<https://www.openshift.com/learn/what-is-openshift
+<https://www.openshift.com/learn/what-is-openshift>
 
 Tools -
--   EnMasse
+
+- EnMasse
 
 Self-service messaging on Kubernetes and OpenShift
 
@@ -45,20 +46,21 @@ The cloud native edge router
 
 A reverse proxy / load balancer that's easy, dynamic, automatic, fast, full-featured, open source, production proven, provides metrics, and integrates with every major cluster technology.
 
-<https://traefik.io
+<https://traefik.io>
 
 <https://github.com/containous/traefik>
 
 ## Consul
 
 Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
--   **Service Discovery-** Consul makes it simple for services to register themselves and to discover other services via a DNS or HTTP interface. External services such as SaaS providers can be registered as well.
--   **Health Checking-** Health Checking enables Consul to quickly alert operators about any issues in a cluster. The integration with service discovery prevents routing traffic to unhealthy hosts and enables service level circuit breakers.
--   **Key/Value Storage-** A flexible key/value store enables storing dynamic configuration, feature flagging, coordination, leader election and more. The simple HTTP API makes it easy to use anywhere.
--   **Multi-Datacenter-** Consul is built to be datacenter aware, and can support any number of regions without complex configuration.
--   **Service Segmentation-** Consul Connect enables secure service-to-service communication with automatic TLS encryption and identity-based authorization.
 
-<https://www.consul.io
+- **Service Discovery-** Consul makes it simple for services to register themselves and to discover other services via a DNS or HTTP interface. External services such as SaaS providers can be registered as well.
+- **Health Checking-** Health Checking enables Consul to quickly alert operators about any issues in a cluster. The integration with service discovery prevents routing traffic to unhealthy hosts and enables service level circuit breakers.
+- **Key/Value Storage-** A flexible key/value store enables storing dynamic configuration, feature flagging, coordination, leader election and more. The simple HTTP API makes it easy to use anywhere.
+- **Multi-Datacenter-** Consul is built to be datacenter aware, and can support any number of regions without complex configuration.
+- **Service Segmentation-** Consul Connect enables secure service-to-service communication with automatic TLS encryption and identity-based authorization.
+
+<https://www.consul.io>
 
 <https://github.com/hashicorp/consul>
 
@@ -82,11 +84,11 @@ Our tools are designed to work well together as a platform, but you can also pic
 
 [Nebula](https://nebula-orchestrator.github.io/)is a open source project created for Docker orchestration and designed to manage massive clusters at scale, it achieves this by scaling each project component out as far as required. The project's aim is to act as Docker orchestrator for IoT devices as well as for distributed services such as CDN or edge computing. Nebula is capable of simultaneously updating tens of thousands of IoT devices worldwide with a single API call in an effort to help devs and ops treat IoT devices just like distributed Dockerized apps.
 
-<https://nebula.readthedocs.io/en/latest
+<https://nebula.readthedocs.io/en/latest>
 
 <https://github.com/nebula-orchestrator>
 
-<https://nebula-orchestrator.github.io
+<https://nebula-orchestrator.github.io>
 
 <https://dzone.com/articles/nebula-container-orchestratorcontainer-orchestrati-1>
 
@@ -99,13 +101,14 @@ Resin.iois a startup aiming to bring the benefits of Linux containers to the wor
 <https://medium.com/devopslinks/announcing-eliot-container-platform-for-iot-devices-ad071e1917fd>
 
 ## Caddy
--   Fast, cross-platform HTTP/2 web server with automatic HTTPS
--   Caddy 2 is a powerful, enterprise-ready,open source web serverwithautomatic HTTPSwritten in Go.
--   Caddy simplifies your infrastructure. It takes care of TLS certificate renewals, OCSP stapling, static file serving, reverse proxying, Kubernetes ingress, and more.
--   Its modular architecture means you can do more with a single, static binary that compiles for any platform.
--   Caddy runs great in containers because it has no dependencies---not even libc. Run Caddy practically anywhere.
 
-<https://caddyserver.com
+- Fast, cross-platform HTTP/2 web server with automatic HTTPS
+- Caddy 2 is a powerful, enterprise-ready,open source web serverwithautomatic HTTPSwritten in Go.
+- Caddy simplifies your infrastructure. It takes care of TLS certificate renewals, OCSP stapling, static file serving, reverse proxying, Kubernetes ingress, and more.
+- Its modular architecture means you can do more with a single, static binary that compiles for any platform.
+- Caddy runs great in containers because it has no dependencies---not even libc. Run Caddy practically anywhere.
+
+<https://caddyserver.com>
 
 <https://github.com/mholt/caddy>
 
@@ -129,8 +132,6 @@ Salt is a new approach to infrastructure management built on a dynamic communica
 
 ![Salt disk.usage](../../media/DevOps-Others-Others-image2.png)
 
-
-
 <https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html>
 
 <https://en.wikipedia.org/wiki/Salt_(software)>
@@ -139,7 +140,7 @@ Salt is a new approach to infrastructure management built on a dynamic communica
 
 <https://github.com/saltstack/salt>
 
-<https://docs.saltstack.com/en/getstarted
+<https://docs.saltstack.com/en/getstarted>
 
 ## CloudState
 
@@ -149,7 +150,7 @@ CloudState is an initiative to define what is "Serverless 2.0"- or what's the ne
 
 ## Nexus
 
-## Nexus**by Sonatype is a repository manager that organizes, stores and distributes artifacts needed for development. With**Nexus, developers can completely control access to, and deployment of, every artifact in an organization from a single location, making it easier to distribute software.
+## Nexus**by Sonatype is a repository manager that organizes, stores and distributes artifacts needed for development. With**Nexus, developers can completely control access to, and deployment of, every artifact in an organization from a single location, making it easier to distribute software
 
 ## Packer
 
@@ -157,13 +158,13 @@ Packer is a tool which makes it easy to build machine images for different platf
 
 Packer is a tool for creating identical machine images for multiple platforms from a single source configuration. It supports many different configuration sources including Shell, Chef, Puppet, Ansible, and Salt, and can output images for Compute Engine, Docker, and others. Packer is used by Jenkins agents to build images from configuration in Git repositories.
 
-<https://packer.io
+<https://packer.io>
 
 ## HuBot
 
 Hubot is your friendly robot sidekick.Install him in your company to dramatically improve employee efficiency.
 
-<https://hubot.github.com
+<https://hubot.github.com>
 
 ## Firecracker
 
@@ -177,9 +178,9 @@ Firecracker was developed at Amazon Web Services to accelerate the speed and eff
 
 <https://github.com/firecracker-microvm/firecracker>
 
-<https://firecracker-microvm.github.io
+<https://firecracker-microvm.github.io>
 
-<https://aws.amazon.com/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing
+<https://aws.amazon.com/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing>
 
 ## Nomad
 
@@ -187,19 +188,19 @@ Nomad is an easy-to-use, flexible, and performant workload orchestrator that can
 
 Nomad is a cluster manager, designed for both long lived services and short lived batch processing workloads. Developers use a declarative job specification to submit work, and Nomad ensures constraints are satisfied and resource utilization is optimized by efficient task packing. Nomad supports all major operating systems and virtualized, containerized, or standalone applications.
 
-<https://www.nomadproject.io
+<https://www.nomadproject.io>
 
 <https://github.com/hashicorp/nomad>
 
 ## Ciao
 
-<https://www.brotandgames.com/ciao
+<https://www.brotandgames.com/ciao>
 
 ## FastLane
 
 Tool for iOS and Android developers to automate tedious tasks like generating screenshots, dealing with provisioning profiles, and releasing your application.
 
-<https://fastlane.tools
+<https://fastlane.tools>
 
 <https://github.com/fastlane/fastlane>
 
@@ -212,17 +213,18 @@ The binary repository is a natural extension to the source code repository, in t
 In most cases these will store individual application components that can later be assembled into a full product - thus allowing a build to be broken in smaller chunks, making more efficient use of resources, reducing build times, better tracking of binary debug databases etc.
 
 Here are some of the most popular package managers that can be managed using a binary repository:
--   Java: jar, ear, war etc has[Maven](https://maven.apache.org/)and the official[MavenCentral](https://search.maven.org/). There are many other package managers that will use the maven binary repository format as well ([ivy](http://ant.apache.org/ivy/),[gradle](https://gradle.org/)etc).
--   .Net:[nuget](https://www.nuget.org/)for .NET components (DLL and EXE) but can also be used as a distribution mechanism under windows thorugh systems like[Chocolatey](https://chocolatey.org/). Newer versions of Powershell can also leverage this to distribute powershell modules though the[powershell gallery](https://www.powershellgallery.com/)of which one could build a local distribution with a binary repository and a repository in nuget format. Also check[OneGet](https://github.com/OneGet/oneget)if Windows distribution management is of interest to you.
--   In JavaScript: we have[npm](https://www.npmjs.com/)which is one of the most popular, will require[nodejs](https://nodejs.org/en/).
--   In python: there is[pip](https://pypi.python.org/pypi/pip)and the official package index[pypi](https://pypi.python.org/pypi), which one can also create a local instance through binary repository that will support the format.
+
+- Java: jar, ear, war etc has[Maven](https://maven.apache.org/)and the official[MavenCentral](https://search.maven.org/). There are many other package managers that will use the maven binary repository format as well ([ivy](http://ant.apache.org/ivy/),[gradle](https://gradle.org/)etc).
+- .Net:[nuget](https://www.nuget.org/)for .NET components (DLL and EXE) but can also be used as a distribution mechanism under windows thorugh systems like[Chocolatey](https://chocolatey.org/). Newer versions of Powershell can also leverage this to distribute powershell modules though the[powershell gallery](https://www.powershellgallery.com/)of which one could build a local distribution with a binary repository and a repository in nuget format. Also check[OneGet](https://github.com/OneGet/oneget)if Windows distribution management is of interest to you.
+- In JavaScript: we have[npm](https://www.npmjs.com/)which is one of the most popular, will require[nodejs](https://nodejs.org/en/).
+- In python: there is[pip](https://pypi.python.org/pypi/pip)and the official package index[pypi](https://pypi.python.org/pypi), which one can also create a local instance through binary repository that will support the format.
 
 This list is far from complete, just gives an idea of what's out there.
 
 The binary repository can allow to host all of these under one roof, making their management much simpler for teams. Note that you do not need a very large team to start reaping benefits from binary package management. The initial investment is not very large and the benefits are felt immediately. Especially now that more and more platforms, frameworks and languages are integrating this dependency management directly in them. Their biggest advantage I have found however was to create an environment that your programmers will find natural and comfortable making it essential. It helps you as a devops creating a solid tool-chain and it helps them making the overall experience fit naturally in their stack of choice.
 
-<https://jfrog.com/artifactory
+<https://jfrog.com/artifactory>
 
 ## Opendev
 
-<https://opendev.org
+<https://opendev.org>

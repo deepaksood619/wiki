@@ -7,17 +7,20 @@ Modified: 2021-06-08 00:30:14 +0500
 ---
 
 The**cast**term here signifies some data(stream of packets) is being transmitted to the recipient(s) from client(s) side over the communication channel that help them to communicate. Let's see some of the "cast" concepts that are prevailing in the computer networks field.
-1.  **Unicast**
+
+1. **Unicast**
 
 This type of information transfer is useful when there is a participation of single sender and single recipient. So, in short you can term it as a one-to-one transmission. For example, a device having IP address 10.1.2.0 in a network wants to send the traffic stream(data packets) to the device with IP address 20.12.4.2 in the other network,then unicast comes into picture. This is the most common form of data transfer over the networks.
 2.  **Broadcast**
 
 Broadcasting transfer (one-to-all) techniques can be classified into two types :
--   **Limited Broadcasting**
+
+- **Limited Broadcasting**
     Suppose you have to send stream of packets to all the devices over the network that you reside, this broadcasting comes handy. For this to achieve,it will append 255.255.255.255 (all the 32 bits of IP address set to 1) called asLimited Broadcast Addressin the destination address of the datagram (packet) header which is reserved for information tranfer to all the recipients from a single client (sender) over the network.
 
 ![image](media/Addressing-Methods---cast-protocols-image1.png)
--   **Direct Broadcasting**
+
+- **Direct Broadcasting**
     This is useful when a device in one network wants to transfer packet stream to all the devices over the other network.This is achieved by translating all the Host ID part bits of the destination address to 1,referred asDirect Broadcast Addressin the datagram header for information transfer.
 
 ![image](media/Addressing-Methods---cast-protocols-image2.png)
@@ -26,7 +29,7 @@ This mode is mainly utilized by television networks for video and audio distribu
 
 One important protocol of this class in Computer Networks is[Address Resolution Protocol (ARP)](https://www.geeksforgeeks.org/computer-network-arp-works/)that is used for resolving IP address into physical address which is necessary for underlying communication.
 
-3.  **Multicast**
+3. **Multicast**
 
 In multicasting, one/more senders and one/more recipients participate in data transfer traffic. In this method traffic recline between the boundaries of unicast (one-to-one) and broadcast (one-to-all). Multicast lets server's direct single copies of data streams that are then simulated and routed to hosts that request it. IP multicast requires support of some other protocols likeIGMP (Internet Group Management Protocol), Multicast routingfor its working. Also in Classful IP addressingClass Dis reserved for multicast groups.
 
@@ -38,6 +41,7 @@ Anycastis a network[addressing](https://en.wikipedia.org/wiki/Addressing)and[rou
 5.  **Geocast**
 
 Refers to the delivery of information to a group of destinations in a network identified by their geographical locations. It is a specialized form of multicast addressing used by some routing protocols for mobile ad hoc networks.![image](media/Addressing-Methods---cast-protocols-image4.png)
+
 ## Automatic Repeat Request / Automatic Repeat Query (ARQ)
 
 Automatic repeat request(ARQ), also known asautomatic repeat query, is an[error-control](https://en.wikipedia.org/wiki/Error_control)method for[data transmission](https://en.wikipedia.org/wiki/Data_transmission)that uses[acknowledgements](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks))(messages sent by the receiver indicating that it has correctly received a[packet](https://en.wikipedia.org/wiki/Packet_(information_technology))) and[timeouts](https://en.wikipedia.org/wiki/Timeout_(computing))(specified periods of time allowed to elapse before an acknowledgment is to be received) to achieve[reliable data transmission](https://en.wikipedia.org/wiki/Reliability_(computer_networking))over an unreliable service. If the sender does not receive an acknowledgment before the timeout, it usually[re-transmits](https://en.wikipedia.org/wiki/Retransmission_(data_networks))the packet until the sender receives an acknowledgment or exceeds a predefined number of retransmissions.

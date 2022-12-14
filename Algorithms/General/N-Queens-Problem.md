@@ -11,8 +11,9 @@ The N Queen is the problem of placing N chess queens on an N×N chessboard so th
 ![](media/N-Queens-Problem-image1.jpg)
 
 ## Question Types -
--   Find any placement of queens that do not attack each other
--   Find all placement of queens on the board
+
+- Find any placement of queens that do not attack each other
+- Find all placement of queens on the board
 
 ![冖 "02 -3 CO") ](media/N-Queens-Problem-image2.png)
 
@@ -47,11 +48,10 @@ column] (Backtrack) and go to step (a) to try other rows.
 3) If all rows have been tried and nothing worked, return false to trigger
 backtracking.
 
-
--   For a board of 4x4, recursion will be 4 level deep
--   At 0th level of recursion, we will place 0th queen on 0th row
--   At 1st level of recursion, we will place 1st queen on 1st row such that she does not attack the 0th queen
--   At 2nd level of recursion, we will place 2nd queen on 2nd row such that she does not attack the 0th queen and 1st queen.
+- For a board of 4x4, recursion will be 4 level deep
+- At 0th level of recursion, we will place 0th queen on 0th row
+- At 1st level of recursion, we will place 1st queen on 1st row such that she does not attack the 0th queen
+- At 2nd level of recursion, we will place 2nd queen on 2nd row such that she does not attack the 0th queen and 1st queen.
 
 ![](media/N-Queens-Problem-image3.png)
 

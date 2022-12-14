@@ -45,12 +45,13 @@ Modified: 2022-02-10 22:28:24 +0500
 [15.7. Natural Language Inference: Fine-Tuning BERT](https://d2l.ai/chapter_natural-language-processing-applications/natural-language-inference-bert.html)
 
 ## NLP (Natural Language Processing)
--   Lexical Processing
--   Semantic Analysis
--   Syntactic Analysis
--   Neural Network (NN)
--   Recurring NN
--   Chatbot Project
+
+- Lexical Processing
+- Semantic Analysis
+- Syntactic Analysis
+- Neural Network (NN)
+- Recurring NN
+- Chatbot Project
 
 ## Why Natural Language is hard for computer to parse
 
@@ -62,7 +63,7 @@ Does it refer to months or to people?
 
 [Natural Language Processing with TensorFlow 2 - Beginner's Course](https://www.youtube.com/watch?v=B2q5cRJvqI8)
 
-<https://www.freecodecamp.org/news/google-bert-nlp-machine-learning-tutorial
+<https://www.freecodecamp.org/news/google-bert-nlp-machine-learning-tutorial>
 
 ## Spacy
 
@@ -76,30 +77,31 @@ Gensim is a Python library fortopic modeling,document indexingandsimilarity retr
 
 <https://github.com/parulsethi/gensim>
 
-<https://radimrehurek.com/gensim
+<https://radimrehurek.com/gensim>
 
 <https://www.toptal.com/python/topic-modeling-python>
 
 ## Text Similarity Methods
--   Normalized, metric, similarity and distance
--   (Normalized) similarity and distance
--   Metric distances
--   Shingles (n-gram) based similarity and distance
--   Levenshtein
--   Normalized Levenshtein
--   Weighted Levenshtein
--   Damerau-Levenshtein
--   Optimal String Alignment
--   Jaro-Winkler
--   Longest Common Subsequence
--   Metric Longest Common Subsequence
--   N-Gram
--   Shingle(n-gram) based algorithms
--   Q-Gram
--   Cosine similarity
--   Jaccard index
--   Sorensen-Dice coefficient
--   Overlap coefficient (i.e.,Szymkiewicz-Simpson)
+
+- Normalized, metric, similarity and distance
+- (Normalized) similarity and distance
+- Metric distances
+- Shingles (n-gram) based similarity and distance
+- Levenshtein
+- Normalized Levenshtein
+- Weighted Levenshtein
+- Damerau-Levenshtein
+- Optimal String Alignment
+- Jaro-Winkler
+- Longest Common Subsequence
+- Metric Longest Common Subsequence
+- N-Gram
+- Shingle(n-gram) based algorithms
+- Q-Gram
+- Cosine similarity
+- Jaccard index
+- Sorensen-Dice coefficient
+- Overlap coefficient (i.e.,Szymkiewicz-Simpson)
 
 <https://github.com/luozhouyang/python-string-similarity#python-string-similarity>
 
@@ -107,20 +109,21 @@ Gensim is a Python library fortopic modeling,document indexingandsimilarity retr
 
 Replace keywords in sentences or extract keywords from sentences
 
-<https://pypi.org/project/flashtext
+<https://pypi.org/project/flashtext>
 
 ## ML Kit Natural Language APIs
--   Language ID
--   On-device translation
--   Smart reply
--   Entity extraction
+
+- Language ID
+- On-device translation
+- Smart reply
+- Entity extraction
 
 <https://developers.google.com/ml-kit>
 
 ## References
 
-The Association for Computational Linguistics is the international organization that represents the field of NLP. The ACL website (<http://www.aclweb.org) hosts many useful resources, including: information about international and regional conferences and workshops; the *ACL Wiki* with links to hundreds of useful resources; and the *ACL Anthology*, which contains most of the NLP research literature from the past 50+ years, fully indexed and freely downloadable.
+The Association for Computational Linguistics is the international organization that represents the field of NLP. The ACL website (<http://www.aclweb.org>) hosts many useful resources, including: information about international and regional conferences and workshops; the *ACL Wiki* with links to hundreds of useful resources; and the *ACL Anthology*, which contains most of the NLP research literature from the past 50+ years, fully indexed and freely downloadable.
 
-<https://www.freecodecamp.org/news/natural-language-processing-with-spacy-python-full-course
+<https://www.freecodecamp.org/news/natural-language-processing-with-spacy-python-full-course>
 
 <https://github.com/deepset-ai/haystack>

@@ -35,15 +35,15 @@ back until it is handled.
 
 ## Exceptions
 
-1.  **IOError -** If the file cannot be opened
+1. **IOError -** If the file cannot be opened
 
-2.  **ImportError -** If python cannot find the module
+2. **ImportError -** If python cannot find the module
 
-3.  **ValueError -** Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value
+3. **ValueError -** Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value
 
-4.  **KeyboardInterrupt -** Raised when the user hits the interrupt key (normally Control-C or Delete)
+4. **KeyboardInterrupt -** Raised when the user hits the interrupt key (normally Control-C or Delete)
 
-5.  **EOFError -** Raised when one of the built-in functions (input() or raw_input()) hits an
+5. **EOFError -** Raised when one of the built-in functions (input() or raw_input()) hits an
     end-of-file condition (EOF) without reading any data
 
 ## Catch Exceptions
@@ -62,37 +62,35 @@ response=requests.request(**"POST"**, ZOHO_CREATE_TICKET_URL,data=str(data), hea
 
 response.raise_for_status()
 
-## except** requests.exceptions.HTTPError **as errh:
+## except**requests.exceptions.HTTPError**as errh
 
 self.message_user(request, **"Httperroroccurred,contactadmin %s"** %errh, level=messages.ERROR)
 
 logger.error(**'HTTPError'**, errh)
 
-## except** requests.exceptions.ConnectionError **as errc:
+## except**requests.exceptions.ConnectionError**as errc
 
 self.message_user(request, **"Connectionerroroccurred,contactadmin"**, level=messages.ERROR)
 
 logger.error(**'ConnectionError'**, errc)
 
-## except** requests.exceptions.Timeout **as errt:
+## except**requests.exceptions.Timeout**as errt
 
 self.message_user(request, **"Timeout"**, level=messages.ERROR)
 
 logger.error(**'Timeout'**, errt)
 
-## except** requests.exceptions.RequestException **as errr:
+## except**requests.exceptions.RequestException**as errr
 
 self.message_user(request, **"RequestException"**, level=messages.ERROR)
 
 logger.error(**'RequestException'**, errr)
 
-## except** Exception **as e:
+## except**Exception**as e
 
 self.message_user(request, **"Exceptionoccurred,contactadmin"**, level=messages.ERROR)
 
 logger.error(**'Exception'**, e)
-
-
 
 ## Try Catch Finally block-
 
@@ -123,10 +121,11 @@ Errors cannot be handled, while Python exceptions can be handled at the run time
 Exception handling makes your code more robust and helps prevent potential failures that would cause your program to stop in an uncontrolled manner. Imagine if you have written a code which is deployed in production and still, it terminates due to an exception, your client would not appreciate that, so it's better to handle the particular exception beforehand and avoid the chaos.
 
 Errors can be of various types:
--   Syntax Error
--   Out of Memory Error
--   Recursion Error
--   Exceptions
+
+- Syntax Error
+- Out of Memory Error
+- Recursion Error
+- Exceptions
 
 <https://www.datacamp.com/community/tutorials/exception-handling-python>
 
@@ -150,8 +149,11 @@ BaseException
 +-- ImportError
 +-- ModuleNotFoundError
 +-- LookupError
+
 ## | +-- IndexError (if the index is out of bounds)
+
 ## | +-- KeyError (if the item is not present in the list)
+
 +-- MemoryError
 +-- NameError
 | +-- UnboundLocalError
@@ -196,8 +198,6 @@ BaseException
 +-- UnicodeWarning
 +-- BytesWarning
 +-- ResourceWarning
-
-
 
 ## References -
 

@@ -8,14 +8,13 @@ Modified: 2022-07-06 19:23:57 +0500
 
 S3: More than 235 distributed microservices
 
-
--   Scalable Storage in the Cloud
--   Storing big file / video
--   Eleven 9's of durability (99.999999999%) and four 9's of availability (99.99%)
-    -   Markov-chain model for reliability evaluation
--   $23/TB/month
--   5 TB single object limit
--   Pre signed URL (max expiry 7 days)
+- Scalable Storage in the Cloud
+- Storing big file / video
+- Eleven 9's of durability (99.999999999%) and four 9's of availability (99.99%)
+  - Markov-chain model for reliability evaluation
+- $23/TB/month
+- 5 TB single object limit
+- Pre signed URL (max expiry 7 days)
 
 aws s3 presign s3://bigbet90/index.html --expires-in 90
 
@@ -24,9 +23,10 @@ Generating presigned URLs is actually done locally, without requiring a call to 
 <https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html>
 
 <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-presigned-urls.html>
--   6 Copies of 1 object are maintained in >=3 Az's
--   You can send[3,500 PUT/COPY/POST/DELETE and 5,500 GET/HEAD requests per second per partitioned prefix](https://docs.aws.amazon.com/AmazonS3/latest/dev/optimizing-performance.html)in an S3 bucket. When you have an increased request rate to your bucket, Amazon S3 might return **503 Slow Down errors** while it scales to support the request rate. This scaling process is called **partitioning**.
--   Pass through uploads
+
+- 6 Copies of 1 object are maintained in >=3 Az's
+- You can send[3,500 PUT/COPY/POST/DELETE and 5,500 GET/HEAD requests per second per partitioned prefix](https://docs.aws.amazon.com/AmazonS3/latest/dev/optimizing-performance.html)in an S3 bucket. When you have an increased request rate to your bucket, Amazon S3 might return **503 Slow Down errors** while it scales to support the request rate. This scaling process is called **partitioning**.
+- Pass through uploads
 
 <https://docs.aws.amazon.com/AmazonS3/latest/userguide/PresignedUrlUploadObject.html>
 
@@ -52,7 +52,7 @@ However, suppose we tried retrieving an object and received a "Not Found" respon
 
 ## Strong read after write
 
-<https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-now-delivers-strong-read-after-write-consistency-automatically-for-all-applications
+<https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-now-delivers-strong-read-after-write-consistency-automatically-for-all-applications>
 
 ## Peformance
 
@@ -74,7 +74,7 @@ Additionally, if you want fast data transport over long distances between a clie
 
 Virtual hosting is the practice of serving multiple websites from a single web server. One way to differentiate sites is by using the apparent hostname of the request instead of just the path name part of the URI. An ordinary Amazon S3 REST request specifies a bucket by using the first slash-delimited component of the Request-URI path. Or, you can use Amazon S3 virtual hosting to address a bucket in a REST API call by using the HTTPHostheader. In practice, Amazon S3 interpretsHostas meaning that most buckets are automatically accessible for limited types of requests at<https://bucketname.s3.Region.amazonaws.com>. For a complete list of Amazon S3 Regions and endpoints, see[Amazon S3 Regions and Endpoints](https://docs.aws.amazon.com/general/latest/gr/s3.html)in theAWS General Reference.
 
-Virtual hosting also has other benefits. By naming your bucket after your registered domain name and by making that name a DNS alias for Amazon S3, you can completely customize the URL of your Amazon S3 resources, for example,<http://my.bucketname.com. You can also publish to the "root directory" of your bucket's virtual server. This ability can be important because many existing applications search for files in this standard location. For example,favicon.ico,robots.txt,crossdomain.xmlare all expected to be found at the root.
+Virtual hosting also has other benefits. By naming your bucket after your registered domain name and by making that name a DNS alias for Amazon S3, you can completely customize the URL of your Amazon S3 resources, for example,<http://my.bucketname.com>. You can also publish to the "root directory" of your bucket's virtual server. This ability can be important because many existing applications search for files in this standard location. For example,favicon.ico,robots.txt,crossdomain.xmlare all expected to be found at the root.
 
 ## Path-Style Requests (deprecated 30 sep 2020)
 
@@ -86,13 +86,13 @@ Virtual hosting also has other benefits. By naming your bucket after your regist
 
 <https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html>
 
-<https://aws.amazon.com/blogs/aws/amazon-s3-path-deprecation-plan-the-rest-of-the-story
+<https://aws.amazon.com/blogs/aws/amazon-s3-path-deprecation-plan-the-rest-of-the-story>
 
 ## S3 Select and Glacier Select
 
 Amazon S3 Select does not support whole-object compression for Parquet objects.
 
-<https://aws.amazon.com/blogs/aws/s3-glacier-select
+<https://aws.amazon.com/blogs/aws/s3-glacier-select>
 
 <https://docs.aws.amazon.com/AmazonS3/latest/dev/selecting-content-from-objects.html>
 
@@ -106,17 +106,17 @@ r = s3.select_object_content(
 
 Bucket='stashfin-migration-data',
 
-# Key='rds/equifax_raw_response/st_comment.part_00000',
+# Key='rds/equifax_raw_response/st_comment.part_00000'
 
 Key='rds/equifax_raw_response/st_comment_escaped.part_00000',
 
-# Key='rds/equifax_raw_response/equifax_raw_response_2019-10-01_2019-10-31.part_00000',
+# Key='rds/equifax_raw_response/equifax_raw_response_2019-10-01_2019-10-31.part_00000'
 
-# Key='rds/equifax_raw_response/join_test_1000.part_00000',
+# Key='rds/equifax_raw_response/join_test_1000.part_00000'
 
 ExpressionType='SQL',
 
-# Expression="select * from s3object s LIMIT 100",
+# Expression="select * from s3object s LIMIT 100"
 
 Expression="select * from s3object s",
 
@@ -151,51 +151,55 @@ print(statsDetails['BytesProcessed'])
 To manage your objects so that they are stored cost effectively throughout their lifecycle, configure their lifecycle. Alifecycle configurationis a set of rules that define actions that Amazon S3 applies to a group of objects.
 
 There are two types of actions:
--   **Transition actions -** Define when objects transition to another[storage class](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html). For example, you might choose to transition objects to the STANDARD_IA storage class 30 days after you created them, or archive objects to the S3 Glacier storage class one year after creating them.
 
+- **Transition actions -** Define when objects transition to another[storage class](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html). For example, you might choose to transition objects to the STANDARD_IA storage class 30 days after you created them, or archive objects to the S3 Glacier storage class one year after creating them.
 
--   **Expiration actions -** Define when objects expire. Amazon S3 deletes expired objects on your behalf.
+- **Expiration actions -** Define when objects expire. Amazon S3 deletes expired objects on your behalf.
 
 Amazon S3 runs lifecycle rules once every day. After the first time Amazon S3 runs the rules, all objects eligible for expiration are marked for deletion. You're no longer charged for objects that are marked for deletion. It can take a few days for the rules to run until the bucket is empty. This is because expiring object versions and cleaning up delete markers are asynchronous steps.
 
-<https://aws.amazon.com/premiumsupport/knowledge-center/s3-empty-bucket-lifecycle-rule
+<https://aws.amazon.com/premiumsupport/knowledge-center/s3-empty-bucket-lifecycle-rule>
 
 <https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html>
 
 <https://docs.aws.amazon.com/AmazonS3/latest/userguide/how-to-set-lifecycle-configuration-intro.html>
 
 ## S3 Storage Classes
--   S3 Standard (Frequently accessed data) - $0.023per GB
--   S3 Intelligent-Tiering - $0.023per GB
+
+- S3 Standard (Frequently accessed data) - $0.023per GB
+- S3 Intelligent-Tiering - $0.023per GB
 
 Monitoring and Automation, All Storage / Month (Objects > 128 KB) - $0.0025per 1,000 objects
--   S3 Standard-IA (Infrequent Access) (Long-lived, infrequently accessed data) - $0.0125per GB (54% cheap)
--   S3 One Zone-IA (Long-lived, infrequent, but rapid access) - $0.01per GB (125% cheap)
--   S3 Glacier - $0.004per GB (312% cheap)
--   S3 Glacier Deep Archive (Archiving rarely accessed data) - $0.00099per GB (1262% cheap)
--   S3 Outposts
+
+- S3 Standard-IA (Infrequent Access) (Long-lived, infrequently accessed data) - $0.0125per GB (54% cheap)
+- S3 One Zone-IA (Long-lived, infrequent, but rapid access) - $0.01per GB (125% cheap)
+- S3 Glacier - $0.004per GB (312% cheap)
+- S3 Glacier Deep Archive (Archiving rarely accessed data) - $0.00099per GB (1262% cheap)
+- S3 Outposts
 
 <https://aws.amazon.com/s3/storage-classes>
 
-<https://aws.amazon.com/s3/storage-classes/intelligent-tiering
+<https://aws.amazon.com/s3/storage-classes/intelligent-tiering>
 
 S3 Intelligent-Tiering is the only cloud storage class that delivers automatic storage cost savings when data access patterns change, without performance impact or operational overhead. The Amazon S3 Intelligent-Tiering storage class is designed to optimize storage costs by automatically moving data to the most cost-effective access tier when access patterns change. For a small monthly object monitoring and automation charge, S3 Intelligent-Tiering monitors access patterns and automatically moves objects that have not been accessed to lower-cost access tiers.
 
 S3 Intelligent-Tiering is the ideal storage class for data with unknown, changing, or unpredictable access patterns, independent of object size or retention period. You can use S3 Intelligent-Tiering as the default storage class for virtually any workload, especially data lakes, data analytics, new applications, and user-generated content.
 
 ## When should you use amazon S3
--   **Good use cases**
-    -   When you need to write once, read many times
-    -   Spiky data access
-    -   Large number of users and diverse amounts of content
-    -   Growing data sets
--   **Not ideal use cases**
-    -   Block storage requirements
-    -   Frequently changing data
-    -   Long-term archival storage
+
+- **Good use cases**
+  - When you need to write once, read many times
+  - Spiky data access
+  - Large number of users and diverse amounts of content
+  - Growing data sets
+- **Not ideal use cases**
+  - Block storage requirements
+  - Frequently changing data
+  - Long-term archival storage
 
 ## Pricing
--   **Storage**
+
+- **Storage**
 
 The volume of storage billed in a month is based on the average storage used throughout the month. This includes all object data and metadata stored in buckets that you created under your AWS account. We measure your storage usage in "TimedStorage-ByteHrs," which are added up at the end of the month to generate your monthly charges.
 
@@ -203,17 +207,17 @@ The rate you're charged depends on your objects' size, how long you stored the o
 
 There are per-request ingest fees when using PUT, COPY, or lifecycle rules to move data into any S3 storage class. Consider the ingest or transition cost before moving objects into any storage class.
 
-
--   **Data Transfer in / out**
+- **Data Transfer in / out**
 
 | **PUT, COPY, POST, LIST requests (per 1,000 requests)** | **GET, SELECT, and all other requests (per 1,000 requests)** | **Lifecycle Transition requests (per 1,000 requests)** |
 |-------------------------|--------------------------|----------------------|
 | S3 Standard                                             | $0.005                                                      | $0.0004                                               |
 
 ## You pay for all bandwidth into and out of Amazon S3, except for the following
--   Data transferred in from the internet.
--   Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket.
--   Data transferred out to Amazon CloudFront (CloudFront).
+
+- Data transferred in from the internet.
+- Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket.
+- Data transferred out to Amazon CloudFront (CloudFront).
 
 ## Data Transfer OUT From Amazon S3 To Internet
 
@@ -226,7 +230,7 @@ There are per-request ingest fees when using PUT, COPY, or lifecycle rules to mo
 
 ## S3 Storage Lens
 
-<https://aws.amazon.com/s3/storage-analytics-insights
+<https://aws.amazon.com/s3/storage-analytics-insights>
 
 | S3 Storage Lens free metrics†                         | $0.00                                         |
 |----------------------------------------|--------------------------------|
@@ -243,9 +247,10 @@ Versioning-enabled buckets can help you recover objects from accidental deletion
 By default, S3 Versioning is disabled on buckets, and you must explicitly enable it.
 
 Buckets can be in one of three states:
--   Unversioned (the default)
--   Versioning-enabled
--   Versioning-suspended
+
+- Unversioned (the default)
+- Versioning-enabled
+- Versioning-suspended
 
 After you version-enable a bucket, it can never return to an unversioned state. But you can suspend versioning on that bucket.
 
@@ -253,7 +258,7 @@ If you have an object expiration lifecycle policy in your unversioned bucket and
 
 <https://www.aws.training/Details/eLearning?id=71251>
 
-<https://aws.amazon.com/blogs/compute/build-a-serverless-private-url-shortener
+<https://aws.amazon.com/blogs/compute/build-a-serverless-private-url-shortener>
 
 ## TransactionManager (Speeds up s3 transfers)
 

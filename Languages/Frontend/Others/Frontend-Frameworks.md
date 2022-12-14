@@ -8,25 +8,25 @@ Modified: 2022-12-11 12:42:40 +0500
 
 ## Frontend Frameworks
 
-1.  jQuery
+1. jQuery
 
-2.  **React**
+2. **React**
 
-3.  Preact
+3. Preact
 
-4.  **Angular**
+4. **Angular**
 
-5.  Angular.io
+5. Angular.io
 
-6.  **Vue**
+6. **Vue**
 
 <https://github.com/ElemeFE/element>
 
-7.  Ember
+7. Ember
 
-8.  Polymer
+8. Polymer
 
-9.  Backbone
+9. Backbone
 
 10. Svelte
 
@@ -46,21 +46,23 @@ Svelte is a radical new approach to building user interfaces. Whereas traditiona
 
 Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.
 
-
--   WHAT IS SVELTE'S MAJOR ADVANTAGE?
+- WHAT IS SVELTE'S MAJOR ADVANTAGE?
 
 Svelte is compiled into pure Javascript at the build stage, so the application has no dependencies needed to start.
--   HOW IS A SVELTE COMPONENT STRUCTURED?
+
+- HOW IS A SVELTE COMPONENT STRUCTURED?
 
 A Svelte component may contain 3 sections: script, style, and template. The first 2 sections, however, are optional and modify the appearance and behavior, the template section is required.
--   IS SVELTE'S TEMPLATE BLOCK PURE HTML?
+
+- IS SVELTE'S TEMPLATE BLOCK PURE HTML?
 
 Svelte provides an enhanced version of HTML inside the template block with extra features like variables, conditional blocks, loop blocks, async-await blocks, and more.
--   HOW DO YOU SHARE DATA ACROSS A SVELTE APPLICATION?
+
+- HOW DO YOU SHARE DATA ACROSS A SVELTE APPLICATION?
 
 You can share data using Svelte's Context API - a mechanism for components to connect without passing data as props, or dispatching lots of events.
 
-<https://svelte.dev
+<https://svelte.dev>
 
 <https://github.com/sveltejs/svelte>
 
@@ -80,9 +82,9 @@ It is designed from the ground up to be incrementally adoptable, and can easily 
 
 [**https://www.freecodecamp.org/news/build-a-portfolio-with-vuejs/**](https://www.freecodecamp.org/news/build-a-portfolio-with-vuejs/)
 
-<https://www.freecodecamp.org/news/vue-3-full-course
+<https://www.freecodecamp.org/news/vue-3-full-course>
 
-<https://www.freecodecamp.org/news/how-to-code-a-framework-vuejs-example
+<https://www.freecodecamp.org/news/how-to-code-a-framework-vuejs-example>
 
 ## Polymer
 
@@ -108,7 +110,7 @@ Polyfill (Tell the browser how to render elements in browser)
 
 Frontity is a free and open source framework to build super fast WordPress themes using React.
 
-<https://frontity.org
+<https://frontity.org>
 
 ## Phase.JS
 
@@ -137,17 +139,18 @@ Hugo is a static HTML and CSS website generator written in[Go](https://golang.or
 Gatsby is a free and open source framework based on React that helps developers build blazing fastwebsitesandapps
 
 Gatsby is a modern web framework for blazing fast websites.
--   Go Beyond Static Websites.Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to e-commerce sites to user dashboards.
--   Choose your Rendering Options.You can choose alternative[rendering options](https://gatsbyjs.com/docs/conceptual/rendering-options/), namely Deferred Static Generation (DSG) and Server-Side Rendering (SSR), in addition to Static Site Generation (SSG) --- on a per-page basis. This type of granular control allows you to optimize for performance and productivity without sacrificing one for the other.
--   Use a Modern Stack for Every Site.No matter where the data comes from, Gatsby sites are built using React and GraphQL. Build a uniform workflow for you and your team, regardless of whether the data is coming from the same backend.
--   Load Data From Anywhere.Gatsby pulls in data from any data source, whether it's Markdown files, a headless CMS like Contentful or WordPress, or a REST or GraphQL API. Use source plugins to load your data, then develop using Gatsby's uniform GraphQL interface.
--   Performance Is Baked In.Ace your performance audits by default. Gatsby automates code splitting, image optimization, inlining critical styles, lazy-loading, prefetching resources, and more to ensure your site is fast --- no manual tuning required.
+
+- Go Beyond Static Websites.Get all the benefits of static websites with none of the limitations. Gatsby sites are fully functional React apps, so you can create high-quality, dynamic web apps, from blogs to e-commerce sites to user dashboards.
+- Choose your Rendering Options.You can choose alternative[rendering options](https://gatsbyjs.com/docs/conceptual/rendering-options/), namely Deferred Static Generation (DSG) and Server-Side Rendering (SSR), in addition to Static Site Generation (SSG) --- on a per-page basis. This type of granular control allows you to optimize for performance and productivity without sacrificing one for the other.
+- Use a Modern Stack for Every Site.No matter where the data comes from, Gatsby sites are built using React and GraphQL. Build a uniform workflow for you and your team, regardless of whether the data is coming from the same backend.
+- Load Data From Anywhere.Gatsby pulls in data from any data source, whether it's Markdown files, a headless CMS like Contentful or WordPress, or a REST or GraphQL API. Use source plugins to load your data, then develop using Gatsby's uniform GraphQL interface.
+- Performance Is Baked In.Ace your performance audits by default. Gatsby automates code splitting, image optimization, inlining critical styles, lazy-loading, prefetching resources, and more to ensure your site is fast --- no manual tuning required.
 
 npm init gatsby
 
 npm run develop
 
-<https://www.gatsbyjs.org
+<https://www.gatsbyjs.org>
 
 <https://github.com/gatsbyjs/gatsby>
 
@@ -155,11 +158,11 @@ npm run develop
 
 Transform your plain text into staticwebsites andblogs
 
-<https://jekyllrb.com
+<https://jekyllrb.com>
 
-<https://jamstackthemes.dev/ssg/jekyll
+<https://jamstackthemes.dev/ssg/jekyll>
 
-<https://jekyllthemes.io
+<https://jekyllthemes.io>
 
 <https://github.com/topics/jekyll-theme>
 

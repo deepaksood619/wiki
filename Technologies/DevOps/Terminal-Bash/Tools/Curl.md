@@ -20,7 +20,7 @@ brew install curl-openssl
 
 echo 'export PATH="/usr/local/opt/curl-openssl/bin:$PATH"' >> ~/.zshrc
 
-curl --http2 <http://example.com
+curl --http2 <http://example.com>
 
 <https://tools.keycdn.com/http2-test>
 
@@ -30,6 +30,7 @@ curl --http2 <http://example.com
 -u user:pass # --user: Authentication
 
 ## -v # --verbose
+
 -vv # Even more verbose
 -s # --silent
 
@@ -40,6 +41,7 @@ curl --http2 <http://example.com
 ## Request
 
 -X POST # --request
+
 ## -L # follow link if page redirects
 
 ## Data
@@ -77,22 +79,26 @@ curl -b cookiejar.txt <https://www.facebook.com>
 
 ## Examples
 
-# Post data:
+# Post data
+
 curl -d password=x <http://x.com/y>
 
 curl -X GET <https://httpbin.org/anything> -d "{'value':'panda'}"
 
-# Auth/data:
+# Auth/data
+
 curl -u user:pass -d status="Hello" <http://twitter.com/statuses/update.xml>
 
 # multipart file upload
+
 curl -v -include --form key1=value1 --form upload=@localfilename URL
 
 # Setting headers
--   curl -i -H "Accept-Encoding: gzip" <https://httpbin.org/anything>
--   curl -X POST <https://httpbin.org/anything> -H "Content-Type: application/json" --data {"value":"panda"} -d '{"value": "panda"}'
--   curl -i -X DELETE <https://httpbin.org/anything>
--   curl -H "Accept-Language: es-ES" <https://twitter.com> > test.html
+
+- curl -i -H "Accept-Encoding: gzip" <https://httpbin.org/anything>
+- curl -X POST <https://httpbin.org/anything> -H "Content-Type: application/json" --data {"value":"panda"} -d '{"value": "panda"}'
+- curl -i -X DELETE <https://httpbin.org/anything>
+- curl -H "Accept-Language: es-ES" <https://twitter.com> > test.html
 
 # curl an image file
 
@@ -116,13 +122,13 @@ curl <https://httpbin.org/anything>
 
 # curl output only status code
 
-curl -s -o /dev/null -w "%{http_code}" <http://www.example.org
+curl -s -o /dev/null -w "%{http_code}" <http://www.example.org>
 
 # run in a loop
 
 while true; do curl <http://google.com>; sleep 1; done
 
-while true; do curl -s -o /dev/null -w "%{http_code}" <http://www.google.com; done
+while true; do curl -s -o /dev/null -w "%{http_code}" <http://www.google.com>; done
 
 ## URL Globbing
 
@@ -150,9 +156,9 @@ in decimal precision. See also the --connect-timeout option.
 
 ## HealthChecks
 
-curl -f -s -m 2 -o /dev/null -I <http://localhost:8070
+curl -f -s -m 2 -o /dev/null -I <http://localhost:8070>
 
-<https://jvns.ca/blog/2019/08/27/curl-exercises
+<https://jvns.ca/blog/2019/08/27/curl-exercises>
 
 <https://curl.haxx.se/book.html>
 
@@ -164,4 +170,4 @@ curl -f -s -m 2 -o /dev/null -I <http://localhost:8070
 
 HTTPie is a command-line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. HTTPie is designed for testing, debugging, and generally interacting with APIs & HTTP servers. Thehttp&httpscommands allow for creating and sending arbitrary HTTP requests. They use simple and natural syntax and provide formatted and colorized output.
 
-<https://httpie.io
+<https://httpie.io>

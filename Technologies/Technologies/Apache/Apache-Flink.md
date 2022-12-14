@@ -13,10 +13,11 @@ This stream-first approach has been called the**Kappa architecture**, in contras
 Stream Processing Model
 
 Flink's stream processing model handles incoming data on an item-by-item basis as a true stream. Flink provides its DataStream API to work with unbounded streams of data. The basic components that Flink works with are:
--   **Streams**are immutable, unbounded datasets that flow through the system
--   **Operators**are functions that operate on data streams to produce other streams
--   **Sources**are the entry point for streams entering the system
--   **Sinks**are the place where streams flow out of the Flink system. They might represent a database or a connector to another system
+
+- **Streams**are immutable, unbounded datasets that flow through the system
+- **Operators**are functions that operate on data streams to produce other streams
+- **Sources**are the entry point for streams entering the system
+- **Sinks**are the place where streams flow out of the Flink system. They might represent a database or a connector to another system
 
 Stream processing tasks take snapshots at set points during their computation to use for recovery in case of problems. For storing state, Flink can work with a number of state backends depending with varying levels of complexity and persistence.
 

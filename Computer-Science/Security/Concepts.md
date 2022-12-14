@@ -8,35 +8,36 @@ Modified: 2022-04-03 19:33:20 +0500
 
 ## Security Services
 
-1.  Data confidentiality
+1. Data confidentiality
 
-2.  Data integrity
+2. Data integrity
 
-3.  Authentication
+3. Authentication
 
-4.  Non-repudiation
+4. Non-repudiation
 
-5.  Access Control
+5. Access Control
 Alice, Bob and Trudy (Adversary)
+
 ## Managing Passwords and Application Secrets: Common Anti-Patterns
 
-1.  The Shared Password
+1. The Shared Password
 
-2.  The FILE
+2. The FILE
 
-3.  Sharing Over Email
+3. Sharing Over Email
 
-4.  Sharing Over Slack, Skype, SMS, iMessage, Whatsapp, etc.
+4. Sharing Over Slack, Skype, SMS, iMessage, Whatsapp, etc.
 
-5.  Web-based Pastebin, Exploding Message, and Encrypted Chat Services
+5. Web-based Pastebin, Exploding Message, and Encrypted Chat Services
 
-6.  The Git Repo, Unencrypted
+6. The Git Repo, Unencrypted
 
-7.  Gitignored Files and Environment Variables (The 12-Factor App Methodology)
+7. Gitignored Files and Environment Variables (The 12-Factor App Methodology)
 
-8.  The Git Repo, Encrypted
+8. The Git Repo, Encrypted
 
-9.  Not Protecting Development-Level Secrets
+9. Not Protecting Development-Level Secrets
 
 10. Custom Secrets Management
 
@@ -45,35 +46,35 @@ Alice, Bob and Trudy (Adversary)
 
 ## Access control models**
 
-1.  **[Attribute-based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control)(ABAC)**
+1. **[Attribute-based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control)(ABAC)**
 
 An access control paradigm whereby access rights are granted to users through the use of policies which evaluate attributes (user attributes, resource attributes and environment conditions)
 
-2.  **[Discretionary Access Control](https://en.wikipedia.org/wiki/Discretionary_Access_Control)(DAC)**
+2. **[Discretionary Access Control](https://en.wikipedia.org/wiki/Discretionary_Access_Control)(DAC)**
 
 In DAC, the data owner determines who can access specific resources. For example, a system administrator may create a hierarchy of files to be accessed based on certain permissions.
 
-3.  [History-Based Access Control](https://en.wikipedia.org/w/index.php?title=History-based_Access_Control&action=edit&redlink=1)(HBAC)
+3. [History-Based Access Control](https://en.wikipedia.org/w/index.php?title=History-based_Access_Control&action=edit&redlink=1)(HBAC)
 
 Access is granted or declined based on the real-time evaluation of a history of activities of the inquiring party, e.g. behavior, time between requests, content of requests.For example, the access to a certain service or data source can be granted or declined on the personal behavior, e.g. the request interval exceeds one query per second.
 
-4.  [History-of-Presence Based Access Control](https://en.wikipedia.org/w/index.php?title=History-of-Presence_Based_Access_Control&action=edit&redlink=1)(HPBAC)
+4. [History-of-Presence Based Access Control](https://en.wikipedia.org/w/index.php?title=History-of-Presence_Based_Access_Control&action=edit&redlink=1)(HPBAC)
 
 Access control to resources is defined in terms of presence policies that need to be satisfied by presence records stored by the requestor. Policies are usually written in terms of frequency, spread and regularity. An example policy would be "The requestor has made k separate visitations, all within last week, and no two consecutive visitations are apart by more than T hours."
 
-5.  [Identity-Based Access Control](https://en.wikipedia.org/wiki/Identity-based_security)(IBAC)
+5. [Identity-Based Access Control](https://en.wikipedia.org/wiki/Identity-based_security)(IBAC)
 
 Using this network administrators can more effectively manage activity and access based on individual needs.
 
-6.  **[Mandatory Access Control](https://en.wikipedia.org/wiki/Mandatory_Access_Control)(MAC)**
+6. **[Mandatory Access Control](https://en.wikipedia.org/wiki/Mandatory_Access_Control)(MAC)**
 
 In MAC, users do not have much freedom to determine who has access to their files. For example, security clearance of users and classification of data (as confidential, secret or top secret) are used as security labels to define the level of trust.
 
-7.  [Organization-Based Access control](https://en.wikipedia.org/wiki/Organisation-based_access_control)(OrBAC)
+7. [Organization-Based Access control](https://en.wikipedia.org/wiki/Organisation-based_access_control)(OrBAC)
 
 OrBAC model allows the policy designer to define a security policy independently of the implementation
 
-8.  **[Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control)(RBAC)**
+8. **[Role-Based Access Control](https://en.wikipedia.org/wiki/Role-based_access_control)(RBAC)**
 
 RBAC allows access based on the job title. RBAC largely eliminates discretion when providing access to objects. For example, a human resources specialist should not have permissions to create network accounts; this should be a role reserved for network administrators.
 <https://en.wikipedia.org/wiki/Role-based_access_control>
@@ -86,61 +87,71 @@ RAC method is largely context based. Example of this would be only allowing stud
 Information is accessed based on the responsibilities assigned to an actor or a business role
 <https://en.wikipedia.org/wiki/Access_control>
 ![image](media/Concepts-image1.png)
+
 ## Entity vs Identity
 
 Entity is a**thing**that exists as an**individual unit**while identity is a**set of attributes that can be used to distinguish the entity within a context**.
 Let's assume we know Mike. He is a young man who lives in Poland. He is working as a software engineer for one of the local IT startups.**Mike is the entity.He has many identities**i.e. he can be defined as a young polish man in one context and as a promising software engineer in another. Other people may perceive Mike (entity) using different subsets of his attributes (identities).
 In the software world, your backend could be described as an entity. It's thething. Your UI application perceives it as a URL and a certificate (one identity). Your database, on the other hand, sees it as a different identity -- a set of credentials that grants access to the database.
+
 ## Authentication vs Authorization (AuthN vs AuthZ)
 
-## Authenticationis the process of ascertaining that somebody really is who he claims to be.In practical terms, it's the process of verifying username and password (login).
+## Authenticationis the process of ascertaining that somebody really is who he claims to be.In practical terms, it's the process of verifying username and password (login)
+
 Authentication is a form of confirming the identity of the entity.
-## Authorizationrefers to rules that determine who is allowed to do what. E.g. Adam may be authorized to create and delete databases, while Usama is only authorized to read.
+
+## Authorizationrefers to rules that determine who is allowed to do what. E.g. Adam may be authorized to create and delete databases, while Usama is only authorized to read
+
 Authorization is a process of verifying if a given entity can access or perform actions on a given resource
+
 ## AAA (Authentication, Authorization and Audit)
 
-## AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication),[Authorization](https://en.wikipedia.org/wiki/Authorization)and[Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access.
+## AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication),[Authorization](https://en.wikipedia.org/wiki/Authorization)and[Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access
+
 ## Auditing
--   What happened?
--   When it happened?
--   Who initiated it?
--   On what did it happen?
--   Where was it observed?
--   From where was it initiated?
--   To where was it going?
+
+- What happened?
+- When it happened?
+- Who initiated it?
+- On what did it happen?
+- Where was it observed?
+- From where was it initiated?
+- To where was it going?
 <https://en.wikipedia.org/wiki/AAA_(computer_security)>
 y
+
 ## Certificate Authority
 
 CA - Trusted entity that if the public key is from the correct target.
 
 A certificate authority (CA) is a third-party organization with 3 main objectives:
 
-1.  Issuing certificates
+1. Issuing certificates
 
-2.  Confirming the identity of the certificate owner
+2. Confirming the identity of the certificate owner
 
-3.  Providing proof that the certificate is valid
+3. Providing proof that the certificate is valid
 A root store is basically a database of trusted CAs.
 
 Apple, Windows, and Mozilla run their own root stores that they pre-install in your computer or device.
 Which certificate should you buy? You have basically 3 flavors.
 
-1.  Domain validated. The certificate just verifies the domain name, and nothing else. You probably need this one.
+1. Domain validated. The certificate just verifies the domain name, and nothing else. You probably need this one.
 
-2.  Organization validated. The certificate requires the validation and manual verification of the organization behind the certificate.
+2. Organization validated. The certificate requires the validation and manual verification of the organization behind the certificate.
 
-3.  Extended validation. The certificate requires an exhaustive verification of the business.
+3. Extended validation. The certificate requires an exhaustive verification of the business.
 How do certificates get validated?
--   When a CA issues a certificate, they sign the certificate with their root certificate pre-installed in the root store.
--   Most of the time it's an intermediate certificate signed with a root certificate.
--   If a cat-astrophy would occur and the root certificate is compromised, it's easier to revoke the intermediate certificates, since the root certificates are installed on each device.
--   Let's walk through how a certificate is validated. The process is based on a 'chain of trust'.
--   Your browser connects to a site via HTTPS and downloads the certificate. (The certificate is not a root certificate.)
--   Your browser downloads the certificate that was used to sign the certificate on the site. (But this certificate is still not the root certificate.)
--   Your browser once more looks up the certificate that signed the intermediate certificate. (It's the root certificate!)
--   The entire certificate chain is trusted, and thus the site certificate is trusted as well.
--   In the event that the last certificate is not a root certificate, and there are no more certificates to download, the chain is untrusted.
+
+- When a CA issues a certificate, they sign the certificate with their root certificate pre-installed in the root store.
+- Most of the time it's an intermediate certificate signed with a root certificate.
+- If a cat-astrophy would occur and the root certificate is compromised, it's easier to revoke the intermediate certificates, since the root certificates are installed on each device.
+- Let's walk through how a certificate is validated. The process is based on a 'chain of trust'.
+- Your browser connects to a site via HTTPS and downloads the certificate. (The certificate is not a root certificate.)
+- Your browser downloads the certificate that was used to sign the certificate on the site. (But this certificate is still not the root certificate.)
+- Your browser once more looks up the certificate that signed the intermediate certificate. (It's the root certificate!)
+- The entire certificate chain is trusted, and thus the site certificate is trusted as well.
+- In the event that the last certificate is not a root certificate, and there are no more certificates to download, the chain is untrusted.
 <https://howhttps.works/certificate-authorities>
 
 ## CSR (Certificate Signing Request)**
@@ -158,17 +169,18 @@ Server Name Indication (SNI) is an extension to the TLS protocol by which a clie
 ## What is ESNI (Encrypted Server Name Indication)?**
 
 Encrypted Server Name Indication (ESNI) is an extension to TLS 1.3 which prevents eavesdroppers from knowing the domain name of the website network users are connecting to. When combined with encrypted DNS, it is not possible to know which websites a user is visiting.
+
 ## Security Certificates
 
-1.  .csr (Certificate Signing Request)
+1. .csr (Certificate Signing Request)
 
-2.  .pem (Privacy Enhanced Mail)
+2. .pem (Privacy Enhanced Mail)
 
-3.  .key
+3. .key
 
-4.  .pkcs12 .pfx .p12 (contain both private and public certificate pair)
+4. .pkcs12 .pfx .p12 (contain both private and public certificate pair)
 
-5.  .cert (recognized by windows explorer)
+5. .cert (recognized by windows explorer)
 <https://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file/9717#9717>
 
 <https://cryptopals.com/sets/1>
@@ -185,25 +197,30 @@ A PEM file may contain multiple instances. For instance, an operating system mig
 Identity and Access Management (IAM) is the security discipline that enables the right individuals to access the right resources at the right times for the right reasons. IAM addresses the mission-critical need to ensure appropriate access to resources across increasingly heterogeneous technology environments.
 Enterprises traditionally used on-premises IAM software to manage identity and access policies, but nowadays, as companies add more cloud services to their environments, the process of managing identities is getting more complex. Therefore, adopting cloud-based Identity-as-a-Service (IDaaS) and cloud IAM solutions becomes a logical step.
 Cloud IAM typically includes the following features:
--   Single Access Control Interface. Cloud IAM solutions provide a clean and consistent access control interface for all cloud platform services. The same interface can be used for all cloud services.
--   Enhanced Security. You can define increased security for critical applications.
--   Resource-level Access Control. You can define roles and grant permissions to users to access resources at different granularity levels.
+
+- Single Access Control Interface. Cloud IAM solutions provide a clean and consistent access control interface for all cloud platform services. The same interface can be used for all cloud services.
+- Enhanced Security. You can define increased security for critical applications.
+- Resource-level Access Control. You can define roles and grant permissions to users to access resources at different granularity levels.
 <https://auth0.com/learn/cloud-identity-access-management>
 
 ## Privacy**
 
 ## Privacy is not for the passive. -- Jeffrey Rosen
+
 Privacy-enhancing technologies (PETs)
 The problem of matching records using an identifier while preserving privacy has been well studied as a class of algorithms called private set intersection.
 <https://engineering.fb.com/open-source/private-matching>
 Secret Introduction Problem
+
 ## Differential Privacy
 
 Differential privacy aims to maximize the accuracy of queries from statistical databases while minimizing the chances of identifying its records - it adds noise and provides guarantees against a "privacy budget"
 ![image](media/Concepts-image2.jpeg)
+
 ## Clients
--   Confidential Client
-    -   Applications running on the server
--   Public Client
-    -   SPA / JS apps running in browsers / Mobile apps / Embedded devices
+
+- Confidential Client
+  - Applications running on the server
+- Public Client
+  - SPA / JS apps running in browsers / Mobile apps / Embedded devices
 <https://www.youtube.com/watch?v=5cQNwifDq1U>

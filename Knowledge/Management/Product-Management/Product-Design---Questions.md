@@ -36,11 +36,11 @@ A product designer helps identify, investigate, and validate a problem, then res
 
 A great product designer should be able to demonstrate knowledge describing the differences, in particular how UX design is only one slice of the product design process and only one of many different disciplines that reside under the product design banner. These include but are not limited to: identifying and validating the problem, crafting a user research plan, guiding the product's information architecture, content strategy, interaction design, visual design, UI design, UX design, and usability testing. Product designers also turn to analytics to gather existing user data or to evaluate how a product performs and make product design adjustments.
 
-## Please describe how you test your product designs, what methodologies you use, and how you evaluate product usability.
+## Please describe how you test your product designs, what methodologies you use, and how you evaluate product usability
 
 The fundamental purpose of product testing is to better understand, and empathize with, the core users of a product. User testing---which is part of a user-centered design philosophy---is one of the most important aspects of a designer's job. A great product designer should talk about the many different types (depending on the project and the design phase) of user tests they employ - from behavioral and attitudinal, to qualitative and quantitative, each with a defined number of participants for optimal results.
 
-## Attitudinal and behavioral testing** is **"what people say" vs. "what people do."** Many times, the two are different. **Qualitative and quantitative testing is described as "direct observation" vs. "indirect measurement." Quantitative testing data will always express a certain quantity, amount, or range, while qualitative testing data contains information about qualities.
+## Attitudinal and behavioral testing**is**"what people say" vs. "what people do."**Many times, the two are different.**Qualitative and quantitative testing is described as "direct observation" vs. "indirect measurement." Quantitative testing data will always express a certain quantity, amount, or range, while qualitative testing data contains information about qualities
 
 They may also talk about moderated user testing and unmoderated remote user testing. Moderated testing is when the tester (usually the product designer) is present and able to guide and observe how a participant is using the product. Unmoderated user testing is when participants are given the test with a set of tasks, and the computer walks them through it, records the session, and collects the data.
 
@@ -50,7 +50,7 @@ Heuristic analysis is an evaluation method in which one or more experts compare 
 
 A specific set of heuristics contains empirical rules of thumb, best practices, standards, and conventions that have been observed to work over long periods. Sticking to these heuristic standards results in product designs that work more effectively.
 
-## Describe a recent product design project you were particularly challenged by and how you approached the problem.
+## Describe a recent product design project you were particularly challenged by and how you approached the problem
 
 This question should help you understand more about a product designer's process. What did they find challenging, and why? How did they set out to come up with a solution? While there is no right or wrong way to approach a particular challenge, having a clear strategy to facilitate an end goal is essential.
 
@@ -79,8 +79,9 @@ Gathering, analyzing, and translating both qualitative and quantitative user dat
 Listen for answers that include overcoming challenges of working with others with different agendas. A product designer will always face challenges around collaborating with professionals from other disciplines, such as C-level executives, marketing teams, sales teams, growth teams, product managers, engineers, and visual designers.
 
 Follow-up questions on this topic:
--   Can you tell me about a time you faced one of these challenges in previous projects and how you went about solving it?
--   What were the outcomes of this approach?
+
+- Can you tell me about a time you faced one of these challenges in previous projects and how you went about solving it?
+- What were the outcomes of this approach?
 
 ## Describe your product design process and what methods you follow
 
@@ -133,8 +134,9 @@ A product designer who thinks ahead will be an invaluable asset to your company.
 Ultimately, it's not about "design fads." A great product designer doesn't follow trends but designs products that have staying power and work well for end users.
 
 Follow-up questions on this topic:
--   What would you say the next big product design trend might be?
--   What are you most excited about in product design this year?
+
+- What would you say the next big product design trend might be?
+- What are you most excited about in product design this year?
 
 ## What is your approach to making websites and platforms accessible to all user groups, including users with visual, hearing, and motor disabilities?
 
@@ -199,8 +201,9 @@ WhatsApp has about 500m users and the user base is expected to grow swiftly. To 
 To get context, we highly recommend you go through the insurance buying journey on other online platforms. You have to design an end-to-end insurance buying journey (including payment) on WhatsApp. The buying experience can't be a linear one, i.e. should not simply mirror the web/mobile site buying experience. The elements of conversational commerce can be used to simplify the buying process so that even the new-to-internet/smartphone users can complete the journey in an unassisted (DIY) way.
 
 ## Useful links
--   Aegon Life website link for buying Term Insurance. Reference purpose only: <https://www.aegonlife.com/online-plans/saral-jeevan-bima>
--   Required fields: <https://bit.ly/3r92Y93>
+
+- Aegon Life website link for buying Term Insurance. Reference purpose only: <https://www.aegonlife.com/online-plans/saral-jeevan-bima>
+- Required fields: <https://bit.ly/3r92Y93>
 
 Please include your LinkedIn Profile Link and Email Address in your Submission :)
 
@@ -211,21 +214,21 @@ Feel free to reach out to Shahid Hussain or Srinidhi Shama Rao on LinkedIn if yo
 [PM School - How to Solve Guesstimates | Estimation Based Question in a Product Management Interview](https://www.youtube.com/watch?v=7C0L_XdlE50)
 
 <https://drive.google.com/file/d/1iCqWYJa7G2MIi293mEt-zcpcFyEpqO3e/view>
--   Top Down
--   Bottom Up
--   Contraint based
--   Simple math
 
+- Top Down
+- Bottom Up
+- Contraint based
+- Simple math
 
--   Sanity Checks
--   Round numbers up/down for easier calculations
--   Be as structured as possible & write down assumptions
--   Keep statistics & formulas memorized
-    -   Total population of India - 1.37 billion
-    -   Rural:Urban = 70:30
-    -   Upper Class UC : MC : LMC : BPL = 2:3:3:2
-    -   Average life expectancy = 80 years
-    -   Android:iPhones market share = 95:5
+- Sanity Checks
+- Round numbers up/down for easier calculations
+- Be as structured as possible & write down assumptions
+- Keep statistics & formulas memorized
+  - Total population of India - 1.37 billion
+  - Rural:Urban = 70:30
+  - Upper Class UC : MC : LMC : BPL = 2:3:3:2
+  - Average life expectancy = 80 years
+  - Android:iPhones market share = 95:5
 
 ## RCA
 
@@ -234,29 +237,30 @@ Feel free to reach out to Shahid Hussain or Srinidhi Shama Rao on LinkedIn if yo
 <https://drive.google.com/file/d/1LKfS2shRZqSYiI7tnoD92UmruezPJG9Z/view>
 
 <https://drive.google.com/file/d/10J9ZUt16a9wBAkz8fQt9u6is8drbK0H5/view>
--   Orders on swiggy are down by 40%
--   Rides on uber are down by 30%
-    -   Hygiene questions
-        -   BI Tool working fine?
-        -   Metric calculation changed?
-    -   Time duration
-        -   Sudden / Gradual drop
-        -   Seasonality? Relevance (see this very often)?
-        -   Time duration
-    -   Segmentation - Car type / Region (Country) / Platform (Android vs iOS) / etc
-    -   Internal factors
-        -   Tech
-            -   Phase / Journey / Drop-off
-            -   New releases - Open problem? - UI changes
-            -   New feature - Cannibilization
-        -   Pricing / Salary changes?
-    -   **External factors**
-        -   Govt regulation?
-        -   Events - COVID
-        -   Customer desire changes (travel / cheaper than own car / convinient than public transport)
-        -   New competitors (public transport from govt)
-        -   Protests / Strikes
-        -   Negative press / sentiment
+
+- Orders on swiggy are down by 40%
+- Rides on uber are down by 30%
+  - Hygiene questions
+    - BI Tool working fine?
+    - Metric calculation changed?
+  - Time duration
+    - Sudden / Gradual drop
+    - Seasonality? Relevance (see this very often)?
+    - Time duration
+  - Segmentation - Car type / Region (Country) / Platform (Android vs iOS) / etc
+  - Internal factors
+    - Tech
+      - Phase / Journey / Drop-off
+      - New releases - Open problem? - UI changes
+      - New feature - Cannibilization
+    - Pricing / Salary changes?
+  - **External factors**
+    - Govt regulation?
+    - Events - COVID
+    - Customer desire changes (travel / cheaper than own car / convinient than public transport)
+    - New competitors (public transport from govt)
+    - Protests / Strikes
+    - Negative press / sentiment
 
 <https://pmschool.io/ChallengeDetails/live/61f50bddb6f56bff58b9692e>
 

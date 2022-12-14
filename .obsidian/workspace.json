@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Technologies/Technologies/Others/Others---Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pre-commit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Technologies/Technologies/Others/Others---Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+                "file": "Technologies/Technologies/Others/Others---Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+                "file": "Technologies/Technologies/Others/Others---Data.md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
+    "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
+    "Languages/Others/Ruby.md",
+    "Technologies/Technologies/Git/Others.md",
+    "Languages/Python/Others/Flask.md",
+    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
     "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
     "Office/Credentials/External-Tech.md",
     "Office/Credentials/Internal-Tech.md",
     "Languages/Others/Regular-Expressions---Regex.md",
-    "Languages/Python/Python/Regular-Expressions.md",
-    "Office/Credentials/Business.md",
-    "Office/TODO/Tech-&-Courses-TODO.md",
-    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
-    "AI/Deep-Learning/NLP/NLTK.md",
-    "AI/Deep-Learning/NLP.md"
+    "Languages/Python/Python/Regular-Expressions.md"
   ]
 }

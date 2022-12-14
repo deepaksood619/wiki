@@ -115,8 +115,6 @@ The first time theforcalls the generator object created from your function, it w
 
 The generator is considered empty once the function runs but does not hityieldanymore. It can be because the loop had come to an end, or because you do not satisfy an"if/else"anymore.
 
-
-
 ## Lambda (***single expression functions*)**-
 
 <https://dbader.org/blog/python-lambda-functions>

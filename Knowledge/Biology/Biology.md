@@ -8,41 +8,40 @@ Modified: 2021-11-29 01:14:07 +0500
 
 ## Live longer
 
-1.  Avoid DNA damage
+1. Avoid DNA damage
 
-2.  Eat less
+2. Eat less
 
-3.  Eat less protein
+3. Eat less protein
 
-4.  HIIT
+4. HIIT
 
-5.  Be cold
+5. Be cold
 
-6.  Be hot
+6. Be hot
 
 Taxonomy, which translates from Ancient Greek as "arrangement method," is a tool for categorizing living organisms into groups (ortaxa) based on shared genetic traits and common ancestry. Organisms grouped higher up in the hierarchy share very broad traits, while organisms grouped together farther down the hierarchy are more closely related (they share more genetic traits). Historically, we have classified living organisms into these taxa (in order of increasing specificity): domain, kingdom, phylum, class, order, family, genus, species, [Variety]. (Mnemonic - "**D**ear**K**ing**P**hilip**C**ame**O**ver**F**or**G**ood**S**oup")
 
 ## Humans
--   Domain - Eukarya
--   Kingdom - Animalia
--   Phylum - Chordata
--   Class - Mammalia
--   Order - Primates
--   Suborder - Haplorhini
--   Infraorder - Simiiformes
--   Family - Hominidae
--   Subfamily - Homininae
--   Tribe - Hominini
--   Genus - Homo
--   Species - Home sapiens
+
+- Domain - Eukarya
+- Kingdom - Animalia
+- Phylum - Chordata
+- Class - Mammalia
+- Order - Primates
+- Suborder - Haplorhini
+- Infraorder - Simiiformes
+- Family - Hominidae
+- Subfamily - Homininae
+- Tribe - Hominini
+- Genus - Homo
+- Species - Home sapiens
 
 <https://en.wikipedia.org/wiki/Human>
 
 ![image](media/Biology-image1.jpeg)
 
 ![image](media/Biology-image2.png)
-
-
 
 <https://en.wikipedia.org/wiki/Taxonomic_rank>
 
@@ -70,13 +69,9 @@ Proteins play countless roles throughout the biological world, from catalyzing c
 
 ![image](media/Biology-image5.jpg)
 
-
-
 ## Lymphatic System
 
 The**lymphatic system**is part of the[vascular system](https://en.wikipedia.org/wiki/Vascular_system)and an important part of the[immune system](https://en.wikipedia.org/wiki/Immune_system), comprising a network of[lymphatic vessels](https://en.wikipedia.org/wiki/Lymphatic_vessel)that carry a clear fluid called[lymph](https://en.wikipedia.org/wiki/Lymph)(from Latin,*lympha*meaning "[water](https://en.wikipedia.org/wiki/Water)"[^[1]^](https://en.wikipedia.org/wiki/Lymphatic_system#cite_note-1)) directionally towards the[heart](https://en.wikipedia.org/wiki/Heart).
-
-
 
 ## Brain (Rosehip Neuron)
 
@@ -108,7 +103,7 @@ Thecarrying capacityof a biological[species](https://en.wikipedia.org/wiki/Speci
 
 <https://user-images.githubusercontent.com/21294/94627410-73b6c680-028b-11eb-9501-d7453af56106.png?ck_subscriber_id=389278734>
 
-<https://www.scotthyoung.com/blog/2021/01/18/biology
+<https://www.scotthyoung.com/blog/2021/01/18/biology>
 
 <https://github.com/CompCogNeuro/ed4>
 

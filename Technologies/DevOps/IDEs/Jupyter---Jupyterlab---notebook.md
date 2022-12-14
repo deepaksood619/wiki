@@ -12,17 +12,17 @@ Modified: 2022-04-27 16:02:23 +0500
 
 Components -
 
-1.  Kernels
+1. Kernels
 
-2.  Dashboard
+2. Dashboard
 
 # Commands
 
 The Jupyter Notebook has two different keyboard input modes.
 
-1.  **Edit mode**allows you to type code or text into a cell and is indicated by a green cell border.
+1. **Edit mode**allows you to type code or text into a cell and is indicated by a green cell border.
 
-2.  **Command mode**binds the keyboard to notebook level commands and is indicated by a grey cell border with a blue left margin.
+2. **Command mode**binds the keyboard to notebook level commands and is indicated by a grey cell border with a blue left margin.
 
 ## for running django shell on jupyter notebook
 
@@ -110,9 +110,9 @@ dd - delete
 
 # 10 Things about Jupyter Notebook
 
-1.  Themes (jupyter-themes, oceans16, jupyter-themer)
+1. Themes (jupyter-themes, oceans16, jupyter-themer)
 
-2.  Extensions (nb_extensions)
+2. Extensions (nb_extensions)
 
     a.  split cells
 
@@ -130,15 +130,15 @@ dd - delete
 
 ## Magics in Jupyter (magic commands)
 
-1.  **Line magic (%)**
+1. **Line magic (%)**
 
 Operate on single line of input
 
-2.  **Cell magic (%%)**
+2. **Cell magic (%%)**
 
 Operate on multiple lines of input
 
-3.  **Commands**
+3. **Commands**
 
 %magic for help on magic
 
@@ -234,13 +234,13 @@ $( document ).ready(code_toggle);
 
 <https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook>
 
-<https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial
+<https://www.dataquest.io/blog/advanced-jupyter-notebooks-tutorial>
 
 <https://towardsdatascience.com/speed-up-jupyter-notebooks-20716cbe2025>
 
 <https://towardsdatascience.com/how-to-effortlessly-optimize-jupyter-notebooks-e864162a06ee>
 
-<https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks
+<https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks>
 
 # Jupyter Extensions
 
@@ -264,33 +264,33 @@ JupyterLab-LSP
 
 JupyterLab-Git
 
-## RUN** jupyter nbextension enable contrib_nbextensions_help_item**/main
+## RUN**jupyter nbextension enable contrib_nbextensions_help_item**/main
 
-## RUN** jupyter nbextension enable autosavetime**/main
+## RUN**jupyter nbextension enable autosavetime**/main
 
-## RUN** jupyter nbextension enable codefolding**/main
+## RUN**jupyter nbextension enable codefolding**/main
 
-## RUN** jupyter nbextension enable code_font_size**/code_font_size
+## RUN**jupyter nbextension enable code_font_size**/code_font_size
 
-## RUN** jupyter nbextension enable code_prettify**/code_prettify
+## RUN**jupyter nbextension enable code_prettify**/code_prettify
 
-## RUN** jupyter nbextension enable collapsible_headings**/main
+## RUN**jupyter nbextension enable collapsible_headings**/main
 
-## RUN** jupyter nbextension enable comment-uncomment**/main
+## RUN**jupyter nbextension enable comment-uncomment**/main
 
-## RUN** jupyter nbextension enable equation-numbering**/main
+## RUN**jupyter nbextension enable equation-numbering**/main
 
-## RUN** jupyter nbextension enable execute_time**/ExecuteTime
+## RUN**jupyter nbextension enable execute_time**/ExecuteTime
 
-## RUN** jupyter nbextension enable gist_it**/main
+## RUN**jupyter nbextension enable gist_it**/main
 
-## RUN** jupyter nbextension enable hide_input**/main
+## RUN**jupyter nbextension enable hide_input**/main
 
-## RUN** jupyter nbextension enable spellchecker**/main
+## RUN**jupyter nbextension enable spellchecker**/main
 
-## RUN** jupyter nbextension enable toc2**/main
+## RUN**jupyter nbextension enable toc2**/main
 
-## RUN** jupyter nbextension enable toggle_all_line_numbers**/main
+## RUN**jupyter nbextension enable toggle_all_line_numbers**/main
 
 ENV NODE_OPTIONS="--max-old-space-size=4096"
 RUN jupyter labextension install nbdime-jupyterlab --no-build &&
@@ -335,9 +335,10 @@ NotebookApp.max_buffer_size = your desired value
 jupyter labextension list
 
 ## Extensions
--   <https://github.com/lckr/jupyterlab-variableInspector>
--   <https://github.com/jupyterlab/jupyterlab-git>
--   <https://github.com/jupyterlab/jupyterlab-toc>
+
+- <https://github.com/lckr/jupyterlab-variableInspector>
+- <https://github.com/jupyterlab/jupyterlab-git>
+- <https://github.com/jupyterlab/jupyterlab-toc>
 
 ## References
 
@@ -415,7 +416,7 @@ ports:
 
 ## Others
 
-<https://www.querybook.org
+<https://www.querybook.org>
 
 <https://github.com/pinterest/querybook>
 
@@ -423,4 +424,4 @@ Querybook is a Big Data Querying UI, combining collocated table metadata and a s
 
 ## SQL Notebooks
 
-<https://engineering.fb.com/2022/04/26/developer-tools/sql-notebooks
+<https://engineering.fb.com/2022/04/26/developer-tools/sql-notebooks>

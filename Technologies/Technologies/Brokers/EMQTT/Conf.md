@@ -6,9 +6,9 @@ Modified: 2019-01-08 13:05:34 +0500
 
 ---
 
-1.  Cluster name
+1. Cluster name
 
-2.  Cluster auto-discovery strategy
+2. Cluster auto-discovery strategy
 
     a.  manual (default)
 
@@ -20,19 +20,19 @@ Modified: 2019-01-08 13:05:34 +0500
 
     e.  k8s (Kubernetes)
 
-3.  Cluster autoheal from network partition
+3. Cluster autoheal from network partition
 
-4.  Cluster autoclean (A down node will be removed from the cluster)
+4. Cluster autoclean (A down node will be removed from the cluster)
 
-5.  Node name
+5. Node name
 
-6.  Heartbeat monitoring of an Erlang runtime system
+6. Heartbeat monitoring of an Erlang runtime system
 
-7.  Kernel poll
+7. Kernel poll
 
-8.  Number of threads in async thread pool
+8. Number of threads in async thread pool
 
-9.  Maximum number of simultaneously existing processes (process_limit)
+9. Maximum number of simultaneously existing processes (process_limit)
 
 10. Max number of simultaneously existing ports
 

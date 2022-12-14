@@ -6,11 +6,11 @@ Modified: 2021-11-29 13:57:45 +0500
 
 ---
 
-1.  Is single threaded
+1. Is single threaded
 
-2.  Run on the same queue as painting, updating styles and handling user actions.
+2. Run on the same queue as painting, updating styles and handling user actions.
 
-3.  Terminology
+3. Terminology
 
     a.  Fulfilled
 
@@ -20,9 +20,9 @@ Modified: 2021-11-29 13:57:45 +0500
 
     d.  Settled
 
-4.  Chaining (Promises can be chained together to execute one after other)
+4. Chaining (Promises can be chained together to execute one after other)
 
-5.  Parallelism and sequencing
+5. Parallelism and sequencing
 
 <https://developers.google.com/web/fundamentals/primers/promises#whats-all-the-fuss-about>
 
@@ -40,7 +40,7 @@ A promise in JavaScript is like a placeholder value that is expected to eventual
 
 ## What is Node.js promise?
 
-A promise may at first glance look like syntactic sugar for a callback but actually, it isn't. A promise may serve the same purpose of a callback in a different way but underneath it is so much different. <https://www.promisejs.org
+A promise may at first glance look like syntactic sugar for a callback but actually, it isn't. A promise may serve the same purpose of a callback in a different way but underneath it is so much different. <https://www.promisejs.org>
 
 ## What is a promise in JavaScript?
 

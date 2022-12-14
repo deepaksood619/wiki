@@ -7,14 +7,15 @@ Modified: 2022-11-09 15:40:28 +0500
 ---
 
 ## Boto3
--   AWS SDK for Python developers
-    -   Software development kit
-    -   Interact with AWS easily through Python
--   Supports Python 2 & 3
--   Data-driven from the group up
--   Up-to-date service API support
--   Consistent interface
--   Modern object-oriented API
+
+- AWS SDK for Python developers
+  - Software development kit
+  - Interact with AWS easily through Python
+- Supports Python 2 & 3
+- Data-driven from the group up
+- Up-to-date service API support
+- Consistent interface
+- Modern object-oriented API
 
 ![image](media/boto-&-boto3_Slides-image1.png)
 
@@ -35,13 +36,14 @@ Modified: 2022-11-09 15:40:28 +0500
 ![image](media/boto-&-boto3_Slides-image9.png)
 
 Feature: Resources
--   Generated from JSON resource description
--   Object-oriented API for AWS
--   Identifiers & attributes
--   Actions
--   References
--   Sub-resources
--   Collections
+
+- Generated from JSON resource description
+- Object-oriented API for AWS
+- Identifiers & attributes
+- Actions
+- References
+- Sub-resources
+- Collections
 
 ![image](media/boto-&-boto3_Slides-image10.png)
 
@@ -106,8 +108,9 @@ Feature: Resources
 ![image](media/boto-&-boto3_Slides-image39.png)
 
 ## Add a Little Glue
--   Directory watcher
--   Main function
-    -   Upload / start job / wait / download / delete
--   Amazon S3 cleanup functionality
--   Amazon SQS cleanup
+
+- Directory watcher
+- Main function
+  - Upload / start job / wait / download / delete
+- Amazon S3 cleanup functionality
+- Amazon SQS cleanup

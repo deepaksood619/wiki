@@ -15,11 +15,12 @@ Samza uses YARN for resource negotiation. This means that by default, a Hadoop c
 Stream Processing Model
 
 Samza relies on Kafka's semantics to define the way that streams are handled. Kafka uses the following concepts when dealing with data:
--   **Topics**: Each stream of data entering a Kafka system is called a topic. A topic is basically a stream of related information that consumers can subscribe to.
--   **Partitions**: In order to distribute a topic among nodes, Kafka divides the incoming messages into partitions. The partition divisions are based on a key such that each message with the same key is guaranteed to be sent to the same partition. Partitions have guaranteed ordering.
--   **Brokers**: The individual nodes that make up a Kafka cluster are called brokers.
--   **Producer**: Any component writing to a Kafka topic is called a producer. The producer provides the key that is used to partition a topic.
--   **Consumers**: Consumers are any component that reads from a Kafka topic. Consumers are responsible for maintaining information about their own offset, so that they are aware of which records have been processed if a failure occurs.
+
+- **Topics**: Each stream of data entering a Kafka system is called a topic. A topic is basically a stream of related information that consumers can subscribe to.
+- **Partitions**: In order to distribute a topic among nodes, Kafka divides the incoming messages into partitions. The partition divisions are based on a key such that each message with the same key is guaranteed to be sent to the same partition. Partitions have guaranteed ordering.
+- **Brokers**: The individual nodes that make up a Kafka cluster are called brokers.
+- **Producer**: Any component writing to a Kafka topic is called a producer. The producer provides the key that is used to partition a topic.
+- **Consumers**: Consumers are any component that reads from a Kafka topic. Consumers are responsible for maintaining information about their own offset, so that they are aware of which records have been processed if a failure occurs.
 
 Because Kafka is represents an immutable log, Samza deals with immutable streams. This means that any transformations create new streams that are consumed by other components without affecting the initial stream.
 

@@ -6,7 +6,7 @@ Modified: 2021-02-22 22:51:35 +0500
 
 ---
 
-## Infrastructure as Code (IaC) is a paradigm that manages and tracks infrastructure configuration in files rather than manually or graphical user interfaces. This allows for more scalable infrastructure configuration and more importantly allows for transparent tracking of changes through usually versioning system.
+## Infrastructure as Code (IaC) is a paradigm that manages and tracks infrastructure configuration in files rather than manually or graphical user interfaces. This allows for more scalable infrastructure configuration and more importantly allows for transparent tracking of changes through usually versioning system
 
 Configuration management systems are software systems that allow managing an environment in a consistent, reliable, and secure way.
 
@@ -39,34 +39,36 @@ Routing differs among these technologies. While customers have to specify routin
 Security policies also contain notable differences between the various cloud providers.
 
 ## Tools
--   Terraform
--   CloudFormation
--   Ansible
--   Digital Rebar
+
+- Terraform
+- CloudFormation
+- Ansible
+- Digital Rebar
 
 Digital Rebar (aka DRP) is a self-managed hardware-neutral data center automation platform for provisioning and managing[infrastructure as code](https://rackn.com/2020/03/24/infrastructure-as-code-repost-devops-com/)(IaC). It was designed with a cloud-native architecture focus and integrates deeply with API driven configuration tools like Ansible and Terraform. It fully replaces bare metal provisioners like[Cobbler](https://rackn.com/products/enterprise/cobbler/),[Foreman](https://rackn.com/products/enterprise/foreman/)or[MaaS](https://rackn.com/products/enterprise/maas/).
 
-## Key Features:
+## Key Features
 
-## Platform Capabilities:
--   API-driven infrastructure-as-code automation
--   Multi-boot workflows using composable and reusable building blocks
--   Event driven actions via Websockets API
--   Extensible Plug-in Model for public, vendor and internal enhancements
--   Dynamic Workflow Contexts (allows using APIs when agents cannot be run)
--   Distributed Multi-Site Management
--   Integrated Secure Boot, SSO and Highly Available options.
--   Supports ALL orchestration tools including Chef, Puppet, Ansible, SaltStack, Bosh, Terraform, etc
+## Platform Capabilities
 
-## Open Ecosystem Plugins:
--   RAID, IPMI, Redfish, and BIOS Configuration
--   Cloud-like pooling capabilities
--   Classification engine for automated workflow
+- API-driven infrastructure-as-code automation
+- Multi-boot workflows using composable and reusable building blocks
+- Event driven actions via Websockets API
+- Extensible Plug-in Model for public, vendor and internal enhancements
+- Dynamic Workflow Contexts (allows using APIs when agents cannot be run)
+- Distributed Multi-Site Management
+- Integrated Secure Boot, SSO and Highly Available options.
+- Supports ALL orchestration tools including Chef, Puppet, Ansible, SaltStack, Bosh, Terraform, etc
 
-<https://rackn.com/rebar
+## Open Ecosystem Plugins
 
+- RAID, IPMI, Redfish, and BIOS Configuration
+- Cloud-like pooling capabilities
+- Classification engine for automated workflow
 
--   Foreman
+<https://rackn.com/rebar>
+
+- Foreman
 
 Manage Procfile-based applications
 

@@ -25,47 +25,48 @@ Exit Load
 TheIndia Volatility Indexin short is termed India VIX. It indicates the degree of volatility or fluctuation traders expect over the next 30 days in the Nifty50 Index
 
 [Volatility and India VIX](https://www.youtube.com/watch?v=JM_M1RPkCR8)
--   Historical Volatility
--   Forecasted Volatility
--   Implied Volatility
--   Avoid buying options when VIX is high
--   Avoid selling options when VIX is low
+
+- Historical Volatility
+- Forecasted Volatility
+- Implied Volatility
+- Avoid buying options when VIX is high
+- Avoid selling options when VIX is low
 
 [ET Money Answers Your Questions on Mutual Funds | ET Money](https://youtu.be/Xc2jI6A3M_0)
 
 [How to Measure Mutual Fund Risk | Alpha, Beta, SD, Sharpe, R-squared, Sortino | Learn with ETMONEY](https://www.youtube.com/watch?v=eU45evtcc90)
 
-1.  **BETA**
+1. **BETA**
 
 Beta is a commonly used risk measure and calculates the relative volatility of a stock or mutual fund's returns as against its benchmark. the beta merely explains the relative riskiness of an asset and does not give us the inherent risk of the asset itself.
 
 As an investor, you can use this information on the beta to align your mutual fund portfolio according to your risk appetite. For instance, if you are a conservative investor, you might want to focus on low beta portfolios. But remember what we said earlier beta is a relative measure and does not give us the inherent risk of an asset.
 
-2.  **ALPHA**
+2. **ALPHA**
 
 Alpha quite simply measures how much better a fund has performed as compared to its benchmark index.
 
 For instance, if the Nifty 50 delivered 10% this past year and your fund did 11% .. then the alpha is +1%. And if your fund underperformed and achieved only 8% .. then the alpha is -2%. This means actively managed funds can have positive or negative alpha depending on how well the fund manager runs the fund. In fact, creating positive alpha is the entire essence behind someone investing in an actively managed fund
 
-3.  **R-SQUARED**
+3. **R-SQUARED**
 
 The R-Squared aims to measure a fund's correlation to its benchmark performance. This is done on a scale of 100 which means if the R-Squared is a 100 then it shows that the performance of the mutual fund is perfectly correlated with the performance of the benchmark
 
 This particularly the case when it comes to index funds that have an R-Squared of 99 or 100. On the other end, we typically see actively managed mutual funds which can have a range of R-squared values
 
-4.  **STANDARD DEVIATION**
+4. **STANDARD DEVIATION**
 
 The standard deviation measures the dispersion of data from its mean and from a mutual fund perspective, it represents the volatility or riskiness of the fund. For instance, let's say a mutual fund delivers 10% average returns over a period of time. But as expected, this fund has had some good months and also some bad months with returns vacillating between +20% and -15%
 
 This up and down trajectory of returns in the mutual fund NAV is what standard deviation captures and presents as an annualized number
 
-5.  **SHARPE RATIO**
+5. **SHARPE RATIO**
 
 The Sharpe ratio measures risk-adjusted performance .. and is calculated by subtracting the risk-free rate of return from the fund's returns .. and then dividing the result by the standard deviation. In other words, the Sharpe ratio indicates whether a mutual fund's returns are due to the wise investment decisions taken by the fund manager ... or was it the result of taking excessive risk
 
 Like many statistical tools, the Sharpe ratio too can lead to some misleading inferences if used in isolation. For example, it's commonly possible that a fund with low returns and low standard deviation might show a high Sharpe ratio
 
-6.  **SORTINO RATIO**
+6. **SORTINO RATIO**
 
 The Sharpe ratio uses the total volatility in its calculations in the form of standard deviation. This is where the Sortino ratio is different as it only uses only the fund's downside standard deviation in its calculations
 
@@ -74,30 +75,31 @@ So as a formula, the Sortino ratio is much like the Sharpe Ratio subtracts the r
 This ratio is particularly useful for risk-averse or conservative investors and in the real sense, determines the success of a fund in capping its downside volatility. The Sortino ratio is a useful way for all kinds of investors, analysts and portfolio managers to evaluate a fund's return for a given level of bad risk.
 
 ## Thumb rule way of remembering
--   A high Alpha, a high Sharpe ratio and a high Sortino indicate better potential performance for a fund
--   A low Beta and a low standard deviation indicates lower volatility for the fund
--   A higher R-Squared indicates a better correlation with the benchmark
--   **Max Alpha with minimum beta**
+
+- A high Alpha, a high Sharpe ratio and a high Sortino indicate better potential performance for a fund
+- A low Beta and a low standard deviation indicates lower volatility for the fund
+- A higher R-Squared indicates a better correlation with the benchmark
+- **Max Alpha with minimum beta**
 
 ## Alpha
 
 Alpha isnotan excess return! Alpha is excess return calculated on a risk-adjusted basis.
 
-
--   Jensen's alpha = (excess return of index wrt risk-free instrument) -- (a measure of relative volatility wrt nifty 50) x (excess market return wrt risk-free instrument)
--   the excess return of index wrt risk-free instrument = index return -- MIBOR return
--   the excess return of market -- nifty 50 -- wrt risk-free instrument = nifty 50 return -- MIBOR return.
--   relative volatility wrt nifty 50 = beta.
--   Alpha = (Stock return -- risk-free return) -- (Benchmark return -- risk-free return) x beta
+- Jensen's alpha = (excess return of index wrt risk-free instrument) -- (a measure of relative volatility wrt nifty 50) x (excess market return wrt risk-free instrument)
+- the excess return of index wrt risk-free instrument = index return -- MIBOR return
+- the excess return of market -- nifty 50 -- wrt risk-free instrument = nifty 50 return -- MIBOR return.
+- relative volatility wrt nifty 50 = beta.
+- Alpha = (Stock return -- risk-free return) -- (Benchmark return -- risk-free return) x beta
 
 Alpha factors in how volatile a fund has been compared to the market. A stock/fund that beats the market but is more volatile than the market in doing so will have lower alpha than a fund with lower volatility. Thus even funds with no excess returns can "produce an alpha".
 
 ## Jensen's Measure
 
 The Jensen's measure, or Jensen's alpha, is a risk-adjusted performance measure that represents the average return on a portfolio or investment, above or below that predicted by the **capital asset pricing model (CAPM)**, given the portfolio's or investment's beta and the average market return. This metric is also commonly referred to as simply alpha.
--   The Jensen's measure is the difference in how much a person returns vs. the overall market.
--   Jensen's measure is commonly referred to as alpha. When a manager outperforms the market concurrent to risk, they have "delivered alpha" to their clients.
--   The measure accounts for the risk-free rate of return for the time period.
+
+- The Jensen's measure is the difference in how much a person returns vs. the overall market.
+- Jensen's measure is commonly referred to as alpha. When a manager outperforms the market concurrent to risk, they have "delivered alpha" to their clients.
+- The measure accounts for the risk-free rate of return for the time period.
 
 <https://www.investopedia.com/terms/j/jensensmeasure.asp>
 
@@ -108,10 +110,11 @@ Alpha - Excess return above the benchmark
 Beta - Measurement of risk or volatility
 
 ## Equity Risk Premium
--   An equity risk premium is an excess return earned by an investor when they invest in the stock market over a risk-free rate
--   This return compensates investors for taking on the higher risk of equity investing
--   Determining an equity risk premium is theoretical because there's no way to tell how well equities or the equity market will perform in the future
--   Calculating an equity risk premium requires using historical rates of return
+
+- An equity risk premium is an excess return earned by an investor when they invest in the stock market over a risk-free rate
+- This return compensates investors for taking on the higher risk of equity investing
+- Determining an equity risk premium is theoretical because there's no way to tell how well equities or the equity market will perform in the future
+- Calculating an equity risk premium requires using historical rates of return
 
 <https://www.investopedia.com/terms/e/equityriskpremium.asp>
 
@@ -147,7 +150,7 @@ This provides diversification in the rules. When an index house or fund house pr
 
 <https://www.youtube.com/watch?v=LRICZjOxdjU>
 
-## Balanced Funds which are a category of mutual funds that offer the best of both through a single fund as they invest in both asset types: Equity & Debt.
+## Balanced Funds which are a category of mutual funds that offer the best of both through a single fund as they invest in both asset types: Equity & Debt
 
 <table>
 <colgroup>
@@ -224,54 +227,61 @@ Arbitrage funds work by exploiting the price differential between assets that sh
 ![](media/Mutual-Funds-image2.png)
 
 ## NIFTY Alpha 30 Index
--   **Alpha =** actual return - expected return (after comparing volatility with market)
--   **Higher the excess return + lower the volatility the better**
+
+- **Alpha =** actual return - expected return (after comparing volatility with market)
+- **Higher the excess return + lower the volatility the better**
 
 ## NIFTY Quaity 30 Index
--   Return on equity (ROE), Debt equity ratio (D/E) and average change in Profit After Tax (PAT) in previous 3 financial years
--   30 such stocks from Nifty 100 + Nifty Midcap 50 are chosen
+
+- Return on equity (ROE), Debt equity ratio (D/E) and average change in Profit After Tax (PAT) in previous 3 financial years
+- 30 such stocks from Nifty 100 + Nifty Midcap 50 are chosen
 
 ## NIFTY Value 30 Index
--   Business durability: High ROCE (Return on Capital Employed), low PE, low PB and high Dividend yield (DY) in the last financial year with positive PAT
+
+- Business durability: High ROCE (Return on Capital Employed), low PE, low PB and high Dividend yield (DY) in the last financial year with positive PAT
 
 ## NIFTY100 Low Volatility 30 Index
--   30 least volatile stocks in the NIFTY 100
--   It is a 30 stock index selected from NIFTY 100 and NIFTY Midcap 50 based on 50% Jensen's alpha and 50% low volatility. The index weight is capped at 5%.
+
+- 30 least volatile stocks in the NIFTY 100
+- It is a 30 stock index selected from NIFTY 100 and NIFTY Midcap 50 based on 50% Jensen's alpha and 50% low volatility. The index weight is capped at 5%.
 
 ![image](media/Mutual-Funds-image3.png)
 
 ![image](media/Mutual-Funds-image4.png)
 
 ![image](media/Mutual-Funds-image5.png)
--   Just get the stocks of the index from Nifty 100 Low Vol 30
+
+- Just get the stocks of the index from Nifty 100 Low Vol 30
 
 ## Equity MFs
--   PPFAS LTE
--   HDFC Hybrid Equity
--   Quantum Long Term Equity
--   **Motilal Oswal Focused 25 Fund**
+
+- PPFAS LTE
+- HDFC Hybrid Equity
+- Quantum Long Term Equity
+- **Motilal Oswal Focused 25 Fund**
 
 ## Investing options in Strategic Indices
--   Edelweiss ETF - Nifty Quality 30
--   ICICI Prudential Nifty Low Vol 30 ETF (Nifty Low Vol 30)
--   Reliance ETF NV20 (Nifty 50 Value 20 TRI)
--   ICICI Prudential NV20 ETF (Nifty 50 Value 20 TRI)
--   Kotak NV 20 ETF (Nifty 50 Value 20 TRI)
 
+- Edelweiss ETF - Nifty Quality 30
+- ICICI Prudential Nifty Low Vol 30 ETF (Nifty Low Vol 30)
+- Reliance ETF NV20 (Nifty 50 Value 20 TRI)
+- ICICI Prudential NV20 ETF (Nifty 50 Value 20 TRI)
+- Kotak NV 20 ETF (Nifty 50 Value 20 TRI)
 
--   Price of NAV is very high
--   Unless you know how to trade, don't touch these
+- Price of NAV is very high
+- Unless you know how to trade, don't touch these
 
 ## Index Funds
--   Broad market index funds
--   Market capatalization index funds
--   Equal weight index funds
--   Factor baesd or smart beta index funds
--   Strategy index funds
--   Sector based index funds
--   International index funds
--   Debt index funds
--   Custom index funds
+
+- Broad market index funds
+- Market capatalization index funds
+- Equal weight index funds
+- Factor baesd or smart beta index funds
+- Strategy index funds
+- Sector based index funds
+- International index funds
+- Debt index funds
+- Custom index funds
 
 An index fund is a fund that holds all the stocks in the underlying index to mimic the overall performance of that index. At present, Nifty50 and Nifty Next50 are two best index fund options available for investors in India. These funds mimic the portfolio of the Nifty and Nifty Next50 Index, respectively.
 
@@ -299,31 +309,34 @@ Another big reason most actively managed funds underperform index funds is their
 
 ![image](media/Mutual-Funds-image6.png)
 
-<https://freefincal.com/build-equity-mutual-fund-portfolio
+<https://freefincal.com/build-equity-mutual-fund-portfolio>
 
 ## Should I switch to Index Funds?
--   First learn to invest with a strategy
--   Select an asset allocation for your need
--   Learn how to manage risk systematically
--   Then once confident, you can become an index investor
+
+- First learn to invest with a strategy
+- Select an asset allocation for your need
+- Learn how to manage risk systematically
+- Then once confident, you can become an index investor
 
 ## REIT (Real Estate Investment Trusts) / Real Estate Mutual Funds
 
-<https://cleartax.in/s/reit-funds
+<https://cleartax.in/s/reit-funds>
 
 Categories of actively managed equity mutual fund schemes
--   Largecap: At least 80% in largecap
--   Midcap: At least 65% in midcap
--   Smallcap: At least 65% in smallcap
--   Large & midcap: At least 35% each in largecap and midcap
--   **Multicap: At least 65% in equities and no market-cap wise restriction**
+
+- Largecap: At least 80% in largecap
+- Midcap: At least 65% in midcap
+- Smallcap: At least 65% in smallcap
+- Large & midcap: At least 35% each in largecap and midcap
+- **Multicap: At least 65% in equities and no market-cap wise restriction**
 
 In the multicap category, the allocation decision is left to the fund manager who is better equipped to take allocation decision compared to retail investors and their advisers. The fund manager doesn't have a restricted mandate, and therefore, he is free to invest where he finds better opportunities.
--   Sectoral/Thematic: At least 80% in the chosen sector stocks
--   Focused: At least 65% in equities and a maximum of 30 stocks in the portfolio.
--   Dividend Yield: At least 65% in equities but in dividend-yielding stocks
--   Value/Contra: At least 65% in equities, the scheme should follow value or contra investment strategy.
--   ELSS: At least 80% in equities, lock-in of 3 years and tax benefit under section 80C
+
+- Sectoral/Thematic: At least 80% in the chosen sector stocks
+- Focused: At least 65% in equities and a maximum of 30 stocks in the portfolio.
+- Dividend Yield: At least 65% in equities but in dividend-yielding stocks
+- Value/Contra: At least 65% in equities, the scheme should follow value or contra investment strategy.
+- ELSS: At least 80% in equities, lock-in of 3 years and tax benefit under section 80C
 
 ![image](media/Mutual-Funds-image7.jpeg)
 
@@ -334,36 +347,37 @@ In the multicap category, the allocation decision is left to the fund manager wh
 ![image](media/Mutual-Funds-image9.jpeg)
 
 ## A Probit Model: Hostile Acquisitions
--   While there are no easy pathways to making money, it seems clear that investors in companies that are targeted in acquisitions (especially hostile ones) earn high returns, but only if they invest before the event
--   There are probit models for predicting companies that will be targeted, and they involve:
-    -   You start with all firms that publicly traded at the start of a period
-    -   The dependent variable becomes the stand-in for whether a firm is targeted in a hostile acquisition
-    -   The independent variables reflect what you believe are key drivers of hostile acquisitions, including poor stock price performance, lagging accounting returns and managers with little or no shareholdings
-    -   You build a probit model that will yield as output an equation that resembles a regression, but will yield a probability of a hostile acquisition
+
+- While there are no easy pathways to making money, it seems clear that investors in companies that are targeted in acquisitions (especially hostile ones) earn high returns, but only if they invest before the event
+- There are probit models for predicting companies that will be targeted, and they involve:
+  - You start with all firms that publicly traded at the start of a period
+  - The dependent variable becomes the stand-in for whether a firm is targeted in a hostile acquisition
+  - The independent variables reflect what you believe are key drivers of hostile acquisitions, including poor stock price performance, lagging accounting returns and managers with little or no shareholdings
+  - You build a probit model that will yield as output an equation that resembles a regression, but will yield a probability of a hostile acquisition
 
 ## Smallcase
 
 [True cost of Smallcase Investing EXPOSED | Ankur Warikoo](https://www.youtube.com/watch?v=RwKEqGOpqQs)
 
-1.  Straight Flush: [https://windmillcapital.smallcase.com...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGlEUWlBc0luWFhnUGRoeUppT284MFVfb2c0QXxBQ3Jtc0ttbHRBYndVRUlwY2dLc3A0WWtha1F5amJSbVZ2MzN2MGRSaGpRWll2QkRxZldrMVJBNFV2ajVnOVhlLWhtTnZnRkU3RjYtU21wTllFMnI4UG9KaTg0dld0R1hUZWdhT1FXZnFEVjlZcHpVNnFfYmRYMA&q=https%3A%2F%2Fwindmillcapital.smallcase.com%2Fsmallcase%2FSCMO_0007%3FrmId%3D612cd12368f2b17a19fa706c%26distributor%3Dscinfluencer%26showSubscription%3Dfalse)
+1. Straight Flush: [https://windmillcapital.smallcase.com...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGlEUWlBc0luWFhnUGRoeUppT284MFVfb2c0QXxBQ3Jtc0ttbHRBYndVRUlwY2dLc3A0WWtha1F5amJSbVZ2MzN2MGRSaGpRWll2QkRxZldrMVJBNFV2ajVnOVhlLWhtTnZnRkU3RjYtU21wTllFMnI4UG9KaTg0dld0R1hUZWdhT1FXZnFEVjlZcHpVNnFfYmRYMA&q=https%3A%2F%2Fwindmillcapital.smallcase.com%2Fsmallcase%2FSCMO_0007%3FrmId%3D612cd12368f2b17a19fa706c%26distributor%3Dscinfluencer%26showSubscription%3Dfalse)
 
-2.  Value and Momentum: [https://windmillcapital.smallcase.com...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVY0M2RzQVA5bEFiQWZBV0l1TmRIV3h4ZlBkd3xBQ3Jtc0tscXdGZ3ltb2ZLNjVYYXBCVEd3WS1qYXNuWGk0V2lyeDV0LWJEMHF3WkxybGhwSXEtckh4LTlaR2NoZndfQXlJdGxhMkZSNXNweENMaWM5WjI3ek5ib2NKZTVCeHNONVdnYUxFbnpKaDhTZEs3SWhZNA&q=https%3A%2F%2Fwindmillcapital.smallcase.com%2Fsmallcase%2FSCMO_0010%3FrmId%3D612cd12368f2b17a19fa706c%26distributor%3Dscinfluencer%26showSubscription%3Dfalse)
+2. Value and Momentum: [https://windmillcapital.smallcase.com...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVY0M2RzQVA5bEFiQWZBV0l1TmRIV3h4ZlBkd3xBQ3Jtc0tscXdGZ3ltb2ZLNjVYYXBCVEd3WS1qYXNuWGk0V2lyeDV0LWJEMHF3WkxybGhwSXEtckh4LTlaR2NoZndfQXlJdGxhMkZSNXNweENMaWM5WjI3ek5ib2NKZTVCeHNONVdnYUxFbnpKaDhTZEs3SWhZNA&q=https%3A%2F%2Fwindmillcapital.smallcase.com%2Fsmallcase%2FSCMO_0010%3FrmId%3D612cd12368f2b17a19fa706c%26distributor%3Dscinfluencer%26showSubscription%3Dfalse)
 
-3.  Brand Value: [https://windmillcapital.smallcase.com...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbk5YMGxuM01hcFBrNnFaU0hlb1lJcGU5Tjlld3xBQ3Jtc0tuUHVBRFEyeUJvS21pWG52cFNnalZpazNXek51T3RSMC1jOWJHVVpkSGZrb3J5dk9zUVJFNWxXbnpMSzk5ZWF2blB5YkhmVlhWQlRhRlZtSU1NZklyVkt5bDFRaW5oNG9ybVRYWXdDUk11VTFiWWc5aw&q=https%3A%2F%2Fwindmillcapital.smallcase.com%2Fsmallcase%2FSCNM_0007%3FrmId%3D612cd12368f2b17a19fa706c%26distributor%3Dscinfluencer%26showSubscription%3Dfalse)
+3. Brand Value: [https://windmillcapital.smallcase.com...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbk5YMGxuM01hcFBrNnFaU0hlb1lJcGU5Tjlld3xBQ3Jtc0tuUHVBRFEyeUJvS21pWG52cFNnalZpazNXek51T3RSMC1jOWJHVVpkSGZrb3J5dk9zUVJFNWxXbnpMSzk5ZWF2blB5YkhmVlhWQlRhRlZtSU1NZklyVkt5bDFRaW5oNG9ybVRYWXdDUk11VTFiWWc5aw&q=https%3A%2F%2Fwindmillcapital.smallcase.com%2Fsmallcase%2FSCNM_0007%3FrmId%3D612cd12368f2b17a19fa706c%26distributor%3Dscinfluencer%26showSubscription%3Dfalse)
 
-4.  Low risk smart beta: <https://www.smallcase.com/smallcase/low-risk-smart-beta-SCSB_0003>
+4. Low risk smart beta: <https://www.smallcase.com/smallcase/low-risk-smart-beta-SCSB_0003>
 
-5.  Smallcase Weekend Investing - Mi_NNF10 - [https://link.smallcase.com/BtqsTL4VPgb](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDJkLVJxUVI4TDVFR0IyUng4VVR3b2h1TXBWZ3xBQ3Jtc0trdGt6NWw5MGs4ZFppTVNDeGtRQmlodE1GQVkzSkxNRnJoMVpUTlowdkhWOXktUWJWdWxBLU44dUY5Y0VjSE1LdVc5UUlHNWRIVE1mNUk3TEM4SGdsemY5M3FueTUzWkQ5VndXU1RRNmJuQVJOOF9CRQ&q=https%3A%2F%2Flink.smallcase.com%2FBtqsTL4VPgb)
+5. Smallcase Weekend Investing - Mi_NNF10 - [https://link.smallcase.com/BtqsTL4VPgb](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDJkLVJxUVI4TDVFR0IyUng4VVR3b2h1TXBWZ3xBQ3Jtc0trdGt6NWw5MGs4ZFppTVNDeGtRQmlodE1GQVkzSkxNRnJoMVpUTlowdkhWOXktUWJWdWxBLU44dUY5Y0VjSE1LdVc5UUlHNWRIVE1mNUk3TEM4SGdsemY5M3FueTUzWkQ5VndXU1RRNmJuQVJOOF9CRQ&q=https%3A%2F%2Flink.smallcase.com%2FBtqsTL4VPgb)
 
-6.  Smallcase Capitalmind Momentum - [https://link.smallcase.com/e/U0oH9UOgocb](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazBvLURyODB3Y0FJek9sa2t0UXBQYlpZWVhsZ3xBQ3Jtc0trcEJMakZzNDVlOThQMkpfRHVPNUVRYVpNZFdrUnp6N09yblRjY3p0RjVELWdfOXoxNnFaVWlSVWZ4cTJtcHBRa24zUG1MbGZNdGVHMDIzelZDNkg4N3Q5RlNyV2FXOG4zU091RTBaRTlocm5SaVlCdw&q=https%3A%2F%2Flink.smallcase.com%2Fe%2FU0oH9UOgocb)
+6. Smallcase Capitalmind Momentum - [https://link.smallcase.com/e/U0oH9UOgocb](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazBvLURyODB3Y0FJek9sa2t0UXBQYlpZWVhsZ3xBQ3Jtc0trcEJMakZzNDVlOThQMkpfRHVPNUVRYVpNZFdrUnp6N09yblRjY3p0RjVELWdfOXoxNnFaVWlSVWZ4cTJtcHBRa24zUG1MbGZNdGVHMDIzelZDNkg4N3Q5RlNyV2FXOG4zU091RTBaRTlocm5SaVlCdw&q=https%3A%2F%2Flink.smallcase.com%2Fe%2FU0oH9UOgocb)
 
-7.  Dividend Aristocrat - <https://www.smallcase.com/smallcase/dividend-aristocrats-SCMO_0014>
+7. Dividend Aristocrat - <https://www.smallcase.com/smallcase/dividend-aristocrats-SCMO_0014>
 
-8.  Dividend stars - <https://www.smallcase.com/smallcase/dividend-stars-SCMO_0013>
+8. Dividend stars - <https://www.smallcase.com/smallcase/dividend-stars-SCMO_0013>
 
-9.  SmartNifty index - <https://www.smallcase.com/smallcase/best-nifty-(bluechip)-companies-%22hqrp-philosophy%22-GPRET_0002>
+9. SmartNifty index - <https://www.smallcase.com/smallcase/best-nifty-(bluechip)-companies-%22hqrp-philosophy%22-GPRET_0002>
 
-1.  Gulaq - <https://www.gulaq.com
+1. Gulaq - <https://www.gulaq.com>
 
 ## Funds
 

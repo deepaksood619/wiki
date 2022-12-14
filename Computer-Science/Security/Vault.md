@@ -8,8 +8,10 @@ Modified: 2021-05-11 18:21:16 +0500
 
 Vault is a tool for securely accessing*secrets*. A secret is anything that you want to tightly control access to, such as API keys, passwords, or certificates. Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.
 Vault was built to solve the secret sprawl problem in a user-friendly and auditable way. Just as immutable infrastructure gives operations certainty in server configurations and eliminates drift, Vault gives security certainty in when, where, and how secrets are being used across a system. It is the central source of security truth for modern architectures.
+
 ## Features
--   **Secure Secret Storage**
+
+- **Secure Secret Storage**
 
 Arbitrary key/value secrets can be stored in Vault. Vault encrypts these secrets prior to writing them to persistent storage, so gaining access to the raw storage isn't enough to access your secrets. Vault can write to disk,[Consul](https://www.consul.io/), and more.-   **Dynamic Secrets**
 
@@ -32,26 +34,32 @@ Vault can encrypt and decrypt data without storing it. Security teams can define
 High-availability is a requirement for large-scale infrastructures to protect against service outages. Vault can run in multi-server mode when using a[backend that supports it](https://www.google.com/url?q=https%3A%2F%2Fvaultproject.io%2Fdocs%2Fconcepts%2Fha.html&sa=D&sntz=1&usg=AFQjCNGaIQAyr3T1AgRc__VI7utYGAx-Jg), such as Consul or etcd.-   **Authentication methods**
 
 Vault includes multiple methods for authentication so organizations can select the option that fits best with their setup. Vault[currently supports](https://www.google.com/url?q=https%3A%2F%2Fvaultproject.io%2Fdocs%2Fconcepts%2Fauth.html&sa=D&sntz=1&usg=AFQjCNFkbuRP8tVhRTt8aUYwQETkJZwFVw)tokens, username/password, GitHub, certificates, and more.
+
 ## Best Practices
--   Don't let secrets live forever
--   Distribute secrets securely
--   Limit exposure if auth secret disclosed
--   Break-glass procedure if auth secret stolen
--   Detect unauthoried access to auth secrets
+
+- Don't let secrets live forever
+- Distribute secrets securely
+- Limit exposure if auth secret disclosed
+- Break-glass procedure if auth secret stolen
+- Detect unauthoried access to auth secrets
+
 ## Options
 
-1.  Deploy Vault token alongside app
+1. Deploy Vault token alongside app
 
-2.  Deploy approle roleid/secretid alongside app
+2. Deploy approle roleid/secretid alongside app
 
-3.  Deploy TLS client certificates and use cert auth method
+3. Deploy TLS client certificates and use cert auth method
+
 ## Option 1: Distributing Tokens
 
 One reason you might want to do this instead of using approle is its easy to use envconsul or consul-template
 If distributing tokens directly:
--   use a token role, similar to what we do with approle roles
--   distribute single-use token with a short TTL
--   use response wrapping to embed another longer-lived token
+
+- use a token role, similar to what we do with approle roles
+- distribute single-use token with a short TTL
+- use response wrapping to embed another longer-lived token
+
 ## Commands
 
 brew install vault
@@ -65,6 +73,7 @@ vault status
 vault path-help aws
 
 vault path-help aws/creds/my-non-existent-role
+
 ## #DML
 
 vault kv put secret/hello foo=world
@@ -74,11 +83,13 @@ vault kv put secret/hello foo=world excited=yes
 vault kv get secret/hello
 
 vault kv list kv/
+
 ## #DDL
 
 vault secrets list
 
 vault token create
+
 ## #Enable secret engine
 
 vault secrets enable -path=kv kv
@@ -88,7 +99,9 @@ vault secrets enable kv
 vault secrets disable kv/
 
 vault secrets enable -path=aws aws
+
 ## # Gen
+
 ## # Dynamic Secrets
 
 vault write aws/config/root
@@ -138,9 +151,11 @@ EOF
 vault read aws/creds/my-role
 
 vault lease revoke aws/creds/my-role/0bce0782-32aa-25ec-f61d-c026ff22106
+
 ## K8s annotations
 
 ## # remove pre-populate-only, to run sidecar that can sync credentials
+
 ![image](media/Vault-image1.png)
 apiVersion: batch/v1beta1
 
@@ -235,6 +250,7 @@ sleep infinity
 # sh test.sh
 
 restartPolicy: OnFailure
+
 ## App Roles
 
 ![image](media/Vault-image2.png)
@@ -245,13 +261,16 @@ restartPolicy: OnFailure
 ## Review Approle
 
 ![image](media/Vault-image6.png)
+
 ## Database Rotation
 
 The database secrets engine generates database credentials dynamically based on configured roles. It works with a number of different databases through a plugin interface. There are a number of builtin database types and an exposed framework for running custom database types for extendability. This means that services that need to access a database no longer need to hardcode credentials: they can request them from Vault, and use Vault's leasing mechanism to more easily roll keys. These are referred to as "dynamic roles" or "dynamic secrets".
+
 ## Static Roles
 
 The database secrets engine supports the concept of "static roles", which are a 1-to-1 mapping of Vault Roles to usernames in a database. The current password for the database user is stored and automatically rotated by Vault on a configurable period of time. This is in contrast to dynamic secrets, where a unique username and password pair are generated with each credential request. When credentials are requested for the Role, Vault returns the current password for the configured database user, allowing anyone with the proper Vault policies to have access to the user account in the database.-   Database user credentials rotation
--   Database root credentials rotation
+
+- Database root credentials rotation
 
 Vault's[database secrets engine](https://www.vaultproject.io/docs/secrets/databases/index.html)provides a centralized workflow for managing credentials for various database systems. By leveraging this, every service instance gets a unique set of database credentials instead of sharing one. Having those credentials tied directly to each service instance and live only for the life of the service, any abnormal access pattern can be mapped to a specific service instance and its credential can be revoked immediately.
 This reduces the manual tasks performed by the database administrator and makes the database access more efficient and secure.
@@ -267,20 +286,23 @@ This reduces the manual tasks performed by the database administrator and makes 
 
 Audit devices are the components in Vault that keep a detailed log of all requests and response to Vault. Because every operation with Vault is an API request/response, the audit log containsevery authenticatedinteraction with Vault, including errors.
 Multiple audit devices can be enabled and Vault will send the audit logs to both. This allows you to not only have a redundant copy, but also a second copy in case the first is tampered with.
+
 ## Questions
--   How to delete credentials from hashicorp vault and database when pod terminates? (how to tie the credentials lifecyle to a pod)
--   How applications will refresh the credentials when the credentials expire? - boto3, python, php
--   How to give specific username (or some prefix for a username) for a database credentials (because we will exclude this user from audit logs)
--   Give all pod same credentials
--   Mount vault credentials to a specific location
--   How to do disaster recovery
--   Vault rotate master passwords and send emails
--   Proxy to a master password like api keys
+
+- How to delete credentials from hashicorp vault and database when pod terminates? (how to tie the credentials lifecyle to a pod)
+- How applications will refresh the credentials when the credentials expire? - boto3, python, php
+- How to give specific username (or some prefix for a username) for a database credentials (because we will exclude this user from audit logs)
+- Give all pod same credentials
+- Mount vault credentials to a specific location
+- How to do disaster recovery
+- Vault rotate master passwords and send emails
+- Proxy to a master password like api keys
+
 ## Steps
 
-1.  Enable KV Engine
+1. Enable KV Engine
 
-2.  Add ACL
+2. Add ACL
 
 path "prod*" {
 
@@ -288,7 +310,7 @@ capabilities = ["read"]
 
 }
 
-3.  Create role
+3. Create role
 <https://www.vaultproject.io/docs/what-is-vault>
 
 <https://github.com/hashicorp/vault>
@@ -302,6 +324,7 @@ capabilities = ["read"]
 <https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes>
 [Kubernetes Secret Management guide beginners using Vault](https://www.youtube.com/playlist?list=PLHq1uqvAteVtq-NRX3yd1ziA_wJSBu3Oj)
 ![Vault ](media/Vault-image8.jpg)
+
 ## Comparision
 
 <https://www.cncf.io/announcements/2021/02/23/cncf-provides-insights-into-secrets-management-tools-with-latest-end-user-technology-radar>

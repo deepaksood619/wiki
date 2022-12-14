@@ -8,97 +8,97 @@ Modified: 2019-08-12 22:10:47 +0500
 
 ## Part I: Introductory Material
 
-1.  Notes to the Reader
+1. Notes to the Reader
 
-2.  A Tour of C++: **The Basics**
+2. A Tour of C++: **The Basics**
 
 The Basics describes C++'s model of memory, computation, and error handling.
 
-1.  The Basics
+1. The Basics
 
 Hello, World!; Types, Variables, and Arithmetic; Constants; Tests and Loops; Pointers, Arrays, and Loops
 
-2.  User-Defined Types
+2. User-Defined Types
 
 Structures; Classes; Enumerations
 
-3.  Modularity
+3. Modularity
 
 Separate Compilation; Namespaces; Error Handling
 
-3.  A Tour of C++: **Abstraction Mechanisms**
+3. A Tour of C++: **Abstraction Mechanisms**
 
 Abstraction Mechanisms presents the language features supporting data abstraction, object-oriented programming, and generic programming.
 
-1.  Classes
+1. Classes
 
 Concrete Types; Abstract Types; Virtual Functions; Class Hierarchies
 
-2.  Copy and Move
+2. Copy and Move
 
 Copying Containers; Moving Containers; Resource Management; Suppressing Operations
 
-3.  Templates
+3. Templates
 
 Parameterized Types; Function Templates; Function Objects; Variadic Templates; Aliases
 
-4.  A Tour of C++: **Containers and Algorithms**
+4. A Tour of C++: **Containers and Algorithms**
 
 Containers and Algorithms introduces strings, simple I/O, containers, and algorithms as provided by the standard library.
 
-1.  Libraries
+1. Libraries
 
 Standard-Library Overview; The Standard-Library Headers and Namespace
 
-2.  Strings
+2. Strings
 
-3.  Stream I/O
+3. Stream I/O
 
 Output; Input; I/O of User-Defined Types
 
-4.  Containers
+4. Containers
 
 vector; list; map; unordered_map; Container Overview
 
-5.  Algorithms
+5. Algorithms
 
 Use of Iterators; Iterator Types; Stream Iterators; Predicates; Algorithm Overview; Container Algorithms
 
-5.  A Tour of C++: **Concurrency and Utilities**
+5. A Tour of C++: **Concurrency and Utilities**
 
 Concurrency and Utilities outlines the standard-library utilities related to resource management, concurrency, mathematical computation, regular expressions, and more.
 
-1.  Introduction
+1. Introduction
 
-2.  Resource Management
+2. Resource Management
 
 unique_ptr and shared_ptr
 
-3.  Concurrency
+3. Concurrency
 
 Tasks and threads; Passing Arguments; Returning Results; Sharing Data; Communicating Tasks
 
-4.  Small Utility Components
+4. Small Utility Components
 
 Time; Type Functions; pair and tuple
 
-5.  Regular Expressions
+5. Regular Expressions
 
-6.  Math
+6. Math
 
 Mathematical Functions and Algorithms; Complex Numbers; Random Numbers; Vector Arithmetic; Numeric Limits
 
 ## Part II: Basic Facilities
 
-6.  Types and Declarations
+6. Types and Declarations
 
 Fundamental types, naming, scopes, initialization, simple type deduction, object lifetimes, and type aliases
 
-7.  Pointers, Arrays, and References
+7. Pointers, Arrays, and References
 
-8.  Structures, Unions, and Enumerations
+8. Structures, Unions, and Enumerations
 
-9.  Statements
+9. Statements
 
 10. Expressions
 

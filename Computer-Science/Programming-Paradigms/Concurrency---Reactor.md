@@ -10,6 +10,7 @@ The reactor[design pattern](https://en.wikipedia.org/wiki/Design_pattern_(comput
 ![image](media/Concurrency---Reactor-image1.png)
 
 *fig - the reactor loop*
+
 ## References
 
 <https://en.wikipedia.org/wiki/Reactor_pattern>

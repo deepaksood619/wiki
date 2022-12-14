@@ -13,14 +13,15 @@ var str = "Hello world!"
 var x = 10
 
 Data Types -
--   Int
--   Float
--   Double
--   Bool
--   String
--   Character
--   Optional
--   Tuples
+
+- Int
+- Float
+- Double
+- Bool
+- String
+- Character
+- Optional
+- Tuples
 
 | **Type** | **Typical Bit Width** | **Typical Range**                           |
 |---------|-------------------|--------------------------------------------|
@@ -48,8 +49,9 @@ Type Safety
 Type Inference
 
 Variable Declaration
--   var
--   let
+
+- var
+- let
 
 Type Annotations
 
@@ -68,4 +70,4 @@ print("Value of (varA) is more than (varB) millions")
 
 <https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309>
 
-<https://www.tutorialspoint.com/swift
+<https://www.tutorialspoint.com/swift>

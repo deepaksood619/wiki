@@ -7,73 +7,77 @@ Modified: 2021-06-14 17:46:26 +0500
 ---
 
 ## Intro
--   Apache spark is a fast and general-purpose cluster computing system for large scale data processing
--   High-level APIs in Java, Scala, Python and R
+
+- Apache spark is a fast and general-purpose cluster computing system for large scale data processing
+- High-level APIs in Java, Scala, Python and R
 
 ![Spark SQL Spark MLlib Streaming (machine learning) Apache Spark GraphX (graph) ](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image1.jpg)
 
 ## Standard library for Big Data
--   Big data apps lack libraries of common algorithms
--   Spark's generality + support for multiple languages make it suitable to offer this
--   Much of future activity will be in these libraries
+
+- Big data apps lack libraries of common algorithms
+- Spark's generality + support for multiple languages make it suitable to offer this
+- Much of future activity will be in these libraries
 
 ## Machine Learning Library (MLlib)
 
-1.  Classification: logistic regression, linear SVM, naive Bayes, classification tree
+1. Classification: logistic regression, linear SVM, naive Bayes, classification tree
 
-2.  Regression: generalized linear models (GLMs), regression tree
+2. Regression: generalized linear models (GLMs), regression tree
 
-3.  Collaborative filtering: alternating least squares (ALS), non-negative matrix factorization (NMF)
+3. Collaborative filtering: alternating least squares (ALS), non-negative matrix factorization (NMF)
 
-4.  Clustering: K-means
+4. Clustering: K-means
 
-5.  Decomposition: SVD, PCA
+5. Decomposition: SVD, PCA
 
-6.  Optimization: stochastic gradient descent, L-BFGS)
+6. Optimization: stochastic gradient descent, L-BFGS)
 
 ## GraphX
 
 ![Pre rocessi Raw Data Initial Graph Slice Subgraph Com ute GraphLab Compute PageRank Repeat Post Proc. Analyze Top Users ](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image2.jpeg)
 
 ## GraphX
--   General graph processing library
--   Build graph using RDDs of nodes and edges
--   Large library of graph algorithms with composable steps
+
+- General graph processing library
+- Build graph using RDDs of nodes and edges
+- Large library of graph algorithms with composable steps
 
 ## GraphX Algorithms
 
-1.  Collaborative Filtering
-    -   Alternating Least Squares
-    -   Stochastic Gradient Descent
-    -   Tensor Factorization
+1. Collaborative Filtering
+    - Alternating Least Squares
+    - Stochastic Gradient Descent
+    - Tensor Factorization
 
-2.  Structured Prediction
-    -   Loopy Belief Propagation
-    -   Max-produce linear programs
-    -   Gibbs sampling
+2. Structured Prediction
+    - Loopy Belief Propagation
+    - Max-produce linear programs
+    - Gibbs sampling
 
-3.  Semi-supervised ML
-    -   Graph SSL
-    -   CoEM
+3. Semi-supervised ML
+    - Graph SSL
+    - CoEM
 
-4.  Community Detection
-    -   Triangle-Counting
-    -   K-core decomposition
-    -   K-Truss
+4. Community Detection
+    - Triangle-Counting
+    - K-core decomposition
+    - K-Truss
 
-5.  Graph Analytics
-    -   PageRank
-    -   Personalized PageRank
-    -   Shortest Path
-    -   Graph Coloring
+5. Graph Analytics
+    - PageRank
+    - Personalized PageRank
+    - Shortest Path
+    - Graph Coloring
 
-6.  Classification
-    -   Neural Networks
+6. Classification
+    - Neural Networks
 
 ## Spark Streaming
--   Large scale streaming computation
--   Ensure exactly one semantics
--   Integrated with Spark -> unifies batch, interactive, and streaming computations
+
+- Large scale streaming computation
+- Ensure exactly one semantics
+- Integrated with Spark -> unifies batch, interactive, and streaming computations
 
 ![live data stream spark Streamin batches of X seconds processed results Spark ](../../../media/Technologies-Apache-Spark-Built-in-Libraries-image3.jpeg)
 

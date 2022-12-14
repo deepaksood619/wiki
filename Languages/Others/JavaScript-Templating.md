@@ -15,14 +15,16 @@ Popular JavaScript templating libraries are[AngularJS](https://angularjs.org/),[
 ## Template Engine
 
 The template engine is responsible for:
--   connecting to the data model;
--   processing the code specified in the source templates; and
--   directing the output to a specific pipeline, text file, or stream.
+
+- connecting to the data model;
+- processing the code specified in the source templates; and
+- directing the output to a specific pipeline, text file, or stream.
 
 ## Benefits of using templateengines
--   encourages organization of source code into operationally-distinct layers (see e.g.,[MVC](http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg))
--   enhances productivity by reducing unnecessary reproduction of effort
--   enhances teamwork by allowing separation of work based on skill-set (e.g., artistic vs. technical)
+
+- encourages organization of source code into operationally-distinct layers (see e.g.,[MVC](http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg))
+- enhances productivity by reducing unnecessary reproduction of effort
+- enhances teamwork by allowing separation of work based on skill-set (e.g., artistic vs. technical)
 
 Templating becomes useful when the information distributed may change, is too large to be maintained in various HTML pages by available human resources and not large enough to require heavier server-side templating.
 

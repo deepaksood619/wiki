@@ -7,17 +7,19 @@ Modified: 2020-01-03 17:00:20 +0500
 ---
 
 ## CQL
--   CQL mapping to cassandra's internal data structure
--   Use SQL like query language
--   **CQL is a reintroduction of schema**
--   **CQL creates a common language** so that details of the data model can be easily communicated
--   **CQL is a best-practices Cassandra interface** and hides the messy details
--   CQL let's you take advantage of the C* Data structure
--   CQL protocol is binary and therefore interoperable with any language
--   CQL is asynchronous and fast (Thrift transport layer is synchronous)
--   CQL allows the possibility for prepared statements
+
+- CQL mapping to cassandra's internal data structure
+- Use SQL like query language
+- **CQL is a reintroduction of schema**
+- **CQL creates a common language** so that details of the data model can be easily communicated
+- **CQL is a best-practices Cassandra interface** and hides the messy details
+- CQL let's you take advantage of the C* Data structure
+- CQL protocol is binary and therefore interoperable with any language
+- CQL is asynchronous and fast (Thrift transport layer is synchronous)
+- CQL allows the possibility for prepared statements
 
 ## Commands
+
 ```
 DESCRIBE KEYSPACES;
 
@@ -62,7 +64,6 @@ QUIT
 
 SELECT token(video_id), video_id FROM videos;
 ```
-
 
 ![Example](media/Cassandra_CQL-(Cassandra-Query-Language)-image1.png)
 

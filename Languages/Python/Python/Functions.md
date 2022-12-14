@@ -53,11 +53,12 @@ sum = add_numbers(3, 5)
 print(sum)
 
 ## Parameters passing
--   positional-or-keyword
--   positional-only
--   keyword-only
--   var-positional
--   var-keyword
+
+- positional-or-keyword
+- positional-only
+- keyword-only
+- var-positional
+- var-keyword
 
 ## Positional and Keyword Arguments
 
@@ -108,8 +109,6 @@ return pizza
 print (create_pizza(1, topping1='onion', topping2='tomato'))
 
 print (create_pizza(2, topping='mushroom'))
-
-
 
 # another instance of *
 

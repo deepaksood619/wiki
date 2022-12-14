@@ -40,4 +40,5 @@ publish.single("paho/test/single", "payload", hostname="localhost")
 ```
 
 ## References
+
 <https://github.com/eclipse/paho.mqtt.python>

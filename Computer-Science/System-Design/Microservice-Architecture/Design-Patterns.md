@@ -8,50 +8,53 @@ Modified: 2021-12-28 21:45:09 +0500
 
 ## Design Patterns of Microservices
 
-1.  [Aggregator](https://www.edureka.co/blog/microservices-design-patterns#Aggregator)2.  [**API Gateway**](https://www.edureka.co/blog/microservices-design-patterns#APIGateway)
+1. [Aggregator](https://www.edureka.co/blog/microservices-design-patterns#Aggregator)2.  [**API Gateway**](https://www.edureka.co/blog/microservices-design-patterns#APIGateway)
 
-3.  [**Chained or Chain of Responsibility**](https://www.edureka.co/blog/microservices-design-patterns#Chained)
+3. [**Chained or Chain of Responsibility**](https://www.edureka.co/blog/microservices-design-patterns#Chained)
 
-4.  [**Asynchronous Messaging**](https://www.edureka.co/blog/microservices-design-patterns#AsynchronousMessaging)5.  [Database or Shared Data](https://www.edureka.co/blog/microservices-design-patterns#Database)
+4. [**Asynchronous Messaging**](https://www.edureka.co/blog/microservices-design-patterns#AsynchronousMessaging)5.  [Database or Shared Data](https://www.edureka.co/blog/microservices-design-patterns#Database)
 
-6.  [Event Sourcing](https://www.edureka.co/blog/microservices-design-patterns#EventSourcing)
+6. [Event Sourcing](https://www.edureka.co/blog/microservices-design-patterns#EventSourcing)
 
-7.  [Branch](https://www.edureka.co/blog/microservices-design-patterns#Branch)
+7. [Branch](https://www.edureka.co/blog/microservices-design-patterns#Branch)
 
-8.  [Command Query Responsibility Segregator](https://www.edureka.co/blog/microservices-design-patterns#CQRS)
+8. [Command Query Responsibility Segregator](https://www.edureka.co/blog/microservices-design-patterns#CQRS)
 
-9.  [Circuit Breaker](https://www.edureka.co/blog/microservices-design-patterns#CircuitBreaker)
+9. [Circuit Breaker](https://www.edureka.co/blog/microservices-design-patterns#CircuitBreaker)
 
 10. [Decomposition](https://www.edureka.co/blog/microservices-design-patterns#Decomposition)
 <https://www.edureka.co/blog/microservices-design-patterns>
 ![image](media/Microservice-Architecture_Design-Patterns-image1.jpg)
--   Decomposition patterns
-    -   [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
-    -   [Decompose by subdomain](https://microservices.io/patterns/decomposition/decompose-by-subdomain.html)
+
+- Decomposition patterns
+  - [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
+  - [Decompose by subdomain](https://microservices.io/patterns/decomposition/decompose-by-subdomain.html)
+
 ## Functional Decomposition
 
 Functional decomposition is a term that engineers use to describea set of steps in which they break down the overall function of a device, system, or process into its smaller parts. A function is simply a task that is performed by a device, system, or process. Decomposition is a process of breaking down.
 
 <https://en.wikipedia.org/wiki/Functional_decomposition>-   The[Database per Service pattern](https://microservices.io/patterns/data/database-per-service.html)describes how each service has its own database in order to ensure loose coupling.
--   The[API Gateway pattern](https://microservices.io/patterns/apigateway.html)defines how clients access the services in a microservice architecture.
--   The[Client-side Discovery](https://microservices.io/patterns/client-side-discovery.html)and[Server-side Discovery](https://microservices.io/patterns/server-side-discovery.html)patterns are used to route requests for a client to an available service instance in a microservice architecture.
--   The Messaging and Remote Procedure Invocation patterns are two different ways that services can communicate.
--   The[Single Service per Host](https://microservices.io/patterns/deployment/single-service-per-host.html)and[Multiple Services per Host](https://microservices.io/patterns/deployment/multiple-services-per-host.html)patterns are two different deployment strategies.
--   Cross-cutting concerns patterns:[Microservice chassis pattern](https://microservices.io/patterns/microservice-chassis.html)and[Externalized configuration](https://microservices.io/patterns/externalized-configuration.html)
--   Testing patterns:[Service Component Test](https://microservices.io/patterns/testing/service-component-test.html)and[Service Integration Contract Test](https://microservices.io/patterns/testing/service-integration-contract-test.html)
--   [Circuit Breaker](https://microservices.io/patterns/reliability/circuit-breaker.html)
--   [Access Token](https://microservices.io/patterns/security/access-token.html)
--   Observability patterns:
-    -   [Log aggregation](https://microservices.io/patterns/observability/application-logging.html)
-    -   [Application metrics](https://microservices.io/patterns/observability/application-metrics.html)
-    -   [Audit logging](https://microservices.io/patterns/observability/audit-logging.html)
-    -   [Distributed tracing](https://microservices.io/patterns/observability/distributed-tracing.html)
-    -   [Exception tracking](https://microservices.io/patterns/observability/exception-tracking.html)
-    -   [Health check API](https://microservices.io/patterns/observability/health-check-api.html)
-    -   [Log deployments and changes](https://microservices.io/patterns/observability/log-deployments-and-changes.html)
--   UI patterns:
-    -   [Server-side page fragment composition](https://microservices.io/patterns/ui/server-side-page-fragment-composition.html)
-    -   [Client-side UI composition](https://microservices.io/patterns/ui/client-side-ui-composition.html)
+
+- The[API Gateway pattern](https://microservices.io/patterns/apigateway.html)defines how clients access the services in a microservice architecture.
+- The[Client-side Discovery](https://microservices.io/patterns/client-side-discovery.html)and[Server-side Discovery](https://microservices.io/patterns/server-side-discovery.html)patterns are used to route requests for a client to an available service instance in a microservice architecture.
+- The Messaging and Remote Procedure Invocation patterns are two different ways that services can communicate.
+- The[Single Service per Host](https://microservices.io/patterns/deployment/single-service-per-host.html)and[Multiple Services per Host](https://microservices.io/patterns/deployment/multiple-services-per-host.html)patterns are two different deployment strategies.
+- Cross-cutting concerns patterns:[Microservice chassis pattern](https://microservices.io/patterns/microservice-chassis.html)and[Externalized configuration](https://microservices.io/patterns/externalized-configuration.html)
+- Testing patterns:[Service Component Test](https://microservices.io/patterns/testing/service-component-test.html)and[Service Integration Contract Test](https://microservices.io/patterns/testing/service-integration-contract-test.html)
+- [Circuit Breaker](https://microservices.io/patterns/reliability/circuit-breaker.html)
+- [Access Token](https://microservices.io/patterns/security/access-token.html)
+- Observability patterns:
+  - [Log aggregation](https://microservices.io/patterns/observability/application-logging.html)
+  - [Application metrics](https://microservices.io/patterns/observability/application-metrics.html)
+  - [Audit logging](https://microservices.io/patterns/observability/audit-logging.html)
+  - [Distributed tracing](https://microservices.io/patterns/observability/distributed-tracing.html)
+  - [Exception tracking](https://microservices.io/patterns/observability/exception-tracking.html)
+  - [Health check API](https://microservices.io/patterns/observability/health-check-api.html)
+  - [Log deployments and changes](https://microservices.io/patterns/observability/log-deployments-and-changes.html)
+- UI patterns:
+  - [Server-side page fragment composition](https://microservices.io/patterns/ui/server-side-page-fragment-composition.html)
+  - [Client-side UI composition](https://microservices.io/patterns/ui/client-side-ui-composition.html)
 <https://microservices.io/patterns/microservices.html>
 
 ## Catalog of patterns**
@@ -304,14 +307,15 @@ Functional decomposition is a term that engineers use to describea set of steps 
 <https://docs.microsoft.com/en-us/azure/architecture/patterns>
 
 ## Enterprise Application Architecture
--   **Domain Logic Patterns:** Transaction Script, Domain Model, Table Module, Service Layer.
--   **Data Source Architectural Patterns:** Table Data Gateway, Row Data Gateway, Active Record, Data Mapper.
--   **Object-Relational Behavioral Patterns:** Unit of Work, Identity Map, Lazy Load
--   **Object-Relational Structural Patterns:** Identity Field, Foreign Key Mapping, Association Table Mapping, Dependent Mapping, Embedded Value, Serialized LOB, Single Table Inheritance, Class Table Inheritance, Concrete Table Inheritance, Inheritance Mappers.
--   **Object-Relational Metadata Mapping Patterns:** Metadata Mapping, Query Object, Repository.
--   **Web Presentation Patterns:** Model View Controller, Page Controller, Front Controller, Template View, Transform View, Two-Step View, Application Controller.
--   **Distribution Patterns:** Remote Facade, Data Transfer Object
--   **Offline Concurrency Patterns:** Optimistic Offline Lock, Pessimistic Offline Lock, Coarse Grained Lock, Implicit Lock.
--   **Session State Patterns:** Client Session State, Server Session State, Database Session State.
--   **Base Patterns:** Gateway, Mapper, Layer Supertype, Separated Interface, Registry, Value Object, Money, Special Case, Plugin, Service Stub, Record Set
+
+- **Domain Logic Patterns:** Transaction Script, Domain Model, Table Module, Service Layer.
+- **Data Source Architectural Patterns:** Table Data Gateway, Row Data Gateway, Active Record, Data Mapper.
+- **Object-Relational Behavioral Patterns:** Unit of Work, Identity Map, Lazy Load
+- **Object-Relational Structural Patterns:** Identity Field, Foreign Key Mapping, Association Table Mapping, Dependent Mapping, Embedded Value, Serialized LOB, Single Table Inheritance, Class Table Inheritance, Concrete Table Inheritance, Inheritance Mappers.
+- **Object-Relational Metadata Mapping Patterns:** Metadata Mapping, Query Object, Repository.
+- **Web Presentation Patterns:** Model View Controller, Page Controller, Front Controller, Template View, Transform View, Two-Step View, Application Controller.
+- **Distribution Patterns:** Remote Facade, Data Transfer Object
+- **Offline Concurrency Patterns:** Optimistic Offline Lock, Pessimistic Offline Lock, Coarse Grained Lock, Implicit Lock.
+- **Session State Patterns:** Client Session State, Server Session State, Database Session State.
+- **Base Patterns:** Gateway, Mapper, Layer Supertype, Separated Interface, Registry, Value Object, Money, Special Case, Plugin, Service Stub, Record Set
 <https://martinfowler.com/eaaCatalog/index.html>

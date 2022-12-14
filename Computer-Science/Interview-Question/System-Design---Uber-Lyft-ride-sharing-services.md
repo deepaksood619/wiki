@@ -7,33 +7,38 @@ Modified: 2021-08-27 20:00:12 +0500
 ---
 
 [System Design: Uber Lyft ride sharing services - Interview question](https://www.youtube.com/watch?v=J3DY3Te3A_A)
+
 ## Core Features
 
-1.  Customer - Driver matching
+1. Customer - Driver matching
 
-2.  Mapping
+2. Mapping
 Bottom up (What do we need to store?)
+
 ## Storage
 
-1.  Trip Storage (needed immediately)
+1. Trip Storage (needed immediately)
 
-2.  Analytics data-   Cloud providers
--   In house storage-   Close data center
--   Backup data center
+2. Analytics data-   Cloud providers
+
+- In house storage-   Close data center
+- Backup data center
 When close data center is down, data can be fetched from backup data center. Providing high availability, Low latency
 Uber uses mix of sql and nosql databases, fork of mysql which operates schemaless
 
 Also use cassandra for low latency
 perodically store data on data-warehouses, where they can run big expensive queries to find out trends in their services.
--   Where people are using uber
--   Where drivers are not enough drivers
--   trends regarding time and day
+
+- Where people are using uber
+- Where drivers are not enough drivers
+- trends regarding time and day
 
 Uber uses Hadoop as a Data Warehouse (for business analytics)
 Whenever we have a service that needs to be highly available and serves million of customers, we need to think about some sort of caching layer, layer where data can be stored closer to the customers and probably in some sort of in-memory database, which is much faster than storing data on speeding disks.
 Can be closer to customers, We can prewarm them before the customer queries it.
 Position of driver, or live data is not feasible to store in cache, so it can be saved in an in-memory database like redis and then sent to customer.
 Cache - map data, event data
+
 ## Logging (logging layer)
 
 Legal perspective
@@ -45,21 +50,26 @@ Endpoints - driver app, customer app
 Kafka (ingest logging message), it is a service that can ingest a lot of messages in real time. (guarantee that it's not lost). Lot of servers in cluster and synchronize with each other.
 
 Periodically dumps data to Data Warehouse (Hadoop)
+
 ## SOA (Service Oriented Architecture)
 
 There are a lot of small machines distributed so one if goes down doesn't effect others. Service lives in many different machines and in many different regions
+
 ## Provisioning (Getting apps into machines)
 
 Getting all the software (libraries, code, applications) into a newly started machine or container.
 Repository of all applications and libraries is used to provision everything to individual systems
-## Teraform is used to provision systems.
+
+## Teraform is used to provision systems
 
 ## Containers (Shielded runtime environments) - Docker
 
-## Apache Mesos (distributed systems kernel, manage distributed computer clusters) - manages collaboration and interfaces between services in distributed systems.
-## Network Routing (Route requests to backend) - needs to know state of each application.
+## Apache Mesos (distributed systems kernel, manage distributed computer clusters) - manages collaboration and interfaces between services in distributed systems
 
-## Stateless - there is no state for each communication, therefore if one request is to one server, then another request can be routed to any other server.
+## Network Routing (Route requests to backend) - needs to know state of each application
+
+## Stateless - there is no state for each communication, therefore if one request is to one server, then another request can be routed to any other server
+
 ## Testing
 
 Unit Tests
@@ -68,7 +78,7 @@ Suite of Integration tests
 
 Resiliency testing - Case of failure testing
 
-## Uber - Hailstorm - goes to a random set of services or hosts and turns them down.
+## Uber - Hailstorm - goes to a random set of services or hosts and turns them down
 
 Use Shadow fleets, group of hosts that have some applications and gets all the data but doen't serve any customer. Get request, calls all the same services as in production.**Mapping (Graph problem)**
 
@@ -81,6 +91,7 @@ Dijkstra's Algorithm
 A* Search Algorithm
 
 Directed Weighted Graph (Weights are speed limit/Traffic)
+
 ## Uber
 
 Getting very precise ETA (driver to customer)
@@ -96,14 +107,15 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
 ![2 6 ](media/System-Design---Uber-Lyft-ride-sharing-services-image1.png)
 ![image](media/System-Design---Uber-Lyft-ride-sharing-services-image2.png)**Summary -**
 
-1.  Core features
+1. Core features
 
     a.  Driver Customer matching
 
     b.  Mapping
+
 ## Driver Customer Matching
 
-1.  Storage
+1. Storage
 
     a.  Trip storage
 
@@ -135,9 +147,9 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
 
         i.  Kafka - ingest logging message
 
-2.  SOA (Service Oriented Architecture)
+2. SOA (Service Oriented Architecture)
 
-3.  Provisioning
+3. Provisioning
 
     a.  Teraform (for installing apps from central repositories to distributed clusters)
 
@@ -145,11 +157,11 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
 
     c.  Apache mesos (manage distributed system clusters)
 
-4.  Network Routing
+4. Network Routing
 
     a.  Stateless servers
 
-5.  Testing
+5. Testing
 
     a.  Unit Tests
 
@@ -160,9 +172,10 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
         i.  HailStorm
 
         ii. Shadow fleets
+
 ## Mapping
 
-1.  Algorithms
+1. Algorithms
 
     a.  Dijkstra's Algorithm
 
@@ -172,7 +185,7 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
 
     d.  Optimization Problem
 
-2.  Directed Weighted Graph
+2. Directed Weighted Graph
 
     a.  Vertices - Intersections
 
@@ -180,7 +193,7 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
 
     c.  Speed limit / Traffic / Blockage - Weights
 
-3.  Uber
+3. Uber
 
     a.  Precompute the data for maps
 

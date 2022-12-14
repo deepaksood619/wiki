@@ -8,23 +8,25 @@ Modified: 2020-02-09 23:15:59 +0500
 
 ## Idiomatic Python
 
-1.  **Chained Comparison Operator -**
+1. **Chained Comparison Operator -**
 
 ## Bad
 
-## if** x <= y **and y <= z:
+## if**x <= y**and y <= z
+
 # **do** something
 
 ## Good
 
 if x <= y <= z:
+
 ## # do something
 
-2.  **Use the falsy and truthy concept**
+2. **Use the falsy and truthy concept**
 
-<https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python
+<https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python>
 
-3.  **Ternary Operator replacement**
+3. **Ternary Operator replacement**
 
 ## a = True
 
@@ -32,37 +34,40 @@ value = 1 **if a else** 0
 
 ## print(value)
 
-4.  **Use the in keyword**
+4. **Use the in keyword**
 
-5.  **Formatting Strings**
+5. **Formatting Strings**
 
 The worst approach to formatting strings is to use the + operator to concatenate a mix of static strings and variables. However, the clearest and most idiomatic way to format strings is to use the format function. It takes a format string and replaces placeholders with values.
 
 ## Bad
 
-## def user_info(user):
+## def user_info(user)
+
 ## return 'Name: ' + user.name + ' Age: '+ user.age
 
 ## Good
 
-## def user_info(user):
+## def user_info(user)
+
 ## return 'Name: {user.name} Age: {user.age}'.format(user=user)
 
-6.  **Use List Comprehensions**
+6. **Use List Comprehensions**
 
 Ex - ls = [**element for element in** range(10) **if not**(**element** % 2)]
 
-7.  Dictionary Comprehension
+7. Dictionary Comprehension
 
 emails = {user.name: user.email **for** user **in** users **if** user.email}
 
-8.  **Sets**
+8. **Sets**
 
 Operations on set -
--   Union: The set of elements in A, B or both (written as A | B)
--   Intersection: The set of elements in both A and B (written as A & B)
--   Difference: The set of elements in A but not in B (written as A --- B)
--   Symmetric Difference: The set of elements in either A or B but not both A and B (written as A ^ B)
+
+- Union: The set of elements in A, B or both (written as A | B)
+- Intersection: The set of elements in both A and B (written as A & B)
+- Difference: The set of elements in A but not in B (written as A --- B)
+- Symmetric Difference: The set of elements in either A or B but not both A and B (written as A ^ B)
 
 Ex -
 
@@ -74,7 +79,7 @@ elements_in_both = **list**( set(ls1) & set(ls2) )
 
 print(elements_in_both)
 
-9.  **Set Comprehension**
+9. **Set Comprehension**
 
 10. **Use the default parameter of 'dict.get' to provide default values**
 
@@ -129,7 +134,7 @@ Harry
 
 # students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
 
-if __name__ == '__main__':
+if **name** == '**main**':
 
 marksheet = []
 

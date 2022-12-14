@@ -11,13 +11,15 @@ Modified: 2022-02-05 01:05:44 +0500
 ## Borg - Google's container system
 
 ## Orchestraction
--   The method to automate the management and deployment of your applications and containers
--   Centralized decision making
+
+- The method to automate the management and deployment of your applications and containers
+- Centralized decision making
 
 ## Choreography
--   Distributed decision making
 
-## Containerization - Application containerization is an OS-level virtualization method used to deploy and run distributed applications without launching an entire virtual machine (VM) for each app.
+- Distributed decision making
+
+## Containerization - Application containerization is an OS-level virtualization method used to deploy and run distributed applications without launching an entire virtual machine (VM) for each app
 
 ## Intro
 
@@ -28,45 +30,53 @@ State means which things should be running, like we want 3 instances of this app
 ## It is maintained by CNCF (Cloud Native Computing Foundation)
 
 ## Traits
--   **Abstraction**
--   **Declarative**
--   **Immutable**
+
+- **Abstraction**
+- **Declarative**
+- **Immutable**
 
 ## Features -
--   Automatic Binpacking
+
+- Automatic Binpacking
 
 Automatically places containers based on their resource requirements and other constraints, while not sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.
--   Horizontal Scaling (Scale out)
+
+- Horizontal Scaling (Scale out)
 
 Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.
--   Automated rollouts and rollbacks
+
+- Automated rollouts and rollbacks
 
 Kubernetes progressively rolls out changes to your application or its configuration, while monitoring application health to ensure it doesn't kill all your instances at the same time. If something goes wrong, Kubernetes will rollback the change for you. Take advantage of a growing ecosystem of deployment solutions.
--   Storage Orchestration
+
+- Storage Orchestration
 
 Automatically mount the storage system of your choice, whether from local storage, a public cloud provider such as[GCP](https://cloud.google.com/storage/)or[AWS](https://aws.amazon.com/products/storage/), or a network storage system such as NFS, iSCSI, Gluster, Ceph, Cinder, or Flocker.
--   Self-healing
+
+- Self-healing
 
 Restarts containers that fail, replaces and reschedules containers when nodes die, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
--   Service discovery and load balancing
+
+- Service discovery and load balancing
 
 No need to modify your application to use an unfamiliar service discovery mechanism. Kubernetes gives containers their own IP addresses and a single DNS name for a set of containers, and can load-balance across them.
--   Secret and Configuration Management
+
+- Secret and Configuration Management
 
 Deploy and update secrets and application configuration without rebuilding your image and without exposing secrets in your stack configuration.
--   Batch Execution
+
+- Batch Execution
 
 In addition to services, Kubernetes can manage your batch and CI workloads, replacing containers that fail, if desired.
 
-
--   Blue/green deployment, canary deployment
--   Long running services, but also batch (one-off) jobs
--   Overcommit our cluster andevictlow-priority jobs
--   Run services withstatefuldata (databases etc.)
--   Fine-grained access control definingwhatcan be done bywhomonwhichresources
--   Integrating third party services (service catalog)
--   Automating complex tasks (operators)
--   CronJobs
+- Blue/green deployment, canary deployment
+- Long running services, but also batch (one-off) jobs
+- Overcommit our cluster andevictlow-priority jobs
+- Run services withstatefuldata (databases etc.)
+- Fine-grained access control definingwhatcan be done bywhomonwhichresources
+- Integrating third party services (service catalog)
+- Automating complex tasks (operators)
+- CronJobs
 
 ## Private Kubernetes Cluster
 
@@ -119,35 +129,38 @@ GKE - Google Kubernetes Engine
 PKS - <https://pivotal.io/platform/pivotal-container-service>
 
 ## Advanced
--   Hot standby containers for improving recovery-time of Stateful jobs
+
+- Hot standby containers for improving recovery-time of Stateful jobs
 
 <https://issues.apache.org/jira/browse/SAMZA-1992>
--   Use of ipvs can be enabled, with the expectation it will become the default, replacing iptables.
+
+- Use of ipvs can be enabled, with the expectation it will become the default, replacing iptables.
 
 <https://www.objectif-libre.com/en/blog/2018/03/19/kubernetes-ipvs>
 
 ## Important points
--   Since Kubernetes 1.8, swap is disabled
--   Container image names cannot be longer than 63 characters
--   One container can have two services
+
+- Since Kubernetes 1.8, swap is disabled
+- Container image names cannot be longer than 63 characters
+- One container can have two services
 
 ## Kubernetes 1.19
 
-<https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints
+<https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints>
 
-<https://kubernetes.io/docs/concepts/services-networking/ingress
+<https://kubernetes.io/docs/concepts/services-networking/ingress>
 
 ## References
 
 <https://en.wikipedia.org/wiki/Kubernetes>
 
-<https://turbonomic.com/blog/on-technology/forget-k9-its-time-for-k8-k8s-that-is-a-kubernetes-primer-part-i
+<https://turbonomic.com/blog/on-technology/forget-k9-its-time-for-k8-k8s-that-is-a-kubernetes-primer-part-i>
 
 <https://blog.freshtracks.io/a-deep-dive-into-kubernetes-metrics-b190cc97f0f6>
 
 Youtube - Kubernets Webinar Series - Kubenetes Architecture 101 by Janakiram & Associates
 
-<https://training.play-with-kubernetes.com/kubernetes-workshop
+<https://training.play-with-kubernetes.com/kubernetes-workshop>
 
 [Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
 
@@ -155,7 +168,7 @@ Youtube - Kubernets Webinar Series - Kubenetes Architecture 101 by Janakiram & A
 
 <https://www.toptal.com/devops/interview-questions>
 
-<https://github.com/kelseyhightower/kubernetes-the-hard-way
+<https://github.com/kelseyhightower/kubernetes-the-hard-way>
 
 Book - Kubernetes: Up and Running, Kelsey Hightower Book
 
@@ -169,6 +182,6 @@ Book - Kubernetes: Up and Running, Kelsey Hightower Book
 
 <https://github.com/jpetazzo/container.training>
 
-<https://collabnix.github.io/kubelabs
+<https://collabnix.github.io/kubelabs>
 
-<https://www.infracloud.io/kubernetes-school
+<https://www.infracloud.io/kubernetes-school>

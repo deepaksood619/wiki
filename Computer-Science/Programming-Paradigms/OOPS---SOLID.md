@@ -7,14 +7,17 @@ Modified: 2022-03-10 12:30:13 +0500
 ---
 
 ## AEIP - Abstraction, Encapsulation, Inheritance and Polymorphism
+
 ## Modularity
 
 Modularity lets you define a **public interface** to hide **private implementation details**
+
 ## Objects
 
 Combine state (data) and behavior (algorithms/business logic)
 
 Means a real world entity (like a car, bus, pen, etc..)
+
 ## Classes
 
 Collection of objectsis called class. It is a logical entity.
@@ -25,10 +28,12 @@ Classes can inherit from each other - you can write a class that extends the fun
 Classes provide a means of bundling data and functionality together.
 
 Creating a new class creates a new type of object, allowing new instances of that type to be made.
+
 ## Abstraction
 
 Hiding internal details and showing functionalityis known as abstraction. For example: phone call, we don't know the internal processing.
 In java, we use abstract class and interface to achieve abstraction.
+
 ## Leaky Abstraction
 
 <https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions>
@@ -36,20 +41,24 @@ In java, we use abstract class and interface to achieve abstraction.
 Abstractions fail. Sometimes a little, sometimes a lot. There's leakage. Things go wrong. It happens all over the place when you have abstractions.
 All non-trivial abstractions, to some degree, are leaky.
 TCP attempts to provide a complete abstraction of an underlying unreliable network, but sometimes, the network leaks through the abstraction and you feel the things that the abstraction can't quite protect you from. This is but one example of what I've dubbed the Law of Leaky Abstractions:
+
 ## Encapsulation
 
 Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates.Other way to think about encapsulation is, it is a protective shield that prevents the data from being accessed by the code outside this shield.
 Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known asdata hiding.
+
 ## Inheritance
 
 When one object acquires all the properties and behaviours of parent objecti.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
--   Single Inheritance
--   Multilevel Inheritance
--   Hierarchical Inheritance
--   Hybrid Inheritance
+
+- Single Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Hybrid Inheritance
 Interface Inheritance (aka subtyping)
 
 Implementation Inheritance (aka inheritance)
+
 ## Polymorphism
 
 When**one task is performed by different ways**i.e. known as polymorphism. For example: to convince the customer differently, to draw something e.g. shape or rectangle etc.
@@ -59,7 +68,7 @@ In java, we use method overloading and method overriding to achieve polymorphism
 Another example can be to speak something e.g. cat speaks meaw, dog barks woof etc.
 Types of polymorphism
 
-1.  Parametric polymorphism
+1. Parametric polymorphism
 
 This is a pretty common technique in many languages, albeit better known as "Generics". The core idea is to allow programmers to use a wildcard type when defining data structures that can later be filled with any type.
 
@@ -80,7 +89,7 @@ class Truck extends Vehicle {
 double getWeight() { return 100.0; }
 }
 
-class Toyota extends Car { /* ... */ }
+class Toyota extends Car { /*...*/ }
 
 static void printWeight(Vehicle v) {
 // Allowed because all vehicles have to have this method
@@ -91,30 +100,33 @@ System.out.println(v.getWeight());
 This is more commonly known as function or operator overloading. In languages that allow this, you can define a function multiple times to deal with different input types. For example in Java:
 
 class Printer {
-public String prettyPrint(int x) { /* ... */ }
-public String prettyPrint(char c) { /* ... */ }
+public String prettyPrint(int x) { /*...*/ }
+public String prettyPrint(char c) { /*...*/ }
 }
 4.  Row Polymorphism
 
-5.  Kind Polymorphism
+5. Kind Polymorphism
 
-6.  Higher-rank Polymorphism
+6. Higher-rank Polymorphism
 
-7.  Linearity Polymorphism
+7. Linearity Polymorphism
 
-8.  Levity Polymorphism
+8. Levity Polymorphism
 <https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh>
 
 ## Inheritance, Encapsulation and Polymorphism are 3 pillars of OOPs**
+
 ## Problems
 
 ## Inheritance
--   Banana Monkey Jungle Problem
+
+- Banana Monkey Jungle Problem
 
 The problem with object-oriented languages is they've got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.
 Solution
--   Contain
--   Delegate-   Diamond Problem
+
+- Contain
+- Delegate-   Diamond Problem
 
 ![image](media/OOPS---SOLID-image2.png)
 
@@ -126,21 +138,26 @@ Every time I start at a new company, I struggle with the problem when I'm creati
 
 Using tags we can solve this problem. A company document can be labelled as document and also company. So it's both. **Tags have no order or hierarchy.**
 Don't use categorical hierarchies (Use containment hierarchies insted)
+
 ## Encapsulation
--   The Reference Problem
+
+- The Reference Problem
 
 Object's reference is passed to functions and changing something to object can change the original object.
 Solution - Deep Copy (But system objects cannot be copied)
+
 ## Others
--   **Mixin**
+
+- **Mixin**
 
 In[object-oriented programming languages](https://en.wikipedia.org/wiki/Object-oriented_programming_language), a**Mixin**is a[class](https://en.wikipedia.org/wiki/Class_(computer_science))that contains methods for use by other classes without having to be the parent class of those other classes. How those other classes gain access to the mixin's methods depends on the language. Mixins are sometimes described as being "included" rather than "inherited".
 Mixins encourage[code reuse](https://en.wikipedia.org/wiki/Code_reuse)and can be used to avoid the inheritance ambiguity that multiple inheritance can cause(the "[diamond problem](https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem)"), or to work around lack of support for multiple inheritance in a language. A mixin can also be viewed as an[interface](https://en.wikipedia.org/wiki/Interface_(object-oriented_programming))with implemented[methods](https://en.wikipedia.org/wiki/Method_(computer_science)). This pattern is an example of enforcing the[dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle).
 Mixins are a language concept that allows a programmer to inject some code into a[class](https://en.wikipedia.org/wiki/Class_(computer_programming)). Mixin programming is a style of[software development](https://en.wikipedia.org/wiki/Software_development), in which units of functionality are created in a class and then mixed in with other classes.
 A mixin class acts as the parent class, containing the desired functionality. A[subclass](https://en.wikipedia.org/wiki/Subclass_(computer_science))can then inherit or simply reuse this functionality, but not as a means of specialization. Typically, the mixin will export the desired functionality to a[child class](https://en.wikipedia.org/wiki/Subclass_(computer_science)), without creating a rigid, single "is a" relationship. Here lies the important difference between the concepts of mixins and[inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)), in that the child class can still inherit all the features of the parent class, but, the semantics about the child "being a kind of" the parent need not be necessarily applied.
+
 ## Advantages
 
-1.  It provides a mechanism for[multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)by allowing multiple classes to use the common functionality, but without the complex semantics of multiple inheritance.2.  [Code reusability](https://en.wikipedia.org/wiki/Code_reuse): Mixins are useful when a programmer wants to share functionality between different classes. Instead of repeating the same code over and over again, the common functionality can simply be grouped into a mixin and then included into each class that requires it.3.  Mixins allow inheritance and use of only the desired features from the parent class, not necessarily all of the features from the parent class.-   **Delegation**
+1. It provides a mechanism for[multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance)by allowing multiple classes to use the common functionality, but without the complex semantics of multiple inheritance.2.  [Code reusability](https://en.wikipedia.org/wiki/Code_reuse): Mixins are useful when a programmer wants to share functionality between different classes. Instead of repeating the same code over and over again, the common functionality can simply be grouped into a mixin and then included into each class that requires it.3.  Mixins allow inheritance and use of only the desired features from the parent class, not necessarily all of the features from the parent class.-   **Delegation**
 
 Delegation means that an object shall perform only what it knows best, and leave the rest to other objects.
 Delegation can be implemented with two different mechanisms: composition and inheritance. Sadly, very often only inheritance is listed among the pillars of OOP techniques, forgetting that it is an implementation of the more generic and fundamental mechanism of delegation; perhaps a better nomenclature for the two techniques could beexplicit delegation(composition) andimplicit delegation (inheritance).-   **Inheritance**
@@ -155,6 +172,7 @@ Composition over inheritance(orcomposite reuse principle) in[object-oriented pro
     -   A MonkeyPatch is a piece of Python code which extends or modifies other code at runtime (typically at startup).
     -   For instance, consider a class that has a methodget_data. This method does an external lookup (on a database or web API, for example), and various other methods in the class call it. However, in a unit test, you don't want to depend on the external data source - so you dynamically replace theget_datamethod with a stub that returns some fixed data.
     -   Because Python classes are mutable, and methods are just attributes of the class, you can do this as much as you like - and, in fact, you can even replace classes and functions in a module in exactly the same way.
+
 ## Example
 
 from SomeOtherProduct.SomeModule import SomeClass
@@ -170,15 +188,16 @@ According to the popular guide[Unified Process](https://en.wikipedia.org/wiki/Un
 <https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design>
 
 ## Important Points**
--   class, object (and the difference between the two)
--   method (as opposed to, say, a C function)
--   virtual method, pure virtual method
--   class/static method
--   static/class initializer
--   constructor
--   destructor/finalizer
--   superclass or base class
--   subclass or derived class
+
+- class, object (and the difference between the two)
+- method (as opposed to, say, a C function)
+- virtual method, pure virtual method
+- class/static method
+- static/class initializer
+- constructor
+- destructor/finalizer
+- superclass or base class
+- subclass or derived class
 <https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53>
 
 <https://en.wikipedia.org/wiki/Mixin>
@@ -187,7 +206,7 @@ According to the popular guide[Unified Process](https://en.wikipedia.org/wiki/Un
 
 ## SOLID principles**
 
-1.  **Single Responsibility Principle**
+1. **Single Responsibility Principle**
 
 A class should have one and only one reason to change, meaning that a class should have only one job
 2.  **Open Closed Principle**
@@ -214,9 +233,10 @@ The dependency inversion principle tells us that we should always try to have de
 ## STUPID**
 
 STUPIDis an acronym that describes bad practices in Oriented Object Programming:
--   [Singleton](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#singleton)
--   [Tight Coupling](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#tight-coupling)
--   [Untestability](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#untestability)
--   [Premature Optimization](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#premature-optimization)
--   [Indescriptive Naming](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#indescriptive-naming)
--   [Duplication](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#duplication)
+
+- [Singleton](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#singleton)
+- [Tight Coupling](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#tight-coupling)
+- [Untestability](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#untestability)
+- [Premature Optimization](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#premature-optimization)
+- [Indescriptive Naming](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#indescriptive-naming)
+- [Duplication](https://williamdurand.fr/2013/07/30/from-stupid-to-solid-code/#duplication)

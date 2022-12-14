@@ -16,8 +16,6 @@ mvn spring-boot:run
 
 mvn package && java -jar target/UserSmsTracker-1.0.jar
 
-
-
 ## References
 
 spring jpa tutorial

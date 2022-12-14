@@ -13,20 +13,23 @@ Modified: 2020-08-19 16:25:43 +0500
 [**https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4**](https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4)
 
 ## Why Flask-sqlalchemy
--   Code Representation of database
--   Database Agnostic
--   Write code in python
--   Integrates with Flask
--   Automatically syncs
+
+- Code Representation of database
+- Database Agnostic
+- Write code in python
+- Integrates with Flask
+- Automatically syncs
 
 ## Concepts
--   ORM
--   Model
--   Objects
--   Query API
--   Connection String
+
+- ORM
+- Model
+- Objects
+- Query API
+- Connection String
 
 ## Example
+
 ```python
 from flask import Flask
 

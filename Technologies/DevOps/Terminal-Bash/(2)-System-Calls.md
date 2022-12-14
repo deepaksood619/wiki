@@ -30,4 +30,4 @@ BPF is sometimes used to refer just to the filtering mechanism, rather than to t
 
 <https://en.wikipedia.org/wiki/Berkeley_Packet_Filter>
 
-<https://blog.cloudflare.com/cloudflare-architecture-and-how-bpf-eats-the-world
+<https://blog.cloudflare.com/cloudflare-architecture-and-how-bpf-eats-the-world>

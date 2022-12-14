@@ -5,17 +5,19 @@ Created: 2018-07-13 01:44:49 +0500
 Modified: 2021-07-05 09:43:41 +0500
 
 ---
--   Embeddings
--   Custom Estimators
+
+- Embeddings
+- Custom Estimators
 
 ## Embeddings
 
 ## An embedding of a vector is another vector in a smaller dimensional space
--   Manage sparse data
--   Make machine learning models that use sparse data consume less memory and train faster
--   Reduce dimensionality
--   Increase model generalization
--   Cluster observations
+
+- Manage sparse data
+- Make machine learning models that use sparse data consume less memory and train faster
+- Reduce dimensionality
+- Increase model generalization
+- Cluster observations
 
 <https://www.toptal.com/machine-learning/embeddings-in-machine-learning>
 
@@ -43,7 +45,7 @@ Modified: 2021-07-05 09:43:41 +0500
 
 ![media](media/Embeddings-&-Estimators-image10.png)
 
-<https://www.learndatasci.com/tutorials/building-recommendation-engine-locality-sensitive-hashing-lsh-python
+<https://www.learndatasci.com/tutorials/building-recommendation-engine-locality-sensitive-hashing-lsh-python>
 
 ## Data Driven Embeddings
 
@@ -91,13 +93,12 @@ Modified: 2021-07-05 09:43:41 +0500
 
 ![media](media/Embeddings-&-Estimators-image28.png)
 
-
-
 # Custom Estimator
--   Go beyond canned estimators
--   Write a custom estimator
--   Gain control over model functions
--   Incorporate Keras models into Estimator
+
+- Go beyond canned estimators
+- Write a custom estimator
+- Gain control over model functions
+- Incorporate Keras models into Estimator
 
 ![media](media/Embeddings-&-Estimators-image29.png)
 
@@ -106,8 +107,6 @@ Modified: 2021-07-05 09:43:41 +0500
 ![media](media/Embeddings-&-Estimators-image31.png)
 
 ![media](media/Embeddings-&-Estimators-image32.png)
-
-
 
 ### Model Function
 
@@ -119,8 +118,7 @@ Modified: 2021-07-05 09:43:41 +0500
 
 ![media](media/Embeddings-&-Estimators-image36.png)
 
-
--   Keras is a high-level deep neural network library that support multiple backends
+- Keras is a high-level deep neural network library that support multiple backends
 
 ![media](media/Embeddings-&-Estimators-image37.png)
 

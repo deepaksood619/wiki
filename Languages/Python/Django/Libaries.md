@@ -14,9 +14,9 @@ Channels is a project that takes Django and extends its abilities beyond HTTP - 
 
 It does this by taking the core of Django and layering a fully asynchronous layer underneath, running Django itself in a synchronous mode but handling connections and sockets asynchronously, and giving you the choice to write in either style.
 
-<https://realpython.com/getting-started-with-django-channels
+<https://realpython.com/getting-started-with-django-channels>
 
-<https://channels.readthedocs.io/en/latest
+<https://channels.readthedocs.io/en/latest>
 
 <https://www.sourcelair.com/blog/articles/115/django-channels-chat>
 
@@ -29,12 +29,13 @@ Pinax is an open source ecosystem of reusable Django apps, themes, and starter p
 It takes care of the things that many sites have in common so you can focus on what makes your site different.
 
 Pinax provides:
--   Standard project layoutfor consistency and easy deployment
--   Starter projectsthat can be used as the basis for any Django website as well as some tailored-to-community sites, company sites, intranets and sites in closed beta
--   Reusable appsproviding both back-end functionality and user-facing components
--   Default templatesto enable quick prototyping
 
-<https://pinaxproject.com/pinax/what_is_pinax
+- Standard project layoutfor consistency and easy deployment
+- Starter projectsthat can be used as the basis for any Django website as well as some tailored-to-community sites, company sites, intranets and sites in closed beta
+- Reusable appsproviding both back-end functionality and user-facing components
+- Default templatesto enable quick prototyping
+
+<https://pinaxproject.com/pinax/what_is_pinax>
 
 ## Daphne
 
@@ -61,14 +62,15 @@ django-taggita simpler approach to tagging with Django. Add"taggit"to your INSTA
 Comma seperate values
 
 ## Cons
--   Can't control the quality of entries
--   Can't select using view
+
+- Can't control the quality of entries
+- Can't select using view
 
 [**https://github.com/javrasya/django-river**](https://github.com/javrasya/django-river)
 
 Django workflow library that supports on the fly changes
 
-<https://djangopackages.org/grids/g/workflow
+<https://djangopackages.org/grids/g/workflow>
 
 [**https://github.com/viewflow/viewflow**](https://github.com/viewflow/viewflow)
 
@@ -78,7 +80,7 @@ Reusable workflow library for Django
 
 django-reversion is an extension to the Django web framework that provides version control for model instances.
 
-<https://django-crispy-forms.readthedocs.io/en/latest
+<https://django-crispy-forms.readthedocs.io/en/latest>
 
 django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will let you control the rendering behavior of your[Django](https://djangoproject.com/)forms in a very elegant and DRY way. Have full control without writing custom form templates. All this without breaking the standard way of doing things in[Django](https://djangoproject.com/), so it plays nice with any other form application.
 
@@ -103,36 +105,39 @@ graphene-django==2.3.2
 
 pyinotify==0.9.6
 
-<https://djangopackages.org/grids/g/bulk_update
+<https://djangopackages.org/grids/g/bulk_update>
 
 <https://github.com/burke-software/django-mass-edit>
 
-<http://whitenoise.evans.io/en/stable
+<http://whitenoise.evans.io/en/stable>
 
 ## Tools
--   Django-debug-toolbar
--   django-extensions
--   django-import-export
--   django-rest-swagger
--   easy-thumbnails
--   django-simple-history
--   django-adminactions
--   django-model-utils
+
+- Django-debug-toolbar
+- django-extensions
+- django-import-export
+- django-rest-swagger
+- easy-thumbnails
+- django-simple-history
+- django-adminactions
+- django-model-utils
 
 Django model mixins and utilities
 
 <https://github.com/jazzband/django-model-utils>
 
 <https://django-model-utils.readthedocs.io/en/latest/fields.html>
--   **django-storages**
+
+- **django-storages**
 
 <https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html>
 
 <https://simpleisbetterthancomplex.com/tutorial/2017/08/01/how-to-setup-amazon-s3-in-a-django-project.html>
--   Django-compressor
--   Celery
--   drf-api-logger
 
-<https://pypi.org/project/drf-api-logger
+- Django-compressor
+- Celery
+- drf-api-logger
+
+<https://pypi.org/project/drf-api-logger>
 
 <https://viewflow.medium.com/top-102-most-downloaded-django-packages-in-2020-108f0cd372e7>

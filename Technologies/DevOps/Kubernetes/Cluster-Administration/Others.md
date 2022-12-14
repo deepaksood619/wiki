@@ -11,13 +11,15 @@ Modified: 2020-06-02 23:02:31 +0500
 EveryPodgets its own IP address. This means you do not need to explicitly create links betweenPodsand you almost never need to deal with mapping container ports to host ports. This creates a clean, backwards-compatible model wherePodscan be treated much like VMs or physical hosts from the perspectives of port allocation, naming, service discovery, load balancing, application configuration, and migration.
 
 Kubernetes imposes the following fundamental requirements on any networking implementation (barring any intentional network segmentation policies):
--   Pods on a node can communicate with all pods on all nodes without NAT
--   All nodes can communicate with all containers (and vice-versa) without NAT
--   The IP that a container sees itself as is the same IP that others see it as
--   Agents on a node (e.g. system daemons, kubelet) can communicate with all pods on that node
+
+- Pods on a node can communicate with all pods on all nodes without NAT
+- All nodes can communicate with all containers (and vice-versa) without NAT
+- The IP that a container sees itself as is the same IP that others see it as
+- Agents on a node (e.g. system daemons, kubelet) can communicate with all pods on that node
 
 Note: For those platforms that supportPodsrunning in the host network (e.g. Linux)
--   Pods in the host network of a node can communicate with all pods on all nodes without NAT
+
+- Pods in the host network of a node can communicate with all pods on all nodes without NAT
 
 [Container Networking From Scratch - Kristen Jacobs, Oracle](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 
@@ -33,4 +35,4 @@ A service broker, as defined by the[Open service broker API spec](https://github
 
 Using Service Catalog, a[cluster operator](https://kubernetes.io/docs/reference/glossary/?all=true#term-cluster-operator)can browse the list of managed services offered by a service broker, provision an instance of a managed service, and bind with it to make it available to an application in the Kubernetes cluster.
 
-<https://kubernetes.io/docs/concepts/extend-kubernetes/service-catalog
+<https://kubernetes.io/docs/concepts/extend-kubernetes/service-catalog>

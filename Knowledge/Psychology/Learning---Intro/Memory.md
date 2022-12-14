@@ -30,15 +30,16 @@ Astrocytes have a key role in learning.
 
 ## Meaningful Groups
 
-1.  Have first letters of a list of items and map them together to create a meaningful group representing some simple object.
+1. Have first letters of a list of items and map them together to create a meaningful group representing some simple object.
 
-2.  Create a mnemonic for some concepts.
+2. Create a mnemonic for some concepts.
 
-3.  Memory palace technique
+3. Memory palace technique
 
 ## Long term memories for facts and events
--   are subject to modification by a process called "reconsolidation"
--   are living parts of the brain, that changes each time your access them.
+
+- are subject to modification by a process called "reconsolidation"
+- are living parts of the brain, that changes each time your access them.
 
 ## Renaissance Learning and Unlocking your Potential
 
@@ -67,52 +68,58 @@ Sometimes you cannot go forward with learning, that means the brain is restructu
 Working memory is essentially your mental bandwidth.If you have a good working memory, or can use yours more effectively, you can think and learn better.
 
 ## Phonological Loop
--   Ideally, avoid noise during learning and don't listen to any kind of music
--   The best way to down out noise is by using earplugs (or listening to white noise)
--   If you do have to listen to music (because it helps you calm down for instance), choose instrumental music with no lyrics
--   To boost your comprehension and memory, read aloud what you're studying
-    -   Only apply this to a selection of the most important concepts / information
-    -   If you read aloud everything, it won't work
+
+- Ideally, avoid noise during learning and don't listen to any kind of music
+- The best way to down out noise is by using earplugs (or listening to white noise)
+- If you do have to listen to music (because it helps you calm down for instance), choose instrumental music with no lyrics
+- To boost your comprehension and memory, read aloud what you're studying
+  - Only apply this to a selection of the most important concepts / information
+  - If you read aloud everything, it won't work
 
 ## Visuospatial Sketchpad
--   Don't worry if you have problems with visuospatial tasks -- it's mostly a matter of choosing the right strategy.
--   Use the analytical strategy (step-by-step) approach to solve visuospatial tasks.
-    -   Break down complex tasks into small components.
-    -   Offload the results of intermediate steps onto paper.
--   Try the drawing-construction strategy to help you with reading comprehension.
-    -   This strategy can make you process information more deeply.
+
+- Don't worry if you have problems with visuospatial tasks -- it's mostly a matter of choosing the right strategy.
+- Use the analytical strategy (step-by-step) approach to solve visuospatial tasks.
+  - Break down complex tasks into small components.
+  - Offload the results of intermediate steps onto paper.
+- Try the drawing-construction strategy to help you with reading comprehension.
+  - This strategy can make you process information more deeply.
 
 ## Central Executive
--   Avoid multi-tasking and interruptions even if you feel that it's not affecting you -- the negative effect can be well hidden from you sight
--   Multi-tasking will not affect your learning and performance only if the two or more activities that you do simultaneously don't share the same working memory resources (e.g. practicing flashcards while commuting)
--   When studying, put all information relevant to one concept into one place to prevent divided attention
--   Try to find study materials which feature integrated information (graphs and text combined together rather than presented separately)
--   If necessary, re-draw or photo-copy different parts of your notes/textbooks/lecture notes so that everything is integrated
--   Design your own study materials (like flashcards) in an integrative way to boost your memory
+
+- Avoid multi-tasking and interruptions even if you feel that it's not affecting you -- the negative effect can be well hidden from you sight
+- Multi-tasking will not affect your learning and performance only if the two or more activities that you do simultaneously don't share the same working memory resources (e.g. practicing flashcards while commuting)
+- When studying, put all information relevant to one concept into one place to prevent divided attention
+- Try to find study materials which feature integrated information (graphs and text combined together rather than presented separately)
+- If necessary, re-draw or photo-copy different parts of your notes/textbooks/lecture notes so that everything is integrated
+- Design your own study materials (like flashcards) in an integrative way to boost your memory
 
 ## Chunking
--   Use chunking to compress information so that you can remember more.
--   You can chunk your study materials by grouping concepts into categories.
-    -   For instance, you can group foreign language vocabulary by topics, similar meanings, or similar pronunciation.
--   To gain expertise in any subject or skill, you need to build increasingly complex chunks of information
-    -   You can do this with pre-training (pre-studying the definitions and meanings of concepts before your lecture or before you read a textbook)
--   If you don't understand something, try to identify what exactly you're having a problem with and study this first
--   Firstly master the underlying sub-skills and then practice your target skill to save time and energy
+
+- Use chunking to compress information so that you can remember more.
+- You can chunk your study materials by grouping concepts into categories.
+  - For instance, you can group foreign language vocabulary by topics, similar meanings, or similar pronunciation.
+- To gain expertise in any subject or skill, you need to build increasingly complex chunks of information
+  - You can do this with pre-training (pre-studying the definitions and meanings of concepts before your lecture or before you read a textbook)
+- If you don't understand something, try to identify what exactly you're having a problem with and study this first
+- Firstly master the underlying sub-skills and then practice your target skill to save time and energy
 
 ## Cognitive Load
--   If your study material feels too complex, then you need to reduce your **intrinsic load**
--   If your study material feels unclear or confusing, then you need to reduce your **extrinsic load**
--   To reduce intrinsic load, use segmenting and sequencing or find some worked examples
--   To reduce extrinsic load, find study materials with clear language and modest graphics, and approach solving problems in a goal-free way
--   Germane load.The effort required to make new chunks and remember.
+
+- If your study material feels too complex, then you need to reduce your **intrinsic load**
+- If your study material feels unclear or confusing, then you need to reduce your **extrinsic load**
+- To reduce intrinsic load, use segmenting and sequencing or find some worked examples
+- To reduce extrinsic load, find study materials with clear language and modest graphics, and approach solving problems in a goal-free way
+- Germane load.The effort required to make new chunks and remember.
 
 ## Anxiety
--   If your teacher is math-anxious, ignore them and find a better teacher online (e.g. the Khan academy)
--   Use ***cognitive reappraisal*** and subvocalization to transform anxiety into excitement ("I'm excited")
--   Use expressive writing to offload your worries from memory onto paper
+
+- If your teacher is math-anxious, ignore them and find a better teacher online (e.g. the Khan academy)
+- Use ***cognitive reappraisal*** and subvocalization to transform anxiety into excitement ("I'm excited")
+- Use expressive writing to offload your worries from memory onto paper
 
 ## References
 
-<https://www.scotthyoung.com/blog/2019/04/24/working-memory
+<https://www.scotthyoung.com/blog/2019/04/24/working-memory>
 
 <https://en.wikipedia.org/wiki/Mnemonic_major_system>

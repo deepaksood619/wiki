@@ -5,14 +5,15 @@ Created: 2021-11-12 22:46:40 +0500
 Modified: 2022-04-24 16:29:10 +0500
 
 ---
--   [1. Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
--   [2. Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
--   [3. Using the State Hook](https://reactjs.org/docs/hooks-state.html)
--   [4. Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
--   [5. Rules of Hooks](https://reactjs.org/docs/hooks-rules.html)
--   [6. Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html)
--   [7. Hooks API Reference](https://reactjs.org/docs/hooks-reference.html)
--   [8. Hooks FAQ](https://reactjs.org/docs/hooks-faq.html)
+
+- [1. Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [2. Hooks at a Glance](https://reactjs.org/docs/hooks-overview.html)
+- [3. Using the State Hook](https://reactjs.org/docs/hooks-state.html)
+- [4. Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+- [5. Rules of Hooks](https://reactjs.org/docs/hooks-rules.html)
+- [6. Building Your Own Hooks](https://reactjs.org/docs/hooks-custom.html)
+- [7. Hooks API Reference](https://reactjs.org/docs/hooks-reference.html)
+- [8. Hooks FAQ](https://reactjs.org/docs/hooks-faq.html)
 
 ## What is a Hook?
 
@@ -25,34 +26,38 @@ React provides a few built-in Hooks likeuseState. You can also create your own H
 If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component. We're going to do that right now!
 
 ## Rules
--   Only call Hooks**at the top level**. Don't call Hooks inside loops, conditions, or nested functions.
--   Only call Hooks**from React function components**. Don't call Hooks from regular JavaScript functions.
+
+- Only call Hooks**at the top level**. Don't call Hooks inside loops, conditions, or nested functions.
+- Only call Hooks**from React function components**. Don't call Hooks from regular JavaScript functions.
 
 ## Hooks
--   [**Basic Hooks**](https://reactjs.org/docs/hooks-reference.html#basic-hooks)
-    -   [useState](https://reactjs.org/docs/hooks-reference.html#usestate)
-    -   [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)
-    -   [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
--   [**Additional Hooks**](https://reactjs.org/docs/hooks-reference.html#additional-hooks)
-    -   [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
-    -   [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
-    -   [useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
-    -   [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
-    -   [useImperativeHandle](https://reactjs.org/docs/hooks-reference.html#useimperativehandle)
-    -   [useLayoutEffect](https://reactjs.org/docs/hooks-reference.html#uselayouteffect)
-    -   [useDebugValue](https://reactjs.org/docs/hooks-reference.html#usedebugvalue)
 
-1.  **useEffect / Effect Hook**
+- [**Basic Hooks**](https://reactjs.org/docs/hooks-reference.html#basic-hooks)
+  - [useState](https://reactjs.org/docs/hooks-reference.html#usestate)
+  - [useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)
+  - [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+- [**Additional Hooks**](https://reactjs.org/docs/hooks-reference.html#additional-hooks)
+  - [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+  - [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
+  - [useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
+  - [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
+  - [useImperativeHandle](https://reactjs.org/docs/hooks-reference.html#useimperativehandle)
+  - [useLayoutEffect](https://reactjs.org/docs/hooks-reference.html#uselayouteffect)
+  - [useDebugValue](https://reactjs.org/docs/hooks-reference.html#usedebugvalue)
+
+1. **useEffect / Effect Hook**
 
 You've likely performed data fetching, subscriptions, or manually changing the DOM from React components before. We call these operations "side effects" (or "effects" for short) because they can affect other components and can't be done during rendering
 
 The Effect Hook,useEffect, adds the ability to perform side effects from a function component. It serves the same purpose as componentDidMount, componentDidUpdate, andcomponentWillUnmount in React classes, but unified into a single API
 
 There are two common kinds of side effects in React components: those that don't require cleanup, and those that do.
--   Effects without cleanup
+
+- Effects without cleanup
 
 Network requests, manual DOM mutations, and logging are common examples of effects that don't require a cleanup. We say that because we can run them and immediately forget about them.
--   Effects with cleanup
+
+- Effects with cleanup
 
 If your effect returns a function, React will run it when it is time to clean up
 
@@ -76,19 +81,20 @@ ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
 
 });
 
-2.  **useMemo**
+2. **useMemo**
 
 The useMemo is a hook used in the functional component of react that returns a memoized value.
 
-<https://www.geeksforgeeks.org/react-js-usememo-hook
+<https://www.geeksforgeeks.org/react-js-usememo-hook>
 
 ## Lifecycle components and Hooks Equivalent
--   constructor: Function components don't need a constructor. You can initialize the state in the[useState](https://reactjs.org/docs/hooks-reference.html#usestate)call. If computing the initial state is expensive, you can pass a function touseState.
--   getDerivedStateFromProps: Schedule an update[while rendering](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-getderivedstatefromprops)instead.
--   shouldComponentUpdate: SeeReact.memo[below](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate).
--   render: This is the function component body itself.
--   componentDidMount,componentDidUpdate,componentWillUnmount: The[useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect)can express all combinations of these (including[less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates)cases).
--   getSnapshotBeforeUpdate,componentDidCatchandgetDerivedStateFromError: There are no Hook equivalents for these methods yet, but they will be added soon.
+
+- constructor: Function components don't need a constructor. You can initialize the state in the[useState](https://reactjs.org/docs/hooks-reference.html#usestate)call. If computing the initial state is expensive, you can pass a function touseState.
+- getDerivedStateFromProps: Schedule an update[while rendering](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-getderivedstatefromprops)instead.
+- shouldComponentUpdate: SeeReact.memo[below](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate).
+- render: This is the function component body itself.
+- componentDidMount,componentDidUpdate,componentWillUnmount: The[useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect)can express all combinations of these (including[less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates)cases).
+- getSnapshotBeforeUpdate,componentDidCatchandgetDerivedStateFromError: There are no Hook equivalents for these methods yet, but they will be added soon.
 
 ## Examples
 
@@ -148,7 +154,7 @@ let ignore = false;
 
 async function fetchData() {
 
-const result = await axios('https://hn.algolia.com/api/v1/search?query=' + query);
+const result = await axios('<https://hn.algolia.com/api/v1/search?query>=' + query);
 
 if (!ignore) setData(result.data);
 

@@ -13,7 +13,8 @@ GIL is a mutex that protects access to Python objects, preventing multiple threa
 This essentially means that a process can run only one thread at a time. When a thread starts running, it acquires GIL and when it waits for I/O, it releases the GIL, so that other threads of that process can run.
 
 Solution -
--   Run multiple Python instances
+
+- Run multiple Python instances
 
 ## References
 
@@ -23,7 +24,7 @@ Solution -
 
 [Raymond Hettinger, Keynote on Concurrency, PyBay 2017](https://www.youtube.com/watch?v=9zinZmE3Ogk&index=2&list=WL&t=0s)
 
-<https://realpython.com/python-concurrency
+<https://realpython.com/python-concurrency>
 
 <https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python>
 

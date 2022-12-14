@@ -67,7 +67,8 @@ b.dtype.name #name of data type
 b.astype(int) #convert an array to a different type
 
 ## Array Mathematics
--   **Arithmetic Operations**
+
+- **Arithmetic Operations**
 
 g = a-b
 
@@ -96,14 +97,16 @@ np.cos(b) #element-wise cosine
 np.log(a) #element-wise natural logarithm
 
 e.dot(f) # dot product
--   **Comparision**
+
+- **Comparision**
 
 a == b #element-wise comparision
 
 a < 2 # element-wise comparision
 
 np.array_equal(a,b) #array-wise comparision
--   **Aggregate Functions**
+
+- **Aggregate Functions**
 
 a.sum() #array-wise sum
 

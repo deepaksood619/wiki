@@ -19,6 +19,7 @@ Main article:[Cyclic redundancy check](https://en.wikipedia.org/wiki/Cyclic_redu
 | [CRC-64](https://en.wikipedia.org/wiki/CRC-64)                                                  | 64 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)                      |
 
 [Adler-32](https://en.wikipedia.org/wiki/Adler-32)is often mistaken for a CRC, but it is not, it is a[checksum](https://en.wikipedia.org/wiki/List_of_hash_functions#Checksums).
+
 ## Checksums
 
 Main article:[Checksum](https://en.wikipedia.org/wiki/Checksum)
@@ -40,6 +41,7 @@ Main article:[Checksum](https://en.wikipedia.org/wiki/Checksum)
 | [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)                  | 1 decimal digit | sum                                                                                                                |
 | [Verhoeff algorithm](https://en.wikipedia.org/wiki/Verhoeff_algorithm)          | 1 decimal digit | sum                                                                                                                |
 | [Damm algorithm](https://en.wikipedia.org/wiki/Damm_algorithm)                  | 1 decimal digit | [Quasigroup](https://en.wikipedia.org/wiki/Quasigroup)[operation](https://en.wikipedia.org/wiki/Binary_operation) |
+
 ## Universal hash function families
 
 Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing)
@@ -50,6 +52,7 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 | [tabulation hashing](https://en.wikipedia.org/wiki/Tabulation_hashing)                           | variable | XOR      |
 | [universal one-way hash function](https://en.wikipedia.org/wiki/Universal_one-way_hash_function) |         |         |
 | [Zobrist hashing](https://en.wikipedia.org/wiki/Zobrist_hashing)                                 | variable | XOR      |
+
 ## Non-cryptographic hash functions
 
 <table>
@@ -168,6 +171,7 @@ Main article:[Message authentication code](https://en.wikipedia.org/wiki/Message
 | [SipHash](https://en.wikipedia.org/wiki/SipHash)                         | 64 bits    | non-collision-resistant PRF                                                                           |
 | [UMAC](https://en.wikipedia.org/wiki/UMAC)                               |           |                                                                                                      |
 | [VMAC](https://en.wikipedia.org/wiki/VMAC)                               |           |                                                                                                      |
+
 ## Unkeyed cryptographic hash functions
 
 Main article:[Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)

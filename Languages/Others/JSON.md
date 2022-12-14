@@ -9,8 +9,9 @@ Modified: 2020-05-02 22:28:30 +0500
 JSON(JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the[JavaScript Programming Language](http://javascript.crockford.com/),[Standard ECMA-262 3rd Edition - December 1999](http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf). JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 
 JSON is built on two structures:
--   A collection of name/value pairs. In various languages, this is realized as anobject, record, struct, dictionary, hash table, keyed list, or associative array.
--   An ordered list of values. In most languages, this is realized as anarray, vector, list, or sequence.
+
+- A collection of name/value pairs. In various languages, this is realized as anobject, record, struct, dictionary, hash table, keyed list, or associative array.
+- An ordered list of values. In most languages, this is realized as anarray, vector, list, or sequence.
 
 These are universal data structures. Virtually all modern programming languages support them in one form or another. It makes sense that a data format that is interchangeable with programming languages also be based on these structures.
 
@@ -18,37 +19,37 @@ Plain text formats, especially JSON, have some problems with number precision, j
 
 In JSON, they take on these forms:
 
-1.  **Object**
+1. **Object**
 
 Anobjectis an unordered set of name/value pairs. An object begins with{(left brace)and ends with}(right brace). Each name is followed by:(colon)and the name/value pairs are separated by,(comma).
 
 ![image](media/JSON-image1.gif)
 
-2.  **Array**
+2. **Array**
 
 Anarrayis an ordered collection of values. An array begins with[(left bracket)and ends with](right bracket). Values are separated by,(comma).
 
 ![ател Леше ](media/JSON-image2.gif)
 
-3.  **Value**
+3. **Value**
 
 Avaluecan be astringin double quotes, or anumber, ortrueorfalseornull, or anobjector anarray. These structures can be nested.
 
-4.  **String**
+4. **String**
 
 Astringis a sequence of zero or more Unicode characters, wrapped in double quotes, using backslash escapes. A character is represented as a single character string. A string is very much like a C or Java string.
 
-5.  **Number**
+5. **Number**
 
 Anumberis very much like a C or Java number, except that the octal and hexadecimal formats are not used.
 
-6.  **Boolean**
+6. **Boolean**
 
 true/false
 
 {"sale":true}
 
-7.  **Null**
+7. **Null**
 
 null
 
@@ -59,13 +60,14 @@ Whitespace can be inserted between any pair of tokens. Excepting a few encoding 
 ## Control Characters
 
 The following characters are reserved in JSON and must be properly escaped to be used in strings:
--   Backspaceis replaced withb
--   Form feedis replaced withf
--   Newlineis replaced withn
--   Carriage returnis replaced withr
--   Tabis replaced witht
--   Double quoteis replaced with"
--   Backslashis replaced with
+
+- Backspaceis replaced withb
+- Form feedis replaced withf
+- Newlineis replaced withn
+- Carriage returnis replaced withr
+- Tabis replaced witht
+- Double quoteis replaced with"
+- Backslashis replaced with
 
 ## JSONP
 
@@ -73,15 +75,16 @@ JSONP([JSON](https://en.wikipedia.org/wiki/JSON)with Paddingor JSON-P) is a java
 
 ## jsonnet
 
-<https://jsonnet.org
+<https://jsonnet.org>
 
 ## qp (query-pipe)
 
 query-pipe: command-line (ND)JSON querying
 
 A tool for filtering and transforming JSON from the command-line. Automatically interprets Newline Delimited JSON (NDJSON) fromstdin, including pretty-printed NDJSON, and can optionally query top-level array input.
--   a familiar and approachable SQL-like query language
--   ~600kbbinary, withzeroruntime dependencies (compiled with[QuickJS](https://bellard.org/quickjs/))
+
+- a familiar and approachable SQL-like query language
+- ~600kbbinary, withzeroruntime dependencies (compiled with[QuickJS](https://bellard.org/quickjs/))
 
 <https://github.com/paybase/qp>
 
@@ -93,14 +96,14 @@ JMESPath is a query language for JSON.
 
 az network public-ip list --resource-group MC_Technology_dev-kubernetes-cluster_southindia -o json --query "[*].name"
 
-<http://jmespath.org
+<http://jmespath.org>
 
 <http://jmespath.org/tutorial.html>
 
 ## References
 
-<http://json.org
+<http://json.org>
 
 JSON Schema Definition - <http://json-schema.org/draft-04/json-schema-core.html>
 
-<https://www.jsonschema.net
+<https://www.jsonschema.net>

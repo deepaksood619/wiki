@@ -11,34 +11,37 @@ Flask is a micro web framework written in Python and based on the Werkzeug toolk
 Flask is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation. Flask supports extensions that can add application features as if they were implemented in Flask itself.
 
 ## Features
--   Contains development server and debugger
--   Integrated support for unit testing
--   RESTful request dispatching
--   Uses Jinja2 templating
--   Support for secure cookies
--   100% WSGI 1.0 compliant
--   Unicode-based
--   Google App Engine compatibility
 
-<https://stxnext.com/blog/2018/09/27/beginners-introduction-python-frameworks
+- Contains development server and debugger
+- Integrated support for unit testing
+- RESTful request dispatching
+- Uses Jinja2 templating
+- Support for secure cookies
+- 100% WSGI 1.0 compliant
+- Unicode-based
+- Google App Engine compatibility
+
+<https://stxnext.com/blog/2018/09/27/beginners-introduction-python-frameworks>
 
 ## Request
 
 request.dataContains the incoming request data as string in case it came with a mimetype Flask does not handle.
--   [request.args](https://flask.palletsprojects.com/api/#flask.Request.args): the key/value pairs in the URL query string
--   [request.form](https://flask.palletsprojects.com/api/#flask.Request.form): the key/value pairs in the body, from a HTML post form, or JavaScript request that isn't JSON encoded
--   [request.files](https://flask.palletsprojects.com/api/#flask.Request.files): the files in the body, which Flask keeps separate fromform. HTML forms must useenctype=multipart/form-dataor files will not be uploaded.
--   [request.values](https://flask.palletsprojects.com/api/#flask.Request.values): combinedargsandform, preferringargsif keys overlap
--   [request.json](https://flask.palletsprojects.com/api/#flask.Request.json): parsed JSON data. The request must have theapplication/jsoncontent type, or use[request.get_json(force=True)](https://flask.palletsprojects.com/api/#flask.Request.get_json)to ignore the content type.
--   request.data
--   request.__dict__ (type - dict)
--   request.headers (type - dict)
--   request.headers.get('device_id')
+
+- [request.args](https://flask.palletsprojects.com/api/#flask.Request.args): the key/value pairs in the URL query string
+- [request.form](https://flask.palletsprojects.com/api/#flask.Request.form): the key/value pairs in the body, from a HTML post form, or JavaScript request that isn't JSON encoded
+- [request.files](https://flask.palletsprojects.com/api/#flask.Request.files): the files in the body, which Flask keeps separate fromform. HTML forms must useenctype=multipart/form-dataor files will not be uploaded.
+- [request.values](https://flask.palletsprojects.com/api/#flask.Request.values): combinedargsandform, preferringargsif keys overlap
+- [request.json](https://flask.palletsprojects.com/api/#flask.Request.json): parsed JSON data. The request must have theapplication/jsoncontent type, or use[request.get_json(force=True)](https://flask.palletsprojects.com/api/#flask.Request.get_json)to ignore the content type.
+- request.data
+- request.__dict__ (type - dict)
+- request.headers (type - dict)
+- request.headers.get('device_id')
 
 All of these are[MultiDict](https://werkzeug.palletsprojects.com/datastructures/#werkzeug.datastructures.MultiDict)instances (except forjson). You can access values using:
--   request.form['name']: use indexing if you know the key exists
--   request.form.get('name'): usegetif the key might not exist
--   request.form.getlist('name'): usegetlistif the key is sent multiple times and you want a list of values.getonly returns the first value.
+
+- request.form['name']: use indexing if you know the key exists
+- request.form.get('name'): usegetif the key might not exist
+- request.form.getlist('name'): usegetlistif the key is sent multiple times and you want a list of values.getonly returns the first value.
 
 <https://stackoverflow.com/questions/10434599/get-the-data-received-in-a-flask-request>
 
@@ -256,9 +259,9 @@ if not job.result:
 
 ## abort(
 
-## 404,
+## 404
 
-## description=f"No result found for job_id {job.id}. Try checking the job's status.",
+## description=f"No result found for job_id {job.id}. Try checking the job's status."
 
 ## )
 
@@ -328,7 +331,7 @@ def redirect_example():
 
 return redirect(url_for('home')) @ sends user to /home
 
-#set cookie
+# set cookie
 
 @app.route('/')
 
@@ -346,7 +349,7 @@ import session
 
 app.config['SECRET_KEY'] = 'any random string' #must be set to use sessions
 
-#set session
+# set session
 
 @app.route('/login_success')
 
@@ -356,7 +359,7 @@ session['key_name'] = 'key_value' #stores a secure cookie in browser
 
 return redirect(url_for('index'))
 
-#read session
+# read session
 
 @app.route('/')
 
@@ -368,7 +371,7 @@ session_var = session['key_value']
 
 else:
 
-#session does not exist
+# session does not exist
 
 @app.before_first_request
 def _run_on_start(a_string):
@@ -408,45 +411,45 @@ to_python()is used to convert the path in the URL to a Python object that will b
 
 ## Debugging
 
-<https://blog.theodo.com/2020/05/debug-flask-vscode
+<https://blog.theodo.com/2020/05/debug-flask-vscode>
 
 ## Flask Extensions / Libraries / Plugins
 
-## Flask-admin - <https://flask-admin.readthedocs.io/en/latest
+## Flask-admin - <https://flask-admin.readthedocs.io/en/latest>
 
 <https://www.youtube.com/watch?v=ysdShEL1HMM>
 
 ## Flask-blueprint
 
-<https://flask.palletsprojects.com/en/1.1.x/blueprints
+<https://flask.palletsprojects.com/en/1.1.x/blueprints>
 
-<https://realpython.com/flask-blueprint
+<https://realpython.com/flask-blueprint>
 
 ## Rest Libraries
 
 ## Flask-Restful - <https://github.com/flask-restful/flask-restful>
 
-## Flask-restplus (DEAD) - <https://flask-restplus.readthedocs.io/en/stable
+## Flask-restplus (DEAD) - <https://flask-restplus.readthedocs.io/en/stable>
 
 <https://medium.com/@preslavrachev/designing-well-structured-rest-apis-with-flask-restplus-part-1-7e96f2da8850>
 
-## Flask-Marshmallow - <https://flask-marshmallow.readthedocs.io/en/latest
+## Flask-Marshmallow - <https://flask-marshmallow.readthedocs.io/en/latest>
 
 <https://www.youtube.com/watch?v=Gl-5m1_eVjI>
 
-## Flask-WTF - <https://flask-wtf.readthedocs.io/en/stable
+## Flask-WTF - <https://flask-wtf.readthedocs.io/en/stable>
 
 ## Security / Auth
 
-## Flask-security - <https://pythonhosted.org/Flask-Security
+## Flask-security - <https://pythonhosted.org/Flask-Security>
 
 Flask-Security allows you to quickly add common security mechanisms to your Flask application.
 
-## Flask-login - <https://flask-login.readthedocs.io/en/latest
+## Flask-login - <https://flask-login.readthedocs.io/en/latest>
 
 ## Flask-Login - <https://github.com/maxcountryman/flask-login>
 
-## Flask Praetorian - <https://flask-praetorian.readthedocs.io/en/latest
+## Flask Praetorian - <https://flask-praetorian.readthedocs.io/en/latest>
 
 This extesion offers a batteries-included approach to security for your API.
 
@@ -454,21 +457,21 @@ This extesion offers a batteries-included approach to security for your API.
 
 ## Flask-User - <https://github.com/lingthio/Flask-User>
 
-[**https://flask-oidc.readthedocs.io/en/latest/**](https://flask-oidc.readthedocs.io/en/latest/)
+[__https://flask-oidc.readthedocs.io/en/latest/__](https://flask-oidc.readthedocs.io/en/latest/)
 
 ## Databases
 
 ## Flask-SQLAlchemy - <https://github.com/pallets/flask-sqlalchemy>
 
-[**https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4**](https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4)
+[__https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4__](https://towardsdatascience.com/use-flask-and-sqlalchemy-not-flask-sqlalchemy-5a64fafe22a4)
 
-## geo-alchemy2 - <https://geoalchemy-2.readthedocs.io/en/latest
+## geo-alchemy2 - <https://geoalchemy-2.readthedocs.io/en/latest>
 
 ## Flask-PyMongo - <https://github.com/dcrosta/flask-pymongo>
 
-## Flask-mail - <https://pythonhosted.org/Flask-Mail
+## Flask-mail - <https://pythonhosted.org/Flask-Mail>
 
-## Flask-principal - <https://pythonhosted.org/Flask-Principal
+## Flask-principal - <https://pythonhosted.org/Flask-Principal>
 
 ## Flask-sslify - <https://github.com/kennethreitz-archive/flask-sslify>
 
@@ -476,11 +479,11 @@ This extesion offers a batteries-included approach to security for your API.
 
 Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It's the "Command Line Interface Creation Kit". It's highly configurable but comes with sensible defaults out of the box.
 
-<https://click.palletsprojects.com/en/7.x
+<https://click.palletsprojects.com/en/7.x>
 
 ## Flask-Uploads - <https://github.com/maxcountryman/flask-uploads>
 
-## Flask-Caching - <https://flask-caching.readthedocs.io/en/latest
+## Flask-Caching - <https://flask-caching.readthedocs.io/en/latest>
 
 <https://www.youtube.com/watch?v=iO0sL6Vyfps>
 
@@ -618,4 +621,4 @@ time.sleep(5)
 
 ## Resources
 
-<https://www.freecodecamp.org/news/learn-the-flask-python-web-framework-by-building-a-market-platform
+<https://www.freecodecamp.org/news/learn-the-flask-python-web-framework-by-building-a-market-platform>

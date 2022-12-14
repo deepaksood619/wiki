@@ -7,7 +7,8 @@ Modified: 2018-05-22 19:28:49 +0500
 ---
 
 ## Properties of MST
--   Always have V-1 edges for a graph of V vertices
+
+- Always have V-1 edges for a graph of V vertices
 
 ![image](media/Minimum-Spanning-Tree-image1.png)
 
@@ -47,8 +48,8 @@ Modified: 2018-05-22 19:28:49 +0500
 
 ## Implementations
 
-1.  Kruskal's Algorithm
+1. Kruskal's Algorithm
 
-2.  Prim's Algorithm
+2. Prim's Algorithm
 
-3.  Boruvka's Algorithm
+3. Boruvka's Algorithm

@@ -8,19 +8,19 @@ Modified: 2021-12-05 02:55:13 +0500
 
 ## Creating a new account
 
-1.  Signup
+1. Signup
 
-2.  Create admin group
+2. Create admin group
 
-3.  Create account alias
+3. Create account alias
 
-4.  Transfer billing account to admin group users
+4. Transfer billing account to admin group users
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html>
 
-5.  Never use your root credentials again
+5. Never use your root credentials again
 
-6.  Create billing alarms
+6. Create billing alarms
 
 <https://medium.com/@harrietty/setting-up-your-aws-account-the-right-way-dfa9a6b5cfbb>
 
@@ -71,10 +71,12 @@ To use an IdP, you create an IAM identity provider entity to establish a trust r
 ## Security Groups
 
 ## Cluster security group
--   It is designed to allow all traffic from the control plane and managed node groups to flow freely between each other
+
+- It is designed to allow all traffic from the control plane and managed node groups to flow freely between each other
 
 ## Node security group
--   It is designed to allow traffic between worker nodes, or allowing a service like rds, redshift
+
+- It is designed to allow traffic between worker nodes, or allowing a service like rds, redshift
 
 ## AWS Data Migration Service (DMS)
 
@@ -83,19 +85,22 @@ AWS Database Migration Service (AWS DMS) is a cloud service that makes it easy t
 With AWS DMS, you can perform one-time migrations, and you can replicate ongoing changes to keep sources and targets in sync. If you want to change database engines, you can use the AWS Schema Conversion Tool (AWS SCT) to translate your database schema to the new platform. You then use AWS DMS to migrate the data. Because AWS DMS is a part of the AWS Cloud, you get the cost efficiency, speed to market, security, and flexibility that AWS services offer.
 
 A task can consist of three major phases
--   The full load of existing data
--   The application of cached changes
--   Ongoing replication
+
+- The full load of existing data
+- The application of cached changes
+- Ongoing replication
 
 ## Components
--   Replication instance
--   Endpoint
--   Replication tasks
+
+- Replication instance
+- Endpoint
+- Replication tasks
 
 ## Migration Types
--   Full load (Migrate existing data) -- If you can afford an outage long enough to copy your existing data, this option is a good one to choose. This option simply migrates the data from your source database to your target database, creating tables when necessary.
--   Full load + CDC (Migrate existing data and replicate ongoing changes) -- This option performs a full data load while capturing changes on the source. After the full load is complete, captured changes are applied to the target. Eventually, the application of changes reaches a steady state. At this point, you can shut down your applications, let the remaining changes flow through to the target, and then restart your applications pointing at the target.
--   CDC only (Replicate data changes only) -- In some situations, it might be more efficient to copy existing data using a method other than AWS DMS. For example, in a homogeneous migration, using native export and import tools might be more efficient at loading bulk data. In this situation, you can use AWS DMS to replicate changes starting when you start your bulk load to bring and keep your source and target databases in sync.
+
+- Full load (Migrate existing data) -- If you can afford an outage long enough to copy your existing data, this option is a good one to choose. This option simply migrates the data from your source database to your target database, creating tables when necessary.
+- Full load + CDC (Migrate existing data and replicate ongoing changes) -- This option performs a full data load while capturing changes on the source. After the full load is complete, captured changes are applied to the target. Eventually, the application of changes reaches a steady state. At this point, you can shut down your applications, let the remaining changes flow through to the target, and then restart your applications pointing at the target.
+- CDC only (Replicate data changes only) -- In some situations, it might be more efficient to copy existing data using a method other than AWS DMS. For example, in a homogeneous migration, using native export and import tools might be more efficient at loading bulk data. In this situation, you can use AWS DMS to replicate changes starting when you start your bulk load to bring and keep your source and target databases in sync.
 
 <https://docs.aws.amazon.com/dms/latest/userguide/CHAP_Introduction.HighLevelView.html>
 
@@ -161,4 +166,4 @@ All data transfer into AWS Database Migration Service is free, and data transfer
 |----------|---------|
 | c5.large | $0.154 |
 
-<https://hevodata.com/blog/aurora-to-redshift-data-migration-using-aws-dms
+<https://hevodata.com/blog/aurora-to-redshift-data-migration-using-aws-dms>

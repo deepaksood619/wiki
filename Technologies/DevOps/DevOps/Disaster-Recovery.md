@@ -16,7 +16,7 @@ The acceptable amount of data loss measured in time. For example, if a disaster 
 
 ## PITR - Point In Time Recovery
 
-## Point-in-time recovery**(**PITR) in the context of[computers](https://en.wikipedia.org/wiki/Computer)involves systems whereby an administrator can restore or recover a set of data or a particular setting from a time in the past.
+## Point-in-time recovery**(**PITR) in the context of[computers](https://en.wikipedia.org/wiki/Computer)involves systems whereby an administrator can restore or recover a set of data or a particular setting from a time in the past
 
 ## Question
 
@@ -32,7 +32,7 @@ Option C. Take hourly DB backups to EC2 instance store volumes with transaction 
 
 ![Backup & Restore RPO / RTO: Hours • Lower priority use cases • Provision all AWS resources after event • Restore backups after event • Cost $ Figure 1. DR strategies active/passive Pilot Light RPO / RTO: IOS of minutes • Data live • Services idle • Provision some AWS resources and scale after event • Cost: $$ Warm standby RPO / RTO: Minutes • Always running, but smaller • Business critical • Scale AWS resources after event • cost $$$ Multi-site active/active RPO / RTO: Real-time • Zero downtime • Near zero data loss • Mission Critical Services • cost $$$$ ](../../media/DevOps-DevOps-Disaster-Recovery-image1.jpeg)
 
-<https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby
+<https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby>
 
 ## Solution
 
@@ -63,11 +63,13 @@ These servers can be running on a minimum-sized fleet of Amazon EC2 instances on
 In a disaster, the system is scaled up quickly to handle the production load. In AWS, this can be done by adding more instances to the load balancer and by resizing the small capacity servers to run on larger Amazon EC2 instance typ es. As stated in the preceding section, horizontal scaling is preferred over vertical scaling.
 
 ## Replication of Data
+
 When you replicate data to a remote location, you should consider these factors:
--   Distance between the sites --- Larger distances typically are subject to more latency or jitter.
--   Available bandwidth --- The breadth and variability of the interconnections.
--   Data rate required by your application --- The data rate should be lower than the available bandwidth.
--   Replication technology --- The replication technology should be parallel (so that it can use the network
+
+- Distance between the sites --- Larger distances typically are subject to more latency or jitter.
+- Available bandwidth --- The breadth and variability of the interconnections.
+- Data rate required by your application --- The data rate should be lower than the available bandwidth.
+- Replication technology --- The replication technology should be parallel (so that it can use the network
     effectively).
 
 There are two main approaches for replicating data: synchronous and asynchronous.
@@ -77,13 +79,15 @@ There are two main approaches for replicating data: synchronous and asynchronous
 ## Valero
 
 Velero (formerly Heptio Ark) gives you tools to back up and restore your Kubernetes cluster resources and persistent volumes. You can run Velero with a public cloud platform or on-premises. Velero lets you:
--   Take backups of your cluster and restore in case of loss.
--   Migrate cluster resources to other clusters.
--   Replicate your production cluster to development and testing clusters.
+
+- Take backups of your cluster and restore in case of loss.
+- Migrate cluster resources to other clusters.
+- Replicate your production cluster to development and testing clusters.
 
 Velero consists of:
--   A server that runs on your cluster
--   A command-line client that runs locally
+
+- A server that runs on your cluster
+- A command-line client that runs locally
 
 <https://github.com/vmware-tanzu/velero>
 
@@ -92,14 +96,15 @@ Velero consists of:
 A framework for data management in Kubernetes. It allows domain experts to define application-specific data management workflows through Kubernetes API extensions. Kanister makes it easy to integrate your application's data with your storage infrastructure.
 
 ## Features
--   Tasks Execute Anywhere:Exec into running containers or spin up new ones.
--   Object Storage:Efficiently and securely transfer data between your app and Object Storage using Restic.
--   Block Storage:Backup, restore, and copy data using your storage's APIs.
--   Kubernetes Workload Integration:Easily perform common workload operations like scaling up/down, acting on all mounted PVCs and many more.
--   Application Centric:A single Blueprint handles workflows for every instance of your app.
--   Kubernetes Native APIs:APIs built using CRDs that play nicely with the Kubernetes ecosystem.
--   Secured by RBAC:Prevent unauthorized access to your workflows using RBAC.
--   Reporting:Watching, logging and eventing let you know the impact of your workflows.
+
+- Tasks Execute Anywhere:Exec into running containers or spin up new ones.
+- Object Storage:Efficiently and securely transfer data between your app and Object Storage using Restic.
+- Block Storage:Backup, restore, and copy data using your storage's APIs.
+- Kubernetes Workload Integration:Easily perform common workload operations like scaling up/down, acting on all mounted PVCs and many more.
+- Application Centric:A single Blueprint handles workflows for every instance of your app.
+- Kubernetes Native APIs:APIs built using CRDs that play nicely with the Kubernetes ecosystem.
+- Secured by RBAC:Prevent unauthorized access to your workflows using RBAC.
+- Reporting:Watching, logging and eventing let you know the impact of your workflows.
 
 <https://github.com/kanisterio/kanister>
 

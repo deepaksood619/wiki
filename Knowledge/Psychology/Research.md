@@ -20,15 +20,15 @@ Typically information is defined in terms of data, knowledge in terms of informa
 
 ## Fact Checking
 
-1.  Who's behind this information?
+1. Who's behind this information?
 
-2.  What is the evidence for their claims?
+2. What is the evidence for their claims?
 
-3.  What do other sources say about the organization and its claims?
+3. What do other sources say about the organization and its claims?
 
-<https://www.freecodecamp.org/news/building-a-habit-of-reading-research-papers
+<https://www.freecodecamp.org/news/building-a-habit-of-reading-research-papers>
 
-<https://www.userinterviews.com
+<https://www.userinterviews.com>
 
 ## Cross-sectional study
 

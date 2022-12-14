@@ -19,9 +19,10 @@ Here is an example that helps to better explain this algorithm:
 ![](media/Breadth-First-Search-(BFS)-image2.png)
 
 So we traverse level by level. In this example, the result is 1--2--5--3--4--6--7.
--   Level/Depth 0: only node with value 1
--   Level/Depth 1: nodes with values 2 and 5
--   Level/Depth 2: nodes with values 3, 4, 6, and 7
+
+- Level/Depth 0: only node with value 1
+- Level/Depth 1: nodes with values 2 and 5
+- Level/Depth 2: nodes with values 3, 4, 6, and 7
 
 Now let's code it.
 
@@ -41,28 +42,25 @@ To implement a BFS algorithm, we use the queue data structure to help.
 
 ![](media/Breadth-First-Search-(BFS)-image3.png)
 
-1.  First add the root node into the queue with the put method.
+1. First add the root node into the queue with the put method.
 
-2.  Iterate while the queue is not empty.
+2. Iterate while the queue is not empty.
 
-3.  Get the first node in the queue, and then print its value.
+3. Get the first node in the queue, and then print its value.
 
-4.  Add both left and right children into the queue (if the current nodehas children).
+4. Add both left and right children into the queue (if the current nodehas children).
 
-5.  Done. We will print the value of each node, level by level, with our queuehelper.
-
-
+5. Done. We will print the value of each node, level by level, with our queuehelper.
 
 Other Way -
 
 Can color the vertices of the graph using 3 color, white, gray and black
--   White - Initialized / Undiscovered Vetex
--   Gray - Initially discovered
--   Black - Completely Explored
+
+- White - Initialized / Undiscovered Vetex
+- Gray - Initially discovered
+- Black - Completely Explored
 
 This means that once a vetex is colored black, it has no white vertices adjacent to it.
-
-
 
 ![image](media/Breadth-First-Search-(BFS)-image4.png)
 
@@ -70,6 +68,6 @@ This means that once a vetex is colored black, it has no white vertices adjacent
 
 Properties -
 
-1.  BFS computes shortest paths (fewest number of edges) from s to all other vertices in a graph in time proportional to E + V.
+1. BFS computes shortest paths (fewest number of edges) from s to all other vertices in a graph in time proportional to E + V.
 
 ![image](media/Breadth-First-Search-(BFS)-image6.png)

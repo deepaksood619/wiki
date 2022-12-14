@@ -6,7 +6,7 @@ Modified: 2022-02-07 20:39:51 +0500
 
 ---
 
-1.  Masoor daal
+1. Masoor daal
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image1.png)
 
@@ -14,7 +14,7 @@ Masoor is probably the most commonly used daal ([lentil](https://www.thespruceea
 
 It does not need soaking prior to cooking as it is a "soft" daal and cooks quickly.
 
-2.  Saabut masoor daal
+2. Saabut masoor daal
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image2.png)
 
@@ -22,7 +22,7 @@ Saabutmasoor, means whole and the brownish skin is left on in this type of masoo
 
 It can be used in all the same dishes as masoor daal (split and skin removed). Saabut masoor takes slightly longer to cook than masoor daal.
 
-3.  Saabut moong daal
+3. Saabut moong daal
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image3.png)
 
@@ -30,7 +30,7 @@ Saabut moong daal,is whole moong or moong with the green skin left on. It cooks 
 
 Mix a handful of sprouted Saabut moong daal in a bowl of yogurt, season with salt and somechaat masala(available at most Indian grocery stores) and you'll have a delicious and filling snack.
 
-4.  Moong daal
+4. Moong daal
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image4.png)
 
@@ -38,7 +38,7 @@ Moongdaal, has had its olive green skin removed and is split. It is a golden yel
 
 Moong does not need soaking prior to being cooked as it is a "soft" daal.
 
-5.  Toor/Tuvar or Arhar daal
+5. Toor/Tuvar or Arhar daal
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image5.png)
 
@@ -46,11 +46,11 @@ Toor/tuvarorarhardaal, is most commonly sold and cooked in its split, skinless f
 
 Toor daal looks a lot likechana daalbut has smaller, more yellow-colored grains. It is especially popular in thewest and south India. It cooks quickly and does not require soaking in advance.
 
-6.  Sabut urad
+6. Sabut urad
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image6.jpg)
 
-7.  Split urad with skin
+7. Split urad with skin
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image7.png)
 
@@ -58,7 +58,7 @@ Urad daal, can be bought whole with its skin on, split with its skin on or split
 
 This[black lentil](https://www.thespruceeats.com/what-are-lentils-1328630)has a creamy white interior when split. Whole and with its skin on, it is known assaabuturadand has a stronger, more distinct flavor than the split, skinless variety. It is a "harder" lentil and takes longer to cook. A little soaking is best prior to ​cooking this daal.
 
-8.  Urad daal with skin removed
+8. Urad daal with skin removed
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image8.png)
 
@@ -66,7 +66,7 @@ Urad daal, has had its black skin removed. It is creamy white in color and has a
 
 Skinless Urad does not need soaking before it is cooked. It is often ground into flour or a paste and used as part of batters.
 
-9.  Kabuli chana
+9. Kabuli chana
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image9.png)
 
@@ -95,12 +95,12 @@ Rajma must be soaked for several hours before cooking to soften it. As with all 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image12.jpg)
 
 ## Types
--   **Black chickpeas (Bengal gram) / garbanzo beans:**These chickpeas come from India where they are sun-dried until they turn a deep rust color. Like regular chickpeas, they have a deep, earthy aroma and a nutty flavor. Black chickpeas can be found in Indian markets and specialty food shops.
+
+- **Black chickpeas (Bengal gram) / garbanzo beans:**These chickpeas come from India where they are sun-dried until they turn a deep rust color. Like regular chickpeas, they have a deep, earthy aroma and a nutty flavor. Black chickpeas can be found in Indian markets and specialty food shops.
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image13.png)
 
-
--   **Chana dal:**These small split desi chickpeas are sold in Indian stores and look very much like yellow split peas. Chana dal have a sweet, nutty taste. In India, chana dal are used to make chickpea flour, while in the United States, the larger kabuli chick-peas are used for flour. Chana dal can be found in Indian stores and some specialty food shops.
+- **Chana dal:**These small split desi chickpeas are sold in Indian stores and look very much like yellow split peas. Chana dal have a sweet, nutty taste. In India, chana dal are used to make chickpea flour, while in the United States, the larger kabuli chick-peas are used for flour. Chana dal can be found in Indian stores and some specialty food shops.
 
 Chana daal, looks like a larger version of toor/tuvar or arhar daal. It is made by splitting a smaller cousin of the chickpea.
 
@@ -108,14 +108,12 @@ This[lentil](https://www.thespruceeats.com/history-of-lentils-1807624)has a nutt
 
 ![](media/Nutrition_Pulses---Daal---Lentils-image14.png)
 
-
--   **Chickpea shoots:** These feathery shoots of the chickpea plant are excellent in salads. Like fresh green chickpeas, they can occasionally be found in local farmers' markets.
+- **Chickpea shoots:** These feathery shoots of the chickpea plant are excellent in salads. Like fresh green chickpeas, they can occasionally be found in local farmers' markets.
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image15.png)
 
-
--   **Chickpea flour:**Chickpea flour has a rich culinary tradition in Indian cuisine, where it is known as**besanorchana**and is used in pancakes, stews, and curries. It is popular as well in Italian cuisine where**farina di ceci(chickpea flour)** is used to make pasta and a polenta-like dish. Chickpeas are also used in some blended flours, such as**garfava flour**,a combination of chickpeas and fava beans, and**dhokra flour**,a combination of rice, lentils, and chickpeas.
--   **Green chickpeas:**Fresh and sweet, like green peas, these are young, tender, fresh chickpeas. They are predominantly found in local farmers' markets.
+- **Chickpea flour:**Chickpea flour has a rich culinary tradition in Indian cuisine, where it is known as**besanorchana**and is used in pancakes, stews, and curries. It is popular as well in Italian cuisine where**farina di ceci(chickpea flour)** is used to make pasta and a polenta-like dish. Chickpeas are also used in some blended flours, such as**garfava flour**,a combination of chickpeas and fava beans, and**dhokra flour**,a combination of rice, lentils, and chickpeas.
+- **Green chickpeas:**Fresh and sweet, like green peas, these are young, tender, fresh chickpeas. They are predominantly found in local farmers' markets.
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image16.jpg)
 
@@ -129,39 +127,37 @@ Just 1 cup of cooked daal can give you as much as 62 percent of your daily dieta
 
 <https://www.thespruceeats.com/a-photo-gallery-of-indian-daals-and-beans-4121903>
 
-<https://myheartbeets.com/different-types-of-indian-dals-legumes-lentils-beans-pulses
+<https://myheartbeets.com/different-types-of-indian-dals-legumes-lentils-beans-pulses>
 
 ## Sproutes / Seeds
 
 ## Sprouted grains
 
-1.  Radish
+1. Radish
 
-2.  Mustard
+2. Mustard
 
-3.  Alfalfa
+3. Alfalfa
 
-4.  clover
+4. clover
 
-5.  lentil / masoor
+5. lentil / masoor
 
-6.  **pea / matar / kala chana**
+6. **pea / matar / kala chana**
 
-7.  wheat
+7. wheat
 
-8.  **mung / Green gram / Sabut moong**
+8. **mung / Green gram / Sabut moong**
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image18.jpg)
 
-
-
 ![image](media/Nutrition_Pulses---Daal---Lentils-image19.jpg)
 
-<https://wholefully.com/sprouting-101
+<https://wholefully.com/sprouting-101>
 
 ## Grains
 
-1.  **Semolina / Sooji**
+1. **Semolina / Sooji**
 
 Semolinais the coarse, purified[wheat middlings](https://en.wikipedia.org/wiki/Wheat_middlings)of[durum wheat](https://en.wikipedia.org/wiki/Durum)mainly used in making [upma](https://en.wikipedia.org/wiki/Upma), [pasta](https://en.wikipedia.org/wiki/Pasta), and [couscous](https://en.wikipedia.org/wiki/Couscous). The wordsemolinacan also refer to sweet dessert made from semolina and milk.The term semolina is also used to designate coarse middlings from other varieties of wheat, and from other grains, such as[rice](https://en.wikipedia.org/wiki/Rice)and[maize](https://en.wikipedia.org/wiki/Maize).
 
@@ -169,7 +165,7 @@ Semolinais the coarse, purified[wheat middlings](https://en.wikipedia.org/wiki/W
 
 <https://en.wikipedia.org/wiki/Semolina>
 
-2.  **Durum Wheat**
+2. **Durum Wheat**
 
 Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), also calledpasta wheatormacaroni wheat(Triticum durum or Triticum turgidum subsp.duru),is a[tetraploid](https://en.wikipedia.org/wiki/Polyploid)species of[wheat](https://en.wikipedia.org/wiki/Wheat).It is the second most cultivated species of wheat after[common wheat](https://en.wikipedia.org/wiki/Common_wheat), although it represents only 5% to 8% of global wheat production.It was developed by[artificial selection](https://en.wikipedia.org/wiki/Artificial_selection)of the domesticated[emmer](https://en.wikipedia.org/wiki/Emmer)wheat strains formerly grown in Central Europe and the[Near East](https://en.wikipedia.org/wiki/Near_East)around 7000 BC, which developed a naked,[free-threshing](https://en.wikipedia.org/wiki/Wheat#Hulled_versus_free-threshing_wheat)form.Like emmer, durum wheat is[awned](https://en.wikipedia.org/wiki/Awn_(botany))(with bristles). It is the predominant wheat that grows in the Middle East.
 
@@ -179,7 +175,7 @@ Durumin[Latin](https://en.wikipedia.org/wiki/Latin)means "hard", and the species
 
 <https://en.wikipedia.org/wiki/Durum>
 
-3.  **Buckwheat / kuttu ka atta**
+3. **Buckwheat / kuttu ka atta**
 
 Buckwheat(Fagopyrum esculentum), orcommon buckwheat,[[2]](https://en.wikipedia.org/wiki/Buckwheat#cite_note-GRIN-2)is a plant cultivated for its[grain-like](https://en.wikipedia.org/wiki/Pseudocereal)seeds and as a[cover crop](https://en.wikipedia.org/wiki/Cover_crop). A related species,[Fagopyrum tataricum](https://en.wikipedia.org/wiki/Fagopyrum_tataricum), is a domesticated food plant raised in Asia. Despite the name, buckwheat is not related to[wheat](https://en.wikipedia.org/wiki/Wheat), as it is not a[grass](https://en.wikipedia.org/wiki/Grasses). Instead, buckwheat is related to[sorrel](https://en.wikipedia.org/wiki/Sorrel),[knotweed](https://en.wikipedia.org/wiki/Polygonum), and[rhubarb](https://en.wikipedia.org/wiki/Rhubarb). Buckwheat is referred to as a[pseudocereal](https://en.wikipedia.org/wiki/Pseudocereal)because its seeds' culinary use is the same as cereals', owing to their composition of[complex carbohydrates](https://en.wikipedia.org/wiki/Complex_carbohydrates).
 
@@ -187,7 +183,7 @@ Buckwheat(Fagopyrum esculentum), orcommon buckwheat,[[2]](https://en.wikipedia.o
 
 <https://en.wikipedia.org/wiki/Buckwheat>
 
-4.  **Millet**
+4. **Millet**
 
 Milletsare a group of highly variable small-seeded[grasses](https://en.wikipedia.org/wiki/Grasses), widely grown around the world as[cereal](https://en.wikipedia.org/wiki/Cereal)[crops](https://en.wikipedia.org/wiki/Crops)or grains for[fodder](https://en.wikipedia.org/wiki/Fodder)and human food.
 
@@ -215,9 +211,9 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 
 <https://en.wikipedia.org/wiki/Millet>
 
-<https://www.wellcurve.in/blog/different-types-of-millets
+<https://www.wellcurve.in/blog/different-types-of-millets>
 
-<https://pristineorganics.com/millet-ancient-grains-for-a-healthier-future
+<https://pristineorganics.com/millet-ancient-grains-for-a-healthier-future>
 
 ## Other Grains (Gluten Free)
 
@@ -236,7 +232,7 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 
 Corn is mainly used in North America, however in the UK and other parts of the world,maize is more commonlyused. ... For example, corn is most commonly used when referring to food items, such as popcorn, whereas maize is less commonly used to describe these foods, even though it comes from the same crop.
 
-## Cornflour and corn flour (two words) are different things.
+## Cornflour and corn flour (two words) are different things
 
 The later one you asked, is makai ka ata which we get from whole kernel. Often known as maize flour and can be used for making roti's and tortilla.
 
@@ -246,19 +242,19 @@ Cornflour is starch which gets from endosperm portion of kernel and used as bind
 
 ## Gluten Free Flours
 
-1.  Almond flour
+1. Almond flour
 
-2.  Arrowroot flour
+2. Arrowroot flour
 
-3.  Chickpea flour
+3. Chickpea flour
 
-4.  Cononut flour
+4. Cononut flour
 
-5.  Tapiaco flour
+5. Tapiaco flour
 
-6.  Cassava flour
+6. Cassava flour
 
-7.  Tigernut flour
+7. Tigernut flour
 
 [https://www.healthline.com/nutrition/gluten-free-flours](https://www.healthline.com/nutrition/gluten-free-flours#section15)
 
@@ -278,27 +274,27 @@ Cornflour is starch which gets from endosperm portion of kernel and used as bind
 
 ## Cloth Fibers / Textiles
 
-1.  Cotton
+1. Cotton
 
-2.  Linen
+2. Linen
 
-3.  Hemp
+3. Hemp
 
-4.  Polyester
+4. Polyester
 
 Fleece - <https://en.wikipedia.org/wiki/Polar_fleece>
 
 Microfiber - <https://en.wikipedia.org/wiki/Microfiber>
 
-5.  Wool
+5. Wool
 
-6.  Acrylic
+6. Acrylic
 
-7.  Silk
+7. Silk
 
-8.  Nylon
+8. Nylon
 
-9.  Spandex/Elastane/Lycra
+9. Spandex/Elastane/Lycra
 
 10. Rayon
 
@@ -332,6 +328,6 @@ Pilling normally happens on the parts of clothing that receive the most abrasion
 
 Woven fabrics are created on weaving looms. These looms can be 54 inches wide and above. The main difference betweenknit vs wovenfabrics is how they are constructed. Woven fabrics are created using several warps, or longitudinal yarns, and wefts, or latitudinal yarns. Knitting involves interloping or interlacing a single yarn or thread.
 
-<https://www.dutchlabelshop.com/en_us/blog/difference-knit-woven-fabric
+<https://www.dutchlabelshop.com/en_us/blog/difference-knit-woven-fabric>
 
 [Knitted Vs. Woven Fabrics - What's The Difference???](https://www.youtube.com/watch?v=Zg2aJpd_KJg)

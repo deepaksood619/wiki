@@ -35,6 +35,7 @@ group_interval: 5m
 repeat_interval: 12h
 receiver: slack
 routes:
+
 - match_re:
 alertname: ^.*$
 receiver: slack
@@ -48,7 +49,7 @@ text: "{{ range .Alerts }}*Alert:* `{{ .Labels.severity }}` - {{ .Labels.alertna
 
 ## References
 
-<https://prometheus.io/docs/alerting/alertmanager
+<https://prometheus.io/docs/alerting/alertmanager>
 
 <https://prometheus.io/docs/alerting/configuration>
 

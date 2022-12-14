@@ -16,15 +16,15 @@ A request comes in and arrives at the first component - a dedicatedweb server. I
 
 Examples
 
-1.  Nginx
+1. Nginx
 
-2.  Cherokee
+2. Cherokee
 
-3.  Apache HTTP Server
+3. Apache HTTP Server
 
-4.  Apache Tomcat
+4. Apache Tomcat
 
-5.  IIS
+5. IIS
 
 ## Application Server
 
@@ -32,19 +32,19 @@ Theapplication servergets those fancy requests and converts the information from
 
 Examples
 
-1.  Gunicorn
+1. Gunicorn
 
-2.  **uWSGI**
+2. **uWSGI**
 
-3.  Bjoern
+3. Bjoern
 
-4.  CherryPy
+4. CherryPy
 
-5.  Meinheld
+5. Meinheld
 
-6.  mod_WSGI
+6. mod_WSGI
 
-7.  WildFly (JBoss) written in Java
+7. WildFly (JBoss) written in Java
 
 ![server WSGI App ](../../media/DevOps-Others-Servers-image1.png)
 
@@ -65,12 +65,13 @@ Web accelerators may be installed on the client computer or mobile device, on IS
 ## Microsoft IIS (Internet Information Services)
 
 ## Python Application Servers
--   [Bjoern](https://github.com/jonashaag/bjoern)describes itself as a "screamingly fast Python WSGI server" and boasts that is "the fastest, smallest and most lightweight WSGI server." We created[a small application](https://gist.github.com/omedhabib/c3c8ff74ec3993740e80d7235251e73a), using most of the library's defaults.
--   [CherryPy](http://cherrypy.org/)is an extremely popular and stable WSGI framework and server.
--   [Gunicorn](http://gunicorn.org/)was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be twice the number of available of processors, plus one. This was based on a recommendation from Gunicorn's documentation.
--   [Meinheld](http://meinheld.org/)is a "high-performance WSGI-compliant web server" that claims to be lightweight. Based on the example listed on its website, we constructed[this application](https://gist.github.com/omedhabib/d638e213af0f843580e5ca7724005ac6).
--   [mod_wsgi](http://www.modwsgi.org/)is authored by the same creator as mod_python. Like mod_python, it is only available for Apache. However, it includes a tool called "mod_wsgi express" that transparently configures a minimal instance of Apache. we configured and used mod_wsgi-express[with this command](https://gist.github.com/omedhabib/8f0e6f7d0103780d3f6f0f73108a86b2). To be consistent with Gunicorn (and in lieu of any official recommendation), we configured mod_wsgi to create twice as many workers as there are processors.
--   [uWSGI](https://uwsgi-docs.readthedocs.org/en/latest/)is a fully-featured application server. Generally, uWSGI is paired with a reverse proxy (such as Nginx).
+
+- [Bjoern](https://github.com/jonashaag/bjoern)describes itself as a "screamingly fast Python WSGI server" and boasts that is "the fastest, smallest and most lightweight WSGI server." We created[a small application](https://gist.github.com/omedhabib/c3c8ff74ec3993740e80d7235251e73a), using most of the library's defaults.
+- [CherryPy](http://cherrypy.org/)is an extremely popular and stable WSGI framework and server.
+- [Gunicorn](http://gunicorn.org/)was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be twice the number of available of processors, plus one. This was based on a recommendation from Gunicorn's documentation.
+- [Meinheld](http://meinheld.org/)is a "high-performance WSGI-compliant web server" that claims to be lightweight. Based on the example listed on its website, we constructed[this application](https://gist.github.com/omedhabib/d638e213af0f843580e5ca7724005ac6).
+- [mod_wsgi](http://www.modwsgi.org/)is authored by the same creator as mod_python. Like mod_python, it is only available for Apache. However, it includes a tool called "mod_wsgi express" that transparently configures a minimal instance of Apache. we configured and used mod_wsgi-express[with this command](https://gist.github.com/omedhabib/8f0e6f7d0103780d3f6f0f73108a86b2). To be consistent with Gunicorn (and in lieu of any official recommendation), we configured mod_wsgi to create twice as many workers as there are processors.
+- [uWSGI](https://uwsgi-docs.readthedocs.org/en/latest/)is a fully-featured application server. Generally, uWSGI is paired with a reverse proxy (such as Nginx).
 
 ## uWSGI
 
@@ -90,22 +91,24 @@ The "WSGI" part in the name is a tribute to the namesake Python standard, as it 
 
 Versatility, performance, low-resource usage and reliability are the strengths of the project (and the only rules followed).
 
-<https://uwsgi-docs.readthedocs.io/en/latest
+<https://uwsgi-docs.readthedocs.io/en/latest>
 
 ## WSGI (whiz-gee with a hard 'g' or 'whiskey')
 
 Web Server Gateway Interface (WSGI) is a simple calling convention for web servers to forward request to web applications or frameworks written in Python Programming Language.
 
 The WSGI has two sides:
--   the server/gateway side - This is often a full web server as Apache or Nginx, or a lightweight application server that can communicate with a webserver, such as flup
--   the application/framework side - This is a Python callable, supplied by the Python program or framework
+
+- the server/gateway side - This is often a full web server as Apache or Nginx, or a lightweight application server that can communicate with a webserver, such as flup
+- the application/framework side - This is a Python callable, supplied by the Python program or framework
 
 Between the server and the application, there may be one or more WSGI middleware components, which implement both side of the API
 
 ## Why WSGI
--   WSGI servers are designed to handle many requests concurrently. Frameworks are not made to process thousands of requests and determine how to best route them from the server.
--   WSGI speeds up Python web application development because you only need to know basic things about WSGI. If you use TurboGears, Django or CherryPy, you do not need to be concerned about how your particular framework utilizes the WSGI standard. However, you will benefit by understanding how WSGI is implemented.
--   WSGI gives you the[flexibility of changing](https://www.python.org/dev/peps/pep-0333/#rationale-and-goals)web stack components for alternatives without changing the application that runs with WSGI.
+
+- WSGI servers are designed to handle many requests concurrently. Frameworks are not made to process thousands of requests and determine how to best route them from the server.
+- WSGI speeds up Python web application development because you only need to know basic things about WSGI. If you use TurboGears, Django or CherryPy, you do not need to be concerned about how your particular framework utilizes the WSGI standard. However, you will benefit by understanding how WSGI is implemented.
+- WSGI gives you the[flexibility of changing](https://www.python.org/dev/peps/pep-0333/#rationale-and-goals)web stack components for alternatives without changing the application that runs with WSGI.
 
 ## ASGI (Asynchronous Server Gateway Interface)
 
@@ -132,14 +135,16 @@ Its primary goal is to provide a way to write HTTP/2 and WebSocket code alongsid
 ## Overview
 
 ASGI consists of two different components:
--   **Aprotocol server**, which terminates sockets and translates them into connections and per-connection event messages.
--   **Anapplication**, which lives inside aprotocol server, is instantiated once per connection, and handles event messages as they happen.
+
+- **Aprotocol server**, which terminates sockets and translates them into connections and per-connection event messages.
+- **Anapplication**, which lives inside aprotocol server, is instantiated once per connection, and handles event messages as they happen.
 
 Like WSGI, the server hosts the application inside it, and dispatches incoming requests to it in a standardized format. Unlike WSGI, however, applications are instantiated objects that are fed events rather than simple callables, and must run asasyncio-compatible coroutines (on the main thread; they are free to use threading or other processes if they need synchronous code).
 
 Unlike WSGI, there are two separate parts to an ASGI connection:
--   Aconnection scope, which represents a protocol connection to a user and survives until the connection closes.
--   Events, which are sent to the application as things happen on the connection.
+
+- Aconnection scope, which represents a protocol connection to a user and survives until the connection closes.
+- Events, which are sent to the application as things happen on the connection.
 
 Applications are instantiated with a connection scope, and then run in an event loop where they are expected to handle events and send data back to the client.
 
@@ -147,7 +152,7 @@ Each application instance maps to a single incoming "socket" or connection, and 
 
 <https://asgi.readthedocs.io/en/latest/introduction.html>
 
-<https://www.appdynamics.com/blog/engineering/an-introduction-to-python-wsgi-servers-part-1
+<https://www.appdynamics.com/blog/engineering/an-introduction-to-python-wsgi-servers-part-1>
 
 ## Apache vs Nginx
 
@@ -169,7 +174,7 @@ The reason why Apache is considered to be slower than Nginx in most of the cases
 
 Verdict -- Unless you have a website or web application where you need to give non-privilege users certain controls, you should always go for Nginx otherwise.
 
-<https://www.freelancinggig.com/blog/2018/04/25/apache-php-fpm-vs-nginx-php-fpm-performance-considerations
+<https://www.freelancinggig.com/blog/2018/04/25/apache-php-fpm-vs-nginx-php-fpm-performance-considerations>
 
 ## File vs URI-Based Interpretation
 
@@ -203,4 +208,4 @@ This may seem similar, but parsing requests primarily as URIs instead of filesys
 
 Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.
 
-<https://gin-gonic.com
+<https://gin-gonic.com>

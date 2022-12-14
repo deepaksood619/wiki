@@ -18,6 +18,7 @@ Permutations are for lists (order matters) and combinations are for groups (orde
 A joke: A "combination lock" should really be called a "permutation lock". The order you put the numbers in matters. (A true "combination lock" would accept both 10-17-23 and 23-17-10 as correct.)
 
 Combinations sound simpler than permutations, and they are. You have fewer combinations than permutations.
+
 ## References
 
 <https://www.freecodecamp.org/news/permutation-and-combination-the-difference-explained-with-formula-examples>

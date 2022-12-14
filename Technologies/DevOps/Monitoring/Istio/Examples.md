@@ -12,12 +12,14 @@ metadata:
 name: productpage
 spec:
 hosts:
+
 - productpage
 http:
 - route:
 - destination:
 host: productpage
 subset: v1
+
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -25,12 +27,14 @@ metadata:
 name: reviews
 spec:
 hosts:
+
 - reviews
 http:
 - route:
 - destination:
 host: reviews
 subset: v1
+
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -38,12 +42,14 @@ metadata:
 name: ratings
 spec:
 hosts:
+
 - ratings
 http:
 - route:
 - destination:
 host: ratings
 subset: v1
+
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -51,10 +57,12 @@ metadata:
 name: details
 spec:
 hosts:
+
 - details
 http:
 - route:
 - destination:
 host: details
 subset: v1
+
 ---

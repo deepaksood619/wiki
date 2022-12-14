@@ -16,16 +16,17 @@ docker run --rm -ti --name=emqx --net=confluent -p 18083:18083 -p 1883:1883 emqx
 
 ## Dashboard
 
-<http://localhost:18083
+<http://localhost:18083>
 
 ## HTTP API for eMQTT
--   Create an app in dashboard for creating appid and app password
--   Use Basic authentication header for sending HTTP calls
--   <http://emqtt.io/docs/v3/rest.html>
--   Basic Auth: curl -v --basic -u <appid>:<appsecret> -k <http://localhost:8080/api/v3/brokers>
--   List all API: <http://localhost:8080/api/v3
--   POST: <http://localhost:8080/api/v3/mqtt/publish>
-    -   Data:
+
+- Create an app in dashboard for creating appid and app password
+- Use Basic authentication header for sending HTTP calls
+- <http://emqtt.io/docs/v3/rest.html>
+- Basic Auth: curl -v --basic -u <appid>:<appsecret> -k <http://localhost:8080/api/v3/brokers>
+- List all API: <http://localhost:8080/api/v3>
+- POST: <http://localhost:8080/api/v3/mqtt/publish>
+  - Data:
 
 {
 
@@ -237,4 +238,4 @@ auth.username.test = public
 
 ## Others
 
-docker run --net=zenatix-docker -e EMQTT_URL=http://emqx:8080 -e EMQTT_API_USER=admin -e EMQTT_API_PASS=public oxygen0211/emqtt-prometheus-exporter
+docker run --net=zenatix-docker -e EMQTT_URL=<http://emqx:8080> -e EMQTT_API_USER=admin -e EMQTT_API_PASS=public oxygen0211/emqtt-prometheus-exporter

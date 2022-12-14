@@ -7,17 +7,19 @@ Modified: 2022-10-14 15:19:26 +0500
 ---
 
 ## Display
-1.  cat "file" //display a file
-2.  less "file" //display a file a page at a time
-3.  head "file" //display the first few lines of a file
-4.  tail "file" //display the last few lines of a file
-	tail -F <file> #to follow log-rotated files
-5.  head
-6.  less ( spacebar - forward, b - backward, q - quit)
+
+1. cat "file" //display a file
+2. less "file" //display a file a page at a time
+3. head "file" //display the first few lines of a file
+4. tail "file" //display the last few lines of a file
+ tail -F <file> #to follow log-rotated files
+5. head
+6. less ( spacebar - forward, b - backward, q - quit)
 
 ## Copy / Move
-1.  cp "file1" "file2" //copy file1 and call it file2
-2.  mv "file1" "file2" //move or rename file1 to file2
+
+1. cp "file1" "file2" //copy file1 and call it file2
+2. mv "file1" "file2" //move or rename file1 to file2
 
 ## ssh to server
 
@@ -118,92 +120,84 @@ scp /local/dir/ username@remoteHost:/remote/dir/file.txt
 scp -r ubuntu@energy.zenatix.com:/home/ubuntu/sources/zenalytix/media /home/ubuntu/sources/zenalytix/media
 
 ## Grep
--   Search a file for keywords
+
+- Search a file for keywords
 
 grep 'keyword' "file"
 
-
--   Grep regex
+- Grep regex
 
 ls | grep "metrics-[^su]"
 
 ls | grep "metrics-[^su]" | xargs rm -f
 
-
--   This prints 10 lines of trailing context after matching lines
+- This prints 10 lines of trailing context after matching lines
 
 grep -i -A 10 "my_regex" /var/log/syslog
 
-
--   If you need to print 10 lines of leading context before matching lines,
+- If you need to print 10 lines of leading context before matching lines,
 
 grep -i -B 10 "my_regex" /var/log/syslog
 
-
--   And if you need to print 10 lines of leading and trailing output context.
+- And if you need to print 10 lines of leading and trailing output context.
 
 grep -i -C 10 "my_regex" /var/log/syslog
 
-
--   Common Flags
-    -   -c: print a count of matching lines rather than the lines themselves
-    -   -h: donotprint the names of files when searching multiple files
-    -   -i: ignore case (e.g., treat "Regression" and "regression" as matches)
-    -   -l: print the names of files that contain matches, not the matches
-    -   -n: print line numbers for matching lines
-    -   **-v: invert the match**, i.e., only show lines thatdon'tmatch
+- Common Flags
+  - -c: print a count of matching lines rather than the lines themselves
+  - -h: donotprint the names of files when searching multiple files
+  - -i: ignore case (e.g., treat "Regression" and "regression" as matches)
+  - -l: print the names of files that contain matches, not the matches
+  - -n: print line numbers for matching lines
+  - **-v: invert the match**, i.e., only show lines thatdon'tmatch
 
 grep -v "172.18.0.1"
--   -E 'abc|*de': or with regex
+
+- -E 'abc|*de': or with regex
 
 ## Redirection and Pipes
 
 program_command 2>&1 | tee -a outfile.log
 
-
--   command > output.txt
+- command > output.txt
 
 The standard output stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, it gets overwritten.
--   command >> output.txt
+
+- command >> output.txt
 
 The standard output stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
 
-
--   command 2> output.txt
+- command 2> output.txt
 
 The standard error stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, it gets overwritten.
 
-
--   command 2>> output.txt
+- command 2>> output.txt
 
 The standard error stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
 
-
--   command &> output.txt
+- command &> output.txt
 
 Both the standard output and standard error stream will be redirected to the file only, nothing will be visible in the terminal. If the file already exists, it gets overwritten.
--   command &>> output.txt
+
+- command &>> output.txt
 
 Both the standard output and standard error stream will be redirected to the file only, nothing will be visible in the terminal. If the file already exists, the new data will get appended to the end of the file..
 
-
--   command | tee output.txt
+- command | tee output.txt
     The standard output stream will be copied to the file, it will still be visible in the terminal. If the file already exists, it gets overwritten.
--   command | tee -a output.txt
+- command | tee -a output.txt
     The standard output stream will be copied to the file, it will still be visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
 
-
--   command |& tee output.txt
+- command |& tee output.txt
     Both the standard output and standard error streams will be copied to the file while still being visible in the terminal. If the file already exists, it gets overwritten.
--   command |& tee -a output.txt
+- command |& tee -a output.txt
     Both the standard output and standard error streams will be copied to the file while still being visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
 
-
--   "command" < "file" //redirect standard input from a file
--   "command1" | "command2" //pipe the output of command1 to the input of command2
--   cat "file1" "file2" > "file0" //concatenate file1 and file2 to file0
--   sort //sort data
--   who //list users currently logged in
+- "command" < "file" //redirect standard input from a file
+- "command1" | "command2" //pipe the output of command1 to the input of command2
+- cat "file1" "file2" > "file0" //concatenate file1 and file2 to file0
+- sort //sort data
+- who //list users currently logged in
 
 || visible in terminal || visible in file || existing
 Syntax || StdOut | StdErr || StdOut | StdErr || file
@@ -235,11 +229,11 @@ vmq-admin trace client client-id=/Samhi-42 >> trace.log 2>&1 &
 python test_de_script.py de_run_final.csv 2>&1 | tee -a outfile.log
 
 ## Wildcards and Help
--   * //match any number of characters
--   ? //match one character
--   man "command" //read the online manual page for a command
--   whatis "command" //brief description of a command
--   apropos "keyword" //match commands with keyword in their man pages
+  - * //match any number of characters
+- ? //match one character
+- man "command" //read the online manual page for a command
+- whatis "command" //brief description of a command
+- apropos "keyword" //match commands with keyword in their man pages
 
 apropos compress
 
@@ -272,27 +266,31 @@ ls -R #Show contents of directory recursively
 ls -l # long listing format
 
 -rwxrw-r-- 1 root root 2048 Jan 13 07:11 afile.exe
--   file permissions,
--   number of links,
--   owner name,
--   owner group,
--   file size,
--   time of last modification, and
--   file/directory name
+
+- file permissions,
+- number of links,
+- owner name,
+- owner group,
+- file size,
+- time of last modification, and
+- file/directory name
 
 File permissions is displayed as following;
--   first character is-orlord, d indicates a directory, a line represents a file, l is a symlink (or soft link) - special type of file
--   three sets of characters, three times, indicating permissions for owner, group and other:
-    -   r = readable
-    -   w = writable
-    -   x = executable
+
+- first character is-orlord, d indicates a directory, a line represents a file, l is a symlink (or soft link) - special type of file
+- three sets of characters, three times, indicating permissions for owner, group and other:
+  - r = readable
+  - w = writable
+  - x = executable
 
 ## lsof
-## lsof is a command meaning "list open files", which is used in many[Unix-like](https://en.m.wikipedia.org/wiki/Unix-like) systems to report a list of all open files and the processes that opened them.
+
+## lsof is a command meaning "list open files", which is used in many[Unix-like](https://en.m.wikipedia.org/wiki/Unix-like) systems to report a list of all open files and the processes that opened them
 
 Open files in the system include disk files,[named pipes](https://en.wikipedia.org/wiki/Named_pipe), network[sockets](https://en.wikipedia.org/wiki/Internet_socket)and devices opened by all processes. One use for this command is when a disk cannot be unmounted because (unspecified) files are in use. The listing of open files can be consulted (suitably filtered if necessary) to identify the process that is using the files.
 
 ## see open ports
+
 ```
 sudo lsof -i -P -n | grep LISTEN
 sudo lsof -i:22 #see a specific port such as 22
@@ -301,11 +299,10 @@ lsof -a -i -s TCP:SYN_RECV
 ```
 
 ## Count
-	ls -l <folder> | wc -l  (Count number of files in a directory)
-	find . -type f | wc -l  (Count number of files in a directory recursively)
-	wc - l file.txt (lines)
-	wc -w file.txt (words)
-
+ ls -l <folder> | wc -l  (Count number of files in a directory)
+ find . -type f | wc -l  (Count number of files in a directory recursively)
+ wc - l file.txt (lines)
+ wc -w file.txt (words)
 
 ## Head (Show the top 2 lines in the file)
 
@@ -318,9 +315,10 @@ $ tail -n 10 adult.data
 ## Finding duplicates withuniq
 
 With theuniqcommand you can find adjacent repeated lines in a file.uniqtakes several flags, the more useful ones being:
--   uniq -c: which adds the repetition count to each line;
--   uniq -d: which only outputs duplicate lines; And
--   uniq -u: which only outputs unique lines.
+
+- uniq -c: which adds the repetition count to each line;
+- uniq -d: which only outputs duplicate lines; And
+- uniq -u: which only outputs unique lines.
 
 However,uniqis not a smart command. Repeated lines will not be detected if they are not adjacent. Which means that you first need thesortthe file. This command counts the number of duplicated lines inadult.csv.
 
@@ -358,7 +356,7 @@ Here 68 is 'h' in ASCII and 69 is 'i' in ASCII
 
 ## BitBake
 
-## BitBakeis a[make](https://en.wikipedia.org/wiki/Make_(software))-like[build tool](https://en.wikipedia.org/wiki/Build_tool)with the special focus of[distributions](https://en.wikipedia.org/wiki/Linux_distributions)and packages for[embedded Linux](https://en.wikipedia.org/wiki/Embedded_Linux)[cross compilation](https://en.wikipedia.org/wiki/Cross_compilation), although it is not limited to that. It is inspired by[Portage](https://en.wikipedia.org/wiki/Portage_(software)),which is the[package management system](https://en.wikipedia.org/wiki/Package_management_system)used by the[Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_Linux)distribution. BitBake existed for some time in the[OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded)project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the[Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project)and the[OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded)project.
+## BitBakeis a[make](https://en.wikipedia.org/wiki/Make_(software))-like[build tool](https://en.wikipedia.org/wiki/Build_tool)with the special focus of[distributions](https://en.wikipedia.org/wiki/Linux_distributions)and packages for[embedded Linux](https://en.wikipedia.org/wiki/Embedded_Linux)[cross compilation](https://en.wikipedia.org/wiki/Cross_compilation), although it is not limited to that. It is inspired by[Portage](https://en.wikipedia.org/wiki/Portage_(software)),which is the[package management system](https://en.wikipedia.org/wiki/Package_management_system)used by the[Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_Linux)distribution. BitBake existed for some time in the[OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded)project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the[Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project)and the[OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded)project
 
 <https://en.wikipedia.org/wiki/BitBake>
 
@@ -377,7 +375,8 @@ sudo -u telegraf /bin/bash
 whoami
 
 ## Seq command
--   print sequences of number
+
+- print sequences of number
 
 seq [-w] [-f format] [-s string] [-t string] [first [incr]] last
 
@@ -401,7 +400,7 @@ sudo netstat -planet | grep 1883 | wc -l
 
 ## nslookup command
 
-## A network utility program used to obtain information about internet servers.
+## A network utility program used to obtain information about internet servers
 
 nslookup -query=mx google.com #Query Mail Exchanger Record
 
@@ -469,7 +468,7 @@ merge corresponding or subsequent lines of files
 
 *ln test.txt link.txt*
 
-The ln utility creates a new directory entry (linked file) which has the same modes as the original file. It is useful for maintaining multiple copies of a file in many places at once without using up storage for the ``copies''; instead, a link ``points'' to the original copy. There are two types of links; hard links and symbolic links. How a link ``points'' to a file is one of the differences between a hard and symbolic link.
+The ln utility creates a new directory entry (linked file) which has the same modes as the original file. It is useful for maintaining multiple copies of a file in many places at once without using up storage for the ``copies''; instead, a link``points'' to the original copy. There are two types of links; hard links and symbolic links. How a link ``points'' to a file is one of the differences between a hard and symbolic link.
 
 ln -s /bin/zsh /usr/local/bin/zsh #create a symbolic link
 
@@ -545,12 +544,12 @@ kill processes by name
 
 The killall utility kills processes selected by name, as opposed to the selection by pid as done by kill(1). By default, it will send a TERM signal to all processes with a real UID identical to the caller of killall that match the name procname. The super-user is allowed to kill any process.
 
-
--   The program gets sent a SIGTERM signal. kill -9 sends a SIGKILL signal
--   CTRL-C
+- The program gets sent a SIGTERM signal. kill -9 sends a SIGKILL signal
+- CTRL-C
 
 The program gets sent a SIGINT signal. By default that stops the program immediately, but the program can choose to ignore the signal or do something else before quitting
--   Is it possible for a program to ignore a SIGKILL signal
+
+- Is it possible for a program to ignore a SIGKILL signal
 
 Programs can't ignore SIGKILL.
 
@@ -582,13 +581,13 @@ You can generate a public-private keypair with thegenrsacontext (the last number
 
 openssl genrsa -out key.pem 2048
 
-## To extract the public part, use thersacontext:
+## To extract the public part, use thersacontext
 
 openssl rsa -in keypair.pem -out publickey.crt -pubout
 
 openssl rsa -in key.pem -out key.pub -pubout
 
-## Finally, convert the original keypair to PKCS#8 format with thepkcs8context:
+## Finally, convert the original keypair to PKCS#8 format with thepkcs8context
 
 openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out pkcs8.key
 
@@ -637,22 +636,22 @@ ps -eaf
 ps aux / auxf (tree view)
 
 ps aux --sort=-%mem
--   **Theaoption** tellspsthe display the processes of all users, with except those processes that not associated with a terminal and processes of group leaders.
--   **Theu**stands for a user-oriented format which provides detailed information about the processes.
--   **Thex**option will casepsto list the processes without a controlling terminal. Those are mainly processes that are started on boot time and running in the background.
 
+- **Theaoption** tellspsthe display the processes of all users, with except those processes that not associated with a terminal and processes of group leaders.
+- **Theu**stands for a user-oriented format which provides detailed information about the processes.
+- **Thex**option will casepsto list the processes without a controlling terminal. Those are mainly processes that are started on boot time and running in the background.
 
--   **PID-** The process ID. In most situations when running thepscommand the most important information the user is looking for is the process PID. Knowing the PID allows you to kill a malfunctioning process.
--   **TTY-** The name of the controlling terminal for the process.
--   **TIME-** The cumulative CPU time of the process, shown in minutes and seconds.
--   **CMD-** The name of the command that was used to start the process.
--   **USER-** The user who runs the process.
--   **%CPU-** The process[cpu](https://linuxize.com/post/get-cpu-information-on-linux/)utilization.
--   **%MEM-** The percentage of the process's resident set size to the physical memory on the machine.
--   **VSZ-** Virtual memory size of the process in KiB.
--   **RSS-** The size of the physical[memory](https://linuxize.com/post/free-command-in-linux/)that the process is using.
--   **STAT-** The the process state code, which can beZ(zombie),S(sleeping),R(running) ..etc
--   **START-** The time when the command started.
+- **PID-** The process ID. In most situations when running thepscommand the most important information the user is looking for is the process PID. Knowing the PID allows you to kill a malfunctioning process.
+- **TTY-** The name of the controlling terminal for the process.
+- **TIME-** The cumulative CPU time of the process, shown in minutes and seconds.
+- **CMD-** The name of the command that was used to start the process.
+- **USER-** The user who runs the process.
+- **%CPU-** The process[cpu](https://linuxize.com/post/get-cpu-information-on-linux/)utilization.
+- **%MEM-** The percentage of the process's resident set size to the physical memory on the machine.
+- **VSZ-** Virtual memory size of the process in KiB.
+- **RSS-** The size of the physical[memory](https://linuxize.com/post/free-command-in-linux/)that the process is using.
+- **STAT-** The the process state code, which can beZ(zombie),S(sleeping),R(running) ..etc
+- **START-** The time when the command started.
 
 ps $$
 
@@ -688,7 +687,7 @@ tar -xvf all.tar.xz (unzip xz files)
 
 gzip -d <file>.gz #unzip gz file
 
-!tar --exclude='*.csv' --exclude='__pycache__' --exclude='.ipynb_checkpoints' --exclude='*.json' --exclude='*.xml' --exclude='*.pdf' --exclude='*.pkl' -zcvf backup.tar.gz *
+!tar --exclude='*.csv' --exclude='**pycache**' --exclude='.ipynb_checkpoints' --exclude='*.json' --exclude='*.xml' --exclude='*.pdf' --exclude='*.pkl' -zcvf backup.tar.gz*
 
 !find . -name "*.ipynb" -o -name "*.py" | tar -zcvf backup.tar.gz -T -
 
@@ -725,8 +724,9 @@ du -sh * | sort -hr | head -n10
 du -sh file_path
 
 ## Explanation
--   du(**d**isc**u**sage) command estimates file_path space usage
--   The options-share (fromman du):
+
+- du(**d**isc**u**sage) command estimates file_path space usage
+- The options-share (fromman du):
     -s, --summarize
     display only a total for each argument
 
@@ -742,10 +742,11 @@ du -sh file_path
 The nc (or netcat) utility is used for just about anything under the sun involving TCP or UDP. It can open TCP connections, send UDP packets, listen on arbitrary TCP and UDP ports, do port scanning, and deal with both IPv4 and IPv6. Unlike telnet(1), nc scripts nicely, and separates error messages onto standard error instead of sending them to standard output, as telnet(1) does with some.
 
 Common uses include:
--   simple TCP proxies
--   shell-script based HTTP clients and servers
--   network daemon testing
--   a SOCKS or HTTP ProxyCommand for ssh(1)
+
+- simple TCP proxies
+- shell-script based HTTP clients and servers
+- network daemon testing
+- a SOCKS or HTTP ProxyCommand for ssh(1)
 
 nc -l 8000 -u
 
@@ -775,7 +776,7 @@ renice [-n] priority [[-p] pid ...] [[-g] pgrp ...] [[-u] user ...]
 
 Run COMMAND with an adjusted niceness, which affects process scheduling. With no COMMAND, print the current niceness. Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 
-## Renice:
+## Renice
 
 Renice alters the scheduling priority of one or more running processes. The following who parameters are interpreted as process ID's, process group ID's, or user names. Renice'ing a process group causes all processes in the process group to have their scheduling priority altered. Renice'ing a user causes all processes owned by the user to have their scheduling priority altered. By default, the processes to be affected are specified by their process ID's.
 
@@ -801,21 +802,21 @@ In the call tree, if a function calls more than one function then a vertical lin
 
 ## Others
 
-1.  !! / sudo !! (repeat last command with sudo)
+1. !! / sudo !! (repeat last command with sudo)
 
-2.  pwd (Print working Directory)
+2. pwd (Print working Directory)
 
-3.  xrandr -o normal (Screen rotation)
+3. xrandr -o normal (Screen rotation)
 
-4.  sudo shred -n 1 -v -z /dev/sd (format full hard disk, first write random bits, than with zeros, to every address)
+4. sudo shred -n 1 -v -z /dev/sd (format full hard disk, first write random bits, than with zeros, to every address)
 
-5.  bash install-missing.sh (running set of bash commands from a file)
+5. bash install-missing.sh (running set of bash commands from a file)
 
-6.  wc "file" //count number of lines/words/characters in file
+6. wc "file" //count number of lines/words/characters in file
 
-7.  banner <anything> #prints a banner for <anything>
+7. banner <anything> #prints a banner for <anything>
 
-8.  file [path] #to check the type of file
+8. file [path] #to check the type of file
 
 ## Others
 

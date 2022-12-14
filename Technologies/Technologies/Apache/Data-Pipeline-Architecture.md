@@ -10,24 +10,24 @@ Modified: 2020-02-12 13:20:28 +0500
 
 ![Kafka-Native Integration Options between MQTT and Apache Kafka Kafka Connect MQTT Proxy REST Proxy ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image2.png)
 
-1.  **Integration with Kafka Connect (Source and Sink), using MQTT Broker**
+1. **Integration with Kafka Connect (Source and Sink), using MQTT Broker**
 
 ![Image title](../../media/Technologies-Apache-Data-Pipeline-Architecture-image3.png)
 
 In this approach, you pull the data from the MQTT Broker via Kafka Connect to the Kafka Broker. You can leverage any features of Kafka Connect, such as built-in fault tolerance, load balancing, Converters, and Simple Message Transformations (SMT) for routing/filtering/etc., scaling different connectors in one Connect worker instance and other Kafka Connect related benefits.
 
-![End-to-End Integration from MQTT to Apache Kafka MOTT Server Coordinator topic: [deviceidl/car MOTT Server 1 MQTT Server 2 MOTT Server 3 MOTT Server 4 Kafka Integration Kafka Cluster Sensor Data Stream processing ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image4.png)
+![deviceidl/car MOTT Server 1 MQTT Server 2 MOTT Server 3 MOTT Server 4 Kafka Integration Kafka Cluster Sensor Data Stream processing](../../media/Technologies-Apache-Data-Pipeline-Architecture-image4.png)
 
 ## MQTT Broker
--   Persistent + offers MQTT-specific features
--   Consumes push data from IoT devices
+
+- Persistent + offers MQTT-specific features
+- Consumes push data from IoT devices
 
 ## Kafka Connect
--   Kafka Consumer + Kafka Producer under the hood
--   Pull-based (at own pace, without overwhelming the source or getting overwhelmed by the source)
--   Out-of-the-box scalability and integration features (like connectors, converters, SMTs)
 
-
+- Kafka Consumer + Kafka Producer under the hood
+- Pull-based (at own pace, without overwhelming the source or getting overwhelmed by the source)
+- Out-of-the-box scalability and integration features (like connectors, converters, SMTs)
 
 ![Kafka Connect components ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image5.png)
 
@@ -35,7 +35,7 @@ In this approach, you pull the data from the MQTT Broker via Kafka Connect to th
 
 ![Kafka Connect - Converters JSON Connect data Message API format MOTT Source MOTT Connector Broker Connect data byte(l (Avro) API format kafka AvroConverter AvroConverter S3 Sink Connector (Avro) AmazonS3 Object kafka Object Storage ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image7.png)
 
-2.  **Using confluent MQTT Proxy**
+2. **Using confluent MQTT Proxy**
 
 As an alternative to using Kafka Connect, you can leverage Confluent MQTT Proxy. You will need to integrate IoT data from IoT devices directly without the need for an MQTT Broker:
 
@@ -44,33 +44,38 @@ As an alternative to using Kafka Connect, you can leverage Confluent MQTT Proxy.
 In this approach, you push the data directly to the Kafka broker via the Confluent MQTT Proxy. You can scale MQTT Proxy easily with a Load Balancer (similar to Confluent REST Proxy). The huge advantage is that you do not need an additional MQTT Broker in the middle. This reduces efforts and costs significantly. It is a better approach for pushing data into Kafka.
 
 ## MQTT Proxy
--   MQTT is push-based
--   Horizontally scalable
--   Consumes push data from IoT devices and forwards it to Kafka Broker at low-latency
--   Kafka Producer under the hood
--   No MQTT Broker needed
+
+- MQTT is push-based
+- Horizontally scalable
+- Consumes push data from IoT devices and forwards it to Kafka Broker at low-latency
+- Kafka Producer under the hood
+- No MQTT Broker needed
 
 ## Kafka Broker
--   Source of truth
--   Responsible for persistence, high availability, reliability
+
+- Source of truth
+- Responsible for persistence, high availability, reliability
 
 ## Details of Confluent's MQTT Proxy Implementation
 
 ## General and modular framework
--   Based on Netty to not re-invent the wheel (network layer handling, thread pools)
--   Scalable with standard load balancer
--   Internally uses Kafka Connect formats (allows re-using transformation and other Connect-constructs)
+
+- Based on Netty to not re-invent the wheel (network layer handling, thread pools)
+- Scalable with standard load balancer
+- Internally uses Kafka Connect formats (allows re-using transformation and other Connect-constructs)
 
 ## Three pipeline stages
--   Network (Netty)
--   Protocol (like MQTT with QoS 0,1,2 today, later others, maybe e.g. WebSockets)
--   Stream (Kafka clients: Today Producers, later also consumers)
+
+- Network (Netty)
+- Protocol (like MQTT with QoS 0,1,2 today, later others, maybe e.g. WebSockets)
+- Stream (Kafka clients: Today Producers, later also consumers)
 
 ## Missing parts in first release
--   *Only MQTT Publish; MQTT Subscribe coming soon*
--   *MQTT-specific features like last will or testament*
 
-3.  **Confluent REST Proxy**
+- *Only MQTT Publish; MQTT Subscribe coming soon*
+- *MQTT-specific features like last will or testament*
+
+3. **Confluent REST Proxy**
 
 ![](../../media/Technologies-Apache-Data-Pipeline-Architecture-image9.png)
 
@@ -78,40 +83,39 @@ In this approach, you push the data directly to the Kafka broker via the Conflue
 
 ## Design Questions
 
-1.  How much throughput?
+1. How much throughput?
 
-2.  Ingest-only vs processing of data?
+2. Ingest-only vs processing of data?
 
-3.  Analytical vs operational deployments?
+3. Analytical vs operational deployments?
 
-4.  Device publish only vs device pub/sub?
+4. Device publish only vs device pub/sub?
 
-5.  Pull vs Push?
+5. Pull vs Push?
 
-6.  Low-level client vs integration framework vs proxy?
+6. Low-level client vs integration framework vs proxy?
 
-7.  Integration patterns needed? (transform, route, ...)?
+7. Integration patterns needed? (transform, route, ...)?
 
-8.  IoT-specific features required (last will, testament, ...)?
+8. IoT-specific features required (last will, testament, ...)?
 
 ## Building Data Pipelines
--   Considerations when building data pipelines
-    -   Timeliness
-    -   Reliability
-    -   High and varying throughput
-    -   Data formats
-    -   Transformations
-    -   Security
-    -   Failure handling
-    -   Coupling and agility
+
+- Considerations when building data pipelines
+  - Timeliness
+  - Reliability
+  - High and varying throughput
+  - Data formats
+  - Transformations
+  - Security
+  - Failure handling
+  - Coupling and agility
 
 # IoT Data Processing
 
 ![Processing Options for MQTT Data with Apache Kafka kafka Streams Sport! Streaming Apache Flink (or others, you name it Kafka native vs. additional big data cluster and technology ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image11.png)
 
 ![Example: Anomaly Detection System to Predict Defects in Car Engine Kafka Ecosystem Other Components Sens«s KSOL Kafka Cluster Kafka Connect All Real Time Emetoency System Elast.c seæch Gtafana (X: Kubernetes Confluent Opetatot ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image12.png)
-
-
 
 ## Kafka Streaming Architecture
 
@@ -155,7 +159,7 @@ There are API implications with this decision too, particularly from an ergonomi
 
 Circling back on consumer scalability, the fact that NATS Streaming uses a push-based model means we can't simply setup read replicas and balance consumers among them. Instead, we would need to partition consumers among the replicas so that each server is responsible for pushing data to a subset of consumers. The increased complexity over pull becomes immediately apparent here.
 
-<https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-3-scaling-message-delivery
+<https://bravenewgeek.com/building-a-distributed-log-from-scratch-part-3-scaling-message-delivery>
 
 ## Reference
 
@@ -166,6 +170,7 @@ Circling back on consumer scalability, the fact that NATS Streaming uses a push-
 <http://cloudurable.com/blog/what-is-kafka/index.html>
 
 ## Projects
--   <https://github.com/kaiwaehner/ksql-udf-deep-learning-mqtt-iot>
--   <https://github.com/kaiwaehner/kafka-connect-iot-mqtt-connector-example>
--   <https://github.com/kaiwaehner/ksql-fork-with-deep-learning-functionp>
+
+- <https://github.com/kaiwaehner/ksql-udf-deep-learning-mqtt-iot>
+- <https://github.com/kaiwaehner/kafka-connect-iot-mqtt-connector-example>
+- <https://github.com/kaiwaehner/ksql-fork-with-deep-learning-functionp>

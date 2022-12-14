@@ -38,7 +38,7 @@ Modified: 2022-03-01 23:54:56 +0500
 
 Computer vision involves analyzing patterns in visual images and reconstructing the real-world objects that produced them. The process is often broken up into two phases:**feature detectionandpattern recognition.** Feature detection involves selecting important features of the image; pattern recognition involves discovering patterns in the features.
 
-## Content-Based Image Retrieval (CBIR) is the process of building image search engines.
+## Content-Based Image Retrieval (CBIR) is the process of building image search engines
 
 ## ANPR - Automatic Number Plate Recognition
 
@@ -47,10 +47,11 @@ Computer vision involves analyzing patterns in visual images and reconstructing 
 Face detection locates human faces in visual media such as digital images or video. When a face is detected it has an associated position, size, and orientation; and it can be searched for landmarks such as the eyes and nose.
 
 Here are some of the terms that we use regarding the face detection feature of ML Kit:
--   Face trackingextends face detection to video sequences. Any face that appears in a video for any length of time can be tracked from frame to frame. This means a face detected in consecutive video frames can be identified as being the same person. Note that this isn't a form offace recognition; face tracking only makes inferences based on the position and motion of the faces in a video sequence.
--   Alandmarkis a point of interest within a face. The left eye, right eye, and base of the nose are all examples of landmarks. ML Kit provides the ability to find landmarks on a detected face.
--   Acontouris a set of points that follow the shape of a facial feature. ML Kit provides the ability to find the contours of a face.
--   Classificationdetermines whether a certain facial characteristic is present. For example, a face can be classified by whether its eyes are open or closed, or if the face is smiling or not.
+
+- Face trackingextends face detection to video sequences. Any face that appears in a video for any length of time can be tracked from frame to frame. This means a face detected in consecutive video frames can be identified as being the same person. Note that this isn't a form offace recognition; face tracking only makes inferences based on the position and motion of the faces in a video sequence.
+- Alandmarkis a point of interest within a face. The left eye, right eye, and base of the nose are all examples of landmarks. ML Kit provides the ability to find landmarks on a detected face.
+- Acontouris a set of points that follow the shape of a facial feature. ML Kit provides the ability to find the contours of a face.
+- Classificationdetermines whether a certain facial characteristic is present. For example, a face can be classified by whether its eyes are open or closed, or if the face is smiling or not.
 
 <https://developers.google.com/ml-kit/vision/face-detection/face-detection-concepts>
 
@@ -94,4 +95,4 @@ PSNR is commonly used to quantify reconstruction quality for images and video su
 
 <https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab>
 
-<https://www.freecodecamp.org/news/advanced-computer-vision-with-python
+<https://www.freecodecamp.org/news/advanced-computer-vision-with-python>

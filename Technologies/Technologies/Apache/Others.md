@@ -14,7 +14,7 @@ Modified: 2021-06-14 17:21:47 +0500
 
 <https://github.com/aws-samples/aws-glue-samples/blob/master/examples/join_and_relationalize.md>
 
-<https://thedataguy.in/aws-glue-custom-output-file-size-and-fixed-number-of-files
+<https://thedataguy.in/aws-glue-custom-output-file-size-and-fixed-number-of-files>
 
 Option 1: groupFiles
 

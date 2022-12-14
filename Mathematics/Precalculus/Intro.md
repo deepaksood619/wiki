@@ -6,19 +6,19 @@ Modified: 2021-06-06 16:54:11 +0500
 
 ---
 
-1.  Trigonometry
+1. Trigonometry
 
-2.  Conic sections
+2. Conic sections
 
-3.  Vectors
+3. Vectors
 
     a.  Adding vectors in magnitude and direction form
 
-4.  Matrices
+4. Matrices
 
-5.  Complex numbers
+5. Complex numbers
 
-6.  Probability and combinatorics
+6. Probability and combinatorics
 
     a.  Basic probability
 
@@ -37,7 +37,7 @@ Modified: 2021-06-06 16:54:11 +0500
 
         i.  Birthday Paradox
 
-7.  Series
+7. Series
 
     a.  Arithmetic sequences
 

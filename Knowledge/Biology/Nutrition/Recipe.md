@@ -7,96 +7,100 @@ Modified: 2021-11-13 18:43:49 +0500
 ---
 
 ## Grilled Chicken + Paneer
--   Chicken - 250 grm
--   Curd - 15rs wala
--   Haldi - 1/4
--   Mirch - 1 tsp
--   Dhaniya powder - 1 tsp
--   Jeera powder - 1 tsp
--   Garam masala - 3/4 tsp
--   Salt / Namak - 1/2 tsp
--   Chicken masala - 1/2 tsp
--   Ginger garlic paste - 1tsp
-    -   Ginger powder
-    -   Garlic powder
--   Oregano
--   Chilli flakes
--   Olive Oil - 2 tbsp
--   Lemon Juice
--   Vegetables
-    -   Paneer
-    -   Onion
-    -   Carrot
-    -   Dhaniya
-    -   Green Chilli (Mirch)
+
+- Chicken - 250 grm
+- Curd - 15rs wala
+- Haldi - 1/4
+- Mirch - 1 tsp
+- Dhaniya powder - 1 tsp
+- Jeera powder - 1 tsp
+- Garam masala - 3/4 tsp
+- Salt / Namak - 1/2 tsp
+- Chicken masala - 1/2 tsp
+- Ginger garlic paste - 1tsp
+  - Ginger powder
+  - Garlic powder
+- Oregano
+- Chilli flakes
+- Olive Oil - 2 tbsp
+- Lemon Juice
+- Vegetables
+  - Paneer
+  - Onion
+  - Carrot
+  - Dhaniya
+  - Green Chilli (Mirch)
 
 # Arhar Dal / Pigeon pea
--   1/2 cup daal (washed 3 times)
--   Water - 1 1/2 cup
--   1 tomato
--   Haldi - 1/4 tea spoon
--   Namak - 1/2 tea spoon
--   Zeera - 1/2 tea spoon
--   Dhaniya powder - 1/4 tea spoon
--   Cooker - 6 whistles
+
+- 1/2 cup daal (washed 3 times)
+- Water - 1 1/2 cup
+- 1 tomato
+- Haldi - 1/4 tea spoon
+- Namak - 1/2 tea spoon
+- Zeera - 1/2 tea spoon
+- Dhaniya powder - 1/4 tea spoon
+- Cooker - 6 whistles
 
 # White Chicken without marination
--   Small cutted Boiler Chicken - 1/2 kg
--   Medium size - 3 onion
--   Lasun / garlic - 3-4 as per taste (Pisa hua)
--   2 badi elachi
--   3 choti elachi
--   2 inch dalchini
--   Jeera
--   Salt - swad anusar
--   Curd - 500 gm
--   Refined oil - 3 tbsp
--   water - 1 cup
+
+- Small cutted Boiler Chicken - 1/2 kg
+- Medium size - 3 onion
+- Lasun / garlic - 3-4 as per taste (Pisa hua)
+- 2 badi elachi
+- 3 choti elachi
+- 2 inch dalchini
+- Jeera
+- Salt - swad anusar
+- Curd - 500 gm
+- Refined oil - 3 tbsp
+- water - 1 cup
 
 ## Steps
--   Put oil on pressure cooker
--   fry Jeera and lasun
--   fry sliced long onion until golden
--   Add all masala
--   Add salt
--   1 cup water
--   Cook for 1 siti
--   Open
--   Add chicken and let it boil until dry on open cooker - 15 mins until oil is separated
--   Add curd and mix and boil - 10-15 min
--   Serve and eat
 
-
+- Put oil on pressure cooker
+- fry Jeera and lasun
+- fry sliced long onion until golden
+- Add all masala
+- Add salt
+- 1 cup water
+- Cook for 1 siti
+- Open
+- Add chicken and let it boil until dry on open cooker - 15 mins until oil is separated
+- Add curd and mix and boil - 10-15 min
+- Serve and eat
 
 # Red chicked without marination
--   Small cutted Boiler Chicken - 1/2 kg
--   Medium size - 3 onion
--   Tomato - 2 medium sized
--   Lasun / garlic - 3-4 as per taste (Pisa hua)
--   2 badi elachi
--   3 choti elachi
--   2 inch dalchini
--   Jeera
--   Salt - swad anusar
--   Haldi
--   Mirch
--   Curd - 500 gm
--   Refined oil - 3 tbsp
--   water - 1 cup
+
+- Small cutted Boiler Chicken - 1/2 kg
+- Medium size - 3 onion
+- Tomato - 2 medium sized
+- Lasun / garlic - 3-4 as per taste (Pisa hua)
+- 2 badi elachi
+- 3 choti elachi
+- 2 inch dalchini
+- Jeera
+- Salt - swad anusar
+- Haldi
+- Mirch
+- Curd - 500 gm
+- Refined oil - 3 tbsp
+- water - 1 cup
 
 ## Steps
--   Put oil on pressure cooker
--   fry Jeera and lasun
--   fry sliced long onion until golden
--   add tomato
--   Add all masala
--   Add salt and haldi and mirchi
--   1 cup water
--   Cook for 1 siti
--   Open
--   Add chicken and let it boil until dry on open cooker - 15 mins until oil is separated
--   Add water for gravy and bring to boil
--   Serve and eat
+
+- Put oil on pressure cooker
+- fry Jeera and lasun
+- fry sliced long onion until golden
+- add tomato
+- Add all masala
+- Add salt and haldi and mirchi
+- 1 cup water
+- Cook for 1 siti
+- Open
+- Add chicken and let it boil until dry on open cooker - 15 mins until oil is separated
+- Add water for gravy and bring to boil
+- Serve and eat
 
 ## Other Recipes
 

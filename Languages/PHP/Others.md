@@ -36,7 +36,7 @@ php -m
 
 <https://developers.ibexa.co/blog/performance-composer-2.0-php-8.0-jit>
 
-<https://packagist.org
+<https://packagist.org>
 
 Packagist is the main[Composer](https://getcomposer.org/)repository. It aggregates public PHP packages installable with Composer.
 
@@ -52,40 +52,41 @@ The**PHP Extension and Application Repository**, or**PEAR,** is a repository of[
 
 pecl
 
-<https://pecl.php.net
+<https://pecl.php.net>
 
 ## PHP-8
--   union types, static return, and weak maps
--   JIT compiler
+
+- union types, static return, and weak maps
+- JIT compiler
 
 ## FPM (FastCGI Process Manager)
 
 FPM (FastCGI Process Manager) is an alternative PHP FastCGI implementation with some additional features (mostly) useful for heavy-loaded sites.
 
 These features include:
--   advanced process management with graceful stop/start;
--   ability to start workers with different uid/gid/chroot/environment, listening on different ports and using different php.ini (replaces safe_mode);
--   stdout and stderr logging;
--   emergency restart in case of accidental opcode cache destruction;
--   accelerated upload support;
--   "slowlog" - logging scripts (not just their names, but their PHP backtraces too, using ptrace and similar things to read remote process' execute_data) that are executed unusually slow;
--   [fastcgi_finish_request()](https://www.php.net/manual/en/function.fastcgi-finish-request.php)- special function to finish request and flush all data while continuing to do something time-consuming (video converting, stats processing etc.);
--   dynamic/static child spawning;
--   basic SAPI status info (similar to Apache mod_status);
--   php.ini-based config file.
+
+- advanced process management with graceful stop/start;
+- ability to start workers with different uid/gid/chroot/environment, listening on different ports and using different php.ini (replaces safe_mode);
+- stdout and stderr logging;
+- emergency restart in case of accidental opcode cache destruction;
+- accelerated upload support;
+- "slowlog" - logging scripts (not just their names, but their PHP backtraces too, using ptrace and similar things to read remote process' execute_data) that are executed unusually slow;
+- [fastcgi_finish_request()](https://www.php.net/manual/en/function.fastcgi-finish-request.php)- special function to finish request and flush all data while continuing to do something time-consuming (video converting, stats processing etc.);
+- dynamic/static child spawning;
+- basic SAPI status info (similar to Apache mod_status);
+- php.ini-based config file.
 
 <https://www.php.net/manual/en/install.fpm.php>
 
-
--   Adaptive process spawning (NEW!)
--   Basic statistics (ala Apache's mod_status) (NEW!)
--   Advanced process management with graceful stop/start
--   Ability to start workers with different uid/gid/chroot/environment and different php.ini (replaces safe_mode)
--   Stdout & stderr logging
--   Emergency restart in case of accidental opcode cache destruction
--   Accelerated upload support
--   Support for a "slowlog"
--   Enhancements to FastCGI, such as fastcgi_finish_request() - a special function to finish request & flush all data while continuing to do something time-consuming (video converting, stats processing, etc.)
+- Adaptive process spawning (NEW!)
+- Basic statistics (ala Apache's mod_status) (NEW!)
+- Advanced process management with graceful stop/start
+- Ability to start workers with different uid/gid/chroot/environment and different php.ini (replaces safe_mode)
+- Stdout & stderr logging
+- Emergency restart in case of accidental opcode cache destruction
+- Accelerated upload support
+- Support for a "slowlog"
+- Enhancements to FastCGI, such as fastcgi_finish_request() - a special function to finish request & flush all data while continuing to do something time-consuming (video converting, stats processing, etc.)
 
 It was not designed with virtual hosting in mind (large amounts of pools) however it can be adapted for any usage model.
 
@@ -97,15 +98,15 @@ nginx + php-fpm is also an excellent way to run php applications. nginx has nati
 
 sudo apt-get install libapache2-mod-fastcgi php7.0-fpm
 
-<https://blog.layershift.com/which-php-mode-apache-vs-cgi-vs-fastcgi
+<https://blog.layershift.com/which-php-mode-apache-vs-cgi-vs-fastcgi>
 
-<https://php-fpm.org
+<https://php-fpm.org>
 
 ## Optimization
 
-<https://www.cloudways.com/blog/php-performance
+<https://www.cloudways.com/blog/php-performance>
 
-<https://geekflare.com/php-fpm-optimization
+<https://geekflare.com/php-fpm-optimization>
 
 ## OpCache
 
@@ -117,7 +118,7 @@ OPcache offers several settings that you can adjust to improve the performance a
 
 Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to[phpMyAdmin](https://www.phpmyadmin.net/), it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL,SQLite,MS SQL,Oracle,Firebird,SimpleDB,ElasticsearchandMongoDB.
 
-<https://www.adminer.org
+<https://www.adminer.org>
 
 ## Static Code Analysis
 
@@ -163,16 +164,17 @@ cd /var/www/html
 
 <http://phpmd.org/download/index.html>
 
-<https://scrutinizer-ci.com/docs/tools/php/php-analyzer
+<https://scrutinizer-ci.com/docs/tools/php/php-analyzer>
 
 [**https://modess.io/jenkins-php/**](https://modess.io/jenkins-php/)
--   PHP_CodeSniffer (phpcs)
--   phploc
--   pdepend
--   PHPMD -- PHP Mess Detector
--   PHP Copy/Paste Detector (phpcpd)
--   PHP_CodeBrowser (phpcb)
--   phpDox
+
+- PHP_CodeSniffer (phpcs)
+- phploc
+- pdepend
+- PHPMD -- PHP Mess Detector
+- PHP Copy/Paste Detector (phpcpd)
+- PHP_CodeBrowser (phpcb)
+- phpDox
 
 [**https://www.jenkins.io/solutions/php/**](https://www.jenkins.io/solutions/php/)
 
@@ -190,9 +192,9 @@ PHPStan is a static analysis tool for PHP code. It parses your code and tries to
 
 ## PSR-1, PSR-2, PSR-12: Coding Style Guide
 
-<https://www.php-fig.org/psr/psr-2
+<https://www.php-fig.org/psr/psr-2>
 
-<https://www.php-fig.org/psr/psr-12
+<https://www.php-fig.org/psr/psr-12>
 
 ## phpdcd
 

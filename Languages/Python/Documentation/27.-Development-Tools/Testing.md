@@ -6,11 +6,11 @@ Modified: 2021-03-20 13:31:05 +0500
 
 ---
 
-1.  Create your inputs
+1. Create your inputs
 
-2.  Execute the code, capturing the output
+2. Execute the code, capturing the output
 
-3.  Compare the output with an expected result
+3. Compare the output with an expected result
 
 ## Testing a function
 
@@ -36,11 +36,9 @@ def withdraw(self, amount):
 
 self.balance -= amount
 
-
-
 ## tests.py
 
-# To build a test case, make a class that inherits from unittest.TestCase and write methods that **begin with test_**
+# To build a test case, make a class that inherits from unittest.TestCase and write methods that __begin with test___
 
 import unittest
 
@@ -72,7 +70,7 @@ self.assertEqual(acc.balance, 100)
 
 # The setUp() method
 
-# When testing a class, we usually have to make an instance of the class. The setUp() method is run before every test. Any instances we make in setUp() are available in every test you write.
+# When testing a class, we usually have to make an instance of the class. The setUp() method is run before every test. Any instances we make in setUp() are available in every test you write
 
 class AccountantTest(unittest.TestCase):
 
@@ -98,12 +96,12 @@ unittest.main()
 
 There are many test runners available for Python.The one built into the Python standard library is calledunittest
 
-
--   **unittest**
+- __unittest__
 
 unittestrequires that:
--   You put your tests into classes as methods
--   You use a series of special assertion methods in theunittest.TestCaseclass instead of the built-inassertstatement
+
+- You put your tests into classes as methods
+- You use a series of special assertion methods in theunittest.TestCaseclass instead of the built-inassertstatement
 
 [unittest.mock](https://docs.python.org/3/library/unittest.mock.html#module-unittest.mock)is a library for testing in Python. As of Python 3.3, it is available in the[standard library](https://docs.python.org/dev/library/unittest.mock).
 
@@ -111,13 +109,11 @@ unittestrequires that:
 
 unittest feels pretty similar to[JUnit](https://en.wikipedia.org/wiki/JUnit)which I would say is a disadvantage. Python is a different language with different patterns and expectations. One weirdness is that you have to put your tests in a class, even if you don't need to[setUp()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp)or[tearDown()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown)anything. It uses camelCase for the method names which is against the Python conventions. You cannot simplyassert Expression, but instead, have to useself.assertEqual,self.assertTrue, ... (see the[complete list of assert methods](https://docs.python.org/3/library/unittest.html#assert-methods)). And the error messages are not as expressive as the ones you get from Pytest.
 
-
--   **PyUnit**
+- __PyUnit__
 
 PyUnit supports fixtures, test cases, test suites and a test runner for the automated testing of the code. In PyUnit, you can organize test cases into suites with the same fixtures
 
-
--   **Nose2**
+- __Nose2__
 
 Nose's built in plugins helps you with output capture, code coverage, doctests, etc. Nose syntax is pretty simpler and reduces the barriers to writing tests. It extends Python unittest to make testing easier.
 
@@ -125,23 +121,22 @@ noseis compatible with any tests written using theunittestframework and can be u
 
 The development ofnoseas an open-source application fell behind, and a fork callednose2was created. If you're starting from scratch, it is recommended that you usenose2instead ofnose.
 
-
--   **Doctest**
+- __Doctest__
 
 Doctest testing script goes in docstring with small function at the bottom of file. Doctest allows you to test your code by running examples included in the documentation and verifying that they returned the expected results. The use-case of doctest is less detailed and don't catch special cases. They are useful as an expressive documentation of the main use case of a module and its components.
 
 The doctest looks for>>>within the docstrings and executes whatever follows as if it was entered in the interactive console. The next line is then the output which is compared to the output of the program.
 
-
--   **[PyTest]{.underline}**
+- __[PyTest]{.underline}__
 
 [pytest](https://realpython.com/pytest-python-testing/)supports execution ofunittesttest cases. The real advantage ofpytestcomes by writingpytesttest cases.pytesttest cases are a series of functions in a Python file starting with the nametest_.
 
 pytesthas some other great features:
--   Support for the built-inassertstatement instead of using specialself.assert*()methods
--   Support for filtering for test cases
--   Ability to rerun from the last failing test
--   An ecosystem of hundreds of plugins to extend the functionality
+
+- Support for the built-inassertstatement instead of using specialself.assert*()methods
+- Support for filtering for test cases
+- Ability to rerun from the last failing test
+- An ecosystem of hundreds of plugins to extend the functionality
 
 pip install pytest
 
@@ -175,21 +170,21 @@ assert response.text == "OK"
 
 assert response.elapsed.total_seconds() < 0.03
 
-
--   **pytest-black**
--   **pytest-flake8**
+- __pytest-black__
+- __pytest-flake8__
 
 pytest --flake8 --black
--   **pytest-mccabe**
--   **pytest-mypy**
+
+- __pytest-mccabe__
+- __pytest-mypy__
 
 Mypy static type checker plugin for pytest
 
 automatically run mypy over your code by adding--mypyto your pytest command
--   **pytest-benchmark**
 
+- __pytest-benchmark__
 
--   **Coverage**
+- __Coverage__
 
 For getting the code coverage in python
 
@@ -209,46 +204,42 @@ Many people choose to use the[pytest-cov](https://pytest-cov.readthedocs.io/)plu
 
 Some test runners provide coverage integration to make it easy to use coverage.py while running tests. For example,[pytest](http://doc.pytest.org/)has the[pytest-cov](https://pytest-cov.readthedocs.io/)plugin.
 
-<https://coverage.readthedocs.io/en/latest
+<https://coverage.readthedocs.io/en/latest>
 
-
--   **pytest-cov**
+- __pytest-cov__
 
 pytest plugin to measure branch coverage.
 
-
--   Install it withpip install pytest-cover
--   Use it by adding--cov=path/to/fileor--cov=packagenameto the pytest execution
--   Get output to terminal by adding to pytest--cov-report term
--   Get HTML output by adding--cov-report html:tests/reports/coverage
+- Install it withpip install pytest-cover
+- Use it by adding--cov=path/to/fileor--cov=packagenameto the pytest execution
+- Get output to terminal by adding to pytest--cov-report term
+- Get HTML output by adding--cov-report html:tests/reports/coverage
 
 This plugin produces coverage reports. Compared to just usingcoveragerunthis plugin does some extras:
--   Subprocess support: you can fork or run stuff in a subprocess and will get covered without any fuss.
--   Xdist support: you can use all of pytest-xdist's features and still get coverage.
--   Consistent pytest behavior. If you runcoveragerun-mpytestyou will have slightly differentsys.path(CWD will be in it, unlike when runningpytest).
+
+- Subprocess support: you can fork or run stuff in a subprocess and will get covered without any fuss.
+- Xdist support: you can use all of pytest-xdist's features and still get coverage.
+- Consistent pytest behavior. If you runcoveragerun-mpytestyou will have slightly differentsys.path(CWD will be in it, unlike when runningpytest).
 
 <https://pytest-cov.readthedocs.io/en/latest/readme.html>
 
-
--   **Hypothesis**
+- __Hypothesis__
 
 Hypothesis is a library which lets you write tests that are parameterized by a source of examples. It then generates simple and comprehensible examples that make your tests fail, letting you find more bugs with less work.
 
-
--   **tox**
+- __tox__
 
 tox is a tool for automating test environment management and testing against multiple interpreter configurations.
 
-
--   **robotframework**
+- __robotframework__
 
 [Robot Framework](http://robotframework.org/)is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
 
 <https://github.com/robotframework/robotframework>
 
-<https://robotframework.org
+<https://robotframework.org>
 
-<https://realpython.com/python-testing
+<https://realpython.com/python-testing>
 
 <https://medium.com/swlh/unit-testing-in-python-basics-21a9a57418a0>
 

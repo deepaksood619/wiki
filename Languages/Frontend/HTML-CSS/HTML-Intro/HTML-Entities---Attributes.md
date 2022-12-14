@@ -41,9 +41,10 @@ A non-breaking space is a space that will not break into a new line.
 Two words separated by a non-breaking space will stick together (not break into a new line). This is handy when breaking the words might be disruptive.
 
 Examples:
--   § 10
--   10 km/h
--   10 PM
+
+- § 10
+- 10 km/h
+- 10 PM
 
 Another common use of the non-breaking space is to prevent that browsers truncate spaces in HTML pages.
 

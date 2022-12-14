@@ -8,7 +8,7 @@ Modified: 2022-12-06 20:26:00 +0500
 
 ## Deep Learning Frameworks
 
-1.  mxNet
+1. mxNet
 
 A scalable deep learning framework. Extremely fast and efficient. Capable of scaling across multiple GPUs and multiple machines.
 
@@ -26,34 +26,36 @@ Model Server for Apache MXNet (MMS) is a flexible and easy to use tool for servi
 
 <https://github.com/awslabs/mxnet-model-server>
 
-2.  Pytorch
+2. Pytorch
 
 PyTorch ( Tensors and Dynamic neural netwoks in Python with strong GPU acceleration)
 
-3.  Keras
-    -   High-level neural networks API. Makes coding, training, and deploying neural networks incredibly easy with its scikit-learn style API.
+3. Keras
+    - High-level neural networks API. Makes coding, training, and deploying neural networks incredibly easy with its scikit-learn style API.
 
 Keras is a high-level neural networks API, written in Python and capable of running on top of[TensorFlow](https://github.com/tensorflow/tensorflow),[CNTK](https://github.com/Microsoft/cntk), or[Theano](https://github.com/Theano/Theano). It was developed with a focus on enabling fast experimentation.Being able to go from idea to result with the least possible delay is key to doing good research.
 
 Use Keras if you need a deep learning library that:
--   Allows for easy and fast prototyping (through user friendliness, modularity, and extensibility).
--   Supports both convolutional networks and recurrent networks, as well as combinations of the two.
--   Runs seamlessly on CPU and GPU.
 
-<https://keras.io
+- Allows for easy and fast prototyping (through user friendliness, modularity, and extensibility).
+- Supports both convolutional networks and recurrent networks, as well as combinations of the two.
+- Runs seamlessly on CPU and GPU.
 
-4.  TensorFlow
-    -   Open source machine learning library. Often used for neural networks, deep learning, and as a computational backend for Keras.
+<https://keras.io>
+
+4. TensorFlow
+    - Open source machine learning library. Often used for neural networks, deep learning, and as a computational backend for Keras.
 
 ## Differences
--   Keras is not for beginners, its for rapid deployment and production. And meant to be used by the people who already understand the technology
--   Pytorch is great for research implementations, but it's very unnecessarily hard to deploy your model into production
--   Tensorfow is another great framework for deep learning. But is slow and memory hungry
--   After using Pytorch/Keras/Tensorflow 2.0/ I finally decided that MXNet would be my frameworks of choice for Deep Learning.
+
+- Keras is not for beginners, its for rapid deployment and production. And meant to be used by the people who already understand the technology
+- Pytorch is great for research implementations, but it's very unnecessarily hard to deploy your model into production
+- Tensorfow is another great framework for deep learning. But is slow and memory hungry
+- After using Pytorch/Keras/Tensorflow 2.0/ I finally decided that MXNet would be my frameworks of choice for Deep Learning.
 
 <https://www.kaggle.com/learn-forum/90594>
 
-<https://www.freecodecamp.org/news/deep-learning-frameworks-compared-mxnet-vs-tensorflow-vs-dl4j-vs-pytorch
+<https://www.freecodecamp.org/news/deep-learning-frameworks-compared-mxnet-vs-tensorflow-vs-dl4j-vs-pytorch>
 
 <https://wiki.pathmind.com/comparison-frameworks-dl4j-tensorflow-pytorch>
 
@@ -61,11 +63,11 @@ Use Keras if you need a deep learning library that:
 
 Python package built to ease deep learning on graph, on top of existing DL frameworks.
 
-## Deep Graph Library (DGL) is a Python package built for easy implementation of graph neural network model family, on top of existing DL frameworks (currently supporting PyTorch, MXNet and TensorFlow). It offers a versatile control of message passing, speed optimization via auto-batching and highly tuned sparse matrix kernels, and multi-GPU/CPU training to scale to graphs of hundreds of millions of nodes and edges.
+## Deep Graph Library (DGL) is a Python package built for easy implementation of graph neural network model family, on top of existing DL frameworks (currently supporting PyTorch, MXNet and TensorFlow). It offers a versatile control of message passing, speed optimization via auto-batching and highly tuned sparse matrix kernels, and multi-GPU/CPU training to scale to graphs of hundreds of millions of nodes and edges
 
 ![image](media/Libraries-image1.jpg)
 
-<https://www.dgl.ai
+<https://www.dgl.ai>
 
 <https://docs.dgl.ai/index.html>
 
@@ -75,36 +77,36 @@ Python package built to ease deep learning on graph, on top of existing DL frame
 
 ## Libraries
 
-1.  dlib
-    -   Implementations of state-of-the-art CV and ML algorithms (including face recognition)
-    -   Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. It is used in both industry and academia in a wide range of domains including robotics, embedded devices, mobile phones, and large high performance computing environments.
+1. dlib
+    - Implementations of state-of-the-art CV and ML algorithms (including face recognition)
+    - Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. It is used in both industry and academia in a wide range of domains including robotics, embedded devices, mobile phones, and large high performance computing environments.
 
-2.  scikit-image
-    -   Collection of algorithms for image processing. Contains some algorithm implementations that OpenCV does not.
+2. scikit-image
+    - Collection of algorithms for image processing. Contains some algorithm implementations that OpenCV does not.
 
-3.  SimpleCV
+3. SimpleCV
 
-<http://simplecv.org
+<http://simplecv.org>
 
-4.  Imbalanced-learn - ML
+4. Imbalanced-learn - ML
 
 <https://pypi.org/project/imbalanced-l>...
 
-5.  Theano - deep learning library
+5. Theano - deep learning library
 
-<http://deeplearning.net/software/theano
+<http://deeplearning.net/software/theano>
 
-6.  LightGBM - machine learning
+6. LightGBM - machine learning
 
 <https://github.com/microsoft/LightGBM>
 
-7.  Eli5 - machine learning
+7. Eli5 - machine learning
 
-<https://pypi.org/project/eli5
+<https://pypi.org/project/eli5>
 
-8.  PyMC3 - Probabilistic Programming in Python
+8. PyMC3 - Probabilistic Programming in Python
 
-<https://docs.pymc.io
+<https://docs.pymc.io>
 
 ## fastText (by facebookResearch)
 
@@ -112,7 +114,7 @@ FastText is an open-source, free, lightweight library that allows users to learn
 
 ## CMU Sphinx
 
-## CMU Sphinx, also called Sphinx in short, is the general term to describe a group of[speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)systems developed at[Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University). These include a series of speech recognizers (Sphinx 2 - 4) and an[acoustic model](https://en.wikipedia.org/wiki/Acoustic_Model)trainer (SphinxTrain).
+## CMU Sphinx, also called Sphinx in short, is the general term to describe a group of[speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)systems developed at[Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University). These include a series of speech recognizers (Sphinx 2 - 4) and an[acoustic model](https://en.wikipedia.org/wiki/Acoustic_Model)trainer (SphinxTrain)
 
 ## SymPy
 
@@ -127,16 +129,18 @@ SymPy - algebraic evaluation, differentiation, expansion, complex numbers
 NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
 
 ## Features
--   Data structures for graphs, digraphs, and multigraphs
--   Many standard graph algorithms
--   Network structure and analysis measures
--   Generators for classic graphs, random graphs, and synthetic networks
--   Nodes can be "anything" (e.g., text, images, XML records)
--   Edges can hold arbitrary data (e.g., weights, time-series)
+
+- Data structures for graphs, digraphs, and multigraphs
+- Many standard graph algorithms
+- Network structure and analysis measures
+- Generators for classic graphs, random graphs, and synthetic networks
+- Nodes can be "anything" (e.g., text, images, XML records)
+- Edges can hold arbitrary data (e.g., weights, time-series)
 
 ## Other tools
--   igraph
--   SNAP
+
+- igraph
+- SNAP
 
 <https://www.toptal.com/data-science/graph-data-science-python-networkx>
 
@@ -170,7 +174,7 @@ Self service solution for Big Data Discovery
 
 All-in-one analytics from easy data preparation to fast visualization
 
-<https://metatron.app
+<https://metatron.app>
 
 ## Lyft Amundsen Data Discovery Metadata Engine
 
@@ -184,11 +188,11 @@ Making Big Data Discoverable and Meaningful atNetflix
 
 Genie is a completely open source distributed job orchestration engine developed by Netflix. Genie provides REST-ful APIs to run a variety of big data jobs like Hadoop, Pig, Hive, Spark, Presto, Sqoop and more. It also provides APIs for managing the metadata of many distributed processing clusters and the commands and applications which run on them.
 
-<https://netflix.github.io/genie
+<https://netflix.github.io/genie>
 
-1.  Stochastic Gradient Descent
+1. Stochastic Gradient Descent
 
-2.  Backpropogation
+2. Backpropogation
 
 ## Monotonic AI Models
 
@@ -204,9 +208,9 @@ Generative Pre-trained Transformer 3 (GPT-3; stylized GPT·3) is an autoregressi
 
 The architecture is a standard[transformer network](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))(with a few engineering tweaks) with the unprecedented size of 2048-token-long context and 175 billion[parameters](https://en.wikipedia.org/wiki/Parameter_(machine_learning))(requiring 800 GB of storage). The training method is "generative pretraining", meaning that it is trained to predict what the next token is. The model demonstrated strong[few-shot learning](https://en.wikipedia.org/wiki/Few-shot_learning)on many text-based tasks.
 
-## ChatGPT - <https://openai.com/blog/chatgpt
+## ChatGPT - <https://openai.com/blog/chatgpt>
 
-Dall E - <https://openai.com/dall-e-2
+Dall E - <https://openai.com/dall-e-2>
 
 <https://en.wikipedia.org/wiki/GPT-3>
 
@@ -230,18 +234,19 @@ Dall E - <https://openai.com/dall-e-2
 
 Kyso is a central knowledge hub to manage, share and collaborate on technical reports - weconvertdata-science tools like Jupyter Notebooks to Medium-styleblog posts published to the web.We're fully integratedwithGithub, meaning when you push your commits, the changes are reflected immediately onKyso.It's very easy to get started - profiles, comments, etc. work right out of the box.
 
-<https://kyso.io
+<https://kyso.io>
 
 ## Jina
 
 Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data
 
 Jinaallows you to build search-as-a-service powered by deep learning in just minutes.
--   **All data types-** Large-scale indexing and querying of any kind of unstructured data: video, image, long/short text, music, source code, PDF, etc.
--   **Fast & cloud-native-** Distributed architecture from day one, scalable & cloud-native by design: enjoy containerizing, streaming, paralleling, sharding, async scheduling, HTTP/gRPC/WebSocket protocol.
--   **Save time-**Thedesign pattern of neural search systems, from zero to a production-ready system in minutes.
--   **Own your stack-** Keep end-to-end stack ownership of your solution, avoid integration pitfalls you get with fragmented, multi-vendor, generic legacy tools.
 
-<https://jina.ai
+- **All data types-** Large-scale indexing and querying of any kind of unstructured data: video, image, long/short text, music, source code, PDF, etc.
+- **Fast & cloud-native-** Distributed architecture from day one, scalable & cloud-native by design: enjoy containerizing, streaming, paralleling, sharding, async scheduling, HTTP/gRPC/WebSocket protocol.
+- **Save time-**Thedesign pattern of neural search systems, from zero to a production-ready system in minutes.
+- **Own your stack-** Keep end-to-end stack ownership of your solution, avoid integration pitfalls you get with fragmented, multi-vendor, generic legacy tools.
+
+<https://jina.ai>
 
 <https://github.com/jina-ai/jina>

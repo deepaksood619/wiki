@@ -26,13 +26,14 @@ The term**hermit kingdom**is used to refer to any country, organization or socie
 
 ![image](media/Others-image4.jpg)
 
-<https://lotusarise.com/koppen-climate-classification-system-upsc
+<https://lotusarise.com/koppen-climate-classification-system-upsc>
 
 ## Climatology: [Climatology](https://www.youtube.com/playlist?list=PL1vNLZF5gfwdEws_cLSiMQfXDC6ev3knK)
--   Indian Ocean Dipole
--   ENSO (El Nino, Southern Oscillation)
-    -   Thermocline
--   Subtropical high, Subpolar low, Easterlies, Westerlies
--   Hadley Cell
+
+- Indian Ocean Dipole
+- ENSO (El Nino, Southern Oscillation)
+  - Thermocline
+- Subtropical high, Subpolar low, Easterlies, Westerlies
+- Hadley Cell
 
 [Lakes in India](https://www.youtube.com/playlist?list=PL1vNLZF5gfwd1-1Wli0O6m2J3sJjr1FA5)

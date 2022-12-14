@@ -12,11 +12,11 @@ Python3.5 - Randomized (Key sharing dictionaries, dict_size = 196)
 
 Python3.6 - Ordered (Compact dictionaries, dict_size = 112)
 
-1.  Databases
+1. Databases
 
-2.  Association Lists
+2. Association Lists
 
-3.  Separate Chaining
+3. Separate Chaining
 
     a.  separate_chaining(2)
 
@@ -24,15 +24,15 @@ Python3.6 - Ordered (Compact dictionaries, dict_size = 112)
 
     c.  separate_chaining(8) (remove collisions, but wasted space due to over allocations for lists to grow)
 
-4.  Open Addressing
+4. Open Addressing
 
 Can have catatrophic collision wherever every item hash to same value
 
-5.  Multiple Hashing
+5. Multiple Hashing
 
-6.  Key-Sharing Dict
+6. Key-Sharing Dict
 
-7.  Compact Dict
+7. Compact Dict
 
     a.  Use a list to store the lookups
 

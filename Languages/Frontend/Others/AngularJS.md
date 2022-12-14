@@ -10,7 +10,7 @@ Modified: 2022-09-14 20:50:47 +0500
 
 <https://medium.freecodecamp.org/want-to-learn-angular-heres-our-free-33-part-course-by-dan-wahlin-fc2ff27ab451>
 
-<https://www.freecodecamp.org/news/learn-angular-full-course
+<https://www.freecodecamp.org/news/learn-angular-full-course>
 
 <https://www.toptal.com/angular-js/interview-questions>
 
@@ -26,7 +26,7 @@ Then you launch the app by*bootstrapping*the*root module*. Angular takes over, p
 
 ![image](media/AngularJS-image1.png)
 
-1.  Modules - Angular apps are modular and Angular has its own modularity system called*NgModules*.
+1. Modules - Angular apps are modular and Angular has its own modularity system called*NgModules*.
 
 ## Angular Ivy
 

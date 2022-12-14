@@ -5,9 +5,10 @@ Created: 2018-03-24 20:31:17 +0500
 Modified: 2021-11-16 00:31:15 +0500
 
 ---
--   Always component name should start with Capital letter
--   CamelCase with first letter capatilized
--   One component in one file with same name (MyInfo.js)
+
+- Always component name should start with Capital letter
+- CamelCase with first letter capatilized
+- One component in one file with same name (MyInfo.js)
 
 ## // creating a component
 
@@ -46,8 +47,9 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 
 React is diverged into two libraries
--   React (core - render, nest)
--   React-DOM (insertion into DOM)
+
+- React (core - render, nest)
+- React-DOM (insertion into DOM)
 
 // Error: Target container is not a DOM element
 
@@ -72,7 +74,8 @@ export default SearchBar;
 import SearchBar from './components/search_bar';
 
 ## Components Type
--   Functional component (it's a function)
+
+- Functional component (it's a function)
 
 Some info goes in, some JSX comes out.
 
@@ -82,8 +85,7 @@ return <h1>Hello, {props.name}</h1>;
 
 }
 
-
--   Class component
+- Class component
 
 Component to have some time of internal record-keeping. Some ability to be aware of itself and know what has happenned since its been rendered.
 
@@ -137,15 +139,15 @@ return <input onChange={event => console.log(event.target.value)}
 
 ## Converting a Function to a Class
 
-1.  Create an[ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes), with the same name, that extendsReact.Component.
+1. Create an[ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes), with the same name, that extendsReact.Component.
 
-2.  Add a single empty method to it calledrender().
+2. Add a single empty method to it calledrender().
 
-3.  Move the body of the function into therender()method.
+3. Move the body of the function into therender()method.
 
-4.  Replacepropswiththis.propsin therender()body.
+4. Replacepropswiththis.propsin therender()body.
 
-5.  Delete the remaining empty function declaration.
+5. Delete the remaining empty function declaration.
 
 class Clock extends React.Component {
 

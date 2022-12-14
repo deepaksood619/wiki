@@ -7,12 +7,13 @@ Modified: 2021-10-28 23:19:56 +0500
 ---
 
 JSX Rules
--   return single element
--   div / section / article or Fragment
--   use camelCase for html attribute
--   className instead of class (since class is already a keyword)
--   close every element
--   formatting
+
+- return single element
+- div / section / article or Fragment
+- use camelCase for html attribute
+- className instead of class (since class is already a keyword)
+- close every element
+- formatting
 
 dialect of javascript
 

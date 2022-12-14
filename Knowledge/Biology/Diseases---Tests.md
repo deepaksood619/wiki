@@ -7,8 +7,9 @@ Modified: 2021-08-14 10:17:41 +0500
 ---
 
 ## Lifestyle related disease
--   Obesity
--   Hypertension
+
+- Obesity
+- Hypertension
 
 We've discovered that there are more than 70,000 ways the human body can fail. 70,000 different diagnoses for our 13 organ systems. We've developed 6,000 drugs, 4,000 medical and surgical procedures
 
@@ -16,7 +17,7 @@ We've discovered that there are more than 70,000 ways the human body can fail. 7
 
 Celiac disease is a chronic digestive disorder resulting from an immune reaction to gliadin, a gluten protein found in wheat, barley, rye, and sometimes oats.
 
-[Celiac disease](https://en.wikipedia.org/wiki/Celiac_disease)(CD) is a chronic, multiple-organ[autoimmune disorder](https://en.wikipedia.org/wiki/Autoimmune_disorder)primarily affecting the[small intestine](https://en.wikipedia.org/wiki/Small_intestine)caused by the ingestion of wheat, barley, rye, oats, and derivatives, that appears in[genetically predisposed](https://en.wikipedia.org/wiki/Genetic_predisposition)people of all ages.CD is not only a gastrointestinal disease, because it may involve several organs and cause an extensive variety of non-gastrointestinal symptoms, and most importantly, it may be apparently asymptomatic.Many asymptomatic people actually are not, but have become accustomed to living with a chronic bad health status as if it were normal, and they are able to recognize that they actually had symptoms related to celiac disease after starting the gluten-free diet and improvement is evident, in contrast to the situation prior to the diet.Added difficulties for diagnosis are the fact that serological markers ([anti-tissue transglutaminase](https://en.wikipedia.org/wiki/Anti-transglutaminase_antibodies#Anti-tissue_transglutaminase)[TG2]) are not always present and many people may have minor mucosal lesions, without atrophy of the[intestinal villi](https://en.wikipedia.org/wiki/Intestinal_villi).
+[Celiac disease](https://en.wikipedia.org/wiki/Celiac_disease)(CD) is a chronic, multiple-organ[autoimmune disorder](https://en.wikipedia.org/wiki/Autoimmune_disorder)primarily affecting the[small intestine](https://en.wikipedia.org/wiki/Small_intestine)caused by the ingestion of wheat, barley, rye, oats, and derivatives, that appears in[genetically predisposed](https://en.wikipedia.org/wiki/Genetic_predisposition)people of all ages.CD is not only a gastrointestinal disease, because it may involve several organs and cause an extensive variety of non-gastrointestinal symptoms, and most importantly, it may be apparently asymptomatic.Many asymptomatic people actually are not, but have become accustomed to living with a chronic bad health status as if it were normal, and they are able to recognize that they actually had symptoms related to celiac disease after starting the gluten-free diet and improvement is evident, in contrast to the situation prior to the diet.Added difficulties for diagnosis are the fact that serological markers [[anti-tissue transglutaminase](https://en.wikipedia.org/wiki/Anti-transglutaminase_antibodies#Anti-tissue_transglutaminase](TG2)) are not always present and many people may have minor mucosal lesions, without atrophy of the[intestinal villi](https://en.wikipedia.org/wiki/Intestinal_villi).
 
 CD affects approximately 1--2% of the general population,but most cases remain unrecognized, undiagnosed and untreated, and at risk for serious long-term health complications.People may suffer severe disease symptoms and be subjected to extensive investigations for many years, before a proper diagnosis is achieved.Untreated CD may cause[malabsorption](https://en.wikipedia.org/wiki/Malabsorption), reduced quality of life,[iron deficiency](https://en.wikipedia.org/wiki/Iron_deficiency), [osteoporosis](https://en.wikipedia.org/wiki/Osteoporosis), an increased risk of intestinal[lymphomas](https://en.wikipedia.org/wiki/Lymphoma), and greater mortality. CD is associated with some other autoimmune diseases, such as[diabetes mellitus type 1](https://en.wikipedia.org/wiki/Diabetes_mellitus_type_1),[thyroiditis](https://en.wikipedia.org/wiki/Thyroiditis),[gluten ataxia](https://en.wikipedia.org/wiki/Ataxia), [psoriasis](https://en.wikipedia.org/wiki/Psoriasis), [vitiligo](https://en.wikipedia.org/wiki/Vitiligo),[autoimmune hepatitis](https://en.wikipedia.org/wiki/Autoimmune_hepatitis),[dermatitis herpetiformis](https://en.wikipedia.org/wiki/Dermatitis_herpetiformis), [primary sclerosing cholangitis](https://en.wikipedia.org/wiki/Primary_sclerosing_cholangitis), and more.
 
@@ -30,7 +31,7 @@ CD with "non-classic symptoms" is the most common clinical typeand occurs in old
 
 Non-celiac gluten sensitivity (NCGS) is described as a condition of multiple symptoms that improves when switching to a[gluten-free diet](https://en.wikipedia.org/wiki/Gluten-free_diet), after celiac disease and wheat allergy are excluded. Recognized since 2010,it is included among[gluten-related disorders](https://en.wikipedia.org/wiki/Gluten-related_disorders).Its[pathogenesis](https://en.wikipedia.org/wiki/Pathogenesis)is not yet well understood, but the activation of the innate immune system, the direct negative effects of gluten and probably other wheat components, are implicated.
 
-NCGS is the most common syndrome of[gluten intolerance](https://en.wikipedia.org/wiki/Gluten_intolerance),[[58]](https://en.wikipedia.org/wiki/Gluten#cite_note-CatassiBai-58)[[60]](https://en.wikipedia.org/wiki/Gluten#cite_note-CzajaBulsa-60)with a prevalence estimated to be 6-10%.NCGS is becoming a more common diagnosis, but its true prevalence is difficult to determine because many people self-diagnose and start a gluten-free diet, without having previously tested for celiac disease or having the dietary prescription from a physician.People with NCGS and gastrointestinal symptoms remain habitually in a "no man's land", without being recognized by the specialists and lacking the adequate medical care and treatment.Most of these people have a long history of health complaints and unsuccessful consultations with numerous physicians, trying to get a diagnosis of celiac disease, but they are only labeled as[irritable bowel syndrome](https://en.wikipedia.org/wiki/Irritable_bowel_syndrome).A consistent although undefined number of people eliminate gluten because they identify it as responsible for their symptoms and these improve with the[gluten-free diet](https://en.wikipedia.org/wiki/Gluten-free_diet), so they self-diagnose as NCGS.
+NCGS is the most common syndrome of[gluten intolerance](https://en.wikipedia.org/wiki/Gluten_intolerance),[[58]][https://en.wikipedia.org/wiki/Gluten#cite_note-CatassiBai-58]([60)](https://en.wikipedia.org/wiki/Gluten#cite_note-CzajaBulsa-60)with a prevalence estimated to be 6-10%.NCGS is becoming a more common diagnosis, but its true prevalence is difficult to determine because many people self-diagnose and start a gluten-free diet, without having previously tested for celiac disease or having the dietary prescription from a physician.People with NCGS and gastrointestinal symptoms remain habitually in a "no man's land", without being recognized by the specialists and lacking the adequate medical care and treatment.Most of these people have a long history of health complaints and unsuccessful consultations with numerous physicians, trying to get a diagnosis of celiac disease, but they are only labeled as[irritable bowel syndrome](https://en.wikipedia.org/wiki/Irritable_bowel_syndrome).A consistent although undefined number of people eliminate gluten because they identify it as responsible for their symptoms and these improve with the[gluten-free diet](https://en.wikipedia.org/wiki/Gluten-free_diet), so they self-diagnose as NCGS.
 
 People with NCGS may develop gastrointestinal symptoms, which resemble those of[irritable bowel syndrome](https://en.wikipedia.org/wiki/Irritable_bowel_syndrome)or[wheat allergy](https://en.wikipedia.org/wiki/Wheat_allergy),or a wide variety of non-gastrointestinal symptoms, such as[headache](https://en.wikipedia.org/wiki/Headache), chronic[fatigue](https://en.wikipedia.org/wiki/Fatigue_(medical)),[fibromyalgia](https://en.wikipedia.org/wiki/Fibromyalgia),[atopic diseases](https://en.wikipedia.org/wiki/Atopy),[allergies](https://en.wikipedia.org/wiki/Allergy),[neurological diseases](https://en.wikipedia.org/wiki/Neurological_disorder), or[psychiatric disorders](https://en.wikipedia.org/wiki/Mental_disorder), among others.The results of a 2017 study suggest that NCGS may be a chronic disorder, as is the case with celiac disease.
 
@@ -52,13 +53,13 @@ Hyperthyroidism, or overactive thyroid, happens when the thyroid gland produces 
 
 <https://www.medicalnewstoday.com/articles/9153.php>
 
-1.  Injury
+1. Injury
 
     a.  Don't put water on skin damage and never itch the blood clot appear after injury, it will heal faster
 
     b.  Put betadine on it and don't cover it, cover while bathing
 
-2.  Brushing Teeth
+2. Brushing Teeth
 
     a.  Change brush every 3 months
 
@@ -84,7 +85,7 @@ Hyperthyroidism, or overactive thyroid, happens when the thyroid gland produces 
 
     l.  Wait 30 min after eating before brushing
 
-3.  Cough
+3. Cough
 
     a.  Drink hot ghee with adrak juice
 
@@ -120,21 +121,17 @@ It can be prevented in babies before birth
 
 ![image](media/Diseases---Tests-image1.png)
 
-
--   fasting lipid profile test (full lipid profile or lipoprotein analysis) - every 5 years
-    -   total cholestral
-    -   LDL
-    -   HDL
-    -   Triglyceride
+- fasting lipid profile test (full lipid profile or lipoprotein analysis) - every 5 years
+  - total cholestral
+  - LDL
+  - HDL
+  - Triglyceride
 
 ![image](media/Diseases---Tests-image2.png)
 
-
--   Blood Pressure (every year)
+- Blood Pressure (every year)
 
 ![image](media/Diseases---Tests-image3.png)
-
-
 
 ## Hemorrhoid / Piles
 
@@ -153,62 +150,63 @@ Aherniais the abnormal exit of tissue or an[organ](https://en.wikipedia.org/wiki
 An eating disorder characterized by markedly reduced appetite or total aversion to food.Anorexiais a serious psychological disorder. It is a condition that goes well beyond out-of-control dieting. The person withanorexia, most often a girl or young woman, initially begins dieting to lose weight.
 
 ## Boils
--   A boil is a common, painful infection of a hair follicle and the surrounding skin. It begins as a red lump, then fills with pus as white blood cells rush in to fight the infection. Good home care can often clear up a single boil, also known as a skin abscess. A doctor's care is needed when a boil resists treatment or develops in certain vulnerable areas of the body.
+
+- A boil is a common, painful infection of a hair follicle and the surrounding skin. It begins as a red lump, then fills with pus as white blood cells rush in to fight the infection. Good home care can often clear up a single boil, also known as a skin abscess. A doctor's care is needed when a boil resists treatment or develops in certain vulnerable areas of the body.
 
 ![image](media/Diseases---Tests-image4.jpg)
--   You may also have a general feeling of ill health, fatigue, or a fever, which is reason to call a doctor.
--   Most boils are caused by **staph bacteria (Staphylococcus aureus)**. When a scrape, cut, or splinter breaks the skin, the bacteria can enter a hair follicle and start an infection.
--   Not exactly, but the germs that cause boils (staph) are easily spread through skin-to-skin contact and contaminated objects. These bacteria usually do no harm unless they find a break in the skin. To avoid spreading staph, don't share towels, bedding, clothes, or sports gear while you have a boil. Avoid touching the boil, and keep it covered. Frequent hand washing can also help prevent spreading the bacteria.
-    -   Since bacteria are everywhere in our environments and on many people's skin, the best defense against boils includes:
-        -   Hand washing or use of alcohol-based hand sanitizer
-        -   Careful cleaning of cuts, scrapes, and other wounds
-        -   Keeping wounds covered
-        -   Not sharing towels, sheets, razors, etc.
-    -   Wash towels, sheets, and anything else in contact with an infected area in very hot water. Throw away any wound dressings in a tightly sealed bag.
-    -
--   **Types of Boil**
-    -   **Carbuncle**
+
+- You may also have a general feeling of ill health, fatigue, or a fever, which is reason to call a doctor.
+- Most boils are caused by **staph bacteria (Staphylococcus aureus)**. When a scrape, cut, or splinter breaks the skin, the bacteria can enter a hair follicle and start an infection.
+- Not exactly, but the germs that cause boils (staph) are easily spread through skin-to-skin contact and contaminated objects. These bacteria usually do no harm unless they find a break in the skin. To avoid spreading staph, don't share towels, bedding, clothes, or sports gear while you have a boil. Avoid touching the boil, and keep it covered. Frequent hand washing can also help prevent spreading the bacteria.
+  - Since bacteria are everywhere in our environments and on many people's skin, the best defense against boils includes:
+    - Hand washing or use of alcohol-based hand sanitizer
+    - Careful cleaning of cuts, scrapes, and other wounds
+    - Keeping wounds covered
+    - Not sharing towels, sheets, razors, etc.
+  - Wash towels, sheets, and anything else in contact with an infected area in very hot water. Throw away any wound dressings in a tightly sealed bag.
+  -
+- **Types of Boil**
+  - **Carbuncle**
 
 When several boils form close together and join beneath the skin, it's called a carbuncle. They are most commonly found on the back and the neck but can develop anywhere. Men are more likely to develop carbuncles than women. A carbuncle tends to lie deeper beneath the skin than a boil and can take longer to heal.
 
 ![image](media/Diseases---Tests-image5.jpg)
--   Cystic Acne
--   Armpit and Groin (hidradenitis suppurativa)
--   Pilonidal Abscess
--   Stye
 
--   Anyone can develop a boil. The risk increases with:
-    -   Close contact with an infected person
-    -   Acne, eczema, or other causes of breaks in the skin
-    -   Diabetes
-    -   A weakened immune system
-    -   Poor[nutrition](http://www.medicinenet.com/script/main/art.asp?articlekey=10192)
-    -   Poor hygiene
-    -   Exposure to harsh chemicals that irritate the skin
+- Cystic Acne
+- Armpit and Groin (hidradenitis suppurativa)
+- Pilonidal Abscess
+- Stye
 
+- Anyone can develop a boil. The risk increases with:
+  - Close contact with an infected person
+  - Acne, eczema, or other causes of breaks in the skin
+  - Diabetes
+  - A weakened immune system
+  - Poor[nutrition](http://www.medicinenet.com/script/main/art.asp?articlekey=10192)
+  - Poor hygiene
+  - Exposure to harsh chemicals that irritate the skin
 
--   **Treatment**
-    -   Apply warm, moist compresses several times a day to help a boil open and drain. After it starts draining, keep it clean, and continue using warm compresses -- a clean one every time. Change the bandage often and wash hands well. Resist the urge to squeeze or pop the boil. This can make the infection worse.
-    -   When the boil starts draining, wash it with an antibacterial soap until all the pus is gone and clean with rubbing alcohol. Apply a medicated ointment (topical antibiotic) and a bandage. Continue to wash the infected area two to three times a day and to use warm compresses until the wound heals.
+- **Treatment**
+  - Apply warm, moist compresses several times a day to help a boil open and drain. After it starts draining, keep it clean, and continue using warm compresses -- a clean one every time. Change the bandage often and wash hands well. Resist the urge to squeeze or pop the boil. This can make the infection worse.
+  - When the boil starts draining, wash it with an antibacterial soap until all the pus is gone and clean with rubbing alcohol. Apply a medicated ointment (topical antibiotic) and a bandage. Continue to wash the infected area two to three times a day and to use warm compresses until the wound heals.
 
+- Warm compresses may promote the drainage and healing of carbuncles. Gently soak the carbuncle in warm water, or apply a clean, warm, moist washcloth for 20 minutes several times per day. Similar strategies include covering the carbuncle with a clean, dry cloth and gently applying a heating pad or hot water bottle for 20 minutes several times per day. After each use, washcloths or cloths should be washed in hot water and dried at a high temperature.
+- Washing the carbuncle and covering the area with a sterile bandage also may promote drainage and healing and help prevent the infection from spreading. Over-the-counter[medications](https://www.webmd.com/drugs/index-drugs.aspx)such as[acetaminophen](https://www.webmd.com/drugs/2/drug-362/acetaminophen+oral/details)or[ibuprofen](https://www.webmd.com/drugs/mono-9368-IBUPROFEN+-+ORAL.aspx?drugid=5166&drugname=ibuprofen+oral)can help relieve the pain of an inflamed carbuncle.
+- It's important to thoroughly[wash your hands](https://www.webmd.com/cold-and-flu/cold-guide/cold-prevention-hand-washing)after touching a carbuncle. Launder any clothing, bedding, and towels that have touched a carbuncle and avoid sharing bedding, clothing, or other personal items.
+- Depending on severity, most carbuncles heal within two to three weeks after medical treatment.
 
--   Warm compresses may promote the drainage and healing of carbuncles. Gently soak the carbuncle in warm water, or apply a clean, warm, moist washcloth for 20 minutes several times per day. Similar strategies include covering the carbuncle with a clean, dry cloth and gently applying a heating pad or hot water bottle for 20 minutes several times per day. After each use, washcloths or cloths should be washed in hot water and dried at a high temperature.
--   Washing the carbuncle and covering the area with a sterile bandage also may promote drainage and healing and help prevent the infection from spreading. Over-the-counter[medications](https://www.webmd.com/drugs/index-drugs.aspx)such as[acetaminophen](https://www.webmd.com/drugs/2/drug-362/acetaminophen+oral/details)or[ibuprofen](https://www.webmd.com/drugs/mono-9368-IBUPROFEN+-+ORAL.aspx?drugid=5166&drugname=ibuprofen+oral)can help relieve the pain of an inflamed carbuncle.
--   It's important to thoroughly[wash your hands](https://www.webmd.com/cold-and-flu/cold-guide/cold-prevention-hand-washing)after touching a carbuncle. Launder any clothing, bedding, and towels that have touched a carbuncle and avoid sharing bedding, clothing, or other personal items.
--   Depending on severity, most carbuncles heal within two to three weeks after medical treatment.
-
--   **When to Call the Doctor**
+- **When to Call the Doctor**
 
 If a boil doesn't heal after a week of home care, call your doctor. Other reasons to call include:
--   A boil on the face or spine
--   A fever or red streaks coming from the sore
--   A very large or painful boil
--   A boil that keeps coming back
--   The skin around the boil turns red or red streaks appear.
--   The pain becomes severe.
--   The boil does not drain.
--   A second boil appears.
 
+- A boil on the face or spine
+- A fever or red streaks coming from the sore
+- A very large or painful boil
+- A boil that keeps coming back
+- The skin around the boil turns red or red streaks appear.
+- The pain becomes severe.
+- The boil does not drain.
+- A second boil appears.
 
--   **Complications**
-    -   Sometimes, carbuncles are caused by methicillin-resistantStaphylococcus aureus([MRSA](https://www.webmd.com/skin-problems-and-treatments/understanding-mrsa)) bacteria, and require treatment with potent prescription[antibiotics](https://www.webmd.com/cold-and-flu/rm-quiz-antibiotics-myths-facts)if the lesions are not drained properly.
+- **Complications**
+  - Sometimes, carbuncles are caused by methicillin-resistantStaphylococcus aureus([MRSA](https://www.webmd.com/skin-problems-and-treatments/understanding-mrsa)) bacteria, and require treatment with potent prescription[antibiotics](https://www.webmd.com/cold-and-flu/rm-quiz-antibiotics-myths-facts)if the lesions are not drained properly.

@@ -113,6 +113,7 @@ So, it turns out that there are a set of techniques called vectorizationtechniqu
 ## Z = W^T^X + b
 
 ## Example
+
 ```
 import time
 
@@ -136,7 +137,6 @@ toc = time.time()
 print(c)
 print(f"For loop {1000*(toc-tic)} ms")
 ```
-
 
 ## Neural network programming guideline
 
@@ -195,11 +195,13 @@ matrix (3, 4) / matrix (1, 4)
 True or False: Minimizing the loss corresponds with maximizing logp(y|x) - **True**
 
 ## Programming Assignment 1
--   We rarely use the "math" library in deep learning because the inputs of the functions are real numbers. In deep learning we mostly use matrices and vectors. This is why numpy is more useful.
--   sigmoid_grad() to compute the gradient of the sigmoid function with respect to its input x. The formula is:
+
+- We rarely use the "math" library in deep learning because the inputs of the functions are real numbers. In deep learning we mostly use matrices and vectors. This is why numpy is more useful.
+- sigmoid_grad() to compute the gradient of the sigmoid function with respect to its input x. The formula is:
 
 sigmoid_derivative(x)=σ′(x)=σ(x)(1−σ(x))
--   Another common technique we use in Machine Learning and Deep Learning is to normalize our data. It often leads to a better performance because gradient descent converges faster after normalization. Here, by normalization we mean changing x tox/∥x∥(dividing each row vector of x by its norm).
+
+- Another common technique we use in Machine Learning and Deep Learning is to normalize our data. It often leads to a better performance because gradient descent converges faster after normalization. Here, by normalization we mean changing x tox/∥x∥(dividing each row vector of x by its norm).
 
 For example, if
 
@@ -212,12 +214,12 @@ For example, assume your input dataset contains one column with values ranging f
 Normalizationavoids these problems by creating new values that maintain the general distribution and ratios in the source data, while keeping values within a scale applied across all numeric columns used in the model.
 
 ## L1 Loss
--   The loss is used to evaluate the performance of your model. The bigger your loss is, the more different your predictions (ŷy^) are from the true values (yy). In deep learning, you use optimization algorithms like Gradient Descent to train your model and to minimize the cost.
--   L1 loss is defined as:
+
+- The loss is used to evaluate the performance of your model. The bigger your loss is, the more different your predictions (ŷy^) are from the true values (yy). In deep learning, you use optimization algorithms like Gradient Descent to train your model and to minimize the cost.
+- L1 loss is defined as:
 
 ![image](media/DL-Specialization_Neural-network-and-deep-learning-image29.png)
 
-
--   L2 loss is defined as:
+- L2 loss is defined as:
 
 ![](media/DL-Specialization_Neural-network-and-deep-learning-image30.png)

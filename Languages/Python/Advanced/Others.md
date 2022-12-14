@@ -29,14 +29,22 @@ So in this case theMixin2class is the base class, extended byMixin1and finally b
 
 Closures are nothing but functions that are returned by another function. We use closures to remove code duplication.
 
-## >>> def add_number(num):
-## ...** **def adder(number):
+## >>> def add_number(num)
+
+## ...****def adder(number)
+
 ## ... 'adder is a closure'
-## ...** **return num + number
-## ...** **return adder
-## ...
+
+## ...****return num + number
+
+## ...****return adder
+
+##
+
 ## >>> a_10 = add_number(10)
+
 ## >>> a_10(21)
+
 31
 
 *adder*is a closure which adds a given number to a pre-defined one.
@@ -47,47 +55,61 @@ Decorator is way to dynamically add some new behavior to some objects. We achiev
 
 In the example we will create a simple example which will print some statement before and after the execution of a function.
 
-## >>> def my_decorator(func):
-## ...** **def** wrapper(*args, kwargs):
+## >>> def my_decorator(func)
+
+## ...****def** wrapper(*args, kwargs)
+
 ## ... print("Before call")
+
 ## ...** result = func(*args, kwargs)
+
 ## ... print("After call")
-## ...** **return result
-## ...** **return wrapper
-## ...
+
+## ...****return result
+
+## ...****return wrapper
+
+##
+
 ## >>> @my_decorator
-## ... def add(a, b):
+
+## ... def add(a, b)
+
 ## ... "Our add function"
-## ...** **return a + b
-## ...
+
+## ...****return a + b
+
+##
+
 ## >>> add(1, 3)
+
 Before call
 After call
 4
 
 ## Context Managers
 
-A context manager is an object with[**__enter__**](https://docs.python.org/2.7/reference/datamodel.html#object.__enter__)and[**__exit__**](https://docs.python.org/2.7/reference/datamodel.html#object.__exit__)methods which can be used in the[with](https://docs.python.org/2.7/reference/compound_stmts.html#with) statement:
+A context manager is an object with[****enter****](https://docs.python.org/2.7/reference/datamodel.html#object.__enter__)and[****exit****](https://docs.python.org/2.7/reference/datamodel.html#object.__exit__)methods which can be used in the[with](https://docs.python.org/2.7/reference/compound_stmts.html#with) statement:
 
-## with** manager **as var:
+## with**manager**as var
 
 do_something(var)
 
 is in the simplest case equivalent to
 
-var = manager.__enter__()
+var = manager.**enter**()
 
-## try:
+## try
 
 do_something(var)
 
-## finally:
+## finally
 
-manager.__exit__()
+manager.**exit**()
 
 Example:
 
-## with** open('/tmp/file', 'a') **as f:
+## with**open('/tmp/file', 'a')**as f
 
 f.write('more contents**n**')
 
@@ -107,16 +129,18 @@ The[tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)packa
 IDLE is Python's Integrated Development and Learning Environment.
 
 IDLE has the following features:
--   coded in 100% pure Python, using the[tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)GUI toolkit
--   cross-platform: works mostly the same on Windows, Unix, and Mac OS X
--   Python shell window (interactive interpreter) with colorizing of code input, output, and error messages
--   multi-window text editor with multiple undo, Python colorizing, smart indent, call tips, auto completion, and other features
--   search within any window, replace within editor windows, and search through multiple files (grep)
--   debugger with persistent breakpoints, stepping, and viewing of global and local namespaces
--   configuration, browsers, and other dialogs
+
+- coded in 100% pure Python, using the[tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)GUI toolkit
+- cross-platform: works mostly the same on Windows, Unix, and Mac OS X
+- Python shell window (interactive interpreter) with colorizing of code input, output, and error messages
+- multi-window text editor with multiple undo, Python colorizing, smart indent, call tips, auto completion, and other features
+- search within any window, replace within editor windows, and search through multiple files (grep)
+- debugger with persistent breakpoints, stepping, and viewing of global and local namespaces
+- configuration, browsers, and other dialogs
 
 ## Facts
--   Boolean is integer in Python
+
+- Boolean is integer in Python
 
 >>> isinstance(**True**, int)
 
@@ -148,29 +172,30 @@ Context managers that have state should use Context Variables instead of [thread
 
 ## MicroPython
 
-<https://realpython.com/micropython
+<https://realpython.com/micropython>
 
 ## Descriptors
 
 Descriptors are Python objects that implement a method of thedescriptor protocol, which gives you the ability to create objects that have special behavior when they're accessed as attributes of other objects. Here you can see the correct definition of the descriptor protocol:
 
-__get__(self, obj, type=None) -> object
-__set__(self, obj, value) -> None
-__delete__(self, obj) -> None
-__set_name__(self, owner, name)
+**get**(self, obj, type=None) -> object
+**set**(self, obj, value) -> None
+**delete**(self, obj) -> None
+**set_name**(self, owner, name)
 
-If your descriptor implements just.__get__(), then it's said to be anon-data descriptor. If it implements.__set__()or.__delete__(), then it's said to be adata descriptor. Note that this difference is not just about the name, but it's also a difference in behavior. That's because data descriptors have precedence during the lookup process
+If your descriptor implements just.**get**(), then it's said to be anon-data descriptor. If it implements.**set**()or.**delete**(), then it's said to be adata descriptor. Note that this difference is not just about the name, but it's also a difference in behavior. That's because data descriptors have precedence during the lookup process
 
-<https://realpython.com/python-descriptors
+<https://realpython.com/python-descriptors>
 
 ## ipython
 
 IPython(Interactive Python) is a[command shell](https://en.wikipedia.org/wiki/Shell_(computing))for interactive computing in multiple programming languages, originally developed for the[Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), that offers[introspection](https://en.wikipedia.org/wiki/Introspection_(computer_science)),[rich media](https://en.wikipedia.org/wiki/Rich_media), shell syntax,[tab completion](https://en.wikipedia.org/wiki/Tab_completion), and history. IPython provides the following features:
--   Interactive shells (terminal and[Qt](https://en.wikipedia.org/wiki/Qt_(framework))-based).
--   A browser-based[notebook interface](https://en.wikipedia.org/wiki/Notebook_interface)with support for code, text, mathematical expressions, inline plots and other media.
--   Support for interactive data visualization and use of GUI toolkits.
--   Flexible, embeddable interpreters to load into one's own projects.
--   Tools for[parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
+
+- Interactive shells (terminal and[Qt](https://en.wikipedia.org/wiki/Qt_(framework))-based).
+- A browser-based[notebook interface](https://en.wikipedia.org/wiki/Notebook_interface)with support for code, text, mathematical expressions, inline plots and other media.
+- Support for interactive data visualization and use of GUI toolkits.
+- Flexible, embeddable interpreters to load into one's own projects.
+- Tools for[parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
 
 <https://en.wikipedia.org/wiki/IPython>
 
@@ -204,13 +229,13 @@ python -m package.standalone
 
 ## Others
 
-<https://dev.libreneitor.com/expert-python-topics-you-should-know
+<https://dev.libreneitor.com/expert-python-topics-you-should-know>
 
-<https://realpython.com/run-python-scripts
+<https://realpython.com/run-python-scripts>
 
-<https://realpython.com/storing-images-in-python
+<https://realpython.com/storing-images-in-python>
 
-<https://realpython.com/python-coding-interview-tips
+<https://realpython.com/python-coding-interview-tips>
 
 <https://www.codementor.io/@arpitbhayani/how-python-implements-super-long-integers-12icwon5vk>
 

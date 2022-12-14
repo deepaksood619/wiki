@@ -8,19 +8,19 @@ Modified: 2021-06-11 00:39:53 +0500
 
 ## Why Is a Graph Difficult To Analyze?
 
-1.  A graph does not exist in a Euclidean space, which means it cannot be represented by any coordinate systems that we are familiar with. This makes the interpretation of graph data much harder as compared to other types of data such as waves, images, or time-series signals("text" can also be treated as time-series), which can be easily mapped to a 2-D or 3-D Euclidean space.
+1. A graph does not exist in a Euclidean space, which means it cannot be represented by any coordinate systems that we are familiar with. This makes the interpretation of graph data much harder as compared to other types of data such as waves, images, or time-series signals("text" can also be treated as time-series), which can be easily mapped to a 2-D or 3-D Euclidean space.
 
-2.  A graph does not have a fixed form. Why? Graph (A) and Graph (B) have a completely different structure and visually different. But when we convert it to adjacency matrix representation, the two graphs have the same adjacency matrix (if we don't consider the weight of edges). So should we consider these two graphs are the same or different?
+2. A graph does not have a fixed form. Why? Graph (A) and Graph (B) have a completely different structure and visually different. But when we convert it to adjacency matrix representation, the two graphs have the same adjacency matrix (if we don't consider the weight of edges). So should we consider these two graphs are the same or different?
 
-3.  A graph is in general hard to visualize for human interpretation.. I'm talking about giant graphs that involve hundreds or thousands of nodes. The dimension is very high and nodes are densely grouped, making it even difficult for a human to understand the graph. Therefore, it is challenging to train a machine for this task.
+3. A graph is in general hard to visualize for human interpretation.. I'm talking about giant graphs that involve hundreds or thousands of nodes. The dimension is very high and nodes are densely grouped, making it even difficult for a human to understand the graph. Therefore, it is challenging to train a machine for this task.
 
 ## Why Use Graphs?
 
-1.  Graphs provide a better way of dealing with abstract concepts like relationships and interactions. They also offer an intuitively visual way of thinking about these concepts. Graphs also form a natural basis for analyzing relationships in a social context.
+1. Graphs provide a better way of dealing with abstract concepts like relationships and interactions. They also offer an intuitively visual way of thinking about these concepts. Graphs also form a natural basis for analyzing relationships in a social context.
 
-2.  Graphs can solve more complex problems by simplifying the problems into simpler representations or transform the problems into representations from different perspectives.
+2. Graphs can solve more complex problems by simplifying the problems into simpler representations or transform the problems into representations from different perspectives.
 
-3.  Graph Theories and concepts are used to study and model Social Networks, Fraud patterns, Power consumption patterns, Virality and Influence in Social Media. Social Network Analysis (SNA) is probably the best-known application of Graph Theory for[Data Science](https://courses.analyticsvidhya.com/courses/introduction-to-data-science-2?utm_source=blog&utm_medium=IntroductionGraphTheoryarticle).
+3. Graph Theories and concepts are used to study and model Social Networks, Fraud patterns, Power consumption patterns, Virality and Influence in Social Media. Social Network Analysis (SNA) is probably the best-known application of Graph Theory for[Data Science](https://courses.analyticsvidhya.com/courses/introduction-to-data-science-2?utm_source=blog&utm_medium=IntroductionGraphTheoryarticle).
 
 ## Traditional Graph Analysis Methods
 
@@ -62,11 +62,11 @@ b.  Link Prediction
 
 c.  Graph Classification
 
-## Innode classification, the task is to predict the node embedding for every node in a graph. This type of problem is usually trained in a semi-supervised way, where only part of the graph is labeled. Typical applications for node classification include citation networks, Reddit posts, Youtube videos, and Facebook friends relationships.
+## Innode classification, the task is to predict the node embedding for every node in a graph. This type of problem is usually trained in a semi-supervised way, where only part of the graph is labeled. Typical applications for node classification include citation networks, Reddit posts, Youtube videos, and Facebook friends relationships
 
-## Inlink prediction, the task is to understand the relationship between entities in graphs and predict if two entities have a connection in between. For example, a recommender system can be treated as link prediction problem where the model is given a set of users' reviews of different products, the task is to predict the users' preferences and tune the recommender system to push more relevant products according to users' interest.
+## Inlink prediction, the task is to understand the relationship between entities in graphs and predict if two entities have a connection in between. For example, a recommender system can be treated as link prediction problem where the model is given a set of users' reviews of different products, the task is to predict the users' preferences and tune the recommender system to push more relevant products according to users' interest
 
-## Ingraph classification, the task is to classify the whole graph into different categories. It is similar to image classification but the target changes into graph domain. There is a wide range of industrial problems where graph classification can be applied, for example, in chemistry, biomedical, physics, where the model is given a molecular structure and asked to classify the target into meaningful categories. It accelerates the analysis of atom, molecule or any other structured data types.
+## Ingraph classification, the task is to classify the whole graph into different categories. It is similar to image classification but the target changes into graph domain. There is a wide range of industrial problems where graph classification can be applied, for example, in chemistry, biomedical, physics, where the model is given a molecular structure and asked to classify the target into meaningful categories. It accelerates the analysis of atom, molecule or any other structured data types
 
 ## Some Real Applications
 

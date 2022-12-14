@@ -10,42 +10,42 @@ A Game is any interaction between multiple people in which each person's payoff 
 
 ## Two main branches
 
-1.  Cooperative
-    -   Where each player has agreed to work together towards a common goal.
-    -   A coalition is what you call a group of players in a cooperative game
-    -   Shapley Value
-    -   Game theory can tell you how to be fair
+1. Cooperative
+    - Where each player has agreed to work together towards a common goal.
+    - A coalition is what you call a group of players in a cooperative game
+    - Shapley Value
+    - Game theory can tell you how to be fair
 
-2.  Non-cooperative / Competitive
-    -   Covers competitive social interactions in which there will be some winners and some losers
-    -   Nash Equilibrium
-    -   Game theory can tell you how to be smart
+2. Non-cooperative / Competitive
+    - Covers competitive social interactions in which there will be some winners and some losers
+    - Nash Equilibrium
+    - Game theory can tell you how to be smart
 
 [Game types](https://en.wikipedia.org/wiki/Game_theory#Game_types)
 
-1.  [Cooperative / non-cooperative](https://en.wikipedia.org/wiki/Game_theory#Cooperative_/_non-cooperative)
+1. [Cooperative / non-cooperative](https://en.wikipedia.org/wiki/Game_theory#Cooperative_/_non-cooperative)
 
-2.  [Symmetric / asymmetric](https://en.wikipedia.org/wiki/Game_theory#Symmetric_/_asymmetric)
+2. [Symmetric / asymmetric](https://en.wikipedia.org/wiki/Game_theory#Symmetric_/_asymmetric)
 
-3.  [Zero-sum / non-zero-sum](https://en.wikipedia.org/wiki/Game_theory#Zero-sum_/_non-zero-sum)
+3. [Zero-sum / non-zero-sum](https://en.wikipedia.org/wiki/Game_theory#Zero-sum_/_non-zero-sum)
 
-4.  [Simultaneous / sequential](https://en.wikipedia.org/wiki/Game_theory#Simultaneous_/_sequential)
+4. [Simultaneous / sequential](https://en.wikipedia.org/wiki/Game_theory#Simultaneous_/_sequential)
 
 [Cournot Competition](https://en.wikipedia.org/wiki/Game_theory#Cournot_Competition)
 
 [Bertrand Competition](https://en.wikipedia.org/wiki/Game_theory#Bertrand_Competition)
 
-5.  [Perfect information and imperfect information](https://en.wikipedia.org/wiki/Game_theory#Perfect_information_and_imperfect_information)
+5. [Perfect information and imperfect information](https://en.wikipedia.org/wiki/Game_theory#Perfect_information_and_imperfect_information)
 
 [Bayesian game](https://en.wikipedia.org/wiki/Game_theory#Bayesian_game)
 
-6.  [Combinatorial games](https://en.wikipedia.org/wiki/Game_theory#Combinatorial_games)
+6. [Combinatorial games](https://en.wikipedia.org/wiki/Game_theory#Combinatorial_games)
 
-7.  [Infinitely long games](https://en.wikipedia.org/wiki/Game_theory#Infinitely_long_games)
+7. [Infinitely long games](https://en.wikipedia.org/wiki/Game_theory#Infinitely_long_games)
 
-8.  [Discrete and continuous games](https://en.wikipedia.org/wiki/Game_theory#Discrete_and_continuous_games)
+8. [Discrete and continuous games](https://en.wikipedia.org/wiki/Game_theory#Discrete_and_continuous_games)
 
-9.  [Differential games](https://en.wikipedia.org/wiki/Game_theory#Differential_games)
+9. [Differential games](https://en.wikipedia.org/wiki/Game_theory#Differential_games)
 
 10. [Evolutionary game theory](https://en.wikipedia.org/wiki/Game_theory#Evolutionary_game_theory)
 
@@ -64,11 +64,10 @@ A Game is any interaction between multiple people in which each person's payoff 
 The**prisoner's dilemma**is a standard example of a game analyzed in[game theory](https://en.wikipedia.org/wiki/Game_theory)that shows why two completely[rational](https://en.wikipedia.org/wiki/Rationality#Economics)individuals might not cooperate, even if it appears that it is in their best interests to do so.
 
 Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict the pair on the principal charge, but they have enough to convict both on a lesser charge. Simultaneously, the prosecutors offer each prisoner a bargain. Each prisoner is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The offer is:
--   If A and B each betray the other, each of them serves two years in prison
--   If A betrays B but B remains silent, A will be set free and B will serve three years in prison (and vice versa)
--   If A and B both remain silent, both of them will only serve one year in prison (on the lesser charge).
 
-
+- If A and B each betray the other, each of them serves two years in prison
+- If A betrays B but B remains silent, A will be set free and B will serve three years in prison (and vice versa)
+- If A and B both remain silent, both of them will only serve one year in prison (on the lesser charge).
 
 ## Prisoner's dilemma payoff matrix
 
@@ -120,19 +119,19 @@ A method of dividing up gains or costs among players according to the value of t
 
 Axioms -
 
-1.  Marginal Contribution -
+1. Marginal Contribution -
 
 The contribution of each player is determined by what is gained or lost by removing them from the game
 
-2.  Interchangeable players have equal values
+2. Interchangeable players have equal values
 
 If 2 parties bring the same things to the coalition, they should have to contribute the same amount, and should be rewarded for their contributions equally
 
-3.  Dummy players have zero value
+3. Dummy players have zero value
 
 If a member of a coalition contributes nothing then they should receive nothing
 
-4.  If a game has multiple parts, cost or payment should be decomposed across those parts
+4. If a game has multiple parts, cost or payment should be decomposed across those parts
 
 ## Fair Division
 
@@ -148,10 +147,10 @@ It is inspired by a rule called **divide and choose** which has been used throug
 
 <https://en.wikipedia.org/wiki/Fair_division>
 
-<https://brilliant.org/wiki/fair-division
+<https://brilliant.org/wiki/fair-division>
 
 <https://en.wikipedia.org/wiki/Game_theory>
 
 [Game Theory: The Science of Decision-Making](https://www.youtube.com/watch?v=MHS-htjGgSY)
 
-<https://www.freecodecamp.org/news/introduction-to-evolutionary-game-theory
+<https://www.freecodecamp.org/news/introduction-to-evolutionary-game-theory>

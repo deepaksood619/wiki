@@ -6,7 +6,7 @@ Modified: 2022-02-05 01:34:17 +0500
 
 ---
 
-<https://devops-stack.io
+<https://devops-stack.io>
 
 An all-in-one Kubernetesstack using ArgoCDand Terraform as base components
 
@@ -16,23 +16,23 @@ An all-in-one Kubernetesstack using ArgoCDand Terraform as base components
 
 Grafana Tanka is the robust configuration utility for your[Kubernetes](https://kubernetes.io/)cluster, powered by the unique[Jsonnet](https://jsonnet.org/)language
 
-<https://tanka.dev
+<https://tanka.dev>
 
 <https://github.com/grafana/tanka>
 
-<https://grafana.com/oss/tanka
+<https://grafana.com/oss/tanka>
 
 ## Plugins
 
 kubectl tree
 
-<https://ahmet.im/blog/kubectl-tree
+<https://ahmet.im/blog/kubectl-tree>
 
 kubectl access-matrix
 
 ## krew
 
-<https://github.com/kubernetes-sigs/krew
+<https://github.com/kubernetes-sigs/krew>
 
 ketall
 
@@ -45,13 +45,14 @@ ketall
 ## Features
 
 Minikube supports Kubernetes features such as
--   DNS
--   NodePorts
--   ConfigMaps and Secrets
--   Dashboards
--   Container Runtime: Docker,[rkt](https://github.com/rkt/rkt),[CRI-O](https://github.com/kubernetes-incubator/cri-o)and[containerd](https://github.com/containerd/containerd)
--   Enabling CNI (Container Network Interface)
--   Ingress
+
+- DNS
+- NodePorts
+- ConfigMaps and Secrets
+- Dashboards
+- Container Runtime: Docker,[rkt](https://github.com/rkt/rkt),[CRI-O](https://github.com/kubernetes-incubator/cri-o)and[containerd](https://github.com/containerd/containerd)
+- Enabling CNI (Container Network Interface)
+- Ingress
 
 ## Commands
 
@@ -65,9 +66,7 @@ minikube ip
 
 minikube status
 
-<https://kubernetes.io/docs/tutorials/hello-minikube
-
-
+<https://kubernetes.io/docs/tutorials/hello-minikube>
 
 ## Kops (Kubernetes Operations)
 
@@ -87,7 +86,7 @@ kopshelps you create, destroy, upgrade and maintain production-grade, highly ava
 
 kubeadmhelps you bootstrap a minimum viable Kubernetes cluster that conforms to best practices.
 
-<https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm
+<https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm>
 
 ## Stern
 
@@ -134,7 +133,7 @@ kubetail "cp-kafka-connect-*" --regex -c cp-kafka-connect-server -n kafka
 
 <https://github.com/ahmetb/kubectl-aliases>
 
-<https://ahmet.im/blog/kubectl-aliases
+<https://ahmet.im/blog/kubectl-aliases>
 
 ## Kubedirector
 
@@ -156,7 +155,7 @@ Customization of kubernetes YAML configurations
 
 <https://github.com/kubernetes-sigs/kustomize>
 
-<https://blog.scottlowe.org/2019/09/13/an-introduction-to-kustomize
+<https://blog.scottlowe.org/2019/09/13/an-introduction-to-kustomize>
 
 <https://www.youtube.com/watch?v=5gsHYdiD6v8>
 
@@ -208,15 +207,15 @@ Switch faster between clusters and namespaces in kubectl
 
 Key features:
 
-1.  Allows you to find and inspect resources that no longer exist (example: discover what host the pod from the previous deployment was using).
+1. Allows you to find and inspect resources that no longer exist (example: discover what host the pod from the previous deployment was using).
 
-2.  Provides timeline displays that show rollouts of related resources in updates to Deployments, ReplicaSets, and StatefulSets.
+2. Provides timeline displays that show rollouts of related resources in updates to Deployments, ReplicaSets, and StatefulSets.
 
-3.  Helps debug transient and intermittent errors.
+3. Helps debug transient and intermittent errors.
 
-4.  Allows you to see changes over time in a Kubernetes application.
+4. Allows you to see changes over time in a Kubernetes application.
 
-5.  Is a self-contained service with no dependencies on distributed storage.
+5. Is a self-contained service with no dependencies on distributed storage.
 
 <https://github.com/salesforce/sloop>
 
@@ -232,11 +231,11 @@ Local development against a remote Kubernetes or OpenShift cluster
 
 Telepresence allows you to run your code locally while still:
 
-1.  Giving your code access to Services in a remote Kubernetes cluster.
+1. Giving your code access to Services in a remote Kubernetes cluster.
 
-2.  Giving your code access to cloud resources like AWS RDS or Google PubSub.
+2. Giving your code access to cloud resources like AWS RDS or Google PubSub.
 
-3.  Allowing Kubernetes to access your code as if it were in a normal pod within the cluster.
+3. Allowing Kubernetes to access your code as if it were in a normal pod within the cluster.
 
 telepresence --swap-deployment api-v3 --namespace staging --expose 8000
 
@@ -260,7 +259,7 @@ This tool allows exporting the often missed Kubernetes events to various outputs
 
 Cloud Code comes with tools to help you write, deploy, and debug cloud-native applications quickly and easily. Extensions to IDEs such as Visual Studio Code and IntelliJ are provided to let you rapidly iterate, debug, and deploy code to Kubernetes.
 
-<https://cloud.google.com/code
+<https://cloud.google.com/code>
 
 ## ksync
 
@@ -306,7 +305,7 @@ watch Watch configured specs and start syncing files when required
 
 cdk8sis an open-source software development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs.cdk8sapps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.
 
-<https://cdk8s.io
+<https://cdk8s.io>
 
 <https://www.youtube.com/watch?v=QcF_6ZSEd5k>
 
@@ -328,13 +327,13 @@ BotKube integration with Slack or Mattermost helps you monitor your Kubernetes c
 
 [https://www.botkube.io](https://www.botkube.io/)
 
-<https://www.botkube.io/installation/slack
+<https://www.botkube.io/installation/slack>
 
 <https://github.com/infracloudio/botkube>
 
 ## Zulip - Chat for distributed system
 
-<https://zulip.com
+<https://zulip.com>
 
 ## KubeSlack
 
@@ -347,21 +346,22 @@ kube-slack is a monitoring service for Kubernetes. When a pod has failed, it wil
 Lightweight Kubernetes. Easy to install, half the memory, all in a binary less than 40mb.
 
 Great for
--   Edge
--   IoT
--   CI
--   ARM
--   Situations where a PhD in k8s clusterology is infeasible
+
+- Edge
+- IoT
+- CI
+- ARM
+- Situations where a PhD in k8s clusterology is infeasible
 
 <https://github.com/rancher/k3s>
 
-<https://containerjournal.com/2019/08/01/powering-edge-with-kubernetes-a-primer
+<https://containerjournal.com/2019/08/01/powering-edge-with-kubernetes-a-primer>
 
 ## Lens
 
 Lens is the only IDE you'll ever need to take control of your Kubernetes clusters. It is a standalone application for MacOS, Windows and Linux operating systems. It is open source and free.
 
-<https://k8slens.dev
+<https://k8slens.dev>
 
 <https://github.com/lensapp/lens>
 
@@ -379,7 +379,7 @@ kubectl cluster-info --context kind-kind
 
 kind delete cluster
 
-<https://kind.sigs.k8s.io
+<https://kind.sigs.k8s.io>
 
 <https://www.youtube.com/watch?v=m-IlbCgSzkc>
 
@@ -403,19 +403,19 @@ kubevalis a tool for validating a Kubernetes YAML or JSON configuration file. It
 
 ## Headlamp
 
-<https://kinvolk.io/blog/2020/11/shining-a-light-on-the-kubernetes-user-experience-with-headlamp
+<https://kinvolk.io/blog/2020/11/shining-a-light-on-the-kubernetes-user-experience-with-headlamp>
 
 ## Shipa
 
 Cloud native application management framework built to manage the full application lifecycle in an application-centric fashion.
 
-<https://www.shipa.io
+<https://www.shipa.io>
 
 <https://www.youtube.com/watch?v=PW44JaAlI_8>
 
 ## Kubecost
 
-<https://www.infracloud.io/blogs/kubernetes-cost-reporting-using-kubecost
+<https://www.infracloud.io/blogs/kubernetes-cost-reporting-using-kubecost>
 
 ## KEDA
 
@@ -425,10 +425,10 @@ KEDAis a single-purpose and lightweight component that can be added into any Kub
 
 <https://learnk8s.io/scaling-celery-rabbitmq-kubernetes>
 
-<https://keda.sh
+<https://keda.sh>
 
 ## Others
 
-<https://www.getporter.dev
+<https://www.getporter.dev>
 
-<https://spot.io/products/ocean
+<https://spot.io/products/ocean>

@@ -26,17 +26,16 @@ You have reached the pay-walled version of this article. You can read it absolut
 | `code            | Code in a sentence                                                          |
 | ```           | Code block                                                                  |
 
-
--   Highlight the text to get formatting options
--   Add images and other media by starting a new lineand clicking+
--   Include content from Medium or other sites by pasting a link and pressing Enter.
--   You can mention anyone in your story by typing @ and then their name. They will get a notification after you publish.
+- Highlight the text to get formatting options
+- Add images and other media by starting a new lineand clicking+
+- Include content from Medium or other sites by pasting a link and pressing Enter.
+- You can mention anyone in your story by typing @ and then their name. They will get a notification after you publish.
 
 Embed Gist
 
-1.  Create public link of the gist
+1. Create public link of the gist
 
-2.  Use embed option in + menu in medium to embed the gist in the blog
+2. Use embed option in + menu in medium to embed the gist in the blog
 
 ✓ ★ ▹
 

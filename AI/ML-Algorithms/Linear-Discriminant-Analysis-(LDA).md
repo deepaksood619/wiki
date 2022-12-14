@@ -12,9 +12,9 @@ If you have more than two classes then the Linear Discriminant Analysis algorith
 
 The representation of LDA is pretty straight forward. It consists of statistical properties of your data, calculated for each class. For a single input variable this includes:
 
-1.  The mean value for each class.
+1. The mean value for each class.
 
-2.  The variance calculated across all classes.
+2. The variance calculated across all classes.
 
 Predictions are made by calculating a discriminate value for each class and making a prediction for the class with the largest value.
 

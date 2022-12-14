@@ -12,35 +12,35 @@ A QuerySet is, in essence, a list of objects of a given Model. QuerySets allow y
 
 Internally, a**QuerySet**can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
 
-1.  Iteration
+1. Iteration
 
-2.  Slicing
+2. Slicing
 
-3.  Pickling/Caching
+3. Pickling/Caching
 
-4.  repr()
+4. repr()
 
-5.  len()
+5. len()
 
-6.  list()
+6. list()
 
-7.  bool()
+7. bool()
 
 ## QuerySet Modifications that return querysets
 
-1.  filter()
+1. filter()
 
-2.  exclude()
+2. exclude()
 
-3.  annotate()
+3. annotate()
 
-4.  order_by()
+4. order_by()
 
-5.  reverse()
+5. reverse()
 
-6.  distinct()
+6. distinct()
 
-7.  **values()**
+7. **values()**
 
 Returns a**QuerySet**that returns dictionaries, rather than model instances, when used as an iterable.
 
@@ -48,7 +48,7 @@ Each of those dictionaries represents an object, with the keys corresponding to 
 
 The**values()**method takes optional positional arguments,***fields**, which specify field names to which the**SELECT**should be limited. If you specify the fields, each dictionary will contain only the field keys/values for the fields you specify. If you don't specify the fields, each dictionary will contain a key and value for every field in the database table.
 
-8.  **values_list()**
+8. **values_list()**
 
 This is similar to**values()**except that instead of returning dictionaries, it returns tuples when iterated over. Each tuple contains the value from the respective field or expression passed into the**values_list()**call --- so the first item is the first field, etc
 
@@ -58,9 +58,9 @@ Ex -
 
 Client.objects.filter(customer__name=customer_name)**.values_list('metrics_metadata', flat=True)**.exclude(metrics_metadata={}).distinct()
 
-## values()**and**values_list()are both intended as optimizations for a specific use case: retrieving a subset of data without the overhead of creating a model instance. This metaphor falls apart when dealing with many-to-many and other multivalued relations (such as the one-to-many relation of a reverse foreign key) because the "one row, one object" assumption doesn't hold.
+## values()**and**values_list()are both intended as optimizations for a specific use case: retrieving a subset of data without the overhead of creating a model instance. This metaphor falls apart when dealing with many-to-many and other multivalued relations (such as the one-to-many relation of a reverse foreign key) because the "one row, one object" assumption doesn't hold
 
-9.  dates()
+9. dates()
 
 10. datetimes()
 
@@ -80,10 +80,9 @@ Returns a QuerySet that will "follow" foreign-key relationships, selecting addit
 
 Product.objects.select_related('category').all()
 
-
--   Select related does one query to JOIN the tables
--   Select related could be used with ForeignKey and OneToOneField
--   Select related doesn't work with ManyToMany fields
+- Select related does one query to JOIN the tables
+- Select related could be used with ForeignKey and OneToOneField
+- Select related doesn't work with ManyToMany fields
 
 17. **prefetch_related()**
 
@@ -105,9 +104,8 @@ to_attr='active_subcategories'
 
 )
 
-
--   Prefetch related makes two queries and do the JOIN using Python
--   Prefetch related loses it effect when you change the base query
+- Prefetch related makes two queries and do the JOIN using Python
+- Prefetch related loses it effect when you change the base query
 
 18. extra()
 
@@ -123,23 +121,23 @@ to_attr='active_subcategories'
 
 ## QuerySet Modifications that do not return QuerySets
 
-1.  get()
+1. get()
 
-2.  create()
+2. create()
 
-3.  get_or_create()
+3. get_or_create()
 
-4.  update_or_create()
+4. update_or_create()
 
-5.  bulk_create()
+5. bulk_create()
 
-6.  count()
+6. count()
 
-7.  in_bulk()
+7. in_bulk()
 
-8.  iterator()
+8. iterator()
 
-9.  latest()
+9. latest()
 
 10. earliest()
 
@@ -158,27 +156,28 @@ to_attr='active_subcategories'
 17. as_manager()
 
 ## Field lookups
--   Field lookups are how you specify the meat of an SQL WHERE clause. They're specified as keyword arguments to the QuerySet methods filter(), exclude() and get().
--   Can also create custom lookups for model fields
--   Where no lookup type is provided, the lookup type is assumed to be **exact.**
 
-1.  exact
+- Field lookups are how you specify the meat of an SQL WHERE clause. They're specified as keyword arguments to the QuerySet methods filter(), exclude() and get().
+- Can also create custom lookups for model fields
+- Where no lookup type is provided, the lookup type is assumed to be **exact.**
 
-2.  iexact
+1. exact
 
-3.  contains
+2. iexact
 
-4.  icontains
+3. contains
 
-5.  in
+4. icontains
 
-6.  gt
+5. in
 
-7.  gte
+6. gt
 
-8.  lt
+7. gte
 
-9.  lte
+8. lt
+
+9. lte
 
 10. startswith
 
@@ -220,19 +219,19 @@ to_attr='active_subcategories'
 
 ## Aggregation Functions
 
-1.  Avg
+1. Avg
 
-2.  Count
+2. Count
 
-3.  Max
+3. Max
 
-4.  Min
+4. Min
 
-5.  StdDev
+5. StdDev
 
-6.  Sum
+6. Sum
 
-7.  Variance
+7. Variance
 
 Defined in django.db.models.expressions and django.db.models.aggregates
 
@@ -259,20 +258,19 @@ Although**reporter.stories_filed=F('stories_filed')+1**looks like a normal Pytho
 
 When Django encounters an instance of**F()**, it overrides the standard Python operators to create an encapsulated SQL expression; in this case, one which instructs the database to increment the database field represented by**reporter.stories_filed**.
 
-## F expressions also can be used to compare the value of a model field with another field on the same model. Instances of F() act as a reference to a model field within a query. These references can then be used in query_filters to compare the values of two different fields on the same model instance.
+## F expressions also can be used to compare the value of a model field with another field on the same model. Instances of F() act as a reference to a model field within a query. These references can then be used in query_filters to compare the values of two different fields on the same model instance
 
 ## >>> Entry.objects.filter(rating__lt=F('n_comments') + F('n_pingbacks'))
 
-
--   Django supports the use of addition, subtraction, multiplication, division, modulo, and power arithmetic with**F()**objects, both with constants and with other**F()**objects.
--   You can also use the double underscore notation to span relationships in an**F()**object. An**F()**object with a double underscore will introduce any joins needed to access the related object.
--   The**F()**objects support bitwise operations by**.bitand()**,**.bitor()**,**.bitrightshift()**, and**.bitleftshift()**. For example:
+- Django supports the use of addition, subtraction, multiplication, division, modulo, and power arithmetic with**F()**objects, both with constants and with other**F()**objects.
+- You can also use the double underscore notation to span relationships in an**F()**object. An**F()**object with a double underscore will introduce any joins needed to access the related object.
+- The**F()**objects support bitwise operations by**.bitand()**,**.bitor()**,**.bitrightshift()**, and**.bitleftshift()**. For example:
 
 ## The pk lookup shortcut
 
 ## >>> Blog.objects.get(id__exact=14) *# Explicit form*
-## >>> Blog.objects.get(id=14) *# __exact is implied*
-## >>> Blog.objects.get(pk=14) *# pk implies id__exact*
+## >>> Blog.objects.get(id=14) *#__exact is implied*
+## >>> Blog.objects.get(pk=14)*# pk implies id__exact*
 
 ## Escaping percent signs and underscores in LIKE statements
 
@@ -284,7 +282,7 @@ This means things should work intuitively, so the abstraction doesn't leak. For 
 
 Django takes care of the quoting for you; the resulting SQL will look something like this:
 
-## SELECT** ... **WHERE** headline **LIKE '%%%';
+## SELECT**...**WHERE**headline**LIKE '%%%'
 
 Same goes for underscores. Both percentage signs and underscores are handled for you transparently.
 
@@ -292,9 +290,9 @@ Same goes for underscores. Both percentage signs and underscores are handled for
 
 Keyword argument queries -- in[**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with**OR**statements), you can use[**Qobjects**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
 
-## A[Qobject](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments.
+## A[Qobject](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments
 
-## Q**objects can be combined using the**&**and**|**operators. When an operator is used on two**Q**objects, it yields a new**Qobject.
+## Q**objects can be combined using the**&**and**|**operators. When an operator is used on two**Q**objects, it yields a new**Qobject
 
 For example, this statement yields a single**Q**object that represents the "OR" of two**"question__startswith"**queries:
 
@@ -329,6 +327,6 @@ question__startswith='Who',
 
 ## References
 
-<https://docs.djangoproject.com/en/2.0/ref/models/querysets
+<https://docs.djangoproject.com/en/2.0/ref/models/querysets>
 
-<https://docs.djangoproject.com/en/2.0/topics/db/queries
+<https://docs.djangoproject.com/en/2.0/topics/db/queries>

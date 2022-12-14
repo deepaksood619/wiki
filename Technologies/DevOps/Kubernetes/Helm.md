@@ -15,20 +15,22 @@ Helm helps you manage Kubernetes applications --- Helm Charts helps you define, 
 Charts are easy to create, version, share, and publish --- so start using Helm and stop the copy-and-paste.
 
 Use Helm to:
--   Find and use[popular software packaged as Kubernetes charts](https://github.com/kubernetes/charts)
--   Share your own applications as Kubernetes charts
--   Create reproducible builds of your Kubernetes applications
--   Intelligently manage your Kubernetes manifest files
--   Manage releases of Helm packages
+
+- Find and use[popular software packaged as Kubernetes charts](https://github.com/kubernetes/charts)
+- Share your own applications as Kubernetes charts
+- Create reproducible builds of your Kubernetes applications
+- Intelligently manage your Kubernetes manifest files
+- Manage releases of Helm packages
 
 Helm is a tool that streamlines installing and managing Kubernetes applications. Think of it like apt/yum/homebrew for Kubernetes.
--   Helm has two parts: a client (helm) and a server (tiller)
--   Tiller runs inside of your Kubernetes cluster, and manages releases (installations) of your charts.
--   Helm runs on your laptop, CI/CD, or wherever you want it to run.
--   Charts are Helm packages that contain at least two things:
-    -   A description of the package (Chart.yaml)
-    -   One or more templates, which contain Kubernetes manifest files
--   Charts can be stored on disk, or fetched from remote chart repositories (like Debian or RedHat packages)
+
+- Helm has two parts: a client (helm) and a server (tiller)
+- Tiller runs inside of your Kubernetes cluster, and manages releases (installations) of your charts.
+- Helm runs on your laptop, CI/CD, or wherever you want it to run.
+- Charts are Helm packages that contain at least two things:
+  - A description of the package (Chart.yaml)
+  - One or more templates, which contain Kubernetes manifest files
+- Charts can be stored on disk, or fetched from remote chart repositories (like Debian or RedHat packages)
 
 ## Charts
 
@@ -36,12 +38,11 @@ Helm uses a packaging format calledcharts. A chart is a collection of files that
 
 Charts are created as files laid out in a particular directory tree, then they can be packaged into versioned archives to be deployed.
 
-
--   Library Chart
+- Library Chart
 
 ## Commands
 
-## Common actions from this point include:
+## Common actions from this point include
 
 - helm search: search for charts
 
@@ -51,7 +52,7 @@ Charts are created as files laid out in a particular directory tree, then they c
 
 - helm list: list releases of charts
 
-## Environment:
+## Environment
 
 $HELM_HOME set an alternative location for Helm files. By default, these are stored in ~/.helm
 
@@ -77,11 +78,11 @@ $HELM_KEY_PASSPHRASE set HELM_KEY_PASSPHRASE to the passphrase of your PGP priva
 
 the passphrase while signing helm charts
 
-## Usage:
+## Usage
 
 helm [command]
 
-## Available Commands:
+## Available Commands
 
 completion Generate autocompletions script for the specified shell (bash or zsh)
 
@@ -149,9 +150,9 @@ helm repo list
 
 helm repo update
 
-helm repo add incubator-new <https://kubernetes-charts-incubator.storage.googleapis.com
+helm repo add incubator-new <https://kubernetes-charts-incubator.storage.googleapis.com>
 
-helm repo add stable <https://kubernetes-charts.storage.googleapis.com
+helm repo add stable <https://kubernetes-charts.storage.googleapis.com>
 
 helm repo add bitnami <https://charts.bitnami.com/bitnami>
 
@@ -193,7 +194,7 @@ verify verify that a chart at the given path has been signed and is valid
 
 version print the client/server version information
 
-## Flags:
+## Flags
 
 --debug enable verbose output
 

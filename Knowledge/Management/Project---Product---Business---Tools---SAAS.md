@@ -6,29 +6,29 @@ Modified: 2022-12-03 11:54:29 +0500
 
 ---
 
-1.  notion.so
+1. notion.so
 
-<https://www.appflowy.io
+<https://www.appflowy.io>
 
 AppFlowy is an open-source alternative to Notion. You are in charge of your data and customizations. Built with Flutter and Rust.
 
 <https://github.com/AppFlowy-IO/appflowy>
 
-<https://www.focalboard.com - Alternative to Asana / Trello / Notion
+<https://www.focalboard.com> - Alternative to Asana / Trello / Notion
 
-2.  Free Open Source / Self hosted - <https://www.taiga.io
+2. Free Open Source / Self hosted - <https://www.taiga.io>
 
-3.  Atlassian JIRA
+3. Atlassian JIRA
 
-4.  Asana
+4. Asana
 
-5.  Orangescrum
+5. Orangescrum
 
 <https://github.com/Orangescrum/orangescrum>
 
-6.  <https://kitemaker.co
+6. <https://kitemaker.co>
 
-7.  AirTable
+7. AirTable
 
 The conceptual data model breaks down like this:
 
@@ -44,23 +44,23 @@ The conceptual data model breaks down like this:
 
 <https://www.toptal.com/react/dashboard-airtable-react>
 
-<https://airtabletools.com
+<https://airtabletools.com>
 
-<https://rows.com
+<https://rows.com>
 
 <https://www.notboring.co/p/idea-legos>
 
-<https://www.nocodb.com (Airtable Alternative)
+<https://www.nocodb.com> (Airtable Alternative)
 
 NocoDB is an open source #NoCode platform that turns any database into a smart spreadsheet.
 
 <https://github.com/nocodb/nocodb>
 
-8.  Trello
+8. Trello
 
 <https://blog.trello.com/trello-team-playbooks>
 
-9.  BaseCamp
+9. BaseCamp
 
     a.  workday
 
@@ -70,11 +70,11 @@ NocoDB is an open source #NoCode platform that turns any database into a smart s
 
 12. Slack
 
-a. Brief - <https://www.gobrief.com
+a. Brief - <https://www.gobrief.com>
 
 b. <https://www.quora.com/What-Slack-to-do-list-app-do-you-recommend>
 
-c. <https://about.gitlab.com/handbook/communication/chat
+c. <https://about.gitlab.com/handbook/communication/chat>
 
 13. Gmail
 
@@ -82,7 +82,7 @@ Mailman (batches incoming email and keeps brain from getting distracted by the e
 
 - Zoho
 
-- <https://360.yandex.ru/business
+- <https://360.yandex.ru/business>
 
 14. Gitlab issues
 
@@ -90,15 +90,15 @@ Mailman (batches incoming email and keeps brain from getting distracted by the e
 
 • We will track all tasks done in Gitlab
 
-15. <https://fireflies.ai - AI assistant for your meetings
+15. <https://fireflies.ai> - AI assistant for your meetings
 
 16. Calendly
 
-<https://topmate.io
+<https://topmate.io>
 
 17. <https://github.com/opf/openproject>
 
-18. <https://freedcamp.com
+18. <https://freedcamp.com>
 
 19. Google sheets
 
@@ -106,36 +106,37 @@ Mailman (batches incoming email and keeps brain from getting distracted by the e
 
 20. Google Forms
 
-· <https://www.jotform.com
+· <https://www.jotform.com>
 
 21. Screenbrush
 
-22. <https://www.productboard.com
+22. <https://www.productboard.com>
 
-23. Product - <https://appsumo.com
+23. Product - <https://appsumo.com>
 
 24. jenni.ai - AI content writing
 
-25. <https://www.cymath.com - Solve maths question
+25. <https://www.cymath.com> - Solve maths question
 
-26. <https://attentioninsight.com
+26. <https://attentioninsight.com>
 
-<https://github.com/ripienaar/free-for-dev> <https://free-for.dev/#
+<https://github.com/ripienaar/free-for-dev> <https://free-for.dev/>
 
 The tools of a successful product manager
--   Confluence - The information library (Alternative - <https://www.bookstackapp.com)
--   Product Plan - The roadmap
--   Jira - The day-to-day tracker
--   Things - The To Do List
--   Evernote / Onenote - The note taker (Meetings)
--   <https://trends.google.com/trends
 
-<https://gitlabcalendar.kontrollfeld.com
+- Confluence - The information library (Alternative - <https://www.bookstackapp.com>)
+- Product Plan - The roadmap
+- Jira - The day-to-day tracker
+- Things - The To Do List
+- Evernote / Onenote - The note taker (Meetings)
+- <https://trends.google.com/trends>
+
+<https://gitlabcalendar.kontrollfeld.com>
 
 ## Team Building
 
-<https://www.funretrospectives.com
+<https://www.funretrospectives.com>
 
 ## Good Products
 
-<https://www.credly.com
+<https://www.credly.com>

@@ -8,45 +8,51 @@ Modified: 2022-03-02 20:32:11 +0500
 
 ## Instruction Execution Cycle
 
-1.  Instruction Fetch - Obtain instruction from program store
+1. Instruction Fetch - Obtain instruction from program store
 
-2.  Instruction Decode - Determine required actions and instruction size
+2. Instruction Decode - Determine required actions and instruction size
 
-3.  Operand Fetch - Locate and obtain operand data
+3. Operand Fetch - Locate and obtain operand data
 
-4.  Execute - Compute result value or status
+4. Execute - Compute result value or status
 
-5.  Result Store - Deposit results in storage for later use
+5. Result Store - Deposit results in storage for later use
 
-6.  Next Instruction - Determine successor instruction
+6. Next Instruction - Determine successor instruction
+
 ## Processor Memory Interaction
 
 ![image](media/Basic-Computer-Organization-image1.png)
+
 ## Inside the CPU
 
 ![image](media/Basic-Computer-Organization-image3.png)**Instruction Execution Cycle**
 
-1.  Address of the next instruction is transferred from PC to MAR
+1. Address of the next instruction is transferred from PC to MAR
 
-2.  The instruction is located in memory
+2. The instruction is located in memory
 
-3.  Instruction is copied from memory to MDR
+3. Instruction is copied from memory to MDR
 
-4.  Instruction is transferred to and decoded in the IR
+4. Instruction is transferred to and decoded in the IR
 
-5.  Control unit sends signals to appropriate devices to cause execution of the instruction
+5. Control unit sends signals to appropriate devices to cause execution of the instruction
+
 ## Address Decoder is used to decode memory addresses
 
 ![image](media/Basic-Computer-Organization-image4.png)
+
 ## Byte Ordering
 
 ![image](media/Basic-Computer-Organization-image5.png)
+
 ## Byte/Word Alignment
 
 ![image](media/Basic-Computer-Organization-image6.png)
+
 ## Types of Processor Operations
 
-1.  Arithmetic and Logical Operations
+1. Arithmetic and Logical Operations
 
     a.  integer arithmetic
 
@@ -56,7 +62,7 @@ Modified: 2022-03-02 20:32:11 +0500
 
     d.  testing, comparing, and converting bits
 
-2.  Data Movement Operations
+2. Data Movement Operations
 
     a.  moving data from memory to cpu
 
@@ -64,7 +70,7 @@ Modified: 2022-03-02 20:32:11 +0500
 
     c.  input and output
 
-3.  Program Control Operations
+3. Program Control Operations
 
     a.  starting a program
 
@@ -73,6 +79,7 @@ Modified: 2022-03-02 20:32:11 +0500
     c.  skipping to other instructions
 
     d.  testing data to decide whether to skip over some instructions
+
 ## Instruction Set Architecture (ISA)
 
 An**ISA** is an abstract model of a[computer](https://en.wikipedia.org/wiki/Computer). It is also referred to as**architecture**or**computer architecture**. A realization of an ISA, such as a[central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)(CPU), is called an*implementation*.
@@ -88,6 +95,7 @@ c.  Register-Memory architecture
 d.  Register-Register / Load Store architecture
 ![image](media/Basic-Computer-Organization-image7.png)
 ![image](media/Basic-Computer-Organization-image8.png)
+
 ## Addressing Modes
 
 ![image](media/Basic-Computer-Organization-image9.png)-   **Immediate Addressing**
@@ -97,13 +105,14 @@ The simplest addressing mode is**Immediate addressing**where you write the data 
 In Pentium assembler this is the default and:
 
 MOV EAX,04
--   **Register Indirect Addressing**
--   **Indexed Addressing**
+
+- **Register Indirect Addressing**
+- **Indexed Addressing**
 <https://www.i-programmer.info/babbages-bag/150.html>
 
 ## Branch Predictor**
 
-In[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture), a**branch predictor**^[[1]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-dbp-class-report-1)[[2]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-schemes-and-performances-2)[[3]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-3)[[4]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-4)[[5]](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-5)^is a[digital circuit](https://en.wikipedia.org/wiki/Digital_electronics)that tries to guess which way a[branch](https://en.wikipedia.org/wiki/Branch_(computer_science))(e.g. an[if--then--else structure](https://en.wikipedia.org/wiki/Conditional_(programming))) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the[instruction pipeline](https://en.wikipedia.org/wiki/Instruction_pipeline). Branch predictors play a critical role in achieving high effective[performance](https://en.wikipedia.org/wiki/Computer_performance)in many modern[pipelined](https://en.wikipedia.org/wiki/Pipeline_(computing))[microprocessor](https://en.wikipedia.org/wiki/Microprocessor)architectures[^[6]^](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-BPdynSurvey-6)such as[x86](https://en.wikipedia.org/wiki/X86).
+In[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture), a**branch predictor**^[[1]][https://en.wikipedia.org/wiki/Branch_predictor#cite_note-dbp-class-report-1]([2)][https://en.wikipedia.org/wiki/Branch_predictor#cite_note-schemes-and-performances-2]([3)][https://en.wikipedia.org/wiki/Branch_predictor#cite_note-3]([4)][https://en.wikipedia.org/wiki/Branch_predictor#cite_note-4]([5)](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-5)^is a[digital circuit](https://en.wikipedia.org/wiki/Digital_electronics)that tries to guess which way a[branch](https://en.wikipedia.org/wiki/Branch_(computer_science))(e.g. an[if--then--else structure](https://en.wikipedia.org/wiki/Conditional_(programming))) will go before this is known definitively. The purpose of the branch predictor is to improve the flow in the[instruction pipeline](https://en.wikipedia.org/wiki/Instruction_pipeline). Branch predictors play a critical role in achieving high effective[performance](https://en.wikipedia.org/wiki/Computer_performance)in many modern[pipelined](https://en.wikipedia.org/wiki/Pipeline_(computing))[microprocessor](https://en.wikipedia.org/wiki/Microprocessor)architectures[^[6]^](https://en.wikipedia.org/wiki/Branch_predictor#cite_note-BPdynSurvey-6)such as[x86](https://en.wikipedia.org/wiki/X86).
 
 ![image](media/Basic-Computer-Organization-image10.png)
 
@@ -114,24 +123,25 @@ The time that is wasted in case of a**branch misprediction**is equal to the numb
 The first time a conditional jump instruction is encountered, there is not much information to base a prediction on. But the branch predictor keeps records of whether branches are taken or not taken. When it encounters a conditional jump that has been seen several times before then it can base the prediction on the history. The branch predictor may, for example, recognize that the conditional jump is taken more often than not, or that it is taken every second time.
 Branch prediction is not the same as[branch target prediction](https://en.wikipedia.org/wiki/Branch_target_predictor). Branch prediction attempts to guess whether a conditional jump will be taken or not. Branch target prediction attempts to guess the target of a taken conditional or unconditional jump before it is computed by decoding and executing the instruction itself. Branch prediction and branch target prediction are often combined into the same circuitry.
 [Implementation](https://en.wikipedia.org/wiki/Branch_predictor#Implementation)
--   [1.1 Static branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Static_branch_prediction)
--   [1.2 Dynamic branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Dynamic_branch_prediction)
--   [1.3 Random branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Random_branch_prediction)
--   [1.4 Next line prediction](https://en.wikipedia.org/wiki/Branch_predictor#Next_line_prediction)
--   [1.5 One-level branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#One-level_branch_prediction)
-    -   [1.5.1 Saturating counter](https://en.wikipedia.org/wiki/Branch_predictor#Saturating_counter)
--   [1.6 Two-level predictor](https://en.wikipedia.org/wiki/Branch_predictor#Two-level_predictor)
-    -   [1.6.1 Two-level adaptive predictor](https://en.wikipedia.org/wiki/Branch_predictor#Two-level_adaptive_predictor)
--   [1.7 Local branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Local_branch_prediction)
--   [1.8 Global branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Global_branch_prediction)
--   [1.9 Alloyed branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Alloyed_branch_prediction)
--   [1.10 Agree predictor](https://en.wikipedia.org/wiki/Branch_predictor#Agree_predictor)
--   [1.11 Hybrid predictor](https://en.wikipedia.org/wiki/Branch_predictor#Hybrid_predictor)
--   [1.12 Loop predictor](https://en.wikipedia.org/wiki/Branch_predictor#Loop_predictor)
--   [1.13 Indirect branch predictor](https://en.wikipedia.org/wiki/Branch_predictor#Indirect_branch_predictor)
--   [1.14 Prediction of function returns](https://en.wikipedia.org/wiki/Branch_predictor#Prediction_of_function_returns)
--   [1.15 Overriding branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Overriding_branch_prediction)
--   [1.16 Neural branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Neural_branch_prediction)
+
+- [1.1 Static branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Static_branch_prediction)
+- [1.2 Dynamic branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Dynamic_branch_prediction)
+- [1.3 Random branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Random_branch_prediction)
+- [1.4 Next line prediction](https://en.wikipedia.org/wiki/Branch_predictor#Next_line_prediction)
+- [1.5 One-level branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#One-level_branch_prediction)
+  - [1.5.1 Saturating counter](https://en.wikipedia.org/wiki/Branch_predictor#Saturating_counter)
+- [1.6 Two-level predictor](https://en.wikipedia.org/wiki/Branch_predictor#Two-level_predictor)
+  - [1.6.1 Two-level adaptive predictor](https://en.wikipedia.org/wiki/Branch_predictor#Two-level_adaptive_predictor)
+- [1.7 Local branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Local_branch_prediction)
+- [1.8 Global branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Global_branch_prediction)
+- [1.9 Alloyed branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Alloyed_branch_prediction)
+- [1.10 Agree predictor](https://en.wikipedia.org/wiki/Branch_predictor#Agree_predictor)
+- [1.11 Hybrid predictor](https://en.wikipedia.org/wiki/Branch_predictor#Hybrid_predictor)
+- [1.12 Loop predictor](https://en.wikipedia.org/wiki/Branch_predictor#Loop_predictor)
+- [1.13 Indirect branch predictor](https://en.wikipedia.org/wiki/Branch_predictor#Indirect_branch_predictor)
+- [1.14 Prediction of function returns](https://en.wikipedia.org/wiki/Branch_predictor#Prediction_of_function_returns)
+- [1.15 Overriding branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Overriding_branch_prediction)
+- [1.16 Neural branch prediction](https://en.wikipedia.org/wiki/Branch_predictor#Neural_branch_prediction)
 <https://en.wikipedia.org/wiki/Branch_predictor>
 
 ## Application Binary Interface (ABI)**
@@ -147,15 +157,18 @@ In[computing](https://en.wikipedia.org/wiki/Computing), theExecutable and Linkab
 By design, the ELF format is flexible, extensible, and[cross-platform](https://en.wikipedia.org/wiki/Cross-platform). For instance it supports different endiannesses and address sizes so it does not exclude any particular [central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit) (CPU) or[instruction set architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture). This has allowed it to be adopted by many different[operating systems](https://en.wikipedia.org/wiki/Operating_system)on many different hardware [platforms](https://en.wikipedia.org/wiki/Computing_platform)
 ELF is used as standard file format for object files on Linux. Prior to this, the a.out file format was being used as a standard but lately ELF took over the charge as a standard.
 ELF supports :
--   Different processors
--   Different data encoding
--   Different classes of machines
+
+- Different processors
+- Different data encoding
+- Different classes of machines
+
 ## File Layout
 
 Each ELF file is made up of one ELF header, followed by file data. The data can include:
--   Program header table, describing zero or more[memory segments](https://en.wikipedia.org/wiki/Memory_segmentation)
--   Section header table, describing zero or more sections
--   Data referred to by entries in the program header table or section header table
+
+- Program header table, describing zero or more[memory segments](https://en.wikipedia.org/wiki/Memory_segmentation)
+- Section header table, describing zero or more sections
+- Data referred to by entries in the program header table or section header table
 
 ![image](media/Basic-Computer-Organization-image11.png)
 <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
@@ -165,33 +178,35 @@ Each ELF file is made up of one ELF header, followed by file data. The data can 
 ## Von Neumann Architecture**
 
 Thevon Neumann architecture---also known as thevon Neumann modelorPrinceton architecture---is a[computer architecture](https://en.wikipedia.org/wiki/Computer_architecture)based on a 1945 description by[John von Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)and others in the[First Draft of a Report on the EDVAC](https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC). That document describes a design architecture for an electronic[digital computer](https://en.wikipedia.org/wiki/Digital_computer)with these components:
--   A[processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)that contains an[arithmetic logic unit](https://en.wikipedia.org/wiki/Arithmetic_logic_unit)and[processor registers](https://en.wikipedia.org/wiki/Processor_register)
--   A[control unit](https://en.wikipedia.org/wiki/Control_unit)that contains an[instruction register](https://en.wikipedia.org/wiki/Instruction_register)and[program counter](https://en.wikipedia.org/wiki/Program_counter)
--   [Memory](https://en.wikipedia.org/wiki/Computer_memory)that stores[data](https://en.wikipedia.org/wiki/Data_(computing))and[instructions](https://en.wikipedia.org/wiki/Instruction_set)
--   External[mass storage](https://en.wikipedia.org/wiki/Mass_storage)
--   [Input and output](https://en.wikipedia.org/wiki/Input_and_output)mechanisms
+
+- A[processing unit](https://en.wikipedia.org/wiki/Central_processing_unit)that contains an[arithmetic logic unit](https://en.wikipedia.org/wiki/Arithmetic_logic_unit)and[processor registers](https://en.wikipedia.org/wiki/Processor_register)
+- A[control unit](https://en.wikipedia.org/wiki/Control_unit)that contains an[instruction register](https://en.wikipedia.org/wiki/Instruction_register)and[program counter](https://en.wikipedia.org/wiki/Program_counter)
+- [Memory](https://en.wikipedia.org/wiki/Computer_memory)that stores[data](https://en.wikipedia.org/wiki/Data_(computing))and[instructions](https://en.wikipedia.org/wiki/Instruction_set)
+- External[mass storage](https://en.wikipedia.org/wiki/Mass_storage)
+- [Input and output](https://en.wikipedia.org/wiki/Input_and_output)mechanisms
 ![image](media/Basic-Computer-Organization-image12.jpeg)
 The term "von Neumann architecture" has evolved to mean any[stored-program computer](https://en.wikipedia.org/wiki/Stored-program_computer)in which an[instruction fetch](https://en.wikipedia.org/wiki/Instruction_fetch)and a data operation cannot occur at the same time because they share a common[bus](https://en.wikipedia.org/wiki/Bus_(computing)). This is referred to as the[von Neumann bottleneck](https://en.wikipedia.org/wiki/Von_Neumann_architecture#Von_Neumann_bottleneck), and often limits the performance of the system.
 The design of a von Neumann architecture machine is simpler than a[Harvard architecture](https://en.wikipedia.org/wiki/Harvard_architecture)machine---which is also a stored-program system but has one dedicated set of address and data buses for reading and writing to memory, and another set of address and[data buses](https://en.wikipedia.org/wiki/Memory_bus)to fetch[instructions](https://en.wikipedia.org/wiki/Instruction_fetch).
 A stored-program digital computer keeps both[program instructions](https://en.wikipedia.org/wiki/Computer_program)and data in[read--write](https://en.wikipedia.org/wiki/Read%E2%80%93write_memory),[random-access memory](https://en.wikipedia.org/wiki/Random-access_memory)(RAM). Stored-program computers were an advancement over the program-controlled computers of the 1940s, such as the[Colossus](https://en.wikipedia.org/wiki/Colossus_computer)and the[ENIAC](https://en.wikipedia.org/wiki/ENIAC). Those were programmed by setting switches and inserting patch cables to route data and control signals between various functional units. The vast majority of modern computers use the same memory for both data and program instructions, but have[caches](https://en.wikipedia.org/wiki/CPU_cache)between the CPU and memory, and, for the caches closest to the CPU, have separate caches for instructions and data, so that most instruction and data fetches use separate buses ([split cache architecture](https://en.wikipedia.org/wiki/Modified_Harvard_architecture#Split-cache_(or_almost-von-Neumann)_architecture)).
 Historically there have been 2 types of Computers:
 
-1.  **Fixed Program Computers --**Their function is very specific and they couldn't be programmed, e.g. Calculators.
+1. **Fixed Program Computers --**Their function is very specific and they couldn't be programmed, e.g. Calculators.
 
-2.  **Stored Program Computers --**These can be programmed to carry out many different tasks, applications are stored on them, hence the name.
+2. **Stored Program Computers --**These can be programmed to carry out many different tasks, applications are stored on them, hence the name.
+
 ## Main Memory Unit (Registers)
 
-1.  **Accumulator:**Stores the results of calculations made by ALU
+1. **Accumulator:**Stores the results of calculations made by ALU
 
-2.  **Program Counter (PC):**Keeps track of the memory location of the next instructions to be dealt with. The PC then passes this next address to Memory Address Register (MAR)
+2. **Program Counter (PC):**Keeps track of the memory location of the next instructions to be dealt with. The PC then passes this next address to Memory Address Register (MAR)
 
-3.  **Memory Address Register (MAR):**It stores the memory locations of instructions that need to be fetched from memory or stored into memory
+3. **Memory Address Register (MAR):**It stores the memory locations of instructions that need to be fetched from memory or stored into memory
 
-4.  **Memory Data Register (MDR):**It stores instructions fetched from memory or any data that is to be transferred to, and stored in, memory
+4. **Memory Data Register (MDR):**It stores instructions fetched from memory or any data that is to be transferred to, and stored in, memory
 
-5.  **Current Instruction Register (CIR):**It stores the most recently fetched instructions while it is waiting to be coded and executed
+5. **Current Instruction Register (CIR):**It stores the most recently fetched instructions while it is waiting to be coded and executed
 
-6.  **Instruction Buffer Register (IBR):**The instruction that is not to be executed immediately is placed in the instruction buffer register IBR
+6. **Instruction Buffer Register (IBR):**The instruction that is not to be executed immediately is placed in the instruction buffer register IBR
 <https://en.wikipedia.org/wiki/Von_Neumann_architecture>
 
 <https://www.geeksforgeeks.org/computer-organization-von-neumann-architecture>

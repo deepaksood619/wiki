@@ -6,7 +6,7 @@ Modified: 2022-12-10 22:04:10 +0500
 
 ---
 
-1.  Workload-specific database design
+1. Workload-specific database design
 
     a.  Select appropriate database services for specific types of data and workloads
 
@@ -16,7 +16,7 @@ Modified: 2022-12-10 22:04:10 +0500
 
     d.  Compare the costs of database solutions
 
-2.  Deployment and migration
+2. Deployment and migration
 
     a.  Automate database solution deployments
 
@@ -24,7 +24,7 @@ Modified: 2022-12-10 22:04:10 +0500
 
     c.  Execute and validate data migration
 
-3.  Management and operations
+3. Management and operations
 
     a.  Determine maintenance tasks and processes
 
@@ -32,7 +32,7 @@ Modified: 2022-12-10 22:04:10 +0500
 
     c.  Manage the operational environment of a database solution
 
-4.  Monitoring and troubleshooting
+4. Monitoring and troubleshooting
 
     a.  Determine monitoring and alerting strategies
 
@@ -40,7 +40,7 @@ Modified: 2022-12-10 22:04:10 +0500
 
     c.  Optimize database performance
 
-5.  Database security
+5. Database security
 
     a.  Encrypt data at rest and in transit
 
@@ -55,10 +55,10 @@ Modified: 2022-12-10 22:04:10 +0500
 
 Factors while choosing a db
 
-1.  Transactional compliance requirements of your workload
-2.  Data longevity
-3.  How strict are you with invalid data being sent to your database? (Ideally you are very strict and do server side data validation before persisting it to your database)
-4.  Structure of data
+1. Transactional compliance requirements of your workload
+2. Data longevity
+3. How strict are you with invalid data being sent to your database? (Ideally you are very strict and do server side data validation before persisting it to your database)
+4. Structure of data
 
 The structure of the data basically decides how we need to store and retrieve it. As our applications deal with data present in a variety of formats, selecting the right database should include picking the right data structures for storing and retrieving the data. If we do not select the right data structures for persisting our data, our application will take more time to retrieve data from the database, and will also require more development efforts to work around any data issues.
 5.  Size of data to be stored

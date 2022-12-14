@@ -7,6 +7,7 @@ Modified: 2022-02-05 00:27:10 +0500
 ---
 
 Static code analysis looks at the code without executing it. It is usually extremely fast to execute, requires little effort to add to your workflow, and can uncover common mistakes. The only downside is that it is not tailored towards your code.
+
 ## Code Complexity
 
 One way to measure code complexity is the[cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity), also called McCabe complexity as defined in[A Complexity Measure](https://books.google.de/books?id=vtNWAAAAMAAJ&pg=PA3&redir_esc=y):
@@ -28,12 +29,14 @@ Code Coverage is a measurement of how many lines/blocks/arcs of your code are ex
 Code coverage is collected by using a specialized tool to instrument the binaries to add tracing calls and run a full set of automated tests against the instrumented product. A good tool will give you not only the percentage of the code that is executed, but also will allow you to drill into the data and see exactly which lines of code were executed during particular test.
 
 Code Coverage = (Number of lines of code exercised)/(Total Number of lines of code) * 100%
-## Following are the types of code coverage Analysis:
--   **Statement coverage and Block coverage (Line coverage)**
--   Function coverage
--   Function call coverage
--   **Branch coverage**
--   Modified condition/decision coverage
+
+## Following are the types of code coverage Analysis
+
+- **Statement coverage and Block coverage (Line coverage)**
+- Function coverage
+- Function call coverage
+- **Branch coverage**
+- Modified condition/decision coverage
 Knowing the percentage of code that is covered by tests, can help developers assess the quality of their test cases and help them add missing tests and thereby find and remove software faults
 <https://codecov.io>
 
@@ -41,14 +44,17 @@ Knowing the percentage of code that is covered by tests, can help developers ass
 
 Lint (In computer programming, lint is a Unix utility that flags some suspicious and non-portable constructs (likely to be bugs) in C language source code; generically, lint or a linter is any tool that flags suspicious usage in software written in any computer language.)
 [Code linting](https://en.wikipedia.org/wiki/Lint_(software))is the act of finding bugs, stylistic errors, and suspicious constructs from static code analysis.
+
 ## Used
--   Flagging bugs in your code from syntax errors
--   Giving you warnings when code may not be intuitive
--   Providing suggestions for common best practices
--   Keeping track of TODO's and FIXME's
--   Keeping a consistent code style
+
+- Flagging bugs in your code from syntax errors
+- Giving you warnings when code may not be intuitive
+- Providing suggestions for common best practices
+- Keeping track of TODO's and FIXME's
+- Keeping a consistent code style
 <https://www.freecodecamp.org/news/dont-just-lint-your-code-fix-it-with-prettier>
 Code Validator / Linter / Analysis - [https://deepsource.io](https://deepsource.io/)
+
 ## Application Inspector
 
 Microsoft Application Inspector is a software source code analysis tool that helps identify and surface well-known features and other interesting characteristics of source code to aid in determiningwhat the software isorwhat it does. It has received attention on[ZDNet](https://www.zdnet.com/article/microsoft-application-inspector-is-now-open-source-so-use-it-to-test-code-security/),[SecurityWeek](https://www.securityweek.com/microsoft-introduces-free-source-code-analyzer),[CSOOnline](https://www.csoonline.com/article/3514732/microsoft-s-offers-application-inspector-to-probe-untrusted-open-source-code.html),[Linux.com/news](https://www.linux.com/news/microsoft-application-inspector-is-now-open-source-so-use-it-to-test-code-security/),[HelpNetSecurity](https://www.helpnetsecurity.com/2020/01/17/microsoft-application-inspector/), Twitter and more and was first featured on[Microsoft.com](https://www.microsoft.com/security/blog/2020/01/16/introducing-microsoft-application-inspector/).
@@ -65,18 +71,22 @@ SonarQube can record metrics history and provides evolution graphs. SonarQube pr
 <https://www.sonarqube.org>
 
 ## AI Autocomplete & Assistant**
--   Kite
--   <https://www.tabnine.com>
+
+- Kite
+- <https://www.tabnine.com>
 
 ## Other Tools**
--   CodeScene
--   <https://github.com/adamtornhill/code-maat>
--   CodeClimate
+
+- CodeScene
+- <https://github.com/adamtornhill/code-maat>
+- CodeClimate
 
 <https://github.com/codeclimate/codeclimate>
 
 <https://codeclimate.com>
--   Sourcegraph
+
+- Sourcegraph
 
 <https://about.sourcegraph.com>
--   <https://www.jetbrains.com/qodana>
+
+- <https://www.jetbrains.com/qodana>

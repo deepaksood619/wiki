@@ -166,7 +166,7 @@ df.groupby(col) - Returns a groupby object for values from one column
 
 df.groupby([col1, col2]) - Returns a groupby object values from multiple columns
 
-df.groupby(col1)[col2].mean() - Returns the mean of the values in col2, grouped by the values in col1 (mean can be replaced with almost any function from the statistics section)
+df.groupby[col1](col2).mean() - Returns the mean of the values in col2, grouped by the values in col1 (mean can be replaced with almost any function from the statistics section)
 
 df.pivot_table(index=col1, values=[col2,col3],aggfunc=mean) - Creates a pivot table that groups by col1 and calculates the mean of col2 and col3
 

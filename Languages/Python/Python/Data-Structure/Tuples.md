@@ -7,9 +7,10 @@ Modified: 2018-04-08 11:54:10 +0500
 ---
 
 ## Properties
--   Tuples are similar to lists, but the items in a tuple can't be modified
--   Tuples are hashable
--   Tuples are compound data type i.e. they can contain multiple data types like booleans, string, integers, etc.
+
+- Tuples are similar to lists, but the items in a tuple can't be modified
+- Tuples are hashable
+- Tuples are compound data type i.e. they can contain multiple data types like booleans, string, integers, etc.
 
 ## Making a tuple
 
@@ -51,19 +52,29 @@ A named tuple can be a built-in type such as[time.struct_time](http://library/ti
 Using NamedTuple is way shorter than defining a class manually
 
 ## >>> from collections import namedtuple
+
 ## >>> Car = namedtuple('Car', 'color mileage')
 
-# Our new "Car" class works as expected:
-## >>>** my_car = Car('red', **3812.4)
+# Our new "Car" class works as expected
+
+## >>>**my_car = Car('red',**3812.4)
+
 ## >>> my_car.color
+
 'red'
+
 ## >>> my_car.mileage
+
 3812.4
 
 # We get a nice **string repr for free:**
+
 ## >>> my_car
+
 Car(color='red' , mileage=3812.4)
 
-## # Like tuples, namedtuples are immutable:
+## # Like tuples, namedtuples are immutable
+
 ## >>> my_car.color = 'blue'
+
 AttributeError: "can't set attribute"

@@ -48,9 +48,8 @@ Class of decision problems which contains the hardest problems in NP. Each NP-co
 
 NP-Complete is the set of problems that are the hardest problems in NP. They are referred to as the hardest problem because any problem in NP can efficiently be transformed into NPC. As a result, if someone were to identify an efficient solution to a problem in NPC, then the entire class of NP would be absorbed by P. (Ex - Clique Problem)
 
-
--   Weakly NP-Complete
--   Strongly NP-Complete
+- Weakly NP-Complete
+- Strongly NP-Complete
 
 An[NP-complete](https://en.wikipedia.org/wiki/NP-complete)problem with known pseudo-polynomial time algorithms is called[weakly NP-complete](https://en.wikipedia.org/wiki/Weakly_NP-complete). An[NP-complete](https://en.wikipedia.org/wiki/NP-complete)problem is called[strongly NP-complete](https://en.wikipedia.org/wiki/Strongly_NP-complete)if it is proven that it cannot be solved by a pseudo-polynomial time algorithm unless[P=NP](https://en.wikipedia.org/wiki/P%3DNP). The strong/weak kinds of[NP-hardness](https://en.wikipedia.org/wiki/NP-hard)are defined analogously.
 
@@ -68,11 +67,7 @@ If P and NP are different, then there exist decision problems in the region of N
 
 <https://en.wikipedia.org/wiki/NP-hardness>
 
-
-
 ![P vs. NP](media/NP-Hardness-image2.png)
-
-
 
 ## P vs NP Problem
 

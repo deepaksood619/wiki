@@ -7,19 +7,22 @@ Modified: 2019-09-15 15:07:52 +0500
 ---
 
 Properties -
--   Explicit Data Structure
--   Can be used to store key value pairs for a symbol table implementation
+
+- Explicit Data Structure
+- Can be used to store key value pairs for a symbol table implementation
 "A Binary Search Tree is sometimes called ordered or sorted binary trees, and it keeps its values in sorted order, so that lookup and other operations can use the principle of binary search" --- [Wikipedia](https://en.wikipedia.org/wiki/Binary_search_tree)
 A BST is a binary tree in symmetric order
 
 Each node has a key, and every node's key is:
--   Larger than all keys in its left subtree
--   Smaller than all keys in its right subtree
+
+- Larger than all keys in its left subtree
+- Smaller than all keys in its right subtree
 A BST is a reference to a root Node.
 
 A Node is comprised of four fields:
--   A Key and a Value
--   A reference to the left and right subtree
+
+- A Key and a Value
+- A reference to the left and right subtree
 ![image](media/Binary-Search-Tree-image1.png)
 Search: If less, go left; if greater, go right; if equal, search hit.
 
@@ -33,16 +36,19 @@ Cost: Number of compares is equal to 1 + depth of node
 Put: Associate value with key
 
 Search for key, then two cases:
--   Key in tree -> reset value
--   Key not in tree -> add new node
+
+- Key in tree -> reset value
+- Key not in tree -> add new node
 
 ![image](media/Binary-Search-Tree-image3.png)
 Cost: Number of compares is equal to 1 + depth of node
 A BST is a binary tree in symmetric order
 
 Each node has a key, and every node's key is:
--   Larger than all keys in its left subtree
--   Smaller than all keys in its right subtree
+
+- Larger than all keys in its left subtree
+- Smaller than all keys in its right subtree
+
 ## Operations in BST -
 
 a.  Get
@@ -77,15 +83,15 @@ ii. **Hibbard deletion**
 
 To delete a node with key k: search for node t containing key k
 
-1.  Case 0 (0 children of the search node)
+1. Case 0 (0 children of the search node)
 
 Delete t by setting parent link to null
 
-2.  Case 1 (1 child of the search node)
+2. Case 1 (1 child of the search node)
 
 Delete t by replacing parent link
 
-3.  Case 2 (2 children of the search node)
+3. Case 2 (2 children of the search node)
 
 Find successor x of t
 
@@ -106,11 +112,12 @@ An important property of a Binary Search Tree is that the value of a Binary Sear
 ![](media/Binary-Search-Tree-image5.png)
 
 Here is a breakdown of the above illustration:
--   **A** is inverted. The subtree 7--5--8--6 needs to be on the right side, and the subtree 2--1--3 needs to be on the left.
--   **B** is the only correct option. It satisfies the Binary Search Tree property.
--   **C** has one problem: the node with the value 4. It needs to be on the left side of the root because it is smaller than 5.
 
-### Let's code a Binary SearchTree!
+- **A** is inverted. The subtree 7--5--8--6 needs to be on the right side, and the subtree 2--1--3 needs to be on the left.
+- **B** is the only correct option. It satisfies the Binary Search Tree property.
+- **C** has one problem: the node with the value 4. It needs to be on the left side of the root because it is smaller than 5.
+
+### Let's code a Binary SearchTree
 
 Now it's time to code!
 
@@ -127,13 +134,14 @@ The first thing we need to know is if 50 is the root of our tree.
 ![](media/Binary-Search-Tree-image6.png)
 
 We can now start inserting node by node.
--   76 is greater than 50, so insert 76 on the right side.
--   21 is smaller than 50, so insert 21 on the left side.
--   4 is smaller than 50. Node with value 50 has a left child 21. Since 4 is smaller than 21, insert it on the left side of this node.
--   32 is smaller than 50. Node with value 50 has a left child 21. Since 32 is greater than 21, insert 32 on the right side of this node.
--   100 is greater than 50. Node with value 50 has a right child 76. Since 100 is greater than 76, insert 100 on the right side of this node.
--   64 is greater than 50. Node with value 50 has a right child 76. Since 64 is smaller than 76, insert 64 on the left side of this node.
--   52 is greater than 50. Node with value 50 has a right child 76. Since 52 is smaller than 76, node with value 76 has a left child 64. 52 is smaller than 64, so insert 54 on the left side of this node.
+
+- 76 is greater than 50, so insert 76 on the right side.
+- 21 is smaller than 50, so insert 21 on the left side.
+- 4 is smaller than 50. Node with value 50 has a left child 21. Since 4 is smaller than 21, insert it on the left side of this node.
+- 32 is smaller than 50. Node with value 50 has a left child 21. Since 32 is greater than 21, insert 32 on the right side of this node.
+- 100 is greater than 50. Node with value 50 has a right child 76. Since 100 is greater than 76, insert 100 on the right side of this node.
+- 64 is greater than 50. Node with value 50 has a right child 76. Since 64 is smaller than 76, insert 64 on the left side of this node.
+- 52 is greater than 50. Node with value 50 has a right child 76. Since 52 is smaller than 76, node with value 76 has a left child 64. 52 is smaller than 64, so insert 54 on the left side of this node.
 
 ![](media/Binary-Search-Tree-image7.png)
 
@@ -141,19 +149,19 @@ Do you notice a pattern here?
 
 Let's break it down.
 
-1.  Is the new node value greater or smaller than the current node?
+1. Is the new node value greater or smaller than the current node?
 
-2.  If the value of the new node is greater than the current node, go to the right subtree. If the current node doesn't have a right child, insert it there, or else backtrack to step #1.
+2. If the value of the new node is greater than the current node, go to the right subtree. If the current node doesn't have a right child, insert it there, or else backtrack to step #1.
 
-3.  If the value of the new node is smaller than the current node, go to the left subtree. If the current node doesn't have a left child, insert it there, or else backtrack to step #1.
+3. If the value of the new node is smaller than the current node, go to the left subtree. If the current node doesn't have a left child, insert it there, or else backtrack to step #1.
 
-4.  We did not handle special cases here. When the value of a new node is equal to the current value of the node, use rule number 3. Consider inserting equal values to the left side of the subtree.
+4. We did not handle special cases here. When the value of a new node is equal to the current value of the node, use rule number 3. Consider inserting equal values to the left side of the subtree.
 
 Now let's code it.
 
 | class BinarySearchTree:                        |
 |------------------------------------------------|
-| def __init__(self, value):                 |
+| def **init**(self, value):                 |
 | self.value = value                             |
 | self.left_child = None                         |
 | self.right_child = None                        |
@@ -188,17 +196,17 @@ Now we want to know if we have a node based on value 52.
 
 Let's break it down.
 
-1.  We start with the root node as our current node. Is the given value smaller than the current node value? If yes, then we will search for it on the left subtree.
+1. We start with the root node as our current node. Is the given value smaller than the current node value? If yes, then we will search for it on the left subtree.
 
-2.  Is the given value greater than the current node value? If yes, then we will search for it on the right subtree.
+2. Is the given value greater than the current node value? If yes, then we will search for it on the right subtree.
 
-3.  If rules #1 and #2 are both false, we can compare the current node value and the given value if they are equal. If the comparison returns true, then we can say, "Yeah! Our tree has the given value," otherwise, we say, "Nooo, it hasn't."
+3. If rules #1 and #2 are both false, we can compare the current node value and the given value if they are equal. If the comparison returns true, then we can say, "Yeah! Our tree has the given value," otherwise, we say, "Nooo, it hasn't."
 
 Now let's code it.
 
 | class BinarySearchTree: |                                             |
 |-------------------------|----------------------------------------------|
-|                        | def __init__(self, value):               |
+|                        | def **init**(self, value):               |
 |                        | self.value = value                           |
 |                        | self.left_child = None                       |
 |                        | self.right_child = None                      |
@@ -209,9 +217,10 @@ Now let's code it.
 |                        | return self.right_child.find_node(value)     |
 |                        | return value == self.value                   |
 Let's beak down the code:
--   Lines 8 and 9 fall under rule #1.
--   Lines 10 and 11 fall under rule #2.
--   Line 13 falls under rule #3.
+
+- Lines 8 and 9 fall under rule #1.
+- Lines 10 and 11 fall under rule #2.
+- Line 13 falls under rule #3.
 
 How do we test it?
 
@@ -251,7 +260,8 @@ Our search is done.
 #### *Deletion: removing and organizing*
 
 Deletion is a more complex algorithm because we need to handle different cases. For a given value, we need to remove the node with this value. Imagine the following scenarios for this node: it has no children, has a single child, or has two children.
--   **Scenario #1**: A node with no children (leaf node).
+
+- **Scenario #1**: A node with no children (leaf node).
 
 | # |50| |50| |                                                   |
 |------------------|----------------------------------------------------|
@@ -260,7 +270,8 @@ Deletion is a more complex algorithm because we need to handle different cases. 
 |                 | # /                                           |
 |                 | # |20| |40| |40|                            |
 If the node we want to delete has no children, we simply delete it. The algorithm doesn't need to reorganize the tree.
--   **Scenario #2**: A node with just one child (left or right child).
+
+- **Scenario #2**: A node with just one child (left or right child).
 
 | # |50| |50| |                                                   |
 |------------------|----------------------------------------------------|
@@ -269,7 +280,8 @@ If the node we want to delete has no children, we simply delete it. The algorith
 |                 | # /                                               |
 |                 | # |20|                                          |
 In this case, our algorithm needs to make the parent of the node point to the child node. If the node is the left child, we make the parent of the left child point to the child. If the node is the right child of its parent, we make the parent of the right child point to the child.
--   **Scenario #3**: A node with two children.
+
+- **Scenario #3**: A node with two children.
 
 | # |50| |50| |                                                   |
 |------------------|----------------------------------------------------|
@@ -314,23 +326,24 @@ It's time to code.
 | self.value = self.right_child.find_minimum_value()                                        |
 | self.right_child.remove_node(self.value, self)                                            |
 | return True                                                                               |
-1.  **First**: Note the parameters value and parent. We want to find the nodethat has this value, and the node's parent is important to the removal of the node.
 
-2.  **Second**: Note the returning value. Our algorithm will return a boolean value. It returns True if it finds the node and removes it. Otherwise it will return False.
+1. **First**: Note the parameters value and parent. We want to find the nodethat has this value, and the node's parent is important to the removal of the node.
 
-3.  **From line 2 to line 9**: We start searching for the node that has the valuethat we are looking for. If the value is smaller than the current nodevalue, we go to the left subtree, recursively (if, and only if, the current node has a left child). If the value is greater, go to the right subtree, recursively.
+2. **Second**: Note the returning value. Our algorithm will return a boolean value. It returns True if it finds the node and removes it. Otherwise it will return False.
 
-4.  **Line 10**: We start to think about the remove algorithm.
+3. **From line 2 to line 9**: We start searching for the node that has the valuethat we are looking for. If the value is smaller than the current nodevalue, we go to the left subtree, recursively (if, and only if, the current node has a left child). If the value is greater, go to the right subtree, recursively.
 
-5.  **From line 11 to line 13**: We cover the node with no children, and it is the left child from its parent. We remove the node by setting the parent's left child to None.
+4. **Line 10**: We start to think about the remove algorithm.
 
-6.  **Lines 14 and 15**: We cover the node with no children, and it is the right child from it's parent. We remove the node by setting the parent's right child to None.
+5. **From line 11 to line 13**: We cover the node with no children, and it is the left child from its parent. We remove the node by setting the parent's left child to None.
 
-7.  **Clear node method**: I will show the clear_node code below. It sets the nodes left child, right child, and its value to None.
+6. **Lines 14 and 15**: We cover the node with no children, and it is the right child from it's parent. We remove the node by setting the parent's right child to None.
 
-8.  **From line 16 to line 18**: We cover the node with just one child (left child), and it is the left child from it's parent. We set the parent's left child to the node's left child (the only child it has).
+7. **Clear node method**: I will show the clear_node code below. It sets the nodes left child, right child, and its value to None.
 
-9.  **From line 19 to line 21**: We cover the node with just one child (left child), and it is the right child from its parent. We set the parent's right child to the node's left child (the only child it has).
+8. **From line 16 to line 18**: We cover the node with just one child (left child), and it is the left child from it's parent. We set the parent's left child to the node's left child (the only child it has).
+
+9. **From line 19 to line 21**: We cover the node with just one child (left child), and it is the right child from its parent. We set the parent's right child to the node's left child (the only child it has).
 
 10. **From line 22 to line 24**: We cover the node with just one child (right child), and it is the left child from its parent. We set the parent's left child to the node's right child (the only child it has).
 
@@ -396,6 +409,7 @@ Finally, we will remove a node with two children. This is the root of our tree.
 |                                         | # |10| |20|          |
 |                                         | #                    |
 |                                         | # |12| |25|          |
+
 ## Geometric applications of BSTs
 
 ## Problem - Intersections among geometric objects (find among a group of rectangles, how many rectangles intersect) - Binary search trees
@@ -403,7 +417,9 @@ Finally, we will remove a node with two children. This is the root of our tree.
 ## Applications - CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
 
 ![image](media/Binary-Search-Tree-image9.png)
+
 ## Further Reading
--   2-3 Trees
--   Red-Black binary search trees
--   B-trees
+
+- 2-3 Trees
+- Red-Black binary search trees
+- B-trees

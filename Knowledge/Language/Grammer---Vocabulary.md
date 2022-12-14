@@ -12,23 +12,24 @@ Fluent speakers of a[language variety](https://en.wikipedia.org/wiki/Variety_(li
 
 The word[grammar](https://www.thoughtco.com/word-grammar-1692610)comes from Greek, meaning "**craft of letters**," which is an apt description. In any language, grammar is:
 
-1.  the systematic study and description of a[language](https://www.thoughtco.com/what-is-a-language-1691218). (Compare with[usage](https://www.thoughtco.com/usage-grammar-1692575).)
+1. the systematic study and description of a[language](https://www.thoughtco.com/what-is-a-language-1691218). (Compare with[usage](https://www.thoughtco.com/usage-grammar-1692575).)
 
-2.  a set of[rules](https://www.thoughtco.com/rules-of-english-1691922)and examples dealing with the[syntax](https://www.thoughtco.com/syntax-grammar-1692182)and[word](https://www.thoughtco.com/word-english-language-1692612)structures ([morphology](https://www.thoughtco.com/morphology-words-term-1691407)) of a language.
+2. a set of[rules](https://www.thoughtco.com/rules-of-english-1691922)and examples dealing with the[syntax](https://www.thoughtco.com/syntax-grammar-1692182)and[word](https://www.thoughtco.com/word-english-language-1692612)structures ([morphology](https://www.thoughtco.com/morphology-words-term-1691407)) of a language.
 
 ## Types of grammer
 
 Whereas students of English mainly have to deal with just the nuts-and-bolts [prescriptive](https://www.thoughtco.com/prescriptive-grammar-1691668), [traditional](https://www.thoughtco.com/traditional-grammar-1692556) type of grammar, such as making sure verbs and subjects agree and where to put commas, linguists have many more types to examine different aspects of the language, from how different languages compare to each other ([comparative grammar](https://www.thoughtco.com/what-is-comparative-grammar-1689884)) or use grammatical parts ([descriptive](https://www.thoughtco.com/what-is-descriptive-grammar-1690439)grammar) to how the words and their usage interact to create meaning ([lexicogrammar](https://www.thoughtco.com/what-is-a-lexicogrammar-1691120)). They study how people acquire language and debate whether every child is born with a concept of[universal grammar](https://www.thoughtco.com/universal-grammar-1692571). Teachers instructing English language learners follow a method of[pedagogical grammar](https://www.thoughtco.com/pedagogical-grammar-1691600)for their students.
 
 Other areas of study for linguists include:
--   [Case grammar](https://www.thoughtco.com/case-grammar-linguistic-theory-1689744)
--   [Cognitive grammar](https://www.thoughtco.com/what-is-cognitive-grammar-1689860)
--   [Construction grammar](https://www.thoughtco.com/what-is-construction-grammar-1689794)
--   [Generative grammar](https://www.thoughtco.com/what-is-generative-grammar-1690894)
--   [Lexical-functional grammar (LFG)](https://www.thoughtco.com/lexical-functional-grammar-lfg-1691116)
--   [Mental grammar](https://www.thoughtco.com/mental-grammar-term-1691380)
--   [Theoretical grammar](https://www.thoughtco.com/theoretical-grammar-1692541)
--   [Transformational grammar](https://www.thoughtco.com/transformational-grammar-1692557)
+
+- [Case grammar](https://www.thoughtco.com/case-grammar-linguistic-theory-1689744)
+- [Cognitive grammar](https://www.thoughtco.com/what-is-cognitive-grammar-1689860)
+- [Construction grammar](https://www.thoughtco.com/what-is-construction-grammar-1689794)
+- [Generative grammar](https://www.thoughtco.com/what-is-generative-grammar-1690894)
+- [Lexical-functional grammar (LFG)](https://www.thoughtco.com/lexical-functional-grammar-lfg-1691116)
+- [Mental grammar](https://www.thoughtco.com/mental-grammar-term-1691380)
+- [Theoretical grammar](https://www.thoughtco.com/theoretical-grammar-1692541)
+- [Transformational grammar](https://www.thoughtco.com/transformational-grammar-1692557)
 
 ## How are you
 
@@ -103,61 +104,66 @@ What's kicking
 Panacea. Skeleton key. Magic feather. Silver bullet. Duck tape. God. Magic. Strong AI, Spooky free will. Hopeful monster. Wonder tissue. Sky hook. Genie wish. Evolution by natural selection. Creativity. Time. Wonder drug. "Clutch". Cure all. Life-saver. Hank Williams. The Philosopher's Stone. Miracles.
 
 ## Not Important
--   irrelevant
--   insignificant
+
+- irrelevant
+- insignificant
 
 ## Quotes
 
 Often it's not we who shape words, but the words we use shape us. -- Nina George
 
 ## Don't apologize in emails a lot (Alternatives)
--   Thanks for flagging!
--   Good catch - I will make the updates/changes.
--   Many thanks for noticing the error, [name], we will [verb]
--   Thank you for bringing this to our attention. We will [verb]
+
+- Thanks for flagging!
+- Good catch - I will make the updates/changes.
+- Many thanks for noticing the error, [name], we will [verb]
+- Thank you for bringing this to our attention. We will [verb]
 
 ## Whataboutism / whataboutery
 
 Whataboutism, also known aswhataboutery, is a variant of the[tu quoque](https://en.wikipedia.org/wiki/Tu_quoque)[logical fallacy](https://en.wikipedia.org/wiki/Logical_fallacy)that attempts to discredit an opponent's position by charging them with[hypocrisy](https://en.wikipedia.org/wiki/Hypocrisy)without directly refuting or disproving their argument.
 
 ## Others
--   Literature review / Research
-    -   <https://www.youtube.com/watch?v=t7PwqiiQmVM>
--   omnipotent and omnipresent
--   interobang (‽) (often represented by**?!**,**!?**,**?!?**or**!?!**)
--   Intellectual dishonesty
--   Don't give me anecdotal evidence
--   **Nepotism**
-    -   The practice among those with power or influence of favouring relatives or friends, especially by giving them jobs
--   has been / have been / had been
-    -   "Had been" is used to mean that something happened in the past and has already ended.
-    -   "Have been" and "has been" are used to mean that something began in the past and has lasted into the present time.
+
+- Literature review / Research
+  - <https://www.youtube.com/watch?v=t7PwqiiQmVM>
+- omnipotent and omnipresent
+- interobang (‽) (often represented by**?!**,**!?**,**?!?**or**!?!**)
+- Intellectual dishonesty
+- Don't give me anecdotal evidence
+- **Nepotism**
+  - The practice among those with power or influence of favouring relatives or friends, especially by giving them jobs
+- has been / have been / had been
+  - "Had been" is used to mean that something happened in the past and has already ended.
+  - "Have been" and "has been" are used to mean that something began in the past and has lasted into the present time.
 
 As a general rule, "has" is used in the third person singular ("he", "she", "it") and singular nouns.
 
 <https://myenglishmatters.com/2018/06/28/whats-the-difference-between-has-been-have-been-and-had-been>
--   Languishing
--   Unconditional Love
--   Rumination
--   xenophobia - dislike of or prejudice against people from other countries
--   chauvinism - exaggerated or aggressive patriotism
--   bigotry - obstinate or unreasonable attachment to a belief, opinion, or faction; in particular, prejudice against a person or people on the basis of their membership of a particular group.
--   Psuedoscience
--   Disappoint, let you down
--   Egotistic / Self-centered / pride / Selfish / arrogance
--   **apathy - lack of interest, enthusiasm or concern**
--   terse - sparing in the use of words; abrupt
--   temperament - a person's or animal's nature, especially as it permanently affects their behaviour
--   hypocrisy - the practice of claiming to have higher standards or more noble beliefs than is the case
 
--   Catnip - someone or something that is very attractive or appealing to a particular person or group.
+- Languishing
+- Unconditional Love
+- Rumination
+- xenophobia - dislike of or prejudice against people from other countries
+- chauvinism - exaggerated or aggressive patriotism
+- bigotry - obstinate or unreasonable attachment to a belief, opinion, or faction; in particular, prejudice against a person or people on the basis of their membership of a particular group.
+- Psuedoscience
+- Disappoint, let you down
+- Egotistic / Self-centered / pride / Selfish / arrogance
+- **apathy - lack of interest, enthusiasm or concern**
+- terse - sparing in the use of words; abrupt
+- temperament - a person's or animal's nature, especially as it permanently affects their behaviour
+- hypocrisy - the practice of claiming to have higher standards or more noble beliefs than is the case
+
+- Catnip - someone or something that is very attractive or appealing to a particular person or group.
 
 "both men are aggressive self-promoters and catnip for the media"
--   Volition - the faculty or power of using one's will.
--   one-upmanship - the technique or practice of gaining an advantage or feeling of superiority over another person.
+
+- Volition - the faculty or power of using one's will.
+- one-upmanship - the technique or practice of gaining an advantage or feeling of superiority over another person.
     "the one-upmanship of who can get the best presents"
--   **prescient** - having or showing knowledge of events before they take place. "a prescient warning"
--   Midas Touch - the ability to make money out of anything one undertakes.
+- **prescient** - having or showing knowledge of events before they take place. "a prescient warning"
+- Midas Touch - the ability to make money out of anything one undertakes.
 
 BYOD - Bring Your Own Device
 

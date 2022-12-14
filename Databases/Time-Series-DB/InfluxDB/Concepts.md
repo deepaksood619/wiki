@@ -10,23 +10,26 @@ Modified: 2019-07-02 14:53:17 +0500
 
 The InfluxDB storage engine looks very similar to a LSM Tree. It has a write ahead log and a collection of read-only data files which are similar in concept to SSTables in an LSM Tree. TSM files contain sorted, compressed series data.
 InfluxDB will create a[shard](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#shard)for each block of time. For example, if you have a[retention policy](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#retention-policy-rp)with an unlimited duration, shards will be created for each 7 day block of time. Each of these shards maps to an underlying storage engine database. Each of these databases has its own[WAL](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#wal-write-ahead-log)and TSM files.
+
 ## Storage Engine
 
 The storage engine ties a number of components together and provides the external interface for storing and querying series data. It is composed of a number of components that each serve a particular role:
--   **In-Memory Index -** The in-memory index is a shared index across shards that provides the quick access to[measurements](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#measurement),[tags](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag), and[series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series). The index is used by the engine, but is not specific to the storage engine itself.
--   **WAL -** The WAL is a write-optimized storage format that allows for writes to be durable, but not easily queryable. Writes to the WAL are appended to segments of a fixed size.
--   **Cache -** The Cache is an in-memory representation of the data stored in the WAL. It is queried at runtime and merged with the data stored in TSM files.
--   **TSM Files -** TSM files store compressed series data in a columnar format.
--   **FileStore -** The FileStore mediates access to all TSM files on disk. It ensures that TSM files are installed atomically when existing ones are replaced as well as removing TSM files that are no longer used.
--   **Compactor -** The Compactor is responsible for converting less optimized Cache and TSM data into more read-optimized formats. It does this by compressing series, removing deleted data, optimizing indices and combining smaller files into larger ones.
--   **Compaction Planner -** The Compaction Planner determines which TSM files are ready for a compaction and ensures that multiple concurrent compactions do not interfere with each other.
--   **Compression -** Compression is handled by various Encoders and Decoders for specific data types. Some encoders are fairly static and always encode the same type the same way; others switch their compression strategy based on the shape of the data.
--   **Writers/Readers -** Each file type (WAL segment, TSM files, tombstones, etc..) has Writers and Readers for working with the formats.
+
+- **In-Memory Index -** The in-memory index is a shared index across shards that provides the quick access to[measurements](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#measurement),[tags](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag), and[series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series). The index is used by the engine, but is not specific to the storage engine itself.
+- **WAL -** The WAL is a write-optimized storage format that allows for writes to be durable, but not easily queryable. Writes to the WAL are appended to segments of a fixed size.
+- **Cache -** The Cache is an in-memory representation of the data stored in the WAL. It is queried at runtime and merged with the data stored in TSM files.
+- **TSM Files -** TSM files store compressed series data in a columnar format.
+- **FileStore -** The FileStore mediates access to all TSM files on disk. It ensures that TSM files are installed atomically when existing ones are replaced as well as removing TSM files that are no longer used.
+- **Compactor -** The Compactor is responsible for converting less optimized Cache and TSM data into more read-optimized formats. It does this by compressing series, removing deleted data, optimizing indices and combining smaller files into larger ones.
+- **Compaction Planner -** The Compaction Planner determines which TSM files are ready for a compaction and ensures that multiple concurrent compactions do not interfere with each other.
+- **Compression -** Compression is handled by various Encoders and Decoders for specific data types. Some encoders are fairly static and always encode the same type the same way; others switch their compression strategy based on the shape of the data.
+- **Writers/Readers -** Each file type (WAL segment, TSM files, tombstones, etc..) has Writers and Readers for working with the formats.
 [**Write Ahead Log (WAL)**](https://docs.influxdata.com/influxdb/v1.7/concepts/storage_engine/#write-ahead-log-wal)
 
 The WAL is organized as a bunch of files that look like_000001.wal. The file numbers are monotonically increasing and referred to as WAL segments. When a segment reaches 10MB in size, it is closed and a new one is opened. Each WAL segment stores multiple compressed blocks of writes and deletes.
 When a write comes in the new points are serialized, compressed using Snappy, and written to a WAL file. The file isfsync'd and the data is added to an in-memory index before a success is returned. This means that batching points together is required to achieve high throughput performance. (Optimal batch size seems to be 5,000-10,000 points per batch for many use cases.)
 Each entry in the WAL follows a[TLV standard](https://en.wikipedia.org/wiki/Type-length-value)with a single byte representing the type of entry (write or delete), a 4 byteuint32for the length of the compressed block, and then the compressed block.
+
 ## TLV Standard
 
 Within[data communication protocols](https://en.wikipedia.org/wiki/Data_communication_protocol),TLV(type-length-valueortag-length-value) is an encoding scheme used for optional information element in a certain protocol.
@@ -46,10 +49,11 @@ The size of the value field (typically in bytes);
 Variable-sized series of bytes which contains data for this part of the message.
 
 Some advantages of using a TLV representation data system solution are:
--   TLV sequences are easily searched using generalized parsing functions;
--   New message elements which are received at an older node can be safely skipped and the rest of the message can be parsed. This is similar to the way that unknown[XML](https://en.wikipedia.org/wiki/XML)tags can be safely skipped;
--   TLV elements can be placed in any order inside the message body;
--   TLV elements are typically used in a binary format which makes parsing faster and the data smaller than in comparable text based protocols.
+
+- TLV sequences are easily searched using generalized parsing functions;
+- New message elements which are received at an older node can be safely skipped and the rest of the message can be parsed. This is similar to the way that unknown[XML](https://en.wikipedia.org/wiki/XML)tags can be safely skipped;
+- TLV elements can be placed in any order inside the message body;
+- TLV elements are typically used in a binary format which makes parsing faster and the data smaller than in comparable text based protocols.
 <https://en.wikipedia.org/wiki/Type-length-value>
 [**Cache**](https://docs.influxdata.com/influxdb/v1.7/concepts/storage_engine/#cache)
 
@@ -122,10 +126,11 @@ Each value type also contains a 1 byte header indicating the type of compression
 [**Compactions**](https://docs.influxdata.com/influxdb/v1.7/concepts/storage_engine/#compactions)
 
 Compactions are recurring processes that migrate data stored in a write-optimized format into a more read-optimized format. There are a number of stages of compaction that take place while a shard is hot for writes:
--   **Snapshots -** Values in the Cache and WAL must be converted to TSM files to free memory and disk space used by the WAL segments. These compactions occur based on the cache memory and time thresholds.
--   **Level Compactions -** Level compactions (levels 1-4) occur as the TSM files grow. TSM files are compacted from snapshots to level 1 files. Multiple level 1 files are compacted to produce level 2 files. The process continues until files reach level 4 and the max size for a TSM file. They will not be compacted further unless deletes, index optimization compactions, or full compactions need to run. Lower level compactions use strategies that avoid CPU-intensive activities like decompressing and combining blocks. Higher level (and thus less frequent) compactions will re-combine blocks to fully compact them and increase the compression ratio.
--   **Index Optimization -** When many level 4 TSM files accumulate, the internal indexes become larger and more costly to access. An index optimization compaction splits the series and indices across a new set of TSM files, sorting all points for a given series into one TSM file. Before an index optimization, each TSM file contained points for most or all series, and thus each contains the same series index. After an index optimization, each TSM file contains points from a minimum of series and there is little series overlap between files. Each TSM file thus has a smaller unique series index, instead of a duplicate of the full series list. In addition, all points from a particular series are contiguous in a TSM file rather than spread across multiple TSM files.
--   **Full Compactions -** Full compactions run when a shard has become cold for writes for long time, or when deletes have occurred on the shard. Full compactions produce an optimal set of TSM files and include all optimizations from Level and Index Optimization compactions. Once a shard is fully compacted, no other compactions will run on it unless new writes or deletes are stored.
+
+- **Snapshots -** Values in the Cache and WAL must be converted to TSM files to free memory and disk space used by the WAL segments. These compactions occur based on the cache memory and time thresholds.
+- **Level Compactions -** Level compactions (levels 1-4) occur as the TSM files grow. TSM files are compacted from snapshots to level 1 files. Multiple level 1 files are compacted to produce level 2 files. The process continues until files reach level 4 and the max size for a TSM file. They will not be compacted further unless deletes, index optimization compactions, or full compactions need to run. Lower level compactions use strategies that avoid CPU-intensive activities like decompressing and combining blocks. Higher level (and thus less frequent) compactions will re-combine blocks to fully compact them and increase the compression ratio.
+- **Index Optimization -** When many level 4 TSM files accumulate, the internal indexes become larger and more costly to access. An index optimization compaction splits the series and indices across a new set of TSM files, sorting all points for a given series into one TSM file. Before an index optimization, each TSM file contained points for most or all series, and thus each contains the same series index. After an index optimization, each TSM file contains points from a minimum of series and there is little series overlap between files. Each TSM file thus has a smaller unique series index, instead of a duplicate of the full series list. In addition, all points from a particular series are contiguous in a TSM file rather than spread across multiple TSM files.
+- **Full Compactions -** Full compactions run when a shard has become cold for writes for long time, or when deletes have occurred on the shard. Full compactions produce an optimal set of TSM files and include all optimizations from Level and Index Optimization compactions. Once a shard is fully compacted, no other compactions will run on it unless new writes or deletes are stored.
 
 [**Writes**](https://docs.influxdata.com/influxdb/v1.7/concepts/storage_engine/#writes)
 
@@ -147,13 +152,14 @@ When iterating over the index entries the blocks are read sequentially from the 
 [**Properties of time series data**](https://docs.influxdata.com/influxdb/v1.7/concepts/storage_engine/#properties-of-time-series-data)
 
 The workload of time series data is quite different from normal database workloads. There are a number of factors that conspire to make it very difficult to scale and remain performant:
--   Billions of individual data points
--   High write throughput
--   High read throughput
--   Large deletes (data expiration)
--   Mostly an insert/append workload, very few updates
+
+- Billions of individual data points
+- High write throughput
+- High read throughput
+- Large deletes (data expiration)
+- Mostly an insert/append workload, very few updates
 The first and most obvious problem is one of scale. In DevOps, IoT, or APM it is easy to collect hundreds of millions or billions of unique data points every day.
-For example, let's say we have 200 VMs or servers running, with each server collecting an average of 100 measurements every 10 seconds. Given there are 86,400 seconds in a day, a single measurement will generate 8,640 points in a day per server. That gives us a total of 172,800,000 (200 * 100 * 8,640) individual data points per day. We find similar or larger numbers in sensor data use cases.
+For example, let's say we have 200 VMs or servers running, with each server collecting an average of 100 measurements every 10 seconds. Given there are 86,400 seconds in a day, a single measurement will generate 8,640 points in a day per server. That gives us a total of 172,800,000 (200 *100* 8,640) individual data points per day. We find similar or larger numbers in sensor data use cases.
 The volume of data means that the write throughput can be very high. We regularly get requests for setups than can handle hundreds of thousands of writes per second. Some larger companies will only consider systems that can handle millions of writes per second.
 At the same time, time series data can be a high read throughput use case. It's true that if you're tracking 700,000 unique metrics or time series you can't hope to visualize all of them. That leads many people to think that you don't actually read most of the data that goes into the database. However, other than dashboards that people have up on their screens, there are automated systems for monitoring or combining the large volume of time series data with other types of data.
 Inside InfluxDB, aggregate functions calculated on the fly may combine tens of thousands of distinct time series into a single view. Each one of those queries must read each aggregated data point, so for InfluxDB the read throughput is often many times higher than the write throughput.

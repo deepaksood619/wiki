@@ -6,23 +6,23 @@ Modified: 2019-11-20 13:49:53 +0500
 
 ---
 
-1.  Cluster Administration Overview
+1. Cluster Administration Overview
 
-2.  Certificates
+2. Certificates
 
-3.  Cloud Providers
+3. Cloud Providers
 
-4.  Managing Resources
+4. Managing Resources
 
-5.  Cluster Networking
+5. Cluster Networking
 
-6.  Logging Architecture
+6. Logging Architecture
 
-7.  Configuring kubelet Garbage Collection
+7. Configuring kubelet Garbage Collection
 
-8.  Federation
+8. Federation
 
-9.  Proxies in Kubernetes
+9. Proxies in Kubernetes
 
 10. Controller manager metrics
 
@@ -36,9 +36,9 @@ Kubernetes Cluster Federation (KubeFed for short) allows you to coordinate the c
 
 The federated clusters can achieve this by doing the following two things
 
-1.  Cross cluster discovery
+1. Cross cluster discovery
 
-2.  Sync resources across clusters
+2. Sync resources across clusters
 
 ![Federated Clusters - Kubernetes Interview Questions - Edureka](../../media/DevOps-Kubernetes-Cluster-Administration-image1.png)
 

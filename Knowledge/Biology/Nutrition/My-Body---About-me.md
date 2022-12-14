@@ -135,8 +135,9 @@ Weight gain: 150g - 300g
 Excessive weight gain: 300g+
 
 ## Psychology
--   10 - 02 AM most productive for studying
--   Not very productive in morning
+
+- 10 - 02 AM most productive for studying
+- Not very productive in morning
 
 ## Allergies
 
@@ -152,7 +153,7 @@ Doritos (maybe)
 
 Your "biological prime time" is the time of the day when you have the most energy, and therefore the greatest potential to be productive. To calculate yours, chart your energy levels for at least three weeks. Then schedule your most important, highest-leverage activities when you have the most energy.
 
-<https://alifeofproductivity.com/calculate-biological-prime-time
+<https://alifeofproductivity.com/calculate-biological-prime-time>
 
 <https://blog.trello.com/find-productive-hours>
 
@@ -160,13 +161,12 @@ Your "biological prime time" is the time of the day when you have the most energ
 
 [**https://collegeinfogeek.com/track-body-energy-focus-levels/**](https://collegeinfogeek.com/track-body-energy-focus-levels/)
 
-1.  **Early birds / morning larks-** people who do their best work early in the morning
+1. **Early birds / morning larks-** people who do their best work early in the morning
 
-2.  **Night owls-** people who do their best work late in the day
+2. **Night owls-** people who do their best work late in the day
 
-3.  **Third birds-** people who fall somewhere in between, typically doing their best work later in the morning
+3. **Third birds-** people who fall somewhere in between, typically doing their best work later in the morning
 
-
--   **Peak:** This is when you have your greatest amount of mental and physical energy. Reserve this time for tasks that require analytical work. Avoid doing mindless tasks like checking email or social media since they will not take full advantage of your mental clarity.
--   **Trough:** This is when you experience that familiar mid-day dip in energy. For most people, this occurs just after lunch. Pink recommends taking a nap or going for a walk instead of trying to push through this period.
--   **Rebound:** During the rebound you will have less mental sharpness but your physical energy will have returned. This is a good time to do tasks that benefit from disinhibition such as creative brainstorming.
+- **Peak:** This is when you have your greatest amount of mental and physical energy. Reserve this time for tasks that require analytical work. Avoid doing mindless tasks like checking email or social media since they will not take full advantage of your mental clarity.
+- **Trough:** This is when you experience that familiar mid-day dip in energy. For most people, this occurs just after lunch. Pink recommends taking a nap or going for a walk instead of trying to push through this period.
+- **Rebound:** During the rebound you will have less mental sharpness but your physical energy will have returned. This is a good time to do tasks that benefit from disinhibition such as creative brainstorming.

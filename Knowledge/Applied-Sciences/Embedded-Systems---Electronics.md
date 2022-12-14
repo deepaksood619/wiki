@@ -15,21 +15,23 @@ Network processors are typically[software](https://en.wikipedia.org/wiki/Softwar
 ## Functions
 
 In the generic role as a packet processor, a number of optimised features or functions are typically present in a network processor, these include:
--   Pattern matching - the ability to find specific patterns of bits or bytes within packets in a packet stream.
--   Key lookup - the ability to quickly undertake a database lookup using a key (typically an address in a packet) to find a result, typically[routing](https://en.wikipedia.org/wiki/Routing)information.
--   Computation
--   Data bitfield manipulation - the ability to change certain data fields contained in the packet as it is being processed.
--   [Queue](https://en.wikipedia.org/wiki/Queue_(data_structure))management - as packets are received, processed and scheduled to be sent onwards, they are stored in queues.
--   Control processing - the micro operations of processing a packet are controlled at a macro level which involves communication and orchestration with other nodes in a system.
--   Quick allocation and re-circulation of packet buffers.
+
+- Pattern matching - the ability to find specific patterns of bits or bytes within packets in a packet stream.
+- Key lookup - the ability to quickly undertake a database lookup using a key (typically an address in a packet) to find a result, typically[routing](https://en.wikipedia.org/wiki/Routing)information.
+- Computation
+- Data bitfield manipulation - the ability to change certain data fields contained in the packet as it is being processed.
+- [Queue](https://en.wikipedia.org/wiki/Queue_(data_structure))management - as packets are received, processed and scheduled to be sent onwards, they are stored in queues.
+- Control processing - the micro operations of processing a packet are controlled at a macro level which involves communication and orchestration with other nodes in a system.
+- Quick allocation and re-circulation of packet buffers.
 
 ## Architectural Paradigms
 
 In order to deal with high data-rates, several architectural paradigms are commonly used:
--   [Pipeline](https://en.wikipedia.org/wiki/CPU_pipeline)of processors - each stage of the pipeline consisting of a processor performing one of the functions listed above.
--   [Parallel processing](https://en.wikipedia.org/wiki/Parallel_computing)with multiple processors, often including[multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)).
--   Specialized[microcoded](https://en.wikipedia.org/wiki/Microcode)engines to more efficiently accomplish the tasks at hand.
--   With the advent of[multicore](https://en.wikipedia.org/wiki/Multi-core_(computing))architectures, network processors can be used for higher layer ([L4-L7](https://en.wikipedia.org/wiki/OSI_model)) processing.
+
+- [Pipeline](https://en.wikipedia.org/wiki/CPU_pipeline)of processors - each stage of the pipeline consisting of a processor performing one of the functions listed above.
+- [Parallel processing](https://en.wikipedia.org/wiki/Parallel_computing)with multiple processors, often including[multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)).
+- Specialized[microcoded](https://en.wikipedia.org/wiki/Microcode)engines to more efficiently accomplish the tasks at hand.
+- With the advent of[multicore](https://en.wikipedia.org/wiki/Multi-core_(computing))architectures, network processors can be used for higher layer ([L4-L7](https://en.wikipedia.org/wiki/OSI_model)) processing.
 
 Additionally, traffic management, which is a critical element in[L2](https://en.wikipedia.org/wiki/OSI_model#Layer_2:_data_link_layer)-[L3](https://en.wikipedia.org/wiki/OSI_model#Layer_3:_network_layer)network processing and used to be executed by a variety of co-processors, has become an integral part of the network processor architecture, and a substantial part of its silicon area ("real estate") is devoted to the integrated traffic manager.Modern network processors are also equipped with low-latency high-throughput on-chip interconnection networks optimized for the exchange of small messages among cores (few data words). Such networks can be used as an alternative facility for the efficient inter-core communication aside of the standard use of shared memory.
 
@@ -47,16 +49,17 @@ Acoprocessoris a computer processor used to supplement the functions of the prim
 
 It's preferable to use static memory allocation on platforms with memory sizes in the low kilobytes and below. This is because data overhead, CPU overhead, and memory fragmentation can be significant issues when using dynamic memory allocation.
 
-## Describe the pros and cons of using a generic real-time operating system (RTOS) on a mid-range microcontroller.
+## Describe the pros and cons of using a generic real-time operating system (RTOS) on a mid-range microcontroller
 
 RTOSes can significantly ease the development of complex products, which can translate into faster development cycles. They often support compartmentalizing code into tasks, implement cross-task communication mechanisms, and commonly include abstractions ("drivers") for platform-specific hardware, which makes porting firmware to new hardware easier. Because of all that, they also introduce overhead in code size and CPU usage, which is not acceptable for all projects.
 
 ## What are the most important characteristics of UART-based (also calledRS-232-likeandTTL-like) serial communication, I2C communication, and SPI communication?
 
 Simple UART-based serial communication---with or without UART hardware---is the least demanding communications protocol to implement, but comes with severe limitations:
--   It's intended to connect only two devices.
--   It's asynchronous, meaning there's no explicit agreement about clock rates between the devices.
--   It's most commonly used at slow bit rates (up to 115,200 bps).
+
+- It's intended to connect only two devices.
+- It's asynchronous, meaning there's no explicit agreement about clock rates between the devices.
+- It's most commonly used at slow bit rates (up to 115,200 bps).
 
 I2C can connect up to 127 devices on the same electrical bus, and each device is individually addressable. One of the devices, a master device, generates a clock signal shared by all the others, called slave devices. There is only one data wire, so all communication is unidirectional. (It's commonly used to communicate with sensors on a PCB, which often use simple request-response protocols.)
 
@@ -82,7 +85,7 @@ Smaller microcontrollers also generally require less power to operate, which is 
 
 No. Unless the microcontroller is specially constructed to offer countermeasures against firmware downloading and/or modification, any code and data uploaded to a microcontroller should be considered relatively easy to download and modify. (Such hardened microcontrollers are usually expensive.)
 
-## Discuss a couple of options for wireless communication between embedded devices.
+## Discuss a couple of options for wireless communication between embedded devices
 
 On the high end of cost and complexity, wireless communication can be implemented using one of the wifi standards. These offer great bandwidth, are interoperable with many other devices, and can be long-range. But wifi standards are also fairly complex and require dedicated hardware.
 
@@ -94,7 +97,7 @@ There are also transceivers operating at low frequencies such as 433 MHz. While 
 
 Finally, infrared communication over very short distances (a couple of yards) can also be an efficient choice.
 
-## Describe the role of a watchdog timer.
+## Describe the role of a watchdog timer
 
 A watchdog timer is a feature of many microcontrollers---usually implemented with specific dedicated hardware---that can be used to check whether the software running on the microcontroller hung.
 
@@ -105,13 +108,12 @@ A watchdog timer is a subsystem which needs to be explicitly notified by the sof
 ## What are some common issues when handling interrupts?
 
 Interrupt handlers almost always need to finish their execution quickly---the details depend on the device and application---and this limits the complexity of what can be done in their code. Also, the context in which the interrupt handler code is executed can, for either hardware or software reasons, prevent the usage from within the interrupt handler code of:
--   Common library functions
--   Access to peripherals and devices
--   Even certain types of CPU instructions
+
+- Common library functions
+- Access to peripherals and devices
+- Even certain types of CPU instructions
 
 The usual way to mitigate this is to have the interrupt controller set a special variable which is observed by non-interrupt code, and which can then perform arbitrary actions
-
-
 
 <https://www.toptal.com/embedded/interview-questions>
 

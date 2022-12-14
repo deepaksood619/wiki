@@ -10,21 +10,21 @@ Modified: 2021-05-29 20:34:20 +0500
 
 ## Scientific method
 
-1.  Observe
+1. Observe
 
-2.  Hypothesis
+2. Hypothesis
 
-3.  Predict
+3. Predict
 
-4.  Verify
+4. Verify
 
-5.  Validate
+5. Validate
 
 ## Empirical Analysis
 
 Run the program for various input sizes and measure running time
 
-1.  3-Sum Problem -
+1. 3-Sum Problem -
 
 Given N distinct integers, how many triples sum to exactly zero
 
@@ -32,15 +32,15 @@ Brute-force uses n^3 time.
 
 Can be solved in n^2 log N
 
-1.  Sort the N (distinct) numbers
+1. Sort the N (distinct) numbers
 
-2.  For each pair of numbers a[i] and a[j], binary search for -(a[i] + a[j])
+2. For each pair of numbers a[i] and a[j], binary search for -(a[i] + a[j])
 
-2.  1-Sum problem -
+2. 1-Sum problem -
 
 How many integers are 0 in an array
 
-3.  2-Sum problem
+3. 2-Sum problem
 
 How many pair integers sum to 0
 
@@ -52,7 +52,7 @@ Tilde notation
 
 Estimating a discrete sum (replace sum with an integral, and use calculus)
 
-1.  3-Sum Problem can be improved -
+1. 3-Sum Problem can be improved -
 
     a.  Sort the input array
 
@@ -62,11 +62,11 @@ Estimating a discrete sum (replace sum with an integral, and use calculus)
 
 ## Theory of algorithms
 
-1.  Best Case
+1. Best Case
 
-2.  Worst Case
+2. Worst Case
 
-3.  Average Case
+3. Average Case
 
 ## Amortized Analysis
 
@@ -76,7 +76,7 @@ So, amortized analysis is used to average out the costly operations in the worst
 
 There are three main types of amortized analysis:aggregate analysis, theaccounting method, and thepotential method.
 
-<https://brilliant.org/wiki/amortized-analysis
+<https://brilliant.org/wiki/amortized-analysis>
 
 ## Memory
 
@@ -88,12 +88,13 @@ There are three main types of amortized analysis:aggregate analysis, theaccounti
 
 ## Typical memory usage summary
 
-## Total memory. usage for a data type value:
--   Primitive type: 4 bytes for int, 8 bytes for double, ...
--   Object reference: 8 bytes
--   Array: 24 bytes + memory for each array entry
--   Object: 16 bytes + memory for each instance variable + 8 bytes if inner class (for pointer to enclosing class)
--   Padding: round up to multiple of 8 bytes
+## Total memory. usage for a data type value
+
+- Primitive type: 4 bytes for int, 8 bytes for double, ...
+- Object reference: 8 bytes
+- Array: 24 bytes + memory for each array entry
+- Object: 16 bytes + memory for each instance variable + 8 bytes if inner class (for pointer to enclosing class)
+- Padding: round up to multiple of 8 bytes
 
 ## Shallow memory usage: Don't count referenced objects
 

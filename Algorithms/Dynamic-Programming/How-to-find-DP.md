@@ -7,6 +7,7 @@ Modified: 2018-02-15 20:01:38 +0500
 ---
 
 ## Steps to solve a DP
+
 1) Identify if it is a DP problem
 2) Decide a state expression with
 least parameters
@@ -14,14 +15,15 @@ least parameters
 4) Do tabulation (or add memoization)
 
 ## [Step 1 : How to classify a problem as a Dynamic Programming Problem?]{.underline}
--   Typically, all the problems that require to maximize or minimize certain quantity or counting problems that say to count the arrangements under certain condition or certain probability problems can be solved by using Dynamic Programming.
--   All dynamic programming problems satisfy the overlapping subproblems property and most of the classic dynamic problems also satisfy the optimal substructure property. Once, we observe these properties in a given problem, be sure that it can be solved using DP.
+
+- Typically, all the problems that require to maximize or minimize certain quantity or counting problems that say to count the arrangements under certain condition or certain probability problems can be solved by using Dynamic Programming.
+- All dynamic programming problems satisfy the overlapping subproblems property and most of the classic dynamic problems also satisfy the optimal substructure property. Once, we observe these properties in a given problem, be sure that it can be solved using DP.
 
 ## [Step 2 : Deciding the state]{.underline}
 
 DP problems are all about state and their transition. This is the most basic step which must be done very carefully because the state transition depends on the choice of state definition you make. So, let's see what do we mean by the term "state".
 
-## StateA state can be defined as the set of parameters that can uniquely identify a certain position or standing in the given problem. This set of parameters should be as small as possible to reduce state space.
+## StateA state can be defined as the set of parameters that can uniquely identify a certain position or standing in the given problem. This set of parameters should be as small as possible to reduce state space
 
 As we know DP is all about using calculated results to formulate the final result.
 
@@ -39,4 +41,4 @@ This is the easiest part of a dynamic programming solution. We just need to stor
 
 ## References
 
-<https://www.geeksforgeeks.org/solve-dynamic-programming-problem
+<https://www.geeksforgeeks.org/solve-dynamic-programming-problem>

@@ -22,6 +22,7 @@ DELIMITER ',' IGNOREHEADER 1 FILLRECORD IGNOREBLANKLINES NULL 'nan'
 
 ACCEPTINVCHARS EMPTYASNULL ESCAPE COMPUPDATE OFF
 select version();
+
 ## # show sizes
 
 ## SELECT**tbl,**name**, size_mb**FROM
@@ -44,7 +45,8 @@ select version();
 
 ## ORDER****BY**size_mb**DESC
 
-## LIMIT10;
+## LIMIT10
+
 SELECT TRIM(pgdb.datname) AS Database,
 TRIM(a.name) AS Table,
 ((b.mbytes/part.total::decimal)*100)::decimal(5,2) AS pct_of_total,
@@ -65,9 +67,10 @@ WHERE part_begin = 0 ) AS part
 ON 1 = 1
 WHERE a.slice = 0
 ORDER BY 4 desc, db_id, name;
+
 ## # show all users and Grant
 
-## select** usesysid **as user_id,
+## select**usesysid**as user_id
 
 usename **as** username,
 
@@ -79,7 +82,8 @@ valuntil **as** password_expiration
 
 ## from pg_user
 
-## order by user_id;
+## order by user_id
+
 CREATE USER intern2_datascience WITH password 's4XfxXE8D8FqXxNH';
 
 grant usage on schema data_analytics to developer; (important for 1st time)
@@ -89,7 +93,9 @@ GRANT SELECT on SCHEMA_NAME.TABLE_NAME TO USER_NAME;
 GRANT SELECT on public.sentinel_customers TO bhupesh_goyal;
 
 GRANT SELECT on public.dsa_customers TO bhupesh_goyal;
-## grant** **select**,**update**,**delete** **on** **all** tables **in** **schema** colender **to developer;
+
+## grant****select**,**update**,**delete****on****all**tables**in****schema**colender**to developer
+
 <https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_USER.html>
 
 ## select**
@@ -100,7 +106,7 @@ docs,
 
 is_valid_json_array(docs),
 
-## json_array_length(docs),
+## json_array_length(docs)
 
 json_extract_array_element_text(docs, 1) **as** json_text,
 
@@ -114,11 +120,12 @@ json_extract_path_text(json_text, 'id')
 
 sttash_website_live.fos_scan_doc_comment
 
-## limit 1;
+## limit 1
 
 <https://docs.aws.amazon.com/redshift/latest/dg/json-functions.html>
 
 ## # getting blocking queries
+
 ```
 SELECT waiting.relation::regclass AS waiting_table,
 

@@ -39,8 +39,9 @@ The dot operator is applied to the actual object. The arrow operator is used wit
 ## Constants
 
 C++ supports two notions of immutability
--   **const:** meaning roughly ''I promise not to change this value'' (§7.5). This is used primarily to specify interfaces, so that data can be passed to functions without fear of it being modified. The compiler enforces the promise made by const.
--   **constexpr:** meaning roughly ''to be evaluated at compile time'' (§10.4). This is used primarily to specify constants, to allow placement of data in memory where it is unlikely to be corrupted, and for performance.
+
+- **const:** meaning roughly ''I promise not to change this value'' (§7.5). This is used primarily to specify interfaces, so that data can be passed to functions without fear of it being modified. The compiler enforces the promise made by const.
+- **constexpr:** meaning roughly ''to be evaluated at compile time'' (§10.4). This is used primarily to specify constants, to allow placement of data in memory where it is unlikely to be corrupted, and for performance.
 
 ## Example
 
@@ -55,11 +56,12 @@ constexpr double max2 = 1.4∗square(var); // error : var is not a constant expr
 const double max3 = 1.4∗square(var); // OK, may be evaluated at run time
 
 ## Data Types
--   Int ("%d"):32 Bit integer
--   Long ("%ld"):64 bit integer
--   Char ("%c"):Character type
--   Float ("%f"):32 bit real value
--   Double ("%lf"):64 bit real value
+
+- Int ("%d"):32 Bit integer
+- Long ("%ld"):64 bit integer
+- Char ("%c"):Character type
+- Float ("%f"):32 bit real value
+- Double ("%lf"):64 bit real value
 
 printf("%.9lf", double_val);
 
@@ -71,8 +73,8 @@ Every object in C++ has access to its own address through an important pointer c
 
 ## C
 
-<https://www.freecodecamp.org/news/the-c-beginners-handbook
+<https://www.freecodecamp.org/news/the-c-beginners-handbook>
 
 ## Pointers in C
 
-<https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think
+<https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think>

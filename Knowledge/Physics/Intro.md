@@ -6,7 +6,7 @@ Modified: 2021-12-31 14:19:38 +0500
 
 ---
 
-1.  Retrocausality - That future can effect the past. Ex - if i spill the coffee tomorrow then i can see the stain today.
+1. Retrocausality - That future can effect the past. Ex - if i spill the coffee tomorrow then i can see the stain today.
 
 # Momentum
 
@@ -27,14 +27,16 @@ In continuous systems such as electromagnetic fields, fluids and deformable bodi
 <https://en.wikipedia.org/wiki/Momentum>
 
 ## Types of Collision
--   **Elastic -** two objects collide and bounce of each other
--   **Perfectly inelastic**
--   **Partially inelastic**
+
+- **Elastic -** two objects collide and bounce of each other
+- **Perfectly inelastic**
+- **Partially inelastic**
 
 ## 4 Fundamental forces
--   Strong and weak force
--   Electromagnetism
--   Gravity
+
+- Strong and weak force
+- Electromagnetism
+- Gravity
 
 # Standard model of particle physics
 

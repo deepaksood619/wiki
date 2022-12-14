@@ -10,7 +10,7 @@ Dynamic Programming is an algorithmic paradigm that solves a given complex probl
 
 The idea is very simple, If you have solved a problem with the given input, then save the result for future reference, so as to avoid solving the same problem again.. shortly*'Remember your Past'*
 
-1.  **Overlapping Subproblem Property**
+1. **Overlapping Subproblem Property**
 
 In dynamic programming, computed solutions to subproblems are stored in a table so that these don't have to recomputed.
 
@@ -28,7 +28,7 @@ The tabulated program for a given problem builds a table in bottom up fashion an
 
 Analyze the problem and see the order in which the sub-problems are solved and start solving from the trivial subproblem, up towards the given problem. In this process, it is guaranteed that the subproblems are solved before solving the problem. This is referred to as***Dynamic Programming***.
 
-2.  **Optimal Substructure Property**
+2. **Optimal Substructure Property**
 
 A given problems has Optimal Substructure Property if optimal solution of the given problem can be obtained by using optimal solutions of its subproblems.
 
@@ -38,32 +38,32 @@ Both Tabulated and Memoized store the solutions of subproblems. In Memoized vers
 
 Majority of the Dynamic Programming problems can be categorized into two types:
 
-1.  Optimization problems
+1. Optimization problems
 
-2.  Combinatorial problems
+2. Combinatorial problems
 
 Algorithms
 
-1.  Fibonacci Series
+1. Fibonacci Series
 
-2.  Edit Distance
+2. Edit Distance
 
-3.  Longest Common Subsequence
+3. Longest Common Subsequence
 
-4.  Bellman-Ford shortest path routing algorithm
+4. Bellman-Ford shortest path routing algorithm
 
-5.  Subset sum
+5. Subset sum
 
-6.  Coin change
+6. Coin change
 
-7.  Seam Carving
+7. Seam Carving
 
-<https://www.geeksforgeeks.org/dynamic-programming
+<https://www.geeksforgeeks.org/dynamic-programming>
 
-<https://www.geeksforgeeks.org/dynamic-programming-set-1
+<https://www.geeksforgeeks.org/dynamic-programming-set-1>
 
-<https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property
+<https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property>
 
-<https://www.freecodecamp.org/news/learn-dynamic-programing-to-solve-coding-challenges
+<https://www.freecodecamp.org/news/learn-dynamic-programing-to-solve-coding-challenges>
 
 [Dynamic Programming](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)

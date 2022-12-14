@@ -23,9 +23,10 @@ It is an Algorithm used primarily to obtain the order in which methods should be
 <https://makina-corpus.com/blog/metier/2014/python-tutorial-understanding-python-mro-class-search-path>
 
 The name c3 refers to the three important properties of the resulting linearization-
--   A consistent extended precedence graph
--   Preservation of local precedence order
--   Fitting the monotonicity criterion
+
+- A consistent extended precedence graph
+- Preservation of local precedence order
+- Fitting the monotonicity criterion
 
 This algorithm takes an amorphous blob and put it in a straight line
 
@@ -44,15 +45,17 @@ help(<class>) shows MRO
 Counter can be used to make an ordered counter, because Counter cannot be used on OrderedDict, so we can use the power of super with MRO to make an OrderedCounter
 
 ## Linearization Algorithm
--   Children come before parents,
--   Parents stay in order
+
+- Children come before parents,
+- Parents stay in order
 
 Co-operative multiple Inheritance
 
 Problems with super
--   The last person cannot pass using super because there is no one next in line (use stopper class)
--   Super doesn't work with classes that are not designed to work cooperatively (solution - put a class infront of non-cooperative class that is cooperative)
--   Using positional arguments can mess up with the argument passing (solution- use keyword argument to pass along the attributes)
+
+- The last person cannot pass using super because there is no one next in line (use stopper class)
+- Super doesn't work with classes that are not designed to work cooperatively (solution - put a class infront of non-cooperative class that is cooperative)
+- Using positional arguments can mess up with the argument passing (solution- use keyword argument to pass along the attributes)
 
 ## Example
 

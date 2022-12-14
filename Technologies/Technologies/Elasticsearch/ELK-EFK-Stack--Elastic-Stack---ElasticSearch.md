@@ -52,7 +52,7 @@ Together, these three different open source products are most commonly used in l
 
 ## Lumberjack Protocol
 
-<https://logz.io/blog/filebeat-vs-logstash
+<https://logz.io/blog/filebeat-vs-logstash>
 
 ## References
 

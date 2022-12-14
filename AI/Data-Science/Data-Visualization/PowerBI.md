@@ -7,11 +7,10 @@ Modified: 2021-08-20 00:38:59 +0500
 ---
 
 ## Questions
--   save daily aggregates powerbi, and delete the underlying data
--   powerbi save old roll ups
--   saving average and count powerbi
 
-
+- save daily aggregates powerbi, and delete the underlying data
+- powerbi save old roll ups
+- saving average and count powerbi
 
 Power BI is a Data Visualization and Business Intelligence tool that converts data from different data sources to interactive dashboards and BI reports. Power BI suite provides multiple software, connector, and services - Power BI desktop, Power BI service based on Saas, and mobile Power BI apps available for different platforms. These set of services are used by business users to consume data and build BI reports.
 
@@ -23,7 +22,7 @@ DAX (Data Analysis Expressions) is a formula expression language and can be used
 
 <https://www.tutorialspoint.com/power_bi/dax_basics_in_power_bi.htm>
 
-<https://www.edureka.co/blog/interview-questions/power-bi-interview-questions
+<https://www.edureka.co/blog/interview-questions/power-bi-interview-questions>
 
 [**https://towardsdatascience.com/the-top-youtube-channels-for-you-to-learn-powerbi-and-data-analytics-for-free-8f8eb434b48d**](https://towardsdatascience.com/the-top-youtube-channels-for-you-to-learn-powerbi-and-data-analytics-for-free-8f8eb434b48d)
 
@@ -79,11 +78,12 @@ is a way fordesignersto bundle and share related dashboards and reports together
 <https://docs.microsoft.com/en-us/power-bi/consumer/end-user-basic-concepts>
 
 ## Terminology
--   **Measure-** a measure is a quantitative (numeric) field that can be used to do calculations. Common calculations are sum, average, and minimum. For example, if our company makes and sells skateboards, our measures might be number of skateboards sold and average profit per year.
--   **Dimension-** dimensions are categorical (text) data. A dimension describes a person, object, item, products, place, and time. In a a dataset, dimensions are a way to groupmeasuresinto useful categories. For our skateboard company, some dimensions might include looking at sales (a measure) by model, color, country, or marketing campaign.
--   **Correlation-** a correlation tells us how the behavior of things are related. If their patterns of increase and decrease are similar, then they are positively correlated. And if their patterns are opposite, then they are negatively correlated. For example, if sales of our red skateboard increase each time we run a tv marketing campaign, then sales of the red skateboard and the tv campaign are positively correlated.
--   **Time series-** a time series is a way of displaying time as successive data points. Those data points could be increments such as seconds, hours, months, or years.
--   **Continuous variable-** a continuous variable can be any value between its minimum and maximum limits, otherwise it is a discrete variable. Examples are temperature, weight, age, and time. Continuous variables can include fractions or portions of the value. The total number of blue skateboards sold is a discrete variable since we can't sell half a skateboard.
+
+- **Measure-** a measure is a quantitative (numeric) field that can be used to do calculations. Common calculations are sum, average, and minimum. For example, if our company makes and sells skateboards, our measures might be number of skateboards sold and average profit per year.
+- **Dimension-** dimensions are categorical (text) data. A dimension describes a person, object, item, products, place, and time. In a a dataset, dimensions are a way to groupmeasuresinto useful categories. For our skateboard company, some dimensions might include looking at sales (a measure) by model, color, country, or marketing campaign.
+- **Correlation-** a correlation tells us how the behavior of things are related. If their patterns of increase and decrease are similar, then they are positively correlated. And if their patterns are opposite, then they are negatively correlated. For example, if sales of our red skateboard increase each time we run a tv marketing campaign, then sales of the red skateboard and the tv campaign are positively correlated.
+- **Time series-** a time series is a way of displaying time as successive data points. Those data points could be increments such as seconds, hours, months, or years.
+- **Continuous variable-** a continuous variable can be any value between its minimum and maximum limits, otherwise it is a discrete variable. Examples are temperature, weight, age, and time. Continuous variables can include fractions or portions of the value. The total number of blue skateboards sold is a discrete variable since we can't sell half a skateboard.
 
 ## PowerBI Embeds
 
@@ -96,27 +96,30 @@ is a way fordesignersto bundle and share related dashboards and reports together
 <https://github.com/microsoft/PowerBI-Developer-Samples>
 
 ## PowerBI slow - Guy In A Cube Youtube
--   Too many visuals
--   Inefficient data model
--   Bad DAX
+
+- Too many visuals
+- Inefficient data model
+- Bad DAX
 
 ## Query Folding
 
 Query folding is the ability for a Power Query query to generate a single query statement to retrieve and transform source data.
 
 The **Vertipaq Engine** is the in-memory columnar database that stores and hosts your model.
--   Compression
--   Organization
--   Segment Elimination
+
+- Compression
+- Organization
+- Segment Elimination
 
 <https://docs.microsoft.com/en-us/power-bi/guidance/star-schema>
 
 <https://www.youtube.com/watch?v=S7Fh2l-4jlc>
 
 ## Data import
--   Import
--   DirectQuery
--   Live
+
+- Import
+- DirectQuery
+- Live
 
 ## Incremental Refresh
 
@@ -124,13 +127,13 @@ The **Vertipaq Engine** is the in-memory columnar database that stores and hosts
 
 [Learn all about Power BI Aggregations](https://www.youtube.com/playlist?list=PLv2BtOtLblH0cQ7rWV2SVLGoplKdy0LtD)
 
-1.  Large data
+1. Large data
 
-2.  Speed up refresh
+2. Speed up refresh
 
-3.  Reduce model size
+3. Reduce model size
 
-4.  Future proof
+4. Future proof
 
 ![image](media/Data-Visualization_PowerBI-image1.jpg)
 
@@ -138,23 +141,23 @@ The **Vertipaq Engine** is the in-memory columnar database that stores and hosts
 
 ## AI
 
-1.  **Decomposition Tree**
+1. **Decomposition Tree**
 
-2.  **Key Influencers**
+2. **Key Influencers**
 
-3.  **AutoML**
+3. **AutoML**
 
-4.  **Insights**
-    -   **Category outliers (top/bottom)**
-    -   **Change points in a time series**
-    -   **Correlation**
-    -   **Low Variance**
-    -   **Majority (Major factors)**
-    -   **Outliers**
-    -   **Overall trends in time series**
-    -   **Seasonality in time series**
-    -   **Steady share**
-    -   **Time series outliers**
+4. **Insights**
+    - **Category outliers (top/bottom)**
+    - **Change points in a time series**
+    - **Correlation**
+    - **Low Variance**
+    - **Majority (Major factors)**
+    - **Outliers**
+    - **Overall trends in time series**
+    - **Seasonality in time series**
+    - **Steady share**
+    - **Time series outliers**
 
 <https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types>
 

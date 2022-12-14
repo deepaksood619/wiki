@@ -8,18 +8,18 @@ Modified: 2019-12-06 00:20:25 +0500
 
 There are 3 built-in methods for string conversion -
 
-1.  __str__()
+1. __str__()
 
 Called when print statement and str() on any object is called.
 
 __str__ will return a human readable string.
 
-2.  __unicode__()
-    -   Called when unicode() is called on any object, if it exists, and otherwise falls back to __str__() and decodes the result with the system encoding.
-    -   Python 3, there's simply __str__(), which must return str(text)
-    -   There is also __bytes__(), but
+2. __unicode__()
+    - Called when unicode() is called on any object, if it exists, and otherwise falls back to __str__() and decodes the result with the system encoding.
+    - Python 3, there's simply __str__(), which must return str(text)
+    - There is also __bytes__(), but
 
-3.  __repr__()
+3. __repr__()
 
 Called by the repr() built-in function and by string conversions to compute the official string representation of an object.
 
@@ -31,11 +31,11 @@ While printing lists as well as other container classes, the contained elements 
 
 Solution -
 
-1.  Unicode Sandwich -
+1. Unicode Sandwich -
 
 Always use unicode in whole project and convert at the ends
 
-2.  Django
+2. Django
 
 Define __str__() method returning text and apply python_2_unicode_compatible() decorator.
 

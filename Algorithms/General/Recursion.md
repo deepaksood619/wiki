@@ -6,7 +6,7 @@ Modified: 2021-07-24 23:27:47 +0500
 
 ---
 
-<https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-recursion-part-2
+<https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-recursion-part-2>
 
 Starter Function -
 
@@ -18,9 +18,9 @@ Starter Function will initialize any data and get the parameters in a form that 
 
 ## Two instances
 
-1.  The first is when recursion is used as a technique in which a function makes one or more calls to itself.
+1. The first is when recursion is used as a technique in which a function makes one or more calls to itself.
 
-2.  The second is when a data structure uses smaller instances of the exact same type of data structure when it represents itself.
+2. The second is when a data structure uses smaller instances of the exact same type of data structure when it represents itself.
 
 Recursion provides a powerful alternative for performing repetitions of tasks in which a loop is not ideal. Most modern programming languages support recursion and recursion serves as a great tool for building out particular data structures.
 
@@ -40,7 +40,7 @@ The consequence of this is that once you are ready to perform your next recursiv
 
 Consider a simple function that adds the first N integers. (e.g.sum(5) = 1 + 2 + 3 + 4 + 5 = 15).
 
-## Here is a simple JavaScript implementation that uses recursion:
+## Here is a simple JavaScript implementation that uses recursion
 
 function recsum(x) {
 if (x===1) {
@@ -62,7 +62,7 @@ recsum(5)
 
 Note how every recursive call has to complete before the JavaScript interpreter begins to actually do the work of calculating the sum.
 
-## Here's a tail-recursive version of the same function:
+## Here's a tail-recursive version of the same function
 
 function tailrecsum(x, running_total=0) {
 if (x===0) {

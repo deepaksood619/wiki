@@ -18,11 +18,11 @@ Linear and Logistic regression are the most basic form of regression which are c
 
 ## Key Differences Between Linear and Logistic Regression
 
-1.  The Linear regression models data using continuous numeric value. As against, logistic regression models the data in the binary values.
+1. The Linear regression models data using continuous numeric value. As against, logistic regression models the data in the binary values.
 
-2.  Linear regression requires to establish the linear relationship among dependent and independent variable whereas it is not necessary for logistic regression.
+2. Linear regression requires to establish the linear relationship among dependent and independent variable whereas it is not necessary for logistic regression.
 
-3.  In the linear regression, the independent variable can be correlated with each other. On the contrary, in the logistic regression, the variable must not be correlated with each other.
+3. In the linear regression, the independent variable can be correlated with each other. On the contrary, in the logistic regression, the variable must not be correlated with each other.
 
 Linear regression models data using a straight line where a random variable, Y(response variable) is modelled as a linear function of another random variable, X (predictor variable). On the other hand, the logistic regression models the probability of the events in bivariate which are essentially occurring as a linear function of a set of dependent variables.
 
@@ -37,11 +37,12 @@ Logistic regression, on the other hand, outputs a probability, which by definiti
 <https://medium.com/@dhiraj8899/top-5-difference-between-linear-regression-and-logistic-regression-893f6470d7e0>
 
 ## Regression
--   Predict real-valued output for given input - given a training set
--   Examples:
-    -   Predict rainfall in cm for month
-    -   Predict stock prices in next day
-    -   Predict numbers of users who will click on an internet advertisement
+
+- Predict real-valued output for given input - given a training set
+- Examples:
+  - Predict rainfall in cm for month
+  - Predict stock prices in next day
+  - Predict numbers of users who will click on an internet advertisement
 
 ## Reading a Regression
 

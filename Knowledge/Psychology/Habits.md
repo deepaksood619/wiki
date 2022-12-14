@@ -20,19 +20,19 @@ What identity are you embodying today? Who are your habits helping you become?
 
 ## Core Ideas of Self Improvement
 
-1.  Habits
+1. Habits
 
-2.  Goal-setting
+2. Goal-setting
 
-3.  Systems
+3. Systems
 
-4.  Emotional Self-Regulation
+4. Emotional Self-Regulation
 
-5.  Learning
+5. Learning
 
-6.  Values and Meaning
+6. Values and Meaning
 
-7.  Thoughts and Beliefs
+7. Thoughts and Beliefs
 
 <https://www.scotthyoung.com/blog/2020/03/23/core-self-improvement-ideas>
 
@@ -56,9 +56,9 @@ The key---if you want to build habits that last---is to join a group where the d
 
 Changing your beliefs isn't nearly as hard as you might think. There are two steps.
 
-1.  Decide the type of person you want to be.
+1. Decide the type of person you want to be.
 
-2.  Prove it to yourself with small wins.
+2. Prove it to yourself with small wins.
 
 <https://jamesclear.com/identity-based-habits>
 
@@ -77,12 +77,13 @@ Each attempt represents a lesson learned and progress toward the ulti- mate goal
 ![](media/Habits-image1.png)
 
 ## Exposure Theory for overcoming fears
--   Graded exposure (slowly step by step exposure)
--   Flooding (facing the most fearful)
+
+- Graded exposure (slowly step by step exposure)
+- Flooding (facing the most fearful)
 
 ![image](media/Habits-image2.png)
 
-## Exposure therapy, where you give yourself small doses of the thing you're scared of to diminish the fear it generates, works for phobias of spiders or clowns, but it can also help with getting started.
+## Exposure therapy, where you give yourself small doses of the thing you're scared of to diminish the fear it generates, works for phobias of spiders or clowns, but it can also help with getting started
 
 Say you need to write an essay, but you're not sure what topic to do it on. You've implemented the suggestions above, and picked a default topic and a deadline. Now the deadline has passed, and you're supposed to get started on the essay, but you're still dragging your feet. Now what?
 
@@ -106,62 +107,66 @@ Another can also be**punishing yourself for failure to act**. I knew someone onc
 
 ## N - Note - from moment to moment how those sensation change and move
 
-## Common daily habits to track:
--   kapalbhati morning
--   journal 1 sentence
--   read 1 page
--   meditate 1 minute
--   do 1 push up
--   stretch for 1 minute
--   write 1 thing I'm grateful for
--   make your bed
--   wake up by 6:30
--   go to bed by 11:00
--   take a shower
--   floss teeth
--   weigh myself
--   take medication
--   take vitamins/supplements
--   play [INSTRUMENT] for 1 minute
--   contact 1 potential client
--   prioritize to-do list
--   say "I love you" at least once
--   put all dishes put away
--   take a walk outside
--   call mom
--   walk the dog
+## Common daily habits to track
 
-## Common weekly habits to track:
--   publish blog post
--   vacuum
--   take out trash/recycling
--   do the laundry
--   water the plants
--   tidy up your bedroom
--   write a thank you note
+- kapalbhati morning
+- journal 1 sentence
+- read 1 page
+- meditate 1 minute
+- do 1 push up
+- stretch for 1 minute
+- write 1 thing I'm grateful for
+- make your bed
+- wake up by 6:30
+- go to bed by 11:00
+- take a shower
+- floss teeth
+- weigh myself
+- take medication
+- take vitamins/supplements
+- play [INSTRUMENT] for 1 minute
+- contact 1 potential client
+- prioritize to-do list
+- say "I love you" at least once
+- put all dishes put away
+- take a walk outside
+- call mom
+- walk the dog
 
-## Monthly habits:
--   review finances
--   transfer money to savings account
--   pay off credit cards
--   pay bills
--   deep clean the house
+## Common weekly habits to track
+
+- publish blog post
+- vacuum
+- take out trash/recycling
+- do the laundry
+- water the plants
+- tidy up your bedroom
+- write a thank you note
+
+## Monthly habits
+
+- review finances
+- transfer money to savings account
+- pay off credit cards
+- pay bills
+- deep clean the house
 
 ## Practice makes permanent
--   Why learning math is so difficult
-    -   because there is no analogous thing to point to
-    -   Because math is abstract
--   Therefore practice is more important to learn abstract concepts. We have to build neural pathways in our brain through practice
+
+- Why learning math is so difficult
+  - because there is no analogous thing to point to
+  - Because math is abstract
+- Therefore practice is more important to learn abstract concepts. We have to build neural pathways in our brain through practice
 
 ## Habits
 
-1.  The cue - It can be useful or harmful it's a routine, what we do in reaction to that cue matters.
+1. The cue - It can be useful or harmful it's a routine, what we do in reaction to that cue matters.
 
-2.  The routine - This is our zombie mode
+2. The routine - This is our zombie mode
 
-3.  The reward - giving rewards for following routines can be helpful to avoid procastination
+3. The reward - giving rewards for following routines can be helpful to avoid procastination
 
-4.  The belief
+4. The belief
 
 ## Process vs Product
 
@@ -179,64 +184,66 @@ Overwrite a few parts of old habits and write new ones.
 
 The trick to overriding a habit is to look to change your reaction to a cue. The only place we have to use willpower is for changing these.
 
-1.  The cue
-    -   location
-    -   time
-    -   how you feel
-    -   reactions
+1. The cue
+    - location
+    - time
+    - how you feel
+    - reactions
 
-2.  The routine
-    -   The unhappy feeling
-    -   You funnel attention onto a more pleasant task (these place we have to rewire our old habbit)
+2. The routine
+    - The unhappy feeling
+    - You funnel attention onto a more pleasant task (these place we have to rewire our old habbit)
 
         i.  Develop a plan / ritual, adjust your plans and then savor vitories when your plan works. Don't try to change everything at once
 
-3.  The reward
+3. The reward
 
 Reward is very important to rewire the old habit. Because brain will look for that reward and then will stick to that habit.
 
 The better you get at something the more enjoyable it becomes
 
-4.  The belief
+4. The belief
 
 You can do it.
 
 Belief that your system works.
 
 ## Juggling life and learning
--   Weekly list of key tasks
--   Write daily to do list, evening before
+
+- Weekly list of key tasks
+- Write daily to do list, evening before
 
 Research has shown that this helps your subconscious to grapple with the tasks on the list so you can figure out how to accomplish them. Writing the list before you go to sleep, enlists your zombies, to help you accomplish the items on the list the next day. If you don't write your tasks down on a list, they lurk at the edge of the four or so slots of your working memory, taking up valuable mental real estate. But once you make a task list, it frees working memory for problem solving.
--   Planning your quitting time is as important as planning your working time
--   Try to have a break time and make it fixed
--   Eat your frogs first in the morning. Try to work on a most important and most disliked task first. At least just one Pomodoro
+
+- Planning your quitting time is as important as planning your working time
+- Try to have a break time and make it fixed
+- Eat your frogs first in the morning. Try to work on a most important and most disliked task first. At least just one Pomodoro
 
 ## Summary
 
-1.  Create processes instead of product
+1. Create processes instead of product
 
-2.  Having a leisure time is as important as working
+2. Having a leisure time is as important as working
 
-3.  Create habits
+3. Create habits
 
-    1.  The cue
+    1. The cue
 
-    2.  The routine
+    2. The routine
 
-    3.  The reward
+    3. The reward
 
-    4.  The belief
+    4. The belief
 
-4.  Always have reward if you follow habits
+4. Always have reward if you follow habits
 
-5.  Look for procastination cues
+5. Look for procastination cues
 
-6.  Keep a planar journal
+6. Keep a planar journal
 
-7.  Create a task list before you go to sleep
+7. Create a task list before you go to sleep
 
-8.  Eat your frogs first thing in the morning
+8. Eat your frogs first thing in the morning
 
 ## Carpe diem
 
@@ -245,10 +252,11 @@ You know that this is Latin for "**seize the day**" right? No matter how yesterd
 ## Implementation Intentions
 
 I will [BEHAVIOR] at [TIME] in [LOCATION].
--   I will meditate for one minute at 7 a.m. in my kitchen.
--   I will study Spanish for twenty minutes at 6 p.m. in my bedroom.
--   I will exercise for one hour at 5 p.m. in my local gym.
--   I will make my partner a cup of tea at 8 a.m. in the kitchen.
+
+- I will meditate for one minute at 7 a.m. in my kitchen.
+- I will study Spanish for twenty minutes at 6 p.m. in my bedroom.
+- I will exercise for one hour at 5 p.m. in my local gym.
+- I will make my partner a cup of tea at 8 a.m. in the kitchen.
 
 Give your habits a time and a space to live in the world. The goal is to make the time and location so obvious that, with enough repetition, you get an urge to do the right thing at the right time, even if you can't say why.
 
@@ -259,9 +267,10 @@ Give your habits a time and a space to live in the world. The goal is to make th
 Graduating from your current habit to one level higher. Basically, habit graduation is about increasing your average speed.
 
 Examples
--   If your average speed is eating three healthy meals per week, can you "graduate" that to one healthy meal per day?
--   If your average speed is exercising twice per month, can you "graduate" that to once per week?
--   If your job is crazy and you only talk to your old friends on the phone once every three months, can you schedule those calls into your calendar and "graduate" that habit to once per month?
+
+- If your average speed is eating three healthy meals per week, can you "graduate" that to one healthy meal per day?
+- If your average speed is exercising twice per month, can you "graduate" that to once per week?
+- If your job is crazy and you only talk to your old friends on the phone once every three months, can you schedule those calls into your calendar and "graduate" that habit to once per month?
 
 <https://jamesclear.com/average-speed>
 
@@ -278,69 +287,72 @@ Funny
 whY
 
 ## The Seven Habits of Highly Effective People by Stephen Covey
--   Effectively integrating into the world means aligning personal paradigms with universal principles.
--   "Sharpen the Saw" to stay effective. Stay physically fit by exercising. Stay mentally healthy by learning new things. Stay socially and emotionally engaged by developing positive relationships. Maintain spiritual health by confronting and reflecting on your own values.
--   Be proactive and take control of your own fate.
--   Begin with the end in mind and set long term goals with an understanding of your personal mission statement.
--   Visualize the outcome of every step toward your goal so it will be easier to translate into concrete actions.
--   "Put First Things First" by prioritizing things that bring you toward your goals and are consistent with your values or norms.
--   Practice the Win-Win mentality. It will create good relationships, mutual trust, and long term benefits.
--   Forming stable relationships means listening empathetically to others and understanding their personal paradigms so you can contribute and invest in their goals.
--   Engage in active listening by repeating back people's own words, mirroring their emotions, and helping structure their thought processes.
--   Synergize with others by cooperating openly and respectfully. Collectives can achieve a result that is impossible for an individual.
--   Don't say yes to everything.
--   Don't view the world from a Win-Lose, competitive perspective.
--   To change, you have to address your character, not your behavior.
--   Our paradigms are our subjective perception of the world that shapes our habits.
--   If you want to be able to influence others, first seek to understand. Only then can you be understood.
+
+- Effectively integrating into the world means aligning personal paradigms with universal principles.
+- "Sharpen the Saw" to stay effective. Stay physically fit by exercising. Stay mentally healthy by learning new things. Stay socially and emotionally engaged by developing positive relationships. Maintain spiritual health by confronting and reflecting on your own values.
+- Be proactive and take control of your own fate.
+- Begin with the end in mind and set long term goals with an understanding of your personal mission statement.
+- Visualize the outcome of every step toward your goal so it will be easier to translate into concrete actions.
+- "Put First Things First" by prioritizing things that bring you toward your goals and are consistent with your values or norms.
+- Practice the Win-Win mentality. It will create good relationships, mutual trust, and long term benefits.
+- Forming stable relationships means listening empathetically to others and understanding their personal paradigms so you can contribute and invest in their goals.
+- Engage in active listening by repeating back people's own words, mirroring their emotions, and helping structure their thought processes.
+- Synergize with others by cooperating openly and respectfully. Collectives can achieve a result that is impossible for an individual.
+- Don't say yes to everything.
+- Don't view the world from a Win-Lose, competitive perspective.
+- To change, you have to address your character, not your behavior.
+- Our paradigms are our subjective perception of the world that shapes our habits.
+- If you want to be able to influence others, first seek to understand. Only then can you be understood.
 
 ## Blinkist - Atomic Habits by James Clear (30 Dec 2018)
 
 An easy and proven way to build good habits and break bad ones
--   Habits are like the atoms of our lives. Each one is a fundamental unit that contributes to your overall improvement.
--   cue, craving, response, reward
--   **Implementation intentions**
+
+- Habits are like the atoms of our lives. Each one is a fundamental unit that contributes to your overall improvement.
+- cue, craving, response, reward
+- **Implementation intentions**
 
 Introduces a clear plan of action, setting out when and where you'll carry out the habit you'd like to cultivate
--   Many people think they lack motivation when what they really lack is clarity
--   Humans are motivated by the anticipation of reward, so making habits attractive will help you stick to them
-    -   **Temptation bundling -** take a behavior that you think of as important but unappealing and link it to a behavior that you're drawn to - one that will generate that motivating dopamine hit
--   If you want to build a new habit, make that habit as easy to adopt as possible
-    -   **Reducing friction** for creating new habits
-    -   Increasing friction for breaking bad habits (ex - take batteries out of remote and unplug tv)
-    -   **Two-minute rule -** start with just two minutes of certain habit
--   Making your habits immediately satisfying is essential to effective behavior change
-    -   **delayed-return environment**
-    -   immediate return envornment
--   Creating a framework to keep your habits on tract, using trackers and contracts
-    -   **Habit tracking** - itself is an attractive, and satisfying, habit. The anticipation and action of crossing off each day will feel good and keep you motivated
-        -   A habit tracker reminds you to act
-        -   A habit tracker motivates you to continue
-        -   A habit tracker provides immediate satisfaction
-    -   **Habit contract** - that imposes negative consequences if you fail to stay on track
--   **Habit stacking** can be used to introduce new behaviors
-    -   stack new habit on top of an existing habit
+
+- Many people think they lack motivation when what they really lack is clarity
+- Humans are motivated by the anticipation of reward, so making habits attractive will help you stick to them
+  - **Temptation bundling -** take a behavior that you think of as important but unappealing and link it to a behavior that you're drawn to - one that will generate that motivating dopamine hit
+- If you want to build a new habit, make that habit as easy to adopt as possible
+  - **Reducing friction** for creating new habits
+  - Increasing friction for breaking bad habits (ex - take batteries out of remote and unplug tv)
+  - **Two-minute rule -** start with just two minutes of certain habit
+- Making your habits immediately satisfying is essential to effective behavior change
+  - **delayed-return environment**
+  - immediate return envornment
+- Creating a framework to keep your habits on tract, using trackers and contracts
+  - **Habit tracking** - itself is an attractive, and satisfying, habit. The anticipation and action of crossing off each day will feel good and keep you motivated
+    - A habit tracker reminds you to act
+    - A habit tracker motivates you to continue
+    - A habit tracker provides immediate satisfaction
+  - **Habit contract** - that imposes negative consequences if you fail to stay on track
+- **Habit stacking** can be used to introduce new behaviors
+  - stack new habit on top of an existing habit
 
 ## 13 Things Mentally Strong People Don't Do - Amy Morin
 
-1.  Replace self-pity with gratitude
+1. Replace self-pity with gratitude
 
-2.  Hold onto their power and forgive others
-    -   Waiting to forgive people until they say they're sorry gives them control over not just your life, but perhaps your death
+2. Hold onto their power and forgive others
+    - Waiting to forgive people until they say they're sorry gives them control over not just your life, but perhaps your death
 
-3.  Are always ready to embrace change
+3. Are always ready to embrace change
 
-4.  Don't get distracted by things they can't control
+4. Don't get distracted by things they can't control
 
-5.  Always wanting to please others doesn't work, and being ready to sometimes displease makes you stronger
+5. Always wanting to please others doesn't work, and being ready to sometimes displease makes you stronger
 
-6.  Are not afraid of taking calculated risks
+6. Are not afraid of taking calculated risks
 
-7.  Coming to terms with the past makes you stronger, but it takes concrete steps to do so
+7. Coming to terms with the past makes you stronger, but it takes concrete steps to do so
 
-8.  Avoid repeating the same mistakes, and this requires self-discipline
+8. Avoid repeating the same mistakes, and this requires self-discipline
 
-9.  Don't envy other people's success but rather seek to collaborate with them
+9. Don't envy other people's success but rather seek to collaborate with them
 
 10. Don't give up easily, and they are self-compassionate about failure
 
@@ -352,23 +364,23 @@ Introduces a clear plan of action, setting out when and where you'll carry out t
 
 TODO:
 
-1.  Refrain from feeling sorry for yourself
+1. Refrain from feeling sorry for yourself
 
-2.  Never give your power away to others
+2. Never give your power away to others
 
-3.  Embrace change
+3. Embrace change
 
-4.  Avoid fretting about things you can't control
+4. Avoid fretting about things you can't control
 
-5.  Stop worrying about pleasing everyone
+5. Stop worrying about pleasing everyone
 
-6.  Never be afraid of taking risks, but be clever about which risks you take
+6. Never be afraid of taking risks, but be clever about which risks you take
 
-7.  Resist the urge to dwell on the past
+7. Resist the urge to dwell on the past
 
-8.  Make sure to never make the same mistake twice
+8. Make sure to never make the same mistake twice
 
-9.  Never be resentful of other people's success
+9. Never be resentful of other people's success
 
 10. Keep at it and never give up after an initial failure
 
@@ -379,17 +391,18 @@ TODO:
 13. Never expect immediate results and be patient
 
 Actionable advice:
--   Monitor how you're behaving
--   Pay close attention to your feelings
--   Examine your thoughts
+
+- Monitor how you're behaving
+- Pay close attention to your feelings
+- Examine your thoughts
 
 ## Practice Loop
 
-<https://www.scotthyoung.com/blog/2020/04/03/practice-loop
+<https://www.scotthyoung.com/blog/2020/04/03/practice-loop>
 
 ## Limits to Habits
 
-1.  **Habits Aren't Routines**
+1. **Habits Aren't Routines**
 
 One limit is pretty straightforward: not all behaviors can be easily automated.
 
@@ -399,7 +412,7 @@ Habits, in this stricter sense, are those behaviors that flow automatically and 
 
 This suggests putting some caution on one's goals for habits. If the idea is that a behavior can proceed with zero effort after sufficient habituation, you may be disappointed. Routines can become easier with time, but they rarely have zero effort required.
 
-2.  **Habits are Often Fragile**
+2. **Habits are Often Fragile**
 
 This leads into a second limitation of habits: they are rarely permanent.
 
@@ -413,36 +426,38 @@ Except you switch jobs, move houses or get injured and your schedule changes. Yo
 
 Where this is particularly relevant is when there are multiple habits you want to sustain. Maintaining one or two good habits is fine. But if you need to maintain dozens, all which have non-zero time commitments? You may have a situation that's[untenable long-term](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/reh8h9u58gowqwu2/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMi8xMy9wcm9kdWN0aXZpdHktZ3VpbHQv).
 
-3.  **Habits Aren't Commitments**
+3. **Habits Aren't Commitments**
 
 I've already spoken about the difference between habits and routines. The latter require active effort and can't be fully automated. The most you can hope for is to automate some of the aspects of setting up or getting started, that make it a little smoother.
 
 Commitments are another thing that seem similar to habits[but are quite different](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/08hwhgu783pgmztl/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOS8wMy8wOC9oYWJpdHMtdnMtY29tbWl0bWVudHMv). A commitment is a rule you've put in place for yourself. That rule might be something like, "I must exercise at least 5 times per week," or, "I don't eat desserts on weekdays."
 
-4.  **Habits are Often Too Slow**
+4. **Habits are Often Too Slow**
 
 The[habit-forming philosophy](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/8ghqh3u54m7qgkfk/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMC8xOC9ib29rLXJlY29tbWVuZGF0aW9uLWF0b21pYy1oYWJpdHMv)---that you ought to do things slowly and steadily, since positive, automatic behaviors will compound over time---has major benefits. But there are many areas where such a strategy doesn't apply.
 
 The person starting a business may only have a few months to reach profitability or they'll run out of capital. Starting a new job, going back to school, taking on a difficult project all often involve similar large upfront investments of effort that can't be smoothed down.
 
-5.  **Human Nature Has Limits**
+5. **Human Nature Has Limits**
 
 Habits are an important tool, but they're just a tool. Like a hammer or a saw, they work really well for some things (banging nails, cutting wood) and really bad for other things (painting a picture, petting a kitten).
 
-<https://www.scotthyoung.com/blog/2020/09/21/habit-limits
+<https://www.scotthyoung.com/blog/2020/09/21/habit-limits>
 
 <https://www.scotthyoung.com/blog/2020/10/26/foundation-practices>
 
 [How to become 37.78 times better at anything | Atomic Habits summary (by James Clear)](https://youtu.be/PZ7lDrwYdZc)
 
 [TRIGGERS by Marshall Goldsmith | Core Message](https://youtu.be/_j3HHxPH2HU)
--   If we do not create and control our environment, our environment creates and controls us
--   Surround yourself with people who promote & praise the behavior you're striving for
+
+- If we do not create and control our environment, our environment creates and controls us
+- Surround yourself with people who promote & praise the behavior you're striving for
 
 ## Genius Habits
--   Reflect for 10 minutes a day
--   Read for 20 minutes a day
--   Focus for 30 minutes a day
+
+- Reflect for 10 minutes a day
+- Read for 20 minutes a day
+- Focus for 30 minutes a day
 
 ## Procastination
 
@@ -468,13 +483,13 @@ One explanation for whyakrasiarules our lives and procrastination pulls us in ha
 
 ## The framework to beat procastination
 
-1.  **Design your future action**
+1. **Design your future action**
 
 A commitment device is a choice you make in the present that controls your actions in the future.It is a way to lock in future behavior, bind you to good habits, and restrict you from bad ones.
 
-2.  **Reduce the friction of starting**
+2. **Reduce the friction of starting**
 
-3.  **Utilize implementation intentions**
+3. **Utilize implementation intentions**
 
 <https://jamesclear.com/akrasia>
 
@@ -484,23 +499,21 @@ A commitment device is a choice you make in the present that controls your actio
 
 [FINISH WHAT YOU START by Peter Hollins | Core Message](https://www.youtube.com/watch?v=yg0opil8TMA)
 
-1.  10-10-10 (10 mins from now, 10 hours, 10 days)
+1. 10-10-10 (10 mins from now, 10 hours, 10 days)
 
-2.  Wait for 10 mins to pass when you not feel like doing something
+2. Wait for 10 mins to pass when you not feel like doing something
 
-3.  No multitasking
+3. No multitasking
 
-4.  3 task daily, no more, no less
+4. 3 task daily, no more, no less
 
-5.  5 things you cannot do, no things you must do
+5. 5 things you cannot do, no things you must do
 
-6.  Reaffirmation
+6. Reaffirmation
 
 [DOPAMINE NATION by Anna Lembke | Core Message](https://www.youtube.com/watch?v=F-HDYRgZel0)
 
 ![image](media/Habits-image4.jpeg)
-
-
 
 ## Sleep
 
@@ -508,51 +521,51 @@ Sleep is a question of ease. If you are totally at ease, your sleep quality will
 
 If you can transition from wakefulness to sleep consciously, you will also be able to transition from life to death consciously.
 
-1.  Comfortable modern sleep is an unnatural superstimulus. Sleepiness, just like hunger, is normal
+1. Comfortable modern sleep is an unnatural superstimulus. Sleepiness, just like hunger, is normal
 
 The default argument for sleeping 7-9 hours a night is that this is the amount of sleep most of us get "naturally" when we sleep without using alarms. In this section, I argue against this line of reasoning, using the following analogy:
--   Experiencing hunger is normal and does not necessarily imply that you are not eating enough. Never being hungry means you are probably eating too much.
--   Experiencing sleepiness is normal and does not necessarily imply that you are undersleeping. Never being sleepy means you are probably sleeping too much.
--   If you sleep as much as you want, you'll probably sleep too much and become more susceptible to depression.
-    -   And if you sleep way too much at once, you'll be feeling terrible afterwards, however pleasant the sleep was.
 
+- Experiencing hunger is normal and does not necessarily imply that you are not eating enough. Never being hungry means you are probably eating too much.
+- Experiencing sleepiness is normal and does not necessarily imply that you are undersleeping. Never being sleepy means you are probably sleeping too much.
+- If you sleep as much as you want, you'll probably sleep too much and become more susceptible to depression.
+  - And if you sleep way too much at once, you'll be feeling terrible afterwards, however pleasant the sleep was.
 
+2. Depression <-> oversleeping. Mania <-> acute sleep deprivation
 
-2.  Depression <-> oversleeping. Mania <-> acute sleep deprivation
+3. Occasional acute sleep deprivation is good for health and promotes more efficient sleep
 
-3.  Occasional acute sleep deprivation is good for health and promotes more efficient sleep
+    1. Acute sleep deprivation combined with caffeine or some other stimulant that cancels out sleep pressure does not result in decreased cognitive ability at least until 30-40 hours of wakefulness (if this is true, then*sleepiness*, rather*absence of sleep*per se is responsible for decreased cognitive performance during acute sleep deprivation).
 
-    1.  Acute sleep deprivation combined with caffeine or some other stimulant that cancels out sleep pressure does not result in decreased cognitive ability at least until 30-40 hours of wakefulness (if this is true, then*sleepiness*, rather*absence of sleep*per se is responsible for decreased cognitive performance during acute sleep deprivation).
+    2. Occasional acute sleep deprivation has no impact on long-term cognitive ability or health.
 
-    2.  Occasional acute sleep deprivation has no impact on long-term cognitive ability or health.
+    3. Sleep*does*become more efficient over time and, in complete analogy to exercise, you withstand both acute sleep deprivation better and can function at baseline with a lower amount of sleep in the long-term.
 
-    3.  Sleep*does*become more efficient over time and, in complete analogy to exercise, you withstand both acute sleep deprivation better and can function at baseline with a lower amount of sleep in the long-term.
+4. Our priors about sleep research should be weak
 
-4.  Our priors about sleep research should be weak
+5. Decreasing sleep by 1-2 hours a night in the long-term has no negative health effects
 
-5.  Decreasing sleep by 1-2 hours a night in the long-term has no negative health effects
+    1. A sleep researcher who trains sailors to sleep efficiently in order to maximize their race performance believes that 4.5-5.5 hours of sleep is fine.
 
-    1.  A sleep researcher who trains sailors to sleep efficiently in order to maximize their race performance believes that 4.5-5.5 hours of sleep is fine.
+    2. 70% of 84 hunter-gatherers studied in 2013 slept less than 7 hours per day, with 46% sleeping less than 6 hours.
 
-    2.  70% of 84 hunter-gatherers studied in 2013 slept less than 7 hours per day, with 46% sleeping less than 6 hours.
+    3. A single-point mutation can decrease the amount of required sleep by 2 hours, with no negative side-effects.
 
-    3.  A single-point mutation can decrease the amount of required sleep by 2 hours, with no negative side-effects.
+    4. A brain surgery can decrease the amount of sleep required by 3 hours, with no negative-side effects.
 
-    4.  A brain surgery can decrease the amount of sleep required by 3 hours, with no negative-side effects.
+    5. Sleep is not required for memory consolidation.
 
-    5.  Sleep is not required for memory consolidation.
+<https://guzey.com/theses-on-sleep>
 
-<https://guzey.com/theses-on-sleep
+## I'm gaining 33 days of life every year.1 more year of life every 11 years. 5 more years of life every 55 years
 
-## I'm gaining 33 days of life every year.1 more year of life every 11 years. 5 more years of life every 55 years.
+28 hour day - <https://xkcd.com/320>
 
-28 hour day - <https://xkcd.com/320
-
-<https://www.polyphasic.net
+<https://www.polyphasic.net>
 
 Polyphasic sleep is the practice of sleeping in numerous smaller blocks during the day as opposed to sleeping once as is common in many countries. The Siesta (popular in Spain), and Segmented (which was widespread before the advent of artificial lighting) sleep schedules are some of the earlier forms that polyphasic sleep has taken. In recent years, there has been an increased interest in this practice, and many other schedules have been developed with increasing research and experimentation. Sleeping polyphasically can:
--   Reduce the total sleep time required.
--   Eliminate chronic tiredness.
--   Help with insomnia.
--   Help many workers cope with their demanding schedules.
--   Improve overall sleep quality and quality of life.
+
+- Reduce the total sleep time required.
+- Eliminate chronic tiredness.
+- Help with insomnia.
+- Help many workers cope with their demanding schedules.
+- Improve overall sleep quality and quality of life.

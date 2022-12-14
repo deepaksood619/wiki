@@ -14,7 +14,7 @@ Is there a universal problem-solving model to which all problems that we would l
 
 ![image](media/Intractability-image3.png)
 
-## Church-Turing Thesis (Computability Thesis) is a hypothesis about the nature of computable functions. It states that a function on the natural numbers is computable by a human being following an algorithm, ignoring resource limitation, if and only if it is computable by a Turing machine.
+## Church-Turing Thesis (Computability Thesis) is a hypothesis about the nature of computable functions. It states that a function on the natural numbers is computable by a human being following an algorithm, ignoring resource limitation, if and only if it is computable by a Turing machine
 
 ![image](media/Intractability-image4.png)
 

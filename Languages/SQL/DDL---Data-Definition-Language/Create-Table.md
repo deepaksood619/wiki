@@ -40,9 +40,9 @@ CREATE TABLE load_test (id int NOT NULL auto_increment,
 
 data_dump varchar(1000),
 
-## create_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+## create_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 
-## update_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+## update_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 
 PRIMARY KEY (id));
 
@@ -66,45 +66,45 @@ ALTER TABLE communication_exceptions MODIFY update_date DATETIME NOT NULL DEFAUL
 
 ## How MySQL Does ALTER TABLE
 
-1.  Lock the table
+1. Lock the table
 
-2.  Make a new, empty the table like the original
+2. Make a new, empty the table like the original
 
-3.  Modify the columns of the new empty table
+3. Modify the columns of the new empty table
 
-4.  Copy all rows of data from original to new table.. no matter how long it takes
+4. Copy all rows of data from original to new table.. no matter how long it takes
 
-5.  Swap the old and new tables
+5. Swap the old and new tables
 
-6.  Unlock the tables & drop the original
+6. Unlock the tables & drop the original
 
 # Redshift
 
-## CREATE TABLE** public.test (id **bigint** **identity(1, 1),
+## CREATE TABLE**public.test (id**bigint****identity(1, 1)
 
 created_at datetime **default** sysdate,
 
 column_1 **varchar**,
 
-## PRIMARY** **KEY (id));
+## PRIMARY****KEY (id))
 
-## select** * **from** public.test **limit 10;
+## select** * **from** public.test **limit 10
 
-## drop table public.test;
+## drop table public.test
 
-## INSERT INTO** public.test (column_1) **Values ('Hello');
+## INSERT INTO**public.test (column_1)**Values ('Hello')
 
 f"INSERT INTO public.test (column_1, created_at) Values ('Hello', {datetime.datetime.now()});"
 
-## INSERT INTO** public.test (column_1, created_at) **Values ('Hello', '2020-04-13 16:30:10.016741');
+## INSERT INTO**public.test (column_1, created_at)**Values ('Hello', '2020-04-13 16:30:10.016741')
 
 Let's break down the components of a statement:
 
-1.  CREATE TABLEis aclause. Clauses perform specific tasks in SQL. By convention, clauses are written in capital letters. Clauses can also be referred to as commands.
+1. CREATE TABLEis aclause. Clauses perform specific tasks in SQL. By convention, clauses are written in capital letters. Clauses can also be referred to as commands.
 
-2.  table_namerefers to the name of the table that the command is applied to.
+2. table_namerefers to the name of the table that the command is applied to.
 
-3.  (column_1 data_type, column_2 data_type, column_3 data_type)is aparameter. A parameter is a list of columns, data types, or values that are passed to a clause as an argument. Here, the parameter is a list of column names and the associated data type.
+3. (column_1 data_type, column_2 data_type, column_3 data_type)is aparameter. A parameter is a list of columns, data types, or values that are passed to a clause as an argument. Here, the parameter is a list of column names and the associated data type.
 
 ## Constraints
 
@@ -117,11 +117,10 @@ date_of_birth TEXT NOT NULL,
 date_of_death TEXT DEFAULT 'Not Applicable'
 );
 
-
--   PRIMARY KEYcolumns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in aconstraint violationwhich will not allow you to insert the new row.
--   UNIQUEcolumns have a different value for every row. This is similar toPRIMARY KEYexcept a table can have many differentUNIQUEcolumns.
--   NOT NULLcolumns must have a value. Attempts to insert a row without a value for aNOT NULLcolumn will result in a constraint violation and the new row will not be inserted.
--   DEFAULTcolumns take an additional argument that will be the assumed value for an inserted row if the new row does not specify a value for that column.
+- PRIMARY KEYcolumns can be used to uniquely identify the row. Attempts to insert a row with an identical value to a row already in the table will result in aconstraint violationwhich will not allow you to insert the new row.
+- UNIQUEcolumns have a different value for every row. This is similar toPRIMARY KEYexcept a table can have many differentUNIQUEcolumns.
+- NOT NULLcolumns must have a value. Attempts to insert a row without a value for aNOT NULLcolumn will result in a constraint violation and the new row will not be inserted.
+- DEFAULTcolumns take an additional argument that will be the assumed value for an inserted row if the new row does not specify a value for that column.
 
 ## Reference
 
@@ -441,9 +440,9 @@ CREATE TABLE `perfios_raw_data` (
 
 `raw_data` mediumblob,
 
-## create_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+## create_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 
-## update_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+## update_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 
 `status` tinyint(1) DEFAULT NULL,
 
@@ -460,8 +459,6 @@ KEY `create_date` (`create_date`),
 KEY `status` (`status`)
 
 );
-
-
 
 CREATE TABLE `loc_imps_bank` (
 
@@ -503,34 +500,34 @@ MySQL converts TIMESTAMP values from the current time zone to UTC for storage, a
 
 ## Similarities between DATETIME & TIMESTAMP
 
-1.  Both store the data in the "YYYY-MM-DD HH:MM: SS" format.
+1. Both store the data in the "YYYY-MM-DD HH:MM: SS" format.
 
-2.  Both include a date as well as a time part.
+2. Both include a date as well as a time part.
 
-3.  Automatic initialization can happen for both.
+3. Automatic initialization can happen for both.
 
-4.  Both change the data while updating the record with current data time as per the constraint.
+4. Both change the data while updating the record with current data time as per the constraint.
 
-5.  Both can have fractional seconds part up to 6 digit microsecond precision.
+5. Both can have fractional seconds part up to 6 digit microsecond precision.
 
 ## Difference between DATETIME & TIMESTAMP
 
-1.  Supported range for DATETIMEis '1000-01-01 00:00:00' to '9999-12-31 23:59:59' while forTIMESTAMP, it is '1970-01-01 00:00:01' UTC to '2038-01-09 03:14:07' UTC.
+1. Supported range for DATETIMEis '1000-01-01 00:00:00' to '9999-12-31 23:59:59' while forTIMESTAMP, it is '1970-01-01 00:00:01' UTC to '2038-01-09 03:14:07' UTC.
 
-2.  Prior to MySQL 5.6.4, TIMESTAMPrequires 4 bytes (+3 bytes for fractional seconds) to store the data whileDATETIMErequires 8 bytes (+3 bytes for fractional seconds).
+2. Prior to MySQL 5.6.4, TIMESTAMPrequires 4 bytes (+3 bytes for fractional seconds) to store the data whileDATETIMErequires 8 bytes (+3 bytes for fractional seconds).
 
-3.  As of MySQL 5.6.4, DATETIME requires 5 bytes + 3 additional bytes for fractional seconds data storing.
+3. As of MySQL 5.6.4, DATETIME requires 5 bytes + 3 additional bytes for fractional seconds data storing.
 
-4.  In MySQL5+, TIMESTAMPvalue converts from the current time to UTC and vice-versa whileDATETIMEdoes not do any conversion.
+4. In MySQL5+, TIMESTAMPvalue converts from the current time to UTC and vice-versa whileDATETIMEdoes not do any conversion.
 
-5.  TIMESTAMPdiffers with current time zone settings whileDATETIMEremains constant.
+5. TIMESTAMPdiffers with current time zone settings whileDATETIMEremains constant.
 
-6.  TIMESTAMP data can be indexed while theDATETIMEdata cannot.
+6. TIMESTAMP data can be indexed while theDATETIMEdata cannot.
 
-7.  Queries with DATETIMEwill not be cached but queries withTIMESTAMPwill be cached.
+7. Queries with DATETIMEwill not be cached but queries withTIMESTAMPwill be cached.
 
-<https://www.eversql.com/mysql-datetime-vs-timestamp-column-types-which-one-i-should-use
+<https://www.eversql.com/mysql-datetime-vs-timestamp-column-types-which-one-i-should-use>
 
 <https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql>
 
-<https://www.c-sharpcorner.com/article/difference-between-mysql-datetime-and-timestamp-datatypes
+<https://www.c-sharpcorner.com/article/difference-between-mysql-datetime-and-timestamp-datatypes>

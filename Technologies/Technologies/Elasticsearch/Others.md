@@ -18,23 +18,27 @@ Fluent Bit is an open source and multi-platformLog Processor and Forwarderwhich 
 
 Fluent Bit is written inC, have a pluggable architecture supporting around 30 extensions. It's fast and lightweight and provide the required security for network operations through TLS.
 
-<https://fluentbit.io
+<https://fluentbit.io>
 
 <https://github.com/fluent/fluent-bit>
 
 ## Fluentd
 
 Fluentd is an open source data collector for unified logging layer.
--   **Unified Logging with JSON**
+
+- **Unified Logging with JSON**
 
 Fluentd tries to structure data as JSON as much as possible: this allows Fluentd tounifyall facets of processing log data: collecting, filtering, buffering, and outputting logs acrossmultiple sources and destinations([Unified Logging Layer](http://www.fluentd.org/blog/unified-logging-layer)). The downstream data processing is much easier with JSON, since it has enough structure to be accessible while retaining flexible schemas.
--   **Pluggable Architecture**
+
+- **Pluggable Architecture**
 
 Fluentd has a flexible plugin system that allows the community to extend its functionality. Our 500+ community-contributed plugins connect dozens of[data sources](https://www.fluentd.org/datasources)and[data outputs](https://www.fluentd.org/dataoutputs). By leveraging the plugins, you can start making better use of your logs right away.
--   **Minimum Resources Required**
+
+- **Minimum Resources Required**
 
 Fluentd is written in a combination of C language and Ruby, and requires very little system resource. The vanilla instance runs on 30-40MB of memory and can process 13,000 events/second/core. If you have tighter memory requirements (-450kb), check out[Fluent Bit](http://fluentbit.io/), the lightweight forwarder for Fluentd.
--   **Built-in Reliability**
+
+- **Built-in Reliability**
 
 Fluentd supports memory- and file-based buffering to prevent inter-node data loss. Fluentd also supports robust failover and can be set up for high availability.[2,000+ data-driven companies](https://www.fluentd.org/testimonials)rely on Fluentd to differentiate their products and services through a better use and understanding of their log data.
 
@@ -42,7 +46,7 @@ Fluentd supports memory- and file-based buffering to prevent inter-node data los
 
 An event consists of*tag*,*time*and*record*. Tag is a string separated with '.' (e.g. myapp.access). It is used to categorize events. Time is a UNIX time recorded at occurrence of an event. Record is a JSON object.
 
-<https://www.fluentd.org
+<https://www.fluentd.org>
 
 <https://github.com/fluent/fluentd>
 
@@ -74,7 +78,7 @@ Please note that errors and transactions will only be sent to the APM Server if 
 
 <https://www.elastic.co/guide/en/apm/agent/python/current/flask-support.html>
 
-<https://toptechtips.github.io/2019-07-08-add_python_code_to_apm
+<https://toptechtips.github.io/2019-07-08-add_python_code_to_apm>
 
 ## Opensearch
 

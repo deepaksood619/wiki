@@ -6,17 +6,18 @@ Modified: 2020-10-12 00:32:56 +0500
 
 ---
 
-<https://kinsta.com/blog/php-frameworks
--   **Laravel**
--   Symfony
--   **CodeIgniter**
--   Zend Framework / Laminas Project
--   Yii (Framework)
--   CakePHP
--   Slim
--   Phalcon
--   FuelPHP
--   Fat-Free Framework
+<https://kinsta.com/blog/php-frameworks>
+
+- **Laravel**
+- Symfony
+- **CodeIgniter**
+- Zend Framework / Laminas Project
+- Yii (Framework)
+- CakePHP
+- Slim
+- Phalcon
+- FuelPHP
+- Fat-Free Framework
 
 ## Laravel
 

@@ -15,29 +15,33 @@ Modified: 2022-04-04 12:54:11 +0500
 ## Patterns
 
 ## Best Stack
--   **Nextjs, TailwindCSS, TypeScript**
+
+- **Nextjs, TailwindCSS, TypeScript**
 
 [Explosive Velocity with a Modern Stack • Tejas Kumar • GOTO 2021](https://www.youtube.com/watch?v=KTkyQ3z7M8w&ab_channel=GOTOConferences)
 
 ## PRPL pattern
 
 PRPL is a pattern for structuring and serving **Progressive Web Apps (PWAs)**, with an emphasis on the performance of app delivery and launch. It stands for:
--   **Push**critical resources for the initial URL route.
--   **Render**initial route.
--   **Pre-cache**remaining routes.
--   **Lazy-load**and create remaining routes on demand.
+
+- **Push**critical resources for the initial URL route.
+- **Render**initial route.
+- **Pre-cache**remaining routes.
+- **Lazy-load**and create remaining routes on demand.
 
 Beyond targeting the fundamental goals and standards of PWAs, PRPL strives to optimize for:
--   Minimum time-to-interactive
--   Especially on first use (regardless of entry point)
--   Especially on real-world mobile devices
--   Maximum caching efficiency, especially over time as updates are released
--   Simplicity of development and deployment
+
+- Minimum time-to-interactive
+- Especially on first use (regardless of entry point)
+- Especially on real-world mobile devices
+- Maximum caching efficiency, especially over time as updates are released
+- Simplicity of development and deployment
 
 ## Concepts
--   Predictive Fetching (guess.js)
 
-<https://developers.google.com/web/fundamentals/performance/prpl-pattern
+- Predictive Fetching (guess.js)
+
+<https://developers.google.com/web/fundamentals/performance/prpl-pattern>
 
 <https://www.toptal.com/ui-ux-frontend-developer/interview-questions>
 
@@ -68,11 +72,12 @@ Client-side rendering allows developers to make their websites entirely rendered
 Server-side rendering allows developers to pre-populate a web page with custom user data directly on the server. It is generally faster to make all the requests within a server than making extra browser-to-server round-trips for them. This is what developers used to do before client-side rendering.
 
 Render React & Vue on the server as oppose to a client side SPA using NEXT (React) and NUXT (Vue)
--   Better SEO
--   File System Routing
--   Automatic Code Splitting
--   Static Exporting
--   CSS-in-JS
+
+- Better SEO
+- File System Routing
+- Automatic Code Splitting
+- Static Exporting
+- CSS-in-JS
 
 ## Client-side vs Server-side rendering
 
@@ -86,7 +91,7 @@ Pre-rendering is a tradeoff between client-side and server-side rendering. Every
 
 In an optimistic update the UI behaves as though a change was successfully completed before receiving confirmation from the server that it actually was - it is being optimistic that it will eventually get the confirmation rather than an error. This allows for a more responsive user experience.
 
-<https://www.apollographql.com/docs/react/v2/performance/optimistic-ui
+<https://www.apollographql.com/docs/react/v2/performance/optimistic-ui>
 
 <https://medium.com/guidesmiths-dev/anatomy-of-a-react-application-optimistic-updates-e4a3318665c7>
 
@@ -101,52 +106,59 @@ A universal app sends to the browser a page populated with data. Then the app lo
 ## Static Side Generators
 
 Gatsby (React) and Gridsome (Vue)
--   Better SEO
--   File System Routing
--   Data fetching from local files, during build time
--   Plugin system
--   GraphQL for data
+
+- Better SEO
+- File System Routing
+- Data fetching from local files, during build time
+- Plugin system
+- GraphQL for data
 
 ## Server-Side Frameworks
--   Nodejs - **Express,** Koa, Adonis, Featherjs, Nestjs
--   PHP - **Laravel**, Symfony, Slim
--   Python - **Django, Flask**
--   C# - **ASP.NET MVC**
--   Java - **Spring MVC**, Grails
--   Ruby - **Ruby on Rails**, Sinatra
--   Go - Revel
+
+- Nodejs - **Express,** Koa, Adonis, Featherjs, Nestjs
+- PHP - **Laravel**, Symfony, Slim
+- Python - **Django, Flask**
+- C# - **ASP.NET MVC**
+- Java - **Spring MVC**, Grails
+- Ruby - **Ruby on Rails**, Sinatra
+- Go - Revel
 
 ## Mobile Development
--   **Flutter** - SDK from Google to build native mobile apps. Uses **Dart**
--   React Native - Build native mobile apps using the React framework
--   **NativeScript** - Build native mobile apps with JS, TS, Angular or Vue
 
-<https://nativescript.org
--   Ionic - Build hybird mobile apps with JavaScript
--   Xamarin - Build native mobile apps with C#
+- **Flutter** - SDK from Google to build native mobile apps. Uses **Dart**
+- React Native - Build native mobile apps using the React framework
+- **NativeScript** - Build native mobile apps with JS, TS, Angular or Vue
+
+<https://nativescript.org>
+
+- Ionic - Build hybird mobile apps with JavaScript
+- Xamarin - Build native mobile apps with C#
 
 ## PWA: Progressive Web Apps
--   Look great on all screen sizes
--   Offline content with service workers
--   Installable
--   Splash Screen
--   Must be HTTPS
--   Reliable, fast and engaging
 
-<https://www.pwabuilder.com
+- Look great on all screen sizes
+- Offline content with service workers
+- Installable
+- Splash Screen
+- Must be HTTPS
+- Reliable, fast and engaging
+
+<https://www.pwabuilder.com>
 
 ## Desktop Apps with Electron
 
 Electron allows us to cross-platform desktop applications with Javascript
--   Uses Nodejs & Chromium
--   High data security
--   High performance
--   Accessibility
--   Examples: VSCode, Atom, Postman, Discord
+
+- Uses Nodejs & Chromium
+- High data security
+- High performance
+- Accessibility
+- Examples: VSCode, Atom, Postman, Discord
 
 ## API-First Design
--   Traditionally we start with the UI and then move to the backend with a strict connection to the web app
--   With API-first design, you start with the appropriate APIs and then build products on top of it
+
+- Traditionally we start with the UI and then move to the backend with a strict connection to the web app
+- With API-first design, you start with the appropriate APIs and then build products on top of it
 
 [Web Development In 2020 - A Practical Guide](https://www.youtube.com/watch?v=0pThnRneDjw)
 

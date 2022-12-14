@@ -126,8 +126,8 @@ It is of course possible to indefinitely maintain whatever skills brought you in
 
 But when success is maintained for a long period the greatest skill often isn't technical, or even specific to your trade. It's identifying and resisting a few dangerous feelings that can nuzzle their way in after you've achieved any level of success.
 
-1.  The decline of paranoia that made you successful to begin with.
+1. The decline of paranoia that made you successful to begin with.
 
-2.  Finding other peoples' flaws more than you look for your own improvements.
+2. Finding other peoples' flaws more than you look for your own improvements.
 
-3.  The feeling of mastering a topic, particularly if that topic adapts and evolves.
+3. The feeling of mastering a topic, particularly if that topic adapts and evolves.

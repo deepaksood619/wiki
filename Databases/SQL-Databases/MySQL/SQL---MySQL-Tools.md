@@ -11,6 +11,7 @@ Modified: 2021-11-25 19:26:25 +0500
 <https://www.percona.com/doc/percona-monitoring-and-management/index.html>
 
 ## MySQL Diagnostic Manager (Monyog) - <https://www.webyog.com/product/monyog>
+
 <https://www.eversql.com/top-5-mysql-monitoring-tools>
 
 ## Testing**
@@ -32,48 +33,56 @@ mysqlslap can emulate a large number of client connections hitting the database 
 ## Mysqlreport**
 
 Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report that provides an in-depth understanding of how well MySQL is running. mysqlreport is a better alternative (and practically the only alternative) to manually interpreting SHOW STATUS.
+
 ## percona-toolkit
--   Verify MySQL replication integrity by checking source and replica data consistency
--   Efficiently archive rows
--   Find duplicate indexes
--   Summarize MySQL and MongoDB servers
--   Analyze MySQL queries from logs and tcpdump
--   Analyze MongoDB query profiler
--   Collect vital system information when problems occur
+
+- Verify MySQL replication integrity by checking source and replica data consistency
+- Efficiently archive rows
+- Find duplicate indexes
+- Summarize MySQL and MongoDB servers
+- Analyze MySQL queries from logs and tcpdump
+- Analyze MongoDB query profiler
+- Collect vital system information when problems occur
+
 ## brew install percona-toolkit-   [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
--   [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
--   [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
--   [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
--   [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/LATEST/pt-duplicate-key-checker.html)
--   [pt-fifo-split](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html)
--   [pt-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-find.html)
--   [pt-fingerprint](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fingerprint.html)
--   [pt-fk-error-logger](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fk-error-logger.html)
--   [pt-heartbeat](https://www.percona.com/doc/percona-toolkit/LATEST/pt-heartbeat.html)
--   [**pt-index-usage**](https://www.percona.com/doc/percona-toolkit/LATEST/pt-index-usage.html)
+
+- [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
+- [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
+- [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
+- [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/LATEST/pt-duplicate-key-checker.html)
+- [pt-fifo-split](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html)
+- [pt-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-find.html)
+- [pt-fingerprint](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fingerprint.html)
+- [pt-fk-error-logger](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fk-error-logger.html)
+- [pt-heartbeat](https://www.percona.com/doc/percona-toolkit/LATEST/pt-heartbeat.html)
+- [**pt-index-usage**](https://www.percona.com/doc/percona-toolkit/LATEST/pt-index-usage.html)
 
 Read queries from a log and analyze how they use indexes.-   [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
--   [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
--   [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
--   [**pt-deadlock-logger**](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html)
 
-## pt-deadlock-loggerprints information about MySQL deadlocks by polling and parsingSHOWENGINEINNODBSTATUS. When a new deadlock occurs, it's printed toSTDOUTand, if specified, saved to[--dest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html#cmdoption-pt-deadlock-logger-dest).
+- [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
+- [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
+- [**pt-deadlock-logger**](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html)
+
+## pt-deadlock-loggerprints information about MySQL deadlocks by polling and parsingSHOWENGINEINNODBSTATUS. When a new deadlock occurs, it's printed toSTDOUTand, if specified, saved to[--dest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html#cmdoption-pt-deadlock-logger-dest)
+
 pt-deadlock-logger -host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM-   [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
--   [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/LATEST/pt-duplicate-key-checker.html)
+
+- [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/LATEST/pt-duplicate-key-checker.html)
 
 pt-duplicate-key-checker -host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM
--   [pt-fifo-split](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html)
--   [pt-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-find.html)
--   [pt-fingerprint](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fingerprint.html)
--   [pt-fk-error-logger](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fk-error-logger.html)
--   [pt-heartbeat](https://www.percona.com/doc/percona-toolkit/LATEST/pt-heartbeat.html)
--   [pt-index-usage](https://www.percona.com/doc/percona-toolkit/LATEST/pt-index-usage.html)
--   [pt-ioprofile](https://www.percona.com/doc/percona-toolkit/LATEST/pt-ioprofile.html)
--   [pt-kill](https://www.percona.com/doc/percona-toolkit/LATEST/pt-kill.html)
--   [pt-mext](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mext.html)
--   [pt-mongodb-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mongodb-query-digest.html)
--   [pt-mongodb-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mongodb-summary.html)
--   [pt-mysql-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mysql-summary.html)
+
+- [pt-fifo-split](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fifo-split.html)
+- [pt-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-find.html)
+- [pt-fingerprint](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fingerprint.html)
+- [pt-fk-error-logger](https://www.percona.com/doc/percona-toolkit/LATEST/pt-fk-error-logger.html)
+- [pt-heartbeat](https://www.percona.com/doc/percona-toolkit/LATEST/pt-heartbeat.html)
+- [pt-index-usage](https://www.percona.com/doc/percona-toolkit/LATEST/pt-index-usage.html)
+- [pt-ioprofile](https://www.percona.com/doc/percona-toolkit/LATEST/pt-ioprofile.html)
+- [pt-kill](https://www.percona.com/doc/percona-toolkit/LATEST/pt-kill.html)
+- [pt-mext](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mext.html)
+- [pt-mongodb-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mongodb-query-digest.html)
+- [pt-mongodb-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mongodb-summary.html)
+- [pt-mysql-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-mysql-summary.html)
 
 pt-mysql-summary --host localhost --user root --ask-pass > mysql-summary.txt
 
@@ -84,31 +93,32 @@ Works by creating an empty copy of the table to alter, modifying it as desired, 
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-online-ddl-operations.html>
 
 <https://www.percona.com/doc/percona-toolkit/3.0/pt-online-schema-change.html>-   [pt-pmp](https://www.percona.com/doc/percona-toolkit/LATEST/pt-pmp.html)
--   [pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html)
--   [pt-secure-collect](https://www.percona.com/doc/percona-toolkit/LATEST/pt-secure-collect.html)
--   [pt-show-grants](https://www.percona.com/doc/percona-toolkit/LATEST/pt-show-grants.html)
--   [pt-sift](https://www.percona.com/doc/percona-toolkit/LATEST/pt-sift.html)
--   [pt-slave-delay](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-delay.html)
--   [pt-slave-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-find.html)
--   [pt-slave-restart](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-restart.html)
--   [pt-stalk](https://www.percona.com/doc/percona-toolkit/LATEST/pt-stalk.html)
--   [pt-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-summary.html)
--   [pt-table-checksum](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-checksum.html)
--   [pt-table-sync](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-sync.html)
--   [pt-table-usage](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-usage.html)
--   [pt-upgrade](https://www.percona.com/doc/percona-toolkit/LATEST/pt-upgrade.html)
--   [pt-variable-advisor](https://www.percona.com/doc/percona-toolkit/LATEST/pt-variable-advisor.html)
--   [pt-visual-explain](https://www.percona.com/doc/percona-toolkit/LATEST/pt-visual-explain.html)
--   [pt-slave-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-find.html)
--   [pt-slave-restart](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-restart.html)
--   [pt-stalk](https://www.percona.com/doc/percona-toolkit/LATEST/pt-stalk.html)
--   [pt-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-summary.html)
--   [pt-table-checksum](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-checksum.html)
--   [pt-table-sync](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-sync.html)
--   [pt-table-usage](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-usage.html)
--   [pt-upgrade](https://www.percona.com/doc/percona-toolkit/LATEST/pt-upgrade.html)
--   [pt-variable-advisor](https://www.percona.com/doc/percona-toolkit/LATEST/pt-variable-advisor.html)
--   [pt-visual-explain](https://www.percona.com/doc/percona-toolkit/LATEST/pt-visual-explain.html)
+
+- [pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html)
+- [pt-secure-collect](https://www.percona.com/doc/percona-toolkit/LATEST/pt-secure-collect.html)
+- [pt-show-grants](https://www.percona.com/doc/percona-toolkit/LATEST/pt-show-grants.html)
+- [pt-sift](https://www.percona.com/doc/percona-toolkit/LATEST/pt-sift.html)
+- [pt-slave-delay](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-delay.html)
+- [pt-slave-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-find.html)
+- [pt-slave-restart](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-restart.html)
+- [pt-stalk](https://www.percona.com/doc/percona-toolkit/LATEST/pt-stalk.html)
+- [pt-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-summary.html)
+- [pt-table-checksum](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-checksum.html)
+- [pt-table-sync](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-sync.html)
+- [pt-table-usage](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-usage.html)
+- [pt-upgrade](https://www.percona.com/doc/percona-toolkit/LATEST/pt-upgrade.html)
+- [pt-variable-advisor](https://www.percona.com/doc/percona-toolkit/LATEST/pt-variable-advisor.html)
+- [pt-visual-explain](https://www.percona.com/doc/percona-toolkit/LATEST/pt-visual-explain.html)
+- [pt-slave-find](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-find.html)
+- [pt-slave-restart](https://www.percona.com/doc/percona-toolkit/LATEST/pt-slave-restart.html)
+- [pt-stalk](https://www.percona.com/doc/percona-toolkit/LATEST/pt-stalk.html)
+- [pt-summary](https://www.percona.com/doc/percona-toolkit/LATEST/pt-summary.html)
+- [pt-table-checksum](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-checksum.html)
+- [pt-table-sync](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-sync.html)
+- [pt-table-usage](https://www.percona.com/doc/percona-toolkit/LATEST/pt-table-usage.html)
+- [pt-upgrade](https://www.percona.com/doc/percona-toolkit/LATEST/pt-upgrade.html)
+- [pt-variable-advisor](https://www.percona.com/doc/percona-toolkit/LATEST/pt-variable-advisor.html)
+- [pt-visual-explain](https://www.percona.com/doc/percona-toolkit/LATEST/pt-visual-explain.html)
 <https://www.percona.com/software/database-tools/percona-toolkit>
 
 ## Event Reduce**
@@ -142,12 +152,14 @@ So how does Gh-ost work? By default, Gh-ost connects to a replica (slave), ident
 ![image](media/MySQL_SQL---MySQL-Tools-image1.jpg)
 
 ## Gh-ost operation modes
+
 Gh-ost provides an alternative mode where you execute the migration directly on the master (whether it has slaves or not), read back the master'sbinlog_format=ROWevents, and then re-apply them to the shadow table.
 A final option is available to run the migration only on the replica without impacting the master, so you can test or otherwise validate the migration.
 
 ![image](media/MySQL_SQL---MySQL-Tools-image2.jpg)
 
 ## Gh-ost general flow
+
 Note that if your schema has foreign keys then Gh-ost may not operate cleanly, as this configuration is not supported.
 <https://github.com/github/gh-ost>
 <https://www.infoworld.com/article/3241730/top-5-open-source-tools-for-mysql-administrators.html>
@@ -158,10 +170,12 @@ Note that if your schema has foreign keys then Gh-ost may not operate cleanly, a
 
 Backup + Optimize - <https://github.com/mmerian/MySQL-Maint/blob/master/mysql_maint.sh>
 InnoDB stores data using a page-allocation method and does not suffer from fragmentation in the same way that legacy storage engines (such as MyISAM) will. When considering whether or not to run optimize, consider the workload of transactions that your server will process:
--   Some level of fragmentation is expected. InnoDB only fills pages 93% full, to leave room for updates without having to split pages.
--   Delete operations might leave gaps that leave pages less filled than desired, which could make it worthwhile to optimize the table.
--   Updates to rows usually rewrite the data within the same page, depending on the data type and row format, when sufficient space is available. See Section 14.10.5, "How Compression Works for InnoDB Tables" and Section 14.12.1, "Overview of InnoDB Row Storage".
--   High-concurrency workloads might leave gaps in indexes over time, as InnoDB retains multiple versions of the same data due through its MVCC mechanism. See Section 14.5.12, "InnoDB Multi-Versioning".
+
+- Some level of fragmentation is expected. InnoDB only fills pages 93% full, to leave room for updates without having to split pages.
+- Delete operations might leave gaps that leave pages less filled than desired, which could make it worthwhile to optimize the table.
+- Updates to rows usually rewrite the data within the same page, depending on the data type and row format, when sufficient space is available. See Section 14.10.5, "How Compression Works for InnoDB Tables" and Section 14.12.1, "Overview of InnoDB Row Storage".
+- High-concurrency workloads might leave gaps in indexes over time, as InnoDB retains multiple versions of the same data due through its MVCC mechanism. See Section 14.5.12, "InnoDB Multi-Versioning".
+
 ## Orchestrator
 
 orchestratoris a MySQL high availability and replication management tool, runs as a service and provides command line access, HTTP API and Web interface.

@@ -6,7 +6,7 @@ Modified: 2020-08-20 01:58:00 +0500
 
 ---
 
-1.  Application Architecture Guide
+1. Application Architecture Guide
 
     a.  Architecture Styles
 
@@ -113,44 +113,46 @@ e.  Performance Antipatterns
 
 The Bulkhead pattern is a type of application design that is tolerant of failure. In a bulkhead architecture, elements of an application are isolated into pools so that if one fails, the others will continue to function. It's named after the sectioned partitions (bulkheads) of a ship's hull. If the hull of a ship is compromised, only the damaged section fills with water, which prevents the ship from sinking.
 <https://www.youtube.com/watch?v=R2FT5edyKOg>-   [Cache-Aside](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
--   [Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography)
--   [Circuit Breaker](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
--   [Claim Check](https://docs.microsoft.com/en-us/azure/architecture/patterns/claim-check)
--   [Command and Query Responsibility Segregation (CQRS)](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
--   [Compensating Transaction](https://docs.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction)
--   [Competing Consumers](https://docs.microsoft.com/en-us/azure/architecture/patterns/competing-consumers)
--   [Compute Resource Consolidation](https://docs.microsoft.com/en-us/azure/architecture/patterns/compute-resource-consolidation)
--   [Data management](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/data-management)
--   [Design and implementation](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation)
--   [Event Sourcing](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
--   [External Configuration Store](https://docs.microsoft.com/en-us/azure/architecture/patterns/external-configuration-store)
--   [Federated Identity](https://docs.microsoft.com/en-us/azure/architecture/patterns/federated-identity)
--   [Gatekeeper](https://docs.microsoft.com/en-us/azure/architecture/patterns/gatekeeper)
--   [Gateway Aggregation](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation)
--   [Gateway Offloading](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-offloading)
--   [Gateway Routing](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-routing)
--   [Health Endpoint Monitoring](https://docs.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
--   [Index Table](https://docs.microsoft.com/en-us/azure/architecture/patterns/index-table)
--   [Leader Election](https://docs.microsoft.com/en-us/azure/architecture/patterns/leader-election)
--   [Management and monitoring](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/management-monitoring)
--   [Materialized View](https://docs.microsoft.com/en-us/azure/architecture/patterns/materialized-view)
--   [Messaging](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/messaging)
--   [Performance and scalability](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/performance-scalability)
--   [Pipes and Filters](https://docs.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters)
--   [Priority Queue](https://docs.microsoft.com/en-us/azure/architecture/patterns/priority-queue)
--   [Publisher/Subscriber](https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)
--   [Queue-Based Load Leveling](https://docs.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling)
--   [Resiliency](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/resiliency)
--   [Retry](https://docs.microsoft.com/en-us/azure/architecture/patterns/retry)
--   [Scheduler Agent Supervisor](https://docs.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor)
--   [Security](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/security)
--   [Sharding](https://docs.microsoft.com/en-us/azure/architecture/patterns/sharding)
--   [Sidecar](https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar)
--   [Static Content Hosting](https://docs.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting)
--   [Strangler](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler)
--   [Throttling](https://docs.microsoft.com/en-us/azure/architecture/patterns/throttling)
--   [Valet Key](https://docs.microsoft.com/en-us/azure/architecture/patterns/valet-key)
-3.  Pillars of Software Quality
+
+- [Choreography](https://docs.microsoft.com/en-us/azure/architecture/patterns/choreography)
+- [Circuit Breaker](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)
+- [Claim Check](https://docs.microsoft.com/en-us/azure/architecture/patterns/claim-check)
+- [Command and Query Responsibility Segregation (CQRS)](https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs)
+- [Compensating Transaction](https://docs.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction)
+- [Competing Consumers](https://docs.microsoft.com/en-us/azure/architecture/patterns/competing-consumers)
+- [Compute Resource Consolidation](https://docs.microsoft.com/en-us/azure/architecture/patterns/compute-resource-consolidation)
+- [Data management](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/data-management)
+- [Design and implementation](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/design-implementation)
+- [Event Sourcing](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)
+- [External Configuration Store](https://docs.microsoft.com/en-us/azure/architecture/patterns/external-configuration-store)
+- [Federated Identity](https://docs.microsoft.com/en-us/azure/architecture/patterns/federated-identity)
+- [Gatekeeper](https://docs.microsoft.com/en-us/azure/architecture/patterns/gatekeeper)
+- [Gateway Aggregation](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-aggregation)
+- [Gateway Offloading](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-offloading)
+- [Gateway Routing](https://docs.microsoft.com/en-us/azure/architecture/patterns/gateway-routing)
+- [Health Endpoint Monitoring](https://docs.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)
+- [Index Table](https://docs.microsoft.com/en-us/azure/architecture/patterns/index-table)
+- [Leader Election](https://docs.microsoft.com/en-us/azure/architecture/patterns/leader-election)
+- [Management and monitoring](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/management-monitoring)
+- [Materialized View](https://docs.microsoft.com/en-us/azure/architecture/patterns/materialized-view)
+- [Messaging](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/messaging)
+- [Performance and scalability](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/performance-scalability)
+- [Pipes and Filters](https://docs.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters)
+- [Priority Queue](https://docs.microsoft.com/en-us/azure/architecture/patterns/priority-queue)
+- [Publisher/Subscriber](https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)
+- [Queue-Based Load Leveling](https://docs.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling)
+- [Resiliency](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/resiliency)
+- [Retry](https://docs.microsoft.com/en-us/azure/architecture/patterns/retry)
+- [Scheduler Agent Supervisor](https://docs.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor)
+- [Security](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/security)
+- [Sharding](https://docs.microsoft.com/en-us/azure/architecture/patterns/sharding)
+- [Sidecar](https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar)
+- [Static Content Hosting](https://docs.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting)
+- [Strangler](https://docs.microsoft.com/en-us/azure/architecture/patterns/strangler)
+- [Throttling](https://docs.microsoft.com/en-us/azure/architecture/patterns/throttling)
+- [Valet Key](https://docs.microsoft.com/en-us/azure/architecture/patterns/valet-key)
+
+3. Pillars of Software Quality
 
     a.  Reliability
 
@@ -160,7 +162,7 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
 
     d.  Scalability
 
-4.  Technologies
+4. Technologies
 
     a.  AI and machine learning
 
@@ -188,7 +190,7 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
 
     m.  Web apps
 
-5.  Cloud Adoption Framework
+5. Cloud Adoption Framework
 <https://docs.microsoft.com/en-us/azure/architecture/guide>
 
 <https://github.com/MicrosoftDocs/architecture-center>

@@ -16,16 +16,16 @@ In order to direct traffic within your mesh, Istio needs to know where all your 
 
 Using this service registry, the Envoy proxies can then direct traffic to the relevant services. Most microservice-based applications have multiple instances of each service workload to handle service traffic, sometimes referred to as a load balancing pool. By default, the Envoy proxies distribute traffic across each service's load balancing pool using a round-robin model, where requests are sent to each pool member in turn, returning to the top of the pool once each service instance has received a request.
 
-
--   [Virtual services](https://istio.io/docs/concepts/traffic-management/#virtual-services)
--   [Destination rules](https://istio.io/docs/concepts/traffic-management/#destination-rules)
--   [Gateways](https://istio.io/docs/concepts/traffic-management/#gateways)
--   [Service entries](https://istio.io/docs/concepts/traffic-management/#service-entries)
--   [Sidecars](https://istio.io/docs/concepts/traffic-management/#sidecars)
+- [Virtual services](https://istio.io/docs/concepts/traffic-management/#virtual-services)
+- [Destination rules](https://istio.io/docs/concepts/traffic-management/#destination-rules)
+- [Gateways](https://istio.io/docs/concepts/traffic-management/#gateways)
+- [Service entries](https://istio.io/docs/concepts/traffic-management/#service-entries)
+- [Sidecars](https://istio.io/docs/concepts/traffic-management/#sidecars)
 
 ## Virtual Services
--   A virtual service lets you configure how requests are routed to a service within an Istio service mesh, building on the basic connectivity and discovery provided by Istio and your platform. Each virtual service consists of a set of routing rules that are evaluated in order, letting Istio match each given request to the virtual service to a specific real destination within the mesh. Your mesh can require multiple virtual services or none depending on your use case.
--   Service subsets
+
+- A virtual service lets you configure how requests are routed to a service within an Istio service mesh, building on the basic connectivity and discovery provided by Istio and your platform. Each virtual service consists of a set of routing rules that are evaluated in order, letting Istio match each given request to the virtual service to a specific real destination within the mesh. Your mesh can require multiple virtual services or none depending on your use case.
+- Service subsets
 
 apiVersion: networking.istio.io/v1alpha3
 
@@ -76,10 +76,11 @@ In particular, you use destination rules to specify named service subsets, such 
 Destination rules also let you customize Envoy's traffic policies when calling the entire destination service or a particular service subset, such as your preferred load balancing model, TLS security mode, or circuit breaker settings.
 
 ## Load Balancing Options
--   Round-robin
--   Random
--   Weighted
--   Least requests
+
+- Round-robin
+- Random
+- Weighted
+- Least requests
 
 apiVersion: networking.istio.io/v1alpha3
 
@@ -113,7 +114,7 @@ labels:
 
 version: v2
 
-## trafficPolicy:
+## trafficPolicy
 
 loadBalancer:
 
@@ -183,10 +184,11 @@ privateKey: /tmp/tls.key
 ## Service Entries
 
 You use a[service entry](https://istio.io/docs/reference/config/networking/service-entry/#ServiceEntry)to add an entry to the service registry that Istio maintains internally. After you add the service entry, the Envoy proxies can send traffic to the service as if it was a service in your mesh. Configuring service entries allows you to manage traffic for services running outside of the mesh, including the following tasks:
--   Redirect and forward traffic for external destinations, such as APIs consumed from the web, or traffic to services in legacy infrastructure.
--   Define[retry](https://istio.io/docs/concepts/traffic-management/#retries),[timeout](https://istio.io/docs/concepts/traffic-management/#timeouts), and[fault injection](https://istio.io/docs/concepts/traffic-management/#fault-injection)policies for external destinations.
--   Run a mesh service in a Virtual Machine (VM) by[adding VMs to your mesh](https://istio.io/docs/examples/virtual-machines/).
--   Logically add services from a different cluster to the mesh to configure a[multicluster Istio mesh](https://istio.io/docs/setup/install/multicluster/gateways/#configure-the-example-services)on Kubernetes.
+
+- Redirect and forward traffic for external destinations, such as APIs consumed from the web, or traffic to services in legacy infrastructure.
+- Define[retry](https://istio.io/docs/concepts/traffic-management/#retries),[timeout](https://istio.io/docs/concepts/traffic-management/#timeouts), and[fault injection](https://istio.io/docs/concepts/traffic-management/#fault-injection)policies for external destinations.
+- Run a mesh service in a Virtual Machine (VM) by[adding VMs to your mesh](https://istio.io/docs/examples/virtual-machines/).
+- Logically add services from a different cluster to the mesh to configure a[multicluster Istio mesh](https://istio.io/docs/setup/install/multicluster/gateways/#configure-the-example-services)on Kubernetes.
 
 You don't need to add a service entry for every external service that you want your mesh services to use. By default, Istio configures the Envoy proxies to passthrough requests to unknown services. However, you can't use Istio features to control the traffic to destinations that aren't registered in the mesh.
 
@@ -221,8 +223,9 @@ resolution: DNS
 ## Sidecars
 
 By default, Istio configures every Envoy proxy to accept traffic on all the ports of its associated workload, and to reach every workload in the mesh when forwarding traffic. You can use a[sidecar](https://istio.io/docs/reference/config/networking/sidecar/#Sidecar)configuration to do the following:
--   Fine-tune the set of ports and protocols that an Envoy proxy accepts.
--   Limit the set of services that the Envoy proxy can reach.
+
+- Fine-tune the set of ports and protocols that an Envoy proxy accepts.
+- Limit the set of services that the Envoy proxy can reach.
 
 You might want to limit sidecar reachability like this in larger applications, where having every proxy configured to reach every other service in the mesh can potentially affect mesh performance due to high memory usage.
 
@@ -249,20 +252,22 @@ egress:
 - "istio-system/*"
 
 ## Network resilience and testing
--   **Timeouts**
--   **Retries**
--   **Circuit breakers**
--   **Fault injection**
 
-<https://istio.io/docs/concepts/traffic-management
+- **Timeouts**
+- **Retries**
+- **Circuit breakers**
+- **Fault injection**
+
+<https://istio.io/docs/concepts/traffic-management>
 
 ## Ingress
--   **Ingress Gateways**
--   **Ingress (Kubernetes)**
--   **Secure Gateways**
--   **Ingress Gateway without TLS Termination**
 
-<https://istio.io/docs/tasks/traffic-management/ingress
+- **Ingress Gateways**
+- **Ingress (Kubernetes)**
+- **Secure Gateways**
+- **Ingress Gateway without TLS Termination**
+
+<https://istio.io/docs/tasks/traffic-management/ingress>
 
 ## External and internal services
 
@@ -272,8 +277,7 @@ External services are services which are not part of your platform i.e. services
 
 This is where the BlackHole and Passthrough clusters are used.
 
-
--   **BlackHoleCluster**
+- **BlackHoleCluster**
 
 The BlackHoleCluster is a virtual cluster created in the Envoy configuration whenglobal.outboundTrafficPolicy.modeis set toREGISTRY_ONLY. In this mode, all traffic to external service is blocked unless[service entries](https://istio.io/latest/docs/reference/config/networking/service-entry)are explicitly added for each service. To implement this, the default virtual outbound listener at0.0.0.0:15001which uses[original destination](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/service_discovery#original-destination)is setup as a TCP Proxy with the BlackHoleCluster as the static cluster. The configuration for the BlackHoleCluster looks like this:
 
@@ -304,8 +308,7 @@ As you can see, this cluster is static with no endpoints so all the traffic will
 
 The route is setup as[direct response](https://www.envoyproxy.io/docs/envoy/latest/api-v2/api/v2/route/route_components.proto#envoy-api-field-route-route-direct-response)with502response code which means if no other routes match the Envoy proxy will directly return a502HTTP status code.
 
-
--   **PassthroughCluster**
+- **PassthroughCluster**
 
 The PassthroughCluster is a virtual cluster created in the Envoy configuration whenglobal.outboundTrafficPolicy.modeis set toALLOW_ANY. In this mode, all traffic to any external service external is allowed. To implement this, the default virtual outbound listener at0.0.0.0:15001which usesSO_ORIGINAL_DST, is setup as a TCP Proxy with the PassthroughCluster as the static cluster. The configuration for the PassthroughCluster looks like this:
 
@@ -347,4 +350,4 @@ Similar to the BlackHoleCluster, for every port/protocol based listener the virt
 
 Prior to Istio 1.3, there were no metrics reported or if metrics were reported there were no explicit labels set when traffic hit these clusters, resulting in lack of visibility in traffic flowing through the mesh.
 
-<https://istio.io/latest/blog/2019/monitoring-external-service-traffic
+<https://istio.io/latest/blog/2019/monitoring-external-service-traffic>

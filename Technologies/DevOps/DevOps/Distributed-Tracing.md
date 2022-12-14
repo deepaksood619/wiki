@@ -26,13 +26,13 @@ The first service that receives a client request should generate the correlation
 
 ## Tools
 
-1.  Grafana Tempo - <https://grafana.com/oss/tempo
+1. Grafana Tempo - <https://grafana.com/oss/tempo>
 
-2.  Twitter zipkin
+2. Twitter zipkin
 
-3.  Google Dapper - <https://ai.google/research/pubs/pub36356>
+3. Google Dapper - <https://ai.google/research/pubs/pub36356>
 
-4.  Jaeger
+4. Jaeger
 
 <https://medium.com/@masroor.hasan/tracing-infrastructure-with-jaeger-on-kubernetes-6800132a677>
 
@@ -41,24 +41,25 @@ The first service that receives a client request should generate the correlation
 #### *Robert Blumen with Ben Sigelman*
 
 Distributed tracing, a form of event-driven observability useful in debugging distributed systems, understanding latency outlyers, and delivering "white box" analytics.
--   why it is harder in a distributed system
--   the concept of tracing context
--   how context is propagated
--   how trace data is collected
--   interoperability in a polyglot environment
--   **two approaches to collection: instrumentation versus injection**
--   the architecture of a tracing back end
--   what type of databases are used
--   querying the back end database
--   typical queries that a human user would run
--   other systems that query the back end
--   integration with monitoring and alerting
--   distributed tracing as a source of analytics for business insights
--   adoption of distributed tracing in a software organization
+
+- why it is harder in a distributed system
+- the concept of tracing context
+- how context is propagated
+- how trace data is collected
+- interoperability in a polyglot environment
+- **two approaches to collection: instrumentation versus injection**
+- the architecture of a tracing back end
+- what type of databases are used
+- querying the back end database
+- typical queries that a human user would run
+- other systems that query the back end
+- integration with monitoring and alerting
+- distributed tracing as a source of analytics for business insights
+- adoption of distributed tracing in a software organization
 
 ## References
 
-<https://opentracing.io/docs/overview/what-is-tracing
+<https://opentracing.io/docs/overview/what-is-tracing>
 
 ## Zipkin
 
@@ -70,4 +71,4 @@ Applications are instrumented to report timing data to Zipkin. The Zipkin UI als
 
 <https://github.com/openzipkin/zipkin>
 
-<https://zipkin.apache.org
+<https://zipkin.apache.org>

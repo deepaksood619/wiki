@@ -9,9 +9,10 @@ Modified: 2020-08-05 14:27:40 +0500
 Kubernetes Secrets let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Storing confidential information in a Secret is safer and more flexible than putting it verbatim in a[Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)definition or in a[container image](https://kubernetes.io/docs/reference/glossary/?all=true#term-image).
 
 To use a secret, a Pod needs to reference the secret. A secret can be used with a Pod in three ways:
--   As[files](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)in a[volume](https://kubernetes.io/docs/concepts/storage/volumes/)mounted on one or more of its containers.
--   As[container environment variable](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables).
--   By the[kubelet when pulling images](https://kubernetes.io/docs/concepts/configuration/secret/#using-imagepullsecrets)for the Pod.
+
+- As[files](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)in a[volume](https://kubernetes.io/docs/concepts/storage/volumes/)mounted on one or more of its containers.
+- As[container environment variable](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables).
+- By the[kubelet when pulling images](https://kubernetes.io/docs/concepts/configuration/secret/#using-imagepullsecrets)for the Pod.
 
 ## Built-in Secrets
 
@@ -34,8 +35,9 @@ Note:A container using a Secret as a[subPath](https://kubernetes.io/docs/concept
 ## Immutable Secrets and ConfigMaps
 
 The Kubernetes alpha featureImmutable Secrets and ConfigMapsprovides an option to set individual Secrets and ConfigMaps as immutable. For clusters that extensively use Secrets (at least tens of thousands of unique Secret to Pod mounts), preventing changes to their data has the following advantages:
--   protects you from accidental (or unwanted) updates that could cause applications outages
--   improves performance of your cluster by significantly reducing load on kube-apiserver, by closing watches for secrets marked as immutable.
+
+- protects you from accidental (or unwanted) updates that could cause applications outages
+- improves performance of your cluster by significantly reducing load on kube-apiserver, by closing watches for secrets marked as immutable.
 
 Note:Once a Secret or ConfigMap is marked as immutable, it isnotpossible to revert this change nor to mutate the contents of thedatafield. You can only delete and recreate the Secret. Existing Pods maintain a mount point to the deleted Secret - it is recommended to recreate these pods.
 
@@ -56,17 +58,18 @@ On most Kubernetes distributions, communication between users and the API server
 You can enable[encryption at rest](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/)for secret data, so that the secrets are not stored in the clear into[etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/).
 
 ## Risks
--   In the API server, secret data is stored in[etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/); therefore:
-    -   Administrators should enable encryption at rest for cluster data (requires v1.13 or later).
-    -   Administrators should limit access to etcd to admin users.
-    -   Administrators may want to wipe/shred disks used by etcd when no longer in use.
-    -   If running etcd in a cluster, administrators should make sure to use SSL/TLS for etcd peer-to-peer communication.
--   If you configure the secret through a manifest (JSON or YAML) file which has the secret data encoded as base64, sharing this file or checking it in to a source repository means the secret is compromised. Base64 encoding isnotan encryption method and is considered the same as plain text.
--   Applications still need to protect the value of secret after reading it from the volume, such as not accidentally logging it or transmitting it to an untrusted party.
--   A user who can create a Pod that uses a secret can also see the value of that secret. Even if the API server policy does not allow that user to read the Secret, the user could run a Pod which exposes the secret.
--   Currently, anyone with root permission on any node can readanysecret from the API server, by impersonating the kubelet. It is a planned feature to only send secrets to nodes that actually require them, to restrict the impact of a root exploit on a single node.
 
-<https://kubernetes.io/docs/concepts/configuration/secret
+- In the API server, secret data is stored in[etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/); therefore:
+  - Administrators should enable encryption at rest for cluster data (requires v1.13 or later).
+  - Administrators should limit access to etcd to admin users.
+  - Administrators may want to wipe/shred disks used by etcd when no longer in use.
+  - If running etcd in a cluster, administrators should make sure to use SSL/TLS for etcd peer-to-peer communication.
+- If you configure the secret through a manifest (JSON or YAML) file which has the secret data encoded as base64, sharing this file or checking it in to a source repository means the secret is compromised. Base64 encoding isnotan encryption method and is considered the same as plain text.
+- Applications still need to protect the value of secret after reading it from the volume, such as not accidentally logging it or transmitting it to an untrusted party.
+- A user who can create a Pod that uses a secret can also see the value of that secret. Even if the API server policy does not allow that user to read the Secret, the user could run a Pod which exposes the secret.
+- Currently, anyone with root permission on any node can readanysecret from the API server, by impersonating the kubelet. It is a planned feature to only send secrets to nodes that actually require them, to restrict the impact of a root exploit on a single node.
+
+<https://kubernetes.io/docs/concepts/configuration/secret>
 
 ## Secrets env variables vs volume mounts
 
@@ -84,4 +87,4 @@ In some systems when the process crashes it **logs all the environment variable*
 
 In order to encrypt secrets, you must create an**EncryptionConfiguration**object with a key and proper identity. Then, the kube-apiserver needs the**--encryption-provider-config**flag set to a previously configured provider, such as aescbc or ksm. Once this is enabled, you need to recreate every secret, as they are encrypted upon write. Multiple keys are possible.Each key for a provider is tried during decryption. The first key of the first provider is used for encryption. To rotate keys, first create a new key, restart (all) kube-apiserver processes, then recreate every secret.
 
-<https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data
+<https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data>

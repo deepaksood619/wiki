@@ -8,7 +8,7 @@ Modified: 2022-12-11 14:20:19 +0500
 
 <https://github.com/pallets/flask/tree/1.1.2/examples/tutorial>
 
-<https://flask.palletsprojects.com/en/1.1.x/tutorial/database
+<https://flask.palletsprojects.com/en/1.1.x/tutorial/database>
 
 The first thing to do when working with a SQLite database (and most other Python database libraries) is to create a connection to it. Any queries and operations are performed using the connection, which is closed after the work is finished.
 
@@ -47,4 +47,4 @@ Flask provides two contexts: the*application context*and the*request context*. F
 
 close_dbchecks if a connection was created by checking ifg.dbwas set. If the connection exists, it is closed. Further down you will tell your application about theclose_dbfunction in the application factory so that it is called after each request.
 
-## In a web application, each request should have its own db connection. So yourget_driverfunction should create a connection and close that connection when it is finished (in a finally clause).
+## In a web application, each request should have its own db connection. So yourget_driverfunction should create a connection and close that connection when it is finished (in a finally clause)

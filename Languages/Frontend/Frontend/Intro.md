@@ -19,22 +19,20 @@ If a document is loaded from a file: URL (that is, directly from the user's loca
 This behavior cannot be guaranteed because as mentioned above, the file: URL requirements remain unclear. As such, there's a possibility that browsers may change how they handle files at any time. The way some browsers handle it has evolved.
 
 Local storage has 4 methods
--   **setItem() Method --**This method takes two parameters one is key and another one is value. It is used to store the value in a particular location with the name of the key
+
+- **setItem() Method --**This method takes two parameters one is key and another one is value. It is used to store the value in a particular location with the name of the key
 
 localStorage.setItem(key, value)
 
-
--   **getItem() Method --**This method takes one parameter that is key which is used to get the value stored with a particular key name
+- **getItem() Method --**This method takes one parameter that is key which is used to get the value stored with a particular key name
 
 localStorage.getItem(key)
 
-
--   **removeItem() Method --**This is method is used to remove the value stored in the memory in reference to key
+- **removeItem() Method --**This is method is used to remove the value stored in the memory in reference to key
 
 localStorage.removeItem(key)
 
-
--   **clear() Method --**This method is used to clear all the values stored in localstorage
+- **clear() Method --**This method is used to clear all the values stored in localstorage
 
 localStorage.clear()
 
@@ -47,22 +45,20 @@ A unique page session gets created once a document is loaded in a browser tab. P
 A page's protocol determines what data is stored in sessionStorage. Particularly, data stored by scripts accessed through HTTP (for example, <http://abc.com>) is stored in a separate object from the same site accessed through HTTPS (for instance, <https://abc.com>). A DOMString number is two bytes per character in UTF-16 DOMString format. Strings are automatically generated from integer keys just as they are for objects.
 
 Session Storage has 4 methods
--   **setItem() Method --**This method takes two parameters one is key and another one is value. It is used to store the value in a particular location with the name of the key
+
+- **setItem() Method --**This method takes two parameters one is key and another one is value. It is used to store the value in a particular location with the name of the key
 
 sessionStorage.setItem(key, value)
 
-
--   **getItem() Method --**This method takes one parameter that is key which is used to get the value stored with a particular key name
+- **getItem() Method --**This method takes one parameter that is key which is used to get the value stored with a particular key name
 
 sessionStorage.getItem(key)
 
-
--   **removeItem() Method --**This is method is used to remove the value stored in the memory in reference to key
+- **removeItem() Method --**This is method is used to remove the value stored in the memory in reference to key
 
 sessionStorage.removeItem(key)
 
-
--   **clear() Method --**This method is used to clear all the values stored in the session storage
+- **clear() Method --**This method is used to clear all the values stored in the session storage
 
 sessionStorage.clear()
 
@@ -82,10 +78,11 @@ When cookies were first developed, they were used to better the developer's expe
 
 ![](media/Intro-image1.jpg)
 
-<https://www.geeksforgeeks.org/difference-between-local-storage-session-storage-and-cookies
+<https://www.geeksforgeeks.org/difference-between-local-storage-session-storage-and-cookies>
 
 ## localStorage vs sessionStorage
--   localstorage has no expiration time, while data stored in sessionStorage gets cleared when the browsing session ends (i.e. when the browser / browser tab is closed)
--   Session storage exists only within the current browser tab - even two tabs loaded with the same website will have different sessionStorage data
--   sessionStorage data survives page refresh, but not closing/opening the tab. LocalStorage data, on the other hand, is shared between all tabs and windows from the same origin
--   LocalStorage data does not expire; it remains after the browser is restarted and even after OS reboot
+
+- localstorage has no expiration time, while data stored in sessionStorage gets cleared when the browsing session ends (i.e. when the browser / browser tab is closed)
+- Session storage exists only within the current browser tab - even two tabs loaded with the same website will have different sessionStorage data
+- sessionStorage data survives page refresh, but not closing/opening the tab. LocalStorage data, on the other hand, is shared between all tabs and windows from the same origin
+- LocalStorage data does not expire; it remains after the browser is restarted and even after OS reboot

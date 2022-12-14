@@ -5,11 +5,12 @@ Created: 2020-02-08 12:18:04 +0500
 Modified: 2020-02-08 12:20:53 +0500
 
 ---
--   Arithmetic Operators
--   Comparison Operators
--   Logical (or Relational) Operators
--   Assignment Operators
--   Conditional (or ternary) Operators
+
+- Arithmetic Operators
+- Comparison Operators
+- Logical (or Relational) Operators
+- Assignment Operators
+- Conditional (or ternary) Operators
 
 ## Arithmetic Operators
 
@@ -80,16 +81,17 @@ There is one more operator called conditional operator. This first evaluates an 
 ## Operators Categories
 
 All the operators we have discussed above can be categorised into following categories −
--   Unary prefix operators, which precede a single operand.
--   Binary operators, which take two operands and perform a variety of arithmetic and logical operations.
--   The conditional operator (a ternary operator), which takes three operands and evaluates either the second or third expression, depending on the evaluation of the first expression.
--   Assignment operators, which assign a value to a variable.
+
+- Unary prefix operators, which precede a single operand.
+- Binary operators, which take two operands and perform a variety of arithmetic and logical operations.
+- The conditional operator (a ternary operator), which takes three operands and evaluates either the second or third expression, depending on the evaluation of the first expression.
+- Assignment operators, which assign a value to a variable.
 
 ## Precedence of PHP Operators
 
 Operator precedence determines the grouping of terms in an expression. This affects how an expression is evaluated. Certain operators have higher precedence than others; for example, the multiplication operator has higher precedence than the addition operator −
 
-For example x = 7 + 3 * 2; Here x is assigned 13, not 20 because operator * has higher precedence than + so it first get multiplied with 3*2 and then adds into 7.
+For example x = 7 + 3 *2; Here x is assigned 13, not 20 because operator* has higher precedence than + so it first get multiplied with 3*2 and then adds into 7.
 
 Here operators with the highest precedence appear at the top of the table, those with the lowest appear at the bottom. Within an expression, higher precedence operators will be evaluated first.
 

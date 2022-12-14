@@ -176,27 +176,27 @@ Sociograms are important because they give us an abstraction (and illustration) 
 
 A useful segmentation should include these six characteristics:
 
-1.  **Identifiable**
+1. **Identifiable**
 
 You should be able to identify customers in each segment and measure their characteristics, like demographics or usage behavior.
 
-2.  **Substantial**
+2. **Substantial**
 
 It's usually not cost-effective to target small segments --- a segment, therefore, must be large enough to be potentially profitable.
 
-3.  **Accessible**
+3. **Accessible**
 
 It sounds obvious, but your company should be able to reach its segments via communication and distribution channels. When it comes to young people, for example, your company should have access to Twitter and Tumblr and know how to use them authentically --- or, as Clearblue smartly did, reach out to celebrities with active Twitter presences to do some of yourmarketing for you.
 
-4.  **Stable**
+4. **Stable**
 
 In order for a marketing effort to be successful, a segment should be stable enough for a long enough period of time to be marketed to strategically. For example, lifestyle is often used as a way to segment. But research has found that, internationally, lifestyle is dynamic and constantly evolving. Thus, segmenting based on that variable globally might not be wise.
 
-5.  **Differentiable**
+5. **Differentiable**
 
 The people (or organizations, in B2B marketing) in a segment should have similar needs that are clearly different from the needs of other people in other segments.
 
-6.  **Actionable**
+6. **Actionable**
 
 You have to be able to provide products or services to your segments. One U.S. insurance company, for example, spent a lot of time and money identifying a segment, only to discover that it couldn't find any customers for its insurance product in that segment, nor was the organization able to design any actions to target them.
 

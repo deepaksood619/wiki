@@ -6,7 +6,7 @@ Modified: 2021-06-28 17:02:38 +0500
 
 ---
 
-<https://www.freecodecamp.org/learn/data-visualization
+<https://www.freecodecamp.org/learn/data-visualization>
 
 D3, or D3.js, stands for Data Driven Documents. It's a JavaScript library for creating dynamic and interactive data visualizations in the browser.
 
@@ -61,13 +61,17 @@ d3.selectAll("p") *// select all <p> elements*
 For more advanced uses, loaded data drives the creation of elements. D3.js loads a given dataset, then, for each of its elements, creates an SVG object with associated properties (shape, colors, values) and behaviors (transitions, events).
 
 *// Data*
+
 ## var countriesData = [
+
 { name:"Ireland", income:53000, life: 78, pop:6378, color: "black"},
 { name:"Norway", income:73000, life: 87, pop:5084, color: "blue" },
 { name:"Tanzania", income:27000, life: 50, pop:3407, color: "grey" }
 ];
 *// Create SVG container*
+
 ## var svg = d3.select("#hook").append("svg")
+
 .attr("width", 120)
 .attr("height", 120)
 .style("background-color", "#D0D0D0");
@@ -78,8 +82,8 @@ svg.selectAll("circle") *// create virtual circle template*
 .attr("id", **function**(d) { **return** d.name }) *// set the circle's id according to the country name*
 .attr("cx", **function**(d) { **return** d.income / 1000 }) *// set the circle's horizontal position according to income*
 .attr("cy", **function**(d) { **return** d.life }) *// set the circle's vertical position according to life expectancy*
-.attr("r", **function**(d) { **return** d.pop / 1000 *2 }) *// set the circle's radius according to country's population*
-.attr("fill", **function**(d) { **return** d.color }); *// set the circle's color according to country's color*
+.attr("r", **function**(d) { **return** d.pop / 1000 *2 })*// set the circle's radius according to country's population*
+.attr("fill", **function**(d) { **return** d.color });*// set the circle's color according to country's color*
 
 svg.append("rect")
 
@@ -155,19 +159,20 @@ selection.text((d) => d+"USD")
 the parameterdrefers to a single entry in the dataset that a selection is bound to.
 
 D3.js API contains several hundred functions, and they can be grouped into following logical units:
--   Selections
--   Transitions
--   Arrays
--   Math
--   Color
--   Scales
--   SVG
--   Time
--   Layouts
--   Geography
--   Geometry
--   Behaviors
+
+- Selections
+- Transitions
+- Arrays
+- Math
+- Color
+- Scales
+- SVG
+- Time
+- Layouts
+- Geography
+- Geometry
+- Behaviors
 
 <https://github.com/d3/d3>
 
-<https://www.d3-graph-gallery.com
+<https://www.d3-graph-gallery.com>

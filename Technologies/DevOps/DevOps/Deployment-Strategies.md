@@ -8,13 +8,13 @@ Modified: 2020-06-07 12:45:20 +0500
 
 ![Various possible Deployment upgrade strategies instances The built-in Deployméfif¯ behavior The other strategies can be implemented fairly easily by talking to the API. instances Rolling Deployment time Blue-Green Release time 2x capacity instances instances Recreate Deployment time O 1 capacity Canary Release time ](../../media/DevOps-DevOps-Deployment-Strategies-image1.png)
 
-1.  **Blue/Green Deployment**
+1. **Blue/Green Deployment**
 
 [Blue-green deployments](https://www.gocd.org/2017/07/25/blue-green-deployments/)are similar, where you have a new footprint of your new service, and then you do some testing and route some traffic through it. If everything is fine, you switch over all of your traffic to the new instance of services, otherwise, you keep the old footprint going.
 
 ![Blue green deployments](../../media/DevOps-DevOps-Deployment-Strategies-image2.jpg)
 
-2.  **Canary Deployment**
+2. **Canary Deployment**
 
 The name borrowed from a technique employed by coal miners many years ago, before the advent of modern sensor safety equipment. A common issue with coal mines is the build up of toxic gases, not all of which even have an odor. To alert themselves to the presence of dangerous gases, miners would bring caged canaries with them into the mines. In addition to their cheerful singing, canaries are highly susceptible to toxic gases. If the canary died, it was time for the miners to get out fast, before they ended up like the canary.
 
@@ -22,7 +22,7 @@ The name borrowed from a technique employed by coal miners many years ago, befor
 
 ![Canary deployments](../../media/DevOps-DevOps-Deployment-Strategies-image3.jpg)
 
-3.  **A/B Testing**
+3. **A/B Testing**
 
 A/B testing in its simplest sense is an experiment on two variants to see which performs better based on a given metric. Typically, two consumer groups are exposed to two different versions of the same thing to see if there is a significant difference in metrics like sessions, click-through rate, and/or conversions.
 

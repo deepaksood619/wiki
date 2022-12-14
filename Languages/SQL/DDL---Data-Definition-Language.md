@@ -7,12 +7,13 @@ Modified: 2021-10-23 11:15:06 +0500
 ---
 
 ## DDL (Data Definition Language)
--   **Create**
--   **Alter**
--   **Drop**
--   **Rename**
--   **Truncate**
--   **Comment**
+
+- **Create**
+- **Alter**
+- **Drop**
+- **Rename**
+- **Truncate**
+- **Comment**
 
 ALTER USER
 
@@ -54,7 +55,7 @@ ALTER TABLE `user_logins` ADD INDEX `user_logins_idx_publish_dept` (`publish`,`d
 
 select * from sys.schema_unused_indexes;
 
-<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database
+<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database>
 
 CREATE VIEW
 

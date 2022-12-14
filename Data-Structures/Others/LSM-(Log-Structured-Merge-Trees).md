@@ -76,11 +76,13 @@ In LSM Trees, all the writes are performed against the mutable in-memory data st
 Structure of an LSM Tree: a memory-resident table, used for writes. Whenever the memory table is large enough, it's sorted contents are written on disk, becoming an SSTable. Reads are served, hitting all SSTables and the memory-resident table, requiring a merge process to reconcile the data.
 The merge step during the read is required, since the data can be split in several parts (for example, an insert followed by delete operation, where delete would shadow the originally inserted record; or an insert, followed by the update operation, where a new field is added to the record).
 Every data item in SSTable has a timestamp associated with it. For inserts it specifies the write time, for updates --- an update time and removal time for deletes.
+
 ## Summary
 
 LSM Tree databases are typically write-optimized, since all the writes are performed against the write-ahead log (for durability and fail over) and memory resident tables. Reads are usually slower, because of the merge process and a need to check multiple files on disk.
 Because of the maintenance, LSM-Trees might result into worse latency, since both CPU and IO bandwidth is spent re-reading and merging tables instead of just serving reads and writes. It's also possible, under a write-heavy workload, to saturate IO by just writes and flushes, stalling the compaction process. Lagging compaction results into slower reads, increasing CPU and IO pressure, making the matters worse. This is something to watch out for.
 LSM-Trees cause some write amplification: data has to be written to the write-ahead log, then flushed on disk, where it will be eventually re-read and written again during the compaction process. That said, mutable B-Tree structures also suffer from write amplification, so I'd prefer to leave the cost analysis until after we discuss B-Trees and a conjecture that helps understanding that we are just trading read performance against write performance and memory overhead.
+
 ## Closing Words
 
 As you can see all write operations in LSM Trees are sequential: Write-Ahead Log appends, Memtable flushes, Compactions. Using[per-SSTable indexes](https://github.com/apache/cassandra/blob/trunk/doc/SASI.md)or pre-sorting data can also help to make at least some read operations sequential. It can only be done to a certain extend as reads have to be performed against multiple files and then merged together.
@@ -89,5 +91,6 @@ As you can see all write operations in LSM Trees are sequential: Write-Ahead Log
 <https://medium.com/databasss/on-disk-io-access-patterns-in-lsm-trees-2ba8dffc05f9>
 
 ## LMS Trees (Copy on Write B-Trees)**
--   Take B-Tree, let's make the pages immutable (every page is a new instance appended to old instance)
+
+- Take B-Tree, let's make the pages immutable (every page is a new instance appended to old instance)
 <https://blog.acolyer.org/2014/11/26/the-log-structured-merge-tree-lsm-tree>

@@ -8,7 +8,7 @@ Modified: 2018-02-06 19:48:04 +0500
 
 ![image](media/2d-orthogonal-range-search-image1.png)
 
-## Analysis:
+## Analysis
 
 Typical case: R + log N
 
@@ -18,7 +18,7 @@ Worst case (assuming tree is balanced): R + sqrt(N)
 
 ![image](media/2d-orthogonal-range-search-image3.png)
 
-## Analysis:
+## Analysis
 
 Typical case: log N
 

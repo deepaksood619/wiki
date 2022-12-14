@@ -9,18 +9,21 @@ Modified: 2019-10-06 16:46:42 +0500
 ## Shortest path variants
 
 ## Which vertices?
--   Single Source : from one vertex s to every other vertex.
--   Source-sink : from one vertex s to another vertex t
--   All pairs : between all pairs of vertices
+
+- Single Source : from one vertex s to every other vertex.
+- Source-sink : from one vertex s to another vertex t
+- All pairs : between all pairs of vertices
 
 ## Restrictions on edge weights?
--   Nonnegative weights
--   Euclidean weights
--   Arbitrary weighs
+
+- Nonnegative weights
+- Euclidean weights
+- Arbitrary weighs
 
 ## Cycles?
--   No directed cycles
--   No "negative cycles"
+
+- No directed cycles
+- No "negative cycles"
 
 ## Concept -
 
@@ -36,44 +39,43 @@ Optimality Condition (there is no edge we missed)
 
 ![image](media/Shortest-Path-Algorithms-image3.png)
 
-
-
 ## Efficient implementations. How to choose which edge to relax?
 
-1.  Topological sort algorithm (no directed cycles)
+1. Topological sort algorithm (no directed cycles)
 
-2.  Dijkstra's algorithm (nonnegative weights)
+2. Dijkstra's algorithm (nonnegative weights)
 
-3.  Bellman-Ford algorithm (no negative cycles)
+3. Bellman-Ford algorithm (no negative cycles)
 
-4.  Ford - Fulkerson Algorithm (for maximum flow in a graph)
+4. Ford - Fulkerson Algorithm (for maximum flow in a graph)
 
-5.  Floyd-Warshall Algorithm (All pairs shortest path algorithm)
+5. Floyd-Warshall Algorithm (All pairs shortest path algorithm)
 
 ![image](media/Shortest-Path-Algorithms-image4.png)
 
 ![image](media/Shortest-Path-Algorithms-image5.png)
 
 ## Applications
--   PERT / CPM (Program Evaluation and Review Technique / Critical Path Method)
--   Map routing
--   **Seam carving**
--   Robot navigation
--   Texture mapping
--   Typesetting in TeX
--   Urban traffic planning
--   Optimal pipelining of VLSI chip
--   Telemarketer operator scheduling
--   Routing of telecommunication messages
--   Network routing protocol (OSPF, BGP, RIP)
--   Exploiting arbitrage opportunities in currency exchange.
--   Optimal truck routing through given traffic congestion pattern.
+
+- PERT / CPM (Program Evaluation and Review Technique / Critical Path Method)
+- Map routing
+- **Seam carving**
+- Robot navigation
+- Texture mapping
+- Typesetting in TeX
+- Urban traffic planning
+- Optimal pipelining of VLSI chip
+- Telemarketer operator scheduling
+- Routing of telecommunication messages
+- Network routing protocol (OSPF, BGP, RIP)
+- Exploiting arbitrage opportunities in currency exchange.
+- Optimal truck routing through given traffic congestion pattern.
 
 ## Advanced - Used in maps (precomputed)
 
-1.  Highway-node routing
+1. Highway-node routing
 
-2.  Contraction hierarchies
+2. Contraction hierarchies
 
 ## Applications - Arbitrage Detection
 

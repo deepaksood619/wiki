@@ -8,7 +8,7 @@ Modified: 2022-05-31 12:52:34 +0500
 
 <https://365datascience.teachable.com/p/credit-risk-modeling-in-python>
 
-<https://365datascience.teachable.com/courses/629877
+<https://365datascience.teachable.com/courses/629877>
 
 <https://www.dropbox.com/sh/7oslws1xhsm1zbf/AABkdWDKqpdcGmY1NbXAnkrBa?dl=0&lst=>
 

@@ -8,7 +8,7 @@ Modified: 2022-03-02 20:22:16 +0500
 
 <https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html>
 
-<https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale
+<https://aws.amazon.com/blogs/aws/introducing-cloudfront-functions-run-your-code-at-the-edge-with-low-latency-at-any-scale>
 
 <https://www.toptal.com/aws/service-oriented-architecture-aws-lambda>
 
@@ -21,8 +21,6 @@ import json
 from urllib.parse import urlencode
 
 from urllib.request import Request, urlopen
-
-
 
 def lambda_handler(event, context):
 

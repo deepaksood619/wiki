@@ -19,13 +19,15 @@ With Facade
 
 The client doesn't know anything about subsystem, it communicates with the facade only.
 When to use?
--   when you want to provide an easy interface to interact with a more complicated system
--   to decouple the clients from implementation details
--   to use as an entry point to some submodule
+
+- when you want to provide an easy interface to interact with a more complicated system
+- to decouple the clients from implementation details
+- to use as an entry point to some submodule
 Elements
--   Facade- knows subsystem, orchestrates work, delegates requests to module components
--   Submodule Class- elements of our module
--   Client- uses facade to interact with the system
+- Facade- knows subsystem, orchestrates work, delegates requests to module components
+- Submodule Class- elements of our module
+- Client- uses facade to interact with the system
+
 ## Example implementation
 
 Let's pretend that we're working on an e-commerce application. We want to implement product ordering. We already got a few services in our app, but they are not integrated.

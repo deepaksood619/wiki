@@ -20,14 +20,13 @@ A - reusable API
 
 M - prebuild Markup
 
+- No restriction on framework or library
+- Websites are served as static html files generated from source files, such as markdown using a static side generator like Gatsby
+- High performance, generated at deploy time
+- Cheaper and easy to scale
+- Easy to deploy (Netlify)
 
--   No restriction on framework or library
--   Websites are served as static html files generated from source files, such as markdown using a static side generator like Gatsby
--   High performance, generated at deploy time
--   Cheaper and easy to scale
--   Easy to deploy (Netlify)
-
-<https://www.freecodecamp.org/news/jamstack-full-course
+<https://www.freecodecamp.org/news/jamstack-full-course>
 
 ## Digital Experience Platform (DXP)
 
@@ -40,39 +39,42 @@ A digital experience platform (DXP) is an integrated set of core technologies th
 ## Content Management System (CMS)
 
 A CMS is used to add content to your website/application. It is great for clients to be able to update their own content
--   Tradional CMS - Wordpress, Drupal, Keystone, Enduro
--   Headless CMS - Contentful, Prismic.io, Sanity, Strapi
 
-<https://www.wpbeginner.com/showcase/best-cms-platforms-compared
+- Tradional CMS - Wordpress, Drupal, Keystone, Enduro
+- Headless CMS - Contentful, Prismic.io, Sanity, Strapi
+
+<https://www.wpbeginner.com/showcase/best-cms-platforms-compared>
 
 ## Headless CMS
 
-<https://strapi.io
+<https://strapi.io>
 
 DesignAPIs fast, manage content easily
 
 Strapi is the leading open-source headless CMS. It's 100% JS, fully customizable and developer-first
 
 Strapi is a free and open-source headless CMS delivering your content anywhere you need.
--   **Keep control over your data.** With Strapi, you know where your data is stored, and you keep full control at all times.
--   **Self-hosted.** You can host and scale Strapi projects the way you want. You can choose any hosting platform you want: AWS, Render, Netlify, Heroku, a VPS, or a dedicated server. You can scale as you grow, 100% independent.
--   **Database agnostic.** Strapi works with SQL databases. You can choose the database you prefer: PostgreSQL, MySQL, MariaDB, and SQLite.
--   **Customizable.** You can quickly build your logic by fully customizing APIs, routes, or plugins to fit your needs perfectly.
+
+- **Keep control over your data.** With Strapi, you know where your data is stored, and you keep full control at all times.
+- **Self-hosted.** You can host and scale Strapi projects the way you want. You can choose any hosting platform you want: AWS, Render, Netlify, Heroku, a VPS, or a dedicated server. You can scale as you grow, 100% independent.
+- **Database agnostic.** Strapi works with SQL databases. You can choose the database you prefer: PostgreSQL, MySQL, MariaDB, and SQLite.
+- **Customizable.** You can quickly build your logic by fully customizing APIs, routes, or plugins to fit your needs perfectly.
 
 ## Features
--   Modern Admin Panel:Elegant, entirely customizable and a fully extensible admin panel.
--   Secure by default:Reusable policies, CORS, CSP, P3P, Xframe, XSS, and more.
--   Plugins Oriented:Install the auth system, content management, custom plugins, and more, in seconds.
--   Blazing Fast:Built on top of Node.js, Strapi delivers amazing performance.
--   Front-end Agnostic:Use any front-end framework (React, Vue, Angular, etc.), mobile apps or even IoT.
--   Powerful CLI:Scaffold projects and APIs on the fly.
--   SQL databases:Works with PostgreSQL, MySQL, MariaDB, and SQLite.
+
+- Modern Admin Panel:Elegant, entirely customizable and a fully extensible admin panel.
+- Secure by default:Reusable policies, CORS, CSP, P3P, Xframe, XSS, and more.
+- Plugins Oriented:Install the auth system, content management, custom plugins, and more, in seconds.
+- Blazing Fast:Built on top of Node.js, Strapi delivers amazing performance.
+- Front-end Agnostic:Use any front-end framework (React, Vue, Angular, etc.), mobile apps or even IoT.
+- Powerful CLI:Scaffold projects and APIs on the fly.
+- SQL databases:Works with PostgreSQL, MySQL, MariaDB, and SQLite.
 
 ## Strapi v4 - [Announcing Strapi v4](https://www.youtube.com/watch?v=qWKdF8N8LQU&list=PL7Q0DQYATmvjJyxrLw0xCOKwjv8Bh7yLx)
 
-<https://design-system.strapi.io
+<https://design-system.strapi.io>
 
-<https://design-system-alpha.vercel.app
+<https://design-system-alpha.vercel.app>
 
 <https://github.com/strapi/strapi>
 
@@ -102,14 +104,13 @@ react-admin strapi - <https://github.com/nazirov91/ra-strapi-rest>
 
 <https://github.com/strapi/foodadvisor>
 
+- strapi admin panel
+- strapi automatic frontend
+- <https://strapi.io/demo>
 
--   strapi admin panel
--   strapi automatic frontend
--   <https://strapi.io/demo>
+<https://jamstack.org/headless-cms>
 
-<https://jamstack.org/headless-cms
-
-<https://www.contentful.com/r/knowledgebase/what-is-headless-cms
+<https://www.contentful.com/r/knowledgebase/what-is-headless-cms>
 
 <https://www.storyblok.com/tp/headless-cms-explained>
 
@@ -132,7 +133,7 @@ The following CMSs have high popularity among Gatsby users and support key funct
 | [Prismic](https://www.prismic.io/)                         | [guide](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-prismic/)     | [docs](https://www.gatsbyjs.com/plugins/gatsby-source-prismic)      | [starter](https://github.com/prismicio/gatsby-blog)                                        |
 | [NetlifyCMS](https://www.netlifycms.org/)                  | [guide](https://www.gatsbyjs.com/docs/how-to/sourcing-data/sourcing-from-netlify-cms/) | [docs](https://www.gatsbyjs.com/plugins/gatsby-plugin-netlify-cms)  | [starter](https://www.gatsbyjs.com/starters/netlify-templates/gatsby-starter-netlify-cms/) |
 | Plone (Open Source Enterprise CMS)                         |                                                                                       |                                                                    |                                                                                           |
-| **Wagtail (Open Source Django CMS) <https://wagtail.io** |                                                                                       |                                                                    |                                                                                           |
+| **Wagtail (Open Source Django CMS) <https://wagtail.io>** |                                                                                       |                                                                    |                                                                                           |
 
 ## Other CMSs
 
@@ -267,10 +268,10 @@ Front Matter is an essential Visual Studio Code extension that simplifies workin
 
 The extension brings Content Management System (CMS) capabilities straight within Visual Studio Code. For example, you can keep a list of the used tags, categories, create content, and so much more.
 
-<https://frontmatter.codes
+<https://frontmatter.codes>
 
 <https://github.com/estruyf/vscode-front-matter>
 
-<https://pages.cloudflare.com
+<https://pages.cloudflare.com>
 
 Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.

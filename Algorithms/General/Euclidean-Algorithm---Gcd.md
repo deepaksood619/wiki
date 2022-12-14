@@ -8,15 +8,15 @@ Modified: 2018-05-11 23:47:01 +0500
 
 ## Synonyms
 
-1.  Greatest Common Divisor (GCD)
+1. Greatest Common Divisor (GCD)
 
-2.  Greatest Common Factor (GCF)
+2. Greatest Common Factor (GCF)
 
-3.  Highest Common Factor (HCF)
+3. Highest Common Factor (HCF)
 
-4.  Highest Common Divisor (HCD)
+4. Highest Common Divisor (HCD)
 
-5.  Greatest Common Measure (GCM)
+5. Greatest Common Measure (GCM)
 
 ## GCD -
 
@@ -29,8 +29,9 @@ the**Euclidean algorithm**, or**Euclid's algorithm**, is an efficient method for
 ## Basic Euclidean Algorithm for GCD
 
 The algorithm is based on below facts.
--   If we subtract smaller number from larger (we reduce larger number), GCD doesn't change. So if we keep subtracting repeatedly the larger of two, we end up with GCD.
--   Now instead of subtraction, if we divide smaller number, the algorithm stops when we find remainder 0.
+
+- If we subtract smaller number from larger (we reduce larger number), GCD doesn't change. So if we keep subtracting repeatedly the larger of two, we end up with GCD.
+- Now instead of subtraction, if we divide smaller number, the algorithm stops when we find remainder 0.
 
 ## Principle-
 
@@ -72,21 +73,21 @@ match.gcd(x,y)
 
 ## Applications-
 
-1.  Reducing fractions to their simplest form
+1. Reducing fractions to their simplest form
 
-2.  Performing division in modular arithmetic
+2. Performing division in modular arithmetic
 
-3.  Computations using this algorithm form part of the cryptographic protocols that are used to secure internet communications
+3. Computations using this algorithm form part of the cryptographic protocols that are used to secure internet communications
 
-4.  Also used for breaking cryptosystems by factoring large composite numbers
+4. Also used for breaking cryptosystems by factoring large composite numbers
 
-5.  Solve Diophantine equations, such as finding numbers that satisfy multiple congruences according to the Chinese remainder theorem
+5. Solve Diophantine equations, such as finding numbers that satisfy multiple congruences according to the Chinese remainder theorem
 
-6.  To construct continued fractions
+6. To construct continued fractions
 
-7.  To find accurate rational approximations to real numbers
+7. To find accurate rational approximations to real numbers
 
-8.  Proving theorems such as Lagrange's four square theorem and uniqueness of prime factorizations
+8. Proving theorems such as Lagrange's four square theorem and uniqueness of prime factorizations
 
 ## Extended Euclidean Algorithm
 
@@ -94,11 +95,11 @@ Extended Euclidean algorithm also finds integer coefficients x and y such that:
 
 ax + by = gcd(a, b)
 
-## def gcdExtended(a, b, x, y):
+## def gcdExtended(a, b, x, y)
 
 # Base Case
 
-## if** a **== 0 :
+## if**a**== 0
 
 x **=** 0
 
@@ -122,10 +123,8 @@ y **=** x1
 
 ## return gcd
 
-
-
 ## References-
 
-1.  <https://en.wikipedia.org/wiki/Euclidean_algorithm>
+1. <https://en.wikipedia.org/wiki/Euclidean_algorithm>
 
-2.  <https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended
+2. <https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended>

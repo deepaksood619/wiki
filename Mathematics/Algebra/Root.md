@@ -20,7 +20,7 @@ This equals 9 because nine squared is eighty-one.
 
 ![Ⅰ 8 = 乙 6 ](media/Root-image2.png)
 
-## We can take the square root of any non-negative number, but only perfect square numbers yield whole number results. So familiarize yourself with those first. Here are a few to get you started:
+## We can take the square root of any non-negative number, but only perfect square numbers yield whole number results. So familiarize yourself with those first. Here are a few to get you started
 
 ![image](media/Root-image3.png)
 
@@ -34,15 +34,15 @@ The root index is*optional*on square roots. Square roots are often written:
 
 The index is only necessary to distinguish between higher indexed roots, such as cube roots, fourth roots, fifth roots, etc.
 
-## Cube roots**ask you to find the number that when multiplied with itself**threetimes yields the radicand, like these:
+## Cube roots**ask you to find the number that when multiplied with itself**threetimes yields the radicand, like these
 
 ![image](media/Root-image6.png)
 
-## Fourth roots**ask you to find the number that when multiplied with itself**fourtimes yields the radicand.
+## Fourth roots**ask you to find the number that when multiplied with itself**fourtimes yields the radicand
 
 ![image](media/Root-image7.png)
 
-## Fifth roots**ask you to find the number that when multiplied with itself**fivetimes yields the radicand.
+## Fifth roots**ask you to find the number that when multiplied with itself**fivetimes yields the radicand
 
 ![image](media/Root-image8.png)
 

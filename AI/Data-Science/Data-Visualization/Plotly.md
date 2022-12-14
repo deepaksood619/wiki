@@ -8,7 +8,7 @@ Modified: 2021-06-28 12:58:06 +0500
 
 similar to matplotlib
 
-<https://plotly.com/python
+<https://plotly.com/python>
 
 Plotly's Python graphing library makes interactive, publication-quality graphs online. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.
 

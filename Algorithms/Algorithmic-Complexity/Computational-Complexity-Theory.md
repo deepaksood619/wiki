@@ -18,11 +18,11 @@ Our proof claims that the set of possible programs are countably infinite while 
 
 Infinite set divided into two parts
 
-1.  Countably infinite
+1. Countably infinite
 
 A countably infinite set is one that can be enumerated. Ex - even numbers
 
-2.  Uncountably infinite
+2. Uncountably infinite
 
 An uncountably infinite set cannot be enumerated. Ex - real numbers.
 
@@ -74,8 +74,8 @@ To computer science novices, the difference between the matching and clique prob
 
 ## Key-Points
 
-1.  There are some problems that simply cannot be computed, like the halting problem.
+1. There are some problems that simply cannot be computed, like the halting problem.
 
-2.  There are some things that cannot be computed efficiently, like the problems in NPC.
+2. There are some things that cannot be computed efficiently, like the problems in NPC.
 
 <https://www.toptal.com/algorithms/computability-theory-complexity>

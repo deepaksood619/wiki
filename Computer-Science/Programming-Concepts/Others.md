@@ -11,17 +11,21 @@ Modified: 2022-10-12 11:11:42 +0500
 inheritance (is-a relationship)
 
 aggregation (has-a relationship)
+
 ## Loitering
 
 Holding the reference to an object, when it is no longer needed.
+
 ## Reentrency
 
 In computing, a computer program or subroutine is called reentrant if it can be interrupted in the middle of its execution and then safely be called again before its previous invocations complete execution. The interruption could be caused by an internal action such as a jump or call, or by an external action such as an interrupt or signal. Once the reentered invocation completes, the previous invocations will resume correct execution.
+
 ## Fuzzing
 
 Fuzzing is a technique for amplifying race conditions.
 
 In this technique Thread.sleep is added before and after every statement.
+
 ## Conway's Law
 
 Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
@@ -29,6 +33,7 @@ Any organization that designs a system (defined broadly) will produce a design w
 Any piece of software reflects the organizational structure that produced it.
 
 If you have four teams working on a compiler you will end up with a four pass compiler
+
 ## Semantic Versioning (SemVer)
 
 Given a version number MAJOR.MINOR.PATCH, increment the:

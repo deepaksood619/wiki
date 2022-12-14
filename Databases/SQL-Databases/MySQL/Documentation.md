@@ -480,13 +480,14 @@ Repository
 
 <https://dev.mysql.com/doc/refman/5.7/en/password-management.html>
 MySQL supports these password-management capabilities:
--   Password expiration, to require passwords to be changed periodically.
--   Password reuse restrictions, to prevent old passwords from being chosen again.
--   Password verification, to require that password changes also specify the current password to be replaced.
--   **Dual passwords**, to enable clients to connect using either a primary or secondary password.
--   Password strength assessment, to require strong passwords.
--   Random password generation, as an alternative to requiring explicit administrator-specified literal passwords.
--   Password failure tracking, to enable temporary account locking after too many consecutive incorrect-password login failures.
+
+- Password expiration, to require passwords to be changed periodically.
+- Password reuse restrictions, to prevent old passwords from being chosen again.
+- Password verification, to require that password changes also specify the current password to be replaced.
+- **Dual passwords**, to enable clients to connect using either a primary or secondary password.
+- Password strength assessment, to require strong passwords.
+- Random password generation, as an alternative to requiring explicit administrator-specified literal passwords.
+- Password failure tracking, to enable temporary account locking after too many consecutive incorrect-password login failures.
 <https://dev.mysql.com/doc/mysql-security-excerpt/8.0/en/password-management.html>
 6.2.12 Server Handling of Expired Passwords
 
@@ -500,10 +501,11 @@ MySQL supports these password-management capabilities:
 
 One means of restricting client use of MySQL server resources is to set the global [max_user_connections](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_user_connections) system variable to a nonzero value. This limits the number of simultaneous connections that can be made by any given account, but places no limits on what a client can do once connected. In addition, setting[max_user_connections](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_user_connections)does not enable management of individual accounts. Both types of control are of interest to MySQL administrators.
 To address such concerns, MySQL permits limits for individual accounts on use of these server resources:
--   The number of queries an account can issue per hour
--   The number of updates an account can issue per hour
--   The number of times an account can connect to the server per hour
--   The number of simultaneous connections to the server by an account
+
+- The number of queries an account can issue per hour
+- The number of updates an account can issue per hour
+- The number of times an account can connect to the server per hour
+- The number of simultaneous connections to the server by an account
 <https://dev.mysql.com/doc/refman/8.0/en/user-resources.html>
 6.2.17 Troubleshooting Problems Connecting to MySQL
 
@@ -638,9 +640,10 @@ To address such concerns, MySQL permits limits for individual accounts on use of
 8.4.6 Limits on Table Size
 
 8.4.7 Limits on Table Column Count and Row Size
--   MySQL has hard limit of 4096 columns per table, but the effective maximum may be less for a given table.
--   [InnoDB](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)has a limit of 1017 columns per table.
--   The internal representation of a MySQL table has a maximum row size limit of 65,535 bytes
+
+- MySQL has hard limit of 4096 columns per table, but the effective maximum may be less for a given table.
+- [InnoDB](https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html)has a limit of 1017 columns per table.
+- The internal representation of a MySQL table has a maximum row size limit of 65,535 bytes
 
 <https://dev.mysql.com/doc/refman/8.0/en/column-count-limit.html>
 
@@ -713,8 +716,9 @@ To generate execution plans, the optimizer uses a cost model that is based on es
 8.10.4 Caching of Prepared Statements and Stored Programs
 
 ## 8.11 Optimizing Locking Operations
--   Internal locking is performed within the MySQL server itself to manage contention for table contents by multiple threads. This type of locking is internal because it is performed entirely by the server and involves no other programs.
--   External locking occurs when the server and other programs lock[MyISAM](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)table files to coordinate among themselves which program can access the tables at which time.
+
+- Internal locking is performed within the MySQL server itself to manage contention for table contents by multiple threads. This type of locking is internal because it is performed entirely by the server and involves no other programs.
+- External locking occurs when the server and other programs lock[MyISAM](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html)table files to coordinate among themselves which program can access the tables at which time.
 8.11.1 Internal Locking Methods
 
 MySQL uses[**row-level locking**](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_row_lock)forInnoDBtables to support simultaneous write access by multiple sessions, making them suitable for multi-user, highly concurrent, and OLTP applications.
@@ -724,9 +728,10 @@ To avoid[deadlocks](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_d
 On high concurrency systems, **deadlock detection can cause a slowdown when numerous threads wait for the same lock.** At times, it may be **more efficient to disable deadlock detection and rely on the[innodb_lock_wait_timeout](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_lock_wait_timeout)setting for transaction rollback** when a deadlock occurs. Deadlock detection can be disabled using the [innodb_deadlock_detect](https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_deadlock_detect) configuration option.
 
 Advantages of row-level locking:
--   Fewer lock conflicts when different sessions access different rows.
--   Fewer changes for rollbacks.
--   Possible to lock a single row for a long time.
+
+- Fewer lock conflicts when different sessions access different rows.
+- Fewer changes for rollbacks.
+- Possible to lock a single row for a long time.
 MySQL uses[**table-level locking**](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_table_lock)forMyISAM,MEMORY, andMERGEtables
 8.11.2 Table Locking Issues
 
@@ -1996,12 +2001,14 @@ mysql> CREATE TRIGGER upd_check BEFORE UPDATE ON account
 
 mysql> delimiter ;
 A trigger is a named database object that is associated with a table, and that activates when a particular event occurs for the table. Some uses for triggers are to perform checks of values to be inserted into a table or to perform calculations on values involved in an update.
+
 ## Does MySQL 5.6 have statement-level or row-level triggers?
 
 In MySQL 5.6 and MySQL 8.0, all triggers areFOR EACH ROW; that is, the trigger is activated for each row that is inserted, updated, or deleted. MySQL 5.6 does not support triggers usingFOR EACH STATEMENT.
 The SQL standard defines two types of triggers: row-level triggers and statement-level triggers.
--   A row-level trigger is activated for each row that is inserted, updated, or deleted. For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected.
--   A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
+
+- A row-level trigger is activated for each row that is inserted, updated, or deleted. For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected.
+- A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
 MySQL supports only row-level triggers. It doesn't support statement-level triggers.
 <https://www.mysqltutorial.org/mysql-triggers.aspx>
 
@@ -2013,35 +2020,37 @@ Triggers can cause performance issues if not written carefully and not enough de
 Triggers are often slower than other means of maintaining data integrity, so if you can use a check constraint, use that instead of a trigger.
 It is easy to write bad triggers that do stupid things like try to send emails. Do you really want to be unable to change records in the db if the email server goes down?
 In SQL server, triggers operate on a batch of records. All too often developers think they only need to handle one record inserts, updates or deletes. That is not the only kind of data changes that happen to a database and all triggers should be tested under the conditions of 1 record change and many record changes. Forgetting to do the second test can lead to extremely poorly performing triggers or a loss of data integrity.
+
 ## Use of database triggers
 
-1.  To drive column values automatically.
+1. To drive column values automatically.
 
-2.  To enforce complex integrity constraints.
+2. To enforce complex integrity constraints.
 
-3.  To enforce complex business rules.
+3. To enforce complex business rules.
 
-4.  To customize complex security authorizations.
+4. To customize complex security authorizations.
 
-5.  To maintain replicate tables.
+5. To maintain replicate tables.
 
-6.  To audit data modification.
+6. To audit data modification.
+
 ## Different Types of Triggers
 
 A MySQLtriggeris a stored program (with queries) which is executed automatically to respond to a specific event such as insertion, updation or deletion occurring in a table.
 There are 6 different types of triggers in MySQL:
 
-1.  Before Update Trigger
+1. Before Update Trigger
 
-2.  After Update Trigger
+2. After Update Trigger
 
-3.  Before Insert Trigger
+3. Before Insert Trigger
 
-4.  After Insert Trigger
+4. After Insert Trigger
 
-5.  Before Delete Trigger
+5. Before Delete Trigger
 
-6.  After Delete Trigger
+6. After Delete Trigger
 <https://www.geeksforgeeks.org/different-types-of-mysql-triggers-with-examples>
 23.3.1 Trigger Syntax and Examples
 

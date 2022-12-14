@@ -12,6 +12,7 @@ Modified: 2019-04-16 12:43:12 +0500
 As Andy Stanford-Clark (the inventor of the MQTT protocol) points out, the problem with half-open connections increases in mobile networks:
 
 "Although TCP/IP in theory notifies you when a socket breaks, in practice, particularly on things like mobile and satellite links, which often "fake" TCP over the air and put headers back on at each end, it's quite possible for a TCP session to "black hole", i.e. it appears to be open still, but in fact is just dumping anything you write to it onto the floor."
+
 ## MQTT Keep Alive
 
 MQTT includes a keep alive function that provides a workaround for the issue of half-open connections (or at least makes it possible to assess if the connection is still open).
@@ -25,6 +26,7 @@ As long as messages are exchanged frequently and the keep-alive interval is not 
 If the client does not send a messages during the keep-alive period, it must send a PINGREQ packet to the broker to confirm that it is available and to make sure that the broker is also still available.
 The broker must disconnect a client that does not send a message or a PINGREQ packet in one and a half times the keep alive interval.Likewise, the client is expected to close the connection if it does not receive a response from the broker in a reasonable amount of time.
 This allows the broker to detect a half-open connection and close the connection to the (already disconnected) client if the keepAlive value is exceeded by more than 150% of the value.
+
 ## Keep Alive Flow
 
 ## PINGREQ
@@ -32,19 +34,24 @@ This allows the broker to detect a half-open connection and close the connection
 ![pingreq](media/Keep-Alive-&-Client-Take-Over-image1.png)
 
 The PINGREQ is sent by the client and indicates to the broker that the client is still alive. If the client does not send any other type of packets (for example, a PUBLISH or SUBSCRIBE packet), the client must send a PINGREQ packet to the broker. The client can send a PINGREQ packet any time it wants to confirm that the network connection is still alive. The PINGREQ packet does not contain a payload.
+
 ## PINGRESP
 
 ![pingresp](media/Keep-Alive-&-Client-Take-Over-image2.png)
 
 When the broker receives a PINGREQ packet, the broker must reply with a PINGRESP packet to show the client that it is still available. The PINGRESP packet also does not contain a payload.
+
 ## Good to Know
--   If the broker does not receive a PINGREQ or any other packet from a client, the broker closes the connection and sends the[last will and testament message](https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/)(if the client specified an LWT).
--   It is the responsibility of the MQTT client to set an appropriate keep alive value. For example, the client can adjust the keep-alive interval to its current signal strength.
--   The maximum keep alive is 65535 seconds (18h 12min 15 sec).
--   If the keep alive interval is 0, the keep alive mechanism is deactivated.
+
+- If the broker does not receive a PINGREQ or any other packet from a client, the broker closes the connection and sends the[last will and testament message](https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/)(if the client specified an LWT).
+- It is the responsibility of the MQTT client to set an appropriate keep alive value. For example, the client can adjust the keep-alive interval to its current signal strength.
+- The maximum keep alive is 65535 seconds (18h 12min 15 sec).
+- If the keep alive interval is 0, the keep alive mechanism is deactivated.
+
 ## Client Take-Over
 
 Usually, a disconnected client tries to reconnect. Sometimes, the broker still has an half-open connection for the client. In MQTT, if the broker detects a half-open connection, it performs a 'client take-over'.The broker closes the previous connection to the same client (determined by the client identifier), and establishes a new connection with the client.This behavior ensures that the half-open connection does not stop the disconnected client from re-establishing a connection.
+
 ## References
 
 <https://www.hivemq.com/blog/mqtt-essentials-part-10-alive-client-take-over>

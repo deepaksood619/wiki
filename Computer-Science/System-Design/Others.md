@@ -17,15 +17,16 @@ Globus Toolkit - GSIFTP
 
 ## Real-Time Analytics**
 
-1.  Ingestion
+1. Ingestion
 
-2.  Store
+2. Store
 
-3.  Visualize
+3. Visualize
 
-4.  Act
+4. Act
 
-5.  Predict
+5. Predict
+
 ## ALT (Aggregator Leaf Tailer) - Real-Time Analytics Without Pipelines
 
 Aggregator Leaf Tailer (ALT)is the data architecture favored by web-scale companies, like Facebook, LinkedIn, and Google, for its efficiency and scalability.
@@ -35,11 +36,12 @@ The ALT architecture addresses these shortcomings of Lambda architectures. The k
 
 ## The ALT architecture described
 
-1.  TheTailerpulls new incoming data from a static or streaming source into an indexing engine. Its job is to fetch from all data sources, be it a data lake, like S3, or a dynamic source, like Kafka or Kinesis.
+1. TheTailerpulls new incoming data from a static or streaming source into an indexing engine. Its job is to fetch from all data sources, be it a data lake, like S3, or a dynamic source, like Kafka or Kinesis.
 
-2.  TheLeafis a powerful indexing engine. It indexes all data as and when it arrives via the Tailer. The indexing component builds multiple types of indexes---inverted, columnar, document, geo, and many others---on the fields of a data set. The goal of indexing is to make any query on any data field fast.
+2. TheLeafis a powerful indexing engine. It indexes all data as and when it arrives via the Tailer. The indexing component builds multiple types of indexes---inverted, columnar, document, geo, and many others---on the fields of a data set. The goal of indexing is to make any query on any data field fast.
 
-3.  The scalableAggregatortier is designed to deliver low-latency aggregations, be it columnar aggregations, joins, relevance sorting, or grouping. The Aggregators leverage indexing so efficiently that complex logic typically executed by pipeline software in other architectures can be executed on the fly as part of the query.
+3. The scalableAggregatortier is designed to deliver low-latency aggregations, be it columnar aggregations, joins, relevance sorting, or grouping. The Aggregators leverage indexing so efficiently that complex logic typically executed by pipeline software in other architectures can be executed on the fly as part of the query.
+
 ## Advantages of ALT
 
 The ALT architecture enables the app developer or data scientist to run low-latency queries on raw data sets without any prior transformation. A large portion of the data transformation process can occur as part of the query itself. How is this possible in the ALT architecture?
@@ -56,17 +58,17 @@ The most significant difference is that the Lambda architecture performs data tr
 
 In[message queueing](https://en.wikipedia.org/wiki/Message_queue)thedead letter queueis a service implementation to store messages that meet one or more of the following criteria:
 
-1.  Message that is sent to a queue that does not exist.
+1. Message that is sent to a queue that does not exist.
 
-2.  Queue length limit exceeded.
+2. Queue length limit exceeded.
 
-3.  Message length limit exceeded.
+3. Message length limit exceeded.
 
-4.  Message is rejected by another queue exchange.
+4. Message is rejected by another queue exchange.
 
-5.  Message reaches a threshold read counter number, because it is not consumed. Sometimes this is called a "back out queue".
+5. Message reaches a threshold read counter number, because it is not consumed. Sometimes this is called a "back out queue".
 Dead letter queue storing of these messages allows developers to look for common patterns and potential software problems.
-Queueing systems that incorporate dead letter queues include[Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service),[Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ),[HornetQ](https://en.wikipedia.org/wiki/HornetQ),[Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing),[WebSphere MQ](https://en.wikipedia.org/wiki/WebSphere_MQ)[[5]](https://en.wikipedia.org/wiki/Dead_letter_queue#cite_note-5),[Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ)and[Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
+Queueing systems that incorporate dead letter queues include[Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service),[Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ),[HornetQ](https://en.wikipedia.org/wiki/HornetQ),[Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing),[WebSphere MQ][https://en.wikipedia.org/wiki/WebSphere_MQ]([5)](https://en.wikipedia.org/wiki/Dead_letter_queue#cite_note-5),[Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ)and[Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
 <https://en.wikipedia.org/wiki/Dead_letter_queue>
 Amazon SQS supports*dead-letter queues*, which other queues (*source queues*) can target for messages that can't be processed (consumed) successfully. Dead-letter queues are useful for debugging your application or messaging system because they let you isolate problematic messages to determine why their processing doesn't succeed.
 Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to*poison-pill messages*(messages that can be received but can't be processed).
@@ -82,8 +84,10 @@ It is offered from the perspective of hownotto design systems, based on system e
 <https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture>
 
 ## Notification System
--   APNS - Apple Push Notification System
--   FCM - Firebase Cloud Messaging
+
+- APNS - Apple Push Notification System
+- FCM - Firebase Cloud Messaging
+
 ## Updates
 
 ## Hard updates

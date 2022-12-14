@@ -5,23 +5,26 @@ Created: 2018-10-25 23:11:06 +0500
 Modified: 2020-03-09 17:53:55 +0500
 
 ---
--   Hive is a distributed data management for Hadoop
--   It supports SQL-like query option HiveSQL (HSQL) to access big data
--   It can be primarily used for Data mining purpose
--   It runs on top of Hadoop
+
+- Hive is a distributed data management for Hadoop
+- It supports SQL-like query option HiveSQL (HSQL) to access big data
+- It can be primarily used for Data mining purpose
+- It runs on top of Hadoop
 
 ## Hive is not
--   A relational database
--   A design for OnLine Transaction Processing (OLTP)
--   A language for real-time queries and row-level updates
+
+- A relational database
+- A design for OnLine Transaction Processing (OLTP)
+- A language for real-time queries and row-level updates
 
 ## Features of Hive
--   It stores schema in a database and processed data into HDFS.
--   It is designed for OLAP.
--   It provides SQL type language for querying called HiveQL or HQL.
--   It is familiar, fast, scalable, and extensible.
 
-## Apache Hiveis a[data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)software project built on top of[Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)for providing data query and analysis.Hive gives an[SQL](https://en.wikipedia.org/wiki/SQL)-like interface to query data stored in various databases and file systems that integrate with Hadoop. Traditional SQL queries must be implemented in the[MapReduce](https://en.wikipedia.org/wiki/MapReduce)Java API to execute SQL applications and queries over distributed data. Hive provides the necessary SQL abstraction to integrate SQL-like queries ([HiveQL](https://en.wikipedia.org/wiki/Apache_Hive#HiveQL)) into the underlying Java without the need to implement queries in the low-level Java API. Since most data warehousing applications work with SQL-based querying languages, Hive aids portability of SQL-based applications to Hadoop.
+- It stores schema in a database and processed data into HDFS.
+- It is designed for OLAP.
+- It provides SQL type language for querying called HiveQL or HQL.
+- It is familiar, fast, scalable, and extensible.
+
+## Apache Hiveis a[data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)software project built on top of[Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop)for providing data query and analysis.Hive gives an[SQL](https://en.wikipedia.org/wiki/SQL)-like interface to query data stored in various databases and file systems that integrate with Hadoop. Traditional SQL queries must be implemented in the[MapReduce](https://en.wikipedia.org/wiki/MapReduce)Java API to execute SQL applications and queries over distributed data. Hive provides the necessary SQL abstraction to integrate SQL-like queries ([HiveQL](https://en.wikipedia.org/wiki/Apache_Hive#HiveQL)) into the underlying Java without the need to implement queries in the low-level Java API. Since most data warehousing applications work with SQL-based querying languages, Hive aids portability of SQL-based applications to Hadoop
 
 ## Partitioning of table
 
@@ -158,7 +161,7 @@ The following table defines how Hive interacts with Hadoop framework:
 
 ## Others - Presto
 
-<https://blog.treasuredata.com/blog/2015/03/20/presto-versus-hive
+<https://blog.treasuredata.com/blog/2015/03/20/presto-versus-hive>
 
 ## References
 

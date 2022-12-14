@@ -9,39 +9,44 @@ Modified: 2021-11-29 21:14:19 +0500
 Its different from wildcards (Wildcards have very few metacharacters than Regular Expressions)
 
 ## Standards
-1.  BRE (Basic Regular Expressions)
-2.  ERE (Extended Regular Expressions)
+
+1. BRE (Basic Regular Expressions)
+2. ERE (Extended Regular Expressions)
 
 A **regex processor** translates a regular expression into an internal representation which can be executed and matched against a [string](https://en.wikipedia.org/wiki/String_(computing))representing the text being searched in. One possible approach is the[Thompson's construction algorithm](https://en.wikipedia.org/wiki/Thompson%27s_construction_algorithm)to construct a[nondeterministic finite automaton](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton)(NFA), which is then[made deterministic](https://en.wikipedia.org/wiki/Powerset_construction)and the resulting[deterministic finite automaton](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)(DFA) is run on the target text string to recognize substrings that match the regular expression.
 
 ## Regex Engines
-1.  C#
-2.  Ruby
-3.  PHP
-4.  Perl (PCRE - Perl Compatible Regular Expressions)
-5.  Java
-6.  JavaScript
-7.  Python
+
+1. C#
+2. Ruby
+3. PHP
+4. Perl (PCRE - Perl Compatible Regular Expressions)
+5. Java
+6. JavaScript
+7. Python
 
 ## Regular Expression
+
 At its core, a regular expression is a search pattern that is used to find substrings inside a string. We can use it to validate whether a string follows a specific pattern or not.
 
 In the 1950s, the mathematician [Stephen Cole Kleene](https://en.wikipedia.org/wiki/Stephen_Cole_Kleene)created regular expressions as a way to describe[regular languages](https://en.wikipedia.org/wiki/Regular_language). That's a language that you can express as a regular expression. (So meta!) [So meta meaning self aware, self referencing]
 
 ## Syntax
-1.  **Delimiters**
+
+1. **Delimiters**
 Delimiters are the boundaries of our regular expressions. The most common delimiter is forward slash ( / ).
 
 It depends on the type of programming language. Other delimiters are -
--   Hashtags ( # )
--   Percentage signs ( % )
--   Plus signs ( + )
--   Tildes ( ~ )
--   Rarely (), {}, [], <> these brackets are also used as delimiters
+
+- Hashtags ( # )
+- Percentage signs ( % )
+- Plus signs ( + )
+- Tildes ( ~ )
+- Rarely (), {}, [], <> these brackets are also used as delimiters
 
 Reason for using these many types of delimiters is readability. If we use one type of delimiters and that same delimiter is also used inside the regex then we have to escape all the other symbol using backslash. But using other delimiter instead of that is far easier.
 
-2.  **Pattern, atoms and metacharacters**
+2. **Pattern, atoms and metacharacters**
 
 Inside our delimiters, we have the pattern that we want our regular expression to look for. This pattern is made up of what we call atoms. An atom can be either a character literal or metacharacter or a character class.
 
@@ -51,7 +56,7 @@ Most regular expression processors support at least fourteen metacharacters. The
 
 Meaning of metacharacters fall under four broad groups - **escaping, grouping, matching literal characters and quantifiers.**
 
-1.  **Escaping (  )**
+1. **Escaping (  )**
 
 The backslash (  ) is the escape character used by regular expressions.
 
@@ -61,7 +66,7 @@ a.  To escape a character if it is a delimiter.
 
 b.  To convert literal characters into character classes. Ex- w is a character literal, but when we escape it using  it becomes ( w ). w is a shortcut character class which represents all the alphanumeric characters as well as _ (underscore)
 
-2.  **Matching character literals**
+2. **Matching character literals**
 
 w for example that match character literals.
 
@@ -97,11 +102,11 @@ Ex - [0-9] matches any number, [^0-9] matches anything but a number.
 
 ## Negated shortcut character classes
 
-1.  W = matches anything but an alphanumeric character literal
+1. W = matches anything but an alphanumeric character literal
 
-2.  D = matches anything but a number
+2. D = matches anything but a number
 
-3.  S = matches anything but a whitespace character
+3. S = matches anything but a whitespace character
 
 ## Matching (almost) any character literal ( . )
 
@@ -111,7 +116,7 @@ The only character literal that a dot won't match by default are line break char
 
 Dot metacharacter is powerful but we should use it with caution as it can create unforeseen bugs. So we should use negated character class instead of dot metacharacter.
 
-3.  **Quantifiers**
+3. **Quantifiers**
 
 They are a way to tell the regular expression processor how many times we want to match an atom.
 
@@ -153,7 +158,7 @@ Ex - /<.*>/ because of greediness, this will match every character instead of ht
 
 There are two ways to solve the greediness problem -
 
-1.  **Making quantifiers lazy**
+1. **Making quantifiers lazy**
 
 So how do you turn a greedy quantifier into a lazy one? It's simple! You just need to add a question mark at the end of it. This works for all three quantifier metacharacters that we've seen so far too!
 
@@ -161,7 +166,7 @@ Ex - ?? Is the lazy version of the ? quantifier metacharacter. It'll try to matc
 
 Ex - /<.*?>/ this will solve the html tag problem
 
-2.  **Use negated character classes**
+2. **Use negated character classes**
 
 Ex - /<[^>]*>/ this will match all the HTML tags in our HTML block without the need for lazy quantifier.
 
@@ -179,7 +184,7 @@ Kleene star * = {0,}
 
 Kleene plus + = {1,}
 
-4.  **Grouping**
+4. **Grouping**
 
 We need to put them in parentheses ( ) . This tells the regex processor that we want to use these atoms as a single unit.
 
@@ -215,9 +220,9 @@ Used to match specific position inside a string
 
 Types -
 
-1.  Caret ( ^ ) - represents starting position of a string
+1. Caret ( ^ ) - represents starting position of a string
 
-2.  Dollar sign ( $ ) - represents the ending position of a string
+2. Dollar sign ( $ ) - represents the ending position of a string
 
 Ex -
 
@@ -225,19 +230,17 @@ We have this regular expression:/^/path$/. This regular expression would only ma
 
 if we want to just match a string that starts with/path, we would just use the/^/path/regular expression.
 
-
-
 ## Modifiers
 
 There are a lot of different modifiers -
 
-1.  ( i ) - case insensitive
+1. ( i ) - case insensitive
 
 Ex - we have/this/ias a regular expression. It would match any variation of "this" with lowercase and uppercase letters.
 
-2.  ( s ) - It makes the dot match all possible characters including line breaks.
+2. ( s ) - It makes the dot match all possible characters including line breaks.
 
-3.  ( m ) - This modifier makes the caret and dollar sign match the starting and ending position of a line instead of a string.
+3. ( m ) - This modifier makes the caret and dollar sign match the starting and ending position of a line instead of a string.
 
 ## Backreferences
 
@@ -254,15 +257,16 @@ Here /1 will have a as the value and /2 will have b as the value. The number cor
 2 - group 2, and so on.
 
 ## Advanced Topics
--   Conditionals
--   Atomic Groups
--   Named Capture
--   Inline modifiers
--   Subroutines
--   Recursive expressions
--   Predefined subroutines
--   Branch reset
--   Inline comments
+
+- Conditionals
+- Atomic Groups
+- Named Capture
+- Inline modifiers
+- Subroutines
+- Recursive expressions
+- Predefined subroutines
+- Branch reset
+- Inline comments
 
 # Lookarounds
 
@@ -272,7 +276,7 @@ The main point for lookaround is that at the end of a lookahead or a lookbehind,
 
 You can use a full-fledged regular expression inside lookahead. Most applications only allow fixed-length expressions in lookbehind.
 
-1.  Lookahead
+1. Lookahead
 
     a.  Lookahead or Positive lookahead **(?= ... )**
 
@@ -282,7 +286,7 @@ b.  Negative lookahead **(?! ... )**
 
 q(?!u)matchesqinIraqbut not inquestion. This is negative lookahead. The tokens inside the lookahead are attempted, their match is discarded, and the result is inverted.
 
-2.  Lookbehind
+2. Lookbehind
 
     a.  Lookbehind or Positive lookbehind **(?<= ... )**
 
@@ -315,7 +319,7 @@ A(?=w{6,10}z)
 
 [lazy quantifier requires backtracking at each step](http://www.rexegg.com/regex-quantifiers.html#lazy_expensive). (therefore lazy quantifier is not too efficient)
 
-## Non-Capturing group (?:regex) - Non-capturing parentheses group the regex so you can apply regex operators, but do not capture anything.
+## Non-Capturing group (?:regex) - Non-capturing parentheses group the regex so you can apply regex operators, but do not capture anything
 
 (?:abc){3}matchesabcabcabc. No groups.
 
@@ -347,11 +351,11 @@ For instance(?:Bob|Chloe)matches*Bob*or*Chloe*---but the name is not captured.
 
 ## Points to remember
 
-1.  Regex - (.){2}(.)12
+1. Regex - (.){2}(.)12
 
 Solution - 11212 ( 1 only see the first capturing group once )
 
-2.  Use Lookarounds instead of direct matches and replacing with same letters, so that two consecutive matches can be found, i.e. overlapping patterns
+2. Use Lookarounds instead of direct matches and replacing with same letters, so that two consecutive matches can be found, i.e. overlapping patterns
 
 Ex -
 
@@ -445,7 +449,6 @@ A - Anchor asserts that the current position is the beginning of the string
 
 z - Anchor asserts that the current position is the end of the string
 
-
 <col style="width: 20%" />
 <col style="width: 79%" />rdz/regular-expressions>
 
@@ -463,13 +466,13 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 ## Learn
 
-<https://carlalexander.ca/beginners-guide-regular-expressions
+<https://carlalexander.ca/beginners-guide-regular-expressions>
 
 <http://www.regular-expressions.info/tutorial.html>
 
 ## Tools
 
-<https://regex101.com
+<https://regex101.com>
 
 <https://regexr.com>
 
@@ -477,13 +480,13 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 <https://www.hackerrank.com/domains/regex/re-introduction>
 
-<https://regex.sketchengine.co.uk
+<https://regex.sketchengine.co.uk>
 
-<https://regexcrossword.com (Rank - <https://regexcrossword.com/profile/38485>)
+<https://regexcrossword.com> (Rank - <https://regexcrossword.com/profile/38485>)
 
-<https://regexone.com
+<https://regexone.com>
 
-<http://play.inginf.units.it/#
+<http://play.inginf.units.it/>
 
 ## Others
 
@@ -493,10 +496,11 @@ In[computer programming](https://en.wikipedia.org/wiki/Computer_programming),**g
 
 <https://www.soscisurvey.de/tools/view-chars.php>
 
-
 ## Search and Replace using Variables
+
 ```
 (<col style="width: )(.*)
 $1$2/>
 ```
+
 [VS Code: Search-and-Replace Regex - DEV Community 👩‍💻👨‍💻](https://dev.to/rfornal/vs-code-search-and-replace-regex-mn2)

@@ -5,9 +5,10 @@ Created: 2018-05-07 16:48:59 +0500
 Modified: 2022-01-06 21:23:27 +0500
 
 ---
--   Ignoring "stop words" such as "a", 'the', 'and'
--   Stemming words, so that 'pony' and 'ponies' are considered similar
--   Weighting words absed on different criteria such as how frequently they appear in the text, or the importance of the fields, such as the title or keywords, that they appear in.
+
+- Ignoring "stop words" such as "a", 'the', 'and'
+- Stemming words, so that 'pony' and 'ponies' are considered similar
+- Weighting words absed on different criteria such as how frequently they appear in the text, or the importance of the fields, such as the title or keywords, that they appear in.
 
 ## Entity vs. attribute
 
@@ -17,11 +18,11 @@ Typically, an entity will correspond to a table in your database, and the attrib
 
 ## Document-based search solutions
 
-1.  Elastic
+1. Elastic
 
-2.  Solr
+2. Solr
 
-3.  vespa
+3. vespa
 
 ## Faceted Search
 
@@ -55,7 +56,7 @@ Example: on Spotify, each artist has an 'about' attribute, which you can see aft
 
 There are a few other parameters you need to define in your search:
 
-## Substring location:
+## Substring location
 
 Let's take The Chainsmokers. Which of these search terms do you think should find them: 'the chain', 'chain', or 'smokers'?
 
@@ -63,11 +64,11 @@ If you guessed all three, then you're right. But that's not always the case. Let
 
 This has a lot to do with how the data is being indexed, and there are three main options to choose from:
 
-1.  start of string (e.g. 'the chain')
+1. start of string (e.g. 'the chain')
 
-2.  start of each word (e.g. 'chains')
+2. start of each word (e.g. 'chains')
 
-3.  all substrings (e.g. 'smokers', or 'ainsmoke')
+3. all substrings (e.g. 'smokers', or 'ainsmoke')
 
 Again, more is not always better. Pick the one most suited to what your users are likely to search.
 
@@ -108,7 +109,8 @@ iii. all results --- all of the results of a specific entity
 <https://uxdesign.cc/designing-an-omni-search-29c6cb6ec3f7>
 
 ## Zero Click Search
--   Direct answers in the search results, and users doesn't have to click further links
+
+- Direct answers in the search results, and users doesn't have to click further links
 
 ## Transformers
 
@@ -122,4 +124,4 @@ iii. all results --- all of the results of a specific entity
 
 ## Tools
 
-<https://www.algolia.com
+<https://www.algolia.com>

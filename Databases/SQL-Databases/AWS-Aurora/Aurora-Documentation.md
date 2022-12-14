@@ -149,6 +149,7 @@ INTO TABLE tbl_name
 
 [SET col_name = expr,...]
 39385044 row(s) affected246.881 sec/4 minutes
+
 ## Parallel query for Aurora MySQL
 
 Aurora MySQL parallel query is an optimization that parallelizes some of the I/O and computation involved in processing data-intensive queries. The work that is parallelized includes retrieving rows from storage, extracting column values, and determining which rows match the conditions in the WHERE clause and join clauses. This data-intensive work is delegated (in database optimization terms,pushed down) to multiple nodes in the Aurora distributed storage layer. Without parallel query, each query brings all the scanned data to a single node within the Aurora MySQL cluster (the head node) and performs all the query processing there.

@@ -10,15 +10,14 @@ A processing engine, sometimes called a processing framework, is responsible for
 
 Processing frameworks compute over the data in the system, either by reading from non-volatile storage or as it is ingested into the system. Computing over data is the process of extracting information and insight from large quantities of individual data points.
 
-
--   Batch-only frameworks:
-    -   [Apache Hadoop](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-hadoop)
--   Stream-only frameworks:
-    -   [Apache Storm](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-storm)
-    -   [Apache Samza](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-samza)
--   Hybrid frameworks:
-    -   [Apache Spark](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-spark)
-    -   [Apache Flink](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-flink)
+- Batch-only frameworks:
+  - [Apache Hadoop](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-hadoop)
+- Stream-only frameworks:
+  - [Apache Storm](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-storm)
+  - [Apache Samza](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-samza)
+- Hybrid frameworks:
+  - [Apache Spark](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-spark)
+  - [Apache Flink](https://www.digitalocean.com/community/tutorials/hadoop-storm-samza-spark-and-flink-big-data-frameworks-compared#apache-flink)
 
 Processing frameworksandprocessing enginesare responsible for computing over data in a data system. While there is no authoritative definition setting apart "engines" from "frameworks", it is sometimes useful to define the former as the actual component responsible for operating on data and the latter as a set of components designed to do the same.
 
@@ -29,9 +28,10 @@ For instance,Apache Hadoopcan be considered aprocessing frameworkwithMapReduceas
 Batch processinghas a long history within the big data world. Batch processing involves operating over a large, static dataset and returning the result at a later time when the computation is complete.
 
 The datasets in batch processing are typically...
--   bounded: batch datasets represent a finite collection of data
--   persistent: data is almost always backed by some type of permanent storage
--   large: batch operations are often the only option for processing extremely large sets of data
+
+- bounded: batch datasets represent a finite collection of data
+- persistent: data is almost always backed by some type of permanent storage
+- large: batch operations are often the only option for processing extremely large sets of data
 
 Batch processing is well-suited for calculations where access to a complete set of records is required. For instance, when calculating totals and averages, datasets must be treated holistically instead of as a collection of individual records. These operations require that state be maintained for the duration of the calculations.
 
@@ -44,9 +44,10 @@ The trade-off for handling large quantities of data is longer computation time. 
 Stream processingsystems compute over data as it enters the system. This requires a different processing model than the batch paradigm. Instead of defining operations to apply to an entire dataset, stream processors define operations that will be applied to each individual data item as it passes through the system.
 
 The datasets in stream processing are considered "unbounded". This has a few important implications:
--   Thetotaldataset is only defined as the amount of data that has entered the system so far.
--   Theworkingdataset is perhaps more relevant, and is limited to a single item at a time.
--   Processing is event-based and does not "end" until explicitly stopped. Results are immediately available and will be continually updated as new data arrives.
+
+- Thetotaldataset is only defined as the amount of data that has entered the system so far.
+- Theworkingdataset is perhaps more relevant, and is limited to a single item at a time.
+- Processing is event-based and does not "end" until explicitly stopped. Results are immediately available and will be continually updated as new data arrives.
 
 Stream processing systems can handle a nearly unlimited amount of data, but they only process one (true stream processing) or very few (micro-batch processing) items at a time, with minimal state being maintained in between records. While most systems provide methods of maintaining some state, steam processing is highly optimized for morefunctional processingwith few side effects.
 

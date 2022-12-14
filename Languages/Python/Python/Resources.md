@@ -7,20 +7,21 @@ Modified: 2021-08-27 18:36:53 +0500
 ---
 
 ## Getting started
--   [**https://diveintopython3.net/**](https://diveintopython3.net/)
--   **Hackerrank Python**
+
+- [**https://diveintopython3.net/**](https://diveintopython3.net/)
+- **Hackerrank Python**
 
 <https://github.com/vinta/awesome-python>
 
 <https://github.com/vinta/awesome-python#algorithms-and-design-patterns>
 
-<https://pymotw.com/3
+<https://pymotw.com/3>
 
-<https://gto76.github.io/python-cheatsheet
+<https://gto76.github.io/python-cheatsheet>
 
 ## For String format
 
-<https://pyformat.info
+<https://pyformat.info>
 
 <https://docs.python.org/3.6/library/string.html#format-specification-mini-language>
 
@@ -30,7 +31,7 @@ Modified: 2021-08-27 18:36:53 +0500
 
 <https://github.com/python/cpython>
 
-<https://devguide.python.org
+<https://devguide.python.org>
 
 ## Python Logging
 
@@ -38,7 +39,7 @@ Modified: 2021-08-27 18:36:53 +0500
 
 ## Import
 
-<https://www.pythonforthelab.com/blog/complete-guide-to-imports-in-python-absolute-relative-and-more
+<https://www.pythonforthelab.com/blog/complete-guide-to-imports-in-python-absolute-relative-and-more>
 
 ## Libraries
 

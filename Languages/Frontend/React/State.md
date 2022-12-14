@@ -7,8 +7,9 @@ Modified: 2021-11-25 23:11:46 +0500
 ---
 
 ## Props vs State
--   "props" (short for "properties") is an object of arbitrary inputs a React function component accepts as the first argument.
--   "state" is data that changes over the lifetime of a specific instance of a React component.
+
+- "props" (short for "properties") is an object of arbitrary inputs a React function component accepts as the first argument.
+- "state" is data that changes over the lifetime of a specific instance of a React component.
 
 React state is intended to track data values over the lifetime of the component (so long as the component exists on the page)
 
@@ -18,13 +19,14 @@ propsare a way of passing data from parent to child. If you're familiar with the
 
 Only the most parent component in application must be responsible to fetch data be it from an API or Flux framework or Redux
 
-<https://overreacted.io/react-as-a-ui-runtime
+<https://overreacted.io/react-as-a-ui-runtime>
 
 For each piece of state in your application:
--   Identify every component that renders something based on that state.
--   Find a common owner component (a single component above all the components that need the state in the hierarchy).
--   Either the common owner or another component higher up in the hierarchy should own the state.
--   If you can't find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
+
+- Identify every component that renders something based on that state.
+- Find a common owner component (a single component above all the components that need the state in the hierarchy).
+- Either the common owner or another component higher up in the hierarchy should own the state.
+- If you can't find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
 
 ## Props
 
@@ -71,8 +73,9 @@ In React, sharing state is accomplished by moving it up to the closest common an
 ## State Management
 
 In React, Components are either one of two types:
--   Class-Based Components
--   Functional Components
+
+- Class-Based Components
+- Functional Components
 
 A component can share the data it contains with other components by adding them as properties to the props object.
 
@@ -81,7 +84,8 @@ This becomes tedious when you are dealing with a large application. So there are
 However, recently, a new concept of Context API and hooks has been introduced and it is an even more convenient way to manage the state.
 
 ## State management
--   React - Redux, **Context API with Hooks**
--   Vue - **Vuex**
--   Angular - NGRX, **Services**
--   Apollo Client
+
+- React - Redux, **Context API with Hooks**
+- Vue - **Vuex**
+- Angular - NGRX, **Services**
+- Apollo Client

@@ -6,15 +6,15 @@ Modified: 2022-11-13 02:00:46 +0500
 
 ---
 
-## War Cry - Give up nahi karna hai.
+## War Cry - Give up nahi karna hai
 
 ## Watch great leaders motivational videos
 
-1.  oprah wimfrey
+1. oprah wimfrey
 
-<https://dariusforoux.com/inspirational-quotes
+<https://dariusforoux.com/inspirational-quotes>
 
-<https://www.scotthyoung.com/blog/2020/11/02/motivation
+<https://www.scotthyoung.com/blog/2020/11/02/motivation>
 
 [Principles For Success in 8 Episodes](https://www.youtube.com/playlist?list=PLykIL_1_MFWkWDDgvdZ6L7rsvKCKl-39j)
 
@@ -99,9 +99,10 @@ The hardest thing to do is leaving your comfort zone. But you have to let go of 
 Antifragile: Things That Gain from Disorder by Nassim Nicholas Taleb
 
 ## Antifragile
--   Bones
--   Immune System
--   Children
+
+- Bones
+- Immune System
+- Children
 
 [Jonathan Haidt: The Three Terrible Ideas Weakening Gen Z and Damaging Universities and Democracies](https://www.youtube.com/watch?v=B5IGyHNvr7E)
 
@@ -139,19 +140,19 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
 ## How you are motivated
 
-1.  You are motivated by others success use that to drive yourself
+1. You are motivated by others success use that to drive yourself
 
-2.  Iiitd delhi 1.5 crore package
+2. Iiitd delhi 1.5 crore package
 
 ## State of Flow - 4 conditions
 
-1.  Focus - When your life is on the line, it's easy to focus, belive that what you need to do is very important (when people say that your goal must be bigger than yourself)
+1. Focus - When your life is on the line, it's easy to focus, belive that what you need to do is very important (when people say that your goal must be bigger than yourself)
 
-2.  Challenge skill balance - Challenge must be slightly harder than your skillset, you cannot overwhelm yourself, or too low. Flow exists between 45 degree angle between anxiety and boredom. The only easy day was yesterday. It should be slightly harder from the last time everyday.
+2. Challenge skill balance - Challenge must be slightly harder than your skillset, you cannot overwhelm yourself, or too low. Flow exists between 45 degree angle between anxiety and boredom. The only easy day was yesterday. It should be slightly harder from the last time everyday.
 
-3.  Clear goals (specific with immediate feedback)
+3. Clear goals (specific with immediate feedback)
 
-4.  Flow is 4 state
+4. Flow is 4 state
 
     a.  priming/overwhelm don't attach to frustration
 
@@ -166,13 +167,14 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 <https://theascent.pub/how-to-be-so-disciplined-itll-look-like-you-have-superpowers-e35d695f49d5>
 
 ## Motivation
--   Peace of Mind
--   I have the power to do and to be whatever i wish to do and be.
--   No negative thoughts
--   No one can limit us but ourselves
--   I have courage because I desire it; because I need it; because I use it and because I refuse to become such a weakling as cowardice produces.
--   Love what you do and put a smile on your face while doing it
--   Find play in everything you doi
+
+- Peace of Mind
+- I have the power to do and to be whatever i wish to do and be.
+- No negative thoughts
+- No one can limit us but ourselves
+- I have courage because I desire it; because I need it; because I use it and because I refuse to become such a weakling as cowardice produces.
+- Love what you do and put a smile on your face while doing it
+- Find play in everything you doi
 
 ## Story
 
@@ -182,7 +184,7 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
 ## Psychology of self-motivation
 
-1.  Empowerment
+1. Empowerment
 
     a.  Can you do it? (self-efficacy)
 
@@ -190,7 +192,7 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
     c.  Is it worth it?
 
-2.  C - word
+2. C - word
 
     a.  Competance
 
@@ -202,7 +204,7 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
 [The psychology of self-motivation | Scott Geller | TEDxVirginiaTech](https://www.youtube.com/watch?v=7sxpKhIbr0E)
 
-## Teddy/Theodore Roosevelt's famous speech titled "The Man in the Arena":
+## Teddy/Theodore Roosevelt's famous speech titled "The Man in the Arena"
 
 "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat."
 
@@ -216,25 +218,23 @@ He adds:
 
 "When I train my athletes, it's a dictatorship withthree rules: show up, work hard, and listen. If you can do those three things, I can help you. If you can't we have no use for each other. I will bust my ass for you every way possible, but I expect you to do the same for yourself. I'm not going to work harder than you do for your benefit. Show me you want it, and I'll give it to you."
 
-## Qualities that lead to increasing intelligence:
+## Qualities that lead to increasing intelligence
 
-1.  The curiosity to experiment and explore.
+1. The curiosity to experiment and explore.
 
-2.  The honesty to observe the world as it is, not as you wish it to be.
+2. The honesty to observe the world as it is, not as you wish it to be.
 
-3.  The humility to kill your favorite ideas when you learn something new.
+3. The humility to kill your favorite ideas when you learn something new.
 
-4.  The consistency to repeat this cycle for life.
+4. The consistency to repeat this cycle for life.
 
 Three common patterns to the problem of motivation:
 
-1.  **DRIVE:** You don't have a strong enough drive to learn.
+1. **DRIVE:** You don't have a strong enough drive to learn.
 
-2.  **ANXIETY:** You have too strong an aversion to learning.
+2. **ANXIETY:** You have too strong an aversion to learning.
 
-3.  **DISTRACTION:** You have something else that motivates you more.
-
-
+3. **DISTRACTION:** You have something else that motivates you more.
 
 The fact that you go to the gym even though you don't "need" to... is why you don't need to.
 
@@ -356,23 +356,23 @@ It's remarkable the knowledge you can build if you don't stop learning.
 
 10 Lessons for a Good Life
 
-1.  Focus on what you want (not on what you don't want)
+1. Focus on what you want (not on what you don't want)
 
-2.  Do it
+2. Do it
 
-3.  Show initiative
+3. Show initiative
 
-4.  Be contrarian
+4. Be contrarian
 
-5.  Show up
+5. Show up
 
-6.  Quit things that don't work (but don't give up)
+6. Quit things that don't work (but don't give up)
 
-7.  Stay in shape
+7. Stay in shape
 
-8.  Rest often
+8. Rest often
 
-9.  Ignore pessimists
+9. Ignore pessimists
 
 10. Remind yourself what you want
 
@@ -391,17 +391,20 @@ Whether you can perform like someone else or not is not the point. The question 
 Focus is the art of knowing what to ignore.
 
 Three types of Energy
--   Mental energy (Meditation)
+
+- Mental energy (Meditation)
 
 Your ability to concentrate, focus, work, pay attention, listen,
--   Physical energy (Exercise)
+
+- Physical energy (Exercise)
 
 Your ability to perform physical tasks.
--   Emotional energy (Human interaction)
+
+- Emotional energy (Human interaction)
 
 Your ability to show compassion to yourself and to others.
 
-<https://dariusforoux.com/manage-personal-energy
+<https://dariusforoux.com/manage-personal-energy>
 
 Success will come easy once you function at your full potential. -- Sadhguru
 
@@ -586,12 +589,14 @@ All psychological drivers are divided into one of two categories:**extrinsicorin
 Psychological research tells us that extrinsic drivers only motivate us to a certain extent. They get weaker once we have enough money to pay for food, clothing, and shelter. After we've met these basic needs, it's the intrinsic motivators that take over. It's those intrinsic drivers we'll be focusing on in these blinks.
 
 The five most powerful intrinsic motivators are **curiosity, passion, purpose, autonomy, and mastery.** You can stack them together so they feed off one another --⁠ and so you can achieve the impossible.
--   Write down --⁠ by hand --⁠ 25 things you're curious about
+
+- Write down --⁠ by hand --⁠ 25 things you're curious about
 
 When you explore your curiosities, your brain rewards you with small amounts of a feel-good chemical known as**dopamine**.
--   What you need is passion, which provides a much greater dopamine boost. Often, you can find your passions by looking for intersections among your curiosities.
--   Autonomy simply means the freedom to pursue your purpose. To cultivate it, try carving out at least 15 percent of the day just for yourself. This will help increase your motivation.
--   mastery --⁠ the desire to get better at the things you do. For this motivator, you need to get into a special state of mind psychologists call**flow**.
+
+- What you need is passion, which provides a much greater dopamine boost. Often, you can find your passions by looking for intersections among your curiosities.
+- Autonomy simply means the freedom to pursue your purpose. To cultivate it, try carving out at least 15 percent of the day just for yourself. This will help increase your motivation.
+- mastery --⁠ the desire to get better at the things you do. For this motivator, you need to get into a special state of mind psychologists call**flow**.
 
 ## Break up the impossible into large and small goals
 
@@ -608,10 +613,11 @@ As you complete goals, your brain rewards your persistence with dopamine. Grit w
 ## Growth mindset
 
 ## Use the five-step process to learn almost anything
--   Reading
--   Notes
--   Questions
--   Deep dive
+
+- Reading
+- Notes
+- Questions
+- Deep dive
 
 ## Creativity requires activating three different networks in the brain
 
@@ -627,7 +633,7 @@ The job of this network is to let you know that an idea you've just had is worth
 
 ## A positive mood boosts your creativity
 
-## Insight**, it turns out, is core to creativity. And you don't just have to wait for it to suddenly appear. Instead, you can cultivate it. How? By strengthening a particular part of the brain called the**anterior cingulate cortex,or ACC, which is part of the salience network.
+## Insight**, it turns out, is core to creativity. And you don't just have to wait for it to suddenly appear. Instead, you can cultivate it. How? By strengthening a particular part of the brain called the**anterior cingulate cortex,or ACC, which is part of the salience network
 
 Brain-imaging studies have shown that the ACC lights up right before we solve a problem using "aha" insight. So what can make the ACC more active? The answer is simpler than you might think. Put simply --⁠ a good mood.
 
@@ -641,17 +647,17 @@ Take gratitude. Our brains are overwhelmingly focused on the negative since we'r
 
 ## Flow is the ultimate condition for achieving the impossible
 
-## Flow - The state is characterized by complete focus on the present moment. Mood-boosting chemicals flood our brains, while stress hormones are flushed away. Productivity is amplified by up to 500 percent. Learning rates soar 230 percent.
+## Flow - The state is characterized by complete focus on the present moment. Mood-boosting chemicals flood our brains, while stress hormones are flushed away. Productivity is amplified by up to 500 percent. Learning rates soar 230 percent
 
 It's no wonder that flow makes us feel like we can achieve the impossible. So how do you get some flow for yourself? The process consists of four stages.
 
-1.  **Struggle -** Here, you're learning, taking in loads of new information, and feeling frustrated as a result.
+1. **Struggle -** Here, you're learning, taking in loads of new information, and feeling frustrated as a result.
 
-2.  **Release -** it's time to give your brain time to relax and let go by doing things like exercising, going for a walk, or engaging in a light hobby. During this time, your brain will be busy passing what you've learned into your long-term memory.
+2. **Release -** it's time to give your brain time to relax and let go by doing things like exercising, going for a walk, or engaging in a light hobby. During this time, your brain will be busy passing what you've learned into your long-term memory.
 
-3.  **Reward -** To get into flow, give yourself a large chunk of time with no external distractions to work on your project.
+3. **Reward -** To get into flow, give yourself a large chunk of time with no external distractions to work on your project.
 
-4.  **Recovery -** Flow costs a lot of energy, and you've got to replenish it somehow. So have a healthy meal, get some good sleep, or take a long bath.
+4. **Recovery -** Flow costs a lot of energy, and you've got to replenish it somehow. So have a healthy meal, get some good sleep, or take a long bath.
 
 ## Final summary
 
@@ -725,87 +731,91 @@ Try to think of improvement as getting better by 1 percent every day.
 
 This kind of incremental improvement is called "aggregation of marginal gains" -- because small but meaningful buildup is a powerful tool. By the end of the year, you can make 100 percent improvements!
 
+- If it doesn't kill you, it makes you stronger.
+- Passion
+- Deliberate practice
+- Excellence requires a balance between strict control and knowing what you can't control
+- Double loop learning (considering internal + external factors)
+- Being humble
+- Feeling positive creates positive results
+- Your thoughts become your words, your words become your actions, and your actions dictate your destiny.
+- Intense training and training for worst situations
+- Having **grit** allows to push through limitations and achieve competitive excellence
 
--   If it doesn't kill you, it makes you stronger.
--   Passion
--   Deliberate practice
--   Excellence requires a balance between strict control and knowing what you can't control
--   Double loop learning (considering internal + external factors)
--   Being humble
--   Feeling positive creates positive results
--   Your thoughts become your words, your words become your actions, and your actions dictate your destiny.
--   Intense training and training for worst situations
--   Having **grit** allows to push through limitations and achieve competitive excellence
-
-<https://www.scotthyoung.com/blog/2020/08/10/excellence
+<https://www.scotthyoung.com/blog/2020/08/10/excellence>
 
 ## Blinkist - Can't hurt me by David Goggins
--   When you're thinking of quitting: accept the pain and refuse to quit as a possibility
--   Push yourself daily to do what you don't want to do
--   Week after week expand the limits of your comfort zone little by little
--   Use enemies and hardships as fuel for your motivation
--   Build your cookie jar of accomplishments and use that for motivation
--   The best way to overcome anything in life is to become a master of what you're afraid of. Become a master of your insecurities.
--   It's easy to stand out among people and be a big fish in small pond. It's much more difficult when you're a wolf, surrounded by wolves.
--   Torch the complacency you feel gathering around you, continue to put obstacles in front of yourself because that's where you will find the friction that will help you grow even stronger.
+
+- When you're thinking of quitting: accept the pain and refuse to quit as a possibility
+- Push yourself daily to do what you don't want to do
+- Week after week expand the limits of your comfort zone little by little
+- Use enemies and hardships as fuel for your motivation
+- Build your cookie jar of accomplishments and use that for motivation
+- The best way to overcome anything in life is to become a master of what you're afraid of. Become a master of your insecurities.
+- It's easy to stand out among people and be a big fish in small pond. It's much more difficult when you're a wolf, surrounded by wolves.
+- Torch the complacency you feel gathering around you, continue to put obstacles in front of yourself because that's where you will find the friction that will help you grow even stronger.
 
 ## Blinkist - The Dip by Seth Godin (19 Mar 2019)
 
 A little book that teaches you when to quit (and when to stick)
--   To be a superstar, you must do something exceptional. Not just survive the Dip, but use the Dip as an opportunity to create something so extraordinary that people can't help but talk about it, recommend it, and, yes, choose it.
--   The next time you catch yourself being average when you feel like quitting, realize that you have only two good choices: Quit or be exceptional. Average is for losers.
--   Winners understand that taking that pain now prevents a lot more pain later. Winners quit all the time. They just quit the right stuff at the right time.
--   The decision to quit or not is a simple evaluation: Is the pain of the Dip worth the benefit of the light at the end of the tunnel?
--   Quitting as a short-term strategy is a bad idea. Quitting for the long term is an excellent idea because it frees you up to excel at something else.
--   Quit the wrong stuff. Stick with the right stuff. Have the guts to do one or the other.
--   At the beginning, when you first start something, it's fun.Over the next few days and weeks, the rapid learning you experience keeps you going. Whatever your new thing is, it's easy to stay engaged in it. And then the Dip happens. The Dip is the long slog between starting and mastery. A long slog that's actually a shortcut, because it gets you where you want to go faster than any other path.
--   Knowing that you're facing a Dip is the first step in getting through it.
--   Quitting when you hit the Dip is a bad idea. If the journey you started was worth doing, then quitting when you hit the Dip just wastes the time you've already invested. Quit in the Dip often enough and you'll find yourself becoming a serial quitter, starting many things but accomplishing little
--   If you can't make it through the Dip, don't start.
--   If you're not able to get through the Dip in an exceptional way, you must quit. And quit right now
+
+- To be a superstar, you must do something exceptional. Not just survive the Dip, but use the Dip as an opportunity to create something so extraordinary that people can't help but talk about it, recommend it, and, yes, choose it.
+- The next time you catch yourself being average when you feel like quitting, realize that you have only two good choices: Quit or be exceptional. Average is for losers.
+- Winners understand that taking that pain now prevents a lot more pain later. Winners quit all the time. They just quit the right stuff at the right time.
+- The decision to quit or not is a simple evaluation: Is the pain of the Dip worth the benefit of the light at the end of the tunnel?
+- Quitting as a short-term strategy is a bad idea. Quitting for the long term is an excellent idea because it frees you up to excel at something else.
+- Quit the wrong stuff. Stick with the right stuff. Have the guts to do one or the other.
+- At the beginning, when you first start something, it's fun.Over the next few days and weeks, the rapid learning you experience keeps you going. Whatever your new thing is, it's easy to stay engaged in it. And then the Dip happens. The Dip is the long slog between starting and mastery. A long slog that's actually a shortcut, because it gets you where you want to go faster than any other path.
+- Knowing that you're facing a Dip is the first step in getting through it.
+- Quitting when you hit the Dip is a bad idea. If the journey you started was worth doing, then quitting when you hit the Dip just wastes the time you've already invested. Quit in the Dip often enough and you'll find yourself becoming a serial quitter, starting many things but accomplishing little
+- If you can't make it through the Dip, don't start.
+- If you're not able to get through the Dip in an exceptional way, you must quit. And quit right now
 
 ## Blinkist - Design Your Future by Dominick Quartuccio (8 May 2019)
 
 Three simple steps to stop drifting and start living
--   Overcoming limiting ideas can help you avoid the trap of predictability
-    -   Trapped is what you feel when you are living into a future of more of the same
--   Fear keeps people stuck in the status quo, but you can move forward by taking three simple steps
-    -   Awakening (mindfulness)
-        -   Observe yourself and your behavior
-    -   Disrupting
-        -   Breaking out of negative cycles
-    -   Designing
-        -   Creating a new, positive routine
--   Challenging habits and being picky about your social circle can help positively disrupt your life
--   Focusing on one goal at a time makes it much more likely that you'll fulfill your ambitions
--   Scorecards and daily rituals are great tools to help you design your future
--   Achieving success is all about keeping your eyes on the prize and taking things one step at a time
--   Reconnect to the old enthusiasm when you started the project, when the project gets difficult. That will help you to push through
 
-<https://www.scotthyoung.com/blog/2020/06/15/narrow-success
+- Overcoming limiting ideas can help you avoid the trap of predictability
+  - Trapped is what you feel when you are living into a future of more of the same
+- Fear keeps people stuck in the status quo, but you can move forward by taking three simple steps
+  - Awakening (mindfulness)
+    - Observe yourself and your behavior
+  - Disrupting
+    - Breaking out of negative cycles
+  - Designing
+    - Creating a new, positive routine
+- Challenging habits and being picky about your social circle can help positively disrupt your life
+- Focusing on one goal at a time makes it much more likely that you'll fulfill your ambitions
+- Scorecards and daily rituals are great tools to help you design your future
+- Achieving success is all about keeping your eyes on the prize and taking things one step at a time
+- Reconnect to the old enthusiasm when you started the project, when the project gets difficult. That will help you to push through
+
+<https://www.scotthyoung.com/blog/2020/06/15/narrow-success>
 
 ## Blinkist - Shoot for the Moon by Richard Wiseman (19 May 2019)
 
 Achieve the impossible with the apollo mindset
--   Having a sense of purpose is a great motivator, as is the presence of known competitors
-    -   Motivating factor could be increased even further when the competitor is a personally-familiar rival
-    -   ...merely imagining that you are competing against a rival can help boost performance
--   Taking breaks and getting a good night's sleep are important to foster innovative powers
-    -   People who walked on a treadmill during their break could increase creativitiy by up to 60 percent compared to those who sat down
--   For success, it is important to cultivate a positive outlook and to find heroes to worship
--   For success, it is important to have a growth mind-set, especially when dealing with failures
--   To avoid procrastination, take things one step at a time and set yourself smart deadlines
-    -   Prevent needless procrastination by avoiding dates that spill over into the following year, month or even week
--   To achieve your goals, you have to make tough decisions, so you should learn to embrace your fears
--   Being well-prepared for major events is crucial, and identifying potential probelems in advance helps
--   Being adaptable is important for achieving goals, and it also promotes happiness
--   **Actionable advice - Create your own competition to boost motivation**
+
+- Having a sense of purpose is a great motivator, as is the presence of known competitors
+  - Motivating factor could be increased even further when the competitor is a personally-familiar rival
+  - ...merely imagining that you are competing against a rival can help boost performance
+- Taking breaks and getting a good night's sleep are important to foster innovative powers
+  - People who walked on a treadmill during their break could increase creativitiy by up to 60 percent compared to those who sat down
+- For success, it is important to cultivate a positive outlook and to find heroes to worship
+- For success, it is important to have a growth mind-set, especially when dealing with failures
+- To avoid procrastination, take things one step at a time and set yourself smart deadlines
+  - Prevent needless procrastination by avoiding dates that spill over into the following year, month or even week
+- To achieve your goals, you have to make tough decisions, so you should learn to embrace your fears
+- Being well-prepared for major events is crucial, and identifying potential probelems in advance helps
+- Being adaptable is important for achieving goals, and it also promotes happiness
+- **Actionable advice - Create your own competition to boost motivation**
 
 ## The power of one more by Ed Mylett
--   Divide your days into 3 parts with 6 hours each.
--   Do things in 6 hours that people do it in 18 hours
--   One more day
--   One more after thinking of giving up
+
+- Divide your days into 3 parts with 6 hours each.
+- Do things in 6 hours that people do it in 18 hours
+- One more day
+- One more after thinking of giving up
 
 [THE POWER OF ONE MORE by Ed Mylett | Core Message](https://youtu.be/FYc-ynxOxRU)
 
@@ -816,10 +826,12 @@ Achieve the impossible with the apollo mindset
 [How To Stay Motivated - The Locus Rule](https://www.youtube.com/watch?v=8ZhoeSaPF-k)
 
 The degree to which you believe you have control over your life
--   External locus of control
+
+- External locus of control
 
 You believe environment controls you
--   Internal locus of control
+
+- Internal locus of control
 
 You believe you control environment and whatever you do matters for your results
 

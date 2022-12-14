@@ -23,15 +23,15 @@ Buy the rumors sell the news
 Past performance is no guarantee for future performance
 
 ## TODO
--   All the investments in parents name (can save atleast on interest and passive income)
--   Add investments in investment's sheet so that you can see proper trend
--   **Vanguard Global Stock Index Fund (VT Index)**
--   **MON100 - Nasdaq 100 ETF**
 
+- All the investments in parents name (can save atleast on interest and passive income)
+- Add investments in investment's sheet so that you can see proper trend
+- **Vanguard Global Stock Index Fund (VT Index)**
+- **MON100 - Nasdaq 100 ETF**
 
--   Neha - Corporate bond
+- Neha - Corporate bond
 
-<https://freefincal.com/hdfc-corporate-bond-fund
+<https://freefincal.com/hdfc-corporate-bond-fund>
 
 ~~Trading 2 Lakh~~
 
@@ -39,41 +39,43 @@ Parag Parikh Flexi Cap
 
 VPF - <https://cleartax.in/s/pf-vs-vpf>
 
-
--   ET Money Break
--   1 cr term insurance
--   Stop sbi / ppf migrate
--   P2P - Grip Invest (Code - Think) / Lendenclub / wintwealth / GoldenPi
--   SGB (no SGB till buying home)
--   **PMS**
-    -   Marcellus - 50L
-    -   <https://truebeacon.com
-    -   <https://www.dezerv.in
--   Employee Provident Fund (EPF)
+- ET Money Break
+- 1 cr term insurance
+- Stop sbi / ppf migrate
+- P2P - Grip Invest (Code - Think) / Lendenclub / wintwealth / GoldenPi
+- SGB (no SGB till buying home)
+- **PMS**
+  - Marcellus - 50L
+  - <https://truebeacon.com>
+  - <https://www.dezerv.in>
+- Employee Provident Fund (EPF)
 
 <https://www.youtube.com/watch?v=lBagn--KERk>
 
 Increase EPF - 20K 12% pm - Deepak
--   1 lakh LTCG
--   Every year buy 10 grm of physical gold
--   And 10 grm of sgb
--   Top 10 focused stocks - Marcellus PMS
+
+- 1 lakh LTCG
+- Every year buy 10 grm of physical gold
+- And 10 grm of sgb
+- Top 10 focused stocks - Marcellus PMS
 
 ## Tools
 
-<https://www.tikr.com
+<https://www.tikr.com>
 
 ## Buying
 
-<https://www.joinhoney.com
+<https://www.joinhoney.com>
 
 ## Two types of income
--   Active Income where the time and effort you put pays for just that time
--   Passive Income where past efforts makes you money (all time - 24x7)
+
+- Active Income where the time and effort you put pays for just that time
+- Passive Income where past efforts makes you money (all time - 24x7)
 
 ## Fixed Income / Debt
--   Wintwealth (Wint Wealth)
--   <https://altifi.ai
+
+- Wintwealth (Wint Wealth)
+- <https://altifi.ai>
 
 My Portfolio - <https://docs.google.com/spreadsheets/d/1C1c24a7Qn3LySXz7_IgvLwMi3jEGvVqUmHCc2IVHcMA/edit?usp=sharing>
 
@@ -113,13 +115,15 @@ There is usually a time lag between a vendor supplying goods or services and he 
 
 Masterworksis the first platform for buying and selling shares representing an investment in iconic artworks.
 
-<https://www.masterworks.com
+<https://www.masterworks.com>
 
 ## Strategies
--   **Value Investing**
+
+- **Value Investing**
 
 <https://www.youtube.com/watch?v=CZA3rVOfti8>
--   **Growth Investing**
+
+- **Growth Investing**
 
 <https://www.youtube.com/watch?v=TLGalocqj00>
 
@@ -152,62 +156,65 @@ You can't hope to earn above average returns if you don't place active bets, but
 If you hope to distinguish yourself in terms of performance, you have to depart from the pack. But, having departed, the difference will only be positive if your choice of strategies and tactics is correct and/or you're able to execute better"
 
 ## 5 Warren Buffet Tips
--   Invest in a business and not in a stock as of a specific company
--   Don't have too many stocks in your portfolio
--   Invest in what you understand
--   Read, read and extensively read
--   Earlier you start better it would be
 
+- Invest in a business and not in a stock as of a specific company
+- Don't have too many stocks in your portfolio
+- Invest in what you understand
+- Read, read and extensively read
+- Earlier you start better it would be
 
--   "Price is what you pay, value is what you get." ([2008](http://www.berkshirehathaway.com/letters/2008ltr.pdf))
--   "For investors as a whole, returns decrease as motion increases." ([2005](http://www.berkshirehathaway.com/letters/2005ltr.pdf))
--   "Be fearful when others are greedy and greedy only when others are fearful." ([2004](http://www.berkshirehathaway.com/letters/2004ltr.pdf))
--   "You only find out who is swimming naked when the tide goes out." ([2001](http://www.berkshirehathaway.com/letters/2001.html))
+- "Price is what you pay, value is what you get." ([2008](http://www.berkshirehathaway.com/letters/2008ltr.pdf))
+- "For investors as a whole, returns decrease as motion increases." ([2005](http://www.berkshirehathaway.com/letters/2005ltr.pdf))
+- "Be fearful when others are greedy and greedy only when others are fearful." ([2004](http://www.berkshirehathaway.com/letters/2004ltr.pdf))
+- "You only find out who is swimming naked when the tide goes out." ([2001](http://www.berkshirehathaway.com/letters/2001.html))
 
-<https://www.cbinsights.com/research/buffett-berkshire-hathaway-shareholder-letters
+<https://www.cbinsights.com/research/buffett-berkshire-hathaway-shareholder-letters>
 
 [9 Important Lessons from Warren Buffett's Letters to Shareholders | ET Money](https://youtu.be/GSBtCxVLRqA)
 
-
--   Don't have debt rise faster than income
--   Don't have income rise faster than productivity
--   Do all that you can to raise your productivity
+- Don't have debt rise faster than income
+- Don't have income rise faster than productivity
+- Do all that you can to raise your productivity
 
 <https://www.youtube.com/watch?v=PHe0bXAIuk0>
 
 ## Steps
--   Term Life Insurance
--   Buy a house with a home loan: Tips to maximize benefits
--   How to reduce risk in an investment portfolio
--   Jot down clearly the dates when you need money (do not just write the year, time to be specific!)
--   For all goals that occur within 15 years, stick to the FDs (too late for equity here)
--   You can consider some exposure to equity mutual funds only for goals more than 15 years away.
--   Start slowly. Make a small investment in an equity fund. Say 10% of what you park in FD or RD each month. observe the volatility and then gradually increase exposure
 
-<https://freefincal.com/download-re-assemble-e-book-on-our-6th-birthday
+- Term Life Insurance
+- Buy a house with a home loan: Tips to maximize benefits
+- How to reduce risk in an investment portfolio
+- Jot down clearly the dates when you need money (do not just write the year, time to be specific!)
+- For all goals that occur within 15 years, stick to the FDs (too late for equity here)
+- You can consider some exposure to equity mutual funds only for goals more than 15 years away.
+- Start slowly. Make a small investment in an equity fund. Say 10% of what you park in FD or RD each month. observe the volatility and then gradually increase exposure
+
+<https://freefincal.com/download-re-assemble-e-book-on-our-6th-birthday>
 
 ## Invest in a franchise (McDonalds)
 
-<https://www.financialexpress.com/money/exhausted-your-ppf-investment-limit-here-are-some-other-fixed-investment-options-for-risk-averse-investors/1594500/lite
+<https://www.financialexpress.com/money/exhausted-your-ppf-investment-limit-here-are-some-other-fixed-investment-options-for-risk-averse-investors/1594500/lite>
 
-<https://freefincal.com/mutual-fund-faq-new-investors
+<https://freefincal.com/mutual-fund-faq-new-investors>
 
 [**https://freefincal.com/how-rohits-early-struggles-defined-his-investment-journey/**](https://freefincal.com/how-rohits-early-struggles-defined-his-investment-journey/)
 
 [**https://freefincal.com/how-abhisek-funded-his-marriage-is-on-track-to-financial-freedom/**](https://freefincal.com/how-abhisek-funded-his-marriage-is-on-track-to-financial-freedom/)
 
 ## Financial planning
--   <https://www.businesstoday.in/magazine/money-today/investment/as-good-as-it-gets/story/256057.html>
--   [Build Your Own Stock Portfolio Tracker On Google Sheets](https://youtu.be/qtY1NOVQ6iE)
--   Finshots Money Financial Planning Calculator - <https://docs.google.com/spreadsheets/d/13LUIThaOS_QLXAtQz4gxEA7v5UaZQsp3/edit#gid=262879150>
+
+- <https://www.businesstoday.in/magazine/money-today/investment/as-good-as-it-gets/story/256057.html>
+- [Build Your Own Stock Portfolio Tracker On Google Sheets](https://youtu.be/qtY1NOVQ6iE)
+- Finshots Money Financial Planning Calculator - <https://docs.google.com/spreadsheets/d/13LUIThaOS_QLXAtQz4gxEA7v5UaZQsp3/edit#gid=262879150>
 
 ## Dream
--   Financial freedom after owning a good house with land
--   Start my own company with own funds (so there is no pressure from investors)
+
+- Financial freedom after owning a good house with land
+- Start my own company with own funds (so there is no pressure from investors)
 
 ## Nightmare
--   Job loss for 6 months
--   Will never be able to work again
+
+- Job loss for 6 months
+- Will never be able to work again
 
 ## Courses
 
@@ -216,72 +223,76 @@ Finance for Everyone
 <https://www.edx.org/course/finance-everyone-smart-tools-decision-michiganx-fin101x-1>
 
 ## Soverign Gold Bond (SGB)
--   **Buy it in secondary market instead of applying for new issue**
--   Interest - 2.5 % (taxable) (simple interest given biannually)
--   Discount of Rs.50 per gram
--   Exit option at 5 years and maturity at 8 years
--   No tax on capital gain
--   SGB are tradable on stock exchange
-    -   Capital gain is taxable
-    -   LTCG with indexation available
--   No TDS (pay in returns)
--   4KG per individual per year limit
--   <https://www.youtube.com/watch?v=sJR0ge1779w&feature=youtu.be&ab_channel=ETMONEY>
--   Sold before 3 years - Short Term Capital Gains
-    -   Gains added to income
-    -   Taxed as per income tax slab
--   Sold after 3 years - Long term Capital Gains
-    -   20% tax after indexation
+
+- **Buy it in secondary market instead of applying for new issue**
+- Interest - 2.5 % (taxable) (simple interest given biannually)
+- Discount of Rs.50 per gram
+- Exit option at 5 years and maturity at 8 years
+- No tax on capital gain
+- SGB are tradable on stock exchange
+  - Capital gain is taxable
+  - LTCG with indexation available
+- No TDS (pay in returns)
+- 4KG per individual per year limit
+- <https://www.youtube.com/watch?v=sJR0ge1779w&feature=youtu.be&ab_channel=ETMONEY>
+- Sold before 3 years - Short Term Capital Gains
+  - Gains added to income
+  - Taxed as per income tax slab
+- Sold after 3 years - Long term Capital Gains
+  - 20% tax after indexation
 
 ## National Pension Scheme (NPS)
 
 [How Much Monthly Pension Does NPS Give? | ET Money](https://youtu.be/908WbEQRG04)
 
 ## International
--   MSCI World Index
--   MSCI All Country World Index
--   S&P Global Index
--   S&P 500 Index Fund (USA)
 
--   **Vanguard Global Stock Index Fund (VT Index)**
+- MSCI World Index
+- MSCI All Country World Index
+- S&P Global Index
+- S&P 500 Index Fund (USA)
 
--   Dow Jones Industrial Average
--   FTSE 100 Index (London)
--   Nasdaq Composite (QQQ ETF)
--   DAX 30 (Germany)
--   NIKKEI 225 (Japan)
+- **Vanguard Global Stock Index Fund (VT Index)**
+
+- Dow Jones Industrial Average
+- FTSE 100 Index (London)
+- Nasdaq Composite (QQQ ETF)
+- DAX 30 (Germany)
+- NIKKEI 225 (Japan)
 
 <https://www.youtube.com/watch?v=qRT917PvEns>
 
 ## Indian
--   Nifty 50 (NSE)
--   Nifty Next 50 (NSE)
--   Sensex (30% in BSE by free-float market capatiliation)
--   Motilal Oswal Nasdaq 100 Fund (Foreign index available in india)
--   Nippon BANKBEES ETF
+
+- Nifty 50 (NSE)
+- Nifty Next 50 (NSE)
+- Sensex (30% in BSE by free-float market capatiliation)
+- Motilal Oswal Nasdaq 100 Fund (Foreign index available in india)
+- Nippon BANKBEES ETF
 
 <https://www.moneycontrol.com/mutual-funds/amc-details/RC>
 
-## Since Nifty50 companies form over 75% of the free-float market capitalisation of Nifty100, the allocation of Nifty50 and Nifty Next50 could be 75:25 in the portfolio.
+## Since Nifty50 companies form over 75% of the free-float market capitalisation of Nifty100, the allocation of Nifty50 and Nifty Next50 could be 75:25 in the portfolio
 
 It is prudent to keep a third of the equity portfolio in mutual funds that invest in **foreign stocks.**
 
 For foreign equity allocation, the ideal option would a fund like Vanguard Global Stock Index Fund that holds the biggest companies in developed countries in the proportion of their free-float market capitalisation. Since this option is not available for Indian investors, we can allocate up to 20% of the total equity portfolio in funds like Motilal Oswal Nasdaq 100 Fund of Fund. For taxation, these funds are treated like debt mutual funds; but that is fine since we diversify the portfolio to reduce risk not to increase the return.
 
-## A better approach, therefore, is to take the middle path. Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds.
+## A better approach, therefore, is to take the middle path. Invest half the Indian equity investment in index funds (Nifty50 and Nifty Next50 with 75:25 allocation) and the remaining equally in 3 to 4 multicap funds managed by fund managers with a proven track record of over ten years. Up to 20% of the equity portfolio can be kept in foreign equity index funds
 
-<https://freefincal.com/build-equity-mutual-fund-portfolio
+<https://freefincal.com/build-equity-mutual-fund-portfolio>
 
 ## Tips
--   Invest less during bullish market (SIP 25%)
-    -   importance of not getting caught up in bull markets---speculative investments during bull markets can lead to huge loss of principal investment.
--   Invest more during bearish market (SIP 75%)
+
+- Invest less during bullish market (SIP 25%)
+  - importance of not getting caught up in bull markets---speculative investments during bull markets can lead to huge loss of principal investment.
+- Invest more during bearish market (SIP 75%)
 
 ## Resources
 
-<https://freefincal.com/best-mutual-funds-2019-quarter-three
+<https://freefincal.com/best-mutual-funds-2019-quarter-three>
 
-<https://freefincal.com/my-stock-portfolio-vs-nifty-jan-2021
+<https://freefincal.com/my-stock-portfolio-vs-nifty-jan-2021>
 
 <https://youtu.be/xiiAn0lShj8>
 
@@ -296,29 +307,24 @@ For foreign equity allocation, the ideal option would a fund like Vanguard Globa
 <https://networthify.com/calculator/earlyretirement>
 
 ## Finance Gratitude
--   **Entitlement**
+
+- **Entitlement**
 
 rags to riches and back to rags stories of film stars, lottery ticket winners, and such other starkly high income earners who lost their wealth.
 
 They would be surrounded by relatives and friends that systematically leached off the wealth or led them to poor quality investments. The man who won the first round of Kaun Banega Crorepati admitted that he bought houses for siblings and funded their businesses before losing his winnings and returning to his old job in a few years. Easy money belongs to everyone---that seems to be the credo.
 
+- Do not disclose your earnings, income or wealth. No one other than your spouse and children at an appropriate age need to know. What you give is always measured with respect to what you make. In itself, a gift of 50,000 at a relative's wedding is substantial. It might be bigger than what others gave. But if it is known that you earn Rs.5 lakh every month, that is seen as too little.
 
--   Do not disclose your earnings, income or wealth. No one other than your spouse and children at an appropriate age need to know. What you give is always measured with respect to what you make. In itself, a gift of 50,000 at a relative's wedding is substantial. It might be bigger than what others gave. But if it is known that you earn Rs.5 lakh every month, that is seen as too little.
+- Keep control and equity about who will receive your charities. Someone is not ahead of the queue only because they are related to you or your spouse. You make the decision because it is your money and you know who deserves it. Putting a dozen poor children through college is better than enabling a sibling to upgrade their car. You don't have to justify that decision.
 
+- Money given away to those around you who behave with a sense of entitlement, is almost never returned. You mostly lose the money and the relationship if you asked. Earmark an amount you can afford to write off. Limit your commitment to that amount and no more.
 
--   Keep control and equity about who will receive your charities. Someone is not ahead of the queue only because they are related to you or your spouse. You make the decision because it is your money and you know who deserves it. Putting a dozen poor children through college is better than enabling a sibling to upgrade their car. You don't have to justify that decision.
+- Do not respond to a request for funds with an immediate yes or no. The yes will be seen as too willing; the no will be seen as too rude. Try a response like: let me think about this and come back to you. That gives you the time and those that were taking a shot at asking may not come back. Just as we do not invest in a do-it-right-now investment option, giving also need not be an immediate response.
 
+- Do not try to use your money to buy friendships and relationships. A very common mistake that the moneyed make is to use the power of their wealth to be surrounded by followers and ego massaging yes men. These are poor investments. None of these last when your money is gone. You are aware of your importance in the family due to your wealth; learn to use it wisely.
 
--   Money given away to those around you who behave with a sense of entitlement, is almost never returned. You mostly lose the money and the relationship if you asked. Earmark an amount you can afford to write off. Limit your commitment to that amount and no more.
-
-
--   Do not respond to a request for funds with an immediate yes or no. The yes will be seen as too willing; the no will be seen as too rude. Try a response like: let me think about this and come back to you. That gives you the time and those that were taking a shot at asking may not come back. Just as we do not invest in a do-it-right-now investment option, giving also need not be an immediate response.
-
-
--   Do not try to use your money to buy friendships and relationships. A very common mistake that the moneyed make is to use the power of their wealth to be surrounded by followers and ego massaging yes men. These are poor investments. None of these last when your money is gone. You are aware of your importance in the family due to your wealth; learn to use it wisely.
-
-
--   Make rules that indicate how you will decide whom to support. Keep it equitable between both spouses. Discuss how you will support both parents; how you will contribute to old age support and hospitalizations; and so on. Identify specific causes like education and the limits you will go towards funding it. Allocate a percentage of your earnings and be gracious about it to the outside world, but clear and rule based within the household.
+- Make rules that indicate how you will decide whom to support. Keep it equitable between both spouses. Discuss how you will support both parents; how you will contribute to old age support and hospitalizations; and so on. Identify specific causes like education and the limits you will go towards funding it. Allocate a percentage of your earnings and be gracious about it to the outside world, but clear and rule based within the household.
 
 <https://economictimes.indiatimes.com/wealth/save/set-limits-when-it-comes-to-helping-others-financially-5-ways-to-deal-with-the-entitled-lot/set-limits-when-it-comes-to-helping-others-financially-5-ways-to-deal-with-the-entitled-lot/articleshow/91556379.cms>
 

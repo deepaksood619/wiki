@@ -15,8 +15,9 @@ Fiscal policy is done by the government through spending. Monetary policy is don
 ## ONDC - Open Network for Digital Commerce
 
 ## Bureaucracy
--   A system of government in which most of the important decisions are taken by state officials rather than by elected representatives.
--   Excessively complicated administrative procedure.
+
+- A system of government in which most of the important decisions are taken by state officials rather than by elected representatives.
+- Excessively complicated administrative procedure.
 
 ## RedTape
 
@@ -74,11 +75,11 @@ It is simply the Fiscal Deficit minus interest payments.
 
 AE= advanced economy;EMDE= emerging market and developing economy, low income (LIC) and lower middle-income (LMIC), EMEA - Europe, Middle East and Africa
 
-## Subvention - Subvention refers to a grant of money in aid or support, mostly by the government.
+## Subvention - Subvention refers to a grant of money in aid or support, mostly by the government
 
 Government asks financial institutions to provide loans to farmers at below market rates.
 
-<https://freefincal.com/government-spending-2019-20
+<https://freefincal.com/government-spending-2019-20>
 
 ## DRT and NCLT
 
@@ -90,11 +91,11 @@ TheFiscal Responsibility and Budget Management Act, 2003(FRBMA) is an[Act](https
 
 The main objectives of the act were:
 
-1.  to introduce transparent fiscal management systems in the country
+1. to introduce transparent fiscal management systems in the country
 
-2.  to introduce a more equitable and manageable distribution of the country's debts over the years
+2. to introduce a more equitable and manageable distribution of the country's debts over the years
 
-3.  to aim for fiscal stability for India in the long run
+3. to aim for fiscal stability for India in the long run
 
 Additionally, the act was expected to give necessary flexibility to[Reserve Bank of India](https://en.wikipedia.org/wiki/Reserve_Bank_of_India)(RBI) for managing inflation in India.
 
@@ -102,11 +103,11 @@ Additionally, the act was expected to give necessary flexibility to[Reserve Bank
 
 Since the act was primarily for the management of the governments' behaviour, it provided for certain documents to be tabled in the[parliament](https://en.wikipedia.org/wiki/Parliament_of_India)annually with regards to the country's fiscal policy. This included the following along with the[Annual Financial Statement anddemands for grants](https://en.wikipedia.org/wiki/Union_budget_of_India):
 
-1.  a document titledMedium-term Fiscal Policy Statement-- This report was to present a three-year rolling target for thefiscal indicators[[Note 3]](https://en.wikipedia.org/wiki/Fiscal_Responsibility_and_Budget_Management_Act,_2003#cite_note-14)with any assumptions, if applicable. This statement was to further include an assessment of sustainability with regards torevenue deficitand the use of capital receipts of the Government (including market borrowings) for generating productive assets.
+1. a document titledMedium-term Fiscal Policy Statement-- This report was to present a three-year rolling target for thefiscal indicators[[Note 3]](https://en.wikipedia.org/wiki/Fiscal_Responsibility_and_Budget_Management_Act,_2003#cite_note-14)with any assumptions, if applicable. This statement was to further include an assessment of sustainability with regards torevenue deficitand the use of capital receipts of the Government (including market borrowings) for generating productive assets.
 
-2.  a document titledFiscal Policy Strategy Statement-- This was a tactical report enumerating strategies and policies for the upcoming[Financial Year](https://en.wikipedia.org/wiki/Financial_Year)including strategic fiscal priorities, taxation policies, key fiscal measures and an evaluation of how the proposed policies of the Central Government conform to the 'Fiscal Management Principles' of this act.
+2. a document titledFiscal Policy Strategy Statement-- This was a tactical report enumerating strategies and policies for the upcoming[Financial Year](https://en.wikipedia.org/wiki/Financial_Year)including strategic fiscal priorities, taxation policies, key fiscal measures and an evaluation of how the proposed policies of the Central Government conform to the 'Fiscal Management Principles' of this act.
 
-3.  a document titledMacro-economic Framework Statement-- This report was to contain forecasts enumerating the growth prospects of the country. GDP growth, revenue balance, gross fiscal balance and external account balance of the balance of payments were some of the key indicators to be included in this report.
+3. a document titledMacro-economic Framework Statement-- This report was to contain forecasts enumerating the growth prospects of the country. GDP growth, revenue balance, gross fiscal balance and external account balance of the balance of payments were some of the key indicators to be included in this report.
 
 The Act further required the government to develop measures to promotefiscal transparency and reduce secrecyin the preparation of the Government financial documents including the Union Budget.
 
@@ -120,13 +121,13 @@ Economic Advisory Councilto the[Prime Minister](https://en.wikipedia.org/wiki/Pr
 
 Terms of reference as defined by the PMEAC are as follows:
 
-1.  Analyzing any issue, economic or otherwise, referred to it by the Prime Minister and advising him thereon;
+1. Analyzing any issue, economic or otherwise, referred to it by the Prime Minister and advising him thereon;
 
-2.  Addressing issues of macroeconomic importance and presenting views thereon to the Prime Minister. This could be either suo-moto or on a reference from the Prime Minister or anyone else:
+2. Addressing issues of macroeconomic importance and presenting views thereon to the Prime Minister. This could be either suo-moto or on a reference from the Prime Minister or anyone else:
 
-3.  Submitting periodic reports to the Prime Minister on macroeconomic developments and issues with implications for economic policy;
+3. Submitting periodic reports to the Prime Minister on macroeconomic developments and issues with implications for economic policy;
 
-4.  Attending to any other task as may be desired by the Prime Minister from time to time.
+4. Attending to any other task as may be desired by the Prime Minister from time to time.
 
 The primary role of the PMEAC is to give a neutral viewpoint on economic policy matters that are referred to it by the Prime Minister.Additionally it prepares a monthly report of economic developments that need to be highlighted to the PM. For this purpose it closely monitors national and international economic developments and trends and develops appropriate policy responses for the PM. It publishes reports on the annualEconomic OutlookandReview of the Economyof India.
 
@@ -147,9 +148,10 @@ relating to government revenue, especially taxes.
 In[economics](https://en.wikipedia.org/wiki/Economics)and[political science](https://en.wikipedia.org/wiki/Political_science),fiscal policyis the use of government [revenue](https://en.wikipedia.org/wiki/Government_revenue) collection (mainly[taxes](https://en.wikipedia.org/wiki/Tax)) and[expenditure](https://en.wikipedia.org/wiki/Government_spending)(spending) to influence the economy. Fiscal policy is often used to stabilize the economy over the course of the[business cycle](https://en.wikipedia.org/wiki/Business_cycle).
 
 Changes in the level and composition of taxation and government spending can affect the following[macroeconomic](https://en.wikipedia.org/wiki/Macroeconomic)variables, amongst others:
--   [Aggregate demand](https://en.wikipedia.org/wiki/Aggregate_demand)and the level of economic activity;
--   [Saving](https://en.wikipedia.org/wiki/Saving)and[investment](https://en.wikipedia.org/wiki/Investment_(macroeconomics));
--   [Income distribution](https://en.wikipedia.org/wiki/Income_distribution).
+
+- [Aggregate demand](https://en.wikipedia.org/wiki/Aggregate_demand)and the level of economic activity;
+- [Saving](https://en.wikipedia.org/wiki/Saving)and[investment](https://en.wikipedia.org/wiki/Investment_(macroeconomics));
+- [Income distribution](https://en.wikipedia.org/wiki/Income_distribution).
 
 Fiscal policy can be distinguished from[monetary policy](https://en.wikipedia.org/wiki/Monetary_policy), in that fiscal policy deals with taxation and government spending and is often administered by an executive under laws of a legislature, whereas monetary policy deals with the money supply and interest rates and is often administered by a[central bank](https://en.wikipedia.org/wiki/Central_bank).
 
@@ -167,17 +169,17 @@ Monetary policy is referred to as being either expansionary or contractionary. *
 
 The opposite of expansionary monetary policy is **contractionary monetary policy**, which maintains short-term interest rates higher than usual or which slows the rate of growth in the money supply or even shrinks it. This slows short-term economic growth and lessens[inflation](https://en.wikipedia.org/wiki/Inflation). Contractionary monetary policy can lead to increased unemployment and depressed borrowing and spending by consumers and businesses, which can eventually result in an economic recession if implemented too vigorously.
 
-## Repo Rate-- Whenever banks want to borrow money they can borrow from the RBI. The rate at which RBI lends money to other banks is called the repo rate. If the repo rate is high that means the cost of borrowing is high, leading to slow growth in the economy. Currently, the repo rate in India is 8%. Markets don't like the RBI increasing the repo rates.
+## Repo Rate-- Whenever banks want to borrow money they can borrow from the RBI. The rate at which RBI lends money to other banks is called the repo rate. If the repo rate is high that means the cost of borrowing is high, leading to slow growth in the economy. Currently, the repo rate in India is 8%. Markets don't like the RBI increasing the repo rates
 
-## Reverse repo rate-- Reverse Repo rate is the rate at which RBI borrows money from banks. When banks lend money to RBI they are certain that RBI will not default, and hence they are happier to lend their money to RBI as opposed to a corporate. However, when banks choose to lend money to the RBI instead of the corporate entity, the supply of money in the banking system reduces. An increase in reverse repo rate is not great for the economy as it tightens the supply of money. The reverse repo rate is currently at 7%.
+## Reverse repo rate-- Reverse Repo rate is the rate at which RBI borrows money from banks. When banks lend money to RBI they are certain that RBI will not default, and hence they are happier to lend their money to RBI as opposed to a corporate. However, when banks choose to lend money to the RBI instead of the corporate entity, the supply of money in the banking system reduces. An increase in reverse repo rate is not great for the economy as it tightens the supply of money. The reverse repo rate is currently at 7%
 
-## Cash reserve ratio (CRR) --Every bank is mandatorily required to maintain funds with RBI. The amount that they maintain is dependent on the CRR. If CRR increases then more money is removed from the system, which is again not good for the economy.
+## Cash reserve ratio (CRR) --Every bank is mandatorily required to maintain funds with RBI. The amount that they maintain is dependent on the CRR. If CRR increases then more money is removed from the system, which is again not good for the economy
 
 <https://en.wikipedia.org/wiki/Monetary_policy>
 
-<https://www.civilsdaily.com/national-income-accounting
+<https://www.civilsdaily.com/national-income-accounting>
 
-<https://byjus.com/free-ias-prep/non-tax-revenue
+<https://byjus.com/free-ias-prep/non-tax-revenue>
 
 [**https://www.clearias.com/balance-of-payments/**](https://www.clearias.com/balance-of-payments/)
 
@@ -225,4 +227,4 @@ A Non Banking Financial Company (NBFC) isa company registered under the Companie
 
 ## India's Socio-Economic Classification
 
-<https://trak.in/tags/business/2011/05/30/new-sec-socio-economic-classification
+<https://trak.in/tags/business/2011/05/30/new-sec-socio-economic-classification>

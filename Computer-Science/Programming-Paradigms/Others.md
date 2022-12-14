@@ -14,7 +14,8 @@ BDD is largely facilitated through the use of a simple[domain-specific language]
 <https://en.wikipedia.org/wiki/Behavior-driven_development>
 
 ## Frameworks**
--   Radish
+
+- Radish
 
 <http://radish-bdd.io>
 
@@ -22,10 +23,12 @@ BDD is largely facilitated through the use of a simple[domain-specific language]
 
 The[REPL](https://clojure.org/guides/repl/introduction)puts developers in charge of development. Instead of "compile time", "test time", and "production time", you have dynamic, interactive environments to use as you please. You can move seamlessly back and forth between exploration, development, testing, and release, gaining instant feedback at every step and maintaining rich context and history as you go.
 Some of the implications of this are obvious, while others are less so. This talk will move quickly from the basics of REPL development into more interesting territory, including:
--   the importance of small steps
--   using[Clojure spec](https://clojure.org/guides/spec)to explore a domain
--   turning REPL work into example tests
--   on-the-fly data visualization
--   exploring Java libraries
--   saving your work
+
+- the importance of small steps
+- using[Clojure spec](https://clojure.org/guides/spec)to explore a domain
+- turning REPL work into example tests
+- on-the-fly data visualization
+- exploring Java libraries
+- saving your work
+
 ## Model Driven Development (MDD)

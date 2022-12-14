@@ -7,7 +7,8 @@ Modified: 2020-02-11 18:57:52 +0500
 ---
 
 ## Defining Variables
--   **variables.tf**
+
+- **variables.tf**
 
 ## Assigning Variables
 
@@ -19,7 +20,8 @@ You can set variables directly on the command-line with the-varflag. Any command
 
 $ terraform apply
 -var 'region=us-east-2'
-# ...
+
+#
 
 Once again, setting variables this way will not save them, and they'll have to be input repeatedly as commands are executed.
 
@@ -60,9 +62,11 @@ If no value is assigned to a variable via any of these methods and the variable 
 Lists are defined either explicitly or implicitly
 
 # implicitly by using brackets [...]
+
 variable "cidrs" { default = [] }
 
 # explicitly
+
 variable "cidrs" { type = list }
 
 You can specify lists in aterraform.tfvarsfile:
@@ -101,7 +105,8 @@ Although it is not used in this example, themaptype expression can also use a st
 We set defaults above, but maps can also be set using the-varand-var-filevalues. For example:
 
 $ terraform apply -var 'amis={ us-east-1 = "foo", us-west-2 = "bar" }'
-# ...
+
+#
 
 *Note: Even if every key will be assigned as input, the variable must be established as a map by setting its default to{}.*
 

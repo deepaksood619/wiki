@@ -61,8 +61,9 @@ A deque (double-ended queue) is represented internally as a doubly linked list. 
 | s.difference_update(t)            | O(len(t))                                                                     |                                               |                                               |
 | Symmetric Difference s^t         | O(len(s))                                                                     | O(len(s) * len(t))                            |                                               |
 | s.symmetric_difference_update(t)  | O(len(t))                                                                     | O(len(t) * len(s))                            |                                               |
--   As seen in the[source code](http://svn.python.org/projects/python/trunk/Objects/setobject.c)the complexities for set difference s-t or s.difference(t) (set_difference()) and in-place set difference s.difference_update(t) (set_difference_update_internal()) are different! The first one is O(len(s)) (for every element in s add it to the new set, if not in t). The second one is O(len(t)) (for every element in t remove it from s). So care must be taken as to which is preferred, depending on which one is the longest set and whether a new set is needed.
--   To perform set operations like s-t, both s and t need to be sets. However you can do the method equivalents even if t is any iterable, for example s.difference(l), where l is a list.
+
+- As seen in the[source code](http://svn.python.org/projects/python/trunk/Objects/setobject.c)the complexities for set difference s-t or s.difference(t) (set_difference()) and in-place set difference s.difference_update(t) (set_difference_update_internal()) are different! The first one is O(len(s)) (for every element in s add it to the new set, if not in t). The second one is O(len(t)) (for every element in t remove it from s). So care must be taken as to which is preferred, depending on which one is the longest set and whether a new set is needed.
+- To perform set operations like s-t, both s and t need to be sets. However you can do the method equivalents even if t is any iterable, for example s.difference(l), where l is a list.
 
 ## dict
 

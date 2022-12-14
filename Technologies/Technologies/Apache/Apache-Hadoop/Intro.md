@@ -9,19 +9,21 @@ Modified: 2021-06-06 16:48:16 +0500
 Apache Hadoop is a processing framework that exclusively provides batch processing. Hadoop was the first big data framework to gain significant traction in the open-source community. Based on several papers and presentations by Google about how they were dealing with tremendous amounts of data at the time, Hadoop reimplemented the algorithms and component stack to make large scale batch processing more accessible.
 
 Modern versions of Hadoop are composed of several components or layers, that work together to process batch data:
--   HDFS: HDFS is the distributed filesystem layer that coordinates storage and replication across the cluster nodes. HDFS ensures that data remains available in spite of inevitable host failures. It is used as the source of data, to store intermediate processing results, and to persist the final calculated results.
--   YARN: YARN, which stands for Yet Another Resource Negotiator, is the cluster coordinating component of the Hadoop stack. It is responsible for coordinating and managing the underlying resources and scheduling jobs to be run. YARN makes it possible to run much more diverse workloads on a Hadoop cluster than was possible in earlier iterations by acting as an interface to the cluster resources.
--   MapReduce: MapReduce is Hadoop's native batch processing engine.
+
+- HDFS: HDFS is the distributed filesystem layer that coordinates storage and replication across the cluster nodes. HDFS ensures that data remains available in spite of inevitable host failures. It is used as the source of data, to store intermediate processing results, and to persist the final calculated results.
+- YARN: YARN, which stands for Yet Another Resource Negotiator, is the cluster coordinating component of the Hadoop stack. It is responsible for coordinating and managing the underlying resources and scheduling jobs to be run. YARN makes it possible to run much more diverse workloads on a Hadoop cluster than was possible in earlier iterations by acting as an interface to the cluster resources.
+- MapReduce: MapReduce is Hadoop's native batch processing engine.
 
 ## Batch Processing Model
 
 The processing functionality of Hadoop comes from the MapReduce engine. MapReduce's processing technique follows the map, shuffle, reduce algorithm using key-value pairs. The basic procedure involves:
--   Reading the dataset from the HDFS filesystem
--   Dividing the dataset into chunks and distributed among the available nodes
--   Applying the computation on each node to the subset of data (the intermediate results are written back to HDFS)
--   Redistributing the intermediate results to group by key
--   "Reducing" the value of each key by summarizing and combining the results calculated by the individual nodes
--   Write the calculated final results back to HDFS
+
+- Reading the dataset from the HDFS filesystem
+- Dividing the dataset into chunks and distributed among the available nodes
+- Applying the computation on each node to the subset of data (the intermediate results are written back to HDFS)
+- Redistributing the intermediate results to group by key
+- "Reducing" the value of each key by summarizing and combining the results calculated by the individual nodes
+- Write the calculated final results back to HDFS
 
 ## Advantages and Limitations
 

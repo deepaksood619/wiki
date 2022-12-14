@@ -9,15 +9,19 @@ Modified: 2018-11-20 15:19:13 +0500
 ## Reference Architecure
 
 ![image](media/Industrial-IoT-(IIoT)-image1.png)
+
 ## Sensors
--   Pressure
--   Temperature
--   Moisure
--   Air flow
--   Acceleration
--   Position/Velocity
--   Proximity
+
+- Pressure
+- Temperature
+- Moisure
+- Air flow
+- Acceleration
+- Position/Velocity
+- Proximity
+
 ## Actuators
+
 ## Control Systems
 
 Industrial Control Systems (ICSs) are used to monitor and control the processes and interactions between sensors and actuators.

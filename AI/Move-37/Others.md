@@ -22,11 +22,11 @@ A Bayesian model is a statistical model where you use probability to represent a
 
 ## AlphaGO
 
-1.  Policy Network
+1. Policy Network
 
-2.  Value Network
+2. Value Network
 
-3.  Tree Search
+3. Tree Search
 
 Q-Learning: an algorithm which produces a Q-table that an agent uses to find the best action to take given a state.
 

@@ -26,23 +26,23 @@ print(f'{now=:Y-%m-%d}')
 
 ## String Constants
 
-1.  string.ascii_letters
+1. string.ascii_letters
 
-2.  string.ascii_lowercase
+2. string.ascii_lowercase
 
-3.  string.ascii_uppercase
+3. string.ascii_uppercase
 
-4.  string.digits
+4. string.digits
 
-5.  string.hexdigits
+5. string.hexdigits
 
-6.  string.octdigits
+6. string.octdigits
 
-7.  string.punctuation
+7. string.punctuation
 
-8.  string.printable
+8. string.printable
 
-9.  string.whitespace
+9. string.whitespace
 
 ## Built-in String Methods
 
@@ -282,7 +282,7 @@ HackerRank----------</p></td>
 </tbody>
 </table>
 
-1.  **String Formating**
+1. **String Formating**
 
 '{} {}'.format('one', 'two')
 
@@ -290,23 +290,21 @@ HackerRank----------</p></td>
 
 'Hello {}'.format('Deepak')
 
-<https://pyformat.info
+<https://pyformat.info>
 
-
--   Positional Formating (Positional Arguments)
+- Positional Formating (Positional Arguments)
 
 Also optional positional indexing (positional arguments) can be passed to strings' format
 
 '{1} {0}'.format('one', 'two')
 
-
--   Keyword Formating (Keyword Arguments)
+- Keyword Formating (Keyword Arguments)
 
 print("Sammy the {0} {1} a {pr}.".format("shark", "made", pr = "pull request"))
 
 here pr is a named keyword argument
 
-1.  Padding and aligning strings (default is left alignment)
+1. Padding and aligning strings (default is left alignment)
 
 Align Left - '{:>10}'.format('test')
 
@@ -328,19 +326,19 @@ test
 
 zip
 
-2.  Truncating long strings
+2. Truncating long strings
 
 '{:.5}'.format('xylophone')
 
 xylop
 
-3.  Combining truncating and padding
+3. Combining truncating and padding
 
 '{:10.5}'.format('xylophone')
 
 xylop
 
-4.  Numbers
+4. Numbers
 
 '{:d}'.format(42)
 
@@ -350,7 +348,7 @@ xylop
 
 3.141593
 
-5.  Padding numbers
+5. Padding numbers
 
 '{:4d}'.format(42)
 
@@ -368,7 +366,7 @@ For integer values providing a precision doesn't make much sense and is actually
 
 0042
 
-6.  Signed numbers
+6. Signed numbers
 
 '{:+d}'.format(42)
 
@@ -390,9 +388,9 @@ Use a space character to indicate that negative numbers should be prefixed with 
 
 '{:=+5d}'.format(23)
 
-+ 23
+- 23
 
-7.  Named placeholders
+7. Named placeholders
 
 data = {'first': 'Hodor', 'last': 'Hodor!'}
 
@@ -404,7 +402,7 @@ Hodor Hodor!
 
 Hodor Hodor!
 
-8.  Getitem & getattr
+8. Getitem & getattr
 
 person = {'first': 'Jean-Luc', 'last': 'Picard'}
 
@@ -418,7 +416,7 @@ data = [4, 8, 15, 16, 23, 42]
 
 23 42
 
-9.  Datetime
+9. Datetime
 
 ## from datetime import datetime
 
@@ -453,6 +451,7 @@ Gib = 2.72
 datetime
 
 ## from datetime import datetime
+
 dt = datetime(2001, 2, 3, 4, 5)
 
 '{:{dfmt} {tfmt}}'.format(dt, dfmt='%Y-%m-**%d**', tfmt='%H:%M')
@@ -481,7 +480,7 @@ print('{0:b}'.format(5)) #binary
 
 print('{0:x}'.format(15)) #hexadecimal
 
-2.  Passing parameters
+2. Passing parameters
 
 ## A = deepak
 
@@ -489,7 +488,7 @@ print('{0:x}'.format(15)) #hexadecimal
 
 ## "Hello %s %s!" %(A, B) [Should be passed as tuple for more than one arguments)
 
-3.  Strings are immutable, but can be altered using following approaches
+3. Strings are immutable, but can be altered using following approaches
 
 a.  One solution is to convert the string to a list and then change the value.
 
@@ -506,13 +505,13 @@ b.  Another approach is to slice the string and join it back.
 >>> print string
 Abrackdabra
 
-4.  Regex for finding sub_string inside string with overlapping
+4. Regex for finding sub_string inside string with overlapping
 
 Matches = re.findall('(?='+sub_string+')', string)
 
 len(Matches)
 
-5.  TextWrap
+5. TextWrap
 
 [*textwrap.wrap()*](https://docs.python.org/2/library/textwrap.html#textwrap.wrap)
 
@@ -541,7 +540,7 @@ very
 long
 string.
 
-6.  dec=int(input("Enteradecimalnumber:"))
+6. dec=int(input("Enteradecimalnumber:"))
 
 ## print(bin(dec),"inbinary.")
 
@@ -549,7 +548,7 @@ string.
 
 ## print(hex(dec),"inhexadecimal."
 
-7.  Ascii to number and vice versa
+7. Ascii to number and vice versa
 
 >>> ord('a')
 97
@@ -558,9 +557,9 @@ string.
 >>> chr(ord('a') + 3)
 'd'
 
-8.  Formatting string
+8. Formatting string
 
-def __repr__(self):
+def **repr**(self):
 
 return f'Pizza({self.ingredients!r})'
 
@@ -568,9 +567,9 @@ return f'Pizza({self.ingredients!r})'
 
 Pizza(['cheese', 'tomatoes'])
 
-This is used to override __repr__ that prints the object instance when printed
+This is used to override **repr** that prints the object instance when printed
 
-9.  **String slicing**
+9. **String slicing**
 
 Python also allows a form of indexing syntax that extracts substrings from a string, known as string slicing. Ifsis a string, an expression of the forms[m:n]returns the portion ofsstarting with positionm, and up to but not including positionn
 
@@ -651,9 +650,11 @@ translate_table = {ord(char): u'' **for** char **in** non_url_safe}
 non_url_safe_regex = re.compile(
 r'[{}]'.format(''.join(re.escape(x) **for** x **in** non_url_safe)))
 
-## def _slugify2(self, text):
+## def _slugify2(self, text)
+
 text = text.translate(self.translate_table)
 text = u'_'.join(text.split())
+
 ## return text
 
 <https://www.peterbe.com/plog/fastest-python-function-to-slugify-a-string>
@@ -668,6 +669,6 @@ Python string formatters
 
 <https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3>
 
-<https://pyformat.info
+<https://pyformat.info>
 
-<https://realpython.com/python-encodings-guide
+<https://realpython.com/python-encodings-guide>

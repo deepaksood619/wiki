@@ -8,11 +8,10 @@ Modified: 2020-09-26 15:24:39 +0500
 
 'resetdb', 'render', 'variables', 'delete_user', 'connections', 'create_user', 'rotate_fernet_key', 'pause', 'sync_perm', 'task_failed_deps', 'version', 'trigger_dag', '**initdb**', 'test', 'unpause', 'list_dag_runs', 'dag_state', 'run', 'list_tasks', 'backfill', 'list_dags', 'kerberos', 'worker', 'webserver', 'flower', 'scheduler', 'task_state', 'pool', 'serve_logs', 'clear', 'list_users', 'next_execution', 'upgradedb', 'delete_dag'
 
-
--   **airflow initdb**
--   **airflow flower**
--   **airflow webserver**
--   **airflow scheduler**
+- **airflow initdb**
+- **airflow flower**
+- **airflow webserver**
+- **airflow scheduler**
 
 ## Configurations
 

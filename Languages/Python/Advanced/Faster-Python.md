@@ -6,11 +6,11 @@ Modified: 2022-02-01 14:55:17 +0500
 
 ---
 
-1.  Line Profiling
+1. Line Profiling
 
-2.  Numpy Vectorization
+2. Numpy Vectorization
 
-3.  Specilized data structures
+3. Specilized data structures
 
     a.  scipy.spatial
 
@@ -36,33 +36,34 @@ f.  scipy.sparse.csgraph
 
 for graph-like problems (e.g. finding shortest paths)
 
-4.  CPython
+4. CPython
 
-5.  Numba
+5. Numba
 
 <https://www.youtube.com/watch?v=x58W9A2lnQc>
 
-6.  Dask
-    -   Parallel Computation
-    -   Task Graph
+6. Dask
+    - Parallel Computation
+    - Task Graph
 
 <https://www.kdnuggets.com/2020/04/dask-big-data.html>
 
-7.  <https://rapids.ai <https://github.com/rapidsai>
+7. <https://rapids.ai> <https://github.com/rapidsai>
 
 ## Optimizing Python Memory Objects
 
-<https://habr.com/en/post/458518
+<https://habr.com/en/post/458518>
 
 <https://towardsdatascience.com/memory-management-in-python-6bea0c8aecc9>
 
 ## Performant Python (reducing memory usage)
--   Tuples save a bit of memory when replacing lists
--   **Tuples save lots of memory when replacing dictionaries**
--   Generators save memory only for large tuples, but are faster to iterate
--   **Slotted classes save a lot of memory**
--   Namedtuples are better than classes but worse than slotted classes
--   Map and filter are sometimes faster than comprehensions
+
+- Tuples save a bit of memory when replacing lists
+- **Tuples save lots of memory when replacing dictionaries**
+- Generators save memory only for large tuples, but are faster to iterate
+- **Slotted classes save a lot of memory**
+- Namedtuples are better than classes but worse than slotted classes
+- Map and filter are sometimes faster than comprehensions
 
 <https://strangemachines.io/articles/performant-python>
 

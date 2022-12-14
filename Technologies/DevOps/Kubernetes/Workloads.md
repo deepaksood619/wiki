@@ -6,7 +6,7 @@ Modified: 2019-03-18 23:09:41 +0500
 
 ---
 
-1.  Pods
+1. Pods
 
     a.  Pod Overview
 
@@ -20,7 +20,7 @@ Modified: 2019-03-18 23:09:41 +0500
 
     f.  Disruptions
 
-2.  Controllers
+2. Controllers
 
     a.  ReplicaSet
 

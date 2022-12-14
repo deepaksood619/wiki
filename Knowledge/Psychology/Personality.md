@@ -20,7 +20,7 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
 ## Big 5 Theories of Personality
 
-1.  **Extraversion**
+1. **Extraversion**
 
     a.  Talkative
 
@@ -34,7 +34,7 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
     f.  Outgoing
 
-2.  **Openness**
+2. **Openness**
 
     a.  Innovative
 
@@ -48,7 +48,7 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
     f.  Intellectual
 
-3.  **Agreeableness**
+3. **Agreeableness**
 
     a.  Kind
 
@@ -62,7 +62,7 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
     f.  Mild
 
-4.  **Conscientiousness**
+4. **Conscientiousness**
 
     a.  Organized
 
@@ -76,7 +76,7 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
     f.  Systematic
 
-5.  **Neuroticism**
+5. **Neuroticism**
 
     a.  Tense
 
@@ -92,39 +92,39 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
 ## 12 Positive Personality Traits Of Effective People
 
-1.  Capable
+1. Capable
 
 There's no exception to this trait. I've never met an effective, happy, or successful person who wasn't capable. They take their life and work seriously. They do things with a purpose. And most importantly, they know what they are talking about.
 
-2.  Curious
+2. Curious
 
 Effective people avoid assumptions. Effective people ask a lot of questions. That's how you avoid assumptions.
 
-3.  Assertive
+3. Assertive
 
 People think you have to be nice. That's wrong. It's good to be **polite**, but you don't have to go out of your way to be nice all the time. Effective people think about themselves. But they don't sacrifice others. That's what assertiveness is about.
 
-4.  Forgiving
+4. Forgiving
 
 Holding grudges is the least effective thing you can do. So many people have destroyed relationships and group dynamics because of grudges. "How could that person do this to me!" Well, maybe that other person doesn't even know why! People do stupid things. Move on.
 
-5.  Independent
+5. Independent
 
 Effective people are not easily influenced by others. Theylistento others. But they are independent thinkers. They are not easily swayed by outside events.
 
-6.  Respectful
+6. Respectful
 
 You know how insecure people make subtle digs at you or other people? "You look so tired. What's going on?" That's one of those dirty remarks that's meant to make you feel bad. There are a lot of people who want to put you down, which automatically makes them feel better than you. Respectful people never do that. You can also disagree with people and still be respectful. Basically, effective people are the opposite of internet trolls.
 
-7.  Truthful
+7. Truthful
 
 When you regularly tell lies (no matter how small they are), you will eventually get caught by your own web. Call me superstitious (or a little-stitious, as Michael Scott once said), but I think lies will eventually catch up with you. That's why it's better to tell the truth. It's not always pretty, but at least it's not a lie.
 
-8.  Precise
+8. Precise
 
 It's hard to explain things in a few words. It requires thought and effort to be precise. That's why you see a lot of people talk endlessly. They don't know what to say, so they use a shotgun approach. They spray words and hope a few will hit the mark. To be precise, you want to be like a marksman. Every sentence and action serves a purpose.
 
-9.  Fair
+9. Fair
 
 People who say that fairness is an impossible concept are usually not fair people. There are universal principles of fairness. In summary, be straight with people and don't play favors. Be consistent in the way you treat people. That's the fairest thing we can do. And yes, that seems impossible in practice because it goes against our nature sometimes. But effective people do a lot of things that go against nature. They do things that others don't do.
 
@@ -140,11 +140,11 @@ Knowing what you can andcan't, will make your life a lot easier. Too often,[we'r
 
 Give effective people a challenge, and they'll think about a solution. Give them a bleak outlook, and they'll find things to be grateful for. In contrast, being pessimistic is the easiest thing in the world. Everyone can complain and say "we can't do that." But it takes strength to say "let's figure out a way to make it happen."
 
-<https://dariusforoux.com/positive-personality-traits
+<https://dariusforoux.com/positive-personality-traits>
 
 ## The path between us
 
-1.  **Ones are always reaching for perfection**
+1. **Ones are always reaching for perfection**
 
 Have you ever been so preoccupied with what's going wrong that you've forgotten to enjoy all the things that are going well? If you tend to focus on your mistakes instead of celebrating your triumphs, then you're probably a One on the Enneagram.
 
@@ -162,7 +162,7 @@ If you're a One, try to accept that your partner might not have the same high st
 
 If you're in a relationship with a One, look for ways to show them that they're good enough. Remember that Ones are often exhausted from battling their critical inner voice, so try to be gentle with them. If they're always criticizing you, let them know that you're more likely to change your behavior with praise for the things you get right! Finally, remind your One to take vacations and time off once in a while.
 
-2.  **Twos need to be needed**
+2. **Twos need to be needed**
 
 We all know those kind, generous people who live to help others. Whenever you're in a tight spot, you can count on this person to drop his plans and come to your rescue. But what happens when helping others becomes a compulsive need? If this sounds familiar, then you're probably dealing with our next personality type.
 
@@ -178,7 +178,7 @@ If you're a Two, you'll often end up giving so much to others that you don't hav
 
 If you're in a relationship with a Two, reassure them that you love them for who they are, rather than what they do for you. Twos are often fearful in their relationships because their self-esteem is connected to how much they are needed. If it seems like someone no longer needs them, the Two will struggle to imagine what else they have to offer. With this in mind, let your Two know that you might not alwaysneedthem -- but that you trulywantthem in your life.
 
-3.  **Threes are goal-oriented and put less emphasis on emotions.**
+3. **Threes are goal-oriented and put less emphasis on emotions.**
 
 The life of our next personality type revolves around one thing: success. The Three wants to achieve everything she sets her sights on. And even more importantly, she wants you to see her winning.
 
@@ -196,7 +196,7 @@ As a Three, relishing success comes naturally to you. But don't equate it with y
 
 If you're in a relationship with a Three, don't be surprised if they struggle to understand your feelings. Instead of expecting them to read your emotions, be honest and upfront with them about how you feel. Bear in mind that the Three is inclined to focus on the future and what they're going to achieve in that future. So don't be surprised if they're uninterested in analyzing the past.
 
-4.  **Fours can't pretend to be something they're not.**
+4. **Fours can't pretend to be something they're not.**
 
 Our next number on the Enneagram is the Four. Out of every personality type, he's the most difficult to understand. Also known asRomantics, Fours have an irrepressible need to be uniquely and authentically themselves.
 
@@ -212,7 +212,7 @@ If you're a Four, you want the world to know the real you -- but you usually fee
 
 If you're in a relationship with a Four, don't be afraid to let them know how their moodiness affects you. That being said, reassure your partner that they're still loved and valued, even if not everyone "gets" them. Lastly, remember that it's natural for Fours to feel a constant sense of longing. You don't have to fix this restless need for them. Just know that this is how these romantic souls are wired.
 
-5.  **Fives want to be completely self-sufficient.**
+5. **Fives want to be completely self-sufficient.**
 
 If you found yourself in a personal crisis, what would be the first thing you'd do? If you're anything like most people, you'd probably pick up the phone and call someone you trust. But if you fit the profile of our next personality type, then the thought of asking for help just makes you feel a whole lot worse.
 
@@ -234,7 +234,7 @@ If you're in a relationship with a Five, remember that they won't naturally offe
 
 Finally, try to be understanding if they don't want to socialize as much as you do. You might be a social butterfly, but your Five probably has less energy than you and may find parties and hanging out exhausting.
 
-6.  **Sixes are always anticipating the worst-case scenario.**
+6. **Sixes are always anticipating the worst-case scenario.**
 
 You only have to pick up a newspaper to know that the world can be a scary place. But what happens when your whole worldview is dominated by the fear of what might be waiting for you around the corner? If this sense of dread feels familiar, then you're probably a Six.
 
@@ -254,7 +254,7 @@ If you're a Six, try to find the strength to forgive and forget. It may be diffi
 
 For those in a relationship with a Six, their constant worrying about the future can be exhausting. But it can seem patronizing and uncaring to simply repeat that everything will be OK. A better strategy is to take the time to listen to their worries and try your best to take them seriously. If your Six asks for your opinion, try to focus on what could go right in the future, rather than what could go awry.
 
-7.  **Sevens want to be free to enjoy themselves.**
+7. **Sevens want to be free to enjoy themselves.**
 
 We all know that life is finite and that we have a limited amount of time to enjoy all of the thrills and variety that the world has to offer. But that doesn't stop most of us from doing the same things, day in and day out. Many people find this familiarity comforting -- but there's one personality type who seeks out excitement.
 
@@ -274,7 +274,7 @@ If you're a Seven, you'll need to decide what your priorities are. Your natural 
 
 If you're in a relationship with a Seven, don't force them into the routines and predictability that others often find comforting. Sevens need a degree of spontaneity in their lives, so try to be flexible. Don't be offended if your Seven doesn't want to spend all of their time with you, either. Some personality types might seek a close bond with just one or two people, but the Seven needs to be out in the world, doing their thing.
 
-8.  **Eights want to call the shots, all the time.**
+8. **Eights want to call the shots, all the time.**
 
 Some people are natural-born leaders. They're confident, opinionated, and full of energy -- eager to make things happen! But this desire to take charge can slip into overbearing or intimidating behavior. If all of these characteristics sound like someone you know, then you're probably dealing with an Eight.
 
@@ -296,7 +296,7 @@ If you're an Eight, remember that dominance doesn't equate to great leadership -
 
 If you're in a relationship with an Eight, try not to take their anger too personally. They might seem like they're trying to intimidate you with their forthright opinions and confrontational manner, but that's just their communication style. Deep down, your Eight is as vulnerable as anyone else, and they need care and love from the people in their life. Having said that, don't be afraid to stand up for yourself --if you don't, you risk being trampled.
 
-9.  **Nines love to chill**
+9. **Nines love to chill**
 
 Life's a lot easier when people agree with each other. No yelling, no arguments -- just peace and calm. Our last personality type couldn't agree more. In fact, he's so committed to getting along with people that every decision he makes is geared toward keeping the peace.
 
@@ -316,26 +316,28 @@ If you're in a relationship with a Nine, remember that they need a peaceful envi
 
 ## How can you become a 10xer?
 
-## Here are the 4 things you can do to become a 10xer:
--   See opportunities where others only see threats.
--   Create a bias for action.
--   Be positive, not negative. ("Yes, and" beats "no, but").
--   Make your team better.
--   Do everything you say you are going to do.
--   Manage your boss and colleagues, don't make them spend time managing you.
--   Proactively help the organization.
+## Here are the 4 things you can do to become a 10xer
 
-## Here's how you can identify 10xers in your organization:
--   A 10xer can be any level of experience or in any profession.
--   A 10xer is in the top 10 percent of anyone you've ever worked with.
--   A 10xer works harder than their peers.
--   You want to work with them again and you'll fight to bring them into your next company.
--   A star employee will be a 10xer for the foreseeable future.
--   10xers are hard to hire because they have so many opportunities.
--   10xers weren't always star employees.
--   A star employee today is not necessarily a star employee tomorrow.
--   Conversely, an average employee today could be a 10xer tomorrow.
+- See opportunities where others only see threats.
+- Create a bias for action.
+- Be positive, not negative. ("Yes, and" beats "no, but").
+- Make your team better.
+- Do everything you say you are going to do.
+- Manage your boss and colleagues, don't make them spend time managing you.
+- Proactively help the organization.
 
-<https://summation.net/2020/05/14/how-can-you-become-a-10xer
+## Here's how you can identify 10xers in your organization
+
+- A 10xer can be any level of experience or in any profession.
+- A 10xer is in the top 10 percent of anyone you've ever worked with.
+- A 10xer works harder than their peers.
+- You want to work with them again and you'll fight to bring them into your next company.
+- A star employee will be a 10xer for the foreseeable future.
+- 10xers are hard to hire because they have so many opportunities.
+- 10xers weren't always star employees.
+- A star employee today is not necessarily a star employee tomorrow.
+- Conversely, an average employee today could be a 10xer tomorrow.
+
+<https://summation.net/2020/05/14/how-can-you-become-a-10xer>
 
 <https://blog.codegiant.io/how-to-become-a-10x-engineer-492fa3f57101>

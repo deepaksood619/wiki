@@ -218,6 +218,6 @@ Start Business Case - A Look Into the Automobile Industry
 
 <https://github.com/unit8co/darts>
 
-<https://unit8co.github.io/darts
+<https://unit8co.github.io/darts>
 
-## dartsis a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The models can all be used in the same way, usingfit()andpredict()functions, similar to scikit-learn. The library also makes it easy to backtest models, and combine the predictions of several models and external regressors. Darts supports both univariate and multivariate time series and models. The ML-based models can be trained on multiple time series, and some of the models offer probabilistic forecasts.
+## dartsis a Python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to deep neural networks. The models can all be used in the same way, usingfit()andpredict()functions, similar to scikit-learn. The library also makes it easy to backtest models, and combine the predictions of several models and external regressors. Darts supports both univariate and multivariate time series and models. The ML-based models can be trained on multiple time series, and some of the models offer probabilistic forecasts

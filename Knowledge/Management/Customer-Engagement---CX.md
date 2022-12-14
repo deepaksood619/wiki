@@ -25,14 +25,15 @@ Often used interchangeably, customer engagement or visitor/user engagement invol
 With more and more businesses adopting the customer-centric approach while developing their marketing strategies, customer engagement inevitably holds center stage in order for them to build top-of-mind awareness and achieve the intended inbound growth.
 
 ## Benefits Of Customer Engagement
--   Stronger And Healthier Customer Relationships With Improved Loyalty
--   Improved Customer Retention And Reduced Churn
--   Better Opportunities For Cross-Sell & Up-Sell
--   Increase In Subscribers
--   Shorter Purchase Cycles
--   More Brand Evangelists
--   Distinguishable Brand Identity
--   Enhanced Customer Service
+
+- Stronger And Healthier Customer Relationships With Improved Loyalty
+- Improved Customer Retention And Reduced Churn
+- Better Opportunities For Cross-Sell & Up-Sell
+- Increase In Subscribers
+- Shorter Purchase Cycles
+- More Brand Evangelists
+- Distinguishable Brand Identity
+- Enhanced Customer Service
 
 ## How To Measure Customer Engagement
 
@@ -50,17 +51,18 @@ For communication channels such as emails, push notifications, Facebook Messenge
 
 CTR, is a**digital marketingmetric** that measures the ratio of total impressions to clicks in search and display advertising, emailmarketing, and other online mediums.CTRcan indicate the effectiveness of ad copy, meta data (titles & descriptions), and email subject lines.
 
-## Law of Shitty Clickthroughs:
+## Law of Shitty Clickthroughs
 
 Over time, all marketing strategies result in shitty clickthrough rates.
 
 There are a few drivers for the Law of Shitty Clickthroughs, and here's a summary of the top ones:
--   Customers respond to novelty, which inevitably fades
-    -   Banner Blindness
--   First-to-market never lasts
--   More scale means less qualified customers
 
-<https://andrewchen.com/the-law-of-shitty-clickthroughs
+- Customers respond to novelty, which inevitably fades
+  - Banner Blindness
+- First-to-market never lasts
+- More scale means less qualified customers
+
+<https://andrewchen.com/the-law-of-shitty-clickthroughs>
 
 ## Social Media Interaction
 
@@ -104,7 +106,7 @@ CSAT measures customer satisfaction with regards to a product or service, wherea
 
 So, whereas CSAT usually describes how your customer feels about a recent purchase, NPS can track their feelings about you as a brand, over a longer term.
 
-<https://www.qualtrics.com/au/experience-management/customer/csat-vs-nps
+<https://www.qualtrics.com/au/experience-management/customer/csat-vs-nps>
 
 ## CES - Customer Effort Score
 
@@ -116,9 +118,8 @@ So, whereas CSAT usually describes how your customer feels about a recent purcha
 
 Daily, Weekly, and Monthly Active Users, that is the unique amount of users who are "active" within a given amount of time.
 
-
--   How you define Active User
--   By ignoring the absolute numbers and looking at the ratio (stickiness" which is a measure of how much users are engaging with the product.)
+- How you define Active User
+- By ignoring the absolute numbers and looking at the ratio (stickiness" which is a measure of how much users are engaging with the product.)
 
 ## Day 1, Day 7, & Day 30 User Retention
 
@@ -127,8 +128,9 @@ D1, D7 and D30 retentions are calculated as the percentage of users who are acti
 ## Retention curves
 
 The retention curve has two key features:
--   it tends to drop off really fast at the start (more later on this)
--   the curve then (hopefully) tends to flatten out over time. If instead of flattening it hits hit zero, its a strong signal you urgently need to improve user engagement.
+
+- it tends to drop off really fast at the start (more later on this)
+- the curve then (hopefully) tends to flatten out over time. If instead of flattening it hits hit zero, its a strong signal you urgently need to improve user engagement.
 
 ## W1 (Week 1) User Retention
 
@@ -139,54 +141,56 @@ Week 1 Retention (W1)""has one of the biggest impacts on your retention over tim
 Typically users don't ask for help, and tend to drift away if they don't get value quickly. If you can spot those users and reach out, you may be able to engage them. To help spot users who aren't engaged, you can use Tripwire Metrics to identify users who aren't engaging well and use that data to quickly act to engage them during those vital first 7 days.
 
 ## How To Draft A Winning Customer Engagement Strategy
--   Define An Ideal Customer Journey On Your Website And App
+
+- Define An Ideal Customer Journey On Your Website And App
 
 This would be the primary step that would form the foundation of your customer engagement strategy, without which you'd be compromising on its robustness and efficacy. To be able to successfully drive and encourage engagement on your digital properties, you first need to define how a typical customer or prospect interacts with your business, and what their journey looks like.
 
 This will include defining all **customer touchpoints** right from when someone comes in contact with your business till after they have become a customer, understanding how they navigate on your website or app and through the **conversion funnel** so you can identify the exact opportunities for optimization to drive more engagement.
 
-
--   Track And Analyze Customer Behavior On Your Digital Properties And Across Channels
--   Clearly Define Goals And The Corresponding KPIs
--   Segment Your Customer Base To Target All Communication
+- Track And Analyze Customer Behavior On Your Digital Properties And Across Channels
+- Clearly Define Goals And The Corresponding KPIs
+- Segment Your Customer Base To Target All Communication
 
 While a universal approach to engage all customers might work in some scenarios, in most cases, you'll need to segment your customer base so you can deliver more relevant experiences. Therefore, before you begin working on a strategy, it's essential to clearly define your customer segments so you can align all your campaigns and communication as per customers' needs, behavior, and purchase/search history and grab their attention from the get-go.
 
 Purchase behavior (new vs. returning vs. loyalist), geo-location, device type, time of maximum interaction, etc. are just some of the many factors you can use to slice and dice your lists and divide them into suitable buckets for relevant targeting.
 
-
--   Create An Omnichannel, Definitive Roadmap To Improve Customer Engagement
-    -   Your primary, secondary (and so on) buyer personas and their behavioral attributes and interests
-    -   How you will engage these at various touchpoints throughout their purchase journey and beyond
-    -   How you will tie together interaction across multiple channels to deliver a flawless, delightful experience
-    -   The various opportunities you will be leveraging (such as product launches, topical events, retargeting, etc.) to encourage engagement
-    -   An actionable plan you can immediately set in motion
+- Create An Omnichannel, Definitive Roadmap To Improve Customer Engagement
+  - Your primary, secondary (and so on) buyer personas and their behavioral attributes and interests
+  - How you will engage these at various touchpoints throughout their purchase journey and beyond
+  - How you will tie together interaction across multiple channels to deliver a flawless, delightful experience
+  - The various opportunities you will be leveraging (such as product launches, topical events, retargeting, etc.) to encourage engagement
+  - An actionable plan you can immediately set in motion
 
 ## How To Drive Customer Engagement? A Guide On Various Channels
 
 ## Owned Digital Properties (Website/ Mobile App)
 
 To deliver delightful experiences and engage better, you could start by targeting some low-hanging fruits such as the following:
--   Offer relevant, distinctive, and valuable content across your blog and other resources so your customers willingly spend time reading it and benefit from it
--   Make sure your customer touchpoints are personalized as per customers' needs, device, location, and industry to ensure all your communication is contextual
--   Incentivize customers across all touchpoints (offer relevant freebies, exclusive coupon codes, complimentary expert consultation, referral bonus, etc.) to lure them into sticking around on your digital properties
+
+- Offer relevant, distinctive, and valuable content across your blog and other resources so your customers willingly spend time reading it and benefit from it
+- Make sure your customer touchpoints are personalized as per customers' needs, device, location, and industry to ensure all your communication is contextual
+- Incentivize customers across all touchpoints (offer relevant freebies, exclusive coupon codes, complimentary expert consultation, referral bonus, etc.) to lure them into sticking around on your digital properties
 
 ## Emails
--   Newsletters
--   Welcome/Signup Emails
--   Thank You Emails
--   Abandonment/Recovery Emails
--   New Product/Service Launch Emails
--   Feedback/Survey Emails
--   Transactional Emails
--   Year-in-review Emails
+
+- Newsletters
+- Welcome/Signup Emails
+- Thank You Emails
+- Abandonment/Recovery Emails
+- New Product/Service Launch Emails
+- Feedback/Survey Emails
+- Transactional Emails
+- Year-in-review Emails
 
 So, how do you make the most of this channel so as to guarantee maximum engagement? The important thing to note here is irrespective of the nature of email, there are a few best practices you can follow to ensure your efforts are in the right direction and your email engagement rates are always on the rise:
--   Use powerful and persuasive subject lines to optimize for high open rates
--   Ensure your emails are mobile-friendly as more than 50% of your emails are opened on mobile
--   To make your email stand out in a congested inbox, offer value and utility -- keep the copy informative and interesting, share useful resources, make emails interactive, and avoid being too promotional
--   Share customer success stories and social proof to build trust in your products/services and motivate customers
--   Send out targeted emails basis interests and behavior to enhance its relevance and engage better
+
+- Use powerful and persuasive subject lines to optimize for high open rates
+- Ensure your emails are mobile-friendly as more than 50% of your emails are opened on mobile
+- To make your email stand out in a congested inbox, offer value and utility -- keep the copy informative and interesting, share useful resources, make emails interactive, and avoid being too promotional
+- Share customer success stories and social proof to build trust in your products/services and motivate customers
+- Send out targeted emails basis interests and behavior to enhance its relevance and engage better
 
 ## Web Push Notifications
 
@@ -201,21 +205,23 @@ Also, segment your lists to send out targeted notifications to your customers so
 Most importantly, avoid spamming your customers or sending redundant messages if you are using more than one channel for the same campaign. It will only annoy customers, harm your engagement metrics, and might even increase your unsubscription rate.
 
 ## Social Media
--   Respond to mentions so you are always up to date with what your audience is talking about you and don't miss out any opportunity for interaction
--   Capitalize topical content to stay ahead of all industry trends and events relevant to your audience and category
--   Be consistent with your posts to stay on top of your audiences' minds
--   Offer satisfactory responses to customer complaints in comments to assure your audience you are listening
--   Post customer and employee stories to humanize your brand and connect better with your audience
--   Make your posts interactive; roll out polls, quizzes, contests frequently to convey to your audience that their inputs matter
+
+- Respond to mentions so you are always up to date with what your audience is talking about you and don't miss out any opportunity for interaction
+- Capitalize topical content to stay ahead of all industry trends and events relevant to your audience and category
+- Be consistent with your posts to stay on top of your audiences' minds
+- Offer satisfactory responses to customer complaints in comments to assure your audience you are listening
+- Post customer and employee stories to humanize your brand and connect better with your audience
+- Make your posts interactive; roll out polls, quizzes, contests frequently to convey to your audience that their inputs matter
 
 ## Video
 
 ## SMS/Text Messaging
--   Use historical data to make your SMSs more contextual and personal to ensure a high click-through / response rate
--   Since visual elements tend to stand out and captivate better, make your SMSs visual by adding relevant emojis and images
--   Use SMS to send helpful and timely reminders about events, abandoned purchases, etc.
--   Keep your customers updated with information on their reward points and loyalty benefits so they don't lose out
--   Instead of sharing links in your SMSs, give an option to respond to the message to perform certain quick actions such as confirming an order, canceling a subscription, etc.
+
+- Use historical data to make your SMSs more contextual and personal to ensure a high click-through / response rate
+- Since visual elements tend to stand out and captivate better, make your SMSs visual by adding relevant emojis and images
+- Use SMS to send helpful and timely reminders about events, abandoned purchases, etc.
+- Keep your customers updated with information on their reward points and loyalty benefits so they don't lose out
+- Instead of sharing links in your SMSs, give an option to respond to the message to perform certain quick actions such as confirming an order, canceling a subscription, etc.
 
 ## Mobile App Push Alerts
 
@@ -244,61 +250,68 @@ A customer engagement platform is simply an automation tool that helps online bu
 A customer engagement platform helps you closely monitor your customer journeys and figure out relevant opportunities for engagement. Since it comes equipped with analytics and best practices, you can rely on customer engagement platforms for insights on customer behavior to deduce patterns and accordingly deliver targeted, most relevant communication.
 
 A customer engagement platform can help you automate the following:
--   Building an efficient engagement workflow that allows collaboration and information sharing and helps fastrack business processes
--   Facilitating omnichannel customer communication (across email, social media, live chat, etc.)
--   Forming customer segments and delivering personalized experiences
--   Maintaining consistency and quality across all customer communication
--   Drilling down granular insights for various customer relationship to better shape customer-facing teams' communication
--   Defining key metrics and measure the outcomes of your customer engagement campaigns
 
-<https://vwo.com/customer-engagement
+- Building an efficient engagement workflow that allows collaboration and information sharing and helps fastrack business processes
+- Facilitating omnichannel customer communication (across email, social media, live chat, etc.)
+- Forming customer segments and delivering personalized experiences
+- Maintaining consistency and quality across all customer communication
+- Drilling down granular insights for various customer relationship to better shape customer-facing teams' communication
+- Defining key metrics and measure the outcomes of your customer engagement campaigns
 
-<https://acquire.io/blog/customer-engagement-strategies
+<https://vwo.com/customer-engagement>
 
-<https://www.searchenginejournal.com/content-marketing-kpis/user-engagement-metrics
+<https://acquire.io/blog/customer-engagement-strategies>
+
+<https://www.searchenginejournal.com/content-marketing-kpis/user-engagement-metrics>
 
 ## User Engagement
 
 Be right about the **conversation** you have, the **audience** you target, the **place** and **time** you choose to interact
--   Learn audience
--   Identify segments
--   Engage at right place & time
--   Personalize
--   Measure impact
+
+- Learn audience
+- Identify segments
+- Engage at right place & time
+- Personalize
+- Measure impact
 
 ## Analytics / Site Facing Analytics
 
 Click Tracking
--   Click tracking & HTML best practices
--   Setting up SSL for click tracking
+
+- Click tracking & HTML best practices
+- Setting up SSL for click tracking
 
 Email Activity Feed
--   Email activity feed
--   Legacy email activity
+
+- Email activity feed
+- Legacy email activity
 
 Expert Insights
--   Interpreting Expert Insights
--   Subscribing to Expert Insights
+
+- Interpreting Expert Insights
+- Subscribing to Expert Insights
 
 Statistics
--   Browser comparision statistics
--   Browser stastistics
--   Category comparision statistics
--   Category statistics
--   Device statistics
--   Geographic statistics
--   Global statistics
--   Google analytics and sendgrid statistics
--   Mailbox provider comparision
--   Marketing campaigns statistics
--   Statistics overview
--   Subuser statistics
--   Subuser statistics comparision
+
+- Browser comparision statistics
+- Browser stastistics
+- Category comparision statistics
+- Category statistics
+- Device statistics
+- Geographic statistics
+- Global statistics
+- Google analytics and sendgrid statistics
+- Mailbox provider comparision
+- Marketing campaigns statistics
+- Statistics overview
+- Subuser statistics
+- Subuser statistics comparision
 
 Tracking
--   Spam reports
 
-<https://clarity.microsoft.com
+- Spam reports
+
+<https://clarity.microsoft.com>
 
 Clarity is a free, easy-to-use tool that captures how real people actually use your site. Setup is easy and you'll start getting data in minutes.
 
@@ -312,62 +325,64 @@ Power users drive some of the most successful companies --- people who love thei
 
 ![image](media/Customer-Engagement---CX-image3.png)
 
-<https://andrewchen.com/power-user-curve
+<https://andrewchen.com/power-user-curve>
 
-<https://www.quicksprout.com/user-retention
+<https://www.quicksprout.com/user-retention>
 
 <https://www.appcues.com/blog/user-engagement-tools>
 
-<https://blog.getsocial.im/user-acquisition-engagement-tools-for-your-mobile-app
+<https://blog.getsocial.im/user-acquisition-engagement-tools-for-your-mobile-app>
 
-<https://userpilot.com/blog/user-engagement-tools-and-software
+<https://userpilot.com/blog/user-engagement-tools-and-software>
 
 ## Tools
 
-<https://www.moengage.com
+<https://www.moengage.com>
 
-<https://www.kissmetrics.io
+<https://www.kissmetrics.io>
 
 ## Freshworks / Zoho
 
 Omnichannel customer support Helpdesk, ITSM solution, Chat solutions, Bot functionalities, Sales CRM, Marketing automation
 
 ## Products
--   Chat messaging software
--   Customer support helpdesk
--   ITSM solution
--   Sales CRM
--   Freddy Bots
+
+- Chat messaging software
+- Customer support helpdesk
+- ITSM solution
+- Sales CRM
+- Freddy Bots
 
 ## Tools for Customer Success (CSM - Customer Success Manager)
--   Adoption Management
-    -   Pendo
-    -   Gainsight
-    -   Tango
--   Co-Browsing
-    -   Upscope
-    -   Surfly
-    -   Acquire
--   Calendar
-    -   Calendly
-    -   <https://youcanbook.me
-    -   Acuity
-    -   Schedule One
--   Surveys
-    -   Typeform
-    -   AskNicely
-    -   Delighted
--   Metrics
-    -   ProfitWell
-    -   UserIQ
-    -   Customer Success Box
--   Screen Recording
-    -   Loom
-    -   CloudApp
-    -   Cantamsia
--   Status Page
-    -   Statuspage.io
-    -   Status.io
+
+- Adoption Management
+  - Pendo
+  - Gainsight
+  - Tango
+- Co-Browsing
+  - Upscope
+  - Surfly
+  - Acquire
+- Calendar
+  - Calendly
+  - <https://youcanbook.me>
+  - Acuity
+  - Schedule One
+- Surveys
+  - Typeform
+  - AskNicely
+  - Delighted
+- Metrics
+  - ProfitWell
+  - UserIQ
+  - Customer Success Box
+- Screen Recording
+  - Loom
+  - CloudApp
+  - Cantamsia
+- Status Page
+  - Statuspage.io
+  - Status.io
 
 ## Customer Relationship Management (CRM)
 
@@ -409,13 +424,13 @@ Example - Apache Unomi
 
 <https://en.wikipedia.org/wiki/Customer_data_platform>
 
-<https://www.rudderstack.com
+<https://www.rudderstack.com>
 
 ## CRM vs CDP
 
 The difference between a CRM and a CDP comes down to this: CRMs help manage customer relationships, while CDPs help manage customer data.
 
-<https://segment.com/blog/CRM-vs-CDP
+<https://segment.com/blog/CRM-vs-CDP>
 
 ## ERP
 

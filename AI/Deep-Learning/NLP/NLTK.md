@@ -11,13 +11,15 @@ NLTK -- the Natural Language Toolkit -- is a suite of open source Python modules
 NLTK supports classification, tokenization, stemming **(lemmatization better than stemming)**, tagging, parsing, and semantic reasoning functionalities.
 
 Library highlights
--   [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis): Word and text tokenizer
--   [n-gram](https://en.wikipedia.org/wiki/N-gram)and collocations
--   [Part-of-speech tagger](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
--   Tree model and Text[chunker](https://en.wikipedia.org/wiki/Chunking_(computational_linguistics))for capturing
--   [Named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
+
+- [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis): Word and text tokenizer
+- [n-gram](https://en.wikipedia.org/wiki/N-gram)and collocations
+- [Part-of-speech tagger](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
+- Tree model and Text[chunker](https://en.wikipedia.org/wiki/Chunking_(computational_linguistics))for capturing
+- [Named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
 
 ## Commands
+
 ```
 import nltk
 nltk.download()
@@ -79,6 +81,7 @@ fdist1.most_common(50)
 | fdist1 < fdist2            | test if samples in fdist1 occur less frequently than in fdist2 |
 
 ### Corpus
+
 ```
 nltk.chat.chatbots()
 
@@ -164,6 +167,5 @@ first million-word electronic corpus of English
 | open(fileid)                | open a stream for reading the given corpus file                                                   |
 | root                        | if the path to the root of locally installed corpus                                               |
 | readme()                    | if the path to the root of locally installed corpus the contents of the README file of the corpus |
-
 
 <https://github.com/nltk/nltk>

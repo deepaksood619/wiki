@@ -34,23 +34,23 @@ three ways of targeting elements: by type: $("button"), by class: $(".btn"), and
 
 ## Dev Tips
 
-1.  Basic selectors
+1. Basic selectors
 
-2.  Basic animations
+2. Basic animations
 
-3.  Index filters
+3. Index filters
 
-4.  Relationship filters
+4. Relationship filters
 
-5.  Attribute filters
+5. Attribute filters
 
-6.  Attribute method
+6. Attribute method
 
-7.  Image swap
+7. Image swap
 
-8.  Class methods
+8. Class methods
 
-9.  Content methods
+9. Content methods
 
 10. Dom Traversals
 
@@ -330,11 +330,11 @@ $("#data").html("latitude: " + position.coords.latitude + "<br>longitude: " + po
 
 ## Random Quote Machine
 
-1.  **Precache random quotes**
+1. **Precache random quotes**
 
-2.  **Tweet and share to facebook**
+2. **Tweet and share to facebook**
 
-3.  **Particle effect**
+3. **Particle effect**
 
 ## Learned
 

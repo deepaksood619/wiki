@@ -9,14 +9,15 @@ Modified: 2022-04-05 13:16:33 +0500
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
 ## The key features are
--   Fast: Very high performance, on par withNodeJSandGo(thanks to Starlette and Pydantic).[One of the fastest Python frameworks available](https://fastapi.tiangolo.com/#performance).
--   Fast to code: Increase the speed to develop features by about 200% to 300%
--   Fewer bugs: Reduce about 40% of human (developer) induced errors
--   Intuitive: Great editor support.Completioneverywhere. Less time debugging.
--   Easy: Designed to be easy to use and learn. Less time reading docs.
--   Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
--   Robust: Get production-ready code. With automatic interactive documentation.
--   Standards-based: Based on (and fully compatible with) the open standards for APIs:[OpenAPI](https://github.com/OAI/OpenAPI-Specification)(previously known as Swagger) and[JSON Schema](https://json-schema.org/).
+
+- Fast: Very high performance, on par withNodeJSandGo(thanks to Starlette and Pydantic).[One of the fastest Python frameworks available](https://fastapi.tiangolo.com/#performance).
+- Fast to code: Increase the speed to develop features by about 200% to 300%
+- Fewer bugs: Reduce about 40% of human (developer) induced errors
+- Intuitive: Great editor support.Completioneverywhere. Less time debugging.
+- Easy: Designed to be easy to use and learn. Less time reading docs.
+- Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
+- Robust: Get production-ready code. With automatic interactive documentation.
+- Standards-based: Based on (and fully compatible with) the open standards for APIs:[OpenAPI](https://github.com/OAI/OpenAPI-Specification)(previously known as Swagger) and[JSON Schema](https://json-schema.org/).
 
 <https://towardsdatascience.com/why-we-switched-from-flask-to-fastapi-for-production-machine-learning-765aab9b3679>
 
@@ -28,7 +29,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 
 <https://github.com/long2ice/fastapi-admin>
 
-<https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly
+<https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly>
 
 [**https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/**](https://www.freecodecamp.org/news/how-to-create-microservices-with-fastapi/)
 
@@ -101,18 +102,19 @@ client_name = db.Column(db.String(50), nullable=False)
 registered_by = db.Column(db.String(36), nullable=False)
 
 ## Data Types
--   int
--   float
--   str
--   bool
--   UUID
--   datetime.datetime
--   datetime.date
--   datetime.time
--   datetime.timedelta
--   frozenset
--   bytes
--   Decimal
+
+- int
+- float
+- str
+- bool
+- UUID
+- datetime.datetime
+- datetime.date
+- datetime.time
+- datetime.timedelta
+- frozenset
+- bytes
+- Decimal
 
 ## Commands
 
@@ -156,8 +158,6 @@ return {"model_name": model_name, "message": "LeCNN"}
 
 return {"model_name": model_name, "message": "Have some residuals"}
 
-
-
 uvicorn main:app --host 0.0.0.0 --reload
 
 [http://127.0.0.1:8000](http://127.0.0.1:8000/)
@@ -175,14 +175,15 @@ uvicorn main:app --host 0.0.0.0 --reload
 Starlette is a lightweight[ASGI](https://asgi.readthedocs.io/en/latest/)framework/toolkit, which is ideal for building high performance asyncio services.
 
 It is production-ready, and gives you the following:
--   Seriously impressive performance.
--   WebSocket support.
--   GraphQL support.
--   In-process background tasks.
--   Startup and shutdown events.
--   Test client built onrequests.
--   CORS, GZip, Static Files, Streaming responses.
--   Session and Cookie support.
--   100% test coverage.
--   100% type annotated codebase.
--   Zero hard dependencies.
+
+- Seriously impressive performance.
+- WebSocket support.
+- GraphQL support.
+- In-process background tasks.
+- Startup and shutdown events.
+- Test client built onrequests.
+- CORS, GZip, Static Files, Streaming responses.
+- Session and Cookie support.
+- 100% test coverage.
+- 100% type annotated codebase.
+- Zero hard dependencies.

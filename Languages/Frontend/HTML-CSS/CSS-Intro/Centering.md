@@ -6,7 +6,7 @@ Modified: 2022-07-22 20:09:36 +0500
 
 ---
 
-1.  **Centering a div in a page, Basic**
+1. **Centering a div in a page, Basic**
 
 .center-div
 
@@ -18,7 +18,7 @@ width: 100px;
 
 }
 
-2.  **Centering a div within a div, old-school**
+2. **Centering a div within a div, old-school**
 
 .outer-div
 
@@ -38,7 +38,7 @@ width: 100px;
 
 }
 
-3.  **Centering a div within a div with inline-block**
+3. **Centering a div within a div with inline-block**
 
 .outer-div
 
@@ -60,7 +60,7 @@ padding: 50px;
 
 }
 
-4.  **Centering a div within a div, horizontally and vertically**
+4. **Centering a div within a div, horizontally and vertically**
 
 .outer-div
 
@@ -82,7 +82,7 @@ height: 100px;
 
 }
 
-5.  **Centering a div at the bottom of a page**
+5. **Centering a div at the bottom of a page**
 
 .outer-div
 
@@ -110,7 +110,7 @@ background-color: #ccc;
 
 }
 
-6.  **Centering a div in a page, horizontally and vertically**
+6. **Centering a div in a page, horizontally and vertically**
 
 .center-div
 
@@ -134,7 +134,7 @@ height: 100px;
 
 }
 
-7.  **Centering a div in a page, responsive**
+7. **Centering a div in a page, responsive**
 
 .center-div
 
@@ -146,7 +146,7 @@ max-width: 700px;
 
 }
 
-8.  **Centering a div within a div, inner div responsive**
+8. **Centering a div within a div, inner div responsive**
 
 .outer-div
 
@@ -166,7 +166,7 @@ max-width: 700px;
 
 }
 
-9.  **Centering two responsive divs, side by side**
+9. **Centering two responsive divs, side by side**
 
 .container
 
@@ -242,6 +242,6 @@ height: 100px;
 
 }
 
-<http://www.tipue.com/blog/center-a-div
+<http://www.tipue.com/blog/center-a-div>
 
-<https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways
+<https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways>

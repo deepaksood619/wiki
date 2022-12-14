@@ -18,36 +18,34 @@ It's all about what narratives you believe in
 
 ![image](media/International-Relations-IR-image1.jpeg)
 
+- 15 August 1971 - US would no longer exchange dollars held by foreign governments for gold
+- 2 main principles to fix the declining power
+  - Earn more than we spend
+  - Treat each other well
 
--   15 August 1971 - US would no longer exchange dollars held by foreign governments for gold
--   2 main principles to fix the declining power
-    -   Earn more than we spend
-    -   Treat each other well
-
-<https://economicprinciples.org
+<https://economicprinciples.org>
 
 [Why Leaders Lie: The Truth About Lying in International Politics with John Mearsheimer](https://www.youtube.com/watch?v=VPe5f5dcrGE)
--   Selfish lies (lies told to benefit himself/herself)
--   Strategic lies (lies to benefit the country / someone else)
+
+- Selfish lies (lies told to benefit himself/herself)
+- Strategic lies (lies to benefit the country / someone else)
 
 Nobel lies (strategic lies can turn into nobel lies)
 
+- Consealment
+- Spinning
 
--   Consealment
--   Spinning
+- 5 types of international lies
 
+    1. Inter-state lies (country lies to other countries)
 
--   5 types of international lies
+    2. Fear mongering (lies to own country people)
 
-    1.  Inter-state lies (country lies to other countries)
+    3. Strategic cover up
 
-    2.  Fear mongering (lies to own country people)
+    4. Nationalist Myth making (portray himself as good and others as bad)
 
-    3.  Strategic cover up
-
-    4.  Nationalist Myth making (portray himself as good and others as bad)
-
-    5.  Liberal lies
+    5. Liberal lies
 
 Trust is most important
 

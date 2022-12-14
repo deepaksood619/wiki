@@ -7,34 +7,39 @@ Modified: 2022-11-30 19:09:53 +0500
 ---
 
 ## Features
--   Timeline View
+
+- Timeline View
 
 <https://support.google.com/docs/answer/12935277><https://www.youtube.com/watch?v=Vl0H-qTclOg&feature=youtu.be&ab_channel=freeCodeCamp.org>
--   enter data
--   navigate through a spreadsheet
--   create formulas to solve problems
--   create charts and graphs
--   understand relative vs absolute references
--   import and export data
--   implement VLOOKUP
--   use pivot tables
--   split and concatenate text
+
+- enter data
+- navigate through a spreadsheet
+- create formulas to solve problems
+- create charts and graphs
+- understand relative vs absolute references
+- import and export data
+- implement VLOOKUP
+- use pivot tables
+- split and concatenate text
 Columns - 16,384
 
 Rows - 1,048,576-   Text to column
--   Pivot Tables
--   Preferences > View > Developer Tab in the Ribbon (For macros)
--   Fix cells (Absolute and Relative Cells, use dollar as prefix or postfix in functions for addresses of cells)
--   Select special
--   Dynamic names (="P&L:"&C4)
--   Named cell ranges
--   Dropdown menu (Data validation)
--   Conditional Formatting
--   Custom cell formatting
+
+- Pivot Tables
+- Preferences > View > Developer Tab in the Ribbon (For macros)
+- Fix cells (Absolute and Relative Cells, use dollar as prefix or postfix in functions for addresses of cells)
+- Select special
+- Dynamic names (="P&L:"&C4)
+- Named cell ranges
+- Dropdown menu (Data validation)
+- Conditional Formatting
+- Custom cell formatting
 
 ![image](media/Intro-to-Microsoft-Excel---Google-Sheets-image1.png)
--   IF
-    -   SUMIF, SUMIFS, COUNTIF, COUNTIFS
+
+- IF
+  - SUMIF, SUMIFS, COUNTIF, COUNTIFS
+
 ## Microsoft Excel - Useful Tools & Tips
 
 How to Make Your Spreadsheets Look Professional
@@ -107,6 +112,7 @@ Conditional Formatting
 Introduction to Custom Cell Formatting
 
 Custom Formatting - An example
+
 ## Microsoft Excel - Beginner, Intermediate & Advanced Functions
 
 Key Excel Functions: If
@@ -142,6 +148,7 @@ Create Flexible Financial Models with Choose
 Goal Seek Will Help You Find the Result You Are Looking For
 
 Perform Sensitivity Analysis with Excel's Data Tables Functionality
+
 ## Microsoft Excel - Practical Exercise "Build a P&L From Scratch"
 
 Introduction to the Case Study
@@ -175,6 +182,7 @@ Populate the P&L Sheet with Sumif
 Learn How to Find Mistakes with Countif
 
 Calculating Growth Rates in Excel
+
 ## Microsoft Excel - Building Professional Charts in Excel
 
 Introduction to Excel Charts
@@ -198,6 +206,7 @@ Doughnut Chart
 Area Chart
 
 Bridge Chart
+
 ## Introduction to Pivot tables
 
 Intro to Pivot tables
@@ -211,6 +220,7 @@ Adjusting a Pivot table
 GETPIVOTDATA
 
 Slicers
+
 ## A practical case study with Pivot Tables
 
 Introduction to the case study
@@ -255,6 +265,7 @@ Formatting Cells Part II - Customize numbers the way you like
 Highlight key data with Excel Conditional Formatting
 
 Filter by color
+
 ## How to be 3.0x faster than average users
 
 Use multiple screens simultaneously
@@ -266,6 +277,7 @@ How to select visible cells only
 Grouping Excel rows and columns - The correct way to do it!
 
 Working on multiple sheets at the same time
+
 ## Excel mechanics
 
 Find & Replace - Our favourite Excel tool
@@ -277,6 +289,7 @@ What Are Circular References in Excel
 Circular References - An example
 
 Trace precedents - Display the relationship between formulas and cells
+
 ## Not so simple Excel functions
 
 What is a nested function
@@ -296,6 +309,7 @@ Advanced Excel functions Choose; Vlookup & Choose
 Advanced Excel functions Offset; Offset & Match
 
 Date functions
+
 ## Excel tips & tricks
 
 Excel tips & tricks Part 1
@@ -308,5 +322,6 @@ Excel tips & tricks Part 4
 <https://365datascience.teachable.com/courses/enrolled/233558>
 ![image](media/Intro-to-Microsoft-Excel---Google-Sheets-image2.png)
 [Google Sheets - Full Course](https://www.youtube.com/watch?v=N2opj8XzYBY&ab_channel=freeCodeCamp.org)
--   =GOOGLEFINANCE("GOOGL")
--   =image("https://image.jpg")
+
+- =GOOGLEFINANCE("GOOGL")
+- =image("https://image.jpg")

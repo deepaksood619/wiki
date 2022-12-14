@@ -8,9 +8,9 @@ Modified: 2018-04-26 19:40:12 +0500
 
 A union-find algorithm is an algorithm that performs two operations on a disjoint-set data structure -
 
-1.  Find - Determine which subset a particular element is in.
+1. Find - Determine which subset a particular element is in.
 
-2.  Union - Join two subsets into a single subset.
+2. Union - Join two subsets into a single subset.
 
 Used for **dynamic connectivity**
 
@@ -21,9 +21,10 @@ i.  Union Command - connect two objects
 ii. Find/connected query command - is there a path connecting two objects
 
 We assume "is connected to" is an equivalence relation:
--   Reflexive: p is connected to p (Connected to itself)
--   Symmetric: if p is connected to q, then q is connected to p
--   Transitive: if p is connected to q and q is connected to r, then p is connected to r.
+
+- Reflexive: p is connected to p (Connected to itself)
+- Symmetric: if p is connected to q, then q is connected to p
+- Transitive: if p is connected to q and q is connected to r, then p is connected to r.
 
 ## Connected Components - Maximal set of objects that are mutually connected
 
@@ -41,12 +42,12 @@ Only setting the last component's id to parent, Creating a tree like DS whose ro
 
 ## Optimizations -
 
-1.  Weighted Quick Union (Union by rank / Union by height)
-    -   Modify quick-union to avoid tall trees
-    -   Keep track of size of each tree
-    -   Balance by joining root of smaller tree to root of larger tree
+1. Weighted Quick Union (Union by rank / Union by height)
+    - Modify quick-union to avoid tall trees
+    - Keep track of size of each tree
+    - Balance by joining root of smaller tree to root of larger tree
 
-2.  Path Compression
+2. Path Compression
 
 Just after computing the root of p, set the id of each examined node to point to that root.
 
@@ -84,16 +85,18 @@ M union-find operations on a set of N objects
 
 ## Code Snippets -
 
-1.  Find
+1. Find
 
 ## function *Find*(x)
+
 if x.parent != x
 x.parent := *Find*(x.parent)
 return x.parent
 
-2.  Union
+2. Union
 
 ## function *Union*(x, y)
+
 xRoot := *Find*(x)
 yRoot := *Find*(y)
 
@@ -113,19 +116,19 @@ xRoot.rank := xRoot.rank + 1
 
 ## Applications -
 
-1.  Check whether a graph contains a cycle or not
+1. Check whether a graph contains a cycle or not
 
-2.  Percolation
+2. Percolation
 
-3.  Dynamic Connectivity
+3. Dynamic Connectivity
 
-4.  Connected Components
+4. Connected Components
 
-5.  Least common ancestor
+5. Least common ancestor
 
-6.  Equivalence of finite state automata
+6. Equivalence of finite state automata
 
-7.  Kruskal's minimum spanning tree
+7. Kruskal's minimum spanning tree
 
 ## Union-Find vs DFS
 

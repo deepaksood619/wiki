@@ -33,7 +33,9 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 3.<https://fauna.com/blog/introduction-to-transaction-isolation-levels>
 
 Some links are prettydeep and if you have any difficulty understanding any concept feelfree to reach out to me.
+
 ## Quote of the Week:"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
+
 ## Websites worth checking out
 
 1.<https://www.freecodecamp.org>
@@ -55,24 +57,27 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 ## #2**
 
 ## This is all about Coding
--   **Codeigniter**
 
-* Hooks
+- **Codeigniter**
 
-* Helpers
+- Hooks
 
-* Core controller model
-* Libraries
+- Helpers
 
-* Caching
+- Core controller model
+- Libraries
 
-* Logging-   High Cohesion
--   Low Coupling
--   Object Oriented Programming
--   Algorithms
--   Data Structures
--   Design Patterns
--   Testable Code
+- Caching
+
+- Logging-   High Cohesion
+
+- Low Coupling
+- Object Oriented Programming
+- Algorithms
+- Data Structures
+- Design Patterns
+- Testable Code
+
 ## Newsletter
 
 Interview Cake Weekly Problem
@@ -86,6 +91,7 @@ Daily coding
 <https://programmingdigest.net>
 
 Medium Daily Digest
+
 ## Learning Resources / Bootcamps
 
 <https://github.com/jwasham/coding-interview-university>
@@ -122,17 +128,18 @@ Medium Daily Digest
 
 <https://codebase.show/projects/realworld>
 Make sure to finish following documentation and POC in next 30-45 days, since after that you will not get time, since tasks will be very aggressive
--   Python (OOPS concept)
--   Writing Clean Code
--   System Design
--   Fast API + Django
--   SQLAlchemy + Django ORM
--   Security (AAA concepts)
--   Basic understanding of Frontend i.e. React
--   Competitive programming daily
--   Design patterns (Singleton/observer/factory,etc)
--   Databases - Redis + MySQL
--   Writing SQL queries (Joins / Views / Procedures, etc)
--   Basic understanding of PHP for reading PHP Codes
--   Docker
--   Git (Highly proficient)
+
+- Python (OOPS concept)
+- Writing Clean Code
+- System Design
+- Fast API + Django
+- SQLAlchemy + Django ORM
+- Security (AAA concepts)
+- Basic understanding of Frontend i.e. React
+- Competitive programming daily
+- Design patterns (Singleton/observer/factory,etc)
+- Databases - Redis + MySQL
+- Writing SQL queries (Joins / Views / Procedures, etc)
+- Basic understanding of PHP for reading PHP Codes
+- Docker
+- Git (Highly proficient)

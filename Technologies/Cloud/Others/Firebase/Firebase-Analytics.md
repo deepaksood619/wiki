@@ -11,24 +11,24 @@ Modified: 2021-11-09 19:29:59 +0500
 tl;dr: Google Analytics for Firebase, formerly Firebase Analytics, is now known as Google Analytics. It works great for your mobile apps! Oh, but Google Analytics for Mobile has been deprecated; they recommend you use Firebase Analytics, which, as you'll recall, is now Google Analytics. In recent news, you'll be excited to hear that Google Analytics now supports web apps, but don't confuse that with Google Analytics for the web!
 
 ## Google Analytics
--   Unlimited Reporting
-    -   Analytics provides unlimited reporting on up to 500 distinct events.
--   Audience Segmentation
-    -   Custom audiences can be defined in the Firebase console based on device data, custom events, or user properties. These audiences can be used with other Firebase features when targeting new features or notification messages.
--   Features
-    -   Comparision Analysis
-    -   Segment Overlap Analysis
-    -   Funnel Analysis Technique
+
+- Unlimited Reporting
+  - Analytics provides unlimited reporting on up to 500 distinct events.
+- Audience Segmentation
+  - Custom audiences can be defined in the Firebase console based on device data, custom events, or user properties. These audiences can be used with other Firebase features when targeting new features or notification messages.
+- Features
+  - Comparision Analysis
+  - Segment Overlap Analysis
+  - Funnel Analysis Technique
 
 <https://firebase.google.com/docs/analytics>
 
-
--   **In-app behavioral analytics**
-    -   who your users are
-    -   what are they doing
--   **Attribution analytics**
-    -   effectiveness of advertising and other growth campaigns
--   **Push notification analytics and crash reporting**
+- **In-app behavioral analytics**
+  - who your users are
+  - what are they doing
+- **Attribution analytics**
+  - effectiveness of advertising and other growth campaigns
+- **Push notification analytics and crash reporting**
 
 YouTube - [The Firebase developer's guide to Google Analytics](https://www.youtube.com/watch?v=2F2XhgMt8Dg&ab_channel=Firebase)
 
@@ -77,7 +77,8 @@ Attributes you define to describe segments of your user base, such as **language
 <https://stackoverflow.com/questions/37604275/how-to-view-event-parameters-from-firebase-console>
 
 ## Terms
--   **Properties**
+
+- **Properties**
 
 In Google Analytics, a**property**is a website, mobile application, or blog, etc., that is associated with a unique tracking ID.
 
@@ -87,24 +88,25 @@ For example, if you associate one property ID with two websites, data for both w
 
 ## Getting started
 
-1.  Create an App + Web property
+1. Create an App + Web property
 
-2.  Create a data stream
+2. Create a data stream
 
 Data streams enable the flow of data from your website and/or app into Google Analytics. If you'd like to measure more than one touchpoint, you can add multiple data streams to your property. For example, you can add one stream for your Android app, one for your iOS app, and one for each website.
 
-3.  Activate enhanced measurement
+3. Activate enhanced measurement
 
 When you add a data stream for your website and/or app, some basic parameters (such as language, page title, and screen resolution) are collected by default. With enhanced measurement, Analytics can automatically measure more interactions on your website such as page views, video views, and file downloads right out of the box. We recommend enabling enhanced measurement as you are setting up your App + Web property to begin collecting basic web events right away, without any custom tagging work required. You can disable enhanced measurement at any time
 
-4.  Enable data collection
+4. Enable data collection
 
 The final step to get set up is enabling data collection, which allows your reports to populate relevant events from your website. This allows tagged data to flow to your new property (in addition to your existing ones), and is essential in order to get meaningful insights from your App + Web property.
 
 ## Advanced Features
--   Enchanced Ecommerce
--   Track important success metrics with Goals
--   Analytics Intelligence
+
+- Enchanced Ecommerce
+- Track important success metrics with Goals
+- Analytics Intelligence
 
 ## Important Points
 
@@ -195,17 +197,19 @@ You cannot increase these limits by upgrading to the[Flame or Blaze pricing plan
 ## Attribution
 
 Let's say you've spent some money on two different ad campaigns to bring users into your app. After a few weeks, you discover:
--   Ad campaign #1 resulted in 500 clicks.
--   Ad campaign #2 resulted in 300 clicks.
+
+- Ad campaign #1 resulted in 500 clicks.
+- Ad campaign #2 resulted in 300 clicks.
 
 So, which ad campaign performed better? Seems like a no-brainer, right? Should you double-down on ad campaign #1?Well, hang on. What if you were to then discover...
--   Ad campaign #1 resulted in 500 clicks
-    -   But only 80 users installed and opened your app
-    -   ...and they spent an average of $1.20 each
--   Ad campaign #2 resulted in 300 clicks...
-    -   But 230 of those users installed and opened your app
-    -   ...and they spent an average of $6 each
-    -   ...and over 100 of them signed up for your newsletter?
+
+- Ad campaign #1 resulted in 500 clicks
+  - But only 80 users installed and opened your app
+  - ...and they spent an average of $1.20 each
+- Ad campaign #2 resulted in 300 clicks...
+  - But 230 of those users installed and opened your app
+  - ...and they spent an average of $6 each
+  - ...and over 100 of them signed up for your newsletter?
 
 Well, suddenly, that second ad campaign seems like a much better deal, doesn't it?That's the idea behindattribution. **It's a powerful form of app analytics that not only determines which campaigns are bringing you users, but also which campaigns are bringing you valuable users that you care most about.**
 
@@ -213,4 +217,4 @@ Well, suddenly, that second ad campaign seems like a much better deal, doesn't i
 
 <https://github.com/PostHog/posthog>
 
-<https://www.adjust.com
+<https://www.adjust.com>

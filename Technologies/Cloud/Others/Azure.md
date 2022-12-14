@@ -22,8 +22,6 @@ az --version
 
 brew update && brew upgrade azure-cli
 
-
-
 ## # for tunneling to kubernetes-dashboard
 
 az aks browse --resource-group Technology --name prod-cluster
@@ -96,7 +94,7 @@ helm delete --purge elasticsearch
 
 ## Create secret to pull from private registry
 
-#gcrreg addition
+# gcrreg addition
 
 kubectl create secret docker-registry gcrreg --docker-server=gcr.io --docker-username=_json_key --docker-password="$(cat ~/json-key-file.json)" --docker-email=deepak.sood@zenatix.com -n smap
 

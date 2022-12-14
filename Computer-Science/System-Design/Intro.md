@@ -6,29 +6,36 @@ Modified: 2022-12-09 23:46:56 +0500
 
 ---
 
-## Systems designis the process of defining the[architecture](https://en.wikipedia.org/wiki/Systems_architecture), modules, interfaces, and[data](https://en.wikipedia.org/wiki/Data)for a[system](https://en.wikipedia.org/wiki/System)to satisfy specified[requirements](https://en.wikipedia.org/wiki/Requirement). Systems design could be seen as the application of[systems theory](https://en.wikipedia.org/wiki/Systems_theory)to[product development](https://en.wikipedia.org/wiki/Product_development). There is some overlap with the disciplines of[systems analysis](https://en.wikipedia.org/wiki/Systems_analysis),[systems architecture](https://en.wikipedia.org/wiki/Systems_architecture)and[systems engineering](https://en.wikipedia.org/wiki/Systems_engineering).
+## Systems designis the process of defining the[architecture](https://en.wikipedia.org/wiki/Systems_architecture), modules, interfaces, and[data](https://en.wikipedia.org/wiki/Data)for a[system](https://en.wikipedia.org/wiki/System)to satisfy specified[requirements](https://en.wikipedia.org/wiki/Requirement). Systems design could be seen as the application of[systems theory](https://en.wikipedia.org/wiki/Systems_theory)to[product development](https://en.wikipedia.org/wiki/Product_development). There is some overlap with the disciplines of[systems analysis](https://en.wikipedia.org/wiki/Systems_analysis),[systems architecture](https://en.wikipedia.org/wiki/Systems_architecture)and[systems engineering](https://en.wikipedia.org/wiki/Systems_engineering)
+
 Inversion Of Control
 
 Callbacks
+
 ## Hollywood principle - Don't call me, we will call you
+
 ## Android - Used Interface for callback onSuccess of async task
+
 ## Build vs Buy vs Get for Free
+
 ## Planet Scale Systems
+
 ## Answering system design interview questions
 
-1.  **Get domain knowledge of what are we building**
+1. **Get domain knowledge of what are we building**
 
-2.  **Core features**
-    -   **Only design 2-3 core features for a system design question**
+2. **Core features**
+    - **Only design 2-3 core features for a system design question**
 
-3.  **For what scale we are building**
+3. **For what scale we are building**
+
 ## Introduction
 
-1.  Features
+1. Features
 
-2.  Define APIs
+2. Define APIs
 
-3.  Availability (CAP Theorem)
+3. Availability (CAP Theorem)
 
     a.  Consistency
 
@@ -36,56 +43,58 @@ Callbacks
 
     c.  Partition Tolerance
 
-4.  Latency Performance (If customer facing application, then latency matters)
+4. Latency Performance (If customer facing application, then latency matters)
 
-5.  Scalability (Add more users and requests)
+5. Scalability (Add more users and requests)
 
-6.  Durability (Data is not lost or compromised)
+6. Durability (Data is not lost or compromised)
 
-7.  Class Diagrams
+7. Class Diagrams
 
-8.  Security & Privacy
+8. Security & Privacy
 
-9.  Cost Effective
+9. Cost Effective
+
 ## How to approach a system design problem
--   Gather requirements (Functional and non-functional requirements)
-    -   Functional
-        -   sendMessage(messageBody)
-        -   receiveMessage()
-    -   Non-functional
-        -   Scalable (handles load increases, more queues and messages)
-        -   Highly available (services hardware/network failures)
-        -   Highly performent (single digit latency for main operations)
-        -   Durable (once submitted, data is not lost)
-    -   What is the expected read-to-write ratio?
-    -   How many **concurrent requests** should we expect?
-    -   What's the average expected response time?
-    -   What's the limit of the data we allow users to provide?
-    -   How many customers
-    -   RPS / Traffic
-    -   Who are the users
--   Establish the Scope
-    -   Do we want to discuss the end-to-end experience or just the API?
-    -   What clients do we want to support (mobile, web, etc)?
-    -   Do we require authentication? Analytics? Integrating with existing systems?
--   High level design
-    -   Cloud - CDN / LoadBalancers / Servers / Queues
-    -   Database layer
-    -   Scalability
--   Low level design
-    -   DS + Algo
-    -   API
-    -   Data model
-    -   Database schema
-    -   Optimizations
-    -   Edge cases
-        -   Viral Videos
-        -   High number of followers
--   Others
-    -   Security
-    -   Reliability
-    -   Replication
-    -   Tradeoffs
+
+- Gather requirements (Functional and non-functional requirements)
+  - Functional
+    - sendMessage(messageBody)
+    - receiveMessage()
+  - Non-functional
+    - Scalable (handles load increases, more queues and messages)
+    - Highly available (services hardware/network failures)
+    - Highly performent (single digit latency for main operations)
+    - Durable (once submitted, data is not lost)
+  - What is the expected read-to-write ratio?
+  - How many **concurrent requests** should we expect?
+  - What's the average expected response time?
+  - What's the limit of the data we allow users to provide?
+  - How many customers
+  - RPS / Traffic
+  - Who are the users
+- Establish the Scope
+  - Do we want to discuss the end-to-end experience or just the API?
+  - What clients do we want to support (mobile, web, etc)?
+  - Do we require authentication? Analytics? Integrating with existing systems?
+- High level design
+  - Cloud - CDN / LoadBalancers / Servers / Queues
+  - Database layer
+  - Scalability
+- Low level design
+  - DS + Algo
+  - API
+  - Data model
+  - Database schema
+  - Optimizations
+  - Edge cases
+    - Viral Videos
+    - High number of followers
+- Others
+  - Security
+  - Reliability
+  - Replication
+  - Tradeoffs
 <https://www.freecodecamp.org/news/systems-design-for-interviews>
 
 <https://hackernoon.com/anatomy-of-a-system-design-interview-4cb57d75a53f>
@@ -94,13 +103,13 @@ Callbacks
 
 <https://www.youtube.com/watch?v=UzLMhqg3_Wc>
 
-1.  Scaling
+1. Scaling
 
     a.  Vertical Scaling / Scale up (Add more CPU, RAM, Storage to an existing host)
 
     b.  Horizontal Scaling / Scale out (Keep one host small and add another host)
 Vertical Scaling is expensive and have a limit whereas Horizontal Scaling is cheap. But we have to take care of distributed systems problem in Horizontal Scaling and not in Vertical Scaling.
-2.  Data Centers / Rack / Hosts
+2. Data Centers / Rack / Hosts
 
 Consider latency between cross racks, cross hosts
 3.  CPU/ Memory/ HardDrive / Nework Bandwidth
@@ -125,13 +134,15 @@ Containers - is a way of running your applications and its dependencies in an is
 
 Kafka clients tend to be "thick" and have a lot of complexity. That is, they do a lot because the broker is designed to be simple. That's my guess as to why there are so few native client libraries up to par with the Java client. NATS Streaming clients, on the other hand, are relatively "thin" because the server does more. We end up just pushing the complexity around based on our design decisions, but one can argue that the[smart client and dumb server](https://bravenewgeek.com/smart-endpoints-dumb-pipes/)is a more scalable approach.
 [System Design](https://www.youtube.com/playlist?list=PLkQkbY7JNJuBoTemzQfjym0sqbOHt5fnV)
+
 ## ADR - Architecture Design Record
 
 Architects are often writing the ADRs ([Architecture Decision Record](https://github.com/joelparkerhenderson/architecture_decision_record#suggestions-for-writing-good-adrs)), those are documents that are helping anyone in the company to understand why a decision was made describing the context, the options available, the chosen one and finally the consequences generated by this decision.-   An**architecture decision record(ADR)** is a document that captures an important architectural decision made along with its context and consequences.
--   An**architecture decision(AD)** is a software design choice that addresses a significant requirement.
--   An**architecture decision log(ADL)** is the collection of all ADRs created and maintained for a particular project (or organization).
--   An**architecturally-significant requirement(ASR)** is a requirement that has a measurable effect on a software system's architecture.
--   All these are within the topic of**architecture knowledge management(AKM).**
+
+- An**architecture decision(AD)** is a software design choice that addresses a significant requirement.
+- An**architecture decision log(ADL)** is the collection of all ADRs created and maintained for a particular project (or organization).
+- An**architecturally-significant requirement(ASR)** is a requirement that has a measurable effect on a software system's architecture.
+- All these are within the topic of**architecture knowledge management(AKM).**
 <https://github.com/joelparkerhenderson/architecture-decision-record>
 
 <https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions>
@@ -139,6 +150,7 @@ Architects are often writing the ADRs ([Architecture Decision Record](https://gi
 ## Scale Cube**
 
 Thescale cubeis a technology model that indicates three methods (or approaches) by which technology platforms may be scaled to meet increasing levels of demand upon the system in question. The three approaches defined by the model include scaling through replication or cloning (the "X axis"), scaling through segmentation along service boundaries or dissimilar components (the "Y axis") and segmentation or partitioning along similar components (the "Z axis").
+
 ## 3 Dimensions to Scaling
 
 ![image](media/Intro-image1.jpeg)

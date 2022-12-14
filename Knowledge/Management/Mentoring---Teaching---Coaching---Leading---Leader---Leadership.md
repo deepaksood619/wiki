@@ -16,14 +16,13 @@ Leadership is not equal to management
 
 [Seth Godin -- Leadership vs. Management - What it means to make a difference](https://www.youtube.com/watch?v=qzoIAJYPQwo)
 
-
--   results orientation
--   strategic orientation
--   collaboration and influence
--   team leadership
--   developing organizational capabilities
--   change leadership
--   market understanding
+- results orientation
+- strategic orientation
+- collaboration and influence
+- team leadership
+- developing organizational capabilities
+- change leadership
+- market understanding
 
 ## Radical Candor
 
@@ -33,45 +32,43 @@ The best way to encourage radical candor is to be open to it youself - demonstra
 
 ## Principles - <https://www.amazon.jobs/en/principles>
 
-
--   [What is mentoring?](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#what-is-mentoring)
+- [What is mentoring?](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#what-is-mentoring)
 
 Mentorship is a learning relationship between an experienced person and someone who wants to grow.
 
+- [Onboarding: a specific type of mentoring](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#onboarding-a-specific-type-of-mentoring)
+- [Informal mentorship: it's happening everywhere](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#informal-mentorship-it-s-happening-everywhere)
+- [Formal mentorship: more effort, more focus, more growth](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#formal-mentorship-more-effort-more-focus-more-growth)
+- [Kicking off mentoring: the introductory meeting](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#kicking-off-mentoring-the-introductory-meeting)
+- [When you are a mentee](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#when-you-are-a-mentee)
+- [When you are a mentor](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#when-you-are-a-mentor)
+- [Being a supportive and efficient mentor](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#being-a-supportive-and-efficient-mentor)
+- [Mentorship across the organization](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#mentorship-across-the-organization)
+- [Remote mentorship](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#remote-mentorship)
+- [The best engineers are great mentors](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#the-best-engineers-are-great-mentors)
+- [Closing quotes from mentors who are engineers](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#closing-quotes-from-mentors-who-are-engineers)
 
--   [Onboarding: a specific type of mentoring](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#onboarding-a-specific-type-of-mentoring)
--   [Informal mentorship: it's happening everywhere](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#informal-mentorship-it-s-happening-everywhere)
--   [Formal mentorship: more effort, more focus, more growth](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#formal-mentorship-more-effort-more-focus-more-growth)
--   [Kicking off mentoring: the introductory meeting](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#kicking-off-mentoring-the-introductory-meeting)
--   [When you are a mentee](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#when-you-are-a-mentee)
--   [When you are a mentor](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#when-you-are-a-mentor)
--   [Being a supportive and efficient mentor](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#being-a-supportive-and-efficient-mentor)
--   [Mentorship across the organization](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#mentorship-across-the-organization)
--   [Remote mentorship](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#remote-mentorship)
--   [The best engineers are great mentors](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#the-best-engineers-are-great-mentors)
--   [Closing quotes from mentors who are engineers](https://blog-pragmaticengineer-com.cdn.ampproject.org/v/s/blog.pragmaticengineer.com/developers-mentoring-other-developers/amp/?amp_js_v=0.1#closing-quotes-from-mentors-who-are-engineers)
-
-<https://blog.pragmaticengineer.com/developers-mentoring-other-developers
+<https://blog.pragmaticengineer.com/developers-mentoring-other-developers>
 
 To inspire better conversations with your manager, direct reports, and team next year, here are the most asked meeting questions from Soapbox communities in 2020:
 
-1.  What are the biggest time wasters for you each week?
+1. What are the biggest time wasters for you each week?
 
-2.  How can I better support you?
+2. How can I better support you?
 
-3.  How can we improve the way our team works together?
+3. How can we improve the way our team works together?
 
-4.  What was a win that you had last week?
+4. What was a win that you had last week?
 
-5.  On a scale of 1-10, how happy are you at work?
+5. On a scale of 1-10, how happy are you at work?
 
-6.  What skills would you like to develop right now?
+6. What skills would you like to develop right now?
 
-7.  What does an ideal, productive workday look like to you? Walk me through it.
+7. What does an ideal, productive workday look like to you? Walk me through it.
 
-8.  What's your outlook on this week?
+8. What's your outlook on this week?
 
-9.  What's one thing we can do to improve the performance of the team?
+9. What's one thing we can do to improve the performance of the team?
 
 10. What's our biggest challenge as a team?
 
@@ -92,73 +89,73 @@ CarrotandStickApproach of Motivation. ... Thecarrotis a reward for moving while 
 ## Leaders
 
 Good business leaders create a vision, articulate the vision, passionately own the vision, and relentlessly drive it to completion. -- Jack Welch
--   Vision
--   Courage
--   Integrity
--   Humilty
--   Strategic Planning
--   Focus
--   Cooperation
--   Strong Communicators
--   Lead by example
+
+- Vision
+- Courage
+- Integrity
+- Humilty
+- Strategic Planning
+- Focus
+- Cooperation
+- Strong Communicators
+- Lead by example
 
 <https://deepstash.com/article/3226/7-leadership-qualities-and-characteristics-of-good-leaders--brian-tracy>
 
-
--   No Heroes
--   Live as a team and die as a team
--   Everyone has a voice
--   Software is a team sport
+- No Heroes
+- Live as a team and die as a team
+- Everyone has a voice
+- Software is a team sport
 
 ## Types of Leadership
 
-1.  Transformational leadership
+1. Transformational leadership
 
-2.  Situational leadership
+2. Situational leadership
 
-3.  Authoritarian leadership
+3. Authoritarian leadership
 
-4.  Bureaucratic leadership
+4. Bureaucratic leadership
 
 As the cousin of the autocratic style, bureaucratic leadership runs on rules, policy, and maintaining the status quo. The standard procedure always wins out. Proponents of this style will listen to employees, and may even acknowledge their good ideas, but if those ideas don't fit within the established system, they'll never get the green light.
 
-5.  Democratic leadership
+5. Democratic leadership
 
 The democratic approach to leadership relies on every team member providing input to help the team move towards the best decisions. The leader may still ultimately make the call, but it will likely be in sync with the conversations that have been happening across the team.
 
-6.  Coaching leadership
+6. Coaching leadership
 
 Coach-style leaders look at their team members and see oodles of potential that can be unleashed and tapped into to help the company grow. As such, coaching leadership relies on your ability to connect your team's capabilities to the right strategic opportunities. Chances are, you enjoy working with a wide variety of people and often make a massive positive impact.
 
-7.  Visionary leadership
+7. Visionary leadership
 
 Also known as "transformational leadership," this is the style most often revered in organizations that prioritize growth. Because you're constantly challenging employees to not just meet, but exceed their goals, this leadership style requires dynamic communication skills to win people over to your vision of what's possible -- both for themselves and for the company.
 
-8.  Servant leadership
+8. Servant leadership
 
 The founding principles of servant leadership include nine behaviors:
 
-1.  Serve first
+1. Serve first
 
-2.  Add value to others
+2. Add value to others
 
-3.  Build trust
+3. Build trust
 
-4.  Listen to understand
+4. Listen to understand
 
-5.  Think about your thinking
+5. Think about your thinking
 
-6.  Increase your influence
+6. Increase your influence
 
-7.  Demonstrate courage
+7. Demonstrate courage
 
-8.  Live your values
+8. Live your values
 
-9.  Live your transformation
+9. Live your transformation
 
 In other words, you're the type of leader who is focused on elevating their team members first, knowing that their success reflects well on you and that your own reward will follow. And, chances are, morale on your team is consistently high.
 
-9.  Laissez-faire leadership
+9. Laissez-faire leadership
 
 This ultra-hands-off style of leadership essentially transfers all authority to employees. You're always there to hook them up with whatever resources they need, but then you let them run with it while you attend to other matters. This means your team members can take more ownership of their roles in creative ways, which can be sooooooo empowering.
 
@@ -167,22 +164,25 @@ This ultra-hands-off style of leadership essentially transfers all authority to 
 ![image](media/Mentoring---Teaching---Coaching---Leading---Leader---Leadership-image2.jpg)
 
 ## Executive Presence
--   Appearance
--   Communication skills
--   Gravitas
+
+- Appearance
+- Communication skills
+- Gravitas
 
 ## Kaizen
--   Kaizen is a philosophy that productivity can be improved gradually and by involving all employees.
--   The small changes can involve quality control, just-in-time delivery, standardized work, the use of efficient equipment, and the elimination of waste.
--   Changes can come from any employee anytime and don't have to happen slowly, where kaizen merely recognizes that small changes now can have big future impacts.
+
+- Kaizen is a philosophy that productivity can be improved gradually and by involving all employees.
+- The small changes can involve quality control, just-in-time delivery, standardized work, the use of efficient equipment, and the elimination of waste.
+- Changes can come from any employee anytime and don't have to happen slowly, where kaizen merely recognizes that small changes now can have big future impacts.
 
 <https://www.investopedia.com/terms/k/kaizen.asp>
 
 ## A brief guide to leadership
--   Always know the answer to, "What are we optimizing for?"
--   Recruit. Recruit. Recruit.
--   Never ask someone to do something you aren't willing to do yourself.
--   Give away the credit. Take the blame.
+
+- Always know the answer to, "What are we optimizing for?"
+- Recruit. Recruit. Recruit.
+- Never ask someone to do something you aren't willing to do yourself.
+- Give away the credit. Take the blame.
 
 Things that keep talented people from fulfilling their potential
 
@@ -199,24 +199,25 @@ Things that keep talented people from fulfilling their potential
 It's almost always better to learn from peers who are 2 years ahead of you than mentors who are 20 years ahead of you.
 
 Life evolves and most insights get outdated.
--   Reporting gap
--   Human gap
--   Process gap
--   Training gap
+
+- Reporting gap
+- Human gap
+- Process gap
+- Training gap
 
 ## Coaching
 
 Trillion dollar coach - Bill Campbell
 
-1.  If you are blessed be a blessing to as many people as you can
+1. If you are blessed be a blessing to as many people as you can
 
-2.  Radical candor
+2. Radical candor
 
-3.  Coach only those who are coachable
+3. Coach only those who are coachable
 
-4.  Psychological safety is the most important thing for a great team
+4. Psychological safety is the most important thing for a great team
 
-5.  Ruthless truth and trust among team players
+5. Ruthless truth and trust among team players
 
 ## Teaching
 
@@ -236,23 +237,23 @@ First, I think that communication skills are crucial. I regularly use active lis
 
 When there's a disagreement, my first step is to understand the perspective of each person involved. I use active listening skills, giving each party my full attention. I'll summarize my understanding of the situation, asking probing questions to gain additional clarity as required. At that point, my goal is to facilitate conversations that lead to resolutions. Using a calm and respectful approach, I'll work with the involved parties to find a reasonable compromise, brainstorming, and discussing ideas until a suitable option is found. The process ensures everyone can learn more about the other's perspective and that the resolution is a collaborative venture.
 
-1.  Tell me about the hardest decision you've ever made as a leader. How did you decide which course of action was best?
+1. Tell me about the hardest decision you've ever made as a leader. How did you decide which course of action was best?
 
-2.  What steps do you take to make sure that projects are completed on time, on budget, and to the proper standard?
+2. What steps do you take to make sure that projects are completed on time, on budget, and to the proper standard?
 
-3.  How would you describe your leadership style? How would your colleagues describe it?
+3. How would you describe your leadership style? How would your colleagues describe it?
 
-4.  Can you tell me about a time where you faced a leadership challenge? What did you do to overcome it?
+4. Can you tell me about a time where you faced a leadership challenge? What did you do to overcome it?
 
-5.  If a team member is under performing, what steps do you take to improve their performance?
+5. If a team member is under performing, what steps do you take to improve their performance?
 
-6.  Have you ever taken on a leadership role voluntarily? If so, can you tell me about it?
+6. Have you ever taken on a leadership role voluntarily? If so, can you tell me about it?
 
-7.  Tell me about your approach to delegation.
+7. Tell me about your approach to delegation.
 
-8.  Can you describe a time when you lead by example?
+8. Can you describe a time when you lead by example?
 
-9.  Have you ever served in a coach or mentor role? How were you able to help the other person achieve success?
+9. Have you ever served in a coach or mentor role? How were you able to help the other person achieve success?
 
 10. How do you monitor a team's performance?
 
@@ -282,7 +283,7 @@ When there's a disagreement, my first step is to understand the perspective of e
 
 ## STAR Method
 
-<https://theinterviewguys.com/star-method
+<https://theinterviewguys.com/star-method>
 
 ## Situation
 
@@ -300,34 +301,36 @@ Result:
 
 This is where you get to be introspective. Share what the**outcome of the situation was**and how you specifically**contributed to that outcome.** What did you accomplish? What did you learn? What were the results of your actions?
 
-<https://theinterviewguys.com/tailoring-method
+<https://theinterviewguys.com/tailoring-method>
 
 ## Blinkist - Leaders Eat Last by Simon Sinek
--   Endorphin: The hormone that masks pain
--   Dopamine: The hormone that helps us accomplish things
--   Serotonin: The leadership hormone
--   Oxytocin: The love hormone
 
+- Endorphin: The hormone that masks pain
+- Dopamine: The hormone that helps us accomplish things
+- Serotonin: The leadership hormone
+- Oxytocin: The love hormone
 
--   Endorphin and Dopamine - Selfish hormones
-    -   Dopamine - It rewards us with intense happiness every time we complete a task
-    -   Endorphins - disguise exhaustion and physical pain and can fool us mentally so that we can go further, even after significant physical efforts
-    -   When you finish an exercise feeling good, and the next day the whole body hurts? It did not hurt right away because of the released endorphin, which increased its performance
--   Serotonin and oxytocin - Altruistic hormones - Affect our social life, helping us relate to others
+- Endorphin and Dopamine - Selfish hormones
+  - Dopamine - It rewards us with intense happiness every time we complete a task
+  - Endorphins - disguise exhaustion and physical pain and can fool us mentally so that we can go further, even after significant physical efforts
+  - When you finish an exercise feeling good, and the next day the whole body hurts? It did not hurt right away because of the released endorphin, which increased its performance
+- Serotonin and oxytocin - Altruistic hormones - Affect our social life, helping us relate to others
 
 Trust - [The advice that changed my life!](https://www.youtube.com/watch?v=ggVrFEzCfZI&ab_channel=warikoo)
 
 [Designing Leadership | Clearleft CEO | Andy Budd](https://www.youtube.com/watch?v=j6a9kMvN2Kk)
--   Umbrella - to shield team against all the shit feature requests
--   Speak the language of business
+
+- Umbrella - to shield team against all the shit feature requests
+- Speak the language of business
 
 ## Tools
 
-<https://seekwise.org
+<https://seekwise.org>
 
 ## Others
--   Give employees stretch goals (that are hard to accomplish but doable) that will give them boost for completing tasks, and then celebrate the achievement.
--   Ask everyone after standup, one personal thing that everyone has to answer
-    -   One embarassing thing about you
-    -   What you will do if you have all the money
-    -   Place to visit
+
+- Give employees stretch goals (that are hard to accomplish but doable) that will give them boost for completing tasks, and then celebrate the achievement.
+- Ask everyone after standup, one personal thing that everyone has to answer
+  - One embarassing thing about you
+  - What you will do if you have all the money
+  - Place to visit

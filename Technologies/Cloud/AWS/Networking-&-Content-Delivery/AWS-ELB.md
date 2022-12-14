@@ -8,19 +8,17 @@ Modified: 2020-08-13 10:39:55 +0500
 
 Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, IP addresses, and Lambda functions. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones. Elastic Load Balancing offers three types of load balancers that all feature the high availability, automatic scaling, and robust security necessary to make your applications fault tolerant.
 
-
--   **Application Load Balancer**
+- **Application Load Balancer**
 
 This load balancer operates at Layer 7 of the OSI model. It can be used to load-balance HTTP and HTTPS applications and can invoke Lambda functions, among several other features.
 
-
--   **Network Load Balancer (NLB)**
+- **Network Load Balancer (NLB)**
 
 Used for extreme performance, this load balancer operates at Layer 4 of the OSI model. It can, therefore, load-balance any kind of TCP traffic and can handle large amounts of requests with low latency.
--   Doesn't support security groups
 
+- Doesn't support security groups
 
--   **Classic Load Balancer**
+- **Classic Load Balancer**
 
 This load balancer operates at Layer 4 or Layer 7 of the OSI model. It is now mostly used for legacy applications that run on EC2-Classic since application load balancers provide more features.
 
@@ -32,11 +30,11 @@ Provides SSL Termination for MQTT messages over ssl, and all the further communi
 
 If you need flexible application management, we recommend that you use an Application Load Balancer. If extreme performance and static IP is needed for your application, we recommend that you use a Network Load Balancer. If you have an existing application that was built within the EC2-Classic network, then you should use a Classic Load Balancer.
 
-<https://aws.amazon.com/elasticloadbalancing/features
+<https://aws.amazon.com/elasticloadbalancing/features>
 
 ## Authentication in ALB
 
-<https://aws.amazon.com/blogs/aws/built-in-authentication-in-alb
+<https://aws.amazon.com/blogs/aws/built-in-authentication-in-alb>
 
 When you create a load balancer, you must choose whether to make it an internal load balancer or an internet-facing load balancer.
 

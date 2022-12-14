@@ -7,22 +7,27 @@ Modified: 2022-03-09 22:19:23 +0500
 ---
 
 There are a number of ways we can go about replicating the log data. Broadly speaking, we can group the techniques into two different categories:
+
 ## Gossip/Multicast Protocols
 
 These tend to be eventually consistent and/or stochastic.
--   Epidemic broadcast trees
--   Bimodal multicast
--   SWIM
--   HyParView
--   NeEM
+
+- Epidemic broadcast trees
+- Bimodal multicast
+- SWIM
+- HyParView
+- NeEM
+
 ## Consensus Protocols
 
 These tend to favor strong consistency over availability.
--   2PC/3PC
--   Paxos
--   Raft
--   Zab (Zookeeper atomic broadcast)
--   Chain replication
+
+- 2PC/3PC
+- Paxos
+- Raft
+- Zab (Zookeeper atomic broadcast)
+- Chain replication
+
 ## Paxos - Consensus over distributed hosts
 
 Ex - doing a leader election among a distributed host.
@@ -39,8 +44,9 @@ Multi-paxos - models the log as a series of consensus problems, one for each slo
 
 [RAFT](https://raft.github.io/raft.pdf)is a much simpler consensus algorithm.
 Used by -
--   Consul
--   Used by etcd (distributed key value store)
+
+- Consul
+- Used by etcd (distributed key value store)
 <https://raft.github.io>
 
 <http://thesecretlivesofdata.com/raft>
@@ -48,6 +54,7 @@ Used by -
 ## SWIM**
 
 [SWIM](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf)is a distributed gossip protocol for group membership (e.g. for determining members of a caching ring, etc)
+
 ## Two-Phase Commit Protocol
 
 In[transaction processing](https://en.wikipedia.org/wiki/Transaction_processing),[databases](https://en.wikipedia.org/wiki/Database), and[computer networking](https://en.wikipedia.org/wiki/Computer_networking), thetwo-phase commit protocol(2PC) is a type of[atomic commitment protocol](https://en.wikipedia.org/wiki/Atomic_commit)(ACP). It is a[distributed algorithm](https://en.wikipedia.org/wiki/Distributed_algorithm)that coordinates all the processes that participate in a[distributed atomic transaction](https://en.wikipedia.org/wiki/Distributed_transaction)on whether to[commit](https://en.wikipedia.org/wiki/Commit_(data_management))orabort(roll back) the transaction (it is a specialized type of[consensus](https://en.wikipedia.org/wiki/Consensus_(computer_science))protocol). The protocol achieves its goal even in many cases of temporary system failure (involving either process, network node, communication, etc. failures), and is thus widely used.However, it is not resilient to all possible failure configurations, and in rare cases, manual intervention is needed to remedy an outcome. To accommodate recovery from failure (automatic in most cases) the protocol's participants use[logging](https://en.wikipedia.org/wiki/Server_log)of the protocol's states. Log records, which are typically slow to generate but survive failures, are used by the protocol's[recovery procedures](https://en.wikipedia.org/wiki/Recovery_procedure). Many protocol variants exist that primarily differ in logging strategies and recovery mechanisms. Though usually intended to be used infrequently, recovery procedures compose a substantial portion of the protocol, due to many possible failure scenarios to be considered and supported by the protocol.
@@ -63,6 +70,7 @@ Two-phase commit is a blocking protocol. The coordinator blocks waiting for vote
 <https://en.wikipedia.org/wiki/Two-phase_commit_protocol>
 
 [**https://bravenewgeek.com/understanding-consensus/**](https://bravenewgeek.com/understanding-consensus/)
+
 ## 3 Phase Commit
 
 ![image](media/Consensus-Protocols-image3.png)
@@ -88,12 +96,14 @@ Google relies on Paxos for its high-replication datastore in App Engine as well 
 ## Context
 
 You have applied the[Database per Service](https://microservices.io/patterns/data/database-per-service.html)pattern. Each service has its own database. Some business transactions, however, span multiple service so you need a mechanism to implement transactions that span services. For example, let's imagine that you are building an e-commerce store where customers have a credit limit. The application must ensure that a new order will not exceed the customer's credit limit. Since Orders and Customers are in different databases owned by different services the application cannot simply use a local ACID transaction.
+
 ## Solution
 
 Implement each business transaction that spans multiple services is a saga. A saga is a sequence of local transactions. Each local transaction updates the database and publishes a message or event to trigger the next local transaction in the saga. If a local transaction fails because it violates a business rule then the saga executes a series of compensating transactions that undo the changes that were made by the preceding local transactions.
+
 ## Types of SAGA Implementation
 
-1.  Choreography - Event based
+1. Choreography - Event based
 
 Each local transaction publishes domain events that trigger local transactions in other services
 ![image](media/Consensus-Protocols-image6.png)
@@ -118,9 +128,10 @@ The termepidemic protocolis sometimes used as a synonym for a gossip protocol, b
 
 States that reaching a multi-party consensus in a asynchronous system is not possible and, in order for consensus to be reachable, we need**Failure Detectors**.
 In order for processes to agree, several invariants have to be persevered:
--   value that's being agreed on has to be "proposed" by one of the participants
--   all active (non-crashed) participants have to decide on the value
--   value they eventually decide on has to be the same for all processes
+
+- value that's being agreed on has to be "proposed" by one of the participants
+- all active (non-crashed) participants have to decide on the value
+- value they eventually decide on has to be the same for all processes
 In a[paper](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf)by Fisher, Lynch and Paterson, famously known asFLP Impossibility Problem(derived from the first letters of authors' last names), authors discuss a weak form of consensus in which processes start with an initial value and have to achieve an agreement on a new value. This new value has to be the same for all non-faulty processes.
 Paper concludes that in anasynchronous system, no consensus protocol can be totally correct in presence of even a single fault. If we do not consider an upper time bound for process to complete the algorithm steps and if process failures can't be reliably detected, FLP paper shows that there's no deterministic algorithm to reach a consensus.
 However, FLP proof does not mean we have to pack our things and go home, as reaching consensus is not possible. It only means that it can't always be reached in bounded time. In practice, systems exhibit partial synchronicity, which puts partially synchronous system between the cases of asynchronous and synchronous ones. Nancy Lynch, one of the FLP proof authors, has later authored[Consensus in the Presence of Partial Synchrony](http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf)paper, where several partially synchronous models are discussed, one of them holding timing assumptions that are not known in advance and the other one, where timing assumptions are known, but start holding up at an unknown time.

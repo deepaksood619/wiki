@@ -16,6 +16,7 @@ Modified: 2020-01-09 12:38:06 +0500
 | **druid-broker**        | 8082     |
 | **druid-router**        | 8888     |
 | **druid-postgresql**    | 5432     |
+
 ## DRUID_ZOOKEEPER_IP**=**172.18.3.2
 
 ## DRUID_POSTGRESQL_IP**=**172.18.3.3
@@ -33,11 +34,13 @@ Modified: 2020-01-09 12:38:06 +0500
 ## DRUID_MIDDLEMANAGER_IP**=**172.18.3.8
 
 ## DRUID_ROUTER_IP**=**172.18.3.15
+
 ## Hack
 
 docker exec -it druid-historical bash
 
 mkdir /var/druid/tmp
+
 ## APIs
 
 Historical
@@ -47,26 +50,32 @@ Historical
 [http://localhost:8083/druid/historical/v1/](http://localhost:8083/druid/historical/v1/readiness)loadstatus
 
 [http://localhost:8083/](http://localhost:8083/druid/historical/v1/readiness)status
+
 ## Druid segment cleanup
 
 docker exec -it druid-historical bash
+
 ## # first remove segment-cache and then segments
 
 cd /var/druid/segment-cache and cd /var/druid/segments
 remove last 20 days of segments
+
 ## Druid Commands
--   curl -X 'POST' -H 'Content-Type:application/json' -d @wikipedia-top-pages.json [http://localhost:8082/druid/v2?pretty](http://localhost:8082/druid/v2/?pretty) #query top pages from wikipedia dataset
--   curl -XPOST -H'Content-Type: application/json' -d @wikipedia-kafka-supervisor.json <http://localhost:8090/druid/indexer/v1/supervisor> #submit supervisor spec to kafka-indexing-service
--   curl -XPOST -H'Content-Type: application/json' -d @smap-kafka-supervisor-spec.json <http://localhost:8090/druid/indexer/v1/supervisor>
+
+- curl -X 'POST' -H 'Content-Type:application/json' -d @wikipedia-top-pages.json [http://localhost:8082/druid/v2?pretty](http://localhost:8082/druid/v2/?pretty) #query top pages from wikipedia dataset
+- curl -XPOST -H'Content-Type: application/json' -d @wikipedia-kafka-supervisor.json <http://localhost:8090/druid/indexer/v1/supervisor> #submit supervisor spec to kafka-indexing-service
+- curl -XPOST -H'Content-Type: application/json' -d @smap-kafka-supervisor-spec.json <http://localhost:8090/druid/indexer/v1/supervisor>
 
 ## Dashboards**
--   8081: coordinator (for seeing clusters and datasources
--   8090: overlord (for managing supervisor spec and tasks)
--   Others
-    -   8082: broker
-    -   8083: historical
-    -   8091: middlemanager
-    -   2181: zookeeper
+
+- 8081: coordinator (for seeing clusters and datasources
+- 8090: overlord (for managing supervisor spec and tasks)
+- Others
+  - 8082: broker
+  - 8083: historical
+  - 8091: middlemanager
+  - 2181: zookeeper
+
 ## Debugging
 
 stop druid-historical
@@ -78,6 +87,7 @@ remove docker segment-cache
 rm -rf *
 
 start druid-historical
+
 ## SQL Commands
 
 # find duplicate count
@@ -95,6 +105,7 @@ HAVING readingCount > 1
 ORDER BY __time DESC)
 
 GROUP BY site_name, controller_name
+
 # find duplicate values
 
 SELECT controller_name, stream_path, site_name, reading, __time, count(reading) as readingCount FROM "live-Samhi"
@@ -108,6 +119,7 @@ GROUP BY __time, stream_path, reading, site_name, controller_name
 HAVING readingCount > 1
 
 ORDER BY __time DESC
+
 ## Dashboard
 
 <http://10.9.1.21:8888/unified-console.html>
@@ -301,10 +313,12 @@ ORDER BY __time DESC
 }
 
 }
+
 ## Important Points
--   Compression - 1:10
--   Number of hyper threads
--   Concurrency of queries
+
+- Compression - 1:10
+- Number of hyper threads
+- Concurrency of queries
 
 4 gb/s per hyperthread - how much data you are consuming-   Servers
 

@@ -7,21 +7,21 @@ Modified: 2022-02-04 23:46:45 +0500
 ---
 
 ## Monitoring Introduction
--   What are your monitoring goals?
--   Which resources will you monitor?
--   How often will you monitor these resources?
--   Which monitoring tools will you use?
--   Who will perform the monitoring tasks?
--   Whom should be notified when something goes wrong?
 
+- What are your monitoring goals?
+- Which resources will you monitor?
+- How often will you monitor these resources?
+- Which monitoring tools will you use?
+- Who will perform the monitoring tasks?
+- Whom should be notified when something goes wrong?
 
--   Gives you a base line
--   Tells you what has happened
-    -   Useful to investigate performance issues
--   Allows you to proactively handle potential issues
--   Make sure to configure alerts so you can react appropriately to all events based on the severity level
+- Gives you a base line
+- Tells you what has happened
+  - Useful to investigate performance issues
+- Allows you to proactively handle potential issues
+- Make sure to configure alerts so you can react appropriately to all events based on the severity level
 
-1.  **Use Percentiles**
+1. **Use Percentiles**
 
 The term "perc50" indicates you're looking at a number where 50% of requests are at or below that number.
 
@@ -33,11 +33,11 @@ Consider this example: you have some code which measures how long your users wai
 
 The way to avoid being misled is to use percentiles. A good place to start is P50 and P90. To compute P50, which is really just the median, sort the data points in ascending order: 20, 37, 45, 62, 850, 920. You get P50 by throwing out the bottom 50% of the points and looking at the first point that remains: 62ms. You get P90 by throwing out the bottom 90% of the points and looking at the first point which remains: 920.
 
-## Using percentiles has these advantages:
+## Using percentiles has these advantages
 
-1.  Percentiles aren't skewed by outliers like averages are.
+1. Percentiles aren't skewed by outliers like averages are.
 
-2.  Every percentile data point is an actual user experience, unlike averages.
+2. Every percentile data point is an actual user experience, unlike averages.
 
 You can plot percentiles on a time series graph just like averages. My current team plots P50, P90, P99, and P99.9. This is pretty common. We also have separate alarm thresholds for each percentile. Our P50 latency, for example, tends to be less than one third of our P99 latency (and less than a fifth of P99.9), so we have different thresholds for alarming on these different percentiles.
 
@@ -45,40 +45,42 @@ Percentile metrics work for more than just latency. Imagine you have a set of 50
 
 When you use percentile-based metrics, you get a much better sense for reality.
 
-2.  **Use Alarms**
+2. **Use Alarms**
 
 This one is obvious. A metric without an alarm is a manual chore you've assigned yourself, dooming you to one of two fates:
--   Fate 1: You'll never look at it (what's the point of having the metric)
--   Fate 2: You'll force yourself to look at it on a routine schedule (boring)
 
-1.  Grace Periods
+- Fate 1: You'll never look at it (what's the point of having the metric)
+- Fate 2: You'll force yourself to look at it on a routine schedule (boring)
 
-2.  Daytime Alarms
+1. Grace Periods
 
-3.  **Adaptive Thresholds**
+2. Daytime Alarms
 
-4.  **Missing Metric**
+3. **Adaptive Thresholds**
 
-5.  **Regular Automated Reviews**
+4. **Missing Metric**
 
-6.  **What to measure**
+5. **Regular Automated Reviews**
+
+6. **What to measure**
 
 If you're building a web application or web service, here are some more specific ideas to get you started:
--   **P50, P90, P99 latency**: This is the amount of time the server spends processing each HTTP request, between the time the request arrives at your code, and the time your code generates the response. Slice this per URL and in aggregate.
--   **Latency breakdown**: time spent in application code, time spent waiting for the database, cache, or downstream services. There are great tools that can help with this like NewRelic (but last I checked, NewRelic only used averages and not percentiles, ugh).
--   Number of requests that result in response code 200--299, 400--499, and 500--599. Set alarms on the last 2. A 400-series alarm may tell you that your clients can't figure out how to use your API. A 500-series alarm tells you you've got serious issues.
--   Number of GET, PUT, POST, DELETE, etc. requests.
--   **Total number of requests.** Set an alarm that tells you if traffic surges unexpectedly, or if request counts go to zero!
--   **Application-specific load times (P50, P90, P99).** Twitter uses[time to first tweet](https://blog.alexmaccaw.com/time-to-first-tweet). We use the[performance API](https://www.w3.org/TR/navigation-timing/#sec-window.performance-attribute)to determine how long it took before the user could start interacting with our page. What is the best measure of your application's startup time?
--   P50, P90, P99 request and response payload sizes.
--   P50, P90, and P99 gzip compression ratio. How much is gzip helping your clients? Are your payloads actually compressible?
--   **Number of load balancer spillovers.** How often are your inbound requests rejected because your web servers are at capacity.
--   Cache hit and miss counts.
--   P0, P50, and P100 for the sizes of objects stored in your cache.
--   **The basic host metrics:** disk utilization, disk I/O rate, memory utilization, and cpu utilization. One very useful metric lots of people don't think of is[load average](https://www.howtogeek.com/194642/understanding-the-load-average-on-linux-and-other-unix-like-systems/), which tells you how well your hardware (including disk and network) is keeping up with the demands of your software.
--   **Service input/output operations.** If you're on AWS, you may be using services like ELB or DynamoDB which throttle you if you exceed a certain I/O threshold. If this happens, your app can slow to a crawl and even become unavailable (this happened to my team a few years ago, and it was a pain to diagnose --- we added lots of alarms after this event).
--   **Unhealthy host count.** This is a common metric reported by web load balancers. It tells you how many hosts your load balancer currently considers healthy.
--   **Number of connections open** to each web server, database host, queue server, and any other service you have.
+
+- **P50, P90, P99 latency**: This is the amount of time the server spends processing each HTTP request, between the time the request arrives at your code, and the time your code generates the response. Slice this per URL and in aggregate.
+- **Latency breakdown**: time spent in application code, time spent waiting for the database, cache, or downstream services. There are great tools that can help with this like NewRelic (but last I checked, NewRelic only used averages and not percentiles, ugh).
+- Number of requests that result in response code 200--299, 400--499, and 500--599. Set alarms on the last 2. A 400-series alarm may tell you that your clients can't figure out how to use your API. A 500-series alarm tells you you've got serious issues.
+- Number of GET, PUT, POST, DELETE, etc. requests.
+- **Total number of requests.** Set an alarm that tells you if traffic surges unexpectedly, or if request counts go to zero!
+- **Application-specific load times (P50, P90, P99).** Twitter uses[time to first tweet](https://blog.alexmaccaw.com/time-to-first-tweet). We use the[performance API](https://www.w3.org/TR/navigation-timing/#sec-window.performance-attribute)to determine how long it took before the user could start interacting with our page. What is the best measure of your application's startup time?
+- P50, P90, P99 request and response payload sizes.
+- P50, P90, and P99 gzip compression ratio. How much is gzip helping your clients? Are your payloads actually compressible?
+- **Number of load balancer spillovers.** How often are your inbound requests rejected because your web servers are at capacity.
+- Cache hit and miss counts.
+- P0, P50, and P100 for the sizes of objects stored in your cache.
+- **The basic host metrics:** disk utilization, disk I/O rate, memory utilization, and cpu utilization. One very useful metric lots of people don't think of is[load average](https://www.howtogeek.com/194642/understanding-the-load-average-on-linux-and-other-unix-like-systems/), which tells you how well your hardware (including disk and network) is keeping up with the demands of your software.
+- **Service input/output operations.** If you're on AWS, you may be using services like ELB or DynamoDB which throttle you if you exceed a certain I/O threshold. If this happens, your app can slow to a crawl and even become unavailable (this happened to my team a few years ago, and it was a pain to diagnose --- we added lots of alarms after this event).
+- **Unhealthy host count.** This is a common metric reported by web load balancers. It tells you how many hosts your load balancer currently considers healthy.
+- **Number of connections open** to each web server, database host, queue server, and any other service you have.
 
 <https://medium.com/@djsmith42/how-to-metric-edafaf959fc7>
 
@@ -86,7 +88,7 @@ If you're building a web application or web service, here are some more specific
 
 Latency is the interval between two points in time. you measure the start time and the end time of an event, and you want to know how long it took.
 
-## "unix timestamp**", the number of seconds (or milliseconds) since january 1st, 1970. This time is sometimes referred to as "**wall clock time".
+## "unix timestamp**", the number of seconds (or milliseconds) since january 1st, 1970. This time is sometimes referred to as "**wall clock time"
 
 ## Example
 
@@ -111,13 +113,13 @@ in the context of latency, the average is not a meaningful metric
 
 ## Percentiles
 
-1.  P99
+1. P99
 
 the 99th percentile latency is the worst latency that was observed by 99% of all requests. it is the maximum value if you ignore the top 1%.
 
-2.  P999
+2. P999
 
-3.  P100
+3. P100
 
 ## Histograms
 
@@ -156,7 +158,7 @@ a latency heatmap is a way of visualizing histograms over time.
 
 it visualises the full distribution by plotting time in the x-axis and latency buckets in the y-axis. the color of the bucket indicates how many values fell into that bucket. this conveys much more information than a single percentile would.
 
-<https://igor.io/latency
+<https://igor.io/latency>
 
 ## What is Latency
 
@@ -166,7 +168,7 @@ Latency tends to be heavily multi-modal, and part of this is attributed to "hicc
 
 The number one indicator you should never get rid of is the maximum value. That is not noise, that is the signal. The rest of it is noise.
 
-<https://bravenewgeek.com/everything-you-know-about-latency-is-wrong
+<https://bravenewgeek.com/everything-you-know-about-latency-is-wrong>
 
 ## Long Tail Latency
 
@@ -179,64 +181,65 @@ Network latencies between machines within a data center can be low. Generally, a
 In the context of[computer programming](https://en.wikipedia.org/wiki/Computer_programming),instrumentationrefers to an ability to monitor or measure the level of a product's performance, to diagnose errors, and to write[trace](https://en.wikipedia.org/wiki/Tracing_(software))information.Programmers implement instrumentation in the form of code[instructions](https://en.wikipedia.org/wiki/Instruction_(computer_science))that monitor specific components in a system (for example, instructions may output logging information to appear on the screen). When an application contains instrumentation code, it can be managed by using a management tool. Instrumentation is necessary to review the performance of the application. Instrumentation approaches can be of two types: source instrumentation and binary instrumentation.
 
 In programming, instrumentation means the ability of an application to incorporate:
--   **Code[tracing](https://en.wikipedia.org/wiki/Tracing_(software))-** receiving informative messages about the execution of an application at run time.
--   **[Debugging](https://en.wikipedia.org/wiki/Debugging)and (structured)[exception handling](https://en.wikipedia.org/wiki/Exception_handling)-** tracking down and fixing programming errors in an application under development.
--   **[Profiling](https://en.wikipedia.org/wiki/Profiling_(computer_programming))-** a means by which dynamic program behaviors can be measured during a training run with a representative input. This is useful for properties of a program that cannot be[analyzed statically](https://en.wikipedia.org/wiki/Static_program_analysis)with sufficient precision, such as[alias analysis](https://en.wikipedia.org/wiki/Alias_analysis).
-    -   Flame Graph
--   **Performance counters -** components that allow the tracking of the performance of the application.
--   **[Computer data logging](https://en.wikipedia.org/wiki/Computer_data_logging)-** components that allow the logging and tracking of major events in the execution of the application.
+
+- **Code[tracing](https://en.wikipedia.org/wiki/Tracing_(software))-** receiving informative messages about the execution of an application at run time.
+- **[Debugging](https://en.wikipedia.org/wiki/Debugging)and (structured)[exception handling](https://en.wikipedia.org/wiki/Exception_handling)-** tracking down and fixing programming errors in an application under development.
+- **[Profiling](https://en.wikipedia.org/wiki/Profiling_(computer_programming))-** a means by which dynamic program behaviors can be measured during a training run with a representative input. This is useful for properties of a program that cannot be[analyzed statically](https://en.wikipedia.org/wiki/Static_program_analysis)with sufficient precision, such as[alias analysis](https://en.wikipedia.org/wiki/Alias_analysis).
+  - Flame Graph
+- **Performance counters -** components that allow the tracking of the performance of the application.
+- **[Computer data logging](https://en.wikipedia.org/wiki/Computer_data_logging)-** components that allow the logging and tracking of major events in the execution of the application.
 
 <https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)>
 
-<https://labs.meanpug.com/custom-application-metrics-with-django-prometheus-and-kubernetes
+<https://labs.meanpug.com/custom-application-metrics-with-django-prometheus-and-kubernetes>
 
 ## Metrics (Kubernetes)
 
 Determining Important Metrics
 
-1.  **Four Golden Signals (SRE)**
+1. **Four Golden Signals (SRE)**
 
-    1.  Latency
+    1. Latency
 
 The time it takes to service a request
 
-2.  Errors
+2. Errors
 
 The rate of requests that fail, either explicily, implicitly, or by policy
 
-3.  Traffic
+3. Traffic
 
 A measure of how much demand is being placed on your system
 
-4.  Saturation
+4. Saturation
 
 How "full" your service is
 
-2.  **USE Method (by Brendan Gregg for reasoning about system resources)**
+2. **USE Method (by Brendan Gregg for reasoning about system resources)**
 
-    1.  Utilization
+    1. Utilization
 
 The average time that the resource was busy servicing work
 
-2.  Saturation
+2. Saturation
 
 The degree to which the resource has extra work which it can't service, often queued
 
-3.  Errors
+3. Errors
 
 The count of error events
 
-3.  **RED Method by Tom Wilkie for measuring services**
+3. **RED Method by Tom Wilkie for measuring services**
 
-    1.  Rate
+    1. Rate
 
 The number of requests per second
 
-2.  Errors
+2. Errors
 
 The number of errors per second
 
-3.  Duration
+3. Duration
 
 The length of time required to service the request
 
@@ -304,33 +307,35 @@ container_memory_failures_total
 
 Sources of Metrics
 
-1.  Node
+1. Node
 
-2.  kubelet and containers
+2. kubelet and containers
 
-3.  Kubernetes API
+3. Kubernetes API
 
-4.  etcd
+4. etcd
 
-5.  Derived metrics (kube-state-metrics)
+5. Derived metrics (kube-state-metrics)
 
 Metric Aggregation through the Kubenetes Hierarchy
 
 ## cAdvisor
--   cAdvisor is embedded into the kubelet, so we scrape the kubelet to get container metrics
--   These are the so-called Kubernetes "core" metrics
--   For each container on the node:
-    -   CPU Usage (user and system) and time throttled
-    -   Filesystem read/writes/limits
-    -   Memory usage and limits
-    -   Network transmit/receive/dropped
+
+- cAdvisor is embedded into the kubelet, so we scrape the kubelet to get container metrics
+- These are the so-called Kubernetes "core" metrics
+- For each container on the node:
+  - CPU Usage (user and system) and time throttled
+  - Filesystem read/writes/limits
+  - Memory usage and limits
+  - Network transmit/receive/dropped
 
 ## Kubernetes Metrics from the K8s API Server
--   Performance of controller work queues
--   Request Rates and Latencies
--   Etcd helper cache work queues and cache performance
--   General process status (File descriptors/Memory/CPU seconds)
--   Golang status (GC/Memory/Threads)
+
+- Performance of controller work queues
+- Request Rates and Latencies
+- Etcd helper cache work queues and cache performance
+- General process status (File descriptors/Memory/CPU seconds)
+- Golang status (GC/Memory/Threads)
 
 RED for Kubernetes API Server
 
@@ -347,22 +352,23 @@ Duration
 apiserver_request_latencies_bucket
 
 ## Etcd Metrics from etcd
--   Etcd is "master of all truth" within a K8s cluster
-    -   Leader existence and leader change rate
-    -   Proposals committed/applied/pending/failed
-    -   Disk write performance
-    -   Inbound gRPC stats
-        -   etcd_http_received_total
-        -   etcd_http_failed_total
-        -   etcd_http_successful_duration_seconds_bucket
-    -   Intra-cluster gRPC stats
-        -   etcd_network_member_round_trip_time_seconds_bucket
+
+- Etcd is "master of all truth" within a K8s cluster
+  - Leader existence and leader change rate
+  - Proposals committed/applied/pending/failed
+  - Disk write performance
+  - Inbound gRPC stats
+    - etcd_http_received_total
+    - etcd_http_failed_total
+    - etcd_http_successful_duration_seconds_bucket
+  - Intra-cluster gRPC stats
+    - etcd_network_member_round_trip_time_seconds_bucket
 
 <https://www.youtube.com/watch?v=1oJXMdVi0mM>
 
 ## Types of Metrics
 
-1.  **Counter**
+1. **Counter**
 
 Represents a monotonically increasing value.
 
@@ -374,7 +380,7 @@ Acounteris a cumulative metric that represents a single[monotonically increasing
 
 Do not use a counter to expose a value that can decrease. For example, do not use a counter for the number of currently running processes; instead use a gauge.
 
-2.  **Gauge**
+2. **Gauge**
 
 Represents a single value that can go up or down.
 
@@ -386,7 +392,7 @@ Agaugeis a metric that represents a single numerical value that can arbitrarily 
 
 Gauges are typically used for measured values like temperatures or current memory usage, but also "counts" that can go up and down, like the number of concurrent requests.
 
-3.  **Histogram**
+3. **Histogram**
 
 A counting of observations (like request durations or sizes) in configurable buckets.
 
@@ -397,34 +403,36 @@ In this example, a histogram metric is used to calculate the 75th and 90th perce
 Ahistogramsamples observations (usually things like request durations or response sizes) and counts them in configurable buckets. It also provides a sum of all observed values.
 
 A histogram with a base metric name of<basename>exposes multiple time series during a scrape:
--   cumulative counters for the observation buckets, exposed as<basename>_bucket{le="<upper inclusive bound>"}
--   thetotal sumof all observed values, exposed as<basename>_sum
--   thecountof events that have been observed, exposed as<basename>_count(identical to<basename>_bucket{le="+Inf"}above)
+
+- cumulative counters for the observation buckets, exposed as<basename>_bucket{le="<upper inclusive bound>"}
+- thetotal sumof all observed values, exposed as<basename>_sum
+- thecountof events that have been observed, exposed as<basename>_count(identical to<basename>_bucket{le="+Inf"}above)
 
 Use the[histogram_quantile()function](https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile)to calculate quantiles from histograms or even aggregations of histograms. A histogram is also suitable to calculate an[Apdex score](https://en.wikipedia.org/wiki/Apdex). When operating on buckets, remember that the histogram is[cumulative](https://en.wikipedia.org/wiki/Histogram#Cumulative_histogram). See[histograms and summaries](https://prometheus.io/docs/practices/histograms)for details of histogram usage and differences to[summaries](https://prometheus.io/docs/concepts/metric_types/#summary).
 
-4.  **Summary**
+4. **Summary**
 
 Similar to ahistogram, asummarysamples observations (usually things like request durations and response sizes). While it also provides a total count of observations and a sum of all observed values, it calculates configurable quantiles over a sliding time window.
 
 A summary with a base metric name of<basename>exposes multiple time series during a scrape:
--   streamingφ-quantiles(0 ≤ φ ≤ 1) of observed events, exposed as<basename>{quantile="<φ>"}
--   thetotal sumof all observed values, exposed as<basename>_sum
--   thecountof events that have been observed, exposed as<basename>_count
 
-## Two rules of thumb:
+- streamingφ-quantiles(0 ≤ φ ≤ 1) of observed events, exposed as<basename>{quantile="<φ>"}
+- thetotal sumof all observed values, exposed as<basename>_sum
+- thecountof events that have been observed, exposed as<basename>_count
 
-1.  If you need to aggregate, choose histograms.
+## Two rules of thumb
 
-2.  Otherwise, choose a histogram if you have an idea of the range and distribution of values that will be observed. Choose a summary if you need an accurate quantile, no matter what the range and distribution of the values is.
+1. If you need to aggregate, choose histograms.
 
-<https://prometheus.io/docs/concepts/metric_types
+2. Otherwise, choose a histogram if you have an idea of the range and distribution of values that will be observed. Choose a summary if you need an accurate quantile, no matter what the range and distribution of the values is.
 
-<https://prometheus.io/docs/practices/histograms
+<https://prometheus.io/docs/concepts/metric_types>
+
+<https://prometheus.io/docs/practices/histograms>
 
 ## Apdex (Application Performance Index)
 
-## Apdexis an[open standard](https://en.wikipedia.org/wiki/Open_standard)for measuring performance of[software applications](https://en.wikipedia.org/wiki/Software_applications)in[computing](https://en.wikipedia.org/wiki/Computing). Its purpose is to convert measurements into insights about user satisfaction, by specifying a uniform way to analyze and report on the degree to which measured performance meets[user expectations](https://en.wikipedia.org/wiki/User_expectations). It was developed by an alliance of companies.
+## Apdexis an[open standard](https://en.wikipedia.org/wiki/Open_standard)for measuring performance of[software applications](https://en.wikipedia.org/wiki/Software_applications)in[computing](https://en.wikipedia.org/wiki/Computing). Its purpose is to convert measurements into insights about user satisfaction, by specifying a uniform way to analyze and report on the degree to which measured performance meets[user expectations](https://en.wikipedia.org/wiki/User_expectations). It was developed by an alliance of companies
 
 <https://en.wikipedia.org/wiki/Apdex>
 
@@ -432,4 +440,4 @@ A summary with a base metric name of<basename>exposes multiple time series durin
 
 ![2 3 Alert types SLA alerts Baseline breaching alerts Runtime property alerts Alert Examples Sentiment calculation latency must be < 500ms Amount of Tweets classified as positive dropped by 60% for a duration > 5 minutes Tweet returned sentiment score = 2 Metrics list sentiment_latency_duration_ms positive_tweets_count Sentiment score ](../../media/DevOps-Monitoring-Metrics-image4.png)
 
-<https://www.freecodecamp.org/news/metrics-driven-development
+<https://www.freecodecamp.org/news/metrics-driven-development>

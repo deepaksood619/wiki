@@ -27,7 +27,8 @@ react-native run-ios
 react-native run-android
 
 ## Others
--   SafeAreaView
--   BackHandler
+
+- SafeAreaView
+- BackHandler
 
 <https://medium.com/corebuild-software/easily-optimise-your-react-native-components-rendering-8deb22176c8a>

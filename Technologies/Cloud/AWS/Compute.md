@@ -6,45 +6,46 @@ Modified: 2022-12-11 14:20:27 +0500
 
 ---
 
-1.  Amazon EC2
+1. Amazon EC2
 
 Virtual Servers in the Cloud
 
 installing docker in ubuntu ec2 instance
--   apt-get update
--   apt-get install docker
--   sudo usermod -aG docker ubuntu
--   log out of terminal and log back in
--   sudo systemctl start docker
--   docker run hello-world
 
-2.  Amazon EC2 Auto Scaling
+- apt-get update
+- apt-get install docker
+- sudo usermod -aG docker ubuntu
+- log out of terminal and log back in
+- sudo systemctl start docker
+- docker run hello-world
+
+2. Amazon EC2 Auto Scaling
 
 Scale Compute Capacity to Meet Demand
 
-3.  Amazon Elagoostic Container Service
+3. Amazon Elagoostic Container Service
 
 Run and Manage Docker Containers
 
-4.  Amazon Elastic Container Service for Kubernetes
+4. Amazon Elastic Container Service for Kubernetes
 
 Run Managed Kubernetes on AWS
 
-5.  Amazon Elastic Container Registry
+5. Amazon Elastic Container Registry
 
 Store and Retrieve Docker Images
 
-6.  Amazon Lightsail
+6. Amazon Lightsail
 
 Launch and Manage Virtual Private Servers
 
-<https://aws.amazon.com/lightsail/resources
+<https://aws.amazon.com/lightsail/resources>
 
-7.  AWS Batch
+7. AWS Batch
 
 Run Batch Jobs at Any Scale
 
-8.  AWS Elastic Beanstalk
+8. AWS Elastic Beanstalk
 
 Run and Manage Web Apps
 
@@ -53,12 +54,13 @@ AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web ap
 You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.
 
 Deployment modes -
--   **All at once:** This is the fastest mode. In this case, Elastic Beanstalk will simply stop all the running instances and then will deploy the new version to these instances.
--   **Immutable:** In this mode, Elastic Beanstalk will create a new Auto Scaling Group and deploy the new instances there. Then, if the deployment succeeds, it will replace the old Auto Scaling Group with the newly created one.
--   **Rolling:** During the deployment, Elastic Beanstalk will deploy the new application version to some of the currently running instances, and repeat that process until all instances are running the same version. Using this mode, the application will run below capacity, but with zero downtime and no additional costs.
--   **Rolling with additional batches:** In this mode, Elastic Beanstalk will make sure there is no capacity reduction. It does so by first starting new instances with the new version of the application, and only then deploying the new version to the old instances.
 
-9.  AWS Fargate
+- **All at once:** This is the fastest mode. In this case, Elastic Beanstalk will simply stop all the running instances and then will deploy the new version to these instances.
+- **Immutable:** In this mode, Elastic Beanstalk will create a new Auto Scaling Group and deploy the new instances there. Then, if the deployment succeeds, it will replace the old Auto Scaling Group with the newly created one.
+- **Rolling:** During the deployment, Elastic Beanstalk will deploy the new application version to some of the currently running instances, and repeat that process until all instances are running the same version. Using this mode, the application will run below capacity, but with zero downtime and no additional costs.
+- **Rolling with additional batches:** In this mode, Elastic Beanstalk will make sure there is no capacity reduction. It does so by first starting new instances with the new version of the application, and only then deploying the new version to the old instances.
+
+9. AWS Fargate
 
 Run Containers without Managing Servers or Clusters
 
@@ -74,9 +76,9 @@ Run Your Code in Response to Events
 
 #
 
-# This function is triggered when values are inserted into the Inventory DynamoDB table.
+# This function is triggered when values are inserted into the Inventory DynamoDB table
 
-# Inventory counts are checked, and if an item is out of stock, a notification is sent to an SNS topic.
+# Inventory counts are checked, and if an item is out of stock, a notification is sent to an SNS topic
 
 # This handler is executed every time the Lambda function is triggered
 
@@ -132,7 +134,7 @@ MessageStructure='raw'
 
 )
 
-# Finished!
+# Finished
 
 return 'Successfully processed {} records.'.format(len(event['Records']))
 

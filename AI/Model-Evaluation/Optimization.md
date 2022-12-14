@@ -7,10 +7,11 @@ Modified: 2021-06-19 14:47:58 +0500
 ---
 
 ## Learn how to
--   Quantify model performance using loss function
--   Use loss functions as the basis for an algorithm called gradient
--   Optimize gradient descent to be as efficient as possible
--   Use performance metrics to make business decisions
+
+- Quantify model performance using loss function
+- Use loss functions as the basis for an algorithm called gradient
+- Optimize gradient descent to be as efficient as possible
+- Use performance metrics to make business decisions
 
 #
 
@@ -95,8 +96,6 @@ Modified: 2021-06-19 14:47:58 +0500
 ![image](media/Optimization-image36.png)
 
 ![image](media/Optimization-image37.png)
-
-
 
 # TensorFlow Playground
 

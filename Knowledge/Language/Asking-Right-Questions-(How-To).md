@@ -9,16 +9,16 @@ Modified: 2022-04-29 22:09:09 +0500
 A good question is the one that lets you obtain the**type,quality,** and**quantity**of information you need.
 
 Here are some basic but very effective types:
--   **Open-ended questions**encourage people to reflect and reveal what's important for them. They allow people to freely expand on what is comfortable for them, rather than justifying their thoughts. Open-ended questions tend to explore possibilities, feelings, and the reasons why. Michael J. Marquardt, author of[Leading with questions](https://www.amazon.com/Leading-Questions-Leaders-Solutions-Knowing/dp/1118658132), describes some types of open-ended questions:
-    -   **Explorative**questions force expansion on new points of view and uncovered areas.Have you thought of...?
-    -   **Affective**questions reveal people's feelings about something.How do you feel about...?
-    -   **Reflective**questions encourage more elaboration.What do you think causes...?
-    -   **Probing**questions invite a deeper examination.Can you describe how...?
-    -   **Analytical**questions look for the roots of a problem.What are the causes of...?
-    -   **Clarifying**questions help align and avoid misunderstandings.So, you mean that..?
 
+- **Open-ended questions**encourage people to reflect and reveal what's important for them. They allow people to freely expand on what is comfortable for them, rather than justifying their thoughts. Open-ended questions tend to explore possibilities, feelings, and the reasons why. Michael J. Marquardt, author of[Leading with questions](https://www.amazon.com/Leading-Questions-Leaders-Solutions-Knowing/dp/1118658132), describes some types of open-ended questions:
+  - **Explorative**questions force expansion on new points of view and uncovered areas.Have you thought of...?
+  - **Affective**questions reveal people's feelings about something.How do you feel about...?
+  - **Reflective**questions encourage more elaboration.What do you think causes...?
+  - **Probing**questions invite a deeper examination.Can you describe how...?
+  - **Analytical**questions look for the roots of a problem.What are the causes of...?
+  - **Clarifying**questions help align and avoid misunderstandings.So, you mean that..?
 
--   **Closed questions**call for specific answers---usually yes or no---or they force the respondent to select an answer from a given set, or to agree or disagree with a statement. Closed questions tend to focus on facts---what, when, where---and are usually easy to answer. For example:"Where were you born? How many miles do you drive a month?"
+- **Closed questions**call for specific answers---usually yes or no---or they force the respondent to select an answer from a given set, or to agree or disagree with a statement. Closed questions tend to focus on facts---what, when, where---and are usually easy to answer. For example:"Where were you born? How many miles do you drive a month?"
 
 ## The Anatomy of a Good Question
 
@@ -67,54 +67,59 @@ By question five,[product designers](https://www.toptal.com/designers/product-de
 ## Who, What, Where, When, Why, and How
 
 This is another framework that can be used in order to analyze and get a deeper understanding of the situation and context. Whenever you face a problem, asking these questions will help you get a clear view of the current situation, map critical pain points, and come up with possible ways of taking concrete action that will solve the problem:
--   **Who**interferes with the process in the situation? Users, stakeholders, suppliers, clients, team...
--   **What**elements compose the situation? Actions, behaviors, elements, tools...
--   **Where**does it happen? Geographically, culturally, socially, economically...
--   **When**does this occur? Past, present, future, situational context (when I'm in a rush), frequency...
--   **Why**does this happen? Causes, constraints, needs, motivations...
--   **How**is the situation created? Processes, metrics, results...
+
+- **Who**interferes with the process in the situation? Users, stakeholders, suppliers, clients, team...
+- **What**elements compose the situation? Actions, behaviors, elements, tools...
+- **Where**does it happen? Geographically, culturally, socially, economically...
+- **When**does this occur? Past, present, future, situational context (when I'm in a rush), frequency...
+- **Why**does this happen? Causes, constraints, needs, motivations...
+- **How**is the situation created? Processes, metrics, results...
 
 ## Questioning Techniques That Can Trigger the Imagination
 
 There are some question starters that will help you frame your questions in a way that encourages imagination and causes people to develop new perspectives:
--   What if...?
--   How would it be different if...?
--   Suppose that...?
--   What if we knew...?
--   What would change if...?
--   What other way could we...?
+
+- What if...?
+- How would it be different if...?
+- Suppose that...?
+- What if we knew...?
+- What would change if...?
+- What other way could we...?
 
 ## Questioning Techniques That Foster Collaboration
 
 As part of a design thinking exercise, there are some question starters that will help frame questions in a way that builds trust and encourages team collaboration:
--   How do you feel about...?
--   How would you describe...?
--   How could we...?
--   What help do we need in order to...?
+
+- How do you feel about...?
+- How would you describe...?
+- How could we...?
+- What help do we need in order to...?
 
 <https://www.toptal.com/designers/product-design/design-thinking-great-questions>
 
 ## Leading with Questions: How Leaders Find the Right Solutions by Knowing What to Ask by Michael J. Marquardt
 
-1.  **Ask questions, even if it scares you**
+1. **Ask questions, even if it scares you**
 
 What's in the way of leaders asking more and better questions, right now?
--   We're protecting ourselves -- we look smarter if we don't ask!
--   We're too busy
--   We may lack skills in asking great questions
--   We may work in environments that discourage questions
 
-2.  **Some people are waiting to be asked for their ideas**
+- We're protecting ourselves -- we look smarter if we don't ask!
+- We're too busy
+- We may lack skills in asking great questions
+- We may work in environments that discourage questions
+
+2. **Some people are waiting to be asked for their ideas**
 
 Cindy Stewart, a former factory worker, shares a story of overhearing the management team discussing a bottleneck problem on the factory floor. As they wrestled with solutions, Cindy thought "I wish they would ask me." Imagine what a difference it would have made if they had asked. Cindy's managers missed an opportunity to learn, to empower a staff member, and to quickly find a workable solution.
 
 By asking great questions, leaders can develop their team members and:
--   Cause people to focus or stretch, for example: "What are you trying to accomplish?"
--   Create deep reflection, for example: "How is this supported by our core values?"
--   Challenge taken for granted assumptions, for example: "Why do we do it this way?"
--   Generate positive and powerful action, for example: "How can you take a leadership role in resolving this issue?"
 
-3.  **The search for great questions is never completed**
+- Cause people to focus or stretch, for example: "What are you trying to accomplish?"
+- Create deep reflection, for example: "How is this supported by our core values?"
+- Challenge taken for granted assumptions, for example: "Why do we do it this way?"
+- Generate positive and powerful action, for example: "How can you take a leadership role in resolving this issue?"
+
+3. **The search for great questions is never completed**
 
 Here's the action: keep looking for questions that will open doors, challenge assumptions, and promote creative thinking.So, what makes a great question?
 
@@ -129,12 +134,13 @@ The **learner mindset** tends to be optimistic and presupposes new possibilities
 Conversely, the **judger mindset** focuses on the past to apportion praise or, more likely, blame. The judger mindset asks: Whose fault is it? Why can't you get it right?
 
 Considering the need to ask questions that are open and have the learner mindset, here are some examples of questions you might use:
--   What other options can we think of?
--   How do you feel the project is going?
--   Tell me more about...
--   What resources have we never used?
--   Can you elaborate on why this is happening?
--   What would success look like?
+
+- What other options can we think of?
+- How do you feel the project is going?
+- Tell me more about...
+- What resources have we never used?
+- Can you elaborate on why this is happening?
+- What would success look like?
 
 Questions can empower or constrain. Questions can open up or shut down conversations. You can use questions to create a culture of learning or a culture of defensiveness. As a leader, the questions you ask can not only create benefits for you, but for your whole team and for your organization.
 
@@ -157,25 +163,26 @@ Questions can empower or constrain. Questions can open up or shut down conversat
 | Enable Change             | What will you need from us in the future?                                    |
 | Develop Vision and Values | Are we being honest with ourselves?                                          |
 
-<http://webbyclare.com/book-review-leading-with-questions
+<http://webbyclare.com/book-review-leading-with-questions>
 
 ## Questions to ask if someone asks questions?
 
-1.  Why do u ask that?
+1. Why do u ask that?
 
-2.  Why are you considering switching?
+2. Why are you considering switching?
 
-3.  How do you classify better? What's wrong with what you are using now?
+3. How do you classify better? What's wrong with what you are using now?
 
-4.  What is that problem and why is it essential to your project?
+4. What is that problem and why is it essential to your project?
 
 ## Manager negative connotations phrases
--   Me as a manager is worried you are not performing
--   You need to be more of a team player
--   Your approach, makes it difficult to work with
--   Try to make people more comfortable around you
--   You are hurting relationships at work, when you talk about ...
--   I am not as smart as you guys, so please explain me it in plain english
+
+- Me as a manager is worried you are not performing
+- You need to be more of a team player
+- Your approach, makes it difficult to work with
+- Try to make people more comfortable around you
+- You are hurting relationships at work, when you talk about ...
+- I am not as smart as you guys, so please explain me it in plain english
 
 Team, On a serious note I would need each one of you to attend the evening call. It's just twice in a week and it's in reasonable time. Please be mindful about this. The purpose of the call was to talk and collaborate with the team (not just me).
 

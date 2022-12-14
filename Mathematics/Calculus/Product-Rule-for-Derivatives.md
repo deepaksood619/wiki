@@ -18,6 +18,7 @@ Fifth is *function composition*
 ![image](media/Product-Rule-for-Derivatives-image6.png)
 ![image](media/Product-Rule-for-Derivatives-image7.png)
 ![image](media/Product-Rule-for-Derivatives-image8.png)
+
 ## References
 
 [Product Rule for Derivatives (Calculus)](https://www.youtube.com/watch?v=8Qw2aPjqW9c)

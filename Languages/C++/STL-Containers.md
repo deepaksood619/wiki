@@ -6,7 +6,7 @@ Modified: 2019-08-21 21:48:25 +0500
 
 ---
 
-1.  **Sequences**
+1. **Sequences**
 
     a.  C++ Vectors
 
@@ -14,7 +14,7 @@ Modified: 2019-08-21 21:48:25 +0500
 
     c.  C++ Double-Ended Queues
 
-2.  **Container Adapters**
+2. **Container Adapters**
 
     a.  C++ Stacks
 
@@ -22,7 +22,7 @@ Modified: 2019-08-21 21:48:25 +0500
 
     c.  C++ Priority Queues
 
-3.  **Associative Containers**
+3. **Associative Containers**
 
     a.  C++ Bitsets
 
@@ -92,7 +92,7 @@ size
 
 swap
 
-<http://www.cplusplus.com/reference/vector/vector
+<http://www.cplusplus.com/reference/vector/vector>
 
 ## C++ Lists
 
@@ -251,33 +251,30 @@ top
 ## C++ Sets
 
 Sets are a part of the C++ STL. Sets are containers that store unique elements following a specific order. Here are some of the frequently used member functions of sets:
--   Declaration
+
+- Declaration
 
 set<int>s; //Creates a set of integers
 
-
--   Size
+- Size
 
 int length=s.size(); //Gives the size of the set
 
-
--   Insert
+- Insert
 
 s.insert(x); //Inserts an integer x into the set s
 
-
--   Erasing an element
+- Erasing an element
 
 s.erase(val); //Erases an integer val from the set s
 
-
--   Finding an element
+- Finding an element
 
 set<int>::iterator itr=s.find(val); //Gives the iterator to the element val if it is found otherwise returns s.end()
 
 Ex: set<int>::iterator itr=s.find(100); //If 100 is not present then it==s.end()
 
-<https://www.geeksforgeeks.org/set-in-cpp-stl
+<https://www.geeksforgeeks.org/set-in-cpp-stl>
 
 Set constructors & destructors
 
@@ -362,36 +359,30 @@ value_comp
 ## C++ Maps
 
 Maps are a part of the C++ STL.Maps are associative containers that store elements formed by a combination of a key value and a mapped value, following a specific order.The mainly used member functions of maps are:
--   Map Template:
+
+- Map Template:
     std::map <key_type, data_type>
 
-
--   Declaration:
+- Declaration:
     map<string,int>m; //Creates a map m where key_type is of type string and data_type is of type int.
 
-
--   Size:
+- Size:
     int length=m.size(); //Gives the size of the map.
 
-
--   Insert:
+- Insert:
     m.insert(make_pair("hello",9)); //Here the pair is inserted into the map where the key is "hello" and the value associated with it is 9.
 
-
--   Erasing an element:
+- Erasing an element:
     m.erase(val); //Erases the pair from the map where the key_type is val.
 
-
--   Finding an element:
+- Finding an element:
     map<string,int>::iterator itr=m.find(val); //Gives the iterator to the element val if it is found otherwise returns m.end()
     Ex: map<string,int>::iterator itr=m.find("Maps"); //If Maps is not present as the key value then itr==m.end().
 
-
--   Accessing the value stored in the key:
+- Accessing the value stored in the key:
     To get the value stored of the key "MAPS" we can do m["MAPS"] or we can get the iterator using the find function and then by itr->second we can access the value.
 
-
--   Updating an element
+- Updating an element
 
 map<string,int>::iterator find_itr = students.find(name);
 
@@ -405,9 +396,7 @@ find_itr->second = find_itr->second + marks;
 
 }
 
-
-
-<https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl
+<https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl>
 
 Map Constructors & Destructors
 

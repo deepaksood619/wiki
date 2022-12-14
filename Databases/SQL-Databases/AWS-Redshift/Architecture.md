@@ -8,7 +8,8 @@ Modified: 2022-06-02 19:21:01 +0500
 
 ![image](media/AWS-Redshift_Architecture-image1.png)
 Redshift is meant to work in a Cluster formation. A typical Redshift Cluster has two or more**Compute Nodes**which are coordinated through a**Leader Node**.All client applications communicate with the cluster only with the Leader Node.
-1.  **Leader Node**
+
+1. **Leader Node**
 
 The Leader Node in an Amazon Redshift Cluster manages all external and internal communication. It is responsible for preparing query execution plans whenever a query is submitted to the cluster. Once the query execution plan is ready, the Leader Node distributes query execution code on the compute nodes and assigns slices of data to each to compute node for computation of results.
 Leader Node distributes query load to compute node only when the query involves accessing data stored on the compute nodes. Otherwise, the query is executed on the Leader Node itself. There are several functions in Redshift architecture which are always executed on the Leader Node. You can read[SQL Functions Supported on the Leader Node](http://docs.aws.amazon.com/redshift/latest/dg/c_sql-functions-leader-node.html)for more information on these functions.
@@ -16,8 +17,9 @@ Leader Node distributes query load to compute node only when the query involves 
 
 Compute Nodes are responsible for the actual execution of queries and have data stored with them. They execute queries and return intermediate results to the Leader Node which further aggregates the results.
 There are two types of Compute Nodes available in Redshift architecture:
--   Dense Storage (DS) --Dense Storage nodes allow you to create large data warehouses using Hard Disk Drives (HDDs) for a low price point.
--   Dense Compute (DC) --Dense Compute nodes allow you to create high-performance data warehouses using Solid-State Drives (SSDs).
+
+- Dense Storage (DS) --Dense Storage nodes allow you to create large data warehouses using Hard Disk Drives (HDDs) for a low price point.
+- Dense Compute (DC) --Dense Compute nodes allow you to create high-performance data warehouses using Solid-State Drives (SSDs).
 A more detailed explanation of how responsibilities are divided among Leader and Compute Nodes are depicted in the diagram below:
 
 ![image](media/AWS-Redshift_Architecture-image2.png)

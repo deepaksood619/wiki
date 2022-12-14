@@ -6,7 +6,7 @@ Modified: 2022-11-19 18:47:56 +0500
 
 ---
 
-## SELECT count(*) AS TOTALNUMBEROFTABLES FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'sttash_website_LIVE';
+## SELECT count(*) AS TOTALNUMBEROFTABLES FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'sttash_website_LIVE'
 
 ## # 20 Apr 2021 - 955
 
@@ -20,13 +20,13 @@ select count(*) from sys.schema_unused_indexes;
 
 ## # show all unused tables
 
-## SHOW TABLE STATUS where `Rows` = 0;
+## SHOW TABLE STATUS where `Rows` = 0
 
-## SHOW TABLE STATUS where `Rows` = 0;
+## SHOW TABLE STATUS where `Rows` = 0
 
 ## # 37
 
-## SHOW TABLE STATUS where `Rows` < 5;
+## SHOW TABLE STATUS where `Rows` < 5
 
 ## # 101
 
@@ -68,7 +68,7 @@ SELECT ( @@key_buffer_size
 
 + @@tmp_table_size )
 
-) / (1024 * 1024 * 1024) AS MAX_MEMORY_GB;
+) / (1024 *1024* 1024) AS MAX_MEMORY_GB;
 
 SELECT
 
@@ -98,7 +98,7 @@ ON r.trx_id = w.requesting_trx_id;
 
 call sys.ps_truncate_all_tables(true);
 
-## To get all tables with columnscolumnAorColumnBin the databaseYourDatabase:
+## To get all tables with columnscolumnAorColumnBin the databaseYourDatabase
 
 SELECT DISTINCT TABLE_NAME
 FROM INFORMATION_SCHEMA.COLUMNS

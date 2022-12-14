@@ -16,63 +16,65 @@ The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT co
 
 ![](../../media/Technologies-Brokers-EMQTT-image1.png)
 
-## Highlights of theEMQ Xbroker:
--   Full MQTT V3.1/3.1.1 & V5.0 Protocol Specifications Support
--   Easy to Install - Quick Install on Linux, Mac and Windows
--   Massively scalable - Scaling to 1 million connections on a single server
--   Cluster and Bridge Support
--   Easy to extend - Hooks and plugins to customize or extend the broker
--   Pluggable Authentication - LDAP, MySQL, PostgreSQL, Redis Authentication Plugins
+## Highlights of theEMQ Xbroker
+
+- Full MQTT V3.1/3.1.1 & V5.0 Protocol Specifications Support
+- Easy to Install - Quick Install on Linux, Mac and Windows
+- Massively scalable - Scaling to 1 million connections on a single server
+- Cluster and Bridge Support
+- Easy to extend - Hooks and plugins to customize or extend the broker
+- Pluggable Authentication - LDAP, MySQL, PostgreSQL, Redis Authentication Plugins
 
 ## Features
--   Full MQTT V3.1/V3.1.1 & V5.0 protocol specifications support
--   QoS0, QoS1, QoS2 Publish and Subscribe
--   Session Management and Offline Messages
--   Retained Message
--   Last Will Message
--   TCP/SSL Connection
--   MQTT Over WebSocket(SSL)
--   HTTP Publish API
--   STOMP protocol
--   MQTT-SN Protocol
--   CoAP Protocol
--   STOMP over SockJS
--   $SYS/# Topics
--   ClientID Authentication
--   IpAddress Authentication
--   Username and Password Authentication
--   Access control based on IpAddress, ClientID, Username
--   Authentication with LDAP, Redis, MySQL, PostgreSQL and HTTP API
--   Cluster brokers on several servers
--   Bridge brokers locally or remotely
--   mosquitto, RSMB bridge
--   Extensible architecture with Hooks, Modules and Plugins
--   Passed eclipse paho interoperability tests
--   Local subscription
--   Shared subscription
+
+- Full MQTT V3.1/V3.1.1 & V5.0 protocol specifications support
+- QoS0, QoS1, QoS2 Publish and Subscribe
+- Session Management and Offline Messages
+- Retained Message
+- Last Will Message
+- TCP/SSL Connection
+- MQTT Over WebSocket(SSL)
+- HTTP Publish API
+- STOMP protocol
+- MQTT-SN Protocol
+- CoAP Protocol
+- STOMP over SockJS
+- $SYS/# Topics
+- ClientID Authentication
+- IpAddress Authentication
+- Username and Password Authentication
+- Access control based on IpAddress, ClientID, Username
+- Authentication with LDAP, Redis, MySQL, PostgreSQL and HTTP API
+- Cluster brokers on several servers
+- Bridge brokers locally or remotely
+- mosquitto, RSMB bridge
+- Extensible architecture with Hooks, Modules and Plugins
+- Passed eclipse paho interoperability tests
+- Local subscription
+- Shared subscription
 
 ## Table of Content
 
-1.  Deployment
+1. Deployment
 
-2.  Installation
+2. Installation
 
-3.  Configuration
+3. Configuration
 
-4.  Clustering
+4. Clustering
 
-5.  Bridge
+5. Bridge
 
-6.  User Guide
+6. User Guide
 
-7.  Advanced features
-    -   Shared Subscription
+7. Advanced features
+    - Shared Subscription
 
 *EMQ X*3.0 supports shared subscription at cluster level. It allows load balancing between multiple subscribers in the same group when distributing MQTT messages.
 
-8.  Design
+8. Design
 
-9.  Commands
+9. Commands
 
 10. Plugins
 

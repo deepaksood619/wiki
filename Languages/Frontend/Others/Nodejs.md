@@ -18,8 +18,7 @@ Node.js package ecosystem,[npm](https://www.npmjs.com/), is the largest ecosyste
 
 Go for stateless as soon as possible. It's better to go for stateless right from the very beginning. If you're on NodeJS and PM2, you have to keep your code stateless if you want PM2 to multiply your runtime for load-balancing.
 
-
--   Not for CPU-intensive tasks
+- Not for CPU-intensive tasks
 
 ## Javascript V8 Engine
 
@@ -33,17 +32,17 @@ Advanced, production process manager for Node.js
 
 PM2 is daemon process manager that will help you manage and keep your application online.
 
-<http://pm2.keymetrics.io
+<http://pm2.keymetrics.io>
 
 ## Difference between Node.js and PHP
 
-1.  PHP is powered by Zend engine whereas Node.js is powered by Google's V8 JavaScript engine.
+1. PHP is powered by Zend engine whereas Node.js is powered by Google's V8 JavaScript engine.
 
-2.  PHP is synchronous while Node.js is asynchronous.
+2. PHP is synchronous while Node.js is asynchronous.
 
-3.  PHP is slower while Node.js is quicker.
+3. PHP is slower while Node.js is quicker.
 
-4.  PHP has a ready to install feature to use it on the server side whereas Node.js is a runtime environment for JavaScript on the server side.
+4. PHP has a ready to install feature to use it on the server side whereas Node.js is a runtime environment for JavaScript on the server side.
 
 ## NPM
 
@@ -65,7 +64,7 @@ You can add npm to a project simply by using the "npm init" command. When you ru
 
 <https://www.toptal.com/nodejs>
 
-<https://www.freecodecamp.org/news/async-local-storage-nodejs
+<https://www.freecodecamp.org/news/async-local-storage-nodejs>
 
 <https://www.toptal.com/nodejs/interview-questions>
 
@@ -77,6 +76,6 @@ You can add npm to a project simply by using the "npm init" command. When you ru
 
 [**https://www.toptal.com/express-js/nodejs-typescript-rest-api-pt-3**](https://www.toptal.com/express-js/nodejs-typescript-rest-api-pt-3)
 
-<https://www.freecodecamp.org/news/free-8-hour-node-express-course
+<https://www.freecodecamp.org/news/free-8-hour-node-express-course>
 
-<https://www.freecodecamp.org/news/build-six-node-js-and-express-js
+<https://www.freecodecamp.org/news/build-six-node-js-and-express-js>

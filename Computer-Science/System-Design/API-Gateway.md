@@ -9,25 +9,26 @@ Modified: 2022-02-05 01:13:53 +0500
 ## API Design
 
 [Designing APIs: Less Data is More || Damir Svrtan](https://www.youtube.com/watch?v=DC9032_nkyc)
+
 ## Features
 
-1.  Authentication
+1. Authentication
 
-2.  Authorization
+2. Authorization
 
-3.  Security
+3. Security
 
-4.  SSL termination
+4. SSL termination
 
-5.  DDOS protection / Throttling
+5. DDOS protection / Throttling
 
-6.  Adaptor (that will consolidate all information from all services and return as one response)
+6. Adaptor (that will consolidate all information from all services and return as one response)
 
-7.  Serve static content
+7. Serve static content
 
-8.  Cache responses
+8. Cache responses
 
-9.  Request routing
+9. Request routing
 
 10. Router & Load Balancer
 
@@ -42,19 +43,24 @@ Modified: 2022-02-05 01:13:53 +0500
 15. Rate Limiting
 
 16. Expose as API service
-## Using an API gateway has the following benefits:
--   Insulates the clients from how the application is partitioned into microservices
--   Insulates the clients from the problem of determining the locations of service instances
--   Provides the optimal API for each client
--   Reduces the number of requests/roundtrips. For example, the API gateway enables clients to retrieve data from multiple services with a single round-trip. Fewer requests also means less overhead and improves the user experience. An API gateway is essential for mobile applications.
--   Simplifies the client by moving logic for calling multiple services from the client to API gateway
--   Translates from a "standard" public web-friendly API protocol to whatever protocols are used internally
-## The API gateway pattern has some drawbacks:
--   Increased complexity - the API gateway is yet another moving part that must be developed, deployed and managed
--   Increased response time due to the additional network hop through the API gateway - however, for most applications the cost of an extra roundtrip is insignificant.
+
+## Using an API gateway has the following benefits
+
+- Insulates the clients from how the application is partitioned into microservices
+- Insulates the clients from the problem of determining the locations of service instances
+- Provides the optimal API for each client
+- Reduces the number of requests/roundtrips. For example, the API gateway enables clients to retrieve data from multiple services with a single round-trip. Fewer requests also means less overhead and improves the user experience. An API gateway is essential for mobile applications.
+- Simplifies the client by moving logic for calling multiple services from the client to API gateway
+- Translates from a "standard" public web-friendly API protocol to whatever protocols are used internally
+
+## The API gateway pattern has some drawbacks
+
+- Increased complexity - the API gateway is yet another moving part that must be developed, deployed and managed
+- Increased response time due to the additional network hop through the API gateway - however, for most applications the cost of an extra roundtrip is insignificant.
+
 ## Tools
 
-1.  **Cloud**
+1. **Cloud**
 
     a.  Apigee
 
@@ -66,7 +72,7 @@ Modified: 2022-02-05 01:13:53 +0500
 
     e.  WSO2 API Manager
 
-2.  **Self Managed**
+2. **Self Managed**
 
     a.  Apache
 
@@ -90,12 +96,13 @@ Gloo is a feature-rich, Kubernetes-native ingress controller, and next-generatio
 
 [Ambassador](https://www.getambassador.io/)is an open source Kubernetes-native API Gateway built on[Envoy](https://www.envoyproxy.io/), designed for microservices. Ambassador essentially serves as an Envoy ingress controller, but with many more features.
 Key features include:
--   Self-service configuration, via Kubernetes annotations
--   First class[gRPC and HTTP/2 support](https://www.getambassador.io/user-guide/grpc)
--   Support for CORS, timeouts, weighted round robin ([canary](https://www.getambassador.io/reference/canary)),[rate limiting](https://www.getambassador.io/reference/services/rate-limit-service)
--   [Istio integration](https://www.getambassador.io/user-guide/with-istio)
--   [Authentication](https://www.getambassador.io/reference/services/auth-service)
--   Robust TLS support, including TLS client-certificate authentication
+
+- Self-service configuration, via Kubernetes annotations
+- First class[gRPC and HTTP/2 support](https://www.getambassador.io/user-guide/grpc)
+- Support for CORS, timeouts, weighted round robin ([canary](https://www.getambassador.io/reference/canary)),[rate limiting](https://www.getambassador.io/reference/services/rate-limit-service)
+- [Istio integration](https://www.getambassador.io/user-guide/with-istio)
+- [Authentication](https://www.getambassador.io/reference/services/auth-service)
+- Robust TLS support, including TLS client-certificate authentication
 <https://github.com/datawire/ambassador>
 ![image](media/API-Gateway-image1.png)
 <https://microservices.io/patterns/apigateway.html>

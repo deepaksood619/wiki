@@ -8,11 +8,11 @@ Modified: 2022-11-29 15:28:05 +0500
 
 There are two major types of **logical fallacies**
 
-1.  **Formal fallacies**, there's a problem withhowyou structure your argument, and how you're making your points. You might be speaking the truth, but the logic breaks down because of the way you're putting your arguments together.
+1. **Formal fallacies**, there's a problem withhowyou structure your argument, and how you're making your points. You might be speaking the truth, but the logic breaks down because of the way you're putting your arguments together.
 
-2.  **Informal fallacies**, there's a problem withwhatyou're saying, and the information might be incorrect or misleading.
+2. **Informal fallacies**, there's a problem withwhatyou're saying, and the information might be incorrect or misleading.
 
-<https://www.freecodecamp.org/news/logical-fallacies-definition-fallacy-examples
+<https://www.freecodecamp.org/news/logical-fallacies-definition-fallacy-examples>
 
 We have a habit of distorting the facts until they become bearable for our own views -- Charlie Munger
 
@@ -32,7 +32,7 @@ We tend to see what is present, and overlook what isn't there. This can wreak ha
 
 <https://upload.wikimedia.org/wikipedia/commons/c/ce/Cognitive_Bias_Codex_With_Definitions%2C_an_Extension_of_the_work_of_John_Manoogian_by_Brian_Morrissette.jpg>
 
-<https://www.teachthought.com/critical-thinking/the-cognitive-bias-codex-a-visual-of-180-cognitive-biases
+<https://www.teachthought.com/critical-thinking/the-cognitive-bias-codex-a-visual-of-180-cognitive-biases>
 
 <https://www.wikiwand.com/en/List_of_cognitive_biases>
 
@@ -55,18 +55,19 @@ In the field of psychology, theDunning--Kruger effect is a cognitive bias in whi
 ![image](media/Biases---Fallacies-image1.jpg)
 
 ## Cognitive Dissonance
--   New information contradicting our existing beliefs
--   Is a state of uneasiness that happens when you have inconsistent beliefs or behavior
--   You may have felt it when you learned new information about the world that contradicted something you'd believed for a long time or maybe you learned something about your behavior that conflicted with your sense of self
--   The state of having inconsistent thoughts, beliefs, or attitudes, especially as relating to behavioural decisions and attitude change
--   Resistance to change
-    -   That trait depends on a few factors
-        -   How much you identify with your belief
-        -   How much satisfaction you get from your behavior
-        -   How much pain or loss you'd have to endure to change those things
--   Selective exposure
-    -   Listens to people and media persons that agree with them and dismiss others that challenge their world views
--   We'll go a long way to reduce the feeling that our thoughts or actions don't line up with the way we see ourselves or the world
+
+- New information contradicting our existing beliefs
+- Is a state of uneasiness that happens when you have inconsistent beliefs or behavior
+- You may have felt it when you learned new information about the world that contradicted something you'd believed for a long time or maybe you learned something about your behavior that conflicted with your sense of self
+- The state of having inconsistent thoughts, beliefs, or attitudes, especially as relating to behavioural decisions and attitude change
+- Resistance to change
+  - That trait depends on a few factors
+    - How much you identify with your belief
+    - How much satisfaction you get from your behavior
+    - How much pain or loss you'd have to endure to change those things
+- Selective exposure
+  - Listens to people and media persons that agree with them and dismiss others that challenge their world views
+- We'll go a long way to reduce the feeling that our thoughts or actions don't line up with the way we see ourselves or the world
 
 [**Selection Bias**](https://en.wikipedia.org/wiki/Selection_bias)
 
@@ -97,18 +98,18 @@ Humans may be hardwired to be loss averse due to asymmetric evolutionary pressur
 <https://en.wikipedia.org/wiki/Loss_aversion>
 
 ## Prospect Theory
--   The prospect theory says that investors value gains and losses differently, placing more weight on perceived gains versus perceived losses.
--   An investor presented with a choice, both equal, will choose the one presented in terms of potential gains.
--   Prospect theory is also known as the loss-aversion theory.
--   The prospect theory is part of behavioral economics, suggesting investors chose perceived gains because losses cause a greater emotional impact.
--   The certainty effect says individuals prefer certain outcomes over probable ones, while the isolation effect says individuals cancel out similar information when making a decision.
 
--   Money 1 - 100% chance of winning $200 (people choose this)
+- The prospect theory says that investors value gains and losses differently, placing more weight on perceived gains versus perceived losses.
+- An investor presented with a choice, both equal, will choose the one presented in terms of potential gains.
+- Prospect theory is also known as the loss-aversion theory.
+- The prospect theory is part of behavioral economics, suggesting investors chose perceived gains because losses cause a greater emotional impact.
+- The certainty effect says individuals prefer certain outcomes over probable ones, while the isolation effect says individuals cancel out similar information when making a decision.
+
+- Money 1 - 100% chance of winning $200 (people choose this)
 
 Money 2 - 20% chance of winning $1000
 
-
--   Money 1 - 100% chance of losing $800
+- Money 1 - 100% chance of losing $800
 
 Money 2 - 80% change of losing $1000 (people choose this)
 
@@ -166,9 +167,9 @@ Perhaps the most prevalent place you hear about anchoring is with pricing. If th
 
 There are two dominant theories behind anchoring bias
 
-1.  The **anchor-and-adjust hypothesis**, says that when we make decisions under uncertainty, we start by calculating some initial value and adjusting it, but our adjustments are usually insufficient
+1. The **anchor-and-adjust hypothesis**, says that when we make decisions under uncertainty, we start by calculating some initial value and adjusting it, but our adjustments are usually insufficient
 
-2.  The **selective accessibility theory**, says that anchoring bias happens because we are primed to recall and notice anchor-consistent information
+2. The **selective accessibility theory**, says that anchoring bias happens because we are primed to recall and notice anchor-consistent information
 
 <https://thedecisionlab.com/biases/anchoring-bias>
 
@@ -214,12 +215,11 @@ Subjective validation, sometimes called personalvalidationeffect, is a cognitive
 
 It is the idea that things of an unpleasant nature, like bad news on the telly, for example, tend to stay with us more than something positive.
 
-## Thenegativity bias**,also known as the**negativity effect, is the notion that, even when of equal intensity, things of a more negative nature (e.g. unpleasant thoughts, emotions, or social interactions; harmful/traumatic events) have a greater effect on one's psychological state and processes than neutral or positive things.In other words, something very positive will generally have less of an impact on a person's behavior and cognition than something equally emotional but negative. The negativity bias has been investigated within many different domains, including the[formation of impressions](https://www.wikiwand.com/en/Impression_formation)and general evaluations; attention, learning, and memory; and[decision-making](https://www.wikiwand.com/en/Decision-making)and risk considerations.
+## Thenegativity bias**,also known as the**negativity effect, is the notion that, even when of equal intensity, things of a more negative nature (e.g. unpleasant thoughts, emotions, or social interactions; harmful/traumatic events) have a greater effect on one's psychological state and processes than neutral or positive things.In other words, something very positive will generally have less of an impact on a person's behavior and cognition than something equally emotional but negative. The negativity bias has been investigated within many different domains, including the[formation of impressions](https://www.wikiwand.com/en/Impression_formation)and general evaluations; attention, learning, and memory; and[decision-making](https://www.wikiwand.com/en/Decision-making)and risk considerations
 
-
--   Negative messages stick: they embed themselves in our brains better than positive ones
--   Our brains are more notice, response to, and be influenced by negative things
--   Maybe a survival mechanism - Negative stimuli can be life threatning, so we evolved to focus on bad stuff
+- Negative messages stick: they embed themselves in our brains better than positive ones
+- Our brains are more notice, response to, and be influenced by negative things
+- Maybe a survival mechanism - Negative stimuli can be life threatning, so we evolved to focus on bad stuff
 
 <https://www.wikiwand.com/en/Negativity_bias>
 
@@ -261,40 +261,41 @@ If we do nothing while we are feeling an emotion, there is no short- or long-ter
 
 The hidden forces that shape our decisions
 
-1.  The truth about relativity
+1. The truth about relativity
 
 Why everything is relative - even when it shouldn't be
--   Anchoring
 
-2.  The fallacy of supply and demand
+- Anchoring
+
+2. The fallacy of supply and demand
 
 Why the price of pearls - and everything else - is up in the air
 
-3.  The cost of zero cost
+3. The cost of zero cost
 
 Why we often pay too much when we pay nothing
 
-4.  The cost of social norms
+4. The cost of social norms
 
 Why we are happy to do things, but not when we are paid to do them
 
-5.  The influence of arousal
+5. The influence of arousal
 
 Why hot is much hotter than we realize
 
-6.  The problem of procastination and self-control
+6. The problem of procastination and self-control
 
 Why we can't make ourselves do what we want to do
 
-7.  The high price of ownership
+7. The high price of ownership
 
 Why we overvalue what we have
 
-8.  Keeping doors open
+8. Keeping doors open
 
 Why options distract us from our main objective
 
-9.  The effect of expectations
+9. The effect of expectations
 
 Why the mind gets what it expects
 
@@ -303,8 +304,8 @@ Why the mind gets what it expects
 Why a 50-cent aspirin can do what a penny aspirin can't
 
 11. The context of our character
-    -   Why we are dishonest, and what we can do about it
-    -   Why dealing with cash makes up more honest
+    - Why we are dishonest, and what we can do about it
+    - Why dealing with cash makes up more honest
 
 12. Beer and free lunches
 
@@ -314,7 +315,7 @@ What is behavioral economics, and where are the free lunches?
 
 Gamblers experiencing the near miss of an almost winning hand, spin, or lottery ticket take it as a sign that they should keep playing.
 
-<https://www.psychologyofgames.com/2016/09/the-near-miss-effect-and-game-rewards
+<https://www.psychologyofgames.com/2016/09/the-near-miss-effect-and-game-rewards>
 
 ## Normalcy Bias
 
@@ -331,19 +332,19 @@ The fallacious sense of "slippery slope" is often used synonymously with[continu
 [Can you outsmart the slippery slope fallacy? - Elizabeth Cox](https://www.youtube.com/watch?v=Qt4f7QrfRRc&ab_channel=TED-Ed)
 
 [**24 Biases That Come In Your Way While Making Money | ETMONEY**](https://www.youtube.com/watch?v=gRNqZzmmL-0)
--   Consistency & Commitment Bias
-    -   Once an idea has taken hold of the brain it's almost impossible to eradicate
-    -   Over the years, I began to realize that it was a bad idea to speak publicly about stocks that I own. The issue isn't that other investors might steal my best ideas. The real problem is that it messes with my head. Once we've made a public statement, it's psychologically difficult to back away from what we've said - even if we've come to regret that opinion
 
+- Consistency & Commitment Bias
+  - Once an idea has taken hold of the brain it's almost impossible to eradicate
+  - Over the years, I began to realize that it was a bad idea to speak publicly about stocks that I own. The issue isn't that other investors might steal my best ideas. The real problem is that it messes with my head. Once we've made a public statement, it's psychologically difficult to back away from what we've said - even if we've come to regret that opinion
 
--   Contrast Bias
--   Social Proof Bias
--   Liking Bias
-    -   Don't fall in love with a stock
--   Excessive Self-regard Bias
--   Authority Bias
--   Lollapalooza effect
-    -   When multiple bias are used to sway someone's decision
+- Contrast Bias
+- Social Proof Bias
+- Liking Bias
+  - Don't fall in love with a stock
+- Excessive Self-regard Bias
+- Authority Bias
+- Lollapalooza effect
+  - When multiple bias are used to sway someone's decision
 
 ## Contrarianism
 
@@ -386,11 +387,12 @@ Ex - If you buyed popcorn and it's bad, then you have to eat it because you have
 It's fallacy as eating the popcorn or watching the movie will not refund the amount you have spent, so why put yourself through extra pain
 
 [Adam Grant: What frogs in hot water can teach us about thinking again | TED](https://www.youtube.com/watch?v=CIlgTBmiov0)
--   Escalation of commitment to a losing course of action
--   There is a fine line between heroic persistence and stubborn stupidity
--   Identify Foreclosure
--   Cognitive Entrenchment - stuck in the way you have always done things
--   Stages of Feedback Grief
+
+- Escalation of commitment to a losing course of action
+- There is a fine line between heroic persistence and stubborn stupidity
+- Identify Foreclosure
+- Cognitive Entrenchment - stuck in the way you have always done things
+- Stages of Feedback Grief
 
 ![image](media/Biases---Fallacies-image3.jpeg)
 

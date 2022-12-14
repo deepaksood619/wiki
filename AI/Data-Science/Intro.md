@@ -6,53 +6,56 @@ Modified: 2022-02-10 22:27:09 +0500
 
 ---
 
-1.  Problem Framing
+1. Problem Framing
 
-2.  Data Understanding
+2. Data Understanding
 
-3.  Data Cleaning
+3. Data Cleaning
 
-4.  Data Selection
+4. Data Selection
 
-5.  Data Preparation
+5. Data Preparation
 
-6.  Model Evaluation
+6. Model Evaluation
 
-7.  Model Configuration
+7. Model Configuration
 
-8.  Model Selection
+8. Model Selection
 
-9.  Model Presentation
+9. Model Presentation
 
 10. Model Predictions
 
-<https://machinelearningmastery.com/statistical-methods-in-an-applied-machine-learning-project
+<https://machinelearningmastery.com/statistical-methods-in-an-applied-machine-learning-project>
 
 ![image](media/Intro-image1.png)
 
 ## Types of Data Science
 
-1.  Descriptive Analytics (Business Intelligence)
+1. Descriptive Analytics (Business Intelligence)
 
 Get useful data in front of the right people in the form of dashboards, reports and emails
--   Which customers have churned?
--   Which homes have sold in a given location, and do homes of a certain size sell more quickly?
 
-2.  Predictive Analytics (Machine Learning):
+- Which customers have churned?
+- Which homes have sold in a given location, and do homes of a certain size sell more quickly?
+
+2. Predictive Analytics (Machine Learning):
 
 Put data science models continuously into production
--   Which customers may churn?
--   How much will a home sell for, given its location and number of rooms?
 
-3.  Prescriptive Analytics (Decision Science):
+- Which customers may churn?
+- How much will a home sell for, given its location and number of rooms?
+
+3. Prescriptive Analytics (Decision Science):
 
 Use data to help a company make decisions
--   What should we do about the particular types of customers that are prone to churn?
--   How should we market a home to sell quickly, given its location and number of rooms?
+
+- What should we do about the particular types of customers that are prone to churn?
+- How should we market a home to sell quickly, given its location and number of rooms?
 
 ## Fields
 
-1.  **Data Analysis**
+1. **Data Analysis**
 
 Taking raw information and turning it into knowledge that can be acted on or that can drive a decision
 
@@ -62,7 +65,7 @@ Research - gather the data, design and conduct experiments
 
 Interpretation - Summarize and aggregate, visualize, apply statistical tools
 
-2.  **Data Modeling**
+2. **Data Modeling**
 
 Using the data that we have to estimate the data that we wish we had
 
@@ -72,7 +75,7 @@ Unsupervised learning - clustering, dimensionality reduction, anomaly detection
 
 Custom algorithm development - feature engineering, numerical optimization
 
-3.  **Data Engineering**
+3. **Data Engineering**
 
 Taking these analysis and modeling activities and making everything work faster, more robustly, and on larger quantities of data
 
@@ -82,7 +85,7 @@ Production - automation, system integration, robustification
 
 Software engineering - ensure maintainability, scaling, collaborative development
 
-4.  **Data Mechanics**
+4. **Data Mechanics**
 
 Data formatting - type conversion, string manipulation, fixing errors
 
@@ -96,45 +99,45 @@ Data handling - querying, slicing, joining
 
 <https://www.toptal.com/data-science#hiring-guide>
 
-## Questions for any new data science project:
+## Questions for any new data science project
 
-1.  What is the question you are trying to answer?
+1. What is the question you are trying to answer?
 
-2.  Do you know exactly what you are trying to measure?
+2. Do you know exactly what you are trying to measure?
 
-3.  Do you have the right data to answer your question?
+3. Do you have the right data to answer your question?
 
-4.  Do you know enough about how your data was collected?
+4. Do you know enough about how your data was collected?
 
-5.  Are there any ethical considerations?
+5. Are there any ethical considerations?
 
-6.  Who is going to read your analysis and how much do they understand statistics?
+6. Who is going to read your analysis and how much do they understand statistics?
 
-7.  Do you need to be able to interrogate your methods?
+7. Do you need to be able to interrogate your methods?
 
 ## Talk: How did python become a data science powerhouse
 
-1.  Plotting libraries
+1. Plotting libraries
 
     a.  Matplotlib
 
     b.  Bokeh
 
-2.  Numpy
+2. Numpy
 
-3.  Pandas
+3. Pandas
 
-4.  Scipy
+4. Scipy
 
-5.  Scikit-learn
+5. Scikit-learn
 
-6.  Jupyter Notebook
+6. Jupyter Notebook
 
-7.  Dask (parallel computation)
+7. Dask (parallel computation)
 
-8.  Numba (Code Optimization - convert to LLVM)
+8. Numba (Code Optimization - convert to LLVM)
 
-9.  Cython (Code Optimization - compiles to C)
+9. Cython (Code Optimization - compiles to C)
 
 ## Data Governance
 
@@ -142,19 +145,19 @@ Data governance (DG) is the process of managing the availability, usability, int
 
 Ethical Principles around Data
 
-1.  Autonomy
+1. Autonomy
 
 The right to control your data, possibly via surrogates
 
-2.  Informed consent
+2. Informed consent
 
 You should explicitly appove use of your data based on understanding
 
-3.  Beneficence
+3. Beneficence
 
 People using your data should do it for your benefit
 
-4.  Non-maleficence
+4. Non-maleficence
 
 Do no harm
 
@@ -162,19 +165,20 @@ Do no harm
 
 ODPi creates open source standards to help you use and understand data across all platforms.
 
-<https://www.odpi.org
+<https://www.odpi.org>
 
 <https://searchdatamanagement.techtarget.com/definition/data-governance>
 
 <https://en.wikipedia.org/wiki/Data_governance>
 
-<https://www.oreilly.com/content/data-governance-and-the-death-of-schema-on-read
+<https://www.oreilly.com/content/data-governance-and-the-death-of-schema-on-read>
 
 ## Topic Models
 
 The grouping of relevant words is highly suggestive of an abstract theme which is called a topic. Based on the assumption that words that are in the same topic are more likely to occur together, it is possible to attribute phrases or keywords to a particular topic. This allows us to alias a particular topic with a number of phrases and words.
--   A topic example - tobacco, farm, crops
--   Steps to perform topic modeling
+
+- A topic example - tobacco, farm, crops
+- Steps to perform topic modeling
 
     i.  Remove stop words
 
@@ -183,37 +187,40 @@ The grouping of relevant words is highly suggestive of an abstract theme which i
     iii. Bigram collocation detection
 
     iv. Lemmatization
--   Topic dendrograms (for hierarical clustering)
--   Topic graphs
--   Difference between graphs and dendrograms
--   Gensim
--   LDA
+- Topic dendrograms (for hierarical clustering)
+- Topic graphs
+- Difference between graphs and dendrograms
+- Gensim
+- LDA
 
 ## Building a Data Science Team
--   Data Engineer
-    -   Store and maintain data
-    -   SQL/Java/Scala/Python
-    -   These are the folks who build pipelines that feed data scientists with data and take the ideas from the data scientists and implement them. Aka, "the doers".
--   Data Analyst
-    -   Visualize and describe data
-    -   SQL + BI Tools + Spreadsheets
--   Machine Learning Engineer
-    -   Write production-level code to predict with data
-    -   Python/Java/R
-    -   Are experts at building machine learning and deep learning models. They build models not only for Amazon but also for other large enterprises on the AWS. In addition to building models, machine learning engineers at Amazon are also responsible for implementing models and getting them ready for production.
--   Data Scientist
-    -   Build custom models to drive business decisions
-    -   Python/R/SQL
-    -   The folks who are "better engineers than statisticians and better statisticians than engineers". Aka, "the thinkers".
-    -   Have a focus on providing data-driven insights and are the link between the business and the technical side. They are responsible for analyzing large data sets and modeling them as well.
--   Research scientists
+
+- Data Engineer
+  - Store and maintain data
+  - SQL/Java/Scala/Python
+  - These are the folks who build pipelines that feed data scientists with data and take the ideas from the data scientists and implement them. Aka, "the doers".
+- Data Analyst
+  - Visualize and describe data
+  - SQL + BI Tools + Spreadsheets
+- Machine Learning Engineer
+  - Write production-level code to predict with data
+  - Python/Java/R
+  - Are experts at building machine learning and deep learning models. They build models not only for Amazon but also for other large enterprises on the AWS. In addition to building models, machine learning engineers at Amazon are also responsible for implementing models and getting them ready for production.
+- Data Scientist
+  - Build custom models to drive business decisions
+  - Python/R/SQL
+  - The folks who are "better engineers than statisticians and better statisticians than engineers". Aka, "the thinkers".
+  - Have a focus on providing data-driven insights and are the link between the business and the technical side. They are responsible for analyzing large data sets and modeling them as well.
+- Research scientists
 
 Typically have a higher level of education, usually a Master's or a PhD. Research scientists are expected to push the envelope, meaning to extend the limits of what is possible. Research scientists will conduct research on old and new technologies to determine whether they're beneficial in practice.
--   Applied scientists
+
+- Applied scientists
 
 Usually have a higher level of education. It is a slightly higher role than a research scientist at Amazon and requires passing a coding bar. Applied Scientists focus on projects to enhance Amazon's customer experience like Amazon's Automatic Speech Recognition (ASR), Natural Language Understanding (NLU), Audio Signal Processing, text-to-speech (TTS), and Dialog Management.
--   SME - Subject Matter Expert
--   Infrastructure Engineers
+
+- SME - Subject Matter Expert
+- Infrastructure Engineers
 
 These are the folks who maintain the Hadoop cluster / big data infrastructure. Aka, "the plumbers".
 
@@ -227,6 +234,6 @@ These are the folks who maintain the Hadoop cluster / big data infrastructure. A
 
 [Machine Learning Engineer vs Data Scientist vs Data Engineer](https://youtu.be/1xKzPBwBdn8)
 
-<https://www.analyticsvidhya.com/blog/2021/04/top-30-mcqs-to-ace-your-data-science-questions-interviews
+<https://www.analyticsvidhya.com/blog/2021/04/top-30-mcqs-to-ace-your-data-science-questions-interviews>
 
 [Learn Python for Data Science](https://www.youtube.com/playlist?list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)

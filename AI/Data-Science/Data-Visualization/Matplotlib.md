@@ -12,7 +12,6 @@ Matplotlib
 
 <https://matplotlib.org>
 
-
 <https://www.dataquest.io/blog/matplotlib-tutorial>
 
 <https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python>
@@ -56,12 +55,12 @@ plt.show()
 
 ![Plot](media/Data-Visualization_Matplotlib-image3.png)
 
-
 ![plot](media/Data-Visualization_Matplotlib-image4.png)
 
 ![plot](media/Data-Visualization_Matplotlib-image5.png)
 
 ## Others
+
 ### seaborn
 
 <https://stackabuse.com/seaborn-library-for-data-visualization-in-python-part-1>

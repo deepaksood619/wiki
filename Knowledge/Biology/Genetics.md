@@ -22,7 +22,7 @@ An allele is a variant form of a gene. Some genes have a variety of different fo
 
 Some alleles are dominant or recessive. When an organism is heterozygous at a specific locus and carries one dominant and one recessive allele, the organism will express the dominant phenotype. Alleles can also refer to minor DNA sequence variations between alleles that do not necessarily influence the gene's phenotype.
 
-<https://www.nature.com/scitable/definition/allele-48
+<https://www.nature.com/scitable/definition/allele-48>
 
 <https://en.wikipedia.org/wiki/Allele>
 

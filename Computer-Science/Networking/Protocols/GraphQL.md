@@ -9,67 +9,77 @@ Modified: 2021-12-31 13:16:53 +0500
 GraphQL will do to REST what JSON did to XML.
 
 ## A Data Query Language
+
 GraphQL is strongly typed, self-documenting, and embraces declarative data fetching, which allows clients to query for the exact data they need as well making it possible to build powerful and in-depth developer tools.
 GraphQL server - A server which implements the GraphQL Specifications and exposes an API endpoint for clients to query.
 GraphQL is typically used in scenarios where related data needs to be queried or in environments where multiple round trips to the server can negatively impact the customer experience.
+
 ## Problems that GraphQL solves
 
-1.  The need to do multiple round trips to fetch data required by a view
+1. The need to do multiple round trips to fetch data required by a view
 
-2.  Clients dependency on servers
+2. Clients dependency on servers
 
-3.  The bad front-end developer experience
+3. The bad front-end developer experience
 
-4.  No Versioning of APIs
+4. No Versioning of APIs
 
-5.  Get only what you asked
+5. Get only what you asked
+
 ## Problems with GraphQL
 
-1.  Resource Exhaustion Attacks (DOS) using overly complex queries
+1. Resource Exhaustion Attacks (DOS) using overly complex queries
 
-2.  N+1 queries
+2. N+1 queries
 
 Solution - <https://github.com/facebook/dataloader>
 
 <https://xuorig.medium.com/the-graphql-dataloader-pattern-visualized-3064a00f319f>
 
 ## GraphQL Core Concepts**
--   Schema Definition Language (Used to define the schema of an API)
--   Defining Types (Type system allows us to check if query is valid or not before resolving the query)
--   Sending Queries and Mutations
-    -   Queries with Arguments (extra information sent with query and mutation)
--   Mutations
-    -   Creating new data
-    -   Updating existing data
-    -   Deleting existing data
--   Subscriptions
--   Resolvers
--   Variables
--   Inspection
-    -   This allows us to know the schema using introspection and see documentation of all the endpoints with autocomplete in clients like Graphiql
+
+- Schema Definition Language (Used to define the schema of an API)
+- Defining Types (Type system allows us to check if query is valid or not before resolving the query)
+- Sending Queries and Mutations
+  - Queries with Arguments (extra information sent with query and mutation)
+- Mutations
+  - Creating new data
+  - Updating existing data
+  - Deleting existing data
+- Subscriptions
+- Resolvers
+- Variables
+- Inspection
+  - This allows us to know the schema using introspection and see documentation of all the endpoints with autocomplete in clients like Graphiql
+
 ## Security
--   Timeout
--   Maximum Query Depth
--   Query Complexity
--   Throttling
+
+- Timeout
+- Maximum Query Depth
+- Query Complexity
+- Throttling
+
 ## How to GraphQL
 
 In GraphQL, aTypeis an object that may contain multiplefields. Each field is calculated throughresolvers, that returns a value. A collection of types is called aschema. Every schema has a special type calledqueryfor getting data from the server andmutationfor sending data to the server.
--   Type
--   Query
--   Mutation
--   Resolver
+
+- Type
+- Query
+- Mutation
+- Resolver
 Tutorial
--   Queries
--   Mutations
--   Authentications
--   Links and Voting
--   Error Handling
--   Filtering
--   Pagination
+- Queries
+- Mutations
+- Authentications
+- Links and Voting
+- Error Handling
+- Filtering
+- Pagination
 
 <https://hasura.io/blog/cursor-offset-pagination-with-hasura-graphql>
--   Relay
+
+- Relay
+
 ## Queries
 
 mutation {
@@ -116,17 +126,19 @@ token
 ! - bang at the end of a type represents required
 
 In graphene-python it is written as required=True
+
 ## Client
 
-1.  Apollo
+1. Apollo
 
-2.  Relay
+2. Relay
 
-3.  Graphiql
+3. Graphiql
 
-4.  Insomnia
+4. Insomnia
 
-5.  Postman
+5. Postman
+
 ## Schema stitching
 
 Schema stitching is the process of creating a single GraphQL schema from multiple underlying GraphQL APIs.

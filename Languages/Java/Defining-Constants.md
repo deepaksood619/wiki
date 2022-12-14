@@ -22,7 +22,7 @@ Modified: 2018-12-04 13:27:08 +0500
 
 *// calling this constructor as well:*
 
-## throw new AssertionError();
+## throw new AssertionError()
 
 }
 

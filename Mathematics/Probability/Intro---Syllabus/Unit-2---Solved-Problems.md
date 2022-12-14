@@ -48,6 +48,7 @@ Assume no tie games are possible and all games are independent.
 3. Given that the second round was required and that it comprised only one game, what is the conditional probability that it was Bo who won the first round?
 ![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image2.png)
 ![](media/Intro---Syllabus_Unit-2---Solved-Problems-image3.png)
+
 # A coin tossing puzzle
 
 A coin is tossed twice. Alice claims that the event of getting two Heads is at least as likely if we know that the first toss is Heads than if we know that at least one of the tosses is Heads. Is she right? Does it make a difference if the coin is fair or unfair? How can we generalize Alice's reasoning?
@@ -59,12 +60,14 @@ Also P ( A intersection B | A ) = 1/2 and P ( A intersection B | A U B ) = 1/3, 
 A = 1st toss is head and B = 2nd toss is head
 
 ![](media/Intro---Syllabus_Unit-2---Solved-Problems-image5.png)
+
 # The Monty Hall problem
 
 This is a much discussed puzzle, based on an old American game show. You are told that a prize is equally likely to be found behind any one of three closed doors in front of you. You point to one of the doors. A friend opens for you one of the remaining two doors, after making sure that the prize is not behind it. At this point, you can stick to your initial choice, or switch to the other unopened door. You win the prize if it lies behind your final choice of a door. Consider the following strategies:
--   Stick to your initial choice.
--   **Switch to the other unopened door.**
--   You first point to door 1. If door 2 is opened, you do not switch. If door 3 is opened, you switch.
+
+- Stick to your initial choice.
+- **Switch to the other unopened door.**
+- You first point to door 1. If door 2 is opened, you do not switch. If door 3 is opened, you switch.
 
 Which is the best strategy?
 ![](media/Intro---Syllabus_Unit-2---Solved-Problems-image6.png)# A random walker

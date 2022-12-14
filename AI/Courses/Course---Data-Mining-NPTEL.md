@@ -12,7 +12,7 @@ Data Mining by Pabitra Mitra, CSE, IIT Kharagpur
 
 ## Syllabus
 
-1.  Introduction, Data Preprocessing
+1. Introduction, Data Preprocessing
 
     a.  Introduction - Knowledge Discovery Process
 
@@ -22,18 +22,18 @@ Data Mining by Pabitra Mitra, CSE, IIT Kharagpur
 
     d.  Apriori Algorithm
 
-2.  Association Rule Mining, Classification Basics
+2. Association Rule Mining, Classification Basics
 
-3.  Decision Tree, Bayes Classifier, K nearest neighbor
+3. Decision Tree, Bayes Classifier, K nearest neighbor
 
-4.  Support Vector Machine, Kernel Machine
+4. Support Vector Machine, Kernel Machine
 
-5.  Clustering, Outlier detection
+5. Clustering, Outlier detection
 
-6.  Sequence mining
+6. Sequence mining
 
-7.  Evaluation, Visualization.
+7. Evaluation, Visualization.
 
-8.  Regression Case studies
+8. Regression Case studies
 
 <https://onlinecourses.nptel.ac.in/noc19_cs15/course>

@@ -9,25 +9,27 @@ Modified: 2022-01-28 00:54:09 +0500
 ## NextJS - The React Framework
 
 To build a complete web application with React from scratch, there are many important details you need to consider:
--   Code has to be bundled using a bundler like webpack and transformed using a compiler like Babel.
--   You need to do production optimizations such as code splitting.
--   You might want to statically pre-render some pages for performance and SEO. You might also want to use server-side rendering or client-side rendering.
--   You might have to write some server-side code to connect your React app to your data store.
+
+- Code has to be bundled using a bundler like webpack and transformed using a compiler like Babel.
+- You need to do production optimizations such as code splitting.
+- You might want to statically pre-render some pages for performance and SEO. You might also want to use server-side rendering or client-side rendering.
+- You might have to write some server-side code to connect your React app to your data store.
 
 Aframeworkcan solve these problems. But such a framework must have the right level of abstraction --- otherwise it won't be very useful. It also needs to have great "Developer Experience", ensuring you and your team have an amazing experience while writing code.
 
 EnterNext.js, the React Framework. Next.js provides a solution to all of the above problems. But more importantly, it puts you and your team in the pit of success when building React applications.
 
 Next.js has the best-in-class "Developer Experience" and many built-in features; a sample of them are:
--   An intuitive[page-based](https://nextjs.org/docs/basic-features/pages)routing system (with support for[dynamic routes](https://nextjs.org/docs/routing/dynamic-routes))
--   [Pre-rendering](https://nextjs.org/docs/basic-features/pages#pre-rendering), both[static generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended)(SSG) and[server-side rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering)(SSR) are supported on a per-page basis
--   Automatic code splitting for faster page loads
--   [Client-side routing](https://nextjs.org/docs/routing/introduction#linking-between-pages)with optimized prefetching
--   [Built-in CSS](https://nextjs.org/docs/basic-features/built-in-css-support)and[Sass support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support), and support for any[CSS-in-JS](https://nextjs.org/docs/basic-features/built-in-css-support#css-in-js)library
--   Development environment with[Fast Refresh](https://nextjs.org/docs/basic-features/fast-refresh)support
--   [API routes](https://nextjs.org/docs/api-routes/introduction)to build API endpoints with Serverless Functions
--   Fully extendable
--   Incremental Static Regeneration
+
+- An intuitive[page-based](https://nextjs.org/docs/basic-features/pages)routing system (with support for[dynamic routes](https://nextjs.org/docs/routing/dynamic-routes))
+- [Pre-rendering](https://nextjs.org/docs/basic-features/pages#pre-rendering), both[static generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended)(SSG) and[server-side rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering)(SSR) are supported on a per-page basis
+- Automatic code splitting for faster page loads
+- [Client-side routing](https://nextjs.org/docs/routing/introduction#linking-between-pages)with optimized prefetching
+- [Built-in CSS](https://nextjs.org/docs/basic-features/built-in-css-support)and[Sass support](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support), and support for any[CSS-in-JS](https://nextjs.org/docs/basic-features/built-in-css-support#css-in-js)library
+- Development environment with[Fast Refresh](https://nextjs.org/docs/basic-features/fast-refresh)support
+- [API routes](https://nextjs.org/docs/api-routes/introduction)to build API endpoints with Serverless Functions
+- Fully extendable
+- Incremental Static Regeneration
 
 ## Code splitting and prefetching
 
@@ -58,8 +60,9 @@ Each generated HTML is associated with minimal JavaScript code necessary for tha
 [**Two forms of Pre-rendering**](https://nextjs.org/docs/basic-features/pages#two-forms-of-pre-rendering)
 
 Next.js has two forms of pre-rendering:Static GenerationandServer-side Rendering. The difference is inwhenit generates the HTML for a page.
--   [Static Generation (Recommended)](https://nextjs.org/docs/basic-features/pages#static-generation-recommended): The HTML is generated atbuild timeand will be reused on each request.
--   [Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering): The HTML is generated oneach request.
+
+- [Static Generation (Recommended)](https://nextjs.org/docs/basic-features/pages#static-generation-recommended): The HTML is generated atbuild timeand will be reused on each request.
+- [Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering): The HTML is generated oneach request.
 
 Importantly, Next.js lets youchoosewhich pre-rendering form you'd like to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
 
@@ -67,12 +70,11 @@ WerecommendusingStatic Generationover Server-side Rendering for performance reas
 
 You can also useClient-side Renderingalong with Static Generation or Server-side Rendering. That means some parts of a page can be rendered entirely by client side JavaScript. To learn more, take a look at the[Data Fetching](https://nextjs.org/docs/basic-features/data-fetching#fetching-data-on-the-client-side)documentation.
 
-
--   Next.js'[pre-rendering](https://nextjs.org/docs/basic-features/pages#pre-rendering)feature.
--   The two forms of pre-rendering:[Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended)and[Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering).
--   Static Generation[with data](https://nextjs.org/docs/basic-features/pages#static-generation-with-data), and[without data](https://nextjs.org/docs/basic-features/pages#static-generation-without-data).
--   [getStaticProps](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)and how to use it to import external blog data into the index page.
--   Some useful information on[getStaticProps](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation).
+- Next.js'[pre-rendering](https://nextjs.org/docs/basic-features/pages#pre-rendering)feature.
+- The two forms of pre-rendering:[Static Generation](https://nextjs.org/docs/basic-features/pages#static-generation-recommended)and[Server-side Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering).
+- Static Generation[with data](https://nextjs.org/docs/basic-features/pages#static-generation-with-data), and[without data](https://nextjs.org/docs/basic-features/pages#static-generation-without-data).
+- [getStaticProps](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation)and how to use it to import external blog data into the index page.
+- Some useful information on[getStaticProps](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation).
 
 ## Commands
 
@@ -95,15 +97,16 @@ next export #allows you to export your app to static HTML, which can be run stan
 <https://nextjs.org/docs/advanced-features/static-html-export>
 
 ## Next.js 12
--   Middleware
--   HTTP Streaming
--   Server Components
--   URL Imports
+
+- Middleware
+- HTTP Streaming
+- Server Components
+- URL Imports
 
 ## References
 
-<https://www.freecodecamp.org/news/the-next-js-handbook
+<https://www.freecodecamp.org/news/the-next-js-handbook>
 
-<https://masteringnextjs.com
+<https://masteringnextjs.com>
 
-<https://www.freecodecamp.org/news/nextjs-tutorial
+<https://www.freecodecamp.org/news/nextjs-tutorial>

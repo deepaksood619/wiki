@@ -12,6 +12,5 @@ Polish Notation - *+253
 
 Reverse Polish Notation (RPN) - 25+3* (doesn't need parenthesis required by infix notation)
 
-
--   Used in stack based languages
--   Pipeline based systems -> unix pipelines
+- Used in stack based languages
+- Pipeline based systems -> unix pipelines

@@ -18,13 +18,14 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 ## sudo crontab -e Edit system wide crontab file
 
-## crontab -lcrontab list of cronjobs , display crontab file contents.
+## crontab -lcrontab list of cronjobs , display crontab file contents
 
-## crontab -rRemove your crontab file.
+## crontab -rRemove your crontab file
 
 ## crontab -vDisplay the last time you edited your crontab file. (This option is only available on a few systems.)
 
-* * * *  * command to be executed
+        * ** ** command to be executed
+
 - - - - -
 | | || |
 | | || +----- day of week (0 - 6) (Sunday=0)
@@ -48,54 +49,52 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 | 0      | */2 | *        | *     | *       | -- Every 2 hours                                        |
 | 10     | 10   | *        | *     | *       | -- At 10:10 AM everyday                                 |
 
-
-
 ## Crontab Keywords
 
 | **Keyword** | **Equivalent**  |
 |-------------|-----------------|
 | @yearly    | 0 0 1 1 *      |
-| @daily     | 0 0 * * *    |
-| @hourly    | 0 * * * *   |
+| @daily     | 0 0 ** *    |
+| @hourly    | 0 ** **   |
 | @reboot    | Run at startup. |
 
 ## Examples -
 
 @daily sudo ntpdate ntp.ubuntu.com
 
-#cron for publishing schedules
+# cron for publishing schedules
 
-15 0 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py publish_yesterday_schedules
+15 0 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py publish_yesterday_schedules
 
-#cron to create client list for controller updates
+# cron to create client list for controller updates
 
-0 1 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py create_client_list
+0 1 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py create_client_list
 
-#cron for disabling alerts on public holidays
+# cron for disabling alerts on public holidays
 
-15 1 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py disable_alerts
+15 1 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py disable_alerts
 
-#cron for checking if some of the schedules have expired and will notifiy account managers.
+# cron for checking if some of the schedules have expired and will notifiy account managers.
 
-15 1 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py check_schedule_expiry
+15 1 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py check_schedule_expiry
 
-#cron for testing daily emails
+# cron for testing daily emails
 
-05 00 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com, sanch$
+05 00 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com, sanch$
 
-#cron for daily emails
+# cron for daily emails
 
-15 09 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com,amarje$
+15 09 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com,amarje$
 
-#cron for sending issues
+# cron for sending issues
 
-10 06 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py report_issues --create_logs=True --run_issues=True --exclude_$
+10 06 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py report_issues --create_logs=True --run_issues=True --exclude_$
 
-10 10 * * * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py report_issues --create_logs=True --run_issues=True --run_spec
+10 10 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py report_issues --create_logs=True --run_issues=True --run_spec
 
-#cron for refresh_tokens every hour
+# cron for refresh_tokens every hour
 
-0 * * * * /usr/bin/python /home/ubntu/sources/zenalytix/manage.py refresh_tokens
+0 ** ** /usr/bin/python /home/ubntu/sources/zenalytix/manage.py refresh_tokens
 
 # Never run a cron set date to 31'st Feb
 
@@ -103,11 +102,11 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 Atminute 15past every 2nd hour from 1 through 23
 
-15 1-23/2 * * *
+15 1-23/2 ** *
 
 ## Others
 
-*/20 2-3/30 * * *
+*/20 2-3/30* **
 
 ## Setting editor for crontab
 
@@ -123,7 +122,7 @@ ramesh@dev-db$ crontab -l
 MAIL="ramesh"
 
 @yearly /home/ramesh/annual-maintenance
-*/10 * * * * /home/ramesh/check-disk-space
+*/10* ** * /home/ramesh/check-disk-space
 
 [Note: Crontab of the current logged in user with MAIL variable]
 
@@ -133,9 +132,9 @@ MAIL=""
 
 ## Redirect crontab output to log file
 
-* * * * * myjob.sh >> /var/log/myjob.log 2>&1
+        * ** ** myjob.sh >> /var/log/myjob.log 2>&1
 
-*/2 * * * * /bin/bash -c "source $HOME/.profile; docker exec zenalytix-analytics bash -c 'cd ../ && date'" >> /var/log/cron/test-`/bin/date +%d-%m-%y-%H-%M-%S`.log 2>&1
+*/2* ** * /bin/bash -c "source $HOME/.profile; docker exec zenalytix-analytics bash -c 'cd ../ && date'" >> /var/log/cron/test-`/bin/date +%d-%m-%y-%H-%M-%S`.log 2>&1
 
 ## Installing Crontab From a Cron File
 
@@ -146,13 +145,13 @@ no crontab for ramesh
 
 $ cat cron-file.txt
 @yearly /home/ramesh/annual-maintenance
-*/10 * * * * /home/ramesh/check-disk-space
+*/10* ** * /home/ramesh/check-disk-space
 
 ramesh@dev-db$ **crontab cron-file.txt**
 
 ramesh@dev-db$ crontab -l
 @yearly /home/ramesh/annual-maintenance
-*/10 * * * * /home/ramesh/check-disk-space
+*/10* ** * /home/ramesh/check-disk-space
 
 ## Cronv
 

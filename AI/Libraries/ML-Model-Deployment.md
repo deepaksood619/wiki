@@ -23,10 +23,11 @@ The model is deployed to an online prediction service cluster (generally contain
 ## MLOps
 
 ## ML Lifecycle
--   Framing ML problems from business goals
--   Access, prepare and process data for the model
--   Architect ML solution and develop ML models
--   Deploy ML models
--   Iterate - Monitor, optimize and maintain the performance of the model
 
-<https://www.freecodecamp.org/news/what-is-mlops-machine-learning-operations-explained
+- Framing ML problems from business goals
+- Access, prepare and process data for the model
+- Architect ML solution and develop ML models
+- Deploy ML models
+- Iterate - Monitor, optimize and maintain the performance of the model
+
+<https://www.freecodecamp.org/news/what-is-mlops-machine-learning-operations-explained>

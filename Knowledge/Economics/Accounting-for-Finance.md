@@ -135,103 +135,107 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 </table>
 
 ## Courses
--   Accounting - <https://www.accountingcoach.com/accounting-basics/outline>
--   **Aswath Damodaran - Foundations of Finance**
+
+- Accounting - <https://www.accountingcoach.com/accounting-basics/outline>
+- **Aswath Damodaran - Foundations of Finance**
 
 ## References
 
 [Data Update 1 for 2022: It's Moneyball Time!](https://youtu.be/QlQqJpxcHCM)
 
 [How Companies Cook Their Books (Part 1) | ET Money](https://www.youtube.com/watch?v=RsNTz5YLOxQ)
--   Bringing Time To A Halt
--   In Excess Of Work Completed
--   Assets Leased To Customers
--   Before The Buyer's Final Acceptance
--   Transactions Lacking Economic Substance
--   When Loan Is Not A Liability, But A Sale
--   Masquerading As A Large Company
+
+- Bringing Time To A Halt
+- In Excess Of Work Completed
+- Assets Leased To Customers
+- Before The Buyer's Final Acceptance
+- Transactions Lacking Economic Substance
+- When Loan Is Not A Liability, But A Sale
+- Masquerading As A Large Company
 
 [How Companies Cook Their Books Part 2 | ET Money](https://youtu.be/ah4-G4CsGAE)
--   Failure to Record an Expense
--   Playing with Reserves
--   Pushing Expenses for later to boost income
--   Using One-Time Events Creatively
--   Boosting Income through Misleading Classifications
--   Shifting Losses to Discontinued Operations
+
+- Failure to Record an Expense
+- Playing with Reserves
+- Pushing Expenses for later to boost income
+- Using One-Time Events Creatively
+- Boosting Income through Misleading Classifications
+- Shifting Losses to Discontinued Operations
 
 ![image](media/Accounting-for-Finance-image1.jpeg)
 
 All Accounts
--   Application of Funds (Assets)
-    -   Current Assets
-        -   Accounts Receivable
-            -   Debtors
-        -   Bank Accounts
-        -   Cash In Hand
-            -   Cash
-        -   Loans and Advances (Assets)
-        -   Securities and Deposits
-            -   Earnest Money
-        -   Stock Assets
-            -   Stock In Hand
-        -   Tax Assets
-    -   Fixed Assets
-        -   Capital Equipments
-        -   Electronic Equipments
-        -   Furnitures and Fixtures
-        -   Office Equipments
-        -   Plants and Machineries
-        -   Buildings
-        -   Accumulated Depreciations
-    -   Investments
-    -   Temporary Accounts
-        -   Temporary Opening
--   Expenses
-    -   Direct Expenses
-        -   Stock Expenses
-            -   Cost of Goods Sold
-            -   Expenses Included In Valuation
-            -   Stock Adjustment
-    -   Indirect Expenses
-        -   Administrative Expenses
-        -   Commission on Sales
-        -   Depreciation
-        -   Entertainment Expenses
-        -   Freight and Forwarding Charges
-        -   Legal Expenses
-        -   Marketing Expenses
-        -   Miscellaneous Expenses
-        -   Office Maintenance Expenses
-        -   Office Rent
-        -   Postal Expenses
-        -   Print and Stationary
-        -   Rounded Off
-        -   Salary
-        -   Sales Expenses
-        -   Telephone Expenses
-        -   Travel Expenses
-        -   Utility Expenses
-        -   Write Off
-        -   Exchange Gain/Loss
-        -   Gain/Loss on Asset Disposal
--   Income
-    -   Direct Income
-        -   Sales
-        -   Service
-    -   Indirect Income
--   Source of Funds (Liabilities)
-    -   Capital Account
-        -   Reserves and Surplus
-        -   Shareholders Funds
-    -   Current Liabilities
-        -   Accounts Payable
-            -   Creditors
-            -   Payroll Payable
-        -   Stock Liabilities
-            -   Stock Received But Not Billed
-        -   Duties and Taxes
-            -   TDS
-        -   Loans (Liabilities)
-            -   Secured Loans
-            -   Unsecured Loans
-            -   Bank Overdraft Account
+
+- Application of Funds (Assets)
+  - Current Assets
+    - Accounts Receivable
+      - Debtors
+    - Bank Accounts
+    - Cash In Hand
+      - Cash
+    - Loans and Advances (Assets)
+    - Securities and Deposits
+      - Earnest Money
+    - Stock Assets
+      - Stock In Hand
+    - Tax Assets
+  - Fixed Assets
+    - Capital Equipments
+    - Electronic Equipments
+    - Furnitures and Fixtures
+    - Office Equipments
+    - Plants and Machineries
+    - Buildings
+    - Accumulated Depreciations
+  - Investments
+  - Temporary Accounts
+    - Temporary Opening
+- Expenses
+  - Direct Expenses
+    - Stock Expenses
+      - Cost of Goods Sold
+      - Expenses Included In Valuation
+      - Stock Adjustment
+  - Indirect Expenses
+    - Administrative Expenses
+    - Commission on Sales
+    - Depreciation
+    - Entertainment Expenses
+    - Freight and Forwarding Charges
+    - Legal Expenses
+    - Marketing Expenses
+    - Miscellaneous Expenses
+    - Office Maintenance Expenses
+    - Office Rent
+    - Postal Expenses
+    - Print and Stationary
+    - Rounded Off
+    - Salary
+    - Sales Expenses
+    - Telephone Expenses
+    - Travel Expenses
+    - Utility Expenses
+    - Write Off
+    - Exchange Gain/Loss
+    - Gain/Loss on Asset Disposal
+- Income
+  - Direct Income
+    - Sales
+    - Service
+  - Indirect Income
+- Source of Funds (Liabilities)
+  - Capital Account
+    - Reserves and Surplus
+    - Shareholders Funds
+  - Current Liabilities
+    - Accounts Payable
+      - Creditors
+      - Payroll Payable
+    - Stock Liabilities
+      - Stock Received But Not Billed
+    - Duties and Taxes
+      - TDS
+    - Loans (Liabilities)
+      - Secured Loans
+      - Unsecured Loans
+      - Bank Overdraft Account

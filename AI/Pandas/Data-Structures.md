@@ -35,15 +35,16 @@ Two-dimensional size-mutable, potentially heterogeneous tabular data structure w
 </tbody>
 </table>
 
-
-
 Note: All the manipulation operation creates a new dataframe and doesn't change the original dataframe, so either instantiate the dataframe back to the same variable, or explicitely pass inplace=True, if available.
 
 ## Examples -
 
 ## >>> d = {'col1': [1, 2], 'col2': [3, 4]}
+
 ## >>> df = pd.DataFrame(data=d)
+
 ## >>> df
+
 col1 col2
 0 1 3
 1 2 4

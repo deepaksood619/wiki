@@ -11,8 +11,11 @@ Like the derivative, the gradient represents the[slope](https://en.wikipedia.org
 ![tttttt ](media/Gradient-image1.png)
 
 In the above two images, the values of the function are represented in black and white, black representing higher values, and its corresponding gradient is represented by blue arrows.
+
 ## See also
--   Computer Scient > Others > Computer Vision > Image Gradient
+
+- Computer Scient > Others > Computer Vision > Image Gradient
+
 ## References
 
 <https://en.wikipedia.org/wiki/Gradient>

@@ -22,9 +22,9 @@ Search engine marketing is the practice of marketing a business using paid adver
 
 ## Tools
 
-<https://developers.google.com/speed/pagespeed/insights
+<https://developers.google.com/speed/pagespeed/insights>
 
-<https://sitechecker.pro
+<https://sitechecker.pro>
 
 <https://seositecheckup.com/seo-audit/www.stashfin.com>
 
@@ -32,13 +32,13 @@ Search engine marketing is the practice of marketing a business using paid adver
 
 <https://app.neilpatel.com/en/seo_analyzer/site_audit>
 
-<https://answerthepublic.com
+<https://answerthepublic.com>
 
-<https://stories.google
+<https://stories.google>
 
-<https://purifycss.online
+<https://purifycss.online>
 
-<https://moz.com
+<https://moz.com>
 
 ## Black Hat SEO
 
@@ -46,23 +46,22 @@ Black hat SEO refers to a set of practices that are used to increases a site or 
 
 It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan get your site banned from search engines, excluding you from the number one traffic referral source on the Internet.
 
-
--   Content Automation
--   Doorway Pages
--   Hidden Text or Links
--   [Keyword](https://www.wordstream.com/keywords)Stuffing
--   Reporting a Competitor (or[Negative SEO](https://www.wordstream.com/blog/ws/2012/04/20/negative-seo))
--   Sneaky Redirects
--   Cloaking
--   Link Schemes
--   Guest Posting Networks
--   Link Manipulation (including buying links)
--   Article Spinning
--   Link Farms, Link Wheels or Link Networks
--   Rich Snippet Markup Spam
--   Automated Queries to Google
--   Creating pages, subdomains, or domains with[duplicate content](https://www.wordstream.com/duplicate-content)
--   Pages with malicious behavior, such as phishing, viruses, trojans, and other malware
+- Content Automation
+- Doorway Pages
+- Hidden Text or Links
+- [Keyword](https://www.wordstream.com/keywords)Stuffing
+- Reporting a Competitor (or[Negative SEO](https://www.wordstream.com/blog/ws/2012/04/20/negative-seo))
+- Sneaky Redirects
+- Cloaking
+- Link Schemes
+- Guest Posting Networks
+- Link Manipulation (including buying links)
+- Article Spinning
+- Link Farms, Link Wheels or Link Networks
+- Rich Snippet Markup Spam
+- Automated Queries to Google
+- Creating pages, subdomains, or domains with[duplicate content](https://www.wordstream.com/duplicate-content)
+- Pages with malicious behavior, such as phishing, viruses, trojans, and other malware
 
 <https://www.wordstream.com/black-hat-seo>
 
@@ -78,7 +77,7 @@ Generally, white hat SEO refers to any practice that improves your search rankin
 
 <https://www.wordstream.com/white-hat-seo>
 
-<https://www.searchenginejournal.com/7-white-hat-seo-techniques-to-double-traffic/182243
+<https://www.searchenginejournal.com/7-white-hat-seo-techniques-to-double-traffic/182243>
 
 cloudinary.com for fast image CDN
 
@@ -93,60 +92,62 @@ cloudinary.com for fast image CDN
 In the context of SEO (Search Engine Optimization), Siphoning refers to the act of stealing another website's traffic. Methods for stealing that traffic can include wholesale copying of webpages (that have been slightly altered to redirect visitors elsewhere), using keywords and keyword phrases that "belong" to the targetted website, cybersquatting, etc.
 
 In order to build a **site optimized for organic search engine rankings,** it is important to implement certain standards throughout the code. These include:
--   Specifying analttag on images
--   Using the correct HTML tags for content hierarchy i.e.,<h1>/<h2>/<h3>andp
--   Connect the site to the company's social pages
--   Add an XML sitemap
--   Avoid broken links
--   Use vanity/friendly URLs (human readable)
--   Add a robots.txt file
--   Integrate Google analytics (or alternative)
--   Specify a favicon, bonus for specifying browser specific icons
--   Ensure lightning fast page load time
--   Avoid JavaScript errors
--   Optimize assets (including minification)
--   Enable and force SSL
--   Specify unique titles for each page without exceeding 70 characters
--   Include a meta description on each page
--   Ensure there is enough content with enough relevant keywords (search engines will penalize your site if all pages are one-sentence pages)
--   Leverage browser caching
--   Avoid W3C markup validation errors
--   Specify relevant meta tags
+
+- Specifying analttag on images
+- Using the correct HTML tags for content hierarchy i.e.,<h1>/<h2>/<h3>andp
+- Connect the site to the company's social pages
+- Add an XML sitemap
+- Avoid broken links
+- Use vanity/friendly URLs (human readable)
+- Add a robots.txt file
+- Integrate Google analytics (or alternative)
+- Specify a favicon, bonus for specifying browser specific icons
+- Ensure lightning fast page load time
+- Avoid JavaScript errors
+- Optimize assets (including minification)
+- Enable and force SSL
+- Specify unique titles for each page without exceeding 70 characters
+- Include a meta description on each page
+- Ensure there is enough content with enough relevant keywords (search engines will penalize your site if all pages are one-sentence pages)
+- Leverage browser caching
+- Avoid W3C markup validation errors
+- Specify relevant meta tags
 
 ## Optimize a website
 
 Optimizing websites is an art that few are familiar with. The more the engineer is able to list off the top of their head, the more likely they are to do all of the following naturally as they code instead of having to return later.
 
 (Also, typically a professionally constructed site should score over 75 percent when analyzed by[gtmetrix.com](https://gtmetrix.com/), which can also serve as a checklist.)
--   Optimize all assets
--   Place all assets on a separate, cookie-free domain. Using a CDN is best
--   Avoid inline JavaScript and CSS
--   Enable gzipping
--   Ensure all code is minified
--   Defer parsing of JavaScript
--   Usesrcsetfor responsive images
--   Leverage browser caching
--   Reduce DNS lookups
--   Avoid duplicate code
--   Avoid URL redirects
--   Enable HTTP keep-alive
--   Serve scaled images
--   Use image sprites where appropriate
--   Prefer asynchronous resources
--   Specify the character set at server level
--   Avoid CSS@import
--   Specify a cache validator
--   Minimize request size
--   Avoid bad requests and 404s
--   Specify image dimensions
--   Reduce cookie size
--   Make fewer HTTP requests, i.e., load as few external resources as possible
--   Avoid unnecessary images; where possible, use CSS
--   Ensure no validation errors with W3C
+
+- Optimize all assets
+- Place all assets on a separate, cookie-free domain. Using a CDN is best
+- Avoid inline JavaScript and CSS
+- Enable gzipping
+- Ensure all code is minified
+- Defer parsing of JavaScript
+- Usesrcsetfor responsive images
+- Leverage browser caching
+- Reduce DNS lookups
+- Avoid duplicate code
+- Avoid URL redirects
+- Enable HTTP keep-alive
+- Serve scaled images
+- Use image sprites where appropriate
+- Prefer asynchronous resources
+- Specify the character set at server level
+- Avoid CSS@import
+- Specify a cache validator
+- Minimize request size
+- Avoid bad requests and 404s
+- Specify image dimensions
+- Reduce cookie size
+- Make fewer HTTP requests, i.e., load as few external resources as possible
+- Avoid unnecessary images; where possible, use CSS
+- Ensure no validation errors with W3C
 
 ## Google Tag Manager
 
-<https://www.freecodecamp.org/news/how-to-use-google-tag-manager-to-maintain-google-analytics-and-other-marketing-tags
+<https://www.freecodecamp.org/news/how-to-use-google-tag-manager-to-maintain-google-analytics-and-other-marketing-tags>
 
 ## Urchin Tracking Module(UTM)
 
@@ -203,26 +204,26 @@ Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https:
 
 <https://en.wikipedia.org/wiki/UTM_parameters>
 
-<https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters
+<https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters>
 
-## PDP SEO - <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages
+## PDP SEO - <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages>
 
 ## Subdomain vs subdirectory
 
 Use subdirectory wherever possible
 
-<https://www.semrush.com/blog/subdomain-vs-subdirectory
+<https://www.semrush.com/blog/subdomain-vs-subdirectory>
 
 ## References
 
 <https://www.toptal.com/full-stack/interview-questions>
 
-<https://neilpatel.com/blog/10-advanced-seo-techniques-thatll-double-your-search-traffic
+<https://neilpatel.com/blog/10-advanced-seo-techniques-thatll-double-your-search-traffic>
 
-<https://neilpatel.com/blog/google-ranking
+<https://neilpatel.com/blog/google-ranking>
 
-<https://neilpatel.com/blog/get-your-mba-in-seo-with-these-10-guides-and-5-courses
+<https://neilpatel.com/blog/get-your-mba-in-seo-with-these-10-guides-and-5-courses>
 
-<https://neilpatel.com/blog/seo-for-ecommerce-websites
+<https://neilpatel.com/blog/seo-for-ecommerce-websites>
 
-<https://neilpatel.com/blog/seo-templates
+<https://neilpatel.com/blog/seo-templates>

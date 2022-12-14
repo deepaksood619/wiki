@@ -7,17 +7,16 @@ Modified: 2019-12-12 00:07:19 +0500
 ---
 
 ## Properties
--   For directed graphs
--   Single source vertex to all other vertex
--   Non-negative weights
--   Time complexity O(V^2) using adjacency matrix representation
--   Time Complexity O(E log V) using binary heap and adjacency list representation (it takes O(log n) for decrease key operation)
--   Time Complexity O(E + V log V) using Fibonacci heap (it takes O(1) for decrease key operation)
--   Doesn't work for graph with negative weight edges
+
+- For directed graphs
+- Single source vertex to all other vertex
+- Non-negative weights
+- Time complexity O(V^2) using adjacency matrix representation
+- Time Complexity O(E log V) using binary heap and adjacency list representation (it takes O(log n) for decrease key operation)
+- Time Complexity O(E + V log V) using Fibonacci heap (it takes O(1) for decrease key operation)
+- Doesn't work for graph with negative weight edges
 
 Dijkstra's algorithm is very similar to[Prim's algorithm for minimum spanning tree](https://www.geeksforgeeks.org/archives/27455). Like Prim's MST, we generate a*SPT (shortest path tree)*with given source as root. We maintain two sets, one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree. At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has minimum distance from source.
-
-
 
 ![image](media/Dijkstra's-Algorithm-image1.png)
 
@@ -31,9 +30,9 @@ Dijkstra's algorithm is very similar to[Prim's algorithm for minimum spanning tr
 
 ![image](media/Dijkstra's-Algorithm-image6.png)
 
-1.  Lazy version
+1. Lazy version
 
-2.  Eager version
+2. Eager version
 
 ## Why use Dijkstra's Algorithm if Breadth First Search (BFS) can do the same thing faster?
 

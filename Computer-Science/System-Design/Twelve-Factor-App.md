@@ -7,11 +7,12 @@ Modified: 2020-08-18 02:20:28 +0500
 ---
 
 In the modern era, software is commonly delivered as a service: calledweb apps, orsoftware-as-a-service. The twelve-factor app is a methodology for building software-as-a-service apps that:
--   Use**declarativeformats** for setup automation, to minimize time and cost for new developers joining the project
--   Have a**clean contract**with the underlying operating system, offering**maximum portability**between execution environments
--   Are suitable for**deployment**on modern**cloud platforms**, obviating the need for servers and systems administration
--   **Minimize divergence**between development and production, enabling**continuous deployment**for maximum agility
--   And can**scale up**without significant changes to tooling, architecture, or development practices
+
+- Use**declarativeformats** for setup automation, to minimize time and cost for new developers joining the project
+- Have a**clean contract**with the underlying operating system, offering**maximum portability**between execution environments
+- Are suitable for**deployment**on modern**cloud platforms**, obviating the need for servers and systems administration
+- **Minimize divergence**between development and production, enabling**continuous deployment**for maximum agility
+- And can**scale up**without significant changes to tooling, architecture, or development practices
 The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
 These best practices are designed to enable applications to be built with portability and resilience when deployed to[the web](https://en.wikipedia.org/wiki/The_web).
 | **#** | **Factor**              | **Description**                                                                                                     |
