@@ -6,6 +6,7 @@ Modified: 2018-06-24 00:03:28 +0500
 
 ---
 
+```java
 import java.io.BufferedReader;
 
 import java.io.InputStreamReader;
@@ -111,3 +112,4 @@ System.out.println(n + " " + one + " " + two + " " + doub);
 }
 
 }
+```

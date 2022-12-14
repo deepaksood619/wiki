@@ -18,7 +18,7 @@ Two vertices are connected if there is a path between them
 
 In every finite undirected graph number of vertices with odd degree is always even.The handshaking lemma is a consequence of the degree sum formula (also sometimes called the handshaking lemma)
 
-![](media/Undirected-Graph-image2.png)
+![image](media/Undirected-Graph-image2.png)
 
 ## Properties
 

@@ -114,7 +114,7 @@ So, it turns out that there are a set of techniques called vectorizationtechniqu
 
 ## Example
 
-```
+```python
 import time
 
 a = np.random.rand(1000000)

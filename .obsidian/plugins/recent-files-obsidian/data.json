@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Python-Tricks",
+      "path": "Languages/Python/Advanced/Python-Tricks.md"
+    },
+    {
+      "basename": "Tech-&-Courses-TODO",
+      "path": "Office/TODO/Tech-&-Courses-TODO.md"
+    },
+    {
       "basename": "Others---Data",
       "path": "Technologies/Technologies/Others/Others---Data.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "Business",
       "path": "Office/Credentials/Business.md"
-    },
-    {
-      "basename": "Tech-&-Courses-TODO",
-      "path": "Office/TODO/Tech-&-Courses-TODO.md"
     },
     {
       "basename": "NLTK",

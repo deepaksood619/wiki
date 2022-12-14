@@ -62,9 +62,11 @@ Speaking of long-running Python processes, they may hold a lot of unused memory 
 
 ## Code
 
+```python
 import sys
 
 sys._debugmallocstats()
+```
 
 <https://rushter.com/blog/python-memory-managment>
 

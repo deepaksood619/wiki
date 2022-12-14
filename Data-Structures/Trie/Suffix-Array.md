@@ -29,7 +29,7 @@ Advantages of suffix arrays over suffix trees include improved space requirement
 
 ![image](media/Suffix-Array-image5.png)
 
-![](media/Suffix-Array-image6.png)
+![image](media/Suffix-Array-image6.png)
 
 ## Longest common prefix (LCP)
 

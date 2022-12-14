@@ -6,7 +6,7 @@ Modified: 2020-01-07 19:08:39 +0500
 
 ---
 
-```
+```python
 import paho.mqtt.client as mqtt
 
 # The callback for when the client receives a CONNACK response from the server.

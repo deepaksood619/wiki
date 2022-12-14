@@ -36,7 +36,7 @@ Machine learning makes use of decision trees to predict the direction of the inp
 
 ![image](media/Decision-Tree-image3.png)
 
-![](media/Decision-Tree-image4.png)
+![image](media/Decision-Tree-image4.png)
 
 ![image](media/Decision-Tree-image5.png)
 
@@ -277,7 +277,7 @@ Decision tree for titanic dataset for who lived and who died
 
 ## Decision Trees
 
-![](media/Decision-Tree-image59.jpg)
+![image](media/Decision-Tree-image59.jpg)
 
 ## Example
 
@@ -305,7 +305,7 @@ Decision tree for titanic dataset for who lived and who died
 
 ![image](media/Decision-Tree-image67.jpeg)
 
-![](media/Decision-Tree-image68.jpeg)
+![image](media/Decision-Tree-image68.jpeg)
 
 ![image](media/Decision-Tree-image69.jpeg)
 

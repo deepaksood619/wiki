@@ -20,7 +20,7 @@ Library highlights
 
 ## Commands
 
-```
+```python
 import nltk
 nltk.download()
 

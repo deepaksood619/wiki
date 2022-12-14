@@ -13,6 +13,6 @@ Modified: 2018-06-29 22:36:19 +0500
 ## References
 
 [MIT6041XT114-S0502_100](https://www.youtube.com/watch?v=P3_W6ZsL-A8)
-![](media/Intro---Syllabus_Summary---Unit-5-image3.png)
+![image](media/Intro---Syllabus_Summary---Unit-5-image3.png)
 
 Continuous Random Variables

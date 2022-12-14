@@ -101,7 +101,7 @@ Type 2: Actually Hilsa, Classified as Tuna (area under blue curve to the right o
 
 ![image](media/Bayes-Classification-image11.png)
 
-![](media/Bayes-Classification-image12.png)
+![image](media/Bayes-Classification-image12.png)
 
 ![image](media/Bayes-Classification-image13.png)
 

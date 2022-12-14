@@ -24,7 +24,7 @@ A simple way to calculate a confidence interval for a classification algorithm i
 
 ## calculate the confidence interval
 
-```
+```python
 from statsmodels.stats.proportion import proportion_confint
 ```
 

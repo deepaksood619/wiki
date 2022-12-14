@@ -118,7 +118,7 @@ Store your JWT in cookies for web applications, because of the additional securi
 
 <https://stackoverflow.com/questions/27301557/if-you-can-decode-jwt-how-are-they-secure>
 
-## pyjwt**
+## pyjwt
 
 PyJWTis a Python library which allows you to encode and decode JSON Web Tokens (JWT). JWT is an open, industry-standard ([RFC 7519](https://tools.ietf.org/html/rfc7519)) for representing claims securely between two parties.
 $ pip install pyjwt
@@ -130,7 +130,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3s
 
 ## Example
 
-```
+```python
 from datetime import datetime, timedelta
 import jwt
 

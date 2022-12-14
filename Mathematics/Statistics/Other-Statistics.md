@@ -8,7 +8,7 @@ Modified: 2021-10-15 11:52:59 +0500
 
 ## Gaussian Noise
 
-## Gaussian noiseis[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]][https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1]([2)](https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In other words, the values that the noise can take on are Gaussian-distributed
+## Gaussian noiseis[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]][https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1]([2)](<https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In> other words, the values that the noise can take on are Gaussian-distributed
 
 ![image](media/Other-Statistics-image1.png)
 A special case is*white Gaussian noise*, in which the values at any pair of times are[identically distributed](https://en.wikipedia.org/wiki/Iid)and[statistically independent](https://en.wikipedia.org/wiki/Statistically_independent)(and hence[uncorrelated](https://en.wikipedia.org/wiki/Uncorrelated)). In[communication channel](https://en.wikipedia.org/wiki/Channel_(communications))testing and modelling, Gaussian noise is used as additive[white noise](https://en.wikipedia.org/wiki/White_noise)to generate[additive white Gaussian noise](https://en.wikipedia.org/wiki/Additive_white_Gaussian_noise).
@@ -18,15 +18,15 @@ A special case is*white Gaussian noise*, in which the values at any pair of time
 
 A monotonic function is a function which is either entirely[nonincreasing](http://mathworld.wolfram.com/NonincreasingFunction.html)or[nondecreasing](http://mathworld.wolfram.com/NondecreasingFunction.html). A function is monotonic if its first[derivative](http://mathworld.wolfram.com/Derivative.html)(which need not be continuous) does not change sign.
 
-![](media/Other-Statistics-image2.png)
+![image](media/Other-Statistics-image2.png)
 
 Figure 1. A monotonically increasing function.
 
-![](media/Other-Statistics-image3.png)
+![image](media/Other-Statistics-image3.png)
 
 Figure 2. A monotonically decreasing function
 
-![](media/Other-Statistics-image4.png)
+![image](media/Other-Statistics-image4.png)
 
 Figure 3. A function that is not monotonic
 In[mathematics](https://en.wikipedia.org/wiki/Mathematics), a**monotonic function** (or**monotone function**) is a[function](https://en.wikipedia.org/wiki/Function_(mathematics))between[ordered sets](https://en.wikipedia.org/wiki/List_of_order_structures_in_mathematics)that preserves or reverses the given[order](https://en.wikipedia.org/wiki/Order_relation).
@@ -80,7 +80,7 @@ For example, Zipf's law states that given some[corpus](https://en.wikipedia.org/
 
 In[statistics](https://en.wikipedia.org/wiki/Statistics), a**power law**is a functional relationship between two quantities, where a relative change in one quantity results in a proportional relative change in the other quantity, independent of the initial size of those quantities: one quantity varies as a[power](https://en.wikipedia.org/wiki/Exponentiation)of another. For instance, considering the area of a square in terms of the length of its side, if the length is doubled, the area is multiplied by a factor of four.
 
-![](media/Other-Statistics-image5.png)
+![image](media/Other-Statistics-image5.png)
 
 An example power-law graph, being used to demonstrate ranking of popularity. To the right is the[long tail](https://en.wikipedia.org/wiki/Long_tail), and to the left are the few that dominate (also known as the[80--20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
 <https://en.wikipedia.org/wiki/Power_law>

@@ -11,7 +11,7 @@ HTTP/3 don't use TCP as the transport layer for the session, it uses[QUIC, a new
 Using UDP allows much more flexibility compared to TCP, and enables QUIC implementations to live fully in user-space --- updates to the protocol's implementations are not tied to operating systems updates as is the case with TCP. With QUIC, HTTP-level streams can be simply mapped on top of QUIC streams to get all the benefits of HTTP/2 without the head-of-line blocking.
 QUIC also combines the typical 3-way TCP handshake with[TLS 1.3](https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/)'s handshake. Combining these steps means that encryption and authentication are provided by default, and also enables faster connection establishment. In other words, even when a new QUIC connection is required for the initial request in an HTTP session, the latency incurred before data starts flowing is lower than that of TCP with TLS.
 
-![](media/HTTP-3-QUIC-image1.png)
+![image](media/HTTP-3-QUIC-image1.png)
 
 But why not just use HTTP/2 on top of QUIC, instead of creating a whole new HTTP revision? After all, HTTP/2 also offers the stream multiplexing feature. As it turns out, it's somewhat more complicated than that.
 While it's true that some of the HTTP/2 features can be mapped on top of QUIC very easily, that's not true for all of them. One in particular,[HTTP/2's header compression scheme called HPACK](https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/), heavily depends on the order in which different HTTP requests and responses are delivered to the endpoints. QUIC enforces delivery order of bytes within single streams, but does not guarantee ordering among different streams.

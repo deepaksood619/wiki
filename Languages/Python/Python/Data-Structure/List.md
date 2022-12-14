@@ -17,165 +17,113 @@ Use square brackets to define a list, and use commas to sepate individual items 
 
 bikes = ['trek', 'redline', 'giant']
 
-## Create a list of n items
+```python
+Create a list of n items
+ lst = [0]*n
 
-lst = [0]*n
+Create 2D list of n items of size m*n
+ memo = [[0 for x in range(n)] for y in range(m)]
+ factors = [[0] * col for _ in range(row)]
 
-## Create 2D list of n items of size m*n
+Get item in list
+ Negative indices refer to items at the end of the list.
+ first_bike = bikes[0]   # get first item in a list
+ last_bike = bikes[-1]   # get last item in a list
 
-memo = [[0 for x in range(n)] for y in range(m)]
+Modifying individual items
+ users[0] = 'new_name'
+ users[-2] = 'new_second_last_name'
 
-factors = [[0] * col for _ in range(row)]
+Looping through a list
+ for user in users:
+  print(user)
 
-## Get item in list
+Adding items to a list (append)
+ bikes = []
+ bikes.append('trek')
 
-Negative indices refer to items at the end of the list.
-
-first_bike = bikes[0] # get first item in a list
-
-last_bike = bikes[-1] # get last item in a list
-
-## Modifying individual items
-
-users[0] = 'new_name'
-
-users[-2] = 'new_second_last_name'
-
-## Looping through a list
-
-for user in users:
-
-print(user)
-
-## Adding items to a list (append)
-
-bikes = []
-
-bikes.append('trek')
-
-[append](https://docs.python.org/2/library/array.html?#array.array.append): Appends object at end.
-
-x = [1, 2, 3]
+ append: Appends object at end.
+ x = [1, 2, 3]
 x.append([4, 5])
 print (x)
+ gives you: [1, 2, 3, [4, 5]]
 
-gives you:[1, 2, 3, [4, 5]]
+Insert items into list
+ users.insert(0, 'joe')
+ users.insert(3, 'bea')
 
-## Insert items into list
-
-users.insert(0, 'joe')
-
-users.insert(3, 'bea')
-
-## Extend a list
-
-[extend](https://docs.python.org/2/library/array.html?#array.array.extend): Extends list by appending elements from the iterable.
-
-x = [1, 2, 3]
+Extend a list
+ extend: Extends list by appending elements from the iterable.
+ x = [1, 2, 3]
 x.extend([4, 5])
 print (x)
+ gives you: [1, 2, 3, 4, 5]
 
-gives you:[1, 2, 3, 4, 5]
+Removing items from list
+ • Deleting an element by its position
+  del users[-1]
+ • Removing an item by its value
+  users.remove('mia')
 
-## Removing items from list
+Popping elements (get + delete)
+ • Pop the last item from a list
+  most_recent_user = users.pop()
+ • Pop the first item in a list
+  first_user = users.pop(0)
 
-- Deleting an element by its position
+List length
+ num_users = len(users)
 
-del users[-1]
+Making numerical lists
+ squares = []
+ for x in range(1, 11):
+  squares.append(x**2)
 
-- Removing an item by its value
+List comprehensions
+ squares = [x**2 for x in range(1, 11)]
 
-users.remove('mia')
+Slicing a list
+ finishers = ['sam', 'bob', 'ada', 'bea']
+ first_two = finishers[:2]
+ middle_two = finishers[1:3]
+ last_three = finishers[-3:]
 
-## Popping elements (get + delete)
+Slicing a list into a list of sub-lists
+ [input[i:i+n] for i in range(0, len(input), n)]
+ Where input is the list name and n is the length by which list is to be sliced
 
-- Pop the last item from a list
+Copying a list
+ copy_of_bikes = bikes[:]
 
-most_recent_user = users.pop()
+Print list with different format (Using separator or join)
+ print(*lst, sep='\n')
+ print("\n".join(lst))
+ print(' '.join(str(x) for x in list_of_ints)) # for joining a list of integers
 
-- Pop the first item in a list
+DeepCopy a list
+ import copy
+ new_list = copy.deepcopy(list_to_copy)
 
-first_user = users.pop(0)
+Find duplicates in a list
+ import collections
+ dup_lst = [item for item, count in collections.Counter(lst).items() if count > 1]
 
-## List length
-
-num_users = len(users)
-
-## Making numerical lists
-
-squares = []
-
-for x in range(1, 11):
-
-squares.append(x**2)
-
-## List comprehensions
-
-squares = [x**2 for x in range(1, 11)]
-
-## Slicing a list
-
-finishers = ['sam', 'bob', 'ada', 'bea']
-
-first_two = finishers[:2]
-
-middle_two = finishers[1:3]
-
-last_three = finishers[-3:]
-
-## Slicing a list into a list of sub-lists
-
-[input[i:i+n] for i in range(0, len(input), n)]
-
-Where input is the list name and n is the length by which list is to be sliced
-
-## Copying a list
-
-copy_of_bikes = bikes[:]
-
-## Print list with different format (Using separator or join)
-
-print(*lst, sep='n')
-
-print("n".join(lst))
-
-print(' '.join(str(x) for x in list_of_ints)) # for joining a list of integers
-
-## DeepCopy a list
-
-import copy
-
-new_list = copy.deepcopy(list_to_copy)
-
-## Find duplicates in a list
-
-import collections
-
-dup_lst = [item for item, count in collections.Counter(lst).items() if count > 1]
-
-## Difference of two lists
-
->>> l1 = [1,2,6,8]
+Difference of two lists
+ >>> l1 = [1,2,6,8]
 >>> l2 = set([2,3,5,8])
-
-# v `filter` returns the a iterator object. Here I'm type-casting
-
-# v it to `list` in order to display the resultant value
-
+ #     v  `filter` returns the a iterator object. Here I'm type-casting
+#     v  it to `list` in order to display the resultant value
 >>> list(filter(lambda x: x not in l2, l1))
 [1, 6]
 
-## Finding minimum and maximum in a list of tuples
+Finding minimum and maximum in a list of tuples
+ min(lst, key = lambda t: t[1])
+ max(lst, key=lambda t:t[1])
 
-min(lst, key = lambda t: t[1])
-
-max(lst, key=lambda t:t[1])
-
-## Find sum of all values
-
-ages = [1,2,3,4,5]
-
-total_ages = sum(ages)
+Find sum of all values
+ ages = [1,2,3,4,5]
+ total_ages = sum(ages)
+```
 
 ## Lists Versus Tuples
 
@@ -239,6 +187,7 @@ We use the slice notation when we want to select more than one list element at a
 
 Ex - slice this in hh mm and tt
 
+```python
 a = "01:20 am"
 
 H = a[0:2]
@@ -246,6 +195,7 @@ H = a[0:2]
 M = a[3:5]
 
 T = a[6:8] / a[-2:] # start at the end -2 and go to end of the list
+```
 
 ## List Comprehensions
 

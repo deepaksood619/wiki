@@ -31,7 +31,7 @@ Furthermore, NumPy provides vectorized mathematical functions. When, e.g., you c
 
 The sum tool returns the sum of array elements over a given axis
 
-```
+```python
 import numpy
 
 my_array = numpy.array([ [1, 2], [3, 4] ])
@@ -46,7 +46,7 @@ print numpy.sum(my_array) #Output : 10
 
 The prod tool returns the product of array elements over a given axis.
 
-```
+```python
 import numpy
 
 my_array = numpy.array([ [1, 2], [3, 4] ])

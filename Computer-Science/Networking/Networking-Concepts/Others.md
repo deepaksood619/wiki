@@ -18,7 +18,7 @@ In recent years, an architecture known as leaf and spine, or distributed core, h
 All spine switches can handle Layer 3 (L3) with high port density, which allows for scalability. In a[software-defined network](https://www.sdxcentral.com/networking/sdn/)([SDN](https://www.sdxcentral.com/networking/sdn/definitions/what-the-definition-of-software-defined-networking-sdn/)), the spine switch is directly connected to a network control system with a virtual Layer 2 switch on top of the leaf-spine system. This controller is not a part of the data path but remains the central network engine, also known as an[SDN Controller](https://www.sdxcentral.com/networking/sdn/definitions/sdn-controllers/).
 
 ![image](media/Others-image1.jpg)
-![](media/Others-image2.jpg)
+![image](media/Others-image2.jpg)
 <https://www.sdxcentral.com/data-center/definitions/what-are-spine-switches>
 
 ## NAS**

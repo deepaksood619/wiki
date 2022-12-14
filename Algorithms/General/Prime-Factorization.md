@@ -112,6 +112,7 @@ Sieve of Atkin
 
 # find all factors of a given number
 
+```python
 import math
 
 def printDivisors(n):
@@ -147,6 +148,7 @@ assert printDivisors(100) == [[1, 100], [2, 50], [4, 25], [5, 20], 10]
 Time Complexity : O(sqrt(n))
 
 Auxiliary Space : O(1)
+```
 
 <https://www.geeksforgeeks.org/find-divisors-natural-number-set-1>
 

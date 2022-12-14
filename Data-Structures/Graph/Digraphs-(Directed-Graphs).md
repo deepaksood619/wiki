@@ -31,7 +31,7 @@ Modified: 2018-05-22 19:28:12 +0500
 ![image](media/Digraphs-(Directed-Graphs)-image6.png)
 ![image](media/Digraphs-(Directed-Graphs)-image7.png)
 2.  ![image](media/Digraphs-(Directed-Graphs)-image8.png)
-![](media/Digraphs-(Directed-Graphs)-image9.png)
+![image](media/Digraphs-(Directed-Graphs)-image9.png)
 
 ## Edge-Weighted Graph API
 

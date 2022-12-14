@@ -56,7 +56,7 @@ render_screen()
 
 4. Therefore instead of TCP use UDP,
 
-![](media/System-Design---MMOG---Game-image3.png)
+![image](media/System-Design---MMOG---Game-image3.png)
 
 - Send previous inputs in all packets
 - Add timestamps for replay-   **State Synchronization**

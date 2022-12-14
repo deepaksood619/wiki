@@ -28,7 +28,7 @@ Data Structure Used - Indexed Priority Queue, with decreaseKey API to decrease p
 
 ![image](media/Prim's-Algorithm-for-MST-image2.png)
 
-![](media/Prim's-Algorithm-for-MST-image3.png)
+![image](media/Prim's-Algorithm-for-MST-image3.png)
 
 ![image](media/Prim's-Algorithm-for-MST-image4.png)
 
@@ -36,7 +36,7 @@ Data Structure Used - Indexed Priority Queue, with decreaseKey API to decrease p
 
 ![image](media/Prim's-Algorithm-for-MST-image6.png)
 
-![](media/Prim's-Algorithm-for-MST-image7.png)
+![image](media/Prim's-Algorithm-for-MST-image7.png)
 
 ![image](media/Prim's-Algorithm-for-MST-image8.png)
 

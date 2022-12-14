@@ -47,8 +47,8 @@ d.  Conditional probability
 
 - Naive bayes filters
 
-![](media/Intro-image3.png)
-![](media/Intro-image4.png)-   Bayesian Statistics
+![image](media/Intro-image3.png)
+![image](media/Intro-image4.png)-   Bayesian Statistics
 
 - Simulation
 - Law of large numbers (applies to almost any distribution as long as the distribution doesn't have an infinite variance)

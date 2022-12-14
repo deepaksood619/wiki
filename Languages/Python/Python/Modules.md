@@ -20,54 +20,39 @@ Each module has its own private symbol table, which is used as the global symbol
 
 We can store our functions in a separate file called a module, and them import the functions we need into the file containing our main program. This allows for a cleaner program files. (Modules must in the same directory as our main program)
 
-## Storing a function in a module
+```python
+ # Storing a function in a module
+ # file - pizza.py
+    def create_pizza(item_number, *toppings):
+        pizza = {'Pizza number' : item_number}
 
-## file - pizza.py
+        for topping in toppings:
+            pizza[topping] = 1
 
-def create_pizza(item_number, *toppings):
+        return pizza
 
-pizza = {'Pizza number' : item_number}
+ # Importing an entire module
+ # file - making_pizzas.py
+ # Every function in the module is available in the program file.
+    import pizza
+    pizza.make_pizza(1, 'onion', 'tomato')
 
-for topping in toppings:
+ # Importing a specific function
+ # Only the imported functions are available in the program file.
+    from pizza import make_pizza
+    make_pizza(1, 'onion', 'tomato')
 
-pizza[topping] = 1
+ # Giving a module as an alias
+    import pizza as p
+    p.make_pizza(1, 'onion', 'tomato')
 
-return pizza
+ # Giving a function an alias
+    from pizza import make_pizza as mp
+    mp(1, 'onion', 'tomato')
 
-## Importing an entire module
+ # Importing all functions from a module
+ # This can reult in naming conflicts, which can cause errors. (not preferred method of importing)
+    from pizza import *
+    make_pizza(1, 'onion', 'tomato')
 
-## file - making_pizzas.py
-
-## Every function in the module is available in the program file
-
-import pizza
-
-pizza.make_pizza(1, 'onion', 'tomato')
-
-## Importing a specific function
-
-## Only the imported functions are available in the program file
-
-from pizza import make_pizza
-
-make_pizza(1, 'onion', 'tomato')
-
-## Giving a module as an alias
-
-import pizza as p
-
-p.make_pizza(1, 'onion', 'tomato')
-
-## Giving a function an alias
-
-from pizza import make_pizza as mp
-
-mp(1, 'onion', 'tomato')
-
-## Importing all functions from a module
-
-## This can reult in naming conflicts, which can cause errors. (not preferred method of importing)
-
-from pizza import *
-
-make_pizza(1, 'onion', 'tomato')
+```

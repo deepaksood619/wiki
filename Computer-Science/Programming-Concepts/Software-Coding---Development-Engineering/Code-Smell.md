@@ -31,7 +31,7 @@ One way to look at smells is with respect to principles and quality: "Smells are
 - [Cyclomatic complexity](https://www.wikiwand.com/en/Cyclomatic_complexity): too many branches or loops; this may indicate a function needs to be broken up into smaller functions, or that it has potential for simplification.
 - [Downcasting](https://www.wikiwand.com/en/Downcasting): a type cast which breaks the abstraction model; the abstraction may have to be refactored or eliminated.[[8]](https://www.wikiwand.com/en/Code_smell#citenote8)
 - Orphan variable or constant class: a[class](https://www.wikiwand.com/en/Class_(computer_science))that typically has a collection of constants which belong elsewhere where those constants should be owned by one of the other member classes.
-- [Data clump](https://www.wikiwand.com/en/Data_Clump_(Code_Smell)): Occurs when a group of variables are passed around together in various parts of the program. In general, this suggests that it would be more appropriate to formally group the different variables together into a single object, and pass around only this object instead.[[9]][https://www.wikiwand.com/en/Code_smell#citenote9]([10)](https://www.wikiwand.com/en/Code_smell#citenote10)
+- [Data clump](https://www.wikiwand.com/en/Data_Clump_(Code_Smell)): Occurs when a group of variables are passed around together in various parts of the program. In general, this suggests that it would be more appropriate to formally group the different variables together into a single object, and pass around only this object instead.[[9]][https://www.wikiwand.com/en/Code_smell#citenote9]([10)](<https://www.wikiwand.com/en/Code_smell#citenote10>)
 
 ## Method-level smells
 

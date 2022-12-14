@@ -48,7 +48,7 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 
 ## SQL Injection
 
-## Linwood_Cole' OR 1=1#
+## Linwood_Cole' OR 1=1 #
 
 ## 'admin;--
 
@@ -67,12 +67,12 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 2. **Error-Based SQLi**
     - **Error-based SQLi is an in-band SQLi technique that forces the database to generate an error, giving the attacker information upon which to refine their injection**
 
-![](media/Attacks-image2.jpg)
+![image](media/Attacks-image2.jpg)
 
 3. **Union-Based SQLi**
     - **Union-based SQLi is an in-band SQLi technique that leverages the UNION SQL operator to combine the results of two queries into a single result set**
 
-![](media/Attacks-image3.jpg)
+![image](media/Attacks-image3.jpg)
 
 4. **Inferential (Blind) SQL Injection**
     - **SQLi vulnerability where there is no actual transfer of data via the web application**
@@ -86,9 +86,9 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 5. **Boolean-based Blind SQLi**
     - **Boolean-based SQLi is a blind SQLi technique that uses Boolean conditions to return a different result depending on whether the query returns a TRUE or FALSE result**
 
-![](media/Attacks-image4.jpeg)
+![image](media/Attacks-image4.jpeg)
 
-![](media/Attacks-image5.jpeg)
+![image](media/Attacks-image5.jpeg)
 6.  **Time-based Blind SQLi**
     -   **Time-based SQLi is a blind SQLi technique that relies on the database pausing for a specified amount of time, then returning the results, indicating a successful SQL query execution**
     -   **Example Query**
@@ -119,7 +119,7 @@ If the first character of the administrator's hashed password is an 'a', wait fo
 
 Row hammer(also written asrowhammer) is a security exploit that takes advantage of an unintended and undesirable side effect in[dynamic random-access memory](https://en.wikipedia.org/wiki/Dynamic_random-access_memory)(DRAM) in which[memory cells](https://en.wikipedia.org/wiki/Memory_cell_(computing))leak their charges by interactions between themselves, possibly leaking or changing the contents of nearby[memory rows](https://en.wikipedia.org/wiki/Memory_row)that were not[addressed](https://en.wikipedia.org/wiki/Memory_address)in the original memory access. This bypass of the isolation between DRAM memory cells results from the high cell density in modern DRAM, and can be triggered by specially crafted[memory access patterns](https://en.wikipedia.org/wiki/Memory_access_pattern)that rapidly activate the same memory rows numerous times. While cell charge leakage is normal and mitigated by refreshes, additional leakage occurs during a rowhammer attack which causes cells to leak enough charge to change its content within a refresh interval.
 The row hammer effect has been used in some[privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation)computer security[exploits](https://en.wikipedia.org/wiki/Exploit_(computer_security)),and network-based attacks are also theoretically possible in a fast network connection between the attacker and victim.
-Different hardware-based techniques exist to prevent the row hammer effect from occurring, including required support in some[processors](https://en.wikipedia.org/wiki/Central_processing_unit)and types of DRAM[memory modules](https://en.wikipedia.org/wiki/Memory_module).[[9]][https://en.wikipedia.org/wiki/Row_hammer#cite_note-intel-d2s2e4-9]([10)](https://en.wikipedia.org/wiki/Row_hammer#cite_note-memcon-net105-10)Row hammer rarely or never affects[DDR](https://en.wikipedia.org/wiki/DDR_SDRAM)and[DDR2](https://en.wikipedia.org/wiki/DDR2_SDRAM)SDRAM modules[[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)]. It affects many[DDR3](https://en.wikipedia.org/wiki/DDR3_SDRAM)and[DDR4](https://en.wikipedia.org/wiki/DDR4_SDRAM)SDRAM modules.
+Different hardware-based techniques exist to prevent the row hammer effect from occurring, including required support in some[processors](https://en.wikipedia.org/wiki/Central_processing_unit)and types of DRAM[memory modules](https://en.wikipedia.org/wiki/Memory_module).[[9]][https://en.wikipedia.org/wiki/Row_hammer#cite_note-intel-d2s2e4-9]([10)](<https://en.wikipedia.org/wiki/Row_hammer#cite_note-memcon-net105-10)Row> hammer rarely or never affects[DDR](https://en.wikipedia.org/wiki/DDR_SDRAM)and[DDR2](https://en.wikipedia.org/wiki/DDR2_SDRAM)SDRAM modules[[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)]. It affects many[DDR3](https://en.wikipedia.org/wiki/DDR3_SDRAM)and[DDR4](https://en.wikipedia.org/wiki/DDR4_SDRAM)SDRAM modules.
 <https://en.wikipedia.org/wiki/Row_hammer>
 
 ## HTTP Desync**

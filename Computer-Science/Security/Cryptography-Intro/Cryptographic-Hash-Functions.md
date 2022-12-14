@@ -95,7 +95,7 @@ Originally designed by the NSA for various purposes, now considered deprecated a
 
 A slow hash function that is resistant to brute-force cracks. Commonly used in some Linux distributions. Considered very secure.
 
-```
+```python
 import bcrypt
 
 from models import db, User

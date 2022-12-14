@@ -126,7 +126,7 @@ Gxyz - 3 slots (x, y, z), Valency - 3
 - Union
 ![image](media/Logic-image34.png)
 ![image](media/Logic-image35.png)
-![](media/Logic-image36.png)
+![image](media/Logic-image36.png)
 
 ## Probability
 

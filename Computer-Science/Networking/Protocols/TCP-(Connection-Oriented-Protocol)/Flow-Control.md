@@ -55,7 +55,7 @@ LastByteSent - LastByteAcked <= ReceiveWindowAdvertised
 Just to see this behavior in action, let's write a very simple application that reads data from a socket and watch how the receive window behaves when we make this application slower. We will use Wireshark to see these packets,netcat to send data to this application, and ago program to read data from the socket.
 Here's the simple go program that reads and prints the data received:
 
-```
+```go
 package main
 
 import (
@@ -89,7 +89,7 @@ And now let's send this data to the application:
 tail -f stream.txt | nc localhost 3040
 The application is still fast enough to keep up with the work, though. So let's make it a bit slower to see what happens:
 
-```
+```go
 package main
 
 import (

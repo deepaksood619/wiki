@@ -17,7 +17,7 @@ Creating associative Symbol table
 
 ![image](media/Ternary-Search-Tries-(TST)-image4.png)
 
-![](media/Ternary-Search-Tries-(TST)-image5.png)
+![image](media/Ternary-Search-Tries-(TST)-image5.png)
 
 ![image](media/Ternary-Search-Tries-(TST)-image6.png)
 

@@ -70,7 +70,7 @@ The AUC provides an aggregate measure of performance across all possible classif
 - AUC helps us to choose between models when we don't know what decision threshold is going to be ultimately used
 - If we pick a random positive and a random negative, what't the probability my model scores them in the correct relative order?
 
-![](media/Confusion-Matrix-image4.jpeg)
+![image](media/Confusion-Matrix-image4.jpeg)
 
 ## Precision-Recall Curve (PR Curve)
 

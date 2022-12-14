@@ -28,7 +28,7 @@ Since the left hand limit line not equal to right hand limit line, we say limit 
 
 A line that touches the curve at two points.
 
-![](media/Tangent-Line-and-the-Derivative-image6.png)
+![image](media/Tangent-Line-and-the-Derivative-image6.png)
 
 ## Derivative
 

@@ -158,7 +158,7 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 
 ## Comparision**
 
-![](media/Types-of-Databases-image1.png)
+![image](media/Types-of-Databases-image1.png)
 
 ## Relational vs Non-Relational Databases
 

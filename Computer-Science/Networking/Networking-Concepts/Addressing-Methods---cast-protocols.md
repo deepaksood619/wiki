@@ -33,7 +33,7 @@ One important protocol of this class in Computer Networks is[Address Resolution 
 
 In multicasting, one/more senders and one/more recipients participate in data transfer traffic. In this method traffic recline between the boundaries of unicast (one-to-one) and broadcast (one-to-all). Multicast lets server's direct single copies of data streams that are then simulated and routed to hosts that request it. IP multicast requires support of some other protocols likeIGMP (Internet Group Management Protocol), Multicast routingfor its working. Also in Classful IP addressingClass Dis reserved for multicast groups.
 
-![](media/Addressing-Methods---cast-protocols-image3.png)
+![image](media/Addressing-Methods---cast-protocols-image3.png)
 4.  Anycast
 
 Anycastis a network[addressing](https://en.wikipedia.org/wiki/Addressing)and[routing](https://en.wikipedia.org/wiki/Routing)methodology in which a single destination address has multiple routing paths to two or more endpoint destinations. Routers will select the desired path on the basis of number of hops, distance, lowest cost, latency measurements or based on the least congested route. Anycast networks are widely used for[content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network)(CDN) products to bring their content closer to the end user.

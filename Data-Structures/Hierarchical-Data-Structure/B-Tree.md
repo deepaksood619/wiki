@@ -45,7 +45,7 @@ Optimization -
 
 B-Tree have several node types:Root,InternalandLeafnodes.Rootis the node that has no "parents" (e.g. is not a child for any other node).Leafnodes are the ones that have no child nodes and carry the data.Internalnodes are ones that have both a parent and children, they're connecting a root node with leaf nodes. Some B-Tree variants allow storing data on internal nodes. B-Trees are characterised by theirbranching factor: the amount (N) of pointers to the child nodes. Root and Internal nodes hold up to N-1 keys.
 
-![](media/B-Tree-image3.png)
+![image](media/B-Tree-image3.png)
 
 B-Tree consists of Root Node (top), Internal Nodes (middle) and Leaf Nodes (bottom). Leaf nodes usually hold the values and internal nodes are connecting Root to Leaves. This depicts a B-Tree with a branching factor of 4 (4 pointers, 3 keys in Internal nodes and 4 key/value pairs stores onleaves).
 Every non-leaf node in the tree holdsNkeys (index entries), separating the tree into the subtrees andN+1pointers to the children. Pointerifrom an entryKipoints to a subtree in which all the index entries are such thatKi <= K < K+1(whereKis a set of keys). First and the last pointers are the special cases, pointing to subtrees in which all the entries are less than (or equal), and greater thanK, correspondingly. Logically, internal nodes hold keys, representing aminimumkey of the child node they point to. Both Internal and leaf nodes also hold a pointer to the next and previous nodes on the same level, forming a doubly-linked list of sibling nodes.
@@ -57,7 +57,7 @@ Root and Internal nodes of the B-Trees can often be cached in RAM to facilitate 
 
 When performing lookups, the search starts at the root node and proceeds down to the leaf level. On each level, the algorithm finds the two keys, one of which is smaller and the other one is larger the searched term (so the term is between them), following the child pointer between the keys.
 
-![](media/B-Tree-image4.png)
+![image](media/B-Tree-image4.png)
 
 Lookups in B-Tree makes a single Root-to-Leaf pass, following the pointers "between" the two keys, one of which is larger than (or equal) to the searched term and the other one is less than the searchedterm.
 Searches within the node are usually performed using binary search. It's clear how to perform binary search with a fixed-size keys: knowing the amount of the items in the sorted array, jump to the middle, perform a comparison making a decision whether to traverse left or right and repeat until the item is found.
@@ -67,7 +67,7 @@ Searches within the node are usually performed using binary search. It's clear h
 Searches in the B-Trees have logarithmic complexity, since on the node level, keys are stored in order, and the binary search is performed in order to find a match. This is also why it's important to keep the occupancy high and uniform across thetree.
 With a variable-lengths data, an indirection vector can be prepended to data, holding offsets to the actual records. Pointers in indirection vector have to be sorted by the search key (actual variable-size data doesn't have to follow the sort). The binary search is performed by picking a middle pointer of indirection vector, performing a comparison in order pick the traversal direction and repeating the operation until the searched key is located.
 
-![](media/B-Tree-image6.png)
+![image](media/B-Tree-image6.png)
 
 In order to allow binary searches and logarithmic time accesses on variable-size data, an indirection vector is used: an indirection vector holds offsets to the actual data. Binary search starts in the middle of the indirection vector, the key at the offset in the middle is compared to the searched term, binary search continues in the direction shown by comparison.
 In case with point queries, the search is complete after locating a node. When the range scan is performed, keys and values in the current node and then sibling leaf nodes' keys and values are traversed, until the end of the range is reached.
@@ -100,7 +100,7 @@ B+Trees are different from the original B-Tree paper in that have an additional 
 ## B-Tree Maintenance
 
 Many modern databases are using B-Tree indexes: they're fast, efficient and there are many optimizations for them that are widely known and used. Most of the implementations are mutable. This means that the data structure is dynamic and is changing on disk: when new nodes are allocated, internal structure is changing. In order to facilitate this, there has to be a certain amount of overhead maintained for the table, so called occupancy factor, that allows some wiggle room for the new writes.
-![](media/B-Tree-image8.png)
+![image](media/B-Tree-image8.png)
 
 Rebalancing is a way to compensate for the occupancy factor. The pointers from a more-occupied node are moved to the less-occupied node. This leads to quicker binary searches because of the logarithmic factor of larger numbers. Immutable B-Trees have a hundred percent occupancy factor and require no rebalancing.
 Compaction and load-balancing help with the B-Tree space management. During compaction (the term is really overloaded, and in the context of B-Trees has a different meaning from LSM-Trees one), free space is reclaimed by wiping out the outdated or removed records and re-writing the node contiguously (which may have bigger effect when the tree stores variable length records). Load balancing takes keys from the sibling nodes and moves them from nodes holding more records to ones holding less. Keeping the nodes balanced can also help to reduce an amount of splits. Unfortunately, this technique seems to be somewhat overlooked. Page splits also have some potential for performance optimizations: in order to facilitate key range scans, the nodes can be placed near one another on disk.

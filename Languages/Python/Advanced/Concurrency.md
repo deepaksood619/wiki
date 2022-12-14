@@ -36,6 +36,7 @@ Solution -
 
 ## MultiThreading
 
+```python
 import threading
 
 import socket
@@ -65,5 +66,6 @@ for i in range(500):
 thread = threading.Thread(target=attack)
 
 thread.start()
+```
 
 <https://bovage.hashnode.dev/what-exactly-is-multithreading>

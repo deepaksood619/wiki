@@ -26,11 +26,11 @@ The Central Limit Theorem, tells us that if we take the mean of the samples (n) 
 
 ## Sampling distribution of the sample mean
 
-![](media/Central-Limit-Theorem-image1.jpeg)
+![image](media/Central-Limit-Theorem-image1.jpeg)
 
 ## Positive skew and negative skew in a probability distribution
 
-![](media/Central-Limit-Theorem-image2.jpeg)
+![image](media/Central-Limit-Theorem-image2.jpeg)
 
 ## Positive Kurtosis and Negative Kurtosis in a probability distribution
 
@@ -38,7 +38,7 @@ Positive Kurtosis - Fatter tails and pointy middle
 
 Negative Kurtosis
 
-![](media/Central-Limit-Theorem-image3.jpeg)
+![image](media/Central-Limit-Theorem-image3.jpeg)
 
 ## Chebyshev's inquality
 

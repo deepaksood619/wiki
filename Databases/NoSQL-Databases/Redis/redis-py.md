@@ -12,7 +12,7 @@ Modified: 2022-09-23 16:02:11 +0500
 
 ## ipython
 
-```
+```python
 from config.redis_setup import redis_client
 
 def get_pending(queue):

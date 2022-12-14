@@ -17,7 +17,7 @@ When selecting a data serialization format, the following characteristic should 
 - Splitability
 - Support in Big Data / Fast Data Ecosystem
 
-![](media/Serialization-Deserialization-image1.png)
+![image](media/Serialization-Deserialization-image1.png)
 
 ## Forward Compatibility
 

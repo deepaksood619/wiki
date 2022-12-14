@@ -65,7 +65,7 @@ When a client subscribes to a topic with a multi-level wildcard, it receives all
 
 ## Topics beginning with $
 
-Generally, you can name your MQTT topics as you wish. However, there is one exception: __Topics that start with a $ symbol have a different purpose.__ These topics are not part of the subscription when you subscribe to the multi-level wildcard as a topic (#).The $-symbol topics are reserved for internal statistics of the MQTT broker.Clients cannot publish messages to these topics. At the moment, there is no official standardization for such topics. Commonly,$SYS/is used for all the following information, but broker implementations varies.
+Generally, you can name your MQTT topics as you wish. However, there is one exception: **Topics that start with a $ symbol have a different purpose.** These topics are not part of the subscription when you subscribe to the multi-level wildcard as a topic (#).The $-symbol topics are reserved for internal statistics of the MQTT broker.Clients cannot publish messages to these topics. At the moment, there is no official standardization for such topics. Commonly,$SYS/is used for all the following information, but broker implementations varies.
 
 $SYS/broker/clients/connected
 
@@ -97,7 +97,7 @@ Because non-ASCII UTF-8 characters often display incorrectly, it is very difficu
 
 ## Embed a unique identifier or the Client Id into the topic
 
-It can be very helpful to include the unique identifier of the publishing client in the topic. The unique identifier in the topic helps you identify who sent the message. The embedded ID can be used to enforce authorization. Only a client that has the same client ID as the ID in the topic is allowed to publish to that topic. For example, a client with the _client1 ID is allowed to publish to_client1/status, but not permitted to publish to _client2/status.
+It can be very helpful to include the unique identifier of the publishing client in the topic. The unique identifier in the topic helps you identify who sent the message. The embedded ID can be used to enforce authorization. Only a client that has the same client ID as the ID in the topic is allowed to publish to that topic. For example, a client with the _client1 ID is allowed to publish to_client1/status, but not permitted to publish to_client2/status.
 
 ## Don't subscribe to #
 

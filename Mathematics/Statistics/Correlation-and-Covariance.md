@@ -54,7 +54,7 @@ The performance of some algorithms can deteriorate if two or more variables are 
 ## Pearson r Correlation
 
 Pearsonrcorrelation is the most widely used correlation statistic to measure the degree of the relationship between linearly related variables. For example, in the stock market, if we want to measure how two stocks are related to each other, Pearsonrcorrelation is used to measure the degree of relationship between the two. The point-biserial correlation is conducted with the Pearson correlation formula except that one of the variables is dichotomous. The following formula is used to calculate the Pearsonrcorrelation:
-![](media/Correlation-and-Covariance-image2.jpg)
+![image](media/Correlation-and-Covariance-image2.jpg)
 r= Pearson r correlation coefficient
 
 N = number of observations
@@ -106,7 +106,7 @@ Nd= Number of discordant
 Spearman rank correlation is a non-parametric test that is used to measure the degree of association between two variables. The Spearman rank correlation test does not carry any assumptions about the distribution of the data and is the appropriate correlation analysis when the variables are measured on a scale that is at least ordinal.
 
 The following formula is used to calculate the Spearman rank correlation:
-![](media/Correlation-and-Covariance-image4.jpg)
+![image](media/Correlation-and-Covariance-image4.jpg)
 ρ= Spearman rank correlation
 
 di= the difference between the ranks of corresponding variables

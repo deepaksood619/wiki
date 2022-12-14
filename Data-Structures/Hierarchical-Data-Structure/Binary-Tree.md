@@ -31,7 +31,7 @@ T = Number of internal nodes with two children
 
 Empty or node with links to left and right binary trees.
 
-![](media/Binary-Tree-image1.png)
+![image](media/Binary-Tree-image1.png)
 
 This is neither full nor complete
 ![image](media/Binary-Tree-image2.png)
@@ -60,7 +60,7 @@ This is complete but not full
 ## Binary trees
 
 In computer science, a binary tree is a tree data structure in which each node has at the most two children, which are referred to as the left child and the right child." --- [Wikipedia](https://en.wikipedia.org/wiki/Binary_tree)
-![](media/Binary-Tree-image5.png)
+![image](media/Binary-Tree-image5.png)
 The first thing we need to keep in mind when we implement a binary tree is that it is a collection of nodes. Each node has three attributes: value, left_child, and right_child.
 How do we implement a simple binary tree that initializes with these three properties?
 class BinaryTree:

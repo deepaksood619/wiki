@@ -93,7 +93,7 @@ In Galaxy schema shares dimensions are called Conformed Dimensions.
 
 ## What is Star Cluster Schema?
 
-![](media/Data-Warehousing_Warehouse-Schemas-image4.png)
+![image](media/Data-Warehousing_Warehouse-Schemas-image4.png)
 Snowflake schema contains fully expanded hierarchies. However, this can add complexity to the Schema and requires extra joins. On the other hand, star schema contains fully collapsed hierarchies, which may lead to redundancy. So, the best solution may be a balance between these two schemas which is star cluster schema design.
 Overlapping dimensions can be found as forks in hierarchies. A fork happens when an entity acts as a parent in two different dimensional hierarchies. Fork entities then identified as classification with one-to-many relationships.
 

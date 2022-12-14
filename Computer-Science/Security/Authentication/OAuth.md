@@ -79,7 +79,7 @@ Luckily,[OpenID Connect](https://openid.net/connect/)or OIDC brings some sanity 
 <https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs>
 
 <https://tools.ietf.org/html/rfc6749>
-![](media/Authentication_OAuth-image3.png)
+![image](media/Authentication_OAuth-image3.png)
 
 ## PKCE - Proof-Key for Code Exchange (pronounced - pixie)
 

@@ -255,7 +255,7 @@ restartPolicy: OnFailure
 
 ![image](media/Vault-image2.png)
 ![image](media/Vault-image3.png)
-![](media/Vault-image4.png)
+![image](media/Vault-image4.png)
 ![image](media/Vault-image5.png)
 
 ## Review Approle

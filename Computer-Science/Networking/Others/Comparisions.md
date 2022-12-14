@@ -9,7 +9,7 @@ Modified: 2020-05-06 10:17:55 +0500
 ## Avro vs Protobuf
 
 What should you choose then? Avro, especially at the beginning, seems much easier to use. The cost of this is that you will need to provide both reader and writer schema to deserialize anything.
-![](media/Comparisions-image1.png)
+![image](media/Comparisions-image1.png)
 
 Sometimes this might be quite problematic. That's why tools like[Schema Registry](https://www.confluent.io/confluent-schema-registry/)were developed.
 The next problem you might face with Avro is the overall impact on your domain events. At some point, Avro can leak into your domain. Some constructions like e.g. a map with keys that are not strings are not supported in Avro model. When the serialization mechanism is forcing you to change something in your domain model --- it's not a good sign.
@@ -17,73 +17,73 @@ With Protocol Buffers, schema management is much simpler --- you just need schem
 Personally, I would use Avro for simple domains with mostly primitive types. For rich domains, with complex types and structures, I've been using Protocol Buffers for quite some time. Clean domain with no serialization influence is really worth paying the boilerplate code price.
 <https://blog.softwaremill.com/the-best-serialization-strategy-for-event-sourcing-9321c299632b>
 [(Big) Data Serialization with Avro and Protobuf](https://www.slideshare.net/gschmutz/big-data-serialization-with-avro-and-protobuf)
-![](media/Comparisions-image2.png)
-![](media/Comparisions-image3.png)
+![image](media/Comparisions-image2.png)
+![image](media/Comparisions-image3.png)
 
-![](media/Comparisions-image4.png)
+![image](media/Comparisions-image4.png)
 
-![](media/Comparisions-image5.png)
+![image](media/Comparisions-image5.png)
 
-![](media/Comparisions-image6.png)
+![image](media/Comparisions-image6.png)
 
-![](media/Comparisions-image7.png)
+![image](media/Comparisions-image7.png)
 
-![](media/Comparisions-image8.png)
+![image](media/Comparisions-image8.png)
 
-![](media/Comparisions-image9.png)
+![image](media/Comparisions-image9.png)
 
-![](media/Comparisions-image10.png)
+![image](media/Comparisions-image10.png)
 
-![](media/Comparisions-image11.png)
+![image](media/Comparisions-image11.png)
 
-![](media/Comparisions-image12.png)
+![image](media/Comparisions-image12.png)
 
-![](media/Comparisions-image13.png)
+![image](media/Comparisions-image13.png)
 
-![](media/Comparisions-image14.png)
+![image](media/Comparisions-image14.png)
 
-![](media/Comparisions-image15.png)
+![image](media/Comparisions-image15.png)
 
-![](media/Comparisions-image16.png)
+![image](media/Comparisions-image16.png)
 
-![](media/Comparisions-image17.png)
+![image](media/Comparisions-image17.png)
 
-![](media/Comparisions-image18.png)
+![image](media/Comparisions-image18.png)
 
-![](media/Comparisions-image19.png)
+![image](media/Comparisions-image19.png)
 
-![](media/Comparisions-image20.png)
+![image](media/Comparisions-image20.png)
 
-![](media/Comparisions-image21.png)
+![image](media/Comparisions-image21.png)
 
-![](media/Comparisions-image22.png)
+![image](media/Comparisions-image22.png)
 
-![](media/Comparisions-image23.png)
+![image](media/Comparisions-image23.png)
 
-![](media/Comparisions-image24.png)
+![image](media/Comparisions-image24.png)
 
-![](media/Comparisions-image25.png)
+![image](media/Comparisions-image25.png)
 
-![](media/Comparisions-image26.png)
+![image](media/Comparisions-image26.png)
 
 ## Big Data and Fast Data
 
-![](media/Comparisions-image27.png)
+![image](media/Comparisions-image27.png)
 
-![](media/Comparisions-image28.png)
+![image](media/Comparisions-image28.png)
 
-![](media/Comparisions-image29.png)
+![image](media/Comparisions-image29.png)
 
-![](media/Comparisions-image30.png)
+![image](media/Comparisions-image30.png)
 
-![](media/Comparisions-image31.png)
-![](media/Comparisions-image32.png)
+![image](media/Comparisions-image31.png)
+![image](media/Comparisions-image32.png)
 
 ## Summary
 
-![](media/Comparisions-image33.png)
+![image](media/Comparisions-image33.png)
 
-![](media/Comparisions-image34.png)
+![image](media/Comparisions-image34.png)
 
 ## Performance benchmarks
 

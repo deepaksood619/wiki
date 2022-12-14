@@ -6,7 +6,7 @@ Modified: 2018-12-10 12:00:18 +0500
 
 ---
 
-![](../../../media/Technologies-Brokers-Deployment-and-Installation-image1.png)
+![image](../../../media/Technologies-Brokers-Deployment-and-Installation-image1.png)
 
 Load Balancers
 

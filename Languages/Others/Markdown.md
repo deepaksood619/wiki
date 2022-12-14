@@ -9,6 +9,7 @@ Modified: 2022-12-11 12:34:24 +0500
 Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
 ## Editor
+
  [Online Markdown Editor - Dillinger, the Last Markdown Editor ever.](https://dillinger.io/)
 
 1. **Strikethrough**
@@ -191,6 +192,7 @@ defunkt/github-flavored-markdown#1
 [www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 
 Examples
+
 * :+1:
 * :sparkles:
 * :camel:
@@ -220,6 +222,7 @@ console.log("look ma', no spaces");
 ```
 
 ## Task Lists
+
 * [x] this is a complete item
 * [ ] this is an incomplete item
 * [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported

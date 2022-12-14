@@ -37,7 +37,7 @@ Test for the mean. Independent samples (Part2)
 
 ## Examples of hypotheses
 
-![](media/Hypothesis-Testing-image3.jpg)
+![image](media/Hypothesis-Testing-image3.jpg)
 
 ## Decisions you can take
 
@@ -57,7 +57,7 @@ Test for the mean. Independent samples (Part2)
 
 - The p-value is the smallest level of significance at which we can still reject the null hypothesis, given the observed sample statistic
 
-![](media/Hypothesis-Testing-image7.jpg)
+![image](media/Hypothesis-Testing-image7.jpg)
 
 ## Formulae for Hypothesis Testing
 

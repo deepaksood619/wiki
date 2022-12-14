@@ -49,354 +49,216 @@ All of these are[MultiDict](https://werkzeug.palletsprojects.com/datastructures/
 
 <https://gist.github.com/deepaksood619/99e790959f5eba6ba0815e056a8067d7>
 
-import logging
-
-import os
-
-import traceback
-
-from logging.config import dictConfig
-
-import sentry_sdk
-
-from sentry_sdk.integrations.flask import FlaskIntegration
-
-sentry_sdk.init(
-
-dsn=SENTRY_DSN,
-
-integrations=[FlaskIntegration()],
-
-attach_stacktrace=True,
-
-environment=ENVIRONMENT,
-
-)
-
-from flask import Flask, make_response, request, abort, jsonify, redirect, url_for
-
-# logging settings
-
-debug = eval(os.environ.get('DEBUG', 'False'))
-
-# for sending error logs to slack
-
-class HTTPSlackHandler(logging.Handler):
-
-def emit(self, record):
-
-log_entry = self.format(record)
-
-json_text = json.dumps({"text": log_entry})
-
-url = '[https://hooks.slack.com/services/<org_id>/<api_key>](https://hooks.slack.com/services/%3corg_id%3e/%3capi_key%3e)'
-
-return requests.post(url, json_text, headers={"Content-type": "application/json"}).content
-
-dictConfig({
-
-"version": 1,
-
-"disable_existing_loggers": True,
-
-"formatters": {
-
-"default": {
-
-"format": "[%(asctime)s] %(levelname)s in %(module)s: %(message)s",
-
-},
-
-"access": {
-
-"format": "%(message)s",
-
-}
-
-},
-
-"handlers": {
-
-"console": {
-
-"level": "INFO",
-
-"class": "logging.StreamHandler",
-
-"formatter": "default",
-
-"stream": "ext://sys.stdout",
-
-},
-
-"email": {
-
-"class": "logging.handlers.SMTPHandler",
-
-"formatter": "default",
-
-"level": "ERROR",
-
-"mailhost": ("smtp.example.com", 587),
-
-"fromaddr": "devops@example.com",
-
-"toaddrs": ["receiver@example.com", "receiver2@example.com"],
-
-"subject": "Error Logs",
-
-"credentials": ("username", "password"),
-
-},
-
-"slack": {
-
-"class": "app.HTTPSlackHandler",
-
-"formatter": "default",
-
-"level": "ERROR",
-
-},
-
-"error_file": {
-
-"class": "logging.handlers.RotatingFileHandler",
-
-"formatter": "default",
-
-"filename": "/var/log/gunicorn.error.log",
-
-"maxBytes": 10000,
-
-"backupCount": 10,
-
-"delay": "True",
-
-},
-
-"access_file": {
-
-"class": "logging.handlers.RotatingFileHandler",
-
-"formatter": "access",
-
-"filename": "/var/log/gunicorn.access.log",
-
-"maxBytes": 10000,
-
-"backupCount": 10,
-
-"delay": "True",
-
-}
-
-},
-
-"loggers": {
-
-"gunicorn.error": {
-
-"handlers": ["console"] if debug else ["console", "slack", "error_file"],
-
-"level": "INFO",
-
-"propagate": False,
-
-},
-
-"gunicorn.access": {
-
-"handlers": ["console"] if debug else ["console", "access_file"],
-
-"level": "INFO",
-
-"propagate": False,
-
-}
-
-},
-
-"root": {
-
-"level": "DEBUG" if debug else "INFO",
-
-"handlers": ["console"] if debug else ["console", "slack"],
-
-}
-
-})
-
-app = Flask(__name__)
-
-logging.warning('application started')
-
-## @app.errorhandler(404)
-
-def resource_not_found(exception):
-
-"""Returns exceptions as part of a json."""
-
-return jsonify(error=str(exception)), 404
-
-@app.route("/get_result")
-
-def get_result():
-
-"""Takes a job_id and returns the job's result."""
-
-job_id = request.args["job_id"]
-
-try:
-
-job = Job.fetch(job_id, connection=redis_conn)
-
-except Exception as exception:
-
-## abort(404, description=exception)
-
-if not job.result:
-
-## abort(
-
-## 404
-
-## description=f"No result found for job_id {job.id}. Try checking the job's status."
-
-## )
-
-return jsonify(job.result)
-
-@app.route('/add/<customer>', methods=["POST"])
-
-def save_data(customer):
-
-try:
-
-logging.info(f'request.data: {request.data}')
-
-logging.info(f'request.args: {request.args}')
-
-logging.info(f'request.form: {request.form}')
-
-logging.info(f'request.files: {request.files}')
-
-logging.info(f'request.values: {request.values}')
-
-logging.info(f'request.json: {request.json}')
-
-logging.info(f'request.headers: {request.headers}')
-
-logging.info(f'request.__dict__: {request.__dict__}')
-
-request.method # request type
-
-request.cookies.get('cookie_name') #cookies
-
-if payload:
-
-logging.info(f'payload: {payload}')
-
-return make_response('OK', 200)
-
-else:
-
-return make_response('Payload Empty', 400)
-
-except Exception as e:
-
-logging.error(traceback.format_exc())
-
-return make_response('FAIL', 500)
-
-@app.route('/status', methods=["GET"])
-
-def health_check():
-
-return jsonify(success="OK"), 200
-
-@app.route('/score', method=["GET"])
-
-def score():
-
-cust_id = request.args('cust_id')
-
-if not cust_id:
-
-return make_response('Pass cust_id', 400)
-
-@app.route('/redirect')
-
-def redirect_example():
-
-return redirect(url_for('home')) @ sends user to /home
-
-# set cookie
-
-@app.route('/')
-
-def index():
-
-resp = make_response(render_template('index.html'))
-
-resp.set_cookie('cookie_name', 'cookie_value')
-
-return resp
-
-## #session handling
-
-import session
-
-app.config['SECRET_KEY'] = 'any random string' #must be set to use sessions
-
-# set session
-
-@app.route('/login_success')
-
-def login_success():
-
-session['key_name'] = 'key_value' #stores a secure cookie in browser
-
-return redirect(url_for('index'))
-
-# read session
-
-@app.route('/')
-
-def index():
-
-if 'key_name' in session: #session exists and has key
-
-session_var = session['key_value']
-
-else:
-
-# session does not exist
-
-@app.before_first_request
+```python
+ import logging
+ import os
+ import traceback
+ from logging.config import dictConfig
+
+ import sentry_sdk
+ from sentry_sdk.integrations.flask import FlaskIntegration
+ sentry_sdk.init(
+  dsn=SENTRY_DSN,
+  integrations=[FlaskIntegration()],
+  attach_stacktrace=True,
+  environment=ENVIRONMENT,
+ )
+
+ from flask import Flask, make_response, request, abort, jsonify, redirect, url_for
+
+ # logging settings
+ debug = eval(os.environ.get('DEBUG', 'False'))
+
+ # for sending error logs to slack
+ class HTTPSlackHandler(logging.Handler):
+     def emit(self, record):
+         log_entry = self.format(record)
+         json_text = json.dumps({"text": log_entry})
+         url = 'https://hooks.slack.com/services/<org_id>/<api_key>'
+         return requests.post(url, json_text, headers={"Content-type": "application/json"}).content
+
+ dictConfig({
+     "version": 1,
+     "disable_existing_loggers": True,
+     "formatters": {
+         "default": {
+             "format": "[%(asctime)s] %(levelname)s in %(module)s: %(message)s",
+         },
+         "access": {
+             "format": "%(message)s",
+         }
+     },
+     "handlers": {
+         "console": {
+             "level": "INFO",
+             "class": "logging.StreamHandler",
+             "formatter": "default",
+             "stream": "ext://sys.stdout",
+         },
+         "email": {
+             "class": "logging.handlers.SMTPHandler",
+             "formatter": "default",
+             "level": "ERROR",
+             "mailhost": ("smtp.example.com", 587),
+             "fromaddr": "devops@example.com",
+             "toaddrs": ["receiver@example.com", "receiver2@example.com"],
+             "subject": "Error Logs",
+             "credentials": ("username", "password"),
+         },
+         "slack": {
+             "class": "app.HTTPSlackHandler",
+             "formatter": "default",
+             "level": "ERROR",
+         },
+         "error_file": {
+             "class": "logging.handlers.RotatingFileHandler",
+             "formatter": "default",
+             "filename": "/var/log/gunicorn.error.log",
+             "maxBytes": 10000,
+             "backupCount": 10,
+             "delay": "True",
+         },
+         "access_file": {
+             "class": "logging.handlers.RotatingFileHandler",
+             "formatter": "access",
+             "filename": "/var/log/gunicorn.access.log",
+             "maxBytes": 10000,
+             "backupCount": 10,
+             "delay": "True",
+         }
+     },
+     "loggers": {
+         "gunicorn.error": {
+             "handlers": ["console"] if debug else ["console", "slack", "error_file"],
+             "level": "INFO",
+             "propagate": False,
+         },
+         "gunicorn.access": {
+             "handlers": ["console"] if debug else ["console", "access_file"],
+             "level": "INFO",
+             "propagate": False,
+         }
+     },
+     "root": {
+         "level": "DEBUG" if debug else "INFO",
+         "handlers": ["console"] if debug else ["console", "slack"],
+     }
+ })
+
+ app = Flask(__name__)
+
+ logging.warning('application started')
+
+ @app.errorhandler(404)
+ def resource_not_found(exception):
+ """Returns exceptions as part of a json."""
+  return jsonify(error=str(exception)), 404
+
+ @app.route("/get_result")
+ def get_result():
+     """Takes a job_id and returns the job's result."""
+     job_id = request.args["job_id"]
+
+     try:
+         job = Job.fetch(job_id, connection=redis_conn)
+     except Exception as exception:
+         abort(404, description=exception)
+
+     if not job.result:
+         abort(
+             404,
+             description=f"No result found for job_id {job.id}. Try checking the job's status.",
+         )
+     return jsonify(job.result)
+
+ @app.route('/add/<customer>', methods=["POST"])
+ def save_data(customer):
+     try:
+   logging.info(f'request.data: {request.data}')
+   logging.info(f'request.args: {request.args}')
+   logging.info(f'request.form: {request.form}')
+   logging.info(f'request.files: {request.files}')
+   logging.info(f'request.values: {request.values}')
+   logging.info(f'request.json: {request.json}')
+   logging.info(f'request.headers: {request.headers}')
+   logging.info(f'request.__dict__: {request.__dict__}')
+   request.method # request type
+   request.cookies.get('cookie_name') #cookies
+
+         if payload:
+             logging.info(f'payload: {payload}')
+
+             return make_response('OK', 200)
+         else:
+             return make_response('Payload Empty', 400)
+     except Exception as e:
+      logging.error(traceback.format_exc())
+
+     return make_response('FAIL', 500)
+
+ @app.route('/status', methods=["GET"])
+ def health_check():
+     return jsonify(success="OK"), 200
+
+ @app.route('/score', method=["GET"])
+ def score():
+     cust_id = request.args('cust_id')
+
+     if not cust_id:
+         return make_response('Pass cust_id', 400)
+
+ @app.route('/redirect')
+ def redirect_example():
+  return redirect(url_for('home')) @ sends user to /home
+
+ #set cookie
+ @app.route('/')
+ def index():
+  resp = make_response(render_template('index.html'))
+  resp.set_cookie('cookie_name', 'cookie_value')
+  return resp
+
+ #session handling
+  import session
+  app.config['SECRET_KEY'] = 'any random string' #must be set to use sessions
+
+  #set session
+  @app.route('/login_success')
+  def login_success():
+   session['key_name'] = 'key_value' #stores a secure cookie in browser
+   return redirect(url_for('index'))
+
+  #read session
+  @app.route('/')
+  def index():
+   if 'key_name' in session: #session exists and has key
+    session_var = session['key_value']
+   else:
+    #session does not exist
+
+ @app.before_first_request
 def _run_on_start(a_string):
-print "doing something important with %s" % a_string
+    print "doing something important with %s" % a_string
 
-app.add_url_rule("/userdevicesms", "userdevicesms", user_device_sms, methods=["POST"])
+ app.add_url_rule("/userdevicesms", "userdevicesms", user_device_sms, methods=["POST"])
+ app.add_url_rule("/score", "score", score, methods=["GET"])
 
-app.add_url_rule("/score", "score", score, methods=["GET"])
-
-if __name__ == '__main__':
-
-app.run(host='0.0.0.0', port='5000')
+ if __name__ == '__main__':
+     app.run(host='0.0.0.0', port='5000')
+```
 
 ## Serving
 
+```bash
 gunicorn kafka_flask_republisher:app -b 0.0.0.0:5000 --workers 2 -k gevent --timeout 300 --worker-connections 1000 --max-requests 1000000 --log-level info --limit-request-line 8190 --access-logfile -
 
-## # running
-
+# running
 python app.py
+```
 
 ## Requirements.txt
 
 Flask==1.1.1
-
 gunicorn[gevent]==19.9.0
 
 ## Flask
@@ -491,129 +353,85 @@ Click is a Python package for creating beautiful command line interfaces in a co
 
 ## Commands
 
-routes Show the routes for the app
-
-run Run a development server
-
-shell Run a shell in the app context
+```bash
+routes  Show the routes for the app
+run       Run a development server
+shell     Run a shell in the app context
 
 export FLASK_APP=flaskr
-
 export FLASK_ENV=development
-
 flask init-db
-
 flask run
 
-## flask shell
-
+flask shell
 >>> from app import db
-
 >>> db.create_all()
 
 >>> from app import db, Product, Order, Customer
-
 >>> johndoe = Customer(first_name='John', last_name='Doe')
-
 >>> db.session.add(johndoe)
-
 >>> db.session.commit()
-
 >>> order = Order(coupon_code='FREE', customer_id=1, products=[computer, phone])
-
 >>> johndoe = Customer.query.filter_by(id=1).first().first_name
-
 >>> Customer.query.all()
-
 >>> Customer.query.filter_by(id=1).one().first_name
 
-## # for updating a column
-
+# for updating a column
 >>> johndoe.address = '456 fake street'
-
 >>> db.session.commit()
 
-## # for deleting a row
-
+# for deleting a row
 >>> db.session.delete(johndoe)
-
 >>> db.session.commit()
 
 # migrations
-
 # directly sql queries
+```
 
 ## File structure
 
-k8s/
-
-src/
-
-app/
-
-main.py
-
-constants.py
-
-tests/
-
-data/
-
-tests.py
-
-.dockerignore
-
-.flake8
-
-.gitignore
-
-.isort.cfg
-
-.pre-commit-config.yaml
-
-config.yaml
-
-credentials.json
-
-credentials_sample.json
-
-dev.env
-
-docker-compose.yaml
-
-Dockerfile
-
-Jenkinsfile
-
-README.md
-
-requirements.txt
+```bash
+ k8s/
+ src/
+  app/
+   main.py
+   constants.py
+  tests/
+   data/
+   tests.py
+ .dockerignore
+ .flake8
+ .gitignore
+ .isort.cfg
+ .pre-commit-config.yaml
+ config.yaml
+ credentials.json
+ credentials_sample.json
+ dev.env
+ docker-compose.yaml
+ Dockerfile
+ Jenkinsfile
+ README.md
+    requirements.txt
+```
 
 ## Coding Snippets
 
-@backoff.on_exception(
+```python
+ @backoff.on_exception(
+  backoff.expo, (requests.exceptions.Timeout, requests.exceptions.ConnectionError)
+ )
+ def populate(destination):
+  url = f"{destination}/populate"
+  requests.get(url)
 
-backoff.expo, (requests.exceptions.Timeout, requests.exceptions.ConnectionError)
-
-)
-
-def populate(destination):
-
-url = f"{destination}/populate"
-
-requests.get(url)
-
-if __name__ == "__main__":
-
-destination = os.getenv("DESTINATION", "<http://localhost:8000>")
-
-populate(destination)
-
-while True:
-
-send_requests(destination)
-
-time.sleep(5)
+ if __name__ == "__main__":
+  destination = os.getenv("DESTINATION", "http://localhost:8000")
+  populate(destination)
+  while True:
+   send_requests(destination)
+   time.sleep(5)
+```
 
 ## Flask upload to s3
 

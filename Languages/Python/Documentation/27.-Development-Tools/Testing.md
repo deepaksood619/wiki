@@ -14,83 +14,61 @@ Modified: 2021-03-20 13:31:05 +0500
 
 ## Testing a function
 
-## full_names.py
+```python
+ full_names.py
+ def get_full_name(first, last):
+     full_name = f'{first} {last}'
+     return full_name.title()
 
-def get_full_name(first, last):
+ class Accountant:
+     def __init__(self, balance=0):
+         self.balance = balance
 
-full_name = f'{first} {last}'
+     def deposit(self, amount):
+         self.balance += amount
 
-return full_name.title()
+     def withdraw(self, amount):
+         self.balance -= amount
 
-class Accountant:
 
-def __init__(self, balance=0):
+ tests.py
+ # To build a test case, make a class that inherits from unittest.TestCase and write methods that begin with test_
+ import unittest
+ from full_names import get_full_name
+ from full_names import Accountant
 
-self.balance = balance
+ class NamesTestCase(unittest.TestCase):
+     def test_first_last(self):
+         full_name = get_full_name('deepak', 'sood')
+         self.assertEqual(full_name, 'Deepak Sood')
 
-def deposit(self, amount):
+ # Testing a class is similar to testing a function, since we mostly test our methods
+ class TestAccountant(unittest.TestCase):
+     def test_initial_balance(self):
+         acc = Accountant()
+         self.assertEqual(acc.balance, 0)
 
-self.balance += amount
+         acc = Accountant(100)
+         self.assertEqual(acc.balance, 100)
 
-def withdraw(self, amount):
+ # The setUp() method
+ # When testing a class, we usually have to make an instance of the class. The setUp() method is run before every test. Any instances we make in setUp() are available in every test you write.
 
-self.balance -= amount
+ class AccountantTest(unittest.TestCase):
+     def setUp(self):
+         self.acc = Accountant()
 
-## tests.py
+     def test_initial_balance(self):
+         self.assertEqual(self.acc.balance, 0)
 
-# To build a test case, make a class that inherits from unittest.TestCase and write methods that __begin with test___
+         acc = Accountant(100)
+         self.assertEqual(acc.balance, 100)
 
-import unittest
+ unittest.main()
 
-from full_names import get_full_name
-
-from full_names import Accountant
-
-class NamesTestCase(unittest.TestCase):
-
-def test_first_last(self):
-
-full_name = get_full_name('deepak', 'sood')
-
-self.assertEqual(full_name, 'Deepak Sood')
-
-# Testing a class is similar to testing a function, since we mostly test our methods
-
-class TestAccountant(unittest.TestCase):
-
-def test_initial_balance(self):
-
-acc = Accountant()
-
-self.assertEqual(acc.balance, 0)
-
-acc = Accountant(100)
-
-self.assertEqual(acc.balance, 100)
-
-# The setUp() method
-
-# When testing a class, we usually have to make an instance of the class. The setUp() method is run before every test. Any instances we make in setUp() are available in every test you write
-
-class AccountantTest(unittest.TestCase):
-
-def setUp(self):
-
-self.acc = Accountant()
-
-def test_initial_balance(self):
-
-self.assertEqual(self.acc.balance, 0)
-
-acc = Accountant(100)
-
-self.assertEqual(acc.balance, 100)
-
-unittest.main()
-
-## # run - python tests.py
-
-## # python -m unittest test_circles
+ # run - python tests.py
+ # python -m unittest test_circles
+```
 
 ## Test Runners
 
@@ -98,7 +76,7 @@ There are many test runners available for Python.The one built into the Python s
 
 - __unittest__
 
-unittestrequires that:
+unittest requires that:
 
 - You put your tests into classes as methods
 - You use a series of special assertion methods in theunittest.TestCaseclass instead of the built-inassertstatement
@@ -131,56 +109,43 @@ The doctest looks for>>>within the docstrings and executes whatever follows as i
 
 [pytest](https://realpython.com/pytest-python-testing/)supports execution ofunittesttest cases. The real advantage ofpytestcomes by writingpytesttest cases.pytesttest cases are a series of functions in a Python file starting with the nametest_.
 
-pytesthas some other great features:
+pytest has some other great features:
 
 - Support for the built-inassertstatement instead of using specialself.assert*()methods
 - Support for filtering for test cases
 - Ability to rerun from the last failing test
 - An ecosystem of hundreds of plugins to extend the functionality
 
-pip install pytest
+```bash
+  pip install pytest
+  pytest
+  python -m pytest tests
+  python -m pytest . #directory
+  pytest src/tests/test_sms.py -k 'test_sms_score' #run specific test in specific file
+  pytest --doctest-modules
+  pytest --durations=3
+   It’s important to keep the execution time of the tests low so that it doesn’t feel bad to execute the test suite. I like to print the time of the 3 slowest tests which were performed.
+  pytest --junitxml=test-reports/junit.xml --html=test-reports/pytest_report.html --self-contained-html
 
-pytest
+  def func(x):
+   return x + 1
 
-## python -m pytest tests
+  def test_answer():
+   assert func(3) == 4
 
-## python -m pytest . #directory
-
-## pytest src/tests/test_sms.py -k 'test_sms_score' #run specific test in specific file
-
-pytest --doctest-modules
-
-pytest --durations=3
-
-It's important to keep the execution time of the tests low so that it doesn't feel bad to execute the test suite. I like to print the time of the 3 slowest tests which were performed.
-
-pytest --junitxml=test-reports/junit.xml --html=test-reports/pytest_report.html --self-contained-html
-
-def func(x):
-
-return x + 1
-
-def test_answer():
-
-assert func(3) == 4
-
-assert response.status_code == 200
-
-assert response.text == "OK"
-
-assert response.elapsed.total_seconds() < 0.03
+   assert response.status_code == 200
+   assert response.text == "OK"
+   assert response.elapsed.total_seconds() < 0.03
+```
 
 - __pytest-black__
 - __pytest-flake8__
-
-pytest --flake8 --black
+    `pytest --flake8 --black`
 
 - __pytest-mccabe__
 - __pytest-mypy__
-
-Mypy static type checker plugin for pytest
-
-automatically run mypy over your code by adding--mypyto your pytest command
+        Mypy static type checker plugin for pytest
+        automatically run mypy over your code by adding--mypyto your pytest command
 
 - __pytest-benchmark__
 
@@ -192,6 +157,7 @@ Coverage.py is a tool for measuring code coverage of Python programs. It monitor
 
 Coverage measurement is typically used to gauge the effectiveness of tests. It can show which parts of your code are being exercised by tests, and which are not.
 
+```bash
 pip install coverage
 
 ## coverage run -m pytest
@@ -199,6 +165,7 @@ pip install coverage
 coverage report
 
 coverage html # open htmlcov/index.html in a browser
+```
 
 Many people choose to use the[pytest-cov](https://pytest-cov.readthedocs.io/)plugin, but for most purposes, it is unnecessary.
 
@@ -247,13 +214,13 @@ tox is a tool for automating test environment management and testing against mul
 
 Verify operator statements
 
+```bash
 assert(tc>0 and tc<51)
-
 assert(n>=k)
-
 assert(n%k==0)
 
 assert sum([1, 2, 3]) == 6, "Should be 6"
+```
 
 | [assertEqual(a,b)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)                 | a==b                     |    |
 |---------------------------------|-------------------------------|---------|
@@ -275,6 +242,7 @@ assert sum([1, 2, 3]) == 6, "Should be 6"
 
 ## Faker
 
+```python
 conda install faker
 
 ## # basic
@@ -309,5 +277,6 @@ fake.name()
 ## # fake past datetime
 
 fake.past_datetime(start_date='-10y').strftime('%Y-%m-%d %H:%M:%S')
+```
 
 <https://github.com/joke2k/faker>

@@ -47,7 +47,7 @@ Standard deviation and coefficient of variation
 
 ## Numerical variables. Frequency distribution table and histogram
 
-![](media/Descriptive-Statistics-image5.jpg)
+![image](media/Descriptive-Statistics-image5.jpg)
 ![image](media/Descriptive-Statistics-image6.jpg)
 
 ## Graphs and tables for relationships between variables. Cross tables

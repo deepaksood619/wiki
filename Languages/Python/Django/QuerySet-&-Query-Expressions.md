@@ -269,7 +269,9 @@ When Django encounters an instance of**F()**, it overrides the standard Python o
 ## The pk lookup shortcut
 
 ## >>> Blog.objects.get(id__exact=14) *# Explicit form*
+
 ## >>> Blog.objects.get(id=14) *#__exact is implied*
+
 ## >>> Blog.objects.get(pk=14)*# pk implies id__exact*
 
 ## Escaping percent signs and underscores in LIKE statements

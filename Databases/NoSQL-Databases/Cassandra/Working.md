@@ -58,7 +58,7 @@ Modified: 2020-01-07 22:08:50 +0500
 - Contacts nodes with the requested key
 - On each node, data is pulled from SSTables and merged
 - Consistency < All performs read repair in background (read_repair_chance -default 10% of reads)
-![](media/Cassandra_Working-image2.png)**Compaction**
+![image](media/Cassandra_Working-image2.png)**Compaction**
 - Data updates accumulate over time and SSTables and logs need to be compacted
   - The process of compaction merges SSTables, i.e., by merging updates for a key
   - Run periodically and locally at each server-   TimeWindowCompactionStrategy

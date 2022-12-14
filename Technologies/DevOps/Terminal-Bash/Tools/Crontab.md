@@ -55,7 +55,7 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 |-------------|-----------------|
 | @yearly    | 0 0 1 1 *      |
 | @daily     | 0 0 ** *    |
-| @hourly    | 0 ** **   |
+| @hourly    | 0 ****   |
 | @reboot    | Run at startup. |
 
 ## Examples -
@@ -74,7 +74,7 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 15 1 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py disable_alerts
 
-# cron for checking if some of the schedules have expired and will notifiy account managers.
+# cron for checking if some of the schedules have expired and will notifiy account managers
 
 15 1 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py check_schedule_expiry
 
@@ -94,7 +94,7 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 # cron for refresh_tokens every hour
 
-0 ** ** /usr/bin/python /home/ubntu/sources/zenalytix/manage.py refresh_tokens
+0 **** /usr/bin/python /home/ubntu/sources/zenalytix/manage.py refresh_tokens
 
 # Never run a cron set date to 31'st Feb
 

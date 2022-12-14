@@ -6,141 +6,98 @@ Modified: 2022-02-05 15:19:21 +0500
 
 ---
 
-## kgpo -A --watch | ts '[%Y-%m-%d %H:%M:%S]'
+```bash
+kgpo -A --watch | ts '[%Y-%m-%d %H:%M:%S]'
+k rollout restart deployment/ticket-api -n prod
 
-## k rollout restart deployment/ticket-api -n prod
-
-## kubectl run test --rm -it --image get -- bash
-
-## kubectl run test --rm -it --image python:3.8 -- bash
-
+kubectl run test --rm -it --image get -- bash
+kubectl run test --rm -it --image python:3.8 -- bash
 kubectl run test --rm -it --image curlimages/curl -- sh
-
 kubectl run nginx --image=nginx --restart=Never -n test
-
 kubectl run nginx --image=nginx:1.17.4 --restart=Never --port=80
-
 kubectl run busybox --image=busybox --restart=Never -- ls
-
-## kubectl run busybox --image=busybox --restart=Never -- /bin/sh -c "sleep 3600"
-
+kubectl run busybox --image=busybox --restart=Never -- /bin/sh -c "sleep 3600"
 kubectl run busybox --image=nginx --restart=Never -it --rm -- echo "How are you"
-
 kubectl run busybox --image=nginx --restart=Never -it --rm -- sh
-
 kubectl run nginx --image=nginx --restart=Never --port=80 --expose
-
 kubectl run nginx --image=nginx --restart=Never --requests='cpu=100m,memory=256Mi' --limits='cpu=200m,memory=512Mi'
-
 kubectl run nginx --image=nginx --restart=Never --serviceaccount=myuser
-
 kubectl run nginx1 --image=nginx --restart=Never --labels=app=v1
 
-kubectl exec -it troubleshoot--- /bin/sh
-
+kubectl exec -it troubleshoot- -- /bin/sh
 kubectl exec -it busybox -- wget -o- <IP Address>
 
-## kubectl create deploy nginx --image=nginx --dry-run -o yaml
-
+kubectl create deploy nginx --image=nginx --dry-run -o yaml
 kubectl create quota myrq --hard=cpu=1,memory=1G,pods=2 --dry-run -o yaml
-
 kubectl create configmap config --from-literal=foo=lala --from-literal=foo2=lolo
-
 kubectl create cm config2 --from-file=config.txt
-
 kubectl create cm config4 --from-file=special=config4.txt
-
 kubectl create cm config3 --from-env-file=config.env
-
 kubectl create secret generic mysecret --from-literal=password=mypass
-
 kubectl create secret generic mysecret2 --from-file=username
-
 kubectl create sa myuser
-
 kubectl create job pi --image=perl -- perl -Mbignum=bpi -wle 'print bpi(2000)'
-
-kubectl create cronjob busybox --image=busybox --schedule="*/1* ** *" -- /bin/sh -c 'date; echo Hello from the Kubernetes cluster'
+kubectl create cronjob busybox --image=busybox --schedule="*/1 * * * *" -- /bin/sh -c 'date; echo Hello from the Kubernetes cluster'
 
 kubectl expose deploy foo --port=6262 --target-port=8080
 
 kubectl delete po nginx --grace-period=0 --force
-
 kubectl delete deploy/nginx hpa/nginx
 
 kubectl get po nginx --v=7 (6 to 10)
-
 kubectl get po nginx --show-labels
-
 kubectl get po -l app
-
 kubectl get po --label-columns=app
 
 kubectl get po -l app=v2
-
 kubectl get po -l 'app in (v2,v1)'
-
 kubectl get po --selector=app=v2
+kubectl get pods --sort-by=.metadata.name (sorted by name)
+kubectl get pods--sort-by=.metadata.creationTimestamp (sorted by creationTimestamp)
+kubectl get po -o=custom-columns="POD_NAME:.metadata.name, POD_STATUS:.status.containerStatuses[].state" (custom columns)
 
-kubectl get pods --sort-by=.metadata.name **(sorted by name)**
-
-kubectl get pods--sort-by=.metadata.creationTimestamp **(sorted by creationTimestamp)**
-
-kubectl get po -o=custom-columns="POD_NAME:.metadata.name, POD_STATUS:.status.containerStatuses[].state" **(custom columns)**
-
-## # Annotations
-
+# Annotations
 kubectl annotate po nginx1 nginx2 nginx3 description='my description'
-
 kubectl get pods -o custom-columns=Name:metadata.name,ANNOTATIONS:metadata.annotations.description
-
 kubectl describe po nginx1 | grep -i 'annotations'
-
 kubectl annotate po nginx{1..3} description-
 
 kubectl label po nginx app=nginx
-
 kubectl label po nginx1 nginx2 nginx3 app-
 kubectl label po nginx{1..3} app-
 kubectl label po -l app app-
 
 kubectl label po nginx2 app=v2 --overwrite
 
-## # Rollouts / rollbacks
-
-## kubectl set image pod/nginx nginx=nginx:1.15-alpine
-
+# Rollouts / rollbacks
+kubectl set image pod/nginx nginx=nginx:1.15-alpine
 kubectl rollout status deploy nginx
-
 kubectl rollout history deploy nginx
-
 kubectl rollout history deploy nginx --revision=4
 
 kubectl rollout undo deploy nginx
-
 kubectl rollout undo deploy nginx --to-revision=2
 
 kubectl rollout pause deploy nginx
-
 kubectl rollout resume deploy nginx
-
 kubectl rollout restart deployment/frontend #Rolling restart of frontend deploy
 
 kubectl scale deploy nginx --replicas=5
-
 kubectl scale sts airflow-worker --replicas=5
 
 kubectl autoscale deploy nginx --min=5 --max=10 --cpu-percent=80
 
-## kubectl explain po.spec
+kubectl explain po.spec
 
-## kubectl top pod busybox --containers > file.log
+kubectl top pod busybox --containers > file.log
 
-wget -O- <http://10.1.0.89:8080>
+wget -O- http://10.1.0.89:8080
+
+```
 
 ## Debugging
 
-## exit code=137means that either (1) something killed the container that hosted the TE or (2) something killed the process with SIGKILL (kill -9) (We can figure that out by taking theexit codeand deduct 128 from it to get the actual signal number, i.e.137-128=9)
+exit code=137means that either (1) something killed the container that hosted the TE or (2) something killed the process with SIGKILL (kill -9) (We can figure that out by taking theexit codeand deduct 128 from it to get the actual signal number, i.e.137-128=9)
 
 ## Commands
 
@@ -774,12 +731,15 @@ kubectl get pods -A | grep Evicted | awk '{print $1}' | xargs kubectl delete pod
 
 ## # Delete pods older than X seconds
 
+```bash
 kubectl get pods -n crons -o go-template --template '{{range .items}}{{.metadata.name}} {{.metadata.creationTimestamp}}{{"n"}}{{end}}' | awk '$2 <= "'$(date -d 'yesterday' -Ins --utc | sed 's/+0000/Z/')'" { print $1 }' | xargs --no-run-if-empty kubectl delete pod -n crons
 
 kubectl get pods -n crons -o go-template --template '{{range .items}}{{.metadata.name}} {{.metadata.creationTimestamp}}{{"n"}}{{end}}' | awk '$2 <= "'$(date -v-120M "+%Y-%m-%dT%H:%M:%S")'" { print $1 }' | xargs --no-run-if-empty kubectl delete pod -n crons
+```
 
 ## Requests and Limits
 
+```python
 import re
 import subprocess
 
@@ -826,6 +786,7 @@ total_cpu += total_cpu_pod
 total_ram += total_ram_pod
 
 print(f'requested_cpu: {total_cpu} nrequested_ram: {total_ram}')
+```
 
 ## References
 

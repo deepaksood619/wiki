@@ -18,7 +18,7 @@ The Operating System maintains the following important process scheduling queues
 - Ready queue:This queue keeps a set of all processes residing in the main memory, ready and waiting to execute. A new process is always put in this queue.
 - Device queues:The processes which are blocked due to unavailability of an I/O device constitute this queue.
 
-![](media/Scheduling-image1.jpg)
+![image](media/Scheduling-image1.jpg)
 
 The OS can use different policies to manage each queue (FIFO, Round Robin, Priority, etc.). The OS scheduler determines how to move processes between the ready and run queues which can only have one entry per processor core on the system. In the above diagram, it has been merged with the CPU.
 Two-state process models refer to running and non-running states:
@@ -118,7 +118,7 @@ There are several scheduling problems in which the goal is to decide which job g
 
 ## Schedulers
 
-## SCHED_DEADLINEis a CPU[scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing))available in the[Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)since version 3.14,^[[1]][https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-lwn01-1]([2)](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-osnews01-2)^based on the[Earliest Deadline First (EDF)](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling)and Constant Bandwidth Server (CBS)[^[3]^](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-cbs-3)algorithms, supporting resource reservations: each task scheduled under such policy is associated with a*budget*Q (aka*runtime*), and a*period*P, corresponding to a declaration to the kernel that Q time units are required by that task every P time units, on any processor. This makesSCHED_DEADLINEparticularly suitable for[real-time](https://en.wikipedia.org/wiki/Real-time_computing)applications, like multimedia or industrial control, where P corresponds to the minimum time elapsing between subsequent activations of the task, and Q corresponds to the worst-case execution time needed by each activation of the task
+## SCHED_DEADLINEis a CPU[scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing))available in the[Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)since version 3.14,^[[1]][https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-lwn01-1]([2)](<https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-osnews01-2)^based> on the[Earliest Deadline First (EDF)](https://en.wikipedia.org/wiki/Earliest_deadline_first_scheduling)and Constant Bandwidth Server (CBS)[^[3]^](https://en.wikipedia.org/wiki/SCHED_DEADLINE#cite_note-cbs-3)algorithms, supporting resource reservations: each task scheduled under such policy is associated with a*budget*Q (aka*runtime*), and a*period*P, corresponding to a declaration to the kernel that Q time units are required by that task every P time units, on any processor. This makesSCHED_DEADLINEparticularly suitable for[real-time](https://en.wikipedia.org/wiki/Real-time_computing)applications, like multimedia or industrial control, where P corresponds to the minimum time elapsing between subsequent activations of the task, and Q corresponds to the worst-case execution time needed by each activation of the task
 
 <https://en.wikipedia.org/wiki/SCHED_DEADLINE>
 <https://en.wikipedia.org/wiki/Scheduling_(computing)>

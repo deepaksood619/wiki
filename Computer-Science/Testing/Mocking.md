@@ -53,7 +53,7 @@ except:
 Example 1: We want to add a user to a database. You can see thatdbdoes not return anything, but we change the state of our system. And we want to be sure that we don't actually change our production system when the unit tests are running!
 Example 2: Generate a file name based on the current date. You can see that the dependencydatetimereturns a value:
 
-```
+```python
 import datetime
 def generate_filename():
 
@@ -63,7 +63,7 @@ return f"{datetime.datetime.now():%Y-%m-%d}.png"
 Similarly, you could imagine a function which returns the weather in an English sentence and uses an API to get the actual weather ([example](https://gist.github.com/MartinThoma/5c7224ceae47e74645e0145d26dc03ec)).
 Example 3: In my project[edapy](https://github.com/MartinThoma/edapy)I looked at metadata from PDF files. I use the dependency PdfFileReader and have the file itself as an dependency. As the PDF file could be broken, PyPDF2 might throw an exception. So you can imagine code like this:
 
-```
+```python
 import PyPDF2.utils
 
 from PyPDF2 import PdfFileReader
@@ -105,7 +105,7 @@ Just like the example above, they make isolated unit testing hard or even imposs
 The overall strategy to test this is always the same: Replace the external dependency that is causing headaches by something in your control. The act of replacing the dependency is called**patching**, the replacement is called a**mock**. Depending on what exactly the mock does, you might also hear this being called a **Test Double, Test Stub, Test Spy or a Fake Object**. In practice in Python, the distinction does not matter.
 Let's make a tiny example how to use patch!
 
-```
+```python
 from external_dependency import dark_magic
 def is_credit_card_fraud(transaction):
 
@@ -126,7 +126,7 @@ raise ValueError()
 No matter which transaction you would use, the function is_credit_card_fraud would throw a ValueError.
 This is how you patch that dependency away with a decorator@patch:
 
-```
+```python
 from unittest.mock import patch, MagicMock
 def the_mock(input):
 
@@ -164,7 +164,7 @@ The following is an example which does not usepatchand seems to work, but it has
 
 # Core Library modules
 
-```
+```python
 import datetime
 
 from unittest import mock
@@ -249,7 +249,7 @@ The question when you should useunittest.mock.patchand --- if necessary ---unitt
 There are a couple of packages designed for simplifying the patching and giving better mocks for well-known dependencies.
 For example, you can use[freezegun](https://pypi.org/project/freezegun/)for mocking the system time:
 
-```
+```python
 import freezegun
 
 from mock_example import generate_filenamedef test_generate_filename():

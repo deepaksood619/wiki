@@ -12,11 +12,11 @@ BFS "is an algorithm for traversing or searching tree data structure. It starts 
 
 BFS algorithm traverses the tree level by level and depth by depth.
 
-![](media/Breadth-First-Search-(BFS)-image1.png)
+![image](media/Breadth-First-Search-(BFS)-image1.png)
 
 Here is an example that helps to better explain this algorithm:
 
-![](media/Breadth-First-Search-(BFS)-image2.png)
+![image](media/Breadth-First-Search-(BFS)-image2.png)
 
 So we traverse level by level. In this example, the result is 1--2--5--3--4--6--7.
 
@@ -40,7 +40,7 @@ Now let's code it.
 
 To implement a BFS algorithm, we use the queue data structure to help.
 
-![](media/Breadth-First-Search-(BFS)-image3.png)
+![image](media/Breadth-First-Search-(BFS)-image3.png)
 
 1. First add the root node into the queue with the put method.
 

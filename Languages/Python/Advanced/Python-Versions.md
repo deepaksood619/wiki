@@ -112,13 +112,11 @@ c = a | b
 
 print(c)
 
-
 a = {1: 'a', 2: 'b', 3: 'c', 6: 'in both'}
 
 b = {4: 'd', 5: 'e', 6: 'but different'}
 
 print(a | b)
-
 
 - Type Hinting
 - Two New String Methods

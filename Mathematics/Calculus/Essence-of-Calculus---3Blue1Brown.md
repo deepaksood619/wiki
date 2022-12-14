@@ -86,7 +86,7 @@ For smaller and smaller choices of dt value 2^0.000001^ -1 / 0.000001 approaches
 ![image](media/Essence-of-Calculus---3Blue1Brown-image30.png)
 ![OdOIS ](media/Essence-of-Calculus---3Blue1Brown-image31.png)
 ![od01S ](media/Essence-of-Calculus---3Blue1Brown-image32.png)
-![](media/Essence-of-Calculus---3Blue1Brown-image33.png)
+![image](media/Essence-of-Calculus---3Blue1Brown-image33.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image34.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image35.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image36.png)
@@ -108,14 +108,14 @@ We write some contant times t, as e to some constants time t, because rate of ch
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image44.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image45.png)
-![](media/Essence-of-Calculus---3Blue1Brown-image46.png)-   **L'Hôpital's rule**
+![image](media/Essence-of-Calculus---3Blue1Brown-image46.png)-   **L'Hôpital's rule**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image47.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image48.png)
 ![sin sin(nx ](media/Essence-of-Calculus---3Blue1Brown-image49.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image50.png)
-![](media/Essence-of-Calculus---3Blue1Brown-image51.png)
-![](media/Essence-of-Calculus---3Blue1Brown-image52.png)
+![image](media/Essence-of-Calculus---3Blue1Brown-image51.png)
+![image](media/Essence-of-Calculus---3Blue1Brown-image52.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image53.png)
 8.  **Integration and the fundamental theorem of calculus**
 
@@ -130,7 +130,7 @@ We write some contant times t, as e to some constants time t, because rate of ch
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image61.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image62.png)
-![](media/Essence-of-Calculus---3Blue1Brown-image63.png)
+![image](media/Essence-of-Calculus---3Blue1Brown-image63.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image64.png)
 Finding the average of a continuous thing.
 ![image](media/Essence-of-Calculus---3Blue1Brown-image65.png)
@@ -174,7 +174,7 @@ Finding the average of a continuous thing.
     - **Polymorphic Function**
     - **Jacobian Determinant**
 
-![](media/Essence-of-Calculus---3Blue1Brown-image88.png)
+![image](media/Essence-of-Calculus---3Blue1Brown-image88.png)
 
 ## References
 

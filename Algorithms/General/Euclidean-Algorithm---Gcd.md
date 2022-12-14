@@ -45,6 +45,7 @@ A more efficient version of the algorithm shortcuts these steps, instead replaci
 
 ## Java
 
+```java
 public int GCD(int a, int b) {
 
 if ( b == 0 ) return a;
@@ -52,9 +53,11 @@ if ( b == 0 ) return a;
 else return GCD ( b, a % b );
 
 }
+```
 
 ## Python
 
+```python
 def gcd(x, y):
 
 while (y):
@@ -62,12 +65,15 @@ while (y):
 x, y = y, x%y
 
 return x
+```
 
 ## Python - using math library
 
+```python
 import math
 
 match.gcd(x,y)
+```
 
 ## Time Complexity:O(Log min(a, b))
 
@@ -93,6 +99,7 @@ match.gcd(x,y)
 
 Extended Euclidean algorithm also finds integer coefficients x and y such that:
 
+```python
 ax + by = gcd(a, b)
 
 ## def gcdExtended(a, b, x, y)
@@ -122,8 +129,9 @@ x **=** y1 **-** (b**/**a) ***** x1
 y **=** x1
 
 ## return gcd
+```
 
-## References-
+## References
 
 1. <https://en.wikipedia.org/wiki/Euclidean_algorithm>
 

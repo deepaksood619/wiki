@@ -42,6 +42,7 @@ Ultimately, a log record needs to be rendered as text. Formatters describe the e
 
 ## Logging database queries in django
 
+```python
 import logging
 
 l = logging.getLogger('django.db.backends')
@@ -65,9 +66,11 @@ log = logging.getLogger('kademlia')
 log.addHandler(handler)
 
 log.setLevel(logging.DEBUG)
+```
 
 ## Logging in settings.py
 
+```python
 LOGGING = {
 
 'version': 1,
@@ -139,6 +142,7 @@ l = logging.getLogger('django.db.backends')
 l.setLevel(logging.DEBUG)
 
 l.addHandler(logging.StreamHandler())
+```
 
 ## See Also > Python > Documentation > 16. Generic Operating System Services / Logging
 

@@ -64,7 +64,7 @@ a.  **Thecommit-request phase(orvoting phase / prepare phase)**, in which acoord
 
 b.  **Thecommit phase**, in which, based onvotingof the participants, the coordinator decides whether to commit (only ifallhave voted "Yes") or abort the transaction (otherwise), and notifies the result to all the participants. The participants then follow with the needed actions (commit or abort) with their local transactional resources (also calledrecoverable resources; e.g., database data) and their respective portions in the transaction's other output (if applicable).
 ![image](media/Consensus-Protocols-image1.png)
-![](media/Consensus-Protocols-image2.png)
+![image](media/Consensus-Protocols-image2.png)
 
 Two-phase commit is a blocking protocol. The coordinator blocks waiting for votes from its cohorts, and cohorts block waiting for a commit/rollback message from the coordinator. Unfortunately, this means 2PC can, in some circumstances, result in a deadlock, e.g. the coordinator dies while cohorts wait or a cohort dies while the coordinator waits. Another problematic scenario is when a coordinator and cohort simultaneously fail. Even if another coordinatortakes its place, it won't be able to determine whether to commit or rollback.
 <https://en.wikipedia.org/wiki/Two-phase_commit_protocol>
@@ -74,7 +74,7 @@ Two-phase commit is a blocking protocol. The coordinator blocks waiting for vote
 ## 3 Phase Commit
 
 ![image](media/Consensus-Protocols-image3.png)
-![](media/Consensus-Protocols-image4.png)
+![image](media/Consensus-Protocols-image4.png)
 
 Three-phase commit (3PC) is designed to solve the problems identified in two-phase by implementing a non-blocking protocol with an added "prepare" phase. Like 2PC, it relies on a coordinator which relays messages to its cohorts.
 Unlike 2PC, cohorts do not executea transaction during the voting phase. Rather, they simply indicate if they are prepared to perform the transaction. If cohorts timeout during this phase or there is one or more "no" vote, the transaction is aborted. If the vote is unanimously "yes," the coordinator moves on to the "prepare" phase, sending a message to its cohorts to acknowledge the transaction will be committed. Again, if an ack times out, the transactionis aborted. Once all cohorts have acknowledged the commit, we are guaranteed to be in a state where*all*cohorts have agreed to commit. At this point, if the commit message from the coordinator is not received in the third phase, the cohort will go ahead and commit anyway. This solves the deadlocking problems described earlier. However, 3PC is still susceptible to network partitions. If a partition occurs, the coordinator will timeout and progress will not be made.

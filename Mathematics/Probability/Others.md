@@ -41,7 +41,7 @@ A**continuous probability distribution**is a probability distribution that has a
 "The entropy of a random variable is a function which attempts to characterize the unpredictability of a random variable." ([Entropy and Mutual Information](https://people.cs.umass.edu/~elm/Teaching/Docs/mutInf.pdf))" It is used for the construction of an automatic decision tree at each step of tree building; feature selection is done such using entropy criteria. Model selection is based on the principle of the maximum entropy, which states from the conflicting models, the one with the highest entropy is the best.
 "If a random variable X takes on values in a set χ={x1, x2,..., xn}, and is defined by a probability distribution P(X), then we will write the entropy of the random variable as," ([Entropy and Mutual Information](https://people.cs.umass.edu/~elm/Teaching/Docs/mutInf.pdf))
 
-![](media/Others-image1.png)
+![image](media/Others-image1.png)
 
 "If the log in the above equation is taken to be to the base 2, then the entropy is expressed in bits. If the log is taken to be the natural log, then the entropy is expressed in nats. More commonly, entropy is expressed in bits."
 

@@ -22,7 +22,7 @@ On the other side of the DNS system are resolvers. Every device that connects to
 Cloudfare DNS = 1.1.1.1
 
 <https://blog.cloudflare.com/announcing-1111>
-![](media/DNS-Domain-Name-System-image1.png)
+![image](media/DNS-Domain-Name-System-image1.png)
 Youtube - [What is DNS? - Introduction to Domain Name System](https://www.youtube.com/watch?v=e2xLV7pCOLI)
 
 ## Recursive Nameserver
@@ -112,8 +112,8 @@ A**Service record**(**SRV record**) is a specification of data in the[Domain Nam
 
 ## Dissecting a domain name (URL - Uniform Resource Locator)**
 
-![](media/DNS-Domain-Name-System-image2.png)
-![](media/DNS-Domain-Name-System-image3.png)
+![image](media/DNS-Domain-Name-System-image2.png)
+![image](media/DNS-Domain-Name-System-image3.png)
 
 ## Domain name hierarchy
 

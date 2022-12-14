@@ -41,7 +41,7 @@ a0
 0
 
 If we consider all of the above suffixes as individual words and build a trie, we get following.
-![](media/Suffix-Tree-image1.png)
+![image](media/Suffix-Tree-image1.png)
 If we join chains of single nodes, we get the following compressed trie, which is the Suffix Tree for given text "banana0"
 
 ![image](media/Suffix-Tree-image2.png)

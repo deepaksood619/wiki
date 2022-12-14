@@ -22,9 +22,9 @@ Modified: 2020-08-18 23:26:22 +0500
 
 ![image](media/History-image8.png)
 
-![](media/History-image9.png)
+![image](media/History-image9.png)
 
-![](media/History-image10.png)
+![image](media/History-image10.png)
 
 ![image](media/History-image11.png)
 

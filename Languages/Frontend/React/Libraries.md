@@ -174,6 +174,7 @@ Please take a look at its[documentation](https://github.com/JedWatson/classnames
 
 You can first write a CSS module (e.g.alert.module.css) like this:
 
+```js
 .success {
 color: green;
 }
@@ -196,6 +197,7 @@ className={cn({
 </div>
 )
 }
+```
 
 <https://github.com/JedWatson/classnames>
 

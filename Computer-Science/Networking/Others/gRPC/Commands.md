@@ -24,7 +24,7 @@ protoc --proto_path=proto proto/*.proto --go_out=plugins=grpc:pb
 
 ### for python
 
-```
+```python
 import memory_message_pb2
 
 m = memory_message_pb2.Memory()
@@ -47,7 +47,7 @@ MessageToJson(m)
 
 ## python2to3.py
 
-```
+```python
 import logging
 
 import os

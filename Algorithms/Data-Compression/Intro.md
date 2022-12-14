@@ -131,7 +131,7 @@ Proof 2 - by counting
 
 ## Theoretical limits on compression - Shannon entropy
 
-![](media/Intro-image7.jpg)
+![image](media/Intro-image7.jpg)
 
 ## Predicate Pushdown
 

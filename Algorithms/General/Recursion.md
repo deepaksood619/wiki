@@ -32,7 +32,7 @@ The tail recursive functions considered better than non tail recursive functions
 
 In**traditional recursion**, the typical model is that you perform your recursive calls first, and then you take the return value of the recursive call and calculate the result. In this manner, you don't get the result of your calculation until you have returned from every recursive call.
 
-In**tail recursion**, you perform your calculations first, and then you execute the recursive call, passing the results of your current step to the next recursive step. This results in the last statement being in the form of "(return (recursive-function params))" (I think that's the syntax for Lisp).Basically, the **return value of any given recursive step is the same as the return value of the next recursive call.**
+In **tail recursion**, you perform your calculations first, and then you execute the recursive call, passing the results of your current step to the next recursive step. This results in the last statement being in the form of "(return (recursive-function params))" (I think that's the syntax for Lisp).Basically, the **return value of any given recursive step is the same as the return value of the next recursive call.**
 
 The consequence of this is that once you are ready to perform your next recursive step, you don't need the current stack frame any more. This allows for some optimization. In fact, with an appropriately written compiler, you should never have a stack overflowsnickerwith a tail recursive call. Simply reuse the current stack frame for the next recursive step. I'm pretty sure Lisp does this.
 
@@ -42,6 +42,7 @@ Consider a simple function that adds the first N integers. (e.g.sum(5) = 1 + 2 +
 
 ## Here is a simple JavaScript implementation that uses recursion
 
+```python
 function recsum(x) {
 if (x===1) {
 return x;
@@ -59,11 +60,13 @@ recsum(5)
 5 + (4 + (3 + (2 + recsum(1))))
 5 + (4 + (3 + (2 + 1)))
 15
+```
 
 Note how every recursive call has to complete before the JavaScript interpreter begins to actually do the work of calculating the sum.
 
 ## Here's a tail-recursive version of the same function
 
+```python
 function tailrecsum(x, running_total=0) {
 if (x===0) {
 return running_total;
@@ -71,6 +74,7 @@ return running_total;
 return tailrecsum(x-1, running_total+x);
 }
 }
+```
 
 Here's the sequence of events that would occur if you calledtailrecsum(5), (which would effectively betailrecsum(5, 0), because of the default second argument).
 
@@ -86,11 +90,13 @@ In the tail-recursive case, with each evaluation of the recursive call, therunni
 
 ## Recursion Limit
 
+```python
 import sys
 
 sys.getrecursionlimit() #default 3000 for python
 
 sys.setrecursionlimit(86400)
+```
 
 TCO - Tail Call Optimization
 

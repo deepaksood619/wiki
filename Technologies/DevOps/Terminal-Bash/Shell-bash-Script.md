@@ -49,6 +49,7 @@ $@ and $* - All the args
 ## Loops
 
 # !/bin/sh
+
 for i in 1 2 3 4 5
 do
 echo "Looping ... number $i"
@@ -63,12 +64,14 @@ echo "$i"
 done
 
 # !/bin/sh
+
 for i in hello 1 * 2 goodbye
 do
 echo "Looping ... i is set to $i"
 done
 
 # !/bin/sh
+
 INPUT_STRING=hello
 while [ "$INPUT_STRING" != "bye" ]
 do

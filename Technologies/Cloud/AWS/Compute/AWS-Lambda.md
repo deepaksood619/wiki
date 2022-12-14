@@ -14,66 +14,39 @@ Modified: 2022-03-02 20:22:16 +0500
 
 ## Slack notifications
 
+```python
 import logging
-
 import json
-
 from urllib.parse import urlencode
-
 from urllib.request import Request, urlopen
 
+
 def lambda_handler(event, context):
-
-webhook_url = "<https://hooks.slack.com/services/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>"
-
-print(event)
-
-message = json.loads(event["Records"][0]["Sns"]["Message"])
-
-name = message["AlarmName"]
-
-reason = message["NewStateReason"]
-
-state = message["NewStateValue"]
-
-if state == "ALARM":
-
-color = "danger"
-
-else:
-
-color = "good"
-
-slack_data = {
-
-"channel": "monitoring",
-
-"color": color,
-
-"fields": [
-
-{
-
-"title": "Alarm: %s" % (name),
-
-"value": "%s n [https://ap-south-1.console.aws.amazon.com/cloudwatch/home?region=ap-south-1#alarmsV2:alarm/%s](https://ap-south-1.console.aws.amazon.com/cloudwatch/home?region=ap-south-1#alarmsV2:alarm/%s)?" % (reason,name),
-
-}
-
-]
-
-}
-
-request = Request(
-
-webhook_url,
-
-data=json.dumps(slack_data).encode(),
-
-headers={"Content-Type": "application/json"},
-
-)
-
-response = urlopen(request)
-
-return {"statusCode": response.getcode(), "body": response.read().decode()}
+    webhook_url = "https://hooks.slack.com/services/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"
+    print(event)
+    message = json.loads(event["Records"][0]["Sns"]["Message"])
+    name = message["AlarmName"]
+    reason = message["NewStateReason"]
+    state = message["NewStateValue"]
+    if state == "ALARM":
+        color = "danger"
+    else:
+        color = "good"
+    slack_data = {
+        "channel": "monitoring",
+        "color": color,
+        "fields": [
+            {
+            "title": "Alarm: %s"  % (name),
+            "value": "%s \n https://ap-south-1.console.aws.amazon.com/cloudwatch/home?region=ap-south-1#alarmsV2:alarm/%s?" % (reason,name),
+            }
+        ]
+    }
+    request = Request(
+        webhook_url,
+        data=json.dumps(slack_data).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    response = urlopen(request)
+    return {"statusCode": response.getcode(), "body": response.read().decode()}
+```

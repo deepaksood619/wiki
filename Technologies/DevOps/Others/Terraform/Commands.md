@@ -36,7 +36,7 @@ get Download and install modules for the configuration
 
 graph Create a visual graph of Terraform resources
 
-import Import existing infrastructure into Terraform
+`import Import existing infrastructure into Terraform`
 
 ## init Initialize a Terraform working directory
 

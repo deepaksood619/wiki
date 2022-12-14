@@ -100,37 +100,35 @@ Sentry fundamentally is a service that helps you monitor and fix crashes in real
 
 ## settings.py
 
-ZENALYTIX_SENTRY_PROJECT_ID=11
+```python
+ settings.py
+  ZENALYTIX_SENTRY_PROJECT_ID=11
 
-import sentry_sdk
+  import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
-if not DEBUG:
-sentry_sdk.init(
-dsn="https://5495d5289c414d00b217c2ff52e914d7@sentry.zenatix.com/" + str(
-os.environ['ZENALYTIX_SENTRY_PROJECT_ID']),
-integrations=[DjangoIntegration()],
-attach_stacktrace=True,
+  if not DEBUG:
+    sentry_sdk.init(
+        dsn="https://5495d5289c414d00b217c2ff52e914d7@sentry.zenatix.com/" + str(
+            os.environ['ZENALYTIX_SENTRY_PROJECT_ID']),
+        integrations=[DjangoIntegration()],
+        attach_stacktrace=True,
+  debug=True,    )
+```
 
-debug=True, )
+### commands
 
-## Commands
-
+```bash
 sentry
-
-~~sentry upgrade~~
-
+sentry upgrade
 sentry cleanup
-
 sentry cleanup --days 7
-
 psql -h localhost -p 5432 -U postgres
-
 1RtBZRNxG7
-
 VACUUM FULL;
 
 sentry run cron
+```
 
 <https://github.com/getsentry/sentry/blob/master/src/sentry/conf/server.py>
 
@@ -156,6 +154,7 @@ Android - <https://sentry.io/for/android>
 
 ## NewRelic
 
+```python
 import newrelic.agent
 newrelic.agent.initialize('/path/to/newrelic.ini')
 
@@ -164,17 +163,16 @@ newrelic-admin generate-config $YOUR_LICENSE_KEY newrelic.ini
 NEW_RELIC_CONFIG_FILE=newrelic.ini newrelic-admin run-program gunicorn app:app -b 0.0.0.0:5000 --workers 2 -k gevent --timeout 300 --worker-connections 1000 --max-requests 1000000 --limit-request-line 8190 --access-logfile '-'
 
 if debug:
-
-newrelic.agent.initialize('newrelic.ini', 'development')
-
+    newrelic.agent.initialize('newrelic.ini', 'development')
 else:
-
-newrelic.agent.initialize('newrelic.ini', 'production')
+    newrelic.agent.initialize('newrelic.ini', 'production')
+```
 
 <https://one.nr/0w0ZZO5j>
 
 Query Builder in NewRelic One along with Data Explorer
 
+```sql
 SELECT count(*) FROM Transaction FACET httpResponseCode, request.uri WHERE appName= 'lms-prod' SINCE 30 MINUTES AGO TIMESERIES
 
 SELECT count(*) FROM Transaction FACET httpResponseCode, request.uri WHERE httpResponseCode LIKE '5%' AND appName= 'lms-prod' SINCE 1 week ago TIMESERIES
@@ -184,6 +182,7 @@ SELECT count(*) FROM Transaction FACET appName, httpResponseCode, request.uri WH
 SELECT count(*) FROM Transaction WHERE httpResponseCode LIKE '5%' SINCE 1 week ago FACET appName
 
 SELECT count(*) FROM Transaction FACET appName, httpResponseCode, request.uri WHERE httpResponseCode LIKE '5%' SINCE 30 MINUTES AGO LIMIT MAX
+```
 
 <https://pypi.org/project/newrelic>
 

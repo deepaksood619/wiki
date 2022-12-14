@@ -70,7 +70,7 @@ sudo apachectl stop
 |-- conf-enabled
 | `-- *.conf
 |-- sites-enabled
-| `--*.conf
+|`--*.conf
 
 - **apache2.conf**is the main configuration file. It puts the pieces together by including all remaining configuration files when starting up the web server.
 - **ports.conf**is always included from the main configuration file. It is used to determine the listening ports for incoming connections, and this file can be customized anytime.

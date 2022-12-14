@@ -100,6 +100,7 @@ The useMemo is a hook used in the functional component of react that returns a m
 
 ## # Hooks
 
+```js
 import React, { useState, useEffect } from 'react';
 
 function Example() {
@@ -133,9 +134,11 @@ Click me
 );
 
 }
+```
 
-## # Search using axios async await api
+### Search using axios async await api
 
+```js
 import React, { useState, useEffect } from "react";
 
 import ReactDOM from "react-dom";
@@ -269,6 +272,7 @@ textAlign: "center",
 }
 
 export default DigitalClock;
+```
 
 <https://www.toptal.com/react-hooks/stale-while-revalidate>
 

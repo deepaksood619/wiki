@@ -34,6 +34,7 @@ We consider the following (solitary) game: each node of a directed graph contain
 
 ## Kadane's Algorithm
 
+```python
 Initialize:
 max_so_far = 0
 max_ending_here = 0
@@ -103,6 +104,7 @@ s = i+1
 print(f'start {start}, end {end}')
 
 return max_so_far
+```
 
 <https://www.geeksforgeeks.org/largest-sum-contiguous-subarray>
 
@@ -112,6 +114,7 @@ return max_so_far
 
 ## Interview Problems
 
+```python
 1. Reverse a String:
 
 if len(s) <= 1:
@@ -203,6 +206,7 @@ min_coins = num_coins
 known_results[target] = min_coins
 
 return min_coins
+```
 
 5. Design a data structure that supports insert, delete, search and getRandom in constant time
 

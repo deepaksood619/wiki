@@ -40,11 +40,11 @@ n: estimated insertion
 p: false positive probability
 The optimum number of hash functions k can be determined using the formula:
 
-![](media/Bloom-Filters-image1.png)
+![image](media/Bloom-Filters-image1.png)
 
 Given false positive probabilitypand the estimated number of insertionsn, the length of the bit array can be calculated as:
 
-![](media/Bloom-Filters-image2.png)
+![image](media/Bloom-Filters-image2.png)
 
 The hash functions used for bloom filter should generally be faster than cryptographic hash algorithms with good distribution and collision resistance. Commonly used hash functions for bloom filter include Murmur hash, fnv series of hashes and Jenkins hashes. Murmur hash is the fastest among them. MurmurHash3 is used by Google Guava library's bloom filter implementation.
 The solution is we can't support Remove operation in this simple bloom filters. But if we really need to have a Removal functionality we can use a variation of the bloom filter known as"**Counting bloom filter**". The idea is simple. Instead of storing a single bit of values, we will store an integer value and our bit vector will then be an integer vector. This will increase the size and costs more space to gives us the Removal functionality. Instead of just marking a bit value to '1' when inserting a value, we will increment the integer value by 1. To check if an element exists, check if the corresponding indexes after hashing the element is greater than 0.

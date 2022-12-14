@@ -115,7 +115,7 @@ Modified: 2019-11-22 19:29:14 +0500
 
 ![image](media/List-of-Algorithms-image11.png)
 
-![](media/List-of-Algorithms-image12.png)
+![image](media/List-of-Algorithms-image12.png)
 
 ![image](media/List-of-Algorithms-image13.png)
 

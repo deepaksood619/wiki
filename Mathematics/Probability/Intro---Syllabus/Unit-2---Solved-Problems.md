@@ -47,7 +47,7 @@ Assume no tie games are possible and all games are independent.
 
 3. Given that the second round was required and that it comprised only one game, what is the conditional probability that it was Bo who won the first round?
 ![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image2.png)
-![](media/Intro---Syllabus_Unit-2---Solved-Problems-image3.png)
+![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image3.png)
 
 # A coin tossing puzzle
 
@@ -59,7 +59,7 @@ Also P ( A intersection B | A ) = 1/2 and P ( A intersection B | A U B ) = 1/3, 
 
 A = 1st toss is head and B = 2nd toss is head
 
-![](media/Intro---Syllabus_Unit-2---Solved-Problems-image5.png)
+![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image5.png)
 
 # The Monty Hall problem
 
@@ -70,7 +70,7 @@ This is a much discussed puzzle, based on an old American game show. You are tol
 - You first point to door 1. If door 2 is opened, you do not switch. If door 3 is opened, you switch.
 
 Which is the best strategy?
-![](media/Intro---Syllabus_Unit-2---Solved-Problems-image6.png)# A random walker
+![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image6.png)# A random walker
 
 Imagine a drunk tightrope walker, who manages to keep his balance, but takes a step forward with probabilitypand takes a step back with probability(1−p).
 
@@ -84,7 +84,7 @@ Imagine a drunk tightrope walker, who manages to keep his balance, but takes a s
 
 A source transmits a message (a string of symbols) over a noisy communication channel. Each symbol is0or1with probabilitypand1−p, respectively, and is received incorrectly with probabilityϵ0andϵ1, respectively (see the figure below). Errors in different symbol transmissions are independent.
 
-![](media/Intro---Syllabus_Unit-2---Solved-Problems-image9.png)
+![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image9.png)
 
 (a) What is the probability that thekth symbol is received correctly?
 
@@ -104,4 +104,4 @@ An electrical system consists of identical components, each of which is operatio
 ![sena ](media/Intro---Syllabus_Unit-2---Solved-Problems-image12.png)
 ![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image13.png)
 ![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image14.png)
-![](media/Intro---Syllabus_Unit-2---Solved-Problems-image15.png)
+![image](media/Intro---Syllabus_Unit-2---Solved-Problems-image15.png)

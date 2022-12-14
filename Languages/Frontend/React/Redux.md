@@ -72,6 +72,7 @@ Firstly, we will need to install 2 npm packages. And they are:
 
 Then, we will create the store in the index.js file. This is because index.js is the file that starts the application.
 
+```js
 // index.js
 
 import { createStore } from 'redux' // to create store
@@ -93,6 +94,7 @@ ReactDOM.render(
 document.getElementById('root')
 
 );
+```
 
 We pass the rootReducer (the main reducer) as an argument when we are creating the store. This is to specify that this reducer is the one that has access to the store.
 
@@ -100,6 +102,7 @@ In a component, to connect to the store, we need to import a function called con
 
 We can also pass a second function which we use to dispatch an action and is called mapDispatchToProps. A method is added to the props of the components and is called whenever a certain DOM event is triggered. Then, the action gets dispatched and passed into the reducer.
 
+```js
 // component
 
 const mapStateToProps = (state, ownProps) => {
@@ -125,9 +128,11 @@ deletepost: (id) => dispatch({type: 'DELETE_POST', id})
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Post);
+```
 
 Initially the state is empty. So, we must define an initial state in the reducer. In the reducer, we must write conditions for what must occur when an action of a specific type is dispatched.
 
+```js
 // rootReducer
 
 const initState = {
@@ -169,6 +174,7 @@ return state;
 }
 
 export default rootReducer;
+```
 
 <https://dev.to/nrabhiram/react-redux-1622>
 
@@ -204,6 +210,7 @@ The official, opinionated, batteries-included toolset for efficient Redux develo
 
 Redux Toolkit allows us to write shorter logic that's easier to read, while still following the same Redux behavior and data flow.
 
+```js
 import { createSlice, configureStore } from '@reduxjs/toolkit'
 
 const counterSlice = createSlice({
@@ -267,6 +274,7 @@ store.dispatch(incremented())
 store.dispatch(decremented())
 
 // {value: 1}
+```
 
 ## References
 

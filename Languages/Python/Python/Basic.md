@@ -55,7 +55,7 @@ Hash sign (#) that is not inside a string literal begins a comment.
 
 The semicolon ( ; ) allows multiple statements on the single line given that neither statement starts a new code block.
 
-import sys; x = 'foo'; sys.stdout.write(x + 'n')
+`import sys; x = 'foo'; sys.stdout.write(x + 'n')`
 
 ## Get details on module package
 

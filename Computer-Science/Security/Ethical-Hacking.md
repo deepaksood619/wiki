@@ -65,8 +65,8 @@ FestInis a tool for discovering open S3 Buckets starting from a domains.
 
 ## Digital Forensics**
 
-![](media/Ethical-Hacking-image1.png)
-![](media/Ethical-Hacking-image2.png)
+![image](media/Ethical-Hacking-image1.png)
+![image](media/Ethical-Hacking-image2.png)
 ![image](media/Ethical-Hacking-image3.png)
 | **SOLUTIONS**                                           | **PARTNERS/OEM's**                        |
 |-------------------------------------|-----------------------------------|

@@ -106,17 +106,17 @@ df_segmentation.corr()
 
 ## Standardization
 
-# Forstandardizingfeatures.We'llusetheStandardScalermodule.
+# Forstandardizingfeatures.We'llusetheStandardScalermodule
 
 fromsklearn.preprocessingimportStandardScaler
 
-# Standardizingdata,sothatallfeatureshaveequalweight.Thisisimportantformodelling.
+# Standardizingdata,sothatallfeatureshaveequalweight.Thisisimportantformodelling
 
-# Otherwise,inourcaseIncomewouldbeconsideredmuchmoreimportantthanEducationforInstance.
+# Otherwise,inourcaseIncomewouldbeconsideredmuchmoreimportantthanEducationforInstance
 
-# Wedonotknowifthisisthecase,sowewouldnotliketointroduceittoourmodel.
+# Wedonotknowifthisisthecase,sowewouldnotliketointroduceittoourmodel
 
-# Thisiswhatisalsoreferedtoasbias.
+# Thisiswhatisalsoreferedtoasbias
 
 scaler=StandardScaler()
 
@@ -145,19 +145,19 @@ segmentation_std=scaler.fit_transform(df_segmentation)
 - Segmentation between clusters
   - Ward method (|A-B|^2)/n~scale~
 
-# HierarchicalclusteringwiththeSciPylibrary.We'llusethedendrogramandlinkagemodules.
+# HierarchicalclusteringwiththeSciPylibrary.We'llusethedendrogramandlinkagemodules
 
 fromscipy.cluster.hierarchyimportdendrogram,linkage
 
-# PerformHierarchicalClustering.Theresultsarereturnedasalinkagematrix.
+# PerformHierarchicalClustering.Theresultsarereturnedasalinkagematrix
 
 hier_clust=linkage(segmentation_std,method='ward')
 
-# WeplottheresultsfromtheHierarchicalClusteringusingaDendrogram.
+# WeplottheresultsfromtheHierarchicalClusteringusingaDendrogram
 
 # Wetruncatethedendrogramforbetterreadability.Thelevelpshowsonlythelastpmergedclusters
 
-# Wealsoomitshowingthelabelsforeachpoint.
+# Wealsoomitshowingthelabelsforeachpoint
 
 plt.figure(figsize=(12,9))
 

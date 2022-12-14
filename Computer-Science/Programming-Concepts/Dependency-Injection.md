@@ -12,7 +12,7 @@ In[software engineering](https://en.m.wikipedia.org/wiki/Software_engineering),d
 
 An immediate issue with the code above is thatdraw_squaredepends on a global variable. This has[lots of bad consequences](http://wiki.c2.com/?GlobalVariablesAreBad), and there are two easy ways to fix it. The first would be fordraw_squareto create theTurtleinstance itself (which I'll discuss later). This might not be desirable if we want to use a singleTurtle for all our drawing. So for now, we'll simply use parameterization again to maketurtlea parameter todraw_square:
 
-```
+```python
 from turtle import Turtle
 
 def draw_square(turtle, size):

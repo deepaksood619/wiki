@@ -14,7 +14,7 @@ Suppose instead of finding the square of 9, which is 81, we wanted to find out w
 
 In other words,*what is the**square root**of 81?*
 
-![](media/Root-image1.png)
+![image](media/Root-image1.png)
 
 This equals 9 because nine squared is eighty-one.
 

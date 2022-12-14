@@ -40,11 +40,13 @@ React.render(App);
 
 ## // import react
 
+```js
 import React from 'react';
 
 // Error: React.render is deprecated. Please use ReactDOM.render from require('react-dom') instead. Invariant Violation.
 
 import ReactDOM from 'react-dom'
+```
 
 React is diverged into two libraries
 
@@ -71,7 +73,9 @@ export default SearchBar;
 
 ## Import a component to a file (give the full relative path to the file)
 
+```js
 import SearchBar from './components/search_bar';
+```
 
 ## Components Type
 
@@ -79,11 +83,13 @@ import SearchBar from './components/search_bar';
 
 Some info goes in, some JSX comes out.
 
+```js
 function Welcome(props) {
 
 return <h1>Hello, {props.name}</h1>;
 
 }
+```
 
 - Class component
 

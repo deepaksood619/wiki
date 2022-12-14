@@ -319,6 +319,7 @@ Set autocd, which means that rather than typingcd <foldername>you just type<fold
 export SHELL=/usr/local/bin/zsh
 
 # Color Terminal
+
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
@@ -382,7 +383,9 @@ alias publicIp="curl wgetip.com"
 ssh() {
 iterm2_set_user_var title_var $@
 /usr/bin/ssh -t $@ tmux new-session -A -s <username>
-# creates a named tmux session for the user in the server, which will be created or attached to on request.
+
+# creates a named tmux session for the user in the server, which will be created or attached to on request
+
 iterm2_set_user_var title_var ""
 
 }

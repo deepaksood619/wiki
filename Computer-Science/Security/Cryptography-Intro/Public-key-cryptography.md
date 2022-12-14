@@ -19,4 +19,4 @@ In a public key encryption system, any person can encrypt a message using the re
 ![image](media/Cryptography-Intro_Public-key-cryptography-image2.png)
 ![image](media/Cryptography-Intro_Public-key-cryptography-image3.png)
 <https://medium.com/sitewards/the-magic-of-tls-x509-and-mutual-authentication-explained-b2162dec4401>
-![](media/Cryptography-Intro_Public-key-cryptography-image4.png)
+![image](media/Cryptography-Intro_Public-key-cryptography-image4.png)

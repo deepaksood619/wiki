@@ -109,7 +109,7 @@ If instead of replacing the node to delete with its successor, we flip a coin an
 
 An important property of a Binary Search Tree is that the value of a Binary Search Tree nodeis larger than the value of the offspring of its left child, but smaller than the value of the offspring of its right child."
 
-![](media/Binary-Search-Tree-image5.png)
+![image](media/Binary-Search-Tree-image5.png)
 
 Here is a breakdown of the above illustration:
 
@@ -131,7 +131,7 @@ Imagine that we have an empty tree and we want to add new nodes with the followi
 
 The first thing we need to know is if 50 is the root of our tree.
 
-![](media/Binary-Search-Tree-image6.png)
+![image](media/Binary-Search-Tree-image6.png)
 
 We can now start inserting node by node.
 
@@ -143,7 +143,7 @@ We can now start inserting node by node.
 - 64 is greater than 50. Node with value 50 has a right child 76. Since 64 is smaller than 76, insert 64 on the left side of this node.
 - 52 is greater than 50. Node with value 50 has a right child 76. Since 52 is smaller than 76, node with value 76 has a left child 64. 52 is smaller than 64, so insert 54 on the left side of this node.
 
-![](media/Binary-Search-Tree-image7.png)
+![image](media/Binary-Search-Tree-image7.png)
 
 Do you notice a pattern here?
 
@@ -188,7 +188,7 @@ Let's take a look at an example.
 
 Imagine that we have this tree.
 
-![](media/Binary-Search-Tree-image7.png)
+![image](media/Binary-Search-Tree-image7.png)
 
 Now we want to know if we have a node based on value 52.
 

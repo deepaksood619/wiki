@@ -73,7 +73,7 @@ But Matrix multiplication is associative i.e. (AB)C = A(BC)
 
 6. **The determinant**
 
-![](media/3Blue1Brown-image7.png)
+![image](media/3Blue1Brown-image7.png)
 
 - If one area changes by some factor than every area changes by that factor.
 - The determinant of a transformation is the change in area of a grid after applying linear transformation
@@ -132,12 +132,12 @@ If v is to the right of w, than cross product is positive
 If v is to the left of w, than cross product is negative
 
 ![image](media/3Blue1Brown-image18.png)
-![](media/3Blue1Brown-image19.png)
+![image](media/3Blue1Brown-image19.png)
 ![V det ](media/3Blue1Brown-image20.png)-   Cross product of two perpendicular vectors are greater than the vectors that are pointing in very similar direction
 
 - If we scale a vector by a factor of a, than area of parallelogram also scales up by a factor of a
 
-![](media/3Blue1Brown-image21.png)
+![image](media/3Blue1Brown-image21.png)
 Cross product of two vectors is a vector that is the area of the parallelogram and is perpendicular to the parallelogram and in the direction of the thumb of the right hand rule.
 ![image](media/3Blue1Brown-image22.png)
 ![マ マ ](media/3Blue1Brown-image23.png)
@@ -146,7 +146,7 @@ Cross product of two vectors is a vector that is the area of the parallelogram a
 11. **Cross Product in the light of linear transformations**
 ![image](media/3Blue1Brown-image26.png)
 ![image](media/3Blue1Brown-image27.png)
-![](media/3Blue1Brown-image28.png)
+![image](media/3Blue1Brown-image28.png)
 ![image](media/3Blue1Brown-image29.png)
 12. **Change of basis**
     -   **Coordinate system**
@@ -172,7 +172,7 @@ Eigenvectors - the vectors that doesn't change its span after a transformation. 
 
 Ex - Rotation by 90 degrees
 
-![](media/3Blue1Brown-image36.png)
+![image](media/3Blue1Brown-image36.png)
 Since there are no real numbers, therefore there are no eigenvectors for this transformation-   A transformation can have a single eigenvalue with a lot of eigenvector
 
 Ex - Scaling by some scalar eg. 2, there is only one eigenvalue of 2, but all the vectors have that value.-   Diagonal matrix - all values other than diagonal is 0

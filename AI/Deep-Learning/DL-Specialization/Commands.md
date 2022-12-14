@@ -15,7 +15,7 @@ Modified: 2021-04-03 23:36:31 +0500
 
 ## Python- Numpy Vectors
 
-```
+```python
 import numpy as np
 
 a = np.random.randn(5)

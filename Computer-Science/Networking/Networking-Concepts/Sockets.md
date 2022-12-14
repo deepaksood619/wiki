@@ -17,7 +17,7 @@ This just tells nc to create a UDP receiver (the argument -u) that is expecting 
 
 ## UDP socket server in python
 
-```
+```python
 from socket import *
 
 sock_receiver = socket(AF_INET, SOCK_DGRAM)
@@ -29,7 +29,7 @@ sock_receiver.recv(4096)
 
 ## UDP socket client in python
 
-```
+```python
 from socket import *
 
 sock_object=socket(AF_INET, SOCK_DGRAM)

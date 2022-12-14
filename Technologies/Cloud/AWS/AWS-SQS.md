@@ -199,6 +199,7 @@ client **=** boto3**.**client('sqs')
 
 ## sqs_consumer.py
 
+```python
 import boto3
 
 import time
@@ -262,6 +263,7 @@ MessageBody=body)
 # time.sleep(0.5)
 
 i += 1
+```
 
 <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html>
 

@@ -12,15 +12,15 @@ In a physics equation, given a constant[acceleration](http://www.dummies.com/edu
 
 You know the acceleration and the final speed, and you want to know the total distance required to get to that speed. This problem looks like a puzzler, but if you need the time, you can always solve for it. You know the final speed,vf,and the initial speed,vi(which is zero), and you know the acceleration,a.Becausevf-- vi= at,you know that
 
-![](media/Distance-Speed-and-Time-image1.png)
+![image](media/Distance-Speed-and-Time-image1.png)
 
 Now you have the time. You still need the distance, and you can get it this way:
 
-![](media/Distance-Speed-and-Time-image2.png)
+![image](media/Distance-Speed-and-Time-image2.png)
 
 The second term drops out becausevi= 0, so all you have to do is plug in the numbers:
 
-![](media/Distance-Speed-and-Time-image3.png)
+![image](media/Distance-Speed-and-Time-image3.png)
 
 In other words, the total distance traveled is 402 meters, or a quarter mile. Must be a quarter-mile racetrack.
 
@@ -43,18 +43,18 @@ Say you become a drag racer in order to analyze your acceleration down the dragw
 
 Well, you can relate displacement, acceleration, and time as follows:
 
-![](media/Distance-Speed-and-Time-image2.png)
+![image](media/Distance-Speed-and-Time-image2.png)
 
 and that's what you want --- you always work the algebra so that you end up relating all the quantities you know to the one quantity youdon'tknow. In this case, you have
 
-![](media/Distance-Speed-and-Time-image6.png)
+![image](media/Distance-Speed-and-Time-image6.png)
 
 (Keep in mind that in this case, your initial velocity is 0 --- you're not allowed to take a running start at the drag race!) You can rearrange this equation with a little algebra to solve for acceleration; just divide both sides byt2and multiply by 2 to get
 
-![](media/Distance-Speed-and-Time-image7.png)
+![image](media/Distance-Speed-and-Time-image7.png)
 
 Great. Plugging in the numbers, you get the following:
 
-![](media/Distance-Speed-and-Time-image8.png)
+![image](media/Distance-Speed-and-Time-image8.png)
 
 Okay, the acceleration is approximately 27 meters per second2. What's that in more understandable terms? The acceleration due to gravity,g,is 9.8 meters per second2, so this is about 2.7 g's --- you'd feel yourself pushed back into your seat with a force about 2.7 times your own weight.

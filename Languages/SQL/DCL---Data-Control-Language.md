@@ -16,7 +16,7 @@ show grants for 'raghwendra_sarkar';
 
 ## ON** mydatabase.***
 
-## TO** myreaduser**@**myhost IDENTIFIED **BY 'somepassword'
+## TO**myreaduser**@**myhost IDENTIFIED**BY 'somepassword'
 
 FLUSH **PRIVILEGES**;
 

@@ -24,47 +24,35 @@ pip install PyMySQL==0.9.3
 
 ## Getting Started
 
-import pymysql.cursors
+```python
+ import pymysql.cursors
 
-# Connect to the database
+ # Connect to the database
+    connection = pymysql.connect(host='localhost',
+                             user='user',
+                             password='passwd',
+                             db='db',
+                             charset='utf8mb4',
+                             cursorclass=pymysql.cursors.DictCursor)
 
-connection = pymysql.connect(host='localhost',
-user='user',
-password='passwd',
-db='db',
-charset='utf8mb4',
-cursorclass=pymysql.cursors.DictCursor)
+ try:
+    with connection.cursor() as cursor:
+  # Create a new record
+  sql = "INSERT INTO `users` (`email`, `password`) VALUES (%s, %s)"
+  cursor.execute(sql, ('webmaster@python.org', 'very-secret'))
 
-try:
-with connection.cursor() as cursor:
+  # connection is not autocommit by default. So you must commit to save your changes.
+   connection.commit()
 
-# Create a new record
-
-sql = "INSERT INTO `users` (`email`, `password`) VALUES (%s, %s)"
-
-cursor.execute(sql, ('webmaster@python.org', 'very-secret'))
-
-# connection is not autocommit by default. So you must commit to save your changes
-
-connection.commit()
-
-with connection.cursor() as cursor:
-
-# Read a single record
-
-sql = "SELECT `id`, `password` FROM `users` WHERE `email`=%s"
-cursor.execute(sql, ('webmaster@python.org',))
-result = cursor.fetchone()
-print(result)
-
-finally:
-connection.close()
-
-## Filter warnings
-
-import warnings
-
-warnings.filterwarnings("ignore")
+  with connection.cursor() as cursor:
+        # Read a single record
+        sql = "SELECT `id`, `password` FROM `users` WHERE `email`=%s"
+        cursor.execute(sql, ('webmaster@python.org',))
+        result = cursor.fetchone()
+        print(result)
+ finally:
+    connection.close()
+```
 
 ## Connection Pooling
 
@@ -72,197 +60,145 @@ warnings.filterwarnings("ignore")
 
 ## # Singleton Class
 
-## import pymysql.cursors
+```python
+ import pymysql.cursors
+ import logging
 
-## import logging
+ from constants import (
+     AURORA_DB_DBNAME,
+     AURORA_DB_HOST,
+     AURORA_DB_PASSWORD,
+     AURORA_DB_USER,
+     AWS_ACCESS_KEY_ID,
+     AWS_SECRET_ACCESS_KEY,
+     DEBUG,
+ )
 
-## from constants import (
+ mysql_conn = None
 
-## AURORA_DB_DBNAME
+ def getdb():
+     global mysql_conn
+     if not mysql_conn:
+         try:
+             mysql_conn = pymysql.connect(
+                 host=AURORA_DB_HOST,
+                 user=AURORA_DB_USER,
+                 password=AURORA_DB_PASSWORD,
+                 db=AURORA_DB_DBNAME,
+                 charset="utf8mb4",
+                 cursorclass=pymysql.cursors.DictCursor,
+             )
+         except Exception as e:
+             logging.exception(f"Some error in establishing mysql connection.")
+             raise e
 
-## AURORA_DB_HOST
-
-## AURORA_DB_PASSWORD
-
-## AURORA_DB_USER
-
-## AWS_ACCESS_KEY_ID
-
-## AWS_SECRET_ACCESS_KEY
-
-## DEBUG
-
-## )
-
-## mysql_conn = None
-
-## def getdb()
-
-## global mysql_conn
-
-## if not mysql_conn
-
-## try
-
-## mysql_conn = pymysql.connect(
-
-## host=AURORA_DB_HOST
-
-## user=AURORA_DB_USER
-
-## password=AURORA_DB_PASSWORD
-
-## db=AURORA_DB_DBNAME
-
-## charset="utf8mb4"
-
-## cursorclass=pymysql.cursors.DictCursor
-
-## )
-
-## except Exception as e
-
-## logging.exception(f"Some error in establishing mysql connection.")
-
-## raise e
-
-## return mysql_conn
+     return mysql_conn
+```
 
 ## DBClass
 
-import sys
+```python
+ import sys
 import pymysql
 import logging
 
-class Database:
+ class Database:
 
-def __init__(self, config):
-self.host = config.db_host
-self.username = config.db_user
-self.password = config.db_password
-self.port = config.db_port
-self.dbname = config.db_name
-self.conn = None
+  def __init__(self, config):
+        self.host = config.db_host
+        self.username = config.db_user
+        self.password = config.db_password
+        self.port = config.db_port
+        self.dbname = config.db_name
+        self.conn = None
 
-def open_connection(self):
-"""Connect to MySQL Database."""
-try:
-if self.conn is None:
-self.conn = pymysql.connect(self.host,
-user=self.username,
-passwd=self.password,
-db=self.dbname,
-connect_timeout=5)
-except pymysql.MySQLError as e:
-logging.error(e)
-sys.exit()
-finally:
-logging.info('Connection opened successfully.')
+  def open_connection(self):
+        """Connect to MySQL Database."""
+        try:
+            if self.conn is None:
+                self.conn = pymysql.connect(self.host,
+                                            user=self.username,
+                                            passwd=self.password,
+                                            db=self.dbname,
+                                            connect_timeout=5)
+        except pymysql.MySQLError as e:
+            logging.error(e)
+            sys.exit()
+        finally:
+            logging.info('Connection opened successfully.')
 
-def run_query(self, query):
-"""Execute SQL query."""
-try:
-self.open_connection()
-with self.conn.cursor() as cur:
-if 'SELECT' in query:
-records = []
-cur.execute(query)
-result = cur.fetchall()
-for row in result:
-records.append(row)
-cur.close()
-return records
-else:
-result = cur.execute(query)
-self.conn.commit()
-affected = f"{cur.rowcount} rows affected."
-cur.close()
-return affected
-except pymysql.MySQLError as e:
-print(e)
-finally:
-if self.conn:
-self.conn.close()
-self.conn = None
-logging.info('Database connection closed.')
+  def run_query(self, query):
+        """Execute SQL query."""
+        try:
+            self.open_connection()
+            with self.conn.cursor() as cur:
+                if 'SELECT' in query:
+                    records = []
+                    cur.execute(query)
+                    result = cur.fetchall()
+                    for row in result:
+                        records.append(row)
+                    cur.close()
+                    return records
+                else:
+                    result = cur.execute(query)
+                    self.conn.commit()
+                    affected = f"{cur.rowcount} rows affected."
+                    cur.close()
+                    return affected
+        except pymysql.MySQLError as e:
+            print(e)
+        finally:
+            if self.conn:
+                self.conn.close()
+                self.conn = None
+                logging.info('Database connection closed.')
 
-class PostgresClient:
+ class PostgresClient:
+     host: str
+     database_name: str
+     table_name: str
+     port: int
+     username: str
+     password: str
+     conn = None
 
-host: str
+     def __init__(self, host, database_name, port, username,
+                  password):
+         self.host = host
+         self.database_name = database_name
+         self.port = port
+         self.username = username
+         self.password = password
 
-database_name: str
+     def connect(self):
+         try:
+             logger.info(f"connecting to {self.host}")
+             self.conn = pg8000.connect(
+                 host=self.host, port=self.port, database=self.database_name,
+                 user=self.username, password=self.password
+             )
+             return True
+         except Exception as e:
+             logger.error(f"Couldn't connect to the db {self.host}- {e}")
 
-table_name: str
+         return False
 
-port: int
+     def insert(self, insert_strings: list, record_to_insert: tuple):
+         if not self.conn:
+             logger.error("No able to connect to the database")
+             return None
+         cur = self.conn.cursor()
+         for insert_string in insert_strings:
+             cur.execute(f"{insert_string}", record_to_insert)
+         self.conn.commit()
+         cur.close()
 
-username: str
-
-password: str
-
-conn = None
-
-def __init__(self, host, database_name, port, username,
-
-password):
-
-self.host = host
-
-self.database_name = database_name
-
-self.port = port
-
-self.username = username
-
-self.password = password
-
-def connect(self):
-
-try:
-
-logger.info(f"connecting to {self.host}")
-
-self.conn = pg8000.connect(
-
-host=self.host, port=self.port, database=self.database_name,
-
-user=self.username, password=self.password
-
-)
-
-return True
-
-except Exception as e:
-
-logger.error(f"Couldn't connect to the db {self.host}- {e}")
-
-return False
-
-def insert(self, insert_strings: list, record_to_insert: tuple):
-
-if not self.conn:
-
-logger.error("No able to connect to the database")
-
-return None
-
-cur = self.conn.cursor()
-
-for insert_string in insert_strings:
-
-cur.execute(f"{insert_string}", record_to_insert)
-
-self.conn.commit()
-
-cur.close()
-
-def close(self):
-
-if self.conn:
-
-self.conn.close()
-
-self.conn = None
+     def close(self):
+         if self.conn:
+             self.conn.close()
+             self.conn = None
+```
 
 <https://hackersandslackers.com/python-mysql-pymysql>
 
@@ -270,7 +206,7 @@ self.conn = None
 
 ## Others
 
-<https://pypi.org/project/mysql-connector-python>
+    <https://pypi.org/project/mysql-connector-python>
 
 ## psycopg2
 

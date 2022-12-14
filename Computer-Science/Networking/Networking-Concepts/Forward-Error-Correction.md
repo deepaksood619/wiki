@@ -71,7 +71,7 @@ To address this issue, data scrubbing provides routine checks of all[inconsisten
 
 ## Verhoeff algorithm
 
-TheVerhoeff algorithmis a[checksum](https://en.wikipedia.org/wiki/Checksum)formula for[error detection](https://en.wikipedia.org/wiki/Error_detection)developed by the Dutch mathematician [Jacobus Verhoeff](https://en.wikipedia.org/wiki/Jacobus_Verhoeff)and was first published in 1969.[[2]][https://en.wikipedia.org/wiki/Verhoeff_algorithm#cite_note-Kirtland_2001-2]([3)](https://en.wikipedia.org/wiki/Verhoeff_algorithm#cite_note-Salomon_2005-3)It was the first decimal[check digit](https://en.wikipedia.org/wiki/Check_digit)algorithm which detects all single-digit errors, and all transposition errors involving two adjacent digits,which was at the time thought impossible with such a code.
+TheVerhoeff algorithmis a[checksum](https://en.wikipedia.org/wiki/Checksum)formula for[error detection](https://en.wikipedia.org/wiki/Error_detection)developed by the Dutch mathematician [Jacobus Verhoeff](https://en.wikipedia.org/wiki/Jacobus_Verhoeff)and was first published in 1969.[[2]][https://en.wikipedia.org/wiki/Verhoeff_algorithm#cite_note-Kirtland_2001-2]([3)](<https://en.wikipedia.org/wiki/Verhoeff_algorithm#cite_note-Salomon_2005-3)It> was the first decimal[check digit](https://en.wikipedia.org/wiki/Check_digit)algorithm which detects all single-digit errors, and all transposition errors involving two adjacent digits,which was at the time thought impossible with such a code.
 Ex - used in aadhaar validation
 <https://en.wikipedia.org/wiki/Verhoeff_algorithm>
 

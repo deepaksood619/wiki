@@ -28,9 +28,9 @@ JSON is not useful where:
 <https://medium.com/@karandeepahluwalia/grpc-web-and-react-a-match-made-in-heaven-51a7a8ec86e6>
 <https://www.youtube.com/watch?v=_RiZkNR__60&ab_channel=GOTOConferences>
 
-![](media/gRPC_Others-image1.png)
-![](media/gRPC_Others-image2.png)
-![](media/gRPC_Others-image3.png)
+![image](media/gRPC_Others-image1.png)
+![image](media/gRPC_Others-image2.png)
+![image](media/gRPC_Others-image3.png)
 ![image](media/gRPC_Others-image4.png)
 ![image](media/gRPC_Others-image5.png)
 ![image](media/gRPC_Others-image6.png)

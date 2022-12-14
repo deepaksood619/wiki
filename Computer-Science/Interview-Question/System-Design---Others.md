@@ -9,7 +9,7 @@ Modified: 2022-07-15 17:39:32 +0500
 ## CricInfo
 
 [CRICINFO system design | CRICBUZZ System desi](http://youtube.com/watch?v=exSwQtMxGd4)gn
-![](media/System-Design---Others-image1.jpg)
+![image](media/System-Design---Others-image1.jpg)
 ![image](media/System-Design---Others-image2.png)
 
 ## Netflix
@@ -31,7 +31,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ## Gitlab
 
-![](media/System-Design---Others-image4.png)
+![image](media/System-Design---Others-image4.png)
 
 ## S3 system design (distributed cloud storage)
 
@@ -97,7 +97,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ## Financial System
 
-![](media/System-Design---Others-image6.png)
+![image](media/System-Design---Others-image6.png)
 
 ## TikTok
 

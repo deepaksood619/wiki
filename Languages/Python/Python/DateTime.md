@@ -9,42 +9,36 @@ Modified: 2021-05-07 11:23:41 +0500
 ## Concepts
 
 1. **Tick**
-
 2. **TimeTuple**
 
 ## Modules -
 
 1. **Time**
-
 2. **Datetime**
-
 3. **Pytz**
-
 4. **Dateutil**
-
 5. **Calendar**
 
-1. **Time -**
+### **Time -**
 
+```python
 Import time
 
 Time.time() - Gives current time (in number of ticks since 12:00am, January 1, 1970)
+```
 
 ## Time a running process
 
-import time
+```python
+ import time
+ start_time = time.time()
+ end_time = time.time()
+ print("time taken = %4.4f seconds" % (end_time-start_time))
 
-start_time = time.time()
-
-end_time = time.time()
-
-print("time taken = %4.4f seconds" % (end_time-start_time))
-
-## start = time.perf_counter()
-
-## elapsed = time.perf_counter()- start
-
-## print(f"finished in {elapsed:.02f}s")
+ start = time.perf_counter()
+ elapsed = time.perf_counter()- start
+    print(f"finished in {elapsed:.02f}s")
+```
 
 ## Python Timers (To monitor performance)
 
@@ -84,29 +78,26 @@ Objects of the date type are always naïve
 
 ## Ex -
 
-From datetime import date
+```python
+    Today = date.today()
+    Yesterday = date.today() - timedelta(-1)
 
-From datetime import timedelta
+    Object calling - datetime.datetime.now().date() [Gives today's date]
+    datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    datetime.strptime('2020-02-01', '%Y-%m-%d')
 
-Today = date.today()
-
-Yesterday = date.today() - timedelta(-1)
-
-Object calling - datetime.datetime.now().date() [Gives today's date]
-
-datetime.datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-
-datetime.strptime('2020-02-01', '%Y-%m-%d')
-
-## cur_date = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
+    cur_date = datetime.today().strftime("%Y-%m-%d %H:%M:%S")
+```
 
 ## 2.2. Date in ISOFormat
 
->>>from datetime import datetime
+```python
+from datetime import datetime
 
-## >>>print(datetime.now().isoformat())
+print(datetime.now().isoformat())
 
 '2018-03-07T10:09:40.227229'
+```
 
 ## strftime format codes
 

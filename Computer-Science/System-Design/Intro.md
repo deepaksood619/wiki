@@ -157,4 +157,4 @@ Thescale cubeis a technology model that indicates three methods (or approaches) 
 <https://en.wikipedia.org/wiki/Scale_cube>
 
 <https://microservices.io/articles/scalecube.html>
-![](media/Intro-image2.jpeg)
+![image](media/Intro-image2.jpeg)

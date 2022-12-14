@@ -133,7 +133,7 @@ CMD +  - show/hide sidebar
 
 ## OAuth 2.0 - Authentication and Authorization with Identity Server (KeyCloak)
 
-![](media/Postman-image1.png)
+![image](media/Postman-image1.png)
 
 ## Alternatives
 

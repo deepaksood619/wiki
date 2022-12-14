@@ -58,7 +58,7 @@ b.  **SSH --**SSH stands for Secure Shell. It is a terminal emulations software 
 
 c.  **NTP --**NTP stands for Network Time Protocol. It is used to synchronize the clocks on our computer to one standard time source. It is very useful in situations like bank transactions. Assume the following situation without the presence of NTP. Suppose you carry out a transaction,where your computer reads the time at 2:30 PM while the server records it at 2:28 PM. The server can crash very badly if it's out of sync.
 
-![](media/TCP-IP-image2.png)
+![image](media/TCP-IP-image2.png)
 
 ## Is UDP port 80 the same as TCP port 80?
 

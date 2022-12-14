@@ -16,11 +16,11 @@ The normal distribution is useful because of the[central limit theorem](https://
 - **Skewness:** A normal distribution is symmetric and has no skewness
 - **Kurtosis:** A variable that is normally distributed can take on values from minus infinity to plus infinity, but the likelihood of extreme values is contrained. The kurtosis for a normal distribution is three, which becomes the standard against which other distributions are measured
 
-![](media/Normal-Distributions-image2.jpeg)-   The t distribution
+![image](media/Normal-Distributions-image2.jpeg)-   The t distribution
 
 ![image](media/Normal-Distributions-image3.jpg)-   The Symmetric Triangular Distribution
 
-![](media/Normal-Distributions-image4.jpg)
+![image](media/Normal-Distributions-image4.jpg)
 
 - A Uniform Distribution
 

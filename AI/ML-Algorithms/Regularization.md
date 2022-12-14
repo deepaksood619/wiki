@@ -72,7 +72,7 @@ Hyperparameter - is a setting that we set before training and it doesn't change 
 
 ![image](media/Regularization-image13.png)
 
-![](media/Regularization-image14.png)
+![image](media/Regularization-image14.png)
 
 There are a variety of model parameters too
 
@@ -82,7 +82,7 @@ There are a variety of model parameters too
 
 Wouldn't it be nice to have the NN training loop do meta-training across all these parameters
 
-![](media/Regularization-image15.png)
+![image](media/Regularization-image15.png)
 
 How to use Cloud ML Engine for hyperparameter tuning
 

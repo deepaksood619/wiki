@@ -34,7 +34,7 @@ pip install rq
 
 ## # Application
 
-```
+```python
 from rq.job import Job
 job = redis_queue.enqueue(some_long_function, data)
 
@@ -84,7 +84,7 @@ job = Job.fetch(job_id, connection=redis_conn)
 
 """Sets up the redis connection and the redis queue."""
 
-```
+```python
 import os
 
 import redis
@@ -175,7 +175,7 @@ rpqueue==0.33.2
 
 ## # tasks.py
 
-```
+```python
 import requests
 
 import rpqueue

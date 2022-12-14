@@ -29,7 +29,7 @@ What we will accomplish in this tutorial:
 
 The MNIST data is hosted on [Yann LeCun's website](http://yann.lecun.com/exdb/mnist/). If you are copying and pasting in the code from this tutorial, start here with these two lines of code which will download and read in the data automatically:
 
-```
+```python
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 ```
@@ -122,7 +122,7 @@ To do efficient numerical computing in Python, we typically use libraries like [
 
 TensorFlow also does its heavy lifting outside Python, but it takes things a step further to avoid this overhead. Instead of running a single expensive operation independently from Python, TensorFlow lets us describe a graph of interacting operations that run entirely outside Python. (Approaches like this can be seen in a few machine learning libraries.)
 
-```
+```python
 To use TensorFlow, first we need to import it.
 
 import tensorflow as tf

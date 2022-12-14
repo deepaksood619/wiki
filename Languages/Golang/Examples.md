@@ -10,6 +10,7 @@ Modified: 2020-08-07 00:53:13 +0500
 
 ## publisher.go
 
+```go
 package main
 
 import (
@@ -127,3 +128,4 @@ log.Fatalf("%s: %s", "Failed to publish a message", err)
 fmt.Println("publish success!")
 
 }
+```

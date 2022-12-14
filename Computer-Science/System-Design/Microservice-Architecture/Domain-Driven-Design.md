@@ -23,7 +23,7 @@ DDD is an approach to software development that tackles complex systems by mappi
 
 ## Financial System
 
-![](media/Microservice-Architecture_Domain-Driven-Design-image1.png)
+![image](media/Microservice-Architecture_Domain-Driven-Design-image1.png)
 
 ## Design Pattern: Bounded Context -> Domain-Driven Design
 
@@ -31,12 +31,12 @@ Our first challenge is to logically segment the business into micro-subdomains, 
 Think of the prefix "micro" alluding to the size of the team needed to support the entire lifecycle of the microservice(s) within its bounded business subdomain.
 Within the context of our mockup architecture, let's begin the organizational design process by starting with the payment-processing domain --- which includes fraud detection, payments, settlement, and more. Since this scope is likely too complicated for a small team to manage, let's choose to narrow their ownership boundary down to just the fraud-detection subdomain.
 
-![](media/Microservice-Architecture_Domain-Driven-Design-image2.png)
+![image](media/Microservice-Architecture_Domain-Driven-Design-image2.png)
 
 The diagram above shows that fraud-detection is composed of the workflow's first three microservices --- which include digital identities, statistical analysis, and AI-based transaction risk-scoring. Since their scope is likely still too broad for a small team to manage, let's split fraud detection further down into two subdomains --- which finally seems more manageable.
 At a very high level, the process we just followed is called[Domain-Driven Design (DDD)](https://dddcommunity.org/learning-ddd/what_is_ddd/), which is supported by the recommended pattern to bind each microservice's scope and ownership claim to a business subdomain called[bounded context](https://martinfowler.com/bliki/BoundedContext.html).
 Notice that each microservice has its own dedicated database for**isolation**. The**empowered autonomous team**that owns the blue bounded context chose[RediSearch](https://redislabs.com/modules/redis-search/)to support their "Authenticate Digital Identity" microservice, and[RedisBloom](https://redislabs.com/modules/redis-bloom/)to support their "Probabilistic Fraud Detection Checkpoint" microservice. Meanwhile, a separate team that owns the purple bounded context chose[RedisAI](https://redislabs.com/modules/redis-ai/)to support "Transaction Risk Scoring" in real-time.
-![](media/Microservice-Architecture_Domain-Driven-Design-image3.png)
+![image](media/Microservice-Architecture_Domain-Driven-Design-image3.png)
 
 <https://www.domainlanguage.com/ddd/reference/attachment/pattern-language-overview-med>
 
