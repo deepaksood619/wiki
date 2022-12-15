@@ -6,7 +6,7 @@ Modified: 2021-10-28 21:15:06 +0500
 
 ---
 
-![](media/Run-Length-Encoding-image1.jpeg)
+![image](media/Run-Length-Encoding-image1.jpeg)
 
 Que: How many bits to store the counts?
 
@@ -20,8 +20,8 @@ Applications: JPEG, ITU-T T4 Group 3 Fax
 
 ## Java implementation
 
-![](media/Run-Length-Encoding-image2.jpeg)
+![image](media/Run-Length-Encoding-image2.jpeg)
 
 ## Application: compress a bitmap
 
-![](media/Run-Length-Encoding-image3.jpeg)
+![image](media/Run-Length-Encoding-image3.jpeg)

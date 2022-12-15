@@ -44,7 +44,7 @@ DevOps is a set of practices intended to reduce the time between committing a ch
 
 The term "**deployment**" refers to the act of deploying a change to application components or infrastructure, and the term "**release**" refers to the act of enabling or exposing a feature to end-users (with a corresponding business impact)
 
-![](../../media/DevOps-DevOps-Intro-image2.png)
+![image](../../media/DevOps-DevOps-Intro-image2.png)
 
 ## CI/CD on kubernetes
 

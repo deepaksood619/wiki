@@ -132,7 +132,7 @@ while true; do curl -s -o /dev/null -w "%{http_code}" <http://www.google.com>; d
 
 ## URL Globbing
 
-![](../../../media/DevOps-Terminal-Bash-Curl-image1.png)
+![image](../../../media/DevOps-Terminal-Bash-Curl-image1.png)
 
 ## Timeout parameters
 

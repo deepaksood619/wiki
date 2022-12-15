@@ -72,4 +72,4 @@ Modified: 2021-06-19 14:19:55 +0500
   - testing
 - Overfitting
 - underfitting
-- ![](media/Generalization-and-Sampling-image19.png)
+- ![image](media/Generalization-and-Sampling-image19.png)

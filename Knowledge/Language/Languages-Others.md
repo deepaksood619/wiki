@@ -59,7 +59,7 @@ Salut (Hello/Goodbye)
 
 ![image](media/Languages-Others-image10.png)
 
-![](media/Languages-Others-image11.png)
+![image](media/Languages-Others-image11.png)
 
 <https://www.youtube.com/watch?v=T5FNvW19GbA>
 

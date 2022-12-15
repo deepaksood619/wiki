@@ -80,7 +80,7 @@ StackedInline can be replaced with TabularInline for table view
 
 ## Anatomy of a Dynamic Site
 
-![](media/Overview-image1.png)
+![image](media/Overview-image1.png)
 
 ## Starting a new project
 

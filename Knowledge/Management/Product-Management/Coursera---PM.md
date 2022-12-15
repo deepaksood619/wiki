@@ -68,7 +68,7 @@ A/B/n testing
 
 Customer Retention
 
-![](media/Product-Management_Coursera---PM-image1.png)
+![image](media/Product-Management_Coursera---PM-image1.png)
 
 <http://growth.eladgil.com/book/introduction/welcome-to-the-high-growth-handbook>
 

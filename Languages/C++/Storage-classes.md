@@ -83,6 +83,7 @@ d.  Static Methods in class
 6. Typedef
 
 Assign alternative names to existing types
+
 ```c++
 #include <stdio.h>
 int main()

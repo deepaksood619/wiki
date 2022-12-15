@@ -252,7 +252,7 @@ The lean framework works on the concept of maximizing customer value with fewer 
 
 [Putting the XP in Scrum • Roy Osherove • GOTO 2021](https://www.youtube.com/watch?v=JtvSp3BPG8I&ab_channel=GOTOConferences)
 
-![](media/Project-Management_Agile-image2.jpeg)
+![image](media/Project-Management_Agile-image2.jpeg)
 
 ![image](media/Project-Management_Agile-image3.jpeg)
 
@@ -260,7 +260,7 @@ The lean framework works on the concept of maximizing customer value with fewer 
 
 ![image](media/Project-Management_Agile-image5.jpeg)
 
-![](media/Project-Management_Agile-image6.jpg)
+![image](media/Project-Management_Agile-image6.jpg)
 
 ## Twelve XP Practices
 

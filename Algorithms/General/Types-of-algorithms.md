@@ -79,7 +79,7 @@ Modified: 2021-09-14 22:52:18 +0500
 |     | ![image](media/Types-of-algorithms-image1.png) |
 |--|----------------------------------------------------------------------|
 
-![](media/Types-of-algorithms-image2.png)
+![image](media/Types-of-algorithms-image2.png)
 
 ![image](media/Types-of-algorithms-image3.png)
 

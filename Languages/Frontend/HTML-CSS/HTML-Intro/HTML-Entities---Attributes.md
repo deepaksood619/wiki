@@ -91,6 +91,7 @@ Here are some examples:
 ## HTML Attributes
 
 ### onchange
+
 ```js
 onchange="js_function(this)"
 
@@ -98,7 +99,7 @@ onchange="js_function(this)"
 function js_function(obj) {
     console.log(obj.id)
     console.log(obj.value)
-    
+
     obj.classList.add('custom-danger')
 }
 </script>

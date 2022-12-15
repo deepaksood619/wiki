@@ -111,7 +111,7 @@ Frederick Winslow Taylor: Father of industrial engineering and scientific manage
 
 The**first law of thermodynamics**is a version of the law of[conservation of energy](https://en.wikipedia.org/wiki/Conservation_of_energy), adapted for[thermodynamic systems](https://en.wikipedia.org/wiki/Thermodynamic_system). The law of conservation of energy states that the total[energy](https://en.wikipedia.org/wiki/Energy)of an[isolated system](https://en.wikipedia.org/wiki/Isolated_system)is constant; energy can be transformed from one form to another, but can be neither created nor destroyed. The first law is often formulated
 
-![](media/Mechanical-Engineering-image1.png)
+![image](media/Mechanical-Engineering-image1.png)
 
 - The energy inside a system
   - Kinetic Energy (KE)

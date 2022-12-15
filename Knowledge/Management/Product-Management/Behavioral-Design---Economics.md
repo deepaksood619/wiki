@@ -48,7 +48,7 @@ Day 1 is the day your users have the most momentum they will ever have. Catching
 
 3. Behavioral map
 
-![](media/Product-Management_Behavioral-Design---Economics-image3.jpg)
+![image](media/Product-Management_Behavioral-Design---Economics-image3.jpg)
 
 4. Identify the psychologies at play
 

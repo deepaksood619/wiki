@@ -45,7 +45,7 @@ Since,
 - join (CD => AB, BD => AC) would produce the candidate rule D => ABC
 - Prune rule D => ABC if its subset AB => BC does not have high confidence
 
-![](media/Rule-generation-&-Pattern-Evaluation-image2.jpg)
+![image](media/Rule-generation-&-Pattern-Evaluation-image2.jpg)
 
 ![image](media/Rule-generation-&-Pattern-Evaluation-image3.png)
 

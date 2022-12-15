@@ -34,13 +34,13 @@ kubectl describe cm istio -n istio-system
 
 ![Globally Enabling Access Logs Globally enabling using "istioctl install" istioctl install ---set profile-deno ------set Globally customizing encoding which defaults to "TEXT istiocti install ------set profile---demo ------set Reverting back to no access log istiocti instati ------set profile-deno ------set meshConfig.aecessLogFiie=•• ------set This configuration is stored in "istio" configmap as default "mesh" configuration kubecti ---n istio---system get cm istio ---o yami I grep accessLog accessLogEneoding: TEXT accessLogFiie: • accessLogFormat: ](../../../media/DevOps-Monitoring-Others-image4.png)
 
-![](../../../media/DevOps-Monitoring-Others-image5.png)
+![image](../../../media/DevOps-Monitoring-Others-image5.png)
 
 [Webinar: Debugging your debugging tools; What to do when your service mesh goes down in production?](https://www.youtube.com/watch?v=XAKY24b7XjQ)
 
 ![Debugging your debugging tools; What to do when your service mesh goes down in production? ](../../../media/DevOps-Monitoring-Others-image6.jpg)
 
-![](../../../media/DevOps-Monitoring-Others-image7.png)
+![image](../../../media/DevOps-Monitoring-Others-image7.png)
 
 ![Istiod Debug Logging Default level is "info".Available options: "debug", "info", "warn", "error", Enable debug logging without restarting "istiod" o istiocti dashboard controlz Toggle logging for a scope or for all scopes o Loog.ng none" Enable debug logging via "istioctl" o istiocti install ------set profile-deno ----set values.globai.iogging.ievel=debugl ](../../../media/DevOps-Monitoring-Others-image8.png)
 

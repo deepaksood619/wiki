@@ -135,7 +135,7 @@ This pattern shows how to split a large message into a claim check and a payload
 
 ## Choreography vs Orchestration
 
-![](media/Event-driven-architecture-image6.jpeg)
+![image](media/Event-driven-architecture-image6.jpeg)
 
 ## Orchestration - command-driven architecture
 

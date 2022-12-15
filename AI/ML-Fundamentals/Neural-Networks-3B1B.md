@@ -115,4 +115,4 @@ Stochastic Gradient Descent
 
 [Neural Networks from Scratch in Python](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
 
-![](media/Neural-Networks-3B1B-image32.jpg)
+![image](media/Neural-Networks-3B1B-image32.jpg)

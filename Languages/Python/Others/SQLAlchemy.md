@@ -10,7 +10,7 @@ Modified: 2022-03-15 22:11:33 +0500
 
 The SQLAlchemy SQL Toolkit and Object Relational Mapper is a comprehensive set of tools for working with databases and Python. It has several distinct areas of functionality which can be used individually or combined together. Its major components are illustrated below, with component dependencies organized into layers:
 
-![](media/SQLAlchemy-image1.png)
+![image](media/SQLAlchemy-image1.png)
 
 Above, the two most significant front-facing portions of SQLAlchemy are the**Object Relational Mapper (ORM)**and **theCore.**
 

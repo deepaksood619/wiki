@@ -39,7 +39,7 @@ It's designed to workaround the shortcomings of procfs, sysfs and cgroupfs by ex
 
 ITIL, formerlyan acronym for**Information Technology Infrastructure Library**, is a set of detailed practices for[IT service management](https://en.wikipedia.org/wiki/IT_service_management)(ITSM) that focuses on aligning IT services with the needs of business.
 
-![](../../media/DevOps-DevOps-Concepts-image1.jpg)
+![image](../../media/DevOps-DevOps-Concepts-image1.jpg)
 
 <https://wiki.en.it-processmaps.com/index.php/ITIL_Processes>
 

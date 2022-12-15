@@ -28,7 +28,7 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
 
 ![Main Concepts User Identity- Prov»der • Clients Realm Roles Keys SAML Keycloak- OpenlDC User Federation LDAP (inkl. LDS) GitHub Twitter Google Linkedln Mtcrosott Stackoverflow ](../../media/DevOps-Others-KeyCloak-image1.png)
 
-![](../../media/DevOps-Others-KeyCloak-image2.png)
+![image](../../media/DevOps-Others-KeyCloak-image2.png)
 
 ## Single sign-on
 
@@ -58,7 +58,7 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
   - **IDToken** -> contains **User information (OIDC)**
   - **Offline-Token** long-lived (Days++) "Refresh-Token" that "never" expires
 
-![](../../media/DevOps-Others-KeyCloak-image4.png)
+![image](../../media/DevOps-Others-KeyCloak-image4.png)
 
 ## Keycloak Integration Options
 
@@ -72,7 +72,7 @@ A realm in Keycloak is the equivalent of a tenant. It allows creating isolated g
   - Apache mod_auth_oidc for OpenID connect
   - Apache mod_auth_mellon for SAML
 
-![](../../media/DevOps-Others-KeyCloak-image5.png)
+![image](../../media/DevOps-Others-KeyCloak-image5.png)
 
 ## Python - <https://github.com/marcospereirampj/python-keycloak>
 

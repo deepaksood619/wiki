@@ -45,7 +45,7 @@ Modified: 2019-10-02 13:44:55 +0500
 
 ![image](media/Organ-Systems-image1.jpg)
 
-![](media/Organ-Systems-image2.jpg)
+![image](media/Organ-Systems-image2.jpg)
 
 Bone to bone connection - ligament
 

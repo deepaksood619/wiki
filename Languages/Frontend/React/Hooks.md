@@ -115,6 +115,7 @@ function Example() {
 ```
 
 ## Search using axios async await api
+
 ```js
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";

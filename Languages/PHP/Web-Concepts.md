@@ -12,14 +12,16 @@ The PHPheader()function supplies raw HTTP headers to the browser and can be used
 
 The target is specified by theLocation:header as the argument to theheader()function. After calling this function theexit()function can be used to halt parsing of rest of the code.
 
+```php
 <?php
 if( $_POST["location"] ) {
-$location = $_POST["location"];
-header( "Location:$location" );
+    $location = $_POST["location"];
+    header( "Location:$location" );
 
-exit();
+    exit();
 }
 ?>
+```
 
 ## GET and POST
 
@@ -30,7 +32,7 @@ There are two ways the browser client can send information to the web server.
 
 Before the browser sends the information, it encodes it using a scheme called URL encoding. In this scheme, name/value pairs are joined with equal signs and different pairs are separated by the ampersand.
 
-name1=value1&name2=value2&name3=value3
+`name1=value1&name2=value2&name3=value3`
 
 Spaces are removed and replaced with the+character and any other nonalphanumeric characters are replaced with a hexadecimal values. After the information is encoded it is sent to the server.
 
@@ -47,25 +49,27 @@ The GET method sends the encoded user information appended to the page request. 
 - The data sent by GET method can be accessed using QUERY_STRING environment variable.
 - The PHP provides$_GETassociative array to access all the sent information using GET method.
 
+```php
 <?php
-if( $_GET["name"] || $_GET["age"] ) {
-echo "Welcome ". $_GET['name']. "<br ";
-echo "You are ". $_GET['age']. " years old.";
+   if( $_GET["name"] || $_GET["age"] ) {
+      echo "Welcome ". $_GET['name']. "<br />";
+      echo "You are ". $_GET['age']. " years old.";
 
-exit();
-}
+      exit();
+   }
 ?>
 <html>
-<body>
+   <body>
 
-<form action = "<?php $_PHP_SELF ?>" method = "GET">
-Name: <input type = "text" name = "name"
-Age: <input type = "text" name = "age"
-<input type = "submit"
-</form>
+      <form action = "<?php $_PHP_SELF ?>" method = "GET">
+         Name: <input type = "text" name = "name" />
+         Age: <input type = "text" name = "age" />
+         <input type = "submit" />
+      </form>
 
-</body>
+   </body>
 </html>
+```
 
 ![Forms](media/Web-Concepts-image1.jpg)
 
@@ -78,28 +82,30 @@ The POST method transfers information via HTTP headers. The information is encod
 - The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.
 - The PHP provides$_POSTassociative array to access all the sent information using POST method.
 
+``php
 <?php
-if( $_POST["name"] || $_POST["age"] ) {
-if (preg_match("/[^A-Za-z'-]/",$_POST['name'] )) {
-die ("invalid name and name should be alpha");
-}
-echo "Welcome ". $_POST['name']. "<br ";
-echo "You are ". $_POST['age']. " years old.";
+   if( $_POST["name"] || $_POST["age"] ) {
+      if (preg_match("/[^A-Za-z'-]/",$_POST['name'] )) {
+         die ("invalid name and name should be alpha");
+      }
+      echo "Welcome ". $_POST['name']. "<br />";
+      echo "You are ". $_POST['age']. " years old.";
 
-exit();
-}
+      exit();
+   }
 ?>
 <html>
-<body>
+   <body>
 
-<form action = "<?php $_PHP_SELF ?>" method = "POST">
-Name: <input type = "text" name = "name"
-Age: <input type = "text" name = "age"
-<input type = "submit"
-</form>
+      <form action = "<?php $_PHP_SELF ?>" method = "POST">
+         Name: <input type = "text" name = "name" />
+         Age: <input type = "text" name = "age" />
+         <input type = "submit" />
+      </form>
 
-</body>
+   </body>
 </html>
+```
 
 ![Forms](media/Web-Concepts-image1.jpg)
 
@@ -109,24 +115,26 @@ The PHP $_REQUEST variable contains the contents of both $_GET, $_POST, and $_CO
 
 The PHP $_REQUEST variable can be used to get the result from form data sent with both the GET and POST methods.
 
+```php
 <?php
-if( $_REQUEST["name"] || $_REQUEST["age"] ) {
-echo "Welcome ". $_REQUEST['name']. "<br ";
-echo "You are ". $_REQUEST['age']. " years old.";
-exit();
-}
+   if( $_REQUEST["name"] || $_REQUEST["age"] ) {
+      echo "Welcome ". $_REQUEST['name']. "<br />";
+      echo "You are ". $_REQUEST['age']. " years old.";
+      exit();
+   }
 ?>
 <html>
-<body>
+   <body>
 
-<form action = "<?php $_PHP_SELF ?>" method = "POST">
-Name: <input type = "text" name = "name"
-Age: <input type = "text" name = "age"
-<input type = "submit"
-</form>
+      <form action = "<?php $_PHP_SELF ?>" method = "POST">
+         Name: <input type = "text" name = "name" />
+         Age: <input type = "text" name = "age" />
+         <input type = "submit" />
+      </form>
 
-</body>
+   </body>
 </html>
+```
 
 Here $_PHP_SELF variable contains the name of self script in which it is being called.
 

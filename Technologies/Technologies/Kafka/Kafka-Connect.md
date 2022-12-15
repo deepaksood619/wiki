@@ -42,7 +42,7 @@ Standalone mode is the simplest mode, where a single process is responsible for 
 
 Distributed mode provides scalability and automatic fault tolerance for Kafka Connect. In distributed mode, you start many worker processes using the samegroup.idand they automatically coordinate to schedule execution of connectors and tasks across all available workers. If you add a worker, shut down a worker, or a worker fails unexpectedly, the rest of the workers detect this and automatically coordinate to redistribute connectors and tasks across the updated set of available workers. Note the similarity to consumer group rebalance. Under the covers, connect workers are using consumer groups to coordinate and rebalance.
 
-![](../../media/Technologies-Kafka-Kafka-Connect-image1.png)
+![image](../../media/Technologies-Kafka-Kafka-Connect-image1.png)
 
 ## Main components
 
@@ -54,7 +54,7 @@ Distributed mode provides scalability and automatic fault tolerance for Kafka Co
 
 ## Task
 
-![](../../media/Technologies-Kafka-Kafka-Connect-image2.png)
+![image](../../media/Technologies-Kafka-Kafka-Connect-image2.png)
 
 ## Connect REST API
 

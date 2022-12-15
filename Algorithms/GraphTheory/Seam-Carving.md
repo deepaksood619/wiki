@@ -64,4 +64,4 @@ Computing the seam consists of finding the path of minimum energy cost from one 
 
 Move the pixels left to merge the picture
 
-![](media/Seam-Carving-image5.png)
+![image](media/Seam-Carving-image5.png)

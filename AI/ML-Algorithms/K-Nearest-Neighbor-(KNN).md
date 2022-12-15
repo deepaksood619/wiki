@@ -97,7 +97,7 @@ The idea of distance or closeness can break down in very high dimensions (lots o
 - Knowledge of this boundary is sufficient to classify new points
 - The boundary itself is rarely computed; many algorithms seek to retain only those points necessary to generate an identical boundary
 
-![](media/K-Nearest-Neighbor-(KNN)-image14.jpg)
+![image](media/K-Nearest-Neighbor-(KNN)-image14.jpg)
 
 ## Condensing
 
@@ -135,7 +135,7 @@ The idea of distance or closeness can break down in very high dimensions (lots o
 - Search on the tree
 - Tree construction: At each level we use a different dimension to split
 
-![](media/K-Nearest-Neighbor-(KNN)-image17.jpeg)
+![image](media/K-Nearest-Neighbor-(KNN)-image17.jpeg)
 
 ## KNN: Alternate Terminologies
 

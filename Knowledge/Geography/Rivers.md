@@ -53,7 +53,7 @@ Modified: 2022-08-27 17:44:08 +0500
 - Cape
 - Sea
 
-![](media/Rivers-image1.jpg)
+![image](media/Rivers-image1.jpg)
 
 [Rivers of India - Geography UPSC, IAS, CDS, NDA, SSC CGL, PCS](https://youtube.com/playlist?list=PL1vNLZF5gfwes_mQ3u4B8KLBUp0ezwjv6)
 

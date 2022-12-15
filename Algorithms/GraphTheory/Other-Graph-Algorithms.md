@@ -12,7 +12,7 @@ In[graph theory](https://en.wikipedia.org/wiki/Graph_theory), adominating setfor
 
 Thedominating set problemconcerns testing whether γ(G)≤Kfor a given graphGand inputK; it is a classical[NP-complete](https://en.wikipedia.org/wiki/NP-complete)[decision problem](https://en.wikipedia.org/wiki/Decision_problem)in[computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory).[[1]](https://en.wikipedia.org/wiki/Dominating_set#cite_note-FOOTNOTEGareyJohnson1979-1)Therefore it is believed that there may be no[efficient algorithm](https://en.wikipedia.org/wiki/Polynomial-time_algorithm)that finds a smallest dominating set for all graphs, although there are efficient approximation algorithms, as well as both efficient and exact algorithms for certain graph classes.
 
-![](media/Other-Graph-Algorithms-image1.png)
+![image](media/Other-Graph-Algorithms-image1.png)
 
 Dominating sets (redvertices).
 

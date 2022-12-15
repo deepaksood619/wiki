@@ -14,19 +14,19 @@ Youtube - Athlean X
 
 1. Shoulder rolls - from back, start small movements to large movements
 
-![](media/Exercise---Stretching_Home-Exercise-Routine-image2.png)
+![image](media/Exercise---Stretching_Home-Exercise-Routine-image2.png)
 
 2. Overhead reach - Reaching side to side
 
-![](media/Exercise---Stretching_Home-Exercise-Routine-image3.png)
+![image](media/Exercise---Stretching_Home-Exercise-Routine-image3.png)
 
 3. Torso rotation with a reach - lift your toes so you don't twist your back
 
-![](media/Exercise---Stretching_Home-Exercise-Routine-image4.png)
+![image](media/Exercise---Stretching_Home-Exercise-Routine-image4.png)
 
 4. Hamstring curls with arms
 
-![](media/Exercise---Stretching_Home-Exercise-Routine-image5.png)
+![image](media/Exercise---Stretching_Home-Exercise-Routine-image5.png)
 
 5. Knee lifts
 

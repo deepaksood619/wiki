@@ -82,7 +82,7 @@ Prediction / Inference Phase
 ![image](media/Coursera---How-Google-does-ML-image5.png)
 ![image](media/Coursera---How-Google-does-ML-image6.png)
 
-![](media/Coursera---How-Google-does-ML-image5.png)
+![image](media/Coursera---How-Google-does-ML-image5.png)
 
 ## Resources
 

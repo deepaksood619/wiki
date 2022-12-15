@@ -14,7 +14,7 @@ An enormous amount of physical information; that is, information from and about 
 - a[***large set***](https://people.eecs.berkeley.edu/~stevedh/smap2/driver_index.html#driver-index)of free and open drivers for communicating with devices using native protocols and transforming it to the sMAP profile, and
 - tools for building, organizing, and querying large repositories of physical data.
 
-![](../../media/Technologies-Brokers-sMAP-image1.png)
+![image](../../media/Technologies-Brokers-sMAP-image1.png)
 
 The core object in sMAP is the timeseries, a single progression of(time,value)tuples. Each timeseries in sMAP is identified by aUUID, and can be tagged with metadata; all grouping of time series occurs using these tags. These objects are exchanged between all components in this ecosystem.
 
@@ -61,7 +61,7 @@ The sMAP architecture consists of several components which may be used together 
 
 - sMAP Sources
 
-![](../../media/Technologies-Brokers-sMAP-image2.png)
+![image](../../media/Technologies-Brokers-sMAP-image2.png)
 
 - Archiver
 

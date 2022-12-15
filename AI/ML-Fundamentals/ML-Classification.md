@@ -376,7 +376,7 @@ Reinforcement learning is concerned with how an*agent*ought to take*actions*in a
   - Uses Bayes' theorem to predict the results
   - Bayes' rule
 
-![](media/ML-Classification-image5.png)
+![image](media/ML-Classification-image5.png)
 
 - If there are two variables (like GPA and SAT and we have to predict whether a student got admission or not) then LDA is very helpful. It creates a unified value (only one variable) which maximizes the difference between the two groups (got admission or not)
 

@@ -53,7 +53,7 @@ Every nxm matrix can be written as a product of three smaller matrices.
 
 ## Gradient Descent for Linear regression with one variable
 
-![](media/Andrew-NG-image8.png)
+![image](media/Andrew-NG-image8.png)
 
 ![image](media/Andrew-NG-image9.png)
 

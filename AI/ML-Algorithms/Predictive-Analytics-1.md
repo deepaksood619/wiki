@@ -23,27 +23,27 @@ Modified: 2021-10-10 19:16:26 +0500
 
 - Each iteration pick an object at random, and there is no correlation with the previous step. Consider a data set, Z, for example, with five objects.
 
-![](media/Predictive-Analytics-1-image1.jpeg)
+![image](media/Predictive-Analytics-1-image1.jpeg)
 
 - At the first step, you pick at random an object, for example, the object number three
 
-![](media/Predictive-Analytics-1-image2.jpeg)
+![image](media/Predictive-Analytics-1-image2.jpeg)
 
 - Then you repeat it and pick the object number one
 
-![](media/Predictive-Analytics-1-image3.jpeg)
+![image](media/Predictive-Analytics-1-image3.jpeg)
 
 - Then the object number five
 
-![](media/Predictive-Analytics-1-image4.jpeg)
+![image](media/Predictive-Analytics-1-image4.jpeg)
 
 - Then possibly you can pick again the object number five, because at each iteration you pick an object at random, and there is no correlation with the previous step
 
-![](media/Predictive-Analytics-1-image5.jpeg)
+![image](media/Predictive-Analytics-1-image5.jpeg)
 
 - And finally, you pick the object number two
 
-![](media/Predictive-Analytics-1-image6.jpeg)
+![image](media/Predictive-Analytics-1-image6.jpeg)
 
 - After bootstrapping we have a new data set. The size of this data set is the number of elements in the original data set. But its content, as you see, is slightly different. Some objects may be missing and other objects may be present several times, more than once
 

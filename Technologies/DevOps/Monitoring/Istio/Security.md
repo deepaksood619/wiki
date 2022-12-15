@@ -32,7 +32,7 @@ Security in Istio involves multiple components:
 - Sidecar and perimeter proxies work as[Policy Enforcement Points](https://www.jerichosystems.com/technology/glossaryterms/policy_enforcement_point.html)(PEPs) to secure communication between clients and servers.
 - A set of Envoy proxy extensions to manage telemetry and auditing
 
-![](../../../media/DevOps-Monitoring-Security-image2.png)
+![image](../../../media/DevOps-Monitoring-Security-image2.png)
 
 ## Authentication
 

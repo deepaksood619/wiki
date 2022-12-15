@@ -196,9 +196,9 @@ An in-process scheduler for periodic jobs that uses the builder pattern for conf
 
 ## pygal
 
-![](media/Libraries-image3.png)
+![image](media/Libraries-image3.png)
 
-![](media/Libraries-image4.png)
+![image](media/Libraries-image4.png)
 
 ## jinja2
 

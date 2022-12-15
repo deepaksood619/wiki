@@ -8,7 +8,7 @@ Modified: 2018-05-03 00:00:31 +0500
 
 The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other. For example, following is a solution for 4 Queen problem.
 
-![](media/N-Queens-Problem-image1.jpg)
+![image](media/N-Queens-Problem-image1.jpg)
 
 ## Question Types -
 
@@ -53,7 +53,7 @@ backtracking.
 - At 1st level of recursion, we will place 1st queen on 1st row such that she does not attack the 0th queen
 - At 2nd level of recursion, we will place 2nd queen on 2nd row such that she does not attack the 0th queen and 1st queen.
 
-![](media/N-Queens-Problem-image3.png)
+![image](media/N-Queens-Problem-image3.png)
 
 ![P-ocblem ](media/N-Queens-Problem-image4.png)
 
@@ -67,4 +67,4 @@ Space Complexity - n*n
 
 [N Queen Problem Using Backtracking Algorithm](https://www.youtube.com/watch?v=xouin83ebxE)
 
-![](media/N-Queens-Problem-image5.png)
+![image](media/N-Queens-Problem-image5.png)

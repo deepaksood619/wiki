@@ -224,7 +224,7 @@ Arbitrage funds work by exploiting the price differential between assets that sh
 
 ## Strategic (smart beta) indices
 
-![](media/Mutual-Funds-image2.png)
+![image](media/Mutual-Funds-image2.png)
 
 ## NIFTY Alpha 30 Index
 

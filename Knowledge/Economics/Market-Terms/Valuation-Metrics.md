@@ -139,7 +139,7 @@ Total Revenue (Sales)
 
 - Ignores depreciation
 
-![](media/Market-Terms_Valuation-Metrics-image1.jpeg)
+![image](media/Market-Terms_Valuation-Metrics-image1.jpeg)
 
 ## Graham Number
 

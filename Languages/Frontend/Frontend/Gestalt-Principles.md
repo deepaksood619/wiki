@@ -18,11 +18,11 @@ Modified: 2021-07-06 01:03:29 +0500
 
 4. Pragnanz
 
-![](media/Gestalt-Principles-image2.png)
+![image](media/Gestalt-Principles-image2.png)
 
 5. Proximity
 
-![](media/Gestalt-Principles-image3.png)
+![image](media/Gestalt-Principles-image3.png)
 
 6. Continuity
 
@@ -30,7 +30,7 @@ Modified: 2021-07-06 01:03:29 +0500
 
 7. Closure
 
-![](media/Gestalt-Principles-image5.png)
+![image](media/Gestalt-Principles-image5.png)
 
 <https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor/sensory-perception-topic/v/gestalt-principles>
 

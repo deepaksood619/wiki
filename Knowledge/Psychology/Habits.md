@@ -74,7 +74,7 @@ Addiction researchers use the term "natural recoverers" to refer to people who a
 
 Each attempt represents a lesson learned and progress toward the ulti- mate goal of quitting. In fact, research shows that each failed attempt to quit any addiction is independent of the others. Because each attempt has its own probability of success, repeated attempts to quit increase the likelihood of eventual success.
 
-![](media/Habits-image1.png)
+![image](media/Habits-image1.png)
 
 ## Exposure Theory for overcoming fears
 

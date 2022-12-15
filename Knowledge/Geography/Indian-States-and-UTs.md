@@ -560,7 +560,7 @@ Indian states and territories frequently use different local titles for the same
 
 ## Zones
 
-![](media/Indian-States-and-UTs-image2.png)
+![image](media/Indian-States-and-UTs-image2.png)
 
 The States have been grouped into six zones having an Advisory Council "to develop the habit of cooperative working" among these States.[Zonal Councils](https://en.wikipedia.org/wiki/Zonal_Council)were set up vide Part-III of the[States Reorganisation Act](https://en.wikipedia.org/wiki/States_Reorganisation_Act), 1956. The North Eastern States' special problems are addressed by another statutory body - The North Eastern Council, created by the North Eastern Council Act, 1971.[^[2]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-2)The present composition of each of these Zonal Councils is as under:[^[3]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-3)
 

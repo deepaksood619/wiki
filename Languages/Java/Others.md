@@ -15,6 +15,7 @@ Jshell for java REPL (Read-Eval-Print Loop, interactive toplevel or language she
 2. Discover type mismatch errors at compile-time instead of run-time.
 
 3. AutoBoxing
+
 ```java
 Stack<Integer> stack = new Stack<Integer>();
 

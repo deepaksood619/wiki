@@ -58,7 +58,7 @@ bundle assets, images, scripts, styles
 
 Install npm packages on the frontend
 
-![](media/Tools-image1.png)
+![image](media/Tools-image1.png)
 
 Webpack also provides features like a local server with hot reload (they call it hot module replacement) to make your development experience better.
 

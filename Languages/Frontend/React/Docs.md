@@ -66,6 +66,7 @@ Ref forwarding is a technique for automatically passing a[ref](https://reactjs.o
 - [Fragments](https://reactjs.org/docs/fragments.html)
 
 Fragments let you group a list of children without adding extra nodes to the DOM
+
 ```js
 class Columns extends React.Component {
   render() {

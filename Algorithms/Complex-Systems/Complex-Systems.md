@@ -6,7 +6,7 @@ Modified: 2021-12-16 23:38:48 +0500
 
 ---
 
-![](media/Complex-Systems-image1.jpg)
+![image](media/Complex-Systems-image1.jpg)
 
 ![image](media/Complex-Systems-image2.jpg)
 

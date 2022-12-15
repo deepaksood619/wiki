@@ -307,7 +307,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Theory of Constraints: A system is only as strong as its weakest point. Focus on the bottleneck. Counterintuitively, if you break down the entire system and optimize each component individually, you'll lower the effectiveness of the system. Optimize the entire system instead.
 
-![](media/Mental-Models-image2.jpg)
+![image](media/Mental-Models-image2.jpg)
 
 - Preference Falsification: People lie about their true opinions and conform to socially acceptable preferences instead. In private they'll say one thing. In public, they'll say another.
 
@@ -327,7 +327,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Demand Curves Slope Down: The harder something is to do, the fewer people will do it. For example, raise the price of a product and fewer people will buy it. Lower the price and more people will buy it. Economics 101.
 
-![](media/Mental-Models-image3.jpg)
+![image](media/Mental-Models-image3.jpg)
 
 - Look for Things That Don't Make Sense: The world always makes sense. But it can be confusing. When it is, your model of the world is wrong. So, things that don't make sense are a learning opportunity. Big opportunities won't make sense until it's too late to profit from them.
 
@@ -365,7 +365,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Hormesis: A low dose of something can have the opposite effect of a high dose. A little bit of stress wakes you up, but a lot of stress is bad for you. Lifting weights for 30 minutes per day is good for you, but lifting weights for 6 hours per day will destroy your muscles. Stress yourself, but not too much.
 
-![](media/Mental-Models-image4.jpg)
+![image](media/Mental-Models-image4.jpg)
 
 - Robustness Principle: Be conservative in what you do, be liberal in what you accept from others. It's a design guideline for software and a good rule for life: Hold yourself to a higher standard than you hold others to.
 
@@ -373,7 +373,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Horseshoe Theory: Extreme opposites tend to look the same. For example, a far-right movement and a far-left movement can be equally violent or desire a similar outcome. People on both sides are more similar to each other than they are to people in the center.
 
-![](media/Mental-Models-image5.jpg)
+![image](media/Mental-Models-image5.jpg)
 
 - Availability Cascade: A self-reinforcing cycle that creates collective beliefs. An idea will gain traction once it enters the mainstream, which triggers a chain reaction, which causes lots of people to adopt it not because it's true but because it's popular.
 
@@ -397,7 +397,7 @@ Don't change something until you know why it was there in the first place. It's 
 
 - Convexity: If you want to be lucky, look for opportunities with big upsides and low downsides. In addition to increased optionality, your errors will benefit you more than they harm you. Convex payoffs let you tinker your way to success and innovation.
 
-![](media/Mental-Models-image7.jpg)
+![image](media/Mental-Models-image7.jpg)
 
 - The Go-For-It Window: Large gaps between accelerating technologies and stagnating social norms create lucrative new business opportunities. But they are only available for a short time when people can capitalize on the difference between the real and perceived state of the world. For example, 2007 was the perfect time to launch the iPhone, but Google Glasses launched too early.
 

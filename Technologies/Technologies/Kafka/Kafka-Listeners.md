@@ -8,7 +8,7 @@ Modified: 2018-12-06 20:54:44 +0500
 
 ## tl;dr : You need to set advertised.listeners (or KAFKA_ADVERTISED_LISTENERS if you're using Docker images) to the external address (host/IP) so that clients can correctly connect to it. Otherwise they'll try to connect to the internal host address--and if that's not reachable then problems ensue
 
-![](../../media/Technologies-Kafka-Kafka-Listeners-image1.png)
+![image](../../media/Technologies-Kafka-Kafka-Listeners-image1.png)
 
 In this post I'll talk about *why* this is necessary, and then show *how* to do it, based on a couple of scenarios - Docker, and AWS.
 
@@ -153,7 +153,7 @@ Much better is to understand and actually fix the advertised.listeners setting f
 
 ## HOWTO: Connecting to Kafka on Docker
 
-![](../../media/Technologies-Kafka-Kafka-Listeners-image1.png)
+![image](../../media/Technologies-Kafka-Kafka-Listeners-image1.png)
 
 Run within Docker, you will need to configure two listeners for Kafka:
 
@@ -195,7 +195,7 @@ There are two approaches, depending on whether the external address through whic
 
 ### Option 1 - external address IS resolvable locally
 
-![](../../media/Technologies-Kafka-Kafka-Listeners-image2.png)
+![image](../../media/Technologies-Kafka-Kafka-Listeners-image2.png)
 
 You can get by with one listener here. The existing listener, called PLAINTEXT, just needs overriding to set the advertised hostname (i.e. the one that is passed to inbound clients)
 
@@ -213,7 +213,7 @@ For these comms, we need to use *the internal IP of the EC2 machine* (or hostnam
 
 2. External AWS traffic. This could be testing connectivity from a laptop, or simply from machines not hosted in Amazon. In both cases, the external IP of the instance needs to be used (or hostname, if DNS is configured).
 
-![](../../media/Technologies-Kafka-Kafka-Listeners-image3.png)
+![image](../../media/Technologies-Kafka-Kafka-Listeners-image3.png)
 
 Here's an example configuration:
 

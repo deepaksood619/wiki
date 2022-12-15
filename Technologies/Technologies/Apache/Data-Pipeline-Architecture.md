@@ -31,7 +31,7 @@ In this approach, you pull the data from the MQTT Broker via Kafka Connect to th
 
 ![Kafka Connect components ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image5.png)
 
-![](../../media/Technologies-Apache-Data-Pipeline-Architecture-image6.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image6.png)
 
 ![Kafka Connect - Converters JSON Connect data Message API format MOTT Source MOTT Connector Broker Connect data byte(l (Avro) API format kafka AvroConverter AvroConverter S3 Sink Connector (Avro) AmazonS3 Object kafka Object Storage ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image7.png)
 
@@ -77,9 +77,9 @@ In this approach, you push the data directly to the Kafka broker via the Conflue
 
 3. **Confluent REST Proxy**
 
-![](../../media/Technologies-Apache-Data-Pipeline-Architecture-image9.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image9.png)
 
-![](../../media/Technologies-Apache-Data-Pipeline-Architecture-image10.png)
+![image](../../media/Technologies-Apache-Data-Pipeline-Architecture-image10.png)
 
 ## Design Questions
 

@@ -26,7 +26,7 @@ Modified: 2020-04-11 15:21:28 +0500
 
 ![Example 3: Word Length Hisl Map Task 1 (204 words) Ablidoed Declaration of Inde endence Declaration subordination assume among power t ation "which nature entitle inions a re lare cause chan in den government beco destructive "institute governm• ci les organmng power Ying foundation governments established accordin ly expenence hil sufferable. accustomed distinguished mvariablv •arbi 60 prou themselves abolishing u attons- government suffermgs ](../../../media/Technologies-Apache-MapReduce-Examples-image10.png)
 
-![](../../../media/Technologies-Apache-MapReduce-Examples-image11.png)
+![image](../../../media/Technologies-Apache-MapReduce-Examples-image11.png)
 
 ![Example 4: Build an Inverted Input: weetl, ("1 love pancakes for breakfast' tweet2, tweet3, ("What shov I eat for breakfast?") tweet4, ("1 love to eat") Desired out "pancakes", breakfast , "love", (twe ](../../../media/Technologies-Apache-MapReduce-Examples-image12.png)
 
@@ -40,7 +40,7 @@ Modified: 2020-04-11 15:21:28 +0500
 
 ![Example 5: Relational Join in MapRedu( Orde orderi I, aaa, d 1 2, aaa, d2 3, bbb, d3 account, d te) Linelt orderid, 1, 10, 1 1, 20, 3 2, 10, 5 2, 50, 100 3, 20, 1 emid, qty Map tagged with relation name Order aaa, dl 2, aaa, d2 3, bbb, d3 Line 1, 10, 1 1, 20, 3 2, 10, 5 -y 6. "Order", (1 2 : "Order", (2,aaa,d2) 3 : "Order", (3,bbb,d3) "Line", (1, 10, 1) 1 "Line", (1, 20, 3) "Line", (2, 10, 5) Reducer for k "Order', ( "Line", (1, "Line", (1, (1, aaa, d ](../../../media/Technologies-Apache-MapReduce-Examples-image17.png)
 
-![](../../../media/Technologies-Apache-MapReduce-Examples-image18.png)
+![image](../../../media/Technologies-Apache-MapReduce-Examples-image18.png)
 
 ![List of friends list is then: BCD B->ACDE C->ABDE D->ABCE BCD](../../../media/Technologies-Apache-MapReduce-Examples-image19.png)
 

@@ -20,7 +20,7 @@ Dijkstra's algorithm is very similar to[Prim's algorithm for minimum spanning tr
 
 ![image](media/Dijkstra's-Algorithm-image1.png)
 
-![](media/Dijkstra's-Algorithm-image2.png)
+![image](media/Dijkstra's-Algorithm-image2.png)
 
 ![image](media/Dijkstra's-Algorithm-image3.png)
 

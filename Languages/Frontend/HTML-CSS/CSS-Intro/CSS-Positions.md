@@ -32,7 +32,7 @@ Position relative allows you to do two different things
     When set to position relative, elements take up the same amount of space at the same exact position it was supposed to take as if its position was static.
     It can however, appear to be pushed to a different location visually.
 
-![](media/CSS-Intro_CSS-Positions-image1.jpg)
+![image](media/CSS-Intro_CSS-Positions-image1.jpg)
 
 2. Allow a child element to be positioned absolutely with reference to it. (See below)
 

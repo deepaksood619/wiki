@@ -29,7 +29,7 @@ The goal of any predictive modelingmachine learning algorithm is to achieve low 
 
 How would you draw a linear line to cluster the red balls togetherand separate them from the blue balls? You cannot.When working with datasets, you may often come across mismatching data inseparable using the available dimensions. A kernel function introduces a new dimension, which can be used to distinguish the different data points.
 
-![](media/bias-variance-trade-off-image1.png)
+![image](media/bias-variance-trade-off-image1.png)
 
 ## What is the bias-variance tradeoff?
 

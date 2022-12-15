@@ -86,11 +86,11 @@ Horizontal/vertical scaling, auto config tuning, abnormal detection, scheduling 
 
 ## Creating
 
-![](../../media/DevOps-Kubernetes-Operators-image2.png)
+![image](../../media/DevOps-Kubernetes-Operators-image2.png)
 
 ## Controllers
 
-![](../../media/DevOps-Kubernetes-Operators-image3.png)
+![image](../../media/DevOps-Kubernetes-Operators-image3.png)
 
 ## Operator Lifecycle Manager (OLM)
 

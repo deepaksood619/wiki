@@ -10,7 +10,7 @@ Modified: 2020-12-27 22:23:44 +0500
 
 ## PageRank Algorithm in Big Data
 
-![](media/Big-Data_Page-Rank-image1.png)
+![image](media/Big-Data_Page-Rank-image1.png)
 
 ## What is PageRank?
 

@@ -188,6 +188,7 @@ What Argo does differently is how they manage the actual CI/CD. It is specifical
 [**https://docs.gitlab.com/ee/ci/variables/predefined_variables.html**](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)
 
 ## Example
+
 ```python
 image: docker:latest
 

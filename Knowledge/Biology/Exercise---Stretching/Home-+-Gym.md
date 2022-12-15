@@ -65,7 +65,7 @@ c.  Dumbell pull overs
 
 d.  Triceps Extension
 
-![](media/Exercise---Stretching_Home-+-Gym-image3.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image3.jpg)
 
 e.  Standing Triceps over head dumbbell
 
@@ -77,11 +77,11 @@ f.  Pushups
 
     b.  Hammer
 
-![](media/Exercise---Stretching_Home-+-Gym-image4.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image4.jpg)
 
 c.  Reverse Fly
 
-![](media/Exercise---Stretching_Home-+-Gym-image5.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image5.jpg)
 
 d.  Dumbbell Row
 
@@ -89,7 +89,7 @@ d.  Dumbbell Row
 
 e.  Bicep curl
 
-![](media/Exercise---Stretching_Home-+-Gym-image7.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image7.jpg)
 
 3. Wednesday (Focus Shoulders & Legs & Abs)
 
@@ -97,27 +97,27 @@ e.  Bicep curl
 
     b.  Overhead press
 
-![](media/Exercise---Stretching_Home-+-Gym-image8.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image8.jpg)
 
 c.  Squat
 
-![](media/Exercise---Stretching_Home-+-Gym-image9.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image9.jpg)
 
 d.  Lunge
 
-![](media/Exercise---Stretching_Home-+-Gym-image10.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image10.jpg)
 
 e.  Shrug
 
-![](media/Exercise---Stretching_Home-+-Gym-image11.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image11.jpg)
 
 f.  Front raise
 
-![](media/Exercise---Stretching_Home-+-Gym-image12.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image12.jpg)
 
 g.  Lateral raise
 
-![](media/Exercise---Stretching_Home-+-Gym-image13.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image13.jpg)
 
 h.  Abs
 
@@ -143,7 +143,7 @@ h.  Abs
 
     b.  Dumbbell Crunch
 
-![](media/Exercise---Stretching_Home-+-Gym-image14.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image14.jpg)
 
 c.  Plank
 
@@ -161,25 +161,25 @@ c.  Plank
 
 ## 2B[Triceps kick-back](https://www.coachmag.co.uk/tricep-exercises/6913/how-to-do-the-triceps-kick-back)
 
-![](media/Exercise---Stretching_Home-+-Gym-image16.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image16.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
 ## 3A[Spider curl](https://www.coachmag.co.uk/biceps-exercises/8357/how-to-do-the-spider-curl)
 
-![](media/Exercise---Stretching_Home-+-Gym-image17.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image17.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
 ## 3B Narrow dumbbell press-up
 
-![](media/Exercise---Stretching_Home-+-Gym-image18.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image18.jpg)
 
 Sets4Reps10Rest60secTempo2010
 
 Renegade Row
 
-![](media/Exercise---Stretching_Home-+-Gym-image19.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image19.jpg)
 
 Week 2
 
@@ -218,7 +218,7 @@ Week 4
 
 ## 1B[Woodchop](https://www.coachmag.co.uk/exercises/full-body-workouts/212/woodchop)
 
-![](media/Exercise---Stretching_Home-+-Gym-image20.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image20.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
@@ -230,7 +230,7 @@ Sets4Reps10 each sideRest60secTempo2010
 
 ## 3A[Goblet squat](https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat)
 
-![](media/Exercise---Stretching_Home-+-Gym-image22.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image22.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
@@ -238,12 +238,12 @@ Sets4Reps10Rest0secTempo2010
 
 ## 2A[Arnold press](https://www.coachmag.co.uk/exercises/arm-exercises/2987/6-standing-dumb-bell-curl-arnold-press)
 
-![](media/Exercise---Stretching_Home-+-Gym-image23.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image23.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
 ## 2B[Upright row](https://www.coachmag.co.uk/back-exercises/6699/how-to-do-the-upright-row)
 
-![](media/Exercise---Stretching_Home-+-Gym-image24.jpg)
+![image](media/Exercise---Stretching_Home-+-Gym-image24.jpg)
 
 Sets4Reps10Rest60secTempo2010

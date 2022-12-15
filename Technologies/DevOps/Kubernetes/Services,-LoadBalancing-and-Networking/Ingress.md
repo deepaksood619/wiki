@@ -70,7 +70,7 @@ This makes it decoupled and isolated from the services you want to expose. It al
 - Gloo
 - Skipper
 
-![](../../../media/DevOps-Kubernetes-Ingress-image2.png)
+![image](../../../media/DevOps-Kubernetes-Ingress-image2.png)
 
 <https://medium.com/flant-com/comparing-ingress-controllers-for-kubernetes-9b397483b46b>
 

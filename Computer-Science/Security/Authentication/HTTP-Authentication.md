@@ -22,7 +22,7 @@ The most common authentication scheme is the "Basic" authentication scheme which
 
 Basic and Digest authentication use a four step process to authenticate users.
 
-![](media/Authentication_HTTP-Authentication-image1.jpg)
+![image](media/Authentication_HTTP-Authentication-image1.jpg)
 
 First HTTP client makes a request to the web server. Request method doesn't has to be GET it can be any method. If web server sees that the requested resource need authentication to access then it sends backs 401 Unauthorized status code along with WWW-Authenticate header. And then client displays a dialog box to take username and password as input. Once the credentials has been enter the client sends it using the Authorization header. If the credentials are correct then server responds with 200 status code and Authentication-Info header.
 

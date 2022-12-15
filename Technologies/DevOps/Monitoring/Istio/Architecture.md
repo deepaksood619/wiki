@@ -17,7 +17,7 @@ An Istio service mesh is logically split into adata planeand acontrol plane.
 
 The following diagram shows the different components that make up each plane:
 
-![](../../../media/DevOps-Monitoring-Architecture-image1.png)
+![image](../../../media/DevOps-Monitoring-Architecture-image1.png)
 
 Traffic in Istio is categorized as data plane traffic and control plane traffic. Data plane traffic refers to the messages that the business logic of the workloads send and receive. Control plane traffic refers to configuration and control messages sent between Istio components to program the behavior of the mesh. Traffic management in Istio refers exclusively to data plane traffic.
 
@@ -95,4 +95,4 @@ Istio is platform-independent and designed to run in a variety of environments, 
 
 9. And finally, theapplication Serviceroutes the request to anapplication Pod(managed by a deployment).
 
-![](../../../media/DevOps-Monitoring-Architecture-image2.png)
+![image](../../../media/DevOps-Monitoring-Architecture-image2.png)

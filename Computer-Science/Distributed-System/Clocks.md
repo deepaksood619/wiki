@@ -38,7 +38,7 @@ In logical clock systems each process has two data structures:*logical local tim
 Lamport suggests using something different from the typical physical clock that we all think of. Instead of using each process's physical clock to track the order of events, we can instead use acounter. The counter can start with an initial time (like 0), and we can treat that counter as the processes own local clock.
 Lamport continues with this idea by proposing that, not only will every process within a distributed system have its own counter clock, but eacheventthat is recorded on a process should also have avalueon that process's local clock. Furthermore, the value of each of these events on the clock must mirror any happened before relationships. For example, if eventa→ b, then the clock time for when eventaoccurred must be less than the clock time for whenever eventboccurred; in other words,clock(a) < clock(b).
 By using basic counters instead of physical clocks, Lamport simplifies clocks into something a little easier to deal with. These counter clocks are called logical clocks. Alogical clockis quite different from a physical clock in that there is no central notion of time, and the clock is just a counter that increments based on events in the system.
-![](media/Clocks-image1.jpeg)
+![image](media/Clocks-image1.jpeg)
 <https://en.wikipedia.org/wiki/Logical_clock>
 
 <https://medium.com/baseds/ticking-clocks-in-a-distributed-system-ef2aa4df07a3>

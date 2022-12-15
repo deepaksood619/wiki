@@ -184,6 +184,7 @@ You can first write a CSS module (e.g.alert.module.css) like this:
 ```
 
 And useclassnameslike this:
+
 ```js
 import styles from './alert.module.css'
 import cn from 'classnames'

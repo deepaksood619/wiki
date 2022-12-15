@@ -33,6 +33,7 @@ For each piece of state in your application:
 When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object "props".
 
 ## Example
+
 ```js
 function Welcome(**props**) {
     return <h1>Hello, {props.name}</h1>;
@@ -52,7 +53,7 @@ Every class based component has a function called constructor, and is called aut
 ```js
 constructor (props) {
     super(props);
-    
+
     // we want to update state to term i.e. whatever user search
     this.state = { term : ''};
 }

@@ -14,6 +14,7 @@ Modified: 2020-02-04 22:57:11 +0500
 4. ansible-playbook pull_add_restart.yml -i inventory/iiitd -e "host=IIITD" --limit @pull_add_restart.retry
 
 1. **Add hosts to files**
+
 ```bash
 a. sudo cat /etc/openvpn/openvpn-status.log| grep IIITD
 b. sudo vim /etc/ansible/hosts
@@ -24,17 +25,20 @@ d. '{0} controller={0} ansible_host={1} ansible_port=1234 ansible_ssh_pass='pass
 2. Create a playbook (yml file)
 
 ## Create Inventory File
+
     Location - /home/ubuntu/ansible_playbooks/find_client_ips
     Command - python find_vpn_static_ip.py -c IIITD
 
 ## Commands
+
 ### run commands directly
+
 ```bash
 #run any command and get results to multiple controllers, deploy to all controllers inside the IIITD group
 ansible iiitd -m shell -a "pip freeze | grep kafka"
 
 #restart command to only IIITD-06
-ansible IIITD-06 -m shell -a "sudo /home/pi/log_files/twistd_reset.sh -r" 
+ansible IIITD-06 -m shell -a "sudo /home/pi/log_files/twistd_reset.sh -r"
 
 ansible iiitd -m shell -a "uname -a"
 ansible kafka -m shell -a "uname -a"
@@ -46,6 +50,7 @@ ansible Trent -i inventory/Trent -m shell -a "sudo cat /home/pi/conf/electric_me
 ```
 
 ### run ansible playbooks
+
 ```bash
 ansible-playbook add_ini.yml
 
@@ -63,11 +68,13 @@ ansible-playbook pull.yml --check -e "host=iiitd"
 ```
 
 ### retry offline devices
+
 ```bash
 ansible-playbook <ansible_playbook>.yml --limit @<ansible_playbook>.retry
 ```
 
 ### Major Commands
+
 ```bash
 ansible-playbook timesync_dns.yml -i inventory/motherdairy --extra-vars "variable_host=MotherDairy_2" >> logs/motherdairy_timesync_dns.log &
 
@@ -75,6 +82,7 @@ ansible-playbook timesync_dns.yml -i inventory/dominos --extra-vars "variable_ho
 ```
 
 ## Command
+
 ```bash
 /home/ubuntu/ssh - all clients to ssh
 
@@ -86,6 +94,7 @@ ansible-playbook timesync_dns.yml -i inventory/dominos --extra-vars "variable_ho
 ```
 
 ## Example yml files
+
 ```yml
 install.yml
     -
@@ -100,7 +109,7 @@ install.yml
                 name: 'install kafka-python'
                 become: yes
                 pip: {name: kafka-python}
-    
+
 add_ini.yml
     -
         hosts: iiitd

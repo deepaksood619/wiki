@@ -43,7 +43,7 @@ In[computer science](https://en.wikipedia.org/wiki/Computer_science),**state mac
 
 ## Highy Available and Fault Tolerant**
 
-![](media/Vocabulary-image1.jpg)
+![image](media/Vocabulary-image1.jpg)
 
 <https://medium.com/baseds/ready-and-available-distributed-systems-161023aca378>
 
@@ -51,9 +51,9 @@ In[computer science](https://en.wikipedia.org/wiki/Computer_science),**state mac
 
 Afaultis really just anything in our system that is different from what we expect it to be. Whenever some piece of our system deviates from its expected behavior, or whenever something unexpectedly occurs in our system, that behavior itself is a fault!
 
-![](media/Vocabulary-image2.jpg)
+![image](media/Vocabulary-image2.jpg)
 
-![](media/Vocabulary-image3.jpg)
+![image](media/Vocabulary-image3.jpg)
 A fault, which can originate in any part of a system, can cause unexpected behavior, which results in an unexpected result, or an error. If that error isn't handled in some way or hidden from the rest of the system, the originating node --- where the fault first presented itself --- will return that error, which is what we also call afailure. When we talk about different kinds of failures in a system, which could come from different kinds of faults, we can categorize them in different ways.
 The different classifications for the kinds of failures we see in a distributed system are also known as failure modes.Failure modesare how we can identify the exact way that a system has failed. Interestingly, failure modes are classified somewhat holistically; that is to say, when we try to identify what kind of failure we're dealing with, we take the whole system into account.
 
@@ -83,7 +83,7 @@ The different classifications for the kinds of failures we see in a distributed 
 ## Error
 
 Errorsare manifestations of faults within our system, and when an error occurs and then spreadsor propagates through the system
-![](media/Vocabulary-image4.jpeg)
+![image](media/Vocabulary-image4.jpeg)
 <https://medium.com/baseds/fantastic-faults-and-what-to-call-them-56d91a1b198c>
 
 <https://medium.com/baseds/modes-of-failure-part-1-6687504bfed6>

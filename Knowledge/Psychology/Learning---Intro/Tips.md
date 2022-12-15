@@ -141,7 +141,7 @@ Exhale rapidly
 
 - 5.5 seconds in and 5.5 seconds out
 
-![](media/Learning---Intro_Tips-image2.jpg)
+![image](media/Learning---Intro_Tips-image2.jpg)
 
 ## Motivation
 

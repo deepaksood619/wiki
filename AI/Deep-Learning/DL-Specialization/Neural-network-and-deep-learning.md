@@ -222,4 +222,4 @@ Normalizationavoids these problems by creating new values that maintain the gene
 
 - L2 loss is defined as:
 
-![](media/DL-Specialization_Neural-network-and-deep-learning-image30.png)
+![image](media/DL-Specialization_Neural-network-and-deep-learning-image30.png)

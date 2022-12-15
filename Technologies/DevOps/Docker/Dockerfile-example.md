@@ -7,6 +7,7 @@ Modified: 2020-08-07 00:49:37 +0500
 ---
 
 ## Example 1
+
 ```python
 # Use an official Python runtime as a parent image
 # https://pythonspeed.com/articles/base-image-python-docker-images/
@@ -32,6 +33,7 @@ COPY scripts /root/kafkaconsumer
 ```
 
 ## Example 2
+
 ```python
 FROM ubuntu:latest
 
@@ -45,12 +47,12 @@ ENV PYTHONUNBUFFERED 1
 RUN sed -i -e 's/http:\/\/archive/mirror:\/\/mirrors/' -e 's/http:\/\/security/mirror:\/\/mirrors/' -e 's/\/ubuntu\//\/mirrors.txt/' /etc/apt/sources.list && \
     echo "Acquire {http {Timeout \"60\";}; ftp {Timeout \"60\";};};" > /etc/apt/apt.conf.d/custom-apt.conf && \
     apt-get update && apt-get dist-upgrade --yes && \
-	apt-get install -y libpng-dev libjpeg8-dev libfreetype6-dev python-dev python-pip libfreetype6-dev && \
-	apt-get install -y libpq-dev libssl-dev libcurl4-openssl-dev  libxft-dev libev-dev git curl vim p7zip-full && \
+ apt-get install -y libpng-dev libjpeg8-dev libfreetype6-dev python-dev python-pip libfreetype6-dev && \
+ apt-get install -y libpq-dev libssl-dev libcurl4-openssl-dev  libxft-dev libev-dev git curl vim p7zip-full && \
     apt-get install -y swig openssl libffi-dev libssl-dev check automake build-essential zlib1g zlib1g-dev autoconf libtool && \
     apt-get install -y libdb4.8 libdb++-dev libprotobuf-c1 libprotobuf-c-dev protobuf-c-compiler openvpn iputils-ping && \
     pip install --no-cache-dir --upgrade 'pip==10' && \
-	apt-get autoremove -y && apt-get clean -y && \
+ apt-get autoremove -y && apt-get clean -y && \
     rm -rf /var/lib/apt/lists/*
 
 #SMAP Section begin
@@ -80,9 +82,11 @@ EXPOSE 5555 8070 8071 8080 8888 9104
 <https://docs.docker.com/develop/develop-images/dockerfile_best-practices>
 
 ### Python - Multistage builds
+
     <https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3>
 
 ### NODE JS Dockerfile
+
 ```bash
 FROM node:14-alpine AS builder
 WORKDIR '/app'
@@ -97,34 +101,37 @@ COPY --from=builder /app/build /usr/share/nginx/html
 ```
 
 ### ENV PYTHONUNBUFFERED 1
+
 Setting PYTHONUNBUFFERED=TRUE or PYTHONUNBUFFERED=1 (they are equivalent) allows for log messages to be immediately dumped to the stream instead of being buffered. This is useful for receiving timely log messages and avoiding situations where the application crashes without emitting a relevant message due to the message being "stuck" in a buffer.
-	
+
 As for performance, there can be some (minor) loss that comes with using unbuffered I/O. To mitigate this, I would recommend limiting the number of log messages. If it is a significant concern, one can always leave buffered I/O on and manually flush the buffer when necessary.
 
 ### Go Dockerfile
+
 ```python
 FROM golang:1.14-alpine as build
 
 RUN apk add --no-cache git
 
-WORKDIR /src 
+WORKDIR /src
 
 RUN go get github.com/julienschmidt/httprouter
 RUN go get github.com/sirupsen/logrus
 RUN go get github.com/streadway/amqp
 
-COPY publisher.go /src 
+COPY publisher.go /src
 
 RUN go build publisher.go
 
 FROM alpine as runtime
 
 COPY --from=build /src/publisher /app/publisher
-	
+
 CMD [ "/app/publisher" ]
 ```
 
 ### Flask Dockerfile
+
 ```python
 FROM python:3.8-slim-buster
 ENV TZ=Asia/Kolkata

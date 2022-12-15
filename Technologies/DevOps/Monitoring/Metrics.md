@@ -396,7 +396,7 @@ Gauges are typically used for measured values like temperatures or current memor
 
 A counting of observations (like request durations or sizes) in configurable buckets.
 
-![](../../media/DevOps-Monitoring-Metrics-image3.png)
+![image](../../media/DevOps-Monitoring-Metrics-image3.png)
 
 In this example, a histogram metric is used to calculate the 75th and 90th percentiles of an HTTP request duration.
 

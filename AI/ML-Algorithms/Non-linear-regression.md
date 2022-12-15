@@ -10,7 +10,7 @@ Modified: 2021-11-09 21:31:41 +0500
 
 - We can generalize further to models that are nonlinear:
 
-![](media/Non-linear-regression-image1.jpg)
+![image](media/Non-linear-regression-image1.jpg)
 
 where the g's are non-linear functions
 

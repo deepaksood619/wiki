@@ -26,7 +26,7 @@ Modified: 2022-09-09 12:20:13 +0500
 
 The quality or state of being similar; likeness; resemblance; as, a similarity of features
 
-![](media/Clustering-image1.jpg)
+![image](media/Clustering-image1.jpg)
 
 ## Two types of clustering
 
@@ -223,7 +223,7 @@ s = 1 - a/b if a < b, (or s = b/a -1, if a >= b, not the usual case)
 
 - Can calculate the Average Silhouette width for a cluster or a clustering
 
-![](media/Clustering-image16.jpg)
+![image](media/Clustering-image16.jpg)
 
 ## External Measures of Cluster Validity: Entropy and Purity
 

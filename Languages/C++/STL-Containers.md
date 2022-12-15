@@ -34,7 +34,7 @@ Instead, vector containers may allocate some extra storage to accommodate for po
 Therefore, compared to arrays, vectors consume more memory in exchange for the ability to manage storage and grow dynamically in an efficient way.
 
 Compared to the other dynamic sequence containers ([deques](http://www.cplusplus.com/deque),[lists](http://www.cplusplus.com/list)and[forward_lists](http://www.cplusplus.com/forward_list)), vectors are very efficient accessing its elements (just like arrays) and relatively efficient adding or removing elements from its[end](http://www.cplusplus.com/vector::end). For operations that involve inserting or removing elements at positions other than the end, they perform worse than the others, and have less consistent iterators and references than[lists](http://www.cplusplus.com/list)and[forward_lists](http://www.cplusplus.com/forward_list).
-	
+
 Vector constructors
 Vector operators
     assign
@@ -61,6 +61,7 @@ Vector operators
 <http://www.cplusplus.com/reference/vector/vector>
 
 ## C++ Lists
+
 List constructors
 List operators
 Container constructors & destructors
@@ -91,8 +92,8 @@ Container constructors & destructors
     swap
     unique
 
-
 ## C++ Double-ended Queues
+
 Container constructors
 Container operators
 Container [] operator
@@ -119,6 +120,7 @@ Container constructors & destructors
     swap
 
 ## C++ Priority Queues
+
 Priority queue constructors
     empty
     pop
@@ -127,6 +129,7 @@ Priority queue constructors
     top
 
 ## C++ Queues
+
 Queue constructor
     back
     empty
@@ -136,6 +139,7 @@ Queue constructor
     size
 
 ## C++ Stacks
+
 Stack constructors
     empty
     pop
@@ -146,16 +150,17 @@ Stack constructors
 ## C++ Sets
 
 Sets are a part of the C++ STL. Sets are containers that store unique elements following a specific order. Here are some of the frequently used member functions of sets:
+
 ```c++
 Declaration
     set<int>s; //Creates a set of integers
-    
+
 Size
     int length=s.size(); //Gives the size of the set
-    
+
 Insert
     s.insert(x); //Inserts an integer x into the set s
-    
+
 Erasing an element
     s.erase(val); //Erases an integer val from the set s
 
@@ -266,6 +271,7 @@ Maps are a part of the C++ STL.Maps are associative containers that store elemen
     `m.erase(val); //Erases the pair from the map where the key_type is val.`
 
 - Finding an element:
+
     ```c++
     map<string,int>::iterator itr=m.find(val); //Gives the iterator to the element val if it is found otherwise returns m.end()
     Ex: map<string,int>::iterator itr=m.find("Maps"); //If Maps is not present as the key value then itr==m.end().
@@ -275,6 +281,7 @@ Maps are a part of the C++ STL.Maps are associative containers that store elemen
     To get the value stored of the key "MAPS" we can do m["MAPS"] or we can get the iterator using the find function and then by itr->second we can access the value.
 
 - Updating an element
+
 ```c++
 map<string,int>::iterator find_itr = students.find(name);
 if (find_itr == students.end()) {

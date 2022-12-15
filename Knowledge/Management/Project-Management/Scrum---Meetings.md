@@ -206,7 +206,7 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 
 ![2 , 4 一 W ](media/Project-Management_Scrum---Meetings-image4.jpg)
 
-![](media/Project-Management_Scrum---Meetings-image5.jpg)
+![image](media/Project-Management_Scrum---Meetings-image5.jpg)
 
 ## Questions
 

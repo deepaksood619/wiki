@@ -13,6 +13,7 @@ Modified: 2021-06-03 14:00:11 +0500
 [Modern Android Development (MAD) Skills](https://www.youtube.com/playlist?list=PLWz5rJ2EKKc91i2QT8qfrfKgLNlJiG1z7)
 
 ## Repository Pattern
+
 <https://medium.com/swlh/repository-pattern-in-android-c31d0268118c>
 <https://developer.android.com/jetpack/guide#recommended-app-arch>
 
@@ -24,4 +25,5 @@ A suspending function asynchronously returns a single value, but how can we retu
 <https://kotlinlang.org/docs/flow.html>
 
 ## Kotlin vs Java
+
 [Kotlin vs. Java: All-purpose Uses and Android Apps | Toptal](https://www.toptal.com/kotlin/kotlin-vs-java)

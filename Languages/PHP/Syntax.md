@@ -42,13 +42,12 @@ Modified: 2020-12-23 12:16:34 +0500
 
 All PHP code must be included inside one of the three special markup tags ATE are recognised by the PHP Parser.
 
+```php
 <?php PHP code goes here ?> #Canonical PHP tags
-
-<? PHP code goes here ?> #short-open (SGML-style) tags
-
+<?    PHP code goes here ?> #short-open (SGML-style) tags
 <script language = "php"> PHP code goes here </script> #HTML script tags
-
 <%...%> #ASP-style tags
+```
 
 - PHP is whitespace insensitive
 - PHP is case sensitive
@@ -121,13 +120,13 @@ Singly quoted strings are treated almost literally, whereas doubly quoted string
 
 To concatenate two string variables together, use the dot (.) operator −
 
-echo $string1 . " " . $string2;
+`echo $string1 . " " . $string2;`
 
 The strlen() function is used to find the length of a string.
 
 The strpos() function is used to search for a string or character within a string.
 
-echo strpos("Hello world!","world");
+`echo strpos("Hello world!","world");`
 
 >>> 6
 
@@ -143,7 +142,7 @@ There are three different kind of arrays and each array value is accessed using 
 
 An array with a numeric index. Values are stored and accessed in linear fashion.
 
-$numbers = array( 1, 2, 3, 4, 5);
+`$numbers = array( 1, 2, 3, 4, 5);`
 
 - **Associative array**
 
@@ -275,14 +274,16 @@ The PHPcontinuekeyword is used to halt the current iteration of a loop but it do
 
 ## Pass by value
 
+```php
 <?php
-## function addFunction($num1, $num2) {
-$sum = $num1 + $num2;
-echo "Sum of the two numbers is : $sum";
-}
+    function addFunction($num1, $num2) {
+    $sum = $num1 + $num2;
+    echo "Sum of the two numbers is : $sum";
+    }
 
-addFunction(10, 20);
+    addFunction(10, 20);
 ?>
+```
 
 ## Pass by Reference
 
@@ -290,23 +291,25 @@ It is possible to pass arguments to functions by reference. This means that a re
 
 Any changes made to an argument in these cases will change the value of the original variable. You can pass an argument by reference by adding an ampersand to the variable name in either the function call or the function definition.
 
+```php
 <?php
-## function addFive($num) {
-$num += 5;
-}
+    function addFive($num) {
+    $num += 5;
+    }
 
-## function**addSix(**&$num) {
-$num += 6;
-}
+    function addSix(&$num) {
+    $num += 6;
+    }
 
-$orignum = 10;
-addFive( $orignum );
+    $orignum = 10;
+    addFive( $orignum );
 
-echo "Original Value is $orignum<br ";
+    echo "Original Value is $orignum<br />";
 
-addSix( $orignum );
-echo "Original Value is $orignum<br ";
+    addSix( $orignum );
+    echo "Original Value is $orignum<br />";
 ?>
+```
 
 ## Return value
 
@@ -316,25 +319,29 @@ You can return more than one value from a function usingreturn array(1,2,3,4).
 
 ## Default values for function parameters
 
+```php
 <?php
-## function printMe($param = NULL) {
-print $param;
-}
+    function printMe($param = NULL) {
+    print $param;
+    }
 
-printMe("This is test");
-printMe();
+    printMe("This is test");
+    printMe();
 ?>
+```
 
 ## Dynamic function calls
 
+```php
 <?php
-## function sayHello() {
-echo "Hello<br ";
-}
+    function sayHello() {
+    echo "Hello<br />";
+    }
 
-$function_holder = "sayHello";
-$function_holder();
+    $function_holder = "sayHello";
+    $function_holder();
 ?>
+```
 
 <https://www.tutorialspoint.com/php/php_functions.htm>
 

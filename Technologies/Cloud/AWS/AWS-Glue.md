@@ -14,7 +14,7 @@ AWS Glue is designed to work with **semi-structured data**. It introduces a comp
 
 You can use the AWS Glue console to discover data, transform it, and make it available for search and querying. The console calls the underlying services to orchestrate the work required to transform your data. You can also use the AWS Glue API operations to interface with AWS Glue services. Edit, debug, and test your Python or Scala Apache Spark ETL code using a familiar development environment.
 
-![](../../media/Cloud-AWS-AWS-Glue-image1.png)
+![image](../../media/Cloud-AWS-AWS-Glue-image1.png)
 
 <https://aws.amazon.com/glue>
 

@@ -119,9 +119,9 @@ The usual way to mitigate this is to have the interrupt controller set a special
 
 ## Courses
 
-![](media/Embedded-Systems---Electronics-image1.jpeg)
+![image](media/Embedded-Systems---Electronics-image1.jpeg)
 
-![](media/Embedded-Systems---Electronics-image2.jpeg)
+![image](media/Embedded-Systems---Electronics-image2.jpeg)
 
 ## Others
 

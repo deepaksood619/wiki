@@ -25,7 +25,7 @@ Modified: 2022-11-09 15:40:28 +0500
 
 ![image](media/boto-&-boto3_Slides-image4.png)
 
-![](media/boto-&-boto3_Slides-image5.png)
+![image](media/boto-&-boto3_Slides-image5.png)
 
 ![image](media/boto-&-boto3_Slides-image6.png)
 

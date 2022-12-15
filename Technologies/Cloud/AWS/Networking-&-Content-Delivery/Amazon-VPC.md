@@ -36,7 +36,7 @@ The following are the key concepts for VPCs:
 
 <https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html>
 
-![](../../../media/Cloud-AWS-Amazon-VPC-image1.png)
+![image](../../../media/Cloud-AWS-Amazon-VPC-image1.png)
 
 ## Internet Gateways (IGW)
 

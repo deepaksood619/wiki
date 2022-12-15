@@ -90,7 +90,7 @@ Two main components needed for the gRPC client-side load balancing to work
 - [name resolver](https://github.com/grpc/grpc/blob/master/doc/naming.md)
 - [load balancing policy](https://github.com/grpc/grpc/blob/master/doc/load-balancing.md).
 
-![](media/gRPC-image3.png)
+![image](media/gRPC-image3.png)
 <https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples>-   **Automatic retries, hedging* (Retry hedging)**
 
 ![image](media/gRPC-image4.png)

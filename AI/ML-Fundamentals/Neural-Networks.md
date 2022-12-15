@@ -12,7 +12,7 @@ A neural network is a mathematical function that can learn the expected output f
 
 The following figure illustrates a neural network that has been trained to output "cat" from a cat image.
 
-![](media/Neural-Networks-image1.png)
+![image](media/Neural-Networks-image1.png)
 
 You can see that a neural network model consists of multiple layers of calculation units, in which each layer has configurable parameters. The goal of training the model is to optimize the parameters to get results with the highest accuracy. The training algorithm makes adjustments as it processes batches of training datasets through the model. If you distribute the training process to multiple computational nodes, you need a way to keep track of the changing parameters to be shared by all nodes.
 

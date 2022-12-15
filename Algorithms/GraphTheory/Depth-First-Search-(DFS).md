@@ -24,7 +24,7 @@ When we go deep to the leaf and backtrack, this is called DFS algorithm.
 
 ## Pre-order
 
-![](media/Depth-First-Search-(DFS)-image1.jpg)
+![image](media/Depth-First-Search-(DFS)-image1.jpg)
 
 The result for this algorithm will be 1--2--3--4--5--6--7.
 
@@ -37,17 +37,17 @@ The result for this algorithm will be 1--2--3--4--5--6--7.
 ```python
 def pre_order(self):
     print(self.value)
-    
+
     if self.left_child:
         self.left_child.pre_order()
-    
+
     if self.right_child:
         self.right_child.pre_order()
 ```
 
 ## In-order
 
-![](media/Depth-First-Search-(DFS)-image2.jpg)
+![image](media/Depth-First-Search-(DFS)-image2.jpg)
 
 The result of the in-order algorithm for this tree example is 3--2--4--1--6--5--7.
 
@@ -57,9 +57,9 @@ The left first, the middle second, and the right last.
 def in_order(self):
     if self.left_child:
         self.left_child.in_order()
-    
+
     print(self.value)
-    
+
     if self.right_child:
         self.right_child.in_order()
 ```
@@ -72,7 +72,7 @@ def in_order(self):
 
 ## Post-order
 
-![](media/Depth-First-Search-(DFS)-image3.jpg)
+![image](media/Depth-First-Search-(DFS)-image3.jpg)
 
 The result of the post order algorithm for this tree example is 3--4--2--6--7--5--1.
 
@@ -82,10 +82,10 @@ The left first, the right second, and the middle last.
 def post_order(self):
     if self.left_child:
         self.left_child.post_order()
-    
+
     if self.right_child:
         self.right_child.post_order()
-    
+
     print(self.value)
 ```
 
@@ -105,6 +105,7 @@ DFS(to visit a vertex v)
 ![image](media/Depth-First-Search-(DFS)-image4.png)
 
 ## Non-Recursive
+
 ```java
 public void dfs(Graph G, int v) {
     Stack<Integer> stack = new Stack<Integer>();

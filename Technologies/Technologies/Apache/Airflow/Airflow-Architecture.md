@@ -28,7 +28,7 @@ Airflow's General Architecture.Airflow's operation is built atop a Metadata Data
 
 ## Basic Airflow Architecture
 
-![](../../../media/Technologies-Apache-Airflow-Architecture-image2.png)
+![image](../../../media/Technologies-Apache-Airflow-Architecture-image2.png)
 
 There are a few components to note:
 

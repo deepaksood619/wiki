@@ -60,7 +60,7 @@ Centrifugal governors were invented by[Christiaan Huygens](https://en.wikipedia.
 
 A simple governor does not maintain an exact speed but a speed range, since under increasing load the governor opens the throttle as the speed (RPM) decreases.
 
-![](media/Control-Engineering-image1.png)
+![image](media/Control-Engineering-image1.png)
 
 <https://en.wikipedia.org/wiki/Centrifugal_governor>
 

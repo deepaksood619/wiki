@@ -111,7 +111,7 @@ Parse text files
 
 ![image](media/Regular-Expressions-image34.png)
 
-![](media/Regular-Expressions-image35.png)
+![image](media/Regular-Expressions-image35.png)
 
 ![image](media/Regular-Expressions-image36.png)
 

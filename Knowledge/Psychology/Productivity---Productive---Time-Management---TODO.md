@@ -661,7 +661,7 @@ What you want in life is to be in control of your time. You want to get into a l
 
 ## Eisenhower Matrix
 
-![](media/Productivity---Productive---Time-Management---TODO-image3.png)
+![image](media/Productivity---Productive---Time-Management---TODO-image3.png)
 
 1. Urgent & Important
 

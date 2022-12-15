@@ -54,7 +54,7 @@ Technically, digest authentication is an application of[MD5](https://www.wikiwan
 
 The client posts the login credential to the server, server verifies the credential and creates session id which is stored in server(state-full) and returned to client via set-cookie. On subsequent request the session id from the cookie is verified in the server and the request get processed. Upon logout session id will be cleared from both client cookie and server.
 
-![](media/Authentication-image1.png)
+![image](media/Authentication-image1.png)
 
 ## Flow
 

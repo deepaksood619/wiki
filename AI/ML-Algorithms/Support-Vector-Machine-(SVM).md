@@ -68,7 +68,7 @@ The classifier will try to maximize the distance between the line it draws and t
 
 ![image](media/Support-Vector-Machine-(SVM)-image20.png)
 
-![](media/Support-Vector-Machine-(SVM)-image21.png)
+![image](media/Support-Vector-Machine-(SVM)-image21.png)
 
 ![image](media/Support-Vector-Machine-(SVM)-image22.png)
 
@@ -130,7 +130,7 @@ The classifier will try to maximize the distance between the line it draws and t
 
 ![image](media/Support-Vector-Machine-(SVM)-image51.png)
 
-![](media/Support-Vector-Machine-(SVM)-image52.png)
+![image](media/Support-Vector-Machine-(SVM)-image52.png)
 
 ![image](media/Support-Vector-Machine-(SVM)-image53.png)
 

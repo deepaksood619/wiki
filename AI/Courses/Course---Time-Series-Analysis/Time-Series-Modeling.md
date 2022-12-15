@@ -344,7 +344,7 @@ Lower letters - Non seasonal components
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image18.jpg)
 
-![](media/Course---Time-Series-Analysis_Time-Series-Modeling-image19.jpg)
+![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image19.jpg)
 
 ![image](media/Course---Time-Series-Analysis_Time-Series-Modeling-image20.jpg)
 

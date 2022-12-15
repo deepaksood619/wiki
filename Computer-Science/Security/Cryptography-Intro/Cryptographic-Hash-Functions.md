@@ -20,7 +20,7 @@ Cryptographic hash functions have many[information-security](https://en.wikipedi
 
 ## Merkle--Damgård construction
 
-![](media/Cryptography-Intro_Cryptographic-Hash-Functions-image1.png)
+![image](media/Cryptography-Intro_Cryptographic-Hash-Functions-image1.png)
 A hash function must be able to process an arbitrary-length message into a fixed-length output. This can be achieved by breaking the input up into a series of equal-sized blocks, and operating on them in sequence using a[one-way compression function](https://en.wikipedia.org/wiki/One-way_compression_function). The compression function can either be specially designed for hashing or be built from a block cipher. A hash function built with the Merkle--Damgård construction is as resistant to collisions as is its compression function; any collision for the full hash function can be traced back to a collision in the compression function.
 The last block processed should also be unambiguously[length padded](https://en.wikipedia.org/wiki/Padding_(cryptography)); this is crucial to the security of this construction. This construction is called the[Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction). Most common classical hash functions, including[SHA-1](https://en.wikipedia.org/wiki/SHA-1)and[MD5](https://en.wikipedia.org/wiki/MD5), take this form.
 

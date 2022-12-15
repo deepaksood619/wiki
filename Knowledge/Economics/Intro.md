@@ -14,7 +14,7 @@ Crash Course - [Economics](https://www.youtube.com/playlist?list=PL8dPuuaLjXtPNZ
 
 ![image](media/Intro-image1.png)
 
-![](media/Intro-image2.png)
+![image](media/Intro-image2.png)
 
 1. Transactions
 

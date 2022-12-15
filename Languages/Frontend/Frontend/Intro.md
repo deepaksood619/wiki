@@ -76,7 +76,7 @@ When cookies were first developed, they were used to better the developer's expe
 | There is no transfer of data to the server                                | There is no transfer of data to the server                                                                                                                    | Data transfer to the server is exist                                |
 | There are fewer old browsers that support it                              | There are fewer old browsers that support it                                                                                                                  | It is supported by all the browser including older browser          |
 
-![](media/Intro-image1.jpg)
+![image](media/Intro-image1.jpg)
 
 <https://www.geeksforgeeks.org/difference-between-local-storage-session-storage-and-cookies>
 

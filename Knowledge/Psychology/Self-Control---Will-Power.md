@@ -50,7 +50,7 @@ Surround yourself with believers. Go to leadership conferences, engage with peop
 
 ## Deck of Disruptors
 
-![](media/Self-Control---Will-Power-image2.jpg)
+![image](media/Self-Control---Will-Power-image2.jpg)
 
 <https://www.thefivecoatconsultinggroup.com/the-coronavirus-crisis/transition>
 

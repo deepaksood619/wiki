@@ -40,7 +40,7 @@ In continuous systems such as electromagnetic fields, fluids and deformable bodi
 
 # Standard model of particle physics
 
-![](media/Intro-image1.png)
+![image](media/Intro-image1.png)
 
 Proton - 2 up quarks and 1 down quark
 

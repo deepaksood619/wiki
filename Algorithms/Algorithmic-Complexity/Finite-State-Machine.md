@@ -18,6 +18,6 @@ The behavior of state machines can be observed in many devices in modern society
 
 The finite state machine has less computational power than some other models of computation such as the[Turing machine](https://en.wikipedia.org/wiki/Turing_machine).The computational power distinction means there are computational tasks that a Turing machine can do but a FSM cannot. This is because a FSM's[memory](https://en.wikipedia.org/wiki/Computer_memory)is limited by the number of states it has. FSMs are studied in the more general field of[automata theory](https://en.wikipedia.org/wiki/Automata_theory).
 
-![](media/Finite-State-Machine-image1.png)
+![image](media/Finite-State-Machine-image1.png)
 
 <https://en.wikipedia.org/wiki/Finite-state_machine>

@@ -38,11 +38,11 @@ var _temporalUndefined = {}
 var App = _temporalUndefined;
 
 App = function App() {
-	return React.createElement(
-		"div",
-		null,
-		"Hi!"
-		);
+ return React.createElement(
+  "div",
+  null,
+  "Hi!"
+  );
 };
 ```
 

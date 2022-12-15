@@ -23,7 +23,7 @@ getLong(tinyUrl) -> longUrl
 
 ## Application layer
 
-![](media/System-Design---TinyURL-image1.png)
+![image](media/System-Design---TinyURL-image1.png)
 
 ## Load Balancer
 

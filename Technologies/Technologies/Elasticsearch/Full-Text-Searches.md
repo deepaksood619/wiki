@@ -118,7 +118,7 @@ iii. all results --- all of the results of a specific entity
 
 ![Document Retrieval: Transformers are an alternative to keyword based methods qve.S+ion kfinA oe 409 breeds are *here? Ret-riever Relevant User makes a query System returns relevant documents Sparse: Keyword based approaches (TF-IDF, BM25) String similarity: Bag-of-words Fast, lightweight, efficient (Word embeddings) Dense: Transformer based approaches (DPR, Sentence Transformers) Semantic similarity: Synonyms, context aware ... Representing documents as vectors ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image3.jpeg)
 
-![](../../media/Technologies-Elasticsearch-Full-Text-Searches-image4.jpeg)
+![image](../../media/Technologies-Elasticsearch-Full-Text-Searches-image4.jpeg)
 
 <https://github.com/deepset-ai/haystack>
 

@@ -17,6 +17,7 @@ In both cases, when you install a package, its dependencies and devDependencies 
 When a dependency is listed in a package as a peerDependency,it is not automatically installed. Instead, the code that includes the package must include it as its dependency.
 
 ## Commands
+
 ```python
 npx create-react-app my-app
 npx create-react-app react-shopping-cart --template typescript
@@ -34,7 +35,7 @@ npm start - http://localhost:3000
     Bundles the app into static files for production.
     npm install -g serve
         serve -s build
-    
+
     https://reactjs.org/docs/optimizing-performance.html
 
     npm test
@@ -47,7 +48,7 @@ npm start - http://localhost:3000
     yarn install --prod
     yarn install --production --frozen-lockfile
     yarn cache clean
-    
+
     yarn start
     Starts the development server.
 
@@ -66,23 +67,24 @@ yarn add -D babel-eslint eslint eslint-config-airbnb eslint-config-prettier esli
 npm install --global prettier
 prettier --write .
 
-npm install -g depcheck 
+npm install -g depcheck
 depcheck
 
 yarn upgrade-interactive --latest
 
-npx unimported 
+npx unimported
 npx eslint . --fix
 
 https://create-react-app.dev/docs/analyzing-the-bundle-size/
     Source map explorer analyzes JavaScript bundles using the source maps. This helps you understand where code bloat is coming from.
-    
+
     yarn add source-map-explorer
     yarn build
     yarn analyze
 ```
 
 ## Code Snippets
+
 ```js
 const Example = (props) => {
     // You can use Hooks here!
@@ -96,6 +98,7 @@ function Example(props) {
 ```
 
 ## Toggle
+
 ```js
 class Toggle extends React.Component {
     constructor(props) {
@@ -122,7 +125,9 @@ ReactDOM.render(
     document.getElementById('root')
 );
 ```
+
 ## Digital Clock
+
 ```js
 class Clock extends React.Component {
     constructor(props) {
@@ -168,6 +173,7 @@ ReactDOM.render(
 ```
 
 ## Login / Logout
+
 ```js
 function UserGreeting(props) {
     return <h1>Welcome back!</h1>
@@ -233,6 +239,7 @@ ReactDOM.render(
 ```
 
 ## blog
+
 ```js
 function Blog(props) {
     const sidebar = (
@@ -269,6 +276,7 @@ ReactDOM.render(
 ```
 
 ## name form
+
 ```js
 class NameForm extends React.Component {
     constructor(props) {
@@ -303,6 +311,7 @@ ReactDOM.render(
 ```
 
 ## temperature change fahrenheit to celsius
+
 ```js
 const scaleNames = {
     c: "Celsius",
@@ -396,6 +405,7 @@ ReactDOM.render(<Calculator />, document.getElementById("root"));
 ```
 
 ## Filterable list
+
 ```js
 class ProductCategoryRow extends React.Component {
     render() {
@@ -472,15 +482,15 @@ class SearchBar extends React.Component {
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
     this.handleInStockChange = this.handleInStockChange.bind(this);
     }
-    
+
     handleFilterTextChange(e) {
     this.props.onFilterTextChange(e.target.value);
     }
-    
+
     handleInStockChange(e) {
     this.props.onInStockChange(e.target.checked);
     }
-    
+
     render() {
     return (
         <form>
@@ -510,7 +520,7 @@ class FilterableProductTable extends React.Component {
         filterText: '',
         inStockOnly: false
     };
-    
+
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
     this.handleInStockChange = this.handleInStockChange.bind(this);
     }
@@ -519,7 +529,7 @@ class FilterableProductTable extends React.Component {
         filterText: filterText
     });
     }
-    
+
     handleInStockChange(inStockOnly) {
     this.setState({
         inStockOnly: inStockOnly
@@ -557,5 +567,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 ```
+
 ## todo app
+
 [Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)

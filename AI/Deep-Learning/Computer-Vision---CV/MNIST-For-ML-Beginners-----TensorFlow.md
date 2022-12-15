@@ -10,7 +10,7 @@ When one learns how to program, there's a tradition that the first thing you do 
 
 MNIST is a simple computer vision dataset. It consists of images of handwritten digits like these:
 
-![](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image1.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image1.png)
 
 It also includes labels for each image, telling us which digit it is. For example, the labels for the above images are 5, 0, 4, and 1.
 
@@ -70,7 +70,7 @@ To tally up the evidence that a given image is in a particular class, we do a we
 
 The following diagram shows the weights one model learned for each of these classes. Red represents negative weights, while blue represents positive weights.
 
-![](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image5.png)
+![image](media/Computer-Vision---CV_MNIST-For-ML-Beginners-----TensorFlow-image5.png)
 
 We also add some extra evidence called a bias. Basically, we want to be able to say that some things are more likely independent of the input. The result is that the evidence for a class i given an input x is:
 

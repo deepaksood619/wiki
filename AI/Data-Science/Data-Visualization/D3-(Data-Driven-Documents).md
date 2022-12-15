@@ -47,6 +47,7 @@ d3.select("body")
 ### Transitions
 
 By declaring a transition, values for attributes and styles can be smoothly interpolated over a certain time. The following code will make all HTML `<p>...</p>` elements on a page gradually change their text color to pink:
+
 ```html
 d3.selectAll("p")          // select all <p> elements   .transition("trans_1")     // transition with name "trans_1"     .delay(0)                  // transition starting 0ms after trigger     .duration(500)             // transitioning for 500ms     .ease(d3.easeLinear)       // transition easing progression is linear...   .style("color", "pink");   // ... to color:pink
 ```
@@ -55,25 +56,25 @@ d3.selectAll("p")          // select all <p> elements   .transition(
 
 ```python
 // Data
-var countriesData = [  
-     { name:"Ireland",  income:53000, life: 78, pop:6378, color: "black"},  
-     { name:"Norway",   income:73000, life: 87, pop:5084, color: "blue" },  
-     { name:"Tanzania", income:27000, life: 50, pop:3407, color: "grey" }  
+var countriesData = [
+     { name:"Ireland",  income:53000, life: 78, pop:6378, color: "black"},
+     { name:"Norway",   income:73000, life: 87, pop:5084, color: "blue" },
+     { name:"Tanzania", income:27000, life: 50, pop:3407, color: "grey" }
   ];
 
-// Create SVG container  var svg = d3.select("#hook").append("svg")  
-        .attr("width", 120)  
-        .attr("height", 120)  
-        .style("background-color", "#D0D0D0");  
-        
+// Create SVG container  var svg = d3.select("#hook").append("svg")
+        .attr("width", 120)
+        .attr("height", 120)
+        .style("background-color", "#D0D0D0");
+       
 // Create SVG elements from data
 
-svg.selectAll("circle")   // create virtual circle template      .data(countriesData)     // bind data       
-.join("circle")     // joins data to the selection and creates circle elements for each individual data        
-.attr("id", function(d) { return d.name })          // set the circle's id according to the country name        
-.attr("cx", function(d) { return d.income / 1000  })// set the circle's horizontal position according to income        
-.attr("cy", function(d) { return d.life })         // set the circle's vertical position according to life expectancy        
-.attr("r",  function(d) { return d.pop / 1000 *2 })// set the circle's radius according to country's population        
+svg.selectAll("circle")   // create virtual circle template      .data(countriesData)     // bind data      
+.join("circle")     // joins data to the selection and creates circle elements for each individual data       
+.attr("id", function(d) { return d.name })          // set the circle's id according to the country name       
+.attr("cx", function(d) { return d.income / 1000  })// set the circle's horizontal position according to income       
+.attr("cy", function(d) { return d.life })         // set the circle's vertical position according to life expectancy       
+.attr("r",  function(d) { return d.pop / 1000 *2 })// set the circle's radius according to country's population       
 .attr("fill", function(d) { return d.color });    // set the circle's color according to country's color
 
 svg.append("rect")
@@ -102,37 +103,41 @@ The first step is to make D3 aware of the data. Thedata()method is used on a sel
 A common workflow pattern is to create a new element in the document for each piece of data in the set. D3 has theenter()method for this purpose.
 
 When enter()is combined with thedata()method, it looks at the selected elements from the page and compares them to the number of data items in the set. If there are fewer elements than data items, it creates the missing elements.
+
 ```python
 <body>
-	<ul></ul>
-	<script>
-		const dataset = ["a", "b", "c"];
-		d3.select("ul").selectAll("li")         
-		.data(dataset)         
-		.enter()         
-		.append("li")         
-		.text("New item");
+ <ul></ul>
+ <script>
+  const dataset = ["a", "b", "c"];
+  d3.select("ul").selectAll("li")        
+  .data(dataset)        
+  .enter()        
+  .append("li")        
+  .text("New item");
 
-		d3.select("body").selectAll("h2")
-			.style("color", (d) => {
-				if (d < 20) {
-					return "red"
-				} else {
-					return "green"
-				}
-		});
-	</script>
+  d3.select("body").selectAll("h2")
+   .style("color", (d) => {
+    if (d < 20) {
+     return "red"
+    } else {
+     return "green"
+    }
+  });
+ </script>
 </body>
 ```
 
 The D3 text() method can take a string or a callback function as an argument:
+
 ```
 selection.text((d) => d)
 selection.text((d) => d+"USD")
 ```
+
 the parameter d refers to a single entry in the dataset that a selection is bound to.
 
 D3.js API contains several hundred functions, and they can be grouped into following logical units:
+
 - Selections
 - Transitions
 - Arrays

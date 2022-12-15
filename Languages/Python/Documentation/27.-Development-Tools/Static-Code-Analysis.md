@@ -7,27 +7,30 @@ Modified: 2021-02-09 23:38:35 +0500
 ---
 
 ## black / autopep8 / yapf (Auto formatters)
-	<https://www.kevinpeters.net/auto-formatters-for-python>
+
+ <https://www.kevinpeters.net/auto-formatters-for-python>
 
 ## isort
+
 ```python
 isort -rc .
 isort **/*.py
 isort -rc -sl **/*.py
 
 Skipping
-	# isort:skip
-	# isort:skip_file
+ # isort:skip
+ # isort:skip_file
 
 # isort.cfg
-	[settings]
-	line_length = 88
-	multi_line_output = 3
-	include_trailing_comma = True
-	known_third_party = celery,django,environ,pyquery,pytz,redis,requests,rest_framework
+ [settings]
+ line_length = 88
+ multi_line_output = 3
+ include_trailing_comma = True
+ known_third_party = celery,django,environ,pyquery,pytz,redis,requests,rest_framework
 ```
 
 ## pylint
+
 Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
 
 [pylint](https://pypi.org/project/pylint/)is one of the most wide-spread linters in Python. The features of pylint for sure overlaps with Flake8, but there is one feature I love: Checking for code duplication
@@ -160,10 +163,10 @@ files: ^API/](<pre-commit install
          - id: black
            language_version: python3.8
     - repo: https://github.com/igorshubovych/markdownlint-cli
-		rev: v0.32.2
-		hooks:
-			- id: markdownlint
-			- id: markdownlint-fix
+  rev: v0.32.2
+  hooks:
+   - id: markdownlint
+   - id: markdownlint-fix
  - repo: https://github.com/asottile/pyupgrade
  rev: v2.7.2
  hooks:
@@ -202,7 +205,7 @@ black .
 
 <https://medium.com/staqu-dev-logs/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort-cac8b01e0ea1>
 [https://pre-commit.com/hooks.html](https://pre-commit.com/hooks.html)
-	[GitHub - igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)
+ [GitHub - igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)
 [https://pre-commit.com/](https://pre-commit.com/)
 [https://github.com/pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks)
 

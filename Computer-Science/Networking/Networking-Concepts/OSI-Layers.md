@@ -218,7 +218,7 @@ Ex: Application -- Browsers, Skype Messenger etc.
 
 **Application Layer is also called as Desktop Layer.
 
-![](media/OSI-Layers-image4.png)
+![image](media/OSI-Layers-image4.png)
 
 The functions of the Application layer are :
 

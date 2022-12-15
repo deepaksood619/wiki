@@ -10,7 +10,7 @@ Modified: 2021-10-02 12:54:48 +0500
 
 ![image](media/Cheetsheet-image2.png)
 
-![](media/Cheetsheet-image3.png)
+![image](media/Cheetsheet-image3.png)
 
 ![image](media/Cheetsheet-image4.png)
 

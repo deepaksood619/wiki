@@ -205,13 +205,13 @@ Phase 1: Leader election (Paxos Algorithm)
 
 - If you have three nodes A, B, C with A as Leader. And A dies. Will someone become leader?
 
-![](media/Big-Data_Design-of-Zookeeper-image15.jpg)
+![image](media/Big-Data_Design-of-Zookeeper-image15.jpg)
 
 ![image](media/Big-Data_Design-of-Zookeeper-image16.jpeg)
 
 - If you have three nodes A, B, C and A and B die. Will C become Leader?
 
-![](media/Big-Data_Design-of-Zookeeper-image17.jpg)
+![image](media/Big-Data_Design-of-Zookeeper-image17.jpg)
 
 ![image](media/Big-Data_Design-of-Zookeeper-image18.jpg)
 
@@ -331,6 +331,6 @@ Katta serves large, replicated, indices as shards to serve high loads and very l
 
 ![image](media/Big-Data_Design-of-Zookeeper-image34.png)
 
-![](media/Big-Data_Design-of-Zookeeper-image35.png)
+![image](media/Big-Data_Design-of-Zookeeper-image35.png)
 
 ![image](media/Big-Data_Design-of-Zookeeper-image36.png)

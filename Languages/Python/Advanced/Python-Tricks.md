@@ -18,14 +18,14 @@ Modified: 2021-08-29 13:28:37 +0500
   Used by convention to avoid naming conflicts with Python keywords
 
 - Double Leading Underscore: __var
-   - name mangling - the interpreter changes the name of the variable in a way that makes it harder to create collisions when the class is extended later
-   - Enforced by the Python interpreter
+  - name mangling - the interpreter changes the name of the variable in a way that makes it harder to create collisions when the class is extended later
+  - Enforced by the Python interpreter
 - Double Leading and Trailing Underscore: **var**
-   - Called as dunder
-   - Used internally by Python, not recommended to use for user-defined functions
+  - Called as dunder
+  - Used internally by Python, not recommended to use for user-defined functions
 - Single Underscore: _
-   - Temporary or insignificant
-   - The result of the last expression in a Python REPL
+  - Temporary or insignificant
+  - The result of the last expression in a Python REPL
 
 3. **Assertions**
      - Python's assert statement is a debugging aid that tests a condition as an internal self-check in your program.
@@ -220,26 +220,19 @@ The above error occurs because, when you make anassignmentto a variable in a sco
 Let's say you have two files,a.pyandb.py, each of which imports the other, as follows:
 
 ```python
-Ina.py:
-
+In a.py:
 import b
-
 def f():
- return b.x
+    return b.x
 
 print f()
-
-And inb.py:
-
+And in b.py:
 import a
-
 x = 1
-
 def g():
- print a.f()
+    print a.f()
 
-First, let's try importinga.py:
-
+First, let’s try importing a.py:
 >>> import a
 1
 ```

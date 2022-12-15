@@ -382,7 +382,7 @@ alias publicIp="curl wgetip.com"
 
 ssh() {
 iterm2_set_user_var title_var $@
-/usr/bin/ssh -t $@ tmux new-session -A -s <username>
+/usr/bin/ssh -t $@ tmux new-session -A -s username
 
 # creates a named tmux session for the user in the server, which will be created or attached to on request
 

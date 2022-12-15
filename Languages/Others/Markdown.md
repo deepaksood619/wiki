@@ -25,6 +25,7 @@ Markdown is a way to style text on the web. You control the display of the docum
 *Italics*
 
 1. **Headers**
+
 ```markdown
 # This is an <h1> tag
 ## This is an <h2> tag
@@ -32,6 +33,7 @@ Markdown is a way to style text on the web. You control the display of the docum
 ```
 
 5. **Emphasis**
+
 ```markdown
 *This text will be italic*
 
@@ -45,35 +47,41 @@ __This will also be bold__
 ```
 
 6. **BlockQuotes**
+
 ```markdown
 As Grace Hopper said:
 >  I've always been more interested
 >  in the future than in the past.
 ```
+
 ![image](media/Markdown-image1.png)
 
 1. **Lists**
+
 ```markdown
 1.  Unordered
-	*  Item 1
-	*  Item 2
-	  *  Item 2a
-	  *  Item 2b
+ *  Item 1
+ *  Item 2
+   *  Item 2a
+   *  Item 2b
 1.  Ordered
-	1.  Item 1
-	2.  Item 2
-	3.  Item 3
-	  * Item 3a
-	  * Item 3b
+ 1.  Item 1
+ 2.  Item 2
+ 3.  Item 3
+   * Item 3a
+   * Item 3b
 ```
 
 8. **Images**
+
 ```markdown
 ![Github Logo](/images/logo.png)
 
 Format: ![Alt Text](url)
 ```
+
 9. **Links**
+
 ```markdown
 [http://github.com](http://github.com) - automatically created
 
@@ -154,9 +162,10 @@ Markdown allows you to use backslash escapes to generate literal characters whic
 To specify an entire block of pre-formatted code, indent every line of the block by 1 tab or 4 spaces. Ampersands and angle brackets will automatically be translated into HTML entities.
 
 Markdown:
+
 ```markdown
-	If you want to mark something as code, indent it by 4 spaces.
-	<p>This has been indented 4 spaces.</p>
+ If you want to mark something as code, indent it by 4 spaces.
+ <p>This has been indented 4 spaces.</p>
 ```
 
 # Github Flavored Markdown (GFM)
@@ -172,9 +181,11 @@ github-flavored-markdown#1
 defunkt/github-flavored-markdown#1
 
 ## Emoji
+
 [www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 
 Examples
+
 * :+1:
 * :sparkles:
 * :camel:
@@ -184,18 +195,21 @@ Examples
 * :octocat:
 
 ## Fenced Code Blocks
+
 Markdown uses 4 leading spaces or 1 tab to represent a code block.
 With GFM we can use ``` to create a code block withouth the leading spaces.
 Optional language identifier can be added to give code syntax highlighting.
 
 Ex:
+
 ```javascript
 function test() {
-	console.log("look ma', no spaces");
+ console.log("look ma', no spaces");
 }
 ```
 
 ## Task Lists
+
 ```markdown
 -   [x] this is a complete item
 -   [ ] this is an incomplete item
@@ -255,11 +269,13 @@ It gets compiled to JavaScript that you can use in any framework that supports J
 <https://mdxjs.com>
 
 ## Others
+
 <https://github.com/adam-p/markdown-here>
-	Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.
-	<https://markdown-here.com>
+ Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.
+ <https://markdown-here.com>
 
 [Markdown vs. HTML – What Makes the Most Powerful Notes Editor?](https://www.thebrain.com/blog/markdown-vs-html)
 
 # Markdown Linter and Fixer
+
 [GitHub - igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)

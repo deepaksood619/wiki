@@ -12,7 +12,7 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
 ![image](media/Personality-image1.jpg)
 
-![](media/Personality-image2.jpeg)
+![image](media/Personality-image2.jpeg)
 
 ![image](media/Personality-image3.jpeg)
 

@@ -71,7 +71,7 @@ Cortex has a fundamentally service-based design, with its essential functions sp
 
 Each of these components can be managed independently, which is key to Cortex's scalability and operations story. You can see a basic diagram of Cortex and the systems it interacts with below:
 
-![](../../../media/DevOps-Monitoring-Prometheus-Architecture-image1.png)
+![image](../../../media/DevOps-Monitoring-Prometheus-Architecture-image1.png)
 
 As the diagram shows, Cortex "completes" the Prometheus Monitoring System. To adapt it to existing Prometheus installations, you just need to re-configure your Prometheus instances to remote write to your Cortex cluster and Cortex handles the rest.
 

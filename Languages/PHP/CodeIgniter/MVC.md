@@ -18,19 +18,20 @@ Views are generally stored in/app/Views, but can quickly become unwieldy if not 
 
 That type of organization works great as a base habit to get into. At times you might need to organize it differently. That's not a problem. As long as CodeIgniter can find the file, it can display it.
 
+```html
 <!DOCTYPE html>
 <html lang = "en">
+ <head>
+      <meta charset = "utf-8">
+      <title>CodeIgniter View Example</title>
+   </head>
 
-<head>
-<meta charset = "utf-8">
-<title>CodeIgniter View Example</title>
-</head>
-
-<body>
-CodeIgniter View Example
-</body>
+   <body>
+      CodeIgniter View Example
+   </body>
 
 </html>
+```
 
 ## Models
 
@@ -42,15 +43,17 @@ Models are typically stored in/app/Models, though they can use a namespace to be
 
 Models classes are designed to work with information in the database. As an example, if you are using CodeIgniter to manage users in your application then you must have model class, which contains functions to insert, delete, update and retrieve your users' data.
 
+```php
 <?php
 Class User_model extends CI_Model {
 
-Public function __construct() {
-parent::__construct();
-}
+    Public function __construct() {
+        parent::__construct();
+    }
 
 }
 ?>
+```
 
 Model can be called in controller. Following code can be used to load any model.
 
@@ -74,18 +77,20 @@ Controllers are typically stored in/app/Controllers, though they can use a names
 - The controller must be called with lowercase letter.
 - Do not use the same name of the method as your parent class, as it will override parent class's functionality.
 
+```php
 <?php
 class Test extends CI_Controller {
 
-public function index() {
-echo "This is default function.";
-}
+    public function index() {
+        echo "This is default function.";
+    }
 
-public function hello() {
-$this->load->view('test');
-}
+    public function hello() {
+        $this->load->view('test');
+    }
 }
 ?>
+```
 
 <https://codeigniter.com/user_guide/concepts/mvc.html>
 

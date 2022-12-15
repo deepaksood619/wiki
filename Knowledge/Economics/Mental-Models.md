@@ -367,7 +367,7 @@ Cost-push inflation occurswhen overall prices increase (inflation)due to increas
 
 - U-shaped recession
 
-![](media/Mental-Models-image5.png)
+![image](media/Mental-Models-image5.png)
 
 - W-shaped recession (double-dip recession)
 

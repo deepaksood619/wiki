@@ -28,7 +28,7 @@ In a bottoms-up model, engineers within an enterprise start using your product t
 
 In the top-down model, you engage the CIO, CEO, or CTO directly and try to convince them that your product is worth paying for. When the senior leadership of a bank buys into your product idea, you can count on that senior leadership to convince their developers to use your product within the bank.
 
-![](media/Marketing---Sales-image2.jpg)
+![image](media/Marketing---Sales-image2.jpg)
 
 [**https://www.helloroketto.com/saas-marketing**](https://www.helloroketto.com/saas-marketing)
 
@@ -228,7 +228,7 @@ I see email being used, by and large, exactly the way I envisioned. In particula
   - Email 2: 16 hours later
   - Email 3: 2 days later
 
-![](media/Marketing---Sales-image6.png)
+![image](media/Marketing---Sales-image6.png)
 
 - Flash sale: This is a simpe campaign with a few emails and a discount/promotion with a time-limit which persuades your customers to buy right now AKA Impulse Buying. [This campaign works well during holidays like Christmas, Halloween, Black Friday]
   - Email 1: Day 1
@@ -526,7 +526,7 @@ Account based marketing (ABM) is a business marketing strategy that concentrates
 
 ABM also takes a more holistic view of marketing, beyond just[lead generation](https://www.optimizely.com/optimization-glossary/lead-generation/). Marketing to existing customer accounts to encourage upselling and cross-selling is one of the keys to getting the most value from your largest accounts.
 
-![](media/Marketing---Sales-image11.jpg)
+![image](media/Marketing---Sales-image11.jpg)
 
 <https://blog.hubspot.com/marketing/account-based-marketing-guide>
 
