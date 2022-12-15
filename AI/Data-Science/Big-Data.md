@@ -6,7 +6,8 @@ Modified: 2021-09-28 22:26:36 +0500
 
 ---
 
-## Big data**is a term used to refer to[data sets](https://en.wikipedia.org/wiki/Data_set)that are too large or complex for traditional[data-processing](https://en.wikipedia.org/wiki/Data_processing)[application software](https://en.wikipedia.org/wiki/Application_software) to adequately deal with. Data with many cases (rows) offer greater[statistical power](https://en.wikipedia.org/wiki/Statistical_power), while data with higher complexity (more attributes or columns) may lead to a higher[false discovery rate](https://en.wikipedia.org/wiki/False_discovery_rate).Big data challenges include[capturing data](https://en.wikipedia.org/wiki/Automatic_identification_and_data_capture),[data storage](https://en.wikipedia.org/wiki/Computer_data_storage),[data analysis](https://en.wikipedia.org/wiki/Data_analysis), search,[sharing](https://en.wikipedia.org/wiki/Data_sharing),[transfer](https://en.wikipedia.org/wiki/Data_transmission),[visualization](https://en.wikipedia.org/wiki/Data_visualization),[querying,](https://en.wikipedia.org/wiki/Query_language)updating,[information privacy](https://en.wikipedia.org/wiki/Information_privacy)and data source. Big data was originally associated with three key concepts:**volume,variety, andvelocity.Other concepts later attributed with big data areveracity (i.e., how much noise is in the data)andvalue
+## Big data
+    is a term used to refer to [data sets](https://en.wikipedia.org/wiki/Data_set) that are too large or complex for traditional [data-processing](https://en.wikipedia.org/wiki/Data_processing) [application software](https://en.wikipedia.org/wiki/Application_software) to adequately deal with. Data with many cases (rows) offer greater[statistical power](https://en.wikipedia.org/wiki/Statistical_power), while data with higher complexity (more attributes or columns) may lead to a higher[false discovery rate](https://en.wikipedia.org/wiki/False_discovery_rate).Big data challenges include[capturing data](https://en.wikipedia.org/wiki/Automatic_identification_and_data_capture),[data storage](https://en.wikipedia.org/wiki/Computer_data_storage),[data analysis](https://en.wikipedia.org/wiki/Data_analysis), search,[sharing](https://en.wikipedia.org/wiki/Data_sharing),[transfer](https://en.wikipedia.org/wiki/Data_transmission),[visualization](https://en.wikipedia.org/wiki/Data_visualization),[querying,](https://en.wikipedia.org/wiki/Query_language)updating,[information privacy](https://en.wikipedia.org/wiki/Information_privacy)and data source. Big data was originally associated with three key concepts:**volume,variety, andvelocity.Other concepts later attributed with big data areveracity (i.e., how much noise is in the data)andvalue
 
 - The challenges include capture, curation, storage, search, sharing, transfer, analysis and visualization.
 
@@ -93,7 +94,7 @@ Confusion about what "Big Data" means
 
 YCSBincludes a set of core workloads that define a basic benchmark for cloud systems.
 
-The**Yahoo! Cloud Serving Benchmark**(YCSB) is an open-source specification and program suite for evaluating retrieval and maintenance capabilities of computer programs. It is often used to compare relative performance of[NoSQL](https://en.wikipedia.org/wiki/NoSQL)database management systems.
+The **Yahoo! Cloud Serving Benchmark** (YCSB) is an open-source specification and program suite for evaluating retrieval and maintenance capabilities of computer programs. It is often used to compare relative performance of[NoSQL](https://en.wikipedia.org/wiki/NoSQL)database management systems.
 
 <https://en.wikipedia.org/wiki/YCSB>
 

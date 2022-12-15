@@ -93,9 +93,9 @@ Once we have got some data source and representation, a model, and a well-define
 - Pipeline: The infrastructure surrounding a machine learning algorithm. Includes gathering the data from the front end, putting it into training data files, training one or more models, and exporting the models to production.
 - Click-through RateThe percentage of visitors to a web page who click a link in an ad.
 
-## Training**a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called**empirical risk minimization
+Training a model simply means learning (determining) good values for all the weights and the bias from labeled examples. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called**empirical risk minimization
 
-## Loss is the penalty for a bad prediction. That is,lossis a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that havelowloss, on average, across all examples
+Loss is the penalty for a bad prediction. That is,lossis a number indicating how bad the model's prediction was on a single example. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. The goal of training a model is to find a set of weights and biases that havelowloss, on average, across all examples
 
 ## Squared loss: a popular loss function
 

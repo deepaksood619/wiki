@@ -12,25 +12,23 @@ Python client for the Apache Kafka distributed stream processing system. (consum
 
 The consumer iterator returns ConsumerRecords, which are simple namedtuples that expose basic message attributes: topic, partition, offset, key, and value:
 
-## >>> from kafka import KafkaConsumer
-
-## >>> consumer = KafkaConsumer('my_favorite_topic')
-
-## >>> for**msg**in consumer
-
-## ... print (msg)
+```python
+from kafka import KafkaConsumer
+consumer = KafkaConsumer('my_favorite_topic')
+for msg in consumer:
+    print (msg)
+```
 
 ## Kafka Producer
 
 [KafkaProducer](https://kafka-python.readthedocs.io/en/master/apidoc/kafka.html#kafka.KafkaProducer)is a high-level, asynchronous message producer.
 
-## >>> from kafka import KafkaProducer
-
-## >>> producer = KafkaProducer(bootstrap_servers='localhost:1234')
-
-## >>> for**_**in range(100)
-
-## ... producer.send('foobar', b'some_message_bytes')
+```python
+from kafka import KafkaProducer
+producer = KafkaProducer(bootstrap_servers='localhost:1234')
+for _ in range(100):
+    producer.send('foobar', b'some_message_bytes')
+```
 
 The KafkaProducer can be used across threads without issue, unlike the KafkaConsumer which cannot.
 

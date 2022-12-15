@@ -29,7 +29,7 @@ The process to add an element into queue is called**Enqueue**and the process of 
 
 3. Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.
 
-## Operations -
+## Operations
 
 1. Enqueue O(1)
 
@@ -37,12 +37,13 @@ The process to add an element into queue is called**Enqueue**and the process of 
 
 3. Peek O(1)
 
-## Implementation -
+## Implementation
 
 1. **Using Linked-list**
 
 ![image](media/Queue-FIFO-image1.png)
-2.  **Using resizing array****Interview Questions**
+
+2.  Using resizing array Interview Questions**
 
 - Implement stack using a queue
 - Reverse first k elements of a queue

@@ -70,7 +70,7 @@ The problem of learning to predict classes that are not mutually exclusive is ca
 - **Recommender Systems**
 - **Sequence Learning**
 
-## sequence learning**require a model to either ingest sequences of inputs or to emit sequences of outputs (or both). Specifically,**sequence to sequence learningconsiders problems where input and output are both variable-length sequences, such as machine translation and transcribing text from the spoken speech
+**sequence learning** require a model to either ingest sequences of inputs or to emit sequences of outputs (or both). Specifically,**sequence to sequence learning considers problems where input and output are both variable-length sequences, such as machine translation and transcribing text from the spoken speech
 
 - Tagging and Parsing
 - Automatic Speech Recognition

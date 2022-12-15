@@ -7,19 +7,18 @@ Modified: 2022-01-06 10:11:02 +0500
 ---
 
 ## The priority of how methods are resolved is from left to right
-
+```python
 class Mixin1(object):
 def test(self):
-print "Mixin1"
-
+    print "Mixin1"
 class Mixin2(object):
 def test(self):
-print "Mixin2"
-
+    print "Mixin2"
 class MyClass(BaseClass, Mixin1, Mixin2):
 pass
+```
 
-So in this case theMixin2class is the base class, extended byMixin1and finally byBaseClass. This is usually fine because many times the mixin classes don't override each other's, or the base class' methods. But if you do override methods or properties in your mixins this can lead to unexpected results because the priority of how methods are resolved is from left to right.
+So in this case the Mixin2class is the base class, extended byMixin1and finally byBaseClass. This is usually fine because many times the mixin classes don't override each other's, or the base class' methods. But if you do override methods or properties in your mixins this can lead to unexpected results because the priority of how methods are resolved is from left to right.
 
 ## Ensembles
 
@@ -29,23 +28,17 @@ So in this case theMixin2class is the base class, extended byMixin1and finally b
 
 Closures are nothing but functions that are returned by another function. We use closures to remove code duplication.
 
-## >>> def add_number(num)
+```python
+>>> def add_number(num):
+        def adder(number):
+            'adder is a closure'
+            return num + number
+        return adder
 
-## ...****def adder(number)
-
-## ... 'adder is a closure'
-
-## ...****return num + number
-
-## ...****return adder
-
-##
-
-## >>> a_10 = add_number(10)
-
-## >>> a_10(21)
-
+>>> a_10 = add_number(10)
+>>> a_10(21)
 31
+```
 
 *adder*is a closure which adds a given number to a pre-defined one.
 
@@ -55,68 +48,57 @@ Decorator is way to dynamically add some new behavior to some objects. We achiev
 
 In the example we will create a simple example which will print some statement before and after the execution of a function.
 
-## >>> def my_decorator(func)
+```python
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before call")
+        result = func(*args, **kwargs)
+        print("After call")
+        return result
+    return wrapper
 
-## ...****def** wrapper(*args, kwargs)
+@my_decorator
+def add(a, b):
+    "Our add function"
+    return a + b
 
-## ... print("Before call")
-
-## ...** result = func(*args, kwargs)
-
-## ... print("After call")
-
-## ...****return result
-
-## ...****return wrapper
-
-##
-
-## >>> @my_decorator
-
-## ... def add(a, b)
-
-## ... "Our add function"
-
-## ...****return a + b
-
-##
-
-## >>> add(1, 3)
-
+add(1, 3)
 Before call
 After call
 4
+```
 
 ## Context Managers
 
-A context manager is an object with[****enter****](https://docs.python.org/2.7/reference/datamodel.html#object.__enter__)and[****exit****](https://docs.python.org/2.7/reference/datamodel.html#object.__exit__)methods which can be used in the[with](https://docs.python.org/2.7/reference/compound_stmts.html#with) statement:
+A context manager is an object with `__enter__` and `__exit__` methods which can be used in the with statement:
 
-## with**manager**as var
-
-do_something(var)
+```python
+with manager as var:
+    do_something(var)
+```
 
 is in the simplest case equivalent to
 
-var = manager.**enter**()
-
-## try
-
-do_something(var)
-
-## finally
-
-manager.**exit**()
+```python
+var = manager.__enter__()
+try:
+    do_something(var)
+finally:
+    manager.__exit__()
+```
 
 Example:
-
-## with**open('/tmp/file', 'a')**as f
-
-f.write('more contents**n**')
+```python
+with open('/tmp/file', 'a') as f:
+    f.write('more contents\n')    
+```
 
 A context manager is a Python object that provides extra contextual information to an action. This extra information takes the form of running a callable upon initiating the context using thewithstatement, as well as running a callable upon completing all the code inside thewithblock. The most well known example of using a context manager is shown here, opening on a file:
 
+```python
 with open('file.txt') as f:
-contents = f.read()
+    contents = f.read()
+```
 
 <https://rednafi.github.io/digressions/python/2020/03/26/python-contextmanager.html>
 
@@ -141,22 +123,16 @@ IDLE has the following features:
 ## Facts
 
 - Boolean is integer in Python
-
->>> isinstance(**True**, int)
-
-## True
-
->>> isinstance(**False**, int)
-
-## True
-
->>> **True** == 1 == 1.0 **and False** == 0 == 0.0
-
-## True
-
->>> **True** + 5
-
+```python
+>>> isinstance(True, int)
+True
+>>> isinstance(False, int)
+True
+>>> True == 1 == 1.0 and False == 0 == 0.0
+True
+>>> True + 5
 6
+```
 
 ## Inner Classes
 
@@ -178,10 +154,12 @@ Context managers that have state should use Context Variables instead of [thread
 
 Descriptors are Python objects that implement a method of thedescriptor protocol, which gives you the ability to create objects that have special behavior when they're accessed as attributes of other objects. Here you can see the correct definition of the descriptor protocol:
 
-**get**(self, obj, type=None) -> object
-**set**(self, obj, value) -> None
-**delete**(self, obj) -> None
-**set_name**(self, owner, name)
+```python
+__get__(self, obj, type=None) -> object
+__set__(self, obj, value) -> None
+__delete__(self, obj) -> None
+__set_name__(self, owner, name)
+```
 
 If your descriptor implements just.**get**(), then it's said to be anon-data descriptor. If it implements.**set**()or.**delete**(), then it's said to be adata descriptor. Note that this difference is not just about the name, but it's also a difference in behavior. That's because data descriptors have precedence during the lookup process
 
@@ -201,17 +179,15 @@ IPython(Interactive Python) is a[command shell](https://en.wikipedia.org/wiki/Sh
 
 ## Debugging using IPython.core.debugger set_trace() function
 
+```python
 from Ipython.core.debugger import set_trace
 
 set_trace()
-
 val = 0
-
 for i in range(10):
-
-val += i
-
+    val += i
 print(val)
+```
 
 Type help in ipdb input to get all the commands
 
@@ -225,7 +201,7 @@ The easiest way to do so is to useimport my_modulesyntax, rather thanfrom my_mod
 
 ## Packages and imports
 
-python -m package.standalone
+`python -m package.standalone`
 
 ## Others
 

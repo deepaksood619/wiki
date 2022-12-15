@@ -9,7 +9,7 @@ Modified: 2022-04-18 18:28:52 +0500
 - RPC - Remote Procedure Call framework that uses HTTP 2.0 and Protocol Buffers
 - A high performance, open-source universal RPC framework
 
-## gRPC**(**gRPC****Remote Procedure Calls) is an[open source](https://en.wikipedia.org/wiki/Open-source_software)[remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)(RPC) system initially developed at[Google](https://en.wikipedia.org/wiki/Google). It uses[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)for transport,[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers)as the[interface description language](https://en.wikipedia.org/wiki/Interface_description_language), and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts. It generates cross-platform client and server bindings for many languages
+**gRPC** is an[open source](https://en.wikipedia.org/wiki/Open-source_software)[remote procedure call](https://en.wikipedia.org/wiki/Remote_procedure_call)(RPC) system initially developed at[Google](https://en.wikipedia.org/wiki/Google). It uses[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)for transport,[Protocol Buffers](https://en.wikipedia.org/wiki/Protocol_Buffers)as the[interface description language](https://en.wikipedia.org/wiki/Interface_description_language), and provides features such as authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, and cancellation and timeouts. It generates cross-platform client and server bindings for many languages
 
 ## Overview
 

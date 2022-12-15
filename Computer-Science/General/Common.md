@@ -140,9 +140,11 @@ In[computer science](https://www.wikiwand.com/en/Computer_science), athree-way c
 
 <https://www.youtube.com/watch?v=60BPETbra9U>
 
-## [Zawinski's Law](https://en.wikipedia.org/wiki/Jamie_Zawinski#Principles)---** "Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can." (related:[Greenspun's tenth rule](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)--- "any sufficiently complicated C or Fortran program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.")
+## [Zawinski's Law](https://en.wikipedia.org/wiki/Jamie_Zawinski#Principles)
+    "Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can." (related:[Greenspun's tenth rule](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule)--- "any sufficiently complicated C or Fortran program contains an ad hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.")
 
-## [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)--- "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
+## [Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)
+    "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
 
 ## Eroom's Law
 
@@ -150,6 +152,8 @@ Eroom's lawis the observation that drug discovery is becoming slower and more ex
 
 Software also getting slower with improved processors because developers are writing inefficient code.
 
-## [Metcalfe's Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law#Limitations)--- "The value of a telecommunications network is proportional to the square of the number of connected users of the system...Within the context of social networks, many, including Metcalfe himself, have proposed modified models using (n× logn) proportionality rather thann^2proportionality."
+## [Metcalfe's Law](https://en.wikipedia.org/wiki/Metcalfe%27s_law#Limitations)
+    "The value of a telecommunications network is proportional to the square of the number of connected users of the system...Within the context of social networks, many, including Metcalfe himself, have proposed modified models using (n× logn) proportionality rather thann^2proportionality."
 
-## [Clarke's Third Law](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)--- "Any sufficiently advanced technology is indistinguishable from magic."
+## [Clarke's Third Law](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)
+    "Any sufficiently advanced technology is indistinguishable from magic."

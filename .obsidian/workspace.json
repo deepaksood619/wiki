@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/C++/STL-Containers.md",
+                "file": "Languages/Python/Python/Regular-Expressions.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/C++/STL-Containers.md",
+                "file": "Languages/Python/Python/Regular-Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/C++/STL-Containers.md",
+                "file": "Languages/Python/Python/Regular-Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/C++/STL-Containers.md"
+                "file": "Languages/Python/Python/Regular-Expressions.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
+    "Languages/C++/STL-Containers.md",
     "Technologies/DevOps/Docker/Dockerfile-example.md",
     "Technologies/Technologies/Kafka/kafkacat.md",
     "Office/TODO/Tech-&-Courses-TODO.md",
@@ -178,7 +179,6 @@
     "Languages/C++/IO.md",
     "Office/Credentials/External-Tech.md",
     "Languages/Frameworks/Android/Kotlin.md",
-    "Office/Projects/Pinpoint---Communication---Alerting.md",
-    "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
+    "Office/Projects/Pinpoint---Communication---Alerting.md"
   ]
 }

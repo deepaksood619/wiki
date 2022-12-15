@@ -6,26 +6,31 @@ Modified: 2021-09-09 18:32:18 +0500
 
 ---
 
-The software utility **cron** is a time-based[job scheduler](https://en.wikipedia.org/wiki/Job_scheduler)in [Unix-like](https://en.wikipedia.org/wiki/Unix-like)computer [operating systems](https://en.wikipedia.org/wiki/Operating_system). People who set up and maintain software environments use cron to schedule jobs (commands or [shell scripts](https://en.wikipedia.org/wiki/Shell_script)) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration---though its general-purpose nature makes it useful for things like downloading files from the [Internet](https://en.wikipedia.org/wiki/Internet) and downloading [email](https://en.wikipedia.org/wiki/Email)at regular intervals.[^[1]^](https://en.wikipedia.org/wiki/Cron#cite_note-1)The origin of the name *cron* is from the Greek word for time, χρόνος ([chronos](https://en.wikipedia.org/wiki/Chronos)).[^[2]^](https://en.wikipedia.org/wiki/Cron#cite_note-2)
+The software utility **cron** is a time-based [job scheduler](https://en.wikipedia.org/wiki/Job_scheduler) in [Unix-like](https://en.wikipedia.org/wiki/Unix-like) computer [operating systems](https://en.wikipedia.org/wiki/Operating_system). People who set up and maintain software environments use cron to schedule jobs (commands or [shell scripts](https://en.wikipedia.org/wiki/Shell_script)) to run periodically at fixed times, dates, or intervals. It typically automates system maintenance or administration---though its general-purpose nature makes it useful for things like downloading files from the [Internet](https://en.wikipedia.org/wiki/Internet) and downloading [email](https://en.wikipedia.org/wiki/Email)at regular intervals.[^[1]^](https://en.wikipedia.org/wiki/Cron#cite_note-1)The origin of the name *cron* is from the Greek word for time, χρόνος ([chronos](https://en.wikipedia.org/wiki/Chronos)).[^[2]^](https://en.wikipedia.org/wiki/Cron#cite_note-2)
 
 *cron* is most suitable for scheduling repetitive tasks. Scheduling one-time tasks is often more easily accomplished using the associated[*at*](https://en.wikipedia.org/wiki/At_(Unix))utility.
 
-## crontab** [**-u *user***] [**-l** | **-r** | **-e**] [**-i**] [**-s]
+crontab [**-u *user***] [**-l** | **-r** | **-e**] [**-i**] [**-s]
 
 export EDITOR=vi ;to specify a editor to open crontab file.
 
-## crontab -eEdit crontab file, or create one if it doesn't already exist. (/Var/spool/cron)
+## crontab -e
+        Edit crontab file, or create one if it doesn't already exist. (/Var/spool/cron)
 
-## sudo crontab -e Edit system wide crontab file
+## sudo crontab -e
+        Edit system wide crontab file
 
-## crontab -lcrontab list of cronjobs , display crontab file contents
+## crontab -l
+        crontab list of cronjobs , display crontab file contents
 
-## crontab -rRemove your crontab file
+## crontab -r
+        Remove your crontab file
 
-## crontab -vDisplay the last time you edited your crontab file. (This option is only available on a few systems.)
+## crontab -v
+        Display the last time you edited your crontab file. (This option is only available on a few systems.)
 
-        * ** ** command to be executed
-
+```
+* ** ** command to be executed
 - - - - -
 | | || |
 | | || +----- day of week (0 - 6) (Sunday=0)
@@ -35,6 +40,7 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 +------------- min (0 - 59)
 
 * means every(min/hour/day of month/month/day of week) (means all possible units)
+```
 
 | min    | hour | day/month | month  | day/week | Execution time                                           |
 |--------|--------|-----------|--------|----------|-----------------------------|

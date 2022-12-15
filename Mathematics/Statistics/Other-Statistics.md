@@ -8,15 +8,17 @@ Modified: 2021-10-15 11:52:59 +0500
 
 ## Gaussian Noise
 
-## Gaussian noiseis[statistical noise](https://en.wikipedia.org/wiki/Statistical_noise)having a[probability density function](https://en.wikipedia.org/wiki/Probability_density_function)(PDF) equal to that of the[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution), which is also known as the[Gaussian distribution](https://en.wikipedia.org/wiki/Gaussian_distribution).^[[1]][https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Barbu-1]([2)](<https://en.wikipedia.org/wiki/Gaussian_noise#cite_note-Handbook-2)^In> other words, the values that the noise can take on are Gaussian-distributed
+Gaussian noise is statistical noise having a probability density function (PDF) equal to that of the normal distribution, which is also known as the Gaussian distribution. In other words, the values that the noise can take on are Gaussian-distributed
 
 ![image](media/Other-Statistics-image1.png)
-A special case is*white Gaussian noise*, in which the values at any pair of times are[identically distributed](https://en.wikipedia.org/wiki/Iid)and[statistically independent](https://en.wikipedia.org/wiki/Statistically_independent)(and hence[uncorrelated](https://en.wikipedia.org/wiki/Uncorrelated)). In[communication channel](https://en.wikipedia.org/wiki/Channel_(communications))testing and modelling, Gaussian noise is used as additive[white noise](https://en.wikipedia.org/wiki/White_noise)to generate[additive white Gaussian noise](https://en.wikipedia.org/wiki/Additive_white_Gaussian_noise).
+
+A special case is *white Gaussian noise*, in which the values at any pair of times are identically distributed and statistically independent (and hence uncorrelated). In communication channel testing and modelling, Gaussian noise is used as additive white noise to generate additive white Gaussian noise.
+
 <https://en.wikipedia.org/wiki/Gaussian_noise>
 
 ## Monotonic Function**
 
-A monotonic function is a function which is either entirely[nonincreasing](http://mathworld.wolfram.com/NonincreasingFunction.html)or[nondecreasing](http://mathworld.wolfram.com/NondecreasingFunction.html). A function is monotonic if its first[derivative](http://mathworld.wolfram.com/Derivative.html)(which need not be continuous) does not change sign.
+A monotonic function is a function which is either entirely[nonincreasing](http://mathworld.wolfram.com/NonincreasingFunction.html) or [nondecreasing](http://mathworld.wolfram.com/NondecreasingFunction.html). A function is monotonic if its first [derivative](http://mathworld.wolfram.com/Derivative.html) (which need not be continuous) does not change sign.
 
 ![image](media/Other-Statistics-image2.png)
 
@@ -29,10 +31,12 @@ Figure 2. A monotonically decreasing function
 ![image](media/Other-Statistics-image4.png)
 
 Figure 3. A function that is not monotonic
-In[mathematics](https://en.wikipedia.org/wiki/Mathematics), a**monotonic function** (or**monotone function**) is a[function](https://en.wikipedia.org/wiki/Function_(mathematics))between[ordered sets](https://en.wikipedia.org/wiki/List_of_order_structures_in_mathematics)that preserves or reverses the given[order](https://en.wikipedia.org/wiki/Order_relation).
+
+In mathematics, a **monotonic function** (or **monotone function**) is a function between ordered sets that preserves or reverses the given order.
+
 <https://en.wikipedia.org/wiki/Monotonic_function>
 
-## Null Hypothesis**
+## Null Hypothesis
 
 - (in a statistical test) the hypothesis that there is no significant difference between specified populations, any observed difference being due to sampling or experimental error.
 - The idea that there's no effect

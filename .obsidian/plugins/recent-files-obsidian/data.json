@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Regular-Expressions",
+      "path": "Languages/Python/Python/Regular-Expressions.md"
+    },
+    {
       "basename": "STL-Containers",
       "path": "Languages/C++/STL-Containers.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "Regular-Expressions---Regex",
       "path": "Languages/Others/Regular-Expressions---Regex.md"
-    },
-    {
-      "basename": "Regular-Expressions",
-      "path": "Languages/Python/Python/Regular-Expressions.md"
     },
     {
       "basename": "Business",

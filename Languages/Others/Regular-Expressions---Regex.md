@@ -38,11 +38,13 @@ Delimiters are the boundaries of our regular expressions. The most common delimi
 
 It depends on the type of programming language. Other delimiters are -
 
+```
 - Hashtags ( # )
 - Percentage signs ( % )
 - Plus signs ( + )
 - Tildes ( ~ )
 - Rarely (), {}, [], <> these brackets are also used as delimiters
+```
 
 Reason for using these many types of delimiters is readability. If we use one type of delimiters and that same delimiter is also used inside the regex then we have to escape all the other symbol using backslash. But using other delimiter instead of that is far easier.
 
