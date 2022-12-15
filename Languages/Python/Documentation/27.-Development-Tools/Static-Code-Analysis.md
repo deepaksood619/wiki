@@ -6,47 +6,37 @@ Modified: 2021-02-09 23:38:35 +0500
 
 ---
 
-1. black / autopep8 / yapf (Auto formatters)
+## black / autopep8 / yapf (Auto formatters)
+	<https://www.kevinpeters.net/auto-formatters-for-python>
 
-<https://www.kevinpeters.net/auto-formatters-for-python>
-
-2. **isort**
-
+## isort
+```python
 isort -rc .
-
 isort **/*.py
-
 isort -rc -sl **/*.py
 
 Skipping
-
-# isort:skip
-
-# isort:skip_file
+	# isort:skip
+	# isort:skip_file
 
 # isort.cfg
+	[settings]
+	line_length = 88
+	multi_line_output = 3
+	include_trailing_comma = True
+	known_third_party = celery,django,environ,pyquery,pytz,redis,requests,rest_framework
+```
 
-[settings]
-
-line_length = 88
-
-multi_line_output = 3
-
-include_trailing_comma = True
-
-known_third_party = celery,django,environ,pyquery,pytz,redis,requests,rest_framework
-
-3. **pylint**
-
+## pylint
 Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
 
 [pylint](https://pypi.org/project/pylint/)is one of the most wide-spread linters in Python. The features of pylint for sure overlaps with Flake8, but there is one feature I love: Checking for code duplication
 
 $ pylint --disable=all --enable=duplicate-code .
 
-4. pyflakes
+## pyflakes
 
-5. **autoflake**
+## autoflake
 
 autoflakeremoves unused imports and unused variables from Python code. It makes use of[pyflakes](http://pypi.python.org/pypi/pyflakes)to do this.
 
@@ -56,33 +46,30 @@ autoflake -r --in-place --remove-unused-variables .
 
 autoflake -r --in-place --remove-unused-variables --remove-all-unused-imports **/*.py
 
-6. **mypy (static types)**
+## mypy (static types)
 
 Mypy is an optional static type checker for Python. You can add type hints ([PEP 484](https://www.python.org/dev/peps/pep-0484/)) to your Python programs, and use mypy to type check them statically. Find bugs in your programs without even running them!
 
 You can mix dynamic and static typing in your programs. You can always fall back to dynamic typing when static typing is not convenient, such as for legacy code.
 
 <https://github.com/python/mypy>
-
 <http://mypy-lang.org>
-
 <https://medium.com/analytics-vidhya/type-annotations-in-python-3-8-3b401384403d>
-
 <https://sourcery.ai/blog/python-best-practices>
 
 ## Black
 
-Blackis the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return,Blackgives you speed, determinism, and freedom frompycodestylenagging about formatting. You will save time and mental energy for more important matters.
+Black is the uncompromising Python code formatter. By using it, you agree to cede control over minutiae of hand-formatting. In return,Blackgives you speed, determinism, and freedom frompycodestylenagging about formatting. You will save time and mental energy for more important matters.
 
 Blackened code looks the same regardless of the project you're reading. Formatting becomes transparent after a while and you can focus on the content instead.
 
 Blackmakes code review faster by producing the smallest diffs possible.
 
+```bash
 pip install black
-
 black <file_path>
-
 black .
+```
 
 <https://github.com/psf/black>
 
@@ -107,13 +94,6 @@ We believe that you should always use the best industry standard linters. Some o
 We built pre-commit to solve our hook issues. It is a multi-language package manager for pre-commit hooks. You specify a list of hooks you want and pre-commit manages the installation and execution of any hook written in any language before every commit. pre-commit is specifically designed to not require root access. If one of your developers doesn't have node installed but modifies a JavaScript file, pre-commit automatically handles downloading and building node to run eslint without root.
 
 ```bash
-pre-commit install
-
-pre-commit run --all-files
-pre-commit autoupdate
-
-git commit --no-verify
-
 exclude: '^$'
 fail_fast: false
 exclude: '^(?!tests/)$' #run only test folder files
@@ -179,6 +159,11 @@ files: ^API/](<pre-commit install
        hooks:
          - id: black
            language_version: python3.8
+    - repo: https://github.com/igorshubovych/markdownlint-cli
+		rev: v0.32.2
+		hooks:
+			- id: markdownlint
+			- id: markdownlint-fix
  - repo: https://github.com/asottile/pyupgrade
  rev: v2.7.2
  hooks:
@@ -191,7 +176,33 @@ files: ^API/](<pre-commit install
 additional_dependencies: [black==20.8b1]>)
 ```
 
+### Running pre-commit
+
+```bash
+pre-commit install
+
+pre-commit run --all-files
+pre-commit autoupdate
+
+# run pre-commit on specific files in a folder
+git ls-files -- Technologies/Technologies | xargs pre-commit run --files
+
+git commit --no-verify
+
+# isort run
+isort **/*.py
+
+# autoflake run
+autoflake -r --in-place --remove-unused-variables --remove-all-unused-imports **/*.py
+
+black .
+```
+
+![Image for post](media/27.-Development-Tools_Static-Code-Analysis-image1.png)
+
+<https://medium.com/staqu-dev-logs/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort-cac8b01e0ea1>
 [https://pre-commit.com/hooks.html](https://pre-commit.com/hooks.html)
+	[GitHub - igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)
 [https://pre-commit.com/](https://pre-commit.com/)
 [https://github.com/pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks)
 
@@ -264,11 +275,11 @@ Here are some of the interesting flake8 plugins:
 - [flake8-eradicate](https://pypi.org/project/flake8-eradicate/): Find commented out (or so-called "dead") code.
 - **[vulture](https://pypi.org/project/vulture/): Finds unused code in Python programs**
 
+```bash
 pip install vulture
-
 vulture myscript.py
-
 vulture . --exclude .history
+```
 
 <https://github.com/jendrikseipp/vulture>
 
@@ -308,18 +319,6 @@ Bandit is a tool designed to find common security issues in Python code. To do t
 
 <https://pypi.org/project/bandit>
 
-## Running
-
-isort **/*.py
-
-autoflake -r --in-place --remove-unused-variables --remove-all-unused-imports **/*.py
-
-black .
-
-![Image for post](media/27.-Development-Tools_Static-Code-Analysis-image1.png)
-
-<https://medium.com/staqu-dev-logs/keeping-python-code-clean-with-pre-commit-hooks-black-flake8-and-isort-cac8b01e0ea1>
-
 ## mypy
 
 Mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.
@@ -330,23 +329,17 @@ Mypy is an optional static type checker for Python that aims to combine the bene
 
 - **radon**
 
+```python
 $ pip install radon
-
 $ radon cc mpu/aws.py -s
-
 mpu/aws.py
-
 F 85:0 s3_download - B (6)
-
 F 16:0 list_files - A (3)
-
 F 165:0 _s3_path_split - A (2)
-
 F 46:0 s3_read - A (1)
-
 F 141:0 s3_upload - A (1)
-
 C 77:0 ExistsStrategy - A (1)
+```
 
 The first letter shows thetype of block(F for function, C for class). Then radon gives theline number, thenameof the class/function, agrade(A, B, C, D, E, or F), and the actualcomplexity as a number. Typically, a complexity below 10 is ok.[The most complex part of scipy](https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py#L127)has a complexity of 61.
 

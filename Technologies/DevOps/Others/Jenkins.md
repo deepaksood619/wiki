@@ -94,204 +94,124 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 <https://jenkins.io/doc/book/pipeline>
 
 ## Jenkinsfile
-
+```java
 // Plugins requrired - Credentials, Credentials Binding
 
 // getGitChanges() is a groovy script that will set the boolean variable
-
 CODE_CHANGES = getGitChanges()
 
 // global variable
-
 def gv
 
 // All environment variables in Jenkinsfile are available in the groovy script
 
 pipeline {
-
-agent any
-
-tools {
-
-maven 'Maven'
-
-// gradle
-
-// jdk
-
+	agent any
+	tools {
+		maven 'Maven'
+		// gradle
+		// jdk
+	}
+	parameters {
+		string(name: "VERSION", defaultValue: "", description: "version to deploy on prod")
+		choice(name: "VERSION", CHOICES: ["1.1.0", "1.2.0", "1.3.1"], description: "")
+		booleanParame(name: "executeTests", defaultValue: true, description: "")
+	}
+	environment {
+		NEW_VERSION = "1.3.0"
+		SERVER_CREDENTIALS = credentials("sever-credentials")
+	}
+	stages {
+		stage("init") {
+			steps {
+				script {
+					
+				}
+			}
+		}
+		stage("Build") {
+			when {
+				expression {
+					BRANCH_NAME == "dev" && CODE_CHANGES == true
+				}
+			}
+			steps {
+				echo "Building.."
+				// use double quotes to use environment variables inside string
+				echo "Building version ${NEW_VERSION}"
+			}
+		}
+		stage("Test") {
+			when {
+				expression {
+					BRANCH_NAME == "dev" || BRANCH_NAME == "master"
+				}
+			}
+			steps {
+				echo "Testing.."
+			}
+		}
+		stage("Deploy") {
+			steps {
+				echo "Deploying...."
+				when {
+					expression {
+						params.executeTests == true
+					}
+				}
+				withCredentials([
+					// type of credentials is username password
+					// store usernameVariable in USER and passwordVariable in PASSWORD
+					usernamePassword(credentials: 'server-credentials', usernameVariable: USER, passwordVariable: PASSWORD)
+				]) {
+					sh "some script ${USERNAME} ${PASSWORD}"
+				}
+			}
+		}
+	}
+	post {
+		always {
+			junit "**/target/*.xml"
+		}
+		failure {
+			mail to: team@example.com, subject: "The Pipeline failed :("
+		}
+	}
 }
-
-parameters {
-
-string(name: "VERSION", defaultValue: "", description: "version to deploy on prod")
-
-choice(name: "VERSION", CHOICES: ["1.1.0", "1.2.0", "1.3.1"], description: "")
-
-booleanParame(name: "executeTests", defaultValue: true, description: "")
-
-}
-
-environment {
-
-NEW_VERSION = "1.3.0"
-
-SERVER_CREDENTIALS = credentials("sever-credentials")
-
-}
-
-stages {
-
-stage("init") {
-
-steps {
-
-script {
-
-}
-
-}
-
-}
-
-stage("Build") {
-
-when {
-
-expression {
-
-BRANCH_NAME == "dev" && CODE_CHANGES == true
-
-}
-
-}
-
-steps {
-
-echo "Building.."
-
-// use double quotes to use environment variables inside string
-
-echo "Building version ${NEW_VERSION}"
-
-}
-
-}
-
-stage("Test") {
-
-when {
-
-expression {
-
-BRANCH_NAME == "dev" || BRANCH_NAME == "master"
-
-}
-
-}
-
-steps {
-
-echo "Testing.."
-
-}
-
-}
-
-stage("Deploy") {
-
-steps {
-
-echo "Deploying...."
-
-when {
-
-expression {
-
-params.executeTests == true
-
-}
-
-}
-
-withCredentials([
-
-// type of credentials is username password
-
-// store usernameVariable in USER and passwordVariable in PASSWORD
-
-usernamePassword(credentials: 'server-credentials', usernameVariable: USER, passwordVariable: PASSWORD)
-
-]) {
-
-sh "some script ${USERNAME} ${PASSWORD}"
-
-}
-
-}
-
-}
-
-}
-
-post {
-
-always {
-
-junit "**/target/*.xml"
-
-}
-
-failure {
-
-mail to: team@example.com, subject: "The Pipeline failed :("
-
-}
-
-}
-
-}
-
+```
 <https://www.youtube.com/watch?v=7KCS70sCoK0&list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC&index=6&ab_channel=TechWorldwithNana>
 
 <https://www.jenkins.io/doc/book/pipeline/jenkinsfile>
 
 ## Jenkins
-
-## # show all env variables in Jenkins
+show all env variables in Jenkins
+[http://<jenkins_server_url:port>/env-vars.html/](http://%3cjenkins_server_url:port%3e/env-vars.html/)`
 
 ## Multibranch Pipeline
 
-TheMultibranchPipelineallows you to automatically create a pipeline for each branch on your repository with the help ofJenkinsfile.
+The Multibranch Pipeline allows you to automatically create a pipeline for each branch on your repository with the help ofJenkinsfile.
 
-Jenkinsfileis stored along with your source code inside a Source Code Management (SCM) eg. GitHub, BitBucket, etc.
+Jenkinsfile is stored along with your source code inside a Source Code Management (SCM) eg. GitHub, BitBucket, etc.
 
-AJenkinsfileis nothing but a pipeline script that defines your CI/CD pipeline:
+A Jenkinsfile is nothing but a pipeline script that defines your CI/CD pipeline
 
 ## Plugins
-
 <https://jenkins.io/doc/pipeline/steps/slack>
-
 folder plugin
-
 Credentials
-
 Credentials Binding
 
 ## Commands
-
 Clear build queue, Manage Jenkins > Script Console:
-
-Jenkins.instance.queue.clear()
+	`Jenkins.instance.queue.clear()`
 
 ## Jenkins X
-
 Full CI/CD on kubernetes
-
 <https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes>
 
 ## Jenkins Operator
 
-The Jenkins Operator is a[Kubernetes Native Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)which manages operations for Jenkins on Kubernetes. It has been built with Immutability and declarative Configuration as Code in mind.
+The Jenkins Operator is a [Kubernetes Native Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) which manages operations for Jenkins on Kubernetes. It has been built with Immutability and declarative Configuration as Code in mind.
 
 <https://github.com/jenkinsci/kubernetes-operator>
 
@@ -314,19 +234,21 @@ docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
 ## Optimizations
 
 <https://engineering.taboola.com/5-simple-tips-boosting-jenkins-performance>
-
 1. Minimize the amount of builds on the master node
-
 2. Do not keep too much build history - Discard old builds
-
 3. Clear old Jenkins data
-
 4. Define the right heap size
-
 5. Tune the garbage collector
     - Enable G1GC -- this is the most modern GC implementation (default on JDK9)
     - Enable GC logging -- this will help you monitor and tune later
     - Monitor GC behavior -- I use <http://gceasy.io>
+
+## Views
+[Views](https://www.jenkins.io/doc/developer/views/)
+
+**Example -**
+
+	![[Screenshot 2022-12-15 at 11.45.00 AM.jpg]]
 
 ## Scripts
 
