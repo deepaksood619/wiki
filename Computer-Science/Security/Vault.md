@@ -227,7 +227,7 @@ value: "True"
 
 - name: DEBUG_EMAIL
 
-value: "deepak.sood@stashfin.com"
+value: "username@example.com"
 
 - name: DEBUG_PHONE
 

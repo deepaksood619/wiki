@@ -64,25 +64,25 @@ az ad sp create-for-rbac --skip-assignment
 
 ELK
 
-az keyvault create --name zenatix-kubernetes-vault --resource-group Technology
+az keyvault create --name example-kubernetes-vault --resource-group Technology
 
 az network public-ip create -n kibana-public --resource-group=Technology --allocation-method=static --dns-name=kibana-public
 
-az network public-ip create -n kibana-ip --resource-group=Technology --allocation-method=static --dns-name=kibana.zenatix.com
+az network public-ip create -n kibana-ip --resource-group=Technology --allocation-method=static --dns-name=kibana.example.com
 
 az network public-ip create -n elk-ip --resource-group=Technology --allocation-method=static
 
 52.172.150.153
 
-az keyvault certificate import --name kibana-certificate --vault-name zenatix-kubernetes-vault -f ${DOMAIN}.pfx --tags domain=${DOMAIN}
+az keyvault certificate import --name kibana-certificate --vault-name example-kubernetes-vault -f ${DOMAIN}.pfx --tags domain=${DOMAIN}
 
-az keyvault secret set --name kibana-certificate-key-password --vault-name zenatix-kubernetes-vault
+az keyvault secret set --name kibana-certificate-key-password --vault-name example-kubernetes-vault
 
 az redis create --name dev-logscache --location southindia --resource-group Technology --sku Standard --vm-size C1
 
 helm delete --purge elasticsearch
 
-./deploy.sh -n elk -v zenatix-kubernetes-vault
+./deploy.sh -n elk -v example-kubernetes-vault
 
 <https://github.com/Azure/helm-elasticstack>
 
@@ -96,7 +96,7 @@ helm delete --purge elasticsearch
 
 # gcrreg addition
 
-kubectl create secret docker-registry gcrreg --docker-server=gcr.io --docker-username=_json_key --docker-password="$(cat ~/json-key-file.json)" --docker-email=deepak.sood@zenatix.com -n smap
+kubectl create secret docker-registry gcrreg --docker-server=gcr.io --docker-username=_json_key --docker-password="$(cat ~/json-key-file.json)" --docker-email=username@example.com -n smap
 
 kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcrreg"}]}' -n smap
 

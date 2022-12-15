@@ -306,7 +306,7 @@ ORDER BY __time DESC
 
 "consumerProperties": {
 
-"bootstrap.servers": "kafka0.zenatix.com:31090,kafka1.zenatix.com:31091,kafka2.zenatix.com:31092"
+"bootstrap.servers": "kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092"
 
 }
 

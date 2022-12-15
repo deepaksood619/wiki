@@ -225,9 +225,9 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock ...
 
 ## Azure CI/CD with Jenkins
 
-docker tag azure-vote-front gcr.io/zenatix-data-archiver/azure-vote-front:v1
+docker tag azure-vote-front gcr.io/example-data-archiver/azure-vote-front:v1
 
-docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
+docker push gcr.io/example-data-archiver/azure-vote-front:v1
 
 <https://docs.microsoft.com/en-us/azure/aks/jenkins-continuous-deployment>
 

@@ -71,7 +71,7 @@ The following characters are reserved in JSON and must be properly escaped to be
 
 ## JSONP
 
-JSONP([JSON](https://en.wikipedia.org/wiki/JSON)with Paddingor JSON-P) is a javascript pattern to request data by loading a <script> tag. It was proposed by Bob Ippolito in 2005.JSONP enables sharing of data bypassing[same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy). The policy disallows running[JavaScript](https://en.wikipedia.org/wiki/JavaScript)to read media[DOM](https://en.wikipedia.org/wiki/Document_Object_Model)elements or[XHR](https://en.wikipedia.org/wiki/XMLHttpRequest)data fetched from outside the page's origin. The aggregation of the site's scheme, port number and host name identifies as its origin.
+JSONP([JSON](https://en.wikipedia.org/wiki/JSON)with Paddingor JSON-P) is a javascript pattern to request data by loading a `<script>` tag. It was proposed by Bob Ippolito in 2005.JSONP enables sharing of data bypassing[same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy). The policy disallows running[JavaScript](https://en.wikipedia.org/wiki/JavaScript)to read media[DOM](https://en.wikipedia.org/wiki/Document_Object_Model)elements or[XHR](https://en.wikipedia.org/wiki/XMLHttpRequest)data fetched from outside the page's origin. The aggregation of the site's scheme, port number and host name identifies as its origin.
 
 ## jsonnet
 

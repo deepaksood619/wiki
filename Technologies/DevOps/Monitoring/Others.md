@@ -109,7 +109,7 @@ from sentry_sdk.integrations.django import DjangoIntegration
 
   if not DEBUG:
     sentry_sdk.init(
-        dsn="https://5495d5289c414d00b217c2ff52e914d7@sentry.zenatix.com/" + str(
+        dsn="https://5495d5289c414d00b217c2ff52e914d7@sentry.example.com/" + str(
             os.environ['ZENALYTIX_SENTRY_PROJECT_ID']),
         integrations=[DjangoIntegration()],
         attach_stacktrace=True,

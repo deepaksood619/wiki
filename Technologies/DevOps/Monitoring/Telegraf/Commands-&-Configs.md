@@ -72,7 +72,7 @@ omit_hostname = false
 
 [[outputs.influxdb]]
 
-urls = ["<http://servermonitor.zenatix.com:8086>"]
+urls = ["<http://servermonitor.example.com:8086>"]
 
 database = "telegraf"
 
@@ -84,7 +84,7 @@ namedrop = ["tail", "docker_log"]
 
 [[outputs.elasticsearch]]
 
-urls = ["<http://elasticsearch.zenatix.com:9200>"]
+urls = ["<http://elasticsearch.example.com:9200>"]
 
 timeout = "1m"
 

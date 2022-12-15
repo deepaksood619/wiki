@@ -25,7 +25,7 @@ mysql -u root -p kollectai -h localhost
 
 ## mysql -u root -p q82b912h9123hbasd9 -h localhost
 
-mysql -u developer -p Ck4DmZA3TZZF@ -h devdb-ujwy3me96v.stashfin.com -D sttash_website_LIVE
+mysql -u developer -p Ck4DmZA3TZZF@ -h devdb-ujwy3me96v.example.com -D sttash_website_LIVE
 
 mysql -u deepak_sood -p 0d43db3b6ae622cac35b76092e2bcf13 -h backup-sttash-main-db-instance-cluster.cluster-c1z93jsyca9u.ap-south-1.rds.amazonaws.com -D sttash_website_LIVE
 mysql --user=deepak_sood --host=backup-sttash-main-db-instance-cluster.cluster-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --database=sttash_website_LIVE --password=0d43db3b6ae622cac35b76092e2bcf13 -A

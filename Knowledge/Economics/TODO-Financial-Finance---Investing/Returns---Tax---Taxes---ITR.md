@@ -228,7 +228,7 @@ Transport Allowance (1,600)
 
 Medical Allowance (1,500)
 
-## Stashfin
+## example
 
 Telephone Reimbursement 3000.00
 

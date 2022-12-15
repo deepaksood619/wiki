@@ -128,7 +128,7 @@ docker build -f docker/Dockerfile.dev -t partners-api:latest .
 - [docker save](https://docs.docker.com/engine/reference/commandline/save)saves an image to a tar archive stream to STDOUT with all parent layers, tags & versions (as of 0.7).
 - docker push
 
-docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
+docker push gcr.io/example-data-archiver/azure-vote-front:v1
 
 ##
 
@@ -139,14 +139,14 @@ docker push gcr.io/zenatix-data-archiver/azure-vote-front:v1
 
 sudo docker tag monolith:1.0.0 deepaksood619/monolith:1.0.0
 
-docker tag azure-vote-front gcr.io/zenatix-data-archiver/azure-vote-front:v1
+docker tag azure-vote-front gcr.io/example-data-archiver/azure-vote-front:v1
 
 # Network
 
 - docker network connect - Connect a container to a network
 - docker network create - Create a network
 
-docker network create --subset=172.18.0.0/16 zenatix-docker
+docker network create --subset=172.18.0.0/16 example-docker
 
 - docker network disconnect - Disconnect a container from a network
 - docker network inspect - Display detailed information on one or more networks
@@ -201,7 +201,7 @@ docker cp <containerId>:/file/path/within/container /host/path/target
 
 - docker run --rm -it -v $PWD:/build ubuntu:18.04 #create a docker image of ubuntu:18.04
 - docker run --rm -it ubuntu:18.04 #create a docker image of ubuntu:18.04
-- docker run --rm -it stashfintech/react-awscli:1.0.0 /bin/sh
+- docker run --rm -it exampletech/react-awscli:1.0.0 /bin/sh
 - docker run --rm -it -p=8080:8080 volttron_docker_image /bin/bash
 - docker commit suspicious_wescoff volttron_docker_image
 - docker run -i -t volttron_docker_image /bin/bash

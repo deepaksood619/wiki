@@ -84,7 +84,7 @@ CROSS JOIN UNNEST(udsms) as t(message)
 
 where device_id = '1f385b6e17c395d0';
 
-## StashFin Queries
+## example Queries
 
 select * FROM "pinpointanalytics"."emailanalyticsfinal" where event_type in ('email.open',
 
@@ -212,7 +212,7 @@ is_elevate_operational int )
 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 
-LOCATION 's3://stashfin-migration-data/rds/equifax_raw_response/join_test_1000';
+LOCATION 's3://example-migration-data/rds/equifax_raw_response/join_test_1000';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS user_device_sms (
 
@@ -236,7 +236,7 @@ device_id string)
 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 
-LOCATION 's3://stashfin-migration-data/rds/user_device_sms/user_device_sms.part_1000';
+LOCATION 's3://example-migration-data/rds/user_device_sms/user_device_sms.part_1000';
 
 CREATE EXTERNAL TABLE `user_device_sms`(
 `col0` bigint,
@@ -249,7 +249,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://stashfin-migration-data/rds/user_device_sms/user_device_sms.part_00000'
+'s3://example-migration-data/rds/user_device_sms/user_device_sms.part_00000'
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `s3_db.st_bank_sms`(
 `avlbal` double,
@@ -269,7 +269,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://stashfin-migration-data/glue/st_bank_sms'
+'s3://example-migration-data/glue/st_bank_sms'
 TBLPROPERTIES (
 'has_encrypted_data'='false');
 
@@ -360,7 +360,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
 LOCATION
-'s3://stashfin-migration-data/parquet/'
+'s3://example-migration-data/parquet/'
 TBLPROPERTIES (
 'CrawlerSchemaDeserializerVersion'='1.0',
 'CrawlerSchemaSerializerVersion'='1.0',
@@ -394,13 +394,13 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://stashfin-migration-data/glue/perfios_account_transactions'
+'s3://example-migration-data/glue/perfios_account_transactions'
 TBLPROPERTIES (
 'has_encrypted_data'='false');
 
-s3://stashfin-migration-data/test/request_1364644_20191017132643.json
+s3://example-migration-data/test/request_1364644_20191017132643.json
 
-s3://ap-south-1.stashfin.com/stashfin-migration-data/test/
+s3://ap-south-1.example.com/example-migration-data/test/
 
 CREATE EXTERNAL TABLE IF NOT EXISTS s3_db.test (
 
@@ -430,7 +430,7 @@ WITH SERDEPROPERTIES (
 
 'field.delim' = ','
 
-) LOCATION 's3://ap-south-1.stashfin.com/sttash-user-device/sttash_website_LIVE/userDeviceSms/'
+) LOCATION 's3://ap-south-1.example.com/sttash-user-device/sttash_website_LIVE/userDeviceSms/'
 
 TBLPROPERTIES ('has_encrypted_data'='false');
 
@@ -446,7 +446,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://stashfin-migration-data/test'
+'s3://example-migration-data/test'
 TBLPROPERTIES (
 'transient_lastDdlTime'='1583144161')
 
@@ -469,7 +469,7 @@ OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 
 LOCATION
-'s3://stashfin-migration-data/test'
+'s3://example-migration-data/test'
 
 CREATE EXTERNAL TABLE perfios (
 
@@ -593,7 +593,7 @@ CREATE EXTERNAL TABLE perfios (
 
 )
 
-ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe' STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat' LOCATION 's3://stashfin-migration-data/perfios_response';
+ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe' STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat' LOCATION 's3://example-migration-data/perfios_response';
 
 *WITH* SERDEPROPERTIES (*'ignore.malformed.json'* = *'true'*)
 
@@ -658,7 +658,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://stashfin-migration-data/userdevicesms/'
+'s3://example-migration-data/userdevicesms/'
 TBLPROPERTIES (
 'CrawlerSchemaDeserializerVersion'='1.0',
 'CrawlerSchemaSerializerVersion'='1.0',
@@ -675,7 +675,7 @@ TBLPROPERTIES (
 
 ALTER TABLE s3_db.test_response add partition (partition_0="2020", partition_1="04", partition_2="23")
 
-location "[s3://stashfin-migration-data/userdevicesms_request/response/2020/04/23](s3://stashfin-migration-data/userdevicesms_request/response/2020/04/23)";
+location "[s3://example-migration-data/userdevicesms_request/response/2020/04/23](s3://example-migration-data/userdevicesms_request/response/2020/04/23)";
 
 ## # creating tables with or without some columns are supported
 
@@ -737,7 +737,7 @@ OUTPUTFORMAT
 
 LOCATION
 
-'[s3://stashfin-migration-data/userdevicesms_request/response/](s3://stashfin-migration-data/userdevicesms_request/response/)'
+'[s3://example-migration-data/userdevicesms_request/response/](s3://example-migration-data/userdevicesms_request/response/)'
 
 <https://aws.amazon.com/blogs/big-data/analyzing-data-in-s3-using-amazon-athena>
 

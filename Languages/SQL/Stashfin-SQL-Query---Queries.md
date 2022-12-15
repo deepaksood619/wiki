@@ -1,4 +1,4 @@
-# Stashfin SQL Query / Queries
+# example SQL Query / Queries
 
 Created: 2020-02-13 15:34:08 +0500
 

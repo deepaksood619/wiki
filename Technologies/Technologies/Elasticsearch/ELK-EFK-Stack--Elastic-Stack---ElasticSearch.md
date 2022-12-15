@@ -46,7 +46,7 @@ Kibana lets users visualize data with charts and graphs in Elasticsearch.
 
 Kibana is a visualization layer that works on top of Elasticsearch.
 
-kibana.zenatix.com/status - to show all status of plugins and elasticsearch
+kibana.example.com/status - to show all status of plugins and elasticsearch
 
 Together, these three different open source products are most commonly used in log analysis in IT environments (though there are many more use cases for the ELK Stack starting including business intelligence, security and compliance, and web analytics). Logstash collects and parses logs, and then Elasticsearch indexes and stores the information. Kibana then presents the data in visualizations that provide actionable insights into one's environment.
 

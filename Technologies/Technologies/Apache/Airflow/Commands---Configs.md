@@ -35,7 +35,7 @@ AIRFLOW__CORE__LOAD_EXAMPLES: "False"
 
 AIRFLOW__CORE__DEFAULT_TIMEZONE: Asia/Kolkata
 
-AIRFLOW__WEBSERVER__BASE_URL: <http://airweb.zenatix.com>
+AIRFLOW__WEBSERVER__BASE_URL: <http://airweb.example.com>
 
 ## AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
 

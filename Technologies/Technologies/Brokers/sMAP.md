@@ -75,7 +75,7 @@ the**powerdb2**project provides plotting and organization of time-series data. D
 
 ## Manual Data Publication
 
-curl -XPOST -d @data.json -H "Content-Type: application/json" [http://iiitd.zenatix.com:9101/add/**rOxFkkkoigEEKTei39Zi72zevAxsQbqqCY9c**](http://iiitd.zenatix.com:9101/add/rOxFkkkoigEEKTei39Zi72zevAxsQbqqCY9c)
+curl -XPOST -d @data.json -H "Content-Type: application/json" [http://iiitd.example.com:9101/add/**rOxFkkkoigEEKTei39Zi72zevAxsQbqqCY9c**](http://iiitd.example.com:9101/add/rOxFkkkoigEEKTei39Zi72zevAxsQbqqCY9c)
 
 ## References
 

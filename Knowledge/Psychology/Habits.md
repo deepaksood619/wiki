@@ -530,7 +530,7 @@ The default argument for sleeping 7-9 hours a night is that this is the amount o
 - If you sleep as much as you want, you'll probably sleep too much and become more susceptible to depression.
   - And if you sleep way too much at once, you'll be feeling terrible afterwards, however pleasant the sleep was.
 
-2. Depression <-> oversleeping. Mania <-> acute sleep deprivation
+2. Depression -> oversleeping. Mania -> acute sleep deprivation
 
 3. Occasional acute sleep deprivation is good for health and promotes more efficient sleep
 

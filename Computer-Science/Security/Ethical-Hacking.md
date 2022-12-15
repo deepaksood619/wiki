@@ -10,7 +10,7 @@ Modified: 2022-01-07 22:23:17 +0500
 
 <https://github.com/arthaud/git-dumper/blob/master/git-dumper.py>
 
-<https://securitytrails.com/domain/stashfin.com/history/a>
+<https://securitytrails.com/domain/example.com/history/a>
 
 <https://www.youtube.com/watch?v=3Kq1MIfTWCE>
 

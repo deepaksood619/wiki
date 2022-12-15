@@ -61,25 +61,18 @@ Network requests, manual DOM mutations, and logging are common examples of effec
 
 If your effect returns a function, React will run it when it is time to clean up
 
+```js
 useEffect(() => {
-
-function handleStatusChange(status) {
-
-setIsOnline(status.isOnline);
-
-}
-
-ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
-
-// Specify how to clean up after this effect:
-
-return function cleanup() {
-
-ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
-
-};
-
+  function handleStatusChange(status) {
+    setIsOnline(status.isOnline);
+  }
+  ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
+  // Specify how to clean up after this effect:
+  return function cleanup() {
+    ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
+  };
 });
+```
 
 2. **useMemo**
 
@@ -98,106 +91,62 @@ The useMemo is a hook used in the functional component of react that returns a m
 
 ## Examples
 
-## # Hooks
+## Hooks
 
 ```js
 import React, { useState, useEffect } from 'react';
 
 function Example() {
-
-const [count, setCount] = useState(0);
-
-// Similar to componentDidMount and componentDidUpdate:
-
-useEffect(() => {
-
-// Update the document title using the browser API
-
-document.title = `You clicked ${count} times`;
-
-});
-
-return (
-
-<div>
-
-<p>You clicked {count} times</p>
-
-<button onClick={() => setCount(count + 1)}>
-
-Click me
-
-</button>
-
-</div>
-
-);
-
+  const [count, setCount] = useState(0);
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `You clicked ${count} times`;
+  });
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
 }
 ```
 
-### Search using axios async await api
-
+## Search using axios async await api
 ```js
 import React, { useState, useEffect } from "react";
-
 import ReactDOM from "react-dom";
-
 import axios from 'axios';
-
 function SearchResults() {
-
-const [data, setData] = useState({ hits: [] });
-
-const [query, setQuery] = useState('react');
-
-useEffect(() => {
-
-let ignore = false;
-
-async function fetchData() {
-
-const result = await axios('<https://hn.algolia.com/api/v1/search?query>=' + query);
-
-if (!ignore) setData(result.data);
-
+  const [data, setData] = useState({ hits: [] });
+  const [query, setQuery] = useState('react');
+  useEffect(() => {
+    let ignore = false;
+    async function fetchData() {
+      const result = await axios('https://hn.algolia.com/api/v1/search?query=' + query);
+      if (!ignore) setData(result.data);
+    }
+    fetchData();
+    return () => { ignore = true; }
+  }, [query]);
+  return (
+    <>
+      <input value={query} onChange={e => setQuery(e.target.value)} />
+      <ul>
+        {data.hits.map(item => (
+          <li key={item.objectID}>
+            <a href={item.url}>{item.title}</a>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
 }
-
-fetchData();
-
-return () => { ignore = true; }
-
-}, [query]);
-
-return (
-
-<>
-
-<input value={query} onChange={e => setQuery(e.target.value)}
-
-<ul>
-
-{data.hits.map(item => (
-
-<li key={item.objectID}>
-
-<a href={item.url}>{item.title}</a>
-
-</li>
-
-))}
-
-</ul>
-
-<
-
-);
-
-}
-
 const rootElement = document.getElementById("root");
-
-ReactDOM.render(<SearchResults , rootElement);
+ReactDOM.render(<SearchResults />, rootElement);
+```
 
 <https://medium.com/programming-essentials/how-to-create-a-digital-clock-with-react-hooks-aa30f76cfe3f>
 
@@ -209,69 +158,37 @@ When we pass an empty array as the second argument touseEffectit runs the callba
 
 Some effects require clean-ups, like our timer. When the component unmounts we need to stop the timer.
 
-import { useEffect, useState } from "react";
-
-function DigitalClock() {
-
-const [currentDateTime, setCurrentDateTime] = useState(new Date());
-
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZoneName: 'short' };
-
-function refreshClock() {
-
-setCurrentDateTime(new Date())
-
+```js
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
+import axios from 'axios';
+function SearchResults() {
+  const [data, setData] = useState({ hits: [] });
+  const [query, setQuery] = useState('react');
+  useEffect(() => {
+    let ignore = false;
+    async function fetchData() {
+      const result = await axios('https://hn.algolia.com/api/v1/search?query=' + query);
+      if (!ignore) setData(result.data);
+    }
+    fetchData();
+    return () => { ignore = true; }
+  }, [query]);
+  return (
+    <>
+      <input value={query} onChange={e => setQuery(e.target.value)} />
+      <ul>
+        {data.hits.map(item => (
+          <li key={item.objectID}>
+            <a href={item.url}>{item.title}</a>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
 }
-
-useEffect(() => {
-
-const timerId = setInterval(refreshClock,1000);
-
-return function cleanup() {
-
-clearInterval(timerId);
-
-};
-
-}, []);
-
-return (
-
-<div
-
-style={{
-
-display: "flex",
-
-justifyContent: "center",
-
-alignItems: "center",
-
-}}
-
->
-
-<div style={{
-
-textAlign: "center",
-
-}}>
-
-<h1>{currentDateTime.toLocaleTimeString('en-US')}</h1>
-
-<h5>{currentDateTime.toLocaleDateString('en-US', options)}</h5>
-
-<button onClick={() => refreshClock()}>Refresh</button>
-
-</div>
-
-</div>
-
-);
-
-}
-
-export default DigitalClock;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<SearchResults />, rootElement);
 ```
 
 <https://www.toptal.com/react-hooks/stale-while-revalidate>

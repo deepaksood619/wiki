@@ -103,7 +103,7 @@ from django.core.exceptions import ObjectDoesNotExist
 
 try:
 
-user = ZenatixUser.objects.get(email='deepak.sood@zenatix.com')
+user = exampleUser.objects.get(email='username@example.com')
 
 except ObjectDoesNotExist:
 

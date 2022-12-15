@@ -217,7 +217,7 @@ For JDBC sources, the following rules apply:
 
 ## SparkUI using docker
 
-docker run -it -e SPARK_HISTORY_OPTS="$SPARK_HISTORY_OPTS -Dspark.history.fs.logDirectory=s3a://stashfin-migration-data/sparkui -Dspark.hadoop.fs.s3a.access.key=AKIAU2R6AAK3FIYUQBXY -Dspark.hadoop.fs.s3a.secret.key=iedRCoJBtwJDBKSIMWKKT9NnrvuWdetAqZPQV3Eg
+docker run -it -e SPARK_HISTORY_OPTS="$SPARK_HISTORY_OPTS -Dspark.history.fs.logDirectory=s3a://example-migration-data/sparkui -Dspark.hadoop.fs.s3a.access.key=AKIAU2R6AAK3FIYUQBXY -Dspark.hadoop.fs.s3a.secret.key=iedRCoJBtwJDBKSIMWKKT9NnrvuWdetAqZPQV3Eg
 
 " -p 18080:18080 glue/sparkui:latest "/opt/spark/bin/spark-class org.apache.spark.deploy.history.HistoryServer"
 

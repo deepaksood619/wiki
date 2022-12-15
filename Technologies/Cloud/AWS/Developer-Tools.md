@@ -26,7 +26,7 @@ Store Code in Private Git Repositories
 
 ## Seting up multiple repositories in multiple accounts
 
-Host stashfin
+Host example
 
 Hostname git-codecommit.ap-south-1.amazonaws.com
 
@@ -44,7 +44,7 @@ IdentityFile ~/.ssh/id_rsa
 
 git clone ssh://odf/v1/repos/cred-workspace
 
-git remote add origin ssh://stashfin/v1/repos/decision-engine
+git remote add origin ssh://example/v1/repos/decision-engine
 
 <https://forums.aws.amazon.com/thread.jspa?threadID=228206>
 

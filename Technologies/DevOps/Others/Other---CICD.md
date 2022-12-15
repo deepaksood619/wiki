@@ -126,7 +126,7 @@ Drone is a Continuous Delivery system built on container technology. Drone uses 
 
 ## Argo
 
-- **Workflows and Pipelines**
+### Workflows and Pipelines
 
 Container native workflow engine for Kubernetes supporting both DAG and step based workflows
 
@@ -137,17 +137,17 @@ Argo Workflows is an open source container-native workflow engine for orchestrat
 - Easily run compute intensive jobs for machine learning or data processing in a fraction of the time using Argo Workflows on Kubernetes.
 - Run CI/CD pipelines natively on Kubernetes without configuring complex software development products.
 
-- **Continuous Delivery**
+### Continuous Delivery
 
 Declarative Continuous Delivery following Gitops
 
 Application definitions, configurations, and environments should be declarative and version controlled. Application deployment and lifecycle management should be automated, auditable, and easy to understand.
 
-- **Advanced Deployment Controller**
+### Advanced Deployment Controller
 
 Additional Kubernetes deployment strategies such as Blue-Green and Canary
 
-- **Events**
+### Events
 
 Event based dependency manager for Kubernetes
 
@@ -157,7 +157,7 @@ What Argo does differently is how they manage the actual CI/CD. It is specifical
 
 <https://argoproj.github.io>
 
-## Others
+### Others
 
 <https://argoproj.github.io/argo-rollouts>
 
@@ -188,101 +188,62 @@ What Argo does differently is how they manage the actual CI/CD. It is specifical
 [**https://docs.gitlab.com/ee/ci/variables/predefined_variables.html**](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html)
 
 ## Example
-
+```python
 image: docker:latest
 
 services:
-
-- docker:dind
+    - docker:dind
 
 stages:
-
-- build
-
-- deploy
+    - build
+    - deploy
 
 variables:
-
-# Common
-
-AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
-
-AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
-
-AWS_REGION: $AWS_REGION
-
-S3_BUCKET_NAME: $S3_BUCKET_NAME
-
-CDN_DISTRIBUTION_ID: $CDN_DISTRIBUTION_ID
+    # Common
+    AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+    AWS_REGION: $AWS_REGION
+    S3_BUCKET_NAME: $S3_BUCKET_NAME
+    CDN_DISTRIBUTION_ID: $CDN_DISTRIBUTION_ID
 
 cache:
-
-key: $CI_COMMIT_REF_SLUG
-
-paths:
-
-- node_modules/
+    key: $CI_COMMIT_REF_SLUG
+    paths:
+    - node_modules/
 
 ######################
-
-## BUILD STAGE ##
-
+##   BUILD STAGE    ##
 ######################
-
 Build:
-
-stage: build
-
-image: node:latest
-
-script:
-
-- yarn install
-
-- yarn build
-
-artifacts:
-
-paths:
-
-- build/
-
-expire_in: 1 day
+    stage: build
+    image: node:latest
+    script:
+    - yarn install
+    - yarn build
+    artifacts:
+    paths:
+    - build/
+    expire_in: 1 day
 
 ######################
-
-## DEPLOY STAGE ##
-
+##   DEPLOY STAGE   ##
 ######################
+Deploy:
+    stage: deploy
+    when: manual
+    before_script:
+    - apk add --no-cache curl jq py-pip
+    - pip install awscli
+    - eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
+
+    script:
+        - aws s3 cp build/ s3://$S3_BUCKET_NAME/test/ --recursive --include "*"
+        - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
 
 Deploy:
-
-stage: deploy
-
-when: manual
-
-before_script:
-
-- apk add --no-cache curl jq py-pip
-
-- pip install awscli
-
-- eval $(aws ecr get-login --no-include-email --region $AWS_REGION | sed 's|https://||')
-
-script:
-
-- aws s3 cp build/ s3://$S3_BUCKET_NAME/test/ --recursive --include "*"
-
-- aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
-
-Deploy:
-
-stage: deploy
-
-image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
-
-script:
-
-- aws s3 sync build/ s3://$S3_BUCKET_NAME/metta-web/$S3_BUCKET_PATH/ --delete
-
-- aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+    stage: deploy
+    image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+    script:
+        - aws s3 sync build/ s3://$S3_BUCKET_NAME/metta-web/$S3_BUCKET_PATH/ --delete
+        - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
+```

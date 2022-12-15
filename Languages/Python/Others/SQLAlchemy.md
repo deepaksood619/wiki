@@ -82,7 +82,7 @@ Commits should reduce memory usage, although presumably there is a trade-off bet
 
 flask-sqlacodegen
 
-sqlacodegen mysql+pymysql://developer:Ck4DmZA3TZZF@@devdb-ujwy3me96v.stashfin.com:3306/sttash_website_LIVE --table "st_quickwallet
+sqlacodegen mysql+pymysql://developer:Ck4DmZA3TZZF@@devdb-ujwy3me96v.example.com:3306/sttash_website_LIVE --table "st_quickwallet
 
 _payment"
 

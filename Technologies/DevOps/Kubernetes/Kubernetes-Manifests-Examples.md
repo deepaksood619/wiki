@@ -77,7 +77,7 @@ REDSHIFT_DB_PASSWORD: "]8C!uL~]u3~e;K<}"
 
 # aws mysql credentials"
 
-AURORA_DB_HOST: "dailydb.snapshot.stashfin.com"
+AURORA_DB_HOST: "dailydb.snapshot.example.com"
 
 AURORA_DB_PORT: "3306"
 
@@ -169,7 +169,7 @@ containers:
 
 - name: flask-republisher
 
-image: gcr.io/zenatix-data-archiver/kafka_republisher:1.1.3
+image: gcr.io/example-data-archiver/kafka_republisher:1.1.3
 
 imagePullPolicy: IfNotPresent
 
@@ -319,7 +319,7 @@ containers:
 
 - name: flask-republisher
 
-image: gcr.io/zenatix-data-archiver/kafka_republisher:1.1.6
+image: gcr.io/example-data-archiver/kafka_republisher:1.1.6
 
 imagePullPolicy: IfNotPresent
 
@@ -505,7 +505,7 @@ spec:
 containers:
 
 - name: livenotebook-commit
-image: gcr.io/zenatix-data-archiver/zenalytix:a7f14578479e
+image: gcr.io/example-data-archiver/zenalytix:a7f14578479e
 workingDir: /root/zenalytix/notebooks
 command:
 - /bin/bash

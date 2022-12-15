@@ -82,7 +82,7 @@ c [databasename]: Connect to [databasename] on local database cluster
 
 CREATE DATABASE zenalytix_db_new;
 
-psql -U zenatix -d zenalytix_db_new -p 5432
+psql -U example -d zenalytix_db_new -p 5432
 
 psql -h localhost -p 5432 -U postgres -d airflow
 

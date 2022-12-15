@@ -33,14 +33,13 @@ For each piece of state in your application:
 When React sees an element representing a user-defined component, it passes JSX attributes and children to this component as a single object. We call this object "props".
 
 ## Example
-
+```js
 function Welcome(**props**) {
-
-return <h1>Hello, {props.name}</h1>;
-
+    return <h1>Hello, {props.name}</h1>;
 }
 
 const element = <Welcome name="Sara" ;
+```
 
 ## Introduction to State
 
@@ -50,19 +49,17 @@ State is a plain javascript object that is used to record and react to user even
 
 Every class based component has a function called constructor, and is called automatically when new instance of a class is created
 
+```js
 constructor (props) {
-
-super(props);
-
-// we want to update state to term i.e. whatever user search
-
-this.state = { term : ''};
-
+    super(props);
+    
+    // we want to update state to term i.e. whatever user search
+    this.state = { term : ''};
 }
 
 Only inside our constructor function we update our state
-
 this.state = { term : '' };
+```
 
 <https://reactjs.org/docs/lifting-state-up.html>
 

@@ -152,7 +152,7 @@ s3_client = boto3.client('s3', aws_access_key_id = 'AKIAU2R6AAK3FIYUQBXY', aws_s
 
 key = f"test/{datetime.now().strftime('%Y%m%d')}/{payload['cust_id']}-{datetime.now().strftime('%Y%m%d%H%M%S%f')}.json"
 
-s3_client.put_object(Body=json.dumps(payload), Bucket='stashfin-migration-data', Key=key)
+s3_client.put_object(Body=json.dumps(payload), Bucket='example-migration-data', Key=key)
 
 The**upload_file**method is handled by the S3 Transfer Manager, this means that it will automatically handle multipart uploads behind the scenes for you, if necessary.
 

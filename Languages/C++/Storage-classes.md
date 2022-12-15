@@ -83,19 +83,13 @@ d.  Static Methods in class
 6. Typedef
 
 Assign alternative names to existing types
-
-# include <stdio.h>
-
+```c++
+#include <stdio.h>
 int main()
-
 {
-
-typedef int points;
-
-points x = 5;
-
-printf("%d ", x);
-
-return 0;
-
+    typedef int points;
+    points x = 5;
+    printf("%d ", x);
+    return 0;
 }
+```

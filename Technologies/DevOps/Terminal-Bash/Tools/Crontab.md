@@ -80,11 +80,11 @@ export EDITOR=vi ;to specify a editor to open crontab file.
 
 # cron for testing daily emails
 
-05 00 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com, sanch$
+05 00 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@example.com, sanch$
 
 # cron for daily emails
 
-15 09 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@zenatix.com,amarje$
+15 09 ** * /usr/bin/python /home/ubuntu/sources/zenalytix/manage.py mail_report_new --logs_to="priyank.trivedi@example.com,amarje$
 
 # cron for sending issues
 

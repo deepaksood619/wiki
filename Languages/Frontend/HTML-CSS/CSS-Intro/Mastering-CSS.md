@@ -29,9 +29,9 @@ Property: value;
 ## Three types of style sheets
 
 - Inline - written directly within of the html elements
-  - Ex- <h2 style="font-size: 20px; color: deeppink;">
-- Embedded - written directly inside head block using <style> tags.
-- External - written inside head with a <link rel="stylesheet" href="css/style.css">
+  - Ex- `<h2 style="font-size: 20px; color: deeppink;">`
+- Embedded - written directly inside head block using `<style>` tags.
+- External - written inside head with a `<link rel="stylesheet" href="css/style.css">`
 
 ## The Box Model and Display Properties
 
@@ -41,7 +41,7 @@ Size of element - Width + padding + Border + Margin.
 
 Box-sizing property - value: border-box; This will include padding margin and border into consideration in width and height calculation.
 
-<h1>, <h2>, <p>, list item divs, are all examples of naturally block level elements.
+`<h1>, <h2>, <p>, list item divs, are all examples of naturally block level elements.`
 
 ## Key characteristics
 
@@ -51,7 +51,7 @@ b.  They force a line break after (therefore they stack on top of each other)
 
 Inline Elements sit next to each other, they only take up size only as much as they need.
 
-<anchor> <span> <i> <b> <strong> <n>
+`<anchor> <span> <i> <b> <strong> <n>`
 
 ## CSS resets
 

@@ -115,13 +115,13 @@ wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <https://facebook.com>
 ```
 apt install apache2
 brew install apache2
-ab -c 50 -n 500 -s 90 <http://www.stashfin.com>
+ab -c 50 -n 500 -s 90 <http://www.example.com>
 
-ab -c 50 -n 500 -s 90 <http://stashfin-website.staging>
+ab -c 50 -n 500 -s 90 <http://example-website.staging>
 
-ab -c 100 -n 500 -s 90 <http://stashfin-website.staging> (Success)
+ab -c 100 -n 500 -s 90 <http://example-website.staging> (Success)
 
-ab -c 500 -n 5000 -s 90 <http://stashfin-website.staging> (Fail)
+ab -c 500 -n 5000 -s 90 <http://example-website.staging> (Fail)
 
 ab -c 500 -n 5000 -s 90 <http://bigbet-nlb-7ac1185001d91c31.elb.us-west-2.amazonaws.com>
 
@@ -148,7 +148,7 @@ siege -c2 -t2m [URL]
 - hey / boom
 
 ```
-hey <https://dev.stashfin.com>
+hey <https://dev.example.com>
 <https://github.com/rakyll/hey>
 ```
 
@@ -217,53 +217,53 @@ localhost:8089
 
 ## MQTT Stresser**
 
-docker run inovex/mqtt-stresser -broker tcp://[104.211.220.105:1883](http://104.211.220.105:1883/) -num-clients 100 -num-messages 10 -rampup-delay 1s -rampup-size 10 -global-timeout 180s -timeout 20s -username *zenatix_mqtt_client -password xitanez123*
+docker run inovex/mqtt-stresser -broker tcp://[104.211.220.105:1883](http://104.211.220.105:1883/) -num-clients 100 -num-messages 10 -rampup-delay 1s -rampup-size 10 -global-timeout 180s -timeout 20s -username *example_mqtt_client -password xitanez123*
 ## EMQTT Benchmark
 
-docker run -d --name bench --network zenatix-docker rkosyk/emqtt-benchmark
+docker run -d --name bench --network example-docker rkosyk/emqtt-benchmark
 
 docker exec -it bench /bin/bash
 ## Subscribe
 
 create 50K concurrent clients at the arrival rate of 100/sec:
 
-./emqtt_bench_sub -h mqtt.zenatix.com -c 50000 -i 10 -t bench/%i -q 2
+./emqtt_bench_sub -h mqtt.example.com -c 50000 -i 10 -t bench/%i -q 2
 
-./emqtt_bench_sub -h mqtt.zenatix.com -c 2000 -i 10 -t bench/%i -q 2
+./emqtt_bench_sub -h mqtt.example.com -c 2000 -i 10 -t bench/%i -q 2
 
-./emqtt_bench_sub -h mqtt.zenatix.com -u zenatix_mqtt_client -p xitanez123 -c 5 -i 5 -t bench/%i -q 1
+./emqtt_bench_sub -h mqtt.example.com -u example_mqtt_client -p xitanez123 -c 5 -i 5 -t bench/%i -q 1
 
-./emqtt_bench_sub -h mqtt.zenatix.com -c 2200 -i 10 -t bench/%i -q 2
+./emqtt_bench_sub -h mqtt.example.com -c 2200 -i 10 -t bench/%i -q 2
 
 ./emqtt_bench_sub -h emqx -c 10 -i 10 -t bench/%i -q 2
 Around 1985 connections are no longer accepted (because of local)
-./emqtt_bench_sub -h mqtt.zenatix.com -c 10 -i 10 -t bench/%i -q 2 -C false
+./emqtt_bench_sub -h mqtt.example.com -c 10 -i 10 -t bench/%i -q 2 -C false
 ## Publish
 
 create 100 clients and each client publish messages at the rate of 100 msg/sec with 256 Byte data size
 
-./emqtt_bench_pub -h mqtt.zenatix.com -c 100 -I 10 -t bench/%i -s 256
+./emqtt_bench_pub -h mqtt.example.com -c 100 -I 10 -t bench/%i -s 256
 
-./emqtt_bench_pub -h mqtt.zenatix.com -c 10 -I 1 -t bench/%i -s 256 -q 1 -C false
+./emqtt_bench_pub -h mqtt.example.com -c 10 -I 1 -t bench/%i -s 256 -q 1 -C false
 ## Final
 
 Subscribe
 
-./emqtt_bench_sub -h mqtt.zenatix.com -u zenatix_mqtt_client -P xitanez123 -c 1000 -i 10 -t bench/%i -q 1 -C false
-./emqtt_bench_sub -h mqtt.zenatix.com -u zenatix_mqtt_client -P xitanez123 -c 1 -i 10 -t bench/+ -q 1 -C false
+./emqtt_bench_sub -h mqtt.example.com -u example_mqtt_client -P xitanez123 -c 1000 -i 10 -t bench/%i -q 1 -C false
+./emqtt_bench_sub -h mqtt.example.com -u example_mqtt_client -P xitanez123 -c 1 -i 10 -t bench/+ -q 1 -C false
 ## Publish
 
 ## Publish doesn't need persistent connection (clean session = true)
 
 # payload size 10KB
 
-./emqtt_bench_pub -h mqtt.zenatix.com -u zenatix_mqtt_client -P xitanez123 -c 500 -I 10000 -t bench/%i -s 10000 -q 1
+./emqtt_bench_pub -h mqtt.example.com -u example_mqtt_client -P xitanez123 -c 500 -I 10000 -t bench/%i -s 10000 -q 1
 # payload size 1KB
 
-./emqtt_bench_pub -h mqtt.zenatix.com -u zenatix_mqtt_client -P xitanez123 -c 100 -I 1000 -t bench/%i -s 1000 -q 1
+./emqtt_bench_pub -h mqtt.example.com -u example_mqtt_client -P xitanez123 -c 100 -I 1000 -t bench/%i -s 1000 -q 1
 10000 Clients with 10KB Payload at 30 sec at QoS 1
 
-./emqtt_bench_pub -h mqtt.zenatix.com -u zenatix_mqtt_client -P xitanez123 -c 10000 -I 30000 -t bench/%i -s 10000 -q 1
+./emqtt_bench_pub -h mqtt.example.com -u example_mqtt_client -P xitanez123 -c 10000 -I 30000 -t bench/%i -s 10000 -q 1
 <https://github.com/emqtt/emqtt_benchmark>
 ```
 

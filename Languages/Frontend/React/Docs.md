@@ -55,39 +55,31 @@ Ref forwarding is a technique for automatically passing a[ref](https://reactjs.o
 
 1. We create a[React ref](https://reactjs.org/docs/refs-and-the-dom.html)by callingReact.createRefand assign it to arefvariable.
 
-2. We pass ourrefdown to<FancyButton ref={ref}>by specifying it as a JSX attribute.
+2. We pass ourrefdown to `<FancyButton ref={ref}>` by specifying it as a JSX attribute.
 
 3. React passes therefto the(props, ref) => ...function insideforwardRefas a second argument.
 
-4. We forward thisrefargument down to<button ref={ref}>by specifying it as a JSX attribute.
+4. We forward thisrefargument down to `<button ref={ref}>` by specifying it as a JSX attribute.
 
-5. When the ref is attached,ref.currentwill point to the<button>DOM node.
+5. When the ref is attached,ref.currentwill point to the `<button>` DOM node.
 
 - [Fragments](https://reactjs.org/docs/fragments.html)
 
 Fragments let you group a list of children without adding extra nodes to the DOM
-
+```js
 class Columns extends React.Component {
-
-render() {
-
-return (
-
-## <>
-
-<td>Hello</td>
-
-<td>World</td>
-
-## <
-
-);
-
+  render() {
+    return (
+      <>
+        <td>Hello</td>
+        <td>World</td>
+      </>
+    );
+  }
 }
 
-}
-
-use **<>** or **<React.Fragment>**
+use <> or <React.Fragment>
+```
 
 ## Keyed Fragments
 

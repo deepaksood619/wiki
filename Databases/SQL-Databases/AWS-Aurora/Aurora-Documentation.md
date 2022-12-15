@@ -18,7 +18,7 @@ You can use the**SELECT INTO OUTFILE S3**statement to query data from an Amazon 
 
 SELECT * FROM equifax_raw_response WHERE inserted_on BETWEEN '2016-01-01' AND '2019-08-31'
 
-INTO OUTFILE S3 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_2016-01-01_to_2019-08-31'
+INTO OUTFILE S3 's3-ap-south-1://example-migration-data/rds/equifax_raw_response/equifax_raw_response_2016-01-01_to_2019-08-31'
 
 FIELDS TERMINATED BY ','
 
@@ -27,7 +27,7 @@ LINES TERMINATED BY 'n'
 MANIFEST ON;
 SELECT * FROM equifax_raw_response WHERE inserted_on LIMIT 100
 
-INTO OUTFILE S3 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_escaped'
+INTO OUTFILE S3 's3-ap-south-1://example-migration-data/rds/equifax_raw_response/equifax_raw_response_escaped'
 
 CHARACTER SET utf8mb4
 
@@ -44,7 +44,7 @@ MANIFEST ON
 OVERWRITE ON;
 -- Load Back data from s3
 
-LOAD DATA FROM S3 MANIFEST 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_2016-01-01_to_2019-08-31.manifest'
+LOAD DATA FROM S3 MANIFEST 's3-ap-south-1://example-migration-data/rds/equifax_raw_response/equifax_raw_response_2016-01-01_to_2019-08-31.manifest'
 
 INTO TABLE equifax_raw_response
 

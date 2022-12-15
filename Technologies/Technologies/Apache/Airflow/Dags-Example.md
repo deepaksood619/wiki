@@ -17,7 +17,7 @@ Modified: 2021-11-22 14:48:38 +0500
 schedule_interval="@daily"
 
 ```python
-###### Example 1
+# Example 1
 from datetime import datetime, timedelta
 
 from airflow.models import DAG
@@ -27,7 +27,7 @@ args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(year=2019, month=9, day=11),
-    'email': ['deepak.sood@zenatix.com', 'prakhar.shukla@zenatix.com'],
+    'email': ['username@example.com'],
     'email_on_failure': True,
     'email_on_retry': True,
     'retries': 1,
@@ -51,7 +51,7 @@ cache_metrics_readings = BashOperator(
 if __name__ == '__main__':
     dag.cli()
 
-###### Example 2 Kubernetes Pod Operator
+# Example 2 Kubernetes Pod Operator
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.contrib.operators.kubernetes_pod_operator import KubernetesPodOperator
@@ -61,7 +61,7 @@ default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
     'start_date': datetime(year=2019, month=9, day=11),
-    'email': ['deepak.sood@zenatix.com'],
+    'email': ['username@example.com'],
     'email_on_failure': True,
     'email_on_retry': True,
     'retries': 1,
@@ -163,7 +163,7 @@ headers = {
 
 ```
 
-## StashFin Standard DAG
+## example Standard DAG
 
 ```python
  from airflow import DAG

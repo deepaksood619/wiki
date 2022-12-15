@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Office/Projects/Pinpoint---Communication---Alerting.md",
+                "file": "Languages/C++/STL-Containers.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Office/Projects/Pinpoint---Communication---Alerting.md",
+                "file": "Languages/C++/STL-Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Office/Projects/Pinpoint---Communication---Alerting.md",
+                "file": "Languages/C++/STL-Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Office/Projects/Pinpoint---Communication---Alerting.md"
+                "file": "Languages/C++/STL-Containers.md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
-    "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
-    "Technologies/DevOps/Others/Jenkins.md",
-    "Office/Stashfin/Modules.md",
-    "Office/Stashfin/Next-Steps---Reviews---Feedbacks---Team.md",
-    "Office/Projects/Others.md",
-    "Office/Stashfin/About.md",
-    "Office/Stashfin/Business---Product.md",
-    "Technologies/DevOps/Monitoring/Grafana.md",
+    "Technologies/DevOps/Docker/Dockerfile-example.md",
+    "Technologies/Technologies/Kafka/kafkacat.md",
     "Office/TODO/Tech-&-Courses-TODO.md",
-    "Languages/C++/Header-files.md"
+    "AI/Data-Science/Data-Visualization/D3-(Data-Driven-Documents).md",
+    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+    "Languages/C++/IO.md",
+    "Office/Credentials/External-Tech.md",
+    "Languages/Frameworks/Android/Kotlin.md",
+    "Office/Projects/Pinpoint---Communication---Alerting.md",
+    "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
   ]
 }

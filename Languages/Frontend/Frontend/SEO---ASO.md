@@ -26,9 +26,9 @@ Search engine marketing is the practice of marketing a business using paid adver
 
 <https://sitechecker.pro>
 
-<https://seositecheckup.com/seo-audit/www.stashfin.com>
+<https://seositecheckup.com/seo-audit/www.example.com>
 
-<https://www.seoptimer.com/www.stashfin.com>
+<https://www.seoptimer.com/www.example.com>
 
 <https://app.neilpatel.com/en/seo_analyzer/site_audit>
 
@@ -172,7 +172,7 @@ Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https:
 <tr class="odd">
 <td><strong>utm_source</strong></td>
 <td><p>Identifies which site sent the traffic, and is a required parameter.</p>
-<p>Identify the advertiser, site, publication, etc. that is sending traffic to your property, for example: stashfin, paisa_bazar, google, ns, gam.</p></td>
+<p>Identify the advertiser, site, publication, etc. that is sending traffic to your property, for example: example, paisa_bazar, google, ns, gam.</p></td>
 <td>utm_source=<strong>Google</strong></td>
 </tr>
 <tr class="even">

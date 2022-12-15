@@ -88,7 +88,7 @@ if [ "$1" ]; then
 
 # server name is passed, ssh
 
-ssh ubuntu@$1.zenatix.com
+ssh ubuntu@$1.example.com
 
 else
 
@@ -98,7 +98,7 @@ echo "Enter server name to ssh - "
 
 read SERVER_NAME
 
-ssh ubuntu@$SERVER_NAME.zenatix.com
+ssh ubuntu@$SERVER_NAME.example.com
 
 fi
 

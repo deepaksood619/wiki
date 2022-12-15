@@ -88,7 +88,7 @@ Glue Transformation from Aurora DB to Parquet in s3
  job.init(args['JOB_NAME'], args)
 
  datasource0 = glueContext.create_dynamic_frame.from_catalog(database = "aurora", table_name = "aurorasttash_website_live_userdevicesms_old", transformation_ctx = "datasource0")
- # datasource0 = glueContext.create_dynamic_frame_from_options("s3", {'paths': ["s3://stashfin-migration-data/test"], 'recurse':True, 'groupFiles': 'inPartition', 'groupSize': '104857600'}, format="json")
+ # datasource0 = glueContext.create_dynamic_frame_from_options("s3", {'paths': ["s3://example-migration-data/test"], 'recurse':True, 'groupFiles': 'inPartition', 'groupSize': '104857600'}, format="json")
 
  applymapping1 = ApplyMapping.apply(frame = datasource0, mappings = [("device_id", "string", "device_id", "string"), ("sender", "string", "sender", "string"), ("message_type", "string", "message_type", "string"), ("id", "int", "id", "int"), ("customer_id", "int", "customer_id", "int"), ("message", "string", "message", "string"), ("create_date", "timestamp", "create_date", "timestamp"), ("sms_time", "timestamp", "sms_time", "timestamp")], transformation_ctx = "applymapping1")
 
@@ -96,7 +96,7 @@ Glue Transformation from Aurora DB to Parquet in s3
 
  dropnullfields3 = DropNullFields.apply(frame = resolvechoice2, transformation_ctx = "dropnullfields3")
  # datasource_df = dropnullfields3.repartition(2)
- datasink4 = glueContext.write_dynamic_frame.from_options(frame = dropnullfields3, connection_type = "s3", connection_options = {"path": "s3://stashfin-migration-data/glue/user_device_sms_old"}, format = "parquet", transformation_ctx = "datasink4")
+ datasink4 = glueContext.write_dynamic_frame.from_options(frame = dropnullfields3, connection_type = "s3", connection_options = {"path": "s3://example-migration-data/glue/user_device_sms_old"}, format = "parquet", transformation_ctx = "datasink4")
  job.commit()
 
 PySpark Tutorial

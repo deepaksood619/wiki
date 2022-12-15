@@ -24,7 +24,7 @@ commands:
 
 - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
 
-- REPOSITORY_URI=331916247734.dkr.ecr.ap-south-1.amazonaws.com/stashfin-repo
+- REPOSITORY_URI=331916247734.dkr.ecr.ap-south-1.amazonaws.com/example-repo
 
 - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
 

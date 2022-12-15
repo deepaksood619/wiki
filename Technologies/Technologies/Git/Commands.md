@@ -32,7 +32,7 @@ git remote add origin <https://github.com/deepaksood619/DjangoDemoApplication.gi
 
 git push -u origin master
 
-git remote set-url origin git@gitlab.com:stashfin-datascience/decision-engine.git (change remote repository origin)
+git remote set-url origin git@gitlab.com:example-datascience/decision-engine.git (change remote repository origin)
 
 git remote rm destination
 

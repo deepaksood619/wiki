@@ -234,8 +234,8 @@ or by configuringetc/plugins/emqx_auth_username.conf:
 
 auth.username.test = public
 
-./bin/emqx_ctl users add **zenatix_mqtt_client xitanez123**
+./bin/emqx_ctl users add **example_mqtt_client xitanez123**
 
 ## Others
 
-docker run --net=zenatix-docker -e EMQTT_URL=<http://emqx:8080> -e EMQTT_API_USER=admin -e EMQTT_API_PASS=public oxygen0211/emqtt-prometheus-exporter
+docker run --net=example-docker -e EMQTT_URL=<http://emqx:8080> -e EMQTT_API_USER=admin -e EMQTT_API_PASS=public oxygen0211/emqtt-prometheus-exporter

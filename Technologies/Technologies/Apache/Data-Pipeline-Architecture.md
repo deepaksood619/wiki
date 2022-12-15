@@ -143,7 +143,7 @@ Real-time free stock data is available from IEX with no license key. The data st
 
 <https://dzone.com/articles/real-time-stock-processing-with-apache-nifi-and-ap>
 
-## Zenatix Streaming Architecture
+## example Streaming Architecture
 
 ![MOTT Connector groker MOTT Devices Broker Consumer ](../../media/Technologies-Apache-Data-Pipeline-Architecture-image15.png)
 

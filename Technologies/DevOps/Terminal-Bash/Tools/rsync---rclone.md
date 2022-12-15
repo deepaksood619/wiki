@@ -56,7 +56,7 @@ rclone sync /home/local/directory remote:container
 
 # copy from local to remote
 
-rclone --config s3.conf copy --no-traverse remote:zenatix-postgres-backup/`date +%Y-%m-%d`/$dump_file.tar.gz .
+rclone --config s3.conf copy --no-traverse remote:example-postgres-backup/`date +%Y-%m-%d`/$dump_file.tar.gz .
 
 # copy from remote to local
 

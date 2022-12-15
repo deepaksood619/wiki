@@ -27,13 +27,13 @@ chmod 400 devec2.pem
 
 ssh -i devec2.pem ec2-user@18.237.184.186
 
-ssh ubuntu@energy.zenatix.com (simple ssh)
+ssh ubuntu@energy.example.com (simple ssh)
 
-ssh -L 8889:localhost:8888 ubuntu@bepemis.zenatix.com (port forwarding from server to local)
+ssh -L 8889:localhost:8888 ubuntu@bepemis.example.com (port forwarding from server to local)
 
-ssh -i private.pem ubuntu@energy.zenatix.com (using key)
+ssh -i private.pem ubuntu@energy.example.com (using key)
 
-ssh -i id_rsa ubuntu@openvpn.zenatix.com
+ssh -i id_rsa ubuntu@openvpn.example.com
 
 ## Other
 
@@ -57,9 +57,9 @@ ssh-import-id
 
 ssh-keygen -t rsa -b 4096 -C "deepaksood619@gmail.com"
 
-ssh-keygen -t rsa -b 4096 -C "deepak.sood@stashfin.com"
+ssh-keygen -t rsa -b 4096 -C "username@example.com"
 
-ssh-keygen -R energy.zenatix.com # reset the saved key of server
+ssh-keygen -R energy.example.com # reset the saved key of server
 
 ssh-keygen -t ecdsa -b 521 -C "deepaksood619@gmail.com"
 
@@ -69,7 +69,7 @@ Add all the details for a server ssh to ~/.ssh/config file
 
 Host dev
 
-HostName dev.zenatix.com
+HostName dev.example.com
 
 Port 1234
 
@@ -117,7 +117,7 @@ scp /local/dir/ username@remoteHost:/remote/dir/file.txt
 
 ## SCP directory (use -r option)
 
-scp -r ubuntu@energy.zenatix.com:/home/ubuntu/sources/zenalytix/media /home/ubuntu/sources/zenalytix/media
+scp -r ubuntu@energy.example.com:/home/ubuntu/sources/zenalytix/media /home/ubuntu/sources/zenalytix/media
 
 ## Grep
 
@@ -412,7 +412,7 @@ nslookup -type=any google.com #Query DNS Record
 
 nslookup -type=soa google.com #Query Start of Authority
 
-nslookup kafka0.zenatix.com
+nslookup kafka0.example.com
 
 ## dig command
 

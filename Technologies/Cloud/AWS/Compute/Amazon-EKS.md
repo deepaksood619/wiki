@@ -57,9 +57,9 @@ mapUsers:
 
 ----
 
-- userarn: arn:aws:iam::331916247734:user/deepak.sood@stashfin.com
+- userarn: arn:aws:iam::331916247734:user/username@example.com
 
-username: deepak.sood
+username: username
 
 groups:
 
@@ -71,9 +71,9 @@ groups:
 
 aws eks --region ap-south-1 list-clusters
 
-aws eks --region ap-south-1 update-kubeconfig --name stashfin-dev-eks
+aws eks --region ap-south-1 update-kubeconfig --name example-dev-eks
 
-aws eks --region ap-south-1 update-kubeconfig --name stashfin-prod-eks
+aws eks --region ap-south-1 update-kubeconfig --name example-prod-eks
 
 ## #login to AWS ECR
 
@@ -99,9 +99,9 @@ A cluster will be created with default parameters
 
 eksctl create cluster --name prod --version 1.14 --region ap-south-1 --fargate
 
-eksctl create cluster --name=stashfin --nodes=2 --version 1.14 --region ap-south-1 --nodes-min=2 --nodes-max=5
+eksctl create cluster --name=example --nodes=2 --version 1.14 --region ap-south-1 --nodes-min=2 --nodes-max=5
 
-eksctl delete cluster --name=stashfin
+eksctl delete cluster --name=example
 
 eksctl create cluster --managed
 
@@ -147,7 +147,7 @@ eksctl version Output the version of eksctl
 
 eksctl help Help about any command
 
-eksctl utils write-kubeconfig --cluster=stashfin [--kubeconfig=<path>][--set-kubeconfig-context=<bool>]
+eksctl utils write-kubeconfig --cluster=example [--kubeconfig=<path>][--set-kubeconfig-context=<bool>]
 
 <https://eksctl.io>
 

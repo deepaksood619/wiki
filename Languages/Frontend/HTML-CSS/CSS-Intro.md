@@ -33,7 +33,7 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 - **Specificity**
   - Browser reads css rules from top to bottom, so if there are two equal css rules, the browser will apply which is last.
   - 1st rule - More specific css rules apply over others
-  - Specificity - <inline styles> <id> <class, attributes and pseudo-classes> <Elements and pseudo elements>
+  - Specificity - `<inline styles> <id> <class, attributes and pseudo-classes> <Elements and pseudo elements>`
 - **CSS Modules -** Selectors, Box model, Backgrounds and Borders, Text Effects, Transformations
   - **Imports -** merge all imports into one
   - **Nesting -** Moduler code
@@ -63,7 +63,7 @@ CSS is easy to learn and understand but it provides powerful control over the pr
 
 ## Advanced Selectors
 
-- tag selector <tag>
+- tag selector `<tag>`
 - class selector .container
 - id selector - #container
 - Stacked selectors (a, strong { color: red; })

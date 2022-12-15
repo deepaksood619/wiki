@@ -10,7 +10,7 @@ Modified: 2018-12-04 13:27:08 +0500
 
 */***
 
-*The caller references the constants using<tt>Consts.EMPTY_STRING</tt>,*
+*The caller references the constants using Consts.EMPTY_STRING,*
 
 *and so on. Thus, the caller should be prevented from constructing objects of this class, by declaring this private constructor.*
 

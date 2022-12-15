@@ -176,26 +176,29 @@ You can first write a CSS module (e.g.alert.module.css) like this:
 
 ```js
 .success {
-color: green;
+  color: green;
 }
 .error {
-color: red;
+  color: red;
 }
+```
 
 And useclassnameslike this:
-
+```js
 import styles from './alert.module.css'
 import cn from 'classnames'
 
 export default function Alert({ children, type }) {
-return (
-<div
-className={cn({
-})}
->
-{children}
-</div>
-)
+  return (
+    <div
+      className={cn({
+        [styles.success]: type === 'success',
+        [styles.error]: type === 'error'
+      })}
+    >
+      {children}
+    </div>
+  )
 }
 ```
 

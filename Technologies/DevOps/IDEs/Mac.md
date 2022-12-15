@@ -114,7 +114,7 @@ Go to keep.google.com > go to chrome more tools > create shortcut > check open a
 
 19. **Android file transfer**
 
-20. Stashfin
+20. example
 
     a.  **OpenVPN**
 
@@ -370,7 +370,7 @@ alias rb32='openssl rand -base64 32'
 
 alias r32='openssl rand -hex 32'
 
-alias sf='cd ~/Repositories/stashfin/'
+alias sf='cd ~/Repositories/example/'
 
 alias python=/usr/local/bin/python3.7
 

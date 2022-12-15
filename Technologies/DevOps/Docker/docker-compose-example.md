@@ -24,7 +24,7 @@ GIT_USERNAME: ${GIT_USERNAME}
 
 GIT_PASSWORD: ${GIT_PASSWORD}
 
-image: gcr.io/zenatix-data-archiver/zenalytix:fc3c0ae06074
+image: gcr.io/example-data-archiver/zenalytix:fc3c0ae06074
 
 zenalytix-dev:
 
@@ -34,7 +34,7 @@ tty: true
 
 restart: always / "no" / on-failure / unless-stopped
 
-image: gcr.io/zenatix-data-archiver/zenalytix:fc3c0ae06074
+image: gcr.io/example-data-archiver/zenalytix:fc3c0ae06074
 
 deploy:
 
@@ -114,7 +114,7 @@ ports:
 
 networks:
 
-zenatix-docker:
+example-docker:
 
 ipv4_address: ${ZENALYTIX_IP}
 
@@ -214,11 +214,11 @@ networks:
 
 networks:
 
-zenatix-docker:
+example-docker:
 
 external:
 
-name: zenatix-docker
+name: example-docker
 
 airflow-docker:
 

@@ -104,7 +104,7 @@ s3 = boto3.client('s3', aws_access_key_id = 'AKIAU2R6AAK3FIYUQBXY', aws_secret_a
 
 r = s3.select_object_content(
 
-Bucket='stashfin-migration-data',
+Bucket='example-migration-data',
 
 # Key='rds/equifax_raw_response/st_comment.part_00000'
 

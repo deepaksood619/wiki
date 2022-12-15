@@ -90,20 +90,16 @@ Here are some examples:
 
 ## HTML Attributes
 
-## onchange
-
+### onchange
+```js
 onchange="js_function(this)"
 
 <script>
-
 function js_function(obj) {
-
-console.log(obj.id)
-
-console.log(obj.value)
-
-obj.classList.add('custom-danger')
-
+    console.log(obj.id)
+    console.log(obj.value)
+    
+    obj.classList.add('custom-danger')
 }
-
 </script>
+```

@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "STL-Containers",
+      "path": "Languages/C++/STL-Containers.md"
+    },
+    {
+      "basename": "Dockerfile-example",
+      "path": "Technologies/DevOps/Docker/Dockerfile-example.md"
+    },
+    {
+      "basename": "kafkacat",
+      "path": "Technologies/Technologies/Kafka/kafkacat.md"
+    },
+    {
+      "basename": "Tech-&-Courses-TODO",
+      "path": "Office/TODO/Tech-&-Courses-TODO.md"
+    },
+    {
+      "basename": "D3-(Data-Driven-Documents)",
+      "path": "AI/Data-Science/Data-Visualization/D3-(Data-Driven-Documents).md"
+    },
+    {
+      "basename": "Obsidian---Note-Taking---Second-Brain",
+      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+    },
+    {
+      "basename": "IO",
+      "path": "Languages/C++/IO.md"
+    },
+    {
+      "basename": "External-Tech",
+      "path": "Office/Credentials/External-Tech.md"
+    },
+    {
+      "basename": "Kotlin",
+      "path": "Languages/Frameworks/Android/Kotlin.md"
+    },
+    {
       "basename": "Pinpoint---Communication---Alerting",
       "path": "Office/Projects/Pinpoint---Communication---Alerting.md"
     },
@@ -37,10 +73,6 @@
       "path": "Technologies/DevOps/Monitoring/Grafana.md"
     },
     {
-      "basename": "Tech-&-Courses-TODO",
-      "path": "Office/TODO/Tech-&-Courses-TODO.md"
-    },
-    {
       "basename": "Header-files",
       "path": "Languages/C++/Header-files.md"
     },
@@ -69,16 +101,8 @@
       "path": "Languages/Python/Others/Flask.md"
     },
     {
-      "basename": "Obsidian---Note-Taking---Second-Brain",
-      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
-    },
-    {
       "basename": "Youtube---Podcasts---Magazine---Movies",
       "path": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
-    },
-    {
-      "basename": "External-Tech",
-      "path": "Office/Credentials/External-Tech.md"
     },
     {
       "basename": "Internal-Tech",
@@ -175,18 +199,6 @@
     {
       "basename": "Improvements---Feedbacks",
       "path": "Office/Ideas/Improvements---Feedbacks.md"
-    },
-    {
-      "basename": "Reductions",
-      "path": "Algorithms/Advanced-Algorithms/Reductions.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Daily Journal Template",
-      "path": "Journal/Templates/Daily Journal Template.md"
     }
   ],
   "omittedPaths": [],
