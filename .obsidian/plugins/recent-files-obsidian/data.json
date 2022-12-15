@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Grafana",
+      "path": "Technologies/DevOps/Monitoring/Grafana.md"
+    },
+    {
+      "basename": "Tech-&-Courses-TODO",
+      "path": "Office/TODO/Tech-&-Courses-TODO.md"
+    },
+    {
       "basename": "Header-files",
       "path": "Languages/C++/Header-files.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Python-Tricks",
       "path": "Languages/Python/Advanced/Python-Tricks.md"
-    },
-    {
-      "basename": "Tech-&-Courses-TODO",
-      "path": "Office/TODO/Tech-&-Courses-TODO.md"
     },
     {
       "basename": "Others---Data",
