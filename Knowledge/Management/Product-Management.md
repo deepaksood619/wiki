@@ -98,7 +98,7 @@ Fundamentally, you are responsible for delivering business impact. If your team 
 
 2. Marshaling the resources of your team
 
-Your job isn't to do the building yourself but instead to increase the leverage of your cross-functional teammates---designers, engineers, data scientists, researchers---to deliver impact. To paraphrase[Andy Grove](https://email.mg2.substack.com/c/eJwlkM1yhSAMhZ9Glg4_irhg0U37CF0yaKKXuQgWsLe-ffGaYXIIIXMm32wLrjGdeo-5kCuZcu6oA76yx1IwkSNjMg606AXrGSWgO2CqV8RlsyTEzTqvSzqQ7Mfk3WyLi-EaYFR1PXnohUs79KOdl4HhICdmbU_VskhOuarX29Ye4DDMqGPwp9mtA-L1o5Q9N-Kj4Z_1YGhf7ul2BGfbmNb6dNVVPgIkfJmvFH-x4eI7ueLCamwAU9DOj1oQp6sfqyGZ5IKKlrcAUo5qGUfFJLAe2k71599P9k1Ht5W3-ZhysfOzneNGkgbE3T5zjCDZWL-s1-rvXt3cVN2O4MppMNjJI9xQyo32jcmsGDBV5GBs0UyKgQ6j4rSj8oZQqXUdrZw7Qao5xDoVtMcQzn-dRI-e), a product manager's output = the output of their team.
+Your job isn't to do the building yourself but instead to increase the leverage of your cross-functional teammates---designers, engineers, data scientists, researchers---to deliver impact. To paraphrase [Andy Grove](https://email.mg2.substack.com/c/eJwlkM1yhSAMhZ9Glg4_irhg0U37CF0yaKKXuQgWsLe-ffGaYXIIIXMm32wLrjGdeo-5kCuZcu6oA76yx1IwkSNjMg606AXrGSWgO2CqV8RlsyTEzTqvSzqQ7Mfk3WyLi-EaYFR1PXnohUs79KOdl4HhICdmbU_VskhOuarX29Ye4DDMqGPwp9mtA-L1o5Q9N-Kj4Z_1YGhf7ul2BGfbmNb6dNVVPgIkfJmvFH-x4eI7ueLCamwAU9DOj1oQp6sfqyGZ5IKKlrcAUo5qGUfFJLAe2k71599P9k1Ht5W3-ZhysfOzneNGkgbE3T5zjCDZWL-s1-rvXt3cVN2O4MppMNjJI9xQyo32jcmsGDBV5GBs0UyKgQ6j4rSj8oZQqXUdrZw7Qao5xDoVtMcQzn-dRI-e), a product manager's output = the output of their team.
 
 3. Identify and solve the most impactful customer problems
 
@@ -229,9 +229,9 @@ Remonetisation plan - hook and bait the customers
 
 ## User Stories / User Story
 
-In[software development](https://en.wikipedia.org/wiki/Software_development)and[product management](https://en.wikipedia.org/wiki/Product_management), auser storyis an informal, natural language description of features of a software system. They are written from the perspective of an[end user](https://en.wikipedia.org/wiki/User_(computing)#End-user)or[user of a system](https://en.wikipedia.org/wiki/User_(system)), and may be recorded on index cards,[Post-it notes](https://en.wikipedia.org/wiki/Post-it_note), or digitally in project management software.Depending on the project, user stories may be written by different stakeholders like client, user, manager, or development team.
+In [software development](https://en.wikipedia.org/wiki/Software_development) and [product management](https://en.wikipedia.org/wiki/Product_management), auser storyis an informal, natural language description of features of a software system. They are written from the perspective of an [end user](https://en.wikipedia.org/wiki/User_(computing)#End-user) or [user of a system](https://en.wikipedia.org/wiki/User_(system)), and may be recorded on index cards,[Post-it notes](https://en.wikipedia.org/wiki/Post-it_note), or digitally in project management software.Depending on the project, user stories may be written by different stakeholders like client, user, manager, or development team.
 
-User stories are a type of[boundary object](https://en.wikipedia.org/wiki/Boundary_object). They facilitate[sensemaking](https://en.wikipedia.org/wiki/Sensemaking)and communication; and may help software teams document their understanding of the system and its context.
+User stories are a type of [boundary object](https://en.wikipedia.org/wiki/Boundary_object). They facilitate [sensemaking](https://en.wikipedia.org/wiki/Sensemaking) and communication; and may help software teams document their understanding of the system and its context.
 
 <https://en.wikipedia.org/wiki/User_story>
 

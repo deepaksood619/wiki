@@ -526,7 +526,7 @@ If you're any good at all, you know you can be better. -- Lindsay Buckingham
 
 Destiny is not a fixed destination -- it is what you create. -- Sadhguru
 
-It's easier to ask[forgiveness](https://en.wikiquote.org/wiki/Forgiveness)than it is to get permission. -- Grace Hopper
+It's easier to ask [forgiveness](https://en.wikiquote.org/wiki/Forgiveness) than it is to get permission. -- Grace Hopper
 
 "Where you spend your attention is where you spend your life." --
 

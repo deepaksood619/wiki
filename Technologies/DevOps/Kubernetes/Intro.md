@@ -51,7 +51,7 @@ Kubernetes progressively rolls out changes to your application or its configurat
 
 - Storage Orchestration
 
-Automatically mount the storage system of your choice, whether from local storage, a public cloud provider such as[GCP](https://cloud.google.com/storage/)or[AWS](https://aws.amazon.com/products/storage/), or a network storage system such as NFS, iSCSI, Gluster, Ceph, Cinder, or Flocker.
+Automatically mount the storage system of your choice, whether from local storage, a public cloud provider such as [GCP](https://cloud.google.com/storage/) or [AWS](https://aws.amazon.com/products/storage/), or a network storage system such as NFS, iSCSI, Gluster, Ceph, Cinder, or Flocker.
 
 - Self-healing
 

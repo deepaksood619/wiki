@@ -47,9 +47,9 @@ Historical
 
 <http://localhost:8083/druid/historical/v1/readiness>
 
-[http://localhost:8083/druid/historical/v1/](http://localhost:8083/druid/historical/v1/readiness)loadstatus
+[http://localhost:8083/druid/historical/v1/](http://localhost:8083/druid/historical/v1/readiness) loadstatus
 
-[http://localhost:8083/](http://localhost:8083/druid/historical/v1/readiness)status
+[http://localhost:8083/](http://localhost:8083/druid/historical/v1/readiness) status
 
 ## Druid segment cleanup
 

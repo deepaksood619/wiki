@@ -197,7 +197,7 @@ print(datetime.now().isoformat())
 </tr>
 <tr class="even">
 <td>%z</td>
-<td>UTC offset in the form±HHMM[SS[.ffffff]](empty string if the object is naive).</td>
+<td>UTC offset in the form±HHMM [SS [.ffffff]](empty string if the object is naive).</td>
 <td>(empty), +0000, -0400, +1030, +063415, -030712.345216</td>
 </tr>
 <tr class="odd">

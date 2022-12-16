@@ -52,21 +52,21 @@ Pages - That are not part of blog, and are standalone pages like about us, conta
 
 - WP-Cli
 
-[WP-Cli](https://wp-cli.org/)lets you work with WordPress using the command line. With this great tool you can upgrade and downgrade WordPress in seconds, as well as update plugins. Notably, when you find yourself migrating to a different server, the built in search-replace command will take care of all the url changes for you, and it's worth installing it simply because of that.
+[WP-Cli](https://wp-cli.org/) lets you work with WordPress using the command line. With this great tool you can upgrade and downgrade WordPress in seconds, as well as update plugins. Notably, when you find yourself migrating to a different server, the built in search-replace command will take care of all the url changes for you, and it's worth installing it simply because of that.
 
 - Advanced Database Cleaner
 
-The[Advanced Database Cleaner](https://wordpress.org/plugins/advanced-database-cleaner/)plugin cleans out spam comments, built in revisions, and transients. You can even set up tasks to run automatically.
+The [Advanced Database Cleaner](https://wordpress.org/plugins/advanced-database-cleaner/) plugin cleans out spam comments, built in revisions, and transients. You can even set up tasks to run automatically.
 
 - Query Monitor
 
-When things are running slowly and you're not sure what to blame,[Query Monitor](https://wordpress.org/plugins/query-monitor/)lets you see what queries are taking too long to execute, as well as show you PHP warnings and errors.
+When things are running slowly and you're not sure what to blame,[Query Monitor](https://wordpress.org/plugins/query-monitor/) lets you see what queries are taking too long to execute, as well as show you PHP warnings and errors.
 
 - <https://themeisle.com/blog/wordpress-version-control>
 - <https://kinsta.com/blog/wordpress-version-control>
   - [WP Pusher](https://wppusher.com/)-- lets you deploy themes and plugins from any Git repository. Note that this one focuses specifically on themes and plugins.
   - [Revisr](https://wordpress.org/plugins/revisr/)-- offers a much more comprehensive approach to using Git with WordPress. You can track your entire site, including your database, in a Git repository. You can also commit changes from inside your WordPress dashboard, revert files, and push/pull changes to a remote repository (like Bitbucket or GitHub).
-  - [VersionPress](https://versionpress.com/)is an open source project that aims to "bring the full power of Git to WordPress" by version-controlling both your site's files and database. Though it also relies on Git, VersionPress gets its own section because it does things a little differently than the methods above.
+  - [VersionPress](https://versionpress.com/) is an open source project that aims to "bring the full power of Git to WordPress" by version-controlling both your site's files and database. Though it also relies on Git, VersionPress gets its own section because it does things a little differently than the methods above.
 
 ## Commands
 
@@ -161,7 +161,7 @@ There are two kinds of hooks:
 
     1. **Actions Hook**
 
-Actions Hook are triggered by particular events that take place in WordPress such as changing themes, publishing a post, or displaying an administration screen. It is a custom[PHP](https://www.bestinterviewquestion.com/core-php-interview-questions)function defined in your plugin and hooked, i.e., set to respond, to some of these events.
+Actions Hook are triggered by particular events that take place in WordPress such as changing themes, publishing a post, or displaying an administration screen. It is a custom [PHP](https://www.bestinterviewquestion.com/core-php-interview-questions) function defined in your plugin and hooked, i.e., set to respond, to some of these events.
 
 Actions often do one or more of the following things
 

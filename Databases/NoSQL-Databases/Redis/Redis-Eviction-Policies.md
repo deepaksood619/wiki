@@ -9,14 +9,14 @@ Modified: 2020-11-01 12:20:09 +0500
 The exact behavior Redis follows when themaxmemorylimit is reached is configured using themaxmemory-policyconfiguration directive.
 The following policies are available:
 
-- **noeviction:** return errors when the memory limit was reached and the client is trying to execute commands that could result in more memory to be used (most write commands, but[DEL](https://redis.io/commands/del)and a few more exceptions).
+- **noeviction:** return errors when the memory limit was reached and the client is trying to execute commands that could result in more memory to be used (most write commands, but [DEL](https://redis.io/commands/del) and a few more exceptions).
 - **allkeys-lru:** evict keys by trying to remove the less recently used (LRU) keys first, in order to make space for the new data added.
 - **volatile-lru:** evict keys by trying to remove the less recently used (LRU) keys first, but only among keys that have anexpire set, in order to make space for the new data added.
 - **allkeys-random:** evict keys randomly in order to make space for the new data added.
 - **volatile-random:** evict keys randomly in order to make space for the new data added, but only evict keys with anexpire set.
 - **volatile-ttl:** evict keys with anexpire set, and try to evict keys with a shorter time to live (TTL) first, in order to make space for the new data added.
 The policies**volatile-lru,volatile-random**and**volatile-ttl**behave like**noeviction**if there are no keys to evict matching the prerequisites.
-Picking the right eviction policy is important depending on the access pattern of your application, however you can reconfigure the policy at runtime while the application is running, and monitor the number of cache misses and hits using the Redis[INFO](https://redis.io/commands/info)output in order to tune your setup.
+Picking the right eviction policy is important depending on the access pattern of your application, however you can reconfigure the policy at runtime while the application is running, and monitor the number of cache misses and hits using the Redis [INFO](https://redis.io/commands/info) output in order to tune your setup.
 In general as a rule of thumb:
 - Use the**allkeys-lru**policy when you expect a power-law distribution in the popularity of your requests, that is, you expect that a subset of elements will be accessed far more often than the rest.**This is a good pick if you are unsure.**
 - Use the**allkeys-random**if you have a cyclic access where all the keys are scanned continuously, or when you expect the distribution to be uniform (all elements likely accessed with the same probability).
@@ -49,7 +49,7 @@ To configure the LFU mode, the following policies are available:
 
 - **volatile-lfu**Evict using approximated LFU among the keys with an expire set.
 - **allkeys-lfu**Evict any key using approximated LFU.
-LFU is approximated like LRU: it uses a probabilistic counter, called a[Morris counter](https://en.wikipedia.org/wiki/Approximate_counting_algorithm)in order to estimate the object access frequency using just a few bits per object, combined with a decay period so that the counter is reduced over time: at some point we no longer want to consider keys as frequently accessed, even if they were in the past, so that the algorithm can adapt to a shift in the access pattern.
+LFU is approximated like LRU: it uses a probabilistic counter, called a [Morris counter](https://en.wikipedia.org/wiki/Approximate_counting_algorithm) in order to estimate the object access frequency using just a few bits per object, combined with a decay period so that the counter is reduced over time: at some point we no longer want to consider keys as frequently accessed, even if they were in the past, so that the algorithm can adapt to a shift in the access pattern.
 <https://redis.io/topics/lru-cache>
 
 <https://tokers.github.io/posts/lru-and-lfu-in-redis-memory-eviction>

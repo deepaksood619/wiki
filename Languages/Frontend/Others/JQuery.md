@@ -114,13 +114,13 @@ $(document).ready(function() {
 
 // ATTRIBUTE FILTERS
 
-// $('p[class="lead"]').css('border', '4px solid red');
+// $('p [class="lead"]').css('border', '4px solid red');
 
-// $('p[name="shorty"]').css('border', '4px solid red');
+// $('p [name="shorty"]').css('border', '4px solid red');
 
-// $('p[name^="sho"]').css('border', '4px solid red');
+// $('p [name^="sho"]').css('border', '4px solid red');
 
-// $('a[href$=".co.uk"]').css('border', '4px solid red');
+// $('a [href$=".co.uk"]').css('border', '4px solid red');
 
 // ATTRIBUTE METHOD
 
@@ -284,7 +284,7 @@ html += "<div class = 'cat'>";
 
 keys.forEach(function(key) {
 
-html += "<strong>" + key + "</strong>: " + val[key] + "<br>";
+html += "<strong>" + key + "</strong>: " + val [key] + "<br>";
 
 });
 

@@ -150,11 +150,11 @@ smembers rq:queues
 
 1. <https://github.com/rq/rq-scheduler>
 
-[RQ Scheduler](https://github.com/rq/rq-scheduler)is a small package that adds job scheduling capabilities to[RQ](https://github.com/nvie/rq), a[Redis](http://redis.io/)based Python queuing library.
+[RQ Scheduler](https://github.com/rq/rq-scheduler) is a small package that adds job scheduling capabilities to [RQ](https://github.com/nvie/rq), a [Redis](http://redis.io/) based Python queuing library.
 
 2. <https://github.com/Parallels/rq-dashboard>
 
-rq-dashboardis a general purpose, lightweight,[Flask](https://flask.palletsprojects.com/)-based web front-end to monitor your[RQ](http://python-rq.org/)queues, jobs, and workers in realtime.
+rq-dashboardis a general purpose, lightweight,[Flask](https://flask.palletsprojects.com/)-based web front-end to monitor your [RQ](http://python-rq.org/) queues, jobs, and workers in realtime.
 
 3. <https://github.com/pranavgupta1234/rqmonitor>
 

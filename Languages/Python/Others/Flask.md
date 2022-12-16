@@ -31,13 +31,13 @@ request.dataContains the incoming request data as string in case it came with a 
 - [request.form](https://flask.palletsprojects.com/api/#flask.Request.form): the key/value pairs in the body, from a HTML post form, or JavaScript request that isn't JSON encoded
 - [request.files](https://flask.palletsprojects.com/api/#flask.Request.files): the files in the body, which Flask keeps separate fromform. HTML forms must useenctype=multipart/form-dataor files will not be uploaded.
 - [request.values](https://flask.palletsprojects.com/api/#flask.Request.values): combinedargsandform, preferringargsif keys overlap
-- [request.json](https://flask.palletsprojects.com/api/#flask.Request.json): parsed JSON data. The request must have theapplication/jsoncontent type, or use[request.get_json(force=True)](https://flask.palletsprojects.com/api/#flask.Request.get_json)to ignore the content type.
+- [request.json](https://flask.palletsprojects.com/api/#flask.Request.json): parsed JSON data. The request must have theapplication/jsoncontent type, or use[request.get_json(force=True)](https://flask.palletsprojects.com/api/#flask.Request.get_json) to ignore the content type.
 - request.data
 - request.__dict__ (type - dict)
 - request.headers (type - dict)
 - request.headers.get('device_id')
 
-All of these are[MultiDict](https://werkzeug.palletsprojects.com/datastructures/#werkzeug.datastructures.MultiDict)instances (except forjson). You can access values using:
+All of these are[MultiDict](https://werkzeug.palletsprojects.com/datastructures/#werkzeug.datastructures.MultiDict) instances (except forjson). You can access values using:
 
 - request.form['name']: use indexing if you know the key exists
 - request.form.get('name'): usegetif the key might not exist

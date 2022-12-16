@@ -6,7 +6,7 @@ Modified: 2020-07-25 17:30:13 +0500
 
 ---
 
-You have reached the pay-walled version of this article. You can read it absolutely for free[on my blog](https://preslav.me/2018/12/02/designing-well-structured-rest-apis-with-flask-restplus-part-1/), however.
+You have reached the pay-walled version of this article. You can read it absolutely for free [on my blog](https://preslav.me/2018/12/02/designing-well-structured-rest-apis-with-flask-restplus-part-1/), however.
 
 ## Shortcuts
 
@@ -21,7 +21,7 @@ You have reached the pay-walled version of this article. You can read it absolut
 
 | @name or username | Link to another person's profile                                            |
 |---------------------------|---------------------------------------------|
-| TK                | Leave a TK reminder[Learn more about TK](https://medium.com/p/30dfec2921b5) |
+| TK                | Leave a TK reminder [Learn more about TK](https://medium.com/p/30dfec2921b5) |
 | ⌘+Enter          | Add a separator                                                             |
 | `code            | Code in a sentence                                                          |
 | ```           | Code block                                                                  |

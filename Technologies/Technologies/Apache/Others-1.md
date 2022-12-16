@@ -8,7 +8,7 @@ Modified: 2021-03-12 23:29:17 +0500
 
 # Apache Tez
 
-The Apache TEZ® project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data. It is currently built atop[Apache Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
+The Apache TEZ® project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data. It is currently built atop [Apache Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
 
 The 2 main design themes for Tez are:
 
@@ -29,7 +29,7 @@ The 2 main design themes for Tez are:
 
 # Apache Spark
 
-## Apache Sparkis an[open-source](https://en.wikipedia.org/wiki/Open-source_software)distributed general-purpose[cluster-computing](https://en.wikipedia.org/wiki/Cluster_computing)[framework](https://en.wikipedia.org/wiki/Software_framework). Spark provides an[interface](https://en.wikipedia.org/wiki/Application_programming_interface)for programming entire clusters with implicit[data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)and[fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance)
+## Apache Sparkis an [open-source](https://en.wikipedia.org/wiki/Open-source_software) distributed general-purpose [cluster-computing](https://en.wikipedia.org/wiki/Cluster_computing)[framework](https://en.wikipedia.org/wiki/Software_framework). Spark provides an [interface](https://en.wikipedia.org/wiki/Application_programming_interface) for programming entire clusters with implicit [data parallelism](https://en.wikipedia.org/wiki/Data_parallelism) and [fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance)
 
 ## Features
 
@@ -92,9 +92,9 @@ Apache Flink is a framework and distributed processing engine for stateful compu
 
 # Apache OpenWhisk (Incubating)
 
-Apache OpenWhisk (Incubating) is an open source, distributed[Serverless](https://en.wikipedia.org/wiki/Serverless_computing)platform that executes functions (fx) in response to events at any scale. OpenWhisk manages the infrastructure, servers and scaling using Docker containers so you can focus on building amazing and efficient applications.
+Apache OpenWhisk (Incubating) is an open source, distributed [Serverless](https://en.wikipedia.org/wiki/Serverless_computing) platform that executes functions (fx) in response to events at any scale. OpenWhisk manages the infrastructure, servers and scaling using Docker containers so you can focus on building amazing and efficient applications.
 
-The OpenWhisk platform supports a programming model in which developers write functional logic (called [Actions](https://github.com/apache/incubator-openwhisk/blob/master/docs/actions.md#openwhisk-actions)), in any supported programming language, that can be dynamically scheduled and run in response to associated events (via[Triggers](https://github.com/apache/incubator-openwhisk/blob/master/docs/triggers_rules.md#creating-triggers-and-rules)) from external sources ([Feeds](https://github.com/apache/incubator-openwhisk/blob/master/docs/feeds.md#implementing-feeds)) or from HTTP requests. The project includes a REST API-based Command Line Interface (CLI) along with other tooling to support packaging, catalog services and many popular container deployment options.
+The OpenWhisk platform supports a programming model in which developers write functional logic (called [Actions](https://github.com/apache/incubator-openwhisk/blob/master/docs/actions.md#openwhisk-actions)), in any supported programming language, that can be dynamically scheduled and run in response to associated events (via [Triggers](https://github.com/apache/incubator-openwhisk/blob/master/docs/triggers_rules.md#creating-triggers-and-rules)) from external sources ([Feeds](https://github.com/apache/incubator-openwhisk/blob/master/docs/feeds.md#implementing-feeds)) or from HTTP requests. The project includes a REST API-based Command Line Interface (CLI) along with other tooling to support packaging, catalog services and many popular container deployment options.
 
 ## Architecture
 

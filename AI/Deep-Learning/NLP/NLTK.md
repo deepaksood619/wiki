@@ -13,9 +13,9 @@ NLTK supports classification, tokenization, stemming **(lemmatization better tha
 Library highlights
 
 - [Lexical analysis](https://en.wikipedia.org/wiki/Lexical_analysis): Word and text tokenizer
-- [n-gram](https://en.wikipedia.org/wiki/N-gram)and collocations
+- [n-gram](https://en.wikipedia.org/wiki/N-gram) and collocations
 - [Part-of-speech tagger](https://en.wikipedia.org/wiki/Part-of-speech_tagging)
-- Tree model and Text[chunker](https://en.wikipedia.org/wiki/Chunking_(computational_linguistics))for capturing
+- Tree model and Text[chunker](https://en.wikipedia.org/wiki/Chunking_(computational_linguistics)) for capturing
 - [Named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition)
 
 ## Commands

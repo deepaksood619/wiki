@@ -84,7 +84,7 @@ return x + y
 
 >>> result=add.delay(4,4)
 
-The[ready()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.ready)method returns whether the task has finished processing or not:
+The [ready()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.ready) method returns whether the task has finished processing or not:
 
 >>> result.ready()
 
@@ -96,7 +96,7 @@ You can wait for the result to complete, but this is rarely used since it turns 
 
 8
 
-In case the task raised an exception,[get()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.get)will re-raise the exception, but you can override this by specifying thepropagateargument:
+In case the task raised an exception,[get()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.get) will re-raise the exception, but you can override this by specifying thepropagateargument:
 
 >>> result.get(propagate=False)
 
@@ -108,7 +108,7 @@ If the task raised an exception, you can also gain access to the original traceb
 
 ## Flower: Celery Monitoring Tool
 
-Flower is a web based tool for monitoring and administrating[Celery](http://celeryproject.org/)clusters
+Flower is a web based tool for monitoring and administrating [Celery](http://celeryproject.org/) clusters
 
 - Real-time monitoring using Celery Events
   - Task progress and history

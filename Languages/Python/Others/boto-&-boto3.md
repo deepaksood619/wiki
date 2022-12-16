@@ -10,7 +10,7 @@ AWS SDK for python
 
 ## Security
 
-- There should never be a need to put access credentials in your code (it is bad for security). If the code is running on an Amazon EC2 instance, simply assign an IAM Role to the instance. If the code is running on your own computer, use the[AWS Command-Line Interface (CLI)](http://aws.amazon.com/cli/)aws configurecommand to store the credentials in a local configuration file.
+- There should never be a need to put access credentials in your code (it is bad for security). If the code is running on an Amazon EC2 instance, simply assign an IAM Role to the instance. If the code is running on your own computer, use the[AWS Command-Line Interface (CLI)](http://aws.amazon.com/cli/) aws configurecommand to store the credentials in a local configuration file.
 
 # Catching Exceptions
 
@@ -242,7 +242,7 @@ ExpiresIn=settings.REPORT_TTL,
 
 ## AWS
 
-Here's some more detailed information on what[Client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html),[Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html), and[Session](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/session.html)are all about.
+Here's some more detailed information on what[Client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html),[Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html), and[Session](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/session.html) are all about.
 
 ## Client
 

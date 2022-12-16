@@ -6,7 +6,7 @@ Modified: 2019-03-12 23:39:39 +0500
 
 ---
 
-To receive messages from an MQTT broker, a client connects to the broker and creates[subscriptions to the topics](https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices/)in which it is interested. If the connection between the client and broker is interrupted during a non-persistent session, these topics are lost and the client needs to subscribe again on reconnect. Re-subscribing every time the connection is interrupted is a burden for constrained clients with limited resources. To avoid this problem, the client can request a persistent session when it connects to the broker. Persistent sessions save all information that is relevant for the client on the broker. TheclientIdthat the client provides when it establishes connection to the broker identifies the session
+To receive messages from an MQTT broker, a client connects to the broker and creates [subscriptions to the topics](https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices/) in which it is interested. If the connection between the client and broker is interrupted during a non-persistent session, these topics are lost and the client needs to subscribe again on reconnect. Re-subscribing every time the connection is interrupted is a burden for constrained clients with limited resources. To avoid this problem, the client can request a persistent session when it connects to the broker. Persistent sessions save all information that is relevant for the client on the broker. TheclientIdthat the client provides when it establishes connection to the broker identifies the session
 
 ## What's stored in a persistent session?
 
@@ -14,7 +14,7 @@ In a persistent session, the broker stores the following information (even if th
 
 - Existence of a session (even if there are no subscriptions).
 - All the subscriptions of the client.
-- All messages in a[Quality of Service (QoS)](https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/)1 or 2 flow that the client has not yet confirmed.
+- All messages in a [Quality of Service (QoS)](https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/) 1 or 2 flow that the client has not yet confirmed.
 - All new QoS 1 or 2 messages that the client missed while offline.
 - All QoS 2 messages received from the client that are not yet completely acknowledged.
 

@@ -6,7 +6,7 @@ Modified: 2018-05-16 21:05:16 +0500
 
 ---
 
-In[mathematics](https://en.wikipedia.org/wiki/Mathematics), the**pigeonhole principle**states that if*n*items are put into*m*containers, with*n*>*m*, then at least one container must contain more than one item.
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the**pigeonhole principle**states that if*n*items are put into*m*containers, with*n*>*m*, then at least one container must contain more than one item.
 Example -
 
 A bag contains 10 red marbles, 10 white marbles, and 10 blue marbles. What is the minimum no. of marbles you have to choose randomly from the bag to ensure that we get 4 marbles of same color?
@@ -21,7 +21,7 @@ Therefore the minimum no. of marbles required = Kn+1
 
 By simplifying we get Kn+1 = 10.
 
-Verification: ceil[Average] is [Kn+1/n] = 4
+Verification: ceil [Average] is [Kn+1/n] = 4
 
 [Kn+1/3] = 4
 

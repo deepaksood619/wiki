@@ -33,11 +33,11 @@ install_compass - Installs MongoDB Compass for your platform.
 ## Storage Engine
 
 A storage engine is the part of a database that is responsible for managing how data is stored, both in memory and on disk. Many databases support multiple storage engines, where different engines perform better for specific workloads. For example, one storage engine might offer better performance for read-heavy workloads, and another might support a higher throughput for write operations.
-The[storage engine](https://docs.mongodb.com/manual/reference/glossary/#term-storage-engine)is the component of the database that is responsible for managing how data is stored, both in memory and on disk. MongoDB supports multiple storage engines, as different engines perform better for specific workloads. Choosing the appropriate storage engine for your use case can significantly impact the performance of your applications.
+The [storage engine](https://docs.mongodb.com/manual/reference/glossary/#term-storage-engine) is the component of the database that is responsible for managing how data is stored, both in memory and on disk. MongoDB supports multiple storage engines, as different engines perform better for specific workloads. Choosing the appropriate storage engine for your use case can significantly impact the performance of your applications.
 
 - WiredTiger Storage Engine (Default)
 
-[WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/)is the default storage engine starting in MongoDB 3.2. It is well-suited for most workloads and is recommended for new deployments. WiredTiger provides a document-level concurrency model, checkpointing, and compression, among other features.
+[WiredTiger](https://docs.mongodb.com/manual/core/wiredtiger/) is the default storage engine starting in MongoDB 3.2. It is well-suited for most workloads and is recommended for new deployments. WiredTiger provides a document-level concurrency model, checkpointing, and compression, among other features.
 <https://docs.mongodb.com/manual/faq/storage>
 
 <https://docs.mongodb.com/manual/core/storage-engines>
@@ -114,7 +114,7 @@ Performance metrics - <https://stackoverflow.com/a/37654411/5424888>
 
 ## GridFS
 
-[GridFS](https://docs.mongodb.com/manual/reference/glossary/#term-gridfs)is a specification for storing and retrieving files that exceed the[BSON](https://docs.mongodb.com/manual/reference/glossary/#term-bson)-document[size limit](https://docs.mongodb.com/manual/reference/limits/#limit-bson-document-size)of 16 MB.
+[GridFS](https://docs.mongodb.com/manual/reference/glossary/#term-gridfs) is a specification for storing and retrieving files that exceed the [BSON](https://docs.mongodb.com/manual/reference/glossary/#term-bson)-document [size limit](https://docs.mongodb.com/manual/reference/limits/#limit-bson-document-size) of 16 MB.
 <https://docs.mongodb.com/manual/core/gridfs>
 
 ## UI / Tools**

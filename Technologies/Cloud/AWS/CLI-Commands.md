@@ -92,7 +92,7 @@ aws rds modify-db-parameter-group --db-parameter-group-name aurora-prod-db-write
 
 ### awslog
 
-awslogsis a simple command line tool for querying groups, streams and events from[Amazon CloudWatch](http://aws.amazon.com/cloudwatch/) logs.
+awslogsis a simple command line tool for querying groups, streams and events from [Amazon CloudWatch](http://aws.amazon.com/cloudwatch/) logs.
 
 <https://github.com/jorgebastida/awslogs>
 

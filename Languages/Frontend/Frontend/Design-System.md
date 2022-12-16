@@ -53,7 +53,7 @@ A tool for defining design systems and using them to generate cross-platform UI 
 
 Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.
 
-[Storybook](https://storybook.js.org/)is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
+[Storybook](https://storybook.js.org/) is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
 
 <https://www.freecodecamp.org/news/what-is-storybook-and-how-can-i-use-it-to-create-a-component-libary-in-react>
 

@@ -38,7 +38,7 @@ php -m
 
 <https://packagist.org>
 
-Packagist is the main[Composer](https://getcomposer.org/)repository. It aggregates public PHP packages installable with Composer.
+Packagist is the main [Composer](https://getcomposer.org/) repository. It aggregates public PHP packages installable with Composer.
 
 ## PECL
 
@@ -46,7 +46,7 @@ PECLis a repository for PHP Extensions, providing a directory of all known exten
 
 The packaging and distribution system used by PECL is shared with its sister,PEAR.
 
-The**PHP Extension and Application Repository**, or**PEAR,** is a repository of[PHP](https://www.wikiwand.com/en/PHP)software code.
+The**PHP Extension and Application Repository**, or**PEAR,** is a repository of [PHP](https://www.wikiwand.com/en/PHP) software code.
 
 ## Commands
 
@@ -110,13 +110,13 @@ sudo apt-get install libapache2-mod-fastcgi php7.0-fpm
 
 ## OpCache
 
-[OPcache](https://www.php.net/manual/en/book.opcache.php)speeds up your PHP application by storing scripts in memory the first time they're called. Subsequent requests will then be loaded from memory rather than the filesystem, which may give you a[74% speed boost](https://www.appdynamics.com/blog/engineering/why-every-php-application-should-use-an-opcache/).
+[OPcache](https://www.php.net/manual/en/book.opcache.php) speeds up your PHP application by storing scripts in memory the first time they're called. Subsequent requests will then be loaded from memory rather than the filesystem, which may give you a [74% speed boost](https://www.appdynamics.com/blog/engineering/why-every-php-application-should-use-an-opcache/).
 
 OPcache offers several settings that you can adjust to improve the performance and reliability of your application. In this tutorial, you'll see how to set up a PHP Docker image that allows you to adjust the memory limits for OPcache, the number of cached files and the cache re-validation frequency.
 
 ## Adminer
 
-Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to[phpMyAdmin](https://www.phpmyadmin.net/), it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL,SQLite,MS SQL,Oracle,Firebird,SimpleDB,ElasticsearchandMongoDB.
+Adminer (formerly phpMinAdmin) is a full-featured database management tool written in PHP. Conversely to [phpMyAdmin](https://www.phpmyadmin.net/), it consist of a single file ready to deploy to the target server. Adminer is available for MySQL, MariaDB, PostgreSQL,SQLite,MS SQL,Oracle,Firebird,SimpleDB,ElasticsearchandMongoDB.
 
 <https://www.adminer.org>
 

@@ -6,7 +6,7 @@ Modified: 2020-05-06 23:56:29 +0500
 
 ---
 
-A**shell script**is a[computer program](https://en.wikipedia.org/wiki/Computer_program)designed to be run by the[Unix shell](https://en.wikipedia.org/wiki/Unix_shell), a[command-line interpreter](https://en.wikipedia.org/wiki/Command-line_interpreter).[^[1]^](https://en.wikipedia.org/wiki/Shell_script#cite_note-1)The various dialects of shell scripts are considered to be[scripting languages](https://en.wikipedia.org/wiki/Scripting_language). Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a**wrapper**.
+A**shell script**is a [computer program](https://en.wikipedia.org/wiki/Computer_program) designed to be run by the [Unix shell](https://en.wikipedia.org/wiki/Unix_shell), a [command-line interpreter](https://en.wikipedia.org/wiki/Command-line_interpreter).[^[1]^](https://en.wikipedia.org/wiki/Shell_script#cite_note-1) The various dialects of shell scripts are considered to be [scripting languages](https://en.wikipedia.org/wiki/Scripting_language). Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a**wrapper**.
 
 # !/bin/sh
 

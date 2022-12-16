@@ -306,7 +306,7 @@ AUTO_INCREMENT [=] value
 
 | TABLESPACE tablespace_name [STORAGE {DISK|MEMORY}]
 
-| UNION [=] (tbl_name[,tbl_name]...)
+| UNION [=] (tbl_name [,tbl_name]...)
 
 partition_options:
 

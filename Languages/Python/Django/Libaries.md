@@ -10,7 +10,7 @@ Modified: 2022-01-05 23:50:55 +0500
 
 ## Django Channels
 
-Channels is a project that takes Django and extends its abilities beyond HTTP - to handle WebSockets, chat protocols, IoT protocols, and more. It's built on a Python specification called[ASGI](http://asgi.readthedocs.io/).
+Channels is a project that takes Django and extends its abilities beyond HTTP - to handle WebSockets, chat protocols, IoT protocols, and more. It's built on a Python specification called [ASGI](http://asgi.readthedocs.io/).
 
 It does this by taking the core of Django and layering a fully asynchronous layer underneath, running Django itself in a synchronous mode but handling connections and sockets asynchronously, and giving you the choice to write in either style.
 
@@ -39,7 +39,7 @@ Pinax provides:
 
 ## Daphne
 
-Daphne is a HTTP, HTTP2 and WebSocket protocol server for[ASGI](https://github.com/django/asgiref/blob/master/specs/asgi.rst)and[ASGI-HTTP](https://github.com/django/asgiref/blob/master/specs/www.rst), developed to power Django Channels.
+Daphne is a HTTP, HTTP2 and WebSocket protocol server for [ASGI](https://github.com/django/asgiref/blob/master/specs/asgi.rst) and [ASGI-HTTP](https://github.com/django/asgiref/blob/master/specs/www.rst), developed to power Django Channels.
 
 It supports automatic negotiation of protocols; there's no need for URL prefixing to determine WebSocket endpoints versus HTTP endpoints.
 
@@ -82,11 +82,11 @@ django-reversion is an extension to the Django web framework that provides versi
 
 <https://django-crispy-forms.readthedocs.io/en/latest>
 
-django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will let you control the rendering behavior of your[Django](https://djangoproject.com/)forms in a very elegant and DRY way. Have full control without writing custom form templates. All this without breaking the standard way of doing things in[Django](https://djangoproject.com/), so it plays nice with any other form application.
+django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will let you control the rendering behavior of your [Django](https://djangoproject.com/) forms in a very elegant and DRY way. Have full control without writing custom form templates. All this without breaking the standard way of doing things in [Django](https://djangoproject.com/), so it plays nice with any other form application.
 
 <https://django-haystack.readthedocs.io/en/v2.4.1/index.html>
 
-Haystack provides modular search for Django. It features a unified, familiar API that allows you to plug in different search backends (such as[Solr](http://lucene.apache.org/solr/),[Elasticsearch](http://elasticsearch.org/),[Whoosh](https://bitbucket.org/mchaput/whoosh/),[Xapian](http://xapian.org/), etc.) without having to modify your code.
+Haystack provides modular search for Django. It features a unified, familiar API that allows you to plug in different search backends (such as [Solr](http://lucene.apache.org/solr/),[Elasticsearch](http://elasticsearch.org/),[Whoosh](https://bitbucket.org/mchaput/whoosh/),[Xapian](http://xapian.org/), etc.) without having to modify your code.
 
 ## Others
 

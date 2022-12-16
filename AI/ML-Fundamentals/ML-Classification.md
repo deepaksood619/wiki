@@ -51,7 +51,7 @@ Machine learning tasks are typically classified into two broad categories, depen
 
 ## Supervised Learning
 
-The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that[maps](https://en.wikipedia.org/wiki/Map_(mathematics))inputs to outputs. As special cases, the input signal can be only partially available, or restricted to special feedback: (Discrete number of values / classes)
+The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that [maps](https://en.wikipedia.org/wiki/Map_(mathematics)) inputs to outputs. As special cases, the input signal can be only partially available, or restricted to special feedback: (Discrete number of values / classes)
 
 - **Regression Problem**
   - Predict continuous valued output (price)
@@ -98,7 +98,7 @@ No labels are given to the learning algorithm, leaving it on its own to find str
 
 - [Active learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning)): the computer can only obtain training labels for a limited set of instances (based on a budget), and also has to optimize its choice of objects to acquire labels for. When used interactively, these can be presented to the user for labeling.
 
-- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning): training data (in form of rewards and punishments) is given only as feedback to the program's actions in a dynamic environment, such as[driving a vehicle](https://en.wikipedia.org/wiki/Autonomous_car)or playing a game against an opponent.
+- [Reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning): training data (in form of rewards and punishments) is given only as feedback to the program's actions in a dynamic environment, such as [driving a vehicle](https://en.wikipedia.org/wiki/Autonomous_car) or playing a game against an opponent.
 
 - Predictive Modelling or predictive analytics: learn the mapping Y = f(X) to make predictions of Y for new X.
 
@@ -185,7 +185,7 @@ Algorithms
 
 - SVM (Support Vector Machine)
 
-Divides its input space into two regions, separated by a[linear boundary](https://en.wikipedia.org/wiki/Linear_classifier)
+Divides its input space into two regions, separated by a [linear boundary](https://en.wikipedia.org/wiki/Linear_classifier)
 
 - Nearest neighbors
 - Random forest
@@ -230,7 +230,7 @@ Applications
 - Increased efficiency
 - Topic Modeling
 
-[Topic modeling](https://en.wikipedia.org/wiki/Topic_modeling)is a related problem, where a program is given a list of[human language](https://en.wikipedia.org/wiki/Natural_language)documents and is tasked with finding out which documents cover similar topics.
+[Topic modeling](https://en.wikipedia.org/wiki/Topic_modeling) is a related problem, where a program is given a list of [human language](https://en.wikipedia.org/wiki/Natural_language) documents and is tasked with finding out which documents cover similar topics.
 
 Algorithms
 
@@ -266,9 +266,9 @@ Modules
 
 ## Density Estimation
 
-[Density estimation](https://en.wikipedia.org/wiki/Density_estimation)finds the[distribution](https://en.wikipedia.org/wiki/Probability_distribution)of inputs in some space
+[Density estimation](https://en.wikipedia.org/wiki/Density_estimation) finds the [distribution](https://en.wikipedia.org/wiki/Probability_distribution) of inputs in some space
 
-Among other categories of machine learning problems,[learning to learn](https://en.wikipedia.org/wiki/Meta_learning_(computer_science))learns its own[inductive bias](https://en.wikipedia.org/wiki/Inductive_bias)based on previous experience.[Developmental learning](https://en.wikipedia.org/wiki/Developmental_robotics), elaborated for[robot learning](https://en.wikipedia.org/wiki/Robot_learning), generates its own sequences (also called curriculum) of learning situations to cumulatively acquire repertoires of novel skills through autonomous self-exploration and social interaction with human teachers and using guidance mechanisms such as active learning, maturation, motor synergies, and imitation.
+Among other categories of machine learning problems,[learning to learn](https://en.wikipedia.org/wiki/Meta_learning_(computer_science)) learns its own [inductive bias](https://en.wikipedia.org/wiki/Inductive_bias) based on previous experience.[Developmental learning](https://en.wikipedia.org/wiki/Developmental_robotics), elaborated for [robot learning](https://en.wikipedia.org/wiki/Robot_learning), generates its own sequences (also called curriculum) of learning situations to cumulatively acquire repertoires of novel skills through autonomous self-exploration and social interaction with human teachers and using guidance mechanisms such as active learning, maturation, motor synergies, and imitation.
 
 - Targeted ads on mobile apps
 - Sentiment analysis
@@ -280,7 +280,7 @@ Among other categories of machine learning problems,[learning to learn](https://
 
 1. **Decision tree learning**
 
-Decision tree learning uses a[decision tree](https://en.wikipedia.org/wiki/Decision_tree)as a[predictive model](https://en.wikipedia.org/wiki/Predictive_modelling), which maps observations about an item to conclusions about the item's target value.
+Decision tree learning uses a [decision tree](https://en.wikipedia.org/wiki/Decision_tree) as a [predictive model](https://en.wikipedia.org/wiki/Predictive_modelling), which maps observations about an item to conclusions about the item's target value.
 
 2. **Association rule learning**
 
@@ -288,31 +288,31 @@ Association rule learning is a method for discovering interesting relations betw
 
 3. **Artificial neural networks**
 
-An[artificial neural network](https://en.wikipedia.org/wiki/Artificial_neural_network)(ANN) learning algorithm, usually called "neural network" (NN), is a learning algorithm that is vaguely inspired by[biological neural networks](https://en.wikipedia.org/wiki/Biological_neural_networks). Computations are structured in terms of an interconnected group of[artificial neurons](https://en.wikipedia.org/wiki/Artificial_neuron), processing information using a[connectionist](https://en.wikipedia.org/wiki/Connectionism)approach to[computation](https://en.wikipedia.org/wiki/Computation). Modern neural networks are[non-linear](https://en.wikipedia.org/wiki/Non-linear)[statistical](https://en.wikipedia.org/wiki/Statistical)[data modeling](https://en.wikipedia.org/wiki/Data_modeling)tools. They are usually used to model complex relationships between inputs and outputs, to[find patterns](https://en.wikipedia.org/wiki/Pattern_recognition)in data, or to capture the statistical structure in an unknown[joint probability distribution](https://en.wikipedia.org/wiki/Joint_probability_distribution)between observed variables.
+An [artificial neural network](https://en.wikipedia.org/wiki/Artificial_neural_network)(ANN) learning algorithm, usually called "neural network" (NN), is a learning algorithm that is vaguely inspired by [biological neural networks](https://en.wikipedia.org/wiki/Biological_neural_networks). Computations are structured in terms of an interconnected group of [artificial neurons](https://en.wikipedia.org/wiki/Artificial_neuron), processing information using a [connectionist](https://en.wikipedia.org/wiki/Connectionism) approach to [computation](https://en.wikipedia.org/wiki/Computation). Modern neural networks are [non-linear](https://en.wikipedia.org/wiki/Non-linear)[statistical](https://en.wikipedia.org/wiki/Statistical)[data modeling](https://en.wikipedia.org/wiki/Data_modeling) tools. They are usually used to model complex relationships between inputs and outputs, to [find patterns](https://en.wikipedia.org/wiki/Pattern_recognition) in data, or to capture the statistical structure in an unknown [joint probability distribution](https://en.wikipedia.org/wiki/Joint_probability_distribution) between observed variables.
 
 4. **Deep learning**
 
-Falling hardware prices and the development of[GPUs](https://en.wikipedia.org/wiki/GPU)for personal use in the last few years have contributed to the development of the concept of[deep learning](https://en.wikipedia.org/wiki/Deep_learning)which consists of multiple hidden layers in an artificial neural network. This approach tries to model the way the human brain processes light and sound into vision and hearing. Some successful applications of deep learning are[computer vision](https://en.wikipedia.org/wiki/Computer_vision)and[speech recognition](https://en.wikipedia.org/wiki/Speech_recognition).
+Falling hardware prices and the development of [GPUs](https://en.wikipedia.org/wiki/GPU) for personal use in the last few years have contributed to the development of the concept of [deep learning](https://en.wikipedia.org/wiki/Deep_learning) which consists of multiple hidden layers in an artificial neural network. This approach tries to model the way the human brain processes light and sound into vision and hearing. Some successful applications of deep learning are [computer vision](https://en.wikipedia.org/wiki/Computer_vision) and [speech recognition](https://en.wikipedia.org/wiki/Speech_recognition).
 
 5. **Inductive logic programming**
 
-Inductive logic programming (ILP) is an approach to rule learning using[logic programming](https://en.wikipedia.org/wiki/Logic_programming)as a uniform representation for input examples, background knowledge, and hypotheses. Given an encoding of the known background knowledge and a set of examples represented as a logical database of facts, an ILP system will derive a hypothesized logic program that[entails](https://en.wikipedia.org/wiki/Entailment)all positive and no negative examples.[Inductive programming](https://en.wikipedia.org/wiki/Inductive_programming)is a related field that considers any kind of programming languages for representing hypotheses (and not only logic programming), such as[functional programs](https://en.wikipedia.org/wiki/Functional_programming).
+Inductive logic programming (ILP) is an approach to rule learning using [logic programming](https://en.wikipedia.org/wiki/Logic_programming) as a uniform representation for input examples, background knowledge, and hypotheses. Given an encoding of the known background knowledge and a set of examples represented as a logical database of facts, an ILP system will derive a hypothesized logic program that [entails](https://en.wikipedia.org/wiki/Entailment) all positive and no negative examples.[Inductive programming](https://en.wikipedia.org/wiki/Inductive_programming) is a related field that considers any kind of programming languages for representing hypotheses (and not only logic programming), such as [functional programs](https://en.wikipedia.org/wiki/Functional_programming).
 
 6. **Support vector machines**
 
-Support vector machines (SVMs) are a set of related[supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)methods used for[classification](https://en.wikipedia.org/wiki/Statistical_classification)and[regression](https://en.wikipedia.org/wiki/Regression_analysis). Given a set of training examples, each marked as belonging to one of two categories, a SVM training algorithm builds a model that predicts whether a new example falls into one category or the other.
+Support vector machines (SVMs) are a set of related [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) methods used for [classification](https://en.wikipedia.org/wiki/Statistical_classification) and [regression](https://en.wikipedia.org/wiki/Regression_analysis). Given a set of training examples, each marked as belonging to one of two categories, a SVM training algorithm builds a model that predicts whether a new example falls into one category or the other.
 
 7. **Clustering**
 
-Cluster analysis is the assignment of a set of observations into subsets (called*clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some*similarity metric*and evaluated for example by*internal compactness*(similarity between members of the same cluster) and*separation*between different clusters. Other methods are based on*estimated density*and*graph connectivity*. Clustering is a method of[unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for[statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
+Cluster analysis is the assignment of a set of observations into subsets (called*clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some*similarity metric*and evaluated for example by*internal compactness*(similarity between members of the same cluster) and*separation*between different clusters. Other methods are based on*estimated density*and*graph connectivity*. Clustering is a method of [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for [statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
 
 8. **Bayesian networks**
 
-A Bayesian network, belief network or directed acyclic graphical model is a[probabilistic graphical model](https://en.wikipedia.org/wiki/Graphical_model)that represents a set of[random variables](https://en.wikipedia.org/wiki/Random_variables)and their[conditional independencies](https://en.wikipedia.org/wiki/Conditional_independence)via a[directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)(DAG). For example, a Bayesian network could represent the probabilistic relationships between diseases and symptoms. Given symptoms, the network can be used to compute the probabilities of the presence of various diseases. Efficient algorithms exist that perform[inference](https://en.wikipedia.org/wiki/Inference)and learning.
+A Bayesian network, belief network or directed acyclic graphical model is a [probabilistic graphical model](https://en.wikipedia.org/wiki/Graphical_model) that represents a set of [random variables](https://en.wikipedia.org/wiki/Random_variables) and their [conditional independencies](https://en.wikipedia.org/wiki/Conditional_independence) via a [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)(DAG). For example, a Bayesian network could represent the probabilistic relationships between diseases and symptoms. Given symptoms, the network can be used to compute the probabilities of the presence of various diseases. Efficient algorithms exist that perform [inference](https://en.wikipedia.org/wiki/Inference) and learning.
 
 9. **Reinforcement learning**
 
-Reinforcement learning is concerned with how an*agent*ought to take*actions*in an*environment*so as to maximize some notion of long-term*reward*. Reinforcement learning algorithms attempt to find a*policy*that maps*states*of the world to the actions the agent ought to take in those states. Reinforcement learning differs from the[supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)problem in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected.
+Reinforcement learning is concerned with how an*agent*ought to take*actions*in an*environment*so as to maximize some notion of long-term*reward*. Reinforcement learning algorithms attempt to find a*policy*that maps*states*of the world to the actions the agent ought to take in those states. Reinforcement learning differs from the [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) problem in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected.
 
 10. **Representation learning**
 

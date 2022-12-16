@@ -10,7 +10,7 @@ Modified: 2022-01-16 15:12:39 +0500
 
 ## Zstd (by facebook)
 
-Zstandard, orzstdas short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by[Huff0 and FSE library](https://github.com/Cyan4973/FiniteStateEntropy).
+Zstandard, orzstdas short version, is a fast lossless compression algorithm, targeting real-time compression scenarios at zlib-level and better compression ratios. It's backed by a very fast entropy stage, provided by [Huff0 and FSE library](https://github.com/Cyan4973/FiniteStateEntropy).
 
 <https://github.com/facebook/zstd>
 

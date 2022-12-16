@@ -230,7 +230,7 @@ python test_de_script.py de_run_final.csv 2>&1 | tee -a outfile.log
 
 ## Wildcards and Help
 
-  - * //match any number of characters
+- * //match any number of characters
 - ? //match one character
 - man "command" //read the online manual page for a command
 - whatis "command" //brief description of a command
@@ -286,9 +286,9 @@ File permissions is displayed as following;
 
 ## lsof
 
-## lsof is a command meaning "list open files", which is used in many[Unix-like](https://en.m.wikipedia.org/wiki/Unix-like) systems to report a list of all open files and the processes that opened them
+## lsof is a command meaning "list open files", which is used in many [Unix-like](https://en.m.wikipedia.org/wiki/Unix-like) systems to report a list of all open files and the processes that opened them
 
-Open files in the system include disk files,[named pipes](https://en.wikipedia.org/wiki/Named_pipe), network[sockets](https://en.wikipedia.org/wiki/Internet_socket)and devices opened by all processes. One use for this command is when a disk cannot be unmounted because (unspecified) files are in use. The listing of open files can be consulted (suitably filtered if necessary) to identify the process that is using the files.
+Open files in the system include disk files,[named pipes](https://en.wikipedia.org/wiki/Named_pipe), network [sockets](https://en.wikipedia.org/wiki/Internet_socket) and devices opened by all processes. One use for this command is when a disk cannot be unmounted because (unspecified) files are in use. The listing of open files can be consulted (suitably filtered if necessary) to identify the process that is using the files.
 
 ## see open ports
 
@@ -348,7 +348,7 @@ Here 68 is 'h' in ASCII and 69 is 'i' in ASCII
 
 ## Source
 
-[source](http://ss64.com/bash/source.html)is a bash shell built-in command that executes the content of the file passed as argument,***in the current shell***. It has a synonym in.(period).
+[source](http://ss64.com/bash/source.html) is a bash shell built-in command that executes the content of the file passed as argument,***in the current shell***. It has a synonym in.(period).
 
 ## source ~/.bash_profile
 
@@ -358,7 +358,7 @@ Here 68 is 'h' in ASCII and 69 is 'i' in ASCII
 
 ## BitBake
 
-## BitBakeis a[make](https://en.wikipedia.org/wiki/Make_(software))-like[build tool](https://en.wikipedia.org/wiki/Build_tool)with the special focus of[distributions](https://en.wikipedia.org/wiki/Linux_distributions)and packages for[embedded Linux](https://en.wikipedia.org/wiki/Embedded_Linux)[cross compilation](https://en.wikipedia.org/wiki/Cross_compilation), although it is not limited to that. It is inspired by[Portage](https://en.wikipedia.org/wiki/Portage_(software)),which is the[package management system](https://en.wikipedia.org/wiki/Package_management_system)used by the[Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_Linux)distribution. BitBake existed for some time in the[OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded)project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the[Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project)and the[OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded)project
+## BitBakeis a [make](https://en.wikipedia.org/wiki/Make_(software))-like [build tool](https://en.wikipedia.org/wiki/Build_tool) with the special focus of [distributions](https://en.wikipedia.org/wiki/Linux_distributions) and packages for [embedded Linux](https://en.wikipedia.org/wiki/Embedded_Linux)[cross compilation](https://en.wikipedia.org/wiki/Cross_compilation), although it is not limited to that. It is inspired by [Portage](https://en.wikipedia.org/wiki/Portage_(software)),which is the [package management system](https://en.wikipedia.org/wiki/Package_management_system) used by the [Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_Linux) distribution. BitBake existed for some time in the [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the [Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project) and the [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) project
 
 <https://en.wikipedia.org/wiki/BitBake>
 
@@ -648,10 +648,10 @@ ps aux --sort=-%mem
 - **TIME-** The cumulative CPU time of the process, shown in minutes and seconds.
 - **CMD-** The name of the command that was used to start the process.
 - **USER-** The user who runs the process.
-- **%CPU-** The process[cpu](https://linuxize.com/post/get-cpu-information-on-linux/)utilization.
+- **%CPU-** The process [cpu](https://linuxize.com/post/get-cpu-information-on-linux/) utilization.
 - **%MEM-** The percentage of the process's resident set size to the physical memory on the machine.
 - **VSZ-** Virtual memory size of the process in KiB.
-- **RSS-** The size of the physical[memory](https://linuxize.com/post/free-command-in-linux/)that the process is using.
+- **RSS-** The size of the physical [memory](https://linuxize.com/post/free-command-in-linux/) that the process is using.
 - **STAT-** The the process state code, which can beZ(zombie),S(sleeping),R(running) ..etc
 - **START-** The time when the command started.
 

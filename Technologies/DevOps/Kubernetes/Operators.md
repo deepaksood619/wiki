@@ -101,7 +101,7 @@ Enable cluster admins to manage Operators on any Kubernetes cluster (dependency 
 1. Automated Provisioning
     - Configuration for Confluent Platform clusters to achieve zero-touch provisioning.
     - Deployment of clusters across multiple racks or availability zones.
-    - Integration with[Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)to store data either on local disk or network attached storage.
+    - Integration with [Persistent Volume Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) to store data either on local disk or network attached storage.
 
 2. Cluster Management and Operations
     - Automated rolling update of the Confluent Platform clusters after either a Confluent Platform version, configuration, or resource update

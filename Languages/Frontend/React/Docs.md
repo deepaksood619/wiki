@@ -51,9 +51,9 @@ Error boundaries are React components thatcatch JavaScript errors anywhere in th
 
 - [Forwarding Refs](https://reactjs.org/docs/forwarding-refs.html)
 
-Ref forwarding is a technique for automatically passing a[ref](https://reactjs.org/docs/refs-and-the-dom.html)through a component to one of its children.
+Ref forwarding is a technique for automatically passing a [ref](https://reactjs.org/docs/refs-and-the-dom.html) through a component to one of its children.
 
-1. We create a[React ref](https://reactjs.org/docs/refs-and-the-dom.html)by callingReact.createRefand assign it to arefvariable.
+1. We create a [React ref](https://reactjs.org/docs/refs-and-the-dom.html) by callingReact.createRefand assign it to arefvariable.
 
 2. We pass ourrefdown to `<FancyButton ref={ref}>` by specifying it as a JSX attribute.
 
@@ -101,7 +101,7 @@ A typical use case for portals is when a parent component has anoverflow: hidden
 
 - [Profiler](https://reactjs.org/docs/profiler.html)
 
-TheProfilermeasures how often a React application renders and what the "cost" of rendering is. Its purpose is to help identify parts of an application that are slow and may benefit from[optimizations such as memoization](https://reactjs.org/docs/hooks-faq.html#how-to-memoize-calculations).
+TheProfilermeasures how often a React application renders and what the "cost" of rendering is. Its purpose is to help identify parts of an application that are slow and may benefit from [optimizations such as memoization](https://reactjs.org/docs/hooks-faq.html#how-to-memoize-calculations).
 
 - [React Without ES6](https://reactjs.org/docs/react-without-es6.html)
 - [React Without JSX](https://reactjs.org/docs/react-without-jsx.html)
@@ -109,7 +109,7 @@ TheProfilermeasures how often a React application renders and what the "cost" of
 - [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
 - [Render Props](https://reactjs.org/docs/render-props.html)
 
-The term["render prop"](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce)refers to a technique for sharing code between React components using a prop whose value is a function.
+The term ["render prop"](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce) refers to a technique for sharing code between React components using a prop whose value is a function.
 
 <https://medium.com/@mjackson/use-a-render-prop-50de598f11ce>
 

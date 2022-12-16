@@ -14,7 +14,7 @@ At its core, Airflow is simply a queuing system built on top of a metadata datab
 
 3. **Executor:** The Executor is a message queuing process that is tightly bound to the Scheduler and determines the worker processes that actually execute each scheduled task. There are different types of Executors, each of which uses a specific class of worker processes to execute tasks. For example, theLocalExecutorexecutes tasks with parallel processes that run on the same machine as the Scheduler process. Other Executors, like the CeleryExecutor execute tasks using worker processes that exist on a separate cluster of worker machines.
 
-Inside[Apache Airflow](https://airflow.apache.org/), tasks are carried out by anexecutor. The main types of executors are:
+Inside [Apache Airflow](https://airflow.apache.org/), tasks are carried out by anexecutor. The main types of executors are:
 
 - **Sequential Executor:** Each task is runlocally(on the same machine as the scheduler) in its own python subprocess. They are run sequentially which means that only one task can be executed at a time. It is the default executor.
 - **Local Executor:** It is the same as the sequential executor except that multiple tasks canrun in parallel. It needs a metadata database (where DAGs and tasks status are stored) that supports parallelism like MySQL. Setting such a database requires some extra work since the default configuration uses SQLite.

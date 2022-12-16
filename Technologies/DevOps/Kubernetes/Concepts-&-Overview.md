@@ -62,15 +62,15 @@ Kubernetes supports multiple virtual clusters backed by the same physical cluste
 
 ## Hierarchical Namespaces
 
-[#Kubernetes](https://www.linkedin.com/feed/hashtag/?keywords=kubernetes&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361)has introduced the feature of the hierarchical namespace.!!!
+[#Kubernetes](https://www.linkedin.com/feed/hashtag/?keywords=kubernetes&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361) has introduced the feature of the hierarchical namespace.!!!
 
 Till now we have the namespaces for logical grouping of components in Kubernetes but it was not flexible enough to meet common use cases.
 
-That's why they have introduced the hierarchical namespaces which will work on policy inheritance and delegated access control which means now you don't need cluster admin permission to create[#namespaces](https://www.linkedin.com/feed/hashtag/?keywords=namespaces&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361). The namespace owner can create the hierarchical namespace with his/her own access.
+That's why they have introduced the hierarchical namespaces which will work on policy inheritance and delegated access control which means now you don't need cluster admin permission to create [#namespaces](https://www.linkedin.com/feed/hashtag/?keywords=namespaces&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6700424364623503361). The namespace owner can create the hierarchical namespace with his/her own access.
 
 This concept of ownership enables two additional types of behaviours:
 
-- **Policy inheritance:**if one namespace is a child of another, policy objects such as RBAC RoleBindings are[copied from the parent to the child](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc/docs/user-guide/concepts.md#basic-propagation).
+- **Policy inheritance:**if one namespace is a child of another, policy objects such as RBAC RoleBindings are [copied from the parent to the child](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc/docs/user-guide/concepts.md#basic-propagation).
 - **Delegated creation:**you usually need cluster-level privileges to create a namespace, but hierarchical namespaces adds an alternative:[subnamespaces](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc/docs/user-guide/concepts.md#basic-subns), which can be manipulated using only limited permissions in the parent namespace.
 
 <https://kubernetes.io/blog/2020/08/14/introducing-hierarchical-namespaces>
@@ -109,7 +109,7 @@ kubectl annotate po nginx1 nginx2 nginx3 description='my description'
 
 ## Field Selectors
 
-*Field selectors*let you[select Kubernetes resources](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects)based on the value of one or more resource fields.
+*Field selectors*let you [select Kubernetes resources](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects) based on the value of one or more resource fields.
 
 $ kubectl get pods --field-selector status.phase=Running
 
@@ -163,7 +163,7 @@ All calls, both internal and external traffic, are handled via this agent. All a
 
 2. **kube-controller-manager**
 
-Component on the master that runs[controllers](https://kubernetes.io/docs/admin/kube-controller-manager/) (A control loop that watches the shared state of the cluster through the apiserver and make changes attempting to move the current state towards the desired state).
+Component on the master that runs [controllers](https://kubernetes.io/docs/admin/kube-controller-manager/) (A control loop that watches the shared state of the cluster through the apiserver and make changes attempting to move the current state towards the desired state).
 
 The kube-controller-manager is a core control loop daemon which interacts with the kube-apiserver to determine the state of the cluster. If the state does not match, the manager will contact the necessary controller to match the desired state. There are several controllers in use, such as endpoints, namespace, and replication.
 
@@ -189,7 +189,7 @@ There is a master database along with possible followers. They communicate with 
 
 5. **cloud-controller-manager**
 
-[cloud-controller-manager](https://kubernetes.io/docs/tasks/administer-cluster/running-cloud-controller/)runs controllers that interact with the underlying cloud providers.
+[cloud-controller-manager](https://kubernetes.io/docs/tasks/administer-cluster/running-cloud-controller/) runs controllers that interact with the underlying cloud providers.
 
 Various types of cloud controller manager are
 
@@ -228,7 +228,7 @@ The Kubelet is responsible for a few things:
 
 2. **[kube-proxy](https://kubernetes.io/docs/admin/kube-proxy/),** a network proxy which reflects Kubernetes networking services on each node.
 
-[kube-proxy](https://kubernetes.io/docs/admin/kube-proxy/)enables the Kubernetes service abstraction by maintaining network rules on the host and performing connection forwarding.
+[kube-proxy](https://kubernetes.io/docs/admin/kube-proxy/) enables the Kubernetes service abstraction by maintaining network rules on the host and performing connection forwarding.
 
 Every Kubernetes node runs a **kube-proxy**. **kube-proxy** maps virtual IP addresses to services and creates the required routes in the system so that pods can communicate with each other.
 
@@ -236,7 +236,7 @@ The kube-proxy is in charge of managing the network connectivity to the containe
 
 3. **Container Runtime**
 
-The container runtime is the software that is responsible for running containers. Kubernetes supports several runtimes:[Docker](http://www.docker.com/),[rkt](https://coreos.com/rkt/),[runc](https://github.com/opencontainers/runc)and any OCI[runtime-spec](https://github.com/opencontainers/runtime-spec)implementation.
+The container runtime is the software that is responsible for running containers. Kubernetes supports several runtimes:[Docker](http://www.docker.com/),[rkt](https://coreos.com/rkt/),[runc](https://github.com/opencontainers/runc) and any OCI [runtime-spec](https://github.com/opencontainers/runtime-spec) implementation.
 
 ### Kubernetes Addons
 

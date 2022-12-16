@@ -9,7 +9,7 @@ Modified: 2019-08-05 20:14:45 +0500
 ## Char input
 
 ```c++
-char name[10];
+char name [10];
 
 scanf("%d %s", &type, name);
 ```

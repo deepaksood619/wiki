@@ -49,7 +49,7 @@ Overall, both Power BI and Google data studio are similar when it comes to data 
 
 6. SSRS (Sql Server Reporting Services)
 
-SQL Server Reporting Services(SSRS)is a server-based report generating software system from[Microsoft](https://en.wikipedia.org/wiki/Microsoft). It is part of a suite of[Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)services, including SSAS ([SQL Server Analysis Services](https://en.wikipedia.org/wiki/SQL_Server_Analysis_Services)) and SSIS ([SQL Server Integration Services](https://en.wikipedia.org/wiki/SQL_Server_Integration_Services)).
+SQL Server Reporting Services(SSRS)is a server-based report generating software system from [Microsoft](https://en.wikipedia.org/wiki/Microsoft). It is part of a suite of [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server) services, including SSAS ([SQL Server Analysis Services](https://en.wikipedia.org/wiki/SQL_Server_Analysis_Services)) and SSIS ([SQL Server Integration Services](https://en.wikipedia.org/wiki/SQL_Server_Integration_Services)).
 
 7. Sisense - <https://www.sisense.com>
 
@@ -63,9 +63,9 @@ Redashwas built to allow fast and easy access to billions of records, that we pr
 
 ## Redashconsists of two parts
 
-1. **Query Editor:** think of[JS Fiddle](https://jsfiddle.net/)for SQL queries. It's your way to share data in the organization in an open way, by sharing both the dataset and the query that generated it. This way everyone can peer review not only the resulting dataset but also the process that generated it. Also it's possible to fork it and generate new datasets and reach new insights.
+1. **Query Editor:** think of [JS Fiddle](https://jsfiddle.net/) for SQL queries. It's your way to share data in the organization in an open way, by sharing both the dataset and the query that generated it. This way everyone can peer review not only the resulting dataset but also the process that generated it. Also it's possible to fork it and generate new datasets and reach new insights.
 
-2. **Visualizations and Dashboards:** once you have a dataset, you can create different visualizations out of it, and then combine several visualizations into a single dashboard. Currently Redash supports charts, pivot table, cohorts and[more](https://redash.io/help/user-guide/visualizations/visualization-types).
+2. **Visualizations and Dashboards:** once you have a dataset, you can create different visualizations out of it, and then combine several visualizations into a single dashboard. Currently Redash supports charts, pivot table, cohorts and [more](https://redash.io/help/user-guide/visualizations/visualization-types).
 
 <https://github.com/getredash/redash>
 
@@ -75,7 +75,7 @@ Redashwas built to allow fast and easy access to billions of records, that we pr
 
 ## Rive
 
-Rive is a real-time interactive design tool that allows you to design, animate, and immediately integrate your assets into any platform thanks to our[open source runtimes](https://rive.app/runtimes).
+Rive is a real-time interactive design tool that allows you to design, animate, and immediately integrate your assets into any platform thanks to our [open source runtimes](https://rive.app/runtimes).
 
 <https://rive.app>
 

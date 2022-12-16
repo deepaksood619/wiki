@@ -24,11 +24,11 @@ A directive is a marker on a HTML tag that tells Angular to run or reference som
 
 [(ngModel)]is Angular's two-way data binding syntax.
 
-The[*ngFor](https://angular.io/guide/template-syntax#ngFor)is Angular's*repeater*directive. It repeats the host element for each element in a list.
+The [*ngFor](https://angular.io/guide/template-syntax#ngFor) is Angular's*repeater*directive. It repeats the host element for each element in a list.
 
 <li *[ngFor](https://angular.io/api/common/NgForOf)="let hero of heroes" (click)="onSelect(hero)">
 
-This is an example of Angular's[event binding](https://angular.io/guide/template-syntax#event-binding)syntax.
+This is an example of Angular's [event binding](https://angular.io/guide/template-syntax#event-binding) syntax.
 
 <div *[ngIf](https://angular.io/api/common/NgIf)="selectedHero">
 

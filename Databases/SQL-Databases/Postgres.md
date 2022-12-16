@@ -149,7 +149,7 @@ SELECT * FROM pg_available_extensions;
 
 - [B-tree indexes](https://www.postgresql.org/docs/current/btree-intro.html)
 
-B-tree indexes are binary trees that are used to sort data efficiently. They're the default if you use theINDEXcommand. Most of the time, a B-tree index suffices. As you scale, inconsistencies can be a larger problem, so use the[amcheck](https://www.postgresql.org/docs/11/amcheck.html)extension periodically.
+B-tree indexes are binary trees that are used to sort data efficiently. They're the default if you use theINDEXcommand. Most of the time, a B-tree index suffices. As you scale, inconsistencies can be a larger problem, so use the [amcheck](https://www.postgresql.org/docs/11/amcheck.html) extension periodically.
 
 - [BRIN indexes](https://www.postgresql.org/docs/11/brin-intro.html)
 
@@ -166,7 +166,7 @@ Use a GIN or GiST index for efficient indexes based on composite values like tex
 
 ## pgagroal**
 
-pgagroalis a high-performance protocol-native connection pool for[PostgreSQL](https://www.postgresql.org/).
+pgagroalis a high-performance protocol-native connection pool for [PostgreSQL](https://www.postgresql.org/).
 
 ## Features
 
@@ -254,7 +254,7 @@ This configuration is used for complex sorting. If you have to do complex sortin
 
 5. maintenance_work_mem
 
-maintenance_work_memis a memory setting used for maintenance tasks. The default value is 64MB. Setting a large value helps in tasks like[VACUUM](https://www.percona.com/blog/2018/08/06/basic-understanding-bloat-vacuum-postgresql-mvcc/), RESTORE, CREATE INDEX, ADD FOREIGN KEY and ALTER TABLE.
+maintenance_work_memis a memory setting used for maintenance tasks. The default value is 64MB. Setting a large value helps in tasks like [VACUUM](https://www.percona.com/blog/2018/08/06/basic-understanding-bloat-vacuum-postgresql-mvcc/), RESTORE, CREATE INDEX, ADD FOREIGN KEY and ALTER TABLE.
 
 6. synchronous_commit
 

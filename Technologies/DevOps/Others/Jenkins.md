@@ -55,9 +55,9 @@ Jenkins Pipeline (or simply "Pipeline" with a capital "P") is a suite of plugins
 
 Acontinuous delivery (CD) pipelineis an automated expression of your process for getting software from version control right through to your users and customers. Every change to your software (committed in source control) goes through a complex process on its way to being released. This process involves building the software in a reliable and repeatable manner, as well as progressing the built software (called a "build") through multiple stages of testing and deployment.
 
-Pipeline provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code" via the[Pipeline domain-specific language (DSL) syntax](https://jenkins.io/doc/book/pipeline/syntax).
+Pipeline provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code" via the [Pipeline domain-specific language (DSL) syntax](https://jenkins.io/doc/book/pipeline/syntax).
 
-The definition of a Jenkins Pipeline is written into a text file (called a[Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile)) which in turn can be committed to a project's source control repository.This is the foundation of "Pipeline-as-code"; treating the CD pipeline a part of the application to be versioned and reviewed like any other code.
+The definition of a Jenkins Pipeline is written into a text file (called a [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile)) which in turn can be committed to a project's source control repository.This is the foundation of "Pipeline-as-code"; treating the CD pipeline a part of the application to be versioned and reviewed like any other code.
 
 Creating aJenkinsfileand committing it to source control provides a number of immediate benefits:
 
@@ -87,7 +87,7 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 - **Durable:** Pipelines can survive both planned and unplanned restarts of the Jenkins master.
 - **Pausable:** Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
 - **Versatile:** Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
-- **Extensible:** The Pipeline plugin supports custom extensions to its DSL[[1](https://jenkins.io/doc/book/pipeline/#_footnotedef_1)]and multiple options for integration with other plugins.
+- **Extensible:** The Pipeline plugin supports custom extensions to its DSL [[1](https://jenkins.io/doc/book/pipeline/#_footnotedef_1)]and multiple options for integration with other plugins.
 
 ![Pipeline Flow](../../media/DevOps-Others-Jenkins-image1.png)
 

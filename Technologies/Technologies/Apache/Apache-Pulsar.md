@@ -17,9 +17,9 @@ Apache Pulsar is an open-source distributed pub-sub messaging system originally 
 - Multi-tenancy
 - Persistent storage - Persistent message storage based on Apache BookKeeper. Provides IO-level isolation between write and read operations
 - Operability - REST Admin API for provisioning, administration, tools and monitoring. Deploy on bare metal or Kubernetes.
-- A serverless connector framework[Pulsar IO](http://pulsar.apache.org/docs/en/io-overview)built on-top-of Pulsar Functions to make moving data in and out Apache Pulsar easier.
-- [Tiered Storage](http://pulsar.apache.org/docs/en/concepts-tiered-storage)offloads data from hot/warn storage to cold/longterm storage (such as S3 and GCS) when the data is aging out.
-- Multiple[subscription modes](http://pulsar.apache.org/docs/en/concepts-messaging#subscription-modes)for topics ([exclusive](http://pulsar.apache.org/docs/en/concepts-messaging#exclusive),[shared](http://pulsar.apache.org/docs/en/concepts-messaging#shared), and[failover](http://pulsar.apache.org/docs/en/concepts-messaging#failover))
+- A serverless connector framework [Pulsar IO](http://pulsar.apache.org/docs/en/io-overview) built on-top-of Pulsar Functions to make moving data in and out Apache Pulsar easier.
+- [Tiered Storage](http://pulsar.apache.org/docs/en/concepts-tiered-storage) offloads data from hot/warn storage to cold/longterm storage (such as S3 and GCS) when the data is aging out.
+- Multiple [subscription modes](http://pulsar.apache.org/docs/en/concepts-messaging#subscription-modes) for topics ([exclusive](http://pulsar.apache.org/docs/en/concepts-messaging#exclusive),[shared](http://pulsar.apache.org/docs/en/concepts-messaging#shared), and [failover](http://pulsar.apache.org/docs/en/concepts-messaging#failover))
 
 ## Flexible Messaging Model
 

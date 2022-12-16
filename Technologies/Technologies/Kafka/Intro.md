@@ -13,7 +13,7 @@ Modified: 2021-06-06 16:40:19 +0500
 - Aims to provide - Unified, High-throughput, low-latency platform for handling real-time data feeds.
 - Storage layer - massively scalable pub/sub message queue designed as a distributed transaction log (highly valuable for enterprise infrastructures to process streaming data)
 - Kafka connects to external systems (for data import/export) via Kafka Connect and provides Kafka Streams, a Java stream processinglibrary
-- Design is heavily influenced by[transaction logs](https://en.wikipedia.org/wiki/Transaction_log). (based on commit log)
+- Design is heavily influenced by [transaction logs](https://en.wikipedia.org/wiki/Transaction_log). (based on commit log)
 
 - Fault tolerant highly available queue used in publisher-subscriber or streaming application
 - It can deliver message exactly once and also it keeps all the messages ordered inside a parition of a topic
@@ -55,10 +55,10 @@ Modified: 2021-06-06 16:40:19 +0500
 
 ### APIs
 
-- The[Producer API](https://kafka.apache.org/documentation.html#producerapi)allows an application to publish a stream of records to one or more Kafka topics.
-- The[Consumer API](https://kafka.apache.org/documentation.html#consumerapi)allows an application to subscribe to one or more topics and process the stream of records produced to them.
-- The[Streams API](https://kafka.apache.org/documentation/streams)allows an application to act as a*stream processor*, consuming an input stream from one or more topics and producing an output stream to one or more output topics, effectively transforming the input streams to output streams.
-- The[Connector API](https://kafka.apache.org/documentation.html#connect)allows building and running reusable producers or consumers that connect Kafka topics to existing applications or data systems. For example, a connector to a relational database might capture every change to a table.
+- The [Producer API](https://kafka.apache.org/documentation.html#producerapi) allows an application to publish a stream of records to one or more Kafka topics.
+- The [Consumer API](https://kafka.apache.org/documentation.html#consumerapi) allows an application to subscribe to one or more topics and process the stream of records produced to them.
+- The [Streams API](https://kafka.apache.org/documentation/streams) allows an application to act as a*stream processor*, consuming an input stream from one or more topics and producing an output stream to one or more output topics, effectively transforming the input streams to output streams.
+- The [Connector API](https://kafka.apache.org/documentation.html#connect) allows building and running reusable producers or consumers that connect Kafka topics to existing applications or data systems. For example, a connector to a relational database might capture every change to a table.
 
 ### Architecture
 
@@ -86,11 +86,11 @@ Ex - Kafka can be used to **aggregate user activity** data such as clicks, navig
 
 4. **Log Aggregation -** Many people use Kafka as a replacement for a log aggregation solution. Log aggregation typically collects physical log files off servers and puts them in a central place (a file server or HDFS perhaps) for processing. Kafka abstracts away the details of files and gives a cleaner abstraction of log or event data as a stream of messages. This allows for lower-latency processing and easier support for multiple data sources and distributed data consumption. In comparison to log-centric systems like Scribe or Flume, Kafka offers equally good performance, stronger durability guarantees due to replication, and much lower end-to-end latency.
 
-5. **Stream Processing -** Many users of Kafka process data in processing pipelines consisting of multiple stages, where raw input data is consumed from Kafka topics and then aggregated, enriched, or otherwise transformed into new topics for further consumption or follow-up processing. For example, a processing pipeline for recommending news articles might crawl article content from RSS feeds and publish it to an "articles" topic; further processing might normalize or deduplicate this content and published the cleansed article content to a new topic; a final processing stage might attempt to recommend this content to users. Such processing pipelines create graphs of real-time data flows based on the individual topics. Starting in 0.10.0.0, a light-weight but powerful stream processing library called[Kafka Streams](https://kafka.apache.org/documentation/streams)is available in Apache Kafka to perform such data processing as described above. Apart from Kafka Streams, alternative open source stream processing tools include[Apache Storm](https://storm.apache.org/)and[Apache Samza](http://samza.apache.org/).
+5. **Stream Processing -** Many users of Kafka process data in processing pipelines consisting of multiple stages, where raw input data is consumed from Kafka topics and then aggregated, enriched, or otherwise transformed into new topics for further consumption or follow-up processing. For example, a processing pipeline for recommending news articles might crawl article content from RSS feeds and publish it to an "articles" topic; further processing might normalize or deduplicate this content and published the cleansed article content to a new topic; a final processing stage might attempt to recommend this content to users. Such processing pipelines create graphs of real-time data flows based on the individual topics. Starting in 0.10.0.0, a light-weight but powerful stream processing library called [Kafka Streams](https://kafka.apache.org/documentation/streams) is available in Apache Kafka to perform such data processing as described above. Apart from Kafka Streams, alternative open source stream processing tools include [Apache Storm](https://storm.apache.org/) and [Apache Samza](http://samza.apache.org/).
 
 6. **Event Sourcing - [Event sourcing](http://martinfowler.com/eaaDev/EventSourcing.html)**is a style of application design where state changes are logged as a time-ordered sequence of records. Kafka's support for very large stored log data makes it an excellent backend for an application built in this style.
 
-7. **Commit Log -** Kafka can serve as a kind of external commit-log for a distributed system. The log helps replicate data between nodes and acts as a re-syncing mechanism for failed nodes to restore their data. The[**log compaction**](https://kafka.apache.org/documentation.html#compaction)feature in Kafka helps support this usage. In this usage Kafka is similar to[**Apache BookKeeper**](http://zookeeper.apache.org/bookkeeper/)project.
+7. **Commit Log -** Kafka can serve as a kind of external commit-log for a distributed system. The log helps replicate data between nodes and acts as a re-syncing mechanism for failed nodes to restore their data. The [**log compaction**](https://kafka.apache.org/documentation.html#compaction) feature in Kafka helps support this usage. In this usage Kafka is similar to [**Apache BookKeeper**](http://zookeeper.apache.org/bookkeeper/) project.
 
 8. **Fintech**
     - **Customer 360- getting a 360 ° view of customer interactions and delivering personalized customer experiences**

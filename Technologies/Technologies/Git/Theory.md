@@ -96,7 +96,7 @@ Doing git reset on a merge commit will roll back all the commits of that merge c
 
 When there is no merge commit it's called **Fast Forward Merge.**
 
-[Fast forward merge](https://kolosek.com/git-merge/#fastforwardmerge)is a type of merge that doesn't create a commit, instead, it updates the branch pointer to the last commit.
+[Fast forward merge](https://kolosek.com/git-merge/#fastforwardmerge) is a type of merge that doesn't create a commit, instead, it updates the branch pointer to the last commit.
 
 ## Git is an event sourcing system
 

@@ -18,11 +18,11 @@ SQS offers two types of message queues. **Standard queues** offer maximum throug
 
 ## Advantages
 
-- **Durability--** To ensure the safety of your messages, Amazon SQS stores them on multiple servers. Standard queues support[at-least-once message delivery](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html#standard-queues-at-least-once-delivery), and FIFO queues support[exactly-once message processing](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html#FIFO-queues-exactly-once-processing).
-- **Availability--** Amazon SQS uses[redundant infrastructure](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html)to provide highly-concurrent access to messages and high availability for producing and consuming messages.
-- **Scalability--** Amazon SQS can process each[buffered request](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-client-side-buffering-request-batching.html)independently, scaling transparently to handle any load increases or spikes without any provisioning instructions.
+- **Durability--** To ensure the safety of your messages, Amazon SQS stores them on multiple servers. Standard queues support [at-least-once message delivery](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/standard-queues.html#standard-queues-at-least-once-delivery), and FIFO queues support [exactly-once message processing](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html#FIFO-queues-exactly-once-processing).
+- **Availability--** Amazon SQS uses [redundant infrastructure](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html) to provide highly-concurrent access to messages and high availability for producing and consuming messages.
+- **Scalability--** Amazon SQS can process each [buffered request](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-client-side-buffering-request-batching.html) independently, scaling transparently to handle any load increases or spikes without any provisioning instructions.
 - **Reliability--** Amazon SQS locks your messages during processing, so that multiple producers can send and multiple consumers can receive messages at the same time.
-- **Customization--** Your queues don't have to be exactly alike---for example, you can[set a default delay on a queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-delay-queues.html). You can store the contents of messages larger than 256 KB[using Amazon Simple Storage Service (Amazon S3)](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-s3-messages.html)or Amazon DynamoDB, with Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message into smaller messages.
+- **Customization--** Your queues don't have to be exactly alike---for example, you can [set a default delay on a queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-delay-queues.html). You can store the contents of messages larger than 256 KB [using Amazon Simple Storage Service (Amazon S3)](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-s3-messages.html) or Amazon DynamoDB, with Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message into smaller messages.
 
 Max Payload Size - 256 KB
 
@@ -46,7 +46,7 @@ All customers can make 1 million Amazon SQS requests for free each month.
 | FIFO Requests              | API actions for sending, receiving, deleting, and changing visibility of messages from FIFO queues are charged at FIFO rates. All other API requests are charged at standard rates.                                                                                                |
 | Contents of Requests       | A single request can have from 1 to 10 messages, up to a maximum total payload of 256 KB.                                                                                                                                                                                           |
 | Size of Payloads           | Each 64 KB chunk of a payload is billed as 1 request (for example, an API action with a 256 KB payload is billed as 4 requests).                                                                                                                                                    |
-| Interaction with Amazon S3 | When using the[Amazon SQS Extended Client Library](https://github.com/awslabs/amazon-sqs-java-extended-client-lib)to send payloads using Amazon S3, you incur[Amazon S3 charges](https://aws.amazon.com/s3/pricing/)for any Amazon S3 storage you use to send message payloads. |
+| Interaction with Amazon S3 | When using the [Amazon SQS Extended Client Library](https://github.com/awslabs/amazon-sqs-java-extended-client-lib) to send payloads using Amazon S3, you incur [Amazon S3 charges](https://aws.amazon.com/s3/pricing/) for any Amazon S3 storage you use to send message payloads. |
 
 <https://aws.amazon.com/sqs>
 
@@ -62,17 +62,17 @@ In Amazon SQS, you can use the API or the console to configure dead letter queue
 
 If you make a queue into a dead letter queue, it receives messages after a maximum number of processing attempts cannot be completed. You can use dead letter queues to isolate messages that can't be processed for later analysis.
 
-For more information, see "Can I use a dead letter queue with FIFO queues?" on this page and[Using Amazon SQS Dead Letter Queues](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html)in the Amazon SQS Developer Guide.
+For more information, see "Can I use a dead letter queue with FIFO queues?" on this page and [Using Amazon SQS Dead Letter Queues](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html) in the Amazon SQS Developer Guide.
 
 ## What is a visibility timeout?
 
-The visibility timeout is a period of time during which Amazon SQS prevents other consuming components from receiving and processing a message. For more information, see[Visibility Timeout](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/AboutVT.html)in theAmazon SQS Developer Guide.
+The visibility timeout is a period of time during which Amazon SQS prevents other consuming components from receiving and processing a message. For more information, see [Visibility Timeout](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/AboutVT.html) in theAmazon SQS Developer Guide.
 
 ## Does Amazon SQS support message metadata?
 
 Yes. An Amazon SQS message can contain up to 10 metadata attributes. You can use message attributes to separate the body of a message from the metadata that describes it. This helps process and store information with greater speed and efficiency because your applications don't have to inspect an entire message before understanding how to process it.
 
-Amazon SQS message attributes take the form of name-type-value triples. The supported types include string, binary, and number (including integer, floating-point, and double). For more information, see[Using Amazon SQS Message Attributes](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/SQSMessageAttributes.html)in theAmazon SQS Developer Guide.
+Amazon SQS message attributes take the form of name-type-value triples. The supported types include string, binary, and number (including integer, floating-point, and double). For more information, see [Using Amazon SQS Message Attributes](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/SQSMessageAttributes.html) in theAmazon SQS Developer Guide.
 
 ## How can I determine the time-in-queue value?
 
@@ -86,7 +86,7 @@ Typical latencies for SendMessage, ReceiveMessage, and DeleteMessage API request
 
 Amazon SQS long polling is a way to retrieve messages from your Amazon SQS queues. While the regular short polling returns immediately, even if the message queue being polled is empty, long polling doesn't return a response until a message arrives in the message queue, or the long poll times out.
 
-Long polling makes it inexpensive to retrieve messages from your Amazon SQS queue as soon as the messages are available. Using long polling might reduce the cost of using SQS, because you can reduce the number of empty receives. For more information, see[Amazon SQS Long Polling](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html)in theAmazon SQS Developer Guide.
+Long polling makes it inexpensive to retrieve messages from your Amazon SQS queue as soon as the messages are available. Using long polling might reduce the cost of using SQS, because you can reduce the number of empty receives. For more information, see [Amazon SQS Long Polling](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-long-polling.html) in theAmazon SQS Developer Guide.
 
 ## When should I use Amazon SQS long polling, and when should I use Amazon SQS short polling?
 
@@ -146,7 +146,7 @@ Yes. However, you must use a FIFO dead letter queue with a FIFO queue. (Similarl
 
 When Amazon SQS returns a message to you, the message stays in the message queue whether or not you actually receive the message. You're responsible for deleting the message and the deletion request acknowledges that you're done processing the message.
 
-If you don't delete the message, Amazon SQS will deliver it again on when it receives another receive request. For more information, see[Visibility Timeout](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/AboutVT.html)in theAmazon SQS Developer Guide.
+If you don't delete the message, Amazon SQS will deliver it again on when it receives another receive request. For more information, see [Visibility Timeout](http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/AboutVT.html) in theAmazon SQS Developer Guide.
 
 ## Can a deleted message be received again?
 
@@ -224,13 +224,13 @@ try:
 
 # print(response, type(response))
 
-# print(f'{response["ResponseMetadata"]["HTTPStatusCode"]}, {response["ResponseMetadata"]["RetryAttempts"]}')
+# print(f'{response ["ResponseMetadata"]["HTTPStatusCode"]}, {response ["ResponseMetadata"]["RetryAttempts"]}')
 
 for i in response.get('Messages', ''):
 
-print(f'{str(datetime.now())} {i["Body"]} {datetime.fromtimestamp(int(i["Attributes"]["SentTimestamp"])/1000)}')
+print(f'{str(datetime.now())} {i ["Body"]} {datetime.fromtimestamp(int(i ["Attributes"]["SentTimestamp"])/1000)}')
 
-client.delete_message(QueueUrl='https://sqs.ap-south-1.amazonaws.com/331916247734/TestQueue', ReceiptHandle=i["ReceiptHandle"])
+client.delete_message(QueueUrl='https://sqs.ap-south-1.amazonaws.com/331916247734/TestQueue', ReceiptHandle=i ["ReceiptHandle"])
 
 except Exception as e:
 

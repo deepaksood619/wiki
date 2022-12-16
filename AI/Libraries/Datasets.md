@@ -10,7 +10,7 @@ Modified: 2021-06-14 19:41:37 +0500
 
 ## MNIST database
 
-The**MNIST database**(Modified[National Institute of Standards and Technology](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology)database) is a large[database](https://en.wikipedia.org/wiki/Database)of handwritten digits that is commonly used for[training](https://en.wikipedia.org/wiki/Training_set)various[image processing](https://en.wikipedia.org/wiki/Image_processing) systems.
+The**MNIST database**(Modified [National Institute of Standards and Technology](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology) database) is a large [database](https://en.wikipedia.org/wiki/Database) of handwritten digits that is commonly used for [training](https://en.wikipedia.org/wiki/Training_set) various [image processing](https://en.wikipedia.org/wiki/Image_processing) systems.
 
 EMNIST Dataset - handwritten character digits
 

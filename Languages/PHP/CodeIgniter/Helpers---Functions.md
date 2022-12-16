@@ -147,16 +147,16 @@ $this->load->helper('url');
 - [**Global Functions**](https://codeigniter.com/user_guide/general/common_functions.html#global-functions)
   - [**Service Accessors**](https://codeigniter.com/user_guide/general/common_functions.html#service-accessors)
     - cache([$key])
-    - env($key[,$default=null])
+    - env($key [,$default=null])
     - esc($data,$context='html'[,$encoding])
     - helper($filename)
-    - lang($line[,$args[,$locale]])
-    - model($name[,$getShared = true[,&$conn = null]])
-    - old($key[,$default = null[,$escape = 'html']])
+    - lang($line [,$args [,$locale]])
+    - model($name [,$getShared = true [,&$conn = null]])
+    - old($key [,$default = null [,$escape = 'html']])
     - session([$key])
     - timer([$name])
-    - view($name[,$data[,$options]])
-    - view_cell($library[,$params = null[,$ttl = 0[,$cacheName = null]]])
+    - view($name [,$data [,$options]])
+    - view_cell($library [,$params = null [,$ttl = 0 [,$cacheName = null]]])
 
 - [**Miscellaneous Functions**](https://codeigniter.com/user_guide/general/common_functions.html#miscellaneous-functions)
   - app_timezone()
@@ -165,11 +165,11 @@ $this->load->helper('url');
   - csrf_hash()
   - csrf_field()
   - csrf_meta()
-  - force_https($duration = 31536000[,$request = null[,$response = null]])
+  - force_https($duration = 31536000 [,$request = null [,$response = null]])
   - function_usable($function_name)
   - is_cli()
   - is_really_writable($file)
-  - log_message($level,$message[,$context])
+  - log_message($level,$message [,$context])
   - **redirect(string $uri)**
 
 // Go back to the previous page
@@ -194,12 +194,12 @@ return redirect()->back()->withCookies();
 // Copies all headers from the global response instance
 return redirect()->back()->withHeaders();
 
-- remove_invisible_characters($str[,$urlEncoded = TRUE])
-- route_to($method[,...$params])
-- service($name[,...$params])
-- single_service($name[,...$params])
+- remove_invisible_characters($str [,$urlEncoded = TRUE])
+- route_to($method [,...$params])
+- service($name [,...$params])
+- single_service($name [,...$params])
 - slash_item($item)
-- stringify_attributes($attributes[,$js])
+- stringify_attributes($attributes [,$js])
 
 - [**Global Constants**](https://codeigniter.com/user_guide/general/common_functions.html#global-constants)
   - [**Core Constants**](https://codeigniter.com/user_guide/general/common_functions.html#core-constants)

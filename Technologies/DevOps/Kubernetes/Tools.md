@@ -14,7 +14,7 @@ An all-in-one Kubernetesstack using ArgoCDand Terraform as base components
 
 ## Tanka
 
-Grafana Tanka is the robust configuration utility for your[Kubernetes](https://kubernetes.io/)cluster, powered by the unique[Jsonnet](https://jsonnet.org/)language
+Grafana Tanka is the robust configuration utility for your [Kubernetes](https://kubernetes.io/) cluster, powered by the unique [Jsonnet](https://jsonnet.org/) language
 
 <https://tanka.dev>
 
@@ -50,7 +50,7 @@ Minikube supports Kubernetes features such as
 - NodePorts
 - ConfigMaps and Secrets
 - Dashboards
-- Container Runtime: Docker,[rkt](https://github.com/rkt/rkt),[CRI-O](https://github.com/kubernetes-incubator/cri-o)and[containerd](https://github.com/containerd/containerd)
+- Container Runtime: Docker,[rkt](https://github.com/rkt/rkt),[CRI-O](https://github.com/kubernetes-incubator/cri-o) and [containerd](https://github.com/containerd/containerd)
 - Enabling CNI (Container Network Interface)
 - Ingress
 
@@ -243,7 +243,7 @@ telepresence --swap-deployment api-v3 --namespace staging --expose 8000
 
 ## kubefwd
 
-kubefwdis a command line utility built to port forward multiple[services](https://kubernetes.io/docs/concepts/services-networking/service/)within one or more[namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)on one or more Kubernetes clusters.kubefwduses the same port exposed by the service and forwards it from a loopback IP address on your local workstation.kubefwdtemporally adds domain entries to your/etc/hostsfile with the service names it forwards.
+kubefwdis a command line utility built to port forward multiple [services](https://kubernetes.io/docs/concepts/services-networking/service/) within one or more [namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) on one or more Kubernetes clusters.kubefwduses the same port exposed by the service and forwards it from a loopback IP address on your local workstation.kubefwdtemporally adds domain entries to your/etc/hostsfile with the service names it forwards.
 
 <https://github.com/txn2/kubefwd>
 
@@ -367,7 +367,7 @@ Lens is the only IDE you'll ever need to take control of your Kubernetes cluster
 
 ## Kind
 
-[kind](https://sigs.k8s.io/kind)is a tool for running local Kubernetes clusters using Docker container "nodes".
+[kind](https://sigs.k8s.io/kind) is a tool for running local Kubernetes clusters using Docker container "nodes".
 
 kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
@@ -385,7 +385,7 @@ kind delete cluster
 
 ## Node Problem Detector
 
-node-problem-detector aims to make various node problems visible to the upstream layers in cluster management stack. It is a daemon which runs on each node, detects node problems and reports them to apiserver. node-problem-detector can either run as a[DaemonSet](http://kubernetes.io/docs/admin/daemons/)or run standalone.
+node-problem-detector aims to make various node problems visible to the upstream layers in cluster management stack. It is a daemon which runs on each node, detects node problems and reports them to apiserver. node-problem-detector can either run as a [DaemonSet](http://kubernetes.io/docs/admin/daemons/) or run standalone.
 
 <https://github.com/kubernetes/node-problem-detector>
 
@@ -421,7 +421,7 @@ Cloud native application management framework built to manage the full applicati
 
 Kubernetes Event-driven Autoscaling
 
-KEDAis a single-purpose and lightweight component that can be added into any Kubernetes cluster. KEDA works alongside standard Kubernetes components like the[Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)and can extend functionality without overwriting or duplication. With KEDA you can explicitly map the apps you want to use event-driven scale, with other apps continuing to function. This makes KEDA a flexible and safe option to run alongside any number of any other Kubernetes applications or frameworks.
+KEDAis a single-purpose and lightweight component that can be added into any Kubernetes cluster. KEDA works alongside standard Kubernetes components like the [Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) and can extend functionality without overwriting or duplication. With KEDA you can explicitly map the apps you want to use event-driven scale, with other apps continuing to function. This makes KEDA a flexible and safe option to run alongside any number of any other Kubernetes applications or frameworks.
 
 <https://learnk8s.io/scaling-celery-rabbitmq-kubernetes>
 

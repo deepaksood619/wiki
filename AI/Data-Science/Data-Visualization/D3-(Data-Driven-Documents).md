@@ -20,7 +20,7 @@ The D3.js library uses pre-built functions to select elements, create SVG object
 
 ### Selections
 
-The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of[Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)(DOM) nodes, then use operators to manipulate them in a similar manner to[jQuery](https://en.wikipedia.org/wiki/JQuery).For example, one may select all HTML `<p>...</p>` elements, and then change their text color, e.g. to lavender:
+The central principle of D3.js design is to enable the programmer to first use a CSS-style selector to select a given set of [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model)(DOM) nodes, then use operators to manipulate them in a similar manner to [jQuery](https://en.wikipedia.org/wiki/JQuery).For example, one may select all HTML `<p>...</p>` elements, and then change their text color, e.g. to lavender:
 
 ```html
 d3.selectAll("p")             // select all <p> elements
@@ -96,7 +96,7 @@ Generated SVG graphics are designed according to the provided data.
 
 ### Appending nodes using data
 
-Once a dataset is bound to a document, use of D3.js typically follows a pattern wherein an explicit.enter()function, an implicit "update," and an explicit.exit()function is invoked for each item in the bound dataset. Any[methods chained](https://en.wikipedia.org/wiki/Method_chaining)after the.enter()command will be called for each item in the dataset not already represented by a DOM node in the selection (the previousselectAll()). Likewise, the implicit update function is called on all existing selected nodes for which there is a corresponding item in the dataset, and.exit()is called on all existing selected nodes that do not have an item in the dataset to bind to them. The D3.js documentation provides several examples of how this works.
+Once a dataset is bound to a document, use of D3.js typically follows a pattern wherein an explicit.enter()function, an implicit "update," and an explicit.exit()function is invoked for each item in the bound dataset. Any [methods chained](https://en.wikipedia.org/wiki/Method_chaining) after the.enter() command will be called for each item in the dataset not already represented by a DOM node in the selection (the previousselectAll()). Likewise, the implicit update function is called on all existing selected nodes for which there is a corresponding item in the dataset, and.exit() is called on all existing selected nodes that do not have an item in the dataset to bind to them. The D3.js documentation provides several examples of how this works.
 
 The first step is to make D3 aware of the data. Thedata()method is used on a selection of DOM elements to attach the data to those elements. The data set is passed as an argument to the method.
 

@@ -12,7 +12,7 @@ Modified: 2018-03-30 16:54:31 +0500
 
 ## Introduction
 
-The[re](https://docs.python.org/3/library/re.html#module-re)module provides an interface to the regular expression engine, allowing us to compile REs into objects and then perform matches with them. (Perl like regular expression)
+The [re](https://docs.python.org/3/library/re.html#module-re) module provides an interface to the regular expression engine, allowing us to compile REs into objects and then perform matches with them. (Perl like regular expression)
 
 ## Compiling
 
@@ -39,13 +39,13 @@ r'' represents that regular expression is in raw format
 | match()              | Determine if the RE matches at the beginning of the string.                                                                         |
 | search()             | Scan through a string, looking for any location where this RE matches.                                                              |
 | findall()            | Find all substrings where the RE matches, and returns them as a list.                                                               |
-| finditer()           | Find all substrings where the RE matches, and returns them as an[iterator](https://docs.python.org/3/glossary.html#term-iterator). |
+| finditer()           | Find all substrings where the RE matches, and returns them as an [iterator](https://docs.python.org/3/glossary.html#term-iterator). |
 
 match() and search() return None if no match can be found. If they're successful, a [match object](https://docs.python.org/3/library/re.html#match-objects) instance is returned, containing information about the match: where it starts and ends, the substring it matched, and more.
 
 ## re.match()
 
-The[**re.match()**](https://docs.python.org/2/library/re.html#re.match)expression only matches at the*beginning*of the string.
+The [**re.match()**](https://docs.python.org/2/library/re.html#re.match) expression only matches at the*beginning*of the string.
 
 It either returns a MatchObject instance or returns None if the string does not match the pattern.
 
@@ -57,7 +57,7 @@ bool(re.match(r'ly', 'ly how'))
 >> True
 ```
 
-We can query the[match object](https://docs.python.org/3/library/re.html#match-objects)for information about the matching string.
+We can query the [match object](https://docs.python.org/3/library/re.html#match-objects) for information about the matching string.
 
 | **Method/Attribute** | **Purpose**                                                       |
 |----------------------|--------------------------------------------------|
@@ -180,7 +180,7 @@ Ex -
 >>>matches = re.findall(regex, randStr)
 >>>print(matches)
 [('555', '1212')]
->>>print(matches[0][0])
+>>>print(matches [0][0])
 555
 ```
 
@@ -270,7 +270,7 @@ Split*string*by the occurrences of*pattern*. If capturing parentheses are used i
 
 ## Compilation Flag
 
-Compilation flags let you modify some aspects of how regular expressions work. Flags are available in the[re](https://docs.python.org/3/library/re.html#module-re)module under two names, a long name such asIGNORECASEand a short, one-letter form such asI.Multiple flags can be specified by bitwise OR-ing them;re.I|re.Msets both theI andMflags,
+Compilation flags let you modify some aspects of how regular expressions work. Flags are available in the [re](https://docs.python.org/3/library/re.html#module-re) module under two names, a long name such asIGNORECASEand a short, one-letter form such asI.Multiple flags can be specified by bitwise OR-ing them;re.I|re.Msets both theI andMflags,
 
 | **Flag**                    | **Meaning**                                                                                                   |
 |-------------------|-----------------------------------------------------|

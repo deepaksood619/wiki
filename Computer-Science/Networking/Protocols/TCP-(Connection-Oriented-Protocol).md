@@ -38,10 +38,10 @@ Only needed to set a flag on server, Client doesn't need to be updated
 
 ## Additive increase/multiplicative decrease (AIMD)**
 
-Theadditive-increase/multiplicative-decrease(AIMD) algorithm is a feedback control algorithm best known for its use in[TCP congestion control](https://en.wikipedia.org/wiki/TCP_congestion_control). AIMD combines linear growth of the congestion window with an exponential reduction when congestion is detected. Multiple flows using AIMD congestion control will eventually converge to use equal amounts of a shared link.The related schemes of multiplicative-increase/multiplicative-decrease (MIMD) and additive-increase/additive-decrease (AIAD) do not reach[stability](https://en.wikipedia.org/wiki/Stability_theory).
+Theadditive-increase/multiplicative-decrease(AIMD) algorithm is a feedback control algorithm best known for its use in [TCP congestion control](https://en.wikipedia.org/wiki/TCP_congestion_control). AIMD combines linear growth of the congestion window with an exponential reduction when congestion is detected. Multiple flows using AIMD congestion control will eventually converge to use equal amounts of a shared link.The related schemes of multiplicative-increase/multiplicative-decrease (MIMD) and additive-increase/additive-decrease (AIAD) do not reach [stability](https://en.wikipedia.org/wiki/Stability_theory).
 <https://en.wikipedia.org/wiki/Additive_increase/multiplicative_decrease>
 TCP is a reliable stream delivery service which guarantees that all bytes received will be identical and in the same order as those sent. Since packet transfer by many networks is not reliable, TCP achieves this using a technique known as*positive acknowledgement with re-transmission*. This requires the receiver to respond with an acknowledgement message as it receives the data. The sender keeps a record of each packet it sends and maintains a timer from when the packet was sent. The sender re-transmits a packet if the timer expires before receiving the acknowledgement. The timer is needed in case a packet gets lost or corrupted.
-While IP handles actual delivery of the data, TCP keeps track of*segments*- the individual units of data transmission that a message is divided into for efficient routing through the network. For example, when an HTML file is sent from a web server, the TCP software layer of that server divides the file into segments and forwards them individually to the[internet layer](https://en.wikipedia.org/wiki/Internet_layer)in the[network stack](https://en.wikipedia.org/wiki/Network_stack). The internet layer software encapsulates each TCP segment into an IP packet by adding a header that includes (among other data) the destination[IP address](https://en.wikipedia.org/wiki/IP_address). When the client program on the destination computer receives them, the TCP software in the transport layer re-assembles the segments and ensures they are correctly ordered and error-free as it streams the file contents to the receiving application.
+While IP handles actual delivery of the data, TCP keeps track of*segments*- the individual units of data transmission that a message is divided into for efficient routing through the network. For example, when an HTML file is sent from a web server, the TCP software layer of that server divides the file into segments and forwards them individually to the [internet layer](https://en.wikipedia.org/wiki/Internet_layer) in the [network stack](https://en.wikipedia.org/wiki/Network_stack). The internet layer software encapsulates each TCP segment into an IP packet by adding a header that includes (among other data) the destination [IP address](https://en.wikipedia.org/wiki/IP_address). When the client program on the destination computer receives them, the TCP software in the transport layer re-assembles the segments and ensures they are correctly ordered and error-free as it streams the file contents to the receiving application.
 
 ## Concepts
 
@@ -50,7 +50,7 @@ The absolute limitation onTCPpacketsizeis 64K (65535 bytes), but in practicality
 ## MTU (Maximum Transmission Unit)
 
 Maximum transmission unit is the maximum size of a packet or frame that can flow across the network, without being fragmented. For Ethernet networks, the maximum MTU value is 1500 bytes.
-Path MTU Discovery(PMTUD) is a standardized technique in[computer networking](https://en.wikipedia.org/wiki/Computer_networking) for determining the[maximum transmission unit (MTU)](https://en.wikipedia.org/wiki/Maximum_transmission_unit)size on the network path between two Internet Protocol (IP) hosts, usually with the goal of avoiding[IP fragmentation](https://en.wikipedia.org/wiki/IP_fragmentation). PMTUD was originally intended for routers in[Internet Protocol Version 4](https://en.wikipedia.org/wiki/IPv4)(IPv4).However, all modern operating systems use it on endpoints. In[IPv6](https://en.wikipedia.org/wiki/IPv6), this function has been explicitly delegated to the end points of a communications session.
+Path MTU Discovery(PMTUD) is a standardized technique in [computer networking](https://en.wikipedia.org/wiki/Computer_networking) for determining the [maximum transmission unit (MTU)](https://en.wikipedia.org/wiki/Maximum_transmission_unit) size on the network path between two Internet Protocol (IP) hosts, usually with the goal of avoiding [IP fragmentation](https://en.wikipedia.org/wiki/IP_fragmentation). PMTUD was originally intended for routers in [Internet Protocol Version 4](https://en.wikipedia.org/wiki/IPv4)(IPv4).However, all modern operating systems use it on endpoints. In [IPv6](https://en.wikipedia.org/wiki/IPv6), this function has been explicitly delegated to the end points of a communications session.
 <https://en.wikipedia.org/wiki/Path_MTU_Discovery>
 
 ## MSS (Maximum Segment Size)**
@@ -58,10 +58,10 @@ Path MTU Discovery(PMTUD) is a standardized technique in[computer networking](ht
 Maximum segment size is the maximum TCP datagram size. It represents the maximum payload size an endpoint is willing to accept within a single packet. Maximum MSS value is 1460 bytes. The MSS, IP header and TCP header, together make up the MTU value. That is, 1500 MTU = 1460 byte MSS + 20 byte IP header + 20 byte TCP header. Said another way, MSS = MTU --- 40.
 ![image](media/TCP-(Connection-Oriented-Protocol)-image2.png)
 
-Do note that MSS is only announced during the TCP handshake in the SYN segment, it is not a negotiated parameter. Meaning, client and server can announce their own individual and different MSS values[[rfc879]](https://tools.ietf.org/html/rfc879). The actual MSS is selected based on the endpoint's buffer and outgoing interface MTU. This can be represented visually by considering a communication between client A and server B[[cisco-ipfrag]](https://www.cisco.com/c/en/us/support/docs/ip/generic-routing-encapsulation-gre/25885-pmtud-ipfrag.html).**TCP Segment Structure**
+Do note that MSS is only announced during the TCP handshake in the SYN segment, it is not a negotiated parameter. Meaning, client and server can announce their own individual and different MSS values [[rfc879]](https://tools.ietf.org/html/rfc879). The actual MSS is selected based on the endpoint's buffer and outgoing interface MTU. This can be represented visually by considering a communication between client A and server B [[cisco-ipfrag]](https://www.cisco.com/c/en/us/support/docs/ip/generic-routing-encapsulation-gre/25885-pmtud-ipfrag.html).**TCP Segment Structure**
 
-Transmission Control Protocol accepts data from a data stream, divides it into chunks, and adds a TCP header creating a TCP segment. The TCP segment is then[encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(networking))into an Internet Protocol (IP) datagram, and exchanged with peers.
-The termTCP packetappears in both informal and formal usage, whereas in more precise terminology segment refers to the TCP[protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit)(PDU),datagramto the IP PDU, andframeto the data link layer PDU:
+Transmission Control Protocol accepts data from a data stream, divides it into chunks, and adds a TCP header creating a TCP segment. The TCP segment is then [encapsulated](https://en.wikipedia.org/wiki/Encapsulation_(networking)) into an Internet Protocol (IP) datagram, and exchanged with peers.
+The termTCP packetappears in both informal and formal usage, whereas in more precise terminology segment refers to the TCP [protocol data unit](https://en.wikipedia.org/wiki/Protocol_data_unit)(PDU),datagramto the IP PDU, andframeto the data link layer PDU:
 
 Processes transmit data by calling on the TCP and passing buffers of data as arguments. The TCP packages the data from these buffers into segments and calls on the internet module [e.g. IP] to transmit each segment to the destination TCP.
 A TCP segment consists of **a segmentheaderand adatasection**. The TCP header contains 10 mandatory fields, and an optional extension field (Options, pink background in table).
@@ -78,7 +78,7 @@ Has a dual role:
 
 ## Acknowledgement number
 
-Used by the receiving host to acknowledge successful receipt of a TCP segment. An ACK message is replied to the sending host, which includes the received sequence number incremented by 1. This number also informs the sending host, the sequence number of the next segment expected by the receiving host[[www.firewall.cx]](http://www.firewall.cx/networking-topics/protocols/tcp/134-tcp-seq-ack-numbers.html).
+Used by the receiving host to acknowledge successful receipt of a TCP segment. An ACK message is replied to the sending host, which includes the received sequence number incremented by 1. This number also informs the sending host, the sequence number of the next segment expected by the receiving host [[www.firewall.cx]](http://www.firewall.cx/networking-topics/protocols/tcp/134-tcp-seq-ack-numbers.html).
 
 ## Relative sequence number
 
@@ -90,23 +90,23 @@ This is the length of the TCP payload + the current sequence number. It indicate
 
 ## Selective ACK (SACK)
 
-This TCP option is used to identify a block of data that was received by a host. The sender does not re-transmit data identified by the left edge and right edge of SACK. This option can be used only if supported by both the parties and is negotiated during the TCP handshake[[packetlife-sack]](http://packetlife.net/blog/2010/jun/17/tcp-selective-acknowledgments-sack/).
+This TCP option is used to identify a block of data that was received by a host. The sender does not re-transmit data identified by the left edge and right edge of SACK. This option can be used only if supported by both the parties and is negotiated during the TCP handshake [[packetlife-sack]](http://packetlife.net/blog/2010/jun/17/tcp-selective-acknowledgments-sack/).
 
 ![image](media/TCP-(Connection-Oriented-Protocol)-image4.png)
 
 ## Duplicate ACK
 
-As part of the TCP fast re-transmit mechanism, duplicate ACKs are used to inform sender of either segments received out-of-order or lost segments. Re-transmission of missing segments is performed immediately[[rfc2001-sec3]](https://tools.ietf.org/html/rfc2001).
+As part of the TCP fast re-transmit mechanism, duplicate ACKs are used to inform sender of either segments received out-of-order or lost segments. Re-transmission of missing segments is performed immediately [[rfc2001-sec3]](https://tools.ietf.org/html/rfc2001).
 
 ## Flags (9 bits) (aka Control bits)
 
 Contains 9 1-bit flags
 
-- NS (1 bit): ECN-nonce - concealment protection (experimental: see[RFC 3540](https://tools.ietf.org/html/rfc3540)).
-- CWR (1 bit): Congestion Window Reduced (CWR) flag is set by the sending host to indicate that it received a TCP segment with the ECE flag set and had responded in congestion control mechanism (added to header by[RFC 3168](https://tools.ietf.org/html/rfc3168)).
+- NS (1 bit): ECN-nonce - concealment protection (experimental: see [RFC 3540](https://tools.ietf.org/html/rfc3540)).
+- CWR (1 bit): Congestion Window Reduced (CWR) flag is set by the sending host to indicate that it received a TCP segment with the ECE flag set and had responded in congestion control mechanism (added to header by [RFC 3168](https://tools.ietf.org/html/rfc3168)).
 - ECE (1 bit): ECN-Echo has a dual role, depending on the value of the SYN flag. It indicates:
-  - If the SYN flag is set (1), that the TCP peer is[ECN](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification)capable.
-  - If the SYN flag is clear (0), that a packet with Congestion Experienced flag set (ECN=11) in the IP header was received during normal transmission (added to header by[RFC 3168](https://tools.ietf.org/html/rfc3168)). This serves as an indication of network congestion (or impending congestion) to the TCP sender.
+  - If the SYN flag is set (1), that the TCP peer is [ECN](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification) capable.
+  - If the SYN flag is clear (0), that a packet with Congestion Experienced flag set (ECN=11) in the IP header was received during normal transmission (added to header by [RFC 3168](https://tools.ietf.org/html/rfc3168)). This serves as an indication of network congestion (or impending congestion) to the TCP sender.
 - URG (1 bit): indicates that the Urgent pointer field is significant
 - ACK (1 bit): indicates that the Acknowledgment field is significant. All packets after the initial SYN packet sent by the client should have this flag set.
 - PSH (1 bit): Push function. Asks to push the buffered data to the receiving application.
@@ -161,14 +161,14 @@ The role of TCP is to deliver the entire stream of bytes, in the correct order, 
 
 ## Peformance-enhancing proxy
 
-## Performance-enhancing proxies**(**PEPs) are network agents designed to improve the end-to-end performance of some[communication protocols](https://en.wikipedia.org/wiki/Communication_protocols)
+## Performance-enhancing proxies**(**PEPs) are network agents designed to improve the end-to-end performance of some [communication protocols](https://en.wikipedia.org/wiki/Communication_protocols)
 
 ## Classification
 
 Available PEP implementations use different methods to enhance performance.
 
-- **Proxy type:**A PEP can either 'split' a connection or 'snoop' into it. In the first case, the proxy pretends to be the opposite endpoint of the connection in each direction, literally splitting the connection into two. In the latter case, the proxy controls the transmissions of the TCP segments in both directions, by ack filtering and reconstruction in the existing connection (see[protocol spoofing](https://en.wikipedia.org/wiki/Protocol_spoofing)). This is based on the OSI level of implementation of the PEP.[^[1]^](https://en.wikipedia.org/wiki/Performance-enhancing_proxy#cite_note-1)
-- **Distribution:**PEPs can be either integrated or distributed. Integrated PEP will run on a single box, while distributed PEP will require to be installed on both sides of the link that cause the performance degradation. This is quite common in commercial PEP devices, which act as a[black box](https://en.wikipedia.org/wiki/Black_box), using more or less open protocols to communicate between them in the place of TCP.
+- **Proxy type:**A PEP can either 'split' a connection or 'snoop' into it. In the first case, the proxy pretends to be the opposite endpoint of the connection in each direction, literally splitting the connection into two. In the latter case, the proxy controls the transmissions of the TCP segments in both directions, by ack filtering and reconstruction in the existing connection (see [protocol spoofing](https://en.wikipedia.org/wiki/Protocol_spoofing)). This is based on the OSI level of implementation of the PEP.[^[1]^](https://en.wikipedia.org/wiki/Performance-enhancing_proxy#cite_note-1)
+- **Distribution:**PEPs can be either integrated or distributed. Integrated PEP will run on a single box, while distributed PEP will require to be installed on both sides of the link that cause the performance degradation. This is quite common in commercial PEP devices, which act as a [black box](https://en.wikipedia.org/wiki/Black_box), using more or less open protocols to communicate between them in the place of TCP.
 - **Symmetry:**A PEP implementation may be symmetric or asymmetric. Symmetric PEPs use identical behavior in both directions; the actions taken by the PEP occur independent from which interface a packet is received. Asymmetric PEPs operate differently in each direction, which can cause, for example, only one link direction performance to be enhanced.
 
 ## Types

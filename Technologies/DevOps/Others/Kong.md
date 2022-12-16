@@ -62,7 +62,7 @@ helm delete --purge kg
 
 helm status kg
 
-export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
+export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items [0].metadata.name}")
 
 kubectl port-forward --namespace kong $POD_NAME 8444:8444
 
@@ -80,7 +80,7 @@ HOST=127.0.0.1
 
 # Execute the following commands to route the connection to Admin SSL port
 
-export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
+export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items [0].metadata.name}")
 
 kubectl port-forward --namespace kong $POD_NAME 8444:8444
 
@@ -90,7 +90,7 @@ DNS=kg-kong-proxy.kong.svc.cluster.localPORT=443To connect from outside the K8s 
 
 HOST=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.status.loadBalancer.ingress.ip}')
 
-PORT=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.spec.ports[0].nodePort}')
+PORT=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.spec.ports [0].nodePort}')
 
 <https://github.com/helm/charts/tree/master/stable/kong>
 

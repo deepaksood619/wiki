@@ -94,7 +94,7 @@ Real questions of history -
 
 3. Dharma - One's role in life and society primarily by birth and by caste
 
-Bhagavada Gita is a 700-[verse](https://en.wikipedia.org/wiki/Sanskrit_prosody) [Hindu](https://en.wikipedia.org/wiki/Hinduism)scripture in[Sanskrit](https://en.wikipedia.org/wiki/Sanskrit)that is part of the[Hindu epic](https://en.wikipedia.org/wiki/Hindu_epic)[*Mahabharata*](https://en.wikipedia.org/wiki/Mahabharata)(chapters 23--40 of the 6th book of Mahabharata).
+Bhagavada Gita is a 700-[verse](https://en.wikipedia.org/wiki/Sanskrit_prosody) [Hindu](https://en.wikipedia.org/wiki/Hinduism) scripture in [Sanskrit](https://en.wikipedia.org/wiki/Sanskrit) that is part of the [Hindu epic](https://en.wikipedia.org/wiki/Hindu_epic)[*Mahabharata*](https://en.wikipedia.org/wiki/Mahabharata)(chapters 23--40 of the 6th book of Mahabharata).
 
 4. Samsara, Moksha and Karma
 

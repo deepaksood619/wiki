@@ -6,11 +6,11 @@ Modified: 2021-04-15 11:20:24 +0500
 
 ---
 
-In[software engineering](https://en.m.wikipedia.org/wiki/Software_engineering),dependency injection is a technique whereby one object (or static method) supplies the dependencies of another object. A dependency is an object that can be used (a[service](https://en.m.wikipedia.org/wiki/Service_(systems_architecture))). An injection is the passing of a dependency to a dependent object (a[client](https://en.m.wikipedia.org/wiki/Client_(computing))) that would use it. The service is made part of the client's[state](https://en.m.wikipedia.org/wiki/State_(computer_science)).Passing the service to the client, rather than allowing a client to build or[find the service](https://en.m.wikipedia.org/wiki/Service_locator_pattern), is the fundamental requirement of the pattern.
+In [software engineering](https://en.m.wikipedia.org/wiki/Software_engineering),dependency injection is a technique whereby one object (or static method) supplies the dependencies of another object. A dependency is an object that can be used (a [service](https://en.m.wikipedia.org/wiki/Service_(systems_architecture))). An injection is the passing of a dependency to a dependent object (a [client](https://en.m.wikipedia.org/wiki/Client_(computing))) that would use it. The service is made part of the client's [state](https://en.m.wikipedia.org/wiki/State_(computer_science)).Passing the service to the client, rather than allowing a client to build or [find the service](https://en.m.wikipedia.org/wiki/Service_locator_pattern), is the fundamental requirement of the pattern.
 
 ## Python Dependency Injection
 
-An immediate issue with the code above is thatdraw_squaredepends on a global variable. This has[lots of bad consequences](http://wiki.c2.com/?GlobalVariablesAreBad), and there are two easy ways to fix it. The first would be fordraw_squareto create theTurtleinstance itself (which I'll discuss later). This might not be desirable if we want to use a singleTurtle for all our drawing. So for now, we'll simply use parameterization again to maketurtlea parameter todraw_square:
+An immediate issue with the code above is thatdraw_squaredepends on a global variable. This has [lots of bad consequences](http://wiki.c2.com/?GlobalVariablesAreBad), and there are two easy ways to fix it. The first would be fordraw_squareto create theTurtleinstance itself (which I'll discuss later). This might not be desirable if we want to use a singleTurtle for all our drawing. So for now, we'll simply use parameterization again to maketurtlea parameter todraw_square:
 
 ```python
 from turtle import Turtle

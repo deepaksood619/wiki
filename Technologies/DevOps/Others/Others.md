@@ -38,7 +38,7 @@ Self-service messaging on Kubernetes and OpenShift
 
 ## Jolokia
 
-[Jolokia](https://jolokia.org/)is a JMX-HTTP bridge giving an alternative to JSR-160 connectors. It provides simple access to JMX beans via a RESTful API. This is a good fit to Kafka, as Kafka provides multiple JMX beans to monitor the brokers. Especially if your default monitoring tools rely on HTTP endpoints to check like in our case.
+[Jolokia](https://jolokia.org/) is a JMX-HTTP bridge giving an alternative to JSR-160 connectors. It provides simple access to JMX beans via a RESTful API. This is a good fit to Kafka, as Kafka provides multiple JMX beans to monitor the brokers. Especially if your default monitoring tools rely on HTTP endpoints to check like in our case.
 
 ## Traefik
 
@@ -66,7 +66,7 @@ Consul is a distributed, highly available, and data center aware solution to con
 
 ## fabio
 
-fabio is a fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by[consul](https://consul.io/).
+fabio is a fast, modern, zero-conf load balancing HTTP(S) and TCP router for deploying applications managed by [consul](https://consul.io/).
 
 Register your services in consul, provide a health check and fabio will start routing traffic to them. No configuration required. Deployment, upgrading and refactoring has never been easier.
 
@@ -82,7 +82,7 @@ Our tools are designed to work well together as a platform, but you can also pic
 
 ## Nebula
 
-[Nebula](https://nebula-orchestrator.github.io/)is a open source project created for Docker orchestration and designed to manage massive clusters at scale, it achieves this by scaling each project component out as far as required. The project's aim is to act as Docker orchestrator for IoT devices as well as for distributed services such as CDN or edge computing. Nebula is capable of simultaneously updating tens of thousands of IoT devices worldwide with a single API call in an effort to help devs and ops treat IoT devices just like distributed Dockerized apps.
+[Nebula](https://nebula-orchestrator.github.io/) is a open source project created for Docker orchestration and designed to manage massive clusters at scale, it achieves this by scaling each project component out as far as required. The project's aim is to act as Docker orchestrator for IoT devices as well as for distributed services such as CDN or edge computing. Nebula is capable of simultaneously updating tens of thousands of IoT devices worldwide with a single API call in an effort to help devs and ops treat IoT devices just like distributed Dockerized apps.
 
 <https://nebula.readthedocs.io/en/latest>
 
@@ -118,7 +118,7 @@ Chaos Monkey is a resiliency tool that helps applications tolerate random instan
 
 Chaos Monkey randomly terminates virtual machine instances and containers that run inside of your production environment. Exposing engineers to failures more frequently incentivizes them to build resilient services.
 
-Chaos Monkey is an example of a tool that follows the[Principles of Chaos Engineering](http://principlesofchaos.org/).
+Chaos Monkey is an example of a tool that follows the [Principles of Chaos Engineering](http://principlesofchaos.org/).
 
 <https://github.com/Netflix/chaosmonkey>
 
@@ -172,9 +172,9 @@ Secure and fast microVMs for serverless computing.
 
 Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers.
 
-The main component of Firecracker is a virtual machine monitor (VMM) that uses the Linux Kernel Virtual Machine (KVM) to create and run microVMs. Firecracker has a minimalist design. It excludes unnecessary devices and guest-facing functionality to reduce the memory footprint and attack surface area of each microVM. This improves security, decreases the startup time, and increases hardware utilization. Firecracker currently supports Intel, AMD (preview) and Arm (preview) CPUs. Firecracker has also been integrated in container runtimes, for example[Kata Containers](https://github.com/kata-containers/documentation/wiki/Initial-release-of-Kata-Containers-with-Firecracker-support)and[Weaveworks Ignite](https://github.com/weaveworks/ignite).
+The main component of Firecracker is a virtual machine monitor (VMM) that uses the Linux Kernel Virtual Machine (KVM) to create and run microVMs. Firecracker has a minimalist design. It excludes unnecessary devices and guest-facing functionality to reduce the memory footprint and attack surface area of each microVM. This improves security, decreases the startup time, and increases hardware utilization. Firecracker currently supports Intel, AMD (preview) and Arm (preview) CPUs. Firecracker has also been integrated in container runtimes, for example [Kata Containers](https://github.com/kata-containers/documentation/wiki/Initial-release-of-Kata-Containers-with-Firecracker-support) and [Weaveworks Ignite](https://github.com/weaveworks/ignite).
 
-Firecracker was developed at Amazon Web Services to accelerate the speed and efficiency of services like[AWS Lambda](https://aws.amazon.com/lambda/)and[AWS Fargate](https://aws.amazon.com/fargate/). Firecracker is open sourced under[Apache version 2.0](https://github.com/firecracker-microvm/firecracker/blob/master/LICENSE).
+Firecracker was developed at Amazon Web Services to accelerate the speed and efficiency of services like [AWS Lambda](https://aws.amazon.com/lambda/) and [AWS Fargate](https://aws.amazon.com/fargate/). Firecracker is open sourced under [Apache version 2.0](https://github.com/firecracker-microvm/firecracker/blob/master/LICENSE).
 
 <https://github.com/firecracker-microvm/firecracker>
 
@@ -206,7 +206,7 @@ Tool for iOS and Android developers to automate tedious tasks like generating sc
 
 ## Artifactory
 
-[Artifactory](https://www.jfrog.com/artifactory/)is a product by JFrog that serves as a[binary repository manager](https://en.wikipedia.org/wiki/Binary_repository_manager). That said very often one will use a 'artifactory' as a synonym of the more general binary repository, much like many people use Frigidaire or fridge to denote the refrigerator regardless if it is a Frigidaire brand or not.
+[Artifactory](https://www.jfrog.com/artifactory/) is a product by JFrog that serves as a [binary repository manager](https://en.wikipedia.org/wiki/Binary_repository_manager). That said very often one will use a 'artifactory' as a synonym of the more general binary repository, much like many people use Frigidaire or fridge to denote the refrigerator regardless if it is a Frigidaire brand or not.
 
 The binary repository is a natural extension to the source code repository, in that it will store the outcome of your build process, often denoted as artifacts. Most of the times one would not use the binary repository directly but through a package manager that comes with the chosen technology.
 
@@ -214,10 +214,10 @@ In most cases these will store individual application components that can later 
 
 Here are some of the most popular package managers that can be managed using a binary repository:
 
-- Java: jar, ear, war etc has[Maven](https://maven.apache.org/)and the official[MavenCentral](https://search.maven.org/). There are many other package managers that will use the maven binary repository format as well ([ivy](http://ant.apache.org/ivy/),[gradle](https://gradle.org/)etc).
-- .Net:[nuget](https://www.nuget.org/)for .NET components (DLL and EXE) but can also be used as a distribution mechanism under windows thorugh systems like[Chocolatey](https://chocolatey.org/). Newer versions of Powershell can also leverage this to distribute powershell modules though the[powershell gallery](https://www.powershellgallery.com/)of which one could build a local distribution with a binary repository and a repository in nuget format. Also check[OneGet](https://github.com/OneGet/oneget)if Windows distribution management is of interest to you.
-- In JavaScript: we have[npm](https://www.npmjs.com/)which is one of the most popular, will require[nodejs](https://nodejs.org/en/).
-- In python: there is[pip](https://pypi.python.org/pypi/pip)and the official package index[pypi](https://pypi.python.org/pypi), which one can also create a local instance through binary repository that will support the format.
+- Java: jar, ear, war etc has [Maven](https://maven.apache.org/) and the official [MavenCentral](https://search.maven.org/). There are many other package managers that will use the maven binary repository format as well ([ivy](http://ant.apache.org/ivy/),[gradle](https://gradle.org/) etc).
+- .Net:[nuget](https://www.nuget.org/) for .NET components (DLL and EXE) but can also be used as a distribution mechanism under windows thorugh systems like [Chocolatey](https://chocolatey.org/). Newer versions of Powershell can also leverage this to distribute powershell modules though the [powershell gallery](https://www.powershellgallery.com/) of which one could build a local distribution with a binary repository and a repository in nuget format. Also check [OneGet](https://github.com/OneGet/oneget) if Windows distribution management is of interest to you.
+- In JavaScript: we have [npm](https://www.npmjs.com/) which is one of the most popular, will require [nodejs](https://nodejs.org/en/).
+- In python: there is [pip](https://pypi.python.org/pypi/pip) and the official package index [pypi](https://pypi.python.org/pypi), which one can also create a local instance through binary repository that will support the format.
 
 This list is far from complete, just gives an idea of what's out there.
 

@@ -76,7 +76,7 @@ Every object has an identity, a type and a value. An object'sidentitynever chang
 
 The '[is](https://docs.python.org/3.2/reference/expressions.html#is)' operator compares the identity of two objects;
 
-the[id()](https://docs.python.org/3.2/library/functions.html#id)function returns an integer representing its identity (currently implemented as its address). An object'stypeis also unchangeable.
+the [id()](https://docs.python.org/3.2/library/functions.html#id) function returns an integer representing its identity (currently implemented as its address). An object'stypeis also unchangeable.
 
 An object's mutability is determined by its type; for instance, numbers, strings and tuples are immutable, while dictionaries and lists are mutable.
 

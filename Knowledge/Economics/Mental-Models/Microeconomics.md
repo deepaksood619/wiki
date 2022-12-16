@@ -6,9 +6,9 @@ Modified: 2022-02-11 01:12:59 +0500
 
 ---
 
-Microeconomics(from Greek prefixmikro-meaning "small" +economics) is a branch of[economics](https://en.wikipedia.org/wiki/Economics)that studies the behaviour of individuals and[firms](https://en.wikipedia.org/wiki/Theory_of_the_firm) in making decisions regarding the allocation of[scarce resources](https://en.wikipedia.org/wiki/Scarcity)and the interactions among these individuals and firms.
+Microeconomics(from Greek prefixmikro-meaning "small" +economics) is a branch of [economics](https://en.wikipedia.org/wiki/Economics) that studies the behaviour of individuals and [firms](https://en.wikipedia.org/wiki/Theory_of_the_firm) in making decisions regarding the allocation of [scarce resources](https://en.wikipedia.org/wiki/Scarcity) and the interactions among these individuals and firms.
 
-One goal of microeconomics is to analyze the[market mechanisms](https://en.wikipedia.org/wiki/Market_mechanism)that establish[relative prices](https://en.wikipedia.org/wiki/Relative_price)among goods and services and allocate limited resources among alternative uses. Microeconomics shows conditions under which free markets lead to desirable allocations. It also analyzes[market failure](https://en.wikipedia.org/wiki/Market_failure), where markets fail to produce[efficient](https://en.wikipedia.org/wiki/Financial_market_efficiency)results.
+One goal of microeconomics is to analyze the [market mechanisms](https://en.wikipedia.org/wiki/Market_mechanism) that establish [relative prices](https://en.wikipedia.org/wiki/Relative_price) among goods and services and allocate limited resources among alternative uses. Microeconomics shows conditions under which free markets lead to desirable allocations. It also analyzes [market failure](https://en.wikipedia.org/wiki/Market_failure), where markets fail to produce [efficient](https://en.wikipedia.org/wiki/Financial_market_efficiency) results.
 
 <https://en.wikipedia.org/wiki/Microeconomics>
 
@@ -92,7 +92,7 @@ The market process works like an invisible hand to promote the social good -- Ad
 
 ## DiscretionaryExpense
 
-A discretionary[expense](https://www.investopedia.com/terms/e/expense.asp)is a cost that a business or household can survive without, if necessary. Discretionary expenses are often defined as nonessential spending. This means a business or household is still able to maintain itself even if all discretionary[consumer spending](https://www.investopedia.com/terms/c/consumer-spending.asp)stops.
+A discretionary [expense](https://www.investopedia.com/terms/e/expense.asp) is a cost that a business or household can survive without, if necessary. Discretionary expenses are often defined as nonessential spending. This means a business or household is still able to maintain itself even if all discretionary [consumer spending](https://www.investopedia.com/terms/c/consumer-spending.asp) stops.
 
 Meals at restaurants and entertainment costs are examples of discretionary expenses.
 

@@ -101,7 +101,7 @@ A monorepo is a unified codebase containing code for multiple projects that shar
 
 ## Gerrit
 
-Gerrit provides web based code review and repository management for the[Git](http://git-scm.com/)version control system.
+Gerrit provides web based code review and repository management for the [Git](http://git-scm.com/) version control system.
 
 ## Hub
 

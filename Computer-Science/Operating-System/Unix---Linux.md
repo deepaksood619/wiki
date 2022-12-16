@@ -177,7 +177,7 @@ Functions
 
 ## POSIX**
 
-ThePortable Operating System Interface(POSIX)is a family of[standards](https://en.wikipedia.org/wiki/Standardization)specified by the [IEEE Computer Society](https://en.wikipedia.org/wiki/IEEE_Computer_Society)for maintaining compatibility between[operating systems](https://en.wikipedia.org/wiki/Operating_system). POSIX defines the[application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API), along with command line[shells](https://en.wikipedia.org/wiki/Unix_shell)and utility interfaces, for software compatibility with variants of[Unix](https://en.wikipedia.org/wiki/Unix)and other operating systems.
+ThePortable Operating System Interface(POSIX)is a family of [standards](https://en.wikipedia.org/wiki/Standardization) specified by the [IEEE Computer Society](https://en.wikipedia.org/wiki/IEEE_Computer_Society) for maintaining compatibility between [operating systems](https://en.wikipedia.org/wiki/Operating_system). POSIX defines the [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API), along with command line [shells](https://en.wikipedia.org/wiki/Unix_shell) and utility interfaces, for software compatibility with variants of [Unix](https://en.wikipedia.org/wiki/Unix) and other operating systems.
 <https://en.wikipedia.org/wiki/POSIX>
 
 ## Boot Process**

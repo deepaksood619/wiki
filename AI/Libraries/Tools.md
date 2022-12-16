@@ -8,7 +8,7 @@ Modified: 2022-04-27 16:01:58 +0500
 
 ## AutoML (Automated Machine Learning)
 
-[AutoML](https://www.smarten.com/autoInsights.html)is, quite simply, the automated process of features and algorithm selection that supports planning, and allows users to fine tune, perform iterative modeling, and allows for the application and evolution of machine learning models.
+[AutoML](https://www.smarten.com/autoInsights.html) is, quite simply, the automated process of features and algorithm selection that supports planning, and allows users to fine tune, perform iterative modeling, and allows for the application and evolution of machine learning models.
 
 ## MLflow (An open source platform for the machine learning lifecycle)
 
@@ -46,7 +46,7 @@ Facets Dive provides an easy-to-customize, intuitive interface for exploring the
 
 ## HOPS
 
-Hops(HadoopOpenPlatform-as-a-Service) is a next generation distribution of[Apache Hadoop](http://hadoop.apache.org/core/)with scalable, highly available, customizable metadata. Hops consists internally of two main sub projects, HopsFs and HopsYarn.HopsFSis a new implementation of the Hadoop Filesystem (HDFS), that supports multiple stateless NameNodes, where the metadata is stored in[MySQL Cluster](https://www.mysql.com/products/cluster/), an in-memory distributed database. HopsFS enables more scalable clusters than Apache HDFS (up to ten times larger clusters), and enables NameNode metadata to be both customized and analyzed, because it can now be easily accessed via a SQL API.HopsYARNintroduces a distributed stateless Resource Manager, whose state is migrated to MySQL Cluster. This enables our YARN architecture to have no down-time, with failover of a ResourceManager happening in a few seconds. Together, HopsFS and HopsYARN enable Hadoop clusters to scale to larger volumes and higher throughput.
+Hops(HadoopOpenPlatform-as-a-Service) is a next generation distribution of [Apache Hadoop](http://hadoop.apache.org/core/) with scalable, highly available, customizable metadata. Hops consists internally of two main sub projects, HopsFs and HopsYarn.HopsFSis a new implementation of the Hadoop Filesystem (HDFS), that supports multiple stateless NameNodes, where the metadata is stored in [MySQL Cluster](https://www.mysql.com/products/cluster/), an in-memory distributed database. HopsFS enables more scalable clusters than Apache HDFS (up to ten times larger clusters), and enables NameNode metadata to be both customized and analyzed, because it can now be easily accessed via a SQL API.HopsYARNintroduces a distributed stateless Resource Manager, whose state is migrated to MySQL Cluster. This enables our YARN architecture to have no down-time, with failover of a ResourceManager happening in a few seconds. Together, HopsFS and HopsYARN enable Hadoop clusters to scale to larger volumes and higher throughput.
 
 <https://github.com/hopshadoop/hops>
 

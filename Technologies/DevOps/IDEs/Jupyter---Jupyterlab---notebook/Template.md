@@ -57,11 +57,11 @@ for filename,data in up.value.items():
 
 print(filename)
 
-for k,v in data['metadata'].items():
+for k,v in data ['metadata'].items():
 
 print(f' -{k:13}:[{v}]')
 
-print(f' -content len :[{len(data["content"])}]')
+print(f' -content len :[{len(data ["content"])}]')
 
 up.value.clear()
 

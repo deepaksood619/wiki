@@ -8,7 +8,7 @@ Modified: 2022-12-11 13:53:23 +0500
 
 1. **Flat file database**
 
-A**flat file database**is a[database](https://en.wikipedia.org/wiki/Database)stored as an ordinary unstructured file called a "flat file". To access the structure of the data and manipulate it on a computer system, the file must be read in its entirety into the computer's memory. Upon completion of the database operations, the file is again written out in its entirety to the host's file system. In this stored mode the database is said to be "flat", meaning that it has no structure for indexing and there are usually no structural relationships between the records. A flat file can be a[plain text](https://en.wikipedia.org/wiki/Plain_text)file or a[binary file](https://en.wikipedia.org/wiki/Binary_file).
+A**flat file database**is a [database](https://en.wikipedia.org/wiki/Database) stored as an ordinary unstructured file called a "flat file". To access the structure of the data and manipulate it on a computer system, the file must be read in its entirety into the computer's memory. Upon completion of the database operations, the file is again written out in its entirety to the host's file system. In this stored mode the database is said to be "flat", meaning that it has no structure for indexing and there are usually no structural relationships between the records. A flat file can be a [plain text](https://en.wikipedia.org/wiki/Plain_text) file or a [binary file](https://en.wikipedia.org/wiki/Binary_file).
 <https://en.wikipedia.org/wiki/Flat_file_database>
 2.  **ScyllaDB**
     -   **Real-time big data database**
@@ -32,7 +32,7 @@ RocksDB is optimized for fast, low latency storage such as flash drives and high
 
 3. **Adaptable**
 
-RocksDB is adaptable to different workloads. From database storage engines such as[MyRocks](https://github.com/facebook/mysql-5.6)to[application data caching](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html)to embedded workloads, RocksDB can be used for a variety of data needs.
+RocksDB is adaptable to different workloads. From database storage engines such as [MyRocks](https://github.com/facebook/mysql-5.6) to [application data caching](http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html) to embedded workloads, RocksDB can be used for a variety of data needs.
 
 4. **Basic and Advanced Database Operations**
 
@@ -44,10 +44,10 @@ IndexedDB is a large-scale, NoSQL storage system. It lets you store just about a
 
 "IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs. This API uses indexes to enable high performance searches of this data. While DOM Storage is useful for storing smaller amounts of data, it is less useful for storing larger amounts of structured data. IndexedDB provides a solution."
 
-Each IndexedDB database is unique to an origin (typically, this is the site domain or subdomain), meaning it cannot access or be accessed by any other origin.[Data storage limits](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria)are usually quite large, if they exist at all, but different browsers handle limits and data eviction differently.
+Each IndexedDB database is unique to an origin (typically, this is the site domain or subdomain), meaning it cannot access or be accessed by any other origin.[Data storage limits](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria) are usually quite large, if they exist at all, but different browsers handle limits and data eviction differently.
 4.  **Mnesia**
 
-## Mnesiais a[distributed](https://en.wikipedia.org/wiki/Distributed_computing),[soft real-time](https://en.wikipedia.org/wiki/Real-time_computing)[database management system](https://en.wikipedia.org/wiki/Database_management_system)written in the[Erlang programming language](https://en.wikipedia.org/wiki/Erlang_(programming_language)). It is distributed as part of the[Open Telecom Platform](https://en.wikipedia.org/wiki/Open_Telecom_Platform)
+## Mnesiais a [distributed](https://en.wikipedia.org/wiki/Distributed_computing),[soft real-time](https://en.wikipedia.org/wiki/Real-time_computing)[database management system](https://en.wikipedia.org/wiki/Database_management_system) written in the [Erlang programming language](https://en.wikipedia.org/wiki/Erlang_(programming_language)). It is distributed as part of the [Open Telecom Platform](https://en.wikipedia.org/wiki/Open_Telecom_Platform)
 
 Emqtt and RabbitMQ uses Mnesia database
 A distributed telecommunications DBMS.
@@ -83,7 +83,7 @@ LevelDB is a fast key-value storage library written at Google that provides an o
 - Multiple changes can be made in one atomic batch.
 - Users can create a transient snapshot to get a consistent view of data.
 - Forward and backward iteration is supported over the data.
-- Data is automatically compressed using the[Snappy compression library](http://google.github.io/snappy/).
+- Data is automatically compressed using the [Snappy compression library](http://google.github.io/snappy/).
 - External activity (file system operations etc.) is relayed through a virtual interface so users can customize the operating system interactions.
 
 ## References
@@ -107,15 +107,15 @@ A GPU-powered real-time analytics storage and query engine. It features low quer
 <https://github.com/uber/aresdb>
 9.  **Riak**
 
-## Riak(pronounced "ree-ack"[^[2]^](https://en.wikipedia.org/wiki/Riak#cite_note-Riak_1.0_Release_Party-2)) is a distributed[NoSQL](https://en.wikipedia.org/wiki/NoSQL)key-value[data store](https://en.wikipedia.org/wiki/Data_store)that offers high availability, fault tolerance, operational simplicity, and scalability.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)In addition to the[open-source](https://en.wikipedia.org/wiki/Open-source_software)version, it comes in a supported enterprise version and a[cloud storage](https://en.wikipedia.org/wiki/Cloud_storage)version.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3)Riak implements the principles from Amazon's[Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system))paper[^[4]^](https://en.wikipedia.org/wiki/Riak#cite_note-4)with heavy influence from the[CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in[Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience
+## Riak(pronounced "ree-ack"[^[2]^](https://en.wikipedia.org/wiki/Riak#cite_note-Riak_1.0_Release_Party-2)) is a distributed [NoSQL](https://en.wikipedia.org/wiki/NoSQL) key-value [data store](https://en.wikipedia.org/wiki/Data_store) that offers high availability, fault tolerance, operational simplicity, and scalability.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3) In addition to the [open-source](https://en.wikipedia.org/wiki/Open-source_software) version, it comes in a supported enterprise version and a [cloud storage](https://en.wikipedia.org/wiki/Cloud_storage) version.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3) Riak implements the principles from Amazon's [Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system)) paper [^[4]^](https://en.wikipedia.org/wiki/Riak#cite_note-4) with heavy influence from the [CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience
 
-The Riak product line of distributed databases is built on a set of core services providing a highly reliable, scalable distributed systems framework.[RiakKV](https://riak.com/products/riak-kv/index.html)is a distributed NoSQL database.[RiakTS](https://riak.com/products/riak-ts/index.html)is builton the same core foundation as RiakKV and is highly optimized for IoT and time series data.Riak also integrates with[RiakS2](https://riak.com/products/riak-s2/index.html?p=6196.html)to optimize large object storage, and integrates with other data services including[Apache Spark](https://riak.com/products/apache-spark/index.html),[Redis Caching](https://riak.com/products/redis/index.html?p=6927.html),[Apache Solr](https://riak.com/products/solr/index.html), and[Apache Mesos](https://riak.com/products/apache-mesos/index.html?p=11511.html).
+The Riak product line of distributed databases is built on a set of core services providing a highly reliable, scalable distributed systems framework.[RiakKV](https://riak.com/products/riak-kv/index.html) is a distributed NoSQL database.[RiakTS](https://riak.com/products/riak-ts/index.html) is builton the same core foundation as RiakKV and is highly optimized for IoT and time series data.Riak also integrates with [RiakS2](https://riak.com/products/riak-s2/index.html?p=6196.html) to optimize large object storage, and integrates with other data services including [Apache Spark](https://riak.com/products/apache-spark/index.html),[Redis Caching](https://riak.com/products/redis/index.html?p=6927.html),[Apache Solr](https://riak.com/products/solr/index.html), and [Apache Mesos](https://riak.com/products/apache-mesos/index.html?p=11511.html).
 <https://riak.com/products>
 
 <https://en.wikipedia.org/wiki/Riak>
 10. **JanusGraph (Opensource distributed graph database)**
 
-JanusGraph is a highly scalable[graph database](https://en.wikipedia.org/wiki/Graph_database)optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster. JanusGraph is a transactional database that can support thousands of concurrent users, complex traversals, and analytic graph queries.
+JanusGraph is a highly scalable [graph database](https://en.wikipedia.org/wiki/Graph_database) optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster. JanusGraph is a transactional database that can support thousands of concurrent users, complex traversals, and analytic graph queries.
 <https://github.com/janusgraph/janusgraph>
 
 [https://docs.janusgraph.org](https://docs.janusgraph.org/)
@@ -154,10 +154,10 @@ TiDB ("Ti" stands for Titanium) is an open-source NewSQL database that supports 
 ![image](media/Databases---Others-image1.png)
 Inside the TiDB platform, the main components are as follows:
 
-- [TiDB server](https://github.com/pingcap/tidb)is a stateless SQL layer that processes users' SQL queries, accesses data in the storage layer, and returns the corresponding results to the application. It is MySQL-compatible and sits on top of TiKV.
-- [TiKV server](https://github.com/pingcap/tikv)is the distributed transactional key-value storage layer where the data persists. It uses the[Raft](https://raft.github.io/) consensus protocol for replication to ensure strong data consistency and high availability.
-- [TiSpark](https://github.com/pingcap/tispark)cluster also sits on top of TiKV. It is an Apache Spark plugin that works with the TiDB platform to support complex Online Analytical Processing (OLAP) queries for business intelligence (BI) analysts and data scientists.
-- [Placement Driver (PD) server](https://github.com/pingcap/pd)is a metadata cluster powered by[etcd](https://github.com/etcd-io/etcd)that manages and schedules TiKV.
+- [TiDB server](https://github.com/pingcap/tidb) is a stateless SQL layer that processes users' SQL queries, accesses data in the storage layer, and returns the corresponding results to the application. It is MySQL-compatible and sits on top of TiKV.
+- [TiKV server](https://github.com/pingcap/tikv) is the distributed transactional key-value storage layer where the data persists. It uses the [Raft](https://raft.github.io/) consensus protocol for replication to ensure strong data consistency and high availability.
+- [TiSpark](https://github.com/pingcap/tispark) cluster also sits on top of TiKV. It is an Apache Spark plugin that works with the TiDB platform to support complex Online Analytical Processing (OLAP) queries for business intelligence (BI) analysts and data scientists.
+- [Placement Driver (PD) server](https://github.com/pingcap/pd) is a metadata cluster powered by [etcd](https://github.com/etcd-io/etcd) that manages and schedules TiKV.
 <https://github.com/pingcap/tidb>
 
 <https://pingcap.com/success-stories/lesson-learned-from-queries-over-1.3-trillion-rows-of-data-within-milliseconds-of-response-time-at-zhihu>
@@ -165,7 +165,7 @@ Inside the TiDB platform, the main components are as follows:
 <https://dzone.com/articles/building-a-large-scale-distributed-storage-system>
 13. **tikv**
 
-TiKV ("Ti" stands for Titanium) is an open source distributed transactional key-value database. Unlike other traditional NoSQL systems, TiKV not only provides classical key-value APIs, but also transactional APIs with ACID compliance. Built in Rust and powered by Raft, TiKV was originally created to complement[TiDB](https://github.com/pingcap/tidb), a distributed HTAP database compatible with the MySQL protocol.
+TiKV ("Ti" stands for Titanium) is an open source distributed transactional key-value database. Unlike other traditional NoSQL systems, TiKV not only provides classical key-value APIs, but also transactional APIs with ACID compliance. Built in Rust and powered by Raft, TiKV was originally created to complement [TiDB](https://github.com/pingcap/tidb), a distributed HTAP database compatible with the MySQL protocol.
 <https://github.com/tikv/tikv>
 14. **ObjectBox**
 
@@ -175,7 +175,7 @@ ObjectBox is a super fast database and sychronization solution, built uniquely f
 
 LF (pronounced "aleph") is a fully decentralized fully replicated key/value store.
 Fully decentralized means anyone can run a node without obtaining special permission and all nodes are effectively equal. Fully replicated means every node stores the entire data set.
-LF is built on a[directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph)data model that makes synchronization easy and allows many different security and conflict resolution strategies to be used. One way to think of LF's DAG is as a gigantic[conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)(CRDT).
+LF is built on a [directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph) data model that makes synchronization easy and allows many different security and conflict resolution strategies to be used. One way to think of LF's DAG is as a gigantic [conflict-free replicated data type](https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type)(CRDT).
 Proof of work is used to rate limit writes to the shared data store on public networks and as one thing that can be taken into consideration for conflict resolution. Other things that can be considered (at the querying client's discretion) are local subjective heuristics at the node and certificates issued by a certificate authority.
 <https://github.com/zerotier/lf>
 16. **SQLite**
@@ -229,7 +229,7 @@ print(cur.fetchall())
 <https://realpython.com/data-engineer-interview-questions-python>
 17. **Supersqllite**
 
-A feature-packed Python package and for utilizing SQLite in Python by[Plasticity](https://www.plasticity.ai/). It is intended to be a drop-in replacement to Python's built-in[SQLite API](https://docs.python.org/3/library/sqlite3.html), but without any limitations. It offers unique features like[remote streaming over HTTP](https://github.com/plasticityai/supersqlite#remote-streaming-over-http)and[bundling of extensions like JSON, R-Trees (geospatial indexing), and Full Text Search](https://github.com/plasticityai/supersqlite#extensions). SuperSQLite is also packaged with pre-compiled native binaries for SQLite and all of its extensions for nearly every platform as to avoid any C/C++ compiler errors during install.
+A feature-packed Python package and for utilizing SQLite in Python by [Plasticity](https://www.plasticity.ai/). It is intended to be a drop-in replacement to Python's built-in [SQLite API](https://docs.python.org/3/library/sqlite3.html), but without any limitations. It offers unique features like [remote streaming over HTTP](https://github.com/plasticityai/supersqlite#remote-streaming-over-http) and [bundling of extensions like JSON, R-Trees (geospatial indexing), and Full Text Search](https://github.com/plasticityai/supersqlite#extensions). SuperSQLite is also packaged with pre-compiled native binaries for SQLite and all of its extensions for nearly every platform as to avoid any C/C++ compiler errors during install.
 <https://github.com/plasticityai/supersqlite>
 18. **MilliDB**
 
@@ -239,16 +239,16 @@ A full-text search database based on the fast LMDB key-value store
 <https://www.meilisearch.com>
 19. **Lightning Memory-Mapped Database(LMDB)**
 
-LMDB is a[software library](https://en.wikipedia.org/wiki/Software_library)that provides a high-performance embedded transactional database in the form of a[key-value store](https://en.wikipedia.org/wiki/Key-value_store). LMDB is written in[C](https://en.wikipedia.org/wiki/C_(programming_language))with[API bindings](https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database#API_and_uses) for several[programming languages](https://en.wikipedia.org/wiki/Programming_language). LMDB stores arbitrary key/data pairs as byte arrays, has a range-based search capability, supports multiple data items for a single key and has a special mode for appending records at the end of the database (MDB_APPEND) which gives a dramatic write performance increase over other similar stores.LMDB is not a[relational database](https://en.wikipedia.org/wiki/Relational_database), it is strictly a key-value store like[Berkeley DB](https://en.wikipedia.org/wiki/Berkeley_DB)and[dbm](https://en.wikipedia.org/wiki/DBM_(computing)).
-LMDB may also be used[concurrently](https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database#Concurrency)in a multi-threaded or multi-processing environment, with read performance scaling linearly by design. LMDB databases may have only one writer at a time, however unlike many similar key-value databases, write transactions donotblock readers, nor do readers block writers. LMDB is also unusual in that multiple applications on the same system may simultaneously open and use the same LMDB store, as a means to scale up performance. Also, LMDB does not require a transaction log (thereby increasing write performance by not needing to write data twice) because it maintains data integrity inherently by design.
+LMDB is a [software library](https://en.wikipedia.org/wiki/Software_library) that provides a high-performance embedded transactional database in the form of a [key-value store](https://en.wikipedia.org/wiki/Key-value_store). LMDB is written in [C](https://en.wikipedia.org/wiki/C_(programming_language)) with [API bindings](https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database#API_and_uses) for several [programming languages](https://en.wikipedia.org/wiki/Programming_language). LMDB stores arbitrary key/data pairs as byte arrays, has a range-based search capability, supports multiple data items for a single key and has a special mode for appending records at the end of the database (MDB_APPEND) which gives a dramatic write performance increase over other similar stores.LMDB is not a [relational database](https://en.wikipedia.org/wiki/Relational_database), it is strictly a key-value store like [Berkeley DB](https://en.wikipedia.org/wiki/Berkeley_DB) and [dbm](https://en.wikipedia.org/wiki/DBM_(computing)).
+LMDB may also be used [concurrently](https://en.wikipedia.org/wiki/Lightning_Memory-Mapped_Database#Concurrency) in a multi-threaded or multi-processing environment, with read performance scaling linearly by design. LMDB databases may have only one writer at a time, however unlike many similar key-value databases, write transactions donotblock readers, nor do readers block writers. LMDB is also unusual in that multiple applications on the same system may simultaneously open and use the same LMDB store, as a means to scale up performance. Also, LMDB does not require a transaction log (thereby increasing write performance by not needing to write data twice) because it maintains data integrity inherently by design.
 LMDB is a tiny database with some excellent properties:
 
 - Ordered map interface (keys are always lexicographically sorted).
 - Reader/writer transactions: readers don't block writers, writers don't block readers. Each environment supports one concurrent write transaction.
 - Read transactions are extremely cheap.
-- Environments may be opened by multiple processes on the same host, making it ideal for working around Python's[GIL](http://wiki.python.org/moin/GlobalInterpreterLock).
+- Environments may be opened by multiple processes on the same host, making it ideal for working around Python's [GIL](http://wiki.python.org/moin/GlobalInterpreterLock).
 - Multiple named databases may be created with transactions covering all named databases.
-- Memory mapped, allowing for zero copy lookup and iteration. This is optionally exposed to Python using the[buffer()](https://docs.python.org/2.7/library/functions.html#buffer)interface.
+- Memory mapped, allowing for zero copy lookup and iteration. This is optionally exposed to Python using the [buffer()](https://docs.python.org/2.7/library/functions.html#buffer) interface.
 - Maintenance requires no external process or background threads.
 - No application-level caching is required: LMDB fully exploits the operating system's buffer cache.
 LMDB is a Btree-based database management library modeled loosely on the BerkeleyDB API, but much simplified. The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory, so no malloc's or memcpy's occur during data fetches. As such, the library is extremely simple because it requires no page caching layer of its own, and it is extremely high performance and memory-efficient. It is also fully transactional with full ACID semantics, and when the memory map is read-only, the database integrity cannot be corrupted by stray pointer writes from application code.
@@ -323,7 +323,7 @@ Realm is a mobile database: an alternative to SQLite & key-value stores
 26. **Datomic**
 
 A transactional database with a flexible data model, elastic scaling, and rich queries.
-[Datomic](https://en.wikipedia.org/wiki/Datomic)is a distributed database designed to enable scalable, flexible and intelligent applications, running on new cloud architectures. It uses Datalog as the query language.
+[Datomic](https://en.wikipedia.org/wiki/Datomic) is a distributed database designed to enable scalable, flexible and intelligent applications, running on new cloud architectures. It uses Datalog as the query language.
 <https://www.datomic.com>
 
 <https://docs.datomic.com/on-prem/index.html>

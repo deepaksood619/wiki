@@ -145,7 +145,7 @@ return <input onChange={event => console.log(event.target.value)}
 
 ## Converting a Function to a Class
 
-1. Create an[ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes), with the same name, that extendsReact.Component.
+1. Create an [ES6 class](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes), with the same name, that extendsReact.Component.
 
 2. Add a single empty method to it calledrender().
 
@@ -231,6 +231,6 @@ return (
 
 ## Controlled Input Null Value
 
-Specifying thevalueprop on a[controlled component](https://reactjs.org/docs/forms.html#controlled-components)prevents the user from changing the input unless you desire so. If you've specified avaluebut the input is still editable, you may have accidentally setvaluetoundefinedornull.
+Specifying thevalueprop on a [controlled component](https://reactjs.org/docs/forms.html#controlled-components) prevents the user from changing the input unless you desire so. If you've specified avaluebut the input is still editable, you may have accidentally setvaluetoundefinedornull.
 
 <https://reactjs.org/docs/forms.html>

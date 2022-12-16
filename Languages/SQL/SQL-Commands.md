@@ -62,7 +62,7 @@ This will select all movies that starts with D, E, F and not G.
 
 CASE
 
-[CASE](https://postgresweekly.com/link/77475/cb6defc36e)expression is essentially the 'if/then' of the SQL world. Given one value,CASEcan return another of your choice -- but did you know you're able to use it inORDER BYclauses to define custom orders based upon other values?
+[CASE](https://postgresweekly.com/link/77475/cb6defc36e) expression is essentially the 'if/then' of the SQL world. Given one value,CASEcan return another of your choice -- but did you know you're able to use it inORDER BYclauses to define custom orders based upon other values?
 
 Here's a simple use case. Let's say you have a table listing employees and their job titles:
 
@@ -337,7 +337,7 @@ Each SELECT statement within the UNION ALL must have the same number of fields i
 
 ## What is the difference between UNION and UNION ALL?
 
-- [UNION](https://www.techonthenet.com/sql/union.php)removes duplicate rows.
+- [UNION](https://www.techonthenet.com/sql/union.php) removes duplicate rows.
 - UNION ALL doesnotremove duplicate rows.
 
 SELECT column_name(s) FROM table_name1
@@ -386,7 +386,7 @@ query2 AS (SELECT column2 FROM table2 WHERE condition2)
 
 ## Partition By clause
 
-ThePARTITION BYclause is a subclause of theOVERclause. ThePARTITION BYclause divides a query's result set into partitions. The[window function](http://www.sqltutorial.org/sql-window-functions/)is operated on each partition separately and recalculate for each partition.
+ThePARTITION BYclause is a subclause of theOVERclause. ThePARTITION BYclause divides a query's result set into partitions. The [window function](http://www.sqltutorial.org/sql-window-functions/) is operated on each partition separately and recalculate for each partition.
 
 ## MYSQL
 

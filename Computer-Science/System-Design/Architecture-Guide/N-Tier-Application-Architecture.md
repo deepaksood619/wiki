@@ -20,10 +20,10 @@ A three-tier architecture is a software architecture pattern where the applicati
 
 ## Common layers
 
-In a logical multilayered architecture for an information system with an[object-oriented design](https://en.wikipedia.org/wiki/Object-oriented_design), the following four are the most common:
+In a logical multilayered architecture for an information system with an [object-oriented design](https://en.wikipedia.org/wiki/Object-oriented_design), the following four are the most common:
 
 - Presentation layer(a.k.a. UI layer, view layer, presentation tier in multitier architecture)
-- Application layer(a.k.a.[service layer](https://en.wikipedia.org/wiki/Service-oriented_architecture)or[GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design))Controller Layer)
+- Application layer(a.k.a.[service layer](https://en.wikipedia.org/wiki/Service-oriented_architecture) or [GRASP](https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)) Controller Layer)
 - [Business layer](https://en.wikipedia.org/wiki/Business_layer)(a.k.a.[business logic layer](https://en.wikipedia.org/wiki/Business_logic_layer)(BLL), domain layer)
 - [Data access layer](https://en.wikipedia.org/wiki/Data_access_layer)(a.k.a.[persistence layer](https://en.wikipedia.org/wiki/Persistence_layer), logging, networking, and other services which are required to support a particular business layer)
 <https://en.wikipedia.org/wiki/Multitier_architecture>
@@ -56,10 +56,10 @@ N-tier architectures are very common in traditional on-premises applications, so
 
 ## Best practices
 
-- Use autoscaling to handle changes in load. See[Autoscaling best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling).
-- Use[asynchronous messaging](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-async-messaging)to decouple tiers.
-- Cache semistatic data. See[Caching best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching).
-- Configure the database tier for high availability, using a solution such as[SQL Server Always On availability groups](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server).
+- Use autoscaling to handle changes in load. See [Autoscaling best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling).
+- Use [asynchronous messaging](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-async-messaging) to decouple tiers.
+- Cache semistatic data. See [Caching best practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/caching).
+- Configure the database tier for high availability, using a solution such as [SQL Server Always On availability groups](https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server).
 - Place a web application firewall (WAF) between the front end and the Internet.
 - Place each tier in its own subnet, and use subnets as a security boundary.
 - Restrict access to the data tier, by allowing requests only from the middle tier(s).
@@ -78,10 +78,10 @@ Network security groups restrict access to each tier. For example, the database 
 - Tiers are the boundary of scalability, reliability, and security. Consider having separate tiers for services with different requirements in those areas.
 - Use virtual machine scale sets for autoscaling.
 - Look for places in the architecture where you can use a managed service without significant refactoring. In particular, look at caching, messaging, storage, and databases.
-- For higher security, place a network DMZ in front of the application. The DMZ includes network virtual appliances (NVAs) that implement security functionality such as firewalls and packet inspection. For more information, see[Network DMZ reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/secure-vnet-dmz).
-- For high availability, place two or more NVAs in an availability set, with an external load balancer to distribute Internet requests across the instances. For more information, see[Deploy highly available network virtual appliances](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha).
+- For higher security, place a network DMZ in front of the application. The DMZ includes network virtual appliances (NVAs) that implement security functionality such as firewalls and packet inspection. For more information, see [Network DMZ reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/secure-vnet-dmz).
+- For high availability, place two or more NVAs in an availability set, with an external load balancer to distribute Internet requests across the instances. For more information, see [Deploy highly available network virtual appliances](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/dmz/nva-ha).
 - Do not allow direct RDP or SSH access to VMs that are running application code. Instead, operators should log into a jumpbox, also called a bastion host. This is a VM on the network that administrators use to connect to the other VMs. The jumpbox has a network security group that allows RDP or SSH only from approved public IP addresses.
-- You can extend the Azure virtual network to your on-premises network using a site-to-site virtual private network (VPN) or Azure ExpressRoute. For more information, see[Hybrid network reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/).
-- If your organization uses Active Directory to manage identity, you may want to extend your Active Directory environment to the Azure VNet. For more information, see[Identity management reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/identity/).
-- If you need higher availability than the Azure SLA for VMs provides, replicate the application across two regions and use Azure Traffic Manager for failover. For more information, see[Run Windows VMs in multiple regions](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/multi-region-sql-server)or[Run Linux VMs in multiple regions](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/n-tier-cassandra).
+- You can extend the Azure virtual network to your on-premises network using a site-to-site virtual private network (VPN) or Azure ExpressRoute. For more information, see [Hybrid network reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/).
+- If your organization uses Active Directory to manage identity, you may want to extend your Active Directory environment to the Azure VNet. For more information, see [Identity management reference architecture](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/identity/).
+- If you need higher availability than the Azure SLA for VMs provides, replicate the application across two regions and use Azure Traffic Manager for failover. For more information, see [Run Windows VMs in multiple regions](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/multi-region-sql-server) or [Run Linux VMs in multiple regions](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/n-tier-cassandra).
 <https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier>

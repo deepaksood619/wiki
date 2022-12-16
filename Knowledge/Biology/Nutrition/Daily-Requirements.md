@@ -13,7 +13,7 @@ Modified: 2021-09-11 13:35:20 +0500
     - [Glucose](https://en.wikipedia.org/wiki/Glucose)
     - [Sucrose](https://en.wikipedia.org/wiki/Sucrose)
     - [Ribose](https://en.wikipedia.org/wiki/Ribose)
-    - [Amylose](https://en.wikipedia.org/wiki/Amylose)a major component of[starch](https://en.wikipedia.org/wiki/Starch)
+    - [Amylose](https://en.wikipedia.org/wiki/Amylose) a major component of [starch](https://en.wikipedia.org/wiki/Starch)
     - [Amylopectin](https://en.wikipedia.org/wiki/Amylopectin)
     - [Maltose](https://en.wikipedia.org/wiki/Maltose)
     - [Galactose](https://en.wikipedia.org/wiki/Galactose)
@@ -78,7 +78,7 @@ Modified: 2021-09-11 13:35:20 +0500
 
 [**Polyunsaturated fats**](https://en.wikipedia.org/wiki/Polyunsaturated_fats)
 
-- [Linoleic acid](https://en.wikipedia.org/wiki/Linoleic_acid)(LA) - an[essential fatty acid](https://en.wikipedia.org/wiki/Essential_fatty_acid)
+- [Linoleic acid](https://en.wikipedia.org/wiki/Linoleic_acid)(LA) - an [essential fatty acid](https://en.wikipedia.org/wiki/Essential_fatty_acid)
 - [α-Linolenic acid](https://en.wikipedia.org/wiki/%CE%91-Linolenic_acid)(ALA) - an essential fatty acid
 - [Stearidonic acid](https://en.wikipedia.org/wiki/Stearidonic_acid)(SDA)
 - [Arachidonic acid](https://en.wikipedia.org/wiki/Arachidonic_acid)(ETA)
@@ -90,17 +90,17 @@ Modified: 2021-09-11 13:35:20 +0500
 
 These 2 essential fatty acids are the starting point for other important omega-acids (e.g. DHA, EPA)
 
-- [α-Linolenic acid](https://en.wikipedia.org/wiki/%CE%91-Linolenic_acid)ALA (18:3)[Omega-3 fatty acid](https://en.wikipedia.org/wiki/Omega-3_fatty_acid)
-- [Linoleic acid](https://en.wikipedia.org/wiki/Linoleic_acid)LA (18:2)[Omega-6 fatty acid](https://en.wikipedia.org/wiki/Omega-6_fatty_acid)
+- [α-Linolenic acid](https://en.wikipedia.org/wiki/%CE%91-Linolenic_acid) ALA (18:3)[Omega-3 fatty acid](https://en.wikipedia.org/wiki/Omega-3_fatty_acid)
+- [Linoleic acid](https://en.wikipedia.org/wiki/Linoleic_acid) LA (18:2)[Omega-6 fatty acid](https://en.wikipedia.org/wiki/Omega-6_fatty_acid)
 
 - **Not providing energy**
   - Water
   - Fiber
 
-## Dietary fiber**or**roughageis the portion of plant-derived food that cannot be completely broken down by[digestive enzymes](https://en.wikipedia.org/wiki/Digestive_enzyme).It has two main components
+## Dietary fiber**or**roughageis the portion of plant-derived food that cannot be completely broken down by [digestive enzymes](https://en.wikipedia.org/wiki/Digestive_enzyme).It has two main components
 
-- Soluble fiber -- which dissolves in water -- is readily fermented in the[colon](https://en.wikipedia.org/wiki/Colon_(anatomy))into gases and physiologically active[by-products](https://en.wikipedia.org/wiki/By-product), such as[short-chain fatty acids](https://en.wikipedia.org/wiki/Short-chain_fatty_acid)produced in the[colon](https://en.wikipedia.org/wiki/Colon_(anatomy))by[gut bacteria](https://en.wikipedia.org/wiki/Gut_flora);[^[1]^](https://en.wikipedia.org/wiki/Dietary_fiber#cite_note-bnf-1)it is[viscous](https://en.wikipedia.org/wiki/Viscous), may be called[prebiotic](https://en.wikipedia.org/wiki/Prebiotic_(nutrition))fiber, and delays[gastric emptying](https://en.wikipedia.org/wiki/Stomach#Function)which, in humans, can result in an extended feeling of fullness.
-- Insoluble fiber -- which does not dissolve in water -- is inert to digestive enzymes in the upper[gastrointestinal tract](https://en.wikipedia.org/wiki/Gastrointestinal_tract)and provides bulking.Some forms of insoluble fiber, such as[resistant starches](https://en.wikipedia.org/wiki/Resistant_starch), can be fermented in the colon.Bulking fibers absorb water as they move through the[digestive system](https://en.wikipedia.org/wiki/Digestive_system), easing[defecation](https://en.wikipedia.org/wiki/Defecation).
+- Soluble fiber -- which dissolves in water -- is readily fermented in the [colon](https://en.wikipedia.org/wiki/Colon_(anatomy)) into gases and physiologically active [by-products](https://en.wikipedia.org/wiki/By-product), such as [short-chain fatty acids](https://en.wikipedia.org/wiki/Short-chain_fatty_acid) produced in the [colon](https://en.wikipedia.org/wiki/Colon_(anatomy)) by [gut bacteria](https://en.wikipedia.org/wiki/Gut_flora);[^[1]^](https://en.wikipedia.org/wiki/Dietary_fiber#cite_note-bnf-1) it is [viscous](https://en.wikipedia.org/wiki/Viscous), may be called [prebiotic](https://en.wikipedia.org/wiki/Prebiotic_(nutrition)) fiber, and delays [gastric emptying](https://en.wikipedia.org/wiki/Stomach#Function) which, in humans, can result in an extended feeling of fullness.
+- Insoluble fiber -- which does not dissolve in water -- is inert to digestive enzymes in the upper [gastrointestinal tract](https://en.wikipedia.org/wiki/Gastrointestinal_tract) and provides bulking.Some forms of insoluble fiber, such as [resistant starches](https://en.wikipedia.org/wiki/Resistant_starch), can be fermented in the colon.Bulking fibers absorb water as they move through the [digestive system](https://en.wikipedia.org/wiki/Digestive_system), easing [defecation](https://en.wikipedia.org/wiki/Defecation).
 
 - Antioxidants
 

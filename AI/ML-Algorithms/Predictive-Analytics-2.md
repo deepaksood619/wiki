@@ -94,9 +94,9 @@ Likelihood is a probability of absorbing some data given a statistical model. If
 
 ![image](media/Predictive-Analytics-2-image9.jpg)
 
-We will denote by Q[f] the logarithm of the likelihood, and now, it is sum of all logarithms of probabilities and you are going to maximize this function
+We will denote by Q [f] the logarithm of the likelihood, and now, it is sum of all logarithms of probabilities and you are going to maximize this function
 
-We will use shorthand for this logarithm L(yi, f(x)i). It is the logarithm of probability. And here, we emphasize that this logarithms depend actually on the true label, yi and our prediction, f(x)i, Now, Q[f] is a sum of L(yi, f(x)i)
+We will use shorthand for this logarithm L(yi, f(x)i). It is the logarithm of probability. And here, we emphasize that this logarithms depend actually on the true label, yi and our prediction, f(x)i, Now, Q [f] is a sum of L(yi, f(x)i)
 
 ![image](media/Predictive-Analytics-2-image10.jpg)
 

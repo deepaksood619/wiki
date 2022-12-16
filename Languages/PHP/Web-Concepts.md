@@ -14,8 +14,8 @@ The target is specified by theLocation:header as the argument to theheader()func
 
 ```php
 <?php
-if( $_POST["location"] ) {
-    $location = $_POST["location"];
+if( $_POST ["location"] ) {
+    $location = $_POST ["location"];
     header( "Location:$location" );
 
     exit();
@@ -51,9 +51,9 @@ The GET method sends the encoded user information appended to the page request. 
 
 ```php
 <?php
-   if( $_GET["name"] || $_GET["age"] ) {
-      echo "Welcome ". $_GET['name']. "<br />";
-      echo "You are ". $_GET['age']. " years old.";
+   if( $_GET ["name"] || $_GET ["age"] ) {
+      echo "Welcome ". $_GET ['name']. "<br />";
+      echo "You are ". $_GET ['age']. " years old.";
 
       exit();
    }
@@ -84,12 +84,12 @@ The POST method transfers information via HTTP headers. The information is encod
 
 ``php
 <?php
-   if( $_POST["name"] || $_POST["age"] ) {
-      if (preg_match("/[^A-Za-z'-]/",$_POST['name'] )) {
+   if( $_POST ["name"] || $_POST ["age"] ) {
+      if (preg_match("/[^A-Za-z'-]/",$_POST ['name'] )) {
          die ("invalid name and name should be alpha");
       }
-      echo "Welcome ". $_POST['name']. "<br />";
-      echo "You are ". $_POST['age']. " years old.";
+      echo "Welcome ". $_POST ['name']. "<br />";
+      echo "You are ". $_POST ['age']. " years old.";
 
       exit();
    }
@@ -117,9 +117,9 @@ The PHP $_REQUEST variable can be used to get the result from form data sent wit
 
 ```php
 <?php
-   if( $_REQUEST["name"] || $_REQUEST["age"] ) {
-      echo "Welcome ". $_REQUEST['name']. "<br />";
-      echo "You are ". $_REQUEST['age']. " years old.";
+   if( $_REQUEST ["name"] || $_REQUEST ["age"] ) {
+      echo "Welcome ". $_REQUEST ['name']. "<br />";
+      echo "You are ". $_REQUEST ['age']. " years old.";
       exit();
    }
 ?>
@@ -194,7 +194,7 @@ A session ends when the user loses the browser or after leaving the site, the se
 
 ## Sending emails
 
-PHP must be configured correctly in thephp.inifile with the details of how your system sends email. Open php.ini file available in/etc/directory and find the section headed[mail function].
+PHP must be configured correctly in thephp.inifile with the details of how your system sends email. Open php.ini file available in/etc/directory and find the section headed [mail function].
 
 <https://www.tutorialspoint.com/php/php_sending_emails.htm>
 

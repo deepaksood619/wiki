@@ -69,11 +69,11 @@ Unknown unknown and known unknown
 
 ## 5 Whys
 
-5 Whysis an iterative interrogative[technique](https://en.wikipedia.org/wiki/Skill)used to explore the[cause-and-effect](https://en.wikipedia.org/wiki/Causality)relationships underlying a particular problem.The primary goal of the technique is to determine the[root cause](https://en.wikipedia.org/wiki/Root_cause) of a[defect](https://en.wiktionary.org/wiki/defect)or problem by repeating the question "Why?". Each answer forms the basis of the next question. The "5" in the name derives from an anecdotal observation on the number of iterations needed to resolve the problem.
+5 Whysis an iterative interrogative [technique](https://en.wikipedia.org/wiki/Skill) used to explore the [cause-and-effect](https://en.wikipedia.org/wiki/Causality) relationships underlying a particular problem.The primary goal of the technique is to determine the [root cause](https://en.wikipedia.org/wiki/Root_cause) of a [defect](https://en.wiktionary.org/wiki/defect) or problem by repeating the question "Why?". Each answer forms the basis of the next question. The "5" in the name derives from an anecdotal observation on the number of iterations needed to resolve the problem.
 
 ## Economic Moat
 
-Conceptualized and named by[Warren Buffett](https://www.investopedia.com/articles/01/071801.asp), an economic moat is a distinct advantage a company has over its competitors which allows it to protect its market share and profitability. It is often an advantage that is difficult to mimic or duplicate (brand identity, patents) and thus creates an effective barrier against competition from other firms.
+Conceptualized and named by [Warren Buffett](https://www.investopedia.com/articles/01/071801.asp), an economic moat is a distinct advantage a company has over its competitors which allows it to protect its market share and profitability. It is often an advantage that is difficult to mimic or duplicate (brand identity, patents) and thus creates an effective barrier against competition from other firms.
 
 <https://www.investopedia.com/terms/e/economicmoat.aspc>
 

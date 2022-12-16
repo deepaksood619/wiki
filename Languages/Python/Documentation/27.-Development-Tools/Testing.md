@@ -81,11 +81,11 @@ unittest requires that:
 - You put your tests into classes as methods
 - You use a series of special assertion methods in theunittest.TestCaseclass instead of the built-inassertstatement
 
-[unittest.mock](https://docs.python.org/3/library/unittest.mock.html#module-unittest.mock)is a library for testing in Python. As of Python 3.3, it is available in the[standard library](https://docs.python.org/dev/library/unittest.mock).
+[unittest.mock](https://docs.python.org/3/library/unittest.mock.html#module-unittest.mock) is a library for testing in Python. As of Python 3.3, it is available in the [standard library](https://docs.python.org/dev/library/unittest.mock).
 
 ## Disadvantages
 
-unittest feels pretty similar to[JUnit](https://en.wikipedia.org/wiki/JUnit)which I would say is a disadvantage. Python is a different language with different patterns and expectations. One weirdness is that you have to put your tests in a class, even if you don't need to[setUp()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp)or[tearDown()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown)anything. It uses camelCase for the method names which is against the Python conventions. You cannot simplyassert Expression, but instead, have to useself.assertEqual,self.assertTrue, ... (see the[complete list of assert methods](https://docs.python.org/3/library/unittest.html#assert-methods)). And the error messages are not as expressive as the ones you get from Pytest.
+unittest feels pretty similar to [JUnit](https://en.wikipedia.org/wiki/JUnit) which I would say is a disadvantage. Python is a different language with different patterns and expectations. One weirdness is that you have to put your tests in a class, even if you don't need to [setUp()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp) or [tearDown()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown) anything. It uses camelCase for the method names which is against the Python conventions. You cannot simplyassert Expression, but instead, have to useself.assertEqual,self.assertTrue, ... (see the [complete list of assert methods](https://docs.python.org/3/library/unittest.html#assert-methods)). And the error messages are not as expressive as the ones you get from Pytest.
 
 - __PyUnit__
 
@@ -107,7 +107,7 @@ The doctest looks for>>>within the docstrings and executes whatever follows as i
 
 - __[PyTest]{.underline}__
 
-[pytest](https://realpython.com/pytest-python-testing/)supports execution ofunittesttest cases. The real advantage ofpytestcomes by writingpytesttest cases.pytesttest cases are a series of functions in a Python file starting with the nametest_.
+[pytest](https://realpython.com/pytest-python-testing/) supports execution ofunittesttest cases. The real advantage ofpytestcomes by writingpytesttest cases.pytesttest cases are a series of functions in a Python file starting with the nametest_.
 
 pytest has some other great features:
 
@@ -167,9 +167,9 @@ coverage report
 coverage html # open htmlcov/index.html in a browser
 ```
 
-Many people choose to use the[pytest-cov](https://pytest-cov.readthedocs.io/)plugin, but for most purposes, it is unnecessary.
+Many people choose to use the [pytest-cov](https://pytest-cov.readthedocs.io/) plugin, but for most purposes, it is unnecessary.
 
-Some test runners provide coverage integration to make it easy to use coverage.py while running tests. For example,[pytest](http://doc.pytest.org/)has the[pytest-cov](https://pytest-cov.readthedocs.io/)plugin.
+Some test runners provide coverage integration to make it easy to use coverage.py while running tests. For example,[pytest](http://doc.pytest.org/) has the [pytest-cov](https://pytest-cov.readthedocs.io/) plugin.
 
 <https://coverage.readthedocs.io/en/latest>
 
@@ -200,7 +200,7 @@ tox is a tool for automating test environment management and testing against mul
 
 - __robotframework__
 
-[Robot Framework](http://robotframework.org/)is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
+[Robot Framework](http://robotframework.org/) is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
 
 <https://github.com/robotframework/robotframework>
 
@@ -225,8 +225,8 @@ assert sum([1, 2, 3]) == 6, "Should be 6"
 | [assertEqual(a,b)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)                 | a==b                     |    |
 |---------------------------------|-------------------------------|---------|
 | [assertNotEqual(a,b)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertNotEqual)           | a!=b                     |    |
-| [assertTrue(x)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertTrue)                      | bool(x)isTrue            |    |
-| [assertFalse(x)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertFalse)                    | bool(x)isFalse           |    |
+| [assertTrue(x)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertTrue)                      | bool(x) isTrue            |    |
+| [assertFalse(x)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertFalse)                    | bool(x) isFalse           |    |
 | [assertIs(a,b)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertIs)                       | aisb                     | 3.1 |
 | [assertIsNot(a,b)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertIsNot)                 | aisnotb                 | 3.1 |
 | [assertIsNone(x)](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertIsNone)                  | xisNone                  | 3.1 |

@@ -51,7 +51,7 @@ Cortex allows for storing time series data in a key-value store like Cassandra, 
 
 A multitenant, horizontally scalable Prometheus as a Service
 
-Cortex provides horizontally scalable, highly available, multi-tenant, long term storage for[Prometheus](https://prometheus.io/).
+Cortex provides horizontally scalable, highly available, multi-tenant, long term storage for [Prometheus](https://prometheus.io/).
 
 - Horizontally scalable:Cortex can run across multiple machines in a cluster, exceeding the throughput and storage of a single machine. This enables you to send the metrics from multiple Prometheus servers to a single Cortex cluster and run "globally aggregated" queries across all data in a single place.
 - Highly available:When run in a cluster, Cortex can replicate data between machines. This allows you to survive machine failure without gaps in your graphs.
@@ -66,8 +66,8 @@ Cortex has a fundamentally service-based design, with its essential functions sp
 
 - **Distributor---** Handles time series data written to Cortex by Prometheus instances using Prometheus'[remote write API](https://prometheus.io/docs/prometheus/latest/storage/#remote-storage-integrations). Incoming data is automatically replicated and sharded, and sent to multiple Cortex ingesters in parallel.
 - **Ingester ---**Receives time series data from distributor nodes and then writes that data to long-term storage backends, compressing data into Prometheus chunks for efficiency.
-- **Ruler---** Executes rules and generates alerts, sending them to[Alertmanager](https://prometheus.io/docs/alerting/alertmanager/)(Cortex installations include Alertmanager).
-- **Querier---** Handles PromQL queries from clients (including[Grafana](https://grafana.com/)dashboards), abstracting over both ephemeral time series data and samples in long-term storage.
+- **Ruler---** Executes rules and generates alerts, sending them to [Alertmanager](https://prometheus.io/docs/alerting/alertmanager/)(Cortex installations include Alertmanager).
+- **Querier---** Handles PromQL queries from clients (including [Grafana](https://grafana.com/) dashboards), abstracting over both ephemeral time series data and samples in long-term storage.
 
 Each of these components can be managed independently, which is key to Cortex's scalability and operations story. You can see a basic diagram of Cortex and the systems it interacts with below:
 

@@ -13,7 +13,7 @@ Uses statements that change a program's state
 - Object Oriented Programming Language
 - Procedural
 
-[Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming)is a type of imperative programming in which the program is built from one or more procedures (also termed[subroutines](https://en.wikipedia.org/wiki/Subroutine)or functions).
+[Procedural programming](https://en.wikipedia.org/wiki/Procedural_programming) is a type of imperative programming in which the program is built from one or more procedures (also termed [subroutines](https://en.wikipedia.org/wiki/Subroutine) or functions).
 
 ## Declarative (does not state the order in which operations execute)
 
@@ -39,7 +39,7 @@ A declarative approach represents what we have and what we need. For example:We 
 The good news is computer languages have evolved. Computer languages offer declarative ways to do the needed imperative computer instructions. Just as cars have evolved from manual stick shift into automatic and self-driving ones!
 Imperative programming is like driving a stick shift car. You need to do manual steps (press the clutch, depress it slowly, change gears incrementally, etc). Declarative programming is like driving an automatic car --- you just specify the "what": Park or Drive.
 You cannot program declaratively unless you have the tools that enable you to do so. While you can imperatively drive an automatic car (by switching to manual mode) you cannot declaratively drive a stick shift car. If all you have is a stick shift car, imperative programming is your only obvious choice. This is unless you take the time to install an automatic gear shifter, which might be worth it in the long term. If you can afford a new car, you will probably go with an automatic one unless you are that true nerd who still likes to program with Assembly!
-[Assembly](https://en.wikipedia.org/wiki/Assembly_language)is the original true imperative low-level computer language with pure instructions that directly translate into machine code.
+[Assembly](https://en.wikipedia.org/wiki/Assembly_language) is the original true imperative low-level computer language with pure instructions that directly translate into machine code.
 Note that imperative programming might produce faster programs. Additionally, declarative programming requires less effort from you. In general, it will also require less effort to be maintained. Coding does not have to be one way or the other. Any non-trivial computer program will most likely have a little bit of both approaches. Also, knowing how to code declaratively is great, but it does not mean that you do not need to learn the imperative ways as well. You should simply be confident using both.
 Tools that enable you to program declaratively evolve into better and faster ways to get you where you are heading. The ultimate declarative experience with modern cars is the self-driving ones. The "what" becomes the destination and the car will do the rest. This is somehow, probably, the future of programming as well. We will have programs that understand all goals and they can just work their magic to generate logic to get us to those goals.
 

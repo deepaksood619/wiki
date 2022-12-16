@@ -28,9 +28,9 @@ Block is a chunk of memory of a certain size. Each block can keep only one Pytho
 
 ## Pool
 
-A collection of blocks of the same size is called a pool. Normally, the size of the pool is equal to the size of a[memory page](https://en.wikipedia.org/wiki/Page_(computer_memory)), i.e., 4Kb. Limiting pool to the fixed size of blocks helps with fragmentation. If an object gets destroyed, the memory manager can fill this space with a new object of the same size.
+A collection of blocks of the same size is called a pool. Normally, the size of the pool is equal to the size of a [memory page](https://en.wikipedia.org/wiki/Page_(computer_memory)), i.e., 4Kb. Limiting pool to the fixed size of blocks helps with fragmentation. If an object gets destroyed, the memory manager can fill this space with a new object of the same size.
 
-Pools of the same sized blocks are linked together using[doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)(thenextpoolandprevpoolfields). Theszidxfield keeps the size class index, whereasref.countkeeps the number of used blocks. Theare na indexstores the number of an arena in which Pool was created.
+Pools of the same sized blocks are linked together using [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)(thenextpoolandprevpoolfields). Theszidxfield keeps the size class index, whereasref.countkeeps the number of used blocks. Theare na indexstores the number of an arena in which Pool was created.
 
 Therefore, If a block is empty instead of an object, it stores an address of the next empty block. This trick saves a lot of memory and computation.
 
@@ -46,7 +46,7 @@ In order to efficiently manage pools Python uses an additional array calledusedp
 
 The arena is a chunk of 256kB memory allocated on the heap, which provides memory for 64 pools.
 
-All arenas are linked using[doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)(thenextarenaandprevarenafields), it helps to manage them. Thentotalpoolsandnfreepoolsare storing information about currently available pools.
+All arenas are linked using [doubly linked list](https://en.wikipedia.org/wiki/Doubly_linked_list)(thenextarenaandprevarenafields), it helps to manage them. Thentotalpoolsandnfreepoolsare storing information about currently available pools.
 
 Thefreepoolsfield points to the linked list of available pools.
 

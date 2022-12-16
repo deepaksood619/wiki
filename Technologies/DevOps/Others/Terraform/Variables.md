@@ -92,13 +92,13 @@ A variable can have amaptype assigned explicitly, or it can be implicitly declar
 Then, replace theaws_instancewith the following:
 
 resource "aws_instance" "example" {
-ami = var.amis[var.region]
+ami = var.amis [var.region]
 instance_type = "t2.micro"
 }
 
-The square-bracket index notation used here is an example of how themaptype expression is accessed as a variable, with[var.region]referencing thevar.amisdeclaration for dynamic lookup.
+The square-bracket index notation used here is an example of how themaptype expression is accessed as a variable, with [var.region]referencing thevar.amisdeclaration for dynamic lookup.
 
-Although it is not used in this example, themaptype expression can also use a static value lookup directly withvar.amis["us-east-1"].
+Although it is not used in this example, themaptype expression can also use a static value lookup directly withvar.amis ["us-east-1"].
 
 ## Assigning Maps
 

@@ -38,7 +38,7 @@ Aurora uses the same indexes as MySQL/InnoDB. In MySQL, both b-tree and hash ind
 
 [Serializable](https://dbdb.io/browse?isolation-levels=serializable)
 In the paper that introduced Aurora, the authors stated that Aurora has exactly the same isolation levels as MySQL. The supported isolation levels includes the standard ANSI levels and Snapshot Isolation.
-[Amazon Aurora](https://aws.amazon.com/rds/aurora/)with MySQL compatibility supports the ANSI READ COMMITTED isolation level on read replicas. This isolation level enables long-running queries on an Aurora read replica to execute without impacting the throughput of writes on the writer node.
+[Amazon Aurora](https://aws.amazon.com/rds/aurora/) with MySQL compatibility supports the ANSI READ COMMITTED isolation level on read replicas. This isolation level enables long-running queries on an Aurora read replica to execute without impacting the throughput of writes on the writer node.
 >>> SELECT @@TX_ISOLATION;
 
 REPEATABLE-READ
@@ -89,7 +89,7 @@ Same as MySQL/InnoDB, Aurora supports stored procedures.
 [Shared-Nothing](https://dbdb.io/browse?system-architecture=shared-nothing)
 Aurora decouples its database engine from the storage backend. The database engine is a modified version with MySQL/InnoDB, where the storage backend consists of distributed replicas that span across different availability zones in AWS. The database engine will propagates logs to the backend storage, and the backend storage utilizes a quorum based synchronization scheme to ensure the consistency of the database.
 Aurora architecture works on the basis of a cluster volume that manages the data for all the database instances in that particular cluster. A cluster volume spans across multiple availability zones and is effectively virtual database storage. The underlying storage volume is on top of multiple cluster nodes which are distributed across different availability zones. Separate from this, Aurora database can also have read-replicas. Only one instance usually serves as the primary instance and it supports reads as well as writes. The rest of the instances serve as read-replicas and load balancing needs to be handled by the user. This is different from the multiAZ deployment, where instances are located across the availability zone and support automatic failover.
-[Amazon Aurora](https://aws.amazon.com/rds/aurora/)is a relational database that was designed to take full advantage of the abundance of networking, processing, and storage resources available in the cloud. While maintaining compatibility with MySQL and PostgreSQL on the user-visible side, Aurora makes use of a modern, purpose-built distributed storage system under the covers. Your data is striped across hundreds of storage nodes distributed over three distinct AWS Availability Zones, with two copies per zone, on fast SSD storage. Here's what this looks like:
+[Amazon Aurora](https://aws.amazon.com/rds/aurora/) is a relational database that was designed to take full advantage of the abundance of networking, processing, and storage resources available in the cloud. While maintaining compatibility with MySQL and PostgreSQL on the user-visible side, Aurora makes use of a modern, purpose-built distributed storage system under the covers. Your data is striped across hundreds of storage nodes distributed over three distinct AWS Availability Zones, with two copies per zone, on fast SSD storage. Here's what this looks like:
 
 ![image](media/AWS-Aurora-image1.png)-   Asynchronous Key Fetch
 

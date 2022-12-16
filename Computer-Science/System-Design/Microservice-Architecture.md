@@ -81,7 +81,7 @@ In a monolithic application, all components reside within the same process and c
 
 ## Important Points
 
-- In cases where a new service ends up with a call back to the monolith, I suggest to expose a new API from the monolith, and access the API through an[anti-corruption](https://martinfowler.com/articles/refactoring-external-service.html#SeparatingTheYoutubeDataStructureIntoAGateway)layer in the new service to make sure that the monolith concepts do not leak out.
+- In cases where a new service ends up with a call back to the monolith, I suggest to expose a new API from the monolith, and access the API through an [anti-corruption](https://martinfowler.com/articles/refactoring-external-service.html#SeparatingTheYoutubeDataStructureIntoAGateway) layer in the new service to make sure that the monolith concepts do not leak out.
 - Finding domain boundaries in a monolith is very important.
 
 ## Migrating Steps -
@@ -162,12 +162,12 @@ Migrating to Microservices Databases, Chapter 5, Integration Strategies
 
 ## Service Oriented Architecture
 
-Service-oriented architecture(SOA) is a style of[software design](https://en.wikipedia.org/wiki/Software_design)where services are provided to the other components by[application components](https://en.wikipedia.org/wiki/Application_components), through a[communication protocol](https://en.wikipedia.org/wiki/Communications_protocol)over a network. A SOA service is a discrete unit of functionality that can be accessed remotely and acted upon and updated independently, such as retrieving a credit card statement online. SOA is also intended to be independent of vendors, products and technologies.
+Service-oriented architecture(SOA) is a style of [software design](https://en.wikipedia.org/wiki/Software_design) where services are provided to the other components by [application components](https://en.wikipedia.org/wiki/Application_components), through a [communication protocol](https://en.wikipedia.org/wiki/Communications_protocol) over a network. A SOA service is a discrete unit of functionality that can be accessed remotely and acted upon and updated independently, such as retrieving a credit card statement online. SOA is also intended to be independent of vendors, products and technologies.
 A service has four properties according to one of many definitions of SOA:
 
 - It logically represents a business activity with a specified outcome.
 - It is self-contained.
-- It is a[black box](https://en.wikipedia.org/wiki/Black_box)for its consumers, meaning the consumer does not have to be aware of the service's inner workings.
+- It is a [black box](https://en.wikipedia.org/wiki/Black_box) for its consumers, meaning the consumer does not have to be aware of the service's inner workings.
 - It may consist of other underlying services.
 
 ## Principles
@@ -213,7 +213,7 @@ Services are supplemented with communicative meta data by which they can be effe
 
 Logic is divided into various services, to promote reuse of code.
 
-## Service[encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_science))
+## Service [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_science))
 
 Many services which were not initially planned under SOA, may get encapsulated or become a part of SOA.
 <https://en.wikipedia.org/wiki/Service-oriented_architecture>

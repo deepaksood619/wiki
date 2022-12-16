@@ -59,7 +59,7 @@ cat /etc/hosts
 Using the loopback interface bypasses any local network interface hardware. The local loopback mechanism is useful for testing software during development, independently of any networking configurations. For example, if a computer has been configured to provide a website, directing a locally running web browser to <http://localhost> may display its home page.
 The IP**0.0.0.0**is commonly used to mean that the program listens on all the IPs available in that machine/server
 
-The address0.0.0.0is a non-routable meta-address used to designate an invalid, unknown or non-applicable target. This address is assigned specific meanings in a number of contexts, such as on[clients](https://en.wikipedia.org/wiki/Client_(computing))or on[servers](https://en.wikipedia.org/wiki/Server_(computing)).
+The address0.0.0.0is a non-routable meta-address used to designate an invalid, unknown or non-applicable target. This address is assigned specific meanings in a number of contexts, such as on [clients](https://en.wikipedia.org/wiki/Client_(computing)) or on [servers](https://en.wikipedia.org/wiki/Server_(computing)).
 
 <https://en.wikipedia.org/wiki/0.0.0.0>
 <https://whatismyipaddress.com/localhost>
@@ -77,7 +77,7 @@ For example, we could express the idea that the IP address192.168.0.15is associa
 
 ## IPAM
 
-[IPAM (IP Address Management)](https://www.infoblox.com/products/ipam-dhcp/)is the administration of DNS and DHCP, which are the network services that assign and resolve IP addresses to machines in a TCP/IP network. Simply put, IPAM is a means of planning, tracking, and managing the Internet Protocol address space used in a network. Most commonly, tools such as DNS and DHCP are used in tandem to perform this task, though true IPAM will glue these services together so that each is aware of changes in the other (for instance DNS knowing of the IP address taken by a client via DHCP, and updating itself accordingly).
+[IPAM (IP Address Management)](https://www.infoblox.com/products/ipam-dhcp/) is the administration of DNS and DHCP, which are the network services that assign and resolve IP addresses to machines in a TCP/IP network. Simply put, IPAM is a means of planning, tracking, and managing the Internet Protocol address space used in a network. Most commonly, tools such as DNS and DHCP are used in tandem to perform this task, though true IPAM will glue these services together so that each is aware of changes in the other (for instance DNS knowing of the IP address taken by a client via DHCP, and updating itself accordingly).
 IP Address Management (IPAM) is an integrated suite of tools to enable end-to-end planning, deploying, managing and monitoring of your IP address infrastructure, with a rich user experience. IPAM automatically discovers IP address infrastructure servers and Domain Name System (DNS) servers on your network and enables you to manage them from a central interface.
 <https://docs.microsoft.com/en-us/windows-server/networking/technologies/ipam/ipam-top>
 

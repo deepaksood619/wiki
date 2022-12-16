@@ -10,7 +10,7 @@ An API object that manages external access to the services in a cluster, typical
 
 An ingress controller is a piece of software that provides reverse proxy, configurable traffic routing, and TLS termination for Kubernetes services.
 
-Ingress, added in Kubernetes v1.1, exposes HTTP and HTTPS routes from outside the cluster to[services](https://kubernetes.io/docs/concepts/services-networking/service/)within the cluster. Traffic routing is controlled by rules defined on the ingress resource.
+Ingress, added in Kubernetes v1.1, exposes HTTP and HTTPS routes from outside the cluster to [services](https://kubernetes.io/docs/concepts/services-networking/service/) within the cluster. Traffic routing is controlled by rules defined on the ingress resource.
 
 internet
 |
@@ -18,9 +18,9 @@ internet
 --|-----|--
 [ Services ]
 
-An ingress can be configured to give services externally-reachable URLs, load balance traffic, terminate SSL, and offer name based virtual hosting. An[ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-controllers)is responsible for fulfilling the ingress, usually with a loadbalancer, though it may also configure your edge router or additional frontends to help handle the traffic.
+An ingress can be configured to give services externally-reachable URLs, load balance traffic, terminate SSL, and offer name based virtual hosting. An [ingress controller](https://kubernetes.io/docs/concepts/services-networking/ingress/#ingress-controllers) is responsible for fulfilling the ingress, usually with a loadbalancer, though it may also configure your edge router or additional frontends to help handle the traffic.
 
-An ingress does not expose arbitrary ports or protocols. Exposing services other than HTTP and HTTPS to the internet typically uses a service of type[Service.Type=NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)or[Service.Type=LoadBalancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer).
+An ingress does not expose arbitrary ports or protocols. Exposing services other than HTTP and HTTPS to the internet typically uses a service of type [Service.Type=NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport) or [Service.Type=LoadBalancer](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer).
 
 Ingress allows external users and client applications access to HTTP services. Ingress consists of two components: Ingress Resource and Ingress Controller.
 
@@ -82,8 +82,8 @@ This makes it decoupled and isolated from the services you want to expose. It al
 
 AWS ALB Ingress controller supports two traffic modes:instance modeandip mode. Users can explicitly specify these traffic modes by declaring the**alb.ingress.kubernetes.io/target-type**annotation on the Ingress and the service definitions.
 
-- **instance mode:**Ingress traffic starts from the ALB and reaches the[NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport)opened for your service. Traffic is then routed to the pods within the cluster. The number of hops for the packet to reach its destination in this mode is always two.
-- **ip mode:**Ingress traffic starts from the ALB and reaches the pods within the cluster directly. To use this mode, the networking plugin for the Kubernetes cluster must use a secondary IP address on ENI as pod IP, also known as the[AWS CNI plugin for Kubernetes](https://github.com/aws/amazon-vpc-cni-k8s). The number of hops for the packet to reach its destination in this mode is always one.
+- **instance mode:**Ingress traffic starts from the ALB and reaches the [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport) opened for your service. Traffic is then routed to the pods within the cluster. The number of hops for the packet to reach its destination in this mode is always two.
+- **ip mode:**Ingress traffic starts from the ALB and reaches the pods within the cluster directly. To use this mode, the networking plugin for the Kubernetes cluster must use a secondary IP address on ENI as pod IP, also known as the [AWS CNI plugin for Kubernetes](https://github.com/aws/amazon-vpc-cni-k8s). The number of hops for the packet to reach its destination in this mode is always one.
 
 <https://github.com/kubernetes-sigs/aws-alb-ingress-controller>
 

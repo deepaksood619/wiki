@@ -57,7 +57,7 @@ RUN sed -i -e 's/http:\/\/archive/mirror:\/\/mirrors/' -e 's/http:\/\/security/m
 
 #SMAP Section begin
 COPY ./smap/ /root/smap/
-RUN pip install --no-cache-dir requests[security] 'Twisted[tls]==16.0.0' pyopenssl && \
+RUN pip install --no-cache-dir requests [security] 'Twisted [tls]==16.0.0' pyopenssl && \
     pip install --no-cache-dir -r /root/smap/python/requirements.txt && \
     cd /root/smap/python && python setup.py install
 #SMAP Section end

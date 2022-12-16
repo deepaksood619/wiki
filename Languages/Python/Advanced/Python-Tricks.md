@@ -192,13 +192,13 @@ Ans: the default value for a function argument is only evaluated once, at the ti
 ["baz"]
 ```
 
-If you define the default for a parameter to be a mutable object (such as[]) then the "pre-computed" value is thereferenceto that object, so each call to the function will always reference the same object, which can then be mutated across multiple invocations of the function.
+If you define the default for a parameter to be a mutable object (such as []) then the "pre-computed" value is thereferenceto that object, so each call to the function will always reference the same object, which can then be mutated across multiple invocations of the function.
 
 However, sinceNoneis an immutable built-in type, the "pre-computed" value for a default of None is simply that. So the parameter will beNoneeach time you call the function.
 
 ## Misunderstanding Python scope rules
 
-Python scope resolution is based on what is known as the[LEGB](https://blog.mozilla.org/webdev/2011/01/31/python-scoping-understanding-legb/)rule, which is shorthand for**Local,Enclosing,Global,Built-in**.
+Python scope resolution is based on what is known as the [LEGB](https://blog.mozilla.org/webdev/2011/01/31/python-scoping-understanding-legb/) rule, which is shorthand for**Local,Enclosing,Global,Built-in**.
 
 ```python
 >>> x = 10
@@ -290,23 +290,23 @@ No when we import it, everything is fine:
 
 ## [autovivification](https://en.wikipedia.org/wiki/Autovivification)
 
-In the [Perl](https://en.wikipedia.org/wiki/Perl)programming language,autovivificationis the automatic creation of new[arrays](https://en.wikipedia.org/wiki/Array_data_structure)and[hashes](https://en.wikipedia.org/wiki/Hash_table)as required every time an undefined value is[dereferenced](https://en.wikipedia.org/wiki/Dereferencing). Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
+In the [Perl](https://en.wikipedia.org/wiki/Perl) programming language,autovivificationis the automatic creation of new [arrays](https://en.wikipedia.org/wiki/Array_data_structure) and [hashes](https://en.wikipedia.org/wiki/Hash_table) as required every time an undefined value is [dereferenced](https://en.wikipedia.org/wiki/Dereferencing). Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
 
-Python's built-indictclass can be[subclassed](https://en.wikipedia.org/wiki/Subclass_(computer_science))to implement autovivificious dictionaries simply by overriding the__missing__()method that was added to the class in Python v2.5. There are other ways of implementing the behavior, but the following is one of the simplest and instances of the class print just like normal Python dictionary objects.
+Python's built-indictclass can be [subclassed](https://en.wikipedia.org/wiki/Subclass_(computer_science)) to implement autovivificious dictionaries simply by overriding the__missing__() method that was added to the class in Python v2.5. There are other ways of implementing the behavior, but the following is one of the simplest and instances of the class print just like normal Python dictionary objects.
 
 ```python
 >>> class Tree(dict):
 ...     def __missing__(self, key):
-...         value = self[key] = type(self)()
+...         value = self [key] = type(self)()
 ...         return value
 
 >>> # common names by class, order, genus, and type-species
->>> common_names = Tree()>>> common_names['Mammalia']['Primates']['Homo']['H. sapiens'] = 'human being'
+>>> common_names = Tree()>>> common_names ['Mammalia']['Primates']['Homo']['H. sapiens'] = 'human being'
 >>> common_names
 {'Mammalia': {'Primates': {'Homo': {'H. sapiens': 'human being'}}}}
 
 >>> # Famous quotes by play, act, scene, and page
->>> quotes = Tree()>>> quotes['Hamlet'][1][3][3] = 'This above all: to thine own self be true.'
+>>> quotes = Tree()>>> quotes ['Hamlet'][1][3][3] = 'This above all: to thine own self be true.'
 >>> quotes
 {'Hamlet': {1: {3: {3: 'This above all: to thine own self be true.'}}}}
 ```

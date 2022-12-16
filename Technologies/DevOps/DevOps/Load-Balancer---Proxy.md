@@ -28,9 +28,9 @@ Distributed load balancing refers to having Envoy itself determine how load shou
 
 Global load balancing refers to having a single, global authority that decides how load should be distributed between hosts. For Envoy, this would be done by the control plane, which is able to adjust the load applied to individual endpoints by specifying various parameters, such as priority, locality weight, endpoint weight and endpoint health.
 
-A simple example would be to have the control plane assign hosts to different[priorities](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/priority#arch-overview-load-balancing-priority-levels)based on network topology to ensure that hosts that require fewer network hops are preferred. This is similar to zone-aware routing, but is handled by the control plane instead of by Envoy. A benefit of doing it in the control plane is that it gets around some of the[limitations](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/zone_aware#arch-overview-load-balancing-zone-aware-routing-preconditions)of zone aware routing.
+A simple example would be to have the control plane assign hosts to different [priorities](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/priority#arch-overview-load-balancing-priority-levels) based on network topology to ensure that hosts that require fewer network hops are preferred. This is similar to zone-aware routing, but is handled by the control plane instead of by Envoy. A benefit of doing it in the control plane is that it gets around some of the [limitations](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/zone_aware#arch-overview-load-balancing-zone-aware-routing-preconditions) of zone aware routing.
 
-A more complicated setup could have resource usage being reported to the control plane, allowing it to adjust the weight of endpoints or[localities](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/locality_weight#arch-overview-load-balancing-locality-weighted-lb)to account for the current resource usage, attempting to route new requests to idle hosts over busy ones.
+A more complicated setup could have resource usage being reported to the control plane, allowing it to adjust the weight of endpoints or [localities](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/load_balancing/locality_weight#arch-overview-load-balancing-locality-weighted-lb) to account for the current resource usage, attempting to route new requests to idle hosts over busy ones.
 
 ## Both Distributed and Global
 
@@ -56,7 +56,7 @@ This algorithm assigns a weight to each instance in the pool, and new connection
 
 The least request load balancer uses different algorithms depending on whether hosts have the same or different weights.
 
-- **all weights equal:** An O(1) algorithm which selects N random available hosts as specified in the[configuration](https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto#envoy-v3-api-msg-config-cluster-v3-cluster-leastrequestlbconfig)(2 by default) and picks the host which has the fewest active requests ([Mitzenmacher et al.](https://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf)has shown that this approach is nearly as good as an O(N) full scan). This is also known as **P2C (power of two choices)**. The P2C load balancer has the property that a host with the highest number of active requests in the cluster will never receive new requests. It will be allowed to drain until it is less than or equal to all of the other hosts.
+- **all weights equal:** An O(1) algorithm which selects N random available hosts as specified in the [configuration](https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto#envoy-v3-api-msg-config-cluster-v3-cluster-leastrequestlbconfig)(2 by default) and picks the host which has the fewest active requests ([Mitzenmacher et al.](https://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf) has shown that this approach is nearly as good as an O(N) full scan). This is also known as **P2C (power of two choices)**. The P2C load balancer has the property that a host with the highest number of active requests in the cluster will never receive new requests. It will be allowed to drain until it is less than or equal to all of the other hosts.
 - **all weights not equal:** If two or more hosts in the cluster have different load balancing weights, the load balancer shifts into a mode where it uses a weighted round robin schedule in which weights are dynamically adjusted based on the host's request load at the time of selection (weight is divided by the current active request count. For example, a host with weight 2 and an active request count of 4 will have a synthetic weight of 2 / 4 = 0.5). This algorithm provides good balance at steady state but may not adapt to load imbalance as quickly. Additionally, unlike P2C, a host will never truly drain, though it will receive fewer requests over time.
 
 - **IP Hash**
@@ -160,27 +160,27 @@ And one of the most different between the **socks proxy** and **HTTP proxy** is,
 
 ## Forward Proxy
 
-Forward proxy can be used by the client to[bypass firewall restrictions](https://www.linuxbabe.com/ubuntu/shadowsocks-libev-proxy-server-ubuntu-16-04-17-10)in order to visit websites that are blocked by school, government, company etc. If a website blocked an IP range from visiting the website, then a person in that IP range can use forward proxy to hide the real IP of the client so that person can visit the website and maybe leave some spam comments. However forward proxy might be detected by the website administrator. There are some paid proxy service that has numerous proxy systems around the world so that they can change your IP address every time your visit a new web page and this makes it harder for website administrators to detect.
+Forward proxy can be used by the client to [bypass firewall restrictions](https://www.linuxbabe.com/ubuntu/shadowsocks-libev-proxy-server-ubuntu-16-04-17-10) in order to visit websites that are blocked by school, government, company etc. If a website blocked an IP range from visiting the website, then a person in that IP range can use forward proxy to hide the real IP of the client so that person can visit the website and maybe leave some spam comments. However forward proxy might be detected by the website administrator. There are some paid proxy service that has numerous proxy systems around the world so that they can change your IP address every time your visit a new web page and this makes it harder for website administrators to detect.
 
 ## The object of the forwarding proxy is the Client,and the object of the reverse proxy server is the server
 
 ## Reverse Proxy
 
-In[computer networks](https://en.wikipedia.org/wiki/Computer_network), areverse proxyis a type of[proxy server](https://en.wikipedia.org/wiki/Proxy_server)that retrieves resources on behalf of a[client](https://en.wikipedia.org/wiki/Client_(computing))from one or more[servers](https://en.wikipedia.org/wiki/Server_(computing)). These resources are then returned to the client, appearing as if they originated from the proxy server itself.Unlike a[forward proxy](https://en.wikipedia.org/wiki/Forward_proxy), which is an intermediary for its associated clients to contact any server, a reverse proxy is an intermediary for its associated servers to be contacted by any client. In other words, aproxyacts on behalf of the client(s), while areverse proxyacts on behalf of the server(s).
+In [computer networks](https://en.wikipedia.org/wiki/Computer_network), areverse proxyis a type of [proxy server](https://en.wikipedia.org/wiki/Proxy_server) that retrieves resources on behalf of a [client](https://en.wikipedia.org/wiki/Client_(computing)) from one or more [servers](https://en.wikipedia.org/wiki/Server_(computing)). These resources are then returned to the client, appearing as if they originated from the proxy server itself.Unlike a [forward proxy](https://en.wikipedia.org/wiki/Forward_proxy), which is an intermediary for its associated clients to contact any server, a reverse proxy is an intermediary for its associated servers to be contacted by any client. In other words, aproxyacts on behalf of the client(s), while areverse proxyacts on behalf of the server(s).
 
 Quite often, popular web servers use reverse-proxying functionality, shielding application frameworks of weaker HTTP capabilities. In this context, "weaker" means limitations in ability to handle excessive load, and limitation in handling the entire variety of request formats that can adhere to HTTP(S) 1.x, HTTP(S) 2.x, or requests which may be hard to detect. A reverse proxy in such cases could transform HTTPS requests into HTTP requests, buffer incoming requests based on the load of the "shielded" server(s), handle cookies/session data, or transform one request into multiple requests and then synthesize the responses, among other possibilities.
 
 ## Uses of reverse proxies
 
-- Reverse proxies can hide the existence and characteristics of an[origin server](https://en.wikipedia.org/wiki/Origin_server)or servers.
-- [Application firewall](https://en.wikipedia.org/wiki/Application_firewall)features can protect against common web-based attacks, like a[denial-of-service attack (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack)or distributed denial-of-service attacks (DDoS). Without a reverse proxy, removing malware or initiating[takedowns](https://en.wikipedia.org/wiki/Notice_and_take_down), for example, can become difficult.
-- In the case of[secure websites](https://en.wikipedia.org/wiki/Secure_website), a web server may not perform[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)[encryption](https://en.wikipedia.org/wiki/Encryption)itself, but instead offloads the task to a reverse proxy that may be equipped with[TLS acceleration](https://en.wikipedia.org/wiki/TLS_acceleration)hardware. (See[TLS termination proxy](https://en.wikipedia.org/wiki/TLS_termination_proxy).)
-- A reverse proxy can[distribute the load](https://en.wikipedia.org/wiki/Load_balancing_(computing))from incoming requests to several servers, with each server serving its own application area. In the case of reverse proxying in the neighbourhood of[web servers](https://en.wikipedia.org/wiki/Web_server), the reverse proxy may have to rewrite the[URL](https://en.wikipedia.org/wiki/URL)in each incoming request in order to match the relevant internal location of the requested resource.
-- A reverse proxy can reduce load on its origin servers by[caching](https://en.wikipedia.org/wiki/Web_cache)[static content](https://en.wikipedia.org/wiki/Static_web_page), as well as[dynamic content](https://en.wikipedia.org/wiki/Dynamic_web_page)- synonym:[web acceleration](https://en.wikipedia.org/wiki/Web_accelerator). Proxy caches of this sort can often satisfy a considerable number of website requests, greatly reducing the load on the origin server(s).
-- A reverse proxy can optimize content by[compressing](https://en.wikipedia.org/wiki/HTTP_compression)it in order to speed up loading times.
+- Reverse proxies can hide the existence and characteristics of an [origin server](https://en.wikipedia.org/wiki/Origin_server) or servers.
+- [Application firewall](https://en.wikipedia.org/wiki/Application_firewall) features can protect against common web-based attacks, like a [denial-of-service attack (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack) or distributed denial-of-service attacks (DDoS). Without a reverse proxy, removing malware or initiating [takedowns](https://en.wikipedia.org/wiki/Notice_and_take_down), for example, can become difficult.
+- In the case of [secure websites](https://en.wikipedia.org/wiki/Secure_website), a web server may not perform [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)[encryption](https://en.wikipedia.org/wiki/Encryption) itself, but instead offloads the task to a reverse proxy that may be equipped with [TLS acceleration](https://en.wikipedia.org/wiki/TLS_acceleration) hardware. (See [TLS termination proxy](https://en.wikipedia.org/wiki/TLS_termination_proxy).)
+- A reverse proxy can [distribute the load](https://en.wikipedia.org/wiki/Load_balancing_(computing)) from incoming requests to several servers, with each server serving its own application area. In the case of reverse proxying in the neighbourhood of [web servers](https://en.wikipedia.org/wiki/Web_server), the reverse proxy may have to rewrite the [URL](https://en.wikipedia.org/wiki/URL) in each incoming request in order to match the relevant internal location of the requested resource.
+- A reverse proxy can reduce load on its origin servers by [caching](https://en.wikipedia.org/wiki/Web_cache)[static content](https://en.wikipedia.org/wiki/Static_web_page), as well as [dynamic content](https://en.wikipedia.org/wiki/Dynamic_web_page)- synonym:[web acceleration](https://en.wikipedia.org/wiki/Web_accelerator). Proxy caches of this sort can often satisfy a considerable number of website requests, greatly reducing the load on the origin server(s).
+- A reverse proxy can optimize content by [compressing](https://en.wikipedia.org/wiki/HTTP_compression) it in order to speed up loading times.
 - In a technique named "spoon-feed"a dynamically generated page can be produced all at once and served to the reverse proxy, which can then return it to the client a little bit at a time. The program that generates the page need not remain open, thus releasing server resources during the possibly extended time the client requires to complete the transfer.
-- Reverse proxies can operate wherever multiple web-servers must be accessible via a single public IP address. The web servers listen on different ports in the same machine, with the same local IP address or, possibly, on different machines and different local IP addresses altogether. The reverse proxy analyzes each incoming request and delivers it to the right server within the[local area network](https://en.wikipedia.org/wiki/Local_area_network).
-- Reverse proxies can perform[A/B testing](https://en.wikipedia.org/wiki/A/B_testing)and[multivariate testing](https://en.wikipedia.org/wiki/Multivariate_testing_in_marketing)without placing JavaScript tags or code into pages.
+- Reverse proxies can operate wherever multiple web-servers must be accessible via a single public IP address. The web servers listen on different ports in the same machine, with the same local IP address or, possibly, on different machines and different local IP addresses altogether. The reverse proxy analyzes each incoming request and delivers it to the right server within the [local area network](https://en.wikipedia.org/wiki/Local_area_network).
+- Reverse proxies can perform [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) and [multivariate testing](https://en.wikipedia.org/wiki/Multivariate_testing_in_marketing) without placing JavaScript tags or code into pages.
 - A reverse proxy can add basic HTTP access authentication to a web server that does not have any authentication.
 
 <https://en.wikipedia.org/wiki/Reverse_proxy>
@@ -255,8 +255,8 @@ That means you get even more security because all of your requests through the p
 
 ## Reverse Proxy vs Load Balancers
 
-- A[reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server)accepts a request from a client, forwards it to a server that can fulfill it, and returns the server's response to the client.
-- A[load balancer](https://www.nginx.com/resources/glossary/load-balancing)distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
+- A [reverse proxy](https://www.nginx.com/resources/glossary/reverse-proxy-server) accepts a request from a client, forwards it to a server that can fulfill it, and returns the server's response to the client.
+- A [load balancer](https://www.nginx.com/resources/glossary/load-balancing) distributes incoming client requests among a group of servers, in each case returning the response from the selected server to the appropriate client.
 
 ## Features
 
@@ -267,7 +267,7 @@ Service discovery is the process by which a load balancer determines the set of 
 - Static configuration file.
 - DNS.
 - [Zookeeper](https://zookeeper.apache.org/),[Etcd](https://coreos.com/etcd/),[Consul](https://www.consul.io/), etc.
-- Envoy's[universal data plane API](https://medium.com/@mattklein123/the-universal-data-plane-api-d15cec7a).
+- Envoy's [universal data plane API](https://medium.com/@mattklein123/the-universal-data-plane-api-d15cec7a).
 
 - Client-side discovery pattern
 - Server-side discovery pattern
@@ -293,7 +293,7 @@ Health checking is the process by which the load balancer determines if the back
 
 ## Load balancing
 
-Yes, load balancers have to actually balance load! Given a set of healthy backends, how is the backend selected that will serve a connection or request? Load balancing algorithms are an active area of research and range from simplistic ones such as random selection and round robin, to more complicated algorithms that take into account variable latency and backend load. One of the most popular load balancing algorithms given its performance and simplicity is known as[power of 2 least request load balancing](https://brooker.co.za/blog/2012/01/17/two-random.html).
+Yes, load balancers have to actually balance load! Given a set of healthy backends, how is the backend selected that will serve a connection or request? Load balancing algorithms are an active area of research and range from simplistic ones such as random selection and round robin, to more complicated algorithms that take into account variable latency and backend load. One of the most popular load balancing algorithms given its performance and simplicity is known as [power of 2 least request load balancing](https://brooker.co.za/blog/2012/01/17/two-random.html).
 
 ## Content-based Routing
 
@@ -329,7 +329,7 @@ In certain applications, it is important that requests for the samesessionreach 
 
 ## TLS termination
 
-The topic of TLS and its role in both edge serving and securing service-to-service communication is worthy of its own post. With that said, many L7 load balancers do a large amount of TLS processing that includes termination, certificate verification and pinning, certificate serving using[SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), etc.
+The topic of TLS and its role in both edge serving and securing service-to-service communication is worthy of its own post. With that said, many L7 load balancers do a large amount of TLS processing that includes termination, certificate verification and pinning, certificate serving using [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication), etc.
 
 ## Observability
 
@@ -379,7 +379,7 @@ A thick client approach means the load balancing smarts are implemented in the c
 
 Note: A lookaside load balancer is also known as an external load balancer or one-arm load balancer
 
-With lookaside load balancing, the load balancing smarts are implemented in a special LB server. Clients query the lookaside LB and the LB responds with best server(s) to use. The heavy lifting of keeping server state and implementation of LB algorithm is consolidated in the lookaside LB. Note that client might choose to implement simple algorithms on top of the sophisticated ones implemented in the LB. gRPC defines a protocol for communication between client and LB using this model. See Load Balancing in gRPC[doc](https://github.com/grpc/grpc/blob/master/doc/load-balancing.md)for details.
+With lookaside load balancing, the load balancing smarts are implemented in a special LB server. Clients query the lookaside LB and the LB responds with best server(s) to use. The heavy lifting of keeping server state and implementation of LB algorithm is consolidated in the lookaside LB. Note that client might choose to implement simple algorithms on top of the sophisticated ones implemented in the LB. gRPC defines a protocol for communication between client and LB using this model. See Load Balancing in gRPC [doc](https://github.com/grpc/grpc/blob/master/doc/load-balancing.md) for details.
 
 The picture below illustrates this approach. The client gets at least one address from lookaside LB (#1). Then the client uses this address to make a RPC (#2), and server sends load report to the LB (#3). The lookaside LB communicates with other infrastructure such as name resolution, service discovery, and so on (#4).
 

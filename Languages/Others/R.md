@@ -46,13 +46,13 @@ print(var)
 
 Getting data from two dimensional data structure
 
->>> chocolateData[6,4] # get the contents in the cell in the sixth row and the forth column
+>>> chocolateData [6,4] # get the contents in the cell in the sixth row and the forth column
 
->>> chocolateData[6,] # get the contents of every cell in the 6th row (note that you still need the comma)
+>>> chocolateData [6,] # get the contents of every cell in the 6th row (note that you still need the comma)
 
->>> head(chocolateData[6]) # if you forget the coulmn, you'll get the 6th *column* instead of the 6th *row*
+>>> head(chocolateData [6]) # if you forget the coulmn, you'll get the 6th *column* instead of the 6th *row*
 
->>> chocolateData <- chocolateData[-1,] # we can remove data by putting a minus sign (-) in front of the index we don't want
+>>> chocolateData <- chocolateData [-1,] # we can remove data by putting a minus sign (-) in front of the index we don't want
 
 >>> chocolateData <- type_convert(chocolateData) # automatically convert the data types of our data_frame
 
@@ -74,7 +74,7 @@ Getting data from two dimensional data structure
 
 >>> 5 * listOfNumbers
 
->>> listOfNumbers[3] # get the 3rd item from the vector, uses 1st indexing
+>>> listOfNumbers [3] # get the 3rd item from the vector, uses 1st indexing
 
 5. Data Structures
 
@@ -134,7 +134,7 @@ sdRating = sd(Rating))
 
 ## Tidyverse
 
-The tidyverse is an opinionated[collection of R packages](https://www.tidyverse.org/packages)designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
+The tidyverse is an opinionated [collection of R packages](https://www.tidyverse.org/packages) designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
 
 <https://www.tidyverse.org>
 

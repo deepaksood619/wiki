@@ -46,7 +46,7 @@ These three parts are usually encoded into three Base64-URI strings that are sep
 
 The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims:registered,public, andprivateclaims.
 
-- [Registered claims](https://tools.ietf.org/html/rfc7519#section-4.1): These are a set of predefined claims which are not mandatory but recommended, to provide a set of useful, interoperable claims. Some of them are:iss(issuer),exp(expiration time),sub(subject),aud(audience), and[others](https://tools.ietf.org/html/rfc7519#section-4.1).
+- [Registered claims](https://tools.ietf.org/html/rfc7519#section-4.1): These are a set of predefined claims which are not mandatory but recommended, to provide a set of useful, interoperable claims. Some of them are:iss(issuer),exp(expiration time),sub(subject),aud(audience), and [others](https://tools.ietf.org/html/rfc7519#section-4.1).
 
 Notice that the claim names are only three characters long as JWT is meant to be compact.
 The JWT specification defines some registered claim names and defines how they should be used. PyJWT supports these registered claim names:
@@ -57,7 +57,7 @@ The JWT specification defines some registered claim names and defines how they s
 - "aud" (Audience) Claim
 - "iat" (Issued At) Claim
 
-- [Public claims](https://tools.ietf.org/html/rfc7519#section-4.2): These can be defined at will by those using JWTs. But to avoid collisions they should be defined in the[IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml)or be defined as a URI that contains a collision resistant namespace.-   [Private claims](https://tools.ietf.org/html/rfc7519#section-4.3): These are the custom claims created to share information between parties that agree on using them and are neitherregisteredorpublicclaims.
+- [Public claims](https://tools.ietf.org/html/rfc7519#section-4.2): These can be defined at will by those using JWTs. But to avoid collisions they should be defined in the [IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml) or be defined as a URI that contains a collision resistant namespace.-   [Private claims](https://tools.ietf.org/html/rfc7519#section-4.3): These are the custom claims created to share information between parties that agree on using them and are neitherregisteredorpublicclaims.
 An example payload could be:
 
 {
@@ -142,8 +142,8 @@ async def login(request):
 post_data = await request.post()
 
 try:
-user = User.objects.get(email=post_data['email'])
-user.match_password(post_data['password'])
+user = User.objects.get(email=post_data ['email'])
+user.match_password(post_data ['password'])
 except (User.DoesNotExist, User.PasswordDoesNotMatch):
 return json_response({'message': 'Wrong credentials'}, status=400)
 
@@ -171,7 +171,7 @@ algorithms=[JWT_ALGORITHM])
 except (jwt.DecodeError, jwt.ExpiredSignatureError):
 return json_response({'message': 'Token is invalid'}, status=400)
 
-request.user = User.objects.get(id=payload['user_id'])
+request.user = User.objects.get(id=payload ['user_id'])
 return await handler(request)
 return middleware
 

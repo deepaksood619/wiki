@@ -406,7 +406,7 @@ Actionable advice:
 
 One limit is pretty straightforward: not all behaviors can be easily automated.
 
-As[Nir Eyal argues here](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/48hvh7u2o4760rhx/aHR0cHM6Ly93d3cubmlyYW5kZmFyLmNvbS9oYWJpdHMv), a lot of what we refer to as habits are simply routines. Cognitively effortful activities that require effort and attention. Thus there isn't, strictly speaking, a habit for studying a difficult topic or putting in a hard workout at the gym. Nobody ever becomes absent-minded and snaps out of it to realize they're midway through a benchpress.
+As [Nir Eyal argues here](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/48hvh7u2o4760rhx/aHR0cHM6Ly93d3cubmlyYW5kZmFyLmNvbS9oYWJpdHMv), a lot of what we refer to as habits are simply routines. Cognitively effortful activities that require effort and attention. Thus there isn't, strictly speaking, a habit for studying a difficult topic or putting in a hard workout at the gym. Nobody ever becomes absent-minded and snaps out of it to realize they're midway through a benchpress.
 
 Habits, in this stricter sense, are those behaviors that flow automatically and unconsciously from a set of prompts. Routines are behaviors we do repeatedly, but involve many deliberate actions that can't be done without some effort and thinking.
 
@@ -418,23 +418,23 @@ This leads into a second limitation of habits: they are rarely permanent.
 
 Since many habits are actually routines---mixtures of automated and deliberate action---there are few we care about that don't involve some ongoing effort to sustain.
 
-I've written before about why I think[habits are often meta-stable](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/wnh2h6uozelxrqs7/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxNS8wMy8yNS9wZXJtYW5lbnQtaGFiaXRzLw==). They can require little effort to sustain provided everything else in your life is static. Since that assumption rarely holds, there is always some effort required to reassert the routine you want.
+I've written before about why I think [habits are often meta-stable](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/wnh2h6uozelxrqs7/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxNS8wMy8yNS9wZXJtYW5lbnQtaGFiaXRzLw==). They can require little effort to sustain provided everything else in your life is static. Since that assumption rarely holds, there is always some effort required to reassert the routine you want.
 
 Exercise is a clear example. If you go to the gym every day, without fail, for an entire year, it's safe to say that it will feel quite automatic when you're done. No small part of that is simply the commitment you've made makes the exercising routine highly salient. Thus it might feel fairly easy to continue.
 
 Except you switch jobs, move houses or get injured and your schedule changes. You miss a few days, maybe even a few weeks. Certainly rebuilding is easier than exercising for the first time, but there is a non-trivial effort involved.
 
-Where this is particularly relevant is when there are multiple habits you want to sustain. Maintaining one or two good habits is fine. But if you need to maintain dozens, all which have non-zero time commitments? You may have a situation that's[untenable long-term](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/reh8h9u58gowqwu2/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMi8xMy9wcm9kdWN0aXZpdHktZ3VpbHQv).
+Where this is particularly relevant is when there are multiple habits you want to sustain. Maintaining one or two good habits is fine. But if you need to maintain dozens, all which have non-zero time commitments? You may have a situation that's [untenable long-term](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/reh8h9u58gowqwu2/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMi8xMy9wcm9kdWN0aXZpdHktZ3VpbHQv).
 
 3. **Habits Aren't Commitments**
 
 I've already spoken about the difference between habits and routines. The latter require active effort and can't be fully automated. The most you can hope for is to automate some of the aspects of setting up or getting started, that make it a little smoother.
 
-Commitments are another thing that seem similar to habits[but are quite different](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/08hwhgu783pgmztl/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOS8wMy8wOC9oYWJpdHMtdnMtY29tbWl0bWVudHMv). A commitment is a rule you've put in place for yourself. That rule might be something like, "I must exercise at least 5 times per week," or, "I don't eat desserts on weekdays."
+Commitments are another thing that seem similar to habits [but are quite different](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/08hwhgu783pgmztl/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOS8wMy8wOC9oYWJpdHMtdnMtY29tbWl0bWVudHMv). A commitment is a rule you've put in place for yourself. That rule might be something like, "I must exercise at least 5 times per week," or, "I don't eat desserts on weekdays."
 
 4. **Habits are Often Too Slow**
 
-The[habit-forming philosophy](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/8ghqh3u54m7qgkfk/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMC8xOC9ib29rLXJlY29tbWVuZGF0aW9uLWF0b21pYy1oYWJpdHMv)---that you ought to do things slowly and steadily, since positive, automatic behaviors will compound over time---has major benefits. But there are many areas where such a strategy doesn't apply.
+The [habit-forming philosophy](https://click.convertkit-mail.com/5qu6vpn5kgh7h3lq0dh6/8ghqh3u54m7qgkfk/aHR0cHM6Ly93d3cuc2NvdHRoeW91bmcuY29tL2Jsb2cvMjAxOC8xMC8xOC9ib29rLXJlY29tbWVuZGF0aW9uLWF0b21pYy1oYWJpdHMv)---that you ought to do things slowly and steadily, since positive, automatic behaviors will compound over time---has major benefits. But there are many areas where such a strategy doesn't apply.
 
 The person starting a business may only have a few months to reach profitability or they'll run out of capital. Starting a new job, going back to school, taking on a difficult project all often involve similar large upfront investments of effort that can't be smoothed down.
 

@@ -50,13 +50,13 @@ Examples
 
 ## Proxy Server
 
-In computer networks, a**proxy server**is a[server](https://en.wikipedia.org/wiki/Server_(computing))(a computer system or an application) that acts as an[intermediary](https://en.wikipedia.org/wiki/Intermediary)for requests from[clients](https://en.wikipedia.org/wiki/Client_(computing))seeking resources from other servers.A client connects to the proxy server, requesting some service, such as a file, connection,[web page](https://en.wikipedia.org/wiki/Web_page), or other resource available from a different server and the proxy server evaluates the request as a way to simplify and control its complexity.Proxies were invented to add structure and[encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking))to[distributed systems](https://en.wikipedia.org/wiki/Distributed_computing).
+In computer networks, a**proxy server**is a [server](https://en.wikipedia.org/wiki/Server_(computing))(a computer system or an application) that acts as an [intermediary](https://en.wikipedia.org/wiki/Intermediary) for requests from [clients](https://en.wikipedia.org/wiki/Client_(computing)) seeking resources from other servers.A client connects to the proxy server, requesting some service, such as a file, connection,[web page](https://en.wikipedia.org/wiki/Web_page), or other resource available from a different server and the proxy server evaluates the request as a way to simplify and control its complexity.Proxies were invented to add structure and [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) to [distributed systems](https://en.wikipedia.org/wiki/Distributed_computing).
 
 <https://en.wikipedia.org/wiki/Proxy_server>
 
 ## Web Accelerator
 
-A**web accelerator**is a[proxy server](https://en.wikipedia.org/wiki/Proxy_server)that reduces[web site](https://en.wikipedia.org/wiki/Web_site)[access time](https://en.wikipedia.org/wiki/Access_time). They can be a self-contained hardware appliance or installable software.
+A**web accelerator**is a [proxy server](https://en.wikipedia.org/wiki/Proxy_server) that reduces [web site](https://en.wikipedia.org/wiki/Web_site)[access time](https://en.wikipedia.org/wiki/Access_time). They can be a self-contained hardware appliance or installable software.
 
 Web accelerators may be installed on the client computer or mobile device, on ISP servers, on the server computer/network, or a combination. Accelerating delivery through compression requires some type of host-based server to collect, compress and then deliver content to a client computer.
 
@@ -66,18 +66,18 @@ Web accelerators may be installed on the client computer or mobile device, on IS
 
 ## Python Application Servers
 
-- [Bjoern](https://github.com/jonashaag/bjoern)describes itself as a "screamingly fast Python WSGI server" and boasts that is "the fastest, smallest and most lightweight WSGI server." We created[a small application](https://gist.github.com/omedhabib/c3c8ff74ec3993740e80d7235251e73a), using most of the library's defaults.
-- [CherryPy](http://cherrypy.org/)is an extremely popular and stable WSGI framework and server.
-- [Gunicorn](http://gunicorn.org/)was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be twice the number of available of processors, plus one. This was based on a recommendation from Gunicorn's documentation.
-- [Meinheld](http://meinheld.org/)is a "high-performance WSGI-compliant web server" that claims to be lightweight. Based on the example listed on its website, we constructed[this application](https://gist.github.com/omedhabib/d638e213af0f843580e5ca7724005ac6).
-- [mod_wsgi](http://www.modwsgi.org/)is authored by the same creator as mod_python. Like mod_python, it is only available for Apache. However, it includes a tool called "mod_wsgi express" that transparently configures a minimal instance of Apache. we configured and used mod_wsgi-express[with this command](https://gist.github.com/omedhabib/8f0e6f7d0103780d3f6f0f73108a86b2). To be consistent with Gunicorn (and in lieu of any official recommendation), we configured mod_wsgi to create twice as many workers as there are processors.
-- [uWSGI](https://uwsgi-docs.readthedocs.org/en/latest/)is a fully-featured application server. Generally, uWSGI is paired with a reverse proxy (such as Nginx).
+- [Bjoern](https://github.com/jonashaag/bjoern) describes itself as a "screamingly fast Python WSGI server" and boasts that is "the fastest, smallest and most lightweight WSGI server." We created [a small application](https://gist.github.com/omedhabib/c3c8ff74ec3993740e80d7235251e73a), using most of the library's defaults.
+- [CherryPy](http://cherrypy.org/) is an extremely popular and stable WSGI framework and server.
+- [Gunicorn](http://gunicorn.org/) was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be twice the number of available of processors, plus one. This was based on a recommendation from Gunicorn's documentation.
+- [Meinheld](http://meinheld.org/) is a "high-performance WSGI-compliant web server" that claims to be lightweight. Based on the example listed on its website, we constructed [this application](https://gist.github.com/omedhabib/d638e213af0f843580e5ca7724005ac6).
+- [mod_wsgi](http://www.modwsgi.org/) is authored by the same creator as mod_python. Like mod_python, it is only available for Apache. However, it includes a tool called "mod_wsgi express" that transparently configures a minimal instance of Apache. we configured and used mod_wsgi-express [with this command](https://gist.github.com/omedhabib/8f0e6f7d0103780d3f6f0f73108a86b2). To be consistent with Gunicorn (and in lieu of any official recommendation), we configured mod_wsgi to create twice as many workers as there are processors.
+- [uWSGI](https://uwsgi-docs.readthedocs.org/en/latest/) is a fully-featured application server. Generally, uWSGI is paired with a reverse proxy (such as Nginx).
 
 ## uWSGI
 
-uWSGIis a[software application](https://en.wikipedia.org/wiki/Software_application)that "aims at developing a full stack for building[hosting services](https://en.wikipedia.org/wiki/Hosting_services)".It is named after the[Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)(WSGI), which was the first plugin supported by the project.
+uWSGIis a [software application](https://en.wikipedia.org/wiki/Software_application) that "aims at developing a full stack for building [hosting services](https://en.wikipedia.org/wiki/Hosting_services)".It is named after the [Web Server Gateway Interface](https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface)(WSGI), which was the first plugin supported by the project.
 
-uWSGI is often used for serving[Python](https://en.wikipedia.org/wiki/Python_(programming_language))[web applications](https://en.wikipedia.org/wiki/Web_applications)in conjunction with[web servers](https://en.wikipedia.org/wiki/Web_server)such as[Cherokee](https://en.wikipedia.org/wiki/Cherokee_(web_server))and[Nginx](https://en.wikipedia.org/wiki/Nginx), which offer direct support for uWSGI's native uwsgi protocol.
+uWSGI is often used for serving [Python](https://en.wikipedia.org/wiki/Python_(programming_language))[web applications](https://en.wikipedia.org/wiki/Web_applications) in conjunction with [web servers](https://en.wikipedia.org/wiki/Web_server) such as [Cherokee](https://en.wikipedia.org/wiki/Cherokee_(web_server)) and [Nginx](https://en.wikipedia.org/wiki/Nginx), which offer direct support for uWSGI's native uwsgi protocol.
 
 The uWSGI project aims at developing a full stack for building hosting services.
 
@@ -108,7 +108,7 @@ Between the server and the application, there may be one or more WSGI middleware
 
 - WSGI servers are designed to handle many requests concurrently. Frameworks are not made to process thousands of requests and determine how to best route them from the server.
 - WSGI speeds up Python web application development because you only need to know basic things about WSGI. If you use TurboGears, Django or CherryPy, you do not need to be concerned about how your particular framework utilizes the WSGI standard. However, you will benefit by understanding how WSGI is implemented.
-- WSGI gives you the[flexibility of changing](https://www.python.org/dev/peps/pep-0333/#rationale-and-goals)web stack components for alternatives without changing the application that runs with WSGI.
+- WSGI gives you the [flexibility of changing](https://www.python.org/dev/peps/pep-0333/#rationale-and-goals) web stack components for alternatives without changing the application that runs with WSGI.
 
 ## ASGI (Asynchronous Server Gateway Interface)
 
@@ -188,7 +188,7 @@ Because Apache was designed from the ground up as a web server, the default is u
 
 Apache provides a number of alternatives for when the request does not match the underlying filesystem. For instance, anAliasdirective can be used to map to an alternative location. Using<Location>blocks is a method of working with the URI itself instead of the filesystem. There are also regular expression variants which can be used to apply configuration more flexibly throughout the filesystem.
 
-While Apache has the ability to operate on both the underlying filesystem and the webspace, it leans heavily towards filesystem methods. This can be seen in some of the design decisions, including the use of.htaccessfiles for per-directory configuration. The[Apache docs](http://httpd.apache.org/docs/2.4/sections.html#whichwhen)themselves warn against using URI-based blocks to restrict access when the request mirrors the underlying filesystem.
+While Apache has the ability to operate on both the underlying filesystem and the webspace, it leans heavily towards filesystem methods. This can be seen in some of the design decisions, including the use of.htaccessfiles for per-directory configuration. The [Apache docs](http://httpd.apache.org/docs/2.4/sections.html#whichwhen) themselves warn against using URI-based blocks to restrict access when the request mirrors the underlying filesystem.
 
 ## Nginx
 

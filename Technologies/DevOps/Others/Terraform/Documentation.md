@@ -38,9 +38,9 @@ If new resource does not depend on any other resource, it can be created in para
 
 provisioners to initialize instances when they're created.
 
-If you're using an image-based infrastructure (perhaps with images created with[Packer](https://www.packer.io/)), then what you've learned so far is good enough. But if you need to do some initial setup on your instances, then provisioners let you upload files, run shell scripts, or install and trigger other software like configuration management tools, etc.
+If you're using an image-based infrastructure (perhaps with images created with [Packer](https://www.packer.io/)), then what you've learned so far is good enough. But if you need to do some initial setup on your instances, then provisioners let you upload files, run shell scripts, or install and trigger other software like configuration management tools, etc.
 
-This adds aprovisionerblock within theresourceblock. Multipleprovisionerblocks can be added to define multiple provisioning steps. Terraform supports[multiple provisioners](https://www.terraform.io/docs/provisioners/index.html), but for this example we are using thelocal-execprovisioner.
+This adds aprovisionerblock within theresourceblock. Multipleprovisionerblocks can be added to define multiple provisioning steps. Terraform supports [multiple provisioners](https://www.terraform.io/docs/provisioners/index.html), but for this example we are using thelocal-execprovisioner.
 
 ## local-exec
 
@@ -72,4 +72,4 @@ Modulesin Terraform are self-contained packages of Terraform configurations that
 
 ## Remote Backend
 
-Terraform supports team-based workflows with a feature known as[remote backends](https://www.terraform.io/docs/backends/index.html). Remote backends allow Terraform to use a shared storage space for state data, so any member of your team can use Terraform to manage the same infrastructure.
+Terraform supports team-based workflows with a feature known as [remote backends](https://www.terraform.io/docs/backends/index.html). Remote backends allow Terraform to use a shared storage space for state data, so any member of your team can use Terraform to manage the same infrastructure.

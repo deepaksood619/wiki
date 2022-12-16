@@ -65,13 +65,13 @@ Mosquitto MQTT Broker
 
 ## Service
 
-A[Service](https://developer.android.com/reference/android/app/Service)is an[application component](https://developer.android.com/guide/components/fundamentals#Components)that can perform long-running operations in the background. It does not provide a user interface. Once started, a service might continue running for some time, even after the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service can handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.
+A [Service](https://developer.android.com/reference/android/app/Service) is an [application component](https://developer.android.com/guide/components/fundamentals#Components) that can perform long-running operations in the background. It does not provide a user interface. Once started, a service might continue running for some time, even after the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service can handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.
 
 ## Types of services
 
 - **Foreground**
 
-A foreground service performs some operation that is noticeable to the user. For example, an audio app would use a foreground service to play an audio track. Foreground services must display a[Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications). Foreground services continue running even when the user isn't interacting with the app.
+A foreground service performs some operation that is noticeable to the user. For example, an audio app would use a foreground service to play an audio track. Foreground services must display a [Notification](https://developer.android.com/guide/topics/ui/notifiers/notifications). Foreground services continue running even when the user isn't interacting with the app.
 
 When you use a foreground service, you must display a notification so that users are actively aware that the service is running. This notification cannot be dismissed unless the service is either stopped or removed from the foreground.
 
@@ -81,7 +81,7 @@ A background service performs an operation that isn't directly noticed by the us
 
 - **Bound**
 
-A service is*bound*when an application component binds to it by calling[bindService()](https://developer.android.com/reference/android/content/Context#bindService(android.content.Intent,%20android.content.ServiceConnection,%20int)). A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results, and even do so across processes with interprocess communication (IPC). A bound service runs only as long as another application component is bound to it. Multiple components can bind to the service at once, but when all of them unbind, the service is destroyed.
+A service is*bound*when an application component binds to it by calling [bindService()](https://developer.android.com/reference/android/content/Context#bindService(android.content.Intent,%20android.content.ServiceConnection,%20int)). A bound service offers a client-server interface that allows components to interact with the service, send requests, receive results, and even do so across processes with interprocess communication (IPC). A bound service runs only as long as another application component is bound to it. Multiple components can bind to the service at once, but when all of them unbind, the service is destroyed.
 
 <https://developer.android.com/guide/components/services>
 
@@ -198,7 +198,7 @@ Crashlytics.log(int priority, String tag, String msg);
   - Hamcrest is a framework for writing matcher objects allowing 'match' rules to be defined declaratively.
   - Monkey / Monkey Runner
   - Android Testing Support Library
-  - **Test Lab runs[Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)and[UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator)tests on Android apps, and[XCTest](https://developer.apple.com/documentation/xctest)tests on iOS apps.**
+  - **Test Lab runs [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html) and [UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator) tests on Android apps, and [XCTest](https://developer.apple.com/documentation/xctest) tests on iOS apps.**
   - **RoboTest (easiest)**
 
 <https://firebase.google.com/docs/test-lab/android/robo-ux-test>
@@ -373,11 +373,11 @@ The broadcast receiver communicates with the operation system messages such as "
 
 ## RoboElectric
 
-[Robolectric](http://robolectric.org/)is an Android unit testing framework that allows you to run tests inside the JVM on your development workstation. Robolectric rewrites Android SDK classes as they're being loaded and makes it possible for them to run on a regular JVM, resulting in fast test times. Furthermore, it handles inflation of views, resource loading, and more stuff that's implemented in native C code on Android devices, making the need for emulators and physical devices to run automated tests obsolete.
+[Robolectric](http://robolectric.org/) is an Android unit testing framework that allows you to run tests inside the JVM on your development workstation. Robolectric rewrites Android SDK classes as they're being loaded and makes it possible for them to run on a regular JVM, resulting in fast test times. Furthermore, it handles inflation of views, resource loading, and more stuff that's implemented in native C code on Android devices, making the need for emulators and physical devices to run automated tests obsolete.
 
 ## Mockito
 
-[Mockito](https://code.google.com/p/mockito/)is a mocking framework that enables us to write clean tests in java. It simplifies the process of creating test doubles (mocks), which are used to replace the original dependencies of a component/module used in production. A StackOverflow answer discusses[about the differences between mocks and stubs](http://stackoverflow.com/a/346440/2018294)in fairly simple terms that you can read to learn more.
+[Mockito](https://code.google.com/p/mockito/) is a mocking framework that enables us to write clean tests in java. It simplifies the process of creating test doubles (mocks), which are used to replace the original dependencies of a component/module used in production. A StackOverflow answer discusses [about the differences between mocks and stubs](http://stackoverflow.com/a/346440/2018294) in fairly simple terms that you can read to learn more.
 
 // you can mock concrete classes, not only interfaces
 LinkedList mockedList = mock(LinkedList.class);

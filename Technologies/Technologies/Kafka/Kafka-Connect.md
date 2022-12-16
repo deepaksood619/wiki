@@ -90,7 +90,7 @@ Connect typically runs in distributed mode and can be managed through REST APIs.
 - Landoop mqtt source connector
 - Confluent mqtt source connector
 
-The connector requires a[Confluent enterprise license](https://www.confluent.io/product/confluent-enterprise/), which is stored inside Kafka in a topic. The connector must be configured with Kafka client configuration properties so that it can connect to Kafka and validate the license.
+The connector requires a [Confluent enterprise license](https://www.confluent.io/product/confluent-enterprise/), which is stored inside Kafka in a topic. The connector must be configured with Kafka client configuration properties so that it can connect to Kafka and validate the license.
 
 - Evokly open source mqtt connector
 

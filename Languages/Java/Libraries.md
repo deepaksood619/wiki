@@ -25,7 +25,7 @@ Quarkus tailors your application for GraalVM and HotSpot. Amazingly fast boot ti
 Quarkus is a Cloud Native, (Linux) Container First framework for writing Java applications.
 
 - Container First: Minimal footprint Java applications optimal for running in containers
-- Cloud Native: Embraces[12 factor architecture](https://12factor.net/)in environments like Kubernetes.
+- Cloud Native: Embraces [12 factor architecture](https://12factor.net/) in environments like Kubernetes.
 - Unify imperative and reactive: Brings under one programming model non blocking and imperative styles of development.
 - Standards-based: Based on the standards and frameworks you love and use (RESTEasy and JAX-RS, Hibernate ORM and JPA, Netty, Eclipse Vert.x, Eclipse MicroProfile, Apache Camel...)
 - Microservice First: Brings lightning fast startup time and code turn around to Java apps

@@ -36,9 +36,9 @@ Intractable - hard to control or deal with (difficult or stubborn)
 
 ## ILP - Integer Linear Programming
 
-Aninteger programmingproblem is a[mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)or[feasibility](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)program in which some or all of the variables are restricted to be[integers](https://en.wikipedia.org/wiki/Integer). In many settings the term refers tointeger[linear programming](https://en.wikipedia.org/wiki/Linear_programming)(ILP), in which the objective function and the constraints (other than the integer constraints) are[linear](https://en.wikipedia.org/wiki/Linear_function_(calculus)).
+Aninteger programmingproblem is a [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization) or [feasibility](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem) program in which some or all of the variables are restricted to be [integers](https://en.wikipedia.org/wiki/Integer). In many settings the term refers tointeger [linear programming](https://en.wikipedia.org/wiki/Linear_programming)(ILP), in which the objective function and the constraints (other than the integer constraints) are [linear](https://en.wikipedia.org/wiki/Linear_function_(calculus)).
 
-Integer programming is[NP-complete](https://en.wikipedia.org/wiki/NP-complete). In particular, the special case of 0-1 integer linear programming, in which unknowns are binary, and only the restrictions must be satisfied, is one of[Karp's 21 NP-complete problems](https://en.wikipedia.org/wiki/Karp%27s_21_NP-complete_problems).
+Integer programming is [NP-complete](https://en.wikipedia.org/wiki/NP-complete). In particular, the special case of 0-1 integer linear programming, in which unknowns are binary, and only the restrictions must be satisfied, is one of [Karp's 21 NP-complete problems](https://en.wikipedia.org/wiki/Karp%27s_21_NP-complete_problems).
 
 If some decision variables are not discrete the problem is known as amixed-integer programmingproblem.
 
@@ -108,9 +108,9 @@ NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of t
 
 ## Cook - Levin Theorem
 
-In[computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), the**Cook--Levin theorem**, also known as**Cook's theorem**, states that the[Boolean satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem)is[NP-complete](https://en.wikipedia.org/wiki/NP-completeness). That is, any problem in[NP](https://en.wikipedia.org/wiki/NP_(complexity))can be[reduced](https://en.wikipedia.org/wiki/Reduction_(complexity))in polynomial time by a[deterministic Turing machine](https://en.wikipedia.org/wiki/Deterministic_Turing_machine)to the problem of determining whether a Boolean formula is satisfiable.
+In [computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory), the**Cook--Levin theorem**, also known as**Cook's theorem**, states that the [Boolean satisfiability problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem) is [NP-complete](https://en.wikipedia.org/wiki/NP-completeness). That is, any problem in [NP](https://en.wikipedia.org/wiki/NP_(complexity)) can be [reduced](https://en.wikipedia.org/wiki/Reduction_(complexity)) in polynomial time by a [deterministic Turing machine](https://en.wikipedia.org/wiki/Deterministic_Turing_machine) to the problem of determining whether a Boolean formula is satisfiable.
 
-An important consequence of this theorem is that if there exists a deterministic polynomial time algorithm for solving Boolean satisfiability, then every[NP](https://en.wikipedia.org/wiki/NP_(complexity))problem can be solved by a deterministic polynomial time algorithm.
+An important consequence of this theorem is that if there exists a deterministic polynomial time algorithm for solving Boolean satisfiability, then every [NP](https://en.wikipedia.org/wiki/NP_(complexity)) problem can be solved by a deterministic polynomial time algorithm.
 
 ![image](media/Intractability-image35.png)
 

@@ -50,9 +50,9 @@ Firebase Cloud Messaging (FCM) is a cross-platform messaging solution that lets 
 
 ## Message delivery reports
 
-You can evaluate whether the messages you send reach your users. In the[Reports](https://console.firebase.google.com/project/_/notification/reporting?authuser=1)tab in the Firebase console, you can view the following data for messages sent to Android or iOS FCM SDKs, including those sent via the Notifications composer and the FCM APIs:
+You can evaluate whether the messages you send reach your users. In the [Reports](https://console.firebase.google.com/project/_/notification/reporting?authuser=1) tab in the Firebase console, you can view the following data for messages sent to Android or iOS FCM SDKs, including those sent via the Notifications composer and the FCM APIs:
 
-- **Sends ---** The data message or notification message has been enqueued for delivery or has been successfully passed to a third-party service like APNs for delivery. See[lifetime of a message](https://firebase.google.com/docs/cloud-messaging/concept-options?authuser=1#lifetime)for more information.
+- **Sends ---** The data message or notification message has been enqueued for delivery or has been successfully passed to a third-party service like APNs for delivery. See [lifetime of a message](https://firebase.google.com/docs/cloud-messaging/concept-options?authuser=1#lifetime) for more information.
 - **Received (available only on Android devices) ---** The data message or notification message has been received by the app. This data is available when the receiving Android device has FCM SDK 18.0.1 or higher installed.
 - **Impressions (available only for notification messages on Android devices) ---** The display notification has been displayed on the device while the app is in the background.
 - **Opens ---** The user opened the notification message. Reported only for notifications received when the app is in the background.
@@ -75,7 +75,7 @@ A built-in Notifications funnel analysis shows you how your users respond to par
 
 Firebase Test Lab is a cloud-based app-testing infrastructure. With one operation, you can test your Android or iOS app across a wide variety of devices and device configurations, and see the results---including logs, videos, and screenshots---in the Firebase console.
 
-Test Lab runs[Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html)and[UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator)tests on Android apps, and[XCTest](https://developer.apple.com/documentation/xctest)tests on iOS apps.
+Test Lab runs [Espresso](https://developer.android.com/training/testing/ui-testing/espresso-testing.html) and [UI Automator 2.0](http://developer.android.com/tools/testing-support-library/index.html#UIAutomator) tests on Android apps, and [XCTest](https://developer.apple.com/documentation/xctest) tests on iOS apps.
 
 RoboTest
 

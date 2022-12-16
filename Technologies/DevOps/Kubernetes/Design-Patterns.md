@@ -46,7 +46,7 @@ The idea for a sidecar container is to add some functionality not present in the
 
 This type of secondary container would be used to communicate with outside resources, often outside the cluster. Using a proxy, like Envoy or other, you can embed a proxy instead of using one provided by the cluster. It is helpful if you are unsure of the cluster configuration.
 
-[Ambassador](https://www.getambassador.io/)is,"an open source, Kubernetes-native API gateway for microservices built on Envoy".
+[Ambassador](https://www.getambassador.io/) is,"an open source, Kubernetes-native API gateway for microservices built on Envoy".
 
 It allows for access to the outside world without having to implement a service or another entry in an ingress controller: proxy local connection, reverse proxy, limits HTTP requests, re-route from the main container to the outside world.
 

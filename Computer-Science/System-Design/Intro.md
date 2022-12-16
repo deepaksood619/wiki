@@ -6,7 +6,7 @@ Modified: 2022-12-09 23:46:56 +0500
 
 ---
 
-## Systems designis the process of defining the[architecture](https://en.wikipedia.org/wiki/Systems_architecture), modules, interfaces, and[data](https://en.wikipedia.org/wiki/Data)for a[system](https://en.wikipedia.org/wiki/System)to satisfy specified[requirements](https://en.wikipedia.org/wiki/Requirement). Systems design could be seen as the application of[systems theory](https://en.wikipedia.org/wiki/Systems_theory)to[product development](https://en.wikipedia.org/wiki/Product_development). There is some overlap with the disciplines of[systems analysis](https://en.wikipedia.org/wiki/Systems_analysis),[systems architecture](https://en.wikipedia.org/wiki/Systems_architecture)and[systems engineering](https://en.wikipedia.org/wiki/Systems_engineering)
+## Systems designis the process of defining the [architecture](https://en.wikipedia.org/wiki/Systems_architecture), modules, interfaces, and [data](https://en.wikipedia.org/wiki/Data) for a [system](https://en.wikipedia.org/wiki/System) to satisfy specified [requirements](https://en.wikipedia.org/wiki/Requirement). Systems design could be seen as the application of [systems theory](https://en.wikipedia.org/wiki/Systems_theory) to [product development](https://en.wikipedia.org/wiki/Product_development). There is some overlap with the disciplines of [systems analysis](https://en.wikipedia.org/wiki/Systems_analysis),[systems architecture](https://en.wikipedia.org/wiki/Systems_architecture) and [systems engineering](https://en.wikipedia.org/wiki/Systems_engineering)
 
 Inversion Of Control
 
@@ -132,7 +132,7 @@ Containers - is a way of running your applications and its dependencies in an is
     -   Publish-subscribe is a *broadcast communication model* - a message is broadcast to all the consumers.
 8.  Thin clients, Thick clients, Dumb clients, Smart client
 
-Kafka clients tend to be "thick" and have a lot of complexity. That is, they do a lot because the broker is designed to be simple. That's my guess as to why there are so few native client libraries up to par with the Java client. NATS Streaming clients, on the other hand, are relatively "thin" because the server does more. We end up just pushing the complexity around based on our design decisions, but one can argue that the[smart client and dumb server](https://bravenewgeek.com/smart-endpoints-dumb-pipes/)is a more scalable approach.
+Kafka clients tend to be "thick" and have a lot of complexity. That is, they do a lot because the broker is designed to be simple. That's my guess as to why there are so few native client libraries up to par with the Java client. NATS Streaming clients, on the other hand, are relatively "thin" because the server does more. We end up just pushing the complexity around based on our design decisions, but one can argue that the [smart client and dumb server](https://bravenewgeek.com/smart-endpoints-dumb-pipes/) is a more scalable approach.
 [System Design](https://www.youtube.com/playlist?list=PLkQkbY7JNJuBoTemzQfjym0sqbOHt5fnV)
 
 ## ADR - Architecture Design Record

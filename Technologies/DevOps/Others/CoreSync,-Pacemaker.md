@@ -12,7 +12,7 @@ Corosync is an open source program that provides cluster membership and messagin
 
 ## HA Multi-Node PostgreSQL Cluster
 
-Building a highly avialable multi-node PostgreSQL cluster, using freely available software including[Pacemaker](http://clusterlabs.org/),[Corsync](http://corosync.github.io/corosync/),[Cman](http://www.sourceware.org/cluster/cman/)and[PostgresSQL](http://www.postgresql.org/)on[CentOS](http://www.centos.org/)
+Building a highly avialable multi-node PostgreSQL cluster, using freely available software including [Pacemaker](http://clusterlabs.org/),[Corsync](http://corosync.github.io/corosync/),[Cman](http://www.sourceware.org/cluster/cman/) and [PostgresSQL](http://www.postgresql.org/) on [CentOS](http://www.centos.org/)
 
 ## Infrastructure
 

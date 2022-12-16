@@ -31,7 +31,7 @@ The module covers various options strategies that can be built with a multi-dime
 
 ## Stock Option
 
-A[stock option](http://personal.fidelity.com/products/stockoptions/exercise.shtml)is a privilege giving its holder the right to purchase a particular stock at a price agreed upon by the assignor and the holder (called the "grant price") within a specified time. Note that a stock option is a right, not an obligation, to purchase the stock, meaning that the option holder may choose to not exercise the option.
+A [stock option](http://personal.fidelity.com/products/stockoptions/exercise.shtml) is a privilege giving its holder the right to purchase a particular stock at a price agreed upon by the assignor and the holder (called the "grant price") within a specified time. Note that a stock option is a right, not an obligation, to purchase the stock, meaning that the option holder may choose to not exercise the option.
 
 ## What Does It Mean to Exercise a Stock Option?
 
@@ -53,17 +53,17 @@ American Options can be exercised anytime before expiry. European Options (which
 
 ## Types of Stock Options
 
-The[IRS](https://www.irs.gov/taxtopics/tc427.html)recognizes two types of stock options: statutory and non-statutory. Options granted through an[employee stock purchase plan](https://www.upcounsel.com/employee-stock-purchase-plan)or[incentive stock option (ISO)](https://www.upcounsel.com/incentive-stock-options)plan are considered statutory stock options. Options not granted through employee stock purchase plans or ISO's are considered non-statutory stock options.
+The [IRS](https://www.irs.gov/taxtopics/tc427.html) recognizes two types of stock options: statutory and non-statutory. Options granted through an [employee stock purchase plan](https://www.upcounsel.com/employee-stock-purchase-plan) or [incentive stock option (ISO)](https://www.upcounsel.com/incentive-stock-options) plan are considered statutory stock options. Options not granted through employee stock purchase plans or ISO's are considered non-statutory stock options.
 
 ## What are Options: Calls and Puts?
 
 An option is a derivative, a contract that gives the buyer the right, but not the obligation, to buy or sell the underlying asset by a certain date (expiration date) at a specified price ([strike price](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/strike-price/)). There are two types of options: calls and puts. American-style options can be exercised at any time prior to their expiration. European-style options can only be exercised on the expiration date.
 
-To enter into an option contract, the buyer must pay an option[premium](https://corporatefinanceinstitute.com/resources/knowledge/finance/market-risk-premium/). The two most common types of options are calls and puts:
+To enter into an option contract, the buyer must pay an option [premium](https://corporatefinanceinstitute.com/resources/knowledge/finance/market-risk-premium/). The two most common types of options are calls and puts:
 
 1. **Call options (right to buy)**
 
-Calls give the buyer the right, but not the obligation, to buy the underlying[asset](https://corporatefinanceinstitute.com/resources/knowledge/finance/marketable-securities/)at the strike price specified in the option contract. Investors buy calls when they believe the price of the underlying asset will increase and sell calls if they believe it will decrease.
+Calls give the buyer the right, but not the obligation, to buy the underlying [asset](https://corporatefinanceinstitute.com/resources/knowledge/finance/marketable-securities/) at the strike price specified in the option contract. Investors buy calls when they believe the price of the underlying asset will increase and sell calls if they believe it will decrease.
 
 ![image](media/Market-Terms_Futures---Options---Trading-image1.jpeg)
 
@@ -79,7 +79,7 @@ Puts give the buyer the right, but not the obligation, to sell the underlying as
 
 The buyer of a call option pays the option premium in full at the time of entering the contract. Afterward, the buyer enjoys a potential profit should the market move in his favor. There is no possibility of the option generating any further loss beyond the purchase price. This is one of the most attractive features of buying options. For a limited investment, the buyer secures unlimited profit potential with a known and strictly limited potential loss.
 
-If the[spot price](http://lexicon.ft.com/Term?term=spot-market)of the underlying asset does not rise above the option strike price prior to the option's expiration, then the investor loses the amount they paid for the option. However, if the price of the underlying asset does exceed the strike price, then the call buyer makes a profit. The amount of profit is the difference between the market price and the option's strike price, multiplied by the incremental value of the underlying asset, minus the price paid for the option.
+If the [spot price](http://lexicon.ft.com/Term?term=spot-market) of the underlying asset does not rise above the option strike price prior to the option's expiration, then the investor loses the amount they paid for the option. However, if the price of the underlying asset does exceed the strike price, then the call buyer makes a profit. The amount of profit is the difference between the market price and the option's strike price, multiplied by the incremental value of the underlying asset, minus the price paid for the option.
 
 For example,a stock option isfor 100 shares of the underlying stock. Assume a trader buys one call option contract on ABC stock with a strike price of $25. He pays $150 for the option. On the option's expiration date, ABC stock shares are selling for $35. The buyer/holder of the option exercises his right to purchase 100 shares of ABC at $25 a share (the option's strike price). He immediately sells the shares at the current market price of $35 per share.
 
@@ -111,7 +111,7 @@ Options: calls and puts are primarily used by investors to hedge against risks i
 
 If an investor believes that certain stocks in their portfolio may drop in price but they do not wish to abandontheir position for the long term, they can buy put options on the stock. If the stock does decline in price, then profits in the put options will offset losses in the actual stock.
 
-Investors commonly implement such a strategy during periods of uncertainty, such as[earnings season](https://corporatefinanceinstitute.com/resources/knowledge/finance/earnings-season/). They may buy puts on particular stocks in their portfolio or buy index puts to protect a well-diversified portfolio.[Mutual fund](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/mutual-funds/)managers often use puts to limit the fund's downside risk exposure.
+Investors commonly implement such a strategy during periods of uncertainty, such as [earnings season](https://corporatefinanceinstitute.com/resources/knowledge/finance/earnings-season/). They may buy puts on particular stocks in their portfolio or buy index puts to protect a well-diversified portfolio.[Mutual fund](https://corporatefinanceinstitute.com/resources/knowledge/trading-investing/mutual-funds/) managers often use puts to limit the fund's downside risk exposure.
 
 ## Speculation -- Buy calls or sell puts
 
@@ -173,7 +173,7 @@ Option Delta = Rate of change in premium wrt Underlying
 
 ## Margins
 
-## SPAN (Standard Portfolio Analysis of risk)is a popular system developed by CME (Chicago Mercantile Exchange) used to calculate risk and margins for F&O portfolios adopted by many exchanges worldwide. When launched in 2000, the SPAN margin was collected to cover for the worst possible movement in the contract for a single day (called MPOR or minimum Margin Period of Risk). This worst possible scenario is calculated using the Price Scan Range (PSR) of the underlying index or stock. PSR is calculated using the daily volatility of the underlying. Back in 2000, it was set at 3[standard deviations](https://en.wikipedia.org/wiki/Standard_deviation)of the daily volatility for index contracts and 3.5 standard deviations for stocks
+## SPAN (Standard Portfolio Analysis of risk)is a popular system developed by CME (Chicago Mercantile Exchange) used to calculate risk and margins for F&O portfolios adopted by many exchanges worldwide. When launched in 2000, the SPAN margin was collected to cover for the worst possible movement in the contract for a single day (called MPOR or minimum Margin Period of Risk). This worst possible scenario is calculated using the Price Scan Range (PSR) of the underlying index or stock. PSR is calculated using the daily volatility of the underlying. Back in 2000, it was set at 3 [standard deviations](https://en.wikipedia.org/wiki/Standard_deviation) of the daily volatility for index contracts and 3.5 standard deviations for stocks
 
 ## Exposuremarginsare charged over and above SPAN margins to cover for risks that the SPAN margin may not cover. When F&O was introduced in India, this was set to 3% of the contract value for index and 5% (or 1.5 standard deviation, whichever is higher) for stock F&O
 
@@ -194,18 +194,18 @@ A "put" or put option is a right to sell an asset at a predetermined price. A "c
 
 ## Exercising Put and Call Options
 
-An options holder may exercise his or her right to buy or sell the contract's underlying shares at a specified price---also called the[strike price](https://www.investopedia.com/video/play/strike-price/).
+An options holder may exercise his or her right to buy or sell the contract's underlying shares at a specified price---also called the [strike price](https://www.investopedia.com/video/play/strike-price/).
 
-- Exercising a[put option](https://www.investopedia.com/terms/p/putoption.asp)allows you tosellthe underlying security at a stated price within a specific timeframe.
-- Exercising a[call option](https://www.investopedia.com/terms/c/calloption.asp)allows you tobuythe underlying security at a stated price within a specific timeframe.
+- Exercising a [put option](https://www.investopedia.com/terms/p/putoption.asp) allows you tosellthe underlying security at a stated price within a specific timeframe.
+- Exercising a [call option](https://www.investopedia.com/terms/c/calloption.asp) allows you tobuythe underlying security at a stated price within a specific timeframe.
 
 <https://www.upcounsel.com/exercise-stock-options>
 
 ## Option Chain
 
-An options chain, also known as an option matrix, is a listing of all available[options](https://www.investopedia.com/terms/o/option.asp)contracts for a given security. It shows all listed[puts](https://www.investopedia.com/terms/p/put.asp), calls, their expiration, strike prices,and volume and pricing information for a single underlying asset within a given maturity period. The chain will typically be categorized by expiration date and segmented by calls vs. puts.
+An options chain, also known as an option matrix, is a listing of all available [options](https://www.investopedia.com/terms/o/option.asp) contracts for a given security. It shows all listed [puts](https://www.investopedia.com/terms/p/put.asp), calls, their expiration, strike prices,and volume and pricing information for a single underlying asset within a given maturity period. The chain will typically be categorized by expiration date and segmented by calls vs. puts.
 
-An options chain provides detailed quote and price information and should not be confused with an[options series](https://www.investopedia.com/terms/o/optionseries.asp)or cycle, which instead simply denotes the available[strike prices](https://www.investopedia.com/terms/s/strikeprice.asp)or expiration dates.
+An options chain provides detailed quote and price information and should not be confused with an [options series](https://www.investopedia.com/terms/o/optionseries.asp) or cycle, which instead simply denotes the available [strike prices](https://www.investopedia.com/terms/s/strikeprice.asp) or expiration dates.
 
 - An options chain is a table displaying options quotes for a particular underlying security.
 - The options chain matrix is updated in real-time showing the last price, trading volume, and best bid and offer for the calls and puts of an options series, typically segmented by expiration date.
@@ -217,11 +217,11 @@ An options chain provides detailed quote and price information and should not be
 
 ## Daily Trading Volume
 
-[Trading volume](https://www.investopedia.com/articles/technical/02/010702.asp)is the number of shares or contracts traded in a given period. When looking at the option's underlying stock, the volume can giveyou insight into the strength of the currentprice movement. Trading volume in options, just like in stocks, is an[indicator](https://www.investopedia.com/terms/i/indicator.asp)of the current interest.
+[Trading volume](https://www.investopedia.com/articles/technical/02/010702.asp) is the number of shares or contracts traded in a given period. When looking at the option's underlying stock, the volume can giveyou insight into the strength of the currentprice movement. Trading volume in options, just like in stocks, is an [indicator](https://www.investopedia.com/terms/i/indicator.asp) of the current interest.
 
 ## Open Interest
 
-[Open interest](https://www.investopedia.com/articles/technical/02/112002.asp)is the number of active contracts. It's one of the data fields on most option quote displays, along with[bid price](https://www.investopedia.com/terms/b/bidprice.asp),[ask price](https://www.investopedia.com/terms/a/ask.asp), volume, and[implied volatility](https://www.investopedia.com/terms/i/iv.asp). Yet, many options traders ignore active contracts, which can lead to unforeseen consequences.
+[Open interest](https://www.investopedia.com/articles/technical/02/112002.asp) is the number of active contracts. It's one of the data fields on most option quote displays, along with [bid price](https://www.investopedia.com/terms/b/bidprice.asp),[ask price](https://www.investopedia.com/terms/a/ask.asp), volume, and [implied volatility](https://www.investopedia.com/terms/i/iv.asp). Yet, many options traders ignore active contracts, which can lead to unforeseen consequences.
 
 <https://www.investopedia.com/trading/options-trading-volume-and-open-interest>
 

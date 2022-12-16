@@ -79,7 +79,7 @@ The notion of triggers and actions are leveraged to process incoming events. An 
 
 ![(spelpueH 38 罒 ](../../media/Technologies-Others-Others---IoT-image3.png)
 
-- **App = Trigger(s) + Actions[&Activities]**
+- **App = Trigger(s) + Actions [&Activities]**
 - **Triggers**
   - receive data from external sources
   - are managed by a configurable threading model
@@ -124,7 +124,7 @@ Silo is an open source tool to archive MQTT messages. It supports MySQL, Postgre
 
 ## Hawkbit
 
-Eclipse[hawkBit](http://www.eclipse.org/hawkbit/index.html)is an domain independent back end solution for rolling out software updates to constrained edge devices as well as more powerful controllers and gateways connected to IP based networking infrastructure.
+Eclipse [hawkBit](http://www.eclipse.org/hawkbit/index.html) is an domain independent back end solution for rolling out software updates to constrained edge devices as well as more powerful controllers and gateways connected to IP based networking infrastructure.
 
 hawkBit is device and communication channel neutral by means of supporting
 

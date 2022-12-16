@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "Regular-Expressions---Regex",
+      "path": "Languages/Others/Regular-Expressions---Regex.md"
+    },
+    {
+      "basename": "product-terms-tools",
+      "path": "Knowledge/Management/Product-Management/product-terms-tools.md"
+    },
+    {
+      "basename": "Others",
+      "path": "Technologies/Technologies/Others/Others.md"
+    },
+    {
+      "basename": "Others---SAAS",
+      "path": "Technologies/Cloud/Others/Others---SAAS.md"
+    },
+    {
+      "basename": "Intro",
+      "path": "Computer-Science/Testing/Intro.md"
+    },
+    {
+      "basename": "Concurrency---Threading",
+      "path": "Computer-Science/Operating-System/Concurrency---Threading.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Office/Projects/Projects.md"
+    },
+    {
+      "basename": "Tech-Stack---Infra",
+      "path": "Office/Stashfin/Tech-Stack---Infra.md"
+    },
+    {
+      "basename": "stashfin-infra.drawio",
+      "path": "Office/Stashfin/media/stashfin-infra.drawio.png"
+    },
+    {
+      "basename": "Interviews",
+      "path": "Office/Personality/Interviews.md"
+    },
+    {
+      "basename": "Resumes---Jobs---Companies---Company",
+      "path": "Office/Personality/Resumes---Jobs---Companies---Company.md"
+    },
+    {
+      "basename": "Questions-to-company",
+      "path": "Office/Personality/Questions-to-company.md"
+    },
+    {
+      "basename": "Domain-Driven-Design",
+      "path": "Computer-Science/System-Design/Microservice-Architecture/Domain-Driven-Design.md"
+    },
+    {
+      "basename": "Internal-Tech",
+      "path": "Office/Credentials/Internal-Tech.md"
+    },
+    {
+      "basename": "Coursera---PM",
+      "path": "Knowledge/Management/Product-Management/Coursera---PM.md"
+    },
+    {
       "basename": "Regular-Expressions",
       "path": "Languages/Python/Python/Regular-Expressions.md"
     },
@@ -109,14 +169,6 @@
       "path": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
     },
     {
-      "basename": "Internal-Tech",
-      "path": "Office/Credentials/Internal-Tech.md"
-    },
-    {
-      "basename": "Regular-Expressions---Regex",
-      "path": "Languages/Others/Regular-Expressions---Regex.md"
-    },
-    {
       "basename": "Business",
       "path": "Office/Credentials/Business.md"
     },
@@ -127,10 +179,6 @@
     {
       "basename": "NLP",
       "path": "AI/Deep-Learning/NLP.md"
-    },
-    {
-      "basename": "Resumes---Jobs---Companies---Company",
-      "path": "Office/Personality/Resumes---Jobs---Companies---Company.md"
     },
     {
       "basename": "Personal-TODO",
@@ -151,54 +199,6 @@
     {
       "basename": "LSM-(Log-Structured-Merge-Trees)",
       "path": "Data-Structures/Others/LSM-(Log-Structured-Merge-Trees).md"
-    },
-    {
-      "basename": "CAP-Theorem",
-      "path": "Computer-Science/Distributed-System/CAP-Theorem.md"
-    },
-    {
-      "basename": "Coding-Interview-Questions",
-      "path": "Computer-Science/Interview-Question/Coding-Interview-Questions.md"
-    },
-    {
-      "basename": "Type-Systems",
-      "path": "Computer-Science/Programming-Concepts/Type-Systems.md"
-    },
-    {
-      "basename": "Redshift-SQL-Queries---Commands",
-      "path": "Databases/SQL-Databases/AWS-Redshift/Redshift-SQL-Queries---Commands.md"
-    },
-    {
-      "basename": "Frontend-React-Admin-Website-Migration",
-      "path": "Office/Projects/Frontend-React-Admin-Website-Migration.md"
-    },
-    {
-      "basename": "System-Design---Messenger---WhatsApp",
-      "path": "Computer-Science/Interview-Question/System-Design---Messenger---WhatsApp.md"
-    },
-    {
-      "basename": "Photoshop",
-      "path": "Technologies/DevOps/IDEs/Photoshop.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "Office/Projects/Projects.md"
-    },
-    {
-      "basename": "System-Design---Google-Search",
-      "path": "Computer-Science/Interview-Question/System-Design---Google-Search.md"
-    },
-    {
-      "basename": "(1)-Linux-General---Unix-Linux-Commands",
-      "path": "Technologies/DevOps/Terminal-Bash/(1)-Linux-General---Unix-Linux-Commands.md"
-    },
-    {
-      "basename": "Unix---Linux",
-      "path": "Computer-Science/Operating-System/Unix---Linux.md"
-    },
-    {
-      "basename": "Improvements---Feedbacks",
-      "path": "Office/Ideas/Improvements---Feedbacks.md"
     }
   ],
   "omittedPaths": [],

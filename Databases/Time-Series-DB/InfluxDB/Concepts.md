@@ -9,13 +9,13 @@ Modified: 2019-07-02 14:53:17 +0500
 ## In-memory indexing and the Time-Structured Merge Tree (TSM)
 
 The InfluxDB storage engine looks very similar to a LSM Tree. It has a write ahead log and a collection of read-only data files which are similar in concept to SSTables in an LSM Tree. TSM files contain sorted, compressed series data.
-InfluxDB will create a[shard](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#shard)for each block of time. For example, if you have a[retention policy](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#retention-policy-rp)with an unlimited duration, shards will be created for each 7 day block of time. Each of these shards maps to an underlying storage engine database. Each of these databases has its own[WAL](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#wal-write-ahead-log)and TSM files.
+InfluxDB will create a [shard](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#shard) for each block of time. For example, if you have a [retention policy](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#retention-policy-rp) with an unlimited duration, shards will be created for each 7 day block of time. Each of these shards maps to an underlying storage engine database. Each of these databases has its own [WAL](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#wal-write-ahead-log) and TSM files.
 
 ## Storage Engine
 
 The storage engine ties a number of components together and provides the external interface for storing and querying series data. It is composed of a number of components that each serve a particular role:
 
-- **In-Memory Index -** The in-memory index is a shared index across shards that provides the quick access to[measurements](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#measurement),[tags](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag), and[series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series). The index is used by the engine, but is not specific to the storage engine itself.
+- **In-Memory Index -** The in-memory index is a shared index across shards that provides the quick access to [measurements](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#measurement),[tags](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag), and [series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series). The index is used by the engine, but is not specific to the storage engine itself.
 - **WAL -** The WAL is a write-optimized storage format that allows for writes to be durable, but not easily queryable. Writes to the WAL are appended to segments of a fixed size.
 - **Cache -** The Cache is an in-memory representation of the data stored in the WAL. It is queried at runtime and merged with the data stored in TSM files.
 - **TSM Files -** TSM files store compressed series data in a columnar format.
@@ -28,11 +28,11 @@ The storage engine ties a number of components together and provides the externa
 
 The WAL is organized as a bunch of files that look like_000001.wal. The file numbers are monotonically increasing and referred to as WAL segments. When a segment reaches 10MB in size, it is closed and a new one is opened. Each WAL segment stores multiple compressed blocks of writes and deletes.
 When a write comes in the new points are serialized, compressed using Snappy, and written to a WAL file. The file isfsync'd and the data is added to an in-memory index before a success is returned. This means that batching points together is required to achieve high throughput performance. (Optimal batch size seems to be 5,000-10,000 points per batch for many use cases.)
-Each entry in the WAL follows a[TLV standard](https://en.wikipedia.org/wiki/Type-length-value)with a single byte representing the type of entry (write or delete), a 4 byteuint32for the length of the compressed block, and then the compressed block.
+Each entry in the WAL follows a [TLV standard](https://en.wikipedia.org/wiki/Type-length-value) with a single byte representing the type of entry (write or delete), a 4 byteuint32for the length of the compressed block, and then the compressed block.
 
 ## TLV Standard
 
-Within[data communication protocols](https://en.wikipedia.org/wiki/Data_communication_protocol),TLV(type-length-valueortag-length-value) is an encoding scheme used for optional information element in a certain protocol.
+Within [data communication protocols](https://en.wikipedia.org/wiki/Data_communication_protocol),TLV(type-length-valueortag-length-value) is an encoding scheme used for optional information element in a certain protocol.
 
 The type and length are fixed in size (typically 1-4 bytes), and the value field is of variable size. These fields are used as follows:
 
@@ -51,13 +51,13 @@ Variable-sized series of bytes which contains data for this part of the message.
 Some advantages of using a TLV representation data system solution are:
 
 - TLV sequences are easily searched using generalized parsing functions;
-- New message elements which are received at an older node can be safely skipped and the rest of the message can be parsed. This is similar to the way that unknown[XML](https://en.wikipedia.org/wiki/XML)tags can be safely skipped;
+- New message elements which are received at an older node can be safely skipped and the rest of the message can be parsed. This is similar to the way that unknown [XML](https://en.wikipedia.org/wiki/XML) tags can be safely skipped;
 - TLV elements can be placed in any order inside the message body;
 - TLV elements are typically used in a binary format which makes parsing faster and the data smaller than in comparable text based protocols.
 <https://en.wikipedia.org/wiki/Type-length-value>
 [**Cache**](https://docs.influxdata.com/influxdb/v1.7/concepts/storage_engine/#cache)
 
-The Cache is an in-memory copy of all data points current stored in the WAL. The points are organized by the key, which is the measurement,[tag set](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag-set), and unique[field](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field). Each field is kept as its own time-ordered range. The Cache data is not compressed while in memory.
+The Cache is an in-memory copy of all data points current stored in the WAL. The points are organized by the key, which is the measurement,[tag set](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#tag-set), and unique [field](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field). Each field is kept as its own time-ordered range. The Cache data is not compressed while in memory.
 Queries to the storage engine will merge data from the Cache with data from the TSM files. Queries execute on a copy of the data that is made from the cache at query processing time. This way writes that come in while a query is running won't affect the result.
 Deletes sent to the Cache will clear out the given key or the specific time range for the given key.
 The Cache exposes a few controls for snapshotting behavior. The two most important controls are the memory limits. There is a lower bound,[cache-snapshot-memory-size](https://docs.influxdata.com/influxdb/v1.7/administration/config#cache-snapshot-memory-size-25m), which when exceeded will trigger a snapshot to TSM files and remove the corresponding WAL segments. There is also an upper bound,[cache-max-memory-size](https://docs.influxdata.com/influxdb/v1.7/administration/config#cache-max-memory-size-1g), which when exceeded will cause the Cache to reject new writes. These configurations are useful to prevent out of memory situations and to apply back pressure to clients writing data faster than the instance can persist it. The checks for memory thresholds occur on every write.

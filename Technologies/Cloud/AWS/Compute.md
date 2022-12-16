@@ -64,7 +64,7 @@ Deployment modes -
 
 Run Containers without Managing Servers or Clusters
 
-AWS Fargate is a serverless compute engine for containers that works with both[Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs/)and[Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/). Fargate makes it easy for you to focus on building your applications. Fargate removes the need to provision and manage servers, lets you specify and pay for resources per application, and improves security through application isolation by design.
+AWS Fargate is a serverless compute engine for containers that works with both [Amazon Elastic Container Service (ECS)](https://aws.amazon.com/ecs/) and [Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/). Fargate makes it easy for you to focus on building your applications. Fargate removes the need to provision and manage servers, lets you specify and pay for resources per application, and improves security through application isolation by design.
 
 Fargate allocates the right amount of compute, eliminating the need to choose instances and scale cluster capacity. You only pay for the resources required to run your containers, so there is no over-provisioning and paying for additional servers. Fargate runs each task or pod in its own kernel providing the tasks and pods their own isolated compute environment. This enables your application to have workload isolation and improved security by design. This is why customers such as Vanguard, Accenture, Foursquare, and Ancestry have chosen to run their mission critical applications on Fargate.
 
@@ -90,19 +90,19 @@ print("Event received by Lambda function: " + json.dumps(event, indent=2))
 
 # For each inventory item added, check if the count is zero
 
-for record in event['Records']:
+for record in event ['Records']:
 
-newImage = record['dynamodb'].get('NewImage', None)
+newImage = record ['dynamodb'].get('NewImage', None)
 
 if newImage:
 
-count = int(record['dynamodb']['NewImage']['Count']['N'])
+count = int(record ['dynamodb']['NewImage']['Count']['N'])
 
 if count == 0:
 
-store = record['dynamodb']['NewImage']['Store']['S']
+store = record ['dynamodb']['NewImage']['Store']['S']
 
-item = record['dynamodb']['NewImage']['Item']['S']
+item = record ['dynamodb']['NewImage']['Item']['S']
 
 # Construct message to be sent
 
@@ -116,9 +116,9 @@ sns = boto3.client('sns')
 
 alertTopic = 'NoStock'
 
-snsTopicArn = [t['TopicArn'] for t in sns.list_topics()['Topics']
+snsTopicArn = [t ['TopicArn'] for t in sns.list_topics()['Topics']
 
-if t['TopicArn'].lower().endswith(':' + alertTopic.lower())][0]
+if t ['TopicArn'].lower().endswith(':' + alertTopic.lower())][0]
 
 # Send message to SNS
 
@@ -136,7 +136,7 @@ MessageStructure='raw'
 
 # Finished
 
-return 'Successfully processed {} records.'.format(len(event['Records']))
+return 'Successfully processed {} records.'.format(len(event ['Records']))
 
 11. AWS Serverless Application Repository
 

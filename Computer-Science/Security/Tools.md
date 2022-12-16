@@ -8,14 +8,14 @@ Modified: 2022-08-11 15:37:07 +0500
 
 ## dex
 
-Dex is an identity service that uses[OpenID Connect](https://openid.net/connect/)to drive authentication for other apps.
-Dex acts as a portal to other identity providers through["connectors."](https://github.com/dexidp/dex#connectors)This lets dex defer authentication to LDAP servers, SAML providers, or established identity providers like GitHub, Google, and Active Directory. Clients write their authentication logic once to talk to dex, then dex handles the protocols for a given backend.
+Dex is an identity service that uses [OpenID Connect](https://openid.net/connect/) to drive authentication for other apps.
+Dex acts as a portal to other identity providers through ["connectors."](https://github.com/dexidp/dex#connectors) This lets dex defer authentication to LDAP servers, SAML providers, or established identity providers like GitHub, Google, and Active Directory. Clients write their authentication logic once to talk to dex, then dex handles the protocols for a given backend.
 <https://github.com/dexidp/dex>
 
 ## SPIFFE (Secure Production Identity Framework for Everyone)**
 
 Inspired by the production infrastructure of Google and others, SPIFFE is a set of open-source standards for securely identifying software systems in dynamic and heterogeneous environments.
-SPIFFE is a set of open-source specifications for a framework capable of bootstrapping and issuing identity to services across heterogeneous environments and organizational boundaries. The heart of these specifications is the one that defines short lived cryptographic identity documents -- called[SVIDs](http://localhost:1313/spiffe/concepts/#spiffe-verifiable-identity-document-svid)via a[simple API](https://spiffe.io/spiffe/concepts/#spiffe-workload-api). Workloads can then use these identity documents when authenticating to other workloads, for example by establishing a TLS connection or by signing and verifying a JWT token.
+SPIFFE is a set of open-source specifications for a framework capable of bootstrapping and issuing identity to services across heterogeneous environments and organizational boundaries. The heart of these specifications is the one that defines short lived cryptographic identity documents -- called [SVIDs](http://localhost:1313/spiffe/concepts/#spiffe-verifiable-identity-document-svid) via a [simple API](https://spiffe.io/spiffe/concepts/#spiffe-workload-api). Workloads can then use these identity documents when authenticating to other workloads, for example by establishing a TLS connection or by signing and verifying a JWT token.
 SPIFFE - set of specifications
 
 Implementations
@@ -26,7 +26,7 @@ Implementations
 
 ## SPIRE
 
-SPIRE (the[SPIFFE](https://github.com/spiffe/spiffe)Runtime Environment) is a tool-chain for establishing trust between software systems across a wide variety of hosting platforms. Concretely, SPIRE exposes the[SPIFFE Workload API](https://github.com/spiffe/go-spiffe/blob/master/proto/spiffe/workload/workload.proto), which can attest running software systems and issue[SPIFFE IDs](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md)and[SVID](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md)s to them. This in turn allows two workloads to establish trust between each other, for example by establishing an mTLS connection or by signing and verifying a JWT token. Or for a workload to securely authenticate to a secret store, a database, or a cloud provider service.
+SPIRE (the [SPIFFE](https://github.com/spiffe/spiffe) Runtime Environment) is a tool-chain for establishing trust between software systems across a wide variety of hosting platforms. Concretely, SPIRE exposes the [SPIFFE Workload API](https://github.com/spiffe/go-spiffe/blob/master/proto/spiffe/workload/workload.proto), which can attest running software systems and issue [SPIFFE IDs](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md) and [SVID](https://github.com/spiffe/spiffe/blob/master/standards/SPIFFE-ID.md) s to them. This in turn allows two workloads to establish trust between each other, for example by establishing an mTLS connection or by signing and verifying a JWT token. Or for a workload to securely authenticate to a secret store, a database, or a cloud provider service.
 spire-server
 
 - Identity Mapping

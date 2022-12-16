@@ -94,7 +94,7 @@ you can use a tool like ESLint to enforce rules in the code. For example, you ca
 
 Linters can be used to enforce standards by writing custom rules. But you can also use the pre-made ESLint configs established by big tech companies to help devs get into the habit of writing clean code.
 
-You can take a look at Google's ESLint config[here](https://github.com/google/eslint-config-google)-- it is the one I prefer.
+You can take a look at Google's ESLint config [here](https://github.com/google/eslint-config-google)-- it is the one I prefer.
 
 ESLint helps you get used to best practices, but that's not its only benefit. ESLint also warns you about possible bugs/errors in your code so you can avoid common mistakes.
 

@@ -650,7 +650,7 @@ args: [/bin/sh, -c, 'i=0; while true; do echo "$i: $(date)"; i=$((i+1)); sleep 1
 
 Those are two different approaches.kubectl createis what we call[Imperative Management](https://kubernetes.io/docs/tutorials/object-management-kubectl/imperative-object-management-configuration/). On this approach you tell the Kubernetes API what you want to create, replace or delete, not how you want your K8s cluster world to look like.
 
-kubectl applyis part of the[Declarative Management](https://kubernetes.io/docs/tutorials/object-management-kubectl/declarative-object-management-configuration/)approach, where changes that you may have applied to a live object (i.e. throughscale) are maintained even if youapplyother changes to the object.
+kubectl applyis part of the[Declarative Management](https://kubernetes.io/docs/tutorials/object-management-kubectl/declarative-object-management-configuration/) approach, where changes that you may have applied to a live object (i.e. throughscale) are maintained even if youapplyother changes to the object.
 
 ## Tab Completion in iterm zsh / Auto complete
 

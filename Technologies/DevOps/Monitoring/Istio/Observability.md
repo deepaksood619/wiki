@@ -18,7 +18,7 @@ Istio generates the following types of telemetry in order to provide overall ser
 
 - [**Metrics**](https://istio.io/docs/concepts/observability/#metrics)
 
-Istio generates a set of service metrics based on the four "golden signals" of monitoring (latency, traffic, errors, and saturation). Istio also provides detailed metrics for the[mesh control plane](https://istio.io/docs/ops/deployment/architecture/). A default set of mesh monitoring dashboards built on top of these metrics is also provided.
+Istio generates a set of service metrics based on the four "golden signals" of monitoring (latency, traffic, errors, and saturation). Istio also provides detailed metrics for the [mesh control plane](https://istio.io/docs/ops/deployment/architecture/). A default set of mesh monitoring dashboards built on top of these metrics is also provided.
 
 To monitor service behavior, Istio generates metrics for all service traffic in, out, and within an Istio service mesh. These metrics provide information on behaviors such as the overall volume of traffic, the error rates within the traffic, and the response times for requests.
 
@@ -34,4 +34,4 @@ Istio generates distributed trace spans for each service, providing operators wi
 
 - [**Access Logs**](https://istio.io/docs/concepts/observability/#access-logs)
 
-As traffic flows into a service within a mesh, Istio can generate a full record of each request, including source and destination metadata. This information enables operators to audit service behavior down to the individual[workload instance](https://istio.io/docs/reference/glossary/#workload-instance)level.
+As traffic flows into a service within a mesh, Istio can generate a full record of each request, including source and destination metadata. This information enables operators to audit service behavior down to the individual [workload instance](https://istio.io/docs/reference/glossary/#workload-instance) level.

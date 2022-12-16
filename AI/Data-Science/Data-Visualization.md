@@ -8,11 +8,11 @@ Modified: 2021-09-14 23:12:00 +0500
 
 ## Exploratory and Explanatory visualization
 
-Data visualizationis viewed by many disciplines as a modern equivalent of[visual communication](https://en.wikipedia.org/wiki/Visual_communication). It involves the creation and study of the[visual](https://en.wikipedia.org/wiki/Visual_system) representation of[data](https://en.wikipedia.org/wiki/Data).
+Data visualizationis viewed by many disciplines as a modern equivalent of [visual communication](https://en.wikipedia.org/wiki/Visual_communication). It involves the creation and study of the [visual](https://en.wikipedia.org/wiki/Visual_system) representation of [data](https://en.wikipedia.org/wiki/Data).
 
-To communicate information clearly and efficiently, data visualization uses[statistical graphics](https://en.wikipedia.org/wiki/Statistical_graphics), [plots](https://en.wikipedia.org/wiki/Plot_(graphics)), [information graphics](https://en.wikipedia.org/wiki/Infographic) and other tools. Numerical data may be encoded using dots, lines, or bars, to visually communicate a quantitative message.Effective visualization helps users analyze and reason about data and evidence. It makes complex data more accessible, understandable and usable. Users may have particular analytical tasks, such as making comparisons or understanding[causality](https://en.wikipedia.org/wiki/Causality), and the design principle of the graphic (i.e., showing comparisons or showing causality) follows the task. Tables are generally used where users will look up a specific measurement, while charts of various types are used to show patterns or relationships in the data for one or more variables.
+To communicate information clearly and efficiently, data visualization uses [statistical graphics](https://en.wikipedia.org/wiki/Statistical_graphics), [plots](https://en.wikipedia.org/wiki/Plot_(graphics)), [information graphics](https://en.wikipedia.org/wiki/Infographic) and other tools. Numerical data may be encoded using dots, lines, or bars, to visually communicate a quantitative message.Effective visualization helps users analyze and reason about data and evidence. It makes complex data more accessible, understandable and usable. Users may have particular analytical tasks, such as making comparisons or understanding [causality](https://en.wikipedia.org/wiki/Causality), and the design principle of the graphic (i.e., showing comparisons or showing causality) follows the task. Tables are generally used where users will look up a specific measurement, while charts of various types are used to show patterns or relationships in the data for one or more variables.
 
-Data visualization is both an art and a science. It is viewed as a branch of[descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics)by some, but also as a[grounded theory](https://en.wikipedia.org/wiki/Grounded_theory)development tool by others. Increased amounts of data created by Internet activity and an expanding number of sensors in the environment are referred to as "[big data](https://en.wikipedia.org/wiki/Big_data)" or[Internet of things](https://en.wikipedia.org/wiki/Internet_of_things). Processing, analyzing and communicating this data present ethical and analytical challenges for data visualization.The field of[data science](https://en.wikipedia.org/wiki/Data_science)and practitioners called[data scientists](https://en.wikipedia.org/wiki/Data_scientists)help address this challenge.
+Data visualization is both an art and a science. It is viewed as a branch of [descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics) by some, but also as a [grounded theory](https://en.wikipedia.org/wiki/Grounded_theory) development tool by others. Increased amounts of data created by Internet activity and an expanding number of sensors in the environment are referred to as "[big data](https://en.wikipedia.org/wiki/Big_data)" or [Internet of things](https://en.wikipedia.org/wiki/Internet_of_things). Processing, analyzing and communicating this data present ethical and analytical challenges for data visualization.The field of [data science](https://en.wikipedia.org/wiki/Data_science) and practitioners called [data scientists](https://en.wikipedia.org/wiki/Data_scientists) help address this challenge.
 
 ## Types of data
 
@@ -54,15 +54,15 @@ Data visualization is both an art and a science. It is viewed as a branch of[des
 
 1. **Time-series**
 
-A single variable is captured over a period of time, such as the unemployment rate over a 10-year period. A[line chart](https://en.wikipedia.org/wiki/Line_chart)may be used to demonstrate the trend.
+A single variable is captured over a period of time, such as the unemployment rate over a 10-year period. A [line chart](https://en.wikipedia.org/wiki/Line_chart) may be used to demonstrate the trend.
 
 2. **Ranking**
 
-Categorical subdivisions are ranked in ascending or descending order, such as a ranking of sales performance (themeasure) by sales persons (thecategory, with each sales person acategorical subdivision) during a single period. A[bar chart](https://en.wikipedia.org/wiki/Bar_chart)may be used to show the comparison across the sales persons.
+Categorical subdivisions are ranked in ascending or descending order, such as a ranking of sales performance (themeasure) by sales persons (thecategory, with each sales person acategorical subdivision) during a single period. A [bar chart](https://en.wikipedia.org/wiki/Bar_chart) may be used to show the comparison across the sales persons.
 
 3. **Part-to-whole**
 
-Categorical subdivisions are measured as a ratio to the whole (i.e., a percentage out of 100%). A[pie chart](https://en.wikipedia.org/wiki/Pie_chart)or bar chart can show the comparison of ratios, such as the market share represented by competitors in a market.
+Categorical subdivisions are measured as a ratio to the whole (i.e., a percentage out of 100%). A [pie chart](https://en.wikipedia.org/wiki/Pie_chart) or bar chart can show the comparison of ratios, such as the market share represented by competitors in a market.
 
 4. **Deviation**
 
@@ -70,11 +70,11 @@ Categorical subdivisions are compared against a reference, such as a comparison 
 
 5. **Frequency distribution**
 
-Shows the number of observations of a particular variable for given interval, such as the number of years in which the stock market return is between intervals such as 0-10%, 11-20%, etc. A[histogram](https://en.wikipedia.org/wiki/Histogram), a type of bar chart, may be used for this analysis. A[boxplot](https://en.wikipedia.org/wiki/Boxplot)helps visualize key statistics about the distribution, such as median, quartiles, outliers, etc.
+Shows the number of observations of a particular variable for given interval, such as the number of years in which the stock market return is between intervals such as 0-10%, 11-20%, etc. A [histogram](https://en.wikipedia.org/wiki/Histogram), a type of bar chart, may be used for this analysis. A [boxplot](https://en.wikipedia.org/wiki/Boxplot) helps visualize key statistics about the distribution, such as median, quartiles, outliers, etc.
 
 6. **Correlation**
 
-Comparison between observations represented by two variables (X,Y) to determine if they tend to move in the same or opposite directions. For example, plotting unemployment (X) and inflation (Y) for a sample of months. A[scatter plot](https://en.wikipedia.org/wiki/Scatter_plot)is typically used for this message.
+Comparison between observations represented by two variables (X,Y) to determine if they tend to move in the same or opposite directions. For example, plotting unemployment (X) and inflation (Y) for a sample of months. A [scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) is typically used for this message.
 
 7. **Nominal comparison**
 
@@ -82,7 +82,7 @@ Comparing categorical subdivisions in no particular order, such as the sales vol
 
 8. **Geographic or geospatial**
 
-Comparison of a variable across a map or layout, such as the unemployment rate by state or the number of persons on the various floors of a building. A[cartogram](https://en.wikipedia.org/wiki/Cartogram)is a typical graphic used.
+Comparison of a variable across a map or layout, such as the unemployment rate by state or the number of persons on the various floors of a building. A [cartogram](https://en.wikipedia.org/wiki/Cartogram) is a typical graphic used.
 
 ## Data Visualization Libraries
 
@@ -93,7 +93,7 @@ Comparison of a variable across a map or layout, such as the unemployment rate b
 - Echarts - <https://echarts.baidu.com>
 - ggplot2
 
-ggplot2 is a system for declaratively creating graphics, based on[The Grammar of Graphics](http://amzn.to/2ef1eWp). You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
+ggplot2 is a system for declaratively creating graphics, based on [The Grammar of Graphics](http://amzn.to/2ef1eWp). You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
 
 <https://ggplot2.tidyverse.org>
 

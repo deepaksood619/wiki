@@ -8,7 +8,7 @@ Modified: 2020-08-19 01:15:52 +0500
 
 ## Programming with Redis
 
-- [The full list of commands](https://redis.io/commands)implemented by Redis, along with thorough documentation for each of them.
+- [The full list of commands](https://redis.io/commands) implemented by Redis, along with thorough documentation for each of them.
 - [Pipelining](https://redis.io/topics/pipelining): Learn how to send multiple commands at once, saving on round trip time.
 
 sendmultiple commandsto the server without waiting for the replies at all, and finally read the replies in a single step.
@@ -32,7 +32,7 @@ sendmultiple commandsto the server without waiting for the replies at all, and f
 
 - [Introduction to Redis modules](https://redis.io/topics/modules-intro). A good place to start learing about Redis 4.0 modules programming.
 - [Implementing native data types](https://redis.io/topics/modules-native-types). Modules scan implement new data types (data structures and more) that look like built-in data types. This documentation covers the API to do so.
-- [Blocking operations](https://redis.io/topics/modules-blocking-ops)with modules. This is still an experimental API, but a very powerful one to write commands that can block the client (without blocking Redis) and can execute tasks in other threads.
+- [Blocking operations](https://redis.io/topics/modules-blocking-ops) with modules. This is still an experimental API, but a very powerful one to write commands that can block the client (without blocking Redis) and can execute tasks in other threads.
 - [Redis modules API reference](https://redis.io/topics/modules-api-ref). Directly generated from the top comments in the source code insidesrc/module.c. Contains many low level details about API usage.
 
 ## Tutorials & FAQ

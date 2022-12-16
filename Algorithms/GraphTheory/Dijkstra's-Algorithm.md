@@ -16,7 +16,7 @@ Modified: 2019-12-12 00:07:19 +0500
 - Time Complexity O(E + V log V) using Fibonacci heap (it takes O(1) for decrease key operation)
 - Doesn't work for graph with negative weight edges
 
-Dijkstra's algorithm is very similar to[Prim's algorithm for minimum spanning tree](https://www.geeksforgeeks.org/archives/27455). Like Prim's MST, we generate a*SPT (shortest path tree)*with given source as root. We maintain two sets, one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree. At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has minimum distance from source.
+Dijkstra's algorithm is very similar to [Prim's algorithm for minimum spanning tree](https://www.geeksforgeeks.org/archives/27455). Like Prim's MST, we generate a*SPT (shortest path tree)*with given source as root. We maintain two sets, one set contains vertices included in shortest path tree, other set includes vertices not yet included in shortest path tree. At every step of the algorithm, we find a vertex which is in the other set (set of not yet included) and has minimum distance from source.
 
 ![image](media/Dijkstra's-Algorithm-image1.png)
 

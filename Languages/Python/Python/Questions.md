@@ -10,7 +10,7 @@ Modified: 2021-07-28 14:58:22 +0500
 
 In short__repr__goal is to be unambigous and__str__is to be readable.
 
-The official Python documentation says__repr__is used to[compute the "official" string representation of an object](http://docs.python.org/reference/datamodel.html#object.__repr__)and__str__is used to[compute the "informal" string representation of an object](http://docs.python.org/reference/datamodel.html#object.__str__). Theprintstatement andstr()built-in function uses__str__to display the string representation of the object while therepr()built-in function uses__repr__to display the object.
+The official Python documentation says__repr__is used to [compute the "official" string representation of an object](http://docs.python.org/reference/datamodel.html#object.__repr__) and__str__is used to [compute the "informal" string representation of an object](http://docs.python.org/reference/datamodel.html#object.__str__). Theprintstatement andstr() built-in function uses__str__to display the string representation of the object while therepr() built-in function uses__repr__to display the object.
 
 ## Python variables are pointers?
 

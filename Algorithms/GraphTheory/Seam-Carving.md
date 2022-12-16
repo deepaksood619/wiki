@@ -34,7 +34,7 @@ The importance/energy function values a pixel by measuring its contrast with its
 
 ## Computing Seams
 
-Computing the seam consists of finding the path of minimum energy cost from one end of the image to another. This can be done via[Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), dynamic programming,[greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)or[graph cuts](https://en.wikipedia.org/wiki/Cut_(graph_theory))among others.
+Computing the seam consists of finding the path of minimum energy cost from one end of the image to another. This can be done via [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), dynamic programming,[greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) or [graph cuts](https://en.wikipedia.org/wiki/Cut_(graph_theory)) among others.
 
 ## To find the energy function to represent least amount of information
 

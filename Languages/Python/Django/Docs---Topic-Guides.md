@@ -268,6 +268,6 @@ help="Set to true if generated files for a customer only need to be uploaded to 
 
 def handle(self, *args, **options):
 
-customer_name = options['customer_name']
+customer_name = options ['customer_name']
 
-only_upload_folder_name = options['only_upload_folder_name']
+only_upload_folder_name = options ['only_upload_folder_name']

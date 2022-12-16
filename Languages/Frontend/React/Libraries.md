@@ -85,7 +85,7 @@ date-fns provides the most comprehensive, yet simple and consistent toolset for 
 
 ## Modernizr
 
-[Modernizr](https://modernizr.com/)is a JavaScript library for conviently detecting HTML5 and CSS3 feature support in web browsers. In detecting feature support, it allows developers to test for some of the new technologies and then provide fallbacks for browsers that do not support them.
+[Modernizr](https://modernizr.com/) is a JavaScript library for conviently detecting HTML5 and CSS3 feature support in web browsers. In detecting feature support, it allows developers to test for some of the new technologies and then provide fallbacks for browsers that do not support them.
 
 WebP support - Look for the properties Modernizr.webp, Modernizr.webp.lossless, Modernizr.webp.alpha and Modernizr.webp.animation.
 
@@ -143,11 +143,11 @@ Fetch, cache and update data in your React and React Native applications all wit
 
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
 
-[**Jest**](https://facebook.github.io/jest/)is a JavaScript test runner that lets you access the DOM via[jsdom](https://reactjs.org/docs/testing-environments.html#mocking-a-rendering-surface). While jsdom is only an approximation of how the browser works, it is often good enough for testing React components. Jest provides a great iteration speed combined with powerful features like mocking[modules](https://reactjs.org/docs/testing-environments.html#mocking-modules)and[timers](https://reactjs.org/docs/testing-environments.html#mocking-timers)so you can have more control over how the code executes.
+[**Jest**](https://facebook.github.io/jest/) is a JavaScript test runner that lets you access the DOM via [jsdom](https://reactjs.org/docs/testing-environments.html#mocking-a-rendering-surface). While jsdom is only an approximation of how the browser works, it is often good enough for testing React components. Jest provides a great iteration speed combined with powerful features like mocking [modules](https://reactjs.org/docs/testing-environments.html#mocking-modules) and [timers](https://reactjs.org/docs/testing-environments.html#mocking-timers) so you can have more control over how the code executes.
 
 <https://www.freecodecamp.org/news/how-to-test-react-applications>
 
-[**React Testing Library**](https://testing-library.com/react)is a set of helpers that let you test React components without relying on their implementation details. This approach makes refactoring a breeze and also nudges you towards best practices for accessibility. Although it doesn't provide a way to "shallowly" render a component without its children, a test runner like Jest lets you do this by[mocking](https://reactjs.org/docs/testing-recipes.html#mocking-modules).
+[**React Testing Library**](https://testing-library.com/react) is a set of helpers that let you test React components without relying on their implementation details. This approach makes refactoring a breeze and also nudges you towards best practices for accessibility. Although it doesn't provide a way to "shallowly" render a component without its children, a test runner like Jest lets you do this by [mocking](https://reactjs.org/docs/testing-recipes.html#mocking-modules).
 
 <https://reactjs.org/docs/testing.html>
 
@@ -165,9 +165,9 @@ End-to-end testing
 
 Usingclassnameslibrary to toggle classes
 
-[classnames](https://github.com/JedWatson/classnames)is a simple library that lets you toggle class names easily. You can install it usingnpm install classnamesoryarn add classnames.
+[classnames](https://github.com/JedWatson/classnames) is a simple library that lets you toggle class names easily. You can install it usingnpm install classnamesoryarn add classnames.
 
-Please take a look at its[documentation](https://github.com/JedWatson/classnames)for more details, but here's the basic usage:
+Please take a look at its [documentation](https://github.com/JedWatson/classnames) for more details, but here's the basic usage:
 
 - Suppose that you want to create anAlertcomponent which acceptstype, which can be'success'or'error'.
 - If it's'success', you want the text color to be green. If it's'error', you want the text color to be red.

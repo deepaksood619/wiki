@@ -58,14 +58,14 @@ private final Adaptee adaptee = new Adaptee();
 
 public String getFirstName() {
 
-return adaptee.getFullName().split[" "](0); // just a dumb example impl
+return adaptee.getFullName().split [" "](0); // just a dumb example impl
 
 }
 @Override
 
 public String getLastName() {
 
-return adaptee.getFullName().split[" "](1); // just a dumb example impl
+return adaptee.getFullName().split [" "](1); // just a dumb example impl
 
 }
 }
@@ -73,7 +73,7 @@ The Adapter is compatible with Target by simply implementing it, and under the h
 At the end, let's take a look at our code in action:
 public class ClientCode {
 
-public static void main(String[] args) {
+public static void main(String [] args) {
 
 final Target target = new Adapter(); // We need Target type, we can use Adapter!
 
@@ -100,7 +100,7 @@ public String getFirstName() {
 
 // use adaptee
 
-return adaptee.getFullName().split[" "](0);
+return adaptee.getFullName().split [" "](0);
 
 }
 <https://talkoverflow.com/adapter>

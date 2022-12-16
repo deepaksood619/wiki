@@ -106,11 +106,11 @@ Apache Chukwa is an open source data collection system for monitoring large dist
 - [CouchDB](http://couchdb.apache.org/)
   - Seamlessmulti-master sync, that scales fromBig DatatoMobile, with anIntuitiveHTTP/JSON API and designed forReliability.
 
-Apache CouchDB™ lets you access your data where you need it. The[Couch Replication Protocol](http://docs.couchdb.org/en/stable/replication/protocol.html)is implemented in a variety of projects and products that span every imaginable computing environment fromglobally distributed server-clusters, overmobile phonestoweb browsers.
+Apache CouchDB™ lets you access your data where you need it. The [Couch Replication Protocol](http://docs.couchdb.org/en/stable/replication/protocol.html) is implemented in a variety of projects and products that span every imaginable computing environment fromglobally distributed server-clusters, overmobile phonestoweb browsers.
 
 Store your datasafely, on your own servers, or with any leading cloud provider. Your web- and native applications love CouchDB, because it speaksJSON nativelyand supportsbinary datafor all your data storage needs.
 
-[The Couch Replication Protocol](http://docs.couchdb.org/en/stable/replication/protocol.html)lets your data flow seamlessly between server clusters to mobile phones and web browsers, enabling a compelling[offline-first](http://offlinefirst.org/)user-experience while maintaining high performance and strong reliability. CouchDB comes with adeveloper-friendlyquery language, and optionally MapReduce for simple, efficient, and comprehensive data retrieval.
+[The Couch Replication Protocol](http://docs.couchdb.org/en/stable/replication/protocol.html) lets your data flow seamlessly between server clusters to mobile phones and web browsers, enabling a compelling [offline-first](http://offlinefirst.org/) user-experience while maintaining high performance and strong reliability. CouchDB comes with adeveloper-friendlyquery language, and optionally MapReduce for simple, efficient, and comprehensive data retrieval.
 
 <https://docs.couchdb.org/en/stable/intro/index.html>
 
@@ -172,7 +172,7 @@ Streaming data ingestion for Hadoop
 - [Forrest](http://forrest.apache.org/)
 - [FreeMarker](http://freemarker.apache.org/)
 
-## FreeMarkeris a[free](https://en.wikipedia.org/wiki/Free_software)[Java](https://en.wikipedia.org/wiki/Java_(programming_language))-based[template engine](https://en.wikipedia.org/wiki/Template_engine_(web)), originally focusing on dynamic web page generation with[MVC](https://en.wikipedia.org/wiki/Model-view-controller)[software architecture](https://en.wikipedia.org/wiki/Software_architecture). However, it is a general purpose template engine, with no dependency on[servlets](https://en.wikipedia.org/wiki/Servlet)or[HTTP](https://en.wikipedia.org/wiki/HTTP)or[HTML](https://en.wikipedia.org/wiki/HTML), and is thus often used for generating source code, configuration files or e-mails
+## FreeMarkeris a [free](https://en.wikipedia.org/wiki/Free_software)[Java](https://en.wikipedia.org/wiki/Java_(programming_language))-based [template engine](https://en.wikipedia.org/wiki/Template_engine_(web)), originally focusing on dynamic web page generation with [MVC](https://en.wikipedia.org/wiki/Model-view-controller)[software architecture](https://en.wikipedia.org/wiki/Software_architecture). However, it is a general purpose template engine, with no dependency on [servlets](https://en.wikipedia.org/wiki/Servlet) or [HTTP](https://en.wikipedia.org/wiki/HTTP) or [HTML](https://en.wikipedia.org/wiki/HTML), and is thus often used for generating source code, configuration files or e-mails
 
 # G
 
@@ -274,7 +274,7 @@ Distributed pub-sub messaging
 - [Knox](http://knox.apache.org/)
 - [Kudu](http://kudu.apache.org/)
 
-[Apache Kudu](http://kudu.apache.org/overview.html)is a columnar data store that aims to replace HDFS + Parquet pair in many cases. It combines space-efficient columnar storage with ability to make fast single-row reads and writes.
+[Apache Kudu](http://kudu.apache.org/overview.html) is a columnar data store that aims to replace HDFS + Parquet pair in many cases. It combines space-efficient columnar storage with ability to make fast single-row reads and writes.
 
 A Kudu cluster stores tables that look just like tables you're used to from relational (SQL) databases. A table can be as simple as a binarykey andvalue, or as complex as a few hundred different strongly-typed attributes.
 
@@ -293,7 +293,7 @@ Is a high-performance, full-featured text search engine library written entirely
 
 ## Scalable, High-Performance Indexing
 
-- over[150GB/hour on modern hardware](http://home.apache.org/~mikemccand/lucenebench/indexing.html)
+- over [150GB/hour on modern hardware](http://home.apache.org/~mikemccand/lucenebench/indexing.html)
 - small RAM requirements -- only 1MB heap
 - incremental indexing as fast as batch indexing
 - index size roughly 20-30% the size of text indexed
@@ -308,7 +308,7 @@ Is a high-performance, full-featured text search engine library written entirely
 - allows simultaneous update and searching
 - flexible faceting, highlighting, joins and result grouping
 - fast, memory-efficient and typo-tolerant suggesters
-- pluggable ranking models, including the[Vector Space Model](http://en.wikipedia.org/wiki/Vector_Space_Model)and[Okapi BM25](http://en.wikipedia.org/wiki/Okapi_BM25)
+- pluggable ranking models, including the [Vector Space Model](http://en.wikipedia.org/wiki/Vector_Space_Model) and [Okapi BM25](http://en.wikipedia.org/wiki/Okapi_BM25)
 - configurable storage engine (codecs)
 
 - [Lucene.Net](http://lucenenet.apache.org/)
@@ -393,7 +393,7 @@ Columnar storage format
 
 OLTP and operational analytics for Apache Hadoop
 
-Apache Phoenixis an[open source](https://en.wikipedia.org/wiki/Open-source_software),[massively parallel](https://en.wikipedia.org/wiki/Massively_parallel_(computing)),[relational database](https://en.wikipedia.org/wiki/Relational_database)engine supporting[OLTP](https://en.wikipedia.org/wiki/OLTP)for Hadoop using[Apache HBase](https://en.wikipedia.org/wiki/Apache_HBase)as its backing store. Phoenix provides a[JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity)driver that hides the intricacies of the noSQL store enabling users to create, delete, and alter SQL tables, views, indexes, and sequences; insert and delete rows singly and in bulk; and query data through[SQL](https://en.wikipedia.org/wiki/SQL).Phoenix compiles queries and other statements into native noSQL store APIs rather than using[MapReduce](https://en.wikipedia.org/wiki/MapReduce)enabling the building of low latency applications on top of noSQL stores.
+Apache Phoenixis an [open source](https://en.wikipedia.org/wiki/Open-source_software),[massively parallel](https://en.wikipedia.org/wiki/Massively_parallel_(computing)),[relational database](https://en.wikipedia.org/wiki/Relational_database) engine supporting [OLTP](https://en.wikipedia.org/wiki/OLTP) for Hadoop using [Apache HBase](https://en.wikipedia.org/wiki/Apache_HBase) as its backing store. Phoenix provides a [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity) driver that hides the intricacies of the noSQL store enabling users to create, delete, and alter SQL tables, views, indexes, and sequences; insert and delete rows singly and in bulk; and query data through [SQL](https://en.wikipedia.org/wiki/SQL).Phoenix compiles queries and other statements into native noSQL store APIs rather than using [MapReduce](https://en.wikipedia.org/wiki/MapReduce) enabling the building of low latency applications on top of noSQL stores.
 
 <https://phoenix.apache.org>
 
@@ -480,7 +480,7 @@ General-purpose cluster computing framework
 
 Bulk data transfer between Hadoop and structured datastores such as relational databases.
 
-Sqoopis a[command-line interface](https://en.wikipedia.org/wiki/Command-line_interface)application for transferring data between[relational databases](https://en.wikipedia.org/wiki/Relational_database) and [Hadoop](https://en.wikipedia.org/wiki/Hadoop)
+Sqoopis a [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) application for transferring data between [relational databases](https://en.wikipedia.org/wiki/Relational_database) and [Hadoop](https://en.wikipedia.org/wiki/Hadoop)
 
 <https://sqoop.apache.org>
 
@@ -503,11 +503,11 @@ Distributed realtime (streaming) computing framework
 - [Tapestry](http://tapestry.apache.org/)
 - [Tcl](http://tcl.apache.org/)
 
-## Tcl([pronounced](https://en.wikipedia.org/wiki/English_alphabet#Letter_names)"tickle" or*tee cee ell*[/ˈtiːsiːɛl/](https://en.wikipedia.org/wiki/Help:IPA/English)) is a[high-level](https://en.wikipedia.org/wiki/High-level_programming_language),[general-purpose](https://en.wikipedia.org/wiki/General-purpose_programming_language),[interpreted](https://en.wikipedia.org/wiki/Interpreter_(computing)),[dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language). It was designed with the goal of being very simple but powerful.[^[6]^](https://en.wikipedia.org/wiki/Tcl#cite_note-6)Tcl casts everything into the mold of a[command](https://en.wikipedia.org/wiki/Command_(computing)), even programming constructs like variable assignment and procedure definition.[^[7]^](https://en.wikipedia.org/wiki/Tcl#cite_note-7)Tcl supports multiple[programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm), including[object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming),[imperative](https://en.wikipedia.org/wiki/Imperative_programming)and[functional programming](https://en.wikipedia.org/wiki/Functional_programming)or[procedural](https://en.wikipedia.org/wiki/Procedural_programming)styles
+## Tcl([pronounced](https://en.wikipedia.org/wiki/English_alphabet#Letter_names)"tickle" or*tee cee ell*[/ˈtiːsiːɛl/](https://en.wikipedia.org/wiki/Help:IPA/English)) is a [high-level](https://en.wikipedia.org/wiki/High-level_programming_language),[general-purpose](https://en.wikipedia.org/wiki/General-purpose_programming_language),[interpreted](https://en.wikipedia.org/wiki/Interpreter_(computing)),[dynamic programming language](https://en.wikipedia.org/wiki/Dynamic_programming_language). It was designed with the goal of being very simple but powerful.[^[6]^](https://en.wikipedia.org/wiki/Tcl#cite_note-6) Tcl casts everything into the mold of a [command](https://en.wikipedia.org/wiki/Command_(computing)), even programming constructs like variable assignment and procedure definition.[^[7]^](https://en.wikipedia.org/wiki/Tcl#cite_note-7) Tcl supports multiple [programming paradigms](https://en.wikipedia.org/wiki/Programming_paradigm), including [object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming),[imperative](https://en.wikipedia.org/wiki/Imperative_programming) and [functional programming](https://en.wikipedia.org/wiki/Functional_programming) or [procedural](https://en.wikipedia.org/wiki/Procedural_programming) styles
 
-It is commonly used embedded into[C](https://en.wikipedia.org/wiki/C_(programming_language))applications,[^[8]^](https://en.wikipedia.org/wiki/Tcl#cite_note-inception-8)for[rapid prototyping](https://en.wikipedia.org/wiki/Rapid_application_development), scripted applications, GUIs, and testing.[^[9]^](https://en.wikipedia.org/wiki/Tcl#cite_note-9)Tcl interpreters are available for many[operating systems](https://en.wikipedia.org/wiki/Operating_system), allowing Tcl code to run on a wide variety of systems. Because Tcl is a very compact language, it is used on[embedded systems](https://en.wikipedia.org/wiki/Embedded_systems)platforms, both in its full form and in several other small-footprint versions.
+It is commonly used embedded into [C](https://en.wikipedia.org/wiki/C_(programming_language)) applications,[^[8]^](https://en.wikipedia.org/wiki/Tcl#cite_note-inception-8) for [rapid prototyping](https://en.wikipedia.org/wiki/Rapid_application_development), scripted applications, GUIs, and testing.[^[9]^](https://en.wikipedia.org/wiki/Tcl#cite_note-9) Tcl interpreters are available for many [operating systems](https://en.wikipedia.org/wiki/Operating_system), allowing Tcl code to run on a wide variety of systems. Because Tcl is a very compact language, it is used on [embedded systems](https://en.wikipedia.org/wiki/Embedded_systems) platforms, both in its full form and in several other small-footprint versions.
 
-The popular combination of Tcl with the[Tk](https://en.wikipedia.org/wiki/Tk_(software))extension is referred to as**Tcl/Tk**, and enables building a[graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)(GUI) natively in Tcl. Tcl/Tk is included in the standard[Python](https://en.wikipedia.org/wiki/Python_(programming_language))installation in the form of[Tkinter](https://en.wikipedia.org/wiki/Tkinter).
+The popular combination of Tcl with the [Tk](https://en.wikipedia.org/wiki/Tk_(software)) extension is referred to as**Tcl/Tk**, and enables building a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface)(GUI) natively in Tcl. Tcl/Tk is included in the standard [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) installation in the form of [Tkinter](https://en.wikipedia.org/wiki/Tkinter).
 
 - [Tez](http://tez.apache.org/)
 
@@ -523,7 +523,7 @@ Data serialization framework (full-stack)
 
 Apache TinkerPop™ is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP).
 
-Apache TinkerPop™ is an open source, vendor-agnostic, graph computing framework distributed under the commercial friendly[Apache2 license](https://www.apache.org/licenses/LICENSE-2.0). When a data system is[TinkerPop-enabled](http://tinkerpop.apache.org/providers.html), its users are able to model their domain as a graph and analyze that graph using the[Gremlin graph traversal language](http://tinkerpop.apache.org/gremlin.html). Furthermore, all TinkerPop-enabled systems integrate with one another allowing them to easily expand their offerings as well as allowing users to choose the appropriate graph technology for their application. Sometimes an application is best served by an in-memory, transactional graph database. Sometimes a multi-machine distributed graph database will do the job. Or perhaps the application requires both a distributed graph database for real-time queries and, in parallel, a Big(Graph)Data processor for batch analytics. Whatever the application's requirements, there exists a TinkerPop-enabled graph system out there to meet its needs.
+Apache TinkerPop™ is an open source, vendor-agnostic, graph computing framework distributed under the commercial friendly [Apache2 license](https://www.apache.org/licenses/LICENSE-2.0). When a data system is [TinkerPop-enabled](http://tinkerpop.apache.org/providers.html), its users are able to model their domain as a graph and analyze that graph using the [Gremlin graph traversal language](http://tinkerpop.apache.org/gremlin.html). Furthermore, all TinkerPop-enabled systems integrate with one another allowing them to easily expand their offerings as well as allowing users to choose the appropriate graph technology for their application. Sometimes an application is best served by an in-memory, transactional graph database. Sometimes a multi-machine distributed graph database will do the job. Or perhaps the application requires both a distributed graph database for real-time queries and, in parallel, a Big(Graph) Data processor for batch analytics. Whatever the application's requirements, there exists a TinkerPop-enabled graph system out there to meet its needs.
 
 <http://tinkerpop.apache.org>
 

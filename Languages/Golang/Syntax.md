@@ -17,7 +17,7 @@ Modified: 2020-01-21 19:47:30 +0500
 
 ## defer
 
-In Go language, defer statements delay the execution of the[function](https://www.geeksforgeeks.org/functions-in-go-language/)or method or an[anonymous method](https://www.geeksforgeeks.org/anonymous-function-in-go-language/)until the nearby functions returns. Or in other words, defer function or method call arguments evaluate instantly, but they execute until the nearby functions returns. You can create a deferred method, or function, or anonymous function by using the defer keyword.
+In Go language, defer statements delay the execution of the [function](https://www.geeksforgeeks.org/functions-in-go-language/) or method or an [anonymous method](https://www.geeksforgeeks.org/anonymous-function-in-go-language/) until the nearby functions returns. Or in other words, defer function or method call arguments evaluate instantly, but they execute until the nearby functions returns. You can create a deferred method, or function, or anonymous function by using the defer keyword.
 
 <https://www.geeksforgeeks.org/defer-keyword-in-golang>
 

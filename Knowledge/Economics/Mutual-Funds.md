@@ -120,7 +120,7 @@ Beta - Measurement of risk or volatility
 
 ## Capital Asset Pricing Model (CAPM)
 
-The Capital Asset Pricing Model (CAPM) describes the relationship between systematic risk and[expected return](https://www.investopedia.com/terms/e/expectedreturn.asp)for assets, particularly stocks.CAPM is widely used throughout finance for pricing risky[securities](https://www.investopedia.com/terms/s/security.asp)and generating expected returns for assets given the risk of those assets and[cost of capital](https://www.investopedia.com/terms/c/costofcapital.asp).
+The Capital Asset Pricing Model (CAPM) describes the relationship between systematic risk and [expected return](https://www.investopedia.com/terms/e/expectedreturn.asp) for assets, particularly stocks.CAPM is widely used throughout finance for pricing risky [securities](https://www.investopedia.com/terms/s/security.asp) and generating expected returns for assets given the risk of those assets and [cost of capital](https://www.investopedia.com/terms/c/costofcapital.asp).
 
 ![image](media/Mutual-Funds-image1.jpeg)
 
@@ -214,9 +214,9 @@ This provides diversification in the rules. When an index house or fund house pr
 
 ## Arbitrage Mutual Funds
 
-An[arbitrage](https://www.investopedia.com/terms/a/arbitrage.asp)fund is a type of[mutual fund](https://www.investopedia.com/ask/answers/091115/are-mutual-funds-considered-equity-securities.asp)that appeals to investors who want to profit from volatile markets without taking on too much risk.
+An [arbitrage](https://www.investopedia.com/terms/a/arbitrage.asp) fund is a type of [mutual fund](https://www.investopedia.com/ask/answers/091115/are-mutual-funds-considered-equity-securities.asp) that appeals to investors who want to profit from volatile markets without taking on too much risk.
 
-Arbitrage funds work by exploiting the price differential between assets that should theoretically have the same price. One of the most important types of arbitrage takes place between the cash and[futures markets](https://www.investopedia.com/terms/f/futuresmarket.asp). A typical fund purchases stocks with the hope of selling them later after the price has gone up. Instead, an arbitrage fund purchases stock in the cash market and simultaneously sells that interest in the futures market. The differences between stock prices and[futures contracts](https://www.investopedia.com/terms/f/futurescontract.asp)are usually very small. As a result, arbitrage funds must execute a large number of trades each year to make any substantial gains.
+Arbitrage funds work by exploiting the price differential between assets that should theoretically have the same price. One of the most important types of arbitrage takes place between the cash and [futures markets](https://www.investopedia.com/terms/f/futuresmarket.asp). A typical fund purchases stocks with the hope of selling them later after the price has gone up. Instead, an arbitrage fund purchases stock in the cash market and simultaneously sells that interest in the futures market. The differences between stock prices and [futures contracts](https://www.investopedia.com/terms/f/futurescontract.asp) are usually very small. As a result, arbitrage funds must execute a large number of trades each year to make any substantial gains.
 
 <https://www.investopedia.com/articles/investing/100515/what-exactly-are-arbitrage-mutual-funds.asp>
 

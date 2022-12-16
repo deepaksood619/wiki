@@ -42,7 +42,7 @@ Similar to adjectives, an adverb modifies a verb, an adjective, or another adver
 
 A word or phrase that modifies or qualifies an adjective, verb, or other adverb or a word group, expressing a relation of place, time, circumstance, manner, cause, degree, etc. (e.g.,*gently*,*quite*,*then*,*there*).
 
-An adverb is a word that is used to change, modify or qualify several types of words including an[adjective](http://www.gingersoftware.com/content/grammar-rules/adjectives/), a[verb](http://www.gingersoftware.com/content/grammar-rules/verbs/), a[clause](http://www.gingersoftware.com/content/grammar-rules/adverb/adverb-clauses/), another[adverb](http://www.gingersoftware.com/content/grammar-rules/adverb/), or any other type of word or phrase, with the exception of determiners and adjectives, that directly modify nouns. A good way to understand adverbs is to think about them as the words that provide context. Specifically, adverbs provide a description of how, where, when, in what manner and to what extent something is done or happens. Normally, we can spot an adverb by the fact that it often ends in --ly,but there are lots of adverbs that don't end in this way. Moreover, adverbs can be used in many combinations with each other.
+An adverb is a word that is used to change, modify or qualify several types of words including an [adjective](http://www.gingersoftware.com/content/grammar-rules/adjectives/), a [verb](http://www.gingersoftware.com/content/grammar-rules/verbs/), a [clause](http://www.gingersoftware.com/content/grammar-rules/adverb/adverb-clauses/), another [adverb](http://www.gingersoftware.com/content/grammar-rules/adverb/), or any other type of word or phrase, with the exception of determiners and adjectives, that directly modify nouns. A good way to understand adverbs is to think about them as the words that provide context. Specifically, adverbs provide a description of how, where, when, in what manner and to what extent something is done or happens. Normally, we can spot an adverb by the fact that it often ends in --ly,but there are lots of adverbs that don't end in this way. Moreover, adverbs can be used in many combinations with each other.
 
 <https://www.gingersoftware.com/content/grammar-rules/adverb>
 
@@ -99,7 +99,7 @@ Example - "Where did you put my cookies?" (Non-rhetorical. I would like an answe
 
 ## Common examples
 
-Common expressions such as "falling in love," "racking our brains," and "climbing the ladder of success" are all[metaphors](https://www.thoughtco.com/metaphor-figure-of-speech-and-thought-1691385)---the most pervasive figure of all. Likewise, we rely on[similes](https://www.thoughtco.com/simile-figure-of-speech-1692098)when making explicit comparisons ("light as a feather") and[hyperbole](https://www.thoughtco.com/hyperbole-figure-of-speech-1690941)to emphasize a point ("I'm starving!").
+Common expressions such as "falling in love," "racking our brains," and "climbing the ladder of success" are all [metaphors](https://www.thoughtco.com/metaphor-figure-of-speech-and-thought-1691385)---the most pervasive figure of all. Likewise, we rely on [similes](https://www.thoughtco.com/simile-figure-of-speech-1692098) when making explicit comparisons ("light as a feather") and [hyperbole](https://www.thoughtco.com/hyperbole-figure-of-speech-1690941) to emphasize a point ("I'm starving!").
 
 ## Figures of Speech
 
@@ -114,7 +114,7 @@ She sells seashells by the seashore.
 
 - [Anaphora](https://www.thoughtco.com/anaphora-figure-of-speech-1689092): The repetition of the same word or phrase at the beginning of successive clauses or verses.Example:Unfortunately, I was in the wrong place at the wrong time on the wrong day.
 
-- [Antithesis](https://www.thoughtco.com/antithesis-grammar-and-rhetoric-1689108): The[juxtaposition](https://www.thoughtco.com/juxtaposition-composition-term-1691090)of contrasting ideas in balanced phrases.Example: As Abraham Lincoln said, "Folks who have no vices have very few virtues."
+- [Antithesis](https://www.thoughtco.com/antithesis-grammar-and-rhetoric-1689108): The [juxtaposition](https://www.thoughtco.com/juxtaposition-composition-term-1691090) of contrasting ideas in balanced phrases.Example: As Abraham Lincoln said, "Folks who have no vices have very few virtues."
 
 - [Apostrophe](https://www.thoughtco.com/apostrophe-figure-of-speech-1689118): Directly addressing a nonexistent person or an inanimate object as though it were a living being.Example:"Oh, you stupid car, you never work when I need you to," Bert sighed.
 
@@ -188,13 +188,13 @@ precious like an angel
 
 - **Foreshadowing:** The literary deviceforeshadowingrefers to the use of words or phrases that set the stage for the story to unfold. It gives the reader a hint of something that is going to happen without revealing the story or spoiling the suspense.Foreshadowingis used to suggest an upcoming outcome to the story.
 
-- **Adage:** Anadage([/ˈædɪdʒ/](https://en.wikipedia.org/wiki/Help:IPA/English); Latin:adagium) is a concise, memorable, and usually[philosophical](https://en.wikipedia.org/wiki/Philosophical)[aphorism](https://en.wikipedia.org/wiki/Aphorism)that communicates an important truth derived from experience,[custom](https://en.wikipedia.org/wiki/Convention_(norm)), or both, and that many people consider true and credible because of its longeval tradition, i. e. being handed down generation to generation, or[memetic replication](https://en.wikipedia.org/wiki/Memetics).
+- **Adage:** Anadage([/ˈædɪdʒ/](https://en.wikipedia.org/wiki/Help:IPA/English); Latin:adagium) is a concise, memorable, and usually [philosophical](https://en.wikipedia.org/wiki/Philosophical)[aphorism](https://en.wikipedia.org/wiki/Aphorism) that communicates an important truth derived from experience,[custom](https://en.wikipedia.org/wiki/Convention_(norm)), or both, and that many people consider true and credible because of its longeval tradition, i. e. being handed down generation to generation, or [memetic replication](https://en.wikipedia.org/wiki/Memetics).
 
 Ex: do not count your chickens before they hatch", "do not burn your bridges, "if you find yourself in a hole, stop digging"
 
 - Analogy
 
-Analogy(from[Greek](https://en.wikipedia.org/wiki/Greek_language)ἀναλογία,analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a[cognitive](https://en.wikipedia.org/wiki/Cognition)process of transferring[information](https://en.wikipedia.org/wiki/Information)or[meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics))from a particular subject (the analog, or source) to another (the target), or a[linguistic](https://en.wikipedia.org/wiki/Language)expression corresponding to such a process. In a narrower sense, analogy is an[inference](https://en.wikipedia.org/wiki/Inference)or an[argument](https://en.wikipedia.org/wiki/Logical_argument)from one particular to another particular, as opposed to[deduction](https://en.wikipedia.org/wiki/Deductive_reasoning),[induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and[abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the[premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a[similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the[biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
+Analogy(from [Greek]$1 $2,analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a [cognitive](https://en.wikipedia.org/wiki/Cognition) process of transferring [information](https://en.wikipedia.org/wiki/Information) or [meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics)) from a particular subject (the analog, or source) to another (the target), or a [linguistic](https://en.wikipedia.org/wiki/Language) expression corresponding to such a process. In a narrower sense, analogy is an [inference](https://en.wikipedia.org/wiki/Inference) or an [argument](https://en.wikipedia.org/wiki/Logical_argument) from one particular to another particular, as opposed to [deduction](https://en.wikipedia.org/wiki/Deductive_reasoning),[induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and [abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the [premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a [similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the [biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
 
 ## False Analogy
 
@@ -219,7 +219,7 @@ Analogy(from[Greek](https://en.wikipedia.org/wiki/Greek_language)ἀναλογί
 
 # Word Play
 
-Word playis verbal wit: the manipulation of[language](https://www.thoughtco.com/what-is-a-language-1691218)(in particular, the sounds and meanings of[words](https://www.thoughtco.com/word-english-language-1692612)) with the intent to amuse. Also known as[logology](https://www.thoughtco.com/verbal-play-definition-1692184)and[verbal play](https://www.thoughtco.com/verbal-play-definition-1692184).
+Word playis verbal wit: the manipulation of [language](https://www.thoughtco.com/what-is-a-language-1691218)(in particular, the sounds and meanings of [words](https://www.thoughtco.com/word-english-language-1692612)) with the intent to amuse. Also known as [logology](https://www.thoughtco.com/verbal-play-definition-1692184) and [verbal play](https://www.thoughtco.com/verbal-play-definition-1692184).
 
 - [Antanaclasis](https://www.thoughtco.com/antanaclasis-word-play-1689098)
     "Your argument is sound, nothing but sound."- playing on the dual meaning of "sound" as a noun signifying something audible and as an adjective meaning "logical" or "well-reasoned."
@@ -237,7 +237,7 @@ Word playis verbal wit: the manipulation of[language](https://www.thoughtco.com/
     "Why not? Play captains against each other, create a little dysentery in the ranks."- using "dysentery" instead of the similar-sounding "dissent" to comic effect.
     (Christopher Moltisanti inThe Sopranos)
 
-- [Paronomasia](https://www.thoughtco.com/paronomasia-word-play-1691572)and[Puns](https://www.thoughtco.com/pun-word-play-1691703)
+- [Paronomasia](https://www.thoughtco.com/paronomasia-word-play-1691572) and [Puns](https://www.thoughtco.com/pun-word-play-1691703)
 
 "Hanging is too good for a man who makespuns; he should be drawn and quoted."- riffing on the similarity of "quoted" to "quartered" as in "drawn and quartered."
 (Fred Allen)

@@ -14,9 +14,9 @@ The LSAT is designed to measure skills that are considered essential for success
 
 There are three multiple-choice question types in the LSAT:
 
-- [Reading comprehension questions](https://www.lsac.org/jd/lsat/prep/reading-comprehension)measure the ability to read, with understanding and insight, examples of lengthy and complex materials similar to those commonly encountered in law school.
-- [Analytical reasoning questions](https://www.lsac.org/jd/lsat/prep/analytical-reasoning)measure the ability to understand a structure of relationships and to draw logical conclusions about that structure.
-- [Logical reasoning questions](https://www.lsac.org/jd/lsat/prep/logical-reasoning)assess the ability to analyze, critically evaluate, and complete arguments as they occur in ordinary language.
+- [Reading comprehension questions](https://www.lsac.org/jd/lsat/prep/reading-comprehension) measure the ability to read, with understanding and insight, examples of lengthy and complex materials similar to those commonly encountered in law school.
+- [Analytical reasoning questions](https://www.lsac.org/jd/lsat/prep/analytical-reasoning) measure the ability to understand a structure of relationships and to draw logical conclusions about that structure.
+- [Logical reasoning questions](https://www.lsac.org/jd/lsat/prep/logical-reasoning) assess the ability to analyze, critically evaluate, and complete arguments as they occur in ordinary language.
 
 Common wrong choices are
 

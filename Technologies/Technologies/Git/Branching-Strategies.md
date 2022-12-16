@@ -103,7 +103,7 @@ When developers want to publish a local commit, they push the commit to their ow
 
 - Start as simple as possible. Advance to more sophisticated approaches when the need emerges, but not before that.
 - Consider picking a strategy that reduces the different "types" of branches available for developers to choose from.
-- Consider using[feature flagging](https://rollout.io/blog/the-future-of-feature-flags-lies-in-infrastructure-as-code/), which can also reduce some of the need people have for excessive branching.
+- Consider using [feature flagging](https://rollout.io/blog/the-future-of-feature-flags-lies-in-infrastructure-as-code/), which can also reduce some of the need people have for excessive branching.
 
 ## References
 

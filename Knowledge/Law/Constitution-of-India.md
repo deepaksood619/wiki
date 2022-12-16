@@ -22,7 +22,7 @@ Modified: 2022-02-13 22:40:15 +0500
 
 U Can Fly Directly From US ~~to~~ UP ~~to~~ Meet Child ~~of~~ Shyam ~~and~~ Ram; Fruits Taste Sweet To Eat So Only Eat Maggie As Tasty Snack
 
-Constitution of India contains 395 articles in 22 parts. Additional[articles and parts](https://www.clearias.com/indian-constitution-parts-articles/)are inserted later through various amendments. There are also 12[schedules in the Indian Constitution](https://www.clearias.com/schedules-indian-constitution/).
+Constitution of India contains 395 articles in 22 parts. Additional [articles and parts](https://www.clearias.com/indian-constitution-parts-articles/) are inserted later through various amendments. There are also 12 [schedules in the Indian Constitution](https://www.clearias.com/schedules-indian-constitution/).
 
 [**PREAMBLE**](https://www.clearias.com/preamble-of-indian-constitution/)
 
@@ -200,7 +200,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 ## The President and Vice-President
 
-52[The President of India](https://www.clearias.com/president-of-india/).
+52 [The President of India](https://www.clearias.com/president-of-india/).
 
 53 The executive power of the Union.
 
@@ -222,7 +222,7 @@ IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November 1949, do HEREBY AD
 
 62 Time of holding the election to fill the vacancy in the office of President and the term of office of person elected to fill the casual vacancy.
 
-63[The Vice-President of India](https://www.clearias.com/vice-president-of-india/).
+63 [The Vice-President of India](https://www.clearias.com/vice-president-of-india/).
 
 64 The Vice-President to be ex officio Chairman of the Council of States.
 
@@ -368,7 +368,7 @@ Procedure Generally
 
 ## CHAPTER III: LEGISLATIVE POWERS OF THE PRESIDENT
 
-123[Power of President to promulgate Ordinances during recess of Parliament](https://www.clearias.com/ordinance-making-power-president/).
+123 [Power of President to promulgate Ordinances during recess of Parliament](https://www.clearias.com/ordinance-making-power-president/).
 
 [**CHAPTER IV: THE UNION JUDICIARY**](https://www.clearias.com/union-judiciary-supreme-court/)
 

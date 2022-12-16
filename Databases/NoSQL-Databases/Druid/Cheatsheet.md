@@ -317,8 +317,8 @@ COALES­CE(­value1, value2, ...)
 | LOG10(­expr)                                                                                |
 | POWER(­expr, power)                                                                         |
 | SQRT(expr)                                                                                 |
-| TRUNCA­TE(­expr[, digits])                                                                 |
-| TRUNC(­expr[, digits])                                                                    |
+| TRUNCA­TE(­expr [, digits])                                                                 |
+| TRUNC(­expr [, digits])                                                                    |
 | x + y                                                                                      |
 | x - y                                                                                      |
 | x * y                                                                                     |
@@ -343,8 +343,8 @@ COALES­CE(­value1, value2, ...)
 | SUBSTR­ING­(expr, index, [length])                                              |
 | SUBSTR­(expr, index, [length])                                                 |
 | TRIM([BOTH | LEADING | TRAILING] [< ­c­har­s > FROM] expr)                   |
-| BTRIM(­expr[, chars])                                                          |
-| LTRIM(­expr[, chars])                                                          |
+| BTRIM(­expr [, chars])                                                          |
+| LTRIM(­expr [, chars])                                                          |
 | UPPER(­expr)                                                                     |
 | String functions accept strings, and return a type approp­riate to the function. |
 

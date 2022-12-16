@@ -150,9 +150,9 @@ headers = {
     print('Running test with {} threads'.format(threads))
  for thread in range(threads):
         thread_pool.append(multiprocessing.Process(target=test, args=(thread, 20)))
-        thread_pool[thread].start()
+        thread_pool [thread].start()
  for thread in range(threads):
-        thread_pool[thread].join()
+        thread_pool [thread].join()
  end_batch = datetime.datetime.now()
     return "total duration: {:7.5f}s".format(
         end_batch.timestamp() - start_batch.timestamp()

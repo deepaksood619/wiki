@@ -8,7 +8,7 @@ Modified: 2022-05-23 20:47:10 +0500
 
 ## Exchangeable image file format (EXIF)
 
-Exchangeable image file format(officiallyExif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the[formats](https://en.wikipedia.org/wiki/File_format)for[images](https://en.wikipedia.org/wiki/Image),[sound](https://en.wikipedia.org/wiki/Sound), and ancillary tags used by[digital cameras](https://en.wikipedia.org/wiki/Digital_camera) (including [smartphones](https://en.wikipedia.org/wiki/Smartphone)), [scanners](https://en.wikipedia.org/wiki/Image_scanner)and other systems handling image and sound files recorded by digital cameras.
+Exchangeable image file format(officiallyExif, according to JEIDA/JEITA/CIPA specifications) is a standard that specifies the [formats](https://en.wikipedia.org/wiki/File_format) for [images](https://en.wikipedia.org/wiki/Image),[sound](https://en.wikipedia.org/wiki/Sound), and ancillary tags used by [digital cameras](https://en.wikipedia.org/wiki/Digital_camera) (including [smartphones](https://en.wikipedia.org/wiki/Smartphone)), [scanners](https://en.wikipedia.org/wiki/Image_scanner) and other systems handling image and sound files recorded by digital cameras.
 
 <https://en.wikipedia.org/wiki/Exif>
 
@@ -40,9 +40,9 @@ Exchangeable image file format(officiallyExif, according to JEIDA/JEITA/CIPA spe
 
 WebP is a modernimage formatthat provides superiorlossless and lossycompression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the web faster.
 
-WebP lossless images are[26% smaller](https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results)in size compared to PNGs. WebP lossy images are[25-34% smaller](https://developers.google.com/speed/webp/docs/webp_study)than comparable JPEG images at equivalent[SSIM](https://en.wikipedia.org/wiki/Structural_similarity)quality index.
+WebP lossless images are [26% smaller](https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results) in size compared to PNGs. WebP lossy images are [25-34% smaller](https://developers.google.com/speed/webp/docs/webp_study) than comparable JPEG images at equivalent [SSIM](https://en.wikipedia.org/wiki/Structural_similarity) quality index.
 
-Lossless WebPsupports transparency(also known as alpha channel) at a cost of just[22% additional bytes](https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results). For cases when lossy RGB compression is acceptable,lossy WebP also supports transparency, typically providing 3× smaller file sizes compared to PNG.
+Lossless WebPsupports transparency(also known as alpha channel) at a cost of just [22% additional bytes](https://developers.google.com/speed/webp/docs/webp_lossless_alpha_study#results). For cases when lossy RGB compression is acceptable,lossy WebP also supports transparency, typically providing 3× smaller file sizes compared to PNG.
 
 ## How WebP Works
 

@@ -28,7 +28,7 @@ At its core, a volume is just a directory, possibly with some data in it, which 
 
 To use a volume, a Pod specifies what volumes to provide for the Pod (the.spec.volumesfield) and where to mount those into Containers (the.spec.containers.volumeMountsfield).
 
-A process in a container sees a filesystem view composed from their Docker image and volumes. The[Docker image](https://docs.docker.com/userguide/dockerimages/)is at the root of the filesystem hierarchy, and any volumes are mounted at the specified paths within the image. Volumes can not mount onto other volumes or have hard links to other volumes. Each Container in the Pod must independently specify where to mount each volume.
+A process in a container sees a filesystem view composed from their Docker image and volumes. The [Docker image](https://docs.docker.com/userguide/dockerimages/) is at the root of the filesystem hierarchy, and any volumes are mounted at the specified paths within the image. Volumes can not mount onto other volumes or have hard links to other volumes. Each Container in the Pod must independently specify where to mount each volume.
 
 ## emptyDir
 
@@ -81,7 +81,7 @@ A cluster administrator creates a number of PVs. They carry the details of the r
 
 - Dynamic
 
-When none of the static PVs the administrator created matches a user's**PersistentVolumeClaim**, the cluster may try to dynamically provision a volume specially for the PVC. This provisioning is based on**StorageClasses**: the PVC must request a[storage class](https://kubernetes.io/docs/concepts/storage/storage-classes/)and the administrator must have created and configured that class in order for dynamic provisioning to occur.
+When none of the static PVs the administrator created matches a user's**PersistentVolumeClaim**, the cluster may try to dynamically provision a volume specially for the PVC. This provisioning is based on**StorageClasses**: the PVC must request a [storage class](https://kubernetes.io/docs/concepts/storage/storage-classes/) and the administrator must have created and configured that class in order for dynamic provisioning to occur.
 
 2. **Binding**
 
@@ -160,7 +160,7 @@ The name of a**StorageClass**object is significant, and is how users can request
 
 ## Dynamic Volume Provisioning
 
-Dynamic volume provisioning allows storage volumes to be created on-demand. Without dynamic provisioning, cluster administrators have to manually make calls to their cloud or storage provider to create new storage volumes, and then create[**PersistentVolume**objects](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)to represent them in Kubernetes. The dynamic provisioning feature eliminates the need for cluster administrators to pre-provision storage. Instead, it automatically provisions storage when it is requested by users.
+Dynamic volume provisioning allows storage volumes to be created on-demand. Without dynamic provisioning, cluster administrators have to manually make calls to their cloud or storage provider to create new storage volumes, and then create [**PersistentVolume**objects](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) to represent them in Kubernetes. The dynamic provisioning feature eliminates the need for cluster administrators to pre-provision storage. Instead, it automatically provisions storage when it is requested by users.
 
 ## Share files/folders between containers in a pod
 
@@ -170,7 +170,7 @@ Dynamic volume provisioning allows storage volumes to be created on-demand. With
 
 A local persistent volume represents a local disk directly-attached to a single Kubernetes Node.
 
-Kubernetes provides a powerful volume plugin system that enables Kubernetes workloads to use a[wide variety](https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes)of block and file storage to persist data. Most of these plugins enable remote storage -- these remote storage systems persist data independent of the Kubernetes node where the data originated. Remote storage usually can not offer the consistent high performance guarantees of local directly-attached storage. With the Local Persistent Volume plugin, Kubernetes workloads can now consume high performance local storage using the same volume APIs that app developers have become accustomed to.
+Kubernetes provides a powerful volume plugin system that enables Kubernetes workloads to use a [wide variety](https://kubernetes.io/docs/concepts/storage/volumes/#types-of-volumes) of block and file storage to persist data. Most of these plugins enable remote storage -- these remote storage systems persist data independent of the Kubernetes node where the data originated. Remote storage usually can not offer the consistent high performance guarantees of local directly-attached storage. With the Local Persistent Volume plugin, Kubernetes workloads can now consume high performance local storage using the same volume APIs that app developers have become accustomed to.
 
 <https://kubernetes.io/blog/2019/04/04/kubernetes-1.14-local-persistent-volumes-ga>
 

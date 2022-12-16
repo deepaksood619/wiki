@@ -152,8 +152,8 @@ XINFO HELP
 
 ## XPENDING
 
-Fetching data from a stream via a consumer group, and not acknowledging such data, has the effect of creating*pending entries*.The[XACK](https://redis.io/commands/xack)command will immediately remove the pending entry from the Pending Entries List (PEL) since once a message is successfully processed, there is no longer need for the consumer group to track it and to remember the current owner of the message.
-The[XPENDING](https://redis.io/commands/xpending)command is the interface to inspect the list of pending messages, and is as thus a very important command in order to observe and understand what is happening with a streams consumer groups: what clients are active, what messages are pending to be consumed, or to see if there are idle messages
+Fetching data from a stream via a consumer group, and not acknowledging such data, has the effect of creating*pending entries*.The [XACK](https://redis.io/commands/xack) command will immediately remove the pending entry from the Pending Entries List (PEL) since once a message is successfully processed, there is no longer need for the consumer group to track it and to remember the current owner of the message.
+The [XPENDING](https://redis.io/commands/xpending) command is the interface to inspect the list of pending messages, and is as thus a very important command in order to observe and understand what is happening with a streams consumer groups: what clients are active, what messages are pending to be consumed, or to see if there are idle messages
 <https://redis.io/commands/xpending>
 
 ## Differences with Kafka partitions**
@@ -201,7 +201,7 @@ A Stream, like any other Redis data structure, is asynchronously replicated to s
 
 ## PUBSUB
 
-[SUBSCRIBE](https://redis.io/commands/subscribe),[UNSUBSCRIBE](https://redis.io/commands/unsubscribe)and[PUBLISH](https://redis.io/commands/publish)implement the[Publish/Subscribe messaging paradigm](http://en.wikipedia.org/wiki/Publish/subscribe)where (citing Wikipedia) senders (publishers) are not programmed to send their messages to specific receivers (subscribers). Rather, published messages are characterized into channels, without knowledge of what (if any) subscribers there may be. Subscribers express interest in one or more channels, and only receive messages that are of interest, without knowledge of what (if any) publishers there are. This decoupling of publishers and subscribers can allow for greater scalability and a more dynamic network topology.
+[SUBSCRIBE](https://redis.io/commands/subscribe),[UNSUBSCRIBE](https://redis.io/commands/unsubscribe) and [PUBLISH](https://redis.io/commands/publish) implement the [Publish/Subscribe messaging paradigm](http://en.wikipedia.org/wiki/Publish/subscribe) where (citing Wikipedia) senders (publishers) are not programmed to send their messages to specific receivers (subscribers). Rather, published messages are characterized into channels, without knowledge of what (if any) subscribers there may be. Subscribers express interest in one or more channels, and only receive messages that are of interest, without knowledge of what (if any) publishers there are. This decoupling of publishers and subscribers can allow for greater scalability and a more dynamic network topology.
 <https://redis.io/topics/pubsub>
 
 ## PUBSUB vs Streams**
@@ -223,7 +223,7 @@ Redis Streams allows for both At-most-once or At-least-once (explicit acknowledg
 
 ## Blocking mode for consumers
 
-Pub/Sub is blocking-mode only. Once subscribed to a channel, the client is put into subscriber mode and it cannot issue commands (except for[P]SUBSCRIBE,[P]UNSUBSCRIBE,PINGandQUIT), it has become read-only.
+Pub/Sub is blocking-mode only. Once subscribed to a channel, the client is put into subscriber mode and it cannot issue commands (except for [P]SUBSCRIBE,[P]UNSUBSCRIBE,PINGandQUIT), it has become read-only.
 Redis Streams allows consumers to read messages in blocking mode or not.
 
 ## Fan-out

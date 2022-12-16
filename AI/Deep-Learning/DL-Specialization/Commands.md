@@ -8,10 +8,10 @@ Modified: 2021-04-03 23:36:31 +0500
 
 ## Libraries
 
-- [numpy](https://idrgfain.labs.coursera.org/notebooks/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/www.numpy.org)is the fundamental package for scientific computing with Python.
-- [h5py](http://www.h5py.org/)is a common package to interact with a dataset that is stored on an H5 file.
-- [matplotlib](http://matplotlib.org/)is a famous library to plot graphs in Python.
-- [PIL](http://www.pythonware.com/products/pil/)and[scipy](https://www.scipy.org/)are used here to test your model with your own picture at the end.
+- [numpy](https://idrgfain.labs.coursera.org/notebooks/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/www.numpy.org) is the fundamental package for scientific computing with Python.
+- [h5py](http://www.h5py.org/) is a common package to interact with a dataset that is stored on an H5 file.
+- [matplotlib](http://matplotlib.org/) is a famous library to plot graphs in Python.
+- [PIL](http://www.pythonware.com/products/pil/) and [scipy](https://www.scipy.org/) are used here to test your model with your own picture at the end.
 
 ## Python- Numpy Vectors
 
@@ -53,7 +53,7 @@ def sigmoid_derivative(x):
     ds = s*(1-s)
 
 def image2vector(image):
-    v = image.reshape(image.shape[0]*image.shape[1]*image.shape[2], 1)
+    v = image.reshape(image.shape [0]*image.shape [1]*image.shape [2], 1)
 
 def normalizeRows(x):
     x_norm = np.linalg.norm(x, ord = 2, axis=1, keepdims=True)
@@ -72,5 +72,5 @@ def L2(yhat, y):
 
 A trick when you want to flatten a matrix X of shape (a,b,c,d) to a matrix X_flatten of shape (b∗∗c∗∗d, a) is to use:
 
-X_flatten = X.reshape(X.shape[0], -1).T
+X_flatten = X.reshape(X.shape [0], -1).T
 ```

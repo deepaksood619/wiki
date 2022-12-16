@@ -30,7 +30,7 @@ Blazing fast, structured, leveled logging in Go.
 
 ## httprouter
 
-HttpRouter is a lightweight high performance HTTP request router (also calledmultiplexeror justmuxfor short) for[Go](https://golang.org/).
+HttpRouter is a lightweight high performance HTTP request router (also calledmultiplexeror justmuxfor short) for [Go](https://golang.org/).
 
 <https://github.com/julienschmidt/httprouter>
 

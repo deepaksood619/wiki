@@ -61,7 +61,7 @@ return f"{datetime.datetime.now():%Y-%m-%d}.png"
 ```
 
 Similarly, you could imagine a function which returns the weather in an English sentence and uses an API to get the actual weather ([example](https://gist.github.com/MartinThoma/5c7224ceae47e74645e0145d26dc03ec)).
-Example 3: In my project[edapy](https://github.com/MartinThoma/edapy)I looked at metadata from PDF files. I use the dependency PdfFileReader and have the file itself as an dependency. As the PDF file could be broken, PyPDF2 might throw an exception. So you can imagine code like this:
+Example 3: In my project [edapy](https://github.com/MartinThoma/edapy) I looked at metadata from PDF files. I use the dependency PdfFileReader and have the file itself as an dependency. As the PDF file could be broken, PyPDF2 might throw an exception. So you can imagine code like this:
 
 ```python
 import PyPDF2.utils
@@ -77,7 +77,7 @@ pdf_toread = PdfFileReader(fp, strict=False)
 
 except PyPDF2.utils.PdfReadError:
 
-info["is_errornous"] = True
+info ["is_errornous"] = True
 
 return info
 
@@ -190,7 +190,7 @@ assert generate_filename() == "1990-04-28.png"
 You now know how to replace a dependency, hence it is time to talk about what to replace it with. This is whereunittest.mock.Mockandunittest.mock.MagicMockcome into play.
 Everything you do with Mock will return a Mock. Call a function? Get a Mock as a return value. Access an attribute? Get a Mock as a value.
 Python has so called "magic" methods. I like the term "dunder" methods better --- it just means all methods which start and end with adoubleunderscore. Examples are__iter__or__contains__. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
-A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are[assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(),[assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(),[assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
+A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are [assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(),[assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(),[assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
 
 ## spec, autospec & spec_set
 
@@ -247,7 +247,7 @@ The question when you should useunittest.mock.patchand --- if necessary ---unitt
 ## External Packages
 
 There are a couple of packages designed for simplifying the patching and giving better mocks for well-known dependencies.
-For example, you can use[freezegun](https://pypi.org/project/freezegun/)for mocking the system time:
+For example, you can use [freezegun](https://pypi.org/project/freezegun/) for mocking the system time:
 
 ```python
 import freezegun
@@ -257,8 +257,8 @@ from mock_example import generate_filenamedef test_generate_filename():
 with freeze_time("1990-04-28"):
 
 assert generate_filename() == "1990-04-28"
-For boto3 / botocore (Cloud-stuff), there is[moto](https://pypi.org/project/moto/).
-For[requests](https://pypi.org/project/requests/), there is[responses](https://pypi.org/project/responses/):
+For boto3 / botocore (Cloud-stuff), there is [moto](https://pypi.org/project/moto/).
+For [requests](https://pypi.org/project/requests/), there is [responses](https://pypi.org/project/responses/):
 
 import requests
 def get_ip():
@@ -317,8 +317,8 @@ In some cases it feels very natural to apply such a pattern, in others it doesn'
 
 It depends very much on the details, but I like to mock as little as possible. Simply for the reason that not mocking means that you test more of your system. Strictly speaking you can't call the test aunit testanymore if you test more than one unit. It would be an integration test then --- but that is also essential, right? You wouldn't be happy with BMW selling you a motor, some seats and a steering wheel and claiming "all units work". They need work together. Extensive mocks might prevent you from testing how things work together.
 In an ideal world, you would have both: Unit tests which are very controlled and in case of failure make it easy to narrow down the source of the error. And integration / end-to-end tests which show that the complete system works.
-There are also people who think that the need to mock is an indicator for a need to refactor ([discussion](https://github.com/pytest-dev/pytest/issues/4576#issuecomment-449865322)). Harry Percival gave the talk[Stop Using Mocks (for a while)](https://www.youtube.com/watch?v=rk-f3B-eMkI)at PyCon 2020 and pointed out that testing code which is using mocks tends to be brittle as it is tightly coupled to implementation details.
-A good example where I usually don't mock anything are file system interactions. If possible, I write the file just like it would be in the real application. When the test is finished, the test needs to clean up as well. I use the[tempfile](https://docs.python.org/3/library/tempfile.html)module for that.
+There are also people who think that the need to mock is an indicator for a need to refactor ([discussion](https://github.com/pytest-dev/pytest/issues/4576#issuecomment-449865322)). Harry Percival gave the talk [Stop Using Mocks (for a while)](https://www.youtube.com/watch?v=rk-f3B-eMkI) at PyCon 2020 and pointed out that testing code which is using mocks tends to be brittle as it is tightly coupled to implementation details.
+A good example where I usually don't mock anything are file system interactions. If possible, I write the file just like it would be in the real application. When the test is finished, the test needs to clean up as well. I use the [tempfile](https://docs.python.org/3/library/tempfile.html) module for that.
 
 ## Dependency Injection: Randomness
 
@@ -353,17 +353,17 @@ Setting a random state / seed is also very helpful for debugging. If you haven't
 - **Patching vs Mocking:** Patching a function is adjusting it's functionality. In the context of unit testing we patch a dependency away; so we replace the dependency. Mocking is imitating. Usually we patch a function to use a mock we control instead of a dependency we don't control.
 - **Monkey patching vs Mocking:** Within a development context, mocking is pretty clearly about unit testing ([example](https://stackoverflow.com/a/2666006/562769)). However, monkey patching has several applications besides unit testing. For example, you can patch third party code during runtime if there is a small functionality missing or a part of the code is broken. You just extend the code. Monkey patching is used in the PyCharm debugger
 - **Monkey patching vs pytest.monkeypatch:** The first one is a general concept, the second one is a concrete function within pytest which applies monkey patching for unit tests.
-- **unittest.mock.patch vs pytest.monkeypatch:** This is personal preference. I prefer to stick with built-ins whenever the third-party option does not have big advantages. In this case, I even think that the core Python unittest.mock.patch is cleaner. For this reason I didn't explain pytest.monkeypatch so far. If you like to see the differences, there is a nice[blog post](https://krzysztofzuraw.com/blog/2016/mocks-monkeypatching-in-python.html)about it.
+- **unittest.mock.patch vs pytest.monkeypatch:** This is personal preference. I prefer to stick with built-ins whenever the third-party option does not have big advantages. In this case, I even think that the core Python unittest.mock.patch is cleaner. For this reason I didn't explain pytest.monkeypatch so far. If you like to see the differences, there is a nice [blog post](https://krzysztofzuraw.com/blog/2016/mocks-monkeypatching-in-python.html) about it.
 
 ## A note about Architecture
 
-To keep your code clean, it is often a good idea to wrap third party dependencies. For example, you could have one module with deals with I/O. Or a module which deals with API requests. Then you have a couple of modules which might require a lot of mocking or where unit tests are pointless because the interesting part is the integration with the third party. The rest of your code stays easy to test, keeps the language you defined and cares about the objects you know. This is called the[Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern).
+To keep your code clean, it is often a good idea to wrap third party dependencies. For example, you could have one module with deals with I/O. Or a module which deals with API requests. Then you have a couple of modules which might require a lot of mocking or where unit tests are pointless because the interesting part is the integration with the third party. The rest of your code stays easy to test, keeps the language you defined and cares about the objects you know. This is called the [Adapter pattern](https://en.wikipedia.org/wiki/Adapter_pattern).
 
 ## What else is there?
 
-- Other types of Mocks, such as[PropertyMock](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.PropertyMock)or
-- [pytest-mock](https://pypi.org/project/pytest-mock/)which provides the mocker fixture; I'm not really sure though if this is mainly a left-over from the time before Python 3.3 or if it actually makes things easier.
-- The 3rd party package[mock](https://pypi.org/project/mock/), which should not be installed with Python 3.3+ as it was put in the standard library.
+- Other types of Mocks, such as [PropertyMock](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.PropertyMock) or
+- [pytest-mock](https://pypi.org/project/pytest-mock/) which provides the mocker fixture; I'm not really sure though if this is mainly a left-over from the time before Python 3.3 or if it actually makes things easier.
+- The 3rd party package [mock](https://pypi.org/project/mock/), which should not be installed with Python 3.3+ as it was put in the standard library.
 
 ## Tools
 
@@ -371,9 +371,9 @@ To keep your code clean, it is often a good idea to wrap third party dependencie
 
 For any system you integrate with via HTTP or HTTPS MockServer can be used as:
 
-- a[mock](https://www.mock-server.com/mock_server/getting_started.html)configured to return specific responses for different requests
-- a[proxy](https://www.mock-server.com/proxy/getting_started.html)recording and optionally modifying requests and responses
-- both a[proxy](https://www.mock-server.com/proxy/getting_started.html)for some requests and a[mock](https://www.mock-server.com/mock_server/getting_started.html)for other requests at the same time
+- a [mock](https://www.mock-server.com/mock_server/getting_started.html) configured to return specific responses for different requests
+- a [proxy](https://www.mock-server.com/proxy/getting_started.html) recording and optionally modifying requests and responses
+- both a [proxy](https://www.mock-server.com/proxy/getting_started.html) for some requests and a [mock](https://www.mock-server.com/mock_server/getting_started.html) for other requests at the same time
 <https://www.mock-server.com>
 
 <https://github.com/mock-server/mockserver>

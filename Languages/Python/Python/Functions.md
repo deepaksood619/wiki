@@ -86,7 +86,7 @@ pizza = {'Pizza number' : item_number}
 
 for topping in toppings:
 
-pizza[topping] = 1
+pizza [topping] = 1
 
 return pizza
 
@@ -102,7 +102,7 @@ pizza = {'Pizza number' : item_number}
 
 for key, value in toppings.items():
 
-pizza[key] = value
+pizza [key] = value
 
 return pizza
 

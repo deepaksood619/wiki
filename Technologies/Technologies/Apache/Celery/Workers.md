@@ -31,7 +31,7 @@ The--poolcommand line argument is optional. If not specified, Celery defaults to
 
 ## Prefork
 
-The prefork pool implementation is based on Python's[multiprocessing](https://docs.python.org/dev/library/multiprocessing.html#module-multiprocessing)package. It allows your Celery worker to side-step[Python's Global Interpreter Lock](https://docs.python.org/dev/glossary.html#term-global-interpreter-lock)and fully leverage multiple processors on a given machine.
+The prefork pool implementation is based on Python's [multiprocessing](https://docs.python.org/dev/library/multiprocessing.html#module-multiprocessing) package. It allows your Celery worker to side-step [Python's Global Interpreter Lock](https://docs.python.org/dev/glossary.html#term-global-interpreter-lock) and fully leverage multiple processors on a given machine.
 
 You want to use the prefork pool if your tasks are CPU bound. A task is CPU bound, if it spends the majority of its time using the CPU (crunching numbers). Your task could only go faster if your CPU were faster.
 
@@ -77,7 +77,7 @@ celery worker --app=worker.app --pool=eventlet --concurreny=500
 
 Both pool options are based on the same concept: Spawn a greenlet pool. The difference is that --pool=gevent uses the gevent Greenlet pool (gevent.pool.Pool). Whereas --pool=eventlet uses the eventlet Greenlet pool (eventlet.GreenPool).
 
-[gevent](http://www.gevent.org/)and[eventlet](http://eventlet.net/)are both packages that you need to pip-install yourself. There are implementation differences between the eventlet and gevent packages. Depending on your circumstances, one can perform better than the other. It is worthwhile trying out both.
+[gevent](http://www.gevent.org/) and [eventlet](http://eventlet.net/) are both packages that you need to pip-install yourself. There are implementation differences between the eventlet and gevent packages. Depending on your circumstances, one can perform better than the other. It is worthwhile trying out both.
 
 ## The concurrency option
 
@@ -117,26 +117,26 @@ What can you do if you have a mix of CPU and I/O bound tasks? Set up two queues 
 
 Eventlet is a concurrent networking library for Python that allows you to change how you run your code, not how you write it.
 
-- It uses epoll or kqueue or libevent for[highly scalable non-blocking I/O](http://en.wikipedia.org/wiki/Asynchronous_I/O#Select.28.2Fpoll.29_loops).
-- [Coroutines](http://en.wikipedia.org/wiki/Coroutine)ensure that the developer uses a blocking style of programming that is similar to threading, but provide the benefits of non-blocking I/O.
+- It uses epoll or kqueue or libevent for [highly scalable non-blocking I/O](http://en.wikipedia.org/wiki/Asynchronous_I/O#Select.28.2Fpoll.29_loops).
+- [Coroutines](http://en.wikipedia.org/wiki/Coroutine) ensure that the developer uses a blocking style of programming that is similar to threading, but provide the benefits of non-blocking I/O.
 - The event dispatch is implicit, which means you can easily use Eventlet from the Python interpreter, or as a small part of a larger application.
 
-It's easy to get started using Eventlet, and easy to convert existing applications to use it. Start off by looking at[examples](http://eventlet.net/doc/examples.html),[common design patterns](http://eventlet.net/doc/design_patterns.html), and the list of the[basic API primitives](http://eventlet.net/doc/basic_usage.html).
+It's easy to get started using Eventlet, and easy to convert existing applications to use it. Start off by looking at [examples](http://eventlet.net/doc/examples.html),[common design patterns](http://eventlet.net/doc/design_patterns.html), and the list of the [basic API primitives](http://eventlet.net/doc/basic_usage.html).
 
 ## GEvent
 
-gevent is a[coroutine](https://en.wikipedia.org/wiki/Coroutine)based[Python](http://python.org/)networking library that uses[greenlet](https://greenlet.readthedocs.io/)to provide a high-level synchronous API on top of the[libev](http://software.schmorp.de/pkg/libev.html)or[libuv](http://libuv.org/)event loop.
+gevent is a [coroutine](https://en.wikipedia.org/wiki/Coroutine) based [Python](http://python.org/) networking library that uses [greenlet](https://greenlet.readthedocs.io/) to provide a high-level synchronous API on top of the [libev](http://software.schmorp.de/pkg/libev.html) or [libuv](http://libuv.org/) event loop.
 
 ## Features include
 
-- Fast event loop based on[libev](http://software.schmorp.de/pkg/libev.html)or[libuv](http://libuv.org/).
+- Fast event loop based on [libev](http://software.schmorp.de/pkg/libev.html) or [libuv](http://libuv.org/).
 - Lightweight execution units based on greenlets.
-- API that re-uses concepts from the Python standard library (for examples there are[events](http://www.gevent.org/api/gevent.event.html#gevent.event.Event)and [queues](http://www.gevent.org/api/gevent.queue.html#gevent.queue.Queue)).
+- API that re-uses concepts from the Python standard library (for examples there are [events](http://www.gevent.org/api/gevent.event.html#gevent.event.Event) and [queues](http://www.gevent.org/api/gevent.queue.html#gevent.queue.Queue)).
 - [Cooperative sockets with SSL support](http://www.gevent.org/api/index.html#networking)
-- [Cooperative DNS queries](http://www.gevent.org/dns.html)performed through a threadpool, dnspython, or c-ares.
-- [Monkey patching utility](http://www.gevent.org/intro.html#monkey-patching)to get 3rd party modules to become cooperative
+- [Cooperative DNS queries](http://www.gevent.org/dns.html) performed through a threadpool, dnspython, or c-ares.
+- [Monkey patching utility](http://www.gevent.org/intro.html#monkey-patching) to get 3rd party modules to become cooperative
 - TCP/UDP/HTTP servers
-- Subprocess support (through[gevent.subprocess](http://www.gevent.org/api/gevent.subprocess.html#module-gevent.subprocess))
+- Subprocess support (through [gevent.subprocess](http://www.gevent.org/api/gevent.subprocess.html#module-gevent.subprocess))
 - Thread pools
 
-gevent is[inspired by eventlet](http://blog.gevent.org/2010/02/27/why-gevent/)but features a more consistent API, simpler implementation and better performance.
+gevent is [inspired by eventlet](http://blog.gevent.org/2010/02/27/why-gevent/) but features a more consistent API, simpler implementation and better performance.

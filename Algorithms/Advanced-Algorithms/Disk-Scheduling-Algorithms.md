@@ -8,11 +8,11 @@ Modified: 2019-12-05 17:29:54 +0500
 
 - **Elevator algorithm / SCAN**
 
-The**elevator algorithm**(also**SCAN**) is a[disk](https://en.wikipedia.org/wiki/Hard_disk)-[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm to determine the motion of the disk's arm and head in servicing read and write requests.
+The**elevator algorithm**(also**SCAN**) is a [disk](https://en.wikipedia.org/wiki/Hard_disk)-[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling) algorithm to determine the motion of the disk's arm and head in servicing read and write requests.
 
-This algorithm is named after the behavior of a building[elevator](https://en.wikipedia.org/wiki/Elevator), where the elevator continues to travel in its current direction (up or down) until empty, stopping only to let individuals off or to pick up new individuals heading in the same direction.
+This algorithm is named after the behavior of a building [elevator](https://en.wikipedia.org/wiki/Elevator), where the elevator continues to travel in its current direction (up or down) until empty, stopping only to let individuals off or to pick up new individuals heading in the same direction.
 
-From an implementation perspective, the[drive](https://en.wikipedia.org/wiki/Disk_drive)maintains a[buffer](https://en.wikipedia.org/wiki/Data_buffer)of pending read/write requests, along with the associated[cylinder](https://en.wikipedia.org/wiki/Cylinder_(disk_drive))number of the request. (Lower cylinder numbers generally indicate that the cylinder is closer to the spindle, and higher numbers indicate the cylinder is farther away.)
+From an implementation perspective, the [drive](https://en.wikipedia.org/wiki/Disk_drive) maintains a [buffer](https://en.wikipedia.org/wiki/Data_buffer) of pending read/write requests, along with the associated [cylinder](https://en.wikipedia.org/wiki/Cylinder_(disk_drive)) number of the request. (Lower cylinder numbers generally indicate that the cylinder is closer to the spindle, and higher numbers indicate the cylinder is farther away.)
 
 When a new request arrives while the drive is idle, the initial arm/head movement will be in the direction of the cylinder where the data is stored, eitherinorout. As additional requests arrive, requests are serviced only in the current direction of arm movement until the arm reaches the edge of the disk. When this happens, the direction of the arm reverses, and the requests that were remaining in the opposite direction are serviced, and so on.
 
@@ -30,21 +30,21 @@ Other variations include:
 
 - **FSCAN**
 
-## FScanis a disk[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm to determine the motion of the disk's arm and head in servicing read and write requests. It uses two sub-queues. During the scan, all of the requests are in the first queue and all new requests are put into the second[queue](https://en.wikipedia.org/wiki/Queue_(data_structure)). Thus, service of new requests is deferred until all of the old requests have been processed. When the scan ends, the arm is taken to the first queue entries and is started all over again
+## FScanis a disk [scheduling](https://en.wikipedia.org/wiki/I/O_scheduling) algorithm to determine the motion of the disk's arm and head in servicing read and write requests. It uses two sub-queues. During the scan, all of the requests are in the first queue and all new requests are put into the second [queue](https://en.wikipedia.org/wiki/Queue_(data_structure)). Thus, service of new requests is deferred until all of the old requests have been processed. When the scan ends, the arm is taken to the first queue entries and is started all over again
 
 ## Analysis
 
-FSCAN along with[N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN)prevents "arm stickiness" unlike[SSTF](https://en.wikipedia.org/wiki/Shortest_seek_first),[SCAN](https://en.wikipedia.org/wiki/Elevator_algorithm), and[C-SCAN](https://en.wikipedia.org/wiki/C-SCAN). Arm stickiness in those other algorithms occurs when a stream of requests for the same track causes the disk arm to stop progressing at that track, preferring to satisfy the no-seek requests for the track it is on. Because FSCAN separates requests into two queues, with new requests going into a waiting queue, the arm continues its sweep to the outer track and is therefore not "sticky." There is an obvious trade-off in that the requests in the waiting queue must wait longer to be fulfilled, but in exchange FSCAN is more fair to all requests.
+FSCAN along with [N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN) prevents "arm stickiness" unlike [SSTF](https://en.wikipedia.org/wiki/Shortest_seek_first),[SCAN](https://en.wikipedia.org/wiki/Elevator_algorithm), and [C-SCAN](https://en.wikipedia.org/wiki/C-SCAN). Arm stickiness in those other algorithms occurs when a stream of requests for the same track causes the disk arm to stop progressing at that track, preferring to satisfy the no-seek requests for the track it is on. Because FSCAN separates requests into two queues, with new requests going into a waiting queue, the arm continues its sweep to the outer track and is therefore not "sticky." There is an obvious trade-off in that the requests in the waiting queue must wait longer to be fulfilled, but in exchange FSCAN is more fair to all requests.
 
 <https://en.wikipedia.org/wiki/FSCAN>
 
 - **LOOK**
 
-LOOKis a disk[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling)algorithm used to determine the order in which new disk read and write requests are processed.
+LOOKis a disk [scheduling](https://en.wikipedia.org/wiki/I/O_scheduling) algorithm used to determine the order in which new disk read and write requests are processed.
 
 TheLOOKalgorithm is the same as theSCANalgorithm in that it also honors requests on both sweep direction of the disk head, however, this algorithm "Looks" ahead to see if there are any requests pending in the direction of head movement. If no requests are pending in the direction of head movement, then the disk head traversal will be reversed to the opposite direction and requests on the other direction can be served. In LOOK scheduling, the arm goes only as far as final requests in each direction and then reverses direction without going all the way to the end. Consider an example, Given a disk with 200 cylinders (0-199), suppose we have 8 pending requests: 98, 183, 37, 122, 14, 124, 65, 67 and that the read/write head is currently at cylinder 53. In order to complete these requests, the arm will move in the increasing order first and then will move in decreasing order after reaching the end. So, the order in which it will execute is 65, 67, 98, 122, 124, 183, 37, 14.
 
-LOOK behaves almost identically to[Shortest seek time first](https://en.wikipedia.org/wiki/Shortest_seek_time_first)(SSTF), but avoids the starvation problem of SSTF. This is because LOOK is biased against the area recently traversed, and heavily favors tracks clustered at the outermost and innermost edges of the platter. LOOK is also biased towards more recently arriving jobs (on average).
+LOOK behaves almost identically to [Shortest seek time first](https://en.wikipedia.org/wiki/Shortest_seek_time_first)(SSTF), but avoids the starvation problem of SSTF. This is because LOOK is biased against the area recently traversed, and heavily favors tracks clustered at the outermost and innermost edges of the platter. LOOK is also biased towards more recently arriving jobs (on average).
 
 ## Variants
 

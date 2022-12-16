@@ -118,7 +118,7 @@ react-admin strapi - <https://github.com/nazirov91/ra-strapi-rest>
 
 ## Popular CMSs
 
-The following CMSs have high popularity among Gatsby users and support key functionality like content previews and incremental builds. If you're choosing between CMSs, we recommend reading the[Choosing Your CMS(s)](https://www.gatsbyjs.com/docs/conceptual/choosing-a-cms/)documentation.
+The following CMSs have high popularity among Gatsby users and support key functionality like content previews and incremental builds. If you're choosing between CMSs, we recommend reading the [Choosing Your CMS(s)](https://www.gatsbyjs.com/docs/conceptual/choosing-a-cms/) documentation.
 
 | **CMS**                                                    | **Guides**                                                                             | **Plugin Docs**                                                     | **Official Starter**                                                                       |
 |---------------------------------------|---------|------------|-------------|

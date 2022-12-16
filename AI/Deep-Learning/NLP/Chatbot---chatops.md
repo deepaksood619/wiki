@@ -405,7 +405,7 @@ docker run -d --name=botpress -p 3000:3000 botpress/server
 
 - **Dialogflow**
 
-[Dialogflow](https://dialogflow.com/docs/getting-started/basics)is a conversation building tool. It takes the human language and cleverly splits it into intents and arguments.
+[Dialogflow](https://dialogflow.com/docs/getting-started/basics) is a conversation building tool. It takes the human language and cleverly splits it into intents and arguments.
 
 - Agents
 - Intents

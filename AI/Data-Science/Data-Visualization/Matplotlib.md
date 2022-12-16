@@ -22,10 +22,10 @@ import matplotlib.pyplot as plt
 plt.bar(range(len(counts)), counts)
 plt.show()
 
-plt.hist(tweets["user_age"])
+plt.hist(tweets ["user_age"])
 plt.show()
 
-plt.hist(tweets["user_age"])
+plt.hist(tweets ["user_age"])
 plt.title("Tweets mentioning candidates")
 plt.xlabel("Twitter account age in years")
 plt.ylabel("# of tweets")

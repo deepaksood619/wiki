@@ -91,31 +91,31 @@ If the client happens to do push-pop-push-pop alternating when the array is full
 
     e.  Every operation takes constant amortized time.
 public ResizingArrayStackOfStrings()
-{ s = new String[1]; }
+{ s = new String [1]; }
 
 public void push(String item)
 {
 
 if (N == s.length) resize(2 * s.length);
 
-s[N++] = item;
+s [N++] = item;
 }
 
 private void resize(int capacity)
 {
 
-String[] copy = new String[capacity];
+String [] copy = new String [capacity];
 for (int i = 0; i < N; i++)
 
-copy[i] = s[i];
+copy [i] = s [i];
 s = copy;
 
 }
 public String pop()
 {
 
-String item = s[--N];
-s[N] = null;
+String item = s [--N];
+s [N] = null;
 if (N > 0 && N == s.length/4) resize(s.length/2);
 return item;
 

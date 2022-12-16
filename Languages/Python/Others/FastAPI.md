@@ -17,7 +17,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 - Easy: Designed to be easy to use and learn. Less time reading docs.
 - Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
 - Robust: Get production-ready code. With automatic interactive documentation.
-- Standards-based: Based on (and fully compatible with) the open standards for APIs:[OpenAPI](https://github.com/OAI/OpenAPI-Specification)(previously known as Swagger) and[JSON Schema](https://json-schema.org/).
+- Standards-based: Based on (and fully compatible with) the open standards for APIs:[OpenAPI](https://github.com/OAI/OpenAPI-Specification)(previously known as Swagger) and [JSON Schema](https://json-schema.org/).
 
 <https://towardsdatascience.com/why-we-switched-from-flask-to-fastapi-for-production-machine-learning-765aab9b3679>
 
@@ -45,7 +45,7 @@ A "schema" is a definition or description of something. Not the code that implem
 
 ## API "schema"
 
-In this case,[OpenAPI](https://github.com/OAI/OpenAPI-Specification)is a specification that dictates how to define a schema of your API.
+In this case,[OpenAPI](https://github.com/OAI/OpenAPI-Specification) is a specification that dictates how to define a schema of your API.
 
 This schema definition includes your API paths, the possible parameters they take, etc.
 
@@ -172,7 +172,7 @@ uvicorn main:app --host 0.0.0.0 --reload
 
 ## Starlette
 
-Starlette is a lightweight[ASGI](https://asgi.readthedocs.io/en/latest/)framework/toolkit, which is ideal for building high performance asyncio services.
+Starlette is a lightweight [ASGI](https://asgi.readthedocs.io/en/latest/) framework/toolkit, which is ideal for building high performance asyncio services.
 
 It is production-ready, and gives you the following:
 

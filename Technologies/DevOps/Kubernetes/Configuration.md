@@ -8,7 +8,7 @@ Modified: 2020-06-20 15:13:11 +0500
 
 ## Pod Priority and Preemtion
 
-[Pods](https://kubernetes.io/docs/user-guide/pods)can havepriority. Priority indicates the importance of a Pod relative to other Pods. If a Pod cannot be scheduled, the scheduler tries to preempt (evict) lower priority Pods to make scheduling of the pending Pod possible.
+[Pods](https://kubernetes.io/docs/user-guide/pods) can havepriority. Priority indicates the importance of a Pod relative to other Pods. If a Pod cannot be scheduled, the scheduler tries to preempt (evict) lower priority Pods to make scheduling of the pending Pod possible.
 
 - Pod Disruption Budget
 - Priority Classes

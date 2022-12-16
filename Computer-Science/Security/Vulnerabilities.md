@@ -20,7 +20,7 @@ Heartbleed allows hackers to steal private keys from what should be secure serve
 
 ## Open Web Application Security Project (OWASP)**
 
-TheOpen Web Application Security Project(OWASP) is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of[web application security](https://en.wikipedia.org/wiki/Web_application_security).
+TheOpen Web Application Security Project(OWASP) is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of [web application security](https://en.wikipedia.org/wiki/Web_application_security).
 [The History and Future of OWASP](https://youtu.be/FrU2xaOVDgE)
 
 ## OWASP Top Ten
@@ -55,7 +55,7 @@ Prevention - Sanitize user inputs
 
 ## XSRF/CSRF - Cross Site Request Forgery
 
-## Cross-site request forgery**, also known as**one-click attack**or**session riding**and abbreviated as**CSRF orXSRF, is a type of malicious[exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security))of a[website](https://en.wikipedia.org/wiki/Website)where unauthorized commands are transmitted from a[user](https://en.wikipedia.org/wiki/User_(computing))that the web application trusts.[[2]](https://en.wikipedia.org/wiki/Cross-site_request_forgery#cite_note-Ristic-2)There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and[JavaScript](https://en.wikipedia.org/wiki/JavaScript)XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike[cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser
+## Cross-site request forgery**, also known as**one-click attack**or**session riding**and abbreviated as**CSRF orXSRF, is a type of malicious [exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security)) of a [website](https://en.wikipedia.org/wiki/Website) where unauthorized commands are transmitted from a [user](https://en.wikipedia.org/wiki/User_(computing)) that the web application trusts.[[2]](https://en.wikipedia.org/wiki/Cross-site_request_forgery#cite_note-Ristic-2) There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser
 
 <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
 
@@ -136,19 +136,19 @@ Insufficient logging and monitoring, coupled with missing or ineffective integra
 - [TLS Cipher String](https://cheatsheetseries.owasp.org/cheatsheets/TLS_Cipher_String_Cheat_Sheet.html)
 - [Third Party Javascript Management](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html)-   [**Threat Modeling**](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
-Threat modelingis a process by which potential threats, such as[structural vulnerabilities](https://www.wikiwand.com/en/Structural_vulnerability_(computing))or the absence of appropriate safeguards, can be identified, enumerated, and mitigations can be prioritized. The purpose of threat modeling is to provide defenders with a systematic analysis of what controls or defenses need to be included, given the nature of the system, the probable attacker's profile, the most likely attack vectors, and the assets most desired by an attacker. Threat modeling answers questions like"Where am I most vulnerable to attack?","What are the most relevant threats?", and"What do I need to do to safeguard against these threats?".
+Threat modelingis a process by which potential threats, such as [structural vulnerabilities](https://www.wikiwand.com/en/Structural_vulnerability_(computing)) or the absence of appropriate safeguards, can be identified, enumerated, and mitigations can be prioritized. The purpose of threat modeling is to provide defenders with a systematic analysis of what controls or defenses need to be included, given the nature of the system, the probable attacker's profile, the most likely attack vectors, and the assets most desired by an attacker. Threat modeling answers questions like"Where am I most vulnerable to attack?","What are the most relevant threats?", and"What do I need to do to safeguard against these threats?".
 
 ## Threat modeling methodologies
 
 1. **STRIDE**
 
-STRIDEis a model of threats developed by Praerit Garg and[Loren Kohnfelder](https://www.wikiwand.com/en/Loren_Kohnfelder) at [Microsoft](https://www.wikiwand.com/en/Microsoft) for identifying[computer security](https://www.wikiwand.com/en/Computer_security)[threats](https://www.wikiwand.com/en/Threat_(computer)).It provides a[mnemonic](https://www.wikiwand.com/en/Mnemonic)for security threats in six categories.
+STRIDEis a model of threats developed by Praerit Garg and [Loren Kohnfelder](https://www.wikiwand.com/en/Loren_Kohnfelder) at [Microsoft](https://www.wikiwand.com/en/Microsoft) for identifying [computer security](https://www.wikiwand.com/en/Computer_security)[threats](https://www.wikiwand.com/en/Threat_(computer)).It provides a [mnemonic](https://www.wikiwand.com/en/Mnemonic) for security threats in six categories.
 The threats are:
 
 - [Spoofing](https://www.wikiwand.com/en/Spoofing_attack)
 - [Tampering](https://www.wikiwand.com/en/Tampering_(crime))
 - [Repudiation](https://www.wikiwand.com/en/Non-repudiation)
-- Information disclosure ([privacy breach](https://www.wikiwand.com/en/Data_privacy)or[data leak](https://www.wikiwand.com/en/Data_leak))
+- Information disclosure ([privacy breach](https://www.wikiwand.com/en/Data_privacy) or [data leak](https://www.wikiwand.com/en/Data_leak))
 - [Denial of service](https://www.wikiwand.com/en/Denial-of-service_attack)
 - [Elevation of privilege](https://www.wikiwand.com/en/Privilege_escalation)
 <https://www.wikiwand.com/en/STRIDE_(security)>
@@ -175,7 +175,7 @@ Process for Attack Simulation and Threat Analysis (PASTA) is a seven-step, risk-
 ## Social Engineering**
 
 "Social engineering" refers to the use of humans as an attack vector to compromise a system. It involves fooling or otherwise manipulating human personnel into revealing information or performing actions on the attacker's behalf. Social engineering is known to be a very effective attack strategy, since even the strongest security system can be compromised by a single poor decision. In some cases, highly secure systems that cannot be penetrated by computer or cryptographic means, can be compromised by simply calling a member of the target organization on the phone and impersonating a colleague or IT professional.
-Common social engineering techniques include[phishing](https://en.wikipedia.org/wiki/Phishing),[clickjacking](https://en.wikipedia.org/wiki/Clickjacking), and[baiting](https://en.wikipedia.org/wiki/Social_engineering_%28security%29#Baiting), although several other tricks are at an attacker's disposal.
+Common social engineering techniques include [phishing](https://en.wikipedia.org/wiki/Phishing),[clickjacking](https://en.wikipedia.org/wiki/Clickjacking), and [baiting](https://en.wikipedia.org/wiki/Social_engineering_%28security%29#Baiting), although several other tricks are at an attacker's disposal.
 
 ## Phishing
 
@@ -198,7 +198,7 @@ Vishing ("voice" and "phishing") involves phishing through phone calls. Of cours
 
 ## Kill Chain**
 
-The termkill chainwas originally used as a[military](https://www.wikiwand.com/en/Military)concept related to the structure of an[attack](https://www.wikiwand.com/en/Offensive_(military)); consisting of target identification, force dispatch to target, decision and order to attack the target, and finally the destruction of the target.Conversely, the idea of "breaking" an opponent's kill chain is a method of[defense](https://www.wikiwand.com/en/Defense_(military))or preemptive action.More recently,[Lockheed Martin](https://www.wikiwand.com/en/Lockheed_Martin)adapted this concept to[information security](https://www.wikiwand.com/en/Information_security), using it as a method for modeling intrusions on a[computer network](https://www.wikiwand.com/en/Computer_network).The cyber kill chain model has seen some adoption in the information security community.However, acceptance is not universal, with critics pointing to what they believe are fundamental flaws in the model.
+The termkill chainwas originally used as a [military](https://www.wikiwand.com/en/Military) concept related to the structure of an [attack](https://www.wikiwand.com/en/Offensive_(military)); consisting of target identification, force dispatch to target, decision and order to attack the target, and finally the destruction of the target.Conversely, the idea of "breaking" an opponent's kill chain is a method of [defense](https://www.wikiwand.com/en/Defense_(military)) or preemptive action.More recently,[Lockheed Martin](https://www.wikiwand.com/en/Lockheed_Martin) adapted this concept to [information security](https://www.wikiwand.com/en/Information_security), using it as a method for modeling intrusions on a [computer network](https://www.wikiwand.com/en/Computer_network).The cyber kill chain model has seen some adoption in the information security community.However, acceptance is not universal, with critics pointing to what they believe are fundamental flaws in the model.
 <https://www.wikiwand.com/en/Kill_chain>
 
 ## Tab Nabbing**

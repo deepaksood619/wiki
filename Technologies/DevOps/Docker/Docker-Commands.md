@@ -34,9 +34,9 @@ docker info --format '{{.LoggingDriver}}'
 
 ## Lifecycle
 
-- [docker create](https://docs.docker.com/engine/reference/commandline/create)creates a container but does not start it.
-- [docker rename](https://docs.docker.com/engine/reference/commandline/rename/)allows the container to be renamed.
-- [docker run](https://docs.docker.com/engine/reference/commandline/run)creates and starts a container in one operation.
+- [docker create](https://docs.docker.com/engine/reference/commandline/create) creates a container but does not start it.
+- [docker rename](https://docs.docker.com/engine/reference/commandline/rename/) allows the container to be renamed.
+- [docker run](https://docs.docker.com/engine/reference/commandline/run) creates and starts a container in one operation.
 
 --env, -e = Set environment variables
 
@@ -48,29 +48,29 @@ docker run --rm -it --entrypoint /bin/bash cr0hn/festin
 
 docker run --rm -it -p=8080:8080 inventree/inventree
 
-- [docker rm](https://docs.docker.com/engine/reference/commandline/rm)deletes a container.
-- [docker update](https://docs.docker.com/engine/reference/commandline/update/)updates a container's resource limit
+- [docker rm](https://docs.docker.com/engine/reference/commandline/rm) deletes a container.
+- [docker update](https://docs.docker.com/engine/reference/commandline/update/) updates a container's resource limit
 
 ## Starting and Stopping
 
-- [docker start](https://docs.docker.com/engine/reference/commandline/start)starts a container so it is running
-- [docker stop](https://docs.docker.com/engine/reference/commandline/stop)stops a running container
-- [docker restart](https://docs.docker.com/engine/reference/commandline/restart)stops and starts a container
-- [docker pause](https://docs.docker.com/engine/reference/commandline/pause/)pauses a running container, "freezing" it in place
-- [docker unpause](https://docs.docker.com/engine/reference/commandline/unpause/)will unpause a running container
-- [docker wait](https://docs.docker.com/engine/reference/commandline/wait)blocks until running container stops
-- [docker kill](https://docs.docker.com/engine/reference/commandline/kill)sends a SIGKILL to a running container
-- [docker attach](https://docs.docker.com/engine/reference/commandline/attach)will connect to a running container
+- [docker start](https://docs.docker.com/engine/reference/commandline/start) starts a container so it is running
+- [docker stop](https://docs.docker.com/engine/reference/commandline/stop) stops a running container
+- [docker restart](https://docs.docker.com/engine/reference/commandline/restart) stops and starts a container
+- [docker pause](https://docs.docker.com/engine/reference/commandline/pause/) pauses a running container, "freezing" it in place
+- [docker unpause](https://docs.docker.com/engine/reference/commandline/unpause/) will unpause a running container
+- [docker wait](https://docs.docker.com/engine/reference/commandline/wait) blocks until running container stops
+- [docker kill](https://docs.docker.com/engine/reference/commandline/kill) sends a SIGKILL to a running container
+- [docker attach](https://docs.docker.com/engine/reference/commandline/attach) will connect to a running container
 
 ## Info
 
-- [docker ps](https://docs.docker.com/engine/reference/commandline/ps)shows running containers.
+- [docker ps](https://docs.docker.com/engine/reference/commandline/ps) shows running containers.
 
 Options:
 
 -s (for getting docker ip)
 
-- [docker logs](https://docs.docker.com/engine/reference/commandline/logs)gets logs from container. (You can use a custom log driver, but logs is only available forjson-fileandjournaldin 1.10).
+- [docker logs](https://docs.docker.com/engine/reference/commandline/logs) gets logs from container. (You can use a custom log driver, but logs is only available forjson-fileandjournaldin 1.10).
 
 Options:
 
@@ -94,19 +94,19 @@ docker logs --timestamps --since='2019-04-22T14:40:36.750121287Z' --until='2019-
 
 docker logs smap-archiver > stdout.log 2>stderr.log
 
-- **[docker inspect](https://docs.docker.com/engine/reference/commandline/inspect)looks at all the info on a container (including IP address).**
-- [docker events](https://docs.docker.com/engine/reference/commandline/events)gets events from container.
+- **[docker inspect](https://docs.docker.com/engine/reference/commandline/inspect) looks at all the info on a container (including IP address).**
+- [docker events](https://docs.docker.com/engine/reference/commandline/events) gets events from container.
 - [docker port](https://docs.docker.com/engine/reference/commandline/port) <container_name>shows public facing port of container.
-- **[docker top](https://docs.docker.com/engine/reference/commandline/top)shows running processes in container.**
+- **[docker top](https://docs.docker.com/engine/reference/commandline/top) shows running processes in container.**
   - docker top <container_name>
-- **[docker stats](https://docs.docker.com/engine/reference/commandline/stats)shows containers' resource usage statistics.**
-- [docker diff](https://docs.docker.com/engine/reference/commandline/diff)shows changed files in the container's FS.
+- **[docker stats](https://docs.docker.com/engine/reference/commandline/stats) shows containers' resource usage statistics.**
+- [docker diff](https://docs.docker.com/engine/reference/commandline/diff) shows changed files in the container's FS.
 - **docker secret** - Manage docker secrets
   - create, inspect, ls, rm
 
 # Images
 
-Images are just[templates for docker containers](https://docs.docker.com/engine/understanding-docker/#how-does-a-docker-image-work).
+Images are just [templates for docker containers](https://docs.docker.com/engine/understanding-docker/#how-does-a-docker-image-work).
 
 <https://hub.docker.com/r/ealen/echo-server>
 
@@ -114,18 +114,18 @@ Images are just[templates for docker containers](https://docs.docker.com/engine/
 
 ## Lifecycle
 
-- [docker images](https://docs.docker.com/engine/reference/commandline/images)shows all images.
-- [docker import](https://docs.docker.com/engine/reference/commandline/import)creates an image from a tarball.
-- **[docker build](https://docs.docker.com/engine/reference/commandline/build)creates image from Dockerfile.**
+- [docker images](https://docs.docker.com/engine/reference/commandline/images) shows all images.
+- [docker import](https://docs.docker.com/engine/reference/commandline/import) creates an image from a tarball.
+- **[docker build](https://docs.docker.com/engine/reference/commandline/build) creates image from Dockerfile.**
 
 docker build -t <image-tag> .
 
 docker build -f docker/Dockerfile.dev -t partners-api:latest .
 
-- [docker commit](https://docs.docker.com/engine/reference/commandline/commit)creates image from a container, pausing it temporarily if it is running.
-- [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi)removes an image.
-- [docker load](https://docs.docker.com/engine/reference/commandline/load)loads an image from a tar archive as STDIN, including images and tags (as of 0.7).
-- [docker save](https://docs.docker.com/engine/reference/commandline/save)saves an image to a tar archive stream to STDOUT with all parent layers, tags & versions (as of 0.7).
+- [docker commit](https://docs.docker.com/engine/reference/commandline/commit) creates image from a container, pausing it temporarily if it is running.
+- [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi) removes an image.
+- [docker load](https://docs.docker.com/engine/reference/commandline/load) loads an image from a tar archive as STDIN, including images and tags (as of 0.7).
+- [docker save](https://docs.docker.com/engine/reference/commandline/save) saves an image to a tar archive stream to STDOUT with all parent layers, tags & versions (as of 0.7).
 - docker push
 
 docker push gcr.io/example-data-archiver/azure-vote-front:v1
@@ -134,8 +134,8 @@ docker push gcr.io/example-data-archiver/azure-vote-front:v1
 
 ## Info
 
-- **[docker history](https://docs.docker.com/engine/reference/commandline/history)shows history of image.**
-- [docker tag](https://docs.docker.com/engine/reference/commandline/tag)tags an image to a name (local or registry).
+- **[docker history](https://docs.docker.com/engine/reference/commandline/history) shows history of image.**
+- [docker tag](https://docs.docker.com/engine/reference/commandline/tag) tags an image to a name (local or registry).
 
 sudo docker tag monolith:1.0.0 deepaksood619/monolith:1.0.0
 

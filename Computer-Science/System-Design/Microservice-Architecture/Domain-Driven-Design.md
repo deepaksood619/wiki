@@ -6,18 +6,21 @@ Modified: 2021-11-29 10:28:05 +0500
 
 ---
 
-Domain-driven design(DDD) is the concept that the structure and language of software code (class names, class methods, class variables) should match the[business domain](https://www.wikiwand.com/en/Business_domain). For example, if a software processes loan applications, it might have classes such as LoanApplication and Customer, and methods such as AcceptOffer and Withdraw.
-DDD connects the[implementation](https://www.wikiwand.com/en/Implementation)to an evolving model.
+Domain-driven design(DDD) is the concept that the structure and language of software code (class names, class methods, class variables) should match the [business domain](https://www.wikiwand.com/en/Business_domain). For example, if a software processes loan applications, it might have classes such as LoanApplication and Customer, and methods such as AcceptOffer and Withdraw.
+
+DDD connects the [implementation](https://www.wikiwand.com/en/Implementation) to an evolving model.
+
 Domain-driven design is predicated on the following goals
 
-- placing the project's primary focus on the core[domain](https://www.wikiwand.com/en/Domain_(software_engineering))and domain logic;
+- placing the project's primary focus on the core [domain](https://www.wikiwand.com/en/Domain_(software_engineering)) and domain logic;
 - basing complex designs on a model of the domain;
-- initiating a creative collaboration between technical and[domain experts](https://www.wikiwand.com/en/Domain_expert)to iteratively refine a conceptual model that addresses particular domain problems.
+- initiating a creative collaboration between technical and [domain experts](https://www.wikiwand.com/en/Domain_expert) to iteratively refine a conceptual model that addresses particular domain problems.
+
 Two synergic properties in software design
 
-i.  High cohesion
+- High cohesion
+- Low coupling
 
-ii. Low coupling
 DDD is an approach to software development that tackles complex systems by mapping activities, tasks, events, and data from a business domain to software artifacts. One of the most important concepts of DDD is the *bounded context*, which is a cohesive and well-defined unit within the business model in which you define the boundaries of your software artifacts
 <https://www.wikiwand.com/en/Domain-driven_design>
 
@@ -34,8 +37,10 @@ Within the context of our mockup architecture, let's begin the organizational de
 ![image](media/Microservice-Architecture_Domain-Driven-Design-image2.png)
 
 The diagram above shows that fraud-detection is composed of the workflow's first three microservices --- which include digital identities, statistical analysis, and AI-based transaction risk-scoring. Since their scope is likely still too broad for a small team to manage, let's split fraud detection further down into two subdomains --- which finally seems more manageable.
-At a very high level, the process we just followed is called[Domain-Driven Design (DDD)](https://dddcommunity.org/learning-ddd/what_is_ddd/), which is supported by the recommended pattern to bind each microservice's scope and ownership claim to a business subdomain called[bounded context](https://martinfowler.com/bliki/BoundedContext.html).
-Notice that each microservice has its own dedicated database for**isolation**. The**empowered autonomous team**that owns the blue bounded context chose[RediSearch](https://redislabs.com/modules/redis-search/)to support their "Authenticate Digital Identity" microservice, and[RedisBloom](https://redislabs.com/modules/redis-bloom/)to support their "Probabilistic Fraud Detection Checkpoint" microservice. Meanwhile, a separate team that owns the purple bounded context chose[RedisAI](https://redislabs.com/modules/redis-ai/)to support "Transaction Risk Scoring" in real-time.
+
+At a very high level, the process we just followed is called [Domain-Driven Design (DDD)](https://dddcommunity.org/learning-ddd/what_is_ddd/), which is supported by the recommended pattern to bind each microservice's scope and ownership claim to a business subdomain called [bounded context](https://martinfowler.com/bliki/BoundedContext.html).
+
+Notice that each microservice has its own dedicated database for **isolation**. The **empowered autonomous team** that owns the blue bounded context chose [RediSearch](https://redislabs.com/modules/redis-search/) to support their "Authenticate Digital Identity" microservice, and [RedisBloom](https://redislabs.com/modules/redis-bloom/) to support their "Probabilistic Fraud Detection Checkpoint" microservice. Meanwhile, a separate team that owns the purple bounded context chose [RedisAI](https://redislabs.com/modules/redis-ai/) to support "Transaction Risk Scoring" in real-time.
 ![image](media/Microservice-Architecture_Domain-Driven-Design-image3.png)
 
 <https://www.domainlanguage.com/ddd/reference/attachment/pattern-language-overview-med>

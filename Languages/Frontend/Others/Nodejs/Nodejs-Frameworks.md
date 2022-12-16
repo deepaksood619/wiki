@@ -141,14 +141,14 @@ It has the ability to allow a user build a server API that maps to another serve
 Key features:
 
 - [Quickly create dynamic end-to-end REST APIs](https://loopback.io/#core).
-- [Connect devices and browsers](https://loopback.io/#juggler)to data and services.
-- Use[Android, iOS, and AngularJS SDKs](https://loopback.io/#sdks)to easily create client apps.
-- [Add-on components](https://loopback.io/#components)for file management, 3rd-party login, and OAuth2.
+- [Connect devices and browsers](https://loopback.io/#juggler) to data and services.
+- Use [Android, iOS, and AngularJS SDKs](https://loopback.io/#sdks) to easily create client apps.
+- [Add-on components](https://loopback.io/#components) for file management, 3rd-party login, and OAuth2.
 - Runs on-premises or in the cloud
 
 - **Hapijs**
 
-Just like ExpressJs, the common[hapi.js](https://hapijs.com/resources) (supported by Walmart Labs) is a Node.js framework that helps serve data by intermediating between the server side and client. It is quite a good substitute for Express(they both have their unique features).
+Just like ExpressJs, the common [hapi.js](https://hapijs.com/resources) (supported by Walmart Labs) is a Node.js framework that helps serve data by intermediating between the server side and client. It is quite a good substitute for Express(they both have their unique features).
 
 Hapi is a configuration-driven pattern, traditionally modeled to control web server operations. A unique feature it has is the ability to create a server on a specific IP, with features like the 'onPreHandler', we can do something with a request before it is completed by intercepting it and doing some pre-processing on the request.
 
@@ -166,13 +166,13 @@ Let us look at some key features that make hapiJs promising:
 
 - **Derbyjs**
 
-According to the[Derby.js](https://derbyjs.com/)site, it is a full stack Node.js framework for writing modern web applications. Derby has been around a little while, quite long enough to have proven itself to hop into 2019 and rock some chords.
+According to the [Derby.js](https://derbyjs.com/) site, it is a full stack Node.js framework for writing modern web applications. Derby has been around a little while, quite long enough to have proven itself to hop into 2019 and rock some chords.
 
-DerbyJs provides you with seamless data synchronisation between your server and client with an automatic conflict resolution powered by[ShareDB's](https://github.com/share/sharedb)operational transformation of JSON and text. It permits you the opportunity to add customised codes to build highly efficient web applications.
+DerbyJs provides you with seamless data synchronisation between your server and client with an automatic conflict resolution powered by [ShareDB's](https://github.com/share/sharedb) operational transformation of JSON and text. It permits you the opportunity to add customised codes to build highly efficient web applications.
 
 - **Totaljs**
 
-[Total.js](https://www.totaljs.com/)boast of being a very fast development Node.js framework, that requires little maintenance, with a good performance and a seamless scaling transition. It shows some promise by giving some insight on their[website](https://www.totaljs.com/), where they ask for visitors willing to contribute to the growth of the framework. So far the Total.js team has spent some time trying to get more premium sponsors to join them. This is another indication that they have plans to expand and should be checked out for more growth in the nearest future to come.
+[Total.js](https://www.totaljs.com/) boast of being a very fast development Node.js framework, that requires little maintenance, with a good performance and a seamless scaling transition. It shows some promise by giving some insight on their [website](https://www.totaljs.com/), where they ask for visitors willing to contribute to the growth of the framework. So far the Total.js team has spent some time trying to get more premium sponsors to join them. This is another indication that they have plans to expand and should be checked out for more growth in the nearest future to come.
 
 Total.js has some really beautiful versions like the Total.js Eshop, which contains a user interface optimized for mobile devices, and downloadable by all premium members. The Eshop is one of the best Node.js e-commerce system. This is because of its many versions of unique content management system(CMS).
 
@@ -202,9 +202,9 @@ Moleculer is a fault tolerant framework. It has built-in load balancer, circuit 
 - pluggable validator
 - multiple services on a node/server
 - all nodes are equal, no master/leader node
-- parameter validation with[fastest-validator](https://github.com/icebob/fastest-validator)
+- parameter validation with [fastest-validator](https://github.com/icebob/fastest-validator)
 - built-in health monitoring & metrics
-- official[API gateway module](https://github.com/moleculerjs/moleculer-web)and many other modules...
+- official [API gateway module](https://github.com/moleculerjs/moleculer-web) and many other modules...
 
 <https://moleculer.services>
 
@@ -218,7 +218,7 @@ Simplify app development by combining APIs, databases, and microservices into a 
 
 - **Ghost (CMS)**
 
-## Ghostis a free and[open source](https://en.wikipedia.org/wiki/Open-source_software)[blogging](https://en.wikipedia.org/wiki/Blog)platform written in[JavaScript](https://en.wikipedia.org/wiki/JavaScript)and distributed under the[MIT License](https://en.wikipedia.org/wiki/MIT_License), designed to simplify the process of online publishing for individual bloggers as well as online publications
+## Ghostis a free and [open source](https://en.wikipedia.org/wiki/Open-source_software)[blogging](https://en.wikipedia.org/wiki/Blog) platform written in [JavaScript](https://en.wikipedia.org/wiki/JavaScript) and distributed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License), designed to simplify the process of online publishing for individual bloggers as well as online publications
 
 The concept of the Ghost platform was first floated publicly in November 2012 in a blog post by project founder John O'Nolan, which generated enough response to justify coding a prototype version with collaborator Hannah Wolfe.
 
@@ -236,6 +236,6 @@ Strapi.io is the most advanced Node.js content management framework. It comprise
 
 - **ActionHero**
 
-ActionHero is a multi-transport API Server with integrated cluster capabilities and delayed tasks. The goal of actionhero is to create an easy-to-use toolkit for makingreusable&scalableAPIs for HTTP, WebSockets, and more. Clients connected to an actionhero server can[consume the api](https://www.actionherojs.com/tutorials/actions),[consume static content](https://www.actionherojs.com/tutorials/file-server), and[communicate with each other](https://www.actionherojs.com/tutorials/chat). ActionHero is cluster-ready, with built in support for background tasks, 0-downtime deploys, and more. ActionHero provides a simple Async/Await API for managing every type of connection and background task.
+ActionHero is a multi-transport API Server with integrated cluster capabilities and delayed tasks. The goal of actionhero is to create an easy-to-use toolkit for makingreusable&scalableAPIs for HTTP, WebSockets, and more. Clients connected to an actionhero server can [consume the api](https://www.actionherojs.com/tutorials/actions),[consume static content](https://www.actionherojs.com/tutorials/file-server), and [communicate with each other](https://www.actionherojs.com/tutorials/chat). ActionHero is cluster-ready, with built in support for background tasks, 0-downtime deploys, and more. ActionHero provides a simple Async/Await API for managing every type of connection and background task.
 
 <https://github.com/actionhero/actionhero>

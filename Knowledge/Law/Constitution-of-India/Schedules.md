@@ -47,7 +47,7 @@ Territorial Jurisdiction of states is also included
 The provisions in relation to allowances, privileges, **emoluments** of:
 
 - [President of India](https://byjus.com/free-ias-prep/president/)
-- [Governors](https://byjus.com/free-ias-prep/governor/)of Indian States
+- [Governors](https://byjus.com/free-ias-prep/governor/) of Indian States
 - [Speaker of Lok Sabha](https://byjus.com/free-ias-prep/speaker-roles-responsibility-rstv-in-depth/)& Deputy Speaker of Lok Sabha
 - Chairman of Rajya Sabha & Deputy Chairman of Rajya Sabha
 - Speaker and Deputy Speaker of Legislative Assemblies of Indian States
@@ -63,16 +63,16 @@ It contains the forms of oath and **affirmations** for:
 - Union Ministers of India
 - Parliament Election Candidates
 - Members of Parliament (MPs)
-- [Supreme Court](https://byjus.com/free-ias-prep/supreme-court-of-india/)Judges
+- [Supreme Court](https://byjus.com/free-ias-prep/supreme-court-of-india/) Judges
 - Comptroller and Auditor General
 - State Ministers
 - State Legislature Elections' Candidates
 - State Legislature Members
-- [High Court](https://byjus.com/free-ias-prep/high-court/)Judges
+- [High Court](https://byjus.com/free-ias-prep/high-court/) Judges
 
 4. Fourth Schedule
 
-It contains the provisions in relation to the allocation of seats for States and Union Territories in the[**Rajya Sabha**](https://byjus.com/free-ias-prep/the-rajya-sabha/)
+It contains the provisions in relation to the allocation of seats for States and Union Territories in the [**Rajya Sabha**](https://byjus.com/free-ias-prep/the-rajya-sabha/)
 
 5. Fifth Schedule
 
@@ -119,7 +119,7 @@ It deals with the 22 **official languages** recognized by the Indian Constitutio
 
 9. Ninth Schedule
 
-It deals with the state acts and regulations of that deal with **land reforms** and abolition of the[zamindari system](https://byjus.com/free-ias-prep/post-independent-india-zamindari-system-and-kisan-sabha/). It also deals with the acts and regulations of the Parliament dealing with other matters.
+It deals with the state acts and regulations of that deal with **land reforms** and abolition of the [zamindari system](https://byjus.com/free-ias-prep/post-independent-india-zamindari-system-and-kisan-sabha/). It also deals with the acts and regulations of the Parliament dealing with other matters.
 
 Note:
 

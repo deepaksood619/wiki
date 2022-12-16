@@ -6,12 +6,12 @@ Modified: 2018-05-31 15:43:53 +0500
 
 ---
 
-An[iterator](https://en.wikipedia.org/wiki/Iterator)is an object that can be iterated (looped) upon. It is used to abstract a container of data to make it behave like an iterable object. You probably already use a few iterable objects every day: strings, lists, and dictionaries to name a few.
+An [iterator](https://en.wikipedia.org/wiki/Iterator) is an object that can be iterated (looped) upon. It is used to abstract a container of data to make it behave like an iterable object. You probably already use a few iterable objects every day: strings, lists, and dictionaries to name a few.
 
-An iterator is defined by a class that implements the[Iterator Protocol](https://docs.python.org/3/c-api/iter.html). This protocol looks for two methods within the class:__iter__and__next__.
+An iterator is defined by a class that implements the [Iterator Protocol](https://docs.python.org/3/c-api/iter.html). This protocol looks for two methods within the class:__iter__and__next__.
 
 - Iterator save memory space
-- Iterators don't compute the value of each item when instantiated. They only compute it when you ask for it. This is known as[lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation). Lazy evaluation is useful when you have a very large data set to compute. It allows you to start using the data immediately, while the whole data set is being computed.
+- Iterators don't compute the value of each item when instantiated. They only compute it when you ask for it. This is known as [lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation). Lazy evaluation is useful when you have a very large data set to compute. It allows you to start using the data immediately, while the whole data set is being computed.
 
 Ex - Let's say we want to get all the prime numbers that are smaller than a maximum number.
 

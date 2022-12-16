@@ -17,7 +17,7 @@ Modified: 2021-04-27 23:59:44 +0500
 
 2. **Easier object-to-data mapping.** Highly-normalized data schemas in general are closer conceptually to object-oriented schemas because the object-oriented goals of promoting high cohesion and loose coupling between classes results in similar solutions (at least from a data point of view).
 You typically want to have highly normalized operational data stores (ODSs) and data warehouses (DWs).
-The primary disadvantage of normalization is slower reporting performance. You will want to have a[denormalized](http://agiledata.org/essays/dataNormalization.html#Denormalization)schema to support reporting, particularly in data marts.
+The primary disadvantage of normalization is slower reporting performance. You will want to have a [denormalized](http://agiledata.org/essays/dataNormalization.html#Denormalization) schema to support reporting, particularly in data marts.
 
 ## Anamolies of DB
 
@@ -120,7 +120,7 @@ If such an entity exists, move it outside into a new table.
 ## Boyce-Codd Normal Form (BCNF)
 
 3NF and all tables in the database should be only one primary key.
-It is an advance version of 3NF that's why it is also referred as 3.5NF. BCNF is stricter than 3NF. A table complies with BCNF if it is in 3NF and for every[**functional dependency**](https://beginnersbook.com/2015/04/functional-dependency-in-dbms/)X->Y, X should be the super key of the table.
+It is an advance version of 3NF that's why it is also referred as 3.5NF. BCNF is stricter than 3NF. A table complies with BCNF if it is in 3NF and for every [**functional dependency**](https://beginnersbook.com/2015/04/functional-dependency-in-dbms/) X->Y, X should be the super key of the table.
 
 ## Fourth Normal Form (4NF)
 

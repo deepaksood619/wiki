@@ -73,7 +73,7 @@ Decode key as 32-bit signed integer and value as 16-bit signed integer followed 
 
 Output consumed messages according to format string:
 
-    kafkacat -b mybroker -t syslog -f 'Topic %t[%p], offset: %o, key: %k, payload: %S bytes: %sn'
+    kafkacat -b mybroker -t syslog -f 'Topic %t [%p], offset: %o, key: %k, payload: %S bytes: %sn'
 
 Read the last 100 messages from topic 'syslog' with librdkafka configuration parameter 'broker.version.fallback' set to '0.8.2.1' :
 
@@ -165,7 +165,7 @@ Produce with headers:
                       Expects a list of topics to subscribe to
    -t <topic>         Topic to consume from, produce to, or list
    -p <partition>     Partition
-   -b <brokers,..>    Bootstrap broker(s) (host[:port])
+   -b <brokers,..>    Bootstrap broker(s) (host [:port])
    -D <delim>         Message delimiter character:
                       a-z.. | \r | \n | \t | \xNN
                       Default: \n

@@ -61,7 +61,7 @@ A Game is any interaction between multiple people in which each person's payoff 
 
 ## The Prisoner's Dilemma
 
-The**prisoner's dilemma**is a standard example of a game analyzed in[game theory](https://en.wikipedia.org/wiki/Game_theory)that shows why two completely[rational](https://en.wikipedia.org/wiki/Rationality#Economics)individuals might not cooperate, even if it appears that it is in their best interests to do so.
+The**prisoner's dilemma**is a standard example of a game analyzed in [game theory](https://en.wikipedia.org/wiki/Game_theory) that shows why two completely [rational](https://en.wikipedia.org/wiki/Rationality#Economics) individuals might not cooperate, even if it appears that it is in their best interests to do so.
 
 Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict the pair on the principal charge, but they have enough to convict both on a lesser charge. Simultaneously, the prosecutors offer each prisoner a bargain. Each prisoner is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The offer is:
 
@@ -135,9 +135,9 @@ If a member of a coalition contributes nothing then they should receive nothing
 
 ## Fair Division
 
-In[game theory](https://en.wikipedia.org/wiki/Game_theory),fair divisionis the problem of dividing a set of[resources](https://en.wikipedia.org/wiki/Resources)among several people who have an[entitlement](https://en.wikipedia.org/wiki/Entitlement)to them, such that each person receives their due share.
+In [game theory](https://en.wikipedia.org/wiki/Game_theory),fair divisionis the problem of dividing a set of [resources](https://en.wikipedia.org/wiki/Resources) among several people who have an [entitlement](https://en.wikipedia.org/wiki/Entitlement) to them, such that each person receives their due share.
 
-The archetypal fair division[algorithm](https://en.wikipedia.org/wiki/Algorithm)is[divide and choose](https://en.wikipedia.org/wiki/Divide_and_choose). It demonstrates that two agents with different tastes can divide a cake such that each of them believes that he got the best piece. The research in fair division can be seen as an extension of this procedure to various more complex settings.
+The archetypal fair division [algorithm](https://en.wikipedia.org/wiki/Algorithm) is [divide and choose](https://en.wikipedia.org/wiki/Divide_and_choose). It demonstrates that two agents with different tastes can divide a cake such that each of them believes that he got the best piece. The research in fair division can be seen as an extension of this procedure to various more complex settings.
 
 ## Cricket Coin Toss
 

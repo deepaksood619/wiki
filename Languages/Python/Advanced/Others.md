@@ -7,6 +7,7 @@ Modified: 2022-01-06 10:11:02 +0500
 ---
 
 ## The priority of how methods are resolved is from left to right
+
 ```python
 class Mixin1(object):
 def test(self):
@@ -88,9 +89,10 @@ finally:
 ```
 
 Example:
+
 ```python
 with open('/tmp/file', 'a') as f:
-    f.write('more contents\n')    
+    f.write('more contents\n')
 ```
 
 A context manager is a Python object that provides extra contextual information to an action. This extra information takes the form of running a callable upon initiating the context using thewithstatement, as well as running a callable upon completing all the code inside thewithblock. The most well known example of using a context manager is shown here, opening on a file:
@@ -104,7 +106,7 @@ with open('file.txt') as f:
 
 ## tkinter
 
-The[tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)package ("Tk interface") is the standard Python interface to the Tk GUI toolkit. Both Tk and[tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)are available on most Unix platforms, as well as on Windows systems. (Tk itself is not part of Python; it is maintained at ActiveState.)
+The [tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter) package ("Tk interface") is the standard Python interface to the Tk GUI toolkit. Both Tk and [tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter) are available on most Unix platforms, as well as on Windows systems. (Tk itself is not part of Python; it is maintained at ActiveState.)
 
 ## IDLE
 
@@ -112,7 +114,7 @@ IDLE is Python's Integrated Development and Learning Environment.
 
 IDLE has the following features:
 
-- coded in 100% pure Python, using the[tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter)GUI toolkit
+- coded in 100% pure Python, using the [tkinter](https://docs.python.org/3/library/tkinter.html#module-tkinter) GUI toolkit
 - cross-platform: works mostly the same on Windows, Unix, and Mac OS X
 - Python shell window (interactive interpreter) with colorizing of code input, output, and error messages
 - multi-window text editor with multiple undo, Python colorizing, smart indent, call tips, auto completion, and other features
@@ -123,6 +125,7 @@ IDLE has the following features:
 ## Facts
 
 - Boolean is integer in Python
+
 ```python
 >>> isinstance(True, int)
 True
@@ -140,7 +143,7 @@ True
 
 ## contextvars
 
-This module provides APIs to manage, store, and access context-local state. The [ContextVar](https://docs.python.org/3/library/contextvars.html#contextvars.ContextVar) class is used to declare and work withContext Variables. The [copy_context()](https://docs.python.org/3/library/contextvars.html#contextvars.copy_context) function and the[Context](https://docs.python.org/3/library/contextvars.html#contextvars.Context)class should be used to manage the current context in asynchronous frameworks.
+This module provides APIs to manage, store, and access context-local state. The [ContextVar](https://docs.python.org/3/library/contextvars.html#contextvars.ContextVar) class is used to declare and work withContext Variables. The [copy_context()](https://docs.python.org/3/library/contextvars.html#contextvars.copy_context) function and the [Context](https://docs.python.org/3/library/contextvars.html#contextvars.Context) class should be used to manage the current context in asynchronous frameworks.
 
 Context managers that have state should use Context Variables instead of [threading.local()](https://docs.python.org/3/library/threading.html#threading.local) to prevent their state from bleeding to other code unexpectedly, when used in concurrent code.
 
@@ -167,13 +170,13 @@ If your descriptor implements just.**get**(), then it's said to be anon-data des
 
 ## ipython
 
-IPython(Interactive Python) is a[command shell](https://en.wikipedia.org/wiki/Shell_(computing))for interactive computing in multiple programming languages, originally developed for the[Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), that offers[introspection](https://en.wikipedia.org/wiki/Introspection_(computer_science)),[rich media](https://en.wikipedia.org/wiki/Rich_media), shell syntax,[tab completion](https://en.wikipedia.org/wiki/Tab_completion), and history. IPython provides the following features:
+IPython(Interactive Python) is a [command shell](https://en.wikipedia.org/wiki/Shell_(computing)) for interactive computing in multiple programming languages, originally developed for the [Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), that offers [introspection](https://en.wikipedia.org/wiki/Introspection_(computer_science)),[rich media](https://en.wikipedia.org/wiki/Rich_media), shell syntax,[tab completion](https://en.wikipedia.org/wiki/Tab_completion), and history. IPython provides the following features:
 
-- Interactive shells (terminal and[Qt](https://en.wikipedia.org/wiki/Qt_(framework))-based).
-- A browser-based[notebook interface](https://en.wikipedia.org/wiki/Notebook_interface)with support for code, text, mathematical expressions, inline plots and other media.
+- Interactive shells (terminal and [Qt](https://en.wikipedia.org/wiki/Qt_(framework))-based).
+- A browser-based [notebook interface](https://en.wikipedia.org/wiki/Notebook_interface) with support for code, text, mathematical expressions, inline plots and other media.
 - Support for interactive data visualization and use of GUI toolkits.
 - Flexible, embeddable interpreters to load into one's own projects.
-- Tools for[parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
+- Tools for [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
 
 <https://en.wikipedia.org/wiki/IPython>
 

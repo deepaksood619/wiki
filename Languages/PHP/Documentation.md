@@ -175,7 +175,7 @@ Modified: 2020-12-04 23:37:41 +0500
     - [settype](https://www.php.net/manual/en/function.settype.php)--- Set the type of a variable
     - [strval](https://www.php.net/manual/en/function.strval.php)--- Get string value of a variable
     - [unserialize](https://www.php.net/manual/en/function.unserialize.php)--- Creates a PHP value from a stored representation
-    - **[unset](https://www.php.net/manual/en/function.unset.php)--- Unset a given variable** (unset()destroys the specified variables.)
+    - **[unset](https://www.php.net/manual/en/function.unset.php)--- Unset a given variable** (unset() destroys the specified variables.)
     - **[var_dump](https://www.php.net/manual/en/function.var-dump.php)--- Dumps information about a variable**
     - [var_export](https://www.php.net/manual/en/function.var-export.php)--- Outputs or returns a parsable string representation of a variable
 

@@ -11,13 +11,13 @@ OpenIdis HTTP based protocol that uses identity provider to validate a user. The
 ## OIDC
 
 It is an OAuth extension which adds and strictly defines an ID Token for returning user information. Now when we log in with our Identity Provider, it can return specific fields that our applications can expect and handle. The important thing to remember is that OIDC is just a special, simplified case of OAuth, not a replacement. It uses the same terminology and concepts.
-[OpenID Connect](https://openid.net/connect/)is a flavor of OAuth2 supported by some OAuth2 providers, notably Azure Active Directory, Salesforce, and Google. The protocol's main extension of OAuth2 is an additional field returned with the access token called an[ID Token](https://openid.net/specs/openid-connect-core-1_0.html#IDToken). This token is a JSON Web Token (JWT) with well known fields, such as a user's email, signed by the server.
-To identify the user, the authenticator uses theid_token(not theaccess_token) from the OAuth2[token response](https://openid.net/specs/openid-connect-core-1_0.html#TokenResponse)as a bearer token. See[above](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#putting-a-bearer-token-in-a-request)for how the token is included in a request.
+[OpenID Connect](https://openid.net/connect/) is a flavor of OAuth2 supported by some OAuth2 providers, notably Azure Active Directory, Salesforce, and Google. The protocol's main extension of OAuth2 is an additional field returned with the access token called an [ID Token](https://openid.net/specs/openid-connect-core-1_0.html#IDToken). This token is a JSON Web Token (JWT) with well known fields, such as a user's email, signed by the server.
+To identify the user, the authenticator uses theid_token(not theaccess_token) from the OAuth2 [token response](https://openid.net/specs/openid-connect-core-1_0.html#TokenResponse) as a bearer token. See [above](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#putting-a-bearer-token-in-a-request) for how the token is included in a request.
 ![image](media/Authentication_OpenID-image1.png)
 
 <https://openid.net/specs/openid-connect-core-1_0.html>
 ![image](media/Authentication_OpenID-image2.png)
-The normal process of generating these tokens is much the same as it is in[OAuth 2.0](https://oauth.net/2/):
+The normal process of generating these tokens is much the same as it is in [OAuth 2.0](https://oauth.net/2/):
 
 1. User hits the sign in button on the website,
 

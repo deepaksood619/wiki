@@ -12,13 +12,13 @@ Design goals are to have a minimal memory footprint with a plugin system so that
 
 Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 
-1. [Input Plugins](https://github.com/influxdata/telegraf#input-plugins)collect metrics from the system, services, or 3rd party APIs
+1. [Input Plugins](https://github.com/influxdata/telegraf#input-plugins) collect metrics from the system, services, or 3rd party APIs
 
-2. [Processor Plugins](https://github.com/influxdata/telegraf#processor-plugins)transform, decorate, and/or filter metrics
+2. [Processor Plugins](https://github.com/influxdata/telegraf#processor-plugins) transform, decorate, and/or filter metrics
 
-3. [Aggregator Plugins](https://github.com/influxdata/telegraf#aggregator-plugins)create aggregate metrics (e.g. mean, min, max, quantiles, etc.)
+3. [Aggregator Plugins](https://github.com/influxdata/telegraf#aggregator-plugins) create aggregate metrics (e.g. mean, min, max, quantiles, etc.)
 
-4. [Output Plugins](https://github.com/influxdata/telegraf#output-plugins)write metrics to various destinations
+4. [Output Plugins](https://github.com/influxdata/telegraf#output-plugins) write metrics to various destinations
 
 ## Architecture
 
@@ -26,7 +26,7 @@ Telegraf is plugin-driven and has the concept of 4 distinct plugins:
 
 ## Input Data Formats
 
-Telegraf contains many general purpose plugins that support parsing input data using a configurable parser into[metrics](https://github.com/influxdata/telegraf/blob/master/docs/METRICS.md). This allows, for example, thekafka_consumerinput plugin to process messages in either InfluxDB Line Protocol or in JSON format.
+Telegraf contains many general purpose plugins that support parsing input data using a configurable parser into [metrics](https://github.com/influxdata/telegraf/blob/master/docs/METRICS.md). This allows, for example, thekafka_consumerinput plugin to process messages in either InfluxDB Line Protocol or in JSON format.
 
 - [InfluxDB Line Protocol](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/influx)
 - [Collectd](https://github.com/influxdata/telegraf/blob/master/plugins/parsers/collectd)

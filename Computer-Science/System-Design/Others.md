@@ -8,8 +8,8 @@ Modified: 2021-08-06 00:51:32 +0500
 
 ## Grid FTP
 
-GridFTPis an extension of the[File Transfer Protocol (FTP)](https://en.wikipedia.org/wiki/File_Transfer_Protocol)for[grid computing](https://en.wikipedia.org/wiki/Grid_computing).The protocol was defined within the GridFTP working group of the[Open Grid Forum](https://en.wikipedia.org/wiki/Open_Grid_Forum). There are multiple implementations of the protocol; the most widely used is that provided by the[Globus Toolkit](https://en.wikipedia.org/wiki/Globus_Toolkit).
-The aim of GridFTP is to provide a more reliable and high performance file transfer, for example to enable the transmission of very large files. GridFTP is used extensively within large science projects such as the[Large Hadron Collider](https://en.wikipedia.org/wiki/LHC)and by many supercomputer centers and other scientific facilities.
+GridFTPis an extension of the [File Transfer Protocol (FTP)](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for [grid computing](https://en.wikipedia.org/wiki/Grid_computing).The protocol was defined within the GridFTP working group of the [Open Grid Forum](https://en.wikipedia.org/wiki/Open_Grid_Forum). There are multiple implementations of the protocol; the most widely used is that provided by the [Globus Toolkit](https://en.wikipedia.org/wiki/Globus_Toolkit).
+The aim of GridFTP is to provide a more reliable and high performance file transfer, for example to enable the transmission of very large files. GridFTP is used extensively within large science projects such as the [Large Hadron Collider](https://en.wikipedia.org/wiki/LHC) and by many supercomputer centers and other scientific facilities.
 GridFTP also addresses the problem of incompatibility between storage and access systems. Previously, each data provider would make their data available in their own specific way, providing a library of access functions. This made it difficult to obtain data from multiple sources, requiring a different access method for each, and thus dividing the total available data into partitions. GridFTP provides a uniform way of accessing the data, encompassing functions from all the different modes of access, building on and extending the universally accepted FTP standard. FTP was chosen as a basis for it because of its widespread use, and because it has a well defined architecture for extensions to the protocol (which may be dynamically discovered).
 Globus Toolkit - GSIFTP
 
@@ -56,7 +56,7 @@ The most significant difference is that the Lambda architecture performs data tr
 
 ## Dead Letter Queues**
 
-In[message queueing](https://en.wikipedia.org/wiki/Message_queue)thedead letter queueis a service implementation to store messages that meet one or more of the following criteria:
+In [message queueing](https://en.wikipedia.org/wiki/Message_queue) thedead letter queueis a service implementation to store messages that meet one or more of the following criteria:
 
 1. Message that is sent to a queue that does not exist.
 
@@ -68,7 +68,7 @@ In[message queueing](https://en.wikipedia.org/wiki/Message_queue)thedead letter 
 
 5. Message reaches a threshold read counter number, because it is not consumed. Sometimes this is called a "back out queue".
 Dead letter queue storing of these messages allows developers to look for common patterns and potential software problems.
-Queueing systems that incorporate dead letter queues include[Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service),[Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ),[HornetQ](https://en.wikipedia.org/wiki/HornetQ),[Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing),[WebSphere MQ][https://en.wikipedia.org/wiki/WebSphere_MQ]([5)](<https://en.wikipedia.org/wiki/Dead_letter_queue#cite_note-5>),[Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ)and[Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
+Queueing systems that incorporate dead letter queues include [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service),[Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ),[HornetQ](https://en.wikipedia.org/wiki/HornetQ),[Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing),[WebSphere MQ][https://en.wikipedia.org/wiki/WebSphere_MQ]([5)](<https://en.wikipedia.org/wiki/Dead_letter_queue#cite_note-5>),[Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ) and [Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
 <https://en.wikipedia.org/wiki/Dead_letter_queue>
 Amazon SQS supports*dead-letter queues*, which other queues (*source queues*) can target for messages that can't be processed (consumed) successfully. Dead-letter queues are useful for debugging your application or messaging system because they let you isolate problematic messages to determine why their processing doesn't succeed.
 Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to*poison-pill messages*(messages that can be received but can't be processed).
@@ -78,8 +78,8 @@ Do use dead-letter queues to decrease the number of messages and to reduce the p
 
 ## Systemantics**
 
-General Systemantics(retitled toSystemanticsin its second edition andThe Systems Biblein its third) is a[systems engineering](https://en.wikipedia.org/wiki/Systems_engineering)treatise by[John Gall](https://en.wikipedia.org/wiki/John_Gall_(author))in which he offers practical principles of systems design based on experience and anecdotes.
-It is offered from the perspective of hownotto design systems, based on system engineering failures. The primary precept of treatise is that large[complex systems](https://en.wikipedia.org/wiki/Complex_system)are extremely difficult to design correctly despite best intentions, so care must be taken to design smaller, less-complex systems and to do so with incremental functionality based on close and continual touch with user needs and measures of effectiveness.
+General Systemantics(retitled toSystemanticsin its second edition andThe Systems Biblein its third) is a [systems engineering](https://en.wikipedia.org/wiki/Systems_engineering) treatise by [John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)) in which he offers practical principles of systems design based on experience and anecdotes.
+It is offered from the perspective of hownotto design systems, based on system engineering failures. The primary precept of treatise is that large [complex systems](https://en.wikipedia.org/wiki/Complex_system) are extremely difficult to design correctly despite best intentions, so care must be taken to design smaller, less-complex systems and to do so with incremental functionality based on close and continual touch with user needs and measures of effectiveness.
 <https://en.wikipedia.org/wiki/Systemantics>
 <https://www.freecodecamp.org/news/have-an-idea-want-to-build-a-product-from-scratch-heres-a-checklist-of-things-you-should-go-through-in-your-backend-software-architecture>
 

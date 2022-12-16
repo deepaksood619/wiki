@@ -10,7 +10,7 @@ Modified: 2021-10-25 22:56:10 +0500
 
 ## Hash Function**
 
-A**hash function**is any[function](https://en.wikipedia.org/wiki/Function_(mathematics))that can be used to map[data](https://en.wikipedia.org/wiki/Data_(computing))of arbitrary size to data of fixed size. The values returned by a hash function are called*hash values*,*hash codes*,*digests*, or simply*hashes*. The values are used to index a fixed-size table called a*hash table*. Use of a hash function to index a hash table is called *hashing* or *scatter storage addressing*.
+A**hash function**is any [function](https://en.wikipedia.org/wiki/Function_(mathematics)) that can be used to map [data](https://en.wikipedia.org/wiki/Data_(computing)) of arbitrary size to data of fixed size. The values returned by a hash function are called*hash values*,*hash codes*,*digests*, or simply*hashes*. The values are used to index a fixed-size table called a*hash table*. Use of a hash function to index a hash table is called *hashing* or *scatter storage addressing*.
 
 ## Consistent Hashing
 
@@ -107,7 +107,7 @@ The 2-choice algorithm is better on the metric of likelihood of overflowing the 
 
 ## 2-left Hashing**
 
-A[dictionary](https://xlinux.nist.gov/dads/HTML/dictionary.html)implemented with two[hash tables](https://xlinux.nist.gov/dads/HTML/hashtab.html)of equal size, T1and T2, and two different[hash functions](https://xlinux.nist.gov/dads/HTML/hash.html), h1and h2. A new[key](https://xlinux.nist.gov/dads/HTML/key.html)is put in table 2 only if there are fewer (colliding) keys at T2[h2(key)] than at T1[h1(key)], otherwise it is put in table 1. With n keys and two tables of size n/2, the most collisions is 0.69... log2ln n +[O](https://xlinux.nist.gov/dads/HTML/bigOnotation.html)(1) with high probability.
+A [dictionary](https://xlinux.nist.gov/dads/HTML/dictionary.html) implemented with two [hash tables](https://xlinux.nist.gov/dads/HTML/hashtab.html) of equal size, T1and T2, and two different [hash functions](https://xlinux.nist.gov/dads/HTML/hash.html), h1and h2. A new [key](https://xlinux.nist.gov/dads/HTML/key.html) is put in table 2 only if there are fewer (colliding) keys at T2 [h2(key)] than at T1 [h1(key)], otherwise it is put in table 1. With n keys and two tables of size n/2, the most collisions is 0.69... log2ln n +[O](https://xlinux.nist.gov/dads/HTML/bigOnotation.html)(1) with high probability.
 
 ## Hash Table Implementations
 
@@ -116,8 +116,8 @@ A[dictionary](https://xlinux.nist.gov/dads/HTML/dictionary.html)implemented with
 
 ## Locality Sensitive Hashing (LSH)
 
-In computer science,locality-sensitive hashing(LSH) is an algorithmic technique that hashes similar input items into the same "buckets" with high probability.(The number of buckets are much smaller than the universe of possible input items.)Since similar items end up in the same buckets, this technique can be used for[data clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and [nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search). It differs from[conventional hashing techniques](https://en.wikipedia.org/wiki/Hash_function)in that hash collisions are maximized, not minimized. Alternatively, the technique can be seen as a way to[reduce the dimensionality](https://en.wikipedia.org/wiki/Dimension_reduction)of high-dimensional data; high-dimensional input items can be reduced to low-dimensional versions while preserving relative distances between items.
-Hashing-based approximate[nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)algorithms generally use one of two main categories of hashing methods: either data-independent methods, such as locality-sensitive hashing (LSH); or data-dependent methods, such as[Locality-preserving hashing](https://en.wikipedia.org/wiki/Locality-preserving_hashing)(LPH).
+In computer science,locality-sensitive hashing(LSH) is an algorithmic technique that hashes similar input items into the same "buckets" with high probability.(The number of buckets are much smaller than the universe of possible input items.)Since similar items end up in the same buckets, this technique can be used for [data clustering](https://en.wikipedia.org/wiki/Cluster_analysis) and [nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search). It differs from [conventional hashing techniques](https://en.wikipedia.org/wiki/Hash_function) in that hash collisions are maximized, not minimized. Alternatively, the technique can be seen as a way to [reduce the dimensionality](https://en.wikipedia.org/wiki/Dimension_reduction) of high-dimensional data; high-dimensional input items can be reduced to low-dimensional versions while preserving relative distances between items.
+Hashing-based approximate [nearest neighbor search](https://en.wikipedia.org/wiki/Nearest_neighbor_search) algorithms generally use one of two main categories of hashing methods: either data-independent methods, such as locality-sensitive hashing (LSH); or data-dependent methods, such as [Locality-preserving hashing](https://en.wikipedia.org/wiki/Locality-preserving_hashing)(LPH).
 <https://en.wikipedia.org/wiki/Locality-sensitive_hashing>
 
 <https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134>

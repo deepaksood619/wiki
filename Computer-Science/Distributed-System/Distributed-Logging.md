@@ -48,19 +48,19 @@ Logging can be used for -
 
 ## Common Log Format
 
-The format is extended by the[Combined Log Format](https://en.wikipedia.org/w/index.php?title=Combined_Log_Format&action=edit&redlink=1)with[referrer](https://en.wikipedia.org/wiki/Referrer)and[user-agent](https://en.wikipedia.org/wiki/User-agent)fields.
+The format is extended by the [Combined Log Format](https://en.wikipedia.org/w/index.php?title=Combined_Log_Format&action=edit&redlink=1) with [referrer](https://en.wikipedia.org/wiki/Referrer) and [user-agent](https://en.wikipedia.org/wiki/User-agent) fields.
 
 ## Example
 
 127.0.0.1 user-identifier frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
 A "-" in a field indicates missing data.-   127.0.0.1is the IP address of the client (remote host) which made the request to the server.
 
-- user-identifieris the[RFC 1413](https://tools.ietf.org/html/rfc1413)[identity](https://en.wikipedia.org/wiki/Ident_Protocol)of the client. Usually "-".
+- user-identifieris the [RFC 1413](https://tools.ietf.org/html/rfc1413)[identity](https://en.wikipedia.org/wiki/Ident_Protocol) of the client. Usually "-".
 - frankis the userid of the person requesting the document. Usually "-" unless .htaccess has requested authentication.
-- [10/Oct/2000:13:55:36 -0700]is the date, time, and time zone that the request was received, by default in[strftime](https://en.wikipedia.org/wiki/Strftime)format%d/%b/%Y:%H:%M:%S %z.
-- "GET /apache_pb.gif HTTP/1.0"is the request line from the client. The methodGET,/apache_pb.gifthe resource requested, andHTTP/1.0the[HTTP protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
-- 200is the[HTTP status code](https://en.wikipedia.org/wiki/HTTP_status_code)returned to the client. 2xx is a successful response, 3xx a redirection, 4xx a client error, and 5xx a server error.
-- 2326is the size of the object returned to the client, measured in[bytes](https://en.wikipedia.org/wiki/Byte).<https://en.wikipedia.org/wiki/Common_Log_Format>
+- [10/Oct/2000:13:55:36 -0700]is the date, time, and time zone that the request was received, by default in [strftime](https://en.wikipedia.org/wiki/Strftime) format%d/%b/%Y:%H:%M:%S %z.
+- "GET /apache_pb.gif HTTP/1.0"is the request line from the client. The methodGET,/apache_pb.gifthe resource requested, andHTTP/1.0the [HTTP protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol).
+- 200is the [HTTP status code](https://en.wikipedia.org/wiki/HTTP_status_code) returned to the client. 2xx is a successful response, 3xx a redirection, 4xx a client error, and 5xx a server error.
+- 2326is the size of the object returned to the client, measured in [bytes](https://en.wikipedia.org/wiki/Byte).<https://en.wikipedia.org/wiki/Common_Log_Format>
 
 ## Tools**
 

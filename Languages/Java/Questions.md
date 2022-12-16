@@ -333,7 +333,7 @@ It includes:
 
 ## Explain the following line used under Java Program −
 
-public static void main (String args[ ])
+public static void main (String args [ ])
 
 The following shows the explanation individually −
 
@@ -345,7 +345,7 @@ The following shows the explanation individually −
 
 4. main() − this method is called at the beginning of a Java program.
 
-5. String args[ ] − args parameter is an instance array of class String
+5. String args [ ] − args parameter is an instance array of class String
 
 ## Define JRE i.e. Java Runtime Environment?
 

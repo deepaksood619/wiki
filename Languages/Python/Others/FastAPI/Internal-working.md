@@ -14,7 +14,7 @@ When you declare apath operation functionwith normaldefinstead ofasync def, it i
 
 If you are coming from another async framework that does not work in the way described above and you are used to define trivial compute-onlypath operation functionswith plaindeffor a tiny performance gain (about 100 nanoseconds), please note that inFastAPIthe effect would be quite opposite. In these cases, it's better to useasync defunless yourpath operation functionsuse code that performs blockingI/O.
 
-Still, in both situations, chances are thatFastAPIwill[still be faster](https://fastapi.tiangolo.com/#performance)than (or at least comparable to) your previous framework.
+Still, in both situations, chances are thatFastAPIwill [still be faster](https://fastapi.tiangolo.com/#performance) than (or at least comparable to) your previous framework.
 
 ## Dependencies
 

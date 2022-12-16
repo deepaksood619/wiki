@@ -6,7 +6,7 @@ Modified: 2021-10-02 15:13:14 +0500
 
 ---
 
-In[probability theory](https://en.wikipedia.org/wiki/Probability_theory), thecentral limit theorem(CLT) establishes that, in some situations, when [independent random variables](https://en.wikipedia.org/wiki/Statistical_independence) are added, their properly normalized sum tends toward a[normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)(informally a "bell curve") even if the original variables themselves are not normally distributed. The theorem is a key concept in probability theory because it implies that probabilistic and statistical methods that work for normal distributions can be applicable to many problems involving other types of distributions.
+In [probability theory](https://en.wikipedia.org/wiki/Probability_theory), thecentral limit theorem(CLT) establishes that, in some situations, when [independent random variables](https://en.wikipedia.org/wiki/Statistical_independence) are added, their properly normalized sum tends toward a [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)(informally a "bell curve") even if the original variables themselves are not normally distributed. The theorem is a key concept in probability theory because it implies that probabilistic and statistical methods that work for normal distributions can be applicable to many problems involving other types of distributions.
 The distribution of sample means for an independent random variable, will get closer and closer to a normal distribution as the size of the sample gets bigger and bigger, even if the original population distribution isn't normal itself
 
 ## What is the Central Limit Theorem and why is it important?

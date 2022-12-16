@@ -8,9 +8,9 @@ Modified: 2021-12-19 15:06:33 +0500
 
 ## dependenciesare the packages your project depends on
 
-## devDependenciesare the packages that are needed during the development phase. Say a testing framework like[Jest](https://flaviocopes.com/jest/)or other utilities like[Babel](https://flaviocopes.com/babel/)or[ESLint](https://flaviocopes.com/eslint/)
+## devDependenciesare the packages that are needed during the development phase. Say a testing framework like [Jest](https://flaviocopes.com/jest/) or other utilities like [Babel](https://flaviocopes.com/babel/) or [ESLint](https://flaviocopes.com/eslint/)
 
-In both cases, when you install a package, its dependencies and devDependencies are automatically installed by[npm](https://flaviocopes.com/npm/).
+In both cases, when you install a package, its dependencies and devDependencies are automatically installed by [npm](https://flaviocopes.com/npm/).
 
 ## peerDependenciesare different. They are not automatically installed
 
@@ -354,7 +354,7 @@ class TemperatureInput extends React.Component {
     const scale = this.props.scale;
     return (
         <fieldset style={{ padding: "3px 20px" }}>
-        <legend>Enter temperature in {scaleNames[scale]}:</legend>
+        <legend>Enter temperature in {scaleNames [scale]}:</legend>
         <input
             style={{ margin: ".4rem" }}
             value={temperature}

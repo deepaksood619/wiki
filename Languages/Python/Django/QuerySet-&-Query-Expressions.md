@@ -290,9 +290,9 @@ Same goes for underscores. Both percentage signs and underscores are handled for
 
 ## Q Objects
 
-Keyword argument queries -- in[**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with**OR**statements), you can use[**Qobjects**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
+Keyword argument queries -- in [**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with**OR**statements), you can use [**Qobjects**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
 
-## A[Qobject](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments
+## A [Qobject](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments
 
 ## Q**objects can be combined using the**&**and**|**operators. When an operator is used on two**Q**objects, it yields a new**Qobject
 

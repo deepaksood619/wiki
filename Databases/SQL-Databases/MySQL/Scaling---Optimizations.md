@@ -35,7 +35,7 @@ Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
   - Stored procedures, stored functions, UDFs, or plugins.
   - Declared variables or user variables.
 - The query cache is not supported for partitioned tables, and is automatically disabled for queries involving partitioned tables. The query cache cannot be enabled for such queries.
-- Partitioned tables using the[InnoDB](https://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html)storage engine do not support foreign keys. More specifically, this means that the following two statements are true:
+- Partitioned tables using the [InnoDB](https://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html) storage engine do not support foreign keys. More specifically, this means that the following two statements are true:
   - No definition of anInnoDBtable employing user-defined partitioning may contain foreign key references; noInnoDBtable whose definition contains foreign key references may be partitioned.
   - NoInnoDBtable definition may contain a foreign key reference to a user-partitioned table; noInnoDBtable with user-defined partitioning may contain columns referenced by foreign keys.
 <https://dev.mysql.com/doc/mysql-partitioning-excerpt/5.7/en/partitioning-limitations.html>
@@ -87,13 +87,13 @@ REPAIR TABLE table_name;
 
 OPTIMIZE TABLE sttash_website_LIVE.email_instance_moratorium;
 During optimization, MySQL will create a temporary table for the table, and after the optimization it will delete the original table, and rename this temporary table to the original table.
-You can use[OPTIMIZE TABLE](https://dev.mysql.com/doc/refman/8.0/en/optimize-table.html)to reclaim the unused space and to defragment the data file. After extensive changes to a table, this statement may also improve performance of statements that use the table, sometimes significantly.
-This statement requires[SELECT](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_select)and[INSERT](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_insert)privileges for the table.
+You can use [OPTIMIZE TABLE](https://dev.mysql.com/doc/refman/8.0/en/optimize-table.html) to reclaim the unused space and to defragment the data file. After extensive changes to a table, this statement may also improve performance of statements that use the table, sometimes significantly.
+This statement requires [SELECT](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_select) and [INSERT](https://dev.mysql.com/doc/refman/8.0/en/privileges-provided.html#priv_insert) privileges for the table.
 <https://www.thegeekstuff.com/2016/04/mysql-optimize-table>
 
 <https://dev.mysql.com/doc/refman/8.0/en/optimize-table.html>-   Optimizing data size
     -   **Table Columns**
-        -   Use the most efficient (smallest) data types possible. MySQL has many specialized types that save disk space and memory. For example, use the smaller integer types if possible to get smaller tables.[MEDIUMINT](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html)is often a better choice than[INT](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html)because a[MEDIUMINT](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html)column uses 25% less space.
+        -   Use the most efficient (smallest) data types possible. MySQL has many specialized types that save disk space and memory. For example, use the smaller integer types if possible to get smaller tables.[MEDIUMINT](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html) is often a better choice than [INT](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html) because a [MEDIUMINT](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html) column uses 25% less space.
         -   Declare columns to beNOT NULLif possible. It makes SQL operations faster, by enabling better use of indexes and eliminating overhead for testing whether each value isNULL. You also save some storage space, one bit per column. If you really needNULLvalues in your tables, use them. Just avoid the default setting that allowsNULLvalues in every column.
     -   **Row Format**
     -   **Indexes**

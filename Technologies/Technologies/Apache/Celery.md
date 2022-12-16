@@ -20,7 +20,7 @@ Celery communicates via messages, usually using a broker to mediate between clie
 
 A Celery system can consist of multiple workers and brokers, giving way to high availability and horizontal scaling.
 
-Celery is written in Python, but the protocol can be implemented in any language. In addition to Python there's[node-celery](https://github.com/mher/node-celery) for Node.js, and a[PHP client](https://github.com/gjedeer/celery-php).
+Celery is written in Python, but the protocol can be implemented in any language. In addition to Python there's [node-celery](https://github.com/mher/node-celery) for Node.js, and a [PHP client](https://github.com/gjedeer/celery-php).
 
 Language interoperability can also be achieved by using webhooks in such a way that the client enqueues an URL to be requested by a worker.
 
@@ -28,7 +28,7 @@ Language interoperability can also be achieved by using webhooks in such a way t
   - [RabbitMQ](https://docs.celeryproject.org/en/stable/getting-started/brokers/rabbitmq.html#broker-rabbitmq)
   - [Redis](https://docs.celeryproject.org/en/stable/getting-started/brokers/redis.html#broker-redis)
   - [Amazon SQS](https://docs.celeryproject.org/en/stable/getting-started/brokers/sqs.html#broker-sqs)
-  - The recommended[message brokers](https://en.wikipedia.org/wiki/Message_broker)are[RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ)or[Redis](https://en.wikipedia.org/wiki/Redis).
+  - The recommended [message brokers](https://en.wikipedia.org/wiki/Message_broker) are [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ) or [Redis](https://en.wikipedia.org/wiki/Redis).
 - **Concurrency**
   - prefork (multiprocessing),
   - [Eventlet](http://eventlet.net/),[gevent](http://gevent.org/)
@@ -64,11 +64,11 @@ You can control how many tasks can be executed per second/minute/hour, or how lo
 
 - **Scheduling**
 
-You can specify the time to run a task in seconds or a[datetime](https://docs.python.org/dev/library/datetime.html#datetime.datetime), or you can use periodic tasks for recurring events based on a simple interval, or Crontab expressions supporting minute, hour, day of week, day of month, and month of year.
+You can specify the time to run a task in seconds or a [datetime](https://docs.python.org/dev/library/datetime.html#datetime.datetime), or you can use periodic tasks for recurring events based on a simple interval, or Crontab expressions supporting minute, hour, day of week, day of month, and month of year.
 
 - **Resource Leak Protection**
 
-The[--max-tasks-per-child](https://docs.celeryproject.org/en/stable/reference/celery.bin.worker.html#cmdoption-celery-worker-max-tasks-per-child)option is used for user tasks leaking resources, like memory or file descriptors, that are simply out of your control.
+The [--max-tasks-per-child](https://docs.celeryproject.org/en/stable/reference/celery.bin.worker.html#cmdoption-celery-worker-max-tasks-per-child) option is used for user tasks leaking resources, like memory or file descriptors, that are simply out of your control.
 
 - **User Components**
 

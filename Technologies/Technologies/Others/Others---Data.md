@@ -58,7 +58,7 @@ Dremel is a scalable, interactive ad-hoc query system for analysis of read-only 
 
 ## DVC
 
-[DVC](https://dvc.org/)stands for "data version control". This project invites data scientists and engineers to a Git-inspired world, where all workflow versions are tracked, along with all the data artifacts and models, as well as associated metrics.
+[DVC](https://dvc.org/) stands for "data version control". This project invites data scientists and engineers to a Git-inspired world, where all workflow versions are tracked, along with all the data artifacts and models, as well as associated metrics.
 
 <https://dvc.org>
 

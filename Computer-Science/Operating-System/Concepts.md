@@ -123,7 +123,7 @@ Ideally, a distributed file system organizes file and directory services of indi
 ![image](media/Concepts-image8.png)
 
 Since more than one client may access the same data simultaneously, the server must have a mechanism in place (such as maintaining information about the times of access) to organize updates so that the client always receives the most current version of data and that data conflicts do not arise. Distributed file systems typically use file or database replication (distributing copies of data on multiple servers) to protect against data access failures.
-Sun Microsystems' Network File System ([NFS](http://searchenterprisedesktop.techtarget.com/definition/Network-File-System)), Novell[NetWare](http://searchnetworking.techtarget.com/definition/NetWare), Microsoft's Distributed File System, and IBM's DFS are some examples of distributed file systems.
+Sun Microsystems' Network File System ([NFS](http://searchenterprisedesktop.techtarget.com/definition/Network-File-System)), Novell [NetWare](http://searchnetworking.techtarget.com/definition/NetWare), Microsoft's Distributed File System, and IBM's DFS are some examples of distributed file systems.
 
 ## Distributed Shared Memory
 

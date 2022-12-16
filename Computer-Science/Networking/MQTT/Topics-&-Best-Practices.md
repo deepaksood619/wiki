@@ -101,7 +101,7 @@ It can be very helpful to include the unique identifier of the publishing client
 
 ## Don't subscribe to #
 
-Sometimes, it is necessary to subscribe to all messages that are transferred over the broker. For example, to persist all messages into a database.Do not subscribe to all messages on a broker by using an MQTT client and subscribing to a multi-level wildcard.Frequently, the subscribing client is not able to process the load of messages that results from this method (especially if you have a massive throughput). Our recommendation is to implement an extension in the MQTT broker. For example, with the[plugin system of HiveMQ](https://www.hivemq.com/extensions)you can hook into the behavior of HiveMQ and add an asynchronous routine to process each incoming message and persist it to a database.
+Sometimes, it is necessary to subscribe to all messages that are transferred over the broker. For example, to persist all messages into a database.Do not subscribe to all messages on a broker by using an MQTT client and subscribing to a multi-level wildcard.Frequently, the subscribing client is not able to process the load of messages that results from this method (especially if you have a massive throughput). Our recommendation is to implement an extension in the MQTT broker. For example, with the [plugin system of HiveMQ](https://www.hivemq.com/extensions) you can hook into the behavior of HiveMQ and add an asynchronous routine to process each incoming message and persist it to a database.
 
 ## Don't forget extensibility
 

@@ -45,10 +45,10 @@ Mathematics
 
 ## Best Mental Models Books
 
-- [Seeking Wisdom](https://jamesclear.com/book/seeking-wisdom)by Peter Bevelin
-- [Poor Charlie's Almanack](https://jamesclear.com/book/poor-charlies-almanack)by Charles Munger
-- [The Personal MBA](https://jamesclear.com/book/the-personal-mba)by Josh Kaufman
-- [The Fifth Discipline](https://jamesclear.com/book/the-fifth-discipline)by Peter Senge
+- [Seeking Wisdom](https://jamesclear.com/book/seeking-wisdom) by Peter Bevelin
+- [Poor Charlie's Almanack](https://jamesclear.com/book/poor-charlies-almanack) by Charles Munger
+- [The Personal MBA](https://jamesclear.com/book/the-personal-mba) by Josh Kaufman
+- [The Fifth Discipline](https://jamesclear.com/book/the-fifth-discipline) by Peter Senge
 
 ## Mental Models
 
@@ -70,11 +70,11 @@ We should not attribute to malice, people do make mistakes
 
 <https://en.wikipedia.org/wiki/Fundamental_attribution_error>
 
-- **(1)[Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor)---** "Among competing hypotheses, the one with the fewest assumptions should be selected." (related:[conjunction fallacy](https://en.wikipedia.org/wiki/Conjunction_fallacy),[overfitting](https://en.wikipedia.org/wiki/Overfitting), "when you hear hoofbeats, think of horses not[zebras](https://en.wikipedia.org/wiki/Zebra_%28medicine%29).")
+- **(1)[Occam's Razor](https://en.wikipedia.org/wiki/Occam%27s_razor)---** "Among competing hypotheses, the one with the fewest assumptions should be selected." (related:[conjunction fallacy](https://en.wikipedia.org/wiki/Conjunction_fallacy),[overfitting](https://en.wikipedia.org/wiki/Overfitting), "when you hear hoofbeats, think of horses not [zebras](https://en.wikipedia.org/wiki/Zebra_%28medicine%29).")
 
 Simpler explanations are more likely to be true than complicated ones
 
-Occam's Razoris the problem-solving principle that the simplest solution tends to be the right one. When presented with competing[hypotheses](https://en.wikipedia.org/wiki/Hypothesis)to solve a problem, one should select the solution with the fewest assumptions.
+Occam's Razoris the problem-solving principle that the simplest solution tends to be the right one. When presented with competing [hypotheses](https://en.wikipedia.org/wiki/Hypothesis) to solve a problem, one should select the solution with the fewest assumptions.
 
 <https://en.wikipedia.org/wiki/Occam%27s_razor>
 
@@ -82,12 +82,12 @@ Occam's Razoris the problem-solving principle that the simplest solution tends t
 
 ![image](media/Mental-Models-image1.jpg)
 
-- (1)[Cognitive Biases](https://en.wikipedia.org/wiki/Cognitive_bias)--- "Tendencies to think in certain ways that can lead to systematic deviations from a standard of rationality or good judgments." (See[list of cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases))
+- (1)[Cognitive Biases](https://en.wikipedia.org/wiki/Cognitive_bias)--- "Tendencies to think in certain ways that can lead to systematic deviations from a standard of rationality or good judgments." (See [list of cognitive biases](https://en.wikipedia.org/wiki/List_of_cognitive_biases))
 - (1)[Proximate vs Root Cause](https://en.wikipedia.org/wiki/Proximate_and_ultimate_causation)--- "A proximate cause is an event which is closest to, or immediately responsible for causing, some observed result. This exists in contrast to a higher-level ultimate cause (or distal cause) which is usually thought of as the 'real' reason something occurred." (related:[5 whys](https://en.wikipedia.org/wiki/5_Whys)--- "to determine the root cause of a defect or problem by repeating the question 'Why?')
 
 ## Physics
 
-- (2)[Critical Mass](https://en.wikipedia.org/wiki/Critical_mass)--- "The smallest amount of fissile material needed for a sustained nuclear chain reaction." "In[social dynamics](https://en.wikipedia.org/wiki/Critical_mass_%28sociodynamics%29), critical mass is a sufficient number of adopters of an innovation in a social system so that the rate of adoption becomes self-sustaining and creates further growth."
+- (2)[Critical Mass](https://en.wikipedia.org/wiki/Critical_mass)--- "The smallest amount of fissile material needed for a sustained nuclear chain reaction." "In [social dynamics](https://en.wikipedia.org/wiki/Critical_mass_%28sociodynamics%29), critical mass is a sufficient number of adopters of an innovation in a social system so that the rate of adoption becomes self-sustaining and creates further growth."
 - (2)[Activation Energy](https://en.wikipedia.org/wiki/Activation_energy)--- "The minimum energy which must be available to a chemical system with potential reactants to result in a chemical reaction."
 - (2)[Catalyst](https://en.wikipedia.org/wiki/Catalysis)--- "A substance which increases the rate of a chemical reaction." (related:[tipping point](https://en.wikipedia.org/wiki/Tipping_point))
 - (2)[Leverage](https://en.wikipedia.org/wiki/Mechanical_advantage)--- "The force amplification achieved by using a tool, mechanical device or machine system." (related:[Theory of constraints](https://en.wikipedia.org/wiki/Theory_of_constraints)--- "a management paradigm that views any manageable system as being limited in achieving more of its goals by a very small number of constraints."
@@ -107,7 +107,7 @@ Occam's Razoris the problem-solving principle that the simplest solution tends t
 - (1)[False Positives and False Negatives](https://en.wikipedia.org/wiki/False_positives_and_false_negatives)--- "A false positive error, or in short false positive, commonly called a 'false alarm', is a result that indicates a given condition has been fulfilled, when it actually has not been fulfilled...A false negative error, or in short false negative, is where a test result indicates that a condition failed, while it actually was successful, i.e. erroneously no effect has been assumed."
 - (1)[Confidence Interval](https://en.wikipedia.org/wiki/Confidence_interval)--- "Confidence intervals consist of a range of values (interval) that act as good estimates of the unknown population parameter; however, the interval computed from a particular sample does not necessarily include the true value of the parameter." (related:[error bar](https://en.wikipedia.org/wiki/Error_bar))
 - (2)[Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)--- "Describes the probability of an event, based on conditions that might be related to the event. For example, suppose one is interested in whether a person has cancer, and knows the person's age. If cancer is related to age, then, using Bayes' theorem, information about the person's age can be used to more accurately assess the probability that they have cancer." (related:[base rate fallacy](https://en.wikipedia.org/wiki/Base_rate_fallacy))
-- (2)[Regression to the Mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)--- "The phenomenon that if a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement." (related:[Pendulum](https://en.wikipedia.org/wiki/Pendulum)swing;[variance](https://en.wikipedia.org/wiki/Variance);[Gambler's fallacy](https://en.wikipedia.org/wiki/Gambler%27s_fallacy))
+- (2)[Regression to the Mean](https://en.wikipedia.org/wiki/Regression_toward_the_mean)--- "The phenomenon that if a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement." (related:[Pendulum](https://en.wikipedia.org/wiki/Pendulum) swing;[variance](https://en.wikipedia.org/wiki/Variance);[Gambler's fallacy](https://en.wikipedia.org/wiki/Gambler%27s_fallacy))
 - **(2)[Inflection Point](https://en.wikipedia.org/wiki/Inflection_point#See_also)--- "A point on a curve at which the curve changes from being concave (concave downward) to convex (concave upward), or vice versa."**
 - (3)[Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox)--- "A paradox in probability and statistics, in which a trend appears in different groups of data but disappears or reverses when these groups are combined."
 
@@ -117,13 +117,13 @@ Occam's Razoris the problem-solving principle that the simplest solution tends t
 - (1)[Active Listening](https://en.wikipedia.org/wiki/Active_listening)--- "Requires that the listener fully concentrates, understands, responds and then remembers what is being said."
 - (1)[Trade-offs](https://en.wikipedia.org/wiki/Trade-off)--- "A situation that involves losing one quality or aspect of something in return for gaining another quality or aspect."
 - (2)[Best Alternative to a Negotiated Agreement (BATNA)](https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement)--- "The most advantageous alternative course of action a party can take if negotiations fail and an agreement cannot be reached."
-- (2)[Zero-sum](https://en.wikipedia.org/wiki/Zero-sum_game)vs[Non-zero-sum](https://en.wikipedia.org/wiki/Zero-sum_game#Non-zero-sum)
+- (2)[Zero-sum](https://en.wikipedia.org/wiki/Zero-sum_game) vs [Non-zero-sum](https://en.wikipedia.org/wiki/Zero-sum_game#Non-zero-sum)
 
 "A zero-sum game is a mathematical representation of a situation in which each participant's gain (or loss) of utility is exactly balanced by the losses (or gains) of the utility of the other participant(s)...In contrast, non-zero-sum describes a situation in which the interacting parties' aggregate gains and losses can be less than or more than zero." (related:[win-win](https://en.wikipedia.org/wiki/Win-win_game)--- "A win--win strategy is a conflict resolution process that aims to accommodate all disputants.")
 
-In[game theory](https://en.wikipedia.org/wiki/Game_theory)and[economic theory](https://en.wikipedia.org/wiki/Economic_theory), azero-sum gameis a[mathematical representation](https://en.wikipedia.org/wiki/Mathematical_model)of a situation in which each participant's gain or loss of[utility](https://en.wikipedia.org/wiki/Utility)is exactly balanced by the losses or gains of the utility of the other participants. If the total gains of the participants are added up and the total losses are subtracted, they will sum to zero. Thus,[cutting a cake](https://en.wikipedia.org/wiki/Fair_cake-cutting), where taking a larger piece reduces the amount of cake available for others, is a zero-sum game if all participants value each unit of cake equally (see[marginal utility](https://en.wikipedia.org/wiki/Marginal_utility)).
+In [game theory](https://en.wikipedia.org/wiki/Game_theory) and [economic theory](https://en.wikipedia.org/wiki/Economic_theory), azero-sum gameis a [mathematical representation](https://en.wikipedia.org/wiki/Mathematical_model) of a situation in which each participant's gain or loss of [utility](https://en.wikipedia.org/wiki/Utility) is exactly balanced by the losses or gains of the utility of the other participants. If the total gains of the participants are added up and the total losses are subtracted, they will sum to zero. Thus,[cutting a cake](https://en.wikipedia.org/wiki/Fair_cake-cutting), where taking a larger piece reduces the amount of cake available for others, is a zero-sum game if all participants value each unit of cake equally (see [marginal utility](https://en.wikipedia.org/wiki/Marginal_utility)).
 
-In contrast,non-zero-sumdescribes a situation in which the interacting parties' aggregate gains and losses can be less than or more than zero. A zero-sum game is also called astrictly competitivegame while non-zero-sum games can be either competitive or non-competitive. Zero-sum games are most often solved with the[minimax theorem](https://en.wikipedia.org/wiki/Minimax_theorem)which is closely related to[linear programming duality](https://en.wikipedia.org/wiki/LP_duality),or with[Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium).
+In contrast,non-zero-sumdescribes a situation in which the interacting parties' aggregate gains and losses can be less than or more than zero. A zero-sum game is also called astrictly competitivegame while non-zero-sum games can be either competitive or non-competitive. Zero-sum games are most often solved with the [minimax theorem](https://en.wikipedia.org/wiki/Minimax_theorem) which is closely related to [linear programming duality](https://en.wikipedia.org/wiki/LP_duality),or with [Nash equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium).
 
 <https://en.wikipedia.org/wiki/Zero-sum_game>
 
@@ -133,18 +133,18 @@ In contrast,non-zero-sumdescribes a situation in which the interacting parties' 
 - Burden of Proof - lies with the person making the claim
 - Hobson's Choice
 
-AHobson's choiceis a[free choice](https://en.wikipedia.org/wiki/Free_choice)in which only one thing is actually offered. The term is often used to describe an illusion that multiple choices are available. The most well known Hobson's choice is "I'll give you a choice: take it or leave it", wherein "leaving it" is strongly undesirable.
+AHobson's choiceis a [free choice](https://en.wikipedia.org/wiki/Free_choice) in which only one thing is actually offered. The term is often used to describe an illusion that multiple choices are available. The most well known Hobson's choice is "I'll give you a choice: take it or leave it", wherein "leaving it" is strongly undesirable.
 
 A Hobson's choice is different from
 
 - [Dilemma](https://en.wikipedia.org/wiki/Dilemma): a choice between two or more options, none of which are attractive.
 - [False dilemma](https://en.wikipedia.org/wiki/False_dilemma): only certain choices are considered, when in fact there are others.
-- [Catch-22](https://en.wikipedia.org/wiki/Catch-22_(logic)): a[logical paradox](https://en.wikipedia.org/wiki/Logical_paradox)arising from a situation in which an individual needs something that can only be acquired by not being in that very situation.
-- [Morton's fork](https://en.wikipedia.org/wiki/Morton%27s_fork), and a[double bind](https://en.wikipedia.org/wiki/Double_bind): choices yield equivalent and, often, undesirable results.
+- [Catch-22](https://en.wikipedia.org/wiki/Catch-22_(logic)): a [logical paradox](https://en.wikipedia.org/wiki/Logical_paradox) arising from a situation in which an individual needs something that can only be acquired by not being in that very situation.
+- [Morton's fork](https://en.wikipedia.org/wiki/Morton%27s_fork), and a [double bind](https://en.wikipedia.org/wiki/Double_bind): choices yield equivalent and, often, undesirable results.
 
-AMorton's forkis a type of[false dilemma](https://en.wikipedia.org/wiki/False_dilemma)in which contradictory observations lead to the same conclusion.
+AMorton's forkis a type of [false dilemma](https://en.wikipedia.org/wiki/False_dilemma) in which contradictory observations lead to the same conclusion.
 
-- [Blackmail](https://en.wikipedia.org/wiki/Blackmail)and[extortion](https://en.wikipedia.org/wiki/Extortion): the choice between paying money (or some non-monetary good or deed) or risk suffering an unpleasant action.
+- [Blackmail](https://en.wikipedia.org/wiki/Blackmail) and [extortion](https://en.wikipedia.org/wiki/Extortion): the choice between paying money (or some non-monetary good or deed) or risk suffering an unpleasant action.
 
 In the late 16th and early 17th centuries, Thomas Hobson worked as a licensed carrier of passengers, letters, and parcels between Cambridge and London, England. He kept horses for this purpose and rented them to university students when he wasn't using them. Of course, the students always wanted their favorite mounts, and consequently a few of Hobson's horses became overworked. To correct the situation, Hobson began a strict rotation system, giving each customer the choice of taking the horse nearest the stable door or none at all. This rule became known asHobson's choice,and soon people were using that term to mean "no choice at all" in all kinds of situations.
 
@@ -158,7 +158,7 @@ In the late 16th and early 17th centuries, Thomas Hobson worked as a licensed ca
 ## Influencing
 
 - (1)[Framing](https://en.wikipedia.org/wiki/Framing_%28social_sciences%29)--- "With the same information being used as a base, the 'frame' surrounding the issue can change the reader's perception without having to alter the actual facts." (related:[anchoring](https://en.wikipedia.org/wiki/Anchoring))
-- (2)[Cialdini's Six Principles of Influence](https://en.wikipedia.org/wiki/Robert_Cialdini)---[Reciprocity](https://en.wikipedia.org/wiki/Reciprocity_%28cultural_anthropology%29)("People tend to return a favor."),[Commitment](https://en.wikipedia.org/wiki/Consistency_%28negotiation%29)("If people commit...they are more likely to honor that commitment."),[Social Proof](https://en.wikipedia.org/wiki/Social_proof)("People will do things they see other people are doing."),[Authority](https://en.wikipedia.org/wiki/Authority)("People will tend to obey authority figures."), Liking ("People are easily persuaded by other people they like."), and[Scarcity](https://en.wikipedia.org/wiki/Scarcity)("Perceived scarcity will generate demand"). (related:[foot-in-the-door technique](https://en.wikipedia.org/wiki/Foot-in-the-door_technique#See_also))
+- (2)[Cialdini's Six Principles of Influence](https://en.wikipedia.org/wiki/Robert_Cialdini)---[Reciprocity](https://en.wikipedia.org/wiki/Reciprocity_%28cultural_anthropology%29)("People tend to return a favor."),[Commitment](https://en.wikipedia.org/wiki/Consistency_%28negotiation%29)("If people commit...they are more likely to honor that commitment."),[Social Proof](https://en.wikipedia.org/wiki/Social_proof)("People will do things they see other people are doing."),[Authority](https://en.wikipedia.org/wiki/Authority)("People will tend to obey authority figures."), Liking ("People are easily persuaded by other people they like."), and [Scarcity](https://en.wikipedia.org/wiki/Scarcity)("Perceived scarcity will generate demand"). (related:[foot-in-the-door technique](https://en.wikipedia.org/wiki/Foot-in-the-door_technique#See_also))
 - (3)[Paradox of Choice](https://en.wikipedia.org/wiki/The_Paradox_of_Choice)--- "Eliminating consumer choices can greatly reduce anxiety for shoppers." (related:[Hick's Law](https://en.wikipedia.org/wiki/Hick%27s_law), "increasing the number of choices will increase the decision time logarithmically.")
 - (3)[Major vs Minor Chords](https://en.wikipedia.org/wiki/Major_and_minor)--- "In Western music, a minor chord, in comparison, 'sounds darker than a major chord.'"
 - (3)[Coda](https://en.wikipedia.org/wiki/Coda_%28music%29)--- "A term used in music primarily to designated a passage that brings a piece to an end." (related:[CTA](https://en.wikipedia.org/wiki/Call_to_action_%28marketing%29).) People psychologically expect codas, and so they can be used for influence.
@@ -207,7 +207,7 @@ In the late 16th and early 17th centuries, Thomas Hobson worked as a licensed ca
 
 ## Sports
 
-- (2)[Unforced Error](https://en.wikipedia.org/wiki/Glossary_of_tennis_terms#U)--- In tennis, an "error in a service or return shot that cannot be attributed to any factor other than poor judgement and execution by the player; contrasted with a[forced error](https://en.wikipedia.org/wiki/Unforced_error#Forced_error)," "an error caused by an opponent's good play."
+- (2)[Unforced Error](https://en.wikipedia.org/wiki/Glossary_of_tennis_terms#U)--- In tennis, an "error in a service or return shot that cannot be attributed to any factor other than poor judgement and execution by the player; contrasted with a [forced error](https://en.wikipedia.org/wiki/Unforced_error#Forced_error)," "an error caused by an opponent's good play."
 - (3)[Hail Mary Pass](https://en.wikipedia.org/wiki/Hail_Mary_pass)--- "A very long forward pass in American football, made in desperation with only a small chance of success... has become generalized to refer to any last-ditch effort with little chance of success."
 
 ## Market Failure
@@ -232,7 +232,7 @@ The economic problem of overconsumption and depletion of shared resources
 
 - (2)[Nature vs Nurture](https://en.wikipedia.org/wiki/Nature_versus_nurture)--- "the relative importance of an individual's innate qualities as compared to an individual's personal experiences in causing individual differences, especially in behavioral traits."
 - (2) Chain Reaction --- "A sequence of reactions where a reactive product or by-product causes additional reactions to take place. In a chain reaction, positive feedback leads to a self-amplifying chain of events." (related:[cascading failure](https://en.wikipedia.org/wiki/Cascading_failure),[domino effect](https://en.wikipedia.org/wiki/Domino_effect))
-- (2) Filling a Vacuum --- A[vacuum](https://en.wikipedia.org/wiki/Vacuum)"is space void of matter." Filling a vacuum refers to the fact that if a vacuum is put next to something with pressure, it will be quickly filled by the gas producing that pressure. (related:[power vacuum](https://en.wikipedia.org/wiki/Power_vacuum))
+- (2) Filling a Vacuum --- A [vacuum](https://en.wikipedia.org/wiki/Vacuum)"is space void of matter." Filling a vacuum refers to the fact that if a vacuum is put next to something with pressure, it will be quickly filled by the gas producing that pressure. (related:[power vacuum](https://en.wikipedia.org/wiki/Power_vacuum))
 - (2)[Emergence](https://en.wikipedia.org/wiki/Emergence#See_also)--- "Whereby larger entities, patterns, and regularities arise through interactions among smaller or simpler entities that themselves do not exhibit such properties." (related:[decentralized system](https://en.wikipedia.org/wiki/Decentralised_system),[spontaneous order](https://en.wikipedia.org/wiki/Spontaneous_order))
 - (3)[Natural Selection](https://en.wikipedia.org/wiki/Natural_selection)--- "The differential survival and reproduction of individuals due to differences in phenotype. It is a key mechanism of evolution, the change in heritable traits of a population over time."
 - (3)[Butterfly Effect](https://en.wikipedia.org/wiki/Butterfly_effect#See_also)--- "The concept that small causes can have large effects." (related:[bullwhip effect](https://en.wikipedia.org/wiki/Bullwhip_effect)--- "increasing swings in inventory in response to shifts in customer demand as you move further up the supply chain.")
@@ -243,7 +243,7 @@ The economic problem of overconsumption and depletion of shared resources
 ## Philosophy
 
 - (2)[Consequentialism](https://en.wikipedia.org/wiki/Consequentialism)--- "Holding that the consequences of one's conduct are the ultimate basis for any judgment about the rightness or wrongness of that conduct." (related: "ends justify the means")
-- (2)[Distributive Justice](https://en.wikipedia.org/wiki/Distributive_justice)vs[Procedural Justice](https://en.wikipedia.org/wiki/Procedural_justice)--- "Procedural justice concerns the fairness and the transparency of the processes by which decisions are made, and may be contrasted with distributive justice (fairness in the distribution of rights or resources), and retributive justice (fairness in the punishment of wrongs)."
+- (2)[Distributive Justice](https://en.wikipedia.org/wiki/Distributive_justice) vs [Procedural Justice](https://en.wikipedia.org/wiki/Procedural_justice)--- "Procedural justice concerns the fairness and the transparency of the processes by which decisions are made, and may be contrasted with distributive justice (fairness in the distribution of rights or resources), and retributive justice (fairness in the punishment of wrongs)."
 - **(3)[Effective Altruism](https://en.wikipedia.org/wiki/Effective_altruism)---** "Encourages individuals to consider all causes and actions, and then act in the way that brings about the greatest positive impact, based on their values."
 - **(3)[Utilitarianism](https://en.wikipedia.org/wiki/Utilitarianism)---** "Holding that the best moral action is the one that maximizes utility."
 
@@ -269,11 +269,11 @@ The doctrine that an action is right in so far as it promotes happiness, and tha
 
 ## Catch-22
 
-Acatch-22is a[paradoxical](https://en.wikipedia.org/wiki/Paradox)situation from which an individual cannot escape because of contradictory rules or limitations.The term was coined by[Joseph Heller](https://en.wikipedia.org/wiki/Joseph_Heller), who used it in his 1961 novel[Catch-22](https://en.wikipedia.org/wiki/Catch-22).
+Acatch-22is a [paradoxical](https://en.wikipedia.org/wiki/Paradox) situation from which an individual cannot escape because of contradictory rules or limitations.The term was coined by [Joseph Heller](https://en.wikipedia.org/wiki/Joseph_Heller), who used it in his 1961 novel [Catch-22](https://en.wikipedia.org/wiki/Catch-22).
 
 An example is:
 
-In needing experience to get a job..."How can I get any experience until I get a job thatgivesme experience?" -- Brantley Foster in[The Secret of My Success](https://en.wikipedia.org/wiki/The_Secret_of_My_Success_(1987_film)).
+In needing experience to get a job..."How can I get any experience until I get a job thatgivesme experience?" -- Brantley Foster in [The Secret of My Success](https://en.wikipedia.org/wiki/The_Secret_of_My_Success_(1987_film)).
 
 <https://en.wikipedia.org/wiki/Catch-22_(logic)>
 
@@ -287,7 +287,7 @@ A complex system that works is invariably found to have evolved from a simple sy
 
 ## Chesterton's Fence (in Second-order thinking)
 
-Chesterton's fenceis the principle that reforms should not be made until the reasoning behind the existing state of affairs is understood. The quotation is from[G. K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton)'s 1929 bookThe Thing, in the chapter entitled "The Drift from Domesticity":
+Chesterton's fenceis the principle that reforms should not be made until the reasoning behind the existing state of affairs is understood. The quotation is from [G. K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton)'s 1929 bookThe Thing, in the chapter entitled "The Drift from Domesticity":
 
 In the matter of reforming things, as distinct from deforming them, there is one plain and simple principle; a principle which will probably be called a paradox. There exists in such a case a certain institution or law; let us say, for the sake of simplicity, a fence or gate erected across a road. The more modern type of reformer goes gaily up to it and says, "I don't see the use of this; let us clear it away." To which the more intelligent type of reformer will do well to answer: "If you don't see the use of it, I certainly won't let you clear it away. Go away and think. Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it."
 
@@ -429,11 +429,11 @@ We can start a positive cycle of desire for ourselves even in simple things, lik
 
 ## Systemic bias
 
-Systemic bias, also calledinstitutional bias, is the inherent tendency of a process to support particular outcomes. The term generally refers to human systems such as institutions; the equivalent bias in non-human systems (such as measurement instruments or[mathematical models](https://www.wikiwand.com/en/Computational_mechanics)used to estimate physical quantities) is often called[systematic bias](https://www.wikiwand.com/en/Systematic_bias), and leads to[systematic error](https://www.wikiwand.com/en/Systematic_error)in measurements or estimates. The issues of systemic bias are dealt with extensively in the field of[industrial organization](https://www.wikiwand.com/en/Industrial_organization)economics.
+Systemic bias, also calledinstitutional bias, is the inherent tendency of a process to support particular outcomes. The term generally refers to human systems such as institutions; the equivalent bias in non-human systems (such as measurement instruments or [mathematical models](https://www.wikiwand.com/en/Computational_mechanics) used to estimate physical quantities) is often called [systematic bias](https://www.wikiwand.com/en/Systematic_bias), and leads to [systematic error](https://www.wikiwand.com/en/Systematic_error) in measurements or estimates. The issues of systemic bias are dealt with extensively in the field of [industrial organization](https://www.wikiwand.com/en/Industrial_organization) economics.
 
 ## Human Capital Theory
 
-Human capitalis the stock of[habits](https://www.wikiwand.com/en/Habit),[knowledge](https://www.wikiwand.com/en/Knowledge),[social](https://www.wikiwand.com/en/Social)and[personality](https://www.wikiwand.com/en/Personality)attributes (including[creativity](https://www.wikiwand.com/en/Creativity)) embodied in the ability to perform labour so as to produce[economic value](https://www.wikiwand.com/en/Economic_value).
+Human capitalis the stock of [habits](https://www.wikiwand.com/en/Habit),[knowledge](https://www.wikiwand.com/en/Knowledge),[social](https://www.wikiwand.com/en/Social) and [personality](https://www.wikiwand.com/en/Personality) attributes (including [creativity](https://www.wikiwand.com/en/Creativity)) embodied in the ability to perform labour so as to produce [economic value](https://www.wikiwand.com/en/Economic_value).
 
 Human capital is unique and differs from any other capital. It is needed for companies to achieve goals, develop and remain innovative. Companies can invest in human capital for example through education and training enabling improved levels of quality and production.
 
@@ -441,7 +441,7 @@ Human capital is unique and differs from any other capital. It is needed for com
 
 ## Hedonic Treadmill / Hedonic Adaptation
 
-Thehedonic treadmill, also known ashedonic adaptation, is the observed tendency of[humans](https://www.wikiwand.com/en/Human)to quickly return to a relatively stable level of[happiness](https://www.wikiwand.com/en/Happiness)despite major positive or negative events or life changes.According to this theory, as a person makes more money, expectations and desires rise in tandem, which results in no permanent gain in happiness.
+Thehedonic treadmill, also known ashedonic adaptation, is the observed tendency of [humans](https://www.wikiwand.com/en/Human) to quickly return to a relatively stable level of [happiness](https://www.wikiwand.com/en/Happiness) despite major positive or negative events or life changes.According to this theory, as a person makes more money, expectations and desires rise in tandem, which results in no permanent gain in happiness.
 
 <https://www.wikiwand.com/en/Hedonic_treadmill>
 

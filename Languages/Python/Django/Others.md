@@ -12,7 +12,7 @@ It's sometimes useful to pre-populate your database with hard-coded data when yo
 
 ## Providing initial data with fixtures
 
-A fixture is a collection of data that Django knows how to import into a database. The most straightforward way of creating a fixture if you've already got some data is to use the [manage.pydumpdata](https://docs.djangoproject.com/en/1.11/ref/django-admin/#django-admin-dumpdata) command. Or, you can write fixtures by hand; fixtures can be written as JSON, XML or YAML (with[PyYAML](http://www.pyyaml.org/)installed) documents.
+A fixture is a collection of data that Django knows how to import into a database. The most straightforward way of creating a fixture if you've already got some data is to use the [manage.pydumpdata](https://docs.djangoproject.com/en/1.11/ref/django-admin/#django-admin-dumpdata) command. Or, you can write fixtures by hand; fixtures can be written as JSON, XML or YAML (with [PyYAML](http://www.pyyaml.org/) installed) documents.
 
 ## Postgres
 
@@ -26,7 +26,7 @@ A fixture is a collection of data that Django knows how to import into a databas
 
 A field for storing JSON encoded data. In Python the data is represented in its Python native format: dictionaries, lists, strings, numbers, booleans and**None**.
 
-PostgreSQL has two native JSON based data types:**json**and**jsonb**. The main difference between them is how they are stored and how they can be queried. PostgreSQL's**json**field is stored as the original string representation of the JSON and must be decoded on the fly when queried based on keys. The**jsonb**field is stored based on the actual structure of the JSON which allows indexing. The trade-off is a small additional cost on writing to the**jsonb**field.**JSONField**uses**jsonb**.
+PostgreSQL has two native JSON based data types: **json** and **jsonb**. The main difference between them is how they are stored and how they can be queried. PostgreSQL's **json** field is stored as the original string representation of the JSON and must be decoded on the fly when queried based on keys. The **jsonb** field is stored based on the actual structure of the JSON which allows indexing. The trade-off is a small additional cost on writing to the **jsonb** field.**JSONField** uses **jsonb**.
 
 ## Can Supply RAW PostgreSQL queries for filtering and other direct postgres statements
 
@@ -77,9 +77,9 @@ url(r'^polls/', include('polls.urls')),
 url(r'^admin/', admin.site.urls),
 ]
 
-The[include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include)function allows referencing other URLconfs. Note that the regular expressions for the [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include)function doesn't have a$(end-of-string match character) but rather a trailing slash. Whenever Django encounters[include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include), it chops off whatever part of the URL matched up to that point and sends the remaining string to the included URLconf for further processing.
+The [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include) function allows referencing other URLconfs. Note that the regular expressions for the [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include) function doesn't have a$(end-of-string match character) but rather a trailing slash. Whenever Django encounters [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include), it chops off whatever part of the URL matched up to that point and sends the remaining string to the included URLconf for further processing.
 
-The idea behind[include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include)is to make it easy to plug-and-play URLs. Since polls are in their own URLconf (polls/urls.py), they can be placed under "/polls/", or under "/fun_polls/", or under "/content/polls/", or any other path root, and the app will still work.
+The idea behind [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include) is to make it easy to plug-and-play URLs. Since polls are in their own URLconf (polls/urls.py), they can be placed under "/polls/", or under "/fun_polls/", or under "/content/polls/", or any other path root, and the app will still work.
 
 ## Generic View: less code is better
 
@@ -89,11 +89,11 @@ Generic views abstract common patterns to the point where you don't even need to
 
 <https://docs.djangoproject.com/en/1.11/topics/auth/customizing>
 
-[Authentication backends](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#authentication-backends)provide an extensible system for when a username and password stored with the user model need to be authenticated against a different service than Django's default.
+[Authentication backends](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#authentication-backends) provide an extensible system for when a username and password stored with the user model need to be authenticated against a different service than Django's default.
 
-You can give your models[custom permissions](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#custom-permissions)that can be checked through Django's authorization system.
+You can give your models [custom permissions](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#custom-permissions) that can be checked through Django's authorization system.
 
-You can[extend](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#extending-user)the default**User**model, or[substitute](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user)a completely customized model.
+You can [extend](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#extending-user) the default**User**model, or [substitute](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user) a completely customized model.
 
 ## Other Authentication Sources
 

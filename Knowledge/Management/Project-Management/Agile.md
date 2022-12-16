@@ -26,7 +26,7 @@ Teams choose agile so they can respond to changes in the marketplace or feedback
 
 ## Agile yesterday, today, and tomorrow
 
-The publication of the Agile Manifesto in 2001 marks the birth of agile as a methodology. Since then, many agile frameworks have emerged such as **Scrum, Kanban, Lean, Crystal Clear, and Extreme Programming (XP).** Each embodies the core principles of frequent iteration, continuous learning, and high quality in its own way.**[Scrum](https://www.atlassian.com/agile/scrum)and XP are favored by software development teams, while[Kanban](https://www.atlassian.com/agile/kanban)is a darling among service-oriented teams like IT or human resources.**
+The publication of the Agile Manifesto in 2001 marks the birth of agile as a methodology. Since then, many agile frameworks have emerged such as **Scrum, Kanban, Lean, Crystal Clear, and Extreme Programming (XP).** Each embodies the core principles of frequent iteration, continuous learning, and high quality in its own way.**[Scrum](https://www.atlassian.com/agile/scrum) and XP are favored by software development teams, while [Kanban](https://www.atlassian.com/agile/kanban) is a darling among service-oriented teams like IT or human resources.**
 
 Today, many agile teams combine practices from a few different frameworks, spiced up with practices unique to the team. Some call this heresy. We call it practical. It's not about "Agile" -- it's about agility.
 
@@ -36,7 +36,7 @@ Although many of our teams organize their work in sprints, estimate in story poi
 
 For example, if you're on a queue-oriented team like IT, Kanban provides a solid foundation for your agile practice. But nothing should stop you from sprinkling in a few Scrum practices like demo sessions with stakeholders or regular retrospectives.
 
-The key to doing agile right is[embracing a mindset of continuous improvement](https://www.atlassian.com/blog/agile/how-to-stay-agile-and-keep-improving). Experiment with different practices and have open, honest discussions about them with your team. Keep the ones that work, and throw out the ones that don't.
+The key to doing agile right is [embracing a mindset of continuous improvement](https://www.atlassian.com/blog/agile/how-to-stay-agile-and-keep-improving). Experiment with different practices and have open, honest discussions about them with your team. Keep the ones that work, and throw out the ones that don't.
 
 ## Topics
 

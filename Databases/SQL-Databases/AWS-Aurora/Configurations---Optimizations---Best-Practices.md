@@ -54,7 +54,7 @@ max_connections = GREATEST({log(16374562816/805306368,2)*45},{log(16374562816/81
 max_connections = GREATEST(195.56,1000) = 1000
 If you are encountering connection errors and getting excessiveToo many connectionsin your error logs, you can set this parameter to a fixed value instead of the variable setting.
 When you're considering settingmax_connectionsto a fixed value if your application requires a higher number of connections, consider using a connection pool or proxy between the application and the database. You can also do this if connections can't be predicted or controlled reliably.
-When you manually configure a value for this parameter that exceeds the recommended number of connections,[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)metrics for DB connections show a red line where the threshold is exceeded. This is the formula that CloudWatch uses:
+When you manually configure a value for this parameter that exceeds the recommended number of connections,[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for DB connections show a red line where the threshold is exceeded. This is the formula that CloudWatch uses:
 
 Threshold value for max_connections = {DBInstanceClassMemory/12582880}
 For example, for a db.r4.large instance whose memory size is 15.25 GiB (15.25 x 1024 x 1024 x 1024 = 16374562816 bytes), the warning threshold is approximately 1,300 connections. You can still use the maximum number of configured connections, provided that there are enough resources on the instance.

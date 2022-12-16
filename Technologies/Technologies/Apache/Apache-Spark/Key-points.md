@@ -24,7 +24,7 @@ When reading CSV files into dataframes, Spark performs the operation in an eager
 
 Often you'll need to process a large number of files, such as hundreds of parquet files located at a certain path or directory in DBFS. With Spark, you can include a wildcard in a path to process a collection of files.
 
-If you want to read data from a DataBase, such as Redshift, it's a best practice to first unload the data to S3 before processing it with Spark. In Redshift, the[unload](https://docs.aws.amazon.com/redshift/latest/dg/t_Unloading_tables.html)command can be used to export data to S3 for processing:
+If you want to read data from a DataBase, such as Redshift, it's a best practice to first unload the data to S3 before processing it with Spark. In Redshift, the [unload](https://docs.aws.amazon.com/redshift/latest/dg/t_Unloading_tables.html) command can be used to export data to S3 for processing:
 
 unload ('select * from data_to_process')
 
@@ -32,7 +32,7 @@ to 's3://my_bucket/game_data'
 
 iam_role 'arn:aws:iam::123:role/RedshiftExport';
 
-There's also libraries for databases, such as the[spark-redshift](https://github.com/databricks/spark-redshift), that make this process easier to perform.
+There's also libraries for databases, such as the [spark-redshift](https://github.com/databricks/spark-redshift), that make this process easier to perform.
 
 ## Writing Data
 

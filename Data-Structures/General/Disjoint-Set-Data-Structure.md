@@ -11,7 +11,7 @@ Also called as union-find data structure or merge-find set, is a DS that keeps t
 ## Representation
 
 A disjoint set forest consists of a number of elements each of which contains an id, a parent pointer and in efficient algorithms, a value called the rank.
-The parent pointers of elements are arranged to form one or more[trees](https://en.wikipedia.org/wiki/Tree_data_structure), each representing a set. If an element's parent pointer points to no other element, then the element is the root of a tree and is the representative member of its set. A set may consist of only a single element. However, if the element has a parent, the element is part of whatever set is identified by following the chain of parents upwards until a representative element (one without a parent) is reached at the root of the tree.
+The parent pointers of elements are arranged to form one or more [trees](https://en.wikipedia.org/wiki/Tree_data_structure), each representing a set. If an element's parent pointer points to no other element, then the element is the root of a tree and is the representative member of its set. A set may consist of only a single element. However, if the element has a parent, the element is part of whatever set is identified by following the chain of parents upwards until a representative element (one without a parent) is reached at the root of the tree.
 Forests can be represented compactly in memory as arrays in which parents are indicated by their array index.
 
 ## Operations

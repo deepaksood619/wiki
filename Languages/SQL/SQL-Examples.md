@@ -302,7 +302,7 @@ select listagg (num, '&') within group (order by num) from ( select n1.num num, 
 
 # my sql ** sequence
 
-SELECT REPEAT('* ',[@NUMBER](https://www.hackerrank.com/NUMBER):=[@NUMBER](https://www.hackerrank.com/NUMBER)- 1) FROM information_schema.tables, (SELECT[@NUMBER](https://www.hackerrank.com/NUMBER):=21) t LIMIT 20
+SELECT REPEAT('* ',[@NUMBER](https://www.hackerrank.com/NUMBER):=[@NUMBER](https://www.hackerrank.com/NUMBER)- 1) FROM information_schema.tables, (SELECT [@NUMBER](https://www.hackerrank.com/NUMBER):=21) t LIMIT 20
 
 # SQL Project Planning
 

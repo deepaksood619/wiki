@@ -6,7 +6,7 @@ Modified: 2021-11-19 17:58:08 +0500
 
 ---
 
-Apache Cassandrais a[free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software),[distributed](https://en.wikipedia.org/wiki/Distributed_database),[wide column store](https://en.wikipedia.org/wiki/Wide_column_store), [NoSQL](https://en.wikipedia.org/wiki/NoSQL)[database](https://en.wikipedia.org/wiki/Database) management system designed to handle large amounts of data across many[commodity servers](https://en.wikipedia.org/wiki/Commodity_computing), providing high availability with no[single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure). Cassandra offers robust support for [clusters](https://en.wikipedia.org/wiki/Computer_cluster) spanning multiple datacenters,with asynchronous masterless replication allowing low latency operations for all clients.
+Apache Cassandrais a [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software),[distributed](https://en.wikipedia.org/wiki/Distributed_database),[wide column store](https://en.wikipedia.org/wiki/Wide_column_store), [NoSQL](https://en.wikipedia.org/wiki/NoSQL)[database](https://en.wikipedia.org/wiki/Database) management system designed to handle large amounts of data across many [commodity servers](https://en.wikipedia.org/wiki/Commodity_computing), providing high availability with no [single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure). Cassandra offers robust support for [clusters](https://en.wikipedia.org/wiki/Computer_cluster) spanning multiple datacenters,with asynchronous masterless replication allowing low latency operations for all clients.
 
 - Intented to run in a datacenter (and also across DCs)
 - Originally designed at Facebook
@@ -32,21 +32,21 @@ Designed to have read and write throughput both increase linearly as new machine
 
 4. Fault-tolerant (No single point of failure)
 
-Data is automatically replicated to multiple nodes for[fault-tolerance](https://en.wikipedia.org/wiki/Fault-tolerance).[Replication](https://en.wikipedia.org/wiki/Replication_(computer_science))across multiple data centers is supported. Failed nodes can be replaced with no downtime.
+Data is automatically replicated to multiple nodes for [fault-tolerance](https://en.wikipedia.org/wiki/Fault-tolerance).[Replication](https://en.wikipedia.org/wiki/Replication_(computer_science)) across multiple data centers is supported. Failed nodes can be replaced with no downtime.
 
 5. Tunable consistency
 
-Cassandra is typically classified as an[AP system](https://en.wikipedia.org/wiki/CAP_theorem), meaning that availability and partition tolerance are generally considered to be more important than consistency in Cassandra, Writes and reads offer a tunable level of[consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), all the way from "writes never fail" to "block for all replicas to be readable", with the[quorum level](https://en.wikipedia.org/wiki/Quorum_(distributed_computing))in the middle.
+Cassandra is typically classified as an [AP system](https://en.wikipedia.org/wiki/CAP_theorem), meaning that availability and partition tolerance are generally considered to be more important than consistency in Cassandra, Writes and reads offer a tunable level of [consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), all the way from "writes never fail" to "block for all replicas to be readable", with the [quorum level](https://en.wikipedia.org/wiki/Quorum_(distributed_computing)) in the middle.
 
 ## Can provide both eventual and strong consistency. (Local Quorum -**This many nodes must be written out to transaction to be successful**)
 
 6. MapReduce support
 
-Cassandra has[Hadoop](https://en.wikipedia.org/wiki/Hadoop)integration, with[MapReduce](https://en.wikipedia.org/wiki/MapReduce)support. There is support also for[Apache Pig](https://en.wikipedia.org/wiki/Pig_(programming_tool))and[Apache Hive](https://en.wikipedia.org/wiki/Apache_Hive).
+Cassandra has [Hadoop](https://en.wikipedia.org/wiki/Hadoop) integration, with [MapReduce](https://en.wikipedia.org/wiki/MapReduce) support. There is support also for [Apache Pig](https://en.wikipedia.org/wiki/Pig_(programming_tool)) and [Apache Hive](https://en.wikipedia.org/wiki/Apache_Hive).
 
 7. Query language
 
-Cassandra introduced the Cassandra Query Language (CQL). CQL is a simple interface for accessing Cassandra, as an alternative to the traditional[Structured Query Language](https://en.wikipedia.org/wiki/SQL)(SQL).
+Cassandra introduced the Cassandra Query Language (CQL). CQL is a simple interface for accessing Cassandra, as an alternative to the traditional [Structured Query Language](https://en.wikipedia.org/wiki/SQL)(SQL).
 
 8. Time-series data
 
@@ -72,7 +72,7 @@ A keyspace in Cassandra is a namespace that defines data replication on nodes. A
 
 5. SuperColumn
 <https://www.tutorialspoint.com/cassandra/cassandra_data_model.htm>
-Cassandra is fundamentally a key-value store and distributes data around the cluster by a **PARTITION KEY**, then sorts the data on that partition (or row) by the **CLUSTERING key**. Adding new data to that row is almost free, and updates are handled by marking the previous cell value with a **tombstone** and adding the new value to the row. Eventually, you will need to **compact** these partitions as data becomes fragmented over multiple files, but remember that you are amortizing your INSERTs and UPDATEs over time with almost instantaneous commits. This makes scanning a single partition or row very fast as the disk head only performs a single seek operation. However, if you want more than a single Cassandra partition, performance goes south fairly quickly as **scatter/gather** queries are an **anti-pattern**, and[secondary indexes](https://www.datastax.com/dev/blog/cassandra-native-secondary-index-deep-dive)are only useful in extremely rare and specific occasions. Therefore, when you know what partition you want to scan, and you don't want to do any aggregations, GROUPBYs, or any other more analytical operations, then you are in good shape. The result is that Cassandra is great for small, tightly constrained, well-known queries and high-volume inserts and updates.
+Cassandra is fundamentally a key-value store and distributes data around the cluster by a **PARTITION KEY**, then sorts the data on that partition (or row) by the **CLUSTERING key**. Adding new data to that row is almost free, and updates are handled by marking the previous cell value with a **tombstone** and adding the new value to the row. Eventually, you will need to **compact** these partitions as data becomes fragmented over multiple files, but remember that you are amortizing your INSERTs and UPDATEs over time with almost instantaneous commits. This makes scanning a single partition or row very fast as the disk head only performs a single seek operation. However, if you want more than a single Cassandra partition, performance goes south fairly quickly as **scatter/gather** queries are an **anti-pattern**, and [secondary indexes](https://www.datastax.com/dev/blog/cassandra-native-secondary-index-deep-dive) are only useful in extremely rare and specific occasions. Therefore, when you know what partition you want to scan, and you don't want to do any aggregations, GROUPBYs, or any other more analytical operations, then you are in good shape. The result is that Cassandra is great for small, tightly constrained, well-known queries and high-volume inserts and updates.
 
 ## Node
 

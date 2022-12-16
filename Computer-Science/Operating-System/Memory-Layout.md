@@ -30,7 +30,7 @@ Usually, the text segment is sharable so that only a single copy needs to be in 
 Initialized data segment, usually called simply the Data Segment. A data segment is a portion of virtual address space of a program, which contains the global variables and static variables that are initialized by the programmer.
 Note that, data segment is not read-only, since the values of the variables can be altered at run time.
 This segment can be further classified into initialized read-only area and initialized read-write area.
-For instance the global string defined by char s[] = "hello world" in C and a C statement like int debug=1 outside the main (i.e. global) would be stored in initialized read-write area. And a global C statement like const char* string = "hello world" makes the string literal "hello world" to be stored in initialized read-only area and the character pointer variable string in initialized read-write area.
+For instance the global string defined by char s [] = "hello world" in C and a C statement like int debug=1 outside the main (i.e. global) would be stored in initialized read-write area. And a global C statement like const char* string = "hello world" makes the string literal "hello world" to be stored in initialized read-only area and the character pointer variable string in initialized read-write area.
 Ex: static int i = 10 will be stored in data segment and global int i = 10 will also be stored in data segment
 3.  **Uninitialized Data Segment:**
 

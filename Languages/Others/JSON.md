@@ -6,7 +6,7 @@ Modified: 2020-05-02 22:28:30 +0500
 
 ---
 
-JSON(JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the[JavaScript Programming Language](http://javascript.crockford.com/),[Standard ECMA-262 3rd Edition - December 1999](http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf). JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+JSON(JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the [JavaScript Programming Language](http://javascript.crockford.com/),[Standard ECMA-262 3rd Edition - December 1999](http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf). JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 
 JSON is built on two structures:
 
@@ -27,7 +27,7 @@ Anobjectis an unordered set of name/value pairs. An object begins with{(left bra
 
 2. **Array**
 
-Anarrayis an ordered collection of values. An array begins with[(left bracket)and ends with](right bracket). Values are separated by,(comma).
+Anarrayis an ordered collection of values. An array begins with [(left bracket)and ends with](right bracket). Values are separated by,(comma).
 
 ![ател Леше ](media/JSON-image2.gif)
 
@@ -71,7 +71,7 @@ The following characters are reserved in JSON and must be properly escaped to be
 
 ## JSONP
 
-JSONP([JSON](https://en.wikipedia.org/wiki/JSON)with Paddingor JSON-P) is a javascript pattern to request data by loading a `<script>` tag. It was proposed by Bob Ippolito in 2005.JSONP enables sharing of data bypassing[same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy). The policy disallows running[JavaScript](https://en.wikipedia.org/wiki/JavaScript)to read media[DOM](https://en.wikipedia.org/wiki/Document_Object_Model)elements or[XHR](https://en.wikipedia.org/wiki/XMLHttpRequest)data fetched from outside the page's origin. The aggregation of the site's scheme, port number and host name identifies as its origin.
+JSONP([JSON](https://en.wikipedia.org/wiki/JSON) with Paddingor JSON-P) is a javascript pattern to request data by loading a `<script>` tag. It was proposed by Bob Ippolito in 2005.JSONP enables sharing of data bypassing [same-origin policy](https://en.wikipedia.org/wiki/Same-origin_policy). The policy disallows running [JavaScript](https://en.wikipedia.org/wiki/JavaScript) to read media [DOM](https://en.wikipedia.org/wiki/Document_Object_Model) elements or [XHR](https://en.wikipedia.org/wiki/XMLHttpRequest) data fetched from outside the page's origin. The aggregation of the site's scheme, port number and host name identifies as its origin.
 
 ## jsonnet
 
@@ -84,7 +84,7 @@ query-pipe: command-line (ND)JSON querying
 A tool for filtering and transforming JSON from the command-line. Automatically interprets Newline Delimited JSON (NDJSON) fromstdin, including pretty-printed NDJSON, and can optionally query top-level array input.
 
 - a familiar and approachable SQL-like query language
-- ~600kbbinary, withzeroruntime dependencies (compiled with[QuickJS](https://bellard.org/quickjs/))
+- ~600kbbinary, withzeroruntime dependencies (compiled with [QuickJS](https://bellard.org/quickjs/))
 
 <https://github.com/paybase/qp>
 

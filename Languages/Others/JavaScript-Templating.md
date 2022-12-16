@@ -10,7 +10,7 @@ Modified: 2022-11-21 19:22:22 +0500
 
 JavaScript templating refers to the client side data binding method implemented with the JavaScript language.
 
-Popular JavaScript templating libraries are[AngularJS](https://angularjs.org/),[Backbone.js](http://backbonejs.org/),[Ember.js](http://emberjs.com/),[Handlebars.js](http://handlebarsjs.com/), and[Mustache.js](http://mustache.github.io/).
+Popular JavaScript templating libraries are [AngularJS](https://angularjs.org/),[Backbone.js](http://backbonejs.org/),[Ember.js](http://emberjs.com/),[Handlebars.js](http://handlebarsjs.com/), and [Mustache.js](http://mustache.github.io/).
 
 ## Template Engine
 

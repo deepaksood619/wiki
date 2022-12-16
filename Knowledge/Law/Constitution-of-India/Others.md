@@ -135,6 +135,6 @@ vi. He has the power to dissolve the Lok Sabha.
 
 vii. At the start of the first session after each general election to the Lok Sabha and at the commencement of the first session each year, the President addresses both the chambers which is known as the special address.
 
-viii. Article 123 also gives the president the power to promulgate ordinances. (Read about[President](https://byjus.com/free-ias-prep/president/)in the linked article.)
+viii. Article 123 also gives the president the power to promulgate ordinances. (Read about [President](https://byjus.com/free-ias-prep/president/) in the linked article.)
 
 <https://byjus.com/free-ias-prep/constitution-of-india-an-overview>

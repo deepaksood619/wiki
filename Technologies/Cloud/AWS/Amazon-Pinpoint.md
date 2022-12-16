@@ -57,8 +57,8 @@ When you create a campaign, you have to choose a segment to send the campaign to
 
 There are two types of segments that you can create in Amazon Pinpoint:
 
-- **Dynamic segments--** Segments that are based on attributes that you define. Dynamic segments can change over time. For example, if you add new endpoints to Amazon Pinpoint, or if you modify or delete existing endpoints, the number of endpoints in that segment may increase or decrease. For more information about dynamic segments, see[Building segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html).
-- **Imported segments--** Segments that are created outside of Amazon Pinpoint and saved in CSV or JSON format. Imported segments are static---that is, they never change. When you create a new segment, you can use an imported segment as a base segment, and then refine it by adding filters. For more information about importing segments, see[Importing segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html).
+- **Dynamic segments--** Segments that are based on attributes that you define. Dynamic segments can change over time. For example, if you add new endpoints to Amazon Pinpoint, or if you modify or delete existing endpoints, the number of endpoints in that segment may increase or decrease. For more information about dynamic segments, see [Building segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html).
+- **Imported segments--** Segments that are created outside of Amazon Pinpoint and saved in CSV or JSON format. Imported segments are static---that is, they never change. When you create a new segment, you can use an imported segment as a base segment, and then refine it by adding filters. For more information about importing segments, see [Importing segments](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html).
 
 ## Segment files
 
@@ -70,7 +70,7 @@ When you import a segment, remember the following:
 - The files that you import must use UTF-8 character encoding.
 - If you're importing new endpoints, theAddressandChannelTypeattributes are required.
 - If you're updating existing endpoints, theIdattribute is required for each endpoint that you want to update.
-- Your endpoint definitions can include only certain attributes. For a list, see[Supported attributes](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html#segments-importing-available-attributes). In addition, an attribute name has to be 50 or fewer characters. **An attribute value has to be 100 or fewer characters.**
+- Your endpoint definitions can include only certain attributes. For a list, see [Supported attributes](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-importing.html#segments-importing-available-attributes). In addition, an attribute name has to be 50 or fewer characters. **An attribute value has to be 100 or fewer characters.**
 
 ## Importing a segment
 
@@ -97,7 +97,7 @@ Achannelrepresents the platform through which you engage your audience segment w
 - [SMS](https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms.html)
 - [Voice](https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-voice.html)
 
-In addition to these channels, you can also extend the capabilities to meet your specific use case by creating[custom channels](https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-custom.html).
+In addition to these channels, you can also extend the capabilities to meet your specific use case by creating [custom channels](https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-custom.html).
 
 ## Metrics
 
@@ -130,9 +130,9 @@ There are several types of email that you can send using Amazon Pinpoint: campai
 
 In Amazon Pinpoint, you typically use the web-based management console to send campaign-based emails and journey-based emails, whereas transactional emails are usually sent from applications that use an AWS SDK or call the Amazon Pinpoint API directly.
 
-When you send a campaign-based email, you first create a[segment](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html). A segment is a group of recipients for the campaign. Next, you create a campaign. In Amazon Pinpoint, a campaign consists of one or more target segments, a message, and a delivery schedule for that message. To learn about creating campaigns, see[Amazon Pinpoint campaigns](https://docs.aws.amazon.com/pinpoint/latest/userguide/campaigns.html).
+When you send a campaign-based email, you first create a [segment](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html). A segment is a group of recipients for the campaign. Next, you create a campaign. In Amazon Pinpoint, a campaign consists of one or more target segments, a message, and a delivery schedule for that message. To learn about creating campaigns, see [Amazon Pinpoint campaigns](https://docs.aws.amazon.com/pinpoint/latest/userguide/campaigns.html).
 
-When you send a journey-based email, you also start by creating a[segment](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html). A segment is a group of participants in the journey. Next, you create an email template for each message that you want activities in the journey to send. Then, you create the journey. To learn about creating journeys, see[Amazon Pinpoint journeys](https://docs.aws.amazon.com/pinpoint/latest/userguide/journeys.html).
+When you send a journey-based email, you also start by creating a [segment](https://docs.aws.amazon.com/pinpoint/latest/userguide/segments-building.html). A segment is a group of participants in the journey. Next, you create an email template for each message that you want activities in the journey to send. Then, you create the journey. To learn about creating journeys, see [Amazon Pinpoint journeys](https://docs.aws.amazon.com/pinpoint/latest/userguide/journeys.html).
 
 To send a transactional email, you can use theSendMessageoperation of the Amazon Pinpoint API.
 
@@ -146,7 +146,7 @@ To send a transactional email, you can use theSendMessageoperation of the Amazon
 
 A single SMS message can contain up to 140 bytes of information. The number of characters you can include in a single SMS message depends on the type of characters the message contains.
 
-If your message only uses[characters in the GSM 03.38 character set](https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-limitations.html#channels-sms-limitations-characters-gsm-alphabet), also known as the GSM 7-bit alphabet, it can contain up to 160 characters. If your message contains any characters that are outside the GSM 03.38 character set, it can have up to 70 characters. When you send an SMS message, Amazon Pinpoint automatically determines the most efficient encoding to use.
+If your message only uses [characters in the GSM 03.38 character set](https://docs.aws.amazon.com/pinpoint/latest/userguide/channels-sms-limitations.html#channels-sms-limitations-characters-gsm-alphabet), also known as the GSM 7-bit alphabet, it can contain up to 160 characters. If your message contains any characters that are outside the GSM 03.38 character set, it can have up to 70 characters. When you send an SMS message, Amazon Pinpoint automatically determines the most efficient encoding to use.
 
 When a message contains more than the maximum number of characters, the message is split into multiple parts. When messages are split into multiple parts, each part contains additional information about the message part that precedes it. When the recipient's device receives message parts that are separated in this way, it uses this additional information to ensure that all of the message parts are displayed in the correct order. Depending on the recipient's mobile carrier and device, multiple messages might be displayed as a single message, or as a sequence of separate messages. As a result of number of characters in each message part is reduced to 153 (for messages that only contain GSM 03.38 characters) or 67 (for messages that contain other characters). You can estimate how many message parts your message contains before you send it by using SMS length calculator tools.
 

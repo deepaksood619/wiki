@@ -105,11 +105,11 @@ Frederick Winslow Taylor: Father of industrial engineering and scientific manage
 - The Branch of Physics and Engineering that focuses on converting energy, often in the form of heat and work. It describes how thermal energy is converted to and from other forms of energy and also to work.
 - Zeroth law of thermodynamics (Thermal Equlibrium)
   - An equlibrium is where certain properties like pressure, volume, or temperature, remain the same across the system
-  - The**zeroth law of thermodynamics**states that if two[thermodynamic systems](https://en.wikipedia.org/wiki/Thermodynamic_system)are each in[thermal equilibrium](https://en.wikipedia.org/wiki/Thermal_equilibrium)with a third one, then they are in thermal equilibrium with each other. Accordingly, thermal equilibrium between systems is a[transitive relation](https://en.wikipedia.org/wiki/Transitive_relation).
+  - The**zeroth law of thermodynamics**states that if two [thermodynamic systems](https://en.wikipedia.org/wiki/Thermodynamic_system) are each in [thermal equilibrium](https://en.wikipedia.org/wiki/Thermal_equilibrium) with a third one, then they are in thermal equilibrium with each other. Accordingly, thermal equilibrium between systems is a [transitive relation](https://en.wikipedia.org/wiki/Transitive_relation).
 - First Law of thermodynamics (Heat as Energy) (about quantity of energy)
   - It can neither be created nor destroyed
 
-The**first law of thermodynamics**is a version of the law of[conservation of energy](https://en.wikipedia.org/wiki/Conservation_of_energy), adapted for[thermodynamic systems](https://en.wikipedia.org/wiki/Thermodynamic_system). The law of conservation of energy states that the total[energy](https://en.wikipedia.org/wiki/Energy)of an[isolated system](https://en.wikipedia.org/wiki/Isolated_system)is constant; energy can be transformed from one form to another, but can be neither created nor destroyed. The first law is often formulated
+The**first law of thermodynamics**is a version of the law of [conservation of energy](https://en.wikipedia.org/wiki/Conservation_of_energy), adapted for [thermodynamic systems](https://en.wikipedia.org/wiki/Thermodynamic_system). The law of conservation of energy states that the total [energy](https://en.wikipedia.org/wiki/Energy) of an [isolated system](https://en.wikipedia.org/wiki/Isolated_system) is constant; energy can be transformed from one form to another, but can be neither created nor destroyed. The first law is often formulated
 
 ![image](media/Mechanical-Engineering-image1.png)
 
@@ -175,9 +175,9 @@ Cellular Automation (simple systems calledcellular automatathat live and die acc
 
 ## Intermediate Axis Theorem
 
-Thetennis racket theoremorintermediate axis theoremis a result in[classical mechanics](https://en.wikipedia.org/wiki/Classical_mechanics)describing the movement of a[rigid body](https://en.wikipedia.org/wiki/Rigid_body)with three distinct[principal moments of inertia](https://en.wikipedia.org/wiki/Principal_moments_of_inertia). It is also dubbed theDzhanibekov effect, after [Russian](https://en.wikipedia.org/wiki/Russian_people) [cosmonaut](https://en.wikipedia.org/wiki/Cosmonaut) [Vladimir Dzhanibekov](https://en.wikipedia.org/wiki/Vladimir_Dzhanibekov) who noticed one of the theorem's consequences while in space in 1985[[1]][https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-1]([2)](<https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-2)although> the effect was already known for at least 150 years before that[[3]](https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-3)and is well described in contemporary texts on classical mechanics that would have been known to Dzhanibekov[[4]][https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-4]([5)](<https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-5>). An article explaining the effect was published in 1991.
+Thetennis racket theoremorintermediate axis theoremis a result in [classical mechanics](https://en.wikipedia.org/wiki/Classical_mechanics) describing the movement of a [rigid body](https://en.wikipedia.org/wiki/Rigid_body) with three distinct [principal moments of inertia](https://en.wikipedia.org/wiki/Principal_moments_of_inertia). It is also dubbed theDzhanibekov effect, after [Russian](https://en.wikipedia.org/wiki/Russian_people) [cosmonaut](https://en.wikipedia.org/wiki/Cosmonaut) [Vladimir Dzhanibekov](https://en.wikipedia.org/wiki/Vladimir_Dzhanibekov) who noticed one of the theorem's consequences while in space in 1985 [[1]][https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-1]([2)](<<https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-2>) although> the effect was already known for at least 150 years before that [[3]](https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-3) and is well described in contemporary texts on classical mechanics that would have been known to Dzhanibekov [[4]][https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-4]([5)](<https://en.wikipedia.org/wiki/Tennis_racket_theorem#cite_note-5>). An article explaining the effect was published in 1991.
 
-The theorem describes the following effect: rotation of an object around its first and third[principal axes](https://en.wikipedia.org/wiki/Moment_of_inertia#Principal_axes)is stable, while rotation around its second principal axis (or intermediate axis) is not.
+The theorem describes the following effect: rotation of an object around its first and third [principal axes](https://en.wikipedia.org/wiki/Moment_of_inertia#Principal_axes) is stable, while rotation around its second principal axis (or intermediate axis) is not.
 
 <https://en.wikipedia.org/wiki/Tennis_racket_theorem>
 
@@ -198,6 +198,6 @@ The theorem describes the following effect: rotation of an object around its fir
 
 ## Venturi effect
 
-TheVenturi effectis the reduction in[fluid pressure](https://en.wikipedia.org/wiki/Fluid_pressure)that results when a fluid flows through a constricted section (or choke) of a pipe. The Venturi effect is named after its discoverer, the 18th century Italian[physicist](https://en.wikipedia.org/wiki/Physicist),[Giovanni Battista Venturi](https://en.wikipedia.org/wiki/Giovanni_Battista_Venturi).
+TheVenturi effectis the reduction in [fluid pressure](https://en.wikipedia.org/wiki/Fluid_pressure) that results when a fluid flows through a constricted section (or choke) of a pipe. The Venturi effect is named after its discoverer, the 18th century Italian [physicist](https://en.wikipedia.org/wiki/Physicist),[Giovanni Battista Venturi](https://en.wikipedia.org/wiki/Giovanni_Battista_Venturi).
 
 <https://en.wikipedia.org/wiki/Venturi_effect>

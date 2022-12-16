@@ -6,11 +6,11 @@ Modified: 2021-07-24 17:22:24 +0500
 
 ---
 
-## Data modelingin[software engineering](https://en.wikipedia.org/wiki/Software_engineering)is the process of creating a[data model](https://en.wikipedia.org/wiki/Data_model)for an[information system](https://en.wikipedia.org/wiki/Information_system)by applying certain formal techniques
+## Data modelingin [software engineering](https://en.wikipedia.org/wiki/Software_engineering) is the process of creating a [data model](https://en.wikipedia.org/wiki/Data_model) for an [information system](https://en.wikipedia.org/wiki/Information_system) by applying certain formal techniques
 
 ![image](media/Data-Modeling-image1.png)
 
-The data modeling process. The figure illustrates the way data models are developed and used today . A[conceptual data model](https://en.wikipedia.org/wiki/Conceptual_schema)is developed based on the data[requirements](https://en.wikipedia.org/wiki/Requirement)for the application that is being developed, perhaps in the context of an[activity model](https://en.wikipedia.org/wiki/Activity_diagram). The data model will normally consist of entity types, attributes, relationships, integrity rules, and the definitions of those objects. This is then used as the start point for interface or database design.
+The data modeling process. The figure illustrates the way data models are developed and used today . A [conceptual data model](https://en.wikipedia.org/wiki/Conceptual_schema) is developed based on the data [requirements](https://en.wikipedia.org/wiki/Requirement) for the application that is being developed, perhaps in the context of an [activity model](https://en.wikipedia.org/wiki/Activity_diagram). The data model will normally consist of entity types, attributes, relationships, integrity rules, and the definitions of those objects. This is then used as the start point for interface or database design.
 <https://en.wikipedia.org/wiki/Data_modeling>
 Data modeling (data modelling)is the process of creating a data model for the data to be stored in a Database. This data model is a conceptual representation of Data objects, the associations between different data objects and the rules. Data modeling helps in the visual representation of data and enforces business rules, regulatory compliances, and government policies on the data. Data Models ensure consistency in naming conventions, default values, semantics, security while ensuring quality of the data.
 Data model emphasizes on what data is needed and how it should be organized instead of what operations need to be performed on the data. Data Model is like architect's building plan which helps to build a conceptual model and set the relationship between data items.

@@ -107,9 +107,9 @@ a = ['a', 'a', 'a']
 
 print(len(set(a)) == 1)
 
-print(all(x == a[0] for x in a))
+print(all(x == a [0] for x in a))
 
-print(a.count(a[0]) == len(a))
+print(a.count(a [0]) == len(a))
 
 ## Example
 

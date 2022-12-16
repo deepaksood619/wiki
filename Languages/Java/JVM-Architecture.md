@@ -42,7 +42,7 @@ The aboveClass Loaderswill followDelegation Hierarchy Algorithmwhile loading the
 
 3. Initialization
 
-This is the final phase of Class Loading, here all[static variable](https://www.javainterviewpoint.com/use-of-static-keyword-in-java/)will be assigned with theoriginal values and[static block](https://www.javainterviewpoint.com/java-static-import/)will be executed.
+This is the final phase of Class Loading, here all [static variable](https://www.javainterviewpoint.com/use-of-static-keyword-in-java/) will be assigned with theoriginal values and [static block](https://www.javainterviewpoint.com/java-static-import/) will be executed.
 
 2. Runtime Data Area
 

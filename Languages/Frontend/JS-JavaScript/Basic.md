@@ -52,17 +52,17 @@ Thevariablestatementdeclares a variable, optionally initializing it to a value.
 
 Theletstatement declares a block scope local variable, optionally initializing it to a value.
 
-letallows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the[var](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/var)keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
+letallows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the [var](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/var) keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
 
 3. **const**
 
-Constants are block-scoped, much like variables defined using the[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
+Constants are block-scoped, much like variables defined using the [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
 
-This declaration creates a constant whose scopecan be either global or local to the blockin which it is declared. Global constants do not become properties of the window object, unlike[var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)variables. An initializer for a constant is required; that is, you must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).
+This declaration creates a constant whose scopecan be either global or local to the blockin which it is declared. Global constants do not become properties of the window object, unlike [var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) variables. An initializer for a constant is required; that is, you must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).
 
 Theconstdeclarationcreates a read-only reference to a value. It doesnotmean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered.
 
-All the considerations about the "[temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let)" apply to both[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)andconst.
+All the considerations about the "[temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let)" apply to both [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) andconst.
 
 A constant cannot share its name with a function or a variable in the same scope.
 
@@ -225,7 +225,7 @@ var mycar = {make: 'Honda', model: 'Accord', year: 1998};
 
 4. switch
 
-Theswitchstatementevaluates an[expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators), matching the expression's value to acaseclause, and executes[statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)associated with that case, as well as statements incases that follow the matching case.
+Theswitchstatementevaluates an [expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators), matching the expression's value to acaseclause, and executes [statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) associated with that case, as well as statements incases that follow the matching case.
 
 ## Hoisting
 
@@ -271,7 +271,7 @@ Google follows camelCase
 
 ## Boolean
 
-Any object of which the value is not[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)or[null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), including aBooleanobject whose value isfalse, evaluates totruewhen passed to a conditional statement. For example, the condition in the following[if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)statement evaluates totrue:
+Any object of which the value is not [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) or [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), including aBooleanobject whose value isfalse, evaluates totruewhen passed to a conditional statement. For example, the condition in the following [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement evaluates totrue:
 
 var x = new Boolean(false);
 if (x) {
@@ -328,7 +328,7 @@ The**substring()**method returns a subset of astringbetween one index and anothe
 
 9. String.prototype.indexOf()
 
-The**indexOf()**method returns the index within the calling[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)object of the first occurrence of the specified value, starting the search atfromIndex. Returns -1 if the value is not found.
+The**indexOf()**method returns the index within the calling [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) object of the first occurrence of the specified value, starting the search atfromIndex. Returns -1 if the value is not found.
 
 10. String.prototype.charCodeAt()
 
@@ -348,7 +348,7 @@ Strings are immutable
 
 Var myStr = "Bob";
 
-myStr[0] = "J"; // error
+myStr [0] = "J"; // error
 
 ## Arrays
 
@@ -368,7 +368,7 @@ The**shift()**method removes the**first**element from an array and returns that 
 
 The**splice()**method changes the contents of an array by removing existing elements and/or adding new elements.
 
-*Syntax - array*.splice(*start[*, *deleteCount[*, *item1[*, *item2[*, *...]]]]*)
+*Syntax - array*.splice(*start [*, *deleteCount [*, *item1 [*, *item2 [*, *...]]]]*)
 
 7. Array.prototype.reverse()
 
@@ -376,7 +376,7 @@ The**splice()**method changes the contents of an array by removing existing elem
 
 9. Array.prototype.find()
 
-The**find()**method returns the**value**of the first element in the array that satisfies the provided testing function. Otherwise[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)is returned.
+The**find()**method returns the**value**of the first element in the array that satisfies the provided testing function. Otherwise [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) is returned.
 
 function isBigEnough(element) {
 return element >= 15;
@@ -394,7 +394,7 @@ The**includes()**method determines whether an array includes a certain element, 
 
 12. Array.prototype.sort()
 
-The**sort()**method sorts the elements of an array[*in place*](https://en.wikipedia.org/wiki/In-place_algorithm)and returns the array. The sort is not necessarily[stable](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). The default sort order is according to string Unicode code points.
+The**sort()**method sorts the elements of an array [*in place*](https://en.wikipedia.org/wiki/In-place_algorithm) and returns the array. The sort is not necessarily [stable](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). The default sort order is according to string Unicode code points.
 
 var fruit = ['cherries', 'apples', 'bananas'];
 fruit.sort(); // ['apples', 'bananas', 'cherries']
@@ -432,11 +432,11 @@ foreachis an method that is available only in Array objects. It allows you to it
 
 2. **for in**
 
-for inis used to loop through properties of an object. It can be any object.for inallows you to access the keys of the object but doesn't provide reference to the values. In JavaScript object properties themselves have internal properties. One of the internal properties is[[Enumerable]].for inwill only walkthrough a property if it has[[Enumerbale]]set totrue. It not used to iterate elements of an collection rather used to iterate properties of objects.
+for inis used to loop through properties of an object. It can be any object.for inallows you to access the keys of the object but doesn't provide reference to the values. In JavaScript object properties themselves have internal properties. One of the internal properties is [[Enumerable]].for inwill only walkthrough a property if it has [[Enumerbale]]set totrue. It not used to iterate elements of an collection rather used to iterate properties of objects.
 
 3. **for....of**
 
-The**for...ofstatement**creates a loop iterating over[iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String),[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like[arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments)or[NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)objects,[TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray),[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)and[Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
+The**for...ofstatement**creates a loop iterating over [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String),[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments) or [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) objects,[TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray),[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) and [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
 
 2. **While**
 
@@ -466,27 +466,27 @@ Ex - {'foo':'bar'}
 
 For getting the key from an object's 1st value
 
-Object.keys[foo](0); // foo
+Object.keys [foo](0); // foo
 
 For getting the value from an object
 
-foo[Object.keys[foo](0)); // bar
+foo [Object.keys [foo](0)); // bar
 
 4. Delete object key-value
 
-delete collection[key];
+delete collection [key];
 
 ## Adding properties to objects
 
 obj.bark = "bow-wow" // dot notation
 
-obj["bark"] = "bow-wow" // bracket notation
+obj ["bark"] = "bow-wow" // bracket notation
 
 ## Deleting properties from objects
 
 delete obj.bark; // dot notation
 
-delete obj["bark"] // bracked notation
+delete obj ["bark"] // bracked notation
 
 ## Random function
 

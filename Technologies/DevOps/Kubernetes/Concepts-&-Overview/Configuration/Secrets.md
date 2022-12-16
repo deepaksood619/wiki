@@ -6,13 +6,13 @@ Modified: 2020-08-05 14:27:40 +0500
 
 ---
 
-Kubernetes Secrets let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Storing confidential information in a Secret is safer and more flexible than putting it verbatim in a[Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)definition or in a[container image](https://kubernetes.io/docs/reference/glossary/?all=true#term-image).
+Kubernetes Secrets let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Storing confidential information in a Secret is safer and more flexible than putting it verbatim in a [Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) definition or in a [container image](https://kubernetes.io/docs/reference/glossary/?all=true#term-image).
 
 To use a secret, a Pod needs to reference the secret. A secret can be used with a Pod in three ways:
 
-- As[files](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod)in a[volume](https://kubernetes.io/docs/concepts/storage/volumes/)mounted on one or more of its containers.
-- As[container environment variable](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables).
-- By the[kubelet when pulling images](https://kubernetes.io/docs/concepts/configuration/secret/#using-imagepullsecrets)for the Pod.
+- As [files](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-files-from-a-pod) in a [volume](https://kubernetes.io/docs/concepts/storage/volumes/) mounted on one or more of its containers.
+- As [container environment variable](https://kubernetes.io/docs/concepts/configuration/secret/#using-secrets-as-environment-variables).
+- By the [kubelet when pulling images](https://kubernetes.io/docs/concepts/configuration/secret/#using-imagepullsecrets) for the Pod.
 
 ## Built-in Secrets
 
@@ -28,9 +28,9 @@ kubectl create secret generic db-user-pass --from-file=./username.txt --from-fil
 
 ## Mounted Secrets are updated automatically
 
-When a secret currently consumed in a volume is updated, projected keys are eventually updated as well. The kubelet checks whether the mounted secret is fresh on every periodic sync. However, the kubelet uses its local cache for getting the current value of the Secret. The type of the cache is configurable using theConfigMapAndSecretChangeDetectionStrategyfield in the[KubeletConfiguration struct](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/kubelet/config/v1beta1/types.go). A Secret can be either propagated by watch (default), ttl-based, or simply redirecting all requests directly to the API server. As a result, the total delay from the moment when the Secret is updated to the moment when new keys are projected to the Pod can be as long as the kubelet sync period + cache propagation delay, where the cache propagation delay depends on the chosen cache type (it equals to watch propagation delay, ttl of cache, or zero correspondingly).
+When a secret currently consumed in a volume is updated, projected keys are eventually updated as well. The kubelet checks whether the mounted secret is fresh on every periodic sync. However, the kubelet uses its local cache for getting the current value of the Secret. The type of the cache is configurable using theConfigMapAndSecretChangeDetectionStrategyfield in the [KubeletConfiguration struct](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/kubelet/config/v1beta1/types.go). A Secret can be either propagated by watch (default), ttl-based, or simply redirecting all requests directly to the API server. As a result, the total delay from the moment when the Secret is updated to the moment when new keys are projected to the Pod can be as long as the kubelet sync period + cache propagation delay, where the cache propagation delay depends on the chosen cache type (it equals to watch propagation delay, ttl of cache, or zero correspondingly).
 
-Note:A container using a Secret as a[subPath](https://kubernetes.io/docs/concepts/storage/volumes#using-subpath)volume mount will not receive Secret updates.
+Note:A container using a Secret as a [subPath](https://kubernetes.io/docs/concepts/storage/volumes#using-subpath) volume mount will not receive Secret updates.
 
 ## Immutable Secrets and ConfigMaps
 
@@ -51,15 +51,15 @@ A secret is only sent to a node if a Pod on that node requires it. The kubelet s
 
 There may be secrets for several Pods on the same node. However, only the secrets that a Pod requests are potentially visible within its containers. Therefore, one Pod does not have access to the secrets of another Pod.
 
-There may be several containers in a Pod. However, each container in a Pod has to request the secret volume in itsvolumeMountsfor it to be visible within the container. This can be used to construct useful[security partitions at the Pod level](https://kubernetes.io/docs/concepts/configuration/secret/#use-case-secret-visible-to-one-container-in-a-pod).
+There may be several containers in a Pod. However, each container in a Pod has to request the secret volume in itsvolumeMountsfor it to be visible within the container. This can be used to construct useful [security partitions at the Pod level](https://kubernetes.io/docs/concepts/configuration/secret/#use-case-secret-visible-to-one-container-in-a-pod).
 
 On most Kubernetes distributions, communication between users and the API server, and from the API server to the kubelets, is protected by SSL/TLS. Secrets are protected when transmitted over these channels.
 
-You can enable[encryption at rest](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/)for secret data, so that the secrets are not stored in the clear into[etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/).
+You can enable [encryption at rest](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/) for secret data, so that the secrets are not stored in the clear into [etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/).
 
 ## Risks
 
-- In the API server, secret data is stored in[etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/); therefore:
+- In the API server, secret data is stored in [etcd](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/); therefore:
   - Administrators should enable encryption at rest for cluster data (requires v1.13 or later).
   - Administrators should limit access to etcd to admin users.
   - Administrators may want to wipe/shred disks used by etcd when no longer in use.

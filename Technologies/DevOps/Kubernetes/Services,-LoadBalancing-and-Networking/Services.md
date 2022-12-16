@@ -47,7 +47,7 @@ For headless services that define selectors, the endpoints controller createsEnd
 
 For headless services that do not define selectors, the endpoints controller does not createEndpointsrecords. However, the DNS system looks for and configures either:
 
-- CNAME records for[ExternalName](https://kubernetes.io/docs/concepts/services-networking/service/#externalname)-type services.
+- CNAME records for [ExternalName](https://kubernetes.io/docs/concepts/services-networking/service/#externalname)-type services.
 - A records for anyEndpointsthat share a name with the service, for all other types.
 
 <https://kubernetes.io/docs/concepts/services-networking/service>

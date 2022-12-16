@@ -6,7 +6,7 @@ Modified: 2020-03-15 23:12:22 +0500
 
 ---
 
-Topics live in Kafka's storage layer---they are part of the Kafka "filesystem" powered by the brokers. In contrast, streams and tables are concepts of Kafka'sprocessing layer, used in tools like[ksqlDB](https://ksqldb.io/)and[Kafka Streams](https://docs.confluent.io/current/streams/index.html). These tools process your events stored in "raw" topics by turning them into streams and tables---a process that is conceptually very similar to how a relational database turns the bytes in files on disk into an RDBMS table for you to work with.
+Topics live in Kafka's storage layer---they are part of the Kafka "filesystem" powered by the brokers. In contrast, streams and tables are concepts of Kafka'sprocessing layer, used in tools like [ksqlDB](https://ksqldb.io/) and [Kafka Streams](https://docs.confluent.io/current/streams/index.html). These tools process your events stored in "raw" topics by turning them into streams and tables---a process that is conceptually very similar to how a relational database turns the bytes in files on disk into an RDBMS table for you to work with.
 
 ![Processing Layer | Storage Layer](../../media/Technologies-Kafka-Kafka-Streams-image1.png)
 

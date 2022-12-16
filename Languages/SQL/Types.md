@@ -41,9 +41,9 @@ PL/SQL is a combination of SQL along with the procedural features of programming
 
 T-SQL (Transact-SQL) is a set of programming extensions from Sybase and Microsoft that add several features to the Structured Query Language ([SQL](https://searchsqlserver.techtarget.com/definition/SQL)), including transaction control, exception and error handling, row processing and declared variables.
 
-All applications that communicate with[SQL Server](https://searchsqlserver.techtarget.com/definition/SQL-Server)do so by sending T-SQL statements to the server. T-SQL queries include the SELECT statement, selecting columns, labeling output columns, restricting rows and modifying a search condition.
+All applications that communicate with [SQL Server](https://searchsqlserver.techtarget.com/definition/SQL-Server) do so by sending T-SQL statements to the server. T-SQL queries include the SELECT statement, selecting columns, labeling output columns, restricting rows and modifying a search condition.
 
-T-SQL identifiers, meanwhile, are used in all[databases](https://searchsqlserver.techtarget.com/definition/database),[servers](https://whatis.techtarget.com/definition/server), and database objects in SQL Server. These include the following tables,[constraints](https://whatis.techtarget.com/definition/constraint-project-constraint),[stored procedures](https://searchoracle.techtarget.com/definition/stored-procedure), views, columns and[data types](https://searchmicroservices.techtarget.com/definition/data-type). T-SQL identifiers must each have a unique name, are assigned when an object is created and are used to identify an object.
+T-SQL identifiers, meanwhile, are used in all [databases](https://searchsqlserver.techtarget.com/definition/database),[servers](https://whatis.techtarget.com/definition/server), and database objects in SQL Server. These include the following tables,[constraints](https://whatis.techtarget.com/definition/constraint-project-constraint),[stored procedures](https://searchoracle.techtarget.com/definition/stored-procedure), views, columns and [data types](https://searchmicroservices.techtarget.com/definition/data-type). T-SQL identifiers must each have a unique name, are assigned when an object is created and are used to identify an object.
 
 ## T-SQL Functions
 
@@ -54,7 +54,7 @@ Types of T-SQL functions include:
 - Aggregate functions, which operate on a collection of values, but return one summary value.
 - Ranking functions, which return a ranking value for every row within a partition.
 - Rowset functions, which return an object that can be used as a table reference in SQL statements.
-- [Scalar](https://whatis.techtarget.com/definition/scalar)functions, which operate on a single value and return a single value.
+- [Scalar](https://whatis.techtarget.com/definition/scalar) functions, which operate on a single value and return a single value.
 
 SQL Server also supports analytical functions in T-SQL to depict complex analytical tasks. These analytical functions enable IT pros to perform common analysis, such as ranking, percentiles, moving averages and cumulative sums to be expressed in a single SQL statement.
 

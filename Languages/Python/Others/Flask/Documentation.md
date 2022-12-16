@@ -6,7 +6,7 @@ Modified: 2020-08-03 14:46:09 +0500
 
 ---
 
-Flask depends on the[Jinja](https://www.palletsprojects.com/p/jinja/)template engine and the[Werkzeug](https://www.palletsprojects.com/p/werkzeug/)WSGI toolkit. The documentation for these libraries can be found at:
+Flask depends on the [Jinja](https://www.palletsprojects.com/p/jinja/) template engine and the [Werkzeug](https://www.palletsprojects.com/p/werkzeug/) WSGI toolkit. The documentation for these libraries can be found at:
 
 - [Jinja documentation](http://jinja.pocoo.org/docs)
 - [Werkzeug documentation](https://werkzeug.palletsprojects.com/)
@@ -123,7 +123,7 @@ Flask depends on the[Jinja](https://www.palletsprojects.com/p/jinja/)template en
   - [Notes On Proxies](https://flask.palletsprojects.com/en/1.1.x/reqcontext/#notes-on-proxies)
 - [Modular Applications with Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/)
 
-Flask uses a concept of*blueprints*for making application components and supporting common patterns within an application or across applications. Blueprints can greatly simplify how large applications work and provide a central means for Flask extensions to register operations on applications. A[**Blueprint**](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Blueprint)object works similarly to a[**Flask**](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask)application object, but it is not actually an application. Rather it is a*blueprint*of how to construct or extend an application.
+Flask uses a concept of*blueprints*for making application components and supporting common patterns within an application or across applications. Blueprints can greatly simplify how large applications work and provide a central means for Flask extensions to register operations on applications. A [**Blueprint**](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Blueprint) object works similarly to a [**Flask**](https://flask.palletsprojects.com/en/1.1.x/api/#flask.Flask) application object, but it is not actually an application. Rather it is a*blueprint*of how to construct or extend an application.
 
 - [Why Blueprints?](https://flask.palletsprojects.com/en/1.1.x/blueprints/#why-blueprints)
 - [The Concept of Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/#the-concept-of-blueprints)

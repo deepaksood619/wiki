@@ -94,7 +94,7 @@ python test.py goodbye --formal Deepak
 
 ## Sanic
 
-[Sanic](https://sanicframework.org/)is a "modern" framework in the true sense of the word: it doesn't support Python version below 3.6, supports the simple and universal async/await syntax out of the box, and as a result, doesn't make you read loads of documentation and keep edge cases in your mind before you can write your first HTTP handler.
+[Sanic](https://sanicframework.org/) is a "modern" framework in the true sense of the word: it doesn't support Python version below 3.6, supports the simple and universal async/await syntax out of the box, and as a result, doesn't make you read loads of documentation and keep edge cases in your mind before you can write your first HTTP handler.
 
 As a result, the resulting syntax is quite pleasant (in my opinion, at least); it resembles code you'd write with any other microframework (Flask, CherryPy, for example) with just a fewasyncsprinkled in:
 
@@ -118,7 +118,7 @@ Sanic is arguably the most popular and most loved async framework in the Python 
 
 ## Vibora
 
-[Vibora](https://vibora.io/)is a close cousin of Sanic, except that it's fixated on becoming the fastest Python web server out there. In fact, the very first visit of its website greets you with a framework comparison:
+[Vibora](https://vibora.io/) is a close cousin of Sanic, except that it's fixated on becoming the fastest Python web server out there. In fact, the very first visit of its website greets you with a framework comparison:
 
 ![vibora-perf](media/Frameworks-image1.png)
 

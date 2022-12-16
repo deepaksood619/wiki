@@ -48,9 +48,9 @@ Take your expertise and apply it to something new.
 
 ## Collateral Knowledge
 
-When one[searches](https://www.urbandictionary.com/define.php?term=searches)for answers regarding a[specific](https://www.urbandictionary.com/define.php?term=specific)subject, but ends up[learning](https://www.urbandictionary.com/define.php?term=learning)about several others in the process.
+When one [searches](https://www.urbandictionary.com/define.php?term=searches) for answers regarding a [specific](https://www.urbandictionary.com/define.php?term=specific) subject, but ends up [learning](https://www.urbandictionary.com/define.php?term=learning) about several others in the process.
 
-Trying to find out how to pronounce "[Boise](https://www.urbandictionary.com/define.php?term=Boise)", but ended up also learning about the[molecular](https://www.urbandictionary.com/define.php?term=molecular)structure of a diamond lattice.
+Trying to find out how to pronounce "[Boise](https://www.urbandictionary.com/define.php?term=Boise)", but ended up also learning about the [molecular](https://www.urbandictionary.com/define.php?term=molecular) structure of a diamond lattice.
 
 Everytime you get deep into topic, there comes a point where you are satisfied, from there you go back so that you can focus on your area
 
@@ -470,7 +470,7 @@ The way to learn is by doing.
 
 ## Need For Cognition (NFC)
 
-NFC is a personality trait used in psychology to describe how inclined an individual is to seek effortful mental activities like puzzles, complex concepts, or problem-solving. The[APA](https://dictionary.apa.org/need-for-cognition)(American Psychological Association) gives a slightly more in-depth description:
+NFC is a personality trait used in psychology to describe how inclined an individual is to seek effortful mental activities like puzzles, complex concepts, or problem-solving. The [APA](https://dictionary.apa.org/need-for-cognition)(American Psychological Association) gives a slightly more in-depth description:
 
 "A personality trait reflecting a person's tendency to enjoy engaging in extensive cognitive activity. This trait primarily reflects a person's motivation to engage in cognitive activity rather than his or her actual ability to do so. Individuals high in need for cognition tend to develop attitudes or take action based on thoughtful evaluation of information."
 

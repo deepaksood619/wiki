@@ -28,7 +28,7 @@ Tag sets are indexed, field sets are not. InfluxDB's speed is based on the fact 
 InfluxDB is a time series database. Optimizing for this use case entails some tradeoffs, primarily to increase performance at the cost of functionality. Below is a list of some of those design insights that lead to tradeoffs:
 
 1. For the time series use case, we assume that if the same data is sent multiple times, it is the exact same data that a client just sent several times.
-    Pro:Simplified[conflict resolution](https://docs.influxdata.com/influxdb/v1.7/troubleshooting/frequently-asked-questions/#how-does-influxdb-handle-duplicate-points)increases write performance.
+    Pro:Simplified [conflict resolution](https://docs.influxdata.com/influxdb/v1.7/troubleshooting/frequently-asked-questions/#how-does-influxdb-handle-duplicate-points) increases write performance.
     Con:Cannot store duplicate data; may overwrite data in rare circumstances.
 
 2. Deletes are a rare occurrence. When they do occur it is almost always against large ranges of old data that are cold for writes.
@@ -51,7 +51,7 @@ InfluxDB is a time series database. Optimizing for this use case entails some tr
     Pro:Writing and querying the database can be done by multiple clients and at high loads.
     Con:Query returns may not include the most recent points if database is under heavy load.
 
-7. Many time[series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series)are ephemeral. There are often time series that appear only for a few hours and then go away, e.g. a new host that gets started and reports for a while and then gets shut down.
+7. Many time [series](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#series) are ephemeral. There are often time series that appear only for a few hours and then go away, e.g. a new host that gets started and reports for a while and then gets shut down.
     Pro:InfluxDB is good at managing discontinuous data.
     Con:Schema-less design means that some database functions are not supported e.g. there are no cross table joins.
 
@@ -62,7 +62,7 @@ InfluxDB is a time series database. Optimizing for this use case entails some tr
 
 # InfluxDB schema design and data layouts
 
-Every InfluxDB use case is special and your[schema](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#schema)will reflect that uniqueness. There are, however, general guidelines to follow and pitfalls to avoid when designing your schema.
+Every InfluxDB use case is special and your [schema](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#schema) will reflect that uniqueness. There are, however, general guidelines to follow and pitfalls to avoid when designing your schema.
 
 1. General Recommendations
 

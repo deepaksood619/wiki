@@ -51,7 +51,7 @@ Companies like Atlassian, Glossier, Datadog, Twitch, dbt, Salesforce, Peloton, a
 
 ## 1.b. Aligning community to business objectives
 
-There are six objectives that a community can drive. To help businesses wrap their heads around the options, use the[SPACES model](https://cmxhub.com/the-spaces-model/):
+There are six objectives that a community can drive. To help businesses wrap their heads around the options, use the [SPACES model](https://cmxhub.com/the-spaces-model/):
 
 1. **Support:**Create spaces for customers to answer questions and solve problems for each other. Example:[Autodesk support community](https://www.autodesk.com/community)
 

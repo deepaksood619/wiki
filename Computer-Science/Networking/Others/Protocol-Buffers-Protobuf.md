@@ -9,7 +9,7 @@ Modified: 2020-07-23 12:07:39 +0500
 Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.
 Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for **serializing structured data.**
 
-## Protocol Buffersis a method of[serializing](https://en.wikipedia.org/wiki/Serialization)structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an[interface description language](https://en.wikipedia.org/wiki/Interface_description_language)that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data
+## Protocol Buffersis a method of [serializing](https://en.wikipedia.org/wiki/Serialization) structured data. It is useful in developing programs to communicate with each other over a wire or for storing data. The method involves an [interface description language](https://en.wikipedia.org/wiki/Interface_description_language) that describes the structure of some data and a program that generates source code from that description for generating or parsing a stream of bytes that represents the structured data
 
 Though the primary purpose of Protocol Buffers is to facilitate network communication, its simplicity and speed make Protocol Buffers an alternative to data-centric C++ classes and structs, especially where interoperability with other languages or systems might be needed in the future.-   IDL (Interface Definition Language)
 

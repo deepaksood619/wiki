@@ -49,9 +49,9 @@ These patterns deal with object relationships. They ensure that if one part of a
 - Facade
 - Flyweight
 
-Refers to an[object](https://en.wikipedia.org/wiki/Object_(computer_science))that minimizes[memory](https://en.wikipedia.org/wiki/Computer_memory)usage by sharing some of its data with other similar objects
+Refers to an [object](https://en.wikipedia.org/wiki/Object_(computer_science)) that minimizes [memory](https://en.wikipedia.org/wiki/Computer_memory) usage by sharing some of its data with other similar objects
 
-In other contexts, the idea of sharing data structures is called[hash consing](https://en.wikipedia.org/wiki/Hash_consing).
+In other contexts, the idea of sharing data structures is called [hash consing](https://en.wikipedia.org/wiki/Hash_consing).
 
 <https://en.wikipedia.org/wiki/Flyweight_pattern>
 
@@ -119,7 +119,7 @@ It is basically a practice to centralize your data access into a single class (b
 And because all other locations of the data access just refer back to the primary "source of truth" location, updates to the data element in the primary location propagate to the entire system without the possibility of a duplicate value somewhere being forgotten.
 Deployment of a SSOT is becoming increasingly important in enterprise settings where incorrectly linked duplicate or de-normalized data elements (a direct consequence of intentional or unintentional denormalization of any explicit data model) pose a risk for retrieval of outdated, and therefore incorrect, information.
 
-A common example would be the[electronic health record](https://en.wikipedia.org/wiki/Electronic_health_record), where it is imperative to accurately validate patient identity against a single referential repository, which serves as the SSOT.
+A common example would be the [electronic health record](https://en.wikipedia.org/wiki/Electronic_health_record), where it is imperative to accurately validate patient identity against a single referential repository, which serves as the SSOT.
 
 ## Repository Pattern
 

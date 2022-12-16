@@ -30,12 +30,12 @@ Youtube - [What is DNS? - Introduction to Domain Name System](https://www.youtub
 A recursive nameserver is different because if it does not know the ip address for the asked dns name. It will do the work of finding the answer, instead of merely re-directing the query.
 The recursive nameserver will check its cache first. If the IP address is not there, it will ask a root nameserver (root nameservers do not know IP addresses, but they can read requests and tell the recursive nameserver where to go next). All recursive nameservers come with 13 root nameservers' IP addresses pre-configured. The recursive nameserver picks one and asks it the same question ("what is the IP address for [www.google.com](http://www.google.com)?").
 The root nameserver reads the top-level domain (the end of the request), in this case .com, ([www.google.com](http://www.google.com)) and will tell the recursive nameserver to ask the Global Top Level Domain Servers (GTLD). GTLDs are essentially reference lists for each type of domain --- .com, .net., .edu, etc. While they don't know the IP addresses for websites, they do know which nameservers will have that information.
-The GTLD nameserver will read the next part of your request, reading from right to left (in this case the 'google' of[www.google.com](http://www.google.com))and will send back a message with the authoritative nameserver to contact. An authoritative nameserver is a nameserver that is responsible for the domain (and is the primary source of information).
+The GTLD nameserver will read the next part of your request, reading from right to left (in this case the 'google' of [www.google.com](http://www.google.com)) and will send back a message with the authoritative nameserver to contact. An authoritative nameserver is a nameserver that is responsible for the domain (and is the primary source of information).
 <https://www.freecodecamp.org/news/what-is-dns-anyway>
 
 ## Fully Qualified Domain Name**
 
-A**fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*,is a[domain name](https://en.wikipedia.org/wiki/Domain_name)that specifies its exact location in the tree hierarchy of the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a[second-level domain](https://en.wikipedia.org/wiki/Second-level_domain)and a[top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
+A**fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*,is a [domain name](https://en.wikipedia.org/wiki/Domain_name) that specifies its exact location in the tree hierarchy of the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a [second-level domain](https://en.wikipedia.org/wiki/Second-level_domain) and a [top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
 
 ## DNS Lookup
 
@@ -89,13 +89,13 @@ Setup custom email for your domain Ex: @ => ASPMX.L.GOOGLE.COM. 1
 
 ## SOA
 
-A**Start of Authority record**(abbreviated as**SOA record**) is a type of[resource record](https://en.wikipedia.org/wiki/Resource_record)in the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) containing administrative information about the zone, especially regarding[zone transfers](https://en.wikipedia.org/wiki/DNS_zone_transfer). The SOA record format is specified in[RFC 1035](https://tools.ietf.org/html/rfc1035)
+A**Start of Authority record**(abbreviated as**SOA record**) is a type of [resource record](https://en.wikipedia.org/wiki/Resource_record) in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) containing administrative information about the zone, especially regarding [zone transfers](https://en.wikipedia.org/wiki/DNS_zone_transfer). The SOA record format is specified in [RFC 1035](https://tools.ietf.org/html/rfc1035)
 
 <https://en.wikipedia.org/wiki/SOA_record>
 
 ## SRV**
 
-A**Service record**(**SRV record**) is a specification of data in the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)defining the location, i.e. the[hostname](https://en.wikipedia.org/wiki/Hostname)and[port number](https://en.wikipedia.org/wiki/Port_number), of servers for specified services. It is defined in[RFC 2782](https://tools.ietf.org/html/rfc2782), and its type code is 33. Some Internet protocols such as the[Session Initiation Protocol](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)(SIP) and the[Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol)(XMPP) often require SRV support by network elements.
+A**Service record**(**SRV record**) is a specification of data in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) defining the location, i.e. the [hostname](https://en.wikipedia.org/wiki/Hostname) and [port number](https://en.wikipedia.org/wiki/Port_number), of servers for specified services. It is defined in [RFC 2782](https://tools.ietf.org/html/rfc2782), and its type code is 33. Some Internet protocols such as the [Session Initiation Protocol](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)(SIP) and the [Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol)(XMPP) often require SRV support by network elements.
 | **Commonly used record types** | **Description**             | **Examples**                        |
 |------------------------|-----------------------|--------------------------|
 | A                              | Host address                | host -t a nixcraft.com              |
@@ -133,16 +133,16 @@ Resolver / Recursive DNS
 
 ## Punycode
 
-## Punycodeis a representation of[Unicode](https://en.wikipedia.org/wiki/Unicode)with the limited[ASCII](https://en.wikipedia.org/wiki/ASCII)character subset used for Internet[host names](https://en.wikipedia.org/wiki/Host_(network)). Using Punycode, host names containing Unicode characters are transcoded to a subset of ASCII consisting of letters, digits, and hyphen, which is called the Letter-Digit-Hyphen (LDH) subset. For example,*München*([German](https://en.wikipedia.org/wiki/German_language)name for[Munich](https://en.wikipedia.org/wiki/Munich)) is encoded as*Mnchen-3ya*
+## Punycodeis a representation of [Unicode](https://en.wikipedia.org/wiki/Unicode) with the limited [ASCII](https://en.wikipedia.org/wiki/ASCII) character subset used for Internet [host names](https://en.wikipedia.org/wiki/Host_(network)). Using Punycode, host names containing Unicode characters are transcoded to a subset of ASCII consisting of letters, digits, and hyphen, which is called the Letter-Digit-Hyphen (LDH) subset. For example,*München*([German](https://en.wikipedia.org/wiki/German_language) name for [Munich](https://en.wikipedia.org/wiki/Munich)) is encoded as*Mnchen-3ya*
 
-While the[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) technically supports arbitrary sequences of octets in domain name labels, the DNS standards recommend the use of the LDH subset of ASCII conventionally used for host names, and require that string comparisons between DNS domain names should be case-insensitive. The Punycode syntax is a method of encoding strings containing Unicode characters, such as[internationalized domain names](https://en.wikipedia.org/wiki/Internationalized_domain_name)(IDNA), into the LDH subset of ASCII favored by DNS. It is specified in[IETF](https://en.wikipedia.org/wiki/IETF)[Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments)3492.
+While the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) technically supports arbitrary sequences of octets in domain name labels, the DNS standards recommend the use of the LDH subset of ASCII conventionally used for host names, and require that string comparisons between DNS domain names should be case-insensitive. The Punycode syntax is a method of encoding strings containing Unicode characters, such as [internationalized domain names](https://en.wikipedia.org/wiki/Internationalized_domain_name)(IDNA), into the LDH subset of ASCII favored by DNS. It is specified in [IETF](https://en.wikipedia.org/wiki/IETF)[Request for Comments](https://en.wikipedia.org/wiki/Request_for_Comments) 3492.
 <https://en.wikipedia.org/wiki/Punycode>
 
 ## mDNS (multicast DNS)**
 
-In[computer networking](https://en.wikipedia.org/wiki/Computer_networking), themulticast DNS(mDNS) protocol resolves[hostnames](https://en.wikipedia.org/wiki/Hostname)to IP addresses within small networks that do not include a local[name server](https://en.wikipedia.org/wiki/Name_server). It is a[zero-configuration](https://en.wikipedia.org/wiki/Zero_configuration_networking)service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast[Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). Although[Stuart Cheshire](https://en.wikipedia.org/wiki/Stuart_Cheshire)designed mDNS as a stand-alone protocol, it can work in concert with standard DNS servers.
-The mDNS protocol is published as[RFC](https://en.wikipedia.org/wiki/Request_for_Comments)[6762](https://tools.ietf.org/html/rfc6762), uses IP multicast[User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP) packets, and is implemented by the Apple[Bonjour](https://en.wikipedia.org/wiki/Bonjour_(software))and open source[Avahi](https://en.wikipedia.org/wiki/Avahi_(software))software packages.[Android](https://en.wikipedia.org/wiki/Android_(operating_system))contains an mDNS implementation.mDNS has also been implemented in[Windows 10](https://en.wikipedia.org/wiki/Windows_10), initially limited to discovering networked printers, later becoming capable of resolving hostnames as well.
-mDNS can work in conjunction with[DNS Service Discovery](https://en.wikipedia.org/wiki/DNS_Service_Discovery)(DNS-SD), a companion zero-configuration technique specified separately in[RFC 6763](https://tools.ietf.org/html/rfc6763).[[4]](https://en.wikipedia.org/wiki/Multicast_DNS#cite_note-rfc6763-4)
+In [computer networking](https://en.wikipedia.org/wiki/Computer_networking), themulticast DNS(mDNS) protocol resolves [hostnames](https://en.wikipedia.org/wiki/Hostname) to IP addresses within small networks that do not include a local [name server](https://en.wikipedia.org/wiki/Name_server). It is a [zero-configuration](https://en.wikipedia.org/wiki/Zero_configuration_networking) service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). Although [Stuart Cheshire](https://en.wikipedia.org/wiki/Stuart_Cheshire) designed mDNS as a stand-alone protocol, it can work in concert with standard DNS servers.
+The mDNS protocol is published as [RFC](https://en.wikipedia.org/wiki/Request_for_Comments)[6762](https://tools.ietf.org/html/rfc6762), uses IP multicast [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP) packets, and is implemented by the Apple [Bonjour](https://en.wikipedia.org/wiki/Bonjour_(software)) and open source [Avahi](https://en.wikipedia.org/wiki/Avahi_(software)) software packages.[Android](https://en.wikipedia.org/wiki/Android_(operating_system)) contains an mDNS implementation.mDNS has also been implemented in [Windows 10](https://en.wikipedia.org/wiki/Windows_10), initially limited to discovering networked printers, later becoming capable of resolving hostnames as well.
+mDNS can work in conjunction with [DNS Service Discovery](https://en.wikipedia.org/wiki/DNS_Service_Discovery)(DNS-SD), a companion zero-configuration technique specified separately in [RFC 6763](https://tools.ietf.org/html/rfc6763).[[4]](https://en.wikipedia.org/wiki/Multicast_DNS#cite_note-rfc6763-4)
 <https://en.wikipedia.org/wiki/Multicast_DNS>
 
 ## What is DNS encryption?**
@@ -181,7 +181,7 @@ The TLS extension SNI works by requiring the client to transmit the hostname of 
 
 ## DNS Subdomain Names
 
-Most resource types require a name that can be used as a DNS subdomain name as defined in[RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:
+Most resource types require a name that can be used as a DNS subdomain name as defined in [RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:
 
 - contain no more than 253 characters
 - contain only lowercase alphanumeric characters, '-' or '.'
@@ -190,7 +190,7 @@ Most resource types require a name that can be used as a DNS subdomain name as d
 
 ## DNS Label Names
 
-Some resource types require their names to follow the DNS label standard as defined in[RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:
+Some resource types require their names to follow the DNS label standard as defined in [RFC 1123](https://tools.ietf.org/html/rfc1123). This means the name must:
 
 - contain at most 63 characters
 - contain only lowercase alphanumeric characters or '-'

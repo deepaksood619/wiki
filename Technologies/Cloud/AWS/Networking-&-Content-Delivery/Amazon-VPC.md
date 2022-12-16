@@ -28,9 +28,9 @@ The following are the key concepts for VPCs:
 - **Route table association---**The association between a route table and a subnet, internet gateway, or virtual private gateway.
 - **Subnet route table---**A route table that's associated with a subnet.
 - **Gateway route table---**A route table that's associated with an internet gateway or virtual private gateway.
-- **Local gateway route table---**A route table that's associated with an Outposts local gateway. For information about local gateways, see[Local Gateways](https://docs.aws.amazon.com/outposts/latest/userguide/outposts-local-gateways.html)in theAWS Outposts User Guide.
+- **Local gateway route table---**A route table that's associated with an Outposts local gateway. For information about local gateways, see [Local Gateways](https://docs.aws.amazon.com/outposts/latest/userguide/outposts-local-gateways.html) in theAWS Outposts User Guide.
 - **Destination---**The destination CIDR where you want traffic to go. For example, an external corporate network with a172.16.0.0/12CIDR.
-- **Propagation---**Route propagation allows a virtual private gateway to automatically propagate routes to the route tables. This means that you don't need to manually enter VPN routes to your route tables. For more information about VPN routing options, see[Site-to-Site VPN Routing Options](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html)in theSite-to-Site VPN User Guide.
+- **Propagation---**Route propagation allows a virtual private gateway to automatically propagate routes to the route tables. This means that you don't need to manually enter VPN routes to your route tables. For more information about VPN routing options, see [Site-to-Site VPN Routing Options](https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNRoutingTypes.html) in theSite-to-Site VPN User Guide.
 - **Target---**The target through which to send the destination traffic; for example, an internet gateway.
 - **Local route---**A default route for communication within the VPC.
 
@@ -60,10 +60,10 @@ For each security group, you addrulesthat control the inbound traffic to instanc
 
 Amazon Virtual Private Cloud provides features that you can use to increase and monitor the security for your virtual private cloud (VPC):
 
-- **Security groups:** Security groups act as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound traffic at the instance level. When you launch an instance, you can associate it with one or more security groups that you've created. Each instance in your VPC could belong to a different set of security groups. If you don't specify a security group when you launch an instance, the instance is automatically associated with the default security group for the VPC. For more information, see[Security Groups for Your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html).
-- **Network access control lists (ACLs):** Network ACLs act as a firewall for associated subnets, controlling both inbound and outbound traffic at the subnet level. For more information, see[Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html).
-- **Flow logs:** Flow logs capture information about the IP traffic going to and from network interfaces in your VPC. You can create a flow log for a VPC, subnet, or individual network interface. Flow log data is published to CloudWatch Logs or Amazon S3, and it can help you diagnose overly restrictive or overly permissive security group and network ACL rules. For more information, see[VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html).
-- **Traffic mirroring:** You can copy network traffic from an elastic network interface of an Amazon EC2 instance. You can then send the traffic to out-of-band security and monitoring appliances. For more information, see the[Traffic Mirroring Guide](https://docs.aws.amazon.com/vpc/latest/mirroring/).
+- **Security groups:** Security groups act as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound traffic at the instance level. When you launch an instance, you can associate it with one or more security groups that you've created. Each instance in your VPC could belong to a different set of security groups. If you don't specify a security group when you launch an instance, the instance is automatically associated with the default security group for the VPC. For more information, see [Security Groups for Your VPC](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html).
+- **Network access control lists (ACLs):** Network ACLs act as a firewall for associated subnets, controlling both inbound and outbound traffic at the subnet level. For more information, see [Network ACLs](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html).
+- **Flow logs:** Flow logs capture information about the IP traffic going to and from network interfaces in your VPC. You can create a flow log for a VPC, subnet, or individual network interface. Flow log data is published to CloudWatch Logs or Amazon S3, and it can help you diagnose overly restrictive or overly permissive security group and network ACL rules. For more information, see [VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html).
+- **Traffic mirroring:** You can copy network traffic from an elastic network interface of an Amazon EC2 instance. You can then send the traffic to out-of-band security and monitoring appliances. For more information, see the [Traffic Mirroring Guide](https://docs.aws.amazon.com/vpc/latest/mirroring/).
 
 | **Security group**                                                                                                                                           | **Network ACL**                                                                                                                                                                         |
 |-----------------------------------|-------------------------------------|
@@ -85,11 +85,11 @@ There are two types of VPC endpoints:**interface endpoints**and**gateway endpoin
 
 ## Interface Endpoint
 
-An[interface endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/vpce-interface.html)is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service.
+An [interface endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/vpce-interface.html) is an elastic network interface with a private IP address from the IP address range of your subnet that serves as an entry point for traffic destined to a supported service.
 
 ## Gateway Endpoints
 
-A[gateway endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/vpce-gateway.html)is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. The following AWS services are supported:
+A [gateway endpoint](https://docs.aws.amazon.com/vpc/latest/userguide/vpce-gateway.html) is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. The following AWS services are supported:
 
 - Amazon S3
 - DynamoDB

@@ -51,7 +51,7 @@ Modified: 2019-09-06 16:50:35 +0500
 <tr class="odd">
 <td><strong>[]</strong></td>
 <td><p>Matching, listing. One of the characters within the square brackets must be matched. Example:</p>
-<p>ls -l e[abc].txt # This will give a long listing of ea.txt, eb.txt and/or ec.txt</p></td>
+<p>ls -l e [abc].txt # This will give a long listing of ea.txt, eb.txt and/or ec.txt</p></td>
 </tr>
 <tr class="even">
 <td><strong>$</strong></td>
@@ -79,7 +79,7 @@ Modified: 2019-09-06 16:50:35 +0500
 <td><strong>{}</strong></td>
 <td><p>Used in special cases for variables with the $. One use is in parameter substitution (see the $ definition, above), the other is in arrays. Example:</p>
 <p>numbers=( 1 2 3 4 5 )</p>
-<p>echo ${numbers[1]}</p></td>
+<p>echo ${numbers [1]}</p></td>
 </tr>
 <tr class="even">
 <td><strong>"</strong></td>

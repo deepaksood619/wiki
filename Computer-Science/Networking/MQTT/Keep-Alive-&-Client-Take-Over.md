@@ -8,7 +8,7 @@ Modified: 2019-04-16 12:43:12 +0500
 
 ## The problem of half-open TCP connections
 
-[MQTT is based on the Transmission Control Protocol (TCP)](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/). This protocol ensures that packets are transferred over the internet in a["reliable, ordered, and error-checked"](http://en.wikipedia.org/wiki/Transmission_Control_Protocol)way. Nevertheless, from time to time, the transfer between communicating parties can get out of sync. For example, if one of the parties crashes or has transmission errors. In TCP, this state of incomplete connection is called a[half-open connection](http://en.wikipedia.org/wiki/TCP_half-open). The important point to remember is that one side of the communication continues to function and is not notified about the failure of the other side. The side that is still connected keeps trying to send messages and waits for acknowledgements.
+[MQTT is based on the Transmission Control Protocol (TCP)](https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/). This protocol ensures that packets are transferred over the internet in a ["reliable, ordered, and error-checked"](http://en.wikipedia.org/wiki/Transmission_Control_Protocol) way. Nevertheless, from time to time, the transfer between communicating parties can get out of sync. For example, if one of the parties crashes or has transmission errors. In TCP, this state of incomplete connection is called a [half-open connection](http://en.wikipedia.org/wiki/TCP_half-open). The important point to remember is that one side of the communication continues to function and is not notified about the failure of the other side. The side that is still connected keeps trying to send messages and waits for acknowledgements.
 As Andy Stanford-Clark (the inventor of the MQTT protocol) points out, the problem with half-open connections increases in mobile networks:
 
 "Although TCP/IP in theory notifies you when a socket breaks, in practice, particularly on things like mobile and satellite links, which often "fake" TCP over the air and put headers back on at each end, it's quite possible for a TCP session to "black hole", i.e. it appears to be open still, but in fact is just dumping anything you write to it onto the floor."
@@ -43,7 +43,7 @@ When the broker receives a PINGREQ packet, the broker must reply with a PINGRESP
 
 ## Good to Know
 
-- If the broker does not receive a PINGREQ or any other packet from a client, the broker closes the connection and sends the[last will and testament message](https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/)(if the client specified an LWT).
+- If the broker does not receive a PINGREQ or any other packet from a client, the broker closes the connection and sends the [last will and testament message](https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/)(if the client specified an LWT).
 - It is the responsibility of the MQTT client to set an appropriate keep alive value. For example, the client can adjust the keep-alive interval to its current signal strength.
 - The maximum keep alive is 65535 seconds (18h 12min 15 sec).
 - If the keep alive interval is 0, the keep alive mechanism is deactivated.

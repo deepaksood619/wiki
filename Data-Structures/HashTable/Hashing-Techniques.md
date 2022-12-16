@@ -38,7 +38,7 @@ i.  **Linear Probing -** Find next empty slot and put the key there
 
 ii. **Double Hashing -** Use two hash functions, if there is collision on first hash, use second hash function to get the bucket address.
 
-iii. **Quadratic probing -** Quadratic probing operates by taking the original hash index and adding successive values of an arbitrary[quadratic polynomial](https://en.wikipedia.org/wiki/Quadratic_polynomial)until an open slot is found.
+iii. **Quadratic probing -** Quadratic probing operates by taking the original hash index and adding successive values of an arbitrary [quadratic polynomial](https://en.wikipedia.org/wiki/Quadratic_polynomial) until an open slot is found.
      -   Use linear probing, but skip a variable amount, not just 1 each time.
      -   Effectively eliminates clustering
      -   Can allow table to become nearly full
@@ -59,7 +59,7 @@ iii. **Quadratic probing -** Quadratic probing operates by taking the original h
 
 3. **Coalesced Hashing**
 
-Coalesced hashing is a technique for implementing a hash table. It's an[open addressing](https://programming.guide/hash-tables-open-addressing.html) technique which means that all keys are**stored in the array itself**(e.g. it doesn't use for example linked lists to handle collisions). As opposed to other open addressing techniques however, it also uses**nodes with next-poiners**to form collision chains.
+Coalesced hashing is a technique for implementing a hash table. It's an [open addressing](https://programming.guide/hash-tables-open-addressing.html) technique which means that all keys are**stored in the array itself**(e.g. it doesn't use for example linked lists to handle collisions). As opposed to other open addressing techniques however, it also uses**nodes with next-poiners**to form collision chains.
 
 ## Example:Coalesced hash table holding five keys in two collision chains. (Keys of the same color hash to the same bucket.)
 
@@ -82,7 +82,7 @@ A common optimization (so common in fact, that it is almost to be considered a p
 5.  **Cuckoo Hashing**
 
 Cuckoo Hashing is a technique for implementing a hash table. As opposed to most other hash tables, it achieves**constant time worst-case complexity for lookups**.
-Collisions are handled by evicting existing keys and moving them from one array to the other. This resembles the way a cuckoo chick[pushes out an egg from the nest](https://www.youtube.com/watch?v=SO1WccH2_YM)to make room for itself, hence the name Cuckoo Hashing.
+Collisions are handled by evicting existing keys and moving them from one array to the other. This resembles the way a cuckoo chick [pushes out an egg from the nest](https://www.youtube.com/watch?v=SO1WccH2_YM) to make room for itself, hence the name Cuckoo Hashing.
 
 ## Representation
 

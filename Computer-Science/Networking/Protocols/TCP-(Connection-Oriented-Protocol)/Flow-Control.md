@@ -13,7 +13,7 @@ It's important to understand that this isnotthe same as*Congestion Control*. Alt
 
 ## rwnd - Receiver Window and cwnd - Congestion Window
 
-Congestion Window (cwnd) is a TCP state variable that limits the amount of data the[TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)can send into the network before receiving an[ACK](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)). The Receiver Window (rwnd) is a variable that advertises the amount of data that the destination side can receive. Together, the two variables are used to regulate data flow in TCP connections, minimize congestion, and improve network performance.
+Congestion Window (cwnd) is a TCP state variable that limits the amount of data the [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol) can send into the network before receiving an [ACK](https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)). The Receiver Window (rwnd) is a variable that advertises the amount of data that the destination side can receive. Together, the two variables are used to regulate data flow in TCP connections, minimize congestion, and improve network performance.
 <https://blog.stackpath.com/glossary-cwnd-and-rwnd>
 
 ## How it works**
@@ -160,11 +160,11 @@ A backlog length of 1 means the queue will be full while just a single connectio
 Why would setting the backlog length to 1 occasionally result in HTTP 502s? Most of the time, there are already established connections between the ALB and our API service, so the backlog length does not matter. However, when our service is unusually idle or is about to be upgraded, these connections are closed. A burst of API requests from just a single client at this point could cause the ALB to attempt to establish new TCP connections concurrently. Contention for the single slot in the TCP backlog would cause some of these connections to eventually report failure. The ALB responds to this failure by returning HTTP 502.
 <http://veithen.io/2014/01/01/how-tcp-backlog-works-in-linux.html>
 
-When an application puts a socket into LISTEN state using the[listen](http://linux.die.net/man/2/listen)syscall, it needs to specify a backlog for that socket. The backlog is usually described as the limit for the queue of incoming connections.
+When an application puts a socket into LISTEN state using the [listen](http://linux.die.net/man/2/listen) syscall, it needs to specify a backlog for that socket. The backlog is usually described as the limit for the queue of incoming connections.
 
 ![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image10.png)
 
-Because of the 3-way handshake used by TCP, an incoming connection goes through an intermediate state SYN RECEIVED before it reaches the ESTABLISHED state and can be returned by the[accept](http://linux.die.net/man/2/accept)syscall to the application (see the part of the[TCP state diagram](http://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed.svg)reproduced above). This means that a TCP/IP stack has two options to implement the backlog queue for a socket in LISTEN state:
+Because of the 3-way handshake used by TCP, an incoming connection goes through an intermediate state SYN RECEIVED before it reaches the ESTABLISHED state and can be returned by the [accept](http://linux.die.net/man/2/accept) syscall to the application (see the part of the [TCP state diagram](http://commons.wikimedia.org/wiki/File:Tcp_state_diagram_fixed.svg) reproduced above). This means that a TCP/IP stack has two options to implement the backlog queue for a socket in LISTEN state:
 
 1. The implementation uses a single queue, the size of which is determined by thebacklogargument of thelistensyscall. When a SYN packet is received, it sends back a SYN/ACK packet and adds the connection to the queue. When the corresponding ACK is received, the connection changes its state to ESTABLISHED and becomes eligible for handover to the application. This means that the queue can contain connections in two different state: SYN RECEIVED and ESTABLISHED. Only connections in the latter state can be returned to the application by theacceptsyscall.
 

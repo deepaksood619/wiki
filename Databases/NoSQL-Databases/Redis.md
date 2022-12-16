@@ -9,9 +9,9 @@ Modified: 2022-12-11 13:47:19 +0500
 ## Redis (Remote Dictionary Service)
 
 Redis is an open source (BSD licensed), extremely fast, in-memory data structure store, used as a database, cache and message broker. It can optionally persist to a disk also. It supports different data structures like simple key-value pairs, sets, queues, strings, hashes, lists, sorted sets with range queries, bitmaps, hyprloglogs and geospatial indexes with radis queries. Redis has built-in replication, Lua scripting, LRU eviction, transactions and different levels of on-disk persistence, and provides high availability via Redis Sentinel and automatic partitioning with Redis Cluster
-You can runatomic operationson these types, like[appending to a string](https://redis.io/commands/append);[incrementing the value in a hash](https://redis.io/commands/hincrby);[pushing an element to a list](https://redis.io/commands/lpush);[computing set intersection](https://redis.io/commands/sinter),[union](https://redis.io/commands/sunion)and[difference](https://redis.io/commands/sdiff); or[getting the member with highest ranking in a sorted set](https://redis.io/commands/zrangebyscore).
-In order to achieve its outstanding performance, Redis works with anin-memory dataset. Depending on your use case, you can persist it either by[dumping the dataset to disk](https://redis.io/topics/persistence#snapshotting)every once in a while, or by[appending each command to a log](https://redis.io/topics/persistence#append-only-file). Persistence can be optionally disabled, if you just need a feature-rich, networked, in-memory cache.
-Redis also supports trivial-to-setup[master-slave asynchronous replication](https://redis.io/topics/replication), with very fast non-blocking first synchronization, auto-reconnection with partial resynchronization on net split.
+You can runatomic operationson these types, like [appending to a string](https://redis.io/commands/append);[incrementing the value in a hash](https://redis.io/commands/hincrby);[pushing an element to a list](https://redis.io/commands/lpush);[computing set intersection](https://redis.io/commands/sinter),[union](https://redis.io/commands/sunion) and [difference](https://redis.io/commands/sdiff); or [getting the member with highest ranking in a sorted set](https://redis.io/commands/zrangebyscore).
+In order to achieve its outstanding performance, Redis works with anin-memory dataset. Depending on your use case, you can persist it either by [dumping the dataset to disk](https://redis.io/topics/persistence#snapshotting) every once in a while, or by [appending each command to a log](https://redis.io/topics/persistence#append-only-file). Persistence can be optionally disabled, if you just need a feature-rich, networked, in-memory cache.
+Redis also supports trivial-to-setup [master-slave asynchronous replication](https://redis.io/topics/replication), with very fast non-blocking first synchronization, auto-reconnection with partial resynchronization on net split.
 
 ## Features
 
@@ -94,7 +94,7 @@ keydb - Multithreaded fork of redis
 
 ## twenproxy (by twitter)**
 
-twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight proxy for[memcached](http://www.memcached.org/)and[redis](http://redis.io/)protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.
+twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight proxy for [memcached](http://www.memcached.org/) and [redis](http://redis.io/) protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.
 
 <https://github.com/twitter/twemproxy>
 

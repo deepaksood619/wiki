@@ -31,16 +31,16 @@ In a probability-based sample, the observations/subjects are picked at random. I
   - Split the data into several partitions; then draw random samples from each paritition
 - **Cluster Random**
   - You break the population into groups, and then randomly select some of these groups and collect data on each group member
-Data sampling is a[statistical analysis](https://whatis.techtarget.com/definition/statistical-analysis)technique used to select, manipulate and analyze a representative subset of data points to identify patterns and trends in the larger[data set](https://whatis.techtarget.com/definition/data-set)being examined. It enables[data scientists](https://searchenterpriseai.techtarget.com/definition/data-scientist), predictive modelers and other data analysts to work with a small, manageable amount of data about a statistical[population](https://whatis.techtarget.com/definition/population)to build and run analytical models more quickly, while still producing accurate findings.
+Data sampling is a [statistical analysis](https://whatis.techtarget.com/definition/statistical-analysis) technique used to select, manipulate and analyze a representative subset of data points to identify patterns and trends in the larger [data set](https://whatis.techtarget.com/definition/data-set) being examined. It enables [data scientists](https://searchenterpriseai.techtarget.com/definition/data-scientist), predictive modelers and other data analysts to work with a small, manageable amount of data about a statistical [population](https://whatis.techtarget.com/definition/population) to build and run analytical models more quickly, while still producing accurate findings.
 
 ## Advantages and challenges of data sampling
 
-Sampling can be particularly useful with data sets that are too large to efficiently analyze in full -- for example, in[big data analytics](https://searchbusinessanalytics.techtarget.com/definition/big-data-analytics)applications or surveys. Identifying and analyzing a representative sample is more efficient and cost-effective than surveying the entirety of the data or population.
-An important consideration, though, is the size of the required data sample and the possibility of introducing a[sampling error](https://whatis.techtarget.com/definition/sampling-error). In some cases, a small sample can reveal the most important information about a data set. In others, using a larger sample can increase the likelihood of accurately representing the data as a whole, even though the increased size of the sample may impede ease of manipulation and interpretation.
+Sampling can be particularly useful with data sets that are too large to efficiently analyze in full -- for example, in [big data analytics](https://searchbusinessanalytics.techtarget.com/definition/big-data-analytics) applications or surveys. Identifying and analyzing a representative sample is more efficient and cost-effective than surveying the entirety of the data or population.
+An important consideration, though, is the size of the required data sample and the possibility of introducing a [sampling error](https://whatis.techtarget.com/definition/sampling-error). In some cases, a small sample can reveal the most important information about a data set. In others, using a larger sample can increase the likelihood of accurately representing the data as a whole, even though the increased size of the sample may impede ease of manipulation and interpretation.
 
 ## Types of data sampling methods
 
-There are many different methods for drawing samples from data; the ideal one depends on the data set and situation. Sampling can be based on[probability](https://whatis.techtarget.com/definition/probability), an approach that uses[random numbers](https://whatis.techtarget.com/definition/random-numbers)that correspond to points in the data set to ensure that there is no correlation between points chosen for the sample. Further variations in probability sampling include:
+There are many different methods for drawing samples from data; the ideal one depends on the data set and situation. Sampling can be based on [probability](https://whatis.techtarget.com/definition/probability), an approach that uses [random numbers](https://whatis.techtarget.com/definition/random-numbers) that correspond to points in the data set to ensure that there is no correlation between points chosen for the sample. Further variations in probability sampling include:
 
 - Simple random sampling:Software is used to randomly select subjects from the whole population.
 - Stratified sampling:Subsets of the data sets or population are created based on a common factor, and samples are randomly collected from each subgroup.
@@ -56,7 +56,7 @@ Nonprobability data sampling methods include:
 - Consecutive sampling:Data is collected from every subject that meets the criteria until the predetermined sample size is met.
 - Purposive or judgmental sampling:The researcher selects the data to sample based on predefined criteria.
 - Quota sampling:The researcher ensures equal representation within the sample for all subgroups in the data set or population.
-Once generated, a sample can be used for[predictive analytics](https://searchbusinessanalytics.techtarget.com/definition/predictive-analytics). For example, a retail business might use data sampling to uncover patterns about customer behavior and[predictive modeling](https://searchenterpriseai.techtarget.com/definition/predictive-modeling)to create more effective sales strategies.
+Once generated, a sample can be used for [predictive analytics](https://searchbusinessanalytics.techtarget.com/definition/predictive-analytics). For example, a retail business might use data sampling to uncover patterns about customer behavior and [predictive modeling](https://searchenterpriseai.techtarget.com/definition/predictive-modeling) to create more effective sales strategies.
 
 ## Sample Size
 

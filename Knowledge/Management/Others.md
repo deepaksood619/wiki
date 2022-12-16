@@ -8,7 +8,7 @@ Modified: 2021-05-31 01:20:17 +0500
 
 # SWOT Analysis -
 
-## SWOT analysis**(or**SWOT matrix) is a strategic planning technique used to help a person or organization identify the*Strengths*,*Weaknesses*,*Opportunities*, and*Threats*related to[business](https://en.wikipedia.org/wiki/Business)competition or project planning.[^[1]^](https://en.wikipedia.org/wiki/SWOT_analysis#cite_note-1)It is intended to specify the objectives of the business venture or project and identify the internal and external factors that are favorable and unfavorable to achieving those objectives. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage
+## SWOT analysis**(or**SWOT matrix) is a strategic planning technique used to help a person or organization identify the*Strengths*,*Weaknesses*,*Opportunities*, and*Threats*related to [business](https://en.wikipedia.org/wiki/Business) competition or project planning.[^[1]^](https://en.wikipedia.org/wiki/SWOT_analysis#cite_note-1) It is intended to specify the objectives of the business venture or project and identify the internal and external factors that are favorable and unfavorable to achieving those objectives. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage
 
 Strengths and Weakness are frequently internally-related, while Opportunities and Threats commonly focus on environmental placement.
 
@@ -17,7 +17,7 @@ Strengths and Weakness are frequently internally-related, while Opportunities an
 - ***O**pportunities*: elements in the environment that the business or project could exploit to its advantage.
 - ***T**hreats*: elements in the environment that could cause trouble for the business or project.
 
-The degree to which the internal environment of the firm matches with the external environment is expressed by the concept of[strategic fit](https://en.wikipedia.org/wiki/Strategic_fit). Identification of SWOTs is important because they can inform later steps in planning to achieve the objective. First, decision-makers should consider whether the objective is attainable, given the SWOTs. If the objective is*not*attainable, they must select a different objective and repeat the process.
+The degree to which the internal environment of the firm matches with the external environment is expressed by the concept of [strategic fit](https://en.wikipedia.org/wiki/Strategic_fit). Identification of SWOTs is important because they can inform later steps in planning to achieve the objective. First, decision-makers should consider whether the objective is attainable, given the SWOTs. If the objective is*not*attainable, they must select a different objective and repeat the process.
 
 <https://en.wikipedia.org/wiki/SWOT_analysis>
 
@@ -63,11 +63,11 @@ This strategy is sometimes called the "**kill the company**" exercise in organiz
 
 ## Diffusion of Innovation
 
-Diffusion of innovationsis a[theory](https://en.wikipedia.org/wiki/Theory)that seeks to explain how, why, and at what rate new[ideas](https://en.wikipedia.org/wiki/Idea)and[technology](https://en.wikipedia.org/wiki/Technology)spread.[Everett Rogers](https://en.wikipedia.org/wiki/Everett_Rogers), a professor of[communication studies](https://en.wikipedia.org/wiki/Communication_studies), popularized the theory in his bookDiffusion of Innovations; the book was first published in 1962, and is now in its fifth edition (2003).Rogers argues that diffusion is the process by which an[innovation](https://en.wikipedia.org/wiki/Innovation)is communicated over time among the participants in a social system. The origins of the diffusion of innovations theory are varied and span multiple disciplines.
+Diffusion of innovationsis a [theory](https://en.wikipedia.org/wiki/Theory) that seeks to explain how, why, and at what rate new [ideas](https://en.wikipedia.org/wiki/Idea) and [technology](https://en.wikipedia.org/wiki/Technology) spread.[Everett Rogers](https://en.wikipedia.org/wiki/Everett_Rogers), a professor of [communication studies](https://en.wikipedia.org/wiki/Communication_studies), popularized the theory in his bookDiffusion of Innovations; the book was first published in 1962, and is now in its fifth edition (2003).Rogers argues that diffusion is the process by which an [innovation](https://en.wikipedia.org/wiki/Innovation) is communicated over time among the participants in a social system. The origins of the diffusion of innovations theory are varied and span multiple disciplines.
 
 ![image](media/Others-image2.png)
 
-The diffusion of innovations according to Rogers. With successive groups of consumers adopting the new technology (shown in blue), its[market share](https://en.wikipedia.org/wiki/Market_share)(yellow) will eventually reach the saturation level. The blue curve is broken into sections of adopters.
+The diffusion of innovations according to Rogers. With successive groups of consumers adopting the new technology (shown in blue), its [market share](https://en.wikipedia.org/wiki/Market_share)(yellow) will eventually reach the saturation level. The blue curve is broken into sections of adopters.
 
 <https://en.wikipedia.org/wiki/Diffusion_of_innovations>
 

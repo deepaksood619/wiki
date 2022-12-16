@@ -36,17 +36,17 @@ There is a particular file where you can handle all these. The file is located a
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td><p>$route['default_controller']</p>
+<td><p>$route ['default_controller']</p>
 <p>This route indicates which controller class should be loaded, if the URI contains no data, which will be the case when people load your root URL. You are encouraged to have a default route otherwise a 404 page will appear, by default. We can set home page of website here so it will be loaded by default.</p></td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td><p>$route['404_override']</p>
+<td><p>$route ['404_override']</p>
 <p>This route indicates which controller class should be loaded if the requested controller is not found. It will override the default 404 error page. It won’t affect to theshow_404()function, which will continue loading the defaulterror_404.phpfile inapplication/views/errors/error_404.php.</p></td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td><p>$route['translate_uri_dashes']</p>
+<td><p>$route ['translate_uri_dashes']</p>
 <p>As evident by the Boolean value, this is not exactly a route. This option enables you to automatically replace dashes (‘-‘) with underscores in the controller and method URI segments, thus saving you additional route entries if you need to do that. This is required because the dash is not a valid class or method-name character and will cause a fatal error, if you try to use it.</p></td>
 </tr>
 </tbody>
@@ -63,7 +63,7 @@ We can use two wildcard characters as explained below −
 
 Example
 
-$route['product/:num']='catalog/product_lookup';
+$route ['product/:num']='catalog/product_lookup';
 
 In the above example, if the literal word "product" is found in the first segment of the URL, and a number is found in the second segment, the "catalog" class and the "product_lookup" method are used instead.
 
@@ -73,6 +73,6 @@ Like wildcards, we can also use regular expressions in$route array keypart. If a
 
 Example
 
-$route['products/([a-z]+)/(d+)']='$1/id_$2';
+$route ['products/([a-z]+)/(d+)']='$1/id_$2';
 
 In the above example, a URI similar to products/shoes/123 would instead call the "shoes" controller class and the "id_123" method.

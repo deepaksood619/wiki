@@ -76,7 +76,7 @@ d.  The Service configuration is disseminated across the cluster (more on this l
 
 e.  The cluster's DNS service notices the new Service and creates the necessaryDNS A records
 
-Step 5 is the secret sauce in this process. Thecluster DNSservice is based on[CoreDNS](https://coredns.io/)and runs as aKubernetes-native application. This means that it knows it's running on Kubernetes and implements acontrollerthat watches the API Server for new Service objects. Any time it sees a new Service object, it creates the DNS records that allow the Service name to be resolved to its ClusterIP. This means that Services don't have to care about the process of registering with DNS, the CoreDNS controller watches for new Service objects and makes the DNS magic happen.
+Step 5 is the secret sauce in this process. Thecluster DNSservice is based on [CoreDNS](https://coredns.io/) and runs as aKubernetes-native application. This means that it knows it's running on Kubernetes and implements acontrollerthat watches the API Server for new Service objects. Any time it sees a new Service object, it creates the DNS records that allow the Service name to be resolved to its ClusterIP. This means that Services don't have to care about the process of registering with DNS, the CoreDNS controller watches for new Service objects and makes the DNS magic happen.
 
 It's important to understand that the name registered with DNS is the value ofmetadata.nameand that the ClusterIP is dynamically assigned by Kubernetes.
 
@@ -162,7 +162,7 @@ This model is similar to iptables because both ipvs and iptables are base on net
 
 ## CNI
 
-The[Container Network Interface](https://github.com/containernetworking/cni)(CNI) is an API specification that is focused around the creation and connection of container workloads.
+The [Container Network Interface](https://github.com/containernetworking/cni)(CNI) is an API specification that is focused around the creation and connection of container workloads.
 
 CNI has two main commands: add and delete. Configuration is passed in as JSON data.
 

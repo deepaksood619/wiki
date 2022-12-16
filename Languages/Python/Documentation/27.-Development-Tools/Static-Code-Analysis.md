@@ -33,7 +33,7 @@ Skipping
 
 Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions.
 
-[pylint](https://pypi.org/project/pylint/)is one of the most wide-spread linters in Python. The features of pylint for sure overlaps with Flake8, but there is one feature I love: Checking for code duplication
+[pylint](https://pypi.org/project/pylint/) is one of the most wide-spread linters in Python. The features of pylint for sure overlaps with Flake8, but there is one feature I love: Checking for code duplication
 
 $ pylint --disable=all --enable=duplicate-code .
 
@@ -41,7 +41,7 @@ $ pylint --disable=all --enable=duplicate-code .
 
 ## autoflake
 
-autoflakeremoves unused imports and unused variables from Python code. It makes use of[pyflakes](http://pypi.python.org/pypi/pyflakes)to do this.
+autoflakeremoves unused imports and unused variables from Python code. It makes use of [pyflakes](http://pypi.python.org/pypi/pyflakes) to do this.
 
 pip install autoflake
 
@@ -78,7 +78,7 @@ black .
 
 ## Pyre type-checker
 
-Pyre is a performant type checker for Python compliant with[PEP 484](https://www.python.org/dev/peps/pep-0484/). Pyre can analyze codebases with millions of lines of code incrementally -- providing instantaneous feedback to developers as they write code.
+Pyre is a performant type checker for Python compliant with [PEP 484](https://www.python.org/dev/peps/pep-0484/). Pyre can analyze codebases with millions of lines of code incrementally -- providing instantaneous feedback to developers as they write code.
 
 Pyre ships withPysa, a security focused static analysis tool we've built on top of Pyre that reasons about data flows in Python applications.
 
@@ -247,7 +247,7 @@ Here are some of the interesting flake8 plugins:
 - [flake8-blind-except](https://pypi.org/project/flake8-blind-except/): Prevent Pokemon exception catching
 - [flake8-builtins](https://pypi.org/project/flake8-builtins/): Check for python builtins being used as variables or parameters.
 - [flake8-docstrings](https://pypi.org/project/flake8-docstrings/): Adds pydocstyle support
-- [flake8-isort](https://pypi.org/project/flake8-isort/): Use[isort](https://pypi.python.org/pypi/isort)to check if the imports on your python files are sorted the way you expect
+- [flake8-isort](https://pypi.org/project/flake8-isort/): Use [isort](https://pypi.python.org/pypi/isort) to check if the imports on your python files are sorted the way you expect
 - [flake8-logging-format](https://github.com/globality-corp/flake8-logging-format): Validate (lack of) logging format strings
 - [flake8-pytest-style](https://pypi.org/project/flake8-pytest-style/): Checking common style issues or inconsistencies with pytest-based tests
 - [flake8-requirements](https://pypi.org/project/flake8-requirements/): Checks/validates package import requirements. It reports missing and/or not used project direct dependencies
@@ -269,9 +269,9 @@ Here are some of the interesting flake8 plugins:
 
 ### Flake8: Remove Debugging Artifacts
 
-- [flake8-breakpoint](https://pypi.org/project/flake8-breakpoint/)checks for forgotten breakpoints
-- [flake8-print](https://pypi.org/project/flake8-print/)will complain about every print statement
-- [flake8-debugger](https://pypi.org/project/flake8-debugger/),[flake8-fixme](https://pypi.org/project/flake8-fixme/),[flake8-todo](https://pypi.org/project/flake8-todo/)go in the same direction.
+- [flake8-breakpoint](https://pypi.org/project/flake8-breakpoint/) checks for forgotten breakpoints
+- [flake8-print](https://pypi.org/project/flake8-print/) will complain about every print statement
+- [flake8-debugger](https://pypi.org/project/flake8-debugger/),[flake8-fixme](https://pypi.org/project/flake8-fixme/),[flake8-todo](https://pypi.org/project/flake8-todo/) go in the same direction.
 
 ### Let Dead Code Die
 
@@ -289,13 +289,13 @@ vulture . --exclude .history
 ### Flake8: Nudging Yourself to use Good Style
 
 - [flake8-comprehensions](https://pypi.org/project/flake8-comprehensions/): Helps you write better list/set/dict comprehensions --- I love this one 😍
-- [flake8-executable](https://pypi.org/project/flake8-executable/): Check executable permissions and[shebangs](https://en.wikipedia.org/wiki/Shebang_(Unix)). Files should either executable and have a shebang, or not be executable and not have a shebang.
+- [flake8-executable](https://pypi.org/project/flake8-executable/): Check executable permissions and [shebangs](https://en.wikipedia.org/wiki/Shebang_(Unix)). Files should either executable and have a shebang, or not be executable and not have a shebang.
 - [flake8-raise](https://pypi.org/project/flake8-raise/): Finds improvements for raise statements
 - [flake8-pytest](https://pypi.org/project/flake8-pytest/): Use assert instead of assertEqual
 
 ### Modern style Python
 
-- [flake8-pathlib](https://pypi.org/project/flake8-pathlib/):[Pathlib](https://docs.python.org/3.4/library/pathlib.html)was added in Python 3.4 and I'm still not quite used to it. This plugin might nudge me to use it when it's appropriate.
+- [flake8-pathlib](https://pypi.org/project/flake8-pathlib/):[Pathlib](https://docs.python.org/3.4/library/pathlib.html) was added in Python 3.4 and I'm still not quite used to it. This plugin might nudge me to use it when it's appropriate.
 - [flake8-string-format](https://pypi.org/project/flake8-string-format/),[flake8-printf-formatting](https://pypi.org/project/flake8-printf-formatting/),[flake8-sts](https://pypi.org/project/flake8-sfs/): String formatting.
 
 ### Improve Flake8
@@ -303,10 +303,10 @@ vulture . --exclude .history
 - [flake8--colors](https://pypi.org/project/flake8-colors/): ANSI colors highlight for Flake8
 - [flake8-csv](https://pypi.org/project/flake8-csv/): Generate error reports in CSV format
 - [flake8-json](https://pypi.org/project/flake8-json/): Generate error reports in JSON format
-- [flake8-dashboard](https://pypi.org/project/flake8-dashboard/)and[flake8-html](https://pypi.org/project/flake8-html/): Generate an HTML report ([dashboard demo](https://aperezhortal.github.io/flake8-dashboard/example_dashboard/index.html))
+- [flake8-dashboard](https://pypi.org/project/flake8-dashboard/) and [flake8-html](https://pypi.org/project/flake8-html/): Generate an HTML report ([dashboard demo](https://aperezhortal.github.io/flake8-dashboard/example_dashboard/index.html))
 - [flake8-immediate](https://pypi.org/project/flake8-immediate/): Prints the errors directly without any delay
 - [flake8-strftime](https://pypi.org/project/flake8-strftime/): Checks for use of platform-specific strftime codes
-- [flake8-SQL](https://pypi.org/project/flake8-SQL/)and[py-find-injection](http://py-find-injection/): Looks for SQL queries and checks them against an opinionated style
+- [flake8-SQL](https://pypi.org/project/flake8-SQL/) and [py-find-injection](http://py-find-injection/): Looks for SQL queries and checks them against an opinionated style
 - [flake8-tuple](https://pypi.org/project/flake8-tuple/): Checks for (probably) unintended one element tuples
 - And some plugins people might need for legal reasons like flake8-author, flake8-copyright, and flake8-license.
 
@@ -344,7 +344,7 @@ F 141:0 s3_upload - A (1)
 C 77:0 ExistsStrategy - A (1)
 ```
 
-The first letter shows thetype of block(F for function, C for class). Then radon gives theline number, thenameof the class/function, agrade(A, B, C, D, E, or F), and the actualcomplexity as a number. Typically, a complexity below 10 is ok.[The most complex part of scipy](https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py#L127)has a complexity of 61.
+The first letter shows thetype of block(F for function, C for class). Then radon gives theline number, thenameof the class/function, agrade(A, B, C, D, E, or F), and the actualcomplexity as a number. Typically, a complexity below 10 is ok.[The most complex part of scipy](https://github.com/scipy/scipy/blob/master/scipy/sparse/linalg/eigen/lobpcg/lobpcg.py#L127) has a complexity of 61.
 
 Besides radon, there are various other packages and Flake8 plugins:
 

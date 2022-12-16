@@ -14,7 +14,7 @@ The suffix tree for the string S of length n is defined as a tree such that:
 - Except for the root, every [internal node](https://en.wikipedia.org/wiki/Tree_(data_structure)#Terminology) has at least two children.
 - Each edge is labelled with a non-empty substring of S.
 - No two edges starting out of a node can have string-labels beginning with the same character.
-- The string obtained by concatenating all the string-labels found on the path from the root to leaf i spells out suffix S[i..n], for i from 1 to n.
+- The string obtained by concatenating all the string-labels found on the path from the root to leaf i spells out suffix S [i..n], for i from 1 to n.
 
 Since such a tree does not exist for all strings, S is padded with a terminal symbol not seen in the string (usually denoted $). This ensures that no suffix is a prefix of another, and that there will be n leaf nodes, one for each of the n suffixes of S. Since all internal non-root nodes are branching, there can be at most *n*− 1 such nodes, and *n*+(*n*−1)+1=2*n* nodes in total (*n* leaves, *n*−1 internal non-root nodes, 1 root).
 

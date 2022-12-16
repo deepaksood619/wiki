@@ -88,9 +88,9 @@ Node affinity is a property of Pods that attracts them to a set of nodes (either
 
 ## Configmaps
 
-A ConfigMap is an API object used to store non-confidential data in key-value pairs.[Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)can consume ConfigMaps as environment variables, command-line arguments, or as configuration files in a[volume](https://kubernetes.io/docs/concepts/storage/volumes/).
+A ConfigMap is an API object used to store non-confidential data in key-value pairs.[Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) can consume ConfigMaps as environment variables, command-line arguments, or as configuration files in a [volume](https://kubernetes.io/docs/concepts/storage/volumes/).
 
-A ConfigMap allows you to decouple environment-specific configuration from your[container images](https://kubernetes.io/docs/reference/glossary/?all=true#term-image), so that your applications are easily portable.
+A ConfigMap allows you to decouple environment-specific configuration from your [container images](https://kubernetes.io/docs/reference/glossary/?all=true#term-image), so that your applications are easily portable.
 
 ConfigMaps can be consumed in various ways:
 

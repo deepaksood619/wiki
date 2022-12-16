@@ -59,11 +59,11 @@ Some examples of Controllers that contain one or more pods include:
 
 ## Pod Template
 
-Pod templates are pod specifications which are included in other objects, such as[Replication Controllers](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/),[Jobs](https://kubernetes.io/docs/concepts/jobs/run-to-completion-finite-workloads/), and [DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). Controllers use Pod Templates to make actual pods.
+Pod templates are pod specifications which are included in other objects, such as [Replication Controllers](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/),[Jobs](https://kubernetes.io/docs/concepts/jobs/run-to-completion-finite-workloads/), and [DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). Controllers use Pod Templates to make actual pods.
 
 ## Init Containers
 
-A[Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)can have multiple Containers running apps within it, but it can also have one or more Init Containers, which are run before the app Containers are started.
+A [Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) can have multiple Containers running apps within it, but it can also have one or more Init Containers, which are run before the app Containers are started.
 
 Init Containers are exactly like regular Containers, except:
 
@@ -76,7 +76,7 @@ A**Pod Preset**is an API resource for injecting additional runtime requirements 
 
 ## Ephemeral Containers
 
-A special type of container that runs temporarily in an existing[Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/)to accomplish user-initiated actions such as troubleshooting. You use ephemeral containers to inspect services rather than to build applications.
+A special type of container that runs temporarily in an existing [Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) to accomplish user-initiated actions such as troubleshooting. You use ephemeral containers to inspect services rather than to build applications.
 
 Ephemeral containers differ from other containers in that they lack guarantees for resources or execution, and they will never be automatically restarted, so they are not appropriate for building applications. Ephemeral containers are described using the sameContainerSpecas regular containers, but many fields are incompatible and disallowed for ephemeral containers.
 

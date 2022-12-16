@@ -43,7 +43,7 @@ The process to add an element into queue is called**Enqueue**and the process of 
 
 ![image](media/Queue-FIFO-image1.png)
 
-2.  Using resizing array Interview Questions**
+2. Using resizing array Interview Questions**
 
 - Implement stack using a queue
 - Reverse first k elements of a queue

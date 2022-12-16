@@ -21,7 +21,7 @@ Amazon EKS is also integrated with many AWS services to provide scalability and 
 
 Amazon EKS runs a single tenant Kubernetes control plane for each cluster, and control plane infrastructure is not shared across clusters or AWS accounts.
 
-This control plane consists of at least two API server nodes and threeetcdnodes that run across three Availability Zones within a Region. Amazon EKS automatically detects and replaces unhealthy control plane instances, restarting them across the Availability Zones within the Region as needed. Amazon EKS leverages the architecture of AWS Regions in order to maintain high availability. Because of this, Amazon EKS is able to offer an[SLA for API server endpoint availability](https://aws.amazon.com/eks/sla).
+This control plane consists of at least two API server nodes and threeetcdnodes that run across three Availability Zones within a Region. Amazon EKS automatically detects and replaces unhealthy control plane instances, restarting them across the Availability Zones within the Region as needed. Amazon EKS leverages the architecture of AWS Regions in order to maintain high availability. Because of this, Amazon EKS is able to offer an [SLA for API server endpoint availability](https://aws.amazon.com/eks/sla).
 
 Amazon EKS uses Amazon VPC network policies to restrict traffic between control plane components to within a single cluster. Control plane components for a cluster cannot view or receive communication from other clusters or other AWS accounts, except as authorized with Kubernetes RBAC policies.
 
@@ -81,7 +81,7 @@ aws ecr get-login-password | docker login --username AWS --password-stdin 331916
 
 ## eksctl
 
-eksctlis a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by[Weaveworks](https://www.weave.works/)and it welcomes contributions from the community. Create a basic cluster in minutes with just one command
+eksctlis a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by [Weaveworks](https://www.weave.works/) and it welcomes contributions from the community. Create a basic cluster in minutes with just one command
 
 A cluster will be created with default parameters
 
@@ -181,17 +181,17 @@ kube2iam provides different AWS IAM roles for pods running on Kubernetes
 
 ## EKS 1.17
 
-Upgrading your EKS cluster to[v1.17](http://v1.17/)
+Upgrading your EKS cluster to [v1.17](http://v1.17/)
 
 What needs to be taken care of..!
 
 Breaking Points in k8s v1.17:
 
-𝟏.[𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏𝙖𝙡𝙥𝙝𝙖𝟏](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F%F0%9D%99%96%F0%9D%99%A1%F0%9D%99%A5%F0%9D%99%9D%F0%9D%99%96%F0%9D%9F%8F)and[𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏𝙗𝙚𝙩𝙖𝟏](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F%F0%9D%99%97%F0%9D%99%9A%F0%9D%99%A9%F0%9D%99%96%F0%9D%9F%8F)API groups are deprecated in favor of[𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏,](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F,)and will no longer be served in[𝘃𝟭.𝟮𝟬.](http://v1.20./)
+𝟏.[𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏𝙖𝙡𝙥𝙝𝙖𝟏](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F%F0%9D%99%96%F0%9D%99%A1%F0%9D%99%A5%F0%9D%99%9D%F0%9D%99%96%F0%9D%9F%8F) and [𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏𝙗𝙚𝙩𝙖𝟏](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F%F0%9D%99%97%F0%9D%99%9A%F0%9D%99%A9%F0%9D%99%96%F0%9D%9F%8F) API groups are deprecated in favor of [𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏,](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F,) and will no longer be served in [𝘃𝟭.𝟮𝟬.](http://v1.20./)
 
-𝟐. Also, ([𝙗𝙚𝙩𝙖.𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚-𝙩𝙮𝙥𝙚)](http://beta.kubernetes.io/%F0%9D%99%9E%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A9%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A-%F0%9D%99%A9%F0%9D%99%AE%F0%9D%99%A5%F0%9D%99%9A))is deprecated in favor of[𝙣𝙤𝙙𝙚.𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚-𝙩𝙮𝙥𝙚](http://node.kubernetes.io/%F0%9D%99%9E%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A9%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A-%F0%9D%99%A9%F0%9D%99%AE%F0%9D%99%A5%F0%9D%99%9A)
+𝟐. Also, ([𝙗𝙚𝙩𝙖.𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚-𝙩𝙮𝙥𝙚)](http://beta.kubernetes.io/%F0%9D%99%9E%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A9%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A-%F0%9D%99%A9%F0%9D%99%AE%F0%9D%99%A5%F0%9D%99%9A)) is deprecated in favor of [𝙣𝙤𝙙𝙚.𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚-𝙩𝙮𝙥𝙚](http://node.kubernetes.io/%F0%9D%99%9E%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A9%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A-%F0%9D%99%A9%F0%9D%99%AE%F0%9D%99%A5%F0%9D%99%9A)
 
-𝟑. Start using the 𝘼𝙒𝙎 𝙀𝘽𝙎 𝘾𝙎𝙄 𝘿𝙧𝙞𝙫𝙚𝙧 directly for any new volumes, instead of in-tree AWS EBS plugin[𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙖𝙬𝙨-𝙚𝙗𝙨](http://kubernetes.io/%F0%9D%99%96%F0%9D%99%AC%F0%9D%99%A8-%F0%9D%99%9A%F0%9D%99%97%F0%9D%99%A8)
+𝟑. Start using the 𝘼𝙒𝙎 𝙀𝘽𝙎 𝘾𝙎𝙄 𝘿𝙧𝙞𝙫𝙚𝙧 directly for any new volumes, instead of in-tree AWS EBS plugin [𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙖𝙬𝙨-𝙚𝙗𝙨](http://kubernetes.io/%F0%9D%99%96%F0%9D%99%AC%F0%9D%99%A8-%F0%9D%99%9A%F0%9D%99%97%F0%9D%99%A8)
 
 𝟒. Even EKS hasn't enabled the 𝘊𝘚𝘐𝘔𝘪𝘨𝘳𝘢𝘵𝘪𝘰𝘯𝘈𝘞𝘚(It enable the replacement of existing in-tree storage plugins such as 𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙖𝙬𝙨-𝙚𝙗𝙨 with a corresponding CSI driver), for details kindly go through this:<https://lnkd.in/gBsZ4hQ>
 

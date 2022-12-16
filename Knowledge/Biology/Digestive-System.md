@@ -21,7 +21,7 @@ The Bristol Stool Chart shows seven categories of stool. Every person will have 
 ![image](media/Digestive-System-image2.gif)
 
 - [Type 1--2 indicate constipation](https://www.continence.org.au/pages/constipation.html)
-- [Type 3--4 are ideal stools](https://www.continence.org.au/pages/about-your-bowel.html)as they are easier to pass, and
+- [Type 3--4 are ideal stools](https://www.continence.org.au/pages/about-your-bowel.html) as they are easier to pass, and
 - [Type 5--7 may indicate diarrhoea and urgency.](https://www.continence.org.au/pages/diarrhoea.html)
 
 <https://www.continence.org.au/pages/bristol-stool-chart.html>

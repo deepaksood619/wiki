@@ -22,7 +22,7 @@ from flask.cli import with_appcontext
 def get_db():
 if 'db' not in g:
 g.db = sqlite3.connect(
-current_app.config['DATABASE'],
+current_app.config ['DATABASE'],
 detect_types=sqlite3.PARSE_DECLTYPES
 )
 g.db.row_factory = sqlite3.Row
@@ -35,15 +35,15 @@ db = g.pop('db', None)
 if db is not None:
 db.close()
 
-Flask provides two contexts: the*application context*and the*request context*. For instance, the[**request**](https://flask.palletsprojects.com/en/0.12.x/api/#flask.request)variable is the request object associated with the current request, whereas[**g**](https://flask.palletsprojects.com/en/0.12.x/api/#flask.g)is a general purpose variable associated with the current application context.
+Flask provides two contexts: the*application context*and the*request context*. For instance, the [**request**](https://flask.palletsprojects.com/en/0.12.x/api/#flask.request) variable is the request object associated with the current request, whereas [**g**](https://flask.palletsprojects.com/en/0.12.x/api/#flask.g) is a general purpose variable associated with the current application context.
 
-[g](https://flask.palletsprojects.com/en/1.1.x/api/#flask.g)is a special object that is unique for each request. It is used to store data that might be accessed by multiple functions during the request. The connection is stored and reused instead of creating a new connection ifget_dbis called a second time in the same request.
+[g](https://flask.palletsprojects.com/en/1.1.x/api/#flask.g) is a special object that is unique for each request. It is used to store data that might be accessed by multiple functions during the request. The connection is stored and reused instead of creating a new connection ifget_dbis called a second time in the same request.
 
-[current_app](https://flask.palletsprojects.com/en/1.1.x/api/#flask.current_app)is another special object that points to the Flask application handling the request. Since you used an application factory, there is no application object when writing the rest of your code.get_dbwill be called when the application has been created and is handling a request, so[current_app](https://flask.palletsprojects.com/en/1.1.x/api/#flask.current_app)can be used.
+[current_app](https://flask.palletsprojects.com/en/1.1.x/api/#flask.current_app) is another special object that points to the Flask application handling the request. Since you used an application factory, there is no application object when writing the rest of your code.get_dbwill be called when the application has been created and is handling a request, so [current_app](https://flask.palletsprojects.com/en/1.1.x/api/#flask.current_app) can be used.
 
-[sqlite3.connect()](https://docs.python.org/3/library/sqlite3.html#sqlite3.connect)establishes a connection to the file pointed at by theDATABASEconfiguration key. This file doesn't have to exist yet, and won't until you initialize the database later.
+[sqlite3.connect()](https://docs.python.org/3/library/sqlite3.html#sqlite3.connect) establishes a connection to the file pointed at by theDATABASEconfiguration key. This file doesn't have to exist yet, and won't until you initialize the database later.
 
-[sqlite3.Row](https://docs.python.org/3/library/sqlite3.html#sqlite3.Row)tells the connection to return rows that behave like dicts. This allows accessing the columns by name.
+[sqlite3.Row](https://docs.python.org/3/library/sqlite3.html#sqlite3.Row) tells the connection to return rows that behave like dicts. This allows accessing the columns by name.
 
 close_dbchecks if a connection was created by checking ifg.dbwas set. If the connection exists, it is closed. Further down you will tell your application about theclose_dbfunction in the application factory so that it is called after each request.
 

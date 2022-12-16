@@ -60,7 +60,7 @@ TheApache JMeter application is open source software. It is a pure Java applicat
 
 Gatling is a highly capable load testing tool. It is designed for ease of use, maintainability and high performance.
 
-## Gatlingis an open-source load and performance testing framework based on[Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)),[Akka](https://en.wikipedia.org/wiki/Akka_(toolkit))and[Netty](https://en.wikipedia.org/wiki/Netty_(software)). The first stable release was published on January 13, 2012. In 2015, Gatling's founder, Stéphane Landelle, created a company (named "Gatling Corp"), dedicated to the development of the open-source project. According to Gatling Corp's official blog, Gatling was downloaded more than 800,000 times (August 2017).[^[1]^](https://en.wikipedia.org/wiki/Gatling_(software)#cite_note-1)In June 2016, Gatling officially presented Gatling FrontLine, Gatling's Enterprise Version with additional features
+## Gatlingis an open-source load and performance testing framework based on [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)),[Akka](https://en.wikipedia.org/wiki/Akka_(toolkit)) and [Netty](https://en.wikipedia.org/wiki/Netty_(software)). The first stable release was published on January 13, 2012. In 2015, Gatling's founder, Stéphane Landelle, created a company (named "Gatling Corp"), dedicated to the development of the open-source project. According to Gatling Corp's official blog, Gatling was downloaded more than 800,000 times (August 2017).[^[1]^](https://en.wikipedia.org/wiki/Gatling_(software)#cite_note-1) In June 2016, Gatling officially presented Gatling FrontLine, Gatling's Enterprise Version with additional features
 
 <https://en.wikipedia.org/wiki/Gatling_(software)>
 
@@ -181,7 +181,7 @@ Fortio runs at a specified query per second (qps) and records an histogram of ex
 
 Locust is an easy-to-use, distributed, user load testing tool. It is intended for load-testing websites (or other systems) and figuring out how many concurrent users a system can handle.
 Locust is a scalable load testing framework written in Python
-Locust is completely event-based, and therefore it's possible to support thousands of concurrent users on a single machine. In contrast to many other event-based apps it doesn't use callbacks. Instead it uses light-weight processes, through[gevent](http://www.gevent.org/). Each locust swarming your site is actually running inside its own process (or greenlet, to be correct). This allows you to write very expressive scenarios in Python without complicating your code with callbacks.
+Locust is completely event-based, and therefore it's possible to support thousands of concurrent users on a single machine. In contrast to many other event-based apps it doesn't use callbacks. Instead it uses light-weight processes, through [gevent](http://www.gevent.org/). Each locust swarming your site is actually running inside its own process (or greenlet, to be correct). This allows you to write very expressive scenarios in Python without complicating your code with callbacks.
 
 ## Running Locust Distributed
 

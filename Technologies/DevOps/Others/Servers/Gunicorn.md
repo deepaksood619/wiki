@@ -6,17 +6,17 @@ Modified: 2020-08-20 22:59:53 +0500
 
 ---
 
-[Gunicorn](http://gunicorn.org/)was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be **twice the number of available of processors, plus one**. This was based on a recommendation from Gunicorn's documentation.
+[Gunicorn](http://gunicorn.org/) was inspired by Ruby's Unicorn server (hence the name). It modestly claims that it is "simply implemented, light on server resources, and fairly speedy." Unlike Bjoern and CerryPy, Gunicorn is a standalone server. "WORKER_COUNT" was set to be **twice the number of available of processors, plus one**. This was based on a recommendation from Gunicorn's documentation.
 
 ## Async Workers
 
-You may also want to install[Eventlet](http://eventlet.net/)or[Gevent](http://www.gevent.org/)if you expect that your application code may need to pause for extended periods of time during request processing. Check out the[design docs](http://docs.gunicorn.org/en/stable/design.html)for more information on when you'll want to consider one of the alternate worker types.
+You may also want to install [Eventlet](http://eventlet.net/) or [Gevent](http://www.gevent.org/) if you expect that your application code may need to pause for extended periods of time during request processing. Check out the [design docs](http://docs.gunicorn.org/en/stable/design.html) for more information on when you'll want to consider one of the alternate worker types.
 
 $ pip install greenlet # Required for both
 $ pip install eventlet # For eventlet workers
-$ pip install gunicorn[eventlet] # Or, using extra
+$ pip install gunicorn [eventlet] # Or, using extra
 $ pip install gevent # For gevent workers
-$ pip install gunicorn[gevent] # Or, using extra
+$ pip install gunicorn [gevent] # Or, using extra
 
 <https://medium.com/@genchilu/brief-introduction-about-the-types-of-worker-in-gunicorn-and-respective-suitable-scenario-67b0c0e7bd62>
 
@@ -34,7 +34,7 @@ in order of least to most authoritative:
 
 ## Commands
 
-pip install gunicorn[gevent]
+pip install gunicorn [gevent]
 
 gunicorn <app_file>:app -b 0.0.0.0:5000 --workers 3 -k gevent --timeout 300 --worker-connections 1000 --max-requests 1000000 --limit-request-line 8190 --access-logfile /var/log/gunicorn/access.log
 
@@ -78,11 +78,11 @@ Gunicorn's main process starts one or more worker processes, and restarts them i
 
 ## Setting up workers
 
-1. If the application is[I/O bounded](https://en.wikipedia.org/wiki/I/O_bound), the best performance usually comes from using "pseudo-threads" (gevent or asyncio). As we have seen, Gunicorn supports this programming paradigm by setting the appropriateworker classand adjusting the value ofworkersto(2*CPU)+1.
+1. If the application is [I/O bounded](https://en.wikipedia.org/wiki/I/O_bound), the best performance usually comes from using "pseudo-threads" (gevent or asyncio). As we have seen, Gunicorn supports this programming paradigm by setting the appropriateworker classand adjusting the value ofworkersto(2*CPU)+1.
 
-2. If the application is[CPU bounded](https://en.wikipedia.org/wiki/CPU-bound), it doesn't matter how many concurrent requests are handled by the application. The only thing that matters is the number of parallel requests. Due to[Python's GIL](https://wiki.python.org/moin/GlobalInterpreterLock), threads and "pseudo-threads" cannot run in parallel. The only way to achieve parallelism is to increaseworkersto the suggested(2*CPU)+1, understanding that the maximum number of parallel requests is the number of cores.
+2. If the application is [CPU bounded](https://en.wikipedia.org/wiki/CPU-bound), it doesn't matter how many concurrent requests are handled by the application. The only thing that matters is the number of parallel requests. Due to [Python's GIL](https://wiki.python.org/moin/GlobalInterpreterLock), threads and "pseudo-threads" cannot run in parallel. The only way to achieve parallelism is to increaseworkersto the suggested(2*CPU)+1, understanding that the maximum number of parallel requests is the number of cores.
 
-3. If there is a concern about the application[memory footprint](https://en.wikipedia.org/wiki/Memory_footprint), usingthreadsand its correspondinggthread worker classin favor ofworkersyields better performance because the application is loaded once per worker and every thread running on the worker shares some memory, this comes to the expense of some additional CPU consumption.
+3. If there is a concern about the application [memory footprint](https://en.wikipedia.org/wiki/Memory_footprint), usingthreadsand its correspondinggthread worker classin favor ofworkersyields better performance because the application is loaded once per worker and every thread running on the worker shares some memory, this comes to the expense of some additional CPU consumption.
 
 4. If you don't know you are doing, start with the simplest configuration, which is only settingworkersto(2*CPU)+1and don't worry aboutthreads. From that point, it's all trial and error with benchmarking. If the bottleneck is memory, start introducing threads. If the bottleneck is I/O, consider a different python programming paradigm. If the bottleneck is CPU, consider using more cores and adjusting theworkersvalue.
 

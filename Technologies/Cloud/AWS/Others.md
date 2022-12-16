@@ -64,7 +64,7 @@ If you already manage user identities outside of AWS, you can use IAMidentity pr
 
 When you use an IAM identity provider, you don't have to create custom sign-in code or manage your own user identities. The IdP provides that for you. Your external users sign in through a well-known IdP, such as Login with Amazon, Facebook, or Google. You can give those external identities permissions to use AWS resources in your account. IAM identity providers help keep your AWS account secure because you don't have to distribute or embed long-term security credentials, such as access keys, in your application.
 
-To use an IdP, you create an IAM identity provider entity to establish a trust relationship between your AWS account and the IdP. IAM supports IdPs that are compatible with[OpenID Connect (OIDC)](http://openid.net/connect/)or[SAML 2.0 (Security Assertion Markup Language 2.0)](https://wiki.oasis-open.org/security)
+To use an IdP, you create an IAM identity provider entity to establish a trust relationship between your AWS account and the IdP. IAM supports IdPs that are compatible with [OpenID Connect (OIDC)](http://openid.net/connect/) or [SAML 2.0 (Security Assertion Markup Language 2.0)](https://wiki.oasis-open.org/security)
 
 <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers.html>
 

@@ -284,7 +284,7 @@ Jidoka places responsibility down to the assembly workers to ensure that they ar
 
 - **Shared value /Collective impact**
 
-Collective impact is based on the idea that social problems arise from and persist because of a complex combination of actions and omissions by players in all sectors---and therefore can be solved only by the coordinated efforts of those players, from businesses to government agencies, charitable organizations, and members of affected populations. What's needed is nothing less than changing how the system functions. Collective-impact efforts have made significant progress on issues as diverse as education, homelessness, juvenile justice, substance abuse, childhood obesity, job creation, and[pollution.](http://www.collectiveimpactforum.org/featured-case-studies)
+Collective impact is based on the idea that social problems arise from and persist because of a complex combination of actions and omissions by players in all sectors---and therefore can be solved only by the coordinated efforts of those players, from businesses to government agencies, charitable organizations, and members of affected populations. What's needed is nothing less than changing how the system functions. Collective-impact efforts have made significant progress on issues as diverse as education, homelessness, juvenile justice, substance abuse, childhood obesity, job creation, and [pollution.](http://www.collectiveimpactforum.org/featured-case-studies)
 
 1. a common agenda, which helps align the players' efforts and defines their commitment
 
@@ -310,7 +310,7 @@ Collective impact is based on the idea that social problems arise from and persi
 
 2. Vickrey (Second-Price) Auction / **sealed-bid second-price auction**(**SBSPA**)
 
-A Vickrey auction is a sealed-bid auction where bidders submit bids without knowing the bids of other people. However, as opposed to other sealed-bid auctions, the price paid is the second-highest bid price and not the winning bid price. The Vickrey auction was named after William Vickrey, a Canadian who won the 1996 Nobel Prize in Economics for his research on[asymmetric information](https://corporatefinanceinstitute.com/resources/knowledge/finance/asymmetric-information/)in economics.
+A Vickrey auction is a sealed-bid auction where bidders submit bids without knowing the bids of other people. However, as opposed to other sealed-bid auctions, the price paid is the second-highest bid price and not the winning bid price. The Vickrey auction was named after William Vickrey, a Canadian who won the 1996 Nobel Prize in Economics for his research on [asymmetric information](https://corporatefinanceinstitute.com/resources/knowledge/finance/asymmetric-information/) in economics.
 
 <https://corporatefinanceinstitute.com/resources/knowledge/other/vickrey-auction>
 

@@ -8,19 +8,19 @@ Modified: 2022-04-24 11:42:17 +0500
 
 ## Endpoint Protection
 
-In[computer networks](https://en.wikipedia.org/wiki/Computer_network),rate limitingis used to control the rate of traffic sent or received by a[network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller)and is used to prevent[DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack).
+In [computer networks](https://en.wikipedia.org/wiki/Computer_network),rate limitingis used to control the rate of traffic sent or received by a [network interface controller](https://en.wikipedia.org/wiki/Network_interface_controller) and is used to prevent [DoS attacks](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
 ## Hardware appliances
 
-Hardware appliances can limit the rate of requests on layer 4 or 5 of the[OSI model](https://en.wikipedia.org/wiki/OSI_model).
-Rate limiting can be induced by the network protocol stack of the sender due to a received[ECN](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification)-marked packet and also by the[network scheduler](https://en.wikipedia.org/wiki/Network_scheduler)of any router along the way.
-While a hardware appliance can limit the rate for a given range of IP-addresses on layer 4, it risks blocking a networks with many users, which are masked by[NAT](https://en.wikipedia.org/wiki/Network_address_translation)with a single IP-address of an[ISP](https://en.wikipedia.org/wiki/Internet_service_provider).
-[Deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection)can be used to filter on the session layer, but will effectively disarm encryption protocols like[TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)and[SSL](https://en.wikipedia.org/wiki/Secure_Sockets_Layer)between the appliance and the web server.
+Hardware appliances can limit the rate of requests on layer 4 or 5 of the [OSI model](https://en.wikipedia.org/wiki/OSI_model).
+Rate limiting can be induced by the network protocol stack of the sender due to a received [ECN](https://en.wikipedia.org/wiki/Explicit_Congestion_Notification)-marked packet and also by the [network scheduler](https://en.wikipedia.org/wiki/Network_scheduler) of any router along the way.
+While a hardware appliance can limit the rate for a given range of IP-addresses on layer 4, it risks blocking a networks with many users, which are masked by [NAT](https://en.wikipedia.org/wiki/Network_address_translation) with a single IP-address of an [ISP](https://en.wikipedia.org/wiki/Internet_service_provider).
+[Deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) can be used to filter on the session layer, but will effectively disarm encryption protocols like [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) and [SSL](https://en.wikipedia.org/wiki/Secure_Sockets_Layer) between the appliance and the web server.
 
 ## Web servers
 
-[Web servers](https://en.wikipedia.org/wiki/Web_server)typically use a central[in-memory](https://en.wikipedia.org/wiki/In-memory_database)[key-value database](https://en.wikipedia.org/wiki/Key-value_database), like[Redis](https://en.wikipedia.org/wiki/Redis)or[Aerospike](https://en.wikipedia.org/wiki/Aerospike_(database)), for session management. A rate limiting algorithm is used to check if the user session (or IP-address) has to be limited based on the information in the session cache.
-In case a client made too many requests within a given timeframe,[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)-Servers can respond with status code[429: Too Many Requests](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#429_Too_Many_Requests).
+[Web servers](https://en.wikipedia.org/wiki/Web_server) typically use a central [in-memory](https://en.wikipedia.org/wiki/In-memory_database)[key-value database](https://en.wikipedia.org/wiki/Key-value_database), like [Redis](https://en.wikipedia.org/wiki/Redis) or [Aerospike](https://en.wikipedia.org/wiki/Aerospike_(database)), for session management. A rate limiting algorithm is used to check if the user session (or IP-address) has to be limited based on the information in the session cache.
+In case a client made too many requests within a given timeframe,[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)-Servers can respond with status code [429: Too Many Requests](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#429_Too_Many_Requests).
 However, the session management and rate limiting algorithm usually must be built into the application running on the web server, rather than the web server itself.
 
 ## Datacenters
@@ -56,12 +56,12 @@ Datacenters widely use rate-limiting to control the share of resources given to 
 
 ## Token Bucket
 
-Thetoken bucketis an[algorithm](https://en.wikipedia.org/wiki/Algorithm)used in[packet switched](https://en.wikipedia.org/wiki/Packet-switching)[computer networks](https://en.wikipedia.org/wiki/Computer_network)and[telecommunications networks](https://en.wikipedia.org/wiki/Telecommunication). It can be used to check that[data transmissions](https://en.wikipedia.org/wiki/Data_transmission), in the form of[packets](https://en.wikipedia.org/wiki/Network_packet), conform to defined limits on[bandwidth](https://en.wikipedia.org/wiki/Bandwidth_(computing))and[burstiness](https://en.wikipedia.org/wiki/Burst_transmission)(a measure of the unevenness or variations in the[traffic](https://en.wikipedia.org/wiki/Network_traffic_measurement)flow). It can also be used as a[scheduling algorithm](https://en.wikipedia.org/wiki/Scheduling_algorithm)to determine the timing of transmissions that will comply with the limits set for the bandwidth and burstiness.
+Thetoken bucketis an [algorithm](https://en.wikipedia.org/wiki/Algorithm) used in [packet switched](https://en.wikipedia.org/wiki/Packet-switching)[computer networks](https://en.wikipedia.org/wiki/Computer_network) and [telecommunications networks](https://en.wikipedia.org/wiki/Telecommunication). It can be used to check that [data transmissions](https://en.wikipedia.org/wiki/Data_transmission), in the form of [packets](https://en.wikipedia.org/wiki/Network_packet), conform to defined limits on [bandwidth](https://en.wikipedia.org/wiki/Bandwidth_(computing)) and [burstiness](https://en.wikipedia.org/wiki/Burst_transmission)(a measure of the unevenness or variations in the [traffic](https://en.wikipedia.org/wiki/Network_traffic_measurement) flow). It can also be used as a [scheduling algorithm](https://en.wikipedia.org/wiki/Scheduling_algorithm) to determine the timing of transmissions that will comply with the limits set for the bandwidth and burstiness.
 The token bucket algorithm can be conceptually understood as follows
 
 - A token is added to the bucket every*1/r* seconds.
 - The bucket can hold at the most*b*tokens. If a token arrives when the bucket is full, it is discarded.
-- When a packet (network layer[PDU](https://en.wikipedia.org/wiki/Protocol_data_unit)) of*n*bytes arrives,
+- When a packet (network layer [PDU](https://en.wikipedia.org/wiki/Protocol_data_unit)) of*n*bytes arrives,
 - If at least*n*tokens are in the bucket,*n*tokens are removed from the bucket, and the packet is sent to the network.
 - If fewer than*n*tokens are available, no tokens are removed from the bucket, and the packet is considered to benon-conformant.
 This solution can have problem in a distributed environment where each user can come at a different server. Can cause a race condition too.
@@ -69,7 +69,7 @@ This solution can have problem in a distributed environment where each user can 
 
 ## Hierarchical Token Bucket
 
-The hierarchical token bucket (HTB) is a faster replacement for the[class-based queueing](https://en.wikipedia.org/wiki/Class-based_queueing) (CBQ) [queuing discipline](https://en.wikipedia.org/wiki/Queuing_discipline) in [Linux](https://en.wikipedia.org/wiki/Linux). It is useful to limit a client's[download](https://en.wikipedia.org/wiki/Download)/[upload](https://en.wikipedia.org/wiki/Upload)rate so that the limited client cannot saturate the total bandwidth.
+The hierarchical token bucket (HTB) is a faster replacement for the [class-based queueing](https://en.wikipedia.org/wiki/Class-based_queueing) (CBQ) [queuing discipline](https://en.wikipedia.org/wiki/Queuing_discipline) in [Linux](https://en.wikipedia.org/wiki/Linux). It is useful to limit a client's [download](https://en.wikipedia.org/wiki/Download)/[upload](https://en.wikipedia.org/wiki/Upload) rate so that the limited client cannot saturate the total bandwidth.
 Conceptually, HTB is an arbitrary number of token buckets arranged in a hierarchy. The primary egress queuing discipline (qdisc) on any device is known as the root qdisc. The root qdisc will contain one class. This single HTB class will be set with two parameters, a rate and a ceil. These values should be the same for the top-level class, and will represent the total available bandwidth on the link.
 In HTB, rate means the guaranteed bandwidth available for a given class and ceil is short for ceiling, which indicates the maximum bandwidth that class is allowed to consume. Any bandwidth used between rate and ceil is borrowed from a parent class, hence the suggestion that rate and ceil be the same in the top-level class.
 Hierarchical Token Bucket implements a classful queuing mechanism for the linux traffic control system, and provides rate and ceil to allow the user to control the absolute bandwidth to particular classes of traffic as well as indicate the ratio of distribution of bandwidth when extra bandwidth become available(up to ceil).
@@ -77,7 +77,7 @@ Hierarchical Token Bucket implements a classful queuing mechanism for the linux 
 
 ## Leaky Bucket**
 
-[Leaky bucket](https://en.wikipedia.org/wiki/Leaky_bucket)(closely related to[token bucket](https://en.wikipedia.org/wiki/Token_bucket)) is an algorithm that provides a simple, intuitive approach to rate limiting via a queue which you can think of as a bucket holding the requests. When a request is registered, it is appended to the end of the queue. At a regular interval, the first item on the queue is processed. This is also known as a first in first out (FIFO) queue. If the queue is full, then additional requests are discarded (or leaked).
+[Leaky bucket](https://en.wikipedia.org/wiki/Leaky_bucket)(closely related to [token bucket](https://en.wikipedia.org/wiki/Token_bucket)) is an algorithm that provides a simple, intuitive approach to rate limiting via a queue which you can think of as a bucket holding the requests. When a request is registered, it is appended to the end of the queue. At a regular interval, the first item on the queue is processed. This is also known as a first in first out (FIFO) queue. If the queue is full, then additional requests are discarded (or leaked).
 ![image](media/Rate-Limiting-image2.png)
 The advantage of this algorithm is that it smooths out bursts of requests and processes them at an approximately average rate. It's also easy to implement on a single server or load balancer, and is memory efficient for each user given the limited queue size.
 However, a burst of traffic can fill up the queue with old requests and starve more recent requests from being processed. It also provides no guarantee that requests get processed in a fixed amount of time. Additionally, if you load balance servers for fault tolerance or increased throughput, you must use a policy to coordinate and enforce the limit between them.

@@ -33,7 +33,7 @@ The minimal QoS level is zero. This service level guarantees a best-effort deliv
 
 ## QoS 1 - at least once
 
-QoS level 1 guarantees that a message is delivered at least one time to the receiver. The sender stores the message until it gets a[PUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718043)packet from the receiver that acknowledges receipt of the message. It is possible for a message to be sent or delivered multiple times.
+QoS level 1 guarantees that a message is delivered at least one time to the receiver. The sender stores the message until it gets a [PUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718043) packet from the receiver that acknowledges receipt of the message. It is possible for a message to be sent or delivered multiple times.
 
 ![image](media/QoS-Levels-image2.png)
 ![puback_packet](media/QoS-Levels-image3.png)
@@ -51,15 +51,15 @@ QoS 2 is the highest level of service in MQTT. This level guarantees that each m
 
 ![image](media/QoS-Levels-image4.png)
 
-When a receiver gets a QoS 2 PUBLISH packet from a sender, it processes the publish message accordingly and replies to the sender with a[PUBREC](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718048)packet that acknowledges the PUBLISH packet. If the sender does not get a PUBREC packet from the receiver, it sends the PUBLISH packet again with a duplicate (DUP) flag until it receives an acknowledgement.
+When a receiver gets a QoS 2 PUBLISH packet from a sender, it processes the publish message accordingly and replies to the sender with a [PUBREC](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718048) packet that acknowledges the PUBLISH packet. If the sender does not get a PUBREC packet from the receiver, it sends the PUBLISH packet again with a duplicate (DUP) flag until it receives an acknowledgement.
 
 ![pubrec_packet](media/QoS-Levels-image5.png)
 
-Once the sender receives a PUBREC packet from the receiver, the sender can safely discard the initial PUBLISH packet. The sender stores the PUBREC packet from the receiver and responds with a[PUBREL](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718053)packet.
+Once the sender receives a PUBREC packet from the receiver, the sender can safely discard the initial PUBLISH packet. The sender stores the PUBREC packet from the receiver and responds with a [PUBREL](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718053) packet.
 
 ![pubrel_packet](media/QoS-Levels-image6.png)
 
-After the receiver gets the PUBREL packet, it can discard all stored states and answer with a[PUBCOMP](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718058)packet (the same is true when the sender receives the PUBCOMP). Until the receiver completes processing and sends the PUBCOMP packet back to the sender, the receiver stores a reference to the packet identifier of the original PUBLISH packet. This step is important to avoid processing the message a second time. After the sender receives the PUBCOMP packet, the packet identifier of the published message becomes available for reuse.
+After the receiver gets the PUBREL packet, it can discard all stored states and answer with a [PUBCOMP](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718058) packet (the same is true when the sender receives the PUBCOMP). Until the receiver completes processing and sends the PUBCOMP packet back to the sender, the receiver stores a reference to the packet identifier of the original PUBLISH packet. This step is important to avoid processing the message a second time. After the sender receives the PUBCOMP packet, the packet identifier of the published message becomes available for reuse.
 
 ![pubcomp_packet](media/QoS-Levels-image7.png)
 
@@ -85,7 +85,7 @@ The packet identifier that MQTT uses for QoS 1 and QoS 2 is unique between a spe
 
 - You have a completely or mostly stable connection between sender and receiver. A classic use case for QoS 0 is connecting a test client or a front end application to an MQTT broker over a wired connection.
 - You don't mind if a few messages are lost occasionally. The loss of some messages can be acceptable if the data is not that important or when data is sent at short intervals
-- You don't need message queuing. Messages are only queued for disconnected clients if they have QoS 1 or 2 and a[persistent session](https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages).
+- You don't need message queuing. Messages are only queued for disconnected clients if they have QoS 1 or 2 and a [persistent session](https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages).
 
 ## Use QoS 1 when
 
@@ -98,7 +98,7 @@ The packet identifier that MQTT uses for QoS 1 and QoS 2 is unique between a spe
 
 ## Queuing of QoS 1 and 2 messages
 
-All messages sent with QoS 1 and 2 are queued for offline clients until the client is available again. However, this queuing is only possible if the client has a[persistent session](https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages/).
+All messages sent with QoS 1 and 2 are queued for offline clients until the client is available again. However, this queuing is only possible if the client has a [persistent session](https://www.hivemq.com/blog/mqtt-essentials-part-7-persistent-session-queuing-messages/).
 
 ## References
 

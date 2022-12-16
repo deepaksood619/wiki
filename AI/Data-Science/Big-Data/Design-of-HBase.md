@@ -76,9 +76,9 @@ Modified: 2022-04-05 21:18:03 +0500
 ## HBase Data Model
 
 - **Table:** HBase organizes data into tables. Table names are Strings and composed of characters that are safe for use in a file system path
-- **Row:** Within a table, data is stored according to its row. Rows are identified uniquely by their row key. Row keys do not have a data type and are always treated as a byte[] (byte array)
+- **Row:** Within a table, data is stored according to its row. Rows are identified uniquely by their row key. Row keys do not have a data type and are always treated as a byte [] (byte array)
 - **Column Family:** Data within a row is grouped by column family. Every row in a table has the same column families, although a row need not store data in all its families. Column families are Strings and composed of characters that are safe for use in a file system path
-- **Column Qualifier:** Data within a column family is addressed via its column qualifier, or simply, column, Column qualifiers need not be specified in advance. Column qualifiers need not be consistent between rows. Like row keys, column qualifiers do not have a data type and are always treated as a byte[ ].
+- **Column Qualifier:** Data within a column family is addressed via its column qualifier, or simply, column, Column qualifiers need not be specified in advance. Column qualifiers need not be consistent between rows. Like row keys, column qualifiers do not have a data type and are always treated as a byte [ ].
 - **Cell:** A combination of row key, column family, and column qualifier uniquely identifies a cell. The data stored in a cell is referred to as that cell's value
 - **Timestamp:** Values within a cell are versioned. Versions are idenfied by their version number, which by default is the timestamp is used.
 - If the timestamp is not specified for a read, the latest one is returned. The number of cell value versions retained by Hbase is configured for each column family. The default number of cell versions is three.

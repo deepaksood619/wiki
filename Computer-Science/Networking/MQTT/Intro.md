@@ -28,7 +28,7 @@ Modified: 2021-06-06 16:48:35 +0500
 - MQTT over Websockets
 MQTT is a Client Server publish/subscribe messaging transport protocol. It is light weight, open, simple, and designed so as to be easy to implement. These characteristics make it ideal for use in many situations, including constrained environments such as for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts where a small code footprint is required and/or network bandwidth is at a premium.
 
-## MQTT**(**MQ Telemetry Transport) is an[ISO standard](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)(ISO/IEC PRF 20922)[publish-subscribe](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)-based messaging protocol. It works on top of the[TCP/IP protocol](https://en.wikipedia.org/wiki/TCP/IP). The[publish-subscribe messaging pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)requires a[message broker](https://en.wikipedia.org/wiki/Message_broker)
+## MQTT**(**MQ Telemetry Transport) is an [ISO standard](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)(ISO/IEC PRF 20922)[publish-subscribe](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)-based messaging protocol. It works on top of the [TCP/IP protocol](https://en.wikipedia.org/wiki/TCP/IP). The [publish-subscribe messaging pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) requires a [message broker](https://en.wikipedia.org/wiki/Message_broker)
 
 MQTT Utilizes many characteristics of the TCP transport, so the minimum requirement for using MQTT is a working TCP stack, which is now available for even the smallest microcontrollers. A variant,MQTT-SN, is used over other transports such asUDPor Bluetooth.MQTTsends connection credentials in plain text format and does not include any measures for security or authentication.
 It is a very light weight and binary protocol, and due to its minimal packet overhead, MQTTexcels when transferring data over the wire in comparison to protocols like HTTP.
@@ -60,7 +60,7 @@ MQTT excels in scenarios where reliable message delivery is crucial for an appli
 
 ## History
 
-The MQTT protocol was invented in 1999 by Andy Stanford-Clark (IBM) and Arlen Nipper (Arcom, now Cirrus Link). They needed a protocol for minimal battery loss and minimal bandwidth to[connect with oil pipelines via satellite](http://www.ibm.com/podcasts/software/websphere/connectivity/piper_diaz_nipper_mq_tt_11182011.pdf).
+The MQTT protocol was invented in 1999 by Andy Stanford-Clark (IBM) and Arlen Nipper (Arcom, now Cirrus Link). They needed a protocol for minimal battery loss and minimal bandwidth to [connect with oil pipelines via satellite](http://www.ibm.com/podcasts/software/websphere/connectivity/piper_diaz_nipper_mq_tt_11182011.pdf).
 ![image](media/Intro-image1.png)
 
 ## Real world deployments

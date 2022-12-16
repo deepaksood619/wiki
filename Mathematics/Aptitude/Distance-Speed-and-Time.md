@@ -8,7 +8,7 @@ Modified: 2018-09-26 23:25:48 +0500
 
 # HOW TO CALCULATE TIME AND DISTANCE FROM ACCELERATION AND VELOCITY
 
-In a physics equation, given a constant[acceleration](http://www.dummies.com/education/science/physics/how-to-calculate-acceleration/)and the change in velocity of an object, you can figure out both the[time involved and the distance traveled](http://www.dummies.com/education/math/basic-math/calculating-speed-time-and-distance/). For instance, imagine you're a drag racer. Your acceleration is 26.6 meters per second2, and your final speed is 146.3 meters per second. Now find the total distance traveled. Got you, huh? "Not at all," you say, supremely confident. "Just let me get my calculator."
+In a physics equation, given a constant [acceleration](http://www.dummies.com/education/science/physics/how-to-calculate-acceleration/) and the change in velocity of an object, you can figure out both the [time involved and the distance traveled](http://www.dummies.com/education/math/basic-math/calculating-speed-time-and-distance/). For instance, imagine you're a drag racer. Your acceleration is 26.6 meters per second2, and your final speed is 146.3 meters per second. Now find the total distance traveled. Got you, huh? "Not at all," you say, supremely confident. "Just let me get my calculator."
 
 You know the acceleration and the final speed, and you want to know the total distance required to get to that speed. This problem looks like a puzzler, but if you need the time, you can always solve for it. You know the final speed,vf,and the initial speed,vi(which is zero), and you know the acceleration,a.Becausevf-- vi= at,you know that
 

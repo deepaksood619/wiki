@@ -10,7 +10,7 @@ Modified: 2018-03-11 16:53:18 +0500
 
 - Faster union or merge operation of two binary heaps
 - Implementation of mergeable heap abstract data type
-Binomial Heap is to extension of[Binary Heap](http://geeksquiz.com/binary-heap/)that provides faster union or merge operation together with other operations provided by Binary Heap.
+Binomial Heap is to extension of [Binary Heap](http://geeksquiz.com/binary-heap/) that provides faster union or merge operation together with other operations provided by Binary Heap.
 *A Binomial Heap is a collection of Binomial Trees*
 
 ## What is a Binomial Tree?

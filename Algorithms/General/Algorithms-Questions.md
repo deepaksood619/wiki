@@ -210,7 +210,7 @@ return min_coins
 
 5. Design a data structure that supports insert, delete, search and getRandom in constant time
 
-We can use[hashing](https://www.geeksforgeeks.org/tag/hashing/)to support first 3 operations in Θ(1) time. How to do the 4th operation? The idea is to use a resizable array (ArrayList in Java, vector in C) together with hashing.[Resizable arrays support insert in Θ(1) amortized time complexity](https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/). To implement getRandom(), we can simply pick a random number from 0 to size-1 (size is the number of current elements) and return the element at that index. The hash map stores array values as keys and array indexes as values.
+We can use[hashing](https://www.geeksforgeeks.org/tag/hashing/) to support first 3 operations in Θ(1) time. How to do the 4th operation? The idea is to use a resizable array (ArrayList in Java, vector in C) together with hashing.[Resizable arrays support insert in Θ(1) amortized time complexity](https://www.geeksforgeeks.org/analysis-algorithm-set-5-amortized-analysis-introduction/). To implement getRandom(), we can simply pick a random number from 0 to size-1 (size is the number of current elements) and return the element at that index. The hash map stores array values as keys and array indexes as values.
 
 Following are detailed operations.
 

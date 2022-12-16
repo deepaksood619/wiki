@@ -82,11 +82,11 @@ The useMemo is a hook used in the functional component of react that returns a m
 
 ## Lifecycle components and Hooks Equivalent
 
-- constructor: Function components don't need a constructor. You can initialize the state in the[useState](https://reactjs.org/docs/hooks-reference.html#usestate)call. If computing the initial state is expensive, you can pass a function touseState.
-- getDerivedStateFromProps: Schedule an update[while rendering](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-getderivedstatefromprops)instead.
-- shouldComponentUpdate: SeeReact.memo[below](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate).
+- constructor: Function components don't need a constructor. You can initialize the state in the [useState](https://reactjs.org/docs/hooks-reference.html#usestate) call. If computing the initial state is expensive, you can pass a function touseState.
+- getDerivedStateFromProps: Schedule an update [while rendering](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-getderivedstatefromprops) instead.
+- shouldComponentUpdate: SeeReact.memo [below](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate).
 - render: This is the function component body itself.
-- componentDidMount,componentDidUpdate,componentWillUnmount: The[useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect)can express all combinations of these (including[less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates)cases).
+- componentDidMount,componentDidUpdate,componentWillUnmount: The [useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect) can express all combinations of these (including [less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates) cases).
 - getSnapshotBeforeUpdate,componentDidCatchandgetDerivedStateFromError: There are no Hook equivalents for these methods yet, but they will be added soon.
 
 ## Examples

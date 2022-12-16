@@ -29,7 +29,7 @@ A simple primary key, composed of one attribute known as thepartition key.
 DynamoDB uses the partition key's value as input to an internal hash function. The output from the hash function determines the partition (physical storage internal to DynamoDB) in which the item will be stored.
 
 In a table that has only a partition key, no two items can have the same partition key value.
-ThePeopletable described in[Tables, Items, and Attributes](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes)is an example of a table with a simple primary key (PersonID). You can access any item in thePeopletable directly by providing thePersonIdvalue for that item.-   **Partition key and sort key**
+ThePeopletable described in [Tables, Items, and Attributes](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes) is an example of a table with a simple primary key (PersonID). You can access any item in thePeopletable directly by providing thePersonIdvalue for that item.-   **Partition key and sort key**
 
 Referred to as acomposite primary key, this type of key is composed of two attributes. The first attribute is thepartition key, and the second attribute is thesort key.
 

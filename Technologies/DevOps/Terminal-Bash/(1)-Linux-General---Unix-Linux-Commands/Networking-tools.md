@@ -18,7 +18,7 @@ Modified: 2022-01-07 15:29:44 +0500
 
 4. [bwm-ng](https://www.gropp.org/?id=projects&sub=bwm-ng)--live network bandwidth monitor.
 
-5. [curl](https://curl.haxx.se/)--transferring data with URLs. (or try[httpie](https://httpie.org/))
+5. [curl](https://curl.haxx.se/)--transferring data with URLs. (or try [httpie](https://httpie.org/))
 
 6. [darkstat](https://unix4lyfe.org/darkstat/)-- captures network traffic, usage statistics.
 

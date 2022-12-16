@@ -177,3 +177,59 @@ Associate product managers (APMs) / Rotational Product Managers (RPMs)
 <https://www.coursera.org/specializations/uva-darden-digital-product-management>
 
 <https://www.coursera.org/specializations/product-management>
+
+## 6 Month Product MBA
+
+#### Month 1
+
+✉ Newsletter: Lenny’s Newsletter by [Lenny Rachitsky](https://www.linkedin.com/in/ACoAAABGvmoB4S920iEQfSFO_P91nw2wPqfPoic)
+📚 Book: Inspired by [Marty Cagan](https://www.linkedin.com/in/ACoAAAAAjycBVwSf0tRMLhZIJgQhgC8WlvNo9g8).
+🎙 Podcast: Product Thinking with [Melissa Perri](https://www.linkedin.com/in/ACoAAADufjUBixvWZNsGEm88A8k3N47Ig2pArvs)
+👩‍🏫 Conversation topic: “What is the role of a Product Manager in a company and a Tech team?”
+📽 Online Course: Product Manager Foundations at [One Month PM](https://www.linkedin.com/company/onemonthpm/)
+📝 Analysis challenge: [Airbnb](https://www.linkedin.com/company/airbnb/) (Marketplace)
+
+#### Month 2
+
+✉ Newsletter: Ask Gib by [Gibson Biddle](https://www.linkedin.com/company/gibson-biddle/)
+📚 Book: Continuous Discovery Habits by [Teresa Torres](https://www.linkedin.com/in/ACoAAAAABQIBksTwFRyWlc2Rz43Z-BbuVG8zw54)
+🎙 Podcast: Lenny’s Podcast by [Lenny Rachitsky](https://www.linkedin.com/in/ACoAAABGvmoB4S920iEQfSFO_P91nw2wPqfPoic)
+👩‍🏫 Conversation topic: “How do you run customer and user discovery?”
+📽 Online Course: Growth Product Management at [One Month PM](https://www.linkedin.com/company/onemonthpm/)
+📝 Analysis challenge: [Revolut](https://www.linkedin.com/company/revolut/) (Fintech)
+
+#### Month 3
+
+✉ Newsletter: The Beautiful Mess by [John Cutler](https://www.linkedin.com/in/ACoAAABkgVcByXwZ4Zke2hKjaekv4qJxDWQeqsY)
+📚 Book: Escaping the build trap by [Melissa Perri](https://www.linkedin.com/in/ACoAAADufjUBixvWZNsGEm88A8k3N47Ig2pArvs)
+🎙 Podcast: The Product Podcast by [Product School](https://www.linkedin.com/company/product-school/)
+👩‍🏫 Conversation topic: “How do you prioritise and what frameworks do you use?”
+📽 Online Course: Data for Product Managers at [One Month PM](https://www.linkedin.com/company/onemonthpm/)
+📝 Analysis challenge: [Shopify](https://www.linkedin.com/company/shopify/) (Ecommerce)
+
+#### Month 4
+
+✉ Newsletter: SVPG by [Marty Cagan](https://www.linkedin.com/in/ACoAAAAAjycBVwSf0tRMLhZIJgQhgC8WlvNo9g8)
+📚 Book: Sprint by [Jake Knapp](https://www.linkedin.com/in/ACoAAACDrXsB2wHc_jrcpjwmk-iMbKeXfbXVxds).
+🎙 Podcast: 20Product by [Harry Stebbings](https://www.linkedin.com/in/ACoAAAqiFJsBpNbbD_8asbx88kYlVbb_DAspWwE) at [20VC](https://www.linkedin.com/company/20vc/)
+👩‍🏫 Conversation topic: “How do you build and manage your roadmaps?”
+📽 Online Course: No Code Foundations at [One Month PM](https://www.linkedin.com/company/onemonthpm/)
+📝 Analysis challenge: [Netflix](https://www.linkedin.com/company/netflix/) (Consumer)
+
+#### Month 5
+
+✉ Newsletter: ProductTalk by [Teresa Torres](https://www.linkedin.com/in/ACoAAAAABQIBksTwFRyWlc2Rz43Z-BbuVG8zw54)
+📚 Book: Hooked by [Nir Eyal](https://www.linkedin.com/in/ACoAAAAHyQEBDr9figMsc4ImSK0wgU_97M8PmMU).
+🎙 Podcast: How I built this by [Guy Raz](https://www.linkedin.com/in/ACoAADAm41YBuzIKPIublsOOXtV3kLlVkt1OEsQ)
+👩‍🏫 Conversation topic: “How do you manage stakeholders and management as a PM?”
+📽 Online Course: AI Product Manager at [One Month PM](https://www.linkedin.com/company/onemonthpm/)
+📝 Analysis challenge: [TikTok](https://www.linkedin.com/company/tiktok/) (Social)
+
+#### Month 6
+
+✉ Newsletter: High-Impact Product Management by [Itamar Gilad](https://www.linkedin.com/in/ACoAAAAik0wBQRTB6Tpmz8Z8-9Qq_csOtJBPM-U)
+📚 Book: Empowered by [Marty Cagan](https://www.linkedin.com/in/ACoAAAAAjycBVwSf0tRMLhZIJgQhgC8WlvNo9g8).
+🎙 Podcast: The Product Experience by [Mind the Product](https://www.linkedin.com/company/mind-the-product/)
+👩‍🏫 Conversation topic: “How do you launch products and features and set them for success?”
+📽 Online Course: Web3 PM at [One Month PM](https://www.linkedin.com/company/onemonthpm/)
+📝 Analysis challenge: [Notion](https://www.linkedin.com/company/notionhq/) (B2B SaaS)

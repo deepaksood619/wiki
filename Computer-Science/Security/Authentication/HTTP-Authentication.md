@@ -6,17 +6,17 @@ Modified: 2021-10-16 00:45:16 +0500
 
 ---
 
-[RFC 7235](https://tools.ietf.org/html/rfc7235)defines the HTTP authentication framework which can be used by a server to[challenge](https://developer.mozilla.org/en-US/docs/Glossary/challenge)a client request and by a client to provide authentication information.
+[RFC 7235](https://tools.ietf.org/html/rfc7235) defines the HTTP authentication framework which can be used by a server to [challenge](https://developer.mozilla.org/en-US/docs/Glossary/challenge) a client request and by a client to provide authentication information.
 The general HTTP authentication framework is used by several authentication schemes. Schemes can differ in security strength and in their availability in client or server software.
 
-The most common authentication scheme is the "Basic" authentication scheme which is introduced in more details below. IANA maintains a[list of authentication schemes](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml), but there are other schemes offered by host services, such as Amazon AWS. Common authentication schemes include:
+The most common authentication scheme is the "Basic" authentication scheme which is introduced in more details below. IANA maintains a [list of authentication schemes](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml), but there are other schemes offered by host services, such as Amazon AWS. Common authentication schemes include:
 
-- Basic(see[RFC 7617](https://tools.ietf.org/html/rfc7617), base64-encoded credentials. See below for more information.),
-- Bearer(see[RFC 6750](https://tools.ietf.org/html/rfc6750), bearer tokens to access OAuth 2.0-protected resources),
-- Digest(see[RFC 7616](https://tools.ietf.org/html/rfc7616), only md5 hashing is supported in Firefox, see[bug472823](https://bugzilla.mozilla.org/show_bug.cgi?id=472823)for SHA encryption support),
-- HOBA(see[RFC 7486](https://tools.ietf.org/html/rfc7486)(draft),HTTPOrigin-BoundAuthentication, digital-signature-based),
-- Mutual(see[draft-ietf-httpauth-mutual](https://tools.ietf.org/html/draft-ietf-httpauth-mutual-11)),
-- AWS4-HMAC-SHA256(see[AWS docs](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html)).
+- Basic(see [RFC 7617](https://tools.ietf.org/html/rfc7617), base64-encoded credentials. See below for more information.),
+- Bearer(see [RFC 6750](https://tools.ietf.org/html/rfc6750), bearer tokens to access OAuth 2.0-protected resources),
+- Digest(see [RFC 7616](https://tools.ietf.org/html/rfc7616), only md5 hashing is supported in Firefox, see [bug472823](https://bugzilla.mozilla.org/show_bug.cgi?id=472823) for SHA encryption support),
+- HOBA(see [RFC 7486](https://tools.ietf.org/html/rfc7486)(draft),HTTPOrigin-BoundAuthentication, digital-signature-based),
+- Mutual(see [draft-ietf-httpauth-mutual](https://tools.ietf.org/html/draft-ietf-httpauth-mutual-11)),
+- AWS4-HMAC-SHA256(see [AWS docs](http://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-auth-using-authorization-header.html)).
 
 ## Phases
 
@@ -45,7 +45,7 @@ curl --header "Authorization: Basic am9objpzZWNyZXQ=" my-website.com
 
 >>> **from** requests.auth **import** HTTPBasicAuth
 >>> requests.get**(**'https://api.github.com/user'**,** auth=HTTPBasicAuth**(**'user'**,** 'pass'**))**
-Response[200]
+Response [200]
 
 ## Cons
 

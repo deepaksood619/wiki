@@ -43,7 +43,7 @@ The client that initially publishes the message is only concerned about deliveri
 
 ## Subscribe
 
-Publishing a message doesn't make sense if no one ever receives it. In other words, if there are no clients to subscribe to the topics of the messages. To receive messages on topics of interest, the client sends a[SUBSCRIBE](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718063)message to the MQTT broker. This subscribe message is very simple, it contains a unique packet identifier and a list of subscriptions.
+Publishing a message doesn't make sense if no one ever receives it. In other words, if there are no clients to subscribe to the topics of the messages. To receive messages on topics of interest, the client sends a [SUBSCRIBE](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718063) message to the MQTT broker. This subscribe message is very simple, it contains a unique packet identifier and a list of subscriptions.
 
 ![image](media/Publish,-Subscribe-&-Unsubscribe-image3.png)
 
@@ -57,7 +57,7 @@ A SUBSCRIBE message can contain multiple subscriptions for a client. Each subscr
 
 ## Suback
 
-To confirm each subscription, the broker sends a[SUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718068)acknowledgement message to the client. This message contains the packet identifier of the original Subscribe message (to clearly identify the message) and a list of return codes.
+To confirm each subscription, the broker sends a [SUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718068) acknowledgement message to the client. This message contains the packet identifier of the original Subscribe message (to clearly identify the message) and a list of return codes.
 
 ![image](media/Publish,-Subscribe-&-Unsubscribe-image4.png)
 
@@ -81,7 +81,7 @@ After a client successfully sends the SUBSCRIBE message and receives the SUBACK 
 
 ## Unsubscribe
 
-The counterpart of the SUBSCRIBE message is the[UNSUBSCRIBE](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718072)message. This message deletes existing subscriptions of a client on the broker. The UNSUBSCRIBE message is similar to the SUBSCRIBE message and has a packet identifier and a list of topics.
+The counterpart of the SUBSCRIBE message is the [UNSUBSCRIBE](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718072) message. This message deletes existing subscriptions of a client on the broker. The UNSUBSCRIBE message is similar to the SUBSCRIBE message and has a packet identifier and a list of topics.
 
 ![image](media/Publish,-Subscribe-&-Unsubscribe-image6.png)
 
@@ -95,7 +95,7 @@ The list of topics can contain multiple topics from which the client wants to un
 
 ## Unsuback
 
-To confirm the unsubscribe, the broker sends an[UNSUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718077)acknowledgement message to the client. This message contains only the packet identifier of the original UNSUBSCRIBE message (to clearly identify the message).
+To confirm the unsubscribe, the broker sends an [UNSUBACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718077) acknowledgement message to the client. This message contains only the packet identifier of the original UNSUBSCRIBE message (to clearly identify the message).
 
 ![image](media/Publish,-Subscribe-&-Unsubscribe-image7.png)
 

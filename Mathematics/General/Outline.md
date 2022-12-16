@@ -8,7 +8,7 @@ Modified: 2022-12-11 19:31:00 +0500
 
 [**Pure mathematics**](https://en.wikipedia.org/wiki/Pure_mathematics)
 
-- [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic)and[Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
+- [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic) and [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
 
 Foundation which underlies mathematic logic and the rest of mathematics. It tries to formalize valid reasoning. It attempts to define what constitutes a proof.-   [Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
 
@@ -52,11 +52,11 @@ Calculus and Analysis - Studies the computation of limits, derivatives, and inte
 - [Real analysis](https://en.wikipedia.org/wiki/Real_analysis)
   - [Calculus](https://en.wikipedia.org/wiki/Calculus)([outline](https://en.wikipedia.org/wiki/Outline_of_calculus))-   [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
 
-[Probability theory](https://en.wikipedia.org/wiki/Probability_theory)is the formalization and study of the mathematics of uncertain events or knowledge. The related field of[mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics)develops[statistical theory](https://en.wikipedia.org/wiki/Statistical_theory)with mathematics.[Statistics](https://en.wikipedia.org/wiki/Statistics), the science concerned with collecting and analyzing data,-   [Ergodic theory](https://en.wikipedia.org/wiki/Ergodic_theory)
+[Probability theory](https://en.wikipedia.org/wiki/Probability_theory) is the formalization and study of the mathematics of uncertain events or knowledge. The related field of [mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics) develops [statistical theory](https://en.wikipedia.org/wiki/Statistical_theory) with mathematics.[Statistics](https://en.wikipedia.org/wiki/Statistics), the science concerned with collecting and analyzing data,-   [Ergodic theory](https://en.wikipedia.org/wiki/Ergodic_theory)
 
 - [Measure theory](https://en.wikipedia.org/wiki/Measure_theory)
   - [Integral geometry](https://en.wikipedia.org/wiki/Integral_geometry)
-- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)-   [Geometry](https://en.wikipedia.org/wiki/Geometry)([outline](https://en.wikipedia.org/wiki/Outline_of_geometry)) and[Topology](https://en.wikipedia.org/wiki/Topology)
+- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)-   [Geometry](https://en.wikipedia.org/wiki/Geometry)([outline](https://en.wikipedia.org/wiki/Outline_of_geometry)) and [Topology](https://en.wikipedia.org/wiki/Topology)
 
 Study of spatial figures like circles and cubes.
 
@@ -109,7 +109,7 @@ A differential equation is an equation involving an unknown function and its der
 
 - [Fractal geometry](https://en.wikipedia.org/wiki/Fractal_geometry)-   [Game theory](https://en.wikipedia.org/wiki/Game_theory)
 
-[Game theory](https://en.wikipedia.org/wiki/Game_theory)is a branch of[mathematics](https://en.wikipedia.org/wiki/Mathematics)that uses[models](https://en.wikipedia.org/wiki/Model_(abstract))to study interactions with formalized incentive structures ("games").-   [Graph theory](https://en.wikipedia.org/wiki/Graph_theory)
+[Game theory](https://en.wikipedia.org/wiki/Game_theory) is a branch of [mathematics](https://en.wikipedia.org/wiki/Mathematics) that uses [models](https://en.wikipedia.org/wiki/Model_(abstract)) to study interactions with formalized incentive structures ("games").-   [Graph theory](https://en.wikipedia.org/wiki/Graph_theory)
 
 - [Information theory](https://en.wikipedia.org/wiki/Information_theory)
 - [Mathematical physics](https://en.wikipedia.org/wiki/Mathematical_physics)
@@ -121,7 +121,7 @@ A differential equation is an equation involving an unknown function and its der
 - [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
 - [Operations research](https://en.wikipedia.org/wiki/Operations_research)
 
-[Operations research](https://en.wikipedia.org/wiki/Operations_research)is the study and use of mathematical models, statistics and algorithms to aid in decision-making, typically with the goal of improving or optimizing performance of real-world systems.-   [Assignment problem](https://en.wikipedia.org/wiki/Assignment_problem)
+[Operations research](https://en.wikipedia.org/wiki/Operations_research) is the study and use of mathematical models, statistics and algorithms to aid in decision-making, typically with the goal of improving or optimizing performance of real-world systems.-   [Assignment problem](https://en.wikipedia.org/wiki/Assignment_problem)
 
 - [Decision analysis](https://en.wikipedia.org/wiki/Decision_analysis)
 - [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)

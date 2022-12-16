@@ -34,13 +34,13 @@ Modified: 2020-09-02 13:27:29 +0500
 - Thetypefield is a string with the following possible values:
 - PodScheduled: the Pod has been scheduled to a node;
 - Ready: the Pod is able to serve requests and should be added to the load balancing pools of all matching Services;
-- Initialized: all[init containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers)have started successfully;
+- Initialized: all [init containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers) have started successfully;
 - Unschedulable: the scheduler cannot schedule the Pod right now, for example due to lack of resources or other constraints;
 - ContainersReady: all containers in the Pod are ready.
 
 ## Container Probes
 
-A[Probe](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.16/#probe-v1-core)is a diagnostic performed periodically by the[kubelet](https://kubernetes.io/docs/admin/kubelet/)on a Container. To perform a diagnostic, the kubelet calls a[Handler](https://godoc.org/k8s.io/kubernetes/pkg/api/v1#Handler)implemented by the Container.
+A [Probe](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.16/#probe-v1-core) is a diagnostic performed periodically by the [kubelet](https://kubernetes.io/docs/admin/kubelet/) on a Container. To perform a diagnostic, the kubelet calls a [Handler](https://godoc.org/k8s.io/kubernetes/pkg/api/v1#Handler) implemented by the Container.
 
 There are three types of handlers:
 
@@ -66,7 +66,7 @@ The kubelet can optionally perform and react to three kinds of probes on running
 
 - **livenessProbe**
 
-Indicates whether the Container is running. If the liveness probe fails, the kubelet kills the Container, and the Container is subjected to its[restart policy](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy). If a Container does not provide a liveness probe, the default state isSuccess.
+Indicates whether the Container is running. If the liveness probe fails, the kubelet kills the Container, and the Container is subjected to its [restart policy](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy). If a Container does not provide a liveness probe, the default state isSuccess.
 
 - **readinessProbe**
 
@@ -74,7 +74,7 @@ Indicates whether the Container is ready to service requests. If the readiness p
 
 - **startupProbe**
 
-Indicates whether the application within the Container is started. All other probes are disabled if a startup probe is provided, until it succeeds. If the startup probe fails, the kubelet kills the Container, and the Container is subjected to its[restart policy](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy). If a Container does not provide a startup probe, the default state isSuccess
+Indicates whether the application within the Container is started. All other probes are disabled if a startup probe is provided, until it succeeds. If the startup probe fails, the kubelet kills the Container, and the Container is subjected to its [restart policy](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy). If a Container does not provide a startup probe, the default state isSuccess
 
 Bothreadinessprobe andlivenessprobe seem to have same behavior. They do same type of checks. But the action they take in case of failures is different.
 

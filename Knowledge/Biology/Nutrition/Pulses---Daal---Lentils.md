@@ -56,7 +56,7 @@ Toor daal looks a lot likechana daalbut has smaller, more yellow-colored grains.
 
 Urad daal, can be bought whole with its skin on, split with its skin on or split with its skin removed.
 
-This[black lentil](https://www.thespruceeats.com/what-are-lentils-1328630)has a creamy white interior when split. Whole and with its skin on, it is known assaabuturadand has a stronger, more distinct flavor than the split, skinless variety. It is a "harder" lentil and takes longer to cook. A little soaking is best prior to ​cooking this daal.
+This [black lentil](https://www.thespruceeats.com/what-are-lentils-1328630) has a creamy white interior when split. Whole and with its skin on, it is known assaabuturadand has a stronger, more distinct flavor than the split, skinless variety. It is a "harder" lentil and takes longer to cook. A little soaking is best prior to ​cooking this daal.
 
 8. Urad daal with skin removed
 
@@ -104,7 +104,7 @@ Rajma must be soaked for several hours before cooking to soften it. As with all 
 
 Chana daal, looks like a larger version of toor/tuvar or arhar daal. It is made by splitting a smaller cousin of the chickpea.
 
-This[lentil](https://www.thespruceeats.com/history-of-lentils-1807624)has a nutty flavor and is used in dry curries or with vegetables or meats and also as a flour (Bengal gram flour). It cooks fairly quickly and does not need soaking prior to being cooked.
+This [lentil](https://www.thespruceeats.com/history-of-lentils-1807624) has a nutty flavor and is used in dry curries or with vegetables or meats and also as a flour (Bengal gram flour). It cooks fairly quickly and does not need soaking prior to being cooked.
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image14.png)
 
@@ -159,7 +159,7 @@ Just 1 cup of cooked daal can give you as much as 62 percent of your daily dieta
 
 1. **Semolina / Sooji**
 
-Semolinais the coarse, purified[wheat middlings](https://en.wikipedia.org/wiki/Wheat_middlings)of[durum wheat](https://en.wikipedia.org/wiki/Durum)mainly used in making [upma](https://en.wikipedia.org/wiki/Upma), [pasta](https://en.wikipedia.org/wiki/Pasta), and [couscous](https://en.wikipedia.org/wiki/Couscous). The wordsemolinacan also refer to sweet dessert made from semolina and milk.The term semolina is also used to designate coarse middlings from other varieties of wheat, and from other grains, such as[rice](https://en.wikipedia.org/wiki/Rice)and[maize](https://en.wikipedia.org/wiki/Maize).
+Semolinais the coarse, purified [wheat middlings](https://en.wikipedia.org/wiki/Wheat_middlings) of [durum wheat](https://en.wikipedia.org/wiki/Durum) mainly used in making [upma](https://en.wikipedia.org/wiki/Upma), [pasta](https://en.wikipedia.org/wiki/Pasta), and [couscous](https://en.wikipedia.org/wiki/Couscous). The wordsemolinacan also refer to sweet dessert made from semolina and milk.The term semolina is also used to designate coarse middlings from other varieties of wheat, and from other grains, such as [rice](https://en.wikipedia.org/wiki/Rice) and [maize](https://en.wikipedia.org/wiki/Maize).
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image20.jpg)
 
@@ -167,9 +167,9 @@ Semolinais the coarse, purified[wheat middlings](https://en.wikipedia.org/wiki/W
 
 2. **Durum Wheat**
 
-Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), also calledpasta wheatormacaroni wheat(Triticum durum or Triticum turgidum subsp.duru),is a[tetraploid](https://en.wikipedia.org/wiki/Polyploid)species of[wheat](https://en.wikipedia.org/wiki/Wheat).It is the second most cultivated species of wheat after[common wheat](https://en.wikipedia.org/wiki/Common_wheat), although it represents only 5% to 8% of global wheat production.It was developed by[artificial selection](https://en.wikipedia.org/wiki/Artificial_selection)of the domesticated[emmer](https://en.wikipedia.org/wiki/Emmer)wheat strains formerly grown in Central Europe and the[Near East](https://en.wikipedia.org/wiki/Near_East)around 7000 BC, which developed a naked,[free-threshing](https://en.wikipedia.org/wiki/Wheat#Hulled_versus_free-threshing_wheat)form.Like emmer, durum wheat is[awned](https://en.wikipedia.org/wiki/Awn_(botany))(with bristles). It is the predominant wheat that grows in the Middle East.
+Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), also calledpasta wheatormacaroni wheat(Triticum durum or Triticum turgidum subsp.duru),is a [tetraploid](https://en.wikipedia.org/wiki/Polyploid) species of [wheat](https://en.wikipedia.org/wiki/Wheat).It is the second most cultivated species of wheat after [common wheat](https://en.wikipedia.org/wiki/Common_wheat), although it represents only 5% to 8% of global wheat production.It was developed by [artificial selection](https://en.wikipedia.org/wiki/Artificial_selection) of the domesticated [emmer](https://en.wikipedia.org/wiki/Emmer) wheat strains formerly grown in Central Europe and the [Near East](https://en.wikipedia.org/wiki/Near_East) around 7000 BC, which developed a naked,[free-threshing](https://en.wikipedia.org/wiki/Wheat#Hulled_versus_free-threshing_wheat) form.Like emmer, durum wheat is [awned](https://en.wikipedia.org/wiki/Awn_(botany))(with bristles). It is the predominant wheat that grows in the Middle East.
 
-Durumin[Latin](https://en.wikipedia.org/wiki/Latin)means "hard", and the species is the hardest of all wheats. This refers to the resistance of the grain to milling, in particular of the[starchy](https://en.wikipedia.org/wiki/Starch)[endosperm](https://en.wikipedia.org/wiki/Endosperm), implying dough made from its flour is weak or "soft". This makes durum favorable for[semolina](https://en.wikipedia.org/wiki/Semolina)and[pasta](https://en.wikipedia.org/wiki/Pasta)and less practical for flour, which requires more work than with[hexaploid](https://en.wikipedia.org/wiki/Hexaploid)wheats like[common bread wheats](https://en.wikipedia.org/wiki/Common_wheat). Despite its high[protein](https://en.wikipedia.org/wiki/Protein)content, durum is not a strong wheat in the sense of giving strength to[dough](https://en.wikipedia.org/wiki/Dough)through the formation of a[gluten](https://en.wikipedia.org/wiki/Gluten)network. Durum contains 27% extractable wet gluten, about 3% higher than in common wheat (T. aestivumL.).
+Durumin [Latin](https://en.wikipedia.org/wiki/Latin) means "hard", and the species is the hardest of all wheats. This refers to the resistance of the grain to milling, in particular of the [starchy](https://en.wikipedia.org/wiki/Starch)[endosperm](https://en.wikipedia.org/wiki/Endosperm), implying dough made from its flour is weak or "soft". This makes durum favorable for [semolina](https://en.wikipedia.org/wiki/Semolina) and [pasta](https://en.wikipedia.org/wiki/Pasta) and less practical for flour, which requires more work than with [hexaploid](https://en.wikipedia.org/wiki/Hexaploid) wheats like [common bread wheats](https://en.wikipedia.org/wiki/Common_wheat). Despite its high [protein](https://en.wikipedia.org/wiki/Protein) content, durum is not a strong wheat in the sense of giving strength to [dough](https://en.wikipedia.org/wiki/Dough) through the formation of a [gluten](https://en.wikipedia.org/wiki/Gluten) network. Durum contains 27% extractable wet gluten, about 3% higher than in common wheat (T. aestivumL.).
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image21.jpg)
 
@@ -177,7 +177,7 @@ Durumin[Latin](https://en.wikipedia.org/wiki/Latin)means "hard", and the species
 
 3. **Buckwheat / kuttu ka atta**
 
-Buckwheat(Fagopyrum esculentum), orcommon buckwheat,[[2]](https://en.wikipedia.org/wiki/Buckwheat#cite_note-GRIN-2)is a plant cultivated for its[grain-like](https://en.wikipedia.org/wiki/Pseudocereal)seeds and as a[cover crop](https://en.wikipedia.org/wiki/Cover_crop). A related species,[Fagopyrum tataricum](https://en.wikipedia.org/wiki/Fagopyrum_tataricum), is a domesticated food plant raised in Asia. Despite the name, buckwheat is not related to[wheat](https://en.wikipedia.org/wiki/Wheat), as it is not a[grass](https://en.wikipedia.org/wiki/Grasses). Instead, buckwheat is related to[sorrel](https://en.wikipedia.org/wiki/Sorrel),[knotweed](https://en.wikipedia.org/wiki/Polygonum), and[rhubarb](https://en.wikipedia.org/wiki/Rhubarb). Buckwheat is referred to as a[pseudocereal](https://en.wikipedia.org/wiki/Pseudocereal)because its seeds' culinary use is the same as cereals', owing to their composition of[complex carbohydrates](https://en.wikipedia.org/wiki/Complex_carbohydrates).
+Buckwheat(Fagopyrum esculentum), orcommon buckwheat,[[2]](https://en.wikipedia.org/wiki/Buckwheat#cite_note-GRIN-2) is a plant cultivated for its [grain-like](https://en.wikipedia.org/wiki/Pseudocereal) seeds and as a [cover crop](https://en.wikipedia.org/wiki/Cover_crop). A related species,[Fagopyrum tataricum](https://en.wikipedia.org/wiki/Fagopyrum_tataricum), is a domesticated food plant raised in Asia. Despite the name, buckwheat is not related to [wheat](https://en.wikipedia.org/wiki/Wheat), as it is not a [grass](https://en.wikipedia.org/wiki/Grasses). Instead, buckwheat is related to [sorrel](https://en.wikipedia.org/wiki/Sorrel),[knotweed](https://en.wikipedia.org/wiki/Polygonum), and [rhubarb](https://en.wikipedia.org/wiki/Rhubarb). Buckwheat is referred to as a [pseudocereal](https://en.wikipedia.org/wiki/Pseudocereal) because its seeds' culinary use is the same as cereals', owing to their composition of [complex carbohydrates](https://en.wikipedia.org/wiki/Complex_carbohydrates).
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image22.jpg)
 
@@ -185,11 +185,11 @@ Buckwheat(Fagopyrum esculentum), orcommon buckwheat,[[2]](https://en.wikipedia.o
 
 4. **Millet**
 
-Milletsare a group of highly variable small-seeded[grasses](https://en.wikipedia.org/wiki/Grasses), widely grown around the world as[cereal](https://en.wikipedia.org/wiki/Cereal)[crops](https://en.wikipedia.org/wiki/Crops)or grains for[fodder](https://en.wikipedia.org/wiki/Fodder)and human food.
+Milletsare a group of highly variable small-seeded [grasses](https://en.wikipedia.org/wiki/Grasses), widely grown around the world as [cereal](https://en.wikipedia.org/wiki/Cereal)[crops](https://en.wikipedia.org/wiki/Crops) or grains for [fodder](https://en.wikipedia.org/wiki/Fodder) and human food.
 
-Millets are important crops in the[semiarid tropics](https://en.wikipedia.org/wiki/Semi-arid_climate)of Asia and Africa (especially in [India](https://en.wikipedia.org/wiki/India), [Mali](https://en.wikipedia.org/wiki/Mali), [Nigeria](https://en.wikipedia.org/wiki/Nigeria), and [Niger](https://en.wikipedia.org/wiki/Niger)), with 97% of millet production in[developing countries](https://en.wikipedia.org/wiki/Developing_country).The crop is favored due to its[productivity](https://en.wikipedia.org/wiki/Agricultural_productivity)and short growing season under dry, high-temperature conditions.
+Millets are important crops in the [semiarid tropics](https://en.wikipedia.org/wiki/Semi-arid_climate) of Asia and Africa (especially in [India](https://en.wikipedia.org/wiki/India), [Mali](https://en.wikipedia.org/wiki/Mali), [Nigeria](https://en.wikipedia.org/wiki/Nigeria), and [Niger](https://en.wikipedia.org/wiki/Niger)), with 97% of millet production in [developing countries](https://en.wikipedia.org/wiki/Developing_country).The crop is favored due to its [productivity](https://en.wikipedia.org/wiki/Agricultural_productivity) and short growing season under dry, high-temperature conditions.
 
-Millets are[indigenous](https://en.wikipedia.org/wiki/Indigenous_(ecology))to many parts of the world.The most widely grown millet is[pearl millet](https://en.wikipedia.org/wiki/Pearl_millet), which is an important crop in India and parts of Africa.[[4]](https://en.wikipedia.org/wiki/Millet#cite_note-FAO-4)[Finger millet](https://en.wikipedia.org/wiki/Finger_millet),[proso millet](https://en.wikipedia.org/wiki/Proso_millet), and[foxtail millet](https://en.wikipedia.org/wiki/Foxtail_millet)are also important crop species.
+Millets are [indigenous](https://en.wikipedia.org/wiki/Indigenous_(ecology)) to many parts of the world.The most widely grown millet is [pearl millet](https://en.wikipedia.org/wiki/Pearl_millet), which is an important crop in India and parts of Africa.[[4]](https://en.wikipedia.org/wiki/Millet#cite_note-FAO-4)[Finger millet](https://en.wikipedia.org/wiki/Finger_millet),[proso millet](https://en.wikipedia.org/wiki/Proso_millet), and [foxtail millet](https://en.wikipedia.org/wiki/Foxtail_millet) are also important crop species.
 
 Millets may have been consumed by humans for about 7,000 years and potentially had "a pivotal role in the rise of multi-crop agriculture and settled farming societies".
 
@@ -310,11 +310,11 @@ Microfiber - <https://en.wikipedia.org/wiki/Microfiber>
 
 ## Pill
 
-Apill, colloquially known as a b**obble, fuzzball, orlint ball**is a small ball of fibers that forms on a piece of[cloth](https://en.wikipedia.org/wiki/Cloth).Pillis also a verb for the formation of such balls.
+Apill, colloquially known as a b**obble, fuzzball, orlint ball**is a small ball of fibers that forms on a piece of [cloth](https://en.wikipedia.org/wiki/Cloth).Pillis also a verb for the formation of such balls.
 
 Pilling is a surface defect of textiles caused by wear, and is generally considered an undesirable trait.It happens when washing and wearing of fabrics causes loose fibers to begin to push out from the surface of the cloth, and, over time, abrasion causes the fibers to develop into small spherical bundles, anchored to the surface of the fabric by protruding fibers that haven't broken. The textile industry divides pilling into four stages: **fuzz formation, entanglement, growth, and wear-off.**
 
-Pilling normally happens on the parts of clothing that receive the most abrasion in day-to-day wear, such as the[collar](https://en.wikipedia.org/wiki/Collar_(clothing)),[cuffs](https://en.wikipedia.org/wiki/Cuff), and around the[thighs](https://en.wikipedia.org/wiki/Thighs)and[rear](https://en.wikipedia.org/wiki/Buttocks)on[trousers](https://en.wikipedia.org/wiki/Trousers).
+Pilling normally happens on the parts of clothing that receive the most abrasion in day-to-day wear, such as the [collar](https://en.wikipedia.org/wiki/Collar_(clothing)),[cuffs](https://en.wikipedia.org/wiki/Cuff), and around the [thighs](https://en.wikipedia.org/wiki/Thighs) and [rear](https://en.wikipedia.org/wiki/Buttocks) on [trousers](https://en.wikipedia.org/wiki/Trousers).
 
 <https://en.wikipedia.org/wiki/Pill_(textile)>
 

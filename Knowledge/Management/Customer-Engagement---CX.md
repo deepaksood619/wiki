@@ -92,7 +92,7 @@ Closely monitoring and analyzing customers' feedback helps you unlock incredible
 
 ## NPS - Net Promotor Score
 
-[Net Promoter Score (NPS)](https://www.hotjar.com/blog/customer-effort-score/)is a measure used to gauge customer loyalty, satisfaction, and enthusiasm with a company that's calculated by asking customers one question: "On a scale from 0 to 10, how likely are you to recommend this product/company to a friend or colleague?" Aggregate NPS scores help businesses improve upon service, customer support, delivery, etc. for increased customer loyalty.
+[Net Promoter Score (NPS)](https://www.hotjar.com/blog/customer-effort-score/) is a measure used to gauge customer loyalty, satisfaction, and enthusiasm with a company that's calculated by asking customers one question: "On a scale from 0 to 10, how likely are you to recommend this product/company to a friend or colleague?" Aggregate NPS scores help businesses improve upon service, customer support, delivery, etc. for increased customer loyalty.
 
 ![image](media/Customer-Engagement---CX-image1.jpeg)
 
@@ -416,7 +416,7 @@ Connecting a CRM to a different software platform like accounting or newsletter 
 
 A Customer Data Platform (CDP) is a software that aggregates and organizes customer data across a variety of touchpoints and is used by other software, systems, and marketing efforts. CDPs collect and structure real-time data into individual, centralized customer profiles.
 
-Acustomer data platform(CDP) is a type of packaged software which creates a persistent, unified customer database that is accessible to other systems. Data is pulled from multiple sources, cleaned and combined to create a single[customer profile](https://en.wikipedia.org/wiki/Customer_profile). This structured data is then made available to other marketing systems.According to Gartner, customer data platforms have evolved from a variety of mature markets, "including[multichannel campaign](https://en.wikipedia.org/wiki/Multichannel_campaign)management, tag management and data integration"
+Acustomer data platform(CDP) is a type of packaged software which creates a persistent, unified customer database that is accessible to other systems. Data is pulled from multiple sources, cleaned and combined to create a single [customer profile](https://en.wikipedia.org/wiki/Customer_profile). This structured data is then made available to other marketing systems.According to Gartner, customer data platforms have evolved from a variety of mature markets, "including [multichannel campaign](https://en.wikipedia.org/wiki/Multichannel_campaign) management, tag management and data integration"
 
 Example - Apache Unomi
 

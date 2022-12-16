@@ -42,7 +42,7 @@ Dynein service then picks up the job from the inbound queue with a consistent in
 
 ## Quartz
 
-Quartz is a[richly featured](http://www.quartz-scheduler.org/documentation/2.4.0-SNAPSHOT/introduction.html#features), open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
+Quartz is a [richly featured](http://www.quartz-scheduler.org/documentation/2.4.0-SNAPSHOT/introduction.html#features), open source job scheduling library that can be integrated within virtually any Java application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may execute virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as support for JTA transactions and clustering.
 
 <http://www.quartz-scheduler.org>
 
@@ -58,7 +58,7 @@ Dkron is a distributed cron service, easy to setup and fault tolerant with focus
 
 Dkron is written in Go and leverage the power of distributed key-value stores and serf for providing fault tolerance, reliability and scalability while keeping simple and easily installable.
 
-Dkron is inspired by the google whitepaper[Reliable Cron across the Planet](https://queue.acm.org/detail.cfm?id=2745840)and by Airbnb Chronos borrowing the same features from it.
+Dkron is inspired by the google whitepaper [Reliable Cron across the Planet](https://queue.acm.org/detail.cfm?id=2745840) and by Airbnb Chronos borrowing the same features from it.
 
 <https://github.com/victorcoder/dkron>
 

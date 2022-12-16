@@ -12,8 +12,8 @@ Modified: 2021-09-21 09:33:40 +0500
 
 {{ foo|something }}- this is yet another syntax you may come across. The|somethingis a*template filter*. It is usually for transforming the result of the item on the left of the|symbol. For example{{ foo|title }}.
 
-You can read more about tags and filters which are referred to as[template builtins](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/)in the documentation.
+You can read more about tags and filters which are referred to as [template builtins](https://docs.djangoproject.com/en/1.9/ref/templates/builtins/) in the documentation.
 
 This syntax is not unique to django - many other template languages in Python (and some outside of Python) have adopted a similar syntax.
 
-The Python language doesn't have the same syntax, but it does have the concept of[string templates](https://docs.python.org/2/library/string.html#template-strings)which is a very simplified version of a template engine.
+The Python language doesn't have the same syntax, but it does have the concept of [string templates](https://docs.python.org/2/library/string.html#template-strings) which is a very simplified version of a template engine.

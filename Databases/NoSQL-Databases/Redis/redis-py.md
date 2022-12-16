@@ -45,7 +45,7 @@ redis_key = value.decode("utf-8")
 
 size = r.debug_object(redis_key)
 
-print(f'{key},{redis_key},{r.ttl(redis_key)},{r.llen(redis_key)},{size["serializedlength"]},{size["ql_uncompressed_size"]}')
+print(f'{key},{redis_key},{r.ttl(redis_key)},{r.llen(redis_key)},{size ["serializedlength"]},{size ["ql_uncompressed_size"]}')
 for key, value in enumerate(r.keys('test:*')):
 
 print(key, value)
@@ -97,7 +97,7 @@ type(name)
 Returns the type of keyname
 ## Sentinel
 
-redis-py can be used together with[Redis Sentinel](https://redis.io/topics/sentinel)to discover Redis nodes. You need to have at least one Sentinel daemon running in order to use redis-py's Sentinel support.
+redis-py can be used together with [Redis Sentinel](https://redis.io/topics/sentinel) to discover Redis nodes. You need to have at least one Sentinel daemon running in order to use redis-py's Sentinel support.
 <https://redis-py.readthedocs.io/en/latest>
 
 <https://realpython.com/python-redis>
@@ -112,7 +112,7 @@ z = redis_client.xpending_range('send:offer_sms', 'offer_sms_consumer', "-", "+"
 
 for i in z:
 
-redis_client.xack('send:offer_sms', 'offer_sms_consumer', i['message_id'])
+redis_client.xack('send:offer_sms', 'offer_sms_consumer', i ['message_id'])
 ```
 
 ## Redis-OM

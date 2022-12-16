@@ -8,11 +8,11 @@ Modified: 2021-12-28 21:45:09 +0500
 
 ## Design Patterns of Microservices
 
-1. [Aggregator](https://www.edureka.co/blog/microservices-design-patterns#Aggregator)2.  [**API Gateway**](https://www.edureka.co/blog/microservices-design-patterns#APIGateway)
+1. [Aggregator](https://www.edureka.co/blog/microservices-design-patterns#Aggregator) 2.  [**API Gateway**](https://www.edureka.co/blog/microservices-design-patterns#APIGateway)
 
 3. [**Chained or Chain of Responsibility**](https://www.edureka.co/blog/microservices-design-patterns#Chained)
 
-4. [**Asynchronous Messaging**](https://www.edureka.co/blog/microservices-design-patterns#AsynchronousMessaging)5.  [Database or Shared Data](https://www.edureka.co/blog/microservices-design-patterns#Database)
+4. [**Asynchronous Messaging**](https://www.edureka.co/blog/microservices-design-patterns#AsynchronousMessaging) 5.  [Database or Shared Data](https://www.edureka.co/blog/microservices-design-patterns#Database)
 
 6. [Event Sourcing](https://www.edureka.co/blog/microservices-design-patterns#EventSourcing)
 
@@ -34,14 +34,14 @@ Modified: 2021-12-28 21:45:09 +0500
 
 Functional decomposition is a term that engineers use to describea set of steps in which they break down the overall function of a device, system, or process into its smaller parts. A function is simply a task that is performed by a device, system, or process. Decomposition is a process of breaking down.
 
-<https://en.wikipedia.org/wiki/Functional_decomposition>-   The[Database per Service pattern](https://microservices.io/patterns/data/database-per-service.html)describes how each service has its own database in order to ensure loose coupling.
+<https://en.wikipedia.org/wiki/Functional_decomposition>-   The [Database per Service pattern](https://microservices.io/patterns/data/database-per-service.html) describes how each service has its own database in order to ensure loose coupling.
 
-- The[API Gateway pattern](https://microservices.io/patterns/apigateway.html)defines how clients access the services in a microservice architecture.
-- The[Client-side Discovery](https://microservices.io/patterns/client-side-discovery.html)and[Server-side Discovery](https://microservices.io/patterns/server-side-discovery.html)patterns are used to route requests for a client to an available service instance in a microservice architecture.
+- The [API Gateway pattern](https://microservices.io/patterns/apigateway.html) defines how clients access the services in a microservice architecture.
+- The [Client-side Discovery](https://microservices.io/patterns/client-side-discovery.html) and [Server-side Discovery](https://microservices.io/patterns/server-side-discovery.html) patterns are used to route requests for a client to an available service instance in a microservice architecture.
 - The Messaging and Remote Procedure Invocation patterns are two different ways that services can communicate.
-- The[Single Service per Host](https://microservices.io/patterns/deployment/single-service-per-host.html)and[Multiple Services per Host](https://microservices.io/patterns/deployment/multiple-services-per-host.html)patterns are two different deployment strategies.
-- Cross-cutting concerns patterns:[Microservice chassis pattern](https://microservices.io/patterns/microservice-chassis.html)and[Externalized configuration](https://microservices.io/patterns/externalized-configuration.html)
-- Testing patterns:[Service Component Test](https://microservices.io/patterns/testing/service-component-test.html)and[Service Integration Contract Test](https://microservices.io/patterns/testing/service-integration-contract-test.html)
+- The [Single Service per Host](https://microservices.io/patterns/deployment/single-service-per-host.html) and [Multiple Services per Host](https://microservices.io/patterns/deployment/multiple-services-per-host.html) patterns are two different deployment strategies.
+- Cross-cutting concerns patterns:[Microservice chassis pattern](https://microservices.io/patterns/microservice-chassis.html) and [Externalized configuration](https://microservices.io/patterns/externalized-configuration.html)
+- Testing patterns:[Service Component Test](https://microservices.io/patterns/testing/service-component-test.html) and [Service Integration Contract Test](https://microservices.io/patterns/testing/service-integration-contract-test.html)
 - [Circuit Breaker](https://microservices.io/patterns/reliability/circuit-breaker.html)
 - [Access Token](https://microservices.io/patterns/security/access-token.html)
 - Observability patterns:

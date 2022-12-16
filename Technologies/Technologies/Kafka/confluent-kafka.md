@@ -10,7 +10,7 @@ Modified: 2020-05-30 18:50:42 +0500
 
 pip install confluent-kafka
 
-pip install "confluent-kafka[avro]"
+pip install "confluent-kafka [avro]"
 
 ## Consumer
 

@@ -16,7 +16,7 @@ Charts are easy to create, version, share, and publish --- so start using Helm a
 
 Use Helm to:
 
-- Find and use[popular software packaged as Kubernetes charts](https://github.com/kubernetes/charts)
+- Find and use [popular software packaged as Kubernetes charts](https://github.com/kubernetes/charts)
 - Share your own applications as Kubernetes charts
 - Create reproducible builds of your Kubernetes applications
 - Intelligently manage your Kubernetes manifest files

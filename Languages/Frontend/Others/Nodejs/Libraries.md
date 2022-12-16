@@ -26,7 +26,7 @@ Lodash makes JavaScript easier by taking the hassle out of working with arrays, 
 
 ## PassportJS
 
-Passport is authentication middleware for[Node.js](https://nodejs.org/). Extremely flexible and modular, Passport can be unobtrusively dropped in to any[Express](https://expressjs.com/)-based web application. A comprehensive set of strategies support authentication using a[username and password](http://www.passportjs.org/docs/username-password/),[Facebook](http://www.passportjs.org/docs/facebook/),[Twitter](http://www.passportjs.org/docs/twitter/), and[more](http://www.passportjs.org/packages/).
+Passport is authentication middleware for [Node.js](https://nodejs.org/). Extremely flexible and modular, Passport can be unobtrusively dropped in to any [Express](https://expressjs.com/)-based web application. A comprehensive set of strategies support authentication using a [username and password](http://www.passportjs.org/docs/username-password/),[Facebook](http://www.passportjs.org/docs/facebook/),[Twitter](http://www.passportjs.org/docs/twitter/), and [more](http://www.passportjs.org/packages/).
 
 <https://github.com/jaredhanson/passport>
 

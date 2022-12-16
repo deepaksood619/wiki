@@ -28,11 +28,11 @@ A list of images that the engine uses for cache resolution
 
 5. labels
 
-Add metadata to the resulting image using[Docker labels](https://docs.docker.com/engine/userguide/labels-custom-metadata/). You can use either an array or a dictionary.
+Add metadata to the resulting image using [Docker labels](https://docs.docker.com/engine/userguide/labels-custom-metadata/). You can use either an array or a dictionary.
 
 6. shm_size
 
-Set the size of the/dev/shmpartition for this build's containers. Specify as an integer value representing the number of bytes or as a string expressing a[byte value](https://docs.docker.com/compose/compose-file/#specifying-byte-values).
+Set the size of the/dev/shmpartition for this build's containers. Specify as an integer value representing the number of bytes or as a string expressing a [byte value](https://docs.docker.com/compose/compose-file/#specifying-byte-values).
 
 7. target
 
@@ -64,7 +64,7 @@ Configure the credential spec for managed service account.
 
 8. deploy
 
-Specify configuration related to the deployment and running of services. This only takes effect when deploying to a[swarm](https://docs.docker.com/engine/swarm/)with[docker stack deploy](https://docs.docker.com/engine/reference/commandline/stack_deploy/), and is ignored bydocker-compose upanddocker-compose run.
+Specify configuration related to the deployment and running of services. This only takes effect when deploying to a [swarm](https://docs.docker.com/engine/swarm/) with [docker stack deploy](https://docs.docker.com/engine/reference/commandline/stack_deploy/), and is ignored bydocker-compose upanddocker-compose run.
 
 1. endpoint_mode (vip / dnsrr)
 
@@ -105,7 +105,7 @@ If your services or containers attempt to use more memory than the system has av
 
 8. restart_policy
 
-Configures if and how to restart containers when they exit. Replaces[restart](https://docs.docker.com/compose/compose-file/compose-file-v2/#orig-resources).
+Configures if and how to restart containers when they exit. Replaces [restart](https://docs.docker.com/compose/compose-file/compose-file-v2/#orig-resources).
 
 - condition - none/on-failure/any (default: any)
 - delay

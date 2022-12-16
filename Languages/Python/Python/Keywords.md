@@ -83,7 +83,7 @@ Generators are iterators, a kind of iterable**you can only iterate over once**. 
 1
 4
 
-It is just the same except you used()instead of[]. BUT, you**cannot**performfor i in mygeneratora second time since generators can only be used once: they calculate 0, then forget about it and calculate 1, and end calculating 4, one by one.
+It is just the same except you used()instead of []. BUT, you**cannot**performfor i in mygeneratora second time since generators can only be used once: they calculate 0, then forget about it and calculate 1, and end calculating 4, one by one.
 
 Yield
 

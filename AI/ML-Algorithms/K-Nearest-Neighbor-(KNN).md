@@ -53,7 +53,7 @@ The idea of distance or closeness can break down in very high dimensions (lots o
 ## Distance Measure: Scale Effects
 
 - Different features may have different measurement scales
-  - E.g., patient weight in kg (range [50,200]) vs blood protein values in ng/dL (range[-3,3])
+  - E.g., patient weight in kg (range [50,200]) vs blood protein values in ng/dL (range [-3,3])
 - Consequences
   - Patient weight will have a much greater influence on the distance between samples
   - May bias the performance of the classifier

@@ -138,7 +138,7 @@ Are ACID guarantees required? Must all data that is sent to an entry point be pr
 
 ## Principles of Distributed System Design
 
-[From the March 14, 2006, press release for the S3 (Simple Storage Service) launch](https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-s3-simple-storage-service)2
+[From the March 14, 2006, press release for the S3 (Simple Storage Service) launch](https://press.aboutamazon.com/news-releases/news-release-details/amazon-web-services-launches-amazon-s3-simple-storage-service) 2
 Amazon used the following principles of distributed system design to meet Amazon S3 requirements:
 
 - **Decentralization.** Use fully decentralized techniques to remove scaling bottlenecks and single points of failure.

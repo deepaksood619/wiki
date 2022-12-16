@@ -18,15 +18,15 @@ The**endpoints,namespace, andserviceaccounts**controllers each manage the eponym
 
 ## ReplicaSet
 
-ReplicaSet is the next-generation Replication Controller. The only difference between a*ReplicaSet*and a[*Replication Controller*](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/)right now is the selector support. ReplicaSet supports the new set-based selector requirements as described in the[labels user guide](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors)whereas a Replication Controller only supports equality-based selector requirements.
+ReplicaSet is the next-generation Replication Controller. The only difference between a*ReplicaSet*and a [*Replication Controller*](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/) right now is the selector support. ReplicaSet supports the new set-based selector requirements as described in the [labels user guide](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#label-selectors) whereas a Replication Controller only supports equality-based selector requirements.
 
 A ReplicaSet ensures that a specified number of Pod replicas are running at any given time. A ReplicaSet is a management wrapper around a Pod. If a Pod, that is managed by a ReplicaSet, dies, the ReplicaSet brings up a new Pod instance.
 
-## Note:**A[**Deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)that configures a[**ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)is now the recommended way to set up replication
+## Note:**A [**Deployment**](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) that configures a [**ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/) is now the recommended way to set up replication
 
 ## Deployment
 
-ADeploymentcontroller provides declarative updates for[Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/)and[ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/).
+ADeploymentcontroller provides declarative updates for [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) and [ReplicaSets](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/).
 
 You describe adesired statein a Deployment object, and the Deployment controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
 
@@ -53,7 +53,7 @@ StatefulSets are valuable for applications that require one or more of the follo
 
 - A Headless Service, named nginx, is used to control the network domain.
 - The StatefulSet, named web, has a Spec that indicates that 3 replicas of the nginx container will be launched in unique Pods.
-- The volumeClaimTemplates will provide stable storage using[PersistentVolumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)provisioned by a PersistentVolume Provisioner.
+- The volumeClaimTemplates will provide stable storage using [PersistentVolumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) provisioned by a PersistentVolume Provisioner.
 
 <https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set>
 
@@ -77,7 +77,7 @@ Some typical uses of a DaemonSet are:
 
 - running a cluster storage daemon, such asglusterd,ceph, on each node.
 - running a logs collection daemon on every node, such asfluentdorlogstash.
-- running a node monitoring daemon on every node, such as[Prometheus Node Exporter](https://github.com/prometheus/node_exporter),collectd,[Dynatrace OneAgent](https://www.dynatrace.com/technologies/kubernetes-monitoring/),[AppDynamics Agent](https://docs.appdynamics.com/display/CLOUD/Container+Visibility+with+Kubernetes), Datadog agent, NewRelic agent, Gangliagmondor Instana agent.
+- running a node monitoring daemon on every node, such as [Prometheus Node Exporter](https://github.com/prometheus/node_exporter),collectd,[Dynatrace OneAgent](https://www.dynatrace.com/technologies/kubernetes-monitoring/),[AppDynamics Agent](https://docs.appdynamics.com/display/CLOUD/Container+Visibility+with+Kubernetes), Datadog agent, NewRelic agent, Gangliagmondor Instana agent.
 
 ## Garbage Collection
 
@@ -134,11 +134,11 @@ activeDeadlineSeconds: 15
 
 ## CronJob
 
-ACron Jobcreates[Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/)on a time-based schedule.
+ACron Jobcreates [Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/) on a time-based schedule.
 
 A CronJob creates a watch loop which will create a batch job on your behalf when the time becomes true.
 
-One CronJob object is like one line of acrontab(cron table) file. It runs a job periodically on a given schedule, written in[Cron](https://en.wikipedia.org/wiki/Cron)format.
+One CronJob object is like one line of acrontab(cron table) file. It runs a job periodically on a given schedule, written in [Cron](https://en.wikipedia.org/wiki/Cron) format.
 
 A CronJob is basically a Kubernetes Job with time-based scheduling and some specific parameters to handle failure. Each Kubernetes Job creates 1 to n pod. Those pods run a program defined for the task and exit when the task is over.
 

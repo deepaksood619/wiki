@@ -66,9 +66,9 @@ In terms of networking, a bridge network is a Link Layer device which forwards t
 
 In terms of Docker, a bridge network uses a software bridge which allows containers connected to the same bridge network to communicate, while providing isolation from containers which are not connected to that bridge network. The Docker bridge driver automatically installs rules in the host machine so that containers on different bridge networks cannot communicate directly with each other.
 
-Bridge networks apply to containers running on thesameDocker daemon host. For communication among containers running on different Docker daemon hosts, you can either manage routing at the OS level, or you can use an[overlay network](https://docs.docker.com/network/overlay/).
+Bridge networks apply to containers running on thesameDocker daemon host. For communication among containers running on different Docker daemon hosts, you can either manage routing at the OS level, or you can use an [overlay network](https://docs.docker.com/network/overlay/).
 
-When you start Docker, a[default bridge network](https://docs.docker.com/network/bridge/#use-the-default-bridge-network)(also calledbridge) is created automatically, and newly-started containers connect to it unless otherwise specified. You can also create user-defined custom bridge networks.**User-defined bridge networks are superior to the defaultbridgenetwork.**
+When you start Docker, a [default bridge network](https://docs.docker.com/network/bridge/#use-the-default-bridge-network)(also calledbridge) is created automatically, and newly-started containers connect to it unless otherwise specified. You can also create user-defined custom bridge networks.**User-defined bridge networks are superior to the defaultbridgenetwork.**
 
 <https://docs.docker.com/network/bridge>
 

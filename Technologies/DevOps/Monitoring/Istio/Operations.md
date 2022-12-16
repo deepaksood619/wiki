@@ -83,24 +83,24 @@ All combinations are possible, although some are more common than others and som
 - Prometheus
 - cert-manager
 
-[cert-manager](https://cert-manager.io/)is a tool that automates certificate management. This can be integrated with Istio gateways to manage TLS certificates.
+[cert-manager](https://cert-manager.io/) is a tool that automates certificate management. This can be integrated with Istio gateways to manage TLS certificates.
 
 <https://istio.io/docs/ops/integrations/certmanager>
 
 - Grafana
-  - [Mesh Dashboard](https://grafana.com/grafana/dashboards/7639)provides an overview of all services in the mesh.
+  - [Mesh Dashboard](https://grafana.com/grafana/dashboards/7639) provides an overview of all services in the mesh.
 
 Provides Global Summary view of the Mesh and shows HTTP/gRPC and TCP workloads in the Mesh.
 
-- [Service Dashboard](https://grafana.com/grafana/dashboards/7636)provides a detailed breakdown of metrics for a service.
+- [Service Dashboard](https://grafana.com/grafana/dashboards/7636) provides a detailed breakdown of metrics for a service.
 
 Provides metrics about requests and responses for each individual service within the mesh (HTTP/gRPC and TCP). This also provides metrics about client and service workloads for this service.
 
-- [Workload Dashboard](https://grafana.com/grafana/dashboards/7630)provides a detailed breakdown of metrics for a workload.
+- [Workload Dashboard](https://grafana.com/grafana/dashboards/7630) provides a detailed breakdown of metrics for a workload.
 
 Provides metrics about requests and responses for each individual workload within the mesh (HTTP/gRPC and TCP). This also provides metrics about inbound workloads and outbound services for this workload.
 
-- [Performance Dashboard](https://grafana.com/grafana/dashboards/11829)monitors the resource usage of the mesh.
-- [Control Plane Dashboard](https://grafana.com/grafana/dashboards/7645)monitors the health and performance of the control plane.
+- [Performance Dashboard](https://grafana.com/grafana/dashboards/11829) monitors the resource usage of the mesh.
+- [Control Plane Dashboard](https://grafana.com/grafana/dashboards/7645) monitors the health and performance of the control plane.
 
 <https://istio.io/docs/ops/integrations/grafana>

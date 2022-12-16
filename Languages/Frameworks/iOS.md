@@ -45,7 +45,7 @@ Properties specified asatomicare guaranteed to always return a fully initialized
 
 ## What's the difference between an "app ID" and a "bundle ID" and what is each used for?
 
-An[App ID](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/AppID.html)is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a bundle ID search string, with a period (.) separating the two parts. The Team ID is supplied by Apple and is unique to a specific development team, while the bundle ID search string is supplied by the developer to match either the bundle ID of a single app or a set of bundle IDs for a group of apps.
+An [App ID](https://developer.apple.com/library/mac/documentation/General/Conceptual/DevPedia-CocoaCore/AppID.html) is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a bundle ID search string, with a period (.) separating the two parts. The Team ID is supplied by Apple and is unique to a specific development team, while the bundle ID search string is supplied by the developer to match either the bundle ID of a single app or a set of bundle IDs for a group of apps.
 
 Because most people think of the App ID as a string, they think it is interchangeable with Bundle ID. It appears this way because once the App ID is created in the Member Center, you only ever use the App ID Prefix which matches the Bundle ID of the Application Bundle.
 
@@ -53,7 +53,7 @@ The bundle ID uniquely defines each App. It is specified in Xcode. A single Xcod
 
 ## What are "strong" and "weak" references? Why are they important and how can they be used to help control memory management and avoid memory leaks?
 
-By default, any variable that points to another object does so with what is referred to as a "strong" reference. A retain cycle occurs when two or more objects havereciprocalstrong references (i.e., strong references to each other). Any such objects willneverbe destroyed by[ARC](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html)(iOS' Automatic Reference Counting). Even if every other object in the application releases ownership of these objects, these objects (and, in turn, any objects that reference them) will continue to exist by virtue of those mutual strong references. This therefore results in a memory leak.
+By default, any variable that points to another object does so with what is referred to as a "strong" reference. A retain cycle occurs when two or more objects havereciprocalstrong references (i.e., strong references to each other). Any such objects willneverbe destroyed by [ARC](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html)(iOS' Automatic Reference Counting). Even if every other object in the application releases ownership of these objects, these objects (and, in turn, any objects that reference them) will continue to exist by virtue of those mutual strong references. This therefore results in a memory leak.
 
 Reciprocal strong references between objects should therefore be avoided to the extent possible. However, when they are necessary, a way to avoid this type of memory leak is to employweak references. Declaring one of the two references asweakwill break the retain cycle and thereby avoid the memory leak.
 
@@ -88,11 +88,11 @@ Thedisadvantage of threadsis that they relegate the burden of creating a scalabl
 
 OS X and iOS therefore prefer to take an asynchronous design approach to solving the concurrency problem rather than relying on threads.
 
-One of the technologies for starting tasks asynchronously is[Grand Central Dispatch (GCD)](https://developer.apple.com/library/prerelease/mac/documentation/Performance/Reference/GCD_libdispatch_Ref/index.html)that relegates thread management down to the system level. All the developer has to do is define the tasks to be executed and add them to the appropriatedispatch queue. GCD takes care of creating the needed threads and scheduling tasks to run on those threads.
+One of the technologies for starting tasks asynchronously is [Grand Central Dispatch (GCD)](https://developer.apple.com/library/prerelease/mac/documentation/Performance/Reference/GCD_libdispatch_Ref/index.html) that relegates thread management down to the system level. All the developer has to do is define the tasks to be executed and add them to the appropriatedispatch queue. GCD takes care of creating the needed threads and scheduling tasks to run on those threads.
 
-All[dispatch queues](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html)are first-in, first-out (FIFO) data structures, so tasks are always started in the same order that they are added.
+All [dispatch queues](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html) are first-in, first-out (FIFO) data structures, so tasks are always started in the same order that they are added.
 
-An[operation queue](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/ConcurrencyandApplicationDesign/ConcurrencyandApplicationDesign.html#//apple_ref/doc/uid/TP40008091-CH100-SW9)is the Cocoa equivalent of aconcurrent dispatch queueand is implemented by the[NSOperationQueue](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/index.html)class. Unlike dispatch queues, operation queues are not limited to executing tasks in FIFO order and support the creation of complex execution-order graphs for your tasks.
+An [operation queue](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/ConcurrencyandApplicationDesign/ConcurrencyandApplicationDesign.html#//apple_ref/doc/uid/TP40008091-CH100-SW9) is the Cocoa equivalent of aconcurrent dispatch queueand is implemented by the [NSOperationQueue](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/NSOperation_class/index.html) class. Unlike dispatch queues, operation queues are not limited to executing tasks in FIFO order and support the creation of complex execution-order graphs for your tasks.
 
 ## List and explain the different types of iOS Application States
 

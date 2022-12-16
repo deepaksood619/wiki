@@ -60,7 +60,7 @@ You have just seen two types of tests:
 ## Application Security Testing
 
 Security testing helps you identify application vulnerabilities that could be exploited by hackers and correct them before you release your product or app.
-There are a[range of application security tests](https://securityboulevard.com/2020/03/application-security-testing-trends-in-2020/)available to you with different tests that are applicable at different parts of the software development life cycle.
+There are a [range of application security tests](https://securityboulevard.com/2020/03/application-security-testing-trends-in-2020/) available to you with different tests that are applicable at different parts of the software development life cycle.
 
 ## Static Application Security Testing (SAST)
 
@@ -76,7 +76,7 @@ DAST operates by attacking the running code and seeking to exploit potential vul
 
 ## Interactive Application Security Testing
 
-Interactive application security testing (IAST) is a newer testing methodology that[combines the effectiveness of SAST and DAST](https://developer.ibm.com/recipes/tutorials/what-is-interactive-application-security-testing/)while overcoming the issues associated with these more established tests.
+Interactive application security testing (IAST) is a newer testing methodology that [combines the effectiveness of SAST and DAST](https://developer.ibm.com/recipes/tutorials/what-is-interactive-application-security-testing/) while overcoming the issues associated with these more established tests.
 IAST conducts continuous real-time scanning of an application for errors and vulnerabilities using an inserted monitoring agent. Even though IAST operates in a running application, it is considered an early SDLC test process.
 
 ## Compatibility Testing

@@ -8,7 +8,7 @@ Modified: 2020-09-03 13:21:53 +0500
 
 The database of the site can be configured in application/config/database.php file. Often we need to set up database for different environment like development and production. With the multidimensional array provided in the CodeIgniter, we can setup database for different environment. The configuration settings are stored in the array as shown below −
 
-$db['default'] = array(
+$db ['default'] = array(
 'dsn' => '',
 'hostname' => 'localhost',
 'username' => 'root',
@@ -51,24 +51,24 @@ This file specifies, by default, which systems should be loaded. In order to kee
 
 - Libraries− It is a list of libraries, which should be auto loaded. Provide a list of libraries in an array as shown below to be autoloaded by CodeIgniter. In this example, we are auto loading database, email and session libraries.
 
-$autoload['libraries'] = array('database', 'email', 'session');
+$autoload ['libraries'] = array('database', 'email', 'session');
 
 - Drivers− These classes are located in system/libraries/ or in your application/libraries/ directory, but are also placed inside their own subdirectory and they extend the CI_Driver_Library class. They offer multiple interchangeable driver options. Following is an example to autoload cache drivers.
 
-$autoload['drivers'] = array('cache');
+$autoload ['drivers'] = array('cache');
 
 - Helper files− It is a list of helper files, to be autoloaded. Provide a list of libraries in the array, as shown below, to be autoloaded by CodeIgniter. In the given example, we are autoloading URL and file helpers.
 
-$autoload['helper'] = array('url', 'file');
+$autoload ['helper'] = array('url', 'file');
 
 - Custom config files− These files are intended for use, only if you have created custom config files. Otherwise, leave it blank. Following is an example of how to autoload more than one config files.
 
-$autoload['config'] = array('config1', 'config2');
+$autoload ['config'] = array('config1', 'config2');
 
 - Language files− It is a list of language files, which should be auto loaded. Look at the example given below. Provide a list of languages in an array as shown below to be auto loaded by CodeIgniter. Keep in mind that do not include the "_lang" part of your file. For example, "codeigniter_lang.php" would be referenced as array('codeigniter');
 - Models− It is a list of models file, which should be autoloaded. Provide a list of models in an array as shown below to be autoloaded by CodeIgniter. Following is the example of how to auto load more than one models files.
 
-$autoload['model'] = array('first_model', 'second_model');
+$autoload ['model'] = array('first_model', 'second_model');
 
 <https://www.tutorialspoint.com/codeigniter/codeigniter_configuration.htm>
 

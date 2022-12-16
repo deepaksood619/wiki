@@ -10,7 +10,7 @@ Modified: 2021-11-26 16:17:19 +0500
 
 Google Testing and Mocking Framework
 
-## Google Test(also known as gtest for e.g. the[ROS](https://en.wikipedia.org/wiki/Robot_Operating_System)environment) is a[unit testing](https://en.wikipedia.org/wiki/Unit_testing)library for the[C++ programming language](https://en.wikipedia.org/wiki/C%2B%2B), based on the[xUnit](https://en.wikipedia.org/wiki/XUnit) architecture.The library is released under the BSD 3-clause license.It can be compiled for a variety of[POSIX](https://en.wikipedia.org/wiki/POSIX)and[Windows](https://en.wikipedia.org/wiki/Microsoft_Windows)platforms, allowing unit-testing of C sources as well as C++ with minimal source modification. The tests themselves could be run one at a time, or even be called to run all at once. This makes the debugging process very specific and caters to the need of many programmers and coders alike
+## Google Test(also known as gtest for e.g. the [ROS](https://en.wikipedia.org/wiki/Robot_Operating_System) environment) is a [unit testing](https://en.wikipedia.org/wiki/Unit_testing) library for the [C++ programming language](https://en.wikipedia.org/wiki/C%2B%2B), based on the [xUnit](https://en.wikipedia.org/wiki/XUnit) architecture.The library is released under the BSD 3-clause license.It can be compiled for a variety of [POSIX](https://en.wikipedia.org/wiki/POSIX) and [Windows](https://en.wikipedia.org/wiki/Microsoft_Windows) platforms, allowing unit-testing of C sources as well as C++ with minimal source modification. The tests themselves could be run one at a time, or even be called to run all at once. This makes the debugging process very specific and caters to the need of many programmers and coders alike
 
 <https://en.wikipedia.org/wiki/Google_Test>
 
@@ -51,11 +51,11 @@ OpenTest is a free and open source functional test automation framework for web 
 
 ## Katalon
 
-[Katalon Studio](https://www.katalon.com)is a free and complete automation testing solution for Web, Mobile, and API testing with modern methodologies (Data-Driven Testing, TDD/BDD, Page Object Model, etc.) as well as advanced integration (JIRA, qTest, Slack, CI, Katalon TestOps, etc.). Learn more about[Katalon Studio features](https://www.katalon.com/features/).
+[Katalon Studio](https://www.katalon.com) is a free and complete automation testing solution for Web, Mobile, and API testing with modern methodologies (Data-Driven Testing, TDD/BDD, Page Object Model, etc.) as well as advanced integration (JIRA, qTest, Slack, CI, Katalon TestOps, etc.). Learn more about [Katalon Studio features](https://www.katalon.com/features/).
 
 ## Katalon TestOps
 
-[Katalon TestOps](https://analytics.katalon.com)is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; seamlessly integrating with such tools as Katalon Studio and Jira; maximizing the testing capacity with remote execution.
+[Katalon TestOps](https://analytics.katalon.com) is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; seamlessly integrating with such tools as Katalon Studio and Jira; maximizing the testing capacity with remote execution.
 
 ## Katalon Runtime Engine (KRE)
 

@@ -27,7 +27,7 @@ We can store our functions in a separate file called a module, and them import t
         pizza = {'Pizza number' : item_number}
 
         for topping in toppings:
-            pizza[topping] = 1
+            pizza [topping] = 1
 
         return pizza
 

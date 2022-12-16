@@ -8,13 +8,13 @@ Modified: 2022-02-05 01:26:53 +0500
 
 ## Heartbeat
 
-Heartbeat is a lightweight daemon that you install on a remote server to periodically check the status of your services and determine whether they are available. Unlike[Metricbeat](https://www.elastic.co/guide/en/beats/metricbeat/7.1/index.html), which only tells you if your servers are up or down, Heartbeat tells you whether your services are reachable.
+Heartbeat is a lightweight daemon that you install on a remote server to periodically check the status of your services and determine whether they are available. Unlike [Metricbeat](https://www.elastic.co/guide/en/beats/metricbeat/7.1/index.html), which only tells you if your servers are up or down, Heartbeat tells you whether your services are reachable.
 
 <https://www.elastic.co/guide/en/beats/heartbeat/current/heartbeat-overview.html>
 
 ## FluentBit
 
-Fluent Bit is an open source and multi-platformLog Processor and Forwarderwhich allows you to collect data/logs from different sources, unify and send them to multiple destinations. It's fully compatible with Docker and[Kubernetes](https://fluentbit.io/kubernetes/)environments.
+Fluent Bit is an open source and multi-platformLog Processor and Forwarderwhich allows you to collect data/logs from different sources, unify and send them to multiple destinations. It's fully compatible with Docker and [Kubernetes](https://fluentbit.io/kubernetes/) environments.
 
 Fluent Bit is written inC, have a pluggable architecture supporting around 30 extensions. It's fast and lightweight and provide the required security for network operations through TLS.
 
@@ -32,15 +32,15 @@ Fluentd tries to structure data as JSON as much as possible: this allows Fluentd
 
 - **Pluggable Architecture**
 
-Fluentd has a flexible plugin system that allows the community to extend its functionality. Our 500+ community-contributed plugins connect dozens of[data sources](https://www.fluentd.org/datasources)and[data outputs](https://www.fluentd.org/dataoutputs). By leveraging the plugins, you can start making better use of your logs right away.
+Fluentd has a flexible plugin system that allows the community to extend its functionality. Our 500+ community-contributed plugins connect dozens of [data sources](https://www.fluentd.org/datasources) and [data outputs](https://www.fluentd.org/dataoutputs). By leveraging the plugins, you can start making better use of your logs right away.
 
 - **Minimum Resources Required**
 
-Fluentd is written in a combination of C language and Ruby, and requires very little system resource. The vanilla instance runs on 30-40MB of memory and can process 13,000 events/second/core. If you have tighter memory requirements (-450kb), check out[Fluent Bit](http://fluentbit.io/), the lightweight forwarder for Fluentd.
+Fluentd is written in a combination of C language and Ruby, and requires very little system resource. The vanilla instance runs on 30-40MB of memory and can process 13,000 events/second/core. If you have tighter memory requirements (-450kb), check out [Fluent Bit](http://fluentbit.io/), the lightweight forwarder for Fluentd.
 
 - **Built-in Reliability**
 
-Fluentd supports memory- and file-based buffering to prevent inter-node data loss. Fluentd also supports robust failover and can be set up for high availability.[2,000+ data-driven companies](https://www.fluentd.org/testimonials)rely on Fluentd to differentiate their products and services through a better use and understanding of their log data.
+Fluentd supports memory- and file-based buffering to prevent inter-node data loss. Fluentd also supports robust failover and can be set up for high availability.[2,000+ data-driven companies](https://www.fluentd.org/testimonials) rely on Fluentd to differentiate their products and services through a better use and understanding of their log data.
 
 ![Access logs Apache App logs Frontend Backend System logs syslogd Databases fluentd Alerting Nagios Analysis MongoDB MySQL Hadoop Archiving filter / buffer / routing Amazon S3 ](../../media/Technologies-Elasticsearch-Others-image1.png)
 
@@ -74,7 +74,7 @@ Application Performance Monitoring (APM) collects in-depth performance metrics a
 
 ## Flask
 
-Please note that errors and transactions will only be sent to the APM Server if your app isnotin[debug mode](http://flask.pocoo.org/docs/0.12/quickstart/#debug-mode).
+Please note that errors and transactions will only be sent to the APM Server if your app isnotin [debug mode](http://flask.pocoo.org/docs/0.12/quickstart/#debug-mode).
 
 <https://www.elastic.co/guide/en/apm/agent/python/current/flask-support.html>
 

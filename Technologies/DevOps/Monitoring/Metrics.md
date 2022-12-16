@@ -71,13 +71,13 @@ If you're building a web application or web service, here are some more specific
 - Number of requests that result in response code 200--299, 400--499, and 500--599. Set alarms on the last 2. A 400-series alarm may tell you that your clients can't figure out how to use your API. A 500-series alarm tells you you've got serious issues.
 - Number of GET, PUT, POST, DELETE, etc. requests.
 - **Total number of requests.** Set an alarm that tells you if traffic surges unexpectedly, or if request counts go to zero!
-- **Application-specific load times (P50, P90, P99).** Twitter uses[time to first tweet](https://blog.alexmaccaw.com/time-to-first-tweet). We use the[performance API](https://www.w3.org/TR/navigation-timing/#sec-window.performance-attribute)to determine how long it took before the user could start interacting with our page. What is the best measure of your application's startup time?
+- **Application-specific load times (P50, P90, P99).** Twitter uses [time to first tweet](https://blog.alexmaccaw.com/time-to-first-tweet). We use the [performance API](https://www.w3.org/TR/navigation-timing/#sec-window.performance-attribute) to determine how long it took before the user could start interacting with our page. What is the best measure of your application's startup time?
 - P50, P90, P99 request and response payload sizes.
 - P50, P90, and P99 gzip compression ratio. How much is gzip helping your clients? Are your payloads actually compressible?
 - **Number of load balancer spillovers.** How often are your inbound requests rejected because your web servers are at capacity.
 - Cache hit and miss counts.
 - P0, P50, and P100 for the sizes of objects stored in your cache.
-- **The basic host metrics:** disk utilization, disk I/O rate, memory utilization, and cpu utilization. One very useful metric lots of people don't think of is[load average](https://www.howtogeek.com/194642/understanding-the-load-average-on-linux-and-other-unix-like-systems/), which tells you how well your hardware (including disk and network) is keeping up with the demands of your software.
+- **The basic host metrics:** disk utilization, disk I/O rate, memory utilization, and cpu utilization. One very useful metric lots of people don't think of is [load average](https://www.howtogeek.com/194642/understanding-the-load-average-on-linux-and-other-unix-like-systems/), which tells you how well your hardware (including disk and network) is keeping up with the demands of your software.
 - **Service input/output operations.** If you're on AWS, you may be using services like ELB or DynamoDB which throttle you if you exceed a certain I/O threshold. If this happens, your app can slow to a crawl and even become unavailable (this happened to my team a few years ago, and it was a pain to diagnose --- we added lots of alarms after this event).
 - **Unhealthy host count.** This is a common metric reported by web load balancers. It tells you how many hosts your load balancer currently considers healthy.
 - **Number of connections open** to each web server, database host, queue server, and any other service you have.
@@ -178,13 +178,13 @@ Network latencies between machines within a data center can be low. Generally, a
 
 ## Instrumentation
 
-In the context of[computer programming](https://en.wikipedia.org/wiki/Computer_programming),instrumentationrefers to an ability to monitor or measure the level of a product's performance, to diagnose errors, and to write[trace](https://en.wikipedia.org/wiki/Tracing_(software))information.Programmers implement instrumentation in the form of code[instructions](https://en.wikipedia.org/wiki/Instruction_(computer_science))that monitor specific components in a system (for example, instructions may output logging information to appear on the screen). When an application contains instrumentation code, it can be managed by using a management tool. Instrumentation is necessary to review the performance of the application. Instrumentation approaches can be of two types: source instrumentation and binary instrumentation.
+In the context of [computer programming](https://en.wikipedia.org/wiki/Computer_programming),instrumentationrefers to an ability to monitor or measure the level of a product's performance, to diagnose errors, and to write [trace](https://en.wikipedia.org/wiki/Tracing_(software)) information.Programmers implement instrumentation in the form of code [instructions](https://en.wikipedia.org/wiki/Instruction_(computer_science)) that monitor specific components in a system (for example, instructions may output logging information to appear on the screen). When an application contains instrumentation code, it can be managed by using a management tool. Instrumentation is necessary to review the performance of the application. Instrumentation approaches can be of two types: source instrumentation and binary instrumentation.
 
 In programming, instrumentation means the ability of an application to incorporate:
 
-- **Code[tracing](https://en.wikipedia.org/wiki/Tracing_(software))-** receiving informative messages about the execution of an application at run time.
-- **[Debugging](https://en.wikipedia.org/wiki/Debugging)and (structured)[exception handling](https://en.wikipedia.org/wiki/Exception_handling)-** tracking down and fixing programming errors in an application under development.
-- **[Profiling](https://en.wikipedia.org/wiki/Profiling_(computer_programming))-** a means by which dynamic program behaviors can be measured during a training run with a representative input. This is useful for properties of a program that cannot be[analyzed statically](https://en.wikipedia.org/wiki/Static_program_analysis)with sufficient precision, such as[alias analysis](https://en.wikipedia.org/wiki/Alias_analysis).
+- **Code [tracing](https://en.wikipedia.org/wiki/Tracing_(software))-** receiving informative messages about the execution of an application at run time.
+- **[Debugging](https://en.wikipedia.org/wiki/Debugging) and (structured)[exception handling](https://en.wikipedia.org/wiki/Exception_handling)-** tracking down and fixing programming errors in an application under development.
+- **[Profiling](https://en.wikipedia.org/wiki/Profiling_(computer_programming))-** a means by which dynamic program behaviors can be measured during a training run with a representative input. This is useful for properties of a program that cannot be [analyzed statically](https://en.wikipedia.org/wiki/Static_program_analysis) with sufficient precision, such as [alias analysis](https://en.wikipedia.org/wiki/Alias_analysis).
   - Flame Graph
 - **Performance counters -** components that allow the tracking of the performance of the application.
 - **[Computer data logging](https://en.wikipedia.org/wiki/Computer_data_logging)-** components that allow the logging and tracking of major events in the execution of the application.
@@ -376,7 +376,7 @@ Represents a monotonically increasing value.
 
 In this example, a counter metric is used to calculate the rate of events over time, by counting events per second
 
-Acounteris a cumulative metric that represents a single[monotonically increasing counter](https://en.wikipedia.org/wiki/Monotonic_function)whose value can only increase or be reset to zero on restart. For example, you can use a counter to represent the number of requests served, tasks completed, or errors.
+Acounteris a cumulative metric that represents a single [monotonically increasing counter](https://en.wikipedia.org/wiki/Monotonic_function) whose value can only increase or be reset to zero on restart. For example, you can use a counter to represent the number of requests served, tasks completed, or errors.
 
 Do not use a counter to expose a value that can decrease. For example, do not use a counter for the number of currently running processes; instead use a gauge.
 
@@ -386,7 +386,7 @@ Represents a single value that can go up or down.
 
 ![25% 15% 07:00 07:30 08:00 08:30 09:00 CPU Total % 09:30 10:00 10:30 11:00 11:30 12:00 12:30 User Current: 6 System Current: 1 Idle Current: 93 ](../../media/DevOps-Monitoring-Metrics-image2.png)
 
-In this example, a gauge metric is used to monitor the[user CPU](https://blog.appsignal.com/2018/03/06/understanding-cpu-statistics.html)in percentages
+In this example, a gauge metric is used to monitor the [user CPU](https://blog.appsignal.com/2018/03/06/understanding-cpu-statistics.html) in percentages
 
 Agaugeis a metric that represents a single numerical value that can arbitrarily go up and down.
 
@@ -408,7 +408,7 @@ A histogram with a base metric name of<basename>exposes multiple time series dur
 - thetotal sumof all observed values, exposed as<basename>_sum
 - thecountof events that have been observed, exposed as<basename>_count(identical to<basename>_bucket{le="+Inf"}above)
 
-Use the[histogram_quantile()function](https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile)to calculate quantiles from histograms or even aggregations of histograms. A histogram is also suitable to calculate an[Apdex score](https://en.wikipedia.org/wiki/Apdex). When operating on buckets, remember that the histogram is[cumulative](https://en.wikipedia.org/wiki/Histogram#Cumulative_histogram). See[histograms and summaries](https://prometheus.io/docs/practices/histograms)for details of histogram usage and differences to[summaries](https://prometheus.io/docs/concepts/metric_types/#summary).
+Use the [histogram_quantile()function](https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile) to calculate quantiles from histograms or even aggregations of histograms. A histogram is also suitable to calculate an [Apdex score](https://en.wikipedia.org/wiki/Apdex). When operating on buckets, remember that the histogram is [cumulative](https://en.wikipedia.org/wiki/Histogram#Cumulative_histogram). See [histograms and summaries](https://prometheus.io/docs/practices/histograms) for details of histogram usage and differences to [summaries](https://prometheus.io/docs/concepts/metric_types/#summary).
 
 4. **Summary**
 
@@ -432,7 +432,7 @@ A summary with a base metric name of<basename>exposes multiple time series durin
 
 ## Apdex (Application Performance Index)
 
-## Apdexis an[open standard](https://en.wikipedia.org/wiki/Open_standard)for measuring performance of[software applications](https://en.wikipedia.org/wiki/Software_applications)in[computing](https://en.wikipedia.org/wiki/Computing). Its purpose is to convert measurements into insights about user satisfaction, by specifying a uniform way to analyze and report on the degree to which measured performance meets[user expectations](https://en.wikipedia.org/wiki/User_expectations). It was developed by an alliance of companies
+## Apdexis an [open standard](https://en.wikipedia.org/wiki/Open_standard) for measuring performance of [software applications](https://en.wikipedia.org/wiki/Software_applications) in [computing](https://en.wikipedia.org/wiki/Computing). Its purpose is to convert measurements into insights about user satisfaction, by specifying a uniform way to analyze and report on the degree to which measured performance meets [user expectations](https://en.wikipedia.org/wiki/User_expectations). It was developed by an alliance of companies
 
 <https://en.wikipedia.org/wiki/Apdex>
 

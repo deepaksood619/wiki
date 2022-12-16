@@ -22,7 +22,7 @@ A Complete Guide to React Router: Everything You Need to Know
 
 <https://reactrouter.com>
 
-React Router is a lightweight, fully-featured routing library for the[React](https://reactjs.org/)JavaScript library. React Router runs everywhere that React runs; on the web, on the server (using node.js), and on React Native.
+React Router is a lightweight, fully-featured routing library for the [React](https://reactjs.org/) JavaScript library. React Router runs everywhere that React runs; on the web, on the server (using node.js), and on React Native.
 
 <https://github.com/remix-run/react-router/blob/main/docs/getting-started/installation.md>
 
@@ -50,7 +50,7 @@ Route is the conditionally shown component that renders some UI when its path ma
 
 - **Link**
 
-Link component is used to create links to different routes and implement navigation around the application. It works like HTML[anchor tag](https://www.geeksforgeeks.org/html-a-tag/).
+Link component is used to create links to different routes and implement navigation around the application. It works like HTML [anchor tag](https://www.geeksforgeeks.org/html-a-tag/).
 
 - **Switch**
 

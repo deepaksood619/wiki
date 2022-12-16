@@ -10,11 +10,11 @@ VOLTTRON is an open source platform for distributed sensing and control. The pla
 
 ## Features
 
-- [Message Bus](https://volttron.readthedocs.io/en/latest/core_services/messagebus/index.html#messagebus-index)allows agents to subcribe to data sources and publish results and messages
-- [Driver framework](https://volttron.readthedocs.io/en/latest/core_services/drivers/index.html#volttron-driver-framework)for collecting data from and sending control actions to buildings and devices
-- [Historian framework](https://volttron.readthedocs.io/en/latest/core_services/historians/index.html#historian-index)for storing data
-- [Agent lifecycle management](https://volttron.readthedocs.io/en/latest/core_services/control/AgentManagement.html#agentmanagement)in the platform
-- [Web UI](https://volttron.readthedocs.io/en/latest/core_services/service_agents/central_management/VOLTTRON-Central.html#volttron-central)for managing deployed instances from a single central instance.
+- [Message Bus](https://volttron.readthedocs.io/en/latest/core_services/messagebus/index.html#messagebus-index) allows agents to subcribe to data sources and publish results and messages
+- [Driver framework](https://volttron.readthedocs.io/en/latest/core_services/drivers/index.html#volttron-driver-framework) for collecting data from and sending control actions to buildings and devices
+- [Historian framework](https://volttron.readthedocs.io/en/latest/core_services/historians/index.html#historian-index) for storing data
+- [Agent lifecycle management](https://volttron.readthedocs.io/en/latest/core_services/control/AgentManagement.html#agentmanagement) in the platform
+- [Web UI](https://volttron.readthedocs.io/en/latest/core_services/service_agents/central_management/VOLTTRON-Central.html#volttron-central) for managing deployed instances from a single central instance.
 
 # Volttron Platform
 

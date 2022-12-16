@@ -12,7 +12,7 @@ Modified: 2022-04-12 23:26:12 +0500
 - [Working Backward](https://en.wikipedia.org/wiki/Backward_chaining)
 - Structured thinking
 
-you methodically[break down problems](https://forge.medium.com/the-500-year-old-piece-of-advice-that-will-change-your-life-1e580f115731)and solve them piece by piece, rather than worrying, relying on past assumptions, or shrugging in absolute cluelessness.
+you methodically [break down problems](https://forge.medium.com/the-500-year-old-piece-of-advice-that-will-change-your-life-1e580f115731) and solve them piece by piece, rather than worrying, relying on past assumptions, or shrugging in absolute cluelessness.
 
 - The Map is not the Territory
 - Circle of competence
@@ -129,7 +129,7 @@ A systematic approach to estimating the strengths and weaknesses of alternatives
 ## Brainstorming
 
 - (1)[Lateral Thinking](https://en.wikipedia.org/wiki/Lateral_thinking)--- "Solving problems through an indirect and creative approach, using reasoning that is not immediately obvious and involving ideas that may not be obtainable by using only traditional step-by-step logic."
-- (1)[Divergent Thinking](https://en.wikipedia.org/wiki/Divergent_thinking)vs[Convergent Thinking](https://en.wikipedia.org/wiki/Convergent_thinking)--- "Divergent thinking is a thought process or method used to generate creative ideas by exploring many possible solutions. It is often used in conjunction with its cognitive opposite, convergent thinking, which follows a particular set of logical steps to arrive at one solution, which in some cases is a 'correct' solution." (related:[groupthink](https://en.wikipedia.org/wiki/Groupthink))
+- (1)[Divergent Thinking](https://en.wikipedia.org/wiki/Divergent_thinking) vs [Convergent Thinking](https://en.wikipedia.org/wiki/Convergent_thinking)--- "Divergent thinking is a thought process or method used to generate creative ideas by exploring many possible solutions. It is often used in conjunction with its cognitive opposite, convergent thinking, which follows a particular set of logical steps to arrive at one solution, which in some cases is a 'correct' solution." (related:[groupthink](https://en.wikipedia.org/wiki/Groupthink))
 - (2)[Crowdsourcing](https://en.wikipedia.org/wiki/Crowdsourcing)--- "The process of obtaining needed services, ideas, or content by soliciting contributions from a large group of people, especially an online community, rather than from employees or suppliers." (related:[wisdom of the crowd](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd)--- "a large group's aggregated answers to questions involving quantity estimation, general world knowledge, and spatial reasoning has generally been found to be as good as, and often better than, the answer given by any of the individuals within the group.";[collective intelligence](https://en.wikipedia.org/wiki/Collective_intelligence);[bandwagon effect](https://en.wikipedia.org/wiki/Bandwagon_effect)--- "a phenomenon whereby the rate of uptake of beliefs, ideas, fads and trends increases the more that they have already been adopted by others.";[Stone Soup](https://en.wikipedia.org/wiki/Stone_Soup))
 
 A crowd can be smarter than a single person, Consider other's perspective to challenge your own biases.
@@ -139,7 +139,7 @@ A crowd can be smarter than a single person, Consider other's perspective to cha
 ## Reasoning
 
 - (1)[Anecdotal](https://yourlogicalfallacyis.com/anecdotal)--- "Using a personal experience or an isolated example instead of a sound argument or compelling evidence."
-- (1)[False Cause](https://yourlogicalfallacyis.com/false-cause)--- "Presuming that a real or perceived relationship between things means that one is the cause of the other." (related:[correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), or in[xkcd form](https://xkcd.com/552/))
+- (1)[False Cause](https://yourlogicalfallacyis.com/false-cause)--- "Presuming that a real or perceived relationship between things means that one is the cause of the other." (related:[correlation does not imply causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation), or in [xkcd form](https://xkcd.com/552/))
 - (1)[Straw Man](https://en.wikipedia.org/wiki/Straw_man)--- "Giving the impression of refuting an opponent's argument, while actually refuting an argument that was not advanced by that opponent."
 - (1) Plausible --- Thinking that just because something is plausible means that it is true.
 - (1) Likely --- Thinking that just because something is possible means that it is likely.
@@ -148,7 +148,7 @@ A crowd can be smarter than a single person, Consider other's perspective to cha
 - (1)[Slippery Slope](https://yourlogicalfallacyis.com/slippery-slope)--- "Asserting that if we allow A to happen, then Z will eventually happen too, therefore A should not happen." (related:[broken windows theory](https://en.wikipedia.org/wiki/Broken_windows_theory)--- "maintaining and monitoring urban environments to prevent small crimes such as vandalism, public drinking, and toll-jumping helps to create an atmosphere of order and lawfulness, thereby preventing more serious crimes from happening.")
 - (1)[Black or White](https://yourlogicalfallacyis.com/black-or-white)--- "When two alternative states are presented as the only possibilities, when in fact more possibilities exist."
 - (1)[Bandwagon](https://yourlogicalfallacyis.com/bandwagon)--- "Appealing to popularity or the fact that many people do something as an attempted form of validation."
-- For a longer list, see[Thou shall not commit logical fallacies](https://yourlogicalfallacyis.com/)(I have this poster on my office door.)
+- For a longer list, see [Thou shall not commit logical fallacies](https://yourlogicalfallacyis.com/)(I have this poster on my office door.)
 
 <https://untools.co>
 
@@ -298,7 +298,7 @@ It's the intelligence of Charles Darwin... We're all using our naturalist intell
 - The Respectful Mind
 - The Ethical Mind
 
-## [IQ](https://en.wikipedia.org/wiki/Intelligence_quotient)vs[EQ](https://en.wikipedia.org/wiki/Emotional_intelligence)
+## [IQ](https://en.wikipedia.org/wiki/Intelligence_quotient) vs [EQ](https://en.wikipedia.org/wiki/Emotional_intelligence)
 
 IQis a total score derived from one of several standardized tests designed to assess human intelligence." "EQ is the capacity of individuals to recognize their own, and other people's emotions, to discriminate between different feelings and label them appropriately, and to use emotional information to guide thinking and behavior
 

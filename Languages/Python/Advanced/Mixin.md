@@ -32,7 +32,7 @@ In this example the function clean_name will be added to the AggregatedWidgetCre
 
 *"""*
 
-name=self.cleaned_data[**'name'**]
+name=self.cleaned_data [**'name'**]
 
 allowed_chars=frozenset(string.lowercase+**'_'**)
 

@@ -21,7 +21,7 @@ for msg in consumer:
 
 ## Kafka Producer
 
-[KafkaProducer](https://kafka-python.readthedocs.io/en/master/apidoc/kafka.html#kafka.KafkaProducer)is a high-level, asynchronous message producer.
+[KafkaProducer](https://kafka-python.readthedocs.io/en/master/apidoc/kafka.html#kafka.KafkaProducer) is a high-level, asynchronous message producer.
 
 ```python
 from kafka import KafkaProducer

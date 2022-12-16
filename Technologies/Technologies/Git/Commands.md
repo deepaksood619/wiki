@@ -393,7 +393,7 @@ git grep "the magic string" `git show-ref --heads'
 
 ## Checkout
 
-- Use this to move the[HEAD pointer](https://kolosek.com/git-branches/)to a specific commit orswitchbetween branches.
+- Use this to move the [HEAD pointer](https://kolosek.com/git-branches/) to a specific commit orswitchbetween branches.
 - Itrollbacksany content changes to those of the specific commit.
 - This willnotmake changes to the commit history.
 - Has potential tooverwritefiles in the working directory.

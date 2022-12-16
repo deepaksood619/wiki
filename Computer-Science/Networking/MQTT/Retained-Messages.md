@@ -18,7 +18,7 @@ It is important to understand that a retained message has nothing to do withpers
 
 ## Send a retained message
 
-From the perspective of a developer, sending a retained message is quite simple and straight-forward. You just set theretained flagof a[MQTT publish message](https://www.hivemq.com/blog/mqtt-essentials-part-4-mqtt-publish-subscribe-unsubscribe/)to true. Typically, your client library provides an easy way to set this flag.
+From the perspective of a developer, sending a retained message is quite simple and straight-forward. You just set theretained flagof a [MQTT publish message](https://www.hivemq.com/blog/mqtt-essentials-part-4-mqtt-publish-subscribe-unsubscribe/) to true. Typically, your client library provides an easy way to set this flag.
 
 ## Delete a retained message
 

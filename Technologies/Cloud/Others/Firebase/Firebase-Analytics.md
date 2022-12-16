@@ -42,7 +42,7 @@ An Event is an important occurrence in your app that you want to measure. You ca
 
 Events provide insight on what is happening in your app, such as user actions, system events, or errors.
 
-Analytics automatically logs some[events](https://support.google.com/firebase/answer/6317485)for you; you don't need to add any code to receive them. If your app needs to collect additional data, you can log up to 500 different Analytics Eventtypesin your app. There is no limit on the total volume of events your app logs.
+Analytics automatically logs some [events](https://support.google.com/firebase/answer/6317485) for you; you don't need to add any code to receive them. If your app needs to collect additional data, you can log up to 500 different Analytics Eventtypesin your app. There is no limit on the total volume of events your app logs.
 
 Extra events are dropped. A firebase_error event is logged with a firebase_error parameter which indicates the error code.
 
@@ -84,7 +84,7 @@ In Google Analytics, a**property**is a website, mobile application, or blog, etc
 
 While you might think about your website or mobile app as a distinct, real-world piece of property, like a storefront, Analytics understands a property only as a resource associated with your tracking code. When you track a resource using Analytics, you include a property ID in the tracking code that you put on your web pages or in your app source code. Performance data, like number of users or screen views, for resources tagged with the same ID is collected into the corresponding property.
 
-For example, if you associate one property ID with two websites, data for both websites appears in the same property in your Analytics account. You can then use[views](https://support.google.com/analytics/answer/2649553)and[filters](https://support.google.com/analytics/answer/1033162)to organize the data. You can segregate the data even further at the report level with tools like[Segments](https://support.google.com/analytics/answer/1033017).
+For example, if you associate one property ID with two websites, data for both websites appears in the same property in your Analytics account. You can then use [views](https://support.google.com/analytics/answer/2649553) and [filters](https://support.google.com/analytics/answer/1033162) to organize the data. You can segregate the data even further at the report level with tools like [Segments](https://support.google.com/analytics/answer/1033017).
 
 ## Getting started
 
@@ -190,7 +190,7 @@ Configuration limits
 | Registered numeric parameters       | 50        | Yes                                                |
 | Registered custom conversion events | 30        | Yes                                                |
 
-You cannot increase these limits by upgrading to the[Flame or Blaze pricing plans](https://firebase.google.com/pricing/). The limits are the same for all Firebase projects.
+You cannot increase these limits by upgrading to the [Flame or Blaze pricing plans](https://firebase.google.com/pricing/). The limits are the same for all Firebase projects.
 
 <https://support.google.com/firebase/answer/9237506?hl=en>
 

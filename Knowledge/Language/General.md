@@ -12,7 +12,7 @@ Modified: 2021-10-17 20:04:32 +0500
 
 ## CEFR
 
-TheCommon European Framework of Reference for Languages: Learning, Teaching, Assessment,abbreviated in[English](https://www.wikiwand.com/en/English_language)asCEFRorCEForCEFRL, is a guideline used to describe achievements of learners of foreign languages across[Europe](https://www.wikiwand.com/en/Europe)and, increasingly, in other countries. It was put together by the[Council of Europe](https://www.wikiwand.com/en/Council_of_Europe)as the main part of the project "Language Learning for European Citizenship" between 1989 and 1996. Its main aim is to provide a method of learning, teaching and assessing which applies to all[languages in Europe](https://www.wikiwand.com/en/Languages_of_Europe). In November 2001, a European Union Council Resolution recommended using the CEFR to set up systems of validation of language ability. The six reference levels (A1, A2, B1, B2, C1, C2) are becoming widely accepted as the European standard for grading an individual's[language proficiency](https://www.wikiwand.com/en/Language_proficiency).
+TheCommon European Framework of Reference for Languages: Learning, Teaching, Assessment,abbreviated in [English](https://www.wikiwand.com/en/English_language) asCEFRorCEForCEFRL, is a guideline used to describe achievements of learners of foreign languages across [Europe](https://www.wikiwand.com/en/Europe) and, increasingly, in other countries. It was put together by the [Council of Europe](https://www.wikiwand.com/en/Council_of_Europe) as the main part of the project "Language Learning for European Citizenship" between 1989 and 1996. Its main aim is to provide a method of learning, teaching and assessing which applies to all [languages in Europe](https://www.wikiwand.com/en/Languages_of_Europe). In November 2001, a European Union Council Resolution recommended using the CEFR to set up systems of validation of language ability. The six reference levels (A1, A2, B1, B2, C1, C2) are becoming widely accepted as the European standard for grading an individual's [language proficiency](https://www.wikiwand.com/en/Language_proficiency).
 
 ![image](media/General-image2.png)
 
@@ -20,7 +20,7 @@ TheCommon European Framework of Reference for Languages: Learning, Teaching, Ass
 
 ## Bibliography
 
-## Bibliography**(from[Greek](https://en.wikipedia.org/wiki/Ancient_Greek)βιβλίον*biblion*, "book" and -γραφία*-graphia*, "writing"), as a discipline, is traditionally the academic study of[books](https://en.wikipedia.org/wiki/Book)as physical, cultural objects; in this sense, it is also known as**bibliology(from Greek-λογία,[*-logia*](https://en.wikipedia.org/wiki/-logy)). Carter and Barker (2010) describe bibliography as a twofold scholarly discipline---the organized listing of books (enumerative bibliography) and the systematic description of books as objects (descriptive bibliography)
+## Bibliography**(from [Greek]$1 $2*biblion*, "book" and -γραφία*-graphia*, "writing"), as a discipline, is traditionally the academic study of [books](https://en.wikipedia.org/wiki/Book) as physical, cultural objects; in this sense, it is also known as**bibliology(from Greek-λογία,[*-logia*](https://en.wikipedia.org/wiki/-logy)). Carter and Barker (2010) describe bibliography as a twofold scholarly discipline---the organized listing of books (enumerative bibliography) and the systematic description of books as objects (descriptive bibliography)
 
 A bibliography is a list of all of the sources you have used (whether referenced or not) in the process of researching your work.
 

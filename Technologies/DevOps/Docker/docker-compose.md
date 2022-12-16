@@ -113,9 +113,9 @@ However when you define**env_file**option to your service, the service will get 
 
 - **Version 3**
 
-Designed to be cross-compatible between Compose and the Docker Engine's[swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
+Designed to be cross-compatible between Compose and the Docker Engine's [swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
 
-- Removed:volume_driver,volumes_from,cpu_shares,cpu_quota,cpuset,mem_limit,memswap_limit,extends,group_add. See the[upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading)guide for how to migrate away from these. (For more information onextends, see[Extending services](https://docs.docker.com/compose/extends/#extending-services).)
+- Removed:volume_driver,volumes_from,cpu_shares,cpu_quota,cpuset,mem_limit,memswap_limit,extends,group_add. See the [upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading) guide for how to migrate away from these. (For more information onextends, see [Extending services](https://docs.docker.com/compose/extends/#extending-services).)
 - Added:[deploy](https://docs.docker.com/compose/compose-file/#deploy)
 
 - **Version 3.3**
@@ -127,25 +127,25 @@ Designed to be cross-compatible between Compose and the Docker Engine's[swarm mo
 
 - **Version 3.4**
   - Docker Engine version17.09.0and higher.
-  - targetandnetworkin[build configurations](https://docs.docker.com/compose/compose-file/#build)
-  - start_periodfor[healthchecks](https://docs.docker.com/compose/compose-file/#healthcheck)
-  - orderfor[update configurations](https://docs.docker.com/compose/compose-file/#update_config)
-  - namefor[volumes](https://docs.docker.com/compose/compose-file/#volume-configuration-reference)
+  - targetandnetworkin [build configurations](https://docs.docker.com/compose/compose-file/#build)
+  - start_periodfor [healthchecks](https://docs.docker.com/compose/compose-file/#healthcheck)
+  - orderfor [update configurations](https://docs.docker.com/compose/compose-file/#update_config)
+  - namefor [volumes](https://docs.docker.com/compose/compose-file/#volume-configuration-reference)
 
 - **Version 3.5**
   - Docker Engine version17.12.0and higher.
-  - [isolation](https://docs.docker.com/compose/compose-file/compose-versioning/#isolation)in service definitions
+  - [isolation](https://docs.docker.com/compose/compose-file/compose-versioning/#isolation) in service definitions
   - namefor networks, secrets and configs
-  - shm_sizein[build configurations](https://docs.docker.com/compose/compose-file/compose-versioning/#build)
+  - shm_sizein [build configurations](https://docs.docker.com/compose/compose-file/compose-versioning/#build)
 
 - **Version 3.6**
   - Docker Engine version18.02.0and higher.
-  - [tmpfssize](https://docs.docker.com/compose/compose-file/compose-versioning/#long-syntax-3)fortmpfs-type mounts
+  - [tmpfssize](https://docs.docker.com/compose/compose-file/compose-versioning/#long-syntax-3) fortmpfs-type mounts
 
 - **Version 3.7**
   - Docker Engine version18.06.0and higher.
-  - [init](https://docs.docker.com/compose/compose-file/compose-versioning/#init)in service definitions
-  - [rollback_config](https://docs.docker.com/compose/compose-file/compose-versioning/#rollback_config)in deploy configurations
+  - [init](https://docs.docker.com/compose/compose-file/compose-versioning/#init) in service definitions
+  - [rollback_config](https://docs.docker.com/compose/compose-file/compose-versioning/#rollback_config) in deploy configurations
   - Support for extension fields at the root of service, network, volume, secret and config definitions
 
 ## Tips

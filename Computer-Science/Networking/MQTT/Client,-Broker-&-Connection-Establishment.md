@@ -39,7 +39,7 @@ The client identifier (ClientId)identifies each MQTT clientthat connects to an M
 
 ## Clean Session
 
-The clean session flag tells the broker whether the client wants to establish a persistent session or not. In a persistent session (CleanSession = false), the broker stores all subscriptions for the client and all missed messages for the client that subscribed with a[Quality of Service (QoS)](https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/)level 1 or 2. If the session is not persistent (CleanSession = true), the broker does not store anything for the client and purges all information from any previous persistent session.
+The clean session flag tells the broker whether the client wants to establish a persistent session or not. In a persistent session (CleanSession = false), the broker stores all subscriptions for the client and all missed messages for the client that subscribed with a [Quality of Service (QoS)](https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/) level 1 or 2. If the session is not persistent (CleanSession = true), the broker does not store anything for the client and purges all information from any previous persistent session.
 
 ## Username/Password
 
@@ -70,7 +70,7 @@ Thesession present flag tells the client whether the broker already has a persis
 
 ## Connect acknowledge flag
 
-The second flag in the[CONNACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718033)message is the connect acknowledge flag. This flag containsa return code that tells the client whether the connection attempt was successful.
+The second flag in the [CONNACK](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html#_Toc398718033) message is the connect acknowledge flag. This flag containsa return code that tells the client whether the connection attempt was successful.
 
 | Return Code | Return Code Response                              |
 |-------------|---------------------------------------------------|

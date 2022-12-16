@@ -16,9 +16,9 @@ This got him thinking about economic output on a larger scale. Sure enough, he b
 
 ## The 80/20 Principle states that 80% of the output or results will come from 20% of the input or action
 
-- What are the 20% of[your possessions](https://markmanson.net/minimalism)you get the most value out of?
-- What do you spend 20% of your time doing that gives you 80% of[your happiness](https://markmanson.net/how-to-be-happy)?
-- Who are the 20% of people you're close to who[make you the happiest](https://markmanson.net/how-to-be-happy)?
+- What are the 20% of [your possessions](https://markmanson.net/minimalism) you get the most value out of?
+- What do you spend 20% of your time doing that gives you 80% of [your happiness](https://markmanson.net/how-to-be-happy)?
+- Who are the 20% of people you're close to who [make you the happiest](https://markmanson.net/how-to-be-happy)?
 - What are the 20% of the clothes you wear 80% of the time?
 - What's the 20% of food you eat 80% of the time?
 

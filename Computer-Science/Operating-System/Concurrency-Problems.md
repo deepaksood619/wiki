@@ -38,14 +38,14 @@ Since threads have a shared memory space, they can have access to shared variabl
 # Producer Consumer Problem
 
 Also known as Bounded-buffer problem is a classic example of a multi-process synchronizationproblem.
-The problem describes two processes, the producer and the consumer, who share a common, fixed-size[buffer](https://en.wikipedia.org/wiki/Buffer_(computer_science))used as a[queue](https://en.wikipedia.org/wiki/Queue_(data_structure)).
+The problem describes two processes, the producer and the consumer, who share a common, fixed-size [buffer](https://en.wikipedia.org/wiki/Buffer_(computer_science)) used as a [queue](https://en.wikipedia.org/wiki/Queue_(data_structure)).
 The producer's job is to generate data, put it into the buffer, and start again. At the same time, the consumer is consuming the data (i.e., removing it from the buffer), one piece at a time.
 The problem is to make sure that the producer won't try to add data into the buffer if it's full and that the consumer won't try to remove data from an empty buffer.
-The solution for the producer is to either go to sleep or discard data if the buffer is full. The next time the consumer removes an item from the buffer, it notifies the producer, who starts to fill the buffer again. In the same way, the consumer can go to sleep if it finds the buffer empty. The next time the producer puts data into the buffer, it wakes up the sleeping consumer. The solution can be reached by means of[inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication), typically using[semaphores](https://en.wikipedia.org/wiki/Semaphore_(programming)). An inadequate solution could result in a[deadlock](https://en.wikipedia.org/wiki/Deadlock)where both processes are waiting to be awakened. The problem can also be generalized to have multiple producers and consumers.
+The solution for the producer is to either go to sleep or discard data if the buffer is full. The next time the consumer removes an item from the buffer, it notifies the producer, who starts to fill the buffer again. In the same way, the consumer can go to sleep if it finds the buffer empty. The next time the producer puts data into the buffer, it wakes up the sleeping consumer. The solution can be reached by means of [inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication), typically using [semaphores](https://en.wikipedia.org/wiki/Semaphore_(programming)). An inadequate solution could result in a [deadlock](https://en.wikipedia.org/wiki/Deadlock) where both processes are waiting to be awakened. The problem can also be generalized to have multiple producers and consumers.
 
 # Reader-Writer Problem
 
-In[computer science](https://en.wikipedia.org/wiki/Computer_science), the**readers-writers problems**are examples of a common computing problem in[concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)). There are at least three variations of the problems, which deal with situations in which many[threads](https://en.wikipedia.org/wiki/Thread_(computer_science))try to access the same shared resource at one time. Some threads may read and some may write, with the constraint that no process may access the shared resource for either reading or writing while another process is in the act of writing to it. (In particular, it*is*allowed for two or more readers to access the share at the same time.) A[readers-writer lock](https://en.wikipedia.org/wiki/Readers-writer_lock)is a[data structure](https://en.wikipedia.org/wiki/Data_structure)that solves one or more of the readers-writers problems.
+In [computer science](https://en.wikipedia.org/wiki/Computer_science), the**readers-writers problems**are examples of a common computing problem in [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)). There are at least three variations of the problems, which deal with situations in which many [threads](https://en.wikipedia.org/wiki/Thread_(computer_science)) try to access the same shared resource at one time. Some threads may read and some may write, with the constraint that no process may access the shared resource for either reading or writing while another process is in the act of writing to it. (In particular, it*is*allowed for two or more readers to access the share at the same time.) A [readers-writer lock](https://en.wikipedia.org/wiki/Readers-writer_lock) is a [data structure](https://en.wikipedia.org/wiki/Data_structure) that solves one or more of the readers-writers problems.
 
 # Sleeping Barber Problem
 
@@ -53,17 +53,17 @@ The**sleeping barber problem**is a classic inter-process communication and [sync
 
 # Dining Philosophers Problem
 
-The**dining philosophers problem**is an example problem often used in[concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science))algorithm design to illustrate[synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science))issues and techniques for resolving them.
+The**dining philosophers problem**is an example problem often used in [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) algorithm design to illustrate [synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science)) issues and techniques for resolving them.
 
 ## Problem Statement
 
-Five silent[philosophers](https://en.wikipedia.org/wiki/Philosopher)sit at a round table with bowls of[spaghetti](https://en.wikipedia.org/wiki/Spaghetti). Forks are placed between each pair of adjacent philosophers.
+Five silent [philosophers](https://en.wikipedia.org/wiki/Philosopher) sit at a round table with bowls of [spaghetti](https://en.wikipedia.org/wiki/Spaghetti). Forks are placed between each pair of adjacent philosophers.
 
 Each philosopher must alternately think and eat. However, a philosopher can only eat spaghetti when they have both left and right forks. Each fork can be held by only one philosopher and so a philosopher can use the fork only if it is not being used by another philosopher. After an individual philosopher finishes eating, they need to put down both forks so that the forks become available to others. A philosopher can take the fork on their right or the one on their left as they become available, but cannot start eating before getting both forks.
 
 Eating is not limited by the remaining amounts of spaghetti or stomach space; an infinite supply and an infinite demand are assumed.
 
-The problem is how to design a discipline of behavior (a[concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science))[algorithm](https://en.wikipedia.org/wiki/Algorithm)) such that no philosopher will starve; i.e., each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.
+The problem is how to design a discipline of behavior (a [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science))[algorithm](https://en.wikipedia.org/wiki/Algorithm)) such that no philosopher will starve; i.e., each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.
 
 ## Solutions
 

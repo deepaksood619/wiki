@@ -47,7 +47,7 @@ videos = document.getElementsByTagName("video");
 
 for(var i = 0; i < videos.length; i++){
 
-videos[i].playbackRate = 2;
+videos [i].playbackRate = 2;
 
 }
 

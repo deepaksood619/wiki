@@ -10,7 +10,7 @@ A good question is the one that lets you obtain the**type,quality,** and**quanti
 
 Here are some basic but very effective types:
 
-- **Open-ended questions**encourage people to reflect and reveal what's important for them. They allow people to freely expand on what is comfortable for them, rather than justifying their thoughts. Open-ended questions tend to explore possibilities, feelings, and the reasons why. Michael J. Marquardt, author of[Leading with questions](https://www.amazon.com/Leading-Questions-Leaders-Solutions-Knowing/dp/1118658132), describes some types of open-ended questions:
+- **Open-ended questions**encourage people to reflect and reveal what's important for them. They allow people to freely expand on what is comfortable for them, rather than justifying their thoughts. Open-ended questions tend to explore possibilities, feelings, and the reasons why. Michael J. Marquardt, author of [Leading with questions](https://www.amazon.com/Leading-Questions-Leaders-Solutions-Knowing/dp/1118658132), describes some types of open-ended questions:
   - **Explorative**questions force expansion on new points of view and uncovered areas.Have you thought of...?
   - **Affective**questions reveal people's feelings about something.How do you feel about...?
   - **Reflective**questions encourage more elaboration.What do you think causes...?
@@ -62,7 +62,7 @@ iv. Because the cart is where we show shipping details and they think 10 days is
 
 v.  Because people buy our product as a gift to someone just a couple of days before the gifting date. 10 days is too long for shipping.
 
-By question five,[product designers](https://www.toptal.com/designers/product-design)most likely got closer to the root of the problem and shed light on new approaches to consider that weren't necessarily the original, "assumed" problem.
+By question five,[product designers](https://www.toptal.com/designers/product-design) most likely got closer to the root of the problem and shed light on new approaches to consider that weren't necessarily the original, "assumed" problem.
 
 ## Who, What, Where, When, Why, and How
 

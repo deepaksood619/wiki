@@ -291,7 +291,7 @@ Some of the really successful traders the world has seen are -- George Soros, Ed
 
 ## Scalper
 
-[Scalpers](https://www.investopedia.com/terms/s/scalpers.asp)are a specific type of short-term trader that may dart in and out of a stock or other[asset class](https://www.investopedia.com/terms/a/assetclasses.asp)dozens, or in some cases even hundreds, of times a day.
+[Scalpers](https://www.investopedia.com/terms/s/scalpers.asp) are a specific type of short-term trader that may dart in and out of a stock or other [asset class](https://www.investopedia.com/terms/a/assetclasses.asp) dozens, or in some cases even hundreds, of times a day.
 
 - Scalpers are often high-energy individuals who thrive during times of stress and have the means and temperament to handle the high trading volume.
 - Most often, because scalping requires considerable time, money, and skill, scalpers are professional traders.
@@ -382,7 +382,7 @@ Intraday position -- This is a trading position you initiate with an expectation
 
 ## Short Covering
 
-Short covering refers to buying back borrowed securities in order to close out an open short position at a profit or loss. It requires purchasing the same security that was initially[sold short](https://www.investopedia.com/terms/s/shortselling.asp), and handing back the shares initially borrowed for the short sale. This type of transaction is referred to as[buy to cover](https://www.investopedia.com/terms/b/buytocover.asp).
+Short covering refers to buying back borrowed securities in order to close out an open short position at a profit or loss. It requires purchasing the same security that was initially [sold short](https://www.investopedia.com/terms/s/shortselling.asp), and handing back the shares initially borrowed for the short sale. This type of transaction is referred to as [buy to cover](https://www.investopedia.com/terms/b/buytocover.asp).
 
 - Short covering can result in either a profit (if the asset is repurchased lower than where it was sold) or for a loss (if it is higher).
 - Short covering may be forced if there is a short squeeze and sellers become subject to margin calls. Measures of short interest can help predict the chances of a squeeze.
@@ -391,7 +391,7 @@ Short covering refers to buying back borrowed securities in order to close out a
 
 ## Short Squeeze
 
-A short squeeze is an unusual condition that triggers rapidly rising prices in a stock or other tradable security. For a short squeeze to occur, the[security](https://www.investopedia.com/terms/s/security.asp)must have an unusual degree of short sellers holding positions in it. The short squeeze begins when the price jumps higher unexpectedly. The condition plays out as a significant measure of the short sellers coincidentally decide to cut losses and exit their positions.
+A short squeeze is an unusual condition that triggers rapidly rising prices in a stock or other tradable security. For a short squeeze to occur, the [security](https://www.investopedia.com/terms/s/security.asp) must have an unusual degree of short sellers holding positions in it. The short squeeze begins when the price jumps higher unexpectedly. The condition plays out as a significant measure of the short sellers coincidentally decide to cut losses and exit their positions.
 
 - A short squeeze accelerates a stock's price rise as short sellers bail out to cut their losses.
 - Contrarian investors try to anticipate a short squeeze and buy stocks that demonstrate a strong short interest.
@@ -482,15 +482,15 @@ Trailing 12 months (TTM) is a term used to describe the past 12 consecutive mont
 
 ## Book value reflects the total value of a company's assets that shareholders of that company would receive if the company were to be liquidated
 
-The[book value](https://www.investopedia.com/terms/b/bookvalue.asp)literally means the value of a business according to its books (accounts) that is reflected through its[financial statements](https://www.investopedia.com/terms/f/financial-statements.asp). Theoretically, book value represents the total amount a company is worth if all its assets are sold and all the liabilities are paid back. This is the amount that the company's creditors and investors can expect to receive if the company is liquidated.
+The [book value](https://www.investopedia.com/terms/b/bookvalue.asp) literally means the value of a business according to its books (accounts) that is reflected through its [financial statements](https://www.investopedia.com/terms/f/financial-statements.asp). Theoretically, book value represents the total amount a company is worth if all its assets are sold and all the liabilities are paid back. This is the amount that the company's creditors and investors can expect to receive if the company is liquidated.
 
 ## GDR
 
-Aglobal depository receipt(GDRand sometimes spelleddepositary) is a general name for a[depositary receipt](https://en.wikipedia.org/wiki/Depositary_receipt)where a certificate issued by a[depository bank](https://en.wikipedia.org/wiki/Depository_bank), which purchases[shares](https://en.wikipedia.org/wiki/Share_(finance))of foreign companies, creates a[security](https://en.wikipedia.org/wiki/Security_(finance))on a local[exchange](https://en.wikipedia.org/wiki/Stock_exchange)backed by those shares. They are the global equivalent of the original[American depositary receipts](https://en.wikipedia.org/wiki/American_depositary_receipt)(ADR) on which they are based. GDRs represent ownership of an underlying number of[shares](https://en.wikipedia.org/wiki/Shares)of a foreign company and are commonly used to invest in companies from developing or[emerging markets](https://en.wikipedia.org/wiki/Emerging_markets)by investors in developed markets.
+Aglobal depository receipt(GDRand sometimes spelleddepositary) is a general name for a [depositary receipt](https://en.wikipedia.org/wiki/Depositary_receipt) where a certificate issued by a [depository bank](https://en.wikipedia.org/wiki/Depository_bank), which purchases [shares](https://en.wikipedia.org/wiki/Share_(finance)) of foreign companies, creates a [security](https://en.wikipedia.org/wiki/Security_(finance)) on a local [exchange](https://en.wikipedia.org/wiki/Stock_exchange) backed by those shares. They are the global equivalent of the original [American depositary receipts](https://en.wikipedia.org/wiki/American_depositary_receipt)(ADR) on which they are based. GDRs represent ownership of an underlying number of [shares](https://en.wikipedia.org/wiki/Shares) of a foreign company and are commonly used to invest in companies from developing or [emerging markets](https://en.wikipedia.org/wiki/Emerging_markets) by investors in developed markets.
 
-Prices of global depositary receipt are based on the values of related shares, but they are traded and settled independently of the underlying share. Typically, 1 GDR is equal to 10 underlying shares, but any ratio can be used. It is a[negotiable instrument](https://en.wikipedia.org/wiki/Negotiable_instrument)which is denominated in some freely convertible currency.GDRs enable a company, the issuer, to access investors in[capital markets](https://en.wikipedia.org/wiki/Capital_market)outside of its home country.
+Prices of global depositary receipt are based on the values of related shares, but they are traded and settled independently of the underlying share. Typically, 1 GDR is equal to 10 underlying shares, but any ratio can be used. It is a [negotiable instrument](https://en.wikipedia.org/wiki/Negotiable_instrument) which is denominated in some freely convertible currency.GDRs enable a company, the issuer, to access investors in [capital markets](https://en.wikipedia.org/wiki/Capital_market) outside of its home country.
 
-Several international banks issue GDRs, such as[JPMorgan Chase](https://en.wikipedia.org/wiki/JPMorgan_Chase),[Citigroup](https://en.wikipedia.org/wiki/Citigroup),[Deutsche Bank](https://en.wikipedia.org/wiki/Deutsche_Bank),[The Bank of New York Mellon](https://en.wikipedia.org/wiki/The_Bank_of_New_York_Mellon). GDRs are often listed in the[Frankfurt Stock Exchange](https://en.wikipedia.org/wiki/Frankfurt_Stock_Exchange),[Luxembourg Stock Exchange](https://en.wikipedia.org/wiki/Luxembourg_Stock_Exchange), and the[London Stock Exchange](https://en.wikipedia.org/wiki/London_Stock_Exchange), where they are traded on the International Order Book (IOB).
+Several international banks issue GDRs, such as [JPMorgan Chase](https://en.wikipedia.org/wiki/JPMorgan_Chase),[Citigroup](https://en.wikipedia.org/wiki/Citigroup),[Deutsche Bank](https://en.wikipedia.org/wiki/Deutsche_Bank),[The Bank of New York Mellon](https://en.wikipedia.org/wiki/The_Bank_of_New_York_Mellon). GDRs are often listed in the [Frankfurt Stock Exchange](https://en.wikipedia.org/wiki/Frankfurt_Stock_Exchange),[Luxembourg Stock Exchange](https://en.wikipedia.org/wiki/Luxembourg_Stock_Exchange), and the [London Stock Exchange](https://en.wikipedia.org/wiki/London_Stock_Exchange), where they are traded on the International Order Book (IOB).
 
 <https://en.wikipedia.org/wiki/Global_depository_receipt>
 
@@ -544,17 +544,17 @@ A trading account is used to place buy or sell orders in the stock market.
 
 ## Exchange-traded fund (Index ETF)
 
-An exchange-traded fund (ETF) is a collection of securities---such as stocks---that tracks an underlying[index](https://www.investopedia.com/terms/m/marketindex.asp).
+An exchange-traded fund (ETF) is a collection of securities---such as stocks---that tracks an underlying [index](https://www.investopedia.com/terms/m/marketindex.asp).
 
-An ETF is called an exchange-traded fund since it's traded on an exchange just like stocks. The price of an ETF's shares will change throughout the trading day as the shares are bought and sold on the market. This is[unlike mutual funds](https://www.investopedia.com/ask/answers/09/mutual-fund-etf.asp), which are not traded on an exchange, and trade only once per day after the markets close.
+An ETF is called an exchange-traded fund since it's traded on an exchange just like stocks. The price of an ETF's shares will change throughout the trading day as the shares are bought and sold on the market. This is [unlike mutual funds](https://www.investopedia.com/ask/answers/09/mutual-fund-etf.asp), which are not traded on an exchange, and trade only once per day after the markets close.
 
 ## CFD (Contract for Difference)
 
-The[contract for difference (CFD)](https://www.investopedia.com/terms/c/contractfordifferences.asp)offers European traders andinvestors an opportunity to profitfrom price movement without owning the underlying asset. It's a relatively simple securitycalculatedby the asset's movementbetween trade entry and exit, computing only the price changewithoutconsideration of the asset's underlying value.1﻿ This is accomplished through a contract between client and broker, and does not utilize any stock, forex, commodityor futures exchange.Trading CFDsofferseveral major advantagesthat haveincreased the instruments' enormous popularityin the past decade.
+The [contract for difference (CFD)](https://www.investopedia.com/terms/c/contractfordifferences.asp) offers European traders andinvestors an opportunity to profitfrom price movement without owning the underlying asset. It's a relatively simple securitycalculatedby the asset's movementbetween trade entry and exit, computing only the price changewithoutconsideration of the asset's underlying value.1﻿ This is accomplished through a contract between client and broker, and does not utilize any stock, forex, commodityor futures exchange.Trading CFDsofferseveral major advantagesthat haveincreased the instruments' enormous popularityin the past decade.
 
 ## Binary Option
 
-A binary option is a financial product where the buyer receives a payout or loses their investment, based on if the option expires[in the money](https://www.investopedia.com/terms/i/inthemoney.asp). Binary options depend on the outcome of a "yes or no" proposition, hence the name "binary." Binary options have an expiry date and/or time. At the time of expiry, the price of the[underlying asset](https://www.investopedia.com/terms/u/underlying-asset.asp)must be on the correct side of the[strike price](https://www.investopedia.com/terms/s/strikeprice.asp)(based on the trade taken) for the trader to make a profit.
+A binary option is a financial product where the buyer receives a payout or loses their investment, based on if the option expires [in the money](https://www.investopedia.com/terms/i/inthemoney.asp). Binary options depend on the outcome of a "yes or no" proposition, hence the name "binary." Binary options have an expiry date and/or time. At the time of expiry, the price of the [underlying asset](https://www.investopedia.com/terms/u/underlying-asset.asp) must be on the correct side of the [strike price](https://www.investopedia.com/terms/s/strikeprice.asp)(based on the trade taken) for the trader to make a profit.
 
 <table>
 <colgroup>
@@ -679,7 +679,7 @@ How should an investor deal with the possibility of a stock market crash?" - Thr
 
 ## Stocks
 
-- **EQ:** It stands for Equity. In this series[intraday trading](https://tradesmartonline.in/blog/what-is-intraday-trading-basics-for-beginners-in-stock-market/)is possible in addition to delivery.
+- **EQ:** It stands for Equity. In this series [intraday trading](https://tradesmartonline.in/blog/what-is-intraday-trading-basics-for-beginners-in-stock-market/) is possible in addition to delivery.
 - **BE:** It stands for Book Entry. Shares falling in the Trade-to-Trade or T-segment are traded in this series and no intraday is allowed. This means trades can only be settled by accepting or giving the delivery of shares.
 - **BL:**This series is for facilitating block deals.Block deal is a trade, with a minimum quantity of 5 lakh shares or minimum value of Rs. 5 crore, executed through a single transaction, on the special "Block Deal window". The window is opened for only 35 minutes in the morning from 9:15 to 9:50AM.
 - **BT:**This series provides an exit route to small investors having shares in the physical form with a cap of maximum 500 shares.
@@ -689,20 +689,20 @@ How should an investor deal with the possibility of a stock market crash?" - Thr
 
 ## New Fund Offer (NFO)
 
-A New Fund Offer (NFO) refers to the introductory offer of a scheme by an[asset management company](https://www.paisabazaar.com/mutual-funds/asset-management-company/). A New fund offer is raised when a fund is launched, which helps the firm raise capital for purchasing securities. An investor can subscribe to an NFO only within a limited time period; hence, NFOs are functional on first-come-first serve basis.
+A New Fund Offer (NFO) refers to the introductory offer of a scheme by an [asset management company](https://www.paisabazaar.com/mutual-funds/asset-management-company/). A New fund offer is raised when a fund is launched, which helps the firm raise capital for purchasing securities. An investor can subscribe to an NFO only within a limited time period; hence, NFOs are functional on first-come-first serve basis.
 
 ## Types of NFO
 
 - [Open-ended funds](https://www.paisabazaar.com/mutual-funds/open-ended-funds/): This fund is officially launched after the NFO ends. Investors can enter and exit the fund at any time after the launch.
-- Close-ended funds: A[close-ended fund](https://www.paisabazaar.com/mutual-funds/closed-end-funds/)does not allow the entry and/or exit of investors after the NFO period, until its maturity. This time period is typically 3-4 years from the launch date. However, the investors may buy and sell the units of such a fund on the stock market in theory, but the liquidity of such funds on the market tends to be low.
+- Close-ended funds: A [close-ended fund](https://www.paisabazaar.com/mutual-funds/closed-end-funds/) does not allow the entry and/or exit of investors after the NFO period, until its maturity. This time period is typically 3-4 years from the launch date. However, the investors may buy and sell the units of such a fund on the stock market in theory, but the liquidity of such funds on the market tends to be low.
 
 <https://www.paisabazaar.com/mutual-funds/all-about-nfo>
 
 ## SAFE Note - Simple Aggrement for Future Equity
 
-SAFE (simple agreement for future equity) notes are a simpler alternative to[convertible notes](https://www.upcounsel.com/convertible-notes). They were created in 2013 by Y Combinator, a Silicon Valley accelerator, and allow startups to structure seed investments without interest rates or maturity dates. SAFEs are short five-page documents. The valuation caps are the only negotiable detail.
+SAFE (simple agreement for future equity) notes are a simpler alternative to [convertible notes](https://www.upcounsel.com/convertible-notes). They were created in 2013 by Y Combinator, a Silicon Valley accelerator, and allow startups to structure seed investments without interest rates or maturity dates. SAFEs are short five-page documents. The valuation caps are the only negotiable detail.
 
-A SAFE note is a convertible security that, like an option or warrant, allows the investor to buy shares in a future priced round. It addresses many of the drawbacks and challenges posed by convertible notes and can be an equitable option for investors and[founders](https://www.upcounsel.com/blog/the-one-thing-that-every-new-entrepreneur-should-know). Startups may prefer SAFE notes because, unlike convertible notes, they are not debt and therefore do not accrue interest.
+A SAFE note is a convertible security that, like an option or warrant, allows the investor to buy shares in a future priced round. It addresses many of the drawbacks and challenges posed by convertible notes and can be an equitable option for investors and [founders](https://www.upcounsel.com/blog/the-one-thing-that-every-new-entrepreneur-should-know). Startups may prefer SAFE notes because, unlike convertible notes, they are not debt and therefore do not accrue interest.
 
 <https://www.upcounsel.com/safe-notes>
 

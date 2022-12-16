@@ -22,7 +22,7 @@ An array is collection of items stored at continuous memory locations. The idea 
 ## Advantages of using arrays
 
 - Arrays allow random access of elements. This makes accessing elements by position faster. Constant time access of elements
-- Arrays have better[cache locality](https://en.wikipedia.org/wiki/Locality_of_reference)that can make a pretty big difference in performance.
+- Arrays have better [cache locality](https://en.wikipedia.org/wiki/Locality_of_reference) that can make a pretty big difference in performance.
 
 ## Cons of arrays
 
@@ -33,7 +33,7 @@ An array is collection of items stored at continuous memory locations. The idea 
 
 - When computing the slice of a list, the result is a new list instance.
 - New list has references to the same elements that are in the original list.
-- temp = primes[3:6]
+- temp = primes [3:6]
 ![image](media/Array-image1.png)**Copying Arrays**
 - Shallow copy
   - Create a new list that has the references to the same elements as in first list.
@@ -56,7 +56,7 @@ Python has 3 main sequence classes:
 - Tuple (1,2,3)
 - String '123'
 
-All support indexing (eg. T[0] = 1)
+All support indexing (eg. T [0] = 1)
 
 ## Low Level Arrays
 

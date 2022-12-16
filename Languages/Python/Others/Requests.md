@@ -9,7 +9,7 @@ Modified: 2021-06-30 00:02:00 +0500
 ```python
 r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
 r.status_code
-r.headers['content-type']
+r.headers ['content-type']
 r.encoding
 r.text
 r.json()

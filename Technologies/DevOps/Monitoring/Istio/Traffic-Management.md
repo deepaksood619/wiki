@@ -139,11 +139,11 @@ httpHeaderName: x-user
 
 Gatewaydescribes a load balancer operating at the edge of the mesh receiving incoming or outgoing HTTP/TCP connections. The specification describes a set of ports that should be exposed, the type of protocol to use, SNI configuration for the load balancer, etc.
 
-You use a[gateway](https://istio.io/docs/reference/config/networking/gateway/#Gateway)to manage inbound and outbound traffic for your mesh, letting you specify which traffic you want to enter or leave the mesh. Gateway configurations are applied to standalone Envoy proxies that are running at the edge of the mesh, rather than sidecar Envoy proxies running alongside your service workloads.
+You use a [gateway](https://istio.io/docs/reference/config/networking/gateway/#Gateway) to manage inbound and outbound traffic for your mesh, letting you specify which traffic you want to enter or leave the mesh. Gateway configurations are applied to standalone Envoy proxies that are running at the edge of the mesh, rather than sidecar Envoy proxies running alongside your service workloads.
 
-Unlike other mechanisms for controlling traffic entering your systems, such as the Kubernetes Ingress APIs, Istio gateways let you use the full power and flexibility of Istio's traffic routing. You can do this because Istio's Gateway resource just lets you configure layer 4-6 load balancing properties such as ports to expose, TLS settings, and so on. Then instead of adding application-layer traffic routing (L7) to the same API resource, you bind a regular Istio[virtual service](https://istio.io/docs/concepts/traffic-management/#virtual-services)to the gateway. This lets you basically manage gateway traffic like any other data plane traffic in an Istio mesh.
+Unlike other mechanisms for controlling traffic entering your systems, such as the Kubernetes Ingress APIs, Istio gateways let you use the full power and flexibility of Istio's traffic routing. You can do this because Istio's Gateway resource just lets you configure layer 4-6 load balancing properties such as ports to expose, TLS settings, and so on. Then instead of adding application-layer traffic routing (L7) to the same API resource, you bind a regular Istio [virtual service](https://istio.io/docs/concepts/traffic-management/#virtual-services) to the gateway. This lets you basically manage gateway traffic like any other data plane traffic in an Istio mesh.
 
-Gateways are primarily used to manage ingress traffic, but you can also configure egress gateways. An egress gateway lets you configure a dedicated exit node for the traffic leaving the mesh, letting you limit which services can or should access external networks, or to enable[secure control of egress traffic](https://istio.io/blog/2019/egress-traffic-control-in-istio-part-1/)to add security to your mesh, for example. You can also use a gateway to configure a purely internal proxy.
+Gateways are primarily used to manage ingress traffic, but you can also configure egress gateways. An egress gateway lets you configure a dedicated exit node for the traffic leaving the mesh, letting you limit which services can or should access external networks, or to enable [secure control of egress traffic](https://istio.io/blog/2019/egress-traffic-control-in-istio-part-1/) to add security to your mesh, for example. You can also use a gateway to configure a purely internal proxy.
 
 apiVersion: networking.istio.io/v1alpha3
 
@@ -183,12 +183,12 @@ privateKey: /tmp/tls.key
 
 ## Service Entries
 
-You use a[service entry](https://istio.io/docs/reference/config/networking/service-entry/#ServiceEntry)to add an entry to the service registry that Istio maintains internally. After you add the service entry, the Envoy proxies can send traffic to the service as if it was a service in your mesh. Configuring service entries allows you to manage traffic for services running outside of the mesh, including the following tasks:
+You use a [service entry](https://istio.io/docs/reference/config/networking/service-entry/#ServiceEntry) to add an entry to the service registry that Istio maintains internally. After you add the service entry, the Envoy proxies can send traffic to the service as if it was a service in your mesh. Configuring service entries allows you to manage traffic for services running outside of the mesh, including the following tasks:
 
 - Redirect and forward traffic for external destinations, such as APIs consumed from the web, or traffic to services in legacy infrastructure.
-- Define[retry](https://istio.io/docs/concepts/traffic-management/#retries),[timeout](https://istio.io/docs/concepts/traffic-management/#timeouts), and[fault injection](https://istio.io/docs/concepts/traffic-management/#fault-injection)policies for external destinations.
-- Run a mesh service in a Virtual Machine (VM) by[adding VMs to your mesh](https://istio.io/docs/examples/virtual-machines/).
-- Logically add services from a different cluster to the mesh to configure a[multicluster Istio mesh](https://istio.io/docs/setup/install/multicluster/gateways/#configure-the-example-services)on Kubernetes.
+- Define [retry](https://istio.io/docs/concepts/traffic-management/#retries),[timeout](https://istio.io/docs/concepts/traffic-management/#timeouts), and [fault injection](https://istio.io/docs/concepts/traffic-management/#fault-injection) policies for external destinations.
+- Run a mesh service in a Virtual Machine (VM) by [adding VMs to your mesh](https://istio.io/docs/examples/virtual-machines/).
+- Logically add services from a different cluster to the mesh to configure a [multicluster Istio mesh](https://istio.io/docs/setup/install/multicluster/gateways/#configure-the-example-services) on Kubernetes.
 
 You don't need to add a service entry for every external service that you want your mesh services to use. By default, Istio configures the Envoy proxies to passthrough requests to unknown services. However, you can't use Istio features to control the traffic to destinations that aren't registered in the mesh.
 
@@ -222,7 +222,7 @@ resolution: DNS
 
 ## Sidecars
 
-By default, Istio configures every Envoy proxy to accept traffic on all the ports of its associated workload, and to reach every workload in the mesh when forwarding traffic. You can use a[sidecar](https://istio.io/docs/reference/config/networking/sidecar/#Sidecar)configuration to do the following:
+By default, Istio configures every Envoy proxy to accept traffic on all the ports of its associated workload, and to reach every workload in the mesh when forwarding traffic. You can use a [sidecar](https://istio.io/docs/reference/config/networking/sidecar/#Sidecar) configuration to do the following:
 
 - Fine-tune the set of ports and protocols that an Envoy proxy accepts.
 - Limit the set of services that the Envoy proxy can reach.
@@ -279,7 +279,7 @@ This is where the BlackHole and Passthrough clusters are used.
 
 - **BlackHoleCluster**
 
-The BlackHoleCluster is a virtual cluster created in the Envoy configuration whenglobal.outboundTrafficPolicy.modeis set toREGISTRY_ONLY. In this mode, all traffic to external service is blocked unless[service entries](https://istio.io/latest/docs/reference/config/networking/service-entry)are explicitly added for each service. To implement this, the default virtual outbound listener at0.0.0.0:15001which uses[original destination](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/service_discovery#original-destination)is setup as a TCP Proxy with the BlackHoleCluster as the static cluster. The configuration for the BlackHoleCluster looks like this:
+The BlackHoleCluster is a virtual cluster created in the Envoy configuration whenglobal.outboundTrafficPolicy.modeis set toREGISTRY_ONLY. In this mode, all traffic to external service is blocked unless [service entries](https://istio.io/latest/docs/reference/config/networking/service-entry) are explicitly added for each service. To implement this, the default virtual outbound listener at0.0.0.0:15001which uses [original destination](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/service_discovery#original-destination) is setup as a TCP Proxy with the BlackHoleCluster as the static cluster. The configuration for the BlackHoleCluster looks like this:
 
 {
 "name": "BlackHoleCluster",
@@ -306,7 +306,7 @@ As you can see, this cluster is static with no endpoints so all the traffic will
 ]
 }
 
-The route is setup as[direct response](https://www.envoyproxy.io/docs/envoy/latest/api-v2/api/v2/route/route_components.proto#envoy-api-field-route-route-direct-response)with502response code which means if no other routes match the Envoy proxy will directly return a502HTTP status code.
+The route is setup as [direct response](https://www.envoyproxy.io/docs/envoy/latest/api-v2/api/v2/route/route_components.proto#envoy-api-field-route-route-direct-response) with502response code which means if no other routes match the Envoy proxy will directly return a502HTTP status code.
 
 - **PassthroughCluster**
 
@@ -327,7 +327,7 @@ The PassthroughCluster is a virtual cluster created in the Envoy configuration w
 }
 }
 
-This cluster uses the[original destination load balancing](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/service_discovery#original-destination)policy which configures Envoy to send the traffic to the original destination i.e. passthrough.
+This cluster uses the [original destination load balancing](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/upstream/service_discovery#original-destination) policy which configures Envoy to send the traffic to the original destination i.e. passthrough.
 
 Similar to the BlackHoleCluster, for every port/protocol based listener the virtual route configuration is augmented to add the PassthroughCluster as the default route:
 

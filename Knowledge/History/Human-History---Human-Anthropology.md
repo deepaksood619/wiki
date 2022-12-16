@@ -20,7 +20,7 @@ Modified: 2022-09-21 00:06:59 +0500
   - Modern human have some neaderthal's DNA, so there was some mixing
 - 70,000 years ago only humans got some abstract thinking capabilities to survive in today's generation
 - 50,000 years ago there was explosion in innovation; tools and weapons became more sophisticated and culture became more complex; communication improved and inturn cooperation improved in large groups
-- Humans started fishing somewhere between[40,000](https://bn9wksbn.r.us-east-1.awstrack.me/L0/https:%2F%2Fwww.alimentarium.org%2Fen%2Fknowledge%2Fhistory-fishing/1/010001816547a836-a6b3f3e8-4853-461c-ace6-ca9f2ad8ddf1-000000/3rZTTMmSVYfh1xf6V8Y1ZcL1Bis=274)and 10000 years BCE.
+- Humans started fishing somewhere between [40,000](https://bn9wksbn.r.us-east-1.awstrack.me/L0/https:%2F%2Fwww.alimentarium.org%2Fen%2Fknowledge%2Fhistory-fishing/1/010001816547a836-a6b3f3e8-4853-461c-ace6-ca9f2ad8ddf1-000000/3rZTTMmSVYfh1xf6V8Y1ZcL1Bis=274) and 10000 years BCE.
 - 12,000 years ago agriculture started in multiple locations; because of this specialization started
 - 500 years ago scientific revolution happened; industrial revolution
 

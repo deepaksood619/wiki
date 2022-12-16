@@ -9,8 +9,8 @@ Modified: 2021-07-08 01:08:01 +0500
 - OAuth is an open standard for access delegation
 - OAuth provides to clients a "secure delegated access" to server resources on behalf of a resource owner
 - OAuth2 is more of a framework than a defined protocol
-[OAuth 2.0](https://oauth.net/2/)is a protocol that allows a user to grant limited access to their resources on one site, to another site, without having to expose their credentials.
-According to[OAuth's website](http://oauth.net/about/)the protocol is not unlike a valet key.
+[OAuth 2.0](https://oauth.net/2/) is a protocol that allows a user to grant limited access to their resources on one site, to another site, without having to expose their credentials.
+According to [OAuth's website](http://oauth.net/about/) the protocol is not unlike a valet key.
 
 Many luxury cars today come with a valet key. It is a special key you give the parking attendant and unlike your regular key, will not allow the car to drive more than a mile or two. Some valet keys will not open the trunk, while others will block access to your onboard cell phone address book. Regardless of what restrictions the valet key imposes, the idea is very clever. You give someone limited access to your car with a special key, while using your regular key to unlock everything.
 ![image](media/Authentication_OAuth-image1.png)
@@ -56,7 +56,7 @@ Youtube - [What is OAuth2? How does OAuth2 work? | Tech Primers](https://www.you
 
 - **Authorization Code**
   - Only valid for one-time use, since its only usage is to exchange it for an access token
-  - Expires very quickly (according to this[article](https://www.oauth.com/oauth2-servers/authorization/the-authorization-response/), the OAuth protocol's recommended maximum is 10 minutes, and many services' authorization codes expire even earlier)-   **Access Token**
+  - Expires very quickly (according to this [article](https://www.oauth.com/oauth2-servers/authorization/the-authorization-response/), the OAuth protocol's recommended maximum is 10 minutes, and many services' authorization codes expire even earlier)-   **Access Token**
   - Can be obtained using the authorization code
   - Put in the headers of any API requests to Google on behalf of the user
   - Expires after one hour (the expiration time may vary if you're using something besides Google)
@@ -70,8 +70,8 @@ Sliding-sessions are sessions that expire after aperiod of inactivity. As you ca
 
 ## OAuth vs OpenID Connect (OIDC)
 
-The[OAuth 2.0 Framework](https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs/)describes overarching patterns for granting authorization but does not define how to actually perform authentication. The application using OAuth constructs a specific request for permissions to a third party system - usually called an Identity Provider (IdP) - which handles the authentication process and returns an Access Token representing success. The IdP may require additional factors such as SMS or email but that is entirely outside the scope of OAuth. Finally, the contents and structure of that Access Token are undefined by default. This ambiguity guarantees that Identity Providers will build incompatible systems.
-Luckily,[OpenID Connect](https://openid.net/connect/)or OIDC brings some sanity to the madness. It is an OAuth extension which adds and strictly defines an ID Token for returning user information. Now when we log in with our Identity Provider, it can return specific fields that our applications can expect and handle. The important thing to remember is that OIDC is just a special, simplified case of OAuth, not a replacement. It uses the same terminology and concepts.
+The [OAuth 2.0 Framework](https://www.oauth.com/oauth2-servers/map-oauth-2-0-specs/) describes overarching patterns for granting authorization but does not define how to actually perform authentication. The application using OAuth constructs a specific request for permissions to a third party system - usually called an Identity Provider (IdP) - which handles the authentication process and returns an Access Token representing success. The IdP may require additional factors such as SMS or email but that is entirely outside the scope of OAuth. Finally, the contents and structure of that Access Token are undefined by default. This ambiguity guarantees that Identity Providers will build incompatible systems.
+Luckily,[OpenID Connect](https://openid.net/connect/) or OIDC brings some sanity to the madness. It is an OAuth extension which adds and strictly defines an ID Token for returning user information. Now when we log in with our Identity Provider, it can return specific fields that our applications can expect and handle. The important thing to remember is that OIDC is just a special, simplified case of OAuth, not a replacement. It uses the same terminology and concepts.
 <https://blog.runscope.com/posts/understanding-oauth-2-and-openid-connect>
 
 ## Map of OAuth 2.0 Specs**

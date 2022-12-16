@@ -28,7 +28,7 @@ Strength training using resistance or weights is the primary anaerobic activity 
 
 3. Flexibility
 
-Stretching is a type of flexibility exercise that keeps your muscles relaxed and able to move freely. Without stretching either before or after a workout, you're more prone to injuries like tears and pulls.[Yoga](https://www.sleepadvisor.org/yoga-for-sleep/)is also a fantastic activity for flexibility.
+Stretching is a type of flexibility exercise that keeps your muscles relaxed and able to move freely. Without stretching either before or after a workout, you're more prone to injuries like tears and pulls.[Yoga](https://www.sleepadvisor.org/yoga-for-sleep/) is also a fantastic activity for flexibility.
 
 <https://www.sleepadvisor.org/sleep-after-workout>
 

@@ -206,7 +206,7 @@ The*length*sub-specifier modifies the length of the data type. This is a chart s
 | t            | [ptrdiff_t](http://www.cplusplus.com/ptrdiff_t) | [ptrdiff_t](http://www.cplusplus.com/ptrdiff_t) |                    |                                          |          |       | [ptrdiff_t](http://www.cplusplus.com/ptrdiff_t)* |
 | L            |                                                |                                                | long double         |                                          |          |       |                                                  |
 
-Note regarding thecspecifier: it takes anint(or[wint_t](http://www.cplusplus.com/wint_t)) as argument, but performs the proper conversion to acharvalue (or awchar_t) before formatting it for output.
+Note regarding thecspecifier: it takes anint(or [wint_t](http://www.cplusplus.com/wint_t)) as argument, but performs the proper conversion to acharvalue (or awchar_t) before formatting it for output.
 
 ## Return Value
 
@@ -214,7 +214,7 @@ On success, the total number of characters written is returned.
 
 If a writing error occurs, the*error indicator*([ferror](http://www.cplusplus.com/ferror)) is set and a negative number is returned.
 
-If a multibyte character encoding error occurs while writing wide characters,[errno](http://www.cplusplus.com/errno)is set toEILSEQand a negative number is returned.
+If a multibyte character encoding error occurs while writing wide characters,[errno](http://www.cplusplus.com/errno) is set toEILSEQand a negative number is returned.
 
 ## Reference
 

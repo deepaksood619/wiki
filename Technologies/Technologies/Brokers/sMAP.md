@@ -10,8 +10,8 @@ Modified: 2018-10-05 17:51:28 +0500
 
 An enormous amount of physical information; that is, information from and about the world is available today as the cost of communication and instrumentation has fallen. However, making use of that information is still challenging. The information is frequently siloed into proprietary systems, available only in batch, fragmentary, and disorganized. The sMAP project aims to change this by making it available and usable:
 
-- a[**specification**](https://people.eecs.berkeley.edu/~stevedh/smap2/_downloads/v2.pdf)for transmitting physical data and describing its contents,
-- a[***large set***](https://people.eecs.berkeley.edu/~stevedh/smap2/driver_index.html#driver-index)of free and open drivers for communicating with devices using native protocols and transforming it to the sMAP profile, and
+- a [**specification**](https://people.eecs.berkeley.edu/~stevedh/smap2/_downloads/v2.pdf) for transmitting physical data and describing its contents,
+- a [***large set***](https://people.eecs.berkeley.edu/~stevedh/smap2/driver_index.html#driver-index) of free and open drivers for communicating with devices using native protocols and transforming it to the sMAP profile, and
 - tools for building, organizing, and querying large repositories of physical data.
 
 ![image](../../media/Technologies-Brokers-sMAP-image1.png)
@@ -69,7 +69,7 @@ The sMAP architecture consists of several components which may be used together 
 
 - Front-Ends
 
-the**powerdb2**project provides plotting and organization of time-series data. Due to the decoupled nature of sMAP, this front-end can be run by anyone without installing the database. The application is designed to give users a large amount of flexibility to organize, display and plot streams using[***Query Language***](https://people.eecs.berkeley.edu/~stevedh/smap2/archiver.html#archiverquery)to generate tree views of their streams.
+the**powerdb2**project provides plotting and organization of time-series data. Due to the decoupled nature of sMAP, this front-end can be run by anyone without installing the database. The application is designed to give users a large amount of flexibility to organize, display and plot streams using [***Query Language***](https://people.eecs.berkeley.edu/~stevedh/smap2/archiver.html#archiverquery) to generate tree views of their streams.
 
 ## Sending data via API
 

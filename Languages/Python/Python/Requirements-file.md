@@ -6,13 +6,13 @@ Modified: 2020-08-03 13:36:38 +0500
 
 ---
 
-pip supports installing from[PyPI](http://pypi.python.org/pypi), version control, local projects, and directly from distribution files.
+pip supports installing from [PyPI](http://pypi.python.org/pypi), version control, local projects, and directly from distribution files.
 
-The most common scenario is to install from[PyPI](http://pypi.python.org/pypi)using[Requirement Specifiers](https://pip.pypa.io/en/stable/reference/pip_install/#requirement-specifiers) "Requirements files" are files containing a list of items to be installed using[pip install](https://pip.pypa.io/en/stable/reference/pip_install/#pip-install)like so:
+The most common scenario is to install from [PyPI](http://pypi.python.org/pypi) using [Requirement Specifiers](https://pip.pypa.io/en/stable/reference/pip_install/#requirement-specifiers) "Requirements files" are files containing a list of items to be installed using [pip install](https://pip.pypa.io/en/stable/reference/pip_install/#pip-install) like so:
 
 pip install -r requirements.txt
 
-Logically, a Requirements file is just a list of[pip install](https://pip.pypa.io/en/stable/reference/pip_install/#pip-install)arguments placed in a file. Note that you should not rely on the items in the file being installed by pip in any particular order.
+Logically, a Requirements file is just a list of [pip install](https://pip.pypa.io/en/stable/reference/pip_install/#pip-install) arguments placed in a file. Note that you should not rely on the items in the file being installed by pip in any particular order.
 
 Ex of a requirements.txt file
 
@@ -28,13 +28,13 @@ django-admin-rangefilter=0.3.1
 
 Python dependency management and packaging made easy.
 
-poetryis a tool to handle dependency installation as well as building and packaging of Python packages. It only needs one file to do all of that: the new,[standardized](https://www.python.org/dev/peps/pep-0518/)pyproject.toml
+poetryis a tool to handle dependency installation as well as building and packaging of Python packages. It only needs one file to do all of that: the new,[standardized](https://www.python.org/dev/peps/pep-0518/) pyproject.toml
 
 In other words, poetry usespyproject.tomlto replacesetup.py,requirements.txt,setup.cfg,MANIFEST.inand the newly addedPipfile
 
 ## Features
 
-- It will try to enforce[semantic versioning](http://semver.org/)as the best practice in version naming.
+- It will try to enforce [semantic versioning](http://semver.org/) as the best practice in version naming.
 - You can specify the readme, included and excluded files: no moreMANIFEST.in.poetrywill also use VCS ignore files (like.gitignore) to populate theexcludesection.
 - Keywords (up to 5) can be specified and will act as tags on the packaging site.
 - The dependencies sections support caret, tilde, wildcard, inequality and multiple requirements.

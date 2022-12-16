@@ -13,7 +13,7 @@ Modified: 2022-05-05 23:51:21 +0500
 - Project budget:How much money is going to be spent on this project? How is it divided up?
 - Timeline:When is your project due by?
 - Goals:What are the project's end goals and deliverables? Start there and work backward.
-- Values:How do your organizational goals and values apply to this project? Knowing this will help set expectations (and help you hold team members[accountable for their commitments](https://blog.trello.com/accountability-tips-remote-work?hsLang=en)).
+- Values:How do your organizational goals and values apply to this project? Knowing this will help set expectations (and help you hold team members [accountable for their commitments](https://blog.trello.com/accountability-tips-remote-work?hsLang=en)).
 - Complexity and Scale:How complex or simple is this project?
 - Flexibility:How flexible or rigid is this project and its end goals, timelines, deliverables, and team or stakeholder expectations?
 - Project type and industry:Some methodologies work best for certain industries and project types, such as highly creative projects or product development sprints.
@@ -135,7 +135,7 @@ OrgChart
 
 ## The Chicken and the Pig
 
-The[business fable](https://en.wikipedia.org/wiki/Business_fable)ofThe Chicken and the Pigis about commitment to a project or cause. When producing a dish made of eggs with ham or bacon, the[pig](https://en.wikipedia.org/wiki/Pig)provides the ham or bacon which requires his or her sacrifice and the[chicken](https://en.wikipedia.org/wiki/Chicken)provides the eggs which are not difficult to produce. Thus the pig is really committed to that dish while the chicken is only involved, yet both are needed to produce the dish.
+The [business fable](https://en.wikipedia.org/wiki/Business_fable) ofThe Chicken and the Pigis about commitment to a project or cause. When producing a dish made of eggs with ham or bacon, the [pig](https://en.wikipedia.org/wiki/Pig) provides the ham or bacon which requires his or her sacrifice and the [chicken](https://en.wikipedia.org/wiki/Chicken) provides the eggs which are not difficult to produce. Thus the pig is really committed to that dish while the chicken is only involved, yet both are needed to produce the dish.
 
 The Chicken is involved, but the Pig commits!
 
@@ -153,7 +153,7 @@ The Chicken is involved, but the Pig commits!
 
 ## RACI Matrix
 
-Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear responsibility chart(LRC), describes the participation by various[roles](https://en.wikipedia.org/wiki/Role)in completing[tasks](https://en.wikipedia.org/wiki/Task_(project_management))or[deliverables](https://en.wikipedia.org/wiki/Deliverable)for a[project](https://en.wikipedia.org/wiki/Project)or[business process](https://en.wikipedia.org/wiki/Business_process). RACI is an[acronym](https://en.wikipedia.org/wiki/Acronym)derived from the four key responsibilities most typically used: **responsible, accountable, consulted, andinformed**.It is used for clarifying and defining roles and responsibilities in cross-functional or departmental projects and processes
+Aresponsibility assignment matrix(RAM), also known asRACI matrix orlinear responsibility chart(LRC), describes the participation by various [roles](https://en.wikipedia.org/wiki/Role) in completing [tasks](https://en.wikipedia.org/wiki/Task_(project_management)) or [deliverables](https://en.wikipedia.org/wiki/Deliverable) for a [project](https://en.wikipedia.org/wiki/Project) or [business process](https://en.wikipedia.org/wiki/Business_process). RACI is an [acronym](https://en.wikipedia.org/wiki/Acronym) derived from the four key responsibilities most typically used: **responsible, accountable, consulted, andinformed**.It is used for clarifying and defining roles and responsibilities in cross-functional or departmental projects and processes
 
 <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
 

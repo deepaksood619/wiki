@@ -17,7 +17,7 @@ Modified: 2020-07-01 13:41:18 +0500
 
 ## Process
 
-In general, most processes can be described as either**[I/O-bound](https://en.wikipedia.org/wiki/I/O-bound)or[CPU-bound](https://en.wikipedia.org/wiki/CPU-bound)**. An I/O-bound process is one that spends more of its time doing I/O than it spends doing computations. A CPU-bound process, in contrast, generates I/O requests infrequently, using more of its time doing computations. It is important that a long-term scheduler selects a good process mix of I/O-bound and CPU-bound processes. If all processes are I/O-bound, the ready queue will almost always be empty, and the short-term scheduler will have little to do. On the other hand, if all processes are CPU-bound, the I/O waiting queue will almost always be empty, devices will go unused, and again the system will be unbalanced. The system with the best performance will thus have a combination of CPU-bound and I/O-bound processes. In modern operating systems, this is used to make sure that real-time processes get enough CPU time to finish their tasks.
+In general, most processes can be described as either**[I/O-bound](https://en.wikipedia.org/wiki/I/O-bound) or [CPU-bound](https://en.wikipedia.org/wiki/CPU-bound)**. An I/O-bound process is one that spends more of its time doing I/O than it spends doing computations. A CPU-bound process, in contrast, generates I/O requests infrequently, using more of its time doing computations. It is important that a long-term scheduler selects a good process mix of I/O-bound and CPU-bound processes. If all processes are I/O-bound, the ready queue will almost always be empty, and the short-term scheduler will have little to do. On the other hand, if all processes are CPU-bound, the I/O waiting queue will almost always be empty, devices will go unused, and again the system will be unbalanced. The system with the best performance will thus have a combination of CPU-bound and I/O-bound processes. In modern operating systems, this is used to make sure that real-time processes get enough CPU time to finish their tasks.
 
 ## Threads
 
@@ -101,7 +101,7 @@ In concept,
 That being said, this doesn't always guarantee a better performance than processes in this multi-core processor world.
 e.g. Linux doesn't distinguish between threads and processes and both are called tasks. Each task can have a minimum to maximum level of sharing when cloned.
 When you callfork(), a new task is created with no shared file descriptors, PIDs and memory space. When you callpthread_create(), a new task is created with all of the above shared.
-Also, synchronising data in[shared memory](https://users.cs.cf.ac.uk/Dave.Marshall/C/node27.html)as well as in[L1 cache](https://www.quora.com/What-is-the-L1-L2-and-L3-cache-of-a-microprocessor-and-how-does-it-affect-the-performance-of-it-For-example-I-have-a-laptop-with-an-Intel-4700MQ-microprocessor-with-a-6MB-L3-cache-What-does-this-value-indicate)of tasks running on multiple cores takes a bigger toll than running different processes on isolated memory.
+Also, synchronising data in [shared memory](https://users.cs.cf.ac.uk/Dave.Marshall/C/node27.html) as well as in [L1 cache](https://www.quora.com/What-is-the-L1-L2-and-L3-cache-of-a-microprocessor-and-how-does-it-affect-the-performance-of-it-For-example-I-have-a-laptop-with-an-Intel-4700MQ-microprocessor-with-a-6MB-L3-cache-What-does-this-value-indicate) of tasks running on multiple cores takes a bigger toll than running different processes on isolated memory.
 Linux developers have tried to minimise the cost between task switch and have succeeded at it. Creating a new task is still a bigger overhead than a new thread but switching is not.
 
 ## What can be improved in Threads?
@@ -179,11 +179,11 @@ Synchronizationrefers to one of two distinct but related concepts
 
 1. **Process Synchronization**
 
-Process synchronizationrefers to the idea that multiple processes are to join up or[handshake](https://en.wikipedia.org/wiki/Handshaking)at a certain point, in order to reach an agreement or commit to a certain sequence of action.
+Process synchronizationrefers to the idea that multiple processes are to join up or [handshake](https://en.wikipedia.org/wiki/Handshaking) at a certain point, in order to reach an agreement or commit to a certain sequence of action.
 
 2. **Data Synchronization**
 
-[Data synchronization](https://en.wikipedia.org/wiki/Data_synchronization)refers to the idea of keeping multiple copies of a dataset in coherence with one another, or to maintain[data integrity](https://en.wikipedia.org/wiki/Data_integrity)
+[Data synchronization](https://en.wikipedia.org/wiki/Data_synchronization) refers to the idea of keeping multiple copies of a dataset in coherence with one another, or to maintain [data integrity](https://en.wikipedia.org/wiki/Data_integrity)
 Process synchronization primitives are commonly used to implement data synchronization.
 
 ## Need for synchronization
@@ -191,7 +191,7 @@ Process synchronization primitives are commonly used to implement data synchroni
 The need for synchronization does not arise merely in multi-processor systems but for any kind of concurrent processes; even in single processor systems. Mentioned below are some of the main needs for synchronization:
 
 - [Forks and Joins](https://en.wikipedia.org/wiki/Fork-join_model):When a job arrives at a fork point, it is split into N sub-jobs which are then serviced by n tasks. After being serviced, each sub-job waits until all other sub-jobs are done processing. Then, they are joined again and leave the system. Thus, in parallel programming, we require synchronization as all the parallel processes wait for several other processes to occur.
-- [Producer-Consumer:](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)In a producer-consumer relationship, the consumer process is dependent on the producer process till the necessary data has been produced.
+- [Producer-Consumer:](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) In a producer-consumer relationship, the consumer process is dependent on the producer process till the necessary data has been produced.
 - Exclusive use resources:When multiple processes are dependent on a resource and they need to access it at the same time the operating system needs to ensure that only one processor accesses it at a given point in time.This reduces concurrency.
 
 ## Implementation of Synchronization
@@ -202,8 +202,8 @@ Another effective way of implementing synchronization is by using spinlocks. Bef
 
 Barriers are simple to implement and provide good responsiveness. They are based on the concept of implementing wait cycles to provide synchronization. Consider three threads running simultaneously, starting from barrier 1. After time t, thread1 reaches barrier 2 but it still has to wait for thread 2 and 3 to reach barrier2 as it does not have the correct data. Once all the threads reach barrier 2 they all start again. After time t, thread 1 reaches barrier3 but it will have to wait for threads 2 and 3 and the correct data again.
 Thus, in barrier synchronization of multiple threads there will always be a few threads that will end up waiting for other threads as in the above example thread 1 keeps waiting for thread 2 and 3. This results in severe degradation of the process performance.
-In[parallel computing](https://en.wikipedia.org/wiki/Parallel_computing), abarrieris a type of[synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science))method. A barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier.
-Many collective routines and directive-based parallel languages impose implicit barriers. For example, a paralleldoloop in[Fortran](https://en.wikipedia.org/wiki/Fortran)with[OpenMP](https://en.wikipedia.org/wiki/OpenMP)will not be allowed to continue on any thread until the last iteration is completed. This is in case the program relies on the result of the loop immediately after its completion. In[message passing](https://en.wikipedia.org/wiki/Message_passing), any global communication (such as reduction or scatter) may imply a barrier.
+In [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing), abarrieris a type of [synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science)) method. A barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier.
+Many collective routines and directive-based parallel languages impose implicit barriers. For example, a paralleldoloop in [Fortran](https://en.wikipedia.org/wiki/Fortran) with [OpenMP](https://en.wikipedia.org/wiki/OpenMP) will not be allowed to continue on any thread until the last iteration is completed. This is in case the program relies on the result of the loop immediately after its completion. In [message passing](https://en.wikipedia.org/wiki/Message_passing), any global communication (such as reduction or scatter) may imply a barrier.
 <https://en.wikipedia.org/wiki/Barrier_(computer_science)>-   **Semaphores**
 
 Semaphores are signalling mechanisms which can allow one or more threads/processors to access a section. A Semaphore has a flag which has a certain fixed value associated with it and each time a thread wishes to access the section, it decrements the flag. Similarly, when the thread leaves the section, the flag is incremented. If the flag is zero, the thread cannot access the section and gets blocked if it chooses to wait.
@@ -213,15 +213,15 @@ Some semaphores would allow only one thread or process in the code section. Such
 
 ## Hyper - Threading Technology (HTT)**
 
-Hyper-threading(officially calledHyper-Threading TechnologyorHT Technologyand abbreviated asHTTorHT) is[Intel's](https://en.wikipedia.org/wiki/Intel)[proprietary](https://en.wikipedia.org/wiki/Proprietary_hardware)[simultaneous multithreading](https://en.wikipedia.org/wiki/Simultaneous_multithreading)(SMT) implementation used to improve[parallelization](https://en.wikipedia.org/wiki/Parallel_computation)of computations (doing multiple tasks at once) performed on[x86](https://en.wikipedia.org/wiki/X86)microprocessors. It first appeared in February 2002 on[Xeon](https://en.wikipedia.org/wiki/Xeon)server[processors](https://en.wikipedia.org/wiki/Central_processing_unit)and in November 2002 on[Pentium4](https://en.wikipedia.org/wiki/Pentium_4)desktop CPUs.Later, Intel included this technology in[Itanium](https://en.wikipedia.org/wiki/Itanium),[Atom](https://en.wikipedia.org/wiki/Intel_Atom), and[Core 'i' Series](https://en.wikipedia.org/wiki/Intel_Core)CPUs, among others.
-For each[processor core](https://en.wikipedia.org/wiki/Processor_core)that is physically present, the[operating system](https://en.wikipedia.org/wiki/Operating_system)addresses two virtual (logical) cores and shares the workload between them when possible. The main function of hyper-threading is to increase the number of independent instructions in the pipeline; it takes advantage of[superscalar](https://en.wikipedia.org/wiki/Superscalar_processor)architecture, in which multiple instructions operate on separate data[in parallel](https://en.wikipedia.org/wiki/Parallel_computing). With HTT, one physical core appears as two processors to the operating system, allowing[concurrent](https://en.wikipedia.org/wiki/Concurrent_computing)scheduling of two processes per core. In addition, two or more processes can use the same resources: If resources for one process are not available, then another process can continue if its resources are available.
+Hyper-threading(officially calledHyper-Threading TechnologyorHT Technologyand abbreviated asHTTorHT) is [Intel's](https://en.wikipedia.org/wiki/Intel)[proprietary](https://en.wikipedia.org/wiki/Proprietary_hardware)[simultaneous multithreading](https://en.wikipedia.org/wiki/Simultaneous_multithreading)(SMT) implementation used to improve [parallelization](https://en.wikipedia.org/wiki/Parallel_computation) of computations (doing multiple tasks at once) performed on [x86](https://en.wikipedia.org/wiki/X86) microprocessors. It first appeared in February 2002 on [Xeon](https://en.wikipedia.org/wiki/Xeon) server [processors](https://en.wikipedia.org/wiki/Central_processing_unit) and in November 2002 on [Pentium4](https://en.wikipedia.org/wiki/Pentium_4) desktop CPUs.Later, Intel included this technology in [Itanium](https://en.wikipedia.org/wiki/Itanium),[Atom](https://en.wikipedia.org/wiki/Intel_Atom), and [Core 'i' Series](https://en.wikipedia.org/wiki/Intel_Core) CPUs, among others.
+For each [processor core](https://en.wikipedia.org/wiki/Processor_core) that is physically present, the [operating system](https://en.wikipedia.org/wiki/Operating_system) addresses two virtual (logical) cores and shares the workload between them when possible. The main function of hyper-threading is to increase the number of independent instructions in the pipeline; it takes advantage of [superscalar](https://en.wikipedia.org/wiki/Superscalar_processor) architecture, in which multiple instructions operate on separate data [in parallel](https://en.wikipedia.org/wiki/Parallel_computing). With HTT, one physical core appears as two processors to the operating system, allowing [concurrent](https://en.wikipedia.org/wiki/Concurrent_computing) scheduling of two processes per core. In addition, two or more processes can use the same resources: If resources for one process are not available, then another process can continue if its resources are available.
 In addition to requiring simultaneous multithreading (SMT) support in the operating system, hyper-threading can be properly utilized only with an operating system specifically optimized for it.Furthermore, Intel recommends HTT to be disabled when using operating systems unaware of this hardware feature.
 <https://en.wikipedia.org/wiki/Hyper-threading>
 Multithreading, concurrency, locks, synchronization
 
 ## Compare and Swap (CAS)
 
-Compare and Swap is an atomic structure used in multithreading to achieve synchronization. It compares the contents of a memory location with a given value and, only if they are the same, modifies the contents of that memory location to a new given value. This is done as a single atomic operation. The atomicity guarantees that the new value is calculated based on up-to-date information; if the value had been updated by another thread in the meantime, the write would fail. The result of the operation must indicate whether it performed the substitution; this can be done either with a simple[boolean](https://en.wikipedia.org/wiki/Boolean_logic)response (this variant is often called**compare-and-set**), or by returning the value read from the memory location (*not*the value written to it).
+Compare and Swap is an atomic structure used in multithreading to achieve synchronization. It compares the contents of a memory location with a given value and, only if they are the same, modifies the contents of that memory location to a new given value. This is done as a single atomic operation. The atomicity guarantees that the new value is calculated based on up-to-date information; if the value had been updated by another thread in the meantime, the write would fail. The result of the operation must indicate whether it performed the substitution; this can be done either with a simple [boolean](https://en.wikipedia.org/wiki/Boolean_logic) response (this variant is often called**compare-and-set**), or by returning the value read from the memory location (*not*the value written to it).
 Atomic instruction that compares contents of a memory location M to a given value V
 
 - If values are equal, installs new given value V' in M
@@ -231,7 +231,7 @@ __sync_bool_compare_and_swap(&M, 20, 30)
 __sync_bool_compare_and_swap(Address, Compare Value, New Value)
 <https://en.wikipedia.org/wiki/Compare-and-swap>
 
-## See also -**
+## See also
 
 Python > Advanced > Concurrency
 
@@ -240,5 +240,7 @@ Python > Advanced > Concurrency
 [https://schneems.com/2017/10/23/wtf-is-a-thread/#](https://schneems.com/2017/10/23/wtf-is-a-thread/)
 Dijkstra's Guarded Commands - <https://en.wikipedia.org/wiki/Guarded_Command_Language>
 Communicating sequential processes **- C.A.R. Hoare**
+
 [Rob Pike - 'Concurrency Is Not Parallelism'](https://vimeo.com/49718712)
-![image](media/Concurrency---Threading-image4.jpg)
+
+[Demystifying Python Multiprocessing and Multithreading | by David Chong | Towards Data Science](https://towardsdatascience.com/demystifying-python-multiprocessing-and-multithreading-9b62f9875a27)

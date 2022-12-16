@@ -37,13 +37,13 @@ Modified: 2022-02-02 23:32:55 +0500
 - **No guarantee-** No explicit guarantee is provided, so consumers may process messages once, multiple times or never at all.
 - **At most once-** This is "best effort" delivery semantics. Consumers will receive and process messages exactly once or not at all.
 - **At least once-** Consumers will receive and process every message, but they may process the same message more than once.
-- **Effectively once-** Also[contentiously](https://streaml.io/blog/exactly-once)[known](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f)as exactly once, this promises consumers will process every message once.
+- **Effectively once-** Also [contentiously](https://streaml.io/blog/exactly-once)[known](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f) as exactly once, this promises consumers will process every message once.
 
 ![囙 囙 囗 囗 NO guarantee At most 0 e Atleastonce Effectively once ](../../media/Technologies-Kafka-Others-image1.png)
 
 ## Storage formats: Serialization and deserialization of events
 
-Events areserializedwhen they are written to a topic anddeserializedwhen they are read. These operations turn binary data into the forms you and I understand, and vice versa. Importantly, these operations are done solely by the Kafkaclients, i.e., producing and consuming applications such as ksqlDB, Kafka Streams, or a microservice using the Go client for Kafka, for example. As such, there is no single "storage format" in Kafka. Common serialization formats used by Kafka clients include Apache Avro™ (with the[Confluent Schema Registry](https://docs.confluent.io/current/schema-registry/index.html)), Protobuf, and JSON.
+Events areserializedwhen they are written to a topic anddeserializedwhen they are read. These operations turn binary data into the forms you and I understand, and vice versa. Importantly, these operations are done solely by the Kafkaclients, i.e., producing and consuming applications such as ksqlDB, Kafka Streams, or a microservice using the Go client for Kafka, for example. As such, there is no single "storage format" in Kafka. Common serialization formats used by Kafka clients include Apache Avro™ (with the [Confluent Schema Registry](https://docs.confluent.io/current/schema-registry/index.html)), Protobuf, and JSON.
 
 Kafka brokers, on the other hand, are agnostic to the serialization format or "type" of a stored event. All they see is a pair of raw bytes for event key and event value coming in when being written, and going out when being read. Brokers thus have no idea what's in the data they serve---it's a black box to them. Being this "dumb" is actually pretty smart, because this design decision allows brokers to scale much better than traditional messaging systems.
 
@@ -53,9 +53,9 @@ Kafka brokers, on the other hand, are agnostic to the serialization format or "t
 
 As already mentioned, it is the responsibility of the consuming client (whether it's ksqlDB, Kafka Connect, a custom Kafka consumer, etc.) to deserialize the raw bytes of a Kafka message into the original event by applying some kind of schema, be it a formalized schema in Avro or Protobuf, or an informal JSON format scribbled on the back of a napkin in the company canteen. This means it is, generally speaking, aschema-on-readsetup.
 
-But how does a consuming client know how to deserialize stored events, given that most likely a different client produced them? The answer is that producers and consumers must agree on a data contract in some way. Gwen Shapira covered the important subject of[data contracts and schema management](https://www.confluent.io/blog/schemas-contracts-compatibility)in an earlier blog post, so I'll skip over the details here. But in summary, the easiest option is to use Avro and[Confluent Schema Registry](https://www.confluent.io/confluent-schema-registry/). With a schema registry and a formalized schema (including but not limited to Avro), we are moving from schema on read into[schema-on-write territory](https://www.oreilly.com/ideas/data-governance-and-the-death-of-schema-on-read), which is a boon for pretty much everyone who is working with data, not just the few poor souls of us tasked to "go and do data governance."
+But how does a consuming client know how to deserialize stored events, given that most likely a different client produced them? The answer is that producers and consumers must agree on a data contract in some way. Gwen Shapira covered the important subject of [data contracts and schema management](https://www.confluent.io/blog/schemas-contracts-compatibility) in an earlier blog post, so I'll skip over the details here. But in summary, the easiest option is to use Avro and [Confluent Schema Registry](https://www.confluent.io/confluent-schema-registry/). With a schema registry and a formalized schema (including but not limited to Avro), we are moving from schema on read into [schema-on-write territory](https://www.oreilly.com/ideas/data-governance-and-the-death-of-schema-on-read), which is a boon for pretty much everyone who is working with data, not just the few poor souls of us tasked to "go and do data governance."
 
-And with Confluent Platform 5.4 or newer, you have the additional option to[centrally enforce broker-side Schema Validation](https://www.confluent.io/blog/data-governance-with-schema-validation)so that no misbehaving client can violate the data contract: incoming events are validated server side before they are stored in Kafka topics. This feature is a huge benefit for any Kafka user and especially for larger, regulated organizations.
+And with Confluent Platform 5.4 or newer, you have the additional option to [centrally enforce broker-side Schema Validation](https://www.confluent.io/blog/data-governance-with-schema-validation) so that no misbehaving client can violate the data contract: incoming events are validated server side before they are stored in Kafka topics. This feature is a huge benefit for any Kafka user and especially for larger, regulated organizations.
 
 ## Other Stream Processing Brokers
 
@@ -125,7 +125,7 @@ Decompression and re-compression can also happen if producers are running a vers
 
 ## Secor
 
-Secor is a service persisting[Kafka](http://kafka.apache.org/)logs to[Amazon S3](http://aws.amazon.com/s3/),[Google Cloud Storage](https://cloud.google.com/storage/),[Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/)and[Openstack Swift](http://swift.openstack.org/).
+Secor is a service persisting [Kafka](http://kafka.apache.org/) logs to [Amazon S3](http://aws.amazon.com/s3/),[Google Cloud Storage](https://cloud.google.com/storage/),[Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and [Openstack Swift](http://swift.openstack.org/).
 
 <https://github.com/pinterest/secor>
 

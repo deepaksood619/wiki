@@ -6,9 +6,9 @@ Modified: 2022-03-06 15:34:36 +0500
 
 ---
 
-Machine learningis a subset of artificial intelligence in the field of[computer science](https://en.wikipedia.org/wiki/Computer_science)that often uses statistical techniques to give[computers](https://en.wikipedia.org/wiki/Computer)the ability to "learn" (i.e., progressively improve performance on a specific task) with[data](https://en.wikipedia.org/wiki/Data), without being explicitly programmed.
+Machine learningis a subset of artificial intelligence in the field of [computer science](https://en.wikipedia.org/wiki/Computer_science) that often uses statistical techniques to give [computers](https://en.wikipedia.org/wiki/Computer) the ability to "learn" (i.e., progressively improve performance on a specific task) with [data](https://en.wikipedia.org/wiki/Data), without being explicitly programmed.
 
-Evolved from the study of[pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition)and[computational learning theory](https://en.wikipedia.org/wiki/Computational_learning_theory) in[artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence), machine learning explores the study and construction of[algorithms](https://en.wikipedia.org/wiki/Algorithm)that can learn from and make predictions on[data](https://en.wikipedia.org/wiki/Data)- such algorithms overcome following strictly static[program instructions](https://en.wikipedia.org/wiki/Computer_program)by making data-driven predictions or decisions,through building a[model](https://en.wikipedia.org/wiki/Mathematical_model) from sample inputs.
+Evolved from the study of [pattern recognition](https://en.wikipedia.org/wiki/Pattern_recognition) and [computational learning theory](https://en.wikipedia.org/wiki/Computational_learning_theory) in [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence), machine learning explores the study and construction of [algorithms](https://en.wikipedia.org/wiki/Algorithm) that can learn from and make predictions on [data](https://en.wikipedia.org/wiki/Data)- such algorithms overcome following strictly static [program instructions](https://en.wikipedia.org/wiki/Computer_program) by making data-driven predictions or decisions,through building a [model](https://en.wikipedia.org/wiki/Mathematical_model) from sample inputs.
 
 [1. Introduction](https://d2l.ai/chapter_introduction/index.html)
 
@@ -85,7 +85,7 @@ Once we have got some data source and representation, a model, and a well-define
 - Instance: The thing about which you want to make a prediction. For example, the instance might be a web page that you want to classify as either "about cats" or "not about cats".
 - Label: An answer for a prediction task ­­ either the answer produced by a machine learning system, or the right answer supplied in training data. For example, the label for a web page might be "about cats".
 - Feature: A property of an instance used in a prediction task. For example, a web page might have a feature "contains the word 'cat'".
-- Feature Column: A set of related features, such as the set of all possible countries in which users might live. An example may have one or more features present in a feature column. "Feature column" is Google-specific terminology. A feature column is referred to as a "namespace" in the VW system (at Yahoo/Microsoft), or a[field](https://www.csie.ntu.edu.tw/~cjlin/libffm/).
+- Feature Column: A set of related features, such as the set of all possible countries in which users might live. An example may have one or more features present in a feature column. "Feature column" is Google-specific terminology. A feature column is referred to as a "namespace" in the VW system (at Yahoo/Microsoft), or a [field](https://www.csie.ntu.edu.tw/~cjlin/libffm/).
 - Example: An instance (with its features) and a label.
 - Model: A statistical representation of a prediction task. You train a model on examples then use the model to make predictions.
 - Metric: A number that you care about. May or may not be directly optimized.

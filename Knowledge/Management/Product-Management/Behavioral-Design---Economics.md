@@ -20,7 +20,7 @@ Asked people to "accept" or "decline" the new feature. By asking people if they 
 
 ## Present bias
 
-The immediate benefit to the user of taking the action should be higher than the cost of the action. This is because we tend toward["present bias](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3909663)." In the prior example, we increased the benefit of saying "yes," by making "no" relatively more costly (definitive and final). Now we increased the benefit of saying "yes" by focusing people on a short-term goal: completing setup. People (you, your users, your customers) all want to complete things. By making people feel closer to completing something, we delivered a bigger immediate benefit.
+The immediate benefit to the user of taking the action should be higher than the cost of the action. This is because we tend toward ["present bias](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3909663)." In the prior example, we increased the benefit of saying "yes," by making "no" relatively more costly (definitive and final). Now we increased the benefit of saying "yes" by focusing people on a short-term goal: completing setup. People (you, your users, your customers) all want to complete things. By making people feel closer to completing something, we delivered a bigger immediate benefit.
 
 ![image](media/Product-Management_Behavioral-Design---Economics-image2.jpg)
 

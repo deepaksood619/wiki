@@ -18,8 +18,8 @@ Modified: 2021-02-21 21:38:45 +0500
 
 A binary heap is defined as a binary tree with two additional constraints:
 
-- Shape property: a binary heap is a[*complete binary tree*](https://en.wikipedia.org/wiki/Complete_Binary_Tree); that is, all levels of the tree, except possibly the last one (deepest) are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
-- Heap property: the key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children, according to some[total order](https://en.wikipedia.org/wiki/Total_order).
+- Shape property: a binary heap is a [*complete binary tree*](https://en.wikipedia.org/wiki/Complete_Binary_Tree); that is, all levels of the tree, except possibly the last one (deepest) are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
+- Heap property: the key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children, according to some [total order](https://en.wikipedia.org/wiki/Total_order).
 A binary heap is a complete binary tree which satisfies the heap ordering property. The ordering can be one of two types:
 - the*min-heap property*: the value of each node is greater than or equal to the value of its parent, with the minimum-value element at the root.
 - the*max-heap property*: the value of each node is less than or equal to the value of its parent, with the maximum-value element at the root.
@@ -63,7 +63,7 @@ Array representation of a heap-ordered complete binary tree
 
 ## Properties -
 
-- Largest key is a[1], which is root of binary tree
+- Largest key is a [1], which is root of binary tree
 - Parent of node at k is at k/2
 - Children of node at k are at 2k and 2k+1
 
@@ -82,9 +82,9 @@ Eliminate the violation -
 
 def perc_up(self, k):
 
-while(k > 0 and self.arr[k] < self.arr[(k-1)//2]):
+while(k > 0 and self.arr [k] < self.arr [(k-1)//2]):
 
-self.arr[k], self.arr[(k-1)//2] = self.arr[(k-1)//2], self.arr[k]
+self.arr [k], self.arr [(k-1)//2] = self.arr [(k-1)//2], self.arr [k]
 
 k = (k-1)//2
 

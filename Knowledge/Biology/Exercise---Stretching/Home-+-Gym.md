@@ -159,13 +159,13 @@ c.  Plank
 
 ## Workout 2: Arms (Week 1)
 
-## 2B[Triceps kick-back](https://www.coachmag.co.uk/tricep-exercises/6913/how-to-do-the-triceps-kick-back)
+## 2B [Triceps kick-back](https://www.coachmag.co.uk/tricep-exercises/6913/how-to-do-the-triceps-kick-back)
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image16.jpg)
 
 Sets4Reps10 each sideRest60secTempo2010
 
-## 3A[Spider curl](https://www.coachmag.co.uk/biceps-exercises/8357/how-to-do-the-spider-curl)
+## 3A [Spider curl](https://www.coachmag.co.uk/biceps-exercises/8357/how-to-do-the-spider-curl)
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image17.jpg)
 
@@ -216,7 +216,7 @@ Week 4
 
 ## Workout 3: Legs And Abs (Week 1)
 
-## 1B[Woodchop](https://www.coachmag.co.uk/exercises/full-body-workouts/212/woodchop)
+## 1B [Woodchop](https://www.coachmag.co.uk/exercises/full-body-workouts/212/woodchop)
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image20.jpg)
 
@@ -228,7 +228,7 @@ Sets4Reps10 each sideRest60secTempo2010
 
 Sets4Reps10 each sideRest60secTempo2010
 
-## 3A[Goblet squat](https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat)
+## 3A [Goblet squat](https://www.coachmag.co.uk/leg-exercises/3379/how-to-master-the-goblet-squat)
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image22.jpg)
 
@@ -236,13 +236,13 @@ Sets4Reps10Rest0secTempo2010
 
 ## Workout 4: Shoulders (Week 1)
 
-## 2A[Arnold press](https://www.coachmag.co.uk/exercises/arm-exercises/2987/6-standing-dumb-bell-curl-arnold-press)
+## 2A [Arnold press](https://www.coachmag.co.uk/exercises/arm-exercises/2987/6-standing-dumb-bell-curl-arnold-press)
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image23.jpg)
 
 Sets4Reps10Rest0secTempo2010
 
-## 2B[Upright row](https://www.coachmag.co.uk/back-exercises/6699/how-to-do-the-upright-row)
+## 2B [Upright row](https://www.coachmag.co.uk/back-exercises/6699/how-to-do-the-upright-row)
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image24.jpg)
 

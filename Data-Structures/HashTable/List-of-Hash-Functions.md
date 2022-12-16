@@ -12,13 +12,13 @@ Main article:[Cyclic redundancy check](https://en.wikipedia.org/wiki/Cyclic_redu
 
 | Name                                                                                            | Length  | Type                                                                              |
 |------------------------|--------------|-----------------------------------|
-| [cksum (Unix)](https://en.wikipedia.org/wiki/Cksum)                                             | 32 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)with length appended |
+| [cksum (Unix)](https://en.wikipedia.org/wiki/Cksum)                                             | 32 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) with length appended |
 | [CRC-16](https://en.wikipedia.org/wiki/CRC-16)                                                  | 16 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)                      |
 | [CRC-32](https://en.wikipedia.org/wiki/CRC-32)                                                  | 32 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)                      |
 | [CRC-32 MPEG-2](https://en.wikipedia.org/w/index.php?title=CRC-32_MPEG-2&action=edit&redlink=1) | 32 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)                      |
 | [CRC-64](https://en.wikipedia.org/wiki/CRC-64)                                                  | 64 bits | [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)                      |
 
-[Adler-32](https://en.wikipedia.org/wiki/Adler-32)is often mistaken for a CRC, but it is not, it is a[checksum](https://en.wikipedia.org/wiki/List_of_hash_functions#Checksums).
+[Adler-32](https://en.wikipedia.org/wiki/Adler-32) is often mistaken for a CRC, but it is not, it is a [checksum](https://en.wikipedia.org/wiki/List_of_hash_functions#Checksums).
 
 ## Checksums
 
@@ -192,7 +192,7 @@ See also:[Comparison of cryptographic hash functions](https://en.wikipedia.org/w
 | [HAS-160](https://en.wikipedia.org/wiki/HAS-160)                                   | 160 bits        | hash                                                                                                                                     |
 | [HAVAL](https://en.wikipedia.org/wiki/HAVAL)                                       | 128 to 256 bits | hash                                                                                                                                     |
 | [JH](https://en.wikipedia.org/wiki/JH_(hash_function))                             | 224 to 512 bits | hash                                                                                                                                     |
-| LSH[[12]](https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-lsw-12) | 256 to 512 bits | wide-pipe[Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                         |
+| LSH [[12]](https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-lsw-12) | 256 to 512 bits | wide-pipe [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                         |
 | [MD2](https://en.wikipedia.org/wiki/MD2_(cryptography))                            | 128 bits        | hash                                                                                                                                     |
 | [MD4](https://en.wikipedia.org/wiki/MD4)                                           | 128 bits        | hash                                                                                                                                     |
 | [MD5](https://en.wikipedia.org/wiki/MD5)                                           | 128 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |

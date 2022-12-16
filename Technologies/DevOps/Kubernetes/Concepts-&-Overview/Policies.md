@@ -215,13 +215,13 @@ Pod Security Policies enable fine-grained authorization of pod creation and upda
 
 APod Security Policyis a cluster-level resource that controls security sensitive aspects of the pod specification. ThePodSecurityPolicyobjects define a set of conditions that a pod must run with in order to be accepted into the system, as well as defaults for the related fields.
 
-To automate the enforcement of security contexts, you can define[PodSecurityPolicies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)(PSP). A PSP is defined via a standard Kubernetes manifest following the PSP API schema. An example is presented below.
+To automate the enforcement of security contexts, you can define [PodSecurityPolicies](https://kubernetes.io/docs/concepts/policy/pod-security-policy/)(PSP). A PSP is defined via a standard Kubernetes manifest following the PSP API schema. An example is presented below.
 
 <https://kubernetes.io/docs/concepts/policy/pod-security-policy>
 
 A policy to limit the ability of pods to elevate permissions or modify the node upon which they are scheduled. This wide-ranging limitation may prevent a pod from operating properly. The use of PSPs may be replaced by**Open Policy Agent(OPA)** in the future.
 
-While PSP has been helpful,there are other methods gaining popularity. The[Open Policy Agent](https://www.openpolicyagent.org/)(OPA), often pronounced as "oh-pa", provides a unified set of tools and policy framework. This allows a single point of configuration for all of your cloud deployments.
+While PSP has been helpful,there are other methods gaining popularity. The [Open Policy Agent](https://www.openpolicyagent.org/)(OPA), often pronounced as "oh-pa", provides a unified set of tools and policy framework. This allows a single point of configuration for all of your cloud deployments.
 
 ## Open Policy Agent(OPA)
 

@@ -67,7 +67,7 @@ package.json file is a list of the the dependencies that our application use.
 
 1. **Fast** - Apps made in React can handle complex updates and still feel quick and responsive.
 
-2. **Modular -** Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's[maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
+2. **Modular -** Instead of writing large, dense files of code, you can write many smaller, reusable files. React's modularity can be a beautiful solution to JavaScript's [maintainability problems](https://en.wikipedia.org/wiki/Spaghetti_code).
 
 3. **Scalable -** Large programs that display a lot of changing data are where React performs best.
 

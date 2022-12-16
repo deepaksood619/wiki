@@ -10,7 +10,7 @@ Modified: 2022-01-16 15:12:55 +0500
 
 ## Entropy Encoding
 
-An**entropy encoding**is a[lossless data compression](https://en.wikipedia.org/wiki/Lossless_compression)scheme that is independent of the specific characteristics of the medium.
+An**entropy encoding**is a [lossless data compression](https://en.wikipedia.org/wiki/Lossless_compression) scheme that is independent of the specific characteristics of the medium.
 
 Types -
 
@@ -148,7 +148,7 @@ Predicate pushdown is actually a simple concept:
 
 ## Dictionary Coders
 
-A**dictionary coder**, also sometimes known as a**substitution coder**, is a class of[lossless data compression](https://en.wikipedia.org/wiki/Lossless_data_compression)algorithms which operate by searching for matches between the text to be compressed and a set of[strings](https://en.wikipedia.org/wiki/String_(computer_science))contained in a[data structure](https://en.wikipedia.org/wiki/Data_structure)(called the 'dictionary') maintained by the encoder. When the encoder finds such a match, it substitutes a reference to the string's position in the data structure.
+A**dictionary coder**, also sometimes known as a**substitution coder**, is a class of [lossless data compression](https://en.wikipedia.org/wiki/Lossless_data_compression) algorithms which operate by searching for matches between the text to be compressed and a set of [strings](https://en.wikipedia.org/wiki/String_(computer_science)) contained in a [data structure](https://en.wikipedia.org/wiki/Data_structure)(called the 'dictionary') maintained by the encoder. When the encoder finds such a match, it substitutes a reference to the string's position in the data structure.
 
 <https://en.wikipedia.org/wiki/Dictionary_coder>
 

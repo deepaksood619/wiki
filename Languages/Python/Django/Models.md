@@ -10,7 +10,7 @@ A model is the single, definitive source of information about your data. It cont
 
 The basics:
 
-- Each model is a Python class that subclasses[**django.db.models.Model**](https://docs.djangoproject.com/en/1.11/ref/models/instances/#django.db.models.Model).
+- Each model is a Python class that subclasses [**django.db.models.Model**](https://docs.djangoproject.com/en/1.11/ref/models/instances/#django.db.models.Model).
 - Each attribute of the model represents a database field.
 - With all of this, Django gives you an automatically-generated database-access API
 
@@ -26,10 +26,10 @@ last_name = models.CharField(max_length=30)
 
 ## Field types -
 
-Each field in your model should be an instance of the appropriate[**Field**](https://docs.djangoproject.com/en/1.11/ref/models/fields/#django.db.models.Field)class. Django uses the field class types to determine a few things:
+Each field in your model should be an instance of the appropriate [**Field**](https://docs.djangoproject.com/en/1.11/ref/models/fields/#django.db.models.Field) class. Django uses the field class types to determine a few things:
 
 - The column type, which tells the database what kind of data to store (e.g.**INTEGER**,**VARCHAR**,**TEXT**).
-- The default HTML[widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/)to use when rendering a form field (e.g.**<inputtype="text">**,**<select>**).
+- The default HTML [widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/) to use when rendering a form field (e.g.**<inputtype="text">**,**<select>**).
 - The minimal validation requirements, used in Django's admin and in automatically-generated forms.
 
 ## Common field arguments -

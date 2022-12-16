@@ -77,7 +77,7 @@ Indexationis a technique to adjust income payments by means of a price index, in
 
 ## Unrealized Gains / Unrealized Loss / "paper" profits or losses
 
-An unrealized gain is a potential profit that exists on paper, resulting from an investment. It is an increase in the value of an[asset](https://www.investopedia.com/terms/a/asset.asp)that has yet to be sold for cash, such as a stock position that has increased in value but still remains open. A gain becomes[realized](https://www.investopedia.com/terms/r/realizedprofit.asp)once the position is sold for a profit.
+An unrealized gain is a potential profit that exists on paper, resulting from an investment. It is an increase in the value of an [asset](https://www.investopedia.com/terms/a/asset.asp) that has yet to be sold for cash, such as a stock position that has increased in value but still remains open. A gain becomes [realized](https://www.investopedia.com/terms/r/realizedprofit.asp) once the position is sold for a profit.
 
 ## Key Takeaways
 

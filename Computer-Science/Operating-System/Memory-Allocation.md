@@ -8,23 +8,23 @@ Modified: 2019-12-02 13:32:14 +0500
 
 ## Dynamic memory allocation
 
-Is memory allocated at runtime usingcalloc(),malloc()and friends. It is sometimes also referred to as 'heap' memory, although it has nothing to do with the heap data-structure[ref](http://www.quora.com/Why-is-dynamic-memory-allocation-called-heap-memory-allocation).
+Is memory allocated at runtime usingcalloc(),malloc()and friends. It is sometimes also referred to as 'heap' memory, although it has nothing to do with the heap data-structure [ref](http://www.quora.com/Why-is-dynamic-memory-allocation-called-heap-memory-allocation).
 
 int * a = malloc(sizeof(int));
 Heap memory is persistent untilfree()is called. In other words, you control the lifetime of the variable.
 
 ## Automatic memory allocation
 
-This is what is commonly known as 'stack' memory, and is allocated when you enter a new scope (usually when a new function is pushed on the call stack). Once you move out of the scope, the values of automatic memory addresses are undefined, and it is an[error to access them](https://stackoverflow.com/a/6445794/140264).
+This is what is commonly known as 'stack' memory, and is allocated when you enter a new scope (usually when a new function is pushed on the call stack). Once you move out of the scope, the values of automatic memory addresses are undefined, and it is an [error to access them](https://stackoverflow.com/a/6445794/140264).
 
 int a = 43;
 Note that scope does not necessarily mean function. Scopes can nest within a function, and the variable will be in-scope only within the block in which it was declared. Note also that where this memory is allocated is not specified. (On asanesystem it will be on the stack, or registers for optimisation)
 
 ## Static memory allocation
 
-Is allocated at compile time*, and the lifetime of a variable in static memory is the[lifetime of the program](http://en.wikipedia.org/wiki/Static_variable).
+Is allocated at compile time*, and the lifetime of a variable in static memory is the [lifetime of the program](http://en.wikipedia.org/wiki/Static_variable).
 In C, static memory can be allocated using thestatickeyword. The scope is the compilation unit only.
-Things get more interesting[when theexternkeyword is considered](http://en.wikipedia.org/wiki/Extern_variable). When anexternvariable isdefinedthe compiler allocates memory for it. When anexternvariable isdeclared, the compiler requires that the variable bedefinedelsewhere. Failure to declare/defineexternvariables will cause linking problems, while failure to declare/definestaticvariables will cause compilation problems.
+Things get more interesting [when theexternkeyword is considered](http://en.wikipedia.org/wiki/Extern_variable). When anexternvariable isdefinedthe compiler allocates memory for it. When anexternvariable isdeclared, the compiler requires that the variable bedefinedelsewhere. Failure to declare/defineexternvariables will cause linking problems, while failure to declare/definestaticvariables will cause compilation problems.
 
 in file scope, the static keyword is optional (outside of a function):
 

@@ -41,8 +41,8 @@ if __name__ == "__main__":
     sc = SparkContext(appName="Parquet2CSV")
     sqlContext = SQLContext(sc)
 readdf = sqlContext.read.parquet('/home/sarvesh/Desktop/submissions-parquet')
-    readdf.rdd.map(tuple).map(lambda row: str(row[0]) + "," + str(row[1]) + ","+ str(row[2]) + ","+ str(row[3])+ ","+
-                              str(row[4])+","+ str(row[5])).saveAsTextFile("/home/sarvesh/Desktop/parquet-to-csv.csv")
+    readdf.rdd.map(tuple).map(lambda row: str(row [0]) + "," + str(row [1]) + ","+ str(row [2]) + ","+ str(row [3])+ ","+
+                              str(row [4])+","+ str(row [5])).saveAsTextFile("/home/sarvesh/Desktop/parquet-to-csv.csv")
 
  http://blogs.quovantis.com/how-to-convert-csv-to-parquet-files/
 
@@ -85,7 +85,7 @@ Glue Transformation from Aurora DB to Parquet in s3
  glueContext = GlueContext(sc)
  spark = glueContext.spark_session
  job = Job(glueContext)
- job.init(args['JOB_NAME'], args)
+ job.init(args ['JOB_NAME'], args)
 
  datasource0 = glueContext.create_dynamic_frame.from_catalog(database = "aurora", table_name = "aurorasttash_website_live_userdevicesms_old", transformation_ctx = "datasource0")
  # datasource0 = glueContext.create_dynamic_frame_from_options("s3", {'paths': ["s3://example-migration-data/test"], 'recurse':True, 'groupFiles': 'inPartition', 'groupSize': '104857600'}, format="json")

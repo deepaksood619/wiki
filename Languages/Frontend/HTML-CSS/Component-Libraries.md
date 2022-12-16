@@ -106,11 +106,11 @@ yarn add @mui/icons-material
 
 MUI provides icons support in three ways
 
-1. Standardized[Material Design icons](https://mui.com/components/icons/#material-icons)exported as React components (SVG icons)
+1. Standardized [Material Design icons](https://mui.com/components/icons/#material-icons) exported as React components (SVG icons)
 
-2. With the[SvgIcon](https://mui.com/components/icons/#svgicon)component, a React wrapper for custom SVG icons
+2. With the [SvgIcon](https://mui.com/components/icons/#svgicon) component, a React wrapper for custom SVG icons
 
-3. With the[Icon](https://mui.com/components/icons/#icon-font-icons)component, a React wrapper for custom font icons
+3. With the [Icon](https://mui.com/components/icons/#icon-font-icons) component, a React wrapper for custom font icons
 
 Whenever possible SVG is preferred as it allows code splitting, supports more icons, and renders faster and better
 
@@ -135,15 +135,15 @@ placehold.it / placekitten.com / placepuppy.it
 
 ## Customizing PostCSS Config
 
-Out of the box, with no configuration, Next.js compiles CSS using[PostCSS](https://postcss.org/).
+Out of the box, with no configuration, Next.js compiles CSS using [PostCSS](https://postcss.org/).
 
-To customize PostCSS config, you can create a top-level file called[postcss.config.js](https://nextjs.org/docs/advanced-features/customizing-postcss-config#customizing-plugins). This is useful if you're using libraries like[Tailwind CSS](https://tailwindcss.com/).
+To customize PostCSS config, you can create a top-level file called [postcss.config.js](https://nextjs.org/docs/advanced-features/customizing-postcss-config#customizing-plugins). This is useful if you're using libraries like [Tailwind CSS](https://tailwindcss.com/).
 
-Here are the steps to add[Tailwind CSS](https://tailwindcss.com/). We recommend usingpostcss-preset-envandpostcss-flexbugs-fixesto match[Next.js's default behavior](https://nextjs.org/docs/advanced-features/customizing-postcss-config#default-behavior). First, install the packages:
+Here are the steps to add [Tailwind CSS](https://tailwindcss.com/). We recommend usingpostcss-preset-envandpostcss-flexbugs-fixesto match [Next.js's default behavior](https://nextjs.org/docs/advanced-features/customizing-postcss-config#default-behavior). First, install the packages:
 
 npm install tailwindcss postcss-preset-env postcss-flexbugs-fixes
 
-Then write the following for[postcss.config.js](https://nextjs.org/docs/advanced-features/customizing-postcss-config#customizing-plugins):
+Then write the following for [postcss.config.js](https://nextjs.org/docs/advanced-features/customizing-postcss-config#customizing-plugins):
 
 module.exports = {
 plugins: [
@@ -164,7 +164,7 @@ features: {
 ]
 }
 
-We also recommend[removing unused CSS](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css)by specifying thepurgeoption ontailwind.config.js:
+We also recommend [removing unused CSS](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) by specifying thepurgeoption ontailwind.config.js:
 
 // tailwind.config.js
 module.exports = {

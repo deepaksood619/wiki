@@ -50,7 +50,7 @@ MySQL supports foreign keys and utilizes foreign key constraints to keep the dat
 
 [B+Tree](https://dbdb.io/browse?indexes=btree)
 The default InnoDB indexes are B+Tree data structures. MySQL also supports spatial indexes, which use R-trees. Earlier versions supported hash indexes, but current versions do not and hash indexes have been entirely replaced by B+Trees.
-Most MySQL indexes (PRIMARY KEY,UNIQUE,INDEX, andFULLTEXT) are stored in[B-trees](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree). Exceptions: Indexes on spatial data types use R-trees;MEMORYtables also support[hash indexes](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_hash_index);InnoDBuses inverted lists forFULLTEXTindexes.
+Most MySQL indexes (PRIMARY KEY,UNIQUE,INDEX, andFULLTEXT) are stored in [B-trees](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree). Exceptions: Indexes on spatial data types use R-trees;MEMORYtables also support [hash indexes](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_hash_index);InnoDBuses inverted lists forFULLTEXTindexes.
 <https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html>
 
 ## Isolation Levels**

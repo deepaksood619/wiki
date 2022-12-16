@@ -421,13 +421,13 @@ Netflix - Pepsi where's my jet
 
 Black.Crab.2022.HDRip.XviD.AC3-EVO
 
-All.the.Old.Knives.2022.HDRip.XviD.AC3-EVO[TGx]
+All.the.Old.Knives.2022.HDRip.XviD.AC3-EVO [TGx]
 
 The Outfit (2022) [720p] [WEBRip] [YTS.MX]
 
 Infinite Storm (2022) [720p] [WEBRip] [YTS.MX]
 
-Death on the Nile.2022.BDRip.XviD.AC3-EVO[TGx]
+Death on the Nile.2022.BDRip.XviD.AC3-EVO [TGx]
 
 Jackass.Forever.2022.1080p.WEBRip.DD5.1.X.264-EVO
 
@@ -445,7 +445,7 @@ Encounter (2021) [720p] [WEBRip] [YTS.MX]
 
 Apex (2021) [720p] [WEBRip] [YTS.MX]
 
-Vivo.2021.720p.NF.WEBRip.800MB.x264-GalaxyRG[TGx]
+Vivo.2021.720p.NF.WEBRip.800MB.x264-GalaxyRG [TGx]
 
 Kaabil (2017) Hindi 720p HDRip x264 AAC ESubs - Downloadhub
 
@@ -463,14 +463,14 @@ Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shad
 
 ## General Science
 
-- [Vsauce](https://www.youtube.com/user/Vsauce)(which has grown to include[Vsauce2](https://www.youtube.com/user/Vsauce2/videos)and[Vsauce3](https://www.youtube.com/user/Vsauce3))
+- [Vsauce](https://www.youtube.com/user/Vsauce)(which has grown to include [Vsauce2](https://www.youtube.com/user/Vsauce2/videos) and [Vsauce3](https://www.youtube.com/user/Vsauce3))
 - [Physics Girl](https://www.youtube.com/user/physicswoman)(fun to watch explorations of a wide range of real-world physics and science things)
 - [**Thought Emporium**](https://www.youtube.com/user/TheChemlife)(gene editing through both chemical methods and DNA 3-d printers! And art too)
 - [Scott Manley](https://www.youtube.com/user/szyzyg)(a charming Scottish Astrophysist / Apple engineer with hundreds of great videos on the Kerbal Space Program simulation game, plus now detailed coverage on space and astrophysics)
 - [Anton Petrov](https://www.youtube.com/user/whatdamath)-- daily videos on new discoveries in science (and a fun look at current events from a science perspective too)
-- [Kurzgesagt -- In a Nutshell](https://www.youtube.com/user/Kurzgesagt)Short but intelligent summaries of all sorts of neat things, featuring a dynamic British narrator and fun cartoony graphics.
+- [Kurzgesagt -- In a Nutshell](https://www.youtube.com/user/Kurzgesagt) Short but intelligent summaries of all sorts of neat things, featuring a dynamic British narrator and fun cartoony graphics.
 - [Deep Dive](https://www.youtube.com/channel/UCFPGKw4jb7CJur6cHmIgI3Q)-- a relatively new but very promising channel with great big-issue science videos.
-- [Stratzenblitz75](https://www.youtube.com/c/Stratzenblitz75/videos)Kerbal Space program videos with nice lessons on the science behind them (like orbital mechanics)
+- [Stratzenblitz75](https://www.youtube.com/c/Stratzenblitz75/videos) Kerbal Space program videos with nice lessons on the science behind them (like orbital mechanics)
 - [Wendover Productions](https://www.youtube.com/user/Wendoverproductions)-- neat explanations of wide-ranging things, (including transportation logistics!)
 
 ## Inventions and Building Stuff
@@ -483,13 +483,13 @@ Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shad
 
 ## Video creation, 3D Animation and Youtubing Strategy
 
-- [Lazy Tutorials](https://www.youtube.com/user/mrdodobird)(Ian Huber teaches you 3-D animation with Blender at the speed of thought). He also maintains the[Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ)channel.
+- [Lazy Tutorials](https://www.youtube.com/user/mrdodobird)(Ian Huber teaches you 3-D animation with Blender at the speed of thought). He also maintains the [Default Cube](https://www.youtube.com/channel/UCdpWKLNfbROyoGPV46-zaUQ) channel.
 - [Blender Guru](https://www.youtube.com/user/AndrewPPrice)-- personable, easy to watch in-depth blender tutorials
 - [CG Matter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg)-- fast, advanced Blender tutorials
 - [CG Geek](https://www.youtube.com/results?search_query=cg+geek)-- longer, more detailed Blender tutorials
 - [Captain Disillusion](https://www.youtube.com/user/CaptainDisillusion)(video editing and special effects -- this man puts alotof work into each of his super-entertaining videos)
 - [Daniel Krafft](https://www.youtube.com/channel/UCojEXrCBzO-cP2N5YlRcrWw)-- useful blender tips and tutorials
-- [Iridesium](https://www.youtube.com/channel/UCsVG9hd6Dqdj7lP-YPIgCjg)-- tutorials on how to create[movie-quality](https://www.youtube.com/watch?v=mXnp_KIo8q8&ab_channel=Iridesium)special effects in Blender
+- [Iridesium](https://www.youtube.com/channel/UCsVG9hd6Dqdj7lP-YPIgCjg)-- tutorials on how to create [movie-quality](https://www.youtube.com/watch?v=mXnp_KIo8q8&ab_channel=Iridesium) special effects in Blender
 
 ## Coding and Artificial Intelligence
 

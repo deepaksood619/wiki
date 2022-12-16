@@ -8,7 +8,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ## CricInfo
 
-[CRICINFO system design | CRICBUZZ System desi](http://youtube.com/watch?v=exSwQtMxGd4)gn
+[CRICINFO system design | CRICBUZZ System desi](http://youtube.com/watch?v=exSwQtMxGd4) gn
 ![image](media/System-Design---Others-image1.jpg)
 ![image](media/System-Design---Others-image2.png)
 

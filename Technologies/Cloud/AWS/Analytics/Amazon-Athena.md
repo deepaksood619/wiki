@@ -12,7 +12,7 @@ Amazon Athena is an interactive query service that makes it easy to analyze data
 
 Athena is easy to use. Simply point to your data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there's no need for complex ETL jobs to prepare your data for analysis. This makes it easy for anyone with SQL skills to quickly analyze large-scale datasets.
 
-Athena is out-of-the-box integrated with[AWS Glue](https://aws.amazon.com/glue/)Data Catalog, allowing you to create a unified metadata repository across various services, crawl data sources to discover schemas and populate your Catalog with new and modified table and partition definitions, and maintain schema versioning.
+Athena is out-of-the-box integrated with [AWS Glue](https://aws.amazon.com/glue/) Data Catalog, allowing you to create a unified metadata repository across various services, crawl data sources to discover schemas and populate your Catalog with new and modified table and partition definitions, and maintain schema versioning.
 
 <https://aws.amazon.com/athena>
 
@@ -20,21 +20,21 @@ Athena is out-of-the-box integrated with[AWS Glue](https://aws.amazon.com/glue/)
 
 Athena helps you analyze unstructured, semi-structured, and structured data stored in Amazon S3. Examples include CSV, JSON, or columnar data formats such as Apache Parquet and Apache ORC. You can use Athena to run ad-hoc queries using ANSI SQL, without the need to aggregate or load the data into Athena.
 
-Athena integrates with Amazon QuickSight for easy data visualization. You can use Athena to generate reports or to explore data with business intelligence tools or SQL clients connected with a JDBC or an ODBC driver. For more information, see[What is Amazon QuickSight](https://docs.aws.amazon.com/quicksight/latest/user/welcome.html)in theAmazon QuickSight User Guideand[Connecting to Amazon Athena with ODBC and JDBC Drivers](https://docs.aws.amazon.com/athena/latest/ug/athena-bi-tools-jdbc-odbc.html).
+Athena integrates with Amazon QuickSight for easy data visualization. You can use Athena to generate reports or to explore data with business intelligence tools or SQL clients connected with a JDBC or an ODBC driver. For more information, see [What is Amazon QuickSight](https://docs.aws.amazon.com/quicksight/latest/user/welcome.html) in theAmazon QuickSight User Guideand [Connecting to Amazon Athena with ODBC and JDBC Drivers](https://docs.aws.amazon.com/athena/latest/ug/athena-bi-tools-jdbc-odbc.html).
 
-Athena integrates with the AWS Glue Data Catalog, which offers a persistent metadata store for your data in Amazon S3. This allows you to create tables and query data in Athena based on a central metadata store available throughout your AWS account and integrated with the ETL and data discovery features of AWS Glue. For more information, see[Integration with AWS Glue](https://docs.aws.amazon.com/athena/latest/ug/glue-athena.html)and[What is AWS Glue](https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html)in theAWS Glue Developer Guide.
+Athena integrates with the AWS Glue Data Catalog, which offers a persistent metadata store for your data in Amazon S3. This allows you to create tables and query data in Athena based on a central metadata store available throughout your AWS account and integrated with the ETL and data discovery features of AWS Glue. For more information, see [Integration with AWS Glue](https://docs.aws.amazon.com/athena/latest/ug/glue-athena.html) and [What is AWS Glue](https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html) in theAWS Glue Developer Guide.
 
 <https://docs.aws.amazon.com/athena/latest/ug/when-should-i-use-ate.html>
 
 ## Partitioning Data
 
-By partitioning your data, you can restrict the amount of data scanned by each query, thus improving performance and reducing cost. Athena leverages Hive for[partitioning](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-AlterPartition)data. You can partition your data by any key. A common practice is to partition the data based on time, often leading to a multi-level partitioning scheme. For example, a customer who has data coming in every hour might decide to partition by year, month, date, and hour. Another customer, who has data coming from many different sources but loaded one time per day, may partition by a data source identifier and date.
+By partitioning your data, you can restrict the amount of data scanned by each query, thus improving performance and reducing cost. Athena leverages Hive for [partitioning](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-AlterPartition) data. You can partition your data by any key. A common practice is to partition the data based on time, often leading to a multi-level partitioning scheme. For example, a customer who has data coming in every hour might decide to partition by year, month, date, and hour. Another customer, who has data coming from many different sources but loaded one time per day, may partition by a data source identifier and date.
 
 If you issue queries against Amazon S3 buckets with a large number of objects and the data is not partitioned, such queries may affect the Get request rate limits in Amazon S3 and lead to Amazon S3 exceptions. To prevent errors, partition your data. Additionally, consider tuning your Amazon S3 request rates.
 
 ## Note
 
-If you query a partitioned table and specify the partition in theWHEREclause, Athena scans the data only from that partition. For more information, see[Table Location and Partitions](https://docs.aws.amazon.com/athena/latest/ug/tables-location-format.html#table-location-and-partitions).
+If you query a partitioned table and specify the partition in theWHEREclause, Athena scans the data only from that partition. For more information, see [Table Location and Partitions](https://docs.aws.amazon.com/athena/latest/ug/tables-location-format.html#table-location-and-partitions).
 
 To create a table with partitions, you must define it during theCREATE TABLEstatement. UsePARTITIONED BYto define the keys by which to partition data. There are two scenarios discussed in the following sections:
 
@@ -46,8 +46,8 @@ To create a table with partitions, you must define it during theCREATE TABLEstat
 
 When you create a table from CSV data in Athena, determine what types of values it contains:
 
-- If data contains values enclosed in double quotes ("), you can use the[OpenCSV SerDe](https://cwiki.apache.org/confluence/display/Hive/CSV+Serde)to deserialize the values in Athena. In the following sections, note the behavior of this SerDe withSTRINGdata types.
-- If data does not contain values enclosed in double quotes ("), you can omit specifying any SerDe. In this case, Athena uses the defaultLazySimpleSerDe. For information, see[LazySimpleSerDe for CSV, TSV, and Custom-Delimited Files](https://docs.aws.amazon.com/athena/latest/ug/lazy-simple-serde.html).
+- If data contains values enclosed in double quotes ("), you can use the [OpenCSV SerDe](https://cwiki.apache.org/confluence/display/Hive/CSV+Serde) to deserialize the values in Athena. In the following sections, note the behavior of this SerDe withSTRINGdata types.
+- If data does not contain values enclosed in double quotes ("), you can omit specifying any SerDe. In this case, Athena uses the defaultLazySimpleSerDe. For information, see [LazySimpleSerDe for CSV, TSV, and Custom-Delimited Files](https://docs.aws.amazon.com/athena/latest/ug/lazy-simple-serde.html).
 
 ## Key Points
 
@@ -60,7 +60,7 @@ ACID - <https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-athena-acid-tr
 
 Athena supports read, time travel, write, and DDL queries for Apache Iceberg tables that use the Apache Parquet format for data and the AWS Glue catalog for their metastore.
 
-[Apache Iceberg](https://iceberg.apache.org/)is an open table format for very large analytic datasets. Iceberg manages large collections of files as tables, and it supports modern analytical data lake operations such as record-level insert, update, delete, and time travel queries. The Iceberg specification allows seamless table evolution such as schema and partition evolution, and its design is optimized for usage on Amazon S3. Iceberg also helps guarantee data correctness under concurrent write scenarios.
+[Apache Iceberg](https://iceberg.apache.org/) is an open table format for very large analytic datasets. Iceberg manages large collections of files as tables, and it supports modern analytical data lake operations such as record-level insert, update, delete, and time travel queries. The Iceberg specification allows seamless table evolution such as schema and partition evolution, and its design is optimized for usage on Amazon S3. Iceberg also helps guarantee data correctness under concurrent write scenarios.
 
 <https://docs.aws.amazon.com/athena/latest/ug/querying-iceberg.html>
 
@@ -116,7 +116,7 @@ SELECT facets.email_channel.mail_event.mail.destination,facets.email_channel.mai
 
 Detailed info on email click.
 
-SELECT facets.email_channel.mail_event.mail.destination[0],facets.email_channel.mail_event.click.link FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.click'
+SELECT facets.email_channel.mail_event.mail.destination [0],facets.email_channel.mail_event.click.link FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.click'
 
 Differen sub status on campaign send
 
@@ -124,7 +124,7 @@ SELECT attributes.campaign_send_status,count(*) FROM "pinpointanalytics"."emaila
 
 Email Open query
 
-SELECT facets.email_channel.mail_event.mail.destination[0] FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.open'
+SELECT facets.email_channel.mail_event.mail.destination [0] FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.open'
 
 ## SMS Analytics
 
@@ -136,17 +136,17 @@ AND day = '22'
 AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
 GROUP BY event_type;
 
-SELECT attributes['record_status'], count(*)
+SELECT attributes ['record_status'], count(*)
 FROM "pinpointanalytics"."emailanalyticsfinal"
 WHERE year = '2021'
 AND month = '08'
 AND day = '22'
 AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
-GROUP BY attributes['record_status']
+GROUP BY attributes ['record_status']
 
 ## # sms clicked
 
-SELECT attributes['customer_id'], count(*)
+SELECT attributes ['customer_id'], count(*)
 
 FROM "pinpointanalytics"."emailanalyticsfinal"
 
@@ -156,11 +156,11 @@ AND month = '11'
 
 AND day = '22'
 
-AND attributes['template_id'] = 'razorpay_link'
+AND attributes ['template_id'] = 'razorpay_link'
 
 AND event_type= '_SMS.CLICKED'
 
-group by attributes['customer_id'];
+group by attributes ['customer_id'];
 
 SELECT event_type, count(*)
 
@@ -176,7 +176,7 @@ AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
 
 GROUP BY event_type;
 
-SELECT attributes['record_status'], count(*)
+SELECT attributes ['record_status'], count(*)
 
 FROM "pinpointanalytics"."emailanalyticsfinal"
 
@@ -188,11 +188,11 @@ AND day = '24'
 
 AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
 
-GROUP BY attributes['record_status'];
+GROUP BY attributes ['record_status'];
 
-select * FROM "pinpointanalytics"."emailanalyticsfinal" where event_type in ('_SMS.FAILURE') and json_extract_scalar(attributes['customer_context'], '$.customer_id') ='4547012' limit 5
+select * FROM "pinpointanalytics"."emailanalyticsfinal" where event_type in ('_SMS.FAILURE') and json_extract_scalar(attributes ['customer_context'], '$.customer_id') ='4547012' limit 5
 
-select * FROM "pinpointanalytics"."emailanalyticsfinal" where json_extract_scalar(attributes['customer_context'], '$.customer_id') ='4990002' limit 5
+select * FROM "pinpointanalytics"."emailanalyticsfinal" where json_extract_scalar(attributes ['customer_context'], '$.customer_id') ='4990002' limit 5
 
 CREATE EXTERNAL TABLE IF NOT EXISTS join_test (
 

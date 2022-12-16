@@ -12,7 +12,7 @@ EigenFace
 
 ## Viola--Jones object detection framework
 
-TheViola--Jones object detection frameworkis the first[object detection](https://en.wikipedia.org/wiki/Object_detection)framework to provide competitive object detection rates in real-time proposed in 2001 by[Paul Viola](https://en.wikipedia.org/wiki/Paul_Viola)and[Michael Jones](https://en.wikipedia.org/wiki/Michael_Jones_(scientist)).
+TheViola--Jones object detection frameworkis the first [object detection](https://en.wikipedia.org/wiki/Object_detection) framework to provide competitive object detection rates in real-time proposed in 2001 by [Paul Viola](https://en.wikipedia.org/wiki/Paul_Viola) and [Michael Jones](https://en.wikipedia.org/wiki/Michael_Jones_(scientist)).
 
 The characteristics of Viola--Jones algorithm which make it a good detection algorithm are:
 
@@ -31,7 +31,7 @@ The algorithm has four stages:
 
 4. Cascading Classifiers
 
-The features sought by the detection framework universally involve the sums of image pixels within rectangular areas. As such, they bear some resemblance to[Haar basis functions](https://en.wikipedia.org/wiki/Haar-like_feature), which have been used previously in the realm of image-based object detection.[[3]](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework#cite_note-3)However, since the features used by Viola and Jones all rely on more than one rectangular area, they are generally more complex. The figure on the right illustrates the four different types of features used in the framework. The value of any given feature is the sum of the pixels within clear rectangles subtracted from the sum of the pixels within shaded rectangles. Rectangular features of this sort are primitive when compared to alternatives such as[steerable filters](https://en.wikipedia.org/wiki/Steerable_filter). Although they are sensitive to vertical and horizontal features, their feedback is considerably coarser.
+The features sought by the detection framework universally involve the sums of image pixels within rectangular areas. As such, they bear some resemblance to [Haar basis functions](https://en.wikipedia.org/wiki/Haar-like_feature), which have been used previously in the realm of image-based object detection.[[3]](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework#cite_note-3) However, since the features used by Viola and Jones all rely on more than one rectangular area, they are generally more complex. The figure on the right illustrates the four different types of features used in the framework. The value of any given feature is the sum of the pixels within clear rectangles subtracted from the sum of the pixels within shaded rectangles. Rectangular features of this sort are primitive when compared to alternatives such as [steerable filters](https://en.wikipedia.org/wiki/Steerable_filter). Although they are sensitive to vertical and horizontal features, their feedback is considerably coarser.
 
 ## single-image super-resolution (SISR)
 
@@ -47,9 +47,9 @@ By detecting and generating patterns in a low-resolution image and applying thes
 
 ## Waifu2
 
-waifu2xis an[image scaling](https://en.wikipedia.org/wiki/Image_scaling)and[noise reduction](https://en.wikipedia.org/wiki/Noise_reduction)program for anime-style art and other types of photos.
+waifu2xis an [image scaling](https://en.wikipedia.org/wiki/Image_scaling) and [noise reduction](https://en.wikipedia.org/wiki/Noise_reduction) program for anime-style art and other types of photos.
 
-waifu2x was inspired by[Super-Resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging)[Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_Neural_Network)(SRCNN).It uses[Nvidia](https://en.wikipedia.org/wiki/Nvidia)[CUDA](https://en.wikipedia.org/wiki/CUDA)for computing,although alternative implementations that allow for[OpenCL](https://en.wikipedia.org/wiki/OpenCL)and[Vulkan](https://en.wikipedia.org/wiki/Vulkan_(API))have been created.
+waifu2x was inspired by [Super-Resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging)[Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_Neural_Network)(SRCNN).It uses [Nvidia](https://en.wikipedia.org/wiki/Nvidia)[CUDA](https://en.wikipedia.org/wiki/CUDA) for computing,although alternative implementations that allow for [OpenCL](https://en.wikipedia.org/wiki/OpenCL) and [Vulkan](https://en.wikipedia.org/wiki/Vulkan_(API)) have been created.
 
 <https://github.com/nagadomi/waifu2x>
 
@@ -71,7 +71,7 @@ Remove fuzziness in medical or other images (uses MST)
 
 ## Video Multimethod Assessment Fusion (VMAF)
 
-Video Multimethod Assessment Fusion (VMAF)is an objective full-reference[video quality](https://en.wikipedia.org/wiki/Video_quality)metric developed by[Netflix](https://en.wikipedia.org/wiki/Netflix)in cooperation with the[University of Southern California](https://en.wikipedia.org/wiki/University_of_Southern_California)and the Laboratory for Image and Video Engineering (LIVE) at[The University of Texas at Austin](https://en.wikipedia.org/wiki/The_University_of_Texas_at_Austin). It predicts subjective video quality based on a reference and distorted video sequence. The metric can be used to evaluate the quality of different[video codecs](https://en.wikipedia.org/wiki/Video_codec), encoders, encoding settings, or transmission variants.
+Video Multimethod Assessment Fusion (VMAF)is an objective full-reference [video quality](https://en.wikipedia.org/wiki/Video_quality) metric developed by [Netflix](https://en.wikipedia.org/wiki/Netflix) in cooperation with the [University of Southern California](https://en.wikipedia.org/wiki/University_of_Southern_California) and the Laboratory for Image and Video Engineering (LIVE) at [The University of Texas at Austin](https://en.wikipedia.org/wiki/The_University_of_Texas_at_Austin). It predicts subjective video quality based on a reference and distorted video sequence. The metric can be used to evaluate the quality of different [video codecs](https://en.wikipedia.org/wiki/Video_codec), encoders, encoding settings, or transmission variants.
 
 ## Others
 

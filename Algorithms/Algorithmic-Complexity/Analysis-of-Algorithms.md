@@ -102,9 +102,9 @@ There are three main types of amortized analysis:aggregate analysis, theaccounti
 
 ## Space--time or time-memory tradeoff (TMTO)
 
-Aspace--timeortime--memory trade-offin[computer science](https://en.wikipedia.org/wiki/Computer_science)is a case where an[algorithm](https://en.wikipedia.org/wiki/Algorithm)or[program](https://en.wikipedia.org/wiki/Computer_program)[trades](https://en.wikipedia.org/wiki/Trade-off)increased space usage with decreased time. Here,spacerefers to the[data storage](https://en.wikipedia.org/wiki/Computer_storage)consumed in performing a given task ([RAM](https://en.wikipedia.org/wiki/Dynamic_random-access_memory),[HDD](https://en.wikipedia.org/wiki/Hard_disk_drive), etc), andtimerefers to the time consumed in performing a given task ([computation](https://en.wikipedia.org/wiki/Time_complexity)time or[response time](https://en.wikipedia.org/wiki/Response_time_(technology))).
+Aspace--timeortime--memory trade-offin[computer science](https://en.wikipedia.org/wiki/Computer_science) is a case where an[algorithm](https://en.wikipedia.org/wiki/Algorithm) or [program](https://en.wikipedia.org/wiki/Computer_program)[trades](https://en.wikipedia.org/wiki/Trade-off) increased space usage with decreased time. Here,spacerefers to the[data storage](https://en.wikipedia.org/wiki/Computer_storage) consumed in performing a given task ([RAM](https://en.wikipedia.org/wiki/Dynamic_random-access_memory),[HDD](https://en.wikipedia.org/wiki/Hard_disk_drive), etc), andtimerefers to the time consumed in performing a given task ([computation](https://en.wikipedia.org/wiki/Time_complexity) time or[response time](https://en.wikipedia.org/wiki/Response_time_(technology))).
 
-The utility of a given space--time tradeoff is affected by related[fixed](https://en.wikipedia.org/wiki/Fixed_cost)and[variable costs](https://en.wikipedia.org/wiki/Variable_costs)(of, e.g.,[CPU](https://en.wikipedia.org/wiki/CPU)speed, storage space), and is subject to[diminishing returns](https://en.wikipedia.org/wiki/Diminishing_returns).
+The utility of a given space--time tradeoff is affected by related[fixed](https://en.wikipedia.org/wiki/Fixed_cost) and [variable costs](https://en.wikipedia.org/wiki/Variable_costs)(of, e.g.,[CPU](https://en.wikipedia.org/wiki/CPU) speed, storage space), and is subject to[diminishing returns](https://en.wikipedia.org/wiki/Diminishing_returns).
 
 <https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff>
 
@@ -120,7 +120,7 @@ A space--time tradeoff can be applied to the problem of data storage. If data is
 
 ## Re-rendering vs. stored images
 
-Storing only the[SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)source of a[vector image](https://en.wikipedia.org/wiki/Vector_graphics)and rendering it as a[bitmap image](https://en.wikipedia.org/wiki/Bitmap)every time the page is requested would be trading time for space; more time used, but less space. Rendering the image when the page is changed and storing the rendered images would be trading space for time; more space used, but less time. This technique is more generally known as[caching](https://en.wikipedia.org/wiki/Cache_(computing)).
+Storing only the[SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) source of a[vector image](https://en.wikipedia.org/wiki/Vector_graphics) and rendering it as a[bitmap image](https://en.wikipedia.org/wiki/Bitmap) every time the page is requested would be trading time for space; more time used, but less space. Rendering the image when the page is changed and storing the rendered images would be trading space for time; more space used, but less time. This technique is more generally known as[caching](https://en.wikipedia.org/wiki/Cache_(computing)).
 
 ## Smaller code vs. loop unrolling
 
@@ -128,6 +128,6 @@ Larger code size can be traded for higher program speed when applying[loop unrol
 
 ## Time/memory/data tradeoff attack
 
-Atime/memory/data tradeoff attackis a type of[cryptographic attack](https://en.wikipedia.org/wiki/Cryptanalysis)where an attacker tries to achieve a situation similar to the[space--time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff)but with the additional parameter ofdata, representing the amount of data available to the attacker. An attacker balances or reduces one or two of those parameters in favor of the other one or two. This type of attack is very difficult, so most of the ciphers and encryption schemes in use were not designed to resist it.
+Atime/memory/data tradeoff attackis a type of[cryptographic attack](https://en.wikipedia.org/wiki/Cryptanalysis) where an attacker tries to achieve a situation similar to the[space--time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff) but with the additional parameter ofdata, representing the amount of data available to the attacker. An attacker balances or reduces one or two of those parameters in favor of the other one or two. This type of attack is very difficult, so most of the ciphers and encryption schemes in use were not designed to resist it.
 
 <https://en.wikipedia.org/wiki/Time/memory/data_tradeoff_attack>

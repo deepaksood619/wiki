@@ -42,7 +42,7 @@ The idea is simple, we create multiple layers so that we can skip some nodes.
 
 6. Intrusive Linked List
 
-Intrusive linked lists are a variation of[linked lists](https://www.data-structures-in-practice.com/linked-lists/)where the links are embedded in the structure that's being linked.
+Intrusive linked lists are a variation of [linked lists](https://www.data-structures-in-practice.com/linked-lists/) where the links are embedded in the structure that's being linked.
 In a typical linked list implementation, a list node contains adatapointer to the linked data and anextpointer to the next node in the list.
 
 ![image](media/Linked-List-image2.png)

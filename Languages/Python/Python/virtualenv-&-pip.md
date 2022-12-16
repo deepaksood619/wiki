@@ -122,19 +122,19 @@ It works by installing a bunch of files in a directory (eg:env/), and then modif
 
 ## pyenv
 
-[**pyenv**](https://github.com/yyuu/pyenv)is used to isolate Python versions. For example, you may want to test your code against Python 2.6, 2.7, 3.3, 3.4 and 3.5, so you'll need a way to switch between them. Once activated, it prefixes thePATHenvironment variable with~/.pyenv/shims, where there are special files matching the Python commands (python,pip). These are not copies of the Python-shipped commands; they are special scripts that decide on the fly which version of Python to run based on thePYENV_VERSIONenvironment variable, or the.python-versionfile, or the~/.pyenv/versionfile.pyenvalso makes the process of downloading and installing multiple Python versions easier, using the commandpyenv install.
+[**pyenv**](https://github.com/yyuu/pyenv) is used to isolate Python versions. For example, you may want to test your code against Python 2.6, 2.7, 3.3, 3.4 and 3.5, so you'll need a way to switch between them. Once activated, it prefixes thePATHenvironment variable with~/.pyenv/shims, where there are special files matching the Python commands (python,pip). These are not copies of the Python-shipped commands; they are special scripts that decide on the fly which version of Python to run based on thePYENV_VERSIONenvironment variable, or the.python-versionfile, or the~/.pyenv/versionfile.pyenvalso makes the process of downloading and installing multiple Python versions easier, using the commandpyenv install.
 
 ## pyenv-virtualenv
 
-[**pyenv-virtualenv**](https://github.com/yyuu/pyenv-virtualenv)is a plugin forpyenvby the same author aspyenv, to allow you to usepyenvandvirtualenvat the same time conveniently. However, if you're using Python 3.3 or later,pyenv-virtualenvwill try to runpython -m venvif it is available, instead ofvirtualenv. You can usevirtualenvandpyenvtogether withoutpyenv-virtualenv, if you don't want the convenience features.
+[**pyenv-virtualenv**](https://github.com/yyuu/pyenv-virtualenv) is a plugin forpyenvby the same author aspyenv, to allow you to usepyenvandvirtualenvat the same time conveniently. However, if you're using Python 3.3 or later,pyenv-virtualenvwill try to runpython -m venvif it is available, instead ofvirtualenv. You can usevirtualenvandpyenvtogether withoutpyenv-virtualenv, if you don't want the convenience features.
 
 ## virtualenvwrapper
 
-[**virtualenvwrapper**](https://pypi.python.org/pypi/virtualenvwrapper)is a set of extensions tovirtualenv(see[docs](http://virtualenvwrapper.readthedocs.io/en/latest/)). It gives you commands likemkvirtualenv,lssitepackages, and especiallyworkonfor switching between differentvirtualenvdirectories. This tool is especially useful if you want multiplevirtualenvdirectories.
+[**virtualenvwrapper**](https://pypi.python.org/pypi/virtualenvwrapper) is a set of extensions tovirtualenv(see [docs](http://virtualenvwrapper.readthedocs.io/en/latest/)). It gives you commands likemkvirtualenv,lssitepackages, and especiallyworkonfor switching between differentvirtualenvdirectories. This tool is especially useful if you want multiplevirtualenvdirectories.
 
 ## pyenv-virtualenvwrapper
 
-[**pyenv-virtualenvwrapper**](https://github.com/yyuu/pyenv-virtualenvwrapper)is a plugin forpyenvby the same author aspyenv, to conveniently integratevirtualenvwrapperintopyenv.
+[**pyenv-virtualenvwrapper**](https://github.com/yyuu/pyenv-virtualenvwrapper) is a plugin forpyenvby the same author aspyenv, to conveniently integratevirtualenvwrapperintopyenv.
 
 ## pipenv
 
@@ -142,11 +142,11 @@ It works by installing a bunch of files in a directory (eg:env/), and then modif
 
 ## pyenv
 
-## pyvenvis a script shipped with Python 3 but[deprecated in Python 3.6](https://docs.python.org/dev/whatsnew/3.6.html#id8)as it had problems (not to mention the confusing name). In Python 3.6+, the exact equivalent ispython3 -m venv
+## pyvenvis a script shipped with Python 3 but [deprecated in Python 3.6](https://docs.python.org/dev/whatsnew/3.6.html#id8) as it had problems (not to mention the confusing name). In Python 3.6+, the exact equivalent ispython3 -m venv
 
 ## venv
 
-[**venv**](https://docs.python.org/3/library/venv.html)is a package shipped with Python 3, which you can run usingpython3 -m venv(although for some reason some distros separate it out into a separate distro package, such aspython3-venvon Ubuntu/Debian). It serves a similar purpose tovirtualenv, and works in a very similar way, but it doesn't need to copy Python binaries around (except on Windows). Use this if you don't need to support Python 2. At the time of writing, the Python community seems to be happy withvirtualenvand I haven't heard much talk ofvenv
+[**venv**](https://docs.python.org/3/library/venv.html) is a package shipped with Python 3, which you can run usingpython3 -m venv(although for some reason some distros separate it out into a separate distro package, such aspython3-venvon Ubuntu/Debian). It serves a similar purpose tovirtualenv, and works in a very similar way, but it doesn't need to copy Python binaries around (except on Windows). Use this if you don't need to support Python 2. At the time of writing, the Python community seems to be happy withvirtualenvand I haven't heard much talk ofvenv
 
 ## anaconda / conda
 

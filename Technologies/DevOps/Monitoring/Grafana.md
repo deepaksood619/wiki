@@ -76,7 +76,7 @@ The query language and capabilities of each Data Source are obviously very diffe
 
 A Row is a logical divider within a Dashboard, and is used to group Panels together.
 
-Utilize the[Repeating Rows functionality](http://docs.grafana.org/reference/templating/#repeating-rows)to dynamically create or remove entire Rows (that can be filled with Panels), based on the Template variables selected.
+Utilize the [Repeating Rows functionality](http://docs.grafana.org/reference/templating/#repeating-rows) to dynamically create or remove entire Rows (that can be filled with Panels), based on the Template variables selected.
 
 Rows can be collapsed by clicking on the Row Title. If you save a Dashboard with a Row collapsed, it will save in that state and will not preload those graphs until the row is expanded.
 
@@ -94,7 +94,7 @@ Types of Panel -
 - Dashboard list
 - Text
 
-Utilize the[Repeating Panel](http://docs.grafana.org/reference/templating/#repeating-panels)functionality to dynamically create or remove Panels based on the[Templating Variables](http://docs.grafana.org/reference/templating/#repeating-panels)selected.
+Utilize the [Repeating Panel](http://docs.grafana.org/reference/templating/#repeating-panels) functionality to dynamically create or remove Panels based on the [Templating Variables](http://docs.grafana.org/reference/templating/#repeating-panels) selected.
 
 - **Query Editor**
 
@@ -102,7 +102,7 @@ The Query Editor exposes capabilities of your Data Source and allows you to quer
 
 Use the Query Editor to build one or more queries (for one or more series) in your time series database. The panel will instantly update allowing you to effectively explore your data in real time and build a perfect query for that particular Panel.
 
-You can utilize[Template variables](http://docs.grafana.org/reference/templating/)in the Query Editor within the queries themselves. This provides a powerful way to explore data dynamically based on the Templating variables selected on the Dashboard.
+You can utilize [Template variables](http://docs.grafana.org/reference/templating/) in the Query Editor within the queries themselves. This provides a powerful way to explore data dynamically based on the Templating variables selected on the Dashboard.
 
 Grafana allows you to reference queries in the Query Editor by the row that they're on. If you add a second query to graph, you can reference the first query simply by typing in #A. This provides an easy and convenient way to build compounded queries.
 
@@ -110,13 +110,13 @@ Grafana allows you to reference queries in the Query Editor by the row that they
 
 The Dashboard is where it all comes together. Dashboards can be thought of as of a set of one or more Panels organized and arranged into one or more Rows.
 
-The time period for the Dashboard can be controlled by the[Dashboard time picker](http://docs.grafana.org/reference/timerange/)in the upper right of the Dashboard.
+The time period for the Dashboard can be controlled by the [Dashboard time picker](http://docs.grafana.org/reference/timerange/) in the upper right of the Dashboard.
 
-Dashboards can utilize[Templating](http://docs.grafana.org/reference/templating/)to make them more dynamic and interactive.
+Dashboards can utilize [Templating](http://docs.grafana.org/reference/templating/) to make them more dynamic and interactive.
 
-Dashboards can utilize[Annotations](http://docs.grafana.org/reference/annotations/)to display event data across Panels. This can help correlate the time series data in the Panel with other events.
+Dashboards can utilize [Annotations](http://docs.grafana.org/reference/annotations/) to display event data across Panels. This can help correlate the time series data in the Panel with other events.
 
-Dashboards (or a specific Panel) can be[Shared](http://docs.grafana.org/reference/sharing/)easily in a variety of ways. You can send a link to someone who has a login to your Grafana. You can use the[Snapshot](http://docs.grafana.org/reference/sharing/#snapshots)feature to encode all the data currently being viewed into a static and interactive JSON document; it's so much better than emailing a screenshot!
+Dashboards (or a specific Panel) can be [Shared](http://docs.grafana.org/reference/sharing/) easily in a variety of ways. You can send a link to someone who has a login to your Grafana. You can use the [Snapshot](http://docs.grafana.org/reference/sharing/#snapshots) feature to encode all the data currently being viewed into a static and interactive JSON document; it's so much better than emailing a screenshot!
 
 Dashboards can be tagged, and the Dashboard picker provides quick, searchable access to all Dashboards in a particular Organization.
 
@@ -182,20 +182,20 @@ grafana-cli plugins ls
 
 ## Grafana Loki
 
-Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by[Prometheus](https://prometheus.io/). It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
+Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by [Prometheus](https://prometheus.io/). It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream.
 
 Compared to other log aggregation systems, Loki:
 
 - does not do full text indexing on logs. By storing compressed, unstructured logs and only indexing metadata, Loki is simpler to operate and cheaper to run.
 - indexes and groups log streams using the same labels you're already using with Prometheus, enabling you to seamlessly switch between metrics and logs using the same labels that you're already using with Prometheus.
-- is an especially good fit for storing[Kubernetes](https://kubernetes.io/)Pod logs. Metadata such as Pod labels is automatically scraped and indexed.
+- is an especially good fit for storing [Kubernetes](https://kubernetes.io/) Pod logs. Metadata such as Pod labels is automatically scraped and indexed.
 - has native support in Grafana (needs Grafana v6.0).
 
 A Loki-based logging stack consists of 3 components:
 
 - promtailis the agent, responsible for gathering logs and sending them to Loki.
 - lokiis the main server, responsible for storing logs and processing queries.
-- [Grafana](https://github.com/grafana/grafana)for querying and displaying the logs.
+- [Grafana](https://github.com/grafana/grafana) for querying and displaying the logs.
 
 Loki is like Prometheus, but for logs: we prefer a multidimensional label-based approach to indexing, and want a single-binary, easy to operate system with no dependencies. Loki differs from Prometheus by focusing on logs instead of metrics, and delivering logs via push, instead of pull.
 

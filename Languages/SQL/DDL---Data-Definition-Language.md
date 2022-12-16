@@ -95,7 +95,7 @@ TRUNCATE TABLE
 
 TRUNCATE TABLE table_name
 
-TheTRUNCATE TABLEstatement removes all the rows from a table more quickly than aDELETE. Logically,TRUNCATE TABLEis similar to the[DELETE](https://www.tutorialrepublic.com/sql-tutorial/sql-delete-statement.php)statement with no[WHERE](https://www.tutorialrepublic.com/sql-tutorial/sql-where-clause.php)clause.
+TheTRUNCATE TABLEstatement removes all the rows from a table more quickly than aDELETE. Logically,TRUNCATE TABLEis similar to the [DELETE](https://www.tutorialrepublic.com/sql-tutorial/sql-delete-statement.php) statement with no [WHERE](https://www.tutorialrepublic.com/sql-tutorial/sql-where-clause.php) clause.
 
 TheTRUNCATE TABLEstatement removes all the rows from a table, but the table structure and its columns, constraints, indexes, and so on remain intact.
 

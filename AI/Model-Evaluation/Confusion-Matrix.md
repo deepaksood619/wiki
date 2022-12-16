@@ -80,7 +80,7 @@ precision = 𝑃𝑃𝑉 = 𝑇𝑃 / (𝑇𝑃+𝐹𝑃)
 
 recall = TPR = TP / (TP+FN)
 
-Since precision-recall curves do not consider true negatives, they should only be used[when specificity is of no concern for the classifier](https://www.datascienceblog.net/post/machine-learning/specificity-vs-precision/).
+Since precision-recall curves do not consider true negatives, they should only be used [when specificity is of no concern for the classifier](https://www.datascienceblog.net/post/machine-learning/specificity-vs-precision/).
 
 <https://www.datascienceblog.net/post/machine-learning/interpreting-roc-curves-auc>
 

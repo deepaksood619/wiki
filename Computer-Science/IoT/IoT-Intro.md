@@ -20,7 +20,7 @@ A json file maintained on the cloud where all the updates are performed. These i
 
 ## TPM - Trusted Platform Module**
 
-Is an[international standard](https://en.wikipedia.org/wiki/International_standard)for a[secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor), a dedicated[microcontroller](https://en.wikipedia.org/wiki/Microcontroller)designed to secure hardware through integrated[cryptographic keys](https://en.wikipedia.org/wiki/Cryptographic_keys).
+Is an [international standard](https://en.wikipedia.org/wiki/International_standard) for a [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor), a dedicated [microcontroller](https://en.wikipedia.org/wiki/Microcontroller) designed to secure hardware through integrated [cryptographic keys](https://en.wikipedia.org/wiki/Cryptographic_keys).
 
 ## Four basic architectural components
 

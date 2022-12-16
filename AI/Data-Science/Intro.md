@@ -141,7 +141,7 @@ Data handling - querying, slicing, joining
 
 ## Data Governance
 
-Data governance (DG) is the process of managing the availability, usability, integrity and security of the[data](https://searchdatamanagement.techtarget.com/definition/data)in enterprise systems, based on internal data standards and policies that also control data usage. Effective data governance ensures that data is consistent and trustworthy and doesn't get misused. It's increasingly critical as organizations face new data privacy regulations and rely more and more on data analytics to help optimize operations and drive business decision-making.
+Data governance (DG) is the process of managing the availability, usability, integrity and security of the [data](https://searchdatamanagement.techtarget.com/definition/data) in enterprise systems, based on internal data standards and policies that also control data usage. Effective data governance ensures that data is consistent and trustworthy and doesn't get misused. It's increasingly critical as organizations face new data privacy regulations and rely more and more on data analytics to help optimize operations and drive business decision-making.
 
 Ethical Principles around Data
 

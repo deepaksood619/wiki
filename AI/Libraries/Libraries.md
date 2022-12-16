@@ -12,9 +12,9 @@ Modified: 2022-12-06 20:26:00 +0500
 
 A scalable deep learning framework. Extremely fast and efficient. Capable of scaling across multiple GPUs and multiple machines.
 
-Apache MXNetis an[open-source](https://en.wikipedia.org/wiki/Open-source_software)[deep learning](https://en.wikipedia.org/wiki/Deep_learning)[software framework](https://en.wikipedia.org/wiki/Software_framework), used to train, and deploy[deep neural networks](https://en.wikipedia.org/wiki/Deep_neural_network). It is scalable, allowing for fast[model training](https://en.wikipedia.org/wiki/Training,_test,_and_validation_sets), and supports a flexible[programming model](https://en.wikipedia.org/wiki/Programming_model)and multiple[programming languages](https://en.wikipedia.org/wiki/Programming_language)(including[C++](https://en.wikipedia.org/wiki/C%2B%2B),[Python](https://en.wikipedia.org/wiki/Python_(programming_language)),[Julia](https://en.wikipedia.org/wiki/Julia_(programming_language)),[Matlab](https://en.wikipedia.org/wiki/Matlab),[JavaScript](https://en.wikipedia.org/wiki/JavaScript),[Go](https://en.wikipedia.org/wiki/Go_(programming_language)),[R](https://en.wikipedia.org/wiki/R_(programming_language)),[Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)),[Perl](https://en.wikipedia.org/wiki/Perl_(programming_language)), and[Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language).)
+Apache MXNetis an [open-source](https://en.wikipedia.org/wiki/Open-source_software)[deep learning](https://en.wikipedia.org/wiki/Deep_learning)[software framework](https://en.wikipedia.org/wiki/Software_framework), used to train, and deploy [deep neural networks](https://en.wikipedia.org/wiki/Deep_neural_network). It is scalable, allowing for fast [model training](https://en.wikipedia.org/wiki/Training,_test,_and_validation_sets), and supports a flexible [programming model](https://en.wikipedia.org/wiki/Programming_model) and multiple [programming languages](https://en.wikipedia.org/wiki/Programming_language)(including [C++](https://en.wikipedia.org/wiki/C%2B%2B),[Python](https://en.wikipedia.org/wiki/Python_(programming_language)),[Julia](https://en.wikipedia.org/wiki/Julia_(programming_language)),[Matlab](https://en.wikipedia.org/wiki/Matlab),[JavaScript](https://en.wikipedia.org/wiki/JavaScript),[Go](https://en.wikipedia.org/wiki/Go_(programming_language)),[R](https://en.wikipedia.org/wiki/R_(programming_language)),[Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)),[Perl](https://en.wikipedia.org/wiki/Perl_(programming_language)), and [Wolfram Language](https://en.wikipedia.org/wiki/Wolfram_Language).)
 
-The MXNet[library](https://en.wikipedia.org/wiki/Library_(computing))is[portable](https://en.wikipedia.org/wiki/Software_portability)and can[scale](https://en.wikipedia.org/wiki/Scalability)to multiple[GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit)and multiple machines. MXNet is supported by[public cloud](https://en.wikipedia.org/wiki/Public_cloud)providers including[Amazon Web Services](https://en.wikipedia.org/wiki/Amazon_Web_Services)(AWS)and[Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure).Amazon has chosen MXNet as its deep learning framework of choice at AWS.Currently, MXNet is supported by [Intel](https://en.wikipedia.org/wiki/Intel), [Baidu](https://en.wikipedia.org/wiki/Baidu), [Microsoft](https://en.wikipedia.org/wiki/Microsoft), [Wolfram Research](https://en.wikipedia.org/wiki/Wolfram_Research), and research institutions such as[Carnegie Mellon](https://en.wikipedia.org/wiki/Carnegie_Mellon_University),[MIT](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology), the[University of Washington](https://en.wikipedia.org/wiki/University_of_Washington), and the[Hong Kong University of Science and Technology](https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology).
+The MXNet [library](https://en.wikipedia.org/wiki/Library_(computing)) is [portable](https://en.wikipedia.org/wiki/Software_portability) and can [scale](https://en.wikipedia.org/wiki/Scalability) to multiple [GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit) and multiple machines. MXNet is supported by [public cloud](https://en.wikipedia.org/wiki/Public_cloud) providers including [Amazon Web Services](https://en.wikipedia.org/wiki/Amazon_Web_Services)(AWS) and [Microsoft Azure](https://en.wikipedia.org/wiki/Microsoft_Azure).Amazon has chosen MXNet as its deep learning framework of choice at AWS.Currently, MXNet is supported by [Intel](https://en.wikipedia.org/wiki/Intel), [Baidu](https://en.wikipedia.org/wiki/Baidu), [Microsoft](https://en.wikipedia.org/wiki/Microsoft), [Wolfram Research](https://en.wikipedia.org/wiki/Wolfram_Research), and research institutions such as [Carnegie Mellon](https://en.wikipedia.org/wiki/Carnegie_Mellon_University),[MIT](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology), the [University of Washington](https://en.wikipedia.org/wiki/University_of_Washington), and the [Hong Kong University of Science and Technology](https://en.wikipedia.org/wiki/Hong_Kong_University_of_Science_and_Technology).
 
 <https://en.wikipedia.org/wiki/Apache_MXNet>
 
@@ -22,7 +22,7 @@ The MXNet[library](https://en.wikipedia.org/wiki/Library_(computing))is[portable
 
 Model Server for Apache MXNet is a tool for serving neural net models for inference
 
-Model Server for Apache MXNet (MMS) is a flexible and easy to use tool for serving deep learning models exported from[MXNet](http://mxnet.io/)or the Open Neural Network Exchange ([ONNX](http://onnx.ai/)).
+Model Server for Apache MXNet (MMS) is a flexible and easy to use tool for serving deep learning models exported from [MXNet](http://mxnet.io/) or the Open Neural Network Exchange ([ONNX](http://onnx.ai/)).
 
 <https://github.com/awslabs/mxnet-model-server>
 
@@ -33,7 +33,7 @@ PyTorch ( Tensors and Dynamic neural netwoks in Python with strong GPU accelerat
 3. Keras
     - High-level neural networks API. Makes coding, training, and deploying neural networks incredibly easy with its scikit-learn style API.
 
-Keras is a high-level neural networks API, written in Python and capable of running on top of[TensorFlow](https://github.com/tensorflow/tensorflow),[CNTK](https://github.com/Microsoft/cntk), or[Theano](https://github.com/Theano/Theano). It was developed with a focus on enabling fast experimentation.Being able to go from idea to result with the least possible delay is key to doing good research.
+Keras is a high-level neural networks API, written in Python and capable of running on top of [TensorFlow](https://github.com/tensorflow/tensorflow),[CNTK](https://github.com/Microsoft/cntk), or [Theano](https://github.com/Theano/Theano). It was developed with a focus on enabling fast experimentation.Being able to go from idea to result with the least possible delay is key to doing good research.
 
 Use Keras if you need a deep learning library that:
 
@@ -114,7 +114,7 @@ FastText is an open-source, free, lightweight library that allows users to learn
 
 ## CMU Sphinx
 
-## CMU Sphinx, also called Sphinx in short, is the general term to describe a group of[speech recognition](https://en.wikipedia.org/wiki/Speech_recognition)systems developed at[Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University). These include a series of speech recognizers (Sphinx 2 - 4) and an[acoustic model](https://en.wikipedia.org/wiki/Acoustic_Model)trainer (SphinxTrain)
+## CMU Sphinx, also called Sphinx in short, is the general term to describe a group of [speech recognition](https://en.wikipedia.org/wiki/Speech_recognition) systems developed at [Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University). These include a series of speech recognizers (Sphinx 2 - 4) and an [acoustic model](https://en.wikipedia.org/wiki/Acoustic_Model) trainer (SphinxTrain)
 
 ## SymPy
 
@@ -146,7 +146,7 @@ NetworkX is a Python package for the creation, manipulation, and study of the st
 
 ## Graph-tool
 
-Graph-tool is an efficient[Python](http://www.python.org/)module for manipulation and statistical analysis of[graphs](http://en.wikipedia.org/wiki/Graph_%28mathematics%29)(a.k.a.[networks](http://en.wikipedia.org/wiki/Network_theory)).
+Graph-tool is an efficient [Python](http://www.python.org/) module for manipulation and statistical analysis of [graphs](http://en.wikipedia.org/wiki/Graph_%28mathematics%29)(a.k.a.[networks](http://en.wikipedia.org/wiki/Network_theory)).
 
 ## GeoPy
 
@@ -206,7 +206,7 @@ Genie is a completely open source distributed job orchestration engine developed
 
 Generative Pre-trained Transformer 3 (GPT-3; stylized GPT·3) is an autoregressive language model that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
 
-The architecture is a standard[transformer network](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))(with a few engineering tweaks) with the unprecedented size of 2048-token-long context and 175 billion[parameters](https://en.wikipedia.org/wiki/Parameter_(machine_learning))(requiring 800 GB of storage). The training method is "generative pretraining", meaning that it is trained to predict what the next token is. The model demonstrated strong[few-shot learning](https://en.wikipedia.org/wiki/Few-shot_learning)on many text-based tasks.
+The architecture is a standard [transformer network](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))(with a few engineering tweaks) with the unprecedented size of 2048-token-long context and 175 billion [parameters](https://en.wikipedia.org/wiki/Parameter_(machine_learning))(requiring 800 GB of storage). The training method is "generative pretraining", meaning that it is trained to predict what the next token is. The model demonstrated strong [few-shot learning](https://en.wikipedia.org/wiki/Few-shot_learning) on many text-based tasks.
 
 ## ChatGPT - <https://openai.com/blog/chatgpt>
 
@@ -222,7 +222,7 @@ Dall E - <https://openai.com/dall-e-2>
 
 ## MELTANO - Model, Extract, Load, Transform, Analyze, Notebook, Orchestrate
 
-[Meltano](https://gitlab.com/meltano/meltano)is a convention-over-configuration framework for analytics, business intelligence, and data science. It leverages open source software and software development best practices including version control, CI, CD, and review apps.
+[Meltano](https://gitlab.com/meltano/meltano) is a convention-over-configuration framework for analytics, business intelligence, and data science. It leverages open source software and software development best practices including version control, CI, CD, and review apps.
 
 [https://meltano.com](https://meltano.com/)
 

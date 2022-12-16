@@ -10,7 +10,7 @@ Modified: 2021-03-24 13:44:11 +0500
 
 sudo, sudoedit - execute a command as another user
 
-sudo is a[program](https://en.wikipedia.org/wiki/Computer_program)for[Unix-like](https://en.wikipedia.org/wiki/Unix-like)computer[operating systems](https://en.wikipedia.org/wiki/Operating_system)that allows users to run programs with the security privileges of another user, by default the[superuser](https://en.wikipedia.org/wiki/Superuser).It originally stood for "superuser do"as the older versions ofsudowere designed to run commands only as the superuser. However, the later versions added support for running commands not only as the superuser but also as other (restricted) users, and thus it is also commonly expanded as "substitute user do".Although the latter case reflects its current functionality more accurately,sudois still often called "superuser do" since it is so often used for administrative tasks.
+sudo is a [program](https://en.wikipedia.org/wiki/Computer_program) for [Unix-like](https://en.wikipedia.org/wiki/Unix-like) computer [operating systems](https://en.wikipedia.org/wiki/Operating_system) that allows users to run programs with the security privileges of another user, by default the [superuser](https://en.wikipedia.org/wiki/Superuser).It originally stood for "superuser do"as the older versions ofsudowere designed to run commands only as the superuser. However, the later versions added support for running commands not only as the superuser but also as other (restricted) users, and thus it is also commonly expanded as "substitute user do".Although the latter case reflects its current functionality more accurately,sudois still often called "superuser do" since it is so often used for administrative tasks.
 
 ## brctl - ethernet bridge administration
 
@@ -42,7 +42,7 @@ runs all init scripts, in alphabetical order, with the status command. The statu
 
 Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
 
-It shares some of the same goals of programs like[launchd](http://supervisord.org/glossary.html#term-launchd),[daemontools](http://supervisord.org/glossary.html#term-daemontools), and[runit](http://supervisord.org/glossary.html#term-runit). Unlike some of these programs, it is not meant to be run as a substitute forinitas "process id 1". Instead it is meant to be used to control processes related to a project or a customer, and is meant to start like any other program at boot time.
+It shares some of the same goals of programs like [launchd](http://supervisord.org/glossary.html#term-launchd),[daemontools](http://supervisord.org/glossary.html#term-daemontools), and [runit](http://supervisord.org/glossary.html#term-runit). Unlike some of these programs, it is not meant to be run as a substitute forinitas "process id 1". Instead it is meant to be used to control processes related to a project or a customer, and is meant to start like any other program at boot time.
 
 sudo service supervisor status
 

@@ -8,19 +8,19 @@ Modified: 2021-06-27 20:38:26 +0500
 
 ## Network Processors
 
-A**network processor**is an[integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit)which has a feature set specifically targeted at the[networking](https://en.wikipedia.org/wiki/Computer_networking)application domain.
+A**network processor**is an [integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit) which has a feature set specifically targeted at the [networking](https://en.wikipedia.org/wiki/Computer_networking) application domain.
 
-Network processors are typically[software](https://en.wikipedia.org/wiki/Software)programmable devices and would have generic characteristics similar to general purpose[central processing units](https://en.wikipedia.org/wiki/Central_Processing_Unit)that are commonly used in many different types of equipment and products.
+Network processors are typically [software](https://en.wikipedia.org/wiki/Software) programmable devices and would have generic characteristics similar to general purpose [central processing units](https://en.wikipedia.org/wiki/Central_Processing_Unit) that are commonly used in many different types of equipment and products.
 
 ## Functions
 
 In the generic role as a packet processor, a number of optimised features or functions are typically present in a network processor, these include:
 
 - Pattern matching - the ability to find specific patterns of bits or bytes within packets in a packet stream.
-- Key lookup - the ability to quickly undertake a database lookup using a key (typically an address in a packet) to find a result, typically[routing](https://en.wikipedia.org/wiki/Routing)information.
+- Key lookup - the ability to quickly undertake a database lookup using a key (typically an address in a packet) to find a result, typically [routing](https://en.wikipedia.org/wiki/Routing) information.
 - Computation
 - Data bitfield manipulation - the ability to change certain data fields contained in the packet as it is being processed.
-- [Queue](https://en.wikipedia.org/wiki/Queue_(data_structure))management - as packets are received, processed and scheduled to be sent onwards, they are stored in queues.
+- [Queue](https://en.wikipedia.org/wiki/Queue_(data_structure)) management - as packets are received, processed and scheduled to be sent onwards, they are stored in queues.
 - Control processing - the micro operations of processing a packet are controlled at a macro level which involves communication and orchestration with other nodes in a system.
 - Quick allocation and re-circulation of packet buffers.
 
@@ -28,18 +28,18 @@ In the generic role as a packet processor, a number of optimised features or fun
 
 In order to deal with high data-rates, several architectural paradigms are commonly used:
 
-- [Pipeline](https://en.wikipedia.org/wiki/CPU_pipeline)of processors - each stage of the pipeline consisting of a processor performing one of the functions listed above.
-- [Parallel processing](https://en.wikipedia.org/wiki/Parallel_computing)with multiple processors, often including[multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)).
-- Specialized[microcoded](https://en.wikipedia.org/wiki/Microcode)engines to more efficiently accomplish the tasks at hand.
-- With the advent of[multicore](https://en.wikipedia.org/wiki/Multi-core_(computing))architectures, network processors can be used for higher layer ([L4-L7](https://en.wikipedia.org/wiki/OSI_model)) processing.
+- [Pipeline](https://en.wikipedia.org/wiki/CPU_pipeline) of processors - each stage of the pipeline consisting of a processor performing one of the functions listed above.
+- [Parallel processing](https://en.wikipedia.org/wiki/Parallel_computing) with multiple processors, often including [multithreading](https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)).
+- Specialized [microcoded](https://en.wikipedia.org/wiki/Microcode) engines to more efficiently accomplish the tasks at hand.
+- With the advent of [multicore](https://en.wikipedia.org/wiki/Multi-core_(computing)) architectures, network processors can be used for higher layer ([L4-L7](https://en.wikipedia.org/wiki/OSI_model)) processing.
 
-Additionally, traffic management, which is a critical element in[L2](https://en.wikipedia.org/wiki/OSI_model#Layer_2:_data_link_layer)-[L3](https://en.wikipedia.org/wiki/OSI_model#Layer_3:_network_layer)network processing and used to be executed by a variety of co-processors, has become an integral part of the network processor architecture, and a substantial part of its silicon area ("real estate") is devoted to the integrated traffic manager.Modern network processors are also equipped with low-latency high-throughput on-chip interconnection networks optimized for the exchange of small messages among cores (few data words). Such networks can be used as an alternative facility for the efficient inter-core communication aside of the standard use of shared memory.
+Additionally, traffic management, which is a critical element in [L2](https://en.wikipedia.org/wiki/OSI_model#Layer_2:_data_link_layer)-[L3](https://en.wikipedia.org/wiki/OSI_model#Layer_3:_network_layer) network processing and used to be executed by a variety of co-processors, has become an integral part of the network processor architecture, and a substantial part of its silicon area ("real estate") is devoted to the integrated traffic manager.Modern network processors are also equipped with low-latency high-throughput on-chip interconnection networks optimized for the exchange of small messages among cores (few data words). Such networks can be used as an alternative facility for the efficient inter-core communication aside of the standard use of shared memory.
 
 <https://en.wikipedia.org/wiki/Network_processor>
 
 ## Coprocessor
 
-Acoprocessoris a computer processor used to supplement the functions of the primary processor (the[CPU](https://en.wikipedia.org/wiki/Central_processing_unit)). Operations performed by the coprocessor may be[floating point](https://en.wikipedia.org/wiki/Floating_point)arithmetic,[graphics](https://en.wikipedia.org/wiki/Graphics),[signal processing](https://en.wikipedia.org/wiki/Signal_processing),[string processing](https://en.wikipedia.org/wiki/String_processing),[cryptography](https://en.wikipedia.org/wiki/Cryptographic_accelerator)or[I/O interfacing](https://en.wikipedia.org/wiki/Input/output#Interface)with peripheral devices. By offloading processor-intensive tasks from the[main processor](https://en.wikipedia.org/wiki/Central_processing_unit#main_processor), coprocessors can accelerate system performance. Coprocessors allow a line of computers to be customized, so that customers who do not need the extra performance do not need to pay for it.
+Acoprocessoris a computer processor used to supplement the functions of the primary processor (the [CPU](https://en.wikipedia.org/wiki/Central_processing_unit)). Operations performed by the coprocessor may be [floating point](https://en.wikipedia.org/wiki/Floating_point) arithmetic,[graphics](https://en.wikipedia.org/wiki/Graphics),[signal processing](https://en.wikipedia.org/wiki/Signal_processing),[string processing](https://en.wikipedia.org/wiki/String_processing),[cryptography](https://en.wikipedia.org/wiki/Cryptographic_accelerator) or [I/O interfacing](https://en.wikipedia.org/wiki/Input/output#Interface) with peripheral devices. By offloading processor-intensive tasks from the [main processor](https://en.wikipedia.org/wiki/Central_processing_unit#main_processor), coprocessors can accelerate system performance. Coprocessors allow a line of computers to be customized, so that customers who do not need the extra performance do not need to pay for it.
 
 <https://en.wikipedia.org/wiki/Coprocessor>
 

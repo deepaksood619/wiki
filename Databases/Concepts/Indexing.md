@@ -123,7 +123,7 @@ Key is synonymous to an index. If you want to create an index for a column, then
 
 Index cardinality refers to the uniqueness of values stored in a specified column within an index.
 MySQL generates the index cardinality based on statistics stored as integers, therefore, the value may not be necessarily exact.
-The query optimizer uses the index cardinality to generate an optimal query plan for a given query. It also uses the index cardinality to decide whether to use the index or not in the[join](https://www.mysqltutorial.org/mysql-join/)operations.
+The query optimizer uses the index cardinality to generate an optimal query plan for a given query. It also uses the index cardinality to decide whether to use the index or not in the [join](https://www.mysqltutorial.org/mysql-join/) operations.
 
 If the query optimizer chooses the index with a low cardinality, it may be more effective than scan rows without using the index.
 Do not reverse the order of the columns. You should always index lower cardinality columns first.

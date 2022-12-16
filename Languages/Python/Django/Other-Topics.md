@@ -75,7 +75,7 @@ To use a model the app must be added to the tuple INSTALLED_APPS, which is store
 
 ## Geographic framework
 
-[GeoDjango](https://docs.djangoproject.com/en/2.0/ref/contrib/gis/)intends to be a world-class geographic Web framework. Its goal is to make it as easy as possible to build GIS Web applications and harness the power of spatially enabled data.
+[GeoDjango](https://docs.djangoproject.com/en/2.0/ref/contrib/gis/) intends to be a world-class geographic Web framework. Its goal is to make it as easy as possible to build GIS Web applications and harness the power of spatially enabled data.
 
 ## Common Web application tools
 

@@ -143,7 +143,7 @@ Total Revenue (Sales)
 
 ## Graham Number
 
-TheGraham numberorBenjamin Graham numberis a figure used in[securities](https://en.wikipedia.org/wiki/Securities)investing that measures a[stock](https://en.wikipedia.org/wiki/Stock)'s so-called fair value.Named after[Benjamin Graham](https://en.wikipedia.org/wiki/Benjamin_Graham), the founder of[value investing](https://en.wikipedia.org/wiki/Value_investing), the Graham number can be calculated as follows:
+TheGraham numberorBenjamin Graham numberis a figure used in [securities](https://en.wikipedia.org/wiki/Securities) investing that measures a [stock](https://en.wikipedia.org/wiki/Stock)'s so-called fair value.Named after [Benjamin Graham](https://en.wikipedia.org/wiki/Benjamin_Graham), the founder of [value investing](https://en.wikipedia.org/wiki/Value_investing), the Graham number can be calculated as follows:
 
 ![image](media/Market-Terms_Valuation-Metrics-image2.jpg)
 

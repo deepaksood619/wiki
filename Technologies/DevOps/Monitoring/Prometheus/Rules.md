@@ -6,7 +6,7 @@ Modified: 2019-06-07 17:11:40 +0500
 
 ---
 
-Prometheus supports two types of rules which may be configured and then evaluated at regular intervals: recording rules and[alerting rules](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/).
+Prometheus supports two types of rules which may be configured and then evaluated at regular intervals: recording rules and [alerting rules](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/).
 
 ## Recording Rules
 

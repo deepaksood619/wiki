@@ -8,7 +8,7 @@ Modified: 2020-05-31 20:47:52 +0500
 
 ## Why is Kafka so Fast?
 
-Kafka relies heavily on the OS kernel to move data around quickly. It relies on the principals of[Zero Copy](https://en.wikipedia.org/wiki/Zero-copy). Kafka enables you to batch data records into chunks. These batches of data can be seen end to end from Producer to file system (Kafka Topic Log) to the Consumer. Batching allows for more efficient data compression and reduces I/O latency. Kafka writes to the immutable commit log to the disk sequential; thus, avoids random disk access, slow disk seeking. Kafka provides horizontal Scale through sharding. It shards a Topic Log into hundreds potentially thousands of partitions to thousands of servers. This sharding allows Kafka to handle massive load.
+Kafka relies heavily on the OS kernel to move data around quickly. It relies on the principals of [Zero Copy](https://en.wikipedia.org/wiki/Zero-copy). Kafka enables you to batch data records into chunks. These batches of data can be seen end to end from Producer to file system (Kafka Topic Log) to the Consumer. Batching allows for more efficient data compression and reduces I/O latency. Kafka writes to the immutable commit log to the disk sequential; thus, avoids random disk access, slow disk seeking. Kafka provides horizontal Scale through sharding. It shards a Topic Log into hundreds potentially thousands of partitions to thousands of servers. This sharding allows Kafka to handle massive load.
 
 Zero-copy means that Kafka sends messages from the file (or more likely, the Linux filesystem cache) directly to the network channel without any intermediate buffers.
 
@@ -16,7 +16,7 @@ Zero-copy means that Kafka sends messages from the file (or more likely, the Lin
 
 ## Zero-copy
 
-"**Zero-copy**" describes computer operations in which the[CPU](https://en.wikipedia.org/wiki/Central_processing_unit)does not perform the task of copying data from one[memory](https://en.wikipedia.org/wiki/RAM)area to another. This is frequently used to save CPU cycles and memory bandwidth when transmitting a file over a network.
+"**Zero-copy**" describes computer operations in which the [CPU](https://en.wikipedia.org/wiki/Central_processing_unit) does not perform the task of copying data from one [memory](https://en.wikipedia.org/wiki/RAM) area to another. This is frequently used to save CPU cycles and memory bandwidth when transmitting a file over a network.
 
 ## Kafka Zero Copy
 
@@ -46,7 +46,7 @@ However, if the data is already in wire format, we can bypass user space entirel
 - Consumer Group
 - Offsets
 
-Starting from version 0.8.2.0, the offsets committed by the consumers aren't saved in[ZooKeeper](https://dzone.com/articles/an-introduction-to-zookeeper-1)but on a partitioned and replicated topic named__consumer_offsets, which is hosted on the Kafka brokers in the cluster.
+Starting from version 0.8.2.0, the offsets committed by the consumers aren't saved in [ZooKeeper](https://dzone.com/articles/an-introduction-to-zookeeper-1) but on a partitioned and replicated topic named__consumer_offsets, which is hosted on the Kafka brokers in the cluster.
 
 When a consumer commits some offsets (for different partitions), it sends a message to the broker to the__consumer_offsetstopic. The message has the following structure :
 

@@ -12,7 +12,7 @@ it's a built in app that keeps track of models from the installed apps of your D
 
 ## GenericForeignKey
 
-If we want to store the user activities with these models like "created User, created Project, created Task" in a timeline, we have to create all the three models(User, Project, Task)as 'ForeignKey' fields. This is not a good programming practice. To overcome this,[Django's](https://micropyramid.com/django-development-services/)content types frameworkprovides a special field type (GenericForeignKey) which allows the relationship to be with any model.
+If we want to store the user activities with these models like "created User, created Project, created Task" in a timeline, we have to create all the three models(User, Project, Task)as 'ForeignKey' fields. This is not a good programming practice. To overcome this,[Django's](https://micropyramid.com/django-development-services/) content types frameworkprovides a special field type (GenericForeignKey) which allows the relationship to be with any model.
 
 Using 'GenericForeignKey':
 

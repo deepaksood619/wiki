@@ -117,7 +117,7 @@ tester_fieldsets=(
 
 ## ModelAdmin.get_queryset(request)
 
-The**get_queryset**method on a**ModelAdmin**returns a[**QuerySet**](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet)of all model instances that can be edited by the admin site. One use case for overriding this method is to show objects owned by the logged-in user:
+The**get_queryset**method on a**ModelAdmin**returns a [**QuerySet**](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet) of all model instances that can be edited by the admin site. One use case for overriding this method is to show objects owned by the logged-in user:
 
 ## class MyModelAdmin(admin.ModelAdmin)
 

@@ -10,7 +10,7 @@ Modified: 2020-06-07 12:45:20 +0500
 
 1. **Blue/Green Deployment**
 
-[Blue-green deployments](https://www.gocd.org/2017/07/25/blue-green-deployments/)are similar, where you have a new footprint of your new service, and then you do some testing and route some traffic through it. If everything is fine, you switch over all of your traffic to the new instance of services, otherwise, you keep the old footprint going.
+[Blue-green deployments](https://www.gocd.org/2017/07/25/blue-green-deployments/) are similar, where you have a new footprint of your new service, and then you do some testing and route some traffic through it. If everything is fine, you switch over all of your traffic to the new instance of services, otherwise, you keep the old footprint going.
 
 ![Blue green deployments](../../media/DevOps-DevOps-Deployment-Strategies-image2.jpg)
 
@@ -18,7 +18,7 @@ Modified: 2020-06-07 12:45:20 +0500
 
 The name borrowed from a technique employed by coal miners many years ago, before the advent of modern sensor safety equipment. A common issue with coal mines is the build up of toxic gases, not all of which even have an odor. To alert themselves to the presence of dangerous gases, miners would bring caged canaries with them into the mines. In addition to their cheerful singing, canaries are highly susceptible to toxic gases. If the canary died, it was time for the miners to get out fast, before they ended up like the canary.
 
-[Canary deployment](https://www.gocd.org/2017/08/15/canary-releases/)is where you take a new release and release it to a certain subsection of your production infrastructure, see how well that goes, and keep increasing the footprint of the new service until the time you completely roll it out. If you face issues, you can start rolling back the new version of your service.
+[Canary deployment](https://www.gocd.org/2017/08/15/canary-releases/) is where you take a new release and release it to a certain subsection of your production infrastructure, see how well that goes, and keep increasing the footprint of the new service until the time you completely roll it out. If you face issues, you can start rolling back the new version of your service.
 
 ![Canary deployments](../../media/DevOps-DevOps-Deployment-Strategies-image3.jpg)
 

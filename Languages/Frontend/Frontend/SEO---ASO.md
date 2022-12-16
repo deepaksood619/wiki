@@ -16,7 +16,7 @@ Modified: 2022-12-05 12:20:24 +0500
 
 ## SEM - Search Engine Marketing
 
-Search engine marketing is the practice of marketing a business using paid advertisements that appear on search engine results pages (or[SERPs](https://www.wordstream.com/serp)). Advertisers bid on keywords that users of services such as Google and Bing might enter when looking for certain products or services, which gives the advertiser the opportunity for their ads to appear alongside results for those search queries.
+Search engine marketing is the practice of marketing a business using paid advertisements that appear on search engine results pages (or [SERPs](https://www.wordstream.com/serp)). Advertisers bid on keywords that users of services such as Google and Bing might enter when looking for certain products or services, which gives the advertiser the opportunity for their ads to appear alongside results for those search queries.
 
 <https://blog.hubspot.com/marketing/search-engine-marketing>
 
@@ -49,8 +49,8 @@ It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan
 - Content Automation
 - Doorway Pages
 - Hidden Text or Links
-- [Keyword](https://www.wordstream.com/keywords)Stuffing
-- Reporting a Competitor (or[Negative SEO](https://www.wordstream.com/blog/ws/2012/04/20/negative-seo))
+- [Keyword](https://www.wordstream.com/keywords) Stuffing
+- Reporting a Competitor (or [Negative SEO](https://www.wordstream.com/blog/ws/2012/04/20/negative-seo))
 - Sneaky Redirects
 - Cloaking
 - Link Schemes
@@ -60,7 +60,7 @@ It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan
 - Link Farms, Link Wheels or Link Networks
 - Rich Snippet Markup Spam
 - Automated Queries to Google
-- Creating pages, subdomains, or domains with[duplicate content](https://www.wordstream.com/duplicate-content)
+- Creating pages, subdomains, or domains with [duplicate content](https://www.wordstream.com/duplicate-content)
 - Pages with malicious behavior, such as phishing, viruses, trojans, and other malware
 
 <https://www.wordstream.com/black-hat-seo>
@@ -73,7 +73,7 @@ It's crucial to realize thatimplementing Black Hat SEO tactics and strategiescan
 
 ## White Hat SEO
 
-Generally, white hat SEO refers to any practice that improves your search rankings on a search engine results page ([SERP](https://www.wordstream.com/serp)) while maintaining the integrity of your website and staying within the search engines' terms of service. These tactics stay within the bounds as[defined](http://googlewebmastercentral.blogspot.com/2008/11/googles-seo-starter-guide.html)by Google.
+Generally, white hat SEO refers to any practice that improves your search rankings on a search engine results page ([SERP](https://www.wordstream.com/serp)) while maintaining the integrity of your website and staying within the search engines' terms of service. These tactics stay within the bounds as [defined](http://googlewebmastercentral.blogspot.com/2008/11/googles-seo-starter-guide.html) by Google.
 
 <https://www.wordstream.com/white-hat-seo>
 
@@ -117,7 +117,7 @@ In order to build a **site optimized for organic search engine rankings,** it is
 
 Optimizing websites is an art that few are familiar with. The more the engineer is able to list off the top of their head, the more likely they are to do all of the following naturally as they code instead of having to return later.
 
-(Also, typically a professionally constructed site should score over 75 percent when analyzed by[gtmetrix.com](https://gtmetrix.com/), which can also serve as a checklist.)
+(Also, typically a professionally constructed site should score over 75 percent when analyzed by [gtmetrix.com](https://gtmetrix.com/), which can also serve as a checklist.)
 
 - Optimize all assets
 - Place all assets on a separate, cookie-free domain. Using a CDN is best
@@ -151,7 +151,7 @@ Optimizing websites is an art that few are familiar with. The more the engineer 
 
 ## Urchin Tracking Module(UTM)
 
-Urchin Tracking Module(UTM)parametersare five variants of[URL parameters](https://en.wikipedia.org/wiki/Query_string)used by marketers to track the effectiveness of online[marketing campaigns](https://en.wikipedia.org/wiki/Marketing_campaign)across traffic sources and publishing media. They were introduced by[Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics)' predecessor[Urchin](https://en.wikipedia.org/wiki/Urchin_(software))and, consequently, are supported[out-of-the-box](https://en.wikipedia.org/wiki/Out_of_the_box_(feature))by Google Analytics. The UTM parameters in a URL identify the campaign that refers traffic to a specific website,and attributes the browser's[website session](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session)and the sessions after that until the campaign attribution window expires to it. The parameters can be parsed by analytics tools and used to populate reports.Example URL, UTM parameters highlighted, after the question mark (?):
+Urchin Tracking Module(UTM)parametersare five variants of [URL parameters](https://en.wikipedia.org/wiki/Query_string) used by marketers to track the effectiveness of online [marketing campaigns](https://en.wikipedia.org/wiki/Marketing_campaign) across traffic sources and publishing media. They were introduced by [Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics)' predecessor [Urchin](https://en.wikipedia.org/wiki/Urchin_(software)) and, consequently, are supported [out-of-the-box](https://en.wikipedia.org/wiki/Out_of_the_box_(feature)) by Google Analytics. The UTM parameters in a URL identify the campaign that refers traffic to a specific website,and attributes the browser's [website session](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session) and the sessions after that until the campaign attribution window expires to it. The parameters can be parsed by analytics tools and used to populate reports.Example URL, UTM parameters highlighted, after the question mark (?):
 
 <https://www.example.com/page?utm_content=buffercf3b2&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer>
 

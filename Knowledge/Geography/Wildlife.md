@@ -8,7 +8,7 @@ Modified: 2022-01-30 23:03:33 +0500
 
 ## IUCN Red List of Threatened Species
 
-The[IUCN Red List of Threatened Species](https://en.wikipedia.org/wiki/IUCN_Red_List)is the best known worldwide conservation status listing and ranking system. Species are classified by the IUCN Red List into nine groups set through criteria such as rate of decline, population size, area of geographic distribution, and degree of population and distribution fragmentation.
+The [IUCN Red List of Threatened Species](https://en.wikipedia.org/wiki/IUCN_Red_List) is the best known worldwide conservation status listing and ranking system. Species are classified by the IUCN Red List into nine groups set through criteria such as rate of decline, population size, area of geographic distribution, and degree of population and distribution fragmentation.
 
 Also included are species that have gone extinct since 1500 CE.When discussing the IUCN Red List, the official term "[threatened](https://en.wikipedia.org/wiki/Threatened_species)" is a grouping of three categories: critically endangered, endangered, and vulnerable.
 
@@ -26,8 +26,8 @@ Also included are species that have gone extinct since 1500 CE.When discussing t
 ## Lower Risk
 
 - [Near threatened](https://en.wikipedia.org/wiki/Near_threatened)(NT) -- Likely to become endangered in the near future
-- Conservation Dependent (CD) - as dependent on conservation efforts to prevent it from becoming[threatened](https://en.wikipedia.org/wiki/Threatened_species)with extinction
-- [Least concern](https://en.wikipedia.org/wiki/Least_concern)(LC) -- Lowest risk; does not qualify for a higher risk category. Widespread and abundant[taxa](https://en.wikipedia.org/wiki/Taxa)are included in this category.
+- Conservation Dependent (CD) - as dependent on conservation efforts to prevent it from becoming [threatened](https://en.wikipedia.org/wiki/Threatened_species) with extinction
+- [Least concern](https://en.wikipedia.org/wiki/Least_concern)(LC) -- Lowest risk; does not qualify for a higher risk category. Widespread and abundant [taxa](https://en.wikipedia.org/wiki/Taxa) are included in this category.
 
 ## Other Categories
 

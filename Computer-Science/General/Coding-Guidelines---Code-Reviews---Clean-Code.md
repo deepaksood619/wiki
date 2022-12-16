@@ -16,7 +16,7 @@ Everyone has their own coding style and every developer or team will have requir
 - Code follows applicable conventions and is easy to understand
 - Code is not duplicated
 - No negatively named boolean variables
-- Scrutinize[methods with boolean parameters](https://medium.com/@amlcurran/clean-code-the-curse-of-a-boolean-parameter-c237a830b7a3)
+- Scrutinize [methods with boolean parameters](https://medium.com/@amlcurran/clean-code-the-curse-of-a-boolean-parameter-c237a830b7a3)
 - Blocks of code inside loops are as small as possible
 - No memory leaks
 
@@ -48,7 +48,7 @@ Write deterministic code - Given an input, code always produces the same output
 
 ## NIH Syndrome (Not Invented Here)
 
-In programming, it is also common to refer to the "NIH syndrome" as the tendency towards[reinventing the wheel](https://en.wikipedia.org/wiki/Reinventing_the_wheel)(reimplementing something that is already available) based on the belief that in-house developments are inherently better suited, more secure, more controlled, quicker to develop, and incur lower overall cost (including maintenance cost) than using existing implementations.
+In programming, it is also common to refer to the "NIH syndrome" as the tendency towards [reinventing the wheel](https://en.wikipedia.org/wiki/Reinventing_the_wheel)(reimplementing something that is already available) based on the belief that in-house developments are inherently better suited, more secure, more controlled, quicker to develop, and incur lower overall cost (including maintenance cost) than using existing implementations.
 <https://en.wikipedia.org/wiki/Not_invented_here>
 
 ## Enterprise Programming Tricks for clean code**

@@ -79,7 +79,7 @@ In the Oracle Database product, this type of table is known as anindex-organized
 ## Relationship between Primary Key & Clustered Index
 
 You can't create a clustered index manually using InnoDB in MySQL. MySQL chooses it for you. But how does it choose? The following excerpts are from MySQL documentation:
-When you define aPRIMARY KEYon your table,InnoDBuses it as the clustered index. Define a primary key for each table that you create. If there is no logical unique and non-null column or set of columns, add a new[auto-increment](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_auto_increment)column, whose values are filled in automatically.
+When you define aPRIMARY KEYon your table,InnoDBuses it as the clustered index. Define a primary key for each table that you create. If there is no logical unique and non-null column or set of columns, add a new [auto-increment](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_auto_increment) column, whose values are filled in automatically.
 If you do not define aPRIMARY KEYfor your table, MySQL locates the firstUNIQUEindex where all the key columns areNOT NULLandInnoDBuses it as the clustered index.
 If the table has noPRIMARY KEYor suitableUNIQUEindex,InnoDBinternally generates a hidden clustered index namedGEN_CLUST_INDEXon a synthetic column containing row ID values. The rows are ordered by the ID thatInnoDBassigns to the rows in such a table. The row ID is a 6-byte field that increases monotonically as new rows are inserted. Thus, the rows ordered by the row ID are physically in insertion order.
 In short, the MySQL InnoDB engine actually manages the primary index as clustered index for improving performance, so the primary key & the actual record on disk are clustered together.
@@ -225,7 +225,7 @@ Similar to what we've just said with the prefix rule, the second you use a range
 
 SELECT *FROM phonebook WHERE last_name LIKE 'f%' AND first_name ='Ned';ADD INDEX (last_name, first_name, phone_number)
 This would utilize the first part (last_name) of our index, allowing us to quickly satisfy the range conditional and find all rows with thelast_namebeginning with 'f'; however after this, there isn't any way our B-Tree can be further utilized to quickly filter onfirst_name.
-## *If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
+##*If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
 
 Similarly, you can't use an index fully to perform range queries on two columns for the points already mentioned.-   You may need to have indexes on the same columns in different orders depending on your queries.
 

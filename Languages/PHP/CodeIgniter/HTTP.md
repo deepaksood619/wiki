@@ -12,7 +12,7 @@ While PHP provides ways to interact with the request and response headers, CodeI
 
 ## Request Class
 
-The[IncomingRequest class](https://codeigniter.com/user_guide/incoming/incomingrequest.html)is an object-oriented representation of the HTTP request. It provides everything you need:
+The [IncomingRequest class](https://codeigniter.com/user_guide/incoming/incomingrequest.html) is an object-oriented representation of the HTTP request. It provides everything you need:
 
 use CodeIgniterHTTPIncomingRequest;
 
@@ -45,7 +45,7 @@ The request class does a lot of work in the background for you, that you never n
 
 ## Response Class
 
-CodeIgniter also provides a[Response class](https://codeigniter.com/user_guide/outgoing/response.html)that is an object-oriented representation of the HTTP response. This gives you an easy and powerful way to construct your response to the client:
+CodeIgniter also provides a [Response class](https://codeigniter.com/user_guide/outgoing/response.html) that is an object-oriented representation of the HTTP response. This gives you an easy and powerful way to construct your response to the client:
 
 use CodeIgniterHTTPResponse;
 

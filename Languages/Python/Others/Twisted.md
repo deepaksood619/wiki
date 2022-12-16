@@ -32,14 +32,14 @@ To update the running code functions on fly
 
 Adding subcommands to thetwistdcommand, as a way to facilitate the deployment of your applications.
 
-Thetapnameattribute of your IServiceMaker provider will be used as the subcommand name in a command liketwistd[subcommand][args...], and theoptionsattribute (which should be a[usage.Options](https://twistedmatrix.com/documents/19.7.0/api/twisted.python.usage.Options.html)subclass) will be used to parse the given args.
+Thetapnameattribute of your IServiceMaker provider will be used as the subcommand name in a command liketwistd [subcommand][args...], and theoptionsattribute (which should be a [usage.Options](https://twistedmatrix.com/documents/19.7.0/api/twisted.python.usage.Options.html) subclass) will be used to parse the given args.
 
-Taking advantage of[twisted.plugin](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.html)is a two step process:
+Taking advantage of [twisted.plugin](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.html) is a two step process:
 
 1. Define an interface which plugins will be required to implement. This is done using the zope.interface package in the same way one would define an interface for any other purpose.
     A convention for defining interfaces is do so in a file named like*ProjectName/projectname/iprojectname.py*. The rest of this document will follow that convention: consider the following interface definition be inMatsim/matsim/imatsim.py, an interface definition module for a hypothetical material simulation package.
 
-2. At one or more places in your program, invoke[twisted.plugin.getPlugins](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.getPlugins.html)and iterate over its result.
+2. At one or more places in your program, invoke [twisted.plugin.getPlugins](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.getPlugins.html) and iterate over its result.
 
 <https://twistedmatrix.com/documents/current/core/howto/plugin.html>
 

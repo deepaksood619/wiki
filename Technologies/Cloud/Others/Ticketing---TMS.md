@@ -70,7 +70,7 @@ integrated apps, kept simple, and loved by millions of happy users.
 
 ## Customer Self Service Portal / Self Service Strategy / Knowledgebase / Knowledge base
 
-A self-service strategy is a multi-pronged approach to solving customer issues. Remember that not everyone learns the same way, so you need to set up several routes for customers to find their answers. That may involve having visuals and videos, AI chatbots, or CRM integration. Talk to your customer service reps about how to develop the[best content for your knowledge base](https://support.zendesk.com/hc/en-us/articles/203664076-Best-practices-Developing-content-for-your-knowledge-base)and FAQ sections, and build a strategy from there.
+A self-service strategy is a multi-pronged approach to solving customer issues. Remember that not everyone learns the same way, so you need to set up several routes for customers to find their answers. That may involve having visuals and videos, AI chatbots, or CRM integration. Talk to your customer service reps about how to develop the [best content for your knowledge base](https://support.zendesk.com/hc/en-us/articles/203664076-Best-practices-Developing-content-for-your-knowledge-base) and FAQ sections, and build a strategy from there.
 
 ## What can you do to make your self-service customers know you value them?
 
@@ -157,7 +157,7 @@ Mark a ticket as "Solved" when you're 100% sure that you've provided the custome
 
 - Closed
 
-There can be times when someone sends you a collaboration proposal or a message with information that isn't a question or challenge for your team. You can briefly reply to such requests, and then mark them as "Closed." This way, the issue has been resolved, and you won't send an[automated feedback request](https://www.helpdesk.com/help/automated-workflows/)again.
+There can be times when someone sends you a collaboration proposal or a message with information that isn't a question or challenge for your team. You can briefly reply to such requests, and then mark them as "Closed." This way, the issue has been resolved, and you won't send an [automated feedback request](https://www.helpdesk.com/help/automated-workflows/) again.
 
 - Spam
 
