@@ -82,7 +82,7 @@ The POST method transfers information via HTTP headers. The information is encod
 - The data sent by POST method goes through HTTP header so security depends on HTTP protocol. By using Secure HTTP you can make sure that your information is secure.
 - The PHP provides$_POSTassociative array to access all the sent information using POST method.
 
-``php
+```php
 <?php
    if( $_POST ["name"] || $_POST ["age"] ) {
       if (preg_match("/[^A-Za-z'-]/",$_POST ['name'] )) {
@@ -94,14 +94,15 @@ The POST method transfers information via HTTP headers. The information is encod
       exit();
    }
 ?>
+
 <html>
    <body>
 
-      <form action = "<?php $_PHP_SELF ?>" method = "POST">
-         Name: <input type = "text" name = "name" />
-         Age: <input type = "text" name = "age" />
-         <input type = "submit" />
-      </form>
+<form action = "<?php $_PHP_SELF ?>" method = "POST">
+   Name: <input type = "text" name = "name" />
+   Age: <input type = "text" name = "age" />
+   <input type = "submit" />
+</form>
 
    </body>
 </html>

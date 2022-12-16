@@ -39,7 +39,7 @@ Delimiters are the boundaries of our regular expressions. The most common delimi
 
 It depends on the type of programming language. Other delimiters are -
 
-```
+```python
 - Hashtags ( # )
 - Percentage signs ( % )
 - Plus signs ( + )
@@ -55,7 +55,7 @@ Inside our delimiters, we have the pattern that we want our regular expression t
 
 Metacharacters have a special meaning when used in regular expressions and are by far the most important part of a regular expression. A regular expression without metacharacters is just a string literal.
 
-Most regular expression processors support at least fourteen metacharacters. These are {}[]()^$.|*+?
+Most regular expression processors support at least fourteen metacharacters. These are `{}[]()^$.|*+?`
 
 Meaning of metacharacters fall under four broad groups - **escaping, grouping, matching literal characters and quantifiers.**
 
@@ -63,7 +63,7 @@ Meaning of metacharacters fall under four broad groups - **escaping, grouping, m
 
 The backslash ( `\` ) is the escape character used by regular expressions.
 
-**Uses**
+#### Uses
 
 - To escape a character if it is a delimiter.
 - To convert literal characters into character classes. Ex- w is a character literal, but when we escape it using  it becomes ( w ). w is a shortcut character class which represents all the alphanumeric characters as well as _ (underscore)
@@ -171,7 +171,7 @@ Ex - `/<[^>]*>/` this will match all the HTML tags in our HTML block without the
 
 ## Custom quantifiers
 
-```
+```python
 We use { } to define how many times we want to match an atom.
 Format = {min, max}
 Can be used instead of main quantifiers -
@@ -275,7 +275,7 @@ You can use a full-fledged regular expression inside lookahead. Most application
 
 ### Lookahead or Positive lookahead `(?= … )`
 
-    `q(?=u)` matches the q in question, but not in Iraq. This is positive lookahead. The u is not part of the overall regex match. The lookahead matches at each position in the string before a u.
+`q(?=u)` matches the q in question, but not in Iraq. This is positive lookahead. The u is not part of the overall regex match. The lookahead matches at each position in the string before a u.
 
 ### Negative lookahead `(?! … )`
 
@@ -455,7 +455,7 @@ In [computer programming](https://en.wikipedia.org/wiki/Computer_programming),**
 
 ## Search and Replace using Variables
 
-```
+```python
 (<col style="width: )(.*)
 $1$2/>
 ```
