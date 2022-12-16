@@ -129,7 +129,7 @@ When enter()is combined with thedata()method, it looks at the selected elements 
 
 The D3 text() method can take a string or a callback function as an argument:
 
-```
+```python
 selection.text((d) => d)
 selection.text((d) => d+"USD")
 ```

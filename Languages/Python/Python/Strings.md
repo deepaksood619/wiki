@@ -8,41 +8,37 @@ Modified: 2021-06-30 00:10:10 +0500
 
 ## fstrings
 
-## # equal operator inside fstrings, from python3.8
-
+```python
+# equal operator inside fstrings, from python3.8
 num_value = 2
-
 print(f"{num_value = }")
-
 print(f"{num_value % 2 = }")
-
 >>> num_value = 2
-
 >>> num_value = 0
 
 now = datetime.datetime.utcnow()
-
 print(f'{now=:Y-%m-%d}')
+```
 
 ## String Constants
 
-1. string.ascii_letters
+#### string.ascii_letters
 
-2. string.ascii_lowercase
+#### string.ascii_lowercase
 
-3. string.ascii_uppercase
+#### string.ascii_uppercase
 
-4. string.digits
+#### string.digits
 
-5. string.hexdigits
+#### string.hexdigits
 
-6. string.octdigits
+#### string.octdigits
 
-7. string.punctuation
+#### string.punctuation
 
-8. string.printable
+#### string.printable
 
-9. string.whitespace
+#### string.whitespace
 
 ## Built-in String Methods
 
@@ -282,252 +278,255 @@ HackerRank----------</p></td>
 </tbody>
 </table>
 
-1. **String Formating**
+## String Formating
 
+```python
 '{} {}'.format('one', 'two')
 
 '{} {}'.format(1, 2)
 
 'Hello {}'.format('Deepak')
+```
 
 <https://pyformat.info>
 
-- Positional Formating (Positional Arguments)
+### Positional Formating (Positional Arguments)
 
 Also optional positional indexing (positional arguments) can be passed to strings' format
 
-'{1} {0}'.format('one', 'two')
+`'{1} {0}'.format('one', 'two')`
 
-- Keyword Formating (Keyword Arguments)
+### Keyword Formating (Keyword Arguments)
 
-print("Sammy the {0} {1} a {pr}.".format("shark", "made", pr = "pull request"))
+`print("Sammy the {0} {1} a {pr}.".format("shark", "made", pr = "pull request"))`
 
 here pr is a named keyword argument
 
-1. Padding and aligning strings (default is left alignment)
+#### Padding and aligning strings (default is left alignment)
 
+```python
 Align Left - '{:>10}'.format('test')
-
-test
-
+            test
 Align Right - '{:10}'.format('test')
-
-test
-
+    test
 Alight left with custom padding character - '{:_<10}'.format('test')
-
-test______
-
+    test______
 Center align - '{:^10}'.format('test')
+        test
+'{:^6}'.format('zip')  #When using center alignment where the length of the string leads to an uneven split of the padding characters the extra character will be placed on the right side
+        zip
+```
 
-test
+#### Truncating long strings
 
-'{:^6}'.format('zip') #When using center alignment where the length of the string leads to an uneven split of the padding characters the extra character will be placed on the right side
-
-zip
-
-2. Truncating long strings
-
+```python
 '{:.5}'.format('xylophone')
-
 xylop
+```
 
-3. Combining truncating and padding
+#### Combining truncating and padding
 
+```python
 '{:10.5}'.format('xylophone')
-
 xylop
+```
 
-4. Numbers
+#### Numbers
 
+```python
 '{:d}'.format(42)
-
 42
-
 '{:f}'.format(3.141592653589793)
-
 3.141593
+```
 
-5. Padding numbers
+#### Padding numbers
 
+```python
 '{:4d}'.format(42)
-
 42
-
 '{:06.2f}'.format(3.141592653589793)
-
 003.14
-
 print('{:.0f}'.format(x))
+```
 
 For integer values providing a precision doesn't make much sense and is actually forbidden in the new style (it will result in a ValueError)
 
+```python
 '{:04d}'.format(42)
-
 0042
+```
 
-6. Signed numbers
+#### Signed numbers
 
+```python
 '{:+d}'.format(42)
-
 +42
+```
 
 Use a space character to indicate that negative numbers should be prefixed with a minus symbol and a leading space should be used for positive ones.
 
+```python
 '{: d}'.format((- 23))
-
 -23
 
 '{: d}'.format(42)
-
 42
 
 '{:=5d}'.format((- 23))
-
 - 23
 
 '{:=+5d}'.format(23)
-
 - 23
+```
 
-7. Named placeholders
+#### Named placeholders
 
+```python
 data = {'first': 'Hodor', 'last': 'Hodor!'}
 
 '{first} {last}'.format(**data)
-
 Hodor Hodor!
 
 '{first} {last}'.format(first='Hodor', last='Hodor!')
-
 Hodor Hodor!
+```
 
-8. Getitem & getattr
+#### Getitem & getattr
 
+```python
 person = {'first': 'Jean-Luc', 'last': 'Picard'}
 
 '{p[first]} {p[last]}'.format(p=person)
-
 Jean-Luc Picard
 
 data = [4, 8, 15, 16, 23, 42]
 
 '{d[4]} {d[5]}'.format(d=data)
-
 23 42
+```
 
-9. Datetime
+#### Datetime
 
-## from datetime import datetime
-
+```python
+from datetime import datetime
 '{:%Y-%m-**%d** %H:%M}'.format(datetime(2001, 2, 3, 4, 5))
-
 2001-02-03 04:05
+```
 
-10. Parametrized formats
+#### Parametrized formats
 
 Parametrized alignment and width
 
+```python
 '{:{align}{width}}'.format('test', align='^', width='10')
-
 test
+```
 
 Parametrized precision
 
+```python
 '{:.{prec}} = {:.{prec}f}'.format('Gibberish', 2.7182, prec=3)
-
 Gib = 2.718
+```
 
 Width and precision
 
+```python
 '{:{width}.{prec}f}'.format(2.7182, width=5, prec=2)
-
 2.72
-
 '{:{prec}} = {:{prec}}'.format('Gibberish', 2.7182, prec='.3')
-
 Gib = 2.72
+```
 
 datetime
 
-## from datetime import datetime
-
+```python
+from datetime import datetime
 dt = datetime(2001, 2, 3, 4, 5)
-
 '{:{dfmt} {tfmt}}'.format(dt, dfmt='%Y-%m-**%d**', tfmt='%H:%M')
-
 2001-02-03 04:05
+```
 
 Positional arguments
 
+```python
 '{:{}{}{}.{}}'.format(2.7182818284, '>', '+', 10, 3)
-
 +2.72
+```
 
 Positional + keyword arguments
 
+```python
 '{:{}{sign}{}.{}}'.format(2.7182818284, '>', 10, 3, sign='+')
-
 +2.72
+```
 
-11. Print formats for other numbers
+#### Print formats for other numbers
 
+```python
 print('{0:d}'.format(5)) #decimal
-
 print('{0:f}'.format(5)) #float
-
 print('{0:b}'.format(5)) #binary
-
 print('{0:x}'.format(15)) #hexadecimal
+```
 
-2. Passing parameters
+#### Passing parameters
 
-## A = deepak
+```python
+A = deepak
+B = sood
+"Hello %s %s!" %(A, B) [Should be passed as tuple for more than one arguments)
+```
 
-## B = sood
-
-## "Hello %s %s!" %(A, B) [Should be passed as tuple for more than one arguments)
-
-3. Strings are immutable, but can be altered using following approaches
+#### Strings are immutable, but can be altered using following approaches
 
 a.  One solution is to convert the string to a list and then change the value.
 
+```python
 >>> string = "abracadabra"
 >>> l = list(string)
 >>> l[5] = 'k'
 >>> string = ''.join(l)
 >>> print string
 Abrackdabra
+```
 
 b.  Another approach is to slice the string and join it back.
 
+```python
 >>> string = string[:5] + "k" + string[6:]
 >>> print string
 Abrackdabra
+```
 
-4. Regex for finding sub_string inside string with overlapping
+#### Regex for finding sub_string inside string with overlapping
 
+```python
 Matches = re.findall('(?='+sub_string+')', string)
-
 len(Matches)
+```
 
-5. TextWrap
+#### TextWrap
 
-[*textwrap.wrap()*](https://docs.python.org/2/library/textwrap.html#textwrap.wrap)
+[textwrap.wrap()](https://docs.python.org/2/library/textwrap.html#textwrap.wrap)
 
-The*wrap()*function wraps a single paragraph in text (a string) so that every line is*width*characters long at most.
+The *wrap()* function wraps a single paragraph in text (a string) so that every line is*width*characters long at most.
 
 It returns a list of output lines.
 
+```python
 >>> import textwrap
 >>> string = "This is a very very very very very long string."
 >>> print textwrap.wrap(string,8)
 ['This is', 'a very', 'very', 'very', 'very', 'very', 'long', 'string.']
+```
 
-[*textwrap.fill()*](https://docs.python.org/2/library/textwrap.html#textwrap.fill)
+[textwrap.fill()](https://docs.python.org/2/library/textwrap.html#textwrap.fill)
 
-The*fill()*function wraps a single paragraph in text and returns a single string containing the wrapped paragraph.
+The *fill()* function wraps a single paragraph in text and returns a single string containing the wrapped paragraph.
 
+```python
 >>> import textwrap
 >>> string = "This is a very very very very very long string."
 >>> print textwrap.fill(string,8)
@@ -539,50 +538,55 @@ very
 very
 long
 string.
+```
 
-6. dec=int(input("Enteradecimalnumber:"))
+#### `dec=int(input("Enter a decimal number:"))`
 
-## print(bin(dec),"inbinary.")
+```python
+print(bin(dec),"inbinary.")
+print(oct(dec),"inoctal.")
+print(hex(dec),"inhexadecimal."
+```
 
-## print(oct(dec),"inoctal.")
+#### Ascii to number and vice versa
 
-## print(hex(dec),"inhexadecimal."
-
-7. Ascii to number and vice versa
-
+```python
 >>> ord('a')
 97
 >>> chr(97)
 'a'
 >>> chr(ord('a') + 3)
 'd'
+```
 
-8. Formatting string
+#### Formatting string
 
-def **repr**(self):
-
-return f'Pizza({self.ingredients!r})'
+```python
+def __repr__(self):
+    return f'Pizza({self.ingredients!r})'
 
 >>> Pizza(['cheese', 'tomatoes'])
-
 Pizza(['cheese', 'tomatoes'])
+```
 
 This is used to override **repr** that prints the object instance when printed
 
-9. **String slicing**
+#### **String slicing**
 
 Python also allows a form of indexing syntax that extracts substrings from a string, known as string slicing. Ifsis a string, an expression of the forms[m:n]returns the portion ofsstarting with positionm, and up to but not including positionn
 
-## Omitting both indices returns the original string, in its entirety. Literally. It's not a copy, it's a reference to the original string
+Omitting both indices returns the original string, in its entirety. Literally. It's not a copy, it's a reference to the original string
 
+```python
 >>> s[:] is s
-
-## True
+True
+```
 
 Negative indices can be used with slicing as well.-1refers to the last character -2 the second-to-last, and so on, just as with simple indexing. The diagram below shows how to slice the substring'oob'from the string'foobar'using both positive and negative indices:
 
 ![String index 3](media/Strings-image1.png)
 
+```python
 >>> s = 'foobar'
 
 >>> s[-5:-2]
@@ -593,6 +597,7 @@ Negative indices can be used with slicing as well.-1refers to the last character
 True
 
 string = string[:-3] (removes last 3 digits from string)
+```
 
 ## Stride
 
@@ -608,52 +613,62 @@ Similarly,1:6:2specifies a slice starting with the second character (index1) and
 
 You can specify a negative stride value as well, in which case Python steps backward through the string. In that case, the starting/first index should be greater than the ending/second index:
 
+```python
 >>> s = 'foobar'
 >>> s[5:0:-2]
 'rbo'
+```
 
 In the above example,5:0:-2means "start at the last character and step backward by2, up to but not including the first character."
 
 When you are stepping backward, if the first and second indices are omitted, the defaults are reversed in an intuitive way: the first index defaults to the end of the string, and the second index defaults to the beginning. Here is an example:
 
+```python
 >>> s = '12345' * 5
 >>> s
 '1234512345123451234512345'
 >>> s[::-5]
 '55555'
+```
 
 This is a common paradigm for reversing a string:
 
+```python
 >>> s = 'If Comrade Napoleon says it, it must be right.'
 >>> s[::-1]
 '.thgir eb tsum ti ,ti syas noelopaN edarmoC fI'
+```
 
 Example
 
 What is the slice expression that gives every third character of strings, starting with the last character and proceeding backward to the first?
 
-s[::-3]
+`s[::-3]`
 
-10. DocString
+#### DocString
 
-r""" """
+`r""" """`
 
 r is used to create a raw string if there are special characters inside the docstring
 
-11. Remove all punctuations from a given string
+#### Remove all punctuations from a given string
 
-Ex - document = document.translate(str.maketrans('','',string.punctuation))
+`Ex - document = document.translate(str.maketrans('','',string.punctuation))`
 
 ## Sluggify a string
 
+```python
 translate_table = {ord(char): u'' **for** char **in** non_url_safe}
 non_url_safe_regex = re.compile(
 r'[{}]'.format(''.join(re.escape(x) **for** x **in** non_url_safe)))
+```
 
 ## def _slugify2(self, text)
 
+```python
 text = text.translate(self.translate_table)
 text = u'_'.join(text.split())
+```
 
 ## return text
 

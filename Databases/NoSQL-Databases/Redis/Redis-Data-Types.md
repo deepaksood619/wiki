@@ -24,16 +24,20 @@ Redis Lists are implemented with linked lists because for a database system it i
 When fast access to the middle of a large collection of elements is important, there is a different data structure that can be used, called sorted sets. Sorted sets will be covered later in this tutorial.
 The [LPUSH](https://redis.io/commands/lpush) command adds a new element into a list, on the left (at the head), while the [RPUSH](https://redis.io/commands/rpush) command adds a new element into a list, on the right (at the tail). Finally the [LRANGE](https://redis.io/commands/lrange) command extracts ranges of elements from lists:
 
+```bash
 > rpush mylist A
 > lpush mylist first
 > lrange mylist 0 -1
+```
 
 Note that [LRANGE](https://redis.io/commands/lrange) takes two indexes, the first and the last element of the range to return. Both the indexes can be negative, telling Redis to start counting from the end: so -1 is the last element, -2 is the penultimate element of the list, and so forth.
 An important operation defined on Redis lists is the ability topop elements. Popping elements is the operation of both retrieving the element from the list, and eliminating it from the list, at the same time. You can pop elements from left and right, similarly to how you can push elements in both sides of the list:
 
+```bash
 > rpush mylist a b c
 > rpop mylist
 > lpop mylist
+```
 
 ## Common use cases for lists
 
@@ -61,10 +65,12 @@ However it is possible that sometimes the list is empty and there is nothing to 
 So Redis implements commands called [BRPOP](https://redis.io/commands/brpop) and [BLPOP](https://redis.io/commands/blpop) which are versions of [RPOP](https://redis.io/commands/rpop) and [LPOP](https://redis.io/commands/lpop) able to block if the list is empty: they'll return to the caller only when a new element is added to the list, or when a user-specified timeout is reached.
 This is an example of a [BRPOP](https://redis.io/commands/brpop) call we could use in the worker:
 
+```bash
 > brpop tasks 5
 
 1) "tasks"
 2) "do_something"
+```
 
 It means: "wait for elements in the listtasks, but return if after 5 seconds no element is available".
 Note that you can use 0 as timeout to wait for elements forever, and you can also specify multiple lists and not just one, in order to wait on multiple lists at the same time, and get notified when the first list receives an element.
@@ -96,6 +102,7 @@ Basically we can summarize the behavior with three rules:
 
 Redis hashes look exactly how one might expect a "hash" to look, with field-value pairs:
 
+```bash
 > hmset user:1000 username antirez birthyear 1977 verified 1
 OK
 > hget user:1000 username
@@ -110,29 +117,39 @@ OK
 4) "1977"
 5) "verified"
 6) "1"
+```
+
 While hashes are handy to representobjects, actually the number of fields you can put inside a hash has no practical limits (other than available memory)
 The command [HMSET](https://redis.io/commands/hmset) sets multiple fields of the hash, while [HGET](https://redis.io/commands/hget) retrieves a single field.[HMGET](https://redis.io/commands/hmget) is similar to [HGET](https://redis.io/commands/hget) but returns an array of values:
 
+```bash
 > hmget user:1000 username birthyear no-such-field
 
 1) "antirez"
 2) "1977"
 3) (nil)
+```
+
 There are commands that are able to perform operations on individual fields as well, like [HINCRBY](https://redis.io/commands/hincrby):
 
+```bash
 > hincrby user:1000 birthyear 10
 (integer) 1987
 > hincrby user:1000 birthyear 10
 (integer) 1997
+```
+
 It is worth noting that small hashes (i.e., a few elements with small values) are encoded in special way in memory that make them very memory efficient.
 
 ## Redis Sets
 
 Redis Sets are unordered collections of strings. The [SADD](https://redis.io/commands/sadd) command adds new elements to a set. It's also possible to do a number of other operations against sets like testing if a given element already exists, performing the intersection, union or difference between multiple sets, and so forth.
 
+```bash
 > sadd myset 1 2 3
 (integer) 3
 > smembers myset
+```
 
 1. 3
 2. 1
@@ -142,10 +159,12 @@ Redis Sets are unordered collections of strings. The [SADD](https://redis.io/com
 Here I've added three elements to my set and told Redis to return all the elements. As you can see they are not sorted -- Redis is free to return the elements in any order at every call, since there is no contract with the user about element ordering.
 Redis has commands to test for membership. For example, checking if an element exists:
 
+```bash
 > sismember myset 3
 (integer) 1
 > sismember myset 30
 (integer) 0
+```
 
 "3" is a member of the set, while "30" is not.
 Sets are good for expressing relations between objects. For instance we can easily use sets in order to implement tags.

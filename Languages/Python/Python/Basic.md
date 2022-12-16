@@ -27,14 +27,15 @@ Line continuation character () to denote that the line should continue.
 
 For example −
 
+```python
 total = item_one +
 item_two +
 item_three
+```
 
 Statements contained within the [], {}, or () brackets do not need to use the line continuation character. For example −
 
-days = ['Monday', 'Tuesday', 'Wednesday',
-'Thursday', 'Friday']
+`days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']`
 
 ## Quotation in Python
 
@@ -42,10 +43,12 @@ Python accepts single ('), double (") and triple (''' or """) quotes to denote s
 
 Example-
 
+```python
 word = 'word'
 sentence = "This is a sentence."
 paragraph = """This is a paragraph. It is
 made up of multiple lines and sentences."""
+```
 
 ## Comments
 
@@ -59,9 +62,10 @@ The semicolon ( ; ) allows multiple statements on the single line given that nei
 
 ## Get details on module package
 
+```python
 >>> import pickle
-
 >>> help(pickle)
+```
 
 Give all the details for the package
 
@@ -85,6 +89,7 @@ The above being said, a functional style is still easily usable in all but the m
 
 ## Class method and Object method
 
+```python
 >>> b = bytes.fromhex(' aa 68 4682cc ')
 >>> b
 b'xaahFx82xcc'
@@ -93,8 +98,9 @@ b'xaahFx82xcc'
 'aa684682cc'
 >>> type(b.hex())
 <class 'str'>
+```
 
-As opposed to.fromhex(),.hex()is an object method, not a class method. Thus, it is invoked on an object of thebytesclass, not on the class itself.
+As opposed to `.fromhex()`, `.hex()` is an object method, not a class method. Thus, it is invoked on an object of the `bytes` class, not on the class itself.
 
 ## Does Python allow arguments Pass by Value or Pass by Reference?
 

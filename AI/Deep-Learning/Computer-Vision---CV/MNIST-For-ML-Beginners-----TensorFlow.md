@@ -112,7 +112,7 @@ We can "vectorize" this procedure, turning it into a matrix multiplication and v
 
 More compactly, we can just write:
 
-y=softmax(Wx+b)
+`y=softmax(Wx+b)`
 
 Now let's turn that into something that TensorFlow can use.
 
@@ -136,7 +136,7 @@ x isn't a specific value. It's a placeholder, a value that we'll input when we a
 
 We also need the weights and biases for our model. We could imagine treating these like additional inputs, but TensorFlow has an even better way to handle it: Variable. A Variable is a modifiable tensor that lives in TensorFlow's graph of interacting operations. It can be used and even modified by the computation. For machine learning applications, one generally has the model parameters be Variables.
 
-```
+```python
 W = tf.Variable(tf.zeros([784, 10]))
 b = tf.Variable(tf.zeros([10]))
 ```
@@ -147,7 +147,7 @@ Notice that W has a shape of [784, 10] because we want to multiply the 784-dimen
 
 We can now implement our model. It only takes one line to define it!
 
-```
+```python
 y = tf.nn.softmax(tf.matmul(x, W) + b)
 ```
 
@@ -161,7 +161,7 @@ In order to train our model, we need to define what it means for the model to be
 
 One very common, very nice function to determine the loss of a model is called "cross-entropy." Cross-entropy arises from thinking about information compressing codes in information theory but it winds up being an important idea in lots of areas, from gambling to machine learning. It's defined as:
 
-```
+```python
 Hy′(y)=−∑iyi′log⁡(yi)
 ```
 
@@ -169,7 +169,7 @@ Where y is our predicted probability distribution, and y′ is the true distribu
 
 To implement cross-entropy we need to first add a new placeholder to input the correct answers:
 
-```
+```python
 y_ = tf.placeholder(tf.float32, [None, 10])
 
 Then we can implement the cross-entropy function, −∑y′log⁡(y):
@@ -191,15 +191,15 @@ What TensorFlow actually does here, behind the scenes, is to add new operations 
 
 We can now launch the model in an InteractiveSession:
 
-sess = tf.InteractiveSession()
+`sess = tf.InteractiveSession()`
 
 We first have to create an operation to initialize the variables we created:
 
-tf.global_variables_initializer().run()
+`tf.global_variables_initializer().run()`
 
 Let's train -- we'll run the training step 1000 times!
 
-```
+```python
 for _ in range(1000):
  batch_xs, batch_ys = mnist.train.next_batch(100)
  sess.run(train_step, feed_dict={x: batch_xs, y_: batch_ys})
@@ -215,15 +215,15 @@ How well does our model do?
 
 Well, first let's figure out where we predicted the correct label. tf.argmax is an extremely useful function which gives you the index of the highest entry in a tensor along some axis. For example, tf.argmax(y,1) is the label our model thinks is most likely for each input, while tf.argmax(y_,1) is the correct label. We can use tf.equal to check if our prediction matches the truth.
 
-correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
+`correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))`
 
 That gives us a list of booleans. To determine what fraction are correct, we cast to floating point numbers and then take the mean. For example, [True, False, True, True] would become [1,0,1,1] which would become 0.75.
 
-accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+`accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))`
 
 Finally, we ask for our accuracy on our test data.
 
-print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
+`print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))`
 
 This should be about 92%.
 

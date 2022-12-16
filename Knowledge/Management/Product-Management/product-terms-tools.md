@@ -21,5 +21,5 @@ Modified: 2022-03-12 23:20:00 +0500
 The take-up rate measures the percentage of eligible people who accept a particular good/service or benefit
 
 ## Tools
-- [Sendbird - A Complete Chat Platform, Messaging and Chat API and SDK | Sendbird](https://sendbird.com/)
 
+- [Sendbird - A Complete Chat Platform, Messaging and Chat API and SDK | Sendbird](https://sendbird.com/)
