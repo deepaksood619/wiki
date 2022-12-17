@@ -21,7 +21,7 @@ Processing frameworks compute over the data in the system, either by reading fro
 
 Processing frameworksandprocessing enginesare responsible for computing over data in a data system. While there is no authoritative definition setting apart "engines" from "frameworks", it is sometimes useful to define the former as the actual component responsible for operating on data and the latter as a set of components designed to do the same.
 
-For instance,Apache Hadoopcan be considered aprocessing frameworkwithMapReduceas its defaultprocessing engine. Engines and frameworks can often be swapped out or used in tandem. For instance,Apache Spark, another framework, can hook into Hadoop to replace MapReduce. This interoperability between components is one reason that big data systems have great flexibility.
+For instance, Apache Hadoopcan be considered aprocessing frameworkwithMapReduceas its defaultprocessing engine. Engines and frameworks can often be swapped out or used in tandem. For instance, Apache Spark, another framework, can hook into Hadoop to replace MapReduce. This interoperability between components is one reason that big data systems have great flexibility.
 
 ## Batch Processing Systems
 

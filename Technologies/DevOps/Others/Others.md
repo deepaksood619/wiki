@@ -103,7 +103,7 @@ Resin.iois a startup aiming to bring the benefits of Linux containers to the wor
 ## Caddy
 
 - Fast, cross-platform HTTP/2 web server with automatic HTTPS
-- Caddy 2 is a powerful, enterprise-ready,open source web serverwithautomatic HTTPSwritten in Go.
+- Caddy 2 is a powerful, enterprise-ready, open source web serverwithautomatic HTTPSwritten in Go.
 - Caddy simplifies your infrastructure. It takes care of TLS certificate renewals, OCSP stapling, static file serving, reverse proxying, Kubernetes ingress, and more.
 - Its modular architecture means you can do more with a single, static binary that compiles for any platform.
 - Caddy runs great in containers because it has no dependencies---not even libc. Run Caddy practically anywhere.

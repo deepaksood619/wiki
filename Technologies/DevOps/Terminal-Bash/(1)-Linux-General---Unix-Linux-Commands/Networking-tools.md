@@ -126,7 +126,7 @@ Modified: 2022-01-07 15:29:44 +0500
 
 58. [wget](https://www.gnu.org/software/wget/)--retrieving files using HTTP, HTTPS, FTP and FTPS.
 
-59. [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html)-- includesiwconfig,iwlist,iwspy,iwpriv andifrename.
+59. [Wireless Tools for Linux](https://hewlettpackard.github.io/wireless-tools/Tools.html)-- includesiwconfig, iwlist, iwspy, iwpriv andifrename.
 
 60. [Wireshark](https://www.wireshark.org/)--network protocol analyzer.
 

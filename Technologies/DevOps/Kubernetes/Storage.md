@@ -42,7 +42,7 @@ Some uses for anemptyDirare:
 - checkpointing a long computation for recovery from crashes
 - holding files that a content-manager Container fetches while a webserver Container serves the data
 
-By default,emptyDirvolumes are stored on whatever medium is backing the node - that might be disk or SSD or network storage, depending on your environment. However, you can set theemptyDir.mediumfield to"Memory"to tell Kubernetes to mount a tmpfs (RAM-backed filesystem) for you instead. While tmpfs is very fast, be aware that unlike disks, tmpfs is cleared on node reboot and any files you write will count against your Container's memory limit.
+By default, emptyDirvolumes are stored on whatever medium is backing the node - that might be disk or SSD or network storage, depending on your environment. However, you can set theemptyDir.mediumfield to"Memory"to tell Kubernetes to mount a tmpfs (RAM-backed filesystem) for you instead. While tmpfs is very fast, be aware that unlike disks, tmpfs is cleared on node reboot and any files you write will count against your Container's memory limit.
 
 ## Example Pod
 
@@ -138,7 +138,7 @@ A volume will be in one of the following phases:
 
 ## Volume Snapshots
 
-Similar to how API resourcesPersistentVolumeandPersistentVolumeClaimare used to provision volumes for users and administrators,VolumeSnapshotContentandVolumeSnapshotAPI resources are provided to create volume snapshots for users and administrators.
+Similar to how API resourcesPersistentVolumeandPersistentVolumeClaimare used to provision volumes for users and administrators, VolumeSnapshotContentandVolumeSnapshotAPI resources are provided to create volume snapshots for users and administrators.
 
 A**VolumeSnapshotContent** is a snapshot taken from a volume in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a PersistentVolume is a cluster resource.
 
@@ -181,7 +181,7 @@ Kubernetes provides a powerful volume plugin system that enables Kubernetes work
 - **GCEpersistentDisk and awsElasticBlockStore**
 - **emptyDir and hostPath**
 
-ThehostPathvolume mounts a resource from the host node filesystem. The resource could be a directory, file socket, character, or block device. These resources must already exist on the host tobeused.There are two types,DirectoryOrCreateandFileOrCreate, which create the resources on the host, and use them if they don't already exist.
+ThehostPathvolume mounts a resource from the host node filesystem. The resource could be a directory, file socket, character, or block device. These resources must already exist on the host tobeused.There are two types, DirectoryOrCreateandFileOrCreate, which create the resources on the host, and use them if they don't already exist.
 
 - **NFS and iSCSI**
 
@@ -193,7 +193,7 @@ rbdfor block storage orCephFSandGlusterFS, if available in your Kubernetes clust
 
 - **Other Volume Types**
 
-Besides the volume types we just mentioned, there are many other possible, with more being added:azureDisk,azureFile,csi,downwardAPI,fc(fibre channel), flocker, gitRepo, local, projected, portworxVolume, quobyte, scaleIO, secret, storageos, vsphereVolume, persistentVolumeClaim, etc.
+Besides the volume types we just mentioned, there are many other possible, with more being added:azureDisk, azureFile, csi, downwardAPI, fc(fibre channel), flocker, gitRepo, local, projected, portworxVolume, quobyte, scaleIO, secret, storageos, vsphereVolume, persistentVolumeClaim, etc.
 
 ## PVC Autoresizer
 

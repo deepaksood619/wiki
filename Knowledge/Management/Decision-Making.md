@@ -172,7 +172,7 @@ Edward De Bono developed a tool called the 6 Thinking Hats to help you look at a
 
 <https://deepstash.com/article/2581/7-things-that-self-made-billionaires-do-differently>
 
-[DACI](https://click.e.atlassian.com/?qs=607064f1d0c41ff4b86df4cb78fc54b5a68b3dfdbdf2f07f8609ed35d035333eb903a1e047d2ebe2668cb2968910f114afe01a9999daa0cf1ab3939d1867e790)(Driver,Approver,Contributor,Informed) framework. It outlines who's responsible for what and when, and helps eliminate the confusion that can sometimes come along with group decision making.
+[DACI](https://click.e.atlassian.com/?qs=607064f1d0c41ff4b86df4cb78fc54b5a68b3dfdbdf2f07f8609ed35d035333eb903a1e047d2ebe2668cb2968910f114afe01a9999daa0cf1ab3939d1867e790)(Driver, Approver, Contributor, Informed) framework. It outlines who's responsible for what and when, and helps eliminate the confusion that can sometimes come along with group decision making.
 
 - Driver:in charge pushing the team to the best possible outcome
 - Approver:has the final say on which path the team should take

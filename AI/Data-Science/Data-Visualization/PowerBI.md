@@ -52,7 +52,7 @@ Power BI mobile app is available for iOS, Android, Windows. It can be managed us
 
 ## Visualization(orvisual)
 
-is a type of chart built by Power BIdesigners. The visuals display the data fromreportsanddatasets. Typically,designersbuild the visuals in Power BI Desktop.
+is a type of chart built by Power BIdesigners. The visuals display the data fromreportsanddatasets. Typically, designersbuild the visuals in Power BI Desktop.
 [Interact with Visuals in reports, dashboards, and apps](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-visualizations)
 
 <https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a>
@@ -73,7 +73,7 @@ is one or more pages of interactive visuals, text, and graphics that together ma
 
 ## App
 
-is a way fordesignersto bundle and share related dashboards and reports together.Business usersreceive some apps automatically but can go search for other apps created by colleagues or by the community. For example,out-of-the-box apps are available for external services you may already use, like Google Analytics and Microsoft Dynamics CRM
+is a way fordesignersto bundle and share related dashboards and reports together.Business usersreceive some apps automatically but can go search for other apps created by colleagues or by the community. For example, out-of-the-box apps are available for external services you may already use, like Google Analytics and Microsoft Dynamics CRM
 
 <https://docs.microsoft.com/en-us/power-bi/consumer/end-user-basic-concepts>
 

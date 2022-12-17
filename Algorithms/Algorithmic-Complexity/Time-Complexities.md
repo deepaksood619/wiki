@@ -44,7 +44,7 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 <td></td>
 <td><em>O</em>(<em>α</em>(<em>n</em>))</td>
 <td></td>
-<td><a href="https://en.wikipedia.org/wiki/Amortized_time">Amortized time</a>per operation using a<a href="https://en.wikipedia.org/wiki/Disjoint_set_data_structure">disjoint set</a>. This function has a value <em>α</em>(n) `<` 5, for any value of<em>n</em>that can be written in this physical universe. So essentially it's a constant time operation</td>
+<td><a href="https://en.wikipedia.org/wiki/Amortized_time">Amortized time</a>per operation using a<a href="https://en.wikipedia.org/wiki/Disjoint_set_data_structure">disjoint set</a>. This function has a value <em>α</em>(n) < 5, for any value of<em>n</em>that can be written in this physical universe. So essentially it's a constant time operation</td>
 </tr>
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/Iterated_logarithm">iterated logarithmic</a>time</td>
@@ -58,7 +58,7 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 <td></td>
 <td><em>O</em>(log log<em>n</em>)</td>
 <td></td>
-<td>Amortized time per operation using a bounded<a href="https://en.wikipedia.org/wiki/Priority_queue">priority queue</a><a href="https://en.wikipedia.org/wiki/Time_complexity#cite_note-2"><sup>[2]</sup></a></td>
+<td>Amortized time per operation using a bounded<a href="https://en.wikipedia.org/wiki/Priority_queue">priority queue</a></td>
 </tr>
 <tr>
 <td><strong>logarithmic time</strong></td>

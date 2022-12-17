@@ -107,7 +107,7 @@ Modified: 2021-01-30 01:13:06 +0500
 </ul>
 <blockquote>
 <p></p>
-<p>InnoDBdoes not keep an internal count of rows in a table. (In practice, this would be somewhat complicated due to multi-versioning.) To process aSELECT COUNT(*) FROM tstatement,InnoDBmust scan an index of the table, which takes some time if the index is not entirely in the buffer pool. If your table does not change often, using the MySQL query cache is a good solution. To get a fast count, you have to use a counter table you create yourself and let your application update it according to the inserts and deletes it does.<a href="http://dev.mysql.com/doc/refman/5.0/en/show-table-status.html">SHOW TABLE STATUS</a>also can be used if an approximate row count is sufficient.</p>
+<p>InnoDBdoes not keep an internal count of rows in a table. (In practice, this would be somewhat complicated due to multi-versioning.) To process aSELECT COUNT(*) FROM tstatement, InnoDBmust scan an index of the table, which takes some time if the index is not entirely in the buffer pool. If your table does not change often, using the MySQL query cache is a good solution. To get a fast count, you have to use a counter table you create yourself and let your application update it according to the inserts and deletes it does.<a href="http://dev.mysql.com/doc/refman/5.0/en/show-table-status.html">SHOW TABLE STATUS</a>also can be used if an approximate row count is sufficient.</p>
 <p></p>
 <p><a href="https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable">https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable</a></p>
 </blockquote></td>

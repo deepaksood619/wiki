@@ -6,7 +6,7 @@ Modified: 2021-07-11 03:32:57 +0500
 
 ---
 
-The word Calculus comes from Latin meaning "small stone",Because it is like understanding something by looking at small pieces.
+The word Calculus comes from Latin meaning "small stone", Because it is like understanding something by looking at small pieces.
 Differential Calculuscuts something into small pieces to find how it changes.
 
 Integral Calculusjoins (integrates) the small pieces together to find how much there is.

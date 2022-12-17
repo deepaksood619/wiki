@@ -23,7 +23,7 @@ Avro provides:
 Avro depends heavily on itsschema. It allows every data to be written with no prior knowledge of the schema. It serializes fast and the resulting serialized data is lesser in size. Schema is stored along with the Avro data in a file for any further processing.
 In RPC, the client and the server exchange schemas during the connection. (This can be optimized so that, for most calls, no schemas are actually transmitted.) Since both client and server both have the other's full schema, correspondence between same named fields, missing fields, extra fields, etc. can all be easily resolved.
 Avro schemas are defined with JSON that simplifies its implementation in languages with JSON libraries.
-Like Avro, there are other serialization mechanisms in Hadoop such asSequence Files, Protocol Buffers,andThrift.
+Like Avro, there are other serialization mechanisms in Hadoop such asSequence Files, Protocol Buffers, andThrift.
 
 ## Schemas
 
@@ -47,7 +47,7 @@ Avro provides functionality similar to systems such as [Thrift](https://thrift.a
 - Avro creates binary structured format that is bothcompressibleandsplittable. Hence it can be efficiently used as the input to Hadoop MapReduce jobs.
 - Avro providesrich data structures. For example, you can create a record that contains an array, an enumerated type, and a sub record. These datatypes can be created in any language, can be processed in Hadoop, and the results can be fed to a third language.
 - Avroschemasdefined inJSON, facilitate implementation in the languages that already have JSON libraries.
-- Avro creates a self-describing file namedAvro Data File,in which it stores data along with its schema in the metadata section.
+- Avro creates a self-describing file namedAvro Data File, in which it stores data along with its schema in the metadata section.
 - Avro is also used in Remote Procedure Calls (RPCs). During RPC, client and server exchange schemas in the connection handshake.
 - It has a direct mapping to and from JSON
 - It has a very compact format. The bulk of JSON, repeating every field name with every single record, is what makes JSON inefficient for high-volume usage.

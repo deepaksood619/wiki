@@ -19,7 +19,7 @@ Easier to ask for forgiveness than permission. This common Python coding style a
 
 Look before you leap. This coding style explicitly tests for pre-conditions before making calls or lookups. This style contrasts with the [EAFP](NULL)approach and is characterized by the presence of many [if](http://reference/compound_stmts.html) statements.
 
-In a multi-threaded environment, the LBYL approach can risk introducing a race condition between "the looking" and "the leaping". For example, the code,ifkeyinmapping:returnmapping [key]can fail if another thread removeskeyfrommappingafter the test, but before the lookup. This issue can be solved with locks or by using the EAFP approach.
+In a multi-threaded environment, the LBYL approach can risk introducing a race condition between "the looking" and "the leaping". For example, the code, ifkeyinmapping:returnmapping [key]can fail if another thread removeskeyfrommappingafter the test, but before the lookup. This issue can be solved with locks or by using the EAFP approach.
 
 ## homoiconicity (noun)
 

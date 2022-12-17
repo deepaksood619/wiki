@@ -29,7 +29,7 @@ Consider the followingUITableViewCellconstructor:
 
 ThereuseIdentifieris used to group together similar rows in anUITableView; i.e., rows that differ only in their content, but otherwise have similar layouts.
 
-AUITableViewwill normally allocate just enoughUITableViewCellobjects to display the content visible in the table. IfreuseIdentifieris set to a non-nilvalue, then when the table view is scrolled,UITableViewwill first attempt to reuse an already allocatedUITableViewCellwith the samereuseIdentifier. IfreuseIdentifierhas not been set, theUITableViewwill be forced to allocate newUITableViewCellobjects for each new item that scrolls into view, potentially leading to laggy animations.
+AUITableViewwill normally allocate just enoughUITableViewCellobjects to display the content visible in the table. IfreuseIdentifieris set to a non-nilvalue, then when the table view is scrolled, UITableViewwill first attempt to reuse an already allocatedUITableViewCellwith the samereuseIdentifier. IfreuseIdentifierhas not been set, theUITableViewwill be forced to allocate newUITableViewCellobjects for each new item that scrolls into view, potentially leading to laggy animations.
 
 ## What are different ways that you can specify the layout of elements in aUIView?
 

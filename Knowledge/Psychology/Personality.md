@@ -280,7 +280,7 @@ Some people are natural-born leaders. They're confident, opinionated, and full o
 
 The key message here is: Eights want to call the shots, all the time.
 
-Unsurprisingly, this personality type is also known as theBoss,and it can be pretty scary to find yourself on his bad side.
+Unsurprisingly, this personality type is also known as theBoss, and it can be pretty scary to find yourself on his bad side.
 
 Eights tend to view the world in black and white. If you're not with him, you're against him. And if you're not his friend, then you're his worst enemy. Instead of being happy, like a Seven, or fearful, like a Six, the Eight's go-to emotion isanger.
 

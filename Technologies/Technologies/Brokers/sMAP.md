@@ -16,7 +16,7 @@ An enormous amount of physical information; that is, information from and about 
 
 ![image](../../media/Technologies-Brokers-sMAP-image1.png)
 
-The core object in sMAP is the timeseries, a single progression of(time,value)tuples. Each timeseries in sMAP is identified by aUUID, and can be tagged with metadata; all grouping of time series occurs using these tags. These objects are exchanged between all components in this ecosystem.
+The core object in sMAP is the timeseries, a single progression of(time, value)tuples. Each timeseries in sMAP is identified by aUUID, and can be tagged with metadata; all grouping of time series occurs using these tags. These objects are exchanged between all components in this ecosystem.
 
 ## Key Elements
 

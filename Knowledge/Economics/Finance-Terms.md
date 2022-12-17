@@ -140,7 +140,7 @@ ANon-performing asset(NPA) is defined as a [credit facility](https://en.wikipedi
 
 ## AUM
 
-In [finance](https://en.wikipedia.org/wiki/Finance),assets under management(AUM), sometimes calledfunds under management(FUM), measures the total [market value](https://en.wikipedia.org/wiki/Market_value) of all the [financial assets](https://en.wikipedia.org/wiki/Financial_asset) which a [financial institution](https://en.wikipedia.org/wiki/Financial_institution) such as a [mutual fund](https://en.wikipedia.org/wiki/Mutual_fund), [venture capital firm](https://en.wikipedia.org/wiki/Venture_capital_firm), or [broker](https://en.wikipedia.org/wiki/Broker) manages on behalf of its clients and themselves.
+In [finance](https://en.wikipedia.org/wiki/Finance), assets under management(AUM), sometimes calledfunds under management(FUM), measures the total [market value](https://en.wikipedia.org/wiki/Market_value) of all the [financial assets](https://en.wikipedia.org/wiki/Financial_asset) which a [financial institution](https://en.wikipedia.org/wiki/Financial_institution) such as a [mutual fund](https://en.wikipedia.org/wiki/Mutual_fund), [venture capital firm](https://en.wikipedia.org/wiki/Venture_capital_firm), or [broker](https://en.wikipedia.org/wiki/Broker) manages on behalf of its clients and themselves.
 
 <https://en.wikipedia.org/wiki/Assets_under_management>
 

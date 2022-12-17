@@ -45,10 +45,10 @@ classTicketAdmin(admin.ModelAdmin):
 
  readonly_fields=('ticket_number','ticket_id','issue','device','status')
 
- def has_add_permission(self,request):
+ def has_add_permission(self, request):
   return False
 
- def has_delete_permission(self,request,obj=None):
+ def has_delete_permission(self, request, obj=None):
     return False
 ```
 
@@ -82,8 +82,8 @@ Now we can also override the admin fields to show according to the user who is l
 Ex -
 
 ```python
-def get_fieldsets(self,request,obj=None):
-  client_id=request.session.get('client_id',None)
+def get_fieldsets(self, request, obj=None):
+  client_id=request.session.get('client_id', None)
 
   #if request is from frontend, dont show some of the fields
   if client_id is not None:

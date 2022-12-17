@@ -45,7 +45,7 @@ x.parent := *Find*(x.parent)
 return x.parent
 3.  Union
 
-*Union(x,y)*uses *Find*to determine the roots of the trees*x*and*y*belong to. If the roots are distinct, the trees are combined by attaching the root of one to the root of the other. If this is done naively, such as by always making*x*a child of*y*, the height of the trees can grow as
+*Union(x, y)*uses *Find*to determine the roots of the trees*x*and*y*belong to. If the roots are distinct, the trees are combined by attaching the root of one to the root of the other. If this is done naively, such as by always making*x*a child of*y*, the height of the trees can grow as
 
 . To prevent this*union by rank*is used.
 

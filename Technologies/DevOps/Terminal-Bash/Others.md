@@ -12,7 +12,7 @@ systemdis a collection of tools for a range of different tasks.Its primary purpo
 
 The **init system** is the first process started on Fedora after the kernel starts. In fact, the init system always gets the Process ID (PID) of 1 on a system. This process is always executed by the Linux kernel after the early stages of bootup arecompleted by the BIOS and bootloader (GRUB).
 
-The init system thenmuststart all the necessary daemons, background processes and services required to make the operating system work. Examples of such processes include starting up a bootscreen,various parts of the networking stack, andhardware in your machine.
+The init system thenmuststart all the necessary daemons, background processes and services required to make the operating system work. Examples of such processes include starting up a bootscreen, various parts of the networking stack, andhardware in your machine.
 
 Often these processes continue to run in the background after they start, and are calleddaemons.These daemonsmanage many parts of your system, such as logging information, watching for devices you insert or remove, and managing user login.
 
@@ -72,7 +72,7 @@ pip install bashplotlib #graphs in the console
 
 ## jq
 
-jq is likesedfor JSON data - you can use it to slice and filter and map and transform structured data with the same ease thatsed,awk,grepand friends let you play with text.
+jq is likesedfor JSON data - you can use it to slice and filter and map and transform structured data with the same ease thatsed, awk, grepand friends let you play with text.
 
 brew install jq
 
@@ -162,7 +162,7 @@ Glancesis a cross-platform monitoring tool which aims to present a large amount 
 
 pip install glances
 
-pip install 'glances [action,browser,cloud,cpuinfo,docker,export,folders,gpu,graph,ip,raid,snmp,web,wifi]'
+pip install 'glances [action, browser, cloud, cpuinfo, docker, export, folders, gpu, graph, ip, raid, snmp, web, wifi]'
 
 glances -w
 

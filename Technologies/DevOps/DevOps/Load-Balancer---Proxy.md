@@ -148,21 +148,21 @@ We discuss two different uses of proxies in the next two sections.
 
 ## Socks Proxy (Socks5 proxy server)
 
-And one of the most different between the **socks proxy** and **HTTP proxy** is,socks proxy can use on lots of different application,HTTP proxy can ONLY be used to handle HTTP request, the socks proxies can be used to FTP, ICQ MSN, Outlook, TheBat, Skype..and so on, And the commonly used ports of the proxy server are，
+And one of the most different between the **socks proxy** and **HTTP proxy** is, socks proxy can use on lots of different application, HTTP proxy can ONLY be used to handle HTTP request, the socks proxies can be used to FTP, ICQ MSN, Outlook, TheBat, Skype..and so on, And the commonly used ports of the proxy server are，
 
 - Ports of HTTP Proxy: 80/8080
 - Ports ofSOCKS proxy: 1080
 
 ## DNS Proxy
 
-- The DNS proxy relays DNS requests to the current public network DNS server,then DNS proxy server transfer the replies to the client device.
+- The DNS proxy relays DNS requests to the current public network DNS server, then DNS proxy server transfer the replies to the client device.
 - Though the DNS proxy use Cache, The DNS proxy is tracking the public DNS requests to monitor the configiration if previous resolution fails.
 
 ## Forward Proxy
 
 Forward proxy can be used by the client to [bypass firewall restrictions](https://www.linuxbabe.com/ubuntu/shadowsocks-libev-proxy-server-ubuntu-16-04-17-10) in order to visit websites that are blocked by school, government, company etc. If a website blocked an IP range from visiting the website, then a person in that IP range can use forward proxy to hide the real IP of the client so that person can visit the website and maybe leave some spam comments. However forward proxy might be detected by the website administrator. There are some paid proxy service that has numerous proxy systems around the world so that they can change your IP address every time your visit a new web page and this makes it harder for website administrators to detect.
 
-## The object of the forwarding proxy is the Client,and the object of the reverse proxy server is the server
+## The object of the forwarding proxy is the Client, and the object of the reverse proxy server is the server
 
 ## Reverse Proxy
 

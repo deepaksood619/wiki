@@ -12,7 +12,7 @@ celery worker --help
 
 celery --app=proj worker -l INFO
 
-celery -A proj worker -l INFO -Q hipri,lopri
+celery -A proj worker -l INFO -Q hipri, lopri
 
 celery -A proj worker --concurrency=4
 

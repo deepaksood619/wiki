@@ -10,7 +10,7 @@ Modified: 2022-08-11 13:39:13 +0500
 
 Investment banking is a specific division of banking related to the creation of capital for other companies, governments, and other entities.
 
-- Investment banking activities include underwriting new debt and equity securities for all types ofcorporations, aiding in the sale of securities, and helping to facilitatemergers and acquisitions,reorganizations,and broker trades for both institutions and private investors.
+- Investment banking activities include underwriting new debt and equity securities for all types ofcorporations, aiding in the sale of securities, and helping to facilitatemergers and acquisitions, reorganizations, and broker trades for both institutions and private investors.
 - Investment bankers help corporations, governments, and other groups plan and manage the financial aspects of large projects.
 
 Companies - Goldman Sachs, Morgan Stanley, JPMorgan Chase, Bank of America Merrill Lynch, and Deutsche Bank

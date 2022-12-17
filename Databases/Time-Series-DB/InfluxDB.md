@@ -93,7 +93,7 @@ Fields are the columns on whichmathematical operations such as sum, mean, non-ne
 
 5. Series
 
-A series is the most important concept of Influxdb.A series is a combination of tags, measurement, and retention policy (default of Influxdb).An Influxdb database performance is highly dependent on the number of unique series it contains,which in turn is the cardinality of tags x no. of measurement x retention policy
+A series is the most important concept of Influxdb.A series is a combination of tags, measurement, and retention policy (default of Influxdb).An Influxdb database performance is highly dependent on the number of unique series it contains, which in turn is the cardinality of tags x no. of measurement x retention policy
 
 ## Glossary of Terms
 

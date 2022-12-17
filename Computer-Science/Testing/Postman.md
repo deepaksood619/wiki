@@ -117,9 +117,9 @@ finalstring**+=**pm.request.body.urlencoded.toJSON()[i].key**+**'='**+**pm.reque
 
 finalstring**=**finalstring;
 
-varsignature**=**CryptoJS.HmacSHA256(finalstring,key).**toString**();
+varsignature**=**CryptoJS.HmacSHA256(finalstring, key).**toString**();
 
-postman.setEnvironmentVariable("checksum",signature);
+postman.setEnvironmentVariable("checksum", signature);
 
 pm.variables.**get**("variable_key");
 

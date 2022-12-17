@@ -18,7 +18,7 @@ Modified: 2022-09-17 13:49:19 +0500
 
 ## NLP - Neuro Linguistic Programming
 
-## Neuro-linguistic programming(NLP) is an approach to communication, personal development, and [psychotherapy](https://en.wikipedia.org/wiki/Psychotherapy) created by [Richard Bandler](https://en.wikipedia.org/wiki/Richard_Bandler) and [John Grinder](https://en.wikipedia.org/wiki/John_Grinder) in [California](https://en.wikipedia.org/wiki/California), United States in the 1970s. NLP's creators claim there is a connection between neurological processes (neuro-), language (linguistic) and behavioral patterns learned through experience (programming), and that these can be changed to achieve specific goals in life. Bandler and Grinder also claim that NLP methodology can "model" the skills of exceptional people, allowing anyone to acquire those skills.They claim as well that, often in a single session, NLP can treat problems such as phobias, depression, tic disorders, [psychosomatic illnesses](https://en.wikipedia.org/wiki/Psychosomatic_illness), near-sightedness,allergy, common cold,and learning disorders
+## Neuro-linguistic programming(NLP) is an approach to communication, personal development, and [psychotherapy](https://en.wikipedia.org/wiki/Psychotherapy) created by [Richard Bandler](https://en.wikipedia.org/wiki/Richard_Bandler) and [John Grinder](https://en.wikipedia.org/wiki/John_Grinder) in [California](https://en.wikipedia.org/wiki/California), United States in the 1970s. NLP's creators claim there is a connection between neurological processes (neuro-), language (linguistic) and behavioral patterns learned through experience (programming), and that these can be changed to achieve specific goals in life. Bandler and Grinder also claim that NLP methodology can "model" the skills of exceptional people, allowing anyone to acquire those skills.They claim as well that, often in a single session, NLP can treat problems such as phobias, depression, tic disorders, [psychosomatic illnesses](https://en.wikipedia.org/wiki/Psychosomatic_illness), near-sightedness, allergy, common cold, and learning disorders
 
 <https://en.wikipedia.org/wiki/Neuro-linguistic_programming>
 
@@ -247,7 +247,7 @@ To help you increase your control, practice going to quiet and screen-free space
 
 It's impossible not to be affected by those around us---it's easy to "catch" their emotions and our brains tend to synch up when we associate with other people.
 
-We should set boundaries with difficult people,disentangle yourself from negative online interactions, and be more conscious of how you might be vulnerable to "groupthink"---pressures to behave or think in ways that are contrary to your values.
+We should set boundaries with difficult people, disentangle yourself from negative online interactions, and be more conscious of how you might be vulnerable to "groupthink"---pressures to behave or think in ways that are contrary to your values.
 
 2. [**Move**](https://deepstash.com/idea/13068/move)
 

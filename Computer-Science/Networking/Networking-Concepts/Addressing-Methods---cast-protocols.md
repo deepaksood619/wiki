@@ -10,18 +10,18 @@ The **cast** term here signifies some data(stream of packets) is being transmitt
 
 1. **Unicast**
 
-This type of information transfer is useful when there is a participation of single sender and single recipient. So, in short you can term it as a one-to-one transmission. For example, a device having IP address 10.1.2.0 in a network wants to send the traffic stream(data packets) to the device with IP address 20.12.4.2 in the other network,then unicast comes into picture. This is the most common form of data transfer over the networks.
+This type of information transfer is useful when there is a participation of single sender and single recipient. So, in short you can term it as a one-to-one transmission. For example, a device having IP address 10.1.2.0 in a network wants to send the traffic stream(data packets) to the device with IP address 20.12.4.2 in the other network, then unicast comes into picture. This is the most common form of data transfer over the networks.
 2.  **Broadcast**
 
 Broadcasting transfer (one-to-all) techniques can be classified into two types :
 
 - **Limited Broadcasting**
-    Suppose you have to send stream of packets to all the devices over the network that you reside, this broadcasting comes handy. For this to achieve,it will append 255.255.255.255 (all the 32 bits of IP address set to 1) called asLimited Broadcast Addressin the destination address of the datagram (packet) header which is reserved for information tranfer to all the recipients from a single client (sender) over the network.
+    Suppose you have to send stream of packets to all the devices over the network that you reside, this broadcasting comes handy. For this to achieve, it will append 255.255.255.255 (all the 32 bits of IP address set to 1) called asLimited Broadcast Addressin the destination address of the datagram (packet) header which is reserved for information tranfer to all the recipients from a single client (sender) over the network.
 
 ![image](media/Addressing-Methods---cast-protocols-image1.png)
 
 - **Direct Broadcasting**
-    This is useful when a device in one network wants to transfer packet stream to all the devices over the other network.This is achieved by translating all the Host ID part bits of the destination address to 1,referred asDirect Broadcast Addressin the datagram header for information transfer.
+    This is useful when a device in one network wants to transfer packet stream to all the devices over the other network.This is achieved by translating all the Host ID part bits of the destination address to 1, referred asDirect Broadcast Addressin the datagram header for information transfer.
 
 ![image](media/Addressing-Methods---cast-protocols-image2.png)
 

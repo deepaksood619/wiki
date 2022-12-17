@@ -72,7 +72,7 @@ x^x = 0
 
 4. If rem = 2, then xor will be n+1.
 
-5. If rem = 3 ,then xor will be 0.
+5. If rem = 3 , then xor will be 0.
 
 <https://www.geeksforgeeks.org/calculate-xor-1-n>
 

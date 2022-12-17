@@ -1074,7 +1074,7 @@ Distribution of Revenues between the Union and the States
 
 347 Special provision relating to language spoken by a section of the population of a State.
 
-## CHAPTER III: LANGUAGE OF THE SUPREME COURT,HIGH COURTS, ETC
+## CHAPTER III: LANGUAGE OF THE SUPREME COURT, HIGH COURTS, ETC
 
 348 Language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc.
 

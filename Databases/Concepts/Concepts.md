@@ -16,7 +16,7 @@ Try to make all statements Idempotent
 
 ## Transaction Log
 
-In the field of [databases](https://en.wikipedia.org/wiki/Database) in [computer science](https://en.wikipedia.org/wiki/Computer_science), atransaction log(alsotransaction journal,database log,binary logoraudit trail) is a history of actions executed by a [database management system](https://en.wikipedia.org/wiki/Database_management_system) used to guarantee [ACID](https://en.wikipedia.org/wiki/ACID) properties over [crashes](https://en.wikipedia.org/wiki/Crash_(computing)) or hardware failures. Physically, a log is a [file](https://en.wikipedia.org/wiki/Computer_file) listing changes to the database, stored in a stable storage format.
+In the field of [databases](https://en.wikipedia.org/wiki/Database) in [computer science](https://en.wikipedia.org/wiki/Computer_science), atransaction log(alsotransaction journal, database log, binary logoraudit trail) is a history of actions executed by a [database management system](https://en.wikipedia.org/wiki/Database_management_system) used to guarantee [ACID](https://en.wikipedia.org/wiki/ACID) properties over [crashes](https://en.wikipedia.org/wiki/Crash_(computing)) or hardware failures. Physically, a log is a [file](https://en.wikipedia.org/wiki/Computer_file) listing changes to the database, stored in a stable storage format.
 If, after a start, the database is found in an [inconsistent](https://en.wikipedia.org/wiki/Consistency_(database_systems)) state or not been shut down properly, the database management system reviews the database logs for [uncommitted](https://en.wikipedia.org/wiki/Commit_(data_management)) transactions and [rolls back](https://en.wikipedia.org/wiki/Rollback_(data_management)) the changes made by these [transactions](https://en.wikipedia.org/wiki/Database_transaction). Additionally, all transactions that are already committed but whose changes were not yet materialized in the database are re-applied. Both are done to ensure [atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)) and [durability](https://en.wikipedia.org/wiki/Durability_(computer_science)) of transactions.
 
 ## Types of database log records
@@ -39,9 +39,9 @@ If, after a start, the database is found in an [inconsistent](https://en.wikiped
 In [database management systems](https://en.wikipedia.org/wiki/Database_management_system)(DBMS), aprepared statementorparameterized statementis a feature used to execute the same or similar database statements repeatedly with high efficiency. Typically used with [SQL](https://en.wikipedia.org/wiki/SQL) statements such as queries or updates, the prepared statement takes the form of a [template](https://en.wikipedia.org/wiki/Template_processor) into which certain constant values are substituted during each execution.
 The typical workflow of using a prepared statement is as follows:
 
-a.  **Prepare:** At first, the application creates the statement template and send it to the DBMS. Certain values are left unspecified, calledparameters,placeholdersorbind variables(labelled "?" below):
+a.  **Prepare:** At first, the application creates the statement template and send it to the DBMS. Certain values are left unspecified, calledparameters, placeholdersorbind variables(labelled "?" below):
 
-INSERTINTOproducts(name,price)VALUES(?,?);
+INSERTINTOproducts(name, price)VALUES(?,?);
 
 b.  Then, the DBMS compiles (parses, [optimizes](https://en.wikipedia.org/wiki/Query_optimization) and translates) the statement template, and stores the result without executing it.
 

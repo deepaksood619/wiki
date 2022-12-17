@@ -35,7 +35,7 @@ The packet identifier uniquely identifies a message as it flows between the clie
 ## DUP flag
 
 The flag indicates that the message is a duplicate and was resent because the intended recipient (client or broker) did not acknowledge the original message. This is only relevant for QoS greater than 0. Usually, the resend/duplicate mechanism is handled by the MQTT client library or the broker as an implementation detail.
-When a client sends a message to an MQTT broker for publication,the broker reads the message, acknowledges the message (according to the QoS Level), and processes the message. Processing by the broker includes determining which clients have subscribed to the topic and sending the message to them.
+When a client sends a message to an MQTT broker for publication, the broker reads the message, acknowledges the message (according to the QoS Level), and processes the message. Processing by the broker includes determining which clients have subscribed to the topic and sending the message to them.
 
 ![image](media/Publish,-Subscribe-&-Unsubscribe-image2.gif)
 

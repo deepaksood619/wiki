@@ -134,7 +134,7 @@ Do not reverse the order of the columns. You should always index lower cardinali
 That being the case, you need to run the following
 
 ALTER TABLE tbl DROP INDEX state;
-ALTER TABLE tbl ADD INDEX state_source_index (state,source);
+ALTER TABLE tbl ADD INDEX state_source_index (state, source);
 <https://dba.stackexchange.com/questions/63047/why-is-mysql-not-using-the-index-with-the-higher-cardinality>
 Index selectivity is the ratio of the number of distinct indexed values (the ​cardinality) to the total number of rows in the table (#T).
 

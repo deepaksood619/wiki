@@ -311,7 +311,7 @@ One of the crucial differences between In-Memory Data Grids and In-Memory Databa
 A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database. Most relational database management systems use the SQL language to access the database.
 Arelational databaseis a type of database. It uses a structure that allows us to identify and access datain relationto another piece of data in the database. Often, data in a relational database is organized into tables.
 
-## Columns - Tables can have hundreds, thousands, sometimes even millions of columns of data. Columns are labeled with a descriptive name (say,age) and have a specificdata type
+## Columns - Tables can have hundreds, thousands, sometimes even millions of columns of data. Columns are labeled with a descriptive name (say, age) and have a specificdata type
 
 ## Rows/Records - Tables can also have manyrowsof data. These rows are often calledrecords
 

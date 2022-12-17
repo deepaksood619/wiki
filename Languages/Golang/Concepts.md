@@ -36,7 +36,7 @@ A goroutine is created with initial only 2KB of stack size. Each function in go 
 
 If a goroutine blocks on system call, it blocks it's running thread. But another thread is taken from the waiting queue of Scheduler (the Sched struct) and used for other runnable goroutines.
 
-However,if you communicate using channels in go which exists only in virtual space, the OS doesn't block the thread.Such goroutines simply go in the waiting state and other runnable goroutine (from the M struct) is scheduled in it's place.
+However, if you communicate using channels in go which exists only in virtual space, the OS doesn't block the thread.Such goroutines simply go in the waiting state and other runnable goroutine (from the M struct) is scheduled in it's place.
 
 ## Don't interrupt
 

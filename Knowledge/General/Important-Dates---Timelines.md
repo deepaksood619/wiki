@@ -112,7 +112,7 @@ April
 
 May
 
-- May 1:Workers' Day (International Labour Day),Maharashtra Day
+- May 1:Workers' Day (International Labour Day), Maharashtra Day
 - May 3:Press Freedom Day
 - May (1st Sunday):World Laughter Day
 - May (1st Tuesday):World Asthma Day
@@ -138,14 +138,14 @@ June
 - **June 5:World Environment Day (bcoz Stockholm conference started on this date and UNEP is formed)**
 - June (3rd Sunday):Father's Day
 - June 7:World Food Safety Day
-- June 8:World Ocean Day,World Brain Tumour Day
+- June 8:World Ocean Day, World Brain Tumour Day
 - June 12:Anti-Child Labor Day
 - June 13:International Albinism Awareness Day
 - June 14:World Blood Donor Day
 - June 15:World Wind Day
 - June 20:World Refugee Day
-- June 21:Internationalday of yoga,World Music Day,World Hydrography Day
-- June 23:United Nations Public Service Day,International Olympic Day
+- June 21:Internationalday of yoga, World Music Day, World Hydrography Day
+- June 23:United Nations Public Service Day, International Olympic Day
 - June 26:International Day against Drug Abuse and Illicit Trafficking
 
 July

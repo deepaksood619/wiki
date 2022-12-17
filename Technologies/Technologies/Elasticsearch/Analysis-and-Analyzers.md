@@ -23,7 +23,7 @@ Next, the string is tokenized into individual terms by atokenizer. A simple toke
 
 ## Token filters
 
-Last, each term is passed through anytoken filtersin turn, which can change terms (for example, lowercasingQuick), remove terms (for example, stopwords such asa,and,the) or add terms (for example, synonyms likejumpandleap).
+Last, each term is passed through anytoken filtersin turn, which can change terms (for example, lowercasingQuick), remove terms (for example, stopwords such asa, and, the) or add terms (for example, synonyms likejumpandleap).
 
 ## Standard analyzer
 
@@ -51,7 +51,7 @@ Theenglishanalyzer would produce the following:
 
 set, shape, semi, transpar, call, set_tran, 5
 
-Note howtransparent,calling, andset_transhave been stemmed to their root form.
+Note howtransparent, calling, andset_transhave been stemmed to their root form.
 
 <https://www.elastic.co/guide/en/elasticsearch/guide/current/analysis-intro.html>
 

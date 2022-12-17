@@ -90,7 +90,7 @@ Interleaved sort gives equal weight to each column in the Redshift sort keys. As
 ## Choosing Sorting Keys
 
 - UseInterleaved Sort Keywhen you plan to use one column as Sort Key or when WHERE clauses in your query have highly selective restrictive predicates. Or if the tables are huge. You may want to check table statistics by querying the STV_BLOCKLIST system table. Look for the tables with a high number of 1MB blocks per slice and distributed over all slices.
-- UseCompound Sort Key,when you have more that one column as Sort Key, when your query includes JOINS, GROUP BY, ORDER BY and PARTITION BY when your table size is small.
+- UseCompound Sort Key, when you have more that one column as Sort Key, when your query includes JOINS, GROUP BY, ORDER BY and PARTITION BY when your table size is small.
 - Don't use aninterleaved sort keyon columns with monotonically increasing attributes, like an identity column, dates or timestamps.
 <https://hevodata.com/blog/redshift-sort-keys-choosing-best-sort-style>
 

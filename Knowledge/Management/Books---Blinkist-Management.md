@@ -450,7 +450,7 @@ You do not want to win an argument. You want to win.
 
 - The minority often rules the majority
 
-For example, 70% of the lamb meat the UK imports from New Zealand is processed according to halal standards. However, only 4% of the population is Muslim, which is the main group that demands halal meat. How can such a small segment account for such a large share of imports? Well,minority rule is usually a result of the majority being flexible or indifferent. In this case, non-Muslims don't mind eating halal meat over non-halal meat as there is no difference in taste.
+For example, 70% of the lamb meat the UK imports from New Zealand is processed according to halal standards. However, only 4% of the population is Muslim, which is the main group that demands halal meat. How can such a small segment account for such a large share of imports? Well, minority rule is usually a result of the majority being flexible or indifferent. In this case, non-Muslims don't mind eating halal meat over non-halal meat as there is no difference in taste.
 
 The majority [doesn't care](https://fourminutebooks.com/the-life-changing-magic-of-not-giving-a-fck-summary/), so the minority gets what it wants. Similarly, firms selling genetically modified food have a hard time advertising. Most people are happy to eat non-genetically modified food because the products don't have a big advantage. Hence, the small but hardcore group of anti-GMO activists decides what makes it onto the shelves.
 

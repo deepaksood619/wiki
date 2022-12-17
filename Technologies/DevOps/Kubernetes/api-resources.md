@@ -103,7 +103,7 @@ CSI empowers users to support different storage systems through a driver model.
 | **podtemplates**               |                  |                                                                            |
 | **replicasets**                | **rs**            |                                                                            |
 | **replicationcontrollers**     | **rc**            |                                                                            |
-| **resourcequotas**             | **quota**         | kubectl create quota myrq --hard=cpu=1,memory=1G,pods=2 --dry-run -o yaml |
+| **resourcequotas**             | **quota**         | kubectl create quota myrq --hard=cpu=1, memory=1G, pods=2 --dry-run -o yaml |
 | **rolebindings**               |                  |                                                                            |
 | **roles**                      |                  |                                                                            |
 | **secrets**                    |                  |                                                                            |

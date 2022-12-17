@@ -86,13 +86,13 @@ Give everyone time to process the question, jot down thoughts on paper, and shar
 
 - Clean up as you go
 
-At the end of each agenda topic,pause to agree on next steps and establish specific commitments with clear deadlines. Assign Directly Responsible Individuals (DRI) and rotate the DRI role to ensure the loudest person doesn't receive all of the action items.
+At the end of each agenda topic, pause to agree on next steps and establish specific commitments with clear deadlines. Assign Directly Responsible Individuals (DRI) and rotate the DRI role to ensure the loudest person doesn't receive all of the action items.
 
 - Follow-ups
 
 Circulate a follow-up note that captures the key takeaways, action items, and DRIs.This way everyone is in the loop and on the same page (consider that remote participants may not have been able to hear everything perfectly).
 
-Proactively solicit ideas that might've come to mind after the meeting. To produce their best work,introverts need time alone to process new information. For example, send out a message along the lines of:"Anyone have a new insight about this situation since we met? If so, I'd love to hear it."
+Proactively solicit ideas that might've come to mind after the meeting. To produce their best work, introverts need time alone to process new information. For example, send out a message along the lines of:"Anyone have a new insight about this situation since we met? If so, I'd love to hear it."
 
 Keep tabs on action items.Assign someone to check in at appropriate intervals after the meeting to ensurethe commitments are being kept, or re-evaluated if something unexpected came up.
 

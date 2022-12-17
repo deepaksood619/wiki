@@ -323,7 +323,7 @@ Big data machine learning in SQL
 
 Machine learning and data mining on Hadoop
 
-Apache Mahout is adistributed linear algebra frameworkandmathematically expressive Scala DSLdesigned to let mathematicians, statisticians, and data scientists quicklyimplement their own algorithms. Apache Spark is the recommended out-of-the-box distributed back-end,or can be extended to other distributed backends.
+Apache Mahout is adistributed linear algebra frameworkandmathematically expressive Scala DSLdesigned to let mathematicians, statisticians, and data scientists quicklyimplement their own algorithms. Apache Spark is the recommended out-of-the-box distributed back-end, or can be extended to other distributed backends.
 
 - Mathematically Expressive Scala DSL
 - Support for Multiple Distributed Backends (including Apache Spark)
@@ -574,7 +574,7 @@ Apache Unomi is a Java Open Source **customer data platform**, a Java server des
 
 Interactive data visualization
 
-Web-based notebook that enables data-driven,interactive data analytics and collaborative documents with SQL, Scala and more.
+Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.
 
 <https://zeppelin.apache.org>
 

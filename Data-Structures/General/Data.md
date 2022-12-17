@@ -23,7 +23,7 @@ Unstructured data is a data which is not organized in a predefined manner or doe
 |-------------|--------------------|------------------------|-----------------|
 | **Technology**             | It is based on Relational database table               | It is based on XML/RDF(Resource Description Framework).                           | It is based on character and binary data           |
 | **Transaction management** | Matured transaction and various concurrency techniques | Transaction is adapted from DBMS not matured                                      | No transaction management and no concurrency       |
-| **Version management**     | Versioning over tuples,row,tables                      | Versioning over tuples or graph is possible                                       | Versioned as a whole                               |
+| **Version management**     | Versioning over tuples, row, tables                      | Versioning over tuples or graph is possible                                       | Versioned as a whole                               |
 | **Flexibility**            | It is schema dependent and less flexible               | It is more flexible than structured data but less flexible than unstructured data | It is more flexible and there is absence of schema |
 | **Scalability**            | It is very difficult to scale DB schema                | It's scaling is simpler than structured data                                      | It is more scalable.                               |
 | **Robustness**             | Very robust                                            | New technology, not very spread                                                   | ---                                                |

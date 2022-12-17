@@ -84,7 +84,7 @@ a - y
 
 ## Gradient Descent on m examples
 
-Cost- function w,b,which you care about is this average,1/m sum from i equals one through m ofthe loss when you algorithm output a_i on the example y,where a_i is the prediction on the ith training example which is sigma of z_i,which is equal to sigma of w transpose x_i plus b.
+Cost- function w, b, which you care about is this average,1/m sum from i equals one through m ofthe loss when you algorithm output a_i on the example y, where a_i is the prediction on the ith training example which is sigma of z_i, which is equal to sigma of w transpose x_i plus b.
 
 ![image](media/DL-Specialization_Neural-network-and-deep-learning-image15.png)
 
@@ -102,9 +102,9 @@ The value of dw in the code is cumulative.
 
 ## Vectorization
 
-When you're implementing deep learning algorithms,you find that having explicit for loops inyour code makes your algorithm run less efficiency.So, in the deep learning era,we would move to a bigger and bigger datasets,and so being able to implement your algorithms without using explicitfor loops is really important and will help you to scale to much bigger datasets.
+When you're implementing deep learning algorithms, you find that having explicit for loops inyour code makes your algorithm run less efficiency.So, in the deep learning era, we would move to a bigger and bigger datasets, and so being able to implement your algorithms without using explicitfor loops is really important and will help you to scale to much bigger datasets.
 
-So, it turns out that there are a set of techniques called vectorizationtechniques that allow you to get rid of these explicit for-loops in your code.I think in the pre-deep learning era,that's before the rise of deep learning,vectorization was a nice to have,so you could sometimes do it to speed up your code and sometimes not.But in the deep learning era, vectorization,that is getting rid of for loops,has become really important,because we're more and more training on very large datasets,and so you really need your code to be very efficient.
+So, it turns out that there are a set of techniques called vectorizationtechniques that allow you to get rid of these explicit for-loops in your code.I think in the pre-deep learning era, that's before the rise of deep learning, vectorization was a nice to have, so you could sometimes do it to speed up your code and sometimes not.But in the deep learning era, vectorization, that is getting rid of for loops, has become really important, because we're more and more training on very large datasets, and so you really need your code to be very efficient.
 
 # Python and Vectorization
 

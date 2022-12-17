@@ -13,7 +13,7 @@ Modified: 2021-11-25 23:11:46 +0500
 
 React state is intended to track data values over the lifetime of the component (so long as the component exists on the page)
 
-propsare a way of passing data from parent to child. If you're familiar with the concept ofstate,don't use state at allto build the static version of any site. State is reserved only for interactivity, that is, data that changes over time.
+propsare a way of passing data from parent to child. If you're familiar with the concept ofstate, don't use state at allto build the static version of any site. State is reserved only for interactivity, that is, data that changes over time.
 
 ## Downwards Data Flow
 

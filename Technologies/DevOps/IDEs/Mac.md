@@ -216,7 +216,7 @@ hstr --show-configuration >> ~/.zshrc
 
 vim ~/.zshrc
 
-export HSTR_CONFIG=hicolor,raw-history-view
+export HSTR_CONFIG=hicolor, raw-history-view
 
 ## ctrl+r
 

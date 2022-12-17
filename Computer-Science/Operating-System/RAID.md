@@ -17,7 +17,7 @@ A number of standard schemes have evolved. These are calledlevels. Originally, t
 
 ## RAID0
 
-[RAID0](https://en.wikipedia.org/wiki/RAID_0) consists of [striping](https://en.wikipedia.org/wiki/Data_striping), but no [mirroring](https://en.wikipedia.org/wiki/Disk_mirroring) or [parity](https://en.wikipedia.org/wiki/Parity_bit). Compared to a [spanned volume](https://en.wikipedia.org/wiki/Spanned_volume), thecapacityof a RAID0 volume is the same; it is the sum of the capacities of the disks in the set. But because striping distributes the contents ofeachfile amongalldisks in the set, the failure of any disk causesallfiles, the entire RAID0 volume, to be lost. A broken spanned volume at least preserves the files on the unfailing disks. The benefit of RAID0 is that the [throughput](https://en.wikipedia.org/wiki/Throughput) of read and write operations to any file is multiplied by the number of disks because, unlike spanned volumes, reads and writes are done [concurrently](https://en.wikipedia.org/wiki/Concurrency_(computer_science)),and the cost is complete vulnerability to drive failures. Indeed, the average failure rate is worse than that of an equivalent single non-RAID drive.
+[RAID0](https://en.wikipedia.org/wiki/RAID_0) consists of [striping](https://en.wikipedia.org/wiki/Data_striping), but no [mirroring](https://en.wikipedia.org/wiki/Disk_mirroring) or [parity](https://en.wikipedia.org/wiki/Parity_bit). Compared to a [spanned volume](https://en.wikipedia.org/wiki/Spanned_volume), thecapacityof a RAID0 volume is the same; it is the sum of the capacities of the disks in the set. But because striping distributes the contents ofeachfile amongalldisks in the set, the failure of any disk causesallfiles, the entire RAID0 volume, to be lost. A broken spanned volume at least preserves the files on the unfailing disks. The benefit of RAID0 is that the [throughput](https://en.wikipedia.org/wiki/Throughput) of read and write operations to any file is multiplied by the number of disks because, unlike spanned volumes, reads and writes are done [concurrently](https://en.wikipedia.org/wiki/Concurrency_(computer_science)), and the cost is complete vulnerability to drive failures. Indeed, the average failure rate is worse than that of an equivalent single non-RAID drive.
 
 ## RAID1
 
@@ -25,11 +25,11 @@ A number of standard schemes have evolved. These are calledlevels. Originally, t
 
 ## RAID2
 
-[RAID2](https://en.wikipedia.org/wiki/RAID_2) consists of bit-level striping with dedicated [Hamming-code](https://en.wikipedia.org/wiki/Hamming_code) parity. All disk spindle rotation is synchronized and data is [striped](https://en.wikipedia.org/wiki/Data_striping) such that each sequential [bit](https://en.wikipedia.org/wiki/Bit) is on a different drive. Hamming-code parity is calculated across corresponding bits and stored on at least one parity drive.This level is of historical significance only; although it was used on some early machines (for example, the [Thinking Machines](https://en.wikipedia.org/wiki/Thinking_Machines_Corporation) CM-2),as of 2014it is not used by any commercially available system.
+[RAID2](https://en.wikipedia.org/wiki/RAID_2) consists of bit-level striping with dedicated [Hamming-code](https://en.wikipedia.org/wiki/Hamming_code) parity. All disk spindle rotation is synchronized and data is [striped](https://en.wikipedia.org/wiki/Data_striping) such that each sequential [bit](https://en.wikipedia.org/wiki/Bit) is on a different drive. Hamming-code parity is calculated across corresponding bits and stored on at least one parity drive.This level is of historical significance only; although it was used on some early machines (for example, the [Thinking Machines](https://en.wikipedia.org/wiki/Thinking_Machines_Corporation) CM-2), as of 2014it is not used by any commercially available system.
 
 ## RAID3
 
-[RAID3](https://en.wikipedia.org/wiki/RAID_3) consists of byte-level striping with dedicated parity. All disk spindle rotation is synchronized and data is striped such that each sequential [byte](https://en.wikipedia.org/wiki/Byte) is on a different drive. Parity is calculated across corresponding bytes and stored on a dedicated parity drive.Although implementations exist,RAID3 is not commonly used in practice.
+[RAID3](https://en.wikipedia.org/wiki/RAID_3) consists of byte-level striping with dedicated parity. All disk spindle rotation is synchronized and data is striped such that each sequential [byte](https://en.wikipedia.org/wiki/Byte) is on a different drive. Parity is calculated across corresponding bytes and stored on a dedicated parity drive.Although implementations exist, RAID3 is not commonly used in practice.
 
 ## RAID4
 
@@ -45,7 +45,7 @@ A number of standard schemes have evolved. These are calledlevels. Originally, t
 
 ## Nested (hybrid) RAID
 
-In what was originally termedhybrid RAID,many storage controllers allow RAID levels to be nested. The elements of aRAIDmay be either individual drives or arrays themselves. Arrays are rarely nested more than one level deep.
+In what was originally termedhybrid RAID, many storage controllers allow RAID levels to be nested. The elements of aRAIDmay be either individual drives or arrays themselves. Arrays are rarely nested more than one level deep.
 The final array is known as the top array. When the top array is RAID0 (such as in RAID1+0 and RAID5+0), most vendors omit the "+" (yielding [RAID10](https://en.wikipedia.org/wiki/RAID_10) and RAID50, respectively).
 
 - **RAID0+1:**creates two stripes and mirrors them. If a single drive failure occurs then one of the stripes has failed, at this point it is running effectively as RAID 0 with no redundancy. Significantly higher risk is introduced during a rebuild than RAID 1+0 as all the data from all the drives in the remaining stripe has to be read rather than just from one drive, increasing the chance of an unrecoverable read error (URE) and significantly extending the rebuild window.
@@ -87,7 +87,7 @@ Many configurations other than the basic numbered RAID levels are possible, and 
 
 ## Striping**
 
-We all know that,RAID is collection of multiple disk'sand in these disk predefined number of contiguously addressable disk blocks are defined which are called asstripsand collection of such strips in aligned in multiple disk is calledstripe.
+We all know that, RAID is collection of multiple disk'sand in these disk predefined number of contiguously addressable disk blocks are defined which are called asstripsand collection of such strips in aligned in multiple disk is calledstripe.
 ![RAID Striping](media/RAID-image1.png)
 Suppose you have [hard disk](https://www.storagetutorials.com/add-storage-vm-host-without-reboot/), which is a collection of multiple addressable block and these blocks are stacked together and called strip and you have multiple such hard disk, which are place parallel or serially. Then such combination of disk is calledstripe.
 Note:Without mirroring and parity, Striped RAID cannot protect data but striping may significantly improve I/O performance.
@@ -103,6 +103,6 @@ When the failed disk is replaced with a new disk, the controller copies the data
 As explained above, mirroring involves high cost, so to protect the data new technique is used with striping called parity. This is reliable andlow cost solution for data protection. In this method and additional HDD or disk is added to the stripe width to hold parity bit.
 Parity is a redundancy check that ensures full protection of data without maintaining a full set of duplicate data.
 ![RAID Parity](media/RAID-image3.png)
-The parity bits are used to re-create the data at the time of failure. Parity information can be stored on separate,dedicated HDDsor distributed across all the drives in a RAID set. In the above image, parity is stored on a separate disk.
+The parity bits are used to re-create the data at the time of failure. Parity information can be stored on separate, dedicated HDDsor distributed across all the drives in a RAID set. In the above image, parity is stored on a separate disk.
 The first three disks, labeled D, contain the data. The fourth disk, labeled P, stores the parity information, which in this case is the sum of the elements in each row. Now, if one of the Disks (D) fails, the missing value can be calculated by subtracting the sum of the rest of the elements from the parity value.
 <https://www.storagetutorials.com/understanding-concept-striping-mirroring-parity>

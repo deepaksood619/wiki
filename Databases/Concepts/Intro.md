@@ -50,7 +50,7 @@ A special type of transaction that is designed to semantically reverse the effec
 
 ## Saga Transactions
 
-A sequence of chained transactions T1-Tn and compensating transactions C1-Cn−1 where one of the following is guaranteed: The transactions will commit in the order T1,. . .Tj,Cj. . .C1 (where j < n).
+A sequence of chained transactions T1-Tn and compensating transactions C1-Cn−1 where one of the following is guaranteed: The transactions will commit in the order T1,. . .Tj, Cj. . .C1 (where j < n).
 
 ## Schedule
 

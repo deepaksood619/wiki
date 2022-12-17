@@ -578,7 +578,7 @@ Then, there's **impossible** with a lowercasei. This sort of impossible still li
 
 ## Intrinsic motivators drive us toward the impossible
 
-There are no two ways about it: your journey to impossible is going to be long and arduous. As with any long journey, you'll need fuel to keep you going. That includes food and sleep, but you also need psychological fuel --⁠ in other words,drive.
+There are no two ways about it: your journey to impossible is going to be long and arduous. As with any long journey, you'll need fuel to keep you going. That includes food and sleep, but you also need psychological fuel --⁠ in other words, drive.
 
 Drive, or motivation, nudges us toward action. But what creates drive in the first place? From an evolutionary perspective, it's all about surviving in a world where resources are scarce. Drive is evolution's way of getting us to either fight each other to obtain the resources we need or to use creativity to makemoreresources.
 
@@ -600,7 +600,7 @@ When you explore your curiosities, your brain rewards you with small amounts of 
 
 ## Break up the impossible into large and small goals
 
-According to Latham, big goals lead to the largest increases in motivation and productivity. These are called**high, hard goals,or HHGs** for short. They're the major steps on your way to achieving your purpose. Your HHG might be, for instance, getting a degree in nutrition or starting a company.
+According to Latham, big goals lead to the largest increases in motivation and productivity. These are called**high, hard goals, or HHGs** for short. They're the major steps on your way to achieving your purpose. Your HHG might be, for instance, getting a degree in nutrition or starting a company.
 
 HHGs can take years to achieve. So you'll need smaller daily targets along the way. Let's call these**clear goals**; theytake you closer to your HHGs. Say you're a writer, and your HHG is to pen a novel. One of your clear goals might be to write 500 words every day between 8:00 and 10:00 a.m.
 
@@ -633,7 +633,7 @@ The job of this network is to let you know that an idea you've just had is worth
 
 ## A positive mood boosts your creativity
 
-## Insight**, it turns out, is core to creativity. And you don't just have to wait for it to suddenly appear. Instead, you can cultivate it. How? By strengthening a particular part of the brain called the**anterior cingulate cortex,or ACC, which is part of the salience network
+## Insight**, it turns out, is core to creativity. And you don't just have to wait for it to suddenly appear. Instead, you can cultivate it. How? By strengthening a particular part of the brain called the**anterior cingulate cortex, or ACC, which is part of the salience network
 
 Brain-imaging studies have shown that the ACC lights up right before we solve a problem using "aha" insight. So what can make the ACC more active? The answer is simpler than you might think. Put simply --⁠ a good mood.
 

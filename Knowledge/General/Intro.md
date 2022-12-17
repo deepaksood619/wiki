@@ -33,7 +33,7 @@ ACM Queue
 
 ## Home Economics
 
-## Home economics,domestic scienceorhome scienceis a field of studythat deals with the relationship between individuals, families, communities, and the environment in which they live
+## Home economics, domestic scienceorhome scienceis a field of studythat deals with the relationship between individuals, families, communities, and the environment in which they live
 
 ## Maid
 

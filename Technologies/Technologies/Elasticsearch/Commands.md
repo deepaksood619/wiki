@@ -23,7 +23,7 @@ GET /megacorp/employee/1
 
 # Retrieving part of a document
 
-GET /website/blog/123?_source=title,text
+GET /website/blog/123?_source=title, text
 
 DELETE /index_name
 

@@ -270,7 +270,7 @@ Common use cases for using anIntentinclude:
 
 - To start an activity: You can start a new instance of an Activity by passing an Intent tostartActivity()method.
 - To start a service: You can start a service to perform a one-time operation (such as download a file) by passing an Intent tostartService().
-- To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent tosendBroadcast(),sendOrderedBroadcast(), orsendStickyBroadcast().
+- To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent tosendBroadcast(), sendOrderedBroadcast(), orsendStickyBroadcast().
 
 ## What is DDMS? Describe some of its capabilities
 
@@ -288,7 +288,7 @@ DDMS is theDalvik Debug Monitor Serverthat ships with Android. It provides a wid
 
 An AsyncTask is not tied to the life cycle of the Activity that contains it. So, for example, if you start an AsyncTask inside an Activity and the user rotates the device, the Activity will be destroyed (and a new Activity instance will be created) but the AsyncTask willnotdie but instead goes on living until it completes.
 
-Then, when the AsyncTask does complete, rather than updating the UI of the new Activity, it updates theformerinstance of the Activity (i.e., the one in which it was created but that is not displayed anymore!). This can lead to an Exception (of the typejava.lang.IllegalArgumentException: View not attached to window managerif you use, for instance,findViewByIdto retrieve a view inside the Activity).
+Then, when the AsyncTask does complete, rather than updating the UI of the new Activity, it updates theformerinstance of the Activity (i.e., the one in which it was created but that is not displayed anymore!). This can lead to an Exception (of the typejava.lang.IllegalArgumentException: View not attached to window managerif you use, for instance, findViewByIdto retrieve a view inside the Activity).
 
 There's also the potential for this to result in a memory leak since the AsyncTask maintains a reference to the Activty, which prevents the Activity from being garbage collected as long as the AsyncTask remains alive.
 

@@ -258,7 +258,7 @@ HAVING COUNT(s.hacker_id) > 1
 
 ORDER BY COUNT(s.hacker_id) DESC, s.hacker_id;
 
-SELECT c.hacker_id, h.name ,count(c.hacker_id) AS c_count
+SELECT c.hacker_id, h.name , count(c.hacker_id) AS c_count
 
 FROM Hackers AS h
 
@@ -298,7 +298,7 @@ ORDER BY c_count DESC, c.hacker_id;
 
 # oracle prime numbers 2&3&5&7... till 1000
 
-select listagg (num, '&') within group (order by num) from ( select n1.num num, sum(case when mod(n1.num,n2.num) = 0 then 1 else 0 end) as cnt from (select rownum num from dual connect by level <= 1000) n1, (select rownum num from dual connect by level <= 1000) n2 where n1.num<>1 and n2.num<>1 and n1.num>=n2.num group by n1.num) a where cnt = 1;
+select listagg (num, '&') within group (order by num) from ( select n1.num num, sum(case when mod(n1.num, n2.num) = 0 then 1 else 0 end) as cnt from (select rownum num from dual connect by level <= 1000) n1, (select rownum num from dual connect by level <= 1000) n2 where n1.num<>1 and n2.num<>1 and n1.num>=n2.num group by n1.num) a where cnt = 1;
 
 # my sql ** sequence
 
@@ -407,7 +407,7 @@ from submissions s ) a
 where date_rank = hacker_rank
 group by submission_date) big_1
 join
-(select submission_date,hacker_id,
+(select submission_date, hacker_id,
 rank() over(partition by submission_date order by sub_cnt desc, hacker_id) as max_rank
 from (select submission_date, hacker_id, count(*) as sub_cnt
 from submissions

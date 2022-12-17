@@ -30,7 +30,7 @@ The PID namespace is the mechanism for remapping PIDs inside the container. Like
 
 ## Network namespaces
 
-Network namespaces provide a brand-new network stack for all the processes within the namespace. That includes**network interfaces,routing tables**and**iptables rules.**
+Network namespaces provide a brand-new network stack for all the processes within the namespace. That includes**network interfaces, routing tables**and**iptables rules.**
 
 ## Control groups (cgroups)
 

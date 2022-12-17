@@ -21,7 +21,7 @@ It is possible to implement coroutines using preemptively-scheduled threads, in 
 
 ## Comparision with generators
 
-[Generators](https://en.wikipedia.org/wiki/Generator_(computer_science)), also known as semicoroutines,are a subset of coroutines. Specifically, while both can yield multiple times, suspending their execution and allowing re-entry at multiple entry points, they differ in coroutines' ability to control where execution continues immediately after they yield, while generators cannot, instead transferring control back to the generator's caller.That is, since generators are primarily used to simplify the writing of [iterators](https://en.wikipedia.org/wiki/Iterator), theyieldstatement in a generator does not specify a coroutine to jump to, but rather passes a value back to a parent routine.
+[Generators](https://en.wikipedia.org/wiki/Generator_(computer_science)), also known as semicoroutines, are a subset of coroutines. Specifically, while both can yield multiple times, suspending their execution and allowing re-entry at multiple entry points, they differ in coroutines' ability to control where execution continues immediately after they yield, while generators cannot, instead transferring control back to the generator's caller.That is, since generators are primarily used to simplify the writing of [iterators](https://en.wikipedia.org/wiki/Iterator), theyieldstatement in a generator does not specify a coroutine to jump to, but rather passes a value back to a parent routine.
 
 ## Comparision with mutual recursion
 

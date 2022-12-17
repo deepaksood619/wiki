@@ -49,7 +49,7 @@ If you write a function component and realize you need to add some state to it, 
 
 You've likely performed data fetching, subscriptions, or manually changing the DOM from React components before. We call these operations "side effects" (or "effects" for short) because they can affect other components and can't be done during rendering
 
-The Effect Hook,useEffect, adds the ability to perform side effects from a function component. It serves the same purpose as componentDidMount, componentDidUpdate, andcomponentWillUnmount in React classes, but unified into a single API
+The Effect Hook, useEffect, adds the ability to perform side effects from a function component. It serves the same purpose as componentDidMount, componentDidUpdate, andcomponentWillUnmount in React classes, but unified into a single API
 
 There are two common kinds of side effects in React components: those that don't require cleanup, and those that do.
 
@@ -86,8 +86,8 @@ The useMemo is a hook used in the functional component of react that returns a m
 - getDerivedStateFromProps: Schedule an update [while rendering](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-getderivedstatefromprops) instead.
 - shouldComponentUpdate: SeeReact.memo [below](https://reactjs.org/docs/hooks-faq.html#how-do-i-implement-shouldcomponentupdate).
 - render: This is the function component body itself.
-- componentDidMount,componentDidUpdate,componentWillUnmount: The [useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect) can express all combinations of these (including [less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates) cases).
-- getSnapshotBeforeUpdate,componentDidCatchandgetDerivedStateFromError: There are no Hook equivalents for these methods yet, but they will be added soon.
+- componentDidMount, componentDidUpdate, componentWillUnmount: The [useEffectHook](https://reactjs.org/docs/hooks-reference.html#useeffect) can express all combinations of these (including [less](https://reactjs.org/docs/hooks-faq.html#can-i-skip-an-effect-on-updates)[common](https://reactjs.org/docs/hooks-faq.html#can-i-run-an-effect-only-on-updates) cases).
+- getSnapshotBeforeUpdate, componentDidCatchandgetDerivedStateFromError: There are no Hook equivalents for these methods yet, but they will be added soon.
 
 ## Examples
 

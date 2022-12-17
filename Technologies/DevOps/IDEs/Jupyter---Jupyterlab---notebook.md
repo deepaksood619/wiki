@@ -80,7 +80,7 @@ A: insert cell above
 
 B: insert cell below
 
-D,D: delete selected cells
+D, D: delete selected cells
 
 Z: undo cell deletion
 

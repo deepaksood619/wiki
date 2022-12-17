@@ -10,9 +10,9 @@ Modified: 2021-06-14 18:29:35 +0500
 
     Spark RDDs(Resilient Distributed Datasets) are data structures that are the core building blocks of Spark. A RDD is an immutable, partitioned collection of records, which means that it can hold values, tuples, or other objects, these records are partitioned so as to be processed on a distributed system, and that once an RDD has been made, it is impossible to alter it. That basically sums up its acronym: they are resilient due to their immutability and lineage graphs (which will be discussed shortly), they can be distributed due to their partitions, and they are datasets because, well, they hold data
 
-A crucial thing to note is that RDDsdo not have a schema,which means that they do not have a columnar structure. Records are just recorded row-by-row, and are displayed similar to a list. Enter **Spark DataFrames**. Not to be confused with Pandas DataFrames, as they are distinct,Spark DataFrame have all of the features of RDDs but also have a schema. This will make them our data structure of choice for getting started with PySpark.
+A crucial thing to note is that RDDsdo not have a schema, which means that they do not have a columnar structure. Records are just recorded row-by-row, and are displayed similar to a list. Enter **Spark DataFrames**. Not to be confused with Pandas DataFrames, as they are distinct, Spark DataFrame have all of the features of RDDs but also have a schema. This will make them our data structure of choice for getting started with PySpark.
 
-Spark has another data structure, **Spark DataSets.** These are similar to DataFrames but arestrongly-typed,meaning that the type is specified upon the creation of the DataSet and is not inferred from the type of records stored in it. This means DataSets are not used in PySpark because Python is a dynamically-typed language.
+Spark has another data structure, **Spark DataSets.** These are similar to DataFrames but arestrongly-typed, meaning that the type is specified upon the creation of the DataSet and is not inferred from the type of records stored in it. This means DataSets are not used in PySpark because Python is a dynamically-typed language.
 
 ## Transformations
 

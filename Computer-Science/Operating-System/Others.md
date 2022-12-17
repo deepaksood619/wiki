@@ -16,7 +16,7 @@ Unlike memory management by [paging](https://en.wikipedia.org/wiki/Paging), data
 
 ## Copy on Write (CoW / COW)
 
-Copy-on-write(CoWorCOW), sometimes referred to asimplicit sharingorshadowing,is a resource-management technique used in [computer programming](https://en.wikipedia.org/wiki/Computer_programming) to efficiently implement a "duplicate" or "copy" operation on modifiable resources.If a resource is duplicated but not modified, it is not necessary to create a new resource; the resource can be shared between the copy and the original. Modifications must still create a copy, hence the technique: the copy operation is deferred to the first write. By sharing resources in this way, it is possible to significantly reduce the resource consumption of unmodified copies, while adding a small overhead to resource-modifying operations.
+Copy-on-write(CoWorCOW), sometimes referred to asimplicit sharingorshadowing, is a resource-management technique used in [computer programming](https://en.wikipedia.org/wiki/Computer_programming) to efficiently implement a "duplicate" or "copy" operation on modifiable resources.If a resource is duplicated but not modified, it is not necessary to create a new resource; the resource can be shared between the copy and the original. Modifications must still create a copy, hence the technique: the copy operation is deferred to the first write. By sharing resources in this way, it is possible to significantly reduce the resource consumption of unmodified copies, while adding a small overhead to resource-modifying operations.
 
 <https://en.wikipedia.org/wiki/Copy-on-write>
 

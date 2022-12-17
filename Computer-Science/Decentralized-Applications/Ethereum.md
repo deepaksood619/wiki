@@ -33,5 +33,5 @@ Ethereum's mechanism to choose the most valid chain is called the "GHOST protoco
 
 ## Ethereum Push Notification Service (EPNS)
 
-Protocol forblockchainbasednotificationsthat arechain agnostic,platform independentandincentivized!
+Protocol forblockchainbasednotificationsthat arechain agnostic, platform independentandincentivized!
 <https://epns.io>

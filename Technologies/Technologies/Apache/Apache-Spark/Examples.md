@@ -10,7 +10,7 @@ Modified: 2020-03-30 02:32:01 +0500
 # SQL table to parquet
  from pyspark.sql import SparkSession
 spark = SparkSession.builder.getOrCreate()
-df = spark.read.jdbc("YOUR_MYSQL_JDBC_CONN_STRING",  "YOUR_TABLE",properties={"user": "YOUR_USER", "password": "YOUR_PASSWORD"})
+df = spark.read.jdbc("YOUR_MYSQL_JDBC_CONN_STRING",  "YOUR_TABLE", properties={"user": "YOUR_USER", "password": "YOUR_PASSWORD"})
 df.write.parquet("YOUR_HDFS_FILE")
 
 # CSV to Parquet
@@ -54,7 +54,7 @@ spark = SparkSession \
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()
 
-df = spark.read.csv("/Users/deepak/Repositories/Python-Competitive-Programming/Experiments/creditcard.csv",header=True,sep=",", inferSchema=True)
+df = spark.read.csv("/Users/deepak/Repositories/Python-Competitive-Programming/Experiments/creditcard.csv", header=True, sep=",", inferSchema=True)
 
 df.write.parquet('/Users/deepak/Repositories/Python-Competitive-Programming/Experiments/output-parquet')
 

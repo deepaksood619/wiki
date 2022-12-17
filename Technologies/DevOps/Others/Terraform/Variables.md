@@ -16,7 +16,7 @@ There are multiple ways to assign variables. Below is also the order in which va
 
 ## Command-line flags
 
-You can set variables directly on the command-line with the-varflag. Any command in Terraform that inspects the configuration accepts this flag, such asapply,plan, andrefresh:
+You can set variables directly on the command-line with the-varflag. Any command in Terraform that inspects the configuration accepts this flag, such asapply, plan, andrefresh:
 
 $ terraform apply
 -var 'region=us-east-2'

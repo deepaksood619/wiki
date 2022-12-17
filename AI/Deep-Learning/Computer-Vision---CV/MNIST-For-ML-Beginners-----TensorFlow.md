@@ -75,7 +75,7 @@ The following diagram shows the weights one model learned for each of these clas
 We also add some extra evidence called a bias. Basically, we want to be able to say that some things are more likely independent of the input. The result is that the evidence for a class i given an input x is:
 
 ```
-evidencei=∑jWi,jxj+bi
+evidencei=∑jWi, jxj+bi
 ```
 
 where Wi is the weights and bi is the bias for class i, and j is an index for summing over the pixels in our input image x. We then convert the evidence tallies into our predicted probabilities y using the "softmax" function:

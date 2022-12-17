@@ -38,7 +38,7 @@ Widely used by relational databases, this approach assumes that conflicting chan
 
 b.  Optimistic concurrency control
 
-Used by Elasticsearch,this approach assumes that conflicts are unlikely to happen and doesn't block operations from being attempted. However, if the underlying data has been modified between reading and writing, the update will fail. It is then up to the application to decide how it should resolve the conflict. For instance, it could reattempt the update, using the fresh data, or it could report the situation to the user.
+Used by Elasticsearch, this approach assumes that conflicts are unlikely to happen and doesn't block operations from being attempted. However, if the underlying data has been modified between reading and writing, the update will fail. It is then up to the application to decide how it should resolve the conflict. For instance, it could reattempt the update, using the fresh data, or it could report the situation to the user.
 
 ## Categories
 
@@ -51,7 +51,7 @@ Blocking, deadlocks, and aborts all result in performance reduction, and hence t
 
 ## Methods
 
-Many methods for concurrency control exist. Most of them can be implemented within either main category above. The major methods,which have each many variants, and in some cases may overlap or be combined, are:
+Many methods for concurrency control exist. Most of them can be implemented within either main category above. The major methods, which have each many variants, and in some cases may overlap or be combined, are:
 
 1. **Locking (e.g., [Two-phase locking](https://en.wikipedia.org/wiki/Two-phase_locking)- 2PL)**
     - Controlling access to data by [locks](https://en.wikipedia.org/wiki/Lock_(computer_science)) assigned to the data. Access of a transaction to a data item (database object) locked by another transaction may be blocked (depending on lock type and access operation type) until lock release.

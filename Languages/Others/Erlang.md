@@ -59,7 +59,7 @@ ETS is a robust in-memory store for Elixir and Erlang objects that comes include
 
 Tables in ETS are created and owned by individual processes. When an owner process terminates, its tables are destroyed. By default ETS is limited to 1400 tables per node.
 
-Tables are divided into four different types,set,ordered_set,bag, andduplicate_bag. Asetorordered_settable can only have one object associated with each key. Abagorduplicate_bagtable can have many objects associated with each key.
+Tables are divided into four different types, set, ordered_set, bag, andduplicate_bag. Asetorordered_settable can only have one object associated with each key. Abagorduplicate_bagtable can have many objects associated with each key.
 
 <https://elixirschool.com/en/lessons/specifics/ets>
 

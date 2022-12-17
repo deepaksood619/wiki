@@ -26,7 +26,7 @@ A Type 3 SCD stores two versions of values for certain selected level attributes
 
 ## Change Data Capture (CDC)
 
-In [databases](https://en.wikipedia.org/wiki/Database),change data capture(CDC) is a set of software [design patterns](https://en.wikipedia.org/wiki/Design_pattern_(computer_science)) used to determine (and track) the data that has changed so that action can be taken using the changed data. CDC is also an approach to data integration that is based on the identification, capture and delivery of the changes made to enterprise data sources.
+In [databases](https://en.wikipedia.org/wiki/Database), change data capture(CDC) is a set of software [design patterns](https://en.wikipedia.org/wiki/Design_pattern_(computer_science)) used to determine (and track) the data that has changed so that action can be taken using the changed data. CDC is also an approach to data integration that is based on the identification, capture and delivery of the changes made to enterprise data sources.
 CDC solutions occur most often in [data-warehouse](https://en.wikipedia.org/wiki/Data_warehouse) environments since capturing and preserving the state of data across time is one of the core functions of a data warehouse, but CDC can be utilized in any database or data repository system.
 
 ## Tools

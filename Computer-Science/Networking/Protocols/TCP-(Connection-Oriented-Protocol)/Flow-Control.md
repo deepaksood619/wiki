@@ -22,7 +22,7 @@ When we need to send data over a network, this is normally what happens.
 
 ![image](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image1.png)
 
-The sender application writes data to a socket, the transport layer (in our case,TCP) will wrap this data in a segment and hand it to the network layer (e.g.IP), that will somehow route this packet to the receiving node.
+The sender application writes data to a socket, the transport layer (in our case, TCP) will wrap this data in a segment and hand it to the network layer (e.g.IP), that will somehow route this packet to the receiving node.
 On the other side of this communication, the network layer will deliver this piece of data toTCP, that will make it available to the receiver application as an exact copy of the data sent, meaning if will not deliver packets out of order, and will wait for a retransmission in case it notices a gap in the byte stream.
 If we zoom in, we will see something like this.
 
@@ -40,19 +40,19 @@ Every timeTCPreceives a packet, it needs to send anackmessage to the sender, ack
 
 TCPuses a sliding window protocol to control the number of bytes in flight it can have. In other words, the number of bytes that were sent but not yetacked.
 Let's say we want to send a 150000 bytes file from node A to node B.TCPcould break this file down into 100 packets, 1500 bytes each. Now let's say that when the connection between node A and B is established, node B advertises a receive window of 45000 bytes, because it really wants to help us with our math here.
-Seeing that,TCPknows it can send the first 30 packets (1500 * 30 = 45000) before it receives an acknowledgment. If it gets anackmessage for the first 10 packets (meaning we now have only 20 packets in flight), and the receive window present in theseackmessages is still 45000, it can send the next 10 packets, bringing the number of packets in flight back to 30, that is the limit defined by the receive window. In other words, at any given point in time it can have 30 packets in flight, that were sent but not yetacked.
+Seeing that, TCPknows it can send the first 30 packets (1500 * 30 = 45000) before it receives an acknowledgment. If it gets anackmessage for the first 10 packets (meaning we now have only 20 packets in flight), and the receive window present in theseackmessages is still 45000, it can send the next 10 packets, bringing the number of packets in flight back to 30, that is the limit defined by the receive window. In other words, at any given point in time it can have 30 packets in flight, that were sent but not yetacked.
 
 ![Window 10 ](media/TCP-(Connection-Oriented-Protocol)_Flow-Control-image4.png)
 
 Example of a sliding window. As soon as packet 3 is acked, we can slide the window to the right and send the packet 8.
-Now, if for some reason the application reading these packets in node B slows down,TCPwill still ack the packets that were correctly received, but as these packets need to be stored in the receive buffer until the application decides to read them, the receive window will be smaller, so even if TCP receives the acknowledgment for the next 10 packets (meaning there are currently 20 packets, or 30000 bytes, in flight), but the receive window value received in thisackis now 30000 (instead of 45000), it will not send more packets, as the number of bytes in flight is already equal to the latest receive window advertised.
+Now, if for some reason the application reading these packets in node B slows down, TCPwill still ack the packets that were correctly received, but as these packets need to be stored in the receive buffer until the application decides to read them, the receive window will be smaller, so even if TCP receives the acknowledgment for the next 10 packets (meaning there are currently 20 packets, or 30000 bytes, in flight), but the receive window value received in thisackis now 30000 (instead of 45000), it will not send more packets, as the number of bytes in flight is already equal to the latest receive window advertised.
 The sender will always keep this invariant:
 
 LastByteSent - LastByteAcked <= ReceiveWindowAdvertised
 
 ## Visualizing the Receive Window
 
-Just to see this behavior in action, let's write a very simple application that reads data from a socket and watch how the receive window behaves when we make this application slower. We will use Wireshark to see these packets,netcat to send data to this application, and ago program to read data from the socket.
+Just to see this behavior in action, let's write a very simple application that reads data from a socket and watch how the receive window behaves when we make this application slower. We will use Wireshark to see these packets, netcat to send data to this application, and ago program to read data from the socket.
 Here's the simple go program that reads and prints the data received:
 
 ```go
@@ -130,9 +130,9 @@ When there's some spare space in the receiver's buffer again it can advertise a 
 
 - TCP's flow control is a mechanism to ensure the sender is not overwhelming the receiver with more data than it can handle;
 - With everyackmessage the receiver advertises its current receive window;
-- The receive window is the spare space in the receive buffer, that is,rwnd = ReceiveBuffer - (LastByteReceived -- LastByteReadByApplication);
+- The receive window is the spare space in the receive buffer, that is, rwnd = ReceiveBuffer - (LastByteReceived -- LastByteReadByApplication);
 - TCPwill use a sliding window protocol to make sure it never has more bytes in flight than the window advertised by the receiver;
-- When the window size is 0,TCPwill stop transmitting data and will start the persist timer;
+- When the window size is 0, TCPwill stop transmitting data and will start the persist timer;
 - It will then periodically send a smallWindowProbemessage to the receiver to check if it can start receiving data again;
 - When it receives a non-zero window size, it resumes the transmission.
 <https://www.brianstorti.com/tcp-flow-control>

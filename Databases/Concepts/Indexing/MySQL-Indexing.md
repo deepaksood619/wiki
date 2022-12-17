@@ -53,22 +53,23 @@ This is because we haven't specified any criteria for the last_name. The index w
 
 ## Examples
 
+```sql
 INDEX (last, first)
+  § WHERE last = … *** Good
+  § WHERE last = … AND first = … *** Good
+  § WHERE first = … AND last = … *** Good
+  § WHERE first = … *** Index Useless
 
-- WHERE last = ...*** Good
-- WHERE last = ... AND first = ...*** Good
-- WHERE first = ... AND last = ...*** Good
-- WHERE first = ...*** Index Useless
 INDEX (a, b) VS INDEX (b, a)
-- WHERE a = 1 AND b = 3*** Both work well
-- WHERE b = 2*** Second only
-- WHERE a = 4*** First only
+  § WHERE a = 1 AND b = 3 *** Both work well
+  § WHERE b = 2 *** Second only
+  § WHERE a = 4 *** First only
 
-## INDEX(a), INDEX(b) Is not the same as INDEX(a,b)
+INDEX(a), INDEX(b) Is not the same as INDEX(a,b)
 
 But using the two indexes (a),(b) can benefit from:
-
-(SELECT ... WHERE A ...) UNION (SELECT ... WHERE B ...)
+(SELECT … WHERE A …) UNION (SELECT … WHERE B …)
+```
 
 ## clustered index
 
@@ -132,7 +133,7 @@ Unlike other database servers, in MySQL a unique key column can have as manynull
 But logically this is not correct sincenullmeans undefined --- and undefined values can't be compared with each other, it's the nature ofnull. As MySQL can't assert if allnulls mean the same, it allows multiplenullvalues in the column.
 The following command shows how to create a unique key index in MySQL:
 
-CREATE UNIQUE INDEX unique_idx_1 ON index_demo (pan_no);
+`CREATE UNIQUE INDEX unique_idx_1 ON index_demo (pan_no);`
 
 ## Composite Index
 
@@ -140,11 +141,13 @@ MySQL lets you define indices on multiple columns, up to 16 columns. This index 
 Let's say we have an index defined on 4 columns ---col1,col2,col3,col4. With a composite index, we have search capability oncol1,(col1, col2),(col1, col2, col3),(col1, col2, col3, col4). So we can use any left side prefix of the indexed columns, but we can't omit a column from the middle & use that like ---(col1, col3)or(col1, col2, col4)orcol3orcol4etc. These are invalid combinations.
 The following commands create 2 composite indexes in our table:
 
-CREATE INDEX composite_index_1 ON index_demo (phone_no, name, age);
+`CREATE INDEX composite_index_1 ON index_demo (phone_no, name, age);`
 
-CREATE INDEX composite_index_2 ON index_demo (pan_no, name, age);
+`CREATE INDEX composite_index_2 ON index_demo (pan_no, name, age);`
+
 If you have queries containing aWHEREclause on multiple columns, write the clause in the order of the columns of the composite index. The index will benefit that query. In fact, while deciding the columns for a composite index, you can analyze different use cases of your system & try to come up with the order of columns that will benefit most of your use cases.
-Composite indices can help you inJOIN&SELECTqueries as well. Example: in the followingSELECT *query,composite_index_2is used.
+
+Composite indices can help you in JOIN & SELECT queries as well. Example: in the following SELECT * query, composite_index_2 is used.
 When several indexes are defined, the MySQL query optimizer chooses that index which eliminates the greatest number of rows or scans as few rows as possible for better efficiency.
 
 ## Why do we use composite indices? Why not define multiple secondary indices on the columns we are interested in?
@@ -155,7 +158,7 @@ MySQL maintains something called index statistics which helps MySQL infer what t
 ## How does composite index work?
 
 The columns used in composite indices are concatenated together, and those concatenated keys are stored in sorted order using a B+ Tree. When you perform a search, concatenation of your search keys is matched against those of the composite index. Then if there is any mismatch between the ordering of your search keys & ordering of the composite index columns, the index can't be used.
-In our example, for the following record, a composite index key is formed by concatenatingpan_no,name,age---HJKXS9086Wkousik28.
+In our example, for the following record, a composite index key is formed by concatenating pan_no, name, age---HJKXS9086Wkousik28.
 
 | name     | kousik     |
 |----------|------------|
@@ -225,7 +228,8 @@ Similar to what we've just said with the prefix rule, the second you use a range
 
 SELECT *FROM phonebook WHERE last_name LIKE 'f%' AND first_name ='Ned';ADD INDEX (last_name, first_name, phone_number)
 This would utilize the first part (last_name) of our index, allowing us to quickly satisfy the range conditional and find all rows with thelast_namebeginning with 'f'; however after this, there isn't any way our B-Tree can be further utilized to quickly filter onfirst_name.
-##*If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
+
+## If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
 
 Similarly, you can't use an index fully to perform range queries on two columns for the points already mentioned.-   You may need to have indexes on the same columns in different orders depending on your queries.
 

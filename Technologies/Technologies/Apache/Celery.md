@@ -44,8 +44,8 @@ Language interoperability can also be achieved by using webhooks in such a way t
   - Microsoft Azure Block Blob, Microsoft Azure Cosmos DB
   - File system
 - **Serialization**
-  - pickle,json,yaml,msgpack.
-  - zlib,bzip2compression.
+  - pickle, json, yaml, msgpack.
+  - zlib, bzip2compression.
   - Cryptographic message signing.
 
 ## Features

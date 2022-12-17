@@ -62,7 +62,7 @@ Django apps - **django.contrib.messages**
 
 Quite commonly in web applications, you need to display a one-time notification message (also known as "flash message") to the user after processing a form or some other types of user input.
 
-For this, Django provides full support for cookie- and session-based messaging, for both anonymous and authenticated users. The messages framework allows you to temporarily store messages in one request and retrieve them for display in a subsequent request (usually the next one). Every message is tagged with a specificlevelthat determines its priority (e.g.,info,warning, orerror).
+For this, Django provides full support for cookie- and session-based messaging, for both anonymous and authenticated users. The messages framework allows you to temporarily store messages in one request and retrieve them for display in a subsequent request (usually the next one). Every message is tagged with a specificlevelthat determines its priority (e.g., info, warning, orerror).
 
 Concepts
 
@@ -146,7 +146,7 @@ By default, Django adds aManagerwith the nameobjectsto every Django model class.
 *#...*
 people = models.Manager()
 
-Using this example model,Person.objectswill generate anAttributeErrorexception, butPerson.people.all()will provide a list of allPersonobjects.
+Using this example model, Person.objectswill generate anAttributeErrorexception, butPerson.people.all()will provide a list of allPersonobjects.
 
 <https://docs.djangoproject.com/en/2.2/topics/db/managers>
 

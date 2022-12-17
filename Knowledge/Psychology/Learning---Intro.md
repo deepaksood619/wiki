@@ -408,7 +408,7 @@ Introduction to **Focused and Diffused Brain**
 
 ## We have 2 modes of thinking: focused (highly intensive mental processes when you are acutely aware of what you are thinking), and diffuse (a more relaxed mental process associated with sub-conscious thinking)
 
-Sometimes the first solution found prevents you from seeing a wider range of possible solutions. To sidestep that,repeatedly intersperse short periods of intense focus on new information with periods of relaxed diffuse thinking.
+Sometimes the first solution found prevents you from seeing a wider range of possible solutions. To sidestep that, repeatedly intersperse short periods of intense focus on new information with periods of relaxed diffuse thinking.
 
 ## Key Points
 

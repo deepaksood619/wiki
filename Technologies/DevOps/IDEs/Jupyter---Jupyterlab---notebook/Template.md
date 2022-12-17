@@ -53,11 +53,11 @@ up = change.owner
 
 print (type(up.value))
 
-for filename,data in up.value.items():
+for filename, data in up.value.items():
 
 print(filename)
 
-for k,v in data ['metadata'].items():
+for k, v in data ['metadata'].items():
 
 print(f' -{k:13}:[{v}]')
 

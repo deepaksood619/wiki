@@ -14,7 +14,7 @@ The Informer which uses the API server as a source requests the state of an obje
 
 A Workqueue uses a key to hand out tasks to various workers. The standard Go workqueues of rate limiting, delayed, and time queue are typically used.
 
-The**endpoints,namespace, andserviceaccounts**controllers each manage the eponymous resources for Pods.
+The**endpoints, namespace, andserviceaccounts**controllers each manage the eponymous resources for Pods.
 
 ## ReplicaSet
 
@@ -75,9 +75,9 @@ ADaemonSetensures that all (or some) Nodes run a copy of a Pod. As nodes are add
 
 Some typical uses of a DaemonSet are:
 
-- running a cluster storage daemon, such asglusterd,ceph, on each node.
+- running a cluster storage daemon, such asglusterd, ceph, on each node.
 - running a logs collection daemon on every node, such asfluentdorlogstash.
-- running a node monitoring daemon on every node, such as [Prometheus Node Exporter](https://github.com/prometheus/node_exporter),collectd, [Dynatrace OneAgent](https://www.dynatrace.com/technologies/kubernetes-monitoring/), [AppDynamics Agent](https://docs.appdynamics.com/display/CLOUD/Container+Visibility+with+Kubernetes), Datadog agent, NewRelic agent, Gangliagmondor Instana agent.
+- running a node monitoring daemon on every node, such as [Prometheus Node Exporter](https://github.com/prometheus/node_exporter), collectd, [Dynatrace OneAgent](https://www.dynatrace.com/technologies/kubernetes-monitoring/), [AppDynamics Agent](https://docs.appdynamics.com/display/CLOUD/Container+Visibility+with+Kubernetes), Datadog agent, NewRelic agent, Gangliagmondor Instana agent.
 
 ## Garbage Collection
 

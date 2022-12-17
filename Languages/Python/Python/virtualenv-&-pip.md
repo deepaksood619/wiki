@@ -122,15 +122,15 @@ It works by installing a bunch of files in a directory (eg:env/), and then modif
 
 ## pyenv
 
-[**pyenv**](https://github.com/yyuu/pyenv) is used to isolate Python versions. For example, you may want to test your code against Python 2.6, 2.7, 3.3, 3.4 and 3.5, so you'll need a way to switch between them. Once activated, it prefixes thePATHenvironment variable with~/.pyenv/shims, where there are special files matching the Python commands (python,pip). These are not copies of the Python-shipped commands; they are special scripts that decide on the fly which version of Python to run based on thePYENV_VERSIONenvironment variable, or the.python-versionfile, or the~/.pyenv/versionfile.pyenvalso makes the process of downloading and installing multiple Python versions easier, using the commandpyenv install.
+[**pyenv**](https://github.com/yyuu/pyenv) is used to isolate Python versions. For example, you may want to test your code against Python 2.6, 2.7, 3.3, 3.4 and 3.5, so you'll need a way to switch between them. Once activated, it prefixes thePATHenvironment variable with~/.pyenv/shims, where there are special files matching the Python commands (python, pip). These are not copies of the Python-shipped commands; they are special scripts that decide on the fly which version of Python to run based on thePYENV_VERSIONenvironment variable, or the.python-versionfile, or the~/.pyenv/versionfile.pyenvalso makes the process of downloading and installing multiple Python versions easier, using the commandpyenv install.
 
 ## pyenv-virtualenv
 
-[**pyenv-virtualenv**](https://github.com/yyuu/pyenv-virtualenv) is a plugin forpyenvby the same author aspyenv, to allow you to usepyenvandvirtualenvat the same time conveniently. However, if you're using Python 3.3 or later,pyenv-virtualenvwill try to runpython -m venvif it is available, instead ofvirtualenv. You can usevirtualenvandpyenvtogether withoutpyenv-virtualenv, if you don't want the convenience features.
+[**pyenv-virtualenv**](https://github.com/yyuu/pyenv-virtualenv) is a plugin forpyenvby the same author aspyenv, to allow you to usepyenvandvirtualenvat the same time conveniently. However, if you're using Python 3.3 or later, pyenv-virtualenvwill try to runpython -m venvif it is available, instead ofvirtualenv. You can usevirtualenvandpyenvtogether withoutpyenv-virtualenv, if you don't want the convenience features.
 
 ## virtualenvwrapper
 
-[**virtualenvwrapper**](https://pypi.python.org/pypi/virtualenvwrapper) is a set of extensions tovirtualenv(see [docs](http://virtualenvwrapper.readthedocs.io/en/latest/)). It gives you commands likemkvirtualenv,lssitepackages, and especiallyworkonfor switching between differentvirtualenvdirectories. This tool is especially useful if you want multiplevirtualenvdirectories.
+[**virtualenvwrapper**](https://pypi.python.org/pypi/virtualenvwrapper) is a set of extensions tovirtualenv(see [docs](http://virtualenvwrapper.readthedocs.io/en/latest/)). It gives you commands likemkvirtualenv, lssitepackages, and especiallyworkonfor switching between differentvirtualenvdirectories. This tool is especially useful if you want multiplevirtualenvdirectories.
 
 ## pyenv-virtualenvwrapper
 
@@ -138,7 +138,7 @@ It works by installing a bunch of files in a directory (eg:env/), and then modif
 
 ## pipenv
 
-[**pipenv**](https://pypi.python.org/pypi/pipenv), by Kenneth Reitz (the author ofrequests), is the newest project in this list. It aims to combinePipfile,pipandvirtualenvinto one command on the command-line. Thevirtualenvdirectory typically gets placed in~/.local/share/virtualenvs/XXX, withXXXbeing a hash of the path of the project directory. This is different fromvirtualenv, where the directory is typically in the current working directory.
+[**pipenv**](https://pypi.python.org/pypi/pipenv), by Kenneth Reitz (the author ofrequests), is the newest project in this list. It aims to combinePipfile, pipandvirtualenvinto one command on the command-line. Thevirtualenvdirectory typically gets placed in~/.local/share/virtualenvs/XXX, withXXXbeing a hash of the path of the project directory. This is different fromvirtualenv, where the directory is typically in the current working directory.
 
 ## pyenv
 

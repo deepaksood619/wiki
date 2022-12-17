@@ -287,7 +287,7 @@ When there's a disagreement, my first step is to understand the perspective of e
 
 ## Situation
 
-Think of a situation similar to what the interviewer is asking you about that had a successful outcome. It doesn't necessarily have to be work related as long as it's relevant. Remember to include the**who,what,where,whenandhow.**
+Think of a situation similar to what the interviewer is asking you about that had a successful outcome. It doesn't necessarily have to be work related as long as it's relevant. Remember to include the**who, what, where, whenandhow.**
 
 ## Task
 

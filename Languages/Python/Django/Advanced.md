@@ -42,7 +42,7 @@ This problem occurs when the code needs to load the children of a parent-child r
 
 ## Example
 
-Let's say you have a collection ofCarobjects (database rows), and eachCarhas a collection ofWheelobjects (also rows). In other words,Car->Wheelis a 1-to-many relationship.
+Let's say you have a collection ofCarobjects (database rows), and eachCarhas a collection ofWheelobjects (also rows). In other words, Car->Wheelis a 1-to-many relationship.
 
 Now, let's say you need to iterate through all the cars, and for each one, print out a list of the wheels. The naive O/R implementation would do the following:
 

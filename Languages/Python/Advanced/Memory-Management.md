@@ -20,7 +20,7 @@ Objects and instance variables are created in**Heap memory**. As soon as the var
 
 ## Small object allocation
 
-To reduce overhead for small objects (less than 512 bytes) Python sub-allocates big blocks of memory. Larger objects are routed to standard C allocator. Small object allocator uses three levels of abstraction ---arena,pool, andblock.
+To reduce overhead for small objects (less than 512 bytes) Python sub-allocates big blocks of memory. Larger objects are routed to standard C allocator. Small object allocator uses three levels of abstraction ---arena, pool, andblock.
 
 ## Block
 

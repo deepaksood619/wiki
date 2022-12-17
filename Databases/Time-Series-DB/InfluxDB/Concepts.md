@@ -32,7 +32,7 @@ Each entry in the WAL follows a [TLV standard](https://en.wikipedia.org/wiki/Typ
 
 ## TLV Standard
 
-Within [data communication protocols](https://en.wikipedia.org/wiki/Data_communication_protocol),TLV(type-length-valueortag-length-value) is an encoding scheme used for optional information element in a certain protocol.
+Within [data communication protocols](https://en.wikipedia.org/wiki/Data_communication_protocol), TLV(type-length-valueortag-length-value) is an encoding scheme used for optional information element in a certain protocol.
 
 The type and length are fixed in size (typically 1-4 bytes), and the value field is of variable size. These fields are used as follows:
 

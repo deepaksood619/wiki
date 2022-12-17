@@ -137,7 +137,7 @@ Make sure to finish following documentation and POC in next 30-45 days, since af
 - Security (AAA concepts)
 - Basic understanding of Frontend i.e. React
 - Competitive programming daily
-- Design patterns (Singleton/observer/factory,etc)
+- Design patterns (Singleton/observer/factory, etc)
 - Databases - Redis + MySQL
 - Writing SQL queries (Joins / Views / Procedures, etc)
 - Basic understanding of PHP for reading PHP Codes

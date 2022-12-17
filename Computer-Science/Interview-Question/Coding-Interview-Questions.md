@@ -43,7 +43,7 @@ print(toString(a))
 
 else:
 
-for i in range(l,r+1):
+for i in range(l, r+1):
 
 a[l], a[i] = a[i], a[l]
 

@@ -239,7 +239,7 @@ But what exactlyisa social+ company? To put it simply, it's a company for which 
 
 ## Social+Fitness --Fitness app [Strava](https://www.strava.com/) is more than an app to track your runs. As Strava CEO James Quarles told [Outside](https://www.outsideonline.com/2395489/strava-james-quarles), "Strava wants to be the dashboard for tracking your fitness, a calendar for inviting friends to work out, a feed for you to follow others' activities, a blog for your race reports and photos, and a message board to ask for recommendations on a new pair of trail-running shoes."
 
-[Peloton](https://www.google.com/search?q=peloton&oq=peloton&aqs=chrome.0.69i59l3j0i271l3j69i60l2.1871j0j9&sourceid=chrome&ie=UTF-8#:~:text=Peloton%C2%AE%20%7C%20Workouts,onepeloton.com)'s stationary bikes and treadmills and digital subscription let users combine group fitness classes with home workouts. The motivation, friendly competition, and supportive relationships arising from the Peloton community are an integral part of its product.
+[Peloton](<https://www.google.com/search?q=peloton&oq=peloton&aqs=chrome.0.69i59l3j0i271l3j69i60l2.1871j0j9&sourceid=chrome&ie=UTF-8#:~:text=Peloton%C2%AE%20%7C%20Workouts>, onepeloton.com)'s stationary bikes and treadmills and digital subscription let users combine group fitness classes with home workouts. The motivation, friendly competition, and supportive relationships arising from the Peloton community are an integral part of its product.
 
 ## Social+Commerce --Chinese marketplace [Pinduoduo](https://en.pinduoduo.com/) allows buyers to purchase heavily discounted goods when they rope in their friends
 
@@ -258,7 +258,7 @@ Social+Audio --[Clubhouse](https://www.joinclubhouse.com/) is the social answer 
 
 ## Creating a truly social+ finance product
 
-When building a social+ product, the key thing to remember is that it's "social+commerce," or "social+finance" (or whatever the case may be),not"finance+ social."
+When building a social+ product, the key thing to remember is that it's "social+commerce," or "social+finance" (or whatever the case may be), not"finance+ social."
 
 Simply slapping a social gimmick onto your product as a marketing ploy won't do the trick. Social needs to be wired into its DNA. To achieve this, it's vital that your platform provides users with the tools for authentic peer-to-peer social engagement -- features like in-app publishing, following capabilities, [activity feeds](https://sendbird.com/stream-comparison), forums, 1-to-1 and group chat, voice calling, video calling, leaderboards, and network-driven rewardsalongsidetransactional functionality.
 

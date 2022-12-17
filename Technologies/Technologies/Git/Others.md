@@ -28,7 +28,7 @@ git push origin master
 
 ## Git Hooks
 
-Git hooks are scripts that Git executes before or after events such as:commit,push, andreceive. Git hooks are a built-in feature - no need to download anything. Git hooks are run locally.
+Git hooks are scripts that Git executes before or after events such as:commit, push, andreceive. Git hooks are a built-in feature - no need to download anything. Git hooks are run locally.
 
 These hook scripts are only limited by a developer's imagination. Some example hook scripts include:
 

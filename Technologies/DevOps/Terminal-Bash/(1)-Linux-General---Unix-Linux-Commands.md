@@ -322,7 +322,7 @@ With theuniqcommand you can find adjacent repeated lines in a file.uniqtakes sev
 - uniq -d: which only outputs duplicate lines; And
 - uniq -u: which only outputs unique lines.
 
-However,uniqis not a smart command. Repeated lines will not be detected if they are not adjacent. Which means that you first need thesortthe file. This command counts the number of duplicated lines inadult.csv.
+However, uniqis not a smart command. Repeated lines will not be detected if they are not adjacent. Which means that you first need thesortthe file. This command counts the number of duplicated lines inadult.csv.
 
 $ sort adult.csv | uniq -d | wc -l
 23
@@ -358,7 +358,7 @@ Here 68 is 'h' in ASCII and 69 is 'i' in ASCII
 
 ## BitBake
 
-## BitBakeis a [make](https://en.wikipedia.org/wiki/Make_(software))-like [build tool](https://en.wikipedia.org/wiki/Build_tool) with the special focus of [distributions](https://en.wikipedia.org/wiki/Linux_distributions) and packages for [embedded Linux](https://en.wikipedia.org/wiki/Embedded_Linux)[cross compilation](https://en.wikipedia.org/wiki/Cross_compilation), although it is not limited to that. It is inspired by [Portage](https://en.wikipedia.org/wiki/Portage_(software)),which is the [package management system](https://en.wikipedia.org/wiki/Package_management_system) used by the [Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_Linux) distribution. BitBake existed for some time in the [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the [Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project) and the [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) project
+## BitBakeis a [make](https://en.wikipedia.org/wiki/Make_(software))-like [build tool](https://en.wikipedia.org/wiki/Build_tool) with the special focus of [distributions](https://en.wikipedia.org/wiki/Linux_distributions) and packages for [embedded Linux](https://en.wikipedia.org/wiki/Embedded_Linux)[cross compilation](https://en.wikipedia.org/wiki/Cross_compilation), although it is not limited to that. It is inspired by [Portage](https://en.wikipedia.org/wiki/Portage_(software)), which is the [package management system](https://en.wikipedia.org/wiki/Package_management_system) used by the [Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_Linux) distribution. BitBake existed for some time in the [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the [Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project) and the [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) project
 
 <https://en.wikipedia.org/wiki/BitBake>
 
@@ -631,7 +631,7 @@ report a snapshot of the current processes.
 
 # get minor page fault, major page fault
 
-ps -eo min_flt,maj_flt,cmd
+ps -eo min_flt, maj_flt, cmd
 
 ps -eaf
 
@@ -652,7 +652,7 @@ ps aux --sort=-%mem
 - **%MEM-** The percentage of the process's resident set size to the physical memory on the machine.
 - **VSZ-** Virtual memory size of the process in KiB.
 - **RSS-** The size of the physical [memory](https://linuxize.com/post/free-command-in-linux/) that the process is using.
-- **STAT-** The the process state code, which can beZ(zombie),S(sleeping),R(running) ..etc
+- **STAT-** The the process state code, which can beZ(zombie), S(sleeping), R(running) ..etc
 - **START-** The time when the command started.
 
 ps $$

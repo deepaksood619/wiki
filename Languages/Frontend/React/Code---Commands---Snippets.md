@@ -14,7 +14,7 @@ In both cases, when you install a package, its dependencies and devDependencies 
 
 ## peerDependenciesare different. They are not automatically installed
 
-When a dependency is listed in a package as a peerDependency,it is not automatically installed. Instead, the code that includes the package must include it as its dependency.
+When a dependency is listed in a package as a peerDependency, it is not automatically installed. Instead, the code that includes the package must include it as its dependency.
 
 ## Commands
 

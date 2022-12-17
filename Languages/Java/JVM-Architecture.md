@@ -22,7 +22,7 @@ Java's dynamic class loading functionality is handled by the class loader subsys
 
 1. Loading
 
-Classes will be loaded by this component.BootStrap ClassLoader,Extension ClassLoader,Application ClassLoader are the three class loader which will help in achieving it.
+Classes will be loaded by this component.BootStrap ClassLoader, Extension ClassLoader, Application ClassLoader are the three class loader which will help in achieving it.
 
 i.  BootStrapClassLoader-- Responsible for loading classes from the bootstrap classpath, nothing butrt.jar.Highest priority will be given to this loader.
 
@@ -56,11 +56,11 @@ Runtime Data Area is divided into 5 major components
 
     i.  Local Variable Array-- Related to the method how manylocal variablesare involved and the corresponding values will be stored here.
 
-    ii. Operand stack-- If any intermediate operation is required to perform,operand stackact as runtime workspace to perform the operation.
+    ii. Operand stack-- If any intermediate operation is required to perform, operand stackact as runtime workspace to perform the operation.
 
     iii. Frame data-- All symbols corresponding to the method is stored here. In the case of anyexception, the catch block information will be maintained in the frame data.
 
-4. PC Registers-- Each thread will have separatePC Registers,to hold address ofcurrent executing instructiononce the instruction is executed the PC register will beupdatedwith the next instruction
+4. PC Registers-- Each thread will have separatePC Registers, to hold address ofcurrent executing instructiononce the instruction is executed the PC register will beupdatedwith the next instruction
 
 5. Native Method stacks-- Native Method Stack holds native method information. For every thread, separate native method stack will be created.
 

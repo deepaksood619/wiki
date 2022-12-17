@@ -34,21 +34,21 @@ A pronoun is a word that is used to replace a noun For example, instead of sayin
 
 ## Adjective
 
-An adjective modifies (limits or describes) a noun or a pronoun. Essentially, it provides more information about a person, place, or thing. For instance, in the sentenceFrank is a tall, skinny man,bothtallandskinnyare adjectives as they are used to describe Frank.
+An adjective modifies (limits or describes) a noun or a pronoun. Essentially, it provides more information about a person, place, or thing. For instance, in the sentenceFrank is a tall, skinny man, bothtallandskinnyare adjectives as they are used to describe Frank.
 
 ## Adverb
 
-Similar to adjectives, an adverb modifies a verb, an adjective, or another adverb. In the sentenceSusan walked slowly towards the door,the wordslowlyserves as an adverb since it describes how she walked.
+Similar to adjectives, an adverb modifies a verb, an adjective, or another adverb. In the sentenceSusan walked slowly towards the door, the wordslowlyserves as an adverb since it describes how she walked.
 
 A word or phrase that modifies or qualifies an adjective, verb, or other adverb or a word group, expressing a relation of place, time, circumstance, manner, cause, degree, etc. (e.g.,*gently*,*quite*,*then*,*there*).
 
-An adverb is a word that is used to change, modify or qualify several types of words including an [adjective](http://www.gingersoftware.com/content/grammar-rules/adjectives/), a [verb](http://www.gingersoftware.com/content/grammar-rules/verbs/), a [clause](http://www.gingersoftware.com/content/grammar-rules/adverb/adverb-clauses/), another [adverb](http://www.gingersoftware.com/content/grammar-rules/adverb/), or any other type of word or phrase, with the exception of determiners and adjectives, that directly modify nouns. A good way to understand adverbs is to think about them as the words that provide context. Specifically, adverbs provide a description of how, where, when, in what manner and to what extent something is done or happens. Normally, we can spot an adverb by the fact that it often ends in --ly,but there are lots of adverbs that don't end in this way. Moreover, adverbs can be used in many combinations with each other.
+An adverb is a word that is used to change, modify or qualify several types of words including an [adjective](http://www.gingersoftware.com/content/grammar-rules/adjectives/), a [verb](http://www.gingersoftware.com/content/grammar-rules/verbs/), a [clause](http://www.gingersoftware.com/content/grammar-rules/adverb/adverb-clauses/), another [adverb](http://www.gingersoftware.com/content/grammar-rules/adverb/), or any other type of word or phrase, with the exception of determiners and adjectives, that directly modify nouns. A good way to understand adverbs is to think about them as the words that provide context. Specifically, adverbs provide a description of how, where, when, in what manner and to what extent something is done or happens. Normally, we can spot an adverb by the fact that it often ends in --ly, but there are lots of adverbs that don't end in this way. Moreover, adverbs can be used in many combinations with each other.
 
 <https://www.gingersoftware.com/content/grammar-rules/adverb>
 
 ## Preposition
 
-A preposition shows the relationship between a noun or pronoun and some other word in the sentence. This relationship is spatial, temporal, or directional. For instance, in the sentenceMark walked towards the house,the wordtowardsis a preposition since it shows direction. When linked with nouns or pronouns, prepositions create word groups referred to as prepositional phrases. (In the previous example,towards the houseis a prepositional phrase.)
+A preposition shows the relationship between a noun or pronoun and some other word in the sentence. This relationship is spatial, temporal, or directional. For instance, in the sentenceMark walked towards the house, the wordtowardsis a preposition since it shows direction. When linked with nouns or pronouns, prepositions create word groups referred to as prepositional phrases. (In the previous example, towards the houseis a prepositional phrase.)
 
 ## Conjunction
 
@@ -194,7 +194,7 @@ Ex: do not count your chickens before they hatch", "do not burn your bridges, "i
 
 - Analogy
 
-Analogy(from [Greek]$1 $2,analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a [cognitive](https://en.wikipedia.org/wiki/Cognition) process of transferring [information](https://en.wikipedia.org/wiki/Information) or [meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics)) from a particular subject (the analog, or source) to another (the target), or a [linguistic](https://en.wikipedia.org/wiki/Language) expression corresponding to such a process. In a narrower sense, analogy is an [inference](https://en.wikipedia.org/wiki/Inference) or an [argument](https://en.wikipedia.org/wiki/Logical_argument) from one particular to another particular, as opposed to [deduction](https://en.wikipedia.org/wiki/Deductive_reasoning), [induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and [abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the [premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a [similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the [biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
+Analogy(from [Greek]$1 $2, analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a [cognitive](https://en.wikipedia.org/wiki/Cognition) process of transferring [information](https://en.wikipedia.org/wiki/Information) or [meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics)) from a particular subject (the analog, or source) to another (the target), or a [linguistic](https://en.wikipedia.org/wiki/Language) expression corresponding to such a process. In a narrower sense, analogy is an [inference](https://en.wikipedia.org/wiki/Inference) or an [argument](https://en.wikipedia.org/wiki/Logical_argument) from one particular to another particular, as opposed to [deduction](https://en.wikipedia.org/wiki/Deductive_reasoning), [induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and [abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the [premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a [similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the [biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
 
 ## False Analogy
 
@@ -245,7 +245,7 @@ Word playis verbal wit: the manipulation of [language](https://www.thoughtco.com
 "Champagne for my real friends and real pain for my sham friends."(credited to Tom Waits)
 
 "Once you are dead you are dead. That last day idea. Knocking them all up out of their graves. Come forth, Lazarus! And he came fifth and lost the job."
-(James Joyce,Ulysses, 1922)
+(James Joyce, Ulysses, 1922)
 
 "I have a sin of fear, that when I have spun
 My last thread, I shall perish on the shore;

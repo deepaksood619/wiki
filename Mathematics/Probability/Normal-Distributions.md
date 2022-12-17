@@ -55,7 +55,7 @@ The normal distribution is useful because of the [central limit theorem](https:/
 
 3. Bell-shaped-maximumheight(mode)atthemean
 
-4. Mean,Mode,andMedianarealllocatedinthecenter
+4. Mean, Mode, andMedianarealllocatedinthecenter
 
 5. Asymptotic
 <https://en.wikipedia.org/wiki/Normal_distribution>

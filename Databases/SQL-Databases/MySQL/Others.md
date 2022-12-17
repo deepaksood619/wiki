@@ -41,10 +41,10 @@ GRANT ALL PRIVILEGES ON *.* TO 'root';
 
 ## cobar
 
-Cobar is a proxy for sharding databases and tables,compatible with MySQL protocol and MySQL SQL grama,underlying storage only support MySQL for support foreground business more simple,stable,efficient and safety
+Cobar is a proxy for sharding databases and tables, compatible with MySQL protocol and MySQL SQL grama, underlying storage only support MySQL for support foreground business more simple, stable, efficient and safety
 
 - **Sharding:**You can add new MySQL instance as your business grows.
-- **High availability:**Both Cobar server and underlying MySQL is clustered,business will not suffer with single node fail.
+- **High availability:**Both Cobar server and underlying MySQL is clustered, business will not suffer with single node fail.
 - **Compatible with MySQL protocol:**Use Cobar as MySQL. You can replace MySQL with Cobar to power your application.
 
 <https://github.com/alibaba/cobar>

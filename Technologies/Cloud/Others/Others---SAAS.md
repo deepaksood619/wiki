@@ -179,7 +179,7 @@ The Decision Model and Notation (DMN™) is a Standard by OMG® providing a comm
 
 ## Workflow
 
-Aworkflowconsists of an orchestrated and repeatable [pattern](https://en.wikipedia.org/wiki/Pattern) of activity, enabled by the [systematic](https://en.wikipedia.org/wiki/System) organization of [resources](https://en.wikipedia.org/wiki/Resource) into [processes](https://en.wikipedia.org/wiki/Process) that transform materials, provide services, or process information.It can be depicted as a sequence of operations, the work of a person or group,the work of an organization of staff, or one or more simple or complex mechanisms.
+Aworkflowconsists of an orchestrated and repeatable [pattern](https://en.wikipedia.org/wiki/Pattern) of activity, enabled by the [systematic](https://en.wikipedia.org/wiki/System) organization of [resources](https://en.wikipedia.org/wiki/Resource) into [processes](https://en.wikipedia.org/wiki/Process) that transform materials, provide services, or process information.It can be depicted as a sequence of operations, the work of a person or group, the work of an organization of staff, or one or more simple or complex mechanisms.
 
 From a more abstract or higher-level perspective, workflow may be considered a view or representation of real work.The flow being described may refer to a [document](https://en.wikipedia.org/wiki/Document), service, or [product](https://en.wikipedia.org/wiki/Product_(business)) that is being transferred from one step to another.
 

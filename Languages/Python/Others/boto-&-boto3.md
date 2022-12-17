@@ -158,13 +158,13 @@ The **upload_file** method is handled by the S3 Transfer Manager, this means tha
 
 Theput_objectmethod maps directly to the low-level S3 API request. It does not handle multipart uploads for you. It will attempt to send the entire body in one request.
 
-def uploadFileTos3Bucket(self,fileName):
+def uploadFileTos3Bucket(self, fileName):
 
 response ={}
 
 try:
 
-client = boto3.client('s3',aws_access_key_id=AWS_ACC_KEY,
+client = boto3.client('s3', aws_access_key_id=AWS_ACC_KEY,
 
 aws_secret_access_key=AWS_SEC_ACC_KEY,
 

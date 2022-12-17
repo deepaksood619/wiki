@@ -10,7 +10,7 @@ Modified: 2019-07-15 10:59:51 +0500
 
 - Uses Optimisitic Concurrency Control
 
-Used by Elasticsearch,this approach assumes that conflicts are unlikely to happen and doesn't block operations from being attempted. However, if the underlying data has been modified between reading and writing, the update will fail. It is then up to the application to decide how it should resolve the conflict. For instance, it could reattempt the update, using the fresh data, or it could report the situation to the user.
+Used by Elasticsearch, this approach assumes that conflicts are unlikely to happen and doesn't block operations from being attempted. However, if the underlying data has been modified between reading and writing, the update will fail. It is then up to the application to decide how it should resolve the conflict. For instance, it could reattempt the update, using the fresh data, or it could report the situation to the user.
 
 ## Java API
 
@@ -68,7 +68,7 @@ Index (verb)
 
 Inverted index
 
-Relational databases add an *index*, such as a B-tree index,to specific columns in order to improve the speed of data retrieval. Elasticsearch and Lucene use a structure calledan*inverted index*for exactly the same purpose.
+Relational databases add an *index*, such as a B-tree index, to specific columns in order to improve the speed of data retrieval. Elasticsearch and Lucene use a structure calledan*inverted index*for exactly the same purpose.
 
 ## By default, every field in a document is *indexed*(has an inverted index) and thus is searchable. A field without an inverted index is not searchable
 

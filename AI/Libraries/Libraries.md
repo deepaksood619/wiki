@@ -162,7 +162,7 @@ Additionally the package aims for simple usability and extensibility: The object
 
 ## Vaex
 
-Vaex is a python library for lazyOut-of-Core DataFrames(similar to Pandas), to visualize and explore big tabular datasets. It can calculate *statistics*such as mean, sum, count, standard deviation etc, on an*N-dimensional grid*for more thana billion(10^9) objects/rowsper second. Visualization is done usinghistograms,density plotsand3d volume rendering, allowing interactive exploration of big data. Vaex uses memory mapping, zero memory copy policy and lazy computations for best performance (no memory wasted).
+Vaex is a python library for lazyOut-of-Core DataFrames(similar to Pandas), to visualize and explore big tabular datasets. It can calculate *statistics*such as mean, sum, count, standard deviation etc, on an*N-dimensional grid*for more thana billion(10^9) objects/rowsper second. Visualization is done usinghistograms, density plotsand3d volume rendering, allowing interactive exploration of big data. Vaex uses memory mapping, zero memory copy policy and lazy computations for best performance (no memory wasted).
 
 <https://github.com/vaexio/vaex>
 

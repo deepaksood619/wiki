@@ -12,7 +12,7 @@ Here is the sequenceof steps necessary to successfully create, index, or delete 
 
 2. The node uses the document's_idto determine that the document belongs to shard0. It forwards the request toNode 3, where the primary copy of shard0is currently allocated.
 
-3. Node 3executes the request on the primary shard. If it is successful, it forwards the request in parallel to the replica shards onNode 1andNode 2. Once all of the replica shards report success,Node 3reports success to the coordinating node, which reports success to the client.
+3. Node 3executes the request on the primary shard. If it is successful, it forwards the request in parallel to the replica shards onNode 1andNode 2. Once all of the replica shards report success, Node 3reports success to the coordinating node, which reports success to the client.
 
 By the time the client receives a successful response, the document change has been executed on the primary shard and on all replica shards. Your change is safe.
 
@@ -36,7 +36,7 @@ Here is the sequence of steps used to perform a partial update on a document:
 
 3. Node 3retrieves the document from the primary shard, changes the JSON in the_sourcefield, and tries to reindex the document on the primary shard. If the document has already been changed by another process, it retries step 3 up toretry_on_conflicttimes, before giving up.
 
-4. IfNode 3has managed to update the document successfully, it forwards the new version of the document in parallel to the replica shards onNode 1andNode 2to be reindexed. Once all replica shards report success,Node 3reports success to the coordinating node, which reports success to the client.
+4. IfNode 3has managed to update the document successfully, it forwards the new version of the document in parallel to the replica shards onNode 1andNode 2to be reindexed. Once all replica shards report success, Node 3reports success to the coordinating node, which reports success to the client.
 
 ![Partial updates to a document](../../media/Technologies-Elasticsearch-Internal-Working-image3.png)
 
@@ -44,7 +44,7 @@ Here is the sequence of steps necessary to retrieve multiple documents with a si
 
 1. The client sends anmgetrequest toNode 1.
 
-2. Node 1builds a multi-get request per shard, and forwards these requests in parallel to the nodes hosting each required primary or replica shard. Once all replies have been received,Node 1builds the response and returns it to the client.
+2. Node 1builds a multi-get request per shard, and forwards these requests in parallel to the nodes hosting each required primary or replica shard. Once all replies have been received, Node 1builds the response and returns it to the client.
 
 ![Retrieving multiple documents with mget](../../media/Technologies-Elasticsearch-Internal-Working-image4.png)
 

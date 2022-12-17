@@ -42,7 +42,7 @@ Let's start by looking at YAML maps. Maps let you associate name-value pairs, wh
 apiVersion: v1
 kind: Pod
 
-The first line is a separator, and is optional unless you're trying to define multiple structures in a single file. From there, as you can see, we have two values,v1andPod, mapped to two keys,apiVersionandkind.
+The first line is a separator, and is optional unless you're trying to define multiple structures in a single file. From there, as you can see, we have two values, v1andPod, mapped to two keys, apiVersionandkind.
 
 ## YAML lists
 

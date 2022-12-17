@@ -65,7 +65,7 @@ queue.enqueue(say_hello, retry=Retry(max=3, interval=[10, 30, 60]))
 
 ## Some interesting job attributes include
 
-- job.get_status()Possible values arequeued,started,deferred,finished, andfailed
+- job.get_status()Possible values arequeued, started, deferred, finished, andfailed
 - job.func_name
 - job.argsarguments passed to the underlying job function
 - job.kwargskey word arguments passed to the underlying job function

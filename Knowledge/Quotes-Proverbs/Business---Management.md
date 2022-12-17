@@ -180,7 +180,7 @@ The most exciting phrase to hear in science, the one that heralds discoveries, i
 
 We need a government, alas, because of the nature of humans -- P.J. O'Rourke
 
-Everyone can do whatever they want,as long as it doesn't harm anyone else.
+Everyone can do whatever they want, as long as it doesn't harm anyone else.
 
 Your right to swing your arms ends just where another person's nose begins.
 
@@ -208,7 +208,7 @@ We apparently only use about 20% of the things we own
 
 Proper office ergonomics can increase productivity by 11%
 
-To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill. -- Sun Tzu,The Art of War
+To win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill. -- Sun Tzu, The Art of War
 
 Military strategistSun Tzuon preparation:
 

@@ -68,7 +68,7 @@ Nodemon is a utility that will monitor for any changes in your source and automa
 
 Fast, reliable, and secure dependency management
 
-- Offline Mode.If you've installed a package before,thenyou can install it again withoutaninternet connection.
+- Offline Mode.If you've installed a package before, thenyou can install it again withoutaninternet connection.
 - Deterministic.The same dependencies will be installed in the same exact way on any machine, regardless ofinstallationorder.
 - Network Performance.Yarn efficiently queuesrequests andavoids request waterfalls in order to maximize network utilization.
 - Network Resilience.A single request that fails will not cause the entire installation to fail. Requests are automatically retried upon failure.

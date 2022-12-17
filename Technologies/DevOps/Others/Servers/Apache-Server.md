@@ -74,8 +74,8 @@ sudo apachectl stop
 
 - **apache2.conf**is the main configuration file. It puts the pieces together by including all remaining configuration files when starting up the web server.
 - **ports.conf**is always included from the main configuration file. It is used to determine the listening ports for incoming connections, and this file can be customized anytime.
-- Configuration files in the**mods-enabled/,conf-enabled/andsites-enabled/**directories contain particular configuration snippets which manage modules, global configuration fragments, or virtual host configurations, respectively.
-- They are activated by symlinking available configuration files from their respective *-available/ counterparts. These should be managed by using our helpersa2enmod, a2dismod,a2ensite, a2dissite,anda2enconf, a2disconf. See their respective man pages for detailed information.
+- Configuration files in the**mods-enabled/, conf-enabled/andsites-enabled/**directories contain particular configuration snippets which manage modules, global configuration fragments, or virtual host configurations, respectively.
+- They are activated by symlinking available configuration files from their respective *-available/ counterparts. These should be managed by using our helpersa2enmod, a2dismod, a2ensite, a2dissite, anda2enconf, a2disconf. See their respective man pages for detailed information.
 - The binary is called apache2. Due to the use of environment variables, in the default configuration, apache2 needs to be started/stopped with/etc/init.d/apache2orapache2ctl.Calling/usr/bin/apache2directly will not workwith the default configuration.
 
 ## Document Roots
@@ -168,7 +168,7 @@ If theKeepAliveTimeoutis reached before any activity occurs on the socket, the l
 
 - **Remove the Burden of Processing Code From Apache**
 
-Apache modules provide a quick and easy solution to process the code needed to operate your website. Some of the most popular modules aremod_phpfor PHP,mod_railsfor Ruby on Rails, andmod_pythonfor Python.
+Apache modules provide a quick and easy solution to process the code needed to operate your website. Some of the most popular modules aremod_phpfor PHP, mod_railsfor Ruby on Rails, andmod_pythonfor Python.
 
 However, these modules come with a price: they put the burden of code processing on Apache, which can slow down website response times across the board.
 

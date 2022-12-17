@@ -34,7 +34,7 @@ Features
 
 ![HBase • HBase is an open source, distributed database, developed by Apache Software foundation. • Initially, it was Google Big Table, afterwards it was re- named as HBase and is primarily written in Java. • HBase can store massive amounts of data from terabytes to petabytes. Big Data Computing R PRC HE HBRSE Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-HBase-image1.png)
 
-![HBase ',MessaE' Solution E-mai Big Data Computing ooeooe Stores Streaming data from edureka! Requests HäRSE HDFS Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-HBase-image2.png)
+![HBase ', MessaE' Solution E-mai Big Data Computing ooeooe Stores Streaming data from edureka! Requests HäRSE HDFS Big Data Enabling Technologies ](../../media/Technologies-Apache-Apache-HBase-image2.png)
 
 ## References
 

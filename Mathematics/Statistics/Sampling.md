@@ -92,9 +92,9 @@ Once generated, a sample can be used for [predictive analytics](https://searchbu
 
 ## Stratified Random Sampling
 
-In the context of sampling,stratifiedmeans splitting the population into smaller groups or strata based on a characteristic. To put it another way, you divide a population into groups based on their features
+In the context of sampling, stratifiedmeans splitting the population into smaller groups or strata based on a characteristic. To put it another way, you divide a population into groups based on their features
 Randomsamplingentails randomly selecting subjects (entities) from a population. Each subject has an equal probability of being chosen from the population to form a sample (subpopulation) of the overall population
-So therefore,stratified random samplingis a sampling approach in which the population is separated into groups or strata depending on a particular characteristic. Then subjects from each stratum (the singular of strata) are randomly sampled
+So therefore, stratified random samplingis a sampling approach in which the population is separated into groups or strata depending on a particular characteristic. Then subjects from each stratum (the singular of strata) are randomly sampled
 You divide the population into groups based on a characteristic and then choose a subject or entity at random from each group
 
 ## Types of Stratified Random Sampling

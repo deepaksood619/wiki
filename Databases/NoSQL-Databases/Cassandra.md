@@ -6,7 +6,7 @@ Modified: 2021-11-19 17:58:08 +0500
 
 ---
 
-Apache Cassandrais a [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software), [distributed](https://en.wikipedia.org/wiki/Distributed_database), [wide column store](https://en.wikipedia.org/wiki/Wide_column_store), [NoSQL](https://en.wikipedia.org/wiki/NoSQL)[database](https://en.wikipedia.org/wiki/Database) management system designed to handle large amounts of data across many [commodity servers](https://en.wikipedia.org/wiki/Commodity_computing), providing high availability with no [single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure). Cassandra offers robust support for [clusters](https://en.wikipedia.org/wiki/Computer_cluster) spanning multiple datacenters,with asynchronous masterless replication allowing low latency operations for all clients.
+Apache Cassandrais a [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software), [distributed](https://en.wikipedia.org/wiki/Distributed_database), [wide column store](https://en.wikipedia.org/wiki/Wide_column_store), [NoSQL](https://en.wikipedia.org/wiki/NoSQL)[database](https://en.wikipedia.org/wiki/Database) management system designed to handle large amounts of data across many [commodity servers](https://en.wikipedia.org/wiki/Commodity_computing), providing high availability with no [single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure). Cassandra offers robust support for [clusters](https://en.wikipedia.org/wiki/Computer_cluster) spanning multiple datacenters, with asynchronous masterless replication allowing low latency operations for all clients.
 
 - Intented to run in a datacenter (and also across DCs)
 - Originally designed at Facebook

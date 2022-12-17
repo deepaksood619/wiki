@@ -38,6 +38,7 @@ All managed nodes are provisioned as part of an Amazon EC2 Auto Scaling group th
 ## Commands
 
 ### Get authentication Token
+
 ```bash
 kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
 
@@ -69,6 +70,7 @@ aws eks --region ap-south-1 update-kubeconfig --name stashfin-prod-eks
 #login to AWS ECR
 aws ecr get-login-password | docker login --username AWS --password-stdin 331916247734.dkr.ecr.ap-south-1.amazonaws.com
 ```
+
 ## eksctl
 
 eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by [Weaveworks](https://www.weave.works/) and it welcomes contributions from the community. Create a basic cluster in minutes with just one command
@@ -119,7 +121,7 @@ Commands:
     eksctl version                 Output the version of eksctl
     eksctl help                    Help about any command
 
-eksctl utils write-kubeconfig --cluster=stashfin [--kubeconfig=<path>][--set-kubeconfig-context=<bool>] 
+eksctl utils write-kubeconfig --cluster=stashfin [--kubeconfig=<path>][--set-kubeconfig-context=<bool>]
 ```
 
 <https://eksctl.io>
@@ -131,9 +133,11 @@ eksctl utils write-kubeconfig --cluster=stashfin [--kubeconfig=<path>][--set-kub
 ## Reserve some memory for the kubelet and the system namespaces (for Kubelet OOM)
 
 Using Cloudformation you can simply set some extra arguments on the kubelet process:
+
 ```bash
---kubelet-extra-args "--node-labels=cluster=${ClusterName},nodegroup=${NodeGroupName} --kube-reserved memory=0.3Gi,ephemeral-storage=1Gi --system-reserved memory=0.2Gi,ephemeral-storage=1Gi --eviction-hard memory.available<200Mi,nodefs.available<10%"
+--kubelet-extra-args "--node-labels=cluster=${ClusterName}, nodegroup=${NodeGroupName} --kube-reserved memory=0.3Gi, ephemeral-storage=1Gi --system-reserved memory=0.2Gi, ephemeral-storage=1Gi --eviction-hard memory.available<200Mi, nodefs.available<10%"
 ```
+
 In that case you reserve 300MB for the kube-system namespace and 200 MB for the system itself.
 
 In addition if there are less than 200 MB available the eviction option uses the oom_killer to kill pods on that node to avoid OOM errors on the Kubelet.

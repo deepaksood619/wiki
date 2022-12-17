@@ -28,7 +28,7 @@ All positions are static by default. Meaning they take up the appropriate amount
 
 Position relative allows you to do two different things
 
-1. To nudge elements in different directions withtop,right,bottomandleftvalues.
+1. To nudge elements in different directions withtop, right, bottomandleftvalues.
     When set to position relative, elements take up the same amount of space at the same exact position it was supposed to take as if its position was static.
     It can however, appear to be pushed to a different location visually.
 
@@ -60,7 +60,7 @@ Similar to position absolute, an element that has fixed position is taken out of
 
 Once an element is set to position relative, absolute or fixed, some other positioning attributes become available.
 
-- top,right,bottom,left- Allows you to set the edge of the element with reference to its containing element. These values can be negative if you want to place them just outside of their containing elements.
+- top, right, bottom, left- Allows you to set the edge of the element with reference to its containing element. These values can be negative if you want to place them just outside of their containing elements.
 - z-index- Z-index controls the vertical stacking order of elements, and take only numbered integers. The higher the integer, the more forward this element is. (Somewhat like the "bring forward/backward" thing in powerpoint and photoshop).
 
 [Learn CSS Position In 9 Minutes](https://www.youtube.com/watch?v=jx5jmI0UlXU)

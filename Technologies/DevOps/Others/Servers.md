@@ -118,7 +118,7 @@ Where WSGI provided a standard for synchronous Python apps, ASGI provides one fo
 
 ## How does ASGI work?
 
-ASGI is structured as a single, asynchronous callable. It takesscope, which contains details about the incoming request,send, an awaitable that lets you send events to the client, andreceive, an awaitable which lets you receive events from the client.
+ASGI is structured as a single, asynchronous callable. It takesscope, which contains details about the incoming request, send, an awaitable that lets you send events to the client, andreceive, an awaitable which lets you receive events from the client.
 
 This not only allows multiple incoming events and outgoing events for each application, but also allows for a background coroutine so the application can do other things (such as listening for events on an external trigger, like a Redis queue).
 

@@ -61,7 +61,7 @@ Ref forwarding is a technique for automatically passing a [ref](https://reactjs.
 
 4. We forward thisrefargument down to `<button ref={ref}>` by specifying it as a JSX attribute.
 
-5. When the ref is attached,ref.currentwill point to the `<button>` DOM node.
+5. When the ref is attached, ref.currentwill point to the `<button>` DOM node.
 
 - [Fragments](https://reactjs.org/docs/fragments.html)
 

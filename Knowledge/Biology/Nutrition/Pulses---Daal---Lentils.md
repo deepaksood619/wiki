@@ -26,7 +26,7 @@ It can be used in all the same dishes as masoor daal (split and skin removed). S
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image3.png)
 
-Saabut moong daal,is whole moong or moong with the green skin left on. It cooks faster if soaked in advance as it is a "harder" daal. Saabut moong tastes great when sprouted and is a lovely, healthful addition to salads.
+Saabut moong daal, is whole moong or moong with the green skin left on. It cooks faster if soaked in advance as it is a "harder" daal. Saabut moong tastes great when sprouted and is a lovely, healthful addition to salads.
 
 Mix a handful of sprouted Saabut moong daal in a bowl of yogurt, season with salt and somechaat masala(available at most Indian grocery stores) and you'll have a delicious and filling snack.
 
@@ -86,7 +86,7 @@ Lobia can be used almost similarly to kabulichana (white chickpeas) even though 
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image11.png)
 
-Slightly larger than the Mexican red bean,rajma or red kidney beans are very popular in North India where a well-loved dish is named after them. Not only do they taste great on their own, they make a terrific combination when cooked with vegetables and meats too.
+Slightly larger than the Mexican red bean, rajma or red kidney beans are very popular in North India where a well-loved dish is named after them. Not only do they taste great on their own, they make a terrific combination when cooked with vegetables and meats too.
 
 Rajma must be soaked for several hours before cooking to soften it. As with all beans (like kabuli chana, lobia, etc.) that are high in fiber and full of nutrition, rajma has gas-producing enzymes. The trick to beating this is to change the soaking water every few hours (before cooking) and cook them until soft.
 
@@ -112,7 +112,7 @@ This [lentil](https://www.thespruceeats.com/history-of-lentils-1807624) has a nu
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image15.png)
 
-- **Chickpea flour:**Chickpea flour has a rich culinary tradition in Indian cuisine, where it is known as **besanorchana** and is used in pancakes, stews, and curries. It is popular as well in Italian cuisine where**farina di ceci(chickpea flour)** is used to make pasta and a polenta-like dish. Chickpeas are also used in some blended flours, such as**garfava flour**,a combination of chickpeas and fava beans, and**dhokra flour**,a combination of rice, lentils, and chickpeas.
+- **Chickpea flour:**Chickpea flour has a rich culinary tradition in Indian cuisine, where it is known as **besanorchana** and is used in pancakes, stews, and curries. It is popular as well in Italian cuisine where**farina di ceci(chickpea flour)** is used to make pasta and a polenta-like dish. Chickpeas are also used in some blended flours, such as**garfava flour**, a combination of chickpeas and fava beans, and**dhokra flour**, a combination of rice, lentils, and chickpeas.
 - **Green chickpeas:**Fresh and sweet, like green peas, these are young, tender, fresh chickpeas. They are predominantly found in local farmers' markets.
 
 ![image](media/Nutrition_Pulses---Daal---Lentils-image16.jpg)
@@ -167,7 +167,7 @@ Semolinais the coarse, purified [wheat middlings](https://en.wikipedia.org/wiki/
 
 2. **Durum Wheat**
 
-Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), also calledpasta wheatormacaroni wheat(Triticum durum or Triticum turgidum subsp.duru),is a [tetraploid](https://en.wikipedia.org/wiki/Polyploid) species of [wheat](https://en.wikipedia.org/wiki/Wheat).It is the second most cultivated species of wheat after [common wheat](https://en.wikipedia.org/wiki/Common_wheat), although it represents only 5% to 8% of global wheat production.It was developed by [artificial selection](https://en.wikipedia.org/wiki/Artificial_selection) of the domesticated [emmer](https://en.wikipedia.org/wiki/Emmer) wheat strains formerly grown in Central Europe and the [Near East](https://en.wikipedia.org/wiki/Near_East) around 7000 BC, which developed a naked, [free-threshing](https://en.wikipedia.org/wiki/Wheat#Hulled_versus_free-threshing_wheat) form.Like emmer, durum wheat is [awned](https://en.wikipedia.org/wiki/Awn_(botany))(with bristles). It is the predominant wheat that grows in the Middle East.
+Durum wheat([/ˈdjʊərəm/](https://en.wikipedia.org/wiki/Help:IPA/English)), also calledpasta wheatormacaroni wheat(Triticum durum or Triticum turgidum subsp.duru), is a [tetraploid](https://en.wikipedia.org/wiki/Polyploid) species of [wheat](https://en.wikipedia.org/wiki/Wheat).It is the second most cultivated species of wheat after [common wheat](https://en.wikipedia.org/wiki/Common_wheat), although it represents only 5% to 8% of global wheat production.It was developed by [artificial selection](https://en.wikipedia.org/wiki/Artificial_selection) of the domesticated [emmer](https://en.wikipedia.org/wiki/Emmer) wheat strains formerly grown in Central Europe and the [Near East](https://en.wikipedia.org/wiki/Near_East) around 7000 BC, which developed a naked, [free-threshing](https://en.wikipedia.org/wiki/Wheat#Hulled_versus_free-threshing_wheat) form.Like emmer, durum wheat is [awned](https://en.wikipedia.org/wiki/Awn_(botany))(with bristles). It is the predominant wheat that grows in the Middle East.
 
 Durumin [Latin](https://en.wikipedia.org/wiki/Latin) means "hard", and the species is the hardest of all wheats. This refers to the resistance of the grain to milling, in particular of the [starchy](https://en.wikipedia.org/wiki/Starch)[endosperm](https://en.wikipedia.org/wiki/Endosperm), implying dough made from its flour is weak or "soft". This makes durum favorable for [semolina](https://en.wikipedia.org/wiki/Semolina) and [pasta](https://en.wikipedia.org/wiki/Pasta) and less practical for flour, which requires more work than with [hexaploid](https://en.wikipedia.org/wiki/Hexaploid) wheats like [common bread wheats](https://en.wikipedia.org/wiki/Common_wheat). Despite its high [protein](https://en.wikipedia.org/wiki/Protein) content, durum is not a strong wheat in the sense of giving strength to [dough](https://en.wikipedia.org/wiki/Dough) through the formation of a [gluten](https://en.wikipedia.org/wiki/Gluten) network. Durum contains 27% extractable wet gluten, about 3% higher than in common wheat (T. aestivumL.).
 
@@ -230,7 +230,7 @@ Millets may have been consumed by humans for about 7,000 years and potentially h
 | Water chestnut four  | Singhare ka aata          |
 | Teff                 |                          |
 
-Corn is mainly used in North America, however in the UK and other parts of the world,maize is more commonlyused. ... For example, corn is most commonly used when referring to food items, such as popcorn, whereas maize is less commonly used to describe these foods, even though it comes from the same crop.
+Corn is mainly used in North America, however in the UK and other parts of the world, maize is more commonlyused. ... For example, corn is most commonly used when referring to food items, such as popcorn, whereas maize is less commonly used to describe these foods, even though it comes from the same crop.
 
 ## Cornflour and corn flour (two words) are different things
 

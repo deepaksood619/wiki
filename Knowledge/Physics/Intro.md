@@ -10,7 +10,7 @@ Modified: 2021-12-31 14:19:38 +0500
 
 # Momentum
 
-In [Newtonian mechanics](https://en.wikipedia.org/wiki/Newtonian_mechanics),linear momentum,translational momentum, or simplymomentum([pl.](https://en.wikipedia.org/wiki/Plural) momenta) is the product of the [mass](https://en.wikipedia.org/wiki/Mass) and [velocity](https://en.wikipedia.org/wiki/Velocity) of an object. It is a [vector](https://en.wikipedia.org/wiki/Euclidean_vector) quantity, possessing a magnitude and a direction in three-dimensional space. Ifmis an object's mass andvis the velocity (also a vector), then the momentum is
+In [Newtonian mechanics](https://en.wikipedia.org/wiki/Newtonian_mechanics), linear momentum, translational momentum, or simplymomentum([pl.](https://en.wikipedia.org/wiki/Plural) momenta) is the product of the [mass](https://en.wikipedia.org/wiki/Mass) and [velocity](https://en.wikipedia.org/wiki/Velocity) of an object. It is a [vector](https://en.wikipedia.org/wiki/Euclidean_vector) quantity, possessing a magnitude and a direction in three-dimensional space. Ifmis an object's mass andvis the velocity (also a vector), then the momentum is
 
 p = mv
 

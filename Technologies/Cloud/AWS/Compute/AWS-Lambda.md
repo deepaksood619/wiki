@@ -38,7 +38,7 @@ def lambda_handler(event, context):
         "fields": [
             {
             "title": "Alarm: %s"  % (name),
-            "value": "%s \n https://ap-south-1.console.aws.amazon.com/cloudwatch/home?region=ap-south-1#alarmsV2:alarm/%s?" % (reason,name),
+            "value": "%s \n https://ap-south-1.console.aws.amazon.com/cloudwatch/home?region=ap-south-1#alarmsV2:alarm/%s?" % (reason, name),
             }
         ]
     }

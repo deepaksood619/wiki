@@ -24,7 +24,7 @@ Resource quotas work like this:
 - If creating or updating a resource violates a quota constraint, the request will fail with HTTP status code403 FORBIDDENwith a message explaining the constraint that would have been violated.
 - If quota is enabled in a namespace for compute resources likecpuandmemory, users must specify requests or limits for those values; otherwise, the quota system may reject pod creation. Hint: Use theLimitRangeradmission controller to force defaults for pods that make no compute resource requirements.
 
-kubectl create quota myrq --hard=cpu=1,memory=1G,pods=2 --dry-run -o yaml
+kubectl create quota myrq --hard=cpu=1, memory=1G, pods=2 --dry-run -o yaml
 
 <https://kubernetes.io/docs/concepts/policy/resource-quotas>
 
@@ -165,7 +165,7 @@ Admission controllers are pieces of software that can access the content of the 
 
 Admission controllers are needed for certain features to work properly. Controllers have been added as Kubernetes matured. Starting with the 1.13.1 release of thekube-apiserver, the admission controllers are now compiled into the binary, instead of a list passed during execution. To enable or disable, you can pass the following options, changing out the plugins you want to enable or disable:
 
---enable-admission-plugins=Initializers,NamespaceLifecycle,LimitRanger
+--enable-admission-plugins=Initializers, NamespaceLifecycle, LimitRanger
 
 --disable-admission-plugins=PodNodeSelector
 
@@ -175,7 +175,7 @@ The first controller isInitializerswhich will allow the dynamic modification of 
 
 Pods and containers within pods can be given specific security constraints to limit what processes running in containers can do. For example, the UID of the process, the Linux capabilities, and the filesystem group can be limited.
 
-This security limitation is called a security context. It can be defined for the entire pod or per container,and is represented as additional sections in the resources manifests. The notable difference is that Linux capabilities are set at the container level.
+This security limitation is called a security context. It can be defined for the entire pod or per container, and is represented as additional sections in the resources manifests. The notable difference is that Linux capabilities are set at the container level.
 
 For example, if you want to enforce a policy that containers cannot run their process as the root user, you can add a pod security context like the one below:
 
@@ -221,7 +221,7 @@ To automate the enforcement of security contexts, you can define [PodSecurityPol
 
 A policy to limit the ability of pods to elevate permissions or modify the node upon which they are scheduled. This wide-ranging limitation may prevent a pod from operating properly. The use of PSPs may be replaced by**Open Policy Agent(OPA)** in the future.
 
-While PSP has been helpful,there are other methods gaining popularity. The [Open Policy Agent](https://www.openpolicyagent.org/)(OPA), often pronounced as "oh-pa", provides a unified set of tools and policy framework. This allows a single point of configuration for all of your cloud deployments.
+While PSP has been helpful, there are other methods gaining popularity. The [Open Policy Agent](https://www.openpolicyagent.org/)(OPA), often pronounced as "oh-pa", provides a unified set of tools and policy framework. This allows a single point of configuration for all of your cloud deployments.
 
 ## Open Policy Agent(OPA)
 

@@ -102,7 +102,7 @@ FROM (
 
 SELECT *, total_bytes-index_bytes-COALESCE(toast_bytes,0) AS table_bytes FROM (
 
-SELECT c.oid,nspname AS table_schema, relname AS TABLE_NAME
+SELECT c.oid, nspname AS table_schema, relname AS TABLE_NAME
 
 , c.reltuples AS row_estimate
 

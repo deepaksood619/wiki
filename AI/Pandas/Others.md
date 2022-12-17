@@ -31,7 +31,7 @@ password=password,
 
 database=dbname)
 
-chunks = pd.read_sql(query, mydb1,chunksize=50000)
+chunks = pd.read_sql(query, mydb1, chunksize=50000)
 
 next(chunks).to_csv(file_path, index=False)
 

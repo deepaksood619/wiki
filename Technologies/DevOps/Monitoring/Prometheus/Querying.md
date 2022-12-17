@@ -69,6 +69,6 @@ pod_name=~"worker.*"
 
 To subtract two metrics use **`on ()`**
 
-celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888",job="celery-monitoring",name="airflow.executors.celery_executor.execute_command",namespace="airflow",queue="undefined",state="RECEIVED"} - on ()
+celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888", job="celery-monitoring", name="airflow.executors.celery_executor.execute_command", namespace="airflow", queue="undefined", state="RECEIVED"} - on ()
 
-(celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888",job="celery-monitoring",name="airflow.executors.celery_executor.execute_command",namespace="airflow",queue="undefined",state="SUCCESS"} + on () celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888",job="celery-monitoring",name="airflow.executors.celery_executor.execute_command",namespace="airflow",queue="undefined",state="FAILURE"})
+(celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888", job="celery-monitoring", name="airflow.executors.celery_executor.execute_command", namespace="airflow", queue="undefined", state="SUCCESS"} + on () celery_tasks_total{instance="celery-exporter.airflow.svc.cluster.local:8888", job="celery-monitoring", name="airflow.executors.celery_executor.execute_command", namespace="airflow", queue="undefined", state="FAILURE"})

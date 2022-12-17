@@ -425,14 +425,14 @@ In above example space was directly used to match the pattern instead of lookaro
 <thead>
 <tr class="header">
 <th>n(?=o)</th>
-<th><p>Positive Lookahead,nfollowed byo</p>
+<th><p>Positive Lookahead, nfollowed byo</p>
 <p>(not matchingo)</p></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>n(?!o)</td>
-<td><p>Negative lookahead,nnot followed byo</p>
+<td><p>Negative lookahead, nnot followed byo</p>
 <p>(not matchingo)</p></td>
 </tr>
 </tbody>

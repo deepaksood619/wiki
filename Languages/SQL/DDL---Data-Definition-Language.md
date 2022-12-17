@@ -39,7 +39,7 @@ ON table_name (column_name)
 
 CREATE UNIQUE INDEX index_name
 
-ON table_name(index_column_1,index_column_2,...);
+ON table_name(index_column_1, index_column_2,...);
 
 ALTER TABLE `installment_fip` ADD INDEX `installment_fip_idx_inst_custom_is_del_inst_inst` (`inst_number`,`customer_facing`,`is_delete`,`inst_status`,`inst_date`);
 
@@ -95,7 +95,7 @@ TRUNCATE TABLE
 
 TRUNCATE TABLE table_name
 
-TheTRUNCATE TABLEstatement removes all the rows from a table more quickly than aDELETE. Logically,TRUNCATE TABLEis similar to the [DELETE](https://www.tutorialrepublic.com/sql-tutorial/sql-delete-statement.php) statement with no [WHERE](https://www.tutorialrepublic.com/sql-tutorial/sql-where-clause.php) clause.
+TheTRUNCATE TABLEstatement removes all the rows from a table more quickly than aDELETE. Logically, TRUNCATE TABLEis similar to the [DELETE](https://www.tutorialrepublic.com/sql-tutorial/sql-delete-statement.php) statement with no [WHERE](https://www.tutorialrepublic.com/sql-tutorial/sql-where-clause.php) clause.
 
 TheTRUNCATE TABLEstatement removes all the rows from a table, but the table structure and its columns, constraints, indexes, and so on remain intact.
 

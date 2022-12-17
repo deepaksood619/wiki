@@ -59,7 +59,7 @@ It's useful to think of a Kubernetes Service as having a front-end and a back-en
 - Front-end: name, IP, port that never change
 - Back-end: Pods that match a label selector
 
-The front-end isstableandreliable. This means thename,IPandport numberare guaranteed to never change for the entire life of the Service. The stable nature of the Service front-end also means that you do not need to worry about stale entries on clients that cache DNS results for longer than the standards recommend.
+The front-end isstableandreliable. This means thename, IPandport numberare guaranteed to never change for the entire life of the Service. The stable nature of the Service front-end also means that you do not need to worry about stale entries on clients that cache DNS results for longer than the standards recommend.
 
 The back-end is highly dynamic and will load-balance traffic to all Pods in the cluster that match the set oflabelsthe Service is configured to look for.
 

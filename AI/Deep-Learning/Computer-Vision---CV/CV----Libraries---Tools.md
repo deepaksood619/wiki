@@ -41,10 +41,10 @@ cv2.Canny(blur_gray, low_threshold, high_threshold)
 
 cv2.GaussianBlur(gray,(kernel_size, kernel_size), 0)
 
-cv2.HoughLinesP(masked_edges, rho, theta, threshold, np.array([]),min_line_length, max_line_gap)
+cv2.HoughLinesP(masked_edges, rho, theta, threshold, np.array([]), min_line_length, max_line_gap)
 ```
 
-First off,rho and theta are the distance and angular resolution of our grid in Hough space. Remember that, in Hough space, we have a grid laid out along the (Θ, ρ) axis. You need to specifyrhoin units of pixels andthetain units of radians.
+First off, rho and theta are the distance and angular resolution of our grid in Hough space. Remember that, in Hough space, we have a grid laid out along the (Θ, ρ) axis. You need to specifyrhoin units of pixels andthetain units of radians.
 
 Thethresholdparameter specifies the minimum number of votes (intersections in a given grid cell) a candidate line needs to have to make it into the output.
 

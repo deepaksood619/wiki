@@ -14,7 +14,7 @@ Modified: 2021-11-29 12:12:09 +0500
 
     2. **Build** a new version of that page from scratch with a singular focus on optimization
 
-    3. **Assemble** all the HTML,CSS and JS into a single "hyper-light" HTML page
+    3. **Assemble** all the HTML, CSS and JS into a single "hyper-light" HTML page
 
     4. **Serve** the hyper-light page behind a CDN with compression and HTTP/2 pipelining
 

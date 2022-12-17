@@ -69,7 +69,7 @@ Modified: 2022-05-23 00:02:39 +0500
 
 ## Dividend Discount Model (DDM)
 
-The dividend discount model (DDM) is a quantitative method used for predicting the price of a company's stock based on the theory that its present-day price is worth the sum of all of its future [dividend](https://www.investopedia.com/terms/d/dividend.asp) payments when [discounted](https://www.investopedia.com/terms/d/discounting.asp) back to their present value. It attempts to calculate the fair value of a stock irrespective of the prevailing market conditions and takes into consideration the dividend payout factors and the market expected returns. If the value obtained from the DDM is higher than the current trading price of shares,then the stock is undervalued and qualifies for a buy, and vice versa.
+The dividend discount model (DDM) is a quantitative method used for predicting the price of a company's stock based on the theory that its present-day price is worth the sum of all of its future [dividend](https://www.investopedia.com/terms/d/dividend.asp) payments when [discounted](https://www.investopedia.com/terms/d/discounting.asp) back to their present value. It attempts to calculate the fair value of a stock irrespective of the prevailing market conditions and takes into consideration the dividend payout factors and the market expected returns. If the value obtained from the DDM is higher than the current trading price of shares, then the stock is undervalued and qualifies for a buy, and vice versa.
 
 <https://www.investopedia.com/terms/d/ddm.asp>
 

@@ -134,7 +134,7 @@ Output plugins deliver metrics to their configured destination. In order to acti
 
 ## Precision
 
-The precision configuration setting determines how much timestamp precision is retained in the points received from input plugins. All incoming timestamps are truncated to the given precision. Telegraf then pads the truncated timestamps with zeros to create a nanosecond timestamp; output plugins will emit timestamps in nanoseconds. Valid precisions arens,usorµs,ms, ands.
+The precision configuration setting determines how much timestamp precision is retained in the points received from input plugins. All incoming timestamps are truncated to the given precision. Telegraf then pads the truncated timestamps with zeros to create a nanosecond timestamp; output plugins will emit timestamps in nanoseconds. Valid precisions arens, usorµs, ms, ands.
 
 For example, if the precision is set toms, the nanosecond epoch timestamp1480000000123456789would be truncated to1480000000123in millisecond precision and then padded with zeroes to make a new, less precise nanosecond timestamp of1480000000123000000. Output plugins do not alter the timestamp further. The precision setting is ignored for service input plugins.
 
@@ -165,7 +165,7 @@ Modifier filters remove tags and fields from a metric. If all fields are removed
 
 - fieldpass: An array of glob pattern strings. Only fields whose field key matches a pattern in this list are emitted.
 - fielddrop: The inverse offieldpass. Fields with a field key matching one of the patterns will be discarded from the metric. This is tested on metrics after they have passed thefieldpasstest.
-- taginclude: An array of glob pattern strings. Only tags with a tag key matching one of the patterns are emitted. In contrast totagpass, which will pass an entire metric based on its tag,tagincluderemoves all non matching tags from the metric. Any tag can be filtered including global tags and the agenthosttag.
+- taginclude: An array of glob pattern strings. Only tags with a tag key matching one of the patterns are emitted. In contrast totagpass, which will pass an entire metric based on its tag, tagincluderemoves all non matching tags from the metric. Any tag can be filtered including global tags and the agenthosttag.
 - tagexclude: The inverse oftaginclude. Tags with a tag key matching one of the patterns will be discarded from the metric. Any tag can be filtered including global tags and the agenthosttag.
 
 Metrics can be routed to different outputs using the metric name and tags

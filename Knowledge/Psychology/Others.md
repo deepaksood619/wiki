@@ -46,7 +46,7 @@ Time gap is same for both the scenarios
 
 The idea here is that when we need to choose between rewards right now and rewards in the far future, we're much less patient than we ought to be.
 
-In [economics](https://en.wikipedia.org/wiki/Economics),hyperbolic discountingis a time-inconsistentmodel of [delay discounting](https://en.wikipedia.org/wiki/Delay_discounting). It is one of the cornerstones of [behavioral economics](https://en.wikipedia.org/wiki/Behavioral_economics).
+In [economics](https://en.wikipedia.org/wiki/Economics), hyperbolic discountingis a time-inconsistentmodel of [delay discounting](https://en.wikipedia.org/wiki/Delay_discounting). It is one of the cornerstones of [behavioral economics](https://en.wikipedia.org/wiki/Behavioral_economics).
 
 The discounted utility approach states that [intertemporal choices](https://en.wikipedia.org/wiki/Intertemporal_choice) are no different from other choices, except that some consequences are delayed and hence must be anticipated and discounted (i.e., reweighted to take into account the delay).
 
@@ -96,7 +96,7 @@ Listening to wise scriptures, austerity, sacrifice, respectful faith, social wel
 
 ## Tribalism
 
-Tribalismis the state of being organized by, or advocating for, [tribes](https://en.wikipedia.org/wiki/Tribe) or tribal lifestyles. Human evolution has primarily occurred in small groups, as opposed to [mass societies](https://en.wikipedia.org/wiki/Mass_society), and humans naturally maintain a [social network](https://en.wikipedia.org/wiki/Social_network). In [popular culture](https://en.wikipedia.org/wiki/Popular_culture), tribalism may also refer to a way of thinking or behaving in which people are loyal to their social group above all else,or, [derogatorily](https://en.wikipedia.org/wiki/Pejorative), a type of [discrimination](https://en.wikipedia.org/wiki/Discrimination) or animosity based upon group differences.
+Tribalismis the state of being organized by, or advocating for, [tribes](https://en.wikipedia.org/wiki/Tribe) or tribal lifestyles. Human evolution has primarily occurred in small groups, as opposed to [mass societies](https://en.wikipedia.org/wiki/Mass_society), and humans naturally maintain a [social network](https://en.wikipedia.org/wiki/Social_network). In [popular culture](https://en.wikipedia.org/wiki/Popular_culture), tribalism may also refer to a way of thinking or behaving in which people are loyal to their social group above all else, or, [derogatorily](https://en.wikipedia.org/wiki/Pejorative), a type of [discrimination](https://en.wikipedia.org/wiki/Discrimination) or animosity based upon group differences.
 
 <https://en.wikipedia.org/wiki/Tribalism>
 

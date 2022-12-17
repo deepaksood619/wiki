@@ -10,7 +10,7 @@ MQTT for Sensor Networks
 
 - MQTT-SNusesUDPand notTCPfor its transport.
 - UDPis a connection less protocol whereasTCPis connection orientated.
-- MQTT-SNis designed,as far as possible., to work in the same way as MQTT
+- MQTT-SNis designed, as far as possible., to work in the same way as MQTT
 - In that regard MQTT-SN usually requires a connection to the broker before it can send and receive messages.
 - This connection is in effect avirtual connection.
 

@@ -11,7 +11,7 @@ Modified: 2020-09-03 00:10:16 +0500
 ![image](media/CodeIgniter_Application-Architecture-image1.png)
 
 - It will first go toindex.phppage
-- In the second step,Routingwill decide whether to pass this request to step-3 for caching or to pass this request to step-4 for security check
+- In the second step, Routingwill decide whether to pass this request to step-3 for caching or to pass this request to step-4 for security check
 - If the requested page is already inCaching, thenRoutingwill pass the request to step-3 and the response will go back to the user
 - If the requested page does not exist inCaching, thenRoutingwill pass the requested page to step-4 forSecuritychecks
 - Before passing the request toApplication Controller, theSecurityof the submitted data is checked. After theSecuritycheck, theApplication Controllerloads necessaryModels, Libraries, Helpers, PluginsandScriptsand pass it on toView
@@ -88,7 +88,7 @@ This is your user guide to CodeIgniter. It is basically, the offline version of 
 
 ## public
 
-Thepublicfolder holds the browser-accessible portion of your web application, preventing direct access to your source code. It contains the main.htaccessfile,index.php, and any application assets that you add, like CSS, javascript, or images.
+Thepublicfolder holds the browser-accessible portion of your web application, preventing direct access to your source code. It contains the main.htaccessfile, index.php, and any application assets that you add, like CSS, javascript, or images.
 
 This folder is meant to be the "web root" of your site, and your web server would be configured to point to it.
 

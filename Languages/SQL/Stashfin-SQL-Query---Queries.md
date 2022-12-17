@@ -38,7 +38,7 @@ SHOW ENGINE INNODB STATUS;
 
 SELECT * FROM INFORMATION_SCHEMA.INNODB_TRX;
 
-select event_name,current_alloc from sys.memory_global_by_current_bytes;
+select event_name, current_alloc from sys.memory_global_by_current_bytes;
 
 show variables like '%binlog%';
 
@@ -229,7 +229,7 @@ ORDER BY count DESC;
 
 SELECT
 
-c.id,cron_name,template_id_id,body
+c.id, cron_name, template_id_id, body
 
 FROM
 

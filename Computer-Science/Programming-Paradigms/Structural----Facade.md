@@ -6,7 +6,7 @@ Modified: 2020-10-25 23:16:37 +0500
 
 ---
 
-According to [Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns) definition,facade provides a simplified interface for a set of interfaces of a subsystem. It defines a convenient higher-level interface to interact with.
+According to [Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns) definition, facade provides a simplified interface for a set of interfaces of a subsystem. It defines a convenient higher-level interface to interact with.
 Thefacade decouples clients from subinterfaces of our modules. The client uses just one object - the facade, to delegate work to many separated components.The client doesn't have to know the details of our architecture - it is all hidden behind a clean interface of the facade.
 Without Facade
 

@@ -90,7 +90,7 @@ An investment with a negative NPV will result in a net loss. This concept is the
 
 ## Net Present Value vs. Payback Period
 
-The [payback period](https://www.investopedia.com/terms/p/paybackperiod.asp),or "payback method," is a simpler alternative to NPV. The payback method calculates how long it will take for the original investment to be repaid. A drawback is that this methodfails to account for the time value of money. For this reason, payback periods calculated for longer investments have a greater potential for inaccuracy.
+The [payback period](https://www.investopedia.com/terms/p/paybackperiod.asp), or "payback method," is a simpler alternative to NPV. The payback method calculates how long it will take for the original investment to be repaid. A drawback is that this methodfails to account for the time value of money. For this reason, payback periods calculated for longer investments have a greater potential for inaccuracy.
 
 Moreover, the payback period is strictly limited to the amount of time required to earn back initial investment costs. It is possible that the investment's rate of return could experience sharp movements. Comparisons using payback periods do not account for the long-term profitability of alternative investments.
 

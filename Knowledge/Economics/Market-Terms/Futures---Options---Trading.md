@@ -81,7 +81,7 @@ The buyer of a call option pays the option premium in full at the time of enteri
 
 If the [spot price](http://lexicon.ft.com/Term?term=spot-market) of the underlying asset does not rise above the option strike price prior to the option's expiration, then the investor loses the amount they paid for the option. However, if the price of the underlying asset does exceed the strike price, then the call buyer makes a profit. The amount of profit is the difference between the market price and the option's strike price, multiplied by the incremental value of the underlying asset, minus the price paid for the option.
 
-For example,a stock option isfor 100 shares of the underlying stock. Assume a trader buys one call option contract on ABC stock with a strike price of $25. He pays $150 for the option. On the option's expiration date, ABC stock shares are selling for $35. The buyer/holder of the option exercises his right to purchase 100 shares of ABC at $25 a share (the option's strike price). He immediately sells the shares at the current market price of $35 per share.
+For example, a stock option isfor 100 shares of the underlying stock. Assume a trader buys one call option contract on ABC stock with a strike price of $25. He pays $150 for the option. On the option's expiration date, ABC stock shares are selling for $35. The buyer/holder of the option exercises his right to purchase 100 shares of ABC at $25 a share (the option's strike price). He immediately sells the shares at the current market price of $35 per share.
 
 He paid $2,500 for the 100 shares ($25 x 100) and sells the shares for $3,500 ($35 x 100). His profit from the option is $1,000 ($3,500 -- $2,500), minus the $150 premium paid for the option. Thus, his net profit, excluding transaction costs, is $850 ($1,000 -- $150). That's a very nice return on investment (ROI) for just a $150 investment.
 
@@ -203,7 +203,7 @@ An options holder may exercise his or her right to buy or sell the contract's un
 
 ## Option Chain
 
-An options chain, also known as an option matrix, is a listing of all available [options](https://www.investopedia.com/terms/o/option.asp) contracts for a given security. It shows all listed [puts](https://www.investopedia.com/terms/p/put.asp), calls, their expiration, strike prices,and volume and pricing information for a single underlying asset within a given maturity period. The chain will typically be categorized by expiration date and segmented by calls vs. puts.
+An options chain, also known as an option matrix, is a listing of all available [options](https://www.investopedia.com/terms/o/option.asp) contracts for a given security. It shows all listed [puts](https://www.investopedia.com/terms/p/put.asp), calls, their expiration, strike prices, and volume and pricing information for a single underlying asset within a given maturity period. The chain will typically be categorized by expiration date and segmented by calls vs. puts.
 
 An options chain provides detailed quote and price information and should not be confused with an [options series](https://www.investopedia.com/terms/o/optionseries.asp) or cycle, which instead simply denotes the available [strike prices](https://www.investopedia.com/terms/s/strikeprice.asp) or expiration dates.
 

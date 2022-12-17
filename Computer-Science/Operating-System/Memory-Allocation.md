@@ -8,7 +8,7 @@ Modified: 2019-12-02 13:32:14 +0500
 
 ## Dynamic memory allocation
 
-Is memory allocated at runtime usingcalloc(),malloc()and friends. It is sometimes also referred to as 'heap' memory, although it has nothing to do with the heap data-structure [ref](http://www.quora.com/Why-is-dynamic-memory-allocation-called-heap-memory-allocation).
+Is memory allocated at runtime usingcalloc(), malloc()and friends. It is sometimes also referred to as 'heap' memory, although it has nothing to do with the heap data-structure [ref](http://www.quora.com/Why-is-dynamic-memory-allocation-called-heap-memory-allocation).
 
 int * a = malloc(sizeof(int));
 Heap memory is persistent untilfree()is called. In other words, you control the lifetime of the variable.
@@ -32,7 +32,7 @@ int a = 32;
 But not in function scope (inside of a function):
 
 static int a = 32;
-Technically,externandstaticare two separate classes of variables in C.
+Technically, externandstaticare two separate classes of variables in C.
 
 extern int a; /*Declaration*/
 int a; /*Definition*/

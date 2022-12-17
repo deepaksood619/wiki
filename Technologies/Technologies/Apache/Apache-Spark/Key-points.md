@@ -40,7 +40,7 @@ Similar to reading data with Spark, it's not recommended to write data to local 
 
 # DBFS (Parquet)
 
-df.write.save('/FileStore/parquet/game_stats',format='parquet')
+df.write.save('/FileStore/parquet/game_stats', format='parquet')
 
 # S3 (Parquet)
 

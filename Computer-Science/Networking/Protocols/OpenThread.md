@@ -10,10 +10,10 @@ Modified: 2019-03-16 15:41:00 +0500
 
 Thread is designed to address the unique interoperability, security, power, and architecture challenges of the IoT.
 
-- Thread is a low-power wireless mesh networking protocol,based on the universally-supported Internet Protocol (IP), and built using open and proven standards.
+- Thread is a low-power wireless mesh networking protocol, based on the universally-supported Internet Protocol (IP), and built using open and proven standards.
 - Thread enables device-to-device and device-to-cloud communicationsand reliably connects hundreds (or thousands) of products and includes mandatory security features.
-- Thread networks have no single point of failure,can self-heal and reconfigure when a device is added or removed, and are simple to setup and use.
-- Thread is based on the broadly supported IEEE 802.15.4 radio standard,which is designed from the ground up for extremely low power consumption and low latency.
+- Thread networks have no single point of failure, can self-heal and reconfigure when a device is added or removed, and are simple to setup and use.
+- Thread is based on the broadly supported IEEE 802.15.4 radio standard, which is designed from the ground up for extremely low power consumption and low latency.
 [Thread](http://threadgroup.org/) is an IPv6-based networking protocol designed for low-power Internet of Things devices in an IEEE 802.15.4-2006 wireless mesh network, commonly called a Wireless Personal Area Network (WPAN). Thread is independent of other 802.15.4 mesh networking protocols, such a ZigBee, Z-Wave, and Bluetooth LE.
 
 Thread's primary features include:

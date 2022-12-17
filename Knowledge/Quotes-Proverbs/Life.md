@@ -320,7 +320,7 @@ Your soul adapts to what you love.
 
 What you feed yourself today is who you become tomorrow. -- James Clear
 
-Increasing your standards of happiness is a dangerous game. Instead of trying too hard to be happy,seek the truth.
+Increasing your standards of happiness is a dangerous game. Instead of trying too hard to be happy, seek the truth.
 
 "Those pursuing happiness may set high standards for their levels of happiness. When their happiness falls short of their standards---which is likely when the standards are high---the resulting disappointment and frustration impedes the experience of happiness." -- Paradoxical Effects of Pursuing Positive Emotion, Positive Emotion by Brett Q. Ford and Iris B. Mauss
 
@@ -368,7 +368,7 @@ Stephen Fry - If you are offended, well so fucking what
 
 There is no way to happiness; happiness is the way. -- Buddhist monk Thích Nhất Hạnh
 
-You are only entitled to the action, never to its fruits. -- [Bhagavad Gita](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiMjY2ODI3NSIsImRlbGl2ZXJ5X2lkIjoieHJkcnhjMm8wOGp5cmg3aW91ZXQiLCJ1cmwiOiJodHRwczovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvMTU4NjM4MDE5Mi9yZWY9YXNfbGlfcWZfYXNpbl9pbF90bD9pZT1VVEY4XHUwMDI2dGFnPWphbWVzY2xlYXJlbWEtMjBcdTAwMjZjcmVhdGl2ZT05MzI1XHUwMDI2bGlua0NvZGU9YXMyXHUwMDI2Y3JlYXRpdmVBU0lOPTE1ODYzODAxOTJcdTAwMjZsaW5rSWQ9MjJlYjUyZGM2YTUwMjZkYWQ1NzQxNDVlYWRlNzVjMzBcdTAwMjZfX3M9bmZpenN3enVoZ3F2d254emE4ZngifQ),chapter 2, verse 47
+You are only entitled to the action, never to its fruits. -- [Bhagavad Gita](https://t.dripemail2.com/c/eyJhY2NvdW50X2lkIjoiMjY2ODI3NSIsImRlbGl2ZXJ5X2lkIjoieHJkcnhjMm8wOGp5cmg3aW91ZXQiLCJ1cmwiOiJodHRwczovL3d3dy5hbWF6b24uY29tL2dwL3Byb2R1Y3QvMTU4NjM4MDE5Mi9yZWY9YXNfbGlfcWZfYXNpbl9pbF90bD9pZT1VVEY4XHUwMDI2dGFnPWphbWVzY2xlYXJlbWEtMjBcdTAwMjZjcmVhdGl2ZT05MzI1XHUwMDI2bGlua0NvZGU9YXMyXHUwMDI2Y3JlYXRpdmVBU0lOPTE1ODYzODAxOTJcdTAwMjZsaW5rSWQ9MjJlYjUyZGM2YTUwMjZkYWQ1NzQxNDVlYWRlNzVjMzBcdTAwMjZfX3M9bmZpenN3enVoZ3F2d254emE4ZngifQ), chapter 2, verse 47
 
 The basic virtue for a human being is to be true to yourself -- integrity of thought, emotion, and action. -- Sadhguru
 
@@ -486,7 +486,7 @@ Concentration produces wealth. Diversification protects wealth.
 
 Doing more things faster is no substitute for doing the right things. -- Stephen Covey
 
-It doesn't make a damned bit of difference who wins the war to someone who's dead. -- Joseph Heller,Catch-22
+It doesn't make a damned bit of difference who wins the war to someone who's dead. -- Joseph Heller, Catch-22
 
 Treat the Earth well. It was not given to you by your parents, it was loaned to you by your children.
 

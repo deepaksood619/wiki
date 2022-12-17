@@ -90,7 +90,7 @@ tier != frontend
 
 ## Set-basedrequirement
 
-Set-basedlabel requirements allow filtering keys according to a set of values. Three kinds of operators are supported:in,notinandexists(only the key identifier).
+Set-basedlabel requirements allow filtering keys according to a set of values. Three kinds of operators are supported:in, notinandexists(only the key identifier).
 
 For example:
 

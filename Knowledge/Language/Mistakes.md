@@ -781,7 +781,7 @@ The wordwhere(rhymes with hair) talks about a place, location, stage, or situati
 
 ## Were
 
-On the other hand,were(rhymes with stir) is the past tense of the verb "be." It is used together with a plural subject. Let us take a look at a few examples below:
+On the other hand, were(rhymes with stir) is the past tense of the verb "be." It is used together with a plural subject. Let us take a look at a few examples below:
 
 - Five students were sent to Japan for the robotics competition last month.
 - What were you reading last night?

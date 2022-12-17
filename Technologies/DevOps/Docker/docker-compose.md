@@ -115,7 +115,7 @@ However when you define **env_file** option to your service, the service will ge
 
 Designed to be cross-compatible between Compose and the Docker Engine's [swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
 
-- Removed:volume_driver,volumes_from,cpu_shares,cpu_quota,cpuset,mem_limit,memswap_limit,extends,group_add. See the [upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading) guide for how to migrate away from these. (For more information onextends, see [Extending services](https://docs.docker.com/compose/extends/#extending-services).)
+- Removed:volume_driver, volumes_from, cpu_shares, cpu_quota, cpuset, mem_limit, memswap_limit, extends, group_add. See the [upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading) guide for how to migrate away from these. (For more information onextends, see [Extending services](https://docs.docker.com/compose/extends/#extending-services).)
 - Added:[deploy](https://docs.docker.com/compose/compose-file/#deploy)
 
 - **Version 3.3**

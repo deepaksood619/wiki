@@ -49,7 +49,7 @@ By detecting and generating patterns in a low-resolution image and applying thes
 
 waifu2xis an [image scaling](https://en.wikipedia.org/wiki/Image_scaling) and [noise reduction](https://en.wikipedia.org/wiki/Noise_reduction) program for anime-style art and other types of photos.
 
-waifu2x was inspired by [Super-Resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging)[Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_Neural_Network)(SRCNN).It uses [Nvidia](https://en.wikipedia.org/wiki/Nvidia)[CUDA](https://en.wikipedia.org/wiki/CUDA) for computing,although alternative implementations that allow for [OpenCL](https://en.wikipedia.org/wiki/OpenCL) and [Vulkan](https://en.wikipedia.org/wiki/Vulkan_(API)) have been created.
+waifu2x was inspired by [Super-Resolution](https://en.wikipedia.org/wiki/Super-resolution_imaging)[Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_Neural_Network)(SRCNN).It uses [Nvidia](https://en.wikipedia.org/wiki/Nvidia)[CUDA](https://en.wikipedia.org/wiki/CUDA) for computing, although alternative implementations that allow for [OpenCL](https://en.wikipedia.org/wiki/OpenCL) and [Vulkan](https://en.wikipedia.org/wiki/Vulkan_(API)) have been created.
 
 <https://github.com/nagadomi/waifu2x>
 

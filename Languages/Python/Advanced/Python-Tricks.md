@@ -198,7 +198,7 @@ However, sinceNoneis an immutable built-in type, the "pre-computed" value for a 
 
 ## Misunderstanding Python scope rules
 
-Python scope resolution is based on what is known as the [LEGB](https://blog.mozilla.org/webdev/2011/01/31/python-scoping-understanding-legb/) rule, which is shorthand for**Local,Enclosing,Global,Built-in**.
+Python scope resolution is based on what is known as the [LEGB](https://blog.mozilla.org/webdev/2011/01/31/python-scoping-understanding-legb/) rule, which is shorthand for**Local, Enclosing, Global, Built-in**.
 
 ```python
 >>> x = 10
@@ -213,11 +213,11 @@ File "<stdin>", line 2, in foo
 UnboundLocalError: local variable 'x' referenced before assignment
 ```
 
-The above error occurs because, when you make anassignmentto a variable in a scope,that variable is automatically considered by Python to be local to that scopeand shadows any similarly named variable in any outer scope. so lst.append(10) will work but lst += [10] will not work.
+The above error occurs because, when you make anassignmentto a variable in a scope, that variable is automatically considered by Python to be local to that scopeand shadows any similarly named variable in any outer scope. so lst.append(10) will work but lst += [10] will not work.
 
 ## Creating circular module dependencies
 
-Let's say you have two files,a.pyandb.py, each of which imports the other, as follows:
+Let's say you have two files, a.pyandb.py, each of which imports the other, as follows:
 
 ```python
 In a.py:
@@ -290,7 +290,7 @@ No when we import it, everything is fine:
 
 ## [autovivification](https://en.wikipedia.org/wiki/Autovivification)
 
-In the [Perl](https://en.wikipedia.org/wiki/Perl) programming language,autovivificationis the automatic creation of new [arrays](https://en.wikipedia.org/wiki/Array_data_structure) and [hashes](https://en.wikipedia.org/wiki/Hash_table) as required every time an undefined value is [dereferenced](https://en.wikipedia.org/wiki/Dereferencing). Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
+In the [Perl](https://en.wikipedia.org/wiki/Perl) programming language, autovivificationis the automatic creation of new [arrays](https://en.wikipedia.org/wiki/Array_data_structure) and [hashes](https://en.wikipedia.org/wiki/Hash_table) as required every time an undefined value is [dereferenced](https://en.wikipedia.org/wiki/Dereferencing). Perl autovivification allows a programmer to refer to a structured variable, and arbitrary sub-elements of that structured variable, without expressly declaring the existence of the variable and its complete structure beforehand.
 
 Python's built-indictclass can be [subclassed](https://en.wikipedia.org/wiki/Subclass_(computer_science)) to implement autovivificious dictionaries simply by overriding the__missing__() method that was added to the class in Python v2.5. There are other ways of implementing the behavior, but the following is one of the simplest and instances of the class print just like normal Python dictionary objects.
 

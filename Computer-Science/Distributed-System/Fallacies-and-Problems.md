@@ -64,7 +64,7 @@ It is related to the more general [Byzantine Generals](https://en.wikipedia.org/
 ## Problem
 
 Imagine two armies, led by generals, preparing to attack a fortified city. Armies are located on the two sides of the city and can succeed in their siege only if their attack is synchronized. They can communicate by sending messengers and already have a devised attack plan. Now they only have to agree on the fact that they both will proceed with the attack, otherwise the attack can not succeed.
-GeneralAsends a messageMSG(attack at 7PM)stating that their army will proceed with the attack. Once messenger is dispatched,Adoesn't know whether messenger has arrived or no. GeneralB, upon receiving the message, has to send an acknowledgementACK(MSG(attack at 7PM)). However, messenger carrying this acknowledgement might get captured or fail to deliver, so nowBdoesn't have any way of knowing if the messenger has successfully delivered it. To be sure about it,Bhas to wait for a second-order acknowledgementACK(ACK(MSG(attack at 7PM)stating that A had received an acknowledgement for the acknowledgement.
+GeneralAsends a messageMSG(attack at 7PM)stating that their army will proceed with the attack. Once messenger is dispatched, Adoesn't know whether messenger has arrived or no. GeneralB, upon receiving the message, has to send an acknowledgementACK(MSG(attack at 7PM)). However, messenger carrying this acknowledgement might get captured or fail to deliver, so nowBdoesn't have any way of knowing if the messenger has successfully delivered it. To be sure about it, Bhas to wait for a second-order acknowledgementACK(ACK(MSG(attack at 7PM)stating that A had received an acknowledgement for the acknowledgement.
 
 ![image](media/Fallacies-and-Problems-image2.png)
 

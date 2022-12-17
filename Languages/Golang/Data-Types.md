@@ -80,7 +80,7 @@ The value of an n-bit integer is n bits and is represented using two's complemen
 
 2. rune - same as int32
 
-Go introduces a concept ofRunes. While strings are used to represent a sequence of characters,runes are used to represent a single character.
+Go introduces a concept ofRunes. While strings are used to represent a sequence of characters, runes are used to represent a single character.
 
 If you want to use a Rune, you have to surround a character with single quotation marks like 'A'. Go uses the Unicode standard for storing runes, so they can store any character on the earth.
 

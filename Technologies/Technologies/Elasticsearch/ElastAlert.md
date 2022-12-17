@@ -93,7 +93,7 @@ In addition to this basic usage, there are many other features that make alerts 
     m.  **aggregation**
 
 aggregation:
-schedule: '2 4 ** mon,fri'
+schedule: '2 4 ** mon, fri'
 
 aggregation:
 hours: 2

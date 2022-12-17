@@ -68,7 +68,7 @@ mylistis an *iterable*. When you use a list comprehension, you create a list, an
 1
 4
 
-Everything you can use "for... in..." on is an iterable;lists,strings, files...
+Everything you can use "for... in..." on is an iterable;lists, strings, files...
 
 These iterables are handy because you can read them as much as you wish, but you store all the values in memory and this is not always what you want when you have a lot of values.
 

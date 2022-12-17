@@ -21,7 +21,7 @@ Consistency levels from Werner Vogel's [Eventually Consistent](http://delivery.a
 - **Monotonic write consistency-** writes within a process are serialized
 - **Read-your-writes consistency-** reads after a write return the updated version
 - **Session consistency-** reads after writes are always correct within a given session
-- **Read level,write level**and**replica level**are the number of nodes in a distributed storage system involved in the reading, writing and replication of a piece of data. The [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf) describes this approach in some detail, and it's used heavily by both Cassandra and MongoDB as well (among many others)
+- **Read level, write level**and**replica level**are the number of nodes in a distributed storage system involved in the reading, writing and replication of a piece of data. The [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf) describes this approach in some detail, and it's used heavily by both Cassandra and MongoDB as well (among many others)
 | Strong Consistency   | See all previous writes.            |
 |----------------------|-------------------------------------|
 | Eventual Consistency | See subset of previous writes.      |

@@ -110,11 +110,11 @@ df_segmentation.corr()
 
 fromsklearn.preprocessingimportStandardScaler
 
-# Standardizingdata,sothatallfeatureshaveequalweight.Thisisimportantformodelling
+# Standardizingdata, sothatallfeatureshaveequalweight.Thisisimportantformodelling
 
-# Otherwise,inourcaseIncomewouldbeconsideredmuchmoreimportantthanEducationforInstance
+# Otherwise, inourcaseIncomewouldbeconsideredmuchmoreimportantthanEducationforInstance
 
-# Wedonotknowifthisisthecase,sowewouldnotliketointroduceittoourmodel
+# Wedonotknowifthisisthecase, sowewouldnotliketointroduceittoourmodel
 
 # Thisiswhatisalsoreferedtoasbias
 
@@ -147,11 +147,11 @@ segmentation_std=scaler.fit_transform(df_segmentation)
 
 # HierarchicalclusteringwiththeSciPylibrary.We'llusethedendrogramandlinkagemodules
 
-fromscipy.cluster.hierarchyimportdendrogram,linkage
+fromscipy.cluster.hierarchyimportdendrogram, linkage
 
 # PerformHierarchicalClustering.Theresultsarereturnedasalinkagematrix
 
-hier_clust=linkage(segmentation_std,method='ward')
+hier_clust=linkage(segmentation_std, method='ward')
 
 # WeplottheresultsfromtheHierarchicalClusteringusingaDendrogram
 

@@ -6,7 +6,7 @@ Modified: 2022-04-29 22:09:09 +0500
 
 ---
 
-A good question is the one that lets you obtain the**type,quality,** and **quantity** of information you need.
+A good question is the one that lets you obtain the**type, quality,** and **quantity** of information you need.
 
 Here are some basic but very effective types:
 

@@ -73,7 +73,7 @@ Redis streams support all the three query modes described above via different co
 
 ## Querying by range: XRANGE and XREVRANGE
 
-To query the stream by range we are only required to specify two IDs,startandend. The range returned will include the elements having start or end as ID, so the range is inclusive. The two special IDs-and+respectively means the smallest and the greatest ID possible.
+To query the stream by range we are only required to specify two IDs, startandend. The range returned will include the elements having start or end as ID, so the range is inclusive. The two special IDs-and+respectively means the smallest and the greatest ID possible.
 
 > XRANGE mystream - +
 
@@ -223,7 +223,7 @@ Redis Streams allows for both At-most-once or At-least-once (explicit acknowledg
 
 ## Blocking mode for consumers
 
-Pub/Sub is blocking-mode only. Once subscribed to a channel, the client is put into subscriber mode and it cannot issue commands (except for [P]SUBSCRIBE, [P]UNSUBSCRIBE,PINGandQUIT), it has become read-only.
+Pub/Sub is blocking-mode only. Once subscribed to a channel, the client is put into subscriber mode and it cannot issue commands (except for [P]SUBSCRIBE, [P]UNSUBSCRIBE, PINGandQUIT), it has become read-only.
 Redis Streams allows consumers to read messages in blocking mode or not.
 
 ## Fan-out

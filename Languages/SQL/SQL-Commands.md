@@ -62,7 +62,7 @@ This will select all movies that starts with D, E, F and not G.
 
 CASE
 
-[CASE](https://postgresweekly.com/link/77475/cb6defc36e) expression is essentially the 'if/then' of the SQL world. Given one value,CASEcan return another of your choice -- but did you know you're able to use it inORDER BYclauses to define custom orders based upon other values?
+[CASE](https://postgresweekly.com/link/77475/cb6defc36e) expression is essentially the 'if/then' of the SQL world. Given one value, CASEcan return another of your choice -- but did you know you're able to use it inORDER BYclauses to define custom orders based upon other values?
 
 Here's a simple use case. Let's say you have a table listing employees and their job titles:
 
@@ -164,7 +164,7 @@ FROM table_name
 
 WHERE column_name
 
-IN (value1,value2,..)
+IN (value1, value2,..)
 
 OR
 

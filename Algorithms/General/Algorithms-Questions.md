@@ -49,7 +49,7 @@ return max_so_far
 
 import sys
 
-def maxSubArraySum(a,size):
+def maxSubArraySum(a, size):
 
 max_so_far = -sys.maxsize - 1
 
@@ -71,7 +71,7 @@ return max_so_far
 
 ## # getting start and end of subarray
 
-def maxSubArraySum(a,size):
+def maxSubArraySum(a, size):
 
 max_so_far = -sys.maxsize - 1
 
@@ -83,7 +83,7 @@ end = 0
 
 s = 0
 
-for i in range(0,size):
+for i in range(0, size):
 
 max_ending_here += a[i]
 

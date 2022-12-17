@@ -15,7 +15,7 @@ The following policies are available:
 - **allkeys-random:** evict keys randomly in order to make space for the new data added.
 - **volatile-random:** evict keys randomly in order to make space for the new data added, but only evict keys with anexpire set.
 - **volatile-ttl:** evict keys with anexpire set, and try to evict keys with a shorter time to live (TTL) first, in order to make space for the new data added.
-The policies**volatile-lru,volatile-random**and**volatile-ttl**behave like **noeviction** if there are no keys to evict matching the prerequisites.
+The policies**volatile-lru, volatile-random**and**volatile-ttl**behave like **noeviction** if there are no keys to evict matching the prerequisites.
 Picking the right eviction policy is important depending on the access pattern of your application, however you can reconfigure the policy at runtime while the application is running, and monitor the number of cache misses and hits using the Redis [INFO](https://redis.io/commands/info) output in order to tune your setup.
 In general as a rule of thumb:
 - Use the**allkeys-lru**policy when you expect a power-law distribution in the popularity of your requests, that is, you expect that a subset of elements will be accessed far more often than the rest.**This is a good pick if you are unsure.**

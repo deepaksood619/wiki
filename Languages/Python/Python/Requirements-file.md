@@ -30,7 +30,7 @@ Python dependency management and packaging made easy.
 
 poetryis a tool to handle dependency installation as well as building and packaging of Python packages. It only needs one file to do all of that: the new, [standardized](https://www.python.org/dev/peps/pep-0518/) pyproject.toml
 
-In other words, poetry usespyproject.tomlto replacesetup.py,requirements.txt,setup.cfg,MANIFEST.inand the newly addedPipfile
+In other words, poetry usespyproject.tomlto replacesetup.py, requirements.txt, setup.cfg, MANIFEST.inand the newly addedPipfile
 
 ## Features
 
@@ -40,7 +40,7 @@ In other words, poetry usespyproject.tomlto replacesetup.py,requirements.txt,set
 - The dependencies sections support caret, tilde, wildcard, inequality and multiple requirements.
 - You must specify the python versions for which your package is compatible.
 
-poetrywill also detect if you are inside a virtualenv and install the packages accordingly. So,poetrycan be installed globally and used everywhere.
+poetrywill also detect if you are inside a virtualenv and install the packages accordingly. So, poetrycan be installed globally and used everywhere.
 
 poetryalso comes with a full fledged dependency resolution library.
 

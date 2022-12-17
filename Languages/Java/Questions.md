@@ -172,7 +172,7 @@ This method is used to get the primitive data type of a certain String.
 
 ## Why is String class considered immutable?
 
-The String class is immutable, so that once it is created a String object cannot be changed. Since String is immutable it can safely be shared between many threads ,which is considered very important for multithreaded programming.
+The String class is immutable, so that once it is created a String object cannot be changed. Since String is immutable it can safely be shared between many threads , which is considered very important for multithreaded programming.
 
 ## Why is StringBuffer called mutable?
 

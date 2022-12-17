@@ -48,7 +48,7 @@ Figuratively structured like a tree, supports linear time lookup. Built by stori
 
 ## [Inverted index](https://en.wikipedia.org/wiki/Inverted_index)
 
-Stores a list of occurrences of each atomic search criterion,typically in the form of a [hash table](https://en.wikipedia.org/wiki/Hash_table) or [binary tree](https://en.wikipedia.org/wiki/Binary_tree).
+Stores a list of occurrences of each atomic search criterion, typically in the form of a [hash table](https://en.wikipedia.org/wiki/Hash_table) or [binary tree](https://en.wikipedia.org/wiki/Binary_tree).
 [**Citation index**](https://en.wikipedia.org/wiki/Citation_index)
 
 Stores citations or hyperlinks between documents to support citation analysis, a subject of [bibliometrics](https://en.wikipedia.org/wiki/Bibliometrics).

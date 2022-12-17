@@ -74,7 +74,7 @@ Shows the number of observations of a particular variable for given interval, su
 
 6. **Correlation**
 
-Comparison between observations represented by two variables (X,Y) to determine if they tend to move in the same or opposite directions. For example, plotting unemployment (X) and inflation (Y) for a sample of months. A [scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) is typically used for this message.
+Comparison between observations represented by two variables (X, Y) to determine if they tend to move in the same or opposite directions. For example, plotting unemployment (X) and inflation (Y) for a sample of months. A [scatter plot](https://en.wikipedia.org/wiki/Scatter_plot) is typically used for this message.
 
 7. **Nominal comparison**
 

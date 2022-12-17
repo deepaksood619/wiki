@@ -15,4 +15,4 @@ where the Greek letter [phi](https://en.wikipedia.org/wiki/Phi_(letter))(ϕorφ)
 The Geometric Relationship -
 
 ![image](media/Golden-Ratio---phi-image3.png)
-The golden ratio is also called the**golden mean**or**golden section**(Latin:*sectio aurea*).Other names include**extreme and mean ratio**, **medial section**, **divine proportion**, **divine section** (Latin:*sectio divina*), **golden proportion**, **golden cut**,and**golden number**.
+The golden ratio is also called the**golden mean**or**golden section**(Latin:*sectio aurea*).Other names include**extreme and mean ratio**, **medial section**, **divine proportion**, **divine section** (Latin:*sectio divina*), **golden proportion**, **golden cut**, and**golden number**.

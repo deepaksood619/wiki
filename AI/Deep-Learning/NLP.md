@@ -73,7 +73,7 @@ Industrial-Strength Natural Language Processing
 
 ## Gensim (Topic Modeling for Humans)
 
-Gensim is a Python library fortopic modeling,document indexingandsimilarity retrievalwith large corpora. Target audience is thenatural language processing(NLP) andinformation retrieval(IR) community.
+Gensim is a Python library fortopic modeling, document indexingandsimilarity retrievalwith large corpora. Target audience is thenatural language processing(NLP) andinformation retrieval(IR) community.
 
 <https://github.com/parulsethi/gensim>
 
@@ -101,7 +101,7 @@ Gensim is a Python library fortopic modeling,document indexingandsimilarity retr
 - Cosine similarity
 - Jaccard index
 - Sorensen-Dice coefficient
-- Overlap coefficient (i.e.,Szymkiewicz-Simpson)
+- Overlap coefficient (i.e., Szymkiewicz-Simpson)
 
 <https://github.com/luozhouyang/python-string-similarity#python-string-similarity>
 

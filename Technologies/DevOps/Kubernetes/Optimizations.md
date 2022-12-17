@@ -8,17 +8,17 @@ Modified: 2020-07-08 20:26:01 +0500
 
 - **Reserving Resources For The System and Kubelet**
 
-# Capture resource reservation for kubernetes system daemons like thekubelet,container runtime,node problem detector, etc
+# Capture resource reservation for kubernetes system daemons like thekubelet, container runtime, node problem detector, etc
 
---kube-reserved cpu=250m,memory=1Gi,ephemeral-storage=1Gi
+--kube-reserved cpu=250m, memory=1Gi, ephemeral-storage=1Gi
 
 # Capture resources for vital system functions, such assshd, udev
 
---system-reserved cpu=250m,memory=0.2Gi,ephemeral-storage=1Gi
+--system-reserved cpu=250m, memory=0.2Gi, ephemeral-storage=1Gi
 
 # Start evicting pods from this node once these thresholds are crossed
 
---eviction-hard memory.available<0.2Gi,nodefs.available<10%
+--eviction-hard memory.available<0.2Gi, nodefs.available<10%
 
 - **Network Stack Optimisation**
 

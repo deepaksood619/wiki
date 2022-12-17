@@ -127,4 +127,4 @@ print(a | b)
 
 - New Python Parser
 
-The new parser, based onPEG,will allow the Python developers significantly more flexibility
+The new parser, based onPEG, will allow the Python developers significantly more flexibility

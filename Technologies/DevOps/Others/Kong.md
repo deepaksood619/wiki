@@ -50,7 +50,7 @@ If you are building for web, mobile or IoT (Internet of Things) you will likely 
 
 helm install --name kg
 
---set=admin.type=ClusterIP,proxy.type=LoadBalancer,proxy.loadBalancerIP=104.211.225.153
+--set=admin.type=ClusterIP, proxy.type=LoadBalancer, proxy.loadBalancerIP=104.211.225.153
 
 --namespace kong
 

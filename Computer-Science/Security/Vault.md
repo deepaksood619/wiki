@@ -15,7 +15,7 @@ Vault was built to solve the secret sprawl problem in a user-friendly and audita
 
 Arbitrary key/value secrets can be stored in Vault. Vault encrypts these secrets prior to writing them to persistent storage, so gaining access to the raw storage isn't enough to access your secrets. Vault can write to disk, [Consul](https://www.consul.io/), and more.-   **Dynamic Secrets**
 
-Vault can generate secrets on-demand for some systems, such as AWS or SQL databases. For example, when an application needs to access an S3 bucket, it asks Vault for credentials, and Vault will generate an AWS keypair with valid permissions on demand. After creating these dynamic secrets, Vault will also automatically revoke them after the lease is up. Thus, even if the system is breached,the attacker only has a short window of opportunity before the secret gets re-generated and access is revoked.-   **Data Encryption**
+Vault can generate secrets on-demand for some systems, such as AWS or SQL databases. For example, when an application needs to access an S3 bucket, it asks Vault for credentials, and Vault will generate an AWS keypair with valid permissions on demand. After creating these dynamic secrets, Vault will also automatically revoke them after the lease is up. Thus, even if the system is breached, the attacker only has a short window of opportunity before the secret gets re-generated and access is revoked.-   **Data Encryption**
 
 Vault can encrypt and decrypt data without storing it. This allows security teams to define encryption parameters and developers to store encrypted data in a location such as SQL without having to design their own encryption methods.-   **Leasing and Renewal**
 

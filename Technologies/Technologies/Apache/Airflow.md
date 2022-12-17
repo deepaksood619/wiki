@@ -18,9 +18,9 @@ Airflow is a WMS (Workflow Management System) that defines tasks and and their d
 
 Workflows in Airflow are collections of tasks that have directional dependencies. Specifically, Airflow uses directed acyclic graphs --- or DAG for short --- to represent a workflow. Each node in the graph is a task, and edges define dependencies amongst tasks (The graph is enforced to be acyclic so that there are no circular dependencies that can cause infinite execution loops).
 
-At a high level, a DAG can be thought of as a container that holds tasks and their dependencies, and sets the context for when and how those tasks should be executed. Each DAG has a set of properties, most important of which are itsdag_id, a unique identifier amongst all DAGs, itsstart_date, the point in time at which the DAG's tasks are to begin executing, and theschedule_interval, or how often the tasks are to be executed. In addition to thedag_id,start_date, andschedule_interval, each DAG can be initialized with a set ofdefault_arguments. These default arguments are inherited by all tasks in the DAG.
+At a high level, a DAG can be thought of as a container that holds tasks and their dependencies, and sets the context for when and how those tasks should be executed. Each DAG has a set of properties, most important of which are itsdag_id, a unique identifier amongst all DAGs, itsstart_date, the point in time at which the DAG's tasks are to begin executing, and theschedule_interval, or how often the tasks are to be executed. In addition to thedag_id, start_date, andschedule_interval, each DAG can be initialized with a set ofdefault_arguments. These default arguments are inherited by all tasks in the DAG.
 
-## Operators,Sensors, and Tasks
+## Operators, Sensors, and Tasks
 
 Although the DAG is used to organize tasks and set their execution context, DAGs do not perform any actual computation. Instead, **tasks** are the element of Airflow that actually "do the work" we want performed. Tasks can have two flavors: they can either execute some explicit operation, in which case they are an **Operator**, orthey can pause the execution of dependent tasks until some criterion has been met, in which case they are a **Sensor**.In principle, Operators can perform any function that can be executed in Python. Similarly, Sensors can check the state of any process or data structure.
 

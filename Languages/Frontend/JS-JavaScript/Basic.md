@@ -28,7 +28,7 @@ Undefined is the absence of a definition. It is used as the default value for un
 
 7. Symbol (ES6)
 
-## Falsy values:"",0,null,undefined,NaN,false
+## Falsy values:"",0, null, undefined, NaN, false
 
 ## Truthy values : 'hello', '0', ' ', ([]), (function() {})
 
@@ -723,7 +723,7 @@ Spread syntax(...) allows an iterable such as an array expression or string to b
 <https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter>
 
 - Object destructuring is new syntax introduced in ES6. It helps create variables by extracting the object's properties in a much simpler way.
-- If you are working with (or planning to use) a framework/library likeangular,react, orvue, you will be using a lot of object destructuring syntax.
+- If you are working with (or planning to use) a framework/library likeangular, react, orvue, you will be using a lot of object destructuring syntax.
 - Object destructuring and Spread syntax are not the same thing.
 - Spreadsyntax (also known as the Spread Operator) is used to copy the enumerable properties of an object to create a clone of it. We can also update an object or merge with another object using the spread syntax.
 - TheRestparameter is kind of the opposite of theSpreadsyntax. It helps to consolidate (or collect) the remaining object properties into a new object while destructuring is done.

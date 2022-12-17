@@ -27,7 +27,7 @@ Data applications built with Dagster will have the following properties:
 - Executable in a number of environments --- locally, within CI/CD pipelines, staging, production so forth --- by having first-class abstractions that allow an author to modify their computing environment/context while leaving their business logic unchanged.
 - Designed for local development, with an out-of-the-box IDE-esque tool called Dagit.
 - Monitorable by emitting a structured stream of events during computation, rather than solely relying on unstructured logging. These events describes the semantic meaning of a computation using a well-defined API, consumable and interpretable by tooling.
-- Able to describe their data using a type system which isgradual,flexible,andoptional, allowing for incremental adoption. It is designed to supplement, not supplant, the type system of language or system that defines the actual computation.
+- Able to describe their data using a type system which isgradual, flexible, andoptional, allowing for incremental adoption. It is designed to supplement, not supplant, the type system of language or system that defines the actual computation.
 - Designed for reuse. Solids describe their metadata, types, configuration, and resource requirements and are potentially reusable within many contexts.
 - A typed configuration system, which enables high-quality error messages and tooling support, such as the config editor provided within Dagit.
 - Targets existing computational infrastructure --- e.g. Kubernetes, Airflow, Dask, FaaS platforms, etc--- for scheduling and execution in a pluggable fashion. Airflow and Dask initially supported.

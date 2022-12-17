@@ -124,7 +124,7 @@ df.dropna() - Drops all rows that contain null values
 
 df.dropna(axis=1) - Drops all columns that contain null values
 
-df.dropna(axis=1,thresh=n) - Drops all rows have less than n non null values
+df.dropna(axis=1, thresh=n) - Drops all rows have less than n non null values
 
 df.fillna(s.mean()) - Replaces all null values with the mean (mean can be replaced with almost any function from the statistics section)
 
@@ -160,7 +160,7 @@ df.sort_values(col1) - Sorts values by col1 in ascending order
 
 df.sort_values(col2, ascending=False) - Sorts values by col2 in descending order
 
-df.sort_values([col1, col2], ascending=[True,False]) - Sorts values by col1 in ascending order then col2 in descending order
+df.sort_values([col1, col2], ascending=[True, False]) - Sorts values by col1 in ascending order then col2 in descending order
 
 df.groupby(col) - Returns a groupby object for values from one column
 
@@ -168,7 +168,7 @@ df.groupby([col1, col2]) - Returns a groupby object values from multiple columns
 
 df.groupby[col1](col2).mean() - Returns the mean of the values in col2, grouped by the values in col1 (mean can be replaced with almost any function from the statistics section)
 
-df.pivot_table(index=col1, values=[col2,col3],aggfunc=mean) - Creates a pivot table that groups by col1 and calculates the mean of col2 and col3
+df.pivot_table(index=col1, values=[col2, col3], aggfunc=mean) - Creates a pivot table that groups by col1 and calculates the mean of col2 and col3
 
 df.groupby(col1).agg(np.mean) - Finds the average across all columns for every unique column 1 group
 

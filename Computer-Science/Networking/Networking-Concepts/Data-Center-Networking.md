@@ -24,7 +24,7 @@ DCell is a server-centric hybrid DCN architecture where one server is directly c
 
 ## Others
 
-Some of the other well-known DCNs include BCube,Camcube,FiConn,Jelly fishand Scafida. A qualitative discussion of different DCNs along with benefits and drawbacks associated with each one has been made available.
+Some of the other well-known DCNs include BCube, Camcube, FiConn, Jelly fishand Scafida. A qualitative discussion of different DCNs along with benefits and drawbacks associated with each one has been made available.
 <https://en.wikipedia.org/wiki/Data_center_network_architectures>
 
 ## Torus Interconnect**
