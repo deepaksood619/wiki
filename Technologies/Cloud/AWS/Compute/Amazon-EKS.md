@@ -37,51 +37,41 @@ All managed nodes are provisioned as part of an Amazon EC2 Auto Scaling group th
 
 ## Commands
 
-# Get authentication Token
+### Get authentication Token
+```bash
+kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
 
-## kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
-
-## kubectl proxy
+kubectl proxy
 
 <http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#!/login>
-
-## Commands
+```
 
 ## AWS EKS
 
-## #Adding users to eks
-
+```bash
+#Adding users to eks
 kubectl describe configmap -n kube-system aws-auth
 
 mapUsers:
-
 ----
+- userarn: arn:aws:iam::331916247734:user/deepak.sood@stashfin.com
+    username: deepak.sood
+    groups:
+    - system:masters
 
-- userarn: arn:aws:iam::331916247734:user/username@example.com
+    https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html
 
-username: username
-
-groups:
-
-- system:masters
-
-<https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html>
-
-## #get kubeconfig credentials from eks to local
-
+#get kubeconfig credentials from eks to local
 aws eks --region ap-south-1 list-clusters
+aws eks --region ap-south-1 update-kubeconfig --name stashfin-dev-eks
+aws eks --region ap-south-1 update-kubeconfig --name stashfin-prod-eks
 
-aws eks --region ap-south-1 update-kubeconfig --name example-dev-eks
-
-aws eks --region ap-south-1 update-kubeconfig --name example-prod-eks
-
-## #login to AWS ECR
-
+#login to AWS ECR
 aws ecr get-login-password | docker login --username AWS --password-stdin 331916247734.dkr.ecr.ap-south-1.amazonaws.com
-
+```
 ## eksctl
 
-eksctlis a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by [Weaveworks](https://www.weave.works/) and it welcomes contributions from the community. Create a basic cluster in minutes with just one command
+eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, uses CloudFormation, was created by [Weaveworks](https://www.weave.works/) and it welcomes contributions from the community. Create a basic cluster in minutes with just one command
 
 A cluster will be created with default parameters
 
@@ -97,57 +87,40 @@ A cluster will be created with default parameters
 
 ∙ using static AMI resolver
 
+```bash
 eksctl create cluster --name prod --version 1.14 --region ap-south-1 --fargate
-
-eksctl create cluster --name=example --nodes=2 --version 1.14 --region ap-south-1 --nodes-min=2 --nodes-max=5
-
-eksctl delete cluster --name=example
+eksctl create cluster --name=stashfin --nodes=2 --version 1.14 --region ap-south-1 --nodes-min=2 --nodes-max=5
+eksctl delete cluster --name=stashfin
 
 eksctl create cluster --managed
 
-<https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html>
+https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html
 
-## brew tap weaveworks/tap
-
-## brew install weaveworks/tap/eksctl
-
-## brew upgrade eksctl && brew link --overwrite eksctl
-
-## eksctl version
+brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
+brew upgrade eksctl && brew link --overwrite eksctl
+eksctl version
 
 Usage: eksctl [command] [flags]
 
 Commands:
+    eksctl create                  Create resource(s)
+    eksctl get                     Get resource(s)
+    eksctl get cluster
+    eksctl update                  Update resource(s)
+    eksctl upgrade                 Upgrade resource(s)
+    eksctl delete                  Delete resource(s)
+    eksctl set                     Set values
+    eksctl unset                   Unset values
+    eksctl scale                   Scale resources(s)
+    eksctl drain                   Drain resource(s)
+    eksctl utils                   Various utils
+    eksctl completion              Generates shell completion scripts
+    eksctl version                 Output the version of eksctl
+    eksctl help                    Help about any command
 
-eksctl create Create resource(s)
-
-eksctl get Get resource(s)
-
-## eksctl get cluster
-
-eksctl update Update resource(s)
-
-eksctl upgrade Upgrade resource(s)
-
-eksctl delete Delete resource(s)
-
-eksctl set Set values
-
-eksctl unset Unset values
-
-eksctl scale Scale resources(s)
-
-eksctl drain Drain resource(s)
-
-eksctl utils Various utils
-
-eksctl completion Generates shell completion scripts
-
-eksctl version Output the version of eksctl
-
-eksctl help Help about any command
-
-eksctl utils write-kubeconfig --cluster=example [--kubeconfig=<path>][--set-kubeconfig-context=<bool>]
+eksctl utils write-kubeconfig --cluster=stashfin [--kubeconfig=<path>][--set-kubeconfig-context=<bool>] 
+```
 
 <https://eksctl.io>
 
@@ -158,9 +131,9 @@ eksctl utils write-kubeconfig --cluster=example [--kubeconfig=<path>][--set-kube
 ## Reserve some memory for the kubelet and the system namespaces (for Kubelet OOM)
 
 Using Cloudformation you can simply set some extra arguments on the kubelet process:
-
+```bash
 --kubelet-extra-args "--node-labels=cluster=${ClusterName},nodegroup=${NodeGroupName} --kube-reserved memory=0.3Gi,ephemeral-storage=1Gi --system-reserved memory=0.2Gi,ephemeral-storage=1Gi --eviction-hard memory.available<200Mi,nodefs.available<10%"
-
+```
 In that case you reserve 300MB for the kube-system namespace and 200 MB for the system itself.
 
 In addition if there are less than 200 MB available the eviction option uses the oom_killer to kill pods on that node to avoid OOM errors on the Kubelet.
@@ -179,33 +152,13 @@ Can be modified once in 6 hours
 
 kube2iam provides different AWS IAM roles for pods running on Kubernetes
 
-## EKS 1.17
-
-Upgrading your EKS cluster to [v1.17](http://v1.17/)
-
-What needs to be taken care of..!
-
-Breaking Points in k8s v1.17:
-
-𝟏.[𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏𝙖𝙡𝙥𝙝𝙖𝟏](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F%F0%9D%99%96%F0%9D%99%A1%F0%9D%99%A5%F0%9D%99%9D%F0%9D%99%96%F0%9D%9F%8F) and [𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏𝙗𝙚𝙩𝙖𝟏](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F%F0%9D%99%97%F0%9D%99%9A%F0%9D%99%A9%F0%9D%99%96%F0%9D%9F%8F) API groups are deprecated in favor of [𝙧𝙗𝙖𝙘.𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙖𝙩𝙞𝙤𝙣.𝙠𝟖𝙨.𝙞𝙤/𝙫𝟏,](http://rbac.authorization.k8s.io/%F0%9D%99%AB%F0%9D%9F%8F,) and will no longer be served in [𝘃𝟭.𝟮𝟬.](http://v1.20./)
-
-𝟐. Also, ([𝙗𝙚𝙩𝙖.𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚-𝙩𝙮𝙥𝙚)](http://beta.kubernetes.io/%F0%9D%99%9E%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A9%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A-%F0%9D%99%A9%F0%9D%99%AE%F0%9D%99%A5%F0%9D%99%9A)) is deprecated in favor of [𝙣𝙤𝙙𝙚.𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙞𝙣𝙨𝙩𝙖𝙣𝙘𝙚-𝙩𝙮𝙥𝙚](http://node.kubernetes.io/%F0%9D%99%9E%F0%9D%99%A3%F0%9D%99%A8%F0%9D%99%A9%F0%9D%99%96%F0%9D%99%A3%F0%9D%99%98%F0%9D%99%9A-%F0%9D%99%A9%F0%9D%99%AE%F0%9D%99%A5%F0%9D%99%9A)
-
-𝟑. Start using the 𝘼𝙒𝙎 𝙀𝘽𝙎 𝘾𝙎𝙄 𝘿𝙧𝙞𝙫𝙚𝙧 directly for any new volumes, instead of in-tree AWS EBS plugin [𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙖𝙬𝙨-𝙚𝙗𝙨](http://kubernetes.io/%F0%9D%99%96%F0%9D%99%AC%F0%9D%99%A8-%F0%9D%99%9A%F0%9D%99%97%F0%9D%99%A8)
-
-𝟒. Even EKS hasn't enabled the 𝘊𝘚𝘐𝘔𝘪𝘨𝘳𝘢𝘵𝘪𝘰𝘯𝘈𝘞𝘚(It enable the replacement of existing in-tree storage plugins such as 𝙠𝙪𝙗𝙚𝙧𝙣𝙚𝙩𝙚𝙨.𝙞𝙤/𝙖𝙬𝙨-𝙚𝙗𝙨 with a corresponding CSI driver), for details kindly go through this:<https://lnkd.in/gBsZ4hQ>
-
-For further details:<https://lnkd.in/gwD9BQM>
-
-What's new in k8s v1.17:<https://lnkd.in/gSXZatU>
-
 ## IAM Roles for Service Accounts (IRSA)
 
 <https://aws.amazon.com/blogs/opensource/introducing-fine-grained-iam-roles-service-accounts>
 
 ## Max number of pods
 
-max pods = (Number of network interfaces for the instance type × (the number of IP addressess per network interface - 1)) + 2
+`max pods = (Number of network interfaces for the instance type × (the number of IP addressess per network interface - 1)) + 2`
 
 ## Pod Density and Cost EKS (WeaveWorks)
 
