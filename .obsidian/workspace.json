@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md"
+                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
+    "Languages/Others/Regular-Expressions---Regex.md",
     "Knowledge/Management/Product-Management/product-terms-tools.md",
     "Technologies/Technologies/Others/Others.md",
     "Technologies/Cloud/Others/Others---SAAS.md",
@@ -191,7 +192,6 @@
     "Office/Projects/Projects.md",
     "Office/Stashfin/Tech-Stack---Infra.md",
     "Office/Stashfin/media/stashfin-infra.drawio.png",
-    "Office/Personality/Interviews.md",
-    "Office/Personality/Resumes---Jobs---Companies---Company.md"
+    "Office/Personality/Interviews.md"
   ]
 }

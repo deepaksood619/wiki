@@ -48,165 +48,165 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_acronym.asp">&lt;acronym&gt;</a></td>
-<td><p>Not supported in HTML5. Use &lt;abbr&gt; instead.</p>
+<td><a href="https://www.w3schools.com/tags/tag_acronym.asp">`< acronym >`</a></td>
+<td><p>Not supported in HTML5. Use `< abbr >` instead.</p>
 <p>Defines an acronym</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_abbr.asp">&lt;abbr&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_abbr.asp">`< abbr >`</a></td>
 <td>Defines an abbreviation or an acronym</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_address.asp">&lt;address&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_address.asp">`< address >`</a></td>
 <td>Defines contact information for the author/owner of a document/article</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_b.asp">&lt;b&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_b.asp">`< b >`</a></td>
 <td>Defines bold text</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_bdi.asp">&lt;bdi&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_bdi.asp">`< bdi >`</a> #</td>
 <td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_bdo.asp">&lt;bdo&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_bdo.asp">`< bdo >`</a></td>
 <td>Overrides the current text direction</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_big.asp">&lt;big&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_big.asp">`< big >`</a></td>
 <td><p>Not supported in HTML5. Use CSS instead.</p>
 <p>Defines big text</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_blockquote.asp">&lt;blockquote&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_blockquote.asp">`< blockquote >`</a></td>
 <td>Defines a section that is quoted from another source</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_center.asp">&lt;center&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_center.asp">`< center >`</a></td>
 <td><p>Not supported in HTML5. Use CSS instead.</p>
 <p>Defines centered text</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_cite.asp">&lt;cite&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_cite.asp">`< cite >`</a></td>
 <td>Defines the title of a work</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_code.asp">&lt;code&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_code.asp">`< code >`</a></td>
 <td>Defines a piece of computer code</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_del.asp">&lt;del&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_del.asp">`< del >`</a></td>
 <td>Defines text that has been deleted from a document</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_dfn.asp">&lt;dfn&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_dfn.asp">`< dfn >`</a></td>
 <td>Represents the defining instance of a term</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_em.asp">&lt;em&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_em.asp">`< em >`</a></td>
 <td>Defines emphasized text</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_font.asp">&lt;font&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_font.asp">`< font >`</a></td>
 <td><p>Not supported in HTML5. Use CSS instead.</p>
 <p>Defines font, color, and size for text</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_i.asp">&lt;i&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_i.asp">`< i >`</a></td>
 <td>Defines a part of text in an alternate voice or mood</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_ins.asp">&lt;ins&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_ins.asp">`< ins >`</a></td>
 <td>Defines a text that has been inserted into a document</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_kbd.asp">&lt;kbd&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_kbd.asp">`< kbd >`</a></td>
 <td>Defines keyboard input</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_mark.asp">&lt;mark&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_mark.asp">`< mark >`</a> #</td>
 <td>Defines marked/highlighted text</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_meter.asp">&lt;meter&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_meter.asp">`< meter >`</a> #</td>
 <td>Defines a scalar measurement within a known range (a gauge)</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_pre.asp">&lt;pre&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_pre.asp">`< pre >`</a></td>
 <td>Defines preformatted text</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_progress.asp">&lt;progress&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_progress.asp">`< progress >`</a> #</td>
 <td>Represents the progress of a task</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_q.asp">&lt;q&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_q.asp">`< q >`</a></td>
 <td>Defines a short quotation</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_rp.asp">&lt;rp&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_rp.asp">`< rp >`</a> #</td>
 <td>Defines what to show in browsers that do not support ruby annotations</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_rt.asp">&lt;rt&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_rt.asp">`< rt >`</a> #</td>
 <td>Defines an explanation/pronunciation of characters (for East Asian typography)</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_ruby.asp">&lt;ruby&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_ruby.asp">`< ruby >`</a> #</td>
 <td>Defines a ruby annotation (for East Asian typography)</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_s.asp">&lt;s&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_s.asp">`< s >`</a></td>
 <td>Defines text that is no longer correct</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_samp.asp">&lt;samp&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_samp.asp">`< samp >`</a></td>
 <td>Defines sample output from a computer program</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_small.asp">&lt;small&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_small.asp">`< small >`</a></td>
 <td>Defines smaller text</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_strike.asp">&lt;strike&gt;</a></td>
-<td><p>Not supported in HTML5. Use &lt;del&gt; or &lt;s&gt; instead.</p>
+<td><a href="https://www.w3schools.com/tags/tag_strike.asp">`< strike >`</a></td>
+<td><p>Not supported in HTML5. Use `< del&gt; or &lt;s >` instead.</p>
 <p>Defines strikethrough text</p></td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_strong.asp">&lt;strong&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_strong.asp">`< strong >`</a></td>
 <td>Defines important text</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_sub.asp">&lt;sub&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_sub.asp">`< sub >`</a></td>
 <td>Defines subscripted text</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_sup.asp">&lt;sup&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_sup.asp">`< sup >`</a></td>
 <td>Defines superscripted text</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_template.asp">&lt;template&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_template.asp">`< template >`</a> #</td>
 <td>Defines a template, contains content that is hidden from the user, but will be used to instantiate HTML code repeatedly.</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_time.asp">&lt;time&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_time.asp">`< time >`</a> #</td>
 <td>Defines a date/time</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_tt.asp">&lt;tt&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_tt.asp">`< tt >`</a></td>
 <td><p>Not supported in HTML5. Use CSS instead.</p>
 <p>Defines teletype text</p></td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_u.asp">&lt;u&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_u.asp">`< u >`</a></td>
 <td>Defines text that should be stylistically different from normal text</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_var.asp">&lt;var&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_var.asp">`< var >`</a></td>
 <td>Defines a variable</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_wbr.asp">&lt;wbr&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_wbr.asp">`< wbr >`</a> #</td>
 <td>Defines a possible line-break (word break opportunity)</td>
 </tr>
 </tbody>
@@ -244,22 +244,22 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_frame.asp">&lt;frame&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_frame.asp">`< frame >`</a></td>
 <td><p>Not supported in HTML5.</p>
 <p>Defines a window (a frame) in a frameset</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_frameset.asp">&lt;frameset&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_frameset.asp">`< frameset >`</a></td>
 <td><p>Not supported in HTML5.</p>
 <p>Defines a set of frames</p></td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_noframes.asp">&lt;noframes&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_noframes.asp">`< noframes >`</a></td>
 <td><p>Not supported in HTML5.</p>
 <p>Defines an alternate content for users that do not support frames</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_iframe.asp">&lt;iframe&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_iframe.asp">`< iframe >`</a></td>
 <td>Defines an inline frame</td>
 </tr>
 </tbody>
@@ -280,42 +280,42 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_img.asp">&lt;img&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_img.asp">`< img >`</a></td>
 <td><p>Defines an image</p>
-<p>&lt;img src="xyz.png" alt="abc.png" loading="lazy"&gt;</p>
+<p>`< img src="xyz.png" alt="abc.png" loading="lazy" >`</p>
 <p>Image lazy loading</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_map.asp">&lt;map&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_map.asp">`< map >`</a></td>
 <td>Defines a client-side image-map</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_area.asp">&lt;area&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_area.asp">`< area >`</a></td>
 <td>Defines an area inside an image-map</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_canvas.asp">&lt;canvas&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_canvas.asp">`< canvas >`</a> #</td>
 <td>Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_figcaption.asp">&lt;figcaption&gt;</a> #</td>
-<td>Defines a caption for a &lt;figure&gt; element</td>
+<td><a href="https://www.w3schools.com/tags/tag_figcaption.asp">`< figcaption >`</a> #</td>
+<td>Defines a caption for a `< figure >` element</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_figure.asp">&lt;figure&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_figure.asp">`< figure >`</a> #</td>
 <td>Specifies self-contained content</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_picture.asp">&lt;picture&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_picture.asp">`< picture >`</a> #</td>
 <td><p>Defines a container for multiple image resources</p>
-<p>&lt;picture&gt;</p>
-<p>&lt;sourcemedia="(min-width:650px)"srcset="img_pink_flowers.jpg"&gt;</p>
-<p>&lt;sourcemedia="(min-width:465px)"srcset="img_white_flower.jpg"&gt;</p>
-<p>&lt;imgsrc="img_orange_flowers.jpg"alt="Flowers"style="width:auto;"&gt;</p>
-<p>&lt;/picture&gt;</p></td>
+<p>`< picture >`</p>
+<p>`< sourcemedia="(min-width:650px)"srcset="img_pink_flowers.jpg" >`</p>
+<p>`< sourcemedia="(min-width:465px)"srcset="img_white_flower.jpg" >`</p>
+<p>`< imgsrc="img_orange_flowers.jpg"alt="Flowers"style="width:auto;" >`</p>
+<p>`< /picture >`</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_svg.asp">&lt;svg&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_svg.asp">`< svg >`</a> #</td>
 <td>Defines a container for SVG graphics</td>
 </tr>
 </tbody>
@@ -353,40 +353,40 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_ul.asp">&lt;ul&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_ul.asp">`< ul >`</a></td>
 <td>Defines an unordered list</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_ol.asp">&lt;ol&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_ol.asp">`< ol >`</a></td>
 <td>Defines an ordered list</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_li.asp">&lt;li&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_li.asp">`< li >`</a></td>
 <td>Defines a list item</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_dir.asp">&lt;dir&gt;</a></td>
-<td><p>Not supported in HTML5. Use &lt;ul&gt; instead.</p>
+<td><a href="https://www.w3schools.com/tags/tag_dir.asp">`< dir >`</a></td>
+<td><p>Not supported in HTML5. Use `< ul >` instead.</p>
 <p>Defines a directory list</p></td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_dl.asp">&lt;dl&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_dl.asp">`< dl >`</a></td>
 <td>Defines a description list</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_dt.asp">&lt;dt&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_dt.asp">`< dt >`</a></td>
 <td>Defines a term/name in a description list</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_dd.asp">&lt;dd&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_dd.asp">`< dd >`</a></td>
 <td>Defines a description of a term/name in a description list</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_menu.asp">&lt;menu&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_menu.asp">`< menu >`</a></td>
 <td>Defines a list/menu of commands</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_menuitem.asp">&lt;menuitem&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_menuitem.asp">`< menuitem >`</a> #</td>
 <td>Defines a command/menu item that the user can invoke from a popup menu</td>
 </tr>
 </tbody>
@@ -440,19 +440,19 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_head.asp">&lt;head&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_head.asp">`< head >`</a></td>
 <td>Defines information about the document</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_meta.asp">&lt;meta&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_meta.asp">`< meta >`</a></td>
 <td>Defines metadata about an HTML document</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_base.asp">&lt;base&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_base.asp">`< base >`</a></td>
 <td>Specifies the base URL/target for all relative URLs in a document</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_basefont.asp">&lt;basefont&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_basefont.asp">`< basefont >`</a></td>
 <td><p>Not supported in HTML5. Use CSS instead.</p>
 <p>Specifies a default color, size, and font for all text in a document</p></td>
 </tr>
@@ -474,28 +474,28 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_script.asp">&lt;script&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_script.asp">`< script >`</a></td>
 <td>Defines a client-side script</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_noscript.asp">&lt;noscript&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_noscript.asp">`< noscript >`</a></td>
 <td>Defines an alternate content for users that do not support client-side scripts</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_applet.asp">&lt;applet&gt;</a></td>
-<td><p>Not supported in HTML5. Use &lt;embed&gt; or &lt;object&gt; instead.</p>
+<td><a href="https://www.w3schools.com/tags/tag_applet.asp">`< applet >`</a></td>
+<td><p>Not supported in HTML5. Use `< embed&gt; or &lt;object >` instead.</p>
 <p>Defines an embedded applet</p></td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_embed.asp">&lt;embed&gt;</a> #</td>
+<td><a href="https://www.w3schools.com/tags/tag_embed.asp">`< embed >`</a> #</td>
 <td>Defines a container for an external (non-HTML) application</td>
 </tr>
 <tr class="odd">
-<td><a href="https://www.w3schools.com/tags/tag_object.asp">&lt;object&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_object.asp">`< object >`</a></td>
 <td>Defines an embedded object</td>
 </tr>
 <tr class="even">
-<td><a href="https://www.w3schools.com/tags/tag_param.asp">&lt;param&gt;</a></td>
+<td><a href="https://www.w3schools.com/tags/tag_param.asp">`< param >`</a></td>
 <td>Defines a parameter for an object</td>
 </tr>
 </tbody>

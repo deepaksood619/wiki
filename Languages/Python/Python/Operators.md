@@ -23,9 +23,7 @@ Identity vs Equality Operators
 - Identity- Identity comparision with "is" and "is not"
 - Equality- Equality comparisons with "==" and "!="
 
-##
-
-1. Arithmetic Operators (a = 10, b = 20)
+## Arithmetic Operators (a = 10, b = 20)
 
 | **Operator**       | **Description**                                                                                                                                                                                                                                               | **Example**                                               |
 |-----------------|-----------------------------------------|---------------|
@@ -139,7 +137,7 @@ b = 0000 1101
 </tr>
 <tr class="odd">
 <td>5</td>
-<td><p>&gt;&gt; &lt;&lt;</p>
+<td><p>`>> <<`</p>
 <p>Right and left bitwise shift</p></td>
 </tr>
 <tr class="even">
@@ -154,12 +152,12 @@ b = 0000 1101
 </tr>
 <tr class="even">
 <td>8</td>
-<td><p>&lt;= &lt; &gt; &gt;=</p>
+<td><p>`<= < > >=`</p>
 <p>Comparison operators</p></td>
 </tr>
 <tr class="odd">
 <td>9</td>
-<td><p>&lt;&gt; == !=</p>
+<td><p>`<>` == !=</p>
 <p>Equality operators</p></td>
 </tr>
 <tr class="even">

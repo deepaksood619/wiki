@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Static-Code-Analysis",
+      "path": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
+    },
+    {
       "basename": "Regular-Expressions---Regex",
       "path": "Languages/Others/Regular-Expressions---Regex.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "Pinpoint---Communication---Alerting",
       "path": "Office/Projects/Pinpoint---Communication---Alerting.md"
-    },
-    {
-      "basename": "Static-Code-Analysis",
-      "path": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
     },
     {
       "basename": "Jenkins",
