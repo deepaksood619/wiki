@@ -45,7 +45,7 @@ Ubuntu Server 16.04 LTS (HVM), SSD Volume Type- ami-0c28d7c6dd94fb3a7 (64-bit x8
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>m5.large</td>
 <td>2</td>
 <td>8</td>
@@ -55,7 +55,7 @@ Ubuntu Server 16.04 LTS (HVM), SSD Volume Type- ami-0c28d7c6dd94fb3a7 (64-bit x8
 <td>$0.056</td>
 <td>$40.32</td>
 </tr>
-<tr class="even">
+<tr>
 <td>m5.xlarge</td>
 <td>4</td>
 <td>16</td>
@@ -65,7 +65,7 @@ Ubuntu Server 16.04 LTS (HVM), SSD Volume Type- ami-0c28d7c6dd94fb3a7 (64-bit x8
 <td>$0.111</td>
 <td>$79.92</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>m5.2xlarge</td>
 <td>8</td>
 <td>32</td>
@@ -75,7 +75,7 @@ Ubuntu Server 16.04 LTS (HVM), SSD Volume Type- ami-0c28d7c6dd94fb3a7 (64-bit x8
 <td>$0.222</td>
 <td>$159.84</td>
 </tr>
-<tr class="even">
+<tr>
 <td>m5.4xlarge</td>
 <td>16</td>
 <td>64</td>
@@ -85,7 +85,7 @@ Ubuntu Server 16.04 LTS (HVM), SSD Volume Type- ami-0c28d7c6dd94fb3a7 (64-bit x8
 <td>$0.444</td>
 <td>$319.68</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>m5a.8xlarge</td>
 <td>32</td>
 <td>128</td>
@@ -169,19 +169,19 @@ a - AMD CPUs
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Memory optimized</td>
 <td>R5</td>
 <td><p>Memory-intensive applications</p>
 <p>High-performance databases</p>
 <p>Distributed in-memory caches</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Storage optimized</td>
 <td>I3</td>
 <td>Workloads with high-volume IOPS requiring low-latency, internet-scale nonrelational databases</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Burstable performance</td>
 <td>T2</td>
 <td><p>Consistent cost for unpredictable workloads</p>

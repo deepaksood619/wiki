@@ -10,7 +10,7 @@ Modified: 2021-12-31 11:47:23 +0500
 
 ## A WHERE clause is a predicate. Retrieving records from a database using a projection statement like SELECT and combining it with any other clause that limits or filters your result set is considered to be a predicate. A predicate is an assertion which returns true or false. Only the true path affects the result set
 
-A predicate defines a logical condition being applied to rows in a table. SQL Predicates are found on the tail end of clauses, functions, and SQL expressions in existing query statements. It is an expression that evaluates to**TRUE**,**FALSE**, or**UNKNOWN**. Predicates are used in the search condition of**WHERE**clauses and**HAVING**clauses, the join conditions of**FROM**clauses, and other constructs where a Boolean value is required.
+A predicate defines a logical condition being applied to rows in a table. SQL Predicates are found on the tail end of clauses, functions, and SQL expressions in existing query statements. It is an expression that evaluates to **TRUE**, **FALSE**, or **UNKNOWN**. Predicates are used in the search condition of **WHERE** clauses and **HAVING** clauses, the join conditions of **FROM** clauses, and other constructs where a Boolean value is required.
 
 The Transact-SQL language supports the following predicates:
 

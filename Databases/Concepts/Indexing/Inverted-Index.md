@@ -64,7 +64,7 @@ With the preceding index, a search for+Quick +foxwouldn't match any documents. (
 Our user could reasonably expect both documents to match the query. We can do better.
 If we normalize the terms into a standardformat, then we can find documents that contain terms that are not exactly the same as the user requested, but are similar enough to still be relevant. For instance:
 - Quickcan be lowercased to becomequick.
-- foxescan be**stemmed**--reduced to its root form---to becomefox. Similarly,dogscould be stemmed todog.
+- foxescan be **stemmed**--reduced to its root form---to becomefox. Similarly,dogscould be stemmed todog.
 - jumpedandleapare synonyms and can be indexed as just the single termjump.
 Now the index looks like this:
 
@@ -85,5 +85,5 @@ the | X | X
 
 But we're not there yet. Our search for+Quick +foxwouldstillfail, because we no longer have the exact termQuickin our index. However, if we apply the same normalization rules that we used on the content field to our query string, it would become a query for+quick +fox, which would match both documents!
 *This is very important. You can find only terms that exist in your index, soboth the indexed text and the query string must be normalized into the same form.*
-This process of **tokenization** and **normalization** is called**analysis**
+This process of **tokenization** and **normalization** is called **analysis**
 <https://www.elastic.co/guide/en/elasticsearch/guide/current/inverted-index.html>

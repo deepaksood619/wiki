@@ -13,10 +13,10 @@ You can easily customize the network configuration of your Amazon VPC. For examp
 The following are the key concepts for VPCs:
 
 - A**virtual private cloud(VPC)** is a virtual network dedicated to your AWS account.
-- A**subnet**is a range of IP addresses in your VPC.
-- A**route table**contains a set of rules, calledroutes, that are used to determine where network traffic from your subnet or gateway is directed.
-- An**internet gateway**is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances in your VPC and the internet. It therefore imposes no availability risks or bandwidth constraints on your network traffic.
-- A**VPC endpoint**enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
+- A**subnet** is a range of IP addresses in your VPC.
+- A**route table** contains a set of rules, calledroutes, that are used to determine where network traffic from your subnet or gateway is directed.
+- An**internet gateway** is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances in your VPC and the internet. It therefore imposes no availability risks or bandwidth constraints on your network traffic.
+- A**VPC endpoint** enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service. Traffic between your VPC and the other service does not leave the Amazon network.
 
 <https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html>
 

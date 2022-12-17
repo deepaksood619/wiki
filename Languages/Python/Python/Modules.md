@@ -12,7 +12,7 @@ A module is a file containing Python definitions and statements. The file name i
 
 ## >>> fibo.__name__
 
-A module can contain executable statements as well as function definitions. These statements are intended to initialize the module. They are executed only the*first* time the module name is encountered in an import statement.
+A module can contain executable statements as well as function definitions. These statements are intended to initialize the module. They are executed only the *first* time the module name is encountered in an import statement.
 
 Each module has its own private symbol table, which is used as the global symbol table by all functions defined in the module.
 

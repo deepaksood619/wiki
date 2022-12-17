@@ -14,7 +14,7 @@ Used Dynamic Programming
 
 m, n = 2, 2
 
-matrix = [[1, 2],[3, 4]]
+matrix = [[1, 2], [3, 4]]
 
 memo = [[0 for x in range(n+1)] for y in range(m+1)]
 

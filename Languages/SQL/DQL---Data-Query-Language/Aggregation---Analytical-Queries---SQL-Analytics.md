@@ -10,13 +10,13 @@ Modified: 2022-08-16 15:42:02 +0500
 
 Unlike aggregate functions, **analytic functions** return a (potentially different) value for each row in the original table.
 
-All analytic functions have an**OVER**clause, which defines the sets of rows used in each calculation.
+All analytic functions have an **OVER** clause, which defines the sets of rows used in each calculation.
 
 TheOVERclause has three (optional) parts:
 
-- The**PARTITION BY**clause divides the rows of the table into different groups
-- The**ORDER BY**clause defines an ordering within each partition.
-- The final clause (ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) is known as a**window frame**clause. It identifies the set of rows used in each calculation. We can refer to this group of rows as a**window**. (Actually, analytic functions are sometimes referred to as**analytic window functions**or simply**window functions**!)
+- The**PARTITION BY** clause divides the rows of the table into different groups
+- The**ORDER BY** clause defines an ordering within each partition.
+- The final clause (ROWS BETWEEN 1 PRECEDING AND CURRENT ROW) is known as a**window frame** clause. It identifies the set of rows used in each calculation. We can refer to this group of rows as a**window**. (Actually, analytic functions are sometimes referred to as**analytic window functions**or simply**window functions**!)
 
 ![first_query](media/DQL---Data-Query-Language_Aggregation---Analytical-Queries---SQL-Analytics-image1.png)
 

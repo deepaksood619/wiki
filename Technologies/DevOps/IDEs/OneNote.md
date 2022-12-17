@@ -21,17 +21,17 @@ Modified: 2022-02-08 15:39:32 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Search all notebooks.</strong></td>
 <td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
 <p><strong>+ Option + F</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Zoom in Page</strong></td>
 <td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
 <p>+ + (Plus)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Zoom out Page</strong></td>
 <td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
 <p>+ - (Minus)</p></td>
@@ -54,7 +54,7 @@ Modified: 2022-02-08 15:39:32 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Synchronize all notebooks.</strong></td>
 <td><p><strong>Shift +</strong></p>
 <p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
@@ -77,16 +77,16 @@ Modified: 2022-02-08 15:39:32 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Move keyboard focus to the section list.</strong></td>
 <td><strong>Control + Shift + G</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Switch between sections in a notebook.</strong></td>
 <td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
 <p><strong>+ Shift +Opening brace ( { ) or Closing brace ( } )</strong></p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>View the list of your open notebooks.</strong></td>
 <td><strong>Control + G</strong></td>
 </tr>
@@ -105,12 +105,12 @@ Modified: 2022-02-08 15:39:32 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Close the selected window</strong></td>
 <td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
 <p><strong>+ W (Command + W)</strong></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Go to previous page and next page</strong></td>
 <td><strong>Command + Ctrl + (Left arrow / right arrow)</strong></td>
 </tr>

@@ -178,7 +178,7 @@ It is non-destructive, means it doesn't have to drop the duplicate row. Instead,
 
 ## Explain
 
-[EXPLAIN](https://dev.mysql.com/doc/refman/5.7/en/explain.html) works with [SELECT](https://dev.mysql.com/doc/refman/5.7/en/select.html),[DELETE](https://dev.mysql.com/doc/refman/5.7/en/delete.html),[INSERT](https://dev.mysql.com/doc/refman/5.7/en/insert.html),[REPLACE](https://dev.mysql.com/doc/refman/5.7/en/replace.html), and [UPDATE](https://dev.mysql.com/doc/refman/5.7/en/update.html) statements.
+[EXPLAIN](https://dev.mysql.com/doc/refman/5.7/en/explain.html) works with [SELECT](https://dev.mysql.com/doc/refman/5.7/en/select.html), [DELETE](https://dev.mysql.com/doc/refman/5.7/en/delete.html), [INSERT](https://dev.mysql.com/doc/refman/5.7/en/insert.html), [REPLACE](https://dev.mysql.com/doc/refman/5.7/en/replace.html), and [UPDATE](https://dev.mysql.com/doc/refman/5.7/en/update.html) statements.
 
 EXPLAIN EXTENDED
 

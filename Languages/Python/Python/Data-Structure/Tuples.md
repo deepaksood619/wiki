@@ -45,7 +45,7 @@ Print(B)
 
 ## Alternative to classes is Named Tuples
 
-Any tuple-like class whose indexable elements are also accessible using named attributes (for example,[time.localtime()](http://library/time.html) returns a tuple-like object where theyearis accessible either with an index such ast[0]or with a named attribute liket.tm_year).
+Any tuple-like class whose indexable elements are also accessible using named attributes (for example, [time.localtime()](http://library/time.html) returns a tuple-like object where theyearis accessible either with an index such ast[0]or with a named attribute liket.tm_year).
 
 A named tuple can be a built-in type such as[time.struct_time](http://library/time.html), or it can be created with a regular class definition. A full featured named tuple can also be created with the factory function[collections.namedtuple()](http://library/collections.html). The latter approach automatically provides extra features such as a self-documenting representation likeEmployee(name='jones',title='programmer').
 

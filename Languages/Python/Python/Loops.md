@@ -168,7 +168,7 @@ Throw a ValueError if `needle` not
 in `haystack`.
 """
 
-## for**item**in haystack
+## for **item** in haystack
 
 ## if item == needle
 
@@ -203,7 +203,7 @@ None
 
 ## def better_contains(haystack, needle)
 
-## for**item**in haystack
+## for **item** in haystack
 
 ## if item == needle
 
@@ -217,7 +217,7 @@ None
 
 # which is much more Pythonic
 
-## if**needle**not in haystack
+## if **needle** not in haystack
 
 ## raise ValueError('Needle not found')
 

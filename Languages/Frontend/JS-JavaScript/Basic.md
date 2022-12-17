@@ -358,7 +358,7 @@ myStr [0] = "J"; // error
 
 3. Array.prototype.shift()
 
-The**shift()**method removes the**first**element from an array and returns that removed element. This method changes the length of the array.
+The**shift()**method removes the **first** element from an array and returns that removed element. This method changes the length of the array.
 
 4. Array.prototype.unshift()
 
@@ -376,7 +376,7 @@ The**splice()**method changes the contents of an array by removing existing elem
 
 9. Array.prototype.find()
 
-The**find()**method returns the**value**of the first element in the array that satisfies the provided testing function. Otherwise [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) is returned.
+The**find()**method returns the **value** of the first element in the array that satisfies the provided testing function. Otherwise [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) is returned.
 
 function isBigEnough(element) {
 return element >= 15;
@@ -436,7 +436,7 @@ for inis used to loop through properties of an object. It can be any object.for 
 
 3. **for....of**
 
-The**for...ofstatement**creates a loop iterating over [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String),[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments) or [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) objects,[TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray),[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) and [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
+The**for...ofstatement**creates a loop iterating over [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments) or [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) objects, [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) and [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
 
 2. **While**
 

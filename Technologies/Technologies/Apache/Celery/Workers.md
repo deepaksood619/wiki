@@ -121,7 +121,7 @@ Eventlet is a concurrent networking library for Python that allows you to change
 - [Coroutines](http://en.wikipedia.org/wiki/Coroutine) ensure that the developer uses a blocking style of programming that is similar to threading, but provide the benefits of non-blocking I/O.
 - The event dispatch is implicit, which means you can easily use Eventlet from the Python interpreter, or as a small part of a larger application.
 
-It's easy to get started using Eventlet, and easy to convert existing applications to use it. Start off by looking at [examples](http://eventlet.net/doc/examples.html),[common design patterns](http://eventlet.net/doc/design_patterns.html), and the list of the [basic API primitives](http://eventlet.net/doc/basic_usage.html).
+It's easy to get started using Eventlet, and easy to convert existing applications to use it. Start off by looking at [examples](http://eventlet.net/doc/examples.html), [common design patterns](http://eventlet.net/doc/design_patterns.html), and the list of the [basic API primitives](http://eventlet.net/doc/basic_usage.html).
 
 ## GEvent
 

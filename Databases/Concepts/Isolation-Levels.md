@@ -12,7 +12,7 @@ SHOW ENGINE INNODB STATUS;
 In [database](https://en.wikipedia.org/wiki/Database) systems,isolationdetermines how [transaction](https://en.wikipedia.org/wiki/Database_transaction) integrity is visible to other users and systems. For example, when a user is creating a Purchase Order and has created the header, but not the Purchase Order lines, is the header available for other systems/users (carrying out [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) operations, such as a report on Purchase Orders) to see? (Refers to current, not past database systems)
 A lower isolation level increases the ability of many users to access the same data at the same time, but increases the number of concurrency effects (such as dirty reads or lost updates) users might encounter. Conversely, a higher isolation level reduces the types of concurrency effects that users may encounter, but requires more system resources and increases the chances that one transaction will block another.
 Isolation is typically defined at database level as a property that defines how/when the changes made by one operation become visible to other. On older systems, it may be implemented systemically, for example through the use of temporary tables. In two-tier systems, a Transaction Processing (TP) manager is required to maintain isolation. In n-tier systems (such as multiple websites attempting to book the last seat on a flight), a combination of stored procedures and transaction management is required to commit the booking and send confirmation to the customer.
-Isolation is one of the [ACID](https://en.wikipedia.org/wiki/ACID)([Atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)),[Consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), Isolation,[Durability](https://en.wikipedia.org/wiki/Durability_(database_systems))) properties.
+Isolation is one of the [ACID](https://en.wikipedia.org/wiki/ACID)([Atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)), [Consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), Isolation, [Durability](https://en.wikipedia.org/wiki/Durability_(database_systems))) properties.
 
 ## Read Phenomenon (DLNP)
 
@@ -46,7 +46,7 @@ The isolation levels defined by the [ANSI](https://en.wikipedia.org/wiki/America
 
 1. **Serializable**
 
-This is the*highest*isolation level.
+This is the *highest*isolation level.
 With a lock-based [concurrency control](https://en.wikipedia.org/wiki/Concurrency_control) DBMS implementation, [serializability](https://en.wikipedia.org/wiki/Serializability) requires read and write locks (acquired on selected data) to be released at the end of the transaction. Alsorange-locks must be acquired when a [SELECT](https://en.wikipedia.org/wiki/Select_(SQL)) query uses a rangedWHEREclause, especially to avoid the [phantom reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Phantom_reads) phenomenon.
 When using non-lock based concurrency control, no locks are acquired; however, if the system detects awrite collisionamong several concurrent transactions, only one of them is allowed to commit. See [snapshot isolation](https://en.wikipedia.org/wiki/Snapshot_isolation) for more details on this topic.
 2.  **Repeatable reads**
@@ -59,14 +59,14 @@ In this isolation level, a lock-based [concurrency control](https://en.wikipedia
 Putting it in simpler words, **read committed is an isolation level that guarantees that any data read is committed at the moment it is read**. It simply restricts the reader from seeing any intermediate, uncommitted, 'dirty' read. It makes no promise whatsoever that if the transaction re-issues the read, it will find the same data; data is free to change after it is read.
 4.  **Read uncommitted**
 
-This is the*lowest*isolation level. In this level,[dirty reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Dirty_reads) are allowed, so one transaction may see*not-yet-committed*changes made by other transactions.
+This is the *lowest*isolation level. In this level, [dirty reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Dirty_reads) are allowed, so one transaction may see*not-yet-committed*changes made by other transactions.
 | **Isolation level** | **Dirty reads** | **Lost updates** | **Non-repeatable reads** | **Phantoms** |
 |------------------|------------|-------------|--------------------|-----------|
 | Read Uncommitted    | may occur       | may occur        | may occur                | may occur    |
 | Read Committed      | don't occur    | may occur        | may occur                | may occur    |
 | Repeatable Read     | don't occur    | don't occur     | don't occur             | may occur    |
 | Serializable        | don't occur    | don't occur     | don't occur             | don't occur |
-Isolation levels in distributed systems get more complicated. Many distributed systems implement variations of the serializable isolation level, such as**one copy-serializability (1SR),strict serializability (strict 1SR)orupdate serializability (US)**. Of those,[**"strict serializability"** is the most perfect](https://fauna.com/blog/serializability-vs-strict-serializability-the-dirty-secret-of-database-isolation-levels) of those serializable options.
+Isolation levels in distributed systems get more complicated. Many distributed systems implement variations of the serializable isolation level, such as**one copy-serializability (1SR),strict serializability (strict 1SR)orupdate serializability (US)**. Of those, [**"strict serializability"** is the most perfect](https://fauna.com/blog/serializability-vs-strict-serializability-the-dirty-secret-of-database-isolation-levels) of those serializable options.
 The isolation levels defined as part of SQL-92 standard only focused on anomalies that can occur in a 2PL-based DBMS.
 There are two additional isolation levels:
 

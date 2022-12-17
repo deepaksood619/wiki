@@ -20,13 +20,13 @@ Modified: 2022-09-14 20:50:47 +0500
 
 ## Architecture
 
-You write Angular applications by composing HTML*templates*with Angularized markup, writing*component*classes to manage those templates, adding application logic in*services*, and boxing components and services in*modules*.
+You write Angular applications by composing HTML *templates*with Angularized markup, writing *component*classes to manage those templates, adding application logic in *services*, and boxing components and services in *modules*.
 
-Then you launch the app by*bootstrapping*the*root module*. Angular takes over, presenting your application content in a browser and responding to user interactions according to the instructions you've provided.
+Then you launch the app by *bootstrapping*the*root module*. Angular takes over, presenting your application content in a browser and responding to user interactions according to the instructions you've provided.
 
 ![image](media/AngularJS-image1.png)
 
-1. Modules - Angular apps are modular and Angular has its own modularity system called*NgModules*.
+1. Modules - Angular apps are modular and Angular has its own modularity system called *NgModules*.
 
 ## Angular Ivy
 

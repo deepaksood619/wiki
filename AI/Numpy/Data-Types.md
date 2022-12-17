@@ -18,110 +18,110 @@ Modified: 2021-04-09 23:36:05 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p>bool_</p>
 <p>Boolean (True or False) stored as a byte</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p>int_</p>
 <p>Default integer type (same as C long; normally either int64 or int32)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p>intc</p>
 <p>Identical to C int (normally int32 or int64)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>4</td>
 <td><p>intp</p>
 <p>Integer used for indexing (same as C ssize_t; normally either int32 or int64)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><p>int8</p>
 <p>Byte (-128 to 127)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>6</td>
 <td><p>int16</p>
 <p>Integer (-32768 to 32767)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>7</td>
 <td><p>int32</p>
 <p>Integer (-2147483648 to 2147483647)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>8</td>
 <td><p>int64</p>
 <p>Integer (-9223372036854775808 to 9223372036854775807)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>9</td>
 <td><p>uint8</p>
 <p>Unsigned integer (0 to 255)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10</td>
 <td><p>uint16</p>
 <p>Unsigned integer (0 to 65535)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>11</td>
 <td><p>uint32</p>
 <p>Unsigned integer (0 to 4294967295)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>12</td>
 <td><p>uint64</p>
 <p>Unsigned integer (0 to 18446744073709551615)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>13</td>
 <td><p>float_</p>
 <p>Shorthand for float64</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>14</td>
 <td><p>float16</p>
 <p>Half precision float: sign bit, 5 bits exponent, 10 bits mantissa</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>15</td>
 <td><p>float32</p>
 <p>Single precision float: sign bit, 8 bits exponent, 23 bits mantissa</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>16</td>
 <td><p>float64</p>
 <p>Double precision float: sign bit, 11 bits exponent, 52 bits mantissa</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>17</td>
 <td><p>complex_</p>
 <p>Shorthand for complex128</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>18</td>
 <td><p>complex64</p>
 <p>Complex number, represented by two 32-bit floats (real and imaginary components)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>19</td>
 <td><p>complex128</p>
 <p>Complex number, represented by two 64-bit floats (real and imaginary components)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>20</td>
 <td>object # python object type</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>21</td>
 <td>np.string_# fixed-length string type</td>
 </tr>
-<tr class="even">
+<tr>
 <td>22</td>
 <td>np.unicode_ # fixed-length unicode type</td>
 </tr>

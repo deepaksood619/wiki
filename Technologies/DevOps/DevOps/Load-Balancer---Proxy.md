@@ -266,7 +266,7 @@ Service discovery is the process by which a load balancer determines the set of 
 
 - Static configuration file.
 - DNS.
-- [Zookeeper](https://zookeeper.apache.org/),[Etcd](https://coreos.com/etcd/),[Consul](https://www.consul.io/), etc.
+- [Zookeeper](https://zookeeper.apache.org/), [Etcd](https://coreos.com/etcd/), [Consul](https://www.consul.io/), etc.
 - Envoy's [universal data plane API](https://medium.com/@mattklein123/the-universal-data-plane-api-d15cec7a).
 
 - Client-side discovery pattern
@@ -337,7 +337,7 @@ As I like to say in my talks: "Observability, observability, observability." Net
 
 ## Security and DoS mitigation
 
-Especially in the edge deployment topology (see below), load balancers often implement various security features including rate limiting, authentication, and DoS mitigation (e.g., IP address tagging and identification,[tarpitting](https://en.wikipedia.org/wiki/Tarpit_%28networking%29), etc.).
+Especially in the edge deployment topology (see below), load balancers often implement various security features including rate limiting, authentication, and DoS mitigation (e.g., IP address tagging and identification, [tarpitting](https://en.wikipedia.org/wiki/Tarpit_%28networking%29), etc.).
 
 ## Configuration and controlplane
 
@@ -399,7 +399,7 @@ The picture below illustrates this approach. The client gets at least one addres
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><ul class="incremental">
 <li><blockquote>
 <p>Very high traffic between clients and servers</p>
@@ -417,7 +417,7 @@ The picture below illustrates this approach. The client gets at least one addres
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td><ul class="incremental">
 <li><blockquote>
 <p>Traditional setup - Many clients connecting to services behind a proxy</p>
@@ -444,7 +444,7 @@ The picture below illustrates this approach. The client gets at least one addres
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><ul class="incremental">
 <li><blockquote>
 <p>Microservices - N clients, M servers in the data center</p>
@@ -465,7 +465,7 @@ The picture below illustrates this approach. The client gets at least one addres
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td><ul class="incremental">
 <li><blockquote>
 <p>Existing Service-mesh like setup using Linkerd or Istio</p>

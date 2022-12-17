@@ -32,7 +32,7 @@ The Horizontal Pod Autoscaler is implemented as a Kubernetes API resource and a 
 
 The Horizontal Pod Autoscaler is implemented as a control loop, with a period controlled by the controller manager's--horizontal-pod-autoscaler-sync-periodflag (with a default value of 15 seconds).
 
-When managing the scale of a group of replicas using the Horizontal Pod Autoscaler, it is possible that the number of replicas keeps fluctuating frequently due to the dynamic nature of the metrics evaluated. This is sometimes referred to as*thrashing*.
+When managing the scale of a group of replicas using the Horizontal Pod Autoscaler, it is possible that the number of replicas keeps fluctuating frequently due to the dynamic nature of the metrics evaluated. This is sometimes referred to as *thrashing*.
 
 desiredReplicas = ceil[currentReplicas * ( currentMetricValue / desiredMetricValue )]
 

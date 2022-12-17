@@ -16,7 +16,7 @@ PEP-20 - Zen of Python (import this)
 
 ## PEP-8 - Python Style Guide
 
-For Python,[PEP 8](https://www.python.org/dev/peps/pep-0008) has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style. Every Python developer should read it at some point; here are the most important points extracted for you:
+For Python, [PEP 8](https://www.python.org/dev/peps/pep-0008) has emerged as the style guide that most projects adhere to; it promotes a very readable and eye-pleasing coding style. Every Python developer should read it at some point; here are the most important points extracted for you:
 
 - Use 4-space indentation, and no tabs.
     4 spaces are a good compromise between small indentation (allows greater nesting depth) and large indentation (easier to read). Tabs introduce confusion, and are best left out.

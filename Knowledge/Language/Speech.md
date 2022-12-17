@@ -71,7 +71,7 @@ a verb form which functions as a noun
 
 in Latin ending in-ndum(declinable), in English ending in-ing
 
-e.g.**asking**indo you mind my asking you?
+e.g.**asking** indo you mind my asking you?
 
 # Figures of Speech
 
@@ -188,13 +188,13 @@ precious like an angel
 
 - **Foreshadowing:** The literary deviceforeshadowingrefers to the use of words or phrases that set the stage for the story to unfold. It gives the reader a hint of something that is going to happen without revealing the story or spoiling the suspense.Foreshadowingis used to suggest an upcoming outcome to the story.
 
-- **Adage:** Anadage([/ˈædɪdʒ/](https://en.wikipedia.org/wiki/Help:IPA/English); Latin:adagium) is a concise, memorable, and usually [philosophical](https://en.wikipedia.org/wiki/Philosophical)[aphorism](https://en.wikipedia.org/wiki/Aphorism) that communicates an important truth derived from experience,[custom](https://en.wikipedia.org/wiki/Convention_(norm)), or both, and that many people consider true and credible because of its longeval tradition, i. e. being handed down generation to generation, or [memetic replication](https://en.wikipedia.org/wiki/Memetics).
+- **Adage:** Anadage([/ˈædɪdʒ/](https://en.wikipedia.org/wiki/Help:IPA/English); Latin:adagium) is a concise, memorable, and usually [philosophical](https://en.wikipedia.org/wiki/Philosophical)[aphorism](https://en.wikipedia.org/wiki/Aphorism) that communicates an important truth derived from experience, [custom](https://en.wikipedia.org/wiki/Convention_(norm)), or both, and that many people consider true and credible because of its longeval tradition, i. e. being handed down generation to generation, or [memetic replication](https://en.wikipedia.org/wiki/Memetics).
 
 Ex: do not count your chickens before they hatch", "do not burn your bridges, "if you find yourself in a hole, stop digging"
 
 - Analogy
 
-Analogy(from [Greek]$1 $2,analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a [cognitive](https://en.wikipedia.org/wiki/Cognition) process of transferring [information](https://en.wikipedia.org/wiki/Information) or [meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics)) from a particular subject (the analog, or source) to another (the target), or a [linguistic](https://en.wikipedia.org/wiki/Language) expression corresponding to such a process. In a narrower sense, analogy is an [inference](https://en.wikipedia.org/wiki/Inference) or an [argument](https://en.wikipedia.org/wiki/Logical_argument) from one particular to another particular, as opposed to [deduction](https://en.wikipedia.org/wiki/Deductive_reasoning),[induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and [abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the [premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a [similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the [biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
+Analogy(from [Greek]$1 $2,analogia, "proportion", fromana-"upon, according to" [also "against", "anew"] +logos"ratio" [also "word, speech, reckoning"]) is a [cognitive](https://en.wikipedia.org/wiki/Cognition) process of transferring [information](https://en.wikipedia.org/wiki/Information) or [meaning](https://en.wikipedia.org/wiki/Meaning_(linguistics)) from a particular subject (the analog, or source) to another (the target), or a [linguistic](https://en.wikipedia.org/wiki/Language) expression corresponding to such a process. In a narrower sense, analogy is an [inference](https://en.wikipedia.org/wiki/Inference) or an [argument](https://en.wikipedia.org/wiki/Logical_argument) from one particular to another particular, as opposed to [deduction](https://en.wikipedia.org/wiki/Deductive_reasoning), [induction](https://en.wikipedia.org/wiki/Inductive_reasoning), and [abduction](https://en.wikipedia.org/wiki/Abductive_reasoning), in which at least one of the [premises](https://en.wikipedia.org/wiki/Premise), or the conclusion, is general rather than particular in nature. The term analogy can also refer to the relation between the source and the target themselves, which is often (though not always) a [similarity](https://en.wikipedia.org/wiki/Similarity_(philosophy)), as in the [biological notion of analogy](https://en.wikipedia.org/wiki/Analogy_(biology)).
 
 ## False Analogy
 

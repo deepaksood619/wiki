@@ -221,7 +221,7 @@ An options chain provides detailed quote and price information and should not be
 
 ## Open Interest
 
-[Open interest](https://www.investopedia.com/articles/technical/02/112002.asp) is the number of active contracts. It's one of the data fields on most option quote displays, along with [bid price](https://www.investopedia.com/terms/b/bidprice.asp),[ask price](https://www.investopedia.com/terms/a/ask.asp), volume, and [implied volatility](https://www.investopedia.com/terms/i/iv.asp). Yet, many options traders ignore active contracts, which can lead to unforeseen consequences.
+[Open interest](https://www.investopedia.com/articles/technical/02/112002.asp) is the number of active contracts. It's one of the data fields on most option quote displays, along with [bid price](https://www.investopedia.com/terms/b/bidprice.asp), [ask price](https://www.investopedia.com/terms/a/ask.asp), volume, and [implied volatility](https://www.investopedia.com/terms/i/iv.asp). Yet, many options traders ignore active contracts, which can lead to unforeseen consequences.
 
 <https://www.investopedia.com/trading/options-trading-volume-and-open-interest>
 

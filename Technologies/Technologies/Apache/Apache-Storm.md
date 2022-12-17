@@ -12,7 +12,7 @@ Apache Storm is a stream processing framework that focuses on extremely low late
 
 Stream Processing Model
 
-Storm stream processing works by orchestrating DAGs (Directed Acyclic Graphs) in a framework it calls**topologies**. These topologies describe the various transformations or steps that will be taken on each incoming piece of data as it enters the system.
+Storm stream processing works by orchestrating DAGs (Directed Acyclic Graphs) in a framework it calls **topologies**. These topologies describe the various transformations or steps that will be taken on each incoming piece of data as it enters the system.
 
 The topologies are composed of:
 
@@ -22,7 +22,7 @@ The topologies are composed of:
 
 The idea behind Storm is to define small, discrete operations using the above components and then compose them into a topology. By default, Storm offers at-least-once processing guarantees, meaning that it can guarantee that each message is processed at least once, but there may be duplicates in some failure scenarios. Storm does not guarantee that messages will be processed in order.
 
-In order to achieve exactly-once, stateful processing, an abstraction called**Trident**is also available. To be explicit, Storm without Trident is often referred to as**Core Storm**. Trident significantly alters the processing dynamics of Storm, increasing latency, adding state to the processing, and implementing a micro-batching model instead of an item-by-item pure streaming system.
+In order to achieve exactly-once, stateful processing, an abstraction called **Trident** is also available. To be explicit, Storm without Trident is often referred to as**Core Storm**. Trident significantly alters the processing dynamics of Storm, increasing latency, adding state to the processing, and implementing a micro-batching model instead of an item-by-item pure streaming system.
 
 Storm users typically recommend using Core Storm whenever possible to avoid those penalties. With that in mind, Trident's guarantee to processes items exactly once is useful in cases where the system cannot intelligently handle duplicate messages. Trident is also the only choice within Storm when you need to maintain state between items, like when counting how many users click a link within an hour. Trident gives Storm flexibility, even though it does not play to the framework's natural strengths.
 

@@ -101,57 +101,57 @@ The following table defines how Hive interacts with Hadoop framework:
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p>Execute Query</p>
 <p>The Hive interface such as Command Line or Web UI sends query to Driver (any database driver such as JDBC, ODBC, etc.) to execute.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p>Get Plan</p>
 <p>The driver takes the help of query compiler that parses the query to check the syntax and query plan or the requirement of query.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p>Get Metadata</p>
 <p>The compiler sends metadata request to Metastore (any database).</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>4</td>
 <td><p>Send Metadata</p>
 <p>Metastore sends metadata as a response to the compiler.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><p>Send Plan</p>
 <p>The compiler checks the requirement and resends the plan to the driver. Up to here, the parsing and compiling of a query is complete.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>6</td>
 <td><p>Execute Plan</p>
 <p>The driver sends the execute plan to the execution engine.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>7</td>
 <td><p>Execute Job</p>
 <p>Internally, the process of execution job is a MapReduce job. The execution engine sends the job to JobTracker, which is in Name node and it assigns this job to TaskTracker, which is in Data node. Here, the query executes MapReduce job.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>7.1</td>
 <td><p>Metadata Ops</p>
 <p>Meanwhile in execution, the execution engine can execute metadata operations with Metastore.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>8</td>
 <td><p>Fetch Result</p>
 <p>The execution engine receives the results from Data nodes.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>9</td>
 <td><p>Send Results</p>
 <p>The execution engine sends those resultant values to the driver.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>10</td>
 <td><p>Send Results</p>
 <p>The driver sends the results to Hive Interfaces.</p></td>

@@ -59,7 +59,7 @@ When you create a list, you can read its items one by one. Reading its items one
 2
 3
 
-mylistis an*iterable*. When you use a list comprehension, you create a list, and so an iterable:
+mylistis an *iterable*. When you use a list comprehension, you create a list, and so an iterable:
 
 >>> mylist = [x*x for x in range(3)]
 >>> for i in mylist:
@@ -74,7 +74,7 @@ These iterables are handy because you can read them as much as you wish, but you
 
 ## Generators -
 
-Generators are iterators, a kind of iterable**you can only iterate over once**. Generators do not store all the values in memory,**they generate the values on the fly**:
+Generators are iterators, a kind of iterable**you can only iterate over once**. Generators do not store all the values in memory, **they generate the values on the fly**:
 
 >>> mygenerator = (x*x for x in range(3))
 >>> for i in mygenerator:
@@ -83,7 +83,7 @@ Generators are iterators, a kind of iterable**you can only iterate over once**. 
 1
 4
 
-It is just the same except you used()instead of []. BUT, you**cannot**performfor i in mygeneratora second time since generators can only be used once: they calculate 0, then forget about it and calculate 1, and end calculating 4, one by one.
+It is just the same except you used()instead of []. BUT, you **cannot** performfor i in mygeneratora second time since generators can only be used once: they calculate 0, then forget about it and calculate 1, and end calculating 4, one by one.
 
 Yield
 

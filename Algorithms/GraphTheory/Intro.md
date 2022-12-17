@@ -62,11 +62,11 @@ Answer: A connected graph is Eulerian iff all vertices have even edges
 
 ## Planar Graph
 
-In [graph theory](https://en.wikipedia.org/wiki/Graph_theory), a**planar graph**is a [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) that can be [embedded](https://en.wikipedia.org/wiki/Graph_embedding) in the [plane](https://en.wikipedia.org/wiki/Plane_(geometry)), i.e., it can be drawn on the plane in such a way that its edges intersect only at their endpoints. In other words, it can be drawn in such a way that no edges cross each other.Such a drawing is called a**plane graph**or**planar embedding of the graph**. A plane graph can be defined as a planar graph with a mapping from every node to a point on a plane, and from every edge to a [plane curve](https://en.wikipedia.org/wiki/Plane_curve) on that plane, such that the extreme points of each curve are the points mapped from its end nodes, and all curves are disjoint except on their extreme points.
+In [graph theory](https://en.wikipedia.org/wiki/Graph_theory), a**planar graph** is a [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)) that can be [embedded](https://en.wikipedia.org/wiki/Graph_embedding) in the [plane](https://en.wikipedia.org/wiki/Plane_(geometry)), i.e., it can be drawn on the plane in such a way that its edges intersect only at their endpoints. In other words, it can be drawn in such a way that no edges cross each other.Such a drawing is called a**plane graph**or**planar embedding of the graph**. A plane graph can be defined as a planar graph with a mapping from every node to a point on a plane, and from every edge to a [plane curve](https://en.wikipedia.org/wiki/Plane_curve) on that plane, such that the extreme points of each curve are the points mapped from its end nodes, and all curves are disjoint except on their extreme points.
 
 ## Euler's Formula
 
-## Euler's formulastates that if a finite,[connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)), planar graph is drawn in the plane without any edge intersections, and*v*is the number of vertices,*e*is the number of edges and*f*is the number of faces (regions bounded by edges, including the outer, infinitely large region), then
+## Euler's formulastates that if a finite, [connected](https://en.wikipedia.org/wiki/Connectivity_(graph_theory)), planar graph is drawn in the plane without any edge intersections, and*v*is the number of vertices,*e*is the number of edges and*f*is the number of faces (regions bounded by edges, including the outer, infinitely large region), then
 
 ## v - e + f = 2
 

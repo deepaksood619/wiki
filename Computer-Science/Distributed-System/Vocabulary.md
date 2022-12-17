@@ -25,20 +25,20 @@ Conflict resolution mechanisms for distributed systems:
 - **[read repair](https://en.wikipedia.org/wiki/Eventual_consistency)-** inconsistencies fixed at read time, slowing reads
 - **write repair-** inconsistencies fixed at write, slowing writes
 - **asynchronous repair-** inconsistencies fixed out of band somehow, not synchronously within read or write operation
-- **vector clocks**create a logical clock to reconcile writes, described in [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+- **vector clocks** create a logical clock to reconcile writes, described in [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 
 ## Other stuff
 
 - **Single point of failure**(SPOF) a single component that causes dependent services to fail
 - [**Fault domains**](https://lethain.com/fault-domains/) is a set of components that share a SPOF
-- **Fault tolerant**describes a system that has multiple fault domains at the same level of functionality
-- **Replication**is streaming changes from one process to another
-- **Synchronous replication**is commiting change on a replica at same time as committing on the primary (e.g. MySQL's [semisynchronous replication](https://dev.mysql.com/doc/refman/5.5/en/replication-semisync.html). Typically very, very slow
+- **Fault tolerant** describes a system that has multiple fault domains at the same level of functionality
+- **Replication** is streaming changes from one process to another
+- **Synchronous replication** is commiting change on a replica at same time as committing on the primary (e.g. MySQL's [semisynchronous replication](https://dev.mysql.com/doc/refman/5.5/en/replication-semisync.html). Typically very, very slow
 <https://lethain.com/distributed-systems-vocabulary>
 
 ## State Machine Replication**
 
-In [computer science](https://en.wikipedia.org/wiki/Computer_science),**state machine replication**or**state machine approach**is a general method for implementing a fault-tolerant service by replicating servers and coordinating client interactions with server replicas. The approach also provides a framework for understanding and designing replication management protocols.
+In [computer science](https://en.wikipedia.org/wiki/Computer_science), **state machine replication**or**state machine approach**is a general method for implementing a fault-tolerant service by replicating servers and coordinating client interactions with server replicas. The approach also provides a framework for understanding and designing replication management protocols.
 <https://en.wikipedia.org/wiki/State_machine_replication>
 
 ## Highy Available and Fault Tolerant**

@@ -18,7 +18,7 @@ Modified: 2022-01-29 18:44:41 +0500
 
 ## PowerBI vs Google Data Studio
 
-Overall, both Power BI and Google data studio are similar when it comes to data integration,**Power BI has better ease of working**(given our understanding of Microsoft tools such as Excel) and functionality whereas**Google data studio requires significant learning and workaround**to achievesimilar visualizations. Please find below details for the same.
+Overall, both Power BI and Google data studio are similar when it comes to data integration, **Power BI has better ease of working**(given our understanding of Microsoft tools such as Excel) and functionality whereas**Google data studio requires significant learning and workaround**to achievesimilar visualizations. Please find below details for the same.
 
 - **Data Integration**
   - Both the tools connect to various data sources without much issues (In few instances, third party tools might be required for Google Data Studio).

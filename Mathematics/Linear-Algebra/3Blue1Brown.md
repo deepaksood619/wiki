@@ -50,7 +50,7 @@ called as i hat and j hat
 ![image](media/3Blue1Brown-image3.png)
 ![image](media/3Blue1Brown-image4.png)
 
-## Basis -**The**basis of a vector space is a set of linearly independent vectors that span the full space
+## Basis -**The** basis of a vector space is a set of linearly independent vectors that span the full space
 
 3. **Linear Transformations and Matrices**
 

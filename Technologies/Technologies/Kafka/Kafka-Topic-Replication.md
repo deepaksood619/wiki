@@ -20,7 +20,7 @@ More partitions in a Kafka cluster leads to higher throughput. However, one does
 
 ## Keysare used to determine the partition within a log to which a message get's appended to. While the value is the actual payload of the message
 
-The primary goal of partitioning is the*ordering*of events: producers should send "related" events to the same partition because Kafka guarantees the ordering of events only within a given partition of a topic---not across partitions of the same topic.
+The primary goal of partitioning is the *ordering*of events: producers should send "related" events to the same partition because Kafka guarantees the ordering of events only within a given partition of a topic---not across partitions of the same topic.
 
 My tip: if in doubt, use 30 partitions per topic. This is a good number because (a) it is high enough to cover some really high-throughput requirements, (b) it is low enough that you will not hit the limit anytime soon of how many partitions a single broker can handle, even if you create many topics in your Kafka cluster, and (c) it is a highly composite number as it is evenly divisible by 1, 2, 3, 5, 6, 10, 15, and 30. This benefits the processing layer because it results in a more even workload distribution across application instances when horizontally scaling out (adding app instances) and scaling in (removing instances). Since [Kafka supports hundreds of thousands of partitions](https://www.confluent.io/blog/apache-kafka-supports-200k-partitions-per-cluster) in a cluster, this over-partitioning strategy is a safe approach for most users.
 

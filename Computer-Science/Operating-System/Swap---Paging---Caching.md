@@ -82,7 +82,7 @@ Page table entry has the following information
 
 A swap file (or swap space or, in Windows NT, a pagefile) is a space on a [hard disk](http://searchstorage.techtarget.com/definition/hard-disk) used as the [virtual memory](http://searchstorage.techtarget.com/definition/virtual-memory) extension of a computer's real memory ([RAM](http://searchstorage.techtarget.com/definition/RAM-random-access-memory)). Having a swap file allows your computer's [operating system](http://whatis.techtarget.com/definition/operating-system-OS) to pretend that you have more RAM than you actually do. The least recently used files in RAM can be "swapped out" to your hard disk until they are needed later so that new files can be "swapped in" to RAM. In larger operating systems (such as IBM's [OS/390](http://searchdatacenter.techtarget.com/definition/OS-390)), the units that are moved are calledpages and the swapping is calledpaging.
 One advantage of a swap file is that it can be organized as a single contiguous space so that fewer I/O operations are required to read or write a complete file.
-In general,[Windows](http://searchwindowsserver.techtarget.com/definition/Windows) and [UNIX](http://searchdatacenter.techtarget.com/definition/Unix)-based operating systems provide a default swap file of a certain size that the user or a system administrator can usually change.
+In general, [Windows](http://searchwindowsserver.techtarget.com/definition/Windows) and [UNIX](http://searchdatacenter.techtarget.com/definition/Unix)-based operating systems provide a default swap file of a certain size that the user or a system administrator can usually change.
 
 ## Page replacement policies
 

@@ -12,7 +12,7 @@ Add authentication to applications and secure services with minimum fuss.
 - Identity Brokering
 - Social Login
 
-A realm in Keycloak is the equivalent of a tenant. It allows creating isolated groups of applications and users. By default there is a a single realm in Keycloak called**master**. This is dedicated to manage Keycloak and should not be used for your own applications.
+A realm in Keycloak is the equivalent of a tenant. It allows creating isolated groups of applications and users. By default there is a a single realm in Keycloak called **master**. This is dedicated to manage Keycloak and should not be used for your own applications.
 
 ## Features
 

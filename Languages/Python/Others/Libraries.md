@@ -10,7 +10,7 @@ nose packages
 
 ## Pypy
 
-PyPy is a [fast](http://speed.pypy.org/),[compliant](https://pypy.org/compat.html) alternative implementation of the [Python](http://python.org/) language (2.7.13 and 3.5.3). It has several advantages and distinct features:
+PyPy is a [fast](http://speed.pypy.org/), [compliant](https://pypy.org/compat.html) alternative implementation of the [Python](http://python.org/) language (2.7.13 and 3.5.3). It has several advantages and distinct features:
 
 - **Speed:**thanks to its Just-in-Time compiler, Python programs often run [faster](http://speed.pypy.org/) on PyPy.[(What is a JIT compiler?)](http://en.wikipedia.org/wiki/Just-in-time_compilation)
     "If you want your code to run faster, you should probably just use PyPy." --- Guido van Rossum (creator of Python)

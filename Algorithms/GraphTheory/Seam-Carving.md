@@ -9,7 +9,7 @@ Modified: 2018-03-13 08:29:18 +0500
 ## Seam Carving for Content-Aware Image Resizing
 
 - Also known as liquid rescaling
-- It functions by establishing a number of*seams*(paths of least importance) in an image and automatically removes seams to reduce image size or inserts seams to extend it. Seam carving also allows manually defining areas in which pixels may not be modified, and features the ability to remove whole objects from photographs.
+- It functions by establishing a number of *seams*(paths of least importance) in an image and automatically removes seams to reduce image size or inserts seams to extend it. Seam carving also allows manually defining areas in which pixels may not be modified, and features the ability to remove whole objects from photographs.
 - The purpose of the algorithm is image retargeting, which is the problem of displaying images without distortion on media of various sizes (cell phones, projection screens) using document standards, like HTML, that already support dynamic changes in page layout and text but not images.
 
 ## Seams
@@ -34,7 +34,7 @@ The importance/energy function values a pixel by measuring its contrast with its
 
 ## Computing Seams
 
-Computing the seam consists of finding the path of minimum energy cost from one end of the image to another. This can be done via [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), dynamic programming,[greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) or [graph cuts](https://en.wikipedia.org/wiki/Cut_(graph_theory)) among others.
+Computing the seam consists of finding the path of minimum energy cost from one end of the image to another. This can be done via [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), dynamic programming, [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) or [graph cuts](https://en.wikipedia.org/wiki/Cut_(graph_theory)) among others.
 
 ## To find the energy function to represent least amount of information
 

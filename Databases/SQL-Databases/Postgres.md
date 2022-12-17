@@ -75,7 +75,7 @@ WHERE completed IS TRUE;
 ## JSON Types**
 
 PostgreSQLoffers two types for storing JSON data:jsonandjsonb.
-Thejsonandjsonbdata types accept*almost*identical sets of values as input. The major practical difference is one of efficiency. Thejsondata type stores an exact copy of the input text, which processing functions must reparse on each execution; whilejsonbdata is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed.jsonbalso supports indexing, which can be a significant advantage.
+Thejsonandjsonbdata types accept *almost*identical sets of values as input. The major practical difference is one of efficiency. Thejsondata type stores an exact copy of the input text, which processing functions must reparse on each execution; whilejsonbdata is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed.jsonbalso supports indexing, which can be a significant advantage.
 <https://www.postgresql.org/docs/current/datatype-json.html>
 
 <https://severalnines.com/database-blog/overview-json-capabilities-within-postgresql>
@@ -238,7 +238,7 @@ A trigram is a group of three consecutive characters taken from a string. We can
 
 1. shared_buffer
 
-PostgreSQL uses its own buffer and also uses kernel buffered IO. That means data is stored in memory twice, first in PostgreSQL buffer and then kernel buffer. Unlike other databases, PostgreSQL does not provide direct IO. This is called double buffering. The PostgreSQL buffer is called**shared_buffer**which is the most effective tunable parameter for most operating systems. This parameter sets how much dedicated memory will be used by PostgreSQL for cache.
+PostgreSQL uses its own buffer and also uses kernel buffered IO. That means data is stored in memory twice, first in PostgreSQL buffer and then kernel buffer. Unlike other databases, PostgreSQL does not provide direct IO. This is called double buffering. The PostgreSQL buffer is called **shared_buffer** which is the most effective tunable parameter for most operating systems. This parameter sets how much dedicated memory will be used by PostgreSQL for cache.
 
 2. wal_buffers
 

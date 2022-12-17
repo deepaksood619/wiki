@@ -52,17 +52,17 @@ This notion. of learning from data means that a machine learning model can learn
 
 Core components that will follow us around, no matter what kind of machine learning problem we take on:
 
-1. The**data**that we can learn from.
+1. The **data** that we can learn from.
 
-2. A**model**of how to transform the data.
+2. A**model** of how to transform the data.
 
-3. An**objective function**that quantifies how well (or badly) the model is doing.
+3. An **objective function** that quantifies how well (or badly) the model is doing.
 
-4. An**algorithm**to adjust the model's parameters to optimize the objective function.
+4. An **algorithm** to adjust the model's parameters to optimize the objective function.
 
 ## Model
 
-By**model**, we denote the computational machinery for ingesting data of one type, and spitting out predictions of a possibly different type. In particular, we are interested in statistical models that can be estimated from data. While simple models are perfectly capable of addressing appropriately simple problems, the problems that we focus on in this book stretch the limits of classical methods. Deep learning is differentiated from classical approaches principally by the set of powerful models that it focuses on. These models consist of many successive transformations of the data that are chained together top to bottom, thus the name**deep learning**. On our way to discussing deep models, we will also discuss some more traditional methods.
+By **model**, we denote the computational machinery for ingesting data of one type, and spitting out predictions of a possibly different type. In particular, we are interested in statistical models that can be estimated from data. While simple models are perfectly capable of addressing appropriately simple problems, the problems that we focus on in this book stretch the limits of classical methods. Deep learning is differentiated from classical approaches principally by the set of powerful models that it focuses on. These models consist of many successive transformations of the data that are chained together top to bottom, thus the name**deep learning**. On our way to discussing deep models, we will also discuss some more traditional methods.
 
 ## Objective Functions
 
@@ -99,7 +99,7 @@ Loss is the penalty for a bad prediction. That is,lossis a number indicating how
 
 ## Squared loss: a popular loss function
 
-The linear regression models we'll examine here use a loss function called**squared loss**(also known as**L2loss**). The squared loss for a single example is as follows:
+The linear regression models we'll examine here use a loss function called**squared loss**(also known as **L2loss**). The squared loss for a single example is as follows:
 
 = the square of the difference between the label and the prediction
 = (observation - prediction(x))2

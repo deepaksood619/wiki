@@ -60,7 +60,7 @@ The [Advanced Database Cleaner](https://wordpress.org/plugins/advanced-database-
 
 - Query Monitor
 
-When things are running slowly and you're not sure what to blame,[Query Monitor](https://wordpress.org/plugins/query-monitor/) lets you see what queries are taking too long to execute, as well as show you PHP warnings and errors.
+When things are running slowly and you're not sure what to blame, [Query Monitor](https://wordpress.org/plugins/query-monitor/) lets you see what queries are taking too long to execute, as well as show you PHP warnings and errors.
 
 - <https://themeisle.com/blog/wordpress-version-control>
 - <https://kinsta.com/blog/wordpress-version-control>

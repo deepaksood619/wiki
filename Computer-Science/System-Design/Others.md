@@ -68,7 +68,7 @@ In [message queueing](https://en.wikipedia.org/wiki/Message_queue) thedead lette
 
 5. Message reaches a threshold read counter number, because it is not consumed. Sometimes this is called a "back out queue".
 Dead letter queue storing of these messages allows developers to look for common patterns and potential software problems.
-Queueing systems that incorporate dead letter queues include [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service),[Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ),[HornetQ](https://en.wikipedia.org/wiki/HornetQ),[Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing),[WebSphere MQ][https://en.wikipedia.org/wiki/WebSphere_MQ]([5)](<https://en.wikipedia.org/wiki/Dead_letter_queue#cite_note-5>),[Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ) and [Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
+Queueing systems that incorporate dead letter queues include [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service), [Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ), [HornetQ](https://en.wikipedia.org/wiki/HornetQ), [Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing), [WebSphere MQ][https://en.wikipedia.org/wiki/WebSphere_MQ], [Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ) and [Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
 <https://en.wikipedia.org/wiki/Dead_letter_queue>
 Amazon SQS supports*dead-letter queues*, which other queues (*source queues*) can target for messages that can't be processed (consumed) successfully. Dead-letter queues are useful for debugging your application or messaging system because they let you isolate problematic messages to determine why their processing doesn't succeed.
 Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to*poison-pill messages*(messages that can be received but can't be processed).
@@ -76,7 +76,7 @@ Do use dead-letter queues to decrease the number of messages and to reduce the p
 
 <https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda>
 
-## Systemantics**
+## Systemantics
 
 General Systemantics(retitled toSystemanticsin its second edition andThe Systems Biblein its third) is a [systems engineering](https://en.wikipedia.org/wiki/Systems_engineering) treatise by [John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)) in which he offers practical principles of systems design based on experience and anecdotes.
 It is offered from the perspective of hownotto design systems, based on system engineering failures. The primary precept of treatise is that large [complex systems](https://en.wikipedia.org/wiki/Complex_system) are extremely difficult to design correctly despite best intentions, so care must be taken to design smaller, less-complex systems and to do so with incremental functionality based on close and continual touch with user needs and measures of effectiveness.

@@ -14,7 +14,7 @@ Knowledge can refer to a [theoretical](https://en.wikipedia.org/wiki/Theoretical
 
 In [philosophy](https://en.wikipedia.org/wiki/Philosophy), the study of knowledge is called**[epistemology](https://en.wikipedia.org/wiki/Epistemology)**; the philosopher [Plato](https://en.wikipedia.org/wiki/Plato) famously defined knowledge as "[justified true belief](https://en.wikipedia.org/wiki/Justified_true_belief)", though this definition is now thought by some analytic philosophersto be problematic because of the [Gettier problems](https://en.wikipedia.org/wiki/Gettier_problem), while others defend the platonic definition.However, several definitions of knowledge and theories to explain it exist.
 
-Knowledge acquisition involves complex [cognitive](https://en.wikipedia.org/wiki/Cognition) processes:[perception](https://en.wikipedia.org/wiki/Perception),[communication](https://en.wikipedia.org/wiki/Communication), and [reasoning](https://en.wikipedia.org/wiki/Reasoning); while knowledge is also said to be related to the capacity ofacknowledgementin human beings.
+Knowledge acquisition involves complex [cognitive](https://en.wikipedia.org/wiki/Cognition) processes:[perception](https://en.wikipedia.org/wiki/Perception), [communication](https://en.wikipedia.org/wiki/Communication), and [reasoning](https://en.wikipedia.org/wiki/Reasoning); while knowledge is also said to be related to the capacity ofacknowledgementin human beings.
 
 - Communicating knowledge
 - Situated knowledge

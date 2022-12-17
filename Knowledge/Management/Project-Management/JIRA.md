@@ -53,53 +53,53 @@ Confluence is a knowledge base, or wiki, that stores and organizes all of your i
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Average Age Report</strong></td>
 <td>Shows the average age of unresolved issues for a project or filter. This helps you see whether your backlog is being kept up to date.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Created vs Resolved Issues Report</strong></td>
 <td>Maps created issues versus resolved issues over a period of time. This helps you understand whether your overall backlog is growing or shrinking.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Pie Chart Report</strong></td>
 <td><p>Shows a pie chart of issues for a project or filter grouped by a specified field. This helps you see the breakdown of a set of issues, at a glance.</p>
 <p>For example, you could create a chart to show issues grouped by Assignee for a particular version in a project (using a filter).</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Recently Created Issues Report</strong></td>
 <td>Shows the number of issues created over a period of time for a project or filter, and how many were resolved. This helps you understand if your team is keeping up with incoming work.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Resolution Time Report</strong></td>
 <td>Shows the length of time taken to resolve a set of issues for a project or filter. This helps you identify trends and incidents that you can investigate further.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Single Level Group By Report</strong></td>
 <td><p>Shows issues grouped by a particular field for a filter. This helps you group search results by a field, and see the overall status of each group.</p>
 <p>For example, you could view the issues in a version of a project, grouped by Assignee.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Time Since Issues Report</strong></td>
 <td>For a date field and project or filter, maps the issues against the date that the field was set. This can help you track how many issues were created, updated, etc over a period of time.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Time Tracking Report *</strong></td>
 <td>Showstime tracking informationon issues for a particularversionof a project.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p></p>
 <p></p>
 <p><strong>User Workload Report*</strong></p></td>
 <td><p>Shows how much work a user has been allocated, and how long it should take.</p>
 <p>For a specified user, you'll be able to see the number of unresolved issues assigned to the specified user, and theremainingworkload, on a per-project basis.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Version Workload Report*</strong></td>
 <td><p>Shows how much outstanding work there is (per user and per issue) before a given version is complete.</p>
 <p>For the specified version, you'll be able to see a list of unresolved issues assigned to each user, each user's workload, and a summary of the totalremainingworkload for the version.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Workload Pie Chart Report*</strong></td>
 <td>Shows the relative workload for assignees of all issues for a project or filter.</td>
 </tr>

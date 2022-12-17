@@ -92,7 +92,7 @@ s.iloc[0] - Selection by position
 
 s.loc[0] - Selection by index
 
-df.loc[:,['earliest_cr_line','earliest_cr_line_date','mnths_since_earliest_cr_line']][df['mnths_since_earliest_cr_line']<100]
+df.loc[:, ['earliest_cr_line','earliest_cr_line_date','mnths_since_earliest_cr_line']][df['mnths_since_earliest_cr_line']<100]
 
 df.iloc[0,:] - First row
 
@@ -132,7 +132,7 @@ s.astype(float) - Converts the datatype of the series to float
 
 s.replace(1, 'one') - Replaces all values equal to 1 with 'one'
 
-s.replace([1,3],['one','three']) - Replaces all 1 with 'one' and 3 with 'three'
+s.replace([1,3], ['one','three']) - Replaces all 1 with 'one' and 3 with 'three'
 
 df.rename(columns=lambda x: x+1) - Mass renaming of columns
 

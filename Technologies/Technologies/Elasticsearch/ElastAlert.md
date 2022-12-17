@@ -192,7 +192,7 @@ hours: 2
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>compare_key(list of strs, no default)</td>
 <td></td>
 <td>Req</td>
@@ -204,7 +204,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>blacklist(list of strs, no default)</td>
 <td></td>
 <td>Req</td>
@@ -216,7 +216,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>whitelist(list of strs, no default)</td>
 <td></td>
 <td></td>
@@ -228,7 +228,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ignore_null(boolean, no default)</td>
 <td></td>
 <td></td>
@@ -240,7 +240,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>query_key(string, no default)</td>
 <td>Opt</td>
 <td></td>
@@ -252,7 +252,7 @@ hours: 2
 <td>Req</td>
 <td>Opt</td>
 </tr>
-<tr class="even">
+<tr>
 <td>aggregation_key(string, no default)</td>
 <td>Opt</td>
 <td></td>
@@ -264,7 +264,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>summary_table_fields(list, no default)</td>
 <td>Opt</td>
 <td></td>
@@ -276,7 +276,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>timeframe(time, no default)</td>
 <td></td>
 <td></td>
@@ -288,7 +288,7 @@ hours: 2
 <td></td>
 <td>Req</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>num_events(int, no default)</td>
 <td></td>
 <td></td>
@@ -300,7 +300,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>attach_related(boolean, no default)</td>
 <td></td>
 <td></td>
@@ -312,7 +312,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>use_count_query(boolean, no default)</p>
 <p>doc_type(string, no default)</p></td>
 <td></td>
@@ -325,7 +325,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>use_terms_query(boolean, no default)</p>
 <p>doc_type(string, no default)</p>
 <p>query_key(string, no default)</p>
@@ -340,7 +340,7 @@ hours: 2
 <td>Opt</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>spike_height(int, no default)</td>
 <td></td>
 <td></td>
@@ -352,7 +352,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>spike_type([up|down|both], no default)</td>
 <td></td>
 <td></td>
@@ -364,7 +364,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>alert_on_new_data(boolean, default False)</td>
 <td></td>
 <td></td>
@@ -376,7 +376,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>threshold_ref(int, no default)</td>
 <td></td>
 <td></td>
@@ -388,7 +388,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>threshold_cur(int, no default)</td>
 <td></td>
 <td></td>
@@ -400,7 +400,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>threshold(int, no default)</td>
 <td></td>
 <td></td>
@@ -412,7 +412,7 @@ hours: 2
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>fields(string or list, no default)</td>
 <td></td>
 <td></td>
@@ -424,7 +424,7 @@ hours: 2
 <td>Req</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>terms_window_size(time, default 30 days)</td>
 <td></td>
 <td></td>
@@ -436,7 +436,7 @@ hours: 2
 <td>Opt</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>window_step_size(time, default 1 day)</td>
 <td></td>
 <td></td>
@@ -448,7 +448,7 @@ hours: 2
 <td>Opt</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>alert_on_missing_fields(boolean, default False)</td>
 <td></td>
 <td></td>
@@ -460,7 +460,7 @@ hours: 2
 <td>Opt</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>cardinality_field(string, no default)</td>
 <td></td>
 <td></td>
@@ -472,7 +472,7 @@ hours: 2
 <td></td>
 <td>Req</td>
 </tr>
-<tr class="even">
+<tr>
 <td>max_cardinality(boolean, no default)</td>
 <td></td>
 <td></td>
@@ -484,7 +484,7 @@ hours: 2
 <td></td>
 <td>Opt</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>min_cardinality(boolean, no default)</td>
 <td></td>
 <td></td>

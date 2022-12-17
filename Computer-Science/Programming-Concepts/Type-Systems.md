@@ -69,7 +69,7 @@ Most scripting languages have this feature as there is no compiler to do static 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><ul class="incremental">
 <li><p>C</p></li>
 <li><p>C++</p></li>

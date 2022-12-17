@@ -197,27 +197,27 @@ A few "magical" PHP constants are given below −
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p>__LINE__</p>
 <p>The current line number of the file.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p>__FILE__</p>
 <p>The full path and filename of the file. If used inside an include,the name of the included file is returned. Since PHP 4.0.2,__FILE__always contains an absolute path whereas in older versions it contained relative path under some circumstances.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p>__FUNCTION__</p>
 <p>The function name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the function name as it was declared (case-sensitive). In PHP 4 its value is always lowercased.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>4</td>
 <td><p>__CLASS__</p>
 <p>The class name. (Added in PHP 4.3.0) As of PHP 5 this constant returns the class name as it was declared (case-sensitive). In PHP 4 its value is always lowercased.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><p>__METHOD__</p>
 <p>The class method name. (Added in PHP 5.0.0) The method name is returned as it was declared (case-sensitive).</p></td>

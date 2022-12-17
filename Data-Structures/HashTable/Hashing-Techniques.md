@@ -67,7 +67,7 @@ Coalesced hashing is a technique for implementing a hash table. It's an [open ad
 
 ## Removal
 
-- clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-   The approach commonly used in practice is to clear the slot holding the key, and then**reinsert**all following keys in the chain.
+- clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-   The approach commonly used in practice is to clear the slot holding the key, and then **reinsert** all following keys in the chain.
 - This maintains the invariants, avoids contamination and potentially even breaks apart previously coalesced chains.
 
 ## Cellar
@@ -92,11 +92,11 @@ It is implemented using**two arrays of equal size**and**two hash functions**:
 
 A new element is always inserted in the first hash table. Should a collision occur, the existing element is kicked out and inserted in the second hash table. Should that in turn cause a collision, the second existing element will be kicked out and inserted in the first hash table, and so on. This continues until an empty bucket is found.
 If the number of displacements reaches a certain threshold (for instance due to a cycle among the inserted keys) rehashing takes place.
-Rehashing is a linear operation, so**worst-case complexity is*O*(*n*)**. Just as with other hashing techniques however,**the ammortized run time can be shown to be*O*(1)**.
+Rehashing is a linear operation, so**worst-case complexity is*O*(*n*)**. Just as with other hashing techniques however, **the ammortized run time can be shown to be*O*(1)**.
 
 ## Stashing
 
-There's a small probability that a cycle is formed among the first few elements inserted. This may trigger a rehash even at a low load factor. To mitigate this, a constant-sized array called the**stash**can be used.
+There's a small probability that a cycle is formed among the first few elements inserted. This may trigger a rehash even at a low load factor. To mitigate this, a constant-sized array called the **stash** can be used.
 When a key is to be inserted, and a free bucket can't be found, the key is stored in the stash instead. The lookup algorithm is modified to search in the stash in addition to the two arrays. Rehashing is performed when a key can't be inserted and the stash is full.
 Even with a stash of just three or four cells, rehashing can be postponed significantly and allow the hash table to function with higher load factors.
 

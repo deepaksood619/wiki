@@ -24,7 +24,7 @@ A fixture is a collection of data that Django knows how to import into a databas
 - Range Fields
 - JSONField
 
-A field for storing JSON encoded data. In Python the data is represented in its Python native format: dictionaries, lists, strings, numbers, booleans and**None**.
+A field for storing JSON encoded data. In Python the data is represented in its Python native format: dictionaries, lists, strings, numbers, booleans and **None**.
 
 PostgreSQL has two native JSON based data types: **json** and **jsonb**. The main difference between them is how they are stored and how they can be queried. PostgreSQL's **json** field is stored as the original string representation of the JSON and must be decoded on the fly when queried based on keys. The **jsonb** field is stored based on the actual structure of the JSON which allows indexing. The trade-off is a small additional cost on writing to the **jsonb** field.**JSONField** uses **jsonb**.
 
@@ -50,7 +50,7 @@ python manage.py inspectdb > models.py
 
 names = []
 
-## for**name**in Song.objects.filter(artist=a).values_list("name", flat=True)
+## for **name** in Song.objects.filter(artist=a).values_list("name", flat=True)
 
 names.append(name)
 
@@ -93,7 +93,7 @@ Generic views abstract common patterns to the point where you don't even need to
 
 You can give your models [custom permissions](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#custom-permissions) that can be checked through Django's authorization system.
 
-You can [extend](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#extending-user) the default**User**model, or [substitute](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user) a completely customized model.
+You can [extend](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#extending-user) the default **User** model, or [substitute](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user) a completely customized model.
 
 ## Other Authentication Sources
 

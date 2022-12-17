@@ -50,7 +50,7 @@ Modified: 2021-06-06 16:40:19 +0500
 ### Concepts
 
 - Kafka is run as a cluster on one or more servers that can span multiple datacenters.
-- The Kafka cluster stores streams of*records*in categories called*topics*.
+- The Kafka cluster stores streams of *records*in categories called *topics*.
 - Each record consists of a key, a value, and a timestamp.
 
 ### APIs

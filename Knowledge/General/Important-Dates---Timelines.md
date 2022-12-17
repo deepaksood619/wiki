@@ -18,12 +18,12 @@ Modified: 2022-10-16 19:00:20 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>5th - 16th June 1972</td>
 <td><p>Stockholm Conference - UNEP (United Nations Environment Programme)</p>
 <p>Motto - Only one Earth</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>3rd March 1973</td>
 <td>CITES Convention on International Trade in Endangered Species of wild flora and fauna, Washington Declaration</td>
 </tr>
@@ -162,7 +162,7 @@ August
 - August (1st Sunday):International Friendship Day
 - August 6:Hiroshima Day
 - August 7: National Handloom Day (started 2015)
-- August 9:Quit India Day, Nagasaki Day,**IntI. Day of the World's Indigenous Peoples, (World Tribal Day)**
+- August 9:Quit India Day, Nagasaki Day, **IntI. Day of the World's Indigenous Peoples, (World Tribal Day)**
 - August 12:International Youth Day
 - August 15:Indian Independence Day
 - August 15:Sanskrit Day (Date may vary every year as it is celebrated on the Shrawan Poornima on Full Moon day according to the Hindu Calendar)

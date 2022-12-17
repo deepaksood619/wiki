@@ -72,7 +72,7 @@ Specify a service discovery method for external clients connecting to a swarm.
 
 2. lables
 
-Specify labels for the service. These labels are*only*set on the service, and*not*on any containers for the service.
+Specify labels for the service. These labels are *only*set on the service, and *not*on any containers for the service.
 
 3. mode
 

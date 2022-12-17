@@ -32,7 +32,7 @@ Why Django - With Django, you can take Web applications from concept to launch i
     - tools for generating [RSS](https://en.wikipedia.org/wiki/RSS_(file_format)) and [Atom](https://en.wikipedia.org/wiki/Atom_(standard)) syndication feeds
     - a site's framework that allows one Django installation to run multiple websites, each with their own content and applications
     - tools for generating [Google Sitemaps](https://en.wikipedia.org/wiki/Google_Sitemaps)
-    - built-in mitigation for [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery),[cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting),[SQL injection](https://en.wikipedia.org/wiki/SQL_injection),[password cracking](https://en.wikipedia.org/wiki/Password_cracking) and other typical web attacks, most of them turned on by default
+    - built-in mitigation for [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery), [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting), [SQL injection](https://en.wikipedia.org/wiki/SQL_injection), [password cracking](https://en.wikipedia.org/wiki/Password_cracking) and other typical web attacks, most of them turned on by default
     - a framework for creating [GIS](https://en.wikipedia.org/wiki/Geographic_information_system) applications
 
 Template namespacing

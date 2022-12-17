@@ -28,7 +28,7 @@ Both Java clients talk to the cluster over port9300, usingthe native Elasticsear
 
 ## Document Oriented
 
-Elasticsearch is*document oriented*, meaningthat it stores entire objects or*documents*. It not only stores them, but also*indexes*the contents of each document in order to make them searchable. In Elasticsearch, you index, search, sort, and filter documents---not rows of columnar data. This is a fundamentally different way of thinking about data and is one of the reasons Elasticsearch can perform complex full-text search.
+Elasticsearch is*document oriented*, meaningthat it stores entire objects or *documents*. It not only stores them, but also *indexes*the contents of each document in order to make them searchable. In Elasticsearch, you index, search, sort, and filter documents---not rows of columnar data. This is a fundamentally different way of thinking about data and is one of the reasons Elasticsearch can perform complex full-text search.
 
 ## JSON
 
@@ -36,9 +36,9 @@ Elasticsearch uses JavaScript Object Notation, or [*JSON*](http://en.wikipedia.o
 
 ## Documents
 
-The act of storing data in Elasticsearch is called*indexing*, but before we can index a document, we need to decide*where*to store it.
+The act of storing data in Elasticsearch is called *indexing*, but before we can index a document, we need to decide *where*to store it.
 
-An Elasticsearch cluster cancontain multiple*indices*, which in turn contain multiple*types*.These types hold multiple*documents*, and each document hasmultiple*fields*.
+An Elasticsearch cluster cancontain multiple *indices*, which in turn contain multiple *types*.These types hold multiple *documents*, and each document hasmultiple *fields*.
 
 Elasticsearch doesn't delete documents -
 
@@ -60,7 +60,7 @@ The only difference is that theupdateAPI achieves this through a single client r
 
 Index (noun)
 
-As explained previously, an*index*is like a*database*in a traditional relational database. It is the place to store related documents. The plural of*index*is*indices*or*indexes*.
+As explained previously, an *index*is like a*database*in a traditional relational database. It is the place to store related documents. The plural of *index*is *indices*or *indexes*.
 
 Index (verb)
 
@@ -68,9 +68,9 @@ Index (verb)
 
 Inverted index
 
-Relational databases add an*index*, such as a B-tree index,to specific columns in order to improve the speed of data retrieval. Elasticsearch and Lucene use a structure calledan*inverted index*for exactly the same purpose.
+Relational databases add an *index*, such as a B-tree index,to specific columns in order to improve the speed of data retrieval. Elasticsearch and Lucene use a structure calledan*inverted index*for exactly the same purpose.
 
-## By default, every field in a document is*indexed*(has an inverted index) and thus is searchable. A field without an inverted index is not searchable
+## By default, every field in a document is *indexed*(has an inverted index) and thus is searchable. A field without an inverted index is not searchable
 
 ## Query
 
@@ -82,7 +82,7 @@ Think of the Query DSL as an AST (Abstract Syntax Tree) of queries, consisting o
 
 ## Leaf query clauses
 
-Leaf query clauses look for a particular value in a particular field, such as the [match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html),[term](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-term-query.html) or [range](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html) queries. These queries can be used by themselves.
+Leaf query clauses look for a particular value in a particular field, such as the [match](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html), [term](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-term-query.html) or [range](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html) queries. These queries can be used by themselves.
 
 ## Compound query clauses
 
@@ -107,7 +107,7 @@ Elasticsearch tries hard to hide the complexity of distributed systems. Here are
 A*search*can be any of the following:
 
 - A structured query on concrete fieldslikegenderorage, sorted by a field likejoin_date, similar to the type of query that you could construct in SQL
-- A full-text query, which finds all documents matching the search keywords, and returns them sorted by*relevance*
+- A full-text query, which finds all documents matching the search keywords, and returns them sorted by *relevance*
 - A combination of the two
 
 *Mapping -* How the data in each field is interpreted

@@ -7,10 +7,10 @@ Modified: 2021-06-11 00:18:38 +0500
 ---
 
 Andrew S. Tanenbaum - A Collection of independent computers that appears to its users as one computer.
-![image](media/Intro-image1.jpg)-   In**Centralized Systems**there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
+![image](media/Intro-image1.jpg)-   In**Centralized Systems** there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
 
-- In**Decentralized Systems**there are multiple servers who receive messages from one central server. The individual nodes are connected to the secondary servers.However, in some systems, all servers can be of equal in hierarchy with no central server as well.
-- In**Distributed systems**there is no central authority. Each node is connected to every other node and has the exact same authority. Of course, in terms of computing distributed systems the processing power of each node might vary to a huge extent.
+- In**Decentralized Systems** there are multiple servers who receive messages from one central server. The individual nodes are connected to the secondary servers.However, in some systems, all servers can be of equal in hierarchy with no central server as well.
+- In**Distributed systems** there is no central authority. Each node is connected to every other node and has the exact same authority. Of course, in terms of computing distributed systems the processing power of each node might vary to a huge extent.
 
 ## Characteristics
 

@@ -74,7 +74,7 @@ The illusion is more common in familiar situations, and in situations where the 
 
 ## Mere exposure effect
 
-Themere-exposure effectis a [psychological](https://en.wikipedia.org/wiki/Psychological) phenomenon by which people tend to develop a preference for things merely because they are familiar with them. In [social psychology](https://en.wikipedia.org/wiki/Social_psychology), this effect is sometimes called thefamiliarity principle. The effect has been demonstrated with many kinds of things, including words,[Chinese characters](https://en.wikipedia.org/wiki/Chinese_character), paintings, pictures of faces,[geometric figures](https://en.wikipedia.org/wiki/Polygon), and sounds.In studies of interpersonal attraction, the more often someone sees a person, the more pleasing and likeable they find that person.
+Themere-exposure effectis a [psychological](https://en.wikipedia.org/wiki/Psychological) phenomenon by which people tend to develop a preference for things merely because they are familiar with them. In [social psychology](https://en.wikipedia.org/wiki/Social_psychology), this effect is sometimes called thefamiliarity principle. The effect has been demonstrated with many kinds of things, including words, [Chinese characters](https://en.wikipedia.org/wiki/Chinese_character), paintings, pictures of faces, [geometric figures](https://en.wikipedia.org/wiki/Polygon), and sounds.In studies of interpersonal attraction, the more often someone sees a person, the more pleasing and likeable they find that person.
 
 <https://en.wikipedia.org/wiki/Mere-exposure_effect>
 
@@ -82,11 +82,11 @@ Themere-exposure effectis a [psychological](https://en.wikipedia.org/wiki/Psycho
 
 The**norm of reciprocity**requires that we repay in kind what another has done for us.[^[1]^](https://en.wikipedia.org/wiki/Norm_of_reciprocity#cite_note-1) It can be understood as the expectation that people will respond favorably to each other by returning benefits for benefits, and responding with either indifference or hostility to harms. The [social norm](https://en.wikipedia.org/wiki/Social_norm) of reciprocity often takes different forms in different areas of social life, or in different societies. All of them, however, are distinct from related ideas such as [gratitude](https://en.wikipedia.org/wiki/Gratitude), the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule), or mutual goodwill.
 
-The**Golden Rule**is the principle of treating others as oneself would wish to be treated. It is a [maxim](https://en.wikipedia.org/wiki/Maxim_(philosophy)) that is found in many religions and [cultures](https://en.wikipedia.org/wiki/Culture)
+The**Golden Rule** is the principle of treating others as oneself would wish to be treated. It is a [maxim](https://en.wikipedia.org/wiki/Maxim_(philosophy)) that is found in many religions and [cultures](https://en.wikipedia.org/wiki/Culture)
 
 In [*Mahābhārata*](https://en.wikipedia.org/wiki/Mahabharata), the ancient epic of India, there is a discourse in which the wise minister Vidura advises the King Yuddhiśhṭhira
 
-Listening to wise scriptures, austerity, sacrifice, respectful faith, social welfare, forgiveness, purity of intent, compassion, truth and self-control---are the ten wealth of character (self). O king aim for these, may you be steadfast in these qualities. These are the basis of prosperity and rightful living. These are highest attainable things. All worlds are balanced on*dharma*,*dharma*encompasses ways to prosperity as well. O King,*dharma*is the best quality to have, wealth the medium and desire (*kāma*) the lowest. Hence, (keeping these in mind), by self-control and by making*dharma*(right conduct) your main focus, treat others as you treat yourself.
+Listening to wise scriptures, austerity, sacrifice, respectful faith, social welfare, forgiveness, purity of intent, compassion, truth and self-control---are the ten wealth of character (self). O king aim for these, may you be steadfast in these qualities. These are the basis of prosperity and rightful living. These are highest attainable things. All worlds are balanced on *dharma*,*dharma*encompasses ways to prosperity as well. O King,*dharma*is the best quality to have, wealth the medium and desire (*kāma*) the lowest. Hence, (keeping these in mind), by self-control and by making *dharma*(right conduct) your main focus, treat others as you treat yourself.
 
 ---*Mahābhārata Shānti-Parva*167:9
 
@@ -96,7 +96,7 @@ Listening to wise scriptures, austerity, sacrifice, respectful faith, social wel
 
 ## Tribalism
 
-Tribalismis the state of being organized by, or advocating for,[tribes](https://en.wikipedia.org/wiki/Tribe) or tribal lifestyles. Human evolution has primarily occurred in small groups, as opposed to [mass societies](https://en.wikipedia.org/wiki/Mass_society), and humans naturally maintain a [social network](https://en.wikipedia.org/wiki/Social_network). In [popular culture](https://en.wikipedia.org/wiki/Popular_culture), tribalism may also refer to a way of thinking or behaving in which people are loyal to their social group above all else,or,[derogatorily](https://en.wikipedia.org/wiki/Pejorative), a type of [discrimination](https://en.wikipedia.org/wiki/Discrimination) or animosity based upon group differences.
+Tribalismis the state of being organized by, or advocating for, [tribes](https://en.wikipedia.org/wiki/Tribe) or tribal lifestyles. Human evolution has primarily occurred in small groups, as opposed to [mass societies](https://en.wikipedia.org/wiki/Mass_society), and humans naturally maintain a [social network](https://en.wikipedia.org/wiki/Social_network). In [popular culture](https://en.wikipedia.org/wiki/Popular_culture), tribalism may also refer to a way of thinking or behaving in which people are loyal to their social group above all else,or, [derogatorily](https://en.wikipedia.org/wiki/Pejorative), a type of [discrimination](https://en.wikipedia.org/wiki/Discrimination) or animosity based upon group differences.
 
 <https://en.wikipedia.org/wiki/Tribalism>
 

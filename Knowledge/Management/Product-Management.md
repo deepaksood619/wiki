@@ -229,7 +229,7 @@ Remonetisation plan - hook and bait the customers
 
 ## User Stories / User Story
 
-In [software development](https://en.wikipedia.org/wiki/Software_development) and [product management](https://en.wikipedia.org/wiki/Product_management), auser storyis an informal, natural language description of features of a software system. They are written from the perspective of an [end user](https://en.wikipedia.org/wiki/User_(computing)#End-user) or [user of a system](https://en.wikipedia.org/wiki/User_(system)), and may be recorded on index cards,[Post-it notes](https://en.wikipedia.org/wiki/Post-it_note), or digitally in project management software.Depending on the project, user stories may be written by different stakeholders like client, user, manager, or development team.
+In [software development](https://en.wikipedia.org/wiki/Software_development) and [product management](https://en.wikipedia.org/wiki/Product_management), auser storyis an informal, natural language description of features of a software system. They are written from the perspective of an [end user](https://en.wikipedia.org/wiki/User_(computing)#End-user) or [user of a system](https://en.wikipedia.org/wiki/User_(system)), and may be recorded on index cards, [Post-it notes](https://en.wikipedia.org/wiki/Post-it_note), or digitally in project management software.Depending on the project, user stories may be written by different stakeholders like client, user, manager, or development team.
 
 User stories are a type of [boundary object](https://en.wikipedia.org/wiki/Boundary_object). They facilitate [sensemaking](https://en.wikipedia.org/wiki/Sensemaking) and communication; and may help software teams document their understanding of the system and its context.
 

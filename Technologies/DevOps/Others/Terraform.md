@@ -58,7 +58,7 @@ d.  **Plan & Apply -** Runterraform planto verify creation process and thenterra
 
 ## Configuration
 
-The set of files used to describe infrastructure in Terraform is simply known as a Terraform*configuration*.
+The set of files used to describe infrastructure in Terraform is simply known as a Terraform *configuration*.
 
 ## Others - Puppet / AWS CloudFormation
 

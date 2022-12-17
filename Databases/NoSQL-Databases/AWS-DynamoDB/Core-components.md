@@ -6,7 +6,7 @@ Modified: 2021-09-23 15:09:16 +0500
 
 ---
 
-In DynamoDB, tables, items, and attributes are the core components that you work with. A**table**is a collection of**items**, and each item is a collection of**attributes**. DynamoDB uses primary keys to uniquely identify each item in a table and secondary indexes to provide more querying flexibility. You can use DynamoDB Streams to capture data modification events in DynamoDB tables.
+In DynamoDB, tables, items, and attributes are the core components that you work with. A**table** is a collection of **items**, and each item is a collection of **attributes**. DynamoDB uses primary keys to uniquely identify each item in a table and secondary indexes to provide more querying flexibility. You can use DynamoDB Streams to capture data modification events in DynamoDB tables.
 
 ## Tables, Items, and Attributes
 

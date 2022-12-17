@@ -73,13 +73,13 @@ Can I Know Feds Address
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Weimer Constitution of Germany</td>
 <td><ul class="incremental">
 <li><p>Powers of the President</p></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>South African</td>
 <td><ul class="incremental">
 <li><p>Procedure of amendment with a two-thirds majority in Parliament (To read abut the<a href="https://byjus.com/free-ias-prep/types-of-amendment/">types of amendments</a>, follow the linked article.)</p></li>

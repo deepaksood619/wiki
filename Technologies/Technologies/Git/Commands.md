@@ -161,7 +161,7 @@ git add .
 
 ## Git unstage a file
 
-git reset <filepath> - will**unstage**any staged changes for the given file(s). **makes git stop tracking the file completely**.
+git reset <filepath> - will **unstage** any staged changes for the given file(s). **makes git stop tracking the file completely**.
 
 git rm --cached <filepath> - **does not unstage**a file, it actually**stages the removal of the file(s)**from the repo (assuming it was already committed before) but leaves the file in your working tree (leaving you with an untracked file). **unstages any modifications made to the file since the last commit**(but doesn't revert them in the filesystem, contrary to what the command name might suggest**). The file remains under revision control.
 
@@ -314,14 +314,14 @@ git commit --amend
 
 If you contribute to an open source project, e.g. by submitting a pull request with a bug fix, it should be presented as one unit of code.
 
-You should**squash**your commits together. For example, if you have three commits:
+You should **squash** your commits together. For example, if you have three commits:
 
 git reset HEAD~3
 git add .
 git commit -am "Fix bug #14"
 git push --force
 
-The--forceoption is needed if the commits have already been pushed, in order for them to be replaced.**Beware**that this overwrites previous history so always avoid when possible
+The--forceoption is needed if the commits have already been pushed, in order for them to be replaced.**Beware** that this overwrites previous history so always avoid when possible
 
 ## Reverting The Working Copy to an Older Commit
 

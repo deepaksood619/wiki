@@ -348,7 +348,7 @@ Ditch the Ladder, Embrace Opportunity and Carve Your Own Path Through the Squigg
 
 The Squiggly Career(2020) covers research and tips on how to best navigate a career full of frequent transitions and modern-day challenges. If we learn to identify our own strengths, values, goals, and motivations, we can apply them more often at work -- and notice when they're being neglected. The authors reveal how to network by helping others, the merits of starting a side project, and how to make the most of the newfound control we have over our careers.
 
-- Throughout our lifetimes, most of us will spend an average of 90,000 (10*365*40 = 146,000 according to my estimates) hours working.
+- Throughout our lifetimes, most of us will spend an average of 90,000 (10 *365*40 = 146,000 according to my estimates) hours working.
 
 - Compared to previous generations, we have more freedom to decide how our careers play out.
 
@@ -372,7 +372,7 @@ Rather than vaguely asking someone to mentor you, be specific in your requests. 
 
 In this day and age, we're likely to change careers five times over the course of our working lives. The classic life track of "education-work-retirement" is rapidly going extinct.
 
-Your**obvious possibility**is the next logical step from where you are right now. If you keep doing what you're doing, where will you end up? Your**pivot possibility**is a new position that would use your skill set and super strengths in a fresh way. Your**ambitious possibility**is something you've always considered but have decided against for some reason. Usually it involves overcoming a hurdle such as a lack of experience or education. Finally, your**dream possibility**is the work you'd choose to do if you had nothing holding you back. It could be your current work, but it could also be something completely new. Perhaps you're an accountant who wants to be a pilot. Anything is possible!
+Your**obvious possibility** is the next logical step from where you are right now. If you keep doing what you're doing, where will you end up? Your**pivot possibility** is a new position that would use your skill set and super strengths in a fresh way. Your**ambitious possibility** is something you've always considered but have decided against for some reason. Usually it involves overcoming a hurdle such as a lack of experience or education. Finally, your**dream possibility** is the work you'd choose to do if you had nothing holding you back. It could be your current work, but it could also be something completely new. Perhaps you're an accountant who wants to be a pilot. Anything is possible!
 
 - Curiosity, feedback, and grit are increasingly sought-after workplace skills.
 
@@ -476,7 +476,7 @@ Many [war hawks](https://en.wikipedia.org/wiki/War_hawk) don't themselves bear a
 
 For example, a lawyer who is extremely sought after, but dresses very sloppily, is bound to have proven herself in court over and over again. If she didn't win cases, people wouldn't hire her. The same is true for surgeons, authors whose book's sell like crazy, and elite soldiers: without stellar results, they'd never have made it.
 
-On the other end of the spectrum are CEOs,[politicians](https://fourminutebooks.com/fear-summary/), and bankers. Being good at what you do won't hurt your chances here, but the **main requirement for doing well is beingperceivedas capable**. After all, votes and thus people's opinions decide who gets the part.
+On the other end of the spectrum are CEOs, [politicians](https://fourminutebooks.com/fear-summary/), and bankers. Being good at what you do won't hurt your chances here, but the **main requirement for doing well is beingperceivedas capable**. After all, votes and thus people's opinions decide who gets the part.
 
 - Rich people are easier to scam, because they have less to lose than the people selling to them
 

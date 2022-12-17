@@ -35,11 +35,11 @@ The primary goal of using data model are:
 
 There are mainly three different types of data models:
 
-a.  **Conceptual:**This Data Model defines**WHAT**the system contains. This model is typically created by Business stakeholders and Data Architects. The purpose is to organize, scope and define business concepts and rules.
+a.  **Conceptual:**This Data Model defines **WHAT** the system contains. This model is typically created by Business stakeholders and Data Architects. The purpose is to organize, scope and define business concepts and rules.
 
-b.  **Logical:**Defines**HOW**the system should be implemented regardless of the DBMS. This model is typically created by Data Architects and Business Analysts. The purpose is to developed technical map of rules and data structures.
+b.  **Logical:**Defines **HOW** the system should be implemented regardless of the DBMS. This model is typically created by Data Architects and Business Analysts. The purpose is to developed technical map of rules and data structures.
 
-c.  **Physical:** This Data Model describes**HOW**the system will be implemented using a specific DBMS system. This model is typically created by DBA and developers. The purpose is actual implementation of the database.
+c.  **Physical:** This Data Model describes **HOW** the system will be implemented using a specific DBMS system. This model is typically created by DBA and developers. The purpose is actual implementation of the database.
 
 ![image](media/Data-Modeling-image2.png)
 <https://www.guru99.com/data-modelling-conceptual-logical.html>

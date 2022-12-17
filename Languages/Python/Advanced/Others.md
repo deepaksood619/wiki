@@ -170,7 +170,7 @@ If your descriptor implements just.**get**(), then it's said to be anon-data des
 
 ## ipython
 
-IPython(Interactive Python) is a [command shell](https://en.wikipedia.org/wiki/Shell_(computing)) for interactive computing in multiple programming languages, originally developed for the [Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), that offers [introspection](https://en.wikipedia.org/wiki/Introspection_(computer_science)),[rich media](https://en.wikipedia.org/wiki/Rich_media), shell syntax,[tab completion](https://en.wikipedia.org/wiki/Tab_completion), and history. IPython provides the following features:
+IPython(Interactive Python) is a [command shell](https://en.wikipedia.org/wiki/Shell_(computing)) for interactive computing in multiple programming languages, originally developed for the [Python programming language](https://en.wikipedia.org/wiki/Python_(programming_language)), that offers [introspection](https://en.wikipedia.org/wiki/Introspection_(computer_science)), [rich media](https://en.wikipedia.org/wiki/Rich_media), shell syntax, [tab completion](https://en.wikipedia.org/wiki/Tab_completion), and history. IPython provides the following features:
 
 - Interactive shells (terminal and [Qt](https://en.wikipedia.org/wiki/Qt_(framework))-based).
 - A browser-based [notebook interface](https://en.wikipedia.org/wiki/Notebook_interface) with support for code, text, mathematical expressions, inline plots and other media.

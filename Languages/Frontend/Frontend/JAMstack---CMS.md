@@ -153,19 +153,19 @@ The following CMSs have high popularity among Gatsby users and support key funct
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://cosmicjs.com/">Cosmic</a></td>
 <td><a href="https://docs.cosmicjs.com/guides/gatsby">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-cosmicjs">docs</a></td>
 <td><a href="https://github.com/cosmicjs/gatsby-blog-cosmicjs">starter</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://buttercms.com/">ButterCMS</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-buttercms/">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-buttercms">docs</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p><a href="https://ghost.org/">Ghost</a></p>
 <blockquote>
 <p><a href="https://ghost.org/themes/?category=free">https://ghost.org/themes/?category=free</a></p>
@@ -175,79 +175,79 @@ The following CMSs have high popularity among Gatsby users and support key funct
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-ghost/">docs</a></td>
 <td><a href="https://www.gatsbyjs.com/starters/TryGhost/gatsby-starter-ghost/">starter</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://kontent.ai/">Kontent by Kentico</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-kentico-kontent">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/@kentico/gatsby-source-kontent">docs</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://directus.io/">Directus</a></td>
 <td></td>
 <td><a href="https://www.gatsbyjs.com/plugins/@directus/gatsby-source-directus/">docs</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://graphcms.com/">GraphCMS</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-graphcms">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-graphql">docs</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.storyblok.com/">Storyblok</a></td>
 <td><a href="https://www.storyblok.com/tp/gatsby-multilanguage-website-tutorial">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-storyblok">docs</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://getcockpit.com/">Cockpit</a></td>
 <td></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-plugin-cockpit">docs</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://craftcms.com/">CraftCMS</a></td>
 <td></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-craftcms">docs</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://agilitycms.com/">Agility CMS</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-agilitycms/">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/@agility/gatsby-source-agilitycms/">docs</a></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://prepr.io/">Prepr CMS</a></td>
 <td><a href="https://docs.prepr.io/docs/frontend-integrations/v1/gatsby">guide</a></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://forestry.io/">Forestry</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-forestry/">guide</a></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://getmesh.io/">Gentics Mesh</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-gentics-mesh">guide</a></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://seams-cms.com/">Seams-CMS</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-seams-cms">guide</a></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.builder.io/">Builder.io</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-builder-io/">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/@builder.io/gatsby/">docs</a></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://flotiq.com/">Flotiq</a></td>
 <td><a href="https://www.gatsbyjs.com/docs/sourcing-from-flotiq/">guide</a></td>
 <td><a href="https://www.gatsbyjs.com/plugins/gatsby-source-flotiq">docs</a></td>

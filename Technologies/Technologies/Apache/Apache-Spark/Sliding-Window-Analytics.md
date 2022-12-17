@@ -34,7 +34,7 @@ Hopping window functions hop forward in time by a fixed period. It may be easy t
 
 3. **Sliding Windows**
 
-Sliding window functions, unlike Tumbling or Hopping windows, produce an output**only**when an event occurs. Every window will have at least one event and the window continuously moves forward by an € (epsilon). Like hopping windows, events can belong to more than one sliding window.
+Sliding window functions, unlike Tumbling or Hopping windows, produce an output **only** when an event occurs. Every window will have at least one event and the window continuously moves forward by an € (epsilon). Like hopping windows, events can belong to more than one sliding window.
 
 ![Stream Analytics sliding window](../../../media/Technologies-Apache-Sliding-Window-Analytics-image3.png)
 

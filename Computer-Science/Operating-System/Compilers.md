@@ -6,8 +6,8 @@ Modified: 2022-01-16 20:10:22 +0500
 
 ---
 
-LLVM - The**LLVM**compiler infrastructure project is a "collection of modular and reusable [compiler](https://en.wikipedia.org/wiki/Compiler) and [toolchain](https://en.wikipedia.org/wiki/Toolchain) technologies" used to develop compiler [front ends](https://en.wikipedia.org/wiki/Compiler#Front_end) and [back ends](https://en.wikipedia.org/wiki/Compiler#Back_end).
-LLVM is written in [C++](https://en.wikipedia.org/wiki/C%2B%2B) and is designed for [compile-time](https://en.wikipedia.org/wiki/Compile-time),[link-time](https://en.wikipedia.org/wiki/Link-time),[run-time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)), and "idle-time" optimization of programs written in arbitrary [programming languages](https://en.wikipedia.org/wiki/Programming_language).
+LLVM - The **LLVM** compiler infrastructure project is a "collection of modular and reusable [compiler](https://en.wikipedia.org/wiki/Compiler) and [toolchain](https://en.wikipedia.org/wiki/Toolchain) technologies" used to develop compiler [front ends](https://en.wikipedia.org/wiki/Compiler#Front_end) and [back ends](https://en.wikipedia.org/wiki/Compiler#Back_end).
+LLVM is written in [C++](https://en.wikipedia.org/wiki/C%2B%2B) and is designed for [compile-time](https://en.wikipedia.org/wiki/Compile-time), [link-time](https://en.wikipedia.org/wiki/Link-time), [run-time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)), and "idle-time" optimization of programs written in arbitrary [programming languages](https://en.wikipedia.org/wiki/Programming_language).
 
 1. LLVM Intermediate Representation (IR)
 

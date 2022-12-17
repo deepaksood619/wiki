@@ -67,7 +67,7 @@ Here's a full list of hooks you can attach scripts to:
 
 ## OpenGrok
 
-OpenGrok is a fast and usable source code search and cross reference engine. It helps you search, cross-reference and navigate your source tree. It understands various program file formats and history from many Source Code Management systems. In other words it lets you*grok*(profoundly understand) source code and is developed in the open, hence the name OpenGrok. It is written in Java.
+OpenGrok is a fast and usable source code search and cross reference engine. It helps you search, cross-reference and navigate your source tree. It understands various program file formats and history from many Source Code Management systems. In other words it lets you *grok*(profoundly understand) source code and is developed in the open, hence the name OpenGrok. It is written in Java.
 
 <https://oracle.github.io/opengrok>
 

@@ -70,7 +70,7 @@ The problem of learning to predict classes that are not mutually exclusive is ca
 - **Recommender Systems**
 - **Sequence Learning**
 
-**sequence learning** require a model to either ingest sequences of inputs or to emit sequences of outputs (or both). Specifically,**sequence to sequence learning considers problems where input and output are both variable-length sequences, such as machine translation and transcribing text from the spoken speech
+**sequence learning** require a model to either ingest sequences of inputs or to emit sequences of outputs (or both). Specifically, **sequence to sequence learning considers problems where input and output are both variable-length sequences, such as machine translation and transcribing text from the spoken speech
 
 - Tagging and Parsing
 - Automatic Speech Recognition
@@ -268,7 +268,7 @@ Modules
 
 [Density estimation](https://en.wikipedia.org/wiki/Density_estimation) finds the [distribution](https://en.wikipedia.org/wiki/Probability_distribution) of inputs in some space
 
-Among other categories of machine learning problems,[learning to learn](https://en.wikipedia.org/wiki/Meta_learning_(computer_science)) learns its own [inductive bias](https://en.wikipedia.org/wiki/Inductive_bias) based on previous experience.[Developmental learning](https://en.wikipedia.org/wiki/Developmental_robotics), elaborated for [robot learning](https://en.wikipedia.org/wiki/Robot_learning), generates its own sequences (also called curriculum) of learning situations to cumulatively acquire repertoires of novel skills through autonomous self-exploration and social interaction with human teachers and using guidance mechanisms such as active learning, maturation, motor synergies, and imitation.
+Among other categories of machine learning problems, [learning to learn](https://en.wikipedia.org/wiki/Meta_learning_(computer_science)) learns its own [inductive bias](https://en.wikipedia.org/wiki/Inductive_bias) based on previous experience.[Developmental learning](https://en.wikipedia.org/wiki/Developmental_robotics), elaborated for [robot learning](https://en.wikipedia.org/wiki/Robot_learning), generates its own sequences (also called curriculum) of learning situations to cumulatively acquire repertoires of novel skills through autonomous self-exploration and social interaction with human teachers and using guidance mechanisms such as active learning, maturation, motor synergies, and imitation.
 
 - Targeted ads on mobile apps
 - Sentiment analysis
@@ -304,7 +304,7 @@ Support vector machines (SVMs) are a set of related [supervised learning](https:
 
 7. **Clustering**
 
-Cluster analysis is the assignment of a set of observations into subsets (called*clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some*similarity metric*and evaluated for example by*internal compactness*(similarity between members of the same cluster) and*separation*between different clusters. Other methods are based on*estimated density*and*graph connectivity*. Clustering is a method of [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for [statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
+Cluster analysis is the assignment of a set of observations into subsets (called *clusters*) so that observations within the same cluster are similar according to some predesignated criteria, while observations drawn from different clusters are dissimilar. Different clustering techniques make different assumptions on the structure of the data, often defined by some*similarity metric*and evaluated for example by*internal compactness*(similarity between members of the same cluster) and *separation*between different clusters. Other methods are based on*estimated density*and*graph connectivity*. Clustering is a method of [unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning), and a common technique for [statistical](https://en.wikipedia.org/wiki/Statistics)[data analysis](https://en.wikipedia.org/wiki/Data_analysis).
 
 8. **Bayesian networks**
 
@@ -312,7 +312,7 @@ A Bayesian network, belief network or directed acyclic graphical model is a [pro
 
 9. **Reinforcement learning**
 
-Reinforcement learning is concerned with how an*agent*ought to take*actions*in an*environment*so as to maximize some notion of long-term*reward*. Reinforcement learning algorithms attempt to find a*policy*that maps*states*of the world to the actions the agent ought to take in those states. Reinforcement learning differs from the [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) problem in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected.
+Reinforcement learning is concerned with how an *agent*ought to take *actions*in an *environment*so as to maximize some notion of long-term *reward*. Reinforcement learning algorithms attempt to find a *policy* that maps *states*of the world to the actions the agent ought to take in those states. Reinforcement learning differs from the [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) problem in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected.
 
 10. **Representation learning**
 

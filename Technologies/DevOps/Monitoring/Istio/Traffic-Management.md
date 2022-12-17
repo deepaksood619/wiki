@@ -186,7 +186,7 @@ privateKey: /tmp/tls.key
 You use a [service entry](https://istio.io/docs/reference/config/networking/service-entry/#ServiceEntry) to add an entry to the service registry that Istio maintains internally. After you add the service entry, the Envoy proxies can send traffic to the service as if it was a service in your mesh. Configuring service entries allows you to manage traffic for services running outside of the mesh, including the following tasks:
 
 - Redirect and forward traffic for external destinations, such as APIs consumed from the web, or traffic to services in legacy infrastructure.
-- Define [retry](https://istio.io/docs/concepts/traffic-management/#retries),[timeout](https://istio.io/docs/concepts/traffic-management/#timeouts), and [fault injection](https://istio.io/docs/concepts/traffic-management/#fault-injection) policies for external destinations.
+- Define [retry](https://istio.io/docs/concepts/traffic-management/#retries), [timeout](https://istio.io/docs/concepts/traffic-management/#timeouts), and [fault injection](https://istio.io/docs/concepts/traffic-management/#fault-injection) policies for external destinations.
 - Run a mesh service in a Virtual Machine (VM) by [adding VMs to your mesh](https://istio.io/docs/examples/virtual-machines/).
 - Logically add services from a different cluster to the mesh to configure a [multicluster Istio mesh](https://istio.io/docs/setup/install/multicluster/gateways/#configure-the-example-services) on Kubernetes.
 

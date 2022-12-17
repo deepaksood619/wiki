@@ -27,8 +27,8 @@ Indexing is a way to optimize the performance of a database by minimizing the nu
 
 ## Indexes are created using a few database columns
 
-- The first column is the**Search key**that contains a copy of the primary key or candidate key of the table. These values are stored in sorted order so that the corresponding data can be accessed quickly.
-    Note: The data may or may not be stored in sorted order.-   The second column is the**Data ReferenceorPointer**which contains a set of pointers holding the address of the disk block where that particular key value can be found.
+- The first column is the**Search key** that contains a copy of the primary key or candidate key of the table. These values are stored in sorted order so that the corresponding data can be accessed quickly.
+    Note: The data may or may not be stored in sorted order.-   The second column is the**Data ReferenceorPointer** which contains a set of pointers holding the address of the disk block where that particular key value can be found.
 
 ![image](media/Indexing-image1.jpeg)
 

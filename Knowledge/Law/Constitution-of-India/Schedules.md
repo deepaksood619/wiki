@@ -173,11 +173,11 @@ Aspirants should know about the Constitutional Articles related with the Schedul
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>First Schedule</td>
 <td>Article 1 and Article 4</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Second Schedule</td>
 <td><p>Articles:</p>
 <ul class="incremental">
@@ -213,7 +213,7 @@ Aspirants should know about the Constitutional Articles related with the Schedul
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Third Schedule</td>
 <td><p>Articles:</p>
 <ul class="incremental">
@@ -243,39 +243,39 @@ Aspirants should know about the Constitutional Articles related with the Schedul
 </blockquote></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Fourth Schedule</td>
 <td>Article 4 and Article 80</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Fifth Schedule</td>
 <td>Article 244</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Sixth Schedule</td>
 <td>Article 244 and Article 275</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Seventh Schedule</td>
 <td>Article 246</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Eighth Schedule</td>
 <td>Article 344 and Article 351</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Ninth Schedule</td>
 <td>Article 31-B</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Tenth Schedule</td>
 <td>Article 102 and Article 191</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Eleventh Schedule</td>
 <td>Article 243-G</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Twelfth Schedule</td>
 <td>Article 243-W</td>
 </tr>

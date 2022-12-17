@@ -169,31 +169,31 @@ Urchin Tracking Module(UTM)parametersare five variants of [URL parameters](https
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>utm_source</strong></td>
 <td><p>Identifies which site sent the traffic, and is a required parameter.</p>
 <p>Identify the advertiser, site, publication, etc. that is sending traffic to your property, for example: example, paisa_bazar, google, ns, gam.</p></td>
 <td>utm_source=<strong>Google</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>utm_medium</strong></td>
 <td><p>Identifies what type of link was used, such as<a href="https://en.wikipedia.org/wiki/Cost_per_click">cost per click</a>or email.</p>
 <p>The advertising or marketing medium, for example: cpc, banner, email newsletter.</p></td>
 <td>utm_medium=<strong>cpc</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>utm_campaign</strong></td>
 <td><p>Identifies a specific product promotion or strategic campaign.</p>
 <p>The individual campaign name, slogan, promo code, etc. for a product.</p></td>
 <td>utm_campaign=<strong>spring_sale</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>utm_term</strong></td>
 <td><p>Identifies search terms.</p>
 <p>Identify paid search keywords. If you're manually tagging paid keyword campaigns, you should also use utm_term to specify the keyword.</p></td>
 <td>utm_term=<strong>running+shoes</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>utm_content</strong></td>
 <td><p>Identifies what specifically was clicked to bring the user to the site, such as a<a href="https://en.wikipedia.org/wiki/Banner_ad">banner ad</a>or a<a href="https://en.wikipedia.org/wiki/Hyperlink">text link</a>. It is often used for<a href="https://en.wikipedia.org/wiki/A/B_testing">A/B testing</a>and<a href="https://en.wikipedia.org/wiki/Contextual_advertising">content-targeted ads</a>.</p>
 <p>Used to differentiate similar content, or links within the same ad. For example, if you have two call-to-action links within the same email message, you can use utm_content and set different values for each so you can tell which version is more effective.</p></td>

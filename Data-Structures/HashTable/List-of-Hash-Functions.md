@@ -69,22 +69,22 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Pearson_hashing">Pearson hashing</a></td>
 <td>8 bits (or more)</td>
 <td>XOR/table</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Paul Hsieh's SuperFastHash<a href="https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-1">[1]</a></td>
 <td>32 bits</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Rolling_hash#Cyclic_polynomial">Buzhash</a></td>
 <td>variable</td>
 <td>XOR/table</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function">Fowler–Noll–Vo hash function</a></p>
 <p>(FNV Hash)</p></td>
 <td><p>32, 64, 128, 256,</p>
@@ -92,62 +92,62 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 <td><p>xor/product or</p>
 <p>product/XOR</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Jenkins_hash_function">Jenkins hash function</a></td>
 <td>32 or 64 bits</td>
 <td>XOR/addition</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Bernstein hashdjb2</td>
 <td>32 bits</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/PJW_hash_function">PJW hash / Elf Hash</a></td>
 <td>32 or 64 bits</td>
 <td>add,shift,xor</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/MurmurHash">MurmurHash</a></td>
 <td>32, 64, or 128 bits</td>
 <td>product/rotation</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Fast-Hash</td>
 <td>32, 64 bits</td>
 <td><a href="https://en.wikipedia.org/wiki/Xorshift">xorshift</a>operations</td>
 </tr>
-<tr class="even">
+<tr>
 <td>SpookyHash</td>
 <td>32, 64, or 128 bits</td>
 <td>see<a href="https://en.wikipedia.org/wiki/Jenkins_hash_function">Jenkins hash function</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CityHash</td>
 <td>32, 64, 128, or 256 bits</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FarmHash</td>
 <td>32, 64 or 128 bits</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MetroHash</td>
 <td>64 or 128 bits</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>numeric hash (nhash)</td>
 <td>variable</td>
 <td>division/modulo</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>xxHash</td>
 <td>32, 64 bits</td>
 <td>product/rotation</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/w/index.php?title=T1ha_(Fast_Positive_Hash)&amp;action=edit&amp;redlink=1">t1ha (Fast Positive Hash)</a><a href="https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-t1ha_github-9">[9]</a></td>
 <td>64 and 128 bits</td>
 <td>product/rotation/XOR/add</td>

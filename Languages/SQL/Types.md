@@ -6,11 +6,11 @@ Modified: 2020-03-25 00:02:35 +0500
 
 ---
 
-- **SQL**is a query language to operate on sets.
+- **SQL** is a query language to operate on sets.
     It is more or less standardized, and used by almost all relational database management systems: SQL Server, Oracle, MySQL, PostgreSQL, DB2, Informix, etc.
 - **PL/SQL**is a proprietary procedural language used by Oracle
 - **PL/pgSQL**is a procedural language used by PostgreSQL
-- **TSQL**is a proprietary procedural language used by Microsoft in SQL Server.
+- **TSQL** is a proprietary procedural language used by Microsoft in SQL Server.
 
 ## PL/SQL
 
@@ -43,7 +43,7 @@ T-SQL (Transact-SQL) is a set of programming extensions from Sybase and Microsof
 
 All applications that communicate with [SQL Server](https://searchsqlserver.techtarget.com/definition/SQL-Server) do so by sending T-SQL statements to the server. T-SQL queries include the SELECT statement, selecting columns, labeling output columns, restricting rows and modifying a search condition.
 
-T-SQL identifiers, meanwhile, are used in all [databases](https://searchsqlserver.techtarget.com/definition/database),[servers](https://whatis.techtarget.com/definition/server), and database objects in SQL Server. These include the following tables,[constraints](https://whatis.techtarget.com/definition/constraint-project-constraint),[stored procedures](https://searchoracle.techtarget.com/definition/stored-procedure), views, columns and [data types](https://searchmicroservices.techtarget.com/definition/data-type). T-SQL identifiers must each have a unique name, are assigned when an object is created and are used to identify an object.
+T-SQL identifiers, meanwhile, are used in all [databases](https://searchsqlserver.techtarget.com/definition/database), [servers](https://whatis.techtarget.com/definition/server), and database objects in SQL Server. These include the following tables, [constraints](https://whatis.techtarget.com/definition/constraint-project-constraint), [stored procedures](https://searchoracle.techtarget.com/definition/stored-procedure), views, columns and [data types](https://searchmicroservices.techtarget.com/definition/data-type). T-SQL identifiers must each have a unique name, are assigned when an object is created and are used to identify an object.
 
 ## T-SQL Functions
 

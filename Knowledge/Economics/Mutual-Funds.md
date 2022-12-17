@@ -166,42 +166,42 @@ This provides diversification in the rules. When an index house or fund house pr
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXO4-2FvNmL4FL9uM7P7Mcf-2FRw-3D_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJispxwQB3B4ontFFsYBubIjFRObTBDZgm4Ltfx1VHLBboh-2Fh-2BzGA4ZtqMq27kKkCcIpgkbJ8y6L-2FslknuWkgoQNpZSD0pEHXGm0dmZE8xzupii8ocDTrKcu04t1KsyFKsfUjVR-2Bgz8gqXW1t9JODYOjUG0ILc1FEJCJCjaG29IQ6eahB-2FtpGmzFhkv1vtALLmW-2B84ejtPT6gKpux5CT08BMYo8-3D">Aggressive</a></td>
 <td>Invest 65-80% of its total assets in equity instruments and 20-35% of its total assets in debt instruments.</td>
 <td>8.90% - 17.15%</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXDFbOHQ8lhB5CckPRFtS6A7ceMuKu5GnKDa1YPmMUNxf_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJisp-2FYjz6uaLyksaflCdRsw7DfIYWuKWS5OwfOEpVDgThJ72xLXyCOlgYPKx0MklXe8QGt1RwKkQK3JAyizgJKd3DeT6XIXwbeAmgwJanxKa4yveIM5whNfhtVr58Gh0lyESQBeCfT5oVK69Wlm33hc1SskNrX9siM1-2FnoLX0CoI-2FzsLxQETpkSSuE7HA6cgyEIAPvn8wcrUWYZ9uZWhnb7LM4-3D">Equity Savings</a></td>
 <td>Invest at least 65% of its total assets in equity and equity related instruments &amp; at least 10% of its total assets in debt instruments.</td>
 <td>5.59% - 13.24%</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXHUKZsq-2B4VHF0OYY7qvhVL-2B5Ka80jKovl3lAuRdxWUaz_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJisp6DPVplPVDAt4q7AMpuf8yjna-2FEVHBtqXy1fbBLejOt7MpeQZbz7W5PaGDdzng1nIsh7dC-2BpgAYaGKxvUyI-2F8v0WGC-2F094B6Nxk2EQ8BiVhIxxHt5hQEho5rJmp9MD3idEHlFB17ue-2BGywW-2FHNW2Hj8IXhscYXWg2k9Mm7Sx6pxVMHUJWGd94JA6sqM3VT0uQ4nc-2BHcWkPUFzvDZ7o-2BMdjo-3D">Multi Asset Allocation</a></td>
 <td>Invest in at least 3 different asset classes, with a minimum asset allocation of 10% in each of the three asset classes.</td>
 <td>5.74% - 14.98%</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXL-2BnkRhA-2FBPsqFSUN8sRGiU-3D_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJisp1Q9t-2FpfCveU1nlMtcN9bnIPxfuKotE2ByTKZWhlmK7zH1-2B-2FDLB4MPkJYhgMRlmeXRslO9OMunL-2FHRX64ZT8Ya-2FkTRYnIluuOvSa2q3HH3VTHCByBHl031rCoJgEyd4bP0CZfZEln-2BOtPoZIXxpE7osTWFn00HjSUwiPDv8Jzor6ehR7zR-2BOPorlzMVINXIqBPzdoMwI4NuPkFS3y-2FP1B5M-3D">Arbitrage</a></td>
 <td>Invest at least 65% of its total assets in equity and equity related instruments, with an arbitrage strategy.</td>
 <td>3.73% - 7.03%</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXPpEIgPeOWn1NSM1AZL5Faw-3D_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJisp35jML-2FBAhf9Wk2T3FyCm2YDLUcAC4qtnrX6xTQPx-2FeGL16JQbl5dzu1BWLQ2pkLywxmTBtzWSPk14ZPDTMoFMIy3SkK7y5-2BmUoFg9BEr1hhdczy5-2Bo7Hyt2IBPp9eo05Z9LuBLf9SiYMp-2Fe9mcw85jRHA0gJsOwmA2DAI9gWliDOMwwmQUXK1IKvOm46IQwLj-2FtBr5IqZcii5YEjFYk17k-3D">Balanced Hybrid</a></td>
 <td>Invest at least 40-60% of its total assets in each of equity and debt instruments.</td>
 <td>6.91% - 13.03%</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXJrtwDeELWONu0cWKEmFdBY-3D_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJisp9DhuYck4Prt71pHE20zpKnbPjfk0Dxd5vXkpBZLq5vl3F-2BSB0CZr9uET-2BjZT8bxCvzIAnZI5J5fwfq50Ou65dyAM8XqMx2v8iV3IuxLbQk-2FvZQ-2F3T7dKb7MrcG3nrVIA51uAl02vBx692oERYIDcHRnz8ntoQNzMpMPX-2F0K6MwkJ4fmJ72hQg328gxfP-2B00t-2Fgd9JbzYP62tZKYLE4pCvs-3D">Conservative Hybrid</a></td>
 <td>Invest 75-90% of its total assets in debt instruments and 10-25% of its total assets in equity instruments.</td>
 <td>6.72% - 12.61%</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="http://email.info.paytmmoney.com/wf/click?upn=l3-2FesiF0GLS75SSgQ17DXMAQcUCDSmyn6cK-2BwurC-2F50-3D_mJi8Qyxl6vjZFuOwDEFvIlGczZ87gm-2BujsPbsKBbAPTVs-2BchbFUzBF3yIovDTiLuuwpHy7jAPTxbti18SJisp3eRbuDHNtx-2BuRXyYcLvbtgSQyikHXOdZtO2iC0A7O-2BkQv-2F8bxLUs22odOERcNZY1bHE9FObAbHmV3Y9xi6Ju-2FFPKRSKE1QNdt3DFcBVl8i3-2FxuZE8O3RymWKnub9OaA0hhIU7WOIlVlRUJ8JGJunoh28T-2FId2y6xrqcbJXWeBa-2Bgv55rg8-2FoehBvg-2FiqZV06NBNlcw-2BS7ZmM7z0iFOMv7Q-3D">Dynamic Asset Allocation</a></td>
 <td>Invest in equity or debt instruments which are managed dynamically.</td>
 <td>6.34% - 16.04%</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p></p>
 <p>Smart Beta Funds</p></td>
 <td><a href="https://youtu.be/npMk-8ToJYw">Smart Beta Funds: Is It Really A Smart Investment Strategy? | ETMONEY</a></td>

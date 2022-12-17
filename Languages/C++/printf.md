@@ -6,11 +6,11 @@ Modified: 2018-07-30 21:23:28 +0500
 
 ---
 
-A*format specifier*follows this prototype:
+A *format specifier* follows this prototype:
 
-%[flags][width][.precision][length]specifier
+`%[flags][width][.precision][length]specifier`
 
-Where the*specifier character*at the end is the most significant component, since it defines the type and the interpretation of its corresponding argument:
+Where the *specifier character* at the end is the most significant component, since it defines the type and the interpretation of its corresponding argument:
 
 <table>
 <colgroup>
@@ -26,94 +26,94 @@ Where the*specifier character*at the end is the most significant component, sinc
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>d<em>or</em>i</td>
+<tr>
+<td>d<em> or </em>i</td>
 <td>Signed decimal integer</td>
 <td>392</td>
 </tr>
-<tr class="even">
+<tr>
 <td>u</td>
 <td>Unsigned decimal integer</td>
 <td>7235</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>o</td>
 <td>Unsigned octal</td>
 <td>610</td>
 </tr>
-<tr class="even">
+<tr>
 <td>x</td>
 <td>Unsigned hexadecimal integer</td>
 <td>7fa</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>X</td>
 <td>Unsigned hexadecimal integer (uppercase)</td>
 <td>7FA</td>
 </tr>
-<tr class="even">
+<tr>
 <td>f</td>
 <td>Decimal floating point, lowercase</td>
 <td>392.65</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>F</td>
 <td>Decimal floating point, uppercase</td>
 <td>392.65</td>
 </tr>
-<tr class="even">
+<tr>
 <td>e</td>
 <td>Scientific notation (mantissa/exponent), lowercase</td>
 <td>3.9265e+2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>E</td>
 <td>Scientific notation (mantissa/exponent), uppercase</td>
 <td>3.9265E+2</td>
 </tr>
-<tr class="even">
+<tr>
 <td>g</td>
 <td>Use the shortest representation:%eor%f</td>
 <td>392.65</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>G</td>
 <td>Use the shortest representation:%Eor%F</td>
 <td>392.65</td>
 </tr>
-<tr class="even">
+<tr>
 <td>a</td>
 <td>Hexadecimal floating point, lowercase</td>
 <td>-0xc.90fep-2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>A</td>
 <td>Hexadecimal floating point, uppercase</td>
 <td>-0XC.90FEP-2</td>
 </tr>
-<tr class="even">
+<tr>
 <td>c</td>
 <td>Character</td>
 <td>a</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>s</td>
 <td>String of characters</td>
 <td>sample</td>
 </tr>
-<tr class="even">
+<tr>
 <td>p</td>
 <td>Pointer address</td>
 <td>b8000000</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>n</td>
 <td><p>Nothing printed.</p>
 <p>The corresponding argument must be a pointer to asigned int.</p>
 <p>The number of characters written so far is stored in the pointed location.</p></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>%</td>
 <td>A%followed by another%character will write a single%to the stream.</td>
 <td>%</td>
@@ -135,24 +135,24 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>-</td>
 <td>Left-justify within the given field width; Right justification is the default (see<em>width</em>sub-specifier).</td>
 </tr>
-<tr class="even">
+<tr>
 <td>+</td>
 <td>Forces to preceed the result with a plus or minus sign (+or-) even for positive numbers. By default, only negative numbers are preceded with a-sign.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>(space)</em></td>
 <td>If no sign is going to be written, a blank space is inserted before the value.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>#</td>
 <td><p>Used witho,xorXspecifiers the value is preceeded with0,0xor0Xrespectively for values different than zero.</p>
 <p>Used witha,A,e,E,f,F,gorGit forces the written output to contain a decimal point even if no more digits follow. By default, if no digits follow, no decimal point is written.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>0</td>
 <td>Left-pads the number with zeroes (0) instead of spaces when padding is specified (see<em>width</em>sub-specifier).</td>
 </tr>
@@ -162,7 +162,7 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 | ***width*** | **description**                                                                                                                                                                                      |
 |----------|--------------------------------------------------------------|
 | *(number)*  | Minimum number of characters to be printed. If the value to be printed is shorter than this number, the result is padded with blank spaces. The value is not truncated even if the result is larger. |
-| *          | The*width*is not specified in the*format*string, but as an additional integer value argument preceding the argument that has to be formatted.                                                    |
+| *          | The *width*is not specified in the*format*string, but as an additional integer value argument preceding the argument that has to be formatted.                                                    |
 
 <table>
 <colgroup>
@@ -176,7 +176,7 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>.<em>number</em></td>
 <td><p>For integer specifiers (d,i,o,u,x,X):<em>precision</em>specifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. A<em>precision</em>of0means that no character is written for the value0.</p>
 <p>Fora,A,e,E,fandFspecifiers: this is the number of digits to be printed<strong>after</strong>the decimal point (by default, this is 6).</p>
@@ -184,14 +184,14 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 <p>Fors: this is the maximum number of characters to be printed. By default all characters are printed until the ending null character is encountered.</p>
 <p>If the period is specified without an explicit value for<em>precision</em>,0is assumed.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>.*</td>
 <td>The<em>precision</em>is not specified in the<em>format</em>string, but as an additional integer value argument preceding the argument that has to be formatted.</td>
 </tr>
 </tbody>
 </table>
 
-The*length*sub-specifier modifies the length of the data type. This is a chart showing the types used to interpret the corresponding arguments with and without*length*specifier (if a different type is used, the proper type promotion or conversion is performed, if allowed):
+The *length*sub-specifier modifies the length of the data type. This is a chart showing the types used to interpret the corresponding arguments with and without *length*specifier (if a different type is used, the proper type promotion or conversion is performed, if allowed):
 
 |             | **specifiers**                                  |                                                |                    |                                          |          |       |                                                  |
 |--------|----------|-------------|----------|--------|---------|--------|---------|
@@ -214,7 +214,7 @@ On success, the total number of characters written is returned.
 
 If a writing error occurs, the*error indicator*([ferror](http://www.cplusplus.com/ferror)) is set and a negative number is returned.
 
-If a multibyte character encoding error occurs while writing wide characters,[errno](http://www.cplusplus.com/errno) is set toEILSEQand a negative number is returned.
+If a multibyte character encoding error occurs while writing wide characters, [errno](http://www.cplusplus.com/errno) is set toEILSEQand a negative number is returned.
 
 ## Reference
 

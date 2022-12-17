@@ -201,7 +201,7 @@ Loki is like Prometheus, but for logs: we prefer a multidimensional label-based 
 
 ## PLG Stack (Promtail, Loki and Grafana)
 
-Don't be surprised if you don't find this acronym, it is mostly known as Grafana Loki. Anyway, this stack is getting good popularity due to its opinionated design decisions. You might know about Grafana which is a popular visualization tool. Grafana labs designed**Loki**which is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. It indexes only metadata and doesn't index the content of the log. This design decision makes it very cost-effective and easy to operate.
+Don't be surprised if you don't find this acronym, it is mostly known as Grafana Loki. Anyway, this stack is getting good popularity due to its opinionated design decisions. You might know about Grafana which is a popular visualization tool. Grafana labs designed **Loki** which is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. It indexes only metadata and doesn't index the content of the log. This design decision makes it very cost-effective and easy to operate.
 
 ## Promtailis an agent that ships the logs from the local system to the Loki cluster.Grafanais the visualization tool which consumes data from Loki data sources
 
@@ -289,12 +289,12 @@ Loki 2.0 brings an index mechanism named 'boltdb-shipper' and is what we now cal
 
 ## LogQL
 
-Loki comes with its own PromQL-inspired language for queries called**LogQL**. LogQL can be considered a distributed**grep**that aggregates log sources. LogQL uses labels and operators for filtering.
+Loki comes with its own PromQL-inspired language for queries called **LogQL**. LogQL can be considered a distributed **grep** that aggregates log sources. LogQL uses labels and operators for filtering.
 
 There are two types of LogQL queries:
 
-- **Log queries**return the contents of log lines.
-- **Metric queries**extend log queries and calculate sample values based on the content of logs from a log query.
+- **Log queries** return the contents of log lines.
+- **Metric queries** extend log queries and calculate sample values based on the content of logs from a log query.
 
 <https://grafana.com/docs/loki/latest/logql/metric_queries>
 

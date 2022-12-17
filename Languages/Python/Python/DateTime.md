@@ -115,131 +115,131 @@ print(datetime.now().isoformat())
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>%a</td>
 <td>Weekday as locale’s abbreviated name.</td>
 <td><p>Sun, Mon, …, Sat (en_US);</p>
 <p>So, Mo, …, Sa (de_DE)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>%A</td>
 <td>Weekday as locale’s full name.</td>
 <td><p>Sunday, Monday, …, Saturday (en_US);</p>
 <p>Sonntag, Montag, …, Samstag (de_DE)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%w</td>
 <td>Weekday as a decimal number, where 0 is Sunday and 6 is Saturday.</td>
 <td>0, 1, …, 6</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%d</td>
 <td>Day of the month as a zero-padded decimal number.</td>
 <td>01, 02, …, 31</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%b</td>
 <td>Month as locale’s abbreviated name.</td>
 <td><p>Jan, Feb, …, Dec (en_US);</p>
 <p>Jan, Feb, …, Dez (de_DE)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>%B</td>
 <td>Month as locale’s full name.</td>
 <td><p>January, February, …, December (en_US);</p>
 <p>Januar, Februar, …, Dezember (de_DE)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%m</td>
 <td>Month as a zero-padded decimal number.</td>
 <td>01, 02, …, 12</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%y</td>
 <td>Year without century as a zero-padded decimal number.</td>
 <td>00, 01, …, 99</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%Y</td>
 <td>Year with century as a decimal number.</td>
 <td>0001, 0002, …, 2013, 2014, …, 9998, 9999</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%H</td>
 <td>Hour (24-hour clock) as a zero-padded decimal number.</td>
 <td>00, 01, …, 23</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%I</td>
 <td>Hour (12-hour clock) as a zero-padded decimal number.</td>
 <td>01, 02, …, 12</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%p</td>
 <td>Locale’s equivalent of either AM or PM.</td>
 <td><p>AM, PM (en_US);</p>
 <p>am, pm (de_DE)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%M</td>
 <td>Minute as a zero-padded decimal number.</td>
 <td>00, 01, …, 59</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%S</td>
 <td>Second as a zero-padded decimal number.</td>
 <td>00, 01, …, 59</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%f</td>
 <td>Microsecond as a decimal number, zero-padded on the left.</td>
 <td>000000, 000001, …, 999999</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%z</td>
 <td>UTC offset in the form±HHMM [SS [.ffffff]](empty string if the object is naive).</td>
 <td>(empty), +0000, -0400, +1030, +063415, -030712.345216</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%Z</td>
 <td>Time zone name (empty string if the object is naive).</td>
 <td>(empty), UTC, EST, CST</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%j</td>
 <td>Day of the year as a zero-padded decimal number.</td>
 <td>001, 002, …, 366</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%U</td>
 <td>Week number of the year (Sunday as the first day of the week) as a zero padded decimal number. All days in a new year preceding the first Sunday are considered to be in week 0.</td>
 <td>00, 01, …, 53</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%W</td>
 <td>Week number of the year (Monday as the first day of the week) as a decimal number. All days in a new year preceding the first Monday are considered to be in week 0.</td>
 <td>00, 01, …, 53</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%c</td>
 <td>Locale’s appropriate date and time representation.</td>
 <td><p>Tue Aug 16 21:30:00 1988 (en_US);</p>
 <p>Di 16 Aug 21:30:00 1988 (de_DE)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>%x</td>
 <td>Locale’s appropriate date representation.</td>
 <td><p>08/16/88 (None);</p>
 <p>08/16/1988 (en_US);</p>
 <p>16.08.1988 (de_DE)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>%X</td>
 <td>Locale’s appropriate time representation.</td>
 <td><p>21:30:00 (en_US);</p>
 <p>21:30:00 (de_DE)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>%%</td>
 <td>A literal'%'character.</td>
 <td>%</td>

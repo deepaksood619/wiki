@@ -6,14 +6,14 @@ Modified: 2021-05-11 18:21:16 +0500
 
 ---
 
-Vault is a tool for securely accessing*secrets*. A secret is anything that you want to tightly control access to, such as API keys, passwords, or certificates. Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.
+Vault is a tool for securely accessing *secrets*. A secret is anything that you want to tightly control access to, such as API keys, passwords, or certificates. Vault provides a unified interface to any secret, while providing tight access control and recording a detailed audit log.
 Vault was built to solve the secret sprawl problem in a user-friendly and auditable way. Just as immutable infrastructure gives operations certainty in server configurations and eliminates drift, Vault gives security certainty in when, where, and how secrets are being used across a system. It is the central source of security truth for modern architectures.
 
 ## Features
 
 - **Secure Secret Storage**
 
-Arbitrary key/value secrets can be stored in Vault. Vault encrypts these secrets prior to writing them to persistent storage, so gaining access to the raw storage isn't enough to access your secrets. Vault can write to disk,[Consul](https://www.consul.io/), and more.-   **Dynamic Secrets**
+Arbitrary key/value secrets can be stored in Vault. Vault encrypts these secrets prior to writing them to persistent storage, so gaining access to the raw storage isn't enough to access your secrets. Vault can write to disk, [Consul](https://www.consul.io/), and more.-   **Dynamic Secrets**
 
 Vault can generate secrets on-demand for some systems, such as AWS or SQL databases. For example, when an application needs to access an S3 bucket, it asks Vault for credentials, and Vault will generate an AWS keypair with valid permissions on demand. After creating these dynamic secrets, Vault will also automatically revoke them after the lease is up. Thus, even if the system is breached,the attacker only has a short window of opportunity before the secret gets re-generated and access is revoked.-   **Data Encryption**
 

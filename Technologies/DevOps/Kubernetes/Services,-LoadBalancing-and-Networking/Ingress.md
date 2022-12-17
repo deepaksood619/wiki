@@ -24,8 +24,8 @@ An ingress does not expose arbitrary ports or protocols. Exposing services other
 
 Ingress allows external users and client applications access to HTTP services. Ingress consists of two components: Ingress Resource and Ingress Controller.
 
-- **Ingress Resource**is a collection of rules for the inbound traffic to reach Services. These are Layer 7 (L7) rules that allow hostnames (and optionally paths) to be directed to specific Services in Kubernetes.
-- **Ingress Controller**acts upon the rules set by the Ingress Resource, typically via an HTTP or L7 load balancer. It is vital that both pieces are properly configured to route traffic from an outside client to a Kubernetes Service.
+- **Ingress Resource** is a collection of rules for the inbound traffic to reach Services. These are Layer 7 (L7) rules that allow hostnames (and optionally paths) to be directed to specific Services in Kubernetes.
+- **Ingress Controller** acts upon the rules set by the Ingress Resource, typically via an HTTP or L7 load balancer. It is vital that both pieces are properly configured to route traffic from an outside client to a Kubernetes Service.
 
 An API object that manages external access to the services in a cluster, typically HTTP.
 
@@ -49,7 +49,7 @@ This lets you consolidate your routing rules into a single resource. For example
 
 ![ingress in kubernetes](../../../media/DevOps-Kubernetes-Ingress-image1.png)
 
-## NodePort**and**LoadBalancerlet you expose a service by specifying that value in the service'stype. Ingress, on the other hand, is a completely independent resource to your service. You declare, create and destroy it separately to your services
+## NodePort **and** LoadBalancerlet you expose a service by specifying that value in the service'stype. Ingress, on the other hand, is a completely independent resource to your service. You declare, create and destroy it separately to your services
 
 This makes it decoupled and isolated from the services you want to expose. It also helps you to consolidate routing rules into one place.
 

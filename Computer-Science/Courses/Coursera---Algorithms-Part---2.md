@@ -228,14 +228,14 @@ Burrows-Wheeler
 
 ## WordNet: is a semantic lexicon for the English language that is used extensively by computational linguists and cognitive scientists
 
-WordNet groups words into sets of synonyms called*synsets*and describes semantic relationships between them.
+WordNet groups words into sets of synonyms called *synsets*and describes semantic relationships between them.
 
 One such relationship is the*is-a*relationship, which connects a*hyponym*(more specific synset) to a*hypernym*(more general synset).
 
 For example,
 
-- *animal*is a hypernym of both*bird*and*fish*;
-- *bird*is a hypernym of*eagle*,*pigeon*, and*seagull*.
+- *animal*is a hypernym of both *bird*and *fish*;
+- *bird*is a hypernym of *eagle*,*pigeon*, and *seagull*.
 - Spoon is a hyponym of cutlery
 References -
 

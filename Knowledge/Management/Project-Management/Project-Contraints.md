@@ -45,7 +45,7 @@ Scope refers to complexity (which can also mean quality). Resources includes hum
 
 For analytical purposes, the time required to produce a [deliverable](https://en.wikipedia.org/wiki/Deliverable) is [estimated](https://en.wikipedia.org/wiki/Estimation_(project_management)) using several techniques. One method is to identify tasks needed to produce the deliverables documented in a [work breakdown structure](https://en.wikipedia.org/wiki/Work_breakdown_structure) or WBS. The work effort for each task is estimated and those estimates are rolled up into the final deliverable estimate.
 
-The tasks are also prioritized,[dependencies](https://en.wikipedia.org/wiki/Dependency_(project_management)) between tasks are identified, and this information is documented in a project schedule. The dependencies between the tasks can affect the length of the overall project (dependency constrained), as can the availability of resources (resource constrained). Time is different from all other resources and cost categories.
+The tasks are also prioritized, [dependencies](https://en.wikipedia.org/wiki/Dependency_(project_management)) between tasks are identified, and this information is documented in a project schedule. The dependencies between the tasks can affect the length of the overall project (dependency constrained), as can the availability of resources (resource constrained). Time is different from all other resources and cost categories.
 
 Using actual cost of previous, similar projects as the basis for estimating the cost of current project.
 
@@ -71,13 +71,13 @@ According to the [Project Management Body of Knowledge](https://en.wikipedia.org
 
 2. Tools: Decomposition, Rolling Wave Planning, Expert Judgment
 
-3. Outputs: Activity list, Activity attributes,[Milestone](https://en.wikipedia.org/wiki/Milestone_(project_management)) list
+3. Outputs: Activity list, Activity attributes, [Milestone](https://en.wikipedia.org/wiki/Milestone_(project_management)) list
 
 ## Activity sequencing
 
 1. Inputs: Project [Scope Statement](https://en.wikipedia.org/wiki/Scope_Statement), Activity List, Activity Attributes, Milestones List, Approved change requests
 
-2. Tools:[Precedence Diagramming Method](https://en.wikipedia.org/wiki/Precedence_Diagramming_Method)(PDM),[Arrow Diagramming Method](https://en.wikipedia.org/wiki/Arrow_Diagramming_Method)(ADM), Schedule Network templates, dependency degeneration, applying leads and lags
+2. Tools:[Precedence Diagramming Method](https://en.wikipedia.org/wiki/Precedence_Diagramming_Method)(PDM), [Arrow Diagramming Method](https://en.wikipedia.org/wiki/Arrow_Diagramming_Method)(ADM), Schedule Network templates, dependency degeneration, applying leads and lags
 
 3. Outputs: Project Schedule Network diagrams, Activity List Updates, Activity Attributes updates, Request Changes
 
@@ -93,7 +93,7 @@ According to the [Project Management Body of Knowledge](https://en.wikipedia.org
 
 1. Inputs: Enterprise environmental factors, organization process assets, Project scope statement, activity list, activity attributes, activity resource requirements, resource calendars, project management plan, risk register, activity cost estimates
 
-2. Tools: Expert judgment collection,[analogous estimating](https://en.wikipedia.org/w/index.php?title=Analogous_estimating&action=edit&redlink=1),[parametric estimating](https://en.wikipedia.org/wiki/Parametric_estimating), Bottom up Estimation, Two-Point estimation,[Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation),[reserve analysis](https://en.wikipedia.org/w/index.php?title=Reserve_analysis&action=edit&redlink=1)
+2. Tools: Expert judgment collection, [analogous estimating](https://en.wikipedia.org/w/index.php?title=Analogous_estimating&action=edit&redlink=1), [parametric estimating](https://en.wikipedia.org/wiki/Parametric_estimating), Bottom up Estimation, Two-Point estimation, [Three-point estimation](https://en.wikipedia.org/wiki/Three-point_estimation), [reserve analysis](https://en.wikipedia.org/w/index.php?title=Reserve_analysis&action=edit&redlink=1)
 
 3. Outputs: Activity duration estimates, activity attribute updates and estimates
 
@@ -117,7 +117,7 @@ Due to the complex nature of the 'Time' process group the project management cre
 
 ## Cost
 
-To develop an approximation of a project cost depends on several variables including: resources, work packages such as labor rates and mitigating or controlling influencing factors that create cost variances. Tools used in cost are,[risk management](https://en.wikipedia.org/wiki/Risk_management),[cost contingency](https://en.wikipedia.org/wiki/Cost_contingency),[cost escalation](https://en.wikipedia.org/wiki/Cost_escalation), and indirect costs . But beyond this basic accounting approach to fixed and variable costs, the economic cost that must be considered includes worker skill and productivity which is calculated using various project cost estimate tools. This is important when companies hire temporary or contract employees or outsource work.
+To develop an approximation of a project cost depends on several variables including: resources, work packages such as labor rates and mitigating or controlling influencing factors that create cost variances. Tools used in cost are, [risk management](https://en.wikipedia.org/wiki/Risk_management), [cost contingency](https://en.wikipedia.org/wiki/Cost_contingency), [cost escalation](https://en.wikipedia.org/wiki/Cost_escalation), and indirect costs . But beyond this basic accounting approach to fixed and variable costs, the economic cost that must be considered includes worker skill and productivity which is calculated using various project cost estimate tools. This is important when companies hire temporary or contract employees or outsource work.
 
 ## Cost Process Areas
 

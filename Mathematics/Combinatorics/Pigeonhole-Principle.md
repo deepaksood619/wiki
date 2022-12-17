@@ -6,7 +6,7 @@ Modified: 2018-05-16 21:05:16 +0500
 
 ---
 
-In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the**pigeonhole principle**states that if*n*items are put into*m*containers, with*n*>*m*, then at least one container must contain more than one item.
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the**pigeonhole principle** states that if*n*items are put into*m*containers, with*n*>*m*, then at least one container must contain more than one item.
 Example -
 
 A bag contains 10 red marbles, 10 white marbles, and 10 blue marbles. What is the minimum no. of marbles you have to choose randomly from the bag to ensure that we get 4 marbles of same color?
@@ -43,7 +43,7 @@ q1=10, q2=8, q3=6, q4=4 and n=4
 
 Therefore the minimum number of students required to ensure department club to be formed is
 
-10 + 8 + 6 + 4 -- 4 + 1 = 25**References**
+10 + 8 + 6 + 4 -- 4 + 1 = 25 **References**
 
 - <https://en.wikipedia.org/wiki/Pigeonhole_principle>
 - <https://www.geeksforgeeks.org/discrete-mathematics-the-pigeonhole-principle>

@@ -53,7 +53,7 @@ Value : Never
 
 Returning a default empty dictionary will not raise AttributeError for second get()
 
-sub_typology=project.json.get(**'area'**,{}).get(**'0'**,{}).get(**'areaSubTypology'**,**''**)
+sub_typology=project.json.get(**'area'**,{}).get(**'0'**,{}).get(**'areaSubTypology'**, **''**)
 
 ## Updating in Dictionary
 

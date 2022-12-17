@@ -96,7 +96,7 @@ In [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_comp
 
 ## Database PACELC ratings
 
-- The default versions of [DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB),[Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra),[Riak](https://en.wikipedia.org/wiki/Riak) and [Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB) are **PA/EL systems**: if a partition occurs, they give up consistency for availability, and under normal operation they give up consistency for lower latency.
+- The default versions of [DynamoDB](https://en.wikipedia.org/wiki/Amazon_DynamoDB), [Cassandra](https://en.wikipedia.org/wiki/Apache_Cassandra), [Riak](https://en.wikipedia.org/wiki/Riak) and [Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB) are **PA/EL systems**: if a partition occurs, they give up consistency for availability, and under normal operation they give up consistency for lower latency.
 - Fully ACID systems such as [VoltDB](https://en.wikipedia.org/wiki/VoltDB)/H-Store, Megastore and**[MySQL Cluster](https://en.wikipedia.org/wiki/MySQL_Cluster) are PC/EC**: they refuse to give up consistency, and will pay the availability and latency costs to achieve it.[BigTable](https://en.wikipedia.org/wiki/Bigtable) and related systems such as [HBase](https://en.wikipedia.org/wiki/Apache_HBase) are also PC/EC.
 - [Couchbase](https://docs.couchbase.com/server/6.0/learn/clusters-and-availability/clusters-and-availability.html) provides a range of consistency and availability options during a partition, and equally a range of latency and consistency options with no partition. Unlike most other databases, Couchbase doesn't have a single API set nor does it scale/replicate all data services homogeneously. For writes, Couchbase favors Consistency over Availability making it formally CP, but on read there is more user-controlled variability depending on index replication, desired consistency level and type of access (single document lookup vs range scan vs full-text search, etc). On top of that, there is then further variability depending on cross-datacenter-replication (XDCR) which takes multiple CP clusters and connects them with asynchronous replication and Couchbase Lite which is an embedded database and creates a fully multi-master (with revision tracking) distributed topology.
 - [Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB) supports five tunable consistency levels that allow for tradeoffs between C/A during P, and L/C during E.[Cosmos DB](https://en.wikipedia.org/wiki/Cosmos_DB) never violates the specified consistency level, so it's formally CP.
@@ -123,7 +123,7 @@ In [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_comp
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>DynamoDB</td>
 <td>Yes</td>
 <td></td>
@@ -131,7 +131,7 @@ In [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_comp
 </td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Cassandra</td>
 <td>Yes</td>
 <td></td>
@@ -139,21 +139,21 @@ In [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_comp
 </td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Cosmos DB</td>
 <td>Yes</td>
 <td></td>
 <td>Yes</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Couchbase</td>
 <td></td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Riak</td>
 <td>Yes</td>
 <td></td>
@@ -161,56 +161,56 @@ In [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_comp
 </td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>VoltDB/H-Store</td>
 <td></td>
 <td>Yes</td>
 <td></td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Megastore</td>
 <td></td>
 <td>Yes</td>
 <td></td>
 <td>Yes</td>
 </tr>
-<tr class="even">
+<tr>
 <td>BigTable/HBase</td>
 <td></td>
 <td>Yes</td>
 <td></td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MySQL Cluster</td>
 <td></td>
 <td>Yes</td>
 <td></td>
 <td>Yes</td>
 </tr>
-<tr class="even">
+<tr>
 <td>MongoDB</td>
 <td>Yes</td>
 <td></td>
 <td></td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PNUTS</td>
 <td></td>
 <td>Yes</td>
 <td>Yes</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Hazelcast IMDG</td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FaunaDB</td>
 <td></td>
 <td>Yes</td>

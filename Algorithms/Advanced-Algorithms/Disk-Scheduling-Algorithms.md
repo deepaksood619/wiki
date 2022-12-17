@@ -8,7 +8,7 @@ Modified: 2019-12-05 17:29:54 +0500
 
 - **Elevator algorithm / SCAN**
 
-The**elevator algorithm**(also**SCAN**) is a [disk](https://en.wikipedia.org/wiki/Hard_disk)-[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling) algorithm to determine the motion of the disk's arm and head in servicing read and write requests.
+The**elevator algorithm**(also **SCAN**) is a [disk](https://en.wikipedia.org/wiki/Hard_disk)-[scheduling](https://en.wikipedia.org/wiki/I/O_scheduling) algorithm to determine the motion of the disk's arm and head in servicing read and write requests.
 
 This algorithm is named after the behavior of a building [elevator](https://en.wikipedia.org/wiki/Elevator), where the elevator continues to travel in its current direction (up or down) until empty, stopping only to let individuals off or to pick up new individuals heading in the same direction.
 
@@ -34,7 +34,7 @@ Other variations include:
 
 ## Analysis
 
-FSCAN along with [N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN) prevents "arm stickiness" unlike [SSTF](https://en.wikipedia.org/wiki/Shortest_seek_first),[SCAN](https://en.wikipedia.org/wiki/Elevator_algorithm), and [C-SCAN](https://en.wikipedia.org/wiki/C-SCAN). Arm stickiness in those other algorithms occurs when a stream of requests for the same track causes the disk arm to stop progressing at that track, preferring to satisfy the no-seek requests for the track it is on. Because FSCAN separates requests into two queues, with new requests going into a waiting queue, the arm continues its sweep to the outer track and is therefore not "sticky." There is an obvious trade-off in that the requests in the waiting queue must wait longer to be fulfilled, but in exchange FSCAN is more fair to all requests.
+FSCAN along with [N-Step-SCAN](https://en.wikipedia.org/wiki/N-Step-SCAN) prevents "arm stickiness" unlike [SSTF](https://en.wikipedia.org/wiki/Shortest_seek_first), [SCAN](https://en.wikipedia.org/wiki/Elevator_algorithm), and [C-SCAN](https://en.wikipedia.org/wiki/C-SCAN). Arm stickiness in those other algorithms occurs when a stream of requests for the same track causes the disk arm to stop progressing at that track, preferring to satisfy the no-seek requests for the track it is on. Because FSCAN separates requests into two queues, with new requests going into a waiting queue, the arm continues its sweep to the outer track and is therefore not "sticky." There is an obvious trade-off in that the requests in the waiting queue must wait longer to be fulfilled, but in exchange FSCAN is more fair to all requests.
 
 <https://en.wikipedia.org/wiki/FSCAN>
 

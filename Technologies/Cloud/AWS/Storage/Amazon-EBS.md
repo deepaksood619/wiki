@@ -8,7 +8,7 @@ Modified: 2020-12-24 15:53:49 +0500
 
 ## Amazon EBS Snapshot
 
-You can back up the data on your Amazon EBS volumes to Amazon S3 by taking point-in-time snapshots. Snapshots are*incremental*backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. This minimizes the time required to create the snapshot and saves on storage costs by not duplicating data. When you delete a snapshot, only the data unique to that snapshot is removed. Each snapshot contains all of the information that is needed to restore your data (from the moment when the snapshot was taken) to a new EBS volume.
+You can back up the data on your Amazon EBS volumes to Amazon S3 by taking point-in-time snapshots. Snapshots are *incremental*backups, which means that only the blocks on the device that have changed after your most recent snapshot are saved. This minimizes the time required to create the snapshot and saves on storage costs by not duplicating data. When you delete a snapshot, only the data unique to that snapshot is removed. Each snapshot contains all of the information that is needed to restore your data (from the moment when the snapshot was taken) to a new EBS volume.
 
 <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html>
 
@@ -51,14 +51,14 @@ IAM service enables access to EBS volumes, allowing you to specify who can acces
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Description</strong></td>
 <td>General purpose SSD volume that balances price and performance for a wide variety of workloads</td>
 <td>Highest-performance SSD volume for mission-critical low-latency or high-throughput workloads</td>
 <td>Low-cost HDD volume designed for frequently accessed, throughput-intensive workloads</td>
 <td>Lowest cost HDD volume designed for less frequently accessed workloads</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Use cases</strong></td>
 <td><ul class="incremental">
 <li><p>Recommended for most workloads</p></li>
@@ -90,7 +90,7 @@ IAM service enables access to EBS volumes, allowing you to specify who can acces
 <li><p>Cannot be a boot volume</p></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Pricing</strong></td>
 <td>$0.114per GB-month of provisioned storage</td>
 <td>$0.131per GB-month of provisioned storage AND$0.068per provisioned IOPS-month</td>

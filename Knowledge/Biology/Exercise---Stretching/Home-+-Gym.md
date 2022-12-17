@@ -18,7 +18,7 @@ Modified: 2021-10-10 17:54:14 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><ol class="incremental" type="1">
 <li><p><strong>More equipments</strong></p></li>
 <li><p><strong>More motivation (not a big factor)</strong></p></li>

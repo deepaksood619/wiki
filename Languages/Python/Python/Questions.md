@@ -16,7 +16,7 @@ The official Python documentation says__repr__is used to [compute the "official"
 
 These are called references. (They are references to objects)
 
-Variables are not pointers. When you assign to a variable you are*binding*the name to an object. From that point onwards you can refer to the object by using the name, until that name is rebound.
+Variables are not pointers. When you assign to a variable you are *binding*the name to an object. From that point onwards you can refer to the object by using the name, until that name is rebound.
 
 ## Tuples are immutable and strings are mutable -
 

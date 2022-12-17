@@ -12,7 +12,7 @@ Modified: 2021-12-16 11:58:50 +0500
 
 the smallest meaningful contrastive unit in a writing system.
 
-In [linguistics](https://en.wikipedia.org/wiki/Linguistics), agraphemeis the smallest unit of a [writing system](https://en.wikipedia.org/wiki/Writing_system) of any given language.An individual grapheme may or may not carry meaning by itself, and may or may not correspond to a single [phoneme](https://en.wikipedia.org/wiki/Phoneme) of the spoken language. Graphemes include [alphabetic letters](https://en.wikipedia.org/wiki/Letter_(alphabet)),[typographic ligatures](https://en.wikipedia.org/wiki/Typographic_ligature),[Chinese characters](https://en.wikipedia.org/wiki/Chinese_characters),[numerical digits](https://en.wikipedia.org/wiki/Numerical_digit),[punctuation](https://en.wikipedia.org/wiki/Punctuation) marks, and other individual symbols. A grapheme can also be construed as a graphical sign that independently represents a portion of linguistic material.
+In [linguistics](https://en.wikipedia.org/wiki/Linguistics), agraphemeis the smallest unit of a [writing system](https://en.wikipedia.org/wiki/Writing_system) of any given language.An individual grapheme may or may not carry meaning by itself, and may or may not correspond to a single [phoneme](https://en.wikipedia.org/wiki/Phoneme) of the spoken language. Graphemes include [alphabetic letters](https://en.wikipedia.org/wiki/Letter_(alphabet)), [typographic ligatures](https://en.wikipedia.org/wiki/Typographic_ligature), [Chinese characters](https://en.wikipedia.org/wiki/Chinese_characters), [numerical digits](https://en.wikipedia.org/wiki/Numerical_digit), [punctuation](https://en.wikipedia.org/wiki/Punctuation) marks, and other individual symbols. A grapheme can also be construed as a graphical sign that independently represents a portion of linguistic material.
 
 The wordgrapheme, coined in analogy withphoneme, is derived from [Ancient Greek]$1 $2(gráphō), meaning 'write', and the suffix-eme, by analogy with [phoneme](https://en.wikipedia.org/wiki/Phoneme) and other names of [emic units](https://en.wikipedia.org/wiki/Emic_unit). The study of graphemes is called [graphemics](https://en.wikipedia.org/wiki/Graphemics).
 
@@ -22,7 +22,7 @@ The concept of graphemes is an abstract one and similar to the notion in [comput
 
 ## Phoneme
 
-Any of the perceptually distinct units of sound in a specified language that distinguish one word from another, for example*p*,*b*,*d*, and*t*in the English words*pad*,*pat*,*bad*, and*bat*.
+Any of the perceptually distinct units of sound in a specified language that distinguish one word from another, for example*p*,*b*,*d*, and*t*in the English words *pad*,*pat*,*bad*, and *bat*.
 
 Despite there being just 26 letters in the English language there are approximately 44 unique sounds, also known as [phonemes](https://www.dyslexia-reading-well.com/phonemes.html). The 44 sounds help distinguish one word or meaning from another. Various letters and letter combinations known as graphemes are used to represent the sounds.
 
@@ -92,7 +92,7 @@ The IPA was created by the [International Phonetic Association](https://www.inte
 
 ## Diacritic
 
-A**diacritic**-- also**diacritical mark**,**diacritical point**,**diacritical sign**, or**accent**-- is a [glyph](https://en.wikipedia.org/wiki/Glyph) added to a [letter](https://en.wikipedia.org/wiki/Letter_(alphabet)), or basic glyph. The term derives from the [Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek)[διακριτικός](https://en.wiktionary.org/wiki/%CE%B4%CE%B9%CE%B1%CE%BA%CF%81%CE%B9%CF%84%CE%B9%CE%BA%CF%8C%CF%82#Ancient_Greek)(*diakritikós*, "distinguishing"), fromδιακρίνω(*diakrī́nō*, "to distinguish").*Diacritic*is primarily an [adjective](https://en.wikipedia.org/wiki/Adjective), though sometimes used as a [noun](https://en.wikipedia.org/wiki/Noun), whereas*diacritical*is only ever an adjective. Some diacritical marks, such as the [acute](https://en.wikipedia.org/wiki/Acute_accent)( ´ ) and [grave](https://en.wikipedia.org/wiki/Grave_accent)( ` ), are often called*accents*. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
+A**diacritic**-- also**diacritical mark**, **diacritical point**, **diacritical sign**, or **accent**-- is a [glyph](https://en.wikipedia.org/wiki/Glyph) added to a [letter](https://en.wikipedia.org/wiki/Letter_(alphabet)), or basic glyph. The term derives from the [Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek)[διακριτικός](https://en.wiktionary.org/wiki/%CE%B4%CE%B9%CE%B1%CE%BA%CF%81%CE%B9%CF%84%CE%B9%CE%BA%CF%8C%CF%82#Ancient_Greek)(*diakritikós*, "distinguishing"), fromδιακρίνω(*diakrī́nō*, "to distinguish").*Diacritic*is primarily an [adjective](https://en.wikipedia.org/wiki/Adjective), though sometimes used as a [noun](https://en.wikipedia.org/wiki/Noun), whereas *diacritical*is only ever an adjective. Some diacritical marks, such as the [acute](https://en.wikipedia.org/wiki/Acute_accent)( ´ ) and [grave](https://en.wikipedia.org/wiki/Grave_accent)( ` ), are often called *accents*. Diacritical marks may appear above or below a letter, or in some other position such as within the letter or between two letters.
 
 <table>
 <colgroup>
@@ -104,169 +104,169 @@ A**diacritic**-- also**diacritical mark**,**diacritical point**,**diacritical si
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>accent</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Acute_accent">acute</a>(´)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Double_acute_accent">double acute</a>(˝)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Grave_accent">grave</a>(`)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Double_grave_accent">double grave</a>(̏)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="https://en.wikipedia.org/wiki/Circumflex">circumflex</a>(ˆ)</p>
 <blockquote>
 <p>Thecircumflexis a<a href="https://en.wikipedia.org/wiki/Diacritic">diacritic</a>in the<a href="https://en.wikipedia.org/wiki/Latin_script">Latin</a>and<a href="https://en.wikipedia.org/wiki/Greek_alphabet">Greek</a>scripts that is used in the written forms of many languages and in various<a href="https://en.wikipedia.org/wiki/Romanization">romanization</a>and<a href="https://en.wikipedia.org/wiki/Transcription_(linguistics)">transcription</a>schemes. It received its English name from<a href="https://en.wikipedia.org/wiki/Latin">Latin</a>circumflexus"bent around"—a translation of the Greek περισπωμένη (<a href="https://en.wikipedia.org/wiki/Perispomenon">perispōménē</a>). The circumflex in the Latin script is<a href="https://en.wikipedia.org/wiki/Chevron_(insignia)">chevron</a>-shaped (ˆ), while the Greek circumflex may be displayed either like a<a href="https://en.wikipedia.org/wiki/Tilde">tilde</a>(˜) or like an<a href="https://en.wikipedia.org/wiki/Inverted_breve">inverted breve</a>( ̑ ).</p>
 </blockquote></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Caron">caron, háček</a>(ˇ)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Breve">breve</a>(˘)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Inverted_breve">inverted breve</a>( ̑ )</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Cedilla">cedilla</a>(¸)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Diaeresis_(diacritic)">diaeresis, umlaut</a>(¨)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Dot_(diacritic)">dot</a>(·)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Hook_(diacritic)">palatal hook</a>( ̡)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Hook_(diacritic)">retroflex hook</a>( ̢)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Hook_above">hook above</a>,<a href="https://en.wikipedia.org/wiki/D%E1%BA%A5u_h%E1%BB%8Fi">dấu hỏi</a>(̉)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Horn_(diacritic)">horn</a>(̛)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Iota_subscript">iota subscript</a>(ͅ)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Macron_(diacritic)">macron</a>(¯)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Ogonek">ogonek, nosinė</a>(˛)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Greek_diacritics">perispomene</a>(͂)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Ring_(diacritic)">overring</a>(˚)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Ring_(diacritic)">underring</a>(˳)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Rough_breathing">rough breathing</a>(῾)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Smooth_breathing">smooth breathing</a>(᾿)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Marks sometimes used as diacritics</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Apostrophe">apostrophe</a>(’)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Bar_(diacritic)">bar</a>(◌̸)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Colon_(punctuation)#Diacritical_usage">colon</a>(:)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Comma_(diacritic)">comma</a>(,)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Full_stop">period</a>(.)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Hyphen">hyphen</a>(˗)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Prime_(symbol)">prime</a>(′)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Tilde">tilde</a>(~)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Diacritical marks in other scripts</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Arabic_diacritics">Arabic diacritics</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Early_Cyrillic_alphabet#Numerals,_diacritics_and_punctuation">Early Cyrillic diacritics</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Kamora_(diacritic)">kamora</a>(҄)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Pokrytie">pokrytie</a>(҇)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Titlo">titlo</a>(҃)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Gurmukh%C4%AB_alphabet#Other_signs">Gurmukhī diacritics</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Hebrew_diacritics">Hebrew diacritics</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Brahmic_scripts">Indic</a>diacritics</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Anusvara">anusvara</a>(ंংം)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Chandrabindu">chandrabindu</a>(ँఁ)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Nukta">nukta</a>(़)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Virama">virama</a>(्്్්್)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Visarga">visarga</a>(ःঃ)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#Diacritics">IPA diacritics</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Japanese diacritics</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Dakuten">dakuten</a>(ﾞ)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>handakuten(ﾟ)</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Khmer_alphabet#Diacritics">Khmer diacritics</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Syriac_alphabet#Latin_alphabet_and_romanization">Syriac diacritics</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Thai_alphabet#Other_symbols_2">Thai diacritics</a></td>
 </tr>
 </tbody>

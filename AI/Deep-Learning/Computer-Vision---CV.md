@@ -75,7 +75,7 @@ Mathematics > Calculus > Gradient
 
 ## Hough Transform
 
-The**Hough transform**is a [feature extraction](https://en.wikipedia.org/wiki/Feature_extraction) technique used in [image analysis](https://en.wikipedia.org/wiki/Image_analysis),[computer vision](https://en.wikipedia.org/wiki/Computer_vision), and [digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing).The purpose of the technique is to find imperfect instances of objects within a certain class of shapes by a voting procedure. This voting procedure is carried out in a [parameter space](https://en.wikipedia.org/wiki/Parameter_space), from which object candidates are obtained as local maxima in a so-called accumulator space that is explicitly constructed by the algorithm for computing the Hough transform.
+The **Hough transform** is a [feature extraction](https://en.wikipedia.org/wiki/Feature_extraction) technique used in [image analysis](https://en.wikipedia.org/wiki/Image_analysis), [computer vision](https://en.wikipedia.org/wiki/Computer_vision), and [digital image processing](https://en.wikipedia.org/wiki/Digital_image_processing).The purpose of the technique is to find imperfect instances of objects within a certain class of shapes by a voting procedure. This voting procedure is carried out in a [parameter space](https://en.wikipedia.org/wiki/Parameter_space), from which object candidates are obtained as local maxima in a so-called accumulator space that is explicitly constructed by the algorithm for computing the Hough transform.
 
 <https://en.wikipedia.org/wiki/Hough_transform>
 

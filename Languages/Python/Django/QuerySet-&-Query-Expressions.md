@@ -6,11 +6,11 @@ Modified: 2019-12-06 00:17:22 +0500
 
 ---
 
-A QuerySet is, in essence, a list of objects of a given Model. QuerySets allow you to read the data from the database, filter it and order it. Internally, a**QuerySet**can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
+A QuerySet is, in essence, a list of objects of a given Model. QuerySets allow you to read the data from the database, filter it and order it. Internally, a**QuerySet** can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
 
 ## When QuerySets are Evaluated
 
-Internally, a**QuerySet**can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
+Internally, a**QuerySet** can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
 
 1. Iteration
 
@@ -42,23 +42,23 @@ Internally, a**QuerySet**can be constructed, filtered, sliced, and generally pas
 
 7. **values()**
 
-Returns a**QuerySet**that returns dictionaries, rather than model instances, when used as an iterable.
+Returns a**QuerySet** that returns dictionaries, rather than model instances, when used as an iterable.
 
 Each of those dictionaries represents an object, with the keys corresponding to the attribute names of model objects.
 
-The**values()**method takes optional positional arguments,***fields**, which specify field names to which the**SELECT**should be limited. If you specify the fields, each dictionary will contain only the field keys/values for the fields you specify. If you don't specify the fields, each dictionary will contain a key and value for every field in the database table.
+The**values()**method takes optional positional arguments, ***fields**, which specify field names to which the **SELECT** should be limited. If you specify the fields, each dictionary will contain only the field keys/values for the fields you specify. If you don't specify the fields, each dictionary will contain a key and value for every field in the database table.
 
 8. **values_list()**
 
 This is similar to**values()**except that instead of returning dictionaries, it returns tuples when iterated over. Each tuple contains the value from the respective field or expression passed into the**values_list()**call --- so the first item is the first field, etc
 
-If you only pass in a single field, you can also pass in the**flat**parameter. If**True**, this will mean the returned results are single values, rather than one-tuples.
+If you only pass in a single field, you can also pass in the **flat** parameter. If **True**, this will mean the returned results are single values, rather than one-tuples.
 
 Ex -
 
 Client.objects.filter(customer__name=customer_name)**.values_list('metrics_metadata', flat=True)**.exclude(metrics_metadata={}).distinct()
 
-## values()**and**values_list()are both intended as optimizations for a specific use case: retrieving a subset of data without the overhead of creating a model instance. This metaphor falls apart when dealing with many-to-many and other multivalued relations (such as the one-to-many relation of a reverse foreign key) because the "one row, one object" assumption doesn't hold
+## values()**and** values_list()are both intended as optimizations for a specific use case: retrieving a subset of data without the overhead of creating a model instance. This metaphor falls apart when dealing with many-to-many and other multivalued relations (such as the one-to-many relation of a reverse foreign key) because the "one row, one object" assumption doesn't hold
 
 9. dates()
 
@@ -264,7 +264,7 @@ When Django encounters an instance of**F()**, it overrides the standard Python o
 
 - Django supports the use of addition, subtraction, multiplication, division, modulo, and power arithmetic with**F()**objects, both with constants and with other**F()**objects.
 - You can also use the double underscore notation to span relationships in an**F()**object. An**F()**object with a double underscore will introduce any joins needed to access the related object.
-- The**F()**objects support bitwise operations by**.bitand()**,**.bitor()**,**.bitrightshift()**, and**.bitleftshift()**. For example:
+- The**F()**objects support bitwise operations by**.bitand()**, **.bitor()**, **.bitrightshift()**, and**.bitleftshift()**. For example:
 
 ## The pk lookup shortcut
 
@@ -276,7 +276,7 @@ When Django encounters an instance of**F()**, it overrides the standard Python o
 
 ## Escaping percent signs and underscores in LIKE statements
 
-The field lookups that equate to**LIKE**SQL statements (**iexact**,**contains**,**icontains**,**startswith**,**istartswith**,**endswith**and**iendswith**) will automatically escape the two special characters used in**LIKE**statements -- the percent sign and the underscore. **(In aLIKEstatement, the percent sign signifies a multiple-character wildcard and the underscore signifies a single-character wildcard.)**
+The field lookups that equate to **LIKE** SQL statements (**iexact**, **contains**, **icontains**, **startswith**, **istartswith**, **endswith**and**iendswith**) will automatically escape the two special characters used in **LIKE** statements -- the percent sign and the underscore. **(In aLIKEstatement, the percent sign signifies a multiple-character wildcard and the underscore signifies a single-character wildcard.)**
 
 This means things should work intuitively, so the abstraction doesn't leak. For example, to retrieve all the entries that contain a percent sign, just use the percent sign as any other character:
 
@@ -284,31 +284,31 @@ This means things should work intuitively, so the abstraction doesn't leak. For 
 
 Django takes care of the quoting for you; the resulting SQL will look something like this:
 
-## SELECT**...**WHERE**headline**LIKE '%%%'
+## SELECT**...**WHERE **headline** LIKE '%%%'
 
 Same goes for underscores. Both percentage signs and underscores are handled for you transparently.
 
 ## Q Objects
 
-Keyword argument queries -- in [**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with**OR**statements), you can use [**Qobjects**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
+Keyword argument queries -- in [**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with **OR** statements), you can use [**Qobjects**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
 
 ## A [Qobject](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments
 
 ## Q**objects can be combined using the**&**and**|**operators. When an operator is used on two**Q**objects, it yields a new**Qobject
 
-For example, this statement yields a single**Q**object that represents the "OR" of two**"question__startswith"**queries:
+For example, this statement yields a single**Q** object that represents the "OR" of two**"question__startswith"**queries:
 
 Q(question__startswith='Who') | Q(question__startswith='What')
 
-This is equivalent to the following SQL**WHERE**clause:
+This is equivalent to the following SQL **WHERE** clause:
 
 WHERE question LIKE 'Who%' OR question LIKE 'What%'
 
-You can compose statements of arbitrary complexity by combining**Q**objects with the**&**and**|**operators and use parenthetical grouping. Also,**Q**objects can be negated using the**~**operator, allowing for combined lookups that combine both a normal query and a negated (**NOT**) query:
+You can compose statements of arbitrary complexity by combining**Q** objects with the**&**and**|**operators and use parenthetical grouping. Also, **Q** objects can be negated using the**~**operator, allowing for combined lookups that combine both a normal query and a negated (**NOT**) query:
 
 Q(question__startswith='Who') | ~Q(pub_date__year=2005)
 
-Each lookup function that takes keyword-arguments (e.g.[**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter),[**exclude()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.exclude),[**get()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.get)) can also be passed one or more**Q**objects as positional (not-named) arguments. If you provide multiple**Q**object arguments to a lookup function, the arguments will be "AND"ed together. For example:
+Each lookup function that takes keyword-arguments (e.g.[**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), [**exclude()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.exclude), [**get()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.get)) can also be passed one or more**Q** objects as positional (not-named) arguments. If you provide multiple**Q** object arguments to a lookup function, the arguments will be "AND"ed together. For example:
 
 Poll.objects.get(
 Q(question__startswith='Who'),
@@ -320,7 +320,7 @@ Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6))
 SELECT * **from polls** WHERE question LIKE 'Who%'
 AND (pub_date = '2005-05-02' OR pub_date = '2005-05-06')
 
-Lookup functions can mix the use of**Q**objects and keyword arguments. All arguments provided to a lookup function (be they keyword arguments or**Q**objects) are "AND"ed together. However, **if aQobject is provided, it must precede the definition of any keyword arguments**. For example:
+Lookup functions can mix the use of**Q** objects and keyword arguments. All arguments provided to a lookup function (be they keyword arguments or**Q** objects) are "AND"ed together. However, **if aQobject is provided, it must precede the definition of any keyword arguments**. For example:
 
 Poll.objects.get(
 Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6)),

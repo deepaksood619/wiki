@@ -26,7 +26,7 @@ Modified: 2022-05-18 21:00:42 +0500
 
 ## Regions, Availability Zones, and Local Zones
 
-Each**Region**is a separate geographic area. Each Region has multiple, isolated locations known as**Availability Zones**. Local Zones provide you the ability to place resources, such as compute and storage, in multiple locations closer to your end users. Resources aren't replicated across Regions unless you specifically choose to do so.
+Each **Region** is a separate geographic area. Each Region has multiple, isolated locations known as**Availability Zones**. Local Zones provide you the ability to place resources, such as compute and storage, in multiple locations closer to your end users. Resources aren't replicated across Regions unless you specifically choose to do so.
 
 Each Region is completely independent. Each Availability Zone is isolated, but the Availability Zones in a Region are connected through low-latency links. A Local Zone is an AWS infrastructure deployment that places select services closer to your end users. A Local Zone is an extension of a Region that is in a different location from your Region. It provides a high-bandwidth backbone to the AWS infrastructure and is ideal for latency-sensitive applications, for example machine learning.
 

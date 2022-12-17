@@ -262,7 +262,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -273,7 +273,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 27%" />
@@ -292,10 +292,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>A group of compounds</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>There are 13 vitamins in all: A, C, D, E, K, and the B-complex of 8 vitamins</td>
 </tr>
 </tbody>
@@ -310,10 +310,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Micronutrients</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>We need them in tiny quantities (milli or micrograms). Unlike carbs/proteins, which are macronutrients.</td>
 </tr>
 </tbody>
@@ -328,10 +328,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Essential nutrients</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>They’re not produced directly by our bodies but supplied from our food (with a few exceptions.)</td>
 </tr>
 </tbody>
@@ -342,20 +342,20 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Vitamin supplements: Good or Bad?</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><img src="media/Nutrition_Food-image5.png" style="width:5in;height:2.38542in" alt="Vitamin supplements: Good or Bad?" </td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>When it comes to vitamins, there is such a thing as too much.<strong>Every vitamin has a recommended daily intake</strong>and you can get this from a healthy, diverse diet. But if you’re eating fortified foods and taking supplements (often ordered online without checking dosage or composition), you may consume more than you need.</p>
 <p>So, unless you have a diagnosed deficiency,<strong>get your vitamins from food.</strong>There is<a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAEMTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;">evidence</a>that this has better health outcomes overall!</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Your guide to a vitamin-rich diet</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -366,7 +366,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 36%" />
@@ -397,7 +397,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 37%" />
@@ -410,19 +410,19 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Immunity</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Skin &amp; bone formation</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Reproductive health</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Eyesight</td>
 </tr>
@@ -454,7 +454,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 20%" />
@@ -467,11 +467,11 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Green leafy veggies</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Eggs</td>
 </tr>
@@ -486,7 +486,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -500,10 +500,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><img src="media/Nutrition_Food-image9.png" style="width:5in;height:0.72917in" alt="Vitamin B" </td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 50%" />
@@ -534,7 +534,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 26%" />
@@ -547,15 +547,15 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>DNA synthesis</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Nervous system function</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>RBC creation</td>
 </tr>
@@ -587,7 +587,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 26%" />
@@ -600,19 +600,19 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Eggs &amp; dairy</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Legumes (beans, lentils)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Green leafy veggies</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Beetroot</td>
 </tr>
@@ -627,7 +627,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -641,10 +641,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr>
 <td><img src="media/Nutrition_Food-image12.png" style="width:5in;height:0.72917in" alt="Vitamin C" </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 41%" />
@@ -675,7 +675,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 32%" />
@@ -688,11 +688,11 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Immunity</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Antioxidant properties</td>
 </tr>
@@ -724,7 +724,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 22%" />
@@ -737,19 +737,19 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Kiwi &amp; amla</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Potato &amp; tomato</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Green leafies</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Cruciferous veggies (cabbage, gobi, broccoli)</td>
 </tr>
@@ -764,7 +764,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -778,10 +778,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><img src="media/Nutrition_Food-image15.png" style="width:5in;height:0.72917in" alt="Vitamin E" </td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 37%" />
@@ -812,7 +812,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 38%" />
@@ -825,11 +825,11 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Eyesight</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Antioxidant properties</td>
 </tr>
@@ -861,7 +861,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 20%" />
@@ -874,15 +874,15 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Egg yolks</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Whole grains</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Green leafy veggies</td>
 </tr>
@@ -897,7 +897,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -911,10 +911,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr>
 <td><img src="media/Nutrition_Food-image18.png" style="width:5in;height:0.72917in" alt="Vitamin K" </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 54%" />
@@ -945,7 +945,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 24%" />
@@ -958,7 +958,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Blood clotting &amp; wound healing</td>
 </tr>
@@ -990,7 +990,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 29%" />
@@ -1003,11 +1003,11 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>»</strong></td>
 <td>Avocado</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>»</strong></td>
 <td>Kiwi</td>
 </tr>
@@ -1022,7 +1022,7 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 100%" />
@@ -1039,10 +1039,10 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Wondering what happened to vitamins B4, B8, B10, and B11? They got the boot! As scientists’ understanding of vitamins evolved, these were no longer regarded as vitamins. Reminds you of Pluto, huh?</td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 75%" />
@@ -1071,17 +1071,17 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Wait, what about Vitamin D?</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><img src="media/Nutrition_Food-image22.png" style="width:5in;height:2.38542in" alt="Wait, what about Vitamin D?" </td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>We saved it for the last because it’s kinda special! Vitamin D has many roles to play—blood pressure regulation, bone growth, calcium balance, hormone production, immune health, nervous system function etc.</p>
 <p>Unlike the others, vitamin D can be produced by our bodies, provided our skin is exposed to adequate sunshine. Unfortunately, most of us don’t get enough time in the sun and hence, are D-deficient. ☹️</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 24%" />

@@ -50,7 +50,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Dense Compute DC2</strong></td>
 <td></td>
 <td></td>
@@ -59,7 +59,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>dc2.large</td>
 <td>2</td>
 <td>15 GiB</td>
@@ -69,7 +69,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td>0.60 GB/s</td>
 <td>$0.315per Hour <strong>0.315 *8 = $2.52 per Hour</strong></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>dc2.8xlarge</td>
 <td>32</td>
 <td>244 GiB</td>
@@ -78,7 +78,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td>7.50 GB/s</td>
 <td>$6.10per Hour</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Dense Storage DS2</strong></td>
 <td></td>
 <td></td>
@@ -87,7 +87,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ds2.xlarge</td>
 <td>4</td>
 <td>31 GiB</td>
@@ -96,7 +96,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td>0.40 GB/s</td>
 <td>$1.19per Hour</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ds2.8xlarge</td>
 <td>36</td>
 <td>244 GiB</td>
@@ -105,7 +105,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td>3.30 GB/s</td>
 <td>$9.50per Hour</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>RA3 with Redshift Managed Storage*</strong></td>
 <td></td>
 <td></td>
@@ -114,7 +114,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ra3.xlplus</td>
 <td>4</td>
 <td>32 GiB</td>
@@ -124,7 +124,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td><p>$1.235per Hour</p>
 <p><strong>1.235* 2 = 2.47 per hour</strong></p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ra3.4xlarge</td>
 <td>12</td>
 <td>96 GiB</td>
@@ -133,7 +133,7 @@ enable you to create large data warehouses using hard disk drives (HDDs), and we
 <td>2.00 GB/s</td>
 <td>$3.706per Hour</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ra3.16xlarge</td>
 <td>48</td>
 <td>384 GiB</td>

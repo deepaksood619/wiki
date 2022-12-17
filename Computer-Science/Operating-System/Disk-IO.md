@@ -8,10 +8,10 @@ Modified: 2020-02-25 17:07:49 +0500
 
 ## IO
 
-- Syscalls:[open](http://man7.org/linux/man-pages/man2/open.2.html),[write](http://man7.org/linux/man-pages/man2/write.2.html),[read](http://man7.org/linux/man-pages/man2/read.2.html),[fsync](http://man7.org/linux/man-pages/man2/fsync.2.html),[sync](http://man7.org/linux/man-pages/man2/sync.2.html),[close](http://man7.org/linux/man-pages/man2/close.2.html)
-- Standard IO:[fopen](https://linux.die.net/man/3/fopen),[fwrite](https://linux.die.net/man/3/fwrite),[fread](https://linux.die.net/man/3/fread),[fflush](https://linux.die.net/man/3/fflush),[fclose](https://linux.die.net/man/3/fclose)
-- Vectored IO:[writev](https://linux.die.net/man/2/writev),[readv](https://linux.die.net/man/2/readv)
-- Memory mapped IO:[open](http://man7.org/linux/man-pages/man2/open.2.html),[mmap](http://man7.org/linux/man-pages/man2/mmap.2.html),[msync](http://man7.org/linux/man-pages/man2/msync.2.html),[munmap](http://man7.org/linux/man-pages/man2/munmap.2.html)
+- Syscalls:[open](http://man7.org/linux/man-pages/man2/open.2.html), [write](http://man7.org/linux/man-pages/man2/write.2.html), [read](http://man7.org/linux/man-pages/man2/read.2.html), [fsync](http://man7.org/linux/man-pages/man2/fsync.2.html), [sync](http://man7.org/linux/man-pages/man2/sync.2.html), [close](http://man7.org/linux/man-pages/man2/close.2.html)
+- Standard IO:[fopen](https://linux.die.net/man/3/fopen), [fwrite](https://linux.die.net/man/3/fwrite), [fread](https://linux.die.net/man/3/fread), [fflush](https://linux.die.net/man/3/fflush), [fclose](https://linux.die.net/man/3/fclose)
+- Vectored IO:[writev](https://linux.die.net/man/2/writev), [readv](https://linux.die.net/man/2/readv)
+- Memory mapped IO:[open](http://man7.org/linux/man-pages/man2/open.2.html), [mmap](http://man7.org/linux/man-pages/man2/mmap.2.html), [msync](http://man7.org/linux/man-pages/man2/msync.2.html), [munmap](http://man7.org/linux/man-pages/man2/munmap.2.html)
 
 ## Buffered IO
 
@@ -21,9 +21,9 @@ The three types of buffering available are unbuffered, block buffered, and line 
 
 ## Sector/Block/Page
 
-*Block Device*is a special file type providing buffered access to hardware devices such as HDDs or SSDs. Block Devices work act upon*sectors*,group of adjacent bytes. Most disk devices have a sector size of 512 bytes. Sector is the smallest unit of data transfer for block device, it is not possible to transfer less than one sector worth of data. However, often it is possible to fetch multiple adjacent segments at a time. The smallest addressable unit ofFile Systemis*block*.Block is a group of multiple adjacent sectors requested by a device driver. Typical block sizes are 512, 1024, 2048 and 4096 bytes. Usually IO is done through the *Virtual Memory*, which caches requested filesystem blocks in memory and serves as a buffer for intermediate operations. Virtual Memory works with pages, which map to filesystem blocks. Typical page size is 4096 bytes.
+*Block Device*is a special file type providing buffered access to hardware devices such as HDDs or SSDs. Block Devices work act upon *sectors*,group of adjacent bytes. Most disk devices have a sector size of 512 bytes. Sector is the smallest unit of data transfer for block device, it is not possible to transfer less than one sector worth of data. However, often it is possible to fetch multiple adjacent segments at a time. The smallest addressable unit ofFile Systemis *block*.Block is a group of multiple adjacent sectors requested by a device driver. Typical block sizes are 512, 1024, 2048 and 4096 bytes. Usually IO is done through the *Virtual Memory*, which caches requested filesystem blocks in memory and serves as a buffer for intermediate operations. Virtual Memory works with pages, which map to filesystem blocks. Typical page size is 4096 bytes.
 
-## In summary, Virtual Memory*pages*map to Filesystem*blocks*, which map to Block Device*sectors*
+## In summary, Virtual Memory *pages*map to Filesystem *blocks*, which map to Block Device *sectors*
 
 ## Standard IO
 
@@ -42,11 +42,11 @@ How Buffered IO works: Applications perform reads and writes through the Kernel 
 When thereadoperation is performed, the Page Cache is consulted first. If the data is already loaded in the Page Cache, it is simply copied out for the user: no disk access is performed and read is served entirely from memory. Otherwise file contents are loaded in Page Cache and then returned to the user. If Page Cache is full, least recently used pages are flushed on disk and evicted from cache to free space for new pages.
 
 write()call simply copies user-space buffer to kernel Page Cache, marking the written page asdirty. Later, kernel writes modifications on disk in a process calledflushorwriteback. Actual IO normally does not happen immediately. Meanwhile,read()will supply data from the Page Cache instead of reading (now outdated) disk contents. As you can see, Page Cache is loaded both on reads and writes.
-Pages markeddirtywill beflushedto disk as since their cached representation is now different from the one on disk. This process is called*writeback*. writeback might have potential drawbacks, such as queuing up IO requests, so it's worth understanding thresholds and ratios that used for writeback when it's in use and check queue depths to make sure you can avoid throttling and high latencies. You can find more information on tuning Virtual Memory in [Linux Kernel Documentation](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
+Pages markeddirtywill beflushedto disk as since their cached representation is now different from the one on disk. This process is called *writeback*. writeback might have potential drawbacks, such as queuing up IO requests, so it's worth understanding thresholds and ratios that used for writeback when it's in use and check queue depths to make sure you can avoid throttling and high latencies. You can find more information on tuning Virtual Memory in [Linux Kernel Documentation](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
 Logic behind Page Cache is explained by**Temporal localityprinciple**, that states that recently accessed pages will be accessed again at some point in nearest future.
-Another principle,**Spatial Locality**, implies that the elements physically located nearby have a good chance of being located close to each other. This principle is used in a process called "prefetch" that loads file contents ahead of time anticipating their access and amortizing some of the IO costs.
+Another principle, **Spatial Locality**, implies that the elements physically located nearby have a good chance of being located close to each other. This principle is used in a process called "prefetch" that loads file contents ahead of time anticipating their access and amortizing some of the IO costs.
 Page Cache also improves IO performance by delaying writes and coalescing adjacent reads.
-Disambiguation: Buffer Cache and Page Cache: previously entirely separate concepts,[got unified in 2.4 Linux kernel](https://lwn.net/Articles/712467/). Right now it's mostly referred to as Page Cache, but some people people still use term Buffer Cache, which became synonymous.
+Disambiguation: Buffer Cache and Page Cache: previously entirely separate concepts, [got unified in 2.4 Linux kernel](https://lwn.net/Articles/712467/). Right now it's mostly referred to as Page Cache, but some people people still use term Buffer Cache, which became synonymous.
 Page Cache, depending on the access pattern, holds file chunks that were recently accessed or may be accessed soon (prefetched or marked with [fadvise](https://medium.com/@ifesdjeen/on-disk-io-part-2-more-flavours-of-io-c945db3edb13)). Since all IO operations are happening through Page Cache, operations sequences such asread-write-readcan be served from memory, without subsequent disk accesses.
 
 ## Delaying Errors
@@ -122,7 +122,7 @@ We've discussed multiple things one has to take into consideration when working 
 
 ## IOPS**
 
-Input/output operations per second(IOPS, pronouncedeye-ops) is an [input/output](https://en.wikipedia.org/wiki/Input/output) performance measurement used to characterize [computer storage](https://en.wikipedia.org/wiki/Data_storage_device) devices like [hard disk drives](https://en.wikipedia.org/wiki/Hard_disk_drive)(HDD),[solid state drives](https://en.wikipedia.org/wiki/Solid_state_drives)(SSD), and [storage area networks](https://en.wikipedia.org/wiki/Storage_area_network)(SAN). Like [benchmarks](https://en.wikipedia.org/wiki/Benchmark), IOPS numbers published by storage device manufacturers do not directly relate to real-world application performance.
+Input/output operations per second(IOPS, pronouncedeye-ops) is an [input/output](https://en.wikipedia.org/wiki/Input/output) performance measurement used to characterize [computer storage](https://en.wikipedia.org/wiki/Data_storage_device) devices like [hard disk drives](https://en.wikipedia.org/wiki/Hard_disk_drive)(HDD), [solid state drives](https://en.wikipedia.org/wiki/Solid_state_drives)(SSD), and [storage area networks](https://en.wikipedia.org/wiki/Storage_area_network)(SAN). Like [benchmarks](https://en.wikipedia.org/wiki/Benchmark), IOPS numbers published by storage device manufacturers do not directly relate to real-world application performance.
 <https://en.wikipedia.org/wiki/IOPS>
 
 ## Wear Leveling**

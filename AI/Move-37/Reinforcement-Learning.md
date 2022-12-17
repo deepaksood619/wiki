@@ -6,7 +6,7 @@ Modified: 2022-05-04 20:50:36 +0500
 
 ---
 
-## Reinforcement learning**(**RL) is an area of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) concerned with how [software agents](https://en.wikipedia.org/wiki/Software_agent) ought to take [*actions*](https://en.wikipedia.org/wiki/Action_selection) in an*environment*so as to maximize some notion of cumulative*reward*
+## Reinforcement learning**(**RL) is an area of [machine learning](https://en.wikipedia.org/wiki/Machine_learning) concerned with how [software agents](https://en.wikipedia.org/wiki/Software_agent) ought to take [*actions*](https://en.wikipedia.org/wiki/Action_selection) in an *environment*so as to maximize some notion of cumulative *reward*
 
 In machine learning, the environment is typically formulated as a [Markov Decision Process](https://en.wikipedia.org/wiki/Markov_Decision_Process)(MDP), as many reinforcement learning algorithms for this context utilize [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming) techniques. The main difference between the classical dynamic programming methods and reinforcement learning algorithms is that the latter do not assume knowledge of an exact mathematical model of the MDP and they target large MDPs where exact methods become infeasible.
 

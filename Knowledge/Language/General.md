@@ -20,7 +20,7 @@ TheCommon European Framework of Reference for Languages: Learning, Teaching, Ass
 
 ## Bibliography
 
-## Bibliography**(from [Greek]$1 $2*biblion*, "book" and -γραφία*-graphia*, "writing"), as a discipline, is traditionally the academic study of [books](https://en.wikipedia.org/wiki/Book) as physical, cultural objects; in this sense, it is also known as**bibliology(from Greek-λογία,[*-logia*](https://en.wikipedia.org/wiki/-logy)). Carter and Barker (2010) describe bibliography as a twofold scholarly discipline---the organized listing of books (enumerative bibliography) and the systematic description of books as objects (descriptive bibliography)
+## Bibliography**(from [Greek]$1 $2*biblion*, "book" and -γραφία*-graphia*, "writing"), as a discipline, is traditionally the academic study of [books](https://en.wikipedia.org/wiki/Book) as physical, cultural objects; in this sense, it is also known as**bibliology(from Greek-λογία, [*-logia*](https://en.wikipedia.org/wiki/-logy)). Carter and Barker (2010) describe bibliography as a twofold scholarly discipline---the organized listing of books (enumerative bibliography) and the systematic description of books as objects (descriptive bibliography)
 
 A bibliography is a list of all of the sources you have used (whether referenced or not) in the process of researching your work.
 

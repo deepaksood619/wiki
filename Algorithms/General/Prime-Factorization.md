@@ -50,7 +50,7 @@ n **=** n **/** 2
 
 # so a skip of 2 ( i = i + 2) can be used
 
-## for**i**in**range(3,int(math.sqrt(n))**+1,2)
+## for**i** in**range(3,int(math.sqrt(n))**+1,2)
 
 # while i divides n , print i ad divide n
 

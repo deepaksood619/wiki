@@ -88,14 +88,14 @@ Two members of a criminal gang are arrested and imprisoned. Each prisoner is in 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p><strong>Prisoner A stays silent</strong></p>
 <p><strong>(<em>cooperates</em>)</strong></p></td>
 <td>Each serves 1 year</td>
 <td><p>Prisoner A: 3 years</p>
 <p>Prisoner B: goes free</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><strong>Prisoner A betrays</strong></p>
 <p><strong>(<em>defects</em>)</strong></p></td>
 <td><p>Prisoner A: goes free</p>

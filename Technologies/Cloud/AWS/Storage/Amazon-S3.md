@@ -46,9 +46,9 @@ Amazon S3 is a highly secure storage service. S3 is the only cloud storage platf
 
 ## AWS Consistency model
 
-The AWS S3 service provides **read-after-write** consistency for**PUTs** of new objects, meaning that as soon as an object is written to an S3 bucket, it can be retrieved.
+The AWS S3 service provides **read-after-write** consistency for **PUTs** of new objects, meaning that as soon as an object is written to an S3 bucket, it can be retrieved.
 
-However, suppose we tried retrieving an object and received a "Not Found" response. Because it's not found, we immediately add it. For a small period of time, we'll be unable to retrieve it because the Not Found response will be cached. Therefore, in this case, S3 is only**eventuallyconsistent**. Deleting or updating existing objects are also eventually consistent operations.
+However, suppose we tried retrieving an object and received a "Not Found" response. Because it's not found, we immediately add it. For a small period of time, we'll be unable to retrieve it because the Not Found response will be cached. Therefore, in this case, S3 is only **eventuallyconsistent**. Deleting or updating existing objects are also eventually consistent operations.
 
 ## Strong read after write
 

@@ -99,7 +99,7 @@ Key features include:
 
 - Self-service configuration, via Kubernetes annotations
 - First class [gRPC and HTTP/2 support](https://www.getambassador.io/user-guide/grpc)
-- Support for CORS, timeouts, weighted round robin ([canary](https://www.getambassador.io/reference/canary)),[rate limiting](https://www.getambassador.io/reference/services/rate-limit-service)
+- Support for CORS, timeouts, weighted round robin ([canary](https://www.getambassador.io/reference/canary)), [rate limiting](https://www.getambassador.io/reference/services/rate-limit-service)
 - [Istio integration](https://www.getambassador.io/user-guide/with-istio)
 - [Authentication](https://www.getambassador.io/reference/services/auth-service)
 - Robust TLS support, including TLS client-certificate authentication

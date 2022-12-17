@@ -657,7 +657,7 @@ For example, a good software engineer, just by writing the right little piece of
 
 What you want in life is to be in control of your time. You want to get into a leveraged job where you control your time and you're tracked on outputs."
 
-- (1)[Focus on High-leverage Activities](https://www.quora.com/Whats-the-single-most-valuable-lesson-youve-learned-in-your-professional-life)--- "Leverage should be the central, guiding metric that helps you determine where to focus your time." (related:[Eisenhower decision matrix](http://www.artofmanliness.com/2013/10/23/eisenhower-decision-matrix/)--- "**what is important is seldom urgent, and what is urgent is seldom important**.", "The best time to plant a tree was 20 years ago. The second best time is now.",[law of triviality](https://en.wikipedia.org/wiki/Law_of_triviality)--- "members of an organisation give disproportionate weight to trivial issues.")
+- (1)[Focus on High-leverage Activities](https://www.quora.com/Whats-the-single-most-valuable-lesson-youve-learned-in-your-professional-life)--- "Leverage should be the central, guiding metric that helps you determine where to focus your time." (related:[Eisenhower decision matrix](http://www.artofmanliness.com/2013/10/23/eisenhower-decision-matrix/)--- "**what is important is seldom urgent, and what is urgent is seldom important**.", "The best time to plant a tree was 20 years ago. The second best time is now.", [law of triviality](https://en.wikipedia.org/wiki/Law_of_triviality)--- "members of an organisation give disproportionate weight to trivial issues.")
 
 ## Eisenhower Matrix
 

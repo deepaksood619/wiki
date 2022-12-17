@@ -47,7 +47,7 @@ Can be used to visualize TensorFlow graph, plot quantitative metrics about the e
 
 1. **Tensors**
 
-The central unit of data in TensorFlow is the**tensor**. A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's**rank**is its number of dimensions. Here are some examples of tensors:
+The central unit of data in TensorFlow is the **tensor**. A tensor consists of a set of primitive values shaped into an array of any number of dimensions. A tensor's **rank** is its number of dimensions. Here are some examples of tensors:
 
 3 # a rank 0 tensor; a scalar with shape []
 
@@ -59,7 +59,7 @@ The central unit of data in TensorFlow is the**tensor**. A tensor consists of a 
 
 ## 1.1. The Computational Graph
 
-A**computational graph**is a series of TensorFlow operations arranged into a graph of nodes.
+A**computational graph** is a series of TensorFlow operations arranged into a graph of nodes.
 
 ## TensorFlow Model Serving
 

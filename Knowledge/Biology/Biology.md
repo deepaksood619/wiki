@@ -20,7 +20,7 @@ Modified: 2021-11-29 01:14:07 +0500
 
 6. Be hot
 
-Taxonomy, which translates from Ancient Greek as "arrangement method," is a tool for categorizing living organisms into groups (ortaxa) based on shared genetic traits and common ancestry. Organisms grouped higher up in the hierarchy share very broad traits, while organisms grouped together farther down the hierarchy are more closely related (they share more genetic traits). Historically, we have classified living organisms into these taxa (in order of increasing specificity): domain, kingdom, phylum, class, order, family, genus, species, [Variety]. (Mnemonic - "**D**ear**K**ing**P**hilip**C**ame**O**ver**F**or**G**ood**S**oup")
+Taxonomy, which translates from Ancient Greek as "arrangement method," is a tool for categorizing living organisms into groups (ortaxa) based on shared genetic traits and common ancestry. Organisms grouped higher up in the hierarchy share very broad traits, while organisms grouped together farther down the hierarchy are more closely related (they share more genetic traits). Historically, we have classified living organisms into these taxa (in order of increasing specificity): domain, kingdom, phylum, class, order, family, genus, species, [Variety]. (Mnemonic - "**D** ear**K** ing**P** hilip**C** ame**O** ver**F** or**G** ood**S** oup")
 
 ## Humans
 
@@ -71,7 +71,7 @@ Proteins play countless roles throughout the biological world, from catalyzing c
 
 ## Lymphatic System
 
-The**lymphatic system**is part of the [vascular system](https://en.wikipedia.org/wiki/Vascular_system) and an important part of the [immune system](https://en.wikipedia.org/wiki/Immune_system), comprising a network of [lymphatic vessels](https://en.wikipedia.org/wiki/Lymphatic_vessel) that carry a clear fluid called [lymph](https://en.wikipedia.org/wiki/Lymph)(from Latin,*lympha*meaning "[water](https://en.wikipedia.org/wiki/Water)"[^[1]^](https://en.wikipedia.org/wiki/Lymphatic_system#cite_note-1)) directionally towards the [heart](https://en.wikipedia.org/wiki/Heart).
+The**lymphatic system** is part of the [vascular system](https://en.wikipedia.org/wiki/Vascular_system) and an important part of the [immune system](https://en.wikipedia.org/wiki/Immune_system), comprising a network of [lymphatic vessels](https://en.wikipedia.org/wiki/Lymphatic_vessel) that carry a clear fluid called [lymph](https://en.wikipedia.org/wiki/Lymph)(from Latin,*lympha*meaning "[water](https://en.wikipedia.org/wiki/Water)"[^[1]^](https://en.wikipedia.org/wiki/Lymphatic_system#cite_note-1)) directionally towards the [heart](https://en.wikipedia.org/wiki/Heart).
 
 ## Brain (Rosehip Neuron)
 
@@ -91,7 +91,7 @@ Altered state of Consciousness, occur just before deep sleep
 
 ## Carrying Capacity
 
-Thecarrying capacityof a biological [species](https://en.wikipedia.org/wiki/Species) in an [environment](https://en.wikipedia.org/wiki/Natural_environment) is the maximum population size of the species that the environment can sustain indefinitely, given the food,[habitat](https://en.wikipedia.org/wiki/Habitat),[water](https://en.wikipedia.org/wiki/Drinking_water), and other [necessities available](https://en.wikipedia.org/wiki/Resource) in the environment. In [population biology](https://en.wikipedia.org/wiki/Population_biology), carrying capacity is defined as the [environment](https://en.wikipedia.org/wiki/Environment_(biophysical))'s maximal load,which is different from the [concept](https://en.wikipedia.org/wiki/Concept) of population equilibrium. Its effect on [population dynamics](https://en.wikipedia.org/wiki/Population_dynamics) may be approximated in a [logistic model](https://en.wikipedia.org/wiki/Logistic_function), although this simplification ignores the possibility of [overshoot](https://en.wikipedia.org/wiki/Overshoot_(population)) which real systems may exhibit.
+Thecarrying capacityof a biological [species](https://en.wikipedia.org/wiki/Species) in an [environment](https://en.wikipedia.org/wiki/Natural_environment) is the maximum population size of the species that the environment can sustain indefinitely, given the food, [habitat](https://en.wikipedia.org/wiki/Habitat), [water](https://en.wikipedia.org/wiki/Drinking_water), and other [necessities available](https://en.wikipedia.org/wiki/Resource) in the environment. In [population biology](https://en.wikipedia.org/wiki/Population_biology), carrying capacity is defined as the [environment](https://en.wikipedia.org/wiki/Environment_(biophysical))'s maximal load,which is different from the [concept](https://en.wikipedia.org/wiki/Concept) of population equilibrium. Its effect on [population dynamics](https://en.wikipedia.org/wiki/Population_dynamics) may be approximated in a [logistic model](https://en.wikipedia.org/wiki/Logistic_function), although this simplification ignores the possibility of [overshoot](https://en.wikipedia.org/wiki/Overshoot_(population)) which real systems may exhibit.
 
 <https://en.wikipedia.org/wiki/Carrying_capacity>
 

@@ -45,7 +45,7 @@ match() and search() return None if no match can be found. If they're successful
 
 ## re.match()
 
-The [**re.match()**](https://docs.python.org/2/library/re.html#re.match) expression only matches at the*beginning*of the string.
+The [**re.match()**](https://docs.python.org/2/library/re.html#re.match) expression only matches at the *beginning*of the string.
 
 It either returns a MatchObject instance or returns None if the string does not match the pattern.
 
@@ -110,7 +110,7 @@ A*groupdict()*expression returns a dictionary containing all the named subgroups
 
 ## re.search()
 
-This function searches for first occurrence of RE*pattern*within*string*with optional*flags*.
+This function searches for first occurrence of RE *pattern*within *string*with optional *flags*.
 
 Here is the syntax for this function
 `re.search(pattern, string, flags = 0)`
@@ -137,17 +137,17 @@ bool(re.search(r'ly', 'similarly'))
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p><strong>pattern</strong></p>
 <p>This is the regular expression to be matched.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p><strong>string</strong></p>
 <p>This is the string, which would be searched to match the pattern anywhere in the string.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p><strong>flags</strong></p>
 <p>You can specify different flags using bitwise OR (|). These are modifiers, which are listed in the table below.</p></td>
@@ -252,7 +252,7 @@ Ex2
 
 ## re.split(pattern, string, maxsplit=0, flags=0)
 
-Split*string*by the occurrences of*pattern*. If capturing parentheses are used in*pattern*, then the text of all groups in the pattern are also returned as part of the resulting list. If*maxsplit*is nonzero, at most*maxsplit*splits occur, and the remainder of the string is returned as the final element of the list.
+Split *string*by the occurrences of *pattern*. If capturing parentheses are used in *pattern*, then the text of all groups in the pattern are also returned as part of the resulting list. If *maxsplit*is nonzero, at most *maxsplit*splits occur, and the remainder of the string is returned as the final element of the list.
 
 ```python
 >>> re.split(r'W+', 'Words, words, words.')

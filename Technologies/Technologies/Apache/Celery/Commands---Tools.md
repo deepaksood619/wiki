@@ -96,7 +96,7 @@ You can wait for the result to complete, but this is rarely used since it turns 
 
 8
 
-In case the task raised an exception,[get()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.get) will re-raise the exception, but you can override this by specifying thepropagateargument:
+In case the task raised an exception, [get()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.get) will re-raise the exception, but you can override this by specifying thepropagateargument:
 
 >>> result.get(propagate=False)
 

@@ -62,7 +62,7 @@ Modified: 2022-01-07 15:29:44 +0500
 
 26. [mtr](http://www.bitwizard.nl/mtr/)--network diagnostic tool.
 
-27. [net-tools](http://net-tools.sourceforge.net/)-- utilities include: arp, hostname, ifconfig,[netstat](http://net-tools.sourceforge.net/man/netstat.8.html), rarp, route, plipconfig, slattach, mii-tool, iptunnel and ipmaddr.
+27. [net-tools](http://net-tools.sourceforge.net/)-- utilities include: arp, hostname, ifconfig, [netstat](http://net-tools.sourceforge.net/man/netstat.8.html), rarp, route, plipconfig, slattach, mii-tool, iptunnel and ipmaddr.
 
 28. [ncat](https://nmap.org/ncat/)--improved re-implementation of the venerable netcat.
 

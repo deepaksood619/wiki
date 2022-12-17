@@ -12,7 +12,7 @@ Square Roots, Cube Roots andMore
 
 Suppose instead of finding the square of 9, which is 81, we wanted to find out what number multiplied with itself equals 81.
 
-In other words,*what is the**square root**of 81?*
+In other words,*what is the**square root** of 81?*
 
 ![image](media/Root-image1.png)
 
@@ -28,7 +28,7 @@ Now for some terminology.
 
 ![image](media/Root-image4.png)
 
-The root index is*optional*on square roots. Square roots are often written:
+The root index is *optional*on square roots. Square roots are often written:
 
 ![64 ](media/Root-image5.png)
 

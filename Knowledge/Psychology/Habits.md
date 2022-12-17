@@ -534,11 +534,11 @@ The default argument for sleeping 7-9 hours a night is that this is the amount o
 
 3. Occasional acute sleep deprivation is good for health and promotes more efficient sleep
 
-    1. Acute sleep deprivation combined with caffeine or some other stimulant that cancels out sleep pressure does not result in decreased cognitive ability at least until 30-40 hours of wakefulness (if this is true, then*sleepiness*, rather*absence of sleep*per se is responsible for decreased cognitive performance during acute sleep deprivation).
+    1. Acute sleep deprivation combined with caffeine or some other stimulant that cancels out sleep pressure does not result in decreased cognitive ability at least until 30-40 hours of wakefulness (if this is true, then *sleepiness*, rather*absence of sleep*per se is responsible for decreased cognitive performance during acute sleep deprivation).
 
     2. Occasional acute sleep deprivation has no impact on long-term cognitive ability or health.
 
-    3. Sleep*does*become more efficient over time and, in complete analogy to exercise, you withstand both acute sleep deprivation better and can function at baseline with a lower amount of sleep in the long-term.
+    3. Sleep *does*become more efficient over time and, in complete analogy to exercise, you withstand both acute sleep deprivation better and can function at baseline with a lower amount of sleep in the long-term.
 
 4. Our priors about sleep research should be weak
 

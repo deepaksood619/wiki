@@ -69,9 +69,9 @@ Solution - Use two pointers - last and nth_last, move last to given n steps away
 
 return nth_last
 
-- Walk one pointer**n**nodes from the head, this will be the right_point
+- Walk one pointer**n** nodes from the head, this will be the right_point
 - Put the other pointer at the head, this will be the left_point
-- Walk/traverse the block (both pointers) towards the tail, one node at a time, keeping a distance**n**between them.
+- Walk/traverse the block (both pointers) towards the tail, one node at a time, keeping a distance**n** between them.
 - Once the right_point has hit the tail, we know that the left point is at the target.
 
 ## Interview Problems (Stacks and Queues)

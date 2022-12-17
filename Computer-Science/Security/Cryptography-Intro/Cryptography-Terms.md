@@ -43,7 +43,7 @@ In [cryptography](https://en.wikipedia.org/wiki/Cryptography), asemantically sec
 
 ## Forward Secrecy**
 
-In cryptography,**forward secrecy(FS), also known asperfect forward secrecy(PFS)**, is a feature of specific key agreement protocols that gives assurances that session keys will not be compromised even if the private key of the server is compromised.Forward secrecy protects past sessions against future compromises of secret keys or passwords.By generating a unique session key for every session a user initiates, the compromise of a single session key will not affect any data other than that exchanged in the specific session protected by that particular key.
+In cryptography, **forward secrecy(FS), also known asperfect forward secrecy(PFS)**, is a feature of specific key agreement protocols that gives assurances that session keys will not be compromised even if the private key of the server is compromised.Forward secrecy protects past sessions against future compromises of secret keys or passwords.By generating a unique session key for every session a user initiates, the compromise of a single session key will not affect any data other than that exchanged in the specific session protected by that particular key.
 Forward secrecy further protects data on the transport layer of a network that uses common SSL/TLS protocols, including [OpenSSL](https://en.wikipedia.org/wiki/OpenSSL), which had previously been affected by the [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) security bug. If forward secrecy is used, encrypted communications and sessions recorded in the past cannot be retrieved and decrypted should long-term secret keys or passwords be compromised in the future, even if the adversary actively interfered, for example via a [man-in-the-middle attack](https://en.wikipedia.org/wiki/Man-in-the-middle_attack).
 The value of forward secrecy depends on the assumed capabilities of an adversary. Forward secrecy has value if an adversary is assumed to be able to obtain secret keys from a device (READ access) but not modify the way keys are generated in a device (WRITE access). In some cases an adversary who can read keys from a device may also be able to modify the functioning of the session key generator. In these cases forward secrecy has no value.
 <https://en.wikipedia.org/wiki/Forward_secrecy>
@@ -77,7 +77,7 @@ Using this approach if one wants to decrypt data, they need be authenticated wit
 
 (There's also "asymmetric" or [public key cryptography](https://en.wikipedia.org/wiki/Public-key_encryption), where the key effectively has two parts: the private key, which allows decryption and/or signing, and a public key (derived from the corresponding private key) which allows encryption and/or signature verification.)
 
-## An [IV](https://en.wikipedia.org/wiki/Initialization_vector) or initialization vector is, in its broadest sense, just the initial value used to start some iterated process. The term is used in a couple of different contexts and implies different security requirements in each of them. For example,[cryptographic hash functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function) typically have a fixed IV, which is just an arbitrary constant which is included in the hash function specification and is used as the initial hash value before any data is fed in
+## An [IV](https://en.wikipedia.org/wiki/Initialization_vector) or initialization vector is, in its broadest sense, just the initial value used to start some iterated process. The term is used in a couple of different contexts and implies different security requirements in each of them. For example, [cryptographic hash functions](https://en.wikipedia.org/wiki/Cryptographic_hash_function) typically have a fixed IV, which is just an arbitrary constant which is included in the hash function specification and is used as the initial hash value before any data is fed in
 
 ![image](media/Cryptography-Intro_Cryptography-Terms-image3.png)
 
@@ -111,7 +111,7 @@ Informally, a message authentication code consists of three algorithms:
 
 - A key generation algorithm selects a key from the key space uniformly at random.
 - A signing algorithm efficiently returns a tag given the key and the message.
-- A verifying algorithm efficiently verifies the authenticity of the message given the key and the tag. That is, return*accepted*when the message and tag are not tampered with or forged, and otherwise return*rejected*
+- A verifying algorithm efficiently verifies the authenticity of the message given the key and the tag. That is, return *accepted*when the message and tag are not tampered with or forged, and otherwise return *rejected*
 <https://en.wikipedia.org/wiki/Message_authentication_code>
 
 ## Message Integrity Codes (MIC) / MACs (Message Authentication Code)**

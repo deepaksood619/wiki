@@ -166,7 +166,7 @@ a[a<2] #select elements from a less than 2
 
 b[[1,0,1,0], [0,1,2,0]] #select elements (1,0),(0,1),(1,2) and (0,0)
 
-b[[1,0,1,0]][:,[0,1,2,0]] #select a subset of the matrix's rows and columns
+b[[1,0,1,0]][:, [0,1,2,0]] #select a subset of the matrix's rows and columns
 
 ## Array Manipulation
 
@@ -190,7 +190,7 @@ np.append(h,g) #append items to an array
 
 np.insert(a,1,5) #insert items in an array
 
-np.delete(a,[1]) #delete items from an array
+np.delete(a, [1]) #delete items from an array
 
 ## Combining arrays
 

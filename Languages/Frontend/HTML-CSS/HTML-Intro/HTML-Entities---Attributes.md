@@ -26,7 +26,7 @@ OR
 
 &#entity_number;
 
-To display a less than sign (<) we must write:&lt;or&#60;
+To display a less than sign (<) we must write:`<`or&#60;
 
 Advantage of using an entity name:An entity name is easy to remember.
 
@@ -55,8 +55,8 @@ The non-breaking hyphen ([&#8209;](https://www.w3schools.com/charsets/ref_utf_pu
 | **Result** | **Description**                    | **Entity Name** | **Entity Number** |
 |----------|---------------------------------|--------------|---------------|
 |           | non-breaking space                 | &nbsp;          | &#160;            |
-| <         | less than                          | &lt;            | &#60;             |
-| >         | greater than                       | &gt;            | &#62;             |
+| <         | less than                          | `<`            | &#60;             |
+| >         | greater than                       | `>`            | &#62;             |
 | &          | ampersand                          | &amp;           | &#38;             |
 | "         | double quotation mark              | &quot;          | &#34;             |
 | '         | single quotation mark (apostrophe) | &apos;          | &#39;             |

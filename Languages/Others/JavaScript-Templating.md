@@ -10,7 +10,7 @@ Modified: 2022-11-21 19:22:22 +0500
 
 JavaScript templating refers to the client side data binding method implemented with the JavaScript language.
 
-Popular JavaScript templating libraries are [AngularJS](https://angularjs.org/),[Backbone.js](http://backbonejs.org/),[Ember.js](http://emberjs.com/),[Handlebars.js](http://handlebarsjs.com/), and [Mustache.js](http://mustache.github.io/).
+Popular JavaScript templating libraries are [AngularJS](https://angularjs.org/), [Backbone.js](http://backbonejs.org/), [Ember.js](http://emberjs.com/), [Handlebars.js](http://handlebarsjs.com/), and [Mustache.js](http://mustache.github.io/).
 
 ## Template Engine
 
@@ -22,7 +22,7 @@ The template engine is responsible for:
 
 ## Benefits of using templateengines
 
-- encourages organization of source code into operationally-distinct layers (see e.g.,[MVC](http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg))
+- encourages organization of source code into operationally-distinct layers (see e.g., [MVC](http://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg))
 - enhances productivity by reducing unnecessary reproduction of effort
 - enhances teamwork by allowing separation of work based on skill-set (e.g., artistic vs. technical)
 

@@ -34,7 +34,7 @@ We explore the different chart types used in technical analysis along with its m
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Monthly</td>
 <td>The opening price on the first day of the month</td>
 <td>Highest price at which the stock traded during the entire month</td>
@@ -43,7 +43,7 @@ We explore the different chart types used in technical analysis along with its m
 <p>price on the last day of month</p></td>
 <td>12 candles for the entire year</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Weekly</td>
 <td>Monday’s opening price</td>
 <td>Highest price at which the stock traded during the entire week</td>
@@ -51,7 +51,7 @@ We explore the different chart types used in technical analysis along with its m
 <td>The closing price on Friday</td>
 <td>52 candles for the entire year</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Daily or EOD</td>
 <td>Opening price of the day</td>
 <td>Highest price at which the stock traded during the day</td>
@@ -59,7 +59,7 @@ We explore the different chart types used in technical analysis along with its m
 <td>The closing price of the day</td>
 <td>One candle per day, 252 candles for the entire year</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Intraday 30 minutes</td>
 <td>The opening price at the beginning of the 1st minute</td>
 <td>Highest price at which the stock traded during the 30 minute duration</td>
@@ -67,7 +67,7 @@ We explore the different chart types used in technical analysis along with its m
 <td>The closing price as on the 30th minute</td>
 <td>Approximately 12 candles per day</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Intraday 15 minutes</td>
 <td>The opening price at the beginning of the 1st minute</td>
 <td>Highest price at which the stock traded during the 15 minute duration</td>
@@ -75,7 +75,7 @@ We explore the different chart types used in technical analysis along with its m
 <td>The closing price as on the 15th minute</td>
 <td>25 candles per day</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Intraday 5 minutes</td>
 <td>The opening price at the beginning of the 1st minute</td>
 <td>Highest price at which the stock traded during the 5 minute duration</td>

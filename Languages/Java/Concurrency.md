@@ -44,22 +44,22 @@ Two issues associated with Fail Safe Iterator are :
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Throw ConcurrentModification Exception</td>
 <td>Yes</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Clone object</td>
 <td>No</td>
 <td>Yes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Memory Overhead</td>
 <td>No</td>
 <td>Yes</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Examples</td>
 <td>HashMap,Vector,ArrayList,HashSet</td>
 <td><p>CopyOnWriteArrayList,</p>

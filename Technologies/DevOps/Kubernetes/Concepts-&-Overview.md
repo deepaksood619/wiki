@@ -52,7 +52,7 @@ Replication Controller means that I tell kubernetes that I want this container a
 
 ## Object Spec and Status
 
-Every Kubernetes object includes two nested object fields that govern the object's configuration: the objectspecand the object**status**. Thespec, which you must provide, describes your**desired state**for the object--the characteristics that you want the object to have. Thestatusdescribes the**actual state**of the object, and is supplied and updated by the Kubernetes system. At any given time, the Kubernetes Control Plane actively manages an object's actual state to match the desired state you supplied.
+Every Kubernetes object includes two nested object fields that govern the object's configuration: the objectspecand the object **status**. Thespec, which you must provide, describes your**desired state** for the object--the characteristics that you want the object to have. Thestatusdescribes the**actual state** of the object, and is supplied and updated by the Kubernetes system. At any given time, the Kubernetes Control Plane actively manages an object's actual state to match the desired state you supplied.
 
 ## Names - All objects in the Kubernetes REST API are unambiguously identified by a Name and a UID
 
@@ -115,7 +115,7 @@ $ kubectl get pods --field-selector status.phase=Running
 
 ## Kubernetes Object Management
 
-The**kubectl**command-line tool supports several different ways to create and manage Kubernetes objects.
+The **kubectl** command-line tool supports several different ways to create and manage Kubernetes objects.
 
 ## Management Techniques
 
@@ -137,7 +137,7 @@ In imperative object configuration, the kubectl command specifies the operation 
 
 ## Declarative Object Configuration
 
-When using declarative object configuration, a user operates on object configuration files stored locally, however the user does not define the operations to be taken on the files. Create, update, and delete operations are automatically detected per-object by**kubectl**. This enables working on directories, where different operations might be needed for different objects.
+When using declarative object configuration, a user operates on object configuration files stored locally, however the user does not define the operations to be taken on the files. Create, update, and delete operations are automatically detected per-object by **kubectl**. This enables working on directories, where different operations might be needed for different objects.
 
 # Kubernetes Control Plane
 
@@ -236,7 +236,7 @@ The kube-proxy is in charge of managing the network connectivity to the containe
 
 3. **Container Runtime**
 
-The container runtime is the software that is responsible for running containers. Kubernetes supports several runtimes:[Docker](http://www.docker.com/),[rkt](https://coreos.com/rkt/),[runc](https://github.com/opencontainers/runc) and any OCI [runtime-spec](https://github.com/opencontainers/runtime-spec) implementation.
+The container runtime is the software that is responsible for running containers. Kubernetes supports several runtimes:[Docker](http://www.docker.com/), [rkt](https://coreos.com/rkt/), [runc](https://github.com/opencontainers/runc) and any OCI [runtime-spec](https://github.com/opencontainers/runtime-spec) implementation.
 
 ### Kubernetes Addons
 

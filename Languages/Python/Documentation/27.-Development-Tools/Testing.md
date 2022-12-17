@@ -169,7 +169,7 @@ coverage html # open htmlcov/index.html in a browser
 
 Many people choose to use the [pytest-cov](https://pytest-cov.readthedocs.io/) plugin, but for most purposes, it is unnecessary.
 
-Some test runners provide coverage integration to make it easy to use coverage.py while running tests. For example,[pytest](http://doc.pytest.org/) has the [pytest-cov](https://pytest-cov.readthedocs.io/) plugin.
+Some test runners provide coverage integration to make it easy to use coverage.py while running tests. For example, [pytest](http://doc.pytest.org/) has the [pytest-cov](https://pytest-cov.readthedocs.io/) plugin.
 
 <https://coverage.readthedocs.io/en/latest>
 

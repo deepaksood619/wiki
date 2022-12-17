@@ -19,7 +19,7 @@ Modified: 2020-09-18 09:55:57 +0500
 
 ## Problem - We are given an array and a set of query ranges, we are required to find sum of every query range
 
-Naive - A**Naive Solution**is to run a loop from L to R and calculate sum of elements in given range for every query [L, R]
+Naive - A**Naive Solution** is to run a loop from L to R and calculate sum of elements in given range for every query [L, R]
 
 Time Complexity - O(m*n)
 
@@ -27,7 +27,7 @@ The idea of**MO's algorithm**is to pre-process all queries so that result of one
 
 Let**a[0...n-1]**be input array and**q[0..m-1]**be array of queries.
 
-1. Sort all queries in a way that queries with L values from**0**to**√n -- 1**are put together, then all queries from**√n**to**2*√n -- 1**, and so on. All queries within a block are sorted in increasing order of R values.
+1. Sort all queries in a way that queries with L values from**0** to**√n -- 1**are put together, then all queries from**√n**to** 2*√n -- 1**, and so on. All queries within a block are sorted in increasing order of R values.
 
 2. Process all queries one by one in a way that every query uses sum computed in previous query.
     - Let 'sum' be sum of previous query.

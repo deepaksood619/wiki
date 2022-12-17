@@ -21,12 +21,12 @@ The answer to this mystery is**causal ordering**, which helps us order events no
 
 ## Lamport Timestamps**
 
-The algorithm of**Lamport timestamps**is a simple algorithm used to determine the order of events in a [distributed computer system](https://en.wikipedia.org/wiki/Distributed_computer_system). As different nodes or processes will typically not be perfectly synchronized, this algorithm is used to provide a [partial ordering](https://en.wikipedia.org/wiki/Partially_ordered_set) of events with minimal overhead, and conceptually provide a starting point for the more advanced [vector clock](https://en.wikipedia.org/wiki/Vector_clock) method. They are named after their creator,[Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport).
+The algorithm of**Lamport timestamps** is a simple algorithm used to determine the order of events in a [distributed computer system](https://en.wikipedia.org/wiki/Distributed_computer_system). As different nodes or processes will typically not be perfectly synchronized, this algorithm is used to provide a [partial ordering](https://en.wikipedia.org/wiki/Partially_ordered_set) of events with minimal overhead, and conceptually provide a starting point for the more advanced [vector clock](https://en.wikipedia.org/wiki/Vector_clock) method. They are named after their creator, [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport).
 Lamport's solution is to shift our thinking. He presents a novel idea: we don't actually need to think about causality in the context of total ordering to start. Instead, he says that we can start with a partial ordering of events, and then just deal with figuring out which events happened before other events. Once we figure out a partial ordering, we can turn it into a consistent total ordering.
 Lamport's logical clocks allow us to shift from happened **when** to happened **before**
 
-we need to shift from thinking about**when**an event happened to what the event happened**before**
-The idea of one event happening before another is central to Lamport's paper. He uses the→shorthand notation to indicate the**happens before**relationship, or the fact that one event happened before another. For example, if we know that one event,a, happened before another event,b, then we can say thata→b, orahappened beforeb.
+we need to shift from thinking about **when** an event happened to what the event happened **before**
+The idea of one event happening before another is central to Lamport's paper. He uses the→shorthand notation to indicate the**happens before** relationship, or the fact that one event happened before another. For example, if we know that one event,a, happened before another event,b, then we can say thata→b, orahappened beforeb.
 <https://en.wikipedia.org/wiki/Lamport_timestamps>
 
 <https://medium.com/baseds/logical-time-and-lamport-clocks-part-1-d0317e407112>

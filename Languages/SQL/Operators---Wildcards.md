@@ -38,32 +38,32 @@ Modified: 2021-12-01 16:15:07 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>=</td>
 <td>Equal to</td>
 </tr>
-<tr class="even">
-<td>&gt;</td>
+<tr>
+<td>`>`</td>
 <td>Greater than</td>
 </tr>
-<tr class="odd">
-<td>&lt;</td>
+<tr>
+<td>`<`</td>
 <td>Less than</td>
 </tr>
-<tr class="even">
-<td>&gt;=</td>
+<tr>
+<td>`>`=</td>
 <td>Greater than or equal to</td>
 </tr>
-<tr class="odd">
-<td>&lt;=</td>
+<tr>
+<td>`<`=</td>
 <td>Less than or equal to</td>
 </tr>
-<tr class="even">
-<td>`<  >`, !=</td>
+<tr>
+<td>`\<  \>`, !=</td>
 <td>Not equal to</td>
 </tr>
-<tr class="odd">
-<td>`< = >`</td>
+<tr>
+<td>`\< = \>`</td>
 <td>Null safe equal<br
 This operator performs an equality comparison like the<a href="https://dev.mysql.com/doc/refman/8.0/en/comparison-operators.html#operator_equal">=</a>operator, but returns1rather thanNULLif both operands areNULL, and0rather thanNULLif one operand isNULL.</td>
 </tr>

@@ -2058,7 +2058,7 @@ There are 6 different types of triggers in MySQL:
 
 23.4 Using the Event Scheduler
 
-MySQL Events are tasks that run according to a schedule. Therefore, we sometimes refer to them as*scheduled*events. When you create an event, you are creating a named database object containing one or more SQL statements to be executed at one or more regular intervals, beginning and ending at a specific date and time. Conceptually, this is similar to the idea of the Unixcrontab(also known as a"cron job") or the Windows Task Scheduler.
+MySQL Events are tasks that run according to a schedule. Therefore, we sometimes refer to them as *scheduled*events. When you create an event, you are creating a named database object containing one or more SQL statements to be executed at one or more regular intervals, beginning and ending at a specific date and time. Conceptually, this is similar to the idea of the Unixcrontab(also known as a"cron job") or the Windows Task Scheduler.
 <https://www.mysqltutorial.org/mysql-triggers/working-mysql-scheduled-event>
 
 <https://dev.mysql.com/doc/refman/8.0/en/events-overview.html>

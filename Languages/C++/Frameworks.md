@@ -22,7 +22,7 @@ Qt is built on these key concepts:
 
 ## Complete abstraction of the GUI
 
-When first released, Qt used its own paint engine and controls, emulating the look of the different platforms it runs on when it drew its widgets. This made the porting work easier because very few classes in Qt depended really on the target platform; however, this occasionally led to slight discrepancies where that emulation was imperfect. Recent versions of Qt use the native style APIs of the different platforms, on platforms that have a native widget set, to query metrics and draw most controls, and do not suffer from such issues as often.[[84]](https://en.wikipedia.org/wiki/Qt_(software)#cite_note-84) On some platforms (such as MeeGo and KDE) Qtisthe native API. Some other portable graphical toolkits have made different design decisions; for example,[wxWidgets](https://en.wikipedia.org/wiki/WxWidgets) uses the toolkits of the target platform for its implementations.
+When first released, Qt used its own paint engine and controls, emulating the look of the different platforms it runs on when it drew its widgets. This made the porting work easier because very few classes in Qt depended really on the target platform; however, this occasionally led to slight discrepancies where that emulation was imperfect. Recent versions of Qt use the native style APIs of the different platforms, on platforms that have a native widget set, to query metrics and draw most controls, and do not suffer from such issues as often.[[84]](https://en.wikipedia.org/wiki/Qt_(software)#cite_note-84) On some platforms (such as MeeGo and KDE) Qtisthe native API. Some other portable graphical toolkits have made different design decisions; for example, [wxWidgets](https://en.wikipedia.org/wiki/WxWidgets) uses the toolkits of the target platform for its implementations.
 
 ## Signals and slots
 
@@ -30,7 +30,7 @@ A language construct introduced in [Qt](https://en.wikipedia.org/wiki/Qt_(toolki
 
 ## [Metaobject](https://en.wikipedia.org/wiki/Meta-object_System) compiler
 
-The [metaobject](https://en.wikipedia.org/wiki/Metaobject) compiler, termedmoc, is a tool that is run on the sources of a Qt program. It interprets certain macros from the C++ code as annotations, and uses them to [generate added C++ code](https://en.wikipedia.org/wiki/Code_generator) with meta information about the classes used in the program. This meta information is used by Qt to [provide programming features not available natively in C++](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule): signals and slots,[introspection](https://en.wikipedia.org/wiki/Type_introspection) and asynchronous function calls.
+The [metaobject](https://en.wikipedia.org/wiki/Metaobject) compiler, termedmoc, is a tool that is run on the sources of a Qt program. It interprets certain macros from the C++ code as annotations, and uses them to [generate added C++ code](https://en.wikipedia.org/wiki/Code_generator) with meta information about the classes used in the program. This meta information is used by Qt to [provide programming features not available natively in C++](https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule): signals and slots, [introspection](https://en.wikipedia.org/wiki/Type_introspection) and asynchronous function calls.
 
 ## Language bindings
 

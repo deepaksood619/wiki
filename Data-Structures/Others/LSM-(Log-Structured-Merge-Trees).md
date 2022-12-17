@@ -29,7 +29,7 @@ LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wi
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><table>
 <colgroup>
 <col style="width: 37%" />
@@ -44,17 +44,17 @@ LSM trees are used in data stores such as [Bigtable](https://en.wikipedia.org/wi
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Insert</td>
 <td>O(1)</td>
 <td>O(1)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Find-min</td>
 <td>O(N)</td>
 <td>O(N)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Delete-min</td>
 <td>O(N)</td>
 <td>O(N)</td>

@@ -34,17 +34,17 @@ There is a particular file where you can handle all these. The file is located a
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p>$route ['default_controller']</p>
 <p>This route indicates which controller class should be loaded, if the URI contains no data, which will be the case when people load your root URL. You are encouraged to have a default route otherwise a 404 page will appear, by default. We can set home page of website here so it will be loaded by default.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p>$route ['404_override']</p>
 <p>This route indicates which controller class should be loaded if the requested controller is not found. It will override the default 404 error page. It won’t affect to theshow_404()function, which will continue loading the defaulterror_404.phpfile inapplication/views/errors/error_404.php.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p>$route ['translate_uri_dashes']</p>
 <p>As evident by the Boolean value, this is not exactly a route. This option enables you to automatically replace dashes (‘-‘) with underscores in the controller and method URI segments, thus saving you additional route entries if you need to do that. This is required because the dash is not a valid class or method-name character and will cause a fatal error, if you try to use it.</p></td>

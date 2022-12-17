@@ -20,7 +20,7 @@ Modified: 2021-10-02 13:00:26 +0500
   - [Managers](https://docs.djangoproject.com/en/2.0/topics/db/managers/)
   - [**Performing raw SQL queries**](https://docs.djangoproject.com/en/2.0/topics/db/sql/)
 
-## >>> for**p**in Person.objects.raw('SELECT * FROM myapp_person')
+## >>> for**p** in Person.objects.raw('SELECT * FROM myapp_person')
 
 ## ... print(p)
 

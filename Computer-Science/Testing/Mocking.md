@@ -102,7 +102,7 @@ Just like the example above, they make isolated unit testing hard or even imposs
 
 ## The solution: Patching
 
-The overall strategy to test this is always the same: Replace the external dependency that is causing headaches by something in your control. The act of replacing the dependency is called**patching**, the replacement is called a**mock**. Depending on what exactly the mock does, you might also hear this being called a **Test Double, Test Stub, Test Spy or a Fake Object**. In practice in Python, the distinction does not matter.
+The overall strategy to test this is always the same: Replace the external dependency that is causing headaches by something in your control. The act of replacing the dependency is called **patching**, the replacement is called a**mock**. Depending on what exactly the mock does, you might also hear this being called a **Test Double, Test Stub, Test Spy or a Fake Object**. In practice in Python, the distinction does not matter.
 Let's make a tiny example how to use patch!
 
 ```python
@@ -190,7 +190,7 @@ assert generate_filename() == "1990-04-28.png"
 You now know how to replace a dependency, hence it is time to talk about what to replace it with. This is whereunittest.mock.Mockandunittest.mock.MagicMockcome into play.
 Everything you do with Mock will return a Mock. Call a function? Get a Mock as a return value. Access an attribute? Get a Mock as a value.
 Python has so called "magic" methods. I like the term "dunder" methods better --- it just means all methods which start and end with adoubleunderscore. Examples are__iter__or__contains__. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
-A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are [assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(),[assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(),[assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
+A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are [assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(), [assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(), [assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
 
 ## spec, autospec & spec_set
 
@@ -219,8 +219,8 @@ AttributeError: Mock object has no attribute 'foo'# That is ok:
 >>> a.datetime
 
 < Mock name='mock.datetime' id='139883597784544' >
-The next parameter of**patch** is **autospec**. Where spec looks at the mocked object,autospecalso looks at the attributes of that object (and their attributes and those attributes, ...).
-Finally, there is**spec_set**. That one prevents you from setting attributes that don't exist.
+The next parameter of **patch** is **autospec**. Where spec looks at the mocked object,autospecalso looks at the attributes of that object (and their attributes and those attributes, ...).
+Finally, there is **spec_set**. That one prevents you from setting attributes that don't exist.
 Usually, I would useautospec=Trueandspec_set=Trueeverywhere. Code which uses introspection might be an example where you don't want that.
 ```
 

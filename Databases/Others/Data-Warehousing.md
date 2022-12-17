@@ -22,7 +22,7 @@ A data warehouse is specially designed for data analytics, which involves readin
 
 | **Characteristics** | **Data Warehouse**                                                                         | **Transactional Database**                                                                            |
 |-------------|-----------------------------|------------------------------|
-| Suitable workloads  | Analytics, reporting,[big data](https://aws.amazon.com/big-data/what-is-big-data/)       | Transaction processing                                                                                |
+| Suitable workloads  | Analytics, reporting, [big data](https://aws.amazon.com/big-data/what-is-big-data/)       | Transaction processing                                                                                |
 | Data source         | Data collected and normalized from many sources                                            | Data captured as-is from a single source, such as a transactional system                              |
 | Data capture        | Bulk write operations typically on a predetermined batch schedule                          | Optimized for continuous write operations as new data is available to maximize transaction throughput |
 | Data normalization  | Denormalized schemas, such as the Star schema or Snowflake schema                          | Highly normalized, static schemas                                                                     |

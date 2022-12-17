@@ -28,7 +28,7 @@ django-admin-rangefilter=0.3.1
 
 Python dependency management and packaging made easy.
 
-poetryis a tool to handle dependency installation as well as building and packaging of Python packages. It only needs one file to do all of that: the new,[standardized](https://www.python.org/dev/peps/pep-0518/) pyproject.toml
+poetryis a tool to handle dependency installation as well as building and packaging of Python packages. It only needs one file to do all of that: the new, [standardized](https://www.python.org/dev/peps/pep-0518/) pyproject.toml
 
 In other words, poetry usespyproject.tomlto replacesetup.py,requirements.txt,setup.cfg,MANIFEST.inand the newly addedPipfile
 

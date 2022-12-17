@@ -23,7 +23,7 @@ The broker also holds the sessions of all persisted clients, including subscript
 ## MQTT Connection
 
 The MQTT protocol is based on TCP/IP. Both the client and the broker need to have a TCP/IP stack.
-The MQTT connection is always between one client and the broker. Clients never connect to each other directly. To initiate a connection,**the client sends a CONNECT message to the broker. The broker responds with a CONNACK message**and a status code. Once the connection is established, the broker keeps it open until the client sends a disconnect command or the connection breaks.
+The MQTT connection is always between one client and the broker. Clients never connect to each other directly. To initiate a connection, **the client sends a CONNECT message to the broker. The broker responds with a CONNACK message**and a status code. Once the connection is established, the broker keeps it open until the client sends a disconnect command or the connection breaks.
 
 ![image](media/Client,-Broker-&-Connection-Establishment-image1.gif)
 

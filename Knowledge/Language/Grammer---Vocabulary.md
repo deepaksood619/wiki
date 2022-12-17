@@ -6,7 +6,7 @@ Modified: 2022-10-31 20:47:20 +0500
 
 ---
 
-In [linguistics]$1 $2) is the set of [structural](https://en.wikipedia.org/wiki/Structural) rules governing the composition of [clauses](https://en.wikipedia.org/wiki/Clause_(linguistics)),[phrases](https://en.wikipedia.org/wiki/Phrase) and [words](https://en.wikipedia.org/wiki/Words) in a [natural language](https://en.wikipedia.org/wiki/Natural_language). The term refers also to the study of such rules and this field includes [phonology](https://en.wikipedia.org/wiki/Phonology),[morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) and [syntax](https://en.wikipedia.org/wiki/Syntax), often complemented by [phonetics](https://en.wikipedia.org/wiki/Phonetics),[semantics](https://en.wikipedia.org/wiki/Semantics) and [pragmatics](https://en.wikipedia.org/wiki/Pragmatics).
+In [linguistics]$1 $2) is the set of [structural](https://en.wikipedia.org/wiki/Structural) rules governing the composition of [clauses](https://en.wikipedia.org/wiki/Clause_(linguistics)), [phrases](https://en.wikipedia.org/wiki/Phrase) and [words](https://en.wikipedia.org/wiki/Words) in a [natural language](https://en.wikipedia.org/wiki/Natural_language). The term refers also to the study of such rules and this field includes [phonology](https://en.wikipedia.org/wiki/Phonology), [morphology](https://en.wikipedia.org/wiki/Morphology_(linguistics)) and [syntax](https://en.wikipedia.org/wiki/Syntax), often complemented by [phonetics](https://en.wikipedia.org/wiki/Phonetics), [semantics](https://en.wikipedia.org/wiki/Semantics) and [pragmatics](https://en.wikipedia.org/wiki/Pragmatics).
 
 Fluent speakers of a [language variety](https://en.wikipedia.org/wiki/Variety_(linguistics)) orlecthave a set of internalized rules for using that form of speech. This rule set constitutes the lect's grammar.[[1]](https://en.wikipedia.org/wiki/Grammar#cite_note-1) The vast majority of the information in the grammar is -- at least in the case of one's [native language](https://en.wikipedia.org/wiki/First_language)--[acquired](https://en.wikipedia.org/wiki/Language_acquisition) not by conscious study or [instruction](https://en.wikipedia.org/wiki/Language_teaching) but by hearing other speakers. Much of this work is done during early childhood; learning a language later in life usually involves a greater degree of explicit instruction.[[2]](https://en.wikipedia.org/wiki/Grammar#cite_note-2) Thus, grammar is the cognitive information underlying language use.
 
@@ -128,7 +128,7 @@ Whataboutism, also known aswhataboutery, is a variant of the [tu quoque](https:/
 - Literature review / Research
   - <https://www.youtube.com/watch?v=t7PwqiiQmVM>
 - omnipotent and omnipresent
-- interobang (‽) (often represented by**?!**,**!?**,**?!?**or**!?!**)
+- interobang (‽) (often represented by**?!**, **!?**, **?!?**or**!?!**)
 - Intellectual dishonesty
 - Don't give me anecdotal evidence
 - **Nepotism**

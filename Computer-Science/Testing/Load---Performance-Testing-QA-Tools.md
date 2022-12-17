@@ -60,7 +60,7 @@ TheApache JMeter application is open source software. It is a pure Java applicat
 
 Gatling is a highly capable load testing tool. It is designed for ease of use, maintainability and high performance.
 
-## Gatlingis an open-source load and performance testing framework based on [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)),[Akka](https://en.wikipedia.org/wiki/Akka_(toolkit)) and [Netty](https://en.wikipedia.org/wiki/Netty_(software)). The first stable release was published on January 13, 2012. In 2015, Gatling's founder, Stéphane Landelle, created a company (named "Gatling Corp"), dedicated to the development of the open-source project. According to Gatling Corp's official blog, Gatling was downloaded more than 800,000 times (August 2017).[^[1]^](https://en.wikipedia.org/wiki/Gatling_(software)#cite_note-1) In June 2016, Gatling officially presented Gatling FrontLine, Gatling's Enterprise Version with additional features
+## Gatlingis an open-source load and performance testing framework based on [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)), [Akka](https://en.wikipedia.org/wiki/Akka_(toolkit)) and [Netty](https://en.wikipedia.org/wiki/Netty_(software)). The first stable release was published on January 13, 2012. In 2015, Gatling's founder, Stéphane Landelle, created a company (named "Gatling Corp"), dedicated to the development of the open-source project. According to Gatling Corp's official blog, Gatling was downloaded more than 800,000 times (August 2017).[^[1]^](https://en.wikipedia.org/wiki/Gatling_(software)#cite_note-1) In June 2016, Gatling officially presented Gatling FrontLine, Gatling's Enterprise Version with additional features
 
 <https://en.wikipedia.org/wiki/Gatling_(software)>
 

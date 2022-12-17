@@ -43,47 +43,47 @@ The following table summarizes the major differences between OLTP and OLAP syste
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Source of data</td>
 <td>Operational data; OLTPs are the original source of the data.</td>
 <td>Consolidation data; OLAP data comes from the various OLTP Databases</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Purpose of data</td>
 <td>To control and run fundamental business tasks</td>
 <td>To help with planning, problem solving, and decision support</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>What the data</td>
 <td>Reveals a snapshot of ongoing business processes</td>
 <td>Multi-dimensional views of various kinds of business activities</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Inserts and Updates</td>
 <td>Short and fast inserts and updates initiated by end users</td>
 <td>Periodic long-running batch jobs refresh the data</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Queries</td>
 <td>Relatively standardized and simple queries Returning relatively few records</td>
 <td>Often complex queries involving aggregations</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Processing Speed</td>
 <td>Typically very fast</td>
 <td>Depends on the amount of data involved; batch data refreshes and complex queries may take many hours; query speed can be improved by creating indexes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Space Requirements</td>
 <td>Can be relatively small if historical data is archived</td>
 <td>Larger due to the existence of aggregation structures and history data; requires more indexes than OLTP</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Database Design</td>
 <td>Highly normalized with many tables</td>
 <td>Typically de-normalized with fewer tables; use of star and/or snowflake schemas</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Backup and Recovery</td>
 <td>Backup religiously; operational data is critical to run the business, data loss is likely to entail significant monetary loss and legal liability</td>
 <td>Instead of regular backups, some environments may consider simply reloading the OLTP data as a recovery method</td>

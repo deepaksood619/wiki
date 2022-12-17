@@ -74,8 +74,8 @@ Serial schedules have less resource utilization and low throughput. To improve i
 - They operate on the same data item
 - At Least one of them is a write operation
 Example
-- **Conflicting**operations pair (R1(A), W2(A)) because they belong to two different transactions on same data item A and one of them is write operation.
-- Similarly, (W1(A), W2(A)) and (W1(A), R2(A)) pairs are also**conflicting**.
+- **Conflicting** operations pair (R1(A), W2(A)) because they belong to two different transactions on same data item A and one of them is write operation.
+- Similarly, (W1(A), W2(A)) and (W1(A), R2(A)) pairs are also **conflicting**.
 - On the other hand, (R1(A), W2(B)) pair is**non-conflicting**because they operate on different data item.
 - Similarly, ((W1(A), W2(B)) pair is**non-conflicting**.
 

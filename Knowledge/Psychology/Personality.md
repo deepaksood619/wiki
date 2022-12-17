@@ -134,7 +134,7 @@ Life is complex and full of change. To survive and thrive, one must adapt all th
 
 11. Self-aware
 
-Knowing what you can andcan't, will make your life a lot easier. Too often,[we're not aware of who we are](https://el2.convertkit-mail4.com/c/n4umv8ro7gsvhv4zd6f6/d0ueh0hw8wqzkv/aHR0cHM6Ly9kYXJpdXNmb3JvdXguY29tL3NlbGYtcmVsaWFuY2UtY2VydGFpbnR5Lw==). But to be effective, you must know who you are and what you're made of. And if you have weaknesses or make mistakes, self-awareness will help you to be honest about it. There's nothing wrong with imperfection. In fact, if you're not imperfect, you're probably a robot.
+Knowing what you can andcan't, will make your life a lot easier. Too often, [we're not aware of who we are](https://el2.convertkit-mail4.com/c/n4umv8ro7gsvhv4zd6f6/d0ueh0hw8wqzkv/aHR0cHM6Ly9kYXJpdXNmb3JvdXguY29tL3NlbGYtcmVsaWFuY2UtY2VydGFpbnR5Lw==). But to be effective, you must know who you are and what you're made of. And if you have weaknesses or make mistakes, self-awareness will help you to be honest about it. There's nothing wrong with imperfection. In fact, if you're not imperfect, you're probably a robot.
 
 12. Optimistic
 

@@ -22,7 +22,7 @@ At a high level, a DAG can be thought of as a container that holds tasks and the
 
 ## Operators,Sensors, and Tasks
 
-Although the DAG is used to organize tasks and set their execution context, DAGs do not perform any actual computation. Instead, **tasks** are the element of Airflow that actually "do the work" we want performed. Tasks can have two flavors: they can either execute some explicit operation, in which case they are an**Operator**, orthey can pause the execution of dependent tasks until some criterion has been met, in which case they are a **Sensor**.In principle, Operators can perform any function that can be executed in Python. Similarly, Sensors can check the state of any process or data structure.
+Although the DAG is used to organize tasks and set their execution context, DAGs do not perform any actual computation. Instead, **tasks** are the element of Airflow that actually "do the work" we want performed. Tasks can have two flavors: they can either execute some explicit operation, in which case they are an **Operator**, orthey can pause the execution of dependent tasks until some criterion has been met, in which case they are a **Sensor**.In principle, Operators can perform any function that can be executed in Python. Similarly, Sensors can check the state of any process or data structure.
 
 ## DagRuns and TaskInstances
 

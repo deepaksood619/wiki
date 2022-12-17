@@ -14,7 +14,7 @@ QUIC also combines the typical 3-way TCP handshake with [TLS 1.3](https://blog.c
 ![image](media/HTTP-3-QUIC-image1.png)
 
 But why not just use HTTP/2 on top of QUIC, instead of creating a whole new HTTP revision? After all, HTTP/2 also offers the stream multiplexing feature. As it turns out, it's somewhat more complicated than that.
-While it's true that some of the HTTP/2 features can be mapped on top of QUIC very easily, that's not true for all of them. One in particular,[HTTP/2's header compression scheme called HPACK](https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/), heavily depends on the order in which different HTTP requests and responses are delivered to the endpoints. QUIC enforces delivery order of bytes within single streams, but does not guarantee ordering among different streams.
+While it's true that some of the HTTP/2 features can be mapped on top of QUIC very easily, that's not true for all of them. One in particular, [HTTP/2's header compression scheme called HPACK](https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/), heavily depends on the order in which different HTTP requests and responses are delivered to the endpoints. QUIC enforces delivery order of bytes within single streams, but does not guarantee ordering among different streams.
 This behavior required the creation of a new HTTP header compression scheme, called QPACK, which fixes the problem but requires changes to the HTTP mapping. In addition, some of the features offered by HTTP/2 (like per-stream flow control) are already offered by QUIC itself, so they were dropped from HTTP/3 in order to remove unnecessary complexity from the protocol.
 QUIC Features
 

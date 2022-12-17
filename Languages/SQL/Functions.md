@@ -58,47 +58,47 @@ Modified: 2021-01-30 01:13:06 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_abs.asp"><strong>ABS</strong></a></td>
 <td><strong>Returns the absolute value of a number</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_acos.asp">ACOS</a></td>
 <td>Returns the arc cosine of a number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_asin.asp">ASIN</a></td>
 <td>Returns the arc sine of a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_atan.asp">ATAN</a></td>
 <td>Returns the arc tangent of one or two numbers</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_atan2.asp">ATAN2</a></td>
 <td>Returns the arc tangent of two numbers</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_avg.asp">AVG</a></td>
 <td>Returns the average value of an expression</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_ceil.asp"><strong>CEIL</strong></a></td>
-<td><strong>Returns the smallest integer value that is &gt;= to a number</strong></td>
+<td><strong>Returns the smallest integer value that is `>`= to a number</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_ceiling.asp">CEILING</a></td>
-<td>Returns the smallest integer value that is &gt;= to a number</td>
+<td>Returns the smallest integer value that is `>`= to a number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_cos.asp">COS</a></td>
 <td>Returns the cosine of a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_cot.asp">COT</a></td>
 <td>Returns the cotangent of a number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_count.asp">COUNT</a></td>
 <td><p>Returns the number of records returned by a select query</p>
 <ul class="incremental">
@@ -112,103 +112,103 @@ Modified: 2021-01-30 01:13:06 +0500
 <p><a href="https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable">https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable</a></p>
 </blockquote></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_degrees.asp">DEGREES</a></td>
 <td>Converts a value in radians to degrees</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_div.asp">DIV</a></td>
 <td>Used for integer division</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_exp.asp">EXP</a></td>
 <td>Returns e raised to the power of a specified number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_floor.asp">FLOOR</a></td>
-<td>Returns the largest integer value that is &lt;= to a number</td>
+<td>Returns the largest integer value that is `<`= to a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_greatest.asp">GREATEST</a></td>
 <td>Returns the greatest value of the list of arguments</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_least.asp">LEAST</a></td>
 <td>Returns the smallest value of the list of arguments</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_ln.asp">LN</a></td>
 <td>Returns the natural logarithm of a number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_log.asp">LOG</a></td>
 <td>Returns the natural logarithm of a number, or the logarithm of a number to a specified base</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_log10.asp">LOG10</a></td>
 <td>Returns the natural logarithm of a number to base 10</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_log2.asp">LOG2</a></td>
 <td>Returns the natural logarithm of a number to base 2</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_max.asp">MAX</a></td>
 <td>Returns the maximum value in a set of values</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_min.asp">MIN</a></td>
 <td>Returns the minimum value in a set of values</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_mod.asp">MOD</a></td>
 <td>Returns the remainder of a number divided by another number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_pi.asp">PI</a></td>
 <td>Returns the value of PI</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_pow.asp">POW</a></td>
 <td>Returns the value of a number raised to the power of another number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_power.asp">POWER</a></td>
 <td>Returns the value of a number raised to the power of another number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_radians.asp">RADIANS</a></td>
 <td>Converts a degree value into radians</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_rand.asp">RAND</a></td>
 <td>Returns a random number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_round.asp">ROUND</a></td>
 <td>Rounds a number to a specified number of decimal places</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_sign.asp">SIGN</a></td>
 <td>Returns the sign of a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_sin.asp">SIN</a></td>
 <td>Returns the sine of a number</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_sqrt.asp">SQRT</a></td>
 <td>Returns the square root of a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_sum.asp">SUM</a></td>
 <td>Calculates the sum of a set of values</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_tan.asp">TAN</a></td>
 <td>Returns the tangent of a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_truncate.asp">TRUNCATE</a></td>
 <td>Truncates a number to the specified number of decimal places</td>
 </tr>
@@ -288,82 +288,82 @@ select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_bin.asp">BIN</a></td>
 <td>Returns a binary representation of a number</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_binary.asp">BINARY</a></td>
 <td>Converts a value to a binary string</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_case.asp">CASE</a></td>
 <td>Goes through conditions and return a value when the first condition is met</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_cast.asp">CAST</a></td>
 <td>Converts a value (of any type) into a specified datatype</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_coalesce.asp"><strong>COALESCE</strong></a></td>
 <td><strong>Returns the first non-null value in a list</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_connection_id.asp">CONNECTION_ID</a></td>
 <td>Returns the unique connection ID for the current connection</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_conv.asp">CONV</a></td>
 <td>Converts a number from one numeric base system to another</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_convert.asp">CONVERT</a></td>
 <td>Converts a value into the specified datatype or character set</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_current_user.asp">CURRENT_USER</a></td>
 <td>Returns the user name and host name for the MySQL account that the server used to authenticate the current client</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_database.asp">DATABASE</a></td>
 <td>Returns the name of the current database</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_if.asp">IF</a></td>
 <td>Returns a value if a condition is TRUE, or another value if a condition is FALSE</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_ifnull.asp">IFNULL</a></td>
 <td>Return a specified value if the expression is NULL, otherwise return the expression</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_isnull.asp"><strong>ISNULL</strong></a></td>
 <td><p><strong>Returns 1 or 0 depending on whether an expression is NULL</strong></p>
 <blockquote>
 <p>To search for column values that areNULL, you cannot use anexpr = NULLtest. The following statement returns no rows, becauseexpr = NULLis never true for any expression:</p>
 </blockquote></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_last_insert_id.asp">LAST_INSERT_ID</a></td>
 <td>Returns the AUTO_INCREMENT id of the last row that has been inserted or updated in a table</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_nullif.asp">NULLIF</a></td>
 <td>Compares two expressions and returns NULL if they are equal. Otherwise, the first expression is returned</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_session_user.asp">SESSION_USER</a></td>
 <td>Returns the current MySQL user name and host name</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_system_user.asp">SYSTEM_USER</a></td>
 <td>Returns the current MySQL user name and host name</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_user.asp">USER</a></td>
 <td>Returns the current MySQL user name and host name</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_version.asp">VERSION</a></td>
 <td>Returns the current version of the MySQL database</td>
 </tr>

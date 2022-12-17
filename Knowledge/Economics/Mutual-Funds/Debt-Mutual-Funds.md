@@ -168,7 +168,7 @@ It is important for investors to understand that there is no escape from risk wh
         - Short-term gilts ~1-3Y if you want to avoid credit risk.
         - Income funds from solid bonds from banks and PSUs or a bit of corporate debt ~ 1-3Y is also okay.
 
-3. A fixed deposit is a wonderful product for investment durations less than 3 years. After all,[there is more to investing than obtaining real returns](https://freefincal.com/there-is-more-to-investing-than-obtaining-real-returns/)
+3. A fixed deposit is a wonderful product for investment durations less than 3 years. After all, [there is more to investing than obtaining real returns](https://freefincal.com/there-is-more-to-investing-than-obtaining-real-returns/)
 
 <https://freefincal.com/are-debt-mutual-funds-an-alternative-to-fixed-deposits>
 

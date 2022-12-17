@@ -162,7 +162,7 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 
 ## Relational vs Non-Relational Databases
 
-A**relational database**is one where data is stored in the form of a table. Each table has a**schema**, which is the columns and types a record is required to have. Each schema must have at least one primary key that uniquely identifies that record. In other words, there are no duplicate rows in your database. Moreover, each table can be related to other tables using foreign keys.
+A**relational database** is one where data is stored in the form of a table. Each table has a**schema**, which is the columns and types a record is required to have. Each schema must have at least one primary key that uniquely identifies that record. In other words, there are no duplicate rows in your database. Moreover, each table can be related to other tables using foreign keys.
 One important aspect of relational databases is that a change in a schema must be applied to all records. This can sometimes cause breakages and big headaches during migrations.**Non-relational databases**tackle things in a different way. They are inherently schema-less, which means that records can be saved with different schemas and with a different, nested structure. Records can still have primary keys, but a change in the schema is done on an entry-by-entry basis.
 <https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37>
 
@@ -272,7 +272,7 @@ Of course, in reality there is more work that CCSV would need to do to be a viab
 ## COMPRESSION IMPROVEMENTS
 
 Storing like-data together also has advantages for compression codecs. Many compression codecs (including GZIP and Snappy) have a higher compression-ratio when compressing sequences of similar data. By storing records column-by-column, in many cases each section of column data will contain similar values --- that makes it ripe for compression. In fact, each column could be compressed independently of the others to optimize this further.
-The final benefit is that compression and dense-packing in columnar databases free up space --- space that may be used to sort and index data within the columns. In other words,**columnar databases have higher sorting and indexing efficiency**, which comes more as a side benefit of having some leftover space from strong compression. It is also, in fact, mutually beneficial: researchers who study columnar databases point out that sorted data compress better than unsorted data, because sorting lowers entropy.
+The final benefit is that compression and dense-packing in columnar databases free up space --- space that may be used to sort and index data within the columns. In other words, **columnar databases have higher sorting and indexing efficiency**, which comes more as a side benefit of having some leftover space from strong compression. It is also, in fact, mutually beneficial: researchers who study columnar databases point out that sorted data compress better than unsorted data, because sorting lowers entropy.
 
 ## Negatives of Columnar Formats
 
@@ -303,7 +303,7 @@ The other downside, is that they are more CPU and ram intensive to write, as the
 
 ## In-Memory Databases (IMDB) and In-Memory Data Grids (IMDG)
 
-One of the crucial differences between In-Memory Data Grids and In-Memory Databases lies in the ability to scale to hundreds and thousands of servers. That is the In-Memory Data Grid's**inherent capability**for such scale due to their MPP (Massively Parallel Processing) architecture, and the In-Memory Database's**explicit inability**to scale due to fact that SQL joins, in general, cannot be efficiently performed in a distribution context.
+One of the crucial differences between In-Memory Data Grids and In-Memory Databases lies in the ability to scale to hundreds and thousands of servers. That is the In-Memory Data Grid's**inherent capability** for such scale due to their MPP (Massively Parallel Processing) architecture, and the In-Memory Database's**explicit inability** to scale due to fact that SQL joins, in general, cannot be efficiently performed in a distribution context.
 <https://www.gridgain.com/resources/blog/in-memory-database-vs-in-memory-data-grid-revisited>
 
 ## RDBMS**

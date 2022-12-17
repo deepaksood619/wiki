@@ -7,7 +7,7 @@ Modified: 2019-10-02 13:44:55 +0500
 ---
 
 1. [Circulatory system](https://en.wikipedia.org/wiki/Circulatory_system):
-    - Circulates [blood](https://en.wikipedia.org/wiki/Blood) around the body via the [heart](https://en.wikipedia.org/wiki/Human_heart),[arteries](https://en.wikipedia.org/wiki/Artery) and [veins](https://en.wikipedia.org/wiki/Vein), delivering [oxygen](https://en.wikipedia.org/wiki/Oxygen) and nutrients to organs and cells and carrying their waste products away.
+    - Circulates [blood](https://en.wikipedia.org/wiki/Blood) around the body via the [heart](https://en.wikipedia.org/wiki/Human_heart), [arteries](https://en.wikipedia.org/wiki/Artery) and [veins](https://en.wikipedia.org/wiki/Vein), delivering [oxygen](https://en.wikipedia.org/wiki/Oxygen) and nutrients to organs and cells and carrying their waste products away.
     - Equalizes temperature in the body
     - Platelets ensure that the blood can clot and heal over time, while red blood cells ensure that oxygen reaches vital organs.
 
@@ -19,7 +19,7 @@ Modified: 2019-10-02 13:44:55 +0500
     - Provides chemical communications within the body using [hormones](https://en.wikipedia.org/wiki/Hormone).
 
 4. [Integumentary system](https://en.wikipedia.org/wiki/Integumentary_system)/[Exocrine system](https://en.wikipedia.org/wiki/Exocrine_system):
-    - [Skin](https://en.wikipedia.org/wiki/Human_skin),[hair](https://en.wikipedia.org/wiki/Human_hair),[nails](https://en.wikipedia.org/wiki/Nail_(anatomy)),[sweat](https://en.wikipedia.org/wiki/Sweat_gland) and other [exocrine glands](https://en.wikipedia.org/wiki/Exocrine_gland).
+    - [Skin](https://en.wikipedia.org/wiki/Human_skin), [hair](https://en.wikipedia.org/wiki/Human_hair), [nails](https://en.wikipedia.org/wiki/Nail_(anatomy)), [sweat](https://en.wikipedia.org/wiki/Sweat_gland) and other [exocrine glands](https://en.wikipedia.org/wiki/Exocrine_gland).
 
 5. [Lymphatic system](https://en.wikipedia.org/wiki/Lymphatic_system)/[Immune system](https://en.wikipedia.org/wiki/Immune_system):
     - The system comprising a network of lymphatic vessels that carry a clear fluid called [lymph](https://en.wikipedia.org/wiki/Lymph).

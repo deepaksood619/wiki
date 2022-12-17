@@ -295,7 +295,7 @@ Describe the task you were responsible for in that situation.**Keep it specific 
 
 ## Action
 
-This is the part where you**describe exactly what you did**. How did you complete the task you were assigned? Remember to focus on what you did and highlight traits (qualities) that a hiring manager will find desirable (initiative,[teamwork](https://theinterviewguys.com/teamwork-interview-questions/), leadership, dedication, etc.)
+This is the part where you**describe exactly what you did**. How did you complete the task you were assigned? Remember to focus on what you did and highlight traits (qualities) that a hiring manager will find desirable (initiative, [teamwork](https://theinterviewguys.com/teamwork-interview-questions/), leadership, dedication, etc.)
 
 Result:
 

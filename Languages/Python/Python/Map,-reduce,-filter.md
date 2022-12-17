@@ -22,7 +22,7 @@ Fahrenheit = map(lambda x: (float(9)/5)*x + 32, Celsius)
 
 ## Filter
 
-The function filter(function, list) offers an elegant way to filter out all the elements of a list, for which the function*function*returns True.
+The function filter(function, list) offers an elegant way to filter out all the elements of a list, for which the function *function*returns True.
 
 The function filter(f,l) needs a function f as its first argument. f returns a Boolean value, i.e. either True or False. This function will be applied to every element of the list*l*. Only if f returns True will the element of the list be included in the result list.
 

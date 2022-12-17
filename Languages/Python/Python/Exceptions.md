@@ -86,7 +86,7 @@ self.message_user(request, **"RequestException"**, level=messages.ERROR)
 
 logger.error(**'RequestException'**, errr)
 
-## except**Exception**as e
+## except **Exception** as e
 
 self.message_user(request, **"Exceptionoccurred,contactadmin"**, level=messages.ERROR)
 

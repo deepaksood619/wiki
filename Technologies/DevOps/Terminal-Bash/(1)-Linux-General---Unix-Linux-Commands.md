@@ -230,7 +230,7 @@ python test_de_script.py de_run_final.csv 2>&1 | tee -a outfile.log
 
 ## Wildcards and Help
 
-  - * //match any number of characters
+- * //match any number of characters
 - ? //match one character
 - man "command" //read the online manual page for a command
 - whatis "command" //brief description of a command
@@ -288,7 +288,7 @@ File permissions is displayed as following;
 
 ## lsof is a command meaning "list open files", which is used in many [Unix-like](https://en.m.wikipedia.org/wiki/Unix-like) systems to report a list of all open files and the processes that opened them
 
-Open files in the system include disk files,[named pipes](https://en.wikipedia.org/wiki/Named_pipe), network [sockets](https://en.wikipedia.org/wiki/Internet_socket) and devices opened by all processes. One use for this command is when a disk cannot be unmounted because (unspecified) files are in use. The listing of open files can be consulted (suitably filtered if necessary) to identify the process that is using the files.
+Open files in the system include disk files, [named pipes](https://en.wikipedia.org/wiki/Named_pipe), network [sockets](https://en.wikipedia.org/wiki/Internet_socket) and devices opened by all processes. One use for this command is when a disk cannot be unmounted because (unspecified) files are in use. The listing of open files can be consulted (suitably filtered if necessary) to identify the process that is using the files.
 
 ## see open ports
 
@@ -348,7 +348,7 @@ Here 68 is 'h' in ASCII and 69 is 'i' in ASCII
 
 ## Source
 
-[source](http://ss64.com/bash/source.html) is a bash shell built-in command that executes the content of the file passed as argument,***in the current shell***. It has a synonym in.(period).
+[source](http://ss64.com/bash/source.html) is a bash shell built-in command that executes the content of the file passed as argument, ***in the current shell***. It has a synonym in.(period).
 
 ## source ~/.bash_profile
 
@@ -640,8 +640,8 @@ ps aux / auxf (tree view)
 ps aux --sort=-%mem
 
 - **Theaoption** tellspsthe display the processes of all users, with except those processes that not associated with a terminal and processes of group leaders.
-- **Theu**stands for a user-oriented format which provides detailed information about the processes.
-- **Thex**option will casepsto list the processes without a controlling terminal. Those are mainly processes that are started on boot time and running in the background.
+- **Theu** stands for a user-oriented format which provides detailed information about the processes.
+- **Thex** option will casepsto list the processes without a controlling terminal. Those are mainly processes that are started on boot time and running in the background.
 
 - **PID-** The process ID. In most situations when running thepscommand the most important information the user is looking for is the process PID. Knowing the PID allows you to kill a malfunctioning process.
 - **TTY-** The name of the controlling terminal for the process.
@@ -727,7 +727,7 @@ du -sh file_path
 
 ## Explanation
 
-- du(**d**isc**u**sage) command estimates file_path space usage
+- du(**d** isc**u** sage) command estimates file_path space usage
 - The options-share (fromman du):
     -s, --summarize
     display only a total for each argument

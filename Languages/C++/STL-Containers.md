@@ -33,7 +33,7 @@ Instead, vector containers may allocate some extra storage to accommodate for po
 
 Therefore, compared to arrays, vectors consume more memory in exchange for the ability to manage storage and grow dynamically in an efficient way.
 
-Compared to the other dynamic sequence containers ([deques](http://www.cplusplus.com/deque),[lists](http://www.cplusplus.com/list) and [forward_lists](http://www.cplusplus.com/forward_list)), vectors are very efficient accessing its elements (just like arrays) and relatively efficient adding or removing elements from its [end](http://www.cplusplus.com/vector::end). For operations that involve inserting or removing elements at positions other than the end, they perform worse than the others, and have less consistent iterators and references than [lists](http://www.cplusplus.com/list) and [forward_lists](http://www.cplusplus.com/forward_list).
+Compared to the other dynamic sequence containers ([deques](http://www.cplusplus.com/deque), [lists](http://www.cplusplus.com/list) and [forward_lists](http://www.cplusplus.com/forward_list)), vectors are very efficient accessing its elements (just like arrays) and relatively efficient adding or removing elements from its [end](http://www.cplusplus.com/vector::end). For operations that involve inserting or removing elements at positions other than the end, they perform worse than the others, and have less consistent iterators and references than [lists](http://www.cplusplus.com/list) and [forward_lists](http://www.cplusplus.com/forward_list).
 
 Vector constructors
 Vector operators

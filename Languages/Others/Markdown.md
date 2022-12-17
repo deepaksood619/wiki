@@ -106,39 +106,39 @@ Markdown allows you to use backslash escapes to generate literal characters whic
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>`</td>
 <td>Backtick</td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>Asterisk</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>_</td>
 <td>Underscore</td>
 </tr>
-<tr class="even">
+<tr>
 <td>{}</td>
 <td>Curly braces</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>[]</td>
 <td>Square brackes</td>
 </tr>
-<tr class="even">
+<tr>
 <td>()</td>
 <td>Parentheses</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>#</td>
 <td>Hash mark</td>
 </tr>
-<tr class="even">
+<tr>
 <td>+</td>
 <td>Plus sign</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><ul class="incremental">
 <li><blockquote>
 <p></p>
@@ -146,11 +146,11 @@ Markdown allows you to use backslash escapes to generate literal characters whic
 </ul></td>
 <td>Minus sign (hyphen)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>.</td>
 <td>Dot</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>!</td>
 <td>Exclamation mark</td>
 </tr>

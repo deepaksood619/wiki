@@ -236,6 +236,6 @@ Strapi.io is the most advanced Node.js content management framework. It comprise
 
 - **ActionHero**
 
-ActionHero is a multi-transport API Server with integrated cluster capabilities and delayed tasks. The goal of actionhero is to create an easy-to-use toolkit for makingreusable&scalableAPIs for HTTP, WebSockets, and more. Clients connected to an actionhero server can [consume the api](https://www.actionherojs.com/tutorials/actions),[consume static content](https://www.actionherojs.com/tutorials/file-server), and [communicate with each other](https://www.actionherojs.com/tutorials/chat). ActionHero is cluster-ready, with built in support for background tasks, 0-downtime deploys, and more. ActionHero provides a simple Async/Await API for managing every type of connection and background task.
+ActionHero is a multi-transport API Server with integrated cluster capabilities and delayed tasks. The goal of actionhero is to create an easy-to-use toolkit for makingreusable&scalableAPIs for HTTP, WebSockets, and more. Clients connected to an actionhero server can [consume the api](https://www.actionherojs.com/tutorials/actions), [consume static content](https://www.actionherojs.com/tutorials/file-server), and [communicate with each other](https://www.actionherojs.com/tutorials/chat). ActionHero is cluster-ready, with built in support for background tasks, 0-downtime deploys, and more. ActionHero provides a simple Async/Await API for managing every type of connection and background task.
 
 <https://github.com/actionhero/actionhero>

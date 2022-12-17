@@ -8,10 +8,10 @@ Modified: 2021-11-25 13:31:50 +0500
 
 ## Testing Vocabulary
 
-- The**units**we are testing in the section above are functions ---fibandnext_collatz_element.
+- The **units** we are testing in the section above are functions ---fibandnext_collatz_element.
 - We have 5**unit tests**; all of them intest_math_functions.py: Thetest_* functions.
 - Thepytestcommand-line executable is called a**test runner**. It executes (runs) the tests.
-- A**test suite**is an arbitrary collection of tests. Usually, you mean all tests.
+- A**test suite** is an arbitrary collection of tests. Usually, you mean all tests.
 
 ## Why do we test at all?
 

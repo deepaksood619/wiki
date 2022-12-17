@@ -6,7 +6,7 @@ Modified: 2020-05-11 13:04:19 +0500
 
 ---
 
-A Kubernetes**Service**is an abstraction which defines a logical set of**Pods**and a policy by which to access them - sometimes called a micro-service.
+A Kubernetes **Service** is an abstraction which defines a logical set of **Pods** and a policy by which to access them - sometimes called a micro-service.
 
 Remember that Pods are not durable. When a Pod dies, the ReplicaSet creates a new Pod instance. The new Pod's IP address differs from the old Pod's IP address. Therefore services are used. A service gets its own stable IP address, a stable DNS name and a stable port. Services provide service discovery, load-balancing, and features to support zero-downtime deployments.
 
@@ -29,7 +29,7 @@ Kubernetes provides two types of Services.
     - An ExternalName Service is a special case of Service that does not have selectors and uses DNS names instead.
     - When looking up the hostmy-service.prod.svc.cluster.local, the cluster DNS Service returns aCNAMErecord with the valuemy.database.example.com. Accessingmy-serviceworks in the same way as other Services but with the crucial difference that redirection happens at the DNS level rather than via proxying or forwarding. Should you later decide to **move your database into your cluster**, you can start its Pods, add appropriate selectors or endpoints, and change the Service'stype.
 
-For Kubernetes-native applications, Kubernetes offers a simple**Endpoints**API that is updated whenever the set of**Pods**in a**Service**changes. For non-native applications, Kubernetes offers a virtual-IP-based bridge to Services which redirects to the backend**Pods**.
+For Kubernetes-native applications, Kubernetes offers a simple **Endpoints** API that is updated whenever the set of **Pods** in a**Service** changes. For non-native applications, Kubernetes offers a virtual-IP-based bridge to Services which redirects to the backend **Pods**.
 
 ## Headless services
 

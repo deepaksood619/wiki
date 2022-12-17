@@ -20,7 +20,7 @@ While a hardware appliance can limit the rate for a given range of IP-addresses 
 ## Web servers
 
 [Web servers](https://en.wikipedia.org/wiki/Web_server) typically use a central [in-memory](https://en.wikipedia.org/wiki/In-memory_database)[key-value database](https://en.wikipedia.org/wiki/Key-value_database), like [Redis](https://en.wikipedia.org/wiki/Redis) or [Aerospike](https://en.wikipedia.org/wiki/Aerospike_(database)), for session management. A rate limiting algorithm is used to check if the user session (or IP-address) has to be limited based on the information in the session cache.
-In case a client made too many requests within a given timeframe,[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)-Servers can respond with status code [429: Too Many Requests](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#429_Too_Many_Requests).
+In case a client made too many requests within a given timeframe, [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)-Servers can respond with status code [429: Too Many Requests](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#429_Too_Many_Requests).
 However, the session management and rate limiting algorithm usually must be built into the application running on the web server, rather than the web server itself.
 
 ## Datacenters

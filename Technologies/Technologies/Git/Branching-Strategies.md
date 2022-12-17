@@ -77,7 +77,7 @@ Hotfix branches should be created from master since that branch reflects the las
 
 If there's a critical bug in production that needs to be fixed immediately, it would be a major disaster for the development team to have to roll back all the work accrued in the main branch thus far just to deploy the fix. And deploying code without proper testing---whether the code is considered half-baked or well-developed---is clearly not an option.
 
-That's where branching models shine, including Git flow. Any sophisticated branching model should answer questions regarding how to**isolate**the next release from the version of the system currently used by people, how to**update**that version with the next release, and how to**introduce hotfixes**of any critical bugs to the current version.
+That's where branching models shine, including Git flow. Any sophisticated branching model should answer questions regarding how to **isolate** the next release from the version of the system currently used by people, how to **update** that version with the next release, and how to**introduce hotfixes** of any critical bugs to the current version.
 
 The Git flow process addresses these fundamental scenarios by separating "main" (the production or "current version" branch) and "develop" (the development or "next release" branch) and providing all the rules about using feature/release/hotfix branches. It effectively solves a lot of headaches from the development workflows of release-based products.
 

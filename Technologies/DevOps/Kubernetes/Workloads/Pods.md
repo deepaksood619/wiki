@@ -59,7 +59,7 @@ Some examples of Controllers that contain one or more pods include:
 
 ## Pod Template
 
-Pod templates are pod specifications which are included in other objects, such as [Replication Controllers](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/),[Jobs](https://kubernetes.io/docs/concepts/jobs/run-to-completion-finite-workloads/), and [DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). Controllers use Pod Templates to make actual pods.
+Pod templates are pod specifications which are included in other objects, such as [Replication Controllers](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/), [Jobs](https://kubernetes.io/docs/concepts/jobs/run-to-completion-finite-workloads/), and [DaemonSets](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). Controllers use Pod Templates to make actual pods.
 
 ## Init Containers
 
@@ -72,7 +72,7 @@ Init Containers are exactly like regular Containers, except:
 
 ## Pod Presets
 
-A**Pod Preset**is an API resource for injecting additional runtime requirements into a Pod at creation time.
+A**Pod Preset** is an API resource for injecting additional runtime requirements into a Pod at creation time.
 
 ## Ephemeral Containers
 

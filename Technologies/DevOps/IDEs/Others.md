@@ -108,56 +108,56 @@ Presstin any repository to access it and start typing the name of the file you w
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Specify the sender</td>
 <td><p>from:</p>
 <p>Example:from:amy</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Specify a recipient</td>
 <td><p>to:</p>
 <p>Example:to:david</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Specify a recipient who received a copy</td>
 <td><p>cc:</p>
 <p>bcc:</p>
 <p>Example:cc:david</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Words in the subject line</td>
 <td><p>subject:</p>
 <p>Example:subject:dinner</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages that match multiple terms</td>
 <td><p>ORor{ }</p>
 <p>Example:from:amy OR from:david</p>
 <p>Example:{from:amy from:david}</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Remove messages from your results</td>
 <td><p>-</p>
 <p>Example:dinner -movie</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>Find messages with words near each other. Use the number to say how many words apart the words can be</p>
 <p>Add quotes to find messages in which the word you put first stays first.</p></td>
 <td><p>AROUND</p>
 <p>Example:holiday AROUND 10 vacation</p>
 <p>Example:"secret AROUND 25 birthday"</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Messages that have a certain label</td>
 <td><p>label:</p>
 <p>Example:label:friends</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages that have an attachment</td>
 <td><p>has:attachment</p>
 <p>Example:has:attachment</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Messages that have a Google Drive, Docs, Sheets, or Slides attachment or link</td>
 <td><p>has:drive</p>
 <p>has:document</p>
@@ -165,45 +165,45 @@ Presstin any repository to access it and start typing the name of the file you w
 <p>has:presentation</p>
 <p>Example:has:drive</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages that have a YouTube video</td>
 <td><p>has:youtube</p>
 <p>Example:has:youtube</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Messages from a mailing list</td>
 <td><p>list:</p>
 <p>Example:list:info@example.com</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Attachments with a certain name or file type</td>
 <td><p>filename:</p>
 <p>Example:filename:pdf</p>
 <p>Example:filename:homework.txt</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Search for an exact word or phrase</td>
 <td><p>" "</p>
 <p>Example:"dinner and movie tonight"</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Group multiple search terms together</td>
 <td><p>( )</p>
 <p>Example:subject:(dinner movie)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Messages in any folder, including Spam and Trash</td>
 <td><p>in:anywhere</p>
 <p>Example:in:anywhere movie</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Search for messages that are marked as<a href="https://support.google.com/mail/answer/186543">important</a></td>
 <td><p>is:important</p>
 <p>label:important</p>
 <p>Example:is:important</p>
 <p></p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Starred, snoozed, unread, or read messages</td>
 <td><p>is:starred</p>
 <p>is:snoozed</p>
@@ -211,20 +211,20 @@ Presstin any repository to access it and start typing the name of the file you w
 <p>is:read</p>
 <p>Example:is:read is:starred</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages that include an icon of a certain color</td>
 <td><p>has:yellow-star</p>
 <p>has:blue-info</p>
 <p>Example:has:purple-star</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Recipients in the cc or bcc field</td>
 <td><p>cc:</p>
 <p>bcc:</p>
 <p>Example:cc:david</p>
 <p>Note:You can't find messages that you received on bcc.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Search for messages sent during a certain time period</td>
 <td><p>after:</p>
 <p>before:</p>
@@ -235,23 +235,23 @@ Presstin any repository to access it and start typing the name of the file you w
 <p>Example:before:2004/18/04</p>
 <p>Example:before:04/18/2004</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Search for messages older or newer than a time period using d (day), m (month), and y (year)</td>
 <td><p>older_than:</p>
 <p>newer_than:</p>
 <p>Example:newer_than:2d</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Chat messages</td>
 <td><p>is:chat</p>
 <p>Example:is:chat movie</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Search by email for delivered messages</td>
 <td><p>deliveredto:</p>
 <p>Example:deliveredto:username@gmail.com</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages in a certain category</td>
 <td><p>category:primary</p>
 <p>category:social</p>
@@ -262,28 +262,28 @@ Presstin any repository to access it and start typing the name of the file you w
 <p>category:purchases</p>
 <p>Example:category:updates</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Messages larger than a certain size in bytes</td>
 <td><p>size:</p>
 <p>Example:size:1000000</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages larger or smaller than a certain size in bytes</td>
 <td><p>larger:</p>
 <p>smaller:</p>
 <p>Example:larger:10M</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Results that match a word exactly</td>
 <td><p>+</p>
 <p>Example:+unicorn</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Messages with a certain message-id header</td>
 <td><p>Rfc822msgid:</p>
 <p>Example:rfc822msgid:200503292@example.com</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Messages that have or don't have a label</td>
 <td><p>has:userlabels</p>
 <p>has:nouserlabels</p>

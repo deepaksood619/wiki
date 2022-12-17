@@ -39,7 +39,7 @@ Hono specifically supports scalable and secure ingestion of large volumes of sen
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><ol class="incremental" type="1">
 <li><p>Open Source</p></li>
 <li><p>Broker which supports multiple protocols (provided use a motivation to do the same easily)</p></li>

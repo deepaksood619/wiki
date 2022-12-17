@@ -18,7 +18,7 @@ Tornado is a Python web framework and asynchronous networking library. By using 
 
 The StartSmall, FinishBigStayFinishedFramework
 
-Pyramid makes it easy to write web applications. You can**start small**with this "hello world" minimal request/response web app. This may take you far, especially while learning. As your application grows, Pyramid offers many features that make writing complex software take less effort.
+Pyramid makes it easy to write web applications. You can**start small** with this "hello world" minimal request/response web app. This may take you far, especially while learning. As your application grows, Pyramid offers many features that make writing complex software take less effort.
 
 <https://trypyramid.com>
 

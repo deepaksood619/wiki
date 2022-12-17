@@ -17,37 +17,40 @@ Modified: 2021-12-27 20:08:20 +0500
 
 ## ModelAdmin objects
 
-The**ModelAdmin**class is the representation of a model in the admin interface. Usually, these are stored in a file named**admin.py**in your application.
+The **ModelAdmin** class is the representation of a model in the admin interface. Usually, these are stored in a file named **admin.py** in your application.
 
 Register decorator
 
+```python
 @admin.register(Author)
+```
 
 list_display is used to show columns of data in list page
 
+```python
 list_display = {'Issue', 'Date', 'clean'}
+```
 
 fieldsets is used to show the fields that must be shown in detail page
 
+```python
 fieldsets = {}
+```
 
-## classTicketAdmin(admin.ModelAdmin)
+```python
+classTicketAdmin(admin.ModelAdmin):
+ list_display=('ticket_number','issue','device','status')
+ list_editable = ('is_finished',)
+ list_filter=('status',)
 
-list_display=(**'ticket_number'**,**'issue'**,**'device'**,**'status'**)
+ readonly_fields=('ticket_number','ticket_id','issue','device','status')
 
-## list_editable = ('is_finished',)
+ def has_add_permission(self,request):
+  return False
 
-list_filter=(**'status'**,)
-
-readonly_fields=(**'ticket_number'**,**'ticket_id'**,**'issue'**,**'device'**,**'status'**)
-
-## def has_add_permission(self,request)
-
-## returnFalse
-
-## def has_delete_permission(self,request,obj=None)
-
-## returnFalse
+ def has_delete_permission(self,request,obj=None):
+    return False
+```
 
 ## Overriding the fieldsets that are shown in django admin panel
 
@@ -55,81 +58,60 @@ We can override the fields that are shown when a user opens the django admin pan
 
 Ex -
 
-fieldsets=(
-
-(None,{**'fields'**:(
-
-## 'client_name'**,**'display_name'**,**'unique_id'**,**'customer'**,**'campus_name'**,**'source_name'**,**'metadata'
-
-## 'is_public'
-
-## 'subscription_key'**,**'archiver_address'**,**'archiver_port'**,**'database_address'**,**'database_port'
-
-## 'url_conf'**,**'mail_signature'**,**'latitude'**,**'longitude'**,**'order'**,**'excluded_issues'
-
-## 'site_disabled'**,**'working_days'**,**'street_address'**,**'city'**,**'state'**,**'country'**,**'zipcode')},)
-
-(**'OtherDetails'**,
-
-{**'fields'**:((**'office_start_time'**,**'office_end_time'**,**'number_of_workstations'**,**'type_of_workstation'**),
-
-(**'billing_type'**,**'billing_cycle'**,**'sanctioned_load'**,**'dg_test_frequency'**),
-
-(**'total_floors'**,**'total_carpet_area'**,**'occupancy'**,**'total_ahu'**))}),
-
+```python
+ fieldsets=(
+  (None,{'fields':(
+  'client_name','display_name','unique_id','customer','campus_name','source_name','metadata',
+  'is_public',
+  'subscription_key','archiver_address','archiver_port','database_address','database_port',
+  'url_conf','mail_signature','latitude','longitude','order','excluded_issues',
+  'site_disabled','working_days','street_address','city','state','country','zipcode')},),
+  ('OtherDetails',
+  {'fields':(('office_start_time','office_end_time','number_of_workstations','type_of_workstation'),
+  ('billing_type','billing_cycle','sanctioned_load','dg_test_frequency'),
+  ('total_floors','total_carpet_area','occupancy','total_ahu'))}),
 )
+```
 
 ![image](media/Admin-site-image1.png)
 
 Here notice the different sections and also the sub-sections in the "Other Details" section.
 
-Now we can also override the admin fields to show according to the user who is logged in, by overriding function get_fieldsets(self, request, obj=None) and returning the fieldsets accordingly.
+Now we can also override the admin fields to show according to the user who is logged in, by overriding `function get_fieldsets(self, request, obj=None)` and returning the fieldsets accordingly.
 
 Ex -
 
-## def get_fieldsets(self,request,obj=None)
+```python
+def get_fieldsets(self,request,obj=None):
+  client_id=request.session.get('client_id',None)
 
-client_id=request.session.get(**'client_id'**,None)
-
-*#if request is from frontend, dont show some of the fields*
-
-## if**client_id**is not None
-
-## return self.fieldsets
-
-## else
-
-## if request.user.is_superuser
-
-## return self.fieldsets
-
-## else
-
-## return self.tester_fieldsets
-
+  #if request is from frontend, dont show some of the fields
+  if client_id is not None:
+    return self.fieldsets
+  else:
+    if request.user.is_superuser:
+      return self.fieldsets
+    else:
+      return self.tester_fieldsets
 and,
-
 tester_fieldsets=(
-
-(None,{**'fields'**:(**'campus_name'**,**'display_name'**,**'customer'**)},),
-
+  (None,{'fields':('campus_name','display_name','customer')},),
 )
+```
 
 ## ModelAdmin.get_queryset(request)
 
-The**get_queryset**method on a**ModelAdmin**returns a [**QuerySet**](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet) of all model instances that can be edited by the admin site. One use case for overriding this method is to show objects owned by the logged-in user:
+The **get_queryset** method on a **ModelAdmin** returns a [**QuerySet**](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#django.db.models.query.QuerySet) of all model instances that can be edited by the admin site. One use case for overriding this method is to show objects owned by the logged-in user:
 
-## class MyModelAdmin(admin.ModelAdmin)
+```python
+ class MyModelAdmin(admin.ModelAdmin):
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        if request.user.is_superuser:
+            return qs
+        return qs.filter(author=request.user)
 
-## def get_queryset(self, request)
-
-qs = super().get_queryset(request)
-
-## if request.user.is_superuser
-
-## return qs
-
-## return qs.filter(author=request.user)
+```
 
 ## Admin Actions
 
@@ -161,7 +143,7 @@ A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personaliz
 
 <https://appseed.us/admin-dashboards/django-datta-able>
 
-## React admin - <https://github.com/marmelab/react-admin>
+React admin - <https://github.com/marmelab/react-admin>
 
 ## Django Open Source projects
 

@@ -95,50 +95,50 @@ Investing ensures financial security, and the Stock market plays a pivotal role 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Credit Rating Agency (CRA)</td>
 <td><strong>CRISIL, ICRA, CARE</strong></td>
 <td>They rate the credit worthiness of corporate and governments</td>
 <td>If a corporate or Govt entity wants to avail loan, CRA checks if the entity is worthy of giving a loan</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Debenture Trustees</td>
 <td>Almost all banks in India</td>
 <td>Act as a trustee to corporate debenture</td>
 <td>When companies want to raise a loan they can issue debenture against which they promise to pay an interest. These debentures can be subscribed by public. A Debenture Trustee ensures that the debenture obligation is honored</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Depositories</td>
 <td>NSDL and CDSL</td>
 <td>Safekeeping, reporting and settlement of clients securities</td>
 <td>Acts like a vault for the shares that you buy. The depositories hold your shares and facilitate exchange of your securities. When you buy shares these shares sit in your Depositary account usually referred to as the DEMAT account. This is maintained electronically by only two companies in India</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Depositary Participant (DP)</td>
 <td>Most of the banks and few stock brokers</td>
 <td>Act as an agent to the two depositories</td>
 <td>You cannot directly interact with NSDL or CDSL. You need to liaison with a DP to open and maintain your DEMAT account</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Foreign Institutional Investors</td>
 <td>Foreign corporate, funds and individuals</td>
 <td>Make investments in India</td>
 <td>These are foreign entities with an interest to invest in India. They usually transact in large amounts of money, and hence their activity in the markets have an impact in terms of market sentiment</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Merchant Bankers</td>
 <td>Karvy, Axis Bank, Edelweiss Capital</td>
 <td>Help companies raise money in the primary markets</td>
 <td>If a company plans to raise money by floating an IPO, then merchant bankers are the ones who help companies with the IPO process</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>Asset Management Companies</p>
 <p>(AMC)</p></td>
 <td>HDFC AMC, Reliance Capital, SBI Capital</td>
 <td>Offer Mutual Fund Schemes</td>
 <td>An AMC collects money from the public, puts that money in a single account and then invests that money in markets with an objective of making the investments grow and thereby generate wealth to its investors.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>Portfolio Managers/</p>
 <p>Portfolio Management System</p>
 <p>(PMS)</p></td>
@@ -146,7 +146,7 @@ Investing ensures financial security, and the Stock market plays a pivotal role 
 <td>Offer PMS schemes</td>
 <td>They work similarly to a mutual fund except in a PMS you have to invest a minimum of Rs.25,00,000 however there is no such cap in a mutual fund</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Stock Brokers and Sub Brokers</td>
 <td>Zerodha, Sharekhan, ICICI Direct</td>
 <td>Act as a intermediary between an investor and the stock exchange</td>
@@ -470,7 +470,7 @@ stop loss order
 
 OHLC stands for open, high, low and close. We will understand more about this in the technical analysis module. For now, open is the price at which the stock opens for the day, high is the highest price at which the stock trade during the day, low is the lowest price at which the stock trades during the day and the close is the closing price of the stock. For example, the OHLC of ACC on 17th June 2014 was 1486, 1511, 1467 and 1499.
 
-The **Last tradedprice(LTP)** usually differs from the**closing price**of the day. This because theclosing priceof the day on NSE is the weighted averagepriceof the last 30 mins of trading. Last tradedpriceof the day is the actual last tradedprice.
+The **Last tradedprice(LTP)** usually differs from the**closing price** of the day. This because theclosing priceof the day on NSE is the weighted averagepriceof the last 30 mins of trading. Last tradedpriceof the day is the actual last tradedprice.
 
 ## Gap up opening
 
@@ -490,7 +490,7 @@ Aglobal depository receipt(GDRand sometimes spelleddepositary) is a general name
 
 Prices of global depositary receipt are based on the values of related shares, but they are traded and settled independently of the underlying share. Typically, 1 GDR is equal to 10 underlying shares, but any ratio can be used. It is a [negotiable instrument](https://en.wikipedia.org/wiki/Negotiable_instrument) which is denominated in some freely convertible currency.GDRs enable a company, the issuer, to access investors in [capital markets](https://en.wikipedia.org/wiki/Capital_market) outside of its home country.
 
-Several international banks issue GDRs, such as [JPMorgan Chase](https://en.wikipedia.org/wiki/JPMorgan_Chase),[Citigroup](https://en.wikipedia.org/wiki/Citigroup),[Deutsche Bank](https://en.wikipedia.org/wiki/Deutsche_Bank),[The Bank of New York Mellon](https://en.wikipedia.org/wiki/The_Bank_of_New_York_Mellon). GDRs are often listed in the [Frankfurt Stock Exchange](https://en.wikipedia.org/wiki/Frankfurt_Stock_Exchange),[Luxembourg Stock Exchange](https://en.wikipedia.org/wiki/Luxembourg_Stock_Exchange), and the [London Stock Exchange](https://en.wikipedia.org/wiki/London_Stock_Exchange), where they are traded on the International Order Book (IOB).
+Several international banks issue GDRs, such as [JPMorgan Chase](https://en.wikipedia.org/wiki/JPMorgan_Chase), [Citigroup](https://en.wikipedia.org/wiki/Citigroup), [Deutsche Bank](https://en.wikipedia.org/wiki/Deutsche_Bank), [The Bank of New York Mellon](https://en.wikipedia.org/wiki/The_Bank_of_New_York_Mellon). GDRs are often listed in the [Frankfurt Stock Exchange](https://en.wikipedia.org/wiki/Frankfurt_Stock_Exchange), [Luxembourg Stock Exchange](https://en.wikipedia.org/wiki/Luxembourg_Stock_Exchange), and the [London Stock Exchange](https://en.wikipedia.org/wiki/London_Stock_Exchange), where they are traded on the International Order Book (IOB).
 
 <https://en.wikipedia.org/wiki/Global_depository_receipt>
 
@@ -568,57 +568,57 @@ A binary option is a financial product where the buyer receives a payout or lose
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>capital loss</strong></td>
 <td>a negative return on an investment resulting from the sale price of a security being lower than the purchase price</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>Employee Stock Purchase Plan (ESPP)</strong></td>
 <td>a type of stock plan that allows employees to purchase shares of company stock via accumulated payroll deductions, sometimes at a discount</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>holding period</strong></td>
 <td>this refers to the amount of time that stocks or options must be held before they can be sold or exercised; the holding period requirements are described in the plan documents</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>in the money</strong></td>
 <td>a stock option is "in the money" when the current market price of your company stock is above the grant price</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>out of the money</strong></td>
 <td>a stock option is "out of the money" or "under water" when its grant price is above the current market price</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>positions</strong></td>
 <td>refers to the stock you hold in your account for a particular company; for example, if you hold stock in 2 different companies within your account, you have "2 positions"</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>restricted stock award (RSA)</strong></td>
 <td>a grant of company stock in which your rights to the stocks are restricted until the award vests, also known as a lapse in restrictions; once the shares vest, they are deposited into your Fidelity Account®and are yours to hold, sell, or transfer</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>restricted stock unit (RSU)</strong></td>
 <td><p>a grant valued in terms of company stock that is restricted until the award vests; after the vesting requirement is satisfied, your company distributes shares or the cash equivalent</p>
 <p></p>
 <p><a href="https://www.investopedia.com/terms/r/restricted-stock-unit.asp">https://www.investopedia.com/terms/r/restricted-stock-unit.asp</a></p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>stock appreciation right (SAR)</strong></td>
 <td>an award that provides the holder with the ability to profit from the appreciation in value of a set number of shares of company stock over a set period of time</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>stock swap</strong></td>
 <td>a form of stock option exercise in which you exercise your option to acquire shares of your company stock by exchanging shares of a stock you currently own instead of cash to pay the exercise cost</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>stop order</strong></td>
 <td>stop orders are generally used to protect a profit or to prevent further loss if the price of a security moves against you; they can also be used to establish a position in a security if it reaches a certain price threshold or to close a short position; not all securities or trading sessions (pre- and post-market) are eligible for stop orders</td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>vesting</strong></td>
 <td>this refers to when the participant has earned the right of ownership and the options or restricted stock becomes available to sell; vesting occurs after your company-designated time frame is met (also known as a vesting schedule)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>vesting schedule</strong></td>
 <td>the schedule of when, and to what extent, awards become available based on periods of time (options and restricted stock)</td>
 </tr>

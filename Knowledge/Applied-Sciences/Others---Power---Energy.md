@@ -8,7 +8,7 @@ Modified: 2022-11-13 01:36:01 +0500
 
 ## Core Catcher
 
-A**core catcher**is a device provided to catch the molten core material ([corium](https://en.wikipedia.org/wiki/Corium_(nuclear_reactor))) of a nuclear reactor in case of a [nuclear meltdown](https://en.wikipedia.org/wiki/Nuclear_meltdown) and prevent it from escaping the [containment building](https://en.wikipedia.org/wiki/Containment_building).
+A**core catcher** is a device provided to catch the molten core material ([corium](https://en.wikipedia.org/wiki/Corium_(nuclear_reactor))) of a nuclear reactor in case of a [nuclear meltdown](https://en.wikipedia.org/wiki/Nuclear_meltdown) and prevent it from escaping the [containment building](https://en.wikipedia.org/wiki/Containment_building).
 
 ## IAEA - Internation Atomic Energy Agency
 

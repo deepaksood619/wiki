@@ -42,7 +42,7 @@ runs all init scripts, in alphabetical order, with the status command. The statu
 
 Supervisor is a client/server system that allows its users to monitor and control a number of processes on UNIX-like operating systems.
 
-It shares some of the same goals of programs like [launchd](http://supervisord.org/glossary.html#term-launchd),[daemontools](http://supervisord.org/glossary.html#term-daemontools), and [runit](http://supervisord.org/glossary.html#term-runit). Unlike some of these programs, it is not meant to be run as a substitute forinitas "process id 1". Instead it is meant to be used to control processes related to a project or a customer, and is meant to start like any other program at boot time.
+It shares some of the same goals of programs like [launchd](http://supervisord.org/glossary.html#term-launchd), [daemontools](http://supervisord.org/glossary.html#term-daemontools), and [runit](http://supervisord.org/glossary.html#term-runit). Unlike some of these programs, it is not meant to be run as a substitute forinitas "process id 1". Instead it is meant to be used to control processes related to a project or a customer, and is meant to start like any other program at boot time.
 
 sudo service supervisor status
 

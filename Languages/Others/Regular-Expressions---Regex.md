@@ -143,9 +143,9 @@ Three main quantifier metacharacters
 
 7. **{n} -** The preceding item is matched exactly*n*times.
 
-8. **{min,} -** The preceding item is matched*min*or more times.
+8. **{min,} -** The preceding item is matched *min*or more times.
 
-9. **{min, max} -** The preceding item is matched at least*min*times, but not more than*max*times.
+9. **{min, max} -** The preceding item is matched at least *min*times, but not more than *max*times.
 
 10. **{min, max}? -** Lazy quantifier
 
@@ -430,7 +430,7 @@ In above example space was directly used to match the pattern instead of lookaro
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>n(?!o)</td>
 <td><p>Negative lookahead,nnot followed byo</p>
 <p>(not matchingo)</p></td>
@@ -449,7 +449,7 @@ In above example space was directly used to match the pattern instead of lookaro
 
 ## Glob patterns
 
-In [computer programming](https://en.wikipedia.org/wiki/Computer_programming),**glob**patterns specify sets of filenames with [wildcard characters](https://en.wikipedia.org/wiki/Wildcard_characters). For example, the Unix [Bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) commandmv*.txt textfiles/moves (mv) all files with names ending in.txtfrom the current directory to the directorytextfiles. Here,*is a wildcard standing for "any [string](https://en.wikipedia.org/wiki/String_(computer_science)) of characters" and*.txtis a glob pattern. The other common wildcard is the question mark (?), which stands for one character.
+In [computer programming](https://en.wikipedia.org/wiki/Computer_programming), **glob** patterns specify sets of filenames with [wildcard characters](https://en.wikipedia.org/wiki/Wildcard_characters). For example, the Unix [Bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) commandmv*.txt textfiles/moves (mv) all files with names ending in.txtfrom the current directory to the directorytextfiles. Here,*is a wildcard standing for "any [string](https://en.wikipedia.org/wiki/String_(computer_science)) of characters" and*.txtis a glob pattern. The other common wildcard is the question mark (?), which stands for one character.
 
 <https://en.wikipedia.org/wiki/Glob_(programming)>
 

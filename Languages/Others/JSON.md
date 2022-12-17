@@ -6,7 +6,7 @@ Modified: 2020-05-02 22:28:30 +0500
 
 ---
 
-JSON(JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the [JavaScript Programming Language](http://javascript.crockford.com/),[Standard ECMA-262 3rd Edition - December 1999](http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf). JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
+JSON(JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the [JavaScript Programming Language](http://javascript.crockford.com/), [Standard ECMA-262 3rd Edition - December 1999](http://www.ecma-international.org/publications/files/ecma-st/ECMA-262.pdf). JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 
 JSON is built on two structures:
 
@@ -15,7 +15,7 @@ JSON is built on two structures:
 
 These are universal data structures. Virtually all modern programming languages support them in one form or another. It makes sense that a data format that is interchangeable with programming languages also be based on these structures.
 
-Plain text formats, especially JSON, have some problems with number precision, just follow these links:[JSON IEEE 754](https://groups.google.com/forum/#!topic/twitter-development-talk/ahbvo3VTIYI),[DoS](https://www.reddit.com/r/java/comments/9jyv58/lowbandwidth_dos_vulnerability_in_jacksons/).
+Plain text formats, especially JSON, have some problems with number precision, just follow these links:[JSON IEEE 754](https://groups.google.com/forum/#!topic/twitter-development-talk/ahbvo3VTIYI), [DoS](https://www.reddit.com/r/java/comments/9jyv58/lowbandwidth_dos_vulnerability_in_jacksons/).
 
 In JSON, they take on these forms:
 

@@ -40,7 +40,7 @@ df=df.assign(three=df.one-df.two)
 
 <https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html>
 
-## DataFrame.groupby(*self***,***by=None***,***axis=0***,***level=None***,***as_index: bool = True***,***sort: bool = True***,***group_keys: bool = True***,***squeeze: bool = False***,***observed: bool = False*)→ 'groupby_generic.DataFrameGroupBy'
+## DataFrame.groupby(*self***, ***by=None***, ***axis=0***, ***level=None***, ***as_index: bool = True***, ***sort: bool = True***, ***group_keys: bool = True***, ***squeeze: bool = False***, ***observed: bool = False*)→ 'groupby_generic.DataFrameGroupBy'
 
 df.groupby(level=0).apply(lambda x: x.to_json(orient='records'))
 

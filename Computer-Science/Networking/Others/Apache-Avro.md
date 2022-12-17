@@ -34,7 +34,7 @@ Avro schemas are defined with [JSON](https://www.json.org/). This facilitates im
 
 ## Comparison with other systems
 
-Avro provides functionality similar to systems such as [Thrift](https://thrift.apache.org/),[Protocol Buffers](https://code.google.com/p/protobuf/), etc. Avro differs from these systems in the following fundamental aspects.
+Avro provides functionality similar to systems such as [Thrift](https://thrift.apache.org/), [Protocol Buffers](https://code.google.com/p/protobuf/), etc. Avro differs from these systems in the following fundamental aspects.
 
 - **Dynamic typing:** Avro does not require that code be generated. Data is always accompanied by a schema that permits full processing of that data without code generation, static datatypes, etc. This facilitates construction of generic data-processing systems and languages.
 - **Untagged data:** Since the schema is present when data is read, considerably less type information need be encoded with data, resulting in smaller serialization size.

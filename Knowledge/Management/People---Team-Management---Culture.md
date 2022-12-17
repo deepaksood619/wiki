@@ -299,12 +299,12 @@ A good solutions architect looks at the existing environment and analyzes what t
 - **Participating in knowledge sharing (Tech sessions)**
 
 - **Understanding the specifications**for the "thing" you are about to implement.
-- **Estimating time**required to implement something.
-- **Communications skills**and clearness in your reporting and communication.
+- **Estimating time** required to implement something.
+- **Communications skills** and clearness in your reporting and communication.
 - **Knowledge in the programming languages**you use.
 - **Knowledge in the libraries**you use.
 - **Knowledge in the tool-sets**you use.
-- **Analytical thinking**and experience (practical when you design the architecture of the "thing" prior to coding it).
+- **Analytical thinking** and experience (practical when you design the architecture of the "thing" prior to coding it).
 - **Technological understanding**(ability to see your new "thing" in a wider perspective, for example how a small library fit into a large project or product).
 - **Creativity**(finding better ways to achieve your projects goals).
 - **Planning**

@@ -7,7 +7,7 @@ Modified: 2022-06-02 19:21:01 +0500
 ---
 
 ![image](media/AWS-Redshift_Architecture-image1.png)
-Redshift is meant to work in a Cluster formation. A typical Redshift Cluster has two or more**Compute Nodes**which are coordinated through a**Leader Node**.All client applications communicate with the cluster only with the Leader Node.
+Redshift is meant to work in a Cluster formation. A typical Redshift Cluster has two or more**Compute Nodes** which are coordinated through a**Leader Node**.All client applications communicate with the cluster only with the Leader Node.
 
 1. **Leader Node**
 

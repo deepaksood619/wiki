@@ -90,7 +90,7 @@ Information is accessed based on the responsibilities assigned to an actor or a 
 
 ## Entity vs Identity
 
-Entity is a**thing**that exists as an**individual unit**while identity is a**set of attributes that can be used to distinguish the entity within a context**.
+Entity is a**thing** that exists as an**individual unit** while identity is a**set of attributes that can be used to distinguish the entity within a context**.
 Let's assume we know Mike. He is a young man who lives in Poland. He is working as a software engineer for one of the local IT startups.**Mike is the entity.He has many identities**i.e. he can be defined as a young polish man in one context and as a promising software engineer in another. Other people may perceive Mike (entity) using different subsets of his attributes (identities).
 In the software world, your backend could be described as an entity. It's thething. Your UI application perceives it as a URL and a certificate (one identity). Your database, on the other hand, sees it as a different identity -- a set of credentials that grants access to the database.
 
@@ -106,7 +106,7 @@ Authorization is a process of verifying if a given entity can access or perform 
 
 ## AAA (Authentication, Authorization and Audit)
 
-## AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication),[Authorization](https://en.wikipedia.org/wiki/Authorization) and [Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access
+## AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication), [Authorization](https://en.wikipedia.org/wiki/Authorization) and [Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access
 
 ## Auditing
 
@@ -187,7 +187,7 @@ Encrypted Server Name Indication (ESNI) is an extension to TLS 1.3 which prevent
 
 ## PEM file**
 
-Privacy-Enhanced Mail(PEM) is a [de facto](https://en.wikipedia.org/wiki/De_facto) file format for storing and sending cryptographic [keys](https://en.wikipedia.org/wiki/Key_(cryptography)),[certificates](https://en.wikipedia.org/wiki/Public_key_certificate), and other data, based on a set of 1993 [IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) standards defining "privacy-enhanced mail." While the original standards were never broadly adopted, and were supplanted by [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) and [S/MIME](https://en.wikipedia.org/wiki/S/MIME), the textual encoding they defined became very popular.
+Privacy-Enhanced Mail(PEM) is a [de facto](https://en.wikipedia.org/wiki/De_facto) file format for storing and sending cryptographic [keys](https://en.wikipedia.org/wiki/Key_(cryptography)), [certificates](https://en.wikipedia.org/wiki/Public_key_certificate), and other data, based on a set of 1993 [IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) standards defining "privacy-enhanced mail." While the original standards were never broadly adopted, and were supplanted by [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) and [S/MIME](https://en.wikipedia.org/wiki/S/MIME), the textual encoding they defined became very popular.
 PEM data is commonly stored in files with a ".pem" suffix, a ".cer" or ".crt" suffix (for certificates), or a ".key" suffix (for public or private keys).The label inside a PEM file represents the type of the data more accurately than the file suffix, since many different types of data can be saved in a ".pem" file.
 A PEM file may contain multiple instances. For instance, an operating system might provide a file containing a list of trusted [CA certificates](https://en.wikipedia.org/wiki/CA_certificate), or a web server might be configured with a "chain" file containing an end-entity certificate plus a list of intermediate certificates.
 <https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail>

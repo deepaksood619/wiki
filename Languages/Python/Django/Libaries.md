@@ -86,7 +86,7 @@ django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will 
 
 <https://django-haystack.readthedocs.io/en/v2.4.1/index.html>
 
-Haystack provides modular search for Django. It features a unified, familiar API that allows you to plug in different search backends (such as [Solr](http://lucene.apache.org/solr/),[Elasticsearch](http://elasticsearch.org/),[Whoosh](https://bitbucket.org/mchaput/whoosh/),[Xapian](http://xapian.org/), etc.) without having to modify your code.
+Haystack provides modular search for Django. It features a unified, familiar API that allows you to plug in different search backends (such as [Solr](http://lucene.apache.org/solr/), [Elasticsearch](http://elasticsearch.org/), [Whoosh](https://bitbucket.org/mchaput/whoosh/), [Xapian](http://xapian.org/), etc.) without having to modify your code.
 
 ## Others
 

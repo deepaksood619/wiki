@@ -107,7 +107,7 @@ When you set the same environment variable in multiple files, here's the priorit
 
 When**.env**fileis present in the folder docker-compose command is executed, those environment variables are used as environment variables for **docker-compose execution and variable substitution.**
 
-However when you define**env_file**option to your service, the service will get those variables from the file as **environment variables** and those are not used for variable substitution.
+However when you define **env_file** option to your service, the service will get those variables from the file as **environment variables** and those are not used for variable substitution.
 
 ## Updates
 

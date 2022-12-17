@@ -42,7 +42,7 @@ Modified: 2022-01-30 11:58:21 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Andhra_Pradesh">Andhra Pradesh</a></td>
 <td>IN-AP</td>
 <td>AP</td>
@@ -56,7 +56,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Arunachal_Pradesh">Arunachal Pradesh</a></td>
 <td>IN-AR</td>
 <td>AR</td>
@@ -69,7 +69,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Assam">Assam</a></td>
 <td>IN-AS</td>
 <td>AS</td>
@@ -82,7 +82,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Assamese_language">Assamese</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Bengali_language">Bengali</a>,<a href="https://en.wikipedia.org/wiki/Bodo_language">Bodo</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Bihar">Bihar</a></td>
 <td>IN-BR</td>
 <td>BR</td>
@@ -95,7 +95,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Chhattisgarh">Chhattisgarh</a></td>
 <td>IN-CT</td>
 <td>CG</td>
@@ -108,7 +108,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Goa">Goa</a></td>
 <td>IN-GA</td>
 <td>GA</td>
@@ -121,7 +121,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Konkani_language">Konkani</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Marathi_language">Marathi</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Gujarat">Gujarat</a></td>
 <td>IN-GJ</td>
 <td>GJ</td>
@@ -134,7 +134,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Haryana">Haryana</a></td>
 <td>IN-HR</td>
 <td>HR</td>
@@ -147,7 +147,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a><sup><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-39">[39]</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-40">[40]</a></sup></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Himachal_Pradesh">Himachal Pradesh</a></td>
 <td>IN-HP</td>
 <td>HP</td>
@@ -161,7 +161,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Jharkhand">Jharkhand</a></td>
 <td>IN-JH</td>
 <td>JH</td>
@@ -174,7 +174,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-41"><sup>[41]</sup></a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Karnataka">Karnataka</a></td>
 <td>IN-KA</td>
 <td>KA</td>
@@ -187,7 +187,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Kannada_language">Kannada</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Kerala">Kerala</a></td>
 <td>IN-KL</td>
 <td>KL</td>
@@ -200,7 +200,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Malayalam">Malayalam</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Madhya_Pradesh">Madhya Pradesh</a></td>
 <td>IN-MP</td>
 <td>MP</td>
@@ -213,7 +213,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Maharashtra">Maharashtra</a></td>
 <td>IN-MH</td>
 <td>MH</td>
@@ -227,7 +227,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Marathi_Language">Marathi</a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Manipur">Manipur</a></td>
 <td>IN-MN</td>
 <td>MN</td>
@@ -240,7 +240,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Meitei_language">Meitei</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Meghalaya">Meghalaya</a></td>
 <td>IN-ML</td>
 <td>ML</td>
@@ -253,7 +253,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Khasi_language">Khasi</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-43"><sup>[a]</sup></a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Mizoram">Mizoram</a></td>
 <td>IN-MZ</td>
 <td>MZ</td>
@@ -266,7 +266,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Mizo_language">Mizo</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Nagaland">Nagaland</a></td>
 <td>IN-NL</td>
 <td>NL</td>
@@ -279,7 +279,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Odisha">Odisha</a></td>
 <td>IN-OR</td>
 <td>OD</td>
@@ -292,7 +292,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Odia_language">Odia</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Punjab,_India">Punjab</a></td>
 <td>IN-PB</td>
 <td>PB</td>
@@ -305,7 +305,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Rajasthan">Rajasthan</a></td>
 <td>IN-RJ</td>
 <td>RJ</td>
@@ -318,7 +318,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Sikkim">Sikkim</a></td>
 <td>IN-SK</td>
 <td>SK</td>
@@ -331,7 +331,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Nepali_language">Nepali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Bhutia_language">Bhutia</a>,<a href="https://en.wikipedia.org/wiki/Gurung_language">Gurung</a>,<a href="https://en.wikipedia.org/wiki/Lepcha_language">Lepcha</a>,<a href="https://en.wikipedia.org/wiki/Limbu_language">Limbu</a>,<a href="https://en.wikipedia.org/wiki/Manggar_language">Manggar</a>,<a href="https://en.wikipedia.org/wiki/Mukhia_language">Mukhia</a>,<a href="https://en.wikipedia.org/wiki/Newari_language">Newari</a>,<a href="https://en.wikipedia.org/wiki/Rai_languages">Rai</a>,<a href="https://en.wikipedia.org/wiki/Sherpa_language">Sherpa</a>,<a href="https://en.wikipedia.org/wiki/Tamang_language">Tamang</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Tamil_Nadu">Tamil Nadu</a></td>
 <td>IN-TN</td>
 <td>TN</td>
@@ -344,7 +344,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Telangana">Telangana</a></td>
 <td>IN-TG</td>
 <td>TS</td>
@@ -357,7 +357,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-45"><sup>[44]</sup></a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Tripura">Tripura</a></td>
 <td>IN-TR</td>
 <td>TR</td>
@@ -370,7 +370,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Bengali_language">Bengali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Kokborok_language">Kokborok</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Uttar_Pradesh">Uttar Pradesh</a></td>
 <td>IN-UP</td>
 <td>UP</td>
@@ -383,7 +383,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Uttarakhand">Uttarakhand</a></td>
 <td>IN-UT</td>
 <td>UK</td>
@@ -396,7 +396,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Sanskrit">Sanskrit</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-46"><sup>[45]</sup></a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><a href="https://en.wikipedia.org/wiki/West_Bengal">West Bengal</a></p>
 <p></p>
 <p><a href="https://youtu.be/76u1LJ_WUJg">West Bengal Politics Explained &amp; Its Geostrategic importance | WB elections 2021</a></p></td>
@@ -413,7 +413,7 @@ Modified: 2022-01-30 11:58:21 +0500
 </tr>
 </tbody>
 </table>
--   [**^Note 1**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_1) Andhra Pradesh was divided into two states,[Telangana](https://en.wikipedia.org/wiki/Telangana) and a residual [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh) on 2 June 2014.^[[46]][https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-The_Times_Of_India-48]([47)][https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-APGazetteMar1-49]([48)](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-APGazetteMar4-50)^[Hyderabad](https://en.wikipedia.org/wiki/Hyderabad,_India), located entirely within the borders of Telangana, is to serve as the capital for both states for a period of time not exceeding ten years.[^[49]^](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-51) The Government of Andhra Pradesh and the Andhra Pradesh Legislature completed the process of relocating to temporary facilities in the envisaged new capital city [Amaravati](https://en.wikipedia.org/wiki/Amaravati) in early 2017.[^[37]^](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-gulte.com-37)
+-   [**^Note 1**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_1) Andhra Pradesh was divided into two states, [Telangana](https://en.wikipedia.org/wiki/Telangana) and a residual [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh) on 2 June 2014.^[[46]][https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-The_Times_Of_India-48]([47)][https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-APGazetteMar1-49]([48)](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-APGazetteMar4-50)^[Hyderabad](https://en.wikipedia.org/wiki/Hyderabad,_India), located entirely within the borders of Telangana, is to serve as the capital for both states for a period of time not exceeding ten years.[^[49]^](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-51) The Government of Andhra Pradesh and the Andhra Pradesh Legislature completed the process of relocating to temporary facilities in the envisaged new capital city [Amaravati](https://en.wikipedia.org/wiki/Amaravati) in early 2017.[^[37]^](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-gulte.com-37)
 -   [**^Note 2**](https://en.wikipedia.org/wiki/States_and_union_territories_of_India#ref_2) Dehradun is the interim capital of Uttarakhand. The town of [Gairsain](https://en.wikipedia.org/wiki/Gairsain) is envisaged as the state's new capital.
 
 <table>
@@ -445,7 +445,7 @@ Modified: 2022-01-30 11:58:21 +0500
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands">Andaman and Nicobar Islands</a></td>
 <td>IN-AN</td>
 <td>AN</td>
@@ -456,7 +456,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td>—</td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Chandigarh">Chandigarh</a></td>
 <td>IN-CH</td>
 <td>CH</td>
@@ -467,7 +467,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli">Dadra and Nagar Haveli</a></td>
 <td>IN-DN</td>
 <td>DN</td>
@@ -478,7 +478,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Marathi_language">Marathi</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Daman_and_Diu">Daman and Diu</a></td>
 <td>IN-DD</td>
 <td>DD</td>
@@ -489,7 +489,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Konkani_language">Konkani</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-53"><sup>[d]</sup></a></td>
 <td>—</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Delhi">Delhi</a></td>
 <td>IN-DL</td>
 <td>DL</td>
@@ -500,7 +500,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-55"><sup>[50]</sup></a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)">Jammu and Kashmir</a></td>
 <td>IN-JK</td>
 <td>JK</td>
@@ -512,7 +512,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Dogri_language">Dogri</a>,<a href="https://en.wikipedia.org/wiki/Kashmiri_language">Kashmiri</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Ladakh">Ladakh</a></td>
 <td>IN-LA</td>
 <td>LA</td>
@@ -523,7 +523,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Ladakhi_language">Ladakhi</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Balti_language">Balti</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Lakshadweep">Lakshadweep</a></td>
 <td>IN-LD</td>
 <td>LD</td>
@@ -534,7 +534,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td><a href="https://en.wikipedia.org/wiki/Malayalam_language">Malayalam</a></td>
 <td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/Puducherry">Puducherry</a></td>
 <td>IN-PY</td>
 <td>PY</td>
@@ -552,7 +552,7 @@ Modified: 2022-01-30 11:58:21 +0500
 
 ## Adminstrative Divisions of India
 
-Indian states and territories frequently use different local titles for the same level of subdivision (e.g., the [*mandals*](https://en.wikipedia.org/wiki/Mandal_(country_subdivision)) of [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh) and [Telangana](https://en.wikipedia.org/wiki/Telangana) correspond to [*tehsils*](https://en.wikipedia.org/wiki/Tehsil) of [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh) and other [Hindi-speaking states](https://en.wikipedia.org/wiki/Hindi_Belt) but to [*talukas*](https://en.wikipedia.org/wiki/Taluka) of [Gujarat](https://en.wikipedia.org/wiki/Gujarat),[Goa](https://en.wikipedia.org/wiki/Goa),[Karnataka](https://en.wikipedia.org/wiki/Karnataka),[Kerala](https://en.wikipedia.org/wiki/Kerala),[Maharashtra](https://en.wikipedia.org/wiki/Maharashtra), and [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu)).[^[1]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-1)
+Indian states and territories frequently use different local titles for the same level of subdivision (e.g., the [*mandals*](https://en.wikipedia.org/wiki/Mandal_(country_subdivision)) of [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh) and [Telangana](https://en.wikipedia.org/wiki/Telangana) correspond to [*tehsils*](https://en.wikipedia.org/wiki/Tehsil) of [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh) and other [Hindi-speaking states](https://en.wikipedia.org/wiki/Hindi_Belt) but to [*talukas*](https://en.wikipedia.org/wiki/Taluka) of [Gujarat](https://en.wikipedia.org/wiki/Gujarat), [Goa](https://en.wikipedia.org/wiki/Goa), [Karnataka](https://en.wikipedia.org/wiki/Karnataka), [Kerala](https://en.wikipedia.org/wiki/Kerala), [Maharashtra](https://en.wikipedia.org/wiki/Maharashtra), and [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu)).[^[1]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-1)
 
 ## Tiers of India
 
@@ -564,10 +564,10 @@ Indian states and territories frequently use different local titles for the same
 
 The States have been grouped into six zones having an Advisory Council "to develop the habit of cooperative working" among these States.[Zonal Councils](https://en.wikipedia.org/wiki/Zonal_Council) were set up vide Part-III of the [States Reorganisation Act](https://en.wikipedia.org/wiki/States_Reorganisation_Act), 1956. The North Eastern States' special problems are addressed by another statutory body - The North Eastern Council, created by the North Eastern Council Act, 1971.[^[2]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-2) The present composition of each of these Zonal Councils is as under:[^[3]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-3)
 
-- [Northern Zonal Council](https://en.wikipedia.org/wiki/Northern_Zonal_Council), comprising [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh),[Delhi](https://en.wikipedia.org/wiki/Delhi),[Haryana](https://en.wikipedia.org/wiki/Haryana),[Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh),[Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)),[Ladakh](https://en.wikipedia.org/wiki/Ladakh),[Punjab](https://en.wikipedia.org/wiki/Punjab,_India), and [Rajasthan](https://en.wikipedia.org/wiki/Rajasthan);
-- [North Eastern Council](https://en.wikipedia.org/wiki/North_Eastern_Council), comprising [Assam](https://en.wikipedia.org/wiki/Assam),[Arunachal Pradesh](https://en.wikipedia.org/wiki/Arunachal_Pradesh),[Manipur](https://en.wikipedia.org/wiki/Manipur),[Meghalaya](https://en.wikipedia.org/wiki/Meghalaya),[Mizoram](https://en.wikipedia.org/wiki/Mizoram),[Nagaland](https://en.wikipedia.org/wiki/Nagaland) and [Tripura](https://en.wikipedia.org/wiki/Tripura); The State of [Sikkim](https://en.wikipedia.org/wiki/Sikkim) has also been included in the North Eastern Council vide North Eastern Council (Amendment) Act, 2002 notified on 23 December 2002.[^[4]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-4)
-- [Central Zonal Council](https://en.wikipedia.org/wiki/Central_Zonal_Council), comprising the States of [Chhattisgarh](https://en.wikipedia.org/wiki/Chhattisgarh),[Madhya Pradesh](https://en.wikipedia.org/wiki/Madhya_Pradesh),[Uttarakhand](https://en.wikipedia.org/wiki/Uttarakhand) and [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh);
-- [Eastern Zonal Council](https://en.wikipedia.org/wiki/Eastern_Zonal_Council), comprising [Bihar](https://en.wikipedia.org/wiki/Bihar),[Jharkhand](https://en.wikipedia.org/wiki/Jharkhand),[Odisha](https://en.wikipedia.org/wiki/Odisha), and [West Bengal](https://en.wikipedia.org/wiki/West_Bengal);
-- [Western Zonal Council](https://en.wikipedia.org/wiki/Western_Zonal_Council), comprising [Dadra and Nagar Haveli](https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli),[Daman and Diu](https://en.wikipedia.org/wiki/Daman_and_Diu),[Goa](https://en.wikipedia.org/wiki/Goa),[Gujarat](https://en.wikipedia.org/wiki/Gujarat), and [Maharashtra](https://en.wikipedia.org/wiki/Maharashtra);
-- [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council), comprising [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh),[Karnataka](https://en.wikipedia.org/wiki/Karnataka),[Kerala](https://en.wikipedia.org/wiki/Kerala),[Puducherry](https://en.wikipedia.org/wiki/Puducherry),[Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu), and [Telangana](https://en.wikipedia.org/wiki/Telangana).
-- [Andaman and Nicobar Islands](https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands),[Lakshadweep](https://en.wikipedia.org/wiki/Lakshadweep) are not members of any of the Zonal Councils.[^[5]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-5) However, they are presently special invitees to the [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council)
+- [Northern Zonal Council](https://en.wikipedia.org/wiki/Northern_Zonal_Council), comprising [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh), [Delhi](https://en.wikipedia.org/wiki/Delhi), [Haryana](https://en.wikipedia.org/wiki/Haryana), [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh), [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)), [Ladakh](https://en.wikipedia.org/wiki/Ladakh), [Punjab](https://en.wikipedia.org/wiki/Punjab,_India), and [Rajasthan](https://en.wikipedia.org/wiki/Rajasthan);
+- [North Eastern Council](https://en.wikipedia.org/wiki/North_Eastern_Council), comprising [Assam](https://en.wikipedia.org/wiki/Assam), [Arunachal Pradesh](https://en.wikipedia.org/wiki/Arunachal_Pradesh), [Manipur](https://en.wikipedia.org/wiki/Manipur), [Meghalaya](https://en.wikipedia.org/wiki/Meghalaya), [Mizoram](https://en.wikipedia.org/wiki/Mizoram), [Nagaland](https://en.wikipedia.org/wiki/Nagaland) and [Tripura](https://en.wikipedia.org/wiki/Tripura); The State of [Sikkim](https://en.wikipedia.org/wiki/Sikkim) has also been included in the North Eastern Council vide North Eastern Council (Amendment) Act, 2002 notified on 23 December 2002.[^[4]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-4)
+- [Central Zonal Council](https://en.wikipedia.org/wiki/Central_Zonal_Council), comprising the States of [Chhattisgarh](https://en.wikipedia.org/wiki/Chhattisgarh), [Madhya Pradesh](https://en.wikipedia.org/wiki/Madhya_Pradesh), [Uttarakhand](https://en.wikipedia.org/wiki/Uttarakhand) and [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh);
+- [Eastern Zonal Council](https://en.wikipedia.org/wiki/Eastern_Zonal_Council), comprising [Bihar](https://en.wikipedia.org/wiki/Bihar), [Jharkhand](https://en.wikipedia.org/wiki/Jharkhand), [Odisha](https://en.wikipedia.org/wiki/Odisha), and [West Bengal](https://en.wikipedia.org/wiki/West_Bengal);
+- [Western Zonal Council](https://en.wikipedia.org/wiki/Western_Zonal_Council), comprising [Dadra and Nagar Haveli](https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli), [Daman and Diu](https://en.wikipedia.org/wiki/Daman_and_Diu), [Goa](https://en.wikipedia.org/wiki/Goa), [Gujarat](https://en.wikipedia.org/wiki/Gujarat), and [Maharashtra](https://en.wikipedia.org/wiki/Maharashtra);
+- [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council), comprising [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh), [Karnataka](https://en.wikipedia.org/wiki/Karnataka), [Kerala](https://en.wikipedia.org/wiki/Kerala), [Puducherry](https://en.wikipedia.org/wiki/Puducherry), [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu), and [Telangana](https://en.wikipedia.org/wiki/Telangana).
+- [Andaman and Nicobar Islands](https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands), [Lakshadweep](https://en.wikipedia.org/wiki/Lakshadweep) are not members of any of the Zonal Councils.[^[5]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-5) However, they are presently special invitees to the [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council)

@@ -98,8 +98,8 @@ b = 0000 1101
 
 | **Operator** | **Description**                                                                                                 | **Example**                                                              |
 |-----------|--------------------------------------|------------------------|
-| is           | Evaluates to true if the variables on either side of the operator point to the same object and false otherwise. | x is y, here**is**results in 1 if id(x) equals id(y).                  |
-| is not       | Evaluates to false if the variables on either side of the operator point to the same object and true otherwise. | x is not y, here**is not**results in 1 if id(x) is not equal to id(y). |
+| is           | Evaluates to true if the variables on either side of the operator point to the same object and false otherwise. | x is y, here **is** results in 1 if id(x) equals id(y).                  |
+| is not       | Evaluates to false if the variables on either side of the operator point to the same object and true otherwise. | x is not y, here**is not** results in 1 if id(x) is not equal to id(y). |
 
 # Python Operators Precedence
 
@@ -115,67 +115,67 @@ b = 0000 1101
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p>**</p>
 <p>Exponentiation (raise to the power)</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p>~ + -</p>
 <p>Complement, unary plus and minus (method names for the last two are +@ and -@)</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p>* / % //</p>
 <p>Multiply, divide, modulo and floor division</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>4</td>
 <td><p>+ -</p>
 <p>Addition and subtraction</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><p>`>> <<`</p>
 <p>Right and left bitwise shift</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>6</td>
 <td><p>&amp;</p>
 <p>Bitwise 'AND'</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>7</td>
 <td><p>^ |</p>
 <p>Bitwise exclusive `OR' and regular `OR'</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>8</td>
 <td><p>`<= < > >=`</p>
 <p>Comparison operators</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>9</td>
 <td><p>`<>` == !=</p>
 <p>Equality operators</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10</td>
 <td><p>= %= /= //= -= += *=**=</p>
 <p>Assignment operators</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>11</td>
 <td><p>is is not</p>
 <p>Identity operators</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>12</td>
 <td><p>in not in</p>
 <p>Membership operators</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>13</td>
 <td><p>not or and</p>
 <p>Logical operators</p></td>
@@ -199,7 +199,7 @@ print('passed')
 
 # These only test for truthiness
 
-## if**x**or**y**or z
+## if**x** or**y** or z
 
 print('passed')
 
@@ -209,7 +209,7 @@ print('passed')
 
 ## Difference between is and ==
 
-1. An**is**expression evaluates toTrueif two variables point to the same (identical) object.
+1. An **is** expression evaluates toTrueif two variables point to the same (identical) object.
 
 2. An**==**expression evaluates toTrueif the objects referred to by the variables are equal (have the same contents).
 

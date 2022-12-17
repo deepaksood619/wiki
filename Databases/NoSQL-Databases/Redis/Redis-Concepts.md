@@ -36,7 +36,7 @@ OK
 (integer) 102
 > incrby counter 50
 (integer) 152
-The [INCR](https://redis.io/commands/incr) command parses the string value as an integer, increments it by one, and finally sets the obtained value as the new value. There are other similar commands like [INCRBY](https://redis.io/commands/incrby),[DECR](https://redis.io/commands/decr) and [DECRBY](https://redis.io/commands/decrby). Internally it's always the same command, acting in a slightly different way.
+The [INCR](https://redis.io/commands/incr) command parses the string value as an integer, increments it by one, and finally sets the obtained value as the new value. There are other similar commands like [INCRBY](https://redis.io/commands/incrby), [DECR](https://redis.io/commands/decr) and [DECRBY](https://redis.io/commands/decrby). Internally it's always the same command, acting in a slightly different way.
 What does it mean that INCR is atomic? That even multiple clients issuing INCR against the same key will never enter into a race condition. For instance, it will never happen that client 1 reads "10", client 2 reads "10" at the same time, both increment to 11, and set the new value to 11. The final value will always be 12 and the read-increment-set operation is performed while all the other clients are not executing a command at the same time.
 There are a number of commands for operating on strings. For example the [GETSET](https://redis.io/commands/getset) command sets a key to a new value, returning the old value as the result. You can use this command, for example, if you have a system that increments a Redis key using [INCR](https://redis.io/commands/incr) every time your web site receives a new visitor. You may want to collect this information once every hour, without losing a single increment. You can [GETSET](https://redis.io/commands/getset) the key, assigning it the new value of "0" and reading the old value back.
 
@@ -79,7 +79,7 @@ This means that at any given moment the maximum amount of keys already expired t
 
 ## Time complexity:O(1) for every call. O(N) for a complete iteration, including enough command calls for the cursor to return back to 0. N is the number of elements inside the collection
 
-The [SCAN](https://redis.io/commands/scan) command and the closely related commands [SSCAN](https://redis.io/commands/sscan),[HSCAN](https://redis.io/commands/hscan) and [ZSCAN](https://redis.io/commands/zscan) are used in order to incrementally iterate over a collection of elements.
+The [SCAN](https://redis.io/commands/scan) command and the closely related commands [SSCAN](https://redis.io/commands/sscan), [HSCAN](https://redis.io/commands/hscan) and [ZSCAN](https://redis.io/commands/zscan) are used in order to incrementally iterate over a collection of elements.
 
 - [SCAN](https://redis.io/commands/scan) iterates the set of keys in the currently selected Redis database.
 - [SSCAN](https://redis.io/commands/sscan) iterates elements of Sets types.

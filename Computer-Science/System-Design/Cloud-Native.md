@@ -50,7 +50,7 @@ Kubernetes is an ideal platform for running contemporary workloads designed as c
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><p>Monolithic</p>
 <p>Designed for predictable scalability</p>
 <p>Relational database</p>

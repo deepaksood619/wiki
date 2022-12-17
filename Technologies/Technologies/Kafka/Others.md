@@ -125,7 +125,7 @@ Decompression and re-compression can also happen if producers are running a vers
 
 ## Secor
 
-Secor is a service persisting [Kafka](http://kafka.apache.org/) logs to [Amazon S3](http://aws.amazon.com/s3/),[Google Cloud Storage](https://cloud.google.com/storage/),[Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and [Openstack Swift](http://swift.openstack.org/).
+Secor is a service persisting [Kafka](http://kafka.apache.org/) logs to [Amazon S3](http://aws.amazon.com/s3/), [Google Cloud Storage](https://cloud.google.com/storage/), [Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and [Openstack Swift](http://swift.openstack.org/).
 
 <https://github.com/pinterest/secor>
 

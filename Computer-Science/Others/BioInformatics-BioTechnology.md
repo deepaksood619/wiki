@@ -8,7 +8,7 @@ Modified: 2021-12-13 15:08:42 +0500
 
 ## PDB - Protein Data Bank
 
-The**Protein Data Bank**(**PDB**) is a [crystallographic database](https://en.wikipedia.org/wiki/Crystallographic_database) for the three-dimensional structural data of large biological molecules, such as [proteins](https://en.wikipedia.org/wiki/Protein) and [nucleic acids](https://en.wikipedia.org/wiki/Nucleic_acid). The data, typically obtained by [X-ray crystallography](https://en.wikipedia.org/wiki/X-ray_crystallography),[NMR spectroscopy](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_spectroscopy_of_proteins), or, increasingly,[cryo-electron microscopy](https://en.wikipedia.org/wiki/Cryo-electron_microscopy),
+The**Protein Data Bank**(**PDB**) is a [crystallographic database](https://en.wikipedia.org/wiki/Crystallographic_database) for the three-dimensional structural data of large biological molecules, such as [proteins](https://en.wikipedia.org/wiki/Protein) and [nucleic acids](https://en.wikipedia.org/wiki/Nucleic_acid). The data, typically obtained by [X-ray crystallography](https://en.wikipedia.org/wiki/X-ray_crystallography), [NMR spectroscopy](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance_spectroscopy_of_proteins), or, increasingly, [cryo-electron microscopy](https://en.wikipedia.org/wiki/Cryo-electron_microscopy),
 
 ## RCSB
 

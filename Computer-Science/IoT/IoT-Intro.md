@@ -118,25 +118,25 @@ Information flows in one direction from other systems to a device (or a group of
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Assumed State</td>
 <td><p>We are unable to get the state of the device. Best we can do is to assume the state based on our last command.</p>
 <p>Example - WattMan Lite which we deployed previously, we were controlling ACs based on infrared signal - during that time we used to work on "Assumed State".</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Cloud Polling</td>
 <td>Integration of this device happens via the cloud and requires an active internet connection. Polling the state means that an update might be noticed later.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Cloud Push</td>
 <td>Integration of this device happens via the cloud and requires an active internet connection. Home Assistant will be notified as soon as a new state is available.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Local Polling</td>
 <td><p>Offers direct communication with device. Polling the state means that an update might be noticed later.</p>
 <p>Example - For relay boards where we communicate over modbus protocol, we work on Local Polling. Periodically, we read the current status of values in relay board and ensure that it's the same state that we had last set.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Local Push</td>
 <td><p>Offers direct communication with device. Home Assistant will be notified as soon as a new state is available.</p>
 <p>Example - For the smart plug that we are currently interfacing, device does "Local Push" on the mqtt server on Rpi. So it reports it's state on a mqtt topic in a periodic basis.</p></td>

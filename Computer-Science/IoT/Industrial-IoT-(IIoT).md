@@ -41,14 +41,14 @@ Industrial Control Systems (ICSs) are used to monitor and control the processes 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>SCADA</strong></td>
 <td><p><strong>Supervisory Control and Data Acquisition</strong></p>
 <p>Provides supervisory-level control over a larger-scale “system of systems” (e.g. systems that span over multiple areas of the plant rather than one local set of processes).</p>
 <p>Often includes HMI/SCADA systems, remote terminal units, and local operator interfaces.</p>
 <p>Evolved with the Industrial Internet of Things to allow for near-real-time state reports and increased security over more standard protocols such as OPC UA.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>DCS</strong></td>
 <td><p><strong>Distributed Control System</strong></p>
 <p>Distributes elements of control across the system itself, rather than centralizing these through a single controller.</p>
@@ -73,28 +73,28 @@ Industrial Control Systems (ICSs) are used to monitor and control the processes 
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>CoAP</strong></td>
 <td><p>Constrained Application Protocol</p>
 <p>Application layer protocol used for constrained (low-power, low-memory, etc.) nodes and networks.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>AMQP</strong></td>
 <td><p>Advanced Message Queuing Protocol</p>
 <p>Application layer, wire-level protocol that supports a variety of messaging patterns.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>HTTP/2</strong></td>
 <td><p>Updated version of Hypertext Transfer Protocol</p>
 <p>Built with HTTP 1.1 compatibility and performance enhancement in mind.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td><strong>IPv6</strong></td>
 <td><p>Internet Protocol Version 6</p>
 <p>Updated version of the Internet Protocol Version</p>
 <p>4, necessary for assigning unique addresses to the rapidly growing number of machines connected to the Internet (due partially to the increase of Things and M2M connections).</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>6LoWPAN</strong></td>
 <td><p>IPv6 over Low power Wireless Personal Area Networks</p>
 <p>The 6LoWPAN group has defined encapsulation and header compression mechanisms that allow IPv6 packets to be sent and received over IEEE 802.15.4 based networks.</p></td>

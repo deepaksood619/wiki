@@ -52,7 +52,7 @@ FROM table_name
 
 MySQL provides an alternative way that allows you to recommend the indexes that the query optimizer should by using an index hint calledUSE INDEX.
 
-## SELECT**select_list**FROM**table_name**USE INDEX**(index_list)**WHERE condition
+## SELECT **select_list** FROM **table_name** USE INDEX**(index_list)**WHERE condition
 
 In this syntax, theUSE INDEXinstructs the queryoptimizer to use one of the named indexes to find rows in the table.
 

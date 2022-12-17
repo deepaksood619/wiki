@@ -271,7 +271,7 @@ Here are some of the interesting flake8 plugins:
 
 - [flake8-breakpoint](https://pypi.org/project/flake8-breakpoint/) checks for forgotten breakpoints
 - [flake8-print](https://pypi.org/project/flake8-print/) will complain about every print statement
-- [flake8-debugger](https://pypi.org/project/flake8-debugger/),[flake8-fixme](https://pypi.org/project/flake8-fixme/),[flake8-todo](https://pypi.org/project/flake8-todo/) go in the same direction.
+- [flake8-debugger](https://pypi.org/project/flake8-debugger/), [flake8-fixme](https://pypi.org/project/flake8-fixme/), [flake8-todo](https://pypi.org/project/flake8-todo/) go in the same direction.
 
 ### Let Dead Code Die
 
@@ -296,7 +296,7 @@ vulture . --exclude .history
 ### Modern style Python
 
 - [flake8-pathlib](https://pypi.org/project/flake8-pathlib/):[Pathlib](https://docs.python.org/3.4/library/pathlib.html) was added in Python 3.4 and I'm still not quite used to it. This plugin might nudge me to use it when it's appropriate.
-- [flake8-string-format](https://pypi.org/project/flake8-string-format/),[flake8-printf-formatting](https://pypi.org/project/flake8-printf-formatting/),[flake8-sts](https://pypi.org/project/flake8-sfs/): String formatting.
+- [flake8-string-format](https://pypi.org/project/flake8-string-format/), [flake8-printf-formatting](https://pypi.org/project/flake8-printf-formatting/), [flake8-sts](https://pypi.org/project/flake8-sfs/): String formatting.
 
 ### Improve Flake8
 

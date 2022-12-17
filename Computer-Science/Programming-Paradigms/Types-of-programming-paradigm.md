@@ -17,7 +17,7 @@ Uses statements that change a program's state
 
 ## Declarative (does not state the order in which operations execute)
 
-Focuses on*what*the program should accomplish without specifying*how*the program should achieve the result.
+Focuses on *what*the program should accomplish without specifying *how*the program should achieve the result.
 
 - Functional
 - Logic

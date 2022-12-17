@@ -20,9 +20,9 @@ Components -
 
 The Jupyter Notebook has two different keyboard input modes.
 
-1. **Edit mode**allows you to type code or text into a cell and is indicated by a green cell border.
+1. **Edit mode** allows you to type code or text into a cell and is indicated by a green cell border.
 
-2. **Command mode**binds the keyboard to notebook level commands and is indicated by a grey cell border with a blue left margin.
+2. **Command mode** binds the keyboard to notebook level commands and is indicated by a grey cell border with a blue left margin.
 
 ## for running django shell on jupyter notebook
 
@@ -168,36 +168,36 @@ Operate on multiple lines of input
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>?</td>
 <td>Introduction and overview of IPython’s features.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>??</td>
 <td>Source code</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>import os<br
 os.*dir*?</td>
 <td>Use * to list all functions matching a string</td>
 </tr>
-<tr class="even">
+<tr>
 <td>%quickref</td>
 <td>Quick reference</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>help</td>
 <td>Python’s own help system.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>object?</td>
 <td>Details about ‘object’, use ‘object??’ for extra details</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><strong>Shift + Tab on any function</strong></td>
 <td><strong>To get an documentation of the function</strong></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Tab</td>
 <td>To get all the attributes and function on a data type</td>
 </tr>
@@ -364,7 +364,7 @@ JupyterHub runs in the cloud or on your own hardware, and makes it possible to s
 
 JupyterHub on Kubernetes - <https://z2jh.jupyter.org/en/latest/setup-jupyterhub.html>
 
-JupyterHub will automatically delete any user pods that have no activity for a period of time. This helps free up computational resources and keeps costs down if you are using an autoscaling cluster. When these users navigate back to your JupyterHub, they will have to start their server again, and the state of their previous session (variables they've created, any in-memory data, etc) will be lost. This is known as*culling*.
+JupyterHub will automatically delete any user pods that have no activity for a period of time. This helps free up computational resources and keeps costs down if you are using an autoscaling cluster. When these users navigate back to your JupyterHub, they will have to start their server again, and the state of their previous session (variables they've created, any in-memory data, etc) will be lost. This is known as *culling*.
 
 ![image](../../media/DevOps-IDEs-Jupyter---Jupyterlab---notebook-image1.png)
 

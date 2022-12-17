@@ -27,13 +27,13 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Preview</td>
 <td><a href="https://youtu.be/Jbp3-AU9v_g">Introduction to sessions</a></td>
 <td>Provides an introduction to (my) version of an accounting class. Perhaps, morea warning, than a sales pitch!</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>1</td>
 <td><a href="https://youtu.be/7rW7lpQZpqY">Financial Statements: An Overview</a></td>
 <td>Provides an overview of the three financial statements and what they aim to do (and sometimes fail to do).</td>
@@ -41,7 +41,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/slides/session1.pdf">Slides</a></p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>2</td>
 <td><a href="https://youtu.be/Q8wKr1QDSwg">Income Statements: Measuring Profits</a></td>
 <td>Go through an income statement, drawing distinctions between operating &amp; financing expenses and measures of profitability.</td>
@@ -50,7 +50,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session2test.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session2soln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2A</td>
 <td><a href="https://youtu.be/UYxJl2GvdGw">Income Statements: Illustrations</a></td>
 <td>Look at the income statements of a diverse set of companies, at different stages of life cycle and in different sectors.</td>
@@ -59,7 +59,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session2Atest.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session2Asoln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><a href="https://youtu.be/cSuc2HHQpxc">Balance Sheets: Asset Base and Debt Due</a></td>
 <td>Go through a balance sheet, looking at how assets get recorded on it, and how that measurement affects accounting measures of equity.</td>
@@ -68,7 +68,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session3test.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session3soln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr>
 <td>3A</td>
 <td><a href="https://youtu.be/Gr4JwDB1iRM">Balance Sheets: Illustrations</a></td>
 <td>Look at the balance sheets of a diverse set of companies, at different stages of life cycle and in different sectors.</td>
@@ -77,7 +77,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session3Atest.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session3Asoln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>4</td>
 <td><a href="https://youtu.be/XobT12fvkXc">Cashflow Statements: Cash In and Out</a></td>
 <td>Go through a cash flow statement, drawing out information that it provides on cash earnings and cash flows.</td>
@@ -86,7 +86,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session4test.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session4soln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr>
 <td>4A</td>
 <td><a href="https://youtu.be/U954oEU7_0w">Cash Flow Statements: Illustrations</a></td>
 <td>Look at the cashflow statements of a diverse set of companies, at different stages of life cycle and in different sectors.</td>
@@ -95,7 +95,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session4Atest.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session4Asoln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><a href="https://youtu.be/un6-H_wOizM">Accounting Inconsistencies &amp; Consequences</a></td>
 <td>Look at the items (stock based compensation, R&amp;D, leases) where there are accounting inconsistencies, and how they play out in the statements.</td>
@@ -104,7 +104,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session5test.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session5soln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr>
 <td>5A</td>
 <td><a href="https://youtu.be/o4_GwR_6jR4">Accounting Inconsistencies: Illustrations</a></td>
 <td>Look at the how to resolve inconsistencies in accounting in real-world examples.</td>
@@ -113,7 +113,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session5Atest.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session5Asoln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>6</td>
 <td><a href="https://youtu.be/ZXXF-rSaE9E">Financial Ratios: Of comps and peer groups</a></td>
 <td>Ratiosare scaling mechanisms, allowing for comparisons across companies and acrosstime. In this session, I look at a range of ratios that can help in analysis.</td>
@@ -122,7 +122,7 @@ This is a course of short webcasts (about 12-20 minutes apiece), designed to int
 <li><p><a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session6test.pdf">Post-class test</a>&amp;<a href="http://www.stern.nyu.edu/~adamodar/pdfiles/Accounting101/postclass/session6soln.pdf">solution</a></p></li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr>
 <td>6A</td>
 <td><a href="https://youtu.be/pL2wIDWXN68">Financial Ratios: Illustrations</a></td>
 <td>Look at using financial ratios to make judgments about profitability, leverage and liquidity with real-world examples.</td>

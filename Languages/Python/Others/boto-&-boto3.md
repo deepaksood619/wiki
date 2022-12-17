@@ -154,7 +154,7 @@ key = f"test/{datetime.now().strftime('%Y%m%d')}/{payload['cust_id']}-{datetime.
 
 s3_client.put_object(Body=json.dumps(payload), Bucket='example-migration-data', Key=key)
 
-The**upload_file**method is handled by the S3 Transfer Manager, this means that it will automatically handle multipart uploads behind the scenes for you, if necessary.
+The **upload_file** method is handled by the S3 Transfer Manager, this means that it will automatically handle multipart uploads behind the scenes for you, if necessary.
 
 Theput_objectmethod maps directly to the low-level S3 API request. It does not handle multipart uploads for you. It will attempt to send the entire body in one request.
 
@@ -242,7 +242,7 @@ ExpiresIn=settings.REPORT_TTL,
 
 ## AWS
 
-Here's some more detailed information on what[Client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html),[Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html), and[Session](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/session.html) are all about.
+Here's some more detailed information on what[Client](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/clients.html), [Resource](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html), and[Session](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/session.html) are all about.
 
 ## Client
 

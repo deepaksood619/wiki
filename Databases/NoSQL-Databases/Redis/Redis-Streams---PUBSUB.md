@@ -130,7 +130,7 @@ c.  Each consumer group has the concept of thefirst ID never consumedso that, wh
 d.  Consuming a message however requires explicit acknowledge using a specific command, to say: this message was correctly processed, so can be evicted from the consumer group.
 
 e.  A consumer group tracks all the messages that are currently pending, that is, messages that were delivered to some consumer of the consumer group, but are yet to be acknowledged as processed. Thanks to this feature, when accessing the history of messages of a stream, each consumerwill only see messages that were delivered to it.
-Actually, it is even possible for the same stream to have clients reading without consumer groups via**XREAD**, and clients reading via**XREADGROUP**in different consumer groups.
+Actually, it is even possible for the same stream to have clients reading without consumer groups via **XREAD**, and clients reading via **XREADGROUP** in different consumer groups.
 
 ## Creating a consumer group
 
@@ -201,7 +201,7 @@ A Stream, like any other Redis data structure, is asynchronously replicated to s
 
 ## PUBSUB
 
-[SUBSCRIBE](https://redis.io/commands/subscribe),[UNSUBSCRIBE](https://redis.io/commands/unsubscribe) and [PUBLISH](https://redis.io/commands/publish) implement the [Publish/Subscribe messaging paradigm](http://en.wikipedia.org/wiki/Publish/subscribe) where (citing Wikipedia) senders (publishers) are not programmed to send their messages to specific receivers (subscribers). Rather, published messages are characterized into channels, without knowledge of what (if any) subscribers there may be. Subscribers express interest in one or more channels, and only receive messages that are of interest, without knowledge of what (if any) publishers there are. This decoupling of publishers and subscribers can allow for greater scalability and a more dynamic network topology.
+[SUBSCRIBE](https://redis.io/commands/subscribe), [UNSUBSCRIBE](https://redis.io/commands/unsubscribe) and [PUBLISH](https://redis.io/commands/publish) implement the [Publish/Subscribe messaging paradigm](http://en.wikipedia.org/wiki/Publish/subscribe) where (citing Wikipedia) senders (publishers) are not programmed to send their messages to specific receivers (subscribers). Rather, published messages are characterized into channels, without knowledge of what (if any) subscribers there may be. Subscribers express interest in one or more channels, and only receive messages that are of interest, without knowledge of what (if any) publishers there are. This decoupling of publishers and subscribers can allow for greater scalability and a more dynamic network topology.
 <https://redis.io/topics/pubsub>
 
 ## PUBSUB vs Streams**
@@ -223,7 +223,7 @@ Redis Streams allows for both At-most-once or At-least-once (explicit acknowledg
 
 ## Blocking mode for consumers
 
-Pub/Sub is blocking-mode only. Once subscribed to a channel, the client is put into subscriber mode and it cannot issue commands (except for [P]SUBSCRIBE,[P]UNSUBSCRIBE,PINGandQUIT), it has become read-only.
+Pub/Sub is blocking-mode only. Once subscribed to a channel, the client is put into subscriber mode and it cannot issue commands (except for [P]SUBSCRIBE, [P]UNSUBSCRIBE,PINGandQUIT), it has become read-only.
 Redis Streams allows consumers to read messages in blocking mode or not.
 
 ## Fan-out

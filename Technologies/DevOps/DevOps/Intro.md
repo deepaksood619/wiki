@@ -12,7 +12,7 @@ SRE - Site Reliability Engineers
 
 Devops (Development Operations) is a set of practices.
 
-It is a software engineering culture and practice that aims at unifying software development (Dev) and software operations (Ops). The main characteristic of the DevOps movement is to strongly advocate [automation](https://en.wikipedia.org/wiki/Automation) and [monitoring](https://en.wikipedia.org/wiki/Event_monitoring) at all steps of [software construction](https://en.wikipedia.org/wiki/Software_build), from [integration](https://en.wikipedia.org/wiki/Continuous_integration),[testing](https://en.wikipedia.org/wiki/Test_automation),[releasing](https://en.wikipedia.org/wiki/Software_release_life_cycle) to deployment and [infrastructure management](https://en.wikipedia.org/wiki/Infrastructure_as_Code). DevOps aims at shorter development cycles,[increased deployment frequency](https://en.wikipedia.org/wiki/Continuous_delivery), and more dependable releases, in close alignment with business objectives.
+It is a software engineering culture and practice that aims at unifying software development (Dev) and software operations (Ops). The main characteristic of the DevOps movement is to strongly advocate [automation](https://en.wikipedia.org/wiki/Automation) and [monitoring](https://en.wikipedia.org/wiki/Event_monitoring) at all steps of [software construction](https://en.wikipedia.org/wiki/Software_build), from [integration](https://en.wikipedia.org/wiki/Continuous_integration), [testing](https://en.wikipedia.org/wiki/Test_automation), [releasing](https://en.wikipedia.org/wiki/Software_release_life_cycle) to deployment and [infrastructure management](https://en.wikipedia.org/wiki/Infrastructure_as_Code). DevOps aims at shorter development cycles, [increased deployment frequency](https://en.wikipedia.org/wiki/Continuous_delivery), and more dependable releases, in close alignment with business objectives.
 
 ## What is CI/CD and what are its benefits?
 
@@ -28,7 +28,7 @@ DevOps is a set of practices intended to reduce the time between committing a ch
 
 ![Illustration showing stages in a DevOps toolchain](../../media/DevOps-DevOps-Intro-image1.png)
 
-1. Plan / Code --- code development and review,[source code management](https://en.wikipedia.org/wiki/Version_control) tools, code merging
+1. Plan / Code --- code development and review, [source code management](https://en.wikipedia.org/wiki/Version_control) tools, code merging
 
 2. Create / Build ---[continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) tools, build status
 
@@ -36,9 +36,9 @@ DevOps is a set of practices intended to reduce the time between committing a ch
 
 4. Package ---[artifact repository](https://en.wikipedia.org/wiki/Binary_repository_manager), application pre-deployment staging
 
-5. Release --- change management, release approvals,[release automation](https://en.wikipedia.org/wiki/Application_release_automation)
+5. Release --- change management, release approvals, [release automation](https://en.wikipedia.org/wiki/Application_release_automation)
 
-6. Configure --- infrastructure configuration and management,[Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) tools
+6. Configure --- infrastructure configuration and management, [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code) tools
 
 7. Monitor ---[applications performance monitoring](https://en.wikipedia.org/wiki/Application_performance_management), end--user experience
 

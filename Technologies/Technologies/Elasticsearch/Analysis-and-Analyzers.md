@@ -74,6 +74,6 @@ Researchers have started to focus on embedding techniques that represent not onl
 
 Once trained, the models are able to take a sentence and produce a vector for each word in context, as well as a vector for the entire sentence. Similarly to word embedding, pre-trained versions of many models are available, allowing users to skip the expensive training process. While the training process can be very resource-intensive, invoking the model is much more lightweight --- sentence embedding models are typically fast enough to be used as part of real-time applications.
 
-Some common sentence embedding techniques include [InferSent](https://arxiv.org/abs/1705.02364),[Universal Sentence Encoder](https://arxiv.org/abs/1803.11175),[ELMo](https://arxiv.org/abs/1802.05365), and [BERT](https://arxiv.org/abs/1810.04805). Improving word and sentence embeddings is an active area of research, and it's likely that additional strong models will be introduced.
+Some common sentence embedding techniques include [InferSent](https://arxiv.org/abs/1705.02364), [Universal Sentence Encoder](https://arxiv.org/abs/1803.11175), [ELMo](https://arxiv.org/abs/1802.05365), and [BERT](https://arxiv.org/abs/1810.04805). Improving word and sentence embeddings is an active area of research, and it's likely that additional strong models will be introduced.
 
 <https://www.elastic.co/blog/text-similarity-search-with-vectors-in-elasticsearch>

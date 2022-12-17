@@ -592,11 +592,11 @@ The five most powerful intrinsic motivators are **curiosity, passion, purpose, a
 
 - Write down --⁠ by hand --⁠ 25 things you're curious about
 
-When you explore your curiosities, your brain rewards you with small amounts of a feel-good chemical known as**dopamine**.
+When you explore your curiosities, your brain rewards you with small amounts of a feel-good chemical known as **dopamine**.
 
 - What you need is passion, which provides a much greater dopamine boost. Often, you can find your passions by looking for intersections among your curiosities.
 - Autonomy simply means the freedom to pursue your purpose. To cultivate it, try carving out at least 15 percent of the day just for yourself. This will help increase your motivation.
-- mastery --⁠ the desire to get better at the things you do. For this motivator, you need to get into a special state of mind psychologists call**flow**.
+- mastery --⁠ the desire to get better at the things you do. For this motivator, you need to get into a special state of mind psychologists call **flow**.
 
 ## Break up the impossible into large and small goals
 
@@ -604,7 +604,7 @@ According to Latham, big goals lead to the largest increases in motivation and p
 
 HHGs can take years to achieve. So you'll need smaller daily targets along the way. Let's call these**clear goals**; theytake you closer to your HHGs. Say you're a writer, and your HHG is to pen a novel. One of your clear goals might be to write 500 words every day between 8:00 and 10:00 a.m.
 
-Completing your clear goals will reward you with dopamine. Even so, endless persistence can be tough. That's where**grit**comes in --⁠ the energy it takes to push through years of hard work. Some people are more naturally gritty than others. But don't worry if that's not you. It's a skill you can improve.
+Completing your clear goals will reward you with dopamine. Even so, endless persistence can be tough. That's where **grit** comes in --⁠ the energy it takes to push through years of hard work. Some people are more naturally gritty than others. But don't worry if that's not you. It's a skill you can improve.
 
 One way to cultivate grit is to work around your natural energy levels. Willpower is a major aspect of grit, and it deteriorates throughout the day. So schedule your most difficult daily task for the morning, when your energy is at its peak. Then, continue your tasks in order of descending importance.
 
@@ -621,7 +621,7 @@ As you complete goals, your brain rewards your persistence with dopamine. Grit w
 
 ## Creativity requires activating three different networks in the brain
 
-Now, neuroscientists know a little bit more about what creativity is neurologically. It involves two different networks in the brain working in tandem:**attention**and**imagination**.
+Now, neuroscientists know a little bit more about what creativity is neurologically. It involves two different networks in the brain working in tandem: **attention** and **imagination**.
 
 Attention allows us to concentrate and make choices. Imagination takes care of what happens when our minds wander --⁠ whether it's daydreaming, making plans, or imagining future scenarios.
 
@@ -629,7 +629,7 @@ When we're thinking creatively, these two systems are working in tandem --⁠ so
 
 ## Salience network
 
-The job of this network is to let you know that an idea you've just had is worth your attention. It also controls your ability to shift between your attention and imagination faculties. And, importantly, it also conducts**repetition suppression**. That means it suppresses familiar stimuli so that you experience them as normal rather than new and exciting. But in creatives, the salience network**doesn't**engage in repetition suppression in the same way. That means they tend to notice beauty and novelty where others may not.
+The job of this network is to let you know that an idea you've just had is worth your attention. It also controls your ability to shift between your attention and imagination faculties. And, importantly, it also conducts **repetition suppression**. That means it suppresses familiar stimuli so that you experience them as normal rather than new and exciting. But in creatives, the salience network **doesn't** engage in repetition suppression in the same way. That means they tend to notice beauty and novelty where others may not.
 
 ## A positive mood boosts your creativity
 

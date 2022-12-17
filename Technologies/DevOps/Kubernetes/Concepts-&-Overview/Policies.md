@@ -122,17 +122,17 @@ For example, the policy file shown belowauthorizes user Bob to read pods in the 
 
 - RBAC (Role Based Access Control)
 
-All resources are modeled API objects in Kubernetes, from Pods to Namespaces. They also belong to API Groups, such as**core**and**apps**. These resources allow operations such as Create, Read, Update, and Delete (CRUD), which we have been working with so far. Operations are called**verbs**inside YAML files. Adding to these basic components, we will add more elements of the API, which can then be managed via RBAC.
+All resources are modeled API objects in Kubernetes, from Pods to Namespaces. They also belong to API Groups, such as **core** and **apps**. These resources allow operations such as Create, Read, Update, and Delete (CRUD), which we have been working with so far. Operations are called **verbs** inside YAML files. Adding to these basic components, we will add more elements of the API, which can then be managed via RBAC.
 
-Rules are operations which can act upon an API group. Roles are a group of rules which affect, or scope, a single namespace, whereas**ClusterRoles**have a scope of the entire cluster.
+Rules are operations which can act upon an API group. Roles are a group of rules which affect, or scope, a single namespace, whereas **ClusterRoles** have a scope of the entire cluster.
 
-Each operation can act upon one of three subjects, which are**User Accounts**which don't exist as API objects,**Service Accounts**, and**Groups**which are known as**clusterrolebinding**when using kubectl.
+Each operation can act upon one of three subjects, which are**User Accounts** which don't exist as API objects, **Service Accounts**, and **Groups** which are known as **clusterrolebinding** when using kubectl.
 
 RBAC is then writing rules to allow or deny operations by users, roles or groups upon resources.
 
 While RBAC can be complex, the basic flow is to create a certificate for a user. As a user is not an API object of Kubernetes, we are requiring outside authentication, such as OpenSSL certificates. After generatingthe certificate against the cluster certificate authority, we can set that credential for the user using a context.
 
-Roles can then be used to configure an association of**apiGroups**,**resources**, and the**verbs**allowed to them. The user can then be bound to a role limiting what and where they can work inthe cluster.
+Roles can then be used to configure an association of **apiGroups**, **resources**, and the **verbs** allowed to them. The user can then be bound to a role limiting what and where they can work inthe cluster.
 
 Here is a summary of the RBAC process:
 

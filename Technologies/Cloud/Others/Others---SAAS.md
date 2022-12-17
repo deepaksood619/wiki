@@ -148,7 +148,7 @@ BPM - Business Process Management
 
 Droolsis a**[business rule management system](https://en.wikipedia.org/wiki/Business_rule_management_system)(BRMS)** with a [forward](https://en.wikipedia.org/wiki/Forward_chaining) and [backward chaining](https://en.wikipedia.org/wiki/Backward_chaining) inference based [rules engine](https://en.wikipedia.org/wiki/Rules_engine), more correctly known as a [production rule system](https://en.wikipedia.org/wiki/Production_system_(computer_science)), using an enhanced implementation of the [Rete algorithm](https://en.wikipedia.org/wiki/Rete_algorithm).
 
-KIE (Knowledge Is Everything) is the new umbrella name to drools,[optaPlanner](https://en.wikipedia.org/wiki/OptaPlanner),[jBPM](https://en.wikipedia.org/wiki/JBPM), Guvnor, uberFire and related technologies.
+KIE (Knowledge Is Everything) is the new umbrella name to drools, [optaPlanner](https://en.wikipedia.org/wiki/OptaPlanner), [jBPM](https://en.wikipedia.org/wiki/JBPM), Guvnor, uberFire and related technologies.
 
 Drools supports the Java Rules Engine API (Java Specification Request 94) standard for its [business rule](https://en.wikipedia.org/wiki/Business_rule) engine and enterprise framework for the construction, maintenance, and enforcement of business policies in an organization, application, or service.
 
@@ -183,13 +183,13 @@ Aworkflowconsists of an orchestrated and repeatable [pattern](https://en.wikiped
 
 From a more abstract or higher-level perspective, workflow may be considered a view or representation of real work.The flow being described may refer to a [document](https://en.wikipedia.org/wiki/Document), service, or [product](https://en.wikipedia.org/wiki/Product_(business)) that is being transferred from one step to another.
 
-Workflows may be viewed as one fundamental building block to be combined with other parts of an organization's structure such as information technology,[teams](https://en.wikipedia.org/wiki/Team),[projects](https://en.wikipedia.org/wiki/Project) and [hierarchies](https://en.wikipedia.org/wiki/Hierarchical_organization).[[4]](https://en.wikipedia.org/wiki/Workflow#cite_note-nocsmart-4)
+Workflows may be viewed as one fundamental building block to be combined with other parts of an organization's structure such as information technology, [teams](https://en.wikipedia.org/wiki/Team), [projects](https://en.wikipedia.org/wiki/Project) and [hierarchies](https://en.wikipedia.org/wiki/Hierarchical_organization).[[4]](https://en.wikipedia.org/wiki/Workflow#cite_note-nocsmart-4)
 
 <https://en.wikipedia.org/wiki/Workflow>
 
 ## Forward Chaining
 
-Forward chaining(orforward reasoning) is one of the two main methods of [reasoning](https://en.wikipedia.org/wiki/Automated_reasoning) when using an [inference engine](https://en.wikipedia.org/wiki/Inference_engine) and can be described [logically](https://en.wikipedia.org/wiki/Logically) as repeated application of [modus ponens](https://en.wikipedia.org/wiki/Modus_ponens). Forward chaining is a popular implementation strategy for [expert systems](https://en.wikipedia.org/wiki/Expert_system),[business](https://en.wikipedia.org/wiki/Business_rules_engine) and [production rule systems](https://en.wikipedia.org/wiki/Production_system_(computer_science)). The opposite of forward chaining is [backward chaining](https://en.wikipedia.org/wiki/Backward_chaining).
+Forward chaining(orforward reasoning) is one of the two main methods of [reasoning](https://en.wikipedia.org/wiki/Automated_reasoning) when using an [inference engine](https://en.wikipedia.org/wiki/Inference_engine) and can be described [logically](https://en.wikipedia.org/wiki/Logically) as repeated application of [modus ponens](https://en.wikipedia.org/wiki/Modus_ponens). Forward chaining is a popular implementation strategy for [expert systems](https://en.wikipedia.org/wiki/Expert_system), [business](https://en.wikipedia.org/wiki/Business_rules_engine) and [production rule systems](https://en.wikipedia.org/wiki/Production_system_(computer_science)). The opposite of forward chaining is [backward chaining](https://en.wikipedia.org/wiki/Backward_chaining).
 
 Forward chaining starts with the available [data](https://en.wikipedia.org/wiki/Data) and uses [inference rules](https://en.wikipedia.org/wiki/Inference_rule) to extract more data (from an end user, for example) until a [goal](https://en.wikipedia.org/wiki/Goal) is reached. An [inference engine](https://en.wikipedia.org/wiki/Inference_engine) using forward chaining searches the inference rules until it finds one where the [antecedent](https://en.wikipedia.org/wiki/Antecedent_(logic))(**Ifclause**) is known to be true. When such a rule is found, the engine can conclude, or infer, the [consequent](https://en.wikipedia.org/wiki/Consequent)(**Thenclause**), resulting in the addition of new [information](https://en.wikipedia.org/wiki/Information) to its data.
 
@@ -199,7 +199,7 @@ Inference engines will [iterate](https://en.wikipedia.org/wiki/Iteration#Computi
 
 ## Backward Chaining
 
-Backward chaining(orbackward reasoning) is an [inference](https://en.wikipedia.org/wiki/Inference) method described colloquially as working backward from the goal. It is used in [automated theorem provers](https://en.wikipedia.org/wiki/Automated_theorem_prover),[inference engines](https://en.wikipedia.org/wiki/Inference_engine),[proof assistants](https://en.wikipedia.org/wiki/Proof_assistant), and other [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) applications.
+Backward chaining(orbackward reasoning) is an [inference](https://en.wikipedia.org/wiki/Inference) method described colloquially as working backward from the goal. It is used in [automated theorem provers](https://en.wikipedia.org/wiki/Automated_theorem_prover), [inference engines](https://en.wikipedia.org/wiki/Inference_engine), [proof assistants](https://en.wikipedia.org/wiki/Proof_assistant), and other [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) applications.
 
 In [game theory](https://en.wikipedia.org/wiki/Game_theory), researchers apply it to (simpler)[subgames](https://en.wikipedia.org/wiki/Subgame) to find a solution to the game, in a process called [backward induction](https://en.wikipedia.org/wiki/Backward_induction). In chess, it is called [retrograde analysis](https://en.wikipedia.org/wiki/Retrograde_analysis), and it is used to generate table bases for [chess endgames](https://en.wikipedia.org/wiki/Chess_endgame) for [computer chess](https://en.wikipedia.org/wiki/Computer_chess).
 

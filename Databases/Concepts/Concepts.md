@@ -43,7 +43,7 @@ a.  **Prepare:** At first, the application creates the statement template and se
 
 INSERTINTOproducts(name,price)VALUES(?,?);
 
-b.  Then, the DBMS compiles (parses,[optimizes](https://en.wikipedia.org/wiki/Query_optimization) and translates) the statement template, and stores the result without executing it.
+b.  Then, the DBMS compiles (parses, [optimizes](https://en.wikipedia.org/wiki/Query_optimization) and translates) the statement template, and stores the result without executing it.
 
 c.  **Execute:** At a later time, the application supplies (orbinds) values for the parameters of the statement template, and the DBMS executes the statement (possibly returning a result). The application may execute the statement as many times as it wants with different values. In the above example, it might supply "bike" for the first parameter and "10900" for the second parameter.
 As compared to executing statements directly, prepared statements offer two main advantages:

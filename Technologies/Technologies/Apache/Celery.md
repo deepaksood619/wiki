@@ -31,7 +31,7 @@ Language interoperability can also be achieved by using webhooks in such a way t
   - The recommended [message brokers](https://en.wikipedia.org/wiki/Message_broker) are [RabbitMQ](https://en.wikipedia.org/wiki/RabbitMQ) or [Redis](https://en.wikipedia.org/wiki/Redis).
 - **Concurrency**
   - prefork (multiprocessing),
-  - [Eventlet](http://eventlet.net/),[gevent](http://gevent.org/)
+  - [Eventlet](http://eventlet.net/), [gevent](http://gevent.org/)
   - thread (multithreaded)
   - solo(single threaded)
 - **Result Stores**

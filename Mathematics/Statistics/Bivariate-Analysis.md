@@ -13,7 +13,7 @@ Bivariate analysis can be contrasted with [univariate analysis](https://en.wikip
 
 ![image](media/Bivariate-Analysis-image1.png)
 
-Waiting time between eruptions and the duration of the eruption for the [Old Faithful Geyser](https://en.wikipedia.org/wiki/Old_Faithful_Geyser) in [Yellowstone National Park](https://en.wikipedia.org/wiki/Yellowstone_National_Park),[Wyoming](https://en.wikipedia.org/wiki/Wyoming), USA. This [scatterplot](https://en.wikipedia.org/wiki/Scatterplot) suggests there are generally two "types" of eruptions: short-wait-short-duration, and long-wait-long-duration.
+Waiting time between eruptions and the duration of the eruption for the [Old Faithful Geyser](https://en.wikipedia.org/wiki/Old_Faithful_Geyser) in [Yellowstone National Park](https://en.wikipedia.org/wiki/Yellowstone_National_Park), [Wyoming](https://en.wikipedia.org/wiki/Wyoming), USA. This [scatterplot](https://en.wikipedia.org/wiki/Scatterplot) suggests there are generally two "types" of eruptions: short-wait-short-duration, and long-wait-long-duration.
 
 ## Graphical Methods
 

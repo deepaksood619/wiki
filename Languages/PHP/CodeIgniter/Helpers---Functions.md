@@ -10,7 +10,7 @@ As the name suggests, it will help you build your system. It is divided into sma
 
 Helpers are typically stored in yoursystem/helpers, orapplication/helpers directory. Custom helpers are stored inapplication/helpersdirectory and systems' helpers are stored insystem/helpersdirectory. CodeIgniter will look first in yourapplication/helpers directory. If the directory does not exist or the specified helper is not located, CodeIgniter will instead, look in your globalsystem/helpers/ directory. Each helper, whether it is custom or system helper, must be loaded before using it.
 
-There are**URL Helpers**, that assist in creating links, there are**Form Helpers**that help you create form elements,**Text Helpers**perform various text formatting routines,**Cookie Helpers**set and read cookies,**File Helpers**help you deal with files, etc.
+There are**URL Helpers**, that assist in creating links, there are**Form Helpers** that help you create form elements, **Text Helpers** perform various text formatting routines, **Cookie Helpers** set and read cookies, **File Helpers** help you deal with files, etc.
 
 <table>
 <colgroup>
@@ -24,107 +24,107 @@ There are**URL Helpers**, that assist in creating links, there are**Form Helpers
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>1</td>
 <td><p>Array Helper</p>
 <p>The Array Helper file contains functions that assist in working with arrays.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>2</td>
 <td><p>CAPTCHA Helper</p>
 <p>The CAPTCHA Helper file contains functions that assist in creating CAPTCHA images.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3</td>
 <td><p>Cookie Helper</p>
 <p>The Cookie Helper file contains functions that assist in working with cookies.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>4</td>
 <td><p>Date Helper</p>
 <p>The Date Helper file contains functions that help you work with dates.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>5</td>
 <td><p>Directory Helper</p>
 <p>The Directory Helper file contains functions that assist in working with directories.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>6</td>
 <td><p>Download Helper</p>
 <p>The Download Helper lets you download data to your desktop.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>7</td>
 <td><p>Email Helper</p>
 <p>The Email Helper provides some assistive functions for working with Email. For a more robust email solution, see CodeIgniter’s Email Class.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>8</td>
 <td><p>File Helper</p>
 <p>The File Helper file contains functions that assist in working with files.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>9</td>
 <td><p>Form Helper</p>
 <p>The Form Helper file contains functions that assist in working with forms.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>10</td>
 <td><p>HTML Helper</p>
 <p>The HTML Helper file contains functions that assist in working with HTML.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>11</td>
 <td><p>Inflector Helper</p>
 <p>The Inflector Helper file contains functions that permits you to change words to plural, singular, camel case, etc.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>12</td>
 <td><p>Language Helper</p>
 <p>The Language Helper file contains functions that assist in working with language files.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>13</td>
 <td><p>Number Helper</p>
 <p>The Number Helper file contains functions that help you work with numeric data.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>14</td>
 <td><p>Path Helper</p>
 <p>The Path Helper file contains functions that permits you to work with file paths on the server.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>15</td>
 <td><p>Security Helper</p>
 <p>The Security Helper file contains security related functions.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>16</td>
 <td><p>Smiley Helper</p>
 <p>The Smiley Helper file contains functions that let you manage smileys (emoticons).</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>17</td>
 <td><p>String Helper</p>
 <p>The String Helper file contains functions that assist in working with strings.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>18</td>
 <td><p>Text Helper</p>
 <p>The Text Helper file contains functions that assist in working with text.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>19</td>
 <td><p>Typography Helper</p>
 <p>The Typography Helper file contains functions that help your format text in semantically relevant ways.</p></td>
 </tr>
-<tr class="even">
+<tr>
 <td>20</td>
 <td><p>URL Helper</p>
 <p>The URL Helper file contains functions that assist in working with URLs.</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>21</td>
 <td><p>XML Helper</p>
 <p>The XML Helper file contains functions that assist in working with XML data.</p></td>

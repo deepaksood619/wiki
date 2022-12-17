@@ -10,7 +10,7 @@ Thehuman skeletonis the internal framework of the body. It is composed of around
 
 The human skeleton performs six major functions; support, movement, protection, production of [blood cells](https://en.wikipedia.org/wiki/Blood_cells), storage of minerals, and endocrine regulation.
 
-The human skeleton is not as [sexually dimorphic](https://en.wikipedia.org/wiki/Sexual_dimorphism) as that of many other primate species, but subtle differences between sexes in the [morphology](https://en.wikipedia.org/wiki/Morphology_(biology)) of the [skull](https://en.wikipedia.org/wiki/Human_skull),[dentition](https://en.wikipedia.org/wiki/Dentition),[long bones](https://en.wikipedia.org/wiki/Long_bone), and pelvis exist. In general, female skeletal elements tend to be smaller and less robust than corresponding male elements within a given population. The human [female pelvis](https://en.wikipedia.org/wiki/Female_pelvis) is also different from that of males in order to facilitate [childbirth](https://en.wikipedia.org/wiki/Childbirth).Unlike most primates, human males do not have [penile bones](https://en.wikipedia.org/wiki/Penile_bone).
+The human skeleton is not as [sexually dimorphic](https://en.wikipedia.org/wiki/Sexual_dimorphism) as that of many other primate species, but subtle differences between sexes in the [morphology](https://en.wikipedia.org/wiki/Morphology_(biology)) of the [skull](https://en.wikipedia.org/wiki/Human_skull), [dentition](https://en.wikipedia.org/wiki/Dentition), [long bones](https://en.wikipedia.org/wiki/Long_bone), and pelvis exist. In general, female skeletal elements tend to be smaller and less robust than corresponding male elements within a given population. The human [female pelvis](https://en.wikipedia.org/wiki/Female_pelvis) is also different from that of males in order to facilitate [childbirth](https://en.wikipedia.org/wiki/Childbirth).Unlike most primates, human males do not have [penile bones](https://en.wikipedia.org/wiki/Penile_bone).
 
 ## Skeletal Divisions
 
@@ -107,7 +107,7 @@ There are a total of 64 bones in the arm.
 
 ## Pelvis (pelvic girdle)
 
-The pelvis (or [hip bone](https://en.wikipedia.org/wiki/Hip_bone)) is made up of three regions that have fused to form two coxal bones. They are:[ilium](https://en.wikipedia.org/wiki/Ilium_(bone)),[ischium](https://en.wikipedia.org/wiki/Ischium), and [pubis](https://en.wikipedia.org/wiki/Pubis_(bone))
+The pelvis (or [hip bone](https://en.wikipedia.org/wiki/Hip_bone)) is made up of three regions that have fused to form two coxal bones. They are:[ilium](https://en.wikipedia.org/wiki/Ilium_(bone)), [ischium](https://en.wikipedia.org/wiki/Ischium), and [pubis](https://en.wikipedia.org/wiki/Pubis_(bone))
 
 - The [sacrum](https://en.wikipedia.org/wiki/Sacrum) and the [coccyx](https://en.wikipedia.org/wiki/Coccyx) attach to the two hip bones to form the [pelvis](https://en.wikipedia.org/wiki/Human_pelvis), but are more important to the spinal column, where they are counted.
 

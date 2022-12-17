@@ -109,13 +109,13 @@ Command + Shit + p (directly run commands)
 - Shell Command : Install code in PATH
 - $ code .
 
-- **Fold**folds the innermost uncollapsed region at the cursor:
+- **Fold** folds the innermost uncollapsed region at the cursor:
   - ⌥+⌘+[on macOS
-- **Unfold**unfolds the collapsed region at the cursor:
+- **Unfold** unfolds the collapsed region at the cursor:
   - ⌥+⌘+]on macOS
-- **Fold All**folds all regions in the editor:
+- **Fold All** folds all regions in the editor:
   - ⌘+ (K=>0) (zero) on macOS
-- **Unfold All**unfolds all regions in the editor:
+- **Unfold All** unfolds all regions in the editor:
   - ⌘+ (K=>J) on macOS
 
 - Ctrl - (go back)

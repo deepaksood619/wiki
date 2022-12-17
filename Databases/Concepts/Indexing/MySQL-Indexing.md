@@ -225,7 +225,7 @@ Similar to what we've just said with the prefix rule, the second you use a range
 
 SELECT *FROM phonebook WHERE last_name LIKE 'f%' AND first_name ='Ned';ADD INDEX (last_name, first_name, phone_number)
 This would utilize the first part (last_name) of our index, allowing us to quickly satisfy the range conditional and find all rows with thelast_namebeginning with 'f'; however after this, there isn't any way our B-Tree can be further utilized to quickly filter onfirst_name.
-## *If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
+##*If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
 
 Similarly, you can't use an index fully to perform range queries on two columns for the points already mentioned.-   You may need to have indexes on the same columns in different orders depending on your queries.
 

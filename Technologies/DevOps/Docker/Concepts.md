@@ -8,7 +8,7 @@ Modified: 2020-05-18 01:45:06 +0500
 
 ## Namespaces
 
-Docker uses a technology called*namespaces*to provide the isolated workspace called the*container*. When you run a container, Docker creates a set ofnamespacesfor that container.
+Docker uses a technology called *namespaces*to provide the isolated workspace called the *container*. When you run a container, Docker creates a set ofnamespacesfor that container.
 
 These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 
@@ -42,7 +42,7 @@ Union file systems, or UnionFS, are file systems that operate by creating layers
 
 ## Container format
 
-Docker Engine combines the namespaces, control groups, and UnionFS into a wrapper called a container format. The default container format is*libcontainer*. In the future, Docker may support other container formats by integrating with technologies such as BSD Jails or Solaris Zones.
+Docker Engine combines the namespaces, control groups, and UnionFS into a wrapper called a container format. The default container format is *libcontainer*. In the future, Docker may support other container formats by integrating with technologies such as BSD Jails or Solaris Zones.
 
 ## Docker-Machine
 

@@ -24,8 +24,8 @@ Modified: 2022-04-04 12:54:11 +0500
 
 PRPL is a pattern for structuring and serving **Progressive Web Apps (PWAs)**, with an emphasis on the performance of app delivery and launch. It stands for:
 
-- **Push**critical resources for the initial URL route.
-- **Render**initial route.
+- **Push** critical resources for the initial URL route.
+- **Render** initial route.
 - **Pre-cache**remaining routes.
 - **Lazy-load**and create remaining routes on demand.
 

@@ -90,44 +90,44 @@ How to choose a financial product?
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>When do I need the money? (years)</td>
 <td>15</td>
 </tr>
-<tr class="even">
+<tr>
 <td>What is the current cost if I need the money now?</td>
 <td>5,00,000</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>By what rate will this cost increase each year?</td>
 <td>12%</td>
 </tr>
-<tr class="even">
+<tr>
 <td>What would be this cost after 25 years?</td>
 <td>27,36,783</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>What return can I expect from equity after tax?</td>
 <td>9%</td>
 </tr>
-<tr class="even">
+<tr>
 <td>How much equity should I initially have in my portfolio?</td>
 <td>50%</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>What return can I expect from fixed income (after tax)?</td>
 <td>6% PPF / Gilt MF?</td>
 </tr>
-<tr class="even">
+<tr>
 <td>What return can I initially expect from the full portfolio?</td>
 <td>7.5%</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><p>For the above annualised portfolio return how much</p>
 <p>should I invest each year?</p></td>
 <td>1,14,862</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Where should I invest in equity?</td>
 <td></td>
 </tr>

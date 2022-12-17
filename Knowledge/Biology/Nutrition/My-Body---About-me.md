@@ -56,28 +56,28 @@ Lean Weight: 58 - 2.2 = 55.8 KG / 123 lbs
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Body Fat Category</td>
 <td>Essential Fat</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Body Fat Mass</td>
 <td>2.2 kgs</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Lean Body Mass</td>
 <td>55.8 kgs</td>
 </tr>
-<tr class="even">
+<tr>
 <td><p>Ideal Body Fat for Given Age</p>
 <p>(Jackson &amp; Pollard)</p></td>
 <td>10.5%</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Body Fat to Gain to Reach Ideal</td>
 <td>3.9 kgs</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Body Fat (BMI method)</td>
 <td>15.4%</td>
 </tr>

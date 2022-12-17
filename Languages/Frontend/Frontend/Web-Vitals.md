@@ -12,11 +12,11 @@ Web Vitals is an initiative by Google to provide unified guidance for quality si
 
 ## Largest Contentful Paint (LCP)
 
-Measures**loadingperformance**. To provide a good user experience, LCP should occur within2.5 secondsof when the page first starts loading.
+Measures **loadingperformance**. To provide a good user experience, LCP should occur within2.5 secondsof when the page first starts loading.
 
 ## First Input Delay (FID)
 
-Measures**interactivity**. To provide a good user experience, pages should have a FID of less than100 milliseconds.
+Measures **interactivity**. To provide a good user experience, pages should have a FID of less than100 milliseconds.
 
 ## Cumulative Layout Shift (CLS)
 

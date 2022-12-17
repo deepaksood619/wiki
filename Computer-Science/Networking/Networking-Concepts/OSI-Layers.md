@@ -29,51 +29,51 @@ It was designed to be a reference model for describing the functions of a commun
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><strong>Layer</strong></td>
 <td></td>
 <td><strong><a href="https://en.wikipedia.org/wiki/Protocol_data_unit">Protocol data unit</a>(PDU)</strong></td>
 <td><strong>Function</strong><a href="https://en.wikipedia.org/wiki/OSI_model#cite_note-3"></a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><strong>Host</strong></p>
 <p><strong>layers</strong></p></td>
 <td>7.<a href="https://en.wikipedia.org/wiki/Application_layer">Application</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Data_(computing)">Data</a></td>
 <td>High-level<a href="https://en.wikipedia.org/wiki/API">APIs</a>, including resource sharing, remote file access</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td>6.<a href="https://en.wikipedia.org/wiki/Presentation_layer">Presentation</a></td>
 <td></td>
 <td>Translation of data between a networking service and an application; including<a href="https://en.wikipedia.org/wiki/Character_encoding">character encoding</a>,<a href="https://en.wikipedia.org/wiki/Data_compression">data compression</a>and<a href="https://en.wikipedia.org/wiki/Encryption">encryption/decryption</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>5.<a href="https://en.wikipedia.org/wiki/Session_layer">Session</a></td>
 <td></td>
 <td>Managing communication<a href="https://en.wikipedia.org/wiki/Session_(computer_science)">sessions</a>, i.e. continuous exchange of information in the form of multiple back-and-forth transmissions between two nodes</td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td>4.<a href="https://en.wikipedia.org/wiki/Transport_layer">Transport</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Packet_segmentation">Segment</a>,<a href="https://en.wikipedia.org/wiki/Datagram">Datagram</a></td>
 <td>Reliable transmission of data segments between points on a network, including<a href="https://en.wikipedia.org/wiki/Packet_segmentation">segmentation</a>,<a href="https://en.wikipedia.org/wiki/Acknowledgement_(data_networks)">acknowledgement</a>and<a href="https://en.wikipedia.org/wiki/Multiplexing">multiplexing</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td><p><strong>Media</strong></p>
 <p><strong>layers</strong></p></td>
 <td>3.<a href="https://en.wikipedia.org/wiki/Network_layer">Network</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Network_packet">Packet</a></td>
 <td>Structuring and managing a multi-node network, including<a href="https://en.wikipedia.org/wiki/Address_space">addressing</a>,<a href="https://en.wikipedia.org/wiki/Routing">routing</a>and<a href="https://en.wikipedia.org/wiki/Network_traffic_control">traffic control</a></td>
 </tr>
-<tr class="odd">
+<tr>
 <td></td>
 <td>2.<a href="https://en.wikipedia.org/wiki/Data_link_layer">Data link</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Frame_(networking)">Frame</a></td>
 <td>Reliable transmission of data frames between two nodes connected by a physical layer</td>
 </tr>
-<tr class="even">
+<tr>
 <td></td>
 <td>1.<a href="https://en.wikipedia.org/wiki/Physical_layer">Physical</a></td>
 <td><a href="https://en.wikipedia.org/wiki/Bit">Bit</a></td>

@@ -8,7 +8,7 @@ Modified: 2020-05-11 23:51:24 +0500
 
 # Network Sockets
 
-A**network socket**is an internal endpoint for sending or receiving data within a [node](https://en.wikipedia.org/wiki/Node_(networking)) on a [computer network](https://en.wikipedia.org/wiki/Computer_network). Concretely, it is a representation of this endpoint in networking software ([protocol stack](https://en.wikipedia.org/wiki/Protocol_stack)), such as an entry in a table (listing communication protocol, destination, status, etc.), and is a form of [system resource](https://en.wikipedia.org/wiki/System_resource).
+A**network socket** is an internal endpoint for sending or receiving data within a [node](https://en.wikipedia.org/wiki/Node_(networking)) on a [computer network](https://en.wikipedia.org/wiki/Computer_network). Concretely, it is a representation of this endpoint in networking software ([protocol stack](https://en.wikipedia.org/wiki/Protocol_stack)), such as an entry in a table (listing communication protocol, destination, status, etc.), and is a form of [system resource](https://en.wikipedia.org/wiki/System_resource).
 A [process](https://en.wikipedia.org/wiki/Process_(computing)) can refer to a socket using asocket descriptor, a type of [handle](https://en.wikipedia.org/wiki/Handle_(computing)). A process first requests that the protocol stack create a socket, and the stack returns a descriptor to the process so it can identify the socket. The process then passes the descriptor back to the protocol stack when it wishes to send or receive data using this socket.
 Unlike [ports](https://en.wikipedia.org/wiki/Port_(computer_networking)), sockets are specific to one node; they are local resources and cannot be referred to directly by other nodes. Further, sockets are not necessarily associated with a persistent connection ([channel](https://en.wikipedia.org/wiki/Channel_(communications))) for communication between two nodes, nor is there necessarily some single other endpoint. For example, a [datagram socket](https://en.wikipedia.org/wiki/Datagram_socket) can be used for [connectionless communication](https://en.wikipedia.org/wiki/Connectionless_communication), and a [multicast](https://en.wikipedia.org/wiki/Multicast) socket can be used to send to multiple nodes. However, in practice for [internet](https://en.wikipedia.org/wiki/Internet) communication, sockets are generally used to connect to a specific endpoint and often with a persistent connection.
 
@@ -54,64 +54,64 @@ These are allocated toserver servicesby theInternet Assigned Numbers Authority(I
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>20</td>
 <td><a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">File Transfer Protocol</a>(FTP) Data Transfer</td>
 </tr>
-<tr class="even">
+<tr>
 <td>21</td>
 <td><a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol">File Transfer Protocol</a>(FTP) Command Control</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>22</td>
 <td><a href="https://en.wikipedia.org/wiki/Secure_Shell">Secure Shell</a>(SSH) Secure Login</td>
 </tr>
-<tr class="even">
+<tr>
 <td>23</td>
 <td><a href="https://en.wikipedia.org/wiki/Telnet">Telnet</a>remote login service, unencrypted text messages</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>25</td>
 <td><a href="https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol">Simple Mail Transfer Protocol</a>(SMTP) E-mail routing</td>
 </tr>
-<tr class="even">
+<tr>
 <td>53</td>
 <td><p><strong><a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a>(DNS) service</strong></p>
 <p>Mainly uses UDP but can use TCP for Zone Transfers</p></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>80</td>
 <td><a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Hypertext Transfer Protocol</a>(HTTP) used in the<a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a></td>
 </tr>
-<tr class="even">
+<tr>
 <td>110</td>
 <td><a href="https://en.wikipedia.org/wiki/Post_Office_Protocol">Post Office Protocol</a>(POP3)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>119</td>
 <td><a href="https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol">Network News Transfer Protocol</a>(NNTP)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>123</td>
 <td><a href="https://en.wikipedia.org/wiki/Network_Time_Protocol">Network Time Protocol</a>(NTP)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>143</td>
 <td><a href="https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol">Internet Message Access Protocol</a>(IMAP) Management of digital mail</td>
 </tr>
-<tr class="even">
+<tr>
 <td>161</td>
 <td><a href="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol">Simple Network Management Protocol</a>(SNMP)</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>194</td>
 <td><a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">Internet Relay Chat</a>(IRC)</td>
 </tr>
-<tr class="even">
+<tr>
 <td>443</td>
 <td><a href="https://en.wikipedia.org/wiki/HTTP_Secure">HTTP Secure</a>(HTTPS) HTTP over TLS/SSL</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>3389</td>
 <td>RDP, Remote Desktop Protocol</td>
 </tr>
@@ -127,7 +127,7 @@ These are used byclient programsand you are free to use these in client programs
 
 ## Network behavior**
 
-[Transport layer](https://en.wikipedia.org/wiki/Transport_layer) protocols, such as the [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)(TCP) and the [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP), transfer data using [protocol data units](https://en.wikipedia.org/wiki/Protocol_data_unit)(PDUs). For TCP, the PDU is a [segment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure), and a [datagram](https://en.wikipedia.org/wiki/Datagram) for UDP. Both protocols use a [header](https://en.wikipedia.org/wiki/Header_(computing)) field for recording the source and destination port number. The port numbers are encoded in the transport protocol [packet header](https://en.wikipedia.org/wiki/Packet_header), and they can be readily interpreted not only by the sending and receiving computers, but also by other components of the networking infrastructure. In particular,[firewalls](https://en.wikipedia.org/wiki/Firewall_(networking)) are commonly configured to differentiate between packets based on their source or destination port numbers.[Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is an example application of this.
+[Transport layer](https://en.wikipedia.org/wiki/Transport_layer) protocols, such as the [Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)(TCP) and the [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP), transfer data using [protocol data units](https://en.wikipedia.org/wiki/Protocol_data_unit)(PDUs). For TCP, the PDU is a [segment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#TCP_segment_structure), and a [datagram](https://en.wikipedia.org/wiki/Datagram) for UDP. Both protocols use a [header](https://en.wikipedia.org/wiki/Header_(computing)) field for recording the source and destination port number. The port numbers are encoded in the transport protocol [packet header](https://en.wikipedia.org/wiki/Packet_header), and they can be readily interpreted not only by the sending and receiving computers, but also by other components of the networking infrastructure. In particular, [firewalls](https://en.wikipedia.org/wiki/Firewall_(networking)) are commonly configured to differentiate between packets based on their source or destination port numbers.[Port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is an example application of this.
 
 ## Port scanning
 

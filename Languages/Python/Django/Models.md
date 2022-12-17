@@ -21,15 +21,15 @@ The basics:
 first_name = models.CharField(max_length=30)
 last_name = models.CharField(max_length=30)
 
-- The name of the table,**myapp_person**, is automatically derived from some model metadata but can be overridden.
-- An**id**field is added automatically, but this behavior can be overridden.
+- The name of the table, **myapp_person**, is automatically derived from some model metadata but can be overridden.
+- An **id** field is added automatically, but this behavior can be overridden.
 
 ## Field types -
 
 Each field in your model should be an instance of the appropriate [**Field**](https://docs.djangoproject.com/en/1.11/ref/models/fields/#django.db.models.Field) class. Django uses the field class types to determine a few things:
 
-- The column type, which tells the database what kind of data to store (e.g.**INTEGER**,**VARCHAR**,**TEXT**).
-- The default HTML [widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/) to use when rendering a form field (e.g.**<inputtype="text">**,**<select>**).
+- The column type, which tells the database what kind of data to store (e.g.**INTEGER**, **VARCHAR**, **TEXT**).
+- The default HTML [widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/) to use when rendering a form field (e.g.**<inputtype="text">**, **<select>**).
 - The minimal validation requirements, used in Django's admin and in automatically-generated forms.
 
 ## Common field arguments -
@@ -123,4 +123,4 @@ Add meta in the object Model
 
 ## class Meta
 
-ordering=(**'device__owner__client_name'**,**'issue__display_name'**)
+ordering=(**'device__owner__client_name'**, **'issue__display_name'**)

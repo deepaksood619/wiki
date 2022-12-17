@@ -20,13 +20,13 @@ Modified: 2022-01-03 13:59:29 +0500
 
 ## Rshiny
 
-## Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in [R Markdown](http://rmarkdown.rstudio.com/) documents or build [dashboards](http://rstudio.github.io/shinydashboard/). You can also extend your Shiny apps with [CSS themes](http://rstudio.github.io/shinythemes/),[htmlwidgets](http://www.htmlwidgets.org/), and JavaScript [actions](https://github.com/daattali/shinyjs/blob/master/README.md)
+## Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in [R Markdown](http://rmarkdown.rstudio.com/) documents or build [dashboards](http://rstudio.github.io/shinydashboard/). You can also extend your Shiny apps with [CSS themes](http://rstudio.github.io/shinythemes/), [htmlwidgets](http://www.htmlwidgets.org/), and JavaScript [actions](https://github.com/daattali/shinyjs/blob/master/README.md)
 
 <https://shiny.rstudio.com>
 
 ## Polynote
 
-Polynote is a different kind of notebook. It supports**mixing multiple languages**in one notebook, and sharing data between them seamlessly. It encourages**reproducible notebooks**with its immutable data model.
+Polynote is a different kind of notebook. It supports**mixing multiple languages**in one notebook, and sharing data between them seamlessly. It encourages**reproducible notebooks** with its immutable data model.
 
 <https://polynote.org>
 

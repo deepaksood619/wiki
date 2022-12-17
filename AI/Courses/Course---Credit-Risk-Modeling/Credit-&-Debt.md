@@ -89,7 +89,7 @@ Common types of closed-end credit instruments include [mortgages](https://www.in
 
 ## Open-End Credit
 
-[Open-end credit](https://www.investopedia.com/terms/o/openendcredit.asp) is not restricted to a specific use or duration. Credit card accounts,[home equity lines of credit](https://www.investopedia.com/mortgage/heloc/)(HELOC), and debit cards are all common examples of open-end credit (though some, like the HELOC, have finite payback periods). The issuing bank allows the consumer to utilize borrowed funds in exchange for the promise to repay any debt in a timely manner.
+[Open-end credit](https://www.investopedia.com/terms/o/openendcredit.asp) is not restricted to a specific use or duration. Credit card accounts, [home equity lines of credit](https://www.investopedia.com/mortgage/heloc/)(HELOC), and debit cards are all common examples of open-end credit (though some, like the HELOC, have finite payback periods). The issuing bank allows the consumer to utilize borrowed funds in exchange for the promise to repay any debt in a timely manner.
 
 ## Line of Credit
 

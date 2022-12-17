@@ -9,9 +9,9 @@ Modified: 2018-08-04 12:23:44 +0500
 ## Points to remember -
 
 1. Linear Data Structure
-Queue is also an abstract data type or a linear data structure, in which the first element is inserted from one end called**REAR**(also called tail), and the deletion of existing element takes place from the other end called as**FRONT**(also called head). This makes queue as FIFO(First in First Out) data structure, which means that element inserted first will also be removed first.
+Queue is also an abstract data type or a linear data structure, in which the first element is inserted from one end called **REAR**(also called tail), and the deletion of existing element takes place from the other end called as **FRONT**(also called head). This makes queue as FIFO(First in First Out) data structure, which means that element inserted first will also be removed first.
 
-The process to add an element into queue is called**Enqueue**and the process of removal of an element from queue is called**Dequeue**.
+The process to add an element into queue is called **Enqueue** and the process of removal of an element from queue is called **Dequeue**.
 
 ## Basic features of Queue
 

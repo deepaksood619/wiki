@@ -98,7 +98,7 @@ Whenever an applications makes a request to a kernel level function, an interrup
 
 ## Syscalls
 
-Systems Calls aka syscall is an API which allows a**small**part of kernel functionality to be exposed to user level applications. A small part is really stressed to inform whoever reading that syscalls are limited and are generic to serve a purpose. They are not the same across every operating system and do differ in both definition and mode of access.
+Systems Calls aka syscall is an API which allows a**small** part of kernel functionality to be exposed to user level applications. A small part is really stressed to inform whoever reading that syscalls are limited and are generic to serve a purpose. They are not the same across every operating system and do differ in both definition and mode of access.
 ![image](media/Unix---Linux-image5.png)
 Sometimes, we have a group of syscalls that we want to group together, we do this using a linux kernel feature called Capabilities. These are predefined sets of privileges which a running program can have access to or be limited by.
 Capabilities further enhance syscalls by grouping related ones into defined privileges that can be granted or denied at once. This prevents even root level applications from exploiting restricted kernel spaces with reserved permissions.
