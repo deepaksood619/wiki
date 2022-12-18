@@ -72,7 +72,7 @@ Here are some recommendations specific to Avro:
 
 <https://github.com/sksamuel/avro4s>
 
-## References**
+## References
 
 <https://www.tutorialspoint.com/avro/avro_overview.htm>
 

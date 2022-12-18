@@ -101,7 +101,7 @@ Luckily, [OpenID Connect](https://openid.net/connect/) or OIDC brings some sanit
   - Refresh tokens must be sender-contrained or one-time use
 <https://www.youtube.com/watch?v=g_aVPdwBTfw>
 
-## Others**
+## Others
 
 <https://developer.okta.com/docs/concepts/api-access-management>
 

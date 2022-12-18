@@ -12,16 +12,16 @@ Modified: 2021-04-26 10:26:33 +0500
 
 <https://en.wikipedia.org/wiki/OpenConnect>
 
-## OpenSSH**
+## OpenSSH
 
-## OpenSSH**(also known as**OpenBSD Secure Shell) is a suite of [secure](https://en.wikipedia.org/wiki/Computer_security)[networking](https://en.wikipedia.org/wiki/Computer_network) utilities based on the [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)(SSH) protocol, which provides a [secure channel](https://en.wikipedia.org/wiki/Secure_channel) over an unsecured network in a [client--server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model) architecture
+## OpenSSH(also known as**OpenBSD Secure Shell) is a suite of [secure](https://en.wikipedia.org/wiki/Computer_security)[networking](https://en.wikipedia.org/wiki/Computer_network) utilities based on the [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)(SSH) protocol, which provides a [secure channel](https://en.wikipedia.org/wiki/Secure_channel) over an unsecured network in a [client--server](https://en.wikipedia.org/wiki/Client%E2%80%93server_model) architecture
 
 OpenSSH started as a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of the [free](https://en.wikipedia.org/wiki/Free_software) SSH program developed by [Tatu Ylönen](https://en.wikipedia.org/wiki/Tatu_Yl%C3%B6nen); later versions of Ylönen's SSH were [proprietary software](https://en.wikipedia.org/wiki/Proprietary_software) offered by [SSH Communications Security](https://en.wikipedia.org/wiki/SSH_Communications_Security).OpenSSH was first released in 1999, and is currently developed as part of the [OpenBSD](https://en.wikipedia.org/wiki/OpenBSD)[operating system](https://en.wikipedia.org/wiki/Operating_system).
 
 OpenSSH is not a single computer program, but rather a suite of programs that serve as alternatives to unencrypted protocols like [Telnet](https://en.wikipedia.org/wiki/Telnet) and [FTP](https://en.wikipedia.org/wiki/FTP). OpenSSH is integrated into several operating systems, while the [portable](https://en.wikipedia.org/wiki/Porting) version is available as a package in other systems.
 <https://en.wikipedia.org/wiki/OpenSSH>
 
-## GStreamer**
+## GStreamer
 
 ## GStreameris a [pipeline](https://en.wikipedia.org/wiki/Pipeline_(computing))-based [multimedia framework](https://en.wikipedia.org/wiki/Multimedia_framework) that links together a wide variety of media processing systems to complete complex workflows. For instance, GStreamer can be used to build a system that reads files in one format, processes them, and exports them in another. The formats and processes can be changed in a plug and play fashion
 
@@ -30,19 +30,19 @@ GStreamer supports a wide variety of media-handling components, including simple
 
 <https://gstreamer.freedesktop.org>
 
-## Others**
+## Others
 
 NNStreamer - Neural Network (NN) Streamer, Stream Processing Paradigm for Neural Network Apps/Devices.
 <https://github.com/nnsuite/nnstreamer>
 
-## Zeroconf**
+## Zeroconf
 
 ## Zero-configuration networking**(**zeroconf) is a set of technologies that automatically creates a usable [computer network](https://en.wikipedia.org/wiki/Computer_network) based on the [Internet Protocol Suite](https://en.wikipedia.org/wiki/Internet_Protocol_Suite)(TCP/IP) when computers or network peripherals are interconnected. It does not require manual operator intervention or special configuration servers. Without zeroconf, a network administrator must set up [network services](https://en.wikipedia.org/wiki/Network_service), such as [Dynamic Host Configuration Protocol](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)(DHCP) and [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS), or configure each computer's network settings manually
 
 Zeroconf is built on three core technologies: automatic assignment of numeric [network addresses](https://en.wikipedia.org/wiki/Network_address) for networked devices, automatic distribution and resolution of computer [hostnames](https://en.wikipedia.org/wiki/Hostname), and automatic [location of network services](https://en.wikipedia.org/wiki/Service_discovery), such as printing devices.
 <https://en.wikipedia.org/wiki/Zero-configuration_networking>
 
-## pmacct**
+## pmacct
 
 pmacct is a small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP RPKI IGP Streaming Telemetry]
 [pmacct](https://github.com/pmacct/pmacct) is a set of network monitoring tools that can collect network traffic via libpcap and export it to a variety of places. Can be used to do network flow analysis.
@@ -83,7 +83,7 @@ pmacct is a small set of multi-purpose passive network monitoring tools. It can 
 
 <https://github.com/pmacct/pmacct>
 
-## Ribbon**
+## Ribbon
 
 Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
 Ribbon is a client side IPC library that is battle-tested in cloud. It provides the following features
@@ -94,7 +94,7 @@ Ribbon is a client side IPC library that is battle-tested in cloud. It provides 
 - Caching and batching
 <https://github.com/Netflix/ribbon>
 
-## mininet**
+## mininet
 
 Emulator for rapid prototyping of Software Defined Networks (SDN)
 <https://github.com/mininet/mininet>

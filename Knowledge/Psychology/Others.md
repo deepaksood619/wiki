@@ -8,7 +8,7 @@ Modified: 2022-07-28 23:33:38 +0500
 
 ## Classical Conditioning
 
-## Classical conditioning**(also known as**Pavlovian**or**respondent conditioning) refers to a [learning](https://en.wikipedia.org/wiki/Learning) procedure in which a biologically potent [stimulus](https://en.wikipedia.org/wiki/Stimulus_(physiology))(e.g. food) is paired with a previously neutral stimulus (e.g. a bell). It also refers to the learning process that results from this pairing, through which the neutral stimulus comes to elicit a response (e.g. salivation) that is usually similar to the one elicited by the potent stimulus
+## Classical conditioning(also known as**Pavlovian**or**respondent conditioning) refers to a [learning](https://en.wikipedia.org/wiki/Learning) procedure in which a biologically potent [stimulus](https://en.wikipedia.org/wiki/Stimulus_(physiology))(e.g. food) is paired with a previously neutral stimulus (e.g. a bell). It also refers to the learning process that results from this pairing, through which the neutral stimulus comes to elicit a response (e.g. salivation) that is usually similar to the one elicited by the potent stimulus
 
 - Forward conditioning
   - Delay conditioning
@@ -80,7 +80,7 @@ Themere-exposure effectis a [psychological](https://en.wikipedia.org/wiki/Psycho
 
 ## Norm of reciprocity
 
-The**norm of reciprocity**requires that we repay in kind what another has done for us.[^[1]^](https://en.wikipedia.org/wiki/Norm_of_reciprocity#cite_note-1) It can be understood as the expectation that people will respond favorably to each other by returning benefits for benefits, and responding with either indifference or hostility to harms. The [social norm](https://en.wikipedia.org/wiki/Social_norm) of reciprocity often takes different forms in different areas of social life, or in different societies. All of them, however, are distinct from related ideas such as [gratitude](https://en.wikipedia.org/wiki/Gratitude), the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule), or mutual goodwill.
+The**norm of reciprocity**requires that we repay in kind what another has done for us. It can be understood as the expectation that people will respond favorably to each other by returning benefits for benefits, and responding with either indifference or hostility to harms. The [social norm](https://en.wikipedia.org/wiki/Social_norm) of reciprocity often takes different forms in different areas of social life, or in different societies. All of them, however, are distinct from related ideas such as [gratitude](https://en.wikipedia.org/wiki/Gratitude), the [Golden Rule](https://en.wikipedia.org/wiki/Golden_Rule), or mutual goodwill.
 
 The**Golden Rule** is the principle of treating others as oneself would wish to be treated. It is a [maxim](https://en.wikipedia.org/wiki/Maxim_(philosophy)) that is found in many religions and [cultures](https://en.wikipedia.org/wiki/Culture)
 

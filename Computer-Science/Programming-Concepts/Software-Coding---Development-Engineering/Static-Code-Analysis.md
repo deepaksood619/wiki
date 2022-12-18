@@ -75,7 +75,7 @@ SonarQube can record metrics history and provides evolution graphs. SonarQube pr
 - Kite
 - <https://www.tabnine.com>
 
-## Other Tools**
+## Other Tools
 
 - CodeScene
 - <https://github.com/adamtornhill/code-maat>

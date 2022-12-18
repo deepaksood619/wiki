@@ -10,7 +10,7 @@ Modified: 2022-04-05 13:14:53 +0500
 
 It's sometimes useful to pre-populate your database with hard-coded data when you're first setting up an app. You can provide initial data with fixtures or migrations.
 
-## Providing initial data with fixtures
+### Providing initial data with fixtures
 
 A fixture is a collection of data that Django knows how to import into a database. The most straightforward way of creating a fixture if you've already got some data is to use the [manage.pydumpdata](https://docs.djangoproject.com/en/1.11/ref/django-admin/#django-admin-dumpdata) command. Or, you can write fixtures by hand; fixtures can be written as JSON, XML or YAML (with [PyYAML](http://www.pyyaml.org/) installed) documents.
 
@@ -28,11 +28,11 @@ A field for storing JSON encoded data. In Python the data is represented in its 
 
 PostgreSQL has two native JSON based data types: **json** and **jsonb**. The main difference between them is how they are stored and how they can be queried. PostgreSQL's **json** field is stored as the original string representation of the JSON and must be decoded on the fly when queried based on keys. The **jsonb** field is stored based on the actual structure of the JSON which allows indexing. The trade-off is a small additional cost on writing to the **jsonb** field.**JSONField** uses **jsonb**.
 
-## Can Supply RAW PostgreSQL queries for filtering and other direct postgres statements
+### Can Supply RAW PostgreSQL queries for filtering and other direct postgres statements
 
-RawSQL("metadata->>%s", ("TPA_License"),")
+`RawSQL("metadata->>%s", ("TPA_License"),")`
 
-## Use psycopg2 for connecting to database instance
+### Use psycopg2 for connecting to database instance
 
 [http://initd.org/psycopg/docs/module.html](http://initd.org/psycopg/docs/module.html#psycopg2.connect)
 
@@ -48,34 +48,35 @@ python manage.py inspectdb > models.py
 
 3. Use values() or values_list() and only() query expressions for getting specific values
 
+```python
 names = []
 
-## for **name** in Song.objects.filter(artist=a).values_list("name", flat=True)
-
-names.append(name)
+for name in Song.objects.filter(artist=a).values_list("name", flat=True):
+    names.append(name)
+```
 
 <https://www.peterbe.com/plog/django-orm-optimization-story-on-selecting-the-least-possible>
 
 ## Messages Framework
 
-Django apps - **django.contrib.messages**
+Django apps - `django.contrib.messages`
 
 Quite commonly in web applications, you need to display a one-time notification message (also known as "flash message") to the user after processing a form or some other types of user input.
 
 For this, Django provides full support for cookie- and session-based messaging, for both anonymous and authenticated users. The messages framework allows you to temporarily store messages in one request and retrieve them for display in a subsequent request (usually the next one). Every message is tagged with a specificlevelthat determines its priority (e.g., info, warning, orerror).
 
-Concepts
+## Concepts
 
+```python
 mysite/urls.py
 
-## from django.conf.urls import include, url
-
-## from django.contrib import admin
-
-urlpatterns = [
-url(r'^polls/', include('polls.urls')),
-url(r'^admin/', admin.site.urls),
+from django.conf.urls import include, url
+from django.contrib import admin
+ urlpatterns = [
+    url(r'^polls/', include('polls.urls')),
+    url(r'^admin/', admin.site.urls),
 ]
+```
 
 The [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include) function allows referencing other URLconfs. Note that the regular expressions for the [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include) function doesn't have a$(end-of-string match character) but rather a trailing slash. Whenever Django encounters [include()](https://docs.djangoproject.com/en/1.11/ref/urls/#django.conf.urls.include), it chops off whatever part of the URL matched up to that point and sends the remaining string to the included URLconf for further processing.
 
@@ -95,19 +96,19 @@ You can give your models [custom permissions](https://docs.djangoproject.com/en/
 
 You can [extend](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#extending-user) the default **User** model, or [substitute](https://docs.djangoproject.com/en/1.11/topics/auth/customizing/#auth-custom-user) a completely customized model.
 
-## Other Authentication Sources
+### Other Authentication Sources
 
 For example, your company may already have an LDAP (Lightweight Directory Access Protocol) setup that stores a username and password for every employee. It'd be a hassle for both the network administrator and the users themselves if users had separate accounts in LDAP and the Django-based applications.
 
-## Specifying Authentication Backend
+### Specifying Authentication Backend
 
 Django maintains a list of "authentication backend" that is checks for authentication. When someone calls django.contrib.auth.authenticate() - django tries authenticating across all of its authentication backends
 
-## Custom User Model
+### Custom User Model
 
 AUTH_USER_MODEL = 'myapp.MyUser'
 
-## Libraries
+### Libraries
 
 <https://github.com/James1345/django-rest-knox>
 
@@ -123,13 +124,16 @@ django-rest-framework-jwt
 - Remove from installed apps
 - Delete Content Type
 
+```python
 python manamge.py shell
 
 from django.contrib.contenttypes.models import ContentType
+
 for c in ContentType.objects.all():
-if not c.model_class():
-print "deleting %s"%c
-c.delete()
+    if not c.model_class():
+        print "deleting %s"%c
+        c.delete()
+```
 
 ## Managers
 
@@ -139,12 +143,12 @@ AManageris the interface through which database query operations are provided to
 
 By default, Django adds aManagerwith the nameobjectsto every Django model class. However, if you want to useobjectsas a field name, or if you want to use a name other thanobjectsfor theManager, you can rename it on a per-model basis. To rename theManagerfor a given class, define a class attribute of typemodels.Manager()on that model. For example:
 
-## from django.db import models
-
-## class****Person(models.Model)
-
-*#...*
+```python
+from django.db import models
+class Person(models.Model):
+#...
 people = models.Manager()
+```
 
 Using this example model, Person.objectswill generate anAttributeErrorexception, butPerson.people.all()will provide a list of allPersonobjects.
 
@@ -158,7 +162,7 @@ Markup language for Sphinx Documentation in Django.
 
 Bold and italics are done like this:
 
-## bold and *italics*
+`**bold** and *italics*`
 
 ## Django Resources
 

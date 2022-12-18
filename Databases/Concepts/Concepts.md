@@ -34,7 +34,7 @@ If, after a start, the database is found in an [inconsistent](https://en.wikiped
 6. Completion record
 <https://en.wikipedia.org/wiki/Transaction_log>
 
-## Prepared Statement**
+## Prepared Statement
 
 In [database management systems](https://en.wikipedia.org/wiki/Database_management_system)(DBMS), aprepared statementorparameterized statementis a feature used to execute the same or similar database statements repeatedly with high efficiency. Typically used with [SQL](https://en.wikipedia.org/wiki/SQL) statements such as queries or updates, the prepared statement takes the form of a [template](https://en.wikipedia.org/wiki/Template_processor) into which certain constant values are substituted during each execution.
 The typical workflow of using a prepared statement is as follows:
@@ -53,7 +53,7 @@ As compared to executing statements directly, prepared statements offer two main
 On the other hand, if a query is executed only once, server-side prepared statements can be slower because of the additional round-trip to the server.Implementation limitations may also lead to performance penalties; for example, some versions of MySQL did not cache results of prepared queries. A [stored procedure](https://en.wikipedia.org/wiki/Stored_procedure), which is also precompiled and stored on the server for later execution, has similar advantages. Unlike a stored procedure, a prepared statement is not normally written in a procedural language and cannot use or modify variables or use control flow structures, relying instead on the declarative database query language. Due to their simplicity and client-side emulation, prepared statements are more portable across vendors.
 <https://en.wikipedia.org/wiki/Prepared_statement>
 
-## Cursor**
+## Cursor
 
 Cursoris a Temporary Memory or Temporary Work Station. It is Allocated by Database Server at the Time of Performing DML operations on Table by User. Cursors are used to store Database Tables.
 There are 2 types of Cursors:
@@ -101,7 +101,7 @@ LIMITandOFFSETallow you to retrieve just a portion of the rows that are generate
 - The seek method is all about finding a unique column or set of columns that identifies each row. Then, instead of using the OFFSET clause, we can just use that unique value as a bookmark that presents the position of the last row we've fetched and query the next set of rows by starting from this position in the WHERE clause.
 <https://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow>
 
-## Cursor Pagination vs Offset Pagination**
+## Cursor Pagination vs Offset Pagination
 
 ## Pros
 

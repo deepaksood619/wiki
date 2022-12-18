@@ -44,7 +44,7 @@ Because the BA field has to be sent in the header of each HTTP request, the web 
 This is the simplest to implement and for some implementations can work well, however it requires transport level encryption as the user name and password are presented with ever request.
 <https://www.wikiwand.com/en/Basic_access_authentication>
 
-## Digest Access Authentication**
+## Digest Access Authentication
 
 Digest access authenticationis one of the agreed-upon methods a [web server](https://www.wikiwand.com/en/Web_server) can use to negotiate credentials, such as username or password, with a user's [web browser](https://www.wikiwand.com/en/Web_browser). This can be used to confirm the identity of a user before sending sensitive information, such as online banking transaction history. It applies a [hash function](https://www.wikiwand.com/en/Hash_function) to the username and [password](https://www.wikiwand.com/en/Password) before sending them over the network. In contrast, [basic access authentication](https://www.wikiwand.com/en/Basic_access_authentication) uses the easily reversible [Base64](https://www.wikiwand.com/en/Base64) encoding instead of hashing, making it non-secure unless used in conjunction with [TLS](https://www.wikiwand.com/en/Transport_Layer_Security).
 Technically, digest authentication is an application of [MD5](https://www.wikiwand.com/en/MD5)[cryptographic hashing](https://www.wikiwand.com/en/Cryptographic_hash) with usage of [nonce](https://www.wikiwand.com/en/Cryptographic_nonce) values to prevent [replay attacks](https://www.wikiwand.com/en/Replay_attack). It uses the [HTTP](https://www.wikiwand.com/en/Hypertext_Transfer_Protocol) protocol.
@@ -112,7 +112,7 @@ Service Provider--- Trusts the identity provider and authorizes the given user t
 - Reduced Costs for Service Providers:With SAML, you don't have to maintain account information across multiple services. The identity provider bears this burden.
 <https://duo.com/blog/the-beer-drinkers-guide-to-saml>
 
-## Tricks**
+## Tricks
 
 - For Single SignOn OpenId has taken most of the consumer market, SAML is often the choice for many enterprise application.
 - If you have to support only web application go for Cookie or Token based authentication.
@@ -152,7 +152,7 @@ IdP - Identity Provider
 - <https://magic.link>
 <https://withblue.ink/2020/04/08/stop-writing-your-own-user-authentication-code.html>
 
-## Signed Request**
+## Signed Request
 
 Request signing is the process to add authentication information to Credit Saison India requests sent by HTTP.
 For security, all requests to Credit Saison India must be signed with your credentials, which consists of an Client ID and Client Secret. These two keys are commonly referred to as your security credentials.

@@ -110,10 +110,10 @@ user.save()
     makemigrations (creating new migrations)
     migrate (applying and unapplying migrations)
     migrate home_device zero (Uninstall migrations from an application)
-    
+
     The migrate command takes all the migrations that haven’t been applied (Django tracks which ones are applied using a special table in your database called django_migrations) and runs them against your database - essentially, synchronizing the changes you made to your models with the schema in the database.
     Migrations are very powerful and let you change your models over time, as you develop your project, without the need to delete your database or tables and make new ones - it specializes in upgrading your database live, without losing data.
-    
+
     runserver
     sendtestemail
     shell

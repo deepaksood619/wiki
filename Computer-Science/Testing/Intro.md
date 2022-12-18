@@ -34,7 +34,7 @@ In contrast, an**unhappyexecution path** is dealing with unwanted inputs. This i
 
 <https://medium.com/swlh/unit-testing-in-python-basics-21a9a57418a0>
 
-## Property Based Testing**
+## Property Based Testing
 
 <https://levelup.gitconnected.com/unit-testing-in-python-property-based-testing-892a741fc119>
 

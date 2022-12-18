@@ -83,7 +83,7 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
 ![image](media/gRPC-image2.png)-   Proxyless RPC Mesh
 <https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears>
 
-## Client side load balancing**
+## Client side load balancing
 
 Two main components needed for the gRPC client-side load balancing to work
 
@@ -175,7 +175,7 @@ gRPC-Web provides a Javascript library that lets browser clients access a gRPC s
 
 <https://www.semantics3.com/blog/a-simplified-guide-to-grpc-in-python-6c4e25f0c506>
 
-## POC**
+## POC
 
 - load balancing (gRPC will not work with Kubernetes service load balancing out of the box)
 - Istio sidecar proxy load balancing of grpc services

@@ -94,7 +94,7 @@ In order to program for data integrity, it is crucial to have an understanding o
 At the top is the running application which has data that it needs to save to stable storage. That data starts out as one or more blocks of memory, or buffers, in the application itself. Those buffers can also be handed to a library, which may perform its own buffering. Regardless of whether data is buffered in application buffers or by a library, the data lives in the application's address space. The next layer that the data goes through is the kernel, which keeps its own version of a write-back cache called the page cache. Dirty pages can live in the page cache for an indeterminate amount of time, depending on overall system load and I/O patterns. When dirty data is finally evicted from the kernel's page cache, it is written to a storage device (such as a hard disk). The storage device may further buffer the data in a volatile write-back cache. If power is lost while data is in this cache, the data will be lost. Finally, at the very bottom of the stack is the non-volatile storage. When the data hits this layer, it is considered to be "safe."
 <https://lwn.net/Articles/457667>
 
-## Access Patterns**
+## Access Patterns
 
 Access patterns are patterns with which a program reads and writes the data. In general, we distinguish between the r**andom and sequential access patterns**. But, of course, nothing is absolute. Having fully sequential reads is not possible for ad-hoc queries, since the data has to be located first, but as soon as it is located, it can be read sequentially.
 Bysequentialaccess we usually mean reads monotonically going from lower offsets to the higher ones and the higher offsets are immediately following the lower ones.
@@ -120,14 +120,14 @@ We've discussed multiple things one has to take into consideration when working 
 
 <https://medium.com/databasss/on-disk-io-access-patterns-in-lsm-trees-2ba8dffc05f9>
 
-## IOPS**
+## IOPS
 
 Input/output operations per second(IOPS, pronouncedeye-ops) is an [input/output](https://en.wikipedia.org/wiki/Input/output) performance measurement used to characterize [computer storage](https://en.wikipedia.org/wiki/Data_storage_device) devices like [hard disk drives](https://en.wikipedia.org/wiki/Hard_disk_drive)(HDD), [solid state drives](https://en.wikipedia.org/wiki/Solid_state_drives)(SSD), and [storage area networks](https://en.wikipedia.org/wiki/Storage_area_network)(SAN). Like [benchmarks](https://en.wikipedia.org/wiki/Benchmark), IOPS numbers published by storage device manufacturers do not directly relate to real-world application performance.
 <https://en.wikipedia.org/wiki/IOPS>
 
-## Wear Leveling**
+## Wear Leveling
 
-## Wear leveling**(also written as**wear levelling) is a technique [^[1]^](https://en.wikipedia.org/wiki/Wear_leveling#cite_note-Fundamental_Patent-1) for prolonging the [service life](https://en.wikipedia.org/wiki/Service_life) of some kinds of erasable [computer storage](https://en.wikipedia.org/wiki/Computer_storage) media, such as [flash memory](https://en.wikipedia.org/wiki/Flash_memory), which is used in [solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive)(SSDs) and [USB flash drives](https://en.wikipedia.org/wiki/USB_flash_drive), and [phase-change memory](https://en.wikipedia.org/wiki/Phase-change_memory). There are several wear leveling mechanisms that provide varying levels of longevity enhancement in such memory systems
+## Wear leveling(also written as**wear levelling) is a technique  for prolonging the [service life](https://en.wikipedia.org/wiki/Service_life) of some kinds of erasable [computer storage](https://en.wikipedia.org/wiki/Computer_storage) media, such as [flash memory](https://en.wikipedia.org/wiki/Flash_memory), which is used in [solid-state drives](https://en.wikipedia.org/wiki/Solid-state_drive)(SSDs) and [USB flash drives](https://en.wikipedia.org/wiki/USB_flash_drive), and [phase-change memory](https://en.wikipedia.org/wiki/Phase-change_memory). There are several wear leveling mechanisms that provide varying levels of longevity enhancement in such memory systems
 
 ## Monitoring
 
@@ -150,6 +150,6 @@ TheDistributedAsynchronousObjectStorage (DAOS) is an open-source software-define
 
 <https://www.sigarch.org/from-flops-to-iops-the-new-bottlenecks-of-scientific-computing>
 
-## Anatomy of SSD**
+## Anatomy of SSD
 
 <https://www.techspot.com/amp/article/1985-anatomy-ssd>

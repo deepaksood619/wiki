@@ -40,7 +40,7 @@ Redis is a good option locking since has a simple key-based data model, each sha
 - [Lua Helpers](https://redislabs.com/redis-best-practices/lua-helpers/)
 <https://redislabs.com/redis-best-practices>
 
-## Best practices and performance tuning**
+## Best practices and performance tuning
 
 ## TCP-KeepAlive
 
@@ -129,7 +129,7 @@ When you set an expiry on a key, redis does not expire it at that instant. Inste
 
 <https://www.datadoghq.com/pdf/Understanding-the-Top-5-Redis-Performance-Metrics.pdf>
 
-## Performance Metrics**
+## Performance Metrics
 
 1. Memory Usage: used_memory
 

@@ -8,7 +8,7 @@ Modified: 2021-10-25 22:56:10 +0500
 
 <https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial>
 
-## Hash Function**
+## Hash Function
 
 A**hash function** is any [function](https://en.wikipedia.org/wiki/Function_(mathematics)) that can be used to map [data](https://en.wikipedia.org/wiki/Data_(computing)) of arbitrary size to data of fixed size. The values returned by a hash function are called*hash values*,*hash codes*,*digests*, or simply *hashes*. The values are used to index a fixed-size table called a*hash table*. Use of a hash function to index a hash table is called *hashing* or *scatter storage addressing*.
 
@@ -19,7 +19,7 @@ Consistent Hashing is a special kind of hashing such that when a hash table is r
 
 <https://www.toptal.com/big-data/consistent-hashing>
 
-## Modular based hashing**
+## Modular based hashing
 
 ## Applications
 
@@ -122,7 +122,7 @@ Hashing-based approximate [nearest neighbor search](https://en.wikipedia.org/wik
 
 <https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134>
 
-## Further Reading**
+## Further Reading
 
 - Birthday Paradox
 - Pigeonhole Principle

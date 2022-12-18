@@ -43,7 +43,7 @@ Some lower bounds on the storage complexity of state-based CRDTs are known.
 
 <http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html>
 
-## Actor Model**
+## Actor Model
 
 The actor model provides a higher level of abstaction for writing concurrent and distributed systems, which shields the developer from explicit locking and thread management. It provides the core functionality of reactive systems, defined in the Reactive Manifesto as responsive, resilient, elastic, and message-driven. Akka is an actor-based framework that is easy to implement with full Java 8 Lambda support. Actors enable developers to design and implement systems in ways that help focus more on the core functionality and less on the plumbing. Actor-based systems are the perfect foundation for quickly evoling microservices architectures.
 Actor (encapsulate 3 things)
@@ -73,7 +73,7 @@ In [cloud computing](http://searchcloudcomputing.techtarget.com/definition/cloud
 
 <https://www.computerworld.com/article/2517005/data-center/multi-tenancy-in-the-cloud--why-it-matters.html>
 
-## Failure Modes**
+## Failure Modes
 
 This brings us to an important subject of Failure Detectors, which are widely used in practical consensus algorithms and help to solve consensus problem in a partial synchronous or synchronous system.Failure Detectoris an abstraction that helps to reason about liveness in the system, detect and mark participants as active or failed.
 If processesAandBcommunicate through perfect link and all process B stops receiving messages fromAandAdoes not receive any messages fromB, most of the time from the process perspective it's impossible to know whetherBhas crashed, Bis simply running very slow or there's a network partition. If two processes are separated by the network partition, for both of them it will seem as if the other process just crashed.

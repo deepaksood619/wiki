@@ -71,7 +71,7 @@ Proteins play countless roles throughout the biological world, from catalyzing c
 
 ## Lymphatic System
 
-The**lymphatic system** is part of the [vascular system](https://en.wikipedia.org/wiki/Vascular_system) and an important part of the [immune system](https://en.wikipedia.org/wiki/Immune_system), comprising a network of [lymphatic vessels](https://en.wikipedia.org/wiki/Lymphatic_vessel) that carry a clear fluid called [lymph](https://en.wikipedia.org/wiki/Lymph)(from Latin,*lympha*meaning "[water](https://en.wikipedia.org/wiki/Water)"[^[1]^](https://en.wikipedia.org/wiki/Lymphatic_system#cite_note-1)) directionally towards the [heart](https://en.wikipedia.org/wiki/Heart).
+The**lymphatic system** is part of the [vascular system](https://en.wikipedia.org/wiki/Vascular_system) and an important part of the [immune system](https://en.wikipedia.org/wiki/Immune_system), comprising a network of [lymphatic vessels](https://en.wikipedia.org/wiki/Lymphatic_vessel) that carry a clear fluid called [lymph](https://en.wikipedia.org/wiki/Lymph)(from Latin,*lympha*meaning "[water](https://en.wikipedia.org/wiki/Water)") directionally towards the [heart](https://en.wikipedia.org/wiki/Heart).
 
 ## Brain (Rosehip Neuron)
 

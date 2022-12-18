@@ -54,7 +54,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics), thesoftmax function
 
 <https://en.wikipedia.org/wiki/Softmax_function>
 
-## Probabilistic Tools**
+## Probabilistic Tools
 
 - **Probit/Logit:** A probit/logit measures the likelihood or probability of an event happening, based upon observable variables
   - Example: Measuring the probability that a company will be acquired, given variables that you believe are correlated

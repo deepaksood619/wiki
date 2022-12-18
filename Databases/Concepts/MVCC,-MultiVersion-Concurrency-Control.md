@@ -20,7 +20,7 @@ Without concurrency control, if someone is reading from a database at the same t
 MVCC provides [point-in-time consistent](https://en.wikipedia.org/wiki/Data_consistency#Point-in-time_consistency) views. Read transactions under MVCC typically use a timestamp or transaction ID to determine what state of the DB to read, and read these versions of the data. Read and write transactions are thus [isolated](https://en.wikipedia.org/wiki/Isolation_(database_systems)) from each other without any need for locking. However, despite locks being unnecessary, they are used by some MVCC databases such as Oracle. Writes create a newer version, while concurrent reads access an older version.
 <https://en.wikipedia.org/wiki/Multiversion_concurrency_control>
 
-## Lock Contention**
+## Lock Contention
 
 Lock contention occurs **when many database sessions all require frequent access to the same lock.** This is also often called a "hot lock". The locks in question are only held for a short time by each accessing session, then released. This creates a "single lane bridge" situation. Problems are not noticeable when traffic is low (i.e. non-concurrent or low-concurrency situations). However, as traffic (i.e. concurrency) increases, a bottleneck is created.
 Overall, Lock Contention problems have a relatively low impact. They manifest themselves by impacting and limiting scalability. As concurrency increases, system throughput does not increase and may even degrade (as shown in Figure 1 below). Lock contention may also lead to high CPU usage on the database server.

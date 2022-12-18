@@ -62,24 +62,24 @@ An authorization library that supports access control models like ACL, RBAC, ABA
 
 <https://github.com/casbin/casbin>
 
-## Lavabit**
+## Lavabit
 
 Secure emailfor the world
 <https://lavabit.com>
 
-## Android**
+## Android
 
 <https://github.com/google/nogotofail>
 
-## Cryptographic tools**
+## Cryptographic tools
 
 <https://www.devglan.com/online-tools/aes-encryption-decryption>
 
-## NaCl**
+## NaCl
 
 <http://nacl.cr.yp.to>
 
-## libsodium**
+## libsodium
 
 Sodium is a new, easy-to-use software library for encryption, decryption, signatures, password hashing and more.
 
@@ -119,11 +119,11 @@ cert-manager builds on top of Kubernetes, introducing certificate authorities an
 
 <https://letsencrypt.org/getting-started>
 
-## certbot**
+## certbot
 
 <https://certbot.eff.org>
 
-## SASS**
+## SASS
 
 <https://www.crowdstrike.com>
 

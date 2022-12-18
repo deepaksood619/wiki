@@ -12,11 +12,11 @@ Modified: 2021-05-31 17:13:01 +0500
 
 <https://leetcode.com/discuss/career/229177/My-System-Design-Template>
 
-## Uber Big Data Platform**
+## Uber Big Data Platform
 
 <https://eng.uber.com/uber-big-data-platform>
 
-## Resources**
+## Resources
 
 <https://www.pramp.com/#>
 

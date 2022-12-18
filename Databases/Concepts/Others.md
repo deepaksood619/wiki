@@ -10,7 +10,7 @@ Modified: 2022-01-10 16:33:38 +0500
 
 ## JDBC - Java Database Connectivity
 
-## Java Database Connectivity**(**JDBC) is an [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API) for the programming language [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), which defines how a client may access a [database](https://en.wikipedia.org/wiki/Database). It is a Java-based data access technology used for Java database connectivity. It is part of the [Java Standard Edition](https://en.wikipedia.org/wiki/Java_Standard_Edition) platform, from [Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Corporation). It provides methods to query and update data in a database, and is oriented towards [relational databases](https://en.wikipedia.org/wiki/Relational_database). A JDBC-to-[ODBC](https://en.wikipedia.org/wiki/ODBC) bridge enables connections to any ODBC-accessible data source in the [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)(JVM) host environment
+## Java Database Connectivity(**JDBC) is an [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface)(API) for the programming language [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), which defines how a client may access a [database](https://en.wikipedia.org/wiki/Database). It is a Java-based data access technology used for Java database connectivity. It is part of the [Java Standard Edition](https://en.wikipedia.org/wiki/Java_Standard_Edition) platform, from [Oracle Corporation](https://en.wikipedia.org/wiki/Oracle_Corporation). It provides methods to query and update data in a database, and is oriented towards [relational databases](https://en.wikipedia.org/wiki/Relational_database). A JDBC-to-[ODBC](https://en.wikipedia.org/wiki/ODBC) bridge enables connections to any ODBC-accessible data source in the [Java virtual machine](https://en.wikipedia.org/wiki/Java_virtual_machine)(JVM) host environment
 
 <https://en.wikipedia.org/wiki/Java_Database_Connectivity>
 
@@ -21,7 +21,7 @@ ODBC accomplishes DBMS independence by using anODBC driveras a translation layer
 ODBC was originally developed by [Microsoft](https://en.wikipedia.org/wiki/Microsoft) and [Simba Technologies](https://en.wikipedia.org/wiki/Simba_Technologies) during the early 1990s, and became the basis for the [Call Level Interface](https://en.wikipedia.org/wiki/Call_Level_Interface)(CLI) standardized by [SQL Access Group](https://en.wikipedia.org/wiki/SQL_Access_Group) in the [Unix](https://en.wikipedia.org/wiki/Unix) and [mainframe](https://en.wikipedia.org/wiki/Mainframe_computer) field. ODBC retained several features that were removed as part of the CLI effort. Full ODBC was later ported back to those platforms, and became a [de facto standard](https://en.wikipedia.org/wiki/De_facto_standard) considerably better known than CLI. The CLI remains similar to ODBC, and applications can be ported from one platform to the other with few changes.
 <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
 
-## Data Integrity**
+## Data Integrity
 
 It's vital to users that the data they interact with is secure, correct and sensible. Examples are making sure that age isn't a negative number, or that no two students have the same information. We refer to this asdata integrity.
 Data integrity takes several forms and can be divided into four categories:
@@ -38,7 +38,7 @@ If you have seconds thoughts about using referential integrity constraints, thei
 
 ## Data Deduplication (Dedup)
 
-## Data Deduplication**is a specialized [data compression](https://en.wikipedia.org/wiki/Data_compression) technique for eliminating duplicate copies of repeating data. Related and somewhat synonymous terms are**intelligent (data) compression**and [**single-instance (data) storage](https://en.wikipedia.org/wiki/Single-instance_storage). This technique is used to improve storage utilization and can also be applied to network data transfers to reduce the number of bytes that must be sent. In the deduplication process, unique chunks of data, or byte patterns, are identified and stored during a process of analysis. As the analysis continues, other chunks are compared to the stored copy and whenever a match occurs, the redundant chunk is replaced with a small reference that points to the stored chunk. Given that the same byte pattern may occur dozens, hundreds, or even thousands of times (the match frequency is dependent on the chunk size), the amount of data that must be stored or transferred can be greatly reduced
+## Data Deduplicationis a specialized [data compression](https://en.wikipedia.org/wiki/Data_compression) technique for eliminating duplicate copies of repeating data. Related and somewhat synonymous terms are**intelligent (data) compression**and [**single-instance (data) storage](https://en.wikipedia.org/wiki/Single-instance_storage). This technique is used to improve storage utilization and can also be applied to network data transfers to reduce the number of bytes that must be sent. In the deduplication process, unique chunks of data, or byte patterns, are identified and stored during a process of analysis. As the analysis continues, other chunks are compared to the stored copy and whenever a match occurs, the redundant chunk is replaced with a small reference that points to the stored chunk. Given that the same byte pattern may occur dozens, hundreds, or even thousands of times (the match frequency is dependent on the chunk size), the amount of data that must be stored or transferred can be greatly reduced
 
 Today, you usually head aboutdeduplicationin the contest of storage devices or architectures. It is a way of, for example, saving disk space when large amounts of duplicate data is present (imagine, for example, having 100 VM images on a SAN - there is likely to be a lot of duplication among the operating system and other common files on each VM).
 Deduplication is a way of storing this redundant data only once.
@@ -46,7 +46,7 @@ Deduplication is a way of storing this redundant data only once.
 
 <https://searchstorage.techtarget.com/definition/data-deduplication>
 
-## General Data Types**
+## General Data Types
 
 - **Scalar Types**
 
@@ -67,7 +67,7 @@ There are a few reasons why generating primary keys via auto-incrementing may no
 Please consider the impacts of auto-incremented IDs vs UUIDs on indexing, partitioning and sharding before you decide on what works better for you.
 <https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
-## Database Storage Engines**
+## Database Storage Engines
 
 <https://medium.com/yugabyte/a-busy-developers-guide-to-database-storage-engines-the-basics-6ce0a3841e59>
 

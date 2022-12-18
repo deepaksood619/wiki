@@ -153,7 +153,7 @@ TCP states visited by ServerSide --
 ![image](media/TCP-(Connection-Oriented-Protocol)-image8.png)
 <https://www.geeksforgeeks.org/tcp-connection-termination>
 
-## Problems**
+## Problems
 
 - **Head of line blocking**
 
@@ -167,7 +167,7 @@ The role of TCP is to deliver the entire stream of bytes, in the correct order, 
 
 Available PEP implementations use different methods to enhance performance.
 
-- **Proxy type:**A PEP can either 'split' a connection or 'snoop' into it. In the first case, the proxy pretends to be the opposite endpoint of the connection in each direction, literally splitting the connection into two. In the latter case, the proxy controls the transmissions of the TCP segments in both directions, by ack filtering and reconstruction in the existing connection (see [protocol spoofing](https://en.wikipedia.org/wiki/Protocol_spoofing)). This is based on the OSI level of implementation of the PEP.[^[1]^](https://en.wikipedia.org/wiki/Performance-enhancing_proxy#cite_note-1)
+- **Proxy type:**A PEP can either 'split' a connection or 'snoop' into it. In the first case, the proxy pretends to be the opposite endpoint of the connection in each direction, literally splitting the connection into two. In the latter case, the proxy controls the transmissions of the TCP segments in both directions, by ack filtering and reconstruction in the existing connection (see [protocol spoofing](https://en.wikipedia.org/wiki/Protocol_spoofing)). This is based on the OSI level of implementation of the PEP.
 - **Distribution:**PEPs can be either integrated or distributed. Integrated PEP will run on a single box, while distributed PEP will require to be installed on both sides of the link that cause the performance degradation. This is quite common in commercial PEP devices, which act as a [black box](https://en.wikipedia.org/wiki/Black_box), using more or less open protocols to communicate between them in the place of TCP.
 - **Symmetry:**A PEP implementation may be symmetric or asymmetric. Symmetric PEPs use identical behavior in both directions; the actions taken by the PEP occur independent from which interface a packet is received. Asymmetric PEPs operate differently in each direction, which can cause, for example, only one link direction performance to be enhanced.
 
@@ -179,7 +179,7 @@ Available PEP implementations use different methods to enhance performance.
 - D-proxy
 <https://en.wikipedia.org/wiki/Performance-enhancing_proxy>
 
-## TCP Split**
+## TCP Split
 
 TCP splitting uses a performance enhancing proxy access node that divides the end-to-end TCP connection between the client and the server into a multi-overlay-hop path where each overlay hop is an independent TCP connection, such that the RTT of each overlay hop is lower than the direct RTT between A and B. Each hop's throughput is governed by that hop's RTT and is individually higher than the direct throughput between A and B.
 But performance issues can arise due to the interaction among path segments and different layers for any particular solution. For example, in TCP Splitting, the intermediate node (the spoofer) sends back a spoofing ACK packet to the TCP sender immediately upon receiving a TCP data packet instead of waiting for the ACK from the final TCP destination.

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Regular-Expressions---Regex",
+      "path": "Languages/Others/Regular-Expressions---Regex.md"
+    },
+    {
+      "basename": "Regular-Expressions",
+      "path": "Languages/Python/Python/Regular-Expressions.md"
+    },
+    {
+      "basename": "Regularization",
+      "path": "AI/ML-Algorithms/Regularization.md"
+    },
+    {
+      "basename": "2.-Built-in-Functions",
+      "path": "Languages/Python/Documentation/2.-Built-in-Functions.md"
+    },
+    {
       "basename": "Time-Complexities",
       "path": "Algorithms/Algorithmic-Complexity/Time-Complexities.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "Static-Code-Analysis",
       "path": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
-    },
-    {
-      "basename": "Regular-Expressions---Regex",
-      "path": "Languages/Others/Regular-Expressions---Regex.md"
     },
     {
       "basename": "product-terms-tools",
@@ -83,10 +95,6 @@
     {
       "basename": "Coursera---PM",
       "path": "Knowledge/Management/Product-Management/Coursera---PM.md"
-    },
-    {
-      "basename": "Regular-Expressions",
-      "path": "Languages/Python/Python/Regular-Expressions.md"
     },
     {
       "basename": "STL-Containers",
@@ -191,14 +199,6 @@
     {
       "basename": "NLTK",
       "path": "AI/Deep-Learning/NLP/NLTK.md"
-    },
-    {
-      "basename": "NLP",
-      "path": "AI/Deep-Learning/NLP.md"
-    },
-    {
-      "basename": "Personal-TODO",
-      "path": "Office/TODO/Personal-TODO.md"
     }
   ],
   "omittedPaths": [],

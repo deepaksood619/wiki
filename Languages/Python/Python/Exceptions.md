@@ -48,69 +48,52 @@ back until it is handled.
 
 ## Catch Exceptions
 
+```python
 try:
-
-Something here
-
+    Something here
 except Exception as e:
-
-print(e)
+    print(e)
+```
 
 ## Catch requests exception
 
-response=requests.request(**"POST"**, ZOHO_CREATE_TICKET_URL,data=str(data), headers=headers)
-
+```python
+response=requests.request("POST", ZOHO_CREATE_TICKET_URL,data=str(data), headers=headers)
 response.raise_for_status()
 
-## except**requests.exceptions.HTTPError**as errh
-
-self.message_user(request, **"Httperroroccurred,contactadmin %s"** %errh, level=messages.ERROR)
-
-logger.error(**'HTTPError'**, errh)
-
-## except**requests.exceptions.ConnectionError**as errc
-
-self.message_user(request, **"Connectionerroroccurred,contactadmin"**, level=messages.ERROR)
-
-logger.error(**'ConnectionError'**, errc)
-
-## except**requests.exceptions.Timeout**as errt
-
-self.message_user(request, **"Timeout"**, level=messages.ERROR)
-
-logger.error(**'Timeout'**, errt)
-
-## except**requests.exceptions.RequestException**as errr
-
-self.message_user(request, **"RequestException"**, level=messages.ERROR)
-
-logger.error(**'RequestException'**, errr)
-
-## except **Exception** as e
-
-self.message_user(request, **"Exceptionoccurred,contactadmin"**, level=messages.ERROR)
-
-logger.error(**'Exception'**, e)
+except requests.exceptions.HTTPError as errh:
+    self.message_user(request, "Httperroroccurred,contactadmin %s" %errh, level=messages.ERROR)
+    logger.error('HTTPError', errh)
+except requests.exceptions.ConnectionError as errc:
+    self.message_user(request, "Connectionerroroccurred,contactadmin", level=messages.ERROR)
+    logger.error('ConnectionError', errc)
+except requests.exceptions.Timeout as errt:
+    self.message_user(request, "Timeout", level=messages.ERROR)
+    logger.error('Timeout', errt)
+except requests.exceptions.RequestException as errr:
+    self.message_user(request, "RequestException", level=messages.ERROR)
+    logger.error('RequestException', errr)
+except Exception as e:
+    self.message_user(request, "Exceptionoccurred,contactadmin", level=messages.ERROR)
+logger.error('Exception', e)
+```
 
 ## Try Catch Finally block-
 
+```python
 try:
-
-raise KeyboardInterrupt
-
+    raise KeyboardInterrupt
 except KeyboardInterrupt:
-
-print('Found keyboard interrupt')
-
+    print('Found keyboard interrupt')
 finally:
-
 print('Goodbye, world!')
+```
 
 ![image](media/Exceptions-image1.png)
 
 ## Raise Exception
 
-raise KeyError(f'body and key not found: {body} {key}')
+`raise KeyError(f'body and key not found: {body} {key}')`
 
 ## Error vs Exception
 
@@ -199,6 +182,6 @@ BaseException
 +-- BytesWarning
 +-- ResourceWarning
 
-## References -
+## References
 
 <http://www.pythonforbeginners.com/error-handling/exception-handling-in-python>

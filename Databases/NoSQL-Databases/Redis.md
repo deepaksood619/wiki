@@ -74,7 +74,7 @@ This command will return the address of the current master, which can be accesse
 In case the current master crashes, the Sentinel containers will elect a new master node.
 <https://redis.io/topics/sentinel>
 
-## Redis Cluster**
+## Redis Cluster
 
 <https://redis.io/topics/cluster-tutorial>
 
@@ -98,7 +98,7 @@ twemproxy(pronounced "two-em-proxy"), akanutcrackeris a fast and lightweight pro
 
 <https://github.com/twitter/twemproxy>
 
-## codis**
+## codis
 
 Proxy based Redis cluster solution supporting pipeline and scaling dynamically
 
@@ -139,11 +139,11 @@ Both Redis and MemCached are in-memory, open-source data stores. Memcached, a hi
 | [Geospatial support](https://aws.amazon.com/elasticache/redis-vs-memcached/#Geospatial_support)                                                             | -            | Yes       |
 <https://aws.amazon.com/elasticache/redis-vs-memcached>
 
-## Books**
+## Books
 
 <https://redislabs.com/redis-in-action>
 
-## Redis 6**
+## Redis 6
 
 Redis 6.0 open source
 
@@ -166,7 +166,7 @@ Redis Enterprise 6.0
 - 1 Million Keys -> Hash value, representing an object with 5 fields, use ~ 160 MB of memory
 <https://redis.io/topics/faq>
 
-## References**
+## References
 
 [https://redis.io/](https://redis.io/commands)
 

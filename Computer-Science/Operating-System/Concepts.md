@@ -116,7 +116,7 @@ Simply put, virtualization creates the environments and resources you need from 
 5. **Network Functions Virtualization:**Network functions virtualization (NFV) separates a network's key functions (like directory services, file sharing, and IP configuration) so they can be distributed among environments. Once software functions are independent of the physical machines they once lived on, specific functions can be packaged together into a new network and assigned to an environment. Virtualizing networks reduces the number of physical components --- like switches, routers, servers, cables, and hubs --- that are needed to create multiple, independent networks, and it's particularly popular in the telecommunications industry.
 <https://www.redhat.com/en/topics/virtualization/what-is-nfv>
 
-## Distributed File Systems**
+## Distributed File Systems
 
 A distributed file system is a client/server-based application that allows clients to access and process data stored on the server as if it were on their own computer. When a user accesses a file on the server, the server sends the user a copy of the file, which is cached on the user's computer while the data is being processed and is then returned to the server.
 Ideally, a distributed file system organizes file and directory services of individual servers into a global directory in such a way that remote data access is not location-specific but is identical from any client. All files are accessible to all users of the global file system and organization is hierarchical and directory-based.

@@ -16,11 +16,11 @@ Modified: 2022-01-07 22:23:17 +0500
 
 <https://github.com/Hack-with-Github/Awesome-Hacking>
 
-## CISSP** is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more
+## CISSP is a popular cyber security certification. Risk Management, Security Architecture, Network Security, Identity & Access Management, SecOps, and more
 
 <https://www.freecodecamp.org/news/get-ready-to-pass-cissp-exam>
 
-## Use Cases and Abuse Cases**
+## Use Cases and Abuse Cases
 
 ## White Hat hackers
 
@@ -50,7 +50,7 @@ A black hat hacker has no qualms about selling vulnerabilities and exploits to t
 
 <https://haveibeenpwned.com>
 
-## Tools**
+## Tools
 
 ## Festin
 
@@ -63,7 +63,7 @@ FestInis a tool for discovering open S3 Buckets starting from a domains.
 
 <http://www.dvwa.co.uk>
 
-## Digital Forensics**
+## Digital Forensics
 
 ![image](media/Ethical-Hacking-image1.png)
 ![image](media/Ethical-Hacking-image2.png)

@@ -51,7 +51,7 @@ Used by -
 
 <http://thesecretlivesofdata.com/raft>
 
-## SWIM**
+## SWIM
 
 [SWIM](https://www.cs.cornell.edu/projects/Quicksilver/public_pdfs/SWIM.pdf) is a distributed gossip protocol for group membership (e.g. for determining members of a caching ring, etc)
 
@@ -80,7 +80,7 @@ Three-phase commit (3PC) is designed to solve the problems identified in two-pha
 Unlike 2PC, cohorts do not executea transaction during the voting phase. Rather, they simply indicate if they are prepared to perform the transaction. If cohorts timeout during this phase or there is one or more "no" vote, the transaction is aborted. If the vote is unanimously "yes," the coordinator moves on to the "prepare" phase, sending a message to its cohorts to acknowledge the transaction will be committed. Again, if an ack times out, the transactionis aborted. Once all cohorts have acknowledged the commit, we are guaranteed to be in a state where *all*cohorts have agreed to commit. At this point, if the commit message from the coordinator is not received in the third phase, the cohort will go ahead and commit anyway. This solves the deadlocking problems described earlier. However, 3PC is still susceptible to network partitions. If a partition occurs, the coordinator will timeout and progress will not be made.
 <https://bravenewgeek.com/understanding-consensus>
 
-## State Replication**
+## State Replication
 
 Protocols like [Raft](https://ramcloud.stanford.edu/raft.pdf), [Paxos](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf), and [Zab](http://web.stanford.edu/class/cs347/reading/zab.pdf) are popular and widely used solutions to the problem of distributed consensus. These implement state replication or primary-backup using leaders, quorums, and replicas of operation logs or incremental delta states.
 
@@ -124,7 +124,7 @@ Agossip protocolis a procedure or process of computer peer-to-peer communication
 The termepidemic protocolis sometimes used as a synonym for a gossip protocol, because gossip spreads information in a manner similar to the spread of a [virus](https://en.wikipedia.org/wiki/Virus) in a biological community.
 <https://en.wikipedia.org/wiki/Gossip_protocol>
 
-## FLP Impossibility**
+## FLP Impossibility
 
 States that reaching a multi-party consensus in a asynchronous system is not possible and, in order for consensus to be reachable, we need**Failure Detectors**.
 In order for processes to agree, several invariants have to be persevered:

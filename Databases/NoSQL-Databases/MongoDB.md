@@ -123,7 +123,7 @@ Performance metrics - <https://stackoverflow.com/a/37654411/5424888>
 
 <https://studio3t.com>
 
-## Others**
+## Others
 
 <https://www.ferretdb.io> - A truly Open Source MongoDB alternative
 

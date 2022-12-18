@@ -51,7 +51,7 @@ Write deterministic code - Given an input, code always produces the same output
 In programming, it is also common to refer to the "NIH syndrome" as the tendency towards [reinventing the wheel](https://en.wikipedia.org/wiki/Reinventing_the_wheel)(reimplementing something that is already available) based on the belief that in-house developments are inherently better suited, more secure, more controlled, quicker to develop, and incur lower overall cost (including maintenance cost) than using existing implementations.
 <https://en.wikipedia.org/wiki/Not_invented_here>
 
-## Enterprise Programming Tricks for clean code**
+## Enterprise Programming Tricks for clean code
 
 - Singleton configuration
 - Singletons

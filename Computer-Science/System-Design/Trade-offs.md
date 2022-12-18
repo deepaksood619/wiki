@@ -59,6 +59,6 @@ Visualisation
 - Are the dashboards internal to the TSDB or can they be shared on a website?
 <https://medium.com/kudos-engineering/choosing-the-elastic-stack-as-a-time-series-database-9fac202c53ba>
 
-## TSDB**
+## TSDB
 
 <https://outlyer.com/blog/top10-open-source-time-series-databases>

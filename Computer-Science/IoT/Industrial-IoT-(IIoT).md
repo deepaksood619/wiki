@@ -58,7 +58,7 @@ Industrial Control Systems (ICSs) are used to monitor and control the processes 
 </tbody>
 </table>
 
-## Protocols**
+## Protocols
 
 <table>
 <colgroup>
@@ -102,7 +102,7 @@ Industrial Control Systems (ICSs) are used to monitor and control the processes 
 </tbody>
 </table>
 
-## References**
+## References
 
 Industrial Internet - DZone Guide
 

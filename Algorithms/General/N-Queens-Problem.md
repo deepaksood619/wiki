@@ -61,7 +61,7 @@ backtracking.
 
 Space Complexity - n*n
 
-## References -
+## References
 
 <https://en.wikipedia.org/wiki/Eight_queens_puzzle>
 

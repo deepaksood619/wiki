@@ -24,39 +24,31 @@ The Jupyter Notebook has two different keyboard input modes.
 
 2. **Command mode** binds the keyboard to notebook level commands and is indicated by a grey cell border with a blue left margin.
 
-## for running django shell on jupyter notebook
-
+```bash
+# for running django shell on jupyter notebook
 pip install jupyter
-
 pip install django-extensions
-
 python manage.py shell_plus --notebook
-
 python manage.py shell_plus --notebook & #background
 
-## Launching Jupyter Notebook App
-
+# Launching Jupyter Notebook App
 jupyter notebook
-
 jupyter notebook --port=5555
 
 jupyter notebook list
-
 jupyter notebook stop 8888
 
-## Run jupyter notebook in background
-
+# Run jupyter notebook in background
 nohup jupyter notebook &
 
-## Run terminal commands inside jupyter notebook
-
+# Run terminal commands inside jupyter notebook
 !pip install enum34
+!pip install -U pybrain #For installing packages from cell
+```
 
-!pip install -U pybrain #**For installing packages from cell**
+## Shortcuts
 
-# Shortcuts
-
-Command Mode (pressEscto enable)
+### Command Mode (pressEscto enable)
 
 F: find and replace
 
@@ -144,11 +136,11 @@ Operate on multiple lines of input
 
 %lsmagic for list of magic available
 
-# writes all the code in the cell to a python package
+writes all the code in the cell to a python package
 
 %writefile tensorboard.py
 
-# appends the code in the cell to a file
+appends the code in the cell to a file
 
 %writefile --append tensorboard.py
 
@@ -206,29 +198,30 @@ os.*dir*?</td>
 
 ## Code
 
-## # For render HTML inside notebook output cell
-
+```python
+# For render HTML inside notebook output cell
 from IPython.core.display import display, HTML
-
 display(HTML(html_text))
+```
 
 ## Hide all code
 
+```python
 from IPython.display import HTML
-
 HTML('''<script>
 code_show=true;
 function code_toggle() {
-if (code_show){
-$('div.input').hide();
-} else {
-$('div.input').show();
-}
-code_show = !code_show
+ if (code_show){
+ $('div.input').hide();
+ } else {
+ $('div.input').show();
+ }
+ code_show = !code_show
 }
 $( document ).ready(code_toggle);
 </script>
 <form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
+```
 
 ## References
 
@@ -250,73 +243,15 @@ Theinteractfunction (ipywidgets.interact) automatically creates user interface (
 
 ## Using button
 
-interact_manual(f, x=['apples','oranges']);
+`interact_manual(f, x=['apples','oranges']);`
 
 ## Dropdown
 
-interact(f, x=['apples','oranges']);
+`interact(f, x=['apples','oranges']);`
 
 <https://ipywidgets.readthedocs.io/en/stable/index.html>
 
 <https://ipywidgets.readthedocs.io/en/stable/examples/Using%20Interact.html>
-
-JupyterLab-LSP
-
-JupyterLab-Git
-
-## RUN**jupyter nbextension enable contrib_nbextensions_help_item**/main
-
-## RUN**jupyter nbextension enable autosavetime**/main
-
-## RUN**jupyter nbextension enable codefolding**/main
-
-## RUN**jupyter nbextension enable code_font_size**/code_font_size
-
-## RUN**jupyter nbextension enable code_prettify**/code_prettify
-
-## RUN**jupyter nbextension enable collapsible_headings**/main
-
-## RUN**jupyter nbextension enable comment-uncomment**/main
-
-## RUN**jupyter nbextension enable equation-numbering**/main
-
-## RUN**jupyter nbextension enable execute_time**/ExecuteTime
-
-## RUN**jupyter nbextension enable gist_it**/main
-
-## RUN**jupyter nbextension enable hide_input**/main
-
-## RUN**jupyter nbextension enable spellchecker**/main
-
-## RUN**jupyter nbextension enable toc2**/main
-
-## RUN**jupyter nbextension enable toggle_all_line_numbers**/main
-
-ENV NODE_OPTIONS="--max-old-space-size=4096"
-RUN jupyter labextension install nbdime-jupyterlab --no-build &&
-jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build &&
-jupyter labextension install jupyterlab_bokeh --no-build &&
-jupyter labextension install bqplot --no-build &&
-jupyter labextension install @jupyterlab/vega3-extension --no-build &&
-jupyter labextension install @jupyterlab/git --no-build &&
-jupyter labextension install @jupyterlab/hub-extension --no-build &&
-jupyter labextension install jupyterlab_tensorboard --no-build &&
-jupyter labextension install jupyterlab-kernelspy --no-build &&
-jupyter labextension install @jupyterlab/plotly-extension --no-build &&
-jupyter labextension install jupyterlab-chart-editor --no-build &&
-jupyter labextension install plotlywidget --no-build &&
-jupyter labextension install @jupyterlab/latex --no-build &&
-jupyter labextension install jupyter-matplotlib --no-build &&
-jupyter labextension install jupyterlab-drawio --no-build &&
-jupyter labextension install jupyter-leaflet --no-build &&
-jupyter labextension install qgrid --no-build &&
-jupyter lab build &&
-jupyter lab clean &&
-jlpm cache clean &&
-npm cache clean --force &&
-rm -rf $HOME/.node-gyp &&
-rm -rf $HOME/.local &&
-fix-permissions $CONDA_DIR $HOME
 
 <https://github.com/jupyterlab/jupyterlab/issues/4930>
 
@@ -324,6 +259,7 @@ fix-permissions $CONDA_DIR $HOME
 
 [JupyterLab](http://jupyterlab.readthedocs.io/en/stable/) is the next-generation user interface for [Project Jupyter](https://jupyter.org/) offering all the familiar building blocks of the classic Jupyter Notebook (notebook, terminal, text editor, file browser, rich outputs, etc.) in a flexible and a more powerful user interface.The basic idea of the Jupyter Lab is to bring all the building blocks that are in the classic notebook, plus some new stuff, under one roof.
 
+```bash
 jupyter lab --ip=0.0.0.0 --allow-root
 
 start.sh jupyter lab --LabApp.token='jitCkhLMxSgw1mJp' --LabApp.ip='0.0.0.0' --LabApp.allow_root=True --LabApp.MappingKernelManager.cull_idle_timeout=600 --LabApp.MappingKernelManager.cull_interval=60 --LabApp.MappingKernelManager.cull_connected=True
@@ -333,8 +269,9 @@ c.NotebookApp.nbserver_extensions = {}
 NotebookApp.max_buffer_size = your desired value
 
 jupyter labextension list
+```
 
-## Extensions
+### Extensions
 
 - <https://github.com/lckr/jupyterlab-variableInspector>
 - <https://github.com/jupyterlab/jupyterlab-git>
@@ -372,47 +309,29 @@ When you close the tab, it runs in background. You can't see the output though, 
 
 ## docker-compose.yaml
 
+```yaml
 services:
-
-jupyterlab:
-
-stdin_open: true
-
-tty: true
-
-build:
-
-context: .
-
-dockerfile: Dockerfile
-
-restart: always
-
-image: jupyter/datascience-notebook:latest
-
-container_name: jupyterlab
-
-environment:
-
-- JUPYTER_ENABLE_LAB=yes
-
-entrypoint:
-
-- /bin/bash
-
-- -c
-
-- |
-
-start.sh jupyter lab --LabApp.token='jitCkhLMxSgw1mJp' --LabApp.ip='0.0.0.0'
-
-volumes:
-
-- .:/home/jovyan
-
-ports:
-
-- 8888:8888
+  jupyterlab:
+    stdin_open: true
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    image: jupyter/datascience-notebook:latest
+    container_name: jupyterlab
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+          start.sh jupyter lab --LabApp.token='jitCkhLMxSgw1mJp' --LabApp.ip='0.0.0.0'
+    volumes:
+      - .:/home/jovyan
+    ports:
+      - 8888:8888
+```
 
 ## Others
 

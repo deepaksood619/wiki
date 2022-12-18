@@ -133,7 +133,7 @@ A composite key shouldn't have any cyclic dependencies.
 
 <http://www.bkent.net/Doc/simple5.htm>
 
-## Denormalization**
+## Denormalization
 
 The majority of modern applications need to be able to retrieve data in the shortest time possible. And that's when you can consider denormalizing a relational database. As the name suggests, denormalization is the opposite of normalization. When you normalize a database, you organize data to ensure integrity and eliminate redundancies. Database denormalization means you deliberately put the same data in several places, thus increasing redundancy.
 

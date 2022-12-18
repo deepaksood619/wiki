@@ -187,7 +187,7 @@ Object-oriented analysis and design(OOAD) is a popular technical approach for an
 According to the popular guide [Unified Process](https://en.wikipedia.org/wiki/Unified_Process), OOAD in modern software engineering is best conducted in an iterative and incremental way. Iteration by iteration, the outputs of OOAD activities, analysis models for OOA and design models for OOD respectively, will be refined and evolve continuously driven by key factors like risks and business value.
 <https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design>
 
-## Important Points**
+## Important Points
 
 - class, object (and the difference between the two)
 - method (as opposed to, say, a C function)
@@ -204,7 +204,7 @@ According to the popular guide [Unified Process](https://en.wikipedia.org/wiki/U
 
 <http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-3-delegation-composition-and-inheritance>
 
-## SOLID principles**
+## SOLID principles
 
 1. **Single Responsibility Principle**
 
@@ -230,7 +230,7 @@ The dependency inversion principle tells us that we should always try to have de
 
 <https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>
 
-## STUPID**
+## STUPID
 
 STUPIDis an acronym that describes bad practices in Oriented Object Programming:
 

@@ -152,7 +152,7 @@ Amazon used the following principles of distributed system design to meet Amazon
 - **Symmetry.** Nodes in the system are identical in terms of functionality, and require no or minimal node-specific configuration to function.
 - **Simplicity.** The system should be made as simple as possible, but no simpler.
 
-## References -
+## References
 
 <https://www.youtube.com/watch?v=Y6Ev8GIlbxc>
 <https://www.researchgate.net/publication/282914203_A_comparative_evaluation_of_AMQP_and_MQTT_protocols_over_unstable_and_mobile_networks>

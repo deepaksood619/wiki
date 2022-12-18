@@ -16,7 +16,7 @@ A special case is *white Gaussian noise*, in which the values at any pair of tim
 
 <https://en.wikipedia.org/wiki/Gaussian_noise>
 
-## Monotonic Function**
+## Monotonic Function
 
 A monotonic function is a function which is either entirely [nonincreasing](http://mathworld.wolfram.com/NonincreasingFunction.html) or [nondecreasing](http://mathworld.wolfram.com/NondecreasingFunction.html). A function is monotonic if its first [derivative](http://mathworld.wolfram.com/Derivative.html) (which need not be continuous) does not change sign.
 
@@ -69,7 +69,7 @@ A moving average is commonly used with [time series](https://en.wikipedia.org/wi
 - Centered Moving Average
 <https://en.wikipedia.org/wiki/Moving_average>
 
-## Parameter Space**
+## Parameter Space
 
 In [statistics](https://en.wikipedia.org/wiki/Statistics), a**parameter space** is the [space](https://en.wikipedia.org/wiki/Space_(mathematics)) of all possible combinations of values for all the different [parameters](https://en.wikipedia.org/wiki/Parameter) contained in a particular [mathematical model](https://en.wikipedia.org/wiki/Mathematical_model). The ranges of values of the parameters may form the axes of a [plot](https://en.wikipedia.org/wiki/Plot_(graphics)), and particular outcomes of the model may be plotted against these axes to illustrate how different regions of the parameter space produce different types of behaviour in the model.
 <https://en.wikipedia.org/wiki/Parameter_space>
@@ -80,7 +80,7 @@ Zipf's law([/zɪf/](https://en.wikipedia.org/wiki/Help:IPA/English)) is an [empi
 For example, Zipf's law states that given some [corpus](https://en.wikipedia.org/wiki/Text_corpus) of [natural language](https://en.wikipedia.org/wiki/Natural_language) utterances, the frequency of any word is [inversely proportional](https://en.wikipedia.org/wiki/Inversely_proportional) to its rank in the [frequency table](https://en.wikipedia.org/wiki/Frequency_table). Thus the most frequent word will occur approximately twice as often as the second most frequent word, three times as often as the third most frequent word, etc.: the [rank-frequency distribution](https://en.wikipedia.org/wiki/Rank-frequency_distribution) is an inverse relation. For example, in the [Brown Corpus](https://en.wikipedia.org/wiki/Brown_Corpus) of American English text, the word [the](https://en.wikipedia.org/wiki/English_articles#Definite_article) is the most frequently occurring word, and by itself accounts for nearly 7% of all word occurrences (69,971 out of slightly over 1 million). True to Zipf's Law, the second-place wordofaccounts for slightly over 3.5% of words (36,411 occurrences), followed byand(28,852). Only 135 vocabulary items are needed to account for half the [Brown Corpus](https://en.wikipedia.org/wiki/Brown_Corpus).
 <https://en.wikipedia.org/wiki/Zipf%27s_law>
 
-## Power Law Distribution**
+## Power Law Distribution
 
 In [statistics](https://en.wikipedia.org/wiki/Statistics), a**power law** is a functional relationship between two quantities, where a relative change in one quantity results in a proportional relative change in the other quantity, independent of the initial size of those quantities: one quantity varies as a [power](https://en.wikipedia.org/wiki/Exponentiation) of another. For instance, considering the area of a square in terms of the length of its side, if the length is doubled, the area is multiplied by a factor of four.
 
@@ -89,13 +89,13 @@ In [statistics](https://en.wikipedia.org/wiki/Statistics), a**power law** is a f
 An example power-law graph, being used to demonstrate ranking of popularity. To the right is the [long tail](https://en.wikipedia.org/wiki/Long_tail), and to the left are the few that dominate (also known as the [80--20 rule](https://en.wikipedia.org/wiki/Pareto_principle)).
 <https://en.wikipedia.org/wiki/Power_law>
 
-## Pivot Table**
+## Pivot Table
 
 A**pivot table** is a [table](https://en.wikipedia.org/wiki/Table_(information)) of statistics that summarizes the data of more extensive table (such as from a [database](https://en.wikipedia.org/wiki/Database), [spreadsheet](https://en.wikipedia.org/wiki/Spreadsheet), or [business intelligence program](https://en.wikipedia.org/wiki/Business_intelligence_software)). This summary might include sums, averages, or other statistics, which the pivot table groups together in a meaningful way.
 Pivot tables are a technique in [data processing](https://en.wikipedia.org/wiki/Data_processing). They enable a person to arrange and rearrange (or "pivot") statistics in order to draw attention to useful information.
 <https://en.wikipedia.org/wiki/Pivot_table>
 
-## Empirical Cumulative Distribution Function**
+## Empirical Cumulative Distribution Function
 
 This plot draws a line showing us what percent of our data falls below a certain value on the x-axis. Here the x-axis displays the value of the data and the y-axis the percent of our data that falls below a specific value on the x-axis.
 On the chart below, take the point 6 on the x-axis and use your finger to trace a straight path up until you hit the line---the value on the y-axis at the point you hit the line is about 75%. So 75% of the data in the example below are lower than 6.
@@ -112,7 +112,7 @@ There are some issues in interpreting a Gini coefficient. The same value may res
 
 <https://www.investopedia.com/terms/g/gini-index.asp>
 
-## Lorenz Curve**
+## Lorenz Curve
 
 The Lorenz curve is a graphical representation of [income inequality](https://www.investopedia.com/terms/i/income-inequality.asp) or wealth inequality developed by American economistMax Lorenz in 1905. The graph plotspercentiles of the population on the horizontal axis according to income or wealth. It plots cumulativeincome or wealth on the vertical axis, so that an x-value of 45 and a y-value of 14.2 would mean that the bottom 45% of the population controls 14.2% of the total income or wealth.
 
@@ -127,6 +127,6 @@ Rank order items are analyzed using [Spearman](http://changingminds.org/explanat
 
 <https://machinelearningmastery.com/statistical-power-and-power-analysis-in-python>
 
-## Effect Size**
+## Effect Size
 
 <https://machinelearningmastery.com/effect-size-measures-in-python>

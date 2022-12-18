@@ -36,7 +36,7 @@ Solution - <https://github.com/facebook/dataloader>
 
 <https://xuorig.medium.com/the-graphql-dataloader-pattern-visualized-3064a00f319f>
 
-## GraphQL Core Concepts**
+## GraphQL Core Concepts
 
 - Schema Definition Language (Used to define the schema of an API)
 - Defining Types (Type system allows us to check if query is valid or not before resolving the query)
@@ -146,7 +146,7 @@ One of the main benefits of GraphQL is that we can query all of our data as part
 In both cases, we usemergeSchemasto combine multiple GraphQL schemas together and produce a merged schema that knows how to delegate parts of the query to the relevant subschemas. These subschemas can be either local to the server, or running on a remote server. They can even be services offered by 3rd parties, allowing us to connect to external data and create mashups.
 <https://www.apollographql.com/docs/graphql-tools/schema-stitching>
 
-## Apollo Federation**
+## Apollo Federation
 
 Apollo Federation is an architecture for composing multiple GraphQL services into a single graph that addresses this need. Unlike other approaches such as schema stitching, it is based on a declarative composition programming model that allowsproper separation of concerns. This design allows teams to implement an enterprise-scale shared data graph as a set of loosely coupled, separately maintained GraphQL services.
 <https://principledgraphql.com/integrity#1-one-graph>
@@ -157,7 +157,7 @@ Apollo Federation is an architecture for composing multiple GraphQL services int
 
 <https://github.com/apollographql/federation-demo>
 
-## Tools**
+## Tools
 
 ## Hasura - <https://hasura.io>
 
@@ -173,7 +173,7 @@ Quiver - <https://medium.com/@syrusakbary/quiver-graphql-on-steroids-13612ea1ea7
 
 <https://www.youtube.com/watch?v=T0zpPO7Ub_s&ab_channel=GOTOConferences>
 
-## Monitoring GraphQL APIs**
+## Monitoring GraphQL APIs
 
 <https://www.moesif.com/blog/technical/monitoring/How-to-Best-Monitor-GraphQL-APIs>
 
@@ -181,7 +181,7 @@ Quiver - <https://medium.com/@syrusakbary/quiver-graphql-on-steroids-13612ea1ea7
 
 ## Persisted Queries -** <https://www.apollographql.com/blog/apollo-client/persisted-graphql-queries>
 
-## References**
+## References
 
 <https://medium.freecodecamp.org/rest-apis-are-rest-in-peace-apis-long-live-graphql-d412e559d8e4>
 

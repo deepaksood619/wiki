@@ -178,7 +178,7 @@ xinetd, the eXtended InterNET Daemon, is an open-source daemon which runs on man
 xinetd performs the same function as inetd: it starts programs that provide Internet services. Instead of having such servers started at system initialization time, and be dormant until a connection request arrives, xinetd is he only daemon process started and it listens on all service ports for the services listed in its configuration file. When a request comes in, xinetd starts the appropriate server. Because of the way it operates, xinetd (as well as inetd) is also referred to as a super-server.
 <https://www.cyberciti.biz/faq/linux-how-do-i-configure-xinetd-service>
 
-## File Descriptor**
+## File Descriptor
 
 In [Unix](https://en.wikipedia.org/wiki/Unix) and [related](https://en.wikipedia.org/wiki/Unix-like) computer operating systems, afile descriptor(FD, less frequently fildes) is an abstract indicator ([handle](https://en.wikipedia.org/wiki/Handle_(computing))) used to access a [file](https://en.wikipedia.org/wiki/File_(computing)) or other [input/output](https://en.wikipedia.org/wiki/Input/output) [resource](https://en.wikipedia.org/wiki/System_resource), such as a [pipe](https://en.wikipedia.org/wiki/Pipe_(Unix)) or [network socket](https://en.wikipedia.org/wiki/Network_socket). File descriptors form part of the [POSIX](https://en.wikipedia.org/wiki/POSIX) [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface). A file descriptor is a non-negative [integer](https://en.wikipedia.org/wiki/Integer), generally represented in the [C](https://en.wikipedia.org/wiki/C_(programming_language)) programming language as the typeint(negative values being reserved to indicate "no value" or an error condition).
 Each Unix [process](https://en.wikipedia.org/wiki/Process_(computing))(except perhaps a [daemon](https://en.wikipedia.org/wiki/Daemon_(computer_software))) should expect to have three standard POSIX file descriptors, corresponding to the three [standard streams](https://en.wikipedia.org/wiki/Standard_streams):
@@ -191,7 +191,7 @@ Each Unix [process](https://en.wikipedia.org/wiki/Process_(computing))(except pe
 /proc/113/fd -> 0,1,2 -> 2>&1
 <https://en.wikipedia.org/wiki/File_descriptor>
 
-## Ownership of Linux Files**
+## Ownership of Linux Files
 
 ## User
 

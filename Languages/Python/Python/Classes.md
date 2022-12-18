@@ -7,14 +7,15 @@ Modified: 2018-06-30 18:14:53 +0500
 ---
 
 ## Creating a class
+
 ```python
 class Dog():
     """Represent a dog."""
-    
+
     def __init__(self, name):
         """Initialize dog object."""
         self.name = name
-        
+
     def sit(self):
         """Simulate sitting."""
         print(self.name + ' is sitting.")
@@ -29,15 +30,15 @@ my_dog.sit()
 ```python
 class SDog(Dog):
     """Represent a search dog."""
-    
+
     def __init__(self, name):
         """Initialize the search dog."""
         super().__init__(name)
-        
+
     def search(self):
         """Simulate searching."""
         print(self.name + ' is searching.')
-        
+
 my_dog = SDog('Lucy')
 
 print(my_dog.name + ' is a search dog.')

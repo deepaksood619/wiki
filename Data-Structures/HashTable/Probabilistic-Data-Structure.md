@@ -25,7 +25,7 @@ Probabilistic data structures are a group of data structures that are extremely 
 
 <https://arxiv.org/abs/2103.02515>
 
-## Others**
+## Others
 
 ## Frugal Streaming
 

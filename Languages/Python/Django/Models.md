@@ -119,6 +119,7 @@ ObjectDoesNotExists
 ## Ordering
 
 Add meta in the object Model
+
 ```python
 class Meta:
     ordering=('device__owner__client_name','issue__display_name')

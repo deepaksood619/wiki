@@ -41,7 +41,7 @@ Unlike CFGs, PEGs cannot be [ambiguous](https://en.wikipedia.org/wiki/Ambiguous_
 
 <https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60>
 
-## Compilation JIT vs AOT**
+## Compilation JIT vs AOT
 
 ## Just-In-time (JIT)compilation is the process of translating code written in a programming language to machine code at runtime (during a program or application's execution). At runtime, certain dynamic information is available, such as type identification. A JIT compiler monitors to detect functions or loops of code that are run multiple times. These pieces of code are then compiled. If they're quite commonly executed, JIT will optimize them and also store the optimized, compiled code for execution. Browsers use JIT compilation to run JavaScript
 

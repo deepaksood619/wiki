@@ -90,7 +90,7 @@ The Kernel maintains context information for the process as a whole and for indi
 | CPU            | Complex math problem, search       | Multiprocessing   |
 <https://zacs.site/blog/linear-python.html>
 
-## Are Threads Lighter than Processes**
+## Are Threads Lighter than Processes
 
 Yes and No.
 In concept,

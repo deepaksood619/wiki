@@ -67,7 +67,7 @@ Modified: 2022-07-15 17:39:32 +0500
 ![image](media/System-Design---Others-image5.png)
 <https://www.youtube.com/watch?v=UmWtcgC96X8>
 
-## Web Crawlers**
+## Web Crawlers
 
 ## Use Case
 

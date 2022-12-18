@@ -9,42 +9,30 @@ Modified: 2022-04-03 19:33:20 +0500
 ## Security Services
 
 1. Data confidentiality
-
 2. Data integrity
-
 3. Authentication
-
 4. Non-repudiation
-
 5. Access Control
+
 Alice, Bob and Trudy (Adversary)
 
 ## Managing Passwords and Application Secrets: Common Anti-Patterns
 
 1. The Shared Password
-
 2. The FILE
-
 3. Sharing Over Email
-
 4. Sharing Over Slack, Skype, SMS, iMessage, Whatsapp, etc.
-
 5. Web-based Pastebin, Exploding Message, and Encrypted Chat Services
-
 6. The Git Repo, Unencrypted
-
 7. Gitignored Files and Environment Variables (The 12-Factor App Methodology)
-
 8. The Git Repo, Encrypted
-
 9. Not Protecting Development-Level Secrets
-
 10. Custom Secrets Management
-
 11. **Faith-based security (FBS)**, a cousin of Security Through Obscurity (STO)
+
 <https://blog.envkey.com/managing-passwords-and-secrets-common-anti-patterns-2d5d2ab8e8ca>
 
-## Access control models**
+## Access control models
 
 1. **[Attribute-based Access Control](https://en.wikipedia.org/wiki/Attribute-based_access_control)(ABAC)**
 
@@ -106,7 +94,7 @@ Authorization is a process of verifying if a given entity can access or perform 
 
 ## AAA (Authentication, Authorization and Audit)
 
-## AAA**refers to**[Authentication](https://en.wikipedia.org/wiki/Authentication), [Authorization](https://en.wikipedia.org/wiki/Authorization) and [Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access
+AAA refers to [Authentication](https://en.wikipedia.org/wiki/Authentication), [Authorization](https://en.wikipedia.org/wiki/Authorization) and [Accounting](https://en.wikipedia.org/wiki/Accounting). It is used to refer to a family of protocols that mediate network access
 
 ## Auditing
 
@@ -185,14 +173,14 @@ Encrypted Server Name Indication (ESNI) is an extension to TLS 1.3 which prevent
 
 <https://cryptopals.com/sets/1>
 
-## PEM file**
+## PEM file
 
 Privacy-Enhanced Mail(PEM) is a [de facto](https://en.wikipedia.org/wiki/De_facto) file format for storing and sending cryptographic [keys](https://en.wikipedia.org/wiki/Key_(cryptography)), [certificates](https://en.wikipedia.org/wiki/Public_key_certificate), and other data, based on a set of 1993 [IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) standards defining "privacy-enhanced mail." While the original standards were never broadly adopted, and were supplanted by [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) and [S/MIME](https://en.wikipedia.org/wiki/S/MIME), the textual encoding they defined became very popular.
 PEM data is commonly stored in files with a ".pem" suffix, a ".cer" or ".crt" suffix (for certificates), or a ".key" suffix (for public or private keys).The label inside a PEM file represents the type of the data more accurately than the file suffix, since many different types of data can be saved in a ".pem" file.
 A PEM file may contain multiple instances. For instance, an operating system might provide a file containing a list of trusted [CA certificates](https://en.wikipedia.org/wiki/CA_certificate), or a web server might be configured with a "chain" file containing an end-entity certificate plus a list of intermediate certificates.
 <https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail>
 
-## IAM**
+## IAM
 
 Identity and Access Management (IAM) is the security discipline that enables the right individuals to access the right resources at the right times for the right reasons. IAM addresses the mission-critical need to ensure appropriate access to resources across increasingly heterogeneous technology environments.
 Enterprises traditionally used on-premises IAM software to manage identity and access policies, but nowadays, as companies add more cloud services to their environments, the process of managing identities is getting more complex. Therefore, adopting cloud-based Identity-as-a-Service (IDaaS) and cloud IAM solutions becomes a logical step.
@@ -203,9 +191,9 @@ Cloud IAM typically includes the following features:
 - Resource-level Access Control. You can define roles and grant permissions to users to access resources at different granularity levels.
 <https://auth0.com/learn/cloud-identity-access-management>
 
-## Privacy**
+## Privacy
 
-## Privacy is not for the passive. -- Jeffrey Rosen
+Privacy is not for the passive. -- Jeffrey Rosen
 
 Privacy-enhancing technologies (PETs)
 The problem of matching records using an identifier while preserving privacy has been well studied as a class of algorithms called private set intersection.

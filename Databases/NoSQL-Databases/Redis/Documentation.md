@@ -28,7 +28,7 @@ sendmultiple commandsto the server without waiting for the replies at all, and f
 
 <https://redis.io/topics/indexes>
 
-## Redis modules API**
+## Redis modules API
 
 - [Introduction to Redis modules](https://redis.io/topics/modules-intro). A good place to start learing about Redis 4.0 modules programming.
 - [Implementing native data types](https://redis.io/topics/modules-native-types). Modules scan implement new data types (data structures and more) that look like built-in data types. This documentation covers the API to do so.

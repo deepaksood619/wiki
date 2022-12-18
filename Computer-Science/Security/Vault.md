@@ -282,7 +282,7 @@ This reduces the manual tasks performed by the database administrator and makes 
 
 <https://www.vaultproject.io/docs/secrets/databases>
 
-## Audit Devices**
+## Audit Devices
 
 Audit devices are the components in Vault that keep a detailed log of all requests and response to Vault. Because every operation with Vault is an API request/response, the audit log containsevery authenticatedinteraction with Vault, including errors.
 Multiple audit devices can be enabled and Vault will send the audit logs to both. This allows you to not only have a redundant copy, but also a second copy in case the first is tampered with.

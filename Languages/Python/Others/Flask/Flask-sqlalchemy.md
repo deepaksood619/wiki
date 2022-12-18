@@ -31,11 +31,11 @@ Modified: 2020-08-19 16:25:43 +0500
 ## Example
 
 ```python
-from flask import Flask 
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 from datetime import datetime, timedelta
-from faker import Faker 
+from faker import Faker
 
 import random
 
@@ -43,12 +43,12 @@ fake = Faker()
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False 
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 #db.init_app(app)
 
 class Customer(db.Model):
-    id = db.Column(db.Integer, primary_key=True) 
+    id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(50), nullable=False)
     last_name = db.Column(db.String(50), nullable=False)
     address = db.Column(db.String(500), nullable=False)
@@ -130,7 +130,7 @@ def add_products():
         )
         db.session.add(product)
     db.session.commit()
-    
+
 def add_order_products():
     orders = Order.query.all()
     products = Product.query.all()
@@ -141,7 +141,7 @@ def add_order_products():
         # select random products
         purchased_products = random.sample(products, k)
         order.products.extend(purchased_products)
-        
+
     db.session.commit()
 
 def create_random_data():
@@ -189,7 +189,7 @@ def average_fulfillment_time():
             db.func.time(
                 db.func.avg(
                     db.func.strftime('%s', Order.shipped_date) - db.func.strftime('%s', Order.order_date)
-                ), 
+                ),
                 'unixepoch'
             )
         ).filter(Order.shipped_date.isnot(None)).scalar()

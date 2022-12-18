@@ -47,7 +47,7 @@ iperf3 -V -d -s -p 5002 -P 10 -R
 
 <https://iperf.fr/iperf-doc.php>
 
-## Retr**
+## Retr
 
 It's the number of TCP segments retransmitted. This can happen if TCP segments are lost in the network due to congestion or corruption.
 

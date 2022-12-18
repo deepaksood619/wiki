@@ -14,7 +14,7 @@ Modified: 2021-11-25 19:26:25 +0500
 
 <https://www.eversql.com/top-5-mysql-monitoring-tools>
 
-## Testing**
+## Testing
 
 ## mysqlslap
 
@@ -22,7 +22,7 @@ It's a benchmarking tool that can help DBAs and developers load test their datab
 mysqlslap can emulate a large number of client connections hitting the database server at the same time. The load testing parameters are fully configurable and the results from different test runs can be used to fine-tune database design or hardware resources.
 <https://www.digitalocean.com/community/tutorials/how-to-measure-mysql-query-performance-with-mysqlslap>
 
-## Optimizations**
+## Optimizations
 
 ## MySQLTuner
 
@@ -30,7 +30,7 @@ mysqlslap can emulate a large number of client connections hitting the database 
 
 <https://github.com/pdufault/mysqlfragfinder/blob/master/mysqlfragfinder.sh>
 
-## Mysqlreport**
+## Mysqlreport
 
 Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report that provides an in-depth understanding of how well MySQL is running. mysqlreport is a better alternative (and practically the only alternative) to manually interpreting SHOW STATUS.
 
@@ -121,12 +121,12 @@ Works by creating an empty copy of the table to alter, modifying it as desired, 
 - [pt-visual-explain](https://www.percona.com/doc/percona-toolkit/LATEST/pt-visual-explain.html)
 <https://www.percona.com/software/database-tools/percona-toolkit>
 
-## Event Reduce**
+## Event Reduce
 
 An algorithm to optimize database queries that run multiple times
 <https://github.com/pubkey/event-reduce>
 
-## SQLCheck**
+## SQLCheck
 
 SQL anti-patterns can slow down queries, but often it takes experienced DBAs and developers poring over code to identify and resolve them.
 Four categories of anti-pattern:
@@ -164,7 +164,7 @@ Note that if your schema has foreign keys then Gh-ost may not operate cleanly, a
 <https://github.com/github/gh-ost>
 <https://www.infoworld.com/article/3241730/top-5-open-source-tools-for-mysql-administrators.html>
 
-## Maintenance Scripts**
+## Maintenance Scripts
 
 <https://jonlabelle.com/snippets/view/shell/mysql-database-maintenance-script>
 
@@ -181,7 +181,7 @@ InnoDB stores data using a page-allocation method and does not suffer from fragm
 orchestratoris a MySQL high availability and replication management tool, runs as a service and provides command line access, HTTP API and Web interface.
 <https://github.com/openark/orchestrator>
 
-## CueObserve**
+## CueObserve
 
 Anomaly detection on SQL data warehouses and databases
 

@@ -633,7 +633,7 @@ The job of this network is to let you know that an idea you've just had is worth
 
 ## A positive mood boosts your creativity
 
-## Insight**, it turns out, is core to creativity. And you don't just have to wait for it to suddenly appear. Instead, you can cultivate it. How? By strengthening a particular part of the brain called the**anterior cingulate cortex, or ACC, which is part of the salience network
+## Insight, it turns out, is core to creativity. And you don't just have to wait for it to suddenly appear. Instead, you can cultivate it. How? By strengthening a particular part of the brain called the**anterior cingulate cortex, or ACC, which is part of the salience network
 
 Brain-imaging studies have shown that the ACC lights up right before we solve a problem using "aha" insight. So what can make the ACC more active? The answer is simpler than you might think. Put simply --⁠ a good mood.
 

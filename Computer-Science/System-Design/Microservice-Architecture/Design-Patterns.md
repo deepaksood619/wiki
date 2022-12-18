@@ -57,7 +57,7 @@ Functional decomposition is a term that engineers use to describea set of steps 
   - [Client-side UI composition](https://microservices.io/patterns/ui/client-side-ui-composition.html)
 <https://microservices.io/patterns/microservices.html>
 
-## Catalog of patterns**
+## Catalog of patterns
 
 <table>
 <colgroup>

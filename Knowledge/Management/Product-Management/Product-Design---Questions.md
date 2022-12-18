@@ -36,11 +36,11 @@ A product designer helps identify, investigate, and validate a problem, then res
 
 A great product designer should be able to demonstrate knowledge describing the differences, in particular how UX design is only one slice of the product design process and only one of many different disciplines that reside under the product design banner. These include but are not limited to: identifying and validating the problem, crafting a user research plan, guiding the product's information architecture, content strategy, interaction design, visual design, UI design, UX design, and usability testing. Product designers also turn to analytics to gather existing user data or to evaluate how a product performs and make product design adjustments.
 
-## Please describe how you test your product designs, what methodologies you use, and how you evaluate product usability
+### Please describe how you test your product designs, what methodologies you use, and how you evaluate product usability
 
 The fundamental purpose of product testing is to better understand, and empathize with, the core users of a product. User testing---which is part of a user-centered design philosophy---is one of the most important aspects of a designer's job. A great product designer should talk about the many different types (depending on the project and the design phase) of user tests they employ - from behavioral and attitudinal, to qualitative and quantitative, each with a defined number of participants for optimal results.
 
-## Attitudinal and behavioral testing **is**"what people say" vs. "what people do."**Many times, the two are different.**Qualitative and quantitative testing is described as "direct observation" vs. "indirect measurement." Quantitative testing data will always express a certain quantity, amount, or range, while qualitative testing data contains information about qualities
+Attitudinal and behavioral testing is **"what people say" vs. "what people do."** Many times, the two are different.**Qualitative and quantitative testing is described as "direct observation" vs. "indirect measurement." Quantitative testing data will always express a certain quantity, amount, or range, while qualitative testing data contains information about qualities
 
 They may also talk about moderated user testing and unmoderated remote user testing. Moderated testing is when the tester (usually the product designer) is present and able to guide and observe how a participant is using the product. Unmoderated user testing is when participants are given the test with a set of tasks, and the computer walks them through it, records the session, and collects the data.
 

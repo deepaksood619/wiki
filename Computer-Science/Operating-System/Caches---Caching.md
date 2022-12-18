@@ -223,7 +223,7 @@ Main article:[Directory-based cache coherence](https://en.wikipedia.org/wiki/Dir
 In a directory-based system, the data being shared is placed in a common directory that maintains the coherence between caches. The directory acts as a filter through which the processor must ask permission to load an entry from the primary memory to its cache. When an entry is changed, the directory either updates or invalidates the other caches with that entry.
 <https://en.wikipedia.org/wiki/Cache_coherence>
 
-## Cache Invalidation**
+## Cache Invalidation
 
 Cache invalidationis a process in a [computer system](https://en.wikipedia.org/wiki/Computer_system) whereby entries in a [cache](https://en.wikipedia.org/wiki/Cache_(computing)) are replaced or removed.
 It can be done explicitly, as part of a [cache coherence](https://en.wikipedia.org/wiki/Cache_coherence) protocol. In such a case, a processor changes a memory location and then invalidates the cached [values](https://en.wikipedia.org/wiki/Value_(computer_science)) of that memory location across the rest of the computer system.
@@ -304,13 +304,13 @@ The **ETag** or **entity tag** is part of [HTTP](https://en.wikipedia.org/wiki/H
 An ETag is an opaque identifier assigned by a Web server to a specific version of a resource found at a [URL](https://en.wikipedia.org/wiki/Uniform_Resource_Locator). If the resource representation at that URL ever changes, a new and different ETag is assigned. Used in this manner, ETags are similar to [fingerprints](https://en.wikipedia.org/wiki/Fingerprint_(computing)) and can quickly be compared to determine whether two representations of a resource are the same.
 <https://en.wikipedia.org/wiki/HTTP_ETag>
 
-## Others**
+## Others
 
 - set-associative (SA) caches
 - log-structured (LS) caches
 - Kangaroo - <https://engineering.fb.com/2021/10/26/core-data/kangaroo>
 
-## References**
+## References
 
 [https://en.wikipedia.org/wiki/Cache_(computing)](https://en.wikipedia.org/wiki/Cache_(computing)#WRITE-BACK)
 

@@ -33,7 +33,7 @@ It was designed to be a reference model for describing the functions of a commun
 <td><strong>Layer</strong></td>
 <td></td>
 <td><strong><a href="https://en.wikipedia.org/wiki/Protocol_data_unit">Protocol data unit</a>(PDU)</strong></td>
-<td><strong>Function</strong><a href="https://en.wikipedia.org/wiki/OSI_model#cite_note-3"></a></td>
+<td><strong>Function</strong></td>
 </tr>
 <tr>
 <td><p><strong>Host</strong></p>

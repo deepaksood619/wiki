@@ -8,12 +8,12 @@ Modified: 2018-01-19 22:17:56 +0500
 
 The process of plotting an efficiently directed path between multiple points, called nodes.
 
-## Used in -
+## Used in
 
 - **Path Finding**
 - **Graph Traversals**
 
-## Application-
+## Application
 
 - **8 puzzle problem**
 

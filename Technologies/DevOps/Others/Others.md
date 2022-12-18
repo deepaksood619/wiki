@@ -150,7 +150,7 @@ CloudState is an initiative to define what is "Serverless 2.0"- or what's the ne
 
 ## Nexus
 
-## Nexus**by Sonatype is a repository manager that organizes, stores and distributes artifacts needed for development. With**Nexus, developers can completely control access to, and deployment of, every artifact in an organization from a single location, making it easier to distribute software
+Nexus by Sonatype is a repository manager that organizes, stores and distributes artifacts needed for development. With Nexus, developers can completely control access to, and deployment of, every artifact in an organization from a single location, making it easier to distribute software
 
 ## Packer
 

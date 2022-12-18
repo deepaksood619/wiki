@@ -49,7 +49,7 @@ This lets you consolidate your routing rules into a single resource. For example
 
 ![ingress in kubernetes](../../../media/DevOps-Kubernetes-Ingress-image1.png)
 
-## NodePort **and** LoadBalancerlet you expose a service by specifying that value in the service'stype. Ingress, on the other hand, is a completely independent resource to your service. You declare, create and destroy it separately to your services
+NodePort and LoadBalancer let you expose a service by specifying that value in the service'stype. Ingress, on the other hand, is a completely independent resource to your service. You declare, create and destroy it separately to your services
 
 This makes it decoupled and isolated from the services you want to expose. It also helps you to consolidate routing rules into one place.
 

@@ -33,7 +33,7 @@ Things to keep in mind:
 - Not every Unicode string represents a byte sequence encoded in Base64.
 <https://stackoverflow.com/questions/3866316/whats-the-difference-between-utf8-utf16-and-base64-in-terms-of-encoding>
 
-## Unicode**
+## Unicode
 
 A **character** is a minimal unit of text that has semantic value.
 A **character set** is a collection of characters that might be used by multiple languages. For example, the Latin character set is used by English and most European languages, though the Greek character set is used only by the Greek language.
@@ -59,7 +59,7 @@ The following table shows code point values for several characters:
 As previously described, characters that are in the range U+10000 to U+10FFFF are called supplementary characters. The set of characters from U+0000 to U+FFFF are sometimes referred to as theBasic Multilingual Plane (BMP).
 <https://www.asciitohex.com>
 
-## Control Characters**
+## Control Characters
 
 Acontrol [character](https://en.wikipedia.org/wiki/Character_(computing)) ornon-printing character(NPC) is a [code point](https://en.wikipedia.org/wiki/Code_point)(a [number](https://en.wikipedia.org/wiki/Number)) in a [character set](https://en.wikipedia.org/wiki/Character_encoding), that does not represent a written symbol. They are used as [in-band signaling](https://en.wikipedia.org/wiki/In-band_signaling) to cause effects other than the addition of a symbol to the text. All other characters are mainly printing, printable, or [graphic characters](https://en.wikipedia.org/wiki/Graphic_character), except perhaps for the "space" character (see [ASCII printable characters](https://en.wikipedia.org/wiki/ASCII_printable_characters)).
 The control characters in ASCII still in common use include:
@@ -86,7 +86,7 @@ It does not make sense to have a string without knowing what encoding it uses.
 - 9 = Not applicable.
 <https://www.wikiwand.com/en/ISO/IEC_5218>
 
-## Licenses**
+## Licenses
 
 GPL Gnu General Public License
 

@@ -107,7 +107,7 @@ A GPU-powered real-time analytics storage and query engine. It features low quer
 <https://github.com/uber/aresdb>
 9.  **Riak**
 
-## Riak(pronounced "ree-ack"[^[2]^](https://en.wikipedia.org/wiki/Riak#cite_note-Riak_1.0_Release_Party-2)) is a distributed [NoSQL](https://en.wikipedia.org/wiki/NoSQL) key-value [data store](https://en.wikipedia.org/wiki/Data_store) that offers high availability, fault tolerance, operational simplicity, and scalability.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3) In addition to the [open-source](https://en.wikipedia.org/wiki/Open-source_software) version, it comes in a supported enterprise version and a [cloud storage](https://en.wikipedia.org/wiki/Cloud_storage) version.[^[3]^](https://en.wikipedia.org/wiki/Riak#cite_note-Datamation-3) Riak implements the principles from Amazon's [Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system)) paper [^[4]^](https://en.wikipedia.org/wiki/Riak#cite_note-4) with heavy influence from the [CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience
+## Riak(pronounced "ree-ack") is a distributed [NoSQL](https://en.wikipedia.org/wiki/NoSQL) key-value [data store](https://en.wikipedia.org/wiki/Data_store) that offers high availability, fault tolerance, operational simplicity, and scalability. In addition to the [open-source](https://en.wikipedia.org/wiki/Open-source_software) version, it comes in a supported enterprise version and a [cloud storage](https://en.wikipedia.org/wiki/Cloud_storage) version. Riak implements the principles from Amazon's [Dynamo](https://en.wikipedia.org/wiki/Dynamo_(storage_system)) paper  with heavy influence from the [CAP Theorem](https://en.wikipedia.org/wiki/CAP_Theorem). Written in [Erlang](https://en.wikipedia.org/wiki/Erlang_(programming_language)), Riak has fault tolerant data replication and automatic data distribution across the cluster for performance and resilience
 
 The Riak product line of distributed databases is built on a set of core services providing a highly reliable, scalable distributed systems framework.[RiakKV](https://riak.com/products/riak-kv/index.html) is a distributed NoSQL database.[RiakTS](https://riak.com/products/riak-ts/index.html) is builton the same core foundation as RiakKV and is highly optimized for IoT and time series data.Riak also integrates with [RiakS2](https://riak.com/products/riak-s2/index.html?p=6196.html) to optimize large object storage, and integrates with other data services including [Apache Spark](https://riak.com/products/apache-spark/index.html), [Redis Caching](https://riak.com/products/redis/index.html?p=6927.html), [Apache Solr](https://riak.com/products/solr/index.html), and [Apache Mesos](https://riak.com/products/apache-mesos/index.html?p=11511.html).
 <https://riak.com/products>
@@ -305,7 +305,7 @@ Minio is a high performance distributed object storage server, designed for
 large-scale private cloud infrastructure.
 <https://minio.io>
 
-## Others**
+## Others
 
 - **GlusterFS**
 

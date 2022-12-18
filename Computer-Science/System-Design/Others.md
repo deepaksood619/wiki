@@ -54,7 +54,7 @@ iii. The Tailer, Leaf, and Aggregator run as discrete microservices in disaggreg
 The most significant difference is that the Lambda architecture performs data transformations up front so that results are pre-materialized, while the ALT architecture allows for query on demand with on-the-fly transformations.
 <https://rockset.com/blog/aggregator-leaf-tailer-an-architecture-for-live-analytics-on-event-streams>
 
-## Dead Letter Queues**
+## Dead Letter Queues
 
 In [message queueing](https://en.wikipedia.org/wiki/Message_queue) thedead letter queueis a service implementation to store messages that meet one or more of the following criteria:
 

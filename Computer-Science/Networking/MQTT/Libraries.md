@@ -66,7 +66,7 @@ Modified: 2019-03-12 23:42:03 +0500
 
 Public mqtt brokers for testing - <https://github.com/mqtt/mqtt.github.io/wiki/public_brokers>
 
-## MQTT Client Libraries**
+## MQTT Client Libraries
 
 | LIBRARY                | LANGUAGE                                 | DESCRIPTION                                                                                                                |
 |--------------|------------------|-----------------------------------------|

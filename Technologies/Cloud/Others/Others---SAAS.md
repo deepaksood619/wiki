@@ -183,7 +183,7 @@ Aworkflowconsists of an orchestrated and repeatable [pattern](https://en.wikiped
 
 From a more abstract or higher-level perspective, workflow may be considered a view or representation of real work.The flow being described may refer to a [document](https://en.wikipedia.org/wiki/Document), service, or [product](https://en.wikipedia.org/wiki/Product_(business)) that is being transferred from one step to another.
 
-Workflows may be viewed as one fundamental building block to be combined with other parts of an organization's structure such as information technology, [teams](https://en.wikipedia.org/wiki/Team), [projects](https://en.wikipedia.org/wiki/Project) and [hierarchies](https://en.wikipedia.org/wiki/Hierarchical_organization).[[4]](https://en.wikipedia.org/wiki/Workflow#cite_note-nocsmart-4)
+Workflows may be viewed as one fundamental building block to be combined with other parts of an organization's structure such as information technology, [teams](https://en.wikipedia.org/wiki/Team), [projects](https://en.wikipedia.org/wiki/Project) and [hierarchies](https://en.wikipedia.org/wiki/Hierarchical_organization).
 
 <https://en.wikipedia.org/wiki/Workflow>
 

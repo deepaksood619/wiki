@@ -183,29 +183,21 @@ b = 0000 1101
 </tbody>
 </table>
 
-# Different ways to test multiple
+## Different ways to test multiple
 
+```python
 # flags at once in Python
-
-x, y, z = **0**, **1**, **0**
-
-## if**x ==**1 or**y ==**1 or**z ==**1
-
-print('passed')
-
-## if 1 in (x, y, z)
-
-print('passed')
-
-# These only test for truthiness
-
-## if**x** or**y** or z
-
-print('passed')
-
-## if any((x, y, z))
-
-print('passed')
+x, y, z = 0, 1, 0
+if x == 1 or y == 1 or z == 1:
+    print('passed')
+if 1 in (x, y, z):
+    print('passed')
+# These only test for truthiness:
+if x or y or z:
+    print('passed')
+if any((x, y, z)):
+    print('passed')
+```
 
 ## Difference between is and ==
 
@@ -215,34 +207,30 @@ print('passed')
 
 ## Character Conversion
 
-1. **ord() -** convert character to ascii
+1. `ord()` convert character to ascii
 
-2. **chr() -** convert ascii to character
+2. `chr()` convert ascii to character
 
 ## Swap Values -
 
+```python
 A = 23
-
 B = 42
-
 A, B = B, A
+```
 
 ## Conditional test with lists
 
-in
-
-not in
+- in
+- not in
 
 ## If statements
 
+```python
 if age < 4:
-
-ticket_price = 0
-
+    ticket_price = 0
 elif age < 18:
-
-ticket_price = 10
-
+    ticket_price = 10
 else:
-
-ticket_price = 15
+    ticket_price = 15
+```

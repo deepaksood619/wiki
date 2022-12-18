@@ -349,7 +349,7 @@ Another way to reduce latency associated with high command volume is to pipeline
 ![image](media/Redis_Redis-Data-Types-image1.png)
 <https://redis.io/topics/pipelining>
 
-## Redis commands with high time complexity**
+## Redis commands with high time complexity
 
 | **Command**     | **Description**                                 | **Improve Performance By**                                                                   |
 |--------------|------------------------------|-----------------------------|

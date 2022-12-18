@@ -10,7 +10,7 @@ Conceptually, a Stream in Redis is a list where you can append entries. Each ent
 Redis streams are ideal for building history preserving message brokers, message queues, unified logs, and chat systems. Unlike Pub/Sub messages which are fire and forget, Redis streams preserve messages in perpetuity. Redis streams implement consumer groups, a feature that allows a group of clients to cooperate when consuming elements from a stream. For example, consumers in a group can lookup items by ID, have to acknowledge the processing of an item, or claim ownership of a pending message.
 <https://aws.amazon.com/redis/Redis_Streams>
 
-## Message queues**
+## Message queues
 
 A message queue is conceptually a list. A producer pushes an element from one side, a consumer reads from the other. Multiple producers and consumers can interact with the same queue. In Redis, a rudimentary message queue can be easily implemented with the commands LPUSH (which means "push from the left") and RPOP (which means "pop from the right"). In the best-case scenario ---the happy path--- the consumer pops an item, works on it, and once it's done, the customer is ready to consume and process the next item. A slight improvement would be to use a blocking command for reading. So instead of RPOP you could use BRPOP. If the list is empty, the consumer blocks and waits for an element to arrive. If the timeout elapses, the consumer can retry. So far, so good for this simplistic implementation. The problem, though, doesn't lie in the happy path. The issue is what happens when a process crashes while processing an item.
 
@@ -19,7 +19,7 @@ A message queue is conceptually a list. A producer pushes an element from one si
 A queue is reliable if it can recover from a failure scenario. If a consumer crashes and the item it was processing is lost, the system is unreliable. A command was added to a previous version of Redis that is tailor-made for this exact situation. The command is BRPOPLPUSH. It not only pops an item, as discussed in the previous implementation, but it also pushes the item to another list. With the commands LPUSH and BRPOPLPUSH, you can design a reliable message queue
 <https://aws.amazon.com/redis/Redis_Streams_MQ>
 
-## Queueing Solutions**
+## Queueing Solutions
 
 1. Celery has an optional redis broker.<http://celeryproject.org>
 
@@ -27,7 +27,7 @@ A queue is reliable if it can recover from a failure scenario. If a consumer cra
 
 3. RQ is a simple and small redis based queue that aims to "take the good stuff from celery and resque" and be much simpler to work with.<http://python-rq.org>
 
-## RQ**
+## RQ
 
 RQ (Redis Queue) is a simple Python library for queueing jobs and processing them in the background with workers. It is backed by Redis and it is designed to have a low barrier to entry. It should be integrated in your web stack easily.
 pip install rq

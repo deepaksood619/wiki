@@ -93,7 +93,7 @@ The most common mechanism type in database systems since their early days in the
 
 <https://vladmihalcea.com/database-deadlock>
 
-## Timestamp Ordering Concurrency Control**
+## Timestamp Ordering Concurrency Control
 
 Use timestamps to determine the order of transactions.
 

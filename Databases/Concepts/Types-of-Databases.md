@@ -156,7 +156,7 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 
 <https://jsondb.io>
 
-## Comparision**
+## Comparision
 
 ![image](media/Types-of-Databases-image1.png)
 
@@ -168,7 +168,7 @@ One important aspect of relational databases is that a change in a schema must b
 
 <http://www.cattell.net/datastores/Datastores.pdf>
 
-## AWS Databases**
+## AWS Databases
 
 1. Amazon Aurora
 
@@ -203,7 +203,7 @@ Elasticache between rds and application - <https://aws.amazon.com/blogs/database
 
 <http://demoa.heimdalldata.com:8087/docs/theory/caching.html>
 
-## ElastiCache using Redis**
+## ElastiCache using Redis
 
 <https://aws.amazon.com/redis>
 7.  Amazon Redshift
@@ -255,7 +255,7 @@ Yet columnar stores are not without trade-offs. First of all, inserts take much 
 As a result, the choice of row-oriented vs. columnar database greatly depends on your workload. Typically, row-oriented stores are used with transactional (OLTP) workloads, while columnar stores are used with analytical (OLAP) workloads.
 <https://blog.timescale.com/blog/building-columnar-compression-in-a-row-oriented-database>
 
-## Benefits of Columnar Formats**
+## Benefits of Columnar Formats
 
 ## READ-OPTIMIZATION
 
@@ -281,7 +281,7 @@ For real columnar file formats (like [Parquet](http://parquet.apache.org/)), thi
 The other downside, is that they are more CPU and ram intensive to write, as the file writer needs to collect a whole bunch of metadata, and reorganize the rows before it can write the file.
 <https://blog.matthewrathbone.com/2019/11/21/guide-to-columnar-file-formats.html>
 
-## Choosing the Database**
+## Choosing the Database
 
 1. Instant performance (respond in less than 1ms)
 
@@ -306,7 +306,7 @@ The other downside, is that they are more CPU and ram intensive to write, as the
 One of the crucial differences between In-Memory Data Grids and In-Memory Databases lies in the ability to scale to hundreds and thousands of servers. That is the In-Memory Data Grid's**inherent capability** for such scale due to their MPP (Massively Parallel Processing) architecture, and the In-Memory Database's**explicit inability** to scale due to fact that SQL joins, in general, cannot be efficiently performed in a distribution context.
 <https://www.gridgain.com/resources/blog/in-memory-database-vs-in-memory-data-grid-revisited>
 
-## RDBMS**
+## RDBMS
 
 A relational database management system (RDBMS) is a program that allows you to create, update, and administer a relational database. Most relational database management systems use the SQL language to access the database.
 Arelational databaseis a type of database. It uses a structure that allows us to identify and access datain relationto another piece of data in the database. Often, data in a relational database is organized into tables.

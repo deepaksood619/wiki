@@ -84,6 +84,6 @@ Beyond basic routing correctness, two important constraints on the topology are 
 </tbody>
 </table>
 
-## References**
+## References
 
 <https://en.wikipedia.org/wiki/Distributed_hash_table>

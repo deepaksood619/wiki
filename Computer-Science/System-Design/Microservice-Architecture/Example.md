@@ -8,7 +8,7 @@ Modified: 2020-11-01 15:51:15 +0500
 
 <https://thenewstack.io/how-redis-simplifies-microservices-design-patterns>
 
-## Financial System**
+## Financial System
 
 ![image](media/Microservice-Architecture_Example-image1.png)
 

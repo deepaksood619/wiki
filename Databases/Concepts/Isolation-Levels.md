@@ -105,7 +105,7 @@ We defined "serializable isolation" above as a guarantee that even though a data
 | STRICT SERIALIZABLE         | Not Possible                           | Not Possible                           | Not Possible                           |
 <https://fauna.com/blog/demystifying-database-systems-correctness-anomalies-under-serializable-isolation>
 
-## Isolation Table with Anomalies**
+## Isolation Table with Anomalies
 
 | **System Guarantee**                                               | **Dirty read** | **Non-repeatable read** | **Phantom Read** | **Write Skew** | **Immortal write** | **Stale read** | **Causal reverse** |
 |--------------|--------|----------|---------|--------|---------|--------|--------|
@@ -138,7 +138,7 @@ You can enforce a high degree of consistency with the default [REPEATABLE READ](
 
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-transaction-isolation-levels.html>
 
-## References**
+## References
 
 <https://dbmsmusings.blogspot.com/2019/08/an-explanation-of-difference-between.html>
 

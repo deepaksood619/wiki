@@ -62,7 +62,7 @@ DNAT - Destination Network Address Translation
 SNAT - Source Network Address Translation
 <https://en.wikipedia.org/wiki/Network_address_translation>
 
-## VPN**
+## VPN
 
 VPN stands for virtual private network. It is a means of connecting separate LANs through the internet, while maintaining privacy. This is used as a means of connecting remote systems as if they were on a local network, often for security reasons.
 
@@ -77,13 +77,13 @@ There are four pieces to the DMVPN puzzle:
 - IPsec (not required but recommended)
 <https://networklessons.com/cisco/ccie-routing-switching/introduction-to-dmvpn>
 
-## Bridge**
+## Bridge
 
 A**network bridge** is a [computer networking device](https://en.wikipedia.org/wiki/Networking_hardware) that creates a single aggregate network from multiple [communication networks](https://en.wikipedia.org/wiki/Communication_network) or [network segments](https://en.wikipedia.org/wiki/Network_segment). This function is called**network bridging.**Bridging is distinct from [routing](https://en.wikipedia.org/wiki/Routing). Routing allows multiple networks to communicate independently and yet remain separate, whereas bridging connects two separate networks as if they were a single network.In the [OSI model](https://en.wikipedia.org/wiki/OSI_model), bridging is performed in the [data link layer](https://en.wikipedia.org/wiki/Data_link_layer)(layer 2). If one or more segments of the bridged network are [wireless](https://en.wikipedia.org/wiki/Wireless_network), the device is known as a**wireless bridge.**
 There are four main types of network bridging technologies: simple bridging, multiport bridging, learning or transparent bridging, and [source route bridging](https://en.wikipedia.org/wiki/Source_route_bridging).
 <https://en.wikipedia.org/wiki/Bridging_(networking)>
 
-## References**
+## References
 
 <https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols>
 <https://www.freecodecamp.org/news/free-computer-networking-course>

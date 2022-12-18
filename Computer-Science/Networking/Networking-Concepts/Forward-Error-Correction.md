@@ -19,7 +19,7 @@ If a bit is present at a point otherwise dedicated to a parity bit, but is not u
 Parity bits are generally applied to the smallest units of a communication protocol, typically 8-bit [octets](https://en.wikipedia.org/wiki/Octet_(computing))(bytes), although they can also be applied separately to an entire message string of bits.
 <https://en.wikipedia.org/wiki/Parity_bit>
 
-## Forward Error Correction**
+## Forward Error Correction
 
 Forward error correction (FEC) is an error correction technique to detect and correct a limited number of errors in transmitted data without the need for retransmission.
 In this method, the sender sends a redundant error-correcting code along with the data frame. The receiver performs necessary checks based upon the additional redundant bits. If it finds that the data is free from errors, it executes error-correcting code that generates the actual frame. It then removes the redundant bits before passing the message to the upper layers.
@@ -60,18 +60,18 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [electronics eng
 There are two closely related binary Golay codes. Theextended binary Golay code, G24(sometimes just called the "Golay code" in finite group theory) encodes 12 bits of data in a 24-bit word in such a way that any 3-bit errors can be corrected or any 7-bit errors can be detected. The other, theperfect binary Golay code, G23, has codewords of length 23 and is obtained from the extended binary Golay code by deleting one coordinate position (conversely, the extended binary Golay code is obtained from the perfect binary Golay code by adding a [parity bit](https://en.wikipedia.org/wiki/Parity_bit)). In standard coding notation the codes have parameters [24, 12, 8] and [23, 12, 7], corresponding to the length of the codewords, the [dimension](https://en.wikipedia.org/wiki/Dimension_(vector_space)) of the code, and the minimum [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between two codewords, respectively.
 <https://en.wikipedia.org/wiki/Binary_Golay_code>
 
-## Data Scrubbing**
+## Data Scrubbing
 
 Data scrubbingis an [error correction](https://en.wikipedia.org/wiki/Error_correction) technique that uses a background task to periodically inspect [main memory](https://en.wikipedia.org/wiki/Main_memory) or [storage](https://en.wikipedia.org/wiki/Computer_data_storage) for errors, then correct detected errors using [redundant data](https://en.wikipedia.org/wiki/Data_redundancy) in the form of different [checksums](https://en.wikipedia.org/wiki/Checksum) or copies of data. Data scrubbing reduces the likelihood that single correctable errors will accumulate, leading to reduced risks of uncorrectable errors.
 [Data integrity](https://en.wikipedia.org/wiki/Data_integrity) is a high-priority concern in writing, reading, storage, transmission, or processing of the [computer](https://en.wikipedia.org/wiki/Computer)[data](https://en.wikipedia.org/wiki/Data) in computer [operating systems](https://en.wikipedia.org/wiki/Operating_system) and in computer storage and data transmission systems. However, only a few of the currently existing and used file systems provide sufficient protection against [data corruption](https://en.wikipedia.org/wiki/Data_corruption).
 To address this issue, data scrubbing provides routine checks of all [inconsistencies](https://en.wikipedia.org/wiki/Inconsistency) in data and, in general, prevention of hardware or software failure. This "scrubbing" feature occurs commonly in memory, disk arrays, [file systems](https://en.wikipedia.org/wiki/File_system), or [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array) as a mechanism of error detection and correction.
 <https://en.wikipedia.org/wiki/Data_scrubbing>
 
-## Checksum**
+## Checksum
 
 ## Verhoeff algorithm
 
-TheVerhoeff algorithmis a [checksum](https://en.wikipedia.org/wiki/Checksum) formula for [error detection](https://en.wikipedia.org/wiki/Error_detection) developed by the Dutch mathematician [Jacobus Verhoeff](https://en.wikipedia.org/wiki/Jacobus_Verhoeff) and was first published in 1969.[[2]][https://en.wikipedia.org/wiki/Verhoeff_algorithm#cite_note-Kirtland_2001-2]([3)](<<https://en.wikipedia.org/wiki/Verhoeff_algorithm#cite_note-Salomon_2005-3>) It> was the first decimal [check digit](https://en.wikipedia.org/wiki/Check_digit) algorithm which detects all single-digit errors, and all transposition errors involving two adjacent digits, which was at the time thought impossible with such a code.
+TheVerhoeff algorithmis a [checksum](https://en.wikipedia.org/wiki/Checksum) formula for [error detection](https://en.wikipedia.org/wiki/Error_detection) developed by the Dutch mathematician [Jacobus Verhoeff](https://en.wikipedia.org/wiki/Jacobus_Verhoeff) and was first published in 1969. It was the first decimal [check digit](https://en.wikipedia.org/wiki/Check_digit) algorithm which detects all single-digit errors, and all transposition errors involving two adjacent digits, which was at the time thought impossible with such a code.
 Ex - used in aadhaar validation
 <https://en.wikipedia.org/wiki/Verhoeff_algorithm>
 

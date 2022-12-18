@@ -367,7 +367,7 @@ select count(*) from sys.schema_unused_indexes;
 
 <https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database>
 
-## Rebuilding or Repairing Tables or Indexes**
+## Rebuilding or Repairing Tables or Indexes
 
 ## Methods for rebuilding a table include
 

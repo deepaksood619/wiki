@@ -69,7 +69,7 @@ c.  Cumulative geometric distribution
 In [probability theory](https://en.wikipedia.org/wiki/Probability_theory), aprobability density function(PDF), ordensityof a [continuous random variable](https://en.wikipedia.org/wiki/Continuous_random_variable), is a [function](https://en.wikipedia.org/wiki/Function_(mathematics)), whose value at any given sample (or point) in the [sample space](https://en.wikipedia.org/wiki/Sample_space)(the set of possible values taken by the random variable) can be interpreted as providing arelative likelihoodthat the value of the random variable would equal that sample.
 <https://en.wikipedia.org/wiki/Probability_density_function>
 
-## Two views of probability**
+## Two views of probability
 
 - Frequentist view
 

@@ -28,7 +28,7 @@ SANs are often designed with dual fabrics to increase fault tolerance. Two compl
 A**storage area network(SAN) orstorage network**is a [Computer network](https://en.wikipedia.org/wiki/Computer_network) which provides access to consolidated, [block-level data storage](https://en.wikipedia.org/wiki/Block_device). SANs are primarily used to enhance accessibility of storage devices, such as [disk arrays](https://en.wikipedia.org/wiki/Disk_array) and [tape libraries](https://en.wikipedia.org/wiki/Tape_library), to [servers](https://en.wikipedia.org/wiki/Server_(computing)) so that the devices appear to the [operating system](https://en.wikipedia.org/wiki/Operating_system) as [locally-attached devices](https://en.wikipedia.org/wiki/Direct-attached_storage). A SAN typically is a dedicated network of storage devices not accessible through the [local area network](https://en.wikipedia.org/wiki/Local_area_network)(LAN) by other devices, thereby preventing interference of LAN traffic in data transfer.
 <https://en.wikipedia.org/wiki/Storage_area_network>
 
-## DHCP**
+## DHCP
 
 The**Dynamic Host Configuration Protocol(DHCP)** is a [network management protocol](https://en.wikipedia.org/wiki/Network_protocol) used on [UDP/IP](https://en.wikipedia.org/wiki/UDP/IP) networks whereby a DHCP server dynamically assigns an [IP address](https://en.wikipedia.org/wiki/IP_address) and other network configuration parameters to each device on a network so they can communicate with other IP networks.A DHCP server enables computers to request IP addresses and networking parameters automatically from the [Internet service provider](https://en.wikipedia.org/wiki/Internet_service_provider)(ISP), reducing the need for a [network administrator](https://en.wikipedia.org/wiki/Network_administrator) or a user to manually assign IP addresses to all network devices.In the absence of a DHCP server, a computer or other device on the network needs to be manually assigned an IP address, or to assign itself an [APIPA](https://en.wikipedia.org/wiki/APIPA) address, which will not enable it to communicate outside its local subnet.
 
@@ -44,7 +44,7 @@ The DHCP employs a [connectionless](https://en.wikipedia.org/wiki/Connectionless
 In [computer networking](https://en.wikipedia.org/wiki/Computer_network), **Server Message Block(SMB**), one version of which was also known as **Common Internet File System(CIFS**) operates as an [application-layer](https://en.wikipedia.org/wiki/Application_layer) or [presentation-layer](https://en.wikipedia.org/wiki/Presentation_layer)(network protocol) mainly used for providing [shared access](https://en.wikipedia.org/wiki/Shared_access) to [files](https://en.wikipedia.org/wiki/Computer_file), [printers](https://en.wikipedia.org/wiki/Computer_printer), and [serial ports](https://en.wikipedia.org/wiki/Serial_port) and miscellaneous communications between nodes on a network. It also provides an authenticated [inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication) mechanism. Most usage of SMB involves computers running [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), where it was known as "Microsoft Windows Network" before the introduction of [Active Directory](https://en.wikipedia.org/wiki/Active_Directory). Corresponding [Windows services](https://en.wikipedia.org/wiki/Windows_service) are LAN Manager Server (for the server component) and LAN Manager Workstation (for the client component).
 <https://en.wikipedia.org/wiki/Server_Message_Block>
 
-## Reactive Streams**
+## Reactive Streams
 
 Reactive Streams is an initiative to provide a standard for asynchronous stream processing with non-blocking back pressure. This encompasses efforts aimed at runtime environments (JVM and JavaScript) as well as network protocols.
 [https://www.reactive-streams.org](https://www.reactive-streams.org/)
@@ -66,7 +66,7 @@ CoAP is a [service layer](https://en.wikipedia.org/wiki/Service_layer) protocol 
 LDAP is an open, vendor-neutral, industry standard [application protocol](https://en.wikipedia.org/wiki/Application_protocol) for accessing and maintaining distributed [directory information services](https://en.wikipedia.org/wiki/Directory_service) over an [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)(IP) network.[Directory services](https://en.wikipedia.org/wiki/Directory_service) play an important role in developing [intranet](https://en.wikipedia.org/wiki/Intranet) and Internet applications by allowing the sharing of information about users, systems, networks, services, and applications throughout the network.As examples, directory services may provide any organized set of records, often with a hierarchical structure, such as a corporate [email](https://en.wikipedia.org/wiki/Email) directory. Similarly, a [telephone directory](https://en.wikipedia.org/wiki/Telephone_directory) is a list of subscribers with an address and a phone number.
 <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
 
-## ModBus**
+## ModBus
 
 - Serial Communication Protocol
 Modbus has become a [*de facto*](https://en.wikipedia.org/wiki/De_facto)[standard](https://en.wikipedia.org/wiki/Standardization) communication protocol and is now a commonly available means of connecting industrial [electronic](https://en.wikipedia.org/wiki/Electronics) devices.The main reasons for the use of Modbus in the industrial environment are:
@@ -84,7 +84,7 @@ BACnet Protocol (Building Automation and Control networks)
 
 <https://github.com/ljean/modbus-tk>
 
-## Zenoh**
+## Zenoh
 
 ## Zero Overhead Pub/sub, Store/Query and Compute
 
@@ -140,6 +140,6 @@ The OPC UA specification is a multi-part specification and consists of the follo
 
 ## Dedicated short-range communications (DSRC)**
 
-Dedicated short-range communications(DSRC) are one-way or two-way short-range to medium-range [wireless](https://en.wikipedia.org/wiki/Wireless) communication channels specifically designed for automotive use [[1]](https://en.wikipedia.org/wiki/Dedicated_short-range_communications#cite_note-1) and a corresponding set of protocols and standards.
+Dedicated short-range communications(DSRC) are one-way or two-way short-range to medium-range [wireless](https://en.wikipedia.org/wiki/Wireless) communication channels specifically designed for automotive use  and a corresponding set of protocols and standards.
 <https://en.wikipedia.org/wiki/Dedicated_short-range_communications>
 <https://web.dev/webtransport>

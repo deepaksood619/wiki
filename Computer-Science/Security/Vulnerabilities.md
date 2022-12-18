@@ -55,7 +55,7 @@ Prevention - Sanitize user inputs
 
 ## XSRF/CSRF - Cross Site Request Forgery
 
-## Cross-site request forgery**, also known as**one-click attack **or** session riding**and abbreviated as**CSRF orXSRF, is a type of malicious [exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security)) of a [website](https://en.wikipedia.org/wiki/Website) where unauthorized commands are transmitted from a [user](https://en.wikipedia.org/wiki/User_(computing)) that the web application trusts.[[2]](https://en.wikipedia.org/wiki/Cross-site_request_forgery#cite_note-Ristic-2) There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser
+## Cross-site request forgery**, also known as**one-click attack **or** session riding**and abbreviated as**CSRF orXSRF, is a type of malicious [exploit](https://en.wikipedia.org/wiki/Exploit_(computer_security)) of a [website](https://en.wikipedia.org/wiki/Website) where unauthorized commands are transmitted from a [user](https://en.wikipedia.org/wiki/User_(computing)) that the web application trusts. There are many ways in which a malicious website can transmit such commands; specially-crafted image tags, hidden forms, and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) XMLHttpRequests, for example, can all work without the user's interaction or even knowledge. Unlike [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting)(XSS), which exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser
 
 <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
 
@@ -80,7 +80,7 @@ Insufficient logging and monitoring, coupled with missing or ineffective integra
 
 <https://www.toptal.com/security/owasp-top-10-changelog-2017-revision>
 
-## OWASP Cheet Sheet**
+## OWASP Cheet Sheet
 
 - [AJAX Security](https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html)
 - [Abuse Case](https://cheatsheetseries.owasp.org/cheatsheets/Abuse_Case_Cheat_Sheet.html)
@@ -172,7 +172,7 @@ Process for Attack Simulation and Threat Analysis (PASTA) is a seven-step, risk-
 - [XML Security](https://cheatsheetseries.owasp.org/cheatsheets/XML_Security_Cheat_Sheet.html)
 <https://cheatsheetseries.owasp.org>
 
-## Social Engineering**
+## Social Engineering
 
 "Social engineering" refers to the use of humans as an attack vector to compromise a system. It involves fooling or otherwise manipulating human personnel into revealing information or performing actions on the attacker's behalf. Social engineering is known to be a very effective attack strategy, since even the strongest security system can be compromised by a single poor decision. In some cases, highly secure systems that cannot be penetrated by computer or cryptographic means, can be compromised by simply calling a member of the target organization on the phone and impersonating a colleague or IT professional.
 Common social engineering techniques include [phishing](https://en.wikipedia.org/wiki/Phishing), [clickjacking](https://en.wikipedia.org/wiki/Clickjacking), and [baiting](https://en.wikipedia.org/wiki/Social_engineering_%28security%29#Baiting), although several other tricks are at an attacker's disposal.
@@ -196,12 +196,12 @@ Smishing (SMS phishing) is similar to standard phishing emails, but over SMS ins
 Vishing ("voice" and "phishing") involves phishing through phone calls. Of course, this isn't a big deal to us, because what kind of developer seriously answers the phone nowadays? Just send me a text, FFS.
 <https://dev.to/kathyra_/protect-yourself-from-social-engineering-3ihk>
 
-## Kill Chain**
+## Kill Chain
 
 The termkill chainwas originally used as a [military](https://www.wikiwand.com/en/Military) concept related to the structure of an [attack](https://www.wikiwand.com/en/Offensive_(military)); consisting of target identification, force dispatch to target, decision and order to attack the target, and finally the destruction of the target.Conversely, the idea of "breaking" an opponent's kill chain is a method of [defense](https://www.wikiwand.com/en/Defense_(military)) or preemptive action.More recently, [Lockheed Martin](https://www.wikiwand.com/en/Lockheed_Martin) adapted this concept to [information security](https://www.wikiwand.com/en/Information_security), using it as a method for modeling intrusions on a [computer network](https://www.wikiwand.com/en/Computer_network).The cyber kill chain model has seen some adoption in the information security community.However, acceptance is not universal, with critics pointing to what they believe are fundamental flaws in the model.
 <https://www.wikiwand.com/en/Kill_chain>
 
-## Tab Nabbing**
+## Tab Nabbing
 
 Tabnabbing is a computer exploit which persuades users to submit their login details and passwords. The attack takes advantage of user trust and inattention to detail in regard totabs, and the ability of browsers to navigate across a page's origin in inactivetabsa long time after the page is loaded. This attack can be done even if JavaScript is disabled, using the "meta refresh" meta element, an HTML attribute used for page redirection that causes a reload of a specified new page after a given time interval. The attack takes advantage of the trust of the victim and the ability of modern web pages to rewritetabsand their contents for a long time after the page has been loaded.
 

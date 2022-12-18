@@ -33,7 +33,7 @@ x, y = y, x%y
 
 return x
 
-## Applications-
+## Applications
 
 1. Reducing fractions to their simplest form
 

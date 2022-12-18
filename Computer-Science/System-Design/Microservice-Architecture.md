@@ -151,7 +151,7 @@ The biggest issue in changing a monolith to a microservice lies in changing the 
 
 ---Martin Fowler
 
-## References -
+## References
 
 <https://martinfowler.com/articles/break-monolith-into-microservices.html>
 

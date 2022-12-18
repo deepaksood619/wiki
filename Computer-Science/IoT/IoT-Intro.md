@@ -144,7 +144,7 @@ Information flows in one direction from other systems to a device (or a group of
 </tbody>
 </table>
 
-## Tools**
+## Tools
 
 1. **Node-RED**
     - **Flow-based programming for the Internet of Things**
@@ -170,7 +170,7 @@ Information flows in one direction from other systems to a device (or a group of
 8. Multi-layer Frameworks(ex: Alljoyn, IoTivity, Weave, Homekit)
 <https://www.postscapes.com/internet-of-things-protocols>
 
-## References -**
+## References**
 
 <https://cloudplatform.googleblog.com/2018/04/implementing-an-event-driven-architecture-on-serverless-the-Smart-Parking-story.html?m=1>
 

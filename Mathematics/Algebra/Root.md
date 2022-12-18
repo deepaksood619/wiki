@@ -34,16 +34,16 @@ The root index is *optional*on square roots. Square roots are often written:
 
 The index is only necessary to distinguish between higher indexed roots, such as cube roots, fourth roots, fifth roots, etc.
 
-## Cube roots**ask you to find the number that when multiplied with itself**threetimes yields the radicand, like these
+Cube roots **ask you to find the number that when multiplied with itself** three times yields the radicand, like these
 
 ![image](media/Root-image6.png)
 
-## Fourth roots**ask you to find the number that when multiplied with itself**fourtimes yields the radicand
+Fourth roots **ask you to find the number that when multiplied with itself** four times yields the radicand
 
 ![image](media/Root-image7.png)
 
-## Fifth roots**ask you to find the number that when multiplied with itself**fivetimes yields the radicand
+Fifth roots **ask you to find the number that when multiplied with itself** five times yields the radicand
 
 ![image](media/Root-image8.png)
 
-Again, you can take*any root of any non-negative number*(and in certain cases of negative numbers as well), but for many numbers you'll need a calculator since the answers are irrational.
+Again, you can take*any root of any non-negative number (and in certain cases of negative numbers as well), but for many numbers you'll need a calculator since the answers are irrational.

@@ -49,6 +49,6 @@ def __str__(self):
 
 return '{}'.format(self.name)
 
-## References -
+## References
 
 <https://nedbatchelder.com/text/unipain.html>

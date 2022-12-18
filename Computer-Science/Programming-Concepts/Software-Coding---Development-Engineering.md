@@ -44,7 +44,7 @@ Used for setting, communicating and monitoring quarterly goals and results in or
 
 <https://hackernoon.com/the-mvp-is-dead-long-live-the-rat-233d5d16ab02>
 
-## Yak Shaving**
+## Yak Shaving
 
 Yak shaving is programming lingo for the seemingly endless series of small tasks that have to be completed before the next step in a project can move forward.
 
@@ -172,7 +172,7 @@ Originally developed by the [Business Process Management Initiative](https://en.
 
 <https://camunda.com>
 
-## Workflow**
+## Workflow
 
 A Workflow is a series of decisions made by different people that determines what happens to a particular request that one of those people made, according to a defined and repeatable process.
 
@@ -184,7 +184,7 @@ Aswimlane(orswimlane diagram) is used in [process flow diagrams](https://www.wik
 
 <https://www.wikiwand.com/en/Swim_lane>
 
-## Life Critical System**
+## Life Critical System
 
 A life-critical system is a system whose failure or malfunction may result in death or serious injury. It comprises all software and hardware necessary to perform a critical function.
 
@@ -203,7 +203,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 - Communications
 <https://www.toptal.com/software/life-critical-systems>
 
-## Non Functional Requirements**
+## Non Functional Requirements
 
 <https://en.wikipedia.org/wiki/Non-functional_requirement>![image](media/Software-Coding---Development-Engineering-image5.png)
 ![image](media/Software-Coding---Development-Engineering-image6.png)
@@ -256,7 +256,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 
 ## Concurrent Engineering
 
-## Concurrent engineering**(**CE**) is a work methodology emphasizing the parallelisation of tasks (i.e. performing tasks concurrently), which is sometimes called**simultaneous engineering **or** integrated product development**(**IPD) using an [integrated product team](https://en.wikipedia.org/wiki/Integrated_product_team) approach. It refers to an approach used in [product development](https://en.wikipedia.org/wiki/Product_development) in which functions of design engineering, manufacturing engineering, and other functions are integrated to reduce the time required to bring a new product to market
+## Concurrent engineering(**CE**) is a work methodology emphasizing the parallelisation of tasks (i.e. performing tasks concurrently), which is sometimes called**simultaneous engineering**or**integrated product development**(**IPD) using an [integrated product team](https://en.wikipedia.org/wiki/Integrated_product_team) approach. It refers to an approach used in [product development](https://en.wikipedia.org/wiki/Product_development) in which functions of design engineering, manufacturing engineering, and other functions are integrated to reduce the time required to bring a new product to market
 
 ## The Four Keys To Rapid Response Software Development
 
@@ -266,7 +266,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 - Design of replaceable, disposable software
 <https://toolshed.com/2019/01/FourKeys.html>
 
-## Lean Software Development**
+## Lean Software Development
 
 - [Eliminate waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 - [Amplify learning](https://en.wikipedia.org/wiki/Lean_software_development#Amplify_learning)
@@ -277,7 +277,7 @@ Safety-critical elements are systems or components that are designed to prevent,
 - [See the whole](https://en.wikipedia.org/wiki/Lean_software_development#See_the_whole)
 <https://en.wikipedia.org/wiki/Lean_software_development>
 
-## Unified Process**
+## Unified Process
 
 TheUnified Software Development ProcessorUnified Processis an [iterative and incremental](https://en.wikipedia.org/wiki/Iterative_and_incremental_development)[software development process](https://en.wikipedia.org/wiki/Software_development_process) framework. The best-known and extensively documented refinement of the Unified Process is the [Rational Unified Process](https://en.wikipedia.org/wiki/Rational_Unified_Process)(RUP). Other examples are [OpenUP](https://en.wikipedia.org/wiki/OpenUP) and [Agile Unified Process](https://en.wikipedia.org/wiki/Agile_Unified_Process).
 <https://en.wikipedia.org/wiki/Unified_Process>
@@ -372,7 +372,7 @@ Brooks advocates "growing" software organically through incremental development.
 Brooks goes on to argue that there is a difference between "good" designers and "great" designers. He postulates that as programming is a creative process, some designers are inherently better than others. He suggests that there is as much as a tenfold difference between an ordinary designer and a great one. He then advocates treating star designers equally well as star managers, providing them not just with equal [remuneration](https://en.wikipedia.org/wiki/Remuneration), but also all the perks of higher status: large office, staff, travel funds, etc.
 <https://en.wikipedia.org/wiki/No_Silver_Bullet>
 
-## Joel Test**
+## Joel Test
 
 - Do you use source control?
 - Can you make a build in one step?

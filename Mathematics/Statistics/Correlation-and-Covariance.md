@@ -139,7 +139,7 @@ In an ordinal scale, the levels of a variable are ordered such that one level ca
 
 <https://www.freecodecamp.org/news/what-is-a-correlation-coefficient-r-value-in-statistics-explains>
 
-## Covariance**
+## Covariance
 
 Covariance is a measure of the joint variability of two variables
 Covariance can take on values from -inf to +inf. This is the problem as it is very hard to put such numbers into perspective

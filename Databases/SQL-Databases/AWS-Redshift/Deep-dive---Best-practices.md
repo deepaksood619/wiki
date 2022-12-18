@@ -244,13 +244,13 @@ The COPY command loads data into Amazon Redshift tables from either data files o
   - If you intend to load data from a large, compressed file, we recommend that you split your data into smaller files that are about equal size, from 1 MB to 1 GB after compression. For optimum parallelism, the ideal file size is 1--125 MB after compression. Make the number of files a multiple of the number of slices in your cluster.
 <https://docs.aws.amazon.com/redshift/latest/dg/c_loading-data-best-practices.html>
 
-## Copy Job**
+## Copy Job
 
 Automatically loads the new files detected in the specified Amazon S3 path
 
 <https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-redshift-supports-auto-copy-amazon-s3>
 
-## AWS Glue**
+## AWS Glue
 
 ## Redshift ETL Best Practices
 

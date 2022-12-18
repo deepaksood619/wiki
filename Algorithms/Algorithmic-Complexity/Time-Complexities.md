@@ -14,176 +14,32 @@ For example, the bubble sort algorithm has an average time complexity of O(n^2) 
 
 In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 13%" />
-<col style="width: 16%" />
-<col style="width: 14%" />
-<col style="width: 34%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Name</strong></th>
-<th><a href="https://en.wikipedia.org/wiki/Complexity_class"><strong>Complexity class</strong></a></th>
-<th><strong>Running time (T(n))</strong></th>
-<th><strong>Examples of running times</strong></th>
-<th><strong>Example algorithms</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>constant time</strong></td>
-<td></td>
-<td>O(1)</td>
-<td>10</td>
-<td>Determining if an integer (represented in binary) is even or odd</td>
-</tr>
-<tr>
-<td><strong><a href="https://en.wikipedia.org/wiki/Inverse_Ackermann_function">inverse Ackermann</a> time</strong></td>
-<td></td>
-<td>O(alpha(n))</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Iterated_logarithm">iterated logarithmic</a>time</td>
-<td></td>
-<td>O(<a href="https://en.wikipedia.org/wiki/Iterated_logarithm">log*</a>n)</td>
-<td></td>
-<td><a href="https://en.wikipedia.org/wiki/Cole-Vishkin_algorithm">Distributed coloring of cycles</a></td>
-</tr>
-<tr>
-<td><strong>log-logarithmic</strong></td>
-<td></td>
-<td>O(log logn)</td>
-<td></td>
-<td>Amortized time per operation using a bounded<a href="https://en.wikipedia.org/wiki/Priority_queue">priority queue</a></td>
-</tr>
-<tr>
-<td><strong>logarithmic time</strong></td>
-<td><a href="https://en.wikipedia.org/wiki/DLOGTIME">DLOGTIME</a></td>
-<td>O(logn)</td>
-<td>logn, log(n<sup>2</sup>)</td>
-<td><a href="https://en.wikipedia.org/wiki/Binary_search">Binary search</a></td>
-</tr>
-<tr>
-<td>polylogarithmic time</td>
-<td></td>
-<td>poly(logn)</td>
-<td>(logn)<sup>2</sup></td>
-<td></td>
-</tr>
-<tr>
-<td>fractional power (sqrt(n)) (<strong>sublinear polynomials</strong>)</td>
-<td></td>
-<td>O(n<sup>c</sup>)where0 `<` c `<` 1</td>
-<td>n<sup>1/2</sup>,n<sup>2/3</sup></td>
-<td>Integer factorization, Searching in a<a href="https://en.wikipedia.org/wiki/Kd-tree">kd-tree</a>, Grover's algorithm (<a href="https://en.wikipedia.org/wiki/Grover%27s_algorithm">Grover's algorithm</a>is a quantum algorithm for searching an unsorted database of n entries in O(sqrt(n))time.) (String algorithm like longest common prefix, where you do not have to see every data - small oh)</td>
-</tr>
-<tr>
-<td><strong>linear time</strong></td>
-<td></td>
-<td>O(n)</td>
-<td>n</td>
-<td>Finding the smallest or largest item in an unsorted<a href="https://en.wikipedia.org/wiki/Array_data_structure">array</a></td>
-</tr>
-<tr>
-<td>"n log star n" time</td>
-<td></td>
-<td>O(n<a href="https://en.wikipedia.org/wiki/Iterated_logarithm">log*</a>n)</td>
-<td></td>
-<td><a href="https://en.wikipedia.org/wiki/Raimund_Seidel">Seidel</a>'s <a href="https://en.wikipedia.org/wiki/Polygon_triangulation">polygon triangulation</a>algorithm.</td>
-</tr>
-<tr>
-<td><strong>quasilinear time/linearithmic</strong></td>
-<td></td>
-<td>O(nlogn)</td>
-<td>nlogn, logn!</td>
-<td>Fastest possible <a href="https://en.wikipedia.org/wiki/Comparison_sort">comparison sort</a>; <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier transform</a>, Merge Sort</td>
-</tr>
-<tr>
-<td><strong>quadratic time</strong></td>
-<td></td>
-<td>O(n<sup>2</sup>)</td>
-<td>n<sup>2</sup></td>
-<td><a href="https://en.wikipedia.org/wiki/Bubble_sort">Bubble sort</a>; <a href="https://en.wikipedia.org/wiki/Insertion_sort">Insertion sort</a>; <a href="https://en.wikipedia.org/wiki/Convolution_theorem">Direct convolution</a> (Check all doubles)</td>
-</tr>
-<tr>
-<td><strong>cubic time</strong></td>
-<td></td>
-<td>O(n<sup>3</sup>)</td>
-<td>n<sup>3</sup></td>
-<td>Naive multiplication of twon×nmatrices. Calculating <a href="https://en.wikipedia.org/wiki/Partial_correlation">partial correlation</a>. (Check all triples)</td>
-</tr>
-<tr>
-<td>Pseudo-polynomial time</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>polynomial time</td>
-<td><a href="https://en.wikipedia.org/wiki/P_(complexity)">P</a></td>
-<td>2<sup>O(logn)</sup>= poly(n)</td>
-<td>n,nlogn,n<sup>10</sup></td>
-<td><a href="https://en.wikipedia.org/wiki/Karmarkar%27s_algorithm">Karmarkar's algorithm </a>for <a href="https://en.wikipedia.org/wiki/Linear_programming">linear programming</a>;<a href="https://en.wikipedia.org/wiki/AKS_primality_test">AKS primality test</a></td>
-</tr>
-<tr>
-<td>quasi-polynomial time</td>
-<td>QP</td>
-<td>2<sup>poly(logn)</sup></td>
-<td>n<sup>loglogn</sup>,n<sup>logn</sup></td>
-<td>Best-known O(log<sup>2</sup>n)-<a href="https://en.wikipedia.org/wiki/Approximation_algorithm">approximation algorithm</a>for the directed<a href="https://en.wikipedia.org/wiki/Steiner_tree_problem">Steiner tree problem</a>.</td>
-</tr>
-<tr>
-<td><p>sub-exponential time</p>
-<p>(first definition)</p></td>
-<td>SUBEXP</td>
-<td>O(2<sup>nε</sup>) for allε`>`0</td>
-<td>O(2<sup>lognlog logn</sup>)</td>
-<td>Assuming complexity theoretic conjectures,<a href="https://en.wikipedia.org/wiki/Bounded-error_probabilistic_polynomial">BPP</a>is contained in SUBEXP.<a href="https://en.wikipedia.org/wiki/Time_complexity#cite_note-bpp-3"><sup>[3]</sup></a></td>
-</tr>
-<tr>
-<td><p>sub-exponential time</p>
-<p>(second definition)</p></td>
-<td></td>
-<td>2<sup>o(n)</sup></td>
-<td>2<sup>n1/3</sup></td>
-<td>Best-known algorithm for<a href="https://en.wikipedia.org/wiki/Integer_factorization">integer factorization</a>and<a href="https://en.wikipedia.org/wiki/Graph_isomorphism_problem">graph isomorphism</a></td>
-</tr>
-<tr>
-<td><p>exponential time</p>
-<p>(with linear exponent)</p></td>
-<td><a href="https://en.wikipedia.org/wiki/E_(complexity)">E</a></td>
-<td>2<sup>O(n)</sup></td>
-<td>1.1<sup>n</sup>, 10<sup>n</sup></td>
-<td>Solving the<a href="https://en.wikipedia.org/wiki/Traveling_salesman_problem">traveling salesman problem</a>using<a href="https://en.wikipedia.org/wiki/Dynamic_programming">dynamic programming</a></td>
-</tr>
-<tr>
-<td><strong>exponential time</strong></td>
-<td><a href="https://en.wikipedia.org/wiki/EXPTIME">EXPTIME</a></td>
-<td>2<sup>poly(n)</sup></td>
-<td>2<sup>n</sup>, 2<sup>n2</sup></td>
-<td>Solving<a href="https://en.wikipedia.org/wiki/Matrix_chain_multiplication">matrix chain multiplication</a>via<a href="https://en.wikipedia.org/wiki/Brute-force_search">brute-force search</a> (Exhaustive Search / Check all subsets)</td>
-</tr>
-<tr>
-<td><strong>factorial time</strong></td>
-<td></td>
-<td>O(n!)</td>
-<td>n!</td>
-<td>Solving the<a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">traveling salesman problem</a>via<a href="https://en.wikipedia.org/wiki/Brute-force_search">brute-force search</a></td>
-</tr>
-<tr>
-<td>double exponential time</td>
-<td><a href="https://en.wikipedia.org/wiki/2-EXPTIME">2-EXPTIME</a></td>
-<td>2<sup>2poly(n)</sup></td>
-<td>2<sup>2n</sup></td>
-<td>Deciding the truth of a given statement in<a href="https://en.wikipedia.org/wiki/Presburger_arithmetic">Presburger arithmetic</a></td>
-</tr>
-</tbody>
-</table>
+| **Name** | **Complexity class** | **Running time (T(n))** | **Examples of running times** | **Example algorithms** |
+|---|---|---|---|---|
+| constant time | O(1) | 10 | Determining if an integer (represented in binary) is even or odd |
+| inverse Ackermann time | O(alpha(n)) |
+| iterated logarithmictime | O(log*n) | Distributed coloring of cycles |
+| log-logarithmic | O(log logn) | Amortized time per operation using a boundedpriority queue |
+| logarithmic time | DLOGTIME | O(logn) | logn, log(n2) | Binary search |
+| polylogarithmic time | poly(logn) | (logn)2 |
+| fractional power (sqrt(n)) (sublinear polynomials) | O(nc)where 0 `<` c `<` 1 | n1/2,n2/3 | Integer factorization, Searching in akd-tree, Grover's algorithm (Grover's algorithmis a quantum algorithm for searching an unsorted database of n entries in O(sqrt(n))time.) (String algorithm like longest common prefix, where you do not have to see every data - small oh) |
+| linear time | O(n) | n | Finding the smallest or largest item in an unsortedarray |
+| "n log star n" time | O(nlog*n) | Seidel's polygon triangulationalgorithm. |
+| quasilinear time/linearithmic | O(nlogn) | nlogn, logn! | Fastest possible comparison sort; Fast Fourier transform, Merge Sort |
+| quadratic time | O(n2) | n2 | Bubble sort; Insertion sort; Direct convolution (Check all doubles) |
+| cubic time | O(n3) | n3 | Naive multiplication of twon×nmatrices. Calculating partial correlation. (Check all triples) |
+| Pseudo-polynomial time |
+| polynomial time | P | 2O(logn)= poly(n) | n,nlogn,n10 | Karmarkar's algorithm for linear programming;AKS primality test |
+| quasi-polynomial time | QP | 2poly(logn) | nloglogn,nlogn | Best-known O(log2n)-approximation algorithmfor the directedSteiner tree problem. |
+| sub-exponential time
+(first definition) | SUBEXP | O(2nε) for allε`>`0 | O(2lognlog logn) | Assuming complexity theoretic conjectures,BPPis contained in SUBEXP. |
+| sub-exponential time
+(second definition) | 2o(n) | 2n1/3 | Best-known algorithm forinteger factorizationandgraph isomorphism |
+| exponential time
+(with linear exponent) | E | 2O(n) | 1.1n, 10n | Solving thetraveling salesman problemusingdynamic programming |
+| exponential time | EXPTIME | 2poly(n) | 2n, 2n2 | Solvingmatrix chain multiplicationviabrute-force search (Exhaustive Search / Check all subsets) |
+| factorial time | O(n!) | n! | Solving the traveling salesman problem via brute-force search |
+| double exponential time | 2-EXPTIME | 22poly(n) | 22n | Deciding the truth of a given statement in Presburger arithmetic |
 
 ![image](media/Time-Complexities-image1.png)
 

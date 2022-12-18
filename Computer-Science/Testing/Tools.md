@@ -16,7 +16,7 @@ Google Testing and Mocking Framework
 
 <https://github.com/google/googletest>
 
-## Other Tools**
+## Other Tools
 
 - Selenium
 
@@ -64,7 +64,7 @@ Katalon Runtime Engine (KRE)is the test execution add-on of Katalon Studio. KRE 
 
 <https://github.com/katalon-studio/katalon-studio>
 
-## TestLink**
+## TestLink
 
 TestLink Open Source Test & Requirement Management System
 TestLink is a web based test management and test execution system. It enables quality assurance teams to create and manage their test cases as well as to organize them into test plans. These test plans allow team members to execute test cases and track test results dynamically.

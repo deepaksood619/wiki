@@ -75,7 +75,7 @@ FFMPEG stitching multiple files into one
 
 <https://trac.ffmpeg.org/wiki/Concatenate>
 
-## References**
+## References
 
 <https://www.wowza.com/docs/tutorials>
 

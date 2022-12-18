@@ -10,7 +10,7 @@ Discrete mathematicsis the study of [mathematical structures](https://en.wikiped
 The set of objects studied in discrete mathematics can be finite or infinite. The termfinite mathematicsis sometimes applied to parts of the field of discrete mathematics that deals with finite sets, particularly those areas relevant to business.
 <https://en.wikipedia.org/wiki/Discrete_mathematics>
 
-## Recurrence Relation**
+## Recurrence Relation
 
 A recurrence relation is an equation that recursively defines a sequence where the next term is a function of the previous terms (ExpressingFnas some combination ofFiwithi<n).
 Example− Fibonacci series −Fn=Fn−1+Fn−2Fn=Fn−1+Fn−2, Tower of Hanoi −Fn=2Fn−1+1

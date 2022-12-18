@@ -43,7 +43,7 @@ This field identifies the receiver's port and is required. Similar to source por
 ## Length
 
 This field specifies the length in bytes of the UDP header and UDP data. The minimum length is 8 bytes, the length of the header. The field size sets a theoretical limit of 65,535 bytes (8 byte header + 65,527 bytes of data) for a UDP datagram. However the actual limit for the data length, which is imposed by the underlying [IPv4](https://en.wikipedia.org/wiki/IPv4) protocol, is 65,507 bytes (65,535 − 8 byte UDP header − 20 byte [IP header](https://en.wikipedia.org/wiki/IPv4_header)).
-Using IPv6 [jumbograms](https://en.wikipedia.org/wiki/Jumbogram) it is possible to have UDP packets of size greater than 65,535 bytes.[[5]](https://en.wikipedia.org/wiki/User_Datagram_Protocol#cite_note-5)[RFC](https://en.wikipedia.org/wiki/Request_for_Comments_(identifier)) [2675](https://tools.ietf.org/html/rfc2675) specifies that the length field is set to zero if the length of the UDP header plus UDP data is greater than 65,535.
+Using IPv6 [jumbograms](https://en.wikipedia.org/wiki/Jumbogram) it is possible to have UDP packets of size greater than 65,535 bytes.[RFC](https://en.wikipedia.org/wiki/Request_for_Comments_(identifier)) [2675](https://tools.ietf.org/html/rfc2675) specifies that the length field is set to zero if the length of the UDP header plus UDP data is greater than 65,535.
 
 ## Checksum
 

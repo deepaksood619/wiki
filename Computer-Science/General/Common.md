@@ -85,7 +85,7 @@ ISO 8601Data elements and interchange formats -- Information interchange -- Repr
 - If necessary for a particular application, the standard supports the addition of a [decimal fraction](https://www.wikiwand.com/en/Decimal_fractions) to the smallest time value in the representation.
 <https://en.wikipedia.org/wiki/ISO_8601>
 
-## IEC Prefixes**
+## IEC Prefixes
 
 | **Factor** | **Name** | **Symbol** | **Origin**              | **Derivation**  |
 |------------|------------|-------------|----------------------|---------------|
@@ -97,7 +97,7 @@ ISO 8601Data elements and interchange formats -- Information interchange -- Repr
 | 2^60^      | exbi      | Ei          | exabinary: (2^10^)^6^   | exa: (10^3^)^6^  |
 <https://physics.nist.gov/cuu/Units/binary.html>
 
-## shim** in computing means application compatibility workaround
+## shim in computing means application compatibility workaround
 
 ## IMP Coding Snippets
 
@@ -123,7 +123,7 @@ Solution - python 7.py
 <https://www.youtube.com/watch?v=0vPt7GI-2kc>
 <https://blog.codinghorror.com/new-programming-jargon>
 
-## Typosquatting**
+## Typosquatting
 
 <https://medium.com/@williambengtson/python-typosquatting-for-fun-not-profit-99869579c35d>
 
@@ -136,7 +136,7 @@ In [computer science](https://www.wikiwand.com/en/Computer_science), athree-way 
 
 <https://medium.com/@moocaholic/fp64-fp32-fp16-bfloat16-tf32-and-other-members-of-the-zoo-a1ca7897d407>
 
-## Valid Emails**
+## Valid Emails
 
 <https://www.youtube.com/watch?v=60BPETbra9U>
 

@@ -18,7 +18,7 @@ Modified: 2021-08-27 19:59:58 +0500
 - WhatsApp is using the [PJSIP library](http://www.pjsip.org/) to implement Voice over IP (VoIP) functionality. The captures shows no signs of DTLS, which suggests the use of SDES encryption (see [here](https://webrtchacks.com/webrtc-must-implement-dtls-srtp-but-must-not-implement-sdes/) for Victor's past post on this). Even though [STUN](https://webrtchacks.com/stun-helps-webrtc-traverse-nats/) is used, the binding requests do not contain ICE-specific attributes. RTP and RTCP are multiplexed on the same port.
 <https://webrtchacks.com/whats-up-with-whatsapp-and-webrtc>
 
-## Design a Messaging Service**
+## Design a Messaging Service
 
 - **Messaging**
 

@@ -72,7 +72,7 @@ If you actuallywantyour UUID to give some indication of the date and computer in
 UUID v5 is normally used only for very specific use cases, when you want to derive a UUID from another piece of information on the fly.
 <https://www.sohamkamani.com/uuid-versions-explained>
 
-## FlakeIDs**
+## FlakeIDs
 
 Many distributed systems have a requirement to generate time sorted, unique ids of some kind - for distinguishing incoming events, for resolving conflicts, for using as keys in key/value stores, for logging, and a whole bunch more.
 The basic idea behind flake ids is simple: instead of incrementing a counter each time you need an ID, use some of the top bits in an id to represent time, and then some others to represent a "node id", such that id generation across nodes is unique. The wonderful thing about the node id is that you can just coordinateonce- very often just by writing to config files inside your orchestration tool (chef/puppet/ansible/etc).
@@ -82,7 +82,7 @@ The basic idea behind flake ids is simple: instead of incrementing a counter eac
 In [computer programming](https://en.wikipedia.org/wiki/Computer_programming), **indirection**(also called **dereferencing**) is the ability to reference something using a name, reference, or container instead of the value itself. The most common form of indirection is the act of manipulating a value through its [memory address](https://en.wikipedia.org/wiki/Memory_address). For example, accessing a [variable](https://en.wikipedia.org/wiki/Variable_(programming)) through the use of a [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)). A stored pointer that exists to provide a reference to an object by double indirection is called an*indirection node*. In some older computer architectures, indirect words supported a variety of more-or-less complicated [addressing modes](https://en.wikipedia.org/wiki/Addressing_mode).
 <https://en.wikipedia.org/wiki/Indirection>
 
-## Frequency Cap**
+## Frequency Cap
 
 It is a counter for unique users on a website based on session data (like cookies). There might be millions or tens of millions of users visiting a website. Frequency capping means you only show each user your ad once per day.
 Redis has a [HyperLogLog data type](https://redis.io/commands/pfcount) that is perfect for a frequency cap. It approximates set membership with a very small error rate, in exchange for O(1) time and a very small memory footprint.PFADDadds an element to a HyperLogLog set. It returns 1 if your element is not in the set already, and 0 if it is in the set.
@@ -123,7 +123,7 @@ Translation (T9N)
 | Physical system reboot         | 5 m             | 32 millenia           |
 <https://blog.codinghorror.com/the-infinite-space-between-words>
 
-## Responsiveness matters**
+## Responsiveness matters
 
 - Walmart has found a sharp decline in conversion rates as latency climbs from 1s to 4s.
 - Amazon found that every 100ms of latency cost them 1% in sales.

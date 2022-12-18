@@ -25,391 +25,391 @@ Modified: 2022-01-30 11:58:21 +0500
 <thead>
 <tr class="header">
 <th><strong>State</strong></th>
-<th><a href="https://en.wikipedia.org/wiki/ISO_3166-2:IN"><strong>ISO 3166-2:IN</strong></a></th>
-<th><p><a href="https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_India"><strong>Vehicle</strong></a></p>
-<p><a href="https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_India"><strong>code</strong></a></p></th>
-<th><a href="https://en.wikipedia.org/wiki/Zonal_Council"><strong>Zone</strong></a></th>
+<th><strong>ISO 3166-2:IN</strong></th>
+<th><p><strong>Vehicle</strong></p>
+<p><strong>code</strong></p></th>
+<th><strong>Zone</strong></th>
 <th><strong>Capital</strong></th>
 <th><strong>Largest city</strong></th>
 <th><strong>Statehood</strong></th>
-<th><strong>Population</strong><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-census2011.co.in-35"><sup>[35]</sup></a></th>
-<th><p><a href="https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_area"><strong>Area</strong></a></p>
+<th><strong>Population</strong></th>
+<th><p>Area</p>
 <p><strong>(km<sup>2</sup>)</strong></p></th>
 <th><p><strong>Official</strong></p>
-<p><strong>languages</strong><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-langoff50-36"><sup>[36]</sup></a></p></th>
+<p><strong>languages</strong></p></th>
 <th><p><strong>Additional official</strong></p>
-<p><strong>languages</strong><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-langoff50-36"><sup>[36]</sup></a></p></th>
+<p><strong>languages</strong></p></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Andhra_Pradesh">Andhra Pradesh</a></td>
+<td>Andhra Pradesh</td>
 <td>IN-AP</td>
 <td>AP</td>
-<td><a href="https://en.wikipedia.org/wiki/Southern_Zonal_Council">Southern</a></td>
-<td><p><a href="https://en.wikipedia.org/wiki/Hyderabad,_India">Hyderabad</a>(de jure)</p>
-<p><a href="https://en.wikipedia.org/wiki/Amaravati">Amaravati</a>(de facto)</p></td>
-<td><a href="https://en.wikipedia.org/wiki/Visakhapatnam">Visakhapatnam</a></td>
+<td>Southern</td>
+<td><p>Hyderabad(de jure)</p>
+<p>Amaravati(de facto)</p></td>
+<td>Visakhapatnam</td>
 <td>1 October 1953</td>
 <td>49,506,799</td>
 <td>160,205</td>
-<td><a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</a></td>
+<td>Telugu</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Arunachal_Pradesh">Arunachal Pradesh</a></td>
+<td>Arunachal Pradesh</td>
 <td>IN-AR</td>
 <td>AR</td>
-<td><a href="https://en.wikipedia.org/wiki/North-Eastern_Zonal_Council">North-Eastern</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Itanagar">Itanagar</a></td>
+<td>North-Eastern</td>
+<td>Itanagar</td>
 <td></td>
 <td>20 February 1987</td>
 <td>1,383,727</td>
 <td>83,743</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>English</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Assam">Assam</a></td>
+<td>Assam</td>
 <td>IN-AS</td>
 <td>AS</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Dispur">Dispur</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Guwahati">Guwahati</a></td>
+<td>Dispur</td>
+<td>Guwahati</td>
 <td>26 January 1950</td>
 <td>31,205,576</td>
 <td>78,550</td>
-<td><a href="https://en.wikipedia.org/wiki/Assamese_language">Assamese</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Bengali_language">Bengali</a>,<a href="https://en.wikipedia.org/wiki/Bodo_language">Bodo</a></td>
+<td>Assamese</td>
+<td>Bengali</a>,<a href="https://en.wikipedia.org/wiki/Bodo_language">Bodo</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Bihar">Bihar</a></td>
+<td>Bihar</td>
 <td>IN-BR</td>
 <td>BR</td>
-<td><a href="https://en.wikipedia.org/wiki/Eastern_Zonal_Council">Eastern</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Patna">Patna</a></td>
+<td>Eastern</td>
+<td>Patna</td>
 <td></td>
 <td>26 January 1950</td>
 <td>104,099,452</td>
 <td>94,163</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
+<td>Hindi</td>
+<td>Urdu</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Chhattisgarh">Chhattisgarh</a></td>
+<td>Chhattisgarh</td>
 <td>IN-CT</td>
 <td>CG</td>
-<td><a href="https://en.wikipedia.org/wiki/Central_Zonal_Council">Central</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Naya_Raipur">Naya Raipur</a></td>
+<td>Central</td>
+<td>Naya Raipur</td>
 <td></td>
 <td>1 November 2000</td>
 <td>25,545,198</td>
 <td>135,194</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
+<td>Hindi</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Goa">Goa</a></td>
+<td>Goa</td>
 <td>IN-GA</td>
 <td>GA</td>
-<td><a href="https://en.wikipedia.org/wiki/Western_Zonal_Council">Western</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Panaji">Panaji</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Vasco_da_Gama,_Goa">Vasco da Gama</a></td>
+<td>Western</td>
+<td>Panaji</td>
+<td>Vasco da Gama</td>
 <td>30 May 1987</td>
 <td>1,458,545</td>
 <td>3,702</td>
-<td><a href="https://en.wikipedia.org/wiki/Konkani_language">Konkani</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Marathi_language">Marathi</a></td>
+<td>Konkani</td>
+<td>English</a>,<a href="https://en.wikipedia.org/wiki/Marathi_language">Marathi</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Gujarat">Gujarat</a></td>
+<td>Gujarat</td>
 <td>IN-GJ</td>
 <td>GJ</td>
 <td>Western</td>
-<td><a href="https://en.wikipedia.org/wiki/Gandhinagar">Gandhinagar</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Ahmedabad">Ahmedabad</a></td>
+<td>Gandhinagar</td>
+<td>Ahmedabad</td>
 <td>1 May 1960</td>
 <td>60,439,692</td>
 <td>196,024</td>
-<td><a href="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a></td>
+<td>Gujarati</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Haryana">Haryana</a></td>
+<td>Haryana</td>
 <td>IN-HR</td>
 <td>HR</td>
-<td><a href="https://en.wikipedia.org/wiki/Northern_Zonal_Council">Northern</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Chandigarh">Chandigarh</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Faridabad">Faridabad</a></td>
+<td>Northern</td>
+<td>Chandigarh</td>
+<td>Faridabad</td>
 <td>1 November 1966</td>
 <td>25,351,462</td>
 <td>44,212</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a><sup><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-39">[39]</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-40">[40]</a></sup></td>
+<td>Hindi</td>
+<td>Punjabi</a></td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Himachal_Pradesh">Himachal Pradesh</a></td>
+<td>Himachal Pradesh</td>
 <td>IN-HP</td>
 <td>HP</td>
 <td>Northern</td>
-<td><p><a href="https://en.wikipedia.org/wiki/Shimla">Shimla</a>(Summer)</p>
-<p><a href="https://en.wikipedia.org/wiki/Dharamshala">Dharamshala</a>(Winter)</p></td>
-<td><a href="https://en.wikipedia.org/wiki/Shimla">Shimla</a></td>
+<td><p>Shimla(Summer)</p>
+<p>Dharamshala(Winter)</p></td>
+<td>Shimla</td>
 <td>25 January 1971</td>
 <td>6,864,602</td>
 <td>55,673</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Hindi</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Jharkhand">Jharkhand</a></td>
+<td>Jharkhand</td>
 <td>IN-JH</td>
 <td>JH</td>
 <td>Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Ranchi">Ranchi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Jamshedpur">Jamshedpur</a></td>
+<td>Ranchi</td>
+<td>Jamshedpur</td>
 <td>15 November 2000</td>
 <td>32,988,134</td>
 <td>74,677</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-41"><sup>[41]</sup></a></td>
+<td>Hindi</td>
+<td></td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Karnataka">Karnataka</a></td>
+<td>Karnataka</td>
 <td>IN-KA</td>
 <td>KA</td>
 <td>Southern</td>
-<td><a href="https://en.wikipedia.org/wiki/Bangalore">Bangalore</a></td>
+<td>Bangalore</td>
 <td></td>
 <td>1 November 1956</td>
 <td>61,095,297</td>
 <td>191,791</td>
-<td><a href="https://en.wikipedia.org/wiki/Kannada_language">Kannada</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Kannada</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Kerala">Kerala</a></td>
+<td>Kerala</td>
 <td>IN-KL</td>
 <td>KL</td>
 <td>Southern</td>
-<td><a href="https://en.wikipedia.org/wiki/Thiruvananthapuram">Thiruvananthapuram</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Kochi">Kochi</a></td>
+<td>Thiruvananthapuram</td>
+<td>Kochi</td>
 <td>1 November 1956</td>
 <td>33,406,061</td>
 <td>38,863</td>
-<td><a href="https://en.wikipedia.org/wiki/Malayalam">Malayalam</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Malayalam</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Madhya_Pradesh">Madhya Pradesh</a></td>
+<td>Madhya Pradesh</td>
 <td>IN-MP</td>
 <td>MP</td>
 <td>Central</td>
-<td><a href="https://en.wikipedia.org/wiki/Bhopal">Bhopal</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Indore">Indore</a></td>
+<td>Bhopal</td>
+<td>Indore</td>
 <td>1 November 1956</td>
 <td>72,626,809</td>
 <td>308,252</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
+<td>Hindi</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Maharashtra">Maharashtra</a></td>
+<td>Maharashtra</td>
 <td>IN-MH</td>
 <td>MH</td>
 <td>Western</td>
-<td><p><a href="https://en.wikipedia.org/wiki/Mumbai">Mumbai</a>(Summer)</p>
-<p><a href="https://en.wikipedia.org/wiki/Nagpur">Nagpur</a>(Winter)</p></td>
-<td><a href="https://en.wikipedia.org/wiki/Mumbai">Mumbai</a></td>
+<td><p>Mumbai(Summer)</p>
+<p>Nagpur(Winter)</p></td>
+<td>Mumbai</td>
 <td>1 May 1960</td>
 <td>112,374,333</td>
 <td>307,713</td>
-<td><a href="https://en.wikipedia.org/wiki/Marathi_Language">Marathi</a></td>
+<td>Marathi</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Manipur">Manipur</a></td>
+<td>Manipur</td>
 <td>IN-MN</td>
 <td>MN</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Imphal">Imphal</a></td>
+<td>Imphal</td>
 <td></td>
 <td>21 January 1972</td>
 <td>2,855,794</td>
 <td>22,347</td>
-<td><a href="https://en.wikipedia.org/wiki/Meitei_language">Meitei</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Meitei</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Meghalaya">Meghalaya</a></td>
+<td>Meghalaya</td>
 <td>IN-ML</td>
 <td>ML</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Shillong">Shillong</a></td>
+<td>Shillong</td>
 <td></td>
 <td>21 January 1972</td>
 <td>2,966,889</td>
 <td>22,720</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Khasi_language">Khasi</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-43"><sup>[a]</sup></a></td>
+<td>English</td>
+<td></td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Mizoram">Mizoram</a></td>
+<td>Mizoram</td>
 <td>IN-MZ</td>
 <td>MZ</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Aizawl">Aizawl</a></td>
+<td>Aizawl</td>
 <td></td>
 <td>20 February 1987</td>
 <td>1,097,206</td>
 <td>21,081</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Mizo_language">Mizo</a></td>
+<td>English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Mizo_language">Mizo</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Nagaland">Nagaland</a></td>
+<td>Nagaland</td>
 <td>IN-NL</td>
 <td>NL</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Kohima">Kohima</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Dimapur">Dimapur</a></td>
+<td>Kohima</td>
+<td>Dimapur</td>
 <td>1 December 1963</td>
 <td>1,978,502</td>
 <td>16,579</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>English</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Odisha">Odisha</a></td>
+<td>Odisha</td>
 <td>IN-OR</td>
 <td>OD</td>
 <td>Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Bhubaneswar">Bhubaneswar</a></td>
+<td>Bhubaneswar</td>
 <td></td>
 <td>1 April 1936</td>
 <td>41,974,218</td>
 <td>155,820</td>
-<td><a href="https://en.wikipedia.org/wiki/Odia_language">Odia</a></td>
+<td>Odia</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Punjab,_India">Punjab</a></td>
+<td>Punjab</td>
 <td>IN-PB</td>
 <td>PB</td>
 <td>Northern</td>
-<td><a href="https://en.wikipedia.org/wiki/Chandigarh">Chandigarh</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Ludhiana">Ludhiana</a></td>
+<td>Chandigarh</td>
+<td>Ludhiana</td>
 <td>1 November 1966</td>
 <td>27,743,338</td>
 <td>50,362</td>
-<td><a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a></td>
+<td>Punjabi</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Rajasthan">Rajasthan</a></td>
+<td>Rajasthan</td>
 <td>IN-RJ</td>
 <td>RJ</td>
 <td>Northern</td>
-<td><a href="https://en.wikipedia.org/wiki/Jaipur">Jaipur</a></td>
+<td>Jaipur</td>
 <td></td>
 <td>1 November 1956</td>
 <td>68,548,437</td>
 <td>342,269</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Hindi</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Sikkim">Sikkim</a></td>
+<td>Sikkim</td>
 <td>IN-SK</td>
 <td>SK</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Gangtok">Gangtok</a></td>
+<td>Gangtok</td>
 <td></td>
 <td>16 May 1975</td>
 <td>610,577</td>
 <td>7,096</td>
-<td><a href="https://en.wikipedia.org/wiki/Nepali_language">Nepali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Bhutia_language">Bhutia</a>,<a href="https://en.wikipedia.org/wiki/Gurung_language">Gurung</a>,<a href="https://en.wikipedia.org/wiki/Lepcha_language">Lepcha</a>,<a href="https://en.wikipedia.org/wiki/Limbu_language">Limbu</a>,<a href="https://en.wikipedia.org/wiki/Manggar_language">Manggar</a>,<a href="https://en.wikipedia.org/wiki/Mukhia_language">Mukhia</a>,<a href="https://en.wikipedia.org/wiki/Newari_language">Newari</a>,<a href="https://en.wikipedia.org/wiki/Rai_languages">Rai</a>,<a href="https://en.wikipedia.org/wiki/Sherpa_language">Sherpa</a>,<a href="https://en.wikipedia.org/wiki/Tamang_language">Tamang</a></td>
+<td>Nepali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</td>
+<td>Bhutia</a>,<a href="https://en.wikipedia.org/wiki/Gurung_language">Gurung</a>,<a href="https://en.wikipedia.org/wiki/Lepcha_language">Lepcha</a>,<a href="https://en.wikipedia.org/wiki/Limbu_language">Limbu</a>,<a href="https://en.wikipedia.org/wiki/Manggar_language">Manggar</a>,<a href="https://en.wikipedia.org/wiki/Mukhia_language">Mukhia</a>,<a href="https://en.wikipedia.org/wiki/Newari_language">Newari</a>,<a href="https://en.wikipedia.org/wiki/Rai_languages">Rai</a>,<a href="https://en.wikipedia.org/wiki/Sherpa_language">Sherpa</a>,<a href="https://en.wikipedia.org/wiki/Tamang_language">Tamang</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Tamil_Nadu">Tamil Nadu</a></td>
+<td>Tamil Nadu</td>
 <td>IN-TN</td>
 <td>TN</td>
 <td>Southern</td>
-<td><a href="https://en.wikipedia.org/wiki/Chennai">Chennai</a></td>
+<td>Chennai</td>
 <td></td>
 <td>26 January 1950</td>
 <td>72,147,030</td>
 <td>130,058</td>
-<td><a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Tamil</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Telangana">Telangana</a></td>
+<td>Telangana</td>
 <td>IN-TG</td>
 <td>TS</td>
 <td>Southern</td>
-<td><a href="https://en.wikipedia.org/wiki/Hyderabad">Hyderabad</a></td>
+<td>Hyderabad</td>
 <td></td>
 <td>2 June 2014</td>
-<td>35,193,978<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-telangana-44"><sup>[43]</sup></a></td>
-<td>114,840<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-telangana-44"><sup>[43]</sup></a></td>
-<td><a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-45"><sup>[44]</sup></a></td>
+<td>35,193,978</td>
+<td>114,840</td>
+<td>Telugu,Urdu</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Tripura">Tripura</a></td>
+<td>Tripura</td>
 <td>IN-TR</td>
 <td>TR</td>
 <td>North-Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Agartala">Agartala</a></td>
+<td>Agartala</td>
 <td></td>
 <td>21 January 1972</td>
 <td>3,673,917</td>
 <td>10,492</td>
-<td><a href="https://en.wikipedia.org/wiki/Bengali_language">Bengali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Kokborok_language">Kokborok</a></td>
+<td>Bengali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Kokborok_language">Kokborok</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Uttar_Pradesh">Uttar Pradesh</a></td>
+<td>Uttar Pradesh</td>
 <td>IN-UP</td>
 <td>UP</td>
 <td>Northern</td>
-<td><a href="https://en.wikipedia.org/wiki/Lucknow">Lucknow</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Kanpur">Kanpur</a></td>
+<td>Lucknow</td>
+<td>Kanpur</td>
 <td>26 January 1950</td>
 <td>199,812,341</td>
 <td>243,286</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
+<td>Hindi</td>
+<td>Urdu</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Uttarakhand">Uttarakhand</a></td>
+<td>Uttarakhand</td>
 <td>IN-UT</td>
 <td>UK</td>
 <td>Northern</td>
-<td><a href="https://en.wikipedia.org/wiki/Dehradun">Dehradun</a></td>
+<td>Dehradun</td>
 <td></td>
 <td>9 November 2000</td>
 <td>10,086,292</td>
 <td>53,483</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Sanskrit">Sanskrit</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-46"><sup>[45]</sup></a></td>
+<td>Hindi</td>
+<td>Sanskrit</td>
 </tr>
 <tr>
-<td><p><a href="https://en.wikipedia.org/wiki/West_Bengal">West Bengal</a></p>
+<td><p>West Bengal</p>
 <p></p>
-<p><a href="https://youtu.be/76u1LJ_WUJg">West Bengal Politics Explained &amp; Its Geostrategic importance | WB elections 2021</a></p></td>
+<p>West Bengal Politics Explained &amp; Its Geostrategic importance | WB elections 2021</p></td>
 <td>IN-WB</td>
 <td>WB</td>
 <td>Eastern</td>
-<td><a href="https://en.wikipedia.org/wiki/Kolkata">Kolkata</a></td>
+<td>Kolkata</td>
 <td></td>
 <td>26 January 1950</td>
 <td>91,276,115</td>
 <td>88,752</td>
-<td><a href="https://en.wikipedia.org/wiki/Bengali_language">Bengali</a>,<a href="https://en.wikipedia.org/wiki/Nepali_language">Nepali</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-47"><sup>[b]</sup></a></td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Odia_language">Odia</a>,<a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a>,<a href="https://en.wikipedia.org/wiki/Santali_language">Santali</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
+<td>Bengali,Nepali</td>
+<td>Hindi</a>,<a href="https://en.wikipedia.org/wiki/Odia_language">Odia</a>,<a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a>,<a href="https://en.wikipedia.org/wiki/Santali_language">Santali</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</td>
 </tr>
 </tbody>
 </table>
@@ -432,119 +432,119 @@ Modified: 2022-01-30 11:58:21 +0500
 <thead>
 <tr class="header">
 <th><strong>Union territory</strong></th>
-<th><a href="https://en.wikipedia.org/wiki/ISO_3166-2:IN"><strong>ISO 3166-2:IN</strong></a></th>
-<th><a href="https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_India"><strong>Vehicle code</strong></a></th>
+<th>ISO 3166-2:IN</th>
+<th>Vehicle code</th>
 <th><strong>Capital</strong></th>
 <th><strong>Largest city</strong></th>
-<th><strong>Population</strong><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-census2011.co.in-35"><sup>[35]</sup></a></th>
-<th><p><a href="https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_area"><strong>Area</strong></a></p>
+<th><strong>Population</strong></th>
+<th><p>Area</p>
 <p><strong>(km<sup>2</sup>)</strong></p></th>
 <th><p><strong>Official</strong></p>
-<p><strong>languages</strong><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-langoff50-36"><sup>[36]</sup></a></p></th>
+<p><strong>languages</strong></p></th>
 <th><p><strong>Additional official</strong></p>
-<p><strong>languages</strong><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-langoff50-36"><sup>[36]</sup></a></p></th>
+<p><strong>languages</strong></p></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands">Andaman and Nicobar Islands</a></td>
+<td>Andaman and Nicobar Islands</td>
 <td>IN-AN</td>
 <td>AN</td>
-<td><a href="https://en.wikipedia.org/wiki/Port_Blair">Port Blair</a></td>
+<td>Port Blair</td>
 <td></td>
 <td>380,581</td>
 <td>8,249</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
+<td>English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Chandigarh">Chandigarh</a></td>
+<td>Chandigarh</td>
 <td>IN-CH</td>
 <td>CH</td>
-<td><a href="https://en.wikipedia.org/wiki/Chandigarh">Chandigarh</a></td>
-<td>—<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-52"><sup>[c]</sup></a></td>
+<td>Chandigarh</td>
+<td>—</td>
 <td>1,055,450</td>
 <td>114</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>English</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli">Dadra and Nagar Haveli</a></td>
+<td>Dadra and Nagar Haveli</td>
 <td>IN-DN</td>
 <td>DN</td>
-<td><a href="https://en.wikipedia.org/wiki/Silvassa">Silvassa</a></td>
+<td>Silvassa</td>
 <td></td>
 <td>343,709</td>
 <td>491</td>
-<td><a href="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Marathi_language">Marathi</a></td>
+<td>Gujarati</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</td>
+<td>Marathi</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Daman_and_Diu">Daman and Diu</a></td>
+<td>Daman and Diu</td>
 <td>IN-DD</td>
 <td>DD</td>
-<td><a href="https://en.wikipedia.org/wiki/Daman,_Daman_and_Diu">Daman</a></td>
+<td>Daman</td>
 <td></td>
 <td>243,247</td>
 <td>112</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Gujarati_language">Gujarati</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Konkani_language">Konkani</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-53"><sup>[d]</sup></a></td>
+<td>English,Gujarati,Hindi,Konkani,</td>
 <td>—</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Delhi">Delhi</a></td>
+<td>Delhi</td>
 <td>IN-DL</td>
 <td>DL</td>
-<td><a href="https://en.wikipedia.org/wiki/New_Delhi">New Delhi</a></td>
-<td>—<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-54"><sup>[e]</sup></a></td>
+<td>New Delhi</td>
+<td>—</td>
 <td>16,787,941</td>
 <td>1,490</td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a><a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-55"><sup>[50]</sup></a></td>
+<td>Hindi</td>
+<td>Punjabi,Urdu</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)">Jammu and Kashmir</a></td>
+<td>Jammu and Kashmir</td>
 <td>IN-JK</td>
 <td>JK</td>
-<td><p><a href="https://en.wikipedia.org/wiki/Srinagar">Srinagar</a>(Summer)</p>
-<p><a href="https://en.wikipedia.org/wiki/Jammu">Jammu</a>(Winter)</p></td>
-<td><a href="https://en.wikipedia.org/wiki/Srinagar">Srinagar</a></td>
+<td><p>Srinagar(Summer)</p>
+<p>Jammu(Winter)</p></td>
+<td>Srinagar</td>
 <td>12,258,433</td>
-<td>55,538<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#endnote_3"><sup>Note 3</sup></a></td>
-<td><a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Dogri_language">Dogri</a>,<a href="https://en.wikipedia.org/wiki/Kashmiri_language">Kashmiri</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</a></td>
+<td>55,538</td>
+<td>Hindi</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</td>
+<td>Dogri</a>,<a href="https://en.wikipedia.org/wiki/Kashmiri_language">Kashmiri</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Ladakh">Ladakh</a></td>
+<td>Ladakh</td>
 <td>IN-LA</td>
 <td>LA</td>
-<td><a href="https://en.wikipedia.org/wiki/Leh">Leh</a>,<a href="https://en.wikipedia.org/wiki/Kargil">Kargil</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Leh">Leh</a></td>
+<td>Leh</a>,<a href="https://en.wikipedia.org/wiki/Kargil">Kargil</td>
+<td>Leh</td>
 <td>290,492</td>
-<td>174,852<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#endnote_4"><sup>Note 4</sup></a></td>
-<td><a href="https://en.wikipedia.org/wiki/Ladakhi_language">Ladakhi</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Balti_language">Balti</a></td>
+<td>174,852</td>
+<td>Ladakhi</td>
+<td>Balti</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Lakshadweep">Lakshadweep</a></td>
+<td>Lakshadweep</td>
 <td>IN-LD</td>
 <td>LD</td>
-<td><a href="https://en.wikipedia.org/wiki/Kavaratti">Kavaratti</a></td>
+<td>Kavaratti</td>
 <td></td>
 <td>64,473</td>
 <td>32</td>
-<td><a href="https://en.wikipedia.org/wiki/Malayalam_language">Malayalam</a></td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a></td>
+<td>Malayalam</td>
+<td>English</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Puducherry">Puducherry</a></td>
+<td>Puducherry</td>
 <td>IN-PY</td>
 <td>PY</td>
-<td><a href="https://en.wikipedia.org/wiki/Pondicherry">Pondicherry</a></td>
+<td>Pondicherry</td>
 <td></td>
 <td>1,247,953</td>
 <td>492</td>
-<td><a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/States_and_union_territories_of_India#cite_note-56"><sup>[51]</sup></a><a href="https://en.wikipedia.org/wiki/Tamil_language">Tamil</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Malayalam_language">Malayalam</a>,<a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</a></td>
+<td>EnglishTamil</td>
+<td>Malayalam</a>,<a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +553,7 @@ Modified: 2022-01-30 11:58:21 +0500
 
 ## Adminstrative Divisions of India
 
-Indian states and territories frequently use different local titles for the same level of subdivision (e.g., the [*mandals*](https://en.wikipedia.org/wiki/Mandal_(country_subdivision)) of [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh) and [Telangana](https://en.wikipedia.org/wiki/Telangana) correspond to [*tehsils*](https://en.wikipedia.org/wiki/Tehsil) of [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh) and other [Hindi-speaking states](https://en.wikipedia.org/wiki/Hindi_Belt) but to [*talukas*](https://en.wikipedia.org/wiki/Taluka) of [Gujarat](https://en.wikipedia.org/wiki/Gujarat), [Goa](https://en.wikipedia.org/wiki/Goa), [Karnataka](https://en.wikipedia.org/wiki/Karnataka), [Kerala](https://en.wikipedia.org/wiki/Kerala), [Maharashtra](https://en.wikipedia.org/wiki/Maharashtra), and [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu)).[^[1]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-1)
+Indian states and territories frequently use different local titles for the same level of subdivision (e.g., the [*mandals*](https://en.wikipedia.org/wiki/Mandal_(country_subdivision)) of [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh) and [Telangana](https://en.wikipedia.org/wiki/Telangana) correspond to [*tehsils*](https://en.wikipedia.org/wiki/Tehsil) of [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh) and other [Hindi-speaking states](https://en.wikipedia.org/wiki/Hindi_Belt) but to [*talukas*](https://en.wikipedia.org/wiki/Taluka) of [Gujarat](https://en.wikipedia.org/wiki/Gujarat), [Goa](https://en.wikipedia.org/wiki/Goa), [Karnataka](https://en.wikipedia.org/wiki/Karnataka), [Kerala](https://en.wikipedia.org/wiki/Kerala), [Maharashtra](https://en.wikipedia.org/wiki/Maharashtra), and [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu)).
 
 ## Tiers of India
 
@@ -563,12 +563,12 @@ Indian states and territories frequently use different local titles for the same
 
 ![image](media/Indian-States-and-UTs-image2.png)
 
-The States have been grouped into six zones having an Advisory Council "to develop the habit of cooperative working" among these States.[Zonal Councils](https://en.wikipedia.org/wiki/Zonal_Council) were set up vide Part-III of the [States Reorganisation Act](https://en.wikipedia.org/wiki/States_Reorganisation_Act), 1956. The North Eastern States' special problems are addressed by another statutory body - The North Eastern Council, created by the North Eastern Council Act, 1971.[^[2]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-2) The present composition of each of these Zonal Councils is as under:[^[3]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-3)
+The States have been grouped into six zones having an Advisory Council "to develop the habit of cooperative working" among these States.[Zonal Councils](https://en.wikipedia.org/wiki/Zonal_Council) were set up vide Part-III of the [States Reorganisation Act](https://en.wikipedia.org/wiki/States_Reorganisation_Act), 1956. The North Eastern States' special problems are addressed by another statutory body - The North Eastern Council, created by the North Eastern Council Act, 1971. The present composition of each of these Zonal Councils is as under:
 
 - [Northern Zonal Council](https://en.wikipedia.org/wiki/Northern_Zonal_Council), comprising [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh), [Delhi](https://en.wikipedia.org/wiki/Delhi), [Haryana](https://en.wikipedia.org/wiki/Haryana), [Himachal Pradesh](https://en.wikipedia.org/wiki/Himachal_Pradesh), [Jammu and Kashmir](https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)), [Ladakh](https://en.wikipedia.org/wiki/Ladakh), [Punjab](https://en.wikipedia.org/wiki/Punjab,_India), and [Rajasthan](https://en.wikipedia.org/wiki/Rajasthan);
-- [North Eastern Council](https://en.wikipedia.org/wiki/North_Eastern_Council), comprising [Assam](https://en.wikipedia.org/wiki/Assam), [Arunachal Pradesh](https://en.wikipedia.org/wiki/Arunachal_Pradesh), [Manipur](https://en.wikipedia.org/wiki/Manipur), [Meghalaya](https://en.wikipedia.org/wiki/Meghalaya), [Mizoram](https://en.wikipedia.org/wiki/Mizoram), [Nagaland](https://en.wikipedia.org/wiki/Nagaland) and [Tripura](https://en.wikipedia.org/wiki/Tripura); The State of [Sikkim](https://en.wikipedia.org/wiki/Sikkim) has also been included in the North Eastern Council vide North Eastern Council (Amendment) Act, 2002 notified on 23 December 2002.[^[4]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-4)
+- [North Eastern Council](https://en.wikipedia.org/wiki/North_Eastern_Council), comprising [Assam](https://en.wikipedia.org/wiki/Assam), [Arunachal Pradesh](https://en.wikipedia.org/wiki/Arunachal_Pradesh), [Manipur](https://en.wikipedia.org/wiki/Manipur), [Meghalaya](https://en.wikipedia.org/wiki/Meghalaya), [Mizoram](https://en.wikipedia.org/wiki/Mizoram), [Nagaland](https://en.wikipedia.org/wiki/Nagaland) and [Tripura](https://en.wikipedia.org/wiki/Tripura); The State of [Sikkim](https://en.wikipedia.org/wiki/Sikkim) has also been included in the North Eastern Council vide North Eastern Council (Amendment) Act, 2002 notified on 23 December 2002.
 - [Central Zonal Council](https://en.wikipedia.org/wiki/Central_Zonal_Council), comprising the States of [Chhattisgarh](https://en.wikipedia.org/wiki/Chhattisgarh), [Madhya Pradesh](https://en.wikipedia.org/wiki/Madhya_Pradesh), [Uttarakhand](https://en.wikipedia.org/wiki/Uttarakhand) and [Uttar Pradesh](https://en.wikipedia.org/wiki/Uttar_Pradesh);
 - [Eastern Zonal Council](https://en.wikipedia.org/wiki/Eastern_Zonal_Council), comprising [Bihar](https://en.wikipedia.org/wiki/Bihar), [Jharkhand](https://en.wikipedia.org/wiki/Jharkhand), [Odisha](https://en.wikipedia.org/wiki/Odisha), and [West Bengal](https://en.wikipedia.org/wiki/West_Bengal);
 - [Western Zonal Council](https://en.wikipedia.org/wiki/Western_Zonal_Council), comprising [Dadra and Nagar Haveli](https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli), [Daman and Diu](https://en.wikipedia.org/wiki/Daman_and_Diu), [Goa](https://en.wikipedia.org/wiki/Goa), [Gujarat](https://en.wikipedia.org/wiki/Gujarat), and [Maharashtra](https://en.wikipedia.org/wiki/Maharashtra);
 - [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council), comprising [Andhra Pradesh](https://en.wikipedia.org/wiki/Andhra_Pradesh), [Karnataka](https://en.wikipedia.org/wiki/Karnataka), [Kerala](https://en.wikipedia.org/wiki/Kerala), [Puducherry](https://en.wikipedia.org/wiki/Puducherry), [Tamil Nadu](https://en.wikipedia.org/wiki/Tamil_Nadu), and [Telangana](https://en.wikipedia.org/wiki/Telangana).
-- [Andaman and Nicobar Islands](https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands), [Lakshadweep](https://en.wikipedia.org/wiki/Lakshadweep) are not members of any of the Zonal Councils.[^[5]^](https://en.wikipedia.org/wiki/Administrative_divisions_of_India#cite_note-5) However, they are presently special invitees to the [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council)
+- [Andaman and Nicobar Islands](https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands), [Lakshadweep](https://en.wikipedia.org/wiki/Lakshadweep) are not members of any of the Zonal Councils. However, they are presently special invitees to the [Southern Zonal Council](https://en.wikipedia.org/wiki/Southern_Zonal_Council)

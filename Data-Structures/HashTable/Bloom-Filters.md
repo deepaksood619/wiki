@@ -50,7 +50,7 @@ The hash functions used for bloom filter should generally be faster than cryptog
 The solution is we can't support Remove operation in this simple bloom filters. But if we really need to have a Removal functionality we can use a variation of the bloom filter known as"**Counting bloom filter**". The idea is simple. Instead of storing a single bit of values, we will store an integer value and our bit vector will then be an integer vector. This will increase the size and costs more space to gives us the Removal functionality. Instead of just marking a bit value to '1' when inserting a value, we will increment the integer value by 1. To check if an element exists, check if the corresponding indexes after hashing the element is greater than 0.
 ![image](media/Bloom-Filters-image3.png)
 
-## References -
+## References
 
 <https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation>
 

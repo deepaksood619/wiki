@@ -22,7 +22,7 @@ Molecular Visualization System
 
 ## Crystallographic Information File(CIF) is a standard text file format for representing [crystallographic](https://en.wikipedia.org/wiki/Crystallographic) information, promulgated by the [International Union of Crystallography](https://en.wikipedia.org/wiki/International_Union_of_Crystallography)(IUCr)
 
-## mmCIF**, macromolecular CIF, which is intended as an alternative to the [Protein Data Bank (PDB) format](https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)). Also closely related is**Crystallographic Information Framework, a broader system of exchange protocols based on data dictionaries and relational rules expressible in different machine-readable manifestations, including, but not restricted to, Crystallographic Information File and [XML](https://en.wikipedia.org/wiki/XML)
+## mmCIF, macromolecular CIF, which is intended as an alternative to the [Protein Data Bank (PDB) format](https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)). Also closely related is**Crystallographic Information Framework, a broader system of exchange protocols based on data dictionaries and relational rules expressible in different machine-readable manifestations, including, but not restricted to, Crystallographic Information File and [XML](https://en.wikipedia.org/wiki/XML)
 
 ## References
 

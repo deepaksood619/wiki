@@ -9,16 +9,12 @@ Modified: 2018-05-11 23:47:01 +0500
 ## Synonyms
 
 1. Greatest Common Divisor (GCD)
-
 2. Greatest Common Factor (GCF)
-
 3. Highest Common Factor (HCF)
-
 4. Highest Common Divisor (HCD)
-
 5. Greatest Common Measure (GCM)
 
-## GCD -
+## GCD
 
 Greatest Common Divisor (GCD) of two integers A and B is thel**argest integer that divides both A and B.**
 
@@ -47,11 +43,8 @@ A more efficient version of the algorithm shortcuts these steps, instead replaci
 
 ```java
 public int GCD(int a, int b) {
-
-if ( b == 0 ) return a;
-
-else return GCD ( b, a % b );
-
+ if ( b == 0 ) return a;
+ else return GCD ( b,  a % b );
 }
 ```
 
@@ -59,25 +52,21 @@ else return GCD ( b, a % b );
 
 ```python
 def gcd(x, y):
-
-while (y):
-
-x, y = y, x%y
-
-return x
+ while (y):
+  x, y = y, x%y
+    return x
 ```
 
 ## Python - using math library
 
 ```python
 import math
-
 match.gcd(x,y)
 ```
 
-## Time Complexity:O(Log min(a, b))
+Time Complexity:O(Log min(a, b))
 
-## Applications-
+## Applications
 
 1. Reducing fractions to their simplest form
 
@@ -97,42 +86,30 @@ match.gcd(x,y)
 
 ## Extended Euclidean Algorithm
 
-Extended Euclidean algorithm also finds integer coefficients x and y such that:
+Extended Euclidean algorithm also finds integer coefficients x and y such that: `ax + by = gcd(a, b)`
 
 ```python
-ax + by = gcd(a, b)
+def gcdExtended(a, b, x, y):
+    # Base Case
+    if a == 0 :
+        x = 0
+        y = 1
+        return b
 
-## def gcdExtended(a, b, x, y)
+    x1 = 1
+    y1 = 1 # To store results of recursive call
+    gcd = gcdExtended(b%a, a, x1, y1)
 
-# Base Case
+    # Update x and y using results of recursive
+    # call
+    x = y1 - (b/a) * x1
+    y = x1
 
-## if**a**== 0
-
-x **=** 0
-
-y **=** 1
-
-## return b
-
-x1 **=** 1
-
-y1 **=** 1 # To store results of recursive call
-
-gcd **=** gcdExtended(b**%**a, a, x1, y1)
-
-# Update x and y using results of recursive
-
-# call
-
-x **=** y1 **-** (b**/**a) ***** x1
-
-y **=** x1
-
-## return gcd
+    return gcd
 ```
 
 ## References
 
-1. <https://en.wikipedia.org/wiki/Euclidean_algorithm>
+<https://en.wikipedia.org/wiki/Euclidean_algorithm>
 
-2. <https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended>
+<https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended>

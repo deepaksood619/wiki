@@ -42,7 +42,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the theory ofoptima
 
 <https://en.wikipedia.org/wiki/Optimal_stopping>
 
-## Secretary Problem**
+## Secretary Problem
 
 Thesecretary problemis a problem that demonstrates a scenario involving [optimal stopping](https://en.wikipedia.org/wiki/Optimal_stopping) theory.The problem has been studied extensively in the fields of [applied probability](https://en.wikipedia.org/wiki/Applied_probability), [statistics](https://en.wikipedia.org/wiki/Statistics), and [decision theory](https://en.wikipedia.org/wiki/Decision_theory). It is also known as themarriage problem, thesultan's dowry problem, thefussy suitor problem, the googol game, and thebest choice problem.
 The basic form of the problem is the following: imagine an administrator who wants to hire the best secretary out ofnrankable applicants for a position. The applicants are interviewed one by one in random order. A decision about each particular applicant is to be made immediately after the interview. Once rejected, an applicant cannot be recalled. During the interview, the administrator can rank the applicant among all applicants interviewed so far, but is unaware of the quality of yet unseen applicants. The question is about the optimal strategy ([stopping rule](https://en.wikipedia.org/wiki/Stopping_rule)) to maximize the probability of selecting the best applicant. If the decision can be deferred to the end, this can be solved by the simple maximum [selection algorithm](https://en.wikipedia.org/wiki/Selection_algorithm) of tracking the running maximum (and who achieved it), and selecting the overall maximum at the end. The difficulty is that the decision must be made immediately.

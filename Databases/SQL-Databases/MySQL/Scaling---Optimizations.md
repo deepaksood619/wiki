@@ -40,7 +40,7 @@ Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
   - NoInnoDBtable definition may contain a foreign key reference to a user-partitioned table; noInnoDBtable with user-defined partitioning may contain columns referenced by foreign keys.
 <https://dev.mysql.com/doc/mysql-partitioning-excerpt/5.7/en/partitioning-limitations.html>
 
-## Performance Tuning**
+## Performance Tuning
 
 - Often the default value is the best value
 - Ensure all tables have a PRIMARY KEY
@@ -51,7 +51,7 @@ Able to search ~5cr entries in 7 mins of average time with 4-5 where conditions
 - max_execution_time limit for long running SQL Queries
 <https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html>
 
-## Optimizations**
+## Optimizations
 
 - **Always do bulk inserts/updates wherever possible**
 
@@ -83,7 +83,7 @@ CHECK TABLE table_name;
 REPAIR TABLE table_name;
 <https://www.mysqltutorial.org/mysql-database-table-maintenance-statements.aspx>
 
-## Defragmentation**
+## Defragmentation
 
 OPTIMIZE TABLE sttash_website_LIVE.email_instance_moratorium;
 During optimization, MySQL will create a temporary table for the table, and after the optimization it will delete the original table, and rename this temporary table to the original table.

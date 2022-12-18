@@ -209,7 +209,7 @@ All three protocols are supported by RabbitMQ broker, making it an ideal choice 
 
 <https://www.youtube.com/watch?v=fNbdgWe5Tbs&ab_channel=GOTOConferences>
 
-## pika**
+## pika
 
 Pika is a RabbitMQ (AMQP 0-9-1) client library for Python.
 <https://pypi.org/project/pika>

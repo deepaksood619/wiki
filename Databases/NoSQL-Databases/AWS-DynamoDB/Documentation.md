@@ -18,13 +18,13 @@ The primary key that uniquely identifies each item in an Amazon DynamoDB table c
 Generally speaking, you should design your application for uniform activity across all logical partition keys in the table and its secondary indexes. You can determine the access patterns that your application requires, and estimate the total read capacity units (RCU) and write capacity units (WCU) that each table and secondary index requires.
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-partition-key-design.html>
 
-## Appendix**
+## Appendix
 
 Integrating with Amazon Data Pipeline
 
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBPipeline.html>
 
-## Blogs**
+## Blogs
 
 Simplify Amazon DynamoDB data extraction and analysis by using AWS Glue and Amazon Athena
 

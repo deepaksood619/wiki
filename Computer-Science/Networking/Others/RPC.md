@@ -8,7 +8,7 @@ Modified: 2020-05-12 01:12:57 +0500
 
 <https://sbdevel.wordpress.com/2009/12/17/the-case-rpc-vs-messaging>
 
-## RPC stands for Remote Procedure Call**
+## RPC stands for Remote Procedure Call
 
 RPC has a greater learning curve than REST
 
@@ -73,7 +73,7 @@ Finagle provides a robust implementation of:
 
 <https://twitter.github.io/finagle>
 
-## Tools**
+## Tools
 
 ## BloomRPC
 

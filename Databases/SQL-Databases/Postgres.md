@@ -41,15 +41,17 @@ Try to pre-process as much data as you can on the Postgres server with server-si
 What's even better is your development team can use its existing skill set for writing Postgres code. Other than the default PL/pgSQL (Postgres' native procedural language), Postgres functions and triggers can be written in PL/Python, PL/Perl, PL/V8 (JavaScript extension for Postgres) and PL/R.
 Here is an example of creating a PL/Python function for checking string lengths:
 
+```sql
 CREATE FUNCTION longer_string_length (string1 string, string2 string)
 RETURNS integer
 AS $$
 a=len(string1)
 b-len(string2)
 if a > b:
-return a
+  return a
 return b
 $$ LANGUAGE plpythonu;
+```
 
 ## Advanced Features
 
@@ -65,14 +67,16 @@ $$ LANGUAGE plpythonu;
 A partial index can save space by specifying which values get indexed
 Apartial indexis an index built over a subset of a table; the subset is defined by a conditional expression (called thepredicateof the partial index). The index contains entries only for those table rows that satisfy the predicate. Partial indexes are a specialized feature, but there are several situations in which they are useful.
 One major reason for using a partial index is to avoid indexing common values. Since a query searching for a common value (one that accounts for more than a few percent of all the table rows) will not use the index anyway, there is no point in keeping those rows in the index at all. This reduces the size of the index, which will speed up those queries that do use the index. It will also speed up many table update operations because the index does not need to be updated in all cases.
+
+```sql
 CREATE INDEX orders_completed_user_id
-
 ON orders (user_id)
-
 WHERE completed IS TRUE;
+```
+
 <https://www.postgresql.org/docs/12/indexes-partial.html>
 
-## JSON Types**
+## JSON Types
 
 PostgreSQLoffers two types for storing JSON data:jsonandjsonb.
 Thejsonandjsonbdata types accept *almost*identical sets of values as input. The major practical difference is one of efficiency. Thejsondata type stores an exact copy of the input text, which processing functions must reparse on each execution; whilejsonbdata is stored in a decomposed binary format that makes it slightly slower to input due to added conversion overhead, but significantly faster to process, since no reparsing is needed.jsonbalso supports indexing, which can be a significant advantage.
@@ -80,13 +84,13 @@ Thejsonandjsonbdata types accept *almost*identical sets of values as input. The 
 
 <https://severalnines.com/database-blog/overview-json-capabilities-within-postgresql>
 
-## Containment**
+## Containment
 
 Containment tests whether one document (a set or an array) is contained within another.
 
 ## Postgres Extensions
 
-1. **PostGIS**
+1. PostGIS
 
 used for geospatial data manipulation and running location queries in SQL
 <https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b>
@@ -164,7 +168,7 @@ A bloom index is perfect for multi-column queries on big tables where you only n
 Use a GIN or GiST index for efficient indexes based on composite values like text, arrays, and JSON.
 <https://habr.com/en/company/postgrespro/blog/448746>
 
-## pgagroal**
+## pgagroal
 
 pgagroalis a high-performance protocol-native connection pool for [PostgreSQL](https://www.postgresql.org/).
 
@@ -181,60 +185,52 @@ pgagroalis a high-performance protocol-native connection pool for [PostgreSQL](h
 - User vault
 <https://github.com/agroal/pgagroal>
 
-## PgBouncer -** PgBouncer is a lightweight connection pooler for PostgreSQL
+## PgBouncer
+
+PgBouncer is a lightweight connection pooler for PostgreSQL
 
 <https://github.com/pgbouncer/pgbouncer/blob/master/etc/pgbouncer.ini>
 
-## DATABASES_HOST**:**"zpg-postgresql-headless.zenalytix"**
-
-## DATABASES_PORT**:**"5432"
-
-## DATABASES_USER**:**"postgres"
-
-## DATABASES_PASSWORD**:**"xitanez123"
-
-## DATABASES_DBNAME**:**"zenalytix_db_new"
-
-## PGBOUNCER_LISTEN_PORT**:**"5432"
-
-## PGBOUNCER_MAX_CLIENT_CONN**:**"10000"
-
-## PGBOUNCER_DEFAULT_POOL_SIZE**:**"100"
-
-## PGBOUNCER_MAX_DB_CONNECTIONS**:**"100"
-
-## PGBOUNCER_MAX_USER_CONNECTIONS**:**"100"
-
-## PGBOUNCER_MIN_POOL_SIZE**:**"10"
-
-## PGBOUNCER_SERVER_IDLE_TIMEOUT**:**"600"
-
-## PGBOUNCER_CLIENT_IDLE_TIMEOUT**:**"600"
+```python
+DATABASES_HOST:"zpg-postgresql-headless.zenalytix"
+DATABASES_PORT:"5432"
+DATABASES_USER:"postgres"
+DATABASES_PASSWORD:"xitanez123"
+DATABASES_DBNAME:"zenalytix_db_new"
+PGBOUNCER_LISTEN_PORT:"5432"
+PGBOUNCER_MAX_CLIENT_CONN:"10000"
+PGBOUNCER_DEFAULT_POOL_SIZE:"100"
+PGBOUNCER_MAX_DB_CONNECTIONS:"100"
+PGBOUNCER_MAX_USER_CONNECTIONS:"100"
+PGBOUNCER_MIN_POOL_SIZE:"10"
+PGBOUNCER_SERVER_IDLE_TIMEOUT:"600"
+PGBOUNCER_CLIENT_IDLE_TIMEOUT:"600"
+```
 
 ## Odyssey
 
 Advanced multi-threaded PostgreSQL connection pooler and request router.
 <https://github.com/yandex/odyssey>
 
-## Postgres on Kubernetes**
+## Postgres on Kubernetes
 
 <https://github.com/zalando/patroni>
 
-## Streaming replication asynchronous and synchronous**
+## Streaming replication asynchronous and synchronous
 
 <https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql>
 
-## pg_trgm**
+## pg_trgm
 
 Trigram (Trigraph) concepts
 
 A trigram is a group of three consecutive characters taken from a string. We can measure the similarity of two strings by counting the number of trigrams they share. This simple idea turns out to be very effective for measuring the similarity of words in many natural languages.
 
-## Note:pg_trgmignores non-word characters (non-alphanumerics) when extracting trigrams from a string. Each word is considered to have two spaces prefixed and one space suffixed when determining the set of trigrams contained in the string. For example, the set of trigrams in the string"cat"is"c","ca","cat", and"at". The set of trigrams in the string"foo|bar"is"f","fo","foo","oo","b","ba","bar", and"ar"
+Note: pg_trgm ignores non-word characters (non-alphanumerics) when extracting trigrams from a string. Each word is considered to have two spaces prefixed and one space suffixed when determining the set of trigrams contained in the string. For example, the set of trigrams in the string "cat" is "c", "ca" , "cat", and "at". The set of trigrams in the string "foo|bar" is "f", "fo", "foo", "oo", "b", "ba", "bar", and "ar"
 
 <https://www.postgresql.org/docs/9.6/pgtrgm.html>
 
-## Postgres database tunable parameters to optimize performance (configurations)**
+## Postgres database tunable parameters to optimize performance (configurations)
 
 1. shared_buffer
 
@@ -264,26 +260,29 @@ This is used to enforce that commit will wait for WAL to be written on disk befo
 
 PostgreSQL writes changes into WAL. The checkpoint process flushes the data into the data files. This activity is done when CHECKPOINT occurs. This is an expensive operation and can cause a huge amount of IO. This whole process involves expensive disk read/write operations. Users can always issue CHECKPOINT whenever it seems necessary or automate the system by PostgreSQL's parameterscheckpoint_timeoutandcheckpoint_completion_target.
 The checkpoint_timeout parameter is used to set time between WAL checkpoints. Setting this too low decreases crash recovery time, as more data is written to disk, but it hurts performance too since every checkpoint ends up consuming valuable system resources. The checkpoint_completion_target is the fraction of time between checkpoints for checkpoint completion. A high frequency of checkpoints can impact performance. For smooth checkpointing, checkpoint_timeoutmust be a low value. Otherwise the OS will accumulate all the dirty pages until the ratio is met and then go for a big flush.
+
 <https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance>
 
 <https://postgresqlco.nf/en/doc/param>
 
-## Caching**
+## Caching
 
 <https://madusudanan.com/blog/understanding-postgres-caching-in-depth>
 
-## Database Physical Storage**
+## Database Physical Storage
 
 <https://www.postgresql.org/docs/current/storage.html>
 
-## Others**
+## Others
 
 ## pgbackrest
 
 pgBackRest is a reliable and simple to configure backup and restore solution for PostgreSQL, which provides a powerful solution for any PostgreSQL database; be it a small project, or scaled up to enterprise-level use cases.
 Many powerful features are included in pgBackRest, including parallel backup and restore, local or remote operation, full, incremental, and differential backup types, backup rotation, archive expiration, backup integrity, page checksums, backup resume, streaming compression and checksums, delta restore, and much more.
+
 <https://info.crunchydata.com/blog/how-to-get-started-with-pgbackrest-and-postgresql-12>
-[**https://www.kubegres.io/**](https://www.kubegres.io/)
+
+[https://www.kubegres.io/](https://www.kubegres.io/)
 
 ## Advanced
 
@@ -297,9 +296,9 @@ Youtube - [Breaking PostgreSQL at Scale --- Christophe Pettus](https://www.youtu
 
 <https://tightlycoupled.io/my-goto-postgres-configuration-for-web-services>
 
-## Tools**
+## Tools
 
-## pgadmin
+- pgadmin
 
 ## References
 

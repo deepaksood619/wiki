@@ -27,7 +27,7 @@ T = Number of internal nodes with two children
 - A**degenerate**(or **pathological**) tree is where each parent node has only one associated child node.This means that the tree will behave like a [linked list](https://en.wikipedia.org/wiki/Linked_list) data structure.
 <https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees>
 
-## Binary Tree**
+## Binary Tree
 
 Empty or node with links to left and right binary trees.
 

@@ -53,7 +53,7 @@ The default InnoDB indexes are B+Tree data structures. MySQL also supports spati
 Most MySQL indexes (PRIMARY KEY,UNIQUE,INDEX, andFULLTEXT) are stored in [B-trees](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_b_tree). Exceptions: Indexes on spatial data types use R-trees;MEMORYtables also support [hash indexes](https://dev.mysql.com/doc/refman/8.0/en/glossary.html#glos_hash_index);InnoDBuses inverted lists forFULLTEXTindexes.
 <https://dev.mysql.com/doc/refman/8.0/en/mysql-indexes.html>
 
-## Isolation Levels**
+## Isolation Levels
 
 [Read Uncommitted](https://dbdb.io/browse?isolation-levels=read-uncommitted)[Read Committed](https://dbdb.io/browse?isolation-levels=read-committed)[Serializable](https://dbdb.io/browse?isolation-levels=serializable)[Repeatable Read](https://dbdb.io/browse?isolation-levels=repeatable-read)
 MySQL/InnoDB supports all four of the isolation levels defined by the ANSI/ISO SQL standard - read uncommitted, read committed, repeatable read, and serializable. The default isolation level for InnoDB is repeatable read isolation.
@@ -117,7 +117,7 @@ The third and final layer is responsible for storing and retrieving all of the d
 MySQL supports views, including updatable and insertable views. It does not natively support materialized views
 <https://dbdb.io/db/mysql>
 
-## Architecture**
+## Architecture
 
 MySQLs design supports a wide range of underlying storage engines, here's a simple picture to illustrate that.
 
@@ -136,6 +136,6 @@ Clients connect to MySQL and issues queries (which may or may not already be cac
 - log_error
 <https://www.mysqltutorial.org/advanced-mysql>
 
-## InnoDB internals**
+## InnoDB internals
 
 ![image](media/MySQL-image2.png)

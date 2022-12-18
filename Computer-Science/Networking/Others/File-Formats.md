@@ -40,7 +40,7 @@ There are three types of sequence files:
 - If you want to store your data in an optimized way which lessens your storage and increases your performance then you can useORCFILEformat.
 <https://acadgild.com/blog/apache-hive-file-formats>
 
-## Amazon Ion**
+## Amazon Ion
 
 Amazon Ionis a [richly-typed](http://amzn.github.io/ion-docs/guides/why.html#rich-type-system), [self-describing](http://amzn.github.io/ion-docs/guides/why.html#self-describing), hierarchical data serialization format offering [interchangeable binary and text](http://amzn.github.io/ion-docs/guides/why.html#dual-format-interoperability) representations. The [text format](http://amzn.github.io/ion-docs/docs/spec.html)(a superset of [JSON](http://json.org/)) is easy to read and author, supporting rapid prototyping. The [binary representation](http://amzn.github.io/ion-docs/docs/binary.html) is [efficient to store, transmit, and skip-scan parse](http://amzn.github.io/ion-docs/guides/why.html#read-optimized-binary-format). The rich type system provides unambiguous semantics for long-term preservation of data which can survive multiple generations of software evolution.
 Ion was built to address rapid development, decoupling, and efficiency challenges faced every day while engineering large-scale, service-oriented architectures. It has been addressing these challenges within Amazon for nearly a decade, and we believe others will benefit as well.
@@ -255,7 +255,7 @@ Daily hits: 50000*52 = 2600000 messages / day = 2.6 Million msgs/day
 
 ## h5 File / h5py
 
-## Hierarchical Data Format**(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data. Originally developed at the [National Center for Supercomputing Applications](https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications), it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF
+## Hierarchical Data Format(**HDF**) is a set of file formats (**HDF4**,**HDF5) designed to store and organize large amounts of data. Originally developed at the [National Center for Supercomputing Applications](https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications), it is supported by The HDF Group, a non-profit corporation whose mission is to ensure continued development of HDF5 technologies and the continued accessibility of data stored in HDF
 
 Filename extensions - .hdf,.h4,.hdf4,.he2,.h5,.hdf5,.he5
 HETEROGENEOUS DATA

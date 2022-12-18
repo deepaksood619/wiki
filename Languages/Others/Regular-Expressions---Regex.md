@@ -93,7 +93,7 @@ b = word boundary
 
 Most metacharacters won't work inside a character class. The only one that works are backslash ( \ ), the closing square bracket ( ] ) and the caret ( ^ ).
 
-### Negated character classes ( [^ )
+### Negated character classes ( `[^`)
 
 Define character classes that match anything but what's in them. Reverse.
 
@@ -161,9 +161,9 @@ There are two ways to solve the greediness problem -
 
 So how do you turn a greedy quantifier into a lazy one? It's simple! You just need to add a question mark at the end of it. This works for all three quantifier metacharacters that we've seen so far too!
 
-Ex - ?? Is the lazy version of the ? quantifier metacharacter. It'll try to match an atom 0 times instead of once if it can. Meanwhile,*?and+?are the lazy versions of the*and+quantifier metacharacters respectively. They'll both try to match an atom as little as possible instead of as long as possible.
+Ex - ?? Is the lazy version of the ? quantifier metacharacter. It'll try to match an atom 0 times instead of once if it can. Meanwhile, `*?` and `+?` are the lazy versions of the `*` and `+` quantifier metacharacters respectively. They'll both try to match an atom as little as possible instead of as long as possible.
 
-Ex - `/<.*?>/` this will solve the html tag problem
+Ex - **`/<.*?>/`** this will solve the html tag problem
 
 ### Use negated character classes
 

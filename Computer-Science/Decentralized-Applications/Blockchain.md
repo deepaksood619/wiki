@@ -87,7 +87,7 @@ Hyperledger is an open source community focused on developing a suite of stable 
 It serves as a neutral home for various distributed ledger frameworks including Hyperledger Fabric, Sawtooth, Indy, as well as tools like Hyperledger Caliper and libraries like Hyperledger Ursa.
 <https://www.hyperledger.org>
 
-## Hyperledger Fabric**
+## Hyperledger Fabric
 
 ## Type: Distributed ledger software
 

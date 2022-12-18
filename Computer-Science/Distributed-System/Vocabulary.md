@@ -36,18 +36,18 @@ Conflict resolution mechanisms for distributed systems:
 - **Synchronous replication** is commiting change on a replica at same time as committing on the primary (e.g. MySQL's [semisynchronous replication](https://dev.mysql.com/doc/refman/5.5/en/replication-semisync.html). Typically very, very slow
 <https://lethain.com/distributed-systems-vocabulary>
 
-## State Machine Replication**
+## State Machine Replication
 
 In [computer science](https://en.wikipedia.org/wiki/Computer_science), **state machine replication**or**state machine approach**is a general method for implementing a fault-tolerant service by replicating servers and coordinating client interactions with server replicas. The approach also provides a framework for understanding and designing replication management protocols.
 <https://en.wikipedia.org/wiki/State_machine_replication>
 
-## Highy Available and Fault Tolerant**
+## Highy Available and Fault Tolerant
 
 ![image](media/Vocabulary-image1.jpg)
 
 <https://medium.com/baseds/ready-and-available-distributed-systems-161023aca378>
 
-## Fault**
+## Fault
 
 Afaultis really just anything in our system that is different from what we expect it to be. Whenever some piece of our system deviates from its expected behavior, or whenever something unexpectedly occurs in our system, that behavior itself is a fault!
 

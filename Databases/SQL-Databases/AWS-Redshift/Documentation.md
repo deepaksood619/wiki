@@ -25,7 +25,7 @@ If no compression is specified in a CREATE TABLE or ALTER TABLE statement, Amazo
 - Columns that are defined as CHAR or VARCHAR data types are assigned LZO compression.
 <https://docs.aws.amazon.com/redshift/latest/dg/c_Compression_encodings.html>
 
-## Concepts**
+## Concepts
 
 1. **Blocks**
     - **Column data is persisted to 1 MB immutable blocks**
@@ -94,7 +94,7 @@ Interleaved sort gives equal weight to each column in the Redshift sort keys. As
 - Don't use aninterleaved sort keyon columns with monotonically increasing attributes, like an identity column, dates or timestamps.
 <https://hevodata.com/blog/redshift-sort-keys-choosing-best-sort-style>
 
-## Data sorting**
+## Data sorting
 
 - Goal: make queries run faster by increasing the effectiveness of zone maps and reducing I/O
 - Impact: enables range-restricted scans to prune blocks by leveraging zone maps
@@ -154,7 +154,7 @@ Choose columns used in the query that leads to least skewness as the DISTKEY. Th
 - If one particular node contains the skew data, the processing on this node will be slower. This results in much longer total query processing time. This query under skewed configuration may take even longer than the query made against the table without a DISTKEY
 <https://hevodata.com/blog/redshift-distribution-keys>
 
-## Data Distribution**
+## Data Distribution
 
 Distribution style is a table property which dictates how that table's data is distributed throughout the cluster
 

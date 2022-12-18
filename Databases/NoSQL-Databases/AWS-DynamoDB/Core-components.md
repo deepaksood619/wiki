@@ -51,7 +51,7 @@ An index that has the same partition key as the table, but a different sort key.
 Each table in DynamoDB has a limit of 20 global secondary indexes (default limit) and 5 local secondary indexes per table.
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html>
 
-## DynamoDB Streams**
+## DynamoDB Streams
 
 DynamoDB Streams is an optional feature that captures data modification events in DynamoDB tables. The data about these events appear in the stream in near-real time, and in the order that the events occurred.
 Each event is represented by astream record. If you enable a stream on a table, DynamoDB Streams writes a stream record whenever one of the following events occurs:
@@ -64,7 +64,7 @@ You can use DynamoDB Streams together with AWS Lambda to create atrigger---code 
 <https://aws.amazon.com/blogs/database/dynamodb-streams-use-cases-and-design-patterns>
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html>
 
-## Global Secondary Indexes Usage patterns**
+## Global Secondary Indexes Usage patterns
 
 - Querying and sorting data by multiple attributes
 - Data filtering

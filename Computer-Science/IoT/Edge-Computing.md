@@ -42,6 +42,6 @@ Edge devices based on EVE gain the following capabilities:
 - Built-in cloud networking using standard VPN technologies available in public clouds
 <https://www.lfedge.org/projects/eve>
 
-## Others**
+## Others
 
 <https://www.lfedge.org/projects/akraino>

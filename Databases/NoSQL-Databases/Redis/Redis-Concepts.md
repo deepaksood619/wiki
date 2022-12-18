@@ -75,7 +75,7 @@ This means that at any given moment the maximum amount of keys already expired t
 <https://redis.io/commands/expire#how-redis-expires-keys>
 <https://redis.io/topics/data-types-intro>
 
-## Scan**
+## Scan
 
 ## Time complexity:O(1) for every call. O(N) for a complete iteration, including enough command calls for the cursor to return back to 0. N is the number of elements inside the collection
 
@@ -95,7 +95,7 @@ Starting an iteration with a cursor value of 0, and calling [SCAN](https://redis
 > redis-cli -a a6ad92769ef04b711eea18dccfff85ea --no-auth-warning --scan | while read LINE ; do TTL=`redis-cli --no-auth-warning -a a6ad92769ef04b711eea18dccfff85ea ttl "$LINE"`; if [ $TTL -eq -1 ]; then echo "$LINE"; fi; done;
 <https://redis.io/commands/scan>
 
-## Persistence**
+## Persistence
 
 - The RDB persistence performs point-in-time snapshots of your dataset at specified intervals.
 - The AOF persistence logs every write operation received by the server, that will be played again at server startup, reconstructing the original dataset. Commands are logged using the same format as the Redis protocol itself, in an append-only fashion. Redis is able to rewrite the log in the background when it gets too big.
@@ -124,7 +124,7 @@ BGREWRITEAOF
 
 <https://redislabs.com/ebook/part-2-core-concepts/chapter-4-keeping-data-safe-and-ensuring-performance/4-1-persistence-options>
 
-## Redis Keyspace Notifications**
+## Redis Keyspace Notifications
 
 Keyspace notifications allow clients to subscribe to Pub/Sub channels in order to receive events affecting the Redis data set in some way.
 Examples of events that can be received are:

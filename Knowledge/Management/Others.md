@@ -6,9 +6,9 @@ Modified: 2021-05-31 01:20:17 +0500
 
 ---
 
-# SWOT Analysis -
+## SWOT Analysis
 
-## SWOT analysis**(or**SWOT matrix) is a strategic planning technique used to help a person or organization identify the *Strengths*,*Weaknesses*,*Opportunities*, and *Threats*related to [business](https://en.wikipedia.org/wiki/Business) competition or project planning.[^[1]^](https://en.wikipedia.org/wiki/SWOT_analysis#cite_note-1) It is intended to specify the objectives of the business venture or project and identify the internal and external factors that are favorable and unfavorable to achieving those objectives. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage
+SWOT analysis (or**SWOT matrix) is a strategic planning technique used to help a person or organization identify the *Strengths*,*Weaknesses*,*Opportunities*, and *Threats*related to [business](https://en.wikipedia.org/wiki/Business) competition or project planning. It is intended to specify the objectives of the business venture or project and identify the internal and external factors that are favorable and unfavorable to achieving those objectives. Users of a SWOT analysis often ask and answer questions to generate meaningful information for each category to make the tool useful and identify their competitive advantage
 
 Strengths and Weakness are frequently internally-related, while Opportunities and Threats commonly focus on environmental placement.
 

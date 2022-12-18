@@ -10,7 +10,7 @@ A QuerySet is, in essence, a list of objects of a given Model. QuerySets allow y
 
 ## When QuerySets are Evaluated
 
-Internally, a**QuerySet** can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
+Internally, a **QuerySet** can be constructed, filtered, sliced, and generally passed around without actually hitting the database. No database activity actually occurs until you do something to evaluate the queryset.
 
 1. Iteration
 
@@ -88,19 +88,17 @@ Product.objects.select_related('category').all()
 
 When we are usingmany to many relationshipswe could useprefetch_relatedmethod to booster our queries
 
+```python
 Category.objects.prefetch_related('subcategories')
 
 Category.objects.prefetch_related(
-
-Prefetch(
-
-'subcategories',
-
-queryset=Category.objects.filter(is_active=True),
-
-to_attr='active_subcategories'
-
+    Prefetch(
+        'subcategories',
+        queryset=Category.objects.filter(is_active=True),
+        to_attr='active_subcategories'
+    )
 )
+```
 
 )
 
@@ -241,26 +239,29 @@ An F() object represents the value of a model field or annotated column. It make
 
 This is easiest to understand through an example. Normally, one might do something like this:
 
-*# Tintin filed a news story!*
+```python
+# Tintin filed a news story!
 reporter = Reporters.objects.get(name='Tintin')
 reporter.stories_filed += 1
 reporter.save()
+```
 
 Here, we have pulled the value of**reporter.stories_filed**from the database into memory and manipulated it using familiar Python operators, and then saved the object back to the database. But instead we could also have done:
 
-## from django.db.models import F
-
+```python
+from django.db.models import F
 reporter = Reporters.objects.get(name='Tintin')
 reporter.stories_filed = F('stories_filed') + 1
 reporter.save()
+```
 
 Although**reporter.stories_filed=F('stories_filed')+1**looks like a normal Python assignment of value to an instance attribute, in fact it's an SQL construct describing an operation on the database.
 
 When Django encounters an instance of**F()**, it overrides the standard Python operators to create an encapsulated SQL expression; in this case, one which instructs the database to increment the database field represented by**reporter.stories_filed**.
 
-## F expressions also can be used to compare the value of a model field with another field on the same model. Instances of F() act as a reference to a model field within a query. These references can then be used in query_filters to compare the values of two different fields on the same model instance
+F expressions also can be used to compare the value of a model field with another field on the same model. Instances of F() act as a reference to a model field within a query. These references can then be used in query_filters to compare the values of two different fields on the same model instance
 
-## >>> Entry.objects.filter(rating__lt=F('n_comments') + F('n_pingbacks'))
+`>>> Entry.objects.filter(rating__lt=F('n_comments') + F('n_pingbacks'))`
 
 - Django supports the use of addition, subtraction, multiplication, division, modulo, and power arithmetic with**F()**objects, both with constants and with other**F()**objects.
 - You can also use the double underscore notation to span relationships in an**F()**object. An**F()**object with a double underscore will introduce any joins needed to access the related object.
@@ -268,11 +269,11 @@ When Django encounters an instance of**F()**, it overrides the standard Python o
 
 ## The pk lookup shortcut
 
-## >>> Blog.objects.get(id__exact=14) *# Explicit form*
-
-## >>> Blog.objects.get(id=14) *#__exact is implied*
-
-## >>> Blog.objects.get(pk=14)*# pk implies id__exact*
+```python
+>>> Blog.objects.get(id__exact=14) # Explicit form
+>>> Blog.objects.get(id=14) # __exact is implied
+>>> Blog.objects.get(pk=14) # pk implies id__exact
+```
 
 ## Escaping percent signs and underscores in LIKE statements
 
@@ -280,52 +281,58 @@ The field lookups that equate to **LIKE** SQL statements (**iexact**, **contains
 
 This means things should work intuitively, so the abstraction doesn't leak. For example, to retrieve all the entries that contain a percent sign, just use the percent sign as any other character:
 
-## >>> Entry.objects.filter(headline__contains='%')
+`>>> Entry.objects.filter(headline__contains='%')`
 
 Django takes care of the quoting for you; the resulting SQL will look something like this:
 
-## SELECT**...**WHERE **headline** LIKE '%%%'
+`SELECT ... WHERE headline LIKE '%\%%'`
 
 Same goes for underscores. Both percentage signs and underscores are handled for you transparently.
 
 ## Q Objects
 
-Keyword argument queries -- in [**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with **OR** statements), you can use [**Qobjects**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
+Keyword argument queries -- in [filter()](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), etc. -- are "AND"ed together. If you need to execute more complex queries (for example, queries with OR statements), you can use [Q objects](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q).
 
-## A [Qobject](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments
+A [Q object](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.Q)(django.db.models.Q) is an object used to encapsulate a collection of keyword arguments
 
-## Q**objects can be combined using the**&**and**|**operators. When an operator is used on two**Q**objects, it yields a new**Qobject
+Q objects can be combined using the **&** and **|** operators. When an operator is used on two **Q** objects, it yields a new Q object
 
-For example, this statement yields a single**Q** object that represents the "OR" of two**"question__startswith"**queries:
+For example, this statement yields a single **Q** object that represents the "OR" of two **"question__startswith"** queries:
 
-Q(question__startswith='Who') | Q(question__startswith='What')
+`Q(question__startswith='Who') | Q(question__startswith='What')`
 
 This is equivalent to the following SQL **WHERE** clause:
 
-WHERE question LIKE 'Who%' OR question LIKE 'What%'
+`WHERE question LIKE 'Who%' OR question LIKE 'What%'`
 
-You can compose statements of arbitrary complexity by combining**Q** objects with the**&**and**|**operators and use parenthetical grouping. Also, **Q** objects can be negated using the**~**operator, allowing for combined lookups that combine both a normal query and a negated (**NOT**) query:
+You can compose statements of arbitrary complexity by combining **Q** objects with the **&** and **|** operators and use parenthetical grouping. Also, **Q** objects can be negated using the **~** operator, allowing for combined lookups that combine both a normal query and a negated (**NOT**) query:
 
-Q(question__startswith='Who') | ~Q(pub_date__year=2005)
+`Q(question__startswith='Who') | ~Q(pub_date__year=2005)`
 
-Each lookup function that takes keyword-arguments (e.g.[**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), [**exclude()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.exclude), [**get()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.get)) can also be passed one or more**Q** objects as positional (not-named) arguments. If you provide multiple**Q** object arguments to a lookup function, the arguments will be "AND"ed together. For example:
+Each lookup function that takes keyword-arguments (e.g.[**filter()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.filter), [**exclude()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.exclude), [**get()**](https://docs.djangoproject.com/en/2.0/ref/models/querysets/#django.db.models.query.QuerySet.get)) can also be passed one or more **Q** objects as positional (not-named) arguments. If you provide multiple **Q** object arguments to a lookup function, the arguments will be "AND"ed together. For example:
 
+```python
 Poll.objects.get(
 Q(question__startswith='Who'),
 Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6))
 )
+```
 
 ... roughly translates into the SQL:
 
+```sql
 SELECT * **from polls** WHERE question LIKE 'Who%'
 AND (pub_date = '2005-05-02' OR pub_date = '2005-05-06')
+```
 
-Lookup functions can mix the use of**Q** objects and keyword arguments. All arguments provided to a lookup function (be they keyword arguments or**Q** objects) are "AND"ed together. However, **if aQobject is provided, it must precede the definition of any keyword arguments**. For example:
+Lookup functions can mix the use of **Q** objects and keyword arguments. All arguments provided to a lookup function (be they keyword arguments or **Q** objects) are "AND"ed together. However, **if a Q object is provided, it must precede the definition of any keyword arguments**. For example:
 
+```python
 Poll.objects.get(
-Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6)),
-question__startswith='Who',
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6)),
+    question__startswith='Who',
 )
+```
 
 ## References
 

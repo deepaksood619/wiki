@@ -23,7 +23,7 @@ Hidden Wiki - <http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page>
 
 <https://skerritt.blog/designing-effective-peer-to-peer-networks>
 
-## steganography**
+## steganography
 
 Steganography is the practice of concealing a file, message, image, or video within another file, message, image, or video. The wordsteganographycombines the [Greek](https://en.wikipedia.org/wiki/Greek_language) wordssteganos([στεγανός](https://en.wiktionary.org/wiki/%CF%83%CF%84%CE%B5%CE%B3%CE%B1%CE%BD%CF%8C%CF%82#Greek)), meaning "covered, concealed, or protected", andgraphein([γράφειν](https://en.wiktionary.org/wiki/%CE%B3%CF%81%CE%AC%CF%86%CE%B5%CE%B9%CE%BD#Greek)) meaning "writing".
 <https://en.wikipedia.org/wiki/Steganography>
@@ -32,7 +32,7 @@ Steganography is the practice of concealing a file, message, image, or video wit
 
 <https://29a.ch/photo-forensics>
 
-## stegosploit**
+## stegosploit
 
 Stegosploit creates a new way to encode "drive-by" browser exploits and deliver them through image files. These payloads are undetectable using current means. This paper discusses two broad underlying techniques used for image based exploit delivery - Steganography and Polyglots. Drive-by browser exploits are steganographically encoded into JPG and PNG images. The resultant image file is fused with HTML and Javascript decoder code, turning it into an HTML+Image polyglot. The polyglot looks and feels like an image, but is decoded and triggered in a victim's browser when loaded.
 [https://stegosploit.info](https://stegosploit.info/)
@@ -59,6 +59,6 @@ What if the average developer could benefit from proofs of computational integri
 
 <https://engineering.fb.com/2021/08/04/open-source/winterfell>
 
-## Others**
+## Others
 
 <https://www.freecodecamp.org/news/what-is-devsecops>

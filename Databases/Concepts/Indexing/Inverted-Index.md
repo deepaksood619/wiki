@@ -14,7 +14,7 @@ There are two main variants of inverted indexes: A**record-level inverted index*
 The inverted index [data structure](https://en.wikipedia.org/wiki/Data_structure) is a central component of a typical [search engine indexing algorithm](https://en.wikipedia.org/wiki/Index_(search_engine)). A goal of a search engine implementation is to optimize the speed of the query: find the documents where word X occurs. Once a [forward index](https://en.wikipedia.org/wiki/Search_engine_indexing#The_forward_index) is developed, which stores lists of words per document, it is next inverted to develop an inverted index. Querying the forward index would require sequential iteration through each document and to each word to verify a matching document. The time, memory, and processing resources to perform such a query are not always technically realistic. Instead of listing the words per document in the forward index, the inverted index data structure is developed which lists the documents per word.
 <https://en.wikipedia.org/wiki/Inverted_index>
 
-## Inverted Index in Elasticsearch**
+## Inverted Index in Elasticsearch
 
 Elasticsearch uses a structure calledaninverted index, which is designed to allow very fast full-text searches. An inverted index consists of a list of all the unique words that appear in any document, and for each word, a list of the documents in which it appears.
 For example, let's say we have two documents, each with acontentfield containing the following:

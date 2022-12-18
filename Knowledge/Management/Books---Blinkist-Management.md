@@ -468,7 +468,7 @@ An evolutionary process is an additional argument for SITG. Those who err and ha
 
 ## Examples
 
-[Robert Rubin](https://en.wikipedia.org/wiki/Robert_Rubin), a highly-paid director and senior advisor at [Citigroup](https://en.wikipedia.org/wiki/Citigroup), paid no financial penalty when Citigroup had to be rescued by U.S. taxpayers due to [overreach](https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008).[[7]](https://en.wikipedia.org/wiki/Skin_in_the_Game_(book)#cite_note-ft-7) Taleb calls this sort of a trade, with upside gain but no or limited downside risk, a "Bob Rubin trade."
+[Robert Rubin](https://en.wikipedia.org/wiki/Robert_Rubin), a highly-paid director and senior advisor at [Citigroup](https://en.wikipedia.org/wiki/Citigroup), paid no financial penalty when Citigroup had to be rescued by U.S. taxpayers due to overreach. Taleb calls this sort of a trade, with upside gain but no or limited downside risk, a "Bob Rubin trade."
 
 Many [war hawks](https://en.wikipedia.org/wiki/War_hawk) don't themselves bear any risks of dying in a war they advocate.
 

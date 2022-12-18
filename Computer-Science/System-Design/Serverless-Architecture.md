@@ -44,7 +44,7 @@ The AWS Serverless Application Model (SAM) is an open-source AWS framework that 
 
 <https://www.toptal.com/aws/typescript-jest-aws-sam-tutorial>
 
-## References**
+## References
 
 <https://cloudplatform.googleblog.com/2018/04/Cloud-native-architecture-with-serverless-microservices-the-Smart-Parking-story.html>
 

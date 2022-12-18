@@ -246,7 +246,7 @@ Getting fancy with Excel slicers
 This is how the report can be used in practice by high-level executives
 <https://365datascience.teachable.com/courses/enrolled/526364>
 
-## Advanced Microsoft Excel**
+## Advanced Microsoft Excel
 
 ## Proficient Excel formatting
 

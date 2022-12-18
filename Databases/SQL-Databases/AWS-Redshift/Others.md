@@ -27,11 +27,11 @@ Amazon Redshift spatial provides location-based analytics for rich insights into
 
 <https://docs.aws.amazon.com/redshift/latest/dg/r_VACUUM_command.html>
 
-## Auto WLM with queue priority**
+## Auto WLM with queue priority
 
 <https://docs.aws.amazon.com/redshift/latest/dg/automatic-wlm.html>
 
-## Others**
+## Others
 
 STL Load Errors - <https://docs.aws.amazon.com/redshift/latest/dg/r_STL_LOAD_ERRORS.html>
 

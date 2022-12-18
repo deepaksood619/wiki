@@ -71,7 +71,7 @@ Introduced the concept of HTTP "streams": an abstraction that allows HTTP implem
 - HTTP/2 Server Push
 <https://medium.com/platform-engineer/web-api-design-35df8167460>
 
-## HTTPS**
+## HTTPS
 
 Privacy, Integrity and Identification
 

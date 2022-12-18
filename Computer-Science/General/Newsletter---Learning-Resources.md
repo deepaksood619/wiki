@@ -24,7 +24,7 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 
 5.<https://www.youtube.com/watch?v=W2Z7fbCLSTw&ab_channel=Fireship>
 
-## Advanced**
+## Advanced
 
 1.<https://www.geeksforgeeks.org/indexing-in-databases-set-1>
 
@@ -44,7 +44,7 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 
 3. Awesome Repositories -<https://github.com/ossu/computer-science>
 
-## Youtube channelsworth subscribing**
+## Youtube channelsworth subscribing
 
 1. GotoConf -<https://www.youtube.com/user/GotoConferences>
 
@@ -112,13 +112,13 @@ Medium Daily Digest
 
 <https://github.com/sdmg15/Best-websites-a-programmer-should-visit>
 
-## Blogs**
+## Blogs
 
 <https://about.gitlab.com/2019/08/27/tyranny-of-the-clock>
 
 <https://fremtidensuddannelser.dk/en>
 
-## Repositories**
+## Repositories
 
 <https://gitstar-ranking.com/repositories>
 

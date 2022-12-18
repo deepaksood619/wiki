@@ -13,6 +13,7 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
 ## HTML Tags Ordered by Category
+
 `# =` New in HTML5
 
 `## no-user-select - no option to select text`

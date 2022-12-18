@@ -167,7 +167,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 <https://druid.apache.org/docs/latest/ingestion/data-management.html>
 <https://imply.io/druid-university/intro-to-druid-university>
 
-## Imply Druid**
+## Imply Druid
 
 - tiered data
 - data volumes-   Plywood

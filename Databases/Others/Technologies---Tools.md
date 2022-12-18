@@ -26,7 +26,7 @@ By encapsulating shard-routing logic, Vitess allows application code and databas
 <https://www.mysql.com/products/workbench>
 <https://dev.to/realtrevorfaux/8-new-sql-tools-that-will-change-how-you-work-in-2020-n63>
 
-## Settings**
+## Settings
 
 - Preferences > SQL Editor > DBMS connection read timeout interval (in seconds) > 3000
 
@@ -54,7 +54,7 @@ find all objects that names start with test
 
 <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html>
 
-## DBeaver**
+## DBeaver
 
 ## Universal Database Tool
 
@@ -76,7 +76,7 @@ Having usability as its main goal, DBeaver offers:
 
 <https://github.com/dbeaver/dbeaver>
 
-## Shortcuts**
+## Shortcuts
 
 - Ctrl + ] - New sql script
 
@@ -89,7 +89,7 @@ Analytics, Data Lakes and Data Warehouses Unified in the Cloud
 Datastage is an ETL tool which extracts data, transform and load data from source to the target. The data sources might include sequential files, indexed files, relational databases, external data sources, archives, enterprise applications, etc. DataStage facilitates business analysis by providing quality data to help in gaining business intelligence.
 <https://www.guru99.com/datastage-tutorial.html>
 
-## Liquibase**
+## Liquibase
 
 Liquibase helps millions of teams track, version, and deploy database schema changes.
 Liquibase Hub - Visualize all changes-   Changelogs
@@ -111,7 +111,7 @@ Track which changes have or have not been deployed
 liquibase update
 <https://www.liquibase.org>
 
-## Fixing Forward**
+## Fixing Forward
 
 Since rolling back database changes is complicated, time-consuming, and error-prone, the fixing forward approach is very quickly getting very popular.
 

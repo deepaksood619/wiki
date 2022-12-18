@@ -48,6 +48,6 @@ Automatic repeat request(ARQ), also known asautomatic repeat query, is an [error
 The types of ARQ protocols include**[Stop-and-wait ARQ](https://en.wikipedia.org/wiki/Stop-and-wait_ARQ), [Go-Back-N ARQ](https://en.wikipedia.org/wiki/Go-Back-N_ARQ), and [Selective Repeat ARQ/Selective Reject ARQ](https://en.wikipedia.org/wiki/Selective_Repeat_ARQ).** All three protocols usually use some form of [sliding window protocol](https://en.wikipedia.org/wiki/Sliding_window_protocol) to tell the transmitter to determine which (if any) packets need to be retransmitted. These protocols reside in the [data link](https://en.wikipedia.org/wiki/Data_link_layer) or [transport layers](https://en.wikipedia.org/wiki/Transport_layer)(layers 2 and 4) of the [OSI model](https://en.wikipedia.org/wiki/OSI_model).
 <https://en.wikipedia.org/wiki/Automatic_repeat_request>
 
-## References**
+## References
 
 <https://www.geeksforgeeks.org/computer-network-difference-unicast-broadcast-multicast>

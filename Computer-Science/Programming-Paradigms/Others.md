@@ -13,13 +13,13 @@ Although BDD is principally an idea about how software development should be man
 BDD is largely facilitated through the use of a simple [domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language)(DSL) using natural-language constructs (e.g., English-like sentences) that can express the behaviour and the expected outcomes. Test scripts have long been a popular application of DSLs with varying degrees of sophistication. BDD is considered an effective technical practice especially when the "problem space" of the business problem to solve is complex.
 <https://en.wikipedia.org/wiki/Behavior-driven_development>
 
-## Frameworks**
+## Frameworks
 
 - Radish
 
 <http://radish-bdd.io>
 
-## REPL Driven Development**
+## REPL Driven Development
 
 The [REPL](https://clojure.org/guides/repl/introduction) puts developers in charge of development. Instead of "compile time", "test time", and "production time", you have dynamic, interactive environments to use as you please. You can move seamlessly back and forth between exploration, development, testing, and release, gaining instant feedback at every step and maintaining rich context and history as you go.
 Some of the implications of this are obvious, while others are less so. This talk will move quickly from the basics of REPL development into more interesting territory, including:

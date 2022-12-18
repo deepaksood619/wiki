@@ -27,7 +27,7 @@ Binary format for network transmission
 
 <https://developers.google.com/protocol-buffers>
 
-## Advantages over XML**
+## Advantages over XML
 
 1. are simpler
 

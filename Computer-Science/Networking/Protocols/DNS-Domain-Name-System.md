@@ -33,7 +33,7 @@ The root nameserver reads the top-level domain (the end of the request), in this
 The GTLD nameserver will read the next part of your request, reading from right to left (in this case the 'google' of [www.google.com](http://www.google.com)) and will send back a message with the authoritative nameserver to contact. An authoritative nameserver is a nameserver that is responsible for the domain (and is the primary source of information).
 <https://www.freecodecamp.org/news/what-is-dns-anyway>
 
-## Fully Qualified Domain Name**
+## Fully Qualified Domain Name
 
 A**fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*, is a [domain name](https://en.wikipedia.org/wiki/Domain_name) that specifies its exact location in the tree hierarchy of the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a [second-level domain](https://en.wikipedia.org/wiki/Second-level_domain) and a [top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
 
@@ -93,7 +93,7 @@ A**Start of Authority record**(abbreviated as**SOA record**) is a type of [resou
 
 <https://en.wikipedia.org/wiki/SOA_record>
 
-## SRV**
+## SRV
 
 A**Service record**(**SRV record**) is a specification of data in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) defining the location, i.e. the [hostname](https://en.wikipedia.org/wiki/Hostname) and [port number](https://en.wikipedia.org/wiki/Port_number), of servers for specified services. It is defined in [RFC 2782](https://tools.ietf.org/html/rfc2782), and its type code is 33. Some Internet protocols such as the [Session Initiation Protocol](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)(SIP) and the [Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol)(XMPP) often require SRV support by network elements.
 | **Commonly used record types** | **Description**             | **Examples**                        |
@@ -142,7 +142,7 @@ While the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)
 
 In [computer networking](https://en.wikipedia.org/wiki/Computer_networking), themulticast DNS(mDNS) protocol resolves [hostnames](https://en.wikipedia.org/wiki/Hostname) to IP addresses within small networks that do not include a local [name server](https://en.wikipedia.org/wiki/Name_server). It is a [zero-configuration](https://en.wikipedia.org/wiki/Zero_configuration_networking) service, using essentially the same programming interfaces, packet formats and operating semantics as the unicast [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). Although [Stuart Cheshire](https://en.wikipedia.org/wiki/Stuart_Cheshire) designed mDNS as a stand-alone protocol, it can work in concert with standard DNS servers.
 The mDNS protocol is published as [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) [6762](https://tools.ietf.org/html/rfc6762), uses IP multicast [User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)(UDP) packets, and is implemented by the Apple [Bonjour](https://en.wikipedia.org/wiki/Bonjour_(software)) and open source [Avahi](https://en.wikipedia.org/wiki/Avahi_(software)) software packages.[Android](https://en.wikipedia.org/wiki/Android_(operating_system)) contains an mDNS implementation.mDNS has also been implemented in [Windows 10](https://en.wikipedia.org/wiki/Windows_10), initially limited to discovering networked printers, later becoming capable of resolving hostnames as well.
-mDNS can work in conjunction with [DNS Service Discovery](https://en.wikipedia.org/wiki/DNS_Service_Discovery)(DNS-SD), a companion zero-configuration technique specified separately in [RFC 6763](https://tools.ietf.org/html/rfc6763).[[4]](https://en.wikipedia.org/wiki/Multicast_DNS#cite_note-rfc6763-4)
+mDNS can work in conjunction with [DNS Service Discovery](https://en.wikipedia.org/wiki/DNS_Service_Discovery)(DNS-SD), a companion zero-configuration technique specified separately in [RFC 6763](https://tools.ietf.org/html/rfc6763).
 <https://en.wikipedia.org/wiki/Multicast_DNS>
 
 ## What is DNS encryption?**
@@ -166,7 +166,7 @@ SNI is an extension to TLS that provides support for multiple hostnames on a sin
 The TLS extension SNI works by requiring the client to transmit the hostname of the service it wishes to securely communicate with before the encryption is established. An updated version of SNI called ESNI allows this hostname to be encrypted, which protects privacy and helps to avoid censorship.
 <https://www.toptal.com/web/encrypted-safe-with-esni-doh-dot>
 
-## Global Traffic Management**
+## Global Traffic Management
 
 - **Geoproximity**
 - **Route53**

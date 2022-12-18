@@ -35,7 +35,7 @@ Managing Energy Consumption as an Architectural Quality Attribute -- Computing E
 
 <https://dzone.com/articles/iot-live-demo-100000-connected-cars-with-kubernete>
 
-## Others**
+## Others
 
 <https://github.com/home-assistant/core>
 

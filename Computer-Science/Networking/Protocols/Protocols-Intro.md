@@ -13,7 +13,7 @@ Addressing hardware by the MAC address allows you to reference a device by a uni
 Media access control is one of the only protocols from the link layer that you are likely to interact with on a regular basis.
 <https://en.wikipedia.org/wiki/MAC_address>
 
-## IP**
+## IP
 
 The IP protocol is one of the fundamental protocols that allow the internet to work. IP addresses are unique on each network and they allow machines to address each other across a network. It is implemented on the internet layer in the IP/TCP model.
 Networks can be linked together, but traffic must be routed when crossing network boundaries. This protocol assumes an unreliable network and multiple paths to the same destination that it can dynamically change between.
@@ -61,12 +61,12 @@ SSRC (Synchronization Source) values are randomly assigned in order to keep trac
 CSRC (Contributing Source) values make up the full array of up to 15 contributing sources for a given packet payload within an RTP session. For example, if multiple audio sources are mixing together on a conference call, CSRC can help differentiate between those sources.
 <https://www.extrahop.com/resources/protocols/rtp>
 
-## OCSP Stapling**
+## OCSP Stapling
 
 The**Online Certificate Status Protocol (OCSP) stapling**, formally known as the**TLS Certificate Status Request**extension, is a standard for checking the revocation status of [X.509](https://en.wikipedia.org/wiki/X.509)[digital certificates](https://en.wikipedia.org/wiki/Digital_certificate).It allows the presenter of a certificate to bear the resource cost involved in providing [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)(OCSP) responses by appending ("stapling") a [time-stamped](https://en.wikipedia.org/wiki/Timestamp) OCSP response [signed](https://en.wikipedia.org/wiki/Cryptographic_signature) by the CA to the initial [TLS handshake](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_handshake), eliminating the need for clients to contact the CA, with the aim of improving both security and performance.
 <https://en.wikipedia.org/wiki/OCSP_stapling>
 
-## ACME Protocol**
+## ACME Protocol
 
 The**Automatic Certificate Management Environment(ACME)** protocol is a [communications protocol](https://en.wikipedia.org/wiki/Communications_protocol) for automating interactions between [certificate authorities](https://en.wikipedia.org/wiki/Certificate_authority) and their users' web servers, allowing the automated deployment of [public key infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure) at very low cost.It was designed by the [Internet Security Research Group](https://en.wikipedia.org/wiki/Internet_Security_Research_Group)(ISRG) for their [Let's Encrypt](https://en.wikipedia.org/wiki/Let%27s_Encrypt) service.
 The protocol, based on passing [JSON](https://en.wikipedia.org/wiki/JSON)-formatted messages over [HTTPS](https://en.wikipedia.org/wiki/HTTPS), has been published as an [Internet Standard](https://en.wikipedia.org/wiki/Internet_Standard) in [RFC 8555](https://tools.ietf.org/html/rfc8555) by its own chartered [IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) working group.

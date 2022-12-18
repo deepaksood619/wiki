@@ -36,7 +36,7 @@ Kubernetes is an ideal platform for running contemporary workloads designed as c
 
 <https://thenewstack.io/primer-distributed-systems-and-cloud-native-computing>
 
-## Self service Edge Stack**
+## Self service Edge Stack
 
 <table>
 <colgroup>

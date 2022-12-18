@@ -75,7 +75,7 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 <td>XOR/table</td>
 </tr>
 <tr>
-<td>Paul Hsieh's SuperFastHash<a href="https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-1">[1]</a></td>
+<td>Paul Hsieh's SuperFastHash</a></td>
 <td>32 bits</td>
 <td></td>
 </tr>
@@ -148,14 +148,14 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 <td>product/rotation</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/w/index.php?title=T1ha_(Fast_Positive_Hash)&amp;action=edit&amp;redlink=1">t1ha (Fast Positive Hash)</a><a href="https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-t1ha_github-9">[9]</a></td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=T1ha_(Fast_Positive_Hash)&amp;action=edit&amp;redlink=1">t1ha (Fast Positive Hash)</a></td>
 <td>64 and 128 bits</td>
 <td>product/rotation/XOR/add</td>
 </tr>
 </tbody>
 </table>
 
-## Keyed cryptographic hash functions**
+## Keyed cryptographic hash functions
 
 Main article:[Message authentication code](https://en.wikipedia.org/wiki/Message_authentication_code)
 
@@ -192,7 +192,7 @@ See also:[Comparison of cryptographic hash functions](https://en.wikipedia.org/w
 | [HAS-160](https://en.wikipedia.org/wiki/HAS-160)                                   | 160 bits        | hash                                                                                                                                     |
 | [HAVAL](https://en.wikipedia.org/wiki/HAVAL)                                       | 128 to 256 bits | hash                                                                                                                                     |
 | [JH](https://en.wikipedia.org/wiki/JH_(hash_function))                             | 224 to 512 bits | hash                                                                                                                                     |
-| LSH [[12]](https://en.wikipedia.org/wiki/List_of_hash_functions#cite_note-lsw-12) | 256 to 512 bits | wide-pipe [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                         |
+| LSH | 256 to 512 bits | wide-pipe [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                         |
 | [MD2](https://en.wikipedia.org/wiki/MD2_(cryptography))                            | 128 bits        | hash                                                                                                                                     |
 | [MD4](https://en.wikipedia.org/wiki/MD4)                                           | 128 bits        | hash                                                                                                                                     |
 | [MD5](https://en.wikipedia.org/wiki/MD5)                                           | 128 bits        | [Merkle--Damgård construction](https://en.wikipedia.org/wiki/Merkle%E2%80%93Damg%C3%A5rd_construction)                                   |
