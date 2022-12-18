@@ -82,22 +82,22 @@ Two members of a criminal gang are arrested and imprisoned. Each prisoner is in 
 <th><p><strong>Prisoner B</strong></p>
 <p><strong>Prisoner A</strong></p></th>
 <th><p><strong>Prisoner B stays silent</strong></p>
-<p><strong>(<em>cooperates</em>)</strong></p></th>
+<p><strong>(cooperates)</strong></p></th>
 <th><p><strong>Prisoner B betrays</strong></p>
-<p><strong>(<em>defects</em>)</strong></p></th>
+<p><strong>(defects)</strong></p></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><p><strong>Prisoner A stays silent</strong></p>
-<p><strong>(<em>cooperates</em>)</strong></p></td>
+<p><strong>(cooperates)</strong></p></td>
 <td>Each serves 1 year</td>
 <td><p>Prisoner A: 3 years</p>
 <p>Prisoner B: goes free</p></td>
 </tr>
 <tr>
 <td><p><strong>Prisoner A betrays</strong></p>
-<p><strong>(<em>defects</em>)</strong></p></td>
+<p><strong>(defects)</strong></p></td>
 <td><p>Prisoner A: goes free</p>
 <p>Prisoner B: 3 years</p></td>
 <td>Each serves 2 years</td>

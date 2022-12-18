@@ -18,16 +18,16 @@ Two-dimensional size-mutable, potentially heterogeneous tabular data structure w
 <thead>
 <tr class="header">
 <th><strong>Parameters:</strong></th>
-<th><p><strong>data</strong><em>: numpy ndarray (structured or homogeneous), dict, or DataFrame</em></p>
+<th><p><strong>data</strong>: numpy ndarray (structured or homogeneous), dict, or DataFrame</p>
 <p>Dict can contain Series, arrays, constants, or list-like objects</p>
-<p><em>Changed in version 0.23.0:</em>If data is a dict, argument order is maintained for Python 3.6 and later.</p>
-<p><strong>index</strong><em>: Index or array-like</em></p>
+<p>Changed in version 0.23.0:If data is a dict, argument order is maintained for Python 3.6 and later.</p>
+<p><strong>index</strong>: Index or array-like</p>
 <p>Index to use for resulting frame. Will default to RangeIndex if no indexing information part of input data and no index provided</p>
-<p><strong>columns</strong><em>: Index or array-like</em></p>
+<p><strong>columns</strong>: Index or array-like</p>
 <p>Column labels to use for resulting frame. Will default to RangeIndex (0, 1, 2, …, n) if no column labels are provided</p>
-<p><strong>dtype</strong><em>: dtype, default None</em></p>
+<p><strong>dtype</strong>: dtype, default None</p>
 <p>Data type to force. Only a single dtype is allowed. If None, infer</p>
-<p><strong>copy</strong><em>: boolean, default False</em></p>
+<p><strong>copy</strong>: boolean, default False</p>
 <p>Copy data from inputs. Only affects DataFrame / 2d ndarray input</p></th>
 </tr>
 </thead>

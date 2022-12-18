@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Time-Complexities",
+      "path": "Algorithms/Algorithmic-Complexity/Time-Complexities.md"
+    },
+    {
+      "basename": "Time-complexities",
+      "path": "Languages/Python/Python/Time-complexities.md"
+    },
+    {
+      "basename": "Human-Psychology-&-Thinking",
+      "path": "Knowledge/Psychology/Human-Psychology-&-Thinking.md"
+    },
+    {
+      "basename": "Psychology",
+      "path": "Knowledge/Psychology/Psychology.md"
+    },
+    {
+      "basename": "Obsidian---Note-Taking---Second-Brain",
+      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+    },
+    {
       "basename": "Static-Code-Analysis",
       "path": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
     },
@@ -87,10 +107,6 @@
     {
       "basename": "D3-(Data-Driven-Documents)",
       "path": "AI/Data-Science/Data-Visualization/D3-(Data-Driven-Documents).md"
-    },
-    {
-      "basename": "Obsidian---Note-Taking---Second-Brain",
-      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
     },
     {
       "basename": "IO",
@@ -183,22 +199,6 @@
     {
       "basename": "Personal-TODO",
       "path": "Office/TODO/Personal-TODO.md"
-    },
-    {
-      "basename": "Goals",
-      "path": "Office/TODO/Goals.md"
-    },
-    {
-      "basename": "Daily-Routine",
-      "path": "Office/TODO/Daily-Routine.md"
-    },
-    {
-      "basename": "Office---TODO",
-      "path": "Office/Stashfin/Office---TODO.md"
-    },
-    {
-      "basename": "LSM-(Log-Structured-Merge-Trees)",
-      "path": "Data-Structures/Others/LSM-(Log-Structured-Merge-Trees).md"
     }
   ],
   "omittedPaths": [],

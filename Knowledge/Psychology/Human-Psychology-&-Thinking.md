@@ -113,3 +113,10 @@ The experiments showed how normal, intelligent people were willing to give an ob
 ## Mindwandering
 
 ![image](media/Human-Psychology-&-Thinking-image1.jpeg)
+
+## Laws of Stupidity
+1.  Always and inevitably everyone underestimates the number of stupid individuals in circulation.
+2.  The probability that a certain person be stupid is independent of any other characteristic of that person.
+3.  A stupid person is a person who causes losses to another person or to a group of persons while himself deriving no gain and even possibly incurring losses.
+4.  Non-stupid people always underestimate the damaging power of stupid individuals.
+5.  A stupid person is the most dangerous type of person.

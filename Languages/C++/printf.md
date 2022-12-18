@@ -20,14 +20,14 @@ Where the *specifier character* at the end is the most significant component, si
 </colgroup>
 <thead>
 <tr class="header">
-<th><em><strong>specifier</strong></em></th>
+<th><strong>specifier</strong></th>
 <th><strong>Output</strong></th>
 <th><strong>Example</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>d<em> or </em>i</td>
+<td>d or i</td>
 <td>Signed decimal integer</td>
 <td>392</td>
 </tr>
@@ -130,21 +130,21 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 </colgroup>
 <thead>
 <tr class="header">
-<th><em><strong>flags</strong></em></th>
+<th><strong>flags</strong></th>
 <th><strong>description</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>-</td>
-<td>Left-justify within the given field width; Right justification is the default (see<em>width</em>sub-specifier).</td>
+<td>Left-justify within the given field width; Right justification is the default (seewidthsub-specifier).</td>
 </tr>
 <tr>
 <td>+</td>
 <td>Forces to preceed the result with a plus or minus sign (+or-) even for positive numbers. By default, only negative numbers are preceded with a-sign.</td>
 </tr>
 <tr>
-<td><em>(space)</em></td>
+<td>(space)</td>
 <td>If no sign is going to be written, a blank space is inserted before the value.</td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 </tr>
 <tr>
 <td>0</td>
-<td>Left-pads the number with zeroes (0) instead of spaces when padding is specified (see<em>width</em>sub-specifier).</td>
+<td>Left-pads the number with zeroes (0) instead of spaces when padding is specified (seewidthsub-specifier).</td>
 </tr>
 </tbody>
 </table>
@@ -171,22 +171,22 @@ The*format specifier*can also contain sub-specifiers:*flags*,*width*,*.precision
 </colgroup>
 <thead>
 <tr class="header">
-<th><em><strong>.precision</strong></em></th>
+<th><strong>.precision</strong></th>
 <th><strong>description</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>.<em>number</em></td>
-<td><p>For integer specifiers (d,i,o,u,x,X):<em>precision</em>specifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. A<em>precision</em>of0means that no character is written for the value0.</p>
+<td>.number</td>
+<td><p>For integer specifiers (d,i,o,u,x,X):precisionspecifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. Aprecisionof0means that no character is written for the value0.</p>
 <p>Fora,A,e,E,fandFspecifiers: this is the number of digits to be printed<strong>after</strong>the decimal point (by default, this is 6).</p>
 <p>ForgandGspecifiers: This is the maximum number of significant digits to be printed.</p>
 <p>Fors: this is the maximum number of characters to be printed. By default all characters are printed until the ending null character is encountered.</p>
-<p>If the period is specified without an explicit value for<em>precision</em>,0is assumed.</p></td>
+<p>If the period is specified without an explicit value forprecision,0is assumed.</p></td>
 </tr>
 <tr>
 <td>.*</td>
-<td>The<em>precision</em>is not specified in the<em>format</em>string, but as an additional integer value argument preceding the argument that has to be formatted.</td>
+<td>Theprecisionis not specified in theformatstring, but as an additional integer value argument preceding the argument that has to be formatted.</td>
 </tr>
 </tbody>
 </table>

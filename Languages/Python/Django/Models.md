@@ -14,12 +14,12 @@ The basics:
 - Each attribute of the model represents a database field.
 - With all of this, Django gives you an automatically-generated database-access API
 
-## from django.db import models
-
-## class Person(models.Model)
-
-first_name = models.CharField(max_length=30)
-last_name = models.CharField(max_length=30)
+```python
+from django.db import models
+class Person(models.Model):
+    first_name = models.CharField(max_length=30)
+    last_name = models.CharField(max_length=30)
+```
 
 - The name of the table, **myapp_person**, is automatically derived from some model metadata but can be overridden.
 - An **id** field is added automatically, but this behavior can be overridden.
@@ -29,7 +29,7 @@ last_name = models.CharField(max_length=30)
 Each field in your model should be an instance of the appropriate [**Field**](https://docs.djangoproject.com/en/1.11/ref/models/fields/#django.db.models.Field) class. Django uses the field class types to determine a few things:
 
 - The column type, which tells the database what kind of data to store (e.g.**INTEGER**, **VARCHAR**, **TEXT**).
-- The default HTML [widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/) to use when rendering a form field (e.g.**<inputtype="text">**, **<select>**).
+- The default HTML [widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/) to use when rendering a form field (e.g.`<inputtype="text">`, `<select>`).
 - The minimal validation requirements, used in Django's admin and in automatically-generated forms.
 
 ## Common field arguments -
@@ -81,11 +81,13 @@ Use the add() method on the field to add a record to the relation. Including mul
 
 You can declare model-level metadata for your Model by declaringclass Meta, as shown.
 
+```python
 class Meta:
-ordering = ["-my_field_name"]
-...
+    ordering = ["-my_field_name"]
+    ...
+```
 
-One of the most useful features of this metadata is to control the*default ordering*of records returned when you query the model type. You do this by specifying the match order in a list of field names to theorderingattribute, as shown above. The ordering will depend on the type of field (character fields are sorted alphabetically, while date fields are sorted in chronological order). As shown above, you can prefix the field name with a minus symbol (-) to reverse the sorting order.
+One of the most useful features of this metadata is to control the *default ordering* of records returned when you query the model type. You do this by specifying the match order in a list of field names to theorderingattribute, as shown above. The ordering will depend on the type of field (character fields are sorted alphabetically, while date fields are sorted in chronological order). As shown above, you can prefix the field name with a minus symbol (-) to reverse the sorting order.
 
 ## Singleton model in Django
 
@@ -97,17 +99,14 @@ This is easily done in Django by making sure we have only one database entry at 
 
 ## Exception Handling
 
-## ObjectDoesNotExists
-
-from django.core.exceptions import ObjectDoesNotExist
-
-try:
-
-user = exampleUser.objects.get(email='username@example.com')
-
-except ObjectDoesNotExist:
-
-print('user not found')
+```python
+ObjectDoesNotExists
+    from django.core.exceptions import ObjectDoesNotExist
+    try:
+        user = ZenatixUser.objects.get(email='deepak.sood@zenatix.com')
+    except ObjectDoesNotExist:
+        print('user not found')
+```
 
 ## Models
 
@@ -120,7 +119,7 @@ print('user not found')
 ## Ordering
 
 Add meta in the object Model
-
-## class Meta
-
-ordering=(**'device__owner__client_name'**, **'issue__display_name'**)
+```python
+class Meta:
+    ordering=('device__owner__client_name','issue__display_name')
+```

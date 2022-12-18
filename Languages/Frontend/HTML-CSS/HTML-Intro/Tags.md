@@ -8,30 +8,29 @@ Modified: 2021-11-14 09:59:25 +0500
 
 ## Semantic Elements in HTML5
 
-Semantic HTML elements clearly describe it's meaning in a human and machine readable way. Elements such as<header>,<footer>and<article>are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+Semantic HTML elements clearly describe it's meaning in a human and machine readable way. Elements such as `<header>, <footer> and <article>` are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
 
 <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
 ## HTML Tags Ordered by Category
+`# =` New in HTML5
 
-# = New in HTML5
-
-## no-user-select - no option to select text
+`## no-user-select - no option to select text`
 
 ## Basic HTML
 
 | Tag                                                               | Description                              |
 |---------------------|---------------------------------------------------|
-| [<!DOCTYPE>](https://www.w3schools.com/tags/tag_doctype.asp)   | Defines the document type                |
-| [<html>](https://www.w3schools.com/tags/tag_html.asp)           | Defines an HTML document                 |
-| [<head>](https://www.w3schools.com/tags/tag_head.asp)           | Defines information about the document   |
-| [<title>](https://www.w3schools.com/tags/tag_title.asp)         | Defines a title for the document         |
-| [<body>](https://www.w3schools.com/tags/tag_body.asp)           | Defines the document's body             |
-| [<h1> to <h6>](https://www.w3schools.com/tags/tag_hn.asp)     | Defines HTML headings                    |
-| [<p>](https://www.w3schools.com/tags/tag_p.asp)                 | Defines a paragraph                      |
-| [<br>](https://www.w3schools.com/tags/tag_br.asp)               | Inserts a single line break              |
-| [<hr>](https://www.w3schools.com/tags/tag_hr.asp)               | Defines a thematic change in the content |
-| [<!--...-->](https://www.w3schools.com/tags/tag_comment.asp) | Defines a comment                        |
+| [`<!DOCTYPE>`](https://www.w3schools.com/tags/tag_doctype.asp)   | Defines the document type                |
+| [`<html>`](https://www.w3schools.com/tags/tag_html.asp)           | Defines an HTML document                 |
+| [`<head>`](https://www.w3schools.com/tags/tag_head.asp)           | Defines information about the document   |
+| [`<title>`](https://www.w3schools.com/tags/tag_title.asp)         | Defines a title for the document         |
+| [`<body>`](https://www.w3schools.com/tags/tag_body.asp)           | Defines the document's body             |
+| [`<h1> to <h6>`](https://www.w3schools.com/tags/tag_hn.asp)     | Defines HTML headings                    |
+| [`<p>`](https://www.w3schools.com/tags/tag_p.asp)                 | Defines a paragraph                      |
+| [`<br>`](https://www.w3schools.com/tags/tag_br.asp)               | Inserts a single line break              |
+| [`<hr>`](https://www.w3schools.com/tags/tag_hr.asp)               | Defines a thematic change in the content |
+| [`<!--...-->`](https://www.w3schools.com/tags/tag_comment.asp) | Defines a comment                        |
 
 ## Formatting
 

@@ -10,7 +10,7 @@ When we're talking about *consistency* in distributed systems, we are referring 
 
 ## Consistency levels
 
-Consistency levels from Werner Vogel's [Eventually Consistent](http://delivery.acm.org/10.1145/1440000/1435432/p40-vogels.pdf?ip=67.170.235.99&id=1435432&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1565542564_c4a7ccbc0971346102d83294a77ed4a2):
+Consistency levels from Werner Vogel's Eventually Consistent:
 
 - **Strong consistency-** after an update completes, all further operations correctly use the new value
 - **Weak conssistency-** operations after an update completes may not correctly use the new value
@@ -22,6 +22,7 @@ Consistency levels from Werner Vogel's [Eventually Consistent](http://delivery.a
 - **Read-your-writes consistency-** reads after a write return the updated version
 - **Session consistency-** reads after writes are always correct within a given session
 - **Read level, write level**and**replica level**are the number of nodes in a distributed storage system involved in the reading, writing and replication of a piece of data. The [Dynamo paper](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf) describes this approach in some detail, and it's used heavily by both Cassandra and MongoDB as well (among many others)
+
 | Strong Consistency   | See all previous writes.            |
 |----------------------|-------------------------------------|
 | Eventual Consistency | See subset of previous writes.      |

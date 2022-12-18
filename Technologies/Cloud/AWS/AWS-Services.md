@@ -190,6 +190,11 @@ Easily extract printed text, handwriting, and data from virtually any document
 
 Highly accurate intelligent search service powered by machine learning
 
+- Quickly implement a unified search experience across multiple structured and unstructured content repositories.
+- Use natural language processing (NLP) to get highly accurate answers without the need for machine learning (ML) expertise.
+- Fine-tune your search results based on content attributes, freshness, user behavior, and more.
+- Deliver ML-powered instant answers, FAQs, and document ranking as a fully managed service.
+
 5. **Mobile Services**
 
     a.  AWS Amplify

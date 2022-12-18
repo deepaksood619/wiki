@@ -30,7 +30,7 @@ Modified: 2019-09-06 16:50:35 +0500
 </tr>
 <tr>
 <td><strong>`>``>`</strong></td>
-<td><p>Redirection: Send the output of the command on the left to the<em>end</em>of the file named on the right of this symbol. If the file does not exist, it will be created. If it does exist, it will be appended. Example:</p>
+<td><p>Redirection: Send the output of the command on the left to theendof the file named on the right of this symbol. If the file does not exist, it will be created. If it does exist, it will be appended. Example:</p>
 <p>date `>``>` filename.txt # This adds the current date and time to the end of filename.txt</p></td>
 </tr>
 <tr>

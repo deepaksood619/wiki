@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
+                "file": "Algorithms/Algorithmic-Complexity/Time-Complexities.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
+                "file": "Algorithms/Algorithmic-Complexity/Time-Complexities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
+                "file": "Algorithms/Algorithmic-Complexity/Time-Complexities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md"
+                "file": "Algorithms/Algorithmic-Complexity/Time-Complexities.md"
               }
             }
           },
@@ -181,17 +181,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "978fd2faf621af33",
+  "active": "06e8851540a77b4b",
   "lastOpenFiles": [
+    "Languages/Python/Python/Time-complexities.md",
+    "Knowledge/Psychology/Human-Psychology-&-Thinking.md",
+    "Knowledge/Psychology/Psychology.md",
+    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
+    "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
     "Languages/Others/Regular-Expressions---Regex.md",
     "Knowledge/Management/Product-Management/product-terms-tools.md",
     "Technologies/Technologies/Others/Others.md",
     "Technologies/Cloud/Others/Others---SAAS.md",
-    "Computer-Science/Testing/Intro.md",
-    "Computer-Science/Operating-System/Concurrency---Threading.md",
-    "Office/Projects/Projects.md",
-    "Office/Stashfin/Tech-Stack---Infra.md",
-    "Office/Stashfin/media/stashfin-infra.drawio.png",
-    "Office/Personality/Interviews.md"
+    "Computer-Science/Testing/Intro.md"
   ]
 }

@@ -154,9 +154,9 @@ $(document).ready(function() {
 
 // alert($('p:first').text()); // retreive text
 
-// $('p:first').text('hey there <em>buddy</em>');
+// $('p:first').text('hey there buddy');
 
-// $('p:first').html('hey there <em>buddy</em>');
+// $('p:first').html('hey there buddy');
 
 // $('p:first').html('<a href="google.com">link</a>');
 

@@ -47,8 +47,8 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>IN-AP</td>
 <td>AP</td>
 <td><a href="https://en.wikipedia.org/wiki/Southern_Zonal_Council">Southern</a></td>
-<td><p><a href="https://en.wikipedia.org/wiki/Hyderabad,_India">Hyderabad</a>(<em>de jure</em>)</p>
-<p><a href="https://en.wikipedia.org/wiki/Amaravati">Amaravati</a>(<em>de facto</em>)</p></td>
+<td><p><a href="https://en.wikipedia.org/wiki/Hyderabad,_India">Hyderabad</a>(de jure)</p>
+<p><a href="https://en.wikipedia.org/wiki/Amaravati">Amaravati</a>(de facto)</p></td>
 <td><a href="https://en.wikipedia.org/wiki/Visakhapatnam">Visakhapatnam</a></td>
 <td>1 October 1953</td>
 <td>49,506,799</td>

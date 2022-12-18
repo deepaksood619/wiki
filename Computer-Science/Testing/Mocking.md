@@ -189,7 +189,7 @@ assert generate_filename() == "1990-04-28.png"
 
 You now know how to replace a dependency, hence it is time to talk about what to replace it with. This is whereunittest.mock.Mockandunittest.mock.MagicMockcome into play.
 Everything you do with Mock will return a Mock. Call a function? Get a Mock as a return value. Access an attribute? Get a Mock as a value.
-Python has so called "magic" methods. I like the term "dunder" methods better --- it just means all methods which start and end with adoubleunderscore. Examples are__iter__or__contains__. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
+Python has so called "magic" methods. I like the term "dunder" methods better --- it just means all methods which start and end with adoubleunderscore. Examples are `__iter__` or `__contains__`. MagicMock has those defined, Mock doesn't. I would use MagicMock everywhere, except if the mocked object doesn't define any of the magic functions.
 A core feature of mock classes is that they allow you to not only remove a dependency which is hard to test, but also to assert on the way the mock was interacted with. Typical methods are [assert_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called)(), [assert_called_with](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_called_with)(), [assert_not_called](https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock.assert_not_called)().
 
 ## spec, autospec & spec_set
