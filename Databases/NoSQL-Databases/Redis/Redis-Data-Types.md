@@ -205,6 +205,7 @@ Moreover, elements in a sorted sets aretaken in order(so they are not ordered on
 - If A and B have exactly the same score, then A > B if the A string is lexicographically greater than the B string. A and B strings can't be equal since sorted sets only have unique elements.
 Implementation note: Sorted sets are implemented via a dual-ported data structure containing both a skip list and a hash table, so every time we add an element Redis performs anO(log(N))operation. That's good, but when we ask for sorted elements Redis does not have to do any work at all, it's already all sorted
 
+```bash
 > zadd hackers 1940 "Alan Kay"
 
 > zrange hackers 0 -1
@@ -220,6 +221,8 @@ Implementation note: Sorted sets are implemented via a dual-ported data structur
 > zrank hackers "Anita Borg"
 
 > zrevrank hackers "Anita Borg"
+```
+
 | **Command**   | **What it does**                                                   |
 |------------------|------------------------------------------------------|
 | ZADD          | Adds member with the given score to the ZSET                       |
@@ -274,18 +277,23 @@ There are three commands operating on group of bits:
 3. [BITPOS](https://redis.io/commands/bitpos) finds the first bit having the specified value of 0 or 1.
 Both [BITPOS](https://redis.io/commands/bitpos) and [BITCOUNT](https://redis.io/commands/bitcount) are able to operate with byte ranges of the string, instead of running for the whole length of the string. The following is a trivial example of [BITCOUNT](https://redis.io/commands/bitcount) call:
 
+```bash
 > setbit key 0 1
 (integer) 0
 > setbit key 100 1
 (integer) 0
 > bitcount key
 (integer) 2
+```
+
 Common use cases for bitmaps are:
 
 - Real time analytics of all kinds.
 - Storing space efficient but high performance boolean information associated with object IDs.
 For example imagine you want to know the longest streak of daily visits of your web site users. You start counting days starting from zero, that is the day you made your web site public, and set a bit with [SETBIT](https://redis.io/commands/setbit) every time the user visits the web site. As a bit index you simply take the current unix time, subtract the initial offset, and divide by the number of seconds in a day (normally, 3600*24).
 This way for each user you have a small string containing the visit information for each day. With [BITCOUNT](https://redis.io/commands/bitcount) it is possible to easily get the number of days a given user visited the web site, while with a few [BITPOS](https://redis.io/commands/bitpos) calls, or simply fetching and analyzing the bitmap client-side, it is possible to easily compute the longest streak.
+
+```bash
 BITOP AND andbc b c
 
 bitop not nota a
@@ -293,6 +301,8 @@ bitop not nota a
 BITOP OR orbc b c
 
 BITOP XOR xorbc b c
+```
+
 Bitmaps are trivial to split into multiple keys, for example for the sake of sharding the data set and because in general it is better to avoid working with huge keys. To split a bitmap across different keys instead of setting all the bits into a key, a trivial strategy is just to store M bits per key and obtain the key name withbit-number/M and the Nth bit to address inside the key withbit-number MOD M.
 
 ## HyperLogLogs
@@ -304,10 +314,14 @@ While you don't reallyadd itemsinto an HLL, because the data structure only cont
 
 - Every time you see a new element, you add it to the count with [PFADD](https://redis.io/commands/pfadd).
 - Every time you want to retrieve the current approximation of the unique elementsaddedwith [PFADD](https://redis.io/commands/pfadd) so far, you use the [PFCOUNT](https://redis.io/commands/pfcount).
-    > pfadd hll a b c d
-    (integer) 1
-    > pfcount hll
-    (integer) 4
+
+```bash
+> pfadd hll a b c d
+(integer) 1
+> pfcount hll
+(integer) 4
+```
+
 An example of use case for this data structure is counting unique queries performed by users in a search form every day.
 Redis is also able to perform the union of HLLs
 

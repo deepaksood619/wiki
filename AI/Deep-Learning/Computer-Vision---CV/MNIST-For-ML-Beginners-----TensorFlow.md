@@ -74,25 +74,25 @@ The following diagram shows the weights one model learned for each of these clas
 
 We also add some extra evidence called a bias. Basically, we want to be able to say that some things are more likely independent of the input. The result is that the evidence for a class i given an input x is:
 
-```
+```python
 evidencei=∑jWi, jxj+bi
 ```
 
 where Wi is the weights and bi is the bias for class i, and j is an index for summing over the pixels in our input image x. We then convert the evidence tallies into our predicted probabilities y using the "softmax" function:
 
-```
+```python
 y=softmax(evidence)
 ```
 
 Here softmax is serving as an "activation" or "link" function, shaping the output of our linear function into the form we want -- in this case, a probability distribution over 10 cases. You can think of it as converting tallies of evidence into probabilities of our input being in each class. It's defined as:
 
-```
+```python
 softmax(evidence)=normalize(exp⁡(evidence))
 ```
 
 If you expand that equation out, you get:
 
-```
+```python
 softmax(evidence)i=exp⁡(evidencei)∑jexp⁡(evidencej)
 ```
 

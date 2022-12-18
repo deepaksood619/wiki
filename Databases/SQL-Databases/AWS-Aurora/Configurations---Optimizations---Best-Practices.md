@@ -229,7 +229,7 @@ To tell if your working set is almost all in memory, check the ReadIOPS metric (
 
 [Amazon Aurora I/O Cost Optimization Methodology | Amazon Web Services](https://www.youtube.com/watch?v=dpLRAlEX7Lo)
 
-```
+```sql
 select * from sys.user_summary_by_file_io;
 
 innodb_flush_log_at_trx_commit

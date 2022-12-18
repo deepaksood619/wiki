@@ -131,11 +131,11 @@ The steps 1, 2 establish the connection parameter (sequence number) for one dire
 Initial sequence numbers are randomly selected while establishing connections between client and server.
 <https://www.geeksforgeeks.org/tcp-3-way-handshake-process>
 
-## TCP Connection Termination**
+## TCP Connection Termination
 
-![11](media/TCP-(Connection-Oriented-Protocol)-image6.png)
+![image](media/TCP-(Connection-Oriented-Protocol)-image6.png)
 
-1. **Step 1 (FIN From Client) --**Suppose that the client application decides it wants to close the connection. (Note that the server could also choose to close the connection). This causes the client send a TCP segment with the **FIN** bit set to**1** to server and to enter the **FIN_WAIT_1** state. While in the **FIN_WAIT_1** state, the client waits for a TCP segment from the server with an acknowledgment (ACK).
+1. **Step 1 (FIN From Client)** Suppose that the client application decides it wants to close the connection. (Note that the server could also choose to close the connection). This causes the client send a TCP segment with the **FIN** bit set to**1** to server and to enter the **FIN_WAIT_1** state. While in the **FIN_WAIT_1** state, the client waits for a TCP segment from the server with an acknowledgment (ACK).
 
 2. **Step 2 (ACK From Server) --**When Server received FIN bit segment from Sender (Client), Server Immediately send acknowledgement (ACK) segment to the Sender (Client).
 

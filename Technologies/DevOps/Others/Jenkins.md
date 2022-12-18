@@ -87,7 +87,7 @@ Jenkins is, fundamentally, an automation engine which supports a number of autom
 - **Durable:** Pipelines can survive both planned and unplanned restarts of the Jenkins master.
 - **Pausable:** Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
 - **Versatile:** Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
-- **Extensible:** The Pipeline plugin supports custom extensions to its DSL [[1](https://jenkins.io/doc/book/pipeline/#_footnotedef_1)]and multiple options for integration with other plugins.
+- **Extensible:** The Pipeline plugin supports custom extensions to its DSL and multiple options for integration with other plugins.
 
 ![Pipeline Flow](../../media/DevOps-Others-Jenkins-image1.png)
 

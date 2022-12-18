@@ -68,7 +68,8 @@ In [message queueing](https://en.wikipedia.org/wiki/Message_queue) thedead lette
 
 5. Message reaches a threshold read counter number, because it is not consumed. Sometimes this is called a "back out queue".
 Dead letter queue storing of these messages allows developers to look for common patterns and potential software problems.
-Queueing systems that incorporate dead letter queues include [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service), [Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ), [HornetQ](https://en.wikipedia.org/wiki/HornetQ), [Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing), [WebSphere MQ][https://en.wikipedia.org/wiki/WebSphere_MQ], [Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ) and [Apache Pulsar](https://en.wikipedia.org/w/index.php?title=Apache_Pulsar&action=edit&redlink=1)
+Queueing systems that incorporate dead letter queues include [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service), [Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ), [HornetQ](https://en.wikipedia.org/wiki/HornetQ), [Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing), [WebSphere MQ](https://en.wikipedia.org/wiki/WebSphere_MQ), [Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ) and Apache Pulsar
+
 <https://en.wikipedia.org/wiki/Dead_letter_queue>
 Amazon SQS supports*dead-letter queues*, which other queues (*source queues*) can target for messages that can't be processed (consumed) successfully. Dead-letter queues are useful for debugging your application or messaging system because they let you isolate problematic messages to determine why their processing doesn't succeed.
 Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to*poison-pill messages*(messages that can be received but can't be processed).

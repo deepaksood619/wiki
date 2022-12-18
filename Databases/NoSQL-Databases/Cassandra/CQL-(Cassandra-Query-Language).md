@@ -20,7 +20,7 @@ Modified: 2020-01-03 17:00:20 +0500
 
 ## Commands
 
-```
+```sql
 DESCRIBE KEYSPACES;
 
 DESCRIBE TABLES;

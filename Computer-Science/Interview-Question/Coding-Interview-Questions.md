@@ -90,10 +90,10 @@ func(rem, prefix + str.charAt( i ));
 
 ## 3 Python library functions
 
-```
-    from itertools import permutations
+```python
+from itertools import permutations
 
-    len(list(permutations('abcde', 5)))
+len(list(permutations('abcde', 5)))
 ```
 
 ## Others
