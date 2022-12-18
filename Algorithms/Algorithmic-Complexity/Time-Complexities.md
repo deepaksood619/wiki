@@ -44,7 +44,7 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 <td></td>
 <td>O(alpha(n))</td>
 <td></td>
-<td><a href="https://en.wikipedia.org/wiki/Amortized_time">Amortized time </a>per operation using a<a href="https://en.wikipedia.org/wiki/Disjoint_set_data_structure"> disjoint set </a>. This function has a value alpha(n) < 5, for any value of n that can be written in this physical universe. So essentially it's a constant time operation</td>
+<td></td>
 </tr>
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/Iterated_logarithm">iterated logarithmic</a>time</td>

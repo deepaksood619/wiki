@@ -6,11 +6,13 @@ Modified: 2018-04-08 17:20:52 +0500
 
 ---
 
-A module is a file containing Python definitions and statements. The file name is the module name with the suffix.pyappended. Within a module, the module's name (as a string) is available as the value of the global variable__name__.
+A module is a file containing Python definitions and statements. The file name is the module name with the suffix.pyappended. Within a module, the module's name (as a string) is available as the value of the global variable `__name__`.
 
-## >>> import fibo
+```python
+>>> import fibo
 
-## >>> fibo.__name__
+>>> fibo.__name__
+```
 
 A module can contain executable statements as well as function definitions. These statements are intended to initialize the module. They are executed only the *first* time the module name is encountered in an import statement.
 

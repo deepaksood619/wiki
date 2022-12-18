@@ -57,7 +57,7 @@ print numpy.prod(my_array, axis = None) #Output : 24
 print numpy.prod(my_array) #Output : 24
 ```
 
-## [Speeding up your code]{.underline}
+## Speeding up your code
 
 <https://m.youtube.com/watch?v=EEUXKG97YRw>
 

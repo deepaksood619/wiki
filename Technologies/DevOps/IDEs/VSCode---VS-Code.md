@@ -40,15 +40,15 @@ codeanywhere
 
 - Docker
 - Kubernetes
-- **[Git graph]{.underline}**
+- Git graph
 - Python
 - Terraform
 - Local History
 - Clipboard History
 - Remote - Containers
-- **[SonarLint]{.underline}**
+- SonarLint
 - Data Preview (>Data: Preview Data)
-- **[Git Lens]{.underline}**
+- Git Lens
 - Version Lens
 - Prettier
 - Format Toggle
@@ -57,11 +57,11 @@ codeanywhere
 - Multiple clipboards for VSCode
 - **Live Share**
 - **Settingssync**
-- **[CSV]{.underline}**
-  - **[Excel Viewer]{.underline}**
-  - **[RainbowCSV]{.underline}**
-- **[Reverse Search]{.underline}**
-- **[Thunder client - postman for vscode]{.underline}**
+- CSV
+  - Excel Viewer
+  - RainbowCSV
+- Reverse Search
+- Thunder client - postman for vscode
 - draw.io extension (test.dio file)
 - <https://marketplace.visualstudio.com/items?itemName=softwaredotcom.swdc-vscode>
 - <https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager>

@@ -6,7 +6,7 @@ Modified: 2022-07-27 11:45:26 +0500
 
 ---
 
-| **[Data Features]{.underline}** |                                       |
+| Data Features |                                       |
 |---------------------------------|----------------------------------------|
 | **Feature Name**                | **Description**                        |
 | customer_id                     | Unique ID of the customer              |
@@ -14,7 +14,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | status                          | Status of Featurization                |
 | data_available                  | Data Available for Featurization       |
 
-| **[SMS Features]{.underline}** |                                                                          |
+| SMS Features |                                                                          |
 |-------------------------|-----------------------------------------------|
 | **Feature Name**               | **Description**                                                           |
 | all_sms_count                  | Number of all SMS received                                                |
@@ -71,7 +71,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | amt_debit_txn_m2               | Amount in INR of debit transactions in the second last month              |
 | amt_debit_txn_m3               | Amount in INR of debit transactions in the third last month               |
 
-| **[Fraud Features]{.underline}** |                                                                   |
+| Fraud Features |                                                                   |
 |--------------------------|----------------------------------------------|
 | **Feature Name**                 | **Description**                                                    |
 | **indevice_match_flag**          | Evidence if the device belogs to this user or not                  |
@@ -90,7 +90,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | blacklisted_location             | Flag if user was in blacklisted area                               |
 | cnt_loan_approval_same_client    | Count of loan approval from the same client                        |
 
-| **[FinBox Features]{.underline}** |                                                         |
+| FinBox Features |                                                         |
 |--------------------------|----------------------------------------------|
 | **Feature Name**                  | **Description**                                          |
 | fis_v1                            | FinBox Credit Score (Version 1)                          |
@@ -100,7 +100,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | fis_recommended_due_date          | Recommended Due Date based on Balance Availability       |
 | digital_savviness                 | Score indicating digital savviness of the user           |
 
-| **[Device Features]{.underline}** |                                                           |
+| Device Features |                                                           |
 |-------------------------|-----------------------------------------------|
 | **Feature Name**                  | **Description**                                            |
 | mobile_model                      | User's mobile phone model from latest mobile phone        |
@@ -114,13 +114,13 @@ Modified: 2022-07-27 11:45:26 +0500
 | phone_state_permission_flag       | Flag of whether users ever gave the Phone_state Permission |
 | unique_devices                    | Number of unique mobile phones where app was installed     |
 
-| **[Location Features]{.underline}** |                                               |
+| Location Features |                                               |
 |----------------------------|--------------------------------------------|
 | **Feature Name**                    | **Description**                                |
 | latest_location_latitude            | Latitude of the latest accurate location data  |
 | latest_location_longitude           | Longitude of the latest accurate location data |
 
-| **[Apps Features]{.underline}** |                                                                       |
+| Apps Features |                                                                       |
 |--------------------------|----------------------------------------------|
 | **Feature Name**                | **Description**                                                        |
 | cnt_apps                        | Total number of Apps found                                             |
@@ -132,7 +132,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | cnt_apps_genre_communication    | Total Number of Apps categorised as Communication on Google Play Store |
 | days_since_first_install        | Number of days since the first Play-store Apps was installed           |
 
-| **[Contact Features]{.underline}** |                                        |
+| Contact Features |                                        |
 |------------------------------|------------------------------------------|
 | **Feature Name**                   | **Description**                         |
 | cnt_contacts                       | Count of Total Contacts                 |
@@ -140,7 +140,7 @@ Modified: 2022-07-27 11:45:26 +0500
 | cnt_contacts_c30                   | Count of Contacts added in last 30 days |
 | cnt_contacts_c60                   | Count of Contacts added in last 60 days |
 
-| **[Call Log Features]{.underline}** |                                      |
+| Call Log Features |                                      |
 |-------------------------------|-----------------------------------------|
 | **Feature Name**                    | **Description**                       |
 | cnt_calls_c30                       | Total Calls Last 30 Days              |

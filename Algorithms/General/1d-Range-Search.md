@@ -6,7 +6,7 @@ Modified: 2018-02-06 11:29:52 +0500
 
 ---
 
-## [1 d range search -]{.underline}
+## 1 d range search -
 
 ## Operations -
 

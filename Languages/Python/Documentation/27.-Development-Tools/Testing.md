@@ -21,7 +21,7 @@ Modified: 2021-03-20 13:31:05 +0500
      return full_name.title()
 
  class Accountant:
-     def __init__(self, balance=0):
+     def init(self, balance=0):
          self.balance = balance
 
      def deposit(self, amount):
@@ -74,7 +74,7 @@ Modified: 2021-03-20 13:31:05 +0500
 
 There are many test runners available for Python.The one built into the Python standard library is calledunittest
 
-- __unittest__
+- unittest
 
 unittest requires that:
 
@@ -87,11 +87,11 @@ unittest requires that:
 
 unittest feels pretty similar to [JUnit](https://en.wikipedia.org/wiki/JUnit) which I would say is a disadvantage. Python is a different language with different patterns and expectations. One weirdness is that you have to put your tests in a class, even if you don't need to [setUp()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp) or [tearDown()](https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown) anything. It uses camelCase for the method names which is against the Python conventions. You cannot simplyassert Expression, but instead, have to useself.assertEqual,self.assertTrue, ... (see the [complete list of assert methods](https://docs.python.org/3/library/unittest.html#assert-methods)). And the error messages are not as expressive as the ones you get from Pytest.
 
-- __PyUnit__
+### PyUnit
 
 PyUnit supports fixtures, test cases, test suites and a test runner for the automated testing of the code. In PyUnit, you can organize test cases into suites with the same fixtures
 
-- __Nose2__
+### Nose2
 
 Nose's built in plugins helps you with output capture, code coverage, doctests, etc. Nose syntax is pretty simpler and reduces the barriers to writing tests. It extends Python unittest to make testing easier.
 
@@ -99,13 +99,13 @@ noseis compatible with any tests written using theunittestframework and can be u
 
 The development ofnoseas an open-source application fell behind, and a fork callednose2was created. If you're starting from scratch, it is recommended that you usenose2instead ofnose.
 
-- __Doctest__
+### Doctest
 
 Doctest testing script goes in docstring with small function at the bottom of file. Doctest allows you to test your code by running examples included in the documentation and verifying that they returned the expected results. The use-case of doctest is less detailed and don't catch special cases. They are useful as an expressive documentation of the main use case of a module and its components.
 
 The doctest looks for>>>within the docstrings and executes whatever follows as if it was entered in the interactive console. The next line is then the output which is compared to the output of the program.
 
-- __[PyTest]{.underline}__
+### PyTest
 
 [pytest](https://realpython.com/pytest-python-testing/) supports execution ofunittesttest cases. The real advantage ofpytestcomes by writingpytesttest cases.pytesttest cases are a series of functions in a Python file starting with the nametest_.
 
@@ -138,18 +138,18 @@ pytest has some other great features:
    assert response.elapsed.total_seconds() < 0.03
 ```
 
-- __pytest-black__
-- __pytest-flake8__
+- pytest-black
+- pytest-flake8
     `pytest --flake8 --black`
 
-- __pytest-mccabe__
-- __pytest-mypy__
+- pytest-mccabe
+- pytest-mypy
         Mypy static type checker plugin for pytest
         automatically run mypy over your code by adding--mypyto your pytest command
 
-- __pytest-benchmark__
+- pytest-benchmark
 
-- __Coverage__
+- Coverage
 
 For getting the code coverage in python
 
@@ -173,7 +173,7 @@ Some test runners provide coverage integration to make it easy to use coverage.p
 
 <https://coverage.readthedocs.io/en/latest>
 
-- __pytest-cov__
+- pytest-cov
 
 pytest plugin to measure branch coverage.
 
@@ -190,15 +190,15 @@ This plugin produces coverage reports. Compared to just usingcoveragerunthis plu
 
 <https://pytest-cov.readthedocs.io/en/latest/readme.html>
 
-- __Hypothesis__
+- Hypothesis
 
 Hypothesis is a library which lets you write tests that are parameterized by a source of examples. It then generates simple and comprehensible examples that make your tests fail, letting you find more bugs with less work.
 
-- __tox__
+- tox
 
 tox is a tool for automating test environment management and testing against multiple interpreter configurations.
 
-- __robotframework__
+- robotframework
 
 [Robot Framework](http://robotframework.org/) is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with libraries implemented using Python or Java.
 

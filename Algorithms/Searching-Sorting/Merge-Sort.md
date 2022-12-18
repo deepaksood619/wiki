@@ -49,7 +49,7 @@ Merge sortrecursively halves the given array. Once the subarrays reach trivial l
 
 ![image](media/Merge-Sort-image5.png)
 
-## [Non-recursive Bottom-up mergesort]{.underline}
+## Non-recursive Bottom-up mergesort
 
 Basic Plan -
 

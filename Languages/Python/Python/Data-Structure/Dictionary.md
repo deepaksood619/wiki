@@ -267,7 +267,7 @@ Because the worst-case time complexity for search tree operations is generally a
 
 The CPython dictionary hash tables store items in an array and use open addressing for conflict resolution.
 
-Python optimizes hash tables into combined tables and split tables (which are optimized for dictionaries used to fill the__dict__slot of an object). For simplicity, this post will only look at combined tables.
+Python optimizes hash tables into combined tables and split tables (which are optimized for dictionaries used to fill the `__dict__` slot of an object). For simplicity, this post will only look at combined tables.
 
 In a combined table, the hash table has two important arrays. One is the entries array. Theentries arraystores entry objects that contain the key and value stored in the hash table. The order of entries doesn't change as the table is resized.
 
