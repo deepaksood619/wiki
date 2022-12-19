@@ -48,9 +48,9 @@ doxygen
 
 1. Product documentation
 
-    i.  System documentation
+   - System documentation
 
-    ii. User documentation
+   - User documentation
 
 2. Process documentation
 

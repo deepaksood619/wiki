@@ -192,11 +192,11 @@ Buyer market - Supply > Demand
 - Zara - [Decoding ZARA's Billion Dollar Business STRATEGY : Fashion Business Case Study](https://youtu.be/ON-vFJbq1Vc)
   - Instrument of status
 
-        i.  Shakalala boom boom pencil
+    - Shakalala boom boom pencil
 
-        ii. iPhone
+    - iPhone
 
-        iii. For women it's clothes
+    - For women it's clothes
   - Fast fashion supply chain
   - Just in time production+ just in time consumption (when order comes, start manufacturing)
 

@@ -93,7 +93,7 @@ Enable the idempotent producer, providing exactly-once and strict-orderingproduc
 
 Metadata for all topics (from broker 1: mybroker:9092/1):
 
-```
+```bash
 3 brokers:
 broker 1 at mybroker:9092
 broker 2 at mybrokertoo:9092
@@ -121,9 +121,11 @@ Pretty-printed JSON metadata listing
 
 Query offset(s) by timestamp(s)
 
-    kafkacat -b **kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092** -Q -t druid_telemetry_data_Samhi:0:1569048234230
+```bash
+kafkacat -b **kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092** -Q -t druid_telemetry_data_Samhi:0:1569048234230
 
-    kafkacat -b **kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092** -Q -t druid_telemetry_data_Samhi:0:**1568989500000**
+kafkacat -b **kafka0.example.com:31090,kafka1.example.com:31091,kafka2.example.com:31092** -Q -t druid_telemetry_data_Samhi:0:**1568989500000**
+```
 
 Consume messages between two timestamps
 

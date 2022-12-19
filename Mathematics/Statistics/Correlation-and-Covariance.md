@@ -157,9 +157,9 @@ c.  Regression line
 
 d.  Correlation
 
-    a.  Positive correlation
+- Positive correlation
 
-    b.  Negative correlation
+- Negative correlation
 
 e.  We use standard deviations to scale our correlations so that it always stays between -1 and 1. This is our correlation coefficient, r.
 

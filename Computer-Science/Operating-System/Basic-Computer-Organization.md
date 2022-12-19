@@ -54,31 +54,31 @@ Modified: 2022-03-02 20:32:11 +0500
 
 1. Arithmetic and Logical Operations
 
-    a.  integer arithmetic
+   - integer arithmetic
 
-    b.  comparing two quantities
+   - comparing two quantities
 
-    c.  shifting, rotating bits in a quantity
+   - shifting, rotating bits in a quantity
 
-    d.  testing, comparing, and converting bits
+   - testing, comparing, and converting bits
 
 2. Data Movement Operations
 
-    a.  moving data from memory to cpu
+   - moving data from memory to cpu
 
-    b.  moving data from memory to memory
+   - moving data from memory to memory
 
-    c.  input and output
+   - input and output
 
 3. Program Control Operations
 
-    a.  starting a program
+   - starting a program
 
-    b.  halting a program
+   - halting a program
 
-    c.  skipping to other instructions
+   - skipping to other instructions
 
-    d.  testing data to decide whether to skip over some instructions
+   - testing data to decide whether to skip over some instructions
 
 ## Instruction Set Architecture (ISA)
 

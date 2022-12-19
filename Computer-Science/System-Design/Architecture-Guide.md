@@ -1,27 +1,17 @@
 # Architecture Guide
 
 Created: 2019-09-18 00:09:55 +0500
-
 Modified: 2020-08-20 01:58:00 +0500
-
 ---
 
 1. Application Architecture Guide
-
-    a.  Architecture Styles
-
-        i.  Big compute
-
-        ii. Big data
-
+   - Architecture Styles
+       - Big compute
+       - Big data
 [Big Data](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data) and [Big Compute](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-compute) are specialized architecture styles for workloads that fit certain specific profiles. Big data divides a very large dataset into chunks, performing parallel processing across the entire set, for analysis and reporting. Big compute, also called high-performance computing (HPC), makes parallel computations across a large number (thousands) of cores. Domains include simulations, modeling, and 3-D rendering.
-
 iii. Event-driven architecture
-
 iv. Microservicesv.  **N-tier application**
-
 vi. **Web-queue-worker**
-
 For a purely PaaS solution, consider a [Web-Queue-Worker](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/web-queue-worker) architecture. In this style, the application has a web front end that handles HTTP requests and a back-end worker that performs CPU-intensive tasks or long-running operations. The front end communicates to the worker through an asynchronous message queue.
 Web-queue-worker is suitable for relatively simple domains with some resource-intensive tasks. Like N-tier, the architecture is easy to understand. The use of managed services simplifies deployment and operations. But with complex domains, it can be hard to manage dependencies. The front end and the worker can easily become large, monolithic components that are hard to maintain and update. As with N-tier, this can reduce the frequency of updates and limit innovation.
 | **Architecture style**    | **Dependency management**                                                        | **Domain type**                                                  |
@@ -33,84 +23,47 @@ Web-queue-worker is suitable for relatively simple domains with some resource-in
 | Big data                  | Divide a huge dataset into small chunks. Parallel processing on local datasets.  | Batch and real-time data analysis. Predictive analysis using ML. |
 | Big compute               | Data allocation to thousands of cores.                                           | Compute intensive domains such as simulation.                    |
 b.  Design Principles
-
-    i.  Design for self-healing
-
-    ii. Make all things redundant
-
-    iii. Minimize coordination
-
-    iv. Design to scale out
-
-    v.  Partition around limits
-
-    vi. Design for operations
-
-    vii. Use managed services
-
-    viii. Use the best data store for the job
-
-    ix. Design for evolution
-
-    x.  Build for the needs of business
-
+   - Design for self-healing
+   - Make all things redundant
+   - Minimize coordination
+   - Design to scale out
+   - Partition around limits
+   - Design for operations
+   - Use managed services
+   - Use the best data store for the job
+   - Design for evolution
+   - Build for the needs of business
 c.  Best Practices
-
-    i.  API Design
-
-    ii. API Implementation
-
-    iii. Autoscaling
-
-    iv. Background jobs
-
-    v.  Caching
-
-    vi. Content Delivery Network
-
-    vii. Data Partitioning
-
-    viii. Data Partitioning strategies (by service)
-
-    ix. Monitoring and diagnostics
-
-    x.  Naming Conventions
-
-    xi. Retry Guidance for Specific services
-
-    xii. Transient fault handling
-
+   - API Design
+   - API Implementation
+   - Autoscaling
+   - Background jobs
+   - Caching
+   - Content Delivery Network
+   - Data Partitioning
+   - Data Partitioning strategies (by service)
+   - Monitoring and diagnostics
+   - Naming Conventions
+   - Retry Guidance for Specific services
+   - Transient fault handling
 d.  Performance Tuning
-
-    i.  Scenario 1 - Distributed Transactions
-
-    ii. Scenario 2 - Multiple backend services
-
-    iii. Scenario 3 - Event Streaming
-
+   - Scenario 1 - Distributed Transactions
+   - Scenario 2 - Multiple backend services
+   - Scenario 3 - Event Streaming
 e.  Performance Antipatterns
-
-    i.  Busy Database
-
-    ii. Busy Front End
-
-    iii. Chatty I/O
-
-    iv. Extraneous Fetching
-
-    v.  Improper Instantiation
-
-    vi. Monolithic Persistence
-
-    vii. No Caching
-
-    viii. Synchronous I/O2.  Design Patterns
-    -   [Ambassador](https://docs.microsoft.com/en-us/azure/architecture/patterns/ambassador)
-    -   [Anti-corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
-    -   [Availability](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/availability)
-    -   [Backends for Frontends](https://docs.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends)
-    -   [Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead)
-
+   - Busy Database
+   - Busy Front End
+   - Chatty I/O
+   - Extraneous Fetching
+   - Improper Instantiation
+   - Monolithic Persistence
+   - No Caching
+   - Synchronous I/O2.  Design Patterns
+   - [Ambassador](https://docs.microsoft.com/en-us/azure/architecture/patterns/ambassador)
+   - [Anti-corruption Layer](https://docs.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer)
+   - [Availability](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/availability)
+   - [Backends for Frontends](https://docs.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends)
+   - [Bulkhead](https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead)
 The Bulkhead pattern is a type of application design that is tolerant of failure. In a bulkhead architecture, elements of an application are isolated into pools so that if one fails, the others will continue to function. It's named after the sectioned partitions (bulkheads) of a ship's hull. If the hull of a ship is compromised, only the damaged section fills with water, which prevents the ship from sinking.
 <https://www.youtube.com/watch?v=R2FT5edyKOg>-   [Cache-Aside](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
 
@@ -153,46 +106,30 @@ The Bulkhead pattern is a type of application design that is tolerant of failure
 - [Valet Key](https://docs.microsoft.com/en-us/azure/architecture/patterns/valet-key)
 
 3. Pillars of Software Quality
-
-    a.  Reliability
-
-    b.  Resiliency
-
-    c.  Security
-
-    d.  Scalability
-
+   - Reliability
+   - Resiliency
+   - Security
+   - Scalability
 4. Technologies
-
-    a.  AI and machine learning
-
-    b.  Blockchain
-
-    c.  Data architectures
-
-    d.  DevOps
-
-    e.  Enterprise integration
-
-    f.  High performance computing (HPC)
-
-    g.  Identity
-
-    h.  Internet of Things (IoT)
-
-    i.  Microservices
-
-    j.  Networking
-
-    k.  Serverless applications
-
-    l.  VM workloads
-
-    m.  Web apps
-
+   - AI and machine learning
+   - Blockchain
+   - Data architectures
+   - DevOps
+   - Enterprise integration
+   - High performance computing (HPC)
+   - Identity
+   - Internet of Things (IoT)
+   - Microservices
+   - Networking
+   - Serverless applications
+   - VM workloads
+   - Web apps
 5. Cloud Adoption Framework
+
 <https://docs.microsoft.com/en-us/azure/architecture/guide>
 
 <https://github.com/MicrosoftDocs/architecture-center>
+
 <https://thenewstack.io/primer-understanding-software-and-system-architecture>
+
 <https://www.freecodecamp.org/news/systems-design-for-interviews>

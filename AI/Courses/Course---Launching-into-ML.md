@@ -14,7 +14,7 @@ Modified: 2021-06-19 14:16:53 +0500
 
 3. Mitigate common problems that arise in Machine Learning
 
-    a.  Lack of generalization
+   - Lack of generalization
 
 4. Create repeatable training, evaluation and test datasets
 

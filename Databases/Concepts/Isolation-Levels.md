@@ -6,12 +6,22 @@ Modified: 2022-02-23 15:36:43 +0500
 
 ---
 
-SELECT @@TX_ISOLATION; - REPEATABLE-READ
+```sql
+SELECT @@TX_ISOLATION;
+-- REPEATABLE-READ
 
 SHOW ENGINE INNODB STATUS;
-In [database](https://en.wikipedia.org/wiki/Database) systems, isolationdetermines how [transaction](https://en.wikipedia.org/wiki/Database_transaction) integrity is visible to other users and systems. For example, when a user is creating a Purchase Order and has created the header, but not the Purchase Order lines, is the header available for other systems/users (carrying out [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) operations, such as a report on Purchase Orders) to see? (Refers to current, not past database systems)
+
+-- online update commands
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+```
+
+In [database](https://en.wikipedia.org/wiki/Database) systems, isolation determines how [transaction](https://en.wikipedia.org/wiki/Database_transaction) integrity is visible to other users and systems. For example, when a user is creating a Purchase Order and has created the header, but not the Purchase Order lines, is the header available for other systems/users (carrying out [concurrent](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) operations, such as a report on Purchase Orders) to see? (Refers to current, not past database systems).
+
 A lower isolation level increases the ability of many users to access the same data at the same time, but increases the number of concurrency effects (such as dirty reads or lost updates) users might encounter. Conversely, a higher isolation level reduces the types of concurrency effects that users may encounter, but requires more system resources and increases the chances that one transaction will block another.
+
 Isolation is typically defined at database level as a property that defines how/when the changes made by one operation become visible to other. On older systems, it may be implemented systemically, for example through the use of temporary tables. In two-tier systems, a Transaction Processing (TP) manager is required to maintain isolation. In n-tier systems (such as multiple websites attempting to book the last seat on a flight), a combination of stored procedures and transaction management is required to commit the booking and send confirmation to the customer.
+
 Isolation is one of the [ACID](https://en.wikipedia.org/wiki/ACID)([Atomicity](https://en.wikipedia.org/wiki/Atomicity_(database_systems)), [Consistency](https://en.wikipedia.org/wiki/Consistency_(database_systems)), Isolation, [Durability](https://en.wikipedia.org/wiki/Durability_(database_systems))) properties.
 
 ## Read Phenomenon (DLNP)
@@ -28,11 +38,11 @@ A lost update occurs when two different transactions are trying to update the sa
 
 - **Non-repeatable reads**
 
-A*non-repeatable read*occurs, when during the course of a transaction, a row is retrieved twice and the values within the row differ between reads.
+A *non-repeatable read* occurs, when during the course of a transaction, a row is retrieved twice and the values within the row differ between reads.
 
 - **Phantom reads**
 
-A*phantom read*occurs when, in the course of a transaction, new rows are added or removed by another transaction to the records being read.
+A *phantom read*occurs when, in the course of a transaction, new rows are added or removed by another transaction to the records being read.
 
 ## The incorrect summary problem
 
@@ -60,12 +70,14 @@ Putting it in simpler words, **read committed is an isolation level that guarant
 4.  **Read uncommitted**
 
 This is the *lowest*isolation level. In this level, [dirty reads](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Dirty_reads) are allowed, so one transaction may see*not-yet-committed*changes made by other transactions.
+
 | **Isolation level** | **Dirty reads** | **Lost updates** | **Non-repeatable reads** | **Phantoms** |
 |------------------|------------|-------------|--------------------|-----------|
 | Read Uncommitted    | may occur       | may occur        | may occur                | may occur    |
 | Read Committed      | don't occur    | may occur        | may occur                | may occur    |
 | Repeatable Read     | don't occur    | don't occur     | don't occur             | may occur    |
 | Serializable        | don't occur    | don't occur     | don't occur             | don't occur |
+
 Isolation levels in distributed systems get more complicated. Many distributed systems implement variations of the serializable isolation level, such as**one copy-serializability (1SR), strict serializability (strict 1SR)orupdate serializability (US)**. Of those, [**"strict serializability"** is the most perfect](https://fauna.com/blog/serializability-vs-strict-serializability-the-dirty-secret-of-database-isolation-levels) of those serializable options.
 The isolation levels defined as part of SQL-92 standard only focused on anomalies that can occur in a 2PL-based DBMS.
 There are two additional isolation levels:
@@ -74,6 +86,7 @@ There are two additional isolation levels:
     - Between repeatable reads and read committed
     - Prevents "Lost Update" Anomaly.
     - Default isolation level in IBM DB2.
+
 2. SNAPSHOT ISOLATION
     - Guarantees that all reads made in a transaction see a consistent snapshot of the database that existed at the time the transaction started.
     - A transaction will commit only if its writes do not conflict with any concurrent updates made since that snapshot.
@@ -85,7 +98,7 @@ There are two additional isolation levels:
 
 <https://fauna.com/blog/introduction-to-transaction-isolation-levels>
 
-## Demystifying Database Systems: Correctness Anomalies Under SerializableIsolation**
+## Demystifying Database Systems: Correctness Anomalies Under SerializableIsolation
 
 ## What Does "Serializable" Mean in a Distributed/ReplicatedSystem?
 
@@ -120,11 +133,11 @@ We defined "serializable isolation" above as a guarantee that even though a data
 
 ## Distributed Locking
 
-- **Efficiency:**Taking a lock saves you from unnecessarily doing the same work twice (e.g. some expensive computation). If the lock fails and two nodes end up doing the same piece of work, the result is a minor increase in cost (you end up paying 5 cents more to AWS than you otherwise would have) or a minor inconvenience (e.g. a user ends up getting the same email notification twice)
+- **Efficiency:** Taking a lock saves you from unnecessarily doing the same work twice (e.g. some expensive computation). If the lock fails and two nodes end up doing the same piece of work, the result is a minor increase in cost (you end up paying 5 cents more to AWS than you otherwise would have) or a minor inconvenience (e.g. a user ends up getting the same email notification twice)
 - **Correctness:**Taking a lock prevents concurrent processes from stepping on each others' toes and messing up the state of your system. If the lock fails and two nodes concurrently work on the same piece of data, the result is a corrupted file, data loss, permanent inconsistency, the wrong dose of a drug administered to a patient, or some other serious problem
 <https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html>
 
-## SLOG - Serializable, Low-Latency, Geo-Replicated transactions**
+## SLOG - Serializable, Low-Latency, Geo-Replicated transactions
 
 ## MySQL
 

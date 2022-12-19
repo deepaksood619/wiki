@@ -10,70 +10,70 @@ Modified: 2019-11-22 19:29:14 +0500
 
 2. **Combinatorial Algorithms**
 
-    a.  **General Combinatorial Algorithms**
+   - **General Combinatorial Algorithms**
 
-        i.  Brent's algorithm
+       - Brent's algorithm
 
-        ii. Floyd's cycle-finding algorithm
-        iii. Gale - Shapley algorithm (Stable Marriage Problem)
+       - Floyd's cycle-finding algorithm
+       - Gale - Shapley algorithm (Stable Marriage Problem)
 
-        iv. Pseudorandom number generator
+       - Pseudorandom number generator
 
-            1.  Blum Blum Shub
+            1. Blum Blum Shub
 
-            2.  Lagged Fibonacci generator
+            2. Lagged Fibonacci generator
 
-            3.  Linear congruential generator
+            3. Linear congruential generator
 
-            4.  Mersenne twister (Used by Python Random Module)
+            4. Mersenne twister (Used by Python Random Module)
 
-    b.  **Graph algorithms**
+   - **Graph algorithms**
 
-        i.  **General graph algorithms**
+       - **General graph algorithms**
 
-            1.  Coloring algorithm
+            1. Coloring algorithm
 
-            2.  Hopcroft-Karp algorithm
+            2. Hopcroft-Karp algorithm
 
-            3.  Hungarian algorithm
+            3. Hungarian algorithm
 
-            4.  Prüfer coding
+            4. Prüfer coding
 
-            5.  Tarjan's off-line least common ancestors algorithm
+            5. Tarjan's off-line least common ancestors algorithm
 
-            6.  Topological sort
-        ii. **Graph drawing**
+            6. Topological sort
+       - **Graph drawing**
 
-            1.  Force-based algorithms
+            1. Force-based algorithms
 
-            2.  Spectral layout
-        iii. **Network theory**
+            2. Spectral layout
+       - **Network theory**
 
-        iv. **Routing in graphs**
+       - **Routing in graphs**
 
-        v.  **Graph search**
+       - **Graph search**
 
-        vi. **Subgraphs**
+       - **Subgraphs**
 
-    c.  **Sequence algorithms**
+   - **Sequence algorithms**
 
-        i.  **Approximate sequence matching**
+       - **Approximate sequence matching**
 
-        ii. **Selection algorithms**
+       - **Selection algorithms**
 
-        iii. **Sequence search**
+       - **Sequence search**
 
-        iv. **Sequence merging**
+       - **Sequence merging**
 
-        v.  **Sequence permutations**
+       - **Sequence permutations**
 
-        vi. **Sequence alignment**
+       - **Sequence alignment**
 
-        vii. **Sequence sorting**
+       - **Sequence sorting**
 
-        viii. **Subsequences**
+       - **Subsequences**
 
-        ix. **Substrings**
+       - **Substrings**
 
 3. **Computational Mathematics**
 

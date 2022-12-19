@@ -193,7 +193,7 @@ plt.show()
 
 2. Specify cluster seeds
 
-    a.  Based on Euclidean squared distance add points to one of the cluster
+   - Based on Euclidean squared distance add points to one of the cluster
 
 3. Calculate the centroid (geometrical center)
 

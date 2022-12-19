@@ -10,15 +10,15 @@ Modified: 2021-09-01 21:44:41 +0500
 
 2. Anemia
 
-    a.  Iron
+   - Iron
 
-    b.  Folate
+   - Folate
 
-    c.  Vitamin B-12
+   - Vitamin B-12
 
 3. Hypocalcemia (low blood calcium level)
 
-    a.  Vitamin D deficiency (leads to calcium deficiency)
+   - Vitamin D deficiency (leads to calcium deficiency)
 
 4. Fibromyalgia
 
@@ -48,9 +48,9 @@ Solution
 
 2. Types of fatigue
 
-    a.  Muscle fatigue
+   - Muscle fatigue
 
-    b.  Central (or brain) fatigue
+   - Central (or brain) fatigue
 
 ## 7 Steps to Improved Energy
 

@@ -35,9 +35,9 @@ Modified: 2018-12-30 18:49:26 +0500
 14. Abstract vector spaces
 1. **Vectors**
 
-    a.  Vector addition (adding two vectors)
+   - Vector addition (adding two vectors)
 
-    b.  Scalar multiplication (increasing the length of a vector by a given number)
+   - Scalar multiplication (increasing the length of a vector by a given number)
 
 2. **Linear combinations, span and basis vectors**
 ![image](media/3Blue1Brown-image1.png)

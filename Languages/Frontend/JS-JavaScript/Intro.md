@@ -18,11 +18,11 @@ Modified: 2022-07-22 20:09:15 +0500
 
 5. Object-Oriented capabilities
 
-    a.  It has objects which can contain data and methods that act upon that data.
+   - It has objects which can contain data and methods that act upon that data.
 
-    b.  It does not have classes, but it does have constructors which do what classes do, including acting as containers for class variables and methods. It does not have class-oriented inheritance, but it does have prototype-oriented inheritance.
+   - It does not have classes, but it does have constructors which do what classes do, including acting as containers for class variables and methods. It does not have class-oriented inheritance, but it does have prototype-oriented inheritance.
 
-    c.  The two main ways of building up object systems are by inheritance (is-a) and by aggregation (has-a). JavaScript does both, but its dynamic nature allows it to excel at aggregation.
+   - The two main ways of building up object systems are by inheritance (is-a) and by aggregation (has-a). JavaScript does both, but its dynamic nature allows it to excel at aggregation.
 
 6. Open and cross-platform
 

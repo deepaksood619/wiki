@@ -67,9 +67,9 @@ Machine learning makes use of decision trees to predict the direction of the inp
 
     5. For each child node/subset:
 
-        i.  if subset is pure: STOP
+       - if subset is pure: STOP
 
-        ii. else: Split (child_node, {subset})
+       - else: Split (child_node, {subset})
 - Ross Quinlan (ID3: 1986), (C4.5: 1993)
 - Breimanetal (CaRT: 1984) from statistics
 

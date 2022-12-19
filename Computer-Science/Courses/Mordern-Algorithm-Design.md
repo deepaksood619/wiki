@@ -24,7 +24,7 @@ Modified: 2020-02-10 11:07:10 +0500
 
 9. Streaming Algorithms
 
-    a.  sliding window sampling algorithms
+   - sliding window sampling algorithms
 
 10. External Memory Algorithm
 

@@ -182,47 +182,47 @@ Gain operational insights and take action on AWS resources
 
 1. Security
 
-    a.  Identity foundation
+   - Identity foundation
 
-    b.  Enabling traceability
+   - Enabling traceability
 
-    c.  Security at all layers
+   - Security at all layers
 
-    d.  Risk assessment and mitigation strategies
+   - Risk assessment and mitigation strategies
 
 2. Reliability
 
-    a.  Dynamically acquire computing resources to meet demand
+   - Dynamically acquire computing resources to meet demand
 
-    b.  Recover quickly from infrastructure or service failures
+   - Recover quickly from infrastructure or service failures
 
-    c.  Mitigate disruptions such as:
+   - Mitigate disruptions such as:
 
-        i.  Misconfigurations
+       - Misconfigurations
 
-        ii. Transient network issues
+       - Transient network issues
 
 3. Cost Optimization
 
-    a.  Measure efficiency
+   - Measure efficiency
 
-    b.  Eliminate unneeded expense
+   - Eliminate unneeded expense
 
-    c.  Consider using managed services
+   - Consider using managed services
 
 4. Performance Efficiency
 
-    a.  Choose efficient resources and maintain their efficiency as demand changes
+   - Choose efficient resources and maintain their efficiency as demand changes
 
-    b.  Democratize advanced technologies
+   - Democratize advanced technologies
 
-    c.  Mechanical sympathy
+   - Mechanical sympathy
 
 5. Operation Excellence
 
-    a.  The ability to run and monitor systems
+   - The ability to run and monitor systems
 
-    b.  To continually impove supporting process and procedures
+   - To continually impove supporting process and procedures
 
 ## Edge Location - Point of Presence
 

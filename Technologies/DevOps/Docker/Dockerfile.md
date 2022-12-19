@@ -46,9 +46,9 @@ FROM python:3.7.2-slim
 
 3. RUN
 
-    a.  APT-GET
+   - APT-GET
 
-    b.  USING PIPES
+   - USING PIPES
 
 4. CMD
 

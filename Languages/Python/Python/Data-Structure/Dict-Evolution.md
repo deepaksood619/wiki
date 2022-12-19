@@ -18,11 +18,11 @@ Python3.6 - Ordered (Compact dictionaries, dict_size = 112)
 
 3. Separate Chaining
 
-    a.  separate_chaining(2)
+   - separate_chaining(2)
 
-    b.  separate_chaining(4)
+   - separate_chaining(4)
 
-    c.  separate_chaining(8) (remove collisions, but wasted space due to over allocations for lists to grow)
+   - separate_chaining(8) (remove collisions, but wasted space due to over allocations for lists to grow)
 
 4. Open Addressing
 
@@ -34,11 +34,11 @@ Can have catatrophic collision wherever every item hash to same value
 
 7. Compact Dict
 
-    a.  Use a list to store the lookups
+   - Use a list to store the lookups
 
-    b.  This list can be read in very less cache-line
+   - This list can be read in very less cache-line
 
-    c.  Use a dirty bit for lookup in the dictionary
+   - Use a dirty bit for lookup in the dictionary
 
 ## References
 

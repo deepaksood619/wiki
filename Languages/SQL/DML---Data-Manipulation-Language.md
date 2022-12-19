@@ -6,7 +6,12 @@ Modified: 2021-10-16 00:46:32 +0500
 
 ---
 
-DML (Data Manipulation Language) commands [need to be](http://www.dba-oracle.com/t_dml_statements.htm)**commited/rolled back**
+DML (Data Manipulation Language) commands [need to be](http://www.dba-oracle.com/t_dml_statements.htm) **commited/rolled back**
+
+```sql
+-- online query without locking the tables during update
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+```
 
 ## DML
 

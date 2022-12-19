@@ -48,33 +48,33 @@ To scale up we do following things -
     - Availability
     - Partition Tolerance2.  Distributed Computation
 
-    a.  MapReduce
+   - MapReduce
 
-        1.  Map (Tokenize words and count using key-value pairs)
+        1. Map (Tokenize words and count using key-value pairs)
 
-        2.  Shuffle (Get same words near each other)
+        2. Shuffle (Get same words near each other)
 
-        3.  Reduce
+        3. Reduce
 
-        4.  Hadoop
+        4. Hadoop
 
-        5.  Spark
+        5. Spark
 
-        6.  Kafka
+        6. Kafka
 
 3. Messaging
 
-    a.  Means of loosely coupling subsystems
+   - Means of loosely coupling subsystems
 
-    b.  Messages consumed by subscribers
+   - Messages consumed by subscribers
 
-    c.  Created by one or more producers
+   - Created by one or more producers
 
-    d.  Organized into topics
+   - Organized into topics
 
-    e.  Processed by brokers
+   - Processed by brokers
 
-    f.  Usually persistent over the short term
+   - Usually persistent over the short term
 
 ## Problems
 

@@ -1,6 +1,98 @@
 {
   "recentFiles": [
     {
+      "basename": "Project---Product---Business---Tools---SAAS",
+      "path": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "Office/HR-^M-Interviews/Interviews---Others/Archive.md"
+    },
+    {
+      "basename": "DDL---Data-Definition-Language",
+      "path": "Languages/SQL/DDL---Data-Definition-Language.md"
+    },
+    {
+      "basename": "Create-Table",
+      "path": "Languages/SQL/DDL---Data-Definition-Language/Create-Table.md"
+    },
+    {
+      "basename": "DML---Data-Manipulation-Language",
+      "path": "Languages/SQL/DML---Data-Manipulation-Language.md"
+    },
+    {
+      "basename": "DCL---Data-Control-Language",
+      "path": "Languages/SQL/DCL---Data-Control-Language.md"
+    },
+    {
+      "basename": "SQL-Examples",
+      "path": "Languages/SQL/SQL-Examples.md"
+    },
+    {
+      "basename": "example-sql-queries",
+      "path": "Languages/SQL/example-sql-queries.md"
+    },
+    {
+      "basename": "SQL-Views",
+      "path": "Languages/SQL/SQL-Views.md"
+    },
+    {
+      "basename": "SQL-Joins",
+      "path": "Languages/SQL/SQL-Joins.md"
+    },
+    {
+      "basename": "Isolation-Levels",
+      "path": "Databases/Concepts/Isolation-Levels.md"
+    },
+    {
+      "basename": "Obsidian---Note-Taking---Second-Brain",
+      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+    },
+    {
+      "basename": "Intro",
+      "path": "Algorithms/Data-Compression/Intro.md"
+    },
+    {
+      "basename": "File-Formats",
+      "path": "Computer-Science/Networking/Others/File-Formats.md"
+    },
+    {
+      "basename": "Configs",
+      "path": "Technologies/DevOps/Others/Servers/NGINX/Configs.md"
+    },
+    {
+      "basename": "Run-Length-Encoding",
+      "path": "Algorithms/Data-Compression/Run-Length-Encoding.md"
+    },
+    {
+      "basename": "Others",
+      "path": "Algorithms/Data-Compression/Others.md"
+    },
+    {
+      "basename": "Caches---Caching",
+      "path": "Computer-Science/Operating-System/Caches---Caching.md"
+    },
+    {
+      "basename": "Retro---Timelines-Business-Logic",
+      "path": "Office/Stashfin/Retro---Timelines-Business-Logic.md"
+    },
+    {
+      "basename": "Resumes---Jobs---Companies---Company",
+      "path": "Office/Personality/Resumes---Jobs---Companies---Company.md"
+    },
+    {
+      "basename": "Component-Libraries",
+      "path": "Languages/Frontend/HTML-CSS/Component-Libraries.md"
+    },
+    {
+      "basename": "redis-py",
+      "path": "Databases/NoSQL-Databases/Redis/redis-py.md"
+    },
+    {
+      "basename": "External-Tech",
+      "path": "Office/Credentials/External-Tech.md"
+    },
+    {
       "basename": "Startup-Ideas---Physical",
       "path": "Office/Ideas/Startup-Ideas---Physical.md"
     },
@@ -39,10 +131,6 @@
     {
       "basename": "Psychology",
       "path": "Knowledge/Psychology/Psychology.md"
-    },
-    {
-      "basename": "Obsidian---Note-Taking---Second-Brain",
-      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
     },
     {
       "basename": "Static-Code-Analysis",
@@ -85,10 +173,6 @@
       "path": "Office/Personality/Interviews.md"
     },
     {
-      "basename": "Resumes---Jobs---Companies---Company",
-      "path": "Office/Personality/Resumes---Jobs---Companies---Company.md"
-    },
-    {
       "basename": "Questions-to-company",
       "path": "Office/Personality/Questions-to-company.md"
     },
@@ -115,90 +199,6 @@
     {
       "basename": "kafkacat",
       "path": "Technologies/Technologies/Kafka/kafkacat.md"
-    },
-    {
-      "basename": "Tech-&-Courses-TODO",
-      "path": "Office/TODO/Tech-&-Courses-TODO.md"
-    },
-    {
-      "basename": "D3-(Data-Driven-Documents)",
-      "path": "AI/Data-Science/Data-Visualization/D3-(Data-Driven-Documents).md"
-    },
-    {
-      "basename": "IO",
-      "path": "Languages/C++/IO.md"
-    },
-    {
-      "basename": "External-Tech",
-      "path": "Office/Credentials/External-Tech.md"
-    },
-    {
-      "basename": "Kotlin",
-      "path": "Languages/Frameworks/Android/Kotlin.md"
-    },
-    {
-      "basename": "Pinpoint---Communication---Alerting",
-      "path": "Office/Projects/Pinpoint---Communication---Alerting.md"
-    },
-    {
-      "basename": "Jenkins",
-      "path": "Technologies/DevOps/Others/Jenkins.md"
-    },
-    {
-      "basename": "Modules",
-      "path": "Office/Stashfin/Modules.md"
-    },
-    {
-      "basename": "Next-Steps---Reviews---Feedbacks---Team",
-      "path": "Office/Stashfin/Next-Steps---Reviews---Feedbacks---Team.md"
-    },
-    {
-      "basename": "Others",
-      "path": "Office/Projects/Others.md"
-    },
-    {
-      "basename": "About",
-      "path": "Office/Stashfin/About.md"
-    },
-    {
-      "basename": "Business---Product",
-      "path": "Office/Stashfin/Business---Product.md"
-    },
-    {
-      "basename": "Grafana",
-      "path": "Technologies/DevOps/Monitoring/Grafana.md"
-    },
-    {
-      "basename": "Header-files",
-      "path": "Languages/C++/Header-files.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Languages/Others/Markdown.md"
-    },
-    {
-      "basename": "Python-Tricks",
-      "path": "Languages/Python/Advanced/Python-Tricks.md"
-    },
-    {
-      "basename": "Others---Data",
-      "path": "Technologies/Technologies/Others/Others---Data.md"
-    },
-    {
-      "basename": "Ruby",
-      "path": "Languages/Others/Ruby.md"
-    },
-    {
-      "basename": "Others",
-      "path": "Technologies/Technologies/Git/Others.md"
-    },
-    {
-      "basename": "Flask",
-      "path": "Languages/Python/Others/Flask.md"
-    },
-    {
-      "basename": "Youtube---Podcasts---Magazine---Movies",
-      "path": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
     }
   ],
   "omittedPaths": [],

@@ -8,7 +8,7 @@ Modified: 2022-11-16 12:36:18 +0500
 
 1. **Migration**
 
-    a.  AWS Application Discovery Service
+   - AWS Application Discovery Service
 
 Discover On-Premises Applications to Streamline Migration
 
@@ -38,7 +38,7 @@ Exabyte-scale Data Transport
 
 2. **Management Tools**
 
-    a.  Amazon CloudWatch
+   - Amazon CloudWatch
 
 Monitor Resources and Applications
 
@@ -102,7 +102,7 @@ Personalized View of AWS Service Health
 
 3. **Media Services**
 
-    a.  Amazon Elastic Transcoder
+   - Amazon Elastic Transcoder
 
 Easy-to-use Scalable Media Transcoding
 
@@ -132,7 +132,7 @@ Video Personalization and Monetization
 
 4. **Machine Learning**
 
-    a.  Amazon SageMaker
+   - Amazon SageMaker
 
 Build, Train, and Deploy Machine Learning Models at Scale
 
@@ -197,7 +197,7 @@ Highly accurate intelligent search service powered by machine learning
 
 5. **Mobile Services**
 
-    a.  AWS Amplify
+   - AWS Amplify
 
 <https://ui.docs.amplify.aws/?platform=react>
 
@@ -231,13 +231,13 @@ Mobile Software Development Kit
 
 6. **AR & VR**
 
-    a.  Amazon Sumerian
+   - Amazon Sumerian
 
 Build and Run VR and AR Applications
 
 7. **Application Integeration**
 
-    a.  AWS Step Functions
+   - AWS Step Functions
 
 Coordinate Distributed Applications
 
@@ -271,7 +271,7 @@ Schema Registry - Now in Preview:As your applications become more interconnected
 
 8. **Customer Engagement**
 
-    a.  Amazon Connect
+   - Amazon Connect
 
 Cloud-based Contact Center
 
@@ -285,7 +285,7 @@ Email Sending and Receiving
 
 9. **Business Productivity**
 
-    a.  Alexa for Business
+   - Alexa for Business
 
 Empower your Organization with Alexa
 
@@ -309,7 +309,7 @@ Secure and Managed Business Email and Calendaring
 
 10. **Desktop & App Streaming**
 
-    a.  Amazon WorkSpaces
+- Amazon WorkSpaces
 
 Desktop Computing Service
 
@@ -319,7 +319,7 @@ Stream Desktop Applications Securely to a Browser
 
 11. **Internet of Things**
 
-    a.  AWS IoT Core
+- AWS IoT Core
 
 Connect Devices to the Cloud
 
@@ -353,7 +353,7 @@ Onboard, Organize, and Remotely Manage IoT Devices
 
 12. **Game Development**
 
-    a.  Amazon GameLift
+- Amazon GameLift
 
 Simple, Fast, Cost-effective Dedicated Game Server Hosting
 

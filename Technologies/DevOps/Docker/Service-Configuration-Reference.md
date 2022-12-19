@@ -156,9 +156,9 @@ Configures if and how to restart containers when they exit. Replaces [restart](h
 
 28. networks
 
-    a.  aliases
+- aliases
 
-    b.  ipv4, ipv6 addresses
+- ipv4, ipv6 addresses
 
 29. pid
 

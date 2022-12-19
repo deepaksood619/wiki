@@ -38,7 +38,7 @@ Recommended Calorie intake - 2800
 
 2. Eggs (Brain)
 
-    a.  Egg Yolk - Vitamin D
+   - Egg Yolk - Vitamin D
 
 <https://blog.bigbasket.com/2021/06/26/eggs-the-best-superfoods-for-everyone>
 
@@ -50,9 +50,9 @@ Recommended Calorie intake - 2800
 
 6. Fish/seafood
 
-    a.  Fatty Fish (men who ate fish at least once a month were 43% less likely to have ischemic strokes compared with men who never ate fish like tuna)
+   - Fatty Fish (men who ate fish at least once a month were 43% less likely to have ischemic strokes compared with men who never ate fish like tuna)
 
-    b.  Salmon (Brain)
+   - Salmon (Brain)
 
 7. Nimbu pani
 
@@ -78,7 +78,7 @@ Recommended Calorie intake - 2800
 
 18. Chocolate
 
-    a.  cocoa (high-flavanol cocoa drink twic a day) (boost ability to repair and regenerate)
+- cocoa (high-flavanol cocoa drink twic a day) (boost ability to repair and regenerate)
 
 19. **Sweet Potatos**
 
@@ -94,7 +94,7 @@ Recommended Calorie intake - 2800
 
 25. Soy Foods (boosts cancer-fighting defence system, 10 grams of soy protein daily)
 
-    a.  contain genistein, a potent cancer-fighting substance that suppresses the blood vessels that feed nutrients to tumors.
+- contain genistein, a potent cancer-fighting substance that suppresses the blood vessels that feed nutrients to tumors.
 
 26. **Pomegranate/Juice (keep anemia away, rich in iron)**
 

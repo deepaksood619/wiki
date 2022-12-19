@@ -14,9 +14,9 @@ Modified: 2018-07-01 22:55:14 +0500
 
 1. Introduction to graph
 
-    a.  Adjacency Matrix
+   - Adjacency Matrix
 
-    b.  Adjacency List
+   - Adjacency List
 
 2. Graph API
 
@@ -38,17 +38,17 @@ Modified: 2018-07-01 22:55:14 +0500
 
 4. Topological Sort
 
-    a.  Topological order of an acyclic digraph
+   - Topological order of an acyclic digraph
 
 5. Strong Components
 
-    a.  Kosaraju-Sharir algorithm for computing strong components of a digraph
+   - Kosaraju-Sharir algorithm for computing strong components of a digraph
 
 6. Applications
 
-    a.  Garbage Collection
+   - Garbage Collection
 
-    b.  Web Crawling
+   - Web Crawling
 
 ## Assignment
 

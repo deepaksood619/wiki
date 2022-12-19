@@ -12,7 +12,7 @@ Modified: 2021-06-06 16:54:11 +0500
 
 3. Vectors
 
-    a.  Adding vectors in magnitude and direction form
+   - Adding vectors in magnitude and direction form
 
 4. Matrices
 
@@ -20,33 +20,33 @@ Modified: 2021-06-06 16:54:11 +0500
 
 6. Probability and combinatorics
 
-    a.  Basic probability
+   - Basic probability
 
-    b.  Venn diagrams and the addition rule
+   - Venn diagrams and the addition rule
 
-    c.  Compound probability of independent events using diagrams
+   - Compound probability of independent events using diagrams
 
-    d.  Compound probability of independent events using multiplication rule
+   - Compound probability of independent events using multiplication rule
 
-    e.  Dependent events
+   - Dependent events
 
-    f.  Permutations
+   - Permutations
 
-    g.  Combinations
-    h.  **Probability using combinatorics**
+   - Combinations
+   - **Probability using combinatorics**
 
-        i.  Birthday Paradox
+       - Birthday Paradox
 
 7. Series
 
-    a.  Arithmetic sequences
+   - Arithmetic sequences
 
-    b.  Basic sigma notation
+   - Basic sigma notation
 
-    c.  Finite arithmetic series
+   - Finite arithmetic series
 
-    d.  Geometric sequences
+   - Geometric sequences
 
-    e.  Finite geometric series
+   - Finite geometric series
 
-    f.  Finite geometric series applications
+   - Finite geometric series applications

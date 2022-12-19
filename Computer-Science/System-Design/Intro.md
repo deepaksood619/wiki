@@ -37,11 +37,11 @@ Callbacks
 
 3. Availability (CAP Theorem)
 
-    a.  Consistency
+   - Consistency
 
-    b.  Availability, and
+   - Availability, and
 
-    c.  Partition Tolerance
+   - Partition Tolerance
 
 4. Latency Performance (If customer facing application, then latency matters)
 
@@ -105,9 +105,9 @@ Callbacks
 
 1. Scaling
 
-    a.  Vertical Scaling / Scale up (Add more CPU, RAM, Storage to an existing host)
+   - Vertical Scaling / Scale up (Add more CPU, RAM, Storage to an existing host)
 
-    b.  Horizontal Scaling / Scale out (Keep one host small and add another host)
+   - Horizontal Scaling / Scale out (Keep one host small and add another host)
 Vertical Scaling is expensive and have a limit whereas Horizontal Scaling is cheap. But we have to take care of distributed systems problem in Horizontal Scaling and not in Vertical Scaling.
 2. Data Centers / Rack / Hosts
 

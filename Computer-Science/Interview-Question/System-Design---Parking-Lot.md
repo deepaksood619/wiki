@@ -18,47 +18,47 @@ Problem Statement - Design a parking lot, Wants a system to manage thousands of 
 
 2. Clarify question like
 
-    a.  do you want a system design
+   - do you want a system design
 
-    b.  do you want class hierarchy
+   - do you want class hierarchy
 
 3. Systematic Approach (take a step back and don't rush)
 
-    a.  How is the parking lot designed?
+   - How is the parking lot designed?
 
-        i.  Building
+       - Building
 
-        ii. Open space
+       - Open space
 
-        iii. Assessibility
+       - Assessibility
 
-    b.  How many spots
+   - How many spots
 
-        i.  10 spots
+       - 10 spots
 
-        ii. 1000 spots multiple buildings
+       - 1000 spots multiple buildings
 
-    c.  Multiple levels?
+   - Multiple levels?
 
-        i.  depedencies
+       - depedencies
 
-        ii. optimize to fill up certain areas first
-    d.  **Multiple entrances**
+       - optimize to fill up certain areas first
+   - **Multiple entrances**
 
-        i.  **Concurrency issue**
+       - **Concurrency issue**
 
-        ii. **race condition** (When system tries to access same spot at same time)
-    e.  Pricing strategy
+       - **race condition** (When system tries to access same spot at same time)
+   - Pricing strategy
 
-        i.  Premium
+       - Premium
 
-        ii. Fair pricing strategy if the required size parking spot not available
+       - Fair pricing strategy if the required size parking spot not available
 
-        iii. Parking spot for disability (near to entrance)
+       - Parking spot for disability (near to entrance)
 
-        iv. Economical parking spot
+       - Economical parking spot
 
-        v.  Dynamic pricing (Higher pricing at high rush hour)
+       - Dynamic pricing (Higher pricing at high rush hour)
 
 Design a system for 4 sizes -
 

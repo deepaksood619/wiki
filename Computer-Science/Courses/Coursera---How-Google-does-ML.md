@@ -51,17 +51,17 @@ Prediction / Inference Phase
 
 2. Inclusive ML
 
-    a.  **Equality of opportunity**
+   - **Equality of opportunity**
 
-    b.  **How to find errors in your dataset using Facets**
+   - **How to find errors in your dataset using Facets**
 
 3. Bias
 
-    a.  interaction bias (when a set of people are used they tend to draw generic things and computer then is biased towards non-generic things)
+   - interaction bias (when a set of people are used they tend to draw generic things and computer then is biased towards non-generic things)
 
-    b.  latent bias (when fed pictures of scientists, model can be biased towards men)
+   - latent bias (when fed pictures of scientists, model can be biased towards men)
 
-    c.  selection bias (select photos to train model from every place and not your album)
+   - selection bias (select photos to train model from every place and not your album)
 
 4. Ingest-transform-publish data
 

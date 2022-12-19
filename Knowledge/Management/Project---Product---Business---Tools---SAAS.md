@@ -62,7 +62,7 @@ NocoDB is an open source #NoCode platform that turns any database into a smart s
 
 9. BaseCamp
 
-    a.  workday
+   - workday
 
 10. firmbee
 

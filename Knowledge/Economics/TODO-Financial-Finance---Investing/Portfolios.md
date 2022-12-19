@@ -152,15 +152,15 @@ How to choose a financial product?
 
 1. 5000 per month SIPs
 
-    a.  ICICI Prudential Focused Bluechip Fund - Direct
+   - ICICI Prudential Focused Bluechip Fund - Direct
 
-    b.  Kotak Select Focus Fund - Regular
+   - Kotak Select Focus Fund - Regular
 
-    c.  Mirae Asset Emerging Bluechip Fund - Regular
+   - Mirae Asset Emerging Bluechip Fund - Regular
 
-    d.  ABSL Pure Value Fund - Regular
+   - ABSL Pure Value Fund - Regular
 
-    e.  Reliance Small Cap Fund - Direct
+   - Reliance Small Cap Fund - Direct
 
 2. 6 schemes with double digit annualised returns
     - Parag Parikh long term equity fund (12.89%)

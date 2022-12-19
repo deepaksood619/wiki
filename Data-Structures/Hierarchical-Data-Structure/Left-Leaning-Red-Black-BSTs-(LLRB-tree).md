@@ -10,9 +10,9 @@ Modified: 2018-02-06 09:44:20 +0500
 
 1. Left-leaning red-black BSTs
 
-    a.  Represent 2-3 tree as a BST
+   - Represent 2-3 tree as a BST
 
-    b.  Use internal left-leaning links as glue for 3-nodes
+   - Use internal left-leaning links as glue for 3-nodes
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image1.png)
 a.  Properties
     - No node has two red links connected to it
@@ -36,7 +36,7 @@ b.  Operations
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image9.png)
 6. Insertion in a LLRB tree
 
-    a.  Basic Strategy
+   - Basic Strategy
 
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image10.png)
 

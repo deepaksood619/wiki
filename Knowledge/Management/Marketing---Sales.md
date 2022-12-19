@@ -588,19 +588,19 @@ Interstitial ads are full-screen ads that cover the interface of their host app.
 
 1. **SMS**
 
-    a.  msg91
+   - msg91
 
-    b.  pinpoint
+   - pinpoint
 
 2. **Email**
 
-    a.  pinpoint
+   - pinpoint
 
-    b.  sendgrid
+   - sendgrid
 
 3. **Push notifications**
 
-    a.  Firebase
+   - Firebase
 
 4. **IVR**
 

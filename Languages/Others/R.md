@@ -78,13 +78,13 @@ Getting data from two dimensional data structure
 
 5. Data Structures
 
-    a.  lists
+   - lists
 
-    b.  trees
+   - trees
 
-    c.  Vectors
+   - Vectors
 
-    d.  tibble (data_frame data structure <- tidyverse package
+   - tibble (data_frame data structure <- tidyverse package
 
 tibble()is a nice way to create data frames.
 

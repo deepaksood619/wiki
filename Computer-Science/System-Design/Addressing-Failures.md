@@ -18,25 +18,25 @@ A cascading failure is a failure that grows over time as a result of positive fe
 
 3. CPU
 
-    a.  Increased number of in-flight requests
+   - Increased number of in-flight requests
 
-    b.  Excessively long queue lengths
+   - Excessively long queue lengths
 
-    c.  Thread starvation
+   - Thread starvation
 
-    d.  CPU or request starvation
+   - CPU or request starvation
 
-    e.  Missed RPC Deadlines
+   - Missed RPC Deadlines
 
-    f.  Reduced CPU caching benefits
+   - Reduced CPU caching benefits
 
 4. Memory
 
-    a.  Dying tasks
+   - Dying tasks
 
-    b.  Increases rate of Garbage Collection (GC), resulting in increased CPU Usage
+   - Increases rate of Garbage Collection (GC), resulting in increased CPU Usage
 
-    c.  Reduction in cache hit rates
+   - Reduction in cache hit rates
 
 5. Threads
 

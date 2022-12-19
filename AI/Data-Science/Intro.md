@@ -119,9 +119,9 @@ Data handling - querying, slicing, joining
 
 1. Plotting libraries
 
-    a.  Matplotlib
+   - Matplotlib
 
-    b.  Bokeh
+   - Bokeh
 
 2. Numpy
 
@@ -180,13 +180,13 @@ The grouping of relevant words is highly suggestive of an abstract theme which i
 - A topic example - tobacco, farm, crops
 - Steps to perform topic modeling
 
-    i.  Remove stop words
+  - Remove stop words
 
-    ii. Stripping punctuation
+  - Stripping punctuation
 
-    iii. Bigram collocation detection
+  - Bigram collocation detection
 
-    iv. Lemmatization
+  - Lemmatization
 - Topic dendrograms (for hierarical clustering)
 - Topic graphs
 - Difference between graphs and dendrograms

@@ -261,29 +261,29 @@ Neurons that fall out of sync lose their link
 
 1. **Design your project well**
 
-    a.  Pick your constraints carefully
+   - Pick your constraints carefully
 
-    b.  Set aside enough time
+   - Set aside enough time
 
-    c.  Limit your materials and methods
+   - Limit your materials and methods
 
 2. **Train focus and productivity**
 
-    a.  Eliminate distractions
+   - Eliminate distractions
 
-    b.  Create a productivity system
+   - Create a productivity system
 
-    c.  Progressively train your focus
+   - Progressively train your focus
 
 3. **Learn actively**
 
 4. **Quicker, deeper, more accurate feedback cycles**
 
-    a.  Do the cycles more quickly
+   - Do the cycles more quickly
 
-    b.  Do the cycles more deeply
+   - Do the cycles more deeply
 
-    c.  Get more accurate feedback
+   - Get more accurate feedback
 
 5. **Space your practice out**
 
@@ -297,47 +297,47 @@ Neurons that fall out of sync lose their link
 
 2. Metalearning is a crucial, yet overlooked, step for reaching a big-picture understanding of your field
 
-    a.  Metalearning - Process of learning how to learn
+   - Metalearning - Process of learning how to learn
 
-    b.  Breakdown by creating metalearning map
+   - Breakdown by creating metalearning map
 
-        i.  **concepts -** what needs to be understood
+       - **concepts -** what needs to be understood
 
-        ii. **facts -** what needs to be memorized
+       - **facts -** what needs to be memorized
 
-        iii. **procedures -** what needs to be done
+       - **procedures -** what needs to be done
 
-    c.  Benchmarking - research people who've acquired a similar skill or institutions that offer accreditation in your field of study
+   - Benchmarking - research people who've acquired a similar skill or institutions that offer accreditation in your field of study
 
-    d.  Allocate 10% of the total time for metalearning
+   - Allocate 10% of the total time for metalearning
 
 3. Simple mental strategies can defend against distractions and refine your focus
 
-    a.  pomodoro technique
+   - pomodoro technique
 
-    b.  interleaving - deliberately alternate between materials and modes of learning
+   - interleaving - deliberately alternate between materials and modes of learning
 
-    c.  mental arousal - levels of energy and alertness
+   - mental arousal - levels of energy and alertness
 
 4. Taking the shortest route from theory to practice allows you to skill up smoothly
 
-    a.  Transfer - process of learning something in one context and then transfering it to another
+   - Transfer - process of learning something in one context and then transfering it to another
 
-    b.  directness - project based learning
+   - directness - project based learning
 
-    c.  immersive learning
+   - immersive learning
 
 5. Use drilling to hone your skills to perfection
 
-    a.  direct-then-drill approach
+   - direct-then-drill approach
 
-    b.  rate-determining step - part of the process that precipitates a chain reaction, unlocks the next level of knowledge or opens up the broadest range of applications
+   - rate-determining step - part of the process that precipitates a chain reaction, unlocks the next level of knowledge or opens up the broadest range of applications
 
-    c.  time-slicing - isolate one step in a more involved process and repeat the step until you've pefected it
+   - time-slicing - isolate one step in a more involved process and repeat the step until you've pefected it
 
 6. Using challenging recall strategies is the best way to retrieve information you've learned
 
-    a.  judgement of learning - reason we prefer review over recall
+   - judgement of learning - reason we prefer review over recall
 
 Essentially, when we're able to process or understand a concept without difficulty, we judge that we've learned that concept. Reading back over something we've already learned creates the impression that we've grasped this new information. That's why we gravitate towards passive review strategies: they conform our perception that we're learning successfully
 
@@ -349,31 +349,31 @@ c.  free recall - write down everything you've learned, in as much detail as pos
 
 7. Elicit high-quality feedback to identify your weaknesses and improve your performance
 
-    a.  Outcome feedback
+   - Outcome feedback
 
-    b.  Informational feedback
+   - Informational feedback
 
-    c.  Corrective feedback
+   - Corrective feedback
 
 8. Smart, strategically-spaced memorization sessions ensure that what you learn really sticks
 
-    a.  Spaced Repetition System (SRS)
+   - Spaced Repetition System (SRS)
 
-    b.  Refresher project
+   - Refresher project
 
-    c.  Overlearning
+   - Overlearning
 
 9. Cultivating deep understanding is the surest path to finding your intuitive brilliance
 
-    a.  embrace the struggle
+   - embrace the struggle
 
 10. Strategic experimentation lays the groundwork for true innovation
 
-    a.  copy then create
+- copy then create
 
 11. Actionable advice - Pick the brain of an expert
 
-    a.  project aligns with you career objectives
+- project aligns with you career objectives
 
 [Josh Waitzkin --- How to Cram 2 Months of Learning into 1 Day | The Tim Ferriss Show](https://www.youtube.com/watch?v=4r6gr7uytQA)
 

@@ -71,109 +71,109 @@ A distributed real-time document store whereevery fieldis indexed and searchable
 
 1. **Getting Started**
 
-    a.  You Know, for Search
+   - You Know, for Search
 
-    b.  Life Inside a Cluster
+   - Life Inside a Cluster
 
-    c.  Data In, Data Out
+   - Data In, Data Out
 
-    d.  Distributed Document Store
+   - Distributed Document Store
 
-    e.  Searching - The Basic Tools
+   - Searching - The Basic Tools
 
-    f.  Mapping and Analysis
+   - Mapping and Analysis
 
-    g.  Full-Body Search
+   - Full-Body Search
 
-    h.  Sorting and Relevance
+   - Sorting and Relevance
 
-    i.  Distributed Search Execution
+   - Distributed Search Execution
 
-    j.  Index Management
+   - Index Management
 
-    k.  Inside a Shard
+   - Inside a Shard
 
 2. **Search in Depth**
 
-    a.  Structured Search
+   - Structured Search
 
-    b.  Full-Text Search
+   - Full-Text Search
 
-    c.  Multifield Search
+   - Multifield Search
 
-    d.  Proximity Matching
+   - Proximity Matching
 
-    e.  Partial Matching
+   - Partial Matching
 
-    f.  Controlling Relevance
+   - Controlling Relevance
 
 3. **Dealing with Human Language**
 
-    a.  Getting Started with Languages
+   - Getting Started with Languages
 
-    b.  Indentifying Words
+   - Indentifying Words
 
-    c.  Normalizing Tokens
+   - Normalizing Tokens
 
-    d.  Reducing Words to Their Root Form
+   - Reducing Words to Their Root Form
 
-    e.  Stopwords: Performance Versus Precision
+   - Stopwords: Performance Versus Precision
 
-    f.  Synonyms
+   - Synonyms
 
-    g.  Typoes and Mispelings
+   - Typoes and Mispelings
 
 4. **Aggregations**
 
-    a.  High-Level Concepts
+   - High-Level Concepts
 
-    b.  Aggregation Test-Drive
+   - Aggregation Test-Drive
 
-    c.  Building Bar Charts
+   - Building Bar Charts
 
-    d.  Looking at Time
+   - Looking at Time
 
-    e.  Scoping Aggregations
+   - Scoping Aggregations
 
-    f.  Sorting Queries and Aggregations
+   - Sorting Queries and Aggregations
 
-    g.  Sorting Multivalue Buckets
+   - Sorting Multivalue Buckets
 
-    h.  Approximate Aggregations
+   - Approximate Aggregations
 
-    i.  Significant Terms
+   - Significant Terms
 
-    j.  Doc Values and Fielddata
+   - Doc Values and Fielddata
 
-    k.  Closing Thoughts
+   - Closing Thoughts
 
 5. **Geolocation**
 
-    a.  Geo Points
+   - Geo Points
 
-    b.  Geohashes
+   - Geohashes
 
-    c.  Geo Aggregations
+   - Geo Aggregations
 
-    d.  Goe Shapes
+   - Goe Shapes
 
 6. **Modeling Your Data**
 
-    a.  Handling Relationships
+   - Handling Relationships
 
-    b.  Nested Objects
+   - Nested Objects
 
-    c.  Parent-Child Relationship
+   - Parent-Child Relationship
 
-    d.  Designing for Scale
+   - Designing for Scale
 
 7. **Administration, Monitoring, and Deployment**
 
-    a.  Monitoring
+   - Monitoring
 
-    b.  Production Deployment
+   - Production Deployment
 
-    c.  Post-Deployment
+   - Post-Deployment
 
 ## References
 

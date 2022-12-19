@@ -353,35 +353,35 @@ You Have More Time Than You Think
 
 2. Process
 
-    a.  Is it Actionable
+   - Is it Actionable
 
-    b.  Would it take 2 minutes or less
+   - Would it take 2 minutes or less
 
-        i.  Yes, do it now
+       - Yes, do it now
 
-        ii. Else, go to 3.
+       - Else, go to 3.
 
 3. Organize
 
-    a.  Project
+   - Project
 
-        i.  Personal
+       - Personal
 
-        ii. Work
+       - Work
 
-    b.  Time
+   - Time
 
-        i.  By deadlines (use calendar)
+       - By deadlines (use calendar)
 
-    c.  Context
+   - Context
 
 4. Review
 
-    a.  Weekly review the tasks for next week keeping 3-5 years vision in mind
+   - Weekly review the tasks for next week keeping 3-5 years vision in mind
 
-    b.  Can do done at same time and place every week
+   - Can do done at same time and place every week
 
-    c.  Treat yourself after reviewing
+   - Treat yourself after reviewing
 
 5. Engage
 
@@ -526,59 +526,59 @@ Some more granular principles for how to do all of the above and weigh your opti
 
 1. Recognize that
 
-    i.  the biggest thread to good decision making is harmful emotions, and
+   - the biggest thread to good decision making is harmful emotions, and
 
-    ii. decision making is a two-step process (first learning and then deciding)
+   - decision making is a two-step process (first learning and then deciding)
 
 Never seize on the first available option, no matter how good it seems, before you have asked questions and explored.
 
 2. Synthesize the situation at hand -
 
-    i.  One of the most important decisions you can make is who you ask questions of
+   - One of the most important decisions you can make is who you ask questions of
 
-    ii. Dont believe everything you hear
+   - Dont believe everything you hear
 
-    iii. Everything looks bigger up close - That's why it helps to step back to gain perspective and sometimes defer a decision until some time passes
+   - Everything looks bigger up close - That's why it helps to step back to gain perspective and sometimes defer a decision until some time passes
 
-    iv. New is overvalued relative to great
+   - New is overvalued relative to great
 
-    v.  Dont oversqueeze dots - A dot is just one piece of data from one moment in time; keep that perspective as you synthesize
+   - Dont oversqueeze dots - A dot is just one piece of data from one moment in time; keep that perspective as you synthesize
 
 3. Synthesize the situation through time
 
-    i.  Keep in mind both the rates of change and level of things and the relationships between them
+   - Keep in mind both the rates of change and level of things and the relationships between them
 
-    ii. Be imprecise - Understand the concept of "by and large" - it is the level at which you need to understand most things in order to make effective decisions
+   - Be imprecise - Understand the concept of "by and large" - it is the level at which you need to understand most things in order to make effective decisions
 
-    iii. Remember the 80/20 rule and know what the key 20 percent (to learn or where your effort should go) is
+   - Remember the 80/20 rule and know what the key 20 percent (to learn or where your effort should go) is
 
-    iv. Be an imprefectionist
+   - Be an imprefectionist
 
 4. Logic, reason, and common sense are your best tools for synthesizing reality and understanding what to do about it
 
 5. Make your decisions as expected value calculations - all of you have read about "expected value" in your basic probability course. Sometimes its smart to take a chance even when the odds are overwhelmingly against you if the cost of being wrong is negligible relative to the reward that comes with the slim chance of being right.
 
-    i.  Raising the probability of being right is valuable no matter what your probability of being right already is
+   - Raising the probability of being right is valuable no matter what your probability of being right already is
 
-    ii. Knowing when not to bet is as important as knowing what bets are probably worth making
+   - Knowing when not to bet is as important as knowing what bets are probably worth making
 
-    iii. The best choices are the ones that have more pros than cons, not those that dont have any cons at all
+   - The best choices are the ones that have more pros than cons, not those that dont have any cons at all
 
 6. Prioritize by weighing the value of additional information against the cost of not deciding
 
-    i.  All of your must-dos must be above the bar before you do your like-to-dos
+   - All of your must-dos must be above the bar before you do your like-to-dos
 
-    ii. Dont mistake possibilities for probabilities
+   - Dont mistake possibilities for probabilities
 
 7. Simplify - "Any damn foos can make it complex. It takes a genius to make it simple."
 
 8. Use principles
 
-    i.  Slow down your thinking so you can note the criteria you are using to make your decision
+   - Slow down your thinking so you can note the criteria you are using to make your decision
 
-    ii. Write the criteria down as a principle
+   - Write the criteria down as a principle
 
-    iii. Think about those criteria when you have an outcome to assess, and refine them before the next "one of those" comes along
+   - Think about those criteria when you have an outcome to assess, and refine them before the next "one of those" comes along
 
 9. Believability weight your decision making - In case of disagreement with others, start by seeing if you can agree on principles that should be used to make that decision. If you disagree on the principles, try to work through your disagreement based on your respective believability.
 

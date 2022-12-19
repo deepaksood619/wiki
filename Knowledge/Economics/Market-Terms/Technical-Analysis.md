@@ -107,9 +107,9 @@ Hence, candlesticks can be broken down into single candlestick pattern and multi
 
 1. Marubozu (bald)
 
-    i.  Bullish Marubozu
+   - Bullish Marubozu
 
-    ii. Bearish Marubozu
+   - Bearish Marubozu
 
 1. Remember the rules based on which candlesticks work
 
@@ -161,9 +161,9 @@ In Japanese, Doji means blunder or mistake
 
 4. Paper umbrella
 
-    i.  Hammer
+   - Hammer
 
-    ii. Hanging man
+   - Hanging man
 
 5. Shooting star
 
@@ -197,15 +197,15 @@ Multiple candlestick patterns are a combination of multiple candles.
 
 1. Engulfing pattern
 
-    i.  Bullish Engulfing
+   - Bullish Engulfing
 
-    ii. Bearish Engulfing
+   - Bearish Engulfing
 
 2. Harami
 
-    i.  Bullish Harami
+   - Bullish Harami
 
-    ii. Bearish Harami
+   - Bearish Harami
 
 3. Piercing Pattern
 

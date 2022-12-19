@@ -7,19 +7,19 @@ Modified: 2019-08-21 21:48:25 +0500
 ---
 
 1. Sequences
-    a.  C++ Vectors
-    b.  C++ Lists
-    c.  C++ Double-Ended Queues
+   - C++ Vectors
+   - C++ Lists
+   - C++ Double-Ended Queues
 2. Container Adapters
-    a.  C++ Stacks
-    b.  C++ Queues
-    c.  C++ Priority Queues
+   - C++ Stacks
+   - C++ Queues
+   - C++ Priority Queues
 3. Associative Containers
-    a.  C++ Bitsets
-    b.  C++ Maps
-    c.  C++ Multimaps
-    d.  C++ Sets
-    e.  C++ Multisets
+   - C++ Bitsets
+   - C++ Maps
+   - C++ Multimaps
+   - C++ Sets
+   - C++ Multisets
 
 ## C++ Vector
 

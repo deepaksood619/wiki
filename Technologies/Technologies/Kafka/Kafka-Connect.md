@@ -160,39 +160,39 @@ curl -s -X PUT -H "Content-Type:application/json" --data '{"connector.class": "c
 
 a.  Kafka Connect framework configurations
 
-    i.  name
+- name
 
-    ii. tasks.max (1)
+- tasks.max (1)
 
-    iii. connector.class (com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector)
+- connector.class (com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector)
 
 b.  Connector Configurations
 
-    i.  connect.mqtt.ksql
+- connect.mqtt.ksql
 
-    ii. connect.mqtt.hosts
+- connect.mqtt.hosts
 
 c.  Optional Configurations
 
-    i.  connect.mqtt.service.quality (default - 1)
+- connect.mqtt.service.quality (default - 1)
 
-    ii. connect.mqtt.username
+- connect.mqtt.username
 
-    iii. connect.mqtt.password
+- connect.mqtt.password
 
-    iv. connect.mqtt.client.id
+- connect.mqtt.client.id
 
-    v.  connect.mqtt.timeout (default - 3000ms)
+- connect.mqtt.timeout (default - 3000ms)
 
-    vi. connect.mqtt.clean (default - true)
+- connect.mqtt.clean (default - true)
 
-    vii. connect.mqtt.keep.alive (default - 5000)
+- connect.mqtt.keep.alive (default - 5000)
 
-    viii. connect.mqtt.converter.throw.on.error (default - false)
+- connect.mqtt.converter.throw.on.error (default - false)
 
-    ix. connect.converter.avro.schemas
+- connect.converter.avro.schemas
 
-    x.  connect.progress.enabled
+- connect.progress.enabled
 
 ## Commands
 

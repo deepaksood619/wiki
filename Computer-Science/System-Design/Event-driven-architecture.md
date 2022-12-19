@@ -22,13 +22,13 @@ Other example events include
 
 1. Event Notification
 
-    a.  **Events** (Fire and forget, does not mandate someone to take an action. Someone listening can take an action or do nothing)
+   - **Events** (Fire and forget, does not mandate someone to take an action. Someone listening can take an action or do nothing)
 
-    b.  **Commands** (Tells some service to do a particular thing)
+   - **Commands** (Tells some service to do a particular thing)
 
-    c.  Problem
+   - Problem
 
-        i.  No statement of overall behavior (There is no fixed set of tasks that must be performed when some event happens)
+       - No statement of overall behavior (There is no fixed set of tasks that must be performed when some event happens)
 
 2. Event-carried state transfer
     - All the state is transfered with the event like what has old state, what is new state.

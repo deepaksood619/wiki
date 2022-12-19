@@ -84,7 +84,7 @@ Cmd + Shift + A + Enter (to cycle between tabs)
 
 9. **Google Chrome apps**
 
-    a.  Keep Desktop app
+   - Keep Desktop app
 
 Go to keep.google.com > go to chrome more tools > create shortcut > check open as new window
 
@@ -116,21 +116,21 @@ Go to keep.google.com > go to chrome more tools > create shortcut > check open a
 
 20. example
 
-    a.  **OpenVPN**
+- **OpenVPN**
 
-    b.  **Slack**
+- **Slack**
 
-    c.  dbeaver
+- dbeaver
 
-    d.  **mysql workbench**
+- **mysql workbench**
 
-    e.  Microsoft office
+- Microsoft office
 
-    f.  **postman**
+- **postman**
 
-    g.  **Android studio**
+- **Android studio**
 
-    h.  **Remote desktop**
+- **Remote desktop**
 
 ## brew
 

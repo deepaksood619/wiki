@@ -28,9 +28,9 @@ Ex - 5mph East is a vector quantity (and we will not call this as speed, we will
 span(v1 + v2 + v3 + ... + vn) = {c1v1 + c2v2 + c3v3 + ... + cnvn | ci belongs to set of Real numbers and 1 <= i <= n}
 3.  [Linear dependence and independence](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces#linear-independence)
 
-    a.  Linear dependent - Means one vector in the set can be represented as other vectors in the set.
+- Linear dependent - Means one vector in the set can be represented as other vectors in the set.
 
-    b.  Linear Independent - If we cannot scale using any scalar one vector to the other vector in the set, than both are linearly independent of each other
+- Linear Independent - If we cannot scale using any scalar one vector to the other vector in the set, than both are linearly independent of each other
 
 C1 and C2 must be equal to 0 for R2
 

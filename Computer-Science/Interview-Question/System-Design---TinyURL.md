@@ -99,17 +99,17 @@ Convert 43 bits to 7 characters long url
 3. Map 0 - 61 to characters
 3. Counter
 
-    i.  Single Host
-        -   a single maintainer is responsible to maintain the counter
-        -   Can be a database or a zookeeper instance
-        -   Every worker thread requests a counter maintainer to give it a counter, and using that counter worker creates the tiny url
-        -   Problem - Single point of contact, single point of failure, single point of bottleneck
+   - Single Host
+        - a single maintainer is responsible to maintain the counter
+        - Can be a database or a zookeeper instance
+        - Every worker thread requests a counter maintainer to give it a counter, and using that counter worker creates the tiny url
+        - Problem - Single point of contact, single point of failure, single point of bottleneck
 
-    ii. All Host
-        -   Every worker will be responsible to generate a unique number according to there worker id, timestamp and some uniqueness
-        -   Problem - Can cause collision if requests increases
+   - All Host
+        - Every worker will be responsible to generate a unique number according to there worker id, timestamp and some uniqueness
+        - Problem - Can cause collision if requests increases
 
-    iii. Range Based
+   - Range Based
          -   We divide the total 3.5 trillion combinations into ranges, every worker will be alloted each range. Ranges can be divided into billions which will also be divided into millions
          -   These all allotments of ranges is maintained by zookeeper
          -   It guarantees that there are no collisions.

@@ -54,11 +54,11 @@ Estimating a discrete sum (replace sum with an integral, and use calculus)
 
 1. 3-Sum Problem can be improved -
 
-    a.  Sort the input array
+   - Sort the input array
 
-    b.  For each pair of number a[i] and a[j], binary search for -(a[i] + a[j])
+   - For each pair of number a[i] and a[j], binary search for -(a[i] + a[j])
 
-    c.  Order of growth is N^2 log N
+   - Order of growth is N^2 log N
 
 ## Theory of algorithms
 

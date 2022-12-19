@@ -62,27 +62,27 @@ Modified: 2022-02-05 01:13:53 +0500
 
 1. **Cloud**
 
-    a.  Apigee
+   - Apigee
 
-    b.  AWS API Gateway
+   - AWS API Gateway
 
-    c.  Azure API Gateway
+   - Azure API Gateway
 
-    d.  Google cloud endpoints
+   - Google cloud endpoints
 
-    e.  WSO2 API Manager
+   - WSO2 API Manager
 
 2. **Self Managed**
 
-    a.  Apache
+   - Apache
 
-    b.  HAProxy
+   - HAProxy
 
-    c.  Nginx
+   - Nginx
 
-    d.  Spring cloud gateway
+   - Spring cloud gateway
 
-    e.  <https://apisix.apache.org>
+   - <https://apisix.apache.org>
 
 ## API Gateways
 

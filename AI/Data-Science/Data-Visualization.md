@@ -21,21 +21,21 @@ Data visualization is both an art and a science. It is viewed as a branch of [de
 
 1. Quantitative data
 
-    a.  Binning - Takes a quantitative variable and bins it into categories that are either pre-existing or made up
+   - Binning - Takes a quantitative variable and bins it into categories that are either pre-existing or made up
 
-    b.  Histogram
+   - Histogram
 
 2. Categorical data
 
-    a.  Frequency table
+   - Frequency table
 
-    b.  Relative frequency table
+   - Relative frequency table
 
-    c.  Bar chart
+   - Bar chart
 
-    d.  Pie chart
+   - Pie chart
 
-    e.  Pictograph
+   - Pictograph
 
 3. Dotplot
 

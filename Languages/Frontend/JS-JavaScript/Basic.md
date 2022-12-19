@@ -95,31 +95,31 @@ A constant cannot share its name with a function or a variable in the same scope
 
 1. Arithmetic Operators
 
-    a.  Addition (+)
+   - Addition (+)
 
-    b.  Subtraction (-)
+   - Subtraction (-)
 
-    c.  Multiplication (*)
+   - Multiplication (*)
 
-    d.  Division (/)
+   - Division (/)
 
-    e.  Modulus / Remainder (%)
+   - Modulus / Remainder (%)
 
-    f.  Exponentiation (**)
+   - Exponentiation (**)
 
-    g.  Increment (++)
+   - Increment (++)
 
-    h.  Decrement (--)
+   - Decrement (--)
 
-    i.  Unary Negation (-)
+   - Unary Negation (-)
 
-    j.  Unary Plus (+)
+   - Unary Plus (+)
 
 2. Comparison Operators
 
-    a.  Equal ( == )
+   - Equal ( == )
 
-    b.  Not Equal ( != )
+   - Not Equal ( != )
 
 Inequality operator will convert data types of values while comparing
 
@@ -151,41 +151,41 @@ It means "Strictly Not Equal". Strict inequality will not convert data types.
 
 3. Logical or Relational Operators
 
-    a.  Logical AND (&&)
+   - Logical AND (&&)
 
-    b.  Logical OR ( || )
+   - Logical OR ( || )
 
-    c.  Logical NOT ( ! )
+   - Logical NOT ( ! )
 
 4. Bitwise Operators
 
-    a.  Bitwise AND ( & )
+   - Bitwise AND ( & )
 
-    b.  Bitwise OR ( | )
+   - Bitwise OR ( | )
 
-    c.  Bitwise XOR ( ^ )
+   - Bitwise XOR ( ^ )
 
-    d.  Bitwise Not ( ~ )
+   - Bitwise Not ( ~ )
 
-    e.  Left Shift ( >> )
+   - Left Shift ( >> )
 
-    f.  Right Shift ( << )
+   - Right Shift ( << )
 
-    g.  Right Shift with Zero ( >>> )
+   - Right Shift with Zero ( >>> )
 
 5. Assignment Operators
 
-    a.  Simple assignment ( = )
+   - Simple assignment ( = )
 
-    b.  Add and assignment ( += )
+   - Add and assignment ( += )
 
-    c.  Subtract and assignment ( -= )
+   - Subtract and assignment ( -= )
 
-    d.  Multiply and assignment ( *= )
+   - Multiply and assignment ( *= )
 
-    e.  Divide and assignment ( /= )
+   - Divide and assignment ( /= )
 
-    f.  Modulus and assignment ( %= )
+   - Modulus and assignment ( %= )
 
 6. Conditional (or ternary) Operator ( (condition ) ? True : False )
 
@@ -426,7 +426,7 @@ Array.isArray(undefined); // false
 
 1. **For**
 
-    a.  **foreach**
+   - **foreach**
 
 foreachis an method that is available only in Array objects. It allows you to iterate through elements of an array. When invoked it takes a callback function and invokes the callback once for every array element. The callback can access both index and value of the array elements.foreachis available only for looping arrays.
 

@@ -34,15 +34,15 @@ Percolation
 
 1. Scientific Method of Analysis
 
-    i.  Observe
+   - Observe
 
-    ii. Hypothesis
+   - Hypothesis
 
-    iii. Predict
+   - Predict
 
-    iv. Verify
+   - Verify
 
-    v.  Validate
+   - Validate
 
 2. Empirical Analysis
 
@@ -54,11 +54,11 @@ Run the program for various input sizes and measure running time
 
 5. Theory of Algorithms
 
-    i.  Best Case
+   - Best Case
 
-    ii. Average Case
+   - Average Case
 
-    iii. Worst Case
+   - Worst Case
 
 6. Memory**Week - 2**
 
@@ -92,9 +92,9 @@ Dequeues and Randomized Queues
 
 5. Shuffling
 
-    i.  Shuffle Sort
+   - Shuffle Sort
 
-    ii. Knuth Shuffle
+   - Knuth Shuffle
 
 6. Convex Hull**Week - 3**
 

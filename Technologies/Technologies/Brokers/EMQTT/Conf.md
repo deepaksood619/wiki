@@ -10,15 +10,15 @@ Modified: 2019-01-08 13:05:34 +0500
 
 2. Cluster auto-discovery strategy
 
-    a.  manual (default)
+   - manual (default)
 
-    b.  mcast (IP multicast)
+   - mcast (IP multicast)
 
-    c.  dns
+   - dns
 
-    d.  etcd
+   - etcd
 
-    e.  k8s (Kubernetes)
+   - k8s (Kubernetes)
 
 3. Cluster autoheal from network partition
 
@@ -52,67 +52,67 @@ Modified: 2019-01-08 13:05:34 +0500
 
 18. Authentication / Access Control
 
-    a.  allow_anonymous
+- allow_anonymous
 
 19. MQTT Protocol
 
-    a.  mqtt.response_topic_prefix
+- mqtt.response_topic_prefix
 
-    b.  max_clientid_len
+- max_clientid_len
 
-    c.  max_topic_levels
+- max_topic_levels
 
-    d.  max_qos_allowed
+- max_qos_allowed
 
-    e.  retain_available
+- retain_available
 
-    f.  wildcard_subscription
+- wildcard_subscription
 
-    g.  shared_subscription
+- shared_subscription
 
-    h.  ignore_loop_deliver
+- ignore_loop_deliver
 
 20. Zones
 
-    a.  External Zone
+- External Zone
 
-    b.  Internal Zone
+- Internal Zone
 
 21. Listeners
 
-    a.  MQTT/TCP - External TCP listener for MQTT protocol
+- MQTT/TCP - External TCP listener for MQTT protocol
 
-        i.  listener.tcp.external = 0.0.0.0:1883
+  - listener.tcp.external = 0.0.0.0:1883
 
-        ii. listener.tcp.external.acceptors = 8
+  - listener.tcp.external.acceptors = 8
 
-        iii. listener.tcp.external.max_connections = 1024000
+  - listener.tcp.external.max_connections = 1024000
 
-        iv. listener.tcp.external.max_conn_rate = 1000
+  - listener.tcp.external.max_conn_rate = 1000
 
-        v.  listener.tcp.external.zone = external
+  - listener.tcp.external.zone = external
 
-    b.  Internal TCP Listener for MQTT Protocol
+- Internal TCP Listener for MQTT Protocol
 
-    c.  External SSL listener for MQTT protocol
+- External SSL listener for MQTT protocol
 
-    d.  External WebSocket listener for MQTT protocol
+- External WebSocket listener for MQTT protocol
 
-    e.  External WebSocket/SSL listener for MQTT protocol
+- External WebSocket/SSL listener for MQTT protocol
 
 22. Bridges
 
-    a.  Bridges to aws
+- Bridges to aws
 
-    b.  Bridges to azure
+- Bridges to azure
 
 23. Modules
 
-    a.  Presence module (deprecated)
+- Presence module (deprecated)
 
-    b.  Subscription module
+- Subscription module
 
-    c.  Rewrite module
+- Rewrite module
 
 24. Plugins
 

@@ -8,33 +8,33 @@ Modified: 2020-08-05 00:06:11 +0500
 
 1. **Foundational Patterns**
 
-    a.  Distributed Primitives
+   - Distributed Primitives
 
-    b.  Predictable Demands
+   - Predictable Demands
 
-    c.  Dynamic Placement
+   - Dynamic Placement
 
-    d.  Declarative Deployment
+   - Declarative Deployment
 
-    e.  Observable Interior
+   - Observable Interior
 
-    f.  Life Cycle Conformance
+   - Life Cycle Conformance
 
 2. **Behavioral Patterns**
 
-    a.  Batch Job
+   - Batch Job
 
-    b.  Scheduled Job
+   - Scheduled Job
 
-    c.  Daemon Service
+   - Daemon Service
 
-    d.  Singleton Service
+   - Singleton Service
 
-    e.  Self Awareness
+   - Self Awareness
 
 3. **Structural Patterns (**multi-container pods)
 
-    a.  **Sidecar**
+   - **Sidecar**
 
 Similar to a sidecar on a motorcycle, it does not provide the main power, but it does help carry stuff. A sidecar is a secondary container which helps or provides a service not found in the primary application. Logging containers are a common sidecar
 
@@ -58,12 +58,12 @@ The basic purpose of an adapter container is to modify data, either on ingress o
 
 4. **Configuration Patterns**
 
-    a.  EnvVar Configuration
+   - EnvVar Configuration
 
-    b.  Configuration Resource
+   - Configuration Resource
 
-    c.  Configuration Template
+   - Configuration Template
 
-    d.  Immutable Configuration
+   - Immutable Configuration
 
 5. **Advanced patterns**

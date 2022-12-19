@@ -151,15 +151,15 @@ This means that for every one negative feeling or interaction between partners, 
 
 1. Positive, uplifting words of affirmation
 
-    a.  Praise is the sweetest of all sounds
+   - Praise is the sweetest of all sounds
 
-    b.  Verbal compliments
+   - Verbal compliments
 
-        i.  appreciate their sense of humor
+       - appreciate their sense of humor
 
-        ii. look great in a new outfit
+       - look great in a new outfit
 
-        iii. praise their ability to care for your children
+       - praise their ability to care for your children
 
 2. Spend quality time with your partner
 

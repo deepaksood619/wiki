@@ -9,6 +9,7 @@ Modified: 2019-12-26 01:24:21 +0500
 ## endian
 
 #### adjective
+
 denoting or relating to a system of ordering bytes in a word, or bits in a byte, in which the most significant (or least significant) item is put first.
 "big-endian vs. little-endian representation of data"
 

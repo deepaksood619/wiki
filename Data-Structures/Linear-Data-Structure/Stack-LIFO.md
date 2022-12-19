@@ -81,15 +81,15 @@ When an array fills up, create a new array twice the size of the previous array 
 If the client happens to do push-pop-push-pop alternating when the array is full, then it's going to be doubling, halving, doubling, halving, doubling, halving. Creating new arrays on every operation. Take time proportional to N for every operation, and therefore quadratic time for everything.
 2.  **Array Implementation (With resizing array)**
 
-    a.  Push: Double the size of array when array is full (Repeated doubling)
+- Push: Double the size of array when array is full (Repeated doubling)
 
-    b.  Pop: halve size of array when array is one-quarter full
+- Pop: halve size of array when array is one-quarter full
 
-    c.  Trashing: Problem if we half the array on pop operation. It can be repeated doubling, halving, doubling, halving
+- Trashing: Problem if we half the array on pop operation. It can be repeated doubling, halving, doubling, halving
 
-    d.  Invariant: Array is between 25% and 100% full
+- Invariant: Array is between 25% and 100% full
 
-    e.  Every operation takes constant amortized time.
+- Every operation takes constant amortized time.
 public ResizingArrayStackOfStrings()
 { s = new String [1]; }
 

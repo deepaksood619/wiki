@@ -53,9 +53,9 @@ Modified: 2021-10-10 17:54:14 +0500
 
 1. Monday (Focus Chest + Triceps)
 
-    a.  Treadmill - 15 mins
+   - Treadmill - 15 mins
 
-    b.  Dumbbell Bench Press
+   - Dumbbell Bench Press
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image1.jpg)
 
@@ -73,9 +73,9 @@ f.  Pushups
 
 2. Tuesday (Focus Back + Biceps)
 
-    a.  Treadmill - 15 mins
+   - Treadmill - 15 mins
 
-    b.  Hammer
+   - Hammer
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image4.jpg)
 
@@ -93,9 +93,9 @@ e.  Bicep curl
 
 3. Wednesday (Focus Shoulders & Legs & Abs)
 
-    a.  Treadmill - 15 mins
+   - Treadmill - 15 mins
 
-    b.  Overhead press
+   - Overhead press
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image8.jpg)
 
@@ -121,27 +121,27 @@ g.  Lateral raise
 
 h.  Abs
 
-    i.  Plank
+- Plank
 
-    ii. situps
+- situps
 
 4. Thursday (Focus Triceps + Chest)
 
-    a.  Treadmill - 15 mins
+   - Treadmill - 15 mins
 
 5. Friday (Focus Biceps + Back)
 
-    a.  Treadmill - 15 mins
+   - Treadmill - 15 mins
 
 6. Saturday (Focus Legs + Shoulders)
 
-    a.  Treadmill - 15 mins
+   - Treadmill - 15 mins
 
 7. Sunday (Cardio + Abs)
 
-    a.  Treadmill - 30-45 mins (Endurance)
+   - Treadmill - 30-45 mins (Endurance)
 
-    b.  Dumbbell Crunch
+   - Dumbbell Crunch
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image14.jpg)
 

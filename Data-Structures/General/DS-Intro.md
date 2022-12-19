@@ -22,51 +22,51 @@ A**succinct data structure**is a [data structure](https://en.wikipedia.org/wiki/
 
 2. Linked List
 
-    a.  Doubly Linked List
+   - Doubly Linked List
 
-    b.  Circular Linked List
+   - Circular Linked List
 
 3. Stack
 
 4. Queue
 
-    a.  Queue FIFO
+   - Queue FIFO
 
-    b.  Dequeue
+   - Dequeue
 
-    c.  Randomized Queue
+   - Randomized Queue
 
-    d.  Priority Queue (Using array)
+   - Priority Queue (Using array)
 
 ## Hierarchical Data Structure
 
 1. Tree(Ex - Family tree, HTML DOM)
 
-    a.  Binary Tree
+   - Binary Tree
 
-    b.  Binary Search Tree
+   - Binary Search Tree
 
-    c.  AVL Tree
+   - AVL Tree
 
-    d.  2-3 Tree
+   - 2-3 Tree
 
-    e.  Red Black Tree
+   - Red Black Tree
 
 2. Trie
 
 3. Heap
 
-    a.  Binary Heap
+   - Binary Heap
 
-    b.  Fibonacci Heap
+   - Fibonacci Heap
 
 4. Hash Map
 
 5. Graph
 
-    a.  Undirected graph
+   - Undirected graph
 
-    b.  Directed graph
+   - Directed graph
 
 6. Rope (Efficient for String concatenation)
 <https://www.wisdomjobs.com/e-university/data-structures-tutorial-290.html>

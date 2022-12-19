@@ -8,9 +8,9 @@ Modified: 2019-06-24 05:58:16 +0500
 
 1. **Anagrams (ABC, CBA are anagrams of each other)**
 
-    a.  Can sort both array and compare both
+   - Can sort both array and compare both
 
-    b.  Can count all characters of string1 and decrement count by second string2. Check if all values are 0. Use dictionary, defaultdict.
+   - Can count all characters of string1 and decrement count by second string2. Check if all values are 0. Use dictionary, defaultdict.
 2. **Array Pair Sum**
 
 ## Problem -**Given an integer array, output all the***unique***pairs that sum up to a specific value**k
@@ -88,8 +88,8 @@ Use stack to store the opening paranthesis. Pop when closing paranthesis found w
 
 5. Implement a queue using two stacks
 
-    a.  costly enqueue
+   - costly enqueue
 
-    b.  costly dequeue
+   - costly dequeue
 
 whenever dequeue is called pop element from second stack, if second stack is empty then push elements from second stack by popping from it. (transfer elements from first stack to second in reverse order)

@@ -330,45 +330,45 @@ Reinforcement learning is concerned with how an *agent*ought to take *actions*in
 
 1. **Statistics and Data Analysis**
 
-    a.  Hypothesis testing
+   - Hypothesis testing
 
-    b.  Exploratory Data Analysis
+   - Exploratory Data Analysis
 
-    c.  Data Manipulation
+   - Data Manipulation
 
 2. **Machine Learning**
 
-    a.  Decision Tree
+   - Decision Tree
 
-    b.  Clustering
+   - Clustering
 
-    c.  Naive Baiyes
+   - Naive Baiyes
 
-    d.  Principle Component Analysis
+   - Principle Component Analysis
 
-    e.  Linear Regression (Statistical Inference Technique)
+   - Linear Regression (Statistical Inference Technique)
 
-    f.  Logistic Regression (Probability - Catagorical)
+   - Logistic Regression (Probability - Catagorical)
 
-    g.  Telecom Churn Perdition Project
+   - Telecom Churn Perdition Project
 
 3. **Others**
 
-    a.  Least squares Error Function
+   - Least squares Error Function
 
-    b.  Gradient Descent
+   - Gradient Descent
 
-    c.  Multivariate Regression
+   - Multivariate Regression
 
-    d.  Sigmoid Function
+   - Sigmoid Function
 
 ![image](media/ML-Classification-image3.png)
 
 1. **Supervised Machine Learning**
-    - **Logistic Regression**
-        - **Logistic Regression is a simple twist on Linear Regression. It gets its name from the fact that it is a regression that predicts what's called the Log Odds of an event occuring.**
-        - **Divide data in Training data and Test data**
-        - **Calculate the accuracy for every iteration**
+    - Logistic Regression
+        - Logistic Regression is a simple twist on Linear Regression. It gets its name from the fact that it is a regression that predicts what's called the Log Odds of an event occuring.
+        - Divide data in Training data and Test data
+        - Calculate the accuracy for every iteration
 
 ![image](media/ML-Classification-image4.png)
 
@@ -394,11 +394,11 @@ Reinforcement learning is concerned with how an *agent*ought to take *actions*in
 2. **Unsupervised Machine Learning**
     - **Clustering**
 
-        i.  K-means
-            -   Choose k random points called Centroid
-            -   Assign other points closest to centroid to their groups
-            -   Calculate the new centroid for the set of points of each group
-            -   Repeat the process of assigning points to group and choosing new centroid
+       - K-means
+            - Choose k random points called Centroid
+            - Assign other points closest to centroid to their groups
+            - Calculate the new centroid for the set of points of each group
+            - Repeat the process of assigning points to group and choosing new centroid
 
 ## Silhouette score
 

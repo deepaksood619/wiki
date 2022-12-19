@@ -8,189 +8,189 @@ Modified: 2020-09-01 23:41:05 +0500
 
 1. Overview
 
-    a.  What is kubernetes
+   - What is kubernetes
 
-    b.  Kubernetes Components
+   - Kubernetes Components
 
-    c.  The Kubernetes API
+   - The Kubernetes API
 
-    d.  Working with Kubernetes Objects
+   - Working with Kubernetes Objects
 
-        i.  Undestanding Kubernetes Objects
+       - Undestanding Kubernetes Objects
 
-        ii. Names
+       - Names
 
-        iii. Namespaces
+       - Namespaces
 
-        iv. Labels and Selectors
+       - Labels and Selectors
 
-        v.  Annotations
+       - Annotations
 
-        vi. Field Selectors
+       - Field Selectors
 
-        vii. Recommended Labels
+       - Recommended Labels
 
-    e.  Object Management using kubectl
+   - Object Management using kubectl
 
-        i.  Kubernetes Object Management
+       - Kubernetes Object Management
 
-        ii. Managing Kubernetes Objects Using Imperative Commands
+       - Managing Kubernetes Objects Using Imperative Commands
 
-        iii. Imperative Management of Kubernetes Objects Using Configuration Files
+       - Imperative Management of Kubernetes Objects Using Configuration Files
 
-        iv. Declarative Management of Kubernetes Objects Using Configuration Files
+       - Declarative Management of Kubernetes Objects Using Configuration Files
 
 2. Kubernetes Architecture
 
-    a.  Nodes
+   - Nodes
 
-    b.  Master-Node communication
+   - Master-Node communication
 
-    c.  Concepts Underlying the Cloud Controller Manager
+   - Concepts Underlying the Cloud Controller Manager
 
 3. Containers
 
-    a.  Images
+   - Images
 
-    b.  Container Environment Variables
+   - Container Environment Variables
 
-    c.  Runtime Class
+   - Runtime Class
 
-    d.  Container Lifecycle Hooks
+   - Container Lifecycle Hooks
 
 4. Workloads
 
-    a.  Pods
+   - Pods
 
-        i.  Pod Overview
+       - Pod Overview
 
-        ii. Pods
+       - Pods
 
-        iii. Pod Lifecycle
+       - Pod Lifecycle
 
-        iv. Init Containers
+       - Init Containers
 
-        v.  Pod Preset
+       - Pod Preset
 
-        vi. Disruptions
+       - Disruptions
 
-    b.  Controllers
+   - Controllers
 
-        i.  ReplicaSet
+       - ReplicaSet
 
-        ii. ReplicationController
+       - ReplicationController
 
-        iii. Deployments
+       - Deployments
 
-        iv. StatefulSets
+       - StatefulSets
 
-        v.  DaemonSet
+       - DaemonSet
 
-        vi. Garbage Collection
+       - Garbage Collection
 
-        vii. TTL Controller for Finished Resources
+       - TTL Controller for Finished Resources
 
-        viii. Jobs - Run to Completion
+       - Jobs - Run to Completion
 
-        ix. CronJob
+       - CronJob
 
 5. Services, Load Balancing, and Networking
 
-    a.  Services
+   - Services
 
-    b.  DNS for Services and Pods
+   - DNS for Services and Pods
 
-    c.  Connecting Applications with Services
+   - Connecting Applications with Services
 
-    d.  Ingress
+   - Ingress
 
-    e.  Network Policies
+   - Network Policies
 
-    f.  Adding entries to Pod /etc/hosts with HostAliases
+   - Adding entries to Pod /etc/hosts with HostAliases
 
 6. Storage
 
-    a.  Volumes
+   - Volumes
 
-    b.  Persistant Volumes
+   - Persistant Volumes
 
-    c.  Volume Snapshots
+   - Volume Snapshots
 
-    d.  Storage Classes
+   - Storage Classes
 
-    e.  Volume Snapshot Classes
+   - Volume Snapshot Classes
 
-    f.  Dynamic Volume Provisioning
+   - Dynamic Volume Provisioning
 
-    g.  Node-specific Volume Limits
+   - Node-specific Volume Limits
 
 7. Configuration
 
-    a.  Configuration Best Practices
+   - Configuration Best Practices
 
-    b.  Managing Compute Resources for Containers
+   - Managing Compute Resources for Containers
 
-    c.  Assigning Pods to Nodes
+   - Assigning Pods to Nodes
 
-    d.  Taints and Tolerations
+   - Taints and Tolerations
 
-    e.  Secrets
+   - Secrets
 
-    f.  Organizing Cluster Access Using kubeconfig Files
+   - Organizing Cluster Access Using kubeconfig Files
 
-    g.  Pod Priority and Preemtion
+   - Pod Priority and Preemtion
 
-    h.  Scheduler Performance Tuning
+   - Scheduler Performance Tuning
 
 8. Policies
 
-    a.  Resource Quotas
+   - Resource Quotas
 
-    b.  Pod Security Policies
+   - Pod Security Policies
 
 9. Cluster Administration
 
-    a.  Cluster Administration Overview
+   - Cluster Administration Overview
 
-    b.  Certificates
+   - Certificates
 
-    c.  Cloud Providers
+   - Cloud Providers
 
-    d.  Managing Resources
+   - Managing Resources
 
-    e.  Cluster Networking
+   - Cluster Networking
 
-    f.  Logging Architecture
+   - Logging Architecture
 
-    g.  Configuring kubelet Garbage Collection
+   - Configuring kubelet Garbage Collection
 
-    h.  Federation
+   - Federation
 
-    i.  Proxies in Kubernetes
+   - Proxies in Kubernetes
 
-    j.  Controller manager metrics
+   - Controller manager metrics
 
-    k.  Installing Addons
+   - Installing Addons
 
 10. Extending Kubernetes
 
-    a.  Extending your Kubernetes Cluster
+- Extending your Kubernetes Cluster
 
-    b.  Extending the Kubernetes API
+- Extending the Kubernetes API
 
-        i.  Extending the Kubernetes API with the aggregation layer
+  - Extending the Kubernetes API with the aggregation layer
 
-        ii. Custom Resources
+  - Custom Resources
 
-    c.  Compute, Storage, and Networking Extensions
+- Compute, Storage, and Networking Extensions
 
-        i.  Network Plugins
+  - Network Plugins
 
-        ii. Device Plugins
+  - Device Plugins
 
-    d.  Service Catalog
+- Service Catalog
 
-    e.  Poseidon-Firmament - An alternate scheduler
+- Poseidon-Firmament - An alternate scheduler
 
 ## Concepts
 

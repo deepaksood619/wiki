@@ -8,15 +8,18 @@ Modified: 2021-11-07 17:15:50 +0500
 
 ## Points to remeber about cache
 
-a.  Cache data cannot be the source of truth
+- Cache data cannot be the source of truth
+- Cache data has to be pretty small because cache tends to keep all the data in-memory
+- Consider Eviction policies (Page replacement policies)
 
-b.  Cache data has to be pretty small because cache tends to keep all the data in-memory
-
-c.  Consider Eviction policies (Page replacement policies)
 In [computing](https://en.wikipedia.org/wiki/Computing), acacheis a hardware or software component that stores data so that future requests for that data can be served faster; the data stored in a cache might be the result of an earlier computation or a copy of data stored elsewhere. Acache hitoccurs when the requested data can be found in a cache, while acache missoccurs when it cannot. Cache hits are served by reading data from the cache, which is faster than recomputing a result or reading from a slower data store; thus, the more requests that can be served from the cache, the faster the system performs.
+
 To be cost-effective and to enable efficient use of data, caches must be relatively small. Nevertheless, caches have proven themselves in many areas of computing, because typical [computer applications](https://en.wikipedia.org/wiki/Application_software) access data with a high degree of [locality of reference](https://en.wikipedia.org/wiki/Locality_of_reference). Such access patterns exhibit temporal locality, where data is requested that has been recently requested already, and [spatial](https://en.wikipedia.org/wiki/Memory_address) locality, where data is requested that is stored physically close to data that has already been requested.
+
 A cache hit happens whenever data is already available in the cache and can be returned without any other operation, otherwise the cache responds with a cache miss or, if available, can transparently retrieve the value from another underlying backend system and cache it before returning it to the requestor.
+
 Caches are designed to respond to cache requests in near real-time and therefore are implemented as simple key-value stores. The underlying data structure, however, can still be different and depends on the storage backend. In addition, caches can most often be used by multiple front end consumers such as web applications.
+
 Caches can have multiple levels, so-called tiered storages, which are ordered by their speed factor. Frequently or recently used data are typically held in memory, whereas other data (depending on the tiered storage implementations) can be written to SSD, slower spinning disk systems and later on other even slower systems, or can be evicted completely - if reproducible.
 Typical use cases are in-memory caches for database, slowly retrievable disk-based data, data stored remotely behind slow network connections or results of previous calculations.
 
@@ -49,17 +52,17 @@ When a system writes data to cache, it must at some point write that data to the
 ![image](media/Caches---Caching-image1.png)
 write is done synchronously both to the cache and to the backing store. The significance here is not the order in which it happens or whether it happens in parallel. The significance is that I/O completion is only confirmed once the data has been written to both places.
 
-- **Advantage:**Ensures fast retrieval while making sure the data is in the backing store and is not lost in case the cache is disrupted.
-- **Disadvantage:**Writing data will experience latency as you have to write to two places every time.
+- **Advantage:** Ensures fast retrieval while making sure the data is in the backing store and is not lost in case the cache is disrupted.
+- **Disadvantage:** Writing data will experience latency as you have to write to two places every time.
 - **What is it good for?**
 
 The write-through policy is good for applications that has more reads than writes. This will result in slightly higher write latency but low read latency. So, it's ok to spend a bit longer writing once, but then benefit from reading frequently with low latency.-   **Write-back(also calledwrite-behind)**
 
 ![image](media/Caches---Caching-image2.png)
 Initially, writing is done only to the cache. The write to the backing store is postponed until the modified content is about to be replaced by another cache block.
-Using the write-back policy, data is written to the cache and immediately I/O completion is confirmed. The data is then typically also written to the backing store in the background but the completion confirmation is not blocked on that.-   **Advantage:**Low latency and high throughput for write-intensive applications.
+Using the write-back policy, data is written to the cache and immediately I/O completion is confirmed. The data is then typically also written to the backing store in the background but the completion confirmation is not blocked on that.-   **Advantage:** Low latency and high throughput for write-intensive applications.
 
-- **Disadvantage:**There is data availability risk because the cache could fail (and so suffer from data loss) before the data is persisted to the backing store. This result in the data being lost.
+- **Disadvantage:** There is data availability risk because the cache could fail (and so suffer from data loss) before the data is persisted to the backing store. This result in the data being lost.
 - **What is it good for?**
 
 The write-back policy is the best performer for mixed workloads as both read and write I/O have similar response time levels. In reality, you can add resiliency (e.g. by duplicating writes) to reduce the likelihood of data loss.-   **Write-around**
@@ -67,8 +70,8 @@ The write-back policy is the best performer for mixed workloads as both read and
 ![image](media/Caches---Caching-image3.png)
 Using the write-around policy, data is written only to the backing store without writing to the cache. So, I/O completion is confirmed as soon as the data is written to the backing store.
 
-- **Advantage:**Good for not flooding the cache with data that may not subsequently be re-read.
-- **Disadvantage:**Reading recently written data will result in a cache miss (and so a higher latency) because the data can only be read from the slower backing store.
+- **Advantage:** Good for not flooding the cache with data that may not subsequently be re-read.
+- **Disadvantage:** Reading recently written data will result in a cache miss (and so a higher latency) because the data can only be read from the slower backing store.
 - **What is it good for?**
 
 The write-around policy is good for applications that don't frequently re-read recently written data. This will result in lower write latency but higher read latency which is a acceptable trade-off for these scenarios.

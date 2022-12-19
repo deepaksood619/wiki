@@ -15,7 +15,7 @@ Where L = Number of leaf nodes
 I = Number of internal nodes
 4.  If tree is a complete binary tree, then total number of nodes at last level is (N+1)/2, where N is the total number of nodes.
 
-    a.  If tree is a complete binary tree, then total number of nodes at last level is 2 ^ (N-1), where N is the depth of the tree starting from 1
+- If tree is a complete binary tree, then total number of nodes at last level is 2 ^ (N-1), where N is the depth of the tree starting from 1
 
 ## Complete tree - Perfectly balanced, except for bottom level
 

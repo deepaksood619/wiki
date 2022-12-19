@@ -12,7 +12,7 @@ Modified: 2022-02-01 14:55:17 +0500
 
 3. Specilized data structures
 
-    a.  scipy.spatial
+   - scipy.spatial
 
 For spatial query like distances, nearest neighbor, kd trees etc.
 

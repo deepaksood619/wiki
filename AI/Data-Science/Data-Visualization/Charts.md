@@ -44,9 +44,9 @@ Modified: 2021-10-04 19:36:03 +0500
 
 16. Flame Graphs
 
-    a.  Icicle graph
+- Icicle graph
 
-    b.  Flame Charts
+- Flame Charts
 
 [Miha Rekar - What Are Flame Graphs and How to Read Them, RubyConfBY 2017](https://www.youtube.com/watch?v=6uKZXIwd6M0)
 

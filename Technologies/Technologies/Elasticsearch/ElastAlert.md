@@ -52,45 +52,45 @@ In addition to this basic usage, there are many other features that make alerts 
 
 1. Required settings
 
-    a.  es_host
+   - es_host
 
-    b.  es_port
+   - es_port
 
-    c.  index
+   - index
 
-    d.  name
+   - name
 
-    e.  type
+   - type
 
-    f.  alert
+   - alert
 
 2. Optional settings
 
-    a.  import
+   - import
 
-    b.  use_ssl
+   - use_ssl
 
-    c.  verify_certs
+   - verify_certs
 
-    d.  client_cert
+   - client_cert
 
-    e.  client_key
+   - client_key
 
-    f.  ca_certs
+   - ca_certs
 
-    g.  es_username
+   - es_username
 
-    h.  es_password
+   - es_password
 
-    i.  es_url_prefix
+   - es_url_prefix
 
-    j.  es_send_get_body_as
+   - es_send_get_body_as
 
-    k.  use_strftime_index
+   - use_strftime_index
 
-    l.  search_extra_index
+   - search_extra_index
 
-    m.  **aggregation**
+   - **aggregation**
 
 aggregation:
 schedule: '2 4 ** mon, fri'

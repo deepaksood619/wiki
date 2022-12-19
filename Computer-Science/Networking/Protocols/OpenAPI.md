@@ -38,19 +38,19 @@ Swaggeris a set of open-source tools built around the OpenAPI Specification that
 
 12. [Authentication](https://swagger.io/docs/specification/authentication/)
 
-    a.  Basic
+- Basic
 
-    b.  Bearer
+- Bearer
 
-    c.  other HTTP schemes as defined by [RFC 7235](https://tools.ietf.org/html/rfc7235) and [HTTP Authentication Scheme Registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml)
+- other HTTP schemes as defined by [RFC 7235](https://tools.ietf.org/html/rfc7235) and [HTTP Authentication Scheme Registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml)
 
-    d.  [API keys](https://swagger.io/docs/specification/authentication/api-keys/) in headers, query string or cookies
+- [API keys](https://swagger.io/docs/specification/authentication/api-keys/) in headers, query string or cookies
 
-    e.  Cookie Authentication
+- Cookie Authentication
 
-    f.  OAuth 2.0
+- OAuth 2.0
 
-    g.  OpenID Connect Discovery
+- OpenID Connect Discovery
 
 13. [Links](https://swagger.io/docs/specification/links/)
 

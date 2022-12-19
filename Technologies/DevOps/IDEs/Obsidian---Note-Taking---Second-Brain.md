@@ -6,9 +6,9 @@ Modified: 2022-12-11 22:10:12 +0500
 
 ---
 
-## Your brain is for having ideas not holding them
+Your brain is for having ideas not holding them
 
-## Extensions
+### Extensions
 
 Extensions that helps make obsidian better
 
@@ -46,7 +46,7 @@ Extensions that helps make obsidian better
 | Navigate forward            | `cmd+ctrl + ->` |
 | Naviagte back               | `cmd+ctrl + <-`                |
 
-## Some basics
+### Some basics
 
 Make new note---Cmd-n
 
@@ -64,7 +64,7 @@ Formatting basics
 
 Undo, cut, copy, paste, bold, italicize---Cmd-z,x,c,v,b,i
 
-## Intermediate
+### Intermediate
 
 Open command palette---Cmd-p
 
@@ -88,7 +88,7 @@ Formatting intermediate
 
 Insert template--- I mapped this to:Cmd-t
 
-## Advanced
+### Advanced
 
 Changing the view
 
@@ -139,6 +139,10 @@ Calendar: Open Weekly Note--- I mapped this to:Cmd-shift-m
 ††: Requires the plugin "Note Refactor"
 
 †††: Requires the plugin "Calendar"
+
+### Search
+
+![[Screenshot 2022-12-19 at 5.04.00 PM.jpg]]
 
 ## LYT - Linking Your Thinking
 
@@ -247,12 +251,14 @@ a Zettelkasten needs to adhere to the [Principle of Atomicity](https://zettelkas
 [What is PKM? What is Personal Knowledge Management?](https://www.youtube.com/watch?v=Q2WBHyqRsxA)
 
 [HOW TO TAKE SMART NOTES by Sönke Ahrens | Core Message](https://www.youtube.com/watch?v=JnS3g68zCXw)
+-
 
 1. Two stage filter
 
-    a.  Literature notes and Fleeting notes
+-
+  - Literature notes and Fleeting notes
 
-    b.  Permanent notes
+  - Permanent notes
 
 2. Bottom‐up approach to deepen understanding and generate new insights
 

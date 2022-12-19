@@ -103,22 +103,14 @@ dd - delete
 # 10 Things about Jupyter Notebook
 
 1. Themes (jupyter-themes, oceans16, jupyter-themer)
-
 2. Extensions (nb_extensions)
-
-    a.  split cells
-
-    b.  limit output
-
-    c.  snippets
-
-    d.  magics (%lsmagic - show all the built-in magic available)
-
-        i.  write latex
-
-        ii. pdb
-
-        iii. bash script
+    - split cells
+    - limit output
+    - snippets
+    - magics (%lsmagic - show all the built-in magic available)
+        - write latex
+        - pdb
+        - bash script
 
 ## Magics in Jupyter (magic commands)
 

@@ -10,17 +10,17 @@ Web Scraping is a technique in which a computer program extracts data from human
 
 1. lxml.etree
 
-    a.  theXPath - language for XML queries
+   - theXPath - language for XML queries
 
 2. beautifulsoup
 
-    a.  super short learning curve
+   - super short learning curve
 
-    b.  two function api
+   - two function api
 
-        i.  parse
+       - parse
 
-        ii. search (find_all)
+       - search (find_all)
 
 from bs4 import BeautifulSoup
 

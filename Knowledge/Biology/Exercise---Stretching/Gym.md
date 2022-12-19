@@ -50,11 +50,11 @@ The best exercise for gaining strength is not missing workouts
 
 1. **Over head exercises**
 
-    a.  **dumbbell pullup over the head**
+   - **dumbbell pullup over the head**
 
-    b.  **barbell triceps curl**
+   - **barbell triceps curl**
 
-    c.  **close grip bench press**
+   - **close grip bench press**
 
 ## Pushups
 
@@ -76,11 +76,11 @@ The best exercise for gaining strength is not missing workouts
 
 2. 20 mins cardio
 
-    a.  10 mins treadmill + 10 mins cross trainer
+   - 10 mins treadmill + 10 mins cross trainer
 
-    b.  20 mins treadmill
+   - 20 mins treadmill
 
-    c.  20 mins cross trainer
+   - 20 mins cross trainer
 
 3. 30 mins weight training
 
@@ -370,7 +370,7 @@ Box jumps
 
 5. BRO-SPLITS ARE NOT THE BEST OR ONLY WAY TO BUILD MUSCLE
 
-    a.  But the reality is that your muscles are ready to go again after just 36 - 48 hours and if you want to maximize your muscle growth you can absolutely hit every bodypart twice a week.
+   - But the reality is that your muscles are ready to go again after just 36 - 48 hours and if you want to maximize your muscle growth you can absolutely hit every bodypart twice a week.
 
 6. You Don't Need Hours Of Cardio To Get Abs Or Stay Lean
 

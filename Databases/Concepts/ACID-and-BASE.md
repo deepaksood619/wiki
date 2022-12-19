@@ -8,13 +8,13 @@ Modified: 2020-12-14 23:50:05 +0500
 
 1. ACID (SQL)
 
-    a.  A - Atomic, Everything in a transaction succeeds or the entire transaction is rolled back
+   - A - Atomic, Everything in a transaction succeeds or the entire transaction is rolled back
 
-    b.  C - Consistent - A transtion cannot leave the database in an inconsistent state.
+   - C - Consistent - A transtion cannot leave the database in an inconsistent state.
 
-    c.  I - Isolated - Transaction cannot interfere with each other
+   - I - Isolated - Transaction cannot interfere with each other
 
-    d.  D - Durable - Completed Transaction persist, even when the server restarts.
+   - D - Durable - Completed Transaction persist, even when the server restarts.
 
 2. BASE - Basically Available, Soft-state Eventual consistency (NoSQL)
 

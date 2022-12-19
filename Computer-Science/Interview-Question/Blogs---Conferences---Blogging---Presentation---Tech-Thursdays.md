@@ -16,15 +16,15 @@ Modified: 2022-09-16 00:32:48 +0500
 
 4. Setting up kubernetes infrastructure
 
-    a.  prometheus
+   - prometheus
 
-    b.  elk
+   - elk
 
-    c.  istio
+   - istio
 
-    d.  vault (secrets manager)
+   - vault (secrets manager)
 
-    e.  airflow
+   - airflow
 
 5. Setting up aws infra and access (console, s3, athena, glue, etc)
 
@@ -48,9 +48,9 @@ Curious vs Non-curious headlines
 
 2. Kubernetes
 
-    a.  Operators
+   - Operators
 
-    b.  Helm
+   - Helm
 
 3. Prometheus
 
@@ -62,17 +62,17 @@ Curious vs Non-curious headlines
 
 7. ELK
 
-    a.  ElasticSearch
+   - ElasticSearch
 
-    b.  Logstash
+   - Logstash
 
-    c.  FileBeat
+   - FileBeat
 
-    d.  Kibana
+   - Kibana
 
 8. API Gateway
 
-    a.  Kong9.  **Deploy everything**
+   - Kong9.  **Deploy everything**
 
 ## Brokers
 
@@ -80,11 +80,11 @@ Curious vs Non-curious headlines
 
 2. Kafka (series)
 
-    a.  Connect
+   - Connect
 
-    b.  Kafka
+   - Kafka
 
-    c.  Producers / Consumers
+   - Producers / Consumers
 
 3. vernemq
 GraphQL

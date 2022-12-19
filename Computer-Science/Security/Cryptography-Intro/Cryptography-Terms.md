@@ -10,9 +10,9 @@ Modified: 2021-10-25 23:02:01 +0500
 
 1. Substitution - is one in which the letters of the plaintext are replace by other letters
 
-    a.  Mono Alphabetic Substitution
+   - Mono Alphabetic Substitution
 
-    b.  Poly Alphabetic Substitution
+   - Poly Alphabetic Substitution
 
 2. Transposition (Permutation) - Method of disguising text or alphabet by shuffling or exchanging their position
 
@@ -20,21 +20,21 @@ Modified: 2021-10-25 23:02:01 +0500
 
 1. PRNG (Psuedo-random)
 
-    a.  Generates a random number with an even distribution
+   - Generates a random number with an even distribution
 
-    b.  Can be seeded to "re-roll" the same random values
+   - Can be seeded to "re-roll" the same random values
 
-    c.  Random.new and rand()
+   - Random.new and rand()
 
 2. Gaussian/Normal distribution
 
-    a.  Generates random numbers but distributes them closed to the "center" mark of zero
+   - Generates random numbers but distributes them closed to the "center" mark of zero
 
 3. Perlin Noise
 
-    a.  Takes an (x), (x,y), (x,y,z) coordinate and returns a value from Float32:Max to Float32:Min
+   - Takes an (x), (x,y), (x,y,z) coordinate and returns a value from Float32:Max to Float32:Min
 
-    b.  Attempts to normally distribute, at least from my understanding of the rubygem I ported
+   - Attempts to normally distribute, at least from my understanding of the rubygem I ported
 
 ## Semantic Security
 

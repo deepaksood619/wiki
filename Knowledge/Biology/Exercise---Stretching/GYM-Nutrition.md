@@ -28,19 +28,19 @@ Protein supplement daily - after gym
 
 2. Plant based protein - soy protein / **plant protein blend (better) - olena**
 
-    a.  5500 avg
+   - 5500 avg
 
-    b.  24g per scoop
+   - 24g per scoop
 
-    c.  less than 5g per scoop
+   - less than 5g per scoop
 
-    d.  ultimate nutrition pro star whey protein shake
+   - ultimate nutrition pro star whey protein shake
 
-    e.  optimum standard gold standard whey protein
+   - optimum standard gold standard whey protein
 
-    f.  muscle blaze whey protein
+   - muscle blaze whey protein
 
-    g.  my protein impact whey
+   - my protein impact whey
 
 MB Whey performance
 

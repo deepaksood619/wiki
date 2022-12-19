@@ -12,31 +12,31 @@ Companies like Atlassian, Glossier, Datadog, Twitch, dbt, Salesforce, Peloton, a
 
 1. Should you even be investing in community?
 
-    a.  Defining community
+   - Defining community
 
-    b.  Aligning community to business objectives
+   - Aligning community to business objectives
 
-    c.  Aligning community to your members' goals
+   - Aligning community to your members' goals
 
-    d.  Who should own community?
+   - Who should own community?
 
-    e.  What to look for in a community hire
+   - What to look for in a community hire
 
 2. What does a community strategy look like?
 
-    a.  The three levels of community strategy
+   - The three levels of community strategy
 
-    b.  Creating community-level goals
+   - Creating community-level goals
 
-    c.  Creating tactical-level goals
+   - Creating tactical-level goals
 
 3. How do you build a meaningful community?
 
-    a.  Designing community programs
+   - Designing community programs
 
-    b.  Launching your online community
+   - Launching your online community
 
-    c.  Launching a community-led event program
+   - Launching a community-led event program
 
 ## 1.a. Defining Community
 

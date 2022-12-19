@@ -8,47 +8,47 @@ Modified: 2022-12-10 22:04:10 +0500
 
 1. Workload-specific database design
 
-    a.  Select appropriate database services for specific types of data and workloads
+   - Select appropriate database services for specific types of data and workloads
 
-    b.  Determine strategies for disaster recovery and high availability
+   - Determine strategies for disaster recovery and high availability
 
-    c.  Design database solutions for performance, compliance, and scalability
+   - Design database solutions for performance, compliance, and scalability
 
-    d.  Compare the costs of database solutions
+   - Compare the costs of database solutions
 
 2. Deployment and migration
 
-    a.  Automate database solution deployments
+   - Automate database solution deployments
 
-    b.  Determine data preparation and migration strategies
+   - Determine data preparation and migration strategies
 
-    c.  Execute and validate data migration
+   - Execute and validate data migration
 
 3. Management and operations
 
-    a.  Determine maintenance tasks and processes
+   - Determine maintenance tasks and processes
 
-    b.  Determine backup and restore strategies
+   - Determine backup and restore strategies
 
-    c.  Manage the operational environment of a database solution
+   - Manage the operational environment of a database solution
 
 4. Monitoring and troubleshooting
 
-    a.  Determine monitoring and alerting strategies
+   - Determine monitoring and alerting strategies
 
-    b.  Troubleshoot and resolve common database issues
+   - Troubleshoot and resolve common database issues
 
-    c.  Optimize database performance
+   - Optimize database performance
 
 5. Database security
 
-    a.  Encrypt data at rest and in transit
+   - Encrypt data at rest and in transit
 
-    b.  Evaluate auditing solutions
+   - Evaluate auditing solutions
 
-    c.  Determine access control and authentication mechanisms
+   - Determine access control and authentication mechanisms
 
-    d.  Recognize potential security vulnerabilities within database solutions
+   - Recognize potential security vulnerabilities within database solutions
 <https://www.aws.training/Details/eLearning?id=47245>
 
 ## Purpose Built Databases: Match your workload to the right database**

@@ -186,11 +186,11 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 
 14. Daily scrum - 15 min time box event. Plan for 24 hours.
 
-    a.  **What did you did yesterday** to help our team to meet our sprint goal.
+- **What did you did yesterday** to help our team to meet our sprint goal.
 
-    b.  **What you will do today** that will help our team to meet our sprint goal
+- **What you will do today** that will help our team to meet our sprint goal
 
-    c.  Do I see any **impediments or blockers** that will stop meeting the sprint goal
+- Do I see any **impediments or blockers** that will stop meeting the sprint goal
 
 15. Sprint Review - demonstrate the work done
 

@@ -56,18 +56,18 @@ Feature Toggles are also refered to as Feature Flags, Feature Bits, or Feature F
 
 3. **Approaches for managing toggle configuration**
 
-    a.  **Hardcoded Toggle Configuration**
+   - **Hardcoded Toggle Configuration**
 
-    b.  **Parametrized Toggle Configuration**
+   - **Parametrized Toggle Configuration**
 
-    c.  **Toggle Configuration File**
+   - **Toggle Configuration File**
 
-    d.  **Toggle Configuration in App DB**
+   - **Toggle Configuration in App DB**
 
-    e.  **Distributed Toggle Configuration**
+   - **Distributed Toggle Configuration**
 
 4. **Overriding Configuration**
 
-    a.  **Per-request overrides**
+   - **Per-request overrides**
 
 <https://martinfowler.com/articles/feature-toggles.html>

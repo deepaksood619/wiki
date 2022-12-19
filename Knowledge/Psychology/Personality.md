@@ -22,73 +22,73 @@ MBTI - Myers-Briggs Type Indicator for personality test
 
 1. **Extraversion**
 
-    a.  Talkative
+   - Talkative
 
-    b.  Loud
+   - Loud
 
-    c.  Energetic
+   - Energetic
 
-    d.  Adventurous
+   - Adventurous
 
-    e.  Sociable
+   - Sociable
 
-    f.  Outgoing
+   - Outgoing
 
 2. **Openness**
 
-    a.  Innovative
+   - Innovative
 
-    b.  Artistic
+   - Artistic
 
-    c.  Imaginative
+   - Imaginative
 
-    d.  Creative
+   - Creative
 
-    e.  Refined
+   - Refined
 
-    f.  Intellectual
+   - Intellectual
 
 3. **Agreeableness**
 
-    a.  Kind
+   - Kind
 
-    b.  Pleasant
+   - Pleasant
 
-    c.  Gentle
+   - Gentle
 
-    d.  Cooperative
+   - Cooperative
 
-    e.  Generous
+   - Generous
 
-    f.  Mild
+   - Mild
 
 4. **Conscientiousness**
 
-    a.  Organized
+   - Organized
 
-    b.  Fussy
+   - Fussy
 
-    c.  Efficient
+   - Efficient
 
-    d.  Neat
+   - Neat
 
-    e.  Thorough
+   - Thorough
 
-    f.  Systematic
+   - Systematic
 
 5. **Neuroticism**
 
-    a.  Tense
+   - Tense
 
-    b.  Irritable
+   - Irritable
 
-    c.  Nervous
+   - Nervous
 
-    d.  Anxious
+   - Anxious
 
-    e.  Sad
+   - Sad
 
-    f.  Touchy
+   - Touchy
 
 ## 12 Positive Personality Traits Of Effective People
 

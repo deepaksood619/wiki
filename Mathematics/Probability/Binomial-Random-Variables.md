@@ -20,13 +20,13 @@ Not binomial variable - Number of kings after taking 2 cards from standard deck 
 SRS - Simple Random Sample, is a sample taken so that each member in a set of n members has an equal chance of being in the sample.
 2.  Distributions
 
-    a.  Normal distribution, (Continuous distribution - bell curve)
+- Normal distribution, (Continuous distribution - bell curve)
 
-    b.  Binomial distributions (Normal distributions with discrete steps)
+- Binomial distributions (Normal distributions with discrete steps)
 
-    c.  10% rule of assuming independence between trials
+- 10% rule of assuming independence between trials
 
-    d.  Binomial Distribution
+- Binomial Distribution
 
 ![10 1--1 01 FI ](media/Binomial-Random-Variables-image1.png)
 ![image](media/Binomial-Random-Variables-image2.png)

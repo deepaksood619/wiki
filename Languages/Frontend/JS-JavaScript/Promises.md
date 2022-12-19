@@ -12,13 +12,13 @@ Modified: 2021-11-29 13:57:45 +0500
 
 3. Terminology
 
-    a.  Fulfilled
+   - Fulfilled
 
-    b.  Rejected
+   - Rejected
 
-    c.  Pending
+   - Pending
 
-    d.  Settled
+   - Settled
 
 4. Chaining (Promises can be chained together to execute one after other)
 

@@ -12,20 +12,16 @@ Modified: 2022-01-16 15:12:55 +0500
 
 An **entropy encoding** is a [lossless data compression](https://en.wikipedia.org/wiki/Lossless_compression) scheme that is independent of the specific characteristics of the medium.
 
-Types -
+Types
 
 1. Huffman Coding
-
 2. Arithmetic Coding
 
 ## Lossless Compression
 
 1. Run Length Encoding (Fixed length codes)
-
 2. Huffman Compression (Variable length codes)
-
 3. LZW Compression (Variable length codes)
-
 4. UTF-8 (Variable width character encoding)
     - Backward compatible with ASCII
     - Can encode all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
@@ -40,7 +36,7 @@ Types -
 ## Applications
 
 1. Generic file compression
-    - Files: Gzip, Bzip, 7z
+    - Files: Gzip, Bzip, 7z, zip64 (zip64 format is an extension to the standard zip format that practically removes limits in sizes and the number of files inside of a zip archive)
     - Archivers: PKZIP
     - File systems: NTFS, HFS+, ZFS
 

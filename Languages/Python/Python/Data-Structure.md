@@ -12,17 +12,17 @@ Modified: 2020-12-07 23:44:44 +0500
 
 2. Tuples
 
-    a.  namedtuples
+   - namedtuples
 
 3. Dictionaries
 
-    a.  defaultdict
+   - defaultdict
 
 4. Sets
 
 5. Queue
 
-    a.  PriorityQueue
+   - PriorityQueue
 
 6. Array
 

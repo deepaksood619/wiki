@@ -13,9 +13,9 @@ Properties:
 
 2. Like Binary Heap, it can be divided into two categories:
 
-    a.  Max k-ary heap (key at root is greater than all descendants and same is recursively true for all nodes).
+   - Max k-ary heap (key at root is greater than all descendants and same is recursively true for all nodes).
 
-    b.  Min k-ary heap (key at root is greater than all descendants and same is recursively true for all nodes)
+   - Min k-ary heap (key at root is greater than all descendants and same is recursively true for all nodes)
 3-ary max heap - root node is maximum
 of all nodes
 10

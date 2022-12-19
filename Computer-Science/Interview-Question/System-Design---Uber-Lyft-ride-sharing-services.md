@@ -109,94 +109,94 @@ Split the city into smaller blocks and then re-calculate the ETA's in real time.
 
 1. Core features
 
-    a.  Driver Customer matching
+   - Driver Customer matching
 
-    b.  Mapping
+   - Mapping
 
 ## Driver Customer Matching
 
 1. Storage
 
-    a.  Trip storage
+   - Trip storage
 
-        i.  Close Data Center
+       - Close Data Center
 
-        ii. Backup Data Center
+       - Backup Data Center
 
-        iii. Cloud platforms
+       - Cloud platforms
 
-        iv. In-house data stores
+       - In-house data stores
 
-        v.  Mix of SQL and NoSQL databases
+       - Mix of SQL and NoSQL databases
 
-        vi. Low Latency - Cassendra
+       - Low Latency - Cassendra
 
-    b.  Caching
+   - Caching
 
-        i.  In-memory database - redis
+       - In-memory database - redis
 
-        ii. Map data
+       - Map data
 
-        iii. Event data
+       - Event data
 
-    c.  Analytics
+   - Analytics
 
-        i.  Data Warehouse - Hadoop
+       - Data Warehouse - Hadoop
 
-    d.  Logging
+   - Logging
 
-        i.  Kafka - ingest logging message
+       - Kafka - ingest logging message
 
 2. SOA (Service Oriented Architecture)
 
 3. Provisioning
 
-    a.  Teraform (for installing apps from central repositories to distributed clusters)
+   - Teraform (for installing apps from central repositories to distributed clusters)
 
-    b.  Docker (Containerization)
+   - Docker (Containerization)
 
-    c.  Apache mesos (manage distributed system clusters)
+   - Apache mesos (manage distributed system clusters)
 
 4. Network Routing
 
-    a.  Stateless servers
+   - Stateless servers
 
 5. Testing
 
-    a.  Unit Tests
+   - Unit Tests
 
-    b.  Suite of integration tests
+   - Suite of integration tests
 
-    c.  Resiliency testing
+   - Resiliency testing
 
-        i.  HailStorm
+       - HailStorm
 
-        ii. Shadow fleets
+       - Shadow fleets
 
 ## Mapping
 
 1. Algorithms
 
-    a.  Dijkstra's Algorithm
+   - Dijkstra's Algorithm
 
-    b.  A* Search Algorithm
+   - A* Search Algorithm
 
-    c.  Travelling Salesman Problem (TSP)
+   - Travelling Salesman Problem (TSP)
 
-    d.  Optimization Problem
+   - Optimization Problem
 
 2. Directed Weighted Graph
 
-    a.  Vertices - Intersections
+   - Vertices - Intersections
 
-    b.  Roads - Edges
+   - Roads - Edges
 
-    c.  Speed limit / Traffic / Blockage - Weights
+   - Speed limit / Traffic / Blockage - Weights
 
 3. Uber
 
-    a.  Precompute the data for maps
+   - Precompute the data for maps
 
-    b.  Use historical data
+   - Use historical data
 
-    c.  Segment the city and do real time ETA calculation
+   - Segment the city and do real time ETA calculation

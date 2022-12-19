@@ -194,7 +194,7 @@ The trick to overriding a habit is to look to change your reaction to a cue. The
     - The unhappy feeling
     - You funnel attention onto a more pleasant task (these place we have to rewire our old habbit)
 
-        i.  Develop a plan / ritual, adjust your plans and then savor vitories when your plan works. Don't try to change everything at once
+       - Develop a plan / ritual, adjust your plans and then savor vitories when your plan works. Don't try to change everything at once
 
 3. The reward
 

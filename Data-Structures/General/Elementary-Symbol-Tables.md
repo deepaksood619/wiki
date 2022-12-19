@@ -47,7 +47,7 @@ Key type:
 
 a.  Using Linked List (Unordered)b.  Using Ordered Array
 
-    i.  Using Binary Search
+- Using Binary Search
 
 Keep two array, one for keys and other for values (order by keys)
 

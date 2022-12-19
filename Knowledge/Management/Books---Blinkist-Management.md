@@ -20,16 +20,16 @@ Modified: 2022-11-07 23:05:10 +0500
 - Good leaders understand the power of meaningful communication, so ban mobile phones from the meeting room
 - Great leaders share three attributes, but poor leaders tend to have one thing in common
 
-    i.  Self confidence - calm under pressure
+  - Self confidence - calm under pressure
 
-    ii. Proactive spirit
+  - Proactive spirit
 
-    iii. Deligent and reliable
+  - Deligent and reliable
 
-    iv. Inspire loyalty
+  - Inspire loyalty
 - Terrible leadership at work has terrible implications at home
 
-    i.  kick the dog behavior
+  - kick the dog behavior
 - The best leaders promote trust and make sure staff feel cared for and valued
 - Effective, stress-free leaders stay calm and confident under pressure and don't worry about what they can't control
 
@@ -421,7 +421,7 @@ Decoding the patterns of human connection
 
 - **Networking Styles**
 
-    i.  **Expansionist**
+- **Expansionist**
 
 Hit at every conference and cocktail hour. Ease with approaching strangers and exceptionally talented at forging spontaneous ties.
 

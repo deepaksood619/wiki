@@ -63,37 +63,37 @@ Dividing the cases that reach a certain node in the tree
 
 2. When there are more than two columns, find the best subtable formed by combining column categories
 
-    a.  This is applied to each table with more than 2 columns
+   - This is applied to each table with more than 2 columns
 
-    b.  Compute Pearson X^2^ tests for independence for each allowable subtable
+   - Compute Pearson X^2^ tests for independence for each allowable subtable
 
-    c.  Look for the smallest X^2^ value. If it is not significant, combine the column categories
+   - Look for the smallest X^2^ value. If it is not significant, combine the column categories
 
-    d.  Repeat step 2 if the new table has more than two columns
+   - Repeat step 2 if the new table has more than two columns
 
 3. Allows categories combined at step 2 to be broken apart
 
-    a.  For each compound category consisting of at least 3 of the original categories, find the "most signifcant" binary split
+   - For each compound category consisting of at least 3 of the original categories, find the "most signifcant" binary split
 
-    b.  If X^2^ is significant, implement the split and return to step 2
+   - If X^2^ is significant, implement the split and return to step 2
 
-    c.  Otherwise retain the compound categories for this variable, and move on to the next variable
+   - Otherwise retain the compound categories for this variable, and move on to the next variable
 
 4. You have now completed the "optimal" combining of categories for each explanatory variable
 
-    a.  Find the most significant of these "optimally" merged explanatory variables
+   - Find the most significant of these "optimally" merged explanatory variables
 
-    b.  Compute a "Bonferroni" adjusted chi-squared test of independence for the reduced table for each explanatory variable
+   - Compute a "Bonferroni" adjusted chi-squared test of independence for the reduced table for each explanatory variable
 
 5. Use the "most significant" variable in step 4 to split the node with respect to the merged categories for that variable
 
-    a.  repeat steps 1-5 for each of the offspring nodes
+   - repeat steps 1-5 for each of the offspring nodes
 
-    b.  Stop if
+   - Stop if
 
-        i.  no variable is significant in step 4
+       - no variable is significant in step 4
 
-        ii. the number of cases reaching a node is below a specified limit
+       - the number of cases reaching a node is below a specified limit
 
 <http://www.statsoft.com/textbook/chaid-analysis>
 

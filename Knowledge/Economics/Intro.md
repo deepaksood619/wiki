@@ -24,25 +24,25 @@ Exchanging money or credit for goods, services or financial assets
 
 3. Government
 
-    a.  Central government (collect taxes and spend money)
+   - Central government (collect taxes and spend money)
 
-    b.  Central bank (control the amount of credit and money in the economy)
+   - Central bank (control the amount of credit and money in the economy)
 
-        i.  Influencing interest rates
+       - Influencing interest rates
 
-        ii. Printing new money
+       - Printing new money
 
 4. Credit is the most important part of economy (biggest and most volatile)
 
-    a.  Lenders
+   - Lenders
 
-    b.  Borrowers
+   - Borrowers
 
-        i.  Creditworthy borrower
+       - Creditworthy borrower
 
-            1.  The ability of repay
+            1. The ability of repay
 
-            2.  Collateral if he can't
+            2. Collateral if he can't
 
 5. One person's spending is another's person income
 
@@ -50,33 +50,33 @@ Exchanging money or credit for goods, services or financial assets
 
 7. Debt swings
 
-    a.  **Short term debt cycle: 5-8 years**
+   - **Short term debt cycle: 5-8 years**
 
 Average business cycle -- the time between **recessions** -- is about **eight** years.
 
 2. **Long term debt cycle: 75-100 years**
 
-    a.  Long term debt peak
+   - Long term debt peak
 
-    b.  Deleveraging
+   - Deleveraging
 
 Less spending -> Less income -> Less wealth -> Less credit -> Less borrowing
 
 3. Solving deleveraging
 
-    a.  Cut spending (Austerity)
+   - Cut spending (Austerity)
 
-    b.  Reduce debt (Debt restructuring)
+   - Reduce debt (Debt restructuring)
 
-        i.  Central government deficit (budget deficit)
+       - Central government deficit (budget deficit)
 
-    c.  Redistribute wealth (from the haves to the have nots)
+   - Redistribute wealth (from the haves to the have nots)
 
-    d.  Print money (Inflationary and stimulative)
+   - Print money (Inflationary and stimulative)
 
-        i.  Central bank prints money to buy financial assets and government bonds
+       - Central bank prints money to buy financial assets and government bonds
 
-    e.  Beautiful deleveraging
+   - Beautiful deleveraging
 
 8. Asset
 
@@ -104,9 +104,9 @@ It's a vicious cycle.
 
 14. Debt burden
 
-    a.  High debt burden
+- High debt burden
 
-    b.  Low debt burden
+- Low debt burden
 
 15. Depression
 

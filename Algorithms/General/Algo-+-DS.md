@@ -10,73 +10,73 @@ Modified: 2022-12-10 01:19:31 +0500
 
 1. Union-Find Algorithm
 
-    a.  Dynamic Connectivity
+   - Dynamic Connectivity
 
-    b.  Quick Find
+   - Quick Find
 
-    c.  Quick Union
+   - Quick Union
 
-    d.  Improvements
+   - Improvements
 
-        i.  Weighted Quick Union
+       - Weighted Quick Union
 
-        ii. Weighted Quick Union with Path Compression
+       - Weighted Quick Union with Path Compression
 
 2. Analysis of algorithms
 
-    a.  Scientific Method of Analysis
+   - Scientific Method of Analysis
 
-    b.  Empirical Method of Analysis
+   - Empirical Method of Analysis
 
 3. Stacks and Queues
 
-    a.  Stacks
+   - Stacks
 
-    b.  Resizing Arrays
+   - Resizing Arrays
 
-    c.  Queues
+   - Queues
 
-    d.  Deque
+   - Deque
 
-    e.  Randomized Queues
+   - Randomized Queues
 
 4. Elementary Sort
 
-    a.  Selection Sort
+   - Selection Sort
 
-    b.  Insertion Sort
+   - Insertion Sort
 
-    c.  Shell Sort
+   - Shell Sort
 
-    d.  Shuffling
+   - Shuffling
 
-        i.  Shuffle Sort
+       - Shuffle Sort
 
-        ii. Knuth Shuffle
+       - Knuth Shuffle
 
-    e.  Convex Hull
+   - Convex Hull
 
 5. Merge Sort
 
-    a.  Bottom up mergesort
+   - Bottom up mergesort
 
 6. Quick Sort
 
-    a.  Quick Select (Selection)
+   - Quick Select (Selection)
 
-    b.  3- way partition quicksort (Duplicate Keys)
+   - 3- way partition quicksort (Duplicate Keys)
 
-    c.  System sorts
+   - System sorts
 
 7. Priority Queues
 
-    a.  Binary heaps
+   - Binary heaps
 
-    b.  Heap sort
+   - Heap sort
 
 8. Elementary Symbol Tables
 
-    a.  Elementary Implementations
+   - Elementary Implementations
 
 Sorted array (Binary Search)
 
@@ -92,141 +92,141 @@ Unordered List (Sequential Search)
 
 9. Balanced Search Trees
 
-    a.  2-3 Search Trees
+   - 2-3 Search Trees
 
-    b.  Red-Black Trees
+   - Red-Black Trees
 
-    c.  B-Trees
+   - B-Trees
 
 10. Geometric applications of BST
 
-    a.  1d Range Search
+- 1d Range Search
 
-    b.  Line Segment Intersection
+- Line Segment Intersection
 
-    c.  Kd-Trees
+- Kd-Trees
 
-    d.  Interval Search Trees
+- Interval Search Trees
 
-    e.  Rectangle Intersection
+- Rectangle Intersection
 
 11. Hash Tables
 
-    a.  Uniform Hashing Assumption
+- Uniform Hashing Assumption
 
-    b.  Separate Chaining
+- Separate Chaining
 
-    c.  Linear Probing
+- Linear Probing
 
 12. Symbol Table Applications
 
-    a.  Sets
+- Sets
 
-    b.  Dictionary Clients
+- Dictionary Clients
 
-    c.  Indexing Clients
+- Indexing Clients
 
-    d.  Sparse Vectors
+- Sparse Vectors
 
 ## Data Structures
 
 1. Undirected Graphs
 
-    a.  Implementation
+   - Implementation
 
-        i.  Adjacency Matrix
+       - Adjacency Matrix
 
-        ii. Adjacency List
+       - Adjacency List
 
-    b.  DFS
+   - DFS
 
-    c.  BFS
+   - BFS
 
-    d.  Connected Components
+   - Connected Components
 
 2. Directed Graphs
 
-    a.  Topological Sort
+   - Topological Sort
 
-        i.  Topological order of an acyclic digraph
+       - Topological order of an acyclic digraph
 
-    b.  Strongly Connected Components
+   - Strongly Connected Components
 
-        i.  Kosaraju-Sharir algorithm for computing strong components of a digraph
+       - Kosaraju-Sharir algorithm for computing strong components of a digraph
 
 3. Minimum Spanning Trees
 
-    a.  Kruskal's Algorithm
+   - Kruskal's Algorithm
 
-    b.  Prim's Algorithm
+   - Prim's Algorithm
 
 4. Shortest Path
 
-    a.  Dijkstra's Algorithm
+   - Dijkstra's Algorithm
 
-    b.  Bellman Ford Algorithm (Negative Weights)
+   - Bellman Ford Algorithm (Negative Weights)
 
 5. Maximum Flow and Minimum Cut
 
-    a.  Ford-Fulkerson Algorithm
+   - Ford-Fulkerson Algorithm
 
 6. Radix Sorts
 
-    a.  Key-Indexed Counting
+   - Key-Indexed Counting
 
-    b.  LSD Radix Sort
+   - LSD Radix Sort
 
-    c.  MSD Radix Sort
+   - MSD Radix Sort
 
-    d.  3-way Radix Quicksort
+   - 3-way Radix Quicksort
 
-    e.  Suffix Arrays
+   - Suffix Arrays
 
 7. Tries
 
-    a.  R-way Tries
+   - R-way Tries
 
-    b.  Ternary Search Tries
+   - Ternary Search Tries
 
 8. Substring Search
 
-    a.  KMP (Knuth-Morris-Pratt)
+   - KMP (Knuth-Morris-Pratt)
 
-    b.  Boyer-Moore
+   - Boyer-Moore
 
-    c.  Rabin-Karp
+   - Rabin-Karp
 
 9. Regular Expressions
 
-    a.  DFA
+   - DFA
 
-    b.  NFA
+   - NFA
 
 10. Data Compression
 
-    a.  Run Length Encoding
+- Run Length Encoding
 
-    b.  Huffman Compression
+- Huffman Compression
 
-    c.  LZW Compression
+- LZW Compression
 
-    d.  Burrows-Wheeler
+- Burrows-Wheeler
 
 11. Reductions
 
 12. Linear Programming
 
-    a.  Brewer's Problem
+- Brewer's Problem
 
-    b.  Simplex Algorithm
+- Simplex Algorithm
 
 13. Intractability
 
-    a.  P
+- P
 
-    b.  NP
+- NP
 
-    c.  NP-Complete
+- NP-Complete
 
 ## Strategies for algorithms
 
@@ -276,7 +276,7 @@ Unordered List (Sequential Search)
 
 1. What is the data types of the inputs?
 
-    a.  Can we assume the string is ASCII or Unicode?
+   - Can we assume the string is ASCII or Unicode?
 
 2. Do we have to worry about load factors?
 

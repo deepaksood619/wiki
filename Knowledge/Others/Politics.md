@@ -107,17 +107,17 @@ Communism(from [Latin](https://en.wikipedia.org/wiki/Latin) communis, 'common, u
 
 1. Economic growth improves living standards, while political instability and short-term policies harm the economy.
 
-    i.  China
-        -   Raising low wages
-        -   Increasing education spending
-        -   Affordable housing
+   - China
+        - Raising low wages
+        - Increasing education spending
+        - Affordable housing
 
-    ii. Argentina
-        -   1913 - world's tenth-richest country
-        -   1930 - 1970s - six military coups
-        -   hyperinflation
-        -   Failed to invest in education
-        -   Unemployment
+   - Argentina
+        - 1913 - world's tenth-richest country
+        - 1930 - 1970s - six military coups
+        - hyperinflation
+        - Failed to invest in education
+        - Unemployment
 
 2. Some types of government debt, limited resources and population growth threaten economic growth.
     - going into debt can be beneficial for national economies

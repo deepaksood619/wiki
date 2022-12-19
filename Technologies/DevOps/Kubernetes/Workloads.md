@@ -8,34 +8,34 @@ Modified: 2019-03-18 23:09:41 +0500
 
 1. Pods
 
-    a.  Pod Overview
+   - Pod Overview
 
-    b.  Pods
+   - Pods
 
-    c.  Pod Lifecycle
+   - Pod Lifecycle
 
-    d.  Init Containers
+   - Init Containers
 
-    e.  Pod Preset
+   - Pod Preset
 
-    f.  Disruptions
+   - Disruptions
 
 2. Controllers
 
-    a.  ReplicaSet
+   - ReplicaSet
 
-    b.  ReplicationController
+   - ReplicationController
 
-    c.  Deployments
+   - Deployments
 
-    d.  StatefulSets
+   - StatefulSets
 
-    e.  DaemonSet
+   - DaemonSet
 
-    f.  Garbage Collection
+   - Garbage Collection
 
-    g.  TTL Controller for Finished Resources
+   - TTL Controller for Finished Resources
 
-    h.  Jobs - Run to Completion
+   - Jobs - Run to Completion
 
-    i.  CronJob
+   - CronJob

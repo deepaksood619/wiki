@@ -33,25 +33,25 @@ All data stored in a relational database is of a certain data type. Some of the 
 5. Postgres
 1. MySQL
 
-    a.  MySQL is the most popular open source SQL database. It is typically used for web application development, and often accessed using PHP.
+   - MySQL is the most popular open source SQL database. It is typically used for web application development, and often accessed using PHP.
 
-    b.  The main advantages of MySQL are that it is easy to use, inexpensive, reliable (has been around since 1995) and has a large community of developers who can help answer questions.
+   - The main advantages of MySQL are that it is easy to use, inexpensive, reliable (has been around since 1995) and has a large community of developers who can help answer questions.
 
-    c.  Some of the disadvantages are that it has been known to suffer from poor performance when scaling, open source development has lagged since Oracle has taken control of MySQL, and it does not include some advanced features that developers may be used to.
+   - Some of the disadvantages are that it has been known to suffer from poor performance when scaling, open source development has lagged since Oracle has taken control of MySQL, and it does not include some advanced features that developers may be used to.
 2. Oracle DB
 
-    a.  Oracle corporation owns Oracle DB, and the code is not open source.
+   - Oracle corporation owns Oracle DB, and the code is not open source.
 
-    b.  Oracle DB is for large applications, particularly in the banking industry. Most of the world's top banks run Oracle applications because Oracle offers a powerful combination of technology and comprehensive, pre-integrated business applications, including essential functionality built specifically for banks.
+   - Oracle DB is for large applications, particularly in the banking industry. Most of the world's top banks run Oracle applications because Oracle offers a powerful combination of technology and comprehensive, pre-integrated business applications, including essential functionality built specifically for banks.
 
-    c.  The main disadvantage of using Oracle is that it is not free to use like its open source competitors and can be quite expensive.
+   - The main disadvantage of using Oracle is that it is not free to use like its open source competitors and can be quite expensive.
 3. SQL Server
 
-    a.  Microsoft owns SQL Server. Like Oracle DB, the code is also close sourced.
+   - Microsoft owns SQL Server. Like Oracle DB, the code is also close sourced.
 
-    b.  Large enterprise applications mostly use SQL Server. The key difference between Oracle and SQL Server is that SQL Server only supports the Windows Operating System.
+   - Large enterprise applications mostly use SQL Server. The key difference between Oracle and SQL Server is that SQL Server only supports the Windows Operating System.
 
-    c.  Microsoft offers a free entry-level version calledExpressbut can become very expensive as you scale your application.
+   - Microsoft offers a free entry-level version calledExpressbut can become very expensive as you scale your application.
 
 ## SQL Server Integration Service (SSIS)
 

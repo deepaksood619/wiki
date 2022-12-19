@@ -10,23 +10,23 @@ Modified: 2022-05-03 19:42:27 +0500
 
 1. **Z-scores and percentiles**
 
-    a.  Z-scores - Amount of standard deviation above or below the mean
+   - Z-scores - Amount of standard deviation above or below the mean
 
-    b.  Z-scores in general allow us to compare things that are not on the same scale, as long as they're normally distributed.
+   - Z-scores in general allow us to compare things that are not on the same scale, as long as they're normally distributed.
 
-    c.  Percentiles - Tell you what percentage of the population has a score or value that's lower than yours.
+   - Percentiles - Tell you what percentage of the population has a score or value that's lower than yours.
 2. **Confidence intervals**
 
-    a.  Confidence intervals - An estimated range of values that seem reasonable based on what we've observed. It's center is still the sample mean, but we've got some room on either side for our uncertainity.
+   - Confidence intervals - An estimated range of values that seem reasonable based on what we've observed. It's center is still the sample mean, but we've got some room on either side for our uncertainity.
 
-    b.  T-distribution - A continuous probability distribution that's unimodal; it's useful to represent sampling distributions
+   - T-distribution - A continuous probability distribution that's unimodal; it's useful to represent sampling distributions
 
-    c.  Margin of Error - Just like a confidence interval, reflects the uncertainity that surrounds sample estimates of parameters like the mean or a proportion
+   - Margin of Error - Just like a confidence interval, reflects the uncertainity that surrounds sample estimates of parameters like the mean or a proportion
 3. **How p-value help us test hypothesis**
 
-    a.  Statistical inference
+   - Statistical inference
 
-    b.  Null Hypothesis Significance Testing (NHST)
+   - Null Hypothesis Significance Testing (NHST)
 
 A form of the Reduction Ad Absurdum argument which tries to discredit an idea by assuming the idea is true, and then showing that if you make that assumption, something contradictory happens.
 
@@ -38,20 +38,20 @@ If your p-value were 0.10 you could say that your sample is in the top 10% most 
 <https://www.freecodecamp.org/news/what-is-statistical-significance-p-value-defined-and-how-to-calculate-it>
 4.  **p-value problems**
 
-    a.  Alternative Distribution
+- Alternative Distribution
 
-    b.  Alternative Hypothesis
+- Alternative Hypothesis
 
-    c.  Failing to reject the null hypothesis doen't mean that there isn't an effect or relationship, it just means we didn't get enought evidence to say there definitely is one.
+- Failing to reject the null hypothesis doen't mean that there isn't an effect or relationship, it just means we didn't get enought evidence to say there definitely is one.
 
 5. **Playing with power - p-value part 3**
 
-    a.  Type 1 Error -
-        -   rejecting the null, even if it's true. It can therefore only happen if the null is true
-        -   Essentially false positives: we think we've detected an effect, but there isn't one
+   - Type 1 Error -
+        - rejecting the null, even if it's true. It can therefore only happen if the null is true
+        - Essentially false positives: we think we've detected an effect, but there isn't one
 
-    b.  Type 2 Error -
-        -   False negatives: There was an effect, but we didn't see it.
+   - Type 2 Error -
+        - False negatives: There was an effect, but we didn't see it.
 6. **You know i am all about that Bayes**
     - **Bayesian statistics is about updating beliefs and can be used to test hypotheses.**
     - **Bayes' Factor - Represents the amount of information that we've learned about our hypotheses from the data**

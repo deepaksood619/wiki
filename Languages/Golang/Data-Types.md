@@ -20,27 +20,27 @@ A string type represents the set of string values. Its value is a sequence of by
 
 4. Derived types
 
-    a.  Pointer types
+   - Pointer types
 
-    b.  Aggregate types
+   - Aggregate types
 
-        i.  Array types
+       - Array types
 
-        ii. Structure types
+       - Structure types
 
-    c.  Union types
+   - Union types
 
-    d.  Function types
+   - Function types
 
-    e.  Slice types
+   - Slice types
 
-    f.  Interface types
+   - Interface types
 
-    g.  Map types
+   - Map types
 
-    h.  Channel types
+   - Channel types
 
-    i.  Enumeration
+   - Enumeration
 
 ## Integer Types
 

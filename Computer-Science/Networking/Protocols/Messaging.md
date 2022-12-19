@@ -10,15 +10,15 @@ For Messaging consider it like email, not between people but between different a
 
 1. **Messaging Systems**
 
-    a.  HTTP and Email
+   - HTTP and Email
 
-    b.  REST(ful) web services
+   - REST(ful) web services
 
-    c.  Dbus
+   - Dbus
 
-    d.  Protocol Buffers
+   - Protocol Buffers
 
-    e.  GraphQL
+   - GraphQL
 
 ## AMQP vs MQTT
 

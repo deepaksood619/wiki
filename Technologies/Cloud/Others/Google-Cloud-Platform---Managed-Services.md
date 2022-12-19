@@ -8,9 +8,9 @@ Modified: 2020-11-05 15:23:19 +0500
 
 1. **Compute**
 
-    a.  Compute Engine
+   - Compute Engine
 
-    b.  App Engine
+   - App Engine
 
 Serverless application that completely abstracts away infrastructure so you focus only on code
 
@@ -34,7 +34,7 @@ Fully managed cron job service
 
 2. **Big Data**
 
-    a.  Big Query
+   - Big Query
 
 BigQueryis a serverless data warehouse. Tables in BigQuery are organized into datasets.
 
@@ -60,45 +60,45 @@ i.  Google Data Studio
 
 3. **Identity & Security**
 
-    a.  Cloud Identity
+   - Cloud Identity
 
-    b.  Cloud IAM
+   - Cloud IAM
 
-    c.  Cloud Identity-Aware Proxy
+   - Cloud Identity-Aware Proxy
 
-    d.  Cloud Data Loss Prevention API
+   - Cloud Data Loss Prevention API
 
-    e.  Security Key Enforcement
+   - Security Key Enforcement
 
-    f.  Cloud Resource Manager
+   - Cloud Resource Manager
 
-    g.  Cloud Security Command Center
+   - Cloud Security Command Center
 
-    h.  Cloud Security Scanner
+   - Cloud Security Scanner
 
-    i.  Access Transparency
+   - Access Transparency
 
 4. **Internet of Things**
 
-    a.  Cloud IoT Core
+   - Cloud IoT Core
 
 5. **Professional Services**
 
-    a.  Consulting
+   - Consulting
 
-    b.  Technical Account Management
+   - Technical Account Management
 
-    c.  Advanced Solutions Lab
+   - Advanced Solutions Lab
 
-    d.  Training
+   - Training
 
-    e.  Certification
+   - Certification
 
-    f.  QwikLabs
+   - QwikLabs
 
 6. **Storage and Databases**
 
-    a.  Cloud Storage
+   - Cloud Storage
 
 Geo-redundant object storage for high QPS (Query Per Second) needs
 
@@ -192,9 +192,9 @@ g.  Cloud Memorystore
 
 7. **API Platform and Ecosystems**
 
-    a.  Google Maps Platform
+   - Google Maps Platform
 
-    b.  Apigee API Platform
+   - Apigee API Platform
 
 Enterprise API management for multi-cloud environments
 
@@ -223,110 +223,110 @@ API management apps built on Google Cloud
 
 8. **Management Tools**
 
-    a.  Stackdriver Overview
+   - Stackdriver Overview
 
-    b.  Monitoring
+   - Monitoring
 
-    c.  Logging
+   - Logging
 
-    d.  Error Reporting
+   - Error Reporting
 
-    e.  Trace
+   - Trace
 
-    f.  Debugger
+   - Debugger
 
-    g.  Profiler
+   - Profiler
 
-    h.  Cloud Deployment Manager
+   - Cloud Deployment Manager
 
-    i.  Cloud Console
+   - Cloud Console
 
-    j.  Cloud Shell
-        -   ephemeral vm
+   - Cloud Shell
+        - ephemeral vm
 
-    k.  Cloud Mobile App
+   - Cloud Mobile App
 
-    l.  Cloud Billing API
+   - Cloud Billing API
 
-    m.  Cloud APIs
+   - Cloud APIs
 
 9. **Networking**
 
-    a.  Virtual Private Cloud (VPC)
+   - Virtual Private Cloud (VPC)
 
-    b.  Cloud Load Balancing
+   - Cloud Load Balancing
 
-    c.  Cloud Armor
+   - Cloud Armor
 
-    d.  Cloud CDN
+   - Cloud CDN
 
-    e.  Cloud Interconnect
+   - Cloud Interconnect
 
-    f.  Cloud DNS
+   - Cloud DNS
 
-    g.  Network Service Tiers
+   - Network Service Tiers
 
 10. **Cloud AI**
 
-    a.  Cloud AutoML
+- Cloud AutoML
 
-    b.  Cloud TPU
+- Cloud TPU
 
-    c.  Cloud Machine Learning Engine
+- Cloud Machine Learning Engine
 
-    d.  Cloud Job Discovery
+- Cloud Job Discovery
 
-    e.  Dialogflow Enterprise Edition
+- Dialogflow Enterprise Edition
 
-    f.  Cloud Natural Language
+- Cloud Natural Language
 
-    g.  Cloud Speech-to-Text
+- Cloud Speech-to-Text
 
-    h.  Cloud Text-to-Speech
+- Cloud Text-to-Speech
 
-    i.  Cloud Translation API
+- Cloud Translation API
 
-    j.  Cloud Vision API
+- Cloud Vision API
 
-    k.  Cloud Video Intelligence
+- Cloud Video Intelligence
 
 11. **Data Transfer**
 
-    a.  Google Transfer Appliance
+- Google Transfer Appliance
 
-    b.  Cloud Storage Transfer Service
+- Cloud Storage Transfer Service
 
-    c.  Google BigQuery Data Transfer Service
+- Google BigQuery Data Transfer Service
 
 12. **Developer Tools**
 
-    a.  Cloud SDK
+- Cloud SDK
 
-    b.  Container Registry
+- Container Registry
 
-    c.  Container Builder
+- Container Builder
 
-    d.  Cloud Source Repositories
+- Cloud Source Repositories
 
-    e.  Cloud Tools for Intellij
+- Cloud Tools for Intellij
 
-    f.  Cloud Tools for Powershell
+- Cloud Tools for Powershell
 
-    g.  Cloud Tools for Visual Studio
+- Cloud Tools for Visual Studio
 
-    h.  Cloud Tools for Eclipse
+- Cloud Tools for Eclipse
 
-    i.  Gradle App Engine Plugin
+- Gradle App Engine Plugin
 
-    j.  Cloud Test Lab
+- Cloud Test Lab
 
 13. **Productivity Tools**
 
-    a.  G Suite
+- G Suite
 
-    b.  Hire
+- Hire
 
-    c.  Chrome Android
+- Chrome Android
 
 ## Gcloud Commands
 

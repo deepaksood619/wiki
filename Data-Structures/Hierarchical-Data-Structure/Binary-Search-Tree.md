@@ -75,7 +75,7 @@ k.  Level order traversal
 
 l.  Deletion in BST
 
-    i.  Lazy Approach (Mark the node as Tombstone)
+- Lazy Approach (Mark the node as Tombstone)
 
 Leave the key in tree to guide search (but don't consider it equal in search)
 

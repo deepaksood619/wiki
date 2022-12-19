@@ -8,7 +8,7 @@ Modified: 2020-12-27 15:51:16 +0500
 
 1. **Separate chaining (open hashing)**
 
-    a.  Chained hash table (Using linked list if collision)
+   - Chained hash table (Using linked list if collision)
 
 Chainingis where each item in the hash table array is a list. When an item is added to the array at an index, it's added to corresponding list.
 ![image](media/Hashing-Techniques-image1.png)

@@ -72,9 +72,9 @@ Our bodies change our minds, and our minds change our behavior, and our behavior
 
 3. Warmth
 
-    i.  Practice gratitude
+   - Practice gratitude
 
-    ii. Develop your empathy
+   - Develop your empathy
 
 ## Resiliency
 

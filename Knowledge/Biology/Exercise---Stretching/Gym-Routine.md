@@ -10,9 +10,9 @@ Modified: 2021-04-12 20:07:53 +0500
 
 1. Leg Press
 
-    a.  Don't Lock your knees
+   - Don't Lock your knees
 
-    b.  Press through heels
+   - Press through heels
 
 ## The Split
 

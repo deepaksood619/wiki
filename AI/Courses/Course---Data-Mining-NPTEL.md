@@ -14,13 +14,13 @@ Data Mining by Pabitra Mitra, CSE, IIT Kharagpur
 
 1. Introduction, Data Preprocessing
 
-    a.  Introduction - Knowledge Discovery Process
+   - Introduction - Knowledge Discovery Process
 
-    b.  Data Preprocessing
+   - Data Preprocessing
 
-    c.  Association Rules
+   - Association Rules
 
-    d.  Apriori Algorithm
+   - Apriori Algorithm
 
 2. Association Rule Mining, Classification Basics
 

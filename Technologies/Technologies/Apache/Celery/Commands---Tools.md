@@ -6,107 +6,72 @@ Modified: 2022-03-10 22:53:17 +0500
 
 ---
 
+```bash
 celery -A tasks worker --loglevel=INFO
-
 celery worker --help
-
-celery --app=proj worker -l INFO
-
-celery -A proj worker -l INFO -Q hipri, lopri
-
-celery -A proj worker --concurrency=4
-
-celery -A proj worker --concurrency=1000 -P eventlet
-
-celery worker --autoscale=10,0
-
-celery -A tasks control rate_limit tasks.add 10/m
+	celery --app=proj worker -l INFO
+	celery -A proj worker -l INFO -Q hipri,lopri
+	celery -A proj worker --concurrency=4
+	celery -A proj worker --concurrency=1000 -P eventlet
+	celery worker --autoscale=10,0
+	
+	celery -A tasks control rate_limit tasks.add 10/m
 
 celery --help
+	Commands:
+	  amqp     AMQP Administration Shell.
+	  beat     Start the beat periodic task scheduler.
+	  call     Call a task by name.
+	  control  Workers remote control.
+		[revoke|terminate|rate_limit|time_limit|election|enable_events|disable_events|heartbeat|pool_grow|pool_shrink|pool_restart|autoscale|shutdown|add_consumer|cancel_consumer]
+		
+	  events   Event-stream utilities.
+	  graph    The ``celery graph`` command.
+	  inspect  Inspect the worker at runtime.
+		celery -A admin_panel inspect ping
+		
+	  list     Get info from broker
+		celery list
+		
+	  logtool  The ``celery logtool`` command.
+	  migrate  Migrate tasks from one broker to another.
+	  multi    Start multiple worker instances.
+	  purge    Erase all messages from all known task queues.
+	  report   Shows information useful to include in bug-reports.
+	  result   Print the return value for a given task id.
+	  shell    Start shell session with convenient access to celery symbols.
+	  status   Show list of workers that are online.
+		celery --app admin_panel status
+		
+	  upgrade  Perform upgrade between versions.
+	  worker   Start worker instance.
+```
 
-Commands:
-
-amqp AMQP Administration Shell.
-
-beat Start the beat periodic task scheduler.
-
-call Call a task by name.
-
-control Workers remote control.
-
-[revoke|terminate|rate_limit|time_limit|election|enable_events|disable_events|heartbeat|pool_grow|pool_shrink|pool_restart|autoscale|shutdown|add_consumer|cancel_consumer]
-
-events Event-stream utilities.
-
-graph The ``celery graph`` command.
-
-inspect Inspect the worker at runtime.
-
-celery -A admin_panel inspect ping
-
-list Get info from broker
-
-celery list
-
-logtool The ``celery logtool`` command.
-
-migrate Migrate tasks from one broker to another.
-
-multi Start multiple worker instances.
-
-purge Erase all messages from all known task queues.
-
-report Shows information useful to include in bug-reports.
-
-result Print the return value for a given task id.
-
-shell Start shell session with convenient access to celery symbols.
-
-status Show list of workers that are online.
-
-celery --app admin_panel status
-
-upgrade Perform upgrade between versions.
-
-worker Start worker instance.
-
+```python
 from celery import Celery
-
 app = Celery('tasks', backend='redis://default:password123@localhost', broker='redis://default:password123@localhost')
 
 @app.task
-
 def add(x, y):
-
-return x + y
+    return x + y
 
 >>> from tasks import add
-
 >>> result=add.delay(4,4)
-
-The [ready()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.ready) method returns whether the task has finished processing or not:
-
+The ready() method returns whether the task has finished processing or not:
 >>> result.ready()
-
 False
-
 You can wait for the result to complete, but this is rarely used since it turns the asynchronous call into a synchronous one:
-
 >>> result.get(timeout=1)
-
 8
-
-In case the task raised an exception, [get()](https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult.get) will re-raise the exception, but you can override this by specifying thepropagateargument:
-
+In case the task raised an exception, get() will re-raise the exception, but you can override this by specifying the propagate argument:
 >>> result.get(propagate=False)
-
 If the task raised an exception, you can also gain access to the original traceback:
-
 >>> result.traceback
+```
 
 ## Tools
 
-## Flower: Celery Monitoring Tool
+### Flower: Celery Monitoring Tool
 
 Flower is a web based tool for monitoring and administrating [Celery](http://celeryproject.org/) clusters
 
@@ -145,13 +110,13 @@ Flower is a web based tool for monitoring and administrating [Celery](http://cel
   - Revoke a task
 - OpenID authentication
 
-## Load Average
+### Load Average
 
 - os.getloadavg()
 - system run queue averaged over the last 1, 5, and 15 minutes
 - This loadaverage is of the host not the container
 
-## Monitoring
+### Monitoring
 
 Monitor Celery Tasks with Prometheus and celery-exporter
 
@@ -163,7 +128,7 @@ Monitor Celery Tasks with Prometheus and celery-exporter
 
 <https://flower.readthedocs.io/en/latest>
 
-## Jobtastic
+### Jobtastic
 
 Jobtastic is a python library that adds useful features to your Celery tasks. Specifically, these are features you probably want if the results of your jobs are expensive or if your users need to wait while they compute their results.
 

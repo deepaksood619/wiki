@@ -18,7 +18,7 @@ Modified: 2021-10-18 22:03:41 +0500
 
 1. Taxes: Dueling Tax Rates
 
-    a.  Marginal tax rate
+   - Marginal tax rate
 
 The marginal tax rate is the tax rate in the statutory tax codes. Thus, in 2020, a US company should be paying 21% of its taxable income in the US as federal taxes. Since US companies now operate on a regional tax model, the marginal tax rate for multinationals will reflect where they make (or report to make) their taxable income
 

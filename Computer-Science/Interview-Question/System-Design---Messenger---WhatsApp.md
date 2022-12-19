@@ -22,74 +22,74 @@ Modified: 2021-08-27 19:59:58 +0500
 
 - **Messaging**
 
-    a.  One to one message
+  - One to one message
 
-    b.  Group message
+  - Group message
 
-    c.  Broadcast message-   Timeline
+  - Broadcast message-   Timeline
 - Sharing
 
-    a.  text / stickers
+  - text / stickers
 
-    b.  image / gifs
+  - image / gifs
 
-    c.  video
+  - video
 
-    d.  status (text / image / video)-   **Delivery**
+  - status (text / image / video)-   **Delivery**
 
-    a.  Sent notification
+  - Sent notification
 
-    b.  Delivered notification
+  - Delivered notification
 
-    c.  Read notification (can be sent like a regular message [like an acknowledgement])
+  - Read notification (can be sent like a regular message [like an acknowledgement])
 - **Push notifications**
 
-    a.  Only delivering, because there cannot be interaction with the message
+  - Only delivering, because there cannot be interaction with the message
 
-    b.  Uses GCM-   Backup
+  - Uses GCM-   Backup
 
-    a.  Local
+  - Local
 
-    b.  Cloud
+  - Cloud
 - Storage
 
-    a.  Store messages
+  - Store messages
 
-    b.  Store analytics
+  - Store analytics
 
-    c.  Send and delete
+  - Send and delete
 - Network
 
-    a.  **Ephermeral**
-    b.  TCP - Handshake
+  - **Ephermeral**
+  - TCP - Handshake
 
-    c.  Load balancing (layers of load balancing and caching)
+  - Load balancing (layers of load balancing and caching)
 - Scaling
 
-    a.  Horizontally
+  - Horizontally
 
-    b.  Messages can be delivered out of order because different messages can be used to handle message requests.
+  - Messages can be delivered out of order because different messages can be used to handle message requests.
 - Caching
 - Database
 
-    a.  storing logs
+  - storing logs
 
-    b.  analytics data
+  - analytics data
 
-    c.  history
+  - history
 - Database replication
 - Database sharding
 - Queuing
 
-    a.  Messages Queue
+  - Messages Queue
 - Security
 
-    a.  End to end encryption
+  - End to end encryption
 - How to monetize the application
 
-    a.  sell stickers, emojis
+  - sell stickers, emojis
 
-    b.  permium services
+  - permium services
 
 ## Two Types of Chatting
 

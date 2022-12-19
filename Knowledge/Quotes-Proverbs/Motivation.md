@@ -154,13 +154,13 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
 4. Flow is 4 state
 
-    a.  priming/overwhelm don't attach to frustration
+   - priming/overwhelm don't attach to frustration
 
-    b.  release (sex/walk/drive)
+   - release (sex/walk/drive)
 
-    c.  Learning and memory consolidation state
+   - Learning and memory consolidation state
 
-    d.  Struggle
+   - Struggle
 
 ## Blogs -
 
@@ -186,21 +186,21 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
 1. Empowerment
 
-    a.  Can you do it? (self-efficacy)
+   - Can you do it? (self-efficacy)
 
-    b.  Will it work? (response-efficacy)
+   - Will it work? (response-efficacy)
 
-    c.  Is it worth it?
+   - Is it worth it?
 
 2. C - word
 
-    a.  Competance
+   - Competance
 
-    b.  Consequences drive us
+   - Consequences drive us
 
-    c.  Choice (success seeker)
+   - Choice (success seeker)
 
-    d.  Community (relatedness)
+   - Community (relatedness)
 
 [The psychology of self-motivation | Scott Geller | TEDxVirginiaTech](https://www.youtube.com/watch?v=7sxpKhIbr0E)
 

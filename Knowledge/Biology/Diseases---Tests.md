@@ -55,43 +55,43 @@ Hyperthyroidism, or overactive thyroid, happens when the thyroid gland produces 
 
 1. Injury
 
-    a.  Don't put water on skin damage and never itch the blood clot appear after injury, it will heal faster
+   - Don't put water on skin damage and never itch the blood clot appear after injury, it will heal faster
 
-    b.  Put betadine on it and don't cover it, cover while bathing
+   - Put betadine on it and don't cover it, cover while bathing
 
 2. Brushing Teeth
 
-    a.  Change brush every 3 months
+   - Change brush every 3 months
 
-    b.  Brush for 2 minutes, twice a day, once flossing
+   - Brush for 2 minutes, twice a day, once flossing
 
-    c.  Don't rinse with water / use mouthwash floride water (listerine)
+   - Don't rinse with water / use mouthwash floride water (listerine)
 
-    d.  Don't put brush in bathroom
+   - Don't put brush in bathroom
 
-    e.  Flossing
+   - Flossing
 
-    f.  Use tongue cleaner
+   - Use tongue cleaner
 
-    g.  Don't use hard toothbrush (soft or extra soft)
+   - Don't use hard toothbrush (soft or extra soft)
 
-    h.  Brush in circles
+   - Brush in circles
 
-    i.  Brush in 45 degree angle to gums
+   - Brush in 45 degree angle to gums
 
-    j.  Change routine
+   - Change routine
 
-    k.  Don't brush more than 2 times a day
+   - Don't brush more than 2 times a day
 
-    l.  Wait 30 min after eating before brushing
+   - Wait 30 min after eating before brushing
 
 3. Cough
 
-    a.  Drink hot ghee with adrak juice
+   - Drink hot ghee with adrak juice
 
-    b.  Drink hot water + lemon + honey (honey soothes your throat)
+   - Drink hot water + lemon + honey (honey soothes your throat)
 
-    c.  Salt + water gargle
+   - Salt + water gargle
 
 Non productive cough / Dry cough
 

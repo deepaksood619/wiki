@@ -58,21 +58,21 @@ Frequently filtered and unchanging dimension values should be materialized withi
         - **A slice processes only its own data**
 5. **Best Practices: Table design summary**
 
-    a.  Add compression to columns
+   - Add compression to columns
 
-    b.  Add sort keys on the primary columns that are filtered on
+   - Add sort keys on the primary columns that are filtered on
 
-    c.  Materialize often filtered columns from dimension tables into fact tables
+   - Materialize often filtered columns from dimension tables into fact tables
 
-    d.  Materialize often calculated values into tables
+   - Materialize often calculated values into tables
 
-    e.  Co-locate large tables using DISTSTYLE KEY if the columns do not cause skew
+   - Co-locate large tables using DISTSTYLE KEY if the columns do not cause skew
 
-    f.  Avoid distribution keys on temporal columns
+   - Avoid distribution keys on temporal columns
 
-    g.  Keep data types as wide as necessay (but no longer than necessary)
+   - Keep data types as wide as necessay (but no longer than necessary)
 
-        i.  VARCHAR, CHAR, and NUMERIC
+       - VARCHAR, CHAR, and NUMERIC
 
 ## Redshift Sort Key
 
