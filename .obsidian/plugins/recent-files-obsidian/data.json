@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Startup-Ideas---Physical",
+      "path": "Office/Ideas/Startup-Ideas---Physical.md"
+    },
+    {
+      "basename": "Final",
+      "path": "Office/Ideas/Final.md"
+    },
+    {
       "basename": "Regular-Expressions---Regex",
       "path": "Languages/Others/Regular-Expressions---Regex.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Youtube---Podcasts---Magazine---Movies",
       "path": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
-    },
-    {
-      "basename": "Business",
-      "path": "Office/Credentials/Business.md"
-    },
-    {
-      "basename": "NLTK",
-      "path": "AI/Deep-Learning/NLP/NLTK.md"
     }
   ],
   "omittedPaths": [],

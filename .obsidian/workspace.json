@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Office/Ideas/Startup-Ideas---Physical.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Office/Ideas/Startup-Ideas---Physical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md",
+                "file": "Office/Ideas/Startup-Ideas---Physical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Others/Regular-Expressions---Regex.md"
+                "file": "Office/Ideas/Startup-Ideas---Physical.md"
               }
             }
           },
@@ -183,15 +183,15 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
+    "Office/Ideas/Final.md",
+    "Office/Ideas/Startup-Ideas---Physical.md",
+    "Languages/Others/Regular-Expressions---Regex.md",
     "Languages/Python/Python/Regular-Expressions.md",
     "AI/ML-Algorithms/Regularization.md",
     "Languages/Python/Documentation/2.-Built-in-Functions.md",
     "Algorithms/Algorithmic-Complexity/Time-Complexities.md",
     "Languages/Python/Python/Time-complexities.md",
     "Knowledge/Psychology/Human-Psychology-&-Thinking.md",
-    "Knowledge/Psychology/Psychology.md",
-    "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
-    "Languages/Python/Documentation/27.-Development-Tools/Static-Code-Analysis.md",
-    "Languages/Others/Regular-Expressions---Regex.md"
+    "Knowledge/Psychology/Psychology.md"
   ]
 }

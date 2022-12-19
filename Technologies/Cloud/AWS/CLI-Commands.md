@@ -8,12 +8,12 @@ Modified: 2022-08-12 12:42:37 +0500
 
 ## AWS cli (brew install awscli)
 
-## pip install awscli
+```bash
+pip install awscli
 
 Graphical installer - <https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html>
 
-Linux
-
+# Linux
 curl "<https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip>" -o "awscliv2.zip"
 
 unzip awscliv2.zip
@@ -26,22 +26,12 @@ aws configure
 region - ap-south-1
 output - json
 
-```
-
-## # adding new profile
-```
-
+# adding new profile
 aws configure --profile zen
-
 aws ec2 describe-instances --profile {{profile_name}}
-
 aws s3 ls --profile zen
 
-```
-
-
-## #get current user
-```bash
+# get current user
 aws sts get-caller-identity
 
 aws sts get-access-key-info --access-key-id AKIAU2R6AAK3KKWSWRFU
@@ -59,7 +49,7 @@ aws s3 cp aws.png s3://bigbet90 --region us-west-2 --endpoint-url <https://bigbe
 
 ## Download folder / bucket from s3
 
-```
+```bash
 aws s3 sync
 
 aws s3 sync . s3://bigbet90
@@ -71,7 +61,6 @@ aws s3 sync test s3://storage-dev/test
 aws s3api get-object --bucket DOC-EXAMPLE-BUCKET1--key dir/my_images.tar.bz2 my_images.tar.bz2
 
 ## download file
-
 AWS_ACCESS_KEY_ID=XXX AWS_SECRET_ACCESS_KEY=XXX aws s3 cp s3://2022-03-07-12-44-11-7946.png 2022-03-07-12-44-11-7946.png
 
 # Upload a file to s3

@@ -22,7 +22,7 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 | log-logarithmic | O(log logn) | Amortized time per operation using a boundedpriority queue |
 | logarithmic time | DLOGTIME | O(logn) | logn, log(n2) | Binary search |
 | polylogarithmic time | poly(logn) | (logn)2 |
-| fractional power (sqrt(n)) (sublinear polynomials) | O(nc)where 0 `<` c `<` 1 | n1/2,n2/3 | Integer factorization, Searching in akd-tree, Grover's algorithm (Grover's algorithmis a quantum algorithm for searching an unsorted database of n entries in O(sqrt(n))time.) (String algorithm like longest common prefix, where you do not have to see every data - small oh) |
+| fractional power (sqrt(n)) (sublinear polynomials) | O(nc)where 0 < c < 1 | n1/2,n2/3 | Integer factorization, Searching in akd-tree, Grover's algorithm (Grover's algorithmis a quantum algorithm for searching an unsorted database of n entries in O(sqrt(n))time.) (String algorithm like longest common prefix, where you do not have to see every data - small oh) |
 | linear time | O(n) | n | Finding the smallest or largest item in an unsortedarray |
 | "n log star n" time | O(nlog*n) | Seidel's polygon triangulationalgorithm. |
 | quasilinear time/linearithmic | O(nlogn) | nlogn, logn! | Fastest possible comparison sort; Fast Fourier transform, Merge Sort |
@@ -32,7 +32,7 @@ In the table, poly(*x*)=*x^O^*^(1)^, i.e., polynomial in*x*.
 | polynomial time | P | 2O(logn)= poly(n) | n,nlogn,n10 | Karmarkar's algorithm for linear programming;AKS primality test |
 | quasi-polynomial time | QP | 2poly(logn) | nloglogn,nlogn | Best-known O(log2n)-approximation algorithmfor the directedSteiner tree problem. |
 | sub-exponential time
-(first definition) | SUBEXP | O(2nε) for allε`>`0 | O(2lognlog logn) | Assuming complexity theoretic conjectures,BPPis contained in SUBEXP. |
+(first definition) | SUBEXP | O(2nε) for all ε>0 | O(2lognlog logn) | Assuming complexity theoretic conjectures,BPPis contained in SUBEXP. |
 | sub-exponential time
 (second definition) | 2o(n) | 2n1/3 | Best-known algorithm forinteger factorizationandgraph isomorphism |
 | exponential time

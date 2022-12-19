@@ -66,7 +66,7 @@ Fernet is a symmetric encryption method which makes sure that the message encryp
 
 <https://medium.com/coinmonks/if-youre-struggling-picking-a-crypto-suite-fernet-may-be-the-answer-95196c0fec4b>
 
-```
+```bash
 python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 ```
 

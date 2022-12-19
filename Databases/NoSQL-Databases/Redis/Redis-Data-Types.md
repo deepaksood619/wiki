@@ -229,8 +229,10 @@ Implementation note: Sorted sets are implemented via a dual-ported data structur
 | ZRANGE        | Fetches the items in the ZSET from their positions in sorted order |
 | ZRANGEBYSCORE | Fetches items in the ZSET based on a range of scores               |
 | ZREM          | Removes the item from the ZSET, if it exists                       |-   Expire an item in list after 2 mins
-    -   Set expire on item if no new data comes then expire the whole key
-    -   When inserting new data remove the data before 2 mins if available
+-   Set expire on item if no new data comes then expire the whole key
+-   When inserting new data remove the data before 2 mins if available
+
+```bash
 zadd test_key 1588056957 test_value_1 (add an item to sortedset)
 
 zadd test_key 1588057150 test_value_2 (add an item to sortedset)
@@ -240,6 +242,7 @@ zrangebyscore test_key 1588056957 1588057150 (to sortedset items)
 zrangebyscore test_key 1588056957 1588057150 withscores (to sortedset items with score)
 
 zremrangebyscore test_key 1588056950 1588056957 (to remove item)
+```
 
 ## Lexicographical scores
 
@@ -260,12 +263,15 @@ Since bitmap operations don't have a data structure of their own, there isn't a 
 One of the biggest advantages of bitmaps is that they often provide extreme space savings when storing information. For example in a system where different users are represented by incremental user IDs, it is possible to remember a single bit information (for example, knowing whether a user wants to receive a newsletter) of 4 billion of users using just 512 MB of memory.
 Bits are set and retrieved using the [SETBIT](https://redis.io/commands/setbit) and [GETBIT](https://redis.io/commands/getbit) commands:
 
+```bash
 > setbit key 10 1
 (integer) 1
 > getbit key 10
 (integer) 1
 > getbit key 11
 (integer) 0
+```
+
 The [SETBIT](https://redis.io/commands/setbit) command takes as its first argument the bit number, and as its second argument the value to set the bit to, which is 1 or 0. The command automatically enlarges the string if the addressed bit is outside the current string length.
 [GETBIT](https://redis.io/commands/getbit) just returns the value of the bit at the specified index. Out of range bits (addressing a bit that is outside the length of the string stored into the target key) are always considered to be zero.
 There are three commands operating on group of bits:
