@@ -14,7 +14,7 @@ In [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_p
 
 ## Adding Ingredients: First Try
 
-![image](media/Structural---Decorator-image2.jpg)-   But what if we want more ingredients? Open-closed principle?
+![image](media/Structural---Decorator-image2.jpg)-  But what if we want more ingredients? Open-closed principle?
 
 ## Adding Ingredients: Second Try
 

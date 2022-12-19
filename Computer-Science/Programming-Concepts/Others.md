@@ -38,11 +38,11 @@ If you have four teams working on a compiler you will end up with a four pass co
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
-a.  MAJOR version when you make incompatible API changes,
+- MAJOR version when you make incompatible API changes,
 
-b.  MINOR version when you add functionality in a backwards-compatible manner, and
+- MINOR version when you add functionality in a backwards-compatible manner, and
 
-c.  PATCH version when you make backwards-compatible bug fixes.
+- PATCH version when you make backwards-compatible bug fixes.
 
 <https://semver.org>
 

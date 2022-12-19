@@ -80,13 +80,13 @@ Class Hierarchy -
 - enum color
 Implementation of vehicle (Create 4 classes that inherit from the vehicle)
 
-a.  MotorCycle (S)
+- MotorCycle (S)
 
-b.  Car (M)
+- Car (M)
 
-c.  Bus (L)
+- Bus (L)
 
-d.  Truck (XL)
+- Truck (XL)
 class ParkingLot ( zipCode:int )
 
 placeVehicle ( vehicle:Vehicle )

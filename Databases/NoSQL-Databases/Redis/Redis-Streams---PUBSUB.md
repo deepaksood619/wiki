@@ -94,11 +94,11 @@ The commandXREVRANGEis the equivalent ofXRANGEbut returning the elements in inve
 
 When we do not want to access items by a range in a stream, usually what we want instead is tosubscribeto new items arriving to the stream. This concept may appear related to Redis Pub/Sub, where you subscribe to a channel, or to Redis blocking lists, where you wait for a key to get new elements to fetch, but there are fundamental differences in the way you consume a stream:
 
-a.  A stream can have multiple clients (consumers) waiting for data. Every new item, by default, will be delivered toevery consumerthat is waiting for data in a given stream. This behavior is different than blocking lists, where each consumer will get a different element. However, the ability tofan outto multiple consumers is similar to Pub/Sub.
+- A stream can have multiple clients (consumers) waiting for data. Every new item, by default, will be delivered toevery consumerthat is waiting for data in a given stream. This behavior is different than blocking lists, where each consumer will get a different element. However, the ability tofan outto multiple consumers is similar to Pub/Sub.
 
-b.  While in Pub/Sub messages arefire and forgetand are never stored anyway, and while when using blocking lists, when a message is received by the client it ispopped(effectively removed) from the list, streams work in a fundamentally different way. All the messages are appended in the stream indefinitely (unless the user explicitly asks to delete entries): different consumers will know what is a new message from its point of view by remembering the ID of the last message received.
+- While in Pub/Sub messages arefire and forgetand are never stored anyway, and while when using blocking lists, when a message is received by the client it ispopped(effectively removed) from the list, streams work in a fundamentally different way. All the messages are appended in the stream indefinitely (unless the user explicitly asks to delete entries): different consumers will know what is a new message from its point of view by remembering the ID of the last message received.
 
-c.  Streams Consumer Groups provide a level of control that Pub/Sub or blocking lists cannot achieve, with different groups for the same stream, explicit acknowledge of processed items, ability to inspect the pending items, claiming of unprocessed messages, and coherent history visibility for each single client, that is only able to see its private past history of messages.
+- Streams Consumer Groups provide a level of control that Pub/Sub or blocking lists cannot achieve, with different groups for the same stream, explicit acknowledge of processed items, ability to inspect the pending items, claiming of unprocessed messages, and coherent history visibility for each single client, that is only able to see its private past history of messages.
 The command that provides the ability to listen for new messages arriving into a stream is calledXREAD.
 
 > XREAD COUNT 2 STREAMS mystream 0
@@ -121,15 +121,15 @@ When the task at hand is to consume the same stream from different clients, then
 Redis uses a concept calledconsumer groups. It is very important to understand that Redis consumer groups have nothing to do from the point of view of the implementation with Kafka (TM) consumer groups, but they are only similar from the point of view of the concept they implement
 A consumer group is like apseudo consumerthat gets data from a stream, and actually serves multiple consumers, providing certain guarantees:
 
-a.  Each message is served to a different consumer so that it is not possible that the same message is delivered to multiple consumers.
+- Each message is served to a different consumer so that it is not possible that the same message is delivered to multiple consumers.
 
-b.  Consumers are identified, within a consumer group, by a name, which is a case-sensitive string that the clients implementing consumers must choose. This means that even after a disconnect, the stream consumer group retains all the state, since the client will claim again to be the same consumer. However, this also means that it is up to the client to provide a unique identifier.
+- Consumers are identified, within a consumer group, by a name, which is a case-sensitive string that the clients implementing consumers must choose. This means that even after a disconnect, the stream consumer group retains all the state, since the client will claim again to be the same consumer. However, this also means that it is up to the client to provide a unique identifier.
 
-c.  Each consumer group has the concept of thefirst ID never consumedso that, when a consumer asks for new messages, it can provide just messages that were never delivered previously.
+- Each consumer group has the concept of thefirst ID never consumedso that, when a consumer asks for new messages, it can provide just messages that were never delivered previously.
 
-d.  Consuming a message however requires explicit acknowledge using a specific command, to say: this message was correctly processed, so can be evicted from the consumer group.
+- Consuming a message however requires explicit acknowledge using a specific command, to say: this message was correctly processed, so can be evicted from the consumer group.
 
-e.  A consumer group tracks all the messages that are currently pending, that is, messages that were delivered to some consumer of the consumer group, but are yet to be acknowledged as processed. Thanks to this feature, when accessing the history of messages of a stream, each consumerwill only see messages that were delivered to it.
+- A consumer group tracks all the messages that are currently pending, that is, messages that were delivered to some consumer of the consumer group, but are yet to be acknowledged as processed. Thanks to this feature, when accessing the history of messages of a stream, each consumerwill only see messages that were delivered to it.
 Actually, it is even possible for the same stream to have clients reading without consumer groups via **XREAD**, and clients reading via **XREADGROUP** in different consumer groups.
 
 ## Creating a consumer group

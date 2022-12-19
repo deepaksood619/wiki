@@ -43,13 +43,13 @@ Can have many many different types of column
 
 3. Column Oriented Database
 
-Not to be confused with column-family databases, column-oriented databases are very similar to relational databases, but store data on disk by column instead of by row. This means that all of the data for a single column is together, allowing for faster aggregation on larger data sets. Since the columns are separate from each other, inserting or updating values is a performance intensive task, so column-oriented databases are primarily used for analytical work where entire data sets can be preloaded at one time.-   Druid
-4.  Object Oriented Database
+Not to be confused with column-family databases, column-oriented databases are very similar to relational databases, but store data on disk by column instead of by row. This means that all of the data for a single column is together, allowing for faster aggregation on larger data sets. Since the columns are separate from each other, inserting or updating values is a performance intensive task, so column-oriented databases are primarily used for analytical work where entire data sets can be preloaded at one time.-  Druid
+4. Object Oriented Database
 
 Object-oriented databases store data items as objects, seeking to bridge the gap between the representations used by objected-oriented programming languages and databases. Although this solves many problems with translating between different data paradigms, historically, adoption has suffered due to increased complexity, lack of standardization, and difficulty decoupling the data from the original application.
-5.  Document Oriented Database / Document Stores
-    -   Semi-structured data (XML, JSON)
-    -   Flat File Database
+5. Document Oriented Database / Document Stores
+    -  Semi-structured data (XML, JSON)
+    -  Flat File Database
 
 ## Databases
 
@@ -61,9 +61,9 @@ Object-oriented databases store data items as objects, seeking to bridge the gap
 - RethinkDB
 
 <https://rethinkdb.com>
-6.  Hierarchical database / Graph based database (Entities, Relationships)
-    -   Dgraph
-    -   Nebula-graph
+6. Hierarchical database / Graph based database (Entities, Relationships)
+    -  Dgraph
+    -  Nebula-graph
 
 <https://nebula-graph.io>
 
@@ -121,14 +121,14 @@ Examples
 11. Object Storage
 
 Object storage(also known asobject-based storage) is a [computer data storage](https://en.wikipedia.org/wiki/Computer_data_storage) architecture that manages data as objects, as opposed to other storage architectures like [file systems](https://en.wikipedia.org/wiki/File_systems) which manages data as a file hierarchy, and [block storage](https://en.wikipedia.org/wiki/Block_storage) which manages data as blocks within sectors and tracks.Each object typically includes the data itself, a variable amount of [metadata](https://en.wikipedia.org/wiki/Metadata), and a [globally unique identifier](https://en.wikipedia.org/wiki/Globally_unique_identifier). Object storage can be implemented at multiple levels, including the device level (object-storage device), the system level, and the interface level. In each case, object storage seeks to enable capabilities not addressed by other storage architectures, like interfaces that can be directly programmable by the application, a namespace that can span multiple instances of physical hardware, and data-management functions like [data replication](https://en.wikipedia.org/wiki/Data_replication) and data distribution at object-level granularity.
-Object storage systems allow retention of massive amounts of [unstructured data](https://en.wikipedia.org/wiki/Unstructured_data). Object storage is used for purposes such as storing photos on [Facebook](https://en.wikipedia.org/wiki/Facebook), songs on [Spotify](https://en.wikipedia.org/wiki/Spotify), or files in online collaboration services, such as [Dropbox](https://en.wikipedia.org/wiki/Dropbox_(service)).-   S3
+Object storage systems allow retention of massive amounts of [unstructured data](https://en.wikipedia.org/wiki/Unstructured_data). Object storage is used for purposes such as storing photos on [Facebook](https://en.wikipedia.org/wiki/Facebook), songs on [Spotify](https://en.wikipedia.org/wiki/Spotify), or files in online collaboration services, such as [Dropbox](https://en.wikipedia.org/wiki/Dropbox_(service)).-  S3
 
 - Azure Blob Storage
 <https://en.wikipedia.org/wiki/Object_storage>
 
 12. NewSQL databases
 
-NewSQL databases follow the relational structure and semantics, but are built using more modern, scalable designs. The goal is to offer greater scalability than relational databases and greaterconsistency guaranteesthan NoSQL alternatives. They achieve this by sacrificing certain amounts of availability in the event of a networking partition. The trade offs between consistency and availability is a fundamental problem of distributed databases described by theCAP theorem.-   MemSQL
+NewSQL databases follow the relational structure and semantics, but are built using more modern, scalable designs. The goal is to offer greater scalability than relational databases and greaterconsistency guaranteesthan NoSQL alternatives. They achieve this by sacrificing certain amounts of availability in the event of a networking partition. The trade offs between consistency and availability is a fundamental problem of distributed databases described by theCAP theorem.-  MemSQL
 
 - VoltDB
 - Spanner
@@ -142,7 +142,7 @@ NewSQL databases follow the relational structure and semantics, but are built us
 
 12. Multi-model databases
 
-Multi-model databases are databases that combine the functionality of more than one type of database. The benefits of this approach are clear --- the same system can use different representations for different types of data.-   ArangoDB
+Multi-model databases are databases that combine the functionality of more than one type of database. The benefits of this approach are clear --- the same system can use different representations for different types of data.-  ArangoDB
 
 - OrientDB
 - Couchbase
@@ -162,7 +162,7 @@ Semantic RDF graph databases are databases that map objects using the Resource D
 
 ## Relational vs Non-Relational Databases
 
-A**relational database** is one where data is stored in the form of a table. Each table has a**schema**, which is the columns and types a record is required to have. Each schema must have at least one primary key that uniquely identifies that record. In other words, there are no duplicate rows in your database. Moreover, each table can be related to other tables using foreign keys.
+A **relational database** is one where data is stored in the form of a table. Each table has a**schema**, which is the columns and types a record is required to have. Each schema must have at least one primary key that uniquely identifies that record. In other words, there are no duplicate rows in your database. Moreover, each table can be related to other tables using foreign keys.
 One important aspect of relational databases is that a change in a schema must be applied to all records. This can sometimes cause breakages and big headaches during migrations.**Non-relational databases**tackle things in a different way. They are inherently schema-less, which means that records can be saved with different schemas and with a different, nested structure. Records can still have primary keys, but a change in the schema is done on an entry-by-entry basis.
 <https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37>
 
@@ -173,7 +173,7 @@ One important aspect of relational databases is that a change in a schema must b
 1. Amazon Aurora
 
 High Performance Managed Relational Database
-2.  Amazon RDS
+2. Amazon RDS
 
 Managed Relational Database Service for MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB
 Amazon RDS Proxy
@@ -181,18 +181,18 @@ Amazon RDS Proxy
 Amazon RDS Proxy is a fully managed, highly available database proxy for [Amazon Relational Database Service (RDS)](https://aws.amazon.com/rds/) that makes applications more scalable, more resilient to database failures, and more secure.
 Many applications, including those built on modern [serverless architectures](https://aws.amazon.com/serverless/), can have a large number of open connections to the database server, and may open and close database connections at a high rate, exhausting database memory and compute resources. Amazon RDS Proxy allows applications to pool and share connections established with the database, improving database efficiency and application scalability. With RDS Proxy, failover times for Aurora and RDS databases are reduced by up to 66% and database credentials, authentication, and access can be managed through integration with AWS Secrets Manager and AWS Identity and Access Management (IAM).
 <https://aws.amazon.com/rds/proxy>
-3.  Amazon RDS on VMWare
+3. Amazon RDS on VMWare
 
 Automate on-premises database management
-4.  Amazon DynamoDB
+4. Amazon DynamoDB
 
 Managed NoSQL Database
-5.  Amazon DocumentDB (With MongoDB Compatibility)
+5. Amazon DocumentDB (With MongoDB Compatibility)
 
 Fully Managed Document Database
-6.  Amazon ElastiCache
+6. Amazon ElastiCache
 
-In-memory Data Store and Cache-   Query Caching
+In-memory Data Store and Cache-  Query Caching
 
 - Delayed Transactions
 - Read / Write Splitting
@@ -206,13 +206,13 @@ Elasticache between rds and application - <https://aws.amazon.com/blogs/database
 ## ElastiCache using Redis
 
 <https://aws.amazon.com/redis>
-7.  Amazon Redshift
+7. Amazon Redshift
 
 Fast, Simple, Cost-effecitive Data Warehousing
-8.  Amazon Neptune
+8. Amazon Neptune
 
 Fully Managed Graph Database Service
-9.  AWS Database Migration Service (DMS)
+9. AWS Database Migration Service (DMS)
 
 Migrate Databases with Minimal Downtime
 <https://aws.amazon.com/dms>

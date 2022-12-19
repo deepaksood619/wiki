@@ -28,7 +28,7 @@ Indexing is a way to optimize the performance of a database by minimizing the nu
 ## Indexes are created using a few database columns
 
 - The first column is the**Search key** that contains a copy of the primary key or candidate key of the table. These values are stored in sorted order so that the corresponding data can be accessed quickly.
-    Note: The data may or may not be stored in sorted order.-   The second column is the**Data ReferenceorPointer** which contains a set of pointers holding the address of the disk block where that particular key value can be found.
+    Note: The data may or may not be stored in sorted order.-  The second column is the**Data ReferenceorPointer** which contains a set of pointers holding the address of the disk block where that particular key value can be found.
 
 ![image](media/Indexing-image1.jpeg)
 
@@ -42,9 +42,9 @@ The indexing has various attributes:
 Indexing is defined based on its indexing attributes. Indexing can be of the following types
 - **Primary Index**
 
-Primary index is defined on an ordered data file. The data file is ordered on akey field. The key field is generally the primary key of the relation.-   **Secondary Index**
+Primary index is defined on an ordered data file. The data file is ordered on akey field. The key field is generally the primary key of the relation.-  **Secondary Index**
 
-Secondary index may be generated from a field which is a candidate key and has a unique value in every record, or a non-key with duplicate values.-   **Clustering Index**
+Secondary index may be generated from a field which is a candidate key and has a unique value in every record, or a non-key with duplicate values.-  **Clustering Index**
 
 Clustering index is defined on an ordered data file. The data file is ordered on a non-key field.
 In general, there are two types of file organization mechanism which are followed by the indexing methods to store the data:

@@ -94,11 +94,11 @@ To counter this, manufacturers changed the recipe and instead added one more ste
 
 So if you want the magic of the IKEA effect to work you need 3 things
 
-i.  The task should not be too easy
+- The task should not be too easy
 
-ii. The task needs to have labor
+- The task needs to have labor
 
-iii. The task has to be completed successfully
+- The task has to be completed successfully
 
 - Johnnie Walker
 

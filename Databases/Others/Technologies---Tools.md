@@ -92,12 +92,12 @@ Datastage is an ETL tool which extracts data, transform and load data from sourc
 ## Liquibase
 
 Liquibase helps millions of teams track, version, and deploy database schema changes.
-Liquibase Hub - Visualize all changes-   Changelogs
-    -   **Formats**
-        -   XML
-        -   YAML
-        -   JSON
-        -   SQL
+Liquibase Hub - Visualize all changes-  Changelogs
+    -  **Formats**
+        -  XML
+        -  YAML
+        -  JSON
+        -  SQL
 
 - Tracking Tables
   - DATABASECHANGELOG

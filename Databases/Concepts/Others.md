@@ -50,9 +50,9 @@ Deduplication is a way of storing this redundant data only once.
 
 - **Scalar Types**
 
-A scalar type can represent exactly one value. The scalar types are number, string, binary, Boolean, and null.-   **Document Types**
+A scalar type can represent exactly one value. The scalar types are number, string, binary, Boolean, and null.-  **Document Types**
 
-A document type can represent a complex structure with nested attributes, such as you would find in a JSON document. The document types are list and map.-   **Set Types**
+A document type can represent a complex structure with nested attributes, such as you would find in a JSON document. The document types are list and map.-  **Set Types**
 
 A set type can represent multiple scalar values. The set types are string set, number set, and binary set.
 

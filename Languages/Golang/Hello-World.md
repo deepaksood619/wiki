@@ -11,7 +11,6 @@ Modified: 2020-05-08 01:46:12 +0500
 ```go
 # The main package is the starting point to run the program
 
-
 package main
 
 # preprocessor command, tells the compilerto include the files lying in the package fmt

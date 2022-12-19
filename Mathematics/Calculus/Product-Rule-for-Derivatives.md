@@ -10,7 +10,7 @@ Modified: 2018-12-05 00:33:06 +0500
 
 Fifth is *function composition*
 ![image](media/Product-Rule-for-Derivatives-image2.png)
-3.  Product Rule
+3. Product Rule
 
 ![image](media/Product-Rule-for-Derivatives-image3.png)
 ![image](media/Product-Rule-for-Derivatives-image4.png)

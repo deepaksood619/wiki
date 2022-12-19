@@ -16,10 +16,10 @@ Modified: 2020-02-04 22:57:11 +0500
 1. **Add hosts to files**
 
 ```bash
-a. sudo cat /etc/openvpn/openvpn-status.log| grep IIITD
-b. sudo vim /etc/ansible/hosts
-c. IIITD-01 controller=IIITD-01 ansible_host=10.8.42.156 ansible_port=1234 ansible_ssh_pass='xitanez123!@#' ansible_ssh_user=pi
-d. '{0} controller={0} ansible_host={1} ansible_port=1234 ansible_ssh_pass='password' ansible_ssh_user=pi'.format(client.name, client.address)
+- sudo cat /etc/openvpn/openvpn-status.log| grep IIITD
+- sudo vim /etc/ansible/hosts
+- IIITD-01 controller=IIITD-01 ansible_host=10.8.42.156 ansible_port=1234 ansible_ssh_pass='xitanez123!@#' ansible_ssh_user=pi
+- '{0} controller={0} ansible_host={1} ansible_port=1234 ansible_ssh_pass='password' ansible_ssh_user=pi'.format(client.name, client.address)
 ```
 
 2. Create a playbook (yml file)

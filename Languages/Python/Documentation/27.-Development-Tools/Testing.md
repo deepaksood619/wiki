@@ -30,7 +30,6 @@ Modified: 2021-03-20 13:31:05 +0500
      def withdraw(self, amount):
          self.balance -= amount
 
-
  tests.py
  # To build a test case, make a class that inherits from unittest.TestCase and write methods that begin with test_
  import unittest

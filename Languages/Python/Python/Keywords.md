@@ -41,6 +41,7 @@ We only need to use global keyword in a function if we want to do assignments / 
 Python's lambda tool is used for building function objects in situations where a simple one-off function is required. It is also used to create anonymous functions
 
 Ex
+
 ```python
 Square = lambda x: x * x
 filter (lambda x : x % 3 == 0, foo)
@@ -51,6 +52,7 @@ filter (lambda x : x % 3 == 0, foo)
 ### Iterables -
 
 When you create a list, you can read its items one by one. Reading its items one by one is called iteration:
+
 ```python
 >>> mylist = [1, 2, 3]
 >>> for i in mylist:
@@ -61,6 +63,7 @@ When you create a list, you can read its items one by one. Reading its items one
 ```
 
 mylist is an *iterable*. When you use a list comprehension, you create a list, and so an iterable:
+
 ```python
 >>> mylist = [x*x for x in range(3)]
 >>> for i in mylist:
@@ -77,6 +80,7 @@ These iterables are handy because you can read them as much as you wish, but you
 ### Generators -
 
 Generators are iterators, a kind of iterable**you can only iterate over once**. Generators do not store all the values in memory, **they generate the values on the fly**:
+
 ```python
 >>> mygenerator = (x*x for x in range(3))
 >>> for i in mygenerator:
@@ -91,6 +95,7 @@ It is just the same except you used()instead of []. BUT, you **cannot** performf
 ### Yield
 
 yieldis a keyword that is used likereturn, except the function will return a generator.
+
 ```python
 >>> def createGenerator():
 ... mylist = range(3)

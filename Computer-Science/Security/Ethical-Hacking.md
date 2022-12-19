@@ -89,4 +89,4 @@ FestInis a tool for discovering open S3 Buckets starting from a domains.
 | **SD-WAN**                                              | Cisco Viptela, CATO Networks              |
 | **CASB**                                                | Netskope, Forcepoint, Paloalto            |
 | **MDM**                                                 | Vmware, SOTI, Citrix, Meraki              |
-| **Structured Cabling**                                  | Belden, Siemon                            |-   Saffron Networks
+| **Structured Cabling**                                  | Belden, Siemon                            |-  Saffron Networks

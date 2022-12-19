@@ -242,11 +242,11 @@ If you include this option, git will open up a UI to show you which commits are 
 
 When the interactive rebase dialog opens, you have the ability to do 3 things:
 
-a.  Reorder commit
+- Reorder commit
 
-b.  Omit commits
+- Omit commits
 
-c.  Squash commits
+- Squash commits
 
 Git rebase <branch-name> -i
 

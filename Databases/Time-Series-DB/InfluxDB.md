@@ -119,11 +119,11 @@ A series is the most important concept of Influxdb.A series is a combination of 
 ![image](media/InfluxDB-image1.png)[https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/](https://docs.influxdata.com/influxdb/v1.7/concepts/glossary/#field)
 TICK Stack (<https://www.influxdata.com/time-series-platform>)
 
-a.  Telegraf
+- Telegraf
 
-b.  InfluxDB
+- InfluxDB
 
-c.  Choronograf
+- Choronograf
 
-d.  Kapacitor
+- Kapacitor
 ![image](media/InfluxDB-image2.png)

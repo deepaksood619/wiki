@@ -54,16 +54,16 @@ Metadata helps to answer the following questions
 - What transformations were applied with cleansing?
 Metadata can be classified into following categories:
 
-a.  Technical Meta Data: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
+- Technical Meta Data: This kind of Metadata contains information about warehouse which is used by Data warehouse designers and administrators.
 
-b.  Business Meta Data:This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
+- Business Meta Data:This kind of Metadata contains detail that gives end-users a way easy to understand information stored in the data warehouse.
 
 ## Query Tools
 
 One of the primary objects of data warehousing is to provide information to businesses to make strategic decisions. Query tools allow users to interact with the data warehouse system.
 These tools fall into four different categories:
 
-a.  Query and reporting tools
+- Query and reporting tools
 
 Query and reporting tools can be further divided into
 
@@ -73,16 +73,19 @@ Reporting tools can be further divided into production reporting tools and deskt
 
 1. Report writers: This kind of reporting tool are tools designed for end-users for their analysis.
 
-2. Production reporting: This kind of tools allows organizations to generate regular operational reports. It also supports high volume batch jobs like printing and calculating. Some popular reporting tools are Brio, Business Objects, Oracle, PowerSoft, SAS Institute.-   Managed query tools
+2. Production reporting: This kind of tools allows organizations to generate regular operational reports. It also supports high volume batch jobs like printing and calculating. Some popular reporting tools are Brio, Business Objects, Oracle, PowerSoft, SAS Institute.-  Managed query tools
 
 This kind of access tools helps end users to resolve snags in database and SQL and database structure by inserting meta-layer between users and database.
-b.  Application Development tools
+
+- Application Development tools
 
 Sometimes built-in graphical and analytical tools do not satisfy the analytical needs of an organization. In such cases, custom reports are developed using Application development tools.
-c.  Data mining tools
+
+- Data mining tools
 
 Data mining is a process of discovering meaningful new correlation, pattens, and trends by mining large amount data. Data mining tools are used to make this process automatic.
-d.  OLAP tools
+
+- OLAP tools
 
 These tools are based on concepts of a multidimensional database. It allows users to analyse the data using elaborate and complex multidimensional views.
 

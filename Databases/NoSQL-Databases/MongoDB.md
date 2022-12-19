@@ -100,7 +100,7 @@ mongo admin --username root --password YOURPASSWORD
 ## Not so Good For
 
 - Highly transactional systems or where the data model is designed up front.
-- Tightly coupled systems-   MongoDB is not magically faster. If you store the same data, organised in basically the same fashion, and access it exactly the same way, then you really shouldn't expect your results to be wildly different. After all, MySQL and MongoDB are both GPL, so if Mongo had some magically better IO code in it, then the MySQL team could just incorporate it into their codebase.
+- Tightly coupled systems-  MongoDB is not magically faster. If you store the same data, organised in basically the same fashion, and access it exactly the same way, then you really shouldn't expect your results to be wildly different. After all, MySQL and MongoDB are both GPL, so if Mongo had some magically better IO code in it, then the MySQL team could just incorporate it into their codebase.
 
 <https://stackoverflow.com/questions/9702643/mysql-vs-mongodb-1000-reads>
 

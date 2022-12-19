@@ -66,9 +66,9 @@ emptyDir: {}
 
 ThePersistentVolumesubsystem provides an API for users and administrators that abstracts details of how storage is provided from how it is consumed. To do this we introduce two new API resources:PersistentVolumeandPersistentVolumeClaim.
 
-A**PersistentVolume(PV)** is a piece of storage in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.
+A **PersistentVolume(PV)** is a piece of storage in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.
 
-A**PersistentVolumeClaim(PVC)** is a request for storage by a user. It is similar to a pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., can be mounted once read/write or many times read-only).
+A **PersistentVolumeClaim(PVC)** is a request for storage by a user. It is similar to a pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., can be mounted once read/write or many times read-only).
 
 ## Lifecycle of a volume and claim
 
@@ -140,9 +140,9 @@ A volume will be in one of the following phases:
 
 Similar to how API resourcesPersistentVolumeandPersistentVolumeClaimare used to provision volumes for users and administrators, VolumeSnapshotContentandVolumeSnapshotAPI resources are provided to create volume snapshots for users and administrators.
 
-A**VolumeSnapshotContent** is a snapshot taken from a volume in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a PersistentVolume is a cluster resource.
+A **VolumeSnapshotContent** is a snapshot taken from a volume in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a PersistentVolume is a cluster resource.
 
-A**VolumeSnapshot** is a request for snapshot of a volume by a user. It is similar to a PersistentVolumeClaim.
+A **VolumeSnapshot** is a request for snapshot of a volume by a user. It is similar to a PersistentVolumeClaim.
 
 WhileVolumeSnapshotsallow a user to consume abstract storage resources, cluster administrators need to be able to offer a variety ofVolumeSnapshotContentswithout exposing users to the details of how those volume snapshots should be provisioned. For these needs there is theVolumeSnapshotClassresource.
 
@@ -150,7 +150,7 @@ WhileVolumeSnapshotsallow a user to consume abstract storage resources, cluster 
 
 ## Storage Classes
 
-A**StorageClass** provides a way for administrators to describe the "classes" of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators. Kubernetes itself is unopinionated about what classes represent. This concept is sometimes called "profiles" in other storage systems.
+A **StorageClass** provides a way for administrators to describe the "classes" of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators. Kubernetes itself is unopinionated about what classes represent. This concept is sometimes called "profiles" in other storage systems.
 
 Each **StorageClass** contains the fields **provisioner**, **parameters**, and **reclaimPolicy**, which are used when a**PersistentVolume** belonging to the class needs to be dynamically provisioned.
 

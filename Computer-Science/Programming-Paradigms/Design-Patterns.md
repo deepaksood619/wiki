@@ -44,7 +44,7 @@ These patterns deal with object relationships. They ensure that if one part of a
 - Bridge
 - Composite
 
-<https://dev.to/coly010/the-composite-pattern-design-patterns-meet-the-frontend-445e>-   Decorator
+<https://dev.to/coly010/the-composite-pattern-design-patterns-meet-the-frontend-445e>-  Decorator
 
 - Facade
 - Flyweight

@@ -59,7 +59,7 @@ render_screen()
 ![image](media/System-Design---MMOG---Game-image3.png)
 
 - Send previous inputs in all packets
-- Add timestamps for replay-   **State Synchronization**
+- Add timestamps for replay-  **State Synchronization**
   - Sync state of the environments object
     - Object State
       - Position

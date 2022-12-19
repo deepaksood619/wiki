@@ -126,13 +126,13 @@ BFSI - Banking, Financial Services and Insurance
 
 This is perhaps one of the important events to which the stocks react. The listed companies (trading on stock exchange) are required to declare their earning numbers once in every quarter, also called the quarterly earnings numbers. During an earnings announcement, the corporate gives out details on various operational activities including:
 
-a.  How much revenue the company has generated?
+- How much revenue the company has generated?
 
-b.  How has the company managed its expense?
+- How has the company managed its expense?
 
-c.  How much money the company paid in terms of taxes and interest charges?
+- How much money the company paid in terms of taxes and interest charges?
 
-d.  What is the profitability during the quarter?
+- What is the profitability during the quarter?
 
 ## NPA (Non Performing Assets)
 

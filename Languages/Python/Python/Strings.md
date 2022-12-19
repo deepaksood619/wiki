@@ -481,7 +481,7 @@ B = sood
 
 #### Strings are immutable, but can be altered using following approaches
 
-a.  One solution is to convert the string to a list and then change the value.
+- One solution is to convert the string to a list and then change the value.
 
 ```python
 >>> string = "abracadabra"
@@ -492,7 +492,7 @@ a.  One solution is to convert the string to a list and then change the value.
 Abrackdabra
 ```
 
-b.  Another approach is to slice the string and join it back.
+- Another approach is to slice the string and join it back.
 
 ```python
 >>> string = string[:5] + "k" + string[6:]

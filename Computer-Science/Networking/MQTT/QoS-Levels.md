@@ -16,9 +16,9 @@ TheQuality of Service(QoS) level is an agreement between the sender of a message
 | 2         | Exactly once delivery (assured delivery) | The protocol makes sure that the message will arrive exactly once at the receiver. This increases communication overhead but is the best option when neither loss nor duplication of messages are acceptable.                        |
 When you talk about QoS in MQTT, you need to consider the two sides of message delivery:
 
-a.  **Message delivery form the publishing client to the broker.**
+- **Message delivery form the publishing client to the broker.**
 
-b.  **Message delivery from the broker to the subscribing client.**
+- **Message delivery from the broker to the subscribing client.**
 We will look at the two sides of the message delivery separately because there are subtle differences between the two. The client that publishes the message to the broker defines the QoS level of the message when it sends the message to the broker. The broker transmits this message to subscribing clients using the QoS level that each subscribing client defines during the subscription process. If the subscribing client defines a lower QoS than the publishing client, the broker transmits the message with the lower quality of service.
 
 ## Why is Quality of Service important?

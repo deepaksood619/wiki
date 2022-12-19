@@ -14,9 +14,9 @@ Something we observer in actual data
 
 2. Theoratical probability
 
-More of an ideal or truth out there that we can't directly see-   Binomial distributions
+More of an ideal or truth out there that we can't directly see-  Binomial distributions
 
-![image](media/Intro-image1.png)-   Bayesian updating
+![image](media/Intro-image1.png)-  Bayesian updating
 
 - Probability density functions
 - Beta distribution
@@ -35,31 +35,31 @@ The formula is still used, particularly to estimate underlying probabilities whe
 
 ## Probability part 1 - Rules and Patterns**
 
-a.  Pareidolia - A product of our brains that causes us to see the pattern of a face in a non-face objects
+- Pareidolia - A product of our brains that causes us to see the pattern of a face in a non-face objects
 
-b.  Empirical probability
+- Empirical probability
 
-c.  Theoratical probability
+- Theoratical probability
 
-d.  Conditional probability
+- Conditional probability
 
 ## Probability part 2 - Updating your beliefs with Bayes
 
 - Naive bayes filters
 
 ![image](media/Intro-image3.png)
-![image](media/Intro-image4.png)-   Bayesian Statistics
+![image](media/Intro-image4.png)-  Bayesian Statistics
 
 - Simulation
 - Law of large numbers (applies to almost any distribution as long as the distribution doesn't have an infinite variance)
 
 ## Geometric Distributions and The Birthday Paradox
 
-a.  Geometric probability formula
+- Geometric probability formula
 
-b.  Geometric distribution
+- Geometric distribution
 
-c.  Cumulative geometric distribution
+- Cumulative geometric distribution
 [Binomial distributions | Probabilities of probabilities, part 1](https://www.youtube.com/watch?v=8idr1WZ1A7Q)
 
 [Why "probability of 0" does not mean "impossible" | Probabilities of probabilities, part 2](https://www.youtube.com/watch?v=ZA4JkHKZM50)
@@ -76,7 +76,7 @@ In [probability theory](https://en.wikipedia.org/wiki/Probability_theory), aprob
 In the frequentist view, probability measures the frequency with which an event will occur, if it is repeated many times
 
 - In theory, you want to measure the frequency of an outcome if an experiment is repeated an infinite number of times
-- While it is objective, it requires that an event be repeatable, and is thus narrow-   Subjectivist (Bayesian) view
+- While it is objective, it requires that an event be repeatable, and is thus narrow-  Subjectivist (Bayesian) view
 
 In the subjectivist view, probability is the value that a rational agent would assign to the likelihood of an event happening
 

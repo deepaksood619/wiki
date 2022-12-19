@@ -86,19 +86,19 @@ An **ISA** is an abstract model of a [computer](https://en.wikipedia.org/wiki/Co
 <https://en.wikipedia.org/wiki/Instruction_set_architecture>
 Based on where opcode and operand are
 
-a.  Stack architecture
+- Stack architecture
 
-b.  Accumulator architecture
+- Accumulator architecture
 
-c.  Register-Memory architecture
+- Register-Memory architecture
 
-d.  Register-Register / Load Store architecture
+- Register-Register / Load Store architecture
 ![image](media/Basic-Computer-Organization-image7.png)
 ![image](media/Basic-Computer-Organization-image8.png)
 
 ## Addressing Modes
 
-![image](media/Basic-Computer-Organization-image9.png)-   **Immediate Addressing**
+![image](media/Basic-Computer-Organization-image9.png)-  **Immediate Addressing**
 
 The simplest addressing mode is**Immediate addressing** where you write the data value into the instruction.
 

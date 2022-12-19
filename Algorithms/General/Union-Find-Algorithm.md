@@ -16,9 +16,9 @@ Used for **dynamic connectivity**
 
 Given a set on N objects -
 
-i.  Union Command - connect two objects
+- Union Command - connect two objects
 
-ii. Find/connected query command - is there a path connecting two objects
+- Find/connected query command - is there a path connecting two objects
 
 We assume "is connected to" is an equivalence relation:
 
@@ -28,9 +28,9 @@ We assume "is connected to" is an equivalence relation:
 
 ## Connected Components - Maximal set of objects that are mutually connected
 
-i.  Find query: Check if two objects are in the same component
+- Find query: Check if two objects are in the same component
 
-ii. Union Command: Replace components containing two objects with their union.
+- Union Command: Replace components containing two objects with their union.
 
 ## Quick-find (Eager approach)
 

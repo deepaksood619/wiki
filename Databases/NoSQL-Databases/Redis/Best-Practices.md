@@ -9,13 +9,13 @@ Modified: 2021-10-14 20:59:54 +0500
 - [Introduction](https://redislabs.com/redis-best-practices/introduction/)
 - [Indexing Patterns](https://redislabs.com/redis-best-practices/indexing-patterns/)
 
-<https://redis.io/topics/indexes>-   [Sorted Sets as Indexes](https://redislabs.com/redis-best-practices/indexing-patterns/sorted-sets-indexes/)
+<https://redis.io/topics/indexes>-  [Sorted Sets as Indexes](https://redislabs.com/redis-best-practices/indexing-patterns/sorted-sets-indexes/)
 
 - [Lexicographical Encoding](https://redislabs.com/redis-best-practices/indexing-patterns/lexicographical-encoding/)
 - [Geospatial](https://redislabs.com/redis-best-practices/indexing-patterns/geospatial/)
 - [IP Range Indexing](https://redislabs.com/redis-best-practices/indexing-patterns/ip-range-indexing/)
 - [Full Text Search](https://redislabs.com/redis-best-practices/indexing-patterns/full-text-search/)
-- [Partitioned Index](https://redislabs.com/redis-best-practices/indexing-patterns/partitioned-index/)-   [Communication Patterns](https://redislabs.com/redis-best-practices/communication-patterns/)
+- [Partitioned Index](https://redislabs.com/redis-best-practices/indexing-patterns/partitioned-index/)-  [Communication Patterns](https://redislabs.com/redis-best-practices/communication-patterns/)
   - [Event Queue](https://redislabs.com/redis-best-practices/communication-patterns/event-queue/)
   - [Redlock](https://redislabs.com/redis-best-practices/communication-patterns/redlock/)
 
@@ -24,8 +24,8 @@ In a system, sometimes you must lock a resource. This might be to make critical 
 - One worker (and only one) worked to be able to acquire rights to a resource
 - Be able to release this lock reliably
 - Not deadlock any resource meaning that a resource should be unlocked after a given time period.
-Redis is a good option locking since has a simple key-based data model, each shard is single-threaded, and is quite quick. There is a well-established, canonical implementations of locking using Redis called Redlock.-   [Pub/Sub](https://redislabs.com/redis-best-practices/communication-patterns/pub-sub/)
-- [Distributed Events](https://redislabs.com/redis-best-practices/communication-patterns/distributed-events/)-   [Data Storage Patterns](https://redislabs.com/redis-best-practices/data-storage-patterns/)
+Redis is a good option locking since has a simple key-based data model, each shard is single-threaded, and is quite quick. There is a well-established, canonical implementations of locking using Redis called Redlock.-  [Pub/Sub](https://redislabs.com/redis-best-practices/communication-patterns/pub-sub/)
+- [Distributed Events](https://redislabs.com/redis-best-practices/communication-patterns/distributed-events/)-  [Data Storage Patterns](https://redislabs.com/redis-best-practices/data-storage-patterns/)
   - [JSON Storage](https://redislabs.com/redis-best-practices/data-storage-patterns/json-storage/)
   - [Object->Hash Storage](https://redislabs.com/redis-best-practices/data-storage-patterns/object-hash-storage/)
 - [Time Series Patterns](https://redislabs.com/redis-best-practices/time-series/)

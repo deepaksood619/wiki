@@ -8,15 +8,15 @@ Modified: 2021-06-06 16:47:21 +0500
 
 Searching
 
-a.  Sequential Search / Linear Search
+- Sequential Search / Linear Search
 
-b.  Binary Search
+- Binary Search
 
-c.  Ternary Search
+- Ternary Search
 
 <https://www.hackerearth.com/practice/algorithms/searching/ternary-search/tutorial>
 
-d.  Hash Table
+- Hash Table
 
 Internal Sorts -
 

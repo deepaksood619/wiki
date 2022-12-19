@@ -14,9 +14,9 @@ Modified: 2020-11-05 15:23:19 +0500
 
 Serverless application that completely abstracts away infrastructure so you focus only on code
 
-c.  Kubernetes Engine (GKE)
+- Kubernetes Engine (GKE)
 
-d.  Cloud Functions
+- Cloud Functions
 
 Serverless environment to build and connect cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. Your Cloud Function is triggered when an event being watched is fired. Your code executes in a fully managed environment. There is no need to provision any infrastructure or worry about managing any servers.
 
@@ -26,7 +26,7 @@ Cloud Functions are written in Javascript and execute in a Node.js v6.11.5 envir
 
 2. Background Functions
 
-e.  Cloud Scheduler
+- Cloud Scheduler
 
 Fully managed cron job service
 
@@ -38,25 +38,25 @@ Fully managed cron job service
 
 BigQueryis a serverless data warehouse. Tables in BigQuery are organized into datasets.
 
-b.  Cloud Dataflow
+- Cloud Dataflow
 
-c.  Cloud Dataproc
+- Cloud Dataproc
 
 Cloud Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Cloud Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them.
 
-d.  Cloud Composer
+- Cloud Composer
 
-e.  Cloud Datalab
+- Cloud Datalab
 
-f.  Cloud Dataprep
+- Cloud Dataprep
 
-g.  Cloud Pub/Sub
+- Cloud Pub/Sub
 
 Geo-redundant real-time messaging for all message sizes and velocities
 
-h.  Genomics
+- Genomics
 
-i.  Google Data Studio
+- Google Data Studio
 
 3. **Identity & Security**
 
@@ -106,11 +106,11 @@ Geo-redundant object storage for high QPS (Query Per Second) needs
 
 Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
 
-b.  Cloud SQL
+- Cloud SQL
 
-c.  Cloud Bigtable
+- Cloud Bigtable
 
-d.  Cloud Spanner: No-Compromise Relational Database Service
+- Cloud Spanner: No-Compromise Relational Database Service
 
 Cloud Spanner is the only enterprise-grade, globally-distributed, and strongly consistent database service built for the cloud specifically to combine the benefits of relational database structure with non-relational horizontal scale. This combination delivers high-performance transactions and strong consistency across rows, regions, and continents with an industry-leading 99.999% availability SLA, no planned downtime, and enterprise-grade security. Cloud Spanner revolutionizes database administration and management and makes application development more efficient.
 
@@ -180,13 +180,13 @@ Read-only and witness replicas are only used for multi-regional Spanner clusters
 
 - Can we deploy in single region?
 
-e.  Cloud Datastore
+- Cloud Datastore
 
 ## Highly-scalable NoSQL database. It automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, and indexes
 
-f.  Persistent Disk
+- Persistent Disk
 
-g.  Cloud Memorystore
+- Cloud Memorystore
 
 ![Database Management Portfolio on GCP In-memory Cloud Memorystore Managed Redis & MemcacheD Non-relational / NoSQL Relational Cloud SQL Managed MySQL, PostgreSQL, & SQL Server Strategic Data warehouse Partners Cloud Serverless, scalable document store Cloud Bigtable Low latency, scalable wide column store Cloud Spanner Scalable relational database BigQuery Enterprise data warehouse Built and managed by Google e redis DB mongo elastic ORTRSTRX.: O influxdata Oneoqj €;eonfluent Built and managed by Partners (as a service or Anthos) Databases On GCE/GKE SAP HANA Microsoft SQL Server Oracle IBM Db2 MySQL PostgreSQL MariaDB Non-relational Managed by you and/or Partners Google Cloud ](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image3.png)
 
@@ -209,15 +209,15 @@ AnAPI proxyis your interface to developers that want to use your backend service
 - CORS
 - Fault handling
 
-c.  API Monetization
+- API Monetization
 
-d.  Developer Portal
+- Developer Portal
 
-e.  API Analytics
+- API Analytics
 
-f.  Apigee Sense
+- Apigee Sense
 
-g.  Cloud Endpoints
+- Cloud Endpoints
 
 API management apps built on Google Cloud
 

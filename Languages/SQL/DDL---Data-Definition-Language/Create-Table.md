@@ -296,7 +296,6 @@ update_date    DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIM
     KEY `status` (`status`)
 );
 
-
 CREATE TABLE `loc_imps_bank` (
     `id` int NOT NULL AUTO_INCREMENT,
     `customer_id` int NOT NULL,

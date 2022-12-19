@@ -63,10 +63,10 @@ Here are some recommendations specific to Avro:
 - Use enumerated values whenever possible instead of magic strings. Avro allows specifying the set of values that can be used in the schema as an enumeration. This avoids typos in data producer code making its way into the production data set that will be recorded for all time.
 - Require documentation for all fields. Even seemingly obvious fields often have non-obvious details. Try to get them all written down in the schema so that anyone who needs to really understand the meaning of the field need not go any further.
 - Avoid non-trivial union types and recursive types. These are Avro features that map poorly to most other systems. Since our goal is an intermediate format that maps well to other systems we want to avoid any overly advanced features.
-- Enforce reasonable schema and field naming conventions. Since these schemas will map into Hadoop having common fields like customer_id named the same across events will be very helpful in making sure that joins between these are easy to do. A reasonable scheme might be something like PageViewEvent, OrderEvent, ApplicationBounceEvent, etc.-   Avro Support Athena as Deser for querying
+- Enforce reasonable schema and field naming conventions. Since these schemas will map into Hadoop having common fields like customer_id named the same across events will be very helpful in making sure that joins between these are easy to do. A reasonable scheme might be something like PageViewEvent, OrderEvent, ApplicationBounceEvent, etc.-  Avro Support Athena as Deser for querying
 
-<https://docs.aws.amazon.com/athena/latest/ug/avro.html>-   Disadvantage
-    -   Can't directly see files in S3, only csv, json and parquet supported in s3
+<https://docs.aws.amazon.com/athena/latest/ug/avro.html>-  Disadvantage
+    -  Can't directly see files in S3, only csv, json and parquet supported in s3
 
 ## Tools
 

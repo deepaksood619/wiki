@@ -177,6 +177,6 @@ Information flows in one direction from other systems to a device (or a group of
 IoT Applications, Protocols, and Best Practices - DZone Research Guides
 
 <https://www.home-assistant.io/blog/2016/02/12/classifying-the-internet-of-things>
-End to end overview - <https://cloud.google.com/solutions/iot-overview>-   <https://www.edx.org/course/iot-system-architecture-design-and-evaluation>
+End to end overview - <https://cloud.google.com/solutions/iot-overview>-  <https://www.edx.org/course/iot-system-architecture-design-and-evaluation>
 
 - <https://www.edx.org/microsoft-professional-program-certificate-in-iot>

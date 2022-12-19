@@ -45,13 +45,13 @@ Key type:
 
 ## Implementation -
 
-a.  Using Linked List (Unordered)b.  Using Ordered Array
+- Using Linked List (Unordered)b.  Using Ordered Array
 
 - Using Binary Search
 
 Keep two array, one for keys and other for values (order by keys)
 
-c.  Using Binary Search Tree
+- Using Binary Search Tree
 
 A BST is a binary tree in symmetric order
 

@@ -102,7 +102,7 @@ There are two additional isolation levels:
 
 ## What Does "Serializable" Mean in a Distributed/ReplicatedSystem?
 
-We defined "serializable isolation" above as a guarantee that even though a database system is allowed to run transactions in parallel, the final result is equivalent to as if they were running one after the other. In a replicated system, this guarantee must be strengthened in order to avoid the anomalies that would only occur at lower levels of isolation in non-replicated systems.-   The Immortal Write
+We defined "serializable isolation" above as a guarantee that even though a database system is allowed to run transactions in parallel, the final result is equivalent to as if they were running one after the other. In a replicated system, this guarantee must be strengthened in order to avoid the anomalies that would only occur at lower levels of isolation in non-replicated systems.-  The Immortal Write
 
 - The Stale Read
 - The Casual Reverse

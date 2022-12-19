@@ -70,11 +70,11 @@ NocoDB is an open source #NoCode platform that turns any database into a smart s
 
 12. Slack
 
-a. Brief - <https://www.gobrief.com>
+- Brief - <https://www.gobrief.com>
 
-b. <https://www.quora.com/What-Slack-to-do-list-app-do-you-recommend>
+- <https://www.quora.com/What-Slack-to-do-list-app-do-you-recommend>
 
-c. <https://about.gitlab.com/handbook/communication/chat>
+- <https://about.gitlab.com/handbook/communication/chat>
 
 13. Gmail
 

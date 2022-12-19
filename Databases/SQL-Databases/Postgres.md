@@ -10,11 +10,11 @@ Modified: 2022-03-12 12:05:00 +0500
 
 Is a relational database management system with an object-oriented approach, meaning that information can be represented as objects or classes in PostgreSQL schemas.
 PostgreSQL is an open-source SQL database that is not controlled by any corporation. It is typically used for web application development.
-PostgreSQL shares many of the same advantages of MySQL. It is easy to use, inexpensive, reliable and has a large community of developers. It also provides some additional features such as foreign key support without requiring complex configuration.-   SQL Query Planner
-    -   Lexing
-    -   Parsing
-    -   Rewriter
-    -   Optimizer
+PostgreSQL shares many of the same advantages of MySQL. It is easy to use, inexpensive, reliable and has a large community of developers. It also provides some additional features such as foreign key support without requiring complex configuration.-  SQL Query Planner
+    -  Lexing
+    -  Parsing
+    -  Rewriter
+    -  Optimizer
 
 - Two types of SQL Commands
   - Full blown query (SELECT, INSERT, UPDATE, DELETE)

@@ -19,7 +19,7 @@ LLVM is written in [C++](https://en.wikipedia.org/wiki/C%2B%2B) and is designed 
 
 - Trusting trust attack
 
-Occurs when an attacker attempts to disseminate a compiler executable that produces corrupted executables, at least one of those produced corrupted executables is a corrupted compiler, and the attacker attempts to make this situation self-perpetuating.-   Diverse double-compiling
+Occurs when an attacker attempts to disseminate a compiler executable that produces corrupted executables, at least one of those produced corrupted executables is a corrupted compiler, and the attacker attempts to make this situation self-perpetuating.-  Diverse double-compiling
 
 Using 4 compilers of different languages and sources to check each other's work
 

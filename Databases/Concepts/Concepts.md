@@ -39,13 +39,13 @@ If, after a start, the database is found in an [inconsistent](https://en.wikiped
 In [database management systems](https://en.wikipedia.org/wiki/Database_management_system)(DBMS), aprepared statementorparameterized statementis a feature used to execute the same or similar database statements repeatedly with high efficiency. Typically used with [SQL](https://en.wikipedia.org/wiki/SQL) statements such as queries or updates, the prepared statement takes the form of a [template](https://en.wikipedia.org/wiki/Template_processor) into which certain constant values are substituted during each execution.
 The typical workflow of using a prepared statement is as follows:
 
-a.  **Prepare:** At first, the application creates the statement template and send it to the DBMS. Certain values are left unspecified, calledparameters, placeholdersorbind variables(labelled "?" below):
+- **Prepare:** At first, the application creates the statement template and send it to the DBMS. Certain values are left unspecified, calledparameters, placeholdersorbind variables(labelled "?" below):
 
 INSERTINTOproducts(name, price)VALUES(?,?);
 
-b.  Then, the DBMS compiles (parses, [optimizes](https://en.wikipedia.org/wiki/Query_optimization) and translates) the statement template, and stores the result without executing it.
+- Then, the DBMS compiles (parses, [optimizes](https://en.wikipedia.org/wiki/Query_optimization) and translates) the statement template, and stores the result without executing it.
 
-c.  **Execute:** At a later time, the application supplies (orbinds) values for the parameters of the statement template, and the DBMS executes the statement (possibly returning a result). The application may execute the statement as many times as it wants with different values. In the above example, it might supply "bike" for the first parameter and "10900" for the second parameter.
+- **Execute:** At a later time, the application supplies (orbinds) values for the parameters of the statement template, and the DBMS executes the statement (possibly returning a result). The application may execute the statement as many times as it wants with different values. In the above example, it might supply "bike" for the first parameter and "10900" for the second parameter.
 As compared to executing statements directly, prepared statements offer two main advantages:
 
 - The overhead of compiling the statement is incurred only once, although the statement is executed multiple times. However not all optimization can be performed at the time the statement template is compiled, for two reasons: the best plan may depend on the specific values of the parameters, and the best plan may change as tables and indexes change over time.

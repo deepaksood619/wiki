@@ -52,13 +52,13 @@ Storage classes defines the scope(visibility) and life-time of the variables and
 
 Static is a keyword in C++ used to give special characteristics to an element. Static elements are allocated storage only once in a program lifetime in static storage area. And they have a scope till the program lifetime. Static Keyword can be used with following,
 
-a.  Static variable in functions
+- Static variable in functions
 
-b.  Static Class Objects
+- Static Class Objects
 
-c.  Static member Variable in class
+- Static member Variable in class
 
-d.  Static Methods in class
+- Static Methods in class
 
 <https://www.studytonight.com/cpp/static-keyword.php>
 

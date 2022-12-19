@@ -7,6 +7,7 @@ Modified: 2022-05-25 17:09:09 +0500
 ---
 
 ## Installation
+
 ```bash
 sudo apt-get update
 
@@ -88,6 +89,7 @@ Options:
 --until string Show logs before a timestamp (e.g. 2013-01-02T13:23:37) or relative (e.g. 42m for 42 minutes)
 
 ### Example -
+
 ```bash
 docker logs -t --since 2018-08-02T00:00:00 zenalytix-prod
 
@@ -144,6 +146,7 @@ docker tag azure-vote-front gcr.io/example-data-archiver/azure-vote-front:v1
 ```
 
 # Network
+
 ```bash
 - docker network connect - Connect a container to a network
 - docker network create - Create a network
@@ -158,6 +161,7 @@ docker network create --subset=172.18.0.0/16 example-docker
 ```
 
 ## Volumes
+
 ```bash
 cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 
@@ -174,6 +178,7 @@ cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 `docker cp <containerId>:/file/path/within/container /host/path/target`
 
 # Cleanup Commands
+
 ```bash
 - docker stop $(docker ps -aq) #stop all running containers
 - docker rmi $(docker images -q) #Delete all images
@@ -203,6 +208,7 @@ cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 <https://github.com/onfido/k8s-cleanup>
 
 # Base Commands
+
 ```bash
 - docker run --rm -it -v $PWD:/build ubuntu:18.04 #create a docker image of ubuntu:18.04
 - docker run --rm -it ubuntu:18.04 #create a docker image of ubuntu:18.04
@@ -215,6 +221,7 @@ cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 ```
 
 ## Other Commands
+
 ```bash
 - docker exec -it --user root temp-emqx /bin/sh #get inside docker container as user root
 - whoami #get logged in user inside docker container

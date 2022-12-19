@@ -228,7 +228,7 @@ Implementation note: Sorted sets are implemented via a dual-ported data structur
 | ZADD          | Adds member with the given score to the ZSET                       |
 | ZRANGE        | Fetches the items in the ZSET from their positions in sorted order |
 | ZRANGEBYSCORE | Fetches items in the ZSET based on a range of scores               |
-| ZREM          | Removes the item from the ZSET, if it exists                       |-   Expire an item in list after 2 mins
+| ZREM          | Removes the item from the ZSET, if it exists                       |-  Expire an item in list after 2 mins
 
 - Set expire on item if no new data comes then expire the whole key
 - When inserting new data remove the data before 2 mins if available

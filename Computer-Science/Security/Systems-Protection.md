@@ -12,7 +12,7 @@ Protection against Buffer Overflow attacks / Stash smashing attacks
 
 2. Canaries
 
-3. SSP (Stack Smashing Protector)4.  **ASLR (Address Space Layout Randomization)**5.  Non-Executable Stacks
+3. SSP (Stack Smashing Protector)4.  **ASLR (Address Space Layout Randomization)**5. Non-Executable Stacks
 
 6. OS hardening
 
@@ -53,7 +53,7 @@ GPG is the Gnu Privacy Guard and it is an implementation of OpenPGP (Open Pretty
 There are several different ways to create a GPG key. The easiest is with the "gpg" or "gpg2" commands available on many major operating systems. Many commercial encryption programs also include a way to generate a GPG key. You can then store the public version on a public key server so folks can start sending you encrypted files/message traffic. Only you will be able to decrypt it because only you have the associated private key.
 <https://gnupg.org>
 
-<https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages>-   LibSSL - SSL/TLS
+<https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages>-  LibSSL - SSL/TLS
 
 - Libcrypto - Encryption and Decryption
 - EVP - Envelope Functions
@@ -75,5 +75,5 @@ An**air gap**, **air wall**or**air gapping**is a [network security](https://en.w
 
 ## Bastion Host
 
-A**bastion host** is a special purpose computer on a network specifically designed and configured to withstand attacks. The computer generally hosts a single application, for example a [proxy server](https://en.wikipedia.org/wiki/Proxy_server), and all other services are removed or limited to reduce the threat to the computer. It is hardened in this manner primarily due to its location and purpose, which is either on the outside of a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) or in a demilitarized zone ([DMZ](https://en.wikipedia.org/wiki/Demilitarized_zone_(computing))) and usually involves access from untrusted networks or computers.
+A **bastion host** is a special purpose computer on a network specifically designed and configured to withstand attacks. The computer generally hosts a single application, for example a [proxy server](https://en.wikipedia.org/wiki/Proxy_server), and all other services are removed or limited to reduce the threat to the computer. It is hardened in this manner primarily due to its location and purpose, which is either on the outside of a [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)) or in a demilitarized zone ([DMZ](https://en.wikipedia.org/wiki/Demilitarized_zone_(computing))) and usually involves access from untrusted networks or computers.
 <https://en.wikipedia.org/wiki/Bastion_host>

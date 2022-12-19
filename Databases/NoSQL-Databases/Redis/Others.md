@@ -9,7 +9,7 @@ Modified: 2021-03-24 15:54:36 +0500
 ## Redis Time Series
 
 RedisTimeSeries simplifies the use of Redis for time-series use cases like IoT, stock prices, and telemetry.
-With RedisTimeSeries, ingest and query millions of metrics and events per second using an optimal data structure. Advanced techniques such as downsampling and aggregation ensure a small memory footprint without impacting performance. Use a variety of queries for visualization and monitoring with built-in connectors to popular tools like Grafana, Prometheus, and Telegraf.-   Downsampling and retention
+With RedisTimeSeries, ingest and query millions of metrics and events per second using an optimal data structure. Advanced techniques such as downsampling and aggregation ensure a small memory footprint without impacting performance. Use a variety of queries for visualization and monitoring with built-in connectors to popular tools like Grafana, Prometheus, and Telegraf.-  Downsampling and retention
 
 - Aggregation, range queries, and special counter operations
 <https://redislabs.com/redis-enterprise/redis-time-series>

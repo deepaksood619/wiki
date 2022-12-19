@@ -48,13 +48,13 @@ No. Terraform is a tool, which in turn uses Hashicorp Configuration Language (HC
 
 A simple workflow for deployment will follow closely to the steps below. We will go over each of these steps and concepts more in-depth throughout this track, so don't panic if you don't understand the concepts immediately.
 
-a.  **Scope -** Confirm what resources need to be created for a given project.
+- **Scope -** Confirm what resources need to be created for a given project.
 
-b.  **Author -** Create the configuration file in HCL based on the scoped parameters
+- **Author -** Create the configuration file in HCL based on the scoped parameters
 
-c.  **Initialize -** Runterraform initin the project directory with the configuration files. This will download the correct provider plug-ins for the project.
+- **Initialize -** Runterraform initin the project directory with the configuration files. This will download the correct provider plug-ins for the project.
 
-d.  **Plan & Apply -** Runterraform planto verify creation process and thenterraform applyto create real resources as well as state file that compares future changes in your configuration files to what actually exists in your deployment environment.
+- **Plan & Apply -** Runterraform planto verify creation process and thenterraform applyto create real resources as well as state file that compares future changes in your configuration files to what actually exists in your deployment environment.
 
 ## Configuration
 

@@ -158,45 +158,45 @@ curl -s -X PUT -H "Content-Type:application/json" --data '{"connector.class": "c
 
 ## Configurations
 
-a.  Kafka Connect framework configurations
-
-- name
-
-- tasks.max (1)
+- Kafka Connect framework configurations
+  - name
+  - tasks.max (1)
 
 - connector.class (com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector)
 
-b.  Connector Configurations
+- Connector Configurations
+  - connect.mqtt.ksql
+  - connect.mqtt.hosts
 
-- connect.mqtt.ksql
+- Optional Configurations
 
-- connect.mqtt.hosts
+  - connect.mqtt.service.quality (default - 1)
 
-c.  Optional Configurations
+  - connect.mqtt.username
 
-- connect.mqtt.service.quality (default - 1)
+  - connect.mqtt.password
 
-- connect.mqtt.username
+  - connect.mqtt.client.id
 
-- connect.mqtt.password
+  - connect.mqtt.timeout (default - 3000ms)
 
-- connect.mqtt.client.id
+  - connect.mqtt.clean (default - true)
 
-- connect.mqtt.timeout (default - 3000ms)
+  - connect.mqtt.keep.alive (default - 5000)
 
-- connect.mqtt.clean (default - true)
+  - connect.mqtt.converter.throw.on.error (default - false)
 
-- connect.mqtt.keep.alive (default - 5000)
+  - connect.converter.avro.schemas
 
-- connect.mqtt.converter.throw.on.error (default - false)
-
-- connect.converter.avro.schemas
-
-- connect.progress.enabled
+  - connect.progress.enabled
 
 ## Commands
 
-curl -s -X POST -H "Content-Type: application/json" --data '{"name": "bench-test", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://mqtt.vernemq:1883", "connect.mqtt.username":"example_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.client.id":"bench-test-client-id", "connect.mqtt.service.quality":"1", "connect.mqtt.clean":"false", "connect.mqtt.kcql":"INSERT INTO bench_data SELECT * FROM bench/+ WITHCONVERTER=`com.datamountaineer.streamreactor.connect.converters.source.BytesConverter`"}}' <http://ke-cp-kafka-connect.kafka:8083/connectors>
+```bash
+curl -s -X POST -H "Content-Type: application/json" --data '{"name": "bench-test", "config": {"connector.class": "com.datamountaineer.streamreactor.connect.mqtt.source.MqttSourceConnector", "tasks.max":"1", "connect.mqtt.hosts":"tcp://mqtt.vernemq:1883", "connect.mqtt.username":"example_mqtt_client", "connect.mqtt.password":"xitanez123", "connect.mqtt.client.id":"bench-test-client-id", "connect.mqtt.service.quality":"1", "connect.mqtt.clean":"false", "connect.mqtt.kcql":"INSERT INTO bench_data SELECT * FROM bench/+ WITHCONVERTER=`com.datamountaineer.streamreactor.connect.converters.source.BytesConverter`"}}'
+```
+
+<http://ke-cp-kafka-connect.kafka:8083/connectors>
 
 ## References
 

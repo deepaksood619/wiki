@@ -148,11 +148,11 @@ Debt mutual fund schemes that invest in fixed income instruments, such as Bonds,
 
 There are three options with debt funds:
 
-a.  Stick to money market funds like liquid, overnight or very short-term bond funds with reasonable credit quality. The risk of loss is low(er) but over the long term, returns will gradually head south.
+- Stick to money market funds like liquid, overnight or very short-term bond funds with reasonable credit quality. The risk of loss is low(er) but over the long term, returns will gradually head south.
 
-b.  Avoid all credit risk and use only long term gilt funds. See for example [SBI Magnum Constant Maturity Fund: A Debt Fund With Low Credit Risk for long term goals!](https://freefincal.com/sbi-magnum-constant-maturity-fund/) The NAV here will be highly volatile and the investor must practice and mix of annual rebalancing (aka strategic) and tactical rebalancing as per bond yield movements. This does not involve much effort.
+- Avoid all credit risk and use only long term gilt funds. See for example [SBI Magnum Constant Maturity Fund: A Debt Fund With Low Credit Risk for long term goals!](https://freefincal.com/sbi-magnum-constant-maturity-fund/) The NAV here will be highly volatile and the investor must practice and mix of annual rebalancing (aka strategic) and tactical rebalancing as per bond yield movements. This does not involve much effort.
 
-c.  Take on a mix of credit and interest rate risk. The management effort is less, returns can be higher than money market funds but there is always a risk of bond defaults. To negate that, choice of fund selection and monthly monitoring of the portfolio is crucial.
+- Take on a mix of credit and interest rate risk. The management effort is less, returns can be higher than money market funds but there is always a risk of bond defaults. To negate that, choice of fund selection and monthly monitoring of the portfolio is crucial.
 
 It is important for investors to understand that there is no escape from risk whatever choice they make. It is only a question of **familiar risk vs unfamiliar risk**. **Comfortable risk vs uncomfortable risk**. Sadly, when it comes to returns, we study the past and take it seriously. When it comes to risk, we ignore the past and assume what did not cause a loss is not risky.
 
@@ -210,27 +210,27 @@ The termfixed incomeis also applied to a person's income that does not vary mate
 
 ## Fixed Income Investment Options
 
-a.  EPF (Increase upto 12% of Basic)
+- EPF (Increase upto 12% of Basic)
 
-b.  PPF
+- PPF
 
-c.  Recurring deposits (isave ICICI, bigger deposit allowed)
+- Recurring deposits (isave ICICI, bigger deposit allowed)
 
-d.  Fixed deposits
+- Fixed deposits
 
-e.  arbitrage mutual funds
+- arbitrage mutual funds
 
-f.  money market debt funds
+- money market debt funds
 
-g.  gilt debt funds
+- gilt debt funds
 
-h.  short to medium-term bond funds
+- short to medium-term bond funds
 
-i.  Bonds
+- Bonds
 
 <https://www.thefixedincome.com>
 
-j.  Debentures (good option)
+- Debentures (good option)
 
 ## Emergency Fund / War Chest / Contingency Kitty
 

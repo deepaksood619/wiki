@@ -7,7 +7,7 @@ Modified: 2021-06-11 00:18:38 +0500
 ---
 
 Andrew S. Tanenbaum - A Collection of independent computers that appears to its users as one computer.
-![image](media/Intro-image1.jpg)-   In**Centralized Systems** there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
+![image](media/Intro-image1.jpg)- In**Centralized Systems** there is one central authority or server and all the other nodes act like clients or entities who accept message and enact accordingly
 
 - In**Decentralized Systems** there are multiple servers who receive messages from one central server. The individual nodes are connected to the secondary servers.However, in some systems, all servers can be of equal in hierarchy with no central server as well.
 - In**Distributed systems** there is no central authority. Each node is connected to every other node and has the exact same authority. Of course, in terms of computing distributed systems the processing power of each node might vary to a huge extent.
@@ -31,11 +31,13 @@ Relational database have reads cheaper than writes
 To scale up we do following things -
 
 1. Read Replication - Can cause inconsistency
-    - Create a master database that handle all the writes and there will be multiple databases where data can be read from. Master will synchronize all databases with each other.
+
+   - Create a master database that handle all the writes and there will be multiple databases where data can be read from. Master will synchronize all databases with each other.
 
 2. Sharding - Find a key and break-up the database into multiple databases using that key. (Like a-k, k-s, s-z)
-    - Broke data modal
-    - Cannot join across shards
+
+   - Broke data modal
+   - Cannot join across shards
 
 3. Add index to the database
 
@@ -44,36 +46,31 @@ To scale up we do following things -
 5. Consistent Hashing
 
 6. CAP Theorem (can only have 2 of these 3)
-    - Consistency
-    - Availability
-    - Partition Tolerance2.  Distributed Computation
 
+   - Consistency
+   - Availability
+   - Partition Tolerance2. Distributed Computation
    - MapReduce
 
-        1. Map (Tokenize words and count using key-value pairs)
+     1. Map (Tokenize words and count using key-value pairs)
 
-        2. Shuffle (Get same words near each other)
+     2. Shuffle (Get same words near each other)
 
-        3. Reduce
+     3. Reduce
 
-        4. Hadoop
+     4. Hadoop
 
-        5. Spark
+     5. Spark
 
-        6. Kafka
+     6. Kafka
 
-3. Messaging
+7. Messaging
 
    - Means of loosely coupling subsystems
-
    - Messages consumed by subscribers
-
    - Created by one or more producers
-
    - Organized into topics
-
    - Processed by brokers
-
    - Usually persistent over the short term
 
 ## Problems

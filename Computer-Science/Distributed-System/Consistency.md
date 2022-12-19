@@ -40,7 +40,7 @@ Consistency levels from Werner Vogel's Eventually Consistent:
 
 ## Convergence
 
-Convergence is the state in which all the nodes of the system have eventually achieved consistency.-   **Eventual Consistency (NoSQL, Higher Availability)**
+Convergence is the state in which all the nodes of the system have eventually achieved consistency.-  **Eventual Consistency (NoSQL, Higher Availability)**
 
 ## Read will see some write and eventually it will see the latest write
 
@@ -61,11 +61,11 @@ Another strategy is storing multiple versions of the datum and using semantic re
 
 What if someone built a series of reusable data types for you? Convergent Replicated Data Types are those data types, and offer a principled approach to eventually consistent data modelling. Some very cool maths ensures these defined data types always converge to a single correct value.
 
-CRDTs can be considered one of the key building blocks of a distributed system, enabling strong eventual consistency and a highly available, low latency application.-   **Strong Consistency (SQL)**
+CRDTs can be considered one of the key building blocks of a distributed system, enabling strong eventual consistency and a highly available, low latency application.-  **Strong Consistency (SQL)**
 
 ## Our reads will read the latest writes
 
-Strong consistency is a model that is most familiar to database developers, given that it resembles the traditional transaction model with its Atomicity, Consistency, Isolation, and Durability (ACID) properties. In this model, any update in any node requires that all nodes agree on the new value before making it visible for client reads. It sounds naively simple, but it also introduces the require‐ ment of blocking all the nodes until they converge. It might be espe‐ cially problematic depending on network latency and throughput.-   **External Consistency**
+Strong consistency is a model that is most familiar to database developers, given that it resembles the traditional transaction model with its Atomicity, Consistency, Isolation, and Durability (ACID) properties. In this model, any update in any node requires that all nodes agree on the new value before making it visible for client reads. It sounds naively simple, but it also introduces the require‐ ment of blocking all the nodes until they converge. It might be espe‐ cially problematic depending on network latency and throughput.-  **External Consistency**
 
 Under external consistency, the system behaves as if all transactions were executed sequentially, even though Cloud Spanner actually runs them across multiple servers (and possibly in multiple datacenters) for higher performance and availability.
 <https://cloud.google.com/spanner/docs/true-time-external-consistency>

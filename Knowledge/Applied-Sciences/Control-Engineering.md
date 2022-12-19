@@ -78,11 +78,11 @@ The first theoretical analysis and practical application was in the field of aut
 
 The working principle behind a PID controller is that the proportional, integral and derivative terms must be individually adjusted or "tuned." Based on the difference between these values a correction factor is calculated and applied to the input. For example, if an oven is cooler than required, the heat will be increased. Here are the three steps:
 
-i.  Proportional tuninginvolves correcting a target proportional to the difference. Thus, the target value is never achieved because as the difference approaches zero, so too does the applied correction.
+- Proportional tuninginvolves correcting a target proportional to the difference. Thus, the target value is never achieved because as the difference approaches zero, so too does the applied correction.
 
-ii. Integral tuningattempts to remedy this by effectively cumulating the error result from the "P" action to increase the correction factor. For example, if the oven remained below temperature, "I" would act to increase the head delivered. However, rather than stop heating when the target is reached, "I" attempts to drive the cumulative error to zero, resulting in an overshoot.
+- Integral tuningattempts to remedy this by effectively cumulating the error result from the "P" action to increase the correction factor. For example, if the oven remained below temperature, "I" would act to increase the head delivered. However, rather than stop heating when the target is reached, "I" attempts to drive the cumulative error to zero, resulting in an overshoot.
 
-iii. Derivative tuningattempts to minimize this overshoot by slowing the correction factor applied as the target is approached.
+- Derivative tuningattempts to minimize this overshoot by slowing the correction factor applied as the target is approached.
 
 <https://www.omega.co.uk/prodinfo/how-does-a-pid-controller-work.html>
 

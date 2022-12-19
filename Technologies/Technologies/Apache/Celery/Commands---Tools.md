@@ -9,42 +9,42 @@ Modified: 2022-03-10 22:53:17 +0500
 ```bash
 celery -A tasks worker --loglevel=INFO
 celery worker --help
-	celery --app=proj worker -l INFO
-	celery -A proj worker -l INFO -Q hipri,lopri
-	celery -A proj worker --concurrency=4
-	celery -A proj worker --concurrency=1000 -P eventlet
-	celery worker --autoscale=10,0
-	
-	celery -A tasks control rate_limit tasks.add 10/m
+ celery --app=proj worker -l INFO
+ celery -A proj worker -l INFO -Q hipri,lopri
+ celery -A proj worker --concurrency=4
+ celery -A proj worker --concurrency=1000 -P eventlet
+ celery worker --autoscale=10,0
+
+ celery -A tasks control rate_limit tasks.add 10/m
 
 celery --help
-	Commands:
-	  amqp     AMQP Administration Shell.
-	  beat     Start the beat periodic task scheduler.
-	  call     Call a task by name.
-	  control  Workers remote control.
-		[revoke|terminate|rate_limit|time_limit|election|enable_events|disable_events|heartbeat|pool_grow|pool_shrink|pool_restart|autoscale|shutdown|add_consumer|cancel_consumer]
-		
-	  events   Event-stream utilities.
-	  graph    The ``celery graph`` command.
-	  inspect  Inspect the worker at runtime.
-		celery -A admin_panel inspect ping
-		
-	  list     Get info from broker
-		celery list
-		
-	  logtool  The ``celery logtool`` command.
-	  migrate  Migrate tasks from one broker to another.
-	  multi    Start multiple worker instances.
-	  purge    Erase all messages from all known task queues.
-	  report   Shows information useful to include in bug-reports.
-	  result   Print the return value for a given task id.
-	  shell    Start shell session with convenient access to celery symbols.
-	  status   Show list of workers that are online.
-		celery --app admin_panel status
-		
-	  upgrade  Perform upgrade between versions.
-	  worker   Start worker instance.
+ Commands:
+   amqp     AMQP Administration Shell.
+   beat     Start the beat periodic task scheduler.
+   call     Call a task by name.
+   control  Workers remote control.
+  [revoke|terminate|rate_limit|time_limit|election|enable_events|disable_events|heartbeat|pool_grow|pool_shrink|pool_restart|autoscale|shutdown|add_consumer|cancel_consumer]
+
+   events   Event-stream utilities.
+   graph    The ``celery graph`` command.
+   inspect  Inspect the worker at runtime.
+  celery -A admin_panel inspect ping
+
+   list     Get info from broker
+  celery list
+
+   logtool  The ``celery logtool`` command.
+   migrate  Migrate tasks from one broker to another.
+   multi    Start multiple worker instances.
+   purge    Erase all messages from all known task queues.
+   report   Shows information useful to include in bug-reports.
+   result   Print the return value for a given task id.
+   shell    Start shell session with convenient access to celery symbols.
+   status   Show list of workers that are online.
+  celery --app admin_panel status
+
+   upgrade  Perform upgrade between versions.
+   worker   Start worker instance.
 ```
 
 ```python

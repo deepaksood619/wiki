@@ -56,15 +56,15 @@ However, a word of caution -- The investor should not be swayed by the discount 
 
 A buyback can be seen as a method for a company to invest in itself by buying shares from other investors in the market. Buybacks reduce the number of shares outstanding in the market, however, buyback of shares is an important method of corporate restructuring. There could be many reasons why corporates choose to buy back shares...
 
-i.  Improve the profitability on a per-share basis
+- Improve the profitability on a per-share basis
 
-ii. To consolidate their stake in the company
+- To consolidate their stake in the company
 
-iii. To prevent other companies from taking over
+- To prevent other companies from taking over
 
-iv. To show the confidence of the promoters about their company
+- To show the confidence of the promoters about their company
 
-v.  To support the share price from declining in the markets
+- To support the share price from declining in the markets
 
 When a company announces a buyback, it signals the company's confidence about itself. Hence this is usually positive for the share price.
 

@@ -56,7 +56,7 @@ In computer networks, a**proxy server** is a [server](https://en.wikipedia.org/w
 
 ## Web Accelerator
 
-A**web accelerator** is a [proxy server](https://en.wikipedia.org/wiki/Proxy_server) that reduces [web site](https://en.wikipedia.org/wiki/Web_site)[access time](https://en.wikipedia.org/wiki/Access_time). They can be a self-contained hardware appliance or installable software.
+A **web accelerator** is a [proxy server](https://en.wikipedia.org/wiki/Proxy_server) that reduces [web site](https://en.wikipedia.org/wiki/Web_site)[access time](https://en.wikipedia.org/wiki/Access_time). They can be a self-contained hardware appliance or installable software.
 
 Web accelerators may be installed on the client computer or mobile device, on ISP servers, on the server computer/network, or a combination. Accelerating delivery through compression requires some type of host-based server to collect, compress and then deliver content to a client computer.
 

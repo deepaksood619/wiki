@@ -12,23 +12,23 @@ Druid's process types are:
 - [**Historical**](http://druid.io/docs/latest/design/historical.html) processes are the workhorses that handle storage and querying on "historical" data (including any streaming data that has been in the system long enough to be committed). Historical processes download segments from deep storage and respond to queries about these segments. They don't accept writes.
   - Each Historical process serves up data that has been partitioned into segments. These segments are assigned to Historical by the Coordinator via ZooKeeper
   - When a Historical process is assigned a segment, it will copy the file from deep storage to its local storage
-  - When a query is received from the Broker process, the Historical process returns the results-   [**MiddleManager**](http://druid.io/docs/latest/design/middlemanager.html) processes handle ingestion of new data into the cluster. They are responsible for reading from external data sources and publishing new Druid segments.
+  - When a query is received from the Broker process, the Historical process returns the results-  [**MiddleManager**](http://druid.io/docs/latest/design/middlemanager.html) processes handle ingestion of new data into the cluster. They are responsible for reading from external data sources and publishing new Druid segments.
   - The MiddleManager process is a worker process that executes submitted tasks. Middle Managers forward tasks to Peons that run in separate JVMs. The reason we have separate JVMs for tasks is for resource and log isolation. Each [Peon](https://druid.apache.org/docs/latest/design/peons.html) is capable of running only one task at a time, however, a MiddleManager may have multiple Peons.
   - During real-time ingestion, the MiddleManager also serves queries on real-time data before it has been pushed to deep storage.
-  - When a query is received from the Broker process, the MiddleManager process executes that query on real-time data and returns results.-   [**Broker**](http://druid.io/docs/latest/design/broker.html) processes receive queries from external clients and forward those queries to Historicals and MiddleManagers. When Brokers receive results from those subqueries, they merge those results and return them to the caller. End users typically query Brokers rather than querying Historicals or MiddleManagers directly.
+  - When a query is received from the Broker process, the MiddleManager process executes that query on real-time data and returns results.-  [**Broker**](http://druid.io/docs/latest/design/broker.html) processes receive queries from external clients and forward those queries to Historicals and MiddleManagers. When Brokers receive results from those subqueries, they merge those results and return them to the caller. End users typically query Brokers rather than querying Historicals or MiddleManagers directly.
   - Broker process is responsible for knowing the internal state of the cluster (from the ZooKeeper)
   - The broker finds out information from ZooKeeper about the Druid cluster
     - Which Historical processes are serving which segments
     - Which MiddleManager processes are serving which tasks' data
-    - When a query is run, the Broker will figure out which process to contact-   [**Coordinator**](http://druid.io/docs/latest/design/coordinator.html) processes watch over the Historical processes. They are responsible for assigning segments to specific servers, and for ensuring segments are well-balanced across Historicals.
+    - When a query is run, the Broker will figure out which process to contact-  [**Coordinator**](http://druid.io/docs/latest/design/coordinator.html) processes watch over the Historical processes. They are responsible for assigning segments to specific servers, and for ensuring segments are well-balanced across Historicals.
   - Segment management and distribution
   - It communicates with the Historical nodes to:
     - **Load -** Copy a segment from deep storage and start serving it
-    - **Drop -** Delete a segment from its local copy and stop serving it-   [**Overlord**](http://druid.io/docs/latest/design/overlord.html) processes watch over the MiddleManager processes and are the controllers of data ingestion into Druid. They are responsible for assigning ingestion tasks to MiddleManagers and for coordinating segment publishing.
+    - **Drop -** Delete a segment from its local copy and stop serving it-  [**Overlord**](http://druid.io/docs/latest/design/overlord.html) processes watch over the MiddleManager processes and are the controllers of data ingestion into Druid. They are responsible for assigning ingestion tasks to MiddleManagers and for coordinating segment publishing.
   - Accepting ingestion supervisors and tasks
   - Coordinating which servers run which tasks
   - Managing locks so tasks don't conflict with each other
-  - Returning supervisor and task status to callers-   [**Router**](http://druid.io/docs/latest/development/router.html) processes areoptionalprocesses that provide a unified API gateway in front of Druid Brokers, Overlords, and Coordinators. They are optional since you can also simply contact the Druid Brokers, Overlords, and Coordinators directly.
+  - Returning supervisor and task status to callers-  [**Router**](http://druid.io/docs/latest/development/router.html) processes areoptionalprocesses that provide a unified API gateway in front of Druid Brokers, Overlords, and Coordinators. They are optional since you can also simply contact the Druid Brokers, Overlords, and Coordinators directly.
 
 ![Diagram](media/Druid_Architecture-image1.png)
 <https://docs.imply.io/cloud/design>

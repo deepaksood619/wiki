@@ -209,9 +209,9 @@ Any other user who has access to a file. This person has neither created the fil
 
 - **Read**
 
-This permission give you the authority to open and read a file. Read permission on a directory gives you the ability to lists its content.-   **Write**
+This permission give you the authority to open and read a file. Read permission on a directory gives you the ability to lists its content.-  **Write**
 
-The write permission gives you the authority to modify the contents of a file. The write permission on a directory gives you the authority to add, remove and rename files stored in the directory. Consider a scenario where you have to write permission on file but do not have write permission on the directory where the file is stored. You will be able to modify the file contents. But you will not be able to rename, move or remove the file from the directory.-   **Execute**
+The write permission gives you the authority to modify the contents of a file. The write permission on a directory gives you the authority to add, remove and rename files stored in the directory. Consider a scenario where you have to write permission on file but do not have write permission on the directory where the file is stored. You will be able to modify the file contents. But you will not be able to rename, move or remove the file from the directory.-  **Execute**
 
 In Windows, an executable program usually has an extension ".exe" and which you can easily run. In Unix/Linux, you cannot run a program unless the execute permission is set. If the execute permission is not set, you might still be able to see/modify the program code (provided read & write permissions are set), but not run it.
 
@@ -241,13 +241,13 @@ The table below gives numbers for all for permissions types.
 
 | Number | Permission Type       | Symbol |
 |--------|-----------------------|--------|
-| 0      | No Permission         | ---  |
+| 0      | No Permission         | --- |
 | 1      | Execute               | --x   |
-| 2      | Write                 | -w-    |
+| 2      | Write                 | -w-   |
 | 3      | Execute + Write       | -wx    |
-| 4      | Read                  | r--   |
+| 4      | Read                  | r--  |
 | 5      | Read + Execute        | r-x    |
-| 6      | Read + Write          | rw-    |
+| 6      | Read + Write          | rw-   |
 | 7      | Read + Write +Execute | rwx    |
 Let's see the chmod command in action.
 
@@ -274,7 +274,7 @@ In the Absolute mode, you change permissions for all 3 owners. In the symbolic m
 | Operator | Description                                                    |
 |-------------|-----------------------------------------------------------|
 | +       | Adds a permission to a file or directory                       |
-| -       | Removes the permission                                         |
+| -      | Removes the permission                                         |
 | =        | Sets the permission and overrides the permissions set earlier. |
 
 The various owners are represented as -

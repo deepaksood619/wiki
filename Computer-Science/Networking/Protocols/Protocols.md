@@ -59,7 +59,7 @@ Modified: 2021-06-04 10:28:47 +0500
 
 ## Networking Protocols
 
-- **http2 -** multiple requests in one connection-   **BOSH - Bidirectional stream Over Synchronous HTTP,** it works over HTTP (User will request a connection to the server and than server will hold onto that request until some time, and return to him if any data needs to be transfered, than user will again initiate the request)
+- **http2 -** multiple requests in one connection-  **BOSH - Bidirectional stream Over Synchronous HTTP,** it works over HTTP (User will request a connection to the server and than server will hold onto that request until some time, and return to him if any data needs to be transfered, than user will again initiate the request)
 - **Long Polling over HTTP -** Client will request information to the server, and then server will respond with that information or tell the client that there is no new information. After that client will wait some time before again sending request.
 
 ## STOMP (Simple/Streaming Text Oriented Message Protocol)
@@ -114,14 +114,14 @@ Mutual TLS authentication (mTLS) is much more widespread in [business-to-busines
 Most Mutual authentication is machine-to-machine, leaving it up to chance whether or not users will notice (or care) when the remote authentication fails (e.g. a red address bar browser padlock, or a wrong domain name). Non-technical mutual-authentication also exists to mitigate this problem, requiring users to complete a challenge, effectively forcing them to notice, and blocking them from authenticating with false endpoints.
 Mutual authentication is of two types:
 
-i.  Certificate based
+- Certificate based
 
-ii. User name-password based
-<https://en.wikipedia.org/wiki/Mutual_authentication>-   We use TLS/SSL for two main reasons
+- User name-password based
+<https://en.wikipedia.org/wiki/Mutual_authentication>-  We use TLS/SSL for two main reasons
 
-    1.  Encryption
+    1. Encryption
 
-    2.  Authentication
+    2. Authentication
 
 - After you've established a TLS connection, what algorithm is used to encrypt the data?
   - Symmetric cipher like AES

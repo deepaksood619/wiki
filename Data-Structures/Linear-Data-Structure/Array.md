@@ -46,7 +46,7 @@ All eight cells references the same object.
 
 But since integers are immutable, therefore changing an item doesn't change values of all the elements in the array
 
-![image](media/Array-image3.png)-   primes.extend(extras)
+![image](media/Array-image3.png)-  primes.extend(extras)
 
 Extending a list only copy references of the elements from second list to first list.**Introduction to Arrays**
 

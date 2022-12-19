@@ -34,15 +34,15 @@ The benefits of this approach are:
     **A linear memory layout provides better cache characteristics
 Probing techniques / Searching techniques / Search sequences
 
-i.  **Linear Probing -** Find next empty slot and put the key there
+- **Linear Probing -** Find next empty slot and put the key there
 
-ii. **Double Hashing -** Use two hash functions, if there is collision on first hash, use second hash function to get the bucket address.
+- **Double Hashing -** Use two hash functions, if there is collision on first hash, use second hash function to get the bucket address.
 
-iii. **Quadratic probing -** Quadratic probing operates by taking the original hash index and adding successive values of an arbitrary [quadratic polynomial](https://en.wikipedia.org/wiki/Quadratic_polynomial) until an open slot is found.
-     -   Use linear probing, but skip a variable amount, not just 1 each time.
-     -   Effectively eliminates clustering
-     -   Can allow table to become nearly full
-     -   More difficult to implement delete
+- **Quadratic probing -** Quadratic probing operates by taking the original hash index and adding successive values of an arbitrary [quadratic polynomial](https://en.wikipedia.org/wiki/Quadratic_polynomial) until an open slot is found.
+  - Use linear probing, but skip a variable amount, not just 1 each time.
+  - Effectively eliminates clustering
+  - Can allow table to become nearly full
+  - More difficult to implement delete
 ![image](media/Hashing-Techniques-image3.png)
 
 ## Removal
@@ -67,7 +67,7 @@ Coalesced hashing is a technique for implementing a hash table. It's an [open ad
 
 ## Removal
 
-- clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-   The approach commonly used in practice is to clear the slot holding the key, and then **reinsert** all following keys in the chain.
+- clearing out a slot might break a chain, and cause future lookups to fail. To avoid this problem, one could instead use 'deleted' markings but this is subject to so called **contamination**.-  The approach commonly used in practice is to clear the slot holding the key, and then **reinsert** all following keys in the chain.
 - This maintains the invariants, avoids contamination and potentially even breaks apart previously coalesced chains.
 
 ## Cellar

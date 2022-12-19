@@ -12,9 +12,9 @@ In DynamoDB, tables, items, and attributes are the core components that you work
 
 - **Tables**
 
-Similar to other database systems, DynamoDB stores data in tables. Atableis a collection of data. For example, see the example table calledPeoplethat you could use to store personal contact information about friends, family, or anyone else of interest. You could also have aCarstable to store information about vehicles that people drive.-   **Items**
+Similar to other database systems, DynamoDB stores data in tables. Atableis a collection of data. For example, see the example table calledPeoplethat you could use to store personal contact information about friends, family, or anyone else of interest. You could also have aCarstable to store information about vehicles that people drive.-  **Items**
 
-Each table contains zero or more items. Anitemis a group of attributes that is uniquely identifiable among all of the other items. In aPeopletable, each item represents a person. For aCarstable, each item represents one vehicle. Items in DynamoDB are similar in many ways to rows, records, or tuples in other database systems. In DynamoDB, there is no limit to the number of items you can store in a table.-   **Attributes**
+Each table contains zero or more items. Anitemis a group of attributes that is uniquely identifiable among all of the other items. In aPeopletable, each item represents a person. For aCarstable, each item represents one vehicle. Items in DynamoDB are similar in many ways to rows, records, or tuples in other database systems. In DynamoDB, there is no limit to the number of items you can store in a table.-  **Attributes**
 
 Each item is composed of one or more attributes. Anattributeis a fundamental data element, something that does not need to be broken down any further. For example, an item in aPeopletable contains attributes calledPersonID,LastName,FirstName, and so on. For aDepartmenttable, an item might have attributes such asDepartmentID,Name,Manager, and so on. Attributes in DynamoDB are similar in many ways to fields or columns in other database systems.
 
@@ -29,7 +29,7 @@ A simple primary key, composed of one attribute known as thepartition key.
 DynamoDB uses the partition key's value as input to an internal hash function. The output from the hash function determines the partition (physical storage internal to DynamoDB) in which the item will be stored.
 
 In a table that has only a partition key, no two items can have the same partition key value.
-ThePeopletable described in [Tables, Items, and Attributes](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes) is an example of a table with a simple primary key (PersonID). You can access any item in thePeopletable directly by providing thePersonIdvalue for that item.-   **Partition key and sort key**
+ThePeopletable described in [Tables, Items, and Attributes](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/HowItWorks.CoreComponents.html#HowItWorks.CoreComponents.TablesItemsAttributes) is an example of a table with a simple primary key (PersonID). You can access any item in thePeopletable directly by providing thePersonIdvalue for that item.-  **Partition key and sort key**
 
 Referred to as acomposite primary key, this type of key is composed of two attributes. The first attribute is thepartition key, and the second attribute is thesort key.
 
@@ -45,7 +45,7 @@ DynamoDB supports two kinds of indexes:
 
 - **Global secondary index**
 
-An index with a partition key and sort key that can be different from those on the table.-   **Local secondary index**
+An index with a partition key and sort key that can be different from those on the table.-  **Local secondary index**
 
 An index that has the same partition key as the table, but a different sort key.
 Each table in DynamoDB has a limit of 20 global secondary indexes (default limit) and 5 local secondary indexes per table.

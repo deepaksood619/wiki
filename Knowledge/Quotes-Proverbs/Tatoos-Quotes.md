@@ -68,3 +68,5 @@ Man Muss Immer Umkehren - Invert, Always Invert
 Premeditatio malorum - the premeditation of the evils and troubles that might lie ahead
 
 annus mirabilis (miracle year)
+
+Annus horribilis - that's Latin for "a horrible year."

@@ -44,7 +44,7 @@ Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report t
 - Analyze MongoDB query profiler
 - Collect vital system information when problems occur
 
-## brew install percona-toolkit-   [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
+## brew install percona-toolkit-  [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
 
 - [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
 - [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
@@ -57,7 +57,7 @@ Mysqlreport transforms the values from SHOW STATUS into an easy-to-read report t
 - [pt-heartbeat](https://www.percona.com/doc/percona-toolkit/LATEST/pt-heartbeat.html)
 - [**pt-index-usage**](https://www.percona.com/doc/percona-toolkit/LATEST/pt-index-usage.html)
 
-Read queries from a log and analyze how they use indexes.-   [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
+Read queries from a log and analyze how they use indexes.-  [pt-align](https://www.percona.com/doc/percona-toolkit/LATEST/pt-align.html)
 
 - [pt-archiver](https://www.percona.com/doc/percona-toolkit/LATEST/pt-archiver.html)
 - [pt-config-diff](https://www.percona.com/doc/percona-toolkit/LATEST/pt-config-diff.html)
@@ -65,7 +65,7 @@ Read queries from a log and analyze how they use indexes.-   [pt-align](https://
 
 ## pt-deadlock-loggerprints information about MySQL deadlocks by polling and parsingSHOWENGINEINNODBSTATUS. When a new deadlock occurs, it's printed toSTDOUTand, if specified, saved to [--dest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-deadlock-logger.html#cmdoption-pt-deadlock-logger-dest)
 
-pt-deadlock-logger -host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM-   [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
+pt-deadlock-logger -host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM-  [pt-diskstats](https://www.percona.com/doc/percona-toolkit/LATEST/pt-diskstats.html)
 
 - [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/LATEST/pt-duplicate-key-checker.html)
 
@@ -86,13 +86,13 @@ pt-duplicate-key-checker -host sttash-main-db-instance-new-cluster.cluster-ro-c1
 
 pt-mysql-summary --host localhost --user root --ask-pass > mysql-summary.txt
 
-pt-mysql-summary --host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM > mysql-summary.txt-   [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/LATEST/pt-online-schema-change.html)
+pt-mysql-summary --host sttash-main-db-instance-new-cluster.cluster-ro-c1z93jsyca9u.ap-south-1.rds.amazonaws.com --user lms-website --password Rf9zdHwB9E3GHWKq2yZM > mysql-summary.txt-  [pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/LATEST/pt-online-schema-change.html)
 
 pt-online-schema-change --host dailydb.snapshot.example.com --user deepak_sood --password 72062eacf89016e8c2bb4fe9c4457b90 --alter='ENGINE=InnoDB' D=sttash_website_LIVE, t=elev8_offer_tmp --preserve-triggers --dry-run
 Works by creating an empty copy of the table to alter, modifying it as desired, and then copying rows from the original table into the new table. When the copy is complete, it moves away the original table and replaces it with the new one. By default, it also drops the original table.
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-online-ddl-operations.html>
 
-<https://www.percona.com/doc/percona-toolkit/3.0/pt-online-schema-change.html>-   [pt-pmp](https://www.percona.com/doc/percona-toolkit/LATEST/pt-pmp.html)
+<https://www.percona.com/doc/percona-toolkit/3.0/pt-online-schema-change.html>-  [pt-pmp](https://www.percona.com/doc/percona-toolkit/LATEST/pt-pmp.html)
 
 - [pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html)
 - [pt-secure-collect](https://www.percona.com/doc/percona-toolkit/LATEST/pt-secure-collect.html)
@@ -131,13 +131,13 @@ An algorithm to optimize database queries that run multiple times
 SQL anti-patterns can slow down queries, but often it takes experienced DBAs and developers poring over code to identify and resolve them.
 Four categories of anti-pattern:
 
-i.  Logical database design
+- Logical database design
 
-ii. Physical database design
+- Physical database design
 
-iii. Query
+- Query
 
-iv. Application development
+- Application development
 Sqlcheck can be targeted at varying risk levels, categorized as low, medium, or high risk. This is helpful if your list of anti-patterns is large, since you can prioritize the queries with the greatest performance impact.All you need to do to get started is gather a list of your distinct queries into a file and then pass them as an argument to the tool.
 <https://github.com/jarulraj/sqlcheck>
 

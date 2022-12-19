@@ -34,7 +34,7 @@ Modified: 2021-12-28 21:45:09 +0500
 
 Functional decomposition is a term that engineers use to describea set of steps in which they break down the overall function of a device, system, or process into its smaller parts. A function is simply a task that is performed by a device, system, or process. Decomposition is a process of breaking down.
 
-<https://en.wikipedia.org/wiki/Functional_decomposition>-   The [Database per Service pattern](https://microservices.io/patterns/data/database-per-service.html) describes how each service has its own database in order to ensure loose coupling.
+<https://en.wikipedia.org/wiki/Functional_decomposition>-  The [Database per Service pattern](https://microservices.io/patterns/data/database-per-service.html) describes how each service has its own database in order to ensure loose coupling.
 
 - The [API Gateway pattern](https://microservices.io/patterns/apigateway.html) defines how clients access the services in a microservice architecture.
 - The [Client-side Discovery](https://microservices.io/patterns/client-side-discovery.html) and [Server-side Discovery](https://microservices.io/patterns/server-side-discovery.html) patterns are used to route requests for a client to an available service instance in a microservice architecture.

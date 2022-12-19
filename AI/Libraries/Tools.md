@@ -32,11 +32,11 @@ LIME is model-agnostic, meaning that it can be applied to any machine learning m
 
 Open Source Visualization Tool
 
-a.  Facets Overview
+- Facets Overview
 
 Facets Overview automatically gives users a quick understanding of the distribution of values across the features of their datasets. Multiple datasets, such as a training set and a test set, can be compared on the same visualization. Common data issues that can hamper machine learning are pushed to the forefront, such as: unexpected feature values, features with high percentages of missing values, features with unbalanced distributions, and feature distribution skew between datasets.
 
-b.  Facets Dive
+- Facets Dive
 
 Facets Dive provides an easy-to-customize, intuitive interface for exploring the relationship between the data points across the different features of a dataset. With Facets Dive, you control the position, color and visual representation of each data point based on its feature values. If the data points have images associated with them, the images can be used as the visual representations.
 

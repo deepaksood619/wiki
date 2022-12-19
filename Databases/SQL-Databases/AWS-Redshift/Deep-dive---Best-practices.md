@@ -53,7 +53,7 @@ Amazon Redshift is a fully transactional, ACID complaint data warehourse
 - Isolation level is serializable
 - Two phase commits (local and global commit phases)
 Design consideration
-- Because of the expense of commit overhead, limit commits by explicitly creating transactions-   **Data ingestion: COPY statement**
+- Because of the expense of commit overhead, limit commits by explicitly creating transactions-  **Data ingestion: COPY statement**
 
 Ingestion throughput
 
@@ -67,7 +67,7 @@ Realizing only partial node usage at 6.25% of slices are active
 Number of input files should be a multiple of the number of slices
 Splitting the single file into 16 input files, all slices are working to maximize ingestion performance
 COPY continues to scale linearly as you add nodes
-Recommendation is to use delimited files - 1 MB to 1 GB after gzip compression-   **Best practices: COPY ingestion**
+Recommendation is to use delimited files - 1 MB to 1 GB after gzip compression-  **Best practices: COPY ingestion**
 
 Delimited files are recommend
 
@@ -77,7 +77,7 @@ Delimited files are recommend
 - UTF-8 varchar columns take four bytes per char
 Split files into a nuber that is a multiple of the total number of slices in the Amazon Redshift cluster
 
-SELECT count(slice) from stv_slices;-   **Data ingestion: Amazon Redshift Spectrum**
+SELECT count(slice) from stv_slices;-  **Data ingestion: Amazon Redshift Spectrum**
 
 Use INSERT INTO SELECT against external Amazon S3 tables
 
@@ -89,7 +89,7 @@ Best practices:
 - Filtering/aggregating incoming data can improve performance over COPY
 Design considerations
 - Repeated reads against Amazon S3 are not transactional
-- $5/TB of (compressed) data scanned-   **Design considerations: Data ingestion**
+- $5/TB of (compressed) data scanned-  **Design considerations: Data ingestion**
 
 Designed for large writes
 
@@ -191,7 +191,7 @@ Short query acceleration (SQA):
 
 ## Create a queue for each workload type
 
-![image](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg)-   Unallocated memory goes into a general pool that can be used by any queue
+![image](media/AWS-Redshift_Deep-dive---Best-practices-image4.jpg)-  Unallocated memory goes into a general pool that can be used by any queue
 
 - Enable: Short Query Acceleration
 - Hidden superuser queue can be used by admins manually switched into:
@@ -236,7 +236,7 @@ If your source data is in RDS and wants to sync the RDS directly to Redshift in 
 
 ## COPY Command
 
-The COPY command loads data into Amazon Redshift tables from either data files or Amazon DynamoDB tables.The copied files may reside in an S3 bucket, an EMR cluster or on a remote host accessed via SSH.Data is loadable from fixed-width, character-delimited text files, including CSV, AVRO and JSON format. Default format is character-delimited UTF-8 text files, delimited by the pipe (|) char.Rows to be copied may not be larger than 4 MB from any single source.Root users and IAM users must have INSERT privileges to modify Redshift (RS) tables.-   Use a single COPY command to load from multiple files
+The COPY command loads data into Amazon Redshift tables from either data files or Amazon DynamoDB tables.The copied files may reside in an S3 bucket, an EMR cluster or on a remote host accessed via SSH.Data is loadable from fixed-width, character-delimited text files, including CSV, AVRO and JSON format. Default format is character-delimited UTF-8 text files, delimited by the pipe (|) char.Rows to be copied may not be larger than 4 MB from any single source.Root users and IAM users must have INSERT privileges to modify Redshift (RS) tables.-  Use a single COPY command to load from multiple files
 
 - Split your load data
   - When you load compressed data, with the COPY command from multiple files, the data loads in parallel. This divides the workload among the nodes in your cluster. When you load all the data from a single large, compressed file, Amazon Redshift is forced to perform a serialized load, which is much slower.

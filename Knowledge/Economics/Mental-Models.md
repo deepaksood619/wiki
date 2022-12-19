@@ -84,9 +84,9 @@ There is no quantitative measure of market efficiency and testing the idea is di
 
 Game theoryis the study of [mathematical models](https://en.wikipedia.org/wiki/Mathematical_model) of strategic interaction between rational decision-makers.It has applications in all fields of [social science](https://en.wikipedia.org/wiki/Social_science), as well as in [logic](https://en.wikipedia.org/wiki/Logic) and [computer science](https://en.wikipedia.org/wiki/Computer_science). Originally, it addressed [zero-sum games](https://en.wikipedia.org/wiki/Zero-sum_game), in which one person's gains result in losses for the other participants. Today, game theory applies to a wide range of behavioral relations, and is now an [umbrella term](https://en.wikipedia.org/wiki/Umbrella_term) for the [science](https://en.wikipedia.org/wiki/Science) of logical decision making in humans, animals, and computers.
 
-a.  Patience - If you go to a car dealer and ask that you need a car urgent then he is not going to give you any offers, but if you say that I need a car but you will wait for the best offer and it's not urgent, then he will give you a good offer.
+- Patience - If you go to a car dealer and ask that you need a car urgent then he is not going to give you any offers, but if you say that I need a car but you will wait for the best offer and it's not urgent, then he will give you a good offer.
 
-b.  Take it or leave it deal
+- Take it or leave it deal
 
 - Competitive Game Theory
 - Cooperative Game Theory (for friends)

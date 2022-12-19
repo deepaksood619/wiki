@@ -32,13 +32,13 @@ LIKE is an operator that compares column values with a specified pattern. During
 
 I have used four types of wildcards; they are:
 
-a.  Percent sign (%): It is used to represent or search any string of zero or more characters.
+- Percent sign (%): It is used to represent or search any string of zero or more characters.
 
-b.  Underscore (_): It is used to represent or search a single character.
+- Underscore (_): It is used to represent or search a single character.
 
-c.  Bracket ([]): It is used to represent or search any single character within the specified range.
+- Bracket ([]): It is used to represent or search any single character within the specified range.
 
-d.  Caret (^): It is used to represent or search any single character not within the specified range.
+- Caret (^): It is used to represent or search any single character not within the specified range.
 
 ## Example
 

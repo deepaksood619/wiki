@@ -25,7 +25,7 @@ Here is a translation table that defines the addresses based on their leading bi
 
 172.16.0.0
 
-192.168.0.0-   **Class C**
+192.168.0.0-  **Class C**
 
 110-: Class C is defined as the addresses ranging from192.0.0.0 to 223.255.255.255. This represents all of the addresses with a "1" for their first two bits, but without a "1" for their third bit.
 

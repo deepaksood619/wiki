@@ -72,21 +72,22 @@ Standard deviation and coefficient of variation
 ## Mean, Median, and Mode: Measure of Central Tendency
 
 ![image](media/Descriptive-Statistics-image10.jpg)
-a.  Normal distribution
 
-b.  Mode - The value that appears most in our dataset
+- Normal distribution
 
-c.  Bimodal Data is an example of Multimodal data which has many values that are similarly common. Usually multimodal data results from two or more underlying groups all being measured together
+- Mode - The value that appears most in our dataset
 
-d.  The fact that the median and mean are the same tells us that the distibution is symmetric: that there's equal amount of data on either side of the median, and equal amounts on either side of the mean
+- Bimodal Data is an example of Multimodal data which has many values that are similarly common. Usually multimodal data results from two or more underlying groups all being measured together
 
-e.  If the mean and median are different that the distribution is skewed
+- The fact that the median and mean are the same tells us that the distibution is symmetric: that there's equal amount of data on either side of the median, and equal amounts on either side of the mean
+
+- If the mean and median are different that the distribution is skewed
 
 ## Measures of Spread
 
-a.  Range takes the largest number in our dataset and subtracts the smallest number in the set to give us the distance between the two extremes. The larger the distance, the more spread out our data is.
+- Range takes the largest number in our dataset and subtracts the smallest number in the set to give us the distance between the two extremes. The larger the distance, the more spread out our data is.
 
-b.  Interquartile range - Doesn't consider extreme values, the IQR looks at the spread of the middle 50% of your data
+- Interquartile range - Doesn't consider extreme values, the IQR looks at the spread of the middle 50% of your data
 
 ![image](media/Descriptive-Statistics-image11.jpg)
 
@@ -147,14 +148,14 @@ Where μ is the average across the n observations, and X~j~ is the value that of
 
 ## Randomness
 
-a.  Expectation
+- Expectation
 
-b.  Variance (2nd moment)
+- Variance (2nd moment)
 
-c.  Skeweness (3rd moment)
+- Skeweness (3rd moment)
 
-d.  Kurtosis (4th moment)
+- Kurtosis (4th moment)
 
-e.  The mean of the sum is the sum of the means
+- The mean of the sum is the sum of the means
 
-f.  The variance of the sum of the two independent variables is the sum of their variances.
+- The variance of the sum of the two independent variables is the sum of their variances.

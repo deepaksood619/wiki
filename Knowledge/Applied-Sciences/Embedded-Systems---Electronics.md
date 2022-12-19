@@ -8,7 +8,7 @@ Modified: 2021-06-27 20:38:26 +0500
 
 ## Network Processors
 
-A**network processor** is an [integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit) which has a feature set specifically targeted at the [networking](https://en.wikipedia.org/wiki/Computer_networking) application domain.
+A **network processor** is an [integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit) which has a feature set specifically targeted at the [networking](https://en.wikipedia.org/wiki/Computer_networking) application domain.
 
 Network processors are typically [software](https://en.wikipedia.org/wiki/Software) programmable devices and would have generic characteristics similar to general purpose [central processing units](https://en.wikipedia.org/wiki/Central_Processing_Unit) that are commonly used in many different types of equipment and products.
 

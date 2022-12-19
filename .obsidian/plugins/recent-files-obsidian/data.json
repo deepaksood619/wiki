@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Tatoos-Quotes",
+      "path": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md"
+    },
+    {
+      "basename": "Regular-Expressions---Regex",
+      "path": "Languages/Others/Regular-Expressions---Regex.md"
+    },
+    {
       "basename": "Project---Product---Business---Tools---SAAS",
       "path": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md"
     },
@@ -101,10 +109,6 @@
       "path": "Office/Ideas/Final.md"
     },
     {
-      "basename": "Regular-Expressions---Regex",
-      "path": "Languages/Others/Regular-Expressions---Regex.md"
-    },
-    {
       "basename": "Regular-Expressions",
       "path": "Languages/Python/Python/Regular-Expressions.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Dockerfile-example",
       "path": "Technologies/DevOps/Docker/Dockerfile-example.md"
-    },
-    {
-      "basename": "kafkacat",
-      "path": "Technologies/Technologies/Kafka/kafkacat.md"
     }
   ],
   "omittedPaths": [],

@@ -281,9 +281,9 @@ Suppose we choose a nut and partition all bolts in {1...n}, by comparing with th
 
 If at each step, we choose the nut (to partition the bolts) randomly, we will get similar performance guarantees as quicksort i.e., randomized**O(n log n)**time.
 2.  **Selection in two sorted arrays.**Given two sorted arraysa[]andb[], of sizesn1andn2, respectively, design an algorithm to find thekthlargest key. The order of growth of the worst case running time of your algorithm should belogn, wheren=n1+n2.
-    -   **Version 1:n1=n2andk=n/2**
-    -   **Version 2:k=n/2**
-    -   **Version 3: no restrictions**
+    -  **Version 1:n1=n2andk=n/2**
+    -  **Version 2:k=n/2**
+    -  **Version 3: no restrictions**
 3.  **Decimal dominants.**Given an array withnkeys, design an algorithm to find all values that occur more thann/10times. The expected running time of your algorithm should be linear.
 
 ## 4.1. Priority Queues

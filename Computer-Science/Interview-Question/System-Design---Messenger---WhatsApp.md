@@ -26,7 +26,7 @@ Modified: 2021-08-27 19:59:58 +0500
 
   - Group message
 
-  - Broadcast message-   Timeline
+  - Broadcast message-  Timeline
 - Sharing
 
   - text / stickers
@@ -35,7 +35,7 @@ Modified: 2021-08-27 19:59:58 +0500
 
   - video
 
-  - status (text / image / video)-   **Delivery**
+  - status (text / image / video)-  **Delivery**
 
   - Sent notification
 
@@ -46,7 +46,7 @@ Modified: 2021-08-27 19:59:58 +0500
 
   - Only delivering, because there cannot be interaction with the message
 
-  - Uses GCM-   Backup
+  - Uses GCM-  Backup
 
   - Local
 
@@ -117,7 +117,7 @@ User talks to Load Balancer (which can operate at Level-3, Level-4 or Level-7)
 Load Balancer then talks to one of the node servers
 
 Networking - HTTP, WebSockets
-![image](media/System-Design---Messenger---WhatsApp-image1.png)-   User will login using username and password at that time server will know that user is online
+![image](media/System-Design---Messenger---WhatsApp-image1.png)-  User will login using username and password at that time server will know that user is online
 
 - User A will send request to a load balancer, Load balancer will redirect the request to one of the hosts using FIFO or number of connections or load average of these hosts.
 - Bidirectional connection is needed for heartbeat

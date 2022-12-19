@@ -51,35 +51,23 @@ Each node has a key, and every node's key is:
 
 ## Operations in BST -
 
-a.  Get
-
-b.  Put
-
-c.  Min
-
-d.  Max
-
-e.  Floor
-
-f.  Ceil
-
-g.  Rank (how many keys are less than a given key)
-
-h.  Select (give as the kth largest key)
-
-i.  Subtree count
-
-j.  Inorder traversal
-
-k.  Level order traversal
-
-l.  Deletion in BST
-
+- Get
+- Put
+- Min
+- Max
+- Floor
+- Ceil
+- Rank (how many keys are less than a given key)
+- Select (give as the kth largest key)
+- Subtree count
+- Inorder traversal
+- Level order traversal
+- Deletion in BST
 - Lazy Approach (Mark the node as Tombstone)
 
 Leave the key in tree to guide search (but don't consider it equal in search)
 
-ii. **Hibbard deletion**
+- **Hibbard deletion**
 
 To delete a node with key k: search for node t containing key k
 
@@ -125,7 +113,7 @@ What will we see here? We will insert new nodes, search for a value, delete node
 
 Let's start.
 
-#### *Insertion: adding new nodes to ourtree*
+#### Insertion: adding new nodes to ourtree
 
 Imagine that we have an empty tree and we want to add new nodes with the following values in this order: 50, 76, 21, 4, 32, 100, 64, 52.
 
@@ -159,26 +147,29 @@ Let's break it down.
 
 Now let's code it.
 
-| class BinarySearchTree:                        |
-|------------------------------------------------|
-| def **init**(self, value):                 |
-| self.value = value                             |
-| self.left_child = None                         |
-| self.right_child = None                        |
-| def insert_node(self, value):                  |
-| if value <= self.value and self.left_child:   |
-| self.left_child.insert_node(value)             |
-| elif value <= self.value:                     |
-| self.left_child = BinarySearchTree(value)      |
-| elif value > self.value and self.right_child: |
-| self.right_child.insert_node(value)            |
-| else:                                          |
-| self.right_child = BinarySearchTree(value)     |
+```python
+class BinarySearchTree:
+    def __init__(self, value):
+        self.value = value
+        self.left_child = None
+        self.right_child = None
+
+    def insert_node(self, value):
+        if value <= self.value and self.left_child:
+            self.left_child.insert_node(value)
+        elif value <= self.value:
+            self.left_child = BinarySearchTree(value)
+        elif value > self.value and self.right_child:
+            self.right_child.insert_node(value)
+        else:
+            self.right_child = BinarySearchTree(value)
+```
+
 It seems very simple.
 
 The powerful part of this algorithm is the recursion part, which is on line 9 and line 13. Both lines of code call the insert_node method, and use it for its left and right children, respectively. Lines 11 and 15 are the ones that do the insertion for each child.
 
-#### *Let's search for the node value... Ornot...*
+#### Let's search for the node value... Ornot
 
 The algorithm that we will build now is about doing searches. For a given value (integer number), we will say if our Binary Search Tree does or does not have that value.
 
@@ -204,18 +195,22 @@ Let's break it down.
 
 Now let's code it.
 
-| class BinarySearchTree: |                                             |
-|-------------------------|----------------------------------------------|
-|                        | def **init**(self, value):               |
-|                        | self.value = value                           |
-|                        | self.left_child = None                       |
-|                        | self.right_child = None                      |
-|                        | def find_node(self, value):                  |
-|                        | if value < self.value and self.left_child:  |
-|                        | return self.left_child.find_node(value)      |
-|                        | if value > self.value and self.right_child: |
-|                        | return self.right_child.find_node(value)     |
-|                        | return value == self.value                   |
+```python
+class BinarySearchTree:
+ def __init__(self, value):
+        self.value = value
+        self.left_child = None
+        self.right_child = None
+
+    def find_node(self, value):
+        if value < self.value and self.left_child:
+            return self.left_child.find_node(value)
+        if value > self.value and self.right_child:
+            return self.right_child.find_node(value)
+
+        return value == self.value
+```
+
 Let's beak down the code:
 
 - Lines 8 and 9 fall under rule #1.
@@ -230,102 +225,114 @@ bst = BinarySearchTree(15)
 
 And now we will insert many new nodes.
 
-| bst.insert_node(10) |                    |
-|---------------------|---------------------|
-|                    | bst.insert_node(8)  |
-|                    | bst.insert_node(12) |
-|                    | bst.insert_node(20) |
-|                    | bst.insert_node(17) |
-|                    | bst.insert_node(25) |
-|                    | bst.insert_node(19) |
+```python
+bst.insert_node(10)
+bst.insert_node(8)
+bst.insert_node(12)
+bst.insert_node(20)
+bst.insert_node(17)
+bst.insert_node(25)
+bst.insert_node(19)
+```
+
 For each inserted node, we will test if our find_node method really works.
 
-| print(bst.find_node(15)) # True |
-|----------------------------------|
-| print(bst.find_node(10)) # True |
-| print(bst.find_node(8)) # True  |
-| print(bst.find_node(12)) # True |
-| print(bst.find_node(20)) # True |
-| print(bst.find_node(17)) # True |
-| print(bst.find_node(25)) # True |
-| print(bst.find_node(19)) # True |
+```python
+print(bst.find_node(15)) # True
+print(bst.find_node(10)) # True
+print(bst.find_node(8)) # True
+print(bst.find_node(12)) # True
+print(bst.find_node(20)) # True
+print(bst.find_node(17)) # True
+print(bst.find_node(25)) # True
+print(bst.find_node(19)) # True
+```
+
 Yeah, it works for these given values! Let's test for a value that doesn't exist in our Binary Search Tree.
 
-print(bst.find_node(0)) # False
+`print(bst.find_node(0)) # False`
 
 Oh yeah.
 
 Our search is done.
 
-#### *Deletion: removing and organizing*
+#### Deletion: removing and organizing
 
 Deletion is a more complex algorithm because we need to handle different cases. For a given value, we need to remove the node with this value. Imagine the following scenarios for this node: it has no children, has a single child, or has two children.
 
 - **Scenario #1**: A node with no children (leaf node).
 
-| # |50| |50| |                                                   |
-|------------------|----------------------------------------------------|
-|                 | # /  /                                        |
-|                 | # |30| |70| (DELETE 20) ---> |30| |70| |
-|                 | # /                                           |
-|                 | # |20| |40| |40|                            |
+```python
+# |50| |50|
+ # / \ / \
+ # |30| |70| (DELETE 20) ---> |30| |70|
+ # / \ \
+ # |20| |40| |40|
+```
+
 If the node we want to delete has no children, we simply delete it. The algorithm doesn't need to reorganize the tree.
 
 - **Scenario #2**: A node with just one child (left or right child).
 
-| # |50| |50| |                                                   |
-|------------------|----------------------------------------------------|
-|                 | # /  /                                        |
-|                 | # |30| |70| (DELETE 30) ---> |20| |70| |
-|                 | # /                                               |
-|                 | # |20|                                          |
+```python
+# |50| |50|
+ # / \ / \
+ # |30| |70| (DELETE 30) ---> |20| |70|
+ # /
+ # |20|
+```
+
 In this case, our algorithm needs to make the parent of the node point to the child node. If the node is the left child, we make the parent of the left child point to the child. If the node is the right child of its parent, we make the parent of the right child point to the child.
 
 - **Scenario #3**: A node with two children.
 
-| # |50| |50| |                                                   |
-|------------------|----------------------------------------------------|
-|                 | # /  /                                        |
-|                 | # |30| |70| (DELETE 30) ---> |40| |70| |
-|                 | # /  /                                          |
-|                 | # |20| |40| |20|                            |
+```python
+# |50| |50|
+ # / \ / \
+ # |30| |70| (DELETE 30) ---> |40| |70|
+ # / \ /
+ # |20| |40| |20|
+```
+
 When the node has 2 children, we need to find the node with the minimum value, starting from the node'sright child. We will put this node with minimum value in the place of the node we want to remove.
 
 It's time to code.
 
-| def remove_node(self, value, parent):                                                     |
-|------------------------------------------------------------------------|
-| if value < self.value and self.left_child:                                               |
-| return self.left_child.remove_node(value, self)                                           |
-| elif value < self.value:                                                                 |
-| return False                                                                              |
-| elif value > self.value and self.right_child:                                            |
-| return self.right_child.remove_node(value, self)                                          |
-| elif value > self.value:                                                                 |
-| return False                                                                              |
-| else:                                                                                     |
-| if self.left_child is None and self.right_child is None and self == parent.left_child:    |
-| parent.left_child = None                                                                  |
-| self.clear_node()                                                                         |
-| elif self.left_child is None and self.right_child is None and self == parent.right_child: |
-| parent.right_child = None                                                                 |
-| self.clear_node()                                                                         |
-| elif self.left_child and self.right_child is None and self == parent.left_child:          |
-| parent.left_child = self.left_child                                                       |
-| self.clear_node()                                                                         |
-| elif self.left_child and self.right_child is None and self == parent.right_child:         |
-| parent.right_child = self.left_child                                                      |
-| self.clear_node()                                                                         |
-| elif self.right_child and self.left_child is None and self == parent.left_child:          |
-| parent.left_child = self.right_child                                                      |
-| self.clear_node()                                                                         |
-| elif self.right_child and self.left_child is None and self == parent.right_child:         |
-| parent.right_child = self.right_child                                                     |
-| self.clear_node()                                                                         |
-| else:                                                                                     |
-| self.value = self.right_child.find_minimum_value()                                        |
-| self.right_child.remove_node(self.value, self)                                            |
-| return True                                                                               |
+```python
+def remove_node(self, value, parent):
+    if value < self.value and self.left_child:
+        return self.left_child.remove_node(value, self)
+    elif value < self.value:
+        return False
+    elif value > self.value and self.right_child:
+        return self.right_child.remove_node(value, self)
+    elif value > self.value:
+        return False
+    else:
+        if self.left_child is None and self.right_child is None and self == parent.left_child:
+            parent.left_child = None
+            self.clear_node()
+        elif self.left_child is None and self.right_child is None and self == parent.right_child:
+            parent.right_child = None
+            self.clear_node()
+        elif self.left_child and self.right_child is None and self == parent.left_child:
+            parent.left_child = self.left_child
+            self.clear_node()
+        elif self.left_child and self.right_child is None and self == parent.right_child:
+            parent.right_child = self.left_child
+            self.clear_node()
+        elif self.right_child and self.left_child is None and self == parent.left_child:
+            parent.left_child = self.right_child
+            self.clear_node()
+        elif self.right_child and self.left_child is None and self == parent.right_child:
+            parent.right_child = self.right_child
+            self.clear_node()
+        else:
+            self.value = self.right_child.find_minimum_value()
+            self.right_child.remove_node(self.value, self)
+
+    return True
+```
 
 1. **First**: Note the parameters value and parent. We want to find the nodethat has this value, and the node's parent is important to the removal of the node.
 
@@ -351,70 +358,82 @@ It's time to code.
 
 12. **From line 28 to line 30**: We cover the node with both left and rightchildren. We get the node with the smallest value (the code is shown below) and set it to the value of the current node. Finish it by removing the smallest node.
 
-13. **Line 32**: If we find the node we are looking for, it needs to return True. From line 11 to line 31, we handle this case. So just return True and that's it.-   To use the clear_node method: set the None value to all three attributes --- (value, left_child, and right_child)
+13. **Line 32**: If we find the node we are looking for, it needs to return True. From line 11 to line 31, we handle this case. So just return True and that's it.-  To use the clear_node method: set the None value to all three attributes --- (value, left_child, and right_child)
 
-| def clear_node(self): |                        |
-|-----------------------|-------------------------|
-|                      | self.value = None       |
-|                      | self.left_child = None  |
-|                      | self.right_child = None |-   To use the find_minimum_value method: go way down to the left. If we can't find anymore nodes, we found the smallest one.
+```python
+def clear_node(self):
+ self.value = None
+ self.left_child = None
+ self.right_child = None
+```
 
-| def find_minimum_value(self): |                                            |
-|-------------------------------|-----------------------------------------|
-|                              | if self.left_child:                         |
-|                              | return self.left_child.find_minimum_value() |
-|                              | else:                                       |
-|                              | return self.value                           |
+- To use the find_minimum_value method: go way down to the left. If we can't find anymore nodes, we found the smallest one.
+
+```python
+def find_minimum_value(self):
+ if self.left_child:
+ return self.left_child.find_minimum_value()
+ else:
+ return self.value
+```
+
 Now let's test it.
 
 We will use this tree to test our remove_node algorithm.
 
-| # |15| |                              |
-|-----------|-------------------------------|
-|          | # /                        |
-|          | # |10| |20|              |
-|          | # /  /                   |
-|          | # |8| |12| |17| |25| |
-|          | #                          |
-|          | # |19|                     |
+```python
+# |15|
+ # / \
+ # |10| |20|
+ # / \ / \
+ # |8| |12| |17| |25|
+ # \
+ # |19|
+```
+
 Let's remove the node with the value 8. It's a node with no child.
 
-| print(bst.remove_node(8, None)) # True |                          |
-|-----------------------------------------|---------------------------|
-|                                        | bst.pre_order_traversal() |
-|                                        | # |15|                 |
-|                                        | # /                    |
-|                                        | # |10| |20|          |
-|                                        | #  /                 |
-|                                        | # |12| |17| |25|   |
-|                                        | #                      |
-|                                        | # |19|                 |
+```python
+print(bst.remove_node(8, None)) # True
+ bst.pre_order_traversal()
+ # |15|
+ # / \
+ # |10| |20|
+ # \ / \
+ # |12| |17| |25|
+ # \
+ # |19|
+```
+
 Now let's remove the node with the value 17. It's a node with just one child.
 
-| print(bst.remove_node(17, None)) # True |                          |
-|------------------------------------------|---------------------------|
-|                                         | bst.pre_order_traversal() |
-|                                         | # |15|                 |
-|                                         | # /                    |
-|                                         | # |10| |20|          |
-|                                         | #  /                 |
-|                                         | # |12| |19| |25|   |
+```python
+print(bst.remove_node(17, None)) # True
+ bst.pre_order_traversal()
+ # |15|
+ # / \
+ # |10| |20|
+ # \ / \
+ # |12| |19| |25|
+```
+
 Finally, we will remove a node with two children. This is the root of our tree.
 
-| print(bst.remove_node(15, None)) # True |                          |
-|------------------------------------------|---------------------------|
-|                                         | bst.pre_order_traversal() |
-|                                         | # |19|                 |
-|                                         | # /                    |
-|                                         | # |10| |20|          |
-|                                         | #                    |
-|                                         | # |12| |25|          |
+```python
+print(bst.remove_node(15, None)) # True
+ bst.pre_order_traversal()
+ # |19|
+ # / \
+ # |10| |20|
+ # \ \
+ # |12| |25|
+```
 
 ## Geometric applications of BSTs
 
-## Problem - Intersections among geometric objects (find among a group of rectangles, how many rectangles intersect) - Binary search trees
+Problem - Intersections among geometric objects (find among a group of rectangles, how many rectangles intersect) - Binary search trees
 
-## Applications - CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
+Applications - CAD, games, movies, virtual reality, databases, GIS (Geographic Information System)
 
 ![image](media/Binary-Search-Tree-image9.png)
 

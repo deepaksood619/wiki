@@ -77,7 +77,7 @@ get(tiny) - if both are same than service worker is done
 Otherwise again do put(tiny, long) and repeat
 
 Problem - For every put you have to do atleast one get.
-2.  Pick first 43 bits of MD5
+2. Pick first 43 bits of MD5
 
 We calculate the MD5 of longer url then take the first 43 bits of that md5 and use that to generate the tiny url
 
@@ -110,10 +110,10 @@ Convert 43 bits to 7 characters long url
         - Problem - Can cause collision if requests increases
 
    - Range Based
-         -   We divide the total 3.5 trillion combinations into ranges, every worker will be alloted each range. Ranges can be divided into billions which will also be divided into millions
-         -   These all allotments of ranges is maintained by zookeeper
-         -   It guarantees that there are no collisions.
-         -   Also can add some random bits to increase security.
+         -  We divide the total 3.5 trillion combinations into ranges, every worker will be alloted each range. Ranges can be divided into billions which will also be divided into millions
+         -  These all allotments of ranges is maintained by zookeeper
+         -  It guarantees that there are no collisions.
+         -  Also can add some random bits to increase security.
 ![image](media/System-Design---TinyURL-image3.png)
 Get requests can be cached using CDN
 [Paste bin system design | Software architecture for paste bin](https://www.youtube.com/watch?v=josjRSBqEBI)

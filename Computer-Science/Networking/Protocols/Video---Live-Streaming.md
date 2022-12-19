@@ -68,7 +68,7 @@ ffplay udp://192.168.1.119:1234
 
 ffmpeg -i rtp://@239.35.10.4:10000 -map 0:0 -map 0:2 -vcodec copy -acodec
 
-copy -t 10 -y test.mkv-   Wowza Streaming Server
+copy -t 10 -y test.mkv-  Wowza Streaming Server
 
 - Red5 FOSS Streaming Server
 FFMPEG stitching multiple files into one

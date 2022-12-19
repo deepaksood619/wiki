@@ -8,7 +8,7 @@ Modified: 2022-02-05 00:21:12 +0500
 
 1. [What Is OpenAPI?](https://swagger.io/docs/specification/about/)
 
-An**open API**(often referred to as a public API) is a publicly available [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) that provides developers with programmatic access to a proprietary software application or web service.-   Writing API Specification
+An**open API**(often referred to as a public API) is a publicly available [application programming interface](https://en.wikipedia.org/wiki/Application_programming_interface) that provides developers with programmatic access to a proprietary software application or web service.-  Writing API Specification
 
 - API specifications can be written in YAML or JSON
 Swaggeris a set of open-source tools built around the OpenAPI Specification that can help you design, build, document and consume REST APIs. The major Swagger tools include:

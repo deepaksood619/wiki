@@ -21,9 +21,9 @@ Problem with Grid implementation - **Clustering**
 
 ## Operations -
 
-a.  Range search in a 2d tree
+- Range search in a 2d tree
 
-b.  Nearest neighbor search in a 2d tree
+- Nearest neighbor search in a 2d tree
 ![image](media/Kd-trees-image4.png)
 
 ## Applications of 2d trees -

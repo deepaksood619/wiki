@@ -24,11 +24,11 @@ Java's dynamic class loading functionality is handled by the class loader subsys
 
 Classes will be loaded by this component.BootStrap ClassLoader, Extension ClassLoader, Application ClassLoader are the three class loader which will help in achieving it.
 
-i.  BootStrapClassLoader-- Responsible for loading classes from the bootstrap classpath, nothing butrt.jar.Highest priority will be given to this loader.
+- BootStrapClassLoader-- Responsible for loading classes from the bootstrap classpath, nothing butrt.jar.Highest priority will be given to this loader.
 
-ii. Extension ClassLoader-- Responsible for loading classes which are insideextfolder(jrelib)
+- Extension ClassLoader-- Responsible for loading classes which are insideextfolder(jrelib)
 
-iii. Application ClassLoader--Responsible for loadingApplication Level Classpath, path mentioned Environment Variable etc.
+- Application ClassLoader--Responsible for loadingApplication Level Classpath, path mentioned Environment Variable etc.
 
 The aboveClass Loaderswill followDelegation Hierarchy Algorithmwhile loading the class files.
 
@@ -68,9 +68,9 @@ Runtime Data Area is divided into 5 major components
 
 The bytecode which is assigned to theRuntime Data Areawill be executed by the Execution Engine. The Execution Engine reads the byte code and executes one by one.
 
-a.  Interpreter-- Reads the bytecode, interprets it and executes it one by one. The interpreter interprets the bytecode faster but executes slowly. The disadvantage of the interpreter is that when one method called multiple times, every time interpretation is required.
+- Interpreter-- Reads the bytecode, interprets it and executes it one by one. The interpreter interprets the bytecode faster but executes slowly. The disadvantage of the interpreter is that when one method called multiple times, every time interpretation is required.
 
-b.  JIT Compiler-- JIT Compiler neutralizes the disadvantage of the Interpreter ( a single method called multiple times, each time interpretation is required ), The Execution Engine will be using the help of Interpreter in converting but when it found repeated code it uses JIT compiler which compiles the entire bytecode andchanges it to native code. This native code will be used directly for repeated method calls which improve the performance of the system.
+- JIT Compiler-- JIT Compiler neutralizes the disadvantage of the Interpreter ( a single method called multiple times, each time interpretation is required ), The Execution Engine will be using the help of Interpreter in converting but when it found repeated code it uses JIT compiler which compiles the entire bytecode andchanges it to native code. This native code will be used directly for repeated method calls which improve the performance of the system.
 
 - Intermediate Code generator-- produces intermediate code
 
@@ -80,7 +80,7 @@ b.  JIT Compiler-- JIT Compiler neutralizes the disadvantage of the Interpreter 
 
 - Profiler--Profileris a special component, it is responsible for finding the hotspots (i.e) Used to identify whether the method is called multiple time or not.
 
-c.  Garbage Collector: Garbage Collector is a part of Execution Engine, it collects/removes the unreferenced objects. Garbage Collection can be triggered by calling"System.gc()", but the execution is not guaranteed.Garbage collector of JVM collects only those objects that are created bynewkeyword. So if you have created any object withoutnew, you can usefinalize methodto perform cleanup.
+- Garbage Collector: Garbage Collector is a part of Execution Engine, it collects/removes the unreferenced objects. Garbage Collection can be triggered by calling"System.gc()", but the execution is not guaranteed.Garbage collector of JVM collects only those objects that are created bynewkeyword. So if you have created any object withoutnew, you can usefinalize methodto perform cleanup.
 
 <https://www.javainterviewpoint.com/java-virtual-machine-architecture-in-java>
 

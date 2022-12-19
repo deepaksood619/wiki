@@ -78,7 +78,7 @@ To others, a degree of centralisation may simply be a price to pay for the other
 
 ## Crypto Investing / Investment (Party Fund)
 
-- **Only invest 1 lakh i.e. 10K for 12 weeks (3 months) and hold it long term for like years**-   **Coins**
+- **Only invest 1 lakh i.e. 10K for 12 weeks (3 months) and hold it long term for like years**-  **Coins**
   - Bitcoin (BTH)
   - Ethereum (ETH)
   - Tether (USDT) - stable coin, it will be always $1
@@ -99,13 +99,13 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
   - 20% - Polygon
   - 20% - Cardano
   - 10% - Cartezi
-  - 10% - Litecoin-   40% - Bitcoin
+  - 10% - Litecoin-  40% - Bitcoin
 - 15% - Ethereum
 - 15% - DeFi
 - 10% - Centralized Exchanges
 - 10% - Smart Contract Projects
 - 5% - NFT (Mana / Chiliz / Axie infinity)
-- 5% - Shitcoins/Memecoins-   **NFT (Non Fungible Token)**-   **Platforms**
+- 5% - Shitcoins/Memecoins-  **NFT (Non Fungible Token)**-  **Platforms**
   - <https://coinmarketcap.com/rankings/exchanges>
   - **Binance (Sagar)**
   - Crypto.com
@@ -114,14 +114,14 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
   - CoinDCX
   - **coinbase (us based)**
   - Bitfinex (Exchange)
-  - Metamask (A crypto wallet & gateway to blockchain apps)-   **Chains**
+  - Metamask (A crypto wallet & gateway to blockchain apps)-  **Chains**
   - Blockchain
   - Smart chain
   - Smart contract
   - Ronin (Side Chain)
-  - Lightning network-   **Others**
+  - Lightning network-  **Others**
   - NFT
-  - DeFi wallet-   **Tools**
+  - DeFi wallet-  **Tools**
   - <https://coinmarketcap.com>
   - <https://www.coingecko.com/en>
   - <https://www.intotheblock.com>
@@ -129,11 +129,11 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
   - **<https://cryptopanic.com> (All news in one page)**
   - <https://coinmarketcal.com/en> (Events)
   - <https://studio.glassnode.com/metrics> (Analytics)
-  - <https://messari.io> (Analytics)-   **Technical Analysis**
+  - <https://messari.io> (Analytics)-  **Technical Analysis**
   - Total Market Cap
   - 24 hours volume
   - BTC Dominance (if BTC dominance decreases, alt coins take lead)
-  - On-chain metrics-   Thoughts
+  - On-chain metrics-  Thoughts
   - Blockchain is important bitcoin not
   - Focus on fundamentals
 - Pros
@@ -156,6 +156,6 @@ USDC is the world's fastest-growing, fully regulated dollar digital stablecoin.
   - Doesn't create value (invest in businesses that creates value)
   - Source code managed by Blockstream
   - [Why I lost faith in Bitcoin (as an early adopter and software engineer)](https://www.youtube.com/watch?v=vjwVtl-VBDw)
-  - [The Money Flower and why Bitcoin is a ponzi scheme | Morten Bech | TEDxBasel](https://www.youtube.com/watch?v=UK0ATammdRo)-   **References**
+  - [The Money Flower and why Bitcoin is a ponzi scheme | Morten Bech | TEDxBasel](https://www.youtube.com/watch?v=UK0ATammdRo)-  **References**
 
 whiteboardcrypto

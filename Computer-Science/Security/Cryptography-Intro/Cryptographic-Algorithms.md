@@ -49,7 +49,7 @@ Shift characters
 
 ## AES (Advanced Encryption Standard)
 
-Is a specification that has selected the Rijndael cipher as its symmetric key ciphering algorithm.-   Subs-Perm network
+Is a specification that has selected the Rijndael cipher as its symmetric key ciphering algorithm.-  Subs-Perm network
 
 - AES - 128
 - randomized enryption

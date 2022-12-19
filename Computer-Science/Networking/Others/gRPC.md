@@ -21,13 +21,13 @@ gRPC clients and servers can run and talk to each other in a variety of environm
 
 ## Types of gRPC service
 
-gRPC lets you define four kinds of service method:-   **Unary RPCs** where the client sends a single request to the server and gets a single response back, just like a normal function call.
+gRPC lets you define four kinds of service method:-  **Unary RPCs** where the client sends a single request to the server and gets a single response back, just like a normal function call.
 rpc SayHello(HelloRequest) returns (HelloResponse){
-}-   **Server streaming RPCs** where the client sends a request to the server and gets a stream to read a sequence of messages back. The client reads from the returned stream until there are no more messages.
+}-  **Server streaming RPCs** where the client sends a request to the server and gets a stream to read a sequence of messages back. The client reads from the returned stream until there are no more messages.
 rpc LotsOfReplies(HelloRequest) returns (stream HelloResponse){
-}-   **Client streaming RPCs** where the client writes a sequence of messages and sends them to the server, again using a provided stream. Once the client has finished writing the messages, it waits for the server to read them and return its response.
+}-  **Client streaming RPCs** where the client writes a sequence of messages and sends them to the server, again using a provided stream. Once the client has finished writing the messages, it waits for the server to read them and return its response.
 rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse) {
-}-   **Bidirectional streaming RPCs** where both sides send a sequence of messages using a read-write stream. The two streams operate independently, so clients and servers can read and write in whatever order they like: for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message then write a message, or some other combination of reads and writes. The order of messages in each stream is preserved.
+}-  **Bidirectional streaming RPCs** where both sides send a sequence of messages using a read-write stream. The two streams operate independently, so clients and servers can read and write in whatever order they like: for example, the server could wait to receive all the client messages before writing its responses, or it could alternately read a message then write a message, or some other combination of reads and writes. The order of messages in each stream is preserved.
 rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
 }
 
@@ -80,7 +80,7 @@ rpc BidiHello(stream HelloRequest) returns (stream HelloResponse){
     - **Service discovery**
     - **load balancing (Client-side / Look-aside load balancing)**
 
-![image](media/gRPC-image2.png)-   Proxyless RPC Mesh
+![image](media/gRPC-image2.png)-  Proxyless RPC Mesh
 <https://kubernetes.io/blog/2018/11/07/grpc-load-balancing-on-kubernetes-without-tears>
 
 ## Client side load balancing
@@ -91,7 +91,7 @@ Two main components needed for the gRPC client-side load balancing to work
 - [load balancing policy](https://github.com/grpc/grpc/blob/master/doc/load-balancing.md).
 
 ![image](media/gRPC-image3.png)
-<https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples>-   **Automatic retries, hedging* (Retry hedging)**
+<https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples>-  **Automatic retries, hedging* (Retry hedging)**
 
 ![image](media/gRPC-image4.png)
 
@@ -99,7 +99,7 @@ Two main components needed for the gRPC client-side load balancing to work
 - If you get response from one client, cancel all requests
 - Problem - Cascading Failures
   - Retry throttling
-  - Pushback-   Transports
+  - Pushback-  Transports
 - Auth & Security
   - Plugin auth mechanism for extensibility
 - Stats, Monitoring and Tracing

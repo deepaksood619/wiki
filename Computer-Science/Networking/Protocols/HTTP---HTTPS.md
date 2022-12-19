@@ -37,13 +37,13 @@ The 3 parts of a HTTP response
 
 a new TCP connection is created for each request/response exchange between clients and servers, meaning that all requests incur a latency penalty as the TCP and TLS handshakes are completed before each request.
 Worse still, rather than sending all outstanding data as fast as possible once the connection is established, TCP enforces a warm-up period called "slow start", which allows the TCP congestion control algorithm to determine the amount of data that can be in flight at any given moment before congestion on the network path occurs, and avoid flooding the network with packets it can't handle. But because new connections have to go through the slow start process, they can't use all of the network bandwidth available immediately.
-3.  HTTP/1.1 (1997)
+3. HTTP/1.1 (1997)
 
 Introduced the concept of "keep-alive" connections, that allow clients to reuse TCP connections, and thus amortize the cost of the initial connection establishment and slow start across multiple requests. But this was no silver bullet: while multiple requests could share the same connection, they still had to be serialized one after the other, so a client and server could only execute a single request/response exchange at any given time for each connection.
-4.  HTTP/2 (2015)
+4. HTTP/2 (2015)
 
 Introduced the concept of HTTP "streams": an abstraction that allows HTTP implementations to concurrently multiplex different HTTP exchanges onto the same TCP connection, allowing browsers to more efficiently reuse TCP connections.
-5.  HTTP/3 and QUIC
+5. HTTP/3 and QUIC
 
 ## HTTP/2 Characteristics -
 
@@ -51,7 +51,7 @@ Introduced the concept of HTTP "streams": an abstraction that allows HTTP implem
 - **Bidirectional Streaming:** No more polling, sockets, or clunky SSE (Server Side Events)
 - **Flow Control:** Control your congestion
 - Is binary, instead of textual,
-- Uses **header compression** to reduce overhead-   HTTP/2 is a binary protocol where HTTP 1.x is textual. Binary protocols are more efficient to parse because there is only one code path where HTTP 1.x defines 4 different ways to parse a message. Binary protocols are also more space efficient on the wire. In return, it is more difficult for humans to deal with them, as they are not human-readable. A tradeoff.
+- Uses **header compression** to reduce overhead-  HTTP/2 is a binary protocol where HTTP 1.x is textual. Binary protocols are more efficient to parse because there is only one code path where HTTP 1.x defines 4 different ways to parse a message. Binary protocols are also more space efficient on the wire. In return, it is more difficult for humans to deal with them, as they are not human-readable. A tradeoff.
 - HTTP/2 is multiplexed to tackle a known limitation in networking known as head-of-line blocking (HOL Blocking). This problem can occur with HTTP 1.1 when multiple requests are issued on a single TCP connection (aka HTTP pipelining). As the entire connection is ordered and blocking (FIFO), a slow request can hold up the connection, slowing down all subsequent requests. Multiplexing definitively solve this problem by allowing several request and response to fly on the wire at the same time.
 - HTTP/2 uses header compression to reduce overhead. Typical header sizes of 1KB are common mainly because of the cookies that we all have to accept for a smooth user experience. Transferring 1KB can take several network round trips just to exchange headers, and those headers are being re-sent every time because of the stateless nature of HTTP 1.x. The TCP Slow-start makes the problem even worse by limiting the number of packets that can be sent during the first round trips until TCP effectively finishes to probe the network to figure out the available capacity and properly adapt its congestion window. In this context, compressing headers significantly limits the number of required round trips.
 - HTTP/2 Server Push allows servers to proactively send responses into client caches. In a typical HTTP 1.x workflow, the browser requests a page, the server sends the HTML in the response, and then needs to wait for the browser to parse the response and issue additional requests to fetch the additional embedded assets (JavaScript, CSS, etc.). Server push allows the server to speculatively start sending resources to the client. Here, the browser does not have to parse the HTML page and find out which other resources to load; instead the server can start sending them immediately.

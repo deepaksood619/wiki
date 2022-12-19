@@ -47,8 +47,8 @@ Data visualization is both an art and a science. It is viewed as a branch of [de
 
 ## Primary types of information displays
 
-- A**table** contains quantitative data organized into rows and columns with categorical labels. It is primarily used to look up specific values. In the example above, the table might have categorical column labels representing the name (aqualitative variable) and age (aquantitative variable), with each row of data representing one person (the sampledexperimental unitorcategory subdivision).
-- A**graph** is primarily used to show relationships among data and portrays values encoded asvisual objects(e.g., lines, bars, or points). Numerical values are displayed within an area delineated by one or moreaxes. These axes providescales(quantitative and categorical) used to label and assign values to the visual objects. Many graphs are also referred to ascharts.
+- A **table** contains quantitative data organized into rows and columns with categorical labels. It is primarily used to look up specific values. In the example above, the table might have categorical column labels representing the name (aqualitative variable) and age (aquantitative variable), with each row of data representing one person (the sampledexperimental unitorcategory subdivision).
+- A **graph** is primarily used to show relationships among data and portrays values encoded asvisual objects(e.g., lines, bars, or points). Numerical values are displayed within an area delineated by one or moreaxes. These axes providescales(quantitative and categorical) used to label and assign values to the visual objects. Many graphs are also referred to ascharts.
 
 ## Types of Quantitative Messages
 

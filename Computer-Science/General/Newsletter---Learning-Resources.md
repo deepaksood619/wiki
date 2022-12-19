@@ -69,7 +69,7 @@ Some links are prettydeep and if you have any difficulty understanding any conce
 
 - Caching
 
-- Logging-   High Cohesion
+- Logging-  High Cohesion
 
 - Low Coupling
 - Object Oriented Programming

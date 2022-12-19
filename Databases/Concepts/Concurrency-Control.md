@@ -22,21 +22,21 @@ For example, a failure in concurrency control can result in [data corruption](ht
 
 ## Optimistic vs Pessimistic Locking
 
-a.  Pessimistic Locking
+- Pessimistic Locking
 
 Acquire all the locks beforehand and then commit our transaction
 
-b.  Optimistic Locking
+- Optimistic Locking
 
 We do not acquire any locks on data and when commiting a transaction we check to see if any other transaction updated the record we are working on.
 
 ## Optimistic vs Pessimistic Concurrency Control
 
-a.  Pessimistic concurrency control
+- Pessimistic concurrency control
 
 Widely used by relational databases, this approach assumes that conflicting changes are likely to happen and so blocks access to a resource in order to prevent conflicts. A typical example is locking a row before reading its data, ensuring that only the thread that placed the lock is able to make changes to the data in that row.
 
-b.  Optimistic concurrency control
+- Optimistic concurrency control
 
 Used by Elasticsearch, this approach assumes that conflicts are unlikely to happen and doesn't block operations from being attempted. However, if the underlying data has been modified between reading and writing, the update will fail. It is then up to the application to decide how it should resolve the conflict. For instance, it could reattempt the update, using the fresh data, or it could report the situation to the user.
 
@@ -72,8 +72,8 @@ Many methods for concurrency control exist. Most of them can be implemented with
 
 Checking for [cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)) in the schedule's [graph](https://en.wikipedia.org/wiki/Directed_graph) and breaking them by aborts.
 3.  **[Timestamp ordering](https://en.wikipedia.org/wiki/Timestamp-based_concurrency_control)(TO)**
-    -   Assigning timestamps to transactions, and controlling or checking access to data by timestamp order.
-    -   **Assume that conflicts are rare so transactions do not need to first acquire locks on database objects and instead check for conflicts at commit time.**
+    -  Assigning timestamps to transactions, and controlling or checking access to data by timestamp order.
+    -  **Assume that conflicts are rare so transactions do not need to first acquire locks on database objects and instead check for conflicts at commit time.**
 4.  **[Commitment ordering](https://en.wikipedia.org/wiki/Commitment_ordering)(or Commit ordering; CO)**
 
 Controlling or checking transactions' chronological order of commit events to be compatible with their respective [precedence order](https://en.wikipedia.org/wiki/Serializability#Testing_conflict_serializability).
@@ -155,26 +155,26 @@ There are different ways for the DBMS to allocate timestamps for transactions. E
 
 ## Performance Bottlenecks
 
-All concurrency control protocols have performance and scalability problems when there are a large number of concurrent threads and large amount of contention (i.e., the transactions are all trying to read/write to the same set of tuples).-   **Lock Thrashing:**
-    -   DL_DETECT, WAIT_DIE
-    -   Each transaction waits longer to acquire locks, causing other transaction to wait longer to acquire locks.
-    -   Can measure this phenomenon by removing deadlock detection/prevention overhead.
-        -   Force txns to acquire locks in primary key order
-        -   Deadlocks are not possible
+All concurrency control protocols have performance and scalability problems when there are a large number of concurrent threads and large amount of contention (i.e., the transactions are all trying to read/write to the same set of tuples).-  **Lock Thrashing:**
+    -  DL_DETECT, WAIT_DIE
+    -  Each transaction waits longer to acquire locks, causing other transaction to wait longer to acquire locks.
+    -  Can measure this phenomenon by removing deadlock detection/prevention overhead.
+        -  Force txns to acquire locks in primary key order
+        -  Deadlocks are not possible
 
-![image](media/Concurrency-Control-image5.png)-   **Timestamp Allocation**
-    -   All T/O algorithms + WAIT_DIE
-    -   Mutex (Worst option)
-    -   Atomic Addition (Requires cache invaliadtion on write)
-    -   Batched Atomic Addition (Needs a back-off mechanism to prevent fast burn)
-    -   Hardware Clock (Not sure if it will exist in future CPUs)
-    -   Hardware Counter (Not implemented in existing CPUs)
+![image](media/Concurrency-Control-image5.png)-  **Timestamp Allocation**
+    -  All T/O algorithms + WAIT_DIE
+    -  Mutex (Worst option)
+    -  Atomic Addition (Requires cache invaliadtion on write)
+    -  Batched Atomic Addition (Needs a back-off mechanism to prevent fast burn)
+    -  Hardware Clock (Not sure if it will exist in future CPUs)
+    -  Hardware Counter (Not implemented in existing CPUs)
 
-![image](media/Concurrency-Control-image6.png)-   **Memory Allocation**
-    -   OCC + MVCC
-    -   Copying data on every read/write access slows down the DBMS because of contention on the memory controller.
-        -   In-place updates and non-copying reads are not affected as much
-    -   Default libc malloc is slow. Never use it
+![image](media/Concurrency-Control-image6.png)-  **Memory Allocation**
+    -  OCC + MVCC
+    -  Copying data on every read/write access slows down the DBMS because of contention on the memory controller.
+        -  In-place updates and non-copying reads are not affected as much
+    -  Default libc malloc is slow. Never use it
 
 ## Operational Transformation
 

@@ -35,11 +35,11 @@ The primary goal of using data model are:
 
 There are mainly three different types of data models:
 
-a.  **Conceptual:**This Data Model defines **WHAT** the system contains. This model is typically created by Business stakeholders and Data Architects. The purpose is to organize, scope and define business concepts and rules.
+- **Conceptual:**This Data Model defines **WHAT** the system contains. This model is typically created by Business stakeholders and Data Architects. The purpose is to organize, scope and define business concepts and rules.
 
-b.  **Logical:**Defines **HOW** the system should be implemented regardless of the DBMS. This model is typically created by Data Architects and Business Analysts. The purpose is to developed technical map of rules and data structures.
+- **Logical:**Defines **HOW** the system should be implemented regardless of the DBMS. This model is typically created by Data Architects and Business Analysts. The purpose is to developed technical map of rules and data structures.
 
-c.  **Physical:** This Data Model describes **HOW** the system will be implemented using a specific DBMS system. This model is typically created by DBA and developers. The purpose is actual implementation of the database.
+- **Physical:** This Data Model describes **HOW** the system will be implemented using a specific DBMS system. This model is typically created by DBA and developers. The purpose is actual implementation of the database.
 
 ![image](media/Data-Modeling-image2.png)
 <https://www.guru99.com/data-modelling-conceptual-logical.html>
@@ -74,7 +74,7 @@ c.  **Physical:** This Data Model describes **HOW** the system will be implement
 
 From a very simple point of view, a relational database comprises *tables* with multiple *columns* and *rows*, and *relationships* between them. The collection of database objects' definitions associated within a certain namespace is called a *schema*. You can also consider a schema to be the definition of your data structures within your database.
 Just as our data changes over time with Data Manipulation Language (DML) statements, so does our schema. We need to add more tables, add and remove columns, and so on. The process of evolving our database structure over time is called *schema evolution*.
-Schema evolution uses Data Definition Language (DDL) statements to transition the database structure from one version to the other. The set of statements used in each one of these transitions is called *database migrations*, or simply *migrations*.-   Migrating to Microservices Databases, Chapter 3, Evolving your Relational Database
+Schema evolution uses Data Definition Language (DDL) statements to transition the database structure from one version to the other. The set of statements used in each one of these transitions is called *database migrations*, or simply *migrations*.-  Migrating to Microservices Databases, Chapter 3, Evolving your Relational Database
 
 ## Extensible Data Modeling
 
@@ -128,6 +128,6 @@ Store each attribute in a row instead of a column
   - Querying attributes of subtypes requires a join
   - Querying all types with subtype attributes requires multiple joins (as many as subtypes)
   - Adding a common attribute locks a large table
-  - Ading an attribute to a populated subtype locks a smaller table-   Serialized LOB & Inverted Indexes
+  - Ading an attribute to a populated subtype locks a smaller table-  Serialized LOB & Inverted Indexes
 - Online Schema Changes
 - Non-relational databases

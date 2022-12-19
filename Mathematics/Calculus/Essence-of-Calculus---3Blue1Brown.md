@@ -51,7 +51,7 @@ Modified: 2021-03-27 01:05:55 +0500
 ![image](media/Essence-of-Calculus---3Blue1Brown-image10.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image11.png)
 3.  **Derivative formulas through geometry**
-    -   **The Power Rule**
+    -  **The Power Rule**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image12.png)
 ![سس la;) لسه ب ](media/Essence-of-Calculus---3Blue1Brown-image13.png)
@@ -98,9 +98,9 @@ We write some contant times t, as e to some constants time t, because rate of ch
 ![image](media/Essence-of-Calculus---3Blue1Brown-image39.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image40.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image41.png)
-![image](media/Essence-of-Calculus---3Blue1Brown-image42.png)-   Multivariate Calculus
+![image](media/Essence-of-Calculus---3Blue1Brown-image42.png)-  Multivariate Calculus
 7.  **Limits**
-    -   **Formal definition of a derivative**
+    -  **Formal definition of a derivative**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image43.png)
 
@@ -108,7 +108,7 @@ We write some contant times t, as e to some constants time t, because rate of ch
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image44.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image45.png)
-![image](media/Essence-of-Calculus---3Blue1Brown-image46.png)-   **L'Hôpital's rule**
+![image](media/Essence-of-Calculus---3Blue1Brown-image46.png)-  **L'Hôpital's rule**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image47.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image48.png)
@@ -148,8 +148,8 @@ Finding the average of a continuous thing.
 ![image](media/Essence-of-Calculus---3Blue1Brown-image75.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image76.png)
 11. **Taylor series**
-    -   **Powerful tool for approximating functions**
-    -   **Taking non-polynomial functions, and finding polynomials that approximate them near some input. Polynomials are much easier to deal with than other functions**
+    -  **Powerful tool for approximating functions**
+    -  **Taking non-polynomial functions, and finding polynomials that approximate them near some input. Polynomials are much easier to deal with than other functions**
 
 ![image](media/Essence-of-Calculus---3Blue1Brown-image77.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image78.png)
@@ -161,7 +161,7 @@ Finding the average of a continuous thing.
 ![image](media/Essence-of-Calculus---3Blue1Brown-image84.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image85.png)
 ![image](media/Essence-of-Calculus---3Blue1Brown-image86.png)
-![image](media/Essence-of-Calculus---3Blue1Brown-image87.png)-   Lagrange error bounds
+![image](media/Essence-of-Calculus---3Blue1Brown-image87.png)-  Lagrange error bounds
 
 - Convergence tests
 

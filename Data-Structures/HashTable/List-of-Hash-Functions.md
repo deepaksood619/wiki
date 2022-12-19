@@ -75,7 +75,7 @@ Main article:[Universal hashing](https://en.wikipedia.org/wiki/Universal_hashing
 <td>XOR/table</td>
 </tr>
 <tr>
-<td>Paul Hsieh's SuperFastHash</a></td>
+<td>Paul Hsieh's SuperFastHash</td>
 <td>32 bits</td>
 <td></td>
 </tr>

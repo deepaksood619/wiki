@@ -25,14 +25,12 @@ Let's assume you have more than one network. This could be things like:
 
 You need to tell Kafka how the brokers can reach each other, but also make sure that external clients (producers/consumers) can reach the broker they need to.
 
-The key thing is that when you run a client, **the broker you pass to it is *just where it's going to go and get the metadata about brokers in the cluster from***. The actual host & IP that it will connect to for reading/writing data is based on ***the data that the broker passes back in that initial connection***---even if it's just a single node and the broker returned is the same as the one connected to.
+The key thing is that when you run a client, the broker you pass to it is just where it's going to go and get the metadata about brokers in the cluster from. The actual host & IP that it will connect to for reading/writing data is based on the data that the broker passes back in that initial connection - even if it's just a single node and the broker returned is the same as the one connected to.
 
 For configuring this correctly, you need to understand that Kafka brokers can have multiple *listeners*. A listener is a combination of
 
 1. Host/IP
-
 2. Port
-
 3. Protocol
 
 Let's check out some config. Often the protocol is used for the listener name too, but here let's make it nice and clear by using abstract names for the listeners:

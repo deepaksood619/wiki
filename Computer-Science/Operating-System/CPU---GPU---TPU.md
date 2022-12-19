@@ -35,7 +35,7 @@ Specifically for matrix operations
 - Each MXU is capable of performing 16K multiply-accumulate operations in each cycle.
 - While the MXU's inputs and outputs are 32-bit floating point values, the MXU performs multiplies at reduced bfloat16 precision.
 - Bfloat16 is a 16-bit floating point representation that provides better training and model accuracy than the IEEE half-precision representation. -From a software perspective, each of the 8 cores on a Cloud TPU can execute user computations (XLA ops) independently.
-- High-bandwidth interconnects allow the chips to communicate directly with each other.-   ![alt text](media/CPU---GPU---TPU-image2.png)
+- High-bandwidth interconnects allow the chips to communicate directly with each other.-  ![alt text](media/CPU---GPU---TPU-image2.png)
 
 ## The Systolic Array
 

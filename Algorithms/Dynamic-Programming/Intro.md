@@ -16,13 +16,13 @@ In dynamic programming, computed solutions to subproblems are stored in a table 
 
 There are following two different ways to store the values so that these values can be reused:
 
-a.  **Memoization (Top Down approach)**
+- **Memoization (Top Down approach)**
 
 The memoized program for a problem is similar to the recursive version with a small modification that it looks into a lookup table before computing solutions. We initialize a lookup array with all initial values as NIL. Whenever we need solution to a subproblem, we first look into the lookup table. If the precomputed value is there then we return that value, otherwise we calculate the value and put the result in lookup table so that it can be reused later.
 
 Start solving the given problem by breaking it down. If you see that the problem has been solved already, then just return the saved answer. If it has not been solved, solve it and save the answer. This is usually easy to think of and very intuitive. This is referred to as***Memoization***.
 
-b.  **Tabulation (Bottom up approach)**
+- **Tabulation (Bottom up approach)**
 
 The tabulated program for a given problem builds a table in bottom up fashion and returns the last entry from table.
 

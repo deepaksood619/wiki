@@ -23,7 +23,7 @@ Modified: 2022-11-30 19:09:53 +0500
 - split and concatenate text
 Columns - 16,384
 
-Rows - 1,048,576-   Text to column
+Rows - 1,048,576-  Text to column
 
 - Pivot Tables
 - Preferences > View > Developer Tab in the Ribbon (For macros)

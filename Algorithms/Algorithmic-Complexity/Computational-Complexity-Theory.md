@@ -42,9 +42,9 @@ The input to the machine is a tape onto which input has been written, Using a re
 
 The decision is based on two things -
 
-a.  Current symbol under the read/write head, and
+- Current symbol under the read/write head, and
 
-b.  The machine's internal state, which is also updated when a symbol is written
+- The machine's internal state, which is also updated when a symbol is written
 
 ## Universality
 

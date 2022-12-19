@@ -8,14 +8,14 @@ Modified: 2022-12-11 13:53:23 +0500
 
 1. **Flat file database**
 
-A**flat file database**is a [database](https://en.wikipedia.org/wiki/Database) stored as an ordinary unstructured file called a "flat file". To access the structure of the data and manipulate it on a computer system, the file must be read in its entirety into the computer's memory. Upon completion of the database operations, the file is again written out in its entirety to the host's file system. In this stored mode the database is said to be "flat", meaning that it has no structure for indexing and there are usually no structural relationships between the records. A flat file can be a [plain text](https://en.wikipedia.org/wiki/Plain_text) file or a [binary file](https://en.wikipedia.org/wiki/Binary_file).
+A **flat file database**is a [database](https://en.wikipedia.org/wiki/Database) stored as an ordinary unstructured file called a "flat file". To access the structure of the data and manipulate it on a computer system, the file must be read in its entirety into the computer's memory. Upon completion of the database operations, the file is again written out in its entirety to the host's file system. In this stored mode the database is said to be "flat", meaning that it has no structure for indexing and there are usually no structural relationships between the records. A flat file can be a [plain text](https://en.wikipedia.org/wiki/Plain_text) file or a [binary file](https://en.wikipedia.org/wiki/Binary_file).
 <https://en.wikipedia.org/wiki/Flat_file_database>
 2.  **ScyllaDB**
-    -   **Real-time big data database**
-    -   **Shared nothing architecture**
-    -   **NoSQL Database**
-    -   **Written in C++**
-    -   **Alternative - Cassandra**
+    -  **Real-time big data database**
+    -  **Shared nothing architecture**
+    -  **NoSQL Database**
+    -  **Written in C++**
+    -  **Alternative - Cassandra**
 <https://www.scylladb.com>
 3.  **RocksDB: A Persistent Key-Value Store for Flash and RAM Storage** by Facebook Database Engineering Team
 This code is a library that forms the core building block for a fast key value server, especially suited for storing data on flash drives. It has a Log-Structured-Merge-Database (LSM) design with flexible tradeoffs between Write-Amplification-Factor (WAF), Read-Amplification-Factor (RAF) and Space-Amplification-Factor (SAF). It has multi-threaded compactions, making it specially suitable for storing multiple terabytes of data in a single database.
@@ -179,8 +179,8 @@ LF is built on a [directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Di
 Proof of work is used to rate limit writes to the shared data store on public networks and as one thing that can be taken into consideration for conflict resolution. Other things that can be considered (at the querying client's discretion) are local subjective heuristics at the node and certificates issued by a certificate authority.
 <https://github.com/zerotier/lf>
 16. **SQLite**
-    -   SQLite is a popular open source SQL database. It can store an entire database in a single file. One of the most significant advantages this provides is that all of the data can be stored locally without having to connect your database to a server.
-    -   SQLite is a popular choice for databases in cellphones, PDAs, MP3 players, set-top boxes, and other electronic gadgets.
+    -  SQLite is a popular open source SQL database. It can store an entire database in a single file. One of the most significant advantages this provides is that all of the data can be stored locally without having to connect your database to a server.
+    -  SQLite is a popular choice for databases in cellphones, PDAs, MP3 players, set-top boxes, and other electronic gadgets.
 apt-get install sqlite3 libsqlite3-dev
 
 cd /data
@@ -264,7 +264,7 @@ etcd is a distributed key value store that provides a reliable way to store data
 
 Your applications can read and write data into etcd. A simple use-case is to store database connection details or feature flags in etcd as key value pairs. These values can be watched, allowing your app to reconfigure itself when they change.
 
-Advanced uses take advantage of the consistency guarantees to implement database leader elections or do distributed locking across a cluster of workers.-   Used by kubernetes, emqx, openshift
+Advanced uses take advantage of the consistency guarantees to implement database leader elections or do distributed locking across a cluster of workers.-  Used by kubernetes, emqx, openshift
 
 etcdis a distributed key-value store. In fact,etcdis the primary datastore of **Kubernetes;** storing and replicating allKubernetescluster state. As a critical component of aKubernetescluster having a reliable automated approach to its configuration and management is imperative.
 
@@ -274,7 +274,7 @@ etcdis a distributed key-value store. In fact,etcdis the primary datastore of **
 - etcd is pronounced/ˈɛtsiːdiː/, and means distributedetcdirectory.
 - Operator
 
-An Operator builds upon the basic Kubernetes resource and controller concepts but includes application domain knowledge to take care of common tasks. They reduce the complexity of running distributed systems and help you focus on the desired configuration, not the details of manual deployment and lifecycle management.-   **References**
+An Operator builds upon the basic Kubernetes resource and controller concepts but includes application domain knowledge to take care of common tasks. They reduce the complexity of running distributed systems and help you focus on the desired configuration, not the details of manual deployment and lifecycle management.-  **References**
 
 <https://coreos.com/etcd>
 
@@ -289,15 +289,15 @@ The event streaming database purpose-built for stream processing applications.
 <https://ksqldb.io>
 
 <https://www.confluent.io/blog/intro-to-ksqldb-sql-database-streaming>22. **Memcached**
-    -   **Distributed cache and hold the data in-memory**
-    -   **Memcached is simple, fast key-value storage**
-    -   **Memcached functions like a large hash table and offers a simple API to store and retrieve arbitrarily shaped objects by key**
-    -   **Can also be set up as a cluster so can provide availability and data application**
-    -   **Can also flush data on the hard drive**
-    -   **Memcached is a distributed system that allows its hash table capacity to scale horizontally across a pool of servers. Each Memcached server operates in complete isolation from the other servers in the pool. Therefore, the routing and load balancing between the servers must be done at the client level. Memcached clients apply a consistent hashing scheme to appropriately select the target servers. This scheme guarantees the following conditions:**
-        -   **The same server is always selected for the same key.**
-        -   **Memory usage is evenly balanced between the servers.**
-        -   **A minimum number of keys are relocated when the pool of servers is reduced or expanded.**
+    -  **Distributed cache and hold the data in-memory**
+    -  **Memcached is simple, fast key-value storage**
+    -  **Memcached functions like a large hash table and offers a simple API to store and retrieve arbitrarily shaped objects by key**
+    -  **Can also be set up as a cluster so can provide availability and data application**
+    -  **Can also flush data on the hard drive**
+    -  **Memcached is a distributed system that allows its hash table capacity to scale horizontally across a pool of servers. Each Memcached server operates in complete isolation from the other servers in the pool. Therefore, the routing and load balancing between the servers must be done at the client level. Memcached clients apply a consistent hashing scheme to appropriately select the target servers. This scheme guarantees the following conditions:**
+        -  **The same server is always selected for the same key.**
+        -  **Memory usage is evenly balanced between the servers.**
+        -  **A minimum number of keys are relocated when the pool of servers is reduced or expanded.**
 23. **Minio**
 
 Minio is a high performance distributed object storage server, designed for

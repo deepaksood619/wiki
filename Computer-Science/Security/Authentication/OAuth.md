@@ -56,11 +56,11 @@ Youtube - [What is OAuth2? How does OAuth2 work? | Tech Primers](https://www.you
 
 - **Authorization Code**
   - Only valid for one-time use, since its only usage is to exchange it for an access token
-  - Expires very quickly (according to this [article](https://www.oauth.com/oauth2-servers/authorization/the-authorization-response/), the OAuth protocol's recommended maximum is 10 minutes, and many services' authorization codes expire even earlier)-   **Access Token**
+  - Expires very quickly (according to this [article](https://www.oauth.com/oauth2-servers/authorization/the-authorization-response/), the OAuth protocol's recommended maximum is 10 minutes, and many services' authorization codes expire even earlier)-  **Access Token**
   - Can be obtained using the authorization code
   - Put in the headers of any API requests to Google on behalf of the user
   - Expires after one hour (the expiration time may vary if you're using something besides Google)
-  - carry the necessary information to access a resource directly. In other words, when a client passes an access token to a server managing a resource, that server can use the information contained in the token to decide whether the client is authorized or not. Access tokens usually have an expiration date and are short-lived.-   **Refresh Token**
+  - carry the necessary information to access a resource directly. In other words, when a client passes an access token to a server managing a resource, that server can use the information contained in the token to decide whether the client is authorized or not. Access tokens usually have an expiration date and are short-lived.-  **Refresh Token**
   - allows you to get new access tokens
   - carry the information necessary to get a new access token. In other words, whenever an access token is required to access a specific resource, a client may use a refresh token to get a new access token issued by the authentication server. Common use cases include getting new access tokens after old ones have expired, or getting access to a new resource for the first time. Refresh tokens can also expire but are rather long-lived. Refresh tokens are usually subject to strict storage requirements to ensure they are not leaked. They can also be **blacklisted** by the authorization server.
 
@@ -88,7 +88,7 @@ Luckily, [OpenID Connect](https://openid.net/connect/) or OIDC brings some sanit
 - Authorization Code + PKCE
 - Client Credentials
 - Tokens in HTTP Header
-- Tokens in POST Form Body-   RFC6749 - OAuth 2.0 Core
+- Tokens in POST Form Body-  RFC6749 - OAuth 2.0 Core
 - RFC6750 - Bearer Token Usage
 - RFC7636 - PKCE
 - Native app and brower-based app BCPs (Best Current Practices)

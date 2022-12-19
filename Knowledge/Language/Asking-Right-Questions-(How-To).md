@@ -22,7 +22,7 @@ Here are some basic but very effective types:
 
 ## The Anatomy of a Good Question
 
-A**good question** doesn't depend just on the **type** of question it is, but also onhowyou **frame** it. The **form** of a question is part of its function. Good questions should be framed under these principles:
+A **good question** doesn't depend just on the **type** of question it is, but also onhowyou **frame** it. The **form** of a question is part of its function. Good questions should be framed under these principles:
 
 ## Good questions should empower
 
@@ -52,15 +52,15 @@ Ask follow-up questions in order to get deeper information and clarify that ever
 
 This method helps you get a deeper understanding of the root causes and underlying beliefs and motivations of people. It's at the heart of a proper design thinking process. Sakichi Toyoda, one of the fathers of the Japanese industrial revolution, developed the technique in the 1930s. Here's how to apply it:
 
-i.  People don't buy products in our online store. --Why?
+- People don't buy products in our online store. --Why?
 
-ii. Because they don't complete the purchase, they drop off.--Why?
+- Because they don't complete the purchase, they drop off.--Why?
 
-iii. Because they tend to abandon the shopping cart. --Why?
+- Because they tend to abandon the shopping cart. --Why?
 
-iv. Because the cart is where we show shipping details and they think 10 days is too long.--Why?
+- Because the cart is where we show shipping details and they think 10 days is too long.--Why?
 
-v.  Because people buy our product as a gift to someone just a couple of days before the gifting date. 10 days is too long for shipping.
+- Because people buy our product as a gift to someone just a couple of days before the gifting date. 10 days is too long for shipping.
 
 By question five, [product designers](https://www.toptal.com/designers/product-design) most likely got closer to the root of the problem and shed light on new approaches to consider that weren't necessarily the original, "assumed" problem.
 

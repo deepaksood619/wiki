@@ -27,7 +27,7 @@ Apseudonormorseminormsatisfies the first two properties of a norm, but may be ze
 
 Calculating the size or length of a vector is often required either directly or as part of a broader vector or vector-matrix operation.
 The length of the vector is referred to as the vector norm or the vector's magnitude.
-The length of a vector is a nonnegative number that describes the extent of the vector in space, and is sometimes referred to as the vector's magnitude or the norm.-   The L1 norm that is calculated as the sum of the absolute values of the vector.
+The length of a vector is a nonnegative number that describes the extent of the vector in space, and is sometimes referred to as the vector's magnitude or the norm.-  The L1 norm that is calculated as the sum of the absolute values of the vector.
 
 - The L2 norm that is calculated as the square root of the sum of the squared vector values.
 - The max norm that is calculated as the maximum vector values.

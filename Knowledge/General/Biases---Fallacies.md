@@ -408,9 +408,9 @@ But it violates the rule, that money is fungible i.e. $1 is equal to $1 from any
 
 ## Clearing Debt
 
-a.  Avalanche approach - clean by decreasing interest rates
+- Avalanche approach - clean by decreasing interest rates
 
-b.  Snowball method - list by balance
+- Snowball method - list by balance
 
 ## Base Effect
 

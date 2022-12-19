@@ -105,7 +105,6 @@ assert test('1 4 45 6 10 8', 4) == 0
  if __name__ == "__main__":
      main()
 
-
 # Output
  end is used to define the end statement. default is \n (newline)
  lst = [1, 2, 3]

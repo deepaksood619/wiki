@@ -110,7 +110,7 @@ Proxy based Redis cluster solution supporting pipeline and scaling dynamically
 | resharding without restarting cluster | Yes         | No          | Yes                                                                         |
 | pipeline                              | Yes         | Yes         | No                                                                          |
 | hash tags for multi-key operations    | Yes         | Yes         | Yes                                                                         |
-| multi-key operations while resharding | Yes         | -          | No([details](http://redis.io/topics/cluster-spec#multiple-keys-operations)) |
+| multi-key operations while resharding | Yes         | -         | No([details](http://redis.io/topics/cluster-spec#multiple-keys-operations)) |
 | Redis clients supporting              | Any clients | Any clients | Clients have to support cluster protocol                                    |
 
 ## Other in-memory database
@@ -129,14 +129,14 @@ Both Redis and MemCached are in-memory, open-source data stores. Memcached, a hi
 | [Developer ease of use](https://aws.amazon.com/elasticache/redis-vs-memcached/#Developer_ease_of_use)                                                       | Yes           | Yes       |
 | [Data partitioning](https://aws.amazon.com/elasticache/redis-vs-memcached/#Data_partitioning)                                                               | Yes           | Yes       |
 | [Support for a broad set of programming languages](https://aws.amazon.com/elasticache/redis-vs-memcached/#Support_for_a_broad_set_of_programming_languages) | Yes           | Yes       |
-| [Advanced data structures](https://aws.amazon.com/elasticache/redis-vs-memcached/#Advanced_data_structures)                                                 | -            | Yes       |
+| [Advanced data structures](https://aws.amazon.com/elasticache/redis-vs-memcached/#Advanced_data_structures)                                                 | -           | Yes       |
 | [**Multithreaded architecture**](https://aws.amazon.com/elasticache/redis-vs-memcached/#Multithreaded_architecture)                                         | **Yes**       | **-**     |
-| [Snapshots](https://aws.amazon.com/elasticache/redis-vs-memcached/#Snapshots)                                                                               | -            | Yes       |
-| [Replication](https://aws.amazon.com/elasticache/redis-vs-memcached/#Replication)                                                                           | -            | Yes       |
-| [Transactions](https://aws.amazon.com/elasticache/redis-vs-memcached/#Transactions)                                                                         | -            | Yes       |
-| [Pub/Sub](https://aws.amazon.com/elasticache/redis-vs-memcached/#Pub.2FSub)                                                                                 | -            | Yes       |
-| [Lua scripting](https://aws.amazon.com/elasticache/redis-vs-memcached/#Lua_scripting)                                                                       | -            | Yes       |
-| [Geospatial support](https://aws.amazon.com/elasticache/redis-vs-memcached/#Geospatial_support)                                                             | -            | Yes       |
+| [Snapshots](https://aws.amazon.com/elasticache/redis-vs-memcached/#Snapshots)                                                                               | -           | Yes       |
+| [Replication](https://aws.amazon.com/elasticache/redis-vs-memcached/#Replication)                                                                           | -           | Yes       |
+| [Transactions](https://aws.amazon.com/elasticache/redis-vs-memcached/#Transactions)                                                                         | -           | Yes       |
+| [Pub/Sub](https://aws.amazon.com/elasticache/redis-vs-memcached/#Pub.2FSub)                                                                                 | -           | Yes       |
+| [Lua scripting](https://aws.amazon.com/elasticache/redis-vs-memcached/#Lua_scripting)                                                                       | -           | Yes       |
+| [Geospatial support](https://aws.amazon.com/elasticache/redis-vs-memcached/#Geospatial_support)                                                             | -           | Yes       |
 <https://aws.amazon.com/elasticache/redis-vs-memcached>
 
 ## Books

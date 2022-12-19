@@ -24,15 +24,15 @@ Is the art or science of Secret writing. It is concerned with the development of
 - Cipher text, C - Disguised (encrypted) message
 C = E(P), P = D(C)
 
-P = D (E (P))-   Key - Critical (secret) information used in cipher and known only to sender and receiver
-    -   Symmetric - Shared Key
-    -   Asymmetric - Public Key
+P = D (E (P))-  Key - Critical (secret) information used in cipher and known only to sender and receiver
+    -  Symmetric - Shared Key
+    -  Asymmetric - Public Key
 
 - Code - Algorithm used for transforming the intelligible (plain text) to unintelligible (cipher text)
 - Cipher - Algorithm / Code used for transforming plain text to cipher text
 - Cryptanalysis (Code Breaking) - Study of method for transforming cipher text to plaintext without having knowledge of any key
 - Cryptology - Area of cryptography and cryptanalysis together is called as crytology
-- Protected health information (PHI) and Personally identifiable information (PII)-   **Responsible disclosure**
+- Protected health information (PHI) and Personally identifiable information (PII)-  **Responsible disclosure**
 
 ## What Principles are Important When You're Developing a Cipher?
 
@@ -102,7 +102,7 @@ This is the opposite of the last attack, where the attacker can choose any ciphe
 
 ## Padding
 
-Padding standards are mechanisms for appending some predefined values to messages. They are used with algorithms which deal with blocks of data. Typical examples of such operations are [block symmetric ciphers](http://www.crypto-it.net/eng/symmetric/index.html) and [MAC algorithms](http://www.crypto-it.net/eng/theory/mac.html). These algorithms work on the whole data blocks. Therefore, if amessage length is not amultiple of the block size, astardard for adding some number of bytes to the end of the message is required.-   Bit Padding
+Padding standards are mechanisms for appending some predefined values to messages. They are used with algorithms which deal with blocks of data. Typical examples of such operations are [block symmetric ciphers](http://www.crypto-it.net/eng/symmetric/index.html) and [MAC algorithms](http://www.crypto-it.net/eng/theory/mac.html). These algorithms work on the whole data blocks. Therefore, if amessage length is not amultiple of the block size, astardard for adding some number of bytes to the end of the message is required.-  Bit Padding
 
 - TBC (Trailing Bit Complement) Padding
 - PKCS#5 and PKCS#7 Padding

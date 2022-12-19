@@ -127,11 +127,11 @@ A read capacity unitrepresents:
 
 How to calculate RCUs forstrong
 
-i.  Round data up to nearest 4.
+- Round data up to nearest 4.
 
-ii. Divide data by 4
+- Divide data by 4
 
-iii. Times by number of reads
+- Times by number of reads
 
 Here's an example:
 
@@ -141,15 +141,15 @@ Here's an example:
 
 How to calculate RCUs foreventual
 
-i.  Round data up to nearest 4.
+- Round data up to nearest 4.
 
-ii. Divide data by 4
+- Divide data by 4
 
-iii. Times by number of reads
+- Times by number of reads
 
-iv. Divide final number by 2
+- Divide final number by 2
 
-v.  Round up to the nearest whole number
+- Round up to the nearest whole number
 
 Here's an example:
 
@@ -166,9 +166,9 @@ A write capacity unitrepresents:
 
 How to calculateWrites
 
-i.  Round data up to nearest 1.
+- Round data up to nearest 1.
 
-ii. Times by number of writes
+- Times by number of writes
 
 Here's an example:
 

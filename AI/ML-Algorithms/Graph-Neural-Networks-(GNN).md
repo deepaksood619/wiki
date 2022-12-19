@@ -26,13 +26,13 @@ Modified: 2021-06-11 00:39:53 +0500
 
 Traditional methods are mostly algorithm-based, such as :
 
-a.  searching algorithms, e.g. BFS, DFS
+- searching algorithms, e.g. BFS, DFS
 
-b.  shortest path algorithms, e.g. Dijkstra's algorithm, Nearest Neighbour
+- shortest path algorithms, e.g. Dijkstra's algorithm, Nearest Neighbour
 
-c.  spanning-tree algorithms, e.g. Prim's algorithm
+- spanning-tree algorithms, e.g. Prim's algorithm
 
-d.  clustering methods, e.g. Highly Connected Components, k-mean
+- clustering methods, e.g. Highly Connected Components, k-mean
 
 The limitation of such algorithms is that we need to gain prior knowledge of the graph at certain confidence before we can apply the algorithm. In other words, it provides no mean for us to study the graph itself. And most importantly, there is no way to perform graph level classification.
 
@@ -42,11 +42,11 @@ Graph Neural Network, as how it is called, is a neural network that can directly
 
 There are mainly three types of graph neural networks in the literature:
 
-a.  **Recurrent Graph Neural Network (RecGNN)**
+- **Recurrent Graph Neural Network (RecGNN)**
 
-b.  **Spatial Convolutional Network**
+- **Spatial Convolutional Network**
 
-c.  **Spectral Convolutional Network**
+- **Spectral Convolutional Network**
 
 The intuition of GNN is that nodes are naturally defined by their neighbors and connections. To understand this we can simply imagine that if we remove the neighbors and connections around a node, then the node will lose all its information. Therefore, the neighbors of a node and connections to neighbors define the concept of the node.
 
@@ -56,11 +56,11 @@ Having this in mind, we then give every node a state(x)to represent its concept.
 
 The problems that GNN solve can be broadly classified into three categories:
 
-a.  Node Classification
+- Node Classification
 
-b.  Link Prediction
+- Link Prediction
 
-c.  Graph Classification
+- Graph Classification
 
 ## Innode classification, the task is to predict the node embedding for every node in a graph. This type of problem is usually trained in a semi-supervised way, where only part of the graph is labeled. Typical applications for node classification include citation networks, Reddit posts, Youtube videos, and Facebook friends relationships
 

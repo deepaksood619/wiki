@@ -75,15 +75,15 @@ Practice makes Permanent
 
 ## ADEPT Method
 
-a.  **Analogy**
+- **Analogy**
 
-b.  **Diagram**
+- **Diagram**
 
-c.  **Example**
+- **Example**
 
-d.  **Plain English**
+- **Plain English**
 
-e.  **Definition**
+- **Definition**
 
 Teaching someone the concept is the best way to learn, since you will make mistakes.
 

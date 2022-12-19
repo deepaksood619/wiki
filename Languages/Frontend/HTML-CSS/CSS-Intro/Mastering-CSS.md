@@ -45,9 +45,9 @@ Box-sizing property - value: border-box; This will include padding margin and bo
 
 ## Key characteristics
 
-a.  They expand the full length available.
+- They expand the full length available.
 
-b.  They force a line break after (therefore they stack on top of each other)
+- They force a line break after (therefore they stack on top of each other)
 
 Inline Elements sit next to each other, they only take up size only as much as they need.
 

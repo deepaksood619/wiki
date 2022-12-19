@@ -29,7 +29,7 @@ Some of the other well-known DCNs include BCube, Camcube, FiConn, Jelly fishand 
 
 ## Torus Interconnect
 
-A**[torus](https://en.wikipedia.org/wiki/Torus) interconnect**is a switch-less [network topology](https://en.wikipedia.org/wiki/Network_topology) for connecting processing nodes in a [parallel computer](https://en.wikipedia.org/wiki/Parallel_computer) system.
+A **[torus](https://en.wikipedia.org/wiki/Torus) interconnect**is a switch-less [network topology](https://en.wikipedia.org/wiki/Network_topology) for connecting processing nodes in a [parallel computer](https://en.wikipedia.org/wiki/Parallel_computer) system.
 <https://en.wikipedia.org/wiki/Torus_interconnect>
 
 ## InfiniBand

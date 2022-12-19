@@ -341,11 +341,11 @@ Neurons that fall out of sync lose their link
 
 Essentially, when we're able to process or understand a concept without difficulty, we judge that we've learned that concept. Reading back over something we've already learned creates the impression that we've grasped this new information. That's why we gravitate towards passive review strategies: they conform our perception that we're learning successfully
 
-b.  desirable difficulty
+- desirable difficulty
 
 the difficulty posed by recall is ultimately desirable, as it maximizes our chances of retaining what we've learned
 
-c.  free recall - write down everything you've learned, in as much detail as possible
+- free recall - write down everything you've learned, in as much detail as possible
 
 7. Elicit high-quality feedback to identify your weaknesses and improve your performance
 
@@ -515,17 +515,17 @@ Adult Learning Theory is a set of guiding principles that explain how adults lea
 
 Knowles organized his theory around six assumptions that distinguished the novel andragogy from pedagogy:
 
-a.  The need to know:Adults must understand the utility of the material they're learning. Children are told to learn for the sake of it, and only what the teacher deems necessary. This means it's often the trainer's role to guide an adult learner to seeing that a skill gap, or a 'need to know,' exists.
+- The need to know:Adults must understand the utility of the material they're learning. Children are told to learn for the sake of it, and only what the teacher deems necessary. This means it's often the trainer's role to guide an adult learner to seeing that a skill gap, or a 'need to know,' exists.
 
-b.  Learner's self-concept:Adult learners do not like feeling imposed upon by a trainer, or that they aren't in control of their own learning. In classrooms, however, teachers are undoubtedly the ones in charge.
+- Learner's self-concept:Adult learners do not like feeling imposed upon by a trainer, or that they aren't in control of their own learning. In classrooms, however, teachers are undoubtedly the ones in charge.
 
-c.  The role of the learner's experiences:Adults bring more experiences to a learning environment than do children. This means that a group of adults will contain more varied backgrounds, and so teaching should be more individualized. It also means that they can more actively participate as sources of knowledge.
+- The role of the learner's experiences:Adults bring more experiences to a learning environment than do children. This means that a group of adults will contain more varied backgrounds, and so teaching should be more individualized. It also means that they can more actively participate as sources of knowledge.
 
-d.  Readiness to learn:Children are 'ready to learn' when teachers tell them they have learned enough to move to the next grade. For adults, learning should coincide with a developmental stage in their personal or work lives.
+- Readiness to learn:Children are 'ready to learn' when teachers tell them they have learned enough to move to the next grade. For adults, learning should coincide with a developmental stage in their personal or work lives.
 
-e.  Orientation to learning:Adults approach learning as a way to solve a problem in real-world contexts, and are more receptive to learning when material is applied to real-life situations. Children, on the other hand, are expected to learn material for the sake of it.
+- Orientation to learning:Adults approach learning as a way to solve a problem in real-world contexts, and are more receptive to learning when material is applied to real-life situations. Children, on the other hand, are expected to learn material for the sake of it.
 
-f.  Motivation:Adults are more motivated by internal factors, like a desire for higher self-esteem, than external ones, like a pay raise. Children are motivated primarily by external factors, like achieving a good grade or avoiding a parental reprimand.
+- Motivation:Adults are more motivated by internal factors, like a desire for higher self-esteem, than external ones, like a pay raise. Children are motivated primarily by external factors, like achieving a good grade or avoiding a parental reprimand.
 
 Adult Learning Theory in practice
 

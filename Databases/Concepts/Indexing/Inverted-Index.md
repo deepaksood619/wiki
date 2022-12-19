@@ -19,9 +19,9 @@ The inverted index [data structure](https://en.wikipedia.org/wiki/Data_structure
 Elasticsearch uses a structure calledaninverted index, which is designed to allow very fast full-text searches. An inverted index consists of a list of all the unique words that appear in any document, and for each word, a list of the documents in which it appears.
 For example, let's say we have two documents, each with acontentfield containing the following:
 
-a.  The quick brown fox jumped over the lazy dog
+- The quick brown fox jumped over the lazy dog
 
-b.  Quick brown foxes leap over lazy dogs in summer
+- Quick brown foxes leap over lazy dogs in summer
 To create an inverted index, we first split thecontentfield of each document into separatewords (which we callterms, ortokens), create a sorted list of all the unique terms, and then list in which document each term appears. The result looks something like this:
 
 Term Doc_1 Doc_2

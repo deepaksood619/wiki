@@ -72,7 +72,7 @@ Init Containers are exactly like regular Containers, except:
 
 ## Pod Presets
 
-A**Pod Preset** is an API resource for injecting additional runtime requirements into a Pod at creation time.
+A **Pod Preset** is an API resource for injecting additional runtime requirements into a Pod at creation time.
 
 ## Ephemeral Containers
 

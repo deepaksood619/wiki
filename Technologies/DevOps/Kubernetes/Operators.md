@@ -46,9 +46,9 @@ An Operator is nothing more than a set of application-specific custom controller
 
 As you can see in the figure above, the Operator monitors and analyzes the cluster, and based on a set of parameters, trigger a series of actions to achieve the desired state. This reconciliation process is all over the place in K8s. But not all actions are equal. In our example, we have two distinct categories:
 
-a.  Infrastructure: Add a new node. The Operator requests via the Kubernetes API to launch a new Pod running Couchbase Server.
+- Infrastructure: Add a new node. The Operator requests via the Kubernetes API to launch a new Pod running Couchbase Server.
 
-b.  Domain-specific: Add node to the cluster/trigger data rebalancing.The Operator knows how Couchbase works and calls the correct REST endpoint to add the new node to the cluster and trigger data rebalancing.
+- Domain-specific: Add node to the cluster/trigger data rebalancing.The Operator knows how Couchbase works and calls the correct REST endpoint to add the new node to the cluster and trigger data rebalancing.
 
 That is the real power of Operators:they allow you to write an application to fully manage another, and guess which kind stateful applications are the hardest to manage? You are right: databases.
 

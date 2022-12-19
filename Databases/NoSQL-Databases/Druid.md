@@ -6,7 +6,7 @@ Modified: 2021-01-29 02:06:32 +0500
 
 ---
 
-Apache Druid (incubating) is a real-time analytics database designed for fast slice-and-dice analytics ("[OLAP](http://en.wikipedia.org/wiki/Online_analytical_processing)" queries) on large data sets. Druid is most often used as a database for powering use cases where real-time ingest, fast query performance, and high uptime are important. As such, Druid is commonly used for powering GUIs of analytical applications, or as a backend for highly-concurrent APIs that need fast aggregations. Druid works best with event-oriented data.-   **High performance, column oriented, distributed data store**
+Apache Druid (incubating) is a real-time analytics database designed for fast slice-and-dice analytics ("[OLAP](http://en.wikipedia.org/wiki/Online_analytical_processing)" queries) on large data sets. Druid is most often used as a database for powering use cases where real-time ingest, fast query performance, and high uptime are important. As such, Druid is commonly used for powering GUIs of analytical applications, or as a backend for highly-concurrent APIs that need fast aggregations. Druid works best with event-oriented data.-  **High performance, column oriented, distributed data store**
 
 - Druid is primarily used to store, query, and analyze large event streams
 - Druid is optimized for sub-second queries to slice-and-dice, drill down, search, filter, and aggregate this data. Druid is commonly used to power interactive applications where performance, concurrency, and uptime are important.
@@ -95,7 +95,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 - When designing a table, you must
   - Choose the datasource name
   - The source for the input data
-  - The columns you want to store-   **Columns**
+  - The columns you want to store-  **Columns**
 - Creating a data model is more than just copying the table structure of a RDBMS table
 - When transitioning from a RDBMS, you will need to choose
   - Which columns should be included
@@ -170,7 +170,7 @@ Druid is fundamentally a column store, and is designed for analytical queries (G
 ## Imply Druid
 
 - tiered data
-- data volumes-   Plywood
+- data volumes-  Plywood
   - queries
   - expressions
 - Pivot - alerts

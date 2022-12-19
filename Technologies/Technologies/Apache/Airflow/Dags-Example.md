@@ -291,7 +291,6 @@ passing
 
   SLACK_GROUP = "monitoring"
 
-
   def call_api(url, method, body):
       """
       call an api
@@ -317,7 +316,6 @@ passing
           raise Exception(
               f"API returned error :{response.status_code} \ndetails: {response.text}"
           )
-
 
   def task_fail_slack_alert(owner, context):
       slack_hook = BaseHook.get_connection(SLACK_GROUP).password
@@ -358,7 +356,6 @@ passing
   body = {}
 
   owner = "<@U013CA4QJR3>"
-
 
   default_args = {
       "owner": "airflow",

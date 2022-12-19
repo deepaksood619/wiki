@@ -12,13 +12,13 @@ Platforms
 
 [https://codeshare.io](https://codeshare.io/)
 
-<https://foobar.withgoogle.com>-   print - given n*m print incrementally in clockwise direction
+<https://foobar.withgoogle.com>-  print - given n*m print incrementally in clockwise direction
 
 1 2 3
 
 8 9 4
 
-7 6 5-   Divide a number into perfect grid with minimum waste where number of column is fixed.
+7 6 5-  Divide a number into perfect grid with minimum waste where number of column is fixed.
 
 Ex - 19 should return 4/5 instead of 3/7
 
@@ -99,11 +99,11 @@ len(list(permutations('abcde', 5)))
 ## Others
 
 - <https://www.geeksforgeeks.org/split-the-given-array-into-k-sub-arrays-such-that-maximum-sum-of-all-sub-arrays-is-minimum>
-- <https://practice.geeksforgeeks.org/problems/lru-cache/1>-   **Interview (medium difficulty) - <https://practice.geeksforgeeks.org/problems/largest-even-number3821/1#_=_>**
+- <https://practice.geeksforgeeks.org/problems/lru-cache/1>-  **Interview (medium difficulty) - <https://practice.geeksforgeeks.org/problems/largest-even-number3821/1#_=_>**
 - **Easy (5-10 mins max) - [https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1#](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)**
 - **Easy (5-10 mins max) - <https://practice.geeksforgeeks.org/problems/non-repeating-element3958/1>**
 - [**https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1**](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)
-- [**https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1**](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)-   <https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations>
+- [**https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1**](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1)-  <https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations>
 - <https://www.geeksforgeeks.org/find-local-minima-array>
 - <https://www.geeksforgeeks.org/equilibrium-index-of-an-array>
 - Given k sorted arrays of size n each, merge them and print the sorted output.
@@ -113,10 +113,10 @@ len(list(permutations('abcde', 5)))
 - <https://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root>
 - <https://www.geeksforgeeks.org/tree-isomorphism-problem>
 - <https://practice.geeksforgeeks.org/problems/determine-if-two-trees-are-identical/1>
-- <https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1>-   **Medium (O(n)/O(nlogn) - 10 mins, corner cases) - <https://www.hackerrank.com/challenges/flatland-space-stations/problem>**
+- <https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1>-  **Medium (O(n)/O(nlogn) - 10 mins, corner cases) - <https://www.hackerrank.com/challenges/flatland-space-stations/problem>**
 - **Medium - <https://www.hackerrank.com/challenges/bigger-is-greater/problem>**
 - **Medium - <https://www.hackerrank.com/challenges/beautiful-triplets/problem>**
-- **Medium - <https://www.hackerrank.com/challenges/kaprekar-numbers/problem>**-   <https://practice.geeksforgeeks.org/problems/coin-change2448/1>
+- **Medium - <https://www.hackerrank.com/challenges/kaprekar-numbers/problem>**-  <https://practice.geeksforgeeks.org/problems/coin-change2448/1>
 <https://www.geeksforgeeks.org/must-coding-questions-company-wise>
 
 <https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview>
@@ -148,7 +148,7 @@ n = 10000000
 
 for i in range(0, n):
 
-print ( fact (random(0, n) )-   Write a recursive based solution
+print ( fact (random(0, n) )-  Write a recursive based solution
 
 - Can you convert this recursion into non-recursive code (using for/while)
 - How can you improve on the current solution (Hint: DP)

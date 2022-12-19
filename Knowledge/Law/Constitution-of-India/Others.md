@@ -95,9 +95,9 @@ Can I Know Feds Address
 
 The constitution establishes a federal government system in India. All the expected features of a federal state such as two government levels, division of power, supremacy and rigidity of the constitution, written constitution and bicameralism are present. But, the constitution also contains many features of a unitary form of government such as single citizenship, strong centre, single constitution, flexibility of constitution, all-India services, integrated judiciary, appointment of state governor by the Centre, emergency provisions, and so on. In addition, the term 'federation' is not mentioned in the constitution. Article 1 says India is a 'Union of States', implying --
 
-i.  The Indian federation is not the result of an agreement by the states.
+- The Indian federation is not the result of an agreement by the states.
 
-ii. States do not have the right to secede from the federation.
+- States do not have the right to secede from the federation.
 
 ## Parliamentary Form of Government
 
@@ -105,36 +105,36 @@ The parliamentary form, borrowed from the British system, is based on the princi
 
 In India, the features of the parliamentary form of government are as follows:
 
-i.  Nominal and real executives
+- Nominal and real executives
 
-ii. Rule of the majority party
+- Rule of the majority party
 
-iii. Collective responsibility of the executive to the legislature
+- Collective responsibility of the executive to the legislature
 
-iv. Membership of the ministers in the legislature
+- Membership of the ministers in the legislature
 
-v.  Leadership of the prime minister or the chief minister
+- Leadership of the prime minister or the chief minister
 
-vi. Dissolution of the lower House
+- Dissolution of the lower House
 
 There are some basic differences between the Indian and the British models, even though both follow the parliamentary form of government. The Indian parliament is not a sovereign body; the British Parliament is. Also, the Indian State has an elected head (since it is a republic) while the British head is hereditary (since Britain is a constitutional monarchy).
 
 ## Parliament: Structural and Functional Dimensions
 
-i.  According to Article 79, there is a Parliament and 2 Houses or chambers -- the House of the People ([Lok Sabha](https://byjus.com/free-ias-prep/the-lok-sabha/)) and the Council of States ([Rajya Sabha](https://byjus.com/free-ias-prep/the-rajya-sabha/)).
+- According to Article 79, there is a Parliament and 2 Houses or chambers -- the House of the People ([Lok Sabha](https://byjus.com/free-ias-prep/the-lok-sabha/)) and the Council of States ([Rajya Sabha](https://byjus.com/free-ias-prep/the-rajya-sabha/)).
 
-ii. The President is the head of the executive and also a constituent part of the legislature. He performs many functions with regard to the Parliament.
+- The President is the head of the executive and also a constituent part of the legislature. He performs many functions with regard to the Parliament.
 
-iii. However, the president cannot sit in or take part in the discussions in the houses.
+- However, the president cannot sit in or take part in the discussions in the houses.
 
-iv. The president summons and prorogues the houses whenever required.
+- The president summons and prorogues the houses whenever required.
 
-v.  He is also a vital part of the process of legislation in India as he has to give his assent to every bill passed before it can become a law.
+- He is also a vital part of the process of legislation in India as he has to give his assent to every bill passed before it can become a law.
 
-vi. He has the power to dissolve the Lok Sabha.
+- He has the power to dissolve the Lok Sabha.
 
-vii. At the start of the first session after each general election to the Lok Sabha and at the commencement of the first session each year, the President addresses both the chambers which is known as the special address.
+- At the start of the first session after each general election to the Lok Sabha and at the commencement of the first session each year, the President addresses both the chambers which is known as the special address.
 
-viii. Article 123 also gives the president the power to promulgate ordinances. (Read about [President](https://byjus.com/free-ias-prep/president/) in the linked article.)
+- Article 123 also gives the president the power to promulgate ordinances. (Read about [President](https://byjus.com/free-ias-prep/president/) in the linked article.)
 
 <https://byjus.com/free-ias-prep/constitution-of-india-an-overview>

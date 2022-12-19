@@ -8,7 +8,7 @@ Modified: 2021-07-11 02:05:58 +0500
 
 ## Apache Parquetis a [free and open-source](https://en.wikipedia.org/wiki/Free_and_open-source)[column-oriented](https://en.wikipedia.org/wiki/Column-oriented_DBMS) data store of the [Apache Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop) ecosystem. It is similar to the other columnar-storage file formats available in [Hadoop](https://en.wikipedia.org/wiki/Apache_Hadoop) namely [RCFile](https://en.wikipedia.org/wiki/RCFile) and Optimized RCFile (ORC). It is compatible with most of the data processing frameworks in the [Hadoop](https://en.wikipedia.org/wiki/Hadoop) environment. It provides efficient [data compression](https://en.wikipedia.org/wiki/Data_compression) and [encoding](https://en.wikipedia.org/wiki/Encoding) schemes with enhanced performance to handle complex data in bulk
 
-Apache Parquet is a self-describing data format which embeds the schema, or structure, within the data itself.-   Columnar format
+Apache Parquet is a self-describing data format which embeds the schema, or structure, within the data itself.-  Columnar format
 
 - Schema segregated into footer
 - Column major format

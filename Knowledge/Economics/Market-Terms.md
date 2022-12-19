@@ -281,11 +281,11 @@ A trader is a person who spots an opportunity and initiates the trade with an ex
 
 ## There are different types of traders
 
-a.  Day Trader-- A day trader initiates and closes the position during the day. He does not carry forward his positions. He is risk averse and does not like taking overnight risk. For example -- He would buy 100 shares of TCS at 2212 at 9:15AM and sell it at 2220 at 3:20 PM making a profit of Rs.800/- in this trade. A day trader usually trades 5 to 6 stocks per day.
+- Day Trader-- A day trader initiates and closes the position during the day. He does not carry forward his positions. He is risk averse and does not like taking overnight risk. For example -- He would buy 100 shares of TCS at 2212 at 9:15AM and sell it at 2220 at 3:20 PM making a profit of Rs.800/- in this trade. A day trader usually trades 5 to 6 stocks per day.
 
-b.  Scalper-- A type of a day trader. He usually trades very large quantities of shares and holds the stock for very less time with an intention to make a small but quick profit. For example -- He would buy 10,000 shares of TCS as 2212 at 9:15 and sell it 2212.1 at 9.16. He ends up making 1000/- profit in this trade. In a typical day, he would have placed many such trades. As you may have noticed a scalp trader is highly risk averse.
+- Scalper-- A type of a day trader. He usually trades very large quantities of shares and holds the stock for very less time with an intention to make a small but quick profit. For example -- He would buy 10,000 shares of TCS as 2212 at 9:15 and sell it 2212.1 at 9.16. He ends up making 1000/- profit in this trade. In a typical day, he would have placed many such trades. As you may have noticed a scalp trader is highly risk averse.
 
-c.  Swing Trader-- A swing trader holds on to his trade for slightly longer time duration, the duration can run into anywhere between few days to weeks. He is typically more open to taking risks. For example -- He would buy 100 shares of TCS at 2212 on 12thJune 2014 and sell it 2214 on 19thJune 2014.
+- Swing Trader-- A swing trader holds on to his trade for slightly longer time duration, the duration can run into anywhere between few days to weeks. He is typically more open to taking risks. For example -- He would buy 100 shares of TCS at 2212 on 12thJune 2014 and sell it 2214 on 19thJune 2014.
 
 Some of the really successful traders the world has seen are -- George Soros, Ed Seykota, Paul Tudor, Micheal Steinhardt, Van K Tharp, Stanley Druckenmiller etc
 
@@ -302,9 +302,9 @@ Some of the really successful traders the world has seen are -- George Soros, Ed
 
 An investor is a person who buys a stock expecting a significant appreciation in the stock. He is willing to wait for his investment to evolve. The typical holding period of investors usually runs into a few years. There are two popular types of investors..
 
-a.  Growth Investors-- The objective here is to identify companies which are expected to grow significantly because of emerging industry and macro trends. A classic example in the Indian context would be buying Hindustan Unilever, Infosys, Gillette India back in 1990s. These companies witnessed huge growth because of the change in the industry landscape thereby creating massive wealth for its shareholders.
+- Growth Investors-- The objective here is to identify companies which are expected to grow significantly because of emerging industry and macro trends. A classic example in the Indian context would be buying Hindustan Unilever, Infosys, Gillette India back in 1990s. These companies witnessed huge growth because of the change in the industry landscape thereby creating massive wealth for its shareholders.
 
-b.  Value Investors-- The objective here is to identify good companies irrespective of whether they are in growth phase or mature phase but beaten down significantly due to the short term market sentiment thereby making a great value buy. An example of this in recent times is L&T. Due to short term negative sentiment; L&T was beaten down significantly around August/September of 2013. The stock price collapsed to 690 all the way from 1200. At 690 (given its fundamentals around Aug 2013), a company like L&T is perceived as cheap, and therefore a great value pick. Eventually it did pay off, as the stock price scaled back to 1440 around May 2014.
+- Value Investors-- The objective here is to identify good companies irrespective of whether they are in growth phase or mature phase but beaten down significantly due to the short term market sentiment thereby making a great value buy. An example of this in recent times is L&T. Due to short term negative sentiment; L&T was beaten down significantly around August/September of 2013. The stock price collapsed to 690 all the way from 1200. At 690 (given its fundamentals around Aug 2013), a company like L&T is perceived as cheap, and therefore a great value pick. Eventually it did pay off, as the stock price scaled back to 1440 around May 2014.
 
 ## 20 - Market Depth
 

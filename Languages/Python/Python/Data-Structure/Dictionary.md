@@ -22,13 +22,13 @@ Dictionary - {'Name': 'Deepak', 'Age':25}
 
 If we attempt to access a data item with a key, which is not part of the dictionary, we get KeyError
 
+```python
 >>>dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 >>>print dict['Name']
 >>>print dict['Age']
-
 Zara
-
 7
+```
 
 2. **Using built-in function dict.get() to fetch data from dictionary**
 
@@ -36,18 +36,15 @@ dict.get(key, default=None)
 
 The methodget()returns a value for the given key. If key is not available then returns default value None. (or the provided default value)
 
+```python
 >>>dict = {'Name': 'Zabra', 'Age': 7}
->>>print "Value : %s" % dict.get('Age')
-
->>>print "Value : %s" % dict.get('Education')
-
->>>print "Value : %s" % dict.get('Education', "Never")
-
+>>>print "Value : %s" %  dict.get('Age')
+>>>print "Value : %s" %  dict.get('Education')
+>>>print "Value : %s" %  dict.get('Education', "Never")
 Value : 7
-
 Value : None
-
 Value : Never
+```
 
 3. **For multi level dict hierarchies**
 
@@ -57,38 +54,46 @@ sub_typology=project.json.get(**'area'**,{}).get(**'0'**,{}).get(**'areaSubTypol
 
 ## Updating in Dictionary
 
+```python
 >>>dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 >>>dict['Age'] = 8; # update existing entry
+```
 
 If key is not present, then an item is added in the dictionary
 
 ## Adding in Dictionary
 
+```python
 >>>dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 >>>dict['School'] = "DPS School"; # Add new entry
+```
 
 ## Deleting in Dictionary
 
+```python
 >>>dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 >>>del dict['Name']; # remove entry with key 'Name'
 >>>dict.clear(); # remove all entries in dict
 >>>del dict ; # delete entire dictionary
+```
 
 If we attempt to delete a data item with a key, which is not part of the dictionary, we get KeyError
 
 ## Length of a dictionary
 
-num_responses = len(fav_languages)
+`num_responses = len(fav_languages)`
 
 ## Properties of Dictionary Keys
 
 - Dictionary values can be any arbitrary Python object, either standard objects or user-defined objects.
 - Duplicate key not allowed. When duplicate keys encountered during assignment, the last assignment wins.
 
+```python
 >>>dict = {'Name': 'Zara', 'Age': 7, 'Name': 'Manni'}
 >>>print "dict['Name']: ", dict['Name']
 
 dict['Name']: Manni
+```
 
 - Keys must be immutable. Otherwise "Type Error: objects are unhashable" error thrown. Strings, numbers, tuples can be used as dictionary keys
 
@@ -130,6 +135,7 @@ seq− This is the list of values which would be used for dictionary keys prepar
 
 value− This is optional, if provided then value would be set to this value
 
+```python
 >>>seq = ('name', 'age', 'sex')
 >>>dict = dict.fromkeys(seq)
 >>>print "New Dictionary : %s" % str(dict)
@@ -137,8 +143,8 @@ New Dictionary : {'age': None, 'name': None, 'sex': None}
 
 >>>dict = dict.fromkeys(seq, 10)
 >>>print "New Dictionary : %s" % str(dict)
-
 New Dictionary : {'age': 10, 'name': 10, 'sex': 10}
+```
 
 - dict.get(key, default=None)
 
@@ -155,21 +161,19 @@ False
 
 - **dict.items()**
 
-The methoditems()returns a list of dict's (key, value) tuple pairs
+The method items() returns a list of dict's (key, value) tuple pairs
 
+```python
 >>>dict = {'Name': 'Zara', 'Age': 7}
-
 >>>for key, value in dict.items():
-
 >>> print (key, value)
-
 Name Zara
-
 Age 7
+````
 
 - dict.keys()
 
-`ing through all keys
+looping through all keys
 
 - dict.setdefault(key, default=None)
 - dict.update(dict2)
@@ -179,41 +183,38 @@ Looping through all the values
 
 ## Sorting a dictionary
 
-## # sorting by value
+#### sorting by value
 
-print sorted(prices.items(), key = lambda x : x[1])
+`print sorted(prices.items(), key = lambda x : x[1])`
 
-# sorting by key
+#### sorting by key
 
-print(sorted(prices.items())
+`print(sorted(prices.items())`
 
 ## Looping through all the keys in order
 
+```python
 for name in sorted(fav_language.keys()):
-
-print(name)
+  print(name)
+```
 
 ## Merging two dictionaries
 
+```python
 # Python code to merge dict using update() method
-
-## def Merge(dict1, dict2)
-
-## return(dict2.update(dict1))
+def Merge(dict1, dict2):
+    return(dict2.update(dict1))
 
 # Driver code
-
-dict1 **=** {'a': 10, 'b': 8}
-
-dict2 **=** {'d': 6, 'c': 4}
+dict1 = {'a': 10, 'b': 8}
+dict2 = {'d': 6, 'c': 4}
 
 # This return None
-
 print(Merge(dict1, dict2))
 
 # changes made in dict2
-
 print(dict2)
+```
 
 ## Architecture
 
@@ -299,13 +300,16 @@ Traditionally, a hash is converted into an index using the modulo operator. For 
 
 The alternative is to use a bitmask. Abitmaskis a pattern of bits that can be logically ANDed with another value to remove (ormask) unwanted bits. Any bit that is a 0 in the mask will become 0 in the result, and any bit that is 1 in the mask will remain the same after being ANDed. For example:
 
+```python
 10110110
 00000111 3-bit bitmask
 &
 00000110 Result
+```
 
 In order for the bitmask to produce a value in the full range of the array, the size of the array must be a power of 2, so the bitmask can be a full sequence of 1s.
 
+```python
 Note that any number that is a power of 2 has a single 1 bit:
 
 2 000010
@@ -326,13 +330,16 @@ A 2^n - 1 bit mask has the same effect as modulo 2^n. As an example, consider a 
 0000 0000 0001 1111 mask
 
 0000 0000 0001 1001
+```
 
 The following is how CPython converts a hash into an array index (whereDK_SIZEmacro gets the size of a dictionary):
 
+```python
 size_t mask = (size_t)DK_SIZE(keys) - 1;
 
 // ..
 size_t i = hash & mask;
+```
 
 So that's how CPython generates the initial indexi. If the slot at indexiis empty, then the index of the entry can be added to the hash table. If it's not, CPython must resolve the conflict.
 
@@ -342,11 +349,13 @@ Conflict resolution occurs when an element already exists at an index generated 
 
 The simplest implementation of open addressing is to linearly search through the array in case of a conflict. This is known as linear probing:
 
+```python
 while(1) {
-if(table[++i] == EMPTY) {
-return i;
+  if(table[++i] == EMPTY) {
+    return i;
+  }
 }
-}
+```
 
 Linear probing can be inefficient in CPython, because some of the CPython hash functions result in many keys mapping to the same index. If there are many collisions at the same index, linear probing results in clusters of active slots causing the linear probe to go through many iterations before finding a match.
 
@@ -354,10 +363,12 @@ Linear probing can be inefficient in CPython, because some of the CPython hash f
 
 One solution would be to use improved hash functions at the price of slower hashing. Instead, CPython makes the probing more random. It uses the rest of the hash to generate a new index. This is done by storing the hash in a variable namedperturband shiftingperturbdown 5 bits (PERTURB_SHIFT) each iteration. This is combined with the following calculation:
 
+```python
 perturb >>= PERTURB_SHIFT;
 i = mask & (i*5 + perturb + 1);
+```
 
-After a few shifts,perturbbecomes 0, meaning justi*5 + 1is used. This is fine becausemask & (i*5 + 1)produces every integer in range 0-maskexactly once.
+After a few shifts, perturb becomes 0, meaning justi*5 + 1is used. This is fine becausemask & (i*5 + 1)produces every integer in range 0-maskexactly once.
 
 <https://www.data-structures-in-practice.com/hash-tables>
 

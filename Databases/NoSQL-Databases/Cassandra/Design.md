@@ -31,14 +31,14 @@ Modified: 2020-01-04 11:38:21 +0500
   - Joining
   - Leaving
   - Up
-  - Down-   Cassandra uses a Ring-based DHT but without finger tables or routing
+  - Down-  Cassandra uses a Ring-based DHT but without finger tables or routing
 
 ## Drivers
 
 - Drivers intelligently choose which node would best coordinate a request
 - Per-query basis:
 
-ResultSet results = session.execute("[query]");-   TokenAwarePolicy - driver chooses node which contains the data
+ResultSet results = session.execute("[query]");-  TokenAwarePolicy - driver chooses node which contains the data
 
 - RoundRobinPolicy - driver round robins the ring
 - DCAwareRoundRobinPolicy - driver round robins the target data center

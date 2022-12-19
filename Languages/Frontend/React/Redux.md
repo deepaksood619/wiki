@@ -52,7 +52,7 @@ Anaction creatoris a function that creates and returns an action object
 
 - **Reducers**
 
-A**reducer** is a function that receives the currentstateand anactionobject, decides how to update the state if necessary, and returns the new state:(state, action) => newState.**You can think of a reducer as an event listener which handles events based on the received action (event) type.**
+A **reducer** is a function that receives the currentstateand anactionobject, decides how to update the state if necessary, and returns the new state:(state, action) => newState.**You can think of a reducer as an event listener which handles events based on the received action (event) type.**
 
 - **Store**
 

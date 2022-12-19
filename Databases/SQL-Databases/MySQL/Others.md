@@ -8,7 +8,7 @@ Modified: 2022-04-28 15:41:39 +0500
 
 ## Facts
 
-MySQLhas hardlimitof **4096columnsper table**, but the effectivemaximummay be less for a given table. The exactcolumn limitdepends on several factors: Themaximumrow size for a table constrains the number (and possibly size) ofcolumnsbecause the total length of allcolumnscannot exceed this size.-   CREATE SCHEMA is a synonym for CREATE DATABASEas of MySQL 5.0.2.
+MySQLhas hardlimitof **4096columnsper table**, but the effectivemaximummay be less for a given table. The exactcolumn limitdepends on several factors: Themaximumrow size for a table constrains the number (and possibly size) ofcolumnsbecause the total length of allcolumnscannot exceed this size.-  CREATE SCHEMA is a synonym for CREATE DATABASEas of MySQL 5.0.2.
 <https://dev.mysql.com/doc/refman/5.7/en/innodb-limits.html>
 
 A table can contain a maximum of 64 [secondary indexes](https://dev.mysql.com/doc/refman/5.7/en/glossary.html#glos_secondary_index).
@@ -69,7 +69,7 @@ MySQL 8.0 brought enormous changes and modifications that were pushed by the Ora
 - Physical files have been changed. For instance, *.frm,*.TRG, *.TRN, and*.par [no longer exist](https://dev.mysql.com/worklog/task/?id=8216).
 - Tons of new features have been added such as [CTE](https://dev.mysql.com/doc/refman/8.0/en/with.html)(Common Table Expressions), [Window Functions](https://dev.mysql.com/doc/refman/8.0/en/window-functions.html), [**Invisible Indexes**](https://dev.mysql.com/doc/refman/8.0/en/invisible-indexes.html), regexp (or Regular Expression)--the latter has been changed and now provides full Unicode support and is multibyte safe.
 - Data dictionary has also changed. It's now incorporated with a transactional data dictionary that stores information about database objects. Unlike previous versions, dictionary data was stored in metadata files and non-transactional tables.
-- Security has been improved with the new addition ofcaching_sha2_passwordwhich is now the default authentication replacingmysql_native_passwordand offers more flexibility but tightened security which must use either a secure connection or an unencrypted connection that supports password exchange using an RSA key pair.-   **The benchmark results reveals that there has been an impressive improvement, not only on managing read workloads, but also on a high read/write workload comparing to MySQL 5.7.**
+- Security has been improved with the new addition ofcaching_sha2_passwordwhich is now the default authentication replacingmysql_native_passwordand offers more flexibility but tightened security which must use either a secure connection or an unencrypted connection that supports password exchange using an RSA key pair.-  **The benchmark results reveals that there has been an impressive improvement, not only on managing read workloads, but also on a high read/write workload comparing to MySQL 5.7.**
 - <https://dev.mysql.com/doc/refman/8.0/en/create-index.html#create-index-functional-key-parts>
 - Resource Groups
   - <https://dev.mysql.com/doc/refman/5.7/en/user-resources.html>

@@ -38,10 +38,10 @@ Read capacity unit (RCU)
 
 Write capacity unit (WCU)
 
-Replicated write capacity unit (rWCU)-   One**read capacity unit**represents one strongly consistent read per second, or two eventually consistent reads per second, for items up to 4 KB in size. If you need to read an item that is larger than 4 KB, DynamoDB will need to consume additional read capacity units. The total number of read capacity units required depends on the item size, and whether you want an eventually consistent or strongly consistent read.
+Replicated write capacity unit (rWCU)-  One**read capacity unit**represents one strongly consistent read per second, or two eventually consistent reads per second, for items up to 4 KB in size. If you need to read an item that is larger than 4 KB, DynamoDB will need to consume additional read capacity units. The total number of read capacity units required depends on the item size, and whether you want an eventually consistent or strongly consistent read.
 
 - One**write capacity unit**represents one write per second for items up to 1 KB in size. If you need to write an item that is larger than 1 KB, DynamoDB will need to consume additional write capacity units. The total number of write capacity units required depends on the item size.
-![image](media/AWS-DynamoDB_Working-image1.png)-   Secondary Indexes
+![image](media/AWS-DynamoDB_Working-image1.png)-  Secondary Indexes
   - Local secondary indexes
   - Global secondary indexes (asynchronous)
 <https://aws.amazon.com/dynamodb/pricing/provisioned>
@@ -87,7 +87,7 @@ Replicated write capacity unit (rWCU)-   One**read capacity unit**represents one
   - Query multiple entities
 - Leverage range queries
 - Examples
-  - Orders and OrderItems-   Composite Keys
+  - Orders and OrderItems-  Composite Keys
 - Multi-value Sorts and Filters
 - DynamoDB Transactions API
   - Transact WriteItems

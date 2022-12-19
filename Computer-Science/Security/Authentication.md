@@ -11,12 +11,12 @@ Modified: 2022-10-01 10:16:58 +0500
 - **Single Factor authentication**
 
 This is often used as the authentication process for lower risk systems. You only need a single factor to authenticate, with the most common being a password, so it's more vulnerable to phishing attacks and key loggers.
-In addition to this, a recent [article](https://dataprot.net/statistics/password-statistics/) by DataProt showed that 78% of Gen-Z people utilize the same password for multiple services. This means that if an attacker gained access to one user account, they have a high probability of gaining access to others by simply using the same password.-   **2-Factor Authentication**
+In addition to this, a recent [article](https://dataprot.net/statistics/password-statistics/) by DataProt showed that 78% of Gen-Z people utilize the same password for multiple services. This means that if an attacker gained access to one user account, they have a high probability of gaining access to others by simply using the same password.-  **2-Factor Authentication**
 
 This method is more secure, as it comprises two factors of authentication -- typically something you know, for example username and password , plus something you have / own, for example a phone SMS or a security token.
 For 2-factor authentication, you would enter a one-time SMS password sent to your device, or perhaps a linked authenticator app code and provide an ever-changing access code.
 As you can imagine, this is a lot more secure than simply entering a password, or a single authentication credential. You would need to know the login credentials, as well as have access to the physical device for the second part.
-2-factor authentication has become very common amongst online services in recent years, and with many large companies it is the default authentication method. Many require that you setup 2-factor auth in order to even utilize the service.-   **Multi-Factor Authentication**
+2-factor authentication has become very common amongst online services in recent years, and with many large companies it is the default authentication method. Many require that you setup 2-factor auth in order to even utilize the service.-  **Multi-Factor Authentication**
 
 Going one step further to make your authentication process even more secure is having 3 or more factors. This form of authentication usually works on the premise of:
 
@@ -137,7 +137,7 @@ IdP - Identity Provider
 
 <https://www.ory.sh>
 
-<https://github.com/ory/hydra>-   [Keycloak](https://www.keycloak.org/)
+<https://github.com/ory/hydra>-  [Keycloak](https://www.keycloak.org/)
 
 - Okta
 - Auth0
@@ -161,18 +161,18 @@ When an Credit Saison India service receives the request, it performs the same s
 1. Generate a Hash of your Request Body. Encode the body of your request using UTF-8 and generate a hash for it using the SHA256 algorithm and then converting into a Hex Digest. The Output would then be standardised into Uppercase. This would be calledH1
 
 Note: If your request contains no body. Your signature should be a hash of the Litral `null`
-2.  Adding a TimeStamp to the the request. Using this Credit Saison India's Servers would validate that the requet that has been sent by you has been recieved by us with 10 minutes of your application having sent it.
+2. Adding a TimeStamp to the the request. Using this Credit Saison India's Servers would validate that the requet that has been sent by you has been recieved by us with 10 minutes of your application having sent it.
     The TimeStamp needs to be in the [UNIX Time](http://unixtimestamp.50x.eu/about.php) milliseconds (13-digit) format. Denoted assignedDateand added to the reqest as a query parameter.
-3.  Create a Canonical Request to generate the Signature. Arrange the contents of your request (host, action, headers, etc.) into a standard (canonical) format. A Canonical request is just the representation of the all parts of a request in a single string seperated using annew line character. We will call this canonical request asC1.
+3. Create a Canonical Request to generate the Signature. Arrange the contents of your request (host, action, headers, etc.) into a standard (canonical) format. A Canonical request is just the representation of the all parts of a request in a single string seperated using annew line character. We will call this canonical request asC1.
 
 Note: We would not be using the header as part of the canonical request
 
 Note: All query parameters need to be URL Encoded
 Query parameters needs to be in a sorted in an acending order while generating the canonical request
-4.  Generate a hash of the canonical request. Similar to Step 1 here we create a SHA256 Hash of C1 by first converting it to UTF-8 encoded string and then hashing it. We will call this hash asH2.
-5.  Generate a keyed Hash for the whole Request. The output of Step 4 (H2) is the final string that needs to be hashed using the client secret already shared with you.[HMAC](https://en.wikipedia.org/wiki/HMAC) requires a key and a hashing algorithm to create a signature. We are using the SHA256 algorithm and the client secret to create a signature here. We will call this signature asP1. P1 in turn needs to be BASE64 Encoded.
-6.  Add the Signature to the HTTP Request After you calculate the signature, add it to an HTTP header of the request to Credit Saison India' Servers using the headersignature
-7.  Add Authentication Headers As part of the of your request to the Credit Saison India Servers. You would also have to pass theAPIKeyandUsernameasx-api-keyandusernameHeaders respectively.
+4. Generate a hash of the canonical request. Similar to Step 1 here we create a SHA256 Hash of C1 by first converting it to UTF-8 encoded string and then hashing it. We will call this hash asH2.
+5. Generate a keyed Hash for the whole Request. The output of Step 4 (H2) is the final string that needs to be hashed using the client secret already shared with you.[HMAC](https://en.wikipedia.org/wiki/HMAC) requires a key and a hashing algorithm to create a signature. We are using the SHA256 algorithm and the client secret to create a signature here. We will call this signature asP1. P1 in turn needs to be BASE64 Encoded.
+6. Add the Signature to the HTTP Request After you calculate the signature, add it to an HTTP header of the request to Credit Saison India' Servers using the headersignature
+7. Add Authentication Headers As part of the of your request to the Credit Saison India Servers. You would also have to pass theAPIKeyandUsernameasx-api-keyandusernameHeaders respectively.
 
 ## References
 

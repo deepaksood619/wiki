@@ -45,7 +45,7 @@ Modified: 2022-07-15 17:39:32 +0500
 
 4. Holds policies Authentication + Authorization
 
-5. Manages Cluster-   **Hash(UUID) - Partition Map Table**
+5. Manages Cluster-  **Hash(UUID) - Partition Map Table**
 
 - **Consistent Hashing**
 - **1 hit wonder (don't cache any request till a threshold)**
@@ -108,11 +108,11 @@ Modified: 2022-07-15 17:39:32 +0500
 
 ## Challenges
 
-a.  Ingestion
+- Ingestion
 
-b.  Storage
+- Storage
 
-c.  Distribution
+- Distribution
 Functional requirements
 
 - Upload videos

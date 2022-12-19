@@ -56,16 +56,16 @@ write is done synchronously both to the cache and to the backing store. The sign
 - **Disadvantage:** Writing data will experience latency as you have to write to two places every time.
 - **What is it good for?**
 
-The write-through policy is good for applications that has more reads than writes. This will result in slightly higher write latency but low read latency. So, it's ok to spend a bit longer writing once, but then benefit from reading frequently with low latency.-   **Write-back(also calledwrite-behind)**
+The write-through policy is good for applications that has more reads than writes. This will result in slightly higher write latency but low read latency. So, it's ok to spend a bit longer writing once, but then benefit from reading frequently with low latency.-  **Write-back(also calledwrite-behind)**
 
 ![image](media/Caches---Caching-image2.png)
 Initially, writing is done only to the cache. The write to the backing store is postponed until the modified content is about to be replaced by another cache block.
-Using the write-back policy, data is written to the cache and immediately I/O completion is confirmed. The data is then typically also written to the backing store in the background but the completion confirmation is not blocked on that.-   **Advantage:** Low latency and high throughput for write-intensive applications.
+Using the write-back policy, data is written to the cache and immediately I/O completion is confirmed. The data is then typically also written to the backing store in the background but the completion confirmation is not blocked on that.-  **Advantage:** Low latency and high throughput for write-intensive applications.
 
 - **Disadvantage:** There is data availability risk because the cache could fail (and so suffer from data loss) before the data is persisted to the backing store. This result in the data being lost.
 - **What is it good for?**
 
-The write-back policy is the best performer for mixed workloads as both read and write I/O have similar response time levels. In reality, you can add resiliency (e.g. by duplicating writes) to reduce the likelihood of data loss.-   **Write-around**
+The write-back policy is the best performer for mixed workloads as both read and write I/O have similar response time levels. In reality, you can add resiliency (e.g. by duplicating writes) to reduce the likelihood of data loss.-  **Write-around**
 
 ![image](media/Caches---Caching-image3.png)
 Using the write-around policy, data is written only to the backing store without writing to the cache. So, I/O completion is confirmed as soon as the data is written to the backing store.

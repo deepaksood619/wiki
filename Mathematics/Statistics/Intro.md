@@ -58,31 +58,31 @@ In [statistics](https://en.wikipedia.org/wiki/Statistics), regression toward the
 
 ## Controlled Experiments
 
-a.  Randomness
+- Randomness
 
-b.  Allocation bias and Selection bias
+- Allocation bias and Selection bias
 
-c.  Randomized block design (where number of items in each group can be forced to be equal)
+- Randomized block design (where number of items in each group can be forced to be equal)
 
-d.  Control groups
+- Control groups
 
-e.  Placebo effects - Placebo meaning - I shall please
+- Placebo effects - Placebo meaning - I shall please
 
-f.  Single blind study
+- Single blind study
 
-g.  Double blind study
+- Double blind study
 
-h.  Matched-pair experiments
+- Matched-pair experiments
 
-i.  Repeated measures design
+- Repeated measures design
 
 ## Henrietta Lacks, the Tuskegee Experiment, & Ethical Data Collection
 
-a.  Informed Consent
+- Informed Consent
 
-b.  Nuremberg code
+- Nuremberg code
 
-c.  Beneficence
+- Beneficence
 
 ## Outliers
 

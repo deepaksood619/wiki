@@ -78,13 +78,13 @@ If you're running into this issue often, it likely means you're not effectively 
 
 Regardless, by following these strategies, you accomplish four critical goals in a bad situation:
 
-a.  You take responsibility early, creating trust and respect with all parties
+- You take responsibility early, creating trust and respect with all parties
 
-b.  You communicate unified expectations to everyone involved, limiting potential backlash
+- You communicate unified expectations to everyone involved, limiting potential backlash
 
-c.  You create a collaborative situation with all stakeholders, limiting blame and internal fighting
+- You create a collaborative situation with all stakeholders, limiting blame and internal fighting
 
-d.  You build trust and respect with your engineering team, limiting resentment and burnout
+- You build trust and respect with your engineering team, limiting resentment and burnout
 
 This is the best-case scenario out of a worst-case scenario.
 

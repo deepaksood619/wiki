@@ -61,7 +61,7 @@ When storing passwords you want to use an algorithm that is computationally inte
 [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2)(Password Based Key Derivation Function 2) is typically used for deriving a cryptographic key from a password. It may also be used for key storage, but an alternate key storage KDF such as [Scrypt](https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#cryptography.hazmat.primitives.kdf.scrypt.Scrypt) is generally considered a better solution.
 In [cryptography](https://en.wikipedia.org/wiki/Cryptography), **PBKDF1andPBKDF2(Password-Based Key Derivation Function 1and2)** are [key derivation functions](https://en.wikipedia.org/wiki/Key_derivation_function) with a sliding computational cost, used to reduce vulnerabilities of [brute-force attacks](https://en.wikipedia.org/wiki/Brute-force_attack).
 PBKDF2 applies a [pseudorandom function](https://en.wikipedia.org/wiki/Pseudorandom_function), such as [hash-based message authentication code](https://en.wikipedia.org/wiki/Hash-based_message_authentication_code) (HMAC), to the input [password](https://en.wikipedia.org/wiki/Password) or [passphrase](https://en.wikipedia.org/wiki/Passphrase) along with a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) value and repeats the process many times to produce aderived key, which can then be used as a [cryptographic key](https://en.wikipedia.org/wiki/Key_(cryptography)) in subsequent operations. The added computational work makes [password cracking](https://en.wikipedia.org/wiki/Password_cracking) much more difficult, and is known as**[key stretching](https://en.wikipedia.org/wiki/Key_stretching).**
-<https://en.wikipedia.org/wiki/PBKDF2>-   Scrypt
+<https://en.wikipedia.org/wiki/PBKDF2>-  Scrypt
 
 Scrypt is a KDF designed for password storage by Colin Percival to be resistant against hardware-assisted attackers by having a tunable memory cost. It is described in [RFC 7914](https://tools.ietf.org/html/rfc7914.html).
 
@@ -70,10 +70,10 @@ Scrypt is a KDF designed for password storage by Colin Percival to be resistant 
 - ConcatKDF
 
 ConcatKDFHash (Concatenation Key Derivation Function) is defined by the NIST Special Publication [NIST SP 800-56Ar2](https://csrc.nist.gov/publications/detail/sp/800-56a/rev-2/final) document, to be used to derive keys for use after a Key Exchange negotiation operation.
-Warning - ConcatKDFHash should not be used for password storage.-   HKDF
+Warning - ConcatKDFHash should not be used for password storage.-  HKDF
 
 [HKDF](https://en.wikipedia.org/wiki/HKDF)(HMAC-based Extract-and-Expand Key Derivation Function) is suitable for deriving keys of a fixed size used for other cryptographic operations.
-Warning - ConcatKDFHash should not be used for password storage.-   KBKDF
+Warning - ConcatKDFHash should not be used for password storage.-  KBKDF
 
 - X963KDF
 <https://en.wikipedia.org/wiki/Key_derivation_function>

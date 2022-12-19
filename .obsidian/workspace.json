@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md",
+                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"gmail search\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md",
+                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md",
+                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md"
+                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md"
               }
             }
           },
@@ -169,8 +169,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "eae646b9619747a1",
+  "active": "06e8851540a77b4b",
   "lastOpenFiles": [
+    "Languages/Others/Regular-Expressions---Regex.md",
+    "Knowledge/Management/Project---Product---Business---Tools---SAAS.md",
     "Office/HR-^M-Interviews/Interviews---Others/Archive.md",
     "Languages/SQL/DDL---Data-Definition-Language.md",
     "Languages/SQL/DDL---Data-Definition-Language/Create-Table.md",
@@ -178,8 +180,6 @@
     "Languages/SQL/DCL---Data-Control-Language.md",
     "Languages/SQL/SQL-Examples.md",
     "Languages/SQL/example-sql-queries.md",
-    "Languages/SQL/SQL-Views.md",
-    "Languages/SQL/SQL-Joins.md",
-    "Databases/Concepts/Isolation-Levels.md"
+    "Languages/SQL/SQL-Views.md"
   ]
 }

@@ -18,7 +18,7 @@ Ex - X = Number of heads after 10 flips of a coin with P(H) = 0.6 and P(T) = 0.4
 
 Not binomial variable - Number of kings after taking 2 cards from standard deck without replacement (It doesn't meet independent trial, the second trial depends on 1st trial)
 SRS - Simple Random Sample, is a sample taken so that each member in a set of n members has an equal chance of being in the sample.
-2.  Distributions
+2. Distributions
 
 - Normal distribution, (Continuous distribution - bell curve)
 
@@ -30,13 +30,14 @@ SRS - Simple Random Sample, is a sample taken so that each member in a set of n 
 
 ![10 1--1 01 FI ](media/Binomial-Random-Variables-image1.png)
 ![image](media/Binomial-Random-Variables-image2.png)
-e.  Binompdf (Binomial Probability Distribution Function) and Binomcdf (Binomial Cumulative Distribution Function) functions
 
-f.  Bimodal distribution
+- Binompdf (Binomial Probability Distribution Function) and Binomcdf (Binomial Cumulative Distribution Function) functions
 
-g.  Uniform distribution
+- Bimodal distribution
 
-h.  Bernoulli distribution
+- Uniform distribution
+
+- Bernoulli distribution
 
 ## Others
 
@@ -48,7 +49,7 @@ h.  Bernoulli distribution
 
 - **Creates Fibonacci Series**
 
-![image](media/Binomial-Random-Variables-image4.gif)-   **Rows gives sequence of coefficients in binomial powers**
+![image](media/Binomial-Random-Variables-image4.gif)-  **Rows gives sequence of coefficients in binomial powers**
 
 ## (a + b)^2^ = a^2^ + 2.a.b + b^2^ [FOIL - First, Outer, Inner, Last]
 

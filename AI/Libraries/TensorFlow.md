@@ -59,7 +59,7 @@ The central unit of data in TensorFlow is the **tensor**. A tensor consists of a
 
 ## 1.1. The Computational Graph
 
-A**computational graph** is a series of TensorFlow operations arranged into a graph of nodes.
+A **computational graph** is a series of TensorFlow operations arranged into a graph of nodes.
 
 ## TensorFlow Model Serving
 

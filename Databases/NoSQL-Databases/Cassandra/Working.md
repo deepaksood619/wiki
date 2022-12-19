@@ -13,11 +13,11 @@ Modified: 2020-01-07 22:08:50 +0500
   - Coordinator may be per-key, or per-client or per-query
   - Per-key coordinator ensures writes for the key are serialized
 - Coordinator uses Partitioner to send query to all replica nodes responsible for key
-- When X replicas respond, coordinator returns an acknowledgement to the client-   **Always writable: Hinted Handoff mechanism**
+- When X replicas respond, coordinator returns an acknowledgement to the client-  **Always writable: Hinted Handoff mechanism**
   - If any replica is down, the coordinator writes to all other replicas, and keeps the write locally until down replica comes back up
-  - When all replicas are down, the Coordinator (front end) buffers write (for up to a few hours)-   **One ring per datacenter**
+  - When all replicas are down, the Coordinator (front end) buffers write (for up to a few hours)-  **One ring per datacenter**
   - Per-DC coordinator elected to coordinate with other DCs
-  - Election done via Zookeeper, which runs a Paxos (consensus) variant-   **Writes at a replica node**
+  - Election done via Zookeeper, which runs a Paxos (consensus) variant-  **Writes at a replica node**
 
     1. Log it in disk commit log (for failure recovery)
 
@@ -61,7 +61,7 @@ Modified: 2020-01-07 22:08:50 +0500
 ![image](media/Cassandra_Working-image2.png)**Compaction**
 - Data updates accumulate over time and SSTables and logs need to be compacted
   - The process of compaction merges SSTables, i.e., by merging updates for a key
-  - Run periodically and locally at each server-   TimeWindowCompactionStrategy
+  - Run periodically and locally at each server-  TimeWindowCompactionStrategy
 
 <https://thelastpickle.com/blog/2016/12/08/TWCS-part1.html>
 

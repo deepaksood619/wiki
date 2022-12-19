@@ -55,9 +55,9 @@ The substring problem: Pre-process text T so that the computation string matchin
 Use Case - Performing intensive queries on a big database, which is represented by T. Once the suﬃx tree for T is built each query is proportional to O(m) time.
 Problems -
 
-a.  SME - String Matching Existence problem - Given a pattern P and a text T, determine whether there is an occurance of P in T.
+- SME - String Matching Existence problem - Given a pattern P and a text T, determine whether there is an occurance of P in T.
 
-b.  SMC - String Matching Computation problem - Given a pattern P and a text T, determine all the occurance of P in T
+- SMC - String Matching Computation problem - Given a pattern P and a text T, determine all the occurance of P in T
 
 # Advanced
 

@@ -102,9 +102,9 @@ The big difference in the two formats is that Avro stores data BY ROW, and parqu
 
 To recap on my columnar file format guide, the advantage to Parquet (and columnar file formats in general) are primarily two fold:
 
-i.  Reduced Storage Costs (typically) vs Avro
+- Reduced Storage Costs (typically) vs Avro
 
-ii. 10-100x improvement in reading data when you only need a few columns
+- 10-100x improvement in reading data when you only need a few columns
 I cannot overstate the benefit of a 100x improvement in record throughput. It provides a truly massive and fundamental improvement to data processing pipelines that it is very hard to overlook.
 
 When simply counting rows, Parquet blows Avro away, thanks to the metadata parquet stores in the header of row groups.
@@ -121,9 +121,9 @@ The same case study also finds improvements in storage space, and even in full-t
 
 I have heard some folks argue in favor of Avro vs Parquet. Such arguments are typically based around two points:
 
-i.  When you are reading entire records at once, Avro wins in performance.
+- When you are reading entire records at once, Avro wins in performance.
 
-ii. Write-time is increased drastically for writing Parquet files vs Avro files
+- Write-time is increased drastically for writing Parquet files vs Avro files
 So the wider your dataset, the worse Parquet becomes for scanning entire records (which makes sense). This is an extreme example, most datasets are not 700 columns wide, for anything reasonable (< 100) Parquet read performance is close enough to Avro to not matter.
 
 ## Others

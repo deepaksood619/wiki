@@ -100,11 +100,11 @@ Showing results
 
 Here's when the fun starts! Results can be shown in 3 basic formats:
 
-i.  quick preview --- a popup showing around 10 top results
+- quick preview --- a popup showing around 10 top results
 
-ii. result summary --- a full page showing the main results for each entity
+- result summary --- a full page showing the main results for each entity
 
-iii. all results --- all of the results of a specific entity
+- all results --- all of the results of a specific entity
 
 <https://uxdesign.cc/designing-an-omni-search-29c6cb6ec3f7>
 

@@ -59,17 +59,17 @@ Modified: 2021-10-10 17:54:14 +0500
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image1.jpg)
 
-c.  Dumbell pull overs
+- Dumbell pull overs
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image2.jpg)
 
-d.  Triceps Extension
+- Triceps Extension
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image3.jpg)
 
-e.  Standing Triceps over head dumbbell
+- Standing Triceps over head dumbbell
 
-f.  Pushups
+- Pushups
 
 2. Tuesday (Focus Back + Biceps)
 
@@ -79,15 +79,15 @@ f.  Pushups
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image4.jpg)
 
-c.  Reverse Fly
+- Reverse Fly
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image5.jpg)
 
-d.  Dumbbell Row
+- Dumbbell Row
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image6.jpeg)
 
-e.  Bicep curl
+- Bicep curl
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image7.jpg)
 
@@ -99,27 +99,27 @@ e.  Bicep curl
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image8.jpg)
 
-c.  Squat
+- Squat
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image9.jpg)
 
-d.  Lunge
+- Lunge
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image10.jpg)
 
-e.  Shrug
+- Shrug
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image11.jpg)
 
-f.  Front raise
+- Front raise
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image12.jpg)
 
-g.  Lateral raise
+- Lateral raise
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image13.jpg)
 
-h.  Abs
+- Abs
 
 - Plank
 
@@ -145,7 +145,7 @@ h.  Abs
 
 ![image](media/Exercise---Stretching_Home-+-Gym-image14.jpg)
 
-c.  Plank
+- Plank
 
 <https://www.coachmag.co.uk/workouts/abs-workouts>
 

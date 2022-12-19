@@ -217,7 +217,7 @@ Fuzz testing is a software testing technique using which a random data is given 
 - [Penetration Testing](https://www.tutorialspoint.com/software_testing_dictionary/penetration_testing.htm) / pentest
 
 "Pentest" is short for "penetration test", and involves having a trusted security expert attack a system for the purpose of discovering, and repairing, security vulnerabilities before malicious attackers can exploit them. This is a critical procedure for securing a system, as the alternative method for discovering vulnerabilities is to wait for unknown agents to exploit them. By this time it is, of course, too late to do anything about them.
-In order to keep a system secure, it is advisable to conduct a pentest on a regular basis, especially when new technology is added to the stack, or vulnerabilities are exposed in your current stack.-   [Performance Testing](https://www.tutorialspoint.com/software_testing_dictionary/performance_testing.htm)
+In order to keep a system secure, it is advisable to conduct a pentest on a regular basis, especially when new technology is added to the stack, or vulnerabilities are exposed in your current stack.-  [Performance Testing](https://www.tutorialspoint.com/software_testing_dictionary/performance_testing.htm)
 
 - [Portability Testing](https://www.tutorialspoint.com/software_testing_dictionary/portability_testing.htm)
 - [Positive Testing](https://www.tutorialspoint.com/software_testing_dictionary/positive_testing.htm)

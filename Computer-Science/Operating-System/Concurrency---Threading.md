@@ -83,7 +83,7 @@ The Kernel maintains context information for the process as a whole and for indi
 ## Threads vs Processes
 
 - Threads **uses shared state**, so there is an ease of communication between multiple threads, but the disadvantage of shared state is that there can be race condition, multiple threads can race with each other to get access to resources.
-- Processes **doesn't have shared state**, they are fully independent from each other. The weakness of processes is lack of communication (hence the need for IPC and object pickling and other overhead)-   Threads are more lightweight and have lower overhead compared to processes. Spawning processes is a bit slower than spawning threads.
+- Processes **doesn't have shared state**, they are fully independent from each other. The weakness of processes is lack of communication (hence the need for IPC and object pickling and other overhead)-  Threads are more lightweight and have lower overhead compared to processes. Spawning processes is a bit slower than spawning threads.
 | **Bottleneck** | **Example**                        | **Optimize with** |
 |----------------|------------------------------------|-------------------|
 | IO             | Network connection, file operation | Multithreading    |
@@ -143,7 +143,7 @@ In return, you'll need a non-blocking version of just about everything you do. A
 - For complex systems, async ismucheasier to get right than threads with locks.
 - Threads require very little tooling (locks and queues).
 - Async needs a great deal of tooling (futures, event loops, and non-blocking versions of just about everything).
-- In a threaded system the decision to suspend one thread and execute another is largely outside of the programmer's control. Rather, it is under the control of the operating system, and the programmer must assume that a thread may be suspended and replaced with another at almost any time. In contrast, under the asynchronous model a task will continue to run until it explicitly relinquishes control to other tasks.-   The problem with locks is that it just a flag, and it should be checked to access the resources. If you don't check then there would be problems.
+- In a threaded system the decision to suspend one thread and execute another is largely outside of the programmer's control. Rather, it is under the control of the operating system, and the programmer must assume that a thread may be suspended and replaced with another at almost any time. In contrast, under the asynchronous model a task will continue to run until it explicitly relinquishes control to other tasks.-  The problem with locks is that it just a flag, and it should be checked to access the resources. If you don't check then there would be problems.
 
 ## Considerations
 
@@ -198,13 +198,13 @@ The need for synchronization does not arise merely in multi-processor systems bu
 
 - **Spinlock**
 
-Another effective way of implementing synchronization is by using spinlocks. Before accessing any shared resource or piece of code, every processor checks a flag. If the flag is reset, then the processor sets the flag and continues executing the thread. But, if the flag is set (locked), the threads would keep spinning in a loop and keep checking if the flag is set or not. But, spinlocks are effective only if the flag is reset for lower cycles otherwise it can lead to performance issues as it wastes many processor cycles waiting.-   **Barriers**
+Another effective way of implementing synchronization is by using spinlocks. Before accessing any shared resource or piece of code, every processor checks a flag. If the flag is reset, then the processor sets the flag and continues executing the thread. But, if the flag is set (locked), the threads would keep spinning in a loop and keep checking if the flag is set or not. But, spinlocks are effective only if the flag is reset for lower cycles otherwise it can lead to performance issues as it wastes many processor cycles waiting.-  **Barriers**
 
 Barriers are simple to implement and provide good responsiveness. They are based on the concept of implementing wait cycles to provide synchronization. Consider three threads running simultaneously, starting from barrier 1. After time t, thread1 reaches barrier 2 but it still has to wait for thread 2 and 3 to reach barrier2 as it does not have the correct data. Once all the threads reach barrier 2 they all start again. After time t, thread 1 reaches barrier3 but it will have to wait for threads 2 and 3 and the correct data again.
 Thus, in barrier synchronization of multiple threads there will always be a few threads that will end up waiting for other threads as in the above example thread 1 keeps waiting for thread 2 and 3. This results in severe degradation of the process performance.
 In [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing), abarrieris a type of [synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science)) method. A barrier for a group of threads or processes in the source code means any thread/process must stop at this point and cannot proceed until all other threads/processes reach this barrier.
 Many collective routines and directive-based parallel languages impose implicit barriers. For example, a paralleldoloop in [Fortran](https://en.wikipedia.org/wiki/Fortran) with [OpenMP](https://en.wikipedia.org/wiki/OpenMP) will not be allowed to continue on any thread until the last iteration is completed. This is in case the program relies on the result of the loop immediately after its completion. In [message passing](https://en.wikipedia.org/wiki/Message_passing), any global communication (such as reduction or scatter) may imply a barrier.
-<https://en.wikipedia.org/wiki/Barrier_(computer_science)>-   **Semaphores**
+<https://en.wikipedia.org/wiki/Barrier_(computer_science)>-  **Semaphores**
 
 Semaphores are signalling mechanisms which can allow one or more threads/processors to access a section. A Semaphore has a flag which has a certain fixed value associated with it and each time a thread wishes to access the section, it decrements the flag. Similarly, when the thread leaves the section, the flag is incremented. If the flag is zero, the thread cannot access the section and gets blocked if it chooses to wait.
 

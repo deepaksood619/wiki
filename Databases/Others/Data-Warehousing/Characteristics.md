@@ -47,9 +47,9 @@ Data warehouse is also non-volatile means the previous data is not erased when n
 Data is read-only and periodically refreshed. This also helps to analyze historical data and understand what & when happened. It does not require transaction process, recovery and concurrency control mechanisms.
 Activities like delete, update, and insert which are performed in an operational application environment are omitted in Data warehouse environment. Only two types of data operations performed in the Data Warehousing are
 
-a.  Data loading
+- Data loading
 
-b.  Data access
+- Data access
 Here, are some major differences between Application and Data Warehouse
 
 | **Operational Application**                                                                                                    | **Data Warehouse**                                                        |

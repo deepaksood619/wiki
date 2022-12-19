@@ -83,7 +83,7 @@ Redshift Sort Keys allow skipping large chunks of data during query processing. 
 
 - **Compound sort keys**
 
-These are made up of all the columns that are listed in the Redshift sort keys definition during the creation of the table, in the order that they are listed. Therefore, it is advisable to put the most frequently used column at the first in the list. COMPOUND is the default sort type. Compound sort keys might speed up joins, GROUP BY and ORDER BY operations, and window functions that use PARTITION BY.-   **Interleaved sort keys**
+These are made up of all the columns that are listed in the Redshift sort keys definition during the creation of the table, in the order that they are listed. Therefore, it is advisable to put the most frequently used column at the first in the list. COMPOUND is the default sort type. Compound sort keys might speed up joins, GROUP BY and ORDER BY operations, and window functions that use PARTITION BY.-  **Interleaved sort keys**
 
 Interleaved sort gives equal weight to each column in the Redshift sort keys. As a result, it can significantly improve query performance where the query uses restrictive predicates (equality operator in WHERE clause) on secondary sort columns.
 
@@ -147,7 +147,7 @@ Leader node maintains a copy of the table on all the computing nodes resulting i
 ## Choosing the right Distribution Styles
 
 The motive in selecting a table distribution style is to minimize the impact of the redistribution by relocating the data where it was prior to the query execution. Choosing the right KEY is not as straightforward as it may seem. In fact, setting wrong DISTKEY can even worsen the query performance.
-Choose columns used in the query that leads to least skewness as the DISTKEY. The good choice is the column with maximum distinct values, such as the timestamp. Avoid columns with few distinct values, such as months of the year, payment card types.-   If the table(e.g. fact table) is highly de-normalised and no JOIN is required, choose theEVENstyle.
+Choose columns used in the query that leads to least skewness as the DISTKEY. The good choice is the column with maximum distinct values, such as the timestamp. Avoid columns with few distinct values, such as months of the year, payment card types.-  If the table(e.g. fact table) is highly de-normalised and no JOIN is required, choose theEVENstyle.
 
 - ChooseALLstyle for small tables that do not often change. For example, a table containing telephone ISD codes against the country name.
 - It is beneficial to select aKEYdistribution if a table is used in JOINS. Also, consider the other joining tables and their distribution style.

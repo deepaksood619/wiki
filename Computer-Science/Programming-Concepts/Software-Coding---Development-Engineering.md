@@ -133,7 +133,7 @@ A sequence diagram simply depicts interaction between objects in a sequential or
 
 ![image](media/Software-Coding---Development-Engineering-image3.png)
 
-<https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams>-   Flowchart
+<https://www.geeksforgeeks.org/unified-modeling-language-uml-sequence-diagrams>-  Flowchart
 
 - Usecase diagram
 - Class diagram
@@ -153,7 +153,7 @@ A sequence diagram simply depicts interaction between objects in a sequential or
 
 - Wireframe graphical interface
 
-<https://www.freecodecamp.org/news/what-is-a-wireframe-ux-design-tutorial-website>-   Archimate diagram
+<https://www.freecodecamp.org/news/what-is-a-wireframe-ux-design-tutorial-website>-  Archimate diagram
 
 - Specification and Description Language (SDL)
 - Ditaa diagram
@@ -337,10 +337,10 @@ A system must be continually adapted or it becomes progressively less satisfacto
 
 - **Increasing Complexity**
 
-As a system evolves, it's complexity increases unless work is done to maintan or reduce it-   Are we treating symptoms instead of real issues
+As a system evolves, it's complexity increases unless work is done to maintan or reduce it-  Are we treating symptoms instead of real issues
 
 - Quantifying technical debt
-- There's always a trade off between improving existing code versus adding new features-   **Symptoms of low code health**
+- There's always a trade off between improving existing code versus adding new features-  **Symptoms of low code health**
   - **Low cohension,** many responsibilities
   - **Bumpy road code smell,** lack of encapsulation
   - **Deeply nested logic**, if-statements inside if-statements

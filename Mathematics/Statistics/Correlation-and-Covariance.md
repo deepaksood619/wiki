@@ -149,27 +149,27 @@ Like the correlation, a positive covariance indicates that two variables move to
 
 ## Correlation doesn't equal Causation
 
-a.  Scatterplot
+- Scatterplot
 
-b.  Bivariate data
+- Bivariate data
 
-c.  Regression line
+- Regression line
 
-d.  Correlation
+- Correlation
 
 - Positive correlation
 
 - Negative correlation
 
-e.  We use standard deviations to scale our correlations so that it always stays between -1 and 1. This is our correlation coefficient, r.
+- We use standard deviations to scale our correlations so that it always stays between -1 and 1. This is our correlation coefficient, r.
 
-f.  Squared correlation coefficient - r^2^ is always between 0 and 1, and tells us - in decimal form - how much of the variance in one variable is predicted by the other.
+- Squared correlation coefficient - r^2^ is always between 0 and 1, and tells us - in decimal form - how much of the variance in one variable is predicted by the other.
 
-g.  Correlation doesn't equal causation
+- Correlation doesn't equal causation
 
-h.  Spurious correlations: If two variables are correlated, we are often tempted to create elaborate explanations for why. In many cases, that correlation can be suprious, with the two variables that are correlated both driven by a third and often unseen variable
+- Spurious correlations: If two variables are correlated, we are often tempted to create elaborate explanations for why. In many cases, that correlation can be suprious, with the two variables that are correlated both driven by a third and often unseen variable
 
-i.  Past vs Future: The data that we use to estimate correlation come from the past, and past correlation is not always a predictor of future correlation
+- Past vs Future: The data that we use to estimate correlation come from the past, and past correlation is not always a predictor of future correlation
 
 ## A Best Fit Line
 

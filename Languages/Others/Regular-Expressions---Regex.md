@@ -97,9 +97,9 @@ Most metacharacters won't work inside a character class. The only one that works
 
 Define character classes that match anything but what's in them. Reverse.
 
-Ex - [0-9] matches any number, [^0-9] matches anything but a number.
+Ex - `[0-9]` matches any number, `[^0-9]`matches anything but a number.
 
-( [^ ) is how we define the negated character class.
+`( [^ )` is how we define the negated character class.
 
 #### Negated shortcut character classes
 
@@ -122,17 +122,13 @@ They are a way to tell the regular expression processor how many times we want t
 Three main quantifier metacharacters
 
 1. Question mark ( ? )
-
     Preceding atom optional, means match the preceding atom 0 or 1 times.
 
-2. Kleene star ( * )
-
+2. Kleene star ( *)
     Match preceding atom 0 or more times
-
     Ex - ( .* ) = match anything for as long as possible
 
 3. Kleene plus ( + )
-
     Match preceding atom 1 or more times
 
 4. +? - lazy Kleene plus (match as few characters as possible)

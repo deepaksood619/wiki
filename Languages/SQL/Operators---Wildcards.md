@@ -11,7 +11,7 @@ Modified: 2021-12-01 16:15:07 +0500
 | **Operator** | **Description** |
 |--------------|-----------------|
 | +           | Add             |
-| -           | Subtract        |
+| -          | Subtract        |
 | *           | Multiply        |
 | /            | Divide          |
 | %           | Modulo          |
@@ -108,7 +108,7 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | ?          | Represents a single character                       | h?t finds hot, hat, and hit                                    |
 | []       | Represents any single character within the brackets | h[oa]t finds hot and hat, but not hit                        |
 | !          | Represents any character not in the brackets        | h[!oa]t finds hit, but not hot and hat                       |
-| -         | Represents a range of characters                    | c[a-b]t finds cat and cbt                                    |
+| -        | Represents a range of characters                    | c[a-b]t finds cat and cbt                                    |
 | #         | Represents any single numeric character             | 2#5 finds 205, 215, 225, 235, 245, 255, 265, 275, 285, and 295 |
 
 ## Wildcard Characters in SQL Server
@@ -119,6 +119,6 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | _         | Represents a single character                       | h_t finds hot, hat, and hit               |
 | []       | Represents any single character within the brackets | h[oa]t finds hot and hat, but not hit   |
 | ^         | Represents any character not in the brackets        | h[^oa]t finds hit, but not hot and hat |
-| -         | Represents a range of characters                    | c[a-b]t finds cat and cbt               |
+| -        | Represents a range of characters                    | c[a-b]t finds cat and cbt               |
 
 <https://www.w3schools.com/sql/sql_wildcards.asp>

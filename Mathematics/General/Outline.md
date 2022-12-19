@@ -10,15 +10,15 @@ Modified: 2022-12-11 19:31:00 +0500
 
 - [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic) and [Foundations of mathematics](https://en.wikipedia.org/wiki/Foundations_of_mathematics)
 
-Foundation which underlies mathematic logic and the rest of mathematics. It tries to formalize valid reasoning. It attempts to define what constitutes a proof.-   [Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
+Foundation which underlies mathematic logic and the rest of mathematics. It tries to formalize valid reasoning. It attempts to define what constitutes a proof.-  [Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)
 
 - [Modal logic](https://en.wikipedia.org/wiki/Modal_logic)
 - [Model theory](https://en.wikipedia.org/wiki/Model_theory)
 - [Proof theory](https://en.wikipedia.org/wiki/Proof_theory)
 - [Recursion theory](https://en.wikipedia.org/wiki/Recursion_theory)
-- [Set theory](https://en.wikipedia.org/wiki/Set_theory)-   [Algebra](https://en.wikipedia.org/wiki/Algebra)([outline](https://en.wikipedia.org/wiki/Outline_of_algebra))
+- [Set theory](https://en.wikipedia.org/wiki/Set_theory)-  [Algebra](https://en.wikipedia.org/wiki/Algebra)([outline](https://en.wikipedia.org/wiki/Outline_of_algebra))
 
-Study of algebraic structures, which are sets and operations defined on these sets satisfying certain axioms.-   [Associative algebra](https://en.wikipedia.org/wiki/Associative_algebra)
+Study of algebraic structures, which are sets and operations defined on these sets satisfying certain axioms.-  [Associative algebra](https://en.wikipedia.org/wiki/Associative_algebra)
 
 - [Category theory](https://en.wikipedia.org/wiki/Category_theory)
   - [Topos theory](https://en.wikipedia.org/wiki/Topos)
@@ -37,9 +37,9 @@ Study of algebraic structures, which are sets and operations defined on these se
 - [Ring theory](https://en.wikipedia.org/wiki/Ring_theory)
   - [Commutative algebra](https://en.wikipedia.org/wiki/Commutative_algebra)
   - [Noncommutative algebra](https://en.wikipedia.org/wiki/Noncommutative_algebra)
-- [Universal algebra](https://en.wikipedia.org/wiki/Universal_algebra)-   [Analysis](https://en.wikipedia.org/wiki/Mathematical_analysis)
+- [Universal algebra](https://en.wikipedia.org/wiki/Universal_algebra)-  [Analysis](https://en.wikipedia.org/wiki/Mathematical_analysis)
 
-Calculus and Analysis - Studies the computation of limits, derivatives, and integrals of functions of real numbers, and in particular studies instantaneous rates of change.-   [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
+Calculus and Analysis - Studies the computation of limits, derivatives, and integrals of functions of real numbers, and in particular studies instantaneous rates of change.-  [Complex analysis](https://en.wikipedia.org/wiki/Complex_analysis)
 
 - [Functional analysis](https://en.wikipedia.org/wiki/Functional_analysis)
   - [Operator theory](https://en.wikipedia.org/wiki/Operator_theory)
@@ -50,17 +50,17 @@ Calculus and Analysis - Studies the computation of limits, derivatives, and inte
 - [p-adic analysis](https://en.wikipedia.org/wiki/P-adic_analysis)
 - [Partial differential equations](https://en.wikipedia.org/wiki/Partial_differential_equations)
 - [Real analysis](https://en.wikipedia.org/wiki/Real_analysis)
-  - [Calculus](https://en.wikipedia.org/wiki/Calculus)([outline](https://en.wikipedia.org/wiki/Outline_of_calculus))-   [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
+  - [Calculus](https://en.wikipedia.org/wiki/Calculus)([outline](https://en.wikipedia.org/wiki/Outline_of_calculus))-  [Probability theory](https://en.wikipedia.org/wiki/Probability_theory)
 
-[Probability theory](https://en.wikipedia.org/wiki/Probability_theory) is the formalization and study of the mathematics of uncertain events or knowledge. The related field of [mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics) develops [statistical theory](https://en.wikipedia.org/wiki/Statistical_theory) with mathematics.[Statistics](https://en.wikipedia.org/wiki/Statistics), the science concerned with collecting and analyzing data,-   [Ergodic theory](https://en.wikipedia.org/wiki/Ergodic_theory)
+[Probability theory](https://en.wikipedia.org/wiki/Probability_theory) is the formalization and study of the mathematics of uncertain events or knowledge. The related field of [mathematical statistics](https://en.wikipedia.org/wiki/Mathematical_statistics) develops [statistical theory](https://en.wikipedia.org/wiki/Statistical_theory) with mathematics.[Statistics](https://en.wikipedia.org/wiki/Statistics), the science concerned with collecting and analyzing data,-  [Ergodic theory](https://en.wikipedia.org/wiki/Ergodic_theory)
 
 - [Measure theory](https://en.wikipedia.org/wiki/Measure_theory)
   - [Integral geometry](https://en.wikipedia.org/wiki/Integral_geometry)
-- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)-   [Geometry](https://en.wikipedia.org/wiki/Geometry)([outline](https://en.wikipedia.org/wiki/Outline_of_geometry)) and [Topology](https://en.wikipedia.org/wiki/Topology)
+- [Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)-  [Geometry](https://en.wikipedia.org/wiki/Geometry)([outline](https://en.wikipedia.org/wiki/Outline_of_geometry)) and [Topology](https://en.wikipedia.org/wiki/Topology)
 
 Study of spatial figures like circles and cubes.
 
-Topology developed from geometry; it looks at those properties that do not change even when the figures are deformed by stretching and bending, like dimension-   [Affine geometry](https://en.wikipedia.org/wiki/Affine_geometry)
+Topology developed from geometry; it looks at those properties that do not change even when the figures are deformed by stretching and bending, like dimension-  [Affine geometry](https://en.wikipedia.org/wiki/Affine_geometry)
 
 - [Algebraic geometry](https://en.wikipedia.org/wiki/Algebraic_geometry)
 - [Algebraic topology](https://en.wikipedia.org/wiki/Algebraic_topology)
@@ -74,9 +74,9 @@ Topology developed from geometry; it looks at those properties that do not chang
 - [Integral geometry](https://en.wikipedia.org/wiki/Integral_geometry)
 - [Noncommutative geometry](https://en.wikipedia.org/wiki/Noncommutative_geometry)
 - [Non-Euclidean geometry](https://en.wikipedia.org/wiki/Non-Euclidean_geometry)
-- [Projective geometry](https://en.wikipedia.org/wiki/Projective_geometry)-   [Number theory](https://en.wikipedia.org/wiki/Number_theory)
+- [Projective geometry](https://en.wikipedia.org/wiki/Projective_geometry)-  [Number theory](https://en.wikipedia.org/wiki/Number_theory)
 
-Studies natural, whole and prime numbers.-   [Algebraic number theory](https://en.wikipedia.org/wiki/Algebraic_number_theory)
+Studies natural, whole and prime numbers.-  [Algebraic number theory](https://en.wikipedia.org/wiki/Algebraic_number_theory)
 
 - [Analytic number theory](https://en.wikipedia.org/wiki/Analytic_number_theory)
 - [Arithmetic combinatorics](https://en.wikipedia.org/wiki/Arithmetic_combinatorics)
@@ -87,29 +87,29 @@ Studies natural, whole and prime numbers.-   [Algebraic number theory](https://e
 
 Study of discrete (and usually finite) objects
 
-a.  Enumerative combinatorics
+- Enumerative combinatorics
 
 Counting the objects satisfying certain criteria
 
-b.  Combinatorial designs and matroid theory
+- Combinatorial designs and matroid theory
 
 Deciding when the criteria can be met, and constructing and analyzing objects meeting the criteria
 
-c.  External combinatorics and combinatorial optimization
+- External combinatorics and combinatorial optimization
 
 Finding "largest", "smallest", or "optimal" objects
 
-d.  Algebraic combinatorics
+- Algebraic combinatorics
 
-Finding algebraic structures these objects may have-   [Coding theory](https://en.wikipedia.org/wiki/Coding_theory)-   [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
+Finding algebraic structures these objects may have-  [Coding theory](https://en.wikipedia.org/wiki/Coding_theory)-  [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
 
 - [Dynamical systems](https://en.wikipedia.org/wiki/Dynamical_systems)
 
-A differential equation is an equation involving an unknown function and its derivatives-   [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
+A differential equation is an equation involving an unknown function and its derivatives-  [Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)
 
-- [Fractal geometry](https://en.wikipedia.org/wiki/Fractal_geometry)-   [Game theory](https://en.wikipedia.org/wiki/Game_theory)
+- [Fractal geometry](https://en.wikipedia.org/wiki/Fractal_geometry)-  [Game theory](https://en.wikipedia.org/wiki/Game_theory)
 
-[Game theory](https://en.wikipedia.org/wiki/Game_theory) is a branch of [mathematics](https://en.wikipedia.org/wiki/Mathematics) that uses [models](https://en.wikipedia.org/wiki/Model_(abstract)) to study interactions with formalized incentive structures ("games").-   [Graph theory](https://en.wikipedia.org/wiki/Graph_theory)
+[Game theory](https://en.wikipedia.org/wiki/Game_theory) is a branch of [mathematics](https://en.wikipedia.org/wiki/Mathematics) that uses [models](https://en.wikipedia.org/wiki/Model_(abstract)) to study interactions with formalized incentive structures ("games").-  [Graph theory](https://en.wikipedia.org/wiki/Graph_theory)
 
 - [Information theory](https://en.wikipedia.org/wiki/Information_theory)
 - [Mathematical physics](https://en.wikipedia.org/wiki/Mathematical_physics)
@@ -121,7 +121,7 @@ A differential equation is an equation involving an unknown function and its der
 - [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
 - [Operations research](https://en.wikipedia.org/wiki/Operations_research)
 
-[Operations research](https://en.wikipedia.org/wiki/Operations_research) is the study and use of mathematical models, statistics and algorithms to aid in decision-making, typically with the goal of improving or optimizing performance of real-world systems.-   [Assignment problem](https://en.wikipedia.org/wiki/Assignment_problem)
+[Operations research](https://en.wikipedia.org/wiki/Operations_research) is the study and use of mathematical models, statistics and algorithms to aid in decision-making, typically with the goal of improving or optimizing performance of real-world systems.-  [Assignment problem](https://en.wikipedia.org/wiki/Assignment_problem)
 
 - [Decision analysis](https://en.wikipedia.org/wiki/Decision_analysis)
 - [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
@@ -132,7 +132,7 @@ A differential equation is an equation involving an unknown function and its der
 - [Real options analysis](https://en.wikipedia.org/wiki/Real_options_analysis)
 - [Scheduling](https://en.wikipedia.org/wiki/Job_shop_scheduling)
 - [Stochastic processes](https://en.wikipedia.org/wiki/Stochastic_processes)
-- [Systems analysis](https://en.wikipedia.org/wiki/Systems_analysis)-   [Statistics](https://en.wikipedia.org/wiki/Statistics)([outline](https://en.wikipedia.org/wiki/Outline_of_statistics))
+- [Systems analysis](https://en.wikipedia.org/wiki/Systems_analysis)-  [Statistics](https://en.wikipedia.org/wiki/Statistics)([outline](https://en.wikipedia.org/wiki/Outline_of_statistics))
   - [Actuarial science](https://en.wikipedia.org/wiki/Actuarial_science)
   - [Demography](https://en.wikipedia.org/wiki/Demography)
   - [Econometrics](https://en.wikipedia.org/wiki/Econometrics)
@@ -140,7 +140,7 @@ A differential equation is an equation involving an unknown function and its der
   - [Data visualization](https://en.wikipedia.org/wiki/Data_visualization)
 - [Theory of computation](https://en.wikipedia.org/wiki/Theory_of_computation)
 
-Study of algorithms and data structures-   [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)-   Information theory and signal processing
+Study of algorithms and data structures-  [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)-  Information theory and signal processing
 
 Quantification of information (fundamental limits on compressing and reliably communicating data)
 

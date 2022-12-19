@@ -94,7 +94,7 @@ Gxyz - 3 slots (x, y, z), Valency - 3
 - join symbols with "and" (. & Λ)
 - conjuction with statements p.q
 - conjunction with variables x.y
-![image](media/Logic-image17.png)-   **Logical disjunction**
+![image](media/Logic-image17.png)-  **Logical disjunction**
 ![image](media/Logic-image18.png)
 ![image](media/Logic-image19.png)
 ![image](media/Logic-image20.png)
@@ -121,7 +121,7 @@ Gxyz - 3 slots (x, y, z), Valency - 3
 # The language of sets & probability
 
 ![image](media/Logic-image32.png)
-![image](media/Logic-image33.png)-   Intersection
+![image](media/Logic-image33.png)-  Intersection
 
 - Union
 ![image](media/Logic-image34.png)

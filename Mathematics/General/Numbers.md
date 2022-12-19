@@ -13,10 +13,10 @@ Modified: 2021-03-27 11:31:57 +0500
 1. Natural numbers (N) - 1,2,3, ...
 
 The counting numbers
-2.  Whole numbers - 0,1,2,3, ...
+2. Whole numbers - 0,1,2,3, ...
 
 The counting numbers including 0
-3.  Integer numbers (Z) - ... ,-3,-2,-1,0,1,2,3, ...
+3. Integer numbers (Z) - ... ,-3,-2,-1,0,1,2,3, ...
 
 Positive and negative counting numbers as well as 0
 
@@ -32,16 +32,16 @@ Positive and negative counting numbers as well as 0
 The numbers that can be represented as ratio of an integer to a non-zero integer.
 
 All integers are rational but the converse is not true.
-5.  Real numbers (R) -
+5. Real numbers (R) -
 
 Numbers that have decimal representations that have a finite or infinite sequence of digits to the right of the decimal point. They can be positive, negative, or zero. All rational numbers are real, but the converse is not true.
-6.  Irrational numbers (I) -
+6. Irrational numbers (I) -
 
 Real numbers that are not rational
-7.  Imaginary numbers -
+7. Imaginary numbers -
 
 Numbers that equal the product of a real number and the square root of --1. The number 0 is both real and imaginary.
-8.  Complex numbers (C) -
+8. Complex numbers (C) -
 
 Includes real numbers, imaginary numbers, and sums and differences of real and imaginary numbers.
 
@@ -70,7 +70,7 @@ A number representing a length that can be constructed using a [compass and stra
 6. Algebraic integer
 
 An algebraic number that is the root of a [monic polynomial](https://en.wikipedia.org/wiki/Monic_polynomial) with integer coefficients.
-9.  Hypercomplex numbers -
+9. Hypercomplex numbers -
 
 include various number-system extensions:[quaternions](https://en.wikipedia.org/wiki/Quaternion)(H), [octonions](https://en.wikipedia.org/wiki/Octonion)(O), [sedenions](https://en.wikipedia.org/wiki/Sedenion)(S), [tessarines](https://en.wikipedia.org/wiki/Tessarine), [coquaternions](https://en.wikipedia.org/wiki/Coquaternion), and [biquaternions](https://en.wikipedia.org/wiki/Biquaternion).
 10. p-adic numbers -
@@ -119,7 +119,7 @@ A number system that includes the hyperreal numbers as well as the ordinals. The
 
 ## Important Constants / Numbers
 
-A**mathematical constant** is a key [number](https://en.wikipedia.org/wiki/Number) whose value is fixed by an unambiguous definition, often referred to by a symbol (e.g., an [alphabet letter](https://en.wikipedia.org/wiki/Letter_(alphabet))), or by mathematicians' names to facilitate using it across multiple [mathematical problems](https://en.wikipedia.org/wiki/Mathematical_problem). Constants arise in many areas of [mathematics](https://en.wikipedia.org/wiki/Mathematics), with constants such as [*e*](https://en.wikipedia.org/wiki/E_(mathematical_constant)) and [*π*](https://en.wikipedia.org/wiki/Pi) occurring in such diverse contexts as [geometry](https://en.wikipedia.org/wiki/Geometry), [number theory](https://en.wikipedia.org/wiki/Number_theory), and [calculus](https://en.wikipedia.org/wiki/Calculus).
+A **mathematical constant** is a key [number](https://en.wikipedia.org/wiki/Number) whose value is fixed by an unambiguous definition, often referred to by a symbol (e.g., an [alphabet letter](https://en.wikipedia.org/wiki/Letter_(alphabet))), or by mathematicians' names to facilitate using it across multiple [mathematical problems](https://en.wikipedia.org/wiki/Mathematical_problem). Constants arise in many areas of [mathematics](https://en.wikipedia.org/wiki/Mathematics), with constants such as [*e*](https://en.wikipedia.org/wiki/E_(mathematical_constant)) and [*π*](https://en.wikipedia.org/wiki/Pi) occurring in such diverse contexts as [geometry](https://en.wikipedia.org/wiki/Geometry), [number theory](https://en.wikipedia.org/wiki/Number_theory), and [calculus](https://en.wikipedia.org/wiki/Calculus).
 Euler's Number - 2.71828182845
 
 Pi - 3.14159 265 359

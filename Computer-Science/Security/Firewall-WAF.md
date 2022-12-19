@@ -21,9 +21,9 @@ A WAF that operates based on a blacklist (negative security model) protects agai
 
 - **Network-based WAF**
 
-A network-based WAF is generally hardware-based. Since they are installed locally they minimize latency, but network-based WAFs are the most expensive option and also require the storage and maintenance of physical equipment.-   **Host-based WAF**
+A network-based WAF is generally hardware-based. Since they are installed locally they minimize latency, but network-based WAFs are the most expensive option and also require the storage and maintenance of physical equipment.-  **Host-based WAF**
 
-A host-based WAF may be fully integrated into an application's software. This solution is less expensive than a network-based WAF and offers more customizability. The downside of a host-based WAF is the consumption of local server resources, implementation complexity, and maintenance costs. These components typically require engineering time, and may be costly.-   **Cloud-based WAF**
+A host-based WAF may be fully integrated into an application's software. This solution is less expensive than a network-based WAF and offers more customizability. The downside of a host-based WAF is the consumption of local server resources, implementation complexity, and maintenance costs. These components typically require engineering time, and may be costly.-  **Cloud-based WAF**
 
 [Cloud](https://www.cloudflare.com/learning/cloud/what-is-the-cloud/)-based WAFs offer an affordable option that is very easy to implement; they usually offer a turnkey installation that is as simple as a change in [DNS](https://www.cloudflare.com/learning/ddos/glossary/domain-name-system-dns/) to redirect traffic. Cloud-based WAFs also have a minimal upfront cost, as users pay monthly or annually for security as a service. Cloud-based WAFs can also offer a solution that is consistently updated to protect against the newest threats without any additional work or cost on the user's end. The drawback of a cloud-based WAF is that users hand over the responsibility to a third-party, therefore some features of the WAF may be a black box to them.
 <https://www.cloudflare.com/learning/ddos/glossary/web-application-firewall-waf>

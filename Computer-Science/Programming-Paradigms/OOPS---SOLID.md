@@ -73,7 +73,7 @@ Types of polymorphism
 This is a pretty common technique in many languages, albeit better known as "Generics". The core idea is to allow programmers to use a wildcard type when defining data structures that can later be filled with any type.
 
 ![image](media/OOPS---SOLID-image1.png)
-2.  Subtype polymorphism (most used type, using shape like triangle, rectangle and calling area like traingle.area(), rectangle.area())
+2. Subtype polymorphism (most used type, using shape like triangle, rectangle and calling area like traingle.area(), rectangle.area())
 
 Subtyping is better known as object oriented inheritance. The classic example is a vehicle type, here in Java:
 
@@ -95,7 +95,7 @@ static void printWeight(Vehicle v) {
 // Allowed because all vehicles have to have this method
 System.out.println(v.getWeight());
 }
-3.  Ad-Hoc polymorphism (AKA Type Classes)
+3. Ad-Hoc polymorphism (AKA Type Classes)
 
 This is more commonly known as function or operator overloading. In languages that allow this, you can define a function multiple times to deal with different input types. For example in Java:
 
@@ -103,7 +103,7 @@ class Printer {
 public String prettyPrint(int x) { /*...*/ }
 public String prettyPrint(char c) { /*...*/ }
 }
-4.  Row Polymorphism
+4. Row Polymorphism
 
 5. Kind Polymorphism
 
@@ -126,13 +126,13 @@ The problem with object-oriented languages is they've got all this implicit envi
 Solution
 
 - Contain
-- Delegate-   Diamond Problem
+- Delegate-  Diamond Problem
 
 ![image](media/OOPS---SOLID-image2.png)
 
-Both Scanner and Printer has the same function, so Copier will inherit which function? (Most OO language doesn't let you do that)-   Fragile Base Class Problem
+Both Scanner and Printer has the same function, so Copier will inherit which function? (Most OO language doesn't let you do that)-  Fragile Base Class Problem
 
-If a parent class is changed, than child class can stop working-   The Hierarchy Problem (Categorical Hierarchies)
+If a parent class is changed, than child class can stop working-  The Hierarchy Problem (Categorical Hierarchies)
 
 Every time I start at a new company, I struggle with the problem when I'm creating a place to put my Company Documents, e.g. the Employee Handbook. Do I create a folder called Documents and then create a folder called Company in that. Or do I create a folder called Company and then create a folder called Documents in that?
 
@@ -157,21 +157,21 @@ A mixin class acts as the parent class, containing the desired functionality. A 
 
 ## Advantages
 
-1. It provides a mechanism for [multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance) by allowing multiple classes to use the common functionality, but without the complex semantics of multiple inheritance.2.  [Code reusability](https://en.wikipedia.org/wiki/Code_reuse): Mixins are useful when a programmer wants to share functionality between different classes. Instead of repeating the same code over and over again, the common functionality can simply be grouped into a mixin and then included into each class that requires it.3.  Mixins allow inheritance and use of only the desired features from the parent class, not necessarily all of the features from the parent class.-   **Delegation**
+1. It provides a mechanism for [multiple inheritance](https://en.wikipedia.org/wiki/Multiple_inheritance) by allowing multiple classes to use the common functionality, but without the complex semantics of multiple inheritance.2.  [Code reusability](https://en.wikipedia.org/wiki/Code_reuse): Mixins are useful when a programmer wants to share functionality between different classes. Instead of repeating the same code over and over again, the common functionality can simply be grouped into a mixin and then included into each class that requires it.3. Mixins allow inheritance and use of only the desired features from the parent class, not necessarily all of the features from the parent class.-  **Delegation**
 
 Delegation means that an object shall perform only what it knows best, and leave the rest to other objects.
-Delegation can be implemented with two different mechanisms: composition and inheritance. Sadly, very often only inheritance is listed among the pillars of OOP techniques, forgetting that it is an implementation of the more generic and fundamental mechanism of delegation; perhaps a better nomenclature for the two techniques could beexplicit delegation(composition) andimplicit delegation (inheritance).-   **Inheritance**
-    -   Python does not implicitly call the parent implementation when you override a method.
-    -   overriding is a way to block implicit delegation.-   **Composition**
-    -   Composition means that an object knows another object, and explicitly delegates some tasks to it.
-    -   Composition provides a superior way to manage delegation since it can selectively delegate the access, even mask some attributes or methods, while inheritance cannot.
-    -   In Python you also avoid the memory problems that might arise when you put many objects inside another; Python handles everything through its reference, i.e. through a pointer to the memory position of the thing, so the size of an attribute is constant and very limited.-   **Composition over Inheritance**
+Delegation can be implemented with two different mechanisms: composition and inheritance. Sadly, very often only inheritance is listed among the pillars of OOP techniques, forgetting that it is an implementation of the more generic and fundamental mechanism of delegation; perhaps a better nomenclature for the two techniques could beexplicit delegation(composition) andimplicit delegation (inheritance).-  **Inheritance**
+    -  Python does not implicitly call the parent implementation when you override a method.
+    -  overriding is a way to block implicit delegation.-  **Composition**
+    -  Composition means that an object knows another object, and explicitly delegates some tasks to it.
+    -  Composition provides a superior way to manage delegation since it can selectively delegate the access, even mask some attributes or methods, while inheritance cannot.
+    -  In Python you also avoid the memory problems that might arise when you put many objects inside another; Python handles everything through its reference, i.e. through a pointer to the memory position of the thing, so the size of an attribute is constant and very limited.-  **Composition over Inheritance**
 
 Composition over inheritance(orcomposite reuse principle) in [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)(OOP) is the principle that classes should achieve [polymorphic](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) behavior and [code reuse](https://en.wikipedia.org/wiki/Code_reuse) by their [composition](https://en.wikipedia.org/wiki/Object_composition)(by containing instances of other classes that implement the desired functionality) rather than [inheritance](https://en.wikipedia.org/wiki/Inheritance_(computer_science)) from a base or parent class.This is an often-stated principle of OOP, such as in the influential book [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns).
-<https://en.wikipedia.org/wiki/Composition_over_inheritance>-   **Monkey Patching**
-    -   A MonkeyPatch is a piece of Python code which extends or modifies other code at runtime (typically at startup).
-    -   For instance, consider a class that has a methodget_data. This method does an external lookup (on a database or web API, for example), and various other methods in the class call it. However, in a unit test, you don't want to depend on the external data source - so you dynamically replace theget_datamethod with a stub that returns some fixed data.
-    -   Because Python classes are mutable, and methods are just attributes of the class, you can do this as much as you like - and, in fact, you can even replace classes and functions in a module in exactly the same way.
+<https://en.wikipedia.org/wiki/Composition_over_inheritance>-  **Monkey Patching**
+    -  A MonkeyPatch is a piece of Python code which extends or modifies other code at runtime (typically at startup).
+    -  For instance, consider a class that has a methodget_data. This method does an external lookup (on a database or web API, for example), and various other methods in the class call it. However, in a unit test, you don't want to depend on the external data source - so you dynamically replace theget_datamethod with a stub that returns some fixed data.
+    -  Because Python classes are mutable, and methods are just attributes of the class, you can do this as much as you like - and, in fact, you can even replace classes and functions in a module in exactly the same way.
 
 ## Example
 

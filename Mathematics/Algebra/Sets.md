@@ -13,7 +13,7 @@ Ex - Given two sets (for example set A = {1, 2, 3} and set B = {2, 3, 4}), the m
 ## Bijection, injection and surjection
 
 In [mathematics](https://en.wikipedia.org/wiki/Mathematics), injections, surjectionsandbijectionsare classes of [functions](https://en.wikipedia.org/wiki/Function_(mathematics)) distinguished by the manner in which [arguments](https://en.wikipedia.org/wiki/Parameter)(input [expressions](https://en.wikipedia.org/wiki/Expression_(mathematics)) from the [domain](https://en.wikipedia.org/wiki/Domain_(mathematics))) and [images](https://en.wikipedia.org/wiki/Image_(mathematics))(output expressions from the [codomain](https://en.wikipedia.org/wiki/Codomain)) are related ormapped toeach other.
-A function [maps](https://en.wikipedia.org/wiki/Map_(mathematics)) elements from its domain to elements in its codomain. Given a function*f: X -> Y*-   The function is [injective](https://en.wikipedia.org/wiki/Injective_function), orone-to-one, if each element of the codomain is mapped to byat mostone element of the domain, or equivalently, if distinct elements of the domain map to distinct elements in the codomain. An injective function is also called aninjection.Notationally:
+A function [maps](https://en.wikipedia.org/wiki/Map_(mathematics)) elements from its domain to elements in its codomain. Given a function*f: X -> Y*-  The function is [injective](https://en.wikipedia.org/wiki/Injective_function), orone-to-one, if each element of the codomain is mapped to byat mostone element of the domain, or equivalently, if distinct elements of the domain map to distinct elements in the codomain. An injective function is also called aninjection.Notationally:
 
 ![image](media/Sets-image1.png)
 

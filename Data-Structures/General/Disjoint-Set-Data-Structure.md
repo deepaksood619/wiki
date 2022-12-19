@@ -30,7 +30,7 @@ if *x* is not already present:
 add *x* to the disjoint-set tree
 x.parent := x
 x.rank := 0
-2.  Find
+2. Find
 
 *Find(x)*follows the chain of parent pointers from*x*upwards through the tree until an element is reached whose parent is itself. This element is the root of the tree and is the representative member of the set to which*x*belongs, and may be*x*itself.
 
@@ -43,7 +43,7 @@ Pseudocode:
 if x.parent != x
 x.parent := *Find*(x.parent)
 return x.parent
-3.  Union
+3. Union
 
 *Union(x, y)*uses *Find*to determine the roots of the trees*x*and*y*belong to. If the roots are distinct, the trees are combined by attaching the root of one to the root of the other. If this is done naively, such as by always making*x*a child of*y*, the height of the trees can grow as
 

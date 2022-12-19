@@ -1,4 +1,4 @@
--- Example SQL Query
+# Example SQL Query
 
 Created: 2020-02-13 15:34:08 +0500
 
@@ -13,15 +13,15 @@ SELECT count(*) AS TOTALNUMBEROFTABLES FROM INFORMATION_SCHEMA.TABLES WHERE TABL
 -- 20/07/22 - 927
 
 -- Show all unused indexes
-	select count(*) from sys.schema_unused_indexes;
+ select count(*) from sys.schema_unused_indexes;
 
 -- show all unused tables
-	SHOW TABLE STATUS where `Rows` = 0;
+ SHOW TABLE STATUS where `Rows` = 0;
 
-	SHOW TABLE STATUS where `Rows` = 0;
-	-- 37
-	SHOW TABLE STATUS where `Rows` < 5;
-	-- 101
+ SHOW TABLE STATUS where `Rows` = 0;
+ -- 37
+ SHOW TABLE STATUS where `Rows` < 5;
+ -- 101
 
 show master status; -- check binlog position
 
@@ -37,7 +37,7 @@ SELECT ( @@key_buffer_size
 + @@query_cache_size
 + @@innodb_buffer_pool_size
 + @@innodb_log_buffer_size
-+ @@max_connections * ( 
++ @@max_connections * (
     @@read_buffer_size
     + @@read_rnd_buffer_size
     + @@sort_buffer_size
@@ -61,10 +61,10 @@ INNER JOIN information_schema.innodb_trx r
   ON r.trx_id = w.requesting_trx_id;
 
 Delete performance schema tables
-	call sys.ps_truncate_all_tables(true);
+ call sys.ps_truncate_all_tables(true);
 
 To get all tables with columns columnA or ColumnB in the database YourDatabase:
-	SELECT DISTINCT TABLE_NAME 
+ SELECT DISTINCT TABLE_NAME
     FROM INFORMATION_SCHEMA.COLUMNS
     WHERE COLUMN_NAME IN ('columnA','ColumnB')
         AND TABLE_SCHEMA='YourDatabase';
@@ -109,13 +109,13 @@ WHERE index_type LIKE 'FULLTEXT%';
 
 -- defragmentation
 select table_name,
-round(data_length/1024/1024) as data_length_mb, 
-round(data_free/1024/1024) as data_free_mb 
- from information_schema.tables 
- where round(data_free/1024/1024) > 500 
+round(data_length/1024/1024) as data_length_mb,
+round(data_free/1024/1024) as data_free_mb
+ from information_schema.tables
+ where round(data_free/1024/1024) > 500
  order by data_free_mb;
 
-	OPTIMIZE TABLE sttash_website_LIVE.email_instance_moratorium;
+ OPTIMIZE TABLE sttash_website_LIVE.email_instance_moratorium;
 
 -- Others
 SELECT date(create_date), COUNT(*) FROM userDeviceSms WHERE date(create_date) BETWEEN NOW() - INTERVAL 6 HOUR AND NOW()
@@ -130,7 +130,7 @@ GROUP BY YEAR(create_date),
          MONTH(create_date)
 ORDER BY YEAR(create_date) DESC, MONTH(create_date) DESC;
 
-SELECT 
+SELECT
     customer_id, json_extract(template_data,'$.agent'), count(*) as count
 FROM
     communication_log

@@ -49,7 +49,7 @@ For each 1MB block on disk, consecutive values are replaced with a corresponding
 
 ## Naive Block-level
 
-Under this encoding, each block is compressed with a standard compression algorithm. Particular choices includeLZOandZTSD. For all columns other than the sort key or with typesBOOLEAN,REAL, orDOUBLE,LZOis the default compression.-   Compress ratio: 2 to 4 times less
+Under this encoding, each block is compressed with a standard compression algorithm. Particular choices includeLZOandZTSD. For all columns other than the sort key or with typesBOOLEAN,REAL, orDOUBLE,LZOis the default compression.-  Compress ratio: 2 to 4 times less
 
 - By default COPY automatically analyzes and compresses data on first load into an empty table
 - ANALYZE COMPRESSION is a built-in command that will find the optimal compression for each column on an existing table
@@ -130,11 +130,11 @@ On tables without a sort key specified and that remains unsorted, Redshift prese
 On tables with a sort key specified, Redshift stores the "sorted" portion of the data in sorted blocks on disk. Adding new data to the table except for the special case listed below will result in the data being appended to the "unsorted" portion that will only be merged into the "sorted" potion upon aVACUUM. In addition, Redshift provides that theCOPYcommand will automatically sort the incoming data.
 In the event that the following conditions are met, adding data to a table will preserve the sortedness of the data and not require an additionalVACUUMoperation to sort the table.
 
-a.  The sort column isNOT NULLand there is only 1 sort column
+- The sort column isNOT NULLand there is only 1 sort column
 
-b.  UsingCOPYinto an empty table or the table is 100% sorted
+- UsingCOPYinto an empty table or the table is 100% sorted
 
-c.  The data can be appended in sort-order to the end of any existing data
+- The data can be appended in sort-order to the end of any existing data
 
 ## Stored Procedures
 

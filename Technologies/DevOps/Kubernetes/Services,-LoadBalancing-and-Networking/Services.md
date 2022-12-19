@@ -67,8 +67,8 @@ The back-end is highly dynamic and will load-balance traffic to all Pods in the 
 
 Load-balancingin this situation is simple L4 round-robin load-balancing. This works at the "connection" level where all requests over the sameconnectiongo to the same Pod. This means two things:
 
-a.  Multiple requests from the same browser will always hit the samePod. This is because browsers send all requests over a singleconnectionthat is kept open using keepalives. Requests via tools likecurlopen a newconnectionfor each request and will therefore hit different Pods.
+- Multiple requests from the same browser will always hit the samePod. This is because browsers send all requests over a singleconnectionthat is kept open using keepalives. Requests via tools likecurlopen a newconnectionfor each request and will therefore hit different Pods.
 
-b.  Load-balancing is not aware ofapplication layer(L7) concepts such as HTTP headers and cookie-based session affinity.
+- Load-balancing is not aware ofapplication layer(L7) concepts such as HTTP headers and cookie-based session affinity.
 
 <https://nigelpoulton.com/blog/f/demystifying-kubernetes-service-discovery>

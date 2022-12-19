@@ -13,7 +13,7 @@ Modified: 2022-08-27 01:09:01 +0500
 3. MDS (Microarchitectural Data Sampling)
 
 <https://www.redhat.com/en/blog/understanding-mds-vulnerability-what-it-why-it-works-and-how-mitigate-it>
-4.  HeartBleed (2014)
+4. HeartBleed (2014)
 
 Heartbleed allows hackers to steal private keys from what should be secure servers. Infected servers were left wide open to let anyone on the Internet read the memory in systems being protected by a vulnerable version of OpenSSL. The breach let threat actors steal data from servers or listen in on conversations or even spoof services and other users.
 <https://access.redhat.com/security/vulnerabilities>
@@ -46,9 +46,9 @@ Security misconfiguration is the most commonly seen issue. This is commonly a re
 7.  [Cross-Site Scripting XSS](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A7-Cross-Site_Scripting_(XSS))
 
 XSS flaws occur whenever an application includes untrusted data in a new web page without proper validation or escaping, or updates an existing web page with user-supplied data using a browser API that can create HTML or JavaScript. XSS allows attackers to execute scripts in the victim's browser which can hijack user sessions, deface web sites, or redirect the user to malicious sites.
-A type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy.-   Reflected XSS
+A type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users. A cross-site scripting vulnerability may be used by attackers to bypass access controls such as the same-origin policy.-  Reflected XSS
 
-It depends on site immediately reflecting a user input (the search query) back onto the page.-   Stored XSS
+It depends on site immediately reflecting a user input (the search query) back onto the page.-  Stored XSS
 
 This happens when the malicious code (usually an injected script, like in our example) isstored on the target site's servers. A classic example is storing user-generated comments without sanitizing them. An attacker could leave a malicious comment that injects a script, andanyone who views that comment would be affected.
 Prevention - Sanitize user inputs
@@ -134,7 +134,7 @@ Insufficient logging and monitoring, coupled with missing or ineffective integra
 - [Server Side Request Forgery Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
 - [Session Management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)
 - [TLS Cipher String](https://cheatsheetseries.owasp.org/cheatsheets/TLS_Cipher_String_Cheat_Sheet.html)
-- [Third Party Javascript Management](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html)-   [**Threat Modeling**](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
+- [Third Party Javascript Management](https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html)-  [**Threat Modeling**](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
 Threat modelingis a process by which potential threats, such as [structural vulnerabilities](https://www.wikiwand.com/en/Structural_vulnerability_(computing)) or the absence of appropriate safeguards, can be identified, enumerated, and mitigations can be prioritized. The purpose of threat modeling is to provide defenders with a systematic analysis of what controls or defenses need to be included, given the nature of the system, the probable attacker's profile, the most likely attack vectors, and the assets most desired by an attacker. Threat modeling answers questions like"Where am I most vulnerable to attack?","What are the most relevant threats?", and"What do I need to do to safeguard against these threats?".
 
@@ -159,7 +159,7 @@ Process for Attack Simulation and Threat Analysis (PASTA) is a seven-step, risk-
 3.  **Trike
     **
 
-<https://www.wikiwand.com/en/Threat_model>-   [Transaction Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
+<https://www.wikiwand.com/en/Threat_model>-  [Transaction Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
 
 - [Transport Layer Protection](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
 - [Unvalidated Redirects and Forwards](https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html)

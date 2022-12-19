@@ -26,7 +26,7 @@ Theheadertypically consists of two parts: the token's type, and the hashing algo
 
 "typ": "JWT"
 
-}-   **Payload**, containing the claims
+}-  **Payload**, containing the claims
 
 {
 
@@ -36,7 +36,7 @@ Theheadertypically consists of two parts: the token's type, and the hashing algo
 
 "admin": true
 
-}-   **Signature**, which can be calculated as follows if you chose HMAC SHA256:HMACSHA256( base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)
+}-  **Signature**, which can be calculated as follows if you chose HMAC SHA256:HMACSHA256( base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)
 
 Thesignatureis used to verify that the message was not altered before reaching its destination. This is usually done by using private keys.
 These three parts are usually encoded into three Base64-URI strings that are separated by a.in between them.
@@ -57,7 +57,7 @@ The JWT specification defines some registered claim names and defines how they s
 - "aud" (Audience) Claim
 - "iat" (Issued At) Claim
 
-- [Public claims](https://tools.ietf.org/html/rfc7519#section-4.2): These can be defined at will by those using JWTs. But to avoid collisions they should be defined in the [IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml) or be defined as a URI that contains a collision resistant namespace.-   [Private claims](https://tools.ietf.org/html/rfc7519#section-4.3): These are the custom claims created to share information between parties that agree on using them and are neitherregisteredorpublicclaims.
+- [Public claims](https://tools.ietf.org/html/rfc7519#section-4.2): These can be defined at will by those using JWTs. But to avoid collisions they should be defined in the [IANA JSON Web Token Registry](https://www.iana.org/assignments/jwt/jwt.xhtml) or be defined as a URI that contains a collision resistant namespace.-  [Private claims](https://tools.ietf.org/html/rfc7519#section-4.3): These are the custom claims created to share information between parties that agree on using them and are neitherregisteredorpublicclaims.
 An example payload could be:
 
 {

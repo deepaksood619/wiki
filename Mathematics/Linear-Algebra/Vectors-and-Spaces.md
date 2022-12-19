@@ -13,7 +13,7 @@ Ex - 5mph is a scaler quantity, because it doesn't tell the direction in which o
 
 Ex - 5mph East is a vector quantity (and we will not call this as speed, we will call this as velocity, therefore velocity is a vector quantity)
 
-![image](media/Vectors-and-Spaces-image1.png)-   Real Coordinate Space - Can be any dimensions, all possible real-valued ordered 2-tuple for a 2 dimensional real coordinate space.
+![image](media/Vectors-and-Spaces-image1.png)-  Real Coordinate Space - Can be any dimensions, all possible real-valued ordered 2-tuple for a 2 dimensional real coordinate space.
 
 - Adding Vectors algebraically and graphically
 - Multiplying vector by a scaler ( change its magnitude, but scale it only on the same dimension, colinear )

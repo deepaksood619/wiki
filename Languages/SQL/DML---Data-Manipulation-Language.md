@@ -158,13 +158,13 @@ MySQL provides the ON DUPLICATE KEY UPDATE option to INSERT, which accomplishes 
 
 We can imitate MySQL UPSERT in one of these three ways:
 
-a.  [UPSERT using INSERT IGNORE](https://www.techbeamers.com/mysql-upsert/#upsert-using-insert)
+- [UPSERT using INSERT IGNORE](https://www.techbeamers.com/mysql-upsert/#upsert-using-insert)
 
 When we use INSERT IGNORE for adding a record, it gets through even if there are errors in performing INSERT. So, if the target table already has a row with a matching UNIQUE or PRIMARY key, then INSERT REPLACE would suppress all possible errors.
 
 Moreover, it skips the INSERT operation altogether. Such kind of statement is useful when we need to add a large number of records in one go. And, the table may already have a part of that data inside.
 
-b.  [UPSERT using REPLACE](https://www.techbeamers.com/mysql-upsert/#upsert-using-replace)
+- [UPSERT using REPLACE](https://www.techbeamers.com/mysql-upsert/#upsert-using-replace)
 
 There come situations when we have to replace some rows even if INSERT could fail due to duplicate values of the primary key field. Hence, we should use the REPLACE statement for such cases.
 
@@ -173,7 +173,7 @@ However, if we opt to use REPLACE, then it could result in one of the following 
 - If we don't face any error, then REPLACE would behave as regular INSERT command.
 - If a duplicate record exists, then REPLACE would first delete it and perform the INSERT subsequently.
 
-c.  **[UPSERT using INSERT with ON DUPLICATE KEY UPDATE](https://www.techbeamers.com/mysql-upsert/#upsert-using-update) (UPSERT)**
+- **[UPSERT using INSERT with ON DUPLICATE KEY UPDATE](https://www.techbeamers.com/mysql-upsert/#upsert-using-update) (UPSERT)**
 
 It is non-destructive, means it doesn't have to drop the duplicate row. Instead, it issues an UPDATE whenever it finds a matching record having the same UNIQUE or PRIMARY KEY value.
 

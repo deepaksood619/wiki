@@ -46,28 +46,28 @@ Modified: 2021-08-29 13:28:37 +0500
 1. **String formatting**
 
 ```python
--   Old Style
+-  Old Style
 
 >>> 'Hello, %s' % name
 
 "Hello, Bob"
 
--   New Style using format
+-  New Style using format
 
 >>> 'Hello, {}'.format(name)
 
 'Hello, Bob'
 
--   Formatted String Literals (Literal String Interpolation) (Python 3.6+)
+-  Formatted String Literals (Literal String Interpolation) (Python 3.6+)
 
 >>> f'Hello, {name}!'
 
 'Hello, Bob!'
 
--   Can embed arbitrary Python expressions
--   formatted string literals are a Python parser feature that converts f-strings into a series of string constants and expressions. They then get joined up to build the final string
+-  Can embed arbitrary Python expressions
+-  formatted string literals are a Python parser feature that converts f-strings into a series of string constants and expressions. They then get joined up to build the final string
 
--   Template String
+-  Template String
 
 >>> from string import Template
 
@@ -77,9 +77,9 @@ Modified: 2021-08-29 13:28:37 +0500
 
 'Hey, Bob!'
 
--   Safer choice for handling format strings generated from user input
+-  Safer choice for handling format strings generated from user input
 
--   If your format strings are user-supplied, use Template Strings to avoid security issues. Otherwise, use Literal String Interpolation if you’re on Python 3.6+, and “New Style” String Formatting if you’re not.
+-  If your format strings are user-supplied, use Template Strings to avoid security issues. Otherwise, use Literal String Interpolation if you’re on Python 3.6+, and “New Style” String Formatting if you’re not.
 ```
 
 # Effective Functions

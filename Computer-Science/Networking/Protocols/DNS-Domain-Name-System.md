@@ -35,7 +35,7 @@ The GTLD nameserver will read the next part of your request, reading from right 
 
 ## Fully Qualified Domain Name
 
-A**fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*, is a [domain name](https://en.wikipedia.org/wiki/Domain_name) that specifies its exact location in the tree hierarchy of the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a [second-level domain](https://en.wikipedia.org/wiki/Second-level_domain) and a [top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
+A **fully qualified domain name**(**FQDN**), sometimes also referred to as an*absolute domain name*, is a [domain name](https://en.wikipedia.org/wiki/Domain_name) that specifies its exact location in the tree hierarchy of the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS). It specifies all domain levels, including at least a [second-level domain](https://en.wikipedia.org/wiki/Second-level_domain) and a [top-level domain](https://en.wikipedia.org/wiki/Top-level_domain).A fully qualified domain name is distinguished by its lack of ambiguity: it can be interpreted only in one way.
 
 ## DNS Lookup
 
@@ -89,13 +89,13 @@ Setup custom email for your domain Ex: @ => ASPMX.L.GOOGLE.COM. 1
 
 ## SOA
 
-A**Start of Authority record**(abbreviated as**SOA record**) is a type of [resource record](https://en.wikipedia.org/wiki/Resource_record) in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) containing administrative information about the zone, especially regarding [zone transfers](https://en.wikipedia.org/wiki/DNS_zone_transfer). The SOA record format is specified in [RFC 1035](https://tools.ietf.org/html/rfc1035)
+A **Start of Authority record**(abbreviated as**SOA record**) is a type of [resource record](https://en.wikipedia.org/wiki/Resource_record) in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)(DNS) containing administrative information about the zone, especially regarding [zone transfers](https://en.wikipedia.org/wiki/DNS_zone_transfer). The SOA record format is specified in [RFC 1035](https://tools.ietf.org/html/rfc1035)
 
 <https://en.wikipedia.org/wiki/SOA_record>
 
 ## SRV
 
-A**Service record**(**SRV record**) is a specification of data in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) defining the location, i.e. the [hostname](https://en.wikipedia.org/wiki/Hostname) and [port number](https://en.wikipedia.org/wiki/Port_number), of servers for specified services. It is defined in [RFC 2782](https://tools.ietf.org/html/rfc2782), and its type code is 33. Some Internet protocols such as the [Session Initiation Protocol](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)(SIP) and the [Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol)(XMPP) often require SRV support by network elements.
+A **Service record**(**SRV record**) is a specification of data in the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) defining the location, i.e. the [hostname](https://en.wikipedia.org/wiki/Hostname) and [port number](https://en.wikipedia.org/wiki/Port_number), of servers for specified services. It is defined in [RFC 2782](https://tools.ietf.org/html/rfc2782), and its type code is 33. Some Internet protocols such as the [Session Initiation Protocol](https://en.wikipedia.org/wiki/Session_Initiation_Protocol)(SIP) and the [Extensible Messaging and Presence Protocol](https://en.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol)(XMPP) often require SRV support by network elements.
 | **Commonly used record types** | **Description**             | **Examples**                        |
 |------------------------|-----------------------|--------------------------|
 | A                              | Host address                | host -t a nixcraft.com              |

@@ -48,9 +48,9 @@ Netfilter is a rules-based packet processing engine. It runs in kernel space and
 
 There's two major operations that relate to service discovery:
 
-a.  service registration
+- service registration
 
-b.  service discovery
+- service discovery
 
 ## Service registration
 
@@ -66,15 +66,15 @@ Every Kubernetes Service isautomatically registeredwith the cluster DNS.
 
 The registration process looks like this:
 
-a.  You POST a new Service definition to the API Server
+- You POST a new Service definition to the API Server
 
-b.  The request is authenticated, authorized, and subjected to admission policies
+- The request is authenticated, authorized, and subjected to admission policies
 
-c.  The Service is allocated aClusterIP(virtual IP address) and persisted to the cluster store
+- The Service is allocated aClusterIP(virtual IP address) and persisted to the cluster store
 
-d.  The Service configuration is disseminated across the cluster (more on this later)
+- The Service configuration is disseminated across the cluster (more on this later)
 
-e.  The cluster's DNS service notices the new Service and creates the necessaryDNS A records
+- The cluster's DNS service notices the new Service and creates the necessaryDNS A records
 
 Step 5 is the secret sauce in this process. Thecluster DNSservice is based on [CoreDNS](https://coredns.io/) and runs as aKubernetes-native application. This means that it knows it's running on Kubernetes and implements acontrollerthat watches the API Server for new Service objects. Any time it sees a new Service object, it creates the DNS records that allow the Service name to be resolved to its ClusterIP. This means that Services don't have to care about the process of registering with DNS, the CoreDNS controller watches for new Service objects and makes the DNS magic happen.
 

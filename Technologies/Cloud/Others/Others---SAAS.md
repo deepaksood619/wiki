@@ -47,13 +47,13 @@ A flow diagram of how Cloudflare worker responds to an**HTTP request.**
 
 Components
 
-a.  Invocations
+- Invocations
 
-b.  Utterance
+- Utterance
 
-c.  Intents
+- Intents
 
-d.  Slots
+- Slots
 
 ## Test Taking / Online assessment
 

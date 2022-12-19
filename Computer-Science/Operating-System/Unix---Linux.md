@@ -10,7 +10,7 @@ Modified: 2022-12-10 00:48:32 +0500
 
 - **Kernel:** The kernel of UNIX is the hub of the OS: it allocates time and memory to programs and handles the filestore and communications in response to system calls,
 - **Shell:** The shell acts as an interface between the user and the kernel. The shell is a command line interpreter (CLI). It interprets the commands the user types in and arranges for them to be carried out,
-- **Programs:** The commands are themselves also programs: when they terminate, the shell gives the user another prompt.-   Everything in UNIX is either a file or a process.
+- **Programs:** The commands are themselves also programs: when they terminate, the shell gives the user another prompt.-  Everything in UNIX is either a file or a process.
 
 Under the hood, everything is actually a file. A text file is a file, a directory is a file, your keyboard is a file (one that the system reads from only), your monitor is a file (one that the system writes to only) etc.
 

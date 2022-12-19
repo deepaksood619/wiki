@@ -53,7 +53,7 @@ The format is extended by the [Combined Log Format](https://en.wikipedia.org/w/i
 ## Example
 
 127.0.0.1 user-identifier frank [10/Oct/2000:13:55:36 -0700] "GET /apache_pb.gif HTTP/1.0" 200 2326
-A "-" in a field indicates missing data.-   127.0.0.1is the IP address of the client (remote host) which made the request to the server.
+A "-" in a field indicates missing data.-  127.0.0.1is the IP address of the client (remote host) which made the request to the server.
 
 - user-identifieris the [RFC 1413](https://tools.ietf.org/html/rfc1413)[identity](https://en.wikipedia.org/wiki/Ident_Protocol) of the client. Usually "-".
 - frankis the userid of the person requesting the document. Usually "-" unless .htaccess has requested authentication.

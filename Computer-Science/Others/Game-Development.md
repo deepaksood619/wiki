@@ -16,7 +16,7 @@ Modified: 2022-11-23 22:57:58 +0500
 
 - Blender
 
-<https://www.blender.org>-   Agones
+<https://www.blender.org>-  Agones
 
 Host, Run and Scale dedicated game servers on Kubernetes
 

@@ -76,36 +76,36 @@ T-Statistics tells us how many standard errors away from the mean our observed d
 
 ![image](media/Crash-Course-Statistics-image2.png)
 10. **Degrees of Freedom and Effect Sizes**
-    -   **Degrees of freedom is the number of independent pieces of information we have.**
+    -  **Degrees of freedom is the number of independent pieces of information we have.**
 
-![image](media/Crash-Course-Statistics-image3.png)-   Effect Size - Tells us how big the effect we observed was, compared to random variation.
+![image](media/Crash-Course-Statistics-image3.png)-  Effect Size - Tells us how big the effect we observed was, compared to random variation.
 27. **Chi-Squared Tests**
 
-A**chi-squared test**, also written as***χ*^2^test**, is any [statistical hypothesis test](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) where the [sampling distribution](https://en.wikipedia.org/wiki/Sampling_distribution) of the test statistic is a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) when the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) is true. Without other qualification, 'chi-squared test' often is used as short for [*Pearson's*chi-squared test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test). The chi-squared test is used to determine whether there is a significant difference between the expected frequencies and the observed frequencies in one or more categories.
+A **chi-squared test**, also written as***χ*^2^test**, is any [statistical hypothesis test](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) where the [sampling distribution](https://en.wikipedia.org/wiki/Sampling_distribution) of the test statistic is a [chi-squared distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution) when the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) is true. Without other qualification, 'chi-squared test' often is used as short for [*Pearson's*chi-squared test](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test). The chi-squared test is used to determine whether there is a significant difference between the expected frequencies and the observed frequencies in one or more categories.
 Tests of Independence - Look to see whether being a member of one category is independent of the other
 
 Test of Homogeneity - Looking at whether it's likely that different samples come from the same population
 
 ![image](media/Crash-Course-Statistics-image4.png)
 28. **P-Hacking**
-    -   **P-Hacking - Manipulating data or analyses to artificially get significant P-values**
-    -   **P-Hacking - When analyses are being chosen based on what makes the P-value significant, not what's the best analysis plan**
-    -   **Bonferroni Correction**
+    -  **P-Hacking - Manipulating data or analyses to artificially get significant P-values**
+    -  **P-Hacking - When analyses are being chosen based on what makes the P-value significant, not what's the best analysis plan**
+    -  **Bonferroni Correction**
 30. **The Replication Crisis**
-    -   **Replication**
-    -   **Reproducible analysis**
+    -  **Replication**
+    -  **Reproducible analysis**
 31. **Regression**
-    -   **General Linear Model (GLM)**
-        -   **Data = Model + Error**
-        -   **Model (Y = MX + B)**
-        -   **Error (A deviation from our model)**
-        -   **Inferences**
-        -   **Types of GLM**
-            -   **Regression model (Continuous variable)**
-                -   **One reason we are concerned with outliers in regression is that values that are really far away from the rest of our data can have undue influence on the regression line**
-                -   **The sum of all squared distances of each point to the line**
-                -   **Residuals**
-                -   **F-Test - Helps us quantify how well we think our data fit a distribution, like the null distribution**
+    -  **General Linear Model (GLM)**
+        -  **Data = Model + Error**
+        -  **Model (Y = MX + B)**
+        -  **Error (A deviation from our model)**
+        -  **Inferences**
+        -  **Types of GLM**
+            -  **Regression model (Continuous variable)**
+                -  **One reason we are concerned with outliers in regression is that values that are really far away from the rest of our data can have undue influence on the regression line**
+                -  **The sum of all squared distances of each point to the line**
+                -  **Residuals**
+                -  **F-Test - Helps us quantify how well we think our data fit a distribution, like the null distribution**
 
 ![DIISWIS-Y ](media/Crash-Course-Statistics-image5.png)
 
@@ -122,9 +122,9 @@ Allows us to compare three or more groups for statistical significance
 Omnibus Test - A test that contains many items or groups (Ex - F-Test)
 ![image](media/Crash-Course-Statistics-image7.png)
 33. **ANOVA Part 2: Dealing with Intersectional Groups**
-    -   **Factorial ANOVA - A factorial ANOVA does almost exactly what a regular ANOVA does: it takes the overall variation - or sums of squares - and portions it out into different categories.**
-    -   **Example - Does car color and manufacture effect the overall price.**
-    -   **Sums of squares total**
+    -  **Factorial ANOVA - A factorial ANOVA does almost exactly what a regular ANOVA does: it takes the overall variation - or sums of squares - and portions it out into different categories.**
+    -  **Example - Does car color and manufacture effect the overall price.**
+    -  **Sums of squares total**
 
 ![image](media/Crash-Course-Statistics-image8.png)
 ![image](media/Crash-Course-Statistics-image9.png)
@@ -138,7 +138,7 @@ MS - Mean squares
 
 ![image](media/Crash-Course-Statistics-image11.png)
 But just like with our T-Tests, we know that a significant F-Test only means that the result is statistically significant. It doesn't always mean it's practically significant to you.
-![image](media/Crash-Course-Statistics-image12.png)-   ETA squared tells you the proportion of total variation tha's accounted for by your specific variable
+![image](media/Crash-Course-Statistics-image12.png)-  ETA squared tells you the proportion of total variation tha's accounted for by your specific variable
 
 - Interaction
 - Two-way ANOVA
@@ -151,25 +151,25 @@ SSG tell us how much variation can be explained by coming from one of the four p
 
 ![image](media/Crash-Course-Statistics-image15.png)
 ![image](media/Crash-Course-Statistics-image16.png)
-![image](media/Crash-Course-Statistics-image17.png)-   Main Effects
+![image](media/Crash-Course-Statistics-image17.png)-  Main Effects
 
 ![image](media/Crash-Course-Statistics-image18.png)
 34. **Fitting models is like Tetris**
-    -   **ANCOVA - Analysis of Covariance**
-    -   **Repeated measures ANOVA**
-    -   **ANOVA - Allow us to analyze the effect of variables with two or more groups on continuos variables**
-    -   **Regressions - Allow us to analyze two continuous variables**
-    -   **General Linear Model - Explain the data we observe by building a model to predict that data, and then keeping track of how close the prediction is.**
-    -   **We can combine ANOVA and regression to give us more flexible ANCOVA**
-    -   **Example - we want to calculate the amount of anaesthesia needed for red heads and non red heads. We have two categorical variables (red and non-red) and a continuous variable i.e. weight. Because weight plays a important role in the amount of anaesthesia used.**
-    -   **Covariates - Continuous variables that are used to explain our outcome variable.**
-    -   **Repeated measures ANOVA - Asks whether there's a significant difference between two or more groups or conditions**
+    -  **ANCOVA - Analysis of Covariance**
+    -  **Repeated measures ANOVA**
+    -  **ANOVA - Allow us to analyze the effect of variables with two or more groups on continuos variables**
+    -  **Regressions - Allow us to analyze two continuous variables**
+    -  **General Linear Model - Explain the data we observe by building a model to predict that data, and then keeping track of how close the prediction is.**
+    -  **We can combine ANOVA and regression to give us more flexible ANCOVA**
+    -  **Example - we want to calculate the amount of anaesthesia needed for red heads and non red heads. We have two categorical variables (red and non-red) and a continuous variable i.e. weight. Because weight plays a important role in the amount of anaesthesia used.**
+    -  **Covariates - Continuous variables that are used to explain our outcome variable.**
+    -  **Repeated measures ANOVA - Asks whether there's a significant difference between two or more groups or conditions**
 35. **War**
-    -   **Bayesian search theory**
-    -   **For finding the number of tanks based on number of observations**
-        -   **Max = M + (M/N) + 1**
-        -   **M is max serial number observed**
-        -   **N is number of observations**
+    -  **Bayesian search theory**
+    -  **For finding the number of tanks based on number of observations**
+        -  **Max = M + (M/N) + 1**
+        -  **M is max serial number observed**
+        -  **N is number of observations**
 41. **When predictions fail**
 
 - Logistic Curve
@@ -177,6 +177,6 @@ SSG tell us how much variation can be explained by coming from one of the four p
 ![image](media/Crash-Course-Statistics-image19.jpg)
 
 carrying capacity; exponential versus logistic population growth
-In an ideal environment (one that has no limiting factors) populations grow at an exponential rate. The growth curve of these populations is smooth and becomes increasingly steep over time (left). However, for all populations, exponential growth is curtailed by factors such as limitations in food, competition for other resources, or disease. As competition increases and resources become increasingly scarce, populations reach the carrying capacity (K) of their environment, causing their growth rate to slow nearly to zero. This produces an S-shaped curve of population growth known as the logistic curve (right).-   Inflection Point
+In an ideal environment (one that has no limiting factors) populations grow at an exponential rate. The growth curve of these populations is smooth and becomes increasingly steep over time (left). However, for all populations, exponential growth is curtailed by factors such as limitations in food, competition for other resources, or disease. As competition increases and resources become increasingly scarce, populations reach the carrying capacity (K) of their environment, causing their growth rate to slow nearly to zero. This produces an S-shaped curve of population growth known as the logistic curve (right).-  Inflection Point
 
 A point on a curve at which the curve changes from being concave (concave downward) to convex (concave upward), or vice versa.

@@ -37,8 +37,8 @@ Things to keep in mind:
 
 A **character** is a minimal unit of text that has semantic value.
 A **character set** is a collection of characters that might be used by multiple languages. For example, the Latin character set is used by English and most European languages, though the Greek character set is used only by the Greek language.
-A**coded character set**is a character set where each character is assigned a unique number.
-A**code point** is a value that can be used in a coded character set. A code point is a 32-bitintdata type, where the lower 21 bits represent a valid code point value and the upper 11 bits are 0. Code point is a character and this is represented by one or more code units depending on the encoding.
+A **coded character set**is a character set where each character is assigned a unique number.
+A **code point** is a value that can be used in a coded character set. A code point is a 32-bitintdata type, where the lower 21 bits represent a valid code point value and the upper 11 bits are 0. Code point is a character and this is represented by one or more code units depending on the encoding.
 
 ## Unicode
 

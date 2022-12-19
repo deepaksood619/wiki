@@ -14,12 +14,13 @@ Modified: 2018-02-06 09:44:20 +0500
 
    - Use internal left-leaning links as glue for 3-nodes
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image1.png)
-a.  Properties
-    - No node has two red links connected to it
-    - Every path from root to null link has the same number of black links
-    - Red links lean left
 
-b.  Operations
+- Properties
+  - No node has two red links connected to it
+  - Every path from root to null link has the same number of black links
+  - Red links lean left
+
+- Operations
 
 1. Search
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image2.png)
@@ -40,26 +41,26 @@ b.  Operations
 
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image10.png)
 
-b.  Insert into a tree with exactly 1 node
+- Insert into a tree with exactly 1 node
 
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image11.png)
 
-i.  Insert into a 2-node at the bottom
-    -   Do standard BST insert; color new link red
-    -   If new red link is a right link, rotate left
+- Insert into a 2-node at the bottom
+  - Do standard BST insert; color new link red
+  - If new red link is a right link, rotate left
 
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image12.png)
 
-c.  Insert into a tree with exactly 2 nodes
+- Insert into a tree with exactly 2 nodes
 
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image13.png)
 
-i.  Insert into a 3-node at the bottom
-    -   Do standard BST insert; color new link red
-    -   Rotate to balance the 4-node
-    -   Flip colors to pass red link up one level
-    -   Rotate to make lean left
-    -   Repeat case 1 or case 2 up the tree
+- Insert into a 3-node at the bottom
+  - Do standard BST insert; color new link red
+  - Rotate to balance the 4-node
+  - Flip colors to pass red link up one level
+  - Rotate to make lean left
+  - Repeat case 1 or case 2 up the tree
 
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image14.png)
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image15.png)

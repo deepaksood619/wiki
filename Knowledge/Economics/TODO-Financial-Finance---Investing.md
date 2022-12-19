@@ -133,7 +133,7 @@ Masterworksis the first platform for buying and selling shares representing an i
 
 ## Malinvestment - the action or fact of investing money in an ill-judged or wasteful way
 
-A**consumer spendsmoney andfollowstrends** while an**investor puts capital to work**andtakes advantageof trends.
+A **consumer spendsmoney andfollowstrends** while an**investor puts capital to work**andtakes advantageof trends.
 
 Chronic consumers often go broke, and persistent investors often get rich.
 

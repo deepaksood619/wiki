@@ -60,10 +60,10 @@ Can also use set
 Solution - using two markers, in which marker2 will move two nodes ahead for every one node that marker1 moves, if both markers are equal means there is a cycle
 
 Mysolution - add visited as a variable to node, use set to store seen nodes (not efficient)
-2.  Linked List Reversal in-place
+2. Linked List Reversal in-place
 
 Solution - Use previous, current, next pointers (remember to save nextnode before updating the current.nextnode)
-3.  Nth to last node
+3. Nth to last node
 
 Solution - Use two pointers - last and nth_last, move last to given n steps away. Move both pointers one step until last becomes last node.
 

@@ -231,7 +231,7 @@ This would utilize the first part (last_name) of our index, allowing us to quick
 
 ## If you're utilizing an index for range queries, try make sure the column you're performing the range over is ordered last within the index
 
-Similarly, you can't use an index fully to perform range queries on two columns for the points already mentioned.-   You may need to have indexes on the same columns in different orders depending on your queries.
+Similarly, you can't use an index fully to perform range queries on two columns for the points already mentioned.-  You may need to have indexes on the same columns in different orders depending on your queries.
 
 - Try use as many columns as possible up to the first range of the query --- after a range no other index column can be used. So put the index that is likely to be ranged right at the end.
 

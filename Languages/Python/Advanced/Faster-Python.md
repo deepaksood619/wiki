@@ -16,23 +16,23 @@ Modified: 2022-02-01 14:55:17 +0500
 
 For spatial query like distances, nearest neighbor, kd trees etc.
 
-b.  pandas
+- pandas
 
 for SQL-like grouping or aggregation
 
-c.  xarray
+- xarray
 
 for grouping across multiple dimensions
 
-d.  scipy.sparse
+- scipy.sparse
 
 sparse matrices for 2-dimensional structured data
 
-e.  sparse package
+- sparse package
 
 for N-dimensional structured data
 
-f.  scipy.sparse.csgraph
+- scipy.sparse.csgraph
 
 for graph-like problems (e.g. finding shortest paths)
 

@@ -6,7 +6,7 @@ Modified: 2022-01-10 18:41:51 +0500
 
 ---
 
-A**virtual private network**(**VPN**) extends a [private network](https://en.wikipedia.org/wiki/Private_network) across a public network, and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running on a computing device, e.g., a laptop, desktop, smartphone, across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, though not an inherent, part of a VPN connection.
+A **virtual private network**(**VPN**) extends a [private network](https://en.wikipedia.org/wiki/Private_network) across a public network, and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network. Applications running on a computing device, e.g., a laptop, desktop, smartphone, across a VPN may therefore benefit from the functionality, security, and management of the private network. Encryption is a common, though not an inherent, part of a VPN connection.
 Full Tunnel
 
 ## Split Tunnel

@@ -19,9 +19,9 @@ Bottom up (What do we need to store?)
 
 1. Trip Storage (needed immediately)
 
-2. Analytics data-   Cloud providers
+2. Analytics data-  Cloud providers
 
-- In house storage-   Close data center
+- In house storage-  Close data center
 - Backup data center
 When close data center is down, data can be fetched from backup data center. Providing high availability, Low latency
 Uber uses mix of sql and nosql databases, fork of mysql which operates schemaless

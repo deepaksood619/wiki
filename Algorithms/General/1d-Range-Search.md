@@ -10,15 +10,15 @@ Modified: 2018-02-06 11:29:52 +0500
 
 ## Operations
 
-a.  Insert key-value pair
+- Insert key-value pair
 
-b.  Search for key k
+- Search for key k
 
-c.  Delete key k
+- Delete key k
 
-d.  Range Search: find all keys between k1 and k2
+- Range Search: find all keys between k1 and k2
 
-e.  Range Count: number of keys between k1 and k2
+- Range Count: number of keys between k1 and k2
 
 ## Application - Database queries
 

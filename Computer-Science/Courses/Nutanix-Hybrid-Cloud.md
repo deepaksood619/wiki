@@ -54,17 +54,17 @@ x86 hardwareis a good fit for virtualization because, since the mid 2000s, each 
 
 x86 virtualization dramatically changed infrastructure resource utilization for the better:
 
-i.  The ability to utilize 80% or more of the available infrastructure resources meant that businesses also experienced huge ROI gains with drastically lower TCO.
+- The ability to utilize 80% or more of the available infrastructure resources meant that businesses also experienced huge ROI gains with drastically lower TCO.
 
-ii. An added benefit was that VMs could be moved between hosts without downtime, and operational processes such as cloning, deployment, backup, and recovery of servers and applications were simplified.
+- An added benefit was that VMs could be moved between hosts without downtime, and operational processes such as cloning, deployment, backup, and recovery of servers and applications were simplified.
 
 ## Disadvantages
 
-a.  VM sprawl and the need for high availability resulted in high demands on storage and network resources.
+- VM sprawl and the need for high availability resulted in high demands on storage and network resources.
 
-b.  If VM sprawl goes unmanaged, it can result in more complexity and increased costs.
+- If VM sprawl goes unmanaged, it can result in more complexity and increased costs.
 
-c.  Mixed environments -- which include both virtualized and non-virtualized workloads -- can result in even more management complexity.
+- Mixed environments -- which include both virtualized and non-virtualized workloads -- can result in even more management complexity.
 
 ## Software Defined Datacenter (SDDC)
 
@@ -119,17 +119,17 @@ Companies are subject to many regulations regarding security and data-handling--
 
 Nutanix provides the public cloud benefits that organizations want with the control that they need on-prem. There aresixmajor benefits to Nutanix HCI specifically:
 
-a.  **Full-cloud:**It's a full-cloud stack that integrates all compute, storage, virtualization, and networking resources to run any application.
+- **Full-cloud:**It's a full-cloud stack that integrates all compute, storage, virtualization, and networking resources to run any application.
 
-b.  **One-click simplicity:**This entire stack is managed via a single pane of glass that streamlines IT lifecycle management and makes hybrid and multi-cloud management easy .
+- **One-click simplicity:**This entire stack is managed via a single pane of glass that streamlines IT lifecycle management and makes hybrid and multi-cloud management easy .
 
-c.  **Deployed in minutes:**The applications themselves can be deployed in minutes, instead of weeks or months. This is true for new infrastructure as well.
+- **Deployed in minutes:**The applications themselves can be deployed in minutes, instead of weeks or months. This is true for new infrastructure as well.
 
-d.  **Automation application management:**Application management can also be automated, along with other common IT tasks. Application owners and developers can also be given on-demand IT services.
+- **Automation application management:**Application management can also be automated, along with other common IT tasks. Application owners and developers can also be given on-demand IT services.
 
-e.  **Lower cloud costs:**You can also reduce your datacenter TCO by up to 60%. This will help optimize your public cloud spend with lower cloud costs.
+- **Lower cloud costs:**You can also reduce your datacenter TCO by up to 60%. This will help optimize your public cloud spend with lower cloud costs.
 
-f.  **True hybrid cloud:**This refers to the ability for you to combine both public and private cloud operations with unified management.
+- **True hybrid cloud:**This refers to the ability for you to combine both public and private cloud operations with unified management.
 ![image](media/Nutanix-Hybrid-Cloud-image6.png)
 
 1. Acropolis:The data plane

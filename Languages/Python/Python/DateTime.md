@@ -54,21 +54,21 @@ Time.time() - Gives current time (in number of ticks since 12:00am, January 1, 1
 
 There are two kinds of date and time objects: "naive" and "aware".
 
-a.  An aware object has sufficient knowledge of applicable algorithmic and political time adjustments, such as time zone and daylight saving time information, to locate itself relative to other aware objects. An aware object is used to represent a specific moment in time that is not open to interpretation
+- An aware object has sufficient knowledge of applicable algorithmic and political time adjustments, such as time zone and daylight saving time information, to locate itself relative to other aware objects. An aware object is used to represent a specific moment in time that is not open to interpretation
 
-b.  A naive object does not contain enough information to unambiguously locate itself relative to other date/time objects. Whether a naive object represents Coordinated Universal Time (UTC), local time, or time in some other timezone is purely up to the program, just like it is up to the program whether a particular number represents metres, miles, or mass. Naive objects are easy to understand and to work with, at the cost of ignoring some aspects of reality.
+- A naive object does not contain enough information to unambiguously locate itself relative to other date/time objects. Whether a naive object represents Coordinated Universal Time (UTC), local time, or time in some other timezone is purely up to the program, just like it is up to the program whether a particular number represents metres, miles, or mass. Naive objects are easy to understand and to work with, at the cost of ignoring some aspects of reality.
 
-i.  Class datetime.date
+- Class datetime.date
 
-ii. Class datetime.time
+- Class datetime.time
 
-iii. Class datetime.datetime
+- Class datetime.datetime
 
-iv. Class datetime.timedelta
+- Class datetime.timedelta
 
-v.  Class datetime.tzinfo
+- Class datetime.tzinfo
 
-vi. Class datetime.timezone
+- Class datetime.timezone
 
 Objects of these types are immutable.
 

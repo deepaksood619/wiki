@@ -10,7 +10,7 @@ Modified: 2021-10-25 22:56:10 +0500
 
 ## Hash Function
 
-A**hash function** is any [function](https://en.wikipedia.org/wiki/Function_(mathematics)) that can be used to map [data](https://en.wikipedia.org/wiki/Data_(computing)) of arbitrary size to data of fixed size. The values returned by a hash function are called*hash values*,*hash codes*,*digests*, or simply *hashes*. The values are used to index a fixed-size table called a*hash table*. Use of a hash function to index a hash table is called *hashing* or *scatter storage addressing*.
+A **hash function** is any [function](https://en.wikipedia.org/wiki/Function_(mathematics)) that can be used to map [data](https://en.wikipedia.org/wiki/Data_(computing)) of arbitrary size to data of fixed size. The values returned by a hash function are called*hash values*,*hash codes*,*digests*, or simply *hashes*. The values are used to index a fixed-size table called a*hash table*. Use of a hash function to index a hash table is called *hashing* or *scatter storage addressing*.
 
 ## Consistent Hashing
 
@@ -77,10 +77,10 @@ A hash function that maps each item into a unique slot is referred to as a perfe
 - **Trivial Hash Function**
 - **Folding Method**
   - The folding method for constructing the hash functions begins by dividing the item into equal-size pieces (the last piece may not be of equal size)
-  - These pieces are then added together to give the resulting hash value.-   **Mid-square method**
+  - These pieces are then added together to give the resulting hash value.-  **Mid-square method**
   - We first square the item, and then extract some portion of the resulting digits.
   - For example, if the item were 44, we would first compute 44^2^ = 1936
-  - By extracting the middle two digits, 93, and performing the remainder step, we get 93 % 11 = 5-   **Division hashing**
+  - By extracting the middle two digits, 93, and performing the remainder step, we get 93 % 11 = 5-  **Division hashing**
 - **Algebraic coding**
 - **Unique permuatation hashing**
 - **Multiplicative hashing**

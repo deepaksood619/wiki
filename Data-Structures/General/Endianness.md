@@ -17,9 +17,9 @@ denoting or relating to a system of ordering bytes in a word, or bits in a byte,
 
 - **Little Endian Format - LSB is stored first**
 
-In little endian machines, last byte of binary representation of the multibyte data-type is stored first.-   **Big Endian Format - MSB is stored first**
+In little endian machines, last byte of binary representation of the multibyte data-type is stored first.-  **Big Endian Format - MSB is stored first**
 
-In big endian machines, first byte of binary representation of the multibyte data-type is stored first.-   **Middle Endian Format**
+In big endian machines, first byte of binary representation of the multibyte data-type is stored first.-  **Middle Endian Format**
 
 - **Bi-endianness**
 

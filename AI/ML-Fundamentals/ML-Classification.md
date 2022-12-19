@@ -404,7 +404,7 @@ Reinforcement learning is concerned with how an *agent*ought to take *actions*in
 
 Helps determine how well fit our clusters are, even without existing labels.
 
-ii. Hierarchical clustering
+- Hierarchical clustering
 
 ![image](media/ML-Classification-image8.png)
 

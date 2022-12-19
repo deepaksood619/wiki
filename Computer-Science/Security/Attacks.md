@@ -27,7 +27,7 @@ Involves some modification of data stream or creation of false stream
 
 ## Return to Libc Attack (Buffer/Heap overflow attack)
 
-It is a [computer security](https://en.wikipedia.org/wiki/Computer_security) attack usually starting with a [buffer overflow](https://en.wikipedia.org/wiki/Buffer_overflow) in which a subroutine [return address](https://en.wikipedia.org/wiki/Return_statement) on a [call stack](https://en.wikipedia.org/wiki/Call_stack) is replaced by an address of a subroutine that is already present in the process' executable memory, bypassing the [NX bit](https://en.wikipedia.org/wiki/NX_bit) feature (if present) and ridding the attacker of the need to inject their own code.-   Modify the return address to point to some function already residing in memory. (This works because single stack is shared by all functions of a process (library or user program)).
+It is a [computer security](https://en.wikipedia.org/wiki/Computer_security) attack usually starting with a [buffer overflow](https://en.wikipedia.org/wiki/Buffer_overflow) in which a subroutine [return address](https://en.wikipedia.org/wiki/Return_statement) on a [call stack](https://en.wikipedia.org/wiki/Call_stack) is replaced by an address of a subroutine that is already present in the process' executable memory, bypassing the [NX bit](https://en.wikipedia.org/wiki/NX_bit) feature (if present) and ridding the attacker of the need to inject their own code.-  Modify the return address to point to some function already residing in memory. (This works because single stack is shared by all functions of a process (library or user program)).
 Smashing the Stack for Fun and Profit by Aleph One
 
 ## MITM Attack (Meet in the Middle Attack)
@@ -90,8 +90,8 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 
 ![image](media/Attacks-image5.jpeg)
 6.  **Time-based Blind SQLi**
-    -   **Time-based SQLi is a blind SQLi technique that relies on the database pausing for a specified amount of time, then returning the results, indicating a successful SQL query execution**
-    -   **Example Query**
+    -  **Time-based SQLi is a blind SQLi technique that relies on the database pausing for a specified amount of time, then returning the results, indicating a successful SQL query execution**
+    -  **Example Query**
 
 If the first character of the administrator's hashed password is an 'a', wait for 10 seconds
 

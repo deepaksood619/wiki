@@ -16,11 +16,11 @@ In the example with the editor, you can choose a separate class to be the guardi
 
 ## Situations in which it's appropriate to use the pattern
 
-## 1)When you need to save snapshots of the object's state (or a part of it), so that the object could later be restored in the same state
+1. When you need to save snapshots of the object's state (or a part of it), so that the object could later be restored in the same state
 
 The Memento pattern allows you to create any number of the object's snapshots and store them, regardless of the object from which they've been taken. Snapshots are often used not only to implement a cancellation operation, but also for transactions when the state of the object needs to be "rolled back" if the operation failed.
 
-## 2)When the direct interface for obtaining the state of the object reveals details of the implementation and violates the encapsulation of the object
+2. When the direct interface for obtaining the state of the object reveals details of the implementation and violates the encapsulation of the object
 
 ## Pros
 
