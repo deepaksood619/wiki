@@ -20,55 +20,21 @@ Modified: 2021-12-01 16:15:07 +0500
 
 | **Operator** | **Description**      |
 |--------------|----------------------|
-| &            | Bitwise AND          |
-| |           | Bitwise OR           |
-| ^           | Bitwise exclusive OR |
+| `&`            | Bitwise AND          |
+| `\|`           | Bitwise OR           |
+| `^`           | Bitwise exclusive OR |
 
 ## SQL Comparison Operators
 
-<table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 86%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Operator</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>=</td>
-<td>Equal to</td>
-</tr>
-<tr>
-<td>`>`</td>
-<td>Greater than</td>
-</tr>
-<tr>
-<td>`<`</td>
-<td>Less than</td>
-</tr>
-<tr>
-<td>`>`=</td>
-<td>Greater than or equal to</td>
-</tr>
-<tr>
-<td>`<`=</td>
-<td>Less than or equal to</td>
-</tr>
-<tr>
-<td>`\<  \>`, !=</td>
-<td>Not equal to</td>
-</tr>
-<tr>
-<td>`\< = \>`</td>
-<td>Null safe equal<br
-This operator performs an equality comparison like the<a href="https://dev.mysql.com/doc/refman/8.0/en/comparison-operators.html#operator_equal">=</a>operator, but returns1rather thanNULLif both operands areNULL, and0rather thanNULLif one operand isNULL.</td>
-</tr>
-</tbody>
-</table>
+| **Operator** | **Description** |
+|---|---|
+| `=` | Equal to |
+| `>` | Greater than |
+| `<` | Less than |
+| `>`= | Greater than or equal to |
+| `<`= | Less than or equal to |
+| `\`, != | Not equal to |
+| `\` | Null safe equal=operator, but returns1rather thanNULLif both operands are NULL, and 0 rather than NULL if one operand is NULL. |
 
 ## SQL Compound Operators
 
@@ -81,7 +47,7 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 | %=           | Modulo equals            |
 | &=           | Bitwise AND equals       |
 | ^-=         | Bitwise exclusive equals |
-| |*=        | Bitwise OR equals        |
+| `\|*=`        | Bitwise OR equals        |
 
 ## SQL Logical Operators
 
@@ -106,10 +72,10 @@ This operator performs an equality comparison like the<a href="https://dev.mysql
 |---------|------------------------------|---------------------------------|
 | *         | Represents zero or more characters                  | bl* finds bl, black, blue, and blob                           |
 | ?          | Represents a single character                       | h?t finds hot, hat, and hit                                    |
-| []       | Represents any single character within the brackets | h[oa]t finds hot and hat, but not hit                        |
-| !          | Represents any character not in the brackets        | h[!oa]t finds hit, but not hot and hat                       |
-| -        | Represents a range of characters                    | c[a-b]t finds cat and cbt                                    |
-| #         | Represents any single numeric character             | 2#5 finds 205, 215, 225, 235, 245, 255, 265, 275, 285, and 295 |
+| []       | Represents any single character within the brackets | `h[oa]t` finds hot and hat, but not hit                        |
+| !          | Represents any character not in the brackets        | `h[!oa]t` finds hit, but not hot and hat                       |
+| -        | Represents a range of characters                    | `c[a-b]t finds cat and cbt`                                    |
+| #         | Represents any single numeric character             | `2#5 finds 205, 215, 225, 235, 245, 255, 265, 275, 285, and 295` |
 
 ## Wildcard Characters in SQL Server
 

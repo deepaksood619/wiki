@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "External-Tech",
+      "path": "Office/Credentials/External-Tech.md"
+    },
+    {
+      "basename": "Internal-Tech",
+      "path": "Office/Credentials/Internal-Tech.md"
+    },
+    {
       "basename": "Youtube---Podcasts---Magazine---Movies",
       "path": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
     },
@@ -101,10 +109,6 @@
       "path": "Databases/NoSQL-Databases/Redis/redis-py.md"
     },
     {
-      "basename": "External-Tech",
-      "path": "Office/Credentials/External-Tech.md"
-    },
-    {
       "basename": "Startup-Ideas---Physical",
       "path": "Office/Ideas/Startup-Ideas---Physical.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "Domain-Driven-Design",
       "path": "Computer-Science/System-Design/Microservice-Architecture/Domain-Driven-Design.md"
-    },
-    {
-      "basename": "Internal-Tech",
-      "path": "Office/Credentials/Internal-Tech.md"
     },
     {
       "basename": "Coursera---PM",

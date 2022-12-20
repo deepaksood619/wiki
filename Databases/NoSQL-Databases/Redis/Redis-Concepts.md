@@ -77,7 +77,7 @@ This means that at any given moment the maximum amount of keys already expired t
 
 ## Scan
 
-## Time complexity:O(1) for every call. O(N) for a complete iteration, including enough command calls for the cursor to return back to 0. N is the number of elements inside the collection
+Time complexity:O(1) for every call. O(N) for a complete iteration, including enough command calls for the cursor to return back to 0. N is the number of elements inside the collection
 
 The [SCAN](https://redis.io/commands/scan) command and the closely related commands [SSCAN](https://redis.io/commands/sscan), [HSCAN](https://redis.io/commands/hscan) and [ZSCAN](https://redis.io/commands/zscan) are used in order to incrementally iterate over a collection of elements.
 
@@ -90,9 +90,11 @@ SCAN is a cursor based iterator. This means that at every call of the command, t
 An iteration starts when the cursor is set to 0, and terminates when the cursor returned by the server is 0.
 Starting an iteration with a cursor value of 0, and calling [SCAN](https://redis.io/commands/scan) until the returned cursor is 0 again is called afull iteration.
 
+```bash
 > sscan myset 0 match f*
-
 > redis-cli -a a6ad92769ef04b711eea18dccfff85ea --no-auth-warning --scan | while read LINE ; do TTL=`redis-cli --no-auth-warning -a a6ad92769ef04b711eea18dccfff85ea ttl "$LINE"`; if [ $TTL -eq -1 ]; then echo "$LINE"; fi; done;
+```
+
 <https://redis.io/commands/scan>
 
 ## Persistence

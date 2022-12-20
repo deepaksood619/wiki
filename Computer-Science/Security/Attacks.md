@@ -48,9 +48,10 @@ Where a different ip address is broadcasted for the DNS name, that is pointing t
 
 ## SQL Injection
 
-## Linwood_Cole' OR 1=1 #
-
-## 'admin;--
+```python
+Linwood_Cole\' OR 1=1;#
+\'admin;--
+```
 
 ## Types of SQL Injection
 
@@ -127,6 +128,6 @@ Different hardware-based techniques exist to prevent the row hammer effect from 
 Application Load Balancer (ALB) and Classic Load Balancer (CLB) now support HTTP Desync Mitigation Mode, a new feature that protects your application from issues due to HTTP Desync. Modern day web applications are typically built with a chain of proxies that ensure fast and reliable communication between clients and servers. While these proxies follow a standard mechanism to parse RFC 7230 compliant HTTP/1.1 requests, they may have differences in interpretation while parsing non-compliant requests. These differences in interpretation can cause Desync where different proxies in the chain may disagree on request boundaries and therefore may not process the same request. This could leave behind arbitrary messages that may be prepended to the next request in the queue and smuggled to the backend. Ultimately, request smuggling can make applications vulnerable to request queue or cache poisoning, which could lead to credential hijacking or execution of unauthorized commands.
 <https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn>
 
-## Man-in-the-Middle attack (MITM)**
+## Man-in-the-Middle attack (MITM)
 
-A [man-in-the-middle attack](http://searchsecurity.techtarget.com/definition/man-in-the-middle-attack) is one in which the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other. One example is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker, who even has the ability to modify the content of each message. Often abbreviated to**MITM, MitM, orMITMA,** and sometimes referred to as asession hijacking attack, it has a strong chance of success if the attacker can impersonate each party to the satisfaction of the other. MITM attacks pose a serious threat to online security because they give the attacker the ability to capture and manipulate sensitive information in real-time while posing as a trusted party during transactions, conversations, and the transfer of data. This is straightforward in many circumstances; for example, an attacker within reception range of an unencrypted WiFi access point, can insert himself as a man-in-the-middle.
+A [man-in-the-middle attack](http://searchsecurity.techtarget.com/definition/man-in-the-middle-attack) is one in which the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other. One example is active eavesdropping, in which the attacker makes independent connections with the victims and relays messages between them to make them believe they are talking directly to each other over a private connection, when in fact the entire conversation is controlled by the attacker, who even has the ability to modify the content of each message. Often abbreviated to **MITM, MitM, orMITMA,** and sometimes referred to as asession hijacking attack, it has a strong chance of success if the attacker can impersonate each party to the satisfaction of the other. MITM attacks pose a serious threat to online security because they give the attacker the ability to capture and manipulate sensitive information in real-time while posing as a trusted party during transactions, conversations, and the transfer of data. This is straightforward in many circumstances; for example, an attacker within reception range of an unencrypted WiFi access point, can insert himself as a man-in-the-middle.
