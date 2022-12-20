@@ -10,37 +10,26 @@ Designed to address the C10K problem: How can web servers handle 10,000 clients 
 
 ## NGINX / HAProxy
 
-Load balancers
-
-Very efficient pings
-
-Can manage tens of thousands connection from a client from a single instance
+- Load balancers
+- Very efficient pings
+- Can manage tens of thousands connection from a client from a single instance
 
 ## Installation
 
+```python
 sudo apt-get update
-
 sudo apt-get install nginx --yes
-
 sudo ufw app list
-
 sudo ufw status
-
 nginx -v
-
-sudo systemctl start nginx #start nginx
-
-sudo systemctl status nginx #check status of nginx
-
-curl <http://127.0.0.1> #test nginx
-
-sudo systemctl stop nginx #stop nginx
+sudo systemctl start nginx   #start nginx
+sudo systemctl status nginx  #check status of nginx
+curl http://127.0.0.1        #test nginx
+sudo systemctl stop nginx    #stop nginx
 
 sudo nginx -t #test the config
-
 sudo nginx -s reload # reload the config
-
-## References
+```
 
 <https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04>
 
@@ -56,8 +45,8 @@ worker_connectionssets the number of connections every worker process can handle
 - Filehandle Cache
 - Caching
 
-proxy_cache_path /path/to/cache levels=1:2 keys_zone=my_cache:10m max_size=10g
-inactive=60m;
+`proxy_cache_path /path/to/cache levels=1:2 keys_zone=my_cache:10m max_size=10g
+inactive=60m;`
 
 - Disable access logs
 - **Switch from TCP to UNIX domain sockets**

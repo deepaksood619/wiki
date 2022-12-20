@@ -126,7 +126,7 @@ Modified: 2021-01-30 01:13:06 +0500
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_floor.asp">FLOOR</a></td>
-<td>Returns the largest integer value that is `<`= to a number</td>
+<td>Returns the largest integer value that is <= to a number</td>
 </tr>
 <tr>
 <td><a href="https://www.w3schools.com/sql/func_mysql_greatest.asp">GREATEST</a></td>
