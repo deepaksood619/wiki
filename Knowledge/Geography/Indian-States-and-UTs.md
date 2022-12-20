@@ -80,7 +80,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>31,205,576</td>
 <td>78,550</td>
 <td>Assamese</td>
-<td>Bengali</a>,<a href="https://en.wikipedia.org/wiki/Bodo_language">Bodo</td>
+<td>Bengali,Bodo</td>
 </tr>
 <tr>
 <td>Bihar</td>
@@ -119,7 +119,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>1,458,545</td>
 <td>3,702</td>
 <td>Konkani</td>
-<td>English</a>,<a href="https://en.wikipedia.org/wiki/Marathi_language">Marathi</td>
+<td>English,Marathi</td>
 </tr>
 <tr>
 <td>Gujarat</td>
@@ -145,7 +145,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>25,351,462</td>
 <td>44,212</td>
 <td>Hindi</td>
-<td>Punjabi</a></td>
+<td>Punjabi</td>
 </tr>
 <tr>
 <td>Himachal Pradesh</td>
@@ -263,7 +263,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>20 February 1987</td>
 <td>1,097,206</td>
 <td>21,081</td>
-<td>English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</a>,<a href="https://en.wikipedia.org/wiki/Mizo_language">Mizo</td>
+<td>English,Hindi,Mizo</td>
 <td>—</td>
 </tr>
 <tr>
@@ -328,8 +328,8 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>16 May 1975</td>
 <td>610,577</td>
 <td>7,096</td>
-<td>Nepali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</td>
-<td>Bhutia</a>,<a href="https://en.wikipedia.org/wiki/Gurung_language">Gurung</a>,<a href="https://en.wikipedia.org/wiki/Lepcha_language">Lepcha</a>,<a href="https://en.wikipedia.org/wiki/Limbu_language">Limbu</a>,<a href="https://en.wikipedia.org/wiki/Manggar_language">Manggar</a>,<a href="https://en.wikipedia.org/wiki/Mukhia_language">Mukhia</a>,<a href="https://en.wikipedia.org/wiki/Newari_language">Newari</a>,<a href="https://en.wikipedia.org/wiki/Rai_languages">Rai</a>,<a href="https://en.wikipedia.org/wiki/Sherpa_language">Sherpa</a>,<a href="https://en.wikipedia.org/wiki/Tamang_language">Tamang</td>
+<td>Nepali,English</td>
+<td>Bhutia,Gurung,Lepcha,Limbu,Manggar,Mukhia,Newari,Rai,Sherpa,Tamang</td>
 </tr>
 <tr>
 <td>Tamil Nadu</td>
@@ -367,7 +367,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>21 January 1972</td>
 <td>3,673,917</td>
 <td>10,492</td>
-<td>Bengali</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</a>,<a href="https://en.wikipedia.org/wiki/Kokborok_language">Kokborok</td>
+<td>Bengali,English,Kokborok</td>
 <td>—</td>
 </tr>
 <tr>
@@ -409,7 +409,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>91,276,115</td>
 <td>88,752</td>
 <td>Bengali,Nepali</td>
-<td>Hindi</a>,<a href="https://en.wikipedia.org/wiki/Odia_language">Odia</a>,<a href="https://en.wikipedia.org/wiki/Punjabi_language">Punjabi</a>,<a href="https://en.wikipedia.org/wiki/Santali_language">Santali</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</td>
+<td>Hindi,Odia,Punjabi,Santali,Urdu</td>
 </tr>
 </tbody>
 </table>
@@ -454,7 +454,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td></td>
 <td>380,581</td>
 <td>8,249</td>
-<td>English</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</td>
+<td>English,Hindi</td>
 <td>—</td>
 </tr>
 <tr>
@@ -476,7 +476,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td></td>
 <td>343,709</td>
 <td>491</td>
-<td>Gujarati</a>,<a href="https://en.wikipedia.org/wiki/Hindi">Hindi</td>
+<td>Gujarati,Hindi</td>
 <td>Marathi</td>
 </tr>
 <tr>
@@ -510,14 +510,14 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>Srinagar</td>
 <td>12,258,433</td>
 <td>55,538</td>
-<td>Hindi</a>,<a href="https://en.wikipedia.org/wiki/English_language">English</td>
-<td>Dogri</a>,<a href="https://en.wikipedia.org/wiki/Kashmiri_language">Kashmiri</a>,<a href="https://en.wikipedia.org/wiki/Urdu">Urdu</td>
+<td>Hindi,English</td>
+<td>Dogri,Kashmiri,Urdu</td>
 </tr>
 <tr>
 <td>Ladakh</td>
 <td>IN-LA</td>
 <td>LA</td>
-<td>Leh</a>,<a href="https://en.wikipedia.org/wiki/Kargil">Kargil</td>
+<td>Leh,Kargil</td>
 <td>Leh</td>
 <td>290,492</td>
 <td>174,852</td>
@@ -544,7 +544,7 @@ Modified: 2022-01-30 11:58:21 +0500
 <td>1,247,953</td>
 <td>492</td>
 <td>EnglishTamil</td>
-<td>Malayalam</a>,<a href="https://en.wikipedia.org/wiki/Telugu_language">Telugu</td>
+<td>Malayalam,Telugu</td>
 </tr>
 </tbody>
 </table>
