@@ -54,6 +54,7 @@ Just remember to alwaysgit branch backupbefore you rebase. Then, after the rebas
 
 ## .git folder
 
+```python
 .
 |-- COMMIT_EDITMSG
 |-- FETCH_HEAD
@@ -72,19 +73,20 @@ Just remember to alwaysgit branch backupbefore you rebase. Then, after the rebas
 | |-- pre-commit
 | |-- pre-rebase
 | |-- prepare-commit-msg
-| `-- update
+| |-- update
 |-- index
 |-- info
-|`-- exclude
+|  |-- exclude
 |-- logs
 | |-- HEAD
-| `-- refs
+| |-- refs
 |-- objects
-`-- refs
-|-- heads
-|-- remotes
-|-- stash
-`-- tags
+|-- refs
+    |-- heads
+    |-- remotes
+    |-- stash
+    |-- tags
+```
 
 <https://git-scm.com/docs/gitrepository-layout>
 

@@ -98,53 +98,34 @@ Amazon S3 Select does not support whole-object compression for Parquet objects.
 
 <https://docs.aws.amazon.com/AmazonS3/latest/API/API_SelectObjectContent.html>
 
+```python
 import boto3
-
 s3 = boto3.client('s3', aws_access_key_id = 'AKIAU2R6AAK3FIYUQBXY', aws_secret_access_key = 'iedRCoJBtwJDBKSIMWKKT9NnrvuWdetAqZPQV3Eg')
 
 r = s3.select_object_content(
-
-Bucket='example-migration-data',
-
-# Key='rds/equifax_raw_response/st_comment.part_00000'
-
-Key='rds/equifax_raw_response/st_comment_escaped.part_00000',
-
-# Key='rds/equifax_raw_response/equifax_raw_response_2019-10-01_2019-10-31.part_00000'
-
-# Key='rds/equifax_raw_response/join_test_1000.part_00000'
-
-ExpressionType='SQL',
-
-# Expression="select * from s3object s LIMIT 100"
-
-Expression="select * from s3object s",
-
-InputSerialization = {'CSV': {"FileHeaderInfo": "NONE", "FieldDelimiter": ",", "RecordDelimiter": "n", "AllowQuotedRecordDelimiter": True, "QuoteCharacter": """, "QuoteEscapeCharacter": ""}},
-
-OutputSerialization = {'CSV': {}}
-
+        Bucket='stashfin-migration-data',
+        # Key='rds/equifax_raw_response/st_comment.part_00000',
+        Key='rds/equifax_raw_response/st_comment_escaped.part_00000',
+        # Key='rds/equifax_raw_response/equifax_raw_response_2019-10-01_2019-10-31.part_00000',
+        # Key='rds/equifax_raw_response/join_test_1000.part_00000',
+        ExpressionType='SQL',
+        # Expression="select * from s3object s LIMIT 100",
+        Expression="select * from s3object s",
+        InputSerialization = {'CSV': {"FileHeaderInfo": "NONE", "FieldDelimiter": ",", "RecordDelimiter": "\n", "AllowQuotedRecordDelimiter": True, "QuoteCharacter": "\"", "QuoteEscapeCharacter": "\\"}},
+        OutputSerialization = {'CSV': {}}
 )
 
 for event in r['Payload']:
-
-if 'Records' in event:
-
-records = event['Records']['Payload'].decode('utf-8')
-
-print(records)
-
-elif 'Stats' in event:
-
-statsDetails = event['Stats']['Details']
-
-print("Stats details bytesScanned: ")
-
-print(statsDetails['BytesScanned'])
-
-print("Stats details bytesProcessed: ")
-
-print(statsDetails['BytesProcessed'])
+    if 'Records' in event:
+        records = event['Records']['Payload'].decode('utf-8')
+        print(records)
+    elif 'Stats' in event:
+        statsDetails = event['Stats']['Details']
+        print("Stats details bytesScanned: ")
+        print(statsDetails['BytesScanned'])
+        print("Stats details bytesProcessed: ")
+        print(statsDetails['BytesProcessed'])
+```
 
 ## Object Lifecycle Management
 

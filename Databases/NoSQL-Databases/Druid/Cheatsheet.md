@@ -271,7 +271,7 @@ SQL Cheat Sheet
 
 ### Comparison Operators
 
-```
+```sql
 x = y
 x <> y
 x > y
@@ -299,7 +299,7 @@ NOT x
 
 ### Other Functions
 
-```
+```sql
 CAST(value AS TYPE)
 CASE expr WHEN value1 THEN result1 [ WHEN value2 THEN result2 ... ] [ ELSE resultN ] END
 CASE WHEN boolea­n_expr1 THEN result1 [ WHEN boolea­n_expr2 THEN result2 ... ] [ ELSE resultN ] END |

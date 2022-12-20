@@ -230,7 +230,7 @@ python test_de_script.py de_run_final.csv 2>&1 | tee -a outfile.log
 
 ## Wildcards and Help
 
-- * //match any number of characters
+  - * //match any number of characters
 - ? //match one character
 - man "command" //read the online manual page for a command
 - whatis "command" //brief description of a command

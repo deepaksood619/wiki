@@ -28,29 +28,26 @@ Because of their property of leveraging bit-level parallelism, computations over
 
 Most word-aligned run-length encoding algorithms represent long sequences of ones and zeros in a single word. The word contains the length of the sequence and some information about whether it is a one fill or a zero fill. Sequences that contain a mixture of 0 and 1 bits are stored in 32 bit blocks known as literals. An example of word-aligned hybrid compression is shown below:
 
-Given a bitstream:[10110...1][000...010][010...011]
+Given a bitstream: `[10110...1][000...010][010...011]`
 
 There are three separate 32 bit sequences in the bitstream.
 
+```python
 1. [1]0110...1- 31 "dirty" bits (a literal)
-
 2. [00]0...010- 31 x 2 zeros (a sequence of zeros)
-
 3. [01]0...011- 31 x 3 ones (a sequences of ones)
+```
 
 [Concise](http://ricerca.mat.uniroma3.it/users/colanton/docs/concise.pdf) bitmap compression introduces the concept of a mixed fill, where fills and literals can be represented in a single word. The author of the original Concise paper claims that Concise outperforms WAH by reducing the size of the compressed bitmaps by up to 50%. For mixed fill sequences, the first 2 bits indicate the type of fill (0 or 1). The next 5 bits can be used to indicate the position where bits flip from 0 to 1 or vice versa. An example of the Concise representation for the integer set {3, 5, 31-93, 1,024, 1,028, 1,040,187,422} is shown below:
 
+```python
 1. [1]0...101000
-
 2. [01][00000]0...01
-
 3. [00][00001]0...11101
-
 4. [1]0...100010
-
 5. [00][00000]1...1011101
-
 6. [1]10...0
+```
 
 Concisesets share a very important property with other bitmap compression schemes: they can be operated on in their compressed form.
 

@@ -252,854 +252,114 @@ Smooth, bright, seedless, conveniently wrapped; the banana is the original fast 
 
 ## Vitamins
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>They decide how our skin looks. How strong our bones are. How we fight infections. Whether we wake up happy or grumpy. Vitamins wield immense power over our bodies and minds. What’s more, Bigbasketeer, vitamin deficiencies can have some pretty serious consequences. Reason enough to take a closer look at them?</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Vitamins are...</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 27%" />
-<col style="width: 43%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>1.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>A group of compounds</strong></td>
-</tr>
-<tr>
-<td>There are 13 vitamins in all: A, C, D, E, K, and the B-complex of 8 vitamins</td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>2.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Micronutrients</strong></td>
-</tr>
-<tr>
-<td>We need them in tiny quantities (milli or micrograms). Unlike carbs/proteins, which are macronutrients.</td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>3.</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Essential nutrients</strong></td>
-</tr>
-<tr>
-<td>They’re not produced directly by our bodies but supplied from our food (with a few exceptions.)</td>
-</tr>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><strong>Vitamin supplements: Good or Bad?</strong></td>
-</tr>
-<tr>
-<td><img src="media/Nutrition_Food-image5.png" style="width:5in;height:2.38542in" alt="Vitamin supplements: Good or Bad?" </td>
-</tr>
-<tr>
-<td><p>When it comes to vitamins, there is such a thing as too much.<strong>Every vitamin has a recommended daily intake</strong>and you can get this from a healthy, diverse diet. But if you’re eating fortified foods and taking supplements (often ordered online without checking dosage or composition), you may consume more than you need.</p>
-<p>So, unless you have a diagnosed deficiency,<strong>get your vitamins from food.</strong>There is<a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAEMTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;">evidence</a>that this has better health outcomes overall!</p></td>
-</tr>
-<tr>
-<td><strong>Your guide to a vitamin-rich diet</strong></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="media/Nutrition_Food-image6.png" style="width:5in;height:0.72917in" alt="Vitamin A" </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 36%" />
-<col style="width: 63%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 61%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Important for</strong></th>
-<th><img src="media/Nutrition_Food-image7.png" style="width:0.55208in;height:0.55208in" alt="Important For" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 37%" />
-<col style="width: 62%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Growth</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Immunity</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Skin &amp; bone formation</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Reproductive health</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Eyesight</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 60%" />
-<col style="width: 39%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Get it from</strong></th>
-<th><img src="media/Nutrition_Food-image8.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 79%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Orange/yellow produce (carrots, red capsicum, mango, papaya, pumpkin)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Green leafy veggies</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Eggs</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAENTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN A FOODS</strong></a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><img src="media/Nutrition_Food-image9.png" style="width:5in;height:0.72917in" alt="Vitamin B" </td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 49%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 64%" />
-<col style="width: 35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Important for</strong></th>
-<th><img src="media/Nutrition_Food-image10.png" style="width:0.57292in;height:0.57292in" alt="Important For" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 73%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Metabolism</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>DNA synthesis</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Nervous system function</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>RBC creation</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 60%" />
-<col style="width: 39%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Get it from</strong></th>
-<th><img src="media/Nutrition_Food-image11.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 73%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Seafood, meat &amp; poultry</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Eggs &amp; dairy</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Legumes (beans, lentils)</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Green leafy veggies</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Beetroot</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAETw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN B FOODS</strong></a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><img src="media/Nutrition_Food-image12.png" style="width:5in;height:0.72917in" alt="Vitamin C" </td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 41%" />
-<col style="width: 58%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 64%" />
-<col style="width: 35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Important for</strong></th>
-<th><img src="media/Nutrition_Food-image13.png" style="width:0.57292in;height:0.57292in" alt="Important For" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 32%" />
-<col style="width: 67%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Collagen for skin &amp; hair</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Immunity</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Antioxidant properties</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 60%" />
-<col style="width: 39%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Get it from</strong></th>
-<th><img src="media/Nutrition_Food-image14.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 22%" />
-<col style="width: 77%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Citrus fruits</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Kiwi &amp; amla</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Potato &amp; tomato</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Green leafies</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Cruciferous veggies (cabbage, gobi, broccoli)</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAFTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN C FOODS</strong></a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><img src="media/Nutrition_Food-image15.png" style="width:5in;height:0.72917in" alt="Vitamin E" </td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 37%" />
-<col style="width: 62%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 62%" />
-<col style="width: 37%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Important for</strong></th>
-<th><img src="media/Nutrition_Food-image16.png" style="width:0.55208in;height:0.55208in" alt="Important For" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 38%" />
-<col style="width: 61%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Skin &amp; hair</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Eyesight</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Antioxidant properties</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 60%" />
-<col style="width: 39%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Get it from</strong></th>
-<th><img src="media/Nutrition_Food-image17.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 79%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Nuts and seeds such as almonds, sunflower seeds, and peanuts</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Egg yolks</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Whole grains</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Green leafy veggies</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAGTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN E FOODS</strong></a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><img src="media/Nutrition_Food-image18.png" style="width:5in;height:0.72917in" alt="Vitamin K" </td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 54%" />
-<col style="width: 45%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 64%" />
-<col style="width: 35%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Important for</strong></th>
-<th><img src="media/Nutrition_Food-image19.png" style="width:0.57292in;height:0.57292in" alt="Important For" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 75%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Bone health</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Blood clotting &amp; wound healing</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-<th><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><table>
-<colgroup>
-<col style="width: 60%" />
-<col style="width: 39%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Get it from</strong></th>
-<th><img src="media/Nutrition_Food-image20.png" style="width:0.57292in;height:0.57292in" alt="Get it from" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 29%" />
-<col style="width: 70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>»</strong></th>
-<th>Green leafy vegetables</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>»</strong></td>
-<td>Avocado</td>
-</tr>
-<tr>
-<td><strong>»</strong></td>
-<td>Kiwi</td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAAHTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>SHOP VITAMIN K FOODS</strong></a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td>Wondering what happened to vitamins B4, B8, B10, and B11? They got the boot! As scientists’ understanding of vitamins evolved, these were no longer regarded as vitamins. Reminds you of Pluto, huh?</td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 75%" />
-<col style="width: 24%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Found this useful?</p>
-<p><strong>Save it for later and pass it on!</strong></p>
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><a href="http://lnk.info.bigbasket.com/gtrack?clientid=18595&amp;ul=UFQOW1MFAlRFB0lQVlVGUVJKWw1VUwgJcQNaUAsIT1YODEUHB1ZCA1JFWltXBgcJeV5ZA1gJF1NeCUs=&amp;ml=VVkJVB4DTlMJAAADTw==&amp;sl=Ix16HzdgTjF0YklYXVsYWVdfW0xTDF5SUBdcVBZKAloMHQk=&amp;pp=0&amp;"><strong>DOWNLOAD GUIDE</strong></a></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></th>
-<th><img src="media/Nutrition_Food-image21.png" style="width:0.88542in;height:0.875in" alt="Download" </th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-<tr>
-<td><strong>Wait, what about Vitamin D?</strong></td>
-</tr>
-<tr>
-<td><img src="media/Nutrition_Food-image22.png" style="width:5in;height:2.38542in" alt="Wait, what about Vitamin D?" </td>
-</tr>
-<tr>
-<td><p>We saved it for the last because it’s kinda special! Vitamin D has many roles to play—blood pressure regulation, bone growth, calcium balance, hormone production, immune health, nervous system function etc.</p>
-<p>Unlike the others, vitamin D can be produced by our bodies, provided our skin is exposed to adequate sunshine. Unfortunately, most of us don’t get enough time in the sun and hence, are D-deficient. ☹️</p></td>
-</tr>
-<tr>
-<td><table>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 75%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><img src="media/Nutrition_Food-image23.png" style="width:1.20833in;height:1.3125in" alt="Pro Tip" </th>
-<th><p><strong>Make Vit D while the sun shines</strong></p>
-<p>Try to get 10–20 minutes of sunlight ideally before noon, 3-4 times a week. Darker skin needs more sun than lighter skin; so adjust your sun exposure based on your need.</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
+They decide how our skin looks. How strong our bones are. How we fight infections. Whether we wake up happy or grumpy. Vitamins wield immense power over our bodies and minds. What’s more, Bigbasketeer, vitamin deficiencies can have some pretty serious consequences. Reason enough to take a closer look at them?
+
+Vitamins are...
+
+1. A group of compounds
+
+    There are 13 vitamins in all: A, C, D, E, K, and the B-complex of 8 vitamins
+
+2. Micronutrients
+
+    We need them in tiny quantities (milli or micrograms). Unlike carbs/proteins, which are macronutrients.
+
+3. Essential nutrients
+
+    They’re not produced directly by our bodies but supplied from our food (with a few exceptions.)
+
+#### Vitamin supplements: Good or Bad?
+
+When it comes to vitamins, there is such a thing as too much. Every vitamin has a recommended daily intake and you can get this from a healthy, diverse diet. But if you’re eating fortified foods and taking supplements (often ordered online without checking dosage or composition), you may consume more than you need.
+
+So, unless you have a diagnosed deficiency, get your vitamins from food. There is evidence that this has better health outcomes overall!
+
+### Your guide to a vitamin-rich diet
+
+#### Vitamin A
+
+Important for
+
+- Growth
+- Immunity
+- Skin & bone formation
+- Reproductive health
+- Eyesight
+
+Get it from
+
+- Orange/yellow produce (carrots, red capsicum, mango, papaya, pumpkin)
+- Green leafy veggies
+- Eggs
+
+#### Vitamin B Complex
+
+Important for
+
+- Metabolism
+- DNA synthesis
+- Nervous system function
+- RBC creation
+
+Get it from
+
+- Seafood, meat & poultry
+- Eggs & dairy
+- Legumes (beans, lentils)
+- Green leafy veggies
+- Beetroot
+
+#### Vitamin C
+
+Important for
+
+- Collagen for skin & hair
+- Immunity
+- Antioxidant properties
+
+Get it from
+
+- Citrus fruits
+- Kiwi & amla
+- Potato & tomato
+- Green leafies
+- Cruciferous veggies (cabbage, gobi, broccoli)
+
+#### Vitamin E
+
+Important for
+
+- Skin & hair
+- Eyesight
+- Antioxidant properties
+
+Get it from
+
+- Nuts and seeds such as almonds, sunflower seeds, and peanuts
+- Egg yolks
+- Whole grains
+- Green leafy veggies
+
+#### Vitamin K
+
+Important for
+
+- Bone health
+- Blood clotting & wound healing
+
+Get it from
+
+- Green leafy vegetables
+- Avocado
+- Kiwi
+
+Wondering what happened to vitamins B4, B8, B10, and B11? They got the boot! As scientists’ understanding of vitamins evolved, these were no longer regarded as vitamins. Reminds you of Pluto, huh?
+
+#### Wait, what about Vitamin D?
+
+We saved it for the last because it’s kinda special! Vitamin D has many roles to play—blood pressure regulation, bone growth, calcium balance, hormone production, immune health, nervous system function etc.
+Unlike the others, vitamin D can be produced by our bodies, provided our skin is exposed to adequate sunshine. Unfortunately, most of us don’t get enough time in the sun and hence, are D-deficient. ☹️
+
+**Make Vit D while the sun shines**
+
+Try to get 10–20 minutes of sunlight ideally before noon, 3-4 times a week. Darker skin needs more sun than lighter skin; so adjust your sun exposure based on your need.
