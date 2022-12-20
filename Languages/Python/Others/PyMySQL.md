@@ -206,7 +206,7 @@ import logging
 
 ## Others
 
-    <https://pypi.org/project/mysql-connector-python>
+<https://pypi.org/project/mysql-connector-python>
 
 ## psycopg2
 

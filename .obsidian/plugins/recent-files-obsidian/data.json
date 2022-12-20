@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Youtube---Podcasts---Magazine---Movies",
+      "path": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
+    },
+    {
       "basename": "Tatoos-Quotes",
       "path": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "STL-Containers",
       "path": "Languages/C++/STL-Containers.md"
-    },
-    {
-      "basename": "Dockerfile-example",
-      "path": "Technologies/DevOps/Docker/Dockerfile-example.md"
     }
   ],
   "omittedPaths": [],

@@ -62,13 +62,13 @@ Timeline world history documentaries
   - NPTEL - <https://www.youtube.com/channel/UCYa1WtI-vb_bx-anHdmpNfA/playlists>
   - Research
     - Microsoft research
+    - Talks at google
   - book summaries
   - Objectivity
   - Seeker
     - Bizarre beasts
     - scishow + scishow space
     - Scishow psych
-  - Crash Course - Chemistry/Others
   - Real Engineering
   - Natgeo / Discovery
     - How its made
@@ -91,6 +91,17 @@ Timeline world history documentaries
   - Charismaoncommand
   - theschooloflifetv
   - Thomasfrank
+  - In a nutshell
+  - Daily stoic
+  - All in podcast
+  - Tim ferris
+  - Hubspot - marketing
+  - People
+    - andrew huberman (professor of neurobiology at Stanford)
+  - Courses
+  - freecodecamp
+  - MIT opencourseware
+  - Crashcourse
 - **News**
   - BBC / BBC Reel
   - Aljajeera

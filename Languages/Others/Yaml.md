@@ -26,7 +26,6 @@ YAML includes a markup language with important construct, to distinguish data-or
 - YAML does not allow the use of tabs while creating YAML files; spaces are allowed instead
 
 1. Collections and Structures
-
 2. Scalars and Tags
 
 There are only two types of structures you need to know about in YAML:
@@ -38,9 +37,11 @@ There are only two types of structures you need to know about in YAML:
 
 Let's start by looking at YAML maps. Maps let you associate name-value pairs, which of course is convenient when you're trying to set up configuration information. For example, you might have a config file that starts like this:
 
+```yaml
 ---
 apiVersion: v1
 kind: Pod
+```
 
 The first line is a separator, and is optional unless you're trying to define multiple structures in a single file. From there, as you can see, we have two values, v1andPod, mapped to two keys, apiVersionandkind.
 
@@ -48,27 +49,29 @@ The first line is a separator, and is optional unless you're trying to define mu
 
 YAML lists are literally a sequence of objects. For example:
 
+```python
 args:
-
-- sleep
-- "1000"
-- message
-- "Bring back Firefly!"
+  - sleep
+  - "1000"
+  - message
+  - "Bring back Firefly!"
+```
 
 As you can see here, you can have virtually any number of items in a list, which is defined as items that start with a dash (-) indented from the parent.
 
 YAML Front Matter, which can be parsed using a library called [gray-matter](https://github.com/jonschlinkert/gray-matter).
 
+```yaml
 ---
-
 title: 'Two Forms of Pre-rendering'
 date: '2020-01-01'
 ---
+```
 
-## npm install gray-matter
+### npm install gray-matter
 
 <https://github.com/jonschlinkert/gray-matter>
 
-## References
+### References
 
 <https://www.tutorialspoint.com/yaml/yaml_basics.htm>

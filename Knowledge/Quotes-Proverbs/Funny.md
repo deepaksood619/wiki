@@ -24,11 +24,11 @@ I was bubbling with Joy😊😍🤗
 
 She then leant towards me and whispered in my ear...
 
-*"Hand over all your cash, cards and mobile phone to me , else I will shout loudly and tell everybody that you are harassing and misbehaving with me"*
+Hand over all your cash, cards and mobile phone to me , else I will shout loudly and tell everybody that you are harassing and misbehaving with me
 
 I stared blankly at her 🙄
 
-I took out a paper and a pen from my bag and wrote " I am sorry, I can not hear or speak... Please write on this paper whatever you want to say"
+I took out a paper and a pen from my bag and wrote "I am sorry, I can not hear or speak... Please write on this paper whatever you want to say"
 
 The lady wrote everything what she said earlier and gave it to me!
 
@@ -36,11 +36,13 @@ I took her note, kept it nicely in my pocket...
 
 I got up and told her in clear tones..."
 
-*Now shout & scream !!*
+Now shout & scream !!
 
 Moral of the story : *DOCUMENTATION IS VERY IMPORTANT*
 
 Credit : Swami.V
+
+---
 
 We are all humans until we are pregnant -- Giles Yao
 

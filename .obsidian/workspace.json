@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md"
+                "file": "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "06e8851540a77b4b",
   "lastOpenFiles": [
+    "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
     "Languages/Others/Regular-Expressions---Regex.md",
     "Knowledge/Management/Project---Product---Business---Tools---SAAS.md",
     "Office/HR-^M-Interviews/Interviews---Others/Archive.md",
@@ -179,7 +180,6 @@
     "Languages/SQL/DML---Data-Manipulation-Language.md",
     "Languages/SQL/DCL---Data-Control-Language.md",
     "Languages/SQL/SQL-Examples.md",
-    "Languages/SQL/example-sql-queries.md",
-    "Languages/SQL/SQL-Views.md"
+    "Languages/SQL/example-sql-queries.md"
   ]
 }

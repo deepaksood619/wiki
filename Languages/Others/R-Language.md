@@ -28,11 +28,11 @@ print(var)
 >>> library(tidyverse) # importing an R package
 
 >>> chocolateData <- read_csv("../input/chocolate-bar-ratings/flavors_of_cacao.csv")
-# some of our column names have spaces in them. This line changes the column names to 
+# some of our column names have spaces in them. This line changes the column names to
 # versions without spaces, which let's us talk about the columns by their names.
 >>> names(chocolateData) <- make.names(names(chocolateData), unique=TRUE)
 
->>> head(chocolateData) # the head() function reads just the first few lines of a file. 
+>>> head(chocolateData) # the head() function reads just the first few lines of a file.
 >>> tail(chocolateData, 3) # the tail() function reads in the last 3 lines of a file.
 
 Getting data from two dimensional data structure
@@ -49,6 +49,7 @@ Getting data from two dimensional data structure
 ```
 
 ## Variables
+
 1. Character (Surrounded by double quotes)
 2. Numeric
 3. Logical (Boolean) (TRUE/FALSE)
