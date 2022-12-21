@@ -70,203 +70,143 @@ Athena supports read, time travel, write, and DDL queries for Apache Iceberg tab
 
 Use **approx distinct count** whenever you don't have to have an exact count. so replace your distinct count(distinct x) with approx_distinct(x). This is a big one (exact distinct count causes your query to run on a single Presto node. This function has a standard error of 2.3% (you can actually customize this with approx_distinct(x, e))
 
+```sql
 SELECT count(*) AS TOTALNUMBEROFTABLES
-
-FROM INFORMATION_SCHEMA.TABLES
-
-WHERE TABLE_SCHEMA = 's3_db';
+    FROM INFORMATION_SCHEMA.TABLES
+    WHERE TABLE_SCHEMA = 's3_db';
 
 SELECT device_id, message.sendernumber,message.message,message.dateTime, udsms, partition_0, partition_1,partition_2
-
-FROM "s3_db"."userdevicesms_0d23a883b4a272dd4892202efbac8b59"
-
+FROM "s3_db"."folder_0d23a883b4a272dd4892202efbac8b59" 
 CROSS JOIN UNNEST(udsms) as t(message)
-
 where device_id = '1f385b6e17c395d0';
 
-## example Queries
-
-select * FROM "pinpointanalytics"."emailanalyticsfinal" where event_type in ('email.open',
-
-'_email.softbounce',
-
-'_email.send',
-
-'_email.delivered',
-
-'_email.rendering_failure',
-
-'_email.click',
-
-'_email.hardbounce')
-
-and year = '2021'
-
-AND month = '11'
-
-AND day >= '08'
-
-Based event type aggregation query -
-
-SELECT event_type,count(*) FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' group by event_type
-
-Detailed info on hard bounce
-
-SELECT facets.email_channel.mail_event.mail.destination,facets.email_channel.mail_event.bounce.bounce_sub_type FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.hardbounce'
-
-Detailed info on email click.
-
-SELECT facets.email_channel.mail_event.mail.destination [0],facets.email_channel.mail_event.click.link FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.click'
-
-Differen sub status on campaign send
-
-SELECT attributes.campaign_send_status,count(*) FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_campaign.send' group by attributes.campaign_send_status
-
-Email Open query
-
-SELECT facets.email_channel.mail_event.mail.destination [0] FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.open'
-
-## SMS Analytics
-
-SELECT event_type, count(*)
+Example Queries
+    select * FROM "pinpointanalytics"."emailanalyticsfinal" where  event_type in ('email.open',
+    '_email.softbounce',
+    '_email.send',
+    '_email.delivered',
+    '_email.rendering_failure',
+    '_email.click',
+    '_email.hardbounce')
+    and  year = '2021'
+    AND month = '11'
+    AND day >= '08'
+    
+    Based event type aggregation query -
+        SELECT event_type,count(*) FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' group by event_type
+    
+    Detailed info on hard bounce
+        SELECT facets.email_channel.mail_event.mail.destination,facets.email_channel.mail_event.bounce.bounce_sub_type FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.hardbounce'
+    
+    Detailed info on email click.
+        SELECT facets.email_channel.mail_event.mail.destination[0],facets.email_channel.mail_event.click.link FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.click'
+    
+    Differen sub status on campaign send
+        SELECT attributes.campaign_send_status,count(*) FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_campaign.send' group by attributes.campaign_send_status
+    
+    Email Open query
+        SELECT facets.email_channel.mail_event.mail.destination[0] FROM "pinpointanalytics"."emailanalytics" where attributes.campaign_id = '33d07428932540adafcfd0679558957e' and event_type = '_email.open'
+        
+    SMS Analytics
+        SELECT event_type, count(*)
 FROM "pinpointanalytics"."emailanalyticsfinal"
 WHERE year = '2021'
-AND month = '08'
-AND day = '22'
-AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
+    AND month = '08'
+    AND day = '22'
+    AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
 GROUP BY event_type;
-
-SELECT attributes ['record_status'], count(*)
+        
+        SELECT attributes['record_status'], count(*)
 FROM "pinpointanalytics"."emailanalyticsfinal"
 WHERE year = '2021'
-AND month = '08'
-AND day = '22'
-AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
-GROUP BY attributes ['record_status']
+    AND month = '08'
+    AND day = '22'
+    AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
+GROUP BY attributes['record_status']
+        
+        # sms clicked
+        SELECT attributes['customer_id'], count(*)
+        FROM "pinpointanalytics"."emailanalyticsfinal"
+        WHERE year = '2021'
+                AND month = '11'
+                AND day = '22'
+                AND attributes['template_id'] = 'razorpay_link'
+                AND event_type= '_SMS.CLICKED'
+            group by attributes['customer_id'];
 
-## # sms clicked
-
-SELECT attributes ['customer_id'], count(*)
-
-FROM "pinpointanalytics"."emailanalyticsfinal"
-
-WHERE year = '2021'
-
-AND month = '11'
-
-AND day = '22'
-
-AND attributes ['template_id'] = 'razorpay_link'
-
-AND event_type= '_SMS.CLICKED'
-
-group by attributes ['customer_id'];
-
-SELECT event_type, count(*)
-
-FROM "pinpointanalytics"."emailanalyticsfinal"
-
-WHERE year = '2021'
-
-AND month >= '09'
-
-AND day = '24'
-
-AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
-
-GROUP BY event_type;
-
-SELECT attributes ['record_status'], count(*)
-
-FROM "pinpointanalytics"."emailanalyticsfinal"
-
-WHERE year = '2021'
-
-AND month >= '09'
-
-AND day = '24'
-
-AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
-
-GROUP BY attributes ['record_status'];
-
-select * FROM "pinpointanalytics"."emailanalyticsfinal" where event_type in ('_SMS.FAILURE') and json_extract_scalar(attributes ['customer_context'], '$.customer_id') ='4547012' limit 5
-
-select * FROM "pinpointanalytics"."emailanalyticsfinal" where json_extract_scalar(attributes ['customer_context'], '$.customer_id') ='4990002' limit 5
+    SELECT event_type, count(*)
+    FROM "pinpointanalytics"."emailanalyticsfinal"
+    WHERE year = '2021'
+            AND month >= '09'
+            AND day = '24'
+            AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
+    GROUP BY event_type;
+    
+    SELECT attributes['record_status'], count(*)
+    FROM "pinpointanalytics"."emailanalyticsfinal"
+    WHERE year = '2021'
+            AND month >= '09'
+            AND day = '24'
+            AND event_type in ('_SMS.FAILURE', '_SMS.SUCCESS')
+    GROUP BY attributes['record_status'];
+    
+    select * FROM "pinpointanalytics"."emailanalyticsfinal" where event_type in ('_SMS.FAILURE') and json_extract_scalar(attributes['customer_context'], '$.customer_id') ='4547012' limit 5
+    
+    select * FROM "pinpointanalytics"."emailanalyticsfinal" where json_extract_scalar(attributes['customer_context'], '$.customer_id') ='4990002' limit 5
 
 CREATE EXTERNAL TABLE IF NOT EXISTS join_test (
-
-customer_id int,
-
-occupation string,
-
-salary int,
-
-Current_City_Name string,
-
-Current_State_Name string,
-
-is_operational int,
-
-is_elevate_operational int )
-
+    customer_id int, 
+    occupation string, 
+    salary int, 
+    Current_City_Name string, 
+    Current_State_Name string, 
+    is_operational int, 
+    is_elevate_operational int ) 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-
 LOCATION 's3://example-migration-data/rds/equifax_raw_response/join_test_1000';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS user_device_sms (
-
-id int,
-
-customer_id int,
-
-occupation string,
-
-sender string,
-
-message string,
-
-message_type string,
-
-sms_time date,
-
-create_date date,
-
-device_id string)
-
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-
+    id int,
+    customer_id int, 
+        occupation string, 
+        sender string, 
+        message string, 
+        message_type string, 
+        sms_time date, 
+        create_date date,
+    device_id string) 
+    ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 LOCATION 's3://example-migration-data/rds/user_device_sms/user_device_sms.part_1000';
 
 CREATE EXTERNAL TABLE `user_device_sms`(
-`col0` bigint,
-`col1` bigint,
+`col0` bigint, 
+`col1` bigint, 
 `col2` string)
-ROW FORMAT DELIMITED
-FIELDS TERMINATED BY ','
-STORED AS INPUTFORMAT
-'org.apache.hadoop.mapred.TextInputFormat'
-OUTPUTFORMAT
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ',' 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
 's3://example-migration-data/rds/user_device_sms/user_device_sms.part_00000'
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `s3_db.st_bank_sms`(
-`avlbal` double,
-`amount` double,
-`trns_type` string,
-`hash_key` string,
-`sender` string,
-`created_at` timestamp,
-`id` int,
-`customer_id` int,
-`trns_mode` string,
+`avlbal` double, 
+`amount` double, 
+`trns_type` string, 
+`hash_key` string, 
+`sender` string, 
+`created_at` timestamp, 
+`id` int, 
+`customer_id` int, 
+`trns_mode` string, 
 `sms_time` string)
-ROW FORMAT SERDE
-'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
-STORED AS INPUTFORMAT
-'org.apache.hadoop.mapred.TextInputFormat'
-OUTPUTFORMAT
+ROW FORMAT SERDE 
+'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
 's3://example-migration-data/glue/st_bank_sms'
@@ -274,176 +214,127 @@ TBLPROPERTIES (
 'has_encrypted_data'='false');
 
 CREATE EXTERNAL TABLE IF NOT EXISTS `s3_db.st_bank_sms`(
-
-`avlbal` double,
-
-`amount` double,
-
-`trns_type` string,
-
-`hash_key` string,
-
-`sender` string,
-
-`created_at` timestamp,
-
-`id` int,
-
-`customer_id` int,
-
-`trns_mode` string,
-
-`sms_time` string)
-
-ROW FORMAT SERDE
-
-'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
-
-STORED AS INPUTFORMAT
-
-'org.apache.hadoop.mapred.TextInputFormat'
-
-OUTPUTFORMAT
-
-'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
-
+    `avlbal` double, 
+    `amount` double, 
+    `trns_type` string, 
+    `hash_key` string, 
+    `sender` string, 
+    `created_at` timestamp, 
+    `id` int, 
+    `customer_id` int, 
+    `trns_mode` string, 
+    `sms_time` string)
+ROW FORMAT SERDE 
+    'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
+STORED AS INPUTFORMAT 
+    'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
+    'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-
-'s3://sttash-user-device/sttash_website_LIVE/userDeviceSms';
+    's3://example/example/folder';
 
 CREATE EXTERNAL TABLE IF NOT EXISTS s3_db.test (
-
-`id` string,
-
-`customer_id` string,
-
-`sender` string,
-
-`message` string,
-
-`message_type` string,
-
-`sms_time` date,
-
-`create_date` date,
-
-`device_id` string
-
+    `id` string,
+    `customer_id` string,
+    `sender` string,
+    `message` string,
+    `message_type` string,
+    `sms_time` date,
+    `create_date` date,
+    `device_id` string 
 )
-
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
-
 WITH SERDEPROPERTIES (
-
-'serialization.format' = ',',
-
-'field.delim' = '|||'
-
-) LOCATION 's3://sttash-user-device/sttash_website_LIVE/userDeviceSms/'
-
+    'serialization.format' = ',',
+    'field.delim' = '|||'
+) LOCATION 's3://example/example/folder/'
 TBLPROPERTIES ('has_encrypted_data'='false');
 
 CREATE EXTERNAL TABLE `parquet`(
-`customer_id` bigint,
-`loanid` bigint,
-`@amount` string,
-`@balance` string,
-`@category` string,
-`@chqno` string,
-`@date` string,
-`@narration` string,
+`customer_id` bigint, 
+`loanid` bigint, 
+`@amount` string, 
+`@balance` string, 
+`@category` string, 
+`@chqno` string, 
+`@date` string, 
+`@narration` string, 
 `__index_level_0__` bigint)
-ROW FORMAT SERDE
-'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
-STORED AS INPUTFORMAT
-'org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat'
-OUTPUTFORMAT
+ROW FORMAT SERDE 
+'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.hive.ql.io.parquet.MapredParquetInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.parquet.MapredParquetOutputFormat'
 LOCATION
 's3://example-migration-data/parquet/'
 TBLPROPERTIES (
-'CrawlerSchemaDeserializerVersion'='1.0',
-'CrawlerSchemaSerializerVersion'='1.0',
-'UPDATED_BY_CRAWLER'='parquet',
-'averageRecordSize'='40',
-'classification'='parquet',
-'compressionType'='none',
-'objectCount'='1',
-'recordCount'='56464',
-'sizeKey'='2301512',
+'CrawlerSchemaDeserializerVersion'='1.0', 
+'CrawlerSchemaSerializerVersion'='1.0', 
+'UPDATED_BY_CRAWLER'='parquet', 
+'averageRecordSize'='40', 
+'classification'='parquet', 
+'compressionType'='none', 
+'objectCount'='1', 
+'recordCount'='56464', 
+'sizeKey'='2301512', 
 'typeOfData'='file')
 
-CREATE EXTERNAL TABLE IF NOT EXISTS `s3_db.perfios_account_transactions`(
-`date` date,
-`perfios_account_id` int,
-`amount` double,
-`chqno` string,
-`second_category` string,
-`remark` string,
-`perfios_count_id` int,
-`balance` double,
-`narration` string,
-`id` int,
-`customer_id` int,
-`category` string,
+CREATE EXTERNAL TABLE IF NOT EXISTS `s3_db.example_account_transactions`(
+`date` date, 
+`example_account_id` int, 
+`amount` double, 
+`chqno` string, 
+`second_category` string, 
+`remark` string, 
+`example_count_id` int, 
+`balance` double, 
+`narration` string, 
+`id` int, 
+`customer_id` int, 
+`category` string, 
 `loan_id` int)
-ROW FORMAT SERDE
-'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe'
-STORED AS INPUTFORMAT
-'org.apache.hadoop.mapred.TextInputFormat'
-OUTPUTFORMAT
+ROW FORMAT SERDE 
+'org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe' 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://example-migration-data/glue/perfios_account_transactions'
+'s3://example-migration-data/glue/example_account_transactions'
 TBLPROPERTIES (
 'has_encrypted_data'='false');
 
 s3://example-migration-data/test/request_1364644_20191017132643.json
-
 s3://ap-south-1.example.com/example-migration-data/test/
 
 CREATE EXTERNAL TABLE IF NOT EXISTS s3_db.test (
-
-`id` string,
-
-`customer_id` string,
-
-`sender` string,
-
-`message` string,
-
-`message_type` string,
-
-`sms_time` date,
-
-`create_date` date,
-
-`device_id` string
-
+    `id` string,
+    `customer_id` string,
+    `sender` string,
+    `message` string,
+    `message_type` string,
+    `sms_time` date,
+    `create_date` date,
+    `device_id` string 
 )
-
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
-
 WITH SERDEPROPERTIES (
-
-'serialization.format' = ',',
-
-'field.delim' = ','
-
-) LOCATION 's3://ap-south-1.example.com/sttash-user-device/sttash_website_LIVE/userDeviceSms/'
-
+    'serialization.format' = ',',
+    'field.delim' = ','
+) LOCATION 's3://ap-south-1.example.com/example/example/folder/'
 TBLPROPERTIES ('has_encrypted_data'='false');
 
 CREATE EXTERNAL TABLE `test_json_1`(
-`header` map<string,string> COMMENT 'from deserializer',
-`tracking-id` string COMMENT 'from deserializer',
-`acknowledgement-id` string COMMENT 'from deserializer',
+`header` map<string,string> COMMENT 'from deserializer', 
+`tracking-id` string COMMENT 'from deserializer', 
+`acknowledgement-id` string COMMENT 'from deserializer', 
 `response-format` array<string> COMMENT 'from deserializer')
-ROW FORMAT SERDE
-'org.openx.data.jsonserde.JsonSerDe'
-STORED AS INPUTFORMAT
-'org.apache.hadoop.mapred.TextInputFormat'
-OUTPUTFORMAT
+ROW FORMAT SERDE 
+'org.openx.data.jsonserde.JsonSerDe' 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
 's3://example-migration-data/test'
@@ -451,367 +342,218 @@ TBLPROPERTIES (
 'transient_lastDdlTime'='1583144161')
 
 CREATE EXTERNAL TABLE x (
-
-`acknowledgement-id` string,
-
-`header` struct<`application-id`:string, `cust-id`:string, `request-received-time`:string, `request-type`:string>,
-
-`response-format` array<string>,
-
-`tracking-id` string)
-
+    `acknowledgement-id` string,
+    `header` struct<`application-id`:string, `cust-id`:string, `request-received-time`:string, `request-type`:string>,
+    `response-format` array<string>,
+    `tracking-id` string)
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
-
-STORED AS INPUTFORMAT
-'org.apache.hadoop.mapred.TextInputFormat'
-
-OUTPUTFORMAT
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
-
 LOCATION
 's3://example-migration-data/test'
 
-CREATE EXTERNAL TABLE perfios (
+CREATE EXTERNAL TABLE example (
+            `acknowledgement-id` int,
+            `finished` array<struct<`bureau`:string,
+            `json-response-object`:struct<`accountlist`:array<struct<`accounttype`:string,
+            `currentbalance`:string,
+            `dateopenedordisbursed`:string,
+            `datereportedandcertified`:string,
+            `ownershipindicator`:string,
+            `paymenthistory1`:string,
+            `paymenthistoryenddate`:string,
+            `paymenthistorystartdate`:string,
+            `reportingmembershortname`:string>>,
+            `addresslist`:array<struct<`addresscategory`:string,
+            `addressline1`:string,
+            `datereported`:string,
+            `enrichedthroughtenquiry`:string,
+            `pincode`:string,
+            `statecode`:string>>,
+            `employmentlist`:array<struct<`accounttype`:string,
+            `datereported`:string,
+            `occupationcode`:string>>,
+            `enquirylist`:array<struct<`datereported`:string,
+            `enquiryamount`:string,
+            `enquirypurpose`:string,
+            `reportingmembershortname`:string>>,
+            `header`:struct<`dateproceed`:string,
+            `enquirycontrolnumber`:string,
+            `enquirymemberuserid`:string,
+            `memberreferencenumber`:string,
+            `serialversionuid`:int,
+            `subjectreturncode`:string,
+            `timeproceed`:string,
+            `version`:string>,
+            `idlist`:array<struct<`idtype`:string,
+            `idvalue`:string>>,
+            `name`:struct<`dob`:string,
+            `gender`:string,
+            `name1`:string,
+            `name2`:string,
+            `name3`:string>,
+            `phonelist`:array<struct<`enrichenquiryforphone`:string,
+            `telephonenumber`:string,
+            `telephonetype`:string>>,
+            `scorelist`:array<struct<`reasoncode1`:string,
+            `reasoncode2`:string,
+            `reasoncode3`:string,
+            `score`:string,
+            `scorecardname`:string,
+            `scorecardversion`:string,
+            `scoredate`:string,
+            `scorename`:string>>>,
+            `pdf report`:array<int>,
+            `product`:string,
+            `status`:string,
+            `tracking-id`:int>>,
+            `header` struct<`application-id`:string,
+            `cust-id`:string,
+            `request-received-time`:string,
+            `response-type`:string>,
+            `status` string
+) 
+ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe' STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat' LOCATION 's3://example-migration-data/example_response';
 
-`acknowledgement-id` int,
-
-`finished` array<struct<`bureau`:string,
-
-`json-response-object`:struct<`accountlist`:array<struct<`accounttype`:string,
-
-`currentbalance`:string,
-
-`dateopenedordisbursed`:string,
-
-`datereportedandcertified`:string,
-
-`ownershipindicator`:string,
-
-`paymenthistory1`:string,
-
-`paymenthistoryenddate`:string,
-
-`paymenthistorystartdate`:string,
-
-`reportingmembershortname`:string>>,
-
-`addresslist`:array<struct<`addresscategory`:string,
-
-`addressline1`:string,
-
-`datereported`:string,
-
-`enrichedthroughtenquiry`:string,
-
-`pincode`:string,
-
-`statecode`:string>>,
-
-`employmentlist`:array<struct<`accounttype`:string,
-
-`datereported`:string,
-
-`occupationcode`:string>>,
-
-`enquirylist`:array<struct<`datereported`:string,
-
-`enquiryamount`:string,
-
-`enquirypurpose`:string,
-
-`reportingmembershortname`:string>>,
-
-`header`:struct<`dateproceed`:string,
-
-`enquirycontrolnumber`:string,
-
-`enquirymemberuserid`:string,
-
-`memberreferencenumber`:string,
-
-`serialversionuid`:int,
-
-`subjectreturncode`:string,
-
-`timeproceed`:string,
-
-`version`:string>,
-
-`idlist`:array<struct<`idtype`:string,
-
-`idvalue`:string>>,
-
-`name`:struct<`dob`:string,
-
-`gender`:string,
-
-`name1`:string,
-
-`name2`:string,
-
-`name3`:string>,
-
-`phonelist`:array<struct<`enrichenquiryforphone`:string,
-
-`telephonenumber`:string,
-
-`telephonetype`:string>>,
-
-`scorelist`:array<struct<`reasoncode1`:string,
-
-`reasoncode2`:string,
-
-`reasoncode3`:string,
-
-`score`:string,
-
-`scorecardname`:string,
-
-`scorecardversion`:string,
-
-`scoredate`:string,
-
-`scorename`:string>>>,
-
-`pdf report`:array<int>,
-
-`product`:string,
-
-`status`:string,
-
-`tracking-id`:int>>,
-
-`header` struct<`application-id`:string,
-
-`cust-id`:string,
-
-`request-received-time`:string,
-
-`response-type`:string>,
-
-`status` string
-
-)
-
-ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe' STORED AS INPUTFORMAT 'org.apache.hadoop.mapred.TextInputFormat' OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat' LOCATION 's3://example-migration-data/perfios_response';
-
-*WITH* SERDEPROPERTIES (*'ignore.malformed.json'* = *'true'*)
+WITH  SERDEPROPERTIES ('ignore.malformed.json' = 'true')
 
 CREATE external TABLE complex_json (
-
-docid string,
-
-`user` struct<
-
-id:INT,
-
-username:string,
-
-name:string,
-
-shippingaddress:struct<
-
-address1:string,
-
-address2:string,
-
-city:string,
-
-state:string
-
->,
-
-orders:array<
-
-struct<
-
-itemid:INT,
-
-orderdate:string
-
->
-
->
-
->
-
-)
-
+    docid string,
+    `user` struct<
+                id:INT,
+                username:string,
+                name:string,
+                shippingaddress:struct<
+                                        address1:string,
+                                        address2:string,
+                                        city:string,
+                                        state:string
+                                        >,
+                orders:array<
+                            struct<
+                                    itemid:INT,
+                                    orderdate:string
+                                    >
+                                >
+                >
+    )
 ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
-
 LOCATION 's3://mybucket/myjsondata/';
 
-CREATE EXTERNAL TABLE `userdevicesms_0d23a883b4a272dd4892202efbac8b59`(
-`device_id` string COMMENT 'from deserializer',
-`udsms` array<struct<sendernumber:string,message:string,datetime:string,messagetype:string,smsid:int>> COMMENT 'from deserializer',
+CREATE EXTERNAL TABLE `folder_0d23a883b4a272dd4892202efbac8b59`(
+`device_id` string COMMENT 'from deserializer', 
+`udsms` array<struct<sendernumber:string,message:string,datetime:string,messagetype:string,smsid:int>> COMMENT 'from deserializer', 
 `cust_id` string COMMENT 'from deserializer')
-PARTITIONED BY (
-`partition_0` string,
-`partition_1` string,
+PARTITIONED BY ( 
+`partition_0` string, 
+`partition_1` string, 
 `partition_2` string)
-ROW FORMAT SERDE
-'org.openx.data.jsonserde.JsonSerDe'
-WITH SERDEPROPERTIES (
-'paths'='cust_id,device_id,udsms')
-STORED AS INPUTFORMAT
-'org.apache.hadoop.mapred.TextInputFormat'
-OUTPUTFORMAT
+ROW FORMAT SERDE 
+'org.openx.data.jsonserde.JsonSerDe' 
+WITH SERDEPROPERTIES ( 
+'paths'='cust_id,device_id,udsms') 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-'s3://example-migration-data/userdevicesms/'
+'s3://example-migration-data/folder/'
 TBLPROPERTIES (
-'CrawlerSchemaDeserializerVersion'='1.0',
-'CrawlerSchemaSerializerVersion'='1.0',
-'UPDATED_BY_CRAWLER'='s3_userdevicesms',
-'averageRecordSize'='28252',
-'classification'='json',
-'compressionType'='none',
-'objectCount'='4198',
-'recordCount'='4197',
-'sizeKey'='122901020',
+'CrawlerSchemaDeserializerVersion'='1.0', 
+'CrawlerSchemaSerializerVersion'='1.0', 
+'UPDATED_BY_CRAWLER'='s3_folder', 
+'averageRecordSize'='28252', 
+'classification'='json', 
+'compressionType'='none', 
+'objectCount'='4198', 
+'recordCount'='4197', 
+'sizeKey'='122901020', 
 'typeOfData'='file')
 
-## # adding partitions manually
-
-ALTER TABLE s3_db.test_response add partition (partition_0="2020", partition_1="04", partition_2="23")
-
-location "[s3://example-migration-data/userdevicesms_request/response/2020/04/23](s3://example-migration-data/userdevicesms_request/response/2020/04/23)";
-
-## # creating tables with or without some columns are supported
-
+# adding partitions manually
+    ALTER TABLE s3_db.test_response add partition (partition_0="2020", partition_1="04", partition_2="23")
+    location "s3://example-migration-data/folder_request/response/2020/04/23";
+    
+# creating tables with or without some columns are supported
 CREATE EXTERNAL TABLE `test_response`(
-
-`delay_time` string COMMENT 'from deserializer',
-
-`create_date` string COMMENT 'from deserializer',
-
-`customer_id` double COMMENT 'from deserializer',
-
-`device_id` string COMMENT 'from deserializer',
-
-`oldest_sms` string COMMENT 'from deserializer',
-
-`latest_sms` string COMMENT 'from deserializer',
-
-`nummessages` int COMMENT 'from deserializer',
-
-`score` double COMMENT 'from deserializer',
-
-`model_execution_status` string COMMENT 'from deserializer',
-
-`reason_code` string COMMENT 'from deserializer',
-
-`tier` double COMMENT 'from deserializer',
-
-`model_name` string COMMENT 'from deserializer',
-
-`decision_model_flag` int COMMENT 'from deserializer',
-
-`request_key` string COMMENT 'from deserializer',
-
+`delay_time` string COMMENT 'from deserializer', 
+`create_date` string COMMENT 'from deserializer', 
+`customer_id` double COMMENT 'from deserializer', 
+`device_id` string COMMENT 'from deserializer', 
+`oldest_sms` string COMMENT 'from deserializer', 
+`latest_sms` string COMMENT 'from deserializer', 
+`nummessages` int COMMENT 'from deserializer', 
+`score` double COMMENT 'from deserializer', 
+`model_execution_status` string COMMENT 'from deserializer', 
+`reason_code` string COMMENT 'from deserializer', 
+`tier` double COMMENT 'from deserializer', 
+`model_name` string COMMENT 'from deserializer', 
+`decision_model_flag` int COMMENT 'from deserializer', 
+`request_key` string COMMENT 'from deserializer', 
 `request_response_flag` string COMMENT 'from deserializer')
-
-PARTITIONED BY (
-
-`partition_0` string,
-
-`partition_1` string,
-
+PARTITIONED BY ( 
+`partition_0` string, 
+`partition_1` string, 
 `partition_2` string)
-
-ROW FORMAT SERDE
-
-'org.openx.data.jsonserde.JsonSerDe'
-
-WITH SERDEPROPERTIES (
-
-'paths'='create_date,customer_id,decision_model_flag,delay_time,device_id,latest_sms,model_execution_status,model_name,numMessages,oldest_sms,reason_code,request_key,request_response_flag,score,tier')
-
-STORED AS INPUTFORMAT
-
-'org.apache.hadoop.mapred.TextInputFormat'
-
-OUTPUTFORMAT
-
-'[org.apache.hadoop.hive.ql.io](http://org.apache.hadoop.hive.ql.io/).HiveIgnoreKeyTextOutputFormat'
-
+ROW FORMAT SERDE 
+'org.openx.data.jsonserde.JsonSerDe' 
+WITH SERDEPROPERTIES ( 
+'paths'='create_date,customer_id,decision_model_flag,delay_time,device_id,latest_sms,model_execution_status,model_name,numMessages,oldest_sms,reason_code,request_key,request_response_flag,score,tier') 
+STORED AS INPUTFORMAT 
+'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
+'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
+'s3://example-migration-data/folder_request/response/'
 
-'[s3://example-migration-data/userdevicesms_request/response/](s3://example-migration-data/userdevicesms_request/response/)'
-
-<https://aws.amazon.com/blogs/big-data/analyzing-data-in-s3-using-amazon-athena>
+https://aws.amazon.com/blogs/big-data/analyzing-data-in-s3-using-amazon-athena/
 
 CREATE EXTERNAL TABLE IF NOT EXISTS http_requests (
-
 `referrer_url` string,
-
 `target_url` string,
-
 `method` string,
-
 `request_headers` map,
-
 `request_params` map,
-
 `is_https` boolean,
-
 `user_agent` string,
-
 `response_http_code` int,
-
 `response_headers` map,
-
 `transaction_id` string,
-
 `server_hostname` string)
-
 PARTITIONED BY (`date` string)
-
 STORED AS PARQUET
-
 LOCATION 's3://httprequests/'
-
-## tblproperties ("parquet.compress"="GZIP")
-
-<https://medium.com/@costimuraru/querying-terabytes-of-proto-parquet-data-with-amazon-athena-or-apache-hive-fb51addce5ac>
-
-SELECT create_date,customer_id,loan_id,credit_amt_2m,credit_cnt_2m,debit_amt_2m,debit_cnt_2m
-
-,credit_amt_3m,credit_cnt_3m,debit_amt_3m,debit_cnt_3m,avg_eod_balance_3M
-
+tblproperties ("parquet.compress"="GZIP");
+    https://medium.com/@costimuraru/querying-terabytes-of-proto-parquet-data-with-amazon-athena-or-apache-hive-fb51addce5ac
+    
+SELECT  create_date,customer_id,loan_id,credit_amt_2m,credit_cnt_2m,debit_amt_2m,debit_cnt_2m
+    ,credit_amt_3m,credit_cnt_3m,debit_amt_3m,debit_cnt_3m,avg_eod_balance_3M
 FROM bank_data.meta_data where cast(substring(create_date,1,19) as timestamp) between date_add('month',-3,now()) and now();
+```
 
 ## Things to remember
 
 - MSCK repair statement loads the partition data for Hive-compatible data/partitions like year=2020/month=04/day=20. In this case, you would have to use ALTER TABLE ADD PARTITION to add each partition manually.
 - Hive Schema mismatch
+    
+    It can happen that partition schema is different from table's schema leading to 'HIVE_PARTITION_SCHEMA_MISMATCH' error. At the beginning of query execution, Athena verifies the table's schema by checking that each column data type is compatible between the table and the partition. If you create a table in CSV, JSON, and AVRO in Athena with AWS Glue Crawler, after the Crawler finishes processing, the schemas for the table and its partitions may be different. If there is a mismatch between the table's schema and the partition schemas, your queries fail in Athena due to the schema verification error.
 
-It can happen that partition schema is different from table's schema leading to 'HIVE_PARTITION_SCHEMA_MISMATCH' error. At the beginning of query execution, Athena verifies the table's schema by checking that each column data type is compatible between the table and the partition. If you create a table in CSV, JSON, and AVRO in Athena with AWS Glue Crawler, after the Crawler finishes processing, the schemas for the table and its partitions may be different. If there is a mismatch between the table's schema and the partition schemas, your queries fail in Athena due to the schema verification error.
-
-A typical workaround for such errors is to drop the partition that is causing the error and recreate it. Suggest to use ALTER TABLE DROP PARTITION and ALTER TABLE ADD PARTITION to drop and add partition manually. It is recommended to go thru documentation link provided below for more information on updates in tables with partitions. <https://docs.aws.amazon.com/athena/latest/ug/updates-and-partitions.html>
+    A typical workaround for such errors is to drop the partition that is causing the error and recreate it. Suggest to use ALTER TABLE DROP PARTITION and ALTER TABLE ADD PARTITION to drop and add partition manually. It is recommended to go thru documentation link provided below for more information on updates in tables with partitions. <https://docs.aws.amazon.com/athena/latest/ug/updates-and-partitions.html>
 
 ## Performance tuning guides
 
 1. Partition your data (year=2019/month=12/day=21)
-
 2. Bucket your data
-
 3. Compress and split files (snappy)
-
 4. Optimize file sizes (Athena (Presto) likes big files. Recommended minimum is 128MB per file.)
-
-5. Optimizecolumnar data store generation (parquet/orc)
-
+5. Optimize columnar data store generation (parquet/orc)
 6. Optimize ORDER BY
-
 7. Optimize joins
-
 8. Optimize GROUP BY
-
 9. Optimize the LIKE operator
-
 10. Use approximate functions
-
 11. Only include the columns that you need
 
 <https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena>

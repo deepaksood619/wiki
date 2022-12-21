@@ -7,9 +7,13 @@ Modified: 2022-12-05 12:20:24 +0500
 ---
 
 ### SEO - Search Engine Optimization
+
 ### SMO - Social Media Optimization
+
 ### SEM - Search Engine Marketing
+
 ### ASO - App Store Optimization
+
 ### SEM - Search Engine Marketing
 
 Search engine marketing is the practice of marketing a business using paid advertisements that appear on search engine results pages (or [SERPs](https://www.wordstream.com/serp)). Advertisers bid on keywords that users of services such as Google and Bing might enter when looking for certain products or services, which gives the advertiser the opportunity for their ads to appear alongside results for those search queries.
@@ -201,6 +205,7 @@ Urchin Tracking Module(UTM)parametersare five variants of [URL parameters](https
 <https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters>
 
 ## PDP SEO
+
 <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages>
 
 ## Subdomain vs subdirectory

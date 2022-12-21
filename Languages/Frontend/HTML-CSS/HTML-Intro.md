@@ -22,8 +22,8 @@ Semantic markup (Device Agnostic)
 
 ## Display Types
 
-- Block level elements (ex - <p>)
-- Inline level elements (ex - <a href="">) (cannot have width, height)
+- Block level elements (ex - `<p>`)
+- Inline level elements (ex - `<a href="">`) (cannot have width, height)
 - Inline-Block (can have width, height but sits inline) (Images, buttons - default behaviour)
 - Display Table
 - Display None
@@ -46,23 +46,24 @@ Semantic markup (Device Agnostic)
 
 ## Add page break for print
 
+```html
 ----- 1st page -----
 
 <p style="page-break-after: always;">&nbsp;</p>
 <p style="page-break-before: always;">&nbsp;</p>
 
 ----- 2nd page -----
+```
 
 ## Fresco
 
 HTML5 Semantic Elements
 
-| Media Types - audio, video                             |
-|--------------------------------------------------------|
-| HTML5 Graphics - Canvas and SVG                        |
-| Boxify (converting the whole image in sections of box) |
-| Modernizr(js library for feature detection)            |
-| WebStorage replace javascript cookies                  |
+- Media Types - audio, video
+- HTML5 Graphics - Canvas and SVG
+- Boxify (converting the whole image in sections of box)
+- Modernizr(js library for feature detection)
+- WebStorage replace javascript cookies
 
 Web Workers Api - Dedicated, shared
 

@@ -12,26 +12,26 @@ virtualenv is a tool to create isolated Python environments. We can create a new
 
 ```bash
 # Pip install
-	sudo easy_install pip #pip2.7
-	brew postinstall python3
+ sudo easy_install pip #pip2.7
+ brew postinstall python3
 
 # To create virtual env
-	python3 -m venv env
-	source env/bin/activate
-	deactivate
-	
+ python3 -m venv env
+ source env/bin/activate
+ deactivate
+
 # Setting up 2.7 environment
-	pip install virtualenv (for python 2.7)
-	virtualenv -p /usr/bin/python2.7 my_project (Creating a 2.7 venv)
-	source my_project/bin/activate
-	(my_project) $ pip install django==1.9.2
-	
+ pip install virtualenv (for python 2.7)
+ virtualenv -p /usr/bin/python2.7 my_project (Creating a 2.7 venv)
+ source my_project/bin/activate
+ (my_project) $ pip install django==1.9.2
+
 # Deleting environment variables
     unset <env_var_name>
-	
+
 # To activate virtual env
-	source tutorial-env/bin/activate
-	
+ source tutorial-env/bin/activate
+
 # To deactivate virtual env
 deactivate
 ```
@@ -43,6 +43,7 @@ We can install, upgrade, and remove packages using a program calledpip. By defau
 [**https://prepml.com/blog/making-python-package-scratch/**](https://prepml.com/blog/making-python-package-scratch/)
 
 ### pip subcommands
+
 ```bash
 1. search
 2. install
@@ -65,17 +66,18 @@ requests==2.7.0
     pip list will display all of the packages installed in the virtual environment
     pip list
     pip list --outdated #show all outdated pip packages in requirements.txt
-    
+
     pip install pur
     pur -r requirements.txt
-    
+
     https://pypi.org/project/pipreqs/
         Generate pip requirements.txt file based on imports of any project
-    
+
     https://caniusepython3.com
 7. updating
     pip3.6 install -U jupyter
 ```
+
 ### Install all dependencies using requirements.txt file
 
 `(tutorial-env) $ pip install -r requirements.txt`

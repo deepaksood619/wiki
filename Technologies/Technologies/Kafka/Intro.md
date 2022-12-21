@@ -33,8 +33,6 @@ Modified: 2021-06-06 16:40:19 +0500
 - Process - Write scalable stream processing applications that react to events in real-time
 - Store - Store streams of data safely in a distributed, replicated, fault-tolerant cluster
 
-###
-
 ### Example Applications
 
 1. Managing passenger and driver matching at Uber

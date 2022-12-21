@@ -13,8 +13,6 @@ Two main principles are in the bases of the design patterns defined by the GOF:
 - Program to an interface not an implementation.
 - Favor object composition over inheritance.
 
-##
-
 ## Design Pattern Categorization
 
 Design patterns can be categorized in multiple ways, but the most popular one is the following:
