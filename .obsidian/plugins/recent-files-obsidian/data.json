@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Others",
+      "path": "Computer-Science/System-Design/Others.md"
+    },
+    {
+      "basename": "Intro",
+      "path": "Computer-Science/System-Design/Intro.md"
+    },
+    {
+      "basename": "React-DOM",
+      "path": "Languages/Frontend/React/React-DOM.md"
+    },
+    {
       "basename": "Libaries",
       "path": "Languages/Python/Django/Libaries.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Others---SAAS",
       "path": "Technologies/Cloud/Others/Others---SAAS.md"
-    },
-    {
-      "basename": "Intro",
-      "path": "Computer-Science/Testing/Intro.md"
-    },
-    {
-      "basename": "Concurrency---Threading",
-      "path": "Computer-Science/Operating-System/Concurrency---Threading.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "Office/Projects/Projects.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Python/Django/Libaries.md",
+                "file": "Computer-Science/System-Design/Others.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Python/Django/Libaries.md",
+                "file": "Computer-Science/System-Design/Others.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Python/Django/Libaries.md",
+                "file": "Computer-Science/System-Design/Others.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Python/Django/Libaries.md"
+                "file": "Computer-Science/System-Design/Others.md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
+    "Computer-Science/System-Design/Intro.md",
+    "Languages/Frontend/React/React-DOM.md",
+    "Languages/Python/Django/Libaries.md",
     "Office/Personality/Interviews.md",
     "Knowledge/Management/Marketing---Sales.md",
     "Office/Keep/Credentials.md",
     "Office/Keep/Deepak.md",
     "Office/Personality/About-Me.md",
     "Office/Personality/Master-Resume.md",
-    "Office/Credentials/External-Tech.md",
-    "Office/Credentials/Internal-Tech.md",
-    "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
-    "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md"
+    "Office/Credentials/External-Tech.md"
   ]
 }

@@ -59,20 +59,21 @@ The most significant difference is that the Lambda architecture performs data tr
 In [message queueing](https://en.wikipedia.org/wiki/Message_queue) thedead letter queueis a service implementation to store messages that meet one or more of the following criteria:
 
 1. Message that is sent to a queue that does not exist.
-
 2. Queue length limit exceeded.
-
 3. Message length limit exceeded.
-
 4. Message is rejected by another queue exchange.
-
 5. Message reaches a threshold read counter number, because it is not consumed. Sometimes this is called a "back out queue".
+
 Dead letter queue storing of these messages allows developers to look for common patterns and potential software problems.
+
 Queueing systems that incorporate dead letter queues include [Amazon Simple Queue Service](https://en.wikipedia.org/wiki/Amazon_Simple_Queue_Service), [Apache ActiveMQ](https://en.wikipedia.org/wiki/Apache_ActiveMQ), [HornetQ](https://en.wikipedia.org/wiki/HornetQ), [Microsoft Message Queuing](https://en.wikipedia.org/wiki/Microsoft_Message_Queuing), [WebSphere MQ](https://en.wikipedia.org/wiki/WebSphere_MQ), [Rabbit MQ](https://en.wikipedia.org/wiki/Rabbit_MQ) and Apache Pulsar
 
 <https://en.wikipedia.org/wiki/Dead_letter_queue>
-Amazon SQS supports*dead-letter queues*, which other queues (*source queues*) can target for messages that can't be processed (consumed) successfully. Dead-letter queues are useful for debugging your application or messaging system because they let you isolate problematic messages to determine why their processing doesn't succeed.
-Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to*poison-pill messages*(messages that can be received but can't be processed).
+
+Amazon SQS supports *dead-letter queues*, which other queues (*source queues*) can target for messages that can't be processed (consumed) successfully. Dead-letter queues are useful for debugging your application or messaging system because they let you isolate problematic messages to determine why their processing doesn't succeed.
+
+Do use dead-letter queues to decrease the number of messages and to reduce the possibility of exposing your system to *poison-pill messages* (messages that can be received but can't be processed).
+
 <https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html>
 
 <https://aws.amazon.com/blogs/compute/designing-durable-serverless-apps-with-dlqs-for-amazon-sns-amazon-sqs-aws-lambda>
@@ -91,13 +92,16 @@ It is offered from the perspective of hownotto design systems, based on system e
 
 ## Updates
 
-## Hard updates
+### Hard updates
 
 refer to when the user is forced to update the client version to a higher version number than what is installed on their mobile.
 
-## Soft updates
+### Soft updates
 
 refer to when the user is shown a prompt that a new version is available and they can update their app to the new version if they want to.
 Hard updates are not encouraged, but there are times when you need to enforce them. Whatever the case you should definitely consider how you are going to implement this for your applications.
 You can do this by implementing or configuring it in the Play Store or App Store. Another way is to create an API in your backend application that will be hit every time the mobile app is launched. This will send two keys: hard_update -> true/false and soft_update -> true/false, depending upon the user's version and the hard and soft update versions set in your backend system.
 A good place to store these versions is in your cache (Redis/Memcache), which you can change on the fly without needing to deploy your application.
+
+
+[Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects)
