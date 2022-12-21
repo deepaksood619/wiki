@@ -30,6 +30,7 @@ Planet Scale Systems
 3. **For what scale we are building**
 
 ## Introduction
+
 1. Features
 2. Define APIs
 3. Availability (CAP Theorem)

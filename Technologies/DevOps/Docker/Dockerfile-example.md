@@ -83,7 +83,7 @@ EXPOSE 5555 8070 8071 8080 8888 9104
 
 ### Python - Multistage builds
 
-    <https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3>
+<https://blog.realkinetic.com/building-minimal-docker-containers-for-python-applications-37d0272c52f3>
 
 ### NODE JS Dockerfile
 

@@ -122,6 +122,7 @@ def test_is_credit_card_fraud():
     assert is_fraud == True
 
 ```
+
 And this is how you patch the dependency fraud_example.dark_magic away with a context handler ( with ... ):
 
 ```python

@@ -103,5 +103,4 @@ Hard updates are not encouraged, but there are times when you need to enforce th
 You can do this by implementing or configuring it in the Play Store or App Store. Another way is to create an API in your backend application that will be hit every time the mobile app is launched. This will send two keys: hard_update -> true/false and soft_update -> true/false, depending upon the user's version and the hard and soft update versions set in your backend system.
 A good place to store these versions is in your cache (Redis/Memcache), which you can change on the fly without needing to deploy your application.
 
-
 [Stop using client-side route redirects](https://kentcdodds.com/blog/stop-using-client-side-route-redirects)

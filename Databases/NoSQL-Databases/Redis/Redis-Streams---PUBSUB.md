@@ -98,6 +98,7 @@ To query the stream by range we are only required to specify two IDs, startanden
 3) "temperature"
 4) "18.2"
 ```
+
 Since XRANGE complexity is `O(log(N))` to seek, and then `O(M)` to return M elements, with a small count the command has a logarithmic time complexity, which means that each step of the iteration is fast. So XRANGE is also the defacto streams iteratorand does not require an XSCAN command.
 
 The command XREVRANGE is the equivalent of XRANGE but returning the elements in inverted order, so a practical use for XREVRANGE is to check what is the last item in a Stream
@@ -203,9 +204,13 @@ We have `-,+,$,> and *`, and all have a different meaning, and most of the times
 A Stream, like any other Redis data structure, is asynchronously replicated to slaves and persisted into AOF and RDB files.
 
 ### Removing single items from a stream
+
 ### Zero length streams
+
 ### Total latency of consuming a message
+
 ### How serving blocked consumers work
+
 ### Latency tests results
 
 <https://redis.io/topics/streams-intro>

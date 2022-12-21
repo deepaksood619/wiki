@@ -6,15 +6,11 @@ Modified: 2022-12-05 12:20:24 +0500
 
 ---
 
-## SEO - Search Engine Optimization
-
-## SMO - Social Media Optimization
-
-## SEM - Search Engine Marketing
-
-## ASO - App Store Optimization
-
-## SEM - Search Engine Marketing
+### SEO - Search Engine Optimization
+### SMO - Social Media Optimization
+### SEM - Search Engine Marketing
+### ASO - App Store Optimization
+### SEM - Search Engine Marketing
 
 Search engine marketing is the practice of marketing a business using paid advertisements that appear on search engine results pages (or [SERPs](https://www.wordstream.com/serp)). Advertisers bid on keywords that users of services such as Google and Bing might enter when looking for certain products or services, which gives the advertiser the opportunity for their ads to appear alongside results for those search queries.
 
@@ -81,8 +77,6 @@ Generally, white hat SEO refers to any practice that improves your search rankin
 
 cloudinary.com for fast image CDN
 
-## Teminologies
-
 ## Search Engine Results Page (SERP)
 
 <https://www.wordstream.com/serp>
@@ -94,7 +88,7 @@ In the context of SEO (Search Engine Optimization), Siphoning refers to the act 
 In order to build a **site optimized for organic search engine rankings,** it is important to implement certain standards throughout the code. These include:
 
 - Specifying analttag on images
-- Using the correct HTML tags for content hierarchy i.e.,<h1>/<h2>/<h3>andp
+- Using the correct HTML tags for content hierarchy i.e.,`<h1> / <h2> / <h3> and </p>`
 - Connect the site to the company's social pages
 - Add an XML sitemap
 - Avoid broken links
@@ -151,7 +145,7 @@ Optimizing websites is an art that few are familiar with. The more the engineer 
 
 ## Urchin Tracking Module(UTM)
 
-Urchin Tracking Module(UTM)parametersare five variants of [URL parameters](https://en.wikipedia.org/wiki/Query_string) used by marketers to track the effectiveness of online [marketing campaigns](https://en.wikipedia.org/wiki/Marketing_campaign) across traffic sources and publishing media. They were introduced by [Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics)' predecessor [Urchin](https://en.wikipedia.org/wiki/Urchin_(software)) and, consequently, are supported [out-of-the-box](https://en.wikipedia.org/wiki/Out_of_the_box_(feature)) by Google Analytics. The UTM parameters in a URL identify the campaign that refers traffic to a specific website, and attributes the browser's [website session](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session) and the sessions after that until the campaign attribution window expires to it. The parameters can be parsed by analytics tools and used to populate reports.Example URL, UTM parameters highlighted, after the question mark (?):
+Urchin Tracking Module(UTM)parametersare five variants of [URL parameters](https://en.wikipedia.org/wiki/Query_string) used by marketers to track the effectiveness of online [marketing campaigns](https://en.wikipedia.org/wiki/Marketing_campaign) across traffic sources and publishing media. They were introduced by [Google Analytics](https://en.wikipedia.org/wiki/Google_Analytics)' predecessor [Urchin](https://en.wikipedia.org/wiki/Urchin_(software)) and, consequently, are supported [out-of-the-box](https://en.wikipedia.org/wiki/Out_of_the_box_(feature)) by Google Analytics. The UTM parameters in a URL identify the campaign that refers traffic to a specific website, and attributes the browser's [website session](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session) and the sessions after that until the campaign attribution window expires to it. The parameters can be parsed by analytics tools and used to populate reports.Example URL, UTM parameters highlighted, after the question mark `(?)`:
 
 <https://www.example.com/page?utm_content=buffercf3b2&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer>
 
@@ -206,7 +200,8 @@ Urchin Tracking Module(UTM)parametersare five variants of [URL parameters](https
 
 <https://neilpatel.com/blog/the-ultimate-guide-to-using-utm-parameters>
 
-## PDP SEO - <https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages>
+## PDP SEO
+<https://ecommercetuners.com/seo-for-ecommerce-product-detail-pages>
 
 ## Subdomain vs subdirectory
 
