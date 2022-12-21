@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Libaries",
+      "path": "Languages/Python/Django/Libaries.md"
+    },
+    {
+      "basename": "Interviews",
+      "path": "Office/Personality/Interviews.md"
+    },
+    {
+      "basename": "Marketing---Sales",
+      "path": "Knowledge/Management/Marketing---Sales.md"
+    },
+    {
+      "basename": "Credentials",
+      "path": "Office/Keep/Credentials.md"
+    },
+    {
+      "basename": "Deepak",
+      "path": "Office/Keep/Deepak.md"
+    },
+    {
+      "basename": "About-Me",
+      "path": "Office/Personality/About-Me.md"
+    },
+    {
+      "basename": "Master-Resume",
+      "path": "Office/Personality/Master-Resume.md"
+    },
+    {
       "basename": "External-Tech",
       "path": "Office/Credentials/External-Tech.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Projects",
       "path": "Office/Projects/Projects.md"
-    },
-    {
-      "basename": "Tech-Stack---Infra",
-      "path": "Office/Stashfin/Tech-Stack---Infra.md"
-    },
-    {
-      "basename": "stashfin-infra.drawio",
-      "path": "Office/Stashfin/media/stashfin-infra.drawio.png"
-    },
-    {
-      "basename": "Interviews",
-      "path": "Office/Personality/Interviews.md"
-    },
-    {
-      "basename": "Questions-to-company",
-      "path": "Office/Personality/Questions-to-company.md"
-    },
-    {
-      "basename": "Domain-Driven-Design",
-      "path": "Computer-Science/System-Design/Microservice-Architecture/Domain-Driven-Design.md"
-    },
-    {
-      "basename": "Coursera---PM",
-      "path": "Knowledge/Management/Product-Management/Coursera---PM.md"
-    },
-    {
-      "basename": "STL-Containers",
-      "path": "Languages/C++/STL-Containers.md"
     }
   ],
   "omittedPaths": [],

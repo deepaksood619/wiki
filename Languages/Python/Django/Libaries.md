@@ -55,18 +55,22 @@ Cookiecutter Django is a framework for jumpstarting production-ready Django proj
 
 <https://github.com/pydanny/cookiecutter-django>
 
-[**https://github.com/jazzband/django-taggit**](https://github.com/jazzband/django-taggit)
+## django-taggit
 
-django-taggita simpler approach to tagging with Django. Add"taggit"to your INSTALLED_APPS then just add a TaggableManager to your model
+[https://github.com/jazzband/django-taggit](https://github.com/jazzband/django-taggit)
+
+django-taggit a simpler approach to tagging with Django. Add "taggit"to your INSTALLED_APPS then just add a TaggableManager to your model.
 
 Comma seperate values
 
-## Cons
+### Cons
 
 - Can't control the quality of entries
 - Can't select using view
 
-[**https://github.com/javrasya/django-river**](https://github.com/javrasya/django-river)
+## Django River
+
+[https://github.com/javrasya/django-river](https://github.com/javrasya/django-river)
 
 Django workflow library that supports on the fly changes
 
@@ -76,20 +80,44 @@ Django workflow library that supports on the fly changes
 
 Reusable workflow library for Django
 
+## Django Reversion
+
 [**https://github.com/etianen/django-reversion**](https://github.com/etianen/django-reversion)
 
 django-reversion is an extension to the Django web framework that provides version control for model instances.
+
+## Django Crispy Forms
 
 <https://django-crispy-forms.readthedocs.io/en/latest>
 
 django-crispy-forms provides you with a|crispyfilter and{%crispy%}tag that will let you control the rendering behavior of your [Django](https://djangoproject.com/) forms in a very elegant and DRY way. Have full control without writing custom form templates. All this without breaking the standard way of doing things in [Django](https://djangoproject.com/), so it plays nice with any other form application.
 
+## Django haystack
+
 <https://django-haystack.readthedocs.io/en/v2.4.1/index.html>
 
 Haystack provides modular search for Django. It features a unified, familiar API that allows you to plug in different search backends (such as [Solr](http://lucene.apache.org/solr/), [Elasticsearch](http://elasticsearch.org/), [Whoosh](https://bitbucket.org/mchaput/whoosh/), [Xapian](http://xapian.org/), etc.) without having to modify your code.
 
+## Django ratelimit
+
+[Django Ratelimit — Django Ratelimit 4.0.0 documentation](https://django-ratelimit.readthedocs.io/)
+
+```python
+from django_ratelimit.decorators import ratelimit
+
+@ratelimit(key="get:chat_id", rate="1/30s", block=False)
+def send_email_and_push(request):
+
+    if request.method == "GET":
+        send_chat_link(request, "email")
+        push_response = send_chat_link(request, "push")
+
+        return push_response
+```
+
 ## Others
 
+```python
 django-admin-rangefilter==0.3.8 #for selecting date range in django admin site
 django-cors-headers==2.4.0
 django-crispy-forms==1.7.2
@@ -104,6 +132,7 @@ gevent==1.4.0
 graphene-django==2.3.2
 
 pyinotify==0.9.6
+```
 
 <https://djangopackages.org/grids/g/bulk_update>
 

@@ -62,21 +62,23 @@ Input plugins are used to get data from various sources to telegraf database
 
 5. inputs.logparser
 
-## Grok Parser
+### Grok Parser
 
-%{<capture_syntax>[:<semantic_name>][:<modifier>]}
+`%{<capture_syntax>[:<semantic_name>][:<modifier>]}`
 
-Thecapture_syntaxdefines the grok pattern that's used to parse the input line and thesemantic_nameis used to name the field or tag. The extensionmodifiercontrols the data type that the parsed item is converted to or other special handling.
+The capture_syntax defines the grok pattern that's used to parse the input line and thesemantic_nameis used to name the field or tag. The extensionmodifiercontrols the data type that the parsed item is converted to or other special handling.
 
-2018-05-23 15:45:39+0530 [-] "14.140.106.2" - - [23/May/2018:10:15:38 +0000] "POST /add/vLKQRUzsgiNa9ptpnrh3wVk7W3QRtsmI5lyq HTTP/1.1" 200 - "-" "-"
+`2018-05-23 15:45:39+0530 [-] "14.140.106.2" - - [23/May/2018:10:15:38 +0000] "POST /add/vLKQRUzsgiNa9ptpnrh3wVk7W3QRtsmI5lyq HTTP/1.1" 200 - "-" "-"`
 
-LLine - 3042
+Line - 3042
 
-## Grok patterns
+### Grok patterns
 
+```bash
 ^"%{IPORHOST:clientip}" %{USER:ident} %{USER:auth} [%{HTTPDATE:timestamp}] "(?:%{WORD:verb} %{NOTSPACE:request}(?: HTTP/%{NUMBER:httpversion})?|%{DATA:rawrequest})" %{NUMBER:response} (?:%{NUMBER:bytes}|-) %{QS:referrer} %{QS:agent}$
 
 "%{CLIENT:client_ip}" %{NOTSPACE:ident} %{NOTSPACE:auth} [%{HTTPDATE:ts:ts-httpd}] "(?:%{WORD:verb:tag} %{NOTSPACE:request}(?: HTTP/%{NUMBER:http_version:float})?|%{DATA})" %{NUMBER:resp_code:tag} (?:%{NUMBER:resp_bytes:int}|-) "%{DATA:referrer}" "%{DATA:agent}"
+```
 
 <https://github.com/vjeantet/grok/blob/master/patterns/grok-patterns>
 

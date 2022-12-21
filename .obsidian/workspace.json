@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Office/Credentials/External-Tech.md",
+                "file": "Languages/Python/Django/Libaries.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Office/Credentials/External-Tech.md",
+                "file": "Languages/Python/Django/Libaries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Office/Credentials/External-Tech.md",
+                "file": "Languages/Python/Django/Libaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Office/Credentials/External-Tech.md"
+                "file": "Languages/Python/Django/Libaries.md"
               }
             }
           },
@@ -170,15 +170,15 @@
   },
   "active": "978fd2faf621af33",
   "lastOpenFiles": [
+    "Office/Personality/Interviews.md",
+    "Knowledge/Management/Marketing---Sales.md",
+    "Office/Keep/Credentials.md",
+    "Office/Keep/Deepak.md",
+    "Office/Personality/About-Me.md",
+    "Office/Personality/Master-Resume.md",
+    "Office/Credentials/External-Tech.md",
     "Office/Credentials/Internal-Tech.md",
     "Technologies/DevOps/IDEs/Youtube---Podcasts---Magazine---Movies.md",
-    "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md",
-    "Languages/Others/Regular-Expressions---Regex.md",
-    "Knowledge/Management/Project---Product---Business---Tools---SAAS.md",
-    "Office/HR-^M-Interviews/Interviews---Others/Archive.md",
-    "Languages/SQL/DDL---Data-Definition-Language.md",
-    "Languages/SQL/DDL---Data-Definition-Language/Create-Table.md",
-    "Languages/SQL/DML---Data-Manipulation-Language.md",
-    "Languages/SQL/DCL---Data-Control-Language.md"
+    "Knowledge/Quotes-Proverbs/Tatoos-Quotes.md"
   ]
 }

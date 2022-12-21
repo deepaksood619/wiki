@@ -256,6 +256,10 @@ I see email being used, by and large, exactly the way I envisioned. In particula
 - The most popular days to send emails are Tuesdays, Wednesdays & Thursdays
 - Since these days are very popular, you may have a better chance at an open rate if you send them on Mondays and Fridays instead.
 
+#### Free goodies to engage with clients
+
+![[Screenshot 2022-12-21 at 11.28.15 AM.jpg]]
+
 Creating a Flow Template
 
 Most Used Flows

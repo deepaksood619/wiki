@@ -22,12 +22,16 @@ Values can be strings (including binary data) of every kind, for instance you ca
 Note that [SET](https://redis.io/commands/set) will replace any existing value already stored into the key, in the case that the key already exists, even if the key is associated with a non-string value. So [SET](https://redis.io/commands/set) performs an assignment.
 The [SET](https://redis.io/commands/set) command has interesting options, that are provided as additional arguments. For example, I may ask [SET](https://redis.io/commands/set) to fail if the key already exists, or the opposite, that it only succeed if the key already exists:
 
+```bash
 > set mykey newval nx
 (nil)
 > set mykey newval xx
 OK
+```
+
 Even if strings are the basic values of Redis, there are interesting operations you can perform with them. For instance, one is atomic increment:
 
+```bash
 > set counter 100
 OK
 > incr counter
@@ -36,12 +40,15 @@ OK
 (integer) 102
 > incrby counter 50
 (integer) 152
+```
+
 The [INCR](https://redis.io/commands/incr) command parses the string value as an integer, increments it by one, and finally sets the obtained value as the new value. There are other similar commands like [INCRBY](https://redis.io/commands/incrby), [DECR](https://redis.io/commands/decr) and [DECRBY](https://redis.io/commands/decrby). Internally it's always the same command, acting in a slightly different way.
 What does it mean that INCR is atomic? That even multiple clients issuing INCR against the same key will never enter into a race condition. For instance, it will never happen that client 1 reads "10", client 2 reads "10" at the same time, both increment to 11, and set the new value to 11. The final value will always be 12 and the read-increment-set operation is performed while all the other clients are not executing a command at the same time.
 There are a number of commands for operating on strings. For example the [GETSET](https://redis.io/commands/getset) command sets a key to a new value, returning the old value as the result. You can use this command, for example, if you have a system that increments a Redis key using [INCR](https://redis.io/commands/incr) every time your web site receives a new visitor. You may want to collect this information once every hour, without losing a single increment. You can [GETSET](https://redis.io/commands/getset) the key, assigning it the new value of "0" and reading the old value back.
 
 The ability to set or retrieve the value of multiple keys in a single command is also useful for reduced latency. For this reason there are the [MSET](https://redis.io/commands/mset) and [MGET](https://redis.io/commands/mget) commands:
 
+```bash
 > mset a 10 b 20 c 30
 OK
 > mget a b c
@@ -49,6 +56,7 @@ OK
 1) "10"
 2) "20"
 3) "30"
+```
 
 When [MGET](https://redis.io/commands/mget) is used, Redis returns an array of values.
 
