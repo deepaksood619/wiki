@@ -60,14 +60,10 @@ Intrusive linked lists also suffer less from cache thrashing. Iterating through 
 <https://www.data-structures-in-practice.com/intrusive-linked-lists>
 In a Linked List the first node is called the **head** and the last node is called the **tail**.
 
-##
-
 ## Pros
 
 - Linked Lists have constant-time insertions and deletions in any position, in comparison, arrays require O(n) time to do the same thing.
 - Linked lists can continue to expand without having to specify their size ahead of time (remember our lectures on Array sizing form the Array Sequence section of the course!)
-
-##
 
 ## Cons
 

@@ -26,8 +26,8 @@ Modified: 2020-02-04 22:57:11 +0500
 
 ## Create Inventory File
 
-    Location - /home/ubuntu/ansible_playbooks/find_client_ips
-    Command - python find_vpn_static_ip.py -c IIITD
+- Location - /home/ubuntu/ansible_playbooks/find_client_ips
+- Command - python find_vpn_static_ip.py -c IIITD
 
 ## Commands
 

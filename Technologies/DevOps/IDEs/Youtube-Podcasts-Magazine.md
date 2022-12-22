@@ -27,6 +27,7 @@ Timeline world history documentaries
 ## Channels
 
 ### Tech
+
 - PyCon
 - Linus Tech Tips
 - Watch AWS Reinvent
@@ -40,6 +41,7 @@ Timeline world history documentaries
 - Firebase / Google
 
 ### Learning
+
 - Royal Institution Lectures / Perimeter Institute for Theoretical Physics
 - Ted
 - Ted-Ed
@@ -103,6 +105,7 @@ Timeline world history documentaries
 - Think school
 
 ### News
+
 - BBC / BBC Reel
 - Aljajeera
 - Vice news
@@ -130,6 +133,7 @@ Timeline world history documentaries
 - The daily show with Trevor noah
 
 ### Finance / Stocks / Personal finance (People with same thought process)**
+
 - Zerodha online
 - Mad money Jim Cramer - CNBC Television
 - CA Rachna Ranade
@@ -144,17 +148,21 @@ Timeline world history documentaries
 - The madras trailer
 
 ### Trading
+
 - Wall Street Week - Bloomberg Markets and Finance
 - Cramer's game plan
 
 ### People
+
 - Kishore Mahbubani
 - Kevlin Henney
 
 ### Product
+
 - Aditya saini
 
 ### Yearly
+
 - Nobel Prize
 - Webby Awardz
 - Stackoverflow developer survey
@@ -248,6 +256,7 @@ Timeline world history documentaries
 ## Podcast / Podcasts
 
 ### Tech
+
 - **SE Daily**
 - **Software Engineering Daily**
 - Command Line Heroes
@@ -265,6 +274,7 @@ Timeline world history documentaries
 - Dear SQL DBA
 
 ### Others
+
 - **Ted Talk**
 - EconTalk
 - KwikBrain

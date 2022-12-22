@@ -32,7 +32,7 @@ To update the running code functions on fly
 
 Adding subcommands to thetwistdcommand, as a way to facilitate the deployment of your applications.
 
-Thetapnameattribute of your IServiceMaker provider will be used as the subcommand name in a command liketwistd [subcommand][args...], and theoptionsattribute (which should be a [usage.Options](https://twistedmatrix.com/documents/19.7.0/api/twisted.python.usage.Options.html) subclass) will be used to parse the given args.
+Thetapnameattribute of your IServiceMaker provider will be used as the subcommand name in a command like `twistd [subcommand][args...]`, and the options attribute (which should be a [usage.Options](https://twistedmatrix.com/documents/19.7.0/api/twisted.python.usage.Options.html) subclass) will be used to parse the given args.
 
 Taking advantage of [twisted.plugin](https://twistedmatrix.com/documents/19.7.0/api/twisted.plugin.html) is a two step process:
 

@@ -1,4 +1,4 @@
--- SQL Examples
+# SQL Examples
 
 Created: 2019-12-16 19:55:35 +0500
 

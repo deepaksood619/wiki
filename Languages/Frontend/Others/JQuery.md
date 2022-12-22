@@ -20,7 +20,7 @@ $(document).ready(function() {
     // js code
 });
 
-Or 
+Or
 
 $(function() {
     // js code
@@ -51,7 +51,7 @@ $(document).ready(function() {
     $('p').css('border', '4px solid red');
     $('p.lead').css('border', '4px solid red');
     $('body p.lead').css('border', '4px solid red');
-    
+
     // using id
     $('#lesson-1').css('border', '4px solid red');
     $('*').css('border', '4px solid red');
@@ -192,7 +192,7 @@ Most web APIs transfer data in a format called JSON. JSON stands for JavaScript 
 
         var html = "";
         // Only change code below this line.
-        
+
         json.forEach(function(val) {
             var keys = Object.keys(val);
             html += "<div class = 'cat'>";
@@ -201,7 +201,7 @@ Most web APIs transfer data in a format called JSON. JSON stands for JavaScript 
             });
             html += "</div><br>";
         });
-        
+
         // Only change code above this line.
 
         $(".message").html(html);
@@ -217,6 +217,7 @@ Most web APIs transfer data in a format called JSON. JSON stands for JavaScript 
 `html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";`
 
 ## Prefilter JSON
+
 ```js
 json = json.filter(function(val) {
     return (val.id !== 1);
@@ -240,6 +241,7 @@ if (navigator.geolocation) {
 3. Particle effect
 
 ## Learned
+
 ```js
 // To disable a input field
 $('#item').prop('disabled', true);

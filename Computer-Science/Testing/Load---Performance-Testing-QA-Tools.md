@@ -16,37 +16,33 @@ Modified: 2022-01-05 23:09:26 +0500
 
 ## Bash - add artificial load to the CPU**
 
+```bash
 while true; do i=0; done
+
 i = 0
-
 x = 2
-
 while True:
+  x = x*x
+  i += 1
+  if i == 32:
+    break
 
-x = x*x
-
-i += 1
-
-if i == 32:
-
-break
 while true:
-
-for i in range(1,1000000):
-
-pass
+  for i in range(1,1000000):
+    pass
+```
 
 ## dd -- convert and copy a file (Check read and write throughput)
 
 The dd utility copies the standard input to the standard output. Input data is read and written in 512-byte blocks. If input reads are short, input from multiple reads are aggregated to form the output block. When finished, dd displays the number of complete and partial input and output blocks and truncated input records to the standard error output.
 
-## server latency
+### server latency
 
-dd if=/dev/zero of=/tmp/test2.img bs=512 count=1000 oflag=dsync
+`dd if=/dev/zero of=/tmp/test2.img bs=512 count=1000 oflag=dsync`
 
-## server throughput
+### server throughput
 
-if=/dev/zero of=/tmp/test1.img bs=1G count=1 oflag=dsync
+`if=/dev/zero of=/tmp/test1.img bs=1G count=1 oflag=dsync`
 
 ## Grinder
 
@@ -102,7 +98,7 @@ Locust
 
 - [wrk](https://github.com/wg/wrk)
 
-```
+```bash
 wrk --duration 20s --threads 10 --connections 200 [URL]
 
 wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <http://application-cpu>
@@ -112,7 +108,7 @@ wrk -c 5 -t 5 -d 99999 -H "Connection: Close" <https://facebook.com>
 
 - **Apache Bench - [Apache HTTP Server Benchmarking Tool](https://httpd.apache.org/docs/2.4/programs/ab.html) (for percentiles)**
 
-```
+```bash
 apt install apache2
 brew install apache2
 ab -c 50 -n 500 -s 90 <http://www.example.com>
@@ -139,7 +135,7 @@ ab -c 50 -n 5000 -s 90 -p data.json -T application/json -rk <https://staff.lende
 
 - [Siege](https://github.com/JoeDog/siege) (for constant load)
 
-```
+```bash
 apt-get install -y siege
 
 siege -c2 -t2m [URL]
@@ -147,7 +143,7 @@ siege -c2 -t2m [URL]
 
 - hey / boom
 
-```
+```bash
 hey <https://dev.example.com>
 <https://github.com/rakyll/hey>
 ```
@@ -189,7 +185,7 @@ You start one instance of Locust in master mode using the--masterflag. This is t
 
 ## Commands
 
-```
+```bash
 locust -f tasks.py --host localhost:5000
 locust --no-reset-stats -f mqttClient.py
 

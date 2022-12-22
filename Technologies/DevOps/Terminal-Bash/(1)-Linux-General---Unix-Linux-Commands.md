@@ -230,13 +230,12 @@ python test_de_script.py de_run_final.csv 2>&1 | tee -a outfile.log
 
 ## Wildcards and Help
 
-- * //match any number of characters
-- ? //match one character
-- man "command" //read the online manual page for a command
-- whatis "command" //brief description of a command
-- apropos "keyword" //match commands with keyword in their man pages
-
-apropos compress
+- `*` //match any number of characters
+- `?` //match one character
+- `man "command"` //read the online manual page for a command
+- `whatis "command"` //brief description of a command
+- `apropos "keyword"` //match commands with keyword in their man pages
+  - apropos compress
 
 ## rm command
 
@@ -292,7 +291,7 @@ Open files in the system include disk files, [named pipes](https://en.wikipedia.
 
 ## see open ports
 
-```
+```bash
 sudo lsof -i -P -n | grep LISTEN
 sudo lsof -i:22 #see a specific port such as 22
 lsof -a -i -s TCP:SYN_RECV

@@ -18,6 +18,7 @@ touch $USER_NAME_file
 ```
 
 ### Passing Variables
+
 ```bash
 #!/bin/bash
 var_name=$1

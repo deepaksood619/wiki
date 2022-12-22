@@ -86,7 +86,7 @@ redis-cli -a a6ad92769ef04b711eea18dccfff85ea --no-auth-warning --scan | while r
 
 ## CONFIG GET *
 
-```
+```bash
 info # <https://redis.io/commands/info>
 
 config set maxmemory [value]
@@ -110,7 +110,7 @@ maxmemory-policy
 
 ## DDL
 
-```
+```bash
 # -n for setting database
 
 redis-cli -h redis-dashboard -p 6379 -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -n 1
