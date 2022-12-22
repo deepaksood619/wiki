@@ -57,7 +57,7 @@ Ref forwarding is a technique for automatically passing a [ref](https://reactjs.
 
 2. We pass ourrefdown to `<FancyButton ref={ref}>` by specifying it as a JSX attribute.
 
-3. React passes therefto the(props, ref) => ...function insideforwardRefas a second argument.
+3. React passes therefto the (props, ref) => ... function inside forwardRef as a second argument.
 
 4. We forward thisrefargument down to `<button ref={ref}>` by specifying it as a JSX attribute.
 
@@ -140,7 +140,7 @@ The term ["render prop"](https://cdb.reacttraining.com/use-a-render-prop-50de598
 
 <https://reactjs.org/docs/concurrent-mode-suspense.html>
 
-React 16.6 added a<Suspense>component that lets you "wait" for some code to load and declaratively specify a loading state (like a spinner) while we're waiting
+React 16.6 added a `<Suspense>` component that lets you "wait" for some code to load and declaratively specify a loading state (like a spinner) while we're waiting
 
 <https://reactjs.org/docs/concurrent-mode-patterns.html>
 
