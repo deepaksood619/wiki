@@ -1,4 +1,4 @@
-# (1) Linux General / Unix/Linux Commands
+# (1) Linux General / Unix / Linux Commands
 
 Created: 2018-05-03 22:39:47 +0500
 

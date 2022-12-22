@@ -17,8 +17,7 @@ echo "I will create you a file called $USER_NAME_file"
 touch $USER_NAME_file
 ```
 
-Passing Variables
-
+### Passing Variables
 ```bash
 #!/bin/bash
 var_name=$1
@@ -28,7 +27,7 @@ echo $2
 ./test hello 2
 ```
 
-Shortcuts
+### Shortcuts
 
 ```bash
 $0 - Script name
@@ -37,10 +36,9 @@ $? - Most recent exit code
 $@ and $* - All the args
 ```
 
-Reference
-    <https://dev.to/rpalo/handling-arguments-in-bash-scripts-3o5m>
+<https://dev.to/rpalo/handling-arguments-in-bash-scripts-3o5m>
 
-Loops
+### Loops
 
 ```bash
 #!/bin/sh
@@ -82,30 +80,39 @@ else
 fi
 ```
 
-Examples
+### Examples
 
 ```bash
 # Write date to a file every second
-    #!/bin/bash
-    mkdir -p /var/log/apache
-    touch /var/log/apache/access.log
-    while true
-    do
-            echo $(date) >> /var/log/apache/access.log
-        sleep 1
-    done
+#!/bin/bash
+mkdir -p /var/log/apache
+touch /var/log/apache/access.log
+while true
+do
+        echo $(date) >> /var/log/apache/access.log
+    sleep 1
+done
 
 # Loop through and run all commands
-    #!/bin/bash
+#!/bin/bash
 
-    VAL="$(kubectl get pods -n example | awk '{if (NR!=1) { print $1 }}')"
+VAL="$(kubectl get pods -n example | awk '{if (NR!=1) { print $1 }}')"
 
-    for i in $VAL
-    do
-            kubectl delete -n example pods $i
-    done
+for i in $VAL
+do
+        kubectl delete -n example pods $i
+done
 
 while true; do echo `date` | kafkacat -P -b my-cluster-kafka-brokers.kafka:9092 -t test; done
+
+# find and replace filename
+find . -name '*---*' -type f | grep -v "media" -exec sh -c '
+for f; do
+    mv "$f" "${f%/*}/${f##*/123_}"
+done' sh {} +
+
+find . -type f | grep -v "media" | sed 's|\(.*/\)[^A-Z]*\([A-Z].*\)|mv \"&\" \"\1\2\"|' | sh
+
 ```
 
 ## References

@@ -12,37 +12,36 @@ npx - npm package runner
 
 ## To install all dependencies
 
+```bash
 npm install
-
 npm init # for creating package.json
-
 npm init -y
-
 npm i express
-
 npm i --save-dev nodemon
-
 npm i jsonwebtoken dotenv
+```
 
 ## Run server
 
-node .
+`node .`
 
 ## Compile all ES6 and babel packages and run server
 
-npm start (from the project root directory)
+`npm start (from the project root directory)`
 
 ## To install and save to package json file from npm
 
-npm install --save youtube-api-search
+`npm install --save youtube-api-search`
 
 ## Others
 
+```bash
 npm outdated
 
 npm update
 
 npm update "react" "react-dom"
+```
 
 ## Packages
 
@@ -76,11 +75,11 @@ Fast, reliable, and secure dependency management
 
 ## Commands
 
-yarn #install all dependencies
-
-yarn start #start local server
-
+```bash
+yarn # install all dependencies
+yarn start # start local server
 yarn build # build a production ready deployment
+```
 
 - **pnpm**
 
@@ -96,38 +95,29 @@ Fast, disk space efficient package manager
 
 ## index.js
 
-## # npm install express
+```js
+// npm install express
 
 const express = require("express");
-
 const app = express();
-
 const PORT = 8888;
-
 app.get('/time', (req, res) => {
-
-const time = (new Date()).toLocaleTimeString();
-
-res.status(200).send(`The Time is ${time}`);
-
+    const time = (new Date()).toLocaleTimeString();
+    res.status(200).send(`The Time is ${time}`);
 });
 
 // catchall route
-
 app.get("*", (req, res) => {
-
-res.sendStatus(404);
-
+    res.sendStatus(404);
 });
 
-app.listen(PORT, () => {
-
-console.log(`Server is running on port ${PORT}.`);
-
+app.listen(PORT, () => { 
+    console.log(`Server is running on port ${PORT}.`); 
 });
 
-## # node
+// node .
 
-## # npm install body-parser
+// npm install body-parser
+```
 
 <https://blog.bitsrc.io/understanding-json-web-token-authentication-a1febf0e15>

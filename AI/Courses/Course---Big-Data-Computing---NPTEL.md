@@ -6,11 +6,8 @@ Modified: 2021-06-19 14:07:34 +0500
 
 ---
 
-## NPTEL - Big Data Computing
-
-## Dr. Rajiv Mishra
-
-## CSE - IIT, Patna
+- Dr. Rajiv Mishra
+- CSE - IIT, Patna
 
 ## Syllabus
 
