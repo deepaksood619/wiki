@@ -84,7 +84,7 @@ use <> or <React.Fragment>
 
 ## Keyed Fragments
 
-Fragments declared with the explicit<React.Fragment>syntax may have keys. A use case for this is mapping a collection to an array of fragments --- for example, to create a description list. keyis the only attribute that can be passed toFragment.
+Fragments declared with the explicit `<React.Fragment>` syntax may have keys. A use case for this is mapping a collection to an array of fragments. For example, to create a description list. keyis the only attribute that can be passed toFragment.
 
 - [Higher-Order Components](https://reactjs.org/docs/higher-order-components.html)
 

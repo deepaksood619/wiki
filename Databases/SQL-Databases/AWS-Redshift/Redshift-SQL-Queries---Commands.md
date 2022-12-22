@@ -21,7 +21,7 @@ ACCEPTINVCHARS EMPTYASNULL ESCAPE COMPUPDATE OFF
 
 select version();
 
-# show sizes
+-- show sizes
  SELECT tbl, name, size_mb FROM
  (
   SELECT tbl, count(*) AS size_mb
@@ -55,7 +55,7 @@ JOIN     ( SELECT SUM(capacity) AS total
 WHERE    a.slice = 0
 ORDER BY 4 desc, db_id, name;
 
-# show all users and Grant
+-- show all users and Grant
  select usesysid as user_id,
         usename as username,
         usecreatedb as db_create,
@@ -91,7 +91,7 @@ from
 limit 1;
  https://docs.aws.amazon.com/redshift/latest/dg/json-functions.html
 
-# getting blocking queries
+-- getting blocking queries
  SELECT waiting.relation::regclass AS waiting_table,
         blocking.relation::regclass AS blocking_table,
         waiting.pid AS waiting_pid,
