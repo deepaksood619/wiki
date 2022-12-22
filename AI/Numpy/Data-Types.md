@@ -154,7 +154,7 @@ The parameters are
 
 ### Example
 
-```
+```python
 >>> import numpy as np
 
 >>> student = np.dtype([('name','S20'), ('age', 'i1'), ('marks', 'f4')])

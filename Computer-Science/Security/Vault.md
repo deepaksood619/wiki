@@ -46,9 +46,7 @@ Vault includes multiple methods for authentication so organizations can select t
 ## Options
 
 1. Deploy Vault token alongside app
-
 2. Deploy approle roleid/secretid alongside app
-
 3. Deploy TLS client certificates and use cert auth method
 
 ## Option 1: Distributing Tokens
@@ -62,194 +60,120 @@ If distributing tokens directly:
 
 ## Commands
 
+```bash
 brew install vault
-
 vault -autocomplete-install
+
 vault server -dev
+
 export VAULT_ADDR='http://127.0.0.1:8200'
-
 vault status
-
 vault path-help aws
-
 vault path-help aws/creds/my-non-existent-role
 
-## #DML
-
+#DML
 vault kv put secret/hello foo=world
-
 vault kv put secret/hello foo=world excited=yes
-
 vault kv get secret/hello
-
 vault kv list kv/
 
-## #DDL
-
+#DDL
 vault secrets list
-
 vault token create
 
-## #Enable secret engine
-
+#Enable secret engine
 vault secrets enable -path=kv kv
-
 vault secrets enable kv
-
 vault secrets disable kv/
-
 vault secrets enable -path=aws aws
 
-## # Gen
+# Gen
 
-## # Dynamic Secrets
+# Dynamic Secrets
+vault write aws/config/root \
+    access_key=XXX\
+    secret_key=XXX \
+    region=ap-south-1
 
-vault write aws/config/root
-
-access_key=AKIAU2R6AAK3FIYUQBXY
-
-secret_key=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
-
-region=ap-south-1
-vault write aws/roles/my-role
-
-credential_type=iam_user
-
-policy_document=-<<EOF
-
+vault write aws/roles/my-role \
+        credential_type=iam_user \
+        policy_document=-<<EOF
 {
-
-"Version": "2012-10-17",
-
-"Statement": [
-
-{
-
-"Sid": "Stmt1426528957000",
-
-"Effect": "Allow",
-
-"Action": [
-
-"ec2:*"
-
-],
-
-"Resource": [
-
-"*"
-
-]
-
+    "Version": "2012-10-17",
+    "Statement": [
+    {
+        "Sid": "Stmt1426528957000",
+        "Effect": "Allow",
+        "Action": [
+        "ec2:*"
+        ],
+        "Resource": [
+        "*"
+        ]
+    }
+    ]
 }
-
-]
-
-}
-
 EOF
-vault read aws/creds/my-role
 
+vault read aws/creds/my-role
 vault lease revoke aws/creds/my-role/0bce0782-32aa-25ec-f61d-c026ff22106
+```
 
 ## K8s annotations
 
-## # remove pre-populate-only, to run sidecar that can sync credentials
+remove pre-populate-only, to run sidecar that can sync credentials
 
 ![image](media/Vault-image1.png)
+
+```yaml
 apiVersion: batch/v1beta1
-
 kind: CronJob
-
 metadata:
-
-name: reminder-test
-
-namespace: crons
-
+    name: reminder-test
+    namespace: crons
 spec:
-
-# never runs
-
-schedule: "00 00 31 2 *"
-
-successfulJobsHistoryLimit: 7
-
-failedJobsHistoryLimit: 5
-
-jobTemplate:
-
-spec:
-
-template:
-
-metadata:
-
-annotations:
-
-"vault.hashicorp.com/agent-inject": "true"
-
-"vault.hashicorp.com/agent-pre-populate-only": "true"
-
-"vault.hashicorp.com/agent-inject-secret-credentials.json": "crons/reminder-sms"
-
-"vault.hashicorp.com/role": "crons"
-
-"vault.hashicorp.com/agent-inject-template-credentials.json": |
-
-{{ with secret "crons/reminder-sms" }}
-
-{
-
-{{ range $k, $v := .Data.data }} "{{ $k }}": "{{ $v }}",
-
-{{ end }} "dummy": "yes"
-
-}
-
-{{ end }}
-
-spec:
-
-containers:
-
-- name: app
-
-image: 331916247734.dkr.ecr.ap-south-1.amazonaws.com/reminder-messages:reminder-messages-prod-2020-07-24-22-5
-
-imagePullPolicy: IfNotPresent
-
-env:
-
-- name: DEBUG
-
-value: "True"
-
-- name: DEBUG_EMAIL
-
-value: "username@example.com"
-
-- name: DEBUG_PHONE
-
-value: "9425592627"
-
-- name: DEBUG_LIMIT
-
-value: "1"
-
-command:
-
-- /bin/bash
-
-- -c
-
-- |
-
-sleep infinity
-
-# sh test.sh
-
-restartPolicy: OnFailure
+    # never runs
+    schedule: "00 00 31 2 *"
+    successfulJobsHistoryLimit: 7
+    failedJobsHistoryLimit: 5
+    jobTemplate:
+    spec:
+        template:
+        metadata:
+            annotations:
+            "vault.hashicorp.com/agent-inject": "true"
+            "vault.hashicorp.com/agent-pre-populate-only": "true"
+            "vault.hashicorp.com/agent-inject-secret-credentials.json": "crons/reminder-sms"
+            "vault.hashicorp.com/role": "crons"
+            "vault.hashicorp.com/agent-inject-template-credentials.json": |
+                {{ with secret "crons/reminder-sms" }}
+                {
+                {{ range $k, $v := .Data.data }} "{{ $k }}": "{{ $v }}",
+                {{ end }} "dummy": "yes"
+                }
+                {{ end }}
+        spec:
+            containers:
+            - name: app
+                image: 331916247734.dkr.ecr.ap-south-1.amazonaws.com/reminder-messages:reminder-messages-prod-2020-07-24-22-5
+                imagePullPolicy: IfNotPresent
+                env:
+                - name: DEBUG
+                    value: "True"
+                - name: DEBUG_EMAIL
+                    value: "deepak.sood@stashfin.com"
+                - name: DEBUG_PHONE
+                    value: "9425592627"
+                - name: DEBUG_LIMIT
+                    value: "1"
+                command:
+                - /bin/bash
+                - -c
+                - |
+                    sleep infinity
+                    # sh test.sh
+            restartPolicy: OnFailure
+```
 
 ## App Roles
 
@@ -304,11 +228,11 @@ Multiple audit devices can be enabled and Vault will send the audit logs to both
 
 2. Add ACL
 
+```yaml
 path "prod*" {
-
-capabilities = ["read"]
-
+    capabilities = ["read"]
 }
+```
 
 3. Create role
 <https://www.vaultproject.io/docs/what-is-vault>

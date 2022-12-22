@@ -194,7 +194,7 @@ The opposite of the halo effect is the horn effect, named for the horns of the d
   - Keep it simple
 - How to X when Y
 - Compelling image
-- Free cheetsheets if you give your email
+- Free cheatsheets if you give your email
 - Offer that customers cannot refuse (crazy offer) - Godfather offer
   - Rationale why are you making that offer
   - Build value

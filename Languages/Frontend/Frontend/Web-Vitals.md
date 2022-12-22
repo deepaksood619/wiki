@@ -67,15 +67,17 @@ TTFB measures the duration from the user or client making an HTTP request to the
 
 ## Chrome Dev Tools
 
-cmd + opt + i - Chrome Inspector
+`cmd + opt + i` - Chrome Inspector
 
 ## cmd + shift + p - Commands pallet
 
 screenshot - For capture of screen
 
+```js
 > : For commands
 
 >: Disable Javascript
+```
 
 <https://developer.chrome.com/docs/devtools/javascript/disable>
 

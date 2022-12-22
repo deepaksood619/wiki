@@ -100,7 +100,7 @@ Amazon S3 Select does not support whole-object compression for Parquet objects.
 
 ```python
 import boto3
-s3 = boto3.client('s3', aws_access_key_id = 'AKIAU2R6AAK3FIYUQBXY', aws_secret_access_key = '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')
+s3 = boto3.client('s3', aws_access_key_id = 'XXX', aws_secret_access_key = 'XXX')
 
 r = s3.select_object_content(
         Bucket='stashfin-migration-data',

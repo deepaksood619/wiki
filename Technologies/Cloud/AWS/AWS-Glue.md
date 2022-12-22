@@ -217,23 +217,24 @@ For JDBC sources, the following rules apply:
 
 ## SparkUI using docker
 
-docker run -it -e SPARK_HISTORY_OPTS="$SPARK_HISTORY_OPTS -Dspark.history.fs.logDirectory=s3a://example-migration-data/sparkui -Dspark.hadoop.fs.s3a.access.key=AKIAU2R6AAK3FIYUQBXY -Dspark.hadoop.fs.s3a.secret.key=iedRCoJBtwJDBKSIMWKKT9NnrvuWdetAqZPQV3Eg
-
+```bash
+docker run -it -e SPARK_HISTORY_OPTS="$SPARK_HISTORY_OPTS -Dspark.history.fs.logDirectory=s3a://stashfin-migration-data/sparkui -Dspark.hadoop.fs.s3a.access.key=XXX -Dspark.hadoop.fs.s3a.secret.key=XXX
 " -p 18080:18080 glue/sparkui:latest "/opt/spark/bin/spark-class org.apache.spark.deploy.history.HistoryServer"
+```
 
 ## Timeline
 
 1. **Tried adding hashexpression, hashpartitions with G2, G1 and standard but didn't worked**
 
-additional_options={"hashexpression":"customer_id","hashpartitions":"10"}
+`additional_options={"hashexpression":"customer_id","hashpartitions":"10"}`
 
 2. **Tried raw script with G2 but didn't worked (failed after 4 hours 30 mins)**
 
-datasource0 = glueContext.create_dynamic_frame.from_catalog(database = "aurora-etl", table_name = "etl_sttash_website_live_userdevicesms", transformation_ctx = "datasource0")
+`datasource0 = glueContext.create_dynamic_frame.from_catalog(database = "aurora-etl", table_name = "etl_sttash_website_live_userdevicesms", transformation_ctx = "datasource0")`
 
 3. **Added hashexpression limiting number of rows (failed in 6 minutes)**
 
-additional_options={"hashexpression":"id > 0 AND column_name < 1000000","hashpartitions":"10"}
+`additional_options={"hashexpression":"id > 0 AND column_name < 1000000","hashpartitions":"10"}`
 
 ## Optimization
 

@@ -1,4 +1,4 @@
-# Cheetsheet
+# Cheatsheet
 
 Created: 2020-03-14 13:39:48 +0500
 

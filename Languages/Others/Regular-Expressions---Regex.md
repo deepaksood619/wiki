@@ -359,7 +359,7 @@ Instead of
 
 In above example space was directly used to match the pattern instead of lookarounds, by which two consecutive matches are skipped.
 
-## Cheetsheet
+## Cheatsheet
 
 ### Quantifiers
 
