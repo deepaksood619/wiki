@@ -29,37 +29,27 @@ text1
 len(text6)
 texts()
 sents()
+    The sents() function divides the text up into its sentences, where each sentence is a list of words
 
-The sents() function divides the text up into its sentences, where each sentence is a list of words
-
-## text1.concordance("monstrous") #A concordance view shows us every occurrence of a given word, together with some context
-
-## text2.similar("monstrous")
-
-## text2.common_contexts(["monstrous", "very"])
-
-## text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
-
+text1.concordance("monstrous") #A concordance view shows us every occurrence of a given word, together with some context
+text2.similar("monstrous")
+text2.common_contexts(["monstrous", "very"])
+text4.dispersion_plot(["citizens", "democracy", "freedom", "duties", "America"])
 text6.dispersion_plot(["Arthur", "Holy", "Grail"])
-
 text6.generate()
-
 text6.count("Grail")
-
 text6.count("grail")
-
-**fdist1 = FreqDist(text1)
+fdist1 = FreqDist(text1)
 fdist1.most_common(50)
-**fdist1.plot(50, cumulative=True)
+fdist1.plot(50, cumulative=True)
 
-**>>> cfd = nltk.ConditionalFreqDist(
-... (genre, word)
-... for genre in brown.categories()
-... for word in brown.words(categories=genre))
+ >>> cfd = nltk.ConditionalFreqDist(
+...           (genre, word)
+...           for genre in brown.categories()
+...           for word in brown.words(categories=genre))
 >>> genres = ['news', 'religion', 'hobbies', 'science_fiction', 'romance', 'humor']
 >>> modals = ['can', 'could', 'may', 'might', 'must', 'will']
->>> cfd.tabulate(conditions=genres, samples=modals)**
-
+>>> cfd.tabulate(conditions=genres, samples=modals)
 ```
 
 ### NLTK's Frequency Distributionss
@@ -82,67 +72,45 @@ fdist1.most_common(50)
 
 ### Corpus
 
-```
+```python
 nltk.chat.chatbots()
-
-## nltk.corpus.gutenberg.fileids()
-
-## emma = nltk.Text(nltk.corpus.gutenberg.words('austen-emma.txt'))
-
+nltk.corpus.gutenberg.fileids()
+emma = nltk.Text(nltk.corpus.gutenberg.words('austen-emma.txt'))
 len(gutenberg.raw('austen-emma.txt'))
+    The raw() function gives us the contents of the file without any linguistic processing.
 
-The raw() function gives us the contents of the file without any linguistic processing.
+from nltk.corpus import webtext
+webtext.fileids()
 
-## from nltk.corpus import webtext
+from nltk.corpus import nps_chat
+nps_chat.posts('10-19-20s_706posts.xml')
 
-## webtext.fileids()
-
-## from nltk.corpus import nps_chat
-
-## nps_chat.posts('10-19-20s_706posts.xml')
-
-The **Brown Corpus** is a convenient resource for studying systematic differences between genres, a kind of linguistic inquiry known as **stylistics**.
-
+The Brown Corpus is a convenient resource for studying systematic differences between genres, a kind of linguistic inquiry known as stylistics.
 first million-word electronic corpus of English
+from nltk.corpus import brown
+brown.categories()
+brown.words(categories='news')
+brown.words(fileids=['cg22'])
+brown.sents(categories=['news', 'editorial', 'reviews'])
 
-## from nltk.corpus import brown
+from nltk.corpus import reuters
+reuters.fileids()
+reuters.categories()
+reuters.categories(['training/9865', 'training/9880'])
 
-## brown.categories()
-
-## brown.words(categories='news')
-
-## brown.words(fileids=['cg22'])
-
-## brown.sents(categories=['news', 'editorial', 'reviews'])
-
-## from nltk.corpus import reuters
-
-## reuters.fileids()
-
-## reuters.categories()
-
-## reuters.categories(['training/9865', 'training/9880'])
-
-## from nltk.corpus import inaugural
-
-## inaugural.fileids()
-
-**>>> cfd = nltk.ConditionalFreqDist(
-... (target, fileid[:4])
-... for fileid in inaugural.fileids()
-... for w in inaugural.words(fileid)
-... for target in ['america', 'citizen']**
-
-**... if w.lower().startswith(target))
->>> cfd.plot()**
-
-## nltk.corpus.indian.words('hindi.pos')
-
-## nltk.corpus.cess_esp.words()
-
-## nltk.corpus.floresta.words()
-
-## nltk.corpus.udhr.fileids() #univeral declaration of human rights in 300 languages
+from nltk.corpus import inaugural
+inaugural.fileids()
+>>> cfd = nltk.ConditionalFreqDist(
+...           (target, fileid[:4])
+...           for fileid in inaugural.fileids()
+...           for w in inaugural.words(fileid)
+...           for target in ['america', 'citizen']
+...           if w.lower().startswith(target))
+>>> cfd.plot()
+nltk.corpus.indian.words('hindi.pos')
+nltk.corpus.cess_esp.words()
+nltk.corpus.floresta.words()
+nltk.corpus.udhr.fileids() #univeral declaration of human rights in 300 languages
 ```
 
 ![image](media/NLP_NLTK-image1.jpeg)

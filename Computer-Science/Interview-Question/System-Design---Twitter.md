@@ -11,7 +11,7 @@ Modified: 2022-03-01 17:10:45 +0500
 [Twitter system design | twitter Software architecture | twitter interview questions](https://www.youtube.com/watch?v=wYk0xPP_P_8)
 ![image](media/System-Design---Twitter-image1.jpg)
 
-## Core Features -
+## Core Features
 
 1. Tweeting
 
@@ -31,7 +31,7 @@ Modified: 2022-03-01 17:10:45 +0500
 
 8. How to incorporate Advertisments
 
-## Database -
+## Database
 
 1. Tweets database
 

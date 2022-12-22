@@ -117,7 +117,7 @@ scp /local/dir/ username@remoteHost:/remote/dir/file.txt
 
 ## SCP directory (use -r option)
 
-scp -r ubuntu@energy.example.com:/home/ubuntu/sources/zenalytix/media /home/ubuntu/sources/zenalytix/media
+scp -r ubuntu@energy.example.com:/home/ubuntu/sources/example/media /home/ubuntu/sources/example/media
 
 ## Grep
 

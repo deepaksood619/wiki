@@ -74,7 +74,7 @@ COPY ./Docker/analytics/jupyter_notebook_config.py /root/.jupyter/jupyter_notebo
 COPY id_rsa id_rsa.pub /root/.ssh/
 RUN chmod 600 ~/.ssh/id_rsa*
 
-ADD . /root/zenalytix/
+ADD . /root/example/
 
 EXPOSE 5555 8070 8071 8080 8888 9104
 ```

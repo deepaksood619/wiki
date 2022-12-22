@@ -30,7 +30,7 @@ Leonhard Euler solved the problem in 1735 by proving that it is not possible.
 
 4. Directed Acyclic Graph (DAG) - A directed graph with no cycles
 
-## Graph-Processing problems / Graph Challenges-
+## Graph-Processing problems / Graph Challenges
 
 1. Path: Is there a path between s and t?
 

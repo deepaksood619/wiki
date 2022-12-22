@@ -242,8 +242,6 @@ MC is short for **Master of Ceremonies** and may often be written as **emcee**. 
 
 <https://www.parents.com/pregnancy/giving-birth/labor-and-delivery/checklist-how-to-write-a-birth-plan>
 
-Pregnency daily time lapseNeha pregnency daily time lapse
-
 ## Parenting / children
 
 - **Homeschooling / Home School / Homeschool**
@@ -361,7 +359,7 @@ You have a boundary issue if...
 - Love supports the transition from dependence to self-reliance
 - Actionable advice: Don't dole out praise, cultivate empathy
   - Don't say, "You are kind for sharing", instead say,
-  - When you shared your toy with Neha, you made her feel very happy
+  - When you shared your toy with that Kid, you made her feel very happy
 
 Trust does not mean that others have to do things the way you expect them to. Trust means to become vulnerable.
 

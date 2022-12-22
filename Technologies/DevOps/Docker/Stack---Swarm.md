@@ -148,7 +148,7 @@ Service discovery isnetwork-scoped, meaning only containers or tasks that are on
 
 If the destination container orserviceand the source container are not on the same network, the Docker engine forwards the DNS query to the default DNS server.
 
-## Example -
+## Example
 
 ![taskl.myservice Resolver (127.0.0.11) task2.myservice Resolver (127.0.0.11) taskl .client curl docker.com curl myservice Resolver (127.0.0.11) Docker Engine taskl.myservice task2.myservice myservice VIP external DNS Engine DNS Server "mynet" network 10.0.0.4 10.0.0.5 10.0_0.3 8.8.8.8 myservice VIP (10.0.0.3) external DNS internal engine KV store ](../../media/DevOps-Docker-Stack---Swarm-image1.png)
 

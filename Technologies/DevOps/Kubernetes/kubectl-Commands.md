@@ -282,7 +282,7 @@ kubectl taint nodes aks-agentpool-10140213-9 node=historical:NoSchedule
 
 # to overwrite previous taint
 
-kubectl taint nodes --overwrite aks-agentpool-10140213-0 node=zenalytix-0:NoSchedule
+kubectl taint nodes --overwrite aks-agentpool-10140213-0 node=example-0:NoSchedule
 
 # to remove a taint
 
@@ -337,7 +337,7 @@ kubectl exec -it druid-republisher-fd8bb77bd-zgjf7 -- /bin/bash
 
 kubectl exec -n kafka -it my-kafka-connect-cp-kafka-connect-5ff6d9758d-gjk22 -c cp-kafka-connect-server -- /bin/bash
 
-kubectl exec zenalytix-0 cfurl <http://10.8.0.1:9101>
+kubectl exec example-0 cfurl <http://10.8.0.1:9101>
 
 ## port-forward Forward one or more local ports to a pod
 
@@ -403,7 +403,7 @@ kubectl label pod $POD_NAME app=v1
 
 kubectl label nodes aks-agentpool-10140213-9 node=historical
 
-kubectl label nodes aks-agentpool-10140213-0 node=zenalytix
+kubectl label nodes aks-agentpool-10140213-0 node=example
 
 kubectl label node aks-agentpool-10140213-0 node-
 
@@ -576,7 +576,7 @@ kubectl create secret docker-registry gcr-json-key --docker-server=gcr.io --dock
 
 kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcr-json-key"}]}'
 
-kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcr-json-key"}]}' -n zenalytix
+kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcr-json-key"}]}' -n example
 
 ## CPU Requests
 
@@ -690,9 +690,9 @@ kubectl delete job $(kubectl get jobs| awk '$3 ~ 1' | awk '{print $1}')
 
 kubectl delete job $(kubectl get jobs -n maintenance | awk '{print $1}') -n maintenance
 
-kubectl delete job $(kubectl get jobs -n zenalytix | awk '$3 ~ 0' | awk '{print $1}') -n zenalytix
+kubectl delete job $(kubectl get jobs -n example | awk '$3 ~ 0' | awk '{print $1}') -n example
 
-kubectl delete pod $(kubectl get pods -l app=alertdriver -n zenalytix | awk '{print $1}') -n zenalytix
+kubectl delete pod $(kubectl get pods -l app=alertdriver -n example | awk '{print $1}') -n example
 
 ## # Delete namespace stuck at terminating state
 

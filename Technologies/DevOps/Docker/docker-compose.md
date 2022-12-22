@@ -45,7 +45,7 @@ build Build or rebuild services
 
 docker-compose up --build kafka-consumer
 
-docker-compose up --no-build zenalytix-dev
+docker-compose up --no-build example-dev
 
 bundle Generate a Docker bundle from the Compose file
 config Validate and view the Compose file

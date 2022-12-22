@@ -211,7 +211,7 @@ if any((x, y, z)):
 
 2. `chr()` convert ascii to character
 
-## Swap Values -
+## Swap Values
 
 ```python
 A = 23

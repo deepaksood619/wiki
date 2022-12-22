@@ -29,7 +29,7 @@ Kn+1 = 10
 
 i.e., 3 red + 3 white + 3 blue + 1(red or white or blue) = 10
 
-## Pigeonhole principle strong form --
+## Pigeonhole principle strong form -
 
 ## Theorem:Let q1, q2, . . . , qnbe positive integers
 

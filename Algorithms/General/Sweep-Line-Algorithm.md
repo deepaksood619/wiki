@@ -6,7 +6,7 @@ Modified: 2018-02-06 11:32:29 +0500
 
 ---
 
-## Orthogonal Line Segment Intersection -
+## Orthogonal Line Segment Intersection
 
 Given N horizontal and vertical line segments, find all intersections
 

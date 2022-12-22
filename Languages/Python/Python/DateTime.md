@@ -11,7 +11,7 @@ Modified: 2021-05-07 11:23:41 +0500
 1. **Tick**
 2. **TimeTuple**
 
-## Modules -
+## Modules
 
 1. **Time**
 2. **Datetime**
@@ -76,7 +76,7 @@ Objects of the date type are always naïve
 
 ## 2.1. Date Objects
 
-## Ex -
+## Ex
 
 ```python
     Today = date.today()

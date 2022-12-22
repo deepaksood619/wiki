@@ -10,7 +10,7 @@ version: "3.7"
 
 services:
 
-zenalytix-build:
+example-build:
 
 build:
 
@@ -24,9 +24,9 @@ GIT_USERNAME: ${GIT_USERNAME}
 
 GIT_PASSWORD: ${GIT_PASSWORD}
 
-image: gcr.io/example-data-archiver/zenalytix:fc3c0ae06074
+image: gcr.io/example-data-archiver/example:fc3c0ae06074
 
-zenalytix-dev:
+example-dev:
 
 stdin_open: true
 
@@ -34,7 +34,7 @@ tty: true
 
 restart: always / "no" / on-failure / unless-stopped
 
-image: gcr.io/example-data-archiver/zenalytix:fc3c0ae06074
+image: gcr.io/example-data-archiver/example:fc3c0ae06074
 
 deploy:
 
@@ -52,7 +52,7 @@ restart_policy:
 
 condition: on-failure
 
-container_name: zenalytix-dev
+container_name: example-dev
 
 labels:
 
@@ -62,13 +62,13 @@ env_file:
 
 - .env
 
-- Docker/env/${ZENALYTIX_ENV}.env
+- Docker/env/${example_ENV}.env
 
 environment:
 
 - DEBUG=True
 
-- DJANGO_SETTINGS_MODULE=zenalytix.settings
+- DJANGO_SETTINGS_MODULE=example.settings
 
 - POSTGRES_PASSWORD=airflow
 
@@ -76,7 +76,7 @@ environment:
 
 - POSTGRES_DB=airflow
 
-working_dir: /root/src/zenalytix
+working_dir: /root/src/example
 
 cap_add:
 
@@ -116,11 +116,11 @@ networks:
 
 example-docker:
 
-ipv4_address: ${ZENALYTIX_IP}
+ipv4_address: ${example_IP}
 
 volumes:
 
-- post:/root/src/zenalytix
+- post:/root/src/example
 
 healthcheck:
 
@@ -144,9 +144,9 @@ awslogs-region: us-west-2
 
 depends_on:
 
-- "postgres-zenalytix"
+- "postgres-example"
 
-- "redis-zenalytix"
+- "redis-example"
 
 redis:
 
@@ -224,7 +224,7 @@ airflow-docker:
 
 volumes:
 
-postgres-zenalytix-volume:
+postgres-example-volume:
 
 external: true
 

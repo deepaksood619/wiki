@@ -142,7 +142,7 @@ Calendar: Open Weekly Note--- I mapped this to:Cmd-shift-m
 
 ### Search
 
-![[Screenshot 2022-12-19 at 5.04.00 PM.jpg]]
+![image](../../media/Screenshot%202022-12-19%20at%205.04.00%20PM.jpg)
 
 ## LYT - Linking Your Thinking
 
@@ -186,7 +186,7 @@ Calendar: Open Weekly Note--- I mapped this to:Cmd-shift-m
 
 <https://github.com/Jekyll-Garden/jekyll-garden.github.io> - 191
 
-## <https://github.com/theowenyoung/gatsby-theme-primer-wiki> - 73
+<https://github.com/theowenyoung/gatsby-theme-primer-wiki> - 73
 
 <https://github.com/flowershow/flowershow> - 156
 
@@ -251,14 +251,11 @@ a Zettelkasten needs to adhere to the [Principle of Atomicity](https://zettelkas
 [What is PKM? What is Personal Knowledge Management?](https://www.youtube.com/watch?v=Q2WBHyqRsxA)
 
 [HOW TO TAKE SMART NOTES by Sönke Ahrens | Core Message](https://www.youtube.com/watch?v=JnS3g68zCXw)
--
 
 1. Two stage filter
 
--
-  - Literature notes and Fleeting notes
-
-  - Permanent notes
+- Literature notes and Fleeting notes
+- Permanent notes
 
 2. Bottom‐up approach to deepen understanding and generate new insights
 

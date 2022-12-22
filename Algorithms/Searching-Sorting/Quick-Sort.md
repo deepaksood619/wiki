@@ -66,6 +66,6 @@ The answer depends on strategy for choosing pivot. In early versions of Quick So
 
 Since these cases are very common use cases, the problem was easily solved by choosing either a random index for the pivot, choosing the middle index of the partition or (especially for longer partitions) choosing the median of the first, middle and last element of the partition for the pivot. With these modifications, the worst case of Quick sort has less chances to occur, but worst case can still occur if the input array is such that the maximum (or minimum) element is always chosen as pivot.
 
-## Further Readings -
+## Further Readings
 
 1. Quick Select - A quicksort variant which finds the kth smallest item in linear time

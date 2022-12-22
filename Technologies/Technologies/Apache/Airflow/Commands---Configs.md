@@ -15,10 +15,10 @@ Modified: 2020-09-26 15:24:39 +0500
 - airflow scheduler
 
 # Configurations
-AIRFLOW_HOME: /root/zenalytix/Docker/airflow
-AIRFLOW__CORE__AIRFLOW_HOME: /root/zenalytix/Docker/airflow
-AIRFLOW__CORE__DAGS_FOLDER: /root/zenalytix/Docker/airflow/dags
-AIRFLOW__CORE__BASE_LOG_FOLDER: /root/zenalytix/Docker/airflow/logs
+AIRFLOW_HOME: /root/example/Docker/airflow
+AIRFLOW__CORE__AIRFLOW_HOME: /root/example/Docker/airflow
+AIRFLOW__CORE__DAGS_FOLDER: /root/example/Docker/airflow/dags
+AIRFLOW__CORE__BASE_LOG_FOLDER: /root/example/Docker/airflow/logs
 AIRFLOW__CORE__EXECUTOR: CeleryExecutor
 AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://postgres:airflow@apg-postgresql-headless.airflow:5432/airflow
 

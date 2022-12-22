@@ -6,7 +6,7 @@ Modified: 2021-02-21 21:38:45 +0500
 
 ---
 
-## Points to remember -
+## Points to remember
 
 1. Common way of implementing priority queues.
 
@@ -56,12 +56,12 @@ left_child = (2*k) + 1
 right_child = (2*k) + 2
 Array representation of a heap-ordered complete binary tree
 
-## Heap ordered binary tree -
+## Heap ordered binary tree
 
 - Keys in nodes
 - Parent's key no smaller than children's keys
 
-## Properties -
+## Properties
 
 - Largest key is a [1], which is root of binary tree
 - Parent of node at k is at k/2
@@ -113,7 +113,7 @@ Eliminate the violation -
 
 ![image](media/Binary-Heap-image6.png)
 
-## Bottom-up heap construction -
+## Bottom-up heap construction
 
 Goal: Build max heap using bottom-up method
 

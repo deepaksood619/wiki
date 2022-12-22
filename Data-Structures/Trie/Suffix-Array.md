@@ -11,7 +11,7 @@ Modified: 2021-06-12 09:00:01 +0500
 A suffix array can be constructed from Suffix tree by doing a DFS traversal of the suffix tree. In fact Suffix array and suffix tree both can be constructed from each other in linear time.
 Advantages of suffix arrays over suffix trees include improved space requirements, simpler linear time construction algorithms (e.g., compared to Ukkonen's algorithm) and improved cache locality
 
-## Applications -
+## Applications
 
 - Full text indices
 - Data compression algorithms

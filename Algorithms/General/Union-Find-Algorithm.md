@@ -40,7 +40,7 @@ Setting all the id to parent in Union step
 
 Only setting the last component's id to parent, Creating a tree like DS whose root represents the parent. Int root(int i) is used for finding the parent and checking if two elements are connected
 
-## Optimizations -
+## Optimizations
 
 1. Weighted Quick Union (Union by rank / Union by height)
     - Modify quick-union to avoid tall trees
@@ -51,7 +51,7 @@ Only setting the last component's id to parent, Creating a tree like DS whose ro
 
 Just after computing the root of p, set the id of each examined node to point to that root.
 
-## Complexity -
+## Complexity
 
 Without any optimizations, Union and Find will take O(n)
 
@@ -83,7 +83,7 @@ Here α is called Ackermann function.
 
 M union-find operations on a set of N objects
 
-## Code Snippets -
+## Code Snippets
 
 1. Find
 
@@ -114,7 +114,7 @@ else
 yRoot.parent := xRoot
 xRoot.rank := xRoot.rank + 1
 
-## Applications -
+## Applications
 
 1. Check whether a graph contains a cycle or not
 

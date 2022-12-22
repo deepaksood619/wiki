@@ -22,7 +22,7 @@ Many applications require that we process items having keys in order, but not ne
 
 ## Python > Documentation > Data Types
 
-## Applications -
+## Applications
 
 - Event-driven simulation (customers in a line)
   - Simulate the motion of N moving particles that behave according to the laws of elastic collision.

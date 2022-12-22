@@ -6,7 +6,7 @@ Modified: 2020-03-13 16:27:24 +0500
 
 ---
 
-```
+```python
 ## Loading a csv in pandas
 
 ## import pandas as pd

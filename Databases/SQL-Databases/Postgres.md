@@ -192,11 +192,11 @@ PgBouncer is a lightweight connection pooler for PostgreSQL
 <https://github.com/pgbouncer/pgbouncer/blob/master/etc/pgbouncer.ini>
 
 ```python
-DATABASES_HOST:"zpg-postgresql-headless.zenalytix"
+DATABASES_HOST:"zpg-postgresql-headless.example"
 DATABASES_PORT:"5432"
 DATABASES_USER:"postgres"
 DATABASES_PASSWORD:"xitanez123"
-DATABASES_DBNAME:"zenalytix_db_new"
+DATABASES_DBNAME:"example_db_new"
 PGBOUNCER_LISTEN_PORT:"5432"
 PGBOUNCER_MAX_CLIENT_CONN:"10000"
 PGBOUNCER_DEFAULT_POOL_SIZE:"100"

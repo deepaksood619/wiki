@@ -13,18 +13,18 @@ This system of organizing data results in a very fast way to find data efficient
 Hash tables are extremely fast, having a time complexity that is in the order of O(1).
 A function that takes a key and reduces it to an integer (array index) to be mapped to an array.
 
-## Issues -
+## Issues
 
 - Computing the hash function
 - Equality test
 - Collision resolution: Algorithm and data structure to handle two keys that hash to the same array index
 
-## Classic space-time tradeoff -
+## Classic space-time tradeoff
 
 - No space limitation: trivial has function with key as index
 - No time limitation: trivial collision resolution with sequential search
 
-## Computing the hash function -
+## Computing the hash function
 
 Scramble the keys uniformly to produce a table index
 
@@ -43,7 +43,7 @@ Hash function - An int between 0 to M-1 (for use as array index)
 
 ![image](media/Hash-Tables-image1.png)
 
-## Uniform hashing assumption -
+## Uniform hashing assumption
 
 Each key is equally likely to hash to an integer between 0 to M - 1.
 
@@ -95,7 +95,7 @@ When a new key collides, find next empty slot, and put it there
 
 Consistent Hashing is a special kind of hashing such that when a hash table is resized, only K/n keys need to be remapped on average, where K is the number of the keys, and n is the number of slots. In contrast, in most traditional hash tables, a change in the number of array slots causes nearly all keys to be remapped because the mapping between the keys and slots are defined by a modular operation.
 
-## Hash Table Context -
+## Hash Table Context
 
 One-way hash function - "Hard" to find a key that will hash to a desired value (or two keys that hash to same value)
 
@@ -126,7 +126,7 @@ Java system includes both.
 
 ・Hash tables: java.util.HashMap, java.util.IdentityHashMap.
 
-## Implementation -
+## Implementation
 
 All java classes inherit a method hashCode(), which returns a 32 bit int
 

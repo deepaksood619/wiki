@@ -72,9 +72,9 @@ Modified: 2018-02-06 09:44:20 +0500
 1. If implemented properly, the height of a red-black BST with N keys is at most 2 lg N
 ![image](media/Left-Leaning-Red-Black-BSTs-(LLRB-tree)-image17.png)
 
-## Applications -
+## Applications
 
-## Red-black trees are widely used as system symbol tables -
+## Red-black trees are widely used as system symbol tables
 
 - Java: Java.util.TreeMap, java.util.TreeSet
 - C++ STL: map, multimap, multiset

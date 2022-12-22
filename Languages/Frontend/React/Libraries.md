@@ -23,7 +23,9 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 
 <https://www.npmjs.com/package/uuid>
 
-## Editors - <https://www.sanity.io/guides/top-5-rich-text-react-components>
+## Editors
+
+<https://www.sanity.io/guides/top-5-rich-text-react-components>
 
 <https://www.npmjs.com/package/easymde>
 
@@ -40,6 +42,9 @@ Underscore.js is a utility-belt library for JavaScript that provides support for
 [**https://www.npmjs.com/package/dotenv**](https://www.npmjs.com/package/dotenv)
 
 <https://www.npmjs.com/package/codemirror>
+CodeMirror is a code editor component for the web. It can be used in websites to implement a text input field with support for many editing features, and has a rich programming interface to allow further extension.
+
+<https://codemirror.net>
 
 <https://www.npmjs.com/package/compression>
 

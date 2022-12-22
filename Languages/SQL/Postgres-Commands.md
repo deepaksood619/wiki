@@ -80,9 +80,9 @@ set ECHO_HIDDEN on
 
 c [databasename]: Connect to [databasename] on local database cluster
 
-CREATE DATABASE zenalytix_db_new;
+CREATE DATABASE example_db_new;
 
-psql -U example -d zenalytix_db_new -p 5432
+psql -U example -d example_db_new -p 5432
 
 psql -h localhost -p 5432 -U postgres -d airflow
 

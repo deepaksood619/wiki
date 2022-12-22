@@ -18,7 +18,7 @@ These are called references. (They are references to objects)
 
 Variables are not pointers. When you assign to a variable you are *binding* the name to an object. From that point onwards you can refer to the object by using the name, until that name is rebound.
 
-## Tuples are immutable and strings are mutable -
+## Tuples are immutable and strings are mutable
 
 One is performance: knowing that a string is immutable makes it easy to lay it out at construction time --- fixed and unchanging storage requirements. This is also one of the reasons for the distinction between tuples and lists. This also allows the implementation to safely reuse string objects. For example, the CPython implemenation uses pre-allocated objects for single-character strings, and usually returns the original string for string operations that doesn't change the content.
 

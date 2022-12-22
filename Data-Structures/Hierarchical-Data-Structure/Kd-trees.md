@@ -19,14 +19,14 @@ Problem with Grid implementation - **Clustering**
 ![image](media/Kd-trees-image2.png)
 ![image](media/Kd-trees-image3.png)
 
-## Operations -
+## Operations
 
 - Range search in a 2d tree
 
 - Nearest neighbor search in a 2d tree
 ![image](media/Kd-trees-image4.png)
 
-## Applications of 2d trees -
+## Applications of 2d trees
 
 - Classifying astronomical objects
 - Computer animation

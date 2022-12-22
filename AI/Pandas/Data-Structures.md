@@ -37,56 +37,41 @@ Two-dimensional size-mutable, potentially heterogeneous tabular data structure w
 
 Note: All the manipulation operation creates a new dataframe and doesn't change the original dataframe, so either instantiate the dataframe back to the same variable, or explicitely pass inplace=True, if available.
 
-## Examples -
+## Examples
 
-## >>> d = {'col1': [1, 2], 'col2': [3, 4]}
-
-## >>> df = pd.DataFrame(data=d)
-
-## >>> df
-
-col1 col2
-0 1 3
-1 2 4
+```python
+>>> d = {'col1': [1, 2], 'col2': [3, 4]}
+>>> df = pd.DataFrame(data=d)
+>>> df
+col1  col2
+0     1     3
+1     2     4
 
 df = pandas.read_csv("http://pythonhow.com/supermarkets.csv")
-
 df = pandas.read_json('supermarkets.json')
-
 df.set_index('ID')
-
 df.shape # returns a tuple with (num_of_rows, num_of_columns)
 
 loan_data_backup = df.copy()
-
 df.columns.values
-
 df.info()
-
 df_columns['col_name'].unique()
 
-Extract row, column from the dataframe
-
+# Extract row, column from the dataframe
 df.loc[:,"Country"])
-
 df.iloc[3,1:4]
-
 df.ix[3,4]
 
-Delete row, column from the dataframe
-
+# Delete row, column from the dataframe
 df.drop("332 Hill St", 0)
-
 df.drop(df.columns[0:3],1)
-
 df.columns # returns list of all the column of the dataframe
 
-Add row column into the dataframe
-
+# Add row column into the dataframe
 df["Continent"] = df.shape[0]*[North America"] # creates a new column Continent and set all the values of the rows to "North America"
 
 df["Continent"] = df["Country"] + "," + "North America"
-
 df["Address"] = df["Address"] + ", " + df["City"] + ", " + df["State"] + ", " + df["Country"] #update the column Continent, with all addition of all the values specified in the Column.
 
 df.T #Transpose of the dataframe
+```

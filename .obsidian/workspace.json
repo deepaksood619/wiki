@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Science/System-Design/Others.md",
+                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Screenshot 2022-12-19 at 5.04.00 PM.jpg\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +73,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a8d7936637e41db9",
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer-Science/System-Design/Others.md",
+                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer-Science/System-Design/Others.md",
+                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer-Science/System-Design/Others.md"
+                "file": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
               }
             }
           },
@@ -168,8 +170,23 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "978fd2faf621af33",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "eae646b9619747a1",
   "lastOpenFiles": [
+    "Office/HR-^M-Interviews/Interviews---Others/Archive.md",
+    "Computer-Science/System-Design/Others.md",
     "Computer-Science/System-Design/Intro.md",
     "Languages/Frontend/React/React-DOM.md",
     "Languages/Python/Django/Libaries.md",
@@ -177,8 +194,6 @@
     "Knowledge/Management/Marketing---Sales.md",
     "Office/Keep/Credentials.md",
     "Office/Keep/Deepak.md",
-    "Office/Personality/About-Me.md",
-    "Office/Personality/Master-Resume.md",
-    "Office/Credentials/External-Tech.md"
+    "Office/Personality/About-Me.md"
   ]
 }

@@ -6,7 +6,7 @@ Modified: 2020-01-07 22:36:30 +0500
 
 ---
 
-## Points to remember -
+## Points to remember
 
 1. Explicit Data Structure
 

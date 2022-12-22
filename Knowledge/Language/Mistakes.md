@@ -8,7 +8,7 @@ Modified: 2019-09-30 10:34:30 +0500
 
 ## Usage Mistakes
 
-1. Affect vs. Effect
+### Affect vs. Effect
 
 Incorrect: The game will effect our standings in the league.
 
@@ -18,7 +18,7 @@ Although both words can be used as nouns and verbs, "effect" is usually used as 
 
 noun and "affect" is usually used as a verb.
 
-2. Apart vs. A part
+### Apart vs. A part
 
 Incorrect: Can I be apart of your group?
 
@@ -28,7 +28,7 @@ Apart is an adverb meaning, "separated by some distance." These two rocks are th
 
 Apart is usually paired with "from" and a part is usually paired with "of."
 
-3. Assure vs. Ensure
+### Assure vs. Ensure
 
 Incorrect: You must take the proper precautions to assure your privacy.
 
@@ -38,7 +38,7 @@ To ensure something happens is to guarantee it. Assure is to tell someone someth
 
 Greg assured me nothing was wrong. In order to ensure that nothing was wrong, Greg locked the door.
 
-4. Who vs. Whom
+### Who vs. Whom
 
 Incorrect: Who did you give that to?
 
@@ -48,453 +48,140 @@ Who functions as a subject while whom functions as an object. An easy way to rem
 
 Who (he) told me to make dinner. You delivered a pizza to whom (him)?
 
-5. Attain vs. Obtain
+### Attain vs. Obtain
 
-Incorrect:
+Incorrect: Joe worked very hard and obtained a great level of success.
 
-Joe worked very hard and obtained a great level of success.
+Correct: Joe worked very hard and attained a great level of success.
 
-Correct:
+Attain and obtain are both verbs. Attain means "to accomplish, reach, or achieve something through effect." Obtain means "to get, acquire, or to gain possession of something." Attain implies effort put forth to produce the outcome.
 
-Joe worked very hard and attained a great level of success.
+### Break vs. Brake
 
-Attain
+Incorrect: There's been a brake in the water pipe.
 
-and
+Correct: There's been a break in the water pipe.
 
-obtain
+Break can be used as a noun and verb. To break something is to cause it to separate into pieces. A break is the act or action of breaking. We took a break at work. Brake can also be used as a noun and verb. To brake is to stop your car.
 
-are both verbs.
+### Capital vs. Capitol
 
-Attain
+Incorrect: We took a tour of the capital building today.
 
-means "to accomplish, reach, or achieve
+Correct: We took a tour of the capitol building today.
 
-something through effect."
+Capital refers to a city, specifically a governmental seat. It can also be used in a financial sense to describe money or equipment. Capitol is a building where a legislature meets.
 
-Obtain
+### Compliment vs. Complement
 
-means "to get, acquire, or to gain possession of
+Incorrect: Today I received a nice complement from a friend.
 
-something."
+Correct: Today I received a nice compliment from a friend.
 
-Attain
+A compliment is a flattering or praising remark. A complement is something that completes or brings something to perfection. Those shoes are the perfect complement for that dress.
 
-implies effort put forth to produce the outcome.
+### Comprise vs. Compose
 
-6. Break vs. Brake
+Incorrect: Fifty states comprise the United States.
 
-Incorrect:
+Correct: Fifty states compose the United States.
 
-There's been a brake in the water pipe.
+Comprise means "to be made up of." Compose means "to make up the constituent parts of." With comprise, the whole is the subject. With compose, the parts are the subject.
 
-Correct:
+### Emigrate vs. Immigrate
 
-There's been a break in the water pipe.
+Incorrect: My grandparents emigrated into the United States.
 
-Break
+Correct: My grandparents immigrated into the United States.
 
-can be used as a noun and verb. To
+To immigrate is to enter a new place. To emigrate is to leave a place. You immigrate into places and emigrate from places.
 
-break something
+### Everyday vs. Every day
 
-is to cause it to separate
+Incorrect: I get coffee before work everyday.
 
-into pieces. A
+Correct: I get coffee before work every day.
 
-break
+Everyday, when used as a single word, is an adjective meaning commonplace, usual, and suitable for ordinary days. Every day, two words, is an adverbial phrase. Substituting "each day" for "every day" will help you keep them separated.
 
-is the act or action of breaking.
+### Explicit vs. Implicit
 
-We took a break at work.
+Incorrect: Please be implicit; what is it that you want?
 
-Brake
+Correct: Please be explicit; what is it that you want?
 
-can also be used as a noun and verb. To
+To say something explicitly is to spell it out clearly so that it is unambiguous. Something is implicit when it is implied or not said clearly and directly.
 
-brake
+### Invoke vs. Evoke
 
-is to stop your car.
+Incorrect: This comic strip will invoke laughter.
 
-7. Capital vs. Capitol
+Correct: This comic strip will evoke laughter.
 
-Incorrect:
+To invoke is to assert something as authority or appeal to someone for help. Great Britain invoked military aid from the United States. To evoke is to bring someone forth or to recall something to the conscious mind. Invoke is a more direct action than evoke.
 
-We took a tour of the capital building today.
+### Who vs. That
 
-Correct:
+Incorrect: The woman that opened the door for you is my mom.
 
-We took a tour of the capitol building today.
+Correct: The woman who opened the door for you is my mom.
 
-Capital
+When referring to inanimate objects or animals without a name, use that. When referring to human beings and animals with a name, use who.
 
-refers to a city, specifically a governmental seat. It can also be used in a
+### Onto vs. On to
 
-financial sense to describe money or equipment.
+Incorrect: The cat jumped on to the dresser.
 
-Capitol
+Correct: The cat jumped onto the dresser.
 
-is a building where a legis
+Onto is a preposition that means "on top of, to a position on." On to, two words, is used when on is part of a verb phrase such as "held on." She held on to the chains while swinging. A good trick is to mentally say "up" before "on" in a sentence. If it still makes sense, then onto is the correct choice.
 
--
+### Passed vs. Past
 
-lature meets.
+Incorrect: The car past me on the left.
 
-8. Compliment vs. Complement
+Correct: The car passed me on the left.
 
-Incorrect:
+Passed implied movement of some sort. Past is a period of time before the present. Bill Clinton is a past president.
 
-Today I received a nice complement from a friend.
+### To vs. Too vs. Two
 
-Correct:
+Incorrect: There are to many people here.
 
-Today I received a nice compliment from a friend.
+Correct: There are too many people here.
 
-A
+Too means "also, very, or excessive." Two is the number 2. I need two pizzas. To is just about everything else. Can you drive me to the mall?
 
-compliment
+### There vs. Their vs. They're
 
-is a flattering or praising remark. A
+Incorrect: All of there equipment was loaded into the truck.
 
-complement
+Correct: All of their equipment was loaded into the truck.
 
-is something that
+There is a directional word and is usually paired with "is" or "are." Over there is a crocodile. Their is possessive. Their house is very cute. They're is a contraction of
+"they are." They're (they are) moving in next door.
 
-completes or brings something to perfection.
+### Toward vs. Towards
 
-Those shoes are the perfect comple
+The difference between towards and toward is entirely dialectal. In American English, you should use toward. In British English, you should use towards.
 
--
+### Principal vs. Principle
 
-ment for that dress.
+Incorrect: Mr. Babcock is the principle of the high school.
 
-9. Comprise vs. Compose
+Correct: Mr. Babcock is the principal of the high school.
 
-Incorrect:
-
-Fifty states comprise the United States.
-
-Correct:
-
-Fifty states compose the United States.
-
-Comprise
-
-means "to be made up of."
-
-Compose
-
-means "to make up the constituent
-
-parts of." With
-
-comprise
-
-, the whole is the subject. With
-
-compose
-
-, the parts are the
-
-subject.
-
-10. Emigrate vs. Immigrate
-
-Incorrect:
-
-My grandparents emigrated into the United States.
-
-Correct:
-
-My grandparents immigrated into the United States.
-
-To
-
-immigrate
-
-is to enter a new place. To
-
-emigrate
-
-is to leave a place. You immigrate
-
-into places and emigrate from places.
-
-11. Everyday vs. Every day
-
-Incorrect:
-
-I get coffee before work everyday.
-
-Correct:
-
-I get coffee before work every day.
-
-Everyday
-
-, when used as a single word, is an adjective meaning commonplace, usual,
-
-and suitable for ordinary days.
-
-Every day
-
-, two words, is an adverbial phrase. Substi
-
--
-
-tuting "each day" for "every day" will help you keep them separated.
-
-12. Explicit vs. Implicit
-
-Incorrect:
-
-Please be implicit; what is it that you want?
-
-Correct:
-
-Please be explicit; what is it that you want?
-
-To say something
-
-explicitly
-
-is to spell it out clearly so that it is unambiguous. Some
-
--
-
-thing is
-
-implicit
-
-when it is implied or not said clearly and directly.
-
-get the full book at
-
-13. Invoke vs. Evoke
-
-Incorrect:
-
-This comic strip will invoke laughter.
-
-Correct:
-
-This comic strip will evoke laughter.
-
-To
-
-invoke
-
-is to assert something as authority or appeal to someone for help.
-
-Great
-
-Britain invoked military aid from the United States.
-
-To
-
-evoke
-
-is to bring someone forth
-
-or to recall something to the conscious mind. Invoke is a more direct action than
-
-evoke.
-
-14. Who vs. That
-
-Incorrect:
-
-The woman that opened the door for you is my mom.
-
-Correct:
-
-The woman who opened the door for you is my mom.
-
-When referring to inanimate objects or animals without a name, use
-
-that
-
-. When re
-
--
-
-ferring to human beings and animals with a name, use
-
-who
-
-.
-
-15. Onto vs. On to
-
-Incorrect:
-
-The cat jumped on to the dresser.
-
-Correct:
-
-The cat jumped onto the dresser.
-
-Onto
-
-is a preposition that means "on top of, to a position on."
-
-On to
-
-, two words, is
-
-used when
-
-on
-
-is part of a verb phrase such as "held on."
-
-She held on to the chains
-
-while swinging.
-
-A good trick is to mentally say "up" before "on" in a sentence. If it
-
-still makes sense, then onto is the correct choice.
-
-16. Passed vs. Past
-
-Incorrect:
-
-The car past me on the left.
-
-Correct:
-
-The car passed me on the left.
-
-Passed
-
-implied movement of some sort.
-
-Past
-
-is a period of time before the present.
-
-Bill Clinton is a past president.
-
-17. To vs. Too vs. Two
-
-Incorrect:
-
-There are to many people here.
-
-Correct:
-
-There are too many people here.
-
-To o
-
-means "also, very, or excessive."
-
-Two
-
-is the number 2.
-
-I need two pizzas.
-
-To
-
-is
-
-just about everything else.
-
-Can you drive me to the mall?
-
-18. There vs. Their vs. They're
-
-Incorrect:
-
-All of there equipment was loaded into the truck.
-
-Correct:
-
-All of their equipment was loaded into the truck.
-
-There
-
-is a directional word and is usually paired with "is" or "are."
-
-Over there is a
-
-crocodile. Their
-
-is possessive.
-
-Their house is very cute. They're
-
-is a contraction of
-
-"they are."
-
-They're (they are) moving in next door.
-
-get the full book at
-
-19. Toward vs. Towards
-
-The difference between towards and toward is entirely dialectal. In American Eng
-
--
-
-lish, you should use
-
-toward
-
-. In British English, you should use
-
-towards
-
-.
-
-20. Principal vs. Principle
-
-Incorrect:
-
-Mr. Babcock is the principle of the high school.
-
-Correct:
-
-Mr. Babcock is the principal of the high school.
-
-Principal
-
-refers to a person of high authority or prominence. It also has specific
-
-meanings in finance and law.
-
-How much have you repaid on the principal of your
-
-loan?
-
-Principle
-
-is a natural, moral legal rule or standard.
-
-The principle of free speech
-
-is essential in any democracy.
+Principal refers to a person of high authority or prominence. It also has specific meanings in finance and law. How much have you repaid on the principal of your loan? Principle is a natural, moral legal rule or standard. The principle of free speech is essential in any democracy.
 
 ## GRAMMAR MISTAKES
 
-21. This is Him / This is Her
+### This is Him / This is Her
 
-Incorrect:
+Incorrect: Can I please speak with Rachel? Yes, this is her.
 
-Can I please speak with Rachel? Yes, this is her.
+Correct: Can I please speak with Rachel? Yes, this is she.
 
-Correct:
-
-Can I please speak with Rachel? Yes, this is she.
-
-When someone calls on the phone asking for you, you should always respond by say
-
--
-
-ing
+When someone calls on the phone asking for you, you should always respond by saying
 
 this is he
 
@@ -504,43 +191,27 @@ she
 
 because these words are nominative, not objective.
 
-22. If I Was vs. If I Were
+### If I Was vs. If I Were
 
-Incorrect:
+Incorrect: I wish I was rich.
 
-I wish I was rich.
-
-Correct:
-
-I wish I were rich.
+Correct: I wish I were rich.
 
 When you are dealing with counterfactuals or things that are wishful, hopeful, or
 
-imaginative, you need to use what is called the subjunctive mood. A good indica
-
--
-
-tor for a subjunctive verb is when you see an "if."
+imaginative, you need to use what is called the subjunctive mood. A good indicator for a subjunctive verb is when you see an "if."
 
 If I were a wealthy man...I wouldn't
 
 have to work hard.
 
-23. Misplaced Modifier
+### Misplaced Modifier
 
-Incorrect:
+Incorrect: Entering the library, a desk was the first thing I noticed.
 
-Entering the library, a desk was the first thing I noticed.
+Correct: Entering the library, I first noticed a desk.
 
-Correct:
-
-Entering the library, I first noticed a desk.
-
-In the first sentence, a desk is what is entering the library when it should be refer
-
--
-
-ring to
+In the first sentence, a desk is what is entering the library when it should be referring to
 
 me
 
@@ -548,15 +219,11 @@ me
 
 whatever the beginning phrase refers to should immediately follow the comma.
 
-24. Using Me Instead of I
+### Using Me Instead of I
 
-Incorrect:
+Incorrect: Me and my friend are going to the beach.
 
-Me and my friend are going to the beach.
-
-Correct:
-
-My friend and I are going to the beach.
+Correct: My friend and I are going to the beach.
 
 "I" is a subject while "me" is an object. That means that whenever the word in
 
@@ -568,15 +235,11 @@ Steve and I
 
 are getting lunch.
 
-25. Which vs. That
+### Which vs. That
 
-Incorrect:
+Incorrect: No bags which are over 50 pounds will be permitted.
 
-No bags which are over 50 pounds will be permitted.
-
-Correct:
-
-No bags that are over 50 pounds will be permitted.
+Correct: No bags that are over 50 pounds will be permitted.
 
 "That" is reserved for restrictive clauses, clauses that are essential to the meaning
 
@@ -586,35 +249,21 @@ My bedroom,
 
 which is on the second floor, has a window.
 
-26. Referring to a Business as "They"
+### Referring to a Business as "They"
 
-Incorrect:
+Incorrect: The company offered a discount to increase their profits.
 
-The company offered a discount to increase their profits.
-
-Correct:
-
-The company offered a promotion to increase its profits.
+Correct: The company offered a promotion to increase its profits.
 
 A company or organization is not a plural. It is a singular entity. Furthermore, outside
 
-of a legal context, it is not considered a person. Therefore, when referring to a busi
+of a legal context, it is not considered a person. Therefore, when referring to a business, "it" is more appropriate than "they."
 
--
+### Using "Like" as a Conjunction
 
-ness, "it" is more appropriate than "they."
+Incorrect: These people act like they've never eaten before today.
 
-get the full book at
-
-27. Using "Like" as a Conjunction
-
-Incorrect:
-
-These people act like they've never eaten before today.
-
-Correct:
-
-These people act as if they've never eaten before today.
+Correct: These people act as if they've never eaten before today.
 
 Like
 
@@ -626,33 +275,21 @@ I play the guitar just like you
 
 ## Punctuation mistake
 
-28. Semicolons Connect Equal Units
+### Semicolons Connect Equal Units
 
-Incorrect:
+Incorrect: Together we saw a splendid movie; which was a box office smash.
 
-Together we saw a splendid movie; which was a box office smash.
-
-Correct:
-
-Together we saw a splendid movie; it was a box office smash.
+Correct: Together we saw a splendid movie; it was a box office smash.
 
 A lot of people say that semicolons connect two independent clauses. This is true,
 
-but they can do more. They connect equal grammatical units, whether they are inde
+but they can do more. They connect equal grammatical units, whether they are independent or dependent, so make sure both sides of a semicolon are equal.
 
--
+### Comma Splice
 
-pendent or dependent, so make sure both sides of a semicolon are equal.
+Incorrect: John hit the ball, he ran to first base.
 
-29. Comma Splice
-
-Incorrect:
-
-John hit the ball, he ran to first base.
-
-Correct:
-
-John hit the ball. He ran to first base.
+Correct: John hit the ball. He ran to first base.
 
 A comma cannot join two independent clauses without a coordinating conjunction in
 
@@ -662,57 +299,33 @@ and, nor, but, or, yet, and so.
 
 John hit the ball, and he ran to first base.
 
-30. Missing Comma After Intro Phrase
+### Missing Comma After Intro Phrase
 
-Incorrect:
+Incorrect: After he hit the ball he ran to first base.
 
-After he hit the ball he ran to first base.
-
-Correct:
-
-After he hit the ball, he ran to first base.
+Correct: After he hit the ball, he ran to first base.
 
 If your main clause is preceded by an introductory clause or phrase, it needs to be
 
 set off by a comma.
 
-get the full book at
+### Comma After Main Clause
 
-31. Comma After Main Clause
+Incorrect: John ran to first base, after hitting the ball.
 
-Incorrect:
-
-John ran to first base, after hitting the ball.
-
-Correct:
-
-John ran to first base after hitting the ball.
+Correct: John ran to first base after hitting the ball.
 
 A comma is not necessary when a clause or phrase appears after the main clause.
 
-32. Quotation Marks to Add Emphasis
+### Quotation Marks to Add Emphasis
 
-Incorrect:
+Incorrect: When you are cited on the six o'clock news you have "arrived."
 
-When you are cited on the six o'clock news you have "arrived."
+Correct: When you are cited on the six o'clock news you have arrived.
 
-Correct:
+Quotation marks are not used to add emphasis: italics are. Quotation marks are used to set off exact words that were used by another person or appeared elsewhere. The president was quoted as saying, "The economy is doing just fine."
 
-When you are cited on the six o'clock news you have
-
-arrived
-
-.
-
-Quotation marks are not used to add emphasis: italics are. Quotation marks are used
-
-to set off exact words that were used by another person or appeared elsewhere.
-
-The
-
-president was quoted as saying, "The economy is doing just fine."
-
-33. Punctuation Outside of Quotes
+### Punctuation Outside of Quotes
 
 In American English, punctuation goes inside of quotations, but in British English, it
 
@@ -726,45 +339,21 @@ British: The president said, "The economy is slowly coming back to life", but th
 
 citizens might need to wait a few more months.
 
-get the full book at
+### Using Ellipses for Pauses
 
-34. Using Ellipses for Pauses
+Incorrect: I cannot wait to tell you...I got married!
 
-Incorrect:
+Correct: I cannot wait to tell you---I got married!
 
-I cannot wait to tell you...I got married!
+In formal writing, ellipses are not used to indicate pauses. Rather, they are used when words or sentences in a quoted manner are omitted. Increasingly, in informal contexts, they are used to create a type of suspense in the reader. These types of uses are not appropriate for formal writing.
 
-Correct:
+### Incorrectly Labeling Times
 
-I cannot wait to tell you---I got married!
+Incorrect: The party will be from 5:30-6:30.
 
-In formal writing, ellipses are not used to indicate pauses. Rather, they are used
+Correct: The party will be from 5:30 to 6:30.
 
-when words or sentences in a quoted manner are omitted.
-
-Increasingly, in informal contexts, they are used to create a type of suspense in the
-
-reader. These types of uses are not appropriate for formal writing.
-
-35. Incorrectly Labeling Times
-
-Incorrect:
-
-The party will be from 5:30-6:30.
-
-Correct:
-
-The party will be from 5:30 to 6:30.
-
-Correct:
-
-The party will be 5:30-6:30.
-
-If you start by saying "between" or "from," then you need to also use "to." You can
-
--
-
-not use "between" or "from" and a hyphen.
+Correct: The party will be 5:30-6:30. If you start by saying "between" or "from," then you need to also use "to." You cannot use "between" or "from" and a hyphen.
 
 ## Others
 

@@ -6,14 +6,14 @@ Modified: 2018-12-23 22:42:43 +0500
 
 ---
 
-## Symbol Tables (Associative Arrays, Maps and Dictionaries)-
+## Symbol Tables (Associative Arrays, Maps and Dictionaries)
 
 Key-value pair abstraction -
 
 - Insert a value with specified key
 - Given a key, search for the corresponding value
 
-## Applications -
+## Applications
 
 - DNS lookup
   - Insert domain name with specified IP address
@@ -43,7 +43,7 @@ Key type:
   - Immutable in java - Integer, Double, String, java.io.File
   - Mutable in java - StringBuilder, java.net.URL, arrays
 
-## Implementation -
+## Implementation
 
 - Using Linked List (Unordered)b.  Using Ordered Array
 

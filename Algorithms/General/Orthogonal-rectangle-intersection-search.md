@@ -8,7 +8,7 @@ Modified: 2018-02-07 09:10:14 +0500
 
 Goal: find all intersections among a set of N orthogonal rectangles
 
-## Sweep-line algorithm (Sweep vertical line from left to right) -
+## Sweep-line algorithm (Sweep vertical line from left to right)
 
 ![image](media/Orthogonal-rectangle-intersection-search-image1.png)
 

@@ -98,11 +98,11 @@ Examples
 # Loop through and run all commands
     #!/bin/bash
 
-    VAL="$(kubectl get pods -n zenalytix | awk '{if (NR!=1) { print $1 }}')"
+    VAL="$(kubectl get pods -n example | awk '{if (NR!=1) { print $1 }}')"
 
     for i in $VAL
     do
-            kubectl delete -n zenalytix pods $i
+            kubectl delete -n example pods $i
     done
 
 while true; do echo `date` | kafkacat -P -b my-cluster-kafka-brokers.kafka:9092 -t test; done

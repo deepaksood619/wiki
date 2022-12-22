@@ -10,7 +10,7 @@ Modified: 2020-06-20 21:27:47 +0500
 
 In a public key encryption system, any person can encrypt a message using the receiver's public key. That encrypted message can only be decrypted with the receiver's private key. To be practical, the generation of a public and private key-pair must be computationally economical. The strength of a public key cryptography system relies on the computational effort (work factorin cryptography) required to find the private key from its paired public key. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security
 
-## Public Key Infrastructure (PKI) -
+## Public Key Infrastructure (PKI)
 
 - Relies on a centralized authority, aka Certificate Authority (CA)
 - Users generally have their own identities - public-private key pair which is attested by the CA and stored in the form of certificates

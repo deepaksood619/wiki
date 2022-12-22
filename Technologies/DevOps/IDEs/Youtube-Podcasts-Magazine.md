@@ -1,4 +1,4 @@
-# Youtube / Podcasts / Magazine / Movies
+# Youtube / Podcasts / Magazine
 
 Created: 2018-07-17 00:07:17 +0500
 
@@ -26,134 +26,139 @@ Timeline world history documentaries
 
 ## Channels
 
-- **Neha**
-  - Shark tank
-  - Think school
+### Tech
+- PyCon
+- Linus Tech Tips
+- Watch AWS Reinvent
+- Software architecture o'reilly conference
+- **Coding Tech**
+- Techquickie
+- Guy in a cube
+- Goto conferences
+- Data council
+- Infoq
+- Firebase / Google
 
-- **Tech**
-  - PyCon
-  - Linus Tech Tips
-  - Watch AWS Reinvent
-  - Software architecture o'reilly conference
-  - **Coding Tech**
-  - Techquickie
-  - Guy in a cube
-  - Goto conferences
-  - Data council
-  - Infoq
-  - Firebase / Google
-- **Learning**
-  - Royal Institution Lectures / Perimeter Institute for Theoretical Physics
-  - Ted
-  - Ted-Ed
-  - Domain of Science
-  - Unacademy
-  - DW Documentary
-  - B1M
-  - Discovery
-  - **Nat Geo**
-  - **History - World History**
-  - **PBS**
-  - ASAPScience
-  - Documentaries
-  - BBC Earth
-    - <https://youtube.com/c/BBCReel>
-  - NPTEL lecture series
-  - NPTEL - <https://www.youtube.com/channel/UCYa1WtI-vb_bx-anHdmpNfA/playlists>
-  - Research
-    - Microsoft research
-    - Talks at google
-  - book summaries
-  - Objectivity
-  - Seeker
-    - Bizarre beasts
-    - scishow + scishow space
-    - Scishow psych
-  - Real Engineering
-  - Natgeo / Discovery
-    - How its made
-  - Oxford Union
-  - Two minute papers
-  - Today I found out
-  - Useful charts
-  - Scott Manley
-  - Computerphile
-  - Amit Sengupta
-  - Toastmasters
-  - Be Smart
-  - Minutefood
-  - Quanta magazine
-  - Perimiter institute for theoretical physics
-  - Healthcare triage
-  - Periodic Videos
-  - TLC
-  - BetterThanYesterday
-  - Charismaoncommand
-  - theschooloflifetv
-  - Thomasfrank
-  - In a nutshell
-  - Daily stoic
-  - All in podcast
-  - Tim ferris
-  - Hubspot - marketing
-  - People
-    - andrew huberman (professor of neurobiology at Stanford)
-  - Courses
-  - freecodecamp
-  - MIT opencourseware
-  - Crashcourse
-- **News**
-  - BBC / BBC Reel
-  - Aljajeera
-  - Vice news
-  - Vox
-  - BBC News
-  - CNBC Television
-  - Bloomberg
-  - Top U.S. & World Headlines --- Democracy Now
-  - The Telegraph
-  - NonStop 100 aajtak
-  - Hindi - 1 Minute, 1 Khabar
-  - Hindi - Super 100: Non-Stop Superfast - IndiaTV
-  - Byju IAS DNA
-  - Byju IAS Economy this week
-  - Finology Legal
-  - Unacademy
-  - Shark Tank
-  - Dragon's den
-  - Tonight with jimmy kimbel
-  - Last week tonight
-  - IMF
-  - World Economic Forum
-  - **60 Minutes**
-  - Diplomatic dispatch - sansad tv
-  - The daily show with Trevor noah
-- **Finance / Stocks / Personal finance (People with same thought process)**
-  - Zerodha online
-  - Mad money Jim Cramer - CNBC Television
-  - CA Rachna Ranade
-  - FreeFincal Pattu DIY Investing
-  - Invest Aaj for Kal - Anant Ladha
-  - Warrior Trading
-  - P R Sundar
-  - Wall street journal
-  - Ankur Warikoo
-  - Akshat Shrivastav
-  - Pranjal Kamra
-  - The madras trailer
-  - **Trading**
-    - Wall Street Week - Bloomberg Markets and Finance
-    - Cramer's game plan
-- **People**
-  - Kishore Mahbubani
-  - Kevlin Henney
-- **Product**
-  - Aditya saini
-- **Yearly**
-  - Nobel Prize
-  - Webby Awardz
-  - Stackoverflow developer survey
-  - ProductHunt yearly
+### Learning
+- Royal Institution Lectures / Perimeter Institute for Theoretical Physics
+- Ted
+- Ted-Ed
+- Domain of Science
+- Unacademy
+- DW Documentary
+- B1M
+- Discovery
+- **Nat Geo**
+- **History - World History**
+- **PBS**
+- ASAPScience
+- Documentaries
+- BBC Earth
+  - <https://youtube.com/c/BBCReel>
+- NPTEL lecture series
+- NPTEL - <https://www.youtube.com/channel/UCYa1WtI-vb_bx-anHdmpNfA/playlists>
+- Research
+  - Microsoft research
+  - Talks at google
+- book summaries
+- Objectivity
+- Seeker
+  - Bizarre beasts
+  - scishow + scishow space
+  - Scishow psych
+- Real Engineering
+- Natgeo / Discovery
+  - How its made
+- Oxford Union
+- Two minute papers
+- Today I found out
+- Useful charts
+- Scott Manley
+- Computerphile
+- Amit Sengupta
+- Toastmasters
+- Be Smart
+- Minutefood
+- Quanta magazine
+- Perimiter institute for theoretical physics
+- Healthcare triage
+- Periodic Videos
+- TLC
+- BetterThanYesterday
+- Charismaoncommand
+- theschooloflifetv
+- Thomasfrank
+- In a nutshell
+- Daily stoic
+- All in podcast
+- Tim ferris
+- Hubspot - marketing
+- People
+  - andrew huberman (professor of neurobiology at Stanford)
+- Courses
+- freecodecamp
+- MIT opencourseware
+- Crashcourse
+- Shark tank
+- Think school
+
+### News
+- BBC / BBC Reel
+- Aljajeera
+- Vice news
+- Vox
+- BBC News
+- CNBC Television
+- Bloomberg
+- Top U.S. & World Headlines --- Democracy Now
+- The Telegraph
+- NonStop 100 aajtak
+- Hindi - 1 Minute, 1 Khabar
+- Hindi - Super 100: Non-Stop Superfast - IndiaTV
+- Byju IAS DNA
+- Byju IAS Economy this week
+- Finology Legal
+- Unacademy
+- Shark Tank
+- Dragon's den
+- Tonight with jimmy kimbel
+- Last week tonight
+- IMF
+- World Economic Forum
+- **60 Minutes**
+- Diplomatic dispatch - sansad tv
+- The daily show with Trevor noah
+
+### Finance / Stocks / Personal finance (People with same thought process)**
+- Zerodha online
+- Mad money Jim Cramer - CNBC Television
+- CA Rachna Ranade
+- FreeFincal Pattu DIY Investing
+- Invest Aaj for Kal - Anant Ladha
+- Warrior Trading
+- P R Sundar
+- Wall street journal
+- Ankur Warikoo
+- Akshat Shrivastav
+- Pranjal Kamra
+- The madras trailer
+
+### Trading
+- Wall Street Week - Bloomberg Markets and Finance
+- Cramer's game plan
+
+### People
+- Kishore Mahbubani
+- Kevlin Henney
+
+### Product
+- Aditya saini
+
+### Yearly
+- Nobel Prize
+- Webby Awardz
+- Stackoverflow developer survey
+- ProductHunt yearly
 
 ## Magazine
 
@@ -175,296 +180,6 @@ Timeline world history documentaries
 - Math riddles
 - History Timeline
 - Discovery+
-
-- Fitso
-- Playo
-- Cult
-
-## Entertainment
-
-## Family Serials / Series
-
-Satyamev Jayate
-
-Mumbai diaries
-
-Zee5 Pareeksha
-
-Hotstar - Hostages2 / Hostages
-
-Special Ops
-
-Aarya
-
-Surma
-
-Family man
-
-Haseen dilruba
-
-Mega wow (children)
-
-Gorden Ramsey
-
-Big Boy Billioners (4th Episode - Satyam)
-
-Ghosts voot select
-
-<https://www.hotstar.com/in/tv/indias-megakitchens/10447/irctc/1770016417>
-
-Rajneeti
-
-panchayat
-
-Discovery+
-
-The spy netflix
-
-MegaKitchen - Hostar + Natgeo
-
-## Movie / Movies
-
-A Star is born
-
-Morbius
-
-Escape room 2
-
-Infinite
-
-Beyond skyline
-
-Skyline
-
-Biohackers
-
-Extreme
-
-Triple9
-
-Successesion
-
-Billions
-
-The expanse
-
-Queen pins
-
-The Courier
-
-A Call To Spy
-
-Allied
-
-The lost city
-
-Moon night
-
-Uncharted
-
-She hulk
-
-House of dragon
-
-Water gate bridge
-
-Zee5 forensics
-
-Village Rockstars
-
-Bulbul can sing
-
-Darlings
-
-She hulk
-
-Vikram
-
-96 movie hindi
-
-Sardar Udham
-
-A thursday
-
-The Anatomy of a Scandal
-
-Delhi crime 2
-
-Sanju
-
-<https://www.hotstar.com/in/tv/dopesick/1260073086>
-
-Atrangi Re
-
-Black Adam
-
-Night at the museum
-
-Avatar
-
-Room 2015
-
-Jai bhim
-
-Jersey
-
-Bros
-
-Today's special
-
-Noor
-
-Second act
-
-super intelligence
-
-Larry Crowne
-
-The cobbler
-
-The founder
-
-Mitron
-
-Bewkoofiyaan
-
-Karwan
-Own the room
-
-## Series
-
-Pawan & Pooja MX series
-
-Only for singles
-
-Four more shots please prime video
-
-Mastram
-
-Panchayat Amazon prime
-
-Patallok
-
-TVF Inmates
-
-Pushpavalli
-
-Zee5 - Forbidden Love
-
-HBO raised by wolves
-
-Kaagaz
-
-Haseena dilruba
-
-Peaky blender's
-
-Breaking bad
-
-The night off
-
-Clickbait
-
-The Wheel Of Time
-
-Moon knight
-
-Upload - prime video
-
-Tom Clancy's Jack Ryan - Prime Video
-
-Jalsa
-
-Panchayat
-
-Netflix: The future of
-
-Netflix: You
-
-House of the dragon
-
-Rick and morty
-
-Embarrasing bodies
-
-The Peripheral
-Industry by HBO
-
-Made in heaven
-
-Sherlock Holmes
-
-## Documentaries
-
-The last dance
-
-Snowden
-
-Netflix Explained
-
-India's war against the virus - Discovery +
-
-The Cave
-
-For sama
-
-honeyland
-
-Chi lupo
-
-The story of information jim khalidi
-
-Nat Geo documentaries
-
-- Koko, the gorilla that can talk to people
-
-Drive to Survive
-
-Netflix - Pepsi where's my jet
-
-## Shopping sites
-
-- Crazymonk
-
-## downloads
-
-13.Hours.The.Secret.Soldiers.of.Benghazi.2016.720p.BluRay.x265.ShAaNiG
-
-Black.Crab.2022.HDRip.XviD.AC3-EVO
-
-All.the.Old.Knives.2022.HDRip.XviD.AC3-EVO [TGx]
-
-The Outfit (2022) [720p] [WEBRip] [YTS.MX]
-
-Infinite Storm (2022) [720p] [WEBRip] [YTS.MX]
-
-Death on the Nile.2022.BDRip.XviD.AC3-EVO [TGx]
-
-Jackass.Forever.2022.1080p.WEBRip.DD5.1.X.264-EVO
-
-Gehraiyaan (2022) Hindi UNTOUCHED 720p AMZN WEB-DL x264 AC3DD5.1 MSub 1.3GB [HDWebMovies]
-
-The Usual Suspects (1995) [BluRay] [1080p] [YTS.AM]
-
-Nobody (2021) [720p] [WEBRip] [YTS.MX]
-
-Sully.2016.720p.BRRip.x264.AAC-ETRG
-
-The Unforgivable (2021) [720p] [WEBRip] [YTS.MX]
-
-Encounter (2021) [720p] [WEBRip] [YTS.MX]
-
-Apex (2021) [720p] [WEBRip] [YTS.MX]
-
-Vivo.2021.720p.NF.WEBRip.800MB.x264-GalaxyRG [TGx]
-
-Kaabil (2017) Hindi 720p HDRip x264 AAC ESubs - Downloadhub
-
-M.S.Dhoni.The.Untold.Story.2016..WEBRip.x264.Hindi.ESubs-ViZNU [P2PDL.com]
-
-Badrinath Ki Dulhania (2017) Hindi 720p BluRay x264 AAC 5.1 ESubs - Downloadhub
-
-Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shadow (BonsaiHD)
 
 ## Documentaries
 
@@ -532,38 +247,37 @@ Gulabo Sitabo (2020) Hindi 720p AMZN WEBRip ⭐1.1 GB⭐ DD-5.1 ESub x264 - Shad
 
 ## Podcast / Podcasts
 
-- **Tech**
-  - **SE Daily**
-  - **Software Engineering Daily**
-  - Command Line Heroes
-  - O'reilly data show podcast
-  - O'reilly design podcast
-  - O'reily programming podcast
-  - The Changelog
-  - GoTime
-  - Kubernetes Podcasts
-  - Coding Blocks
-  - Command Line Heroes
-  - Data Engineering Podcasts
-  - Level up engineering
-  - Talk Python to me
-  - Dear SQL DBA
-- **Others**
-  - **Ted Talk**
-  - EconTalk
-  - KwikBrain
-  - Masters of scale with Reid Hoffman
-  - Nature Podcast
-  - Naval
-  - Scott Young Podcast
-  - Teamistry - Atlassian
-  - The Joe Rogan Experience - Joe Rogan
-  - The knowledge project with Shane Parrish
-  - Unofficial sources
+### Tech
+- **SE Daily**
+- **Software Engineering Daily**
+- Command Line Heroes
+- O'reilly data show podcast
+- O'reilly design podcast
+- O'reily programming podcast
+- The Changelog
+- GoTime
+- Kubernetes Podcasts
+- Coding Blocks
+- Command Line Heroes
+- Data Engineering Podcasts
+- Level up engineering
+- Talk Python to me
+- Dear SQL DBA
 
-Huberman lab
-
-Tim Ferris show
+### Others
+- **Ted Talk**
+- EconTalk
+- KwikBrain
+- Masters of scale with Reid Hoffman
+- Nature Podcast
+- Naval
+- Scott Young Podcast
+- Teamistry - Atlassian
+- The Joe Rogan Experience - Joe Rogan
+- The knowledge project with Shane Parrish
+- Unofficial sources
+- Huberman lab
+- Tim Ferris show
 
 <https://www.freecodecamp.org/news/best-tech-podcasts-for-software-developers>
 

@@ -49,7 +49,7 @@ filter (lambda x : x % 3 == 0, foo)
 
 ## Yield
 
-### Iterables -
+### Iterables
 
 When you create a list, you can read its items one by one. Reading its items one by one is called iteration:
 
@@ -77,7 +77,7 @@ Everything you can use "for... in..." on is an iterable;lists, strings, files...
 
 These iterables are handy because you can read them as much as you wish, but you store all the values in memory and this is not always what you want when you have a lot of values.
 
-### Generators -
+### Generators
 
 Generators are iterators, a kind of iterable**you can only iterate over once**. Generators do not store all the values in memory, **they generate the values on the fly**:
 
@@ -122,13 +122,13 @@ Now the hard part:
 
 The first time the for calls the generator object created from your function, it will run the code in your function from the beginning until it hitsyield, then it'll return the first value of the loop. Then, each other call will run the loop you have written in the function one more time, and return the next value, until there is no value to return.
 
-The generator is considered empty once the function runs but does not hityieldanymore. It can be because the loop had come to an end, or because you do not satisfy an"if/else"anymore.
+The generator is considered empty once the function runs but does not hityieldanymore. It can be because the loop had come to an end, or because you do not satisfy an "if/else" anymore.
 
-## Lambda (***single expression functions*)**-
+## Lambda (***single expression functions*)**
 
 <https://dbader.org/blog/python-lambda-functions>
 
-Thelambdakeyword in Python provides a shortcut for declaring small anonymous functions. Lambda functions behave just like regular functions declared with thedefkeyword. They can be used whenever function objects are required.
+The lambda keyword in Python provides a shortcut for declaring small anonymous functions. Lambda functions behave just like regular functions declared with thedefkeyword. They can be used whenever function objects are required.
 
 ```python
 Ex - add = lambda x, y: x+y

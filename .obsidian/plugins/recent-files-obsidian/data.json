@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian---Note-Taking---Second-Brain",
+      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
+    },
+    {
+      "basename": "Archive",
+      "path": "Office/HR-^M-Interviews/Interviews---Others/Archive.md"
+    },
+    {
       "basename": "Others",
       "path": "Computer-Science/System-Design/Others.md"
     },
@@ -65,10 +73,6 @@
       "path": "Knowledge/Management/Project---Product---Business---Tools---SAAS.md"
     },
     {
-      "basename": "Archive",
-      "path": "Office/HR-^M-Interviews/Interviews---Others/Archive.md"
-    },
-    {
       "basename": "DDL---Data-Definition-Language",
       "path": "Languages/SQL/DDL---Data-Definition-Language.md"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "Isolation-Levels",
       "path": "Databases/Concepts/Isolation-Levels.md"
-    },
-    {
-      "basename": "Obsidian---Note-Taking---Second-Brain",
-      "path": "Technologies/DevOps/IDEs/Obsidian---Note-Taking---Second-Brain.md"
     },
     {
       "basename": "Intro",

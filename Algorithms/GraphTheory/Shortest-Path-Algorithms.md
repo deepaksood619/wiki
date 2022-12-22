@@ -25,7 +25,7 @@ Modified: 2019-10-06 16:46:42 +0500
 - No directed cycles
 - No "negative cycles"
 
-## Concept -
+## Concept
 
 ## Edge Relaxation
 

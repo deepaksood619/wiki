@@ -11,7 +11,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: nginx-configmap
-  namespace: zenalytix
+  namespace: example
 data:
   nginx.conf: |
     user root;
@@ -80,11 +80,11 @@ data:
                     location /static/ {
                             autoindex on;
                             expires 7d;
-                            alias /root/zenalytix/static/;
+                            alias /root/example/static/;
                     }
 
                     location / {
-                            proxy_pass  http://zenalytix.zenalytix:9104/;
+                            proxy_pass  http://example.example:9104/;
                             proxy_redirect     off;
                             proxy_set_header   Host $http_host;
                             proxy_set_header   X-Real-IP $remote_addr;

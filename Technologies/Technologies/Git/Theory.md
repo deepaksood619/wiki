@@ -312,7 +312,7 @@ It's a very straightforward way of saying that you would like to copy a series o
 
 ## Locally stacked commits
 
-## Problem -
+## Problem
 
 Here's a development situation that often happens: I'm trying to track down a bug but it is quite elusive. In order to aid in my detective work, I put in a few debug commands and a few print statements.
 

@@ -39,7 +39,7 @@ Always use unicode in whole project and convert at the ends
 
 Define __str__() method returning text and apply python_2_unicode_compatible() decorator.
 
-## Final Code Snippet to follow -
+## Final Code Snippet to follow
 
 Class Test(models.Model):
 

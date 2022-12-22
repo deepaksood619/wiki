@@ -142,7 +142,7 @@ len(list(permutations('abcde', 5)))
 
 ## Example - For n = 5 return 120
 
-## Driver function -
+## Driver function
 
 n = 10000000
 
@@ -301,7 +301,7 @@ No "shorting"---you need to buy before you can sell. Also, you can't buyandsell 
 - What if the pricegoes down all day? In that case, the best profit will benegative.
 - You can do this inO(n)O(n)time andO(1)O(1)space!
 
-## Solution -
+## Solution
 
 def best_profit_from_stock(stock_prices):
 

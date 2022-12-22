@@ -88,10 +88,10 @@ Options:
 
 --until string Show logs before a timestamp (e.g. 2013-01-02T13:23:37) or relative (e.g. 42m for 42 minutes)
 
-### Example -
+### Example
 
 ```bash
-docker logs -t --since 2018-08-02T00:00:00 zenalytix-prod
+docker logs -t --since 2018-08-02T00:00:00 example-prod
 
 docker logs --timestamps --since='2019-04-22T14:40:36.750121287Z' --until='2019-04-22T15:30:36.750121287Z' kafkaconsumer_kafka-smap-consumer.1.7uq0n8eysgxf5wnx0pbu4lwcx
 

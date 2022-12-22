@@ -6,7 +6,7 @@ Modified: 2021-05-26 20:21:12 +0500
 
 ---
 
-## Mathematical Models used in ML -
+## Mathematical Models used in ML
 
 1. Neural Network
 
@@ -45,7 +45,7 @@ Prediction / Inference Phase
 ![image](media/Coursera---How-Google-does-ML-image1.png)
 ![image](media/Coursera---How-Google-does-ML-image2.png)
 
-## Topics -
+## Topics
 
 1. Training and serving skew
 

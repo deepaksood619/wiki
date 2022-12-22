@@ -60,7 +60,7 @@ rclone --config s3.conf copy --no-traverse remote:example-postgres-backup/`date 
 
 # copy from remote to local
 
-rclone copy --no-traverse . remote:ubuntu@52.220.109.7:/home/ubuntu/sources/zenalytix/media/images/deployment_photos
+rclone copy --no-traverse . remote:ubuntu@52.220.109.7:/home/ubuntu/sources/example/media/images/deployment_photos
 
 <https://rclone.org>
 

@@ -123,7 +123,7 @@ kubectl get pods
 
 kubetail app2
 
-kubetail alertdriver -n zenalytix
+kubetail alertdriver -n example
 
 kubetail "cp-kafka-connect-*" --regex -c cp-kafka-connect-server -n kafka
 

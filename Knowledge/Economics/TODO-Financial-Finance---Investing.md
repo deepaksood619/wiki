@@ -29,8 +29,6 @@ Past performance is no guarantee for future performance
 - **Vanguard Global Stock Index Fund (VT Index)**
 - **MON100 - Nasdaq 100 ETF**
 
-- Neha - Corporate bond
-
 <https://freefincal.com/hdfc-corporate-bond-fund>
 
 ~~Trading 2 Lakh~~

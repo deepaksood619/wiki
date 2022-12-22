@@ -487,7 +487,7 @@ Example - Starbucks where everyone is allowed to make decisions.
 - Follow the process
 - You cannot tell the people that your identity is genuine, they have to feel it.
 
-## Job roles that increase ToMo must have -
+## Job roles that increase ToMo must have
 
 1. Theory of impact (end-to-end experience and see the impact that your work make)
 

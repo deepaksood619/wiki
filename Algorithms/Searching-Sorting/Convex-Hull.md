@@ -11,17 +11,17 @@ Modified: 2018-05-12 00:01:03 +0500
 
 ![image](media/Convex-Hull-image1.png)
 
-## Applications -
+## Applications
 
 - Motion planning
 - Farthest pair
 
-## Properties -
+## Properties
 
 - Can traverse the convex hull by making only counterclockwise turns.
 - The vertices of convex hull appear in increasing order of polar angle with respect to point p with lowest y-coordinate.
 
-## Graham Scan-
+## Graham Scan
 
 - Choose point p with smallest y-coordinate
 - Sort points by polar angle with p

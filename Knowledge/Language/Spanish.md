@@ -156,7 +156,7 @@ baile - dance
 
 trabaja / trabajas- work / works
 
-Neha es interesante - Neha is interesting
+Sherlock es interesante - Sherlock is interesting
 
 Yo comprendo - I understand
 
@@ -250,7 +250,7 @@ Buenas noches - Good night
 
 Buenas tardes - Good afternoon/evening
 
-Gracias, Neha - Thanks, Neha
+Gracias, Sherlock - Thanks, Sherlock
 
 Mucho gusto - Nice to meet you
 

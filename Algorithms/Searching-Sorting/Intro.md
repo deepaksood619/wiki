@@ -54,7 +54,7 @@ Sol - **Callback = reference to executable code**
 - Client passes array of objects to sort() function.
 - The sort() function calls back object's compareTo() method as needed.
 
-## Implementing Callbacks -
+## Implementing Callbacks
 
 - Java - Interfaces (Comparable Interface)
 - C - Function pointers
@@ -62,12 +62,12 @@ Sol - **Callback = reference to executable code**
 - C# - delegates
 - Python, Perl, ML (Meta Language), JavaScript - first-class functions()
 
-## Rules -
+## Rules
 
 - **Total Order**
 - ![image](media/Intro-image3.png)
 
-## Stability -
+## Stability
 
 - A Stable sort preserves the relative order of items with equal keys
 - **Never move equal items pass each other**
@@ -75,7 +75,7 @@ Sol - **Callback = reference to executable code**
 - Insertion sort and Merge sort are stable
 - Selection sort and shell sort are not stable
 
-## Attributes that influence decision of sorting algorithms -
+## Attributes that influence decision of sorting algorithms
 
 - In Place
 - Stable

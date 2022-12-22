@@ -125,6 +125,6 @@ The idea is to ignore some requests rather than crashing a system and making it 
 
 7. Eliminate Bad Traffic
 
-## Reference -
+## Reference
 
 <http://highscalability.com/blog/2018/4/25/google-addressing-cascading-failures.html>

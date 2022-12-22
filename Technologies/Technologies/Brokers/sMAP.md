@@ -24,7 +24,7 @@ The core object in sMAP is the timeseries, a single progression of(time, value)t
 - Archiver
 - Front-ends
 
-## Sources -
+## Sources
 
 - Drivers
 - Send data to the archiver

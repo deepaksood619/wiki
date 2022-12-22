@@ -35,7 +35,7 @@ State means which things should be running, like we want 3 instances of this app
 - **Declarative**
 - **Immutable**
 
-## Features -
+## Features
 
 - Automatic Binpacking
 

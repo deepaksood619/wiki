@@ -60,7 +60,7 @@ CMD [ "python", "logger.py" ]
 
 TheARGinstruction defines a variable that users can pass at build-time to the builder with thedocker buildcommand using the--build-arg <varname>=<value>flag.
 
-ARG ZENALYTIX_DEV prod
+ARG example_DEV prod
 
 7. ENV
 

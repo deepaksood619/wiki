@@ -90,6 +90,20 @@ It is offered from the perspective of hownotto design systems, based on system e
 - APNS - Apple Push Notification System
 - FCM - Firebase Cloud Messaging
 
+## Callbacks and Webhooks
+
+### Callbacks
+
+Handoff from an external page back to your page, you can send a callback url, that System B will use to redirect back to when it's operation is finished.
+
+Ex - Swiggy -> Razorpay -> Back to swiggy after payment finishes
+
+So swiggy will pass a callback url to razorpay, which razorpay will call after payment success/failure, so that user is directed back to swiggy, with status of payment, which swiggy can use to show appropriate page to users.
+
+### Webhooks
+
+A webhook is a hook in the web. Typically used to make two distinct systems communicate and typically to go away from polling towards a publisher-subscriber model.
+
 ## Updates
 
 ### Hard updates

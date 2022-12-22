@@ -44,7 +44,7 @@ dag = DAG(
 
 cache_metrics_readings = BashOperator(
     task_id='cache_metrics_readings',
-    bash_command='python /root/zenalytix/manage.py cache_metrics_readings',
+    bash_command='python /root/example/manage.py cache_metrics_readings',
     dag=dag,
 )
 

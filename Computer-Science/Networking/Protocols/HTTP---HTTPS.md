@@ -45,7 +45,7 @@ Introduced the concept of "keep-alive" connections, that allow clients to reuse 
 Introduced the concept of HTTP "streams": an abstraction that allows HTTP implementations to concurrently multiplex different HTTP exchanges onto the same TCP connection, allowing browsers to more efficiently reuse TCP connections.
 5. HTTP/3 and QUIC
 
-## HTTP/2 Characteristics -
+## HTTP/2 Characteristics
 
 - **Multiplexing:** Can use a single connection for multiple requests, (pipelining of requests)
 - **Bidirectional Streaming:** No more polling, sockets, or clunky SSE (Server Side Events)

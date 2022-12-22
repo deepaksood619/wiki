@@ -6,7 +6,7 @@ Modified: 2018-02-06 11:29:52 +0500
 
 ---
 
-## 1 d range search -
+## 1 d range search
 
 ## Operations
 
@@ -22,7 +22,7 @@ Modified: 2018-02-06 11:29:52 +0500
 
 ## Application - Database queries
 
-## Geometric interpretation -
+## Geometric interpretation
 
 - Keys are point on a line
 - Find/count points in a given 1 d interval

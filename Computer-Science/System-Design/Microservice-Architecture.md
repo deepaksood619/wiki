@@ -84,7 +84,7 @@ In a monolithic application, all components reside within the same process and c
 - In cases where a new service ends up with a call back to the monolith, I suggest to expose a new API from the monolith, and access the API through an [anti-corruption](https://martinfowler.com/articles/refactoring-external-service.html#SeparatingTheYoutubeDataStructureIntoAGateway) layer in the new service to make sure that the monolith concepts do not leak out.
 - Finding domain boundaries in a monolith is very important.
 
-## Migrating Steps -
+## Migrating Steps
 
 - Warm up with a Simple and Fairly Decoupled Capability
 - Minimize Dependency Back to the Monolith

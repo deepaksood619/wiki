@@ -8,19 +8,15 @@ Modified: 2022-12-07 08:48:20 +0500
 
 # Remove empty lines
 
-Regex - ^(s)*$n
+`Regex - ^(s)*$n`
 
-#
-
-# Debugging Python
+## Debugging Python
 
 <https://github.com/microsoft/ptvsd>
 
 <https://www.youtube.com/watch?v=b78Tg-YmJZI>
 
-#
-
-# CodeServer / Online Machine Environments
+## CodeServer / Online Machine Environments
 
 VS Code in the browser
 
@@ -36,7 +32,7 @@ Gitpod - <https://www.freecodecamp.org/news/exampro-cloud-developer-environment-
 
 codeanywhere
 
-# Extensions
+## Extensions
 
 - Docker
 - Kubernetes
@@ -68,31 +64,29 @@ codeanywhere
 
 ## Shortcuts
 
-Shift+Option+F - format document
+- Shift+Option+F - format document
+- CMD + option + z - zen mode
+- CMD + Shift + D - Duplicate line
+- CMD + B = show hide project view
+- Opt + Shift + O = remove unused migrations
+- Opt + shift + down/up arrow = copy line down
+- CMD + T = Show all Symbols
+- CMD + Shit + O = Go to symbol (functions)
+- CTRL + R = open recent dialogue
+- CTRL + G = Go to line
+- CMD + SHIFT + F = search whole project
+- CMD + SHIFT + H = Find and replace whole project
+- `cmd + opt + <-`
+- `cmd + opt + ->`
+- `cmd + K + cmd + S` = show all shortcuts
 
-CMD + option + z - zen mode
+### Markdown shortcuts
 
-CMD + Shift + D - Duplicate line
+- drag and drop image (with shift) to automatically create links
+<https://code.visualstudio.com/docs/languages/markdown>
+- cmd + shift + o - quickly switch headers
 
-CMD + B = show hide project view
-
-Opt + Shift + O = remove unused migrations
-
-Opt + shift + down/up arrow = copy line down
-
-CMD + T = Show all Symbols
-
-CMD + Shit + O = Go to symbol (functions)
-
-CTRL + R = open recent dialogue
-
-CTRL + G = Go to line
-
-CMD + SHIFT + F = search whole project
-
-CMD + SHIFT + H = Find and replace whole project
-
-## Navigation -
+## Navigation
 
 Forward / Back
 
@@ -125,7 +119,7 @@ Command + Shit + p (directly run commands)
 - **Select All > Option + shift + i - Every line multiline cursor**
 - **Search > Command + Shift + L - Cursor in every searched line**
 
-![Visual Studio Code Keyboard shortcuE for macOS Bæic ed.tl 'ump Add Toggle Multi-cursor and selection at end replace Add to Rich languages editing Editor managenrnt File manage m Display Deb ug Integrated terminal Other and ](../../media/DevOps-IDEs-VSCode---VS-Code-image1.png)
+![image](../../media/DevOps-IDEs-VSCode---VS-Code-image1.png)
 
 <https://dev.to/selrond/tips-to-use-vscode-more-efficiently-3h6p>
 
@@ -138,94 +132,51 @@ Command + Shit + p (directly run commands)
 - User Settings- Settings that apply globally to any instance of VS Code you open.
 - Workspace Settings- Settings stored inside your workspace and only apply when the workspace is opened.
 
+```json
 {
-
-"python.jediEnabled": false,
-
-"editor.suggestSelection": "first",
-
-"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-
-"window.openFoldersInNewWindow": "on",
-
-"window.openFilesInNewWindow": "on",
-
-"terminal.integrated.shell.osx": "/bin/zsh",
-
-"PATH": "/bin/zsh",
-
-"files.autoSave": "onFocusChange",
-
-"workbench.editor.enablePreview": false,
-
-"editor.wordWrap": "on",
-
-"explorer.confirmDelete": false,
-
-"sqltools.connections": [
-
-{
-
-"database": "test",
-
-"dialect": "MySQL",
-
-"name": "localhost",
-
-"password": "test",
-
-"port": 3306,
-
-"server": "localhost",
-
-"username": "test"
-
+    "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.openFoldersInNewWindow": "on",
+    "window.openFilesInNewWindow": "on",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "PATH": "/bin/zsh",
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.enablePreview": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "sqltools.connections": [
+        {
+            "database": "test",
+            "dialect": "MySQL",
+            "name": "localhost",
+            "password": "test",
+            "port": 3306,
+            "server": "localhost",
+            "username": "test"
+        }
+    ],
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 0,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "git.autofetch": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDragAndDrop": false,
+    "remote.extensionKind": {
+        "ms-azuretools.vscode-docker": "workspace"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.dataScience.askForKernelRestart": false,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.renderWhitespace": "all",
+    "files.exclude": {
+        "**/__pycache__": true
+    }
+  "terminal.integrated.scrollback": 10000,
 }
-
-],
-
-"git.enableSmartCommit": true,
-
-"window.zoomLevel": 0,
-
-"[java]": {
-
-"editor.defaultFormatter": "redhat.java"
-
-},
-
-"java.configuration.checkProjectSettingsExclusions": false,
-
-"git.autofetch": true,
-
-"diffEditor.ignoreTrimWhitespace": false,
-
-"explorer.confirmDragAndDrop": false,
-
-"remote.extensionKind": {
-
-"ms-azuretools.vscode-docker": "workspace"
-
-},
-
-"git.ignoreMissingGitWarning": true,
-
-"python.dataScience.sendSelectionToInteractiveWindow": true,
-
-"python.dataScience.askForKernelRestart": false,
-
-"workbench.startupEditor": "welcomePage",
-
-"workbench.iconTheme": "vscode-icons",
-
-"editor.renderWhitespace": "all",
-
-"files.exclude": {
-
-"**/**pycache**": true
-
-}
-
-"terminal.integrated.scrollback": 10000,
-
-}
+```

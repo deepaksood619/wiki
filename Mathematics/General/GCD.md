@@ -18,7 +18,7 @@ Modified: 2018-04-15 12:58:12 +0500
 
 5. Greatest Common Measure (GCM)
 
-## GCD -
+## GCD
 
 Greatest Common Divisor (GCD) of two integers A and B is thel**argest integer that divides both A and B.**
 

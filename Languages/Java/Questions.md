@@ -66,7 +66,7 @@ Serializable vs Parcelable
 
 Jetpack
 
-## Features -
+## Features
 
 1. Object Oriented Programming
 

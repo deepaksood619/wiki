@@ -23,7 +23,7 @@ metadata:
 
 name: nginx-configmap
 
-namespace: zenalytix
+namespace: example
 
 data:
 
@@ -191,9 +191,9 @@ name: nginx-env-configmap
 
 volumeMounts:
 
-- mountPath: /root/zenalytix
+- mountPath: /root/example
 
-name: zenalytix-data
+name: example-data
 
 - mountPath: /etc/nginx/nginx.conf
 
@@ -489,7 +489,7 @@ apiVersion: batch/v1beta1
 kind: CronJob
 metadata:
 name: livenotebook-commit
-namespace: zenalytix
+namespace: example
 spec:
 
 # 12:15 AM
@@ -505,21 +505,21 @@ spec:
 containers:
 
 - name: livenotebook-commit
-image: gcr.io/example-data-archiver/zenalytix:a7f14578479e
-workingDir: /root/zenalytix/notebooks
+image: gcr.io/example-data-archiver/example:a7f14578479e
+workingDir: /root/example/notebooks
 command:
 - /bin/bash
 - -c
 - |
-sh /root/zenalytix/k8s/scripts/livenotebook-backup.sh
+sh /root/example/k8s/scripts/livenotebook-backup.sh
 volumeMounts:
-- mountPath: /root/zenalytix
-name: zenalytix-data
+- mountPath: /root/example
+name: example-data
 restartPolicy: OnFailure
 volumes:
-- name: zenalytix-data
+- name: example-data
 persistentVolumeClaim:
-claimName: zenalytix-pvc
+claimName: example-pvc
 
 ## StatefulSet
 

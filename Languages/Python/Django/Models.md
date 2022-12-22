@@ -24,7 +24,7 @@ class Person(models.Model):
 - The name of the table, **myapp_person**, is automatically derived from some model metadata but can be overridden.
 - An **id** field is added automatically, but this behavior can be overridden.
 
-## Field types -
+## Field types
 
 Each field in your model should be an instance of the appropriate [**Field**](https://docs.djangoproject.com/en/1.11/ref/models/fields/#django.db.models.Field) class. Django uses the field class types to determine a few things:
 
@@ -32,7 +32,7 @@ Each field in your model should be an instance of the appropriate [**Field**](ht
 - The default HTML [widget](https://docs.djangoproject.com/en/1.11/ref/forms/widgets/) to use when rendering a form field (e.g.`<inputtype="text">`, `<select>`).
 - The minimal validation requirements, used in Django's admin and in automatically-generated forms.
 
-## Common field arguments -
+## Common field arguments
 
 <https://docs.djangoproject.com/en/2.0/ref/models/fields/#field-options>
 
@@ -54,7 +54,7 @@ Each field in your model should be an instance of the appropriate [**Field**](ht
 - Verbose_name
 - Validators
 
-## Common field types -
+## Common field types
 
 <https://docs.djangoproject.com/en/2.0/ref/models/fields/#field-types>
 
@@ -66,7 +66,7 @@ Each field in your model should be an instance of the appropriate [**Field**](ht
 - FileField and ImageField
 - AutoField
 
-## Relationship fields -
+## Relationship fields
 
 <https://docs.djangoproject.com/en/2.0/ref/models/fields/#module-django.db.models.fields.related>
 

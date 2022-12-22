@@ -6,7 +6,7 @@ Modified: 2020-01-21 16:14:25 +0500
 
 ---
 
-## Points to remember-
+## Points to remember
 
 1. Implicit Data Structure
 

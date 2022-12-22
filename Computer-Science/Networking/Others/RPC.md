@@ -37,7 +37,7 @@ An important difference between remote procedure calls and local calls is that r
 
 6. Finally, the server stub calls the server procedure. The reply traces the same steps in the reverse direction.
 
-## Problems with RPC -
+## Problems with RPC
 
 1. **Non-L**ocal Exceptions Problem2. Indirect Memory Allocation Problem
 

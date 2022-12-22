@@ -6,7 +6,7 @@ Modified: 2019-10-14 11:32:39 +0500
 
 ---
 
-## Logs -
+## Logs
 
 A log is perhaps the simplest possible storage abstraction. It is an append-only, totally-ordered sequence of records ordered by time. It looks like this:
 ![image](media/Distributed-Logging-image1.png)

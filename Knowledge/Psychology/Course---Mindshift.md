@@ -42,7 +42,7 @@ Key to your ability to mindshift is being able to learn effectively. This week, 
 
 If you feel an emotion try to put a label on that emotion, so that it can move from our Amygdala to Prefrontal Cortex (rational cognition) where we can think about it rationally
 
-## Cognitive distortions -
+## Cognitive distortions
 
 - All or nothing thinking
 - Magnification

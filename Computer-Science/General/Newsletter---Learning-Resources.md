@@ -143,3 +143,10 @@ Make sure to finish following documentation and POC in next 30-45 days, since af
 - Basic understanding of PHP for reading PHP Codes
 - Docker
 - Git (Highly proficient)
+
+## System Design
+<https://www.youtube.com/playlist?list=PLAC2AM9O1C5KioUMeH9qIjbAV_RMmX8rd>
+
+<https://www.youtube.com/channel/UCn1XnDWhsLS5URXTi5wtFTA>
+
+<https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX>

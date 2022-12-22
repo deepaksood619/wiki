@@ -10,7 +10,7 @@ Modified: 2021-07-04 22:16:04 +0500
 
 IoT world is all about communication between devices, gateways and the cloud; messages are exchanged between all these parties in order to provide a comprehensive end-to-end solution.
 
-## Shadow (Device Shadow) -
+## Shadow (Device Shadow)
 
 A json file maintained on the cloud where all the updates are performed. These is synced with the devices on fields.
 
@@ -63,7 +63,7 @@ On a high level, the software architecture choices for IoT client devices fall i
 | Third-party apps supported      | No                                                              | Yes                                            | Yes                                                      | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
 | Isomorphic apps possible        | No                                                              | Yes                                            | Only if the hardware architectures are binary compatible | Yes                                       | Yes                                                                            | Yes                                                                                                                 |
 
-## Key points -
+## Key points
 
 - Windowing for streaming data
 

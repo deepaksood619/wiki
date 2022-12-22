@@ -4,23 +4,23 @@ Created: 2017-10-08 21:25:55 +0500
 
 Modified: 2022-11-23 22:57:29 +0500
 
----
+--
 
-## Only ~0.3% of the world's population today can code, and this small group has built all of the world's ~6.3 million mobile apps. Which means that 99.7% of the world fully depends on 0.3%, which is huge
+**Only ~0.3% of the world's population today can code, and this small group has built all of the world's ~6.3 million mobile apps. Which means that 99.7% of the world fully depends on 0.3%, which is huge**
 
 In the next 5 years, a total of ~500 million apps are likely to be built of which 450 million are likely to be built using no/low-code platforms.
 
 Switch away from the approach of code-by-default and instead **code-when-necessary**
 
-## There are no solutions, only tradeoffs
+**There are no solutions, only tradeoffs**
 
-## I don't know, But I will find out
+**I don't know, But I will find out**
 
-## See one, do one, teach one
+**See one, do one, teach one**
 
-## Everything fails, all the time
+**Everything fails, all the time**
 
-## garbage in, garbage out (GIGO)
+**garbage in, garbage out (GIGO)**
 
 A framework is only as good as the developer that is using it
 
@@ -28,35 +28,33 @@ If you're the smartest person in the room, you're in the wrong room.
 
 In God we trust. All others must bring data.
 
-Once you really understand programming, than these languages are mainly syntax, and you can pick-up syntax a lot faster than you can underlying concepts. Now knowing how to solve the problems takes years to learn.
-
-- [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) YouTuber
+Once you really understand programming, than these languages are mainly syntax, and you can pick-up syntax a lot faster than you can underlying concepts. Now knowing how to solve the problems takes years to learn. -- [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) YouTuber
 
 Correct by Construction
 
 Correctness by Construction
 
-Algorithms: a common language for nature, human, and computer. --- Avi Wigderson
+Algorithms: a common language for nature, human, and computer. -- Avi Wigderson
 
 Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
 
 Classes should be immutable unless there's a very good reason to make them mutable... If a class cannot be made immutable, you should still limit its mutability as much as possible.
 
-The generation of random numbers is too important to be left to chance. --Robert R. Coveyou
+The generation of random numbers is too important to be left to chance. -- (R)obert R. Coveyou
 
-Those who cannot remember the past are condemned to repeat it. --Dynamic Programming
+Those who cannot remember the past are condemned to repeat it. -- (D)ynamic Programming
 
-Shipping beats perfection. --- Khan Academy's Development Mantra
+Shipping beats perfection. -- Khan Academy's Development Mantra
 
-## The best code is that you never write. The worst code is the code you write two or more times
+**The best code is that you never write. The worst code is the code you write two or more times**
 
 The best code is no code at all, and the most effective programmer is the one who knows when not to code.
 
-One of my most productive days was throwing away 1000 lines of code. --- Ken Thompson
+One of my most productive days was throwing away 1000 lines of code. -- Ken Thompson
 
 80 percent of data science is preparing data, and the other 20 percent is complaining about preparing data.
 
-One person's 'paranoia' is another person's 'engineering redundancy.' --- Marcus J. Ranum
+One person's 'paranoia' is another person's 'engineering redundancy.' -- Marcus J. Ranum
 
 "A good programmer is someone who always looks both ways before crossing a one-way street." - Doug Linder
 
@@ -64,9 +62,9 @@ Remember that there is no code faster than no code.
 
 Measuring programming progress by lines of code is like measuring aircraft building progress by weight -- Bill Gates
 
-## Rating in google play store - This app is very well architected (to all developers)
+**Rating in google play store - This app is very well architected (to all developers)**
 
-Knowing when not to code is possibly the most important skill a programmer can learn. ---[The Art Of Readable Code](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
+Knowing when not to code is possibly the most important skill a programmer can learn. --[The Art Of Readable Code](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
 
 First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack. -- George Carrette
 
@@ -140,7 +138,7 @@ e = mc² (errors = more code ^2)
 
 It's not about finding the best framework, it's about finding the right framework.
 
-A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system --Systemantics
+A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over, beginning with a working simple system -- (S)ystemantics
 
 Scalability and fault-tolerance need to be designed from day one.
 
@@ -160,7 +158,7 @@ Act in haste and repent at leisure. Code too soon and debug forever. -- Dr. Raym
 
 The reigning data processing philosophy is to save all of yesterday's data today, since it is unknown what could be important tomorrow.
 
-## RTFM - Read the Fucking Manual
+**RTFM - Read the Fucking Manual**
 
 We deliver yesterday's insights, tomorrow! -- ETL Process
 
@@ -184,7 +182,7 @@ Simplicity is prerequisite for reliability. -- Edsger Dijkstra
 
 If you want to truly understand something, try to change it." -- Kurt Lewin
 
-You can have data without information, but you cannot have information without data." --- Daniel Keys Moran
+You can have data without information, but you cannot have information without data." -- Daniel Keys Moran
 
 "People worry that computers will get too smart and take over the world. But the real problem is that computers are too stupid and they've already taken over the world." -- Pedro Domingos
 
@@ -196,9 +194,9 @@ You can have data without information, but you cannot have information without d
 
 3. Anything invented after you're thirty-five is against the natural order of things.
 
-"Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don't know where you've been, you don't know where you're going, and you don't know quite where you are." --- Danny Thorpe
+"Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don't know where you've been, you don't know where you're going, and you don't know quite where you are." -- Danny Thorpe
 
-"Looking at code you wrote more than two weeks ago is like looking at code you are seeing for the first time." --- Dan Hurvitz
+"Looking at code you wrote more than two weeks ago is like looking at code you are seeing for the first time." -- Dan Hurvitz
 
 Regardless of what we discover, we understand and truly belive that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand -- Sprint retrospective
 
@@ -230,7 +228,7 @@ Intermediate = functional complexity
 
 Advanced = profound simplicity"
 
-## Scalability Paradox - Speed vs. Scale
+**Scalability Paradox - Speed vs. Scale**
 
 There's an old Twitter joke that every app evolves until it eventually becomes a chat app. The 2020 version of that joke is that every app evolves until it eventually becomes a bank.
 
@@ -244,7 +242,7 @@ If you never copy best practices, you'll have to repeat all the mistakes yoursel
 
 If you only copy best practices, you'll always be one step behind the leaders.
 
-## "Knowledge without practice is useless, and practice without knowledge is dangerous."
+**"Knowledge without practice is useless, and practice without knowledge is dangerous."**
 
 A user interface is like a joke. If you have to explain it, it's not that good. -- Martin LeBlanc
 
@@ -264,15 +262,15 @@ A user interface is like a joke. If you have to explain it, it's not that good. 
 
 ![image](media/Coding-image8.jpeg)
 
-## We don't have time to do it right
+**We don't have time to do it right**
 
-## Do you have time to do it twice?
+**Do you have time to do it twice?**
 
 ![image](media/Coding-image9.jpg)
 
 There are only two kinds of programming languages: the ones people complain about and the ones nobody uses." ― Bjarne Stroustrup, creator of the C++ programming language
 
-## Rule of Three
+**Rule of Three**
 
 - 1st time? Just do it.
 - 2nd time? Wince and duplicate.
@@ -280,62 +278,64 @@ There are only two kinds of programming languages: the ones people complain abou
 
 First do it, then do it right, then do it better.
 
-"It's easy to shoot your foot off with Git. But it's also easy to revert to a previous foot, then merge it with your current leg." --- Jack William Bell, Software Engineer and Git user
+"It's easy to shoot your foot off with Git. But it's also easy to revert to a previous foot, then merge it with your current leg." -- Jack William Bell, Software Engineer and Git user
 
-"To iterate is human. To recurse is divine." --- L Peter Deutsch, computer scientist and mainframe programmer
+"To iterate is human. To recurse is divine." -- L Peter Deutsch, computer scientist and mainframe programmer
 
-"Any sufficiently advanced technology is indistinguishable from magic." ---Clarke's Third Law
+"Any sufficiently advanced technology is indistinguishable from magic." -- (C)larke's Third Law
 
-"Nobody sets out to create a mission-critical spreadsheet. They just happen." --- Felienne Hermans, Scientist and Computer Science Professor
+"Nobody sets out to create a mission-critical spreadsheet. They just happen." -- Felienne Hermans, Scientist and Computer Science Professor
 
-"I know a lot about artificial intelligence. But not as much as it knows about me." --- Dave Waters, Geology Professor and Machine Learning Enthusiast
+"I know a lot about artificial intelligence. But not as much as it knows about me." -- Dave Waters, Geology Professor and Machine Learning Enthusiast
 
 Cryptography is typically bypassed, not penetrated -- Adi Shamir
 
 I love my slow database -- said no one ever
 
-"An individual block of code takes moments to write, minutes to debug, and can last forever without being touched again. It's only when you visit code written yesterday that having code written in a clear, consistent style becomes extremely useful. Understandable code frees up your mental bandwidth from having to puzzle out inconsistencies, making it easier to maintain and enhance projects of all sizes." --- Daniel Roy Greenfeld, Python Django developer and author
+"An individual block of code takes moments to write, minutes to debug, and can last forever without being touched again. It's only when you visit code written yesterday that having code written in a clear, consistent style becomes extremely useful. Understandable code frees up your mental bandwidth from having to puzzle out inconsistencies, making it easier to maintain and enhance projects of all sizes." -- Daniel Roy Greenfeld, Python Django developer and author
 
-"One person's paranoia is another person's engineering redundancy." --- Marcus Ranum, Network Security Researcher
+"One person's paranoia is another person's engineering redundancy." -- Marcus Ranum, Network Security Researcher
 
 It's not a ML project, it's a software project with ML in it
 
 I think the lack of extra crap is a feature.-- Craig Lam
 
-"Smart data structures and dumb code work a lot better than the other way around." --- Eric S. Raymond, developer and author of the pioneering book on open source, "The Cathedral and the Bazaar"
+"Smart data structures and dumb code work a lot better than the other way around." -- Eric S. Raymond, developer and author of the pioneering book on open source, "The Cathedral and the Bazaar"
 
 "Python is the most powerful language you can still read." - Paul Dubois, physicist and lead developer of NumPy
 
 ![image](media/Coding-image10.jpg)
 
-A database administrator walks into a NoSQL bar. But he turns and leaves because he couldn't find a table. --- Erlend Oftedal, security researcher and maintainer of Retire.js
+A database administrator walks into a NoSQL bar. But he turns and leaves because he couldn't find a table. -- Erlend Oftedal, security researcher and maintainer of Retire.js
 
-"Don't worry about people trying to steal your design work. Worry about the day that they stop." --- Jeffery Zeldman, Developer, Designer, and co-founder of the Web Standards Project
+"Don't worry about people trying to steal your design work. Worry about the day that they stop." -- Jeffery Zeldman, Developer, Designer, and co-founder of the Web Standards Project
 
-The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency --Bill Gates
+The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency -- (B)ill Gates
 
-"Linux only became possible because 20 years of operating system research was carefully studied, analyzed, discussed, and thrown away." --- Ingo Molnar, Prolific Linux Contributor from Hungary
+"Linux only became possible because 20 years of operating system research was carefully studied, analyzed, discussed, and thrown away." -- Ingo Molnar, Prolific Linux Contributor from Hungary
 
-Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don't know where you've been, you don't know where you're going, and you don't know quite where you are." --- Danny Thorpe, Software Engineer and major contributor to the Delphi programming language
+Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don't know where you've been, you don't know where you're going, and you don't know quite where you are." -- Danny Thorpe, Software Engineer and major contributor to the Delphi programming language
 
-"When I am working on a problem, I never think about beauty. I think only of how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong." --- Buckminister Fuller, Architect and Systems Theorist
+"When I am working on a problem, I never think about beauty. I think only of how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong." -- Buckminister Fuller, Architect and Systems Theorist
 
-The pinnacle of game design craft is combining perfect mechanics and compelling fiction into one seamless system of meaning." --- Tynan Sylvester, Developer and Indie Game Designer
+The pinnacle of game design craft is combining perfect mechanics and compelling fiction into one seamless system of meaning." -- Tynan Sylvester, Developer and Indie Game Designer
 
-I'm old-fashioned. I like my CSS seperated from my HTML; my HTML seperated from my JS; my JS separated from my CSS. I like my JS layer only added when I need it, usually progressively. CSS added progressively on top of semantic markup. I don't fight the C in CSS, I embrace it." --- Sara Soueidan, Software Engineer and Accessibility Advocate
+I'm old-fashioned. I like my CSS seperated from my HTML; my HTML seperated from my JS; my JS separated from my CSS. I like my JS layer only added when I need it, usually progressively. CSS added progressively on top of semantic markup. I don't fight the C in CSS, I embrace it." -- Sara Soueidan, Software Engineer and Accessibility Advocate
 
 During the production of the movie Toy Story 2, an unnamed Pixar employee was doing some routine data cleanup. They wanted to delete some of their files. So they typed this into their command line: bin/rm -r -f *. But they didn't realize that they were running the command inside the server's root folder. Animators knew something was wrong when the files they were working on started vanishing. They rushed over and unplugged the computer. But it was too late. 90% of the Toy Story 2's files had been deleted. The team was going to have to completely restart the $100,000,000 project. Luckily, one of their animators was working from home after having a baby. She had a 2-week old backup of the data sitting on her desk. After she carefully drove her computer to the office, they were able to restore the database.
 
 A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system designed from scratch never works and cannot be made to work. You have to start over, beginning with a working simple system
 
-A very simple but particularly useful technique for finding the cause of a problem is simply to explain it to someone else. The other person should look over your shoulder at the screen, and nod his or her head constantly (like a rubber duck bobbing up and down in a bathtub)." --- Andrew Hunt and David Thomas, authors of the 1999 book The Pragmatic Programmer
+A very simple but particularly useful technique for finding the cause of a problem is simply to explain it to someone else. The other person should look over your shoulder at the screen, and nod his or her head constantly (like a rubber duck bobbing up and down in a bathtub)." -- Andrew Hunt and David Thomas, authors of the 1999 book The Pragmatic Programmer
 
 <https://www.freecodecamp.org/news/rubber-duck-debugging>
 
 Composability is to software as compounding interest is to finance
 
-"Changing random stuff until your program works is 'hacky' and a 'bad coding practice'. But if you do it fast enough, it's called 'Machine Learning' and pays 4x your current salary." --- Steve Maine, Software Engineer
+"Changing random stuff until your program works is 'hacky' and a 'bad coding practice'. But if you do it fast enough, it's called 'Machine Learning' and pays 4x your current salary." -- Steve Maine, Software Engineer
 
-Computer Science is no more about computers than astronomy is about telescopes." --- Edsger Dijkstra, Mathematician, Computer Scientist, Turing Award Winner
+Computer Science is no more about computers than astronomy is about telescopes." -- Edsger Dijkstra, Mathematician, Computer Scientist, Turing Award Winner
 
-Games were not just a diversion, I realized. Games could make you feel. If great literature could wield its power through nothing but black squiggles on a page, how much more could be done with movement, sound, and color?" --- Sid Meier, Game Developer and creator of the Civilization strategy game series
+Games were not just a diversion, I realized. Games could make you feel. If great literature could wield its power through nothing but black squiggles on a page, how much more could be done with movement, sound, and color?" -- Sid Meier, Game Developer and creator of the Civilization strategy game series
+
+Writing code should be the last option because everyone line of code once created becomes a liability to the development team. Once you create code, it must be maintained and adds to the complexity of the code base.

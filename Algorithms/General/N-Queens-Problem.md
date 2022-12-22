@@ -10,7 +10,7 @@ The N Queen is the problem of placing N chess queens on an N×N chessboard so th
 
 ![image](media/N-Queens-Problem-image1.jpg)
 
-## Question Types -
+## Question Types
 
 - Find any placement of queens that do not attack each other
 - Find all placement of queens on the board

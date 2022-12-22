@@ -6,17 +6,17 @@ Modified: 2018-12-23 18:57:53 +0500
 
 ---
 
-## Directives -
+## Directives
 
 A directive is a marker on a HTML tag that tells Angular to run or reference some JavaScript code.
 
 - This is how we bind the behavior from HTML to JS
 
-## Expressions -
+## Expressions
 
 - Allow to insert dynamic values into HTML
 
-## Controllers -
+## Controllers
 
 - Controllers are where we define our app's behavior by defining functions and values.
 

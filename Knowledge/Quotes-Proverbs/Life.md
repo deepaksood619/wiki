@@ -989,3 +989,9 @@ Truth is like poetry. And most people fucking hate poetry.
 When you change the way you look at things, the things you look at change. -- Max Planck
 
 You could claim that anything's real if the only basis for believing in it is that nobody's proved it doesn't exist! -- Hermione Granger, Harry Potter and the Deathly Hallows by J.K. Rowling
+
+There is no greater fool than he who thinks himself wise; no one wiser than he who suspects he is a fool. -- Marguerite de Valois
+
+A clever person solves a problem. A wise person avoids it — Albert Einstein
+
+The first principle is that you must not fool yourself and you are the easiest person to fool. -- Richard P. Feynman

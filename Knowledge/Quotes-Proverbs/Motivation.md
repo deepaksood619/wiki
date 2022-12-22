@@ -162,7 +162,7 @@ Optimism isn't a belief that everything will go well all the time. It's a belief
 
    - Struggle
 
-## Blogs -
+## Blogs
 
 <https://theascent.pub/how-to-be-so-disciplined-itll-look-like-you-have-superpowers-e35d695f49d5>
 

@@ -40,7 +40,7 @@ The preprocessing part takes O(m Log m) time.
 
 Processing all queries takes**O(n * √n)**+**O(m * √n)**=**O((m+n) * √n)**time.
 
-## More -
+## More
 
 <https://www.geeksforgeeks.org/range-minimum-query-for-static-array>
 

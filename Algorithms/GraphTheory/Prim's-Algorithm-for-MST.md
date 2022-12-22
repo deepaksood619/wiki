@@ -12,7 +12,7 @@ Modified: 2018-05-21 22:51:16 +0500
 
 ![image](media/Prim's-Algorithm-for-MST-image1.png)
 
-## Implementation -
+## Implementation
 
 1. Lazy Implementation -
 
@@ -44,7 +44,7 @@ Data Structure Used - Indexed Priority Queue, with decreaseKey API to decrease p
 
 ![image](media/Prim's-Algorithm-for-MST-image10.png)
 
-## Applications -
+## Applications
 
 1. Euclidean MST
 

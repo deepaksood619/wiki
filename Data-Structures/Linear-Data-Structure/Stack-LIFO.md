@@ -6,7 +6,7 @@ Modified: 2018-08-04 12:23:07 +0500
 
 ---
 
-## Points to remember -
+## Points to remember
 
 1. Linear Data Structure
 Stack is an abstract data type with a bounded(predefined) capacity. It is a simple data structure that allows adding and removing elements in a particular order. Every time an element is added, it goes on the top of the stack, the only element that can be removed is the element that was at the top of the stack, just like a pile of objects.
@@ -19,7 +19,7 @@ Stack is an abstract data type with a bounded(predefined) capacity. It is a simp
 
 5. Loitering (don't keep the reference of the object when an element is popped)
 
-## Applications -
+## Applications
 
 1. Parsing
 
@@ -39,7 +39,7 @@ Stack is an abstract data type with a bounded(predefined) capacity. It is a simp
 
 Dijkstra's Two-stack algorithm (Use - Interpreter)
 
-## Operations -
+## Operations
 
 1. Push (O(1))
 
@@ -55,7 +55,7 @@ Dijkstra's Two-stack algorithm (Use - Interpreter)
 
 7. Underflow
 
-## Implementation -
+## Implementation
 
 1. Using Linked List
 
@@ -66,7 +66,7 @@ Dijkstra's Two-stack algorithm (Use - Interpreter)
 1. **Linked List Implementation**
 ![image](media/Stack-LIFO-image1.png)
 
-## Loitering -
+## Loitering
 
 Holding the reference to an object, when it is no longer needed.
 
