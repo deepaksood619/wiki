@@ -43,7 +43,7 @@ Furthermore, in a production build of Next.js, whenever [Link](https://nextjs.or
 
 ## Image Component and Image Optimization
 
-[next/image](https://nextjs.org/docs/api-reference/next/image) is an extension of the HTML<img>element, evolved for the modern web.
+[next/image](https://nextjs.org/docs/api-reference/next/image) is an extension of the HTML `<img>` element, evolved for the modern web.
 
 Next.js also has support for Image Optimization by default. This allows for resizing, optimizing, and serving images in modern formats like [WebP](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types#webp) when the browser supports it. This avoids shipping large images to devices with a smaller viewport. It also allows Next.js to automatically adopt future image formats and serve them to browsers that support those formats.
 

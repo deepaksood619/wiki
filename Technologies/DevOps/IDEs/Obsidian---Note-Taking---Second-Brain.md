@@ -48,97 +48,56 @@ Extensions that helps make obsidian better
 
 ### Some basics
 
-Make new note---Cmd-n
-
-Create note in new pane---Cmd-shift-n
-
-Open the link you're hovering over in a new pane (while in edit mode)---**Cmd-click**
-
-Toggle edit/preview mode---Cmd-e
-
-Open quick switcher---Cmd-o
-
-Close active pane---Cmd-w
-
-Formatting basics
-
-Undo, cut, copy, paste, bold, italicize---Cmd-z,x,c,v,b,i
+- Make new note---Cmd-n
+- Create note in new pane---Cmd-shift-n
+- Open the link you're hovering over in a new pane (while in edit mode)---**Cmd-click**
+- Toggle edit/preview mode---Cmd-e
+- Open quick switcher---Cmd-o
+- Close active pane---Cmd-w
+- Formatting basics
+- Undo, cut, copy, paste, bold, italicize---Cmd-z,x,c,v,b,i
 
 ### Intermediate
 
-Open command palette---Cmd-p
-
-Search and replace in current file---Cmd-f
-
-Search in all files---Cmd-shift-f
-
-Some faves for outlining
-
-Swap line up--- I mapped this to:Cmd-1
-
-Swap line down--- I mapped this to:Cmd-2
-
-Toggle fold on current line--- I mapped this toCmd-3
-
-Toggle line to bulleted of numbered list† --- I mapped this toCmd-4
-
-†: Requires the plugin "Hotkeys++"
-
-Formatting intermediate
-
-Insert template--- I mapped this to:Cmd-t
+- Open command palette---Cmd-p
+- Search and replace in current file---Cmd-f
+- Search in all files---Cmd-shift-f
+- Some faves for outlining
+- Swap line up--- I mapped this to:Cmd-1
+- Swap line down--- I mapped this to:Cmd-2
+- Toggle fold on current line--- I mapped this toCmd-3
+- Toggle line to bulleted of numbered list† --- I mapped this toCmd-4
+- †: Requires the plugin "Hotkeys++"
+- Formatting intermediate
+- Insert template--- I mapped this to:Cmd-t
 
 ### Advanced
 
-Changing the view
-
-Load workspace--- I mapped this to:Shift-Esc
-
-Manage workspaces--- I mapped this to:Control-Esc
-
-Toggle left sidebar--- I mapped this to:Cmd-LeftArrow
-
-Toggle right sidebar--- I mapped this to:Cmd-RightArrow
-
-Some secret weapons
-
-Navigate back--- I mapped this to:Opt-a
-
-Navigate forward--- I mapped this to:Opt-s
-
-Programmed to my mouse
-
-Open previous daily note--- extra mouse button back
-
-Open next daily note--- extra mouse button forward
-
-Open my Home note--- When I click this mouse button, it typesCmd-o, 000, Enter
-
-Setup and File Management
-
-Open settings---Cmd-,
-
-Show in system explorer--- I mapped this to:Cmd-ctrl-opt-i
-
-Reveal active file in navigation--- I mapped this to:Cmd-ctrl-i
-
-Move file to another folder--- I mapped this to:Cmd-shift-i
-
-Open another vault--- I mapped this to:Cmd-ctrl-opt-o
-
-Note Management
-
-Toggle pin--- I mapped this to:Cmd-shift-e
-
-Note Refactor: Extract selection to new note - first line as file name†† --- I mapped this to:Cmd-shift-r
-
-Edit file title--- I mapped this to:Cmd-l(then hitenterto return to the note)
-
-Calendar: Open Weekly Note--- I mapped this to:Cmd-shift-m
-
-††: Requires the plugin "Note Refactor"
-
-†††: Requires the plugin "Calendar"
+- Changing the view
+- Load workspace--- I mapped this to:Shift-Esc
+- Manage workspaces--- I mapped this to:Control-Esc
+- Toggle left sidebar--- I mapped this to:Cmd-LeftArrow
+- Toggle right sidebar--- I mapped this to:Cmd-RightArrow
+- Some secret weapons
+- Navigate back--- I mapped this to:Opt-a
+- Navigate forward--- I mapped this to:Opt-s
+- Programmed to my mouse
+- Open previous daily note--- extra mouse button back
+- Open next daily note--- extra mouse button forward
+- Open my Home note--- When I click this mouse button, it typesCmd-o, 000, Enter
+- Setup and File Management
+- Open settings---Cmd-,
+- Show in system explorer--- I mapped this to:Cmd-ctrl-opt-i
+- Reveal active file in navigation--- I mapped this to:Cmd-ctrl-i
+- Move file to another folder--- I mapped this to:Cmd-shift-i
+- Open another vault--- I mapped this to:Cmd-ctrl-opt-o
+- Note Management
+- Toggle pin--- I mapped this to:Cmd-shift-e
+- Note Refactor: Extract selection to new note - first line as file name†† --- I mapped this to:Cmd-shift-r
+- Edit file title--- I mapped this to:Cmd-l(then hitenterto return to the note)
+- Calendar: Open Weekly Note--- I mapped this to:Cmd-shift-m
+- ††: Requires the plugin "Note Refactor"
+- †††: Requires the plugin "Calendar"
 
 ### Search
 
