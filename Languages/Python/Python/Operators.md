@@ -103,85 +103,21 @@ b = 0000 1101
 
 # Python Operators Precedence
 
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 88%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Sr.No.</strong></th>
-<th><strong>Operator &amp; Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><p>**</p>
-<p>Exponentiation (raise to the power)</p></td>
-</tr>
-<tr>
-<td>2</td>
-<td><p>~ + -</p>
-<p>Complement, unary plus and minus (method names for the last two are +@ and -@)</p></td>
-</tr>
-<tr>
-<td>3</td>
-<td><p>* / % //</p>
-<p>Multiply, divide, modulo and floor division</p></td>
-</tr>
-<tr>
-<td>4</td>
-<td><p>+ -</p>
-<p>Addition and subtraction</p></td>
-</tr>
-<tr>
-<td>5</td>
-<td><p>`>> <<`</p>
-<p>Right and left bitwise shift</p></td>
-</tr>
-<tr>
-<td>6</td>
-<td><p>&amp;</p>
-<p>Bitwise 'AND'</p></td>
-</tr>
-<tr>
-<td>7</td>
-<td><p>^ |</p>
-<p>Bitwise exclusive `OR' and regular `OR'</p></td>
-</tr>
-<tr>
-<td>8</td>
-<td><p>`<= < > >=`</p>
-<p>Comparison operators</p></td>
-</tr>
-<tr>
-<td>9</td>
-<td><p>`<>` == !=</p>
-<p>Equality operators</p></td>
-</tr>
-<tr>
-<td>10</td>
-<td><p>= %= /= //= -= += *=**=</p>
-<p>Assignment operators</p></td>
-</tr>
-<tr>
-<td>11</td>
-<td><p>is is not</p>
-<p>Identity operators</p></td>
-</tr>
-<tr>
-<td>12</td>
-<td><p>in not in</p>
-<p>Membership operators</p></td>
-</tr>
-<tr>
-<td>13</td>
-<td><p>not or and</p>
-<p>Logical operators</p></td>
-</tr>
-</tbody>
-</table>
+| **Sr.No.** | **Operator & Description** |
+|---|---|
+| 1 | `**` Exponentiation (raise to the power) |
+| 2 | `~ + -` Complement, unary plus and minus (method names for the last two are +@ and -@) |
+| 3 | `* / % //` Multiply, divide, modulo and floor division |
+| 4 | `+ -` Addition and subtraction |
+| 5 | `>> <<` Right and left bitwise shift |
+| 6 | `&` Bitwise 'AND' |
+| 7 | `^ \|` Bitwise exclusive `OR' and regular `OR' |
+| 8 | ` >=` Comparison operators |
+| 9 | `<> == !=` Equality operators |
+| 10 | `= %= /= //= -= += *=**=` Assignment operators |
+| 11 | `is is not` Identity operators |
+| 12 | `in not in` Membership operators |
+| 13 | `not or and` Logical operators |
 
 ## Different ways to test multiple
 
@@ -199,11 +135,11 @@ if any((x, y, z)):
     print('passed')
 ```
 
-## Difference between is and ==
+## Difference between `is` and `==`
 
-1. An **is** expression evaluates toTrueif two variables point to the same (identical) object.
+1. An `is` expression evaluates toTrueif two variables point to the same (identical) object.
 
-2. An**==**expression evaluates toTrueif the objects referred to by the variables are equal (have the same contents).
+2. An `==` expression evaluates toTrueif the objects referred to by the variables are equal (have the same contents).
 
 ## Character Conversion
 

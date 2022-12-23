@@ -5,8 +5,8 @@ ENV TZ=Asia/Kolkata
 # Set the working directory to /app
 WORKDIR /app
 
-COPY . /app/
+#COPY . /app/
 
-RUN cd .layouts && npm i -g npm
+#RUN cd .layouts && npm i -g npm
 
-RUN npm i
+#RUN npm i
