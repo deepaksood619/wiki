@@ -76,23 +76,16 @@ Then, we will create the store in the index.js file. This is because index.js is
 // index.js
 
 import { createStore } from 'redux' // to create store
-
 import { Provider } from 'react-redux' // to provide the store to the app
-
 import rootReducer from './reducers/RootReducer'; // the reducer
 
 const store = createStore(rootReducer);
 
 ReactDOM.render(
-
 <Provider store={store}>
-
 <App
-
 </Provider>,
-
 document.getElementById('root')
-
 );
 ```
 

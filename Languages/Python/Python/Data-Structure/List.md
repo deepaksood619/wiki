@@ -108,12 +108,12 @@ Find duplicates in a list
  import collections
  dup_lst = [item for item, count in collections.Counter(lst).items() if count > 1]
 
-Difference of two lists
- >>> l1 = [1,2,6,8]
->>> l2 = set([2,3,5,8])
+# Difference of two lists
+l1 = [1,2,6,8]
+l2 = set([2,3,5,8])
  #     v  `filter` returns the a iterator object. Here I'm type-casting
 #     v  it to `list` in order to display the resultant value
->>> list(filter(lambda x: x not in l2, l1))
+list(filter(lambda x: x not in l2, l1))
 [1, 6]
 
 Finding minimum and maximum in a list of tuples

@@ -124,7 +124,8 @@ redis-cli -a DGfYvYv5b55LwMmBiPgctk1CtKvxlouQ1jqNn70sQ -p 6379. FLUSHALL
 >>> flushdb
 >>> keys *
 
-## >>> keys sms:key:*
+>>> keys sms:key:*
+
 > set mykey somevalue
 
 > set mykey 100 ex 10 # mykey will expire after 10 seconds

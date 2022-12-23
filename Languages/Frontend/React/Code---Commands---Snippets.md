@@ -18,7 +18,7 @@ When a dependency is listed in a package as a peerDependency, it is not automati
 
 ## Commands
 
-```python
+```bash
 npx create-react-app my-app
 npx create-react-app react-shopping-cart --template typescript
 

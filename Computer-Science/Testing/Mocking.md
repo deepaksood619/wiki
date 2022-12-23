@@ -177,16 +177,18 @@ patch.object(Foo, 'foo', autospec=True)
 Or you can create a Mock like this:
 
 ```python
->>> import datetime
->>> from unittest.mock import Mock
->>> a = Mock(spec=datetime)# Not Ok!
->>> a.foo
+import datetime
+from unittest.mock import Mock
+
+a = Mock(spec=datetime) # Not Ok!
+a.foo
+
 Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 File "/home/moose/.pyenv/versions/3.8.1/lib/python3.8/unittest/mock.py", line 635, in __getattr__
 raise AttributeError("Mock object has no attribute %r" % name)
-AttributeError: Mock object has no attribute 'foo'# That is ok:
->>> a.datetime
+AttributeError: Mock object has no attribute 'foo' # That is ok:
+a.datetime
 <Mock name='mock.datetime' id='139883597784544'>
 ```
 
@@ -296,19 +298,19 @@ Just like adding a time parameter for functions which use by default the current
 Here are some ways to seed random number generators:
 
 ```python
->>> import random
->>> random.seed(0)
->>> random.random()
-0.8444218515250481
+import random
+random.seed(0)
+random.random()
+# 0.8444218515250481
 
->>> import numpy as np
->>> np.random.seed(0)
->>> np.random.random()
-0.5488135039273248
+import numpy as np
+np.random.seed(0)
+np.random.random()
+# 0.5488135039273248
 
->>> random_state = np.random.RandomState(seed=0)
->>> random_state.random()
-0.5488135039273248
+random_state = np.random.RandomState(seed=0)
+random_state.random()
+# 0.5488135039273248
 ```
 
 Setting a random state / seed is also very helpful for debugging. If you haven't heard of the Heisenbug or the Higgs-Bugson, you missed some [programming jargon](https://blog.codinghorror.com/new-programming-jargon/). And if your interested in research, reproducibility matters.

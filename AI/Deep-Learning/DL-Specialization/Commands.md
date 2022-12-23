@@ -21,11 +21,10 @@ import numpy as np
 a = np.random.randn(5)
 print(a.shape)
 
->>> (5, )
+(5, )
 
 print(a.T)
-
->>> [ ]
+[ ]
 
 print(np.dot(a, a.T))
 
@@ -39,7 +38,7 @@ a = np.random.randn(1,5) # a.shape = (1,5), row vector
 
 print(a.T)
 
->>> [[ ]]
+[[ ]]
 
 assert (a.shape == (5,1))
 

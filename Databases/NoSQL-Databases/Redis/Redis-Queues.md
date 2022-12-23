@@ -43,25 +43,22 @@ job = queue.enqueue(count_words_at_url, '<http://nvie.com>')
 
 ## Scheduling jobs
 
+```python
 # Schedule job to run at 9:15, October 10th
-
 job = queue.**enqueue_at**(datetime(2019, 10, 8, 9, 15), say_hello)
 
 # Schedule job to run in 10 seconds
-
 job = queue.**enqueue_in**(timedelta(seconds=10), say_hello)
 
 ## Retrying failed jobs
-
 from rq import Retry
 
 # Retry up to 3 times, failed job will be requeued immediately
-
 queue.enqueue(say_hello, retry=Retry(max=3))
 
 # Retry up to 3 times, with configurable intervals between retries
-
 queue.enqueue(say_hello, retry=Retry(max=3, interval=[10, 30, 60]))
+```
 
 ## Some interesting job attributes include
 
@@ -76,15 +73,14 @@ queue.enqueue(say_hello, retry=Retry(max=3, interval=[10, 30, 60]))
 - job.exc_infostores exception information if job doesn't finish successfully.
 - job.id
 
-## # get job
+### get job
 
-job = Job.fetch(job_id, connection=redis_conn)
+`job = Job.fetch(job_id, connection=redis_conn)`
 
-## # Worker
-
-"""Sets up the redis connection and the redis queue."""
+### Worker
 
 ```python
+# Sets up the redis connection and the redis queue.
 import os
 
 import redis
@@ -169,11 +165,11 @@ There are a few different ways that we could potentially add delays to our queue
 - Normally when we talk about times, we usually start talking about *ZSETs*. What if, for any item we wanted to execute in the future, we added it to a*ZSET*instead of a*LIST*, with its score being the time when we want it to execute? We then have a process that checks for items that should be executed now, and if there are any, the process removes it from the *ZSET*, adding it to the proper *LIST*queue.
 We can't wait/re-enqueue items as described in the first, because that'll waste the worker process's time. We also can't create a local waiting list as described in the second option, because if the worker process crashes for an unrelated reason, we lose any pending work items it knew about. We'll instead use a secondaryZSETas described in the third option, because it's simple, straightforward, and we can use a lock to ensure that the move is safe.
 
-## # requiements.txt
+### requiements.txt
 
-rpqueue==0.33.2
+`rpqueue==0.33.2`
 
-## # tasks.py
+### tasks.py
 
 ```python
 import requests
@@ -182,17 +178,19 @@ import rpqueue
 
 from rpqueue import task
 rpqueue.set_redis_connection_settings('redis', '6379', 0, 'a6ad92769ef04b711eea18dccfff85ea')
-@task
 
+@task
 def call_sms_model(cust_id):
 
-payload = {'cust_id': cust_id}
+    payload = {'cust_id': cust_id}
 
-resp = requests.get('http://decision_engine:5000/score', params=payload)
+    resp = requests.get('http://decision_engine:5000/score', params=payload)
 
-print(f'request: {cust_id}, resp status code: {resp.status_code}, text: {resp.text}')
-## # tasks_runner.py
+    print(f'request: {cust_id}, resp status code: {resp.status_code}, text: {resp.text}')
+```
 
+### tasks_runner.py
+```python
 import rpqueue
 
 from tasks import call_sms_model
@@ -201,6 +199,8 @@ rpqueue.set_redis_connection_settings('redis', '6379', 0, 'a6ad92769ef04b711eea1
 rpqueue.execute_tasks(queues=None, threads_per_process=1, processes=1, wait_per_thread=1, module='tasks')
 
 # python -m rpqueue.run --module=tasks --host=redis --port=6379 --db=0 --password=a6ad92769ef04b711eea18dccfff85ea
+```
+
 <https://redislabs.com/ebook/part-2-core-concepts/chapter-6-application-components-in-redis/6-4-task-queues/6-4-2-delayed-tasks>
 
 <https://github.com/josiahcarlson/rpqueue>
@@ -208,4 +208,3 @@ rpqueue.execute_tasks(queues=None, threads_per_process=1, processes=1, wait_per_
 <https://josiahcarlson.github.io/rpqueue>
 
 <https://github.com/Parallels/rq-dashboard>
-```

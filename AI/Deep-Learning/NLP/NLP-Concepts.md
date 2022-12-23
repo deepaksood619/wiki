@@ -24,10 +24,11 @@ A **collocation** is a sequence of words that occur together unusually often. Th
 
 To get a handle on collocations, we start off by extracting from a text a list of word pairs, also known as **bigrams**.
 
-**>>> list(bigrams(['more', 'is', 'said', 'than', 'done']))
-[('more', 'is'), ('is', 'said'), ('said', 'than'), ('than', 'done')]**
+`list(bigrams(['more', 'is', 'said', 'than', 'done']))`
 
-## word sense disambiguation we want to work out which sense of a word was intended in a given context. we automatically disambiguate words using context, exploiting the simple fact that nearby words have closely related meanings
+`[('more', 'is'), ('is', 'said'), ('said', 'than'), ('than', 'done')]`
+
+word sense disambiguation we want to work out which sense of a word was intended in a given context. we automatically disambiguate words using context, exploiting the simple fact that nearby words have closely related meanings
 
 - *serve*: help with food or drink; hold an office; put ball into play
 - *dish*: plate; course of a meal; communications device

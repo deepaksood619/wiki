@@ -14,34 +14,36 @@ Modified: 2018-04-08 11:54:10 +0500
 
 ## Making a tuple
 
-dimensions = (1920, 1080)
+`dimensions = (1920, 1080)`
 
 ## Looping through a tuple
 
+```python
 for dimension in dimensions:
-
-print(dimensions)
+    print(dimensions)
+```
 
 ## Sort a list of tuples using key
 
+```python
 sorted_list = sorted([('abc', 121),('abc', 231),('abc', 148), ('abc',221)], key=lambda x: x[1])
 
->>> from operator import itemgetter
->>> data = [('abc', 121),('abc', 231),('abc', 148), ('abc',221)]
->>> sorted(data,key=itemgetter(1))
+from operator import itemgetter
+data = [('abc', 121),('abc', 231),('abc', 148), ('abc',221)]
+sorted(data,key=itemgetter(1))
 [('abc', 121), ('abc', 148), ('abc', 221), ('abc', 231)]
+```
 
 Using itemgetter is more faster since the computation will be done on c side rather than through the use of lambda
 
 ## Converting list to tuples
 
+```python
 A = [1, 2, 3, 4]
-
 B = tuple(A)
-
-Print(B)
-
+print(B)
 # (1, 2, 3, 4)
+```
 
 ## Alternative to classes is Named Tuples
 
@@ -51,30 +53,25 @@ A named tuple can be a built-in type such as[time.struct_time](http://library/ti
 
 Using NamedTuple is way shorter than defining a class manually
 
-## >>> from collections import namedtuple
+```python
+from collections import namedtuple
 
-## >>> Car = namedtuple('Car', 'color mileage')
+Car = namedtuple('Car', 'color mileage')
 
-# Our new "Car" class works as expected
-
-## >>>**my_car = Car('red',**3812.4)
-
-## >>> my_car.color
-
+# Our new "Car" class works as expected:
+my_car = Car('red', 3812.4)
+my_car.color
 'red'
 
-## >>> my_car.mileage
-
+my_car.mileage
 3812.4
 
-# We get a nice **string repr for free:**
-
-## >>> my_car
-
+# We get a nice string repr for free:
+my_car
 Car(color='red' , mileage=3812.4)
 
-## # Like tuples, namedtuples are immutable
+# Like tuples, namedtuples are immutable:
+my_car.color = 'blue'
 
-## >>> my_car.color = 'blue'
-
-AttributeError: "can't set attribute"
+# AttributeError: "can't set attribute"
+```

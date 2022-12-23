@@ -43,7 +43,7 @@ fdist1 = FreqDist(text1)
 fdist1.most_common(50)
 fdist1.plot(50, cumulative=True)
 
- >>> cfd = nltk.ConditionalFreqDist(
+cfd = nltk.ConditionalFreqDist(
 ...           (genre, word)
 ...           for genre in brown.categories()
 ...           for word in brown.words(categories=genre))

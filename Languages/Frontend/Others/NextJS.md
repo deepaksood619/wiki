@@ -78,6 +78,7 @@ You can also useClient-side Renderingalong with Static Generation or Server-side
 
 ## Commands
 
+```bash
 npx create-next-app nextjs-blog --use-npm --example "<https://github.com/vercel/next-learn-starter/tree/master/learn-starter>"
 
 npm run dev
@@ -89,6 +90,7 @@ yarn start # start local server
 yarn build # build a production ready deployment
 
 next export #allows you to export your app to static HTML, which can be run standalone without the need of a Node.js server.
+```
 
 ## Deployment
 

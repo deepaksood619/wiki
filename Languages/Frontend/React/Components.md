@@ -13,12 +13,13 @@ Modified: 2021-11-16 00:31:15 +0500
 ```js
 // creating a component
 const App = function() {
-return <div>Hi!</div>;
+    return <div>Hi!</div>;
 }
 
-This function can also be written using fat arrow in ES6 (terse and compact representation of keyword function)
+// This function can also be written using fat arrow in ES6 (terse and compact representation of keyword function)
+
 const App = () => {
-return <div>Hi!</div>;
+    return <div>Hi!</div>;
 }
 
 App is a type of instances. This is a const class and can have many instances. This is like a factory method
@@ -53,13 +54,12 @@ A web page can be divided into different components each one with its own file. 
 
 One component per file.
 
-## Export a component (to be imported into other files)
+```js
+// Export a component (to be imported into other files)
 
 export default SearchBar;
 
-## Import a component to a file (give the full relative path to the file)
-
-```js
+// Import a component to a file (give the full relative path to the file)
 import SearchBar from './components/search_bar';
 ```
 
@@ -67,25 +67,25 @@ import SearchBar from './components/search_bar';
 
 - Functional component (it's a function)
 
-Some info goes in, some JSX comes out.
+    Some info goes in, some JSX comes out.
 
-```js
-function Welcome(props) {
-    return <h1>Hello, {props.name}</h1>;
-}
-```
+    ```js
+    function Welcome(props) {
+        return <h1>Hello, {props.name}</h1>;
+    }
+    ```
 
 - Class component
 
-Component to have some time of internal record-keeping. Some ability to be aware of itself and know what has happenned since its been rendered.
+    Component to have some time of internal record-keeping. Some ability to be aware of itself and know what has happenned since its been rendered.
 
-```js
-class Welcome extends React.Component {
-    render() {
-        return <h1>Hello, {this.props.name}</h1>;
+    ```js
+    class Welcome extends React.Component {
+        render() {
+            return <h1>Hello, {this.props.name}</h1>;
+        }
     }
-}
-```
+    ```
 
 ## Class based component (extends React.Component)
 
