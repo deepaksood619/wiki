@@ -24,28 +24,29 @@ Silences are a straightforward way to simply mute alerts for a given time. A sil
 
 The notifications sent to receivers are constructed via templates.
 
+```yaml
 config:
 global:
-resolve_timeout: 5m
-slack_api_url: <https://hooks.slack.com/services/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>
+    resolve_timeout: 5m
+    slack_api_url: https://hooks.slack.com/services/xxx/org_id/api_key
 route:
-group_by: ['job']
-group_wait: 30s
-group_interval: 5m
-repeat_interval: 12h
-receiver: slack
-routes:
-
-- match_re:
-alertname: ^.*$
-receiver: slack
+    group_by: ['job']
+    group_wait: 30s
+    group_interval: 5m
+    repeat_interval: 12h
+    receiver: slack
+    routes:
+    - match_re:
+        alertname: ^.*$
+    receiver: slack
 receivers:
 - name: "slack"
-slack_configs:
-- send_resolved: true
-channel: "#monitor"
-title: "{{ range .Alerts }}{{ .Labels.alertname }}n{{ end }}"
-text: "{{ range .Alerts }}*Alert:* `{{ .Labels.severity }}` - {{ .Labels.alertname }} - {{ .Annotations.message }}n*Details:* {{ range .Labels.SortedPairs }} • *{{ .Name }}:* `{{ .Value }}`{{ end }}n{{ end }}"
+    slack_configs:
+    - send_resolved: true
+    channel: "#monitor"
+    title: "{{ range .Alerts }}{{ .Labels.alertname }}\n{{ end }}"
+    text: "{{ range .Alerts }}*Alert:* `{{ .Labels.severity }}` - {{ .Labels.alertname }} - {{ .Annotations.message }}\n*Details:* {{ range .Labels.SortedPairs }} • *{{ .Name }}:* `{{ .Value }}`{{ end }}\n{{ end }}"
+```
 
 ## References
 

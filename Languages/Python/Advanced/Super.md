@@ -40,7 +40,7 @@ Robot Analogy - for not wearing down the robot we use a MockRobot and use Depend
 
 When we call super in python, it's the children's ancestors that's get called and not it's own parent.
 
-help(<class>) shows MRO
+`help(<class>)` shows MRO
 
 Counter can be used to make an ordered counter, because Counter cannot be used on OrderedDict, so we can use the power of super with MRO to make an OrderedCounter
 
@@ -59,6 +59,7 @@ Problems with super
 
 ## Example
 
+```python
 class Adam(object): pass
 
 class Eve(object): pass
@@ -78,5 +79,6 @@ class Rachel(Dennis, Sharon): pass
 class Matthew(Raymond, Rachel): pass
 
 help(Matthew)
+```
 
 [Raymond Hettinger - Super considered super! - PyCon 2015](https://www.youtube.com/watch?v=EiOglTERPEo)

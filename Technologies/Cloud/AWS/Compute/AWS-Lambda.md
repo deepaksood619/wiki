@@ -21,7 +21,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 def lambda_handler(event, context):
-    webhook_url = "https://hooks.slack.com/services/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"
+    webhook_url = "https://hooks.slack.com/services/xxx/org_id/api_key"
     print(event)
     message = json.loads(event["Records"][0]["Sns"]["Message"])
     name = message["AlarmName"]

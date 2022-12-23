@@ -49,7 +49,7 @@ Cons
 
 ## Price to Earnings Ratio (P/E Ratio)
 
-The price-to-earnings ratio (P/E ratio) is the ratio for valuing a company that measures its current share price relative to its per-share earnings ([EPS](https://www.investopedia.com/terms/e/eps.asp)).The price-to-earnings ratio is also sometimes known as theprice multipleor the earningsmultiple.
+The price-to-earnings ratio (P/E ratio) is the ratio for valuing a company that measures its current share price relative to its per-share earnings ([EPS](https://www.investopedia.com/terms/e/eps.asp)). The price-to-earnings ratio is also sometimes known as the price multiple or the earnings multiple.
 
 P/E ratios are used by investors and analysts to determine the relative value of a company's shares in an apples-to-apples comparison. It can also be used to compare a company against its own historical record or to compare aggregate markets against one another or over time.
 
