@@ -59,12 +59,12 @@ bool(re.match(r'ly', 'ly how'))
 
 We can query the [match object](https://docs.python.org/3/library/re.html#match-objects) for information about the matching string.
 
-| **Method/Attribute** | **Purpose**                                                       |
-|----------------------|--------------------------------------------------|
-| group()              | Return the string matched by the RE                               |
-| start()              | Return the starting position of the match                         |
-| end()                | Return the ending position of the match                           |
-| span()               | Return a tuple containing the (start, end) positions of the match |
+| **Method/Attribute** | **Purpose** |
+|---|---|
+| group() | Return the string matched by the RE |
+| start() | Return the starting position of the match |
+| end() | Return the ending position of the match |
+| span() | Return a tuple containing the (start, end) positions of the match |
 
 Since thematch()method only checks if the RE matches at the start of a string,start()will always be zero.
 
@@ -89,7 +89,7 @@ A group expression returns one or more subgroups of the match
 
 ## groups()
 
-A*groups()*expression returns a tuple containing all the subgroups of the match.
+A *groups()* expression returns a tuple containing all the subgroups of the match.
 
 ```python
 >>> import re
@@ -100,7 +100,7 @@ A*groups()*expression returns a tuple containing all the subgroups of the match.
 
 ## groupdict()
 
-A*groupdict()*expression returns a dictionary containing all the named subgroups of the match, keyed by the subgroup name. (Used by named capture group)
+A *groupdict()* expression returns a dictionary containing all the named subgroups of the match, keyed by the subgroup name. (Used by named capture group)
 
 ```python
 >>> m = re.match(r'(?P<user>w+)@(?P<website>w+).(?P<extension>w+)','myname@hackerrank.com')
@@ -125,44 +125,21 @@ bool(re.search(r'ly', 'similarly'))
 >> True
 ```
 
-<table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 88%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>S.No.</strong></th>
-<th><strong>Parameter &amp; Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><p><strong>pattern</strong></p>
-<p>This is the regular expression to be matched.</p></td>
-</tr>
-<tr>
-<td>2</td>
-<td><p><strong>string</strong></p>
-<p>This is the string, which would be searched to match the pattern anywhere in the string.</p></td>
-</tr>
-<tr>
-<td>3</td>
-<td><p><strong>flags</strong></p>
-<p>You can specify different flags using bitwise OR (|). These are modifiers, which are listed in the table below.</p></td>
-</tr>
-</tbody>
-</table>
+| **S.No.** | **Parameter & Description** |
+|---|---|
+| 1 | `pattern` This is the regular expression to be matched. |
+| 2 | `string` This is the string, which would be searched to match the pattern anywhere in the string. |
+| 3 | `flags` You can specify different flags using `bitwise OR (\|)`. These are modifiers, which are listed in the table below. |
+
 
 The *re.search* function returns amatchobject on success,none on failure. We use *group(num)* or *groups()* function ofmatchobject to get the matched expression.
 
 ### Named Capturing Groups
 
- (?P<name>group) captures the match of group into the backreference "name"
- name must be an alphanumeric sequence starting with a letter.
- group can be any regular expression
- We can reference the contents of the group with the named backreference (?P=name)
+`(?P<name>group)` captures the match of group into the backreference "name"
+name must be an alphanumeric sequence starting with a letter.
+group can be any regular expression
+We can reference the contents of the group with the named backreference `(?P=name)`
 
 ## re.findall()
 

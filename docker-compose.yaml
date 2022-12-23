@@ -19,6 +19,8 @@ services:
             - -c
             - |
                 sleep infinity
+                # npm i -f
                 # npm run develop
+                # npm run build
         volumes:
             - .:/app/

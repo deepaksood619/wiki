@@ -7,6 +7,6 @@ WORKDIR /app
 
 #COPY . /app/
 
-#RUN cd .layouts && npm i -g npm
+#RUN cd .layouts
 
 #RUN npm i
