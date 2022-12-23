@@ -131,7 +131,6 @@ bool(re.search(r'ly', 'similarly'))
 | 2 | `string` This is the string, which would be searched to match the pattern anywhere in the string. |
 | 3 | `flags` You can specify different flags using `bitwise OR (\|)`. These are modifiers, which are listed in the table below. |
 
-
 The *re.search* function returns amatchobject on success,none on failure. We use *group(num)* or *groups()* function ofmatchobject to get the matched expression.
 
 ### Named Capturing Groups

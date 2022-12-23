@@ -89,20 +89,20 @@ Types of polymorphism
     abstract class Vehicle {
         abstract double getWeight();
     }
-    
+
     class Car extends Vehicle {
         double getWeight() { return 10.0; }
     }
-    
+
     class Truck extends Vehicle {
         double getWeight() { return 100.0; }
     }
-    
+
     class Toyota extends Car { /* ... */ }
-    
+
     static void printWeight(Vehicle v) {
         // Allowed because all vehicles have to have this method
-        System.out.println(v.getWeight()); 
+        System.out.println(v.getWeight());
     }
     ```
 
@@ -148,11 +148,11 @@ class Printer {
     ![image](media/OOPS---SOLID-image2.png)
 
     Both Scanner and Printer has the same function, so Copier will inherit which function? (Most OO language doesn't let you do that)
-    
+
 3. Fragile Base Class Problem
 
     If a parent class is changed, than child class can stop working
-    
+
 4. The Hierarchy Problem (Categorical Hierarchies)
 
     Every time I start at a new company, I struggle with the problem when I'm creating a place to put my Company Documents, e.g. the Employee Handbook. Do I create a folder called Documents and then create a folder called Company in that. Or do I create a folder called Company and then create a folder called Documents in that?
@@ -185,21 +185,22 @@ A mixin class acts as the parent class, containing the desired functionality. A 
 Delegation means that an object shall perform only what it knows best, and leave the rest to other objects.
 Delegation can be implemented with two different mechanisms: composition and inheritance. Sadly, very often only inheritance is listed among the pillars of OOP techniques, forgetting that it is an implementation of the more generic and fundamental mechanism of delegation; perhaps a better nomenclature for the two techniques could beexplicit delegation(composition) andimplicit delegation (inheritance).
 
--  **Inheritance**
-    -  Python does not implicitly call the parent implementation when you override a method.
-    -  overriding is a way to block implicit delegation.
-    
--  **Composition**
-    -  Composition means that an object knows another object, and explicitly delegates some tasks to it.
-    -  Composition provides a superior way to manage delegation since it can selectively delegate the access, even mask some attributes or methods, while inheritance cannot.
-    -  In Python you also avoid the memory problems that might arise when you put many objects inside another; Python handles everything through its reference, i.e. through a pointer to the memory position of the thing, so the size of an attribute is constant and very limited.
-    
--  **Composition over Inheritance**
+- **Inheritance**
+  - Python does not implicitly call the parent implementation when you override a method.
+  - overriding is a way to block implicit delegation.
+
+- **Composition**
+  - Composition means that an object knows another object, and explicitly delegates some tasks to it.
+  - Composition provides a superior way to manage delegation since it can selectively delegate the access, even mask some attributes or methods, while inheritance cannot.
+  - In Python you also avoid the memory problems that might arise when you put many objects inside another; Python handles everything through its reference, i.e. through a pointer to the memory position of the thing, so the size of an attribute is constant and very limited.
+
+- **Composition over Inheritance**
 
 Composition over inheritance(orcomposite reuse principle) in [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)(OOP) is the principle that classes should achieve [polymorphic](https://en.wikipedia.org/wiki/Polymorphism_(computer_science)) behavior and [code reuse](https://en.wikipedia.org/wiki/Code_reuse) by their [composition](https://en.wikipedia.org/wiki/Object_composition)(by containing instances of other classes that implement the desired functionality) rather than [inheritance](https://en.wikipedia.org/wiki/Inheritance_(computer_science)) from a base or parent class.This is an often-stated principle of OOP, such as in the influential book [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns).
 <https://en.wikipedia.org/wiki/Composition_over_inheritance>
 
 ## Monkey Patching
+
     -  A MonkeyPatch is a piece of Python code which extends or modifies other code at runtime (typically at startup).
     -  For instance, consider a class that has a methodget_data. This method does an external lookup (on a database or web API, for example), and various other methods in the class call it. However, in a unit test, you don't want to depend on the external data source - so you dynamically replace theget_datamethod with a stub that returns some fixed data.
     -  Because Python classes are mutable, and methods are just attributes of the class, you can do this as much as you like - and, in fact, you can even replace classes and functions in a module in exactly the same way.
@@ -247,11 +248,11 @@ According to the popular guide [Unified Process](https://en.wikipedia.org/wiki/U
 
     A class should have one and only one reason to change, meaning that a class should have only one job
 
-2.  **Open Closed Principle**
+2. **Open Closed Principle**
 
     Objects or entities should be open for extension, but closed for modification
 
-3.  **Liskov Substitution Principle**
+3. **Liskov Substitution Principle**
 
     Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
 
@@ -259,20 +260,20 @@ According to the popular guide [Unified Process](https://en.wikipedia.org/wiki/U
 
     All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
-4.  **Interface Segregation Principle**
+4. **Interface Segregation Principle**
 
     Many client-specific interfaces are better than one general-purpose interface
 
     A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
 
-5.  **Dependency Inversion principle**
+5. **Dependency Inversion principle**
 
     Entities must depend on abstractions not on concretions
-    
+
     It states that the high level module must not depend on the low level module, but they should depend on abstractions.
-    
+
     The dependency inversion principle tells us that we should always try to have dependencies on interfaces (or Abstract Classes), not classes.
-    
+
     <https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency>
 
     <https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design>

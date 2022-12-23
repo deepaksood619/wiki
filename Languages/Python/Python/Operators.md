@@ -111,8 +111,8 @@ b = 0000 1101
 | 4 | `+ -` Addition and subtraction |
 | 5 | `>> <<` Right and left bitwise shift |
 | 6 | `&` Bitwise 'AND' |
-| 7 | `^ \|` Bitwise exclusive `OR' and regular `OR' |
-| 8 | ` >=` Comparison operators |
+| 7 | `^ \|` Bitwise exclusive `OR' and regular`OR' |
+| 8 | `>=` Comparison operators |
 | 9 | `<> == !=` Equality operators |
 | 10 | `= %= /= //= -= += *=**=` Assignment operators |
 | 11 | `is is not` Identity operators |

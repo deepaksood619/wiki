@@ -20,7 +20,7 @@ Platforms
 7 6 5
 ```
 
--  Divide a number into perfect grid with minimum waste where number of column is fixed.
+- Divide a number into perfect grid with minimum waste where number of column is fixed.
 
 Ex - 19 should return 4/5 instead of 3/7
 
@@ -34,23 +34,23 @@ Ex - 19 should return 4/5 instead of 3/7
 ### Python
 
 ```python
-def toString(List): 
-    return ''.join(List) 
-    
-def permute(a, l, r): 
-    if l==r: 
+def toString(List):
+    return ''.join(List)
+
+def permute(a, l, r):
+    if l==r:
         print(toString(a))
-    else: 
-        for i in range(l,r+1): 
-            a[l], a[i] = a[i], a[l] 
+    else:
+        for i in range(l,r+1):
+            a[l], a[i] = a[i], a[l]
             permute(a, l+1, r)
             a[l], a[i] = a[i], a[l]
-    
-# Driver program to test the above function 
+
+# Driver program to test the above function
 string = "ABC"
-n = len(string) 
-a = list(string) 
-permute(a, 0, n-1) 
+n = len(string)
+a = list(string)
+permute(a, 0, n-1)
 ```
 
 ## 2 Java
@@ -127,13 +127,14 @@ Example - For n = 6 return [0,1,1,2,3,5]
 Example - `For n = 5 return 120`
 
 Driver function
+
 ```python
 n = 10000000
 for i in range(0, n):
     print ( fact (random(0, n) )
 ```
 
--  Write a recursive based solution
+- Write a recursive based solution
 - Can you convert this recursion into non-recursive code (using for/while)
 - How can you improve on the current solution (Hint: DP)
 
@@ -202,6 +203,7 @@ END IF
 This solution results in a complexity of O(log k).
 
 ## Others
+
 - Topological sort
 - Dag resolving (DAG)
 - Traversals (BFS, DFS, Pre, Post, in)
@@ -244,6 +246,7 @@ This solution results in a complexity of O(log k).
 - Balanced parenthesis problem
 
 ### Question - stocks
+
 Writing programming interview questions hasn't made me rich yet ... so I might give up and start trading Apple stocks all day instead
 
 First, I wanna know how much money Icould havemade yesterday if I'd been trading Apple stocks all day.
@@ -276,7 +279,7 @@ No "shorting"---you need to buy before you can sell. Also, you can't buyandsell 
 
 ```python
 def best_profit_from_stock(stock_prices):
-    profit = 0 
+    profit = 0
     if stock_prices:
         min_stock = stock_prices[0]
         for i in range(1, len(stock_prices)):

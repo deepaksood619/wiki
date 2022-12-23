@@ -190,6 +190,7 @@ def call_sms_model(cust_id):
 ```
 
 ### tasks_runner.py
+
 ```python
 import rpqueue
 

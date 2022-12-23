@@ -9,6 +9,7 @@ Modified: 2020-06-14 16:32:26 +0500
 ## Topics
 
 ### Java
+
 - Java Collections Framework
 - Difference between HashSet and HashMap
 - Dependency Injection
@@ -17,6 +18,7 @@ Modified: 2020-06-14 16:32:26 +0500
 - Interface
 
 ### View Patterns
+
 - MVC
 - MVVM
 
@@ -649,7 +651,7 @@ A thread is a execution in a program. The life cycle of a thread include −
 4. Blocked state
 5. Dead state
 
-#**What is the difference between the `>>` and `>>>` operators?**
+# **What is the difference between the `>>` and `>>>` operators?**
 
 The `>>` operator carries the sign bit when shifting right. The `>>>` zero-fills bits that have been shifted out.
 

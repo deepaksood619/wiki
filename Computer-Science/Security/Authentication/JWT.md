@@ -150,7 +150,7 @@ async def login(request):
         user.match_password(post_data['password'])
     except (User.DoesNotExist, User.PasswordDoesNotMatch):
         return json_response({'message': 'Wrong credentials'}, status=400)
-    
+
     payload = {
         'user_id': user.id,
         'exp': datetime.utcnow() + timedelta(seconds=JWT_EXP_DELTA_SECONDS)
@@ -160,8 +160,8 @@ async def login(request):
 
 app = web.Application()
 app.router.add_route('POST', '/login', login)
-		
-		
+
+
 # Auth Middleware
 async def get_user(request):
 return json_response({'user': str(request.user)})

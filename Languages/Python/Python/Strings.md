@@ -22,261 +22,60 @@ print(f'{now=:Y-%m-%d}')
 
 ## String Constants
 
-#### string.ascii_letters
-
-#### string.ascii_lowercase
-
-#### string.ascii_uppercase
-
-#### string.digits
-
-#### string.hexdigits
-
-#### string.octdigits
-
-#### string.punctuation
-
-#### string.printable
-
-#### string.whitespace
+- string.ascii_letters
+- string.ascii_lowercase
+- string.ascii_uppercase
+- string.digits
+- string.hexdigits
+- string.octdigits
+- string.punctuation
+- string.printable
+- string.whitespace
 
 ## Built-in String Methods
 
-<table>
-<colgroup>
-<col style="width: 7%" />
-<col style="width: 92%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>1</th>
-<th><p><a href="https://www.tutorialspoint.com/python/string_capitalize.htm"><strong>capitalize()</strong></a></p>
-<p>Capitalizes first letter of string</p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_center.htm"><strong>center(width, fillchar)</strong></a></p>
-<p>Returns a space-padded string with the original string centered to a total of width columns.</p>
-<p>`>``>``>` width = 20<br
-`>``>``>` print 'HackerRank'.center(width,'-')<br
------HackerRank-----</p></td>
-</tr>
-<tr>
-<td>3</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_count.htm"><strong>count(str, beg= 0,end=len(string))</strong></a></p>
-<p>Counts how many times str occurs in string or in a substring of string if starting index beg and ending index end are given.</p></td>
-</tr>
-<tr>
-<td>4</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_decode.htm"><strong>decode(encoding='UTF-8',errors='strict')</strong></a></p>
-<p>Decodes the string using the codec registered for encoding. encoding defaults to the default string encoding.</p></td>
-</tr>
-<tr>
-<td>5</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_encode.htm"><strong>encode(encoding='UTF-8',errors='strict')</strong></a></p>
-<p>Returns encoded string version of string; on error, default is to raise a ValueError unless errors is given with 'ignore' or 'replace'.</p></td>
-</tr>
-<tr>
-<td>6</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_endswith.htm"><strong>endswith(suffix, beg=0, end=len(string))</strong></a></p>
-<p>Determines if string or a substring of string (if starting index beg and ending index end are given) ends with suffix; returns true if so and false otherwise.</p></td>
-</tr>
-<tr>
-<td>7</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_expandtabs.htm"><strong>expandtabs(tabsize=8)</strong></a></p>
-<p>Expands tabs in string to multiple spaces; defaults to 8 spaces per tab if tabsize not provided.</p></td>
-</tr>
-<tr>
-<td>8</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_find.htm"><strong>find(str, beg=0 end=len(string))</strong></a></p>
-<p>Determine if str occurs in string or in a substring of string if starting index beg and ending index end are given returns index if found and -1 otherwise.</p></td>
-</tr>
-<tr>
-<td>9</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_index.htm"><strong>index(str, beg=0, end=len(string))</strong></a></p>
-<p>Same as find(), but raises an exception if str not found.</p></td>
-</tr>
-<tr>
-<td>10</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isalnum.htm"><strong>isalnum()</strong></a></p>
-<p>Returns true if string has at least 1 character and all characters are alphanumeric and false otherwise.</p></td>
-</tr>
-<tr>
-<td>11</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isalpha.htm"><strong>isalpha()</strong></a></p>
-<p>Returns true if string has at least 1 character and all characters are alphabetic and false otherwise.</p></td>
-</tr>
-<tr>
-<td>12</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isdigit.htm"><strong>isdigit()</strong></a></p>
-<p>Returns true if string contains only digits and false otherwise. (works only for positive natural numbers)</p>
-<p>Ex -</p>
-<p>`>``>``>`'1234'.isdigit()</p>
-<p>True</p>
-<p>`>``>``>`'-1234'.isdigit()</p>
-<p>False</p></td>
-</tr>
-<tr>
-<td>13</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_islower.htm"><strong>islower()</strong></a></p>
-<p>Returns true if string has at least 1 cased character and all cased characters are in lowercase and false otherwise.</p></td>
-</tr>
-<tr>
-<td>14</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isnumeric.htm"><strong>isnumeric()</strong></a></p>
-<p>Returns true if a unicode string contains only numeric characters and false otherwise.</p></td>
-</tr>
-<tr>
-<td>15</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isspace.htm"><strong>isspace()</strong></a></p>
-<p>Returns true if string contains only whitespace characters and false otherwise.</p></td>
-</tr>
-<tr>
-<td>16</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_istitle.htm"><strong>istitle()</strong></a></p>
-<p>Returns true if string is properly "titlecased" and false otherwise.</p></td>
-</tr>
-<tr>
-<td>17</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isupper.htm"><strong>isupper()</strong></a></p>
-<p>Returns true if string has at least one cased character and all cased characters are in uppercase and false otherwise.</p></td>
-</tr>
-<tr>
-<td>18</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_join.htm"><strong>join(seq)</strong></a></p>
-<p>Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string.</p>
-<p>s = "-";<br
-seq = ("a", "b", "c"); # This is sequence of strings.<br
-print s.join( seq )</p>
-<p></p>
-<p>Also lists can also be joined</p>
-<p><strong>Most effecient way to join strings</strong></p>
-<p><a href="https://waymoot.org/home/python_string/">https://waymoot.org/home/python_string/</a></p></td>
-</tr>
-<tr>
-<td>19</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_len.htm"><strong>len(string)</strong></a></p>
-<p>Returns the length of the string</p></td>
-</tr>
-<tr>
-<td>20</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_ljust.htm"><strong>ljust(width[, fillchar])</strong></a></p>
-<p>Returns a space-padded string with the original string left-justified to a total of width columns.</p>
-<p>`>``>``>` width = 20<br
-`>``>``>` print 'HackerRank'.ljust(width,'-')<br
-HackerRank----------</p></td>
-</tr>
-<tr>
-<td>21</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_lower.htm"><strong>lower()</strong></a></p>
-<p>Converts all uppercase letters in string to lowercase.</p></td>
-</tr>
-<tr>
-<td>22</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_lstrip.htm"><strong>lstrip()</strong></a></p>
-<p>Removes all leading whitespace in string.</p></td>
-</tr>
-<tr>
-<td>23</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_maketrans.htm"><strong>maketrans()</strong></a></p>
-<p>Returns a translation table to be used in translate function.</p>
-<p></p>
-<p>Ex - document = document.translate(str.maketrans('','',string.punctuation))</p></td>
-</tr>
-<tr>
-<td>24</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_max.htm"><strong>max(str)</strong></a></p>
-<p>Returns the max alphabetical character from the string str.</p></td>
-</tr>
-<tr>
-<td>25</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_min.htm"><strong>min(str)</strong></a></p>
-<p>Returns the min alphabetical character from the string str.</p></td>
-</tr>
-<tr>
-<td>26</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_replace.htm"><strong>replace(old, new [, max])</strong></a></p>
-<p>Replaces all occurrences of old in string with new or at most max occurrences if max given.</p></td>
-</tr>
-<tr>
-<td>27</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_rfind.htm"><strong>rfind(str, beg=0,end=len(string))</strong></a></p>
-<p>Same as find(), but search backwards in string.</p></td>
-</tr>
-<tr>
-<td>28</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_rindex.htm"><strong>rindex( str, beg=0, end=len(string))</strong></a></p>
-<p>Same as index(), but search backwards in string.</p></td>
-</tr>
-<tr>
-<td>29</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_rjust.htm"><strong>rjust(width, [, fillchar])</strong></a></p>
-<p>Returns a space-padded string with the original string right-justified to a total of width columns.</p>
-<p>`>``>``>` width = 20<br
-`>``>``>` print 'HackerRank'.rjust(width,'-')<br
-----------HackerRank</p></td>
-</tr>
-<tr>
-<td>30</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_rstrip.htm"><strong>rstrip()</strong></a></p>
-<p>Removes all trailing whitespace of string.</p></td>
-</tr>
-<tr>
-<td>31</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_split.htm"><strong>split(str="", num=string.count(str))</strong></a></p>
-<p>Splits string according to delimiter str (space if not provided) and returns list of substrings; split into at most num substrings if given.</p></td>
-</tr>
-<tr>
-<td>32</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_splitlines.htm"><strong>splitlines( num=string.count('n'))</strong></a></p>
-<p>Splits string at all (or num) NEWLINEs and returns a list of each line with NEWLINEs removed.</p></td>
-</tr>
-<tr>
-<td>33</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_startswith.htm"><strong>startswith(str, beg=0,end=len(string))</strong></a></p>
-<p>Determines if string or a substring of string (if starting index beg and ending index end are given) starts with substring str; returns true if so and false otherwise.</p></td>
-</tr>
-<tr>
-<td>34</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_strip.htm"><strong>strip([chars])</strong></a></p>
-<p>Performs both lstrip() and rstrip() on string.</p></td>
-</tr>
-<tr>
-<td>35</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_swapcase.htm"><strong>swapcase()</strong></a></p>
-<p>Inverts case for all letters in string. (Numbers ignored)</p></td>
-</tr>
-<tr>
-<td>36</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_title.htm"><strong>title()</strong></a></p>
-<p>Returns "titlecased" version of string, that is, all words begin with uppercase and the rest are lowercase.</p></td>
-</tr>
-<tr>
-<td>37</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_translate.htm"><strong>translate(table, deletechars="")</strong></a></p>
-<p>Translates string according to translation table str(256 chars), removing those in the del string.</p>
-<p></p>
-<p>Ex - document = document.translate(str.maketrans('','',string.punctuation))</p></td>
-</tr>
-<tr>
-<td>38</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_upper.htm"><strong>upper()</strong></a></p>
-<p>Converts lowercase letters in string to uppercase.</p></td>
-</tr>
-<tr>
-<td>39</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_zfill.htm"><strong>zfill (width)</strong></a></p>
-<p>Returns original string leftpadded with zeros to a total of width characters; intended for numbers, zfill() retains any sign given (less one zero).</p></td>
-</tr>
-<tr>
-<td>40</td>
-<td><p><a href="https://www.tutorialspoint.com/python/string_isdecimal.htm"><strong>isdecimal()</strong></a></p>
-<p>Returns true if a unicode string contains only decimal characters and false otherwise.</p></td>
-</tr>
-</tbody>
-</table>
+| **Sr.No.** | **Methods with Description** |
+|---|---|
+| 1 | `capitalize()` - Capitalizes first letter of string |
+| 2 | `center(width, fillchar)` - Returns a space-padded string with the original string centered to a total of width columns. |
+| 3 | `count(str, beg= 0,end=len(string))` - Counts how many times str occurs in string or in a substring of string if starting index beg and ending index end are given. |
+| 4 | `decode(encoding='UTF-8',errors='strict')` - Decodes the string using the codec registered for encoding. encoding defaults to the default string encoding. |
+| 5 | `encode(encoding='UTF-8',errors='strict')` - Returns encoded string version of string; on error, default is to raise a ValueError unless errors is given with 'ignore' or 'replace'. |
+| 6 | `endswith(suffix, beg=0, end=len(string))` - Determines if string or a substring of string (if starting index beg and ending index end are given) ends with suffix; returns true if so and false otherwise. |
+| 7 | `expandtabs(tabsize=8)` - Expands tabs in string to multiple spaces; defaults to 8 spaces per tab if tabsize not provided. |
+| 8 | `find(str, beg=0 end=len(string))` - Determine if str occurs in string or in a substring of string if starting index beg and ending index end are given returns index if found and -1 otherwise. |
+| 9 | `index(str, beg=0, end=len(string))` - Same as find(), but raises an exception if str not found. |
+| 10 | `isalnum()` - Returns true if string has at least 1 character and all characters are alphanumeric and false otherwise. |
+| 11 | `isalpha()` - Returns true if string has at least 1 character and all characters are alphabetic and false otherwise. |
+| 12 | `isdigit()` - Returns true if string contains only digits and false otherwise. |
+| 13 | `islower()` - Returns true if string has at least 1 cased character and all cased characters are in lowercase and false otherwise. |
+| 14 | `isnumeric()` - Returns true if a unicode string contains only numeric characters and false otherwise. |
+| 15 | `isspace()` - Returns true if string contains only whitespace characters and false otherwise. |
+| 16 | `istitle()` - Returns true if string is properly "titlecased" and false otherwise. |
+| 17 | `isupper()` - Returns true if string has at least one cased character and all cased characters are in uppercase and false otherwise. |
+| 18 | `join(seq)` - Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string. |
+| 19 | `len(string)` - Returns the length of the string |
+| 20 | `ljust(width[, fillchar])` - Returns a space-padded string with the original string left-justified to a total of width columns. |
+| 21 | `lower()` - Converts all uppercase letters in string to lowercase. |
+| 22 | `lstrip()` - Removes all leading whitespace in string. |
+| 23 | `maketrans()` - Returns a translation table to be used in translate function. |
+| 24 | `max(str)` - Returns the max alphabetical character from the string str. |
+| 25 | `min(str)` - Returns the min alphabetical character from the string str. |
+| 26 | `replace(old, new [, max])` - Replaces all occurrences of old in string with new or at most max occurrences if max given. |
+| 27 | `rfind(str, beg=0,end=len(string))` - Same as find(), but search backwards in string. |
+| 28 | `rindex( str, beg=0, end=len(string))` - Same as index(), but search backwards in string. |
+| 29 | `rjust(width,[, fillchar])` - Returns a space-padded string with the original string right-justified to a total of width columns. |
+| 30 | `rstrip()` - Removes all trailing whitespace of string. |
+| 31 | `split(str="", num=string.count(str))` - Splits string according to delimiter str (space if not provided) and returns list of substrings; split into at most num substrings if given. |
+| 32 | `splitlines( num=string.count('\n'))` - Splits string at all (or num) NEWLINEs and returns a list of each line with NEWLINEs removed. |
+| 33 | `startswith(str, beg=0,end=len(string))` - Determines if string or a substring of string (if starting index beg and ending index end are given) starts with substring str; returns true if so and false otherwise. |
+| 34 | `strip([chars])` - Performs both lstrip() and rstrip() on string. |
+| 35 | `swapcase()` - Inverts case for all letters in string. |
+| 36 | `title()` - Returns "titlecased" version of string, that is, all words begin with uppercase and the rest are lowercase. |
+| 37 | `translate(table, deletechars="")` - Translates string according to translation table str(256 chars), removing those in the del string. |
+| 38 | `upper()` - Converts lowercase letters in string to uppercase. |
+| 39 | `zfill (width)` - Returns original string leftpadded with zeros to a total of width characters; intended for numbers, zfill() retains any sign given (less one zero). |
+| 40 | `isdecimal()` - Returns true if a unicode string contains only decimal characters and false otherwise. |
 
 ## String Formating
 
