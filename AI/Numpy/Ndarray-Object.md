@@ -41,31 +41,31 @@ Thendarrayobject consists of contiguous one-dimensional segment of computer memo
 ## Examples
 
 ```python
->>> import numpy as np
->>> a = np.array([1,2,3])
->>> print a
+import numpy as np
+a = np.array([1,2,3])
+print a
 
 [1, 2, 3]
 
 # more than one dimensions
->>> import numpy as np
->>> a = np.array([[1, 2], [3, 4]])
->>> print a
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+print a
 
 [[1, 2]
 [3, 4]]
 
 # minimum dimensions
->>> import numpy as np
->>> a = np.array([1, 2, 3,4,5], ndmin = 2)
->>> print a
+import numpy as np
+a = np.array([1, 2, 3,4,5], ndmin = 2)
+print a
 
 [[1, 2, 3, 4, 5]]
 
 # dtype parameter
->>> import numpy as np
->>> a = np.array([1, 2, 3], dtype = complex)
->>> print a
+import numpy as np
+a = np.array([1, 2, 3], dtype = complex)
+print a
 
 [ 1.+0.j, 2.+0.j, 3.+0.j]
 ```

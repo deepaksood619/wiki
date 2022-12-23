@@ -121,12 +121,17 @@ Store your JWT in cookies for web applications, because of the additional securi
 ## pyjwt
 
 PyJWTis a Python library which allows you to encode and decode JSON Web Tokens (JWT). JWT is an open, industry-standard ([RFC 7519](https://tools.ietf.org/html/rfc7519)) for representing claims securely between two parties.
-$ pip install pyjwt
->>> encoded_jwt = jwt.encode({"some": "payload"}, "secret", algorithm="HS256")
->>> print(encoded_jwt)
-eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U
->>> jwt.decode(encoded_jwt, "secret", algorithms=["HS256"])
+
+```bash
+pip install pyjwt
+
+encoded_jwt = jwt.encode({"some": "payload"}, "secret", algorithm="HS256")
+print(encoded_jwt)
+# eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzb21lIjoicGF5bG9hZCJ9.Joh1R2dYzkRvDkqv3sygm5YyK8Gi4ShZqbhK2gxcs2U
+
+jwt.decode(encoded_jwt, "secret", algorithms=["HS256"])
 {'some': 'payload'}
+```
 
 ## Example
 
@@ -139,42 +144,40 @@ JWT_ALGORITHM = 'HS256'
 JWT_EXP_DELTA_SECONDS = 20
 
 async def login(request):
-post_data = await request.post()
-
-try:
-user = User.objects.get(email=post_data ['email'])
-user.match_password(post_data ['password'])
-except (User.DoesNotExist, User.PasswordDoesNotMatch):
-return json_response({'message': 'Wrong credentials'}, status=400)
-
-payload = {
-'user_id': user.id,
-'exp': datetime.utcnow() + timedelta(seconds=JWT_EXP_DELTA_SECONDS)
-}
-jwt_token = jwt.encode(payload, JWT_SECRET, JWT_ALGORITHM)
-return json_response({'token': jwt_token.decode('utf-8')})
+    post_data = await request.post()
+    try:
+        user = User.objects.get(email=post_data['email'])
+        user.match_password(post_data['password'])
+    except (User.DoesNotExist, User.PasswordDoesNotMatch):
+        return json_response({'message': 'Wrong credentials'}, status=400)
+    
+    payload = {
+        'user_id': user.id,
+        'exp': datetime.utcnow() + timedelta(seconds=JWT_EXP_DELTA_SECONDS)
+    }
+    jwt_token = jwt.encode(payload, JWT_SECRET, JWT_ALGORITHM)
+    return json_response({'token': jwt_token.decode('utf-8')})
 
 app = web.Application()
-app.router.add_route('POST', '/login', login)**# Auth Middleware**
-
+app.router.add_route('POST', '/login', login)
+		
+		
+# Auth Middleware
 async def get_user(request):
 return json_response({'user': str(request.user)})
-
 async def auth_middleware(app, handler):
 async def middleware(request):
 request.user = None
 jwt_token = request.headers.get('authorization', None)
 if jwt_token:
-try:
-payload = jwt.decode(jwt_token, JWT_SECRET,
-algorithms=[JWT_ALGORITHM])
-except (jwt.DecodeError, jwt.ExpiredSignatureError):
-return json_response({'message': 'Token is invalid'}, status=400)
-
-request.user = User.objects.get(id=payload ['user_id'])
+    try:
+        payload = jwt.decode(jwt_token, JWT_SECRET,
+                                algorithms=[JWT_ALGORITHM])
+    except (jwt.DecodeError, jwt.ExpiredSignatureError):
+        return json_response({'message': 'Token is invalid'}, status=400)
+request.user = User.objects.get(id=payload['user_id'])
 return await handler(request)
 return middleware
-
 app = web.Application(middlewares=[auth_middleware])
 app.router.add_route('GET', '/get-user', get_user)
 ```

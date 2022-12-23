@@ -105,7 +105,7 @@ Modified: 2020-04-08 18:53:59 +0500
 
 - [TypeORM](https://docs.nestjs.com/recipes/sql-typeorm)
 
-<https://typeorm.io/>
+<https://typeorm.io>
 
 <https://github.com/typeorm/typeorm>
 

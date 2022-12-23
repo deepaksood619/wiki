@@ -482,7 +482,7 @@ $1$2/>
 
 <https://regexone.com>
 
-<http://play.inginf.units.it/>
+<http://play.inginf.units.it>
 
 ## Others
 

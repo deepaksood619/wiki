@@ -155,10 +155,10 @@ The parameters are
 ### Example
 
 ```python
->>> import numpy as np
+import numpy as np
 
->>> student = np.dtype([('name','S20'), ('age', 'i1'), ('marks', 'f4')])
->>> a = np.array([('abc', 21, 50),('xyz', 18, 75)], dtype = student)
+student = np.dtype([('name','S20'), ('age', 'i1'), ('marks', 'f4')])
+a = np.array([('abc', 21, 50),('xyz', 18, 75)], dtype = student)
 >>> print (a)
 
 [('abc', 21, 50.0), ('xyz', 18, 75.0)]

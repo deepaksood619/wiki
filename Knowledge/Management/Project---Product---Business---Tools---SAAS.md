@@ -120,7 +120,9 @@ Mailman (batches incoming email and keeps brain from getting distracted by the e
 
 26. <https://attentioninsight.com>
 
-<https://github.com/ripienaar/free-for-dev> <https://free-for.dev/>
+<https://github.com/ripienaar/free-for-dev>
+
+<https://free-for.dev>
 
 The tools of a successful product manager
 

@@ -54,41 +54,32 @@ The key features are:
 - Start simple: The simplest example adds only 2 lines of code to your app:1 import, 1 function call.
 - Grow large: Grow in complexity as much as you want, create arbitrarily complex trees of commands and groups of subcommands, with options and arguments.
 
-test.py
-
+```python
+# test.py
 import typer
-
 app = typer.Typer()
 
 @app.command()
-
 def hello(name: str):
-
-typer.echo(f"Hello {name}")
+    typer.echo(f"Hello {name}")
 
 @app.command()
-
 def goodbye(name: str, formal: bool = False):
+    if formal:
+        typer.echo(f"Goodbye Mr. {name}. Have a good day.")
+    else:
+        typer.echo(f"Bye {name}!")
 
-if formal:
-
-typer.echo(f"Goodbye Mr. {name}. Have a good day.")
-
-else:
-
-typer.echo(f"Bye {name}!")
-
-if **name** == "**main**":
-
+if __name__ == "__main__":
 app()
+```
 
+```bash
 python test.py --help
-
 python test.py hello Deepak
-
 python test.py goodbye Deepak
-
 python test.py goodbye --formal Deepak
+```
 
 <https://typer.tiangolo.com>
 
@@ -98,17 +89,17 @@ python test.py goodbye --formal Deepak
 
 As a result, the resulting syntax is quite pleasant (in my opinion, at least); it resembles code you'd write with any other microframework (Flask, CherryPy, for example) with just a fewasyncsprinkled in:
 
+```python
 from sanic import Sanic
 from sanic.response import json
-
 app = Sanic()
-
 @app.route("/")
 async def test(request):
-return json({"hello": "world"})
+    return json({"hello": "world"})
 
-if **name** == "**main**":
-app.run(host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
+```
 
 Sanic is arguably the most popular and most loved async framework in the Python world. It has almost all features that you'd want for your projects --- routing, middleware, cookies, versioning, blueprints, class-based views, static files, streaming, sockets, etc. --- and what it doesn't offer out of the box --- templating, database support, file I/O, queues --- can be added as there are just enough async libraries for these as of today.
 
@@ -126,16 +117,16 @@ As you can see, Vibora claims to be several times faster than the classic framew
 
 Although in syntax and features, Vibora is comparable to Sanic (or maybe even slightly better as it bundles popular libraries and things like templating are available out of the box), I'd consider Sanic to be more mature as it's been around longer and has a bigger community.
 
+```python
 from vibora import Vibora, JsonResponse
-
 app = Vibora()
-
 @app.route('/')
 async def home():
-return JsonResponse({'hello': 'world'})
+    return JsonResponse({'hello': 'world'})
 
-if **name** == '**main**':
-app.run(host="0.0.0.0", port=8000)
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=8000)
+```
 
 If you're a performance junkie, though, Vibora might float your boat.
 

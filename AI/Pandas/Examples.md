@@ -9,8 +9,8 @@ Modified: 2020-03-13 16:27:24 +0500
 ```python
 ## Loading a csv in pandas
 
-## import pandas as pd
-## import numpy as np
+import pandas as pd
+import numpy as np
 
 df = pd.read_csv('pandas_dataframe_importing_csv/example.csv')
 print(df)

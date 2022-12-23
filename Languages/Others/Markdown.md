@@ -276,6 +276,8 @@ It gets compiled to JavaScript that you can use in any framework that supports J
 
 [Markdown vs. HTML – What Makes the Most Powerful Notes Editor?](https://www.thebrain.com/blog/markdown-vs-html)
 
+<https://www.markdownguide.org/basic-syntax>
+
 # Markdown Linter and Fixer
 
 [GitHub - igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)

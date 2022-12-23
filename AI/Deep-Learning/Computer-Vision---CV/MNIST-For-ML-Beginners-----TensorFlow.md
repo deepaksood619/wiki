@@ -123,11 +123,11 @@ To do efficient numerical computing in Python, we typically use libraries like [
 TensorFlow also does its heavy lifting outside Python, but it takes things a step further to avoid this overhead. Instead of running a single expensive operation independently from Python, TensorFlow lets us describe a graph of interacting operations that run entirely outside Python. (Approaches like this can be seen in a few machine learning libraries.)
 
 ```python
-To use TensorFlow, first we need to import it.
+# To use TensorFlow, first we need to import it.
 
 import tensorflow as tf
 
-We describe these interacting operations by manipulating symbolic variables. Let's create one:
+# We describe these interacting operations by manipulating symbolic variables. Let's create one:
 
 x = tf.placeholder(tf.float32, [None, 784])
 ```
