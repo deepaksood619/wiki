@@ -19,9 +19,10 @@ The open platform for beautiful analytics and monitoring (open source software f
 - 17 apps
 - 776 dashboards
 
+```bash
 docker run --rm --name=grafana --net=influxdb -p 3000:3000 grafana/grafana
-
 docker run --rm --name=grafana -p 3000:3000 grafana/grafana
+```
 
 ## Dashboards
 
@@ -137,17 +138,17 @@ Dashboards can be tagged, and the Dashboard picker provides quick, searchable ac
 | st         | Open search in tags view        |
 | esc        | Exit edit/setting views         |
 
-| **Dashboard** |                                              |
-|---------------|-----------------------------------------------|
-| mod+s         | Save dashboard                                |
-| dr            | Refresh all panels                            |
-| ds            | Dashboard settings                            |
-| dv            | Toggle in-active / view mode                  |
-| dk            | Toggle kiosk mode (hides top nav)             |
-| dE            | Expand all rows                               |
-| dC            | Collapse all rows                             |
-| da            | Toggle auto fit panels (experimental feature) |
-| mod+o         | Toggle shared graph crosshair                 |
+| **Dashboard** |  |
+|---|---|
+| mod+s | Save dashboard |
+| dr | Refresh all panels |
+| ds | Dashboard settings |
+| dv | Toggle in-active / view mode |
+| dk | Toggle kiosk mode (hides top nav) |
+| dE | Expand all rows |
+| dC | Collapse all rows |
+| da | Toggle auto fit panels (experimental feature) |
+| mod+o | Toggle shared graph crosshair |
 
 | **Focused Panel** |                             |
 |-------------------|------------------------------|
@@ -166,13 +167,12 @@ Dashboards can be tagged, and the Dashboard picker provides quick, searchable ac
 
 ## Plugins
 
+```bash
 grafana-cli plugins list-remote
-
 grafana-cli plugins install <plugin-id>
-
 grafana-cli plugins install <plugin-id> <version>
-
 grafana-cli plugins ls
+```
 
 <http://docs.grafana.org/guides/basic_concepts>
 
@@ -203,7 +203,7 @@ Loki is like Prometheus, but for logs: we prefer a multidimensional label-based 
 
 Don't be surprised if you don't find this acronym, it is mostly known as Grafana Loki. Anyway, this stack is getting good popularity due to its opinionated design decisions. You might know about Grafana which is a popular visualization tool. Grafana labs designed **Loki** which is a horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. It indexes only metadata and doesn't index the content of the log. This design decision makes it very cost-effective and easy to operate.
 
-## Promtailis an agent that ships the logs from the local system to the Loki cluster.Grafanais the visualization tool which consumes data from Loki data sources
+### Promtailis an agent that ships the logs from the local system to the Loki cluster.Grafanais the visualization tool which consumes data from Loki data sources
 
 ![OGrafana Grafana Loki Prom tail Logs ](../../media/DevOps-Monitoring-Grafana-image1.png)
 
@@ -229,33 +229,33 @@ Below is the breakdown of the Loki (Microservice model).
 
 ## Components
 
-## Promtail
+### Promtail
 
 This is the agent which is installed on the nodes (as Daemonset), it pulls the logs from the jobs and talks to Kubernetes API server to get the metadata and use this information to tag the logs. Then it forwards the log to Loki central service. The agents support the same labelling rules as Prometheus to make sure the metadata matches.
 
-## Distributor
+### Distributor
 
 Promtail sends logs to the distributor which acts as a buffer. To handle millions of writes, it batches the inflow and compresses it in chunks as they come in. There are multiple ingesters, the logs belonging to each stream would end up in the same ingester for all relevant entries in the same chunk. This is done using the ring of ingesters and consistent hashing. To provide resiliency and redundancy, it doesn(default 3) times.
 
-## Ingester
+### Ingester
 
 As the chunks come in, they are gzipped and appended with logs. Once the chunk fills up, the chunk is flushed to the database. The metadata goes into Index and log chunk data goes into Chunks (usually an Object store). After flushing, ingester creates a new chunk and add new entries in to that.
 
-![Once the chunk "fills up", we flush it to the database](../../media/DevOps-Monitoring-Grafana-image5.png)
+![image](../../media/DevOps-Monitoring-Grafana-image5.png)
 
-## Index
+### Index
 
 Index is the database like DynamoDB, Cassandra, Google Bigtable, etc.
 
-## Chunks
+### Chunks
 
 Chunk of logs in a compressed format is stored in the object stores like S3
 
-## Querier
+### Querier
 
 This is in the read path and does all the heavy lifting. Given the time range and label selector, it looks at the index to figure out which are the matching chunks. Then it reads through those chunks and greps for the result.
 
-## Storage
+### Storage
 
 Unlike other logging systems, Loki is built around the idea of only indexing metadata about your logs: labels (just like Prometheus labels). Log data itself is then compressed and stored in chunks in object stores such as S3 or GCS, or even locally on the filesystem. A small index and highly compressed chunks simplifies the operation and significantly lowers the cost of Loki.
 
@@ -300,10 +300,10 @@ There are two types of LogQL queries:
 
 ## Examples
 
+```bash
 {container="decision-engine"} != "get_device_sms_score" |= "get_device_sms"
-
 |= "2985892"
-
 rate({app="reminder-messages-sms-consumer"}[5m])
+```
 
 <https://grafana.com/docs/loki/latest/logql>
