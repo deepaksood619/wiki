@@ -99,6 +99,7 @@ Cmd + Shift + A + Enter (to cycle between tabs)
 18. ~~Alfred~~
 19. **Android file transfer**
 20. Office
+
 - **OpenVPN**
 - **Slack**
 - dbeaver
@@ -208,6 +209,7 @@ Unchecking the "User interface sounds" doesn't disable all sound. But sliding th
 ![enter image description here](../../media/DevOps-IDEs-Mac-image1.png)
 
 ### Setting up Shell
+
 - install iterm2
 - oh-my-zsh
 
@@ -230,6 +232,7 @@ Unchecking the "User interface sounds" doesn't disable all sound. But sliding th
 ![iTerm2](../../media/DevOps-IDEs-Mac-image2.png)
 
 ### Scroll buffer
+
 `Preferences > Profiles > Terminal`
 
 ### Natural Text Editing
@@ -339,6 +342,7 @@ clear-badge() {
    iterm2_set_user_var title_var ""
 }
 ```
+
 ### Alias
 
 - Suffix Alias (-s)

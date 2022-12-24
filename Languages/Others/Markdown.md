@@ -278,6 +278,8 @@ It gets compiled to JavaScript that you can use in any framework that supports J
 
 <https://www.markdownguide.org/basic-syntax>
 
+<https://markdown-it.github.io>
+
 # Markdown Linter and Fixer
 
 [GitHub - igorshubovych/markdownlint-cli: MarkdownLint Command Line Interface](https://github.com/igorshubovych/markdownlint-cli)

@@ -6,127 +6,29 @@ Modified: 2022-02-08 15:39:32 +0500
 
 ---
 
-# Shortcut Mac
+## Shortcut Mac
 
-<table>
-<colgroup>
-<col style="width: 61%" />
-<col style="width: 38%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Search on the page.</strong></th>
-<th><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ F</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Search all notebooks.</strong></td>
-<td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ Option + F</strong></p></td>
-</tr>
-<tr>
-<td><strong>Zoom in Page</strong></td>
-<td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p>+ + (Plus)</p></td>
-</tr>
-<tr>
-<td><strong>Zoom out Page</strong></td>
-<td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p>+ - (Minus)</p></td>
-</tr>
-</tbody>
-</table>
-
-## Command + Option + R - Move top panel up and down
-
-<table>
-<colgroup>
-<col style="width: 74%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Synchronize this notebook.</strong></th>
-<th><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ S</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Synchronize all notebooks.</strong></td>
-<td><p><strong>Shift +</strong></p>
-<p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ S</strong></p></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-<col style="width: 45%" />
-<col style="width: 54%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Move keyboard focus to the page list.</strong></th>
-<th><p><strong>Control +</strong></p>
-<p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ G</strong></p></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Move keyboard focus to the section list.</strong></td>
-<td><strong>Control + Shift + G</strong></td>
-</tr>
-<tr>
-<td><strong>Switch between sections in a notebook.</strong></td>
-<td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ Shift +Opening brace ( { ) or Closing brace ( } )</strong></p></td>
-</tr>
-<tr>
-<td><strong>View the list of your open notebooks.</strong></td>
-<td><strong>Control + G</strong></td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<colgroup>
-<col style="width: 45%" />
-<col style="width: 54%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Open a new window</strong></th>
-<th><strong>^ M (Ctrl + M)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Close the selected window</strong></td>
-<td><p><img src="../../media/DevOps-IDEs-OneNote-image1.png" alt="COMMAND" </p>
-<p><strong>+ W (Command + W)</strong></p></td>
-</tr>
-<tr>
-<td><strong>Go to previous page and next page</strong></td>
-<td><strong>Command + Ctrl + (Left arrow / right arrow)</strong></td>
-</tr>
-</tbody>
-</table>
-
-## Text Manipulations
-
+| todo | shortcut |
+|---|---|
+| Search on the page. | cmd + F |
+| Search all notebooks | cmd + Option + F |
+| Zoom in Page | cmd + + (Plus) |
+| Zoom out Page | cmd + - (Minus) |
+| Move top panel up and down | Command + Option + R |
+| Synchronize this notebook | cmd + S |
+| Synchronize all notebooks | Shift + cmd + S |
+| Move keyboard focus to the page list. | Control + cmd + G |
+| Move keyboard focus to the section list. | Control + Shift + G |
+| Switch between sections in a notebook. | cmd + Shift +Opening brace ( { ) or Closing brace ( } ) |
+| View the list of your open notebooks. | Control + G |
+| Open a new window | ^ M (Ctrl + M) |
+| Close the selected window | cmd + W (Command + W) |
+| Go to previous page and next page | Command + Ctrl + (Left arrow / right arrow) |
 | Indent left  | Command + option + Left  |
-|--------------|--------------------------|
 | Indent right | Command + option + Right |
 
 ## Table
 
-Cmd + Ctrl + L - left
-
-Cmd + Ctrl + R - Right
-
-Cmd + enter - insert next row
+- Cmd + Ctrl + L - left
+- Cmd + Ctrl + R - Right
+- Cmd + enter - insert next row

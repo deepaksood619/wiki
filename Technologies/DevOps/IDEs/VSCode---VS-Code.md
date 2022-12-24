@@ -85,6 +85,8 @@ codeanywhere
 - drag and drop image (with shift) to automatically create links
 <https://code.visualstudio.com/docs/languages/markdown>
 - cmd + shift + o - quickly switch headers
+- cmd + K, V - (side-by-side preview)
+- Shift + cmd + V - (live preview) (double click to edit)
 
 ## Navigation
 
