@@ -27,6 +27,7 @@ Modified: 2018-12-30 18:49:26 +0500
 - Scalar multiplication (increasing the length of a vector by a given number)
 
 ## Linear combinations, span and basis vectors
+
 ![image](media/3Blue1Brown-image1.png)
 
 called as i hat and j hat
@@ -77,6 +78,7 @@ Volume of the parallelepiped
 ![image](media/3Blue1Brown-image10.png)
 
 ## Inverse matrices, column space, rank and null space
+
 - Gaussian Elimination
 - Row echelon form
 - Linear system of equations
@@ -97,7 +99,8 @@ Until `det(A) not equal to 0, A^-1^ exists` -  Rank - Number of dimensions in th
 In Ax = v, when v happens to be the zero vector, null space gives all of the possible solution to the linear equation
 
 ## Non Square Matrices as transformations between dimensions**
--  A 2x3 matrix i.e. there are 2 rows and 3 columns represent that the transformation starts in 3 dimension and the landing space is represented in 2 dimension
+
+- A 2x3 matrix i.e. there are 2 rows and 3 columns represent that the transformation starts in 3 dimension and the landing space is represented in 2 dimension
 
 ![image](media/3Blue1Brown-image12.png)
 
@@ -144,15 +147,16 @@ Cross product of two vectors is a vector that is the area of the parallelogram a
 ![image](media/3Blue1Brown-image29.png)
 
 ## Change of basis
--  Coordinate system
--  Alternate coordinate system
--  How do you translate between coordinate systems
--  Matrix multiplication by "Inverse change of basis matrix"
--  How to translate a matrix
-    - Start with any vectors written in Jennifer's language
-    - Translate it to our language using change of basis matrix
-    - Apply transformation matrix in our language, this tells us where that vector lands but still in our language
-    - Apply the inverse change of basis matrix to get the transformed vector but in Jennifer's language
+
+- Coordinate system
+- Alternate coordinate system
+- How do you translate between coordinate systems
+- Matrix multiplication by "Inverse change of basis matrix"
+- How to translate a matrix
+  - Start with any vectors written in Jennifer's language
+  - Translate it to our language using change of basis matrix
+  - Apply transformation matrix in our language, this tells us where that vector lands but still in our language
+  - Apply the inverse change of basis matrix to get the transformed vector but in Jennifer's language
 
 ![image](media/3Blue1Brown-image30.png)
 ![image](media/3Blue1Brown-image31.png)
