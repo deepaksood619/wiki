@@ -6,11 +6,11 @@ Modified: 2019-09-23 15:44:46 +0500
 
 ---
 
-Kong is a cloud-native, fast, scalable, and distributed Microservice Abstraction Layer*(also known as an API Gateway, API Middleware or in some cases Service Mesh)*. Made available as an open-source project in 2015, its core values are high performance and extensibility.
+Kong is a cloud-native, fast, scalable, and distributed Microservice Abstraction Layer *(also known as an API Gateway, API Middleware or in some cases Service Mesh)*. Made available as an open-source project in 2015, its core values are high performance and extensibility.
 
 If you are building for web, mobile or IoT (Internet of Things) you will likely end up needing common functionality to run your actual software. Kong can help by acting as a gateway (or a sidecar) for microservices requests while providing load balancing, logging, authentication, rate-limiting, transformations, and more through plugins.
 
-![The Redundant Old Way The Kong Way CLIENT/SERVICES API/RPC Authentication Rate-Limiting PRIVATE CLIENT/SERVICES API/RPC Authentication Rate-Limiting Logging Caching Serverless PUBLIC API/RPC Authentication Rate-Limiting Monitoring PARTNER Authentication Logging ACL Rate-Limiting API/RPC PUBLIC Monitoring Security Caching Serverless API/RPC PRIVATE API/RPC PARTNER X X X X Common functionality is duplicated across multiple services Systems tend to be monolithic and hard to maintain Difficult to expand without impacting other services Productivity is inefficient because of system constraints S/ S/ S/ S/ Kong orchestrates common functionality Build efficient distributed architectures ready to scale Expand functionality from one place with a simple command Focus on your product and let Kong do the REST ](../../media/DevOps-Others-Kong-image1.png)
+![image](../../media/DevOps-Others-Kong-image1.png)
 
 ## Features
 
@@ -48,12 +48,10 @@ If you are building for web, mobile or IoT (Internet of Things) you will likely 
 
 ## Kong Helm Charts
 
-helm install --name kg
-
---set=admin.type=ClusterIP, proxy.type=LoadBalancer, proxy.loadBalancerIP=104.211.225.153
-
---namespace kong
-
+```bash
+helm install --name kg \
+--set=admin.type=ClusterIP,proxy.type=LoadBalancer,proxy.loadBalancerIP=104.211.225.153 \
+--namespace kong \
 stable/kong
 
 helm upgrade --set=admin.useTLS=true --namespace kong kg stable/kong
@@ -62,109 +60,75 @@ helm delete --purge kg
 
 helm status kg
 
-export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items [0].metadata.name}")
-
+export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
 kubectl port-forward --namespace kong $POD_NAME 8444:8444
 
-Notes
-
-1. Kong Admin can be accessed inside the cluster using:
-
-DNS=kg-kong-admin.kong.svc.cluster.local
-
-PORT=8444
-
-To connect from outside the K8s cluster:
-
-HOST=127.0.0.1
-
-# Execute the following commands to route the connection to Admin SSL port
-
-export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items [0].metadata.name}")
-
-kubectl port-forward --namespace kong $POD_NAME 8444:8444
-
-2. Kong Proxy can be accessed inside the cluster using:
-
-DNS=kg-kong-proxy.kong.svc.cluster.localPORT=443To connect from outside the K8s cluster:
-
-HOST=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.status.loadBalancer.ingress.ip}')
-
-PORT=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.spec.ports [0].nodePort}')
+# Notes
+    1. Kong Admin can be accessed inside the cluster using:
+            DNS=kg-kong-admin.kong.svc.cluster.local
+            PORT=8444
+    
+    To connect from outside the K8s cluster:
+            HOST=127.0.0.1
+    
+            # Execute the following commands to route the connection to Admin SSL port:
+            export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
+            kubectl port-forward --namespace kong $POD_NAME 8444:8444
+    
+    
+    2. Kong Proxy can be accessed inside the cluster using:
+            DNS=kg-kong-proxy.kong.svc.cluster.localPORT=443To connect from outside the K8s cluster:
+            HOST=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.status.loadBalancer.ingress.ip}')
+            PORT=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.spec.ports[0].nodePort}')
+```
 
 <https://github.com/helm/charts/tree/master/stable/kong>
 
 ## Commands
 
+```bash
 docker network create kong-net
 
-docker run --name kong-database
-
---network=kong-net
-
--p 5432:5432
-
--e POSTGRES_USER=kong
-
--e POSTGRES_DB=kong
-
+docker run --name kong-database \
+--network=kong-net \
+-p 5432:5432 \
+-e POSTGRES_USER=kong \
+-e POSTGRES_DB=kong \
 postgres:11.2
 
-docker run --rm
-
---network=kong-net
-
--e KONG_DATABASE=postgres
-
--e KONG_PG_HOST=kong-database
-
+docker run --rm \
+--network=kong-net \
+-e KONG_DATABASE=postgres \
+-e KONG_PG_HOST=kong-database \
 kong:latest kong migrations bootstrap
 
-docker run --name kong
-
---network=kong-net
-
--e KONG_DATABASE=postgres
-
--e KONG_PG_HOST=kong-database
-
--e KONG_PROXY_ACCESS_LOG=/dev/stdout
-
--e KONG_ADMIN_ACCESS_LOG=/dev/stdout
-
--e KONG_PROXY_ERROR_LOG=/dev/stderr
-
--e KONG_ADMIN_ERROR_LOG=/dev/stderr
-
--e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl"
-
--p 8000:8000
-
--p 8443:8443
-
--p 8001:8001
-
--p 8444:8444
-
+docker run --name kong \
+--network=kong-net \
+-e KONG_DATABASE=postgres \
+-e KONG_PG_HOST=kong-database \
+-e KONG_PROXY_ACCESS_LOG=/dev/stdout \
+-e KONG_ADMIN_ACCESS_LOG=/dev/stdout \
+-e KONG_PROXY_ERROR_LOG=/dev/stderr \
+-e KONG_ADMIN_ERROR_LOG=/dev/stderr \
+-e "KONG_ADMIN_LISTEN=0.0.0.0:8001, 0.0.0.0:8444 ssl" \
+-p 8000:8000 \
+-p 8443:8443 \
+-p 8001:8001 \
+-p 8444:8444 \
 kong:latest
 
-docker run -p 1337:1337
-
---network=kong-net
-
---name konga
-
--v /Users/kongadata:/app/kongadata
-
--e NODE_ENV=production
-
+docker run -p 1337:1337 \
+--network=kong-net \
+--name konga \
+-v /Users/kongadata:/app/kongadata \
+-e NODE_ENV=production \
 pantsel/konga
 
-curl -X POST
-
--H "Content-Type: application/json"
-
--d '{"name":"JohnDoe","username":"jdoe"}'
+curl -X POST \
+-H "Content-Type: application/json" \
+-d '{"name":"JohnDoe","username":"jdoe"}' \
+http://localhost:8000/fake-api/users
+```
 
 <http://localhost:8000/fake-api/users>
 

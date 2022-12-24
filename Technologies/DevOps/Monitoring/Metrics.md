@@ -320,7 +320,7 @@ A counting of observations (like request durations or sizes) in configurable buc
 
 In this example, a histogram metric is used to calculate the 75th and 90th percentiles of an HTTP request duration.
 
-Ahistogramsamples observations (usually things like request durations or response sizes) and counts them in configurable buckets. It also provides a sum of all observed values.
+A histogram samples observations (usually things like request durations or response sizes) and counts them in configurable buckets. It also provides a sum of all observed values.
 
 A histogram with a base metric name of `<basename>` exposes multiple time series during a scrape:
 
