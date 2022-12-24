@@ -8,7 +8,7 @@ Modified: 2021-01-30 01:13:06 +0500
 
 ## MySQL String Functions
 
-| ****Function**** | ****Description**** |
+| **Function** | **Description** |
 |---|---|
 | [ASCII](https://www.w3schools.com/sql/func_mysql_ascii.asp) | Returns the ASCII value for the specific character |
 | [CHAR_LENGTH](https://www.w3schools.com/sql/func_mysql_char_length.asp) | Returns the length of a string (in characters) |
@@ -179,7 +179,7 @@ Modified: 2021-01-30 01:13:06 +0500
 
 ## Aggregate Functions
 
-| ****Name**** | ****Description**** |
+| **Name** | **Description** |
 |---|---|
 | [AVG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_avg) | Return the average value of the argument |
 | [BIT_AND()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-and) | Return bitwise AND |

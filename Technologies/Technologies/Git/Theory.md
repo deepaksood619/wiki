@@ -14,7 +14,7 @@ A submodule is a repository embedded inside another repository. The submodule ha
 
 ## Git Bisect
 
-git-bisect - Use binary search to find the commit that introduced a bug
+`git-bisect` - Use binary search to find the commit that introduced a bug
 
 ## git pull origin master from a different branch
 
@@ -44,13 +44,13 @@ In the case of bringing astalebranch up to date, let's consider the following tr
 
 Starting with the full tree, we have astalebranch (in red) off amasterbranch. If we zoom in, we see the branch isstalebecause it's missing the recent commits frommaster(in blue).
 
-When we rungit rebase, it first willrewindboth branches back to the first point when their commit history matches (in gray). From this point,git rebasewillfast-forwardthrough the commits on themasterbranch and apply them to thestalebranch. Finally,git rebasereplaysthe commits from thestalebranch.
+When we run git rebase, it first will rewind both branches back to the first point when their commit history matches (in gray). From this point, git rebase will fast-forward through the commits on the master branch and apply them to the stale branch. Finally, git rebase replays the commits from the stale branch.
 
 The resulting tree is as if you just created a new branch offmasterand made your commits. In doing so,git rebasefacilitates a clean merge.
 
-Just remember to alwaysgit branch backupbefore you rebase. Then, after the rebase, you cangit diff backupto make sure it went well. If something does go awry, you can justgit reset --hard backupand start over.
+Just remember to always git branch backupbefore you rebase. Then, after the rebase, you can git diff backup to make sure it went well. If something does go awry, you can just git reset --hard backup and start over.
 
-![ON FROJECT5 Α 8ΕΑΙ)ΠΠΙ 6R,9PH REE TOEL. ΜΙ. HNDOkEl)E/T? NO ΙOΕΑ .1)STYEMORlZE T-E5E 5HElL ca•MVHNDS ΤΥΡΕ π-ΙΕΓ1 ΙΡ ERROR5 5AVE ELElJHET DELETE MD A c-opy. ](../../media/Technologies-Git-Theory-image2.png)
+![git](../../media/Technologies-Git-Theory-image2.png)
 
 ## .git folder
 
@@ -108,66 +108,59 @@ Other example of event sourcing system is accounting systems.
 
 ## Git ignore already tracked files
 
-- **git update-index --skip-worktree**
+- `git update-index --skip-worktree`
 
-## --skip-worktreeis the flag which means the files should change locally
+    `--skip-worktree` is the flag which means the files should change locally
 
-That is,Use the command when you want to modify files managed by Git locally (or updated automatically) but you do not want Git to manage that change.
+    That is, Use the command when you want to modify files managed by Git locally (or updated automatically) but you do not want Git to manage that change.
 
-Because the command is to prevent local changes from being managed by Git,we will use the command in most cases.
+    Because the command is to prevent local changes from being managed by Git,we will use the command in most cases.
 
-$ git update-index --skip-worktree path/to/file #Exclude from the management of Git
+    ```bash
+    $ git update-index --skip-worktree path/to/file # Exclude from the management of Git
 
-$ git ls-files -v | grep ^S #Confirming
+    $ git ls-files -v | grep ^S # Confirming
+        git ls-files shows all files managed by git.
+        -v check the file being ignored.
+        --skip-worktree is displayed withS.
 
-git ls-files shows all files managed by git.
+    $ git update-index --no-skip-worktree path/to/file # Restore to the management of Git
+    ```
 
--vcheck the file being ignored.
+- `git update-index --assume-unchanged`
 
---skip-worktreeis displayed withS.
+    `--assume-unchanged` is the flag which means the files should not change locally
 
-$ git update-index --no-skip-worktree path/to/file #Restore to the management of Git
+    In other words, it is used whenignore files that you do not need to change locally (or should not change).
 
-- **git update-index --assume-unchanged**
+    --assume-unchangedis used when you want to speed up Git's behavior by ignoring unnecessary files.
 
-## --assume-unchangedis the flag which means the files should not change locally
+    Also, since it is an idea to ignore local changes,git reset - hardcommand will delete local changes.
 
-In other words, it is used whenignore files that you do not need to change locally (or should not change).
+    ```bash
+    $ git update-index --assume-unchanged path/to/file #Exclude from the management of Git
+    $ git ls-files -v | grep ^h #Confirming
+        assume-unchanged is displayed with h
 
---assume-unchangedis used when you want to speed up Git's behavior by ignoring unnecessary files.
-
-Also, since it is an idea to ignore local changes,git reset - hardcommand will delete local changes.
-
-$ git update-index --assume-unchanged path/to/file #Exclude from the management of Git
-
-$ git ls-files -v | grep ^h #Confirming
-
-assume-unchangedis displayed with h
-
-$ git update-index --no-assume-unchanged path/to/file #Restore to the management of Git
+    $ git update-index --no-assume-unchanged path/to/file #Restore to the management of Git
+    ```
 
 ## gitattributes
 
-The.gitattributesfile allows you to specify the files and paths attributes that should be used by git when performing git actions, such asgit commit, etc.
+The .gitattributes file allows you to specify the files and paths attributes that should be used by git when performing git actions, such asgit commit, etc.
 
 In other words git automatically saves the file according to the attributes specified, every time a file is created or saved.
 
-One of these attributes is theeol(end of line) and is used to configure the line endings for a file. This article will now dive deeper into how to configure the line endings, so every developer uses the same value when using different machines / OSes across the repository.
+One of these attributes is the eol (end of line) and is used to configure the line endings for a file. This article will now dive deeper into how to configure the line endings, so every developer uses the same value when using different machines / OSes across the repository.
 
 ## 7 Rules of great Git commit message
 
 1. [Separate subject from body with a blank line](https://chris.beams.io/posts/git-commit/#separate)
-
 2. [Limit the subject line to 50 characters](https://chris.beams.io/posts/git-commit/#limit-50)
-
 3. [Capitalize the subject line](https://chris.beams.io/posts/git-commit/#capitalize)
-
 4. [Do not end the subject line with a period](https://chris.beams.io/posts/git-commit/#end)
-
 5. [Use the imperative mood in the subject line](https://chris.beams.io/posts/git-commit/#imperative)
-
 6. [Wrap the body at 72 characters](https://chris.beams.io/posts/git-commit/#wrap-72)
-
 7. [Use the body to explainwhatandwhyvs.how](https://chris.beams.io/posts/git-commit/#why-not-how)
 
 ## References
@@ -188,29 +181,26 @@ Because there is no storage / memory overhead with making many branches, it's ea
 
 When we start mixing branches and commits, we will see how these two features combine. For now though, just remember that a branch essentially says "I want to include the work of this commit and all parent commits."
 
-Git checkout -b bugFix
-
-Git branch -f three C2
-
-Git branch -f <branch_name> <where_to_move>
+```bash
+git checkout -b bugFix
+git branch -f three C2
+git branch -f <branch_name> <where_to_move>
+```
 
 ## Git Merging
 
 The first method to combine work that we will examine isgit merge. Merging in Git creates a special commit that has two unique parents. A commit with two parents essentially means "I want to include all the work from this parent over here and this one over here,andthe set of all their parents."
 
 1. **Checkout the branch where you want the commits to merge.**
-
 2. **Use command git merge <branch_name> from where you want commits to merge to the branch**
 
-Git checkout -b bugFix
-
-Git commit
-
-Git checkout master
-
-Git commit
-
-Git merge bugFix
+```bash
+git checkout -b bugFix
+git commit
+git checkout master
+git commit
+git merge bugFix
+```
 
 ## Git Rebase
 
@@ -218,23 +208,21 @@ The second way of combining work between branches isrebasing.Rebasing essentiall
 
 While this sounds confusing, the advantage of rebasing is that it can be used to make a nice linear sequence of commits. The commit log / history of the repository will be a lot cleaner if only rebasing is allowed.
 
-Git checkout -b bugFix
-
-Git commit
-
-Git checkout master
-
-Git commit
-
-Git checkout bugFix
-
-Git rebase master
+```bash
+git checkout -b bugFix
+git commit
+git checkout master
+git commit
+git checkout bugFix
+git rebase master
+```
 
 ## Forwarding the branch
 
-Git rebase master bugFix
-
-Git rebase <changes_where_to_add> <changes_from_where_to_add>
+```bash
+git rebase master bugFix
+git rebase <changes_where_to_add> <changes_from_where_to_add>
+```
 
 ## Git interactive rebase
 
@@ -245,12 +233,10 @@ If you include this option, git will open up a UI to show you which commits are 
 When the interactive rebase dialog opens, you have the ability to do 3 things:
 
 - Reorder commit
-
 - Omit commits
-
 - Squash commits
 
-Git rebase <branch-name> -i
+`git rebase <branch-name> -i`
 
 ## Moving around in Git
 
@@ -268,11 +254,11 @@ Detaching HEAD just means attaching it to a commit instead of a branch.
     - Moving upwards one commit at a time with^ (Caret Operator)
     - Moving upwards a number of times with~<num>
 
-Git checkout bugFix^ (parent of bugFix)
-
-Git checkout HEAD^ (parent of current HEAD)
-
-Git checkout HEAD~4
+```bash
+git checkout bugFix^ (parent of bugFix)
+git checkout HEAD^ (parent of current HEAD)
+git checkout HEAD~4
+```
 
 ## Branch Forcing
 
@@ -284,21 +270,21 @@ Git branch -f master HEAD~3 (moves (by force) the master branch to three parents
 
 And just like committing, reversing changes in Git has both a low-level component (staging individual files or chunks) and a high-level component (how the changes are actually reversed). Our application will focus on the latter.
 
-There are two primary ways to undo changes in Git -- one is usinggit resetand the other is usinggit revert. We will look at each of these in the next dialog
+There are two primary ways to undo changes in Git -- one is using git resetand the other is using git revert. We will look at each of these in the next dialog
 
-## Git Reset
+### Git Reset
 
 git resetreverts changes by moving a branch reference backwards in time to an older commit. In this sense you can think of it as "rewriting history;"git resetwill move a branch backwards as if the commit had never been made in the first place.
 
-## Git reset HEAD~1
+`git reset HEAD~1`
 
-## Git Revert
+### Git Revert
 
 While reseting works great for local branches on your own machine, its method of "rewriting history" doesn't work for remote branches that others are using.
 
 In order to reverse changes andshare those reversed changes with others, we need to usegit revert. Let's see it in action
 
-git revert HEAD
+`git revert HEAD`
 
 Weird, a new commit plopped down below the commit we wanted to reverse. That's because this new commitC2'introduceschanges-- it just happens to introduce changes that exactly reverses the commit ofC2.
 
@@ -306,13 +292,13 @@ With reverting, you can push out your changes to share with others.
 
 ## Cherry Pick
 
-git cherry-pick <Commit1> <Commit2> <...>
+`git cherry-pick <Commit1> <Commit2> <...>`
 
 It's a very straightforward way of saying that you would like to copy a series of commits below your current location (HEAD).
 
 ## Locally stacked commits
 
-## Problem
+### Problem
 
 Here's a development situation that often happens: I'm trying to track down a bug but it is quite elusive. In order to aid in my detective work, I put in a few debug commands and a few print statements.
 
@@ -320,15 +306,15 @@ All of these debugging / print statements are in their own commits. Finally I tr
 
 Only problem is that I now need to get mybugFixback into themasterbranch. If I simply fast-forwardedmaster, thenmasterwould get all my debug statements which is undesirable. There has to be another way...
 
-Git checkout master
-
-Git cherry-pick bugFix
+```bash
+git checkout master
+git cherry-pick bugFix
 
 Or
 
-Git rebase master -i
-
-Git rebase -i overHere
+git rebase master -i
+git rebase -i overHere
+```
 
 ## Juggling commits
 
@@ -343,35 +329,28 @@ We will overcome this difficulty by doing the following:
 - Then we will re-order the commits back to how they were previously withgit rebase -i
 - Finally, we will move master to this updated part of the tree to finish the level (via the method of your choosing)
 
-Git rebase -i master
+```bash
+git rebase -i master
+git commit --amend
+git rebase -i master
+git checkout master
+git merge C3
+# Or
+git rebase caption master
 
-Git commit --amend
-
-Git rebase -i master
-
-Git checkout master
-
-Git merge C3''
-
-Or
-
-Git rebase caption master
-
-## Using Cherry-pick
-
-Git checkout master
-
-Git cherry-pick C2
-
-Git commit --amend
-
-Git cherry-pick C3
+# Using Cherry-pick
+git checkout master
+git cherry-pick C2
+git commit --amend
+git cherry-pick C3
+```
 
 ## Git Tags
 
-Git tag v1 C1
-
-Git tag v2 C2
+```bash
+git tag v1 C1
+git tag v2 C2
+```
 
 ## Git Describe
 
@@ -379,39 +358,39 @@ Git describe can help you get your bearings after you've moved many commits back
 
 git has a command todescribewhere you are relative to the closest "anchor" (aka tag).
 
-git describe <ref>
+`git describe <ref>`
 
 Where<ref>is anything git can resolve into a commit. If you don't specify a ref, git just uses where you're checked out right now (HEAD).
 
 The output of the command looks like:
 
-<tag>_<numCommits>_g<hash>
+`<tag>_<numCommits>_g<hash>`
 
 Wheretagis the closest ancestor tag in history,numCommitsis how many commits away that tag is, and<hash>is the hash of the commit being described.
 
 ## Specifying Parents in merge commit (Using Modifiers)
 
-Like the~modifier, the^modifier also accepts an optional number after it.
+Like the `~` modifier, the `^` modifier also accepts an optional number after it.
 
-Rather than specifying the number of generations to go back (what~takes), the modifier on^specifies which parent reference to follow from a merge commit. Remember that merge commits have multiple parents, so the path to choose is ambiguous.
+Rather than specifying the number of generations to go back (what `~` takes), the modifier on `^` specifies which parent reference to follow from a merge commit. Remember that merge commits have multiple parents, so the path to choose is ambiguous.
 
 Git will normally follow the "first" parent upwards from a merge commit, but specifying a number with^changes this default behavior.
 
-Git checkout master^
+`git checkout master^`
 
-![co Here we have a merge commit. If we checkout masterA without the modifier, we will follow the first parent after the merge commit. (In our visuals, the first parent is positioned directly above the merge comnit.) git checkout masterA Easy -- this is what we are all used master to. ](../../media/Technologies-Git-Theory-image3.png)
+![image](../../media/Technologies-Git-Theory-image3.png)
 
-Git checkout master^2
+`git checkout master^2`
 
-![Now let's try specifying the second parent instead. .. git checkout masterA2 See? We followed the other parent upwards. master ](../../media/Technologies-Git-Theory-image4.png)
+![image](../../media/Technologies-Git-Theory-image4.png)
 
-![modifiers can The a commit tree very powerful : make moving around git checkout HEAD---; git checkout HEADA2; git checkout HEAD---2 Lightning fast! co master ](../../media/Technologies-Git-Theory-image5.png)
+![image](../../media/Technologies-Git-Theory-image5.png)
 
-![Even crazier, these modifiers can be chained together! Check this out: git checkout HEAD-AZ-2 The same movement as before, command. but all in one master ](../../media/Technologies-Git-Theory-image6.png)
+![image](../../media/Technologies-Git-Theory-image6.png)
 
 Creating Branch
 
-Git branch bugWork HEAD~^2~
+`git branch bugWork HEAD~^2~`
 
 ## Remote Commands
 
@@ -432,31 +411,29 @@ git fetchessentially brings ourlocalrepresentation of the remote repository into
 
 ## Diverged history
 
-![Now if we rebase before pushing instead... co C? master* o/master co git fetch; git rebase o/master; git push Boom! We updated our local representation of the remote with git fetc , rebased our work to reflect the new changes in the remote, and then pushed them with git push master ](../../media/Technologies-Git-Theory-image7.png)
+![image](../../media/Technologies-Git-Theory-image7.png)
 
 ## Git pull --rebase; git push
 
 ## Feature Branches Push and Pull
 
-![Merging feature branches Now that you're comfortable with fetching, pulling, and pushing, lets put these skills to the test with a new workflow. It's common for developers on big projects to do all their work on feature branches (off of master ) and then integrate that work only once it's ready. This is similar to the previous lesson (where side branches get pushed to the remote), but here we introduce one more step. Some developers only push and pull when on the ster branch -- that way maste always stays updated to what is on the remote . So for this workflow we • integrating feature • pushing and pulling combine two things: branch work onto ster , and from the remote ](../../media/Technologies-Git-Theory-image8.png)
+![image](../../media/Technologies-Git-Theory-image8.png)
 
 ## Remote Tracking
 
 Another way to set remote tracking on a branch is to simply use thegit branch -uoption. Running
 
-git branch -u o/master foo
+`git branch -u o/master foo`
 
-will set thefoobranch to tracko/master. Iffoois currently checked out you can even leave it off:
+will set the foo branch to track o/master. Iffoois currently checked out you can even leave it off: `git branch -u o/master`
 
-git branch -u o/master
-
-Git checkout -b side o/master
+`git checkout -b side o/master`
 
 ## Colon refspec
 
-![Remember , ourc will understand: is any location that git git push origin fooA:master Woah! That's a pretty trippy command but it git resolved fooA into a makes sense - location, uploaded whatever commits that weren't present yet on the remote, and then updated destination. co master o/master C? O) co master ](../../media/Technologies-Git-Theory-image9.png)
+![image](../../media/Technologies-Git-Theory-image9.png)
 
-Git push origin <source>:<destination>
+`git push origin <source>:<destination>`
 
 <https://learngitbranching.js.org>
 

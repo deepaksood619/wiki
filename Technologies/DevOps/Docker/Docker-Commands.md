@@ -122,9 +122,9 @@ Images are just [templates for docker containers](https://docs.docker.com/engine
 - [docker import](https://docs.docker.com/engine/reference/commandline/import) creates an image from a tarball.
 - **[docker build](https://docs.docker.com/engine/reference/commandline/build) creates image from Dockerfile.**
 
-docker build -t <image-tag> .
+`docker build -t <image-tag> .`
 
-docker build -f docker/Dockerfile.dev -t partners-api:latest .
+`docker build -f docker/Dockerfile.dev -t partners-api:latest .`
 
 - [docker commit](https://docs.docker.com/engine/reference/commandline/commit) creates image from a container, pausing it temporarily if it is running.
 - [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi) removes an image.

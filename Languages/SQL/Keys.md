@@ -171,7 +171,7 @@ Surrogate keys are allowed when
 
 ## Difference Between Primary key & Foreign key
 
-| ****Primary Key**** | ****Foreign Key**** |
+| **Primary Key** | **Foreign Key** |
 |---|---|
 | Helps you to uniquely identify a record in the table. | It is a field in the table that is the primary key of another table. |
 | Primary Key never accept null values. | A foreign key may accept multiple null values. |
