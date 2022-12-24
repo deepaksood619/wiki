@@ -98,7 +98,6 @@ Example: In the given table Stud ID, Roll No, and email are candidate keys which
 | 2 | 12 | Nick | Wright | <xyz@gmail.com> |
 | 3 | 13 | Dana | Natan | <mno@yahoo.com> |
 
-
 ![image](media/Keys-image1.png)
 
 ## What is the Foreign key?
@@ -177,7 +176,6 @@ Surrogate keys are allowed when
 | Primary Key never accept null values. | A foreign key may accept multiple null values. |
 | Primary key is a clustered index and data in the DBMS table are physically organized in the sequence of the clustered index. | A foreign key cannot automatically create an index, clustered or non-clustered. However, you can manually create an index on the foreign key. |
 | You can have the single Primary key in a table. | You can have multiple foreign keys in a table. |
-
 
 <https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database>
 

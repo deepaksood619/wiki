@@ -138,7 +138,6 @@ Both Redis and MemCached are in-memory, open-source data stores. Memcached, a hi
 | [Lua scripting](https://aws.amazon.com/elasticache/redis-vs-memcached/#Lua_scripting) | - | Yes |
 | [Geospatial support](https://aws.amazon.com/elasticache/redis-vs-memcached/#Geospatial_support) | - | Yes |
 
-
 <https://aws.amazon.com/elasticache/redis-vs-memcached>
 
 ## Books

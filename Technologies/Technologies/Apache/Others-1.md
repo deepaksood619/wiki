@@ -23,7 +23,6 @@ The 2 main design themes for Tez are:
   - Plan reconfiguration at runtime
   - Dynamic physical data flow decisions
 
-
 <http://tez.apache.org>
 
 ## Apache Spark
@@ -37,7 +36,6 @@ Apache Sparkis an [open-source](https://en.wikipedia.org/wiki/Open-source_softwa
 - More general programming model (transform/action)
 - Storage agnostic
 - Faster version of MapReduce(does all the mapreduce in-memory)
-
 
 <https://en.wikipedia.org/wiki/Apache_Spark>
 
@@ -71,7 +69,6 @@ Apache Storm is a free and open source distributed realtime computation system. 
 Storm has many use cases: realtime analytics, online machine learning, continuous computation, distributed RPC, ETL, and more. Storm is fast: a benchmark clocked it at overa million tuples processed per second per node. It is scalable, fault-tolerant, guarantees your data will be processed, and is easy to set up and operate.
 
 Storm integrates with the queueing and database technologies you already use. A Storm topology consumes streams of data and processes those streams in arbitrarily complex ways, repartitioning the streams between each stage of the computation however needed.
-
 
 <http://storm.apache.org>
 

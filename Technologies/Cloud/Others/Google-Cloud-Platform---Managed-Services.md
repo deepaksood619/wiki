@@ -214,6 +214,7 @@ API management apps built on Google Cloud
 - Cloud APIs
 
 ## Networking
+
 - Virtual Private Cloud (VPC)
 - Cloud Load Balancing
 - Cloud Armor
@@ -223,6 +224,7 @@ API management apps built on Google Cloud
 - Network Service Tiers
 
 ## Cloud AI
+
 - Cloud AutoML
 - Cloud TPU
 - Cloud Machine Learning Engine
@@ -236,11 +238,13 @@ API management apps built on Google Cloud
 - Cloud Video Intelligence
 
 ## Data Transfer
+
 - Google Transfer Appliance
 - Cloud Storage Transfer Service
 - Google BigQuery Data Transfer Service
 
 ## Developer Tools
+
 - Cloud SDK
 - Container Registry
 - Container Builder
@@ -253,6 +257,7 @@ API management apps built on Google Cloud
 - Cloud Test Lab
 
 ## Productivity Tools
+
 - G Suite
 - Hire
 - Chrome Android

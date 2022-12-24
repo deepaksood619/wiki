@@ -55,8 +55,8 @@ Display the last time you edited your crontab file. (This option is only availab
 | **Keyword** | **Equivalent**  |
 |-------------|-----------------|
 | @yearly    | 0 0 1 1 *      |
-| @daily     | 0 0 * * *    |
-| @hourly    | 0 * * * *   |
+| @daily     | 0 0 ** *    |
+| @hourly    | 0 ** **   |
 | @reboot    | Run at startup. |
 
 ## Examples
@@ -95,7 +95,7 @@ Display the last time you edited your crontab file. (This option is only availab
 
 ### cron for refresh_tokens every hour
 
-0 * * * * /usr/bin/python /home/ubntu/sources/example/manage.py refresh_tokens
+0 ** ** /usr/bin/python /home/ubntu/sources/example/manage.py refresh_tokens
 
 ### Never run a cron set date to 31'st Feb
 

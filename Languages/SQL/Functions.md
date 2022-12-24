@@ -58,7 +58,7 @@ Modified: 2021-01-30 01:13:06 +0500
 | CEILING | Returns the smallest integer value that is `>`= to a number |
 | COS | Returns the cosine of a number |
 | COT | Returns the cotangent of a number |
-| COUNT | Returns the number of records returned by a select query. For MyISAM the total row count is stored for each table soSELECT COUNT(*) FROM yourtableis an operation O(1). It just needs to read this value. For InnoDB the total row count is not stored so a full scan is required. This is an O(n) operation. InnoDBdoes not keep an internal count of rows in a table. (In practice, this would be somewhat complicated due to multi-versioning.) To process aSELECT COUNT(*) FROM tstatement, InnoDBmust scan an index of the table, which takes some time if the index is not entirely in the buffer pool. If your table does not change often, using the MySQL query cache is a good solution. To get a fast count, you have to use a counter table you create yourself and let your application update it according to the inserts and deletes it does.SHOW TABLE STATUSalso can be used if an approximate row count is sufficient. https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable |
+| COUNT | Returns the number of records returned by a select query. For MyISAM the total row count is stored for each table soSELECT COUNT(*) FROM yourtableis an operation O(1). It just needs to read this value. For InnoDB the total row count is not stored so a full scan is required. This is an O(n) operation. InnoDBdoes not keep an internal count of rows in a table. (In practice, this would be somewhat complicated due to multi-versioning.) To process aSELECT COUNT(*) FROM tstatement, InnoDBmust scan an index of the table, which takes some time if the index is not entirely in the buffer pool. If your table does not change often, using the MySQL query cache is a good solution. To get a fast count, you have to use a counter table you create yourself and let your application update it according to the inserts and deletes it does.SHOW TABLE STATUSalso can be used if an approximate row count is sufficient. <https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable> |
 | DEGREES | Converts a value in radians to degrees |
 | DIV | Used for integer division |
 | EXP | Returns e raised to the power of a specified number |
@@ -84,7 +84,6 @@ Modified: 2021-01-30 01:13:06 +0500
 | SUM | Calculates the sum of a set of values |
 | TAN | Returns the tangent of a number |
 | TRUNCATE | Truncates a number to the specified number of decimal places |
-
 
 ## Median
 
@@ -145,7 +144,6 @@ Modified: 2021-01-30 01:13:06 +0500
 | [YEAR](https://www.w3schools.com/sql/func_mysql_year.asp) | Returns the year part for a given date |
 | [YEARWEEK](https://www.w3schools.com/sql/func_mysql_yearweek.asp) | Returns the year and week number for a given date |
 
-
 ## MySQL Advanced Functions
 
 | **Function** | **Description** |
@@ -200,7 +198,6 @@ Modified: 2021-01-30 01:13:06 +0500
 | [VAR_POP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-pop) | Return the population standard variance |
 | [VAR_SAMP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-samp) | Return the sample variance |
 | [VARIANCE()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_variance) | Return the population standard variance |
-
 
 ## Window Functions
 

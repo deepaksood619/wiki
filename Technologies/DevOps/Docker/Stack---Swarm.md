@@ -31,83 +31,64 @@ In swarm mode, Docker uses DNS for service discovery as services are created, an
 
 ## Commands
 
+```bash
 docker swarm init
-
 docker stack deploy -c docker-compose.yml <app_name>
-
-docker stack deploy -c docker-compose.yml kafkaconsumer
-
+    docker stack deploy -c docker-compose.yml kafkaconsumer
 docker service ls
-
-docker service ps getstartedlab_web #List the tasks for your service
-
-docker service rm kafkaconsumer_kafka-consumer #Take the app down
-
-docker swarm leave --force #Take down the swarm (remove docker engine from swarm mode)
+docker service ps getstartedlab_web   #List the tasks for your service
+docker service rm kafkaconsumer_kafka-consumer  #Take the app down
+docker swarm leave --force  #Take down the swarm (remove docker engine from swarm mode)
 
 Advanced overlay commands
-
-docker network create --driver overlay my-overlay-network #create an overlay network
-
-docker network ls #get all created networks
-
-docker network inspect <network-name> #inspect a network
-
-docker network create --help #show all configuration option
-
+docker network create --driver overlay my-overlay-network  #create an overlay network
+docker network ls  #get all created networks
+docker network inspect <network-name>  #inspect a network
+docker network create --help  #show all configuration option
 docker network create --driver overlay --subnet 10.0.9.0/24 --gateway 10.0.9.99 my-network
-
-docker service create --replicas 3 --name my-web --network my-network nginx #attach a service to overlay network
+docker service create --replicas 3 --name my-web --network my-network nginx  #attach a service to overlay network
 
 # scale a container to desired replicas
-
-docker service scale SERVICE=REPLICAS
-
+docker service scale SERVICE=REPLICAS 
 ex - docker service scale kafkaconsumer_kafka-consumer=3
 
 Ingress commands
-
 docker network inspect ingress
-
 docker network rm ingress
-
-docker network create
---driver overlay
---ingress
---subnet=10.11.0.0/16
---gateway=10.11.0.2
---opt com.docker.network.mtu=1200
+docker network create \
+--driver overlay \
+--ingress \
+--subnet=10.11.0.0/16 \
+--gateway=10.11.0.2 \
+--opt com.docker.network.mtu=1200 \
 my-ingress
 
 docker_gwbridge commands #brctl = bridge-utils
-
 brctl docker show docker_gwbridge #after stopping docker
-
 brctl status
-
 brctl delbr docker_gwbridge # remove docker_gwbridge
 
-docker service update <service_name> #update services
-
-docker service update --force kafkaconsumer #force pull an image
+docker service update <service_name>  #update services
+docker service update --force kafkaconsumer  #force pull an image
 
 # restart a service without any parameter updates
-
 docker service update --force --update-parallelism 1 --update-delay 30s <service_name>
+```
 
 ## Logs
 
-docker service logs -f --raw --timestamps kafkaconsumer_kafka-consumer
+`docker service logs -f --raw --timestamps kafkaconsumer_kafka-consumer`
 
-| **Kubernetes**                                                        | **Docker Swarm**                                                                   |
-|----------------------------------|--------------------------------------|
-| Developed by Google                                                   | Developed by Docker Swarm                                                          |
-| Has a vast Open source community                                      | Has a smaller community compared to Kubernetes                                     |
-| More extensive and customizable                                       | Less extensive and less customizable                                               |
-| Requires heavy setup                                                  | Easy to set up and fits well into Docker ecosystem                                 |
-| Has high fault tolerance                                              | Has low fault tolerance                                                            |
+## Kubernetes vs Docker Swarm
+| ****Kubernetes**** | ****Docker Swarm**** |
+|---|---|
+| Developed by Google | Developed by Docker Swarm |
+| Has a vast Open source community | Has a smaller community compared to Kubernetes |
+| More extensive and customizable | Less extensive and less customizable |
+| Requires heavy setup | Easy to set up and fits well into Docker ecosystem |
+| Has high fault tolerance | Has low fault tolerance |
 | Provides strong guarantees to cluster states, at the expense of speed | Facilitates for quick container deployment and scaling even in very large clusters |
-| Enables load balancing when container pods are defined as services.   | Features automated internal load balancing through any node in the cluster.        |
+| Enables load balancing when container pods are defined as services. | Features automated internal load balancing through any node in the cluster. |
 
 ## Networking
 
@@ -134,13 +115,13 @@ Docker daemons participating in a swarm need the ability to communicate with eac
 
 ## Service Disovery in Docker
 
-## Service discoveryis the mechanism Docker uses to route a request from your service's external clients to an individual swarm node, without the client needing to know how many nodes are participating in the service or their IP addresses or ports. You don't need to publish ports which are used between services on the same network
+Service discovery is the mechanism Docker uses to route a request from your service's external clients to an individual swarm node, without the client needing to know how many nodes are participating in the service or their IP addresses or ports. You don't need to publish ports which are used between services on the same network
 
 Service discovery can work in two different ways: internal connection-based load-balancing at Layers 3 and 4 using the embedded DNS and a virtual IP (VIP), or external and customized request-based load-balancing at Layer 7 using DNS round robin (DNSRR). You can configure this per service.
 
 - By default, when you attach a service to a network and that service publishes one or more ports, Docker assigns the service a virtual IP (VIP), which is the "front end" for clients to reach the service. Docker keeps a list of all worker nodes in the service, and routes requests between the client and one of the nodes. Each request from the client might be routed to a different node.
-- If you configure a service to use DNS round-robin (DNSRR) service discovery, there is not a single virtual IP. Instead, Docker sets up DNS entries for the service such that a DNS query for the service name returns a list of IP addresses, and the client connects directly to one of these.
-    DNS round-robin is useful in cases where you want to use your own load balancer, such as HAProxy. To configure a service to use DNSRR, use the flag--endpoint-mode dnsrrwhen creating a new service or updating an existing one.
+
+- If you configure a service to use DNS round-robin (DNSRR) service discovery, there is not a single virtual IP. Instead, Docker sets up DNS entries for the service such that a DNS query for the service name returns a list of IP addresses, and the client connects directly to one of these. DNS round-robin is useful in cases where you want to use your own load balancer, such as HAProxy. To configure a service to use DNSRR, use the flag--endpoint-mode dnsrrwhen creating a new service or updating an existing one.
 
 Docker uses embedded DNS to provide service discovery for containers running on a single Docker engine andtasksrunning in a Docker swarm. Docker engine has an internal DNS server that provides name resolution to all of the containers on the host in user-defined bridge, overlay, and MACVLAN networks. Each Docker container ( ortaskin swarm mode) has a DNS resolver that forwards DNS queries to the Docker engine, which acts as a DNS server. The Docker engine then checks if the DNS query belongs to a container orserviceon each network that the requesting container belongs to. If it does, then the Docker engine looks up the IP address that matches the name of a container, task, orservicein its key-value store and returns that IP orserviceVirtual IP (VIP) back to the requester.
 
@@ -148,16 +129,16 @@ Service discovery isnetwork-scoped, meaning only containers or tasks that are on
 
 If the destination container orserviceand the source container are not on the same network, the Docker engine forwards the DNS query to the default DNS server.
 
-## Example
+**Example**
 
-![taskl.myservice Resolver (127.0.0.11) task2.myservice Resolver (127.0.0.11) taskl .client curl docker.com curl myservice Resolver (127.0.0.11) Docker Engine taskl.myservice task2.myservice myservice VIP external DNS Engine DNS Server "mynet" network 10.0.0.4 10.0.0.5 10.0_0.3 8.8.8.8 myservice VIP (10.0.0.3) external DNS internal engine KV store ](../../media/DevOps-Docker-Stack---Swarm-image1.png)
+![image](../../media/DevOps-Docker-Stack---Swarm-image1.png)
 
-In this example, there is a service of two containers calledmyservice. A second service (client) exists on the same network. Theclientexecutes twocurloperations fordocker.comandmyservice. These are the resulting actions:
+In this example, there is a service of two containers called `myservice`. A second service (client) exists on the same network. The client executes two curl operations for docker.com and myservice. These are the resulting actions:
 
-- DNS queries are initiated byclientfordocker.comandmyservice.
-- The container's built-in resolver intercepts the DNS queries on127.0.0.11:53and sends them to Docker Engine's DNS server.
-- myserviceresolves to the Virtual IP (VIP) of that service which is internally load balanced to the individual task IP addresses. Container names are resolved as well, albeit directly to their IP addresses.
-- docker.comdoes not exist as a service name in themynetnetwork, so the request is forwarded to the configured default DNS server.
+- DNS queries are initiated by client for `docker.com` and myservice.
+- The container's built-in resolver intercepts the DNS queries on 127.0.0.11:53 and sends them to Docker Engine's DNS server.
+- myservice resolves to the Virtual IP (VIP) of that service which is internally load balanced to the individual task IP addresses. Container names are resolved as well, albeit directly to their IP addresses.
+- docker.com does not exist as a service name in the `mynet` network, so the request is forwarded to the configured default DNS server.
 
 ## Internal Load Balancing
 

@@ -24,7 +24,7 @@ sudo usermod -a -G docker ubuntu
 sudo apt install docker-compose
 ```
 
-# Containers
+## Containers
 
 ### List
 
@@ -145,7 +145,7 @@ sudo docker tag monolith:1.0.0 deepaksood619/monolith:1.0.0
 docker tag azure-vote-front gcr.io/example-data-archiver/azure-vote-front:v1
 ```
 
-# Network
+## Network
 
 ```bash
 - docker network connect - Connect a container to a network
@@ -177,7 +177,7 @@ cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 
 `docker cp <containerId>:/file/path/within/container /host/path/target`
 
-# Cleanup Commands
+## Cleanup Commands
 
 ```bash
 - docker stop $(docker ps -aq) #stop all running containers
@@ -207,7 +207,7 @@ cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 
 <https://github.com/onfido/k8s-cleanup>
 
-# Base Commands
+## Base Commands
 
 ```bash
 - docker run --rm -it -v $PWD:/build ubuntu:18.04 #create a docker image of ubuntu:18.04
@@ -230,6 +230,7 @@ cd /var/lib/docker/volumes/druid-volume/_data/segment-cache
 
 ## Scaling
 
-`docker-compose up -d --scale tasks_runner=5`
-
+```bash
+docker-compose up -d --scale tasks_runner=5
 # don't use container_name in docker-compose
+```
