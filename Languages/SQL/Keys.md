@@ -56,11 +56,11 @@ Example:
 
 In the following example, StudID is a Primary Key.
 
-| StudID | Roll No | First Name | LastName | Email           |
-|--------|---------|------------|----------|-----------------|
-| 1      | 11      | Tom        | Price    | <abc@gmail.com> |
-| 2      | 12      | Nick       | Wright   | <xyz@gmail.com> |
-| 3      | 13      | Dana       | Natan    | <mno@yahoo.com> |
+| **StudID** | **Roll No** | **First Name** | **LastName** | **Email** |
+|---|---|---|---|---|
+| 1 | 11 | Tom | Price | <abc@gmail.com> |
+| 2 | 12 | Nick | Wright | <xyz@gmail.com> |
+| 3 | 13 | Dana | Natan | <mno@yahoo.com> |
 
 ## What is the Alternate key?
 
@@ -70,11 +70,11 @@ Example
 
 StudID, Roll No, Email are qualified to become a primary key. But since StudID is the primary key, Roll No, Email becomes the alternative key.
 
-| StudID | Roll No | First Name | LastName | Email           |
-|--------|---------|------------|----------|-----------------|
-| 1      | 11      | Tom        | Price    | <abc@gmail.com> |
-| 2      | 12      | Nick       | Wright   | <xyz@gmail.com> |
-| 3      | 13      | Dana       | Natan    | <mno@yahoo.com> |
+| **StudID** | **Roll No** | **First Name** | **LastName** | **Email** |
+|---|---|---|---|---|
+| 1 | 11 | Tom | Price | <abc@gmail.com> |
+| 2 | 12 | Nick | Wright | <xyz@gmail.com> |
+| 3 | 13 | Dana | Natan | <mno@yahoo.com> |
 
 ## What is a Candidate Key?
 
@@ -92,11 +92,12 @@ Properties of Candidate key:
 
 Example: In the given table Stud ID, Roll No, and email are candidate keys which help us to uniquely identify the student record in the table.
 
-| StudID | Roll No | First Name | LastName | Email           |
-|--------|---------|------------|----------|-----------------|
-| 1      | 11      | Tom        | Price    | <abc@gmail.com> |
-| 2      | 12      | Nick       | Wright   | <xyz@gmail.com> |
-| 3      | 13      | Dana       | Natan    | <mno@yahoo.com> |
+| **StudID** | **Roll No** | **First Name** | **LastName** | **Email** |
+|---|---|---|---|---|
+| 1 | 11 | Tom | Price | <abc@gmail.com> |
+| 2 | 12 | Nick | Wright | <xyz@gmail.com> |
+| 3 | 13 | Dana | Natan | <mno@yahoo.com> |
+
 
 ![image](media/Keys-image1.png)
 
@@ -170,12 +171,13 @@ Surrogate keys are allowed when
 
 ## Difference Between Primary key & Foreign key
 
-| **Primary Key**                                                                                                              | **Foreign Key**                                                                                                                               |
-|----------------------------------|--------------------------------------|
-| Helps you to uniquely identify a record in the table.                                                                        | It is a field in the table that is the primary key of another table.                                                                          |
-| Primary Key never accept null values.                                                                                        | A foreign key may accept multiple null values.                                                                                                |
+| ****Primary Key**** | ****Foreign Key**** |
+|---|---|
+| Helps you to uniquely identify a record in the table. | It is a field in the table that is the primary key of another table. |
+| Primary Key never accept null values. | A foreign key may accept multiple null values. |
 | Primary key is a clustered index and data in the DBMS table are physically organized in the sequence of the clustered index. | A foreign key cannot automatically create an index, clustered or non-clustered. However, you can manually create an index on the foreign key. |
-| You can have the single Primary key in a table.                                                                              | You can have multiple foreign keys in a table.                                                                                                |
+| You can have the single Primary key in a table. | You can have multiple foreign keys in a table. |
+
 
 <https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database>
 

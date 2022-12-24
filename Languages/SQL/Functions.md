@@ -46,360 +46,161 @@ Modified: 2021-01-30 01:13:06 +0500
 
 ## MySQL Numeric Functions
 
-<table>
-<colgroup>
-<col style="width: 12%" />
-<col style="width: 87%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Function</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_abs.asp"><strong>ABS</strong></a></td>
-<td><strong>Returns the absolute value of a number</strong></td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_acos.asp">ACOS</a></td>
-<td>Returns the arc cosine of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_asin.asp">ASIN</a></td>
-<td>Returns the arc sine of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_atan.asp">ATAN</a></td>
-<td>Returns the arc tangent of one or two numbers</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_atan2.asp">ATAN2</a></td>
-<td>Returns the arc tangent of two numbers</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_avg.asp">AVG</a></td>
-<td>Returns the average value of an expression</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_ceil.asp"><strong>CEIL</strong></a></td>
-<td><strong>Returns the smallest integer value that is `>`= to a number</strong></td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_ceiling.asp">CEILING</a></td>
-<td>Returns the smallest integer value that is `>`= to a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_cos.asp">COS</a></td>
-<td>Returns the cosine of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_cot.asp">COT</a></td>
-<td>Returns the cotangent of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_count.asp">COUNT</a></td>
-<td><p>Returns the number of records returned by a select query</p>
-<ul class="incremental">
-<li><p>For MyISAM the total row count is stored for each table soSELECT COUNT(*) FROM yourtableis an operation O(1). It just needs to read this value.</p></li>
-<li><p>For InnoDB the total row count is not stored so a full scan is required. This is an O(n) operation.</p></li>
-</ul>
-<blockquote>
-<p></p>
-<p>InnoDBdoes not keep an internal count of rows in a table. (In practice, this would be somewhat complicated due to multi-versioning.) To process aSELECT COUNT(*) FROM tstatement, InnoDBmust scan an index of the table, which takes some time if the index is not entirely in the buffer pool. If your table does not change often, using the MySQL query cache is a good solution. To get a fast count, you have to use a counter table you create yourself and let your application update it according to the inserts and deletes it does.<a href="http://dev.mysql.com/doc/refman/5.0/en/show-table-status.html">SHOW TABLE STATUS</a>also can be used if an approximate row count is sufficient.</p>
-<p></p>
-<p><a href="https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable">https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable</a></p>
-</blockquote></td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_degrees.asp">DEGREES</a></td>
-<td>Converts a value in radians to degrees</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_div.asp">DIV</a></td>
-<td>Used for integer division</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_exp.asp">EXP</a></td>
-<td>Returns e raised to the power of a specified number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_floor.asp">FLOOR</a></td>
-<td>Returns the largest integer value that is less than equal to a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_greatest.asp">GREATEST</a></td>
-<td>Returns the greatest value of the list of arguments</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_least.asp">LEAST</a></td>
-<td>Returns the smallest value of the list of arguments</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_ln.asp">LN</a></td>
-<td>Returns the natural logarithm of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_log.asp">LOG</a></td>
-<td>Returns the natural logarithm of a number, or the logarithm of a number to a specified base</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_log10.asp">LOG10</a></td>
-<td>Returns the natural logarithm of a number to base 10</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_log2.asp">LOG2</a></td>
-<td>Returns the natural logarithm of a number to base 2</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_max.asp">MAX</a></td>
-<td>Returns the maximum value in a set of values</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_min.asp">MIN</a></td>
-<td>Returns the minimum value in a set of values</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_mod.asp">MOD</a></td>
-<td>Returns the remainder of a number divided by another number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_pi.asp">PI</a></td>
-<td>Returns the value of PI</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_pow.asp">POW</a></td>
-<td>Returns the value of a number raised to the power of another number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_power.asp">POWER</a></td>
-<td>Returns the value of a number raised to the power of another number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_radians.asp">RADIANS</a></td>
-<td>Converts a degree value into radians</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_rand.asp">RAND</a></td>
-<td>Returns a random number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_round.asp">ROUND</a></td>
-<td>Rounds a number to a specified number of decimal places</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_sign.asp">SIGN</a></td>
-<td>Returns the sign of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_sin.asp">SIN</a></td>
-<td>Returns the sine of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_sqrt.asp">SQRT</a></td>
-<td>Returns the square root of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_sum.asp">SUM</a></td>
-<td>Calculates the sum of a set of values</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_tan.asp">TAN</a></td>
-<td>Returns the tangent of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_truncate.asp">TRUNCATE</a></td>
-<td>Truncates a number to the specified number of decimal places</td>
-</tr>
-</tbody>
-</table>
+| **Function** | **Description** |
+|---|---|
+| ABS | Returns the absolute value of a number |
+| ACOS | Returns the arc cosine of a number |
+| ASIN | Returns the arc sine of a number |
+| ATAN | Returns the arc tangent of one or two numbers |
+| ATAN2 | Returns the arc tangent of two numbers |
+| AVG | Returns the average value of an expression |
+| CEIL | Returns the smallest integer value that is `>`= to a number |
+| CEILING | Returns the smallest integer value that is `>`= to a number |
+| COS | Returns the cosine of a number |
+| COT | Returns the cotangent of a number |
+| COUNT | Returns the number of records returned by a select query. For MyISAM the total row count is stored for each table soSELECT COUNT(*) FROM yourtableis an operation O(1). It just needs to read this value. For InnoDB the total row count is not stored so a full scan is required. This is an O(n) operation. InnoDBdoes not keep an internal count of rows in a table. (In practice, this would be somewhat complicated due to multi-versioning.) To process aSELECT COUNT(*) FROM tstatement, InnoDBmust scan an index of the table, which takes some time if the index is not entirely in the buffer pool. If your table does not change often, using the MySQL query cache is a good solution. To get a fast count, you have to use a counter table you create yourself and let your application update it according to the inserts and deletes it does.SHOW TABLE STATUSalso can be used if an approximate row count is sufficient. https://stackoverflow.com/questions/5257973/mysql-complexity-of-select-count-from-mytable |
+| DEGREES | Converts a value in radians to degrees |
+| DIV | Used for integer division |
+| EXP | Returns e raised to the power of a specified number |
+| FLOOR | Returns the largest integer value that is less than equal to a number |
+| GREATEST | Returns the greatest value of the list of arguments |
+| LEAST | Returns the smallest value of the list of arguments |
+| LN | Returns the natural logarithm of a number |
+| LOG | Returns the natural logarithm of a number, or the logarithm of a number to a specified base |
+| LOG10 | Returns the natural logarithm of a number to base 10 |
+| LOG2 | Returns the natural logarithm of a number to base 2 |
+| MAX | Returns the maximum value in a set of values |
+| MIN | Returns the minimum value in a set of values |
+| MOD | Returns the remainder of a number divided by another number |
+| PI | Returns the value of PI |
+| POW | Returns the value of a number raised to the power of another number |
+| POWER | Returns the value of a number raised to the power of another number |
+| RADIANS | Converts a degree value into radians |
+| RAND | Returns a random number |
+| ROUND | Rounds a number to a specified number of decimal places |
+| SIGN | Returns the sign of a number |
+| SIN | Returns the sine of a number |
+| SQRT | Returns the square root of a number |
+| SUM | Calculates the sum of a set of values |
+| TAN | Returns the tangent of a number |
+| TRUNCATE | Truncates a number to the specified number of decimal places |
+
 
 ## Median
 
-select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from station) = (select count(s1.id) from station s1 where s1.lat_n > s.lat_n);
+`select round(s.lat_n,4) from station s where (select round(count(s.id)/2)-1 from station) = (select count(s1.id) from station s1 where s1.lat_n > s.lat_n);`
 
 ## MySQL Date Functions
 
-| **Function**                                                                        | **Description**                                                              |
-|--------------------|----------------------------------------------------|
-| [ADDDATE](https://www.w3schools.com/sql/func_mysql_adddate.asp)                     | Adds a time/date interval to a date and then returns the date                |
-| [ADDTIME](https://www.w3schools.com/sql/func_mysql_addtime.asp)                     | Adds a time interval to a time/datetime and then returns the time/datetime   |
-| [CURDATE](https://www.w3schools.com/sql/func_mysql_curdate.asp)                     | Returns the current date                                                     |
-| [CURRENT_DATE](https://www.w3schools.com/sql/func_mysql_current_date.asp)           | Returns the current date                                                     |
-| [CURRENT_TIME](https://www.w3schools.com/sql/func_mysql_current_time.asp)           | Returns the current time                                                     |
-| [CURRENT_TIMESTAMP](https://www.w3schools.com/sql/func_mysql_current_timestamp.asp) | Returns the current date and time                                            |
-| [CURTIME](https://www.w3schools.com/sql/func_mysql_curtime.asp)                     | Returns the current time                                                     |
-| [DATE](https://www.w3schools.com/sql/func_mysql_date.asp)                           | Extracts the date part from a datetime expression                            |
-| [DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp)                   | Returns the number of days between two date values                           |
-| [DATE_ADD](https://www.w3schools.com/sql/func_mysql_date_add.asp)                   | Adds a time/date interval to a date and then returns the date                |
-| [DATE_FORMAT](https://www.w3schools.com/sql/func_mysql_date_format.asp)             | Formats a date                                                               |
-| [DATE_SUB](https://www.w3schools.com/sql/func_mysql_date_sub.asp)                   | Subtracts a time/date interval from a date and then returns the date         |
-| [DAY](https://www.w3schools.com/sql/func_mysql_day.asp)                             | Returns the day of the month for a given date                                |
-| [DAYNAME](https://www.w3schools.com/sql/func_mysql_dayname.asp)                     | Returns the weekday name for a given date                                    |
-| [DAYOFMONTH](https://www.w3schools.com/sql/func_mysql_dayofmonth.asp)               | Returns the day of the month for a given date                                |
-| [DAYOFWEEK](https://www.w3schools.com/sql/func_mysql_dayofweek.asp)                 | Returns the weekday index for a given date                                   |
-| [DAYOFYEAR](https://www.w3schools.com/sql/func_mysql_dayofyear.asp)                 | Returns the day of the year for a given date                                 |
-| [EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp)                     | Extracts a part from a given date                                            |
-| [FROM_DAYS](https://www.w3schools.com/sql/func_mysql_from_days.asp)                 | Returns a date from a numeric datevalue                                      |
-| [HOUR](https://www.w3schools.com/sql/func_mysql_hour.asp)                           | Returns the hour part for a given date                                       |
-| [LAST_DAY](https://www.w3schools.com/sql/func_mysql_last_day.asp)                   | Extracts the last day of the month for a given date                          |
-| [LOCALTIME](https://www.w3schools.com/sql/func_mysql_localtime.asp)                 | Returns the current date and time                                            |
-| [LOCALTIMESTAMP](https://www.w3schools.com/sql/func_mysql_localtimestamp.asp)       | Returns the current date and time                                            |
-| [MAKEDATE](https://www.w3schools.com/sql/func_mysql_makedate.asp)                   | Creates and returns a date based on a year and a number of days value        |
-| [MAKETIME](https://www.w3schools.com/sql/func_mysql_maketime.asp)                   | Creates and returns a time based on an hour, minute, and second value        |
-| [MICROSECOND](https://www.w3schools.com/sql/func_mysql_microsecond.asp)             | Returns the microsecond part of a time/datetime                              |
-| [MINUTE](https://www.w3schools.com/sql/func_mysql_minute.asp)                       | Returns the minute part of a time/datetime                                   |
-| [MONTH](https://www.w3schools.com/sql/func_mysql_month.asp)                         | Returns the month part for a given date                                      |
-| [MONTHNAME](https://www.w3schools.com/sql/func_mysql_monthname.asp)                 | Returns the name of the month for a given date                               |
-| [NOW](https://www.w3schools.com/sql/func_mysql_now.asp)                             | Returns the current date and time                                            |
-| [PERIOD_ADD](https://www.w3schools.com/sql/func_mysql_period_add.asp)               | Adds a specified number of months to a period                                |
-| [PERIOD_DIFF](https://www.w3schools.com/sql/func_mysql_period_diff.asp)             | Returns the difference between two periods                                   |
-| [QUARTER](https://www.w3schools.com/sql/func_mysql_quarter.asp)                     | Returns the quarter of the year for a given date value                       |
-| [SECOND](https://www.w3schools.com/sql/func_mysql_second.asp)                       | Returns the seconds part of a time/datetime                                  |
-| [SEC_TO_TIME](https://www.w3schools.com/sql/func_mysql_sec_to_time.asp)             | Returns a time value based on the specified seconds                          |
-| [STR_TO_DATE](https://www.w3schools.com/sql/func_mysql_str_to_date.asp)             | Returns a date based on a string and a format                                |
-| [SUBDATE](https://www.w3schools.com/sql/func_mysql_subdate.asp)                     | Subtracts a time/date interval from a date and then returns the date         |
-| [SUBTIME](https://www.w3schools.com/sql/func_mysql_subtime.asp)                     | Subtracts a time interval from a datetime and then returns the time/datetime |
-| [SYSDATE](https://www.w3schools.com/sql/func_mysql_sysdate.asp)                     | Returns the current date and time                                            |
-| [TIME](https://www.w3schools.com/sql/func_mysql_time.asp)                           | Extracts the time part from a given time/datetime                            |
-| [TIME_FORMAT](https://www.w3schools.com/sql/func_mysql_time_format.asp)             | Formats a time by a specified format                                         |
-| [TIME_TO_SEC](https://www.w3schools.com/sql/func_mysql_time_to_sec.asp)             | Converts a time value into seconds                                           |
-| [TIMEDIFF](https://www.w3schools.com/sql/func_mysql_timediff.asp)                   | Returns the difference between two time/datetime expressions                 |
-| [TIMESTAMP](https://www.w3schools.com/sql/func_mysql_timestamp.asp)                 | Returns a datetime value based on a date or datetime value                   |
-| [TO_DAYS](https://www.w3schools.com/sql/func_mysql_to_days.asp)                     | Returns the number of days between a date and date "0000-00-00"            |
-| [WEEK](https://www.w3schools.com/sql/func_mysql_week.asp)                           | Returns the week number for a given date                                     |
-| [WEEKDAY](https://www.w3schools.com/sql/func_mysql_weekday.asp)                     | Returns the weekday number for a given date                                  |
-| [WEEKOFYEAR](https://www.w3schools.com/sql/func_mysql_weekofyear.asp)               | Returns the week number for a given date                                     |
-| [YEAR](https://www.w3schools.com/sql/func_mysql_year.asp)                           | Returns the year part for a given date                                       |
-| [YEARWEEK](https://www.w3schools.com/sql/func_mysql_yearweek.asp)                   | Returns the year and week number for a given date                            |
+| **Function** | **Description** |
+|---|---|
+| [ADDDATE](https://www.w3schools.com/sql/func_mysql_adddate.asp) | Adds a time/date interval to a date and then returns the date |
+| [ADDTIME](https://www.w3schools.com/sql/func_mysql_addtime.asp) | Adds a time interval to a time/datetime and then returns the time/datetime |
+| [CURDATE](https://www.w3schools.com/sql/func_mysql_curdate.asp) | Returns the current date |
+| [CURRENT_DATE](https://www.w3schools.com/sql/func_mysql_current_date.asp) | Returns the current date |
+| [CURRENT_TIME](https://www.w3schools.com/sql/func_mysql_current_time.asp) | Returns the current time |
+| [CURRENT_TIMESTAMP](https://www.w3schools.com/sql/func_mysql_current_timestamp.asp) | Returns the current date and time |
+| [CURTIME](https://www.w3schools.com/sql/func_mysql_curtime.asp) | Returns the current time |
+| [DATE](https://www.w3schools.com/sql/func_mysql_date.asp) | Extracts the date part from a datetime expression |
+| [DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp) | Returns the number of days between two date values |
+| [DATE_ADD](https://www.w3schools.com/sql/func_mysql_date_add.asp) | Adds a time/date interval to a date and then returns the date |
+| [DATE_FORMAT](https://www.w3schools.com/sql/func_mysql_date_format.asp) | Formats a date |
+| [DATE_SUB](https://www.w3schools.com/sql/func_mysql_date_sub.asp) | Subtracts a time/date interval from a date and then returns the date |
+| [DAY](https://www.w3schools.com/sql/func_mysql_day.asp) | Returns the day of the month for a given date |
+| [DAYNAME](https://www.w3schools.com/sql/func_mysql_dayname.asp) | Returns the weekday name for a given date |
+| [DAYOFMONTH](https://www.w3schools.com/sql/func_mysql_dayofmonth.asp) | Returns the day of the month for a given date |
+| [DAYOFWEEK](https://www.w3schools.com/sql/func_mysql_dayofweek.asp) | Returns the weekday index for a given date |
+| [DAYOFYEAR](https://www.w3schools.com/sql/func_mysql_dayofyear.asp) | Returns the day of the year for a given date |
+| [EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp) | Extracts a part from a given date |
+| [FROM_DAYS](https://www.w3schools.com/sql/func_mysql_from_days.asp) | Returns a date from a numeric datevalue |
+| [HOUR](https://www.w3schools.com/sql/func_mysql_hour.asp) | Returns the hour part for a given date |
+| [LAST_DAY](https://www.w3schools.com/sql/func_mysql_last_day.asp) | Extracts the last day of the month for a given date |
+| [LOCALTIME](https://www.w3schools.com/sql/func_mysql_localtime.asp) | Returns the current date and time |
+| [LOCALTIMESTAMP](https://www.w3schools.com/sql/func_mysql_localtimestamp.asp) | Returns the current date and time |
+| [MAKEDATE](https://www.w3schools.com/sql/func_mysql_makedate.asp) | Creates and returns a date based on a year and a number of days value |
+| [MAKETIME](https://www.w3schools.com/sql/func_mysql_maketime.asp) | Creates and returns a time based on an hour, minute, and second value |
+| [MICROSECOND](https://www.w3schools.com/sql/func_mysql_microsecond.asp) | Returns the microsecond part of a time/datetime |
+| [MINUTE](https://www.w3schools.com/sql/func_mysql_minute.asp) | Returns the minute part of a time/datetime |
+| [MONTH](https://www.w3schools.com/sql/func_mysql_month.asp) | Returns the month part for a given date |
+| [MONTHNAME](https://www.w3schools.com/sql/func_mysql_monthname.asp) | Returns the name of the month for a given date |
+| [NOW](https://www.w3schools.com/sql/func_mysql_now.asp) | Returns the current date and time |
+| [PERIOD_ADD](https://www.w3schools.com/sql/func_mysql_period_add.asp) | Adds a specified number of months to a period |
+| [PERIOD_DIFF](https://www.w3schools.com/sql/func_mysql_period_diff.asp) | Returns the difference between two periods |
+| [QUARTER](https://www.w3schools.com/sql/func_mysql_quarter.asp) | Returns the quarter of the year for a given date value |
+| [SECOND](https://www.w3schools.com/sql/func_mysql_second.asp) | Returns the seconds part of a time/datetime |
+| [SEC_TO_TIME](https://www.w3schools.com/sql/func_mysql_sec_to_time.asp) | Returns a time value based on the specified seconds |
+| [STR_TO_DATE](https://www.w3schools.com/sql/func_mysql_str_to_date.asp) | Returns a date based on a string and a format |
+| [SUBDATE](https://www.w3schools.com/sql/func_mysql_subdate.asp) | Subtracts a time/date interval from a date and then returns the date |
+| [SUBTIME](https://www.w3schools.com/sql/func_mysql_subtime.asp) | Subtracts a time interval from a datetime and then returns the time/datetime |
+| [SYSDATE](https://www.w3schools.com/sql/func_mysql_sysdate.asp) | Returns the current date and time |
+| [TIME](https://www.w3schools.com/sql/func_mysql_time.asp) | Extracts the time part from a given time/datetime |
+| [TIME_FORMAT](https://www.w3schools.com/sql/func_mysql_time_format.asp) | Formats a time by a specified format |
+| [TIME_TO_SEC](https://www.w3schools.com/sql/func_mysql_time_to_sec.asp) | Converts a time value into seconds |
+| [TIMEDIFF](https://www.w3schools.com/sql/func_mysql_timediff.asp) | Returns the difference between two time/datetime expressions |
+| [TIMESTAMP](https://www.w3schools.com/sql/func_mysql_timestamp.asp) | Returns a datetime value based on a date or datetime value |
+| [TO_DAYS](https://www.w3schools.com/sql/func_mysql_to_days.asp) | Returns the number of days between a date and date "0000-00-00" |
+| [WEEK](https://www.w3schools.com/sql/func_mysql_week.asp) | Returns the week number for a given date |
+| [WEEKDAY](https://www.w3schools.com/sql/func_mysql_weekday.asp) | Returns the weekday number for a given date |
+| [WEEKOFYEAR](https://www.w3schools.com/sql/func_mysql_weekofyear.asp) | Returns the week number for a given date |
+| [YEAR](https://www.w3schools.com/sql/func_mysql_year.asp) | Returns the year part for a given date |
+| [YEARWEEK](https://www.w3schools.com/sql/func_mysql_yearweek.asp) | Returns the year and week number for a given date |
+
 
 ## MySQL Advanced Functions
 
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 81%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Function</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_bin.asp">BIN</a></td>
-<td>Returns a binary representation of a number</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_binary.asp">BINARY</a></td>
-<td>Converts a value to a binary string</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_case.asp">CASE</a></td>
-<td>Goes through conditions and return a value when the first condition is met</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_cast.asp">CAST</a></td>
-<td>Converts a value (of any type) into a specified datatype</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_coalesce.asp"><strong>COALESCE</strong></a></td>
-<td><strong>Returns the first non-null value in a list</strong></td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_connection_id.asp">CONNECTION_ID</a></td>
-<td>Returns the unique connection ID for the current connection</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_conv.asp">CONV</a></td>
-<td>Converts a number from one numeric base system to another</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_convert.asp">CONVERT</a></td>
-<td>Converts a value into the specified datatype or character set</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_current_user.asp">CURRENT_USER</a></td>
-<td>Returns the user name and host name for the MySQL account that the server used to authenticate the current client</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_database.asp">DATABASE</a></td>
-<td>Returns the name of the current database</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_if.asp">IF</a></td>
-<td>Returns a value if a condition is TRUE, or another value if a condition is FALSE</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_ifnull.asp">IFNULL</a></td>
-<td>Return a specified value if the expression is NULL, otherwise return the expression</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_isnull.asp"><strong>ISNULL</strong></a></td>
-<td><p><strong>Returns 1 or 0 depending on whether an expression is NULL</strong></p>
-<blockquote>
-<p>To search for column values that areNULL, you cannot use anexpr = NULLtest. The following statement returns no rows, becauseexpr = NULLis never true for any expression:</p>
-</blockquote></td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_last_insert_id.asp">LAST_INSERT_ID</a></td>
-<td>Returns the AUTO_INCREMENT id of the last row that has been inserted or updated in a table</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_nullif.asp">NULLIF</a></td>
-<td>Compares two expressions and returns NULL if they are equal. Otherwise, the first expression is returned</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_session_user.asp">SESSION_USER</a></td>
-<td>Returns the current MySQL user name and host name</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_system_user.asp">SYSTEM_USER</a></td>
-<td>Returns the current MySQL user name and host name</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_user.asp">USER</a></td>
-<td>Returns the current MySQL user name and host name</td>
-</tr>
-<tr>
-<td><a href="https://www.w3schools.com/sql/func_mysql_version.asp">VERSION</a></td>
-<td>Returns the current version of the MySQL database</td>
-</tr>
-</tbody>
-</table>
+| **Function** | **Description** |
+|---|---|
+| BIN | Returns a binary representation of a number |
+| BINARY | Converts a value to a binary string |
+| CASE | Goes through conditions and return a value when the first condition is met |
+| CAST | Converts a value (of any type) into a specified datatype |
+| COALESCE | Returns the first non-null value in a list |
+| CONNECTION_ID | Returns the unique connection ID for the current connection |
+| CONV | Converts a number from one numeric base system to another |
+| CONVERT | Converts a value into the specified datatype or character set |
+| CURRENT_USER | Returns the user name and host name for the MySQL account that the server used to authenticate the current client |
+| DATABASE | Returns the name of the current database |
+| IF | Returns a value if a condition is TRUE, or another value if a condition is FALSE |
+| IFNULL | Return a specified value if the expression is NULL, otherwise return the expression |
+| ISNULL | Returns 1 or 0 depending on whether an expression is NULL. To search for column values that areNULL, you cannot use an expr = NULL test. |
+| LAST_INSERT_ID | Returns the AUTO_INCREMENT id of the last row that has been inserted or updated in a table |
+| NULLIF | Compares two expressions and returns NULL if they are equal. Otherwise, the first expression is returned |
+| SESSION_USER | Returns the current MySQL user name and host name |
+| SYSTEM_USER | Returns the current MySQL user name and host name |
+| USER | Returns the current MySQL user name and host name |
+| VERSION | Returns the current version of the MySQL database |
 
 <https://database.guide/4-ways-to-replace-null-with-a-different-value-in-mysql>
 
-- TheIFNULL()function
-- TheCOALESCE()function
-- TheIF()function combined with theIS NULL(orIS NOT NULL) operator
-- TheCASEexpression combined with theIS NULL(orIS NOT NULL) operator
+- The IFNULL() function
+- The COALESCE() function
+- The IF() function combined with theIS NULL (or IS NOT NULL) operator
+- The CASE expression combined with theIS NULL (or IS NOT NULL) operator
 
 ## Aggregate Functions
 
-| **Name**                                                                                                     | **Description**                                  |
-|--------------------------|----------------------------------------------|
-| [AVG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_avg)                       | Return the average value of the argument         |
-| [BIT_AND()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-and)               | Return bitwise AND                               |
-| [BIT_OR()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-or)                 | Return bitwise OR                                |
-| [BIT_XOR()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-xor)               | Return bitwise XOR                               |
-| [COUNT()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_count)                   | Return a count of the number of rows returned    |
-| [COUNT(DISTINCT)](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_count-distinct)  | Return the count of a number of different values |
-| [GROUP_CONCAT()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_group-concat)     | Return a concatenated string                     |
-| [JSON_ARRAYAGG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_json-arrayagg)   | Return result set as a single JSON array         |
-| [JSON_OBJECTAGG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_json-objectagg) | Return result set as a single JSON object        |
-| [MAX()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_max)                       | Return the maximum value                         |
-| [MIN()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_min)                       | Return the minimum value                         |
-| [STD()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_std)                       | Return the population standard deviation         |
-| [STDDEV()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_stddev)                 | Return the population standard deviation         |
-| [STDDEV_POP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_stddev-pop)         | Return the population standard deviation         |
-| [STDDEV_SAMP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_stddev-samp)       | Return the sample standard deviation             |
-| [SUM()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_sum)                       | Return the sum                                   |
-| [VAR_POP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-pop)               | Return the population standard variance          |
-| [VAR_SAMP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-samp)             | Return the sample variance                       |
-| [VARIANCE()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_variance)             | Return the population standard variance          |
+| ****Name**** | ****Description**** |
+|---|---|
+| [AVG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_avg) | Return the average value of the argument |
+| [BIT_AND()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-and) | Return bitwise AND |
+| [BIT_OR()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-or) | Return bitwise OR |
+| [BIT_XOR()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_bit-xor) | Return bitwise XOR |
+| [COUNT()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_count) | Return a count of the number of rows returned |
+| [COUNT(DISTINCT)](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_count-distinct) | Return the count of a number of different values |
+| [GROUP_CONCAT()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_group-concat) | Return a concatenated string |
+| [JSON_ARRAYAGG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_json-arrayagg) | Return result set as a single JSON array |
+| [JSON_OBJECTAGG()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_json-objectagg) | Return result set as a single JSON object |
+| [MAX()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_max) | Return the maximum value |
+| [MIN()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_min) | Return the minimum value |
+| [STD()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_std) | Return the population standard deviation |
+| [STDDEV()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_stddev) | Return the population standard deviation |
+| [STDDEV_POP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_stddev-pop) | Return the population standard deviation |
+| [STDDEV_SAMP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_stddev-samp) | Return the sample standard deviation |
+| [SUM()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_sum) | Return the sum |
+| [VAR_POP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-pop) | Return the population standard variance |
+| [VAR_SAMP()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_var-samp) | Return the sample variance |
+| [VARIANCE()](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_variance) | Return the population standard variance |
+
 
 ## Window Functions
 
@@ -409,22 +210,22 @@ Window functions can be simply explained as calculation functions similar to agg
 
 <https://www.toptal.com/sql/intro-to-sql-windows-functions>
 
-## What does a window function in SQL do?
+**What does a window function in SQL do?**
 
 A window function performs calculations over a set of rows, and uses information within the individual rows when required.
 
-## How is a window aggregate function different from a "group by" aggregate function?
+**How is a window aggregate function different from a "group by" aggregate function?**
 
 With "group by," you can only aggregate columns not in the "group by" clause. Window functions allow you to gather both aggregate and non-aggregate values at once.
 
-## Can you use more than one window function in a single SELECT statement?
+**Can you use more than one window function in a single SELECT statement?**
 
 Yes, and this is a great advantage, since the window "frames" in each can be based on different filters.
 
-## Can I access previous data with window functions?
+**Can I access previous data with window functions?**
 
 Yes, you can access both previous and future rows, using the LAG and LEAD functions.
 
-## Can I generate running totals with window functions?
+**Can I generate running totals with window functions?**
 
 Yes, you can add the ORDER BY clause to produce running totals on each row.

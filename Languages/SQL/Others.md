@@ -34,19 +34,13 @@ Note that if you use both a unique constraint and a unique index on the same fie
 
 ## single vs multiple row inserts
 
-2 rows at a time: 3.5 - 3.5 seconds
-
-5 rows at a time: 2.2 - 2.2 seconds
-
-10 rows at a time: 1.7 - 1.7 seconds
-
-50 rows at a time: 1.17 - 1.18 seconds
-
-100 rows at a time: 1.1 - 1.4 seconds
-
-500 rows at a time: 1.1 - 1.2 seconds
-
-1000 rows at a time: 1.17 - 1.17 seconds
+- 2 rows at a time: 3.5 - 3.5 seconds
+- 5 rows at a time: 2.2 - 2.2 seconds
+- 10 rows at a time: 1.7 - 1.7 seconds
+- 50 rows at a time: 1.17 - 1.18 seconds
+- 100 rows at a time: 1.1 - 1.4 seconds
+- 500 rows at a time: 1.1 - 1.2 seconds
+- 1000 rows at a time: 1.17 - 1.17 seconds
 
 The time required for inserting a row is determined by the following factors, where the numbers indicate approximate proportions:
 

@@ -175,27 +175,23 @@ Modified: 2020-11-05 15:23:19 +0500
 - Google Maps Platform
 - Apigee API Platform
 
-Enterprise API management for multi-cloud environments
+  Enterprise API management for multi-cloud environments
 
-AnAPI proxyis your interface to developers that want to use your backend services. Rather than having them consume those services directly, they access an Edge API proxy that you create. With a proxy, you can provide value-added features such as:
+  An API proxyis your interface to developers that want to use your backend services. Rather than having them consume those services directly, they access an Edge API proxy that you create. With a proxy, you can provide value-added features such as:
 
-- Security
-- Rate limiting
-- Quotas
-- Caching & persistence
-- Analytics
-- Transformations
-- CORS
-- Fault handling
+  - Security
+  - Rate limiting
+  - Quotas
+  - Caching & persistence
+  - Analytics
+  - Transformations
+  - CORS
+  - Fault handling
 
 - API Monetization
-
 - Developer Portal
-
 - API Analytics
-
 - Apigee Sense
-
 - Cloud Endpoints
 
 API management apps built on Google Cloud
@@ -203,118 +199,72 @@ API management apps built on Google Cloud
 ## Management Tools
 
 - Stackdriver Overview
-
 - Monitoring
-
 - Logging
-
 - Error Reporting
-
 - Trace
-
 - Debugger
-
 - Profiler
-
 - Cloud Deployment Manager
-
 - Cloud Console
-
 - Cloud Shell
   - ephemeral vm
-
 - Cloud Mobile App
-
 - Cloud Billing API
-
 - Cloud APIs
 
 ## Networking
-
 - Virtual Private Cloud (VPC)
-
 - Cloud Load Balancing
-
 - Cloud Armor
-
 - Cloud CDN
-
 - Cloud Interconnect
-
 - Cloud DNS
-
 - Network Service Tiers
 
-1## Cloud AI
-
+## Cloud AI
 - Cloud AutoML
-
 - Cloud TPU
-
 - Cloud Machine Learning Engine
-
 - Cloud Job Discovery
-
 - Dialogflow Enterprise Edition
-
 - Cloud Natural Language
-
 - Cloud Speech-to-Text
-
 - Cloud Text-to-Speech
-
 - Cloud Translation API
-
 - Cloud Vision API
-
 - Cloud Video Intelligence
 
-1## Data Transfer
-
+## Data Transfer
 - Google Transfer Appliance
-
 - Cloud Storage Transfer Service
-
 - Google BigQuery Data Transfer Service
 
-1## Developer Tools
-
+## Developer Tools
 - Cloud SDK
-
 - Container Registry
-
 - Container Builder
-
 - Cloud Source Repositories
-
 - Cloud Tools for Intellij
-
 - Cloud Tools for Powershell
-
 - Cloud Tools for Visual Studio
-
 - Cloud Tools for Eclipse
-
 - Gradle App Engine Plugin
-
 - Cloud Test Lab
 
-1## Productivity Tools
-
+## Productivity Tools
 - G Suite
-
 - Hire
-
 - Chrome Android
 
 ## Gcloud Commands
 
+```bash
 gcloud auth list
 
 gcloud auth login
 
-gcloud config set project <project-id>
-
+gcloud config set project project-id
 gcloud config set compute/zone asia-south1-a
 
 gcloud iam service-accounts create [NAME]
@@ -324,41 +274,37 @@ gcloud projects add-iam-policy-binding playground-209220 --member "serviceAccoun
 gcloud iam service-accounts keys create deepak-cred.json --iam-account deepak-mac@playground-209220.iam.gserviceaccount.com
 
 gcloud container clusters list
-
 gcloud container clusters create <cluster_name>
-
 gcloud container clusters get-credentials <cluster_name>
 
 gcloud container clusters update your-first-cluster-1 --enable-autoscaling --min-nodes 1 --max-nodes 4 --zone asia-south1-a
 
 gcloud container clusters describe your-first-cluster-1 --zone asia-south1-a
-
 gcloud container node-pools list --cluster your-first-cluster-1
 
-gcloud sql instances create postgres-instance --database-version POSTGRES_9_6 --tier db-g1-small #create a postgres instance
+gcloud sql instances create postgres-instance --database-version POSTGRES_9_6 --tier db-g1-small  #create a postgres instance
+gcloud sql users set-password postgres --host=% --instance postgres-instance --password [PASSWORD]  #set a password for the postgres instance
 
-gcloud sql users set-password postgres --host=% --instance postgres-instance --password [PASSWORD] #set a password for the postgres instance
+gcloud compute addresses create endpoints-ip --region us-central1  #create a static ip
 
-gcloud compute addresses create endpoints-ip --region us-central1 #create a static ip
+gcloud compute ssh --project deepak-project-619 --zone us-east1-b root@instance-1
+```
 
 ## POC problems
 
 1. Not able to use cloud dataflow for transforming and passing data to smap
-
 2. Cloud dataflow uses apache beam which is in Java and all functions must be written in java
-
 3. Data visualization must be created from scratch using cloud datastudio
-
 4. Not great device management, no control on devices inbuilt using cloud iot core
 
 ## References
 
-## Google BigTable - <https://cloudplatform.googleblog.com/2018/04/what-we-learned-doing-serverless-the-Smart-Parking-story.html>
+**Google BigTable** - <https://cloudplatform.googleblog.com/2018/04/what-we-learned-doing-serverless-the-Smart-Parking-story.html>
 
 <https://github.com/gregsramblings/google-cloud-4-words>
 
 <https://medium.com/google-cloud/13-most-common-google-cloud-reference-architectures-23630b46326d>
 
-![API PLATFORM AND ECOSYSTEMS API API Mor*tization AR Platfom AR attxks Clm_'d API gatmay AR man g r tent p«tal & •rketDl*e GOOGLE MAPS Distance Matrix AR Maps AR Maps JnaS@t Maps Maps Stx fot OS Maps State API Maps unity Maps uRLs gaps JS API Places SDK for SDK jos Street Static AA G sullE PLAIFORM Apps 9 ript Chat Bots Markup G Marketd*e G suite APWSOKs (FIREBASE) CWd FirebßO for Fir&ase A.•8 Tetim Vireo-as e App Fir&ase CWd Vireo-as e Dynamic Vireo-as e Fimbase Vireo-as e Remote Config Lab Analytics for ML Kit for Firebase GCP FOUNDATIONAL OPEN ADDITIONAL RESOURCES Goo* Goo* GCP Vireo-as e G Suite Blog Goo* Certificatory Goo* System Status Goo* Goo* Goo* Blog Goo* Blog Goo* Sec.---it' 'aggie Regiorz Network gap stMe md Wt•driwl Ob*ct md seeing Cruh æpMt"g "ytd Create AMB test App/Goagle each Lin to cmtent with Cmtutual data configure instaled e analytics fot SOURCE PROJECTS Batch"' data SeCwe fot Of Chud natiw framework um.com/gex'g api* e com.'certifeation e com-'tra map spl at' cam Google Cloud DEVELOPER'S CHEAT SHEET v2019.7.17 Created by the Google Developer Relations Team at b Feedback ? ad&eg BC-ate' Web maps gaps fM gaps SOK for OS Web S tatZ maps Lhity f« scheme for '&tadata (REST) maces OS Stat* stret C.t to Ass i stive app ewrything Gtmd Contextual n ConætionA bots Chat Cmte tmge provision manage Crute edit Red and Mite Read and Mite Cmte edit p---tatou Drive f" sekction unge G Suite hteracti•ae schema.org integrated Inks. COMPUTE App Run Storage DATABASES Chud Éire-st ore Chud DATA AND ANALYIICS 8igQmy B EngiM Mn%d Serverkss GFus. TRIS. Disks phtfom Objet storage and *æSS AnhiW W -at tached VS Server Petabytæsale, DB docunent De Red S DB an*yttS ](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image4.png)
+![API PLATFORM AND ECOSYSTEMS](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image4.png)
 
-![ОМА AWLY1]cs (СОМТ,) Стив Ожа AliML А1 Motebo&s Auta'& Auta'& тападе St.'batch Ма•-.авев ј..у*ег Spark Hadoop G10baI Metadma data p'atf--- fw Dat* Ьу J.ytMt*р-аг*ј AutoSc*d тове' CuStT Cu5t3-T ---е pnhg nd Сопче" ta ЈОЬ ML tot vide• НагВ.ч-ме МИ Стеже АМуп„ Create QrriM реет .•hth GCP .р. to ИРС KLI*.'0RkAG (CONI-} С1оиВ мат Sery•te Virtu*%tvat• ОГ THlNGS (loT) Ало stcuawy Ассезз Театара Au•t С1оиВ Ома А7 %Оху Кеу С1оиВ SeCwity C"tu E.t 0eteCt& S---ty Кеу "twity Кеу С1оиВ рт ку Кеу Ских SeCwity S---'ty Кеу Кеу 0005 N•twOrE V*tu' pMte "rviCe ---h tnmc ---g---t %ftware *Симу Audt С1из*у ап' SkWity ИМСе Кеу ртом 3eCwity ассезз Фу T.f*t« (2FA) VPC &ntjty.N5M дер Кеу %rviCe PO«t 'т..мсну, ЕП9ће SeCwjty Кеу T.f*t« AutMBtitati66 (ИА) Ое•се T00LS Ск»а АРЕ ста ВМД М Сом*МоЬ' Stx'driw Repwt'ng Sta&driw Тг*. aev•ELOPER sok 'ГтВ hte"ij StudiO Стив C%ud Стив C%ud Стив C%ud А 8ui&9 Т.ап51аьоп АР] Vvdo АВ Se*th ОМ ted Grad [e Мр ЕПфМ MlGu ТО GCP Ск»а оаеа StN* RedBMt M@ate Меа Ш Сопри& ЕПОМ nd Сом t30B 'ЧеЬ,ЬиВ infraStmCtw• ---оуТМИ GCP В termM,-'CU Арр r---t« САЈ ср Арр wf--- СИ GCP Wted g't Маче" јоЬ 1nteWJ GO tod ср StLM СР tONg prtvate М--- Арр to ВА data Мае fw R.dghft tO fw Teadata to УМ' GkE Сопри& ЕП9М tOOB VM toe сп'•агми€п он • • •](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image5.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image5.png)
