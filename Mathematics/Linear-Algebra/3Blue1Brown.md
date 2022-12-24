@@ -7,52 +7,39 @@ Modified: 2018-12-30 18:49:26 +0500
 ---
 
 1. Vectors
-
 2. Linear combinations, span and basis vectors
-
 3. Linear transformations and matrices
-
 4. Matrix multiplication as composition
-
 5. Three dimensional linear transformation
-
 6. The determinant
-
 7. Inverse matrices, column space, rank and null space
-
 8. Non square matrices
-
 9. Dot product and duality
-
 10. Cross product
-
 11. Cross product in the light of linear transformations
-
 12. Change of basis
-
 13. Eigenvectors and eigenvalues
-
 14. Abstract vector spaces
-1. **Vectors**
 
-   - Vector addition (adding two vectors)
+## Vectors
 
-   - Scalar multiplication (increasing the length of a vector by a given number)
+- Vector addition (adding two vectors)
+- Scalar multiplication (increasing the length of a vector by a given number)
 
-2. **Linear combinations, span and basis vectors**
+## Linear combinations, span and basis vectors
 ![image](media/3Blue1Brown-image1.png)
 
 called as i hat and j hat
 ![image](media/3Blue1Brown-image2.png)
 
-## Linearly dependent vectors - If one vector can be removed without changing the span of the vectors. i.e. one of the vectors can be expressed as a linear combination of the other vector
+**Linearly dependent vectors** - If one vector can be removed without changing the span of the vectors. i.e. one of the vectors can be expressed as a linear combination of the other vector
 
 ![image](media/3Blue1Brown-image3.png)
 ![image](media/3Blue1Brown-image4.png)
 
-## Basis -**The** basis of a vector space is a set of linearly independent vectors that span the full space
+**Basis** - The basis of a vector space is a set of linearly independent vectors that span the full space
 
-3. **Linear Transformations and Matrices**
+## Linear Transformations and Matrices
 
 For transformations to be linear, there are two property
 
@@ -60,7 +47,8 @@ For transformations to be linear, there are two property
 - Origin must remain fixed in place
 
 Grid lines remain parallel and evenly spaced
-4.  **Matrix Multiplication as composition**
+
+## Matrix Multiplication as composition
 
 If you apply a rotation transformation followed by a shear transformation, the combined effect is a composition of both rotation and shear transformation
 
@@ -69,9 +57,10 @@ In matrix multiplication, order matters
 
 ![ITV 「 ](media/3Blue1Brown-image6.png)
 But Matrix multiplication is associative i.e. (AB)C = A(BC)
-5.  **Three dimensional linear transformations**
 
-6. **The determinant**
+## Three dimensional linear transformations
+
+## The determinant
 
 ![image](media/3Blue1Brown-image7.png)
 
@@ -86,16 +75,17 @@ Volume of the parallelepiped
 ![det l) ad bc ](media/3Blue1Brown-image8.png)
 ![det a det det ](media/3Blue1Brown-image9.png)
 ![image](media/3Blue1Brown-image10.png)
-7.  **Inverse matrices, column space, rank and null space**
-    -  **Gaussian Elimination**
-    -  **Row echelon form**
-    -  **Linear system of equations**
+
+## Inverse matrices, column space, rank and null space
+- Gaussian Elimination
+- Row echelon form
+- Linear system of equations
 
 ![image](media/3Blue1Brown-image11.png)-  Inverse Transformation
 
-A^-1^ A = [[1 0] [0 1]] Identity Transformation (changes nothing)
+`A^-1^ A = [[1 0] [0 1]]` Identity Transformation (changes nothing)
 
-Until det(A) not equal to 0, A^-1^ exists-  Rank - Number of dimensions in the output
+Until `det(A) not equal to 0, A^-1^ exists` -  Rank - Number of dimensions in the output
     -  Rank 1 - One dimensional line
     -  Rank 2 - Two dimensional plane
     -  Rank 3 - Three dimensional 3d space
@@ -105,11 +95,13 @@ Until det(A) not equal to 0, A^-1^ exists-  Rank - Number of dimensions in the o
 - Null Space Kernel - All the vectors that squishes into origin when transformation takes place
 
 In Ax = v, when v happens to be the zero vector, null space gives all of the possible solution to the linear equation
-8.  **Non Square Matrices as transformations between dimensions**
-    -  **A 2x3 matrix i.e. there are 2 rows and 3 columns represent that the transformation starts in 3 dimension and the landing space is represented in 2 dimension**
+
+## Non Square Matrices as transformations between dimensions**
+-  A 2x3 matrix i.e. there are 2 rows and 3 columns represent that the transformation starts in 3 dimension and the landing space is represented in 2 dimension
 
 ![image](media/3Blue1Brown-image12.png)
-9.  **Dot products and duality**
+
+## Dot products and duality
 
 Matching coordinates, multiplying pair and adding them together.
 
@@ -123,7 +115,7 @@ If we projected vector w onto the line that passes through the origin and the ti
 - Order doesn't matter, V.W = W.V
 - Dot product is a very useful geometric tool for understanding projections, and for testing whether or not vectors tend to point in the same direction
 
-10. **Cross Products**
+## Cross Products
 
 ![image](media/3Blue1Brown-image16.png)
 If v is to the right of w, than cross product is positive
@@ -143,27 +135,33 @@ Cross product of two vectors is a vector that is the area of the parallelogram a
 ![マ マ ](media/3Blue1Brown-image23.png)
 ![image](media/3Blue1Brown-image24.png)
 ![image](media/3Blue1Brown-image25.png)
-11. **Cross Product in the light of linear transformations**
+
+## Cross Product in the light of linear transformations
+
 ![image](media/3Blue1Brown-image26.png)
 ![image](media/3Blue1Brown-image27.png)
 ![image](media/3Blue1Brown-image28.png)
 ![image](media/3Blue1Brown-image29.png)
-12. **Change of basis**
-    -  **Coordinate system**
-    -  **Alternate coordinate system**
-    -  **How do you translate between coordinate systems**
-    -  **Matrix multiplication by "Inverse change of basis matrix"**
-    -  **How to translate a matrix**
-        -  **Start with any vectors written in Jennifer's language**
-        -  **Translate it to our language using change of basis matrix**
-        -  **Apply transformation matrix in our language, this tells us where that vector lands but still in our language**
-        -  **Apply the inverse change of basis matrix to get the transformed vector but in Jennifer's language**
+
+## Change of basis
+-  Coordinate system
+-  Alternate coordinate system
+-  How do you translate between coordinate systems
+-  Matrix multiplication by "Inverse change of basis matrix"
+-  How to translate a matrix
+    - Start with any vectors written in Jennifer's language
+    - Translate it to our language using change of basis matrix
+    - Apply transformation matrix in our language, this tells us where that vector lands but still in our language
+    - Apply the inverse change of basis matrix to get the transformed vector but in Jennifer's language
+
 ![image](media/3Blue1Brown-image30.png)
 ![image](media/3Blue1Brown-image31.png)
 ![image](media/3Blue1Brown-image32.png)
-13. **Eigenvectors and eigenvalues**
+
+## Eigenvectors and eigenvalues
 
 Eigenvectors - the vectors that doesn't change its span after a transformation. The factor by which they are changed (either stretched or squished) during the transformation is eigenvalue.
+
 ![image](media/3Blue1Brown-image33.png)
 ![image](media/3Blue1Brown-image34.png)
 ![image](media/3Blue1Brown-image35.png)-  Negative eigenvalue corresponds to flipping during transformation
@@ -182,7 +180,8 @@ All the basis vectors are eigenvectors, with the diagonal entries of this matrix
 We can change our coordinate system so that our eigenvectors are our basis vectors
 
 ![Eigen QSis ](media/3Blue1Brown-image37.png)
-14. **Abstract Vector Spaces**
+
+## Abstract Vector Spaces
 
 ![image](media/3Blue1Brown-image38.png)-  Additivity - If you add two vectors and then perform a transformation, the result is same vector for the transformed addition of vectors and the previous addition vector.
 
@@ -193,4 +192,5 @@ We can change our coordinate system so that our eigenvectors are our basis vecto
 ## References
 
 [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-![Vectors vs. ](media/3Blue1Brown-image40.jpg)
+
+![Vectors](media/3Blue1Brown-image40.jpg)

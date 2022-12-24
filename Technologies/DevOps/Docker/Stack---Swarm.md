@@ -49,7 +49,7 @@ docker network create --driver overlay --subnet 10.0.9.0/24 --gateway 10.0.9.99 
 docker service create --replicas 3 --name my-web --network my-network nginx  #attach a service to overlay network
 
 # scale a container to desired replicas
-docker service scale SERVICE=REPLICAS 
+docker service scale SERVICE=REPLICAS
 ex - docker service scale kafkaconsumer_kafka-consumer=3
 
 Ingress commands
@@ -80,6 +80,7 @@ docker service update --force --update-parallelism 1 --update-delay 30s <service
 `docker service logs -f --raw --timestamps kafkaconsumer_kafka-consumer`
 
 ## Kubernetes vs Docker Swarm
+
 | ****Kubernetes**** | ****Docker Swarm**** |
 |---|---|
 | Developed by Google | Developed by Docker Swarm |
