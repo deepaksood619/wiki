@@ -6,145 +6,125 @@ Modified: 2020-11-05 15:23:19 +0500
 
 ---
 
-1. **Compute**
+## Compute
 
-   - Compute Engine
+- Compute Engine
+- App Engine
 
-   - App Engine
-
-Serverless application that completely abstracts away infrastructure so you focus only on code
+  Serverless application that completely abstracts away infrastructure so you focus only on code
 
 - Kubernetes Engine (GKE)
-
 - Cloud Functions
 
-Serverless environment to build and connect cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. Your Cloud Function is triggered when an event being watched is fired. Your code executes in a fully managed environment. There is no need to provision any infrastructure or worry about managing any servers.
+  Serverless environment to build and connect cloud services. With Cloud Functions you write simple, single-purpose functions that are attached to events emitted from your cloud infrastructure and services. Your Cloud Function is triggered when an event being watched is fired. Your code executes in a fully managed environment. There is no need to provision any infrastructure or worry about managing any servers.
 
-Cloud Functions are written in Javascript and execute in a Node.js v6.11.5 environment on Google Cloud Platform. You can take your Cloud Function and run it in any standard Node.js runtime which makes both portability and local testing a breeze.
+  Cloud Functions are written in Javascript and execute in a Node.js v6.11.5 environment on Google Cloud Platform. You can take your Cloud Function and run it in any standard Node.js runtime which makes both portability and local testing a breeze.
 
-1. HTTP Functions
+  1. HTTP Functions
 
-2. Background Functions
+  2. Background Functions
 
 - Cloud Scheduler
 
-Fully managed cron job service
+  Fully managed cron job service
 
-<https://cloud.google.com/scheduler/docs/quickstart>
+  <https://cloud.google.com/scheduler/docs/quickstart>
 
-2. **Big Data**
+## Big Data
 
-   - Big Query
+- Big Query
 
-BigQueryis a serverless data warehouse. Tables in BigQuery are organized into datasets.
+  BigQuery is a serverless data warehouse. Tables in BigQuery are organized into datasets.
 
 - Cloud Dataflow
-
 - Cloud Dataproc
 
-Cloud Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Cloud Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them.
+  Cloud Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and machine learning. Cloud Dataproc automation helps you create clusters quickly, manage them easily, and save money by turning clusters off when you don't need them.
 
 - Cloud Composer
-
 - Cloud Datalab
-
 - Cloud Dataprep
-
 - Cloud Pub/Sub
 
-Geo-redundant real-time messaging for all message sizes and velocities
+  Geo-redundant real-time messaging for all message sizes and velocities
 
 - Genomics
-
 - Google Data Studio
 
-3. **Identity & Security**
+## Identity & Security
 
-   - Cloud Identity
+- Cloud Identity
+- Cloud IAM
+- Cloud Identity-Aware Proxy
+- Cloud Data Loss Prevention API
+- Security Key Enforcement
+- Cloud Resource Manager
+- Cloud Security Command Center
+- Cloud Security Scanner
+- Access Transparency
 
-   - Cloud IAM
+## Internet of Things
 
-   - Cloud Identity-Aware Proxy
+- Cloud IoT Core
 
-   - Cloud Data Loss Prevention API
+## Professional Services
 
-   - Security Key Enforcement
+- Consulting
+- Technical Account Management
+- Advanced Solutions Lab
+- Training
+- Certification
+- QwikLabs
 
-   - Cloud Resource Manager
+## Storage and Databases
 
-   - Cloud Security Command Center
+- Cloud Storage
 
-   - Cloud Security Scanner
-
-   - Access Transparency
-
-4. **Internet of Things**
-
-   - Cloud IoT Core
-
-5. **Professional Services**
-
-   - Consulting
-
-   - Technical Account Management
-
-   - Advanced Solutions Lab
-
-   - Training
-
-   - Certification
-
-   - QwikLabs
-
-6. **Storage and Databases**
-
-   - Cloud Storage
-
-Geo-redundant object storage for high QPS (Query Per Second) needs
+  Geo-redundant object storage for high QPS (Query Per Second) needs
 
 - gsutil
 
-Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
+  Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
 
 - Cloud SQL
-
 - Cloud Bigtable
+- **Cloud Spanner**
 
-- Cloud Spanner: No-Compromise Relational Database Service
+  No-Compromise Relational Database Service
 
-Cloud Spanner is the only enterprise-grade, globally-distributed, and strongly consistent database service built for the cloud specifically to combine the benefits of relational database structure with non-relational horizontal scale. This combination delivers high-performance transactions and strong consistency across rows, regions, and continents with an industry-leading 99.999% availability SLA, no planned downtime, and enterprise-grade security. Cloud Spanner revolutionizes database administration and management and makes application development more efficient.
+  Cloud Spanner is the only enterprise-grade, globally-distributed, and strongly consistent database service built for the cloud specifically to combine the benefits of relational database structure with non-relational horizontal scale. This combination delivers high-performance transactions and strong consistency across rows, regions, and continents with an industry-leading 99.999% availability SLA, no planned downtime, and enterprise-grade security. Cloud Spanner revolutionizes database administration and management and makes application development more efficient.
 
-Its basically a CP system (Consistency - Partition tolerance)
+  Its basically a CP system (Consistency - Partition tolerance)
 
-<https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem>
+  <https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem>
 
-<https://cloud.google.com/spanner/docs/true-time-external-consistency>
+  <https://cloud.google.com/spanner/docs/true-time-external-consistency>
 
-<https://ai.google/research/pubs/pub45855>
+  <https://ai.google/research/pubs/pub45855>
 
-<https://thedataguy.in/internals-of-google-cloud-spanner>
+  <https://thedataguy.in/internals-of-google-cloud-spanner>
 
-A Spanner cluster*[contains](https://cloud.google.com/spanner/docs/replication#replica_types) multiple read-write, may contain some read-only and some witness replicas.
+  A Spanner cluster [contains](https://cloud.google.com/spanner/docs/replication#replica_types) multiple read-write, may contain some read-only and some witness replicas.
 
-- Read-write replicas serve reads and writes.
-- Read-only replicas serve reads.
-- Witnesses don't serve data but participate in leader election.
+  - Read-write replicas serve reads and writes.
+  - Read-only replicas serve reads.
+  - Witnesses don't serve data but participate in leader election.
 
-Read-only and witness replicas are only used for multi-regional Spanner clusters that can span across multiple geographical regions. Single region clusters only use read-write replicas. Each replica lives in a different zone in the region to avoid single point of failure due to zonal outages.
+  Read-only and witness replicas are only used for multi-regional Spanner clusters that can span across multiple geographical regions. Single region clusters only use read-write replicas. Each replica lives in a different zone in the region to avoid single point of failure due to zonal outages.
 
-- Fully managed
-  - No versioning (you don't know which spanner you are using)
-  - No messing with tablespaces
-  - No software patching
-  - No upgrades
-  - No downtime
-  - No index rebuilds
-  - No resharding
-  - Dynamically scalable (up and down) within seconds
+  - Fully managed
+    - No versioning (you don't know which spanner you are using)
+    - No messing with tablespaces
+    - No software patching
+    - No upgrades
+    - No downtime
+    - No index rebuilds
+    - No resharding
+    - Dynamically scalable (up and down) within seconds
 
-![What workloads fit Cloud Spanner best? 01 Sharded RDBMS Manually sharding is difficult. People do it to achieve scale. Cloud Spanner gives you relational data and scale. 02 Scalable relational data Cloud Spanner is a scalable relational database. Instead of moving to NoSQL, move from one relational database to a more scalable relational database. 03 Manageability/HA Cloud Spanner is highly automated. Schema changes and patching are all online operations. Cloud Spanner does not have any planned downtime and comes with up to a 99.999% availability SLA. 04 Multi-region Write once and have Cloud Spanner automatically replicate your data to multiple regions. Most customers use regional instances, but multi-region is there if you need it. ](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image1.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image1.png)
 
-![For which app types? 01 Mission-critical Mission/business-critical apps where downtime is not an option. Custom build with a dedicated engineering team. 02 SaaS Leading SaaS providers choose Cloud Spanner because of its scalability. Currently limits on number of databases per instance make this more attractive to single-tenant SaaS models. 03 Gaming Gaming companies love Cloud Spanner for the unique combination of relational data, high throughput, and global reach. ](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image2.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image2.png)
 
 - When cloud spanner fits less well
   - Lift and shift
@@ -173,28 +153,27 @@ Read-only and witness replicas are only used for multi-regional Spanner clusters
     - Managed export/import
     - Historial data snapshots
     - System-managed backups
-- TrueTime and MVCC
-  - Linearization - C of "ACID"
-  - Serialization - I of "ACID"
-  - Read snapshots - MVCC to avoid read locks = External Consistency
+  - TrueTime and MVCC
+    - Linearization - C of "ACID"
+    - Serialization - I of "ACID"
+    - Read snapshots - MVCC to avoid read locks = External Consistency
 
-- Can we deploy in single region?
+  - Can we deploy in single region?
 
 - Cloud Datastore
 
-## Highly-scalable NoSQL database. It automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, and indexes
+  Highly-scalable NoSQL database. It automatically handles sharding and replication, providing you with a highly available and durable database that scales automatically to handle your applications' load. Datastore provides a myriad of capabilities such as ACID transactions, SQL-like queries, and indexes
 
 - Persistent Disk
 
 - Cloud Memorystore
 
-![Database Management Portfolio on GCP In-memory Cloud Memorystore Managed Redis & MemcacheD Non-relational / NoSQL Relational Cloud SQL Managed MySQL, PostgreSQL, & SQL Server Strategic Data warehouse Partners Cloud Serverless, scalable document store Cloud Bigtable Low latency, scalable wide column store Cloud Spanner Scalable relational database BigQuery Enterprise data warehouse Built and managed by Google e redis DB mongo elastic ORTRSTRX.: O influxdata Oneoqj €;eonfluent Built and managed by Partners (as a service or Anthos) Databases On GCE/GKE SAP HANA Microsoft SQL Server Oracle IBM Db2 MySQL PostgreSQL MariaDB Non-relational Managed by you and/or Partners Google Cloud ](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image3.png)
+![image](../../media/Cloud-Others-Google-Cloud-Platform---Managed-Services-image3.png)
 
-7. **API Platform and Ecosystems**
+## API Platform and Ecosystems
 
-   - Google Maps Platform
-
-   - Apigee API Platform
+- Google Maps Platform
+- Apigee API Platform
 
 Enterprise API management for multi-cloud environments
 
@@ -221,52 +200,52 @@ AnAPI proxyis your interface to developers that want to use your backend service
 
 API management apps built on Google Cloud
 
-8. **Management Tools**
+## Management Tools
 
-   - Stackdriver Overview
+- Stackdriver Overview
 
-   - Monitoring
+- Monitoring
 
-   - Logging
+- Logging
 
-   - Error Reporting
+- Error Reporting
 
-   - Trace
+- Trace
 
-   - Debugger
+- Debugger
 
-   - Profiler
+- Profiler
 
-   - Cloud Deployment Manager
+- Cloud Deployment Manager
 
-   - Cloud Console
+- Cloud Console
 
-   - Cloud Shell
-        - ephemeral vm
+- Cloud Shell
+  - ephemeral vm
 
-   - Cloud Mobile App
+- Cloud Mobile App
 
-   - Cloud Billing API
+- Cloud Billing API
 
-   - Cloud APIs
+- Cloud APIs
 
-9. **Networking**
+## Networking
 
-   - Virtual Private Cloud (VPC)
+- Virtual Private Cloud (VPC)
 
-   - Cloud Load Balancing
+- Cloud Load Balancing
 
-   - Cloud Armor
+- Cloud Armor
 
-   - Cloud CDN
+- Cloud CDN
 
-   - Cloud Interconnect
+- Cloud Interconnect
 
-   - Cloud DNS
+- Cloud DNS
 
-   - Network Service Tiers
+- Network Service Tiers
 
-10. **Cloud AI**
+1## Cloud AI
 
 - Cloud AutoML
 
@@ -290,7 +269,7 @@ API management apps built on Google Cloud
 
 - Cloud Video Intelligence
 
-11. **Data Transfer**
+1## Data Transfer
 
 - Google Transfer Appliance
 
@@ -298,7 +277,7 @@ API management apps built on Google Cloud
 
 - Google BigQuery Data Transfer Service
 
-12. **Developer Tools**
+1## Developer Tools
 
 - Cloud SDK
 
@@ -320,7 +299,7 @@ API management apps built on Google Cloud
 
 - Cloud Test Lab
 
-13. **Productivity Tools**
+1## Productivity Tools
 
 - G Suite
 

@@ -12,20 +12,22 @@ A SQL join is a Structured Query Language (SQL) instruction to combine data from
 
 ## Types of Joins
 
-- **Inner Join**
+### Inner Join
 
-Theinner joinis probably the most commonly-used type of join in SQL. Inner joins return all rows from two or more tables that meet the join condition.
+The inner join is probably the most commonly-used type of join in SQL. Inner joins return all rows from two or more tables that meet the join condition.
 
 ![image](media/SQL-Joins-image1.png)
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 INNER JOIN TableB
 ON A.columnName = B.columnName;
+```
 
-- **Left [Outer] Join**
+### Left [Outer] Join
 
 The left outer join (sometimes abbreviated to left join) returns all rows from theleft-hand table specified in the ON condition andonlythe rows from theright-hand table that meet the join condition.
 
@@ -33,12 +35,14 @@ The left outer join (sometimes abbreviated to left join) returns all rows from t
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 LEFT OUTER JOIN TableB
 ON A.columnName = B.columnName
+```
 
-- **Left [Outer] Join without Intersection**
+### Left [Outer] Join without Intersection
 
 This join is a variant on the basic left outer join, but instead, it returns all rows from theleft-hand table specified in the ON condition that also meet the join condition andnoneof the rows from theright-hand table that meet the join condition.
 
@@ -46,13 +50,15 @@ This join is a variant on the basic left outer join, but instead, it returns all
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 LEFT OUTER JOIN TableB
 ON A.columnName = B.columnName
 WHERE B.columnName IS NULL
+```
 
-- **Right [Outer] Join**
+### Right [Outer] Join
 
 The right outer join (sometimes abbreviated to right join) returns all rows from theright-hand table specified in the ON condition andonlythe rows from theleft-hand table that meet the join condition.
 
@@ -60,12 +66,14 @@ The right outer join (sometimes abbreviated to right join) returns all rows from
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 RIGHT OUTER JOIN TableB
 ON A.columnName = B.columnName
+```
 
-- **Right [Outer] Join without Intersection**
+### Right [Outer] Join without Intersection
 
 This join is a variant on the basic right outer join, but instead, it returns all rows from theright-hand table specified in the ON condition that also meet the join condition andnoneof the rows from theleft-hand table that meet the join condition.
 
@@ -73,13 +81,15 @@ This join is a variant on the basic right outer join, but instead, it returns al
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 RIGHT OUTER JOIN TableB
 ON A.columnName = B.columnName
 WHERE A.columnName IS NULL
+```
 
-- **Full [Outer] Join**
+### Full [Outer] Join
 
 The full outer join (sometimes abbreviated to full join) returns all rows from both tables named in the ON condition where the join condition isnotmet (including NULL values).
 
@@ -87,12 +97,14 @@ The full outer join (sometimes abbreviated to full join) returns all rows from b
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 FULL JOIN TableB
 ON A.columnName = B.columnName
+```
 
-- **Full [Outer] Join without Intersection**
+### Full [Outer] Join without Intersection
 
 This variant of the full outer join (sometimes abbreviated to full join) returns all rows from both tables named in the ON condition where the join condition isnotmet (excluding NULL values).
 
@@ -100,12 +112,14 @@ This variant of the full outer join (sometimes abbreviated to full join) returns
 
 Sample SQL
 
+```sql
 SELECT columns
 FROM TableA
 FULL JOIN TableB
 ON A.columnName = B.columnName
 WHERE A.columnName IS NULL
 OR B.columnName IS NULL
+```
 
 - **Self Join -** is used to join a table to itself as if the table were two tables, temporarily renaming at least one table in the SQL statement
 

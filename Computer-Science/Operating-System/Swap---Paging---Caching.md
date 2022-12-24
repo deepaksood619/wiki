@@ -89,16 +89,12 @@ In general, [Windows](http://searchwindowsserver.techtarget.com/definition/Windo
 Well Known Deterministic online paging algorithms -
 
 1. FIFO (First-In First-Out) - Evict the page that has been in fast memory longest.
-
 2. LRU (Least Recently Used) - On a fault, evict the page in fast memory that was requested least recently.
-
 3. LFU (Least Frequently Used) - Evict the page that has been requested least frequently
-
 4. MIN - On a fault, evict the page whose next request occurs furthest in the future.
-
 5. ARC (Adaptive Replacement Cache)
 
-Adaptive Replacement Cache(ARC) is a [page replacement algorithm](https://en.wikipedia.org/wiki/Page_replacement_algorithm) with better performance than [LRU](https://en.wikipedia.org/wiki/Cache_algorithms) (least recently used). This is accomplished by keeping track of both frequently used and recently used pages plus a recent eviction history for both.
+    Adaptive Replacement Cache(ARC) is a [page replacement algorithm](https://en.wikipedia.org/wiki/Page_replacement_algorithm) with better performance than [LRU](https://en.wikipedia.org/wiki/Cache_algorithms) (least recently used). This is accomplished by keeping track of both frequently used and recently used pages plus a recent eviction history for both.
 <https://en.wikipedia.org/wiki/Adaptive_replacement_cache>
 
 ## EC2 instances and Linux doesn't have swap**
@@ -125,11 +121,11 @@ Adaptive Replacement Cache(ARC) is a [page replacement algorithm](https://en.wik
 
 Both CPU Cache and TLB are hardware used in microprocessors but what's the difference, especially when someone says that TLB is also a type of Cache?
 
-## CPU Cacheis a fast memory which is used to improve latency of fetching information from Main memory (RAM) to CPU registers. So CPU Cache sits between Main memory and CPU. And this cache stores information temporarily so that the next access to the same information is faster. A CPU cache which used to store executable instructions, it's called Instruction Cache (I-Cache). A CPU cache which is used to store data, it's called Data Cache (D-Cache). So I-Cache and D-Cache speeds up fetching time for instructions and data respectively. A modern processor contains both I-Cache and D-Cache. For completeness, let us discuss about D-cache hierarchy as well. D-Cache is typically organized in a hierarchy i.e. Level 1 data cache, Level 2 data cache etc.. It should be noted that L1 D-Cache is faster/smaller/costlier as compared to L2 D-Cache. But the basic idea of 'CPU cache' is to speed up instruction/data fetch time from Main memory to CPU
+CPU Cache is a fast memory which is used to improve latency of fetching information from Main memory (RAM) to CPU registers. So CPU Cache sits between Main memory and CPU. And this cache stores information temporarily so that the next access to the same information is faster. A CPU cache which used to store executable instructions, it's called Instruction Cache (I-Cache). A CPU cache which is used to store data, it's called Data Cache (D-Cache). So I-Cache and D-Cache speeds up fetching time for instructions and data respectively. A modern processor contains both I-Cache and D-Cache. For completeness, let us discuss about D-cache hierarchy as well. D-Cache is typically organized in a hierarchy i.e. Level 1 data cache, Level 2 data cache etc.. It should be noted that L1 D-Cache is faster/smaller/costlier as compared to L2 D-Cache. But the basic idea of 'CPU cache' is to speed up instruction/data fetch time from Main memory to CPU
 
-## Translation Lookaside Buffer (i.e. TLB)is required only if Virtual Memory is used by a processor. In short, TLB speeds up translation of virtual address to physical address by storing page-table in a faster memory. In fact, TLB also sits between CPU and Main memory. Precisely speaking, TLB is used by MMU when physical address needs to be translated to virtual address. By keeping this mapping of virtual-physical addresses in a fast memory, access to page-table improves. It should be noted that page-table (which itself is stored in RAM) keeps track of where virtual pages are stored in the physical memory. In that sense, TLB also can be considered as a cache of the page-table
+Translation Lookaside Buffer (i.e. TLB)is required only if Virtual Memory is used by a processor. In short, TLB speeds up translation of virtual address to physical address by storing page-table in a faster memory. In fact, TLB also sits between CPU and Main memory. Precisely speaking, TLB is used by MMU when physical address needs to be translated to virtual address. By keeping this mapping of virtual-physical addresses in a fast memory, access to page-table improves. It should be noted that page-table (which itself is stored in RAM) keeps track of where virtual pages are stored in the physical memory. In that sense, TLB also can be considered as a cache of the page-table
 
-But the scope of operation forTLBandCPU Cache is different. TLB is about 'speeding up address translation for Virtual memory' so that page-table needn't to be accessed for every address. CPU Cache is about 'speeding up main memory access latency' so that RAM isn't accessed always by CPU. TLB operation comes at the time of address translation by MMU while CPU cache operation comes at the time of memory access by CPU. In fact, any modern processor deploys all I-Cache, L1 & L2 D-Cache and TLB.
+But the scope of operation for TLB and CPU Cache is different. TLB is about 'speeding up address translation for Virtual memory' so that page-table needn't to be accessed for every address. CPU Cache is about 'speeding up main memory access latency' so that RAM isn't accessed always by CPU. TLB operation comes at the time of address translation by MMU while CPU cache operation comes at the time of memory access by CPU. In fact, any modern processor deploys all I-Cache, L1 & L2 D-Cache and TLB.
 
 ![image](media/Swap---Paging---Caching-image5.png)
 <https://www.geeksforgeeks.org/whats-difference-between-cpu-cache-and-tlb>

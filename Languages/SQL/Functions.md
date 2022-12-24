@@ -8,41 +8,41 @@ Modified: 2021-01-30 01:13:06 +0500
 
 ## MySQL String Functions
 
-| **Function**                                                                             | **Description**                                                                                     |
-|------------------|------------------------------------------------------|
-| [ASCII](https://www.w3schools.com/sql/func_mysql_ascii.asp)                              | Returns the ASCII value for the specific character                                                  |
-| [CHAR_LENGTH](https://www.w3schools.com/sql/func_mysql_char_length.asp)                  | Returns the length of a string (in characters)                                                      |
-| [CHARACTER_LENGTH](https://www.w3schools.com/sql/func_mysql_character_length.asp)        | Returns the length of a string (in characters)                                                      |
-| [CONCAT](https://www.w3schools.com/sql/func_mysql_concat.asp)                            | Adds two or more expressions together                                                               |
-| [CONCAT_WS](https://www.w3schools.com/sql/func_mysql_concat_ws.asp)                      | Adds two or more expressions together with a separator                                              |
-| [FIELD](https://www.w3schools.com/sql/func_mysql_field.asp)                              | Returns the index position of a value in a list of values                                           |
-| [FIND_IN_SET](https://www.w3schools.com/sql/func_mysql_find_in_set.asp)                  | Returns the position of a string within a list of strings                                           |
-| [FORMAT](https://www.w3schools.com/sql/func_mysql_format.asp)                            | Formats a number to a format like "#,###,###.##", rounded to a specified number of decimal places |
-| [INSERT](https://www.w3schools.com/sql/func_mysql_insert.asp)                            | Inserts a string within a string at the specified position and for a certain number of characters   |
-| [INSTR](https://www.w3schools.com/sql/func_mysql_instr.asp)                              | Returns the position of the first occurrence of a string in another string                          |
-| [LCASE](https://www.w3schools.com/sql/func_mysql_lcase.asp)                              | Converts a string to lower-case                                                                     |
-| [LEFT](https://www.w3schools.com/sql/func_mysql_left.asp)                                | Extracts a number of characters from a string (starting from left)                                  |
-| [LENGTH](https://www.w3schools.com/sql/func_mysql_length.asp)                            | Returns the length of a string (in bytes)                                                           |
-| [LOCATE](https://www.w3schools.com/sql/func_mysql_locate.asp)                            | Returns the position of the first occurrence of a substring in a string                             |
-| [LOWER](https://www.w3schools.com/sql/func_mysql_lower.asp)                              | Converts a string to lower-case                                                                     |
-| [LPAD](https://www.w3schools.com/sql/func_mysql_lpad.asp)                                | Left-pads a string with another string, to a certain length                                         |
-| [LTRIM](https://www.w3schools.com/sql/func_mysql_ltrim.asp)                              | Removes leading spaces from a string                                                                |
-| [MID](https://www.w3schools.com/sql/func_mysql_mid.asp)                                  | Extracts a substring from a string (starting at any position)                                       |
-| [POSITION](https://www.w3schools.com/sql/func_mysql_position.asp)                        | Returns the position of the first occurrence of a substring in a string                             |
-| [REPEAT](https://www.w3schools.com/sql/func_mysql_repeat.asp)                            | Repeats a string as many times as specified                                                         |
-| [**REPLACE**](https://www.w3schools.com/sql/func_mysql_replace.asp)(salary, '0', '') | **Replaces all occurrences of a substring within a string, with a new substring**                   |
-| [REVERSE](https://www.w3schools.com/sql/func_mysql_reverse.asp)                          | Reverses a string and returns the result                                                            |
-| **[RIGHT](https://www.w3schools.com/sql/func_mysql_right.asp)(NAME, 3)**                 | **Extracts a number of characters from a string (starting from right)**                             |
-| [RPAD](https://www.w3schools.com/sql/func_mysql_rpad.asp)                                | Right-pads a string with another string, to a certain length                                        |
-| [RTRIM](https://www.w3schools.com/sql/func_mysql_rtrim.asp)                              | Removes trailing spaces from a string                                                               |
-| [SPACE](https://www.w3schools.com/sql/func_mysql_space.asp)                              | Returns a string of the specified number of space characters                                        |
-| [STRCMP](https://www.w3schools.com/sql/func_mysql_strcmp.asp)                            | Compares two strings                                                                                |
-| [SUBSTR](https://www.w3schools.com/sql/func_mysql_substr.asp)                            | Extracts a substring from a string (starting at any position)                                       |
-| [SUBSTRING](https://www.w3schools.com/sql/func_mysql_substring.asp)                      | Extracts a substring from a string (starting at any position)                                       |
-| [SUBSTRING_INDEX](https://www.w3schools.com/sql/func_mysql_substring_index.asp)          | Returns a substring of a string before a specified number of delimiter occurs                       |
-| [TRIM](https://www.w3schools.com/sql/func_mysql_trim.asp)                                | Removes leading and trailing spaces from a string                                                   |
-| [UCASE](https://www.w3schools.com/sql/func_mysql_ucase.asp)                              | Converts a string to upper-case                                                                     |
-| [UPPER](https://www.w3schools.com/sql/func_mysql_upper.asp)                              | Converts a string to upper-case                                                                     |
+| ****Function**** | ****Description**** |
+|---|---|
+| [ASCII](https://www.w3schools.com/sql/func_mysql_ascii.asp) | Returns the ASCII value for the specific character |
+| [CHAR_LENGTH](https://www.w3schools.com/sql/func_mysql_char_length.asp) | Returns the length of a string (in characters) |
+| [CHARACTER_LENGTH](https://www.w3schools.com/sql/func_mysql_character_length.asp) | Returns the length of a string (in characters) |
+| [CONCAT](https://www.w3schools.com/sql/func_mysql_concat.asp) | Adds two or more expressions together |
+| [CONCAT_WS](https://www.w3schools.com/sql/func_mysql_concat_ws.asp) | Adds two or more expressions together with a separator |
+| [FIELD](https://www.w3schools.com/sql/func_mysql_field.asp) | Returns the index position of a value in a list of values |
+| [FIND_IN_SET](https://www.w3schools.com/sql/func_mysql_find_in_set.asp) | Returns the position of a string within a list of strings |
+| [FORMAT](https://www.w3schools.com/sql/func_mysql_format.asp) | Formats a number to a format like "#,###,###.##", rounded to a specified number of decimal places |
+| [INSERT](https://www.w3schools.com/sql/func_mysql_insert.asp) | Inserts a string within a string at the specified position and for a certain number of characters |
+| [INSTR](https://www.w3schools.com/sql/func_mysql_instr.asp) | Returns the position of the first occurrence of a string in another string |
+| [LCASE](https://www.w3schools.com/sql/func_mysql_lcase.asp) | Converts a string to lower-case |
+| [LEFT](https://www.w3schools.com/sql/func_mysql_left.asp) | Extracts a number of characters from a string (starting from left) |
+| [LENGTH](https://www.w3schools.com/sql/func_mysql_length.asp) | Returns the length of a string (in bytes) |
+| [LOCATE](https://www.w3schools.com/sql/func_mysql_locate.asp) | Returns the position of the first occurrence of a substring in a string |
+| [LOWER](https://www.w3schools.com/sql/func_mysql_lower.asp) | Converts a string to lower-case |
+| [LPAD](https://www.w3schools.com/sql/func_mysql_lpad.asp) | Left-pads a string with another string, to a certain length |
+| [LTRIM](https://www.w3schools.com/sql/func_mysql_ltrim.asp) | Removes leading spaces from a string |
+| [MID](https://www.w3schools.com/sql/func_mysql_mid.asp) | Extracts a substring from a string (starting at any position) |
+| [POSITION](https://www.w3schools.com/sql/func_mysql_position.asp) | Returns the position of the first occurrence of a substring in a string |
+| [REPEAT](https://www.w3schools.com/sql/func_mysql_repeat.asp) | Repeats a string as many times as specified |
+| [**REPLACE**](https://www.w3schools.com/sql/func_mysql_replace.asp)(salary, '0', '') | **Replaces all occurrences of a substring within a string, with a new substring** |
+| [REVERSE](https://www.w3schools.com/sql/func_mysql_reverse.asp) | Reverses a string and returns the result |
+| **[RIGHT](https://www.w3schools.com/sql/func_mysql_right.asp)(NAME, 3)** | **Extracts a number of characters from a string (starting from right)** |
+| [RPAD](https://www.w3schools.com/sql/func_mysql_rpad.asp) | Right-pads a string with another string, to a certain length |
+| [RTRIM](https://www.w3schools.com/sql/func_mysql_rtrim.asp) | Removes trailing spaces from a string |
+| [SPACE](https://www.w3schools.com/sql/func_mysql_space.asp) | Returns a string of the specified number of space characters |
+| [STRCMP](https://www.w3schools.com/sql/func_mysql_strcmp.asp) | Compares two strings |
+| [SUBSTR](https://www.w3schools.com/sql/func_mysql_substr.asp) | Extracts a substring from a string (starting at any position) |
+| [SUBSTRING](https://www.w3schools.com/sql/func_mysql_substring.asp) | Extracts a substring from a string (starting at any position) |
+| [SUBSTRING_INDEX](https://www.w3schools.com/sql/func_mysql_substring_index.asp) | Returns a substring of a string before a specified number of delimiter occurs |
+| [TRIM](https://www.w3schools.com/sql/func_mysql_trim.asp) | Removes leading and trailing spaces from a string |
+| [UCASE](https://www.w3schools.com/sql/func_mysql_ucase.asp) | Converts a string to upper-case |
+| [UPPER](https://www.w3schools.com/sql/func_mysql_upper.asp) | Converts a string to upper-case |
 
 ## MySQL Numeric Functions
 

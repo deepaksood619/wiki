@@ -15,92 +15,64 @@ Modified: 2021-10-23 11:15:06 +0500
 - **Truncate**
 - **Comment**
 
+```sql
 ALTER USER
-
-ALTER USER 'lms_p2021020917'@'%' IDENTIFIED BY '00IN0hBGVZ7ABMFS';
-
-FLUSH PRIVILEGES;
+ ALTER USER 'lms_p2021020917'@'%' IDENTIFIED BY '00IN0hBGVZ7ABMFS';
+ FLUSH PRIVILEGES;
 
 CREATE DATABASE
-
-CREATE DATABASE database_name
+ CREATE DATABASE database_name
 
 CREATE INDEX
+ CREATE INDEX index_name
+ ON table_name (column_name)
+ or
+ CREATE UNIQUE INDEX index_name
+ ON table_name (column_name)
+  CREATE UNIQUE INDEX index_name
+  ON table_name(index_column_1,index_column_2,...);
 
-CREATE INDEX index_name
+ ALTER TABLE `installment_fip` ADD INDEX `installment_fip_idx_inst_custom_is_del_inst_inst` (`inst_number`,`customer_facing`,`is_delete`,`inst_status`,`inst_date`);
+ ALTER TABLE `installment_fip` ADD INDEX `installment_fip_idx_inst_custom_is_del_inst_emi_id` (`inst_number`,`customer_facing`,`is_delete`,`inst_status`,`emi_status_id`);
+ ALTER TABLE `st_comment` ADD INDEX `st_comment_idx_status_status_loan_id_id` (`status_type_id`,`status_id`,`loan_id`,`id`);
+ ALTER TABLE `st_loan` ADD INDEX `st_loan_idx_customer_id_product_code` (`customer_id`,`product_code`);
+ ALTER TABLE `user_logins` ADD INDEX `user_logins_idx_publish_dept` (`publish`,`dept`);
 
-ON table_name (column_name)
+ Show Unused indexes
+  select * from sys.schema_unused_indexes;
 
-or
-
-CREATE UNIQUE INDEX index_name
-
-ON table_name (column_name)
-
-CREATE UNIQUE INDEX index_name
-
-ON table_name(index_column_1, index_column_2,...);
-
-ALTER TABLE `installment_fip` ADD INDEX `installment_fip_idx_inst_custom_is_del_inst_inst` (`inst_number`,`customer_facing`,`is_delete`,`inst_status`,`inst_date`);
-
-ALTER TABLE `installment_fip` ADD INDEX `installment_fip_idx_inst_custom_is_del_inst_emi_id` (`inst_number`,`customer_facing`,`is_delete`,`inst_status`,`emi_status_id`);
-
-ALTER TABLE `st_comment` ADD INDEX `st_comment_idx_status_status_loan_id_id` (`status_type_id`,`status_id`,`loan_id`,`id`);
-
-ALTER TABLE `st_loan` ADD INDEX `st_loan_idx_customer_id_product_code` (`customer_id`,`product_code`);
-
-ALTER TABLE `user_logins` ADD INDEX `user_logins_idx_publish_dept` (`publish`,`dept`);
-
-## Show Unused indexes
-
-select * from sys.schema_unused_indexes;
-
-<https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database>
+  https://www.eversql.com/how-to-find-unused-indexes-in-a-mysql-database/
 
 CREATE VIEW
-
-CREATE VIEW view_name AS
-
-SELECT column_name(s)
-
-FROM table_name
-
-WHERE condition
+ CREATE VIEW view_name AS
+ SELECT column_name(s)
+ FROM table_name
+ WHERE condition
 
 DROP DATABASE
-
-DROP DATABASE database_name
+ DROP DATABASE database_name
 
 DROP INDEX
-
-DROP INDEX table_name.index_name (SQL Server)
-
-DROP INDEX index_name ON table_name (MS Access)
-
-DROP INDEX index_name (DB2/Oracle)
-
-ALTER TABLE table_name
-
-DROP INDEX index_name on table_name (MySQL)
+ DROP INDEX table_name.index_name (SQL Server)
+ DROP INDEX index_name ON table_name (MS Access)
+ DROP INDEX index_name (DB2/Oracle)
+ ALTER TABLE table_name
+ DROP INDEX index_name on table_name (MySQL)
 
 DROP TABLE
-
-DROP TABLE table_name
+ DROP TABLE table_name
 
 DROP COLUMN
-
-ALTER TABLE st_quickwallet_payment DROP COLUMN payment_notes;
+ ALTER TABLE st_quickwallet_payment DROP COLUMN payment_notes;
 
 TRUNCATE TABLE
+ TRUNCATE TABLE table_name
 
-TRUNCATE TABLE table_name
+ The TRUNCATE TABLE statement removes all the rows from a table more quickly than a DELETE. Logically, TRUNCATE TABLE is similar to the DELETE statement with no WHERE clause.
 
-TheTRUNCATE TABLEstatement removes all the rows from a table more quickly than aDELETE. Logically, TRUNCATE TABLEis similar to the [DELETE](https://www.tutorialrepublic.com/sql-tutorial/sql-delete-statement.php) statement with no [WHERE](https://www.tutorialrepublic.com/sql-tutorial/sql-where-clause.php) clause.
+ The TRUNCATE TABLE statement removes all the rows from a table, but the table structure and its columns, constraints, indexes, and so on remain intact.
 
-TheTRUNCATE TABLEstatement removes all the rows from a table, but the table structure and its columns, constraints, indexes, and so on remain intact.
-
-## ALTER SCHEMA
-
-## ALTER SCHEMA NewSchema
-
+ALTER SCHEMA
+ ALTER SCHEMA NewSchema
 TRANSFER OldSchema.TableName;
+```

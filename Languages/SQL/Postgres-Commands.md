@@ -6,193 +6,143 @@ Modified: 2022-05-23 11:42:22 +0500
 
 ---
 
-brew install postgresql
+`brew install postgresql`
 
 ## psql - start postgres sql query engine
 
-psql -h devdb.chc4dttsp0r2.us-west-2.rds.amazonaws.com -p 5432 -U postgres
+```sql
+psql -h xx.xx.us-west-2.rds.amazonaws.com -p 5432 -U postgres
+xxx
 
-cX2BIBc2Qu2WK9cJZMcH
+psql -h xx.xx.xx.xx -p 5432 -U dev -d dev_metta_pg
 
-psql -h 54.191.252.31 -p 5432 -U dev -d dev_metta_pg
+psql -d postgres -U postgres
+xx
 
-## psql -d postgres -U postgres
-
-1RtBZRNxG7
-
-d - show databases
-
-d rides; - show rides table
-
+\d - show databases
+\d rides; - show rides table
 select count(*) from rides;
-
-dx - List of installed extensions
-
-## l - list all databases with owner
-
-dt
-
-dt+ - you get a view of the tables in the database along with an (empty) description column
-
-dn+ - publicschema indicates permissions for thepostgresrole
-
-## du - show all users
-
-## dt *.* - show all tables
+\dx - List of installed extensions
+\l - list all databases with owner
+\dt
+\dt+  - you get a view of the tables in the database along with an (empty) description column
+\dn+ - public schema indicates permissions for the postgres role
+\du - show all users
+\dt *.* - show all tables
 
 select version();
-
 SELECT schema_name FROM information_schema.schemata;
 
 create user myuser with encrypted password 'mypass';
-
 grant all privileges on database postgres to myuser;
-
-psql -h prod-metta-db.chc4dttsp0r2.us-west-2.rds.amazonaws.com -p 5432 -U myuser -d postgres
+psql -h xx.xx.us-west-2.rds.amazonaws.com -p 5432 -U myuser -d postgres
 
 CREATE USER quicksight4 PASSWORD 'ac9c922490fad8cafa5d68a5';
-
 grant all privileges on database postgres to quicksight4;
-
 grant all privileges on database prod_metta_pg2 to quicksight4;
-
-psql -h prod-metta-db.chc4dttsp0r2.us-west-2.rds.amazonaws.com -p 5432 -U quicksight4 -d postgres
+psql -h xx.xx.us-west-2.rds.amazonaws.com -p 5432 -U quicksight4 -d postgres
 
 GRANT CONNECT ON DATABASE postgres TO quicksight;
-
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO quicksight;
-
 GRANT USAGE ON SCHEMA public TO quicksight;
-
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO quicksight;
 
-REASSIGN OWNED BY quicksight TO postgres; -- or some other trusted role
-
+REASSIGN OWNED BY quicksight TO postgres;  -- or some other trusted role
 DROP OWNED BY ryan;
-
 DROPUSERryan;
+```
 
-psqlhas aECHO_HIDDENvariable you can set to show (or 'echo') any SQL queries performed behind the scenes by backslash commands.
+psql has a `ECHO_HIDDEN` variable you can set to show (or 'echo') any SQL queries performed behind the scenes by backslash commands.
 
-set ECHO_HIDDEN on
+`set ECHO_HIDDEN on`
 
-# select database
+```sql
+-- select database
+\c [databasename]: Connect to [databasename] on local database cluster
 
-c [databasename]: Connect to [databasename] on local database cluster
+CREATE DATABASE zenalytix_db_new;
 
-CREATE DATABASE example_db_new;
-
-psql -U example -d example_db_new -p 5432
+psql -U zenatix -d zenalytix_db_new -p 5432
 
 psql -h localhost -p 5432 -U postgres -d airflow
-
 psql -h localhost -p 5432 -U postgres (sentry)
 
-# get table sizes
-
+-- get table sizes
 SELECT *, pg_size_pretty(total_bytes) AS total
-
-, pg_size_pretty(index_bytes) AS INDEX
-
-, pg_size_pretty(toast_bytes) AS toast
-
-, pg_size_pretty(table_bytes) AS TABLE
-
-FROM (
-
-SELECT *, total_bytes-index_bytes-COALESCE(toast_bytes,0) AS table_bytes FROM (
-
-SELECT c.oid, nspname AS table_schema, relname AS TABLE_NAME
-
-, c.reltuples AS row_estimate
-
-, pg_total_relation_size(c.oid) AS total_bytes
-
-, pg_indexes_size(c.oid) AS index_bytes
-
-, pg_total_relation_size(reltoastrelid) AS toast_bytes
-
-FROM pg_class c
-
-LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
-
-WHERE relkind = 'r'
-
-) a
-
+    , pg_size_pretty(index_bytes) AS INDEX
+    , pg_size_pretty(toast_bytes) AS toast
+    , pg_size_pretty(table_bytes) AS TABLE
+  FROM (
+  SELECT *, total_bytes-index_bytes-COALESCE(toast_bytes,0) AS table_bytes FROM (
+      SELECT c.oid,nspname AS table_schema, relname AS TABLE_NAME
+              , c.reltuples AS row_estimate
+              , pg_total_relation_size(c.oid) AS total_bytes
+              , pg_indexes_size(c.oid) AS index_bytes
+              , pg_total_relation_size(reltoastrelid) AS toast_bytes
+          FROM pg_class c
+          LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
+          WHERE relkind = 'r'
+  ) a
 ) a order by total_bytes desc;
 
-# get databases sizes
-
-SELECT d.datname AS Name, pg_catalog.pg_get_userbyid(d.datdba) AS Owner,
-
-CASE WHEN pg_catalog.has_database_privilege(d.datname, 'CONNECT')
-
-THEN pg_catalog.pg_size_pretty(pg_catalog.pg_database_size(d.datname))
-
-ELSE 'No Access'
-
-END AS SIZE
-
+-- get databases sizes
+SELECT d.datname AS Name,  pg_catalog.pg_get_userbyid(d.datdba) AS Owner,
+    CASE WHEN pg_catalog.has_database_privilege(d.datname, 'CONNECT')
+        THEN pg_catalog.pg_size_pretty(pg_catalog.pg_database_size(d.datname))
+        ELSE 'No Access'
+    END AS SIZE
 FROM pg_catalog.pg_database d
+    ORDER BY
+    CASE WHEN pg_catalog.has_database_privilege(d.datname, 'CONNECT')
+        THEN pg_catalog.pg_database_size(d.datname)
+        ELSE NULL
+    END DESC -- nulls first
+    LIMIT 20;
 
-ORDER BY
-
-CASE WHEN pg_catalog.has_database_privilege(d.datname, 'CONNECT')
-
-THEN pg_catalog.pg_database_size(d.datname)
-
-ELSE NULL
-
-END DESC -- nulls first
-
-LIMIT 20;
-
-## # table sizes
-
-**select table_name, pg_relation_size(quote_ident(table_name))
+-- table sizes
+select table_name, pg_relation_size(quote_ident(table_name))
 from information_schema.tables
 where table_schema = 'public'
-order by 2;**
+order by 2;
 
 REINDEX DATABASE zenalytx_db_new;
-
 REINDEX INDEX index_name;
-
 REINDEX TABLE table_name;
 
 VACUUM numbers;
-
-VACUUM FULL; # to free up space in all the dbs
+VACUUM FULL;  # to free up space in all the dbs
 
 SELECT table_name
 FROM information_schema.tables
 WHERE table_schema = 'public'
 ORDER BY table_name;
 
-User Management
-
+-- User Management
 CREATE USER test WITH SUPERUSER PASSWORD 'test123';
-
 ALTER USER test WITH PASSWORD 'test1234';
-
 DROP USER test;
 
-## Configurations
+delete from task_instance where execution_date::date < '2021-01-13 21:00:00+0';
+```
 
+### Configurations
+
+```sql
 show statement_timeout;
-
 set statement_timeout to 60000; commit;
+```
 
 ## Tools
 
 - pg_buffercache
 
-see what's occupying the shared buffer cache of your instance
+    see what's occupying the shared buffer cache of your instance
 
 - pg_prewarm
 
-load table data into either the operating system cache or the Postgres buffer cache
+    load table data into either the operating system cache or the Postgres buffer cache
+
+### Commands
 
 [ABORT](https://www.postgresql.org/docs/current/sql-abort.html)--- abort the current transaction
 
@@ -560,10 +510,6 @@ load table data into either the operating system cache or the Postgres buffer ca
 
 <https://www.postgresql.org/docs/current/sql-commands.html>
 
-## Queries
-
-delete from task_instance where execution_date::date < '2021-01-13 21:00:00+0';
-
 ## pg_dumpall
 
 pg_dumpall dumps all databases in given PostgreSQL installation (cluster), and does it to plain text file. Everything goes there. Additionally, it dumpsglobalthings -- roles and tablespaces, which cannot be dumped by pg_dump.
@@ -591,10 +537,12 @@ All other formats (custom, directory, and tar) are restored using pg_restore pro
 
 ## Adding hstore in database
 
+```sql
 psql -U postgres template1
 create extension hstore;
 q
+```
 
-Cannot use --keepdb after this, since new db is to be created
+Cannot use `--keepdb` after this, since new db is to be created
 
 <https://www.depesz.com/2019/12/10/how-to-effectively-dump-postgresql-databases>

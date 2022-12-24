@@ -10,7 +10,7 @@ SQL, 'Structured Query Language', is a programming language designed to manage d
 
 The SQL language is widely used today across web frameworks and database applications. Knowing SQL gives you the freedom to explore your data, and the power to make better decisions. By learning SQL, you will also learn concepts that apply to nearly every data storage system.
 
-## SQL is a declarative language, you tell the system what do you want, and system figures it out how to give it to you
+**SQL is a declarative language, you tell the system what do you want, and system figures it out how to give it to you**
 
 SQL is a special-purpose programming language designed for managing information in a relational database management system (RDBMS). The word relational here is key; it specifies that the database management system is organized in such a way that there are clear relations defined between different sets of data.
 
@@ -26,7 +26,7 @@ SQL Queries Order - **FWGHSOL**
 
 ## How to describe tables
 
-## City
+**City**
 
 | **Field**   | **Type**     |
 |-------------|--------------|
@@ -44,44 +44,33 @@ SQL Queries Order - **FWGHSOL**
 
 SQL's shortcomings can be grouped into these categories:
 
-- lack of proper orthogonality --- SQL is hard to compose;
-- lack of compactness --- SQL is a large language;
-- lack of consistency --- SQL is inconsistent in syntax and semantics;
-- poor system cohesion --- SQL does not integrate well enough with application languages and protocols.
+- lack of proper orthogonality - SQL is hard to compose;
+- lack of compactness - SQL is a large language;
+- lack of consistency - SQL is inconsistent in syntax and semantics;
+- poor system cohesion - SQL does not integrate well enough with application languages and protocols.
 
-## SQL Naming Conventions
+### SQL Naming Conventions
 
 <https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions>
 
-## Order
+### Order
 
-SELECT... FROM... WHERE... GROUP BY... HAVING... ORDER BY... LIMIT...
+`SELECT... FROM... WHERE... GROUP BY... HAVING... ORDER BY... LIMIT...`
 
-## Is this a valid query?
+### Is this a valid query?
 
+```sql
 SELECT city, COUNT(*) FROM census WHERE COUNT(*) > 5
-
 GROUP BY city ORDER BY COUNT(*) DESC
+```
 
-## no, GROUP BY happens after WHERE, so you can't use aggregations in a WHERE
+no, GROUP BY happens after WHERE, so you can't use aggregations in a WHERE
 
-Use HAVING COUNT(*) > 5 instead
+Use `HAVING COUNT(*) > 5` instead instead of WHERE
 
 ## References
 
-## Course
-
-<https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql>
-
-## What is RDBMS
-
-<https://www.codecademy.com/articles/what-is-rdbms-sql>
-
-## SQL Commands
-
-<https://www.codecademy.com/articles/sql-commands?r=master>
-
-## Games
+### Games
 
 <https://mystery.knightlab.com>
 
@@ -91,7 +80,7 @@ Use HAVING COUNT(*) > 5 instead
 
 <https://github.com/WebDevSimplified/Learn-SQL>
 
-## Others
+### Others
 
 <https://dev.to/helenanders26/sql-201-10-ways-to-tweak-slow-running-queries-3pkb>
 
@@ -100,3 +89,9 @@ Use HAVING COUNT(*) > 5 instead
 <https://hakibenita.com/sql-dos-and-donts>
 
 <http://bytepawn.com/how-i-write-sql-code.html#how-i-write-sql-code>
+
+<https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/sql>
+
+<https://www.codecademy.com/articles/what-is-rdbms-sql>
+
+<https://www.codecademy.com/articles/sql-commands?r=master>

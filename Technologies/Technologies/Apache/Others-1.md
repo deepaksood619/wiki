@@ -86,11 +86,9 @@ Storm integrates with the queueing and database technologies you already use. A 
 
 Apache Flink is a framework and distributed processing engine for stateful computations over*unbounded and bounded*data streams. Flink has been designed to run in*all common cluster environments*, perform computations at*in-memory speed*and at*any scale*.
 
-## References
-
 <https://flink.apache.org/flink-architecture.html>
 
-# Apache OpenWhisk (Incubating)
+## Apache OpenWhisk (Incubating)
 
 Apache OpenWhisk (Incubating) is an open source, distributed [Serverless](https://en.wikipedia.org/wiki/Serverless_computing) platform that executes functions (fx) in response to events at any scale. OpenWhisk manages the infrastructure, servers and scaling using Docker containers so you can focus on building amazing and efficient applications.
 
