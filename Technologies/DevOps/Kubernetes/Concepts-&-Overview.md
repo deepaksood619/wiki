@@ -40,7 +40,7 @@ A Kubernetes object is a "record of intent"--once you create the object, the Kub
 - Attached to objects at creation time but modified at any time
 - Labels are the essential glue to associate one API object with other
   - **Replication Controller** -> Pods
-      
+
     Replication Controller means that I tell kubernetes that I want this container and I want 4 copies of it.
 
   - Service -> Pods
@@ -84,6 +84,7 @@ This concept of ownership enables two additional types of behaviours:
 Equality or inequality based requirements allow filtering by label keys and values. Matching objects must satisfy all of the specified label constraints, though they may have additional labels as well. Three kinds of operators are admitted `=`,`==`,`!=`. The first two represent equality (and are simply synonyms), while the latter represents inequality.
 
 For example:
+
 ```yaml
 environment = production
 tier != frontend
@@ -210,6 +211,7 @@ The nodes in a cluster are the machines (VMs, physical servers, etc) that run yo
 Node components run on every node, maintaining running pods and providing the Kubernetes runtime environment.
 
 ### [kubelet](https://kubernetes.io/docs/admin/kubelet/)
+
 which communicates with the Kubernetes Master.
 
 An agent that runs on each node in the cluster. It makes sure that containers are running in a pod.

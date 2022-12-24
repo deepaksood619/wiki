@@ -11,30 +11,26 @@ Modified: 2022-04-19 23:22:28 +0500
 ## Datatypes
 
 1. Numbers (primitive)
-
 2. Strings (primitive)
-
 3. Boolean (primitive)
-
 4. Null (trivial)
 
-null is the absence of a value. It is an assignment value that can be assigned to a variable as a representation of 'no-value'.
+   null is the absence of a value. It is an assignment value that can be assigned to a variable as a representation of 'no-value'.
 
 5. Undefined (trivial)
 
-Undefined is the absence of a definition. It is used as the default value for uninitialized variables, function arguments that were not provided and missing properties of objects. Functions returnundefined when nothing has been explicitly returned.
+   Undefined is the absence of a definition. It is used as the default value for uninitialized variables, function arguments that were not provided and missing properties of objects. Functions returnundefined when nothing has been explicitly returned.
 
 6. Object (composite) (Non-primitive)
-
 7. Symbol (ES6)
 
-## Falsy values:"",0, null, undefined, NaN, false
+**Falsy values:** "",0, null, undefined, NaN, false
 
-## Truthy values : 'hello', '0', ' ', ([]), (function() {})
+**Truthy values:** 'hello', '0', ' ', ([]), (function() {})
 
 ## Comments
 
-// and /**/
+`// and /**/`
 
 ## Variables
 
@@ -46,25 +42,25 @@ Undefined is the absence of a definition. It is used as the default value for un
 
 1. **var**
 
-Thevariablestatementdeclares a variable, optionally initializing it to a value.
+   The variable statement declares a variable, optionally initializing it to a value.
 
 2. **let**
 
-Theletstatement declares a block scope local variable, optionally initializing it to a value.
+   The let statement declares a block scope local variable, optionally initializing it to a value.
 
-letallows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the [var](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/var) keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
+   let allows you to declare variables that are limited in scope to the block, statement, or expression on which it is used. This is unlike the [var](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Statements/var) keyword, which defines a variable globally, or locally to an entire function regardless of block scope.
 
 3. **const**
 
-Constants are block-scoped, much like variables defined using the [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
+   Constants are block-scoped, much like variables defined using the [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) statement. The value of a constant cannot change through re-assignment, and it can't be redeclared.
 
-This declaration creates a constant whose scopecan be either global or local to the blockin which it is declared. Global constants do not become properties of the window object, unlike [var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) variables. An initializer for a constant is required; that is, you must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).
+   This declaration creates a constant whose scopecan be either global or local to the blockin which it is declared. Global constants do not become properties of the window object, unlike [var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) variables. An initializer for a constant is required; that is, you must specify its value in the same statement in which it's declared (which makes sense, given that it can't be changed later).
 
-Theconstdeclarationcreates a read-only reference to a value. It doesnotmean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered.
+   Theconstdeclarationcreates a read-only reference to a value. It doesnotmean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered.
 
-All the considerations about the "[temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let)" apply to both [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) andconst.
+   All the considerations about the "[temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone_and_errors_with_let)" apply to both [let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) andconst.
 
-A constant cannot share its name with a function or a variable in the same scope.
+   A constant cannot share its name with a function or a variable in the same scope.
 
 | Keyword | Scope          | Hoisting | Can Be Reassigned | Can Be Redeclared |
 |---------|----------------|----------|-------------------|-------------------|
@@ -73,9 +69,9 @@ A constant cannot share its name with a function or a variable in the same scope
 | const   | Block scope    | No       | No                | No                |
 
 ## Keywords
-
-| abstract | else       | instanceof | switch       |
+| | | | |
 |----------|------------|------------|--------------|
+| abstract | else       | instanceof | switch       |
 | boolean  | enum       | int        | synchronized |
 | break    | export     | interface  | this         |
 | byte     | extends    | long       | throw        |
@@ -96,136 +92,100 @@ A constant cannot share its name with a function or a variable in the same scope
 1. Arithmetic Operators
 
    - Addition (+)
-
    - Subtraction (-)
-
    - Multiplication (*)
-
    - Division (/)
-
    - Modulus / Remainder (%)
-
    - Exponentiation (**)
-
    - Increment (++)
-
    - Decrement (--)
-
    - Unary Negation (-)
-
    - Unary Plus (+)
 
 2. Comparison Operators
-
    - Equal ( == )
-
    - Not Equal ( != )
 
-Inequality operator will convert data types of values while comparing
+   Inequality operator will convert data types of values while comparing
 
-1. 3 != '3' // true
+   1. 3 != '3' // true
 
-2. 3 != 3 // false
+   2. 3 != 3 // false
 
-3. 3 != "3" // true
-
+   3. 3 != "3" // true
 3. Greater than ( > )
-
 4. Less than ( < )
-
 5. Greater than or Equal to ( >= )
-
 6. Less than or Equal to ( <= )
-
 7. ===
-
 8. !== (Strict inequality operator)
 
-It means "Strictly Not Equal". Strict inequality will not convert data types.
+   It means "Strictly Not Equal". Strict inequality will not convert data types.
 
-1. 3 !== 3 // false
-
-2. 3 !== '3' // true
-
-3. 4 !== 3 // true
+   1. 3 !== 3 // false
+   2. 3 !== '3' // true
+   3. 4 !== 3 // true
 
 3. Logical or Relational Operators
 
    - Logical AND (&&)
-
    - Logical OR ( || )
-
    - Logical NOT ( ! )
 
 4. Bitwise Operators
 
    - Bitwise AND ( & )
-
    - Bitwise OR ( | )
-
    - Bitwise XOR ( ^ )
-
    - Bitwise Not ( ~ )
-
-   - Left Shift ( >> )
-
-   - Right Shift ( << )
-
-   - Right Shift with Zero ( >>> )
+   - Left Shift ( `>>` )
+   - Right Shift ( `<<` )
+   - Right Shift with Zero ( `>>>` )
 
 5. Assignment Operators
-
    - Simple assignment ( = )
-
    - Add and assignment ( += )
-
    - Subtract and assignment ( -= )
-
    - Multiply and assignment ( *= )
-
    - Divide and assignment ( /= )
-
    - Modulus and assignment ( %= )
 
 6. Conditional (or ternary) Operator ( (condition ) ? True : False )
 
 7. Typeof Operator
 
-Unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.
+   Unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.
 
 8. in
 
-Theinoperatorreturnstrueif the specified property is in the specified object or its prototype chain.
+   The in operator returns true if the specified property is in the specified object or its prototype chain.
 
-// Arrays
-var trees = ['redwood', 'bay', 'cedar', 'oak', 'maple'];
-0 in trees // returns true
-3 in trees // returns true
-6 in trees // returns false
-'bay' in trees // returns false (you must specify the
-// index number, not the value at that index)
-'length' in trees // returns true (length is an Array property)
-Symbol.iterator in trees // returns true (arrays are iterable, works only in ES2015+)
+   // Arrays
+   var trees = ['redwood', 'bay', 'cedar', 'oak', 'maple'];
+   0 in trees // returns true
+   3 in trees // returns true
+   6 in trees // returns false
+   'bay' in trees // returns false (you must specify the
+   // index number, not the value at that index)
+   'length' in trees // returns true (length is an Array property)
+   Symbol.iterator in trees // returns true (arrays are iterable, works only in ES2015+)
 
-// Predefined objects
-'PI' in Math // returns true
+   // Predefined objects
+   'PI' in Math // returns true
 
-// Custom objects
-var mycar = {make: 'Honda', model: 'Accord', year: 1998};
-'make' in mycar // returns true
-'model' in mycar // returns true
+   // Custom objects
+   var mycar = {make: 'Honda', model: 'Accord', year: 1998};
+   'make' in mycar // returns true
+   'model' in mycar // returns true
 
 ## Control Statements
 
 1. If statement
-
 2. If-else statement
-
 3. If - else - if statement
-
 4. switch
 
-Theswitchstatementevaluates an [expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators), matching the expression's value to acaseclause, and executes [statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) associated with that case, as well as statements incases that follow the matching case.
+The switch statement evaluates an [expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators), matching the expression's value to acaseclause, and executes [statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements) associated with that case, as well as statements incases that follow the matching case.
 
 ## Hoisting
 
@@ -235,17 +195,17 @@ Function declarations are completely hoisted. This means that a declared functio
 
 Variables are partially hoisted.vardeclarations are hoisted but not its assignments.
 
-letandconstare not hoisted.
+let and const are not hoisted.
 
 all variables (var) are declared at top of any function scope (includes function declaration)
 
-## var hoisting
+### var hoisting
 
 Because variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared. This behavior is called "hoisting", as it appears that the variable declaration is moved to the top of the function or global code.
 
 ## Closure
 
-Aclosureis the combination of a function and the lexical environment from which it was declared. Closure allows a function to access variables from an enclosing scope ---environment--- even after it leaves the scope in which it was declared.
+A closure is the combination of a function and the lexical environment from which it was declared. Closure allows a function to access variables from an enclosing scope ---environment--- even after it leaves the scope in which it was declared.
 
 ## Immediate Invoked Function Expression (IIFE)
 
@@ -255,9 +215,9 @@ An IIFE is a function expression that is called immediately after you define it.
 
 Contextis most often determined by how a function is invoked. It always refers to the value ofthisin a particular part of your code.
 
-Scoperefers to the visibility of variables.
+Scope refers to the visibility of variables.
 
-( function foo() { } )();
+`( function foo() { } )();`
 
 ## When would you use an IIFE
 
@@ -271,102 +231,91 @@ Google follows camelCase
 
 ## Boolean
 
-Any object of which the value is not [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) or [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), including aBooleanobject whose value isfalse, evaluates totruewhen passed to a conditional statement. For example, the condition in the following [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement evaluates totrue:
+Any object of which the value is not [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) or [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null), including aBooleanobject whose value isfalse, evaluates totruewhen passed to a conditional statement. For example, the condition in the following [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement evaluates to true:
 
+```js
 var x = new Boolean(false);
 if (x) {
 // this code is executed
 }
 
 if (false) {
-
-// this code is not executed
-
+   // this code is not executed
 }
 
 if (1) {
-
-// this code is executed
-
+   // this code is executed
 }
 
 if (0) {
-
-// this code is not executed
-
+   // this code is not executed
 }
+```
 
 ## String functions
 
 1. String.length
-
 2. String.prototype.split()
-
 3. String.prototype.replace()
 
-Ex - **str = str.replace(/[^a-z]*/g, "");**
-
-## Ex - str = str.replace(/[^a-z0-9]*/g, "")
+   - Ex - **str = str.replace(/[^a-z]*/g, "");**
+   - Ex - str = str.replace(/[^a-z0-9]*/g, "")
 
 4. String.prototype.toLowerCase()
-
 5. String.prototype.toUpperCase()
-
 6. String.prototype.slice()
 
-varstr ="Hello world!";
-
-varres = str.slice(1,5); // ello
+   ```js
+   var str ="Hello world!";
+   var res = str.slice(1,5); // ello
+   ```
 
 7. String.prototype.substr()
 
-The**substr()**method returns the characters in a string beginning at the specified location through the specified number of characters.
+   The **substr()** method returns the characters in a string beginning at the specified location through the specified number of characters.
 
 8. String.prototype.substring()
 
-The**substring()**method returns a subset of astringbetween one index and another, or through the end of the string.
+   The **substring()** method returns a subset of astringbetween one index and another, or through the end of the string.
 
 9. String.prototype.indexOf()
 
-The**indexOf()**method returns the index within the calling [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) object of the first occurrence of the specified value, starting the search atfromIndex. Returns -1 if the value is not found.
+   The **indexOf()** method returns the index within the calling [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) object of the first occurrence of the specified value, starting the search atfromIndex. Returns -1 if the value is not found.
 
 10. String.prototype.charCodeAt()
 
-The**charCodeAt()**method returns an integer between 0 and 65535 representingthe UTF-16 code unit at the given index
+   The **charCodeAt()** method returns an integer between 0 and 65535 representingthe UTF-16 code unit at the given index
 
 11. String.fromCharCode()
 
-The static**String.fromCharCode()**method returns a string created from the specified sequence of UTF-16 code units.
+   The static **String.fromCharCode()** method returns a string created from the specified sequence of UTF-16 code units.
 
 12. String.prototype.match()
 
-The**match()**method retrieves the matches when matching a*string*against a*regular expression*.
+   The **match()** method retrieves the matches when matching a *string* against a *regular expression*.
 
-## Bracket notation for getting string characters
+Bracket notation for getting string characters
 
 Strings are immutable
 
+```js
 Var myStr = "Bob";
-
 myStr [0] = "J"; // error
+```
 
 ## Arrays
 
 1. Array.prototype.push()
-
 2. Array.prototype.pop()
-
 3. Array.prototype.shift()
 
-The**shift()**method removes the **first** element from an array and returns that removed element. This method changes the length of the array.
+The **shift()** method removes the **first** element from an array and returns that removed element. This method changes the length of the array.
 
 4. Array.prototype.unshift()
-
 5. Array.prototype.slice()
-
 6. Array.prototype.splice()
 
-The**splice()**method changes the contents of an array by removing existing elements and/or adding new elements.
+The **splice()** method changes the contents of an array by removing existing elements and/or adding new elements.
 
 *Syntax - array*.splice(*start [*, *deleteCount [*, *item1 [*, *item2 [*, *...]]]]*)
 
@@ -376,26 +325,29 @@ The**splice()**method changes the contents of an array by removing existing elem
 
 9. Array.prototype.find()
 
-The**find()**method returns the **value** of the first element in the array that satisfies the provided testing function. Otherwise [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) is returned.
+The **find()** method returns the **value** of the first element in the array that satisfies the provided testing function. Otherwise [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) is returned.
 
+```js
 function isBigEnough(element) {
-return element >= 15;
+   return element >= 15;
 }
 
 [12, 5, 8, 130, 44].find(isBigEnough); // 130
+```
 
 10. Array.prototype.indexOf()
 
-The**indexOf()**method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+The**indexOf()** method returns the first index at which a given element can be found in the array, or -1 if it is not present.
 
 11. Array.prototype.includes()
 
-The**includes()**method determines whether an array includes a certain element, returningtrueorfalseas appropriate.
+The **includes()** method determines whether an array includes a certain element, returningtrueorfalseas appropriate.
 
 12. Array.prototype.sort()
 
-The**sort()**method sorts the elements of an array [*in place*](https://en.wikipedia.org/wiki/In-place_algorithm) and returns the array. The sort is not necessarily [stable](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). The default sort order is according to string Unicode code points.
+The **sort()** method sorts the elements of an array [*in place*](https://en.wikipedia.org/wiki/In-place_algorithm) and returns the array. The sort is not necessarily [stable](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). The default sort order is according to string Unicode code points.
 
+```js
 var fruit = ['cherries', 'apples', 'bananas'];
 fruit.sort(); // ['apples', 'bananas', 'cherries']
 
@@ -414,13 +366,16 @@ numbers.sort(function(a, b) {
 return a - b;
 });
 console.log(numbers);
+```
 
 13. Array isArray()
 
+```js
 Array.isArray([1, 2, 3]); // true
 Array.isArray({foo: 123}); // false
 Array.isArray('foobar'); // false
 Array.isArray(undefined); // false
+```
 
 ## Loops
 
@@ -436,157 +391,144 @@ for inis used to loop through properties of an object. It can be any object.for 
 
 3. **for....of**
 
-The**for...ofstatement**creates a loop iterating over [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments) or [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) objects, [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) and [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
+The **for...ofstatement** creates a loop iterating over [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterable_protocol)(including the built-in [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String), [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), e.g. theArray-like [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/arguments) or [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList) objects, [TypedArray](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) and [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), and user-defined iterables), invoking a custom iteration hook with statements to be executed for the value of each distinct property of the object.
 
 2. **While**
 
 ## Objects (JSON - JavaScript Object Notation)
 
 ## Accessing Objects Properties with the
-
 1. **Dot Operator**
-
 2. **Bracket Notation**
 
-1. **Arguments Object**
+
+1. Arguments Object
 
 It can be converted to a realArray:
 
-var args = Array.prototype.slice.call(arguments); // preferred
-var args = [].slice.call(arguments);
+   ```js
+   var args = Array.prototype.slice.call(arguments); // preferred
+   var args = [].slice.call(arguments);
 
-// ES2015, does not work sometimes
-const args = Array.from(arguments);
+   // ES2015, does not work sometimes
+   const args = Array.from(arguments);
+   ```
 
 2. Object.prototype.hasOwnProperty() // true or false
-
 3. Object.keys()
 
-Ex - {'foo':'bar'}
+   ```js
+   Ex - {'foo':'bar'}
 
-For getting the key from an object's 1st value
+   // For getting the key from an object's 1st value
+   Object.keys [foo](0); // foo
 
-Object.keys [foo](0); // foo
-
-For getting the value from an object
-
-foo [Object.keys [foo](0)); // bar
+   // For getting the value from an object
+   foo [Object.keys [foo](0)); // bar
+   ```
 
 4. Delete object key-value
 
-delete collection [key];
+   `delete collection [key];`
 
 ## Adding properties to objects
 
+```js
 obj.bark = "bow-wow" // dot notation
-
 obj ["bark"] = "bow-wow" // bracket notation
+```
 
 ## Deleting properties from objects
 
+```js
 delete obj.bark; // dot notation
-
 delete obj ["bark"] // bracked notation
+```
 
 ## Random function
 
+```js
 Math.random(); // from 0(inclusive) to 1(exclusive)
-
 Whole Number - Math.floor(Math.random() * 20); // from 0 to 19
-
 Range - Math.floor(Math.random() * (max - min + 1)) + min
-
 // from range min to max
+```
 
 ## Regular Expressions
 
 Used to find certain words or patterns inside of strings.
 
-Ex - /the/gi
-
-/ is the start of the regular expression
-
-"the" is the pattern we want to match
-
-/ is the end of the regular expression
-
-"g" means global, which causes the pattern to return all matches in the string, not just the first one
-
-"i" means that we want to ignore the case when searching for the pattern
+- Ex - /the/gi
+- / is the start of the regular expression
+- "the" is the pattern we want to match
+- / is the end of the regular expression
+- "g" means global, which causes the pattern to return all matches in the string, not just the first one
+- "i" means that we want to ignore the case when searching for the pattern
 
 ## Special selectors
 
 d - retreive digits
-
 s - white spaces (" "(space), r(carriage return), n(newline), t(tab), f(form feed))
-
 S - non-whitespace characters
 
-Ex-
-
+Ex
+```js
 var re = /^(1s?)?((d{3})|d{3})[s-]?d{3}[s-]?d{4}$/;
-
 return re.test(str);
+```
 
 ## String.prototype.match()
 
-str.match(re)
+`str.match(re)`
 
 ## Object Oriented and Functional Programming
 
 1. **Constructor**
 
+```js
 var Car = function() {
-
-this.wheels = 4;
-
-this.engines = 1;
-
-this.seats = 5;
-
+   this.wheels = 4;
+   this.engines = 1;
+   this.seats = 5;
 };
+```
 
 ## this variable refers to the new object being created by the constructor
 
 So when we write,
 
-this.wheels = 4;
+`this.wheels = 4;`
 
 inside of the constructor we are giving the new object it creates a property called wheels with a value of 4.
 
 2. **Instances of objects**
 
-## var myCar = new Car()
+`var myCar = new Car()`
 
 3. **Parametrized Constructor**
 
-## var myCar = new Car(6, 3, 1)
-
+```js
+var myCar = new Car(6, 3, 1)
 var Car = function(wheels, seats, engines) {
-
 this.wheels = wheels;
-
 this.seats = seats;
-
 this.engines = engines;
-
 };
+```
 
 4. **Map**
 
 The map method is a convenient way to iterate through arrays. Here's an example usage:
 
+```js
 var oldArray = [1, 2, 3];
-
 var timesFour = oldArray.map(function(val){
-
 return val * 4;
-
 });
 
 console.log(timesFour); // returns [4, 8, 12]
-
 console.log(oldArray); // returns [1, 2, 3]
+```
 
 The map method will iterate through every element of the array, creating a new array with values that have been modified by the callback function, and return it. Note that it does not modify the original array.
 
@@ -602,11 +544,11 @@ reduce has an optional second argument which can be used to set the initial valu
 
 Here is an example of reduce being used to subtract all the values of an array:
 
+```js
 var singleVal = array.reduce(function(previousVal, currentVal) {
-
 return previousVal - currentVal;
-
 }, 0);
+```
 
 6. **Filter**
 
@@ -620,11 +562,11 @@ The following code is an example of using filter to remove array elements that a
 
 Note: We omit the second and third arguments since we only need the value
 
+```js
 array = array.filter(function(val) {
-
 return val !== 5;
-
 });
+```
 
 7. **Sort**
 
@@ -638,13 +580,12 @@ If no compare (callback) function is passed in, it will convert the values to st
 
 Here is an example of using sort with a compare function that will sort the elements from smallest to largest number:
 
+```js
 var array = [1, 12, 21, 2];
-
 array.sort(function(a, b) {
-
 return a - b;
-
 });
+```
 
 Use sort to sort array from largest to smallest.
 
@@ -654,11 +595,11 @@ You can use the reverse method to reverse the elements of an array.
 
 reverse is another array method that alters the array in place, but it also returns the reversed array.
 
+```js
 var myArray = [1, 2, 3];
-
 myArray.reverse();
-
-*returns [3, 2, 1]*
+// returns [3, 2, 1]
+```
 
 9. **Concat**
 
@@ -668,7 +609,7 @@ concat takes an array as an argument and returns a new array with the elements o
 
 Here is an example of concat being used to concatenate otherArray onto the end of oldArray:
 
-newArray = oldArray.concat(otherArray);
+`newArray = oldArray.concat(otherArray);`
 
 10. **Split**
 
@@ -678,7 +619,7 @@ split uses the argument you pass in as a delimiter to determine which points the
 
 Here is an example of split being used to split a string at every s character:
 
-var array = string.split('s');
+`var array = string.split('s');`
 
 11. **Join**
 
@@ -686,29 +627,30 @@ We can use the join method to join each element of an array into a string separa
 
 The following is an example of using join to join all of the elements of an array into a string with all the elements separated by word and:
 
+```js
 var veggies = ["Celery", "Radish", "Carrot", "Potato"];
-
 var salad = veggies.join(" and ");
-
 console.log(salad); // "Celery and Radish and Carrot and Potato"
+```
 
 ## Built-in functions
 
-## Conversion
+### Conversion
 
+```js
 parseFloat('43.1')
-
 parseInt('45') // always use the floor value if float is passed
+```
 
 ## Destructuring assignment / Spread operator
 
-Thedestructuring assignmentsyntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+The destructuring assignmentsyntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 
+```js
 [a, b, ...rest] = [10, 20, 30, 40, 50];
-
 console.log(rest);
-
 // expected output: Array [30,40,50]
+```
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>
 

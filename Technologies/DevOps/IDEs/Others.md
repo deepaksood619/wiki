@@ -80,7 +80,6 @@ videos [i].playbackRate = 2;
 | inurl: | Use inurl:[search phrase] to search for pages that have at least one of your search words in the URL | Show pages that mention Roth, IRA, and/or investments in the body:intext:Roth IRA investments |
 | OR | Perform two search queries at the same time by separating your search terms with OR. This will find pages that have one of several words. | Search for pages that reference "Google Drive," "Dropbox," or "OneDrive":"Google Drive" OR Dropbox OR OneDrive |
 
-
 ## github
 
 ### t - Fuzzy file finder

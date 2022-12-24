@@ -24,17 +24,17 @@ Grafana Tanka is the robust configuration utility for your [Kubernetes](https://
 
 ## Plugins
 
-kubectl tree
+### kubectl tree
 
 <https://ahmet.im/blog/kubectl-tree>
 
-kubectl access-matrix
+### kubectl access-matrix
 
-## krew
+### krew
 
 <https://github.com/kubernetes-sigs/krew>
 
-ketall
+### ketall
 
 <https://github.com/corneliusweig/ketall>
 
@@ -42,7 +42,7 @@ ketall
 
 ## Minikube
 
-## Features
+### Features
 
 Minikube supports Kubernetes features such as
 
@@ -56,15 +56,13 @@ Minikube supports Kubernetes features such as
 
 ## Commands
 
+```bash
 minikube version
-
 minikube start
-
 minikube stop
-
 minikube ip
-
 minikube status
+```
 
 <https://kubernetes.io/docs/tutorials/hello-minikube>
 
@@ -84,7 +82,7 @@ kopshelps you create, destroy, upgrade and maintain production-grade, highly ava
 
 ## kubeadm
 
-kubeadmhelps you bootstrap a minimum viable Kubernetes cluster that conforms to best practices.
+kubeadm helps you bootstrap a minimum viable Kubernetes cluster that conforms to best practices.
 
 <https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm>
 
@@ -96,36 +94,30 @@ The query is a regular expression so the pod name can easily be filtered and you
 
 When a pod contains multiple containers Stern can tail all of them too without having to do this manually for each one. Simply specify thecontainerflag to limit what containers to show. By default all containers are listened to.
 
+```bash
 brew install stern
 stern decision-engine
 
 Tail the gateway container running inside of the envvars pod on staging
-
-stern --context staging --container gateway envvars
-
+    stern --context staging --container gateway envvars
 Show auth activity from 15min ago with timestamps
-
-stern -t --since 15m auth
-
+    stern -t --since 15m auth
 Follow the development of some-new-feature in minikube
-
-stern --context minikube some-new-feature
-
+    stern --context minikube some-new-feature
 View pods from another namespace
-
 stern --namespace kube-system kubernetes-dashboard
+```
 
 <https://github.com/wercker/stern>
 
 ## Kubetail
 
+```bash
 kubectl get pods
-
 kubetail app2
-
 kubetail alertdriver -n example
-
 kubetail "cp-kafka-connect-*" --regex -c cp-kafka-connect-server -n kafka
+```
 
 <https://github.com/johanhaleby/kubetail>
 
@@ -145,13 +137,14 @@ KubeDirectoruses standard Kubernetes (K8s) facilities of custom resources and AP
 
 Customization of kubernetes YAML configurations
 
-## kubectl apply --kustomize
+```bash
+kubectl apply --kustomize
 
--k, --kustomize='': Process a kustomization directory. This flag can't be used together with -f or -R.
+# -k, --kustomize='': Process a kustomization directory. This flag can't be used together with -f or -R.
 
 /base
-
 /overlays
+```
 
 <https://github.com/kubernetes-sigs/kustomize>
 
@@ -163,25 +156,20 @@ Customization of kubernetes YAML configurations
 
 K9s provides a curses based terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with observed Kubernetes resources.
 
+```bash
 brew install derailed/k9s/k9s
 
 k9s -n <namespace>
-
 ctrl + r - refresh
-
 ctrl + h - toggle header
+ctrl + a - show all resources
 
-## ctrl + a - show all resources
-
-## Shortcuts
-
-## ? (shift + /) - help show commands
-
-## :q - quit
-
-## :a - api resources
-
-## :h - help
+# Shortcuts
+    ? (shift + /) - help show commands
+    :q - quit
+    :a - api resources
+    :h - help
+```
 
 <https://github.com/derailed/k9s>
 
@@ -206,15 +194,10 @@ Switch faster between clusters and namespaces in kubectl
 ## Sloop
 
 Key features:
-
 1. Allows you to find and inspect resources that no longer exist (example: discover what host the pod from the previous deployment was using).
-
 2. Provides timeline displays that show rollouts of related resources in updates to Deployments, ReplicaSets, and StatefulSets.
-
 3. Helps debug transient and intermittent errors.
-
 4. Allows you to see changes over time in a Kubernetes application.
-
 5. Is a self-contained service with no dependencies on distributed storage.
 
 <https://github.com/salesforce/sloop>
@@ -230,11 +213,8 @@ Skaffold is a command line tool that facilitates continuous development for Kube
 Local development against a remote Kubernetes or OpenShift cluster
 
 Telepresence allows you to run your code locally while still:
-
 1. Giving your code access to Services in a remote Kubernetes cluster.
-
 2. Giving your code access to cloud resources like AWS RDS or Google PubSub.
-
 3. Allowing Kubernetes to access your code as if it were in a normal pod within the cluster.
 
 telepresence --swap-deployment api-v3 --namespace staging --expose 8000
@@ -243,7 +223,7 @@ telepresence --swap-deployment api-v3 --namespace staging --expose 8000
 
 ## kubefwd
 
-kubefwdis a command line utility built to port forward multiple [services](https://kubernetes.io/docs/concepts/services-networking/service/) within one or more [namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) on one or more Kubernetes clusters.kubefwduses the same port exposed by the service and forwards it from a loopback IP address on your local workstation.kubefwdtemporally adds domain entries to your/etc/hostsfile with the service names it forwards.
+kubefwd is a command line utility built to port forward multiple [services](https://kubernetes.io/docs/concepts/services-networking/service/) within one or more [namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) on one or more Kubernetes clusters.kubefwduses the same port exposed by the service and forwards it from a loopback IP address on your local workstation.kubefwdtemporally adds domain entries to your/etc/hostsfile with the service names it forwards.
 
 <https://github.com/txn2/kubefwd>
 
@@ -263,41 +243,27 @@ Cloud Code comes with tools to help you write, deploy, and debug cloud-native ap
 
 ## ksync
 
+```bash
 ksync init --upgrade # for new cluster
-
 ksync create --pod=test $(pwd) /app
-
 ksync create --local-read-only --pod=test --reload=false --name=test $(pwd) /app
-
 ksync create --selector=app=app $(pwd)/ksync /code
-
 ksync get
-
 ksync watch
 
-Available Commands:
-
-clean Remove installed pieces
-
-create Create a new spec
-
-delete Delete an existing spec
-
-doctor Troubleshoot and verify your setup is correct.
-
-get Get all specs.
-
-help Help about any command
-
-init Prepare ksync.
-
-reload Reload a remote spec.
-
-update Update ksync to the latest version.
-
-version View the versions of both the local binary and remote service.
-
-watch Watch configured specs and start syncing files when required
+# Available Commands:
+    clean       Remove installed pieces
+    create      Create a new spec
+    delete      Delete an existing spec
+    doctor      Troubleshoot and verify your setup is correct.
+    get         Get all specs.
+    help        Help about any command
+    init        Prepare ksync.
+    reload      Reload a remote spec.
+    update      Update ksync to the latest version.
+    version     View the versions of both the local binary and remote service.
+    watch       Watch configured specs and start syncing files when required
+```
 
 <https://github.com/ksync/ksync>
 
@@ -315,7 +281,7 @@ cdk8sis an open-source software development framework for defining Kubernetes ap
 
 ## KubeWatch
 
-kubewatchis a Kubernetes watcher that currently publishes notification to available collaboration hubs/notification channels. Run it in your k8s cluster, and you will get event notifications through webhooks.
+kubewatch is a Kubernetes watcher that currently publishes notification to available collaboration hubs/notification channels. Run it in your k8s cluster, and you will get event notifications through webhooks.
 
 <https://github.com/bitnami-labs/kubewatch>
 
@@ -346,7 +312,6 @@ kube-slack is a monitoring service for Kubernetes. When a pod has failed, it wil
 Lightweight Kubernetes. Easy to install, half the memory, all in a binary less than 40mb.
 
 Great for
-
 - Edge
 - IoT
 - CI
@@ -371,13 +336,12 @@ Lens is the only IDE you'll ever need to take control of your Kubernetes cluster
 
 kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
 
+```bash
 kind create cluster
-
 kind get clusters
-
 kubectl cluster-info --context kind-kind
-
 kind delete cluster
+```
 
 <https://kind.sigs.k8s.io>
 
