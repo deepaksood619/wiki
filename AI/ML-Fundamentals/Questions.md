@@ -8,7 +8,7 @@ Modified: 2021-09-01 00:23:12 +0500
 
 ## Differentiate between univariate, bivariate, and multivariate analysis
 
-Often, we have a model that uses multiple parameters to make a decision. The different types of analysis, according to the number of parameters, are as follows:-
+Often, we have a model that uses multiple parameters to make a decision. The different types of analysis, according to the number of parameters, are as follows
 
 - Univariate: Where only one parameter is important and considered.
 - Bivariate: Where 2 parameters are used in the model.

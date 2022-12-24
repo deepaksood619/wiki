@@ -21,7 +21,7 @@ gRPC clients and servers can run and talk to each other in a variety of environm
 
 ## Types of gRPC service
 
-gRPC lets you define four kinds of service method:-  **Unary RPCs** where the client sends a single request to the server and gets a single response back, just like a normal function call.
+gRPC lets you define four kinds of service method **Unary RPCs** where the client sends a single request to the server and gets a single response back, just like a normal function call.
 rpc SayHello(HelloRequest) returns (HelloResponse){
 }-  **Server streaming RPCs** where the client sends a request to the server and gets a stream to read a sequence of messages back. The client reads from the returned stream until there are no more messages.
 rpc LotsOfReplies(HelloRequest) returns (stream HelloResponse){

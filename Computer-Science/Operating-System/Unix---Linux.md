@@ -148,7 +148,7 @@ This allows joining existing namespace. The namespace is specified by the file d
 
 - unshare()
 
-This allows calling process to disassociate from parts of current namespace. Basically, this function works on the processes that are being shared by other's namespace as well for ex:- mount namespace.
+This allows calling process to disassociate from parts of current namespace. Basically, this function works on the processes that are being shared by other's namespace as well for ex - mount namespace.
 What are the things a child process inherits from its parents?
 
 - User + groups

@@ -10,102 +10,89 @@ Modified: 2022-12-11 20:01:39 +0500
 
 Define and run multi-container applications with Docker.
 
-## Usage
+### Usage
 
+```bash
 docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
 docker-compose -h|--help
+```
 
-## Options
+### Options
 
--f, --file FILE Specify an alternate compose file
-(default: docker-compose.yml)
--p, --project-name NAME Specify an alternate project name
-(default: directory name)
---verbose Show more output
---log-level LEVEL Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
---no-ansi Do not print ANSI control characters
--v, --version Print version and exit
--H, --host HOST Daemon socket to connect to
+```bash
+-f, --file FILE             Specify an alternate compose file
+                            (default: docker-compose.yml)
+-p, --project-name NAME     Specify an alternate project name
+                            (default: directory name)
+--verbose                   Show more output
+--log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+--no-ansi                   Do not print ANSI control characters
+-v, --version               Print version and exit
+-H, --host HOST             Daemon socket to connect to
+--tls                       Use TLS; implied by --tlsverify
+--tlscacert CA_PATH         Trust certs signed only by this CA
+--tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+--tlskey TLS_KEY_PATH       Path to TLS key file
+--tlsverify                 Use TLS and verify the remote
+--skip-hostname-check       Don't check the daemon's hostname against the
+                            name specified in the client certificate
+--project-directory PATH    Specify an alternate working directory
+                            (default: the path of the Compose file)
+--compatibility             If set, Compose will attempt to convert deploy
+                            keys in v3 files to their non-Swarm equivalent
+```
 
---tls Use TLS; implied by --tlsverify
---tlscacert CA_PATH Trust certs signed only by this CA
---tlscert CLIENT_CERT_PATH Path to TLS certificate file
---tlskey TLS_KEY_PATH Path to TLS key file
---tlsverify Use TLS and verify the remote
---skip-hostname-check Don't check the daemon's hostname against the
-name specified in the client certificate
---project-directory PATH Specify an alternate working directory
-(default: the path of the Compose file)
---compatibility If set, Compose will attempt to convert deploy
-keys in v3 files to their non-Swarm equivalent
+### Commands
 
-## Commands
-
-build Build or rebuild services
-
-docker-compose up --build kafka-consumer
-
-docker-compose up --no-build example-dev
-
-bundle Generate a Docker bundle from the Compose file
-config Validate and view the Compose file
-
-docker-compose config | less
-
-create Create services
-down Stop and remove containers, networks, images, and volumes
-events Receive real time events from containers
-exec Execute a command in a running container
-help Get help on a command
-images List images
-kill Kill containers
-logs View output from containers
-
-docker-compose logs
-
-docker-compose logs --tail 10 --follow
-
-^S and ^Q to pause/resume log output
-
-pause Pause services
-port Print the public port for a port binding
-ps List containers
-pull Pull service images
-push Push service images
-restart Restart services
-
-Restarts all stopped and running services.
-
-Usage: restart [options] [SERVICE...]
-
-rm Remove stopped containers
-run Run a one-off command
-scale Set number of containers for a service
-start Start services
-stop Stop services
-
-docker-compose stop <service_name>
-
-top Display the running processes
-unpause Unpause services
-up Create and start containers
-version Show the Docker-Compose version information
+```bash
+build              Build or rebuild services
+    docker-compose up --build kafka-consumer
+    docker-compose up --no-build zenalytix-dev
+  bundle             Generate a Docker bundle from the Compose file
+config             Validate and view the Compose file
+    docker-compose config | less
+  create             Create services
+down               Stop and remove containers, networks, images, and volumes
+events             Receive real time events from containers
+exec               Execute a command in a running container
+help               Get help on a command
+images             List images
+kill               Kill containers
+logs               View output from containers
+    docker-compose logs
+    docker-compose logs --tail 10 --follow
+    ^S and ^Q to pause/resume log output
+  pause              Pause services
+port               Print the public port for a port binding
+ps                 List containers
+pull               Pull service images
+push               Push service images
+restart            Restart services
+    Restarts all stopped and running services.
+    Usage: restart [options] [SERVICE...]
+  rm                 Remove stopped containers
+run                Run a one-off command
+scale              Set number of containers for a service
+start              Start services
+stop               Stop services
+    docker-compose stop <service_name>
+top                Display the running processes
+unpause            Unpause services
+up                 Create and start containers
+version            Show the Docker-Compose version information
+```
 
 ## Environment file priority
 
 When you set the same environment variable in multiple files, here's the priority used by Compose to choose which value to use:
 
 1. Compose file
-
 2. Shell environment variables
-
 3. Environment file
-
 4. Dockerfile
-
 5. Variable is not defined
 
-When**.env**fileis present in the folder docker-compose command is executed, those environment variables are used as environment variables for **docker-compose execution and variable substitution.**
+When **.env** file is present in the folder docker-compose command is executed, those environment variables are used as environment variables for **docker-compose execution and variable substitution.**
 
 However when you define **env_file** option to your service, the service will get those variables from the file as **environment variables** and those are not used for variable substitution.
 
@@ -113,10 +100,11 @@ However when you define **env_file** option to your service, the service will ge
 
 - **Version 3**
 
-Designed to be cross-compatible between Compose and the Docker Engine's [swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
+  Designed to be cross-compatible between Compose and the Docker Engine's [swarm mode](https://docs.docker.com/engine/swarm/), version 3 removes several options and adds several more.
 
-- Removed:volume_driver, volumes_from, cpu_shares, cpu_quota, cpuset, mem_limit, memswap_limit, extends, group_add. See the [upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading) guide for how to migrate away from these. (For more information onextends, see [Extending services](https://docs.docker.com/compose/extends/#extending-services).)
-- Added:[deploy](https://docs.docker.com/compose/compose-file/#deploy)
+  - Removed: volume_driver, volumes_from, cpu_shares, cpu_quota, cpuset, mem_limit, memswap_limit, extends, group_add. See the [upgrading](https://docs.docker.com/compose/compose-file/compose-versioning/#upgrading) guide for how to migrate away from these. (For more information onextends, see [Extending services](https://docs.docker.com/compose/extends/#extending-services).)
+
+  - Added: [deploy](https://docs.docker.com/compose/compose-file/#deploy)
 
 - **Version 3.3**
   - Docker Engine version17.06.0+, and higher.
@@ -151,13 +139,12 @@ Designed to be cross-compatible between Compose and the Docker Engine's [swarm m
 ## Tips
 
 - No variable sustitution for keys in docker-compose
-- both $VARIABLE and $VARIABLE syntax is supported
 - Can use default and err with variables
-  - $VARIABLE:-defaultevaluates todefaultifVARIABLEis unset or empty in the environment.
-  - $VARIABLE-defaultevaluates todefaultonly ifVARIABLEis unset in the environment.
-  - $VARIABLE:?errexits with an error message containingerrifVARIABLEis unset or empty in the environment.
-  - $VARIABLE?errexits with an error message containingerrifVARIABLEis unset in the environment.
-- You can use a$$(double-dollar sign) when your configuration needs a literal dollar sign. This also prevents Compose from interpolating a value, so a$$allows you to refer to environment variables that you don't want processed by Compose.
+  - $VARIABLE:-default evaluates to default if VARIABLE is unset or empty in the environment.
+  - $VARIABLE-default evaluates todefaultonly if VARIABLE is unset in the environment.
+  - $VARIABLE:?err exits with an error message containing err if VARIABLE is unset or empty in the environment.
+  - $VARIABLE?err exits with an error message containing err if VARIABLE is unset in the environment.
+- You can use a `$$` (double-dollar sign) when your configuration needs a literal dollar sign. This also prevents Compose from interpolating a value, so a `$$` allows you to refer to environment variables that you don't want processed by Compose.
 - Two different docker networks cannot access each other services
 
 ## References

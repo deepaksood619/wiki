@@ -74,49 +74,49 @@ Source:[The Time Keeper](https://click.convertkit-mail4.com/r8u235lnlkuohgmm36s3
 
 A rare conversation between Krishna & Today's Arjun
 
-1. Arjun :- I can't find free time. Life has become hectic.
+1. Arjun - I can't find free time. Life has become hectic.
 
-Krishna:- Activity gets you busy. But productivity gets you free.
+Krishna- Activity gets you busy. But productivity gets you free.
 
-2. Arjun :- Why has life become complicated now?
+2. Arjun - Why has life become complicated now?
 
-Krishna :- Stop analyzing life... It makes it complicated. Just live it.
+Krishna - Stop analyzing life... It makes it complicated. Just live it.
 
-3. Arjun :- Why are we then constantly unhappy?
+3. Arjun - Why are we then constantly unhappy?
 
-Krishna :- Worrying has become your habit. That's why you are not happy.
+Krishna - Worrying has become your habit. That's why you are not happy.
 
-4. Arjun :- Why do good people always suffer?
+4. Arjun - Why do good people always suffer?
 
-Krishna :- Diamond cannot be polished without friction. Gold cannot be purified without fire. Good people go through trials, but don't suffer.With that experience their life becomes better, not bitter.
+Krishna - Diamond cannot be polished without friction. Gold cannot be purified without fire. Good people go through trials, but don't suffer.With that experience their life becomes better, not bitter.
 
-5. Arjun :- You mean to say such experience is useful?
+5. Arjun - You mean to say such experience is useful?
 
-Krishna :- Yes. In every term, Experience is a hard teacher. It gives the test first and the lessons later.
+Krishna - Yes. In every term, Experience is a hard teacher. It gives the test first and the lessons later.
 
-6. Arjun :- Because of so many problems, we don't know where we are heading...
+6. Arjun - Because of so many problems, we don't know where we are heading...
 
-Krishna:- If you look outside you will not know where you are heading. Look inside. Eyes provide sight. Heart provides the way.
+Krishna- If you look outside you will not know where you are heading. Look inside. Eyes provide sight. Heart provides the way.
 
-7. Arjun :- Does failure hurt more than moving in the right direction?
+7. Arjun - Does failure hurt more than moving in the right direction?
 
-Krishna:- Success is a measure as decided by others. Satisfaction is a measure as decided by you.
+Krishna- Success is a measure as decided by others. Satisfaction is a measure as decided by you.
 
-8. Arjun :- In tough times, how do you stay motivated?
+8. Arjun - In tough times, how do you stay motivated?
 
-Krishna :- Always look at how far you have come rather than how far you have to go. Always count your blessing, not what you are missing.
+Krishna - Always look at how far you have come rather than how far you have to go. Always count your blessing, not what you are missing.
 
-9. Arjun :- What surprises you about people?
+9. Arjun - What surprises you about people?
 
-Krishna :- When they suffer they ask, "why me?" When they prosper, they never ask "Why me?"
+Krishna - When they suffer they ask, "why me?" When they prosper, they never ask "Why me?"
 
-10. Arjun :- How can I get the best out of life?
+10. Arjun - How can I get the best out of life?
 
-Krishna:- Face your past without regret. Handle your present with confidence. Prepare for the future without fear.
+Krishna- Face your past without regret. Handle your present with confidence. Prepare for the future without fear.
 
-11. Arjun :- One last question. Sometimes I feel my prayers are not answered.
+11. Arjun - One last question. Sometimes I feel my prayers are not answered.
 
-Krishna:- There are no unanswered prayers. Keep the faith and drop the fear. Life is a mystery to solve, not a problem to resolve. Trust me. Life is wonderful if you know how to live.
+Krishna- There are no unanswered prayers. Keep the faith and drop the fear. Life is a mystery to solve, not a problem to resolve. Trust me. Life is wonderful if you know how to live.
 
 Success has a nasty tendency to increase confidence more than ability. The longer it lasts, and the more it was tied to some degree of serendipity, the truer that becomes.
 
