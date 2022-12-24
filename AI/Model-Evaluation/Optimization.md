@@ -13,8 +13,6 @@ Modified: 2021-06-19 14:47:58 +0500
 - Optimize gradient descent to be as efficient as possible
 - Use performance metrics to make business decisions
 
-#
-
 # Defining ML Models
 
 ![image](media/Optimization-image1.png)
@@ -52,8 +50,6 @@ Modified: 2021-06-19 14:47:58 +0500
 ![image](media/Optimization-image16.png)
 
 ![image](media/Optimization-image17.png)
-
-#
 
 # Gradient Descent
 

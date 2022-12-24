@@ -6,7 +6,7 @@ Modified: 2021-03-12 23:29:17 +0500
 
 ---
 
-# Apache Tez
+## Apache Tez
 
 The Apache TEZ® project is aimed at building an application framework which allows for a complex directed-acyclic-graph of tasks for processing data. It is currently built atop [Apache Hadoop YARN](http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html).
 
@@ -23,15 +23,14 @@ The 2 main design themes for Tez are:
   - Plan reconfiguration at runtime
   - Dynamic physical data flow decisions
 
-## References
 
 <http://tez.apache.org>
 
-# Apache Spark
+## Apache Spark
 
-## Apache Sparkis an [open-source](https://en.wikipedia.org/wiki/Open-source_software) distributed general-purpose [cluster-computing](https://en.wikipedia.org/wiki/Cluster_computing)[framework](https://en.wikipedia.org/wiki/Software_framework). Spark provides an [interface](https://en.wikipedia.org/wiki/Application_programming_interface) for programming entire clusters with implicit [data parallelism](https://en.wikipedia.org/wiki/Data_parallelism) and [fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance)
+Apache Sparkis an [open-source](https://en.wikipedia.org/wiki/Open-source_software) distributed general-purpose [cluster-computing](https://en.wikipedia.org/wiki/Cluster_computing)[framework](https://en.wikipedia.org/wiki/Software_framework). Spark provides an [interface](https://en.wikipedia.org/wiki/Application_programming_interface) for programming entire clusters with implicit [data parallelism](https://en.wikipedia.org/wiki/Data_parallelism) and [fault tolerance](https://en.wikipedia.org/wiki/Fault_tolerance)
 
-## Features
+### Features
 
 - Scatter/gather paradigm (similar to MapReduce)
 - More general data model (RDDs, DataSets)
@@ -39,15 +38,14 @@ The 2 main design themes for Tez are:
 - Storage agnostic
 - Faster version of MapReduce(does all the mapreduce in-memory)
 
-## References
 
 <https://en.wikipedia.org/wiki/Apache_Spark>
 
-# Apache Superset
+## Apache Superset
 
 Modern, enterprise-ready business intelligence web application
 
-## Features
+### Features
 
 - A rich set of data visualizations
 - An easy-to-use interface for exploring and visualizing data
@@ -58,17 +56,15 @@ Modern, enterprise-ready business intelligence web application
 - Integration with most SQL-speaking RDBMS through SQLAlchemy
 - Deep integration with Druid.io
 
-## References
-
 <https://superset.incubator.apache.org/index.html>
 
-# Apache Beam
+## Apache Beam
 
 An advanced unified programming model
 
 Implement batch and streaming data processing jobs that run on any execution engine.
 
-# Apache Storm
+## Apache Storm
 
 Apache Storm is a free and open source distributed realtime computation system. Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing. Storm is simple, can be used with any programming language.
 
@@ -76,13 +72,12 @@ Storm has many use cases: realtime analytics, online machine learning, continuou
 
 Storm integrates with the queueing and database technologies you already use. A Storm topology consumes streams of data and processes those streams in arbitrarily complex ways, repartitioning the streams between each stage of the computation however needed.
 
-## References
 
 <http://storm.apache.org>
 
-# Apache Flink- Stateful Computations over Data Streams
+## Apache Flink- Stateful Computations over Data Streams
 
-![Event-driven Applications Streaming Pipelines Stream & Batch Analytics (Real-time) Transactions Events Logs IOT Clicks Database, File System, KV-Store Application Event Log Database, File System, KV-Store Storage Resources ) I (HDFS, S3, NFS, Yarn, Mesos ](../../media/Technologies-Apache-Others-image1.png)
+![Event-driven Applications](../../media/Technologies-Apache-Others-image1.png)
 
 Apache Flink is a framework and distributed processing engine for stateful computations over*unbounded and bounded*data streams. Flink has been designed to run in*all common cluster environments*, perform computations at*in-memory speed*and at*any scale*.
 

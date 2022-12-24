@@ -46,8 +46,6 @@ Modified: 2021-08-08 09:21:53 +0500
 - [Business Process](https://www.tutorialspoint.com/software_testing_dictionary/business_process.htm)
 - [Business Requirement](https://www.tutorialspoint.com/software_testing_dictionary/business_requirement.htm)
 
-#
-
 # C
 
 - [Capability Maturity Model](https://www.tutorialspoint.com/software_testing_dictionary/capability_maturity_model.htm)

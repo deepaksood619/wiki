@@ -24,8 +24,6 @@ The second term drops out becausevi= 0, so all you have to do is plug in the num
 
 In other words, the total distance traveled is 402 meters, or a quarter mile. Must be a quarter-mile racetrack.
 
-#
-
 # HOW TO CALCULATE ACCELERATION
 
 In physics terms, acceleration,a, is the amount by which your velocity changes in a given amount of time. Given the initial and final velocities,viandvf, and the initial and final times over which your speed changes,tiandtf, you can write the equation like this:

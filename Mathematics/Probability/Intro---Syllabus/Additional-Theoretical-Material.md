@@ -31,8 +31,6 @@ Variance of a random variable is equal to the expected value of the square of th
 
 ![image](media/Intro---Syllabus_Additional-Theoretical-Material-image7.png)
 
-#
-
 # Independence of random variable vs independence of events
 
 LetAandBbe two events, and letIAandIBbe the associated indicator variables. Show that eventsAandBare independent if and only if the random variablesIAandIBare independent.

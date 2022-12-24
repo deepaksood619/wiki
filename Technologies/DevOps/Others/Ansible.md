@@ -38,19 +38,19 @@ In contrast with popular configuration management software --- such as [Chef](ht
 
 Logical grouping of servers which are to be managed by a sysadmin
 
-![Logical Grouping of Servers Ansible Inventory ](../../media/DevOps-Others-Ansible-image1.png)
+![Logical Grouping of Servers Ansible Inventory](../../media/DevOps-Others-Ansible-image1.png)
 
 - Ansible Playbooks
 
 Collection of commands that a sysadmin would run on servers mentioned in Ansible Inventory
 
-![playbook.yml Ansible Playbook plays tasks Ansible Playbooks ](../../media/DevOps-Others-Ansible-image2.png)
+![Ansible Playbook plays tasks Ansible Playbooks](../../media/DevOps-Others-Ansible-image2.png)
 
 - Ansible Modules
 
 In-built packages which are available for a sysadmin to use in Ansible Playbooks and then run them on the servers which are mentioned in Ansible Inventory
 
-![messaging modules networking modules source control modules core inventory modules curated utilities modules community database modules cloud modules Ansible Modules ](../../media/DevOps-Others-Ansible-image3.png)
+![messaging modules](../../media/DevOps-Others-Ansible-image3.png)
 
 ## Design Principles
 

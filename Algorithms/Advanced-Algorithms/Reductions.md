@@ -22,8 +22,6 @@ Desiderata - Something that is needed or wanted
 
 ![image](media/Reductions-image6.png)
 
-#
-
 # Designing Algorithms
 
 ![image](media/Reductions-image7.png)
@@ -57,8 +55,6 @@ SPT Scheduling - Shortest Processing Time Scheduling
 ![image](media/Reductions-image19.png)
 
 ![image](media/Reductions-image20.png)
-
-#
 
 # Classifying Problems
 

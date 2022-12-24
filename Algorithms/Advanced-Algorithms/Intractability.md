@@ -100,8 +100,6 @@ NP - Non Deterministic Polynomial Time (The complexity class NPcontains all of t
 
 <https://sahandsaba.com/understanding-sat-by-implementing-a-simple-sat-solver-in-python.html>
 
-#
-
 # NP-completeness
 
 ![image](media/Intractability-image34.png)

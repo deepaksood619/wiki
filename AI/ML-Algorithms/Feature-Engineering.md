@@ -56,8 +56,6 @@ Statistics - I've got all the data I'll ever get, throw away outliers
 
 ![media](media/Feature-Engineering-image10.png)
 
-#
-
 - Apache Beam
 - BigQuery
 - TensorFlow
@@ -113,8 +111,6 @@ Statistics - I've got all the data I'll ever get, throw away outliers
 ![media](media/Feature-Engineering-image33.png)
 
 ![media](media/Feature-Engineering-image34.png)
-
-#
 
 - Ingesting, Transforming and Analyzing Taxi Data
 
@@ -219,8 +215,6 @@ tf.transform allows users to define preprocessing pipelines and run these using 
 # TensorFlow Transform
 
 ![media](media/Feature-Engineering-image68.png)
-
-#
 
 ![media](media/Feature-Engineering-image69.png)
 

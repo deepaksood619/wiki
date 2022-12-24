@@ -98,8 +98,6 @@ Our actions don't match our intentions.
 
 <https://jamesclear.com/mental-toughness>
 
-#
-
 ## Will power
 
 ## I have an unlimited will power

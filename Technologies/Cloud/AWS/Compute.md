@@ -74,7 +74,7 @@ Run Your Code in Response to Events
 
 ```python
 # Stock Check Lambda function
-#
+
 # This function is triggered when values are inserted into the Inventory DynamoDB table.
 # Inventory counts are checked, and if an item is out of stock, a notification is sent to an SNS topic.
 
