@@ -227,7 +227,7 @@ There are a lot of different modifiers -
 
 1. ( i ) - case insensitive
 
-Ex - we have /this/i as a regular expression. It would match any variation of "this" with lowercase and uppercase letters.
+    Ex - we have /this/i as a regular expression. It would match any variation of "this" with lowercase and uppercase letters.
 
 2. ( s ) - It makes the dot match all possible characters including line breaks.
 
@@ -344,20 +344,20 @@ For instance `(?:Bob|Chloe)` matches *Bob* or *Chloe* - but the name is not capt
 
 1. Regex - `(.){2}(.)\1\2`
 
-Solution - 11212 (`\1` only see the first capturing group once )
+    Solution - 11212 (`\1` only see the first capturing group once )
 
 2. Use Lookarounds instead of direct matches and replacing with same letters, so that two consecutive matches can be found, i.e. overlapping patterns
 
-```bash
-Ex
-    s = re.sub(r'(?<= )&&(?= )', 'and', s)
-    s = re.sub(r'(?<= )\|\|(?= )', 'or', s)
-Instead of
-    s = re.sub(r' && ', ' and ', s)
-    s = re.sub(r' \|\| ', ' or ', s)
-```
+    ```bash
+    Ex
+        s = re.sub(r'(?<= )&&(?= )', 'and', s)
+        s = re.sub(r'(?<= )\|\|(?= )', 'or', s)
+    Instead of
+        s = re.sub(r' && ', ' and ', s)
+        s = re.sub(r' \|\| ', ' or ', s)
+    ```
 
-In above example space was directly used to match the pattern instead of lookarounds, by which two consecutive matches are skipped.
+    In above example space was directly used to match the pattern instead of lookarounds, by which two consecutive matches are skipped.
 
 ## Cheatsheet
 

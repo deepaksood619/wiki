@@ -28,11 +28,11 @@ A field for storing JSON encoded data. In Python the data is represented in its 
 
 PostgreSQL has two native JSON based data types: **json** and **jsonb**. The main difference between them is how they are stored and how they can be queried. PostgreSQL's **json** field is stored as the original string representation of the JSON and must be decoded on the fly when queried based on keys. The **jsonb** field is stored based on the actual structure of the JSON which allows indexing. The trade-off is a small additional cost on writing to the **jsonb** field.**JSONField** uses **jsonb**.
 
-### Can Supply RAW PostgreSQL queries for filtering and other direct postgres statements
+Can Supply RAW PostgreSQL queries for filtering and other direct postgres statements
 
 `RawSQL("metadata->>%s", ("TPA_License"),")`
 
-### Use psycopg2 for connecting to database instance
+Use psycopg2 for connecting to database instance
 
 [http://initd.org/psycopg/docs/module.html](http://initd.org/psycopg/docs/module.html#psycopg2.connect)
 
@@ -42,9 +42,9 @@ PostgreSQL has two native JSON based data types: **json** and **jsonb**. The mai
 
 2. Auto-generate models
 
-Utility - inspectdb can create models by introspecting an existing database.
+    Utility - inspectdb can create models by introspecting an existing database.
 
-python manage.py inspectdb > models.py
+    `python manage.py inspectdb > models.py`
 
 3. Use values() or values_list() and only() query expressions for getting specific values
 

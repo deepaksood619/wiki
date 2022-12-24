@@ -11,51 +11,51 @@ JSON(JavaScript Object Notation) is a lightweight data-interchange format. It is
 JSON is built on two structures:
 
 - A collection of name/value pairs. In various languages, this is realized as anobject, record, struct, dictionary, hash table, keyed list, or associative array.
-- An ordered list of values. In most languages, this is realized as anarray, vector, list, or sequence.
+- An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.
 
 These are universal data structures. Virtually all modern programming languages support them in one form or another. It makes sense that a data format that is interchangeable with programming languages also be based on these structures.
 
-Plain text formats, especially JSON, have some problems with number precision, just follow these links:[JSON IEEE 754](https://groups.google.com/forum/#!topic/twitter-development-talk/ahbvo3VTIYI), [DoS](https://www.reddit.com/r/java/comments/9jyv58/lowbandwidth_dos_vulnerability_in_jacksons/).
+Plain text formats, especially JSON, have some problems with number precision.
 
 In JSON, they take on these forms:
 
 1. **Object**
 
-Anobjectis an unordered set of name/value pairs. An object begins with{(left brace)and ends with}(right brace). Each name is followed by:(colon)and the name/value pairs are separated by,(comma).
+    An object is an unordered set of name/value pairs. An object begins with{(left brace)and ends with}(right brace). Each name is followed by:(colon)and the name/value pairs are separated by,(comma).
 
-![image](media/JSON-image1.gif)
+    ![image](media/JSON-image1.gif)
 
 2. **Array**
 
-Anarrayis an ordered collection of values. An array begins with [(left bracket)and ends with](right bracket). Values are separated by,(comma).
+    An array is an ordered collection of values. An array begins with [(left bracket)and ends with](right bracket). Values are separated by,(comma).
 
-![ател Леше ](media/JSON-image2.gif)
+    ![image](media/JSON-image2.gif)
 
 3. **Value**
 
-Avaluecan be astringin double quotes, or anumber, ortrueorfalseornull, or anobjector anarray. These structures can be nested.
+    A value can be astringin double quotes, or a number, or true or false or null, or an object or an array. These structures can be nested.
 
 4. **String**
 
-Astringis a sequence of zero or more Unicode characters, wrapped in double quotes, using backslash escapes. A character is represented as a single character string. A string is very much like a C or Java string.
+    A string is a sequence of zero or more Unicode characters, wrapped in double quotes, using backslash escapes. A character is represented as a single character string. A string is very much like a C or Java string.
 
 5. **Number**
 
-Anumberis very much like a C or Java number, except that the octal and hexadecimal formats are not used.
+    A number is very much like a C or Java number, except that the octal and hexadecimal formats are not used.
 
 6. **Boolean**
 
-true/false
+    true/false
 
-{"sale":true}
+    {"sale":true}
 
 7. **Null**
 
-null
+    null
 
-{"middlename":null}
+    {"middlename":null}
 
-Whitespace can be inserted between any pair of tokens. Excepting a few encoding details, that completely describes the language.
+    Whitespace can be inserted between any pair of tokens. Excepting a few encoding details, that completely describes the language.
 
 ## Control Characters
 
