@@ -259,11 +259,11 @@ source <(helm completion zsh)
 # kubectl aliases
 [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
+
+# run command - setopt auto_cd
+
+# Set autocd, which means that rather than typing cd <foldername> you just type <foldername>
 ```
-
-run command - `setopt auto_cd`
-
-Set autocd, which means that rather than typing cd <foldername> you just type <foldername>
 
 ### ~/.profile
 
