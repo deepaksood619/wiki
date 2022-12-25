@@ -14,7 +14,7 @@ In producer mode kafkacat reads messages from stdin, delimited with a configurab
 
 In consumer mode kafkacat reads messages from a topic and partition and prints them to stdout using the configured message delimiter.
 
-There's also support for the Kafka >=0.9 high-level balanced consumer, use the-G <group> switch and provide a list of topics to join the group.
+There's also support for the Kafka >=0.9 high-level balanced consumer, use the `-G <group>` switch and provide a list of topics to join the group.
 
 kafkacat also features a Metadata list (-L) mode to display the current state of the Kafka cluster and its topics and partitions.
 

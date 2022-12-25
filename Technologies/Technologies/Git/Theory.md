@@ -360,13 +360,13 @@ git has a command todescribewhere you are relative to the closest "anchor" (aka 
 
 `git describe <ref>`
 
-Where<ref>is anything git can resolve into a commit. If you don't specify a ref, git just uses where you're checked out right now (HEAD).
+Where `<ref>` is anything git can resolve into a commit. If you don't specify a ref, git just uses where you're checked out right now (HEAD).
 
 The output of the command looks like:
 
 `<tag>_<numCommits>_g<hash>`
 
-Wheretagis the closest ancestor tag in history,numCommitsis how many commits away that tag is, and<hash>is the hash of the commit being described.
+Where tag is the closest ancestor tag in history, num Commits is how many commits away that tag is, and<hash>is the hash of the commit being described.
 
 ## Specifying Parents in merge commit (Using Modifiers)
 
