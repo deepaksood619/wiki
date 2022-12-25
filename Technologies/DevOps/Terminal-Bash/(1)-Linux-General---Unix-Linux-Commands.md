@@ -7,6 +7,7 @@ Modified: 2022-10-14 15:19:26 +0500
 ---
 
 ## Display
+
 ```bash
 cat "file" //display a file
 less "file" //display a file a page at a time
@@ -41,15 +42,15 @@ ssh -i id_rsa ubuntu@openvpn.zenatix.com
   sshd
   ssh-agent
   ssh-import-id
-  
+
 # SSH KeyGen
   ssh-keygen -t rsa -b 4096 -C "deepaksood619@gmail.com"
   ssh-keygen -t rsa -b 4096 -C "deepak.sood@stashfin.com"
-  
+
   ssh-keygen -R energy.zenatix.com # reset the saved key of server
-  
+
   ssh-keygen -t ecdsa -b 521 -C "deepaksood619@gmail.com"
-  
+
 ssh config (man ssh_config - OpenSSH SSH client configuration files)
   Add all the details for a server ssh to ~/.ssh/config file
     Host dev
@@ -59,11 +60,11 @@ ssh config (man ssh_config - OpenSSH SSH client configuration files)
       ForwardAgent yes
       IdentityFile ~/.ssh/dev.key
       LocalForward 8888 0.0.0.0:8888
-      
+
     Host git-codecommit.*.amazonaws.com
       User APKAU2R6AAK3AIIGFLW3
       IdentityFile ~/.ssh/id_rsa
-    
+
     Without LocalForward ssh - ssh dev
     For using LocalForward ssh - ssh -f -N dev
 ```
@@ -101,11 +102,11 @@ scp -i ../ec2_ssh_key.pem ubuntu@15.206.94.125:/home/ubuntu/workspace/cred-stuff
 ```bash
 # Search a file for keywords
   grep 'keyword' “file”
-  
+
 # Grep regex
   ls | grep "metrics-[^su]"
   ls | grep "metrics-[^su]" | xargs rm -f
-  
+
 # This prints 10 lines of trailing context after matching lines
   grep -i -A 10 "my_regex" /var/log/syslog
 
@@ -114,7 +115,7 @@ scp -i ../ec2_ssh_key.pem ubuntu@15.206.94.125:/home/ubuntu/workspace/cred-stuff
 
 # And if you need to print 10 lines of leading and trailing output context.
   grep -i -C 10 "my_regex" /var/log/syslog
-  
+
 # Common Flags
   • -c: print a count of matching lines rather than the lines themselves
   • -h: do not print the names of files when searching multiple files
@@ -218,6 +219,7 @@ rm <file_name> #remove a file
 ```
 
 ### date
+
 display or set date and time
 
 `echo $(($(date +%s%N)/1000000)) # using nanoseconds`
@@ -225,24 +227,24 @@ display or set date and time
 ### List directory contents
 
 ```bash
-	ls #listing
-	ls -laf
-	ls -alst
-	ls -R #Show contents of directory recursively
-	ls -l # long listing format
-		-rwxrw-r--    1    root   root 2048    Jan 13 07:11 afile.exe
-			• file permissions,
-			• number of links,
-			• owner name,
-			• owner group,
-			• file size,
-			• time of last modification, and
-			• file/directory name
-		File permissions is displayed as following;
-			• first character is - or l or d, d indicates a directory, a line represents a file, l is a symlink (or soft link) - special type of file
-			• three sets of characters, three times, indicating permissions for owner, group and other:
-				  r = readable
-				  w = writable
+ ls #listing
+ ls -laf
+ ls -alst
+ ls -R #Show contents of directory recursively
+ ls -l # long listing format
+  -rwxrw-r--    1    root   root 2048    Jan 13 07:11 afile.exe
+   • file permissions,
+   • number of links,
+   • owner name,
+   • owner group,
+   • file size,
+   • time of last modification, and
+   • file/directory name
+  File permissions is displayed as following;
+   • first character is - or l or d, d indicates a directory, a line represents a file, l is a symlink (or soft link) - special type of file
+   • three sets of characters, three times, indicating permissions for owner, group and other:
+      r = readable
+      w = writable
           x = executable
 ```
 
@@ -309,7 +311,7 @@ hi
 
 $ hexdump test.txt
 0000000 68 69
-	
+
 Here 68 is 'h' in ASCII and 69 is 'i' in ASCII
 ```
 
@@ -391,6 +393,7 @@ dig -x 172.217.167.132 #will do a reverse lookup, doesn't always work -- it depe
 ```
 
 ### uptime
+
 show how long system has been running
 
 The uptime utility displays the current time, the length of time the system has been up, the number of users, and the load average of the system over the last 1, 5, and 15 minutes.
@@ -540,7 +543,7 @@ openssl genrsa -out key.pem 2048
 # To extract the public part, use the rsa context:
   openssl rsa -in keypair.pem -out publickey.crt -pubout
   openssl rsa -in key.pem -out key.pub -pubout
-  
+
 # Finally, convert the original keypair to PKCS#8 format with the pkcs8 context:
   openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out pkcs8.key
 
@@ -554,7 +557,7 @@ openssl genrsa -out key.pem 2048
   echo content > file.txt
   gzip file.txt
   openssl bf -in file.txt.gz -out file.enc -pass file:pass.txt -e
-  openssl bf -in file.enc -out file.dec.gz -pass file:pass.dec -d 
+  openssl bf -in file.enc -out file.dec.gz -pass file:pass.dec -d
   gzip -d file.dec.gz
   cat file.dec
 ```
@@ -635,7 +638,7 @@ tar -zcvf backup-ipynb-$(date +%Y-%m-%d).tar.gz folder_to_zip
 tar -zcf backup-ipynb-$(date +%Y-%m-%d).tar.gz folder_to_zip   # no output - without v
 
 brew install rar
-  unrar x.rar 
+  unrar x.rar
 ```
 
 ### df - report file system disk space usage

@@ -113,6 +113,7 @@ exit code=137 means that either (1) something killed the container that hosted t
 ## Basic Commands (Beginner)
 
 ### create
+
 Create a resource from a file or from stdin
 
 Imperative management of kubernetes objects using configuration files
@@ -150,6 +151,7 @@ kubectl create -f docker-registry.yaml --edit -o json
 - serviceaccount Create a service account with the specified name
 
 ### expose
+
 Take a replication controller, service, deployment or pod and expose it as a new Kubernetes Service
 
 ```bash
@@ -158,6 +160,7 @@ kubectl expose deployment hello-server --type="LoadBalancer"
 ```
 
 ### run
+
 Run a particular image on the cluster
 
 ```bash
@@ -166,6 +169,7 @@ kubectl run -t -i kub-log --image=deepaksood619/kubernetes_logger:latest
 ```
 
 ### set
+
 Set specific features on objects
 
 run-container Run a particular image on the cluster. This command is deprecated, use "run" instead
@@ -356,10 +360,11 @@ completion Output shell completion code for the specified shell (bash or zsh)
 ## Other Commands
 
 ### api-resources
+
 Print all api-resources available in the cluster
 
 api-versions Print the supported API versions on the server, in the form of "group/version"
- 
+
 - admissionregistration.k8s.io/v1beta1
 - apiextensions.k8s.io/v1beta1
 - apiregistration.k8s.io/v1
@@ -375,7 +380,7 @@ api-versions Print the supported API versions on the server, in the form of "gro
 - authorization.k8s.io/v1
 - authorization.k8s.io/v1beta1
 - autoscaling/v1
-    
+
     autoscaling/v1 allows pods to be autoscaled based on different resource usage metrics
 
 - autoscaling/v2beta1
@@ -405,7 +410,7 @@ certificates.k8s.io/v1beta1 validates network certificates for secure communicat
 - policy/v1beta1
 - policy/v1beta1 enables setting a pod disruption budget and new pod security rules
 - rbac.authorization.k8s.io/v1
-    
+
     rbac.authorization.k8s.io/v1 includes extra functionality for Kubernetes RBAC - (role-based access control)
 
 - rbac.authorization.k8s.io/v1beta1
@@ -418,6 +423,7 @@ certificates.k8s.io/v1beta1 validates network certificates for secure communicat
     v1 was the first stable release of the Kubernetes API. It contains many core objects.
 
 ### config
+
 Modify kubeconfig files
 
 - current-context Displays the current-context
@@ -429,7 +435,7 @@ Modify kubeconfig files
 - set Sets an individual value in a kubeconfig file
 - set-cluster Sets a cluster entry in kubeconfig
 - set-context Sets a context entry in kubeconfig
-    
+
     permanently save the namespace for all subsequent kubectl commands in that context.
 
 - kubectl config set-context --current --namespace=monitoring**
@@ -446,6 +452,7 @@ Modify kubeconfig files
 - plugin Runs a command-line plugin
 
 ### version
+
 Print the client and server version information
 
 ### options
@@ -453,6 +460,7 @@ Print the client and server version information
 ### Usage
 
 kubectl [flags] [options]
+
 - kubectl apply -f service.yaml
 - kubectl edit deployment <container_name>
 - kubectl history deployment <container_name>
@@ -465,7 +473,7 @@ kubectl get secret --namespace default eager-otter-grafana -o jsonpath="{.data.a
 
 # Adding Secrets for pulling images from private registry
     https://container-solutions.com/using-google-container-registry-with-kubernetes/
-    
+
 kubectl create secret docker-registry gcr-json-key --docker-server=gcr.io --docker-username=_json_key --docker-password="$(cat ~/json-key-file.json)" --docker-email=deepak.sood@zenatix.com
 
 kubectl patch serviceaccount default -p '{"imagePullSecrets": [{"name": "gcr-json-key"}]}'
@@ -593,7 +601,7 @@ kubectl get pods -n crons --no-headers=true | awk '/Error/{print $1}' | xargs ku
 # completed pods
     kubectl get pod --field-selector=status.phase==Succeeded
     kubectl delete pod --field-selector=status.phase==Succeeded
-    
+
     kubectl get pods | grep Completed | awk '{print $1}' | xargs kubectl delete pod
     kubectl get pods -n crons | grep -iv Running | awk '{print $1}' | xargs kubectl delete -n crons pod
 

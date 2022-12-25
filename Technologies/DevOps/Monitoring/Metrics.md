@@ -55,8 +55,11 @@ This one is obvious. A metric without an alarm is a manual chore you've assigned
 2. Daytime Alarms
 
 ### Adaptive Thresholds
+
 ### Missing Metric
+
 ### Regular Automated Reviews
+
 ### What to measure
 
 If you're building a web application or web service, here are some more specific ideas to get you started:
@@ -109,7 +112,7 @@ in the context of latency, the average is not a meaningful metric
 ### Percentiles
 
 1. P99
-  
+
   the 99th percentile latency is the worst latency that was observed by 99% of all requests. it is the maximum value if you ignore the top 1%.
 
 2. P999
@@ -246,6 +249,7 @@ Determining Important Metrics
     - container_memory_failures_total
 
 ### Sources of Metrics
+
 1. Node
 2. kubelet and containers
 3. Kubernetes API
@@ -273,6 +277,7 @@ Metric Aggregation through the Kubenetes Hierarchy
 - Golang status (GC/Memory/Threads)
 
 RED for Kubernetes API Server
+
 - Rate - apiserver_request_count
 - Errors - apiserver_request_count
 - Duration - apiserver_request_latencies_bucket

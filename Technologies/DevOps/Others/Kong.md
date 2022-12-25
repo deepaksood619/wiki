@@ -67,15 +67,15 @@ kubectl port-forward --namespace kong $POD_NAME 8444:8444
     1. Kong Admin can be accessed inside the cluster using:
             DNS=kg-kong-admin.kong.svc.cluster.local
             PORT=8444
-    
+
     To connect from outside the K8s cluster:
             HOST=127.0.0.1
-    
+
             # Execute the following commands to route the connection to Admin SSL port:
             export POD_NAME=$(kubectl get pods --namespace kong -l "release=kg, app=kong" -o jsonpath="{.items[0].metadata.name}")
             kubectl port-forward --namespace kong $POD_NAME 8444:8444
-    
-    
+
+
     2. Kong Proxy can be accessed inside the cluster using:
             DNS=kg-kong-proxy.kong.svc.cluster.localPORT=443To connect from outside the K8s cluster:
             HOST=$(kubectl get svc --namespace kong kg-kong-proxy -o jsonpath='{.status.loadBalancer.ingress.ip}')

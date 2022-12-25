@@ -54,6 +54,7 @@ COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ```
 
 `supervisord.conf`
+
 ```toml
 [supervisord]
 nodaemon=true

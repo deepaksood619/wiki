@@ -82,19 +82,19 @@ git branch --merged origin/master | xargs git branch -d (Remove all local branch
 Create and checkout a branch
     git checkout -b bugFix
     git checkout [branch_name] (Checkout existing branch)
-    
+
 Checkout remote branch in local
     git checkout -b bugFix -t origin/bugFix
     git checkout -t origin/bugFix (shorthand)
     git checkout --track origin/issuefix
-    
+
     git branch -u origin/dev (track remote branch after checkout)
-    
+
 Delete branch from remote
     git push -d <remote-name> <branch-name>
     Ex - git push -d origin master
     git push origin --delete dev
-    
+
 Git show all branches with author
     git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' | sort -k5n -k2M -k3n -k4n
 
@@ -108,7 +108,7 @@ Create and push new branch
     git checkout -b my_branch
     git commit -m "some work done"
     git push -u origin my_branch
-    
+
     # error: src refspec remotes/origin/decision_engine_monika matches more than one
     git push origin HEAD:remotes/origin/decision_engine_monika
 ```
@@ -141,9 +141,9 @@ git checkout c5f567 -- file1/to/restore file2/to/restore
 
 ## Git unstage a file
 
-git reset <filepath> - will **unstage** any staged changes for the given file(s). **makes git stop tracking the file completely**.
+`git reset <filepath>` - will **unstage** any staged changes for the given file(s). **makes git stop tracking the file completely**.
 
-git rm --cached <filepath> - **does not unstage**a file, it actually**stages the removal of the file(s)**from the repo (assuming it was already committed before) but leaves the file in your working tree (leaving you with an untracked file). **unstages any modifications made to the file since the last commit**(but doesn't revert them in the filesystem, contrary to what the command name might suggest**). The file remains under revision control.
+`git rm --cached <filepath>` - **does not unstage** a file, it actually **stages the removal of the file(s)** from the repo (assuming it was already committed before) but leaves the file in your working tree (leaving you with an untracked file). **unstages any modifications made to the file since the last commit**(but doesn't revert them in the filesystem, contrary to what the command name might suggest**). The file remains under revision control.
 
 if you used `git rm --cached` on a new file that is staged, it would basically look like you had just unstaged it since it had never been committed before.
 
@@ -306,7 +306,7 @@ The --force option is needed if the commits have already been pushed, in order f
 
 ```bash
 # Resets index to former commit; replace '56e05fced' with your commit code
-git reset 56e05fced 
+git reset 56e05fced
 # Moves pointer back to previous HEAD
 git reset --soft HEAD@{1}
 git commit -m "Revert to 56e05fced"
@@ -355,7 +355,7 @@ git pull --recurse-submodules
 # Submodules init and update recursively
     git submodule update --init -recursive
     git submodule update --recursive
-    
+
 # Adding submodule to a repository
     git submodule add http://github.com/submodule
 ```

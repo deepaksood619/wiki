@@ -194,6 +194,7 @@ Switch faster between clusters and namespaces in kubectl
 ## Sloop
 
 Key features:
+
 1. Allows you to find and inspect resources that no longer exist (example: discover what host the pod from the previous deployment was using).
 2. Provides timeline displays that show rollouts of related resources in updates to Deployments, ReplicaSets, and StatefulSets.
 3. Helps debug transient and intermittent errors.
@@ -213,6 +214,7 @@ Skaffold is a command line tool that facilitates continuous development for Kube
 Local development against a remote Kubernetes or OpenShift cluster
 
 Telepresence allows you to run your code locally while still:
+
 1. Giving your code access to Services in a remote Kubernetes cluster.
 2. Giving your code access to cloud resources like AWS RDS or Google PubSub.
 3. Allowing Kubernetes to access your code as if it were in a normal pod within the cluster.
@@ -312,6 +314,7 @@ kube-slack is a monitoring service for Kubernetes. When a pod has failed, it wil
 Lightweight Kubernetes. Easy to install, half the memory, all in a binary less than 40mb.
 
 Great for
+
 - Edge
 - IoT
 - CI

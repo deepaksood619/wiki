@@ -21,12 +21,11 @@ Modified: 2019-09-06 16:50:35 +0500
 | {} | Used in special cases for variables with the `$`. One use is in parameter substitution, the other is in arrays. Example: `numbers=( 1 2 3 4 5 ) echo ${numbers [1]}` |
 | " | Quoting. Used to group strings that contain spaces and other special characters. Example: `my_variable="This is a test."` # Assign a string to the variable |
 | ' | Quoting. Used to prevent the shell from interpretting special characters within the quoted string. Example: `my_variable='This is a backslash: \'` # Assign the string to the variable |
-| \` | Unquoting. Used within a quoted string to force the shell to interpret and run the command between the backticks. Example: `my_variable="This is the date: `date`"` # Store the string AND the output of the date command |
+| \` | Unquoting. Used within a quoted string to force the shell to interpret and run the command between the backticks. Example: `my_variable="This is the date:`date`"` # Store the string AND the output of the date command |
 | `&&` | Run the command to the right of the double-ampersand ONLY IF the command on the left succeeded in running. Example: `mkdir stuff; echo "Made the directory"` # Print a message on success of the mkdir command |
 | `\|\|` | Run the command on the right of the double pipe ONLY IF the command on the left failed. Example: `mkdir stuff \|\| echo "mkdir failed!"` # Print a message on failure of the mkdir command |
 | `&` | Run the process in the background, allowing you to continue your work on the command line. Example: `john /etc/passwd &;` # Try to crack the passwords - this takes a couple hours, so do it in the background. Also used in redirection when copying one stream into the same location as another stream. Example: `cat filename.txt  file2.txt 2 1` # Send Standard Error (2) to the file2.txt where Standard Output (1) is going |
 | `;` | Allows you to list multiple commands on a single line, separated by this character. Example: `date;john passwd; date` # Print the date, crack the passwords and print the date again afterwards - cheap benchmarking |
 | `=` | Assignment. Set the variable named on the left to the value presented on the right. Example: my_variable="Hello World!" # Note that there is NO SPACE between the variable name and the string. |
-
 
 <http://www.angelfire.com/mi/genastorhotz/reality/computers/linux/bashmetachars.html>

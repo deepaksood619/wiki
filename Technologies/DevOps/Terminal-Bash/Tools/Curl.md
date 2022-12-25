@@ -32,7 +32,7 @@ curl --http2 http://example.com/
 
 # Request
 -X POST          # --request
--L               # follow link if page redirects 
+-L               # follow link if page redirects
 
 # Data
 -d 'data'    # --data: HTTP post data, URL encoded (eg, status="Hello")
@@ -81,23 +81,23 @@ curl -v -include --form key1=value1 --form upload=@localfilename URL
     ○ curl -X POST https://httpbin.org/anything -H "Content-Type: application/json" --data {"value":"panda"} -d '{"value": "panda"}'
     ○ curl -i -X DELETE https://httpbin.org/anything
     ○ curl -H "Accept-Language: es-ES" https://twitter.com > test.html
-    
+
 # curl an image file
     curl -X GET https://httpbin.org/image/jpeg > test.jpeg   #don't use -i since it will corrupt the image
-    
+
 # others
     curl -i https://httpbin.org/status/200
     curl -i https://httpbin.org/status/400
-    
+
     curl https://httpbin.org/anything \
         -u sk_test_4eC39HqLyjWDarjtT1zdp7dc: \
         -d amount=999 \
         -d currency=usd \
         -d receipt_email="jenny.rosen@example.com"
-    
+
 # curl output only status code
     curl -s -o /dev/null -w "%{http_code}" http://www.example.org/
-    
+
 # run in a loop
     while true; do curl http://google.com; sleep 1; done
     while true; do curl -s -o /dev/null -w "%{http_code}" http://www.google.com/; done

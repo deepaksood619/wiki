@@ -56,38 +56,24 @@ The 1.0 release of the*EMQ X*broker has scaled to 1.3 million concurrent MQTT co
 ## Table of Content
 
 1. Deployment
-
 2. Installation
-
 3. Configuration
-
 4. Clustering
-
 5. Bridge
-
 6. User Guide
-
 7. Advanced features
     - Shared Subscription
 
-*EMQ X*3.0 supports shared subscription at cluster level. It allows load balancing between multiple subscribers in the same group when distributing MQTT messages.
+    *EMQ X*3.0 supports shared subscription at cluster level. It allows load balancing between multiple subscribers in the same group when distributing MQTT messages.
 
 8. Design
-
 9. Commands
-
 10. Plugins
-
 11. REST API
-
 12. Tuning Guide
-
 13. Changes
-
 14. MQTT Protocol
-
 15. MQTT-SN Protocol
-
 16. LWM2M Protocol
 
 ## Mqtt Messages Persistence

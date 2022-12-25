@@ -41,6 +41,7 @@ The Forward Historian is used to send data from one instance of VOLTTRON to anot
 The Forward Historian now uses the configuration store for storing its configurations. This allows dynamic updating of configuration without having to rebuild the agent.
 
 ## Commands
+
 ```bash
 python bootstrap.py
 . env/bin/activate
@@ -80,6 +81,7 @@ volttron -l log1& (start the volttron instance with logging)
 - <http://localhost:8080/discovery>
 
 ## Mongod
+
 ```bash
 mongo_install/bin/mongod --config /volttron/mongo_install/mongo_config.cfg &
 mongo_install/bin/mongod --config /volttron/mongo_install/mongo_config.cfg --shutdown

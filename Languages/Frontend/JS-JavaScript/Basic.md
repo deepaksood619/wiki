@@ -69,6 +69,7 @@ Modified: 2022-04-19 23:22:28 +0500
 | const   | Block scope    | No       | No                | No                |
 
 ## Keywords
+
 | | | | |
 |----------|------------|------------|--------------|
 | abstract | else       | instanceof | switch       |
@@ -398,9 +399,9 @@ The **for...ofstatement** creates a loop iterating over [iterable objects](https
 ## Objects (JSON - JavaScript Object Notation)
 
 ## Accessing Objects Properties with the
+
 1. **Dot Operator**
 2. **Bracket Notation**
-
 
 1. Arguments Object
 
@@ -472,6 +473,7 @@ s - white spaces (" "(space), r(carriage return), n(newline), t(tab), f(form fee
 S - non-whitespace characters
 
 Ex
+
 ```js
 var re = /^(1s?)?((d{3})|d{3})[s-]?d{3}[s-]?d{4}$/;
 return re.test(str);
