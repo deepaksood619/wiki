@@ -32,9 +32,10 @@ All scripts should support at least the start and stop commands. As a special ca
 
 ## Commands
 
+```bash
 sudo service telegraf status
-
 sudo service --status-all
+```
 
 runs all init scripts, in alphabetical order, with the status command. The status is [ + ] for running services, [ - ] for stopped services and [ ? ] for services without a 'status' command. This option only calls status for sysvinit jobs; upstart jobs can be queried in a similar manner with initctl list.
 
@@ -44,63 +45,45 @@ Supervisor is a client/server system that allows its users to monitor and contro
 
 It shares some of the same goals of programs like [launchd](http://supervisord.org/glossary.html#term-launchd), [daemontools](http://supervisord.org/glossary.html#term-daemontools), and [runit](http://supervisord.org/glossary.html#term-runit). Unlike some of these programs, it is not meant to be run as a substitute forinitas "process id 1". Instead it is meant to be used to control processes related to a project or a customer, and is meant to start like any other program at boot time.
 
+```bash
 sudo service supervisor status
 
 USER root
-
 RUN apt-get install -y supervisor
-
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+```
 
-## supervisord.conf
-
+`supervisord.conf`
+```toml
 [supervisord]
-
 nodaemon=true
 
 [program:rasa_actions]
-
 directory=/app/
-
 command=rasa run actions
-
 autostart=true
-
 autorestart=true
-
 priority=10
-
 stdout_logfile=/dev/fd/1
-
 stdout_logfile_maxbytes=0
-
 stderr_logfile=/dev/fd/2
-
 stderr_logfile_maxbytes=0
 
 [program:rasa_run]
-
 directory=/app/
-
 command=rasa run
-
 autostart=true
-
 autorestart=true
-
 priority=5
-
 stdout_logfile=/dev/fd/1
-
 stdout_logfile_maxbytes=0
-
 stderr_logfile=/dev/fd/2
-
 stderr_logfile_maxbytes=0
+```
 
-## Running
+### Running
 
-/bin/bash -c /usr/bin/supervisord
+`/bin/bash -c /usr/bin/supervisord`
 
 <http://supervisord.org>
 

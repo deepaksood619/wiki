@@ -138,10 +138,10 @@ Modified: 2022-01-07 15:29:44 +0500
 
 get things from one computer to another, safely
 
+```bash
 brew install magic-wormhole
-
 wormhole send /path/to/file
-
 wormhole receive 4-yucatan-reform
+```
 
 <https://github.com/magic-wormhole/magic-wormhole>

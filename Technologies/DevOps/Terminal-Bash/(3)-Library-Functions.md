@@ -14,16 +14,13 @@ The three types of buffering available are unbuffered, block buffered, and line 
 
 Thesetvbuf() function may be used on any open stream to change its buffer. Themodeargument must be one of the following three macros:
 
+```bash
 _IONBF
-
 unbuffered
-
 _IOLBF
-
 line buffered
-
 _IOFBF
-
 fully buffered
+```
 
 Except for unbuffered files, thebufargument should point to a buffer at leastsizebytes long; this buffer will be used instead of the current buffer. If the argumentbufis NULL, only the mode is affected; a new buffer will be allocated on the next read or write operation. Thesetvbuf() function may only be used after opening a stream and before any other operations have been performed on it.

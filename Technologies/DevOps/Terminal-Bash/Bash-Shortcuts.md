@@ -61,6 +61,6 @@ Bash also has a special "recall" mode you can use to search for commands you've 
 - Ctrl+O: Run a command you found with Ctrl+R.
 - Ctrl+G: Leave history searching mode without running a command.
 
-References
+### References
 
 <https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh>

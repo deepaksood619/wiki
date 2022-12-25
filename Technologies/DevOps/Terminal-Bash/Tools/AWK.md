@@ -90,8 +90,8 @@ At the start, AWK prints the header from the BEGIN block. Then in the body block
 
 ## Examples
 
+```bash
 docker images | awk '{print $3}'
-
 docker images | awk '{print "docker rmi " $1":"$2}'
 
 ls -l | awk '{print $1}'
@@ -99,8 +99,8 @@ ls -l | awk '{print $1}'
 kubectl get pods | awk '{if (NR!=1) { print $1 }}'
 
 # pass values to another command recursively
-
 k delete pv $(k get pv | grep Released | awk '{print $1}')
+```
 
 ## References
 

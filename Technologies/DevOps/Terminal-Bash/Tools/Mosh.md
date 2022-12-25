@@ -25,11 +25,11 @@ Mosh is free software, available for GNU/Linux, BSD, macOS, Solaris, Android, Ch
 
 ## Installing
 
+```bash
 Mac - brew install mosh
-
 Ubuntu - sudo apt-get install -y mosh
-
 Allow ports 60000:61000 udp on server
+```
 
 ## References
 

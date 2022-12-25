@@ -12,7 +12,7 @@ Modified: 2019-11-17 23:17:01 +0500
 
 ## msync
 
-msync - synchronize a file with a memory map
+`msync - synchronize a file with a memory map`
 
 msync() flushes changes made to the in-core copy of a file that was mapped into memory using [mmap(2)](http://man7.org/linux/man-pages/man2/mmap.2.html) back to the filesystem. Without use of this call, there is no guarantee that changes are written back before [munmap(2)](http://man7.org/linux/man-pages/man2/munmap.2.html) is called.
 
