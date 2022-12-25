@@ -293,6 +293,8 @@ ec2 machine
 
 <https://www.toptal.com/designers/interactive/interview-questions>
 
+<https://github.com/bradtraversy/design-resources-for-developers>
+
 ## Courses - <https://www.interaction-design.org>
 
 <https://wittysparks.com/professional-design-process-explained>

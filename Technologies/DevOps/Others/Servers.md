@@ -182,11 +182,11 @@ How the web server interprets requests and maps them to actual resources on the 
 
 ## Apache
 
-Apache provides the ability to interpret a request as a physical resource on the filesystem or as a URI location that may need a more abstract evaluation. In general, for the former Apache uses<Directory>or<Files>blocks, while it utilizes<Location>blocks for more abstract resources.
+Apache provides the ability to interpret a request as a physical resource on the filesystem or as a URI location that may need a more abstract evaluation. In general, for the former Apache uses `<Directory>` or `<Files>` blocks, while it utilizes `<Location>` blocks for more abstract resources.
 
 Because Apache was designed from the ground up as a web server, the default is usually to interpret requests as filesystem resources. It begins by taking the document root and appending the portion of the request following the host and port number to try to find an actual file. Basically, the filesystem hierarchy is represented on the web as the available document tree.
 
-Apache provides a number of alternatives for when the request does not match the underlying filesystem. For instance, anAliasdirective can be used to map to an alternative location. Using<Location>blocks is a method of working with the URI itself instead of the filesystem. There are also regular expression variants which can be used to apply configuration more flexibly throughout the filesystem.
+Apache provides a number of alternatives for when the request does not match the underlying filesystem. For instance, anAliasdirective can be used to map to an alternative location. Using `<Location>` blocks is a method of working with the URI itself instead of the filesystem. There are also regular expression variants which can be used to apply configuration more flexibly throughout the filesystem.
 
 While Apache has the ability to operate on both the underlying filesystem and the webspace, it leans heavily towards filesystem methods. This can be seen in some of the design decisions, including the use of.htaccessfiles for per-directory configuration. The [Apache docs](http://httpd.apache.org/docs/2.4/sections.html#whichwhen) themselves warn against using URI-based blocks to restrict access when the request mirrors the underlying filesystem.
 

@@ -8,9 +8,9 @@ Modified: 2022-05-30 23:23:24 +0500
 
 <https://www.freecodecamp.org/news/how-to-create-an-email-newsletter-design-layout-send>
 
-## #1**
+## #1
 
-This is a weeklynewsletter for our tech team. This will contain links worth reading in and around tech.
+This is a weekly newsletter for our tech team. This will contain links worth reading in and around tech.
 
 ## So this week it's all about databases
 
@@ -34,7 +34,7 @@ This is a weeklynewsletter for our tech team. This will contain links worth read
 
 Some links are prettydeep and if you have any difficulty understanding any concept feelfree to reach out to me.
 
-## Quote of the Week:"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
+Quote of the Week:"Computer programming is an art because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. Programmers who subconsciously view themselves as artists will enjoy what they do and will do it better." -- Donald Knuth
 
 ## Websites worth checking out
 
@@ -119,6 +119,12 @@ Medium Daily Digest
 <https://fremtidensuddannelser.dk/en>
 
 ## Repositories
+
+<https://github.com/sindresorhus/awesome>
+
+<https://github.com/EbookFoundation/free-programming-books>
+
+<https://github.com/sdmg15/Best-websites-a-programmer-should-visit>
 
 <https://gitstar-ranking.com/repositories>
 

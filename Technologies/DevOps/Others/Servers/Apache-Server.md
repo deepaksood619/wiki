@@ -248,7 +248,7 @@ htaccess allows setting specific configuration for every single directory in our
 
 In general, you should only use.htaccessfiles when you don't have access to the main server configuration file.
 
-In general, use of.htaccessfiles should be avoided when possible. Any configuration that you would consider putting in a.htaccessfile, can just as effectively be made in a<directory>section in your main server configuration file.
+In general, use of.htaccessfiles should be avoided when possible. Any configuration that you would consider putting in a.htaccessfile, can just as effectively be made in a `<directory>` section in your main server configuration file.
 
 The solution is to disable it in/etc/apache2/apache2.conf:
 
