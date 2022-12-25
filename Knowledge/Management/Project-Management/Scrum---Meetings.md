@@ -6,22 +6,20 @@ Modified: 2022-03-31 22:34:57 +0500
 
 ---
 
-## Video Calls
-
-Don't add all in video call (to save bandwidth)
-
-Do group calls
+- Video Calls
+- Don't add all in video call (to save bandwidth)
+- Do group calls
 
 ![image](media/Project-Management_Scrum---Meetings-image1.gif)
 
-## Scrum: The Art of Doing Twice the Work in Half the Time by J. J. Sutherland
+Scrum: The Art of Doing Twice the Work in Half the Time by J. J. Sutherland
 
 [SCRUM: Twice the Work, Half the Time](https://www.youtube.com/watch?v=RaaBrPCo_Mw&ab_channel=ProductivityGame)
 
 - Planning Fallacy
 - Sunk Cost & Status Quo Bias
 
-## Plans are worthless, Planning is everything
+**Plans are worthless, Planning is everything**
 
 ## Meetings
 
@@ -34,11 +32,8 @@ Do group calls
 ## Meeting Agenda (goal-oriented)
 
 1. What are you trying to achieve?
-
 2. Why is it important?
-
 3. Who do you need onboard to hit your target?
-
 4. How much time will it take?
 
 ## Tools
@@ -159,131 +154,85 @@ Keep tabs on action items.Assign someone to check in at appropriate intervals af
 [**Scrum in 16 minutes**](https://www.youtube.com/watch?v=vuBFzAdaHDY)
 
 1. Vision - Company's vision reflects what the company wants and built for. Ex - Amazons' vision - "We want to be the most customer centric company in the world"
-
 2. Roadmap
-
 3. Working Software
-
 4. Definition of Done (Agile software developer uses this for determining if the software meets there quality bar), helps to reduce technical debt (things like scalability and automated testing is considered)
-
 5. Work in Sprints/Iteration (1-4 weeks) (best to use 1-2 weeks sprints)
-
 6. Sprint backlog - sprint goal
-
 7. Product backlog - features that are passed to sprint backlog (contains every piece of work that team plans on working)
-
 8. Definition of Ready (documentation that defines clearly accepted criterion that team understands)
-
 9. Product owner (What + Why, Speed)
-
 10. Dev team (How + When, Quality)
-
 11. Scrum Master - keeps balance between speed and quality, Coach product owner and dev team.
-
 12. Backlog Refinement - Meet once a week for this, update user stories
-
 13. Sprint Planning - What has to be done and how it has to be done
-
 14. Daily scrum - 15 min time box event. Plan for 24 hours.
 
-- **What did you did yesterday** to help our team to meet our sprint goal.
+  - **What did you did yesterday** to help our team to meet our sprint goal.
 
-- **What you will do today** that will help our team to meet our sprint goal
+  - **What you will do today** that will help our team to meet our sprint goal
 
-- Do I see any **impediments or blockers** that will stop meeting the sprint goal
+  - Do I see any **impediments or blockers** that will stop meeting the sprint goal
 
 15. Sprint Review - demonstrate the work done
-
 16. Retrospective - Creates improvement plan for next sprint
-
 17. Stakeholders
-
 18. Managers - engineering to product managers
-
 19. Executive
 
 ![image](media/Project-Management_Scrum---Meetings-image3.png)
 
-![2 , 4 一 W ](media/Project-Management_Scrum---Meetings-image4.jpg)
+![image](media/Project-Management_Scrum---Meetings-image4.jpg)
 
 ![image](media/Project-Management_Scrum---Meetings-image5.jpg)
 
 ## Questions
 
 1. What were the deliverables from last week and did you achieve them?
-
 2. How can I best support the team as a manager?
-
 3. How do you feel about the balance between your individual work vs. managing?
-
 4. What did you do this weekend?
-
 5. How can I help you?
-
 6. What resources, tools, and budget do you need to achieve your goals?
-
 7. Are there things at work that we don't talk about enough?
-
 8. If there was one thing I could do differently to help you more, what would it be?
-
 9. What are you working on next week?
-
 10. What is blocking your progress?
 
 ## Trending up this month
 
 1. How have you felt about my level of presence/support over the past month?
-
 2. When's the best time to get feedback on our work?
-
 3. Who deserves a shoutout?
-
 4. What are our biggest strengths and weaknesses as a team?
-
 5. What time of day do you do your best work?
-
 6. If this project knocks it out of the park, what would that look like to you?
-
 7. What's a big, audacious goal that you'd like to achieve this quarter?
-
 8. Are you feeling overwhelmed? If so, how or in what way?
-
 9. What keeps you up at night and what do you dream about?
-
 10. Who from other teams deserves a shoutout for their help and why?
-
 11. KPIs - how'd you do last week? Where do you need to focus more this week?
-
 12. What part of your workflow do you find most challenging?
 
 ## Trending down this month
 
 1. What are you working on?
-
 2. What type of work environment do you work best in?
-
 3. What professional goals would you like to accomplish in the next 6 to 12 months, and what makes you say that?
-
 4. How are things going?
-
 5. What went well this week?
-
 6. Goals - how are you tracking this past week? Any blockers I can help remove?
-
 7. On a scale of 1-10, how happy are you with your work-life balance? How can we get closer to 10?
-
 8. If there was one thing I could do differently to help you more, what would it be?
-
 9. What's been the highlight and lowlight of your past week?
-
 10. What's the best way for us to communicate as a team?
 
 ## Weekly Sprint Capacity
 
-| **Person**           | **Total working days** | **Hours per working day** | **Effective Hrs Per Day** | **Hrs Available** | **Group Meetings (Tech Thursday + Cleanup Tuesday + Standups)** | **Team Help + Others** | **Net Available Hrs** |
-|---------|---------|---------|---------|---------|------------|---------|---------|
-| External Team Member | 5                      | 9                         | 8                         | 40                | 1.5 + 1.5 + 2 = 5                                               | 5                      | 30                    |
-| Internal Team Member | 5                      | 9                         | 8                         | 40                | 1.5 + 1.5 + 2 = 5                                               | 5                      | 30                    |
+| **Person** | **Total working days** | **Hours per working day** | **Effective Hrs Per Day** | **Hrs Available** | **Group Meetings (Tech Thursday + Cleanup Tuesday + Standups)** | **Team Help + Others** | **Net Available Hrs** |
+|---|---|---|---|---|---|---|---|
+| External Team Member | 5 | 9 | 8 | 40 | 1.5 + 1.5 + 2 = 5 | 5 | 30 |
+| Internal Team Member | 5 | 9 | 8 | 40 | 1.5 + 1.5 + 2 = 5 | 5 | 30 |
 
 ## Checklist
 

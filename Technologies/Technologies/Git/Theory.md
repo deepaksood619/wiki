@@ -251,8 +251,8 @@ HEAD always points to the most recent commit which is reflected in the working t
 Detaching HEAD just means attaching it to a commit instead of a branch.
 
 2. **Relative Refs**
-    - Moving upwards one commit at a time with^ (Caret Operator)
-    - Moving upwards a number of times with~<num>
+    - Moving upwards one commit at a time with `^` (Caret Operator)
+    - Moving upwards a number of times with `~num`
 
 ```bash
 git checkout bugFix^ (parent of bugFix)
@@ -264,7 +264,7 @@ git checkout HEAD~4
 
 You can directly reassign a branch to a commit with the-foption.
 
-Git branch -f master HEAD~3 (moves (by force) the master branch to three parents behind HEAD.)
+`git branch -f master HEAD~3` (moves (by force) the master branch to three parents behind HEAD.)
 
 ## Reversing Changes in Git
 
@@ -286,7 +286,7 @@ In order to reverse changes andshare those reversed changes with others, we need
 
 `git revert HEAD`
 
-Weird, a new commit plopped down below the commit we wanted to reverse. That's because this new commitC2'introduceschanges-- it just happens to introduce changes that exactly reverses the commit ofC2.
+Weird, a new commit plopped down below the commit we wanted to reverse. That's because this new commit C2 ' introduces changes -- it just happens to introduce changes that exactly reverses the commit of C2.
 
 With reverting, you can push out your changes to share with others.
 
