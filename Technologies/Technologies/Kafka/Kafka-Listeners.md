@@ -35,10 +35,12 @@ For configuring this correctly, you need to understand that Kafka brokers can ha
 
 Let's check out some config. Often the protocol is used for the listener name too, but here let's make it nice and clear by using abstract names for the listeners:
 
+```bash
 KAFKA_LISTENERS: LISTENER_BOB://kafka0:29092,LISTENER_FRED://localhost:9092
 KAFKA_ADVERTISED_LISTENERS: LISTENER_BOB://kafka0:29092,LISTENER_FRED://localhost:9092
 KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: LISTENER_BOB:PLAINTEXT,LISTENER_FRED:PLAINTEXT
 KAFKA_INTER_BROKER_LISTENER_NAME: LISTENER_BOB
+```
 
 *I'm using the Docker config names---the equivalents if you're configuring server.properties directly (e.g. on AWS etc) are shown indented in the following list*
 
@@ -66,19 +68,19 @@ kafkacat is a useful tool for exploring this. Using -L you can see the metadata 
 
 - Connecting on port 9092 (which we map as LISTENER_FRED), the broker's address is given back as localhost
 
-$ kafkacat -b kafka0:9092
--L
+```bash
+$ kafkacat -b kafka0:9092 -L
 Metadata for all topics (from broker -1: kafka0:9092/bootstrap):
 1 brokers:
 broker 0 at localhost:9092
 
-- Connecting on port 29092 (which we map as LISTENER_BOB), the broker's address is given back as kafka0:
+- Connecting on port 29092 (which we map as LISTENER_BOB), the brokers address is given back as kafka0:
 
-$ kafkacat -b kafka0:29092
--L
+$ kafkacat -b kafka0:29092 -L
 Metadata for all topics (from broker 0: kafka0:29092/0):
 1 brokers:
 broker 0 at kafka0:29092
+```
 
 You can also use tcpdump to examine the traffic from a client connecting to the broker, and spot the hostname that's returned from the broker.
 
@@ -90,6 +92,7 @@ Let's walk this through step by step.
 
 1. We've got a broker on AWS. We want to send a message to it from our laptop. We know the external hostname for the EC2 instance (ec2-54-191-84-122.us-west-2.compute.amazonaws.com). We've created the necessary entry in the security group to open the broker's port to our inbound traffic. We do smart things like checking that our local machine can connect to the port on the AWS instance:
 
+```bash
 $ nc -vz ec2-54-191-84-122.us-west-2.compute.amazonaws.com 9092
 found 0 associations
 found 1 connections:
@@ -101,12 +104,13 @@ rank info not available
 TCP aux info available
 
 Connection to ec2-54-191-84-122.us-west-2.compute.amazonaws.com port 9092 [tcp/XmlIpcRegSvc] succeeded!
+```
 
 Things are looking good! We run:
 
-echo "test"|kafka-console-producer --broker-list ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 --topic test
+`echo "test"|kafka-console-producer --broker-list ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 --topic test`
 
-Now...what happens next?
+Now... what happens next?
 
 2. Our laptop resolves ec2-54-191-84-122.us-west-2.compute.amazonaws.com successfully (to the IP address 54.191.84.122), and connects to the AWS machine on port 9092
 
@@ -114,34 +118,42 @@ Now...what happens next?
 
 4. The client the tries to send data to the broker using the metadata it was given. Since ip-172-31-18-160.us-west-2.compute.internal is not resolvable from the internet, it fails.
 
+```bash
 $ echo "test"|kafka-console-producer --broker-list ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 --topic test
 >>[2018-07-30 15:08:41,932] ERROR Error when sending message to topic test with key: null, value: 4 bytes with error: (org.apache.kafka.clients.producer.internals.ErrorLoggingCallback)
 org.apache.kafka.common.errors.TimeoutException: Expiring 1 record(s) for test-0: 1547 ms has passed since batch creation plus linger time
+```
 
 5. Puzzled, we try the same thing from the broker machine itself:
 
+```bash
 $ echo "foo"|kafka-console-producer --broker-list ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 --topic test
->>
+
 $ kafka-console-consumer --bootstrap-server ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 --topic test --from-beginning
 foo
+```
 
 It works fine! That's because we are connecting to port 9092, which is configured as the *internal* listener, and thus reports back its hostname as ip-172-31-18-160.us-west-2.compute.internal which *is* resolvable from the broker machine (since it's its own hostname!)
 
 6. We can make life even easier by using [kafkacat](https://docs.confluent.io/current/app-development/kafkacat-usage.html). Using the -L flag we can see the metadata returned by the broker:
 
+```bash
 $ kafkacat -b ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 -L
 Metadata for all topics (from broker -1: ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092/bootstrap):
 1 brokers:
 broker 0 at ip-172-31-18-160.us-west-2.compute.internal:9092
+```
 
 Clear as day, the *internal* hostname is returned. This also makes this seemingly-confusing error make a lot more sense---connecting to one hostname, getting a lookup error on another:
 
+```bash
 $ kafkacat -b ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092 -C -t test
 % ERROR: Local: Host resolution failure: ip-172-31-18-160.us-west-2.compute.internal:9092/0: Failed to resolve 'ip-172-31-18-160.us-west-2.compute.internal:9092': nodename nor servname provided, or not known
+```
 
 Here we're using kafkacat in producer mode (-C) from our local machine to try and read from the topic. As before, because we're getting the *internal* listener hostname back from the broker in the metadata, the client cannot resolve that hostname to read/write from.
 
-## I saw a StackOverflow answer suggesting to just update my hosts file...isn't that easier?
+I saw a StackOverflow answer suggesting to just update my hosts file...isn't that easier?
 
 This is nothing more than a hack to workaround a mis-configuration, instead of actually fixing it.
 
@@ -163,17 +175,18 @@ For these comms, we need to use *the hostname of the Docker container(s)*. Each 
 
 Here's the docker-compose snippet:
 
+```yaml
 kafka0:
-image: "confluentinc/cp-enterprise-kafka:5.0.0-rc3"
-ports:
-
-- '9092:9092'
-depends_on:
-- zookeeper
-environment:
-KAFKA_ADVERTISED_LISTENERS: LISTENER_BOB://kafka0:29092,LISTENER_FRED://localhost:9092
-KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: LISTENER_BOB:PLAINTEXT,LISTENER_FRED:PLAINTEXT
-[...]
+    image: "confluentinc/cp-enterprise-kafka:5.0.0-rc3"
+    ports:
+    - '9092:9092'
+    depends_on:
+    - zookeeper
+    environment:
+    KAFKA_ADVERTISED_LISTENERS: LISTENER_BOB://kafka0:29092,LISTENER_FRED://localhost:9092
+    KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: LISTENER_BOB:PLAINTEXT,LISTENER_FRED:PLAINTEXT
+    [...]
+```
 
 3. Clients *within* the Docker network connect using listener "BOB", with port 29092 and hostname kafka0. In doing so, they get back the hostname kafka0 to which to connect. Each docker container will resolve kafka0 using Docker's internal network, and be able to reach the broker.
 
@@ -197,7 +210,7 @@ There are two approaches, depending on whether the external address through whic
 
 You can get by with one listener here. The existing listener, called PLAINTEXT, just needs overriding to set the advertised hostname (i.e. the one that is passed to inbound clients)
 
-advertised.listeners=PLAINTEXT://ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092
+`advertised.listeners=PLAINTEXT://ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092`
 
 Now connections both internally and externally will use ec2-54-191-84-122.us-west-2.compute.amazonaws.com for connecting. Because ec2-54-191-84-122.us-west-2.compute.amazonaws.com can be resolved both locally and externally, things work fine.
 
@@ -215,10 +228,12 @@ For these comms, we need to use *the internal IP of the EC2 machine* (or hostnam
 
 Here's an example configuration:
 
+```bash
 listeners=INTERNAL://0.0.0.0:19092,EXTERNAL://0.0.0.0:9092
 listener.security.protocol.map=INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
 advertised.listeners=INTERNAL://ip-172-31-18-160.us-west-2.compute.internal:19092,EXTERNAL://ec2-54-191-84-122.us-west-2.compute.amazonaws.com:9092
 inter.broker.listener.name=INTERNAL
+```
 
 ## Exploring listeners with Docker
 
@@ -226,33 +241,34 @@ Take a look at <https://github.com/rmoff/kafka-listeners>. This includes a docke
 
 - Listener BOB (port 29092) for internal traffic on the Docker network
 
-$ docker run -t --network kafka-listeners_default
-confluentinc/cp-kafkacat
-kafkacat -b kafka0:29092
--L
+```bash
+$ docker run -t --network kafka-listeners_default confluentinc/cp-kafkacat
+
+kafkacat -b kafka0:29092 -L
+
 Metadata for all topics (from broker 0: kafka0:29092/0):
 1 brokers:
 broker 0 at kafka0:29092
 
 - Listener FRED (port 9092) for traffic from the Docker-host machine (localhost)
 
-$ docker run -t --network kafka-listeners_default
-confluentinc/cp-kafkacat
-kafkacat -b kafka0:9092
--L
+$ docker run -t --network kafka-listeners_default confluentinc/cp-kafkacat
+
+kafkacat -b kafka0:9092 -L
+
 Metadata for all topics (from broker -1: kafka0:9092/bootstrap):
 1 brokers:
 broker 0 at localhost:9092
 
 - Listener ALICE (port 29094) for traffic from outside, reaching the Docker host on the DNS name never-gonna-give-you-up
 
-$ docker run -t --network kafka-listeners_default
-confluentinc/cp-kafkacat
-kafkacat -b kafka0:29094
--L
+$ docker run -t --network kafka-listeners_default confluentinc/cp-kafkacat
+
+kafkacat -b kafka0:29094 -L
 Metadata for all topics (from broker -1: kafka0:29094/bootstrap):
 1 brokers:
 broker 0 at never-gonna-give-you-up:29094
+```
 
 ## References
 

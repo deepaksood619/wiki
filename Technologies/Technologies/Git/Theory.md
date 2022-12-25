@@ -366,7 +366,7 @@ The output of the command looks like:
 
 `<tag>_<numCommits>_g<hash>`
 
-Where tag is the closest ancestor tag in history, num Commits is how many commits away that tag is, and<hash>is the hash of the commit being described.
+Where tag is the closest ancestor tag in history, num Commits is how many commits away that tag is, and `<hash>` is the hash of the commit being described.
 
 ## Specifying Parents in merge commit (Using Modifiers)
 
