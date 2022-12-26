@@ -31,11 +31,13 @@ In an annotated bibliography, the bibliographic information is followed by a bri
 <https://en.wikipedia.org/wiki/Bibliography>
 
 ## Tautology
+
 The saying of the same thing twice over in different words, generally considered to be a fault of style
 
 ## Continuation
 
 ## ; - Semicolon
+
 It is the continuation of meaning. It basically indicates that we're gonna say the same thing again, or say something that's connected to previous idea. It's not a contrast, it's a continuation
 
 ## Games

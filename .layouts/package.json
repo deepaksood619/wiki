@@ -25,6 +25,7 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "rehype-katex": "^3.0.0",
-    "remark-math": "^3.0.0"
+    "remark-math": "^3.0.0",
+    "react-is": "^18.2.2"
   }
 }

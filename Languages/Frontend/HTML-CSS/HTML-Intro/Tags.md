@@ -50,7 +50,6 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [`<datalist>`](https://www.w3schools.com/tags/tag_datalist.asp) #  | Specifies a list of pre-defined options for input controls |
 | [`<output>`](https://www.w3schools.com/tags/tag_output.asp) #      | Defines the result of a calculation                        |
 
-
 ## Audio / Video
 
 | Tag                                                            | Description                                                                                |
@@ -100,4 +99,3 @@ Semantic HTML elements clearly describe it's meaning in a human and machine read
 | [`<dialog>`](https://www.w3schools.com/tags/tag_dialog.asp) #   | Defines a dialog box or window                              |
 | [`<summary>`](https://www.w3schools.com/tags/tag_summary.asp) # | Defines a visible heading for a `<details>` element         |
 | [`<data>`](https://www.w3schools.com/tags/tag_data.asp) #       | Links the given content with a machine-readable translation |
-

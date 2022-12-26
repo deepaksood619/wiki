@@ -8,8 +8,8 @@ Modified: 2019-06-24 05:58:16 +0500
 
 ## Anagrams (ABC, CBA are anagrams of each other)
 
-   - Can sort both array and compare both
-   - Can count all characters of string1 and decrement count by second string2. Check if all values are 0. Use dictionary, defaultdict.
+- Can sort both array and compare both
+- Can count all characters of string1 and decrement count by second string2. Check if all values are 0. Use dictionary, defaultdict.
 
 ## Array Pair Sum
 

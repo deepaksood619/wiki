@@ -35,7 +35,6 @@ Vehicle registration no - CG18N0950
 - Telephone 3K
 - Periodicals 2K
 
-
 - Consultant - 194J instead 192
 - Donation to NGO for tax savings
 - Donation to political party for tax savings

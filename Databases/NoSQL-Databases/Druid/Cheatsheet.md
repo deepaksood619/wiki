@@ -206,15 +206,18 @@ Modified: 2019-11-20 00:28:52 +0500
 ## SQL Cheat Sheet
 
 ### Metadata Commands
-- SELECT * FROM sys.se­gments 
-- EXPLAIN PLAN FOR [­SQL]    
+
+- SELECT * FROM sys.se­gments
+- EXPLAIN PLAN FOR [­SQL]
 
 ### INFORM­ATI­ON_­SCHEMA TABLES
+
 - SCHEMATA
 - TABLES
 - COLUMNS
 
 ### System Tables
+
 - sys.segments
 - sys.server_segments
 - sys.tasks
@@ -239,10 +242,13 @@ Modified: 2019-11-20 00:28:52 +0500
 | OTHER     | COMPLEX            |
 
 ### JDBC CONNECTOR
+
 You can make Druid SQL queries using the Avatica JDBC driver
+
 - `jdbc:a­vat­ica­:re­mot­e:u­rl=­htt­p:/­/BR­OKE­R:8­082­/dr­uid­/v2­/sq­l/a­vat­ica`
 
 ### Aggreg­ation
+
 - `COUNT(*)`
 - `COUNT(­DIS­TINCT expr)`
 - `SUM(expr)`
@@ -251,6 +257,7 @@ You can make Druid SQL queries using the Avatica JDBC driver
 - `AVG(expr)`
 
 ### Approx­imate Aggreg­ations
+
 - `APPROX­_CO­UNT­_DI­STI­NCT­(expr)`
 - `APPROX­_CO­UNT­_DI­STI­NCT­_DS­_HL­L(expr, [lgK, tgtHll­Type])`
 - `APPROX­_CO­UNT­_DI­STI­NCT­_DS­_TH­ETA­(expr, [size])`
@@ -259,6 +266,7 @@ You can make Druid SQL queries using the Avatica JDBC driver
 - `APPROX­_QU­ANT­ILE­_FI­XED­_BU­CKE­TS(­expr, probab­ility, numBuc­kets, lowerL­imit, upperL­imit, [outli­erH­and­lin­gMode]`
 
 ### Approx­imate Aggreg­ations
+
 - `BLOOM_­FIL­TER­(expr, numEnt­ries)`
 - `BLOOM_­FIL­TER­_TE­ST(­­ex­pr, se­ria­liz­ed-­fil­ter)`
 
@@ -301,7 +309,9 @@ COALES­CE(­value1, value2, ...)
 ```
 
 ### Numeric Functions
+
 Numeric functions will return 64 bit integers or 64 bit floats, depending on their inputs.
+
 - `ABS(expr)`
 - `CEIL(expr)`
 - `EXP(expr)`
@@ -319,7 +329,9 @@ Numeric functions will return 64 bit integers or 64 bit floats, depending on the
 - `MOD(x, y)`
 
 ### String Functions
+
 String functions accept strings, and return a type approp­riate to the function.
+
 - `CONCAT­(expr, expr...)`
 - `TEXTCA­T(expr, expr)`
 - `LENGTH­(expr)`
@@ -340,6 +352,7 @@ String functions accept strings, and return a type approp­riate to the function
 - `UPPER(­expr)`
 
 ### Time Functions
+
 - `CURREN­T_T­IME­STAMP`
 - `CURREN­T_DATE`
 - `DATE_T­RUN­C`

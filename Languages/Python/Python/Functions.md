@@ -16,7 +16,7 @@ Information passed to a function is called an argument, and information received
 def greet_user():
     """Display a simple greeting."""
     print('Hello!')
-	
+
 greet_user()
 ```
 
@@ -84,23 +84,23 @@ The `**` operator allows a parameter to collect an arbitrary number of keyword a
 # use arbitrary number of positional arguments using *
 def create_pizza(item_number, *toppings):
     pizza = {'Pizza number' : item_number}
-    
+
     for topping in toppings:
         pizza[topping] = 1
-    
+
     return pizza
-    
-    
+
+
 print (create_pizza(1, 'onion', 'tomato'))
 print (create_pizza(2, 'mushroom'))
 
 # use arbitrary number of keyword arguments using **
 def create_pizza(item_number, **toppings):
     pizza = {'Pizza number' : item_number}
-    
+
     for key, value in toppings.items():
         pizza[key] = value
-    
+
     return pizza
 
 print (create_pizza(1, topping1='onion', topping2='tomato'))
@@ -125,7 +125,7 @@ print_args(*data)
 ```python
 def print_kwargs(**kwargs):
     print(kwargs)
-    
+
 print_kwargs(foo='bar', hello='world')
 {'foo': 'bar', 'hello': 'world'}
 ```

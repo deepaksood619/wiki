@@ -122,6 +122,7 @@ Book - <https://www.principles.com/big-debt-crises> Free pdf
 - Socialist > Marxian Economics
 
 ## Marxian economics
+
 **Marxian economics**, or the **Marxian school of economics**, is a [heterodox](https://en.wikipedia.org/wiki/Heterodox_economics) school of political economic thought. Its foundations can be traced back to Marx [critique of political economy](https://en.wikipedia.org/wiki/Critique_of_political_economy). Marxian economics comprises several different theories and includes multiple schools of thought, which are sometimes opposed to each other, and in many cases Marxian analysis is used to complement or supplement other economic approaches.Because one does not necessarily have to be politically [Marxist](https://en.wikipedia.org/wiki/Marxism) to be economically Marxian, the two adjectives coexist in [usage](https://en.wikipedia.org/wiki/Usage) rather than being [synonymous](https://en.wikipedia.org/wiki/Synonym). They share a [semantic field](https://en.wikipedia.org/wiki/Semantic_field) while also allowing [connotative](https://en.wikipedia.org/wiki/Connotation) and [denotative](https://en.wikipedia.org/wiki/Denotation) differences
 
 - Austrian

@@ -54,7 +54,7 @@ The non-breaking hyphen ([`&#8209;`](https://www.w3schools.com/charsets/ref_utf_
 
 | **Result** | **Description** | **Entity Name** | **Entity Number** |
 |---|---|---|---|
-| ` ` | non-breaking space | `&nbsp;` | `&#160;` |
+| `` | non-breaking space | `&nbsp;` | `&#160;` |
 | `<` | less than | `&lt;` | `&#60;` |
 | `>` | greater than | `&gt;` | `&#62;` |
 | `&` | ampersand | `&amp;` | `&#38;` |
@@ -87,7 +87,6 @@ Here are some examples:
 | ́ | `O` | `O&#769;` | `Ó` |
 | ̂ | `O` | `O&#770;` | `Ô` |
 | ̃ | `O` | `O&#771;` | `Õ` |
-
 
 ## HTML Attributes
 

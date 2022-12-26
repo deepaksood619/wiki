@@ -18,14 +18,14 @@ You can use the **SELECT INTO OUTFILE S3** statement to query data from an Amazo
 
 ```sql
 -- move data to s3
-SELECT * FROM equifax_raw_response WHERE inserted_on BETWEEN '2016-01-01' AND '2019-08-31' 
-INTO OUTFILE S3 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_2016-01-01_to_2019-08-31' 
+SELECT * FROM equifax_raw_response WHERE inserted_on BETWEEN '2016-01-01' AND '2019-08-31'
+INTO OUTFILE S3 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_2016-01-01_to_2019-08-31'
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\n'
 MANIFEST ON;
 
 SELECT * FROM equifax_raw_response WHERE inserted_on LIMIT 100
-    INTO OUTFILE S3 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_escaped' 
+    INTO OUTFILE S3 's3-ap-south-1://stashfin-migration-data/rds/equifax_raw_response/equifax_raw_response_escaped'
     CHARACTER SET utf8mb4
     FIELDS TERMINATED BY ','
     OPTIONALLY ENCLOSED BY '"'
@@ -93,7 +93,7 @@ LOAD DATA FROM S3 [FILE | PREFIX | MANIFEST] 'S3-URI'
     [(col_name_or_user_var,...)]
     [SET col_name = expr,...]
 
-39385044 row(s) affected	246.881 sec/4 minutes
+39385044 row(s) affected 246.881 sec/4 minutes
 ```
 
 ## Parallel query for Aurora MySQL

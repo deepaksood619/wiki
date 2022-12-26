@@ -39,7 +39,7 @@ Types
     - Files: Gzip, Bzip, 7z, zip64 (zip64 format is an extension to the standard zip format that practically removes limits in sizes and the number of files inside of a zip archive)
     - Archivers: PKZIP
     - File systems: NTFS, HFS+, ZFS, exFAT
-    
+
         <https://www.quora.com/Is-HFS-better-than-exFAT>
 
 2. Multimedia

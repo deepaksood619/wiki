@@ -13,8 +13,8 @@ The available commands for execution are listed below. The most common, useful c
 ```bash
 Common commands:
     apply              Builds or changes infrastructure
-	The prefix -/+ means that Terraform will destroy and recreate the resource, rather than updating it in-place.
-	
+ The prefix -/+ means that Terraform will destroy and recreate the resource, rather than updating it in-place.
+
     console            Interactive console for Terraform interpolations
     destroy            Destroy Terraform-managed infrastructure
     env                Workspace management
@@ -23,8 +23,8 @@ Common commands:
     graph              Create a visual graph of Terraform resources
     import             Import existing infrastructure into Terraform
     init               Initialize a Terraform working directory
-	terraform init to download the latest version of the provider and build the .terraform directory.
-	
+ terraform init to download the latest version of the provider and build the .terraform directory.
+
     output             Read an output from a state file
     plan               Generate and show an execution plan
     providers          Prints a tree of the providers used in the configuration
@@ -32,17 +32,17 @@ Common commands:
     refresh            Update local state file against real resources
     show               Inspect Terraform state or plan
     state                This command has subcommands for advanced state management.
-	    list    List resources in the state
-	    mv      Move an item in the state
-	    pull    Pull current state and output to stdout
-	    push    Update remote state from a local state file
-	    rm      Remove instances from the state
-	    show    Show a resource in the state
-	
+     list    List resources in the state
+     mv      Move an item in the state
+     pull    Pull current state and output to stdout
+     push    Update remote state from a local state file
+     rm      Remove instances from the state
+     show    Show a resource in the state
+
     taint              Manually mark a resource for recreation
-	terraform taint aws_instance.example
+ terraform taint aws_instance.example
     untaint            Manually unmark a resource as tainted
-	terraform untaint aws_instance.example
+ terraform untaint aws_instance.example
     validate           Validates the Terraform files
     version            Prints the Terraform version
     workspace          Workspace management
