@@ -70,7 +70,7 @@ Another source of scale economies is the possibility of purchasing inputs at a l
 
 ## Efficient-market hypothesis
 
-Theefficient-market hypothesis(EMH) is a theory in [financial economics](https://en.wikipedia.org/wiki/Financial_economics) that states that [asset](https://en.wikipedia.org/wiki/Asset) prices fully reflect all available information. A direct implication is that it is impossible to "beat the market" consistently on a risk-adjusted basis since market prices should only react to new information.
+The efficient-market hypothesis (EMH) is a theory in [financial economics](https://en.wikipedia.org/wiki/Financial_economics) that states that [asset](https://en.wikipedia.org/wiki/Asset) prices fully reflect all available information. A direct implication is that it is impossible to "beat the market" consistently on a risk-adjusted basis since market prices should only react to new information.
 
 The efficient-market hypothesis was developed by [Eugene Fama](https://en.wikipedia.org/wiki/Eugene_Fama) who argued that stocks always trade at their fair value, making it impossible for investors to either purchase undervalued stocks or sell stocks for inflated prices.As such, it should be impossible to outperform the overall market through expert stock selection or market timing, and that the only way an investor can possibly obtain higher returns is by chance or by purchasing riskier investments.His 2012 study with [Kenneth French](https://en.wikipedia.org/wiki/Kenneth_French) supported this view, showing that the distribution of abnormal returns of US mutual funds is very similar to what would be expected if no fund managers had any skill---a necessary condition for the EMH to hold.
 
@@ -82,7 +82,7 @@ There is no quantitative measure of market efficiency and testing the idea is di
 
 ## Game Theory
 
-Game theoryis the study of [mathematical models](https://en.wikipedia.org/wiki/Mathematical_model) of strategic interaction between rational decision-makers.It has applications in all fields of [social science](https://en.wikipedia.org/wiki/Social_science), as well as in [logic](https://en.wikipedia.org/wiki/Logic) and [computer science](https://en.wikipedia.org/wiki/Computer_science). Originally, it addressed [zero-sum games](https://en.wikipedia.org/wiki/Zero-sum_game), in which one person's gains result in losses for the other participants. Today, game theory applies to a wide range of behavioral relations, and is now an [umbrella term](https://en.wikipedia.org/wiki/Umbrella_term) for the [science](https://en.wikipedia.org/wiki/Science) of logical decision making in humans, animals, and computers.
+Game theory is the study of [mathematical models](https://en.wikipedia.org/wiki/Mathematical_model) of strategic interaction between rational decision-makers.It has applications in all fields of [social science](https://en.wikipedia.org/wiki/Social_science), as well as in [logic](https://en.wikipedia.org/wiki/Logic) and [computer science](https://en.wikipedia.org/wiki/Computer_science). Originally, it addressed [zero-sum games](https://en.wikipedia.org/wiki/Zero-sum_game), in which one person's gains result in losses for the other participants. Today, game theory applies to a wide range of behavioral relations, and is now an [umbrella term](https://en.wikipedia.org/wiki/Umbrella_term) for the [science](https://en.wikipedia.org/wiki/Science) of logical decision making in humans, animals, and computers.
 
 - Patience - If you go to a car dealer and ask that you need a car urgent then he is not going to give you any offers, but if you say that I need a car but you will wait for the best offer and it's not urgent, then he will give you a good offer.
 
@@ -105,7 +105,7 @@ In [microeconomics](https://en.wikipedia.org/wiki/Microeconomics), supply and de
 
 ## Greater Fool Theory
 
-In [finance](https://en.wikipedia.org/wiki/Finance) and [economics](https://en.wikipedia.org/wiki/Economics), thegreater fool theorystates that the [price](https://en.wikipedia.org/wiki/Price) of an object is determined not by its [intrinsic value](https://en.wikipedia.org/wiki/Intrinsic_value_(finance)), but rather by the local and relative demand of a specific consumer. In an inflated market, a consumer, despite having broader market knowledge might pay an inflated price because of their needs and the local related-market value. Another consumer relative to their needs and assessment of market value may deem the price excessive. Thus to one consumer the commodity has a greater value than to another making the former look like a fool to the latter.
+In [finance](https://en.wikipedia.org/wiki/Finance) and [economics](https://en.wikipedia.org/wiki/Economics), thegreater fool theory states that the [price](https://en.wikipedia.org/wiki/Price) of an object is determined not by its [intrinsic value](https://en.wikipedia.org/wiki/Intrinsic_value_(finance)), but rather by the local and relative demand of a specific consumer. In an inflated market, a consumer, despite having broader market knowledge might pay an inflated price because of their needs and the local related-market value. Another consumer relative to their needs and assessment of market value may deem the price excessive. Thus to one consumer the commodity has a greater value than to another making the former look like a fool to the latter.
 
 <https://en.wikipedia.org/wiki/Greater_fool_theory>
 
@@ -248,7 +248,7 @@ the benefit gained from consuming one additional unit of a product or service.
 
 Marginal utility quantifies the added satisfaction that a [consumer](https://www.investopedia.com/articles/pf/10/know-your-consumer-protection-laws.asp) garners from consuming additional units of goods or services. The concept of marginal utility is used by economists to determine how much of an item consumers are willing to purchase. Positive marginal utility occurs when the consumption of an additional item increases the total utility, while negative marginal utility occurs when the consumption of an additional item decreases the total utility.
 
-## Ex - For instance, you like eating pizza, the second piece of pizza brings you more satisfaction than only eating one piece of pizza. It means your marginal utility from purchasing pizza is positive. However, after eating the second piece you feel full, and you would not feel any better from eating the third piece. This means your marginal utility from eating pizza is zero. Moreover, you might feel sick if you eat more than three pieces of pizza. At this time, your marginal utility is negative.In other words, a negative marginal utility indicates that every unit of goods or service consumed will do more harm than good, which will lead to the decrease of overall utility level, while the positive marginal utility indicates that every unit of goods or services consumed will increase the overall utility level
+Ex - For instance, you like eating pizza, the second piece of pizza brings you more satisfaction than only eating one piece of pizza. It means your marginal utility from purchasing pizza is positive. However, after eating the second piece you feel full, and you would not feel any better from eating the third piece. This means your marginal utility from eating pizza is zero. Moreover, you might feel sick if you eat more than three pieces of pizza. At this time, your marginal utility is negative.In other words, a negative marginal utility indicates that every unit of goods or service consumed will do more harm than good, which will lead to the decrease of overall utility level, while the positive marginal utility indicates that every unit of goods or services consumed will increase the overall utility level
 
 - **Zero marginal utility**is when having more of an item brings no extra measure of satisfaction. For example, if you receive two copies of the same issue of a magazine, that extra copy has little added value.
 - **Positive marginal utility**is when buying extra versions of an item is satisfying. One such example would be a store promotion where customers can walk out with a free pair of shoes if they buy two pairs up front.
@@ -260,19 +260,19 @@ Marginal utility quantifies the added satisfaction that a [consumer](https://www
 
 <https://www.investopedia.com/terms/m/marginalutility.asp>
 
-## Substitution Effect - As prices rise consumers will replace more expensive items with less costly alternatives
+### Substitution Effect - As prices rise consumers will replace more expensive items with less costly alternatives
 
-## Perfectly Inelastic Demand - Van Gogh Painting (There are only a fixed number of items)
+### Perfectly Inelastic Demand - Van Gogh Painting (There are only a fixed number of items)
 
-## Relatively Inelastic Demand - Oil (there are not a lot of alternatives)
+### Relatively Inelastic Demand - Oil (there are not a lot of alternatives)
 
-## Elastic Demand - Pizza (since there are a lot of substitutes)
+### Elastic Demand - Pizza (since there are a lot of substitutes)
 
 Consumer choice
 
 ## Tragedy of the commons / Externalities
 
-## Rebound effect - The rebound effect says that the benefits of energy efficiency might be reduced as people change their behavior
+### Rebound effect - The rebound effect says that the benefits of energy efficiency might be reduced as people change their behavior
 
 ## Blinkist - Economics for the Common Good by Jean Tirole (15 Jun 2018)
 

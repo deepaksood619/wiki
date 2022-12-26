@@ -97,15 +97,15 @@ Creating **psychological safety** in the workplace for learning, innovation, and
 - Use tools and protocols to shape how work is done
 - **Don't overlook governance.**
 
-## Mentors-- Does the firm prioritize mentorship? Do employees feel like they have advocates within the firm? Do the mentees eventually become the mentors?
+Mentors-- Does the firm prioritize mentorship? Do employees feel like they have advocates within the firm? Do the mentees eventually become the mentors?
 
-## Trust-- Do people at the firm trust those around and above them? If younger employees look left and right in a meeting, do they admire these people? Do they aspire to be in their bosses' shoes in the future?
+Trust-- Do people at the firm trust those around and above them? If younger employees look left and right in a meeting, do they admire these people? Do they aspire to be in their bosses' shoes in the future?
 
-## Strategy-- Do the "higher ups" value their employees' opinions? Do they encourage open discussions or do they "steer" the conversation? Do they value differing opinions or just say they do?
+Strategy-- Do the "higher ups" value their employees' opinions? Do they encourage open discussions or do they "steer" the conversation? Do they value differing opinions or just say they do?
 
-## Recruiting-- What types of qualities does the firm prioritize when hiring? How much emphasis is placed on character versus sheer intellectual horsepower? Where do they recruit from?
+Recruiting-- What types of qualities does the firm prioritize when hiring? How much emphasis is placed on character versus sheer intellectual horsepower? Where do they recruit from?
 
-## Accountability-- How has the firm handled disruptive colleagues? Are the most talented colleagues given exceptions or are they held to the same standard? How are good team players acknowledged and rewarded?
+Accountability-- How has the firm handled disruptive colleagues? Are the most talented colleagues given exceptions or are they held to the same standard? How are good team players acknowledged and rewarded?
 
 <https://blog.trello.com/hold-team-accountable-without-micromanaging>
 

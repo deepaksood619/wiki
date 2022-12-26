@@ -12,9 +12,11 @@ A blockchain is a data structure that enables identifying and tracking transacti
 
 ## Key Points
 
-- Trapdoor function
+### Trapdoor function
 
-A trapdoor function is a function that is easy to compute in one direction but difficult to compute in the opposite direction unless you have special information. Trapdoor functions are essential for public key encryption---that's why they are commonly used in blockchain development to represent the ideas of addresses and private keys.-  Chain Fork
+A trapdoor function is a function that is easy to compute in one direction but difficult to compute in the opposite direction unless you have special information. Trapdoor functions are essential for public key encryption - that's why they are commonly used in blockchain development to represent the ideas of addresses and private keys.
+
+### Chain Fork
 
 Blocks in the ledger are included in such a way as to build the longest chain, i.e., the chain with the greatest cumulative difficulty. Forking is a situation where there are two candidate blocks competing to form the longest blockchain and two miners discover a solution to the proof-of-work problem within a short period of time from each other. The network is then divided, because some nodes get blocks from miner #1 and some from miner #2.
 
@@ -24,15 +26,15 @@ A fork usually gets resolved in one block, because the probability that this sit
 
 ## Featues of Blockchain
 
-- Distributed / Decentralized - Data is replicated on all the nodes in a distributed P2P network, and each copy of the ledger is identical to others. It can also be decentralised with some lighter nodes not having full data storage with limited connection.
-- Consensus mechanism - All users in the network can come to a pre-determined programmable agreement on the method of validation and can be by consensus.
-- Irreversibility and crypto security - One would need to command at least 51% of the computing power (or nodes or stake) to take control of the bitcoin blockchain.
-- Cryptographically secure - That means that the minting of digital currency is secured by mathematical algorithms that make it very difficult to break. It prevents bad actors from creating fake transactions, erasing transactions, stealing funds, etc.
-- Finite-state machines - In Computer Science, a state machine is a machine that will analyze a series of inputs and based on those inputs will transition to a new state. Blockchains have one instance responsible for all the transactions being created by the system. There's one global truth that all nodes adhere to, they all share the same state.
+- **Distributed / Decentralized -** Data is replicated on all the nodes in a distributed P2P network, and each copy of the ledger is identical to others. It can also be decentralised with some lighter nodes not having full data storage with limited connection.
+- **Consensus mechanism -** All users in the network can come to a pre-determined programmable agreement on the method of validation and can be by consensus.
+- **Irreversibility and crypto security -** One would need to command at least 51% of the computing power (or nodes or stake) to take control of the bitcoin blockchain.
+- **Cryptographically secure -** That means that the minting of digital currency is secured by mathematical algorithms that make it very difficult to break. It prevents bad actors from creating fake transactions, erasing transactions, stealing funds, etc.
+- **Finite-state machines -** In Computer Science, a state machine is a machine that will analyze a series of inputs and based on those inputs will transition to a new state. Blockchains have one instance responsible for all the transactions being created by the system. There's one global truth that all nodes adhere to, they all share the same state.
 
 ## Points
 
-- Blockchains all start with a 'genesis state'.
+- Blockchains all start with a **genesis state**.
 - Each transaction in the Ethereum network is grouped into what are called blocks. A single block contains a set of transactions and each block points to the next block. This makes a chain of blocks aka blockchain.
 - Mining is when a specific group of nodes (miners) uses their computing power to create a block of valid transactions.
 - The processes of validating each block by having a miner provide a mathematical proof are called the 'proof of work' algorithm.
@@ -42,43 +44,55 @@ A fork usually gets resolved in one block, because the probability that this sit
 
 ## Components
 
-- Accounts
-  - Externally Owned Account
-    - Ether Balance
-  - Smart Contract Account
-    - Ether Balance
-    - Contract Code
-  - Every account has a state
-    - nonce
-      - represents number of transactions sent from the address of the account
-    - balance
-      - amount of Ether owned by the address
-    - storageRoot
-      - root node of its Merkle tree
-    - codeHash
-      - hash of the Ethereum Virtual Machine code
-  - Merkle Tree
+### Accounts
+- Externally Owned Account
+  - Ether Balance
+- Smart Contract Account
+  - Ether Balance
+  - Contract Code
+- Every account has a state
+  - nonce
+    - represents number of transactions sent from the address of the account
+  - balance
+    - amount of Ether owned by the address
+  - storageRoot
+    - root node of its Merkle tree
+  - codeHash
+    - hash of the Ethereum Virtual Machine code
+- Merkle Tree
 
 A Merkle tree is a type of binary tree composed of a set of nodes with lots of leaf nodes at the bottom of the tree that contains data. Intermediate nodes in a Merkle tree consist of nodes that have a hash of its two child nodes, and the root node is made up of the hash of its two child nodes, representing the top of the tree.
 
 ![image](media/Blockchain-image1.png)
+
 Data at the bottom of the Merkle tree is generated by splitting it into chunks, splitting chunks into buckets, and repeating the process using bucket hashes until there is only a single hash remaining (the root hash).
+
 ![usw ](media/Blockchain-image2.png)
+
 Each node of the tree has a key with an associated value; the key tells us which child node to follow to get to the corresponding value, which is stored in the leaf nodes. In the case of ethereum, the key/value mapping for the state tree is between the addresses and their accounts.
 
 Every blocks header stores the hash of the root node of what are essentially three different Merkle tree structures for the state, transactions, and receipts.
+
 ![image](media/Blockchain-image3.png)
+
 Merkle trees are supremely useful because its a very efficient way to store all this information, especially for light nodes. Ethereum uses light nodes and full nodes; full nodes must download the full blockchain, executing all the transactions contained in it. Light nodes must download only the chain of headers, without needing to execute any transactions or retrieving any associated state. This allows them to easily generate and receive verifiable answers about balances, events, etc.
 
 Merkle trees serve to help secure the blockchain because hashes in the Merkle tree propagate upward. If a bad actor tries to swap a fraudulent transaction into the bottom of the Merkle tree, it will cause a chain reaction in all the hashes in all the nodes above it.
+
 ![image](media/Blockchain-image4.png)
-A node that wants to verify some data can use whats called a 'Merkle proof". This contains some data to be verified, the root hash of the tree, and the tree branch (partner hashes going up along the path from the data chunk to the root hash). People who read the proof can verify that branch hashing is consistent throughout the tree.-  **Fees**
-    -  Every single computation/transaction on the Ethereum blockchain requires a fee. That fee is paid in whats called 'gas'. Gas is the unit Ethereum uses to measure computation fees. Gas price is an amount of Ether a node is willing to spend on every gas unit, measured in 'gwei' (since 'wei' is the smallest unit of Ether).
-    -  For each transaction, a sender sets a gas limit and a gas price. The gas limit represents the maximum gas the sender is willing to pay. If the sender doesn't provide the necessary gas to execute a transaction, the transaction is considered invalid. And since the Ethereum network had to expend computational effort to run the calculations before running out of gas, none of the gas gets refunded to the sender. The money spent on gas by the sender is sent to some miners address since miners are expanding the computational effort to validate transactions. The gas fee acts as a reward for the miners. Importantly, gas is used to pay for storage usage as well.
-    -  Fees help prevent users from overtaxing the Ethereum network. Its very computationally expensive to run computational steps on the Ethereum Virtual Machine, so smart contracts should be used for simple tasks like verifying ownership instead of more complex tasks like machine learning or file storage. Fees also help protect the network from malicious attacks. Ethereum has its own Turing complete programming language called Solidity for creating smart contracts. Turing complete means it can simulate any computer algorithm. It allows for-loops, so a bad actor could disrupt the network by executing an infinite loop within a transaction, but thanks to fees this becomes infeasible.
-    -  There are two types of transactions in Ethereum, the message call and the contract creation (creates new smart contracts). Both are initiated by externally owned accounts and submitted to the blockchain. They are what bridge the external world to the internal state of Ethereum. Contracts can talk to other contracts via messages. Messages are like internal transactions. These messages are generated by contracts, and when one contract sends a message to another, the code that exists on the recipient contract account is executed.-  **Ethereum Virtual Machine**
+
+A node that wants to verify some data can use whats called a 'Merkle proof". This contains some data to be verified, the root hash of the tree, and the tree branch (partner hashes going up along the path from the data chunk to the root hash). People who read the proof can verify that branch hashing is consistent throughout the tree.
+
+### Fees
+-  Every single computation/transaction on the Ethereum blockchain requires a fee. That fee is paid in whats called 'gas'. Gas is the unit Ethereum uses to measure computation fees. Gas price is an amount of Ether a node is willing to spend on every gas unit, measured in 'gwei' (since 'wei' is the smallest unit of Ether).
+-  For each transaction, a sender sets a gas limit and a gas price. The gas limit represents the maximum gas the sender is willing to pay. If the sender doesn't provide the necessary gas to execute a transaction, the transaction is considered invalid. And since the Ethereum network had to expend computational effort to run the calculations before running out of gas, none of the gas gets refunded to the sender. The money spent on gas by the sender is sent to some miners address since miners are expanding the computational effort to validate transactions. The gas fee acts as a reward for the miners. Importantly, gas is used to pay for storage usage as well.
+-  Fees help prevent users from overtaxing the Ethereum network. Its very computationally expensive to run computational steps on the Ethereum Virtual Machine, so smart contracts should be used for simple tasks like verifying ownership instead of more complex tasks like machine learning or file storage. Fees also help protect the network from malicious attacks. Ethereum has its own Turing complete programming language called Solidity for creating smart contracts. Turing complete means it can simulate any computer algorithm. It allows for-loops, so a bad actor could disrupt the network by executing an infinite loop within a transaction, but thanks to fees this becomes infeasible.
+-  There are two types of transactions in Ethereum, the message call and the contract creation (creates new smart contracts). Both are initiated by externally owned accounts and submitted to the blockchain. They are what bridge the external world to the internal state of Ethereum. Contracts can talk to other contracts via messages. Messages are like internal transactions. These messages are generated by contracts, and when one contract sends a message to another, the code that exists on the recipient contract account is executed.
+
+### Ethereum Virtual Machine
 
 ![EVM ROM](media/Blockchain-image5.png)
+
 The EVM is a complete virtual machine, and its only limitation is that its bound by gas. Meaning the total amount of computation it can do is limited by the amount of gas provided. Its a stack-based architecture (last-in, first-out). It has temporary memory and long-term storage. It even has its own language! (called EVM bytecode). When we write smart contracts, it's in a higher level language like Solidity, but this compiles down to EVM bytecode.
 
 ## Hyperledger
@@ -87,9 +101,9 @@ Hyperledger is an open source community focused on developing a suite of stable 
 It serves as a neutral home for various distributed ledger frameworks including Hyperledger Fabric, Sawtooth, Indy, as well as tools like Hyperledger Caliper and libraries like Hyperledger Ursa.
 <https://www.hyperledger.org>
 
-## Hyperledger Fabric
+### Hyperledger Fabric
 
-## Type: Distributed ledger software
+**Type: Distributed ledger software**
 
 Hyperledger Fabric is intended as a foundation for developing applications or solutions with a modular architecture. Hyperledger Fabric allows components, such as consensus and membership services, to be plug-and-play. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.
 <https://www.hyperledger.org/use/fabric>
@@ -108,53 +122,6 @@ Below are some of the key features of Hyperledger Fabric and what differentiates
 - Flexible endorsement model for achieving consensus across required organizations
 - Queryable data (key-based queries and JSON queries)
 [Blockchain 102 and The Dark Side of Blockchain](https://www.youtube.com/watch?v=-so3AtnToek)
-
-## Proof of Authority (PoA)
-
-- Blocks must be signed by a sufficient quorum of "authoritative" nodes
-- Very simple,, very efficient
-- Requires trust in the authorities
-  - How are they chosen?
-- Basically: A PKI, a databases, and a hashchain in a trenchcoat
-- Standard construction for "private"/"permissioned" blockchains
-
-## Proof of Stake
-
-- Like PoA, but authority is indirectly established by "stake", suh as token holdings
-- May offer integrated punishement mechanism for malicious nodes: slashing
-- Current **holy grail** to get of the nergy waste stigma (both Ethereum and IOTA plan to pivot to PoS)
-- Slight problems
-  - How is stake initally distributed?
-    - Popular: Sale of tokens
-    - Alternative: Bootstrap off of existing blockchains
-  - No built-in defence against centralization. No Sybil resistance
-    - Even if bootstrapped correctly, may become centralized without any visible sign
-
-## Proof of Storage
-
-- Example: Chia (2018)
-  - Increased wear destroys SSDs after less than a year
-  - No use beyond price speculation
-
-## Proof of Elapsed Time (2016)
-
-- Instead of computing hashes for PoW, just do: nothing! Go to sleep!
-- Incredible enery savings compared to PoW
-- Drop-in solution, behaves exactly like PoW
-- Used in permissioned environments
-- Small questions: What guarantees do other nodes have that no node wakes up before its time?
-  - Intel SGX
-- See also: Proof of Luck (PoL)
-
-## mobilecoin (2020): Proof of complexity
-
-- Mobile-device focused
-- Pulls every cryptographic register there is
-  - Stellar consensus
-  - Zero-knowledge proofs for everything
-  - Ristretoo, Schnorr anonymous signatures, Pedersen commitments
-- Security against double-spending completely relies on Intel SGX enclaves
-- Entire token supply is pre-mined
 
 ## DAO - Decentralized Autonomous Organization
 
@@ -181,14 +148,6 @@ Below are some of the key features of Hyperledger Fabric and what differentiates
 - Smart contracts allow automatic execution of contract stipulations, no matter their form
 - Classic: Arbitrage between different platforms
 - New: Uncollateralized flash loans
-
-## Decentralized Finance - DeFi
-
-- Allow most operations traditional financial instruments, but on The Blockchain
-  - Borrowing, Lending
-  - Price speculation
-  - Swapping once ERC-20 token for another
-    - F.e. Uniswap
 
 ## Self-soverign identities (SSI)
 

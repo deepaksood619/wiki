@@ -38,18 +38,13 @@ Overall, both Power BI and Google data studio are similar when it comes to data 
 ## Others
 
 1. QlikView
-
 2. Klipfolio
-
 3. Geckoboard
-
 4. Google Data Studio
-
 5. Domo
-
 6. SSRS (Sql Server Reporting Services)
 
-SQL Server Reporting Services(SSRS)is a server-based report generating software system from [Microsoft](https://en.wikipedia.org/wiki/Microsoft). It is part of a suite of [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server) services, including SSAS ([SQL Server Analysis Services](https://en.wikipedia.org/wiki/SQL_Server_Analysis_Services)) and SSIS ([SQL Server Integration Services](https://en.wikipedia.org/wiki/SQL_Server_Integration_Services)).
+    SQL Server Reporting Services(SSRS)is a server-based report generating software system from [Microsoft](https://en.wikipedia.org/wiki/Microsoft). It is part of a suite of [Microsoft SQL Server](https://en.wikipedia.org/wiki/Microsoft_SQL_Server) services, including SSAS ([SQL Server Analysis Services](https://en.wikipedia.org/wiki/SQL_Server_Analysis_Services)) and SSIS ([SQL Server Integration Services](https://en.wikipedia.org/wiki/SQL_Server_Integration_Services)).
 
 7. Sisense - <https://www.sisense.com>
 
@@ -57,11 +52,11 @@ SQL Server Reporting Services(SSRS)is a server-based report generating software 
 
 <https://medium.com/activewizards-machine-learning-company/a-comparative-analysis-of-top-6-bi-and-data-visualization-tools-in-2018-658490665973>
 
-## redash
+## Redash
 
 Redashwas built to allow fast and easy access to billions of records, that we process and collect using Amazon Redshift ("petabyte scale data warehouse" that "speaks" PostgreSQL). TodayRedashhas support for querying multiple databases, including: Redshift, Google BigQuery, PostgreSQL, MySQL, Graphite, Presto, Google Spreadsheets, Cloudera Impala, Hive and custom scripts.
 
-## Redashconsists of two parts
+### Redash consists of two parts
 
 1. **Query Editor:** think of [JS Fiddle](https://jsfiddle.net/) for SQL queries. It's your way to share data in the organization in an open way, by sharing both the dataset and the query that generated it. This way everyone can peer review not only the resulting dataset but also the process that generated it. Also it's possible to fork it and generate new datasets and reach new insights.
 
@@ -95,7 +90,7 @@ Metabase is an open source business intelligence tool. It lets you ask questions
 
 Your questions can be saved for later, making it easy to come back to them, or you can group questions into great looking dashboards. Metabase also makes it easy to share questions and dashboards with the rest of your team.
 
-docker run -p 3000:3000 --name metabase metabase/metabase
+`docker run -p 3000:3000 --name metabase metabase/metabase`
 
 <https://www.metabase.com/docs/latest/users-guide/01-what-is-metabase.html>
 
@@ -104,3 +99,7 @@ docker run -p 3000:3000 --name metabase metabase/metabase
 <https://www.metabase.com/learn>
 
 <https://github.com/metabase/metabase>
+
+## Others
+
+<https://www.talend.com/>

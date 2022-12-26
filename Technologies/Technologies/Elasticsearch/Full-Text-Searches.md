@@ -19,9 +19,7 @@ Typically, an entity will correspond to a table in your database, and the attrib
 ## Document-based search solutions
 
 1. Elastic
-
 2. Solr
-
 3. vespa
 
 ## Faceted Search
@@ -30,7 +28,7 @@ Faceted searchis a technique that involves augmenting traditional search techniq
 
 Facets correspond to properties of the information elements. They are often derived by analysis of the text of an item using [entity extraction](https://en.wikipedia.org/wiki/Entity_extraction) techniques or from pre-existing fields in a database such as author, descriptor, language, and format. Thus, existing web-pages, product descriptions or online collections of articles can be augmented with navigational facets.
 
-![第 - を エ 言 篭 「 第 」 っ 3 エ ト 0 ト 製 3 》 山 0 A 《 0 ・ 1X3 要 0 山 ト - ′ っ " を 《 、 新 ・ ・ 0 編 う 誕 0 《 5 ・ 09 マ 岩 鵞 と ど を 騨 と 1 当 凸 UP(SIPUöd 1M 」 ー 0 メ 83 / ミ 3 0000 OR + 4 へ 」 工 0 ま 01 -5 ト ~ 30 っ ト S Nan 一 N ミ 0M 一 0 " 亠 」 コ ト 0 口 当 あ ロ ま k ロ を ロ メ 8 ロ & - 品 国 新 0 ロ 一 を 0 国 ) ロ - 第 20 ロ ロ 器 物 う ロ を 口 型 d 第 4 ロ 物 ト ロ - ~ 新 ロ ま A ト ト 0 っ 00 を 4 直 び 一 」 。 や ロ 都 5 」 0 = ど ど ロ 盟 、 び 」 ロ 、 ま de ま ロ ⅸ っ 0100 都 占 ロ ロ in ロ 91 ロ 一 サ コ ロ 9 ロ ](../../media/Technologies-Elasticsearch-Full-Text-Searches-image1.jpg)
+![media](../../media/Technologies-Elasticsearch-Full-Text-Searches-image1.jpg)
 
 <https://en.wikipedia.org/wiki/Faceted_search>
 
@@ -65,9 +63,7 @@ If you guessed all three, then you're right. But that's not always the case. Let
 This has a lot to do with how the data is being indexed, and there are three main options to choose from:
 
 1. start of string (e.g. 'the chain')
-
 2. start of each word (e.g. 'chains')
-
 3. all substrings (e.g. 'smokers', or 'ainsmoke')
 
 Again, more is not always better. Pick the one most suited to what your users are likely to search.
@@ -101,9 +97,7 @@ Showing results
 Here's when the fun starts! Results can be shown in 3 basic formats:
 
 - quick preview --- a popup showing around 10 top results
-
 - result summary --- a full page showing the main results for each entity
-
 - all results --- all of the results of a specific entity
 
 <https://uxdesign.cc/designing-an-omni-search-29c6cb6ec3f7>

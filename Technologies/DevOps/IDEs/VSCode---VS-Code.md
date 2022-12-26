@@ -80,13 +80,8 @@ codeanywhere
 - `cmd + opt + ->`
 - `cmd + K + cmd + S` = show all shortcuts
 
-### Markdown shortcuts
-
-- drag and drop image (with shift) to automatically create links
-<https://code.visualstudio.com/docs/languages/markdown>
-- cmd + shift + o - quickly switch headers
-- cmd + K, V - (side-by-side preview)
-- Shift + cmd + V - (live preview) (double click to edit)
+## Changed commands
+- `cmd+y` = toggle sidebar (because `cmd+b` conflicts with markdown-all-in-one bold shortcut)
 
 ## Navigation
 
