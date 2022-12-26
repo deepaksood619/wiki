@@ -91,6 +91,9 @@ Well Known Deterministic online paging algorithms -
 1. FIFO (First-In First-Out) - Evict the page that has been in fast memory longest.
 2. LRU (Least Recently Used) - On a fault, evict the page in fast memory that was requested least recently.
 3. LFU (Least Frequently Used) - Evict the page that has been requested least frequently
+    
+    <https://arpitbhayani.me/blogs/lfu>
+    
 4. MIN - On a fault, evict the page whose next request occurs furthest in the future.
 5. ARC (Adaptive Replacement Cache)
 
