@@ -226,8 +226,8 @@ volume4 = Volume(name="index", configs={"configMap": {"name": "lms-index-configm
  }
 
 env_vars = {
-    "AWS_ACCESS_KEY_ID": "AKIAU2R6AAK3JYYQGE3L",
-    "AWS_SECRET_ACCESS_KEY": "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",
+    "AWS_ACCESS_KEY_ID": "xxx",
+    "AWS_SECRET_ACCESS_KEY": "xxx",
     "AWS_REGION_NAME": "ap-south-1",
     "config": "{{ dag_run.conf }}",
 }

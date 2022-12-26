@@ -15,11 +15,8 @@ Modified: 2022-10-26 21:30:50 +0500
 ## CA
 
 1. Insurance receipt
-
 2. NGO receipt
-
 3. Add your name while filling, and not from my portal
-
 4. HUF / consultant (for better tax savings)
 
 F&O - 2.5 lakh profit exemption per financial year
@@ -32,18 +29,14 @@ Vehicle registration no - CG18N0950
 
 <https://billgenerator.in>
 
-Share driver receipt 10K
+- Share driver receipt 10K
+- Fuel receipts 15K
+- LTA 191330
+- Telephone 3K
+- Periodicals 2K
 
-Fuel receipts 15K
 
-LTA 191330
-
-Telephone 3K
-
-Periodicals 2K
-
-Consultant - 194J instead 192
-
+- Consultant - 194J instead 192
 - Donation to NGO for tax savings
 - Donation to political party for tax savings
 
