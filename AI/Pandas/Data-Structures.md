@@ -6,7 +6,7 @@ Modified: 2020-03-28 16:55:43 +0500
 
 ---
 
-*class*pandas.**DataFrame**(*data=None*,*index=None*,*columns=None*,*dtype=None*,*copy=False*)
+*class* pandas. **DataFrame** (*data=None*,*index=None*, *columns=None*, *dtype=None*, *copy=False*)
 
 Two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. The primary pandas data structure.
 
@@ -17,17 +17,17 @@ Two-dimensional size-mutable, potentially heterogeneous tabular data structure w
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Parameters:</strong></th>
-<th><p><strong>data</strong>: numpy ndarray (structured or homogeneous), dict, or DataFrame</p>
+<th>Parameters:</th>
+<th><p>data: numpy ndarray (structured or homogeneous), dict, or DataFrame</p>
 <p>Dict can contain Series, arrays, constants, or list-like objects</p>
 <p>Changed in version 0.23.0:If data is a dict, argument order is maintained for Python 3.6 and later.</p>
-<p><strong>index</strong>: Index or array-like</p>
+<p>index: Index or array-like</p>
 <p>Index to use for resulting frame. Will default to RangeIndex if no indexing information part of input data and no index provided</p>
-<p><strong>columns</strong>: Index or array-like</p>
+<p>columns: Index or array-like</p>
 <p>Column labels to use for resulting frame. Will default to RangeIndex (0, 1, 2, …, n) if no column labels are provided</p>
-<p><strong>dtype</strong>: dtype, default None</p>
+<p>dtype: dtype, default None</p>
 <p>Data type to force. Only a single dtype is allowed. If None, infer</p>
-<p><strong>copy</strong>: boolean, default False</p>
+<p>copy: boolean, default False</p>
 <p>Copy data from inputs. Only affects DataFrame / 2d ndarray input</p></th>
 </tr>
 </thead>
