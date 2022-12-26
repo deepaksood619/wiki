@@ -166,20 +166,23 @@ headers = {
 ## example Standard DAG
 
 ```python
- from airflow import DAG
+from airflow import DAG
 from airflow.contrib.kubernetes.volume import Volume
 from airflow.contrib.kubernetes.volume_mount import VolumeMount
 from airflow.contrib.operators.kubernetes_pod_operator import KubernetesPodOperator
 from airflow.contrib.operators.slack_webhook_operator import SlackWebhookOperator
 from airflow.hooks.base_hook import BaseHook
 from airflow.utils.dates import days_ago
- cron_path = "curl https://lms.stasheasy.com/cronjobEasy/Elev8AutomateMessageScript?stage_code=ELVKYC"
+
+cron_path = "curl https://lms.stasheasy.com/cronjobEasy/Elev8AutomateMessageScript?stage_code=ELVKYC"
 cron_name = "lms_elev8_elvkyc"
 image_name = "331916247734.dkr.ecr.ap-south-1.amazonaws.com/lms/prod:latest"
+
 schedule_interval = "0 4 * * *" / "@once" / "0 * * * Tue"
 labels = {"project": "lms"}
- SLACK_CONN_ID = "monitoring"
- volume_mount1 = VolumeMount(
+
+SLACK_CONN_ID = "monitoring"
+volume_mount1 = VolumeMount(
     "system",
     mount_path="/var/www/html/application/config/system.php",
     sub_path="system.php",
@@ -203,7 +206,7 @@ volume_mount4 = VolumeMount(
     sub_path="index.php",
     read_only=True,
 )
- volume1 = Volume(name="system", configs={"configMap": {"name": "lms-system-configmap"}})
+volume1 = Volume(name="system", configs={"configMap": {"name": "lms-system-configmap"}})
 volume2 = Volume(
     name="database", configs={"configMap": {"name": "lms-database-configmap"}}
 )
@@ -222,61 +225,65 @@ volume4 = Volume(name="index", configs={"configMap": {"name": "lms-index-configm
      {{ end }}""",
  }
 
- env_vars = {
+env_vars = {
     "AWS_ACCESS_KEY_ID": "AKIAU2R6AAK3JYYQGE3L",
     "AWS_SECRET_ACCESS_KEY": "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",
     "AWS_REGION_NAME": "ap-south-1",
     "config": "{{ dag_run.conf }}",
 }
- def task_fail_slack_alert(context):
-    slack_hook = BaseHook.get_connection(SLACK_CONN_ID).password
-    slack_msg = f"""
-            :red_circle: Task Failed.
-            *Task*: {context.get("task_instance").task_id}
-            *Dag*: {context.get("task_instance").dag_id}
-            *Execution Time*: {context.get("execution_date")}
-            *Owner*: <@U012YUW8QJK>
-            *Log Url*: {context.get("task_instance").log_url}
-            """
-    failed_alert = SlackWebhookOperator(
-        task_id="alerting",
-        http_conn_id=SLACK_CONN_ID,
-        webhook_token=slack_hook,
-        message=slack_msg,
-        channel="#cron",
-        username="airflow",
-    )
- return failed_alert.execute(context=context)
- default_args = {
-    "owner": "airflow",
-    "depends_on_past": False,
-    "start_date": days_ago(1),/"start_date": datetime(2021, 1, 19),(for weekly/monthly)
-    "on_failure_callback": task_fail_slack_alert,
+
+def task_fail_slack_alert(context):
+slack_hook = BaseHook.get_connection(SLACK_CONN_ID).password
+slack_msg = f"""
+        :red_circle: Task Failed.
+        *Task*: {context.get("task_instance").task_id}
+        *Dag*: {context.get("task_instance").dag_id}
+        *Execution Time*: {context.get("execution_date")}
+        *Owner*: <@U012YUW8QJK>
+        *Log Url*: {context.get("task_instance").log_url}
+        """
+failed_alert = SlackWebhookOperator(
+    task_id="alerting",
+    http_conn_id=SLACK_CONN_ID,
+    webhook_token=slack_hook,
+    message=slack_msg,
+    channel="#cron",
+    username="airflow",
+)
+return failed_alert.execute(context=context)
+default_args = {
+"owner": "airflow",
+"depends_on_past": False,
+"start_date": days_ago(1),/"start_date": datetime(2021, 1, 19),(for weekly/monthly)
+"on_failure_callback": task_fail_slack_alert,
 }
- dag = DAG(
-    cron_name,
-    default_args=default_args,
-    catchup=False,
-    schedule_interval=schedule_interval,
-  max_active_runs=1,
- )
- passing = KubernetesPodOperator(
-    namespace="crons",
-    image=image_name,
- startup_timeout_seconds=240,
-     cmds=["/bin/bash", "-c", cron_path],
-    labels=labels,
-    name=cron_name,
-    image_pull_policy="Always",
-    task_id=cron_name,
-  annotations=annotations,
-     env_vars=env_vars,
-     get_logs=True,
-    dag=dag,
-    volumes=[volume1, volume2, volume3, volume4],
-    volume_mounts=[volume_mount1, volume_mount2, volume_mount3, volume_mount4],
-  is_delete_operator_pod=True,
- )
+
+dag = DAG(
+cron_name,
+default_args=default_args,
+catchup=False,
+schedule_interval=schedule_interval,
+max_active_runs=1,
+)
+
+passing = KubernetesPodOperator(
+namespace="crons",
+image=image_name,
+startup_timeout_seconds=240,
+    cmds=["/bin/bash", "-c", cron_path],
+labels=labels,
+name=cron_name,
+image_pull_policy="Always",
+task_id=cron_name,
+annotations=annotations,
+    env_vars=env_vars,
+    get_logs=True,
+dag=dag,
+volumes=[volume1, volume2, volume3, volume4],
+volume_mounts=[volume_mount1, volume_mount2, volume_mount3, volume_mount4],
+is_delete_operator_pod=True,
+)
+
 passing
 
 ```

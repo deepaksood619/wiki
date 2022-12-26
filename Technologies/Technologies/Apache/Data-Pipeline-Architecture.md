@@ -139,8 +139,6 @@ We will have administration capabilities via Apache Ambari.
 
 Real-time free stock data is available from IEX with no license key. The data streams in very fast, thankfully that's no issue for Apache NiFi and Kafka.
 
-<<https://api.iextrading.com/1.0/stock/market/batch?symbols=hdp&types=quote>, news, chart&range=1y&last=25000>
-
 <https://dzone.com/articles/real-time-stock-processing-with-apache-nifi-and-ap>
 
 ## example Streaming Architecture
